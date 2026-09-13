@@ -2,6 +2,7 @@
 # نقشه کامل پروژه برای ناوبری سریع در هر session
 # آپدیت: 2026-07-08
 # ⚠️ 2026-09-13: Umbau zur reinen Web-App — android/ios/macos/linux/windows, RevenueCat & Notifications entfernt; ältere Einträge beschreiben teils den nativen Stand
+# ⚠️ 2026-09-13: Habit/Routine entfernt — Root-in (eigenes Repo, lukasylilli.github.io/Root-in/) übernimmt das, verlinkt aus Selbstlernen ("Routine"-Karte, core/constants/app_links.dart + core/utils/external_link_opener.dart). Pomodoro bleibt unverändert.
 #
 # 🎯 وضعیت: ۲۴۴ فایل Dart (۱۶۳ features + ۷۷ core) — analyze سبز
 # فاز V (Vokabular-DB ۲۵k) طراحی شد — کجا کلمات ذخیره می‌شوند + معماری آینده: بخش «فاز V» + Services
