@@ -1,0 +1,171 @@
+{
+  "schema": "3.0",
+  "id": "verb_gehoeren",
+  "wort": "gehören",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تعلق داشتن",
+      "مالِ ... بودن"
+    ],
+    "en": [
+      "to belong to"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ɡəˈhøːʁən",
+  "anmerkung": "Regelmäßig. jemandem gehören = مالِ کسی بودن. Der Besitz ist das Subjekt (Nominativ). Auch: gehören zu + Dat.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Wem gehört die Jacke?",
+      "uebersetzung": {
+        "fa": "این ژاکت مال کیست؟",
+        "en": "Who does the jacket belong to?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Das Auto gehört meinem Bruder.",
+      "uebersetzung": {
+        "fa": "این ماشین مال برادرم است.",
+        "en": "The car belongs to my brother."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "besitzen",
+      "uebersetzung": {
+        "fa": "دارا بودن (+ Akk)",
+        "en": "to own (+ Akk)"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ge- + hören (شنیدن/متعلق بودن)",
+    "en": "ge- + hören (to hear/belong)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "gehören + Dat",
+        "bedeutung": "jemandem gehören",
+        "beispiel": "Das Buch gehört mir.",
+        "uebersetzung": {
+          "fa": "این کتاب مال من است.",
+          "en": "The book belongs to me."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "gehören",
+      "praeteritum": "gehörte",
+      "partizip2": "gehört"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehöre",
+        "du": "gehörst",
+        "er_sie_es": "gehört",
+        "wir": "gehören",
+        "ihr": "gehört",
+        "sie_Sie": "gehören"
+      },
+      "praeteritum": {
+        "ich": "gehörte",
+        "du": "gehörtest",
+        "er_sie_es": "gehörte",
+        "wir": "gehörten",
+        "ihr": "gehörtet",
+        "sie_Sie": "gehörten"
+      },
+      "imperativ": {
+        "du": "Gehöre!",
+        "ihr": "Gehört!",
+        "Sie": "Gehören Sie!"
+      }
+    },
+    "partizip1": "gehörend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehören",
+    "woerter": [
+      {
+        "wort": "besitzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دارا بودن",
+          "en": "to own"
+        },
+        "id_ref": "verb_besitzen"
+      },
+      {
+        "wort": "der Besitzer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مالک",
+          "en": "owner"
+        },
+        "id_ref": "nomen_besitzer"
+      },
+      {
+        "wort": "das Eigentum",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مالکیت، دارایی",
+          "en": "property"
+        },
+        "id_ref": "nomen_eigentum"
+      },
+      {
+        "wort": "haben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "داشتن",
+          "en": "to have"
+        },
+        "id_ref": "verb_haben"
+      },
+      {
+        "wort": "mieten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اجاره کردن",
+          "en": "to rent"
+        },
+        "id_ref": "verb_mieten"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Wem gehört die Jacke?",
+      "dativ": [
+        "Wem"
+      ],
+      "akkusativ": [],
+      "uebersetzung": {
+        "fa": "این ژاکت مال کیست؟",
+        "en": "Who does the jacket belong to?"
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

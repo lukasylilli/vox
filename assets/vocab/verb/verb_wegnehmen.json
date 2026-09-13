@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_wegnehmen",
+  "wort": "wegnehmen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گرفتن، برداشتن (از کسی)"
+    ],
+    "en": [
+      "to take away"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈvɛkˌneːmən",
+  "anmerkung": "Trennbar: Ich nehme … weg. Unregelmäßig (e→i: du nimmst weg, er nimmt weg; nahm weg, weggenommen). Konstruktion: jemandem (Dat) etwas (Akk) wegnehmen.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Max nahm seiner Schwester das Spielzeug weg.",
+      "uebersetzung": {
+        "fa": "مکس اسباب‌بازی را از خواهرش گرفت.",
+        "en": "Max took the toy away from his sister."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Lehrer hat dem Schüler das Handy weggenommen.",
+      "uebersetzung": {
+        "fa": "معلم موبایل را از دانش‌آموز گرفت.",
+        "en": "The teacher took the phone away from the student."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "entziehen",
+      "uebersetzung": {
+        "fa": "سلب کردن",
+        "en": "to take away, to withdraw"
+      }
+    },
+    {
+      "wort": "nehmen",
+      "uebersetzung": {
+        "fa": "گرفتن",
+        "en": "to take"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "geben",
+      "uebersetzung": {
+        "fa": "دادن",
+        "en": "to give"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "weg (دور) + nehmen (گرفتن)",
+    "en": "weg (away) + nehmen (to take)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "wegnehmen + Dat + Akk",
+        "bedeutung": "jemandem etwas wegnehmen",
+        "beispiel": "Nimm dem Kind die Schere weg!",
+        "uebersetzung": {
+          "fa": "قیچی را از کودک بگیر!",
+          "en": "Take the scissors away from the child!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "wegnehmen",
+      "praeteritum": "nahm weg",
+      "partizip2": "weggenommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "nehme weg",
+        "du": "nimmst weg",
+        "er_sie_es": "nimmt weg",
+        "wir": "nehmen weg",
+        "ihr": "nehmt weg",
+        "sie_Sie": "nehmen weg"
+      },
+      "praeteritum": {
+        "ich": "nahm weg",
+        "du": "nahmst weg",
+        "er_sie_es": "nahm weg",
+        "wir": "nahmen weg",
+        "ihr": "nahmt weg",
+        "sie_Sie": "nahmen weg"
+      },
+      "imperativ": {
+        "du": "Nimm weg!",
+        "ihr": "Nehmt weg!",
+        "Sie": "Nehmen Sie weg!"
+      }
+    },
+    "partizip1": "wegnehmend",
+    "nominalisierung": "das Wegnehmen"
+  },
+  "wortnetz": {
+    "grundwort": "nehmen",
+    "woerter": [
+      {
+        "wort": "nehmen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گرفتن",
+          "en": "to take"
+        },
+        "id_ref": "verb_nehmen"
+      },
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "entziehen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سلب کردن",
+          "en": "to withdraw"
+        },
+        "id_ref": "verb_entziehen"
+      },
+      {
+        "wort": "zurückgeben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پس دادن",
+          "en": "to give back"
+        },
+        "id_ref": "verb_zurueckgeben"
+      },
+      {
+        "wort": "stehlen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دزدیدن",
+          "en": "to steal"
+        },
+        "id_ref": "verb_stehlen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Max nahm seiner Schwester das Spielzeug weg.",
+      "dativ": [
+        "seiner Schwester"
+      ],
+      "akkusativ": [
+        "das Spielzeug"
+      ],
+      "uebersetzung": {
+        "fa": "مکس اسباب‌بازی را از خواهرش گرفت.",
+        "en": "Max took the toy away from his sister."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

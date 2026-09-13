@@ -1,0 +1,1135 @@
+Views/DesignSystem/ButtonShowcasePage.swift
+import SwiftUI
+
+/// صفحهٔ نمایش تمام سبک‌های دکمه — فقط برای مرور و انتخاب، نه برای استفادهٔ نهایی در اپ.
+struct ButtonShowcasePage: View {
+    @State private var isToggled = false
+    @State private var selectedChip: Int = 0
+    @State private var isLoading = false
+
+    var body: some View {
+        ScrollView {
+            VStack(alignment: .leading, spacing: 32) {
+
+                section("۱. بر اساس اولویت (Filled / Outlined / Ghost)") {
+                    HStack(spacing: 12) {
+                        ShowcaseButton(title: "Primary", style: .filled(color: .blue))
+                        ShowcaseButton(title: "Outlined", style: .outlined(color: .blue))
+                        ShowcaseButton(title: "Ghost", style: .ghost(color: .blue))
+                    }
+                }
+
+                section("۲. سبک نرم و سه‌بعدی (Soft / Clay)") {
+                    HStack(spacing: 12) {
+                        ShowcaseButton(title: "Soft", style: .soft(color: .purple))
+                        ShowcaseButton(title: "Clay", style: .clay(color: .orange))
+                    }
+                }
+
+                section("۳. گرادینت") {
+                    ShowcaseButton(title: "Gradient Button", style: .gradient(colors: [.pink, .purple]))
+                }
+
+                section("۴. شکل — گوشه‌گرد در مقابل کاملاً بیضی (Pill)") {
+                    HStack(spacing: 12) {
+                        ShowcaseButton(title: "Rounded", style: .filled(color: .green), shape: .rounded(12))
+                        ShowcaseButton(title: "Pill Shape", style: .filled(color: .green), shape: .pill)
+                    }
+                }
+
+                section("۵. فقط آیکون / دایره‌ای (FAB)") {
+                    HStack(spacing: 16) {
+                        IconOnlyButton(systemName: "plus", style: .filled(color: .blue))
+                        IconOnlyButton(systemName: "heart.fill", style: .outlined(color: .red))
+                        IconOnlyButton(systemName: "trash", style: .soft(color: .red))
+                    }
+                }
+
+                section("۶. آیکون + متن") {
+                    HStack(spacing: 12) {
+                        IconTextButton(title: "دانلود", systemName: "arrow.down.circle.fill", style: .filled(color: .blue))
+                        IconTextButton(title: "اشتراک‌گذاری", systemName: "square.and.arrow.up", style: .outlined(color: .blue))
+                    }
+                }
+
+                section("۷. مخرب / هشدار (Destructive)") {
+                    ShowcaseButton(title: "حذف حساب کاربری", style: .filled(color: .red))
+                }
+
+                section("۸. غیرفعال (Disabled)") {
+                    ShowcaseButton(title: "غیرفعال", style: .filled(color: .gray))
+                        .disabled(true)
+                        .opacity(0.5)
+                }
+
+                section("۹. در حال بارگذاری (Loading)") {
+                    Button {
+                        isLoading.toggle()
+                    } label: {
+                        HStack(spacing: 8) {
+                            if isLoading {
+                                ProgressView()
+                                    .progressViewStyle(CircularProgressViewStyle(tint: .white))
+                            }
+                            Text(isLoading ? "در حال ارسال..." : "ارسال")
+                        }
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 14)
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(12)
+                    }
+                }
+
+                section("۱۰. تاگل / چیپ (وضعیت فعال/غیرفعال)") {
+                    HStack(spacing: 10) {
+                        ForEach(0..<3) { index in
+                            ChipButton(
+                                title: ["همه", "کلمات", "جملات"][index],
+                                isSelected: selectedChip == index
+                            ) {
+                                selectedChip = index
+                            }
+                        }
+                    }
+                }
+
+                section("۱۱. سوییچ روشن/خاموش (سبک دکمه‌ای)") {
+                    ToggleStyleButton(isOn: $isToggled)
+                }
+
+                section("۱۲. اندازه‌ها (Small / Medium / Large)") {
+                    VStack(alignment: .leading, spacing: 10) {
+                        ShowcaseButton(title: "Small", style: .filled(color: .blue), size: .small)
+                        ShowcaseButton(title: "Medium", style: .filled(color: .blue), size: .medium)
+                        ShowcaseButton(title: "Large", style: .filled(color: .blue), size: .large)
+                    }
+                }
+            }
+            .padding(20)
+        }
+        .navigationTitle("Button Showcase")
+    }
+
+    @ViewBuilder
+    private func section<Content: View>(_ title: String, @ViewBuilder content: () -> Content) -> some View {
+        VStack(alignment: .leading, spacing: 10) {
+            Text(title)
+                .font(.headline)
+                .foregroundColor(.secondary)
+            content()
+        }
+    }
+}
+
+// MARK: - Style Definitions
+
+enum ButtonAppearance {
+    case filled(color: Color)
+    case outlined(color: Color)
+    case ghost(color: Color)
+    case soft(color: Color)
+    case clay(color: Color)
+    case gradient(colors: [Color])
+}
+
+enum ButtonShape {
+    case rounded(CGFloat)
+    case pill
+}
+
+enum ButtonSizeToken {
+    case small, medium, large
+
+    var verticalPadding: CGFloat {
+        switch self { case .small: return 8; case .medium: return 14; case .large: return 18 }
+    }
+    var horizontalPadding: CGFloat {
+        switch self { case .small: return 14; case .medium: return 20; case .large: return 28 }
+    }
+    var font: Font {
+        switch self { case .small: return .footnote; case .medium: return .body; case .large: return .title3 }
+    }
+}
+
+// MARK: - Reusable Showcase Button
+
+struct ShowcaseButton: View {
+    let title: String
+    let style: ButtonAppearance
+    var shape: ButtonShape = .rounded(12)
+    var size: ButtonSizeToken = .medium
+
+    var body: some View {
+        Button {} label: {
+            Text(title)
+                .font(size.font.weight(.semibold))
+                .padding(.vertical, size.verticalPadding)
+                .padding(.horizontal, size.horizontalPadding)
+                .background(background)
+                .foregroundColor(foreground)
+                .overlay(overlay)
+                .clipShape(clipShape)
+        }
+    }
+
+    private var clipShape: some Shape {
+        switch shape {
+        case .rounded(let radius): return AnyShape(RoundedRectangle(cornerRadius: radius))
+        case .pill: return AnyShape(Capsule())
+        }
+    }
+
+    @ViewBuilder
+    private var background: some View {
+        switch style {
+        case .filled(let color): color
+        case .outlined: Color.clear
+        case .ghost: Color.clear
+        case .soft(let color): color.opacity(0.15)
+        case .clay(let color): color.opacity(0.9)
+        case .gradient(let colors): LinearGradient(colors: colors, startPoint: .leading, endPoint: .trailing)
+        }
+    }
+
+    private var foreground: Color {
+        switch style {
+        case .filled, .gradient: return .white
+        case .outlined(let color): return color
+        case .ghost(let color): return color
+        case .soft(let color): return color
+        case .clay: return .white
+        }
+    }
+
+    @ViewBuilder
+    private var overlay: some View {
+        switch style {
+        case .outlined(let color):
+            clipShape.stroke(color, lineWidth: 1.5)
+        case .clay(let color):
+            clipShape
+                .stroke(color.opacity(0.4), lineWidth: 1)
+                .shadow(color: .white.opacity(0.6), radius: 2, x: -2, y: -2)
+        default:
+            EmptyView()
+        }
+    }
+}
+
+/// کمکی برای type-erase کردن Shape (چون RoundedRectangle و Capsule نوع متفاوت دارند)
+struct AnyShape: Shape {
+    private let pathBuilder: (CGRect) -> Path
+    init<S: Shape>(_ shape: S) { pathBuilder = shape.path(in:) }
+    func path(in rect: CGRect) -> Path { pathBuilder(rect) }
+}
+
+// MARK: - Icon Only Button (FAB style)
+
+struct IconOnlyButton: View {
+    let systemName: String
+    let style: ButtonAppearance
+
+    var body: some View {
+        Button {} label: {
+            Image(systemName: systemName)
+                .font(.system(size: 18, weight: .semibold))
+                .frame(width: 48, height: 48)
+                .background(background)
+                .foregroundColor(foreground)
+                .clipShape(Circle())
+                .shadow(color: .black.opacity(0.15), radius: 4, y: 2)
+        }
+    }
+
+    @ViewBuilder
+    private var background: some View {
+        switch style {
+        case .filled(let color): color
+        case .soft(let color): color.opacity(0.15)
+        case .outlined: Color.white
+        default: Color.gray.opacity(0.1)
+        }
+    }
+
+    private var foreground: Color {
+        switch style {
+        case .filled: return .white
+        case .outlined(let color): return color
+        case .soft(let color): return color
+        default: return .primary
+        }
+    }
+}
+
+// MARK: - Icon + Text Button
+
+struct IconTextButton: View {
+    let title: String
+    let systemName: String
+    let style: ButtonAppearance
+
+    var body: some View {
+        Button {} label: {
+            HStack(spacing: 8) {
+                Image(systemName: systemName)
+                Text(title)
+            }
+            .font(.body.weight(.medium))
+            .padding(.vertical, 12)
+            .padding(.horizontal, 18)
+            .background(background)
+            .foregroundColor(foreground)
+            .overlay(
+                RoundedRectangle(cornerRadius: 12)
+                    .stroke(strokeColor, lineWidth: isOutlined ? 1.5 : 0)
+            )
+            .clipShape(RoundedRectangle(cornerRadius: 12))
+        }
+    }
+
+    private var isOutlined: Bool {
+        if case .outlined = style { return true }
+        return false
+    }
+
+    @ViewBuilder
+    private var background: some View {
+        switch style {
+        case .filled(let color): color
+        default: Color.clear
+        }
+    }
+
+    private var foreground: Color {
+        switch style {
+        case .filled: return .white
+        case .outlined(let color): return color
+        default: return .primary
+        }
+    }
+
+    private var strokeColor: Color {
+        if case .outlined(let color) = style { return color }
+        return .clear
+    }
+}
+
+// MARK: - Chip / Toggle Button
+
+struct ChipButton: View {
+    let title: String
+    let isSelected: Bool
+    let action: () -> Void
+
+    var body: some View {
+        Button(action: action) {
+            Text(title)
+                .font(.footnote.weight(.medium))
+                .padding(.vertical, 8)
+                .padding(.horizontal, 16)
+                .background(isSelected ? Color.blue : Color.gray.opacity(0.12))
+                .foregroundColor(isSelected ? .white : .primary)
+                .clipShape(Capsule())
+        }
+    }
+}
+
+// MARK: - Toggle Style Button (سوییچ به شکل دکمه)
+
+struct ToggleStyleButton: View {
+    @Binding var isOn: Bool
+
+    var body: some View {
+        Button {
+            withAnimation(.spring(response: 0.3)) { isOn.toggle() }
+        } label: {
+            HStack {
+                Circle()
+                    .fill(isOn ? Color.green : Color.gray)
+                    .frame(width: 12, height: 12)
+                Text(isOn ? "روشن" : "خاموش")
+                    .font(.footnote.weight(.medium))
+            }
+            .padding(.vertical, 8)
+            .padding(.horizontal, 16)
+            .background(Color.gray.opacity(0.1))
+            .clipShape(Capsule())
+        }
+    }
+}
+
+#Preview {
+    NavigationStack {
+        ButtonShowcasePage()
+    }
+}
+
+Views/DesignSystem/ButtonShowcasePage.swift
+import SwiftUI
+
+/// صفحهٔ نمایش دکمه‌ها با اجزای رسمی اپل — این دکمه‌ها به‌طور خودکار با هر آپدیت iOS
+/// ظاهرشان به‌روز می‌شود، چون از استایل‌های سیستمی استفاده می‌کنند نه شکل دستی‌کشیده‌شده.
+struct ButtonShowcasePage: View {
+    @State private var isOn = false
+    @State private var isLoading = false
+    @State private var selectedSegment = 0
+
+    var body: some View {
+        List {
+            Section("۱. دکمهٔ اصلی (مهم‌ترین اکشن)") {
+                Button("ادامه") {}
+                    .buttonStyle(.borderedProminent)
+                    .controlSize(.large)
+            }
+
+            Section("۲. دکمهٔ فرعی") {
+                Button("انصراف") {}
+                    .buttonStyle(.bordered)
+                    .controlSize(.large)
+            }
+
+            Section("۳. دکمهٔ شبح (بدون پس‌زمینه)") {
+                Button("بعداً") {}
+                    .buttonStyle(.plain)
+                    .foregroundStyle(.blue)
+            }
+
+            Section("۴. دکمهٔ خطرناک (رنگ سیستمی قرمز)") {
+                Button("حذف حساب کاربری", role: .destructive) {}
+                    .buttonStyle(.bordered)
+            }
+
+            Section("۵. فقط آیکون (دایره‌ای رسمی اپل)") {
+                HStack(spacing: 16) {
+                    Button {} label: {
+                        Image(systemName: "plus")
+                    }
+                    .buttonStyle(.borderedProminent)
+                    .clipShape(Circle())
+
+                    Button {} label: {
+                        Image(systemName: "heart.fill")
+                    }
+                    .buttonStyle(.bordered)
+                    .clipShape(Circle())
+                }
+            }
+
+            Section("۶. آیکون + متن") {
+                Button {} label: {
+                    Label("اشتراک‌گذاری", systemImage: "square.and.arrow.up")
+                }
+                .buttonStyle(.bordered)
+            }
+
+            Section("۷. غیرفعال") {
+                Button("غیرفعال") {}
+                    .buttonStyle(.borderedProminent)
+                    .disabled(true)
+            }
+
+            Section("۸. در حال بارگذاری") {
+                Button {
+                    isLoading.toggle()
+                } label: {
+                    if isLoading {
+                        ProgressView()
+                    } else {
+                        Text("ارسال")
+                    }
+                }
+                .buttonStyle(.borderedProminent)
+                .controlSize(.large)
+            }
+
+            Section("۹. سوییچ (تنظیمات رسمی اپل)") {
+                Toggle("حالت شب", isOn: $isOn)
+            }
+
+            Section("۱۰. انتخاب‌گر تکه‌ای (Segmented — رسمی اپل)") {
+                Picker("فیلتر", selection: $selectedSegment) {
+                    Text("همه").tag(0)
+                    Text("کلمات").tag(1)
+                    Text("جملات").tag(2)
+                }
+                .pickerStyle(.segmented)
+            }
+
+            Section("۱۱. اندازه‌ها") {
+                Button("کوچک") {}.buttonStyle(.borderedProminent).controlSize(.small)
+                Button("متوسط") {}.buttonStyle(.borderedProminent).controlSize(.regular)
+                Button("بزرگ") {}.buttonStyle(.borderedProminent).controlSize(.large)
+            }
+        }
+        .navigationTitle("نمونهٔ دکمه‌ها")
+    }
+}
+
+#Preview {
+    NavigationStack {
+        ButtonShowcasePage()
+    }
+}
+
+Views/DesignSystem/ButtonShowcasePage.swift
+import SwiftUI
+
+/// نمایش کامل تمام سبک‌های دکمه با استفاده از APIهای رسمی SwiftUI/اپل.
+/// هیچ شکل دستی‌کشیده‌ای اینجا نیست — همه از سیستم گرفته شده تا با هر آپدیت iOS خودکار به‌روز شود.
+struct ButtonShowcasePage: View {
+    @State private var isOn = false
+    @State private var isLoading = false
+    @State private var selectedSegment = 0
+    @State private var sliderValue: Double = 50
+    @State private var stepperValue = 1
+    @State private var successTrigger = false
+
+    var body: some View {
+        List {
+            // MARK: - ۱. دکمهٔ اصلی
+            Section {
+                Button("ادامه") { successTrigger.toggle() }
+                    .buttonStyle(.borderedProminent)
+                    .controlSize(.large)
+                    .frame(maxWidth: .infinity)
+                    .sensoryFeedback(.success, trigger: successTrigger)
+            } header: {
+                Text("۱. دکمهٔ اصلی (Primary)")
+            } footer: {
+                Text("برای مهم‌ترین اکشن صفحه — رنگ پررنگ سیستمی.")
+            }
+
+            // MARK: - ۲. دکمهٔ فرعی
+            Section("۲. دکمهٔ فرعی (Secondary)") {
+                Button("انصراف") {}
+                    .buttonStyle(.bordered)
+                    .controlSize(.large)
+                    .frame(maxWidth: .infinity)
+            }
+
+            // MARK: - ۳. دکمهٔ متنی (بدون پس‌زمینه)
+            Section("۳. دکمهٔ متنی (Plain)") {
+                Button("بعداً") {}
+                    .buttonStyle(.plain)
+                    .foregroundStyle(.tint)
+            }
+
+            // MARK: - ۴. رنگ‌های سیستمی مختلف (tint)
+            Section("۴. رنگ‌های سیستمی (Tint)") {
+                HStack(spacing: 12) {
+                    Button("آبی") {}.buttonStyle(.borderedProminent).tint(.blue)
+                    Button("سبز") {}.buttonStyle(.borderedProminent).tint(.green)
+                    Button("نارنجی") {}.buttonStyle(.borderedProminent).tint(.orange)
+                }
+            }
+
+            // MARK: - ۵. دکمهٔ خطرناک (Destructive role)
+            Section("۵. دکمهٔ خطرناک (Destructive)") {
+                Button("حذف حساب کاربری", role: .destructive) {}
+                    .buttonStyle(.bordered)
+                    .frame(maxWidth: .infinity)
+            }
+
+            // MARK: - ۶. شکل کپسولی (Pill) — سبک اپ‌استور و پیام‌ها
+            Section("۶. شکل کپسولی (Capsule)") {
+                Button("دریافت") {}
+                    .buttonStyle(.borderedProminent)
+                    .buttonBorderShape(.capsule)
+                    .controlSize(.regular)
+            }
+
+            // MARK: - ۷. دکمهٔ فقط آیکون (دایره‌ای)
+            Section("۷. فقط آیکون") {
+                HStack(spacing: 20) {
+                    Button {} label: { Image(systemName: "plus") }
+                        .buttonStyle(.borderedProminent)
+                        .buttonBorderShape(.circle)
+                        .controlSize(.large)
+
+                    Button {} label: { Image(systemName: "heart.fill") }
+                        .buttonStyle(.bordered)
+                        .buttonBorderShape(.circle)
+                        .tint(.red)
+
+                    Button {} label: { Image(systemName: "trash") }
+                        .buttonStyle(.borderless)
+                        .foregroundStyle(.red)
+                }
+            }
+
+            // MARK: - ۸. آیکون + متن (Label رسمی اپل)
+            Section("۸. آیکون + متن") {
+                Button {} label: {
+                    Label("اشتراک‌گذاری", systemImage: "square.and.arrow.up")
+                }
+                .buttonStyle(.bordered)
+
+                Button {} label: {
+                    Label("دانلود", systemImage: "arrow.down.circle.fill")
+                }
+                .buttonStyle(.borderedProminent)
+            }
+
+            // MARK: - ۹. غیرفعال
+            Section("۹. غیرفعال (Disabled)") {
+                Button("غیرفعال") {}
+                    .buttonStyle(.borderedProminent)
+                    .disabled(true)
+            }
+
+            // MARK: - ۱۰. در حال بارگذاری
+            Section("۱۰. در حال بارگذاری") {
+                Button {
+                    isLoading = true
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) { isLoading = false }
+                } label: {
+                    HStack {
+                        if isLoading {
+                            ProgressView()
+                                .tint(.white)
+                        }
+                        Text(isLoading ? "در حال ارسال..." : "ارسال")
+                    }
+                    .frame(maxWidth: .infinity)
+                }
+                .buttonStyle(.borderedProminent)
+                .controlSize(.large)
+                .disabled(isLoading)
+            }
+
+            // MARK: - ۱۱. سوییچ رسمی اپل (Toggle)
+            Section("۱۱. سوییچ (Toggle)") {
+                Toggle("حالت شب", isOn: $isOn)
+                Toggle(isOn: $isOn) {
+                    Label("اعلان‌ها", systemImage: "bell.fill")
+                }
+            }
+
+            // MARK: - ۱۲. انتخاب‌گر تکه‌ای (Segmented — دقیقاً سبک تنظیمات اپل)
+            Section("۱۲. انتخاب‌گر تکه‌ای (Segmented)") {
+                Picker("فیلتر", selection: $selectedSegment) {
+                    Text("همه").tag(0)
+                    Text("کلمات").tag(1)
+                    Text("جملات").tag(2)
+                }
+                .pickerStyle(.segmented)
+            }
+
+            // MARK: - ۱۳. منوی کشویی (Menu — سبک آیفون)
+            Section("۱۳. منوی کشویی (Menu)") {
+                Menu {
+                    Button("ویرایش", systemImage: "pencil") {}
+                    Button("اشتراک‌گذاری", systemImage: "square.and.arrow.up") {}
+                    Button("حذف", systemImage: "trash", role: .destructive) {}
+                } label: {
+                    Label("گزینه‌ها", systemImage: "ellipsis.circle")
+                }
+                .buttonStyle(.bordered)
+            }
+
+            // MARK: - ۱۴. استپر (+/-) رسمی اپل
+            Section("۱۴. استپر عددی (Stepper)") {
+                Stepper("تعداد: \(stepperValue)", value: $stepperValue, in: 1...10)
+            }
+
+            // MARK: - ۱۵. اسلایدر (لغزنده)
+            Section("۱۵. لغزنده (Slider)") {
+                Slider(value: $sliderValue, in: 0...100)
+                Text("مقدار: \(Int(sliderValue))")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
+
+            // MARK: - ۱۶. اندازه‌های مختلف دکمه
+            Section("۱۶. اندازه‌ها (Size)") {
+                Button("کوچک") {}.buttonStyle(.borderedProminent).controlSize(.mini)
+                Button("متوسط") {}.buttonStyle(.borderedProminent).controlSize(.small)
+                Button("معمولی") {}.buttonStyle(.borderedProminent).controlSize(.regular)
+                Button("بزرگ") {}.buttonStyle(.borderedProminent).controlSize(.large)
+            }
+
+            // MARK: - ۱۷. دکمهٔ شناور با سایهٔ سیستمی (FAB سبک اپل)
+            Section("۱۷. دکمهٔ شناور (Floating Action)") {
+                HStack {
+                    Spacer()
+                    Button {} label: {
+                        Image(systemName: "plus")
+                            .font(.title2.weight(.semibold))
+                            .foregroundStyle(.white)
+                            .frame(width: 56, height: 56)
+                            .background(.tint, in: Circle())
+                            .shadow(color: .black.opacity(0.25), radius: 8, y: 4)
+                    }
+                    Spacer()
+                }
+            }
+        }
+        .navigationTitle("نمونهٔ کامل دکمه‌ها")
+        .navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+#Preview {
+    NavigationStack {
+        ButtonShowcasePage()
+    }
+}
+
+Views/DesignSystem/HeaderListShowcasePage.swift
+import SwiftUI
+
+/// نمایش نمونهٔ هدر، جستجو، انتخاب‌گر سطح، لیست‌ها و نوار پیشرفت — با اجزای رسمی اپل.
+struct HeaderListShowcasePage: View {
+    @State private var searchText = ""
+    @State private var selectedLevel: String? = nil
+    @State private var showLevelSheet = false
+
+    private let levels = ["A1", "A2", "B1", "B2", "C1", "C2"]
+    private let sampleWords = ["Haus", "Auto", "Schule", "Freund", "Wasser", "Buch"]
+
+    var body: some View {
+        List {
+            // MARK: - ۱. انتخاب سطح (لیست کشویی شبیه تنظیمات اپل)
+            Section("۱. انتخاب سطح (Navigation Link سبک تنظیمات)") {
+                Button {
+                    showLevelSheet = true
+                } label: {
+                    HStack {
+                        Text("انتخاب سطح")
+                            .foregroundStyle(.primary)
+                        Spacer()
+                        Text(selectedLevel ?? "همه")
+                            .foregroundStyle(.secondary)
+                        Image(systemName: "chevron.left")
+                            .font(.caption)
+                            .foregroundStyle(.tertiary)
+                    }
+                }
+            }
+
+            // MARK: - ۲. لیست ساده با آیکون
+            Section("۲. لیست کلمات") {
+                ForEach(sampleWords, id: \.self) { word in
+                    HStack {
+                        Image(systemName: "textformat")
+                            .foregroundStyle(.blue)
+                            .frame(width: 28)
+                        Text(word)
+                        Spacer()
+                        Text("A1")
+                            .font(.caption)
+                            .padding(.horizontal, 8)
+                            .padding(.vertical, 3)
+                            .background(.blue.opacity(0.15))
+                            .foregroundStyle(.blue)
+                            .clipShape(Capsule())
+                    }
+                }
+            }
+
+            // MARK: - ۳. نوار پیشرفت خطی + درصد
+            Section("۳. نوار پیشرفت (Progress Bar)") {
+                VStack(alignment: .leading, spacing: 6) {
+                    HStack {
+                        Text("پیشرفت یادگیری")
+                        Spacer()
+                        Text("68%")
+                            .foregroundStyle(.secondary)
+                    }
+                    ProgressView(value: 0.68)
+                        .tint(.blue)
+                }
+                .padding(.vertical, 4)
+            }
+
+            // MARK: - ۴. پیشرفت دایره‌ای
+            Section("۴. پیشرفت دایره‌ای") {
+                HStack(spacing: 24) {
+                    ForEach([("امروز", 0.4), ("هفته", 0.75), ("کل", 0.9)], id: \.0) { label, value in
+                        VStack(spacing: 6) {
+                            ZStack {
+                                Circle()
+                                    .stroke(.gray.opacity(0.2), lineWidth: 6)
+                                Circle()
+                                    .trim(from: 0, to: value)
+                                    .stroke(.blue, style: StrokeStyle(lineWidth: 6, lineCap: .round))
+                                    .rotationEffect(.degrees(-90))
+                                Text("\(Int(value * 100))%")
+                                    .font(.caption.bold())
+                            }
+                            .frame(width: 60, height: 60)
+                            Text(label)
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
+                        }
+                    }
+                }
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, 8)
+            }
+
+            // MARK: - ۵. کارت‌های آماری کنار هم
+            Section("۵. کارت‌های آماری") {
+                HStack(spacing: 12) {
+                    statCard(title: "کلمات", value: "342", icon: "textformat.abc", color: .blue)
+                    statCard(title: "روزهای پیاپی", value: "12", icon: "flame.fill", color: .orange)
+                }
+            }
+        }
+        .navigationTitle("Wortschatz")
+        .navigationBarTitleDisplayMode(.large)
+        .searchable(text: $searchText, prompt: "جستجوی کلمه...")
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                Menu {
+                    Button("افزودن کلمه", systemImage: "plus") {}
+                    Button("مرتب‌سازی", systemImage: "arrow.up.arrow.down") {}
+                } label: {
+                    Image(systemName: "ellipsis.circle")
+                }
+            }
+        }
+        .sheet(isPresented: $showLevelSheet) {
+            levelPickerSheet
+        }
+    }
+
+    // MARK: - شیت انتخاب سطح (باز شدن از پایین، سبک اپل)
+    private var levelPickerSheet: some View {
+        NavigationStack {
+            List {
+                Button {
+                    selectedLevel = nil
+                    showLevelSheet = false
+                } label: {
+                    HStack {
+                        Text("همه")
+                        Spacer()
+                        if selectedLevel == nil {
+                            Image(systemName: "checkmark").foregroundStyle(.blue)
+                        }
+                    }
+                }
+                ForEach(levels, id: \.self) { level in
+                    Button {
+                        selectedLevel = level
+                        showLevelSheet = false
+                    } label: {
+                        HStack {
+                            Text(level)
+                            Spacer()
+                            if selectedLevel == level {
+                                Image(systemName: "checkmark").foregroundStyle(.blue)
+                            }
+                        }
+                    }
+                }
+            }
+            .navigationTitle("انتخاب سطح")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button("بستن") { showLevelSheet = false }
+                }
+            }
+        }
+        .presentationDetents([.medium])
+    }
+
+    @ViewBuilder
+    private func statCard(title: String, value: String, icon: String, color: Color) -> some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Image(systemName: icon)
+                .foregroundStyle(color)
+            Text(value)
+                .font(.title2.bold())
+            Text(title)
+                .font(.caption)
+                .foregroundStyle(.secondary)
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding(12)
+        .background(Color(.secondarySystemGroupedBackground))
+        .clipShape(RoundedRectangle(cornerRadius: 12))
+    }
+}
+
+#Preview {
+    NavigationStack {
+        HeaderListShowcasePage()
+    }
+}
+
+Views/DesignSystem/ComponentsShowcasePage.swift
+import SwiftUI
+import Charts
+
+struct ComponentsShowcasePage: View {
+    @State private var showDeleteAlert = false
+    @State private var showSuccessToast = false
+    @State private var selectedTab = 0
+    @State private var wordName = ""
+    @State private var selectedDate = Date()
+
+    private let weeklyData: [(day: String, value: Double)] = [
+        ("ش", 4), ("ی", 6), ("د", 3), ("س", 8), ("چ", 5), ("پ", 9), ("ج", 7)
+    ]
+
+    var body: some View {
+        List {
+            // MARK: - ۱. کارت‌ها
+            Section("۱. کارت‌ها (Cards)") {
+                wordCard
+                levelCard
+                progressCard
+            }
+
+            // MARK: - ۲. هشدار و تایید
+            Section("۲. پیام‌های هشدار و تایید") {
+                Button("حذف کلمه", role: .destructive) {
+                    showDeleteAlert = true
+                }
+                Button("نمایش پیام موفقیت") {
+                    withAnimation { showSuccessToast = true }
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                        withAnimation { showSuccessToast = false }
+                    }
+                }
+            }
+            .alert("حذف کلمه", isPresented: $showDeleteAlert) {
+                Button("لغو", role: .cancel) {}
+                Button("حذف", role: .destructive) {}
+            } message: {
+                Text("این کلمه برای همیشه حذف می‌شود. مطمئنید؟")
+            }
+
+            // MARK: - ۳. نوار پایین (نمونهٔ TabView)
+            Section("۳. نوار پایین صفحه (نمونه)") {
+                tabBarPreview
+                    .frame(height: 70)
+            }
+
+            // MARK: - ۴. حالت خالی
+            Section("۴. حالت خالی بودن") {
+                emptyStateView
+            }
+
+            // MARK: - ۵. نمودارها
+            Section("۵. نمودار پیشرفت هفتگی") {
+                Chart(weeklyData, id: \.day) { item in
+                    BarMark(
+                        x: .value("روز", item.day),
+                        y: .value("کلمات", item.value)
+                    )
+                    .foregroundStyle(.blue.gradient)
+                    .cornerRadius(6)
+                }
+                .frame(height: 160)
+                .padding(.vertical, 8)
+            }
+
+            // MARK: - ۶. صفحهٔ آنبوردینگ (پیش‌نمایش کوچک)
+            Section("۶. کارت آنبوردینگ") {
+                onboardingCardPreview
+            }
+
+            // MARK: - ۷. برچسب‌ها و نشان‌ها
+            Section("۷. برچسب‌ها و نشان‌ها") {
+                HStack(spacing: 10) {
+                    levelBadge("A1", color: .green)
+                    levelBadge("B2", color: .orange)
+                    levelBadge("C1", color: .red)
+                    newBadge
+                }
+            }
+
+            // MARK: - ۸. فرم‌ها
+            Section("۸. فرم‌ها (افزودن کلمه)") {
+                TextField("کلمهٔ آلمانی", text: $wordName)
+                DatePicker("تاریخ یادآوری", selection: $selectedDate, displayedComponents: .date)
+                Picker("سطح", selection: $selectedTab) {
+                    Text("A1").tag(0)
+                    Text("A2").tag(1)
+                    Text("B1").tag(2)
+                }
+                .pickerStyle(.segmented)
+            }
+        }
+        .navigationTitle("نمونهٔ کامل اجزا")
+        .navigationBarTitleDisplayMode(.inline)
+        .overlay(alignment: .top) {
+            if showSuccessToast {
+                successToast
+                    .padding(.top, 8)
+                    .transition(.move(edge: .top).combined(with: .opacity))
+            }
+        }
+    }
+
+    // MARK: - کارت کلمه
+    private var wordCard: some View {
+        HStack(spacing: 12) {
+            Text("der")
+                .font(.caption.bold())
+                .padding(.horizontal, 8)
+                .padding(.vertical, 4)
+                .background(.blue.opacity(0.15))
+                .foregroundStyle(.blue)
+                .clipShape(Capsule())
+
+            VStack(alignment: .leading, spacing: 2) {
+                Text("Tisch")
+                    .font(.headline)
+                Text("میز")
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+            }
+            Spacer()
+            Image(systemName: "speaker.wave.2.fill")
+                .foregroundStyle(.blue)
+        }
+        .padding(.vertical, 6)
+    }
+
+    // MARK: - کارت سطح
+    private var levelCard: some View {
+        HStack {
+            VStack(alignment: .leading, spacing: 4) {
+                Text("سطح B1")
+                    .font(.headline)
+                Text("۱۲۰ درس • ۳۰ درس تمام‌شده")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
+            Spacer()
+            ProgressView(value: 0.25)
+                .frame(width: 60)
+        }
+        .padding(.vertical, 6)
+    }
+
+    // MARK: - کارت پیشرفت
+    private var progressCard: some View {
+        HStack(spacing: 16) {
+            ZStack {
+                Circle().stroke(.gray.opacity(0.2), lineWidth: 5)
+                Circle()
+                    .trim(from: 0, to: 0.72)
+                    .stroke(.green, style: StrokeStyle(lineWidth: 5, lineCap: .round))
+                    .rotationEffect(.degrees(-90))
+                Text("72%")
+                    .font(.caption.bold())
+            }
+            .frame(width: 50, height: 50)
+
+            VStack(alignment: .leading) {
+                Text("پیشرفت کلی")
+                    .font(.subheadline.bold())
+                Text("۳۶۰ از ۵۰۰ کلمه یاد گرفته شده")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
+        }
+        .padding(.vertical, 6)
+    }
+
+    // MARK: - نوار پایین (نمونه)
+    private var tabBarPreview: some View {
+        HStack {
+            tabItem("Wortschatz", icon: "textformat.abc", selected: selectedTab == 0) { selectedTab = 0 }
+            tabItem("Grammatik", icon: "text.book.closed", selected: selectedTab == 1) { selectedTab = 1 }
+            tabItem("Lesen", icon: "book", selected: selectedTab == 2) { selectedTab = 2 }
+            tabItem("More", icon: "ellipsis.circle", selected: selectedTab == 3) { selectedTab = 3 }
+        }
+    }
+
+    private func tabItem(_ title: String, icon: String, selected: Bool, action: @escaping () -> Void) -> some View {
+        Button(action: action) {
+            VStack(spacing: 4) {
+                Image(systemName: icon)
+                    .font(.title3)
+                Text(title)
+                    .font(.caption2)
+            }
+            .foregroundStyle(selected ? .blue : .gray)
+            .frame(maxWidth: .infinity)
+        }
+    }
+
+    // MARK: - حالت خالی
+    private var emptyStateView: some View {
+        VStack(spacing: 12) {
+            Image(systemName: "tray")
+                .font(.system(size: 40))
+                .foregroundStyle(.tertiary)
+            Text("هنوز کلمه‌ای اضافه نکرده‌اید")
+                .font(.headline)
+            Text("اولین کلمهٔ آلمانی خود را اضافه کنید تا یادگیری را شروع کنید.")
+                .font(.caption)
+                .foregroundStyle(.secondary)
+                .multilineTextAlignment(.center)
+            Button("افزودن کلمه", systemImage: "plus.circle.fill") {}
+                .buttonStyle(.borderedProminent)
+        }
+        .frame(maxWidth: .infinity)
+        .padding(.vertical, 24)
+    }
+
+    // MARK: - آنبوردینگ
+    private var onboardingCardPreview: some View {
+        VStack(spacing: 10) {
+            Image(systemName: "flag.checkered")
+                .font(.system(size: 36))
+                .foregroundStyle(.blue)
+            Text("به LukasAlmani خوش آمدید")
+                .font(.headline)
+            Text("مسیر یادگیری آلمانی خود را از A1 تا C2 شروع کنید.")
+                .font(.caption)
+                .foregroundStyle(.secondary)
+                .multilineTextAlignment(.center)
+        }
+        .frame(maxWidth: .infinity)
+        .padding(.vertical, 16)
+    }
+
+    // MARK: - برچسب سطح
+    private func levelBadge(_ text: String, color: Color) -> some View {
+        Text(text)
+            .font(.caption.bold())
+            .padding(.horizontal, 10)
+            .padding(.vertical, 5)
+            .background(color.opacity(0.15))
+            .foregroundStyle(color)
+            .clipShape(Capsule())
+    }
+
+    private var newBadge: some View {
+        Text("جدید")
+            .font(.caption2.bold())
+            .padding(.horizontal, 8)
+            .padding(.vertical, 4)
+            .background(.red)
+            .foregroundStyle(.white)
+            .clipShape(Capsule())
+    }
+
+    // MARK: - پیام موفقیت شناور
+    private var successToast: some View {
+        Label("با موفقیت ذخیره شد", systemImage: "checkmark.circle.fill")
+            .font(.subheadline.weight(.medium))
+            .padding(.horizontal, 16)
+            .padding(.vertical, 10)
+            .background(.green)
+            .foregroundStyle(.white)
+            .clipShape(Capsule())
+            .shadow(radius: 4)
+    }
+}
+
+#Preview {
+    NavigationStack {
+        ComponentsShowcasePage()
+    }
+}
+

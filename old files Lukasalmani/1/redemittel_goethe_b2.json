@@ -1,0 +1,1810 @@
+{
+ "sections": [
+  {
+   "id": 0,
+   "title_de": "Vortrag: Thema einführen",
+   "title_fa": "معرفی موضوع ارائه",
+   "phrases": [
+    {
+     "id": 1,
+     "de": "Für die Präsentation habe ich das Thema „...“ gewählt.",
+     "fa": "برای ارائه، موضوع «...» را انتخاب کرده‌ام.",
+     "en": "For the presentation, I have chosen the topic \"...\".",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Thema_einfuehren",
+     "register": "formal",
+     "cefr_level": "B2",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Für die Präsentation habe ich das Thema „Nachhaltiger Konsum“ gewählt.",
+     "example_fa": "برای ارائه، موضوع «مصرف پایدار» را انتخاب کرده‌ام.",
+     "example_en": "For the presentation, I have chosen the topic \"Sustainable Consumption\".",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "موضوع",
+      "انتخاب",
+      "ارائه"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "habe ich das Thema",
+     "distractors": [
+      "Das Thema meines Vortrags lautet",
+      "Ich möchte über das Thema sprechen",
+      "In meinem Vortrag geht es um"
+     ],
+     "note": null
+    },
+    {
+     "id": 2,
+     "de": "Das Thema meines Vortrags lautet „...“.",
+     "fa": "موضوع ارائه‌ام «...» است.",
+     "en": "The topic of my presentation is \"...\".",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Thema_einfuehren",
+     "register": "formal",
+     "cefr_level": "B2",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Das Thema meines Vortrags lautet „Digitalisierung im Alltag“.",
+     "example_fa": "موضوع ارائه‌ام «دیجیتالی‌شدن در زندگی روزمره» است.",
+     "example_en": "The topic of my presentation is \"Digitalization in Everyday Life\".",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "موضوع",
+      "ارائه"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Das Thema meines Vortrags lautet",
+     "distractors": [
+      "habe ich das Thema gewählt",
+      "Ich möchte über das Thema sprechen",
+      "In meinem Vortrag geht es um"
+     ],
+     "note": null
+    },
+    {
+     "id": 3,
+     "de": "Ich möchte über das Thema „...“ sprechen.",
+     "fa": "می‌خواهم درباره موضوع «...» صحبت کنم.",
+     "en": "I would like to talk about the topic \"...\".",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Thema_einfuehren",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Ich möchte über das Thema Klimawandel sprechen.",
+     "example_fa": "می‌خواهم درباره موضوع تغییرات اقلیمی صحبت کنم.",
+     "example_en": "I would like to talk about the topic of climate change.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "صحبت",
+      "موضوع"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Ich möchte über das Thema",
+     "distractors": [
+      "Das Thema meines Vortrags lautet",
+      "In meinem Vortrag geht es um",
+      "habe ich das Thema gewählt"
+     ],
+     "note": null
+    },
+    {
+     "id": 4,
+     "de": "Der Grund, warum ich das Thema gewählt habe, ist, dass...",
+     "fa": "دلیل انتخاب این موضوع این است که...",
+     "en": "The reason I chose this topic is that...",
+     "grammar_pattern": "dass_satz",
+     "function": "Thema_einfuehren",
+     "register": "neutral",
+     "cefr_level": "B2",
+     "topic": "praesentation",
+     "structure_after": "dass + Nebensatz (Verb am Ende)",
+     "example_de": "Der Grund, warum ich das Thema gewählt habe, ist, dass es mich persönlich betrifft.",
+     "example_fa": "دلیل انتخاب این موضوع این است که شخصاً به من مربوط می‌شود.",
+     "example_en": "The reason I chose this topic is that it personally affects me.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "دلیل",
+      "انتخاب"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Der Grund, warum ich das Thema gewählt habe, ist",
+     "distractors": [
+      "Das Thema meines Vortrags lautet",
+      "In meinem Vortrag geht es um",
+      "Ich möchte über das Thema sprechen"
+     ],
+     "note": null
+    },
+    {
+     "id": 5,
+     "de": "In meinem Vortrag geht es um...",
+     "fa": "در ارائه‌ام موضوع ... مطرح می‌شود.",
+     "en": "My presentation is about...",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Thema_einfuehren",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "In meinem Vortrag geht es um die Vorteile des Homeoffice.",
+     "example_fa": "در ارائه‌ام موضوع مزایای دورکاری مطرح می‌شود.",
+     "example_en": "My presentation is about the advantages of working from home.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "ارائه",
+      "موضوع"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "In meinem Vortrag geht es um",
+     "distractors": [
+      "Ich stelle heute vor",
+      "Ich möchte über das Thema sprechen",
+      "Das Thema meines Vortrags lautet"
+     ],
+     "note": null
+    },
+    {
+     "id": 6,
+     "de": "Ich stelle heute … vor.",
+     "fa": "امروز ... را معرفی می‌کنم.",
+     "en": "Today I am presenting...",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Thema_einfuehren",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Ich stelle heute ein neues Konzept für urbane Mobilität vor.",
+     "example_fa": "امروز یک مفهوم جدید برای تحرک شهری را معرفی می‌کنم.",
+     "example_en": "Today I am presenting a new concept for urban mobility.",
+     "usage_position": "satzmitte",
+     "keywords": [
+      "معرفی"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Ich stelle heute … vor",
+     "distractors": [
+      "In meinem Vortrag geht es um",
+      "Ich möchte Ihnen von … erzählen",
+      "Als Erstes gehe ich ein auf"
+     ],
+     "note": null
+    },
+    {
+     "id": 7,
+     "de": "Ich möchte Ihnen von…erzählen/berichten.",
+     "fa": "می‌خواهم درباره ... برای شما تعریف/گزارش کنم.",
+     "en": "I would like to tell/report to you about...",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Thema_einfuehren",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Ich möchte Ihnen von meiner Reise nach Japan erzählen.",
+     "example_fa": "می‌خواهم درباره سفرم به ژاپن برای شما تعریف کنم.",
+     "example_en": "I would like to tell you about my trip to Japan.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "تعریف",
+      "گزارش"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Ich möchte Ihnen von … erzählen",
+     "distractors": [
+      "Ich stelle heute vor",
+      "In meinem Vortrag geht es um",
+      "Als Erstes gehe ich ein auf"
+     ],
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": 1,
+   "title_de": "Vortrag: Struktur ankündigen",
+   "title_fa": "اعلام ساختار ارائه",
+   "phrases": [
+    {
+     "id": 8,
+     "de": "Als Erstes gehe ich ein auf...",
+     "fa": "ابتدا به ... می‌پردازم.",
+     "en": "First, I will address...",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Struktur_ankuendigen",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Als Erstes gehe ich auf die Ursachen des Problems ein.",
+     "example_fa": "ابتدا به علل مشکل می‌پردازم.",
+     "example_en": "First, I will address the causes of the problem.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "ابتدا",
+      "پرداختن"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Als Erstes gehe ich ein auf",
+     "distractors": [
+      "Als Nächstes stelle ich dar",
+      "Zum Schluss gehe ich ein auf",
+      "Ich spreche nun über … im Detail"
+     ],
+     "note": null
+    },
+    {
+     "id": 9,
+     "de": "Als Nächstes/Zweites/Drittes stelle ich … dar.",
+     "fa": "سپس/دوم/سوم ... را ارائه می‌کنم.",
+     "en": "Next/secondly/thirdly, I will present...",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Struktur_ankuendigen",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Als Zweites stelle ich mögliche Lösungen dar.",
+     "example_fa": "دوم، راه‌حل‌های ممکن را ارائه می‌کنم.",
+     "example_en": "Secondly, I will present possible solutions.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "ارائه",
+      "سپس"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Als Nächstes stelle ich … dar",
+     "distractors": [
+      "Als Erstes gehe ich ein auf",
+      "Zum Schluss gehe ich ein auf",
+      "Ich spreche nun über … im Detail"
+     ],
+     "note": null
+    },
+    {
+     "id": 10,
+     "de": "Zum Schluss gehe ich ein auf...",
+     "fa": "در پایان به ... می‌پردازم.",
+     "en": "Finally, I will address...",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Struktur_ankuendigen",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Zum Schluss gehe ich auf die Zukunftsperspektiven ein.",
+     "example_fa": "در پایان به چشم‌اندازهای آینده می‌پردازم.",
+     "example_en": "Finally, I will address the future outlook.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "پایان"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Zum Schluss gehe ich ein auf",
+     "distractors": [
+      "Als Erstes gehe ich ein auf",
+      "Als Nächstes stelle ich dar",
+      "Abschließend möchte ich sagen, dass"
+     ],
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title_de": "Vortrag: Alternativen und Möglichkeiten nennen",
+   "title_fa": "بیان جایگزین‌ها و راه‌حل‌ها",
+   "phrases": [
+    {
+     "id": 11,
+     "de": "Da gibt es selbstverständlich mehrere Alternativen. Zunächst einmal...",
+     "fa": "بدون شک چندین جایگزین وجود دارد. ابتدا...",
+     "en": "There are of course several alternatives. First of all...",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Alternativen_nennen",
+     "register": "neutral",
+     "cefr_level": "B2",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Da gibt es selbstverständlich mehrere Alternativen. Zunächst einmal könnte man mehr Fahrradwege bauen.",
+     "example_fa": "بدون شک چندین جایگزین وجود دارد. ابتدا می‌توان مسیرهای دوچرخه بیشتری ساخت.",
+     "example_en": "There are of course several alternatives. First of all, one could build more bike lanes.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "جایگزین",
+      "ابتدا"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "gibt es selbstverständlich mehrere Alternativen",
+     "distractors": [
+      "Eine weitere Möglichkeit ist",
+      "Es gibt verschiedene Möglichkeiten",
+      "Zum Schluss gibt es noch"
+     ],
+     "note": null
+    },
+    {
+     "id": 12,
+     "de": "Eine weitere Möglichkeit ist...",
+     "fa": "یک گزینه دیگر این است که...",
+     "en": "Another option is...",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Alternativen_nennen",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Eine weitere Möglichkeit ist, den öffentlichen Nahverkehr auszubauen.",
+     "example_fa": "یک گزینه دیگر این است که حمل‌ونقل عمومی گسترش یابد.",
+     "example_en": "Another option is to expand public transportation.",
+     "usage_position": "satzmitte",
+     "keywords": [
+      "گزینه"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Eine weitere Möglichkeit ist",
+     "distractors": [
+      "Zum Schluss gibt es noch",
+      "Da gibt es mehrere Alternativen",
+      "Ein Vorteil hierfür ist"
+     ],
+     "note": null
+    },
+    {
+     "id": 13,
+     "de": "Zum Schluss gibt es noch...",
+     "fa": "در پایان هنوز یک مورد دیگر وجود دارد...",
+     "en": "Finally, there is also...",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Alternativen_nennen",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Zum Schluss gibt es noch die Möglichkeit, von zu Hause aus zu arbeiten.",
+     "example_fa": "در پایان هنوز این امکان وجود دارد که از خانه کار کرد.",
+     "example_en": "Finally, there is also the option of working from home.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "پایان"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Zum Schluss gibt es noch",
+     "distractors": [
+      "Eine weitere Möglichkeit ist",
+      "Da gibt es mehrere Alternativen",
+      "Zum Schluss gehe ich ein auf"
+     ],
+     "note": null
+    },
+    {
+     "id": 14,
+     "de": "Es gibt verschiedene/mehrere Möglichkeiten...",
+     "fa": "راه‌های مختلفی وجود دارد که...",
+     "en": "There are various/several options...",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Alternativen_nennen",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Es gibt verschiedene Möglichkeiten, Energie zu sparen.",
+     "example_fa": "راه‌های مختلفی برای صرفه‌جویی در انرژی وجود دارد.",
+     "example_en": "There are various ways to save energy.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "راه‌ها"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Es gibt verschiedene Möglichkeiten",
+     "distractors": [
+      "Eine weitere Möglichkeit ist",
+      "Ich nenne … Möglichkeiten",
+      "Da gibt es mehrere Alternativen"
+     ],
+     "note": null
+    },
+    {
+     "id": 15,
+     "de": "Ich nenne … Möglichkeiten/Wege.",
+     "fa": "من ... راه/روش را نام می‌برم.",
+     "en": "I will name ... options/ways.",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Alternativen_nennen",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Ich nenne drei Möglichkeiten, wie man Plastikmüll reduzieren kann.",
+     "example_fa": "من سه راه را که می‌توان با آن‌ها زباله‌های پلاستیکی را کاهش داد نام می‌برم.",
+     "example_en": "I will name three ways to reduce plastic waste.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "راه",
+      "روش"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Ich nenne … Möglichkeiten",
+     "distractors": [
+      "Es gibt verschiedene Möglichkeiten",
+      "Ein gutes Beispiel dafür ist",
+      "Für … gibt es viele Beispiele"
+     ],
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title_de": "Vortrag: Vor- und Nachteile nennen",
+   "title_fa": "بیان مزایا و معایب",
+   "phrases": [
+    {
+     "id": 16,
+     "de": "Ein großer Vorteil/Nachteil ist, dass...",
+     "fa": "یک مزیت/عیب بزرگ این است که...",
+     "en": "A major advantage/disadvantage is that...",
+     "grammar_pattern": "dass_satz",
+     "function": "VorNachteile_nennen",
+     "register": "neutral",
+     "cefr_level": "B2",
+     "topic": "praesentation",
+     "structure_after": "dass + Nebensatz (Verb am Ende)",
+     "example_de": "Ein großer Vorteil ist, dass man Zeit und Geld spart.",
+     "example_fa": "یک مزیت بزرگ این است که در وقت و پول صرفه‌جویی می‌شود.",
+     "example_en": "A major advantage is that one saves time and money.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "مزیت",
+      "عیب"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Ein großer Vorteil ist, dass",
+     "distractors": [
+      "Dafür spricht, dass",
+      "Als positiv betrachte ich die Tatsache, dass",
+      "Ein weiterer Grund dafür ist"
+     ],
+     "note": null
+    },
+    {
+     "id": 17,
+     "de": "Dafür/Dagegen spricht, dass...",
+     "fa": "به نفع/ضد آن این است که...",
+     "en": "In favor of/against this is the fact that...",
+     "grammar_pattern": "dass_satz",
+     "function": "VorNachteile_nennen",
+     "register": "neutral",
+     "cefr_level": "B2",
+     "topic": "praesentation",
+     "structure_after": "dass + Nebensatz (Verb am Ende)",
+     "example_de": "Dagegen spricht, dass die Umsetzung sehr teuer ist.",
+     "example_fa": "به ضد آن این است که اجرای آن بسیار پرهزینه است.",
+     "example_en": "Against this is the fact that the implementation is very expensive.",
+     "usage_position": "satzmitte",
+     "keywords": [
+      "ضد",
+      "نفع"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "spricht, dass",
+     "distractors": [
+      "Ein großer Vorteil ist, dass",
+      "Gegen … spricht",
+      "Ein Nachteil dabei ist"
+     ],
+     "note": null
+    },
+    {
+     "id": 18,
+     "de": "Ein weiteres Argument für/gegen... ist...",
+     "fa": "یک دلیل دیگر برای/ضد ... این است که...",
+     "en": "A further argument for/against... is...",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "VorNachteile_nennen",
+     "register": "neutral",
+     "cefr_level": "B2",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Ein weiteres Argument gegen das Homeoffice ist der fehlende soziale Kontakt.",
+     "example_fa": "یک دلیل دیگر ضد دورکاری، نبود ارتباط اجتماعی است.",
+     "example_en": "A further argument against working from home is the lack of social contact.",
+     "usage_position": "satzmitte",
+     "keywords": [
+      "دلیل"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Ein weiteres Argument für/gegen … ist",
+     "distractors": [
+      "Der wichtigste Grund für … ist",
+      "Dafür spricht, dass",
+      "Einer der wichtigsten Gründe ist"
+     ],
+     "note": null
+    },
+    {
+     "id": 19,
+     "de": "... hat positive/negative Seiten.",
+     "fa": "... جنبه‌های مثبت/منفی دارد.",
+     "en": "... has positive/negative sides.",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "VorNachteile_nennen",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Diese Entwicklung hat sowohl positive als auch negative Seiten.",
+     "example_fa": "این روند هم جنبه‌های مثبت و هم منفی دارد.",
+     "example_en": "This development has both positive and negative sides.",
+     "usage_position": "satzende",
+     "keywords": [
+      "جنبه"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "hat positive/negative Seiten",
+     "distractors": [
+      "Ein großer Vorteil ist, dass",
+      "In diesem Fall überwiegen die Vorteile",
+      "Ich schätze diese Möglichkeit eher positiv ein"
+     ],
+     "note": null
+    },
+    {
+     "id": 20,
+     "de": "Als positiv/negativ betrachte ich die Tatsache, dass...",
+     "fa": "من این حقیقت را مثبت/منفی می‌دانم که...",
+     "en": "I regard the fact that... as positive/negative.",
+     "grammar_pattern": "dass_satz",
+     "function": "VorNachteile_nennen",
+     "register": "neutral",
+     "cefr_level": "B2",
+     "topic": "praesentation",
+     "structure_after": "dass + Nebensatz (Verb am Ende)",
+     "example_de": "Als positiv betrachte ich die Tatsache, dass mehr Menschen Fahrrad fahren.",
+     "example_fa": "من این حقیقت را که افراد بیشتری دوچرخه‌سواری می‌کنند مثبت می‌دانم.",
+     "example_en": "I regard the fact that more people are cycling as positive.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "حقیقت",
+      "مثبت"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Als positiv betrachte ich die Tatsache, dass",
+     "distractors": [
+      "Ein großer Vorteil ist, dass",
+      "Ich schätze diese Möglichkeit eher positiv ein",
+      "Dafür spricht, dass"
+     ],
+     "note": null
+    },
+    {
+     "id": 21,
+     "de": "Ein (weiterer) Grund dafür ist...",
+     "fa": "یک دلیل (دیگر) برای این این است که...",
+     "en": "A(nother) reason for this is...",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "VorNachteile_nennen",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Ein weiterer Grund dafür ist der steigende Energiepreis.",
+     "example_fa": "یک دلیل دیگر برای این، افزایش قیمت انرژی است.",
+     "example_en": "Another reason for this is the rising energy price.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "دلیل"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Ein weiterer Grund dafür ist",
+     "distractors": [
+      "Das liegt daran, dass",
+      "Der wichtigste Grund für … ist",
+      "Einer der wichtigsten Gründe ist"
+     ],
+     "note": null
+    },
+    {
+     "id": 22,
+     "de": "Das liegt daran, dass...",
+     "fa": "این به این دلیل است که...",
+     "en": "This is because...",
+     "grammar_pattern": "dass_satz",
+     "function": "VorNachteile_nennen",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "praesentation",
+     "structure_after": "dass + Nebensatz (Verb am Ende)",
+     "example_de": "Das liegt daran, dass viele Menschen keine Zeit zum Kochen haben.",
+     "example_fa": "این به این دلیل است که بسیاری از مردم وقت پختن غذا ندارند.",
+     "example_en": "This is because many people don't have time to cook.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "دلیل"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Das liegt daran, dass",
+     "distractors": [
+      "Ein weiterer Grund dafür ist",
+      "Dies liegt daran, dass",
+      "Der wichtigste Grund für … ist"
+     ],
+     "note": null
+    },
+    {
+     "id": 23,
+     "de": "Der wichtigste Grund für…ist…",
+     "fa": "مهم‌ترین دلیل برای... این است...",
+     "en": "The most important reason for... is...",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "VorNachteile_nennen",
+     "register": "neutral",
+     "cefr_level": "B2",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Der wichtigste Grund für den Umstieg auf E-Autos ist der Umweltschutz.",
+     "example_fa": "مهم‌ترین دلیل برای روی‌آوردن به خودروهای برقی، حفاظت از محیط زیست است.",
+     "example_en": "The most important reason for switching to electric cars is environmental protection.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "مهم‌ترین",
+      "دلیل"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Der wichtigste Grund für … ist",
+     "distractors": [
+      "Einer der wichtigsten Gründe ist",
+      "Ein weiterer Grund dafür ist",
+      "Das liegt daran, dass"
+     ],
+     "note": null
+    },
+    {
+     "id": 24,
+     "de": "Ein gutes Beispiel dafür ist/sind…",
+     "fa": "یک مثال خوب برای این ... است/هستند.",
+     "en": "A good example of this is/are...",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Beispiele_geben",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Ein gutes Beispiel dafür ist die Stadt Kopenhagen mit ihrem Fahrradnetz.",
+     "example_fa": "یک مثال خوب برای این، شهر کپنهاگ با شبکه دوچرخه‌سواری آن است.",
+     "example_en": "A good example of this is the city of Copenhagen with its bicycle network.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "مثال"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Ein gutes Beispiel dafür ist",
+     "distractors": [
+      "Für … gibt es viele Beispiele",
+      "Ein anderes Beispiel dazu ist",
+      "Ich nenne … Möglichkeiten"
+     ],
+     "note": null
+    },
+    {
+     "id": 25,
+     "de": "Für…gibt es viele Beispiele. So etwa…",
+     "fa": "برای... نمونه‌های زیادی وجود دارد. مثلاً...",
+     "en": "There are many examples of... Such as...",
+     "grammar_pattern": "doppelpunkt_aufzaehlung",
+     "function": "Beispiele_geben",
+     "register": "neutral",
+     "cefr_level": "B2",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz, dann Aufzählung",
+     "example_de": "Für gelungene Integration gibt es viele Beispiele. So etwa Sprachkurse am Arbeitsplatz.",
+     "example_fa": "برای ادغام موفق نمونه‌های زیادی وجود دارد. مثلاً دوره‌های زبان در محل کار.",
+     "example_en": "There are many examples of successful integration. Such as language courses at the workplace.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "نمونه",
+      "مثال"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "gibt es viele Beispiele. So etwa",
+     "distractors": [
+      "Ein gutes Beispiel dafür ist",
+      "Ein anderes Beispiel dazu ist",
+      "Ich nenne … Möglichkeiten"
+     ],
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title_de": "Vortrag: Ausführlicher auf ein Thema eingehen",
+   "title_fa": "پرداختن دقیق‌تر به یک موضوع",
+   "phrases": [
+    {
+     "id": 26,
+     "de": "Darüber möchte ich nun ausführlicher sprechen.",
+     "fa": "الآن می‌خواهم درباره این موضوع بیشتر صحبت کنم.",
+     "en": "I would now like to talk about this in more detail.",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Ausfuehrlicher_eingehen",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Darüber möchte ich nun ausführlicher sprechen: die Auswirkungen auf die Umwelt.",
+     "example_fa": "الآن می‌خواهم درباره این موضوع بیشتر صحبت کنم: تأثیرات بر محیط زیست.",
+     "example_en": "I would now like to talk about this in more detail: the effects on the environment.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "بیشتر",
+      "صحبت"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "möchte ich nun ausführlicher sprechen",
+     "distractors": [
+      "Diese Alternative möchte ich ausführlicher beschreiben",
+      "Auf diese Möglichkeit möchte ich genauer eingehen",
+      "Ich spreche nun über … im Detail"
+     ],
+     "note": null
+    },
+    {
+     "id": 27,
+     "de": "Diese Alternative möchte ich ausführlicher beschreiben.",
+     "fa": "می‌خواهم این گزینه را بیشتر توضیح دهم.",
+     "en": "I would like to describe this alternative in more detail.",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Ausfuehrlicher_eingehen",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Diese Alternative möchte ich ausführlicher beschreiben: das Homeoffice-Modell.",
+     "example_fa": "می‌خواهم این گزینه را بیشتر توضیح دهم: مدل دورکاری.",
+     "example_en": "I would like to describe this alternative in more detail: the home-office model.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "گزینه"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "möchte ich ausführlicher beschreiben",
+     "distractors": [
+      "Darüber möchte ich nun ausführlicher sprechen",
+      "Auf diese Möglichkeit möchte ich genauer eingehen",
+      "Ich spreche nun über … im Detail"
+     ],
+     "note": null
+    },
+    {
+     "id": 28,
+     "de": "Auf diese Möglichkeit möchte ich genauer eingehen.",
+     "fa": "می‌خواهم به این امکان بیشتر بپردازم.",
+     "en": "I would like to go into this option in more detail.",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Ausfuehrlicher_eingehen",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Auf diese Möglichkeit möchte ich genauer eingehen: die finanzielle Förderung.",
+     "example_fa": "می‌خواهم به این امکان بیشتر بپردازم: حمایت مالی.",
+     "example_en": "I would like to go into this option in more detail: the financial support.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "امکان"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "möchte ich genauer eingehen",
+     "distractors": [
+      "Darüber möchte ich nun ausführlicher sprechen",
+      "Diese Alternative möchte ich ausführlicher beschreiben",
+      "Ich spreche nun über … im Detail"
+     ],
+     "note": null
+    },
+    {
+     "id": 29,
+     "de": "Ich spreche nun über … im Detail.",
+     "fa": "من اکنون در مورد ... با جزئیات صحبت خواهم کرد.",
+     "en": "I will now talk about ... in detail.",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Ausfuehrlicher_eingehen",
+     "register": "neutral",
+     "cefr_level": "B2",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Ich spreche nun über die Kosten im Detail.",
+     "example_fa": "من اکنون در مورد هزینه‌ها با جزئیات صحبت خواهم کرد.",
+     "example_en": "I will now talk about the costs in detail.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "جزئیات"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Ich spreche nun über … im Detail",
+     "distractors": [
+      "Auf diese Möglichkeit möchte ich genauer eingehen",
+      "Darüber möchte ich nun ausführlicher sprechen",
+      "Als Erstes gehe ich ein auf"
+     ],
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title_de": "Vortrag: Eine Möglichkeit bewerten",
+   "title_fa": "ارزیابی یک گزینه",
+   "phrases": [
+    {
+     "id": 30,
+     "de": "Ich schätze diese Möglichkeit eher positiv/negativ ein.",
+     "fa": "من این امکان را به‌نسبت مثبت/منفی ارزیابی می‌کنم.",
+     "en": "I assess this option as rather positive/negative.",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Moeglichkeit_bewerten",
+     "register": "neutral",
+     "cefr_level": "B2",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Ich schätze diese Möglichkeit eher positiv ein, da sie kosteneffizient ist.",
+     "example_fa": "من این امکان را به‌نسبت مثبت ارزیابی می‌کنم، زیرا مقرون‌به‌صرفه است.",
+     "example_en": "I assess this option as rather positive, since it is cost-effective.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "ارزیابی"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Ich schätze diese Möglichkeit eher positiv ein",
+     "distractors": [
+      "In diesem Fall überwiegen die Vorteile",
+      "Als positiv betrachte ich die Tatsache, dass",
+      "Ich glaube, ich würde das jedem empfehlen"
+     ],
+     "note": null
+    },
+    {
+     "id": 31,
+     "de": "In diesem Fall überwiegen die Vorteile/Nachteile.",
+     "fa": "در این مورد مزایا/معایب برتری دارند.",
+     "en": "In this case, the advantages/disadvantages outweigh.",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Moeglichkeit_bewerten",
+     "register": "neutral",
+     "cefr_level": "B2",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "In diesem Fall überwiegen eindeutig die Vorteile.",
+     "example_fa": "در این مورد، مزایا به‌وضوح برتری دارند.",
+     "example_en": "In this case, the advantages clearly outweigh.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "برتری",
+      "مزایا"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "überwiegen die Vorteile/Nachteile",
+     "distractors": [
+      "Ich schätze diese Möglichkeit eher positiv ein",
+      ".. hat positive/negative Seiten",
+      "Ich glaube, ich würde das jedem empfehlen"
+     ],
+     "note": null
+    },
+    {
+     "id": 32,
+     "de": "Ich glaube, ich würde das jedem/niemandem empfehlen.",
+     "fa": "فکر می‌کنم که به همه/هیچ‌کس این را پیشنهاد می‌دهم.",
+     "en": "I think I would recommend this to everyone/no one.",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Moeglichkeit_bewerten",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Ich glaube, ich würde das jedem empfehlen, der umweltbewusst leben möchte.",
+     "example_fa": "فکر می‌کنم به هر کسی که می‌خواهد آگاهانه نسبت به محیط زیست زندگی کند این را پیشنهاد می‌دهم.",
+     "example_en": "I think I would recommend this to anyone who wants to live environmentally consciously.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "پیشنهاد"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "würde ich jedem/niemandem empfehlen",
+     "distractors": [
+      "Ich kann … sehr empfehlen",
+      "In diesem Fall überwiegen die Vorteile",
+      "Ich schätze diese Möglichkeit eher positiv ein"
+     ],
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "title_de": "Vortrag: Schluss und Empfehlung",
+   "title_fa": "پایان‌بندی ارائه",
+   "phrases": [
+    {
+     "id": 33,
+     "de": "Hiermit ist das Ende meines Vortrags. Vielen Dank für Ihre Aufmerksamkeit.",
+     "fa": "با این، ارائه من به پایان رسیده است. از توجه شما متشکرم.",
+     "en": "This is the end of my presentation. Thank you for your attention.",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Vortrag_beenden",
+     "register": "formal",
+     "cefr_level": "B1",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Hiermit ist das Ende meines Vortrags. Vielen Dank für Ihre Aufmerksamkeit.",
+     "example_fa": "با این، ارائه من به پایان رسیده است. از توجه شما متشکرم.",
+     "example_en": "This is the end of my presentation. Thank you for your attention.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "پایان",
+      "تشکر"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Hiermit ist das Ende meines Vortrags",
+     "distractors": [
+      "Hiermit ist mein Vortrag zu Ende",
+      "Abschließend möchte ich sagen, dass",
+      "Zum Schluss möchte ich betonen, dass"
+     ],
+     "note": null
+    },
+    {
+     "id": 34,
+     "de": "Hiermit ist mein Vortrag zu Ende. Vielen Dank fürs Zuhören.",
+     "fa": "با این، ارائه من به پایان رسید. از گوش دادن شما متشکرم.",
+     "en": "This is the end of my presentation. Thank you for listening.",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Vortrag_beenden",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Hiermit ist mein Vortrag zu Ende. Vielen Dank fürs Zuhören.",
+     "example_fa": "با این، ارائه من به پایان رسید. از گوش دادن شما متشکرم.",
+     "example_en": "This is the end of my presentation. Thank you for listening.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "پایان"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Hiermit ist mein Vortrag zu Ende",
+     "distractors": [
+      "Hiermit ist das Ende meines Vortrags",
+      "Abschließend möchte ich sagen, dass",
+      "Ich möchte mit einem Ausblick schließen"
+     ],
+     "note": null
+    },
+    {
+     "id": 35,
+     "de": "Wie ich schon/bereits gesagt habe,…",
+     "fa": "همان‌طور که قبلاً گفته‌ام...",
+     "en": "As I have already said,...",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Vortrag_beenden",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Wie ich bereits gesagt habe, ist der Klimaschutz für uns alle wichtig.",
+     "example_fa": "همان‌طور که قبلاً گفته‌ام، حفاظت از اقلیم برای همه ما مهم است.",
+     "example_en": "As I have already said, climate protection is important for all of us.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "قبلاً"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Wie ich schon/bereits gesagt habe",
+     "distractors": [
+      "Abschließend möchte ich sagen, dass",
+      "Zum Schluss möchte ich betonen, dass",
+      "Ich möchte mit einem Ausblick schließen"
+     ],
+     "note": null
+    },
+    {
+     "id": 36,
+     "de": "Abschließend möchte ich sagen, dass...",
+     "fa": "در پایان می‌خواهم بگویم که...",
+     "en": "In conclusion, I would like to say that...",
+     "grammar_pattern": "dass_satz",
+     "function": "Vortrag_beenden",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "praesentation",
+     "structure_after": "dass + Nebensatz (Verb am Ende)",
+     "example_de": "Abschließend möchte ich sagen, dass sich ein Umdenken lohnt.",
+     "example_fa": "در پایان می‌خواهم بگویم که یک تجدیدنظر ارزشش را دارد.",
+     "example_en": "In conclusion, I would like to say that a rethink is worthwhile.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "پایان"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Abschließend möchte ich sagen, dass",
+     "distractors": [
+      "Zum Schluss möchte ich betonen, dass",
+      "Wie ich schon gesagt habe",
+      "Ich möchte mit einem Ausblick schließen"
+     ],
+     "note": null
+    },
+    {
+     "id": 37,
+     "de": "Zum Schluss möchte ich betonen/noch einmal sagen, dass...",
+     "fa": "در پایان، مایلم تأکید کنم که...",
+     "en": "In conclusion, I would like to emphasize/say again that...",
+     "grammar_pattern": "dass_satz",
+     "function": "Vortrag_beenden",
+     "register": "neutral",
+     "cefr_level": "B2",
+     "topic": "praesentation",
+     "structure_after": "dass + Nebensatz (Verb am Ende)",
+     "example_de": "Zum Schluss möchte ich betonen, dass jeder Einzelne etwas bewirken kann.",
+     "example_fa": "در پایان، مایلم تأکید کنم که هر فرد می‌تواند تأثیرگذار باشد.",
+     "example_en": "In conclusion, I would like to emphasize that every individual can make a difference.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "تأکید"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Zum Schluss möchte ich betonen, dass",
+     "distractors": [
+      "Abschließend möchte ich sagen, dass",
+      "Wie ich schon gesagt habe",
+      "Ich möchte mit einem Ausblick schließen"
+     ],
+     "note": null
+    },
+    {
+     "id": 38,
+     "de": "Ich möchte mit einem Ausblick/einem Wunsch für die Zukunft schließen.",
+     "fa": "می‌خواهم با یک چشم‌انداز/آرزو برای آینده پایان دهم.",
+     "en": "I would like to close with an outlook/a wish for the future.",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Vortrag_beenden",
+     "register": "neutral",
+     "cefr_level": "B2",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Ich möchte mit einem Ausblick für die Zukunft schließen: Hoffentlich handeln wir bald.",
+     "example_fa": "می‌خواهم با یک چشم‌انداز برای آینده پایان دهم: امیدوارم به‌زودی اقدام کنیم.",
+     "example_en": "I would like to close with an outlook for the future: hopefully we will act soon.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "چشم‌انداز",
+      "آرزو"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "möchte ich mit einem Ausblick … schließen",
+     "distractors": [
+      "Abschließend möchte ich sagen, dass",
+      "Ich kann … sehr empfehlen",
+      "Zum Schluss möchte ich betonen, dass"
+     ],
+     "note": null
+    },
+    {
+     "id": 39,
+     "de": "Ich kann … sehr empfehlen.",
+     "fa": "من می‌توانم ... را به‌شدت توصیه کنم.",
+     "en": "I can highly recommend...",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Vortrag_beenden",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "praesentation",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Ich kann diese App allen Deutschlernenden sehr empfehlen.",
+     "example_fa": "من این اپلیکیشن را به همه زبان‌آموزان آلمانی به‌شدت توصیه می‌کنم.",
+     "example_en": "I can highly recommend this app to all German learners.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "توصیه"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Ich kann … sehr empfehlen",
+     "distractors": [
+      "Ich glaube, ich würde das jedem empfehlen",
+      "Ich möchte mit einem Ausblick schließen",
+      "In diesem Fall überwiegen die Vorteile"
+     ],
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "title_de": "Diskussion: Vorschläge machen",
+   "title_fa": "ارائه پیشنهاد در بحث",
+   "phrases": [
+    {
+     "id": 40,
+     "de": "Ich würde vorschlagen, dass...",
+     "fa": "پیشنهاد می‌کنم که...",
+     "en": "I would suggest that...",
+     "grammar_pattern": "dass_satz",
+     "function": "Vorschlaege_machen",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "diskussion",
+     "structure_after": "dass + Nebensatz (Verb am Ende)",
+     "example_de": "Ich würde vorschlagen, dass wir uns nächste Woche noch einmal treffen.",
+     "example_fa": "پیشنهاد می‌کنم که هفته آینده دوباره یکدیگر را ببینیم.",
+     "example_en": "I would suggest that we meet again next week.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "پیشنهاد"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Ich würde vorschlagen, dass",
+     "distractors": [
+      "Was hältst du davon, wenn",
+      "Wir könnten",
+      "Wir könnten uns vielleicht auf Folgendes einigen"
+     ],
+     "note": null
+    },
+    {
+     "id": 41,
+     "de": "Was hältst du davon, wenn...?",
+     "fa": "به نظرت چطوره اگر...؟",
+     "en": "What do you think if...?",
+     "grammar_pattern": "wenn_satz",
+     "function": "Vorschlaege_machen",
+     "register": "colloquial",
+     "cefr_level": "B1",
+     "topic": "diskussion",
+     "structure_after": "wenn + Nebensatz (Verb am Ende)",
+     "example_de": "Was hältst du davon, wenn wir das Projekt zu zweit machen?",
+     "example_fa": "به نظرت چطوره اگر پروژه را دو نفری انجام بدهیم؟",
+     "example_en": "What do you think if we do the project as a pair?",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "پیشنهاد",
+      "نظر"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Was hältst du davon, wenn",
+     "distractors": [
+      "Ich würde vorschlagen, dass",
+      "Wärst du damit einverstanden, wenn",
+      "Wir könnten"
+     ],
+     "note": null
+    },
+    {
+     "id": 42,
+     "de": "Wir könnten...",
+     "fa": "ما می‌توانیم...",
+     "en": "We could...",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Vorschlaege_machen",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "diskussion",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Wir könnten das Problem gemeinsam lösen.",
+     "example_fa": "ما می‌توانیم مشکل را با هم حل کنیم.",
+     "example_en": "We could solve the problem together.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "می‌توانیم"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Wir könnten",
+     "distractors": [
+      "Ich würde vorschlagen, dass",
+      "Was hältst du davon, wenn",
+      "Gut, dann machen wir es so"
+     ],
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "title_de": "Diskussion: Zustimmung ausdrücken",
+   "title_fa": "ابراز موافقت در بحث",
+   "phrases": [
+    {
+     "id": 43,
+     "de": "Ja, das sehe ich auch so.",
+     "fa": "بله، من هم همین‌طور فکر می‌کنم.",
+     "en": "Yes, I see it that way too.",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Zustimmung_ausdruecken",
+     "register": "neutral",
+     "cefr_level": "A2",
+     "topic": "diskussion",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Ja, das sehe ich auch so, wir sollten mehr auf Umweltschutz achten.",
+     "example_fa": "بله، من هم همین‌طور فکر می‌کنم، باید بیشتر به حفاظت از محیط زیست توجه کنیم.",
+     "example_en": "Yes, I see it that way too; we should pay more attention to environmental protection.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "موافقت"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Ja, das sehe ich auch so",
+     "distractors": [
+      "Der Meinung bin ich auch",
+      "Ich stimme dir/Ihnen zu",
+      "Da hast du/haben Sie völlig recht"
+     ],
+     "note": null
+    },
+    {
+     "id": 44,
+     "de": "Das kann ich nur bestätigen.",
+     "fa": "من فقط می‌توانم این را تأیید کنم.",
+     "en": "I can only confirm that.",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Zustimmung_ausdruecken",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "diskussion",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Das kann ich nur bestätigen, die Preise sind wirklich stark gestiegen.",
+     "example_fa": "من فقط می‌توانم این را تأیید کنم، قیمت‌ها واقعاً به‌شدت افزایش یافته‌اند.",
+     "example_en": "I can only confirm that; prices have really risen sharply.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "تأیید"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Das kann ich nur bestätigen",
+     "distractors": [
+      "Da hast du/haben Sie völlig recht",
+      "Ja, das sehe ich auch so",
+      "Ich stimme dir/Ihnen zu"
+     ],
+     "note": null
+    },
+    {
+     "id": 45,
+     "de": "Da hast du/haben Sie völlig recht.",
+     "fa": "کاملاً درست می‌فرمایید.",
+     "en": "You are completely right about that.",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Zustimmung_ausdruecken",
+     "register": "neutral",
+     "cefr_level": "A2",
+     "topic": "diskussion",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Da haben Sie völlig recht, das Konzept muss überarbeitet werden.",
+     "example_fa": "کاملاً درست می‌فرمایید، این طرح باید بازبینی شود.",
+     "example_en": "You are completely right about that; the concept needs to be revised.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "درست"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Da hast du/haben Sie völlig recht",
+     "distractors": [
+      "Ja, das sehe ich auch so",
+      "Das kann ich nur bestätigen",
+      "Ich stimme dir/Ihnen zu"
+     ],
+     "note": null
+    },
+    {
+     "id": 46,
+     "de": "Ich stimme dir/Ihnen zu.",
+     "fa": "با تو/شما موافقم.",
+     "en": "I agree with you.",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Zustimmung_ausdruecken",
+     "register": "neutral",
+     "cefr_level": "A2",
+     "topic": "diskussion",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Ich stimme Ihnen zu, das wäre die beste Lösung.",
+     "example_fa": "با شما موافقم، این بهترین راه‌حل خواهد بود.",
+     "example_en": "I agree with you; that would be the best solution.",
+     "usage_position": "satzende",
+     "keywords": [
+      "موافقم"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Ich stimme dir/Ihnen zu",
+     "distractors": [
+      "Da hast du/haben Sie völlig recht",
+      "Ja, das sehe ich auch so",
+      "Der Meinung bin ich auch"
+     ],
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "title_de": "Diskussion: Widerspruch und Ablehnung ausdrücken",
+   "title_fa": "ابراز مخالفت و رد کردن در بحث",
+   "phrases": [
+    {
+     "id": 47,
+     "de": "Das stimmt meiner Meinung nach nicht.",
+     "fa": "به نظر من این درست نیست.",
+     "en": "In my opinion, that is not correct.",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Widerspruch_ausdruecken",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "diskussion",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Das stimmt meiner Meinung nach nicht, die Zahlen sind veraltet.",
+     "example_fa": "به نظر من این درست نیست، این ارقام قدیمی هستند.",
+     "example_en": "In my opinion, that is not correct; the figures are outdated.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "نادرست"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Das stimmt meiner Meinung nach nicht",
+     "distractors": [
+      "Das halte ich für problematisch",
+      "Das kann ich mir überhaupt nicht vorstellen",
+      "Das ist sicher richtig, allerdings"
+     ],
+     "note": null
+    },
+    {
+     "id": 48,
+     "de": "Das kann ich mir überhaupt nicht vorstellen, denn...",
+     "fa": "من اصلاً نمی‌توانم این را تصور کنم، زیرا...",
+     "en": "I cannot imagine that at all, because...",
+     "grammar_pattern": "denn_satz",
+     "function": "Widerspruch_ausdruecken",
+     "register": "neutral",
+     "cefr_level": "B2",
+     "topic": "diskussion",
+     "structure_after": "denn + Hauptsatz (normale Wortstellung)",
+     "example_de": "Das kann ich mir überhaupt nicht vorstellen, denn die Kosten wären viel zu hoch.",
+     "example_fa": "من اصلاً نمی‌توانم این را تصور کنم، زیرا هزینه‌ها بسیار زیاد خواهد بود.",
+     "example_en": "I cannot imagine that at all, because the costs would be far too high.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "تصور"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Das kann ich mir überhaupt nicht vorstellen, denn",
+     "distractors": [
+      "Das stimmt meiner Meinung nach nicht",
+      "Das halte ich für problematisch",
+      "Es stimmt zwar, dass … aber"
+     ],
+     "note": null
+    },
+    {
+     "id": 49,
+     "de": "Das halte ich für problematisch.",
+     "fa": "من این را یک مسئله مشکل‌آفرین می‌دانم.",
+     "en": "I consider that problematic.",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Widerspruch_ausdruecken",
+     "register": "neutral",
+     "cefr_level": "B2",
+     "topic": "diskussion",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Das halte ich für problematisch, weil dabei die Privatsphäre verletzt wird.",
+     "example_fa": "من این را مشکل‌آفرین می‌دانم، زیرا در این کار حریم خصوصی نقض می‌شود.",
+     "example_en": "I consider that problematic, because it violates privacy.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "مشکل‌آفرین"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Das halte ich für problematisch",
+     "distractors": [
+      "Das stimmt meiner Meinung nach nicht",
+      "Das kann ich mir überhaupt nicht vorstellen",
+      "Dagegen spricht, dass"
+     ],
+     "note": null
+    },
+    {
+     "id": 50,
+     "de": "Das ist sicher richtig, allerdings...",
+     "fa": "این مطمئناً درست است، اما...",
+     "en": "That is certainly correct, however...",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Widerspruch_ausdruecken",
+     "register": "neutral",
+     "cefr_level": "B2",
+     "topic": "diskussion",
+     "structure_after": "Hauptsatz (allerdings leitet Einschränkung ein)",
+     "example_de": "Das ist sicher richtig, allerdings fehlt uns dafür das Budget.",
+     "example_fa": "این مطمئناً درست است، اما ما برای آن بودجه نداریم.",
+     "example_en": "That is certainly correct, however we lack the budget for it.",
+     "usage_position": "satzmitte",
+     "keywords": [
+      "اما"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Das ist sicher richtig, allerdings",
+     "distractors": [
+      "Es stimmt zwar, dass … aber",
+      "Das halte ich für problematisch",
+      "Dagegen spricht, dass"
+     ],
+     "note": null
+    },
+    {
+     "id": 51,
+     "de": "Es stimmt zwar, dass..., aber...",
+     "fa": "این درست است که...، اما...",
+     "en": "It is true that..., but...",
+     "grammar_pattern": "dass_satz",
+     "function": "Widerspruch_ausdruecken",
+     "register": "neutral",
+     "cefr_level": "B2",
+     "topic": "diskussion",
+     "structure_after": "dass + Nebensatz, dann aber + Hauptsatz",
+     "example_de": "Es stimmt zwar, dass die App kostenlos ist, aber sie zeigt viel Werbung.",
+     "example_fa": "این درست است که اپلیکیشن رایگان است، اما تبلیغات زیادی نشان می‌دهد.",
+     "example_en": "It is true that the app is free, but it shows a lot of advertising.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "اما"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Es stimmt zwar, dass … aber",
+     "distractors": [
+      "Das ist sicher richtig, allerdings",
+      "Das halte ich für problematisch",
+      "Das stimmt meiner Meinung nach nicht"
+     ],
+     "note": null
+    },
+    {
+     "id": 52,
+     "de": "Wir könnten uns vielleicht auf Folgendes einigen:...",
+     "fa": "شاید بتوانیم بر سر موضوع زیر توافق کنیم:...",
+     "en": "Perhaps we could agree on the following:...",
+     "grammar_pattern": "doppelpunkt_aufzaehlung",
+     "function": "Einigung_finden",
+     "register": "neutral",
+     "cefr_level": "B2",
+     "topic": "diskussion",
+     "structure_after": "Doppelpunkt + Aufzählung/Liste",
+     "example_de": "Wir könnten uns vielleicht auf Folgendes einigen: ein Kompromiss bei der Deadline.",
+     "example_fa": "شاید بتوانیم بر سر موضوع زیر توافق کنیم: یک راه‌حل میانه برای مهلت زمانی.",
+     "example_en": "Perhaps we could agree on the following: a compromise on the deadline.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "توافق"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Wir könnten uns vielleicht auf Folgendes einigen",
+     "distractors": [
+      "Dann könnten wir also festhalten, dass",
+      "Wären Sie damit einverstanden, wenn",
+      "Gut, dann machen wir es so"
+     ],
+     "note": null
+    },
+    {
+     "id": 53,
+     "de": "Dann könnten wir also festhalten, dass...",
+     "fa": "پس می‌توانیم این‌طور نتیجه بگیریم که...",
+     "en": "So then we could conclude that...",
+     "grammar_pattern": "dass_satz",
+     "function": "Einigung_finden",
+     "register": "neutral",
+     "cefr_level": "B2",
+     "topic": "diskussion",
+     "structure_after": "dass + Nebensatz (Verb am Ende)",
+     "example_de": "Dann könnten wir also festhalten, dass wir das Projekt verschieben.",
+     "example_fa": "پس می‌توانیم این‌طور نتیجه بگیریم که پروژه را به تعویق می‌اندازیم.",
+     "example_en": "So then we could conclude that we are postponing the project.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "نتیجه"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Dann könnten wir also festhalten, dass",
+     "distractors": [
+      "Wir könnten uns vielleicht auf Folgendes einigen",
+      "Gut, dann machen wir es so",
+      "Wären Sie damit einverstanden, wenn"
+     ],
+     "note": null
+    },
+    {
+     "id": 54,
+     "de": "Wären Sie damit einverstanden, wenn...?",
+     "fa": "آیا با این موافق هستید که...؟",
+     "en": "Would you agree if...?",
+     "grammar_pattern": "wenn_satz",
+     "function": "Einigung_finden",
+     "register": "formal",
+     "cefr_level": "B2",
+     "topic": "diskussion",
+     "structure_after": "wenn + Nebensatz (Verb am Ende)",
+     "example_de": "Wären Sie damit einverstanden, wenn wir den Termin verschieben?",
+     "example_fa": "آیا با این موافق هستید که قرار را به تعویق بیندازیم؟",
+     "example_en": "Would you agree if we postponed the appointment?",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "موافق"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Wären Sie damit einverstanden, wenn",
+     "distractors": [
+      "Was hältst du davon, wenn",
+      "Wir könnten uns vielleicht auf Folgendes einigen",
+      "Gut, dann machen wir es so"
+     ],
+     "note": null
+    },
+    {
+     "id": 55,
+     "de": "Gut, dann machen wir es so.",
+     "fa": "خوب، پس این‌کار را انجام می‌دهیم.",
+     "en": "Alright, then we'll do it that way.",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Einigung_finden",
+     "register": "colloquial",
+     "cefr_level": "A2",
+     "topic": "diskussion",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Gut, dann machen wir es so und treffen uns am Montag.",
+     "example_fa": "خوب، پس این‌کار را انجام می‌دهیم و دوشنبه همدیگر را می‌بینیم.",
+     "example_en": "Alright, then we'll do it that way and meet on Monday.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "توافق"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Gut, dann machen wir es so",
+     "distractors": [
+      "Dann könnten wir also festhalten, dass",
+      "Wir könnten uns vielleicht auf Folgendes einigen",
+      "Wären Sie damit einverstanden, wenn"
+     ],
+     "note": null
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "title_de": "Vortrag: Rückfragen am Schluss",
+   "title_fa": "پرسش‌های پایانی پس از ارائه",
+   "phrases": [
+    {
+     "id": 56,
+     "de": "Ich bin nicht sicher, ob ich dich/Sie richtig verstanden habe.",
+     "fa": "من مطمئن نیستم که منظور شما را درست متوجه شده باشم.",
+     "en": "I'm not sure if I understood you correctly.",
+     "grammar_pattern": "ob_satz",
+     "function": "Rueckfrage_stellen",
+     "register": "neutral",
+     "cefr_level": "B1",
+     "topic": "diskussion",
+     "structure_after": "ob + Nebensatz (Verb am Ende)",
+     "example_de": "Ich bin nicht sicher, ob ich Sie richtig verstanden habe: Meinen Sie den ersten oder zweiten Vorschlag?",
+     "example_fa": "من مطمئن نیستم که منظور شما را درست متوجه شده باشم: منظورتان پیشنهاد اول است یا دوم؟",
+     "example_en": "I'm not sure if I understood you correctly: do you mean the first or second suggestion?",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "مطمئن نیستم"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Ich bin nicht sicher, ob ich Sie richtig verstanden habe",
+     "distractors": [
+      "Mich würde interessieren, ob ich Sie richtig verstanden habe",
+      "Entschuldigung, das habe ich nicht genau verstanden",
+      "Könntest Du das etwas genauer erklären"
+     ],
+     "note": null
+    },
+    {
+     "id": 57,
+     "de": "Entschuldigung, das habe ich nicht genau verstanden.",
+     "fa": "ببخشید، من دقیقاً متوجه نشدم.",
+     "en": "Sorry, I didn't quite understand that.",
+     "grammar_pattern": "hauptsatz_only",
+     "function": "Rueckfrage_stellen",
+     "register": "neutral",
+     "cefr_level": "A2",
+     "topic": "diskussion",
+     "structure_after": "Hauptsatz (normale Wortstellung folgt)",
+     "example_de": "Entschuldigung, das habe ich nicht genau verstanden. Können Sie es wiederholen?",
+     "example_fa": "ببخشید، من دقیقاً متوجه نشدم. می‌توانید آن را تکرار کنید؟",
+     "example_en": "Sorry, I didn't quite understand that. Could you repeat it?",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "متوجه نشدم"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "das habe ich nicht genau verstanden",
+     "distractors": [
+      "Entschuldigung, kannst Du das bitte noch einmal wiederholen",
+      "Ich bin nicht sicher, ob ich Sie richtig verstanden habe",
+      "Könntest Du das etwas genauer erklären"
+     ],
+     "note": null
+    },
+    {
+     "id": 58,
+     "de": "Entschuldigung, kannst Du/können Sie das bitte noch einmal wiederholen?",
+     "fa": "ببخشید، می‌توانید لطفاً آن را دوباره تکرار کنید؟",
+     "en": "Sorry, could you please repeat that once more?",
+     "grammar_pattern": "w_frage",
+     "function": "Rueckfrage_stellen",
+     "register": "neutral",
+     "cefr_level": "A2",
+     "topic": "diskussion",
+     "structure_after": "Modalverb + Infinitiv am Satzende",
+     "example_de": "Entschuldigung, können Sie das bitte noch einmal wiederholen? Ich habe es akustisch nicht verstanden.",
+     "example_fa": "ببخشید، می‌توانید لطفاً آن را دوباره تکرار کنید؟ من از نظر صوتی متوجه نشدم.",
+     "example_en": "Sorry, could you please repeat that once more? I didn't catch it acoustically.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "تکرار"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "kannst Du/können Sie das bitte noch einmal wiederholen",
+     "distractors": [
+      "Entschuldigung, das habe ich nicht genau verstanden",
+      "Könntest Du das etwas genauer erklären",
+      "Ich bin nicht sicher, ob ich Sie richtig verstanden habe"
+     ],
+     "note": null
+    },
+    {
+     "id": 59,
+     "de": "Du hast gesagt/erwähnt, dass… Wie denkst Du zu…?",
+     "fa": "شما گفتید/اشاره کردید که... چه فکری درباره ... دارید؟",
+     "en": "You said/mentioned that... What do you think about...?",
+     "grammar_pattern": "dass_satz",
+     "function": "Rueckfrage_stellen",
+     "register": "colloquial",
+     "cefr_level": "B1",
+     "topic": "diskussion",
+     "structure_after": "dass + Nebensatz, dann W-Frage",
+     "example_de": "Du hast erwähnt, dass die Kosten steigen. Wie denkst Du zu einer Preiserhöhung?",
+     "example_fa": "شما اشاره کردید که هزینه‌ها در حال افزایش است. چه فکری درباره افزایش قیمت دارید؟",
+     "example_en": "You mentioned that costs are rising. What do you think about a price increase?",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "اشاره"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Du hast gesagt/erwähnt, dass",
+     "distractors": [
+      "Was denkst Du/meinst Du zu",
+      "Könntest Du das etwas genauer erklären",
+      "Ich bin nicht sicher, ob ich Sie richtig verstanden habe"
+     ],
+     "note": null
+    },
+    {
+     "id": 60,
+     "de": "Was denkst Du/meinst Du zu...?",
+     "fa": "شما در مورد ... چه فکر می‌کنید؟",
+     "en": "What do you think about...?",
+     "grammar_pattern": "w_frage",
+     "function": "Rueckfrage_stellen",
+     "register": "colloquial",
+     "cefr_level": "A2",
+     "topic": "diskussion",
+     "structure_after": "W-Frage (Verb an zweiter Stelle)",
+     "example_de": "Was denkst Du zu diesem Vorschlag?",
+     "example_fa": "شما در مورد این پیشنهاد چه فکر می‌کنید؟",
+     "example_en": "What do you think about this suggestion?",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "نظر"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Was denkst Du/meinst Du zu",
+     "distractors": [
+      "Du hast gesagt/erwähnt, dass",
+      "Könntest Du das etwas genauer erklären",
+      "Ich bin nicht sicher, ob ich Sie richtig verstanden habe"
+     ],
+     "note": null
+    },
+    {
+     "id": 61,
+     "de": "Könntest Du/könnten Sie das etwas genauer erklären?",
+     "fa": "ممکن است این را کمی دقیق‌تر توضیح دهید؟",
+     "en": "Could you explain that in a bit more detail?",
+     "grammar_pattern": "w_frage",
+     "function": "Rueckfrage_stellen",
+     "register": "formal",
+     "cefr_level": "B1",
+     "topic": "diskussion",
+     "structure_after": "Modalverb (Konjunktiv II) + Infinitiv am Satzende",
+     "example_de": "Könnten Sie das etwas genauer erklären? Mir ist der letzte Punkt nicht klar.",
+     "example_fa": "ممکن است این را کمی دقیق‌تر توضیح دهید؟ نکته آخر برایم روشن نیست.",
+     "example_en": "Could you explain that in a bit more detail? The last point is not clear to me.",
+     "usage_position": "satzanfang",
+     "keywords": [
+      "توضیح"
+     ],
+     "formality_pair_id": null,
+     "synonym_ids": [],
+     "fill_blank_target": "Könntest Du/könnten Sie das etwas genauer erklären",
+     "distractors": [
+      "Entschuldigung, kannst Du das bitte noch einmal wiederholen",
+      "Was denkst Du/meinst Du zu",
+      "Entschuldigung, das habe ich nicht genau verstanden"
+     ],
+     "note": null
+    }
+   ]
+  }
+ ]
+}

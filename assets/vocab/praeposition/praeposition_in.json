@@ -1,0 +1,152 @@
+{
+  "schema": "3.0",
+  "id": "praeposition_in",
+  "wort": "in",
+  "wortart": "praeposition",
+  "uebersetzung": {
+    "fa": [
+      "در",
+      "داخلِ"
+    ],
+    "en": [
+      "in",
+      "into"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Ort",
+    "Zeit"
+  ],
+  "ipa": "ɪn",
+  "anmerkung": "Wechselpräposition: Wohin? + Akkusativ · Wo? + Dativ.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich wohne in Berlin.",
+      "uebersetzung": {
+        "fa": "من در برلین زندگی می‌کنم.",
+        "en": "I live in Berlin."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "In den letzten Jahren hat sich die Stadt stark verändert.",
+      "uebersetzung": {
+        "fa": "در سال‌های اخیر شهر خیلی تغییر کرده است.",
+        "en": "In recent years the city has changed a lot."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "aus",
+      "uebersetzung": {
+        "fa": "از، بیرونِ",
+        "en": "out of"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "kasus": "wechsel",
+    "bedeutungen": [
+      {
+        "kategorie": "lokal",
+        "bedeutung": "Ort oder Richtung: innerhalb eines Raums",
+        "beispiel": "Die Kinder spielen im Garten.",
+        "uebersetzung": {
+          "fa": "بچه‌ها در باغ بازی می‌کنند.",
+          "en": "The children are playing in the garden."
+        }
+      },
+      {
+        "kategorie": "temporal",
+        "bedeutung": "Zeitpunkt oder Zeitraum",
+        "beispiel": "In einer Stunde bin ich fertig.",
+        "uebersetzung": {
+          "fa": "تا یک ساعت دیگر کارم تمام می‌شود.",
+          "en": "I will be done in an hour."
+        }
+      }
+    ],
+    "wechsel_beispielpaar": {
+      "wohin_akk": "Ich gehe in die Küche.",
+      "wo_dat": "Ich bin in der Küche."
+    },
+    "feste_verbindungen": [
+      {
+        "verbindung": "verliebt in + Akk",
+        "beispiel": "Sie ist in ihren Kollegen verliebt.",
+        "uebersetzung": {
+          "fa": "او عاشق همکارش است.",
+          "en": "She is in love with her colleague."
+        }
+      }
+    ],
+    "verschmelzungen": [
+      "in + dem = im",
+      "in + das = ins"
+    ],
+    "kontrast": "in vs. nach bei Ländern: nach Deutschland (ohne Artikel), aber in die Schweiz (mit Artikel)."
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "aus",
+        "wortart": "praeposition",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "از",
+          "en": "out of, from"
+        },
+        "id_ref": "praeposition_aus"
+      },
+      {
+        "wort": "auf",
+        "wortart": "praeposition",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "روی",
+          "en": "on"
+        },
+        "id_ref": "praeposition_auf"
+      },
+      {
+        "wort": "unter",
+        "wortart": "praeposition",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زیر",
+          "en": "under"
+        },
+        "id_ref": "praeposition_unter"
+      },
+      {
+        "wort": "neben",
+        "wortart": "praeposition",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کنارِ",
+          "en": "next to"
+        },
+        "id_ref": "praeposition_neben"
+      },
+      {
+        "wort": "innerhalb",
+        "wortart": "praeposition",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "داخلِ، در طولِ",
+          "en": "within"
+        },
+        "id_ref": "praeposition_innerhalb"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

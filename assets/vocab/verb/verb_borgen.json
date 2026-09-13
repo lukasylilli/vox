@@ -1,0 +1,171 @@
+{
+  "schema": "3.0",
+  "id": "verb_borgen",
+  "wort": "borgen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "قرض دادن",
+      "قرض گرفتن"
+    ],
+    "en": [
+      "to lend",
+      "to borrow"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈbɔʁɡn̩",
+  "anmerkung": "Regelmäßig. Doppeldeutig: jemandem etwas borgen = قرض دادن; sich (Dat) etwas borgen = قرض گرفتن. Hier: jemandem (Dat) etwas (Akk) borgen.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Kannst du mir 20 Euro borgen?",
+      "uebersetzung": {
+        "fa": "می‌توانی ۲۰ یورو به من قرض بدهی؟",
+        "en": "Can you lend me 20 euros?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich habe meinem Nachbarn die Bohrmaschine geborgt.",
+      "uebersetzung": {
+        "fa": "دریل را به همسایه‌ام قرض دادم.",
+        "en": "I lent my neighbour the drill."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "leihen",
+      "uebersetzung": {
+        "fa": "قرض دادن/گرفتن",
+        "en": "to lend/borrow"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "borgen + Dat + Akk",
+        "bedeutung": "jemandem etwas borgen",
+        "beispiel": "Kannst du mir dein Auto borgen?",
+        "uebersetzung": {
+          "fa": "می‌توانی ماشینت را به من قرض بدهی؟",
+          "en": "Can you lend me your car?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "borgen",
+      "praeteritum": "borgte",
+      "partizip2": "geborgt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "borge",
+        "du": "borgst",
+        "er_sie_es": "borgt",
+        "wir": "borgen",
+        "ihr": "borgt",
+        "sie_Sie": "borgen"
+      },
+      "praeteritum": {
+        "ich": "borgte",
+        "du": "borgtest",
+        "er_sie_es": "borgte",
+        "wir": "borgten",
+        "ihr": "borgtet",
+        "sie_Sie": "borgten"
+      },
+      "imperativ": {
+        "du": "Borge!",
+        "ihr": "Borgt!",
+        "Sie": "Borgen Sie!"
+      }
+    },
+    "partizip1": "borgend",
+    "nominalisierung": "das Borgen"
+  },
+  "wortnetz": {
+    "grundwort": "borgen",
+    "woerter": [
+      {
+        "wort": "leihen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرض دادن/گرفتن",
+          "en": "to lend/borrow"
+        },
+        "id_ref": "verb_leihen"
+      },
+      {
+        "wort": "das Geld",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پول",
+          "en": "money"
+        },
+        "id_ref": "nomen_geld"
+      },
+      {
+        "wort": "zurückgeben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پس دادن",
+          "en": "to give back"
+        },
+        "id_ref": "verb_zurueckgeben"
+      },
+      {
+        "wort": "der Nachbar",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "همسایه",
+          "en": "neighbour"
+        },
+        "id_ref": "nomen_nachbar"
+      },
+      {
+        "wort": "schulden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بدهکار بودن",
+          "en": "to owe"
+        },
+        "id_ref": "verb_schulden"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Kannst du mir 20 Euro borgen?",
+      "dativ": [
+        "mir"
+      ],
+      "akkusativ": [
+        "20 Euro"
+      ],
+      "uebersetzung": {
+        "fa": "می‌توانی ۲۰ یورو به من قرض بدهی؟",
+        "en": "Can you lend me 20 euros?"
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

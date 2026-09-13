@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_erklaeren",
+  "wort": "erklären",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "توضیح دادن",
+      "شرح دادن"
+    ],
+    "en": [
+      "to explain"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Schule",
+    "Kommunikation"
+  ],
+  "ipa": "ɛɐ̯ˈklɛːʁən",
+  "anmerkung": "Regelmäßig. Konstruktion: jemandem (Dat) etwas (Akk) erklären.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Lehrerin erklärt uns die Grammatik.",
+      "uebersetzung": {
+        "fa": "معلم به ما گرامر را توضیح می‌دهد.",
+        "en": "The teacher explains the grammar to us."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Können Sie mir erklären, wie dieses Gerät funktioniert?",
+      "uebersetzung": {
+        "fa": "می‌توانید به من توضیح دهید که این دستگاه چگونه کار می‌کند؟",
+        "en": "Can you explain to me how this device works?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erläutern",
+      "uebersetzung": {
+        "fa": "شرح دادن، تشریح کردن",
+        "en": "to elucidate"
+      }
+    },
+    {
+      "wort": "verdeutlichen",
+      "uebersetzung": {
+        "fa": "روشن کردن",
+        "en": "to clarify"
+      }
+    },
+    {
+      "wort": "darlegen",
+      "uebersetzung": {
+        "fa": "بیان کردن",
+        "en": "to set out, to expound"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- + klar (روشن) + -en → روشن کردن",
+    "en": "er- + klar (clear) + -en → to make clear"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "erklären + Dat + Akk",
+        "bedeutung": "jemandem etwas erklären",
+        "beispiel": "Der Lehrer erklärt den Schülern die Regel.",
+        "uebersetzung": {
+          "fa": "معلم قاعده را به دانش‌آموزان توضیح می‌دهد.",
+          "en": "The teacher explains the rule to the students."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "erklären",
+      "praeteritum": "erklärte",
+      "partizip2": "erklärt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erkläre",
+        "du": "erklärst",
+        "er_sie_es": "erklärt",
+        "wir": "erklären",
+        "ihr": "erklärt",
+        "sie_Sie": "erklären"
+      },
+      "praeteritum": {
+        "ich": "erklärte",
+        "du": "erklärtest",
+        "er_sie_es": "erklärte",
+        "wir": "erklärten",
+        "ihr": "erklärtet",
+        "sie_Sie": "erklärten"
+      },
+      "imperativ": {
+        "du": "Erkläre!",
+        "ihr": "Erklärt!",
+        "Sie": "Erklären Sie!"
+      }
+    },
+    "partizip1": "erklärend",
+    "nominalisierung": "die Erklärung"
+  },
+  "wortnetz": {
+    "grundwort": "klar",
+    "woerter": [
+      {
+        "wort": "verstehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فهمیدن",
+          "en": "to understand"
+        },
+        "id_ref": "verb_verstehen"
+      },
+      {
+        "wort": "die Erklärung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "توضیح",
+          "en": "explanation"
+        },
+        "id_ref": "nomen_erklaerung"
+      },
+      {
+        "wort": "klar",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "روشن، واضح",
+          "en": "clear"
+        },
+        "id_ref": "adjektiv_klar"
+      },
+      {
+        "wort": "erläutern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تشریح کردن",
+          "en": "to elucidate"
+        },
+        "id_ref": "verb_erlaeutern"
+      },
+      {
+        "wort": "die Grammatik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دستور زبان",
+          "en": "grammar"
+        },
+        "id_ref": "nomen_grammatik"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Die Lehrerin erklärt uns die Grammatik.",
+      "dativ": [
+        "uns"
+      ],
+      "akkusativ": [
+        "die Grammatik"
+      ],
+      "uebersetzung": {
+        "fa": "معلم به ما گرامر را توضیح می‌دهد.",
+        "en": "The teacher explains the grammar to us."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

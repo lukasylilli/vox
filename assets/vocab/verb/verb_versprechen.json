@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_versprechen",
+  "wort": "versprechen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "قول دادن"
+    ],
+    "en": [
+      "to promise"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Beziehungen"
+  ],
+  "ipa": "fɛɐ̯ˈʃpʁɛçn̩",
+  "anmerkung": "Unregelmäßig (e→i: du versprichst, er verspricht; Präteritum versprach, Partizip versprochen). Konstruktion: jemandem (Dat) etwas (Akk) versprechen.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Ich verspreche Ihnen viele Verbesserungen.",
+      "uebersetzung": {
+        "fa": "به شما قول بهبودهای زیادی را می‌دهم.",
+        "en": "I promise you many improvements."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie hat mir versprochen, dass sie pünktlich sein wird.",
+      "uebersetzung": {
+        "fa": "او به من قول داد که سر وقت خواهد بود.",
+        "en": "She promised me that she would be on time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zusagen",
+      "uebersetzung": {
+        "fa": "قول دادن",
+        "en": "to agree, to promise"
+      }
+    },
+    {
+      "wort": "geloben",
+      "uebersetzung": {
+        "fa": "سوگند/عهد بستن",
+        "en": "to vow"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + sprechen (صحبت کردن)",
+    "en": "ver- + sprechen (to speak)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "versprechen + Dat + Akk",
+        "bedeutung": "jemandem etwas versprechen",
+        "beispiel": "Ich verspreche dir meine Hilfe.",
+        "uebersetzung": {
+          "fa": "کمکم را به تو قول می‌دهم.",
+          "en": "I promise you my help."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "versprechen",
+      "praeteritum": "versprach",
+      "partizip2": "versprochen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verspreche",
+        "du": "versprichst",
+        "er_sie_es": "verspricht",
+        "wir": "versprechen",
+        "ihr": "versprecht",
+        "sie_Sie": "versprechen"
+      },
+      "praeteritum": {
+        "ich": "versprach",
+        "du": "versprachst",
+        "er_sie_es": "versprach",
+        "wir": "versprachen",
+        "ihr": "verspracht",
+        "sie_Sie": "versprachen"
+      },
+      "imperativ": {
+        "du": "Versprich!",
+        "ihr": "Versprecht!",
+        "Sie": "Versprechen Sie!"
+      }
+    },
+    "partizip1": "versprechend",
+    "nominalisierung": "das Versprechen"
+  },
+  "wortnetz": {
+    "grundwort": "sprechen",
+    "woerter": [
+      {
+        "wort": "das Versprechen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قول",
+          "en": "promise"
+        },
+        "id_ref": "nomen_versprechen"
+      },
+      {
+        "wort": "zusagen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قول دادن",
+          "en": "to promise"
+        },
+        "id_ref": "verb_zusagen"
+      },
+      {
+        "wort": "halten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگه داشتن (قول)",
+          "en": "to keep (a promise)"
+        },
+        "id_ref": "verb_halten"
+      },
+      {
+        "wort": "das Wort",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کلمه، قول",
+          "en": "word"
+        },
+        "id_ref": "nomen_wort"
+      },
+      {
+        "wort": "schwören",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سوگند خوردن",
+          "en": "to swear"
+        },
+        "id_ref": "verb_schwoeren"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Ich verspreche Ihnen viele Verbesserungen.",
+      "dativ": [
+        "Ihnen"
+      ],
+      "akkusativ": [
+        "viele Verbesserungen"
+      ],
+      "uebersetzung": {
+        "fa": "به شما قول بهبودهای زیادی را می‌دهم.",
+        "en": "I promise you many improvements."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

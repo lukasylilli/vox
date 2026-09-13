@@ -1,0 +1,726 @@
+{
+ "title_de": "Verben mit Präpositionen (Präpositionalobjekt)",
+ "title_fa": "افعال با حرف اضافه‌ی ثابت",
+ "title_en": "Verbs with Fixed Prepositions",
+ "summary_fa": "بسیاری از افعال آلمانی همیشه با یک حرف اضافه‌ی مشخص می‌آیند. این حرف اضافه بخشی جدایی‌ناپذیر از معنی فعل است و باید کنار خودِ فعل حفظ شود — مثل یک کلمه‌ی واحد.",
+ "summary_en": "Many German verbs always come with a specific preposition. This preposition is an inseparable part of the verb's meaning and must be learned together with the verb — as if it were one unit.",
+ "sections": [
+  {
+   "section_id": "what_and_why",
+   "title_fa": "چرا باید حرف اضافه را با فعل حفظ کرد؟",
+   "title_en": "Why Must You Learn the Preposition with the Verb?",
+   "explanation_fa": "در آلمانی، حرف اضافه‌ی بعد از این افعال «معنی ثابت» دارد — یعنی نمی‌توان آن را با حرف اضافه‌ی دیگری جایگزین کرد بدون این‌که معنی تغییر کند یا جمله اشتباه شود.\n\nمقایسه:\n• warten auf (منتظر بودن) → ✅ Ich warte auf den Bus. ❌ Ich warte für den Bus.\n• hoffen auf (امیدوار بودن) → ✅ Ich hoffe auf Erfolg. ❌ Ich hoffe für Erfolg.\n\nهیچ قانون کلی برای انتخاب حرف اضافه وجود ندارد — باید فعل + حرف اضافه را به‌صورت یک واحد یاد بگیرید.",
+   "explanation_en": "In German, the preposition after these verbs has a 'fixed meaning' — you cannot replace it with a different preposition without changing the meaning or making the sentence wrong.\n\nComparison:\n• warten auf (to wait for) → ✅ Ich warte auf den Bus. ❌ Ich warte für den Bus.\n• hoffen auf (to hope for) → ✅ Ich hoffe auf Erfolg. ❌ Ich hoffe für Erfolg.\n\nThere is no general rule for choosing the preposition — you must learn verb + preposition as a single unit.",
+   "examples": [
+    {
+     "de": "Ich warte auf den Bus.",
+     "fa": "منتظر اتوبوس هستم.",
+     "en": "I'm waiting for the bus.",
+     "note_fa": "auf (نه für, von, mit...)",
+     "note_en": "auf (not für, von, mit...)"
+    },
+    {
+     "de": "Er träumt von einem Urlaub.",
+     "fa": "از تعطیلات رویا می‌بیند.",
+     "en": "He dreams of a holiday.",
+     "note_fa": "von (نه auf, für, über...)",
+     "note_en": "von (not auf, für, über...)"
+    },
+    {
+     "de": "Sie interessiert sich für Musik.",
+     "fa": "به موسیقی علاقه دارد.",
+     "en": "She's interested in music.",
+     "note_fa": "für (نه an, über, mit...)",
+     "note_en": "für (not an, über, mit...)"
+    }
+   ]
+  },
+  {
+   "section_id": "akkusativ_vs_dativ",
+   "title_fa": "حرف اضافه: Akkusativ یا Dativ؟",
+   "title_en": "The Preposition: Accusative or Dative?",
+   "explanation_fa": "یکی از مهم‌ترین چیزهایی که باید با هر فعل حفظ کنید، حالت دستوری بعد از حرف اضافه است. سه گروه وجود دارد:",
+   "explanation_en": "One of the most important things to learn with each verb is the case that follows the preposition. There are three groups:",
+   "groups": [
+    {
+     "group_id": "always_akkusativ",
+     "title_fa": "حروف اضافه‌ای که همیشه Akkusativ می‌گیرند",
+     "title_en": "Prepositions That Always Take Accusative",
+     "prepositions": [
+      "für",
+      "gegen",
+      "um",
+      "durch",
+      "ohne",
+      "bis",
+      "entlang"
+     ],
+     "note_fa": "وقتی فعل با für، gegen یا um می‌آید، مطمئنید که Akkusativ است.",
+     "note_en": "When the verb comes with für, gegen, or um, you can be sure it's Accusative.",
+     "examples": [
+      {
+       "verb": "sich interessieren für +Akk",
+       "de": "Ich interessiere mich für die Kunst.",
+       "fa": "به هنر علاقه دارم.",
+       "en": "I'm interested in art."
+      },
+      {
+       "verb": "kämpfen für +Akk",
+       "de": "Wir kämpfen für unsere Rechte.",
+       "fa": "برای حقوقمان مبارزه می‌کنیم.",
+       "en": "We fight for our rights."
+      },
+      {
+       "verb": "impfen gegen +Akk",
+       "de": "Ich impfe gegen Grippe.",
+       "fa": "علیه آنفلوآنزا واکسن می‌زنم.",
+       "en": "I vaccinate against the flu."
+      },
+      {
+       "verb": "bitten um +Akk",
+       "de": "Er bittet um Hilfe.",
+       "fa": "از او کمک می‌خواهد.",
+       "en": "He asks for help."
+      }
+     ]
+    },
+    {
+     "group_id": "always_dativ",
+     "title_fa": "حروف اضافه‌ای که همیشه Dativ می‌گیرند",
+     "title_en": "Prepositions That Always Take Dative",
+     "prepositions": [
+      "mit",
+      "von",
+      "nach",
+      "aus",
+      "bei",
+      "zu",
+      "seit",
+      "gegenüber"
+     ],
+     "note_fa": "وقتی فعل با mit، von، nach، zu یا bei می‌آید، مطمئنید که Dativ است.",
+     "note_en": "When the verb comes with mit, von, nach, zu, or bei, you can be sure it's Dative.",
+     "examples": [
+      {
+       "verb": "träumen von +Dat",
+       "de": "Ich träume von Erfolg.",
+       "fa": "از موفقیت رویا می‌بینم.",
+       "en": "I dream of success."
+      },
+      {
+       "verb": "anfangen mit +Dat",
+       "de": "Ich fange mit der Arbeit an.",
+       "fa": "کار را شروع می‌کنم.",
+       "en": "I start (with) the work."
+      },
+      {
+       "verb": "helfen bei +Dat",
+       "de": "Ich helfe dir bei den Hausaufgaben.",
+       "fa": "در تکلیف‌هایت کمکت می‌کنم.",
+       "en": "I help you with your homework."
+      },
+      {
+       "verb": "gehören zu +Dat",
+       "de": "Sie gehört zu unserem Team.",
+       "fa": "او عضو تیم ماست.",
+       "en": "She belongs to our team."
+      }
+     ]
+    },
+    {
+     "group_id": "two_way",
+     "title_fa": "حروف اضافه‌ای که هم Akkusativ هم Dativ می‌گیرند — باید per-verb حفظ شود",
+     "title_en": "Two-Way Prepositions — Must Be Learned Per Verb",
+     "prepositions": [
+      "an",
+      "auf",
+      "in",
+      "über",
+      "vor",
+      "unter",
+      "zwischen",
+      "hinter",
+      "neben"
+     ],
+     "note_fa": "این حروف اضافه از نظر تئوری هم Akkusativ هم Dativ می‌گیرند. وقتی بعد از یک فعل با Präpositionalobjekt می‌آیند، حالتشان ثابت است و باید جداگانه حفظ شود.",
+     "note_en": "These prepositions can theoretically take both Accusative and Dative. When they follow a verb as a prepositional object, their case is fixed and must be learned per verb.",
+     "examples": [
+      {
+       "verb": "warten auf +Akk",
+       "de": "Ich warte auf den Bus.",
+       "fa": "منتظر اتوبوسم.",
+       "en": "I'm waiting for the bus."
+      },
+      {
+       "verb": "nachdenken über +Akk",
+       "de": "Ich denke über das Problem nach.",
+       "fa": "درباره مشکل فکر می‌کنم.",
+       "en": "I'm thinking about the problem."
+      },
+      {
+       "verb": "denken an +Akk",
+       "de": "Ich denke an dich.",
+       "fa": "به تو فکر می‌کنم.",
+       "en": "I'm thinking of you."
+      },
+      {
+       "verb": "zweifeln an +Dat",
+       "de": "Ich zweifle an seiner Ehrlichkeit.",
+       "fa": "به صداقتش شک دارم.",
+       "en": "I doubt his honesty."
+      },
+      {
+       "verb": "sich wundern über +Akk",
+       "de": "Ich wundere mich über sein Verhalten.",
+       "fa": "از رفتارش تعجب می‌کنم.",
+       "en": "I'm surprised at his behaviour."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "section_id": "question_formation",
+   "title_fa": "سؤال‌سازی با Verben mit Präpositionen",
+   "title_en": "Forming Questions with Prepositional Verbs",
+   "explanation_fa": "وقتی می‌خواهیم از مفعول حرف اضافه‌ای سؤال بپرسیم، دو حالت دارد:\n\n**حالت ۱:** مفعول یک **چیز یا ایده** است → از Pronominaladverb (wo-Kompositum) استفاده می‌کنیم\n**حالت ۲:** مفعول یک **شخص** است → از حرف اضافه + wen/wem استفاده می‌کنیم",
+   "explanation_en": "When we want to ask about the prepositional object, there are two cases:\n\n**Case 1:** The object is a **thing or idea** → use the Pronominaladverb (wo-compound)\n**Case 2:** The object is a **person** → use preposition + wen/wem",
+   "sub_rules": [
+    {
+     "rule_id": "wo_compound",
+     "title_fa": "وقتی مفعول چیز است: wo- + حرف اضافه = Pronominaladverb",
+     "title_en": "When the Object is a Thing: wo- + preposition = Pronominaladverb",
+     "formation_fa": "اگر حرف اضافه با یک مصوت شروع شود، به‌جای wo + حرف اضافه، wor + حرف اضافه می‌شود:\n• wo + auf = worauf\n• wo + über = worüber\n• wo + an = woran\n• wo + um = worum\n• wo + aus = woraus\n\nاگر حرف اضافه با یک مصوت شروع نشود، فقط wo- جلو می‌آید:\n• wo + für = wofür\n• wo + mit = womit\n• wo + von = wovon\n• wo + zu = wozu\n• wo + bei = wobei\n• wo + gegen = wogegen\n• wo + vor = wovor\n• wo + nach = wonach",
+     "formation_en": "If the preposition starts with a vowel, use wor- instead of wo-:\n• wo + auf = worauf\n• wo + über = worüber\n• wo + an = woran\n• wo + um = worum\n• wo + aus = woraus\n\nIf the preposition starts with a consonant, just use wo-:\n• wo + für = wofür\n• wo + mit = womit\n• wo + von = wovon\n• wo + zu = wozu\n• wo + bei = wobei\n• wo + gegen = wogegen\n• wo + vor = wovor\n• wo + nach = wonach",
+     "examples": [
+      {
+       "statement": "Ich warte auf den Bus.",
+       "question": "Worauf wartest du?",
+       "answer": "Auf den Bus.",
+       "fa_statement": "منتظر اتوبوس هستم.",
+       "fa_question": "منتظر چه هستی؟"
+      },
+      {
+       "statement": "Er träumt von Erfolg.",
+       "question": "Wovon träumt er?",
+       "answer": "Von Erfolg.",
+       "fa_statement": "از موفقیت رویا می‌بیند.",
+       "fa_question": "از چه رویا می‌بیند؟"
+      },
+      {
+       "statement": "Ich interessiere mich für Musik.",
+       "question": "Wofür interessierst du dich?",
+       "answer": "Für Musik.",
+       "fa_statement": "به موسیقی علاقه دارم.",
+       "fa_question": "به چه علاقه داری؟"
+      },
+      {
+       "statement": "Sie denkt an die Prüfung.",
+       "question": "Woran denkt sie?",
+       "answer": "An die Prüfung.",
+       "fa_statement": "به امتحان فکر می‌کند.",
+       "fa_question": "به چه فکر می‌کند؟"
+      }
+     ]
+    },
+    {
+     "rule_id": "praeposition_wen_wem",
+     "title_fa": "وقتی مفعول شخص است: حرف اضافه + wen (Akk) / wem (Dat)",
+     "title_en": "When the Object is a Person: preposition + wen (Acc) / wem (Dat)",
+     "explanation_fa": "وقتی مفعول فعل یک شخص است، نمی‌توان از wo-Kompositum استفاده کرد. به‌جایش حرف اضافه + wen یا wem می‌آید.",
+     "explanation_en": "When the object of the verb is a person, you cannot use the wo-compound. Instead, use preposition + wen or wem.",
+     "examples": [
+      {
+       "statement": "Ich warte auf meinen Freund.",
+       "question": "Auf wen wartest du?",
+       "answer": "Auf meinen Freund.",
+       "fa_statement": "منتظر دوستم هستم.",
+       "fa_question": "منتظر کی هستی؟",
+       "note": "auf + Akkusativ → auf wen"
+      },
+      {
+       "statement": "Ich denke an meine Mutter.",
+       "question": "An wen denkst du?",
+       "answer": "An meine Mutter.",
+       "fa_statement": "به مادرم فکر می‌کنم.",
+       "fa_question": "به کی فکر می‌کنی؟",
+       "note": "an + Akkusativ → an wen"
+      },
+      {
+       "statement": "Ich frage nach dem Chef.",
+       "question": "Nach wem fragst du?",
+       "answer": "Nach dem Chef.",
+       "fa_statement": "از رئیس می‌پرسم.",
+       "fa_question": "از کی می‌پرسی؟",
+       "note": "nach + Dativ → nach wem"
+      }
+     ]
+    }
+   ],
+   "summary_table": {
+    "title_fa": "جدول خلاصه: چه موقع کدام؟",
+    "title_en": "Summary Table: Which to Use When?",
+    "rows": [
+     {
+      "situation_fa": "مفعول = چیز / ایده",
+      "situation_en": "Object = thing / idea",
+      "form_fa": "wo(r)- + حرف اضافه",
+      "form_en": "wo(r)- + preposition",
+      "example": "Worauf? Wofür? Worüber? Woran?"
+     },
+     {
+      "situation_fa": "مفعول = شخص + Akkusativ",
+      "situation_en": "Object = person + Accusative",
+      "form_fa": "حرف اضافه + wen",
+      "form_en": "preposition + wen",
+      "example": "Auf wen? Für wen? Über wen? An wen?"
+     },
+     {
+      "situation_fa": "مفعول = شخص + Dativ",
+      "situation_en": "Object = person + Dative",
+      "form_fa": "حرف اضافه + wem",
+      "form_en": "preposition + wem",
+      "example": "Mit wem? Von wem? Bei wem? Nach wem?"
+     }
+    ]
+   }
+  },
+  {
+   "section_id": "da_compounds",
+   "title_fa": "Pronominaladverb در پاسخ: da(r)- + حرف اضافه",
+   "title_en": "Pronominaladverbs in Answers: da(r)- + preposition",
+   "explanation_fa": "در پاسخ به سؤالات wo-, یا وقتی می‌خواهیم به یک ایده/چیز قبلاً ذکرشده اشاره کنیم، از da(r)- + حرف اضافه استفاده می‌کنیم:\n\n• da + auf = darauf (روی آن / درباره‌ی آن)\n• da + über = darüber (درباره‌ی آن)\n• da + für = dafür (برای آن)\n• da + an = daran (به آن)\n• da + von = davon (از آن)\n• da + mit = damit (با آن)\n• da + nach = danach (بعد از آن / درباره‌ی آن)\n• da + zu = dazu (برای آن)\n\nقانون: اگر حرف اضافه با مصوت شروع شود → dar- (darauf, darüber, daran). بقیه → da- (dafür, davon, damit).",
+   "explanation_en": "In answers to wo-questions, or when referring back to a thing/idea already mentioned, use da(r)- + preposition:\n\n• da + auf = darauf (on it / about it)\n• da + über = darüber (about it)\n• da + für = dafür (for it)\n• da + an = daran (about it)\n• da + von = davon (about it / of it)\n• da + mit = damit (with it)\n• da + nach = danach (after that / about it)\n• da + zu = dazu (for it / about it)\n\nRule: if the preposition starts with a vowel → dar- (darauf, darüber, daran). Others → da- (dafür, davon, damit).",
+   "examples": [
+    {
+     "question": "Worauf wartest du?",
+     "answer_ding": "Darauf, dass der Bus kommt. / Auf den Bus warte ich.",
+     "fa_q": "منتظر چه هستی؟",
+     "fa_a": "منتظر رسیدن اتوبوسم."
+    },
+    {
+     "question": "Freust du dich auf die Party?",
+     "answer": "Ja, ich freue mich sehr darauf.",
+     "fa_q": "منتظر مهمانی هستی؟",
+     "fa_a": "بله، خیلی منتظرش هستم.",
+     "note_fa": "darauf = auf + die Party (اشاره به چیزی که قبلاً ذکر شد)",
+     "note_en": "darauf = auf + die Party (refers to something already mentioned)"
+    },
+    {
+     "question": "Träumst du oft von Reisen?",
+     "answer": "Ja, ich träume oft davon.",
+     "fa_q": "اغلب از سفر رویا می‌بینی؟",
+     "fa_a": "بله، اغلب از آن رویا می‌بینم.",
+     "note_fa": "davon = von + Reisen"
+    }
+   ],
+   "important_note_fa": "نکته مهم: da(r)- فقط برای چیز/ایده — برای شخص نمی‌شود:\n✅ Ich denke daran. (به آن فکر می‌کنم — چیز)\n❌ Ich denke daran → نمی‌توانیم بگوییم اگر منظور یک شخص است\n✅ Ich denke an ihn. (به او فکر می‌کنم — شخص)",
+   "important_note_en": "Important: da(r)- is only for things/ideas — not for persons:\n✅ Ich denke daran. (I'm thinking about it — thing)\n❌ Cannot use daran for a person\n✅ Ich denke an ihn. (I'm thinking about him — person)"
+  },
+  {
+   "section_id": "preposition_groups",
+   "title_fa": "گروه‌بندی افعال بر اساس حرف اضافه",
+   "title_en": "Verbs Grouped by Preposition",
+   "groups": [
+    {
+     "prep": "auf + Akkusativ",
+     "wo_compound": "worauf?",
+     "verbs_fa": [
+      "warten auf = منتظر بودن",
+      "achten auf = توجه کردن",
+      "hoffen auf = امیدوار بودن",
+      "sich freuen auf = منتظر بودن (آینده)",
+      "sich konzentrieren auf = تمرکز کردن",
+      "sich verlassen auf = اعتماد کردن",
+      "sich vorbereiten auf = آماده شدن",
+      "aufpassen auf = مراقبت کردن",
+      "sich einstellen auf = تطبیق دادن خود",
+      "antworten auf = پاسخ دادن به (چیز)",
+      "zurückkommen auf = برگشتن به موضوع",
+      "verzichten auf = چشم‌پوشی کردن"
+     ]
+    },
+    {
+     "prep": "für + Akkusativ",
+     "wo_compound": "wofür?",
+     "verbs_fa": [
+      "sich interessieren für = علاقه داشتن",
+      "kämpfen für = مبارزه کردن",
+      "sich einsetzen für = تلاش کردن",
+      "sich engagieren für = فعالیت کردن",
+      "ausgeben für = خرج کردن",
+      "brauchen für = نیاز داشتن",
+      "demonstrieren für = تظاهرات کردن برای",
+      "sich entscheiden für = انتخاب کردن",
+      "sich entschuldigen für = عذرخواهی کردن",
+      "danken für = تشکر کردن",
+      "sorgen für = مراقبت کردن"
+     ]
+    },
+    {
+     "prep": "über + Akkusativ",
+     "wo_compound": "worüber?",
+     "verbs_fa": [
+      "sprechen über = صحبت کردن",
+      "diskutieren über = بحث کردن",
+      "nachdenken über = فکر کردن",
+      "berichten über = گزارش دادن",
+      "sich ärgern über = عصبانی بودن",
+      "sich beschweren über = شکایت کردن",
+      "sich freuen über = خوشحال بودن (گذشته)",
+      "sich informieren über = اطلاعات کسب کردن",
+      "lachen über = خندیدن",
+      "sich streiten über = دعوا کردن",
+      "sich unterhalten über = صحبت کردن",
+      "sich wundern über = تعجب کردن",
+      "reden über = حرف زدن"
+     ]
+    },
+    {
+     "prep": "an + Akkusativ",
+     "wo_compound": "woran?",
+     "verbs_fa": [
+      "denken an = فکر کردن",
+      "sich erinnern an = به یاد آوردن",
+      "glauben an = ایمان داشتن",
+      "sich gewöhnen an = عادت کردن"
+     ]
+    },
+    {
+     "prep": "an + Dativ",
+     "wo_compound": "woran?",
+     "verbs_fa": [
+      "zweifeln an = شک داشتن",
+      "teilnehmen an = شرکت کردن",
+      "arbeiten an = کار کردن روی"
+     ]
+    },
+    {
+     "prep": "mit + Dativ",
+     "wo_compound": "womit?",
+     "verbs_fa": [
+      "anfangen mit = شروع کردن",
+      "beginnen mit = شروع کردن",
+      "aufhören mit = دست کشیدن",
+      "rechnen mit = انتظار داشتن",
+      "sich beschäftigen mit = مشغول بودن",
+      "vergleichen mit = مقایسه کردن"
+     ]
+    },
+    {
+     "prep": "um + Akkusativ",
+     "wo_compound": "worum?",
+     "verbs_fa": [
+      "bitten um = درخواست کردن",
+      "sich bewerben um = درخواست دادن",
+      "sich kümmern um = مراقبت کردن",
+      "sich streiten um = رقابت کردن",
+      "sich handeln um = مربوط بودن به"
+     ]
+    },
+    {
+     "prep": "von + Dativ",
+     "wo_compound": "wovon?",
+     "verbs_fa": [
+      "träumen von = رویا دیدن",
+      "erzählen von = تعریف کردن",
+      "abhängen von = بستگی داشتن",
+      "sich verabschieden von = خداحافظی کردن",
+      "profitieren von = سود بردن"
+     ]
+    },
+    {
+     "prep": "nach + Dativ",
+     "wo_compound": "wonach?",
+     "verbs_fa": [
+      "fragen nach = پرسیدن",
+      "suchen nach = دنبال گشتن",
+      "sich sehnen nach = دلتنگی کردن",
+      "sich erkundigen nach = جویا شدن"
+     ]
+    },
+    {
+     "prep": "zu + Dativ",
+     "wo_compound": "wozu?",
+     "verbs_fa": [
+      "gehören zu = عضو بودن",
+      "passen zu = هماهنگ بودن",
+      "gratulieren zu = تبریک گفتن",
+      "raten zu = توصیه کردن",
+      "beitragen zu = مشارکت کردن"
+     ]
+    },
+    {
+     "prep": "bei + Dativ",
+     "wo_compound": "wobei?",
+     "verbs_fa": [
+      "helfen bei = کمک کردن",
+      "sich bedanken bei = تشکر کردن (از شخص)"
+     ]
+    },
+    {
+     "prep": "vor + Dativ",
+     "wo_compound": "wovor?",
+     "verbs_fa": [
+      "warnen vor = هشدار دادن",
+      "sich fürchten vor = ترسیدن",
+      "sich schützen vor = محافظت کردن"
+     ]
+    },
+    {
+     "prep": "gegen + Akkusativ",
+     "wo_compound": "wogegen?",
+     "verbs_fa": [
+      "demonstrieren gegen = تظاهرات کردن علیه",
+      "impfen gegen = واکسن زدن",
+      "kämpfen gegen = مبارزه کردن علیه"
+     ]
+    },
+    {
+     "prep": "aus + Dativ",
+     "wo_compound": "woraus?",
+     "verbs_fa": [
+      "bestehen aus = تشکیل شدن از"
+     ]
+    }
+   ]
+  },
+  {
+   "section_id": "reflexive_with_prep",
+   "title_fa": "افعال انعکاسی + حرف اضافه",
+   "title_en": "Reflexive Verbs + Preposition",
+   "explanation_fa": "بسیاری از افعال با حرف اضافه انعکاسی هستند (sich ...): sich freuen auf، sich ärgern über، sich interessieren für و...\n\nبرای این افعال باید سه چیز را با هم حفظ کرد:\n1. فعل: sich ärgern\n2. حرف اضافه + حالت دستوری: über + Akkusativ\n3. Pronominaladverb: worüber?",
+   "explanation_en": "Many prepositional verbs are reflexive (sich ...): sich freuen auf, sich ärgern über, sich interessieren für, etc.\n\nFor these verbs, three things must be learned together:\n1. The verb: sich ärgern\n2. Preposition + case: über + Accusative\n3. The Pronominaladverb: worüber?",
+   "examples": [
+    {
+     "verb": "sich ärgern über + Akk",
+     "de_statement": "Ich ärgere mich über den Lärm.",
+     "de_question": "Worüber ärgerst du dich?",
+     "de_answer": "Über den Lärm.",
+     "de_da": "Ich ärgere mich darüber.",
+     "fa": "از سر و صدا اذیت می‌شوم.",
+     "en": "The noise annoys me."
+    },
+    {
+     "verb": "sich freuen auf + Akk",
+     "de_statement": "Ich freue mich auf das Wochenende.",
+     "de_question": "Worauf freust du dich?",
+     "de_answer": "Auf das Wochenende.",
+     "de_da": "Ich freue mich darauf.",
+     "fa": "منتظر آخر هفته هستم.",
+     "en": "I'm looking forward to the weekend."
+    },
+    {
+     "verb": "sich interessieren für + Akk",
+     "de_statement": "Ich interessiere mich für Musik.",
+     "de_question": "Wofür interessierst du dich?",
+     "de_answer": "Für Musik.",
+     "de_da": "Ich interessiere mich dafür.",
+     "fa": "به موسیقی علاقه دارم.",
+     "en": "I'm interested in music."
+    }
+   ]
+  },
+  {
+   "section_id": "common_mistakes",
+   "title_fa": "خطاهای رایج زبان‌آموزان فارسی‌زبان",
+   "title_en": "Common Mistakes by Persian-Speaking Learners",
+   "mistakes": [
+    {
+     "mistake_id": "wrong_preposition",
+     "title_fa": "حرف اضافه‌ی اشتباه",
+     "examples": [
+      {
+       "wrong": "❌ Ich warte für den Bus.",
+       "correct": "✅ Ich warte auf den Bus.",
+       "fa": "منتظر اتوبوسم.",
+       "note": "warten → auf",
+       "en": "I'm waiting for the bus."
+      },
+      {
+       "wrong": "❌ Ich interessiere mich an Musik.",
+       "correct": "✅ Ich interessiere mich für Musik.",
+       "fa": "به موسیقی علاقه دارم.",
+       "note": "sich interessieren → für",
+       "en": "I'm interested in music."
+      },
+      {
+       "wrong": "❌ Ich träume über eine Reise.",
+       "correct": "✅ Ich träume von einer Reise.",
+       "fa": "از سفر رویا می‌بینم.",
+       "note": "träumen → von",
+       "en": "I dream of travelling."
+      },
+      {
+       "wrong": "❌ Er freut sich auf das Geschenk. (گذشته)",
+       "correct": "✅ Er freut sich über das Geschenk.",
+       "fa": "از هدیه خوشحال است.",
+       "note": "freuen über = از چیز اتفاق‌افتاده خوشحال بودن",
+       "en": "She's happy about the gift."
+      }
+     ],
+     "title_en": "Wrong preposition"
+    },
+    {
+     "mistake_id": "wrong_case",
+     "title_fa": "حالت دستوری اشتباه بعد از حرف اضافه",
+     "examples": [
+      {
+       "wrong": "❌ Ich denke an meinem Freund.",
+       "correct": "✅ Ich denke an meinen Freund.",
+       "fa": "به دوستم فکر می‌کنم.",
+       "note": "denken an → Akkusativ: meinen (نه meinem)",
+       "en": "I'm thinking of my friend."
+      },
+      {
+       "wrong": "❌ Ich zweifle an seiner Ehrlichkeit (Akk).",
+       "correct": "✅ Ich zweifle an seiner Ehrlichkeit (Dat).",
+       "fa": "به صداقتش شک دارم.",
+       "note": "zweifeln an → Dativ: seiner",
+       "en": "I doubt his honesty."
+      },
+      {
+       "wrong": "❌ Ich fange mit die Arbeit an.",
+       "correct": "✅ Ich fange mit der Arbeit an.",
+       "fa": "کار را شروع می‌کنم.",
+       "note": "anfangen mit → Dativ: der (نه die)",
+       "en": "I start (with) the work."
+      }
+     ],
+     "title_en": "Wrong case after the preposition"
+    },
+    {
+     "mistake_id": "person_vs_thing",
+     "title_fa": "استفاده از wo-Kompositum برای شخص",
+     "examples": [
+      {
+       "wrong": "❌ Worauf wartest du? → Auf meinen Vater.",
+       "correct": "✅ Auf wen wartest du? → Auf meinen Vater.",
+       "note": "wo-Kompositum فقط برای چیز/ایده است، نه شخص"
+      },
+      {
+       "wrong": "❌ Wofür interessierst du dich? → Für meinen Professor.",
+       "correct": "✅ Für wen interessierst du dich? → Für meinen Professor.",
+       "note": "برای شخص: für wen؟ (نه wofür؟)"
+      }
+     ],
+     "title_en": "Using a wo-compound for a person"
+    },
+    {
+     "mistake_id": "freuen_auf_vs_uber",
+     "title_fa": "sich freuen auf در برابر sich freuen über — اشتباه خیلی رایج",
+     "explanation_fa": "sich freuen AUF (+Akk): منتظر چیز آینده‌ای هستم — هنوز اتفاق نیفتاده\nsich freuen ÜBER (+Akk): از چیزی خوشحالم — الان اتفاق افتاده یا در گذشته",
+     "explanation_en": "sich freuen AUF (+Akk): looking forward to something in the future — hasn't happened yet\nsich freuen ÜBER (+Akk): happy about something — happening now or in the past",
+     "examples": [
+      {
+       "de": "Ich freue mich auf die Party nächste Woche. (آینده)",
+       "fa": "منتظر مهمانی هفته‌ی آینده هستم.",
+       "en": "I'm looking forward to next week's party."
+      },
+      {
+       "de": "Ich freue mich über das Geschenk. (الان/گذشته)",
+       "fa": "از هدیه خوشحالم.",
+       "en": "I'm happy about the gift."
+      }
+     ],
+     "title_en": "sich freuen auf vs. sich freuen über — a very common mistake"
+    }
+   ]
+  },
+  {
+   "section_id": "full_sentence_pattern",
+   "title_fa": "الگوی کامل جمله — از سؤال تا پاسخ",
+   "title_en": "Complete Sentence Pattern — From Question to Answer",
+   "explanation_fa": "برای هر فعل با حرف اضافه می‌توانید این الگوی چهار-مرحله‌ای را تمرین کنید:",
+   "explanation_en": "For each prepositional verb, you can practise this four-step pattern:",
+   "pattern_steps": [
+    {
+     "step": 1,
+     "name_fa": "جمله‌ی اصلی",
+     "name_en": "Main statement",
+     "example": "Ich warte auf den Bus."
+    },
+    {
+     "step": 2,
+     "name_fa": "سؤال با wo-Kompositum (برای چیز)",
+     "name_en": "Question with wo-compound (for things)",
+     "example": "Worauf wartest du?"
+    },
+    {
+     "step": 3,
+     "name_fa": "پاسخ با da-Kompositum",
+     "name_en": "Answer with da-compound",
+     "example": "Ich warte darauf."
+    },
+    {
+     "step": 4,
+     "name_fa": "جمله با subordinate clause",
+     "name_en": "Sentence with subordinate clause",
+     "example": "Ich warte darauf, dass der Bus kommt."
+    }
+   ],
+   "full_examples": [
+    {
+     "verb": "sich freuen auf",
+     "step1": "Ich freue mich auf den Urlaub.",
+     "step2": "Worauf freust du dich?",
+     "step3": "Ich freue mich darauf.",
+     "step4": "Ich freue mich darauf, dass ich bald Urlaub habe.",
+     "fa": "منتظر تعطیلات هستم.",
+     "en": "I'm looking forward to the holidays."
+    },
+    {
+     "verb": "denken an",
+     "step1": "Ich denke an die Prüfung.",
+     "step2": "Woran denkst du?",
+     "step3": "Ich denke daran.",
+     "step4": "Ich denke daran, dass die Prüfung morgen ist.",
+     "fa": "به امتحان فکر می‌کنم.",
+     "en": "I'm thinking about the exam."
+    }
+   ]
+  },
+  {
+   "section_id": "tips",
+   "title_fa": "نکات کلیدی برای یادگیری",
+   "title_en": "Key Tips for Learning",
+   "tips": [
+    {
+     "tip_id": 1,
+     "fa": "فعل + حرف اضافه + حالت دستوری را به‌عنوان یک واحد حفظ کن: warten auf (+Akk)، träumen von (+Dat)، zweifeln an (+Dat). هرگز فعل را جدا از حرف اضافه‌اش یاد نگیری.",
+     "en": "Learn verb + preposition + case as a single unit: warten auf (+Akk), träumen von (+Dat), zweifeln an (+Dat). Never learn the verb separately from its preposition."
+    },
+    {
+     "tip_id": 2,
+     "fa": "قانون wo(r)-: اگر می‌خواهی سؤال بپرسی و مفعول یک چیز/ایده است، حرف اضافه با wo- یا wor- ترکیب می‌شود. اگر حرف اضافه با مصوت شروع شود → wor- (worauf, worüber, woran). اگر نه → wo- (wofür, wovon, womit).",
+     "en": "The wo(r)- rule: when asking a question and the object is a thing/idea, combine the preposition with wo- or wor-. If the preposition starts with a vowel → wor- (worauf, worüber, woran). If not → wo- (wofür, wovon, womit)."
+    },
+    {
+     "tip_id": 3,
+     "fa": "قانون da(r)-: وقتی به یک چیز/ایده اشاره می‌کنی، da- یا dar- + حرف اضافه. همان قانون: مصوت → dar- (darauf, darüber). غیرمصوت → da- (dafür, davon). هرگز da(r)- برای شخص استفاده نمی‌شود.",
+     "en": "The da(r)- rule: when referring to a thing/idea, use da- or dar- + preposition. Same rule: vowel → dar- (darauf, darüber). Consonant → da- (dafür, davon). Never use da(r)- for a person."
+    },
+    {
+     "tip_id": 4,
+     "fa": "sich freuen auf (آینده) در برابر sich freuen über (الان/گذشته) — این تفاوت خیلی مهم است و باید حفظ شود.",
+     "en": "sich freuen auf (future) vs. sich freuen über (now/past) — this difference is very important and must be memorized."
+    },
+    {
+     "tip_id": 5,
+     "fa": "حروف اضافه‌ای که همیشه Akkusativ می‌گیرند (für, gegen, um) → خیالت راحت باشد. حروف اضافه‌ای که همیشه Dativ می‌گیرند (mit, von, nach, zu, bei) → خیالت راحت باشد. فقط an، auf، in، über باید per-verb حفظ شود.",
+     "en": "Prepositions that always take Accusative (für, gegen, um) → you can be sure. Prepositions that always take Dative (mit, von, nach, zu, bei) → you can be sure. Only an, auf, in, über must be learned per verb."
+    },
+    {
+     "tip_id": 6,
+     "fa": "در متن یا مکالمه، وقتی از یک ایده اشاره می‌شود، da(r)-Kompositum بسیار رایج‌تر از تکرار حرف اضافه + اسم است: Ich freue mich darauf (نه: auf den Urlaub) — این خیلی طبیعی‌تر به نظر می‌رسد.",
+     "en": "In text or speech, when referring back to an idea, the da(r)-compound is much more natural than repeating preposition + noun: Ich freue mich darauf (not: auf den Urlaub) — this sounds much more natural."
+    }
+   ]
+  }
+ ],
+ "displayed_in": [
+  "Auswendiglernen/Verben-mit-Praepositionen",
+  "Grammatik/B1"
+ ],
+ "source_note": "این فایل گرامر مستقل از فایل دیتا (verben_praepositionen_data.json) است. ارجاع به افعال خاص از طریق id در فایل دیتا انجام می‌شود."
+}

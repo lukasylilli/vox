@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_geben",
+  "wort": "geben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دادن"
+    ],
+    "en": [
+      "to give"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈɡeːbn̩",
+  "anmerkung": "Unregelmäßig (e→i): du gibst, er gibt. Konstruktion: jemandem (Dat) etwas (Akk) geben. Auch unpersönlich: „es gibt“ = وجود دارد.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Kannst du mir einen Stift geben?",
+      "uebersetzung": {
+        "fa": "می‌توانی به من یک خودکار بدهی؟",
+        "en": "Can you give me a pen?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Könntest du mir bitte den Schlüssel geben, bevor du gehst?",
+      "uebersetzung": {
+        "fa": "می‌شود لطفاً قبل از رفتن کلید را به من بدهی؟",
+        "en": "Could you please give me the key before you leave?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "reichen",
+      "uebersetzung": {
+        "fa": "رساندن، دادن",
+        "en": "to hand, to pass"
+      }
+    },
+    {
+      "wort": "überreichen",
+      "uebersetzung": {
+        "fa": "تقدیم کردن",
+        "en": "to hand over"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "nehmen",
+      "uebersetzung": {
+        "fa": "گرفتن",
+        "en": "to take"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "geben + Dat + Akk",
+        "bedeutung": "jemandem etwas geben",
+        "beispiel": "Gib mir bitte das Salz.",
+        "uebersetzung": {
+          "fa": "لطفاً نمک را به من بده.",
+          "en": "Please give me the salt."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "geben",
+      "praeteritum": "gab",
+      "partizip2": "gegeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gebe",
+        "du": "gibst",
+        "er_sie_es": "gibt",
+        "wir": "geben",
+        "ihr": "gebt",
+        "sie_Sie": "geben"
+      },
+      "praeteritum": {
+        "ich": "gab",
+        "du": "gabst",
+        "er_sie_es": "gab",
+        "wir": "gaben",
+        "ihr": "gabt",
+        "sie_Sie": "gaben"
+      },
+      "imperativ": {
+        "du": "Gib!",
+        "ihr": "Gebt!",
+        "Sie": "Geben Sie!"
+      }
+    },
+    "partizip1": "gebend",
+    "nominalisierung": "das Geben"
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "nehmen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گرفتن",
+          "en": "to take"
+        },
+        "id_ref": "verb_nehmen"
+      },
+      {
+        "wort": "das Geschenk",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "هدیه",
+          "en": "gift"
+        },
+        "id_ref": "nomen_geschenk"
+      },
+      {
+        "wort": "schenken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "هدیه دادن",
+          "en": "to give as a present"
+        },
+        "id_ref": "verb_schenken"
+      },
+      {
+        "wort": "reichen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رساندن، دادن",
+          "en": "to hand, to pass"
+        },
+        "id_ref": "verb_reichen"
+      },
+      {
+        "wort": "die Gabe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بخشش، موهبت",
+          "en": "gift, donation"
+        },
+        "id_ref": "nomen_gabe"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Kannst du mir einen Stift geben?",
+      "dativ": [
+        "mir"
+      ],
+      "akkusativ": [
+        "einen Stift"
+      ],
+      "uebersetzung": {
+        "fa": "می‌توانی به من یک خودکار بدهی؟",
+        "en": "Can you give me a pen?"
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

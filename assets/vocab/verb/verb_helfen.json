@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_helfen",
+  "wort": "helfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کمک کردن"
+    ],
+    "en": [
+      "to help"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈhɛlfn̩",
+  "anmerkung": "Unregelmäßig (e→i: du hilfst, er hilft; half, geholfen). helfen + Dat! Das Synonym unterstützen dagegen + Akk. helfen bei + Dat.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Kann ich Ihnen helfen?",
+      "uebersetzung": {
+        "fa": "می‌توانم به شما کمک کنم؟",
+        "en": "Can I help you?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Mein Nachbar hat mir beim Umzug geholfen.",
+      "uebersetzung": {
+        "fa": "همسایه‌ام در اسباب‌کشی به من کمک کرد.",
+        "en": "My neighbour helped me with the move."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "unterstützen",
+      "uebersetzung": {
+        "fa": "حمایت کردن (+ Akk)",
+        "en": "to support (+ Akk)"
+      }
+    },
+    {
+      "wort": "beistehen",
+      "uebersetzung": {
+        "fa": "یاری رساندن",
+        "en": "to stand by"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "helfen + Dat",
+        "bedeutung": "jemandem helfen",
+        "beispiel": "Ich helfe dir gern.",
+        "uebersetzung": {
+          "fa": "با کمال میل به تو کمک می‌کنم.",
+          "en": "I'm happy to help you."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "helfen",
+      "praeteritum": "half",
+      "partizip2": "geholfen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "helfe",
+        "du": "hilfst",
+        "er_sie_es": "hilft",
+        "wir": "helfen",
+        "ihr": "helft",
+        "sie_Sie": "helfen"
+      },
+      "praeteritum": {
+        "ich": "half",
+        "du": "halfst",
+        "er_sie_es": "half",
+        "wir": "halfen",
+        "ihr": "halft",
+        "sie_Sie": "halfen"
+      },
+      "imperativ": {
+        "du": "Hilf!",
+        "ihr": "Helft!",
+        "Sie": "Helfen Sie!"
+      }
+    },
+    "partizip1": "helfend",
+    "nominalisierung": "die Hilfe"
+  },
+  "wortnetz": {
+    "grundwort": "helfen",
+    "woerter": [
+      {
+        "wort": "die Hilfe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کمک",
+          "en": "help"
+        },
+        "id_ref": "nomen_hilfe"
+      },
+      {
+        "wort": "unterstützen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حمایت کردن",
+          "en": "to support"
+        },
+        "id_ref": "verb_unterstuetzen"
+      },
+      {
+        "wort": "der Helfer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "یاری‌گر",
+          "en": "helper"
+        },
+        "id_ref": "nomen_helfer"
+      },
+      {
+        "wort": "retten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نجات دادن",
+          "en": "to rescue"
+        },
+        "id_ref": "verb_retten"
+      },
+      {
+        "wort": "nützlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مفید",
+          "en": "useful"
+        },
+        "id_ref": "adjektiv_nuetzlich"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Kann ich Ihnen helfen?",
+      "dativ": [
+        "Ihnen"
+      ],
+      "akkusativ": [],
+      "uebersetzung": {
+        "fa": "می‌توانم به شما کمک کنم؟",
+        "en": "Can I help you?"
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,76 @@
+{
+  "title_de": "Verben mit Dativ und Dativ + Akkusativ",
+  "title_fa": "افعالی که با Dativ یا Dativ+Akkusativ می‌آیند",
+  "summary_fa": "بعضی افعال آلمانی مفعولشان را در حالت Dativ می‌گیرند، بعضی هم‌زمان یک مفعول Dativ (شخص) و یک مفعول Akkusativ (چیز) دارند. این افعال را باید حفظ کرد.",
+  "rule_explanation_fa": "در آلمانی فعل تعیین می‌کند مفعول در چه حالتی بیاید. سه گروه مهم وجود دارد: ۱) افعال فقط-Dativ (مثل helfen، danken، gefallen): تنها یک مفعول دارند که شخص است و در حالت Dativ می‌آید — با پرسش «Wem؟ (به چه کسی؟)». ۲) افعال Dativ+Akkusativ (مثل geben، zeigen، schenken): دو مفعول دارند؛ شخصِ گیرنده در Dativ (Wem؟) و چیز در Akkusativ (Was؟). ۳) دسته‌ی هشدار: افعالی که زبان‌آموز اشتباهاً Dativ می‌گیرد ولی در واقع Akkusativ‌اند (مثل fragen, anrufen, besuchen). نکته‌ی کلیدی: شخصِ گیرنده‌ی عمل معمولاً Dativ است، ولی همه‌ی افعال این‌طور نیستند — باید حفظ شوند.",
+  "word_order_rule_fa": "اگر هر دو مفعول اسم باشند: Dativ قبل از Akkusativ می‌آید (Wem؟ بعد Was؟). اگر مفعول Akkusativ ضمیر باشد: ضمیرِ Akkusativ قبل از مفعول Dativ می‌آید. اگر هر دو ضمیر باشند: همیشه Akkusativ قبل از Dativ.",
+  "word_order_examples": [
+    {
+      "de": "Ich gebe dem Kind das Buch.",
+      "fa": "کتاب را به بچه می‌دهم. (هر دو اسم: Dativ قبل از Akkusativ)",
+      "en": "I give the book to the child. (both nouns: Dative before Accusative)"
+    },
+    {
+      "de": "Ich gebe es dem Kind.",
+      "fa": "آن را به بچه می‌دهم. (Akkusativِ ضمیر «es» قبل از Dativ)",
+      "en": "I give it to the child. (Accusative pronoun 'es' before Dative)"
+    },
+    {
+      "de": "Ich gebe es ihm.",
+      "fa": "آن را به او می‌دهم. (هر دو ضمیر: Akkusativ قبل از Dativ)",
+      "en": "I give it to him. (both pronouns: Accusative before Dative)"
+    }
+  ],
+  "common_dativ_only_verb_ids": [
+    28,
+    22,
+    24,
+    25,
+    20,
+    30,
+    32
+  ],
+  "common_dativ_akkusativ_verb_ids": [
+    4,
+    18,
+    9,
+    10,
+    2,
+    11
+  ],
+  "confusable_akkusativ_verb_ids": [
+    106,
+    107,
+    110
+  ],
+  "tips_fa": [
+    "با پرسش «Wem?» مفعول Dativ و با «Wen/Was?» مفعول Akkusativ را پیدا کن.",
+    "در افعال دو-مفعولی، شخص تقریباً همیشه Dativ و چیز تقریباً همیشه Akkusativ است.",
+    "مراقب جفت‌های فریبنده باش: antworten (Dativ) ولی beantworten (Akkusativ)؛ helfen (Dativ) ولی unterstützen (Akkusativ).",
+    "وقتی Akkusativ ضمیر می‌شود، جای آن جلو می‌آید: «Ich gebe es dir»، نه «Ich gebe dir es»."
+  ],
+  "explanation_a1_simple_fa": "بعضی فعل‌ها به یک «شخص» نیاز دارند که در حالت Dativ است: helfen، danken، gefallen. مثال: Ich helfe dir. (به تو کمک می‌کنم) — «dir» حالت Dativ است. بعضی فعل‌ها هم یک شخص (Dativ) و هم یک چیز (Akkusativ) می‌گیرند: geben، zeigen، schenken. مثال: Ich gebe dir das Buch. (کتاب را به تو می‌دهم) — «dir» = Dativ، «das Buch» = Akkusativ.",
+  "a1_simple_verb_ids": [
+    28,
+    22,
+    24,
+    4,
+    18,
+    9
+  ],
+  "displayed_in": [
+    "Auswendiglernen/Dativ-Akkusativ-Verben",
+    "Grammatik/A1"
+  ],
+  "data_source_file": "dativ_akkusativ_data.json",
+  "summary_en": "Some German verbs take their object in the Dative case, others take a Dative object (person) and an Accusative object (thing) at the same time. These verbs must be memorized.",
+  "rule_explanation_en": "In German, the verb determines which case the object takes. Three important groups exist: 1) Dative-only verbs (like helfen, danken, gefallen): take a single object, a person, in the Dative case — ask 'Wem?' (to whom?). 2) Dative + Accusative verbs (like geben, zeigen, schenken): take two objects; the recipient (person) is Dative (Wem?), the thing is Accusative (Was?). 3) Warning group: verbs where learners mistakenly use Dative but are actually Accusative (like fragen, anrufen, besuchen). Key point: the recipient of the action is usually Dative, but not all verbs follow this rule — they must be memorized.",
+  "word_order_rule_en": "If both objects are nouns: Dative comes before Accusative (Wem? then Was?). If the Accusative is a pronoun: the Accusative pronoun comes before the Dative object. If both are pronouns: always Accusative before Dative.",
+  "tips_en": [
+    "Use 'Wem?' to find the Dative object and 'Wen/Was?' for the Accusative object.",
+    "In two-object verbs, the person is almost always Dative and the thing is almost always Accusative.",
+    "Watch out for deceptive pairs: antworten (Dative) but beantworten (Accusative); helfen (Dative) but unterstützen (Accusative).",
+    "When the Accusative becomes a pronoun, it moves forward: 'Ich gebe es dir', not 'Ich gebe dir es'."
+  ],
+  "explanation_a1_simple_en": "Some verbs need a 'person' in the Dative case: helfen, danken, gefallen. Example: Ich helfe dir. (I help you) — 'dir' is Dative. Some verbs take both a person (Dative) and a thing (Accusative): geben, zeigen, schenken. Example: Ich gebe dir das Buch. (I give you the book) — 'dir' = Dative, 'das Buch' = Accusative."
+}

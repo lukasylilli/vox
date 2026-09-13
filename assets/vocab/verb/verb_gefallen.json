@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_gefallen",
+  "wort": "gefallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خوش آمدن",
+      "پسندیدن"
+    ],
+    "en": [
+      "to please",
+      "to be liked"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Gefühle"
+  ],
+  "ipa": "ɡəˈfalən",
+  "anmerkung": "Unregelmäßig (a→ä: es gefällt; gefiel, gefallen). jemandem gefällt etwas. Die gemochte Sache ist das Subjekt (Nominativ).",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Das Kleid gefällt mir gut.",
+      "uebersetzung": {
+        "fa": "این لباس را خیلی دوست دارم.",
+        "en": "I like the dress."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Hat dir der Film gefallen?",
+      "uebersetzung": {
+        "fa": "فیلم را دوست داشتی؟",
+        "en": "Did you like the film?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "mögen",
+      "uebersetzung": {
+        "fa": "دوست داشتن (+ Akk)",
+        "en": "to like (+ Akk)"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "missfallen",
+      "uebersetzung": {
+        "fa": "ناخوشایند بودن",
+        "en": "to displease"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ge- + fallen (افتادن)",
+    "en": "ge- + fallen (to fall)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "gefallen + Dat",
+        "bedeutung": "jemandem gefällt etwas",
+        "beispiel": "Die Stadt gefällt mir.",
+        "uebersetzung": {
+          "fa": "این شهر را دوست دارم.",
+          "en": "I like the city."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "gefallen",
+      "praeteritum": "gefiel",
+      "partizip2": "gefallen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gefalle",
+        "du": "gefällst",
+        "er_sie_es": "gefällt",
+        "wir": "gefallen",
+        "ihr": "gefallt",
+        "sie_Sie": "gefallen"
+      },
+      "praeteritum": {
+        "ich": "gefiel",
+        "du": "gefielst",
+        "er_sie_es": "gefiel",
+        "wir": "gefielen",
+        "ihr": "gefielt",
+        "sie_Sie": "gefielen"
+      },
+      "imperativ": {
+        "du": "Gefall!",
+        "ihr": "Gefallt!",
+        "Sie": "Gefallen Sie!"
+      }
+    },
+    "partizip1": "gefallend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fallen",
+    "woerter": [
+      {
+        "wort": "mögen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دوست داشتن",
+          "en": "to like"
+        },
+        "id_ref": "verb_moegen"
+      },
+      {
+        "wort": "lieben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عاشق بودن",
+          "en": "to love"
+        },
+        "id_ref": "verb_lieben"
+      },
+      {
+        "wort": "schön",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زیبا",
+          "en": "beautiful"
+        },
+        "id_ref": "adjektiv_schoen"
+      },
+      {
+        "wort": "der Geschmack",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سلیقه، طعم",
+          "en": "taste"
+        },
+        "id_ref": "nomen_geschmack"
+      },
+      {
+        "wort": "attraktiv",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جذاب",
+          "en": "attractive"
+        },
+        "id_ref": "adjektiv_attraktiv"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Das Kleid gefällt mir gut.",
+      "dativ": [
+        "mir"
+      ],
+      "akkusativ": [],
+      "uebersetzung": {
+        "fa": "این لباس را خیلی دوست دارم.",
+        "en": "I like the dress."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

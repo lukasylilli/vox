@@ -1,0 +1,169 @@
+{
+  "schema": "3.0",
+  "id": "verb_passen",
+  "wort": "passen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اندازه بودن",
+      "مناسب بودن"
+    ],
+    "en": [
+      "to fit",
+      "to suit"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈpasn̩",
+  "anmerkung": "Regelmäßig (Zischlaut: du passt, er passt). jemandem passen. Das Passende ist das Subjekt (Nominativ). Auch: passen zu + Dat.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Hose passt mir nicht.",
+      "uebersetzung": {
+        "fa": "این شلوار اندازه‌ام نیست.",
+        "en": "The trousers don't fit me."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Passt Ihnen der Termin am Montag?",
+      "uebersetzung": {
+        "fa": "قرار دوشنبه برایتان مناسب است؟",
+        "en": "Does the appointment on Monday suit you?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "stehen",
+      "uebersetzung": {
+        "fa": "برازنده بودن (+ Dat)",
+        "en": "to suit (+ Dat)"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "passen + Dat",
+        "bedeutung": "jemandem passen",
+        "beispiel": "Der Termin passt mir gut.",
+        "uebersetzung": {
+          "fa": "این قرار برایم مناسب است.",
+          "en": "The appointment suits me well."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "passen",
+      "praeteritum": "passte",
+      "partizip2": "gepasst"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "passe",
+        "du": "passt",
+        "er_sie_es": "passt",
+        "wir": "passen",
+        "ihr": "passt",
+        "sie_Sie": "passen"
+      },
+      "praeteritum": {
+        "ich": "passte",
+        "du": "passtest",
+        "er_sie_es": "passte",
+        "wir": "passten",
+        "ihr": "passtet",
+        "sie_Sie": "passten"
+      },
+      "imperativ": {
+        "du": "Pass!",
+        "ihr": "Passt!",
+        "Sie": "Passen Sie!"
+      }
+    },
+    "partizip1": "passend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "passen",
+    "woerter": [
+      {
+        "wort": "passend",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مناسب",
+          "en": "suitable"
+        },
+        "id_ref": "adjektiv_passend"
+      },
+      {
+        "wort": "die Größe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اندازه",
+          "en": "size"
+        },
+        "id_ref": "nomen_groesse"
+      },
+      {
+        "wort": "der Termin",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قرار، وقت",
+          "en": "appointment"
+        },
+        "id_ref": "nomen_termin"
+      },
+      {
+        "wort": "stehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برازنده بودن",
+          "en": "to suit"
+        },
+        "id_ref": "verb_stehen"
+      },
+      {
+        "wort": "anprobieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پرو کردن",
+          "en": "to try on"
+        },
+        "id_ref": "verb_anprobieren"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Die Hose passt mir nicht.",
+      "dativ": [
+        "mir"
+      ],
+      "akkusativ": [],
+      "uebersetzung": {
+        "fa": "این شلوار اندازه‌ام نیست.",
+        "en": "The trousers don't fit me."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

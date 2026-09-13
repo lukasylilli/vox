@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_stehlen",
+  "wort": "stehlen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دزدیدن",
+      "سرقت کردن"
+    ],
+    "en": [
+      "to steal"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Recht"
+  ],
+  "ipa": "ˈʃteːlən",
+  "anmerkung": "Unregelmäßig (e→ie: du stiehlst, er stiehlt; Präteritum stahl, Partizip gestohlen). Konstruktion: jemandem (Dat) etwas (Akk) stehlen.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Man hat uns das Geld gestohlen.",
+      "uebersetzung": {
+        "fa": "پول ما را دزدیدند.",
+        "en": "They stole our money."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Jemand hat ihr im Urlaub den Pass gestohlen.",
+      "uebersetzung": {
+        "fa": "کسی در سفر پاسپورت او را دزدید.",
+        "en": "Someone stole her passport during the holiday."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "klauen",
+      "uebersetzung": {
+        "fa": "کش رفتن (عامیانه)",
+        "en": "to nick (colloq.)"
+      }
+    },
+    {
+      "wort": "entwenden",
+      "uebersetzung": {
+        "fa": "برداشتن، ربودن (رسمی)",
+        "en": "to purloin (formal)"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zurückgeben",
+      "uebersetzung": {
+        "fa": "پس دادن",
+        "en": "to give back"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "stehlen + Dat + Akk",
+        "bedeutung": "jemandem etwas stehlen",
+        "beispiel": "Der Dieb stahl dem Mann die Uhr.",
+        "uebersetzung": {
+          "fa": "دزد ساعت مرد را دزدید.",
+          "en": "The thief stole the man's watch."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "stehlen",
+      "praeteritum": "stahl",
+      "partizip2": "gestohlen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stehle",
+        "du": "stiehlst",
+        "er_sie_es": "stiehlt",
+        "wir": "stehlen",
+        "ihr": "stehlt",
+        "sie_Sie": "stehlen"
+      },
+      "praeteritum": {
+        "ich": "stahl",
+        "du": "stahlst",
+        "er_sie_es": "stahl",
+        "wir": "stahlen",
+        "ihr": "stahlt",
+        "sie_Sie": "stahlen"
+      },
+      "imperativ": {
+        "du": "Stiehl!",
+        "ihr": "Stehlt!",
+        "Sie": "Stehlen Sie!"
+      }
+    },
+    "partizip1": "stehlend",
+    "nominalisierung": "der Diebstahl"
+  },
+  "wortnetz": {
+    "grundwort": "stehlen",
+    "woerter": [
+      {
+        "wort": "der Dieb",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دزد",
+          "en": "thief"
+        },
+        "id_ref": "nomen_dieb"
+      },
+      {
+        "wort": "der Diebstahl",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دزدی، سرقت",
+          "en": "theft"
+        },
+        "id_ref": "nomen_diebstahl"
+      },
+      {
+        "wort": "klauen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کش رفتن",
+          "en": "to nick"
+        },
+        "id_ref": "verb_klauen"
+      },
+      {
+        "wort": "die Polizei",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پلیس",
+          "en": "police"
+        },
+        "id_ref": "nomen_polizei"
+      },
+      {
+        "wort": "das Verbrechen",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جنایت",
+          "en": "crime"
+        },
+        "id_ref": "nomen_verbrechen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Man hat uns das Geld gestohlen.",
+      "dativ": [
+        "uns"
+      ],
+      "akkusativ": [
+        "das Geld"
+      ],
+      "uebersetzung": {
+        "fa": "پول ما را دزدیدند.",
+        "en": "They stole our money."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

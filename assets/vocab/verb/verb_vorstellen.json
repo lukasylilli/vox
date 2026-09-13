@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_vorstellen",
+  "wort": "vorstellen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "معرفی کردن"
+    ],
+    "en": [
+      "to introduce",
+      "to present"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Beziehungen"
+  ],
+  "ipa": "ˈfoːɐ̯ˌʃtɛlən",
+  "anmerkung": "Trennbar: Ich stelle … vor. Reflexiv sich vorstellen = خود را معرفی کردن ODER تصور کردن. Hier: jemandem (Dat) jemanden (Akk) vorstellen.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er stellt ihr seine Freunde vor.",
+      "uebersetzung": {
+        "fa": "او دوستانش را به او معرفی می‌کند.",
+        "en": "He introduces his friends to her."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Darf ich Ihnen meine neue Kollegin vorstellen?",
+      "uebersetzung": {
+        "fa": "اجازه دارم همکار جدیدم را به شما معرفی کنم؟",
+        "en": "May I introduce my new colleague to you?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bekannt machen",
+      "uebersetzung": {
+        "fa": "آشنا کردن",
+        "en": "to acquaint"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "vor- (پیش) + stellen (قرار دادن)",
+    "en": "vor- (before) + stellen (to place)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "vorstellen + Dat + Akk",
+        "bedeutung": "jemandem jemanden vorstellen",
+        "beispiel": "Sie stellt ihren Eltern ihren Freund vor.",
+        "uebersetzung": {
+          "fa": "او دوست‌پسرش را به والدینش معرفی می‌کند.",
+          "en": "She introduces her boyfriend to her parents."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vorstellen",
+      "praeteritum": "stellte vor",
+      "partizip2": "vorgestellt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stelle vor",
+        "du": "stellst vor",
+        "er_sie_es": "stellt vor",
+        "wir": "stellen vor",
+        "ihr": "stellt vor",
+        "sie_Sie": "stellen vor"
+      },
+      "praeteritum": {
+        "ich": "stellte vor",
+        "du": "stelltest vor",
+        "er_sie_es": "stellte vor",
+        "wir": "stellten vor",
+        "ihr": "stelltet vor",
+        "sie_Sie": "stellten vor"
+      },
+      "imperativ": {
+        "du": "Stell vor!",
+        "ihr": "Stellt vor!",
+        "Sie": "Stellen Sie vor!"
+      }
+    },
+    "partizip1": "vorstellend",
+    "nominalisierung": "die Vorstellung"
+  },
+  "wortnetz": {
+    "grundwort": "stellen",
+    "woerter": [
+      {
+        "wort": "kennenlernen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آشنا شدن",
+          "en": "to get to know"
+        },
+        "id_ref": "verb_kennenlernen"
+      },
+      {
+        "wort": "begrüßen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سلام/خوش‌آمد گفتن",
+          "en": "to greet"
+        },
+        "id_ref": "verb_begruessen"
+      },
+      {
+        "wort": "die Vorstellung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "معرفی، تصور",
+          "en": "introduction, idea"
+        },
+        "id_ref": "nomen_vorstellung"
+      },
+      {
+        "wort": "der Name",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نام",
+          "en": "name"
+        },
+        "id_ref": "nomen_name"
+      },
+      {
+        "wort": "treffen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ملاقات کردن",
+          "en": "to meet"
+        },
+        "id_ref": "verb_treffen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Er stellt ihr seine Freunde vor.",
+      "dativ": [
+        "ihr"
+      ],
+      "akkusativ": [
+        "seine Freunde"
+      ],
+      "uebersetzung": {
+        "fa": "او دوستانش را به او معرفی می‌کند.",
+        "en": "He introduces his friends to her."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_verbieten",
+  "wort": "verbieten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ممنوع کردن",
+      "منع کردن"
+    ],
+    "en": [
+      "to forbid",
+      "to ban"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Recht"
+  ],
+  "ipa": "fɛɐ̯ˈbiːtn̩",
+  "anmerkung": "Unregelmäßig (verbot, verboten; Stamm auf -t → du verbietest, er verbietet). Konstruktion: jemandem (Dat) etwas (Akk) verbieten.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Ich verbiete dir den Umgang mit ihm.",
+      "uebersetzung": {
+        "fa": "معاشرت با او را برایت ممنوع می‌کنم.",
+        "en": "I forbid you contact with him."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Arzt hat ihm wegen seiner Krankheit das Rauchen verboten.",
+      "uebersetzung": {
+        "fa": "دکتر به‌خاطر بیماری‌اش سیگار کشیدن را برایش ممنوع کرد.",
+        "en": "Because of his illness the doctor forbade him to smoke."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "untersagen",
+      "uebersetzung": {
+        "fa": "منع کردن (رسمی)",
+        "en": "to prohibit"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "erlauben",
+      "uebersetzung": {
+        "fa": "اجازه دادن",
+        "en": "to allow"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + bieten (فرمان دادن)",
+    "en": "ver- + bieten (to bid/command)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "verbieten + Dat + Akk",
+        "bedeutung": "jemandem etwas verbieten",
+        "beispiel": "Die Eltern verbieten dem Kind das Fernsehen.",
+        "uebersetzung": {
+          "fa": "والدین تلویزیون‌دیدن را برای کودک ممنوع می‌کنند.",
+          "en": "The parents forbid the child television."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verbieten",
+      "praeteritum": "verbot",
+      "partizip2": "verboten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verbiete",
+        "du": "verbietest",
+        "er_sie_es": "verbietet",
+        "wir": "verbieten",
+        "ihr": "verbietet",
+        "sie_Sie": "verbieten"
+      },
+      "praeteritum": {
+        "ich": "verbot",
+        "du": "verbotest",
+        "er_sie_es": "verbot",
+        "wir": "verboten",
+        "ihr": "verbotet",
+        "sie_Sie": "verboten"
+      },
+      "imperativ": {
+        "du": "Verbiete!",
+        "ihr": "Verbietet!",
+        "Sie": "Verbieten Sie!"
+      }
+    },
+    "partizip1": "verbietend",
+    "nominalisierung": "das Verbot"
+  },
+  "wortnetz": {
+    "grundwort": "bieten",
+    "woerter": [
+      {
+        "wort": "das Verbot",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ممنوعیت",
+          "en": "ban"
+        },
+        "id_ref": "nomen_verbot"
+      },
+      {
+        "wort": "erlauben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اجازه دادن",
+          "en": "to allow"
+        },
+        "id_ref": "verb_erlauben"
+      },
+      {
+        "wort": "verboten",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ممنوع",
+          "en": "forbidden"
+        },
+        "id_ref": "adjektiv_verboten"
+      },
+      {
+        "wort": "das Gesetz",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قانون",
+          "en": "law"
+        },
+        "id_ref": "nomen_gesetz"
+      },
+      {
+        "wort": "untersagen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "منع کردن",
+          "en": "to prohibit"
+        },
+        "id_ref": "verb_untersagen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Ich verbiete dir den Umgang mit ihm.",
+      "dativ": [
+        "dir"
+      ],
+      "akkusativ": [
+        "den Umgang"
+      ],
+      "uebersetzung": {
+        "fa": "معاشرت با او را برایت ممنوع می‌کنم.",
+        "en": "I forbid you contact with him."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

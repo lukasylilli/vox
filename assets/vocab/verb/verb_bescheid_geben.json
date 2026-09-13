@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_bescheid_geben",
+  "wort": "Bescheid geben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اطلاع دادن",
+      "خبر دادن"
+    ],
+    "en": [
+      "to let (sb) know"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Kommunikation"
+  ],
+  "ipa": "bəˈʃaɪ̯t ˌɡeːbn̩",
+  "anmerkung": "Feste Nomen-Verb-Verbindung (Funktionsverbgefüge). Person im Dativ. Auch: Bescheid sagen. Konjugiert wird geben (unregelmäßig).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Können Sie mir bitte schnell Bescheid geben?",
+      "uebersetzung": {
+        "fa": "می‌توانید لطفاً سریع به من اطلاع دهید؟",
+        "en": "Could you please let me know quickly?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Gib mir Bescheid, sobald du angekommen bist.",
+      "uebersetzung": {
+        "fa": "به‌محض اینکه رسیدی به من خبر بده.",
+        "en": "Let me know as soon as you've arrived."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "informieren",
+      "uebersetzung": {
+        "fa": "مطلع کردن",
+        "en": "to inform"
+      }
+    },
+    {
+      "wort": "mitteilen",
+      "uebersetzung": {
+        "fa": "اطلاع دادن",
+        "en": "to notify"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Bescheid (اطلاع، پاسخ) + geben (دادن)",
+    "en": "Bescheid (information) + geben (to give)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem Bescheid geben",
+        "bedeutung": "jemanden informieren",
+        "beispiel": "Ich gebe dir morgen Bescheid.",
+        "uebersetzung": {
+          "fa": "فردا به تو خبر می‌دهم.",
+          "en": "I'll let you know tomorrow."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "Bescheid geben",
+      "praeteritum": "gab Bescheid",
+      "partizip2": "Bescheid gegeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gebe Bescheid",
+        "du": "gibst Bescheid",
+        "er_sie_es": "gibt Bescheid",
+        "wir": "geben Bescheid",
+        "ihr": "gebt Bescheid",
+        "sie_Sie": "geben Bescheid"
+      },
+      "praeteritum": {
+        "ich": "gab Bescheid",
+        "du": "gabst Bescheid",
+        "er_sie_es": "gab Bescheid",
+        "wir": "gaben Bescheid",
+        "ihr": "gabt Bescheid",
+        "sie_Sie": "gaben Bescheid"
+      },
+      "imperativ": {
+        "du": "Gib Bescheid!",
+        "ihr": "Gebt Bescheid!",
+        "Sie": "Geben Sie Bescheid!"
+      }
+    },
+    "partizip1": "Bescheid gebend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Bescheid",
+    "woerter": [
+      {
+        "wort": "informieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مطلع کردن",
+          "en": "to inform"
+        },
+        "id_ref": "verb_informieren"
+      },
+      {
+        "wort": "mitteilen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اطلاع دادن",
+          "en": "to notify"
+        },
+        "id_ref": "verb_mitteilen"
+      },
+      {
+        "wort": "die Nachricht",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خبر، پیام",
+          "en": "message"
+        },
+        "id_ref": "nomen_nachricht"
+      },
+      {
+        "wort": "sagen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گفتن",
+          "en": "to say"
+        },
+        "id_ref": "verb_sagen"
+      },
+      {
+        "wort": "anrufen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تلفن زدن",
+          "en": "to call"
+        },
+        "id_ref": "verb_anrufen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Können Sie mir bitte schnell Bescheid geben?",
+      "dativ": [
+        "mir"
+      ],
+      "akkusativ": [],
+      "uebersetzung": {
+        "fa": "می‌توانید لطفاً سریع به من اطلاع دهید؟",
+        "en": "Could you please let me know quickly?"
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

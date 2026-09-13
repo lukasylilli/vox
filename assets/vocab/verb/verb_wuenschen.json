@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "verb_wuenschen",
+  "wort": "wünschen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آرزو کردن"
+    ],
+    "en": [
+      "to wish"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Beziehungen",
+    "Gefühle"
+  ],
+  "ipa": "ˈvʏnʃn̩",
+  "anmerkung": "Regelmäßig. Konstruktion: jemandem (Dat) etwas (Akk) wünschen; reflexiv sich (Dat) etwas wünschen = آرزو داشتن.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich wünsche Ihnen gute Besserung.",
+      "uebersetzung": {
+        "fa": "برایتان بهبودی آرزو می‌کنم.",
+        "en": "I wish you a quick recovery."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Zum neuen Jahr wünsche ich dir Gesundheit und Erfolg.",
+      "uebersetzung": {
+        "fa": "برای سال نو برایت سلامتی و موفقیت آرزو می‌کنم.",
+        "en": "For the new year I wish you health and success."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gönnen",
+      "uebersetzung": {
+        "fa": "روا داشتن، آرزوی خیر",
+        "en": "to wish sb well"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "wünschen + Dat + Akk",
+        "bedeutung": "jemandem etwas wünschen",
+        "beispiel": "Ich wünsche dir alles Gute.",
+        "uebersetzung": {
+          "fa": "برایت بهترین‌ها را آرزو می‌کنم.",
+          "en": "I wish you all the best."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "wünschen",
+      "praeteritum": "wünschte",
+      "partizip2": "gewünscht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "wünsche",
+        "du": "wünschst",
+        "er_sie_es": "wünscht",
+        "wir": "wünschen",
+        "ihr": "wünscht",
+        "sie_Sie": "wünschen"
+      },
+      "praeteritum": {
+        "ich": "wünschte",
+        "du": "wünschtest",
+        "er_sie_es": "wünschte",
+        "wir": "wünschten",
+        "ihr": "wünschtet",
+        "sie_Sie": "wünschten"
+      },
+      "imperativ": {
+        "du": "Wünsche!",
+        "ihr": "Wünscht!",
+        "Sie": "Wünschen Sie!"
+      }
+    },
+    "partizip1": "wünschend",
+    "nominalisierung": "der Wunsch"
+  },
+  "wortnetz": {
+    "grundwort": "wünschen",
+    "woerter": [
+      {
+        "wort": "der Wunsch",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آرزو",
+          "en": "wish"
+        },
+        "id_ref": "nomen_wunsch"
+      },
+      {
+        "wort": "hoffen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "امیدوار بودن",
+          "en": "to hope"
+        },
+        "id_ref": "verb_hoffen"
+      },
+      {
+        "wort": "gratulieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تبریک گفتن",
+          "en": "to congratulate"
+        },
+        "id_ref": "verb_gratulieren"
+      },
+      {
+        "wort": "das Glück",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خوشبختی، شانس",
+          "en": "luck, happiness"
+        },
+        "id_ref": "nomen_glueck"
+      },
+      {
+        "wort": "träumen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رؤیا دیدن",
+          "en": "to dream"
+        },
+        "id_ref": "verb_traeumen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Ich wünsche Ihnen gute Besserung.",
+      "dativ": [
+        "Ihnen"
+      ],
+      "akkusativ": [
+        "gute Besserung"
+      ],
+      "uebersetzung": {
+        "fa": "برایتان بهبودی آرزو می‌کنم.",
+        "en": "I wish you a quick recovery."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

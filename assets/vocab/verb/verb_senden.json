@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_senden",
+  "wort": "senden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ارسال کردن",
+      "فرستادن"
+    ],
+    "en": [
+      "to send",
+      "to transmit"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Medien"
+  ],
+  "ipa": "ˈzɛndn̩",
+  "anmerkung": "Konstruktion: jemandem (Dat) etwas (Akk) senden. Förmlicher als schicken. Im technischen/Rundfunk-Sinn auch regelmäßig: sendete, gesendet.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Ich sende Ihnen heute noch eine Nachricht.",
+      "uebersetzung": {
+        "fa": "امروز یک پیام برای شما ارسال می‌کنم.",
+        "en": "I'll send you a message today."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wir senden Ihnen die Unterlagen umgehend zu.",
+      "uebersetzung": {
+        "fa": "مدارک را فوراً برایتان ارسال می‌کنیم.",
+        "en": "We will send you the documents immediately."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schicken",
+      "uebersetzung": {
+        "fa": "فرستادن",
+        "en": "to send"
+      }
+    },
+    {
+      "wort": "übermitteln",
+      "uebersetzung": {
+        "fa": "انتقال دادن، رساندن",
+        "en": "to transmit, to convey"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "empfangen",
+      "uebersetzung": {
+        "fa": "دریافت کردن",
+        "en": "to receive"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "senden + Dat + Akk",
+        "bedeutung": "jemandem etwas senden",
+        "beispiel": "Ich sende Ihnen die Rechnung per Post.",
+        "uebersetzung": {
+          "fa": "صورت‌حساب را با پست برایتان می‌فرستم.",
+          "en": "I'll send you the invoice by post."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "senden",
+      "praeteritum": "sandte",
+      "partizip2": "gesandt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "sende",
+        "du": "sendest",
+        "er_sie_es": "sendet",
+        "wir": "senden",
+        "ihr": "sendet",
+        "sie_Sie": "senden"
+      },
+      "praeteritum": {
+        "ich": "sandte",
+        "du": "sandtest",
+        "er_sie_es": "sandte",
+        "wir": "sandten",
+        "ihr": "sandtet",
+        "sie_Sie": "sandten"
+      },
+      "imperativ": {
+        "du": "Sende!",
+        "ihr": "Sendet!",
+        "Sie": "Senden Sie!"
+      }
+    },
+    "partizip1": "sendend",
+    "nominalisierung": "die Sendung"
+  },
+  "wortnetz": {
+    "grundwort": "senden",
+    "woerter": [
+      {
+        "wort": "schicken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فرستادن",
+          "en": "to send"
+        },
+        "id_ref": "verb_schicken"
+      },
+      {
+        "wort": "die Sendung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برنامه، محموله",
+          "en": "broadcast, shipment"
+        },
+        "id_ref": "nomen_sendung"
+      },
+      {
+        "wort": "der Sender",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فرستنده، ایستگاه",
+          "en": "transmitter, channel"
+        },
+        "id_ref": "nomen_sender"
+      },
+      {
+        "wort": "übertragen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "انتقال دادن، پخش کردن",
+          "en": "to transmit, to broadcast"
+        },
+        "id_ref": "verb_uebertragen"
+      },
+      {
+        "wort": "empfangen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دریافت کردن",
+          "en": "to receive"
+        },
+        "id_ref": "verb_empfangen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Ich sende Ihnen heute noch eine Nachricht.",
+      "dativ": [
+        "Ihnen"
+      ],
+      "akkusativ": [
+        "eine Nachricht"
+      ],
+      "uebersetzung": {
+        "fa": "امروز یک پیام برای شما ارسال می‌کنم.",
+        "en": "I'll send you a message today."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

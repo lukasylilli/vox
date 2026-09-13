@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_bieten",
+  "wort": "bieten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ارائه دادن",
+      "عرضه کردن"
+    ],
+    "en": [
+      "to offer",
+      "to provide"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Wirtschaft"
+  ],
+  "ipa": "ˈbiːtn̩",
+  "anmerkung": "Unregelmäßig (bot, geboten; Stamm auf -t → du bietest, er bietet). Konstruktion: jemandem (Dat) etwas (Akk) bieten.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Die Reinigung bietet Ihnen einen guten Service.",
+      "uebersetzung": {
+        "fa": "خشکشویی به شما خدمات خوبی ارائه می‌دهد.",
+        "en": "The cleaners offer you good service."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die neue Stelle bietet mir viele Möglichkeiten zur Weiterbildung.",
+      "uebersetzung": {
+        "fa": "شغل جدید فرصت‌های زیادی برای آموزش بیشتر به من می‌دهد.",
+        "en": "The new job offers me many opportunities for further training."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anbieten",
+      "uebersetzung": {
+        "fa": "پیشنهاد/عرضه کردن",
+        "en": "to offer"
+      }
+    },
+    {
+      "wort": "gewähren",
+      "uebersetzung": {
+        "fa": "اعطا کردن",
+        "en": "to grant"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "bieten + Dat + Akk",
+        "bedeutung": "jemandem etwas bieten",
+        "beispiel": "Die Stadt bietet den Touristen viel.",
+        "uebersetzung": {
+          "fa": "شهر چیزهای زیادی به گردشگران عرضه می‌کند.",
+          "en": "The city offers tourists a lot."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bieten",
+      "praeteritum": "bot",
+      "partizip2": "geboten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "biete",
+        "du": "bietest",
+        "er_sie_es": "bietet",
+        "wir": "bieten",
+        "ihr": "bietet",
+        "sie_Sie": "bieten"
+      },
+      "praeteritum": {
+        "ich": "bot",
+        "du": "botest",
+        "er_sie_es": "bot",
+        "wir": "boten",
+        "ihr": "botet",
+        "sie_Sie": "boten"
+      },
+      "imperativ": {
+        "du": "Biete!",
+        "ihr": "Bietet!",
+        "Sie": "Bieten Sie!"
+      }
+    },
+    "partizip1": "bietend",
+    "nominalisierung": "das Angebot"
+  },
+  "wortnetz": {
+    "grundwort": "bieten",
+    "woerter": [
+      {
+        "wort": "anbieten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیشنهاد دادن",
+          "en": "to offer"
+        },
+        "id_ref": "verb_anbieten"
+      },
+      {
+        "wort": "das Angebot",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عرضه، پیشنهاد",
+          "en": "offer"
+        },
+        "id_ref": "nomen_angebot"
+      },
+      {
+        "wort": "der Service",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خدمات",
+          "en": "service"
+        },
+        "id_ref": "nomen_service"
+      },
+      {
+        "wort": "die Möglichkeit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "امکان",
+          "en": "possibility"
+        },
+        "id_ref": "nomen_moeglichkeit"
+      },
+      {
+        "wort": "gewähren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اعطا کردن",
+          "en": "to grant"
+        },
+        "id_ref": "verb_gewaehren"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Die Reinigung bietet Ihnen einen guten Service.",
+      "dativ": [
+        "Ihnen"
+      ],
+      "akkusativ": [
+        "einen guten Service"
+      ],
+      "uebersetzung": {
+        "fa": "خشکشویی به شما خدمات خوبی ارائه می‌دهد.",
+        "en": "The cleaners offer you good service."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

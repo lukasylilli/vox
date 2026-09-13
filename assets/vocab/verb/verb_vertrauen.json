@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_vertrauen",
+  "wort": "vertrauen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اعتماد کردن"
+    ],
+    "en": [
+      "to trust"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Beziehungen"
+  ],
+  "ipa": "fɛɐ̯ˈtʁaʊ̯ən",
+  "anmerkung": "Regelmäßig. vertrauen + Dat! Auch: vertrauen auf + Akk. Nicht mit anvertrauen (+ Dat + Akk) verwechseln.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich vertraue meinem Freund.",
+      "uebersetzung": {
+        "fa": "به دوستم اعتماد دارم.",
+        "en": "I trust my friend."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nach dieser Lüge kann ich ihm nicht mehr vertrauen.",
+      "uebersetzung": {
+        "fa": "بعد از این دروغ دیگر نمی‌توانم به او اعتماد کنم.",
+        "en": "After this lie I can no longer trust him."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "glauben",
+      "uebersetzung": {
+        "fa": "باور کردن",
+        "en": "to believe"
+      }
+    },
+    {
+      "wort": "sich verlassen auf",
+      "uebersetzung": {
+        "fa": "تکیه کردن به",
+        "en": "to rely on"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "misstrauen",
+      "uebersetzung": {
+        "fa": "بی‌اعتماد بودن",
+        "en": "to distrust"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + trauen (اعتماد کردن)",
+    "en": "ver- + trauen (to trust)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "vertrauen + Dat",
+        "bedeutung": "jemandem vertrauen",
+        "beispiel": "Du kannst mir vertrauen.",
+        "uebersetzung": {
+          "fa": "می‌توانی به من اعتماد کنی.",
+          "en": "You can trust me."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vertrauen",
+      "praeteritum": "vertraute",
+      "partizip2": "vertraut"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "vertraue",
+        "du": "vertraust",
+        "er_sie_es": "vertraut",
+        "wir": "vertrauen",
+        "ihr": "vertraut",
+        "sie_Sie": "vertrauen"
+      },
+      "praeteritum": {
+        "ich": "vertraute",
+        "du": "vertrautest",
+        "er_sie_es": "vertraute",
+        "wir": "vertrauten",
+        "ihr": "vertrautet",
+        "sie_Sie": "vertrauten"
+      },
+      "imperativ": {
+        "du": "Vertraue!",
+        "ihr": "Vertraut!",
+        "Sie": "Vertrauen Sie!"
+      }
+    },
+    "partizip1": "vertrauend",
+    "nominalisierung": "das Vertrauen"
+  },
+  "wortnetz": {
+    "grundwort": "trauen",
+    "woerter": [
+      {
+        "wort": "das Vertrauen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اعتماد",
+          "en": "trust"
+        },
+        "id_ref": "nomen_vertrauen"
+      },
+      {
+        "wort": "glauben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باور کردن",
+          "en": "to believe"
+        },
+        "id_ref": "verb_glauben"
+      },
+      {
+        "wort": "misstrauen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بی‌اعتماد بودن",
+          "en": "to distrust"
+        },
+        "id_ref": "verb_misstrauen"
+      },
+      {
+        "wort": "verlassen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تکیه کردن (sich ~ auf)",
+          "en": "to rely (sich ~ auf)"
+        },
+        "id_ref": "verb_verlassen"
+      },
+      {
+        "wort": "ehrlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صادق",
+          "en": "honest"
+        },
+        "id_ref": "adjektiv_ehrlich"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Ich vertraue meinem Freund.",
+      "dativ": [
+        "meinem Freund"
+      ],
+      "akkusativ": [],
+      "uebersetzung": {
+        "fa": "به دوستم اعتماد دارم.",
+        "en": "I trust my friend."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

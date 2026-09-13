@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_nennen",
+  "wort": "nennen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نام بردن",
+      "گفتن",
+      "نامیدن"
+    ],
+    "en": [
+      "to name",
+      "to tell"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈnɛnən",
+  "anmerkung": "Unregelmäßig (nannte, genannt; Präsens regelmäßig). Konstruktion: jemandem (Dat) etwas (Akk) nennen; auch jemanden/etwas X nennen = نامیدن.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Können Sie mir die Gründe nennen?",
+      "uebersetzung": {
+        "fa": "می‌توانید دلایل را به من بگویید؟",
+        "en": "Can you tell me the reasons?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Können Sie mir einen Grund nennen, warum das nicht funktioniert hat?",
+      "uebersetzung": {
+        "fa": "می‌توانید دلیلی به من بگویید که چرا این کار نکرد؟",
+        "en": "Can you name me a reason why that didn't work?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "angeben",
+      "uebersetzung": {
+        "fa": "ذکر کردن",
+        "en": "to state"
+      }
+    },
+    {
+      "wort": "benennen",
+      "uebersetzung": {
+        "fa": "نام‌گذاری کردن",
+        "en": "to name"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "nennen + Dat + Akk",
+        "bedeutung": "jemandem etwas nennen",
+        "beispiel": "Nenne mir bitte deinen Namen.",
+        "uebersetzung": {
+          "fa": "لطفاً نامت را به من بگو.",
+          "en": "Please tell me your name."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "nennen",
+      "praeteritum": "nannte",
+      "partizip2": "genannt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "nenne",
+        "du": "nennst",
+        "er_sie_es": "nennt",
+        "wir": "nennen",
+        "ihr": "nennt",
+        "sie_Sie": "nennen"
+      },
+      "praeteritum": {
+        "ich": "nannte",
+        "du": "nanntest",
+        "er_sie_es": "nannte",
+        "wir": "nannten",
+        "ihr": "nanntet",
+        "sie_Sie": "nannten"
+      },
+      "imperativ": {
+        "du": "Nenne!",
+        "ihr": "Nennt!",
+        "Sie": "Nennen Sie!"
+      }
+    },
+    "partizip1": "nennend",
+    "nominalisierung": "die Nennung"
+  },
+  "wortnetz": {
+    "grundwort": "nennen",
+    "woerter": [
+      {
+        "wort": "der Name",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نام",
+          "en": "name"
+        },
+        "id_ref": "nomen_name"
+      },
+      {
+        "wort": "sagen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گفتن",
+          "en": "to say"
+        },
+        "id_ref": "verb_sagen"
+      },
+      {
+        "wort": "der Grund",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دلیل",
+          "en": "reason"
+        },
+        "id_ref": "nomen_grund"
+      },
+      {
+        "wort": "heißen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نامیده شدن",
+          "en": "to be called"
+        },
+        "id_ref": "verb_heissen"
+      },
+      {
+        "wort": "angeben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ذکر کردن",
+          "en": "to state"
+        },
+        "id_ref": "verb_angeben"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Können Sie mir die Gründe nennen?",
+      "dativ": [
+        "mir"
+      ],
+      "akkusativ": [
+        "die Gründe"
+      ],
+      "uebersetzung": {
+        "fa": "می‌توانید دلایل را به من بگویید؟",
+        "en": "Can you tell me the reasons?"
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_schulden",
+  "wort": "schulden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بدهکار بودن"
+    ],
+    "en": [
+      "to owe"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Wirtschaft"
+  ],
+  "ipa": "ˈʃʊldn̩",
+  "anmerkung": "Regelmäßig (Stamm auf -d → du schuldest, er schuldet). Konstruktion: jemandem (Dat) etwas (Akk) schulden.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Du schuldest mir noch 20 Euro.",
+      "uebersetzung": {
+        "fa": "هنوز ۲۰ یورو به من بدهکاری.",
+        "en": "You still owe me 20 euros."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Umzug schuldete er seinen Freunden noch eine Menge Gefallen.",
+      "uebersetzung": {
+        "fa": "بعد از اسباب‌کشی، او هنوز کلی لطف به دوستانش بدهکار بود.",
+        "en": "After the move he still owed his friends a lot of favours."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "zurückzahlen",
+      "uebersetzung": {
+        "fa": "بازپرداخت کردن",
+        "en": "to pay back"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "verwandt mit Schuld (بدهی/گناه)",
+    "en": "related to Schuld (debt/guilt)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "schulden + Dat + Akk",
+        "bedeutung": "jemandem etwas schulden",
+        "beispiel": "Ich schulde dir noch Geld.",
+        "uebersetzung": {
+          "fa": "هنوز به تو پول بدهکارم.",
+          "en": "I still owe you money."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schulden",
+      "praeteritum": "schuldete",
+      "partizip2": "geschuldet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schulde",
+        "du": "schuldest",
+        "er_sie_es": "schuldet",
+        "wir": "schulden",
+        "ihr": "schuldet",
+        "sie_Sie": "schulden"
+      },
+      "praeteritum": {
+        "ich": "schuldete",
+        "du": "schuldetest",
+        "er_sie_es": "schuldete",
+        "wir": "schuldeten",
+        "ihr": "schuldetet",
+        "sie_Sie": "schuldeten"
+      },
+      "imperativ": {
+        "du": "Schulde!",
+        "ihr": "Schuldet!",
+        "Sie": "Schulden Sie!"
+      }
+    },
+    "partizip1": "schuldend",
+    "nominalisierung": "die Schuld"
+  },
+  "wortnetz": {
+    "grundwort": "Schuld",
+    "woerter": [
+      {
+        "wort": "die Schuld",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بدهی، تقصیر",
+          "en": "debt, guilt"
+        },
+        "id_ref": "nomen_schuld"
+      },
+      {
+        "wort": "das Geld",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پول",
+          "en": "money"
+        },
+        "id_ref": "nomen_geld"
+      },
+      {
+        "wort": "zurückzahlen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بازپرداخت کردن",
+          "en": "to pay back"
+        },
+        "id_ref": "verb_zurueckzahlen"
+      },
+      {
+        "wort": "leihen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرض دادن/گرفتن",
+          "en": "to lend/borrow"
+        },
+        "id_ref": "verb_leihen"
+      },
+      {
+        "wort": "bezahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_bezahlen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Du schuldest mir noch 20 Euro.",
+      "dativ": [
+        "mir"
+      ],
+      "akkusativ": [
+        "20 Euro"
+      ],
+      "uebersetzung": {
+        "fa": "هنوز ۲۰ یورو به من بدهکاری.",
+        "en": "You still owe me 20 euros."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

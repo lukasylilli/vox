@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_kochen",
+  "wort": "kochen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پختن، آشپزی کردن (برای کسی)"
+    ],
+    "en": [
+      "to cook"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Essen"
+  ],
+  "ipa": "ˈkɔxn̩",
+  "anmerkung": "Regelmäßig. Meist + Akk; mit Person: jemandem (Dat) etwas (Akk) kochen.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich koche dir eine Suppe.",
+      "uebersetzung": {
+        "fa": "برایت یک سوپ می‌پزم.",
+        "en": "I'll cook you a soup."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Am Wochenende koche ich meiner Familie oft etwas Besonderes.",
+      "uebersetzung": {
+        "fa": "آخر هفته‌ها اغلب برای خانواده‌ام چیز خاصی می‌پزم.",
+        "en": "At weekends I often cook my family something special."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zubereiten",
+      "uebersetzung": {
+        "fa": "آماده/طبخ کردن",
+        "en": "to prepare"
+      }
+    },
+    {
+      "wort": "garen",
+      "uebersetzung": {
+        "fa": "پختن (آرام)",
+        "en": "to cook (gently)"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "kochen + (Dat) + Akk",
+        "bedeutung": "(jemandem) etwas kochen",
+        "beispiel": "Meine Mutter kocht mir eine Hühnersuppe.",
+        "uebersetzung": {
+          "fa": "مادرم برایم سوپ مرغ می‌پزد.",
+          "en": "My mother cooks me a chicken soup."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "kochen",
+      "praeteritum": "kochte",
+      "partizip2": "gekocht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "koche",
+        "du": "kochst",
+        "er_sie_es": "kocht",
+        "wir": "kochen",
+        "ihr": "kocht",
+        "sie_Sie": "kochen"
+      },
+      "praeteritum": {
+        "ich": "kochte",
+        "du": "kochtest",
+        "er_sie_es": "kochte",
+        "wir": "kochten",
+        "ihr": "kochtet",
+        "sie_Sie": "kochten"
+      },
+      "imperativ": {
+        "du": "Koche!",
+        "ihr": "Kocht!",
+        "Sie": "Kochen Sie!"
+      }
+    },
+    "partizip1": "kochend",
+    "nominalisierung": "das Kochen"
+  },
+  "wortnetz": {
+    "grundwort": "kochen",
+    "woerter": [
+      {
+        "wort": "das Essen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "غذا",
+          "en": "food, meal"
+        },
+        "id_ref": "nomen_essen"
+      },
+      {
+        "wort": "backen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پختن (نان/کیک)",
+          "en": "to bake"
+        },
+        "id_ref": "verb_backen"
+      },
+      {
+        "wort": "die Küche",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آشپزخانه",
+          "en": "kitchen"
+        },
+        "id_ref": "nomen_kueche"
+      },
+      {
+        "wort": "das Rezept",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دستور پخت",
+          "en": "recipe"
+        },
+        "id_ref": "nomen_rezept"
+      },
+      {
+        "wort": "essen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوردن",
+          "en": "to eat"
+        },
+        "id_ref": "verb_essen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Ich koche dir eine Suppe.",
+      "dativ": [
+        "dir"
+      ],
+      "akkusativ": [
+        "eine Suppe"
+      ],
+      "uebersetzung": {
+        "fa": "برایت یک سوپ می‌پزم.",
+        "en": "I'll cook you a soup."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

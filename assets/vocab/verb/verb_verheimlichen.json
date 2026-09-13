@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_verheimlichen",
+  "wort": "verheimlichen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پنهان کردن"
+    ],
+    "en": [
+      "to keep secret",
+      "to conceal"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Beziehungen"
+  ],
+  "ipa": "fɛɐ̯ˈhaɪ̯mlɪçn̩",
+  "anmerkung": "Regelmäßig. Konstruktion: jemandem (Dat) etwas (Akk) verheimlichen.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Diesen Vorfall hat sie mir verheimlicht.",
+      "uebersetzung": {
+        "fa": "این ماجرا را از من پنهان کرد.",
+        "en": "She kept this incident secret from me."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Jahrelang hat er seiner Familie seine Spielsucht verheimlicht.",
+      "uebersetzung": {
+        "fa": "او سال‌ها اعتیادش به قمار را از خانواده‌اش پنهان کرد.",
+        "en": "For years he kept his gambling addiction secret from his family."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verschweigen",
+      "uebersetzung": {
+        "fa": "با سکوت پنهان کردن",
+        "en": "to conceal"
+      }
+    },
+    {
+      "wort": "verbergen",
+      "uebersetzung": {
+        "fa": "پنهان کردن",
+        "en": "to hide"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verraten",
+      "uebersetzung": {
+        "fa": "فاش کردن",
+        "en": "to reveal"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + heimlich (پنهانی)",
+    "en": "ver- + heimlich (secret)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "verheimlichen + Dat + Akk",
+        "bedeutung": "jemandem etwas verheimlichen",
+        "beispiel": "Sie verheimlicht ihren Eltern die Wahrheit.",
+        "uebersetzung": {
+          "fa": "او حقیقت را از والدینش پنهان می‌کند.",
+          "en": "She keeps the truth secret from her parents."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verheimlichen",
+      "praeteritum": "verheimlichte",
+      "partizip2": "verheimlicht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verheimliche",
+        "du": "verheimlichst",
+        "er_sie_es": "verheimlicht",
+        "wir": "verheimlichen",
+        "ihr": "verheimlicht",
+        "sie_Sie": "verheimlichen"
+      },
+      "praeteritum": {
+        "ich": "verheimlichte",
+        "du": "verheimlichtest",
+        "er_sie_es": "verheimlichte",
+        "wir": "verheimlichten",
+        "ihr": "verheimlichtet",
+        "sie_Sie": "verheimlichten"
+      },
+      "imperativ": {
+        "du": "Verheimliche!",
+        "ihr": "Verheimlicht!",
+        "Sie": "Verheimlichen Sie!"
+      }
+    },
+    "partizip1": "verheimlichend",
+    "nominalisierung": "die Verheimlichung"
+  },
+  "wortnetz": {
+    "grundwort": "heimlich",
+    "woerter": [
+      {
+        "wort": "verschweigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پنهان کردن",
+          "en": "to conceal"
+        },
+        "id_ref": "verb_verschweigen"
+      },
+      {
+        "wort": "verbergen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پنهان کردن",
+          "en": "to hide"
+        },
+        "id_ref": "verb_verbergen"
+      },
+      {
+        "wort": "das Geheimnis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "راز",
+          "en": "secret"
+        },
+        "id_ref": "nomen_geheimnis"
+      },
+      {
+        "wort": "heimlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پنهانی",
+          "en": "secret"
+        },
+        "id_ref": "adjektiv_heimlich"
+      },
+      {
+        "wort": "lügen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دروغ گفتن",
+          "en": "to lie"
+        },
+        "id_ref": "verb_luegen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Diesen Vorfall hat sie mir verheimlicht.",
+      "dativ": [
+        "mir"
+      ],
+      "akkusativ": [
+        "Diesen Vorfall"
+      ],
+      "uebersetzung": {
+        "fa": "این ماجرا را از من پنهان کرد.",
+        "en": "She kept this incident secret from me."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

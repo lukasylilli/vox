@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_verschreiben",
+  "wort": "verschreiben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تجویز کردن (نسخه)"
+    ],
+    "en": [
+      "to prescribe"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gesundheit"
+  ],
+  "ipa": "fɛɐ̯ˈʃʁaɪ̯bn̩",
+  "anmerkung": "Unregelmäßig (verschrieb, verschrieben; Präsens regelmäßig). Medizinisch: jemandem (Dat) etwas (Akk) verschreiben.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Der Arzt hat mir einen Hustensaft verschrieben.",
+      "uebersetzung": {
+        "fa": "دکتر برای من شربت سرفه تجویز کرد.",
+        "en": "The doctor prescribed me a cough syrup."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Arzt hat ihr wegen der Schmerzen ein starkes Medikament verschrieben.",
+      "uebersetzung": {
+        "fa": "دکتر به‌خاطر دردها یک داروی قوی برایش تجویز کرد.",
+        "en": "Because of the pain the doctor prescribed her a strong medication."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verordnen",
+      "uebersetzung": {
+        "fa": "تجویز کردن (رسمی)",
+        "en": "to prescribe (formal)"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + schreiben (نوشتن)",
+    "en": "ver- + schreiben (to write)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "verschreiben + Dat + Akk",
+        "bedeutung": "jemandem etwas verschreiben",
+        "beispiel": "Der Arzt verschreibt dem Patienten ein Antibiotikum.",
+        "uebersetzung": {
+          "fa": "دکتر برای بیمار یک آنتی‌بیوتیک تجویز می‌کند.",
+          "en": "The doctor prescribes the patient an antibiotic."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verschreiben",
+      "praeteritum": "verschrieb",
+      "partizip2": "verschrieben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verschreibe",
+        "du": "verschreibst",
+        "er_sie_es": "verschreibt",
+        "wir": "verschreiben",
+        "ihr": "verschreibt",
+        "sie_Sie": "verschreiben"
+      },
+      "praeteritum": {
+        "ich": "verschrieb",
+        "du": "verschriebst",
+        "er_sie_es": "verschrieb",
+        "wir": "verschrieben",
+        "ihr": "verschriebt",
+        "sie_Sie": "verschrieben"
+      },
+      "imperativ": {
+        "du": "Verschreibe!",
+        "ihr": "Verschreibt!",
+        "Sie": "Verschreiben Sie!"
+      }
+    },
+    "partizip1": "verschreibend",
+    "nominalisierung": "die Verschreibung"
+  },
+  "wortnetz": {
+    "grundwort": "schreiben",
+    "woerter": [
+      {
+        "wort": "der Arzt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پزشک",
+          "en": "doctor"
+        },
+        "id_ref": "nomen_arzt"
+      },
+      {
+        "wort": "das Medikament",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دارو",
+          "en": "medication"
+        },
+        "id_ref": "nomen_medikament"
+      },
+      {
+        "wort": "das Rezept",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نسخه",
+          "en": "prescription"
+        },
+        "id_ref": "nomen_rezept"
+      },
+      {
+        "wort": "die Apotheke",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "داروخانه",
+          "en": "pharmacy"
+        },
+        "id_ref": "nomen_apotheke"
+      },
+      {
+        "wort": "einnehmen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مصرف کردن (دارو)",
+          "en": "to take (medicine)"
+        },
+        "id_ref": "verb_einnehmen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Der Arzt hat mir einen Hustensaft verschrieben.",
+      "dativ": [
+        "mir"
+      ],
+      "akkusativ": [
+        "einen Hustensaft"
+      ],
+      "uebersetzung": {
+        "fa": "دکتر برای من شربت سرفه تجویز کرد.",
+        "en": "The doctor prescribed me a cough syrup."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

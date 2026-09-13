@@ -1,0 +1,823 @@
+{
+ "_index": {
+  "fileDescription": "Verben – Grundlagen: Konjugation im Präsens, sein, haben, regelmäßige Verben",
+  "lastUpdatedStage": 3,
+  "lessons": [
+   "konjugation-praesens — صرف فعل در زمان حال",
+   "verb-sein — فعل sein",
+   "verb-haben — فعل haben",
+   "regelmaessige-verben — افعال باقاعده"
+  ],
+  "exercises": [
+   "ex-konjugation-1..4 (متعلق به konjugation-praesens)",
+   "ex-sein-1..4 (متعلق به verb-sein)",
+   "ex-haben-1..4 (متعلق به verb-haben)",
+   "ex-regelmaessig-1..4 (متعلق به regelmaessige-verben)"
+  ]
+ },
+ "lessons": [
+  {
+   "id": "konjugation-praesens",
+   "slug": "konjugation-praesens",
+   "titleDE": "Konjugation im Präsens",
+   "titleFA": "صرف فعل در زمان حال",
+   "titleEN": "Conjugation in Present Tense",
+   "levels": [
+    "A1"
+   ],
+   "category": "verben",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": "Die Personalendungen",
+     "headingFA": "پایانه‌های شخصی فعل",
+     "headingEN": "Personal Endings",
+     "bodyDE": "Im Deutschen bekommt jedes Verb je nach Person eine andere Endung: ich -e, du -st, er/sie/es -t, wir -en, ihr -t, sie/Sie -en. Der Verbstamm bleibt meistens gleich.",
+     "bodyFA": "در زبان آلمانی هر فعل بسته به شخص، پایانهٔ متفاوتی می‌گیرد: ich -e، du -st، er/sie/es -t، wir -en، ihr -t، sie/Sie -en. ریشهٔ فعل معمولاً ثابت می‌ماند.",
+     "bodyEN": "In German, every verb takes a different ending depending on the person: ich -e, du -st, er/sie/es -t, wir -en, ihr -t, sie/Sie -en. The verb stem usually stays the same."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Sie lernt jeden Tag Deutsch.",
+     "meaningFA": "او هر روز آلمانی یاد می‌گیرد.",
+     "meaningEN": "She learns German every day.",
+     "noteDE": "Endung -t bei 'sie' (3. Person Singular).",
+     "noteFA": "پایانهٔ -t برای «sie» (سوم شخص مفرد).",
+     "noteEN": "Ending -t for 'sie' (3rd person singular)."
+    },
+    {
+     "id": "ex-2",
+     "german": "Wir wohnen in Hamburg.",
+     "meaningFA": "ما در هامبورگ زندگی می‌کنیم.",
+     "meaningEN": "We live in Hamburg."
+    },
+    {
+     "id": "ex-3",
+     "german": "Machst du heute Sport?",
+     "meaningFA": "امروز ورزش می‌کنی؟",
+     "meaningEN": "Are you doing sports today?"
+    },
+    {
+     "id": "ex-4",
+     "german": "Ich arbeite bei einer Firma.",
+     "meaningFA": "من در یک شرکت کار می‌کنم.",
+     "meaningEN": "I work at a company."
+    },
+    {
+     "id": "ex-5",
+     "german": "Ihr kocht heute Abend Nudeln.",
+     "meaningFA": "شما امشب پاستا می‌پزید.",
+     "meaningEN": "You (pl.) are cooking pasta tonight."
+    },
+    {
+     "id": "ex-6",
+     "german": "Meine Eltern reisen oft nach Italien.",
+     "meaningFA": "والدینم اغلب به ایتالیا سفر می‌کنند.",
+     "meaningEN": "My parents often travel to Italy."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "Endungen im Präsens (lernen)",
+     "titleFA": "پایانه‌های زمان حال (فعل lernen)",
+     "titleEN": "Present Tense Endings (lernen)",
+     "style": "simple",
+     "columns": [
+      "Person",
+      "Endung",
+      "Beispiel"
+     ],
+     "rows": [
+      {
+       "rowLabel": "ich",
+       "cells": [
+        "-e",
+        "lerne"
+       ]
+      },
+      {
+       "rowLabel": "du",
+       "cells": [
+        "-st",
+        "lernst"
+       ]
+      },
+      {
+       "rowLabel": "er/sie/es",
+       "cells": [
+        "-t",
+        "lernt"
+       ]
+      },
+      {
+       "rowLabel": "wir",
+       "cells": [
+        "-en",
+        "lernen"
+       ]
+      },
+      {
+       "rowLabel": "ihr",
+       "cells": [
+        "-t",
+        "lernt"
+       ]
+      },
+      {
+       "rowLabel": "sie/Sie",
+       "cells": [
+        "-en",
+        "lernen"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "verb-sein",
+    "verb-haben"
+   ],
+   "exerciseSlugs": [
+    "ex-konjugation-1",
+    "ex-konjugation-2",
+    "ex-konjugation-3",
+    "ex-konjugation-4"
+   ]
+  },
+  {
+   "id": "verb-sein",
+   "slug": "verb-sein",
+   "titleDE": "Das Verb 'sein'",
+   "titleFA": "فعل «sein» (بودن)",
+   "titleEN": "The Verb 'sein' (to be)",
+   "levels": [
+    "A1"
+   ],
+   "category": "verben",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "'sein' ist ein unregelmäßiges Verb und eines der wichtigsten Verben im Deutschen. Es wird auch als Hilfsverb im Perfekt bei Bewegungsverben verwendet.",
+     "bodyFA": "«sein» یک فعل بی‌قاعده و یکی از مهم‌ترین فعل‌های آلمانی است. همچنین به‌عنوان فعل کمکی در زمان Perfekt برای افعال حرکتی استفاده می‌شود.",
+     "bodyEN": "'sein' is an irregular verb and one of the most important verbs in German. It is also used as an auxiliary verb in the Perfect tense with verbs of motion."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Er ist mein Kollege.",
+     "meaningFA": "او همکار من است.",
+     "meaningEN": "He is my colleague."
+    },
+    {
+     "id": "ex-2",
+     "german": "Wir sind aus Österreich.",
+     "meaningFA": "ما اهل اتریش هستیم.",
+     "meaningEN": "We are from Austria."
+    },
+    {
+     "id": "ex-3",
+     "german": "Bist du müde?",
+     "meaningFA": "خسته‌ای؟",
+     "meaningEN": "Are you tired?"
+    },
+    {
+     "id": "ex-4",
+     "german": "Ich bin in der Küche.",
+     "meaningFA": "من در آشپزخانه‌ام.",
+     "meaningEN": "I am in the kitchen."
+    },
+    {
+     "id": "ex-5",
+     "german": "Ihr seid sehr freundlich.",
+     "meaningFA": "شما خیلی مهربان هستید.",
+     "meaningEN": "You (pl.) are very friendly."
+    },
+    {
+     "id": "ex-6",
+     "german": "Die Kinder sind im Garten.",
+     "meaningFA": "بچه‌ها در باغ هستند.",
+     "meaningEN": "The children are in the garden."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "Konjugation von 'sein'",
+     "titleFA": "صرف فعل «sein»",
+     "titleEN": "Conjugation of 'sein'",
+     "style": "simple",
+     "columns": [
+      "Form"
+     ],
+     "rows": [
+      {
+       "rowLabel": "ich",
+       "cells": [
+        "bin"
+       ]
+      },
+      {
+       "rowLabel": "du",
+       "cells": [
+        "bist"
+       ]
+      },
+      {
+       "rowLabel": "er/sie/es",
+       "cells": [
+        "ist"
+       ]
+      },
+      {
+       "rowLabel": "wir",
+       "cells": [
+        "sind"
+       ]
+      },
+      {
+       "rowLabel": "ihr",
+       "cells": [
+        "seid"
+       ]
+      },
+      {
+       "rowLabel": "sie/Sie",
+       "cells": [
+        "sind"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "konjugation-praesens",
+    "verb-haben"
+   ],
+   "exerciseSlugs": [
+    "ex-sein-1",
+    "ex-sein-2",
+    "ex-sein-3",
+    "ex-sein-4"
+   ]
+  },
+  {
+   "id": "verb-haben",
+   "slug": "verb-haben",
+   "titleDE": "Das Verb 'haben'",
+   "titleFA": "فعل «haben» (داشتن)",
+   "titleEN": "The Verb 'haben' (to have)",
+   "levels": [
+    "A1"
+   ],
+   "category": "verben",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "'haben' ist neben 'sein' das zweite wichtige Hilfsverb im Deutschen. Es wird für Besitz verwendet und außerdem als Hilfsverb im Perfekt bei den meisten Verben.",
+     "bodyFA": "«haben» در کنار «sein»، دومین فعل کمکی مهم آلمانی است. برای بیان مالکیت به‌کار می‌رود و همچنین به‌عنوان فعل کمکی در زمان Perfekt برای اکثر فعل‌ها استفاده می‌شود.",
+     "bodyEN": "'haben' is, alongside 'sein', the second important auxiliary verb in German. It is used to express possession and also as the auxiliary verb in the Perfect tense for most verbs."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Er hat ein neues Auto.",
+     "meaningFA": "او یک ماشین جدید دارد.",
+     "meaningEN": "He has a new car."
+    },
+    {
+     "id": "ex-2",
+     "german": "Wir haben viel Zeit.",
+     "meaningFA": "ما وقت زیادی داریم.",
+     "meaningEN": "We have a lot of time."
+    },
+    {
+     "id": "ex-3",
+     "german": "Hast du einen Bruder?",
+     "meaningFA": "برادر داری؟",
+     "meaningEN": "Do you have a brother?"
+    },
+    {
+     "id": "ex-4",
+     "german": "Ich habe heute keine Zeit.",
+     "meaningFA": "من امروز وقت ندارم.",
+     "meaningEN": "I don't have time today."
+    },
+    {
+     "id": "ex-5",
+     "german": "Ihr habt schöne Ideen.",
+     "meaningFA": "شما ایده‌های خوبی دارید.",
+     "meaningEN": "You (pl.) have nice ideas."
+    },
+    {
+     "id": "ex-6",
+     "german": "Meine Freunde haben ein Haustier.",
+     "meaningFA": "دوستانم یک حیوان خانگی دارند.",
+     "meaningEN": "My friends have a pet."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "Konjugation von 'haben'",
+     "titleFA": "صرف فعل «haben»",
+     "titleEN": "Conjugation of 'haben'",
+     "style": "simple",
+     "columns": [
+      "Form"
+     ],
+     "rows": [
+      {
+       "rowLabel": "ich",
+       "cells": [
+        "habe"
+       ]
+      },
+      {
+       "rowLabel": "du",
+       "cells": [
+        "hast"
+       ]
+      },
+      {
+       "rowLabel": "er/sie/es",
+       "cells": [
+        "hat"
+       ]
+      },
+      {
+       "rowLabel": "wir",
+       "cells": [
+        "haben"
+       ]
+      },
+      {
+       "rowLabel": "ihr",
+       "cells": [
+        "habt"
+       ]
+      },
+      {
+       "rowLabel": "sie/Sie",
+       "cells": [
+        "haben"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "konjugation-praesens",
+    "verb-sein"
+   ],
+   "exerciseSlugs": [
+    "ex-haben-1",
+    "ex-haben-2",
+    "ex-haben-3",
+    "ex-haben-4"
+   ]
+  },
+  {
+   "id": "regelmaessige-verben",
+   "slug": "regelmaessige-verben",
+   "titleDE": "Regelmäßige Verben",
+   "titleFA": "افعال باقاعده",
+   "titleEN": "Regular Verbs",
+   "levels": [
+    "A1"
+   ],
+   "category": "verben",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Regelmäßige Verben folgen im Präsens, Präteritum und Perfekt einem festen Muster. Der Stamm bleibt gleich, nur die Endungen ändern sich. Im Perfekt bilden sie das Partizip II mit ge- + Stamm + -t.",
+     "bodyFA": "افعال باقاعده در زمان‌های Präsens، Präteritum و Perfekt از یک الگوی ثابت پیروی می‌کنند. ریشهٔ فعل تغییر نمی‌کند، فقط پایانه‌ها عوض می‌شوند. در Perfekt، Partizip II با ge- + ریشه + -t ساخته می‌شود.",
+     "bodyEN": "Regular verbs follow a fixed pattern in the Present, Simple Past, and Perfect tenses. The stem stays the same; only the endings change. In the Perfect tense, they form the Partizip II with ge- + stem + -t."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Sie hat gestern das Fenster geputzt.",
+     "meaningFA": "او دیروز پنجره را تمیز کرد.",
+     "meaningEN": "She cleaned the window yesterday.",
+     "noteDE": "Partizip II: ge + putz + t.",
+     "noteFA": "Partizip II: ge + putz + t.",
+     "noteEN": "Partizip II: ge + putz + t."
+    },
+    {
+     "id": "ex-2",
+     "german": "Wir haben das Projekt geplant.",
+     "meaningFA": "ما پروژه را برنامه‌ریزی کردیم.",
+     "meaningEN": "We planned the project."
+    },
+    {
+     "id": "ex-3",
+     "german": "Hast du die Tür schon geöffnet?",
+     "meaningFA": "در را باز کردی؟",
+     "meaningEN": "Have you already opened the door?"
+    },
+    {
+     "id": "ex-4",
+     "german": "Ich habe meinen Schlüssel gesucht.",
+     "meaningFA": "من دنبال کلیدم گشتم.",
+     "meaningEN": "I looked for my key."
+    },
+    {
+     "id": "ex-5",
+     "german": "Ihr habt das Zimmer schnell aufgeräumt.",
+     "meaningFA": "شما اتاق را سریع مرتب کردید.",
+     "meaningEN": "You (pl.) tidied the room quickly."
+    },
+    {
+     "id": "ex-6",
+     "german": "Die Kollegen haben das Meeting organisiert.",
+     "meaningFA": "همکاران جلسه را سازماندهی کردند.",
+     "meaningEN": "The colleagues organized the meeting."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "konjugation-praesens"
+   ],
+   "exerciseSlugs": [
+    "ex-regelmaessig-1",
+    "ex-regelmaessig-2",
+    "ex-regelmaessig-3",
+    "ex-regelmaessig-4"
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-konjugation-1",
+   "lessonSlug": "konjugation-praesens",
+   "type": "multipleChoice",
+   "promptDE": "Sie ___ jeden Tag Deutsch.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "lerne",
+     "lernst",
+     "lernt",
+     "lernen"
+    ],
+    "correctIndex": 2
+   },
+   "explanationAfterAnswerDE": "Bei 'sie' (3. Person Singular) verwendet man die Endung -t.",
+   "explanationAfterAnswerFA": "برای «sie» (سوم شخص مفرد) از پایانهٔ -t استفاده می‌شود.",
+   "explanationAfterAnswerEN": "For 'sie' (3rd person singular), the ending -t is used."
+  },
+  {
+   "id": "ex-konjugation-2",
+   "lessonSlug": "konjugation-praesens",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "in",
+     "Wir",
+     "Hamburg",
+     "wohnen"
+    ],
+    "correctSentence": "Wir wohnen in Hamburg."
+   },
+   "explanationAfterAnswerDE": "Das Verb steht immer an zweiter Position im Hauptsatz.",
+   "explanationAfterAnswerFA": "فعل همیشه در جایگاه دوم جملهٔ اصلی قرار می‌گیرد.",
+   "explanationAfterAnswerEN": "The verb always occupies the second position in a main clause."
+  },
+  {
+   "id": "ex-konjugation-3",
+   "lessonSlug": "konjugation-praesens",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Verbform.",
+   "promptFA": "شکل درست فعل را کامل کن.",
+   "promptEN": "Complete with the correct verb form.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Ich ___ (arbeiten) bei einer Firma.",
+    "correctAnswer": "arbeite",
+    "alternatives": [
+     "arbeitest",
+     "arbeitet"
+    ]
+   },
+   "explanationAfterAnswerDE": "Bei 'ich' verwendet man die Endung -e.",
+   "explanationAfterAnswerFA": "برای «ich» از پایانهٔ -e استفاده می‌شود.",
+   "explanationAfterAnswerEN": "For 'ich', the ending -e is used."
+  },
+  {
+   "id": "ex-konjugation-4",
+   "lessonSlug": "konjugation-praesens",
+   "type": "matching",
+   "promptDE": "Verbinde Person und Verbform.",
+   "promptFA": "شخص را به شکل درست فعل وصل کن.",
+   "promptEN": "Match the person to the correct verb form.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "ihr",
+      "right": "kocht"
+     },
+     {
+      "left": "sie (Plural)",
+      "right": "reisen"
+     },
+     {
+      "left": "du",
+      "right": "machst"
+     },
+     {
+      "left": "wir",
+      "right": "wohnen"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Jede Person hat im Präsens eine feste Endung.",
+   "explanationAfterAnswerFA": "هر شخص در زمان حال یک پایانهٔ ثابت دارد.",
+   "explanationAfterAnswerEN": "Each person has a fixed ending in the present tense."
+  },
+  {
+   "id": "ex-sein-1",
+   "lessonSlug": "verb-sein",
+   "type": "multipleChoice",
+   "promptDE": "Wir ___ aus Österreich.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "bin",
+     "bist",
+     "ist",
+     "sind"
+    ],
+    "correctIndex": 3
+   },
+   "explanationAfterAnswerDE": "Bei 'wir' verwendet man 'sind'.",
+   "explanationAfterAnswerFA": "برای «wir» از «sind» استفاده می‌شود.",
+   "explanationAfterAnswerEN": "For 'wir', 'sind' is used."
+  },
+  {
+   "id": "ex-sein-2",
+   "lessonSlug": "verb-sein",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Form von 'sein'.",
+   "promptFA": "شکل درست «sein» را کامل کن.",
+   "promptEN": "Complete with the correct form of 'sein'.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Ihr ___ sehr freundlich.",
+    "correctAnswer": "seid",
+    "alternatives": [
+     "sind",
+     "seit"
+    ]
+   },
+   "explanationAfterAnswerDE": "Bei 'ihr' lautet die Form 'seid' (nicht 'seit'!).",
+   "explanationAfterAnswerFA": "برای «ihr» شکل درست «seid» است (نه «seit»!).",
+   "explanationAfterAnswerEN": "For 'ihr', the form is 'seid' (not 'seit'!)."
+  },
+  {
+   "id": "ex-sein-3",
+   "lessonSlug": "verb-sein",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "im",
+     "Die",
+     "sind",
+     "Kinder",
+     "Garten"
+    ],
+    "correctSentence": "Die Kinder sind im Garten."
+   },
+   "explanationAfterAnswerDE": "Das Verb 'sind' steht an zweiter Position.",
+   "explanationAfterAnswerFA": "فعل «sind» در جایگاه دوم قرار می‌گیرد.",
+   "explanationAfterAnswerEN": "The verb 'sind' occupies the second position."
+  },
+  {
+   "id": "ex-sein-4",
+   "lessonSlug": "verb-sein",
+   "type": "transform",
+   "promptDE": "Wandle den Satz um.",
+   "promptFA": "جمله را تبدیل کن.",
+   "promptEN": "Transform the sentence.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Ich bin in der Küche.",
+    "instructionDE": "Wandle in die 'wir'-Form um.",
+    "instructionFA": "به شکل «wir» تبدیل کن.",
+    "instructionEN": "Transform into the 'wir' form.",
+    "correctAnswer": "Wir sind in der Küche."
+   },
+   "explanationAfterAnswerDE": "Bei 'wir' verwendet man immer 'sind'.",
+   "explanationAfterAnswerFA": "برای «wir» همیشه از «sind» استفاده می‌شود.",
+   "explanationAfterAnswerEN": "For 'wir', 'sind' is always used."
+  },
+  {
+   "id": "ex-haben-1",
+   "lessonSlug": "verb-haben",
+   "type": "multipleChoice",
+   "promptDE": "Ihr ___ schöne Ideen.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "habe",
+     "hast",
+     "habt",
+     "haben"
+    ],
+    "correctIndex": 2
+   },
+   "explanationAfterAnswerDE": "Bei 'ihr' verwendet man 'habt'.",
+   "explanationAfterAnswerFA": "برای «ihr» از «habt» استفاده می‌شود.",
+   "explanationAfterAnswerEN": "For 'ihr', 'habt' is used."
+  },
+  {
+   "id": "ex-haben-2",
+   "lessonSlug": "verb-haben",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Form von 'haben'.",
+   "promptFA": "شکل درست «haben» را کامل کن.",
+   "promptEN": "Complete with the correct form of 'haben'.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Er ___ ein neues Auto.",
+    "correctAnswer": "hat",
+    "alternatives": [
+     "habt",
+     "haben"
+    ]
+   },
+   "explanationAfterAnswerDE": "Bei 'er/sie/es' lautet die Form 'hat'.",
+   "explanationAfterAnswerFA": "برای «er/sie/es» شکل درست «hat» است.",
+   "explanationAfterAnswerEN": "For 'er/sie/es', the form is 'hat'."
+  },
+  {
+   "id": "ex-haben-3",
+   "lessonSlug": "verb-haben",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "Zeit",
+     "Wir",
+     "viel",
+     "haben"
+    ],
+    "correctSentence": "Wir haben viel Zeit."
+   },
+   "explanationAfterAnswerDE": "Das Verb 'haben' steht an zweiter Position.",
+   "explanationAfterAnswerFA": "فعل «haben» در جایگاه دوم قرار می‌گیرد.",
+   "explanationAfterAnswerEN": "The verb 'haben' occupies the second position."
+  },
+  {
+   "id": "ex-haben-4",
+   "lessonSlug": "verb-haben",
+   "type": "matching",
+   "promptDE": "Verbinde Person und Verbform.",
+   "promptFA": "شخص را به شکل درست فعل وصل کن.",
+   "promptEN": "Match the person to the correct verb form.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "ich",
+      "right": "habe"
+     },
+     {
+      "left": "du",
+      "right": "hast"
+     },
+     {
+      "left": "wir",
+      "right": "haben"
+     },
+     {
+      "left": "ihr",
+      "right": "habt"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Jede Person hat eine eigene Form von 'haben'.",
+   "explanationAfterAnswerFA": "هر شخص شکل مخصوص خودش را از «haben» دارد.",
+   "explanationAfterAnswerEN": "Each person has its own form of 'haben'."
+  },
+  {
+   "id": "ex-regelmaessig-1",
+   "lessonSlug": "regelmaessige-verben",
+   "type": "multipleChoice",
+   "promptDE": "Wir haben das Projekt ___.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "plant",
+     "geplant",
+     "planen",
+     "planten"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "Partizip II von 'planen': ge + plan + t.",
+   "explanationAfterAnswerFA": "Partizip II فعل «planen»: ge + plan + t.",
+   "explanationAfterAnswerEN": "Partizip II of 'planen': ge + plan + t."
+  },
+  {
+   "id": "ex-regelmaessig-2",
+   "lessonSlug": "regelmaessige-verben",
+   "type": "fillBlank",
+   "promptDE": "Ergänze das Partizip II.",
+   "promptFA": "Partizip II را کامل کن.",
+   "promptEN": "Complete with the Partizip II.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Ich habe meinen Schlüssel ___ (suchen).",
+    "correctAnswer": "gesucht",
+    "alternatives": [
+     "gesucht habe",
+     "suchte"
+    ]
+   },
+   "explanationAfterAnswerDE": "Partizip II von 'suchen': ge + such + t.",
+   "explanationAfterAnswerFA": "Partizip II فعل «suchen»: ge + such + t.",
+   "explanationAfterAnswerEN": "Partizip II of 'suchen': ge + such + t."
+  },
+  {
+   "id": "ex-regelmaessig-3",
+   "lessonSlug": "regelmaessige-verben",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz im Perfekt.",
+   "promptFA": "جمله را در زمان Perfekt بچین.",
+   "promptEN": "Form a correct sentence in the Perfect tense.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "geöffnet",
+     "du",
+     "Tür",
+     "die",
+     "Hast",
+     "schon"
+    ],
+    "correctSentence": "Hast du die Tür schon geöffnet?"
+   },
+   "explanationAfterAnswerDE": "Im Perfekt steht das Hilfsverb an Position 2, das Partizip II am Satzende.",
+   "explanationAfterAnswerFA": "در Perfekt، فعل کمکی در جایگاه دوم و Partizip II در انتهای جمله می‌آید.",
+   "explanationAfterAnswerEN": "In the Perfect tense, the auxiliary verb is in position 2, and the Partizip II is at the end."
+  },
+  {
+   "id": "ex-regelmaessig-4",
+   "lessonSlug": "regelmaessige-verben",
+   "type": "transform",
+   "promptDE": "Wandle den Satz ins Perfekt um.",
+   "promptFA": "جمله را به Perfekt تبدیل کن.",
+   "promptEN": "Transform the sentence into the Perfect tense.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Die Kollegen organisieren das Meeting.",
+    "instructionDE": "Wandle den Satz ins Perfekt um.",
+    "instructionFA": "جمله را به زمان Perfekt تبدیل کن.",
+    "instructionEN": "Transform the sentence into the Perfect tense.",
+    "correctAnswer": "Die Kollegen haben das Meeting organisiert."
+   },
+   "explanationAfterAnswerDE": "Regelmäßige Verben bilden das Perfekt mit 'haben' + Partizip II (ge-...-t).",
+   "explanationAfterAnswerFA": "افعال باقاعده Perfekt را با «haben» + Partizip II (ge-...-t) می‌سازند.",
+   "explanationAfterAnswerEN": "Regular verbs form the Perfect tense with 'haben' + Partizip II (ge-...-t)."
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_beschreiben",
+  "wort": "beschreiben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "توصیف کردن",
+      "شرح دادن"
+    ],
+    "en": [
+      "to describe"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Kommunikation"
+  ],
+  "ipa": "bəˈʃʁaɪ̯bn̩",
+  "anmerkung": "Unregelmäßig (beschrieb, beschrieben; Präsens regelmäßig). Konstruktion: jemandem (Dat) etwas (Akk) beschreiben.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Ich beschreibe dir den Weg zum Bahnhof.",
+      "uebersetzung": {
+        "fa": "مسیر ایستگاه قطار را برایت توصیف می‌کنم.",
+        "en": "I'll describe the way to the station for you."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Können Sie mir beschreiben, wie der Täter aussah?",
+      "uebersetzung": {
+        "fa": "می‌توانید برایم توصیف کنید که مجرم چه شکلی بود؟",
+        "en": "Can you describe to me what the perpetrator looked like?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schildern",
+      "uebersetzung": {
+        "fa": "شرح دادن",
+        "en": "to depict"
+      }
+    },
+    {
+      "wort": "darstellen",
+      "uebersetzung": {
+        "fa": "بیان/نمایش دادن",
+        "en": "to portray"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + schreiben (نوشتن)",
+    "en": "be- + schreiben (to write)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "beschreiben + Dat + Akk",
+        "bedeutung": "jemandem etwas beschreiben",
+        "beispiel": "Sie beschreibt ihm das Haus.",
+        "uebersetzung": {
+          "fa": "او خانه را برایش توصیف می‌کند.",
+          "en": "She describes the house to him."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beschreiben",
+      "praeteritum": "beschrieb",
+      "partizip2": "beschrieben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beschreibe",
+        "du": "beschreibst",
+        "er_sie_es": "beschreibt",
+        "wir": "beschreiben",
+        "ihr": "beschreibt",
+        "sie_Sie": "beschreiben"
+      },
+      "praeteritum": {
+        "ich": "beschrieb",
+        "du": "beschriebst",
+        "er_sie_es": "beschrieb",
+        "wir": "beschrieben",
+        "ihr": "beschriebt",
+        "sie_Sie": "beschrieben"
+      },
+      "imperativ": {
+        "du": "Beschreibe!",
+        "ihr": "Beschreibt!",
+        "Sie": "Beschreiben Sie!"
+      }
+    },
+    "partizip1": "beschreibend",
+    "nominalisierung": "die Beschreibung"
+  },
+  "wortnetz": {
+    "grundwort": "schreiben",
+    "woerter": [
+      {
+        "wort": "die Beschreibung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "توصیف",
+          "en": "description"
+        },
+        "id_ref": "nomen_beschreibung"
+      },
+      {
+        "wort": "erklären",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "توضیح دادن",
+          "en": "to explain"
+        },
+        "id_ref": "verb_erklaeren"
+      },
+      {
+        "wort": "der Weg",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "راه، مسیر",
+          "en": "way"
+        },
+        "id_ref": "nomen_weg"
+      },
+      {
+        "wort": "aussehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "به نظر رسیدن",
+          "en": "to look like"
+        },
+        "id_ref": "verb_aussehen"
+      },
+      {
+        "wort": "schildern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شرح دادن",
+          "en": "to depict"
+        },
+        "id_ref": "verb_schildern"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Ich beschreibe dir den Weg zum Bahnhof.",
+      "dativ": [
+        "dir"
+      ],
+      "akkusativ": [
+        "den Weg"
+      ],
+      "uebersetzung": {
+        "fa": "مسیر ایستگاه قطار را برایت توصیف می‌کنم.",
+        "en": "I'll describe the way to the station for you."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

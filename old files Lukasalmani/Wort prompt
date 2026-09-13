@@ -1,0 +1,235 @@
+SUPER-PROMPT — WORT-KONVERTER (App: VOX / LukasAlmani)
+Version 3.0 · Zielsprachen des Lerners: Persisch/Farsi und Englisch
+========================================================================
+
+AUFGABE:
+Ich gebe dir 1 bis 10 deutsche Wörter (TEIL 4). Erzeuge für JEDES Wort ein
+vollständiges JSON-Objekt nach diesem Schema und gib alle zusammen als
+JSON-ARRAY aus: [ {...}, {...} ]. Auch bei nur einem Wort: Array mit einem
+Objekt. Es enthält NUR linguistische Daten — keine Icon-, Farb- oder
+Render-Informationen (die berechnet die App).
+
+========================================================================
+TEIL 0 — GLOBALE REGELN
+========================================================================
+1.  Gib AUSSCHLIESSLICH ein gültiges JSON-Array aus: [ {...} ].
+    Kein Markdown, keine Code-Fences, kein Text davor oder danach.
+2.  Alle Übersetzungsfelder sind ZWEISPRACHIG: { "fa": ..., "en": ... }.
+    Farsi in persischer Schrift.
+3.  Nicht zutreffende Felder: IMMER null (nie weglassen, nie "").
+    Leere Listen als [].
+4.  "schema": immer "3.0". "box": immer 1. "nextReviewDate": immer null.
+5.  ID-Format: wortart_lemma, Kleinbuchstaben, Umlaute umschreiben
+    (ä→ae, ö→oe, ü→ue, ß→ss). Beispiel: verb_aufstehen, nomen_kuehlschrank.
+6.  Wortart: Wenn im Input angegeben, diese verwenden. Sonst bei mehreren
+    möglichen Wortarten die häufigste wählen und die andere in "anmerkung"
+    nennen. Nomen immer MIT Artikel als Lemma.
+7.  "details" exakt nach dem Block der jeweiligen Wortart befüllen —
+    keine Felder erfinden, keine auslassen, keine zusätzlichen Formen
+    (KEIN Perfekt — die App bildet es aus hilfsverb + partizip2;
+    KEIN Genitiv bei Nomen — die App leitet ihn ab).
+8.  Niveau (A1–C2): am Goethe-/GER-Wortschatz orientieren; im Zweifel
+    das NIEDRIGERE Niveau.
+9.  Beispielsätze: genau 2 — einer A1/A2 (kurz, einfach), einer B1/B2
+    (mit Nebensatz oder typischer Struktur). Natürlich, alltagstauglich.
+    WICHTIG: Das Zielwort muss im Satz in einer klar erkennbaren Form
+    vorkommen (die App erzeugt daraus Lückentext-Übungen).
+10. Synonyme/Antonyme: max. 3, nur gebräuchliche, nicht mehr als 1 Stufe
+    über dem Niveau der Karte.
+    "antonyme" = GEGENTEIL — die App zeigt es als Sektion «Gegenteil»
+    DIREKT NACH Synonyme: NUR das Gegenteil-Wort + seine Bedeutung
+    { "fa": ..., "en": ... } — OHNE Beispielsatz, OHNE Erklärung.
+    (Die App zeigt genau EINE Sprache laut Settings — nie fa+en zugleich.)
+    Wenn ein gebräuchliches Gegenteil existiert, IMMER angeben; sonst [].
+11. Komposita: max. 3, nur die gebräuchlichsten (bei Verben meist []).
+12. "etymologie": nur Wortbildung, 1 Zeile, ZWEISPRACHIG als Objekt
+    { "fa": ..., "en": ... } — deutsche Bausteine bleiben deutsch, die
+    Glossen in Klammern in der jeweiligen Sprache, NIE gemischt.
+    Beispiel: "fa": "zer- (از هم) + streuen (پاشیدن)",
+              "en": "zer- (apart) + streuen (to scatter)".
+    Keine Sprachgeschichte. Nicht zutreffend → null.
+13. "wortnetz": genau 5 verwandte Wörter (TEIL 3) — dienen in der App
+    als klickbare Verweise auf andere Wortseiten. KEINE Beispielsätze.
+14. Qualitätsmaßstab: Duden-Online-Niveau bei Formen und Angaben
+    (Plural, Stammformen, Rektion, IPA). Bei Unsicherheit: null statt
+    raten.
+15. WICHTIG — Rektion & feste Präpositionen (Verben, Adjektive, Nomen):
+    Hat das Wort eine feste Präposition/Rektion, MUSS sie zwingend
+    angegeben werden — "rektion" (Verb) bzw. "mit_praeposition"
+    (Nomen/Adjektiv) darf dann NIEMALS null, leer oder ohne Präposition
+    sein. Immer die Präposition MIT genauem Kasus (Akk/Dat) im Muster
+    nennen (z. B. warten auf + Akk · die Angst vor + Dat · stolz auf
+    + Akk) + 1 klarer Beispielsatz, der genau dieses Muster zeigt, mit
+    Übersetzung { "fa": ..., "en": ... }. Nur wenn wirklich KEINE feste
+    Präposition existiert: [] (leere Liste).
+
+========================================================================
+TEIL 1 — BASISOBJEKT (Feldreihenfolge beibehalten)
+========================================================================
+{
+  "schema": "3.0",
+  "id": "<wortart_lemma>",
+  "wort": "<Lemma; bei Nomen mit Artikel, z. B. der Tisch>",
+  "wortart": "<nomen | verb | adjektiv | artikel | pronomen | numerale | praeposition | konjunktion | adverb | partikel>",
+  "uebersetzung": { "fa": ["<ترجمه ۱>", "<ترجمه ۲>"], "en": ["<translation 1>", "<translation 2>"] },
+  "niveau": "<A1 | A2 | B1 | B2 | C1 | C2>",
+  "themen": ["<Thema, z. B. Alltag, Arbeit, Gefühle>"],
+  "ipa": "<IPA-Transkription>",
+  "anmerkung": "<Hinweis, NUR deutsch — keine FA/EN-Glossen | null>",
+  "beispiele": [
+    { "niveau": "<A1|A2>", "satz": "<...>", "uebersetzung": { "fa": "<...>", "en": "<...>" } },
+    { "niveau": "<B1|B2>", "satz": "<...>", "uebersetzung": { "fa": "<...>", "en": "<...>" } }
+  ],
+  "synonyme": [ { "wort": "<...>", "uebersetzung": { "fa": "<...>", "en": "<...>" } } ],
+  "antonyme": [ { "wort": "<Gegenteil-Wort — ohne Beispiel/Erklärung>", "uebersetzung": { "fa": "<معنی>", "en": "<meaning>" } } ],
+  "komposita": [ { "wort": "<...>", "uebersetzung": { "fa": "<...>", "en": "<...>" } } ],
+  "etymologie": { "fa": "<Wortbildung, Glossen persisch>", "en": "<Wortbildung, Glossen englisch>" },
+  "details": { <je Wortart, TEIL 2> },
+  "wortnetz": { <TEIL 3> },
+  "box": 1,
+  "nextReviewDate": null
+}
+
+========================================================================
+TEIL 2 — DETAILS je WORTART
+========================================================================
+
+--- 1. NOMEN ---
+{
+  "genus": "<der | die | das>",
+  "plural": "<die Tische | null>",
+  "deklinationstyp": "<normal | n-deklination>",
+  "zaehlbar": <true | false>,
+  "mit_praeposition": [ { "muster": "<Nomen + Präposition + Kasus, z. B. die Angst vor + Dat — Regel 15: PFLICHT wenn vorhanden>", "beispiel": "<klarer Satz, der genau dieses Muster zeigt>", "uebersetzung": { "fa": "<ترجمه جمله نمونه>", "en": "<sentence translation>" } } ],
+  "nomen_verb_verbindungen": [ { "verbindung": "<den Tisch decken>", "beispiel": "<Satz>", "uebersetzung": { "fa": "<...>", "en": "<...>" } } ]
+}
+
+--- 2. VERB ---
+{
+  "trennbar": <true | false>,
+  "regelmaessig": <true | false>,
+  "hilfsverb": "<haben | sein>",
+  "reflexiv": "<nein | optional | obligatorisch>",
+  "rektion": [ { "muster": "<Verb + Akk / + Dat / + Präposition + Kasus, z. B. warten auf + Akk — Regel 15: feste Präposition PFLICHT wenn vorhanden>", "bedeutung": "<...>", "beispiel": "<klarer Satz, der genau dieses Muster zeigt>", "uebersetzung": { "fa": "<ترجمه جمله نمونه>", "en": "<sentence translation>" } } ],
+  "stammformen": { "infinitiv": "<...>", "praeteritum": "<...>", "partizip2": "<...>" },
+  "konjugation": {
+    "praesens":    { "ich": "", "du": "", "er_sie_es": "", "wir": "", "ihr": "", "sie_Sie": "" },
+    "praeteritum": { "ich": "", "du": "", "er_sie_es": "", "wir": "", "ihr": "", "sie_Sie": "" },
+    "imperativ":   { "du": "", "ihr": "", "Sie": "" }
+  },
+  "partizip1": "<...>",
+  "nominalisierung": "<die ... | null>"
+}
+
+--- 3. ADJEKTIV ---
+{
+  "steigerung": { "positiv": "<...>", "komparativ": "<...>", "superlativ": "<am ...sten>" },
+  "steigerung_regelmaessig": <true | false>,
+  "gebrauch": "<attributiv | praedikativ | beides>",
+  "mit_praeposition": [ { "muster": "<Adjektiv + Präposition + Kasus, z. B. stolz auf + Akk — Regel 15: PFLICHT wenn vorhanden>", "beispiel": "<klarer Satz, der genau dieses Muster zeigt>", "uebersetzung": { "fa": "<ترجمه جمله نمونه>", "en": "<sentence translation>" } } ],
+  "deklinationsbeispiele": ["<ein schöner Tag>", "<der schöne Tag>"],
+  "gegensatzpaar": "<schön ↔ hässlich | null>"
+}
+
+--- 4. ARTIKEL ---
+{
+  "typ": "<bestimmt | unbestimmt | negativ>",
+  "deklination": {
+    "nominativ": { "m": "", "f": "", "n": "", "pl": "" },
+    "akkusativ": { "m": "", "f": "", "n": "", "pl": "" },
+    "dativ":     { "m": "", "f": "", "n": "", "pl": "" },
+    "genitiv":   { "m": "", "f": "", "n": "", "pl": "" }
+  },
+  "gebrauchsregeln": ["<Regel 1>", "<Regel 2>"],
+  "verschmelzungen": ["<in + dem = im>"]
+}
+
+--- 5. PRONOMEN ---
+{
+  "untertyp": "<personal | possessiv | reflexiv | demonstrativ | relativ | interrogativ | indefinit>",
+  "deklination": { "nominativ": "", "akkusativ": "", "dativ": "", "genitiv": "" },
+  "bezugsregel": "<worauf bezieht es sich>",
+  "position": "<typische Satzposition>",
+  "verwechslungsgefahr": "<... | null>"
+}
+
+--- 6. NUMERALE ---
+{
+  "untertyp": "<kardinal | ordinal | bruchzahl | unbestimmt>",
+  "deklinierbar": <true | false>,
+  "deklinationsbeispiel": "<am zweiten Tag | null>",
+  "schreibweise": "<Ziffer vs. Wort, Datum>",
+  "feste_wendungen": [ { "wendung": "<zu zweit>", "uebersetzung": { "fa": "<...>", "en": "<...>" } } ]
+}
+
+--- 7. PRÄPOSITION ---
+{
+  "kasus": "<akkusativ | dativ | genitiv | wechsel>",
+  "bedeutungen": [ { "kategorie": "<lokal | temporal | kausal | modal>", "bedeutung": "<...>", "beispiel": "<Satz>", "uebersetzung": { "fa": "<...>", "en": "<...>" } } ],
+  "wechsel_beispielpaar": { "wohin_akk": "<...>", "wo_dat": "<...>" },
+  "feste_verbindungen": [ { "verbindung": "<warten auf + Akk>", "beispiel": "<Satz>", "uebersetzung": { "fa": "<...>", "en": "<...>" } } ],
+  "verschmelzungen": ["<aufs>", "<ans>"],
+  "kontrast": "<typische Verwechslung | null>"
+}
+(Hinweis: "wechsel_beispielpaar" nur bei kasus = "wechsel", sonst null.)
+
+--- 8. KONJUNKTION ---
+{
+  "untertyp": "<koordinierend | subordinierend | konjunktionaladverb>",
+  "wortstellung": "<position_0_normal | verb_am_ende | inversion>",
+  "bedeutungskategorie": "<kausal | konzessiv | temporal | konditional | adversativ | final>",
+  "alternativen": [ { "wort": "<...>", "wortstellung": "<...>", "hinweis": "<Unterschied>" } ],
+  "beispielsatz_paar": { "satz1": "<...>", "satz2": "<...>" }
+}
+
+--- 9. ADVERB ---
+{
+  "untertyp": "<lokal | temporal | modal | kausal>",
+  "position": "<Satzstellung, TeKaMoLo>",
+  "steigerbar": <true | false>,
+  "steigerung": "<gern – lieber – am liebsten | null>",
+  "abgrenzung_adjektiv": "<... | null>"
+}
+
+--- 10. PARTIKEL / INTERJEKTION ---
+{
+  "untertyp": "<modalpartikel | fokuspartikel | antwortpartikel | interjektion>",
+  "funktion": "<Wirkung — KEINE direkte Übersetzung!>",
+  "satzmuster": [ { "muster": "<...>", "wirkung": "<...>", "uebersetzung": { "fa": "<...>", "en": "<...>" } } ],
+  "register": "<gesprochen/informell | neutral | formell>",
+  "vergleich_ohne_partikel": { "ohne": "<...>", "mit": "<...>", "unterschied": "<...>" }
+}
+
+========================================================================
+TEIL 3 — WORTNETZ (klickbare Verweise, KEINE Sätze)
+========================================================================
+PRINZIP:
+- Genau 5 verwandte, GEBRÄUCHLICHE Wörter zum Eingabewort (Wortfamilie
+  und/oder engste semantische Nachbarn). Die App zeigt sie als Links
+  zu anderen Wortseiten.
+- Bevorzuge Wörter, die selbst lernwürdig sind (A1–C1).
+- Reihenfolge: einfach → komplex.
+- Bei wortart = artikel, pronomen, partikel: wortnetz = null erlaubt,
+  wenn keine 5 sinnvollen Verweise existieren (sonst weniger als 5
+  Einträge statt erzwungener Füllwörter).
+
+"wortnetz": {
+  "grundwort": "<z. B. Sicht | null>",
+  "woerter": [
+    {
+      "wort": "<mit Artikel bei Nomen>",
+      "wortart": "<nomen | verb | adjektiv | ...>",
+      "niveau": "<A1–C2>",
+      "uebersetzung": { "fa": "<...>", "en": "<...>" },
+      "id_ref": "<wortart_lemma — gleiche ID-Regel wie oben, für App-Verlinkung>"
+    }
+  ]
+}
+
+========================================================================
+TEIL 4 — WÖRTER (1 bis 10)
+========================================================================
+Verarbeite jetzt diese Wörter und gib NUR das JSON-Array aus:
+
+WÖRTER:
+[HIER WÖRTER EINFÜGEN]

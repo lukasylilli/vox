@@ -1,0 +1,169 @@
+{
+  "schema": "3.0",
+  "id": "verb_schmecken",
+  "wort": "schmecken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مزه دادن",
+      "خوشمزه بودن"
+    ],
+    "en": [
+      "to taste (good)"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Essen"
+  ],
+  "ipa": "ˈʃmɛkn̩",
+  "anmerkung": "Regelmäßig. jemandem schmecken = به مذاقِ کسی خوش آمدن. Das Essen ist das Subjekt (Nominativ). Auch: schmecken nach + Dat.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Wie schmeckt Ihnen das Essen?",
+      "uebersetzung": {
+        "fa": "غذا به مذاقتان چطور است؟",
+        "en": "How does the food taste to you?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Kuchen hat allen Gästen sehr gut geschmeckt.",
+      "uebersetzung": {
+        "fa": "کیک به مذاق همه‌ی مهمانان خیلی خوش آمد.",
+        "en": "The cake tasted very good to all the guests."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "munden",
+      "uebersetzung": {
+        "fa": "خوشمزه بودن (رسمی)",
+        "en": "to be tasty (formal)"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "schmecken + Dat",
+        "bedeutung": "jemandem schmecken",
+        "beispiel": "Das Essen schmeckt mir.",
+        "uebersetzung": {
+          "fa": "غذا به مذاقم خوش می‌آید.",
+          "en": "The food tastes good to me."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schmecken",
+      "praeteritum": "schmeckte",
+      "partizip2": "geschmeckt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schmecke",
+        "du": "schmeckst",
+        "er_sie_es": "schmeckt",
+        "wir": "schmecken",
+        "ihr": "schmeckt",
+        "sie_Sie": "schmecken"
+      },
+      "praeteritum": {
+        "ich": "schmeckte",
+        "du": "schmecktest",
+        "er_sie_es": "schmeckte",
+        "wir": "schmeckten",
+        "ihr": "schmecktet",
+        "sie_Sie": "schmeckten"
+      },
+      "imperativ": {
+        "du": "Schmecke!",
+        "ihr": "Schmeckt!",
+        "Sie": "Schmecken Sie!"
+      }
+    },
+    "partizip1": "schmeckend",
+    "nominalisierung": "der Geschmack"
+  },
+  "wortnetz": {
+    "grundwort": "schmecken",
+    "woerter": [
+      {
+        "wort": "der Geschmack",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "طعم، سلیقه",
+          "en": "taste"
+        },
+        "id_ref": "nomen_geschmack"
+      },
+      {
+        "wort": "das Essen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "غذا",
+          "en": "food"
+        },
+        "id_ref": "nomen_essen"
+      },
+      {
+        "wort": "lecker",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوشمزه",
+          "en": "tasty"
+        },
+        "id_ref": "adjektiv_lecker"
+      },
+      {
+        "wort": "süß",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شیرین",
+          "en": "sweet"
+        },
+        "id_ref": "adjektiv_suess"
+      },
+      {
+        "wort": "probieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چشیدن",
+          "en": "to taste, to try"
+        },
+        "id_ref": "verb_probieren"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Wie schmeckt Ihnen das Essen?",
+      "dativ": [
+        "Ihnen"
+      ],
+      "akkusativ": [],
+      "uebersetzung": {
+        "fa": "غذا به مذاقتان چطور است؟",
+        "en": "How does the food taste to you?"
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

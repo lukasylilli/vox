@@ -1,0 +1,162 @@
+{
+  "schema": "3.0",
+  "id": "verb_warten",
+  "wort": "warten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "منتظر ماندن",
+      "صبر کردن"
+    ],
+    "en": [
+      "to wait"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈvaʁtn̩",
+  "anmerkung": "Nicht mit erwarten verwechseln: warten = Zeit verbringen, bis etwas passiert.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich warte auf den Bus.",
+      "uebersetzung": {
+        "fa": "من منتظر اتوبوس هستم.",
+        "en": "I am waiting for the bus."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wir warteten fast eine Stunde, bis der Arzt endlich Zeit für uns hatte.",
+      "uebersetzung": {
+        "fa": "ما تقریباً یک ساعت منتظر ماندیم تا دکتر بالاخره برای ما وقت داشت.",
+        "en": "We waited almost an hour until the doctor finally had time for us."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abwarten",
+      "uebersetzung": {
+        "fa": "منتظر ماندن و دیدن",
+        "en": "to wait and see"
+      }
+    },
+    {
+      "wort": "sich gedulden",
+      "uebersetzung": {
+        "fa": "صبور بودن",
+        "en": "to be patient"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "warten auf + Akk",
+        "bedeutung": "auf jemanden/etwas warten",
+        "beispiel": "Sie wartet auf ihren Freund.",
+        "uebersetzung": {
+          "fa": "او منتظر دوستش است.",
+          "en": "She is waiting for her boyfriend."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "warten",
+      "praeteritum": "wartete",
+      "partizip2": "gewartet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "warte",
+        "du": "wartest",
+        "er_sie_es": "wartet",
+        "wir": "warten",
+        "ihr": "wartet",
+        "sie_Sie": "warten"
+      },
+      "praeteritum": {
+        "ich": "wartete",
+        "du": "wartetest",
+        "er_sie_es": "wartete",
+        "wir": "warteten",
+        "ihr": "wartetet",
+        "sie_Sie": "warteten"
+      },
+      "imperativ": {
+        "du": "Warte!",
+        "ihr": "Wartet!",
+        "Sie": "Warten Sie!"
+      }
+    },
+    "partizip1": "wartend",
+    "nominalisierung": "das Warten"
+  },
+  "wortnetz": {
+    "grundwort": "warten",
+    "woerter": [
+      {
+        "wort": "bleiben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ماندن",
+          "en": "to stay"
+        },
+        "id_ref": "verb_bleiben"
+      },
+      {
+        "wort": "die Zeit",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زمان",
+          "en": "time"
+        },
+        "id_ref": "nomen_zeit"
+      },
+      {
+        "wort": "spät",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دیر",
+          "en": "late"
+        },
+        "id_ref": "adjektiv_spaet"
+      },
+      {
+        "wort": "erwarten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انتظار داشتن",
+          "en": "to expect"
+        },
+        "id_ref": "verb_erwarten"
+      },
+      {
+        "wort": "die Geduld",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "صبر",
+          "en": "patience"
+        },
+        "id_ref": "nomen_geduld"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

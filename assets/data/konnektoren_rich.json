@@ -1,0 +1,1867 @@
+[
+ {
+  "id": 1,
+  "connector": "aber",
+  "grammar_summary": {
+   "structure_fa": "جمله ۱ + , + aber + جمله ۲ (ترتیب عادی: فاعل + فعل)",
+   "position_note_fa": "Nullposition (Pos0): نه به جمله اول تعلق دارد نه به دوم — فعل جابجا نمی‌شود",
+   "common_mistake_fa": "'aber' با 'sondern' اشتباه گرفته می‌شود — sondern فقط بعد از نفی می‌آید: 'Er ist nicht groß, sondern klein ✓' / 'Er ist groß, sondern klein ❌'",
+   "common_mistake_en": "'aber' gets confused with 'sondern' — sondern only follows a negation: 'Er ist nicht groß, sondern klein'",
+   "position_note_en": "Nullposition (Pos0): belongs to neither clause — the verb does not move",
+   "structure_en": "clause 1 + , + aber + clause 2 (normal order: subject + verb)"
+  },
+  "examples": [
+   {
+    "de": "Ich mag Pizza, aber ich esse sie nicht oft.",
+    "fa": "پیتزا دوست دارم، اما زیاد نمی‌خورم.",
+    "en": "I like pizza, but I don't eat it often.",
+    "highlight": "aber"
+   },
+   {
+    "de": "Das Wetter ist schlecht, aber wir gehen trotzdem raus.",
+    "fa": "هوا بد است، اما باز هم بیرون می‌رویم.",
+    "en": "The weather is bad, but we're going out anyway.",
+    "highlight": "aber"
+   },
+   {
+    "de": "Sie ist müde, aber sie arbeitet weiter.",
+    "fa": "او خسته است، اما به کار ادامه می‌دهد.",
+    "en": "She's tired, but she keeps working.",
+    "highlight": "aber"
+   }
+  ],
+  "confusable_contrast": [
+   {
+    "connector_id": 5,
+    "connector": "sondern",
+    "difference_fa": "sondern فقط بعد از جمله‌ی منفی می‌آید و یک جایگزین مثبت معرفی می‌کند؛ aber برای هر نوع تضاد",
+    "difference_en": "sondern only follows a negated clause and introduces a positive alternative; aber works for any kind of contrast"
+   },
+   {
+    "connector_id": 6,
+    "connector": "doch",
+    "difference_fa": "doch در این کاربرد مترادف aber است — کمی قوی‌تر/تأکیدی‌تر",
+    "difference_en": "doch in this use is a synonym of aber — slightly stronger/more emphatic"
+   }
+  ],
+  "exercise_pool": [
+   {
+    "type": "fill_blank",
+    "prompt_de": "Ich mag Kaffee, ___ ich trinke ihn nicht jeden Tag.",
+    "answer": "aber",
+    "distractor_ids": [
+     5,
+     4,
+     2
+    ]
+   },
+   {
+    "type": "multiple_choice",
+    "prompt_de": "Er ist krank, ___ er geht zur Arbeit.",
+    "options": [
+     "aber",
+     "weil",
+     "denn",
+     "dass"
+    ],
+    "answer_index": 0
+   },
+   {
+    "type": "word_order",
+    "words": [
+     "aber",
+     "er",
+     "stark",
+     "ist"
+    ],
+    "correct": "aber er ist stark",
+    "context": "Er ist klein, ___"
+   },
+   {
+    "type": "translation",
+    "prompt_fa": "پیتزا دوست دارم اما زیاد نمی‌خورم.",
+    "answer_de": "Ich mag Pizza, aber ich esse sie nicht oft.",
+    "prompt_en": "I like pizza, but I don't eat it often."
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "connector": "denn",
+  "grammar_summary": {
+   "structure_fa": "جمله ۱ + , + denn + فاعل + فعل + ...",
+   "position_note_fa": "Nullposition (Pos0): فعل در جایگاه دوم باقی می‌ماند (بعد از فاعل) — برخلاف weil که فعل را به آخر می‌برد",
+   "common_mistake_fa": "'denn er ist traurig' ✓ (Nullposition) | 'weil er ist traurig' ❌ → 'weil er traurig ist' ✓",
+   "position_note_en": "Nullposition (Pos0): the verb stays in second position (after the subject) — unlike weil, which sends it to the end",
+   "structure_en": "clause 1 + , + denn + subject + verb + ..."
+  },
+  "examples": [
+   {
+    "de": "Sie weinte, denn sie war traurig.",
+    "fa": "او گریه کرد زیرا ناراحت بود.",
+    "en": "She cried because she was sad.",
+    "highlight": "denn"
+   },
+   {
+    "de": "Er bleibt zu Hause, denn er ist krank.",
+    "fa": "در خانه می‌ماند زیرا مریض است.",
+    "en": "He's staying home because he's sick.",
+    "highlight": "denn"
+   },
+   {
+    "de": "Ich kaufe das Buch, denn es ist interessant.",
+    "fa": "این کتاب را می‌خرم زیرا جالب است.",
+    "en": "I'm buying the book because it's interesting.",
+    "highlight": "denn"
+   }
+  ],
+  "confusable_contrast": [
+   {
+    "connector_id": 7,
+    "connector": "weil",
+    "difference_fa": "weil فعل را به آخر جمله می‌برد (Nebensatz)؛ denn فعل را جابجا نمی‌کند (Nullposition)",
+    "difference_en": "weil sends the verb to the end (Nebensatz); denn does not move the verb (Nullposition)"
+   },
+   {
+    "connector_id": 9,
+    "connector": "da",
+    "difference_fa": "da وقتی دلیل از قبل مشخص است استفاده می‌شود؛ denn/weil برای دلیل جدید",
+    "difference_en": "da is used when the reason is already known; denn/weil for new information"
+   }
+  ],
+  "exercise_pool": [
+   {
+    "type": "fill_blank",
+    "prompt_de": "Er bleibt zu Hause, ___ er krank ist.",
+    "answer": "denn",
+    "distractor_ids": [
+     7,
+     9,
+     105
+    ]
+   },
+   {
+    "type": "multiple_choice",
+    "prompt_de": "Sie lernt viel, ___ sie die Prüfung bestehen will.",
+    "options": [
+     "denn",
+     "weil",
+     "deshalb",
+     "obwohl"
+    ],
+    "answer_index": 0
+   },
+   {
+    "type": "word_order",
+    "words": [
+     "denn",
+     "er",
+     "müde",
+     "ist"
+    ],
+    "correct": "denn er ist müde",
+    "context": "Er schläft früh, ___"
+   },
+   {
+    "type": "translation",
+    "prompt_fa": "خانه می‌مانم زیرا باران می‌بارد.",
+    "answer_de": "Ich bleibe zu Hause, denn es regnet.",
+    "prompt_en": "I'm staying home because it's raining."
+   }
+  ]
+ },
+ {
+  "id": 3,
+  "connector": "oder",
+  "grammar_summary": {
+   "structure_fa": "جمله/کلمه ۱ + oder + جمله/کلمه ۲",
+   "position_note_fa": "Nullposition: می‌تواند کلمات، گروه‌های اسمی، یا جملات کامل را وصل کند",
+   "common_mistake_fa": "در سؤال‌های Entscheidungsfrage از oder استفاده می‌شود: 'Kommst du oder nicht?' — توجه: بدون کاما وقتی کوتاه است",
+   "common_mistake_en": "oder is used in yes/no alternative questions: 'Kommst du oder nicht?'",
+   "position_note_en": "Nullposition: can connect words, noun phrases or whole clauses",
+   "structure_en": "clause/word 1 + oder + clause/word 2"
+  },
+  "examples": [
+   {
+    "de": "Willst du Tee oder Kaffee?",
+    "fa": "چای یا قهوه می‌خواهی؟",
+    "en": "Do you want tea or coffee?",
+    "highlight": "oder"
+   },
+   {
+    "de": "Wir gehen ins Kino oder wir bleiben zu Hause.",
+    "fa": "به سینما می‌رویم یا در خانه می‌مانیم.",
+    "en": "We'll go to the cinema or we'll stay home.",
+    "highlight": "oder"
+   },
+   {
+    "de": "Kommst du heute oder morgen?",
+    "fa": "امروز می‌آیی یا فردا؟",
+    "en": "Are you coming today or tomorrow?",
+    "highlight": "oder"
+   }
+  ],
+  "confusable_contrast": [
+   {
+    "connector_id": 59,
+    "connector": "entweder...oder",
+    "difference_fa": "entweder...oder تأکید می‌کند که دقیقاً یکی از دو گزینه — oder به‌تنهایی خنثی‌تر است",
+    "difference_en": "entweder...oder stresses that exactly one of two options applies — plain oder is more neutral"
+   }
+  ],
+  "exercise_pool": [
+   {
+    "type": "fill_blank",
+    "prompt_de": "Willst du Tee ___ Kaffee?",
+    "answer": "oder",
+    "distractor_ids": [
+     4,
+     1,
+     5
+    ]
+   },
+   {
+    "type": "multiple_choice",
+    "prompt_de": "Gehst du zu Fuß ___ nimmst du den Bus?",
+    "options": [
+     "oder",
+     "und",
+     "aber",
+     "sondern"
+    ],
+    "answer_index": 0
+   },
+   {
+    "type": "translation",
+    "prompt_fa": "چای یا قهوه می‌خواهی؟",
+    "answer_de": "Willst du Tee oder Kaffee?",
+    "prompt_en": "Would you like tea or coffee?"
+   },
+   {
+    "type": "word_order",
+    "words": [
+     "oder",
+     "du",
+     "zu",
+     "Hause",
+     "bleibst"
+    ],
+    "correct": "oder du bleibst zu Hause",
+    "context": "Wir gehen ins Kino, ___"
+   }
+  ]
+ },
+ {
+  "id": 4,
+  "connector": "und",
+  "grammar_summary": {
+   "structure_fa": "جمله/کلمه ۱ + und + جمله/کلمه ۲",
+   "position_note_fa": "Nullposition: اگر فاعل هر دو جمله یکسان باشد، در جمله‌ی دوم حذف می‌شود: 'Ich gehe einkaufen und (ich) koche danach'",
+   "common_mistake_fa": "'Ich gehe einkaufen und danach ich koche' ❌ → 'und danach koche ich' ✓ وقتی قید در ابتدا می‌آید، فعل باید قبل از فاعل بیاید",
+   "common_mistake_en": "'Ich gehe einkaufen und danach ich koche' ❌ → 'und danach koche ich' ✓ when an adverb starts the clause",
+   "position_note_en": "Nullposition: if both clauses share the subject, it is dropped in the second: 'Ich gehe einkaufen und koche'",
+   "structure_en": "clause/word 1 + und + clause/word 2"
+  },
+  "examples": [
+   {
+    "de": "Ich gehe einkaufen und danach koche ich.",
+    "fa": "به خرید می‌روم و بعد آشپزی می‌کنم.",
+    "en": "I'm going shopping and then I'll cook.",
+    "highlight": "und"
+   },
+   {
+    "de": "Er ist groß und stark.",
+    "fa": "او بلند قامت و قوی است.",
+    "en": "He is tall and strong.",
+    "highlight": "und"
+   },
+   {
+    "de": "Wir essen zu Abend und dann sehen wir fern.",
+    "fa": "شام می‌خوریم و بعد تلویزیون نگاه می‌کنیم.",
+    "en": "We have dinner and then we watch TV.",
+    "highlight": "und"
+   }
+  ],
+  "confusable_contrast": [
+   {
+    "connector_id": 71,
+    "connector": "außerdem",
+    "difference_fa": "außerdem در Pos1 می‌ایستد و inversion ایجاد می‌کند؛ und در Pos0 است و ترتیب را تغییر نمی‌دهد",
+    "difference_en": "außerdem stands in Pos1 and triggers inversion; und is Pos0 and does not change word order"
+   }
+  ],
+  "exercise_pool": [
+   {
+    "type": "fill_blank",
+    "prompt_de": "Er ist groß ___ stark.",
+    "answer": "und",
+    "distractor_ids": [
+     1,
+     3,
+     5
+    ]
+   },
+   {
+    "type": "multiple_choice",
+    "prompt_de": "Ich lerne Deutsch ___ Englisch.",
+    "options": [
+     "und",
+     "oder",
+     "aber",
+     "denn"
+    ],
+    "answer_index": 0
+   },
+   {
+    "type": "translation",
+    "prompt_fa": "به خرید می‌روم و بعد آشپزی می‌کنم.",
+    "answer_de": "Ich gehe einkaufen und danach koche ich.",
+    "prompt_en": "I go shopping and then I cook."
+   },
+   {
+    "type": "word_order",
+    "words": [
+     "und",
+     "danach",
+     "koche",
+     "ich"
+    ],
+    "correct": "und danach koche ich",
+    "context": "Ich gehe einkaufen, ___"
+   }
+  ]
+ },
+ {
+  "id": 5,
+  "connector": "sondern",
+  "grammar_summary": {
+   "structure_fa": "جمله‌ی منفی + sondern + جمله/عبارت مثبت",
+   "position_note_fa": "Nullposition: فقط بعد از جمله‌ی منفی (nicht, kein) می‌آید — یک جایگزین مثبت معرفی می‌کند",
+   "common_mistake_fa": "'Er ist groß, sondern stark' ❌ (جمله اول منفی نیست) → 'Er ist nicht groß, sondern klein' ✓",
+   "common_mistake_en": "'Er ist groß, sondern stark' ❌ (first clause not negated) → 'Er ist nicht groß, sondern klein' ✓",
+   "position_note_en": "Nullposition: only after a negated clause (nicht, kein) — introduces a positive alternative",
+   "structure_en": "negated clause + sondern + positive clause/phrase"
+  },
+  "examples": [
+   {
+    "de": "Er kam nicht zu spät, sondern pünktlich.",
+    "fa": "او دیر نیامد، بلکه سر وقت آمد.",
+    "en": "He didn't come late, but rather on time.",
+    "highlight": "sondern"
+   },
+   {
+    "de": "Das ist kein Hund, sondern eine Katze.",
+    "fa": "این سگ نیست، بلکه گربه است.",
+    "en": "That's not a dog, but rather a cat.",
+    "highlight": "sondern"
+   },
+   {
+    "de": "Wir fahren nicht nach Berlin, sondern nach München.",
+    "fa": "به برلین نمی‌رویم، بلکه به مونیخ.",
+    "en": "We're not going to Berlin, but rather to Munich.",
+    "highlight": "sondern"
+   }
+  ],
+  "confusable_contrast": [
+   {
+    "connector_id": 1,
+    "connector": "aber",
+    "difference_fa": "aber برای هر نوع تضاد؛ sondern فقط بعد از نفی و برای جایگزین کردن با چیز مثبت",
+    "difference_en": "aber for any contrast; sondern only after a negation, replacing it with something positive"
+   },
+   {
+    "connector_id": 63,
+    "connector": "nicht nur...sondern auch",
+    "difference_fa": "nicht nur...sondern auch هر دو چیز را تأیید می‌کند؛ sondern به‌تنهایی اول را رد و دومی را تأیید می‌کند",
+    "difference_en": "nicht nur...sondern auch affirms both things; plain sondern rejects the first and affirms the second"
+   }
+  ],
+  "exercise_pool": [
+   {
+    "type": "fill_blank",
+    "prompt_de": "Das ist kein Tisch, ___ ein Stuhl.",
+    "answer": "sondern",
+    "distractor_ids": [
+     1,
+     6,
+     4
+    ]
+   },
+   {
+    "type": "multiple_choice",
+    "prompt_de": "Sie kommt nicht heute, ___ morgen.",
+    "options": [
+     "sondern",
+     "aber",
+     "denn",
+     "oder"
+    ],
+    "answer_index": 0
+   },
+   {
+    "type": "translation",
+    "prompt_fa": "او دیر نیامد، بلکه سر وقت آمد.",
+    "answer_de": "Er kam nicht zu spät, sondern pünktlich.",
+    "prompt_en": "He didn't come late — he came on time."
+   },
+   {
+    "type": "word_order",
+    "words": [
+     "sondern",
+     "nach",
+     "München"
+    ],
+    "correct": "sondern nach München",
+    "context": "Wir fahren nicht nach Berlin, ___"
+   }
+  ]
+ },
+ {
+  "id": 6,
+  "connector": "doch",
+  "grammar_summary": {
+   "structure_fa": "جمله ۱ + , + doch + فاعل + فعل + ...",
+   "position_note_fa": "Nullposition (Pos0): در این کاربرد مترادف aber — توجه: doch به‌عنوان Modal-/Abtönungspartikel معنی کاملاً متفاوتی دارد",
+   "common_mistake_fa": "اشتباه گرفتن doch (Konjunktion) با doch (Partikel تأکید): 'Komm doch!' (Partikel) vs 'Er ist klein, doch er ist stark' (Konjunktion)",
+   "common_mistake_en": "confusing doch (conjunction) with doch (emphatic particle): 'Komm doch!' (particle) vs 'Er ist klein, doch stark'",
+   "position_note_en": "Nullposition (Pos0): synonym of aber in this use — note: doch as a modal particle is something different",
+   "structure_en": "clause 1 + , + doch + subject + verb + ..."
+  },
+  "examples": [
+   {
+    "de": "Er ist klein, doch er ist stark.",
+    "fa": "او کوچک است، با این حال قوی است.",
+    "en": "He is small, yet he is strong.",
+    "highlight": "doch"
+   },
+   {
+    "de": "Das Wetter war schlecht, doch wir haben es genossen.",
+    "fa": "هوا بد بود، با این حال لذت بردیم.",
+    "en": "The weather was bad, yet we enjoyed it.",
+    "highlight": "doch"
+   },
+   {
+    "de": "Sie hat wenig Zeit, doch sie hilft immer.",
+    "fa": "وقت کمی دارد، با این حال همیشه کمک می‌کند.",
+    "en": "She has little time, yet she always helps.",
+    "highlight": "doch"
+   }
+  ],
+  "confusable_contrast": [
+   {
+    "connector_id": 1,
+    "connector": "aber",
+    "difference_fa": "در این کاربرد تقریباً مترادف هستند؛ doch کمی قوی‌تر/ادبی‌تر است",
+    "difference_en": "in this use nearly synonymous; doch is slightly stronger/more literary"
+   },
+   {
+    "connector_id": 103,
+    "connector": "trotzdem",
+    "difference_fa": "trotzdem در Pos1 می‌ایستد و inversion ایجاد می‌کند؛ doch (Konj.) در Pos0 است",
+    "difference_en": "trotzdem stands in Pos1 and triggers inversion; doch (conjunction) is Pos0"
+   }
+  ],
+  "exercise_pool": [
+   {
+    "type": "fill_blank",
+    "prompt_de": "Er ist alt, ___ er ist noch sehr fit.",
+    "answer": "doch",
+    "distractor_ids": [
+     1,
+     7,
+     103
+    ]
+   },
+   {
+    "type": "multiple_choice",
+    "prompt_de": "Das war schwer, ___ wir haben es geschafft.",
+    "options": [
+     "doch",
+     "weil",
+     "dass",
+     "damit"
+    ],
+    "answer_index": 0
+   },
+   {
+    "type": "translation",
+    "prompt_fa": "او کوچک است، با این حال قوی است.",
+    "answer_de": "Er ist klein, doch er ist stark.",
+    "prompt_en": "She is small, yet she is strong."
+   },
+   {
+    "type": "word_order",
+    "words": [
+     "doch",
+     "er",
+     "stark",
+     "ist"
+    ],
+    "correct": "doch er ist stark",
+    "context": "Er ist klein, ___"
+   }
+  ]
+ },
+ {
+  "id": 7,
+  "connector": "weil",
+  "grammar_summary": {
+   "structure_fa": "جمله اصلی + , + weil + فاعل + ... + فعل (آخر)",
+   "position_note_fa": "فعل حتماً به آخر جمله می‌رود — اگر فعل مرکب باشد، Hilfsverb آخر می‌آید: 'weil er gegangen ist'",
+   "common_mistake_fa": "'weil ich bin müde' ❌ → 'weil ich müde bin' ✓",
+   "position_note_en": "the verb must go to the end — with compound verbs the auxiliary comes last: 'weil er gegangen ist'",
+   "structure_en": "main clause + , + weil + subject + ... + verb (final)"
+  },
+  "examples": [
+   {
+    "de": "Ich bleibe zu Hause, weil es regnet.",
+    "fa": "در خانه می‌مانم چون باران می‌بارد.",
+    "en": "I'm staying home because it's raining.",
+    "highlight": "regnet"
+   },
+   {
+    "de": "Sie lernt viel, weil sie die Prüfung bestehen will.",
+    "fa": "زیاد درس می‌خواند چون می‌خواهد امتحان قبول شود.",
+    "en": "She studies a lot because she wants to pass the exam.",
+    "highlight": "bestehen will"
+   },
+   {
+    "de": "Er kommt nicht, weil er krank ist.",
+    "fa": "نمی‌آید چون مریض است.",
+    "en": "He's not coming because he's sick.",
+    "highlight": "krank ist"
+   }
+  ],
+  "confusable_contrast": [
+   {
+    "connector_id": 9,
+    "connector": "da",
+    "difference_fa": "da وقتی دلیل از قبل برای هر دو طرف مشخص است؛ weil برای دلیل جدید — da معمولاً در ابتدای جمله می‌آید",
+    "difference_en": "da when the reason is already known to both sides; weil for a new reason — da usually opens the sentence"
+   },
+   {
+    "connector_id": 2,
+    "connector": "denn",
+    "difference_fa": "denn در Pos0 می‌ایستد و ترتیب فعل را تغییر نمی‌دهد؛ weil فعل را به آخر می‌برد",
+    "difference_en": "denn stands in Pos0 and does not change verb order; weil sends the verb to the end"
+   }
+  ],
+  "exercise_pool": [
+   {
+    "type": "fill_blank",
+    "prompt_de": "Ich bleibe zu Hause, ___ es regnet.",
+    "answer": "weil",
+    "distractor_ids": [
+     2,
+     72,
+     104
+    ]
+   },
+   {
+    "type": "word_order",
+    "words": [
+     "weil",
+     "er",
+     "krank",
+     "ist"
+    ],
+    "correct": "weil er krank ist",
+    "context": "Er bleibt zu Hause, ___"
+   },
+   {
+    "type": "multiple_choice",
+    "prompt_de": "Sie weint, ___ sie traurig ist.",
+    "options": [
+     "weil",
+     "deshalb",
+     "also",
+     "trotzdem"
+    ],
+    "answer_index": 0
+   },
+   {
+    "type": "translation",
+    "prompt_fa": "در خانه می‌مانم چون باران می‌بارد.",
+    "answer_de": "Ich bleibe zu Hause, weil es regnet.",
+    "prompt_en": "I'm staying home because it's raining."
+   }
+  ]
+ },
+ {
+  "id": 8,
+  "connector": "wenn",
+  "grammar_summary": {
+   "structure_fa": "wenn + فاعل + ... + فعل | یا: جمله اصلی + , + wenn + فاعل + ... + فعل",
+   "position_note_fa": "wenn در ابتدای جمله → فعل جمله اصلی قبل از فاعل می‌آید ('Wenn es regnet, bleibe ich zu Hause')",
+   "common_mistake_fa": "'Wenn ich war klein' ❌ → 'Als ich klein war' ✓ (برای یک‌بار در گذشته، als استفاده می‌شود)",
+   "common_mistake_en": "'Wenn ich war klein' ❌ → 'Als ich klein war' ✓ (for a one-time past event, use als)",
+   "position_note_en": "wenn at the start → the main-clause verb precedes its subject ('Wenn es regnet, bleibe ich zu Hause')",
+   "structure_en": "wenn + subject + ... + verb | or: main clause + , + wenn + subject + ... + verb"
+  },
+  "examples": [
+   {
+    "de": "Wenn es regnet, bleibe ich zu Hause.",
+    "fa": "اگر باران ببارد در خانه می‌مانم.",
+    "en": "If it rains, I'll stay home.",
+    "highlight": "regnet"
+   },
+   {
+    "de": "Ich rufe dich an, wenn ich ankomme.",
+    "fa": "وقتی رسیدم زنگ می‌زنم.",
+    "en": "I'll call you when I arrive.",
+    "highlight": "ankomme"
+   },
+   {
+    "de": "Wenn du Hilfe brauchst, frag mich.",
+    "fa": "اگر کمک لازم داشتی از من بخواه.",
+    "en": "If you need help, ask me.",
+    "highlight": "brauchst"
+   }
+  ],
+  "confusable_contrast": [
+   {
+    "connector_id": 11,
+    "connector": "als",
+    "difference_fa": "als فقط برای یک اتفاق مشخص در گذشته؛ wenn برای حال/آینده یا اتفاق مکرر در گذشته",
+    "difference_en": "als only for a single event in the past; wenn for present/future or repeated past events"
+   },
+   {
+    "connector_id": 16,
+    "connector": "falls",
+    "difference_fa": "falls تأکید بیشتری روی سناریوی نامطمئن/احتمالی دارد؛ wenn خنثی‌تر است",
+    "difference_en": "falls puts more emphasis on an uncertain/possible scenario; wenn is more neutral"
+   }
+  ],
+  "exercise_pool": [
+   {
+    "type": "fill_blank",
+    "prompt_de": "___ es schneit, bleiben wir zu Hause.",
+    "answer": "Wenn",
+    "distractor_ids": [
+     11,
+     16,
+     10
+    ]
+   },
+   {
+    "type": "word_order",
+    "words": [
+     "wenn",
+     "du",
+     "Zeit",
+     "hast"
+    ],
+    "correct": "wenn du Zeit hast",
+    "context": "Ruf mich an, ___"
+   },
+   {
+    "type": "multiple_choice",
+    "prompt_de": "___ ich klein war, spielte ich draußen. (einmalig in der Vergangenheit)",
+    "options": [
+     "Als",
+     "Wenn",
+     "Weil",
+     "Obwohl"
+    ],
+    "answer_index": 0
+   },
+   {
+    "type": "translation",
+    "prompt_fa": "اگر باران ببارد در خانه می‌مانم.",
+    "answer_de": "Wenn es regnet, bleibe ich zu Hause.",
+    "prompt_en": "If it rains, I'll stay home."
+   }
+  ]
+ },
+ {
+  "id": 9,
+  "connector": "da",
+  "grammar_summary": {
+   "structure_fa": "da + فاعل + ... + فعل (آخر) + , + جمله اصلی",
+   "position_note_fa": "da معمولاً در ابتدای جمله می‌آید (دلیل مقدم)؛ فعل به آخر Nebensatz می‌رود",
+   "common_mistake_fa": "'da' به‌عنوان دلیل با 'da' به‌عنوان قید مکان (dort/hier) اشتباه گرفته می‌شود — در جمله‌ی Nebensatz 'da' = 'چونکه'",
+   "common_mistake_en": "'da' as a reason gets confused with 'da' as an adverb of place (dort/hier)",
+   "position_note_en": "da usually opens the sentence (reason first); the verb goes to the end of the Nebensatz",
+   "structure_en": "da + subject + ... + verb (final) + , + main clause"
+  },
+  "examples": [
+   {
+    "de": "Da es regnet, bleiben wir zu Hause.",
+    "fa": "چون باران می‌بارد در خانه می‌مانیم.",
+    "en": "Since it's raining, we're staying home.",
+    "highlight": "regnet"
+   },
+   {
+    "de": "Da er krank ist, kommt er nicht.",
+    "fa": "چون بیمار است نمی‌آید.",
+    "en": "Since he's sick, he's not coming.",
+    "highlight": "krank ist"
+   },
+   {
+    "de": "Da wir keine Zeit haben, fahren wir mit dem Taxi.",
+    "fa": "از آنجا که وقت نداریم با تاکسی می‌رویم.",
+    "en": "Since we don't have time, we're taking a taxi.",
+    "highlight": "keine Zeit haben"
+   }
+  ],
+  "confusable_contrast": [
+   {
+    "connector_id": 7,
+    "connector": "weil",
+    "difference_fa": "weil برای دلیل جدید/ناشناخته؛ da وقتی دلیل قبلاً برای هر دو طرف مشخص است",
+    "difference_en": "weil for a new/unknown reason; da when the reason is already known to both sides"
+   },
+   {
+    "connector_id": 2,
+    "connector": "denn",
+    "difference_fa": "denn در Nullposition (Pos0) — ترتیب تغییر نمی‌کند؛ da در Nebensatz — فعل آخر",
+    "difference_en": "denn in Nullposition (Pos0) — order unchanged; da in a Nebensatz — verb final"
+   }
+  ],
+  "exercise_pool": [
+   {
+    "type": "fill_blank",
+    "prompt_de": "___ es regnet, bleiben wir zu Hause.",
+    "answer": "Da",
+    "distractor_ids": [
+     7,
+     2,
+     16
+    ]
+   },
+   {
+    "type": "multiple_choice",
+    "prompt_de": "___ er müde ist, geht er früh schlafen. (دلیل از قبل مشخص)",
+    "options": [
+     "Da",
+     "Deshalb",
+     "Weil",
+     "Wenn"
+    ],
+    "answer_index": 0
+   },
+   {
+    "type": "word_order",
+    "words": [
+     "da",
+     "wir",
+     "keine",
+     "Zeit",
+     "haben"
+    ],
+    "correct": "da wir keine Zeit haben",
+    "context": "___ fahren wir mit dem Taxi."
+   },
+   {
+    "type": "translation",
+    "prompt_fa": "چون بیمار است نمی‌آید.",
+    "answer_de": "Da er krank ist, kommt er nicht.",
+    "prompt_en": "Since he is ill, he isn't coming."
+   }
+  ]
+ },
+ {
+  "id": 10,
+  "connector": "obwohl",
+  "grammar_summary": {
+   "structure_fa": "جمله اصلی + , + obwohl + فاعل + ... + فعل (آخر)",
+   "position_note_fa": "فعل به آخر می‌رود — معنا: با وجود اینکه، نتیجه‌ی غیرمنتظره",
+   "common_mistake_fa": "'obwohl er ist müde' ❌ → 'obwohl er müde ist' ✓ | اشتباه رایج: جابجایی با 'trotzdem' (trotzdem در Hauptsatz است)",
+   "common_mistake_en": "'obwohl er ist müde' ❌ → 'obwohl er müde ist' ✓ | common mix-up with 'trotzdem'",
+   "position_note_en": "the verb goes to the end — meaning: despite the fact that, an unexpected result",
+   "structure_en": "main clause + , + obwohl + subject + ... + verb (final)"
+  },
+  "examples": [
+   {
+    "de": "Obwohl es regnet, gehe ich spazieren.",
+    "fa": "با اینکه باران می‌بارد به پیاده‌روی می‌روم.",
+    "en": "Although it's raining, I'm going for a walk.",
+    "highlight": "regnet"
+   },
+   {
+    "de": "Er ging zur Arbeit, obwohl er krank war.",
+    "fa": "به سر کار رفت با اینکه بیمار بود.",
+    "en": "He went to work, although he was sick.",
+    "highlight": "krank war"
+   },
+   {
+    "de": "Sie hat das Kleid gekauft, obwohl es teuer war.",
+    "fa": "این لباس را خرید با اینکه گران بود.",
+    "en": "She bought the dress, although it was expensive.",
+    "highlight": "teuer war"
+   }
+  ],
+  "confusable_contrast": [
+   {
+    "connector_id": 77,
+    "connector": "trotzdem",
+    "difference_fa": "trotzdem در Hauptsatz (Pos1) → inversion؛ obwohl در Nebensatz → فعل به آخر",
+    "difference_en": "trotzdem in a main clause (Pos1) → inversion; obwohl in a Nebensatz → verb final"
+   },
+   {
+    "connector_id": 12,
+    "connector": "obgleich",
+    "difference_fa": "obgleich هم‌معنی obwohl است اما رسمی‌تر — در نوشتار استفاده می‌شود",
+    "difference_en": "obgleich is a synonym of obwohl but more formal — used in writing"
+   }
+  ],
+  "exercise_pool": [
+   {
+    "type": "fill_blank",
+    "prompt_de": "Er geht raus, ___ es regnet.",
+    "answer": "obwohl",
+    "distractor_ids": [
+     7,
+     77,
+     10
+    ]
+   },
+   {
+    "type": "word_order",
+    "words": [
+     "obwohl",
+     "er",
+     "müde",
+     "ist"
+    ],
+    "correct": "obwohl er müde ist",
+    "context": "Er arbeitet weiter, ___"
+   },
+   {
+    "type": "multiple_choice",
+    "prompt_de": "___ es kalt ist, geht sie schwimmen.",
+    "options": [
+     "Obwohl",
+     "Weil",
+     "Deshalb",
+     "Trotzdem"
+    ],
+    "answer_index": 0
+   },
+   {
+    "type": "translation",
+    "prompt_fa": "به سر کار رفت با اینکه بیمار بود.",
+    "answer_de": "Er ging zur Arbeit, obwohl er krank war.",
+    "prompt_en": "He went to work although he was ill."
+   }
+  ]
+ },
+ {
+  "id": 11,
+  "connector": "als",
+  "grammar_summary": {
+   "structure_fa": "als + فاعل + ... + فعل (آخر)",
+   "position_note_fa": "als فقط برای یک اتفاق مشخص در گذشته — با Präteritum یا Plusquamperfekt",
+   "common_mistake_fa": "'Wenn ich klein war' ❌ (اگر یک‌بار است) → 'Als ich klein war' ✓ | 'Als ich ein Kind bin' ❌ → 'Als ich ein Kind war' ✓ (حال نه)",
+   "common_mistake_en": "'Wenn ich klein war' ❌ (one-time event) → 'Als ich klein war' ✓ | 'Als ich ein Kind bin' ❌ (wrong tense)",
+   "position_note_en": "als only for one specific event in the past — with Präteritum or Plusquamperfekt",
+   "structure_en": "als + subject + ... + verb (final)"
+  },
+  "examples": [
+   {
+    "de": "Als ich klein war, spielte ich oft draußen.",
+    "fa": "وقتی کوچک بودم اغلب بیرون بازی می‌کردم.",
+    "en": "When I was little, I often played outside.",
+    "highlight": "war"
+   },
+   {
+    "de": "Als er ankam, war ich schon weg.",
+    "fa": "وقتی رسید من رفته بودم.",
+    "en": "When he arrived, I had already left.",
+    "highlight": "ankam"
+   },
+   {
+    "de": "Als das Telefon klingelte, schlief sie noch.",
+    "fa": "وقتی تلفن زنگ زد او هنوز خواب بود.",
+    "en": "When the phone rang, she was still asleep.",
+    "highlight": "klingelte"
+   }
+  ],
+  "confusable_contrast": [
+   {
+    "connector_id": 8,
+    "connector": "wenn",
+    "difference_fa": "wenn برای حال/آینده یا اتفاق مکرر در گذشته؛ als فقط برای یک اتفاق مشخص در گذشته",
+    "difference_en": "wenn for present/future or repeated past events; als only for a single past event"
+   }
+  ],
+  "exercise_pool": [
+   {
+    "type": "fill_blank",
+    "prompt_de": "___ ich klein war, hatte ich einen Hund. (einmalig)",
+    "answer": "Als",
+    "distractor_ids": [
+     8,
+     16,
+     10
+    ]
+   },
+   {
+    "type": "multiple_choice",
+    "prompt_de": "___ er ankam, fing das Konzert an.",
+    "options": [
+     "Als",
+     "Wenn",
+     "Weil",
+     "Obwohl"
+    ],
+    "answer_index": 0
+   },
+   {
+    "type": "word_order",
+    "words": [
+     "als",
+     "ich",
+     "klein",
+     "war"
+    ],
+    "correct": "als ich klein war",
+    "context": "___ spielte ich oft draußen."
+   },
+   {
+    "type": "translation",
+    "prompt_fa": "وقتی رسید من رفته بودم.",
+    "answer_de": "Als er ankam, war ich schon weg.",
+    "prompt_en": "When he arrived, I had already left."
+   }
+  ]
+ },
+ {
+  "id": 13,
+  "connector": "bevor",
+  "grammar_summary": {
+   "structure_fa": "جمله اصلی + , + bevor + فاعل + ... + فعل (آخر)",
+   "position_note_fa": "bevor = قبل از اینکه — ترتیب زمانی: جمله اصلی بعد از رویداد bevor اتفاق می‌افتد",
+   "common_mistake_fa": "'bevor er geht' ✓ | 'bevor er geht nicht' ❌ — منفی در جمله با nicht: 'bevor er nicht gegessen hat' (ادبی/قدیمی — در گفتار امروزی 'bevor er gegessen hat'",
+   "common_mistake_en": "'bevor er geht' ✓ | careful with negation: 'bevor er nicht gegangen ist' has a special meaning",
+   "position_note_en": "bevor = before — time order: the main clause happens after the bevor event",
+   "structure_en": "main clause + , + bevor + subject + ... + verb (final)"
+  },
+  "examples": [
+   {
+    "de": "Bevor wir gehen, müssen wir aufräumen.",
+    "fa": "قبل از اینکه برویم باید تمیز کنیم.",
+    "en": "Before we go, we need to tidy up.",
+    "highlight": "gehen"
+   },
+   {
+    "de": "Ich dusche mich, bevor ich frühstücke.",
+    "fa": "دوش می‌گیرم قبل از اینکه صبحانه بخورم.",
+    "en": "I shower before I have breakfast.",
+    "highlight": "frühstücke"
+   },
+   {
+    "de": "Bevor du gehst, ruf mich bitte an.",
+    "fa": "قبل از اینکه بروی لطفاً زنگ بزن.",
+    "en": "Before you go, please call me.",
+    "highlight": "gehst"
+   }
+  ],
+  "confusable_contrast": [
+   {
+    "connector_id": 44,
+    "connector": "ehe",
+    "difference_fa": "ehe و bevor هم‌معنی هستند — ehe کمی رسمی‌تر/ادبی‌تر؛ در گفتار bevor رایج‌تر",
+    "difference_en": "ehe and bevor are synonyms — ehe slightly more formal/literary; bevor more common in speech"
+   },
+   {
+    "connector_id": 21,
+    "connector": "nachdem",
+    "difference_fa": "nachdem = بعد از اینکه؛ bevor = قبل از اینکه",
+    "difference_en": "nachdem = after; bevor = before"
+   }
+  ],
+  "exercise_pool": [
+   {
+    "type": "fill_blank",
+    "prompt_de": "___ wir essen, waschen wir die Hände.",
+    "answer": "Bevor",
+    "distractor_ids": [
+     21,
+     8,
+     44
+    ]
+   },
+   {
+    "type": "word_order",
+    "words": [
+     "bevor",
+     "du",
+     "gehst"
+    ],
+    "correct": "bevor du gehst",
+    "context": "___ ruf mich an."
+   },
+   {
+    "type": "multiple_choice",
+    "prompt_de": "Ich putze die Zähne, ___ ich schlafen gehe.",
+    "options": [
+     "bevor",
+     "nachdem",
+     "weil",
+     "obwohl"
+    ],
+    "answer_index": 0
+   },
+   {
+    "type": "translation",
+    "prompt_fa": "قبل از اینکه برویم باید تمیز کنیم.",
+    "answer_de": "Bevor wir gehen, müssen wir aufräumen.",
+    "prompt_en": "Before we leave, we have to clean up."
+   }
+  ]
+ },
+ {
+  "id": 20,
+  "connector": "dass",
+  "grammar_summary": {
+   "structure_fa": "فعل اصلی + , + dass + فاعل + ... + فعل (آخر)",
+   "position_note_fa": "dass بعد از افعالی مثل sagen, glauben, hoffen, wissen, finden, denken می‌آید — فعل به آخر می‌رود",
+   "common_mistake_fa": "'Ich hoffe, dass du kommst bald' ❌ → 'dass du bald kommst' ✓ (قید زمان قبل از فعل می‌آید)",
+   "common_mistake_en": "'Ich hoffe, dass du kommst bald' ❌ → 'dass du bald kommst' ✓ (the time adverb precedes the verb)",
+   "position_note_en": "dass follows verbs like sagen, glauben, hoffen, wissen, finden, denken — verb goes to the end",
+   "structure_en": "main verb + , + dass + subject + ... + verb (final)"
+  },
+  "examples": [
+   {
+    "de": "Ich hoffe, dass du kommst.",
+    "fa": "امیدوارم که بیایی.",
+    "en": "I hope that you'll come.",
+    "highlight": "kommst"
+   },
+   {
+    "de": "Er weiß, dass das falsch ist.",
+    "fa": "می‌داند که این اشتباه است.",
+    "en": "He knows that this is wrong.",
+    "highlight": "falsch ist"
+   },
+   {
+    "de": "Ich finde, dass das eine gute Idee ist.",
+    "fa": "فکر می‌کنم که این ایده خوبی است.",
+    "en": "I think that this is a good idea.",
+    "highlight": "eine gute Idee ist"
+   }
+  ],
+  "confusable_contrast": [
+   {
+    "connector_id": 15,
+    "connector": "ob",
+    "difference_fa": "ob برای سؤال غیرمستقیم (آیا...) استفاده می‌شود؛ dass برای بیان واقعیت/عقیده",
+    "difference_en": "ob for indirect yes/no questions (whether); dass for stating facts/opinions"
+   }
+  ],
+  "exercise_pool": [
+   {
+    "type": "fill_blank",
+    "prompt_de": "Ich weiß, ___ er kommt.",
+    "answer": "dass",
+    "distractor_ids": [
+     15,
+     7,
+     20
+    ]
+   },
+   {
+    "type": "word_order",
+    "words": [
+     "dass",
+     "er",
+     "bald",
+     "kommt"
+    ],
+    "correct": "dass er bald kommt",
+    "context": "Ich hoffe, ___"
+   },
+   {
+    "type": "multiple_choice",
+    "prompt_de": "Ich glaube, ___ das stimmt.",
+    "options": [
+     "dass",
+     "ob",
+     "weil",
+     "wenn"
+    ],
+    "answer_index": 0
+   },
+   {
+    "type": "translation",
+    "prompt_fa": "امیدوارم که بیایی.",
+    "answer_de": "Ich hoffe, dass du kommst.",
+    "prompt_en": "I hope that you'll come."
+   }
+  ]
+ },
+ {
+  "id": 25,
+  "connector": "damit",
+  "grammar_summary": {
+   "structure_fa": "جمله اصلی + , + damit + فاعل (متفاوت) + ... + فعل (آخر)",
+   "position_note_fa": "damit = برای اینکه (هدف با فاعل متفاوت)؛ اگر فاعل یکی باشد 'um...zu' ترجیح دارد",
+   "common_mistake_fa": "'damit ich lerne' ✓ (هدف) | 'damit' با 'so dass' اشتباه — damit هدف است، so dass نتیجه‌ی ناخواسته",
+   "common_mistake_en": "'damit ich lerne' ✓ (purpose) | damit vs. so dass — damit is purpose, so dass is result",
+   "position_note_en": "damit = so that (purpose with a different subject); with the same subject, prefer 'um...zu'",
+   "structure_en": "main clause + , + damit + (different) subject + ... + verb (final)"
+  },
+  "examples": [
+   {
+    "de": "Ich mache das, damit du glücklich bist.",
+    "fa": "این را انجام می‌دهم تا تو خوشحال باشی.",
+    "en": "I'm doing this so that you're happy.",
+    "highlight": "glücklich bist"
+   },
+   {
+    "de": "Er spricht laut, damit alle ihn hören können.",
+    "fa": "بلند صحبت می‌کند تا همه بتوانند بشنوند.",
+    "en": "He speaks loudly so that everyone can hear him.",
+    "highlight": "hören können"
+   },
+   {
+    "de": "Ich erkläre es nochmal, damit du es verstehst.",
+    "fa": "دوباره توضیح می‌دهم تا بفهمی.",
+    "en": "I'll explain it again so that you understand.",
+    "highlight": "verstehst"
+   }
+  ],
+  "confusable_contrast": [
+   {
+    "connector_id": 22,
+    "connector": "so dass",
+    "difference_fa": "so dass نتیجه‌ی واقعی است؛ damit هدف/نیت است — 'Er lernte viel, so dass er bestand' (نتیجه) vs 'Er lernte, damit er besteht' (هدف)",
+    "difference_en": "so dass expresses a real result; damit a purpose/intention — 'Er lernte viel, so dass er bestand' (result)"
+   },
+   {
+    "connector_id": 52,
+    "connector": "um zu",
+    "difference_fa": "um...zu وقتی فاعل هر دو جمله یکی است؛ damit وقتی فاعل‌ها متفاوتند",
+    "difference_en": "um...zu when both clauses share the subject; damit when the subjects differ"
+   }
+  ],
+  "exercise_pool": [
+   {
+    "type": "fill_blank",
+    "prompt_de": "Ich erkläre es, ___ du es verstehst.",
+    "answer": "damit",
+    "distractor_ids": [
+     22,
+     52,
+     7
+    ]
+   },
+   {
+    "type": "multiple_choice",
+    "prompt_de": "Er arbeitet viel, ___ er reich wird.",
+    "options": [
+     "damit",
+     "so dass",
+     "weil",
+     "obwohl"
+    ],
+    "answer_index": 0
+   },
+   {
+    "type": "word_order",
+    "words": [
+     "damit",
+     "alle",
+     "es",
+     "hören",
+     "können"
+    ],
+    "correct": "damit alle es hören können",
+    "context": "Er spricht laut, ___"
+   },
+   {
+    "type": "translation",
+    "prompt_fa": "این را انجام می‌دهم تا تو خوشحال باشی.",
+    "answer_de": "Ich mache das, damit du glücklich bist.",
+    "prompt_en": "I'm doing this so that you'll be happy."
+   }
+  ]
+ },
+ {
+  "id": 59,
+  "connector": "nicht nur sondern auch",
+  "grammar_summary": {
+   "structure_fa": "nicht nur + عنصر ۱ + , + sondern auch + عنصر ۲",
+   "position_note_fa": "هر دو عنصر تأیید می‌شوند؛ sondern auch تأکید روی عنصر دوم دارد — می‌تواند کلمات، گروه‌های اسمی یا جملات کامل باشند",
+   "common_mistake_fa": "'Er ist nicht nur klug sondern auch er ist freundlich' ❌ → 'Er ist nicht nur klug, sondern auch freundlich' ✓ (اگر فاعل یکی است، تکرار نمی‌شود)",
+   "common_mistake_en": "'Er ist nicht nur klug sondern auch er ist freundlich' ❌ → '..., sondern auch freundlich' ✓",
+   "position_note_en": "both elements are affirmed; sondern auch stresses the second — works with words, phrases or clauses",
+   "structure_en": "nicht nur + element 1 + , + sondern auch + element 2"
+  },
+  "examples": [
+   {
+    "de": "Er ist nicht nur klug, sondern auch freundlich.",
+    "fa": "او نه تنها باهوش است بلکه مهربان هم هست.",
+    "en": "He is not only clever but also kind.",
+    "highlight": "sondern auch freundlich"
+   },
+   {
+    "de": "Sie spricht nicht nur Deutsch, sondern auch Englisch und Französisch.",
+    "fa": "نه تنها آلمانی بلکه انگلیسی و فرانسوی هم صحبت می‌کند.",
+    "en": "She speaks not only German but also English and French.",
+    "highlight": "sondern auch Englisch und Französisch"
+   },
+   {
+    "de": "Nicht nur die Kinder, sondern auch die Eltern haben Spaß gehabt.",
+    "fa": "نه تنها کودکان بلکه والدین هم خوش گذشت.",
+    "en": "Not only the children but also the parents had fun.",
+    "highlight": "sondern auch die Eltern"
+   }
+  ],
+  "confusable_contrast": [
+   {
+    "connector_id": 63,
+    "connector": "sowohl als auch",
+    "difference_fa": "sowohl...als auch هر دو را بدون تأکید خاص بیان می‌کند؛ nicht nur...sondern auch تأکید روی 'حتی دومی هم' دارد",
+    "difference_en": "sowohl...als auch states both without special emphasis; nicht nur...sondern auch stresses the second"
+   },
+   {
+    "connector_id": 5,
+    "connector": "sondern",
+    "difference_fa": "sondern به‌تنهایی اول را رد می‌کند؛ nicht nur...sondern auch هر دو را تأیید می‌کند",
+    "difference_en": "plain sondern rejects the first element; nicht nur...sondern auch affirms both"
+   }
+  ],
+  "exercise_pool": [
+   {
+    "type": "fill_blank",
+    "prompt_de": "Er ist ___ klug, sondern auch freundlich.",
+    "answer": "nicht nur",
+    "distractor_ids": [
+     63,
+     60,
+     5
+    ]
+   },
+   {
+    "type": "multiple_choice",
+    "prompt_de": "Sie kann ___ schwimmen, ___ auch tauchen.",
+    "options": [
+     "nicht nur / sondern",
+     "weder / noch",
+     "entweder / oder",
+     "sowohl / als"
+    ],
+    "answer_index": 0
+   },
+   {
+    "type": "word_order",
+    "words": [
+     "nicht nur",
+     "klug",
+     "sondern auch",
+     "freundlich"
+    ],
+    "correct": "nicht nur klug, sondern auch freundlich",
+    "context": "Er ist ___"
+   },
+   {
+    "type": "translation",
+    "prompt_fa": "او نه تنها آلمانی بلکه انگلیسی هم می‌داند.",
+    "answer_de": "Er spricht nicht nur Deutsch, sondern auch Englisch.",
+    "prompt_en": "He knows not only German but also English."
+   }
+  ]
+ },
+ {
+  "id": 60,
+  "connector": "weder noch",
+  "grammar_summary": {
+   "structure_fa": "weder + عنصر ۱ + noch + عنصر ۲",
+   "position_note_fa": "هر دو عنصر نفی می‌شوند؛ فعل جمله مطابقت با نزدیک‌ترین فاعل می‌کند",
+   "common_mistake_fa": "'Weder er noch sie sind...' ✓ | 'Er hat weder gegessen nicht getrunken' ❌ → 'Er hat weder gegessen noch getrunken' ✓",
+   "position_note_en": "both elements are negated; the verb agrees with the nearest subject",
+   "structure_en": "weder + element 1 + noch + element 2"
+  },
+  "examples": [
+   {
+    "de": "Weder das Wetter noch die Stimmung war gut.",
+    "fa": "نه هوا و نه حال‌وهوا خوب بود.",
+    "en": "Neither the weather nor the mood was good.",
+    "highlight": "noch"
+   },
+   {
+    "de": "Er hat weder gegessen noch getrunken.",
+    "fa": "نه خورده و نه نوشیده است.",
+    "en": "He has neither eaten nor drunk.",
+    "highlight": "noch getrunken"
+   },
+   {
+    "de": "Weder ich noch meine Schwester wusste davon.",
+    "fa": "نه من و نه خواهرم از آن خبر داشت.",
+    "en": "Neither I nor my sister knew about it.",
+    "highlight": "noch meine Schwester"
+   }
+  ],
+  "confusable_contrast": [
+   {
+    "connector_id": 61,
+    "connector": "entweder oder",
+    "difference_fa": "entweder...oder یکی از دو را انتخاب می‌کند؛ weder...noch هر دو را رد می‌کند",
+    "difference_en": "entweder...oder picks one of two; weder...noch rejects both"
+   }
+  ],
+  "exercise_pool": [
+   {
+    "type": "fill_blank",
+    "prompt_de": "Er hat ___ gegessen noch getrunken.",
+    "answer": "weder",
+    "distractor_ids": [
+     61,
+     59,
+     63
+    ]
+   },
+   {
+    "type": "multiple_choice",
+    "prompt_de": "___ ich ___ mein Bruder war zu Hause.",
+    "options": [
+     "Weder / noch",
+     "Entweder / oder",
+     "Nicht nur / sondern",
+     "Sowohl / als"
+    ],
+    "answer_index": 0
+   },
+   {
+    "type": "translation",
+    "prompt_fa": "نه خورده و نه نوشیده است.",
+    "answer_de": "Er hat weder gegessen noch getrunken.",
+    "prompt_en": "He has neither eaten nor drunk."
+   },
+   {
+    "type": "word_order",
+    "words": [
+     "weder",
+     "das",
+     "Wetter",
+     "noch",
+     "die",
+     "Stimmung",
+     "war",
+     "gut"
+    ],
+    "correct": "Weder das Wetter noch die Stimmung war gut",
+    "context": ""
+   }
+  ]
+ },
+ {
+  "id": 66,
+  "connector": "je desto",
+  "grammar_summary": {
+   "structure_fa": "Je + Komparativ + Nebensatz (Verb-End), desto + Komparativ + Hauptsatz (Verb vor Subjekt)",
+   "position_note_fa": "بعد از je: فعل به آخر می‌رود؛ بعد از desto: فعل قبل از فاعل می‌آید — Komparativ در هر دو بخش الزامی است",
+   "common_mistake_fa": "'Je mehr du lernst, desto du wirst besser' ❌ → 'desto besser wirst du' ✓ (Komparativ باید بلافاصله بعد از desto بیاید)",
+   "common_mistake_en": "'Je mehr du lernst, desto du wirst besser' ❌ → 'desto besser wirst du' ✓ (comparative required)",
+   "position_note_en": "after je: verb goes to the end; after desto: verb precedes the subject — comparative in both parts"
+  },
+  "examples": [
+   {
+    "de": "Je mehr du lernst, desto besser wirst du.",
+    "fa": "هرچه بیشتر یاد بگیری به همان نسبت بهتر می‌شوی.",
+    "en": "The more you learn, the better you get.",
+    "highlight": "besser wirst"
+   },
+   {
+    "de": "Je früher wir abfahren, desto weniger Stau gibt es.",
+    "fa": "هرچه زودتر حرکت کنیم به همان نسبت ترافیک کمتری هست.",
+    "en": "The earlier we leave, the less traffic there is.",
+    "highlight": "weniger Stau gibt"
+   },
+   {
+    "de": "Je mehr ich esse, desto schläfriger werde ich.",
+    "fa": "هرچه بیشتر می‌خورم به همان نسبت خواب‌آلودتر می‌شوم.",
+    "en": "The more I eat, the sleepier I become.",
+    "highlight": "schläfriger werde"
+   }
+  ],
+  "confusable_contrast": [
+   {
+    "connector_id": 58,
+    "connector": "je umso",
+    "difference_fa": "je...umso و je...desto کاملاً هم‌معنی هستند — umso کمی رسمی‌تر و بیشتر در نوشتار",
+    "difference_en": "je...umso and je...desto are fully synonymous — umso slightly more formal/written"
+   }
+  ],
+  "exercise_pool": [
+   {
+    "type": "fill_blank",
+    "prompt_de": "Je mehr du übst, ___ besser wirst du.",
+    "answer": "desto",
+    "distractor_ids": [
+     63,
+     62,
+     59
+    ]
+   },
+   {
+    "type": "word_order",
+    "words": [
+     "desto",
+     "besser",
+     "wirst",
+     "du"
+    ],
+    "correct": "desto besser wirst du",
+    "context": "Je mehr du lernst, ___"
+   },
+   {
+    "type": "multiple_choice",
+    "prompt_de": "Je früher wir gehen, ___ mehr Zeit haben wir.",
+    "options": [
+     "desto",
+     "wenn",
+     "weil",
+     "obwohl"
+    ],
+    "answer_index": 0
+   },
+   {
+    "type": "translation",
+    "prompt_fa": "هرچه بیشتر تمرین کنی به همان نسبت بهتر می‌شوی.",
+    "answer_de": "Je mehr du übst, desto besser wirst du.",
+    "prompt_en": "The more you practise, the better you get."
+   }
+  ]
+ },
+ {
+  "id": 72,
+  "connector": "deshalb",
+  "grammar_summary": {
+   "structure_fa": "جمله ۱ (دلیل). deshalb + Verb + Subjekt + ...",
+   "position_note_fa": "deshalb در Pos1 → Inversion: فعل قبل از فاعل می‌آید — برخلاف weil که فعل را به آخر می‌برد",
+   "common_mistake_fa": "'Er ist krank, deshalb er bleibt zu Hause' ❌ → 'deshalb bleibt er zu Hause' ✓",
+   "position_note_en": "deshalb in Pos1 → inversion: verb before subject — unlike weil, which sends the verb to the end",
+   "structure_en": "clause 1 (reason). deshalb + verb + subject + ..."
+  },
+  "examples": [
+   {
+    "de": "Er ist krank, deshalb bleibt er zu Hause.",
+    "fa": "مریض است به همین دلیل در خانه می‌ماند.",
+    "en": "He's sick, that's why he's staying home.",
+    "highlight": "bleibt"
+   },
+   {
+    "de": "Es regnet. Deshalb nehmen wir den Bus.",
+    "fa": "باران می‌بارد. به همین دلیل اتوبوس می‌گیریم.",
+    "en": "It's raining. That's why we're taking the bus.",
+    "highlight": "nehmen"
+   },
+   {
+    "de": "Ich habe Hunger. Deshalb gehe ich essen.",
+    "fa": "گرسنه‌ام. به همین دلیل می‌روم غذا بخورم.",
+    "en": "I'm hungry. That's why I'm going to eat.",
+    "highlight": "gehe"
+   }
+  ],
+  "confusable_contrast": [
+   {
+    "connector_id": 7,
+    "connector": "weil",
+    "difference_fa": "weil دلیل را در Nebensatz بیان می‌کند (فعل آخر)؛ deshalb نتیجه را در Hauptsatz (inversion)",
+    "difference_en": "weil states the reason in a Nebensatz (verb final); deshalb states the result in a main clause (inversion)"
+   },
+   {
+    "connector_id": 73,
+    "connector": "deswegen",
+    "difference_fa": "deswegen و deshalb هم‌معنی هستند — در گفتار هر دو رایج‌اند",
+    "difference_en": "deswegen and deshalb are synonyms — both common in speech"
+   },
+   {
+    "connector_id": 74,
+    "connector": "daher",
+    "difference_fa": "daher کمی رسمی‌تر از deshalb؛ در نوشتار رایج‌تر",
+    "difference_en": "daher slightly more formal than deshalb; more common in writing"
+   }
+  ],
+  "exercise_pool": [
+   {
+    "type": "fill_blank",
+    "prompt_de": "Er ist krank, ___ bleibt er zu Hause.",
+    "answer": "deshalb",
+    "distractor_ids": [
+     7,
+     9,
+     77
+    ]
+   },
+   {
+    "type": "word_order",
+    "words": [
+     "deshalb",
+     "bleibt",
+     "er",
+     "zu",
+     "Hause"
+    ],
+    "correct": "deshalb bleibt er zu Hause",
+    "context": "Er ist krank, ___"
+   },
+   {
+    "type": "multiple_choice",
+    "prompt_de": "Es regnet. ___ nehmen wir den Bus.",
+    "options": [
+     "Deshalb",
+     "Obwohl",
+     "Weil",
+     "Wenn"
+    ],
+    "answer_index": 0
+   },
+   {
+    "type": "translation",
+    "prompt_fa": "گرسنه‌ام به همین دلیل می‌روم غذا بخورم.",
+    "answer_de": "Ich habe Hunger. Deshalb gehe ich essen.",
+    "prompt_en": "I'm hungry, that's why I'm going to eat."
+   }
+  ]
+ },
+ {
+  "id": 77,
+  "connector": "trotzdem",
+  "grammar_summary": {
+   "structure_fa": "جمله ۱ (مانع). trotzdem + Verb + Subjekt + ...",
+   "position_note_fa": "trotzdem در Pos1 → Inversion؛ معنا: با وجود مانع در جمله اول، جمله دوم اتفاق می‌افتد",
+   "common_mistake_fa": "'obwohl' و 'trotzdem' معنی مشابه دارند اما ساختار متفاوت: 'Obwohl es regnet, gehe ich.' = 'Es regnet. Trotzdem gehe ich.'",
+   "common_mistake_en": "'obwohl' and 'trotzdem' mean the same but differ in structure: 'Obwohl es regnet, gehe ich.'",
+   "position_note_en": "trotzdem in Pos1 → inversion; meaning: despite the obstacle in clause 1, clause 2 happens",
+   "structure_en": "clause 1 (obstacle). trotzdem + verb + subject + ..."
+  },
+  "examples": [
+   {
+    "de": "Es regnet, trotzdem gehen wir spazieren.",
+    "fa": "باران می‌بارد با این حال به پیاده‌روی می‌رویم.",
+    "en": "It's raining; nevertheless, we're going for a walk.",
+    "highlight": "gehen"
+   },
+   {
+    "de": "Er ist müde, trotzdem arbeitet er weiter.",
+    "fa": "خسته است با این حال به کار ادامه می‌دهد.",
+    "en": "He's tired; nevertheless, he keeps working.",
+    "highlight": "arbeitet"
+   },
+   {
+    "de": "Das Essen war teuer. Trotzdem haben wir es gegessen.",
+    "fa": "غذا گران بود. با این حال آن را خوردیم.",
+    "en": "The food was expensive. Nevertheless, we ate it.",
+    "highlight": "haben"
+   }
+  ],
+  "confusable_contrast": [
+   {
+    "connector_id": 10,
+    "connector": "obwohl",
+    "difference_fa": "obwohl در Nebensatz → فعل آخر؛ trotzdem در Hauptsatz → Inversion (فعل قبل از فاعل)",
+    "difference_en": "obwohl in a Nebensatz → verb final; trotzdem in a main clause → inversion (verb before subject)"
+   },
+   {
+    "connector_id": 78,
+    "connector": "dennoch",
+    "difference_fa": "dennoch و trotzdem هم‌معنی — dennoch کمی رسمی‌تر و تأکیدی‌تر",
+    "difference_en": "dennoch and trotzdem are synonyms — dennoch slightly more formal and emphatic"
+   }
+  ],
+  "exercise_pool": [
+   {
+    "type": "fill_blank",
+    "prompt_de": "Es ist kalt. ___ gehen wir raus.",
+    "answer": "Trotzdem",
+    "distractor_ids": [
+     10,
+     7,
+     72
+    ]
+   },
+   {
+    "type": "word_order",
+    "words": [
+     "trotzdem",
+     "gehen",
+     "wir",
+     "spazieren"
+    ],
+    "correct": "trotzdem gehen wir spazieren",
+    "context": "Es regnet, ___"
+   },
+   {
+    "type": "multiple_choice",
+    "prompt_de": "___ es teuer war, hat sie es gekauft. (Nebensatz)",
+    "options": [
+     "Obwohl",
+     "Trotzdem",
+     "Deshalb",
+     "Weil"
+    ],
+    "answer_index": 0
+   },
+   {
+    "type": "translation",
+    "prompt_fa": "خسته است با این حال به کار ادامه می‌دهد.",
+    "answer_de": "Er ist müde, trotzdem arbeitet er weiter.",
+    "prompt_en": "He is tired, nevertheless he keeps working."
+   }
+  ]
+ },
+ {
+  "id": 104,
+  "connector": "also",
+  "grammar_summary": {
+   "structure_fa": "جمله ۱. also + Verb + Subjekt + ...",
+   "position_note_fa": "also در Pos1 → Inversion؛ همچنین در گفتار برای شروع توضیح یا خلاصه استفاده می‌شود ('Also, hier ist der Plan...')",
+   "common_mistake_fa": "'also' به‌معنی 'هم' (auch) نیست — 'Ich auch' ✓ | 'Ich also' ❌",
+   "common_mistake_en": "'also' does not mean 'too' (auch) — 'Ich auch' ✓ | 'Ich also' ❌",
+   "position_note_en": "also in Pos1 → inversion; in speech also used to open an explanation or summary ('Also, ...')",
+   "structure_en": "clause 1. also + verb + subject + ..."
+  },
+  "examples": [
+   {
+    "de": "Es regnet, also bleiben wir zu Hause.",
+    "fa": "باران می‌بارد پس در خانه می‌مانیم.",
+    "en": "It's raining, so we're staying home.",
+    "highlight": "bleiben"
+   },
+   {
+    "de": "Ich bin müde. Also gehe ich jetzt schlafen.",
+    "fa": "خسته‌ام. پس الان می‌روم بخوابم.",
+    "en": "I'm tired. So I'm going to sleep now.",
+    "highlight": "gehe"
+   },
+   {
+    "de": "Also, fangen wir an!",
+    "fa": "خب، شروع کنیم!",
+    "en": "So, let's start!",
+    "highlight": "fangen"
+   }
+  ],
+  "confusable_contrast": [
+   {
+    "connector_id": 72,
+    "connector": "deshalb",
+    "difference_fa": "deshalb و also تقریباً هم‌معنی — also کمی محاوره‌ای‌تر؛ deshalb رسمی‌تر",
+    "difference_en": "deshalb and also are near-synonyms — also slightly more colloquial; deshalb more formal"
+   },
+   {
+    "connector_id": 79,
+    "connector": "folglich",
+    "difference_fa": "folglich رسمی‌تر از also — بیشتر در نوشتار",
+    "difference_en": "folglich is more formal than also — mostly in writing"
+   }
+  ],
+  "exercise_pool": [
+   {
+    "type": "fill_blank",
+    "prompt_de": "Es regnet, ___ nehmen wir den Schirm.",
+    "answer": "also",
+    "distractor_ids": [
+     72,
+     7,
+     77
+    ]
+   },
+   {
+    "type": "multiple_choice",
+    "prompt_de": "Er ist krank. ___ bleibt er zu Hause.",
+    "options": [
+     "Also",
+     "Obwohl",
+     "Weil",
+     "Wenn"
+    ],
+    "answer_index": 0
+   },
+   {
+    "type": "word_order",
+    "words": [
+     "also",
+     "gehe",
+     "ich",
+     "schlafen"
+    ],
+    "correct": "also gehe ich schlafen",
+    "context": "Ich bin müde. ___"
+   },
+   {
+    "type": "translation",
+    "prompt_fa": "خسته‌ام پس می‌روم بخوابم.",
+    "answer_de": "Ich bin müde, also gehe ich schlafen.",
+    "prompt_en": "I'm tired, so I'm going to bed."
+   }
+  ]
+ },
+ {
+  "id": 107,
+  "connector": "außerdem",
+  "grammar_summary": {
+   "structure_fa": "جمله ۱. außerdem + Verb + Subjekt + ...",
+   "position_note_fa": "außerdem در Pos1 → Inversion؛ برای اضافه کردن اطلاعات به چیزی که قبلاً گفته شده",
+   "common_mistake_fa": "'Ich außerdem habe einen Hund' ❌ → 'Außerdem habe ich einen Hund' ✓",
+   "position_note_en": "außerdem in Pos1 → inversion; adds information to what was said before",
+   "structure_en": "clause 1. außerdem + verb + subject + ..."
+  },
+  "examples": [
+   {
+    "de": "Ich habe Architektur studiert. Außerdem habe ich eine Ausbildung gemacht.",
+    "fa": "معماری خوانده‌ام. علاوه بر این آموزش حرفه‌ای هم دیده‌ام.",
+    "en": "I studied architecture. In addition, I did a vocational training.",
+    "highlight": "habe ich"
+   },
+   {
+    "de": "Das Hotel ist günstig. Außerdem liegt es zentral.",
+    "fa": "هتل ارزان است. علاوه بر این موقعیت مرکزی دارد.",
+    "en": "The hotel is affordable. Moreover, it's centrally located.",
+    "highlight": "liegt"
+   },
+   {
+    "de": "Er ist nett, außerdem ist er sehr hilfsbereit.",
+    "fa": "او مهربان است علاوه بر این بسیار کمک‌رسان است.",
+    "en": "He's kind; moreover, he's very helpful.",
+    "highlight": "ist er"
+   }
+  ],
+  "confusable_contrast": [
+   {
+    "connector_id": 105,
+    "connector": "darüber hinaus",
+    "difference_fa": "darüber hinaus رسمی‌تر از außerdem — در نوشتار دانشگاهی/رسمی",
+    "difference_en": "darüber hinaus is more formal than außerdem — academic/formal writing"
+   },
+   {
+    "connector_id": 108,
+    "connector": "zudem",
+    "difference_fa": "zudem رسمی‌تر از außerdem — بیشتر در نوشتار",
+    "difference_en": "zudem is more formal than außerdem — mostly in writing"
+   }
+  ],
+  "exercise_pool": [
+   {
+    "type": "fill_blank",
+    "prompt_de": "Er ist intelligent. ___ ist er sehr fleißig.",
+    "answer": "Außerdem",
+    "distractor_ids": [
+     72,
+     77,
+     104
+    ]
+   },
+   {
+    "type": "word_order",
+    "words": [
+     "außerdem",
+     "habe",
+     "ich",
+     "einen",
+     "Hund"
+    ],
+    "correct": "außerdem habe ich einen Hund",
+    "context": "Ich habe eine Katze. ___"
+   },
+   {
+    "type": "multiple_choice",
+    "prompt_de": "Das Essen war lecker. ___ war es günstig.",
+    "options": [
+     "Außerdem",
+     "Trotzdem",
+     "Deshalb",
+     "Obwohl"
+    ],
+    "answer_index": 0
+   },
+   {
+    "type": "translation",
+    "prompt_fa": "هتل ارزان است. علاوه بر این موقعیت مرکزی دارد.",
+    "answer_de": "Das Hotel ist günstig. Außerdem liegt es zentral.",
+    "prompt_en": "The hotel is cheap. Besides, it has a central location."
+   }
+  ]
+ },
+ {
+  "id": 133,
+  "connector": "trotz",
+  "grammar_summary": {
+   "structure_fa": "trotz + Genitiv + , + جمله اصلی",
+   "position_note_fa": "trotz حرف اضافه است (Präposition) — بعدش اسم می‌آید، نه جمله؛ برخلاف obwohl که Konjunktion است",
+   "common_mistake_fa": "'trotz er krank war' ❌ → 'trotz seiner Krankheit' ✓ | یا: 'obwohl er krank war' ✓",
+   "common_mistake_en": "'trotz er krank war' ❌ → 'trotz seiner Krankheit' ✓ | or: 'obwohl er krank war' ✓",
+   "position_note_en": "trotz is a preposition — followed by a noun, not a clause; unlike obwohl, which is a conjunction",
+   "structure_en": "trotz + Genitiv + , + main clause"
+  },
+  "examples": [
+   {
+    "de": "Trotz des Regens gingen wir spazieren.",
+    "fa": "با وجود باران به پیاده‌روی رفتیم.",
+    "en": "Despite the rain, we went for a walk.",
+    "highlight": "des Regens"
+   },
+   {
+    "de": "Trotz seiner Müdigkeit arbeitete er weiter.",
+    "fa": "با وجود خستگی‌اش به کار ادامه داد.",
+    "en": "Despite his tiredness, he kept working.",
+    "highlight": "seiner Müdigkeit"
+   },
+   {
+    "de": "Trotz des schlechten Wetters machten wir einen Ausflug.",
+    "fa": "با وجود هوای بد یک گردش رفتیم.",
+    "en": "Despite the bad weather, we went on a trip.",
+    "highlight": "des schlechten Wetters"
+   }
+  ],
+  "confusable_contrast": [
+   {
+    "connector_id": 10,
+    "connector": "obwohl",
+    "difference_fa": "obwohl Konjunktion است (+ جمله کامل)؛ trotz Präposition است (+ اسم/گروه اسمی)",
+    "difference_en": "obwohl is a conjunction (+ full clause); trotz is a preposition (+ noun phrase)"
+   },
+   {
+    "connector_id": 77,
+    "connector": "trotzdem",
+    "difference_fa": "trotzdem Adverb است (+ جمله کامل با Inversion)؛ trotz Präposition است (+ اسم)",
+    "difference_en": "trotzdem is an adverb (+ full clause with inversion); trotz is a preposition (+ noun)"
+   }
+  ],
+  "exercise_pool": [
+   {
+    "type": "fill_blank",
+    "prompt_de": "___ des Regens gingen wir spazieren.",
+    "answer": "Trotz",
+    "distractor_ids": [
+     10,
+     77,
+     133
+    ]
+   },
+   {
+    "type": "multiple_choice",
+    "prompt_de": "___ seiner Krankheit kam er zur Arbeit. (Präposition)",
+    "options": [
+     "Trotz",
+     "Obwohl",
+     "Trotzdem",
+     "Weil"
+    ],
+    "answer_index": 0
+   },
+   {
+    "type": "word_order",
+    "words": [
+     "Trotz",
+     "des",
+     "Regens",
+     "gingen",
+     "wir",
+     "spazieren"
+    ],
+    "correct": "Trotz des Regens gingen wir spazieren",
+    "context": ""
+   },
+   {
+    "type": "translation",
+    "prompt_fa": "با وجود باران به پیاده‌روی رفتیم.",
+    "answer_de": "Trotz des Regens gingen wir spazieren.",
+    "prompt_en": "Despite the rain we went for a walk."
+   }
+  ]
+ }
+]

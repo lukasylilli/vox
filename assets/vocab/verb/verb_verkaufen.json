@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_verkaufen",
+  "wort": "verkaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "فروختن"
+    ],
+    "en": [
+      "to sell"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Wirtschaft",
+    "Alltag"
+  ],
+  "ipa": "fɛɐ̯ˈkaʊ̯fn̩",
+  "anmerkung": "Regelmäßig (untrennbar, ver-). Konstruktion: jemandem (Dat) etwas (Akk) verkaufen.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich verkaufe dir mein Fahrrad.",
+      "uebersetzung": {
+        "fa": "دوچرخه‌ام را به تو می‌فروشم.",
+        "en": "I'll sell you my bike."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Er hat sein altes Auto einem Nachbarn verkauft.",
+      "uebersetzung": {
+        "fa": "او ماشین قدیمی‌اش را به یک همسایه فروخت.",
+        "en": "He sold his old car to a neighbour."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "veräußern",
+      "uebersetzung": {
+        "fa": "واگذار/فروش کردن (رسمی)",
+        "en": "to sell off (formal)"
+      }
+    },
+    {
+      "wort": "abgeben",
+      "uebersetzung": {
+        "fa": "واگذار کردن",
+        "en": "to hand over, to sell"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "kaufen",
+      "uebersetzung": {
+        "fa": "خریدن",
+        "en": "to buy"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + kaufen (خریدن)",
+    "en": "ver- + kaufen (to buy)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "verkaufen + Dat + Akk",
+        "bedeutung": "jemandem etwas verkaufen",
+        "beispiel": "Ich verkaufe ihm mein Handy.",
+        "uebersetzung": {
+          "fa": "موبایلم را به او می‌فروشم.",
+          "en": "I'll sell him my phone."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verkaufen",
+      "praeteritum": "verkaufte",
+      "partizip2": "verkauft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verkaufe",
+        "du": "verkaufst",
+        "er_sie_es": "verkauft",
+        "wir": "verkaufen",
+        "ihr": "verkauft",
+        "sie_Sie": "verkaufen"
+      },
+      "praeteritum": {
+        "ich": "verkaufte",
+        "du": "verkauftest",
+        "er_sie_es": "verkaufte",
+        "wir": "verkauften",
+        "ihr": "verkauftet",
+        "sie_Sie": "verkauften"
+      },
+      "imperativ": {
+        "du": "Verkaufe!",
+        "ihr": "Verkauft!",
+        "Sie": "Verkaufen Sie!"
+      }
+    },
+    "partizip1": "verkaufend",
+    "nominalisierung": "der Verkauf"
+  },
+  "wortnetz": {
+    "grundwort": "kaufen",
+    "woerter": [
+      {
+        "wort": "kaufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خریدن",
+          "en": "to buy"
+        },
+        "id_ref": "verb_kaufen"
+      },
+      {
+        "wort": "der Verkauf",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فروش",
+          "en": "sale"
+        },
+        "id_ref": "nomen_verkauf"
+      },
+      {
+        "wort": "der Verkäufer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فروشنده",
+          "en": "salesperson"
+        },
+        "id_ref": "nomen_verkaeufer"
+      },
+      {
+        "wort": "der Kunde",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مشتری",
+          "en": "customer"
+        },
+        "id_ref": "nomen_kunde"
+      },
+      {
+        "wort": "der Preis",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قیمت",
+          "en": "price"
+        },
+        "id_ref": "nomen_preis"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Ich verkaufe dir mein Fahrrad.",
+      "dativ": [
+        "dir"
+      ],
+      "akkusativ": [
+        "mein Fahrrad"
+      ],
+      "uebersetzung": {
+        "fa": "دوچرخه‌ام را به تو می‌فروشم.",
+        "en": "I'll sell you my bike."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

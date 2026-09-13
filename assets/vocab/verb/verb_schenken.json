@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_schenken",
+  "wort": "schenken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "هدیه دادن",
+      "بخشیدن"
+    ],
+    "en": [
+      "to give (as a gift)"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Beziehungen",
+    "Gefühle"
+  ],
+  "ipa": "ˈʃɛŋkn̩",
+  "anmerkung": "Regelmäßig. Konstruktion: jemandem (Dat) etwas (Akk) schenken.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Mein Bruder hat mir Blumen geschenkt.",
+      "uebersetzung": {
+        "fa": "برادرم به من گل هدیه داد.",
+        "en": "My brother gave me flowers."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Zum Geburtstag hat sie ihrer Freundin ein Buch geschenkt.",
+      "uebersetzung": {
+        "fa": "برای تولد، او به دوستش یک کتاب هدیه داد.",
+        "en": "For her birthday she gave her friend a book."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "überreichen",
+      "uebersetzung": {
+        "fa": "تقدیم کردن",
+        "en": "to present"
+      }
+    },
+    {
+      "wort": "spendieren",
+      "uebersetzung": {
+        "fa": "مهمان کردن، خریدن برای کسی",
+        "en": "to treat sb to"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "verwandt mit einschenken (ریختن نوشیدنی)",
+    "en": "related to einschenken (to pour)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "schenken + Dat + Akk",
+        "bedeutung": "jemandem etwas schenken",
+        "beispiel": "Er schenkt seiner Mutter Blumen.",
+        "uebersetzung": {
+          "fa": "او به مادرش گل هدیه می‌دهد.",
+          "en": "He gives his mother flowers."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schenken",
+      "praeteritum": "schenkte",
+      "partizip2": "geschenkt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schenke",
+        "du": "schenkst",
+        "er_sie_es": "schenkt",
+        "wir": "schenken",
+        "ihr": "schenkt",
+        "sie_Sie": "schenken"
+      },
+      "praeteritum": {
+        "ich": "schenkte",
+        "du": "schenktest",
+        "er_sie_es": "schenkte",
+        "wir": "schenkten",
+        "ihr": "schenktet",
+        "sie_Sie": "schenkten"
+      },
+      "imperativ": {
+        "du": "Schenke!",
+        "ihr": "Schenkt!",
+        "Sie": "Schenken Sie!"
+      }
+    },
+    "partizip1": "schenkend",
+    "nominalisierung": "das Schenken"
+  },
+  "wortnetz": {
+    "grundwort": "schenken",
+    "woerter": [
+      {
+        "wort": "das Geschenk",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "هدیه",
+          "en": "gift"
+        },
+        "id_ref": "nomen_geschenk"
+      },
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "die Blume",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گل",
+          "en": "flower"
+        },
+        "id_ref": "nomen_blume"
+      },
+      {
+        "wort": "der Geburtstag",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تولد",
+          "en": "birthday"
+        },
+        "id_ref": "nomen_geburtstag"
+      },
+      {
+        "wort": "gratulieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تبریک گفتن",
+          "en": "to congratulate"
+        },
+        "id_ref": "verb_gratulieren"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Mein Bruder hat mir Blumen geschenkt.",
+      "dativ": [
+        "mir"
+      ],
+      "akkusativ": [
+        "Blumen"
+      ],
+      "uebersetzung": {
+        "fa": "برادرم به من گل هدیه داد.",
+        "en": "My brother gave me flowers."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

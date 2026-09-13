@@ -1,0 +1,903 @@
+{
+ "version": "1.0",
+ "language": "de",
+ "description": "گرامر ساختاری Konnektoren — ارجاع به id در konnektoren_data.json",
+ "groups": [
+  {
+   "group_id": "G1",
+   "title_fa": "Nullposition — کانکتورهای بدون تأثیر روی ترتیب فعل",
+   "title_de": "Nebenordnende Konjunktionen (Position 0)",
+   "word_order_effect": "no_change",
+   "connector_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "rule_fa": "این کانکتورها در موقعیت صفر (قبل از هر دو جمله) می‌ایستند. فعل در جمله دوم همچنان در موقعیت دوم باقی می‌ماند.",
+   "structure": "Jmله ۱ [Konnektor] Subjekt + Verb + ...",
+   "example_ids": [
+    1,
+    2,
+    5
+   ],
+   "common_mistake_fa": "اشتباه رایج: استفاده از این کانکتورها در Pos1 مثل adverbial — 'Aber er kommt' ✓ (بعد از نقطه) | 'Er kommt aber' ✓ (در Mittelfeld) | 'Aber, er kommt' ✗ (کاما بعد از aber معمولاً استفاده نمی‌شود)",
+   "notes": [
+    {
+     "connector_id": 2,
+     "note_fa": "denn در Nullposition است — برخلاف weil (id:7) که فعل را به آخر می‌برد",
+     "note_en": "denn takes Nullposition — unlike weil (id:7), which sends the verb to the end"
+    },
+    {
+     "connector_id": 5,
+     "note_fa": "sondern فقط بعد از جمله منفی می‌آید — aber بعد از هر نوع جمله",
+     "note_en": "sondern only follows a negated clause — aber can follow any clause"
+    }
+   ],
+   "common_mistake_en": "Common mistake: using these connectors in Pos1 like adverbials — 'Aber er kommt' ✓ (after a full stop) | 'Er kommt aber' ✓ (in the Mittelfeld) | 'Aber, er kommt' ✗ (a comma after aber is normally not used)",
+   "rule_en": "These connectors stand in position zero (before both clauses). The verb in the second clause stays in second position.",
+   "title_en": "Nullposition — connectors that do not affect verb order"
+  },
+  {
+   "group_id": "G2",
+   "title_fa": "Nebensatz — کانکتورهایی که فعل را به آخر می‌برند",
+   "title_de": "Unterordnende Konjunktionen / Subjunktionen",
+   "word_order_effect": "verb_end",
+   "connector_ids": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58
+   ],
+   "rule_fa": "فعل مصرف‌شده (konjugiertes Verb) همیشه به آخر Nebensatz می‌رود. اگر Nebensatz در ابتدای جمله بیاید، فعل جمله اصلی بلافاصله بعد از کاما می‌آید (Inversion در جمله اصلی).",
+   "structure": "Konnektor + Subjekt + ... + Verb | یا: Nebensatz, Verb + Subjekt + ...",
+   "example_ids": [
+    7,
+    10,
+    20
+   ],
+   "subgroups": [
+    {
+     "semantic": "causal",
+     "label_fa": "علّی — دلیل",
+     "connector_ids": [
+      7,
+      9,
+      47
+     ],
+     "contrast_note_fa": "weil برای دلیل جدید؛ da وقتی دلیل از قبل مشخص است",
+     "contrast_note_en": "weil for a new reason; da when the reason is already known",
+     "label_en": "Causal — reason"
+    },
+    {
+     "semantic": "concessive",
+     "label_fa": "تقابلی — با اینکه",
+     "connector_ids": [
+      10,
+      12,
+      30,
+      32,
+      33,
+      34,
+      35,
+      36
+     ],
+     "contrast_note_fa": "همه هم‌معنی obwohl هستند — obgleich/obschon/obzwar/wenngleich رسمی‌تر",
+     "contrast_note_en": "All synonyms of obwohl — obgleich/obschon/obzwar/wenngleich are more formal",
+     "label_en": "Concessive — although"
+    },
+    {
+     "semantic": "temporal",
+     "label_fa": "زمانی",
+     "connector_ids": [
+      8,
+      11,
+      13,
+      14,
+      17,
+      18,
+      21,
+      26,
+      28,
+      29,
+      41,
+      43,
+      44
+     ],
+     "contrast_note_fa": "als: یک‌بار در گذشته | wenn: مکرر یا حال/آینده | bevor: قبل | nachdem: بعد | seit/seitdem: از زمانی که",
+     "contrast_note_en": "als: once in the past | wenn: repeated or present/future | bevor: before | nachdem: after | seit/seitdem: since",
+     "label_en": "Temporal"
+    },
+    {
+     "semantic": "conditional",
+     "label_fa": "شرطی",
+     "connector_ids": [
+      8,
+      16,
+      27,
+      37,
+      51,
+      55
+     ],
+     "contrast_note_fa": "wenn: عمومی | falls: سناریو احتمالی | sofern: مشروط | je nachdem: بسته به",
+     "contrast_note_en": "wenn: general | falls: possible scenario | sofern: conditional | je nachdem: depending on",
+     "label_en": "Conditional"
+    },
+    {
+     "semantic": "modal",
+     "label_fa": "روشی — چگونگی",
+     "connector_ids": [
+      15,
+      19,
+      20,
+      23,
+      24,
+      25,
+      31,
+      38,
+      39,
+      40,
+      48,
+      49,
+      50,
+      52,
+      53,
+      54
+     ],
+     "contrast_note_fa": "damit: هدف (فاعل متفاوت) | um...zu: هدف (فاعل یکسان) | ohne dass/zu: بدون اینکه",
+     "contrast_note_en": "damit: purpose (different subject) | um...zu: purpose (same subject) | ohne dass/zu: without",
+     "label_en": "Modal — manner"
+    }
+   ],
+   "common_mistake_fa": "رایج‌ترین اشتباه: فعل در موقعیت دوم نگه داشتن — 'weil ich bin müde' ❌ → 'weil ich müde bin' ✓",
+   "common_mistake_en": "Most common mistake: keeping the verb in second position — 'weil ich bin müde' ❌ → 'weil ich müde bin' ✓",
+   "rule_en": "The conjugated verb always moves to the end of the Nebensatz. If the Nebensatz comes first, the main-clause verb follows immediately after the comma (inversion in the main clause).",
+   "title_en": "Nebensatz — connectors that send the verb to the end"
+  },
+  {
+   "group_id": "G3",
+   "title_fa": "Adverbial / Konjunktionaladverbien — Pos1 با Inversion",
+   "title_de": "Konjunktionaladverbien (Position 1)",
+   "word_order_effect": "inversion",
+   "connector_ids": [
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    128,
+    129
+   ],
+   "rule_fa": "وقتی این کانکتورها در ابتدای جمله (Pos1) می‌ایستند، فعل قبل از فاعل می‌آید. همچنین می‌توانند در Mittelfeld (بدون Inversion) یا Nacherstposition قرار بگیرند.",
+   "structure": "Konnektor + Verb + Subjekt + ...",
+   "example_ids": [
+    72,
+    77,
+    104
+   ],
+   "position_variants": {
+    "vorfeld_fa": "trotzdem gehe ich → Inversion",
+    "mittelfeld_fa": "Ich gehe trotzdem → بدون Inversion",
+    "nacherstposition_fa": "Ich gehe trotzdem morgen → ممکن",
+    "mittelfeld_en": "Ich gehe trotzdem → without inversion",
+    "nacherstposition_en": "Ich gehe trotzdem morgen → possible"
+   },
+   "subgroups": [
+    {
+     "semantic": "causal",
+     "label_fa": "علّی — نتیجه",
+     "connector_ids": [
+      72,
+      73,
+      74,
+      75,
+      104,
+      112
+     ],
+     "contrast_note_fa": "deshalb/deswegen/daher/darum هم‌معنی — also و somit کمی رسمی‌تر/نوشتاری",
+     "contrast_note_en": "deshalb/deswegen/daher/darum are synonyms — also and somit slightly more formal/written",
+     "label_en": "Causal — result"
+    },
+    {
+     "semantic": "concessive",
+     "label_fa": "تقابلی — با این حال",
+     "connector_ids": [
+      77,
+      78,
+      103,
+      115,
+      116,
+      117
+     ],
+     "contrast_note_fa": "trotzdem: محاوره‌ای | dennoch: رسمی‌تر | gleichwohl: ادبی | immerhin: 'حداقل'",
+     "contrast_note_en": "trotzdem: colloquial | dennoch: more formal | gleichwohl: literary | immerhin: 'at least'",
+     "label_en": "Concessive — nevertheless"
+    },
+    {
+     "semantic": "adversative",
+     "label_fa": "تضادی — در مقابل",
+     "connector_ids": [
+      76,
+      88,
+      89,
+      90,
+      91,
+      100,
+      118,
+      119
+     ],
+     "contrast_note_fa": "jedoch/allerdings رایج‌تر؛ demgegenüber/hingegen رسمی‌تر",
+     "contrast_note_en": "jedoch/allerdings more common; demgegenüber/hingegen more formal",
+     "label_en": "Adversative — in contrast"
+    },
+    {
+     "semantic": "additive",
+     "label_fa": "افزودنی — علاوه بر این",
+     "connector_ids": [
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      126
+     ],
+     "contrast_note_fa": "außerdem: عمومی | zudem/ferner/des Weiteren: رسمی‌تر | darüber hinaus: بیشترین تأکید",
+     "contrast_note_en": "außerdem: general | zudem/ferner/des Weiteren: more formal | darüber hinaus: strongest emphasis",
+     "label_en": "Additive — in addition"
+    },
+    {
+     "semantic": "temporal",
+     "label_fa": "زمانی",
+     "connector_ids": [
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      96,
+      123,
+      124,
+      125
+     ],
+     "contrast_note_fa": "dann/danach/anschließend: ترتیب | vorher/zuvor: قبل | währenddessen: همزمان",
+     "contrast_note_en": "dann/danach/anschließend: sequence | vorher/zuvor: before | währenddessen: simultaneous",
+     "label_en": "Temporal"
+    },
+    {
+     "semantic": "conditional",
+     "label_fa": "شرطی — در غیر این صورت",
+     "connector_ids": [
+      92,
+      93,
+      94,
+      95,
+      128,
+      129
+     ],
+     "contrast_note_fa": "sonst: محاوره‌ای | andernfalls: رسمی‌تر | vorausgesetzt: مشروط",
+     "contrast_note_en": "sonst: colloquial | andernfalls: more formal | vorausgesetzt: conditional",
+     "label_en": "Conditional — otherwise"
+    }
+   ],
+   "special_note_ids": [
+    127,
+    130
+   ],
+   "special_note_fa": "sowie (id:127) در Adverbial-کاربرد ترتیب را تغییر نمی‌دهد؛ es sei denn dass (id:130) فعل را به آخر می‌برد (Nebensatz رفتار می‌کند)",
+   "rule_en": "When these connectors stand at the start of the sentence (Pos1), the verb comes before the subject. They can also appear in the Mittelfeld (no inversion) or in Nacherstposition.",
+   "special_note_en": "sowie (id:127) does not change word order in adverbial use; es sei denn dass (id:130) sends the verb to the end (behaves like a Nebensatz)",
+   "title_en": "Adverbial / conjunctional adverbs — Pos1 with inversion"
+  },
+  {
+   "group_id": "G4",
+   "title_fa": "Doppelkonnektoren — کانکتورهای دو بخشی",
+   "title_de": "Mehrteilige Konnektoren / Doppelkonjunktionen",
+   "word_order_effect": "variable",
+   "connector_ids": [
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71
+   ],
+   "rule_fa": "هر Doppelkonnektor دو بخش جدا دارد که در دو قسمت مختلف جمله می‌آیند. تأثیر روی ترتیب بسته به جایگاه هر بخش است.",
+   "subgroups": [
+    {
+     "pattern": "je_desto",
+     "connector_ids": [
+      66,
+      71
+     ],
+     "rule_fa": "je + Komparativ [Verb am Ende], desto/umso + Komparativ + Verb + Subjekt",
+     "structure": "Je mehr du lernst, desto besser wirst du.",
+     "note_fa": "Komparativ در هر دو بخش الزامی است — 'je mehr... desto viel' ❌",
+     "note_en": "The comparative is required in both parts — 'je mehr... desto viel' ❌"
+    },
+    {
+     "pattern": "correlative_pairs",
+     "connector_ids": [
+      59,
+      60,
+      61,
+      63
+     ],
+     "rule_fa": "هر دو بخش در موقعیت مشابه در جمله‌هایشان — فعل در موقعیت دوم هر بخش",
+     "structure": "nicht nur [X], sondern auch [Y] | sowohl [X] als auch [Y]",
+     "rule_en": "Both parts in the same position in their clauses — verb in second position in each"
+    },
+    {
+     "pattern": "zwar_aber",
+     "connector_ids": [
+      62
+     ],
+     "rule_fa": "zwar در Pos1 یا Mittelfeld جمله اول؛ aber در Pos0 جمله دوم (Nullposition)",
+     "structure": "Es ist zwar [X], aber [Y].",
+     "rule_en": "zwar in Pos1 or Mittelfeld of the first clause; aber in Pos0 of the second (Nullposition)"
+    }
+   ],
+   "common_mistake_fa": "je...desto: فراموش کردن Komparativ — 'Je viel du lernst' ❌ → 'Je mehr du lernst' ✓",
+   "common_mistake_en": "je...desto: forgetting the comparative — 'Je viel du lernst' ❌ → 'Je mehr du lernst' ✓",
+   "rule_en": "Each Doppelkonnektor has two separate parts that appear in different places in the sentence. The effect on word order depends on where each part stands.",
+   "title_en": "Doppelkonnektoren — two-part connectors"
+  },
+  {
+   "group_id": "G5",
+   "title_fa": "Präpositionen — حروف اضافه با Genitiv یا Dativ",
+   "title_de": "Konnektive Präpositionen",
+   "word_order_effect": "no_change",
+   "connector_ids": [
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169
+   ],
+   "rule_fa": "این کانکتورها حرف اضافه‌اند — بعدشان اسم (یا گروه اسمی) می‌آید، نه جمله کامل. حالت اسم (Genitiv یا Dativ) بسته به هر کانکتور تعیین می‌شود.",
+   "case_subgroups": [
+    {
+     "case": "genitiv",
+     "connector_ids": [
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169
+     ],
+     "note_fa": "اکثر حروف اضافه‌ی پیشرفته → Genitiv",
+     "note_en": "Most advanced prepositions → Genitiv"
+    },
+    {
+     "case": "dativ",
+     "connector_ids": [
+      151,
+      152,
+      153,
+      154,
+      155
+     ],
+     "note_fa": "gemäß، zufolge، laut، nach، außer → Dativ",
+     "note_en": "gemäß, zufolge, laut, nach, außer → Dativ"
+    }
+   ],
+   "semantic_subgroups": [
+    {
+     "semantic": "causal",
+     "label_fa": "علّی",
+     "connector_ids": [
+      131,
+      132,
+      134,
+      136,
+      137,
+      138,
+      145,
+      160
+     ],
+     "contrast_note_fa": "aufgrund/wegen: دلیل (خنثی/منفی) | dank: دلیل مثبت | infolge: نتیجه | angesichts: در برابر",
+     "contrast_note_en": "aufgrund/wegen: reason (neutral/negative) | dank: positive reason | infolge: consequence | angesichts: in view of",
+     "label_en": "Causal"
+    },
+    {
+     "semantic": "adversative",
+     "label_fa": "تقابلی / به جای",
+     "connector_ids": [
+      133,
+      149,
+      150,
+      156,
+      162
+     ],
+     "contrast_note_fa": "trotz: با وجود | statt/anstatt/anstelle: به جای | ungeachtet: بدون توجه به",
+     "contrast_note_en": "trotz: despite | statt/anstatt/anstelle: instead of | ungeachtet: regardless of",
+     "label_en": "Concessive / instead of"
+    },
+    {
+     "semantic": "modal",
+     "label_fa": "روشی / مرجع",
+     "connector_ids": [
+      139,
+      140,
+      141,
+      142,
+      143,
+      146,
+      151,
+      152,
+      153
+     ],
+     "contrast_note_fa": "mittels/mithilfe: ابزار | gemäß/zufolge/laut: مرجع | hinsichtlich/bezüglich: در رابطه با",
+     "contrast_note_en": "mittels/mithilfe: means | gemäß/zufolge/laut: reference | hinsichtlich/bezüglich: regarding",
+     "label_en": "Modal / reference"
+    },
+    {
+     "semantic": "temporal",
+     "label_fa": "زمانی / مکانی",
+     "connector_ids": [
+      135,
+      144,
+      147,
+      148,
+      154,
+      163,
+      165,
+      166,
+      167
+     ],
+     "contrast_note_fa": "während (Präp): در طول | innerhalb: در ظرف | außerhalb: خارج از | binnen: تا",
+     "contrast_note_en": "während (prep.): during | innerhalb: within | außerhalb: outside of | binnen: within (time)",
+     "label_en": "Temporal / local"
+    }
+   ],
+   "common_mistake_fa": "trotz + Genitiv: 'trotz des Regens' ✓ | 'trotz dem Regen' ✗ (در گفتار می‌شنوید اما در نوشتار اشتباه است) | wegen در گفتار گاهی با Dativ: 'wegen dem Wetter' (در نوشتار رسمی: 'wegen des Wetters')",
+   "common_mistake_en": "trotz + Genitiv: 'trotz des Regens' ✓ | 'trotz dem Regen' ✗ (heard in speech, wrong in writing) | wegen sometimes with Dativ in speech: 'wegen dem Wetter' (formal writing: 'wegen des Wetters')",
+   "rule_en": "These connectors are prepositions — they are followed by a noun (phrase), not a full clause. The case (Genitiv or Dativ) depends on the connector.",
+   "title_en": "Prepositions — with Genitiv or Dativ"
+  },
+  {
+   "group_id": "G6",
+   "title_fa": "Relativsatz — جمله‌های وصفی با ضمایر نسبی",
+   "title_de": "Relativsätze / Relativpronomen",
+   "word_order_effect": "verb_end",
+   "connector_ids": [
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186
+   ],
+   "rule_fa": "فعل همیشه به آخر Relativsatz می‌رود. ضمیر نسبی با اسم مرجع (Bezugswort) در جنس و عدد مطابقت می‌کند، اما حالت (Kasus) از نقش آن در Relativsatz تعیین می‌شود.",
+   "structure": "اسم + , + ضمیر (جنس/عدد از اسم، حالت از نقش در جمله) + ... + فعل",
+   "case_table": {
+    "nominativ": {
+     "masc": 170,
+     "fem": 171,
+     "neut": 172,
+     "plur": 171
+    },
+    "akkusativ": {
+     "masc": 173,
+     "fem": 171,
+     "neut": 172,
+     "plur": 171
+    },
+    "dativ": {
+     "masc": 174,
+     "fem": 177,
+     "neut": 174,
+     "plur": 177
+    },
+    "genitiv": {
+     "masc": 175,
+     "fem": 176,
+     "neut": 175,
+     "plur": 176
+    }
+   },
+   "example_ids": [
+    170,
+    174,
+    175
+   ],
+   "subgroups": [
+    {
+     "type": "definite_relative",
+     "connector_ids": [
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177
+     ],
+     "note_fa": "ضمایر نسبی اصلی — از جدول der/die/das مشتق می‌شوند",
+     "note_en": "Core relative pronouns — derived from the der/die/das table"
+    },
+    {
+     "type": "formal_variant",
+     "connector_ids": [
+      178,
+      179,
+      180
+     ],
+     "note_fa": "welcher/welche/welches — در نوشتار رسمی برای تنوع استفاده می‌شود",
+     "note_en": "welcher/welche/welches — used in formal writing for variety"
+    },
+    {
+     "type": "free_relative",
+     "connector_ids": [
+      181,
+      182
+     ],
+     "note_fa": "wer/was — بدون اسم مرجع مشخص (freier Relativsatz)",
+     "note_en": "wer/was — without an explicit referent (free relative clause)"
+    },
+    {
+     "type": "locative_relative",
+     "connector_ids": [
+      183,
+      184,
+      185
+     ],
+     "note_fa": "wo/wohin/woher — برای مکان وقتی Pronominaladverb نمی‌توان استفاده کرد",
+     "note_en": "wo/wohin/woher — for places when a pronominal adverb cannot be used"
+    }
+   ],
+   "common_mistake_fa": "رایج‌ترین اشتباه: تطبیق حالت با اسم مرجع به‌جای نقش در جمله — 'Der Mann, der ich sehe' ❌ (اسم مرجع مذکر/Nom اما در Nebensatz Akkusativ است) → 'Der Mann, den ich sehe' ✓",
+   "common_mistake_en": "Most common mistake: matching the case to the referent noun instead of its role in the clause — 'Der Mann, der ich sehe' ❌ (referent is masc./Nom, but it is Akkusativ in the Nebensatz) → 'Der Mann, den ich sehe' ✓",
+   "rule_en": "The verb always moves to the end of the Relativsatz. The relative pronoun agrees with its referent (Bezugswort) in gender and number, but its case comes from its role inside the Relativsatz.",
+   "title_en": "Relativsatz — relative clauses with relative pronouns"
+  }
+ ],
+ "word_order_summary": {
+  "title_fa": "خلاصه تأثیرات روی ترتیب فعل",
+  "rows": [
+   {
+    "type": "nullposition",
+    "effect": "no_change",
+    "example": "Er ist krank, denn er schläft.",
+    "connector_ids": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "type": "nebensatz",
+    "effect": "verb_end",
+    "example": "weil er krank ist",
+    "connector_ids": [
+     7,
+     8,
+     9,
+     10,
+     11,
+     20,
+     25
+    ]
+   },
+   {
+    "type": "adverbial_pos1",
+    "effect": "inversion",
+    "example": "Deshalb bleibt er.",
+    "connector_ids": [
+     72,
+     77,
+     104,
+     107
+    ]
+   },
+   {
+    "type": "relativsatz",
+    "effect": "verb_end",
+    "example": "der Mann, der dort steht",
+    "connector_ids": [
+     170,
+     171,
+     172
+    ]
+   },
+   {
+    "type": "praeposition",
+    "effect": "no_change",
+    "example": "trotz des Regens",
+    "connector_ids": [
+     133,
+     131,
+     132
+    ]
+   }
+  ],
+  "title_en": "Summary of effects on verb order"
+ },
+ "confusable_groups": [
+  {
+   "group_label_fa": "علّی — دلیل و نتیجه",
+   "ids": [
+    2,
+    7,
+    9,
+    72,
+    73,
+    74,
+    75,
+    79,
+    104,
+    112
+   ],
+   "note_fa": "دلیل (Nebensatz): weil, da, denn | نتیجه (Adverbial): deshalb, deswegen, daher, darum, also, folglich, somit",
+   "group_label_en": "Causal — reason and result",
+   "note_en": "Reason (Nebensatz): weil, da, denn | Result (adverbial): deshalb, deswegen, daher, darum, also, folglich, somit"
+  },
+  {
+   "group_label_fa": "تقابلی — با این حال",
+   "ids": [
+    10,
+    12,
+    30,
+    32,
+    33,
+    34,
+    35,
+    77,
+    78,
+    103,
+    115,
+    117,
+    133
+   ],
+   "note_fa": "Nebensatz: obwohl, obgleich, obschon... | Adverbial: trotzdem, dennoch, gleichwohl | Präposition: trotz",
+   "group_label_en": "Concessive — nevertheless"
+  },
+  {
+   "group_label_fa": "زمانی — قبل/بعد",
+   "ids": [
+    13,
+    21,
+    44,
+    81,
+    83,
+    84
+   ],
+   "note_fa": "قبل: bevor/ehe | بعد (Konj): nachdem | بعد (Adv): danach/anschließend | قبل (Adv): vorher/zuvor",
+   "group_label_en": "Temporal — before/after",
+   "note_en": "Before: bevor/ehe | After (conj.): nachdem | After (adv.): danach/anschließend | Before (adv.): vorher/zuvor"
+  },
+  {
+   "group_label_fa": "به جای",
+   "ids": [
+    38,
+    39,
+    40,
+    49,
+    88,
+    149,
+    150,
+    162
+   ],
+   "note_fa": "Nebensatz + فاعل متفاوت: statt/anstatt dass | Nebensatz + فاعل یکسان: statt/ohne zu | Adverbial: stattdessen | Präposition: statt/anstatt/anstelle",
+   "group_label_en": "Instead of",
+   "note_en": "Nebensatz + different subject: statt/anstatt dass | Nebensatz + same subject: statt/ohne zu | Adverbial: stattdessen | Preposition: statt/anstatt/anstelle"
+  },
+  {
+   "group_label_fa": "در غیر این صورت",
+   "ids": [
+    51,
+    92,
+    93,
+    94,
+    95,
+    130
+   ],
+   "note_fa": "Nebensatz: außer wenn, es sei denn dass | Adverbial: sonst, andernfalls, anderenfalls, ansonsten",
+   "group_label_en": "Otherwise"
+  },
+  {
+   "group_label_fa": "علاوه بر این",
+   "ids": [
+    4,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    126
+   ],
+   "note_fa": "und (Nullposition) | außerdem (A2) | zudem/ebenfalls/ebenso (B1-B2) | darüber hinaus/des Weiteren/ferner (B2-C1)",
+   "group_label_en": "In addition"
+  }
+ ]
+}

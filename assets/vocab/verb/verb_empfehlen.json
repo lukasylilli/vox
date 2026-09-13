@@ -1,0 +1,196 @@
+{
+  "schema": "3.0",
+  "id": "verb_empfehlen",
+  "wort": "empfehlen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "توصیه کردن",
+      "پیشنهاد دادن"
+    ],
+    "en": [
+      "to recommend"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Kommunikation"
+  ],
+  "ipa": "ɛmˈpfeːln̩",
+  "anmerkung": "Unregelmäßig (e→ie): du empfiehlst, er empfiehlt. Konstruktion: jemandem (Dat) etwas (Akk) empfehlen.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich kann dir ein gutes Restaurant empfehlen.",
+      "uebersetzung": {
+        "fa": "می‌توانم یک رستوران خوب به تو توصیه کنم.",
+        "en": "I can recommend a good restaurant to you."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Arzt hat mir empfohlen, mehr Sport zu treiben.",
+      "uebersetzung": {
+        "fa": "دکتر به من توصیه کرد که بیشتر ورزش کنم.",
+        "en": "The doctor recommended that I do more sport."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "raten",
+      "uebersetzung": {
+        "fa": "توصیه کردن، نصیحت کردن",
+        "en": "to advise"
+      }
+    },
+    {
+      "wort": "nahelegen",
+      "uebersetzung": {
+        "fa": "به‌شدت توصیه کردن",
+        "en": "to urge, to suggest strongly"
+      }
+    },
+    {
+      "wort": "vorschlagen",
+      "uebersetzung": {
+        "fa": "پیشنهاد دادن",
+        "en": "to suggest"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "abraten",
+      "uebersetzung": {
+        "fa": "منع کردن، توصیه به انجام‌ندادن",
+        "en": "to advise against"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "emp- + -fehlen (خویشاوند با befehlen: سپردن)",
+    "en": "emp- + -fehlen (related to befehlen: to commend)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "empfehlen + Dat + Akk",
+        "bedeutung": "jemandem etwas empfehlen",
+        "beispiel": "Ich empfehle dir dieses Buch.",
+        "uebersetzung": {
+          "fa": "این کتاب را به تو توصیه می‌کنم.",
+          "en": "I recommend this book to you."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "empfehlen",
+      "praeteritum": "empfahl",
+      "partizip2": "empfohlen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "empfehle",
+        "du": "empfiehlst",
+        "er_sie_es": "empfiehlt",
+        "wir": "empfehlen",
+        "ihr": "empfehlt",
+        "sie_Sie": "empfehlen"
+      },
+      "praeteritum": {
+        "ich": "empfahl",
+        "du": "empfahlst",
+        "er_sie_es": "empfahl",
+        "wir": "empfahlen",
+        "ihr": "empfahlt",
+        "sie_Sie": "empfahlen"
+      },
+      "imperativ": {
+        "du": "Empfiehl!",
+        "ihr": "Empfehlt!",
+        "Sie": "Empfehlen Sie!"
+      }
+    },
+    "partizip1": "empfehlend",
+    "nominalisierung": "die Empfehlung"
+  },
+  "wortnetz": {
+    "grundwort": "empfehlen",
+    "woerter": [
+      {
+        "wort": "der Rat",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "توصیه، نصیحت",
+          "en": "advice"
+        },
+        "id_ref": "nomen_rat"
+      },
+      {
+        "wort": "raten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "توصیه کردن",
+          "en": "to advise"
+        },
+        "id_ref": "verb_raten"
+      },
+      {
+        "wort": "die Empfehlung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "توصیه",
+          "en": "recommendation"
+        },
+        "id_ref": "nomen_empfehlung"
+      },
+      {
+        "wort": "der Tipp",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نکته، توصیه",
+          "en": "tip"
+        },
+        "id_ref": "nomen_tipp"
+      },
+      {
+        "wort": "vorschlagen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیشنهاد دادن",
+          "en": "to suggest"
+        },
+        "id_ref": "verb_vorschlagen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Ich kann dir ein gutes Restaurant empfehlen.",
+      "dativ": [
+        "dir"
+      ],
+      "akkusativ": [
+        "ein gutes Restaurant"
+      ],
+      "uebersetzung": {
+        "fa": "می‌توانم یک رستوران خوب به تو توصیه کنم.",
+        "en": "I can recommend a good restaurant to you."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

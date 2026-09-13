@@ -1,0 +1,281 @@
+// FILE: lib/features/leitner/widgets/flash_card_widget.dart
+// DEPS: word_model.dart, article_badge.dart, audio_play_button.dart
+// PURPOSE: 3D flip flash card — front=German, back=meaning+conjugation+examples
+import 'dart:math' as math;
+
+import 'package:flutter/material.dart';
+
+import '../../../core/constants/app_sizes.dart';
+import '../../../core/constants/article_colors.dart';
+import '../../../core/l10n/app_l10n.dart';
+import '../../../core/models/word_model.dart';
+import '../../../core/widgets/article_badge.dart';
+import '../../../core/widgets/audio_play_button.dart';
+
+class FlashCardWidget extends StatefulWidget {
+  const FlashCardWidget({
+    super.key,
+    required this.model,
+    this.onFlip,
+  });
+  final WordModel model;
+  final VoidCallback? onFlip;
+
+  @override
+  State<FlashCardWidget> createState() => _FlashCardWidgetState();
+}
+
+class _FlashCardWidgetState extends State<FlashCardWidget>
+    with SingleTickerProviderStateMixin {
+  late final AnimationController _ctrl;
+  late final Animation<double>   _anim;
+  bool _showBack = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _ctrl = AnimationController(
+      vsync   : this,
+      duration: const Duration(milliseconds: 400),
+    );
+    _anim = CurvedAnimation(parent: _ctrl, curve: Curves.easeInOut);
+  }
+
+  @override
+  void didUpdateWidget(FlashCardWidget old) {
+    super.didUpdateWidget(old);
+    if (old.model != widget.model) {
+      _ctrl.value = 0;
+      setState(() => _showBack = false);
+    }
+  }
+
+  void _flip() {
+    if (_ctrl.isAnimating) return;
+    if (_showBack) {
+      _ctrl.reverse().then((_) => setState(() => _showBack = false));
+    } else {
+      _ctrl.forward().then((_) {
+        setState(() => _showBack = true);
+        widget.onFlip?.call();
+      });
+    }
+  }
+
+  @override
+  void dispose() {
+    _ctrl.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: _flip,
+      child: AnimatedBuilder(
+        animation: _anim,
+        builder  : (_, _) {
+          final angle = _anim.value * math.pi;
+          final isShowingFront = angle < math.pi / 2;
+
+          return Transform(
+            alignment: Alignment.center,
+            transform: Matrix4.identity()
+              ..setEntry(3, 2, 0.001)
+              ..rotateY(angle),
+            child: isShowingFront
+                ? _FrontFace(model: widget.model)
+                : Transform(
+                    alignment: Alignment.center,
+                    transform: Matrix4.identity()..rotateY(math.pi),
+                    child    : _BackFace(model: widget.model),
+                  ),
+          );
+        },
+      ),
+    );
+  }
+}
+
+// ── Front face ────────────────────────────────────────────────────────────────
+
+class _FrontFace extends StatelessWidget {
+  const _FrontFace({required this.model});
+  final WordModel model;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme   = Theme.of(context);
+    final scheme  = theme.colorScheme;
+    final article = model.article;
+    final color   = ArticleColors.forString(article);
+
+    return Container(
+      width      : double.infinity,
+      constraints: const BoxConstraints(minHeight: 220),
+      padding    : const EdgeInsets.all(AppSizes.xl),
+      decoration : BoxDecoration(
+        color       : scheme.surfaceContainerHigh,
+        borderRadius: BorderRadius.circular(AppSizes.radiusXl),
+        border      : Border.all(
+          color: article != null ? color.withValues(alpha: 0.5) : scheme.outline,
+          width: 2,
+        ),
+      ),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          if (article != null) ...[
+            ArticleBadge(article: article, large: true),
+            const SizedBox(height: AppSizes.sm),
+          ],
+          Text(
+            model.german,
+            style    : theme.textTheme.headlineLarge?.copyWith(
+              fontWeight: FontWeight.w800,
+              color: article != null ? color : scheme.onSurface,
+            ),
+            textAlign: TextAlign.center,
+          ),
+          if (model.plural != null) ...[
+            const SizedBox(height: AppSizes.xs),
+            Text('Pl. ${model.plural}',
+              style: theme.textTheme.bodyMedium?.copyWith(
+                color: scheme.onSurfaceVariant,
+              )),
+          ],
+          const SizedBox(height: AppSizes.lg),
+          AudioPlayButton(text: model.german),
+          const SizedBox(height: AppSizes.lg),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(Icons.touch_app_rounded,
+                  size: 16, color: scheme.onSurfaceVariant),
+              const SizedBox(width: 4),
+              Text(AppL10n.t(context, 'tap_to_reveal'),
+                style: theme.textTheme.bodySmall?.copyWith(
+                  color: scheme.onSurfaceVariant,
+                )),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+// ── Back face ─────────────────────────────────────────────────────────────────
+
+class _BackFace extends StatelessWidget {
+  const _BackFace({required this.model});
+  final WordModel model;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme  = Theme.of(context);
+    final scheme = theme.colorScheme;
+
+    return Container(
+      width      : double.infinity,
+      constraints: const BoxConstraints(minHeight: 220),
+      padding    : const EdgeInsets.all(AppSizes.lg),
+      decoration : BoxDecoration(
+        color       : scheme.primaryContainer.withValues(alpha: 0.3),
+        borderRadius: BorderRadius.circular(AppSizes.radiusXl),
+        border      : Border.all(color: scheme.primary.withValues(alpha: 0.4), width: 2),
+      ),
+      child: SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            // Meaning — nur aktive Zweitsprache (فاز L)
+            Center(
+              child: Text(
+                AppL10n.meaning(context,
+                    fa: model.meaningFa,
+                    en: model.meaningEn ?? model.meaningFa),
+                style    : theme.textTheme.headlineSmall?.copyWith(
+                  fontWeight: FontWeight.w700,
+                ),
+                textAlign: TextAlign.center,
+              ),
+            ),
+
+            // Conjugation table (verbs)
+            if (model.conjugation != null) ...[
+              const SizedBox(height: AppSizes.md),
+              const Divider(),
+              _ConjRow('Infinitiv',  model.conjugation!.infinitiv),
+              _ConjRow('Präsens',    model.conjugation!.praesens),
+              _ConjRow('Präteritum', model.conjugation!.praeteritum),
+              _ConjRow('Partizip II',model.conjugation!.partizip),
+            ],
+
+            // Examples
+            if (model.examples.isNotEmpty) ...[
+              const SizedBox(height: AppSizes.md),
+              const Divider(),
+              ...model.examples.take(3).map((ex) => Padding(
+                padding: const EdgeInsets.only(bottom: 4),
+                child  : Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Icon(Icons.format_quote_rounded,
+                        size: 14, color: scheme.primary),
+                    const SizedBox(width: 4),
+                    Expanded(
+                      child: Text(ex,
+                        style: theme.textTheme.bodySmall,
+                      ),
+                    ),
+                  ],
+                ),
+              )),
+            ],
+
+            // Grammar note
+            if (model.grammarNote != null) ...[
+              const SizedBox(height: 8),
+              Text(model.grammarNote!,
+                style: theme.textTheme.bodySmall?.copyWith(
+                  color: scheme.primary,
+                  fontStyle: FontStyle.italic,
+                )),
+            ],
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _ConjRow extends StatelessWidget {
+  const _ConjRow(this.label, this.value);
+  final String label, value;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 2),
+      child  : Row(
+        children: [
+          SizedBox(
+            width: 90,
+            child: Text(label,
+              style: theme.textTheme.bodySmall?.copyWith(
+                color: theme.colorScheme.onSurfaceVariant,
+              )),
+          ),
+          Expanded(
+            child: Text(value,
+              style: theme.textTheme.bodyMedium?.copyWith(
+                fontWeight: FontWeight.w500,
+              )),
+          ),
+        ],
+      ),
+    );
+  }
+}

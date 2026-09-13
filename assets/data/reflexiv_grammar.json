@@ -1,0 +1,916 @@
+{
+ "title_de": "Reflexive Verben",
+ "title_fa": "افعال انعکاسی (Reflexive Verben)",
+ "title_en": "Reflexive Verbs",
+ "summary_fa": "افعال انعکاسی افعالی هستند که عمل فعل به خودِ فاعل بازمی‌گردد. در آلمانی این افعال با یک ضمیر انعکاسی (Reflexivpronomen) همراه می‌شوند که بسته به جمله در حالت Akkusativ یا Dativ قرار می‌گیرد.",
+ "summary_en": "Reflexive verbs are verbs where the action of the verb refers back to the subject itself. In German, these verbs are accompanied by a reflexive pronoun (Reflexivpronomen) which stands in either the Accusative or Dative case depending on the sentence.",
+ "sections": [
+  {
+   "section_id": "what_is_reflexive",
+   "title_fa": "فعل انعکاسی چیست؟",
+   "title_en": "What is a Reflexive Verb?",
+   "explanation_fa": "وقتی فاعل جمله و مفعول آن یک نفر هستند — یعنی عمل فعل به خودِ فاعل برمی‌گردد — از فعل انعکاسی استفاده می‌شود.\n\nمثال: «من خودم را می‌شویم.» — فاعل (من) و مفعول (خودم) یکی هستند.\n\nدر آلمانی این حالت با یک ضمیر انعکاسی مشخص می‌شود:\nIch wasche mich. (مفعول = mich = خودم)\n\nبرخلاف فارسی که می‌توان گفت «می‌نشینم» بدون توضیح اضافه، آلمانی می‌گوید:\nIch setze mich. (نه: Ich setze) — ضمیر انعکاسی حذف‌نشدنی است.",
+   "explanation_en": "When the subject and object of a sentence are the same person — i.e. the action of the verb refers back to the subject — a reflexive verb is used.\n\nExample: 'I wash myself.' — the subject (I) and the object (myself) are the same person.\n\nIn German, this is marked by a reflexive pronoun:\nIch wasche mich. (object = mich = myself)\n\nUnlike Persian where you can just say the verb, German requires the reflexive pronoun — it cannot be omitted.",
+   "examples": [
+    {
+     "de": "Ich setze mich.",
+     "fa": "می‌نشینم. (تحت‌اللفظی: من خودم را می‌نشانم.)",
+     "en": "I sit down. (lit. I seat myself.)"
+    },
+    {
+     "de": "Er wäscht sich.",
+     "fa": "او خودش را می‌شوید.",
+     "en": "He washes himself."
+    },
+    {
+     "de": "Wir freuen uns.",
+     "fa": "ما خوشحال هستیم.",
+     "en": "We are happy."
+    }
+   ]
+  },
+  {
+   "section_id": "reflexive_pronouns",
+   "title_fa": "ضمایر انعکاسی (Reflexivpronomen)",
+   "title_en": "Reflexive Pronouns (Reflexivpronomen)",
+   "explanation_fa": "ضمایر انعکاسی بسته به شخص فاعل و حالت دستوری (Akkusativ یا Dativ) فرق می‌کنند. در سوم شخص و جمع، ضمیر انعکاسی همیشه 'sich' است.",
+   "explanation_en": "Reflexive pronouns vary depending on the grammatical person and case (Accusative or Dative). In the third person and formal Sie, the reflexive pronoun is always 'sich'.",
+   "table": {
+    "headers": [
+     "Person",
+     "Akkusativ",
+     "Dativ"
+    ],
+    "rows": [
+     [
+      "ich",
+      "mich",
+      "mir"
+     ],
+     [
+      "du",
+      "dich",
+      "dir"
+     ],
+     [
+      "er / sie / es",
+      "sich",
+      "sich"
+     ],
+     [
+      "wir",
+      "uns",
+      "uns"
+     ],
+     [
+      "ihr",
+      "euch",
+      "euch"
+     ],
+     [
+      "sie / Sie",
+      "sich",
+      "sich"
+     ]
+    ]
+   },
+   "note_fa": "نکته: برای شخص‌های اول و دوم (ich/du/wir/ihr) ضمیر Akkusativ و Dativ فرق دارد (mich/mir, dich/dir). ولی برای سوم شخص و Sie همیشه 'sich' است — هم در Akkusativ هم در Dativ.",
+   "note_en": "Note: For first and second persons (ich/du/wir/ihr), the Accusative and Dative pronouns differ (mich/mir, dich/dir). But for the third person and Sie, it is always 'sich' — both in Accusative and Dative.",
+   "examples": [
+    {
+     "de": "Ich freue mich.",
+     "fa": "خوشحالم.",
+     "en": "I'm happy."
+    },
+    {
+     "de": "Du freust dich.",
+     "fa": "تو خوشحالی.",
+     "en": "You're happy."
+    },
+    {
+     "de": "Er / Sie freut sich.",
+     "fa": "او خوشحال است.",
+     "en": "He / She is happy."
+    },
+    {
+     "de": "Wir freuen uns.",
+     "fa": "ما خوشحالیم.",
+     "en": "We're happy."
+    },
+    {
+     "de": "Ihr freut euch.",
+     "fa": "شما (جمع) خوشحالید.",
+     "en": "You all are happy."
+    },
+    {
+     "de": "Sie / Sie freuen sich.",
+     "fa": "آن‌ها / شما (رسمی) خوشحالند.",
+     "en": "They / You (formal) are happy."
+    }
+   ]
+  },
+  {
+   "section_id": "three_types",
+   "title_fa": "سه نوع فعل انعکاسی",
+   "title_en": "Three Types of Reflexive Verbs",
+   "types": [
+    {
+     "type_id": "echte",
+     "title_fa": "نوع اول: افعال همیشه انعکاسی (echte Reflexivverben)",
+     "title_en": "Type 1: Always-Reflexive Verbs (echte Reflexivverben)",
+     "explanation_fa": "این افعال فقط با ضمیر انعکاسی معنا دارند و بدون آن کاملاً غیردستوری یا بی‌معنی می‌شوند. نمی‌توان ضمیر انعکاسی را با اسم یا ضمیر دیگری جایگزین کرد.\n\nمثال: sich beeilen (عجله کردن)\n✅ Ich beeile mich.\n❌ Ich beeile Klaus. (بی‌معنی — نمی‌شود گفت «من کلاوس را عجله می‌کنم»)\n\nاین افعال در فرهنگ لغت با 'sich' نشان داده می‌شوند: sich freuen, sich erholen, sich beeilen, ...",
+     "explanation_en": "These verbs only make sense with a reflexive pronoun and become completely ungrammatical or meaningless without it. The reflexive pronoun cannot be replaced by a noun or other pronoun.\n\nExample: sich beeilen (to hurry up)\n✅ Ich beeile mich.\n❌ Ich beeile Klaus. (nonsense — you can't 'hurry someone up' with this verb)\n\nThese verbs are listed in the dictionary with 'sich': sich freuen, sich erholen, sich beeilen, ...",
+     "common_verb_ids": [
+      6,
+      8,
+      13,
+      15,
+      17,
+      18,
+      19,
+      26,
+      29,
+      31,
+      35,
+      97,
+      98,
+      99,
+      100,
+      105
+     ],
+     "examples": [
+      {
+       "de": "Ich beeile mich.",
+       "fa": "عجله می‌کنم.",
+       "en": "I'm hurrying up."
+      },
+      {
+       "de": "Er erholt sich im Urlaub.",
+       "fa": "او در تعطیلات استراحت می‌کند.",
+       "en": "He's recuperating on holiday."
+      },
+      {
+       "de": "Sie hat sich erkältet.",
+       "fa": "او سرما خورده است.",
+       "en": "She has caught a cold."
+      },
+      {
+       "de": "Wir freuen uns auf das Fest.",
+       "fa": "منتظر جشن هستیم.",
+       "en": "We're looking forward to the party."
+      }
+     ]
+    },
+    {
+     "type_id": "unechte",
+     "title_fa": "نوع دوم: افعال گاهی انعکاسی (unechte Reflexivverben)",
+     "title_en": "Type 2: Sometimes-Reflexive Verbs (unechte Reflexivverben)",
+     "explanation_fa": "این افعال می‌توانند هم انعکاسی (عمل به خود فاعل) هم غیرانعکاسی (عمل به شخص/چیز دیگر) باشند. معنی اغلب تغییر می‌کند.\n\nمثال: waschen\n• انعکاسی: Ich wasche mich. (خودم را می‌شویم)\n• غیرانعکاسی: Ich wasche das Auto. (ماشین را می‌شویم)\n\nراه تشخیص: آیا می‌توان مفعول را به اسم یا ضمیر دیگری تغییر داد؟ اگر بله → unechtes Reflexivverb",
+     "explanation_en": "These verbs can be used both reflexively (action on the subject) and non-reflexively (action on another person/thing). The meaning often changes.\n\nExample: waschen\n• Reflexive: Ich wasche mich. (I wash myself)\n• Non-reflexive: Ich wasche das Auto. (I wash the car)\n\nHow to tell: can you replace the reflexive pronoun with a noun or different pronoun? If yes → unechtes Reflexivverb",
+     "common_verb_ids": [
+      46,
+      49,
+      50,
+      55,
+      57,
+      63,
+      64,
+      65,
+      66,
+      68,
+      69,
+      70,
+      73,
+      76,
+      77,
+      78,
+      81,
+      83,
+      84,
+      85,
+      86,
+      88,
+      89,
+      90,
+      110,
+      112,
+      113
+     ],
+     "examples": [
+      {
+       "de_reflexive": "Ich wasche mich. (انعکاسی — خودم را)",
+       "de_non_reflexive": "Ich wasche das Auto. (غیرانعکاسی — ماشین را)",
+       "fa_reflexive": "خودم را می‌شویم.",
+       "fa_non_reflexive": "ماشین را می‌شویم.",
+       "en_reflexive": "I wash myself.",
+       "en_non_reflexive": "I wash the car."
+      },
+      {
+       "de_reflexive": "Ich ärgere mich über ihn. (انعکاسی — از دستش عصبانی هستم)",
+       "de_non_reflexive": "Er ärgert mich. (غیرانعکاسی — مرا اذیت می‌کند)",
+       "fa_reflexive": "از دستش عصبانی هستم.",
+       "fa_non_reflexive": "مرا اذیت می‌کند.",
+       "en_reflexive": "I'm annoyed at him.",
+       "en_non_reflexive": "He's annoying me."
+      },
+      {
+       "de_reflexive": "Das Kind hat sich verändert. (انعکاسی — خودش تغییر کرده)",
+       "de_non_reflexive": "Wir haben etwas verändert. (غیرانعکاسی — چیزی را تغییر دادیم)",
+       "fa_reflexive": "بچه تغییر کرده است.",
+       "fa_non_reflexive": "ما چیزی را تغییر دادیم.",
+       "en_reflexive": "The child has changed.",
+       "en_non_reflexive": "We changed something."
+      }
+     ]
+    },
+    {
+     "type_id": "dativ_reflexive",
+     "title_fa": "نوع سوم: انعکاسی با Dativ — sich etw. (اسم) / sich (Dat.) etwas تصاحب کردن",
+     "title_en": "Type 3: Dative-Reflexive — sich (Dat.) etw.",
+     "explanation_fa": "در این نوع، ضمیر انعکاسی در حالت Dativ است (نه Akkusativ)، چون یک مفعول دیگر در حالت Akkusativ هم در جمله هست.\n\nقانون: اگر بجز ضمیر انعکاسی، یک مفعول Akkusativ دیگر هم در جمله باشد، ضمیر انعکاسی به Dativ تبدیل می‌شود.\n\nمثال ساده:\n• Ich wasche mich. (فقط mich → Akkusativ)\n• Ich wasche mir die Hände. (mir = Dativ + die Hände = Akkusativ)",
+     "explanation_en": "In this type, the reflexive pronoun is in the Dative case (not Accusative), because there is another object in the Accusative case in the sentence.\n\nRule: If there is an Accusative object in the sentence in addition to the reflexive pronoun, the reflexive pronoun switches to Dative.\n\nSimple example:\n• Ich wasche mich. (only mich → Accusative)\n• Ich wasche mir die Hände. (mir = Dative + die Hände = Accusative)",
+     "common_verb_ids": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96
+     ],
+     "examples": [
+      {
+       "de": "Ich wasche mir die Hände.",
+       "fa": "من دست‌هایم را می‌شویم.",
+       "en": "I wash my hands.",
+       "highlight": {
+        "dativ": "mir",
+        "akkusativ": "die Hände"
+       },
+       "note_fa": "mir = Dativ (چون die Hände = Akkusativ هم هست)",
+       "note_en": "mir = Dativ (because die Hände is already the Akkusativ)"
+      },
+      {
+       "de": "Du musst dir die Wörter gut einprägen.",
+       "fa": "باید لغات را خوب به خاطر بسپاری.",
+       "en": "You need to memorize the words well.",
+       "highlight": {
+        "dativ": "dir",
+        "akkusativ": "die Wörter"
+       }
+      },
+      {
+       "de": "Ich habe mir seinen Namen sofort gemerkt.",
+       "fa": "فوراً نام او را به خاطر سپردم.",
+       "en": "I immediately remembered his name.",
+       "highlight": {
+        "dativ": "mir",
+        "akkusativ": "seinen Namen"
+       }
+      },
+      {
+       "de": "Ich gönne mir eine Pause.",
+       "fa": "به خودم یک استراحت می‌دهم.",
+       "en": "I'm treating myself to a break.",
+       "highlight": {
+        "dativ": "mir",
+        "akkusativ": "eine Pause"
+       }
+      },
+      {
+       "de": "Er rasiert sich das Gesicht.",
+       "fa": "او صورتش را می‌تراشد.",
+       "en": "He shaves his face.",
+       "highlight": {
+        "dativ": "sich",
+        "akkusativ": "das Gesicht"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "section_id": "akkusativ_vs_dativ_pronoun",
+   "title_fa": "چه موقع mich/dich و چه موقع mir/dir؟",
+   "title_en": "When to Use mich/dich vs. mir/dir?",
+   "explanation_fa": "این یکی از مهم‌ترین و رایج‌ترین سؤالات درباره‌ی افعال انعکاسی است:\n\n▶ اگر ضمیر انعکاسی تنها مفعول جمله باشد → Akkusativ (mich, dich, sich, uns, euch)\n▶ اگر مفعول Akkusativ دیگری هم در جمله باشد → ضمیر انعکاسی به Dativ تبدیل می‌شود (mir, dir, sich, uns, euch)\n\nقانون ساده: اگر جمله «etw.» (چیزی) داشت بعد از فعل → ضمیر انعکاسی Dativ می‌شود.",
+   "explanation_en": "This is one of the most important and frequently asked questions about reflexive verbs:\n\n▶ If the reflexive pronoun is the only object in the sentence → Accusative (mich, dich, sich, uns, euch)\n▶ If there is another Accusative object in the sentence → the reflexive pronoun switches to Dative (mir, dir, sich, uns, euch)\n\nSimple rule: if the sentence has 'etw.' (something) after the verb → the reflexive pronoun becomes Dative.",
+   "comparison_pairs": [
+    {
+     "akkusativ": {
+      "de": "Ich kämme mich.",
+      "fa": "خودم را شانه می‌کنم.",
+      "en": "I comb myself."
+     },
+     "dativ": {
+      "de": "Ich kämme mir die Haare.",
+      "fa": "موهایم را شانه می‌کنم.",
+      "en": "I comb my hair."
+     },
+     "explanation_fa": "وقتی فقط «خودم» است → mich (Akk). وقتی «موهایم» (Akk) هم هست → mir (Dat).",
+     "explanation_en": "With only \"myself\" → mich (Akk). With \"my hair\" (Akk) as well → mir (Dat)."
+    },
+    {
+     "akkusativ": {
+      "de": "Ich wasche mich.",
+      "fa": "خودم را می‌شویم.",
+      "en": "I wash myself."
+     },
+     "dativ": {
+      "de": "Ich wasche mir die Hände.",
+      "fa": "دست‌هایم را می‌شویم.",
+      "en": "I wash my hands."
+     },
+     "explanation_fa": "وقتی فقط «خودم» است → mich (Akk). وقتی «دست‌هایم» (Akk) هم هست → mir (Dat).",
+     "explanation_en": "With only \"myself\" → mich (Akk). With \"my hands\" (Akk) as well → mir (Dat)."
+    },
+    {
+     "akkusativ": {
+      "de": "Du ziehst dich an.",
+      "fa": "لباس می‌پوشی.",
+      "en": "You get dressed."
+     },
+     "dativ": {
+      "de": "Du ziehst dir die Jacke an.",
+      "fa": "ژاکتت را می‌پوشی.",
+      "en": "You put on your jacket."
+     },
+     "explanation_fa": "وقتی فقط «خودت» است → dich (Akk). وقتی «ژاکت» (Akk) هم هست → dir (Dat).",
+     "explanation_en": "With only \"yourself\" → dich (Akk). With \"the jacket\" (Akk) as well → dir (Dat)."
+    },
+    {
+     "akkusativ": {
+      "de": "Er verbrennt sich.",
+      "fa": "خودش را می‌سوزاند.",
+      "en": "He burns himself."
+     },
+     "dativ": {
+      "de": "Er verbrennt sich die Finger.",
+      "fa": "انگشتانش را می‌سوزاند.",
+      "en": "He burns his fingers."
+     },
+     "explanation_fa": "وقتی فقط «خودش» است → sich (Akk). وقتی «انگشتانش» (Akk) هم هست → sich (Dat) — در سوم شخص هر دو 'sich' هستند ولی معنایشان فرق دارد.",
+     "explanation_en": "With only \"himself\" → sich (Akk). With \"his fingers\" (Akk) as well → sich (Dat) — identical in the 3rd person."
+    }
+   ],
+   "note_fa": "نکته درباره‌ی سوم شخص: برای سوم شخص (er/sie/es/sie/Sie) هم Akkusativ هم Dativ انعکاسی 'sich' هستند. پس در نوشتار تفاوت ندارد، ولی در تحلیل دستوری مهم است.",
+   "note_en": "Note on third person: For the third person (er/sie/es/sie/Sie), both Accusative and Dative reflexive pronouns are 'sich'. So in writing there's no visual difference, but grammatically they are different."
+  },
+  {
+   "section_id": "prepositions_with_reflexive",
+   "title_fa": "افعال انعکاسی با حرف اضافه‌ی ثابت",
+   "title_en": "Reflexive Verbs with Fixed Prepositions",
+   "explanation_fa": "بسیاری از افعال انعکاسی با یک حرف اضافه‌ی ثابت همراه می‌آیند که باید آن را کنار فعل حفظ کرد. حرف اضافه گاهی Akkusativ و گاهی Dativ می‌گیرد.\n\nنکته مهم: حرف اضافه‌ی بعد از فعل انعکاسی، ربطی به Akkusativ/Dativ بودن ضمیر انعکاسی ندارد — آن‌ها دو سؤال جدا هستند.",
+   "explanation_en": "Many reflexive verbs come with a fixed preposition that must be learned together with the verb. The preposition sometimes takes Accusative and sometimes Dative.\n\nImportant note: the preposition after the reflexive verb is independent from whether the reflexive pronoun is Accusative or Dative — they are two separate questions.",
+   "groups": [
+    {
+     "preposition": "auf + Akkusativ",
+     "verb_ids_example": [
+      15,
+      18,
+      83
+     ],
+     "examples": [
+      {
+       "de": "sich freuen auf + Akk.",
+       "fa": "منتظر چیزی بودن",
+       "example_de": "Ich freue mich auf das Wochenende.",
+       "example_fa": "منتظر آخر هفته هستم.",
+       "en": "to look forward to something",
+       "example_en": "I'm looking forward to the weekend."
+      },
+      {
+       "de": "sich konzentrieren auf + Akk.",
+       "fa": "تمرکز کردن بر",
+       "example_de": "Konzentrier dich auf die Aufgabe.",
+       "example_fa": "روی تکلیف تمرکز کن.",
+       "en": "to concentrate on",
+       "example_en": "Concentrate on the homework."
+      },
+      {
+       "de": "sich vorbereiten auf + Akk.",
+       "fa": "آماده شدن برای",
+       "example_de": "Ich bereite mich auf die Prüfung vor.",
+       "example_fa": "برای امتحان آماده می‌شوم.",
+       "en": "to prepare for",
+       "example_en": "I'm preparing for the exam."
+      }
+     ]
+    },
+    {
+     "preposition": "über + Akkusativ",
+     "verb_ids_example": [
+      15,
+      36,
+      49,
+      50
+     ],
+     "examples": [
+      {
+       "de": "sich freuen über + Akk.",
+       "fa": "از چیزی خوشحال بودن",
+       "example_de": "Ich freue mich über das Geschenk.",
+       "example_fa": "از هدیه خوشحالم.",
+       "en": "to be happy about something",
+       "example_en": "I'm happy about the gift."
+      },
+      {
+       "de": "sich wundern über + Akk.",
+       "fa": "از چیزی تعجب کردن",
+       "example_de": "Ich wundere mich über sein Verhalten.",
+       "example_fa": "از رفتارش تعجب می‌کنم.",
+       "en": "to be surprised at something",
+       "example_en": "I'm surprised at his behaviour."
+      },
+      {
+       "de": "sich ärgern über + Akk.",
+       "fa": "از چیزی/کسی عصبانی بودن",
+       "example_de": "Ich ärgere mich über den Stau.",
+       "example_fa": "از ترافیک عصبانی هستم.",
+       "en": "to be annoyed about something/someone",
+       "example_en": "I'm annoyed about the traffic."
+      }
+     ]
+    },
+    {
+     "preposition": "für + Akkusativ",
+     "verb_ids_example": [
+      11,
+      16,
+      23,
+      52
+     ],
+     "examples": [
+      {
+       "de": "sich interessieren für + Akk.",
+       "fa": "علاقه داشتن به",
+       "example_de": "Ich interessiere mich für Musik.",
+       "example_fa": "به موسیقی علاقه دارم.",
+       "en": "to be interested in",
+       "example_en": "I'm interested in music."
+      },
+      {
+       "de": "sich einsetzen für + Akk.",
+       "fa": "حمایت کردن از / تلاش کردن برای",
+       "example_de": "Sie setzt sich für Gerechtigkeit ein.",
+       "example_fa": "او برای عدالت تلاش می‌کند.",
+       "en": "to stand up for / campaign for",
+       "example_en": "She campaigns for justice."
+      }
+     ]
+    },
+    {
+     "preposition": "um + Akkusativ",
+     "verb_ids_example": [
+      19,
+      105
+     ],
+     "examples": [
+      {
+       "de": "sich kümmern um + Akk.",
+       "fa": "مراقبت کردن از",
+       "example_de": "Ich kümmere mich um die Kinder.",
+       "example_fa": "از بچه‌ها مراقبت می‌کنم.",
+       "en": "to take care of",
+       "example_en": "I take care of the children."
+      },
+      {
+       "de": "sich bemühen um + Akk.",
+       "fa": "تلاش کردن برای",
+       "example_de": "Er bemüht sich um eine Lösung.",
+       "example_fa": "برای یافتن راه‌حل تلاش می‌کند.",
+       "en": "to strive for",
+       "example_en": "He strives to find a solution."
+      }
+     ]
+    },
+    {
+     "preposition": "mit + Dativ",
+     "verb_ids_example": [
+      1,
+      7,
+      27,
+      51,
+      75
+     ],
+     "examples": [
+      {
+       "de": "sich befassen mit + Dat.",
+       "fa": "پرداختن به",
+       "example_de": "Ich befasse mich mit diesem Thema.",
+       "example_fa": "به این موضوع می‌پردازم.",
+       "en": "to deal with",
+       "example_en": "I deal with this topic."
+      },
+      {
+       "de": "sich verabreden mit + Dat.",
+       "fa": "قرار ملاقات گذاشتن با",
+       "example_de": "Ich verabrede mich mit ihr.",
+       "example_fa": "با او قرار می‌گذارم.",
+       "en": "to arrange to meet with",
+       "example_en": "I arrange to meet her."
+      },
+      {
+       "de": "sich unterhalten mit + Dat.",
+       "fa": "صحبت کردن با",
+       "example_de": "Ich unterhalte mich gern mit ihm.",
+       "example_fa": "دوست دارم با او صحبت کنم.",
+       "en": "to talk with",
+       "example_en": "I like talking with him."
+      }
+     ]
+    },
+    {
+     "preposition": "nach + Dativ",
+     "verb_ids_example": [
+      14,
+      22,
+      25
+     ],
+     "examples": [
+      {
+       "de": "sich erkundigen nach + Dat.",
+       "fa": "جویا شدن از",
+       "example_de": "Ich erkundige mich nach dem Termin.",
+       "example_fa": "درباره‌ی قرار جویا می‌شوم.",
+       "en": "to inquire about",
+       "example_en": "I inquire about the appointment."
+      },
+      {
+       "de": "sich sehnen nach + Dat.",
+       "fa": "دلتنگ بودن برای",
+       "example_de": "Sie sehnt sich nach ihrer Heimat.",
+       "example_fa": "دلتنگ وطنش است.",
+       "en": "to long for",
+       "example_en": "She longs for her homeland."
+      }
+     ]
+    },
+    {
+     "preposition": "an + Akkusativ",
+     "verb_ids_example": [
+      66,
+      69,
+      100,
+      107
+     ],
+     "examples": [
+      {
+       "de": "sich erinnern an + Akk.",
+       "fa": "به یاد آوردن",
+       "example_de": "Ich erinnere mich an sie.",
+       "example_fa": "او را به یاد می‌آورم.",
+       "en": "to remember",
+       "example_en": "I remember him."
+      },
+      {
+       "de": "sich gewöhnen an + Akk.",
+       "fa": "عادت کردن به",
+       "example_de": "Ich gewöhne mich ans Klima.",
+       "example_fa": "به آب و هوا عادت می‌کنم.",
+       "en": "to get used to",
+       "example_en": "I'm getting used to the climate."
+      },
+      {
+       "de": "sich auswirken auf + Akk.",
+       "fa": "تأثیر داشتن بر",
+       "example_de": "Das wirkt sich auf die Noten aus.",
+       "example_fa": "این روی نمره‌ها تأثیر می‌گذارد.",
+       "en": "to have an effect on",
+       "example_en": "This affects the grades."
+      }
+     ]
+    },
+    {
+     "preposition": "von + Dativ",
+     "verb_ids_example": [
+      37,
+      73,
+      76
+     ],
+     "examples": [
+      {
+       "de": "sich trennen von + Dat.",
+       "fa": "جدا شدن از",
+       "example_de": "Sie trennt sich von ihm.",
+       "example_fa": "از او جدا می‌شود.",
+       "en": "to separate from",
+       "example_en": "She separates from him."
+      },
+      {
+       "de": "sich verabschieden von + Dat.",
+       "fa": "خداحافظی کردن از",
+       "example_de": "Ich verabschiede mich von euch.",
+       "example_fa": "از شما خداحافظی می‌کنم.",
+       "en": "to say goodbye to",
+       "example_en": "I say goodbye to you."
+      },
+      {
+       "de": "sich zurückziehen aus + Dat.",
+       "fa": "کنار کشیدن از",
+       "example_de": "Sie zieht sich aus dem Job zurück.",
+       "example_fa": "از کار کنار می‌کشد.",
+       "en": "to withdraw from",
+       "example_en": "He withdraws from the job."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "section_id": "word_order",
+   "title_fa": "جایگاه ضمیر انعکاسی در جمله",
+   "title_en": "Position of the Reflexive Pronoun in the Sentence",
+   "rules": [
+    {
+     "rule_id": "main_clause",
+     "title_fa": "در جمله‌ی اصلی",
+     "title_en": "In a Main Clause",
+     "explanation_fa": "ضمیر انعکاسی بلافاصله بعد از فعل صرف‌شده (یا بعد از فاعل اگر فاعل بعد از فعل آمده باشد) می‌آید.",
+     "explanation_en": "The reflexive pronoun comes immediately after the conjugated verb (or after the subject if the subject comes after the verb).",
+     "examples": [
+      {
+       "de": "Ich freue mich.",
+       "fa": "خوشحالم.",
+       "en": "I'm happy."
+      },
+      {
+       "de": "Heute freue ich mich.",
+       "fa": "امروز خوشحالم.",
+       "en": "Today I'm happy."
+      },
+      {
+       "de": "Über das Ergebnis freue ich mich sehr.",
+       "fa": "از نتیجه خیلی خوشحالم.",
+       "en": "I'm very happy about the result."
+      }
+     ]
+    },
+    {
+     "rule_id": "subordinate_clause",
+     "title_fa": "در جمله‌ی وابسته (Nebensatz)",
+     "title_en": "In a Subordinate Clause",
+     "explanation_fa": "در جمله‌ی وابسته فعل به انتها می‌رود و ضمیر انعکاسی بعد از فاعل می‌آید.",
+     "explanation_en": "In a subordinate clause the verb goes to the end and the reflexive pronoun comes after the subject.",
+     "examples": [
+      {
+       "de": "Ich weiß, dass er sich freut.",
+       "fa": "می‌دانم که او خوشحال است.",
+       "en": "I know that he is happy."
+      },
+      {
+       "de": "Weil wir uns beeilen müssen, gehen wir jetzt.",
+       "fa": "چون باید عجله کنیم، الان می‌رویم.",
+       "en": "Because we need to hurry, we're leaving now."
+      }
+     ]
+    },
+    {
+     "rule_id": "with_modal",
+     "title_fa": "با فعل وجهی (Modalverb)",
+     "title_en": "With a Modal Verb",
+     "explanation_fa": "فعل وجهی صرف می‌شود و به جایگاه دوم می‌رود، فعل انعکاسی به انتهای جمله می‌رود، ولی ضمیر انعکاسی بلافاصله بعد از فاعل می‌ماند.",
+     "explanation_en": "The modal verb is conjugated and goes to position 2, the reflexive verb goes to the end, but the reflexive pronoun stays right after the subject.",
+     "examples": [
+      {
+       "de": "Ich muss mich beeilen.",
+       "fa": "باید عجله کنم.",
+       "en": "I need to hurry up."
+      },
+      {
+       "de": "Du sollst dich anmelden.",
+       "fa": "باید ثبت‌نام کنی.",
+       "en": "You should register."
+      },
+      {
+       "de": "Er will sich erholen.",
+       "fa": "می‌خواهد استراحت کند.",
+       "en": "He wants to recuperate."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "section_id": "reciprocal",
+   "title_fa": "افعال متقابل (Reziproke Verben) — sich = یکدیگر",
+   "title_en": "Reciprocal Verbs — sich = each other",
+   "explanation_fa": "برخی افعال با 'sich' بیان می‌کنند که دو نفر (یا بیشتر) عمل را روی یکدیگر انجام می‌دهند. این‌ها 'sich' را می‌توان با 'einander' (یکدیگر) جایگزین کرد.\n\nاین افعال همیشه در حالت جمع استفاده می‌شوند.",
+   "explanation_en": "Some verbs use 'sich' to express that two or more people perform the action on each other. The 'sich' can be replaced with 'einander' (each other).\n\nThese verbs are always used in the plural.",
+   "examples": [
+    {
+     "de": "Wir treffen uns morgen.",
+     "fa": "فردا با هم ملاقات می‌کنیم.",
+     "en": "We're meeting (each other) tomorrow."
+    },
+    {
+     "de": "Sie streiten sich jeden Tag.",
+     "fa": "هر روز با هم دعوا می‌کنند.",
+     "en": "They argue with each other every day."
+    },
+    {
+     "de": "Wir verstehen uns gut.",
+     "fa": "خوب با هم کنار می‌آییم.",
+     "en": "We get on well with each other."
+    },
+    {
+     "de": "Sie kennen sich seit Jahren.",
+     "fa": "سال‌هاست که همدیگر را می‌شناسند.",
+     "en": "They've known each other for years."
+    }
+   ],
+   "note_fa": "einander جایگزین: Wir treffen uns = Wir treffen einander. هر دو درست هستند، 'einander' کمی رسمی‌تر است.",
+   "note_en": "Einander substitute: Wir treffen uns = Wir treffen einander. Both are correct; 'einander' is slightly more formal."
+  },
+  {
+   "section_id": "partizip_perfekt",
+   "title_fa": "Partizip II (حالت پرفکت) افعال انعکاسی",
+   "title_en": "Partizip II (Perfect) of Reflexive Verbs",
+   "explanation_fa": "افعال انعکاسی در حالت پرفکت همیشه با فعل کمکی 'haben' ساخته می‌شوند — حتی اگر فعل پایه (بدون sich) با 'sein' صرف شود.\n\nضمیر انعکاسی بین فعل کمکی و Partizip II می‌ماند.",
+   "explanation_en": "Reflexive verbs in the perfect tense always use 'haben' as the auxiliary — even if the base verb (without sich) would use 'sein'.\n\nThe reflexive pronoun stays between the auxiliary verb and the Partizip II.",
+   "examples": [
+    {
+     "de": "Ich habe mich erkältet.",
+     "fa": "سرما خوردم.",
+     "en": "I caught a cold."
+    },
+    {
+     "de": "Er hat sich verletzt.",
+     "fa": "آسیب دید.",
+     "en": "He injured himself."
+    },
+    {
+     "de": "Sie haben sich verabredet.",
+     "fa": "با هم قرار گذاشتند.",
+     "en": "They arranged to meet."
+    },
+    {
+     "de": "Wir haben uns gut unterhalten.",
+     "fa": "خوب صحبت کردیم.",
+     "en": "We had a good chat."
+    }
+   ],
+   "important_note_fa": "استثنا: sich legen, sich setzen, sich stellen — افعالی که حرکت را بیان می‌کنند. در واقع همه‌ی افعال انعکاسی با haben صرف می‌شوند چون sich یک مفعول Akkusativ است و افعال با مفعول Akkusativ از haben استفاده می‌کنند.",
+   "important_note_en": "The reason: all reflexive verbs use haben because sich is an Accusative object, and verbs with an Accusative object use haben as their auxiliary."
+  },
+  {
+   "section_id": "common_mistakes",
+   "title_fa": "خطاهای رایج زبان‌آموزان فارسی‌زبان",
+   "title_en": "Common Mistakes by Persian-Speaking Learners",
+   "mistakes": [
+    {
+     "mistake_id": "omitting_sich",
+     "title_fa": "حذف کردن sich (اشتباه رایج شماره ۱)",
+     "explanation_fa": "در فارسی اغلب نیازی به «خودم/خودت» نیست، ولی در آلمانی حذف sich غیردستوری یا بی‌معنی است.",
+     "explanation_en": "In Persian you often don't need 'myself/yourself', but in German omitting sich makes the sentence ungrammatical or meaningless.",
+     "examples": [
+      {
+       "wrong": "❌ Ich beeile.",
+       "correct": "✅ Ich beeile mich.",
+       "fa": "عجله می‌کنم.",
+       "en": "I'm hurrying."
+      },
+      {
+       "wrong": "❌ Er erholt.",
+       "correct": "✅ Er erholt sich.",
+       "fa": "استراحت می‌کند.",
+       "en": "He's recovering."
+      },
+      {
+       "wrong": "❌ Wir freuen.",
+       "correct": "✅ Wir freuen uns.",
+       "fa": "خوشحالیم.",
+       "en": "We're happy."
+      }
+     ],
+     "title_en": "Dropping sich (the no. 1 common mistake)"
+    },
+    {
+     "mistake_id": "mich_vs_mir",
+     "title_fa": "اشتباه بین mich و mir",
+     "explanation_fa": "قانون ساده: اگر بعد از فعل انعکاسی یک مفعول (چیزی) هم بیاید → mir/dir (Dativ). اگر ضمیر انعکاسی تنها مفعول است → mich/dich (Akkusativ).",
+     "explanation_en": "Simple rule: if there is also an object (a thing) after the reflexive verb → mir/dir (Dative). If the reflexive pronoun is the only object → mich/dich (Accusative).",
+     "examples": [
+      {
+       "wrong": "❌ Ich wasche mich die Hände.",
+       "correct": "✅ Ich wasche mir die Hände.",
+       "fa": "دست‌هایم را می‌شویم.",
+       "en": "I wash my hands."
+      },
+      {
+       "wrong": "❌ Ich putze mich die Zähne.",
+       "correct": "✅ Ich putze mir die Zähne.",
+       "fa": "دندان‌هایم را مسواک می‌زنم.",
+       "en": "I brush my teeth."
+      },
+      {
+       "wrong": "❌ Ich merke mir das.",
+       "correct": "✅ Ich merke mir das. ✓ (این درست است — das = Akkusativ)",
+       "fa": "آن را به خاطر می‌سپارم.",
+       "en": "I memorise it."
+      }
+     ],
+     "title_en": "Mixing up mich and mir"
+    },
+    {
+     "mistake_id": "wrong_preposition",
+     "title_fa": "حرف اضافه‌ی اشتباه",
+     "explanation_fa": "حرف اضافه‌ی افعال انعکاسی باید همراه فعل حفظ شود — قانون کلی ندارد.",
+     "explanation_en": "The preposition of reflexive verbs must be learned together with the verb — there is no general rule.",
+     "examples": [
+      {
+       "wrong": "❌ Ich freue mich über das Wochenende.",
+       "correct": "✅ Ich freue mich auf das Wochenende.",
+       "note": "sich freuen auf (منتظر آینده) نه über"
+      },
+      {
+       "wrong": "❌ Ich erinnere mich von Maria.",
+       "correct": "✅ Ich erinnere mich an Maria.",
+       "note": "sich erinnern an (نه von)"
+      },
+      {
+       "wrong": "❌ Ich kümmere mich für die Kinder.",
+       "correct": "✅ Ich kümmere mich um die Kinder.",
+       "note": "sich kümmern um (نه für)"
+      }
+     ],
+     "title_en": "Wrong preposition"
+    },
+    {
+     "mistake_id": "verlassen_confusion",
+     "title_fa": "verlassen در برابر sich verlassen auf",
+     "explanation_fa": "verlassen (بدون sich) = ترک کردن → Akkusativ\nsich verlassen auf = حساب کردن روی کسی → Akkusativ بعد از 'auf'",
+     "explanation_en": "verlassen (without sich) = to leave → Accusative\nsich verlassen auf = to rely on → Accusative after 'auf'",
+     "examples": [
+      {
+       "de": "Ich verlasse das Haus. (ترک کردن)",
+       "fa": "خانه را ترک می‌کنم.",
+       "en": "I'm leaving the house."
+      },
+      {
+       "de": "Ich verlasse ihn. (ترک کردن)",
+       "fa": "او را ترک می‌کنم.",
+       "en": "I'm leaving him."
+      },
+      {
+       "de": "Ich verlasse mich auf ihn. (حساب کردن روی)",
+       "fa": "روی او حساب می‌کنم.",
+       "en": "I'm relying on him."
+      }
+     ],
+     "title_en": "verlassen vs. sich verlassen auf"
+    }
+   ]
+  },
+  {
+   "section_id": "tips",
+   "title_fa": "نکات کلیدی برای حفظ کردن",
+   "title_en": "Key Tips to Remember",
+   "tips": [
+    {
+     "tip_id": 1,
+     "fa": "همیشه فعل انعکاسی را با 'sich' در فرهنگ لغت پیدا کن: sich freuen, sich erholen, sich beeilen. این نشان می‌دهد که فعل همیشه انعکاسی است (echte).",
+     "en": "Always look up a reflexive verb with 'sich' in the dictionary: sich freuen, sich erholen, sich beeilen. This indicates it is always reflexive (echte)."
+    },
+    {
+     "tip_id": 2,
+     "fa": "اگر بعد از فعل انعکاسی یک عضو بدن یا یک اسم مشخص (Akkusativ) آمد → ضمیر انعکاسی Dativ می‌شود: mir/dir/sich/uns/euch/sich.",
+     "en": "If a body part or specific noun (Accusative) comes after the reflexive verb → the reflexive pronoun becomes Dative: mir/dir/sich/uns/euch/sich."
+    },
+    {
+     "tip_id": 3,
+     "fa": "حرف اضافه را با فعل انعکاسی حفظ کن — یک واحد یادگیری هستند: sich freuen AUF, sich kümmern UM, sich erinnern AN, sich interessieren FÜR, sich ärgern ÜBER.",
+     "en": "Learn the preposition together with the reflexive verb — they are one learning unit: sich freuen AUF, sich kümmern UM, sich erinnern AN, sich interessieren FÜR, sich ärgern ÜBER."
+    },
+    {
+     "tip_id": 4,
+     "fa": "همه‌ی افعال انعکاسی در Perfekt با 'haben' صرف می‌شوند.",
+     "en": "All reflexive verbs form the Perfekt with 'haben'."
+    },
+    {
+     "tip_id": 5,
+     "fa": "سوم شخص در همه‌ی حالات 'sich' است (هم Akk هم Dat) — اشتباهی رایج: ❌ Ich verstehe ihn gut → ✅ درست است (nicht reflexiv). ❌ Er freut ihn → ✅ Er freut sich.",
+     "en": "Third person in all cases is 'sich' (both Akk and Dat). Common mistake: ❌ Er freut ihn → ✅ Er freut sich."
+    }
+   ]
+  }
+ ],
+ "displayed_in": [
+  "Auswendiglernen/Reflexive-Verben",
+  "Grammatik/A2"
+ ],
+ "source_note": "این فایل گرامر مستقل از fایل reflexiv_data.json است. ارجاع به افعال از طریق verb_ids_example انجام می‌شود که به id های فایل دیتا اشاره می‌کند."
+}

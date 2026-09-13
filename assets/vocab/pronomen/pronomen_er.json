@@ -1,0 +1,91 @@
+{
+  "schema": "3.0",
+  "id": "pronomen_er",
+  "wort": "er",
+  "wortart": "pronomen",
+  "uebersetzung": {
+    "fa": [
+      "او (مذکر)"
+    ],
+    "en": [
+      "he"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Grammatik"
+  ],
+  "ipa": "eːɐ̯",
+  "anmerkung": "Bezieht sich auch auf maskuline Sachen: Der Tisch? Er ist neu.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Er kommt aus dem Iran.",
+      "uebersetzung": {
+        "fa": "او اهل ایران است.",
+        "en": "He comes from Iran."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich weiß nicht, ob er morgen Zeit hat.",
+      "uebersetzung": {
+        "fa": "نمی‌دانم آیا او فردا وقت دارد.",
+        "en": "I don't know whether he has time tomorrow."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "untertyp": "personal",
+    "deklination": {
+      "nominativ": "er",
+      "akkusativ": "ihn",
+      "dativ": "ihm",
+      "genitiv": "seiner"
+    },
+    "bezugsregel": "Ersetzt maskuline Nomen (Personen und Sachen) im Singular.",
+    "position": "Meist Position 1 oder direkt nach dem konjugierten Verb: Heute kommt er später.",
+    "verwechslungsgefahr": "ihn (Akkusativ) und ihm (Dativ) nicht verwechseln."
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "sie",
+        "wortart": "pronomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "او (مؤنث)؛ آن‌ها",
+          "en": "she; they"
+        },
+        "id_ref": "pronomen_sie"
+      },
+      {
+        "wort": "es",
+        "wortart": "pronomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آن",
+          "en": "it"
+        },
+        "id_ref": "pronomen_es"
+      },
+      {
+        "wort": "wir",
+        "wortart": "pronomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ما",
+          "en": "we"
+        },
+        "id_ref": "pronomen_wir"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

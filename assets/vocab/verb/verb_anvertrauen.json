@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_anvertrauen",
+  "wort": "anvertrauen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به امانت سپردن",
+      "در میان گذاشتن"
+    ],
+    "en": [
+      "to entrust",
+      "to confide"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Beziehungen"
+  ],
+  "ipa": "ˈanfɛɐ̯ˌtʁaʊ̯ən",
+  "anmerkung": "Trennbar: Ich vertraue … an. Regelmäßig. Konstruktion: jemandem (Dat) etwas/jemanden (Akk) anvertrauen = به امانت سپردن، در میان گذاشتن.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Sie vertraut ihrer Freundin ein Geheimnis an.",
+      "uebersetzung": {
+        "fa": "او رازی را به دوستش می‌سپارد.",
+        "en": "She confides a secret to her friend."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Vor der Reise vertraute sie ihrer Nachbarin den Wohnungsschlüssel an.",
+      "uebersetzung": {
+        "fa": "قبل از سفر، کلید آپارتمان را به همسایه‌اش سپرد.",
+        "en": "Before the trip she entrusted her flat key to her neighbour."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "überlassen",
+      "uebersetzung": {
+        "fa": "سپردن",
+        "en": "to entrust"
+      }
+    },
+    {
+      "wort": "mitteilen",
+      "uebersetzung": {
+        "fa": "در میان گذاشتن",
+        "en": "to confide"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- + vertrauen (اعتماد کردن)",
+    "en": "an- + vertrauen (to trust)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "anvertrauen + Dat + Akk",
+        "bedeutung": "jemandem etwas anvertrauen",
+        "beispiel": "Er vertraut mir seine Sorgen an.",
+        "uebersetzung": {
+          "fa": "او نگرانی‌هایش را با من در میان می‌گذارد.",
+          "en": "He confides his worries to me."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "anvertrauen",
+      "praeteritum": "vertraute an",
+      "partizip2": "anvertraut"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "vertraue an",
+        "du": "vertraust an",
+        "er_sie_es": "vertraut an",
+        "wir": "vertrauen an",
+        "ihr": "vertraut an",
+        "sie_Sie": "vertrauen an"
+      },
+      "praeteritum": {
+        "ich": "vertraute an",
+        "du": "vertrautest an",
+        "er_sie_es": "vertraute an",
+        "wir": "vertrauten an",
+        "ihr": "vertrautet an",
+        "sie_Sie": "vertrauten an"
+      },
+      "imperativ": {
+        "du": "Vertrau an!",
+        "ihr": "Vertraut an!",
+        "Sie": "Vertrauen Sie an!"
+      }
+    },
+    "partizip1": "anvertrauend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "vertrauen",
+    "woerter": [
+      {
+        "wort": "vertrauen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اعتماد کردن",
+          "en": "to trust"
+        },
+        "id_ref": "verb_vertrauen"
+      },
+      {
+        "wort": "das Vertrauen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اعتماد",
+          "en": "trust"
+        },
+        "id_ref": "nomen_vertrauen"
+      },
+      {
+        "wort": "das Geheimnis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "راز",
+          "en": "secret"
+        },
+        "id_ref": "nomen_geheimnis"
+      },
+      {
+        "wort": "überlassen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "واگذار کردن",
+          "en": "to entrust"
+        },
+        "id_ref": "verb_ueberlassen"
+      },
+      {
+        "wort": "verraten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فاش کردن",
+          "en": "to reveal"
+        },
+        "id_ref": "verb_verraten"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Sie vertraut ihrer Freundin ein Geheimnis an.",
+      "dativ": [
+        "ihrer Freundin"
+      ],
+      "akkusativ": [
+        "ein Geheimnis"
+      ],
+      "uebersetzung": {
+        "fa": "او رازی را به دوستش می‌سپارد.",
+        "en": "She confides a secret to her friend."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <!--
+    Wird beim Build durch `--base-href` ersetzt (GitHub Pages: "/<repo>/").
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="VOX — kostenlose Web-App zum Deutschlernen für Persischsprachige · یادگیری رایگان زبان آلمانی برای فارسی‌زبانان">
+  <meta name="theme-color" content="#7C4DFF">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="VOX">
+  <link rel="apple-touch-icon" href="icons/Icon-maskable-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>VOX — Deutsch lernen</title>
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    html, body { margin: 0; height: 100%; background: #F5F5FA; }
+    @media (prefers-color-scheme: dark) { html, body { background: #0A0A0F; } }
+    /* Ladeanzeige bis zum ersten Flutter-Frame (danach entfernt main.dart sie). */
+    #vox-loading { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; }
+    #vox-loading span {
+      width: 40px; height: 40px; border-radius: 50%;
+      border: 4px solid rgba(124, 77, 255, .25); border-top-color: #7C4DFF;
+      animation: vox-spin .9s linear infinite;
+    }
+    @keyframes vox-spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+  <div id="vox-loading" role="progressbar" aria-label="VOX lädt …"><span></span></div>
+  <noscript>VOX benötigt JavaScript. · VOX requires JavaScript.</noscript>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

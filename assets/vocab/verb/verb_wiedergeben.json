@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_wiedergeben",
+  "wort": "wiedergeben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پس دادن",
+      "بازگرداندن",
+      "نقل کردن"
+    ],
+    "en": [
+      "to give back",
+      "to reproduce"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈviːdɐˌɡeːbn̩",
+  "anmerkung": "Trennbar: Ich gebe … wieder. Unregelmäßig (e→i: du gibst wieder, er gibt wieder; gab wieder, wiedergegeben). Bedeutungen: پس دادن; نقل/بازتاب کردن. Konstruktion: jemandem (Dat) etwas (Akk) wiedergeben.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Gib mir sofort meinen Stift wieder.",
+      "uebersetzung": {
+        "fa": "فوراً خودکارم را به من پس بده.",
+        "en": "Give me my pen back immediately."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Kannst du mir mit eigenen Worten wiedergeben, was der Text bedeutet?",
+      "uebersetzung": {
+        "fa": "می‌توانی با کلمات خودت به من بگویی متن چه معنایی دارد؟",
+        "en": "Can you tell me in your own words what the text means?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zurückgeben",
+      "uebersetzung": {
+        "fa": "پس دادن",
+        "en": "to give back"
+      }
+    },
+    {
+      "wort": "wiederholen",
+      "uebersetzung": {
+        "fa": "تکرار کردن",
+        "en": "to repeat"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "behalten",
+      "uebersetzung": {
+        "fa": "نگه داشتن",
+        "en": "to keep"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "wieder (دوباره/بازگشت) + geben (دادن)",
+    "en": "wieder (back/again) + geben (to give)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "wiedergeben + Dat + Akk",
+        "bedeutung": "jemandem etwas wiedergeben",
+        "beispiel": "Gib mir mein Buch wieder!",
+        "uebersetzung": {
+          "fa": "کتابم را به من پس بده!",
+          "en": "Give me my book back!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "wiedergeben",
+      "praeteritum": "gab wieder",
+      "partizip2": "wiedergegeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gebe wieder",
+        "du": "gibst wieder",
+        "er_sie_es": "gibt wieder",
+        "wir": "geben wieder",
+        "ihr": "gebt wieder",
+        "sie_Sie": "geben wieder"
+      },
+      "praeteritum": {
+        "ich": "gab wieder",
+        "du": "gabst wieder",
+        "er_sie_es": "gab wieder",
+        "wir": "gaben wieder",
+        "ihr": "gabt wieder",
+        "sie_Sie": "gaben wieder"
+      },
+      "imperativ": {
+        "du": "Gib wieder!",
+        "ihr": "Gebt wieder!",
+        "Sie": "Geben Sie wieder!"
+      }
+    },
+    "partizip1": "wiedergebend",
+    "nominalisierung": "die Wiedergabe"
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "zurückgeben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پس دادن",
+          "en": "to give back"
+        },
+        "id_ref": "verb_zurueckgeben"
+      },
+      {
+        "wort": "die Wiedergabe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بازتاب، پخش",
+          "en": "reproduction, playback"
+        },
+        "id_ref": "nomen_wiedergabe"
+      },
+      {
+        "wort": "wiederholen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تکرار کردن",
+          "en": "to repeat"
+        },
+        "id_ref": "verb_wiederholen"
+      },
+      {
+        "wort": "zurückbringen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بازگرداندن",
+          "en": "to bring back"
+        },
+        "id_ref": "verb_zurueckbringen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Gib mir sofort meinen Stift wieder.",
+      "dativ": [
+        "mir"
+      ],
+      "akkusativ": [
+        "meinen Stift"
+      ],
+      "uebersetzung": {
+        "fa": "فوراً خودکارم را به من پس بده.",
+        "en": "Give me my pen back immediately."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

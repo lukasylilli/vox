@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_beantworten",
+  "wort": "beantworten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پاسخ دادن (به سؤال)"
+    ],
+    "en": [
+      "to answer"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Kommunikation"
+  ],
+  "ipa": "bəˈʔantvɔʁtn̩",
+  "anmerkung": "Regelmäßig (Stamm auf -t → du beantwortest, er beantwortet). etwas (Akk) beantworten; mit Person: jemandem (Dat) etwas (Akk) beantworten. Nicht mit antworten (+ Dat, ohne Akk) verwechseln.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Ich beantworte dir deine Frage später.",
+      "uebersetzung": {
+        "fa": "بعداً به سؤالت پاسخ می‌دهم.",
+        "en": "I'll answer your question later."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Experte hat den Zuschauern alle Fragen ausführlich beantwortet.",
+      "uebersetzung": {
+        "fa": "کارشناس به همه‌ی سؤالات بینندگان به‌طور مفصل پاسخ داد.",
+        "en": "The expert answered all the viewers' questions in detail."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "antworten",
+      "uebersetzung": {
+        "fa": "پاسخ دادن",
+        "en": "to reply"
+      }
+    },
+    {
+      "wort": "erwidern",
+      "uebersetzung": {
+        "fa": "پاسخ دادن",
+        "en": "to respond"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "fragen",
+      "uebersetzung": {
+        "fa": "پرسیدن",
+        "en": "to ask"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Antwort (پاسخ) → پاسخ دادن",
+    "en": "be- + Antwort (answer) → to answer"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "beantworten + (Dat) + Akk",
+        "bedeutung": "(jemandem) etwas beantworten",
+        "beispiel": "Ich beantworte dir gern deine Frage.",
+        "uebersetzung": {
+          "fa": "با کمال میل به سؤالت پاسخ می‌دهم.",
+          "en": "I'm happy to answer your question."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beantworten",
+      "praeteritum": "beantwortete",
+      "partizip2": "beantwortet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beantworte",
+        "du": "beantwortest",
+        "er_sie_es": "beantwortet",
+        "wir": "beantworten",
+        "ihr": "beantwortet",
+        "sie_Sie": "beantworten"
+      },
+      "praeteritum": {
+        "ich": "beantwortete",
+        "du": "beantwortetest",
+        "er_sie_es": "beantwortete",
+        "wir": "beantworteten",
+        "ihr": "beantwortetet",
+        "sie_Sie": "beantworteten"
+      },
+      "imperativ": {
+        "du": "Beantworte!",
+        "ihr": "Beantwortet!",
+        "Sie": "Beantworten Sie!"
+      }
+    },
+    "partizip1": "beantwortend",
+    "nominalisierung": "die Beantwortung"
+  },
+  "wortnetz": {
+    "grundwort": "Antwort",
+    "woerter": [
+      {
+        "wort": "antworten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پاسخ دادن",
+          "en": "to reply"
+        },
+        "id_ref": "verb_antworten"
+      },
+      {
+        "wort": "die Antwort",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پاسخ",
+          "en": "answer"
+        },
+        "id_ref": "nomen_antwort"
+      },
+      {
+        "wort": "die Frage",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سؤال",
+          "en": "question"
+        },
+        "id_ref": "nomen_frage"
+      },
+      {
+        "wort": "fragen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرسیدن",
+          "en": "to ask"
+        },
+        "id_ref": "verb_fragen"
+      },
+      {
+        "wort": "erklären",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "توضیح دادن",
+          "en": "to explain"
+        },
+        "id_ref": "verb_erklaeren"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Ich beantworte dir deine Frage später.",
+      "dativ": [
+        "dir"
+      ],
+      "akkusativ": [
+        "deine Frage"
+      ],
+      "uebersetzung": {
+        "fa": "بعداً به سؤالت پاسخ می‌دهم.",
+        "en": "I'll answer your question later."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

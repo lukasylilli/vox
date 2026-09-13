@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_erzaehlen",
+  "wort": "erzählen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تعریف کردن",
+      "روایت کردن"
+    ],
+    "en": [
+      "to tell",
+      "to recount"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Kommunikation"
+  ],
+  "ipa": "ɛɐ̯ˈtsɛːlən",
+  "anmerkung": "Regelmäßig. Konstruktion: jemandem (Dat) etwas (Akk) erzählen. Nicht mit zählen (شمردن) verwechseln.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Anna hat mir die Geschichte erzählt.",
+      "uebersetzung": {
+        "fa": "آنا داستان را برایم تعریف کرد.",
+        "en": "Anna told me the story."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Meine Großmutter hat mir früher oft erzählt, wie das Leben nach dem Krieg war.",
+      "uebersetzung": {
+        "fa": "مادربزرگم قبلاً اغلب برایم تعریف می‌کرد که زندگی بعد از جنگ چگونه بود.",
+        "en": "My grandmother often used to tell me what life was like after the war."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "berichten",
+      "uebersetzung": {
+        "fa": "گزارش دادن",
+        "en": "to report"
+      }
+    },
+    {
+      "wort": "schildern",
+      "uebersetzung": {
+        "fa": "شرح دادن، توصیف کردن",
+        "en": "to depict, to describe"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- + zählen (شمردن) → روایت کردن",
+    "en": "er- + zählen (to count) → to recount"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "erzählen + Dat + Akk",
+        "bedeutung": "jemandem etwas erzählen",
+        "beispiel": "Er erzählt den Kindern eine Geschichte.",
+        "uebersetzung": {
+          "fa": "او برای بچه‌ها داستانی تعریف می‌کند.",
+          "en": "He tells the children a story."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "erzählen",
+      "praeteritum": "erzählte",
+      "partizip2": "erzählt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erzähle",
+        "du": "erzählst",
+        "er_sie_es": "erzählt",
+        "wir": "erzählen",
+        "ihr": "erzählt",
+        "sie_Sie": "erzählen"
+      },
+      "praeteritum": {
+        "ich": "erzählte",
+        "du": "erzähltest",
+        "er_sie_es": "erzählte",
+        "wir": "erzählten",
+        "ihr": "erzähltet",
+        "sie_Sie": "erzählten"
+      },
+      "imperativ": {
+        "du": "Erzähl!",
+        "ihr": "Erzählt!",
+        "Sie": "Erzählen Sie!"
+      }
+    },
+    "partizip1": "erzählend",
+    "nominalisierung": "die Erzählung"
+  },
+  "wortnetz": {
+    "grundwort": "zählen",
+    "woerter": [
+      {
+        "wort": "die Geschichte",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "داستان",
+          "en": "story"
+        },
+        "id_ref": "nomen_geschichte"
+      },
+      {
+        "wort": "sagen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گفتن",
+          "en": "to say"
+        },
+        "id_ref": "verb_sagen"
+      },
+      {
+        "wort": "berichten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گزارش دادن",
+          "en": "to report"
+        },
+        "id_ref": "verb_berichten"
+      },
+      {
+        "wort": "die Erzählung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حکایت، روایت",
+          "en": "tale, narrative"
+        },
+        "id_ref": "nomen_erzaehlung"
+      },
+      {
+        "wort": "das Märchen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "افسانه، قصه",
+          "en": "fairy tale"
+        },
+        "id_ref": "nomen_maerchen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Anna hat mir die Geschichte erzählt.",
+      "dativ": [
+        "mir"
+      ],
+      "akkusativ": [
+        "die Geschichte"
+      ],
+      "uebersetzung": {
+        "fa": "آنا داستان را برایم تعریف کرد.",
+        "en": "Anna told me the story."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

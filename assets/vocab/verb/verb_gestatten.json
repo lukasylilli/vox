@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_gestatten",
+  "wort": "gestatten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اجازه دادن (رسمی)"
+    ],
+    "en": [
+      "to permit",
+      "to allow"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit"
+  ],
+  "ipa": "ɡəˈʃtatn̩",
+  "anmerkung": "Regelmäßig (Stamm auf -t → du gestattest, er gestattet). Gehoben/formell für erlauben. Konstruktion: jemandem (Dat) etwas (Akk) gestatten.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Bitte gestatten Sie mir einen Besuch.",
+      "uebersetzung": {
+        "fa": "لطفاً اجازه‌ی یک بازدید را به من بدهید.",
+        "en": "Please permit me a visit."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Die Hausordnung gestattet den Mietern nicht, im Treppenhaus zu rauchen.",
+      "uebersetzung": {
+        "fa": "مقررات ساختمان به مستأجران اجازه نمی‌دهد در راه‌پله سیگار بکشند.",
+        "en": "The house rules do not permit tenants to smoke in the stairwell."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erlauben",
+      "uebersetzung": {
+        "fa": "اجازه دادن",
+        "en": "to allow"
+      }
+    },
+    {
+      "wort": "genehmigen",
+      "uebersetzung": {
+        "fa": "تصویب کردن",
+        "en": "to approve"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "untersagen",
+      "uebersetzung": {
+        "fa": "منع کردن (رسمی)",
+        "en": "to prohibit (formal)"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "verwandt mit statthaft (مجاز)",
+    "en": "related to statthaft (permissible)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "gestatten + Dat + Akk",
+        "bedeutung": "jemandem etwas gestatten",
+        "beispiel": "Gestatten Sie mir eine Frage?",
+        "uebersetzung": {
+          "fa": "اجازه می‌دهید یک سؤال بپرسم؟",
+          "en": "Will you permit me a question?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "gestatten",
+      "praeteritum": "gestattete",
+      "partizip2": "gestattet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gestatte",
+        "du": "gestattest",
+        "er_sie_es": "gestattet",
+        "wir": "gestatten",
+        "ihr": "gestattet",
+        "sie_Sie": "gestatten"
+      },
+      "praeteritum": {
+        "ich": "gestattete",
+        "du": "gestattetest",
+        "er_sie_es": "gestattete",
+        "wir": "gestatteten",
+        "ihr": "gestattetet",
+        "sie_Sie": "gestatteten"
+      },
+      "imperativ": {
+        "du": "Gestatte!",
+        "ihr": "Gestattet!",
+        "Sie": "Gestatten Sie!"
+      }
+    },
+    "partizip1": "gestattend",
+    "nominalisierung": "die Gestattung"
+  },
+  "wortnetz": {
+    "grundwort": "gestatten",
+    "woerter": [
+      {
+        "wort": "erlauben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اجازه دادن",
+          "en": "to allow"
+        },
+        "id_ref": "verb_erlauben"
+      },
+      {
+        "wort": "die Erlaubnis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اجازه",
+          "en": "permission"
+        },
+        "id_ref": "nomen_erlaubnis"
+      },
+      {
+        "wort": "verbieten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ممنوع کردن",
+          "en": "to forbid"
+        },
+        "id_ref": "verb_verbieten"
+      },
+      {
+        "wort": "genehmigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تصویب کردن",
+          "en": "to approve"
+        },
+        "id_ref": "verb_genehmigen"
+      },
+      {
+        "wort": "dürfen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اجازه داشتن",
+          "en": "to be allowed"
+        },
+        "id_ref": "verb_duerfen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Bitte gestatten Sie mir einen Besuch.",
+      "dativ": [
+        "mir"
+      ],
+      "akkusativ": [
+        "einen Besuch"
+      ],
+      "uebersetzung": {
+        "fa": "لطفاً اجازه‌ی یک بازدید را به من بدهید.",
+        "en": "Please permit me a visit."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

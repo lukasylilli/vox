@@ -1,0 +1,56 @@
+{
+  "schema": "3.0",
+  "id": "verb_lernen",
+  "wort": "lernen",
+  "wortart": "verb",
+  "uebersetzung": { "fa": ["یاد گرفتن", "آموختن"], "en": ["to learn", "to study"] },
+  "niveau": "A1",
+  "themen": ["Bildung", "Alltag"],
+  "ipa": "ˈlɛʁnən",
+  "anmerkung": "Demo-Wort (Stufe ۵ Testphase) — per tool/vokabular_import.dart durch echte Wörter ergänzen.",
+  "beispiele": [
+    { "niveau": "A1", "satz": "Ich lerne Deutsch.", "uebersetzung": { "fa": "من آلمانی یاد می‌گیرم.", "en": "I am learning German." } },
+    { "niveau": "B1", "satz": "Obwohl er wenig Zeit hat, lernt er jeden Tag eine Stunde.", "uebersetzung": { "fa": "با اینکه وقت کمی دارد، هر روز یک ساعت درس می‌خواند.", "en": "Although he has little time, he studies for an hour every day." } }
+  ],
+  "synonyme": [
+    { "wort": "üben", "uebersetzung": { "fa": "تمرین کردن", "en": "to practice" } },
+    { "wort": "sich aneignen", "uebersetzung": { "fa": "فراگرفتن", "en": "to acquire" } }
+  ],
+  "antonyme": [
+    { "wort": "vergessen", "uebersetzung": { "fa": "فراموش کردن", "en": "to forget" } }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lern- (ریشه، هم‌خانواده‌ی lehren) + -en (پایانه‌ی مصدر)",
+    "en": "lern- (stem, related to lehren) + -en (infinitive ending)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      { "muster": "lernen + Akk", "bedeutung": "etwas lernen", "beispiel": "Sie lernt eine neue Sprache.", "uebersetzung": { "fa": "او زبان جدیدی یاد می‌گیرد.", "en": "She is learning a new language." } }
+    ],
+    "stammformen": { "infinitiv": "lernen", "praeteritum": "lernte", "partizip2": "gelernt" },
+    "konjugation": {
+      "praesens":    { "ich": "lerne", "du": "lernst", "er_sie_es": "lernt", "wir": "lernen", "ihr": "lernt", "sie_Sie": "lernen" },
+      "praeteritum": { "ich": "lernte", "du": "lerntest", "er_sie_es": "lernte", "wir": "lernten", "ihr": "lerntet", "sie_Sie": "lernten" },
+      "imperativ":   { "du": "Lern(e)!", "ihr": "Lernt!", "Sie": "Lernen Sie!" }
+    },
+    "partizip1": "lernend",
+    "nominalisierung": "das Lernen"
+  },
+  "wortnetz": {
+    "grundwort": "lernen",
+    "woerter": [
+      { "wort": "üben", "wortart": "verb", "niveau": "A1", "uebersetzung": { "fa": "تمرین کردن", "en": "to practice" }, "id_ref": "verb_ueben" },
+      { "wort": "der Lehrer", "wortart": "nomen", "niveau": "A1", "uebersetzung": { "fa": "معلم", "en": "teacher" }, "id_ref": "nomen_lehrer" },
+      { "wort": "der Schüler", "wortart": "nomen", "niveau": "A1", "uebersetzung": { "fa": "دانش‌آموز", "en": "pupil" }, "id_ref": "nomen_schueler" },
+      { "wort": "lehren", "wortart": "verb", "niveau": "B1", "uebersetzung": { "fa": "آموزش دادن", "en": "to teach" }, "id_ref": "verb_lehren" },
+      { "wort": "die Übung", "wortart": "nomen", "niveau": "A2", "uebersetzung": { "fa": "تمرین", "en": "exercise" }, "id_ref": "nomen_uebung" }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_erleichtern",
+  "wort": "erleichtern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آسان‌تر کردن",
+      "تسهیل کردن"
+    ],
+    "en": [
+      "to make easier",
+      "to facilitate"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit"
+  ],
+  "ipa": "ɛɐ̯ˈlaɪ̯çtɐn",
+  "anmerkung": "Regelmäßig (-ern: ich erleichtere). Konstruktion: jemandem (Dat) etwas (Akk) erleichtern.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Ihre Hilfe erleichtert mir die Umstellung.",
+      "uebersetzung": {
+        "fa": "کمک شما تغییر را برایم آسان‌تر می‌کند.",
+        "en": "Your help makes the transition easier for me."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die neue Software erleichtert den Mitarbeitern die tägliche Arbeit.",
+      "uebersetzung": {
+        "fa": "نرم‌افزار جدید کار روزانه را برای کارکنان آسان‌تر می‌کند.",
+        "en": "The new software makes the daily work easier for the employees."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vereinfachen",
+      "uebersetzung": {
+        "fa": "ساده کردن",
+        "en": "to simplify"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "erschweren",
+      "uebersetzung": {
+        "fa": "دشوارتر کردن",
+        "en": "to make more difficult"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- + leicht (سبک/آسان) + -ern → آسان‌تر کردن",
+    "en": "er- + leicht (light/easy) + -ern → to make easier"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "erleichtern + Dat + Akk",
+        "bedeutung": "jemandem etwas erleichtern",
+        "beispiel": "Ihre Unterstützung erleichtert mir die Entscheidung.",
+        "uebersetzung": {
+          "fa": "حمایت شما تصمیم را برایم آسان‌تر می‌کند.",
+          "en": "Your support makes the decision easier for me."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "erleichtern",
+      "praeteritum": "erleichterte",
+      "partizip2": "erleichtert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erleichtere",
+        "du": "erleichterst",
+        "er_sie_es": "erleichtert",
+        "wir": "erleichtern",
+        "ihr": "erleichtert",
+        "sie_Sie": "erleichtern"
+      },
+      "praeteritum": {
+        "ich": "erleichterte",
+        "du": "erleichtertest",
+        "er_sie_es": "erleichterte",
+        "wir": "erleichterten",
+        "ihr": "erleichtertet",
+        "sie_Sie": "erleichterten"
+      },
+      "imperativ": {
+        "du": "Erleichtere!",
+        "ihr": "Erleichtert!",
+        "Sie": "Erleichtern Sie!"
+      }
+    },
+    "partizip1": "erleichternd",
+    "nominalisierung": "die Erleichterung"
+  },
+  "wortnetz": {
+    "grundwort": "leicht",
+    "woerter": [
+      {
+        "wort": "leicht",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سبک، آسان",
+          "en": "light, easy"
+        },
+        "id_ref": "adjektiv_leicht"
+      },
+      {
+        "wort": "die Erleichterung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تسهیل، آسودگی",
+          "en": "relief, facilitation"
+        },
+        "id_ref": "nomen_erleichterung"
+      },
+      {
+        "wort": "helfen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک کردن",
+          "en": "to help"
+        },
+        "id_ref": "verb_helfen"
+      },
+      {
+        "wort": "vereinfachen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ساده کردن",
+          "en": "to simplify"
+        },
+        "id_ref": "verb_vereinfachen"
+      },
+      {
+        "wort": "erschweren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دشوارتر کردن",
+          "en": "to hinder"
+        },
+        "id_ref": "verb_erschweren"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Ihre Hilfe erleichtert mir die Umstellung.",
+      "dativ": [
+        "mir"
+      ],
+      "akkusativ": [
+        "die Umstellung"
+      ],
+      "uebersetzung": {
+        "fa": "کمک شما تغییر را برایم آسان‌تر می‌کند.",
+        "en": "Your help makes the transition easier for me."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

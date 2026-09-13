@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_vermitteln",
+  "wort": "vermitteln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "القا کردن",
+      "منتقل کردن",
+      "میانجیگری کردن"
+    ],
+    "en": [
+      "to convey",
+      "to mediate"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gefühle",
+    "Kommunikation"
+  ],
+  "ipa": "fɛɐ̯ˈmɪtl̩n",
+  "anmerkung": "Regelmäßig (-eln: ich vermittle). Bedeutungen: القا کردن (Gefühl), میانجیگری کردن (Konflikt), واسطه شدن (Job). Konstruktion: jemandem (Dat) etwas (Akk) vermitteln.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Du vermittelst mir das Gefühl, faul zu sein.",
+      "uebersetzung": {
+        "fa": "به من حس تنبل‌بودن را القا می‌کنی.",
+        "en": "You give me the feeling that I'm lazy."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Agentur hat mir eine gut bezahlte Stelle vermittelt.",
+      "uebersetzung": {
+        "fa": "آژانس یک شغل با حقوق خوب برایم واسطه کرد.",
+        "en": "The agency found me a well-paid job."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "übermitteln",
+      "uebersetzung": {
+        "fa": "انتقال دادن",
+        "en": "to convey"
+      }
+    },
+    {
+      "wort": "verschaffen",
+      "uebersetzung": {
+        "fa": "فراهم کردن",
+        "en": "to procure"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + Mittel (وسیله، میانه) → واسطه شدن",
+    "en": "ver- + Mittel (means/middle) → to mediate"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "vermitteln + Dat + Akk",
+        "bedeutung": "jemandem etwas vermitteln",
+        "beispiel": "Der Lehrer vermittelt den Schülern Wissen.",
+        "uebersetzung": {
+          "fa": "معلم دانش را به دانش‌آموزان منتقل می‌کند.",
+          "en": "The teacher imparts knowledge to the students."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vermitteln",
+      "praeteritum": "vermittelte",
+      "partizip2": "vermittelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "vermittle",
+        "du": "vermittelst",
+        "er_sie_es": "vermittelt",
+        "wir": "vermitteln",
+        "ihr": "vermittelt",
+        "sie_Sie": "vermitteln"
+      },
+      "praeteritum": {
+        "ich": "vermittelte",
+        "du": "vermitteltest",
+        "er_sie_es": "vermittelte",
+        "wir": "vermittelten",
+        "ihr": "vermitteltet",
+        "sie_Sie": "vermittelten"
+      },
+      "imperativ": {
+        "du": "Vermittle!",
+        "ihr": "Vermittelt!",
+        "Sie": "Vermitteln Sie!"
+      }
+    },
+    "partizip1": "vermittelnd",
+    "nominalisierung": "die Vermittlung"
+  },
+  "wortnetz": {
+    "grundwort": "Mittel",
+    "woerter": [
+      {
+        "wort": "die Vermittlung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "میانجیگری، واسطه",
+          "en": "mediation"
+        },
+        "id_ref": "nomen_vermittlung"
+      },
+      {
+        "wort": "übermitteln",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "انتقال دادن",
+          "en": "to convey"
+        },
+        "id_ref": "verb_uebermitteln"
+      },
+      {
+        "wort": "das Gefühl",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "احساس",
+          "en": "feeling"
+        },
+        "id_ref": "nomen_gefuehl"
+      },
+      {
+        "wort": "der Vermittler",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "واسطه، میانجی",
+          "en": "mediator"
+        },
+        "id_ref": "nomen_vermittler"
+      },
+      {
+        "wort": "verschaffen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فراهم کردن",
+          "en": "to procure"
+        },
+        "id_ref": "verb_verschaffen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Du vermittelst mir das Gefühl, faul zu sein.",
+      "dativ": [
+        "mir"
+      ],
+      "akkusativ": [
+        "das Gefühl"
+      ],
+      "uebersetzung": {
+        "fa": "به من حس تنبل‌بودن را القا می‌کنی.",
+        "en": "You give me the feeling that I'm lazy."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_schaden",
+  "wort": "schaden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آسیب رساندن",
+      "ضرر زدن"
+    ],
+    "en": [
+      "to harm",
+      "to damage"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gesundheit"
+  ],
+  "ipa": "ˈʃaːdn̩",
+  "anmerkung": "Regelmäßig (Stamm auf -d → du schadest, er schadet). schaden + Dat! Gegenteil: nützen + Dat.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Zu viel Stress schadet der Gesundheit.",
+      "uebersetzung": {
+        "fa": "استرس زیاد به سلامتی آسیب می‌رساند.",
+        "en": "Too much stress harms your health."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das schlechte Wetter hat der Ernte sehr geschadet.",
+      "uebersetzung": {
+        "fa": "هوای بد به محصول بسیار آسیب رساند.",
+        "en": "The bad weather harmed the harvest a lot."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beschädigen",
+      "uebersetzung": {
+        "fa": "آسیب زدن (+ Akk)",
+        "en": "to damage (+ Akk)"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "nützen",
+      "uebersetzung": {
+        "fa": "سودمند بودن (+ Dat)",
+        "en": "to be useful (+ Dat)"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "verwandt mit Schaden (خسارت)",
+    "en": "related to Schaden (damage)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "schaden + Dat",
+        "bedeutung": "jemandem/etwas schaden",
+        "beispiel": "Rauchen schadet dir.",
+        "uebersetzung": {
+          "fa": "سیگار به تو آسیب می‌رساند.",
+          "en": "Smoking harms you."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schaden",
+      "praeteritum": "schadete",
+      "partizip2": "geschadet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schade",
+        "du": "schadest",
+        "er_sie_es": "schadet",
+        "wir": "schaden",
+        "ihr": "schadet",
+        "sie_Sie": "schaden"
+      },
+      "praeteritum": {
+        "ich": "schadete",
+        "du": "schadetest",
+        "er_sie_es": "schadete",
+        "wir": "schadeten",
+        "ihr": "schadetet",
+        "sie_Sie": "schadeten"
+      },
+      "imperativ": {
+        "du": "Schade!",
+        "ihr": "Schadet!",
+        "Sie": "Schaden Sie!"
+      }
+    },
+    "partizip1": "schadend",
+    "nominalisierung": "der Schaden"
+  },
+  "wortnetz": {
+    "grundwort": "Schaden",
+    "woerter": [
+      {
+        "wort": "der Schaden",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خسارت، آسیب",
+          "en": "damage"
+        },
+        "id_ref": "nomen_schaden"
+      },
+      {
+        "wort": "schädlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مضر",
+          "en": "harmful"
+        },
+        "id_ref": "adjektiv_schaedlich"
+      },
+      {
+        "wort": "nützen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سودمند بودن",
+          "en": "to be of use"
+        },
+        "id_ref": "verb_nuetzen"
+      },
+      {
+        "wort": "die Gesundheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سلامتی",
+          "en": "health"
+        },
+        "id_ref": "nomen_gesundheit"
+      },
+      {
+        "wort": "zerstören",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نابود کردن",
+          "en": "to destroy"
+        },
+        "id_ref": "verb_zerstoeren"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Zu viel Stress schadet der Gesundheit.",
+      "dativ": [
+        "der Gesundheit"
+      ],
+      "akkusativ": [],
+      "uebersetzung": {
+        "fa": "استرس زیاد به سلامتی آسیب می‌رساند.",
+        "en": "Too much stress harms your health."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

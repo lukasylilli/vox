@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_ueberlassen",
+  "wort": "überlassen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "واگذار کردن",
+      "سپردن"
+    ],
+    "en": [
+      "to leave (to)",
+      "to entrust"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit"
+  ],
+  "ipa": "ˌyːbɐˈlasn̩",
+  "anmerkung": "Untrennbar (Partizip überlassen ohne ge-). Unregelmäßig (a→ä: du überlässt, er überlässt; überließ, überlassen). Konstruktion: jemandem (Dat) etwas (Akk) überlassen = واگذار/سپردن.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Ich überlasse dir die Entscheidung.",
+      "uebersetzung": {
+        "fa": "تصمیم را به تو واگذار می‌کنم.",
+        "en": "I'll leave the decision to you."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Sie hat es mir überlassen, ob ich mitkommen möchte oder nicht.",
+      "uebersetzung": {
+        "fa": "او تصمیم را به من واگذار کرد که بیایم یا نه.",
+        "en": "She left it up to me whether I want to come along or not."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anvertrauen",
+      "uebersetzung": {
+        "fa": "سپردن",
+        "en": "to entrust"
+      }
+    },
+    {
+      "wort": "übergeben",
+      "uebersetzung": {
+        "fa": "تحویل/واگذار کردن",
+        "en": "to hand over"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "behalten",
+      "uebersetzung": {
+        "fa": "نگه داشتن",
+        "en": "to keep"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "über- + lassen (گذاشتن)",
+    "en": "über- + lassen (to let)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "überlassen + Dat + Akk",
+        "bedeutung": "jemandem etwas überlassen",
+        "beispiel": "Ich überlasse dir mein Auto für das Wochenende.",
+        "uebersetzung": {
+          "fa": "ماشینم را برای آخر هفته به تو واگذار می‌کنم.",
+          "en": "I'll let you have my car for the weekend."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "überlassen",
+      "praeteritum": "überließ",
+      "partizip2": "überlassen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "überlasse",
+        "du": "überlässt",
+        "er_sie_es": "überlässt",
+        "wir": "überlassen",
+        "ihr": "überlasst",
+        "sie_Sie": "überlassen"
+      },
+      "praeteritum": {
+        "ich": "überließ",
+        "du": "überließest",
+        "er_sie_es": "überließ",
+        "wir": "überließen",
+        "ihr": "überließt",
+        "sie_Sie": "überließen"
+      },
+      "imperativ": {
+        "du": "Überlass!",
+        "ihr": "Überlasst!",
+        "Sie": "Überlassen Sie!"
+      }
+    },
+    "partizip1": "überlassend",
+    "nominalisierung": "die Überlassung"
+  },
+  "wortnetz": {
+    "grundwort": "lassen",
+    "woerter": [
+      {
+        "wort": "lassen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گذاشتن، اجازه دادن",
+          "en": "to let"
+        },
+        "id_ref": "verb_lassen"
+      },
+      {
+        "wort": "anvertrauen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سپردن",
+          "en": "to entrust"
+        },
+        "id_ref": "verb_anvertrauen"
+      },
+      {
+        "wort": "übergeben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تحویل دادن",
+          "en": "to hand over"
+        },
+        "id_ref": "verb_uebergeben"
+      },
+      {
+        "wort": "die Entscheidung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تصمیم",
+          "en": "decision"
+        },
+        "id_ref": "nomen_entscheidung"
+      },
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Ich überlasse dir die Entscheidung.",
+      "dativ": [
+        "dir"
+      ],
+      "akkusativ": [
+        "die Entscheidung"
+      ],
+      "uebersetzung": {
+        "fa": "تصمیم را به تو واگذار می‌کنم.",
+        "en": "I'll leave the decision to you."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

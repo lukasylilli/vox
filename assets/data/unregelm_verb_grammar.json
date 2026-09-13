@@ -1,0 +1,1215 @@
+{
+ "title_de": "Unregelmäßige Verben (Starke, gemischte und irreguläre Verben)",
+ "title_fa": "افعال بی‌قاعده (Unregelmäßige Verben)",
+ "title_en": "Irregular Verbs (Strong, Mixed and Irregular Verbs)",
+ "summary_fa": "برخلاف افعال قاعده‌مند که در زمان گذشته (Präteritum) و صفت مفعولی (Partizip II) پیوند ثابت -te/-t می‌گیرند، افعال بی‌قاعده مصوت ریشه‌شان تغییر می‌کند و باید به‌صورت جداگانه حفظ شوند.",
+ "summary_en": "Unlike regular (weak) verbs which form the past tense and past participle with the fixed suffix -te/-t, irregular verbs change their stem vowel and must be learned individually.",
+ "sections": [
+  {
+   "section_id": "verb_types",
+   "title_fa": "انواع افعال بی‌قاعده در آلمانی",
+   "title_en": "Types of Irregular Verbs in German",
+   "types": [
+    {
+     "type_id": "stark",
+     "title_fa": "افعال قوی (Starke Verben)",
+     "title_en": "Strong Verbs (Starke Verben)",
+     "explanation_fa": "مصوت ریشه تغییر می‌کند. Partizip II با -en ختم می‌شود و ge- می‌گیرد. این بزرگ‌ترین گروه افعال بی‌قاعده است.\nمثال: fahren → fuhr → gefahren (a→u→a)",
+     "explanation_en": "The stem vowel changes. Partizip II ends in -en and takes ge-. This is the largest group of irregular verbs.\nExample: fahren → fuhr → gefahren (a→u→a)"
+    },
+    {
+     "type_id": "gemischt",
+     "title_fa": "افعال مختلط (Gemischte / Mischverben)",
+     "title_en": "Mixed Verbs (Gemischte Verben)",
+     "explanation_fa": "ترکیبی از تغییر مصوت (مثل افعال قوی) + پسوند -t در Partizip II (مثل افعال قاعده‌مند). تعداد کمی هستند ولی بسیار پرکاربردند.\nمثال: denken → dachte → gedacht\nمثال: bringen → brachte → gebracht\nمثال: kennen → kannte → gekannt",
+     "explanation_en": "Combines vowel change (like strong verbs) + -t suffix in Partizip II (like weak verbs). Few in number but very high-frequency.\nExample: denken → dachte → gedacht\nExample: bringen → brachte → gebracht\nExample: kennen → kannte → gekannt"
+    },
+    {
+     "type_id": "modal",
+     "title_fa": "افعال وجهی (Modalverben)",
+     "title_en": "Modal Verbs (Modalverben)",
+     "explanation_fa": "شش فعل وجهی همگی بی‌قاعده‌اند: können, müssen, sollen, wollen, dürfen, mögen. آن‌ها در Präteritum پسوند -te می‌گیرند ولی مصوتشان تغییر می‌کند و در Präsens صرف متفاوتی دارند.",
+     "explanation_en": "All six modal verbs are irregular: können, müssen, sollen, wollen, dürfen, mögen. They take -te in the Präteritum but change their vowel, and have an irregular present tense conjugation."
+    },
+    {
+     "type_id": "irregular",
+     "title_fa": "افعال کاملاً نامنظم",
+     "title_en": "Fully Irregular Verbs",
+     "explanation_fa": "تعداد کمی از افعال هستند که اصلاً در هیچ الگوی منظمی نمی‌گنجند و باید کاملاً حفظ شوند: sein, haben, werden, gehen, wissen, tun",
+     "explanation_en": "A small number of verbs don't fit into any regular pattern and must be fully memorized: sein, haben, werden, gehen, wissen, tun"
+    }
+   ]
+  },
+  {
+   "section_id": "three_principal_parts",
+   "title_fa": "سه فرم اصلی (Die drei Stammformen)",
+   "title_en": "The Three Principal Parts",
+   "explanation_fa": "برای هر فعل بی‌قاعده باید سه فرم را حفظ کرد:\n1. Infinitiv — مصدر: fahren\n2. Präteritum (er-Form) — گذشته‌ی ساده: fuhr\n3. Partizip II — صفت مفعولی: gefahren\n\nاز این سه فرم می‌توان همه‌ی زمان‌های دیگر را ساخت.",
+   "explanation_en": "For each irregular verb, three forms must be learned:\n1. Infinitiv — the infinitive: fahren\n2. Präteritum (er-Form) — simple past: fuhr\n3. Partizip II — past participle: gefahren\n\nFrom these three forms, all other tenses can be constructed.",
+   "examples": [
+    {
+     "infinitiv": "fahren",
+     "praeteritum": "fuhr",
+     "partizip_ii": "gefahren",
+     "meaning_fa": "رانندگی کردن",
+     "meaning_en": "to drive / go"
+    },
+    {
+     "infinitiv": "sehen",
+     "praeteritum": "sah",
+     "partizip_ii": "gesehen",
+     "meaning_fa": "دیدن",
+     "meaning_en": "to see"
+    },
+    {
+     "infinitiv": "kommen",
+     "praeteritum": "kam",
+     "partizip_ii": "gekommen",
+     "meaning_fa": "آمدن",
+     "meaning_en": "to come"
+    },
+    {
+     "infinitiv": "bringen",
+     "praeteritum": "brachte",
+     "partizip_ii": "gebracht",
+     "meaning_fa": "آوردن",
+     "meaning_en": "to bring"
+    },
+    {
+     "infinitiv": "sein",
+     "praeteritum": "war",
+     "partizip_ii": "gewesen",
+     "meaning_fa": "بودن",
+     "meaning_en": "to be"
+    }
+   ]
+  },
+  {
+   "section_id": "ablaut_patterns",
+   "title_fa": "گروه‌های تغییر مصوت (Ablautmuster) — راهنمای دسته‌بندی",
+   "title_en": "Vowel Change Patterns (Ablautmuster) — Classification Guide",
+   "explanation_fa": "افعال قوی آلمانی بر اساس تغییر مصوت در سه فرم اصلی گروه‌بندی می‌شوند. یاد گرفتن این گروه‌ها یادگیری افعال جدید را بسیار آسان‌تر می‌کند چون وقتی Infinitiv یک فعل را می‌دانی، می‌توانی گروهش را حدس بزنی.",
+   "explanation_en": "Strong verbs in German are grouped by the vowel changes across their three principal forms. Learning these groups makes it much easier to learn new verbs, because once you know the infinitive of a verb, you can often predict its group.",
+   "groups": [
+    {
+     "pattern": "a-u-a",
+     "title_fa": "گروه a→u→a",
+     "title_en": "Group a→u→a",
+     "explanation_fa": "مصوت Infinitiv و Partizip II یکسان هستند (a)، Präteritum با u. اغلب در Präsens هم a→ä می‌شود.",
+     "explanation_en": "The vowel in Infinitiv and Partizip II is the same (a), Präteritum has u. Often a→ä change in Präsens too.",
+     "examples": [
+      {
+       "infinitiv": "fahren",
+       "praeteritum": "fuhr",
+       "partizip_ii": "gefahren",
+       "meaning_fa": "رانندگی",
+       "meaning_en": "to drive / go"
+      },
+      {
+       "infinitiv": "tragen",
+       "praeteritum": "trug",
+       "partizip_ii": "getragen",
+       "meaning_fa": "حمل کردن",
+       "meaning_en": "to carry / wear"
+      },
+      {
+       "infinitiv": "wachsen",
+       "praeteritum": "wuchs",
+       "partizip_ii": "gewachsen",
+       "meaning_fa": "رشد کردن",
+       "meaning_en": "to grow"
+      },
+      {
+       "infinitiv": "waschen",
+       "praeteritum": "wusch",
+       "partizip_ii": "gewaschen",
+       "meaning_fa": "شستن",
+       "meaning_en": "to wash"
+      }
+     ]
+    },
+    {
+     "pattern": "a-ie-a",
+     "title_fa": "گروه a→ie→a",
+     "title_en": "Group a→ie→a",
+     "explanation_fa": "مصوت Infinitiv و Partizip II یکسان هستند (a)، Präteritum با ie. اغلب a→ä در Präsens.",
+     "explanation_en": "The vowel in Infinitiv and Partizip II is the same (a), Präteritum has ie. Often a→ä in Präsens.",
+     "examples": [
+      {
+       "infinitiv": "fallen",
+       "praeteritum": "fiel",
+       "partizip_ii": "gefallen",
+       "meaning_fa": "افتادن",
+       "meaning_en": "to fall"
+      },
+      {
+       "infinitiv": "halten",
+       "praeteritum": "hielt",
+       "partizip_ii": "gehalten",
+       "meaning_fa": "نگه داشتن",
+       "meaning_en": "to hold"
+      },
+      {
+       "infinitiv": "schlafen",
+       "praeteritum": "schlief",
+       "partizip_ii": "geschlafen",
+       "meaning_fa": "خوابیدن",
+       "meaning_en": "to sleep"
+      },
+      {
+       "infinitiv": "lassen",
+       "praeteritum": "ließ",
+       "partizip_ii": "gelassen",
+       "meaning_fa": "گذاشتن",
+       "meaning_en": "to let / leave"
+      }
+     ]
+    },
+    {
+     "pattern": "e-a-e",
+     "title_fa": "گروه e→a→e",
+     "title_en": "Group e→a→e",
+     "explanation_fa": "مصوت Infinitiv و Partizip II یکسان هستند (e)، Präteritum با a. اغلب e→ie یا e→i در Präsens.",
+     "explanation_en": "Infinitiv and Partizip II vowel is the same (e), Präteritum has a. Often e→ie or e→i in Präsens.",
+     "examples": [
+      {
+       "infinitiv": "sehen",
+       "praeteritum": "sah",
+       "partizip_ii": "gesehen",
+       "meaning_fa": "دیدن",
+       "meaning_en": "to see"
+      },
+      {
+       "infinitiv": "lesen",
+       "praeteritum": "las",
+       "partizip_ii": "gelesen",
+       "meaning_fa": "خواندن",
+       "meaning_en": "to read"
+      },
+      {
+       "infinitiv": "essen",
+       "praeteritum": "aß",
+       "partizip_ii": "gegessen",
+       "meaning_fa": "خوردن",
+       "meaning_en": "to eat"
+      },
+      {
+       "infinitiv": "vergessen",
+       "praeteritum": "vergaß",
+       "partizip_ii": "vergessen",
+       "meaning_fa": "فراموش کردن",
+       "meaning_en": "to forget"
+      }
+     ]
+    },
+    {
+     "pattern": "e-a-o",
+     "title_fa": "گروه e→a→o",
+     "title_en": "Group e→a→o",
+     "explanation_fa": "یکی از بزرگ‌ترین گروه‌های افعال بی‌قاعده. مصوت Partizip II با هر دوی Infinitiv و Präteritum فرق دارد. اغلب e→i در Präsens.",
+     "explanation_en": "One of the largest groups. The Partizip II vowel differs from both the Infinitiv and Präteritum. Often e→i in Präsens.",
+     "examples": [
+      {
+       "infinitiv": "sprechen",
+       "praeteritum": "sprach",
+       "partizip_ii": "gesprochen",
+       "meaning_fa": "صحبت کردن",
+       "meaning_en": "to speak"
+      },
+      {
+       "infinitiv": "helfen",
+       "praeteritum": "half",
+       "partizip_ii": "geholfen",
+       "meaning_fa": "کمک کردن",
+       "meaning_en": "to help"
+      },
+      {
+       "infinitiv": "treffen",
+       "praeteritum": "traf",
+       "partizip_ii": "getroffen",
+       "meaning_fa": "ملاقات کردن",
+       "meaning_en": "to meet"
+      },
+      {
+       "infinitiv": "sterben",
+       "praeteritum": "starb",
+       "partizip_ii": "gestorben",
+       "meaning_fa": "مردن",
+       "meaning_en": "to die"
+      },
+      {
+       "infinitiv": "nehmen",
+       "praeteritum": "nahm",
+       "partizip_ii": "genommen",
+       "meaning_fa": "گرفتن",
+       "meaning_en": "to take"
+      }
+     ]
+    },
+    {
+     "pattern": "ei-ie-ie",
+     "title_fa": "گروه ei→ie→ie",
+     "title_en": "Group ei→ie→ie",
+     "explanation_fa": "Präteritum و Partizip II هر دو با ie. هیچ تغییری در Präsens ندارند.",
+     "explanation_en": "Both Präteritum and Partizip II have ie. No change in Präsens.",
+     "examples": [
+      {
+       "infinitiv": "bleiben",
+       "praeteritum": "blieb",
+       "partizip_ii": "geblieben",
+       "meaning_fa": "ماندن",
+       "meaning_en": "to stay"
+      },
+      {
+       "infinitiv": "schreiben",
+       "praeteritum": "schrieb",
+       "partizip_ii": "geschrieben",
+       "meaning_fa": "نوشتن",
+       "meaning_en": "to write"
+      },
+      {
+       "infinitiv": "steigen",
+       "praeteritum": "stieg",
+       "partizip_ii": "gestiegen",
+       "meaning_fa": "بالا رفتن",
+       "meaning_en": "to climb / rise"
+      },
+      {
+       "infinitiv": "scheinen",
+       "praeteritum": "schien",
+       "partizip_ii": "geschienen",
+       "meaning_fa": "به نظر رسیدن",
+       "meaning_en": "to seem / shine"
+      }
+     ]
+    },
+    {
+     "pattern": "ei-i-i",
+     "title_fa": "گروه ei→i→i",
+     "title_en": "Group ei→i→i",
+     "explanation_fa": "Präteritum و Partizip II هر دو با i (کوتاه). تفاوت مهم با گروه قبلی: اینجا i است نه ie.",
+     "explanation_en": "Both Präteritum and Partizip II have i (short). Important distinction from the previous group: here it is i, not ie.",
+     "examples": [
+      {
+       "infinitiv": "reiten",
+       "praeteritum": "ritt",
+       "partizip_ii": "geritten",
+       "meaning_fa": "اسب‌سواری",
+       "meaning_en": "to ride (a horse)"
+      },
+      {
+       "infinitiv": "streiten",
+       "praeteritum": "stritt",
+       "partizip_ii": "gestritten",
+       "meaning_fa": "دعوا کردن",
+       "meaning_en": "to argue"
+      },
+      {
+       "infinitiv": "leiden",
+       "praeteritum": "litt",
+       "partizip_ii": "gelitten",
+       "meaning_fa": "رنج بردن",
+       "meaning_en": "to suffer"
+      },
+      {
+       "infinitiv": "beißen",
+       "praeteritum": "biss",
+       "partizip_ii": "gebissen",
+       "meaning_fa": "گاز گرفتن",
+       "meaning_en": "to bite"
+      }
+     ]
+    },
+    {
+     "pattern": "i-a-u",
+     "title_fa": "گروه i→a→u",
+     "title_en": "Group i→a→u",
+     "explanation_fa": "هر سه فرم مصوت متفاوت دارند. Infinitiv با i، Präteritum با a، Partizip II با u.",
+     "explanation_en": "All three forms have different vowels. Infinitiv with i, Präteritum with a, Partizip II with u.",
+     "examples": [
+      {
+       "infinitiv": "finden",
+       "praeteritum": "fand",
+       "partizip_ii": "gefunden",
+       "meaning_fa": "پیدا کردن",
+       "meaning_en": "to find"
+      },
+      {
+       "infinitiv": "trinken",
+       "praeteritum": "trank",
+       "partizip_ii": "getrunken",
+       "meaning_fa": "نوشیدن",
+       "meaning_en": "to drink"
+      },
+      {
+       "infinitiv": "verschwinden",
+       "praeteritum": "verschwand",
+       "partizip_ii": "verschwunden",
+       "meaning_fa": "ناپدید شدن",
+       "meaning_en": "to disappear"
+      }
+     ]
+    },
+    {
+     "pattern": "i-a-o",
+     "title_fa": "گروه i→a→o",
+     "title_en": "Group i→a→o",
+     "explanation_fa": "هر سه فرم متفاوت. Infinitiv با i، Präteritum با a، Partizip II با o.",
+     "explanation_en": "All three forms differ. Infinitiv with i, Präteritum with a, Partizip II with o.",
+     "examples": [
+      {
+       "infinitiv": "beginnen",
+       "praeteritum": "begann",
+       "partizip_ii": "begonnen",
+       "meaning_fa": "شروع کردن",
+       "meaning_en": "to begin"
+      },
+      {
+       "infinitiv": "gewinnen",
+       "praeteritum": "gewann",
+       "partizip_ii": "gewonnen",
+       "meaning_fa": "برنده شدن",
+       "meaning_en": "to win"
+      },
+      {
+       "infinitiv": "schwimmen",
+       "praeteritum": "schwamm",
+       "partizip_ii": "geschwommen",
+       "meaning_fa": "شنا کردن",
+       "meaning_en": "to swim"
+      }
+     ]
+    },
+    {
+     "pattern": "ie-o-o",
+     "title_fa": "گروه ie→o→o",
+     "title_en": "Group ie→o→o",
+     "explanation_fa": "Präteritum و Partizip II هر دو با o. Infinitiv با ie.",
+     "explanation_en": "Both Präteritum and Partizip II have o. Infinitiv has ie.",
+     "examples": [
+      {
+       "infinitiv": "fliegen",
+       "praeteritum": "flog",
+       "partizip_ii": "geflogen",
+       "meaning_fa": "پرواز کردن",
+       "meaning_en": "to fly"
+      },
+      {
+       "infinitiv": "schließen",
+       "praeteritum": "schloss",
+       "partizip_ii": "geschlossen",
+       "meaning_fa": "بستن",
+       "meaning_en": "to close"
+      },
+      {
+       "infinitiv": "verlieren",
+       "praeteritum": "verlor",
+       "partizip_ii": "verloren",
+       "meaning_fa": "از دست دادن",
+       "meaning_en": "to lose"
+      },
+      {
+       "infinitiv": "ziehen",
+       "praeteritum": "zog",
+       "partizip_ii": "gezogen",
+       "meaning_fa": "کشیدن",
+       "meaning_en": "to pull / move"
+      }
+     ]
+    },
+    {
+     "pattern": "dental",
+     "title_fa": "افعال مختلط دندانی (Mischverben / dentale Verben)",
+     "title_en": "Mixed/Dental Verbs (Mischverben)",
+     "explanation_fa": "این افعال ترکیبی از تغییر مصوت + پسوند -t (مانند افعال قاعده‌مند) دارند. Partizip II با -t ختم می‌شود نه -en. تعداد کمی هستند ولی همگی پرکاربرد هستند.",
+     "explanation_en": "These verbs combine vowel change + -t suffix (like regular verbs). Partizip II ends in -t not -en. Few in number but all high-frequency.",
+     "examples": [
+      {
+       "infinitiv": "denken",
+       "praeteritum": "dachte",
+       "partizip_ii": "gedacht",
+       "meaning_fa": "فکر کردن",
+       "meaning_en": "to think"
+      },
+      {
+       "infinitiv": "bringen",
+       "praeteritum": "brachte",
+       "partizip_ii": "gebracht",
+       "meaning_fa": "آوردن",
+       "meaning_en": "to bring"
+      },
+      {
+       "infinitiv": "kennen",
+       "praeteritum": "kannte",
+       "partizip_ii": "gekannt",
+       "meaning_fa": "شناختن",
+       "meaning_en": "to know (someone)"
+      },
+      {
+       "infinitiv": "nennen",
+       "praeteritum": "nannte",
+       "partizip_ii": "genannt",
+       "meaning_fa": "نام بردن",
+       "meaning_en": "to name"
+      },
+      {
+       "infinitiv": "rennen",
+       "praeteritum": "rannte",
+       "partizip_ii": "gerannt",
+       "meaning_fa": "دویدن",
+       "meaning_en": "to run"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "section_id": "partizip_ii_formation",
+   "title_fa": "ساخت Partizip II (صفت مفعولی)",
+   "title_en": "Forming the Partizip II",
+   "rules": [
+    {
+     "rule_id": "strong_regular_prefix",
+     "title_fa": "افعال قوی بدون پیشوند جدانشدنی",
+     "title_en": "Strong Verbs Without Inseparable Prefix",
+     "formula": "ge- + (تغییر مصوت) + Verbstamm + -en",
+     "examples": [
+      {
+       "infinitiv": "fahren",
+       "partizip_ii": "ge-fahr-en",
+       "rule": "ge + a→a + en"
+      },
+      {
+       "infinitiv": "sprechen",
+       "partizip_ii": "ge-sproch-en",
+       "rule": "ge + e→o + en"
+      },
+      {
+       "infinitiv": "bleiben",
+       "partizip_ii": "ge-blieb-en",
+       "rule": "ge + ei→ie + en"
+      }
+     ]
+    },
+    {
+     "rule_id": "inseparable_prefix",
+     "title_fa": "افعال با پیشوند جدانشدنی (be-, ver-, er-, ent-, ge-, miss-, zer-, emp-)",
+     "title_en": "Verbs with Inseparable Prefix",
+     "formula": "پیشوند جدانشدنی + (تغییر مصوت) + Verbstamm + -en — بدون ge-!",
+     "note_fa": "پیشوندهای جدانشدنی ge- نمی‌گیرند چون ge- خودش یک پیشوند است و دو پیشوند کنار هم نمی‌آیند.",
+     "note_en": "Inseparable prefixes don't take ge- because ge- is itself a prefix and two prefixes don't stack.",
+     "examples": [
+      {
+       "infinitiv": "bekommen",
+       "partizip_ii": "be-komm-en (نه: bege-kommen)",
+       "rule": "بدون ge-"
+      },
+      {
+       "infinitiv": "verstehen",
+       "partizip_ii": "ver-stand-en",
+       "rule": "بدون ge-"
+      },
+      {
+       "infinitiv": "erfahren",
+       "partizip_ii": "er-fahr-en",
+       "rule": "بدون ge-"
+      }
+     ]
+    },
+    {
+     "rule_id": "separable_prefix",
+     "title_fa": "افعال با پیشوند جداشدنی (ab-, an-, auf-, aus-, ein-, mit-, ...)",
+     "title_en": "Verbs with Separable Prefix",
+     "formula": "پیشوند جداشدنی + ge- + (تغییر مصوت) + Verbstamm + -en",
+     "note_fa": "ge- بین پیشوند جداشدنی و ریشه‌ی فعل قرار می‌گیرد.",
+     "note_en": "ge- is inserted between the separable prefix and the verb stem.",
+     "examples": [
+      {
+       "infinitiv": "ankommen",
+       "partizip_ii": "an-ge-komm-en"
+      },
+      {
+       "infinitiv": "mitbringen",
+       "partizip_ii": "mit-ge-bracht"
+      },
+      {
+       "infinitiv": "einschlafen",
+       "partizip_ii": "ein-ge-schlaf-en"
+      },
+      {
+       "infinitiv": "aufstehen",
+       "partizip_ii": "auf-ge-stand-en"
+      }
+     ]
+    },
+    {
+     "rule_id": "mixed_verbs",
+     "title_fa": "افعال مختلط (Mischverben)",
+     "title_en": "Mixed Verbs",
+     "formula": "ge- + (تغییر مصوت) + Verbstamm + -t",
+     "examples": [
+      {
+       "infinitiv": "denken",
+       "partizip_ii": "ge-dach-t"
+      },
+      {
+       "infinitiv": "bringen",
+       "partizip_ii": "ge-brach-t"
+      },
+      {
+       "infinitiv": "kennen",
+       "partizip_ii": "ge-kann-t"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "section_id": "praesens_vowel_change",
+   "title_fa": "تغییر مصوت در Präsens (در du و er/sie/es)",
+   "title_en": "Vowel Change in Präsens (in du and er/sie/es forms)",
+   "explanation_fa": "برخی افعال بی‌قاعده در Präsens (زمان حال) هم تغییر مصوت دارند — فقط در صیغه‌های du و er/sie/es. این جدا از تغییرات Präteritum و Partizip II است.",
+   "explanation_en": "Some irregular verbs also change their vowel in the Präsens — only in the du and er/sie/es forms. This is separate from the Präteritum and Partizip II changes.",
+   "change_groups": [
+    {
+     "change": "a → ä",
+     "title_fa": "a به ä (Umlaut)",
+     "explanation_fa": "افعالی که در Infinitiv مصوت a دارند، در du/er آن را به ä تبدیل می‌کنند.",
+     "explanation_en": "Verbs with a in the infinitiv change it to ä in du/er forms.",
+     "examples": [
+      {
+       "infinitiv": "fahren",
+       "ich": "fahre",
+       "du": "fährst",
+       "er": "fährt"
+      },
+      {
+       "infinitiv": "tragen",
+       "ich": "trage",
+       "du": "trägst",
+       "er": "trägt"
+      },
+      {
+       "infinitiv": "schlafen",
+       "ich": "schlafe",
+       "du": "schläfst",
+       "er": "schläft"
+      },
+      {
+       "infinitiv": "lassen",
+       "ich": "lasse",
+       "du": "lässt",
+       "er": "lässt"
+      }
+     ],
+     "title_en": "a → ä (umlaut)"
+    },
+    {
+     "change": "e → i",
+     "title_fa": "e به i",
+     "explanation_fa": "افعالی که در Infinitiv مصوت e دارند و e→a→o یا e→a→e الگو دارند، در du/er آن را به i تبدیل می‌کنند.",
+     "explanation_en": "Verbs with e in the infinitiv of the e→a→o or e→a→e pattern change it to i in du/er forms.",
+     "examples": [
+      {
+       "infinitiv": "sprechen",
+       "ich": "spreche",
+       "du": "sprichst",
+       "er": "spricht"
+      },
+      {
+       "infinitiv": "helfen",
+       "ich": "helfe",
+       "du": "hilfst",
+       "er": "hilft"
+      },
+      {
+       "infinitiv": "nehmen",
+       "ich": "nehme",
+       "du": "nimmst",
+       "er": "nimmt"
+      },
+      {
+       "infinitiv": "essen",
+       "ich": "esse",
+       "du": "isst",
+       "er": "isst"
+      },
+      {
+       "infinitiv": "vergessen",
+       "ich": "vergesse",
+       "du": "vergisst",
+       "er": "vergisst"
+      }
+     ],
+     "title_en": "e → i"
+    },
+    {
+     "change": "e → ie",
+     "title_fa": "e به ie",
+     "explanation_fa": "برخی افعال با e، آن را در du/er به ie تبدیل می‌کنند (نه i).",
+     "explanation_en": "Some e-verbs change e to ie (not i) in the du/er forms.",
+     "examples": [
+      {
+       "infinitiv": "sehen",
+       "ich": "sehe",
+       "du": "siehst",
+       "er": "sieht"
+      },
+      {
+       "infinitiv": "lesen",
+       "ich": "lese",
+       "du": "liest",
+       "er": "liest"
+      },
+      {
+       "infinitiv": "empfehlen",
+       "ich": "empfehle",
+       "du": "empfiehlst",
+       "er": "empfiehlt"
+      }
+     ],
+     "title_en": "e → ie"
+    },
+    {
+     "change": "au → äu",
+     "title_fa": "au به äu",
+     "explanation_fa": "فقط چند فعل با au: مصوت دوگانه به äu تبدیل می‌شود.",
+     "explanation_en": "Only a few verbs with au: the diphthong changes to äu.",
+     "examples": [
+      {
+       "infinitiv": "laufen",
+       "ich": "laufe",
+       "du": "läufst",
+       "er": "läuft"
+      }
+     ],
+     "title_en": "au → äu"
+    },
+    {
+     "change": "null",
+     "title_fa": "بدون تغییر در Präsens",
+     "explanation_fa": "بسیاری از افعال بی‌قاعده (مثلاً افعال با ei، ie) در Präsens تغییر مصوت ندارند.",
+     "explanation_en": "Many irregular verbs (e.g. verbs with ei, ie in the stem) don't change their vowel in the Präsens.",
+     "examples": [
+      {
+       "infinitiv": "bleiben",
+       "ich": "bleibe",
+       "du": "bleibst",
+       "er": "bleibt"
+      },
+      {
+       "infinitiv": "trinken",
+       "ich": "trinke",
+       "du": "trinkst",
+       "er": "trinkt"
+      },
+      {
+       "infinitiv": "kommen",
+       "ich": "komme",
+       "du": "kommst",
+       "er": "kommt"
+      }
+     ],
+     "title_en": "No change in the present tense"
+    }
+   ]
+  },
+  {
+   "section_id": "haben_vs_sein",
+   "title_fa": "فعل کمکی Perfekt: haben یا sein؟",
+   "title_en": "Perfekt Auxiliary: haben or sein?",
+   "explanation_fa": "در ساخت زمان Perfekt، فعل کمکی (Hilfsverb) یا haben است یا sein. این قانون برای افعال بی‌قاعده هم صدق می‌کند.",
+   "explanation_en": "When forming the Perfekt tense, the auxiliary verb (Hilfsverb) is either haben or sein. This rule applies to irregular verbs too.",
+   "rules": [
+    {
+     "auxiliary": "sein",
+     "title_fa": "کِی sein؟",
+     "title_en": "When sein?",
+     "rules_fa": [
+      "افعال حرکت از A به B: fahren, gehen, kommen, fliegen, laufen, rennen, reiten, steigen, fallen...",
+      "افعال تغییر حالت: aufwachsen, einschlafen, sterben, werden, verschwinden, aussterben...",
+      "خودِ فعل sein: Ich bin gewesen."
+     ],
+     "rules_en": [
+      "Verbs of movement from A to B: fahren, gehen, kommen, fliegen, laufen, rennen, reiten, steigen, fallen...",
+      "Verbs expressing a change of state: aufwachsen, einschlafen, sterben, werden, verschwinden, aussterben...",
+      "The verb sein itself: Ich bin gewesen."
+     ],
+     "examples": [
+      {
+       "de": "Ich bin nach Berlin gefahren.",
+       "fa": "به برلین رفتم.",
+       "en": "I drove to Berlin."
+      },
+      {
+       "de": "Er ist eingeschlafen.",
+       "fa": "او به خواب رفت.",
+       "en": "He fell asleep."
+      },
+      {
+       "de": "Das Kind ist aufgewachsen.",
+       "fa": "بچه بزرگ شد.",
+       "en": "The child grew up."
+      }
+     ]
+    },
+    {
+     "auxiliary": "haben",
+     "title_fa": "کِی haben؟",
+     "title_en": "When haben?",
+     "rules_fa": [
+      "همه‌ی افعال متعدی (با مفعول مستقیم Akkusativ): sehen, lesen, essen, nehmen...",
+      "افعال وجهی: haben, können, müssen, wollen...",
+      "افعال انعکاسی: sich freuen, sich erholen, sich erinnern...",
+      "برخی افعال لازم (بدون حرکت): schlafen, liegen, stehen, sitzen..."
+     ],
+     "rules_en": [
+      "All transitive verbs (with Akkusativ direct object): sehen, lesen, essen, nehmen...",
+      "Modal verbs: haben, können, müssen, wollen...",
+      "Reflexive verbs: sich freuen, sich erholen, sich erinnern...",
+      "Some intransitive verbs (without movement): schlafen, liegen, stehen, sitzen..."
+     ],
+     "examples": [
+      {
+       "de": "Ich habe das Buch gelesen.",
+       "fa": "کتاب را خواندم.",
+       "en": "I read the book."
+      },
+      {
+       "de": "Er hat geschlafen.",
+       "fa": "او خوابید.",
+       "en": "He slept."
+      },
+      {
+       "de": "Wir haben uns gefreut.",
+       "fa": "خوشحال بودیم.",
+       "en": "We were happy."
+      }
+     ]
+    },
+    {
+     "auxiliary": "haben_oder_sein",
+     "title_fa": "هر دو ممکن است (با تغییر معنی)",
+     "title_en": "Both Possible (with meaning change)",
+     "explanation_fa": "برخی افعال مانند ziehen، fahren، fliegen هم با haben (متعدی) و هم با sein (لازم/حرکت) صرف می‌شوند.",
+     "explanation_en": "Some verbs like ziehen, fahren, fliegen can use both haben (transitive) and sein (intransitive/movement).",
+     "examples": [
+      {
+       "de_sein": "Wir sind nach München gezogen. (اسباب‌کشی — حرکت)",
+       "de_haben": "Ich habe den Wagen gezogen. (کشیدن — متعدی)",
+       "fa": "به مونیخ اسباب‌کشی کردیم vs. ماشین را کشیدم.",
+       "en": "We moved to Munich vs. I pulled the car."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "section_id": "modal_verbs",
+   "title_fa": "افعال وجهی (Modalverben) — بی‌قاعده‌های خاص",
+   "title_en": "Modal Verbs — Special Irregulars",
+   "explanation_fa": "شش فعل وجهی در Präsens صرف کاملاً خاصی دارند: اول و سوم شخص مفرد یکسان هستند و بدون پسوند -e/-t می‌آیند.",
+   "explanation_en": "The six modal verbs have a completely special conjugation in the Präsens: first and third person singular are identical and come without the -e/-t suffix.",
+   "conjugation_table": {
+    "headers": [
+     "Person",
+     "können",
+     "müssen",
+     "sollen",
+     "wollen",
+     "dürfen",
+     "mögen"
+    ],
+    "rows": [
+     [
+      "ich",
+      "kann",
+      "muss",
+      "soll",
+      "will",
+      "darf",
+      "mag"
+     ],
+     [
+      "du",
+      "kannst",
+      "musst",
+      "sollst",
+      "willst",
+      "darfst",
+      "magst"
+     ],
+     [
+      "er/sie/es",
+      "kann",
+      "muss",
+      "soll",
+      "will",
+      "darf",
+      "mag"
+     ],
+     [
+      "wir",
+      "können",
+      "müssen",
+      "sollen",
+      "wollen",
+      "dürfen",
+      "mögen"
+     ],
+     [
+      "ihr",
+      "könnt",
+      "müsst",
+      "sollt",
+      "wollt",
+      "dürft",
+      "mögt"
+     ],
+     [
+      "sie/Sie",
+      "können",
+      "müssen",
+      "sollen",
+      "wollen",
+      "dürfen",
+      "mögen"
+     ]
+    ]
+   },
+   "prateritum_table": {
+    "title_fa": "Präteritum افعال وجهی",
+    "title_en": "Präteritum of Modal Verbs",
+    "headers": [
+     "Infinitiv",
+     "Präteritum (ich/er)",
+     "Partizip II"
+    ],
+    "rows": [
+     [
+      "können",
+      "konnte",
+      "gekonnt"
+     ],
+     [
+      "müssen",
+      "musste",
+      "gemusst"
+     ],
+     [
+      "sollen",
+      "sollte",
+      "gesollt"
+     ],
+     [
+      "wollen",
+      "wollte",
+      "gewollt"
+     ],
+     [
+      "dürfen",
+      "durfte",
+      "gedurft"
+     ],
+     [
+      "mögen",
+      "mochte",
+      "gemocht"
+     ]
+    ]
+   },
+   "important_note_fa": "نکته‌ی مهم: وقتی افعال وجهی همراه با یک مصدر دیگر استفاده می‌شوند، در Perfekt شکل مصدری‌شان می‌آید نه Partizip II:\n❌ Ich habe das gemusst → درست وقتی تنها باشند\n✅ Ich habe das tun müssen → وقتی با مصدر دیگری بیایند (مصدری = Infinitiv)",
+   "important_note_en": "Important: When modal verbs are used together with another infinitive, they appear in their infinitive form (not Partizip II) in the Perfekt:\n❌ Ich habe das gemusst → correct only when used alone\n✅ Ich habe das tun müssen → when used with another infinitive (Infinitive form = Ersatzinfinitiv)"
+  },
+  {
+   "section_id": "fully_irregular",
+   "title_fa": "افعال کاملاً نامنظم — باید حفظ شوند",
+   "title_en": "Fully Irregular Verbs — Must Be Memorized",
+   "verbs": [
+    {
+     "infinitiv": "sein",
+     "conjugation_note_fa": "کاملاً نامنظم — ریشه کاملاً عوض می‌شود",
+     "praesens": "bin/bist/ist/sind/seid/sind",
+     "praeteritum": "war/warst/war/waren/wart/waren",
+     "partizip_ii": "gewesen",
+     "perfekt_auxiliary": "sein",
+     "meaning_fa": "بودن",
+     "example_de": "Ich war gestern in der Stadt.",
+     "example_fa": "دیروز در شهر بودم.",
+     "meaning_en": "to be",
+     "conjugation_note_en": "Completely irregular — the stem changes entirely",
+     "example_en": "I was in town yesterday."
+    },
+    {
+     "infinitiv": "haben",
+     "conjugation_note_fa": "نیمه‌نامنظم",
+     "praesens": "habe/hast/hat/haben/habt/haben",
+     "praeteritum": "hatte/hattest/hatte/...",
+     "partizip_ii": "gehabt",
+     "perfekt_auxiliary": "haben",
+     "meaning_fa": "داشتن",
+     "example_de": "Ich hatte früher ein Auto.",
+     "example_fa": "قبلاً یک ماشین داشتم.",
+     "meaning_en": "to have",
+     "conjugation_note_en": "Semi-irregular",
+     "example_en": "I used to have a car."
+    },
+    {
+     "infinitiv": "werden",
+     "conjugation_note_fa": "نامنظم + Partizip II در Passiv: worden (نه geworden)",
+     "praesens": "werde/wirst/wird/werden/werdet/werden",
+     "praeteritum": "wurde/wurdest/wurde/...",
+     "partizip_ii": "geworden (فعل مستقل) / worden (در Passiv)",
+     "perfekt_auxiliary": "sein",
+     "meaning_fa": "شدن",
+     "example_de": "Das Haus wurde gebaut. (Passiv — worden)",
+     "example_fa": "خانه ساخته شد.",
+     "meaning_en": "to become",
+     "conjugation_note_en": "Irregular + Partizip II in the passive: worden (not geworden)",
+     "example_en": "The house was built."
+    },
+    {
+     "infinitiv": "gehen",
+     "conjugation_note_fa": "Präteritum با i (ریشه کاملاً عوض می‌شود)",
+     "praesens": "gehe/gehst/geht/...",
+     "praeteritum": "ging",
+     "partizip_ii": "gegangen",
+     "perfekt_auxiliary": "sein",
+     "meaning_fa": "رفتن",
+     "example_de": "Ich bin gestern früh nach Hause gegangen.",
+     "example_fa": "دیروز زود به خانه رفتم.",
+     "meaning_en": "to go",
+     "conjugation_note_en": "Präteritum with i (the stem changes entirely)",
+     "example_en": "I went home early yesterday."
+    },
+    {
+     "infinitiv": "wissen",
+     "conjugation_note_fa": "مثل افعال وجهی صرف می‌شود",
+     "praesens": "weiß/weißt/weiß/wissen/wisst/wissen",
+     "praeteritum": "wusste",
+     "partizip_ii": "gewusst",
+     "perfekt_auxiliary": "haben",
+     "meaning_fa": "دانستن",
+     "example_de": "Ich weiß es nicht.",
+     "example_fa": "نمی‌دانم.",
+     "meaning_en": "to know (a fact)",
+     "conjugation_note_en": "Conjugated like the modal verbs",
+     "example_en": "I don't know."
+    }
+   ]
+  },
+  {
+   "section_id": "compound_verbs",
+   "title_fa": "افعال مرکب با فعل بی‌قاعده",
+   "title_en": "Compound Verbs Built on Irregular Verbs",
+   "explanation_fa": "بسیاری از افعال مرکب (trennbar یا untrennbar) از یک فعل بی‌قاعده‌ی پایه ساخته شده‌اند. قانون مهم: فعل مرکب همان الگوی بی‌قاعدگی فعل پایه را دارد — پس اگر fahren را بلدی، abfahren, losfahren, wegfahren, zurückfahren همه همان الگو را دارند.",
+   "explanation_en": "Many compound verbs (separable or inseparable) are built on an irregular base verb. Important rule: the compound verb follows the same irregular pattern as the base verb — so if you know fahren, then abfahren, losfahren, wegfahren, zurückfahren all follow the same pattern.",
+   "base_verb_families": [
+    {
+     "base": "fahren (a-u-a, sein)",
+     "compounds": [
+      "abfahren",
+      "losfahren",
+      "wegfahren",
+      "zurückfahren",
+      "erfahren",
+      "vorbeikommen → nein: vorbeikommen → kommen-Familie"
+     ]
+    },
+    {
+     "base": "kommen (mixed, sein)",
+     "compounds": [
+      "ankommen",
+      "zurückkommen",
+      "mitkommen",
+      "vorbeikommen",
+      "hinzukommen",
+      "reinkommen",
+      "weiterkommen",
+      "bekommen (haben!)"
+     ]
+    },
+    {
+     "base": "nehmen (e-a-o, haben)",
+     "compounds": [
+      "abnehmen",
+      "annehmen",
+      "aufnehmen",
+      "einnehmen",
+      "mitnehmen",
+      "übernehmen",
+      "unternehmen",
+      "zunehmen",
+      "zurücknehmen"
+     ]
+    },
+    {
+     "base": "gehen (mixed, sein)",
+     "compounds": [
+      "weggehen",
+      "ausgehen",
+      "zurückgehen",
+      "weitergehen",
+      "kaputtgehen"
+     ]
+    },
+    {
+     "base": "bringen (dental, haben)",
+     "compounds": [
+      "mitbringen",
+      "beibringen",
+      "zurückbringen",
+      "verbringen",
+      "weiterempfehlen → empfehlen-Familie"
+     ]
+    },
+    {
+     "base": "sehen (e-a-e, haben)",
+     "compounds": [
+      "ansehen",
+      "fernsehen",
+      "wiedersehen",
+      "übersehen",
+      "voraussehen"
+     ]
+    }
+   ],
+   "important_note_fa": "استثنا مهم: bekommen (دریافت کردن) با sein صرف نمی‌شود! از kommen می‌آید ولی معنی‌اش حرکت نیست، پس haben می‌گیرد: Ich habe ein Paket bekommen.",
+   "important_note_en": "Important exception: bekommen (to receive) does NOT use sein! It comes from kommen but its meaning is not movement, so it uses haben: Ich habe ein Paket bekommen."
+  },
+  {
+   "section_id": "common_mistakes",
+   "title_fa": "خطاهای رایج زبان‌آموزان فارسی‌زبان",
+   "title_en": "Common Mistakes by Persian-Speaking Learners",
+   "mistakes": [
+    {
+     "mistake_id": "haben_sein",
+     "title_fa": "haben به‌جای sein یا برعکس",
+     "examples": [
+      {
+       "wrong": "❌ Ich habe gestern nach Berlin gefahren.",
+       "correct": "✅ Ich bin gestern nach Berlin gefahren.",
+       "note": "fahren = حرکت → sein"
+      },
+      {
+       "wrong": "❌ Er ist das Buch gelesen.",
+       "correct": "✅ Er hat das Buch gelesen.",
+       "note": "lesen = متعدی → haben"
+      },
+      {
+       "wrong": "❌ Ich habe eingeschlafen.",
+       "correct": "✅ Ich bin eingeschlafen.",
+       "note": "einschlafen = تغییر حالت → sein"
+      }
+     ],
+     "title_en": "haben instead of sein (or vice versa)"
+    },
+    {
+     "mistake_id": "ge_prefix",
+     "title_fa": "ge- را جایی اضافه کردن که نباید",
+     "examples": [
+      {
+       "wrong": "❌ Ich habe bege-kommen.",
+       "correct": "✅ Ich habe bekommen.",
+       "note": "be- جدانشدنی → بدون ge-"
+      },
+      {
+       "wrong": "❌ Ich habe ver-ge-standen.",
+       "correct": "✅ Ich habe verstanden.",
+       "note": "ver- جدانشدنی → بدون ge-"
+      },
+      {
+       "wrong": "❌ Ich habe an-ge-rufen — این درست است!",
+       "correct": "✅ Ich habe angerufen.",
+       "note": "an- جداشدنی → ge- بین پیشوند و فعل"
+      }
+     ],
+     "title_en": "Adding ge- where it does not belong"
+    },
+    {
+     "mistake_id": "praesens_vowel",
+     "title_fa": "فراموش کردن تغییر مصوت در Präsens",
+     "examples": [
+      {
+       "wrong": "❌ Er sprecht sehr gut.",
+       "correct": "✅ Er spricht sehr gut.",
+       "note": "sprechen: e→i در er"
+      },
+      {
+       "wrong": "❌ Sie fährt nach Hause — این درست است!",
+       "correct": "✅ Sie fährt nach Hause.",
+       "note": "درست: fahren → fährt"
+      },
+      {
+       "wrong": "❌ Er sieht gut aus — این درست است!",
+       "correct": "✅ Er sieht gut aus.",
+       "note": "درست: sehen → sieht"
+      }
+     ],
+     "title_en": "Forgetting the vowel change in the present tense"
+    },
+    {
+     "mistake_id": "wissen_vs_kennen",
+     "title_fa": "wissen در برابر kennen",
+     "explanation_fa": "هر دو به معنی 'دانستن' هستند ولی در موارد مختلف استفاده می‌شوند:\nwissen = دانستن حقایق، اطلاعات\nkennen = شناختن شخص، مکان، یا چیز",
+     "examples": [
+      {
+       "wrong": "❌ Ich weiß Herrn Müller.",
+       "correct": "✅ Ich kenne Herrn Müller.",
+       "note": "شناختن یک شخص → kennen"
+      },
+      {
+       "wrong": "❌ Ich kenne, wo er wohnt.",
+       "correct": "✅ Ich weiß, wo er wohnt.",
+       "note": "دانستن حقیقت/اطلاعات → wissen"
+      }
+     ],
+     "title_en": "wissen vs. kennen",
+     "explanation_en": "Both mean 'to know', but they are used differently: wissen = to know a fact; kennen = to be familiar with a person, place or thing."
+    }
+   ]
+  },
+  {
+   "section_id": "tips",
+   "title_fa": "نکات کلیدی برای یادگیری افعال بی‌قاعده",
+   "title_en": "Key Tips for Learning Irregular Verbs",
+   "tips": [
+    {
+     "tip_id": 1,
+     "fa": "همیشه سه فرم را با هم یاد بگیر: fahren - fuhr - gefahren (نه فقط Infinitiv). فعل کمکی هم جزء اطلاعات ضروری است: (ist) gefahren.",
+     "en": "Always learn the three forms together: fahren - fuhr - gefahren (not just the infinitive). The auxiliary verb is also essential information: (ist) gefahren."
+    },
+    {
+     "tip_id": 2,
+     "fa": "گروه‌های Ablaut را یاد بگیر. وقتی می‌دانی که فعل در گروه e→a→o است، می‌توانی helfen, sprechen, treffen, sterben, werfen را همه با هم یاد بگیری.",
+     "en": "Learn the Ablaut groups. Once you know a verb belongs to the e→a→o group, you can learn helfen, sprechen, treffen, sterben, werfen all together."
+    },
+    {
+     "tip_id": 3,
+     "fa": "افعال مرکب از فعل پایه پیروی می‌کنند. اگر kommen را بلدی، ankommen / zurückkommen / mitkommen رایگان یاد گرفتی.",
+     "en": "Compound verbs follow the base verb. If you know kommen, you get ankommen / zurückkommen / mitkommen for free."
+    },
+    {
+     "tip_id": 4,
+     "fa": "قانون sein: حرکت یا تغییر حالت = sein. بقیه معمولاً haben. شک داری؟ haben را بزن — احتمال بیشتری دارد.",
+     "en": "The sein rule: movement or change of state = sein. Others are usually haben. Not sure? Use haben — it's more likely to be correct."
+    },
+    {
+     "tip_id": 5,
+     "fa": "افعال با پیشوند جدانشدنی (be-, ver-, er-, ge-, ent-, miss-, zer-, emp-) هرگز ge- نمی‌گیرند. bekommen نه begekommt.",
+     "en": "Verbs with inseparable prefixes (be-, ver-, er-, ge-, ent-, miss-, zer-, emp-) never take ge-. bekommen not begekommt."
+    },
+    {
+     "tip_id": 6,
+     "fa": "افعال مختلط (Mischverben) مثل bringen/denken/kennen/nennen/rennen — تعداد کم ولی خیلی پرکاربرد. Partizip II با -t ختم می‌شود: gebracht, gedacht, gekannt.",
+     "en": "Mixed verbs (Mischverben) like bringen/denken/kennen/nennen/rennen — few in number but very high-frequency. Partizip II ends in -t: gebracht, gedacht, gekannt."
+    }
+   ]
+  }
+ ],
+ "displayed_in": [
+  "Auswendiglernen/Unregelmässige-Verben",
+  "Grammatik/B1"
+ ],
+ "source_note": "این فایل گرامر مستقل از فایل دیتا (unregelmaessige_verben_data.json) است. ارجاع به افعال خاص از طریق verb_infinitive در فایل دیتا انجام می‌شود."
+}

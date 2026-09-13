@@ -1,0 +1,375 @@
+{
+ "title_de": "Modalverben",
+ "title_fa": "افعال مُدال",
+ "title_en": "Modal Verbs",
+ "verbs": [
+  {
+   "id": "können",
+   "infinitive": "können",
+   "meaning_fa": "توانستن، بلد بودن",
+   "meaning_en": "can, to be able to",
+   "praesens": {
+    "ich": "kann",
+    "du": "kannst",
+    "er_sie_es": "kann",
+    "wir": "können",
+    "ihr": "könnt",
+    "sie_Sie": "können"
+   },
+   "praeteritum": {
+    "ich": "konnte",
+    "du": "konntest",
+    "er_sie_es": "konnte",
+    "wir": "konnten",
+    "ihr": "konntet",
+    "sie_Sie": "konnten"
+   },
+   "partizip2": "gekonnt",
+   "perfekt": "hat gekonnt",
+   "perfekt_ersatzinfinitiv": "hat + Infinitiv + können",
+   "plusquamperfekt": "hatte + Infinitiv + können",
+   "futur1": "wird + Infinitiv + können",
+   "konjunktiv2": "könnte",
+   "examples": [
+    {
+     "de": "Ich kann gut schwimmen.",
+     "fa": "من خوب شنا بلدم.",
+     "en": "I can swim well.",
+     "tense": "Präsens"
+    },
+    {
+     "de": "Als Kind konnte ich stundenlang spielen.",
+     "fa": "بچه که بودم می‌توانستم ساعت‌ها بازی کنم.",
+     "en": "As a child I could play for hours.",
+     "tense": "Präteritum"
+    },
+    {
+     "de": "Ich habe gestern nicht kommen können.",
+     "fa": "دیروز نتوانستم بیایم.",
+     "en": "I was not able to come yesterday.",
+     "tense": "Perfekt (Ersatzinfinitiv)"
+    },
+    {
+     "de": "Könnten Sie mir bitte helfen?",
+     "fa": "می‌توانید لطفاً به من کمک کنید؟",
+     "en": "Could you please help me?",
+     "tense": "Konjunktiv II — höflich"
+    }
+   ],
+   "note_fa": "در Perfekt با فعل دوم: hat ... machen können (نه gekonnt)",
+   "note_en": "In Perfekt with a second verb: hat ... machen können (not gekonnt)"
+  },
+  {
+   "id": "müssen",
+   "infinitive": "müssen",
+   "meaning_fa": "باید، مجبور بودن",
+   "meaning_en": "must, to have to",
+   "praesens": {
+    "ich": "muss",
+    "du": "musst",
+    "er_sie_es": "muss",
+    "wir": "müssen",
+    "ihr": "müsst",
+    "sie_Sie": "müssen"
+   },
+   "praeteritum": {
+    "ich": "musste",
+    "du": "musstest",
+    "er_sie_es": "musste",
+    "wir": "mussten",
+    "ihr": "musstet",
+    "sie_Sie": "mussten"
+   },
+   "partizip2": "gemusst",
+   "perfekt": "hat gemusst",
+   "perfekt_ersatzinfinitiv": "hat + Infinitiv + müssen",
+   "plusquamperfekt": "hatte + Infinitiv + müssen",
+   "futur1": "wird + Infinitiv + müssen",
+   "konjunktiv2": "müsste",
+   "examples": [
+    {
+     "de": "Ich muss heute arbeiten.",
+     "fa": "امروز باید کار کنم.",
+     "en": "I have to work today.",
+     "tense": "Präsens"
+    },
+    {
+     "de": "Er musste gestern früh aufstehen.",
+     "fa": "او دیروز مجبور بود زود بیدار شود.",
+     "en": "He had to get up early yesterday.",
+     "tense": "Präteritum"
+    },
+    {
+     "de": "Wir haben lange warten müssen.",
+     "fa": "مجبور شدیم مدت زیادی صبر کنیم.",
+     "en": "We had to wait a long time.",
+     "tense": "Perfekt (Ersatzinfinitiv)"
+    },
+    {
+     "de": "Du müsstest mehr schlafen.",
+     "fa": "بهتر است بیشتر بخوابی.",
+     "en": "You ought to sleep more.",
+     "tense": "Konjunktiv II"
+    }
+   ],
+   "note_fa": "nicht müssen = لازم نیست (نه ممنوع!) — مقایسه با nicht dürfen",
+   "note_en": "nicht müssen = don't have to (not forbidden!) — compare nicht dürfen"
+  },
+  {
+   "id": "dürfen",
+   "infinitive": "dürfen",
+   "meaning_fa": "اجازه داشتن",
+   "meaning_en": "may, to be allowed to",
+   "praesens": {
+    "ich": "darf",
+    "du": "darfst",
+    "er_sie_es": "darf",
+    "wir": "dürfen",
+    "ihr": "dürft",
+    "sie_Sie": "dürfen"
+   },
+   "praeteritum": {
+    "ich": "durfte",
+    "du": "durftest",
+    "er_sie_es": "durfte",
+    "wir": "durften",
+    "ihr": "durftet",
+    "sie_Sie": "durften"
+   },
+   "partizip2": "gedurft",
+   "perfekt": "hat gedurft",
+   "perfekt_ersatzinfinitiv": "hat + Infinitiv + dürfen",
+   "plusquamperfekt": "hatte + Infinitiv + dürfen",
+   "futur1": "wird + Infinitiv + dürfen",
+   "konjunktiv2": "dürfte",
+   "examples": [
+    {
+     "de": "Hier darf man nicht rauchen.",
+     "fa": "اینجا سیگار کشیدن ممنوع است.",
+     "en": "Smoking is not allowed here.",
+     "tense": "Präsens"
+    },
+    {
+     "de": "Als Kind durfte ich nicht lange fernsehen.",
+     "fa": "بچه که بودم اجازه نداشتم زیاد تلویزیون ببینم.",
+     "en": "As a child I was not allowed to watch TV for long.",
+     "tense": "Präteritum"
+    },
+    {
+     "de": "Sie hat nicht mitkommen dürfen.",
+     "fa": "او اجازه نداشت همراه بیاید.",
+     "en": "She was not allowed to come along.",
+     "tense": "Perfekt (Ersatzinfinitiv)"
+    },
+    {
+     "de": "Das dürfte stimmen.",
+     "fa": "احتمالاً درست است.",
+     "en": "That is probably correct.",
+     "tense": "Konjunktiv II — Vermutung (C1)"
+    }
+   ],
+   "note_fa": "nicht dürfen = ممنوع بودن",
+   "note_en": "nicht dürfen = to be forbidden"
+  },
+  {
+   "id": "wollen",
+   "infinitive": "wollen",
+   "meaning_fa": "خواستن",
+   "meaning_en": "to want",
+   "praesens": {
+    "ich": "will",
+    "du": "willst",
+    "er_sie_es": "will",
+    "wir": "wollen",
+    "ihr": "wollt",
+    "sie_Sie": "wollen"
+   },
+   "praeteritum": {
+    "ich": "wollte",
+    "du": "wolltest",
+    "er_sie_es": "wollte",
+    "wir": "wollten",
+    "ihr": "wolltet",
+    "sie_Sie": "wollten"
+   },
+   "partizip2": "gewollt",
+   "perfekt": "hat gewollt",
+   "perfekt_ersatzinfinitiv": "hat + Infinitiv + wollen",
+   "plusquamperfekt": "hatte + Infinitiv + wollen",
+   "futur1": "wird + Infinitiv + wollen",
+   "konjunktiv2": "wollte (selten)",
+   "examples": [
+    {
+     "de": "Ich will Deutsch lernen.",
+     "fa": "می‌خواهم آلمانی یاد بگیرم.",
+     "en": "I want to learn German.",
+     "tense": "Präsens"
+    },
+    {
+     "de": "Sie wollte Ärztin werden.",
+     "fa": "او می‌خواست پزشک شود.",
+     "en": "She wanted to become a doctor.",
+     "tense": "Präteritum"
+    },
+    {
+     "de": "Er hat nicht kommen wollen.",
+     "fa": "او نمی‌خواست بیاید.",
+     "en": "He did not want to come.",
+     "tense": "Perfekt (Ersatzinfinitiv)"
+    }
+   ],
+   "note_fa": "برای درخواست مؤدبانه از möchten استفاده کنید، نه wollen",
+   "note_en": "For polite requests use möchten, not wollen"
+  },
+  {
+   "id": "sollen",
+   "infinitive": "sollen",
+   "meaning_fa": "قرار بودن، باید (توصیه یا خواستهٔ دیگران)",
+   "meaning_en": "should, to be supposed to",
+   "praesens": {
+    "ich": "soll",
+    "du": "sollst",
+    "er_sie_es": "soll",
+    "wir": "sollen",
+    "ihr": "sollt",
+    "sie_Sie": "sollen"
+   },
+   "praeteritum": {
+    "ich": "sollte",
+    "du": "solltest",
+    "er_sie_es": "sollte",
+    "wir": "sollten",
+    "ihr": "solltet",
+    "sie_Sie": "sollten"
+   },
+   "partizip2": "gesollt",
+   "perfekt": "hat gesollt",
+   "perfekt_ersatzinfinitiv": "hat + Infinitiv + sollen",
+   "plusquamperfekt": "hatte + Infinitiv + sollen",
+   "futur1": "wird + Infinitiv + sollen",
+   "konjunktiv2": "sollte",
+   "examples": [
+    {
+     "de": "Der Arzt sagt, ich soll weniger Zucker essen.",
+     "fa": "دکتر می‌گوید باید کمتر شکر بخورم.",
+     "en": "The doctor says I should eat less sugar.",
+     "tense": "Präsens"
+    },
+    {
+     "de": "Du solltest mehr Sport machen.",
+     "fa": "بهتر است بیشتر ورزش کنی.",
+     "en": "You should do more sports.",
+     "tense": "Konjunktiv II — توصیه"
+    },
+    {
+     "de": "Er soll sehr reich sein.",
+     "fa": "می‌گویند خیلی ثروتمند است.",
+     "en": "He is said to be very rich.",
+     "tense": "subjektiv — Hörensagen (C1)"
+    }
+   ],
+   "note_fa": "sollen = خواسته/دستور شخص دیگر؛ sollte = توصیه",
+   "note_en": "sollen = someone else's demand; sollte = advice"
+  },
+  {
+   "id": "mögen",
+   "infinitive": "mögen",
+   "meaning_fa": "دوست داشتن",
+   "meaning_en": "to like",
+   "praesens": {
+    "ich": "mag",
+    "du": "magst",
+    "er_sie_es": "mag",
+    "wir": "mögen",
+    "ihr": "mögt",
+    "sie_Sie": "mögen"
+   },
+   "praeteritum": {
+    "ich": "mochte",
+    "du": "mochtest",
+    "er_sie_es": "mochte",
+    "wir": "mochten",
+    "ihr": "mochtet",
+    "sie_Sie": "mochten"
+   },
+   "partizip2": "gemocht",
+   "perfekt": "hat gemocht",
+   "perfekt_ersatzinfinitiv": "hat + Infinitiv + mögen",
+   "plusquamperfekt": "hatte + Infinitiv + mögen",
+   "futur1": "wird + Infinitiv + mögen",
+   "konjunktiv2": "möchte",
+   "examples": [
+    {
+     "de": "Ich mag Kaffee.",
+     "fa": "قهوه دوست دارم.",
+     "en": "I like coffee.",
+     "tense": "Präsens"
+    },
+    {
+     "de": "Als Kind mochte ich keinen Spinat.",
+     "fa": "بچه که بودم اسفناج دوست نداشتم.",
+     "en": "As a child I didn't like spinach.",
+     "tense": "Präteritum"
+    },
+    {
+     "de": "Das mag sein.",
+     "fa": "ممکن است این‌طور باشد.",
+     "en": "That may be so.",
+     "tense": "subjektiv — Einräumung (C1)"
+    }
+   ],
+   "note_fa": "mögen بیشتر با اسم می‌آید (بدون فعل دوم)",
+   "note_en": "mögen is mostly used with a noun (no second verb)"
+  },
+  {
+   "id": "möchten",
+   "infinitive": "möchten",
+   "meaning_fa": "مایل بودن، خواستن (مؤدبانه)",
+   "meaning_en": "would like",
+   "praesens": {
+    "ich": "möchte",
+    "du": "möchtest",
+    "er_sie_es": "möchte",
+    "wir": "möchten",
+    "ihr": "möchtet",
+    "sie_Sie": "möchten"
+   },
+   "praeteritum": {
+    "ich": "wollte",
+    "du": "wolltest",
+    "er_sie_es": "wollte",
+    "wir": "wollten",
+    "ihr": "wolltet",
+    "sie_Sie": "wollten"
+   },
+   "partizip2": "",
+   "perfekt": "",
+   "perfekt_ersatzinfinitiv": "hat + Infinitiv + möchten",
+   "plusquamperfekt": "hatte + Infinitiv + möchten",
+   "futur1": "wird + Infinitiv + möchten",
+   "konjunktiv2": "möchte",
+   "examples": [
+    {
+     "de": "Ich möchte einen Kaffee, bitte.",
+     "fa": "یک قهوه می‌خواهم، لطفاً.",
+     "en": "I would like a coffee, please.",
+     "tense": "Präsens"
+    },
+    {
+     "de": "Möchtest du mitkommen?",
+     "fa": "مایلی همراه بیایی؟",
+     "en": "Would you like to come along?",
+     "tense": "Präsens"
+    },
+    {
+     "de": "Gestern wollte ich dich besuchen.",
+     "fa": "دیروز می‌خواستم به دیدنت بیایم.",
+     "en": "Yesterday I wanted to visit you.",
+     "tense": "Präteritum → wollte!"
+    }
+   ],
+   "note_fa": "möchten در واقع Konjunktiv II فعل mögen است — گذشتهٔ آن wollte است",
+   "note_en": "möchten is actually the Konjunktiv II of mögen — its past tense is wollte"
+  }
+ ]
+}

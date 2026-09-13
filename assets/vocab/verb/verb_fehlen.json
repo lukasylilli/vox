@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "verb_fehlen",
+  "wort": "fehlen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کم بودن",
+      "دلتنگ بودن"
+    ],
+    "en": [
+      "to be missing",
+      "to be missed"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Gefühle",
+    "Alltag"
+  ],
+  "ipa": "ˈfeːlən",
+  "anmerkung": "Regelmäßig. jemandem fehlen = دلِ کسی تنگ شدن (Du fehlst mir) oder کم/غایب بودن. Die vermisste Person/Sache ist das Subjekt (Nominativ).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Du fehlst mir.",
+      "uebersetzung": {
+        "fa": "دلم برایت تنگ شده.",
+        "en": "I miss you."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "In der Suppe fehlt mir noch etwas Salz.",
+      "uebersetzung": {
+        "fa": "به نظرم سوپ هنوز کمی نمک کم دارد.",
+        "en": "The soup is still missing a bit of salt for me."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vermissen",
+      "uebersetzung": {
+        "fa": "دلتنگ بودن (+ Akk)",
+        "en": "to miss (+ Akk)"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "fehlen + Dat",
+        "bedeutung": "jemandem fehlen",
+        "beispiel": "Meine Familie fehlt mir.",
+        "uebersetzung": {
+          "fa": "دلم برای خانواده‌ام تنگ شده.",
+          "en": "I miss my family."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "fehlen",
+      "praeteritum": "fehlte",
+      "partizip2": "gefehlt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fehle",
+        "du": "fehlst",
+        "er_sie_es": "fehlt",
+        "wir": "fehlen",
+        "ihr": "fehlt",
+        "sie_Sie": "fehlen"
+      },
+      "praeteritum": {
+        "ich": "fehlte",
+        "du": "fehltest",
+        "er_sie_es": "fehlte",
+        "wir": "fehlten",
+        "ihr": "fehltet",
+        "sie_Sie": "fehlten"
+      },
+      "imperativ": {
+        "du": "Fehle!",
+        "ihr": "Fehlt!",
+        "Sie": "Fehlen Sie!"
+      }
+    },
+    "partizip1": "fehlend",
+    "nominalisierung": "das Fehlen"
+  },
+  "wortnetz": {
+    "grundwort": "fehlen",
+    "woerter": [
+      {
+        "wort": "vermissen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دلتنگ بودن",
+          "en": "to miss"
+        },
+        "id_ref": "verb_vermissen"
+      },
+      {
+        "wort": "der Mangel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کمبود",
+          "en": "lack"
+        },
+        "id_ref": "nomen_mangel"
+      },
+      {
+        "wort": "die Sehnsucht",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اشتیاق، دلتنگی",
+          "en": "longing"
+        },
+        "id_ref": "nomen_sehnsucht"
+      },
+      {
+        "wort": "abwesend",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "غایب",
+          "en": "absent"
+        },
+        "id_ref": "adjektiv_abwesend"
+      },
+      {
+        "wort": "brauchen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نیاز داشتن",
+          "en": "to need"
+        },
+        "id_ref": "verb_brauchen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Du fehlst mir.",
+      "dativ": [
+        "mir"
+      ],
+      "akkusativ": [],
+      "uebersetzung": {
+        "fa": "دلم برایت تنگ شده.",
+        "en": "I miss you."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

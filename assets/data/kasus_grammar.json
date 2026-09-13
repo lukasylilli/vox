@@ -1,0 +1,215 @@
+{
+ "title_de": "Dativ oder Akkusativ",
+ "title_fa": "Dativ یا Akkusativ؟",
+ "title_en": "Dative or Accusative",
+ "summary_fa": "جدول آرتیکل و ضمیر، حروف اضافهٔ Dativ/Akkusativ/متغیر، قواعد nach/zu/in/an/auf و افعال هر گروه — یکجا.",
+ "summary_en": "The article/pronoun table, dative/accusative/two-way prepositions, the nach/zu/in/an/auf rules and the verb groups — all in one place.",
+ "sections": [
+  {
+   "section_id": "a1_tabelle",
+   "level": "A1",
+   "title_fa": "جدول پایه — اول این را حفظ کن!",
+   "title_en": "The base table — memorize this first!",
+   "explanation_fa": "آرتیکل‌ها:\nMaskulin: der/ein → den/einen (Akk) → dem/einem (Dat)\nFeminin: die/eine → die/eine (Akk) → der/einer (Dat)\nNeutral: das/ein → das/ein (Akk) → dem/einem (Dat)\nPlural: die/keine → die/keine (Akk) → den/keinen + n (Dat)\n\nضمایر:\nich → mich → mir · du → dich → dir · er → ihn → ihm\nsie → sie → ihr · es → es → ihm · wir → uns → uns\nihr → euch → euch · sie/Sie → sie/Sie → ihnen/Ihnen",
+   "explanation_en": "Articles:\nMasculine: der/ein → den/einen (acc) → dem/einem (dat)\nFeminine: die/eine → die/eine (acc) → der/einer (dat)\nNeuter: das/ein → das/ein (acc) → dem/einem (dat)\nPlural: die/keine → die/keine (acc) → den/keinen + n (dat)\n\nPronouns:\nich → mich → mir · du → dich → dir · er → ihn → ihm\nsie → sie → ihr · es → es → ihm · wir → uns → uns\nihr → euch → euch · sie/Sie → sie/Sie → ihnen/Ihnen",
+   "examples": [
+    {
+     "de": "Ich sehe den Mann.",
+     "fa": "من مرد را می‌بینم. (Akkusativ)",
+     "en": "I see the man. (accusative)"
+    },
+    {
+     "de": "Ich helfe dem Mann.",
+     "fa": "من به مرد کمک می‌کنم. (Dativ)",
+     "en": "I help the man. (dative)"
+    }
+   ]
+  },
+  {
+   "section_id": "a2_dativ_praep",
+   "level": "A2",
+   "title_fa": "حروف اضافهٔ همیشه Dativ",
+   "title_en": "Always-dative prepositions",
+   "explanation_fa": "این حروف اضافه همیشه Dativ می‌سازند:\naus · bei · mit · nach · seit · von · zu · gegenüber\n\nIch komme aus der Schule.",
+   "explanation_en": "These prepositions always take the dative:\naus · bei · mit · nach · seit · von · zu · gegenüber\n\nIch komme aus der Schule.",
+   "examples": [
+    {
+     "de": "Ich komme aus der Schule.",
+     "fa": "از مدرسه می‌آیم.",
+     "en": "I am coming from school."
+    },
+    {
+     "de": "Sie fährt mit dem Bus.",
+     "fa": "او با اتوبوس می‌رود.",
+     "en": "She goes by bus."
+    }
+   ]
+  },
+  {
+   "section_id": "a2_akk_praep",
+   "level": "A2",
+   "title_fa": "حروف اضافهٔ همیشه Akkusativ",
+   "title_en": "Always-accusative prepositions",
+   "explanation_fa": "این حروف اضافه همیشه Akkusativ می‌سازند:\ndurch · für · gegen · ohne · um",
+   "explanation_en": "These prepositions always take the accusative:\ndurch · für · gegen · ohne · um",
+   "examples": [
+    {
+     "de": "Wir gehen durch den Park.",
+     "fa": "از میان پارک عبور می‌کنیم.",
+     "en": "We walk through the park."
+    },
+    {
+     "de": "Das Geschenk ist für die Lehrerin.",
+     "fa": "این هدیه برای معلم است.",
+     "en": "The present is for the teacher."
+    }
+   ]
+  },
+  {
+   "section_id": "b1_wechsel",
+   "level": "B1",
+   "title_fa": "Wechselpräpositionen — ایستا یا حرکتی؟",
+   "title_en": "Two-way prepositions — static or motion?",
+   "explanation_fa": "این حروف اضافه هم Dativ هم Akkusativ می‌گیرند:\nan · auf · hinter · in · neben · über · unter · vor · zwischen\n\nقانون:\nمکان ایستا (Wo?) → Dativ\nحرکت/تغییر مکان (Wohin?) → Akkusativ",
+   "explanation_en": "These prepositions take both cases:\nan · auf · hinter · in · neben · über · unter · vor · zwischen\n\nRule:\nStatic location (Wo?) → dative\nMotion/change of place (Wohin?) → accusative",
+   "examples": [
+    {
+     "de": "Der Ball liegt auf dem Tisch.",
+     "fa": "توپ روی میز است. (ایستا → Dativ)",
+     "en": "The ball lies on the table. (static → dative)"
+    },
+    {
+     "de": "Ich lege den Ball auf den Tisch.",
+     "fa": "توپ را روی میز می‌گذارم. (حرکت → Akkusativ)",
+     "en": "I put the ball on the table. (motion → accusative)"
+    }
+   ]
+  },
+  {
+   "section_id": "b1_wohin",
+   "level": "B1",
+   "title_fa": "به کجا؟ — nach، zu، in، an، auf",
+   "title_en": "Where to? — nach, zu, in, an, auf",
+   "explanation_fa": "nach → خانه (nach Hause)، شهرها و کشورهای بدون آرتیکل (nach Italien, nach Wien)، جهت‌ها (nach links, nach Süden, nach draußen, nach oben, nach vorne)\n\nzu → ساختمان‌ها (zum Bahnhof, zur Post, zur Universität) و آدم‌ها (zu Anna, zum Arzt, zu dir) — استثنا: zum Kurs, zum Sport\n\nvon → آمدن از سمت آدم‌ها (vom Arzt, von Ali)\n\nin → کشورهای آرتیکل‌دار (in die Türkei, in den Iran, in die Schweiz, ins Ausland)، داخل ساختمان (ins Kino, in die Bank)، جاهای محصور (in den Park, in den Wald, in die Berge, ins Wasser) — استثنا: in den Westen\n\nan → هر جا که مرز/لبه دارد (ans Meer, an den Strand, an den See, an die Grenze, ans Fenster, an die Haltestelle) — استثنا: an die Universität\n\nauf → روی سطح‌ها (auf den Berg, auf die Insel, aufs Land, auf den Balkon, auf die Wiese)، مناسبت‌ها (auf die Party, auf das Konzert, auf die Hochzeit, auf die Messe)، اپ‌ها (auf Instagram) — استثنا: aufs Amt\n\n⚠️ همهٔ موارد بالا به‌جز von/nach/zu آکوزاتیوند، چون جابجایی داریم!",
+   "explanation_en": "nach → home (nach Hause), cities and article-less countries (nach Italien, nach Wien), directions (nach links, nach Süden, nach draußen, nach oben)\n\nzu → buildings (zum Bahnhof, zur Post, zur Universität) and people (zu Anna, zum Arzt, zu dir) — exceptions: zum Kurs, zum Sport\n\nvon → coming from people (vom Arzt, von Ali)\n\nin → countries with articles (in die Türkei, in den Iran, in die Schweiz, ins Ausland), inside buildings (ins Kino, in die Bank), enclosed places (in den Park, in den Wald, in die Berge, ins Wasser) — exception: in den Westen\n\nan → anywhere with an edge/border (ans Meer, an den Strand, an den See, an die Grenze, ans Fenster, an die Haltestelle) — exception: an die Universität\n\nauf → surfaces (auf den Berg, auf die Insel, aufs Land, auf den Balkon), events (auf die Party, auf das Konzert, auf die Hochzeit, auf die Messe), apps (auf Instagram) — exception: aufs Amt\n\n⚠️ Everything above except von/nach/zu is accusative — because there is motion!",
+   "examples": [
+    {
+     "de": "Ich gehe auf den Spielplatz. → Ich bin auf dem Spielplatz.",
+     "fa": "به زمین بازی می‌روم. ← در زمین بازی هستم.",
+     "en": "I go to the playground. → I am at the playground."
+    },
+    {
+     "de": "Ich gehe zum Arzt. → Ich bin beim Arzt. → Ich komme vom Arzt.",
+     "fa": "می‌روم دکتر ← نزد دکترم ← از دکتر می‌آیم.",
+     "en": "I go to the doctor. → I am at the doctor's. → I come from the doctor."
+    },
+    {
+     "de": "Ich gehe ins Kino. → Ich bin im Kino.",
+     "fa": "به سینما می‌روم ← در سینما هستم.",
+     "en": "I go to the cinema. → I am at the cinema."
+    }
+   ]
+  },
+  {
+   "section_id": "b1_dativ_verben",
+   "level": "B1",
+   "title_fa": "افعال Dativ-ساز",
+   "title_en": "Dative verbs",
+   "explanation_fa": "برخی افعال مفعول‌شان همیشه Dativ است:\n\nhelfen (کمک کردن) · danken (تشکر کردن) · gehören (متعلق بودن) · antworten (پاسخ دادن) · gratulieren · gefallen · fehlen · passen · schmecken\n\n(لیست کامل: بخش Dativ und Akkusativ Verben در Auswendiglernen)",
+   "explanation_en": "Some verbs always take a dative object:\n\nhelfen (help) · danken (thank) · gehören (belong) · antworten (answer) · gratulieren · gefallen · fehlen · passen · schmecken\n\n(Full list: Dativ und Akkusativ Verben deck in Auswendiglernen)",
+   "examples": [
+    {
+     "de": "Kannst du mir bitte helfen?",
+     "fa": "می‌توانی لطفاً به من کمک کنی؟",
+     "en": "Can you please help me?"
+    },
+    {
+     "de": "Dieses Buch gehört mir.",
+     "fa": "این کتاب متعلق به من است.",
+     "en": "This book belongs to me."
+    },
+    {
+     "de": "Er hat mir nicht geantwortet.",
+     "fa": "او به من جواب نداد.",
+     "en": "He did not answer me."
+    }
+   ]
+  },
+  {
+   "section_id": "b1_akk_verben",
+   "level": "B1",
+   "title_fa": "افعال Akkusativ-ساز",
+   "title_en": "Accusative verbs",
+   "explanation_fa": "بیشتر افعال آلمانی مفعول Akkusativ می‌گیرند — به سؤال Was? یا Wen? جواب می‌دهند:\n\nsehen (دیدن) · hören (شنیدن) · kaufen (خریدن) · lieben (دوست داشتن) · essen · trinken · lesen · brauchen",
+   "explanation_en": "Most German verbs take an accusative object — answering Was? or Wen?:\n\nsehen (see) · hören (hear) · kaufen (buy) · lieben (love) · essen · trinken · lesen · brauchen",
+   "examples": [
+    {
+     "de": "Ich sehe den Hund.",
+     "fa": "من سگ را می‌بینم.",
+     "en": "I see the dog."
+    },
+    {
+     "de": "Sie kauft einen Apfel.",
+     "fa": "او یک سیب می‌خرد.",
+     "en": "She buys an apple."
+    }
+   ]
+  },
+  {
+   "section_id": "b1_beide",
+   "level": "B1",
+   "title_fa": "افعال با Dativ و Akkusativ هم‌زمان",
+   "title_en": "Verbs with both dative and accusative",
+   "explanation_fa": "برخی افعال دو مفعول می‌گیرند:\nDativ (به چه کسی؟) + Akkusativ (چه چیزی؟)\n\ngeben (دادن) · zeigen (نشان دادن) · schicken (فرستادن) · bringen (آوردن) · schenken · erklären · empfehlen",
+   "explanation_en": "Some verbs take two objects:\ndative (to whom?) + accusative (what?)\n\ngeben (give) · zeigen (show) · schicken (send) · bringen (bring) · schenken · erklären · empfehlen",
+   "examples": [
+    {
+     "de": "Kannst du mir den Stift geben?",
+     "fa": "می‌توانی خودکار را به من بدهی؟",
+     "en": "Can you give me the pen?"
+    },
+    {
+     "de": "Er zeigt uns sein neues Auto.",
+     "fa": "او ماشین جدیدش را به ما نشان می‌دهد.",
+     "en": "He shows us his new car."
+    },
+    {
+     "de": "Sie bringt ihm einen Kaffee.",
+     "fa": "او برایش یک قهوه می‌آورد.",
+     "en": "She brings him a coffee."
+    }
+   ]
+  },
+  {
+   "section_id": "b1_sonderfaelle",
+   "level": "B1",
+   "title_fa": "نکات و استثناها",
+   "title_en": "Special cases",
+   "explanation_fa": "۱. bei = نزدِ کسی بودن: Ich bin beim Arzt.\n\n۲. جمع در Dativ یک n اضافه می‌گیرد: mit den Frauen (نه Frauen بدون n اگر جمعش n ندارد → Frauen دارد؛ مثال بهتر: mit den Kindern)\n\n۳. کلمهٔ Hause کلاً استثناست:\nIch gehe nach Hause. (به خانه)\nIch bin zuhause. (در خانه)\nIch komme von zu Hause. (از خانه)\n\nجمع‌بندی — این‌ها یک کلمه را Dativ یا Akkusativ می‌کنند:\n• افعال Dativ/Akkusativ-ساز\n• حروف اضافهٔ همیشه Dativ یا همیشه Akkusativ\n• Wechselpräpositionen: حرکت → Akkusativ، سکون → Dativ",
+   "explanation_en": "1. bei = being at someone's place: Ich bin beim Arzt.\n\n2. Dative plural adds -n: mit den Kindern\n\n3. The word Hause is a complete exception:\nIch gehe nach Hause. (going home)\nIch bin zuhause. (at home)\nIch komme von zu Hause. (coming from home)\n\nSummary — these make a word dative or accusative:\n• dative/accusative verbs\n• always-dative or always-accusative prepositions\n• two-way prepositions: motion → accusative, rest → dative",
+   "examples": [
+    {
+     "de": "Ich bin beim Arzt.",
+     "fa": "نزد دکتر هستم.",
+     "en": "I am at the doctor's."
+    },
+    {
+     "de": "Mit den Kindern.",
+     "fa": "با بچه‌ها. (جمع + n)",
+     "en": "With the children. (plural + n)"
+    },
+    {
+     "de": "Ich gehe nach Hause. / Ich bin zuhause. / Ich komme von zu Hause.",
+     "fa": "به خانه می‌روم / در خانه‌ام / از خانه می‌آیم.",
+     "en": "I go home. / I am at home. / I come from home."
+    },
+    {
+     "de": "Ich gebe dir einen Tipp.",
+     "fa": "به تو (Dativ) یک نکته (Akkusativ) می‌گویم.",
+     "en": "I give you (dat.) a tip (acc.)."
+    }
+   ]
+  }
+ ],
+ "source_note": "Lukasalmani-PDF (2026-07-05), bereinigt + strukturiert"
+}

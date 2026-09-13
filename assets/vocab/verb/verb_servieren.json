@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_servieren",
+  "wort": "servieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سرو کردن",
+      "پذیرایی کردن"
+    ],
+    "en": [
+      "to serve"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Essen"
+  ],
+  "ipa": "zɛʁˈviːʁən",
+  "anmerkung": "Regelmäßig (-ieren → serviert). Konstruktion: jemandem (Dat) etwas (Akk) servieren.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Wir servieren Ihnen eine Suppe.",
+      "uebersetzung": {
+        "fa": "به شما یک سوپ سرو می‌کنیم.",
+        "en": "We'll serve you a soup."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Kellner servierte den Gästen einen edlen Wein zum Essen.",
+      "uebersetzung": {
+        "fa": "پیشخدمت به مهمانان یک شراب عالی همراه غذا سرو کرد.",
+        "en": "The waiter served the guests a fine wine with the meal."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "auftragen",
+      "uebersetzung": {
+        "fa": "سرو/آوردن غذا",
+        "en": "to serve up"
+      }
+    },
+    {
+      "wort": "reichen",
+      "uebersetzung": {
+        "fa": "تعارف/دادن",
+        "en": "to serve, to pass"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "abräumen",
+      "uebersetzung": {
+        "fa": "جمع کردن میز",
+        "en": "to clear (the table)"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "servieren + Dat + Akk",
+        "bedeutung": "jemandem etwas servieren",
+        "beispiel": "Sie serviert den Gästen das Frühstück.",
+        "uebersetzung": {
+          "fa": "او صبحانه را به مهمانان سرو می‌کند.",
+          "en": "She serves the guests breakfast."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "servieren",
+      "praeteritum": "servierte",
+      "partizip2": "serviert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "serviere",
+        "du": "servierst",
+        "er_sie_es": "serviert",
+        "wir": "servieren",
+        "ihr": "serviert",
+        "sie_Sie": "servieren"
+      },
+      "praeteritum": {
+        "ich": "servierte",
+        "du": "serviertest",
+        "er_sie_es": "servierte",
+        "wir": "servierten",
+        "ihr": "serviertet",
+        "sie_Sie": "servierten"
+      },
+      "imperativ": {
+        "du": "Serviere!",
+        "ihr": "Serviert!",
+        "Sie": "Servieren Sie!"
+      }
+    },
+    "partizip1": "servierend",
+    "nominalisierung": "das Servieren"
+  },
+  "wortnetz": {
+    "grundwort": "servieren",
+    "woerter": [
+      {
+        "wort": "der Kellner",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پیشخدمت",
+          "en": "waiter"
+        },
+        "id_ref": "nomen_kellner"
+      },
+      {
+        "wort": "das Restaurant",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رستوران",
+          "en": "restaurant"
+        },
+        "id_ref": "nomen_restaurant"
+      },
+      {
+        "wort": "das Essen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "غذا",
+          "en": "food, meal"
+        },
+        "id_ref": "nomen_essen"
+      },
+      {
+        "wort": "bestellen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سفارش دادن",
+          "en": "to order"
+        },
+        "id_ref": "verb_bestellen"
+      },
+      {
+        "wort": "die Bedienung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرویس، پیشخدمت",
+          "en": "service, waiting staff"
+        },
+        "id_ref": "nomen_bedienung"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Wir servieren Ihnen eine Suppe.",
+      "dativ": [
+        "Ihnen"
+      ],
+      "akkusativ": [
+        "eine Suppe"
+      ],
+      "uebersetzung": {
+        "fa": "به شما یک سوپ سرو می‌کنیم.",
+        "en": "We'll serve you a soup."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

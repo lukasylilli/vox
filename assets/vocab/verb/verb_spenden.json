@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_spenden",
+  "wort": "spenden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اهدا کردن",
+      "کمک مالی کردن"
+    ],
+    "en": [
+      "to donate"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Politik",
+    "Gesellschaft"
+  ],
+  "ipa": "ˈʃpɛndn̩",
+  "anmerkung": "Regelmäßig (Stamm auf -d → du spendest, er spendet). Konstruktion: (jemandem/etwas) (Dat) etwas (Akk) spenden.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Sie hat einem Verein Geld gespendet.",
+      "uebersetzung": {
+        "fa": "او به یک انجمن پول اهدا کرد.",
+        "en": "She donated money to an association."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Viele Bürger haben den Opfern der Katastrophe Geld und Kleidung gespendet.",
+      "uebersetzung": {
+        "fa": "بسیاری از شهروندان به قربانیان فاجعه پول و لباس اهدا کردند.",
+        "en": "Many citizens donated money and clothes to the victims of the disaster."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "stiften",
+      "uebersetzung": {
+        "fa": "اهدا/وقف کردن",
+        "en": "to donate, to endow"
+      }
+    },
+    {
+      "wort": "geben",
+      "uebersetzung": {
+        "fa": "دادن",
+        "en": "to give"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "spenden + Dat + Akk",
+        "bedeutung": "(jemandem) etwas spenden",
+        "beispiel": "Er spendet dem Krankenhaus eine große Summe.",
+        "uebersetzung": {
+          "fa": "او مبلغ زیادی به بیمارستان اهدا می‌کند.",
+          "en": "He donates a large sum to the hospital."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "spenden",
+      "praeteritum": "spendete",
+      "partizip2": "gespendet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "spende",
+        "du": "spendest",
+        "er_sie_es": "spendet",
+        "wir": "spenden",
+        "ihr": "spendet",
+        "sie_Sie": "spenden"
+      },
+      "praeteritum": {
+        "ich": "spendete",
+        "du": "spendetest",
+        "er_sie_es": "spendete",
+        "wir": "spendeten",
+        "ihr": "spendetet",
+        "sie_Sie": "spendeten"
+      },
+      "imperativ": {
+        "du": "Spende!",
+        "ihr": "Spendet!",
+        "Sie": "Spenden Sie!"
+      }
+    },
+    "partizip1": "spendend",
+    "nominalisierung": "die Spende"
+  },
+  "wortnetz": {
+    "grundwort": "spenden",
+    "woerter": [
+      {
+        "wort": "die Spende",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کمک مالی، اهدا",
+          "en": "donation"
+        },
+        "id_ref": "nomen_spende"
+      },
+      {
+        "wort": "der Verein",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انجمن",
+          "en": "association, club"
+        },
+        "id_ref": "nomen_verein"
+      },
+      {
+        "wort": "helfen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک کردن",
+          "en": "to help"
+        },
+        "id_ref": "verb_helfen"
+      },
+      {
+        "wort": "das Geld",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پول",
+          "en": "money"
+        },
+        "id_ref": "nomen_geld"
+      },
+      {
+        "wort": "unterstützen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حمایت کردن",
+          "en": "to support"
+        },
+        "id_ref": "verb_unterstuetzen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Sie hat einem Verein Geld gespendet.",
+      "dativ": [
+        "einem Verein"
+      ],
+      "akkusativ": [
+        "Geld"
+      ],
+      "uebersetzung": {
+        "fa": "او به یک انجمن پول اهدا کرد.",
+        "en": "She donated money to an association."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

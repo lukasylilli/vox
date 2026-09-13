@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_anbieten",
+  "wort": "anbieten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پیشنهاد دادن",
+      "عرضه کردن"
+    ],
+    "en": [
+      "to offer"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Wirtschaft"
+  ],
+  "ipa": "ˈanˌbiːtn̩",
+  "anmerkung": "Trennbar: Ich biete … an. Unregelmäßig (bot an, angeboten). Konstruktion: jemandem (Dat) etwas (Akk) anbieten.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Wir bieten Ihnen eine gute Stelle an.",
+      "uebersetzung": {
+        "fa": "یک شغل خوب به شما پیشنهاد می‌دهیم.",
+        "en": "We offer you a good position."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Firma hat mir angeboten, im Ausland zu arbeiten.",
+      "uebersetzung": {
+        "fa": "شرکت به من پیشنهاد داد که در خارج کار کنم.",
+        "en": "The company offered me the chance to work abroad."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "offerieren",
+      "uebersetzung": {
+        "fa": "عرضه کردن (رسمی)",
+        "en": "to offer (formal)"
+      }
+    },
+    {
+      "wort": "bereitstellen",
+      "uebersetzung": {
+        "fa": "فراهم کردن",
+        "en": "to provide"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ablehnen",
+      "uebersetzung": {
+        "fa": "رد کردن",
+        "en": "to reject"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- + bieten (عرضه کردن)",
+    "en": "an- + bieten (to offer)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "anbieten + Dat + Akk",
+        "bedeutung": "jemandem etwas anbieten",
+        "beispiel": "Er bietet den Gästen Kaffee an.",
+        "uebersetzung": {
+          "fa": "او به مهمانان قهوه تعارف می‌کند.",
+          "en": "He offers the guests coffee."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "anbieten",
+      "praeteritum": "bot an",
+      "partizip2": "angeboten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "biete an",
+        "du": "bietest an",
+        "er_sie_es": "bietet an",
+        "wir": "bieten an",
+        "ihr": "bietet an",
+        "sie_Sie": "bieten an"
+      },
+      "praeteritum": {
+        "ich": "bot an",
+        "du": "botest an",
+        "er_sie_es": "bot an",
+        "wir": "boten an",
+        "ihr": "botet an",
+        "sie_Sie": "boten an"
+      },
+      "imperativ": {
+        "du": "Biete an!",
+        "ihr": "Bietet an!",
+        "Sie": "Bieten Sie an!"
+      }
+    },
+    "partizip1": "anbietend",
+    "nominalisierung": "das Angebot"
+  },
+  "wortnetz": {
+    "grundwort": "bieten",
+    "woerter": [
+      {
+        "wort": "das Angebot",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پیشنهاد، عرضه",
+          "en": "offer"
+        },
+        "id_ref": "nomen_angebot"
+      },
+      {
+        "wort": "bieten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عرضه کردن",
+          "en": "to offer"
+        },
+        "id_ref": "verb_bieten"
+      },
+      {
+        "wort": "annehmen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پذیرفتن",
+          "en": "to accept"
+        },
+        "id_ref": "verb_annehmen"
+      },
+      {
+        "wort": "ablehnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رد کردن",
+          "en": "to reject"
+        },
+        "id_ref": "verb_ablehnen"
+      },
+      {
+        "wort": "der Vorschlag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیشنهاد",
+          "en": "suggestion"
+        },
+        "id_ref": "nomen_vorschlag"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Wir bieten Ihnen eine gute Stelle an.",
+      "dativ": [
+        "Ihnen"
+      ],
+      "akkusativ": [
+        "eine gute Stelle"
+      ],
+      "uebersetzung": {
+        "fa": "یک شغل خوب به شما پیشنهاد می‌دهیم.",
+        "en": "We offer you a good position."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

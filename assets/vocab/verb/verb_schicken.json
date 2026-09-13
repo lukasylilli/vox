@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_schicken",
+  "wort": "schicken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "فرستادن",
+      "ارسال کردن"
+    ],
+    "en": [
+      "to send"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Arbeit",
+    "Kommunikation"
+  ],
+  "ipa": "ˈʃɪkn̩",
+  "anmerkung": "Regelmäßig. Konstruktion: jemandem (Dat) etwas (Akk) schicken. Umgangssprachlicher als senden.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich schicke Ihnen die Informationen per E-Mail.",
+      "uebersetzung": {
+        "fa": "اطلاعات را با ایمیل برای شما می‌فرستم.",
+        "en": "I'll send you the information by email."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Sobald ich zu Hause bin, schicke ich dir die Fotos.",
+      "uebersetzung": {
+        "fa": "به‌محض اینکه خانه باشم، عکس‌ها را برایت می‌فرستم.",
+        "en": "As soon as I'm home, I'll send you the photos."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "senden",
+      "uebersetzung": {
+        "fa": "ارسال کردن (رسمی‌تر)",
+        "en": "to send (more formal)"
+      }
+    },
+    {
+      "wort": "zusenden",
+      "uebersetzung": {
+        "fa": "برای کسی فرستادن",
+        "en": "to send to sb"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "empfangen",
+      "uebersetzung": {
+        "fa": "دریافت کردن",
+        "en": "to receive"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "schicken + Dat + Akk",
+        "bedeutung": "jemandem etwas schicken",
+        "beispiel": "Ich schicke dir eine Postkarte.",
+        "uebersetzung": {
+          "fa": "برایت یک کارت‌پستال می‌فرستم.",
+          "en": "I'll send you a postcard."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schicken",
+      "praeteritum": "schickte",
+      "partizip2": "geschickt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schicke",
+        "du": "schickst",
+        "er_sie_es": "schickt",
+        "wir": "schicken",
+        "ihr": "schickt",
+        "sie_Sie": "schicken"
+      },
+      "praeteritum": {
+        "ich": "schickte",
+        "du": "schicktest",
+        "er_sie_es": "schickte",
+        "wir": "schickten",
+        "ihr": "schicktet",
+        "sie_Sie": "schickten"
+      },
+      "imperativ": {
+        "du": "Schicke!",
+        "ihr": "Schickt!",
+        "Sie": "Schicken Sie!"
+      }
+    },
+    "partizip1": "schickend",
+    "nominalisierung": "das Schicken"
+  },
+  "wortnetz": {
+    "grundwort": "schicken",
+    "woerter": [
+      {
+        "wort": "senden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ارسال کردن",
+          "en": "to send"
+        },
+        "id_ref": "verb_senden"
+      },
+      {
+        "wort": "die Post",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پست",
+          "en": "post, mail"
+        },
+        "id_ref": "nomen_post"
+      },
+      {
+        "wort": "der Brief",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نامه",
+          "en": "letter"
+        },
+        "id_ref": "nomen_brief"
+      },
+      {
+        "wort": "die E-Mail",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ایمیل",
+          "en": "email"
+        },
+        "id_ref": "nomen_e-mail"
+      },
+      {
+        "wort": "empfangen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دریافت کردن",
+          "en": "to receive"
+        },
+        "id_ref": "verb_empfangen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Ich schicke Ihnen die Informationen per E-Mail.",
+      "dativ": [
+        "Ihnen"
+      ],
+      "akkusativ": [
+        "die Informationen"
+      ],
+      "uebersetzung": {
+        "fa": "اطلاعات را با ایمیل برای شما می‌فرستم.",
+        "en": "I'll send you the information by email."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

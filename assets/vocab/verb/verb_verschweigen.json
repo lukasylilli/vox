@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_verschweigen",
+  "wort": "verschweigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پنهان کردن (با سکوت)"
+    ],
+    "en": [
+      "to conceal",
+      "to withhold"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Beziehungen"
+  ],
+  "ipa": "fɛɐ̯ˈʃvaɪ̯ɡn̩",
+  "anmerkung": "Unregelmäßig (verschwieg, verschwiegen; Präsens regelmäßig). Konstruktion: jemandem (Dat) etwas (Akk) verschweigen.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Ich verschweige meinem Freund nichts.",
+      "uebersetzung": {
+        "fa": "چیزی را از دوستم پنهان نمی‌کنم.",
+        "en": "I conceal nothing from my friend."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Er hat seiner Frau die finanziellen Probleme lange verschwiegen.",
+      "uebersetzung": {
+        "fa": "او مدت‌ها مشکلات مالی را از همسرش پنهان کرد.",
+        "en": "He kept the financial problems from his wife for a long time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verheimlichen",
+      "uebersetzung": {
+        "fa": "پنهان کردن",
+        "en": "to keep secret"
+      }
+    },
+    {
+      "wort": "verbergen",
+      "uebersetzung": {
+        "fa": "پنهان کردن",
+        "en": "to hide"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "mitteilen",
+      "uebersetzung": {
+        "fa": "اطلاع دادن",
+        "en": "to communicate"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + schweigen (سکوت کردن)",
+    "en": "ver- + schweigen (to be silent)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "verschweigen + Dat + Akk",
+        "bedeutung": "jemandem etwas verschweigen",
+        "beispiel": "Sie verschweigt ihm die Wahrheit.",
+        "uebersetzung": {
+          "fa": "او حقیقت را از او پنهان می‌کند.",
+          "en": "She conceals the truth from him."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verschweigen",
+      "praeteritum": "verschwieg",
+      "partizip2": "verschwiegen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verschweige",
+        "du": "verschweigst",
+        "er_sie_es": "verschweigt",
+        "wir": "verschweigen",
+        "ihr": "verschweigt",
+        "sie_Sie": "verschweigen"
+      },
+      "praeteritum": {
+        "ich": "verschwieg",
+        "du": "verschwiegst",
+        "er_sie_es": "verschwieg",
+        "wir": "verschwiegen",
+        "ihr": "verschwiegt",
+        "sie_Sie": "verschwiegen"
+      },
+      "imperativ": {
+        "du": "Verschweige!",
+        "ihr": "Verschweigt!",
+        "Sie": "Verschweigen Sie!"
+      }
+    },
+    "partizip1": "verschweigend",
+    "nominalisierung": "das Verschweigen"
+  },
+  "wortnetz": {
+    "grundwort": "schweigen",
+    "woerter": [
+      {
+        "wort": "verheimlichen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پنهان کردن",
+          "en": "to keep secret"
+        },
+        "id_ref": "verb_verheimlichen"
+      },
+      {
+        "wort": "schweigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سکوت کردن",
+          "en": "to be silent"
+        },
+        "id_ref": "verb_schweigen"
+      },
+      {
+        "wort": "die Wahrheit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حقیقت",
+          "en": "truth"
+        },
+        "id_ref": "nomen_wahrheit"
+      },
+      {
+        "wort": "das Geheimnis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "راز",
+          "en": "secret"
+        },
+        "id_ref": "nomen_geheimnis"
+      },
+      {
+        "wort": "lügen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دروغ گفتن",
+          "en": "to lie"
+        },
+        "id_ref": "verb_luegen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Ich verschweige meinem Freund nichts.",
+      "dativ": [
+        "meinem Freund"
+      ],
+      "akkusativ": [
+        "nichts"
+      ],
+      "uebersetzung": {
+        "fa": "چیزی را از دوستم پنهان نمی‌کنم.",
+        "en": "I conceal nothing from my friend."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

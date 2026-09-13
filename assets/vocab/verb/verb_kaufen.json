@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_kaufen",
+  "wort": "kaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خریدن"
+    ],
+    "en": [
+      "to buy"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Einkaufen"
+  ],
+  "ipa": "ˈkaʊ̯fn̩",
+  "anmerkung": "Regelmäßig. Das Dativobjekt ist optional: man kann auch nur das Akkusativobjekt verwenden (Ich kaufe einen Ball).",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich kaufe meinem Sohn einen Fußball.",
+      "uebersetzung": {
+        "fa": "برای پسرم یک توپ فوتبال می‌خرم.",
+        "en": "I'm buying my son a football."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn ich mehr Geld hätte, würde ich mir ein neues Auto kaufen.",
+      "uebersetzung": {
+        "fa": "اگر پول بیشتری داشتم، یک ماشین نو برای خودم می‌خریدم.",
+        "en": "If I had more money, I would buy myself a new car."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erwerben",
+      "uebersetzung": {
+        "fa": "تهیه کردن، خریداری کردن",
+        "en": "to acquire"
+      }
+    },
+    {
+      "wort": "besorgen",
+      "uebersetzung": {
+        "fa": "فراهم کردن، تهیه کردن",
+        "en": "to get, to procure"
+      }
+    },
+    {
+      "wort": "einkaufen",
+      "uebersetzung": {
+        "fa": "خرید کردن",
+        "en": "to shop"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verkaufen",
+      "uebersetzung": {
+        "fa": "فروختن",
+        "en": "to sell"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "kaufen + (Dat) + Akk",
+        "bedeutung": "(jemandem) etwas kaufen",
+        "beispiel": "Ich kaufe meiner Tochter ein Eis.",
+        "uebersetzung": {
+          "fa": "برای دخترم یک بستنی می‌خرم.",
+          "en": "I buy my daughter an ice cream."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "kaufen",
+      "praeteritum": "kaufte",
+      "partizip2": "gekauft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kaufe",
+        "du": "kaufst",
+        "er_sie_es": "kauft",
+        "wir": "kaufen",
+        "ihr": "kauft",
+        "sie_Sie": "kaufen"
+      },
+      "praeteritum": {
+        "ich": "kaufte",
+        "du": "kauftest",
+        "er_sie_es": "kaufte",
+        "wir": "kauften",
+        "ihr": "kauftet",
+        "sie_Sie": "kauften"
+      },
+      "imperativ": {
+        "du": "Kauf!",
+        "ihr": "Kauft!",
+        "Sie": "Kaufen Sie!"
+      }
+    },
+    "partizip1": "kaufend",
+    "nominalisierung": "der Kauf"
+  },
+  "wortnetz": {
+    "grundwort": "kaufen",
+    "woerter": [
+      {
+        "wort": "verkaufen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فروختن",
+          "en": "to sell"
+        },
+        "id_ref": "verb_verkaufen"
+      },
+      {
+        "wort": "bezahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_bezahlen"
+      },
+      {
+        "wort": "einkaufen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خرید کردن",
+          "en": "to shop"
+        },
+        "id_ref": "verb_einkaufen"
+      },
+      {
+        "wort": "der Kauf",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خرید",
+          "en": "purchase"
+        },
+        "id_ref": "nomen_kauf"
+      },
+      {
+        "wort": "das Geschäft",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مغازه، فروشگاه",
+          "en": "shop, store"
+        },
+        "id_ref": "nomen_geschaeft"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Ich kaufe meinem Sohn einen Fußball.",
+      "dativ": [
+        "meinem Sohn"
+      ],
+      "akkusativ": [
+        "einen Fußball"
+      ],
+      "uebersetzung": {
+        "fa": "برای پسرم یک توپ فوتبال می‌خرم.",
+        "en": "I'm buying my son a football."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

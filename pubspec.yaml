@@ -1,0 +1,79 @@
+name: vox
+description: "VOX — یادگیری زبان آلمانی برای فارسی‌زبانان"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+# Reine Web-App (Flutter Web → GitHub Pages) — nur web-taugliche Packages.
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.6.1
+
+  # Navigation
+  go_router: ^14.6.2
+
+  # Database (offline-first SQLite im Browser: WebAssembly + IndexedDB/OPFS)
+  # ⚠️ web/sqlite3.wasm und web/drift_worker.js müssen zu den sqlite3- bzw.
+  #    drift-Versionen in pubspec.lock passen (siehe README → Datenbank).
+  drift: ^2.22.1
+
+  # Audio (Web: HTML5-Audio bzw. Web Speech API)
+  just_audio: ^0.9.42
+  flutter_tts: ^4.2.0
+
+  # Fonts
+  google_fonts: ^6.2.1
+
+  # Charts & stats
+  fl_chart: ^0.69.0
+
+  # Networking (RSS / News)
+  http: ^1.2.2
+  xml: ^6.5.0
+
+  # Settings persistence (Web: localStorage)
+  shared_preferences: ^2.3.3
+
+  # Browser-APIs (DOM) — z. B. Ladeanzeige aus web/index.html entfernen
+  web: ^1.1.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  # Database code generation
+  drift_dev: ^2.22.1
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/data/
+    - assets/data/grammatik/
+    - assets/fonts/
+    # Vokabular-Archiv (فاز V): 1 JSON pro Wort, Ordner = Wortart
+    - assets/vocab/nomen/
+    - assets/vocab/verb/
+    - assets/vocab/adjektiv/
+    - assets/vocab/artikel/
+    - assets/vocab/pronomen/
+    - assets/vocab/numerale/
+    - assets/vocab/praeposition/
+    - assets/vocab/konjunktion/
+    - assets/vocab/adverb/
+    - assets/vocab/partikel/
+  fonts:
+    - family: Vazirmatn
+      fonts:
+        - asset: assets/fonts/Vazirmatn.ttf

@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_bringen",
+  "wort": "bringen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آوردن"
+    ],
+    "en": [
+      "to bring"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈbʁɪŋən",
+  "anmerkung": "Unregelmäßig (brachte, gebracht). Konstruktion: jemandem (Dat) etwas (Akk) bringen.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Bringst du mir bitte meine Brille?",
+      "uebersetzung": {
+        "fa": "عینکم را برایم می‌آوری؟",
+        "en": "Will you bring me my glasses, please?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Kellner bringt uns gleich die Getränke.",
+      "uebersetzung": {
+        "fa": "پیشخدمت الان نوشیدنی‌ها را برایمان می‌آورد.",
+        "en": "The waiter will bring us the drinks right away."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "holen",
+      "uebersetzung": {
+        "fa": "آوردن، گرفتن",
+        "en": "to fetch"
+      }
+    },
+    {
+      "wort": "liefern",
+      "uebersetzung": {
+        "fa": "تحویل دادن",
+        "en": "to deliver"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "bringen + Dat + Akk",
+        "bedeutung": "jemandem etwas bringen",
+        "beispiel": "Bring mir bitte ein Glas Wasser.",
+        "uebersetzung": {
+          "fa": "لطفاً یک لیوان آب برایم بیاور.",
+          "en": "Please bring me a glass of water."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bringen",
+      "praeteritum": "brachte",
+      "partizip2": "gebracht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bringe",
+        "du": "bringst",
+        "er_sie_es": "bringt",
+        "wir": "bringen",
+        "ihr": "bringt",
+        "sie_Sie": "bringen"
+      },
+      "praeteritum": {
+        "ich": "brachte",
+        "du": "brachtest",
+        "er_sie_es": "brachte",
+        "wir": "brachten",
+        "ihr": "brachtet",
+        "sie_Sie": "brachten"
+      },
+      "imperativ": {
+        "du": "Bring!",
+        "ihr": "Bringt!",
+        "Sie": "Bringen Sie!"
+      }
+    },
+    "partizip1": "bringend",
+    "nominalisierung": "das Bringen"
+  },
+  "wortnetz": {
+    "grundwort": "bringen",
+    "woerter": [
+      {
+        "wort": "holen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آوردن، گرفتن",
+          "en": "to fetch"
+        },
+        "id_ref": "verb_holen"
+      },
+      {
+        "wort": "tragen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حمل کردن",
+          "en": "to carry"
+        },
+        "id_ref": "verb_tragen"
+      },
+      {
+        "wort": "liefern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تحویل دادن",
+          "en": "to deliver"
+        },
+        "id_ref": "verb_liefern"
+      },
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "das Getränk",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نوشیدنی",
+          "en": "drink"
+        },
+        "id_ref": "nomen_getraenk"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Bringst du mir bitte meine Brille?",
+      "dativ": [
+        "mir"
+      ],
+      "akkusativ": [
+        "meine Brille"
+      ],
+      "uebersetzung": {
+        "fa": "عینکم را برایم می‌آوری؟",
+        "en": "Will you bring me my glasses, please?"
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

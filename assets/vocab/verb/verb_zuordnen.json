@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_zuordnen",
+  "wort": "zuordnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تطبیق دادن",
+      "نسبت دادن"
+    ],
+    "en": [
+      "to assign",
+      "to match"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Schule"
+  ],
+  "ipa": "ˈt͡suːˌʔɔʁdnən",
+  "anmerkung": "Trennbar: Ich ordne … zu. Regelmäßig (Stamm auf -dn → Binde-e: du ordnest zu, er ordnet zu). Konstruktion: etwas (Akk) jemandem/etwas (Dat) zuordnen.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Welchem Absatz können Sie diese Überschrift zuordnen?",
+      "uebersetzung": {
+        "fa": "این عنوان را به کدام پاراگراف تطبیق می‌دهید؟",
+        "en": "Which paragraph can you assign this heading to?"
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Ordnen Sie bitte jedem Bild den passenden Begriff zu.",
+      "uebersetzung": {
+        "fa": "لطفاً به هر تصویر اصطلاح مناسب را نسبت دهید.",
+        "en": "Please assign the matching term to each picture."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zuweisen",
+      "uebersetzung": {
+        "fa": "تخصیص دادن",
+        "en": "to assign"
+      }
+    },
+    {
+      "wort": "einordnen",
+      "uebersetzung": {
+        "fa": "دسته‌بندی کردن",
+        "en": "to classify"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zu- (به‌سوی) + ordnen (مرتب کردن)",
+    "en": "zu- (to) + ordnen (to arrange)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zuordnen + Dat + Akk",
+        "bedeutung": "etwas jemandem/etwas zuordnen",
+        "beispiel": "Ordne die Begriffe den Bildern zu.",
+        "uebersetzung": {
+          "fa": "اصطلاحات را به تصاویر نسبت بده.",
+          "en": "Assign the terms to the pictures."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zuordnen",
+      "praeteritum": "ordnete zu",
+      "partizip2": "zugeordnet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ordne zu",
+        "du": "ordnest zu",
+        "er_sie_es": "ordnet zu",
+        "wir": "ordnen zu",
+        "ihr": "ordnet zu",
+        "sie_Sie": "ordnen zu"
+      },
+      "praeteritum": {
+        "ich": "ordnete zu",
+        "du": "ordnetest zu",
+        "er_sie_es": "ordnete zu",
+        "wir": "ordneten zu",
+        "ihr": "ordnetet zu",
+        "sie_Sie": "ordneten zu"
+      },
+      "imperativ": {
+        "du": "Ordne zu!",
+        "ihr": "Ordnet zu!",
+        "Sie": "Ordnen Sie zu!"
+      }
+    },
+    "partizip1": "zuordnend",
+    "nominalisierung": "die Zuordnung"
+  },
+  "wortnetz": {
+    "grundwort": "ordnen",
+    "woerter": [
+      {
+        "wort": "ordnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مرتب کردن",
+          "en": "to arrange"
+        },
+        "id_ref": "verb_ordnen"
+      },
+      {
+        "wort": "die Zuordnung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تطبیق، انتساب",
+          "en": "assignment"
+        },
+        "id_ref": "nomen_zuordnung"
+      },
+      {
+        "wort": "einordnen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دسته‌بندی کردن",
+          "en": "to classify"
+        },
+        "id_ref": "verb_einordnen"
+      },
+      {
+        "wort": "passen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مناسب بودن",
+          "en": "to fit"
+        },
+        "id_ref": "verb_passen"
+      },
+      {
+        "wort": "sortieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مرتب/دسته‌بندی کردن",
+          "en": "to sort"
+        },
+        "id_ref": "verb_sortieren"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Welchem Absatz können Sie diese Überschrift zuordnen?",
+      "dativ": [
+        "Welchem Absatz"
+      ],
+      "akkusativ": [
+        "diese Überschrift"
+      ],
+      "uebersetzung": {
+        "fa": "این عنوان را به کدام پاراگراف تطبیق می‌دهید؟",
+        "en": "Which paragraph can you assign this heading to?"
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_schreiben",
+  "wort": "schreiben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نوشتن"
+    ],
+    "en": [
+      "to write"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Arbeit",
+    "Kommunikation"
+  ],
+  "ipa": "ˈʃʁaɪ̯bn̩",
+  "anmerkung": "Unregelmäßig (Präteritum schrieb, Partizip geschrieben; Präsens regelmäßig). Konstruktion: jemandem (Dat) etwas (Akk) schreiben.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Er schreibt seinen Kollegen eine Notiz.",
+      "uebersetzung": {
+        "fa": "او برای همکارانش یک یادداشت می‌نویسد.",
+        "en": "He writes his colleagues a note."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich schreibe dir eine E-Mail, sobald ich die Ergebnisse habe.",
+      "uebersetzung": {
+        "fa": "به‌محض اینکه نتایج را داشته باشم، برایت یک ایمیل می‌نویسم.",
+        "en": "I'll write you an email as soon as I have the results."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verfassen",
+      "uebersetzung": {
+        "fa": "تألیف/نگارش کردن",
+        "en": "to compose, to draft"
+      }
+    },
+    {
+      "wort": "notieren",
+      "uebersetzung": {
+        "fa": "یادداشت کردن",
+        "en": "to note down"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "schreiben + Dat + Akk",
+        "bedeutung": "jemandem etwas schreiben",
+        "beispiel": "Sie schreibt ihrer Oma einen Brief.",
+        "uebersetzung": {
+          "fa": "او برای مادربزرگش یک نامه می‌نویسد.",
+          "en": "She writes her grandma a letter."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schreiben",
+      "praeteritum": "schrieb",
+      "partizip2": "geschrieben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schreibe",
+        "du": "schreibst",
+        "er_sie_es": "schreibt",
+        "wir": "schreiben",
+        "ihr": "schreibt",
+        "sie_Sie": "schreiben"
+      },
+      "praeteritum": {
+        "ich": "schrieb",
+        "du": "schriebst",
+        "er_sie_es": "schrieb",
+        "wir": "schrieben",
+        "ihr": "schriebt",
+        "sie_Sie": "schrieben"
+      },
+      "imperativ": {
+        "du": "Schreibe!",
+        "ihr": "Schreibt!",
+        "Sie": "Schreiben Sie!"
+      }
+    },
+    "partizip1": "schreibend",
+    "nominalisierung": "das Schreiben"
+  },
+  "wortnetz": {
+    "grundwort": "schreiben",
+    "woerter": [
+      {
+        "wort": "lesen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خواندن",
+          "en": "to read"
+        },
+        "id_ref": "verb_lesen"
+      },
+      {
+        "wort": "der Brief",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نامه",
+          "en": "letter"
+        },
+        "id_ref": "nomen_brief"
+      },
+      {
+        "wort": "die E-Mail",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ایمیل",
+          "en": "email"
+        },
+        "id_ref": "nomen_e-mail"
+      },
+      {
+        "wort": "der Text",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "متن",
+          "en": "text"
+        },
+        "id_ref": "nomen_text"
+      },
+      {
+        "wort": "unterschreiben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "امضا کردن",
+          "en": "to sign"
+        },
+        "id_ref": "verb_unterschreiben"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Er schreibt seinen Kollegen eine Notiz.",
+      "dativ": [
+        "seinen Kollegen"
+      ],
+      "akkusativ": [
+        "eine Notiz"
+      ],
+      "uebersetzung": {
+        "fa": "او برای همکارانش یک یادداشت می‌نویسد.",
+        "en": "He writes his colleagues a note."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

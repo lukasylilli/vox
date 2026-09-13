@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_mitteilen",
+  "wort": "mitteilen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اطلاع دادن",
+      "ابلاغ کردن"
+    ],
+    "en": [
+      "to inform",
+      "to notify"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit",
+    "Kommunikation"
+  ],
+  "ipa": "ˈmɪtˌtaɪ̯lən",
+  "anmerkung": "Trennbar: Ich teile … mit. Regelmäßig. Konstruktion: jemandem (Dat) etwas (Akk) mitteilen.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Bitte teilen Sie mir Ihre Kontonummer mit.",
+      "uebersetzung": {
+        "fa": "لطفاً شماره‌حسابتان را به من اطلاع دهید.",
+        "en": "Please give me your account number."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Firma teilte den Mitarbeitern die neuen Regeln per E-Mail mit.",
+      "uebersetzung": {
+        "fa": "شرکت قوانین جدید را با ایمیل به کارکنان اطلاع داد.",
+        "en": "The company informed the employees of the new rules by email."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "informieren",
+      "uebersetzung": {
+        "fa": "مطلع کردن",
+        "en": "to inform"
+      }
+    },
+    {
+      "wort": "benachrichtigen",
+      "uebersetzung": {
+        "fa": "خبر دادن",
+        "en": "to notify"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verschweigen",
+      "uebersetzung": {
+        "fa": "پنهان کردن",
+        "en": "to conceal"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mit- (با) + teilen (تقسیم/رساندن)",
+    "en": "mit- (with) + teilen (to share)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mitteilen + Dat + Akk",
+        "bedeutung": "jemandem etwas mitteilen",
+        "beispiel": "Er teilt mir seine Entscheidung mit.",
+        "uebersetzung": {
+          "fa": "او تصمیمش را به من اطلاع می‌دهد.",
+          "en": "He informs me of his decision."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "mitteilen",
+      "praeteritum": "teilte mit",
+      "partizip2": "mitgeteilt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "teile mit",
+        "du": "teilst mit",
+        "er_sie_es": "teilt mit",
+        "wir": "teilen mit",
+        "ihr": "teilt mit",
+        "sie_Sie": "teilen mit"
+      },
+      "praeteritum": {
+        "ich": "teilte mit",
+        "du": "teiltest mit",
+        "er_sie_es": "teilte mit",
+        "wir": "teilten mit",
+        "ihr": "teiltet mit",
+        "sie_Sie": "teilten mit"
+      },
+      "imperativ": {
+        "du": "Teil mit!",
+        "ihr": "Teilt mit!",
+        "Sie": "Teilen Sie mit!"
+      }
+    },
+    "partizip1": "mitteilend",
+    "nominalisierung": "die Mitteilung"
+  },
+  "wortnetz": {
+    "grundwort": "teilen",
+    "woerter": [
+      {
+        "wort": "die Mitteilung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اطلاعیه، پیام",
+          "en": "notice, message"
+        },
+        "id_ref": "nomen_mitteilung"
+      },
+      {
+        "wort": "informieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مطلع کردن",
+          "en": "to inform"
+        },
+        "id_ref": "verb_informieren"
+      },
+      {
+        "wort": "die Nachricht",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خبر، پیام",
+          "en": "message"
+        },
+        "id_ref": "nomen_nachricht"
+      },
+      {
+        "wort": "sagen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گفتن",
+          "en": "to say"
+        },
+        "id_ref": "verb_sagen"
+      },
+      {
+        "wort": "berichten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گزارش دادن",
+          "en": "to report"
+        },
+        "id_ref": "verb_berichten"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Bitte teilen Sie mir Ihre Kontonummer mit.",
+      "dativ": [
+        "mir"
+      ],
+      "akkusativ": [
+        "Ihre Kontonummer"
+      ],
+      "uebersetzung": {
+        "fa": "لطفاً شماره‌حسابتان را به من اطلاع دهید.",
+        "en": "Please give me your account number."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

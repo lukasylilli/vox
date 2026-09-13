@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_vermieten",
+  "wort": "vermieten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اجاره دادن"
+    ],
+    "en": [
+      "to rent out",
+      "to let"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Wohnen"
+  ],
+  "ipa": "fɛɐ̯ˈmiːtn̩",
+  "anmerkung": "Regelmäßig (Stamm auf -t → Binde-e: du vermietest, er vermietet). Der Vermieter vermietet; der Mieter mietet. Konstruktion: jemandem (Dat) etwas (Akk) vermieten.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Wir möchten dem Studenten ein Zimmer vermieten.",
+      "uebersetzung": {
+        "fa": "می‌خواهیم به دانشجو یک اتاق اجاره دهیم.",
+        "en": "We'd like to rent a room out to the student."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie vermietet Touristen ihre Wohnung über das Internet.",
+      "uebersetzung": {
+        "fa": "او آپارتمانش را از طریق اینترنت به گردشگران اجاره می‌دهد.",
+        "en": "She rents out her flat to tourists via the internet."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verpachten",
+      "uebersetzung": {
+        "fa": "اجاره دادن (زمین/کسب‌وکار)",
+        "en": "to lease (land/business)"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "mieten",
+      "uebersetzung": {
+        "fa": "اجاره کردن",
+        "en": "to rent (from sb)"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + mieten (اجاره کردن)",
+    "en": "ver- + mieten (to rent)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "vermieten + Dat + Akk",
+        "bedeutung": "jemandem etwas vermieten",
+        "beispiel": "Er vermietet Studenten ein Zimmer.",
+        "uebersetzung": {
+          "fa": "او به دانشجویان یک اتاق اجاره می‌دهد.",
+          "en": "He rents out a room to students."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vermieten",
+      "praeteritum": "vermietete",
+      "partizip2": "vermietet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "vermiete",
+        "du": "vermietest",
+        "er_sie_es": "vermietet",
+        "wir": "vermieten",
+        "ihr": "vermietet",
+        "sie_Sie": "vermieten"
+      },
+      "praeteritum": {
+        "ich": "vermietete",
+        "du": "vermietetest",
+        "er_sie_es": "vermietete",
+        "wir": "vermieteten",
+        "ihr": "vermietetet",
+        "sie_Sie": "vermieteten"
+      },
+      "imperativ": {
+        "du": "Vermiete!",
+        "ihr": "Vermietet!",
+        "Sie": "Vermieten Sie!"
+      }
+    },
+    "partizip1": "vermietend",
+    "nominalisierung": "die Vermietung"
+  },
+  "wortnetz": {
+    "grundwort": "mieten",
+    "woerter": [
+      {
+        "wort": "mieten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اجاره کردن",
+          "en": "to rent"
+        },
+        "id_ref": "verb_mieten"
+      },
+      {
+        "wort": "die Miete",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اجاره‌بها",
+          "en": "rent"
+        },
+        "id_ref": "nomen_miete"
+      },
+      {
+        "wort": "der Vermieter",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "موجر، صاحب‌خانه",
+          "en": "landlord"
+        },
+        "id_ref": "nomen_vermieter"
+      },
+      {
+        "wort": "die Wohnung",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آپارتمان",
+          "en": "flat"
+        },
+        "id_ref": "nomen_wohnung"
+      },
+      {
+        "wort": "der Mieter",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مستأجر",
+          "en": "tenant"
+        },
+        "id_ref": "nomen_mieter"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Wir möchten dem Studenten ein Zimmer vermieten.",
+      "dativ": [
+        "dem Studenten"
+      ],
+      "akkusativ": [
+        "ein Zimmer"
+      ],
+      "uebersetzung": {
+        "fa": "می‌خواهیم به دانشجو یک اتاق اجاره دهیم.",
+        "en": "We'd like to rent a room out to the student."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

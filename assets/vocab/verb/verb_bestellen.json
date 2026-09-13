@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_bestellen",
+  "wort": "bestellen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سفارش دادن"
+    ],
+    "en": [
+      "to order"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Essen"
+  ],
+  "ipa": "bəˈʃtɛlən",
+  "anmerkung": "Regelmäßig. Konstruktion: (jemandem) (Dat) etwas (Akk) bestellen.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich bestelle dir einen Kaffee.",
+      "uebersetzung": {
+        "fa": "برایت یک قهوه سفارش می‌دهم.",
+        "en": "I'll order you a coffee."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich habe uns im Internet zwei Tickets für das Konzert bestellt.",
+      "uebersetzung": {
+        "fa": "دو بلیت کنسرت را در اینترنت برایمان سفارش دادم.",
+        "en": "I ordered us two tickets for the concert online."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ordern",
+      "uebersetzung": {
+        "fa": "سفارش دادن",
+        "en": "to order"
+      }
+    },
+    {
+      "wort": "reservieren",
+      "uebersetzung": {
+        "fa": "رزرو کردن",
+        "en": "to reserve"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "stornieren",
+      "uebersetzung": {
+        "fa": "لغو کردن",
+        "en": "to cancel"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "bestellen + Dat + Akk",
+        "bedeutung": "(jemandem) etwas bestellen",
+        "beispiel": "Er bestellt dem Gast einen Tee.",
+        "uebersetzung": {
+          "fa": "او برای مهمان یک چای سفارش می‌دهد.",
+          "en": "He orders the guest a tea."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bestellen",
+      "praeteritum": "bestellte",
+      "partizip2": "bestellt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bestelle",
+        "du": "bestellst",
+        "er_sie_es": "bestellt",
+        "wir": "bestellen",
+        "ihr": "bestellt",
+        "sie_Sie": "bestellen"
+      },
+      "praeteritum": {
+        "ich": "bestellte",
+        "du": "bestelltest",
+        "er_sie_es": "bestellte",
+        "wir": "bestellten",
+        "ihr": "bestelltet",
+        "sie_Sie": "bestellten"
+      },
+      "imperativ": {
+        "du": "Bestelle!",
+        "ihr": "Bestellt!",
+        "Sie": "Bestellen Sie!"
+      }
+    },
+    "partizip1": "bestellend",
+    "nominalisierung": "die Bestellung"
+  },
+  "wortnetz": {
+    "grundwort": "bestellen",
+    "woerter": [
+      {
+        "wort": "die Bestellung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سفارش",
+          "en": "order"
+        },
+        "id_ref": "nomen_bestellung"
+      },
+      {
+        "wort": "bezahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_bezahlen"
+      },
+      {
+        "wort": "das Restaurant",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رستوران",
+          "en": "restaurant"
+        },
+        "id_ref": "nomen_restaurant"
+      },
+      {
+        "wort": "liefern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تحویل دادن",
+          "en": "to deliver"
+        },
+        "id_ref": "verb_liefern"
+      },
+      {
+        "wort": "reservieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رزرو کردن",
+          "en": "to reserve"
+        },
+        "id_ref": "verb_reservieren"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Ich bestelle dir einen Kaffee.",
+      "dativ": [
+        "dir"
+      ],
+      "akkusativ": [
+        "einen Kaffee"
+      ],
+      "uebersetzung": {
+        "fa": "برایت یک قهوه سفارش می‌دهم.",
+        "en": "I'll order you a coffee."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

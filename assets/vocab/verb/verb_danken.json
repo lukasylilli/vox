@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "verb_danken",
+  "wort": "danken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تشکر کردن (از کسی)"
+    ],
+    "en": [
+      "to thank"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈdaŋkn̩",
+  "anmerkung": "Regelmäßig. danken + Dat (Person); der Grund mit für + Akk: Ich danke dir für die Hilfe.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich danke Ihnen.",
+      "uebersetzung": {
+        "fa": "از شما تشکر می‌کنم.",
+        "en": "I thank you."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich möchte dir für deine Unterstützung danken.",
+      "uebersetzung": {
+        "fa": "می‌خواهم از تو بابت حمایتت تشکر کنم.",
+        "en": "I'd like to thank you for your support."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bedanken",
+      "uebersetzung": {
+        "fa": "تشکر کردن",
+        "en": "to give thanks"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "verwandt mit Dank (سپاس)",
+    "en": "related to Dank (thanks)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "danken + Dat",
+        "bedeutung": "jemandem danken",
+        "beispiel": "Ich danke dir.",
+        "uebersetzung": {
+          "fa": "از تو تشکر می‌کنم.",
+          "en": "I thank you."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "danken",
+      "praeteritum": "dankte",
+      "partizip2": "gedankt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "danke",
+        "du": "dankst",
+        "er_sie_es": "dankt",
+        "wir": "danken",
+        "ihr": "dankt",
+        "sie_Sie": "danken"
+      },
+      "praeteritum": {
+        "ich": "dankte",
+        "du": "danktest",
+        "er_sie_es": "dankte",
+        "wir": "dankten",
+        "ihr": "danktet",
+        "sie_Sie": "dankten"
+      },
+      "imperativ": {
+        "du": "Danke!",
+        "ihr": "Dankt!",
+        "Sie": "Danken Sie!"
+      }
+    },
+    "partizip1": "dankend",
+    "nominalisierung": "der Dank"
+  },
+  "wortnetz": {
+    "grundwort": "Dank",
+    "woerter": [
+      {
+        "wort": "der Dank",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سپاس",
+          "en": "thanks"
+        },
+        "id_ref": "nomen_dank"
+      },
+      {
+        "wort": "dankbar",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سپاسگزار",
+          "en": "grateful"
+        },
+        "id_ref": "adjektiv_dankbar"
+      },
+      {
+        "wort": "bedanken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تشکر کردن",
+          "en": "to give thanks"
+        },
+        "id_ref": "verb_bedanken"
+      },
+      {
+        "wort": "die Hilfe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کمک",
+          "en": "help"
+        },
+        "id_ref": "nomen_hilfe"
+      },
+      {
+        "wort": "höflich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مؤدب",
+          "en": "polite"
+        },
+        "id_ref": "adjektiv_hoeflich"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Ich danke Ihnen.",
+      "dativ": [
+        "Ihnen"
+      ],
+      "akkusativ": [],
+      "uebersetzung": {
+        "fa": "از شما تشکر می‌کنم.",
+        "en": "I thank you."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

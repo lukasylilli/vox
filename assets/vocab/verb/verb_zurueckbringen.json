@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_zurueckbringen",
+  "wort": "zurückbringen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بازگرداندن",
+      "پس آوردن"
+    ],
+    "en": [
+      "to bring back",
+      "to return"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "t͡suˈʁʏkˌbʁɪŋən",
+  "anmerkung": "Trennbar: Ich bringe … zurück. Unregelmäßig (brachte zurück, zurückgebracht). Konstruktion: jemandem (Dat) etwas (Akk) zurückbringen.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wann soll ich dir das Buch zurückbringen?",
+      "uebersetzung": {
+        "fa": "کی باید کتاب را به تو برگردانم؟",
+        "en": "When should I bring the book back to you?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bringst du mir die Bücher zurück, bevor die Bibliothek schließt?",
+      "uebersetzung": {
+        "fa": "کتاب‌ها را قبل از بسته‌شدن کتابخانه به من برمی‌گردانی؟",
+        "en": "Will you bring the books back to me before the library closes?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zurückgeben",
+      "uebersetzung": {
+        "fa": "پس دادن",
+        "en": "to give back"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "behalten",
+      "uebersetzung": {
+        "fa": "نگه داشتن",
+        "en": "to keep"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zurück (بازگشت) + bringen (آوردن)",
+    "en": "zurück (back) + bringen (to bring)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zurückbringen + Dat + Akk",
+        "bedeutung": "jemandem etwas zurückbringen",
+        "beispiel": "Ich bringe dir deinen Schirm zurück.",
+        "uebersetzung": {
+          "fa": "چترت را به تو برمی‌گردانم.",
+          "en": "I'll bring your umbrella back to you."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zurückbringen",
+      "praeteritum": "brachte zurück",
+      "partizip2": "zurückgebracht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bringe zurück",
+        "du": "bringst zurück",
+        "er_sie_es": "bringt zurück",
+        "wir": "bringen zurück",
+        "ihr": "bringt zurück",
+        "sie_Sie": "bringen zurück"
+      },
+      "praeteritum": {
+        "ich": "brachte zurück",
+        "du": "brachtest zurück",
+        "er_sie_es": "brachte zurück",
+        "wir": "brachten zurück",
+        "ihr": "brachtet zurück",
+        "sie_Sie": "brachten zurück"
+      },
+      "imperativ": {
+        "du": "Bring zurück!",
+        "ihr": "Bringt zurück!",
+        "Sie": "Bringen Sie zurück!"
+      }
+    },
+    "partizip1": "zurückbringend",
+    "nominalisierung": "das Zurückbringen"
+  },
+  "wortnetz": {
+    "grundwort": "bringen",
+    "woerter": [
+      {
+        "wort": "bringen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آوردن",
+          "en": "to bring"
+        },
+        "id_ref": "verb_bringen"
+      },
+      {
+        "wort": "zurückgeben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پس دادن",
+          "en": "to give back"
+        },
+        "id_ref": "verb_zurueckgeben"
+      },
+      {
+        "wort": "holen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آوردن، گرفتن",
+          "en": "to fetch"
+        },
+        "id_ref": "verb_holen"
+      },
+      {
+        "wort": "die Bibliothek",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کتابخانه",
+          "en": "library"
+        },
+        "id_ref": "nomen_bibliothek"
+      },
+      {
+        "wort": "leihen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرض دادن/گرفتن",
+          "en": "to lend/borrow"
+        },
+        "id_ref": "verb_leihen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Wann soll ich dir das Buch zurückbringen?",
+      "dativ": [
+        "dir"
+      ],
+      "akkusativ": [
+        "das Buch"
+      ],
+      "uebersetzung": {
+        "fa": "کی باید کتاب را به تو برگردانم؟",
+        "en": "When should I bring the book back to you?"
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

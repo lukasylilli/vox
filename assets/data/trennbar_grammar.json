@@ -1,0 +1,350 @@
+{
+  "title_de": "Trennbare und untrennbare Verben",
+  "title_en": "Separable and Inseparable Verbs",
+  "title_fa": "افعال جداشدنی و جدانشدنی",
+  "overview_en": "Many German verbs are formed by adding a prefix to a base verb (e.g. kommen → ankommen, bekommen). Depending on the prefix, the verb behaves in one of three ways: separable (the prefix detaches from the verb in certain positions), inseparable (the prefix always stays attached), or variable/two-way (the same prefix can be separable or inseparable depending on the meaning of the verb).",
+  "overview_fa": "بسیاری از افعال آلمانی با افزودن یک پیشوند به یک فعل پایه ساخته می‌شوند (مثلاً kommen ← ankommen, bekommen). بسته به نوع پیشوند، فعل به یکی از سه شکل رفتار می‌کند: جداشدنی (پیشوند در موقعیت‌های خاصی از فعل جدا می‌شود)، جدانشدنی (پیشوند همیشه به فعل چسبیده باقی می‌ماند)، یا دوگانه/متغیر (همان پیشوند بسته به معنی فعل می‌تواند جداشدنی یا جدانشدنی باشد).",
+  "categories": [
+    {
+      "type": "trennbar",
+      "title_en": "Separable Verbs (Trennbar)",
+      "title_fa": "افعال جداشدنی",
+      "explanation_en": "Separable prefixes can also stand alone as independent words (mostly prepositions or adverbs: ab, an, auf, aus, bei, ein, mit, nach, vor, weg, zu, zurück, etc.). In a main clause with a finite verb, the prefix is split off and sent to the very end of the clause. The word stress always falls on the prefix, not on the verb stem.",
+      "explanation_fa": "پیشوندهای جداشدنی می‌توانند به‌تنهایی هم به‌عنوان یک کلمه‌ی مستقل به‌کار روند (اغلب حرف اضافه یا قید هستند: ab, an, auf, aus, bei, ein, mit, nach, vor, weg, zu, zurück و غیره). در جمله‌ی اصلی با فعل صرف‌شده، پیشوند از فعل جدا می‌شود و به انتهای جمله می‌رود. تکیه‌ی تلفظ همیشه روی پیشوند است، نه روی ریشه‌ی فعل.",
+      "common_prefixes": [
+        "ab",
+        "an",
+        "auf",
+        "aus",
+        "bei",
+        "ein",
+        "fest",
+        "her",
+        "hin",
+        "los",
+        "mit",
+        "nach",
+        "vor",
+        "weg",
+        "weiter",
+        "zu",
+        "zurück",
+        "zusammen"
+      ]
+    },
+    {
+      "type": "untrennbar",
+      "title_en": "Inseparable Verbs (Untrennbar)",
+      "title_fa": "افعال جدانشدنی",
+      "explanation_en": "Inseparable prefixes are not independent words — they have no standalone meaning outside the verb. Exactly 8 prefixes are always inseparable: be-, emp-, ent-, er-, ge-, miss-, ver-, zer-. The prefix never detaches, in any tense or clause type. The word stress falls on the verb stem, not on the prefix.",
+      "explanation_fa": "پیشوندهای جدانشدنی کلمات مستقلی نیستند — خارج از فعل معنای مستقلی ندارند. دقیقاً ۸ پیشوند همیشه جدانشدنی هستند: be-, emp-, ent-, er-, ge-, miss-, ver-, zer-. پیشوند هرگز، در هیچ زمان یا نوع جمله‌ای، از فعل جدا نمی‌شود. تکیه‌ی تلفظ روی ریشه‌ی فعل است، نه روی پیشوند.",
+      "common_prefixes": [
+        "be",
+        "emp",
+        "ent",
+        "er",
+        "ge",
+        "miss",
+        "ver",
+        "zer"
+      ],
+      "exception_note_en": "Exception: in the verb missverstehen, the stress unusually falls on the prefix (miss-) even though the verb is grammatically inseparable.",
+      "exception_note_fa": "استثنا: در فعل missverstehen، با وجود این‌که فعل از نظر گرامری جدانشدنی است، تکیه‌ی تلفظ به‌طور غیرعادی روی پیشوند (miss-) قرار دارد."
+    },
+    {
+      "type": "wechselpraefix",
+      "title_en": "Variable / Two-Way Prefixes (Wechselpräfixe)",
+      "title_fa": "پیشوندهای دوگانه / متغیر",
+      "explanation_en": "A small group of prefixes (durch-, über-, um-, unter-, wieder-, wider-, voll-, hinter-) can be EITHER separable or inseparable, depending on the specific verb and its meaning. As a rule of thumb: the separable version often has a more literal, concrete meaning, while the inseparable version often has a more figurative or abstract meaning — but this must be learned verb by verb, since there is no fully reliable rule.",
+      "explanation_fa": "گروه کوچکی از پیشوندها (durch-, über-, um-, unter-, wieder-, wider-, voll-, hinter-) بسته به فعل خاص و معنی آن می‌توانند جداشدنی یا جدانشدنی باشند. به‌عنوان یک قاعده‌ی کلی: نسخه‌ی جداشدنی معمولاً معنی تحت‌اللفظی‌تر و عینی‌تری دارد، در حالی‌که نسخه‌ی جدانشدنی معمولاً معنی مجازی‌تر یا انتزاعی‌تری دارد — اما چون این قاعده همیشه قابل‌اعتماد نیست، باید فعل‌به‌فعل یاد گرفته شود.",
+      "common_prefixes": [
+        "durch",
+        "über",
+        "um",
+        "unter",
+        "wieder",
+        "wider",
+        "voll",
+        "hinter"
+      ],
+      "example_pairs": [
+        {
+          "verb_separable": "übersetzen (trennbar)",
+          "meaning_separable_en": "to ferry/cross over (literal, e.g. by boat)",
+          "meaning_separable_fa": "با قایق عبور دادن از رودخانه (معنی تحت‌اللفظی)",
+          "verb_inseparable": "übersetzen (untrennbar)",
+          "meaning_inseparable_en": "to translate (figurative)",
+          "meaning_inseparable_fa": "ترجمه کردن (معنی مجازی)"
+        },
+        {
+          "verb_separable": "umfahren (trennbar)",
+          "meaning_separable_en": "to knock over/run over something while driving",
+          "meaning_separable_fa": "زیر گرفتن چیزی با ماشین",
+          "verb_inseparable": "umfahren (untrennbar)",
+          "meaning_inseparable_en": "to drive around (avoiding an obstacle)",
+          "meaning_inseparable_fa": "دور زدن (با ماشین، برای اجتناب از مانع)"
+        }
+      ]
+    }
+  ],
+  "grammar_rules": [
+    {
+      "rule_id": "word_order",
+      "title_en": "Word order in main clauses",
+      "title_fa": "ترتیب کلمات در جمله‌ی اصلی",
+      "explanation_en": "In a main clause with a separable verb in the present or simple past tense, the finite (conjugated) verb stays in position 2, and the separable prefix moves to the very end of the clause.",
+      "explanation_fa": "در جمله‌ی اصلی با فعل جداشدنی در زمان حال یا گذشته‌ی ساده، فعل صرف‌شده در جایگاه دوم جمله می‌ماند و پیشوند جداشدنی به انتهای جمله منتقل می‌شود.",
+      "examples": [
+        {
+          "de": "Ich komme um 9 Uhr an.",
+          "en": "I arrive at 9 o'clock.",
+          "fa": "ساعت ۹ می‌رسم."
+        },
+        {
+          "de": "Er rief mich gestern an.",
+          "en": "He called me yesterday.",
+          "fa": "او دیروز با من تماس گرفت."
+        }
+      ]
+    },
+    {
+      "rule_id": "subordinate_clause",
+      "title_en": "Word order in subordinate clauses",
+      "title_fa": "ترتیب کلمات در جملات وابسته (پیرو)",
+      "explanation_en": "In a subordinate clause (introduced by dass, weil, wenn, etc.), the finite verb moves to the very end of the clause, and the prefix reattaches directly to it — they are written as one word again.",
+      "explanation_fa": "در جمله‌ی وابسته (که با dass, weil, wenn و غیره شروع می‌شود)، فعل صرف‌شده به انتهای جمله می‌رود و پیشوند مستقیماً دوباره به آن می‌چسبد — دوباره به‌صورت یک کلمه نوشته می‌شوند.",
+      "examples": [
+        {
+          "de": "Er will, dass ich mitkomme.",
+          "en": "He wants me to come along.",
+          "fa": "او می‌خواهد که من هم بیایم."
+        },
+        {
+          "de": "Ich weiß nicht, ob sie morgen abfährt.",
+          "en": "I don't know if she's leaving tomorrow.",
+          "fa": "نمی‌دانم آیا او فردا حرکت می‌کند یا نه."
+        }
+      ]
+    },
+    {
+      "rule_id": "partizip_ii",
+      "title_en": "Partizip II (past participle)",
+      "title_fa": "صفت مفعولی (Partizip II / حالت پرفکت)",
+      "explanation_en": "For separable verbs, the -ge- of the past participle is inserted BETWEEN the prefix and the verb stem (mitgekommen). For inseparable verbs, no -ge- is added at all (bekommen, not be-ge-kommen), because the 8 inseparable prefixes never combine with ge-.",
+      "explanation_fa": "برای افعال جداشدنی، پیشوند -ge- در حالت پرفکت بین پیشوند و ریشه‌ی فعل قرار می‌گیرد (mitgekommen). برای افعال جدانشدنی، اصلاً -ge- اضافه نمی‌شود (bekommen، نه be-ge-kommen)، چون ۸ پیشوند جدانشدنی هرگز با ge- ترکیب نمی‌شوند.",
+      "examples": [
+        {
+          "de": "Ich bin mitgekommen.",
+          "en": "I came along.",
+          "fa": "من هم آمدم."
+        },
+        {
+          "de": "Ich habe ein Geschenk bekommen.",
+          "en": "I received a gift.",
+          "fa": "یک هدیه دریافت کردم."
+        }
+      ]
+    },
+    {
+      "rule_id": "infinitiv_mit_zu",
+      "title_en": "Infinitive with zu",
+      "title_fa": "مصدر همراه با zu",
+      "explanation_en": "For separable verbs, zu is inserted between the prefix and the verb stem, and the whole thing is written as one word (mitzukommen). For inseparable verbs, zu is simply placed before the whole verb, as usual (zu bekommen).",
+      "explanation_fa": "برای افعال جداشدنی، zu بین پیشوند و ریشه‌ی فعل قرار می‌گیرد و کل آن یک کلمه نوشته می‌شود (mitzukommen). برای افعال جدانشدنی، zu مثل حالت معمول قبل از کل فعل می‌آید (zu bekommen).",
+      "examples": [
+        {
+          "de": "Ich habe keine Lust mitzukommen.",
+          "en": "I don't feel like coming along.",
+          "fa": "حوصله‌ی همراه‌آمدن ندارم."
+        },
+        {
+          "de": "Es ist schön, ein Geschenk zu bekommen.",
+          "en": "It's nice to receive a gift.",
+          "fa": "هدیه گرفتن چیز خوبی است."
+        }
+      ]
+    }
+  ],
+  "prefix_meaning_table": [
+    {
+      "prefix": "ab-",
+      "type": "trennbar",
+      "meaning_en": "away / end / off",
+      "meaning_fa": "دور شدن / پایان / خاموش‌کردن",
+      "example_de": "abfahren, abschalten",
+      "note_en": "Often signals the end or departure point of an action.",
+      "note_fa": "اغلب پایان یا نقطه‌ی شروع جدایی یک عمل را نشان می‌دهد."
+    },
+    {
+      "prefix": "an-",
+      "type": "trennbar",
+      "meaning_en": "beginning / contact / switching on",
+      "meaning_fa": "شروع / تماس / روشن‌کردن",
+      "example_de": "anfangen, ankommen, anziehen",
+      "note_en": "Often signals the start of an action or contact between two things.",
+      "note_fa": "اغلب شروع یک عمل یا تماس بین دو چیز را نشان می‌دهد."
+    },
+    {
+      "prefix": "auf-",
+      "type": "trennbar",
+      "meaning_en": "upward / opening / start of a new state",
+      "meaning_fa": "به سمت بالا / باز کردن / شروع وضعیت جدید",
+      "example_de": "aufstehen, aufmachen",
+      "note_en": "Often signals upward motion or the start/opening of something.",
+      "note_fa": "اغلب حرکت رو به بالا یا باز/شروع‌شدن چیزی را نشان می‌دهد."
+    },
+    {
+      "prefix": "aus-",
+      "type": "trennbar",
+      "meaning_en": "out / exit / switching off / completion",
+      "meaning_fa": "خارج / خاموش‌کردن / تکمیل",
+      "example_de": "ausziehen, ausschalten",
+      "note_en": "Often signals exiting, removal, or the end-state of a process.",
+      "note_fa": "اغلب خروج، حذف یا پایان یک فرایند را نشان می‌دهد."
+    },
+    {
+      "prefix": "ein-",
+      "type": "trennbar",
+      "meaning_en": "in / entering / adjusting",
+      "meaning_fa": "داخل / ورود / تنظیم‌کردن",
+      "example_de": "einziehen, einstellen",
+      "note_en": "Often signals entering or settling something into place.",
+      "note_fa": "اغلب ورود یا جای‌گیری چیزی را نشان می‌دهد."
+    },
+    {
+      "prefix": "mit-",
+      "type": "trennbar",
+      "meaning_en": "along with / together",
+      "meaning_fa": "همراه / با هم",
+      "example_de": "mitkommen, mitbringen",
+      "note_en": "Signals participation or accompanying someone/something.",
+      "note_fa": "نشان‌دهنده‌ی همراهی یا مشارکت در یک عمل است."
+    },
+    {
+      "prefix": "nach-",
+      "type": "trennbar",
+      "meaning_en": "after / following / imitation",
+      "meaning_fa": "به دنبال / تقلید",
+      "example_de": "nachlaufen, nachmachen",
+      "note_en": "Signals following something or copying/repeating an action.",
+      "note_fa": "نشان‌دهنده‌ی دنبال‌کردن یا تقلید/تکرار یک عمل است."
+    },
+    {
+      "prefix": "vor-",
+      "type": "trennbar",
+      "meaning_en": "before / in front / presenting",
+      "meaning_fa": "جلو / پیش / ارائه‌کردن",
+      "example_de": "vorschlagen, vorlesen",
+      "note_en": "Signals doing something before/in front of someone, or proposing.",
+      "note_fa": "نشان‌دهنده‌ی انجام کاری پیش از/برای کسی یا پیشنهاد دادن است."
+    },
+    {
+      "prefix": "weg-",
+      "type": "trennbar",
+      "meaning_en": "away",
+      "meaning_fa": "دور / حذف",
+      "example_de": "weggehen, wegnehmen",
+      "note_en": "Signals removal or movement away from something.",
+      "note_fa": "نشان‌دهنده‌ی حذف یا دورشدن از چیزی است."
+    },
+    {
+      "prefix": "zu-",
+      "type": "trennbar",
+      "meaning_en": "towards / closing / addition",
+      "meaning_fa": "به سمت / بستن / افزودن",
+      "example_de": "zumachen, zuhören, zunehmen",
+      "note_en": "Signals direction towards something, closing, or increase.",
+      "note_fa": "نشان‌دهنده‌ی جهت به‌سمت چیزی، بستن، یا افزایش است."
+    },
+    {
+      "prefix": "zurück-",
+      "type": "trennbar",
+      "meaning_en": "back / return",
+      "meaning_fa": "بازگشت",
+      "example_de": "zurückkommen, zurückbringen",
+      "note_en": "Signals returning to a previous place or state.",
+      "note_fa": "نشان‌دهنده‌ی بازگشت به مکان یا وضعیت قبلی است."
+    },
+    {
+      "prefix": "be-",
+      "type": "untrennbar",
+      "meaning_en": "no fixed meaning; usually makes the verb transitive (adds an accusative object)",
+      "meaning_fa": "معنی ثابتی ندارد؛ معمولاً فعل را متعدی می‌کند (مفعول اکوزاتیو اضافه می‌کند)",
+      "example_de": "besteigen, bezahlen",
+      "note_en": "Compare steigen (intransitive) vs. besteigen + Akk. (transitive).",
+      "note_fa": "مقایسه کنید: steigen (لازم) در برابر besteigen + Akk. (متعدی)."
+    },
+    {
+      "prefix": "ent-",
+      "type": "untrennbar",
+      "meaning_en": "removal / undoing / origin",
+      "meaning_fa": "حذف چیزی / برعکس‌کردن / منشأ گرفتن",
+      "example_de": "entnehmen, entstehen, entziehen",
+      "note_en": "Signals taking something away or the beginning/origin of something.",
+      "note_fa": "نشان‌دهنده‌ی گرفتن چیزی یا شروع/منشأ یک چیز است."
+    },
+    {
+      "prefix": "er-",
+      "type": "untrennbar",
+      "meaning_en": "reaching a goal / result / sudden onset",
+      "meaning_fa": "رسیدن به هدف / نتیجه / شروع ناگهانی",
+      "example_de": "erreichen, erfahren, ertrinken",
+      "note_en": "Often signals achieving a result or the completion/onset of a process.",
+      "note_fa": "اغلب رسیدن به یک نتیجه یا تکمیل/شروع یک فرایند را نشان می‌دهد."
+    },
+    {
+      "prefix": "miss-",
+      "type": "untrennbar",
+      "meaning_en": "wrong / negative / mis-",
+      "meaning_fa": "غلط / منفی / بد",
+      "example_de": "missverstehen, missbrauchen",
+      "note_en": "Always adds a negative or 'wrong' nuance to the base verb's meaning.",
+      "note_fa": "همیشه یک بار معنایی منفی یا 'اشتباه' به فعل پایه اضافه می‌کند."
+    },
+    {
+      "prefix": "ver-",
+      "type": "untrennbar",
+      "meaning_en": "change of state / away / error (often reflexive) / completion",
+      "meaning_fa": "تغییر حالت / دور شدن / اشتباه (اغلب انعکاسی) / تکمیل",
+      "example_de": "verkaufen, verschönern, verschreiben, verdursten",
+      "note_en": "One of the most common and semantically broad prefixes — meaning must often be learned per verb.",
+      "note_fa": "یکی از پرکاربردترین و معنایی‌ترین پیشوندهاست؛ معنی آن اغلب باید فعل‌به‌فعل یاد گرفته شود."
+    },
+    {
+      "prefix": "zer-",
+      "type": "untrennbar",
+      "meaning_en": "breaking into pieces / destruction",
+      "meaning_fa": "خرد/تکه‌تکه‌کردن / نابودی",
+      "example_de": "zerreißen, zerbrechen",
+      "note_en": "Always signals something being destroyed or broken apart.",
+      "note_fa": "همیشه نشان‌دهنده‌ی نابودی یا تکه‌تکه‌شدن چیزی است."
+    },
+    {
+      "prefix": "ge-",
+      "type": "untrennbar",
+      "meaning_en": "rare as a living prefix in modern verbs; mostly fossilized",
+      "meaning_fa": "به‌عنوان پیشوند زنده در افعال مدرن کمیاب است؛ بیشتر در افعال قدیمی باقی مانده",
+      "example_de": "gehören, gefallen, gelingen",
+      "note_en": "Many ge- verbs are old formations whose original meaning has faded; learn as vocabulary.",
+      "note_fa": "بسیاری از افعال ge- ساخته‌های قدیمی هستند که معنی اصلی پیشوند در آن‌ها کمرنگ شده؛ بهتر است به‌عنوان واژگان یاد گرفته شوند."
+    }
+  ],
+  "tips_en": [
+    "The 8 inseparable prefixes never take stress and never split: be-, emp-, ge-, er-, ent-, ver-, zer-, miss- (mnemonic: 'BEGEEVZ-Miss').",
+    "If a one-syllable prefix can stand alone as a preposition or adverb in German (ab, an, auf, mit, vor, zu...), it is almost always separable.",
+    "For the variable prefixes (durch-, über-, um-, unter-, wieder-, wider-), check stress in spoken German: stress on the prefix = separable; stress on the verb stem = inseparable.",
+    "When in doubt, look up each verb individually — frequency lists and dictionaries always mark separable verbs with a vertical bar or dot (e.g. an|kommen)."
+  ],
+  "tips_fa": [
+    "۸ پیشوند جدانشدنی هرگز تکیه نمی‌گیرند و هرگز جدا نمی‌شوند: be-, emp-, ge-, er-, ent-, ver-, zer-, miss-.",
+    "اگر یک پیشوند تک‌هجایی بتواند به‌تنهایی در آلمانی به‌عنوان حرف اضافه یا قید به‌کار رود (ab, an, auf, mit, vor, zu...)، تقریباً همیشه جداشدنی است.",
+    "برای پیشوندهای متغیر (durch-, über-, um-, unter-, wieder-, wider-)، تکیه‌ی تلفظ را در آلمانی گفتاری چک کنید: تکیه روی پیشوند = جداشدنی؛ تکیه روی ریشه‌ی فعل = جدانشدنی.",
+    "در صورت شک، هر فعل را به‌صورت جداگانه در فرهنگ لغت چک کنید — لیست‌های فرکانسی و دیکشنری‌ها همیشه افعال جداشدنی را با یک خط عمودی یا نقطه مشخص می‌کنند (مثلاً an|kommen)."
+  ],
+  "displayed_in": [
+    "Auswendiglernen/Trennbar-Untrennbar-Verben",
+    "Grammatik/A1-A2"
+  ],
+  "source_note_fa": "این فایل بر اساس سند آپلودی Lukasalmani (Trennbar/Untrennbar، صفحات ۱ تا ۳) به‌عنوان مرجع پایه نوشته شده و با جدول کامل معنی پیشوندها و قوانین گرامری گسترش یافته است.",
+  "source_note_en": "This file is based on the uploaded Lukasalmani document (Trennbar/Untrennbar, pages 1-3) as the base reference, expanded with a complete prefix-meaning table and grammar rules."
+}

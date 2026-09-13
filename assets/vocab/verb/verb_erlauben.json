@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_erlauben",
+  "wort": "erlauben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اجازه دادن"
+    ],
+    "en": [
+      "to allow",
+      "to permit"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ɛɐ̯ˈlaʊ̯bn̩",
+  "anmerkung": "Regelmäßig. Konstruktion: jemandem (Dat) etwas (Akk) erlauben; oft mit zu-Infinitiv (erlauben zu …).",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Ich erlaube meinen Kindern viel.",
+      "uebersetzung": {
+        "fa": "به فرزندانم خیلی اجازه می‌دهم.",
+        "en": "I allow my children a lot."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Meine Eltern haben mir erlaubt, allein zu verreisen.",
+      "uebersetzung": {
+        "fa": "والدینم به من اجازه دادند که تنها سفر کنم.",
+        "en": "My parents allowed me to travel alone."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gestatten",
+      "uebersetzung": {
+        "fa": "اجازه دادن (رسمی)",
+        "en": "to permit"
+      }
+    },
+    {
+      "wort": "genehmigen",
+      "uebersetzung": {
+        "fa": "تصویب/اجازه دادن",
+        "en": "to approve"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verbieten",
+      "uebersetzung": {
+        "fa": "ممنوع کردن",
+        "en": "to forbid"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- + -lauben (خویشاوند با Erlaubnis: اجازه)",
+    "en": "er- + -lauben (related to Erlaubnis: permission)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "erlauben + Dat + Akk",
+        "bedeutung": "jemandem etwas erlauben",
+        "beispiel": "Der Lehrer erlaubt den Schülern eine Pause.",
+        "uebersetzung": {
+          "fa": "معلم به دانش‌آموزان یک استراحت اجازه می‌دهد.",
+          "en": "The teacher allows the students a break."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "erlauben",
+      "praeteritum": "erlaubte",
+      "partizip2": "erlaubt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erlaube",
+        "du": "erlaubst",
+        "er_sie_es": "erlaubt",
+        "wir": "erlauben",
+        "ihr": "erlaubt",
+        "sie_Sie": "erlauben"
+      },
+      "praeteritum": {
+        "ich": "erlaubte",
+        "du": "erlaubtest",
+        "er_sie_es": "erlaubte",
+        "wir": "erlaubten",
+        "ihr": "erlaubtet",
+        "sie_Sie": "erlaubten"
+      },
+      "imperativ": {
+        "du": "Erlaube!",
+        "ihr": "Erlaubt!",
+        "Sie": "Erlauben Sie!"
+      }
+    },
+    "partizip1": "erlaubend",
+    "nominalisierung": "die Erlaubnis"
+  },
+  "wortnetz": {
+    "grundwort": "erlauben",
+    "woerter": [
+      {
+        "wort": "die Erlaubnis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اجازه",
+          "en": "permission"
+        },
+        "id_ref": "nomen_erlaubnis"
+      },
+      {
+        "wort": "verbieten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ممنوع کردن",
+          "en": "to forbid"
+        },
+        "id_ref": "verb_verbieten"
+      },
+      {
+        "wort": "dürfen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اجازه داشتن",
+          "en": "to be allowed"
+        },
+        "id_ref": "verb_duerfen"
+      },
+      {
+        "wort": "gestatten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اجازه دادن",
+          "en": "to permit"
+        },
+        "id_ref": "verb_gestatten"
+      },
+      {
+        "wort": "zulassen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مجاز دانستن",
+          "en": "to permit, to admit"
+        },
+        "id_ref": "verb_zulassen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Ich erlaube meinen Kindern viel.",
+      "dativ": [
+        "meinen Kindern"
+      ],
+      "akkusativ": [
+        "viel"
+      ],
+      "uebersetzung": {
+        "fa": "به فرزندانم خیلی اجازه می‌دهم.",
+        "en": "I allow my children a lot."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

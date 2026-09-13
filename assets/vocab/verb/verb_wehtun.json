@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_wehtun",
+  "wort": "wehtun",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "درد کردن",
+      "آزردن"
+    ],
+    "en": [
+      "to hurt"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Gesundheit"
+  ],
+  "ipa": "ˈveːˌtuːn",
+  "anmerkung": "In der Satzmitte getrennt: Der Kopf tut mir weh. Unregelmäßig (tun). jemandem wehtun. Der schmerzende Teil ist das Subjekt (Nominativ).",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Der Kopf tut mir weh.",
+      "uebersetzung": {
+        "fa": "سرم درد می‌کند.",
+        "en": "My head hurts."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Mit dieser Bemerkung hast du ihr sehr wehgetan.",
+      "uebersetzung": {
+        "fa": "با این حرف خیلی او را آزردی.",
+        "en": "You hurt her a lot with that remark."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schmerzen",
+      "uebersetzung": {
+        "fa": "درد کردن",
+        "en": "to ache"
+      }
+    },
+    {
+      "wort": "verletzen",
+      "uebersetzung": {
+        "fa": "آزردن (+ Akk)",
+        "en": "to hurt (+ Akk)"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "weh (درد) + tun (کردن)",
+    "en": "weh (pain) + tun (to do)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem wehtun",
+        "bedeutung": "jemandem wehtun",
+        "beispiel": "Meine Füße tun mir weh.",
+        "uebersetzung": {
+          "fa": "پاهایم درد می‌کنند.",
+          "en": "My feet hurt."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "wehtun",
+      "praeteritum": "tat weh",
+      "partizip2": "wehgetan"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "tue weh",
+        "du": "tust weh",
+        "er_sie_es": "tut weh",
+        "wir": "tun weh",
+        "ihr": "tut weh",
+        "sie_Sie": "tun weh"
+      },
+      "praeteritum": {
+        "ich": "tat weh",
+        "du": "tatest weh",
+        "er_sie_es": "tat weh",
+        "wir": "taten weh",
+        "ihr": "tatet weh",
+        "sie_Sie": "taten weh"
+      },
+      "imperativ": {
+        "du": "Tu weh!",
+        "ihr": "Tut weh!",
+        "Sie": "Tun Sie weh!"
+      }
+    },
+    "partizip1": "wehtuend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "tun",
+    "woerter": [
+      {
+        "wort": "der Schmerz",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درد",
+          "en": "pain"
+        },
+        "id_ref": "nomen_schmerz"
+      },
+      {
+        "wort": "schmerzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درد کردن",
+          "en": "to ache"
+        },
+        "id_ref": "verb_schmerzen"
+      },
+      {
+        "wort": "verletzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مجروح/آزردن",
+          "en": "to injure"
+        },
+        "id_ref": "verb_verletzen"
+      },
+      {
+        "wort": "krank",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "ill"
+        },
+        "id_ref": "adjektiv_krank"
+      },
+      {
+        "wort": "der Arzt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پزشک",
+          "en": "doctor"
+        },
+        "id_ref": "nomen_arzt"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Der Kopf tut mir weh.",
+      "dativ": [
+        "mir"
+      ],
+      "akkusativ": [],
+      "uebersetzung": {
+        "fa": "سرم درد می‌کند.",
+        "en": "My head hurts."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

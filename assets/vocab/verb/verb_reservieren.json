@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_reservieren",
+  "wort": "reservieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "رزرو کردن",
+      "از پیش گرفتن"
+    ],
+    "en": [
+      "to reserve",
+      "to book"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Reisen"
+  ],
+  "ipa": "ʁezɛʁˈviːʁən",
+  "anmerkung": "Regelmäßig (-ieren → Partizip ohne ge-: reserviert). Konstruktion: jemandem (Dat) etwas (Akk) reservieren.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Können Sie mir einen Tisch reservieren?",
+      "uebersetzung": {
+        "fa": "می‌توانید برای من یک میز رزرو کنید؟",
+        "en": "Can you reserve a table for me?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich habe uns für heute Abend einen Tisch im Restaurant reserviert.",
+      "uebersetzung": {
+        "fa": "برای امشب در رستوران یک میز برایمان رزرو کرده‌ام.",
+        "en": "I've reserved us a table at the restaurant for tonight."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "buchen",
+      "uebersetzung": {
+        "fa": "رزرو/بلیت گرفتن",
+        "en": "to book"
+      }
+    },
+    {
+      "wort": "vorbestellen",
+      "uebersetzung": {
+        "fa": "پیش‌سفارش دادن",
+        "en": "to order in advance"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "stornieren",
+      "uebersetzung": {
+        "fa": "لغو کردن",
+        "en": "to cancel"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "reservieren + Dat + Akk",
+        "bedeutung": "jemandem etwas reservieren",
+        "beispiel": "Können Sie mir ein Zimmer reservieren?",
+        "uebersetzung": {
+          "fa": "می‌توانید برای من یک اتاق رزرو کنید؟",
+          "en": "Can you reserve a room for me?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "reservieren",
+      "praeteritum": "reservierte",
+      "partizip2": "reserviert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "reserviere",
+        "du": "reservierst",
+        "er_sie_es": "reserviert",
+        "wir": "reservieren",
+        "ihr": "reserviert",
+        "sie_Sie": "reservieren"
+      },
+      "praeteritum": {
+        "ich": "reservierte",
+        "du": "reserviertest",
+        "er_sie_es": "reservierte",
+        "wir": "reservierten",
+        "ihr": "reserviertet",
+        "sie_Sie": "reservierten"
+      },
+      "imperativ": {
+        "du": "Reserviere!",
+        "ihr": "Reserviert!",
+        "Sie": "Reservieren Sie!"
+      }
+    },
+    "partizip1": "reservierend",
+    "nominalisierung": "die Reservierung"
+  },
+  "wortnetz": {
+    "grundwort": "reservieren",
+    "woerter": [
+      {
+        "wort": "buchen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رزرو کردن",
+          "en": "to book"
+        },
+        "id_ref": "verb_buchen"
+      },
+      {
+        "wort": "die Reservierung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رزرو",
+          "en": "reservation"
+        },
+        "id_ref": "nomen_reservierung"
+      },
+      {
+        "wort": "der Tisch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "میز",
+          "en": "table"
+        },
+        "id_ref": "nomen_tisch"
+      },
+      {
+        "wort": "das Hotel",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "هتل",
+          "en": "hotel"
+        },
+        "id_ref": "nomen_hotel"
+      },
+      {
+        "wort": "bestellen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سفارش دادن",
+          "en": "to order"
+        },
+        "id_ref": "verb_bestellen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Können Sie mir einen Tisch reservieren?",
+      "dativ": [
+        "mir"
+      ],
+      "akkusativ": [
+        "einen Tisch"
+      ],
+      "uebersetzung": {
+        "fa": "می‌توانید برای من یک میز رزرو کنید؟",
+        "en": "Can you reserve a table for me?"
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

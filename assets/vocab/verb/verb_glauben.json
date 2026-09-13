@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_glauben",
+  "wort": "glauben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "باور کردن",
+      "اعتقاد داشتن"
+    ],
+    "en": [
+      "to believe"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈɡlaʊ̯bn̩",
+  "anmerkung": "Regelmäßig. jemandem glauben (Dat = باور کردنِ شخص), aber etwas glauben (Akk): Ich glaube das nicht. Auch: glauben an + Akk.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich glaube Ihnen nicht.",
+      "uebersetzung": {
+        "fa": "حرف شما را باور نمی‌کنم.",
+        "en": "I don't believe you."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Warum glaubst du mir nicht?",
+      "uebersetzung": {
+        "fa": "چرا حرفم را باور نمی‌کنی؟",
+        "en": "Why don't you believe me?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vertrauen",
+      "uebersetzung": {
+        "fa": "اعتماد کردن",
+        "en": "to trust"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zweifeln",
+      "uebersetzung": {
+        "fa": "شک کردن",
+        "en": "to doubt"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "glauben + Dat (Person)",
+        "bedeutung": "jemandem glauben",
+        "beispiel": "Ich glaube dir.",
+        "uebersetzung": {
+          "fa": "حرفت را باور می‌کنم.",
+          "en": "I believe you."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "glauben",
+      "praeteritum": "glaubte",
+      "partizip2": "geglaubt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "glaube",
+        "du": "glaubst",
+        "er_sie_es": "glaubt",
+        "wir": "glauben",
+        "ihr": "glaubt",
+        "sie_Sie": "glauben"
+      },
+      "praeteritum": {
+        "ich": "glaubte",
+        "du": "glaubtest",
+        "er_sie_es": "glaubte",
+        "wir": "glaubten",
+        "ihr": "glaubtet",
+        "sie_Sie": "glaubten"
+      },
+      "imperativ": {
+        "du": "Glaube!",
+        "ihr": "Glaubt!",
+        "Sie": "Glauben Sie!"
+      }
+    },
+    "partizip1": "glaubend",
+    "nominalisierung": "der Glaube"
+  },
+  "wortnetz": {
+    "grundwort": "glauben",
+    "woerter": [
+      {
+        "wort": "der Glaube",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "باور، ایمان",
+          "en": "belief, faith"
+        },
+        "id_ref": "nomen_glaube"
+      },
+      {
+        "wort": "vertrauen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اعتماد کردن",
+          "en": "to trust"
+        },
+        "id_ref": "verb_vertrauen"
+      },
+      {
+        "wort": "denken",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فکر کردن",
+          "en": "to think"
+        },
+        "id_ref": "verb_denken"
+      },
+      {
+        "wort": "meinen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نظر داشتن",
+          "en": "to think, to mean"
+        },
+        "id_ref": "verb_meinen"
+      },
+      {
+        "wort": "zweifeln",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شک کردن",
+          "en": "to doubt"
+        },
+        "id_ref": "verb_zweifeln"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Ich glaube Ihnen nicht.",
+      "dativ": [
+        "Ihnen"
+      ],
+      "akkusativ": [],
+      "uebersetzung": {
+        "fa": "حرف شما را باور نمی‌کنم.",
+        "en": "I don't believe you."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

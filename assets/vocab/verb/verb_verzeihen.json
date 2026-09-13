@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_verzeihen",
+  "wort": "verzeihen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بخشیدن",
+      "عفو کردن"
+    ],
+    "en": [
+      "to forgive"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Beziehungen",
+    "Gefühle"
+  ],
+  "ipa": "fɛɐ̯ˈt͡saɪ̯ən",
+  "anmerkung": "Unregelmäßig (verzieh, verziehen; Präsens regelmäßig). Konstruktion: jemandem (Dat) etwas (Akk) verzeihen.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Ich verzeihe meinem Mann alles.",
+      "uebersetzung": {
+        "fa": "همه‌چیز را به شوهرم می‌بخشم.",
+        "en": "I forgive my husband everything."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Es fällt mir schwer, ihm diese Lüge zu verzeihen.",
+      "uebersetzung": {
+        "fa": "برایم سخت است این دروغ را به او ببخشم.",
+        "en": "I find it hard to forgive him this lie."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vergeben",
+      "uebersetzung": {
+        "fa": "بخشیدن",
+        "en": "to forgive"
+      }
+    },
+    {
+      "wort": "entschuldigen",
+      "uebersetzung": {
+        "fa": "بخشیدن، عذر پذیرفتن",
+        "en": "to excuse"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "nachtragen",
+      "uebersetzung": {
+        "fa": "کینه به دل داشتن",
+        "en": "to hold a grudge"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + zeihen (کهنه: متهم کردن)",
+    "en": "ver- + zeihen (archaic: to accuse)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "verzeihen + Dat + Akk",
+        "bedeutung": "jemandem etwas verzeihen",
+        "beispiel": "Bitte verzeih mir meinen Fehler.",
+        "uebersetzung": {
+          "fa": "لطفاً اشتباهم را به من ببخش.",
+          "en": "Please forgive me my mistake."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verzeihen",
+      "praeteritum": "verzieh",
+      "partizip2": "verziehen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verzeihe",
+        "du": "verzeihst",
+        "er_sie_es": "verzeiht",
+        "wir": "verzeihen",
+        "ihr": "verzeiht",
+        "sie_Sie": "verzeihen"
+      },
+      "praeteritum": {
+        "ich": "verzieh",
+        "du": "verziehst",
+        "er_sie_es": "verzieh",
+        "wir": "verziehen",
+        "ihr": "verzieht",
+        "sie_Sie": "verziehen"
+      },
+      "imperativ": {
+        "du": "Verzeihe!",
+        "ihr": "Verzeiht!",
+        "Sie": "Verzeihen Sie!"
+      }
+    },
+    "partizip1": "verzeihend",
+    "nominalisierung": "die Verzeihung"
+  },
+  "wortnetz": {
+    "grundwort": "verzeihen",
+    "woerter": [
+      {
+        "wort": "vergeben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بخشیدن",
+          "en": "to forgive"
+        },
+        "id_ref": "verb_vergeben"
+      },
+      {
+        "wort": "die Verzeihung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بخشش، عفو",
+          "en": "forgiveness"
+        },
+        "id_ref": "nomen_verzeihung"
+      },
+      {
+        "wort": "entschuldigen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عذرخواهی کردن",
+          "en": "to excuse"
+        },
+        "id_ref": "verb_entschuldigen"
+      },
+      {
+        "wort": "der Fehler",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اشتباه",
+          "en": "mistake"
+        },
+        "id_ref": "nomen_fehler"
+      },
+      {
+        "wort": "böse",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عصبانی، بد",
+          "en": "angry, bad"
+        },
+        "id_ref": "adjektiv_boese"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Ich verzeihe meinem Mann alles.",
+      "dativ": [
+        "meinem Mann"
+      ],
+      "akkusativ": [
+        "alles"
+      ],
+      "uebersetzung": {
+        "fa": "همه‌چیز را به شوهرم می‌بخشم.",
+        "en": "I forgive my husband everything."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

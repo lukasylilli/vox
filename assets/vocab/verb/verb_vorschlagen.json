@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_vorschlagen",
+  "wort": "vorschlagen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پیشنهاد کردن"
+    ],
+    "en": [
+      "to suggest",
+      "to propose"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit"
+  ],
+  "ipa": "ˈfoːɐ̯ˌʃlaːɡn̩",
+  "anmerkung": "Trennbar: Ich schlage … vor. Unregelmäßig (a→ä: du schlägst vor, er schlägt vor; schlug vor, vorgeschlagen). Konstruktion: jemandem (Dat) etwas (Akk) vorschlagen.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Ich schlage Ihnen einen Kompromiss vor.",
+      "uebersetzung": {
+        "fa": "به شما یک سازش پیشنهاد می‌کنم.",
+        "en": "I suggest a compromise to you."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Berater schlug uns eine ganz neue Strategie vor.",
+      "uebersetzung": {
+        "fa": "مشاور یک استراتژی کاملاً جدید به ما پیشنهاد کرد.",
+        "en": "The consultant suggested a completely new strategy to us."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "empfehlen",
+      "uebersetzung": {
+        "fa": "توصیه کردن",
+        "en": "to recommend"
+      }
+    },
+    {
+      "wort": "anregen",
+      "uebersetzung": {
+        "fa": "پیشنهاد/ترغیب کردن",
+        "en": "to suggest, to prompt"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "vor- (پیش) + schlagen (زدن)",
+    "en": "vor- (before) + schlagen (to strike)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "vorschlagen + Dat + Akk",
+        "bedeutung": "jemandem etwas vorschlagen",
+        "beispiel": "Ich schlage dir einen Termin vor.",
+        "uebersetzung": {
+          "fa": "یک وقت ملاقات به تو پیشنهاد می‌کنم.",
+          "en": "I suggest an appointment to you."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vorschlagen",
+      "praeteritum": "schlug vor",
+      "partizip2": "vorgeschlagen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schlage vor",
+        "du": "schlägst vor",
+        "er_sie_es": "schlägt vor",
+        "wir": "schlagen vor",
+        "ihr": "schlagt vor",
+        "sie_Sie": "schlagen vor"
+      },
+      "praeteritum": {
+        "ich": "schlug vor",
+        "du": "schlugst vor",
+        "er_sie_es": "schlug vor",
+        "wir": "schlugen vor",
+        "ihr": "schlugt vor",
+        "sie_Sie": "schlugen vor"
+      },
+      "imperativ": {
+        "du": "Schlag vor!",
+        "ihr": "Schlagt vor!",
+        "Sie": "Schlagen Sie vor!"
+      }
+    },
+    "partizip1": "vorschlagend",
+    "nominalisierung": "der Vorschlag"
+  },
+  "wortnetz": {
+    "grundwort": "schlagen",
+    "woerter": [
+      {
+        "wort": "der Vorschlag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیشنهاد",
+          "en": "suggestion"
+        },
+        "id_ref": "nomen_vorschlag"
+      },
+      {
+        "wort": "empfehlen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "توصیه کردن",
+          "en": "to recommend"
+        },
+        "id_ref": "verb_empfehlen"
+      },
+      {
+        "wort": "die Idee",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ایده",
+          "en": "idea"
+        },
+        "id_ref": "nomen_idee"
+      },
+      {
+        "wort": "vorstellen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "معرفی کردن",
+          "en": "to introduce"
+        },
+        "id_ref": "verb_vorstellen"
+      },
+      {
+        "wort": "anbieten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیشنهاد دادن",
+          "en": "to offer"
+        },
+        "id_ref": "verb_anbieten"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Ich schlage Ihnen einen Kompromiss vor.",
+      "dativ": [
+        "Ihnen"
+      ],
+      "akkusativ": [
+        "einen Kompromiss"
+      ],
+      "uebersetzung": {
+        "fa": "به شما یک سازش پیشنهاد می‌کنم.",
+        "en": "I suggest a compromise to you."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

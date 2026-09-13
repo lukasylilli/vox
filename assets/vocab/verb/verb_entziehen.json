@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_entziehen",
+  "wort": "entziehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سلب کردن",
+      "باطل کردن",
+      "پس گرفتن"
+    ],
+    "en": [
+      "to revoke",
+      "to withdraw"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Recht"
+  ],
+  "ipa": "ɛntˈt͡siːən",
+  "anmerkung": "Unregelmäßig (entzog, entzogen). Konstruktion: jemandem (Dat) etwas (Akk) entziehen. Auch reflexiv: sich einer Sache (Dat) entziehen.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Die Polizei hat ihm die Fahrerlaubnis entzogen.",
+      "uebersetzung": {
+        "fa": "پلیس گواهینامه‌اش را باطل کرد.",
+        "en": "The police revoked his driver's licence."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Das Gericht hat den Eltern das Sorgerecht entzogen.",
+      "uebersetzung": {
+        "fa": "دادگاه حق سرپرستی را از والدین سلب کرد.",
+        "en": "The court withdrew custody from the parents."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wegnehmen",
+      "uebersetzung": {
+        "fa": "گرفتن، برداشتن",
+        "en": "to take away"
+      }
+    },
+    {
+      "wort": "aberkennen",
+      "uebersetzung": {
+        "fa": "سلب/محروم کردن",
+        "en": "to strip of"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "gewähren",
+      "uebersetzung": {
+        "fa": "اعطا کردن",
+        "en": "to grant"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- (جدایی) + ziehen (کشیدن)",
+    "en": "ent- (away) + ziehen (to pull)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "entziehen + Dat + Akk",
+        "bedeutung": "jemandem etwas entziehen",
+        "beispiel": "Man hat ihm den Führerschein entzogen.",
+        "uebersetzung": {
+          "fa": "گواهینامه‌اش را از او گرفتند.",
+          "en": "They took away his driving licence."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "entziehen",
+      "praeteritum": "entzog",
+      "partizip2": "entzogen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entziehe",
+        "du": "entziehst",
+        "er_sie_es": "entzieht",
+        "wir": "entziehen",
+        "ihr": "entzieht",
+        "sie_Sie": "entziehen"
+      },
+      "praeteritum": {
+        "ich": "entzog",
+        "du": "entzogst",
+        "er_sie_es": "entzog",
+        "wir": "entzogen",
+        "ihr": "entzogt",
+        "sie_Sie": "entzogen"
+      },
+      "imperativ": {
+        "du": "Entziehe!",
+        "ihr": "Entzieht!",
+        "Sie": "Entziehen Sie!"
+      }
+    },
+    "partizip1": "entziehend",
+    "nominalisierung": "der Entzug"
+  },
+  "wortnetz": {
+    "grundwort": "ziehen",
+    "woerter": [
+      {
+        "wort": "der Entzug",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سلب، ترک (اعتیاد)",
+          "en": "withdrawal"
+        },
+        "id_ref": "nomen_entzug"
+      },
+      {
+        "wort": "wegnehmen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گرفتن",
+          "en": "to take away"
+        },
+        "id_ref": "verb_wegnehmen"
+      },
+      {
+        "wort": "das Recht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حق",
+          "en": "right"
+        },
+        "id_ref": "nomen_recht"
+      },
+      {
+        "wort": "das Gericht",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دادگاه",
+          "en": "court"
+        },
+        "id_ref": "nomen_gericht"
+      },
+      {
+        "wort": "verbieten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ممنوع کردن",
+          "en": "to forbid"
+        },
+        "id_ref": "verb_verbieten"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Die Polizei hat ihm die Fahrerlaubnis entzogen.",
+      "dativ": [
+        "ihm"
+      ],
+      "akkusativ": [
+        "die Fahrerlaubnis"
+      ],
+      "uebersetzung": {
+        "fa": "پلیس گواهینامه‌اش را باطل کرد.",
+        "en": "The police revoked his driver's licence."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

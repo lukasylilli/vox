@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_ermoeglichen",
+  "wort": "ermöglichen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ممکن ساختن",
+      "میسر کردن"
+    ],
+    "en": [
+      "to make possible",
+      "to enable"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Schule",
+    "Arbeit"
+  ],
+  "ipa": "ɛɐ̯ˈmøːklɪçn̩",
+  "anmerkung": "Regelmäßig. Konstruktion: jemandem (Dat) etwas (Akk) ermöglichen.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Ein Stipendium hat mir das Studium ermöglicht.",
+      "uebersetzung": {
+        "fa": "یک بورسیه تحصیل را برایم ممکن ساخت.",
+        "en": "A scholarship made studying possible for me."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Internet ermöglicht uns den Zugang zu unzähligen Informationen.",
+      "uebersetzung": {
+        "fa": "اینترنت دسترسی به اطلاعات بی‌شمار را برای ما ممکن می‌سازد.",
+        "en": "The internet gives us access to countless pieces of information."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erlauben",
+      "uebersetzung": {
+        "fa": "امکان دادن",
+        "en": "to allow"
+      }
+    },
+    {
+      "wort": "gestatten",
+      "uebersetzung": {
+        "fa": "اجازه/امکان دادن",
+        "en": "to permit"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verhindern",
+      "uebersetzung": {
+        "fa": "مانع شدن",
+        "en": "to prevent"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- + möglich (ممکن) + -en → ممکن ساختن",
+    "en": "er- + möglich (possible) + -en → to make possible"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "ermöglichen + Dat + Akk",
+        "bedeutung": "jemandem etwas ermöglichen",
+        "beispiel": "Der Kredit ermöglicht der Familie den Hauskauf.",
+        "uebersetzung": {
+          "fa": "وام خرید خانه را برای خانواده ممکن می‌سازد.",
+          "en": "The loan enables the family to buy a house."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ermöglichen",
+      "praeteritum": "ermöglichte",
+      "partizip2": "ermöglicht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ermögliche",
+        "du": "ermöglichst",
+        "er_sie_es": "ermöglicht",
+        "wir": "ermöglichen",
+        "ihr": "ermöglicht",
+        "sie_Sie": "ermöglichen"
+      },
+      "praeteritum": {
+        "ich": "ermöglichte",
+        "du": "ermöglichtest",
+        "er_sie_es": "ermöglichte",
+        "wir": "ermöglichten",
+        "ihr": "ermöglichtet",
+        "sie_Sie": "ermöglichten"
+      },
+      "imperativ": {
+        "du": "Ermögliche!",
+        "ihr": "Ermöglicht!",
+        "Sie": "Ermöglichen Sie!"
+      }
+    },
+    "partizip1": "ermöglichend",
+    "nominalisierung": "die Ermöglichung"
+  },
+  "wortnetz": {
+    "grundwort": "möglich",
+    "woerter": [
+      {
+        "wort": "möglich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ممکن",
+          "en": "possible"
+        },
+        "id_ref": "adjektiv_moeglich"
+      },
+      {
+        "wort": "die Möglichkeit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "امکان",
+          "en": "possibility"
+        },
+        "id_ref": "nomen_moeglichkeit"
+      },
+      {
+        "wort": "erlauben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اجازه دادن",
+          "en": "to allow"
+        },
+        "id_ref": "verb_erlauben"
+      },
+      {
+        "wort": "verhindern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مانع شدن",
+          "en": "to prevent"
+        },
+        "id_ref": "verb_verhindern"
+      },
+      {
+        "wort": "schaffen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به‌وجود آوردن، موفق شدن",
+          "en": "to create, to manage"
+        },
+        "id_ref": "verb_schaffen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Ein Stipendium hat mir das Studium ermöglicht.",
+      "dativ": [
+        "mir"
+      ],
+      "akkusativ": [
+        "das Studium"
+      ],
+      "uebersetzung": {
+        "fa": "یک بورسیه تحصیل را برایم ممکن ساخت.",
+        "en": "A scholarship made studying possible for me."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

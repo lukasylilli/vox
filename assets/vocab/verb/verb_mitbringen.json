@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_mitbringen",
+  "wort": "mitbringen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با خود) آوردن"
+    ],
+    "en": [
+      "to bring along"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈmɪtˌbʁɪŋən",
+  "anmerkung": "Trennbar: Ich bringe … mit. Unregelmäßig (wie bringen): brachte mit, mitgebracht. Konstruktion: jemandem (Dat) etwas (Akk) mitbringen.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich bringe meinen Freunden eine Flasche Wein mit.",
+      "uebersetzung": {
+        "fa": "یک بطری شراب برای دوستانم می‌آورم.",
+        "en": "I'm bringing my friends a bottle of wine."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Kannst du mir aus dem Urlaub etwas Schönes mitbringen?",
+      "uebersetzung": {
+        "fa": "می‌توانی از سفر چیز قشنگی برایم بیاوری؟",
+        "en": "Can you bring me something nice back from your holiday?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "herbringen",
+      "uebersetzung": {
+        "fa": "به اینجا آوردن",
+        "en": "to bring here"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mit- (با) + bringen (آوردن)",
+    "en": "mit- (along) + bringen (to bring)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mitbringen + Dat + Akk",
+        "bedeutung": "jemandem etwas mitbringen",
+        "beispiel": "Ich bringe dir ein Souvenir mit.",
+        "uebersetzung": {
+          "fa": "برایت یک سوغاتی می‌آورم.",
+          "en": "I'll bring you a souvenir."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "mitbringen",
+      "praeteritum": "brachte mit",
+      "partizip2": "mitgebracht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bringe mit",
+        "du": "bringst mit",
+        "er_sie_es": "bringt mit",
+        "wir": "bringen mit",
+        "ihr": "bringt mit",
+        "sie_Sie": "bringen mit"
+      },
+      "praeteritum": {
+        "ich": "brachte mit",
+        "du": "brachtest mit",
+        "er_sie_es": "brachte mit",
+        "wir": "brachten mit",
+        "ihr": "brachtet mit",
+        "sie_Sie": "brachten mit"
+      },
+      "imperativ": {
+        "du": "Bring mit!",
+        "ihr": "Bringt mit!",
+        "Sie": "Bringen Sie mit!"
+      }
+    },
+    "partizip1": "mitbringend",
+    "nominalisierung": "das Mitbringsel"
+  },
+  "wortnetz": {
+    "grundwort": "bringen",
+    "woerter": [
+      {
+        "wort": "bringen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آوردن",
+          "en": "to bring"
+        },
+        "id_ref": "verb_bringen"
+      },
+      {
+        "wort": "mitnehmen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "با خود بردن",
+          "en": "to take along"
+        },
+        "id_ref": "verb_mitnehmen"
+      },
+      {
+        "wort": "das Geschenk",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "هدیه",
+          "en": "gift"
+        },
+        "id_ref": "nomen_geschenk"
+      },
+      {
+        "wort": "das Souvenir",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سوغاتی",
+          "en": "souvenir"
+        },
+        "id_ref": "nomen_souvenir"
+      },
+      {
+        "wort": "holen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آوردن، گرفتن",
+          "en": "to fetch"
+        },
+        "id_ref": "verb_holen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Ich bringe meinen Freunden eine Flasche Wein mit.",
+      "dativ": [
+        "meinen Freunden"
+      ],
+      "akkusativ": [
+        "eine Flasche Wein"
+      ],
+      "uebersetzung": {
+        "fa": "یک بطری شراب برای دوستانم می‌آورم.",
+        "en": "I'm bringing my friends a bottle of wine."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

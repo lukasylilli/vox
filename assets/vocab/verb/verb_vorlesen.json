@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_vorlesen",
+  "wort": "vorlesen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "با صدای بلند خواندن (برای کسی)"
+    ],
+    "en": [
+      "to read aloud"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Schule"
+  ],
+  "ipa": "ˈfoːɐ̯ˌleːzn̩",
+  "anmerkung": "Trennbar: Ich lese … vor. Unregelmäßig (e→ie: du liest vor, er liest vor; las vor, vorgelesen). Konstruktion: jemandem (Dat) etwas (Akk) vorlesen.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Die Oma liest ihren Enkeln eine Geschichte vor.",
+      "uebersetzung": {
+        "fa": "مادربزرگ برای نوه‌هایش یک داستان می‌خواند.",
+        "en": "Grandma reads her grandchildren a story."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Jeden Abend liest der Vater seinen Kindern ein Märchen vor.",
+      "uebersetzung": {
+        "fa": "هر شب پدر برای بچه‌هایش یک قصه می‌خواند.",
+        "en": "Every evening the father reads his children a fairy tale."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vortragen",
+      "uebersetzung": {
+        "fa": "قرائت/ارائه کردن",
+        "en": "to recite"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "vor- (بلند) + lesen (خواندن)",
+    "en": "vor- (aloud) + lesen (to read)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "vorlesen + Dat + Akk",
+        "bedeutung": "jemandem etwas vorlesen",
+        "beispiel": "Sie liest dem Kind eine Geschichte vor.",
+        "uebersetzung": {
+          "fa": "او برای کودک یک داستان می‌خواند.",
+          "en": "She reads the child a story."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vorlesen",
+      "praeteritum": "las vor",
+      "partizip2": "vorgelesen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lese vor",
+        "du": "liest vor",
+        "er_sie_es": "liest vor",
+        "wir": "lesen vor",
+        "ihr": "lest vor",
+        "sie_Sie": "lesen vor"
+      },
+      "praeteritum": {
+        "ich": "las vor",
+        "du": "lasest vor",
+        "er_sie_es": "las vor",
+        "wir": "lasen vor",
+        "ihr": "last vor",
+        "sie_Sie": "lasen vor"
+      },
+      "imperativ": {
+        "du": "Lies vor!",
+        "ihr": "Lest vor!",
+        "Sie": "Lesen Sie vor!"
+      }
+    },
+    "partizip1": "vorlesend",
+    "nominalisierung": "das Vorlesen"
+  },
+  "wortnetz": {
+    "grundwort": "lesen",
+    "woerter": [
+      {
+        "wort": "lesen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خواندن",
+          "en": "to read"
+        },
+        "id_ref": "verb_lesen"
+      },
+      {
+        "wort": "die Geschichte",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "داستان",
+          "en": "story"
+        },
+        "id_ref": "nomen_geschichte"
+      },
+      {
+        "wort": "das Buch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کتاب",
+          "en": "book"
+        },
+        "id_ref": "nomen_buch"
+      },
+      {
+        "wort": "das Märchen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قصه، افسانه",
+          "en": "fairy tale"
+        },
+        "id_ref": "nomen_maerchen"
+      },
+      {
+        "wort": "erzählen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تعریف کردن",
+          "en": "to tell"
+        },
+        "id_ref": "verb_erzaehlen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Die Oma liest ihren Enkeln eine Geschichte vor.",
+      "dativ": [
+        "ihren Enkeln"
+      ],
+      "akkusativ": [
+        "eine Geschichte"
+      ],
+      "uebersetzung": {
+        "fa": "مادربزرگ برای نوه‌هایش یک داستان می‌خواند.",
+        "en": "Grandma reads her grandchildren a story."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

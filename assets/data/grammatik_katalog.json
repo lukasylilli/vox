@@ -1,0 +1,1436 @@
+{
+ "version": 1,
+ "updated": "2026-07-06",
+ "themen": [
+  {
+   "id": "verben",
+   "de": "Verben",
+   "fa": "فعل",
+   "en": "Verbs"
+  },
+  {
+   "id": "tempus",
+   "de": "Tempus",
+   "fa": "زمان‌ها",
+   "en": "Tenses"
+  },
+  {
+   "id": "passiv",
+   "de": "Passiv",
+   "fa": "مجهول",
+   "en": "Passive Voice"
+  },
+  {
+   "id": "konjunktiv",
+   "de": "Konjunktiv",
+   "fa": "کونیونکتیو",
+   "en": "Subjunctive"
+  },
+  {
+   "id": "verbergaenzungen",
+   "de": "Verbergänzungen",
+   "fa": "متمم فعل",
+   "en": "Verb Complements"
+  },
+  {
+   "id": "ergaenzungssaetze",
+   "de": "Ergänzungssätze",
+   "fa": "جملات متممی",
+   "en": "Complement Clauses"
+  },
+  {
+   "id": "nomen",
+   "de": "Nomen",
+   "fa": "اسم",
+   "en": "Nouns"
+  },
+  {
+   "id": "artikel",
+   "de": "Artikel",
+   "fa": "آرتیکل",
+   "en": "Articles"
+  },
+  {
+   "id": "adjektive",
+   "de": "Adjektive",
+   "fa": "صفت",
+   "en": "Adjectives"
+  },
+  {
+   "id": "adverbien",
+   "de": "Adverbien",
+   "fa": "قید",
+   "en": "Adverbs"
+  },
+  {
+   "id": "pronomen",
+   "de": "Pronomen",
+   "fa": "ضمیر",
+   "en": "Pronouns"
+  },
+  {
+   "id": "praepositionen",
+   "de": "Präpositionen",
+   "fa": "حرف‌اضافه",
+   "en": "Prepositions"
+  },
+  {
+   "id": "satzlehre",
+   "de": "Satzlehre",
+   "fa": "ساختار جمله",
+   "en": "Sentence Structure"
+  },
+  {
+   "id": "nebensaetze",
+   "de": "Nebensätze",
+   "fa": "جملات وابسته",
+   "en": "Subordinate Clauses"
+  },
+  {
+   "id": "wendungen",
+   "de": "Feste Verbindungen & Redemittel",
+   "fa": "ترکیب‌های ثابت و عبارت‌های کاربردی",
+   "en": "Fixed Expressions"
+  }
+ ],
+ "satzglieder": [
+  {
+   "id": "praedikat",
+   "de": "Prädikat & Verbformen",
+   "fa": "گزاره و شکل‌های فعل",
+   "en": "Predicate & verb forms"
+  },
+  {
+   "id": "ergaenzungen",
+   "de": "Ergänzungen — Subjekt & Objekte",
+   "fa": "متمم‌ها — نهاد و مفعول‌ها",
+   "en": "Complements — subject & objects"
+  },
+  {
+   "id": "nominalgruppe",
+   "de": "Nominalgruppe — Nomen, Artikel, Pronomen",
+   "fa": "گروه اسمی — اسم، آرتیکل، ضمیر",
+   "en": "Noun phrase — nouns, articles, pronouns"
+  },
+  {
+   "id": "attribute",
+   "de": "Attribute",
+   "fa": "وابسته‌های اسم — صفت و بند موصولی",
+   "en": "Attributes"
+  },
+  {
+   "id": "angaben",
+   "de": "Angaben — Ort, Zeit, Art",
+   "fa": "قیدها و توضیحات جمله",
+   "en": "Adverbials — place, time, manner"
+  },
+  {
+   "id": "satzverbindung",
+   "de": "Satzverbindung & Nebensätze",
+   "fa": "پیوند جمله‌ها",
+   "en": "Clause linking & subordinate clauses"
+  },
+  {
+   "id": "sonstiges",
+   "de": "Wendungen & Sonstiges",
+   "fa": "عبارت‌ها و سایر",
+   "en": "Expressions & other"
+  }
+ ],
+ "eintraege": [
+  {
+   "slug": "konjugation-praesens",
+   "de": "Konjugation im Präsens",
+   "fa": "صرف فعل در زمان حال",
+   "en": "Conjugation in Present Tense",
+   "niveaus": [
+    "a1"
+   ],
+   "thema": "verben",
+   "satzglied": "praedikat",
+   "route": "/grammatik/lektion/konjugation-praesens",
+   "lektion": 1
+  },
+  {
+   "slug": "verb-sein",
+   "de": "Das Verb 'sein'",
+   "fa": "فعل «sein» (بودن)",
+   "en": "The Verb 'sein' (to be)",
+   "niveaus": [
+    "a1"
+   ],
+   "thema": "verben",
+   "satzglied": "praedikat",
+   "route": "/grammatik/lektion/verb-sein",
+   "lektion": 2
+  },
+  {
+   "slug": "verb-haben",
+   "de": "Das Verb 'haben'",
+   "fa": "فعل «haben» (داشتن)",
+   "en": "The Verb 'haben' (to have)",
+   "niveaus": [
+    "a1"
+   ],
+   "thema": "verben",
+   "satzglied": "praedikat",
+   "route": "/grammatik/lektion/verb-haben",
+   "lektion": 3
+  },
+  {
+   "slug": "regelmaessige-verben",
+   "de": "Regelmäßige Verben",
+   "fa": "افعال باقاعده",
+   "en": "Regular Verbs",
+   "niveaus": [
+    "a1"
+   ],
+   "thema": "verben",
+   "satzglied": "praedikat",
+   "route": "/grammatik/lektion/regelmaessige-verben",
+   "lektion": 4
+  },
+  {
+   "slug": "trennbare-verben",
+   "de": "Trennbare Verben",
+   "fa": "افعال جداشدنی",
+   "en": "Separable Verbs",
+   "niveaus": [
+    "a1",
+    "a2"
+   ],
+   "thema": "verben",
+   "satzglied": "praedikat",
+   "route": "/trennbar/grammar",
+   "lektion": 5
+  },
+  {
+   "slug": "modalverben",
+   "de": "Modalverben",
+   "fa": "افعال وجهی",
+   "en": "Modal Verbs",
+   "niveaus": [
+    "a1",
+    "a2"
+   ],
+   "thema": "verben",
+   "satzglied": "praedikat",
+   "route": "/modalverben/grammar",
+   "lektion": 6
+  },
+  {
+   "slug": "imperativ",
+   "de": "Der Imperativ",
+   "fa": "حالت امری",
+   "en": "The Imperative",
+   "niveaus": [
+    "a1",
+    "a2"
+   ],
+   "thema": "verben",
+   "satzglied": "praedikat",
+   "route": null,
+   "lektion": 7
+  },
+  {
+   "slug": "perfekt",
+   "de": "Das Perfekt",
+   "fa": "زمان Perfekt (گذشتهٔ نقلی)",
+   "en": "The Perfect Tense",
+   "niveaus": [
+    "a1",
+    "a2"
+   ],
+   "thema": "tempus",
+   "satzglied": "praedikat",
+   "route": null,
+   "lektion": 8
+  },
+  {
+   "slug": "nominativergaenzung",
+   "de": "Die Nominativergänzung",
+   "fa": "متمم Nominativ",
+   "en": "The Nominative Complement",
+   "niveaus": [
+    "a1",
+    "a2"
+   ],
+   "thema": "verbergaenzungen",
+   "satzglied": "ergaenzungen",
+   "route": null,
+   "lektion": 9
+  },
+  {
+   "slug": "akkusativergaenzung",
+   "de": "Die Akkusativergänzung",
+   "fa": "متمم Akkusativ",
+   "en": "The Accusative Complement",
+   "niveaus": [
+    "a1"
+   ],
+   "thema": "verbergaenzungen",
+   "satzglied": "ergaenzungen",
+   "route": null,
+   "lektion": 10
+  },
+  {
+   "slug": "genusbestimmung",
+   "de": "Genusbestimmung",
+   "fa": "تشخیص جنسیت دستوری اسم",
+   "en": "Determining Grammatical Gender",
+   "niveaus": [
+    "a1"
+   ],
+   "thema": "nomen",
+   "satzglied": "nominalgruppe",
+   "route": null,
+   "lektion": 11
+  },
+  {
+   "slug": "pluralbildung",
+   "de": "Die Pluralbildung",
+   "fa": "ساخت شکل جمع اسم",
+   "en": "Forming the Plural",
+   "niveaus": [
+    "a1",
+    "a2"
+   ],
+   "thema": "nomen",
+   "satzglied": "nominalgruppe",
+   "route": null,
+   "lektion": 12
+  },
+  {
+   "slug": "bestimmter-unbestimmter-artikel",
+   "de": "Bestimmter und unbestimmter Artikel",
+   "fa": "آرتیکل معین و نامعین",
+   "en": "Definite and Indefinite Article",
+   "niveaus": [
+    "a1"
+   ],
+   "thema": "artikel",
+   "satzglied": "nominalgruppe",
+   "route": null,
+   "lektion": 13
+  },
+  {
+   "slug": "possessivartikel",
+   "de": "Der Possessivartikel",
+   "fa": "آرتیکل ملکی",
+   "en": "The Possessive Article",
+   "niveaus": [
+    "a1",
+    "a2"
+   ],
+   "thema": "artikel",
+   "satzglied": "nominalgruppe",
+   "route": null,
+   "lektion": 14
+  },
+  {
+   "slug": "zahlwoerter",
+   "de": "Zahlwörter",
+   "fa": "اعداد",
+   "en": "Numerals",
+   "niveaus": [
+    "a1",
+    "a2"
+   ],
+   "thema": "adjektive",
+   "satzglied": "attribute",
+   "route": null,
+   "lektion": 15
+  },
+  {
+   "slug": "lokaladverbien",
+   "de": "Lokaladverbien",
+   "fa": "قید مکان",
+   "en": "Adverbs of Place",
+   "niveaus": [
+    "a1",
+    "a2"
+   ],
+   "thema": "adverbien",
+   "satzglied": "angaben",
+   "route": null,
+   "lektion": 16
+  },
+  {
+   "slug": "temporaladverbien",
+   "de": "Temporaladverbien",
+   "fa": "قید زمان",
+   "en": "Adverbs of Time",
+   "niveaus": [
+    "a1",
+    "a2"
+   ],
+   "thema": "adverbien",
+   "satzglied": "angaben",
+   "route": null,
+   "lektion": 17
+  },
+  {
+   "slug": "personalpronomen",
+   "de": "Personalpronomen",
+   "fa": "ضمیر شخصی",
+   "en": "Personal Pronouns",
+   "niveaus": [
+    "a1"
+   ],
+   "thema": "pronomen",
+   "satzglied": "nominalgruppe",
+   "route": null,
+   "lektion": 18
+  },
+  {
+   "slug": "praepositionen-akkusativ",
+   "de": "Präpositionen mit Akkusativ",
+   "fa": "حرف‌اضافه با Akkusativ",
+   "en": "Prepositions with the Accusative",
+   "niveaus": [
+    "a1",
+    "a2"
+   ],
+   "thema": "praepositionen",
+   "satzglied": "angaben",
+   "route": null,
+   "lektion": 19
+  },
+  {
+   "slug": "praepositionen-dativ",
+   "de": "Präpositionen mit Dativ",
+   "fa": "حرف‌اضافه با Dativ",
+   "en": "Prepositions with the Dative",
+   "niveaus": [
+    "a1",
+    "a2"
+   ],
+   "thema": "praepositionen",
+   "satzglied": "angaben",
+   "route": null,
+   "lektion": 20
+  },
+  {
+   "slug": "fragewoerter",
+   "de": "Fragewörter",
+   "fa": "کلمات پرسشی",
+   "en": "Question Words",
+   "niveaus": [
+    "a1",
+    "a2"
+   ],
+   "thema": "satzlehre",
+   "satzglied": "satzverbindung",
+   "route": null,
+   "lektion": 21
+  },
+  {
+   "slug": "die-vier-faelle",
+   "de": "Die vier Fälle (Kasus)",
+   "fa": "چهار حالت دستوری (Kasus)",
+   "en": "The Four Cases",
+   "niveaus": [
+    "a1",
+    "a2",
+    "b1"
+   ],
+   "thema": "satzlehre",
+   "satzglied": "ergaenzungen",
+   "route": "/grammatik/thema/kasus",
+   "lektion": 22
+  },
+  {
+   "slug": "negation-verneinung",
+   "de": "Negation (Verneinung)",
+   "fa": "نفی (Verneinung)",
+   "en": "Negation",
+   "niveaus": [
+    "a1",
+    "a2"
+   ],
+   "thema": "satzlehre",
+   "satzglied": "angaben",
+   "route": null,
+   "lektion": 23
+  },
+  {
+   "slug": "satzarten",
+   "de": "Satzarten",
+   "fa": "انواع جمله",
+   "en": "Sentence Types",
+   "niveaus": [
+    "a1",
+    "a2"
+   ],
+   "thema": "satzlehre",
+   "satzglied": "satzverbindung",
+   "route": null,
+   "lektion": 24
+  },
+  {
+   "slug": "unregelmaessige-verben",
+   "de": "Unregelmäßige Verben",
+   "fa": "افعال بی‌قاعده",
+   "en": "Irregular Verbs",
+   "niveaus": [
+    "a2",
+    "b1"
+   ],
+   "thema": "verben",
+   "satzglied": "praedikat",
+   "route": "/unregelm-verben/grammar",
+   "lektion": 25
+  },
+  {
+   "slug": "reflexive-verben",
+   "de": "Reflexive Verben",
+   "fa": "افعال انعکاسی",
+   "en": "Reflexive Verbs",
+   "niveaus": [
+    "a2",
+    "b1"
+   ],
+   "thema": "verben",
+   "satzglied": "praedikat",
+   "route": "/reflexiv/grammar",
+   "lektion": 26
+  },
+  {
+   "slug": "praeteritum",
+   "de": "Das Präteritum",
+   "fa": "زمان Präteritum (گذشتهٔ ساده)",
+   "en": "The Simple Past (Präteritum)",
+   "niveaus": [
+    "a2",
+    "b1"
+   ],
+   "thema": "tempus",
+   "satzglied": "praedikat",
+   "route": null,
+   "lektion": 27
+  },
+  {
+   "slug": "hoeflichkeit-konjunktiv",
+   "de": "Höflichkeit mit Konjunktiv II",
+   "fa": "مؤدبانه‌گویی با کونیونکتیو II",
+   "en": "Politeness with Konjunktiv II",
+   "niveaus": [
+    "a2",
+    "b1"
+   ],
+   "thema": "konjunktiv",
+   "satzglied": "praedikat",
+   "route": null,
+   "lektion": 28
+  },
+  {
+   "slug": "dativergaenzung",
+   "de": "Die Dativergänzung",
+   "fa": "متمم Dativ",
+   "en": "The Dative Complement",
+   "niveaus": [
+    "a2"
+   ],
+   "thema": "verbergaenzungen",
+   "satzglied": "ergaenzungen",
+   "route": null,
+   "lektion": 29
+  },
+  {
+   "slug": "dativ-akkusativ-ergaenzung",
+   "de": "Dativ- und Akkusativergänzung",
+   "fa": "متمم دوگانهٔ Dativ و Akkusativ",
+   "en": "Dative and Accusative Complement",
+   "niveaus": [
+    "a2",
+    "b1"
+   ],
+   "thema": "verbergaenzungen",
+   "satzglied": "ergaenzungen",
+   "route": null,
+   "lektion": 30
+  },
+  {
+   "slug": "dass-saetze",
+   "de": "Dass-Sätze",
+   "fa": "جملات متممی با «dass»",
+   "en": "Dass-Clauses",
+   "niveaus": [
+    "a2",
+    "b1"
+   ],
+   "thema": "ergaenzungssaetze",
+   "satzglied": "ergaenzungen",
+   "route": null,
+   "lektion": 31
+  },
+  {
+   "slug": "indirekte-fragesaetze",
+   "de": "Indirekte Fragesätze",
+   "fa": "سؤالات غیرمستقیم",
+   "en": "Indirect Questions",
+   "niveaus": [
+    "a2",
+    "b1"
+   ],
+   "thema": "ergaenzungssaetze",
+   "satzglied": "ergaenzungen",
+   "route": null,
+   "lektion": 32
+  },
+  {
+   "slug": "komposita",
+   "de": "Komposita",
+   "fa": "اسم‌های مرکب",
+   "en": "Compound Nouns",
+   "niveaus": [
+    "a2",
+    "b1"
+   ],
+   "thema": "nomen",
+   "satzglied": "nominalgruppe",
+   "route": null,
+   "lektion": 33
+  },
+  {
+   "slug": "nullartikel",
+   "de": "Der Nullartikel",
+   "fa": "بدون آرتیکل (Nullartikel)",
+   "en": "The Zero Article",
+   "niveaus": [
+    "a2",
+    "b1"
+   ],
+   "thema": "artikel",
+   "satzglied": "nominalgruppe",
+   "route": null,
+   "lektion": 34
+  },
+  {
+   "slug": "demonstrativartikel",
+   "de": "Der Demonstrativartikel",
+   "fa": "آرتیکل اشاره",
+   "en": "The Demonstrative Article",
+   "niveaus": [
+    "a2",
+    "b1"
+   ],
+   "thema": "artikel",
+   "satzglied": "nominalgruppe",
+   "route": null,
+   "lektion": 35
+  },
+  {
+   "slug": "indefinitartikel",
+   "de": "Der Indefinitartikel",
+   "fa": "آرتیکل نامعین کمّی",
+   "en": "The Indefinite Quantity Article",
+   "niveaus": [
+    "a2",
+    "b1"
+   ],
+   "thema": "artikel",
+   "satzglied": "nominalgruppe",
+   "route": null,
+   "lektion": 36
+  },
+  {
+   "slug": "interrogativartikel",
+   "de": "Der Interrogativartikel",
+   "fa": "آرتیکل پرسشی",
+   "en": "The Interrogative Article",
+   "niveaus": [
+    "a2",
+    "b1"
+   ],
+   "thema": "artikel",
+   "satzglied": "nominalgruppe",
+   "route": null,
+   "lektion": 37
+  },
+  {
+   "slug": "adjektivdeklination",
+   "de": "Die Adjektivdeklination",
+   "fa": "صرف صفت (Adjektivdeklination)",
+   "en": "Adjective Declension",
+   "niveaus": [
+    "a2",
+    "b1",
+    "b2"
+   ],
+   "thema": "adjektive",
+   "satzglied": "attribute",
+   "route": null,
+   "lektion": 38
+  },
+  {
+   "slug": "komparativ-superlativ",
+   "de": "Komparativ und Superlativ",
+   "fa": "صفت تفضیلی و عالی",
+   "en": "Comparative and Superlative",
+   "niveaus": [
+    "a2",
+    "b1"
+   ],
+   "thema": "adjektive",
+   "satzglied": "attribute",
+   "route": null,
+   "lektion": 39
+  },
+  {
+   "slug": "modaladverbien",
+   "de": "Modaladverbien",
+   "fa": "قید حالت/کیفیت",
+   "en": "Adverbs of Manner",
+   "niveaus": [
+    "a2",
+    "b1"
+   ],
+   "thema": "adverbien",
+   "satzglied": "angaben",
+   "route": null,
+   "lektion": 40
+  },
+  {
+   "slug": "indefinitpronomen",
+   "de": "Indefinitpronomen",
+   "fa": "ضمیر نامعین",
+   "en": "Indefinite Pronouns",
+   "niveaus": [
+    "a2",
+    "b1"
+   ],
+   "thema": "pronomen",
+   "satzglied": "nominalgruppe",
+   "route": null,
+   "lektion": 41
+  },
+  {
+   "slug": "wechselpraepositionen",
+   "de": "Wechselpräpositionen",
+   "fa": "حرف‌اضافهٔ دوگانه (Wechselpräpositionen)",
+   "en": "Two-Way Prepositions",
+   "niveaus": [
+    "a2",
+    "b1"
+   ],
+   "thema": "praepositionen",
+   "satzglied": "angaben",
+   "route": null,
+   "lektion": 42
+  },
+  {
+   "slug": "lokale-temporale-praepositionen",
+   "de": "Lokale und temporale Präpositionen",
+   "fa": "حرف‌اضافهٔ مکانی و زمانی",
+   "en": "Local and Temporal Prepositions",
+   "niveaus": [
+    "a2",
+    "b1"
+   ],
+   "thema": "praepositionen",
+   "satzglied": "angaben",
+   "route": null,
+   "lektion": 43
+  },
+  {
+   "slug": "konjunktionen",
+   "de": "Konjunktionen (koordinierend)",
+   "fa": "حروف ربط هم‌پایه‌ساز",
+   "en": "Coordinating Conjunctions",
+   "niveaus": [
+    "a2",
+    "b1"
+   ],
+   "thema": "satzlehre",
+   "satzglied": "satzverbindung",
+   "route": null,
+   "lektion": 44
+  },
+  {
+   "slug": "nebensaetze-einfuehrung",
+   "de": "Einführung in Nebensätze",
+   "fa": "مقدمهٔ جملات وابسته (Nebensätze)",
+   "en": "Introduction to Subordinate Clauses",
+   "niveaus": [
+    "a2",
+    "b1"
+   ],
+   "thema": "satzlehre",
+   "satzglied": "satzverbindung",
+   "route": null,
+   "lektion": 45
+  },
+  {
+   "slug": "kausalsaetze",
+   "de": "Kausalsätze",
+   "fa": "جملات علّی (بیان دلیل)",
+   "en": "Causal Clauses",
+   "niveaus": [
+    "a2",
+    "b1"
+   ],
+   "thema": "nebensaetze",
+   "satzglied": "satzverbindung",
+   "route": null,
+   "lektion": 46
+  },
+  {
+   "slug": "konditionalsaetze",
+   "de": "Konditionalsätze (real)",
+   "fa": "جملات شرطی (واقعی)",
+   "en": "Real Conditional Clauses",
+   "niveaus": [
+    "a2",
+    "b1"
+   ],
+   "thema": "nebensaetze",
+   "satzglied": "satzverbindung",
+   "route": null,
+   "lektion": 47
+  },
+  {
+   "slug": "wenn-als",
+   "de": "Wenn oder als?",
+   "fa": "تفاوت «wenn» و «als»",
+   "en": "Wenn or als?",
+   "niveaus": [
+    "a2",
+    "b1"
+   ],
+   "thema": "nebensaetze",
+   "satzglied": "satzverbindung",
+   "route": null,
+   "lektion": 48
+  },
+  {
+   "slug": "waehrend-temporal",
+   "de": "Während (temporal)",
+   "fa": "«während» (به‌معنای زمانی)",
+   "en": "Während (temporal)",
+   "niveaus": [
+    "a2",
+    "b1"
+   ],
+   "thema": "nebensaetze",
+   "satzglied": "satzverbindung",
+   "route": null,
+   "lektion": 49
+  },
+  {
+   "slug": "bevor-nachdem",
+   "de": "Bevor und nachdem",
+   "fa": "«bevor» و «nachdem»",
+   "en": "Bevor and nachdem",
+   "niveaus": [
+    "a2",
+    "b1"
+   ],
+   "thema": "nebensaetze",
+   "satzglied": "satzverbindung",
+   "route": null,
+   "lektion": 50
+  },
+  {
+   "slug": "plusquamperfekt",
+   "de": "Das Plusquamperfekt",
+   "fa": "زمان ماقبل ماضی (Plusquamperfekt)",
+   "en": "The Past Perfect (Plusquamperfekt)",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "tempus",
+   "satzglied": "praedikat",
+   "route": null,
+   "lektion": 51
+  },
+  {
+   "slug": "futur-1",
+   "de": "Das Futur I",
+   "fa": "زمان آیندهٔ ساده (Futur I)",
+   "en": "The Future Tense (Futur I)",
+   "niveaus": [
+    "b1"
+   ],
+   "thema": "tempus",
+   "satzglied": "praedikat",
+   "route": null,
+   "lektion": 52
+  },
+  {
+   "slug": "vorgangspassiv",
+   "de": "Das Vorgangspassiv",
+   "fa": "مجهول جریانی (Vorgangspassiv)",
+   "en": "The Process Passive",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "passiv",
+   "satzglied": "praedikat",
+   "route": null,
+   "lektion": 53
+  },
+  {
+   "slug": "zustandspassiv",
+   "de": "Das Zustandspassiv",
+   "fa": "مجهول حالتی (Zustandspassiv)",
+   "en": "The State Passive",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "passiv",
+   "satzglied": "praedikat",
+   "route": null,
+   "lektion": 54
+  },
+  {
+   "slug": "konjunktiv-2-gegenwart",
+   "de": "Konjunktiv II – Gegenwart",
+   "fa": "کونیونکتیو II — زمان حال",
+   "en": "Konjunktiv II – Present",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "konjunktiv",
+   "satzglied": "praedikat",
+   "route": null,
+   "lektion": 55
+  },
+  {
+   "slug": "wunschsaetze",
+   "de": "Wunschsätze",
+   "fa": "جملات آرزویی",
+   "en": "Wish Sentences",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "konjunktiv",
+   "satzglied": "praedikat",
+   "route": null,
+   "lektion": 56
+  },
+  {
+   "slug": "irreale-bedingungssaetze",
+   "de": "Irreale Bedingungssätze",
+   "fa": "جملات شرطی غیرواقعی",
+   "en": "Unreal Conditional Sentences",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "konjunktiv",
+   "satzglied": "praedikat",
+   "route": null,
+   "lektion": 57
+  },
+  {
+   "slug": "praepositionalergaenzung",
+   "de": "Die Präpositionalergänzung",
+   "fa": "متمم حرف‌اضافه‌ای",
+   "en": "The Prepositional Complement",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "verbergaenzungen",
+   "satzglied": "ergaenzungen",
+   "route": null,
+   "lektion": 58
+  },
+  {
+   "slug": "infinitivsaetze",
+   "de": "Infinitivsätze mit 'zu'",
+   "fa": "جملات مصدری با «zu»",
+   "en": "Infinitive Clauses with 'zu'",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "ergaenzungssaetze",
+   "satzglied": "ergaenzungen",
+   "route": null,
+   "lektion": 59
+  },
+  {
+   "slug": "n-deklination",
+   "de": "Die n-Deklination",
+   "fa": "صرف اسم با -n (n-Deklination)",
+   "en": "The n-Declension",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "nomen",
+   "satzglied": "nominalgruppe",
+   "route": null,
+   "lektion": 60
+  },
+  {
+   "slug": "genitiv",
+   "de": "Der Genitiv",
+   "fa": "حالت Genitiv (مالکیت)",
+   "en": "The Genitive Case",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "nomen",
+   "satzglied": "nominalgruppe",
+   "route": null,
+   "lektion": 61
+  },
+  {
+   "slug": "partizipien-als-adjektive",
+   "de": "Partizipien als Adjektive",
+   "fa": "Partizip به‌عنوان صفت",
+   "en": "Participles as Adjectives",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "adjektive",
+   "satzglied": "attribute",
+   "route": null,
+   "lektion": 62
+  },
+  {
+   "slug": "partikeln",
+   "de": "Partikeln (Modalpartikeln)",
+   "fa": "واژه‌های تأکیدی (Partikeln)",
+   "en": "Modal Particles",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "adverbien",
+   "satzglied": "angaben",
+   "route": null,
+   "lektion": 63
+  },
+  {
+   "slug": "demonstrativpronomen",
+   "de": "Demonstrativpronomen",
+   "fa": "ضمیر اشاره",
+   "en": "Demonstrative Pronouns",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "pronomen",
+   "satzglied": "nominalgruppe",
+   "route": null,
+   "lektion": 64
+  },
+  {
+   "slug": "relativpronomen-relativsaetze",
+   "de": "Relativpronomen und Relativsätze",
+   "fa": "ضمیر موصولی و جملات موصولی",
+   "en": "Relative Pronouns and Relative Clauses",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "pronomen",
+   "satzglied": "attribute",
+   "route": null,
+   "lektion": 65
+  },
+  {
+   "slug": "pronomen-es",
+   "de": "Das Pronomen 'es'",
+   "fa": "ضمیر «es»",
+   "en": "The Pronoun 'es'",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "pronomen",
+   "satzglied": "nominalgruppe",
+   "route": null,
+   "lektion": 66
+  },
+  {
+   "slug": "praepositionen-genitiv",
+   "de": "Präpositionen mit Genitiv",
+   "fa": "حرف‌اضافه با Genitiv",
+   "en": "Prepositions with the Genitive",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "praepositionen",
+   "satzglied": "angaben",
+   "route": null,
+   "lektion": 67
+  },
+  {
+   "slug": "attribute",
+   "de": "Attribute",
+   "fa": "صفات و وابسته‌های توصیفی (Attribute)",
+   "en": "Attributes",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "satzlehre",
+   "satzglied": "attribute",
+   "route": null,
+   "lektion": 68
+  },
+  {
+   "slug": "satzverbindende-adverbien",
+   "de": "Satzverbindende Adverbien",
+   "fa": "قیدهای ربطی",
+   "en": "Connecting Adverbs",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "satzlehre",
+   "satzglied": "satzverbindung",
+   "route": null,
+   "lektion": 69
+  },
+  {
+   "slug": "angaben",
+   "de": "Angaben",
+   "fa": "قیدهای اضافی (Angaben)",
+   "en": "Adjuncts (Angaben)",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "satzlehre",
+   "satzglied": "angaben",
+   "route": null,
+   "lektion": 70
+  },
+  {
+   "slug": "konzessivsaetze",
+   "de": "Konzessivsätze",
+   "fa": "جملات امتیازی/تقابلی (وجود مانع)",
+   "en": "Concessive Clauses",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "nebensaetze",
+   "satzglied": "satzverbindung",
+   "route": null,
+   "lektion": 71
+  },
+  {
+   "slug": "finalsaetze",
+   "de": "Finalsätze",
+   "fa": "جملات هدف (غایی)",
+   "en": "Purpose Clauses",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "nebensaetze",
+   "satzglied": "satzverbindung",
+   "route": null,
+   "lektion": 72
+  },
+  {
+   "slug": "adversativsaetze",
+   "de": "Adversativsätze",
+   "fa": "جملات تقابلی",
+   "en": "Adversative Clauses",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "nebensaetze",
+   "satzglied": "satzverbindung",
+   "route": null,
+   "lektion": 73
+  },
+  {
+   "slug": "seitdem-sobald",
+   "de": "Seitdem und sobald",
+   "fa": "«seitdem» و «sobald»",
+   "en": "Seitdem and sobald",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "nebensaetze",
+   "satzglied": "satzverbindung",
+   "route": null,
+   "lektion": 74
+  },
+  {
+   "slug": "solange-bis",
+   "de": "Solange und bis",
+   "fa": "«solange» و «bis»",
+   "en": "Solange and bis",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "nebensaetze",
+   "satzglied": "satzverbindung",
+   "route": null,
+   "lektion": 75
+  },
+  {
+   "slug": "futur-2",
+   "de": "Das Futur II",
+   "fa": "زمان آیندهٔ کامل (Futur II)",
+   "en": "The Future Perfect (Futur II)",
+   "niveaus": [
+    "b2",
+    "c1"
+   ],
+   "thema": "tempus",
+   "satzglied": "praedikat",
+   "route": null,
+   "lektion": 76
+  },
+  {
+   "slug": "passiversatz",
+   "de": "Passiversatzformen",
+   "fa": "جایگزین‌های مجهول",
+   "en": "Passive Substitutes",
+   "niveaus": [
+    "b2",
+    "c1"
+   ],
+   "thema": "passiv",
+   "satzglied": "praedikat",
+   "route": null,
+   "lektion": 77
+  },
+  {
+   "slug": "nicht-passivfaehige-verben",
+   "de": "Nicht passivfähige Verben",
+   "fa": "افعال غیرقابل‌مجهول‌شدن",
+   "en": "Verbs That Cannot Form the Passive",
+   "niveaus": [
+    "b2"
+   ],
+   "thema": "passiv",
+   "satzglied": "praedikat",
+   "route": null,
+   "lektion": 78
+  },
+  {
+   "slug": "konjunktiv-2-vergangenheit",
+   "de": "Konjunktiv II – Vergangenheit",
+   "fa": "کونیونکتیو II — زمان گذشته",
+   "en": "Konjunktiv II – Past",
+   "niveaus": [
+    "b2",
+    "c1"
+   ],
+   "thema": "konjunktiv",
+   "satzglied": "praedikat",
+   "route": null,
+   "lektion": 79
+  },
+  {
+   "slug": "irreale-vergleichssaetze",
+   "de": "Irreale Vergleichssätze",
+   "fa": "جملات مقایسه‌ای غیرواقعی",
+   "en": "Unreal Comparative Clauses",
+   "niveaus": [
+    "b2",
+    "c1"
+   ],
+   "thema": "konjunktiv",
+   "satzglied": "praedikat",
+   "route": null,
+   "lektion": 80
+  },
+  {
+   "slug": "nominalisierung",
+   "de": "Nominalisierung",
+   "fa": "اسم‌سازی از فعل و صفت",
+   "en": "Nominalization",
+   "niveaus": [
+    "b2",
+    "c1"
+   ],
+   "thema": "nomen",
+   "satzglied": "nominalgruppe",
+   "route": null,
+   "lektion": 81
+  },
+  {
+   "slug": "modalsaetze",
+   "de": "Modalsätze",
+   "fa": "جملات حالت/شیوه",
+   "en": "Modal Clauses",
+   "niveaus": [
+    "b2",
+    "c1"
+   ],
+   "thema": "nebensaetze",
+   "satzglied": "satzverbindung",
+   "route": null,
+   "lektion": 82
+  },
+  {
+   "slug": "konsekutivsaetze",
+   "de": "Konsekutivsätze",
+   "fa": "جملات نتیجه‌ای",
+   "en": "Consecutive Clauses",
+   "niveaus": [
+    "b2",
+    "c1"
+   ],
+   "thema": "nebensaetze",
+   "satzglied": "satzverbindung",
+   "route": null,
+   "lektion": 83
+  },
+  {
+   "slug": "konjunktiv-1",
+   "de": "Konjunktiv I – Indirekte Rede",
+   "fa": "کونیونکتیو I — نقل قول غیرمستقیم",
+   "en": "Konjunktiv I – Reported Speech",
+   "niveaus": [
+    "c1",
+    "c2"
+   ],
+   "thema": "konjunktiv",
+   "satzglied": "praedikat",
+   "route": null,
+   "lektion": 84
+  },
+  {
+   "slug": "tempusformen-ueberblick",
+   "de": "Tempusformen im Überblick",
+   "fa": "کدام زمان برای کدام کار؟",
+   "en": "Tenses at a Glance",
+   "niveaus": [
+    "a2",
+    "b1",
+    "b2"
+   ],
+   "thema": "tempus",
+   "satzglied": "praedikat",
+   "route": "/grammatik/thema/tempusformen",
+   "lektion": null
+  },
+  {
+   "slug": "passiv-ueberblick",
+   "de": "Passiv im Überblick",
+   "fa": "مجهول — ساخت، es، ۶ نوع مجهول",
+   "en": "Passive at a Glance",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "passiv",
+   "satzglied": "praedikat",
+   "route": "/grammatik/thema/passiv",
+   "lektion": null
+  },
+  {
+   "slug": "zu-dass",
+   "de": "zu und dass",
+   "fa": "دو فعل در یک جمله — zu، dass، um...zu، damit",
+   "en": "zu and dass",
+   "niveaus": [
+    "a2",
+    "b1"
+   ],
+   "thema": "ergaenzungssaetze",
+   "satzglied": "ergaenzungen",
+   "route": "/grammatik/thema/zu-dass",
+   "lektion": null
+  },
+  {
+   "slug": "konnektoren",
+   "de": "Konnektoren",
+   "fa": "کانکتورها و روابط جمله‌ای",
+   "en": "Connectors",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "satzlehre",
+   "satzglied": "satzverbindung",
+   "route": "/konnektoren/grammar",
+   "lektion": null
+  },
+  {
+   "slug": "dativ-verben",
+   "de": "Dativ- und Akkusativ-Verben",
+   "fa": "افعال با Dativ و Akkusativ",
+   "en": "Dative and Accusative Verbs",
+   "niveaus": [
+    "a2",
+    "b1"
+   ],
+   "thema": "verbergaenzungen",
+   "satzglied": "ergaenzungen",
+   "route": "/dativ-verben/grammar",
+   "lektion": null
+  },
+  {
+   "slug": "verb-praep",
+   "de": "Verben mit Präpositionen",
+   "fa": "افعال با حرف اضافه‌ی ثابت",
+   "en": "Verbs with Prepositions",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "praepositionen",
+   "satzglied": "ergaenzungen",
+   "route": "/verb-praep/grammar",
+   "lektion": null
+  },
+  {
+   "slug": "praepositionen-cluster",
+   "de": "Präpositionen-Cluster (Verb/Adjektiv/Nomen)",
+   "fa": "فعل/صفت/اسم با حرف اضافه",
+   "en": "Preposition Clusters (Verb/Adjective/Noun)",
+   "niveaus": [
+    "b1",
+    "b2"
+   ],
+   "thema": "praepositionen",
+   "satzglied": "ergaenzungen",
+   "route": "/praepositionen/grammar",
+   "lektion": null
+  },
+  {
+   "slug": "nvv",
+   "de": "Nomen-Verb-Verbindungen",
+   "fa": "ترکیب‌های اسم-فعل (NVV)",
+   "en": "Noun-Verb Combinations",
+   "niveaus": [
+    "b2",
+    "c1"
+   ],
+   "thema": "wendungen",
+   "satzglied": "praedikat",
+   "route": "/nvv/grammar",
+   "lektion": null
+  },
+  {
+   "slug": "redemittel-1010",
+   "de": "Redemittel (1010)",
+   "fa": "۹۰۸ عبارت کاربردی — Diskussion · Essay · Brief",
+   "en": "Useful Phrases (1010)",
+   "niveaus": [
+    "b2",
+    "c1"
+   ],
+   "thema": "wendungen",
+   "satzglied": "sonstiges",
+   "route": "/redemittel-1010/grammar",
+   "lektion": null
+  }
+ ]
+}

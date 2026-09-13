@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_oeffnen",
+  "wort": "öffnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "باز کردن",
+      "گشودن"
+    ],
+    "en": [
+      "to open"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈœfnən",
+  "anmerkung": "Regelmäßig (Stamm auf -fn → Binde-e: du öffnest, er öffnet). Meist nur + Akkusativ; mit Dativ = für jemanden öffnen.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Könnten Sie mir bitte die Tür öffnen?",
+      "uebersetzung": {
+        "fa": "می‌توانید لطفاً در را برای من باز کنید؟",
+        "en": "Could you please open the door for me?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Würdest du mir bitte die Flasche öffnen, ich schaffe es nicht?",
+      "uebersetzung": {
+        "fa": "می‌شود لطفاً در بطری را برایم باز کنی، من نمی‌توانم؟",
+        "en": "Would you please open the bottle for me, I can't manage it?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufmachen",
+      "uebersetzung": {
+        "fa": "باز کردن",
+        "en": "to open"
+      }
+    },
+    {
+      "wort": "aufschließen",
+      "uebersetzung": {
+        "fa": "با کلید باز کردن",
+        "en": "to unlock"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "schließen",
+      "uebersetzung": {
+        "fa": "بستن",
+        "en": "to close"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "verwandt mit offen (باز)",
+    "en": "related to offen (open)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "öffnen + (Dat) + Akk",
+        "bedeutung": "(jemandem) etwas öffnen",
+        "beispiel": "Er öffnet ihr die Tür.",
+        "uebersetzung": {
+          "fa": "او در را برایش باز می‌کند.",
+          "en": "He opens the door for her."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "öffnen",
+      "praeteritum": "öffnete",
+      "partizip2": "geöffnet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "öffne",
+        "du": "öffnest",
+        "er_sie_es": "öffnet",
+        "wir": "öffnen",
+        "ihr": "öffnet",
+        "sie_Sie": "öffnen"
+      },
+      "praeteritum": {
+        "ich": "öffnete",
+        "du": "öffnetest",
+        "er_sie_es": "öffnete",
+        "wir": "öffneten",
+        "ihr": "öffnetet",
+        "sie_Sie": "öffneten"
+      },
+      "imperativ": {
+        "du": "Öffne!",
+        "ihr": "Öffnet!",
+        "Sie": "Öffnen Sie!"
+      }
+    },
+    "partizip1": "öffnend",
+    "nominalisierung": "das Öffnen"
+  },
+  "wortnetz": {
+    "grundwort": "offen",
+    "woerter": [
+      {
+        "wort": "schließen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بستن",
+          "en": "to close"
+        },
+        "id_ref": "verb_schliessen"
+      },
+      {
+        "wort": "aufmachen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باز کردن",
+          "en": "to open"
+        },
+        "id_ref": "verb_aufmachen"
+      },
+      {
+        "wort": "die Tür",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "در",
+          "en": "door"
+        },
+        "id_ref": "nomen_tuer"
+      },
+      {
+        "wort": "offen",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باز",
+          "en": "open"
+        },
+        "id_ref": "adjektiv_offen"
+      },
+      {
+        "wort": "zumachen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بستن",
+          "en": "to shut"
+        },
+        "id_ref": "verb_zumachen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Könnten Sie mir bitte die Tür öffnen?",
+      "dativ": [
+        "mir"
+      ],
+      "akkusativ": [
+        "die Tür"
+      ],
+      "uebersetzung": {
+        "fa": "می‌توانید لطفاً در را برای من باز کنید؟",
+        "en": "Could you please open the door for me?"
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

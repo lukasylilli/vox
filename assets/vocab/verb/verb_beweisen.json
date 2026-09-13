@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_beweisen",
+  "wort": "beweisen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اثبات کردن"
+    ],
+    "en": [
+      "to prove"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Recht"
+  ],
+  "ipa": "bəˈvaɪ̯zn̩",
+  "anmerkung": "Unregelmäßig (bewies, bewiesen; Präsens regelmäßig). Konstruktion: jemandem (Dat) etwas (Akk) beweisen.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Er konnte dem Richter seine Unschuld beweisen.",
+      "uebersetzung": {
+        "fa": "او توانست بی‌گناهی‌اش را به قاضی اثبات کند.",
+        "en": "He could prove his innocence to the judge."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Mit diesen Dokumenten konnte sie dem Gericht ihre Unschuld beweisen.",
+      "uebersetzung": {
+        "fa": "با این مدارک توانست بی‌گناهی‌اش را به دادگاه ثابت کند.",
+        "en": "With these documents she was able to prove her innocence to the court."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nachweisen",
+      "uebersetzung": {
+        "fa": "اثبات/مستند کردن",
+        "en": "to demonstrate"
+      }
+    },
+    {
+      "wort": "belegen",
+      "uebersetzung": {
+        "fa": "مستند کردن",
+        "en": "to substantiate"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "widerlegen",
+      "uebersetzung": {
+        "fa": "رد کردن، تکذیب",
+        "en": "to refute"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + weisen (نشان دادن)",
+    "en": "be- + weisen (to point/show)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "beweisen + Dat + Akk",
+        "bedeutung": "jemandem etwas beweisen",
+        "beispiel": "Er beweist mir seine Ehrlichkeit.",
+        "uebersetzung": {
+          "fa": "او صداقتش را به من ثابت می‌کند.",
+          "en": "He proves his honesty to me."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beweisen",
+      "praeteritum": "bewies",
+      "partizip2": "bewiesen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beweise",
+        "du": "beweisst",
+        "er_sie_es": "beweist",
+        "wir": "beweisen",
+        "ihr": "beweist",
+        "sie_Sie": "beweisen"
+      },
+      "praeteritum": {
+        "ich": "bewies",
+        "du": "bewiesest",
+        "er_sie_es": "bewies",
+        "wir": "bewiesen",
+        "ihr": "bewiest",
+        "sie_Sie": "bewiesen"
+      },
+      "imperativ": {
+        "du": "Beweise!",
+        "ihr": "Beweist!",
+        "Sie": "Beweisen Sie!"
+      }
+    },
+    "partizip1": "beweisend",
+    "nominalisierung": "der Beweis"
+  },
+  "wortnetz": {
+    "grundwort": "beweisen",
+    "woerter": [
+      {
+        "wort": "der Beweis",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دلیل، مدرک",
+          "en": "proof"
+        },
+        "id_ref": "nomen_beweis"
+      },
+      {
+        "wort": "zeigen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نشان دادن",
+          "en": "to show"
+        },
+        "id_ref": "verb_zeigen"
+      },
+      {
+        "wort": "das Gericht",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دادگاه",
+          "en": "court"
+        },
+        "id_ref": "nomen_gericht"
+      },
+      {
+        "wort": "die Wahrheit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حقیقت",
+          "en": "truth"
+        },
+        "id_ref": "nomen_wahrheit"
+      },
+      {
+        "wort": "nachweisen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اثبات کردن",
+          "en": "to demonstrate"
+        },
+        "id_ref": "verb_nachweisen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Er konnte dem Richter seine Unschuld beweisen.",
+      "dativ": [
+        "dem Richter"
+      ],
+      "akkusativ": [
+        "seine Unschuld"
+      ],
+      "uebersetzung": {
+        "fa": "او توانست بی‌گناهی‌اش را به قاضی اثبات کند.",
+        "en": "He could prove his innocence to the judge."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

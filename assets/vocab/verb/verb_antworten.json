@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_antworten",
+  "wort": "antworten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پاسخ دادن (به کسی)"
+    ],
+    "en": [
+      "to answer",
+      "to reply"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Kommunikation"
+  ],
+  "ipa": "ˈantvɔʁtn̩",
+  "anmerkung": "Regelmäßig. antworten + Dat (Person); die Sache mit auf + Akk (auf eine Frage antworten). Achtung: eine Frage beantworten (+ Akk).",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Bitte antworte mir schnell.",
+      "uebersetzung": {
+        "fa": "لطفاً سریع به من پاسخ بده.",
+        "en": "Please answer me quickly."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Er hat mir auf meine E-Mail noch nicht geantwortet.",
+      "uebersetzung": {
+        "fa": "او هنوز به ایمیلم پاسخ نداده است.",
+        "en": "He hasn't answered my email yet."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erwidern",
+      "uebersetzung": {
+        "fa": "پاسخ دادن",
+        "en": "to respond"
+      }
+    },
+    {
+      "wort": "reagieren",
+      "uebersetzung": {
+        "fa": "واکنش نشان دادن",
+        "en": "to react"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "fragen",
+      "uebersetzung": {
+        "fa": "پرسیدن",
+        "en": "to ask"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "verwandt mit Antwort (پاسخ)",
+    "en": "related to Antwort (answer)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "antworten + Dat",
+        "bedeutung": "jemandem antworten",
+        "beispiel": "Antworte mir bitte.",
+        "uebersetzung": {
+          "fa": "لطفاً به من پاسخ بده.",
+          "en": "Please answer me."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "antworten",
+      "praeteritum": "antwortete",
+      "partizip2": "geantwortet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "antworte",
+        "du": "antwortest",
+        "er_sie_es": "antwortet",
+        "wir": "antworten",
+        "ihr": "antwortet",
+        "sie_Sie": "antworten"
+      },
+      "praeteritum": {
+        "ich": "antwortete",
+        "du": "antwortetest",
+        "er_sie_es": "antwortete",
+        "wir": "antworteten",
+        "ihr": "antwortetet",
+        "sie_Sie": "antworteten"
+      },
+      "imperativ": {
+        "du": "Antworte!",
+        "ihr": "Antwortet!",
+        "Sie": "Antworten Sie!"
+      }
+    },
+    "partizip1": "antwortend",
+    "nominalisierung": "die Antwort"
+  },
+  "wortnetz": {
+    "grundwort": "Antwort",
+    "woerter": [
+      {
+        "wort": "die Antwort",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پاسخ",
+          "en": "answer"
+        },
+        "id_ref": "nomen_antwort"
+      },
+      {
+        "wort": "fragen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرسیدن",
+          "en": "to ask"
+        },
+        "id_ref": "verb_fragen"
+      },
+      {
+        "wort": "die Frage",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سؤال",
+          "en": "question"
+        },
+        "id_ref": "nomen_frage"
+      },
+      {
+        "wort": "beantworten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پاسخ دادن به",
+          "en": "to answer (sth)"
+        },
+        "id_ref": "verb_beantworten"
+      },
+      {
+        "wort": "reagieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "واکنش نشان دادن",
+          "en": "to react"
+        },
+        "id_ref": "verb_reagieren"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Bitte antworte mir schnell.",
+      "dativ": [
+        "mir"
+      ],
+      "akkusativ": [],
+      "uebersetzung": {
+        "fa": "لطفاً سریع به من پاسخ بده.",
+        "en": "Please answer me quickly."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

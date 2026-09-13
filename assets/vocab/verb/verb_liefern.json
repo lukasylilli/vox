@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_liefern",
+  "wort": "liefern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تحویل دادن",
+      "رساندن"
+    ],
+    "en": [
+      "to deliver",
+      "to supply"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Wirtschaft"
+  ],
+  "ipa": "ˈliːfɐn",
+  "anmerkung": "Regelmäßig (-ern: ich liefere). Konstruktion: jemandem (Dat) etwas (Akk) liefern.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Wir liefern Ihnen die Ware morgen.",
+      "uebersetzung": {
+        "fa": "کالا را فردا به شما تحویل می‌دهیم.",
+        "en": "We'll deliver the goods to you tomorrow."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Online-Shop liefert den Kunden die Bestellung innerhalb von zwei Tagen.",
+      "uebersetzung": {
+        "fa": "فروشگاه اینترنتی سفارش را ظرف دو روز به مشتریان تحویل می‌دهد.",
+        "en": "The online shop delivers the order to customers within two days."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zustellen",
+      "uebersetzung": {
+        "fa": "تحویل دادن (پست)",
+        "en": "to deliver (post)"
+      }
+    },
+    {
+      "wort": "bringen",
+      "uebersetzung": {
+        "fa": "آوردن",
+        "en": "to bring"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "liefern + Dat + Akk",
+        "bedeutung": "jemandem etwas liefern",
+        "beispiel": "Wir liefern Ihnen die Möbel nach Hause.",
+        "uebersetzung": {
+          "fa": "مبلمان را به خانه‌تان تحویل می‌دهیم.",
+          "en": "We deliver the furniture to your home."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "liefern",
+      "praeteritum": "lieferte",
+      "partizip2": "geliefert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "liefere",
+        "du": "lieferst",
+        "er_sie_es": "liefert",
+        "wir": "liefern",
+        "ihr": "liefert",
+        "sie_Sie": "liefern"
+      },
+      "praeteritum": {
+        "ich": "lieferte",
+        "du": "liefertest",
+        "er_sie_es": "lieferte",
+        "wir": "lieferten",
+        "ihr": "liefertet",
+        "sie_Sie": "lieferten"
+      },
+      "imperativ": {
+        "du": "Liefere!",
+        "ihr": "Liefert!",
+        "Sie": "Liefern Sie!"
+      }
+    },
+    "partizip1": "liefernd",
+    "nominalisierung": "die Lieferung"
+  },
+  "wortnetz": {
+    "grundwort": "liefern",
+    "woerter": [
+      {
+        "wort": "die Lieferung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تحویل، محموله",
+          "en": "delivery"
+        },
+        "id_ref": "nomen_lieferung"
+      },
+      {
+        "wort": "die Ware",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کالا",
+          "en": "goods"
+        },
+        "id_ref": "nomen_ware"
+      },
+      {
+        "wort": "bestellen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سفارش دادن",
+          "en": "to order"
+        },
+        "id_ref": "verb_bestellen"
+      },
+      {
+        "wort": "der Kunde",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مشتری",
+          "en": "customer"
+        },
+        "id_ref": "nomen_kunde"
+      },
+      {
+        "wort": "transportieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حمل کردن",
+          "en": "to transport"
+        },
+        "id_ref": "verb_transportieren"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Wir liefern Ihnen die Ware morgen.",
+      "dativ": [
+        "Ihnen"
+      ],
+      "akkusativ": [
+        "die Ware"
+      ],
+      "uebersetzung": {
+        "fa": "کالا را فردا به شما تحویل می‌دهیم.",
+        "en": "We'll deliver the goods to you tomorrow."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

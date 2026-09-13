@@ -1,0 +1,171 @@
+{
+  "schema": "3.0",
+  "id": "verb_leidtun",
+  "wort": "leidtun",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "متأسف بودن",
+      "دل سوختن"
+    ],
+    "en": [
+      "to be sorry"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Gefühle"
+  ],
+  "ipa": "ˈlaɪ̯tˌtuːn",
+  "anmerkung": "In der Satzmitte getrennt: Das tut mir leid. Unregelmäßig (tun). jemandem leidtun. Die Sache/Person ist das Subjekt (Nominativ).",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Das tut mir leid.",
+      "uebersetzung": {
+        "fa": "متأسفم.",
+        "en": "I'm sorry."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Es tut mir leid, dass ich zu spät gekommen bin.",
+      "uebersetzung": {
+        "fa": "متأسفم که دیر آمدم.",
+        "en": "I'm sorry that I came late."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bedauern",
+      "uebersetzung": {
+        "fa": "تأسف خوردن (+ Akk)",
+        "en": "to regret (+ Akk)"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "leid (متأسف) + tun (کردن)",
+    "en": "leid (sorry) + tun (to do)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem leidtun",
+        "bedeutung": "jemandem leidtun",
+        "beispiel": "Der arme Hund tut mir leid.",
+        "uebersetzung": {
+          "fa": "دلم برای این سگ بیچاره می‌سوزد.",
+          "en": "I feel sorry for the poor dog."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "leidtun",
+      "praeteritum": "tat leid",
+      "partizip2": "leidgetan"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "tue leid",
+        "du": "tust leid",
+        "er_sie_es": "tut leid",
+        "wir": "tun leid",
+        "ihr": "tut leid",
+        "sie_Sie": "tun leid"
+      },
+      "praeteritum": {
+        "ich": "tat leid",
+        "du": "tatest leid",
+        "er_sie_es": "tat leid",
+        "wir": "taten leid",
+        "ihr": "tatet leid",
+        "sie_Sie": "taten leid"
+      },
+      "imperativ": {
+        "du": "Tu leid!",
+        "ihr": "Tut leid!",
+        "Sie": "Tun Sie leid!"
+      }
+    },
+    "partizip1": "leidtuend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "tun",
+    "woerter": [
+      {
+        "wort": "bedauern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تأسف خوردن",
+          "en": "to regret"
+        },
+        "id_ref": "verb_bedauern"
+      },
+      {
+        "wort": "traurig",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "غمگین",
+          "en": "sad"
+        },
+        "id_ref": "adjektiv_traurig"
+      },
+      {
+        "wort": "die Entschuldigung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عذرخواهی",
+          "en": "apology"
+        },
+        "id_ref": "nomen_entschuldigung"
+      },
+      {
+        "wort": "entschuldigen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عذرخواهی کردن",
+          "en": "to apologise"
+        },
+        "id_ref": "verb_entschuldigen"
+      },
+      {
+        "wort": "das Mitleid",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دلسوزی، ترحم",
+          "en": "pity"
+        },
+        "id_ref": "nomen_mitleid"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Das tut mir leid.",
+      "dativ": [
+        "mir"
+      ],
+      "akkusativ": [],
+      "uebersetzung": {
+        "fa": "متأسفم.",
+        "en": "I'm sorry."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

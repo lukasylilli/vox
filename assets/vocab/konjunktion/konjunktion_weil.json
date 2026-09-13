@@ -1,0 +1,144 @@
+{
+  "schema": "3.0",
+  "id": "konjunktion_weil",
+  "wort": "weil",
+  "wortart": "konjunktion",
+  "uebersetzung": {
+    "fa": [
+      "چون",
+      "زیرا"
+    ],
+    "en": [
+      "because"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Satzbau"
+  ],
+  "ipa": "vaɪ̯l",
+  "anmerkung": "Gesprochen oft mit Hauptsatz-Stellung — im Standard gilt: Verb am Ende.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich bleibe zu Hause, weil ich krank bin.",
+      "uebersetzung": {
+        "fa": "خانه می‌مانم چون مریض هستم.",
+        "en": "I am staying home because I am sick."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil der Zug Verspätung hatte, haben wir den Anschluss verpasst.",
+      "uebersetzung": {
+        "fa": "چون قطار تأخیر داشت، قطار بعدی را از دست دادیم.",
+        "en": "Because the train was delayed, we missed the connection."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "da",
+      "uebersetzung": {
+        "fa": "چون، از آنجا که",
+        "en": "since"
+      }
+    },
+    {
+      "wort": "denn",
+      "uebersetzung": {
+        "fa": "زیرا",
+        "en": "for, because"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "obwohl",
+      "uebersetzung": {
+        "fa": "بااینکه",
+        "en": "although"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "untertyp": "subordinierend",
+    "wortstellung": "verb_am_ende",
+    "bedeutungskategorie": "kausal",
+    "alternativen": [
+      {
+        "wort": "denn",
+        "wortstellung": "position_0_normal",
+        "hinweis": "Verbindet zwei Hauptsätze; kann nicht am Satzanfang stehen"
+      },
+      {
+        "wort": "deshalb",
+        "wortstellung": "inversion",
+        "hinweis": "Konjunktionaladverb — nennt die Folge, nicht den Grund"
+      }
+    ],
+    "beispielsatz_paar": {
+      "satz1": "Ich lerne Deutsch, weil ich in Wien arbeite.",
+      "satz2": "Weil ich in Wien arbeite, lerne ich Deutsch."
+    }
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "denn",
+        "wortart": "konjunktion",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زیرا",
+          "en": "for, because"
+        },
+        "id_ref": "konjunktion_denn"
+      },
+      {
+        "wort": "deshalb",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بنابراین",
+          "en": "therefore"
+        },
+        "id_ref": "adverb_deshalb"
+      },
+      {
+        "wort": "da",
+        "wortart": "konjunktion",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چون، از آنجا که",
+          "en": "since"
+        },
+        "id_ref": "konjunktion_da"
+      },
+      {
+        "wort": "obwohl",
+        "wortart": "konjunktion",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بااینکه",
+          "en": "although"
+        },
+        "id_ref": "konjunktion_obwohl"
+      },
+      {
+        "wort": "der Grund",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دلیل",
+          "en": "reason"
+        },
+        "id_ref": "nomen_grund"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

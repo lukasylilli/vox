@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_bestaetigen",
+  "wort": "bestätigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تأیید کردن"
+    ],
+    "en": [
+      "to confirm"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit"
+  ],
+  "ipa": "bəˈʃtɛːtɪɡn̩",
+  "anmerkung": "Regelmäßig. Konstruktion: jemandem (Dat) etwas (Akk) bestätigen.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Bitte bestätigen Sie mir die Reservierung.",
+      "uebersetzung": {
+        "fa": "لطفاً رزرو را برای من تأیید کنید.",
+        "en": "Please confirm the reservation to me."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Firma hat mir schriftlich bestätigt, dass die Zahlung eingegangen ist.",
+      "uebersetzung": {
+        "fa": "شرکت کتباً به من تأیید کرد که پرداخت دریافت شده است.",
+        "en": "The company confirmed to me in writing that the payment had been received."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bekräftigen",
+      "uebersetzung": {
+        "fa": "تأکید/تصدیق کردن",
+        "en": "to affirm"
+      }
+    },
+    {
+      "wort": "beglaubigen",
+      "uebersetzung": {
+        "fa": "تصدیق رسمی کردن",
+        "en": "to certify"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "dementieren",
+      "uebersetzung": {
+        "fa": "تکذیب کردن",
+        "en": "to deny"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + -stätig (استوار) → استوار/تأیید کردن",
+    "en": "be- + stätig (steady) → to make firm"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "bestätigen + Dat + Akk",
+        "bedeutung": "jemandem etwas bestätigen",
+        "beispiel": "Bitte bestätigen Sie mir den Termin.",
+        "uebersetzung": {
+          "fa": "لطفاً وقت ملاقات را برایم تأیید کنید.",
+          "en": "Please confirm the appointment to me."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bestätigen",
+      "praeteritum": "bestätigte",
+      "partizip2": "bestätigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bestätige",
+        "du": "bestätigst",
+        "er_sie_es": "bestätigt",
+        "wir": "bestätigen",
+        "ihr": "bestätigt",
+        "sie_Sie": "bestätigen"
+      },
+      "praeteritum": {
+        "ich": "bestätigte",
+        "du": "bestätigtest",
+        "er_sie_es": "bestätigte",
+        "wir": "bestätigten",
+        "ihr": "bestätigtet",
+        "sie_Sie": "bestätigten"
+      },
+      "imperativ": {
+        "du": "Bestätige!",
+        "ihr": "Bestätigt!",
+        "Sie": "Bestätigen Sie!"
+      }
+    },
+    "partizip1": "bestätigend",
+    "nominalisierung": "die Bestätigung"
+  },
+  "wortnetz": {
+    "grundwort": "bestätigen",
+    "woerter": [
+      {
+        "wort": "die Bestätigung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تأیید",
+          "en": "confirmation"
+        },
+        "id_ref": "nomen_bestaetigung"
+      },
+      {
+        "wort": "zusagen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قول دادن، موافقت کردن",
+          "en": "to agree, to confirm"
+        },
+        "id_ref": "verb_zusagen"
+      },
+      {
+        "wort": "der Termin",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قرار، وقت",
+          "en": "appointment"
+        },
+        "id_ref": "nomen_termin"
+      },
+      {
+        "wort": "sicher",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مطمئن",
+          "en": "sure"
+        },
+        "id_ref": "adjektiv_sicher"
+      },
+      {
+        "wort": "zustimmen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "موافقت کردن",
+          "en": "to agree"
+        },
+        "id_ref": "verb_zustimmen"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Bitte bestätigen Sie mir die Reservierung.",
+      "dativ": [
+        "mir"
+      ],
+      "akkusativ": [
+        "die Reservierung"
+      ],
+      "uebersetzung": {
+        "fa": "لطفاً رزرو را برای من تأیید کنید.",
+        "en": "Please confirm the reservation to me."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

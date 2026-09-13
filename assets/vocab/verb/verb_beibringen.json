@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_beibringen",
+  "wort": "beibringen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "یاد دادن، آموختن (به کسی)"
+    ],
+    "en": [
+      "to teach"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Schule"
+  ],
+  "ipa": "ˈbaɪ̯ˌbʁɪŋən",
+  "anmerkung": "Trennbar: Ich bringe … bei. Unregelmäßig (brachte bei, beigebracht). Bedeutung: یاد دادن. Konstruktion: jemandem (Dat) etwas (Akk) beibringen.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Ich bringe dir das Schwimmen bei.",
+      "uebersetzung": {
+        "fa": "شنا را به تو یاد می‌دهم.",
+        "en": "I'll teach you to swim."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Mein Vater hat mir beigebracht, wie man ein Fahrrad repariert.",
+      "uebersetzung": {
+        "fa": "پدرم به من یاد داد چطور دوچرخه را تعمیر کنم.",
+        "en": "My father taught me how to repair a bicycle."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "lehren",
+      "uebersetzung": {
+        "fa": "آموزش دادن",
+        "en": "to teach"
+      }
+    },
+    {
+      "wort": "zeigen",
+      "uebersetzung": {
+        "fa": "نشان دادن",
+        "en": "to show"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "lernen",
+      "uebersetzung": {
+        "fa": "یاد گرفتن",
+        "en": "to learn"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "bei- (به) + bringen (آوردن)",
+    "en": "bei- (to) + bringen (to bring)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "beibringen + Dat + Akk",
+        "bedeutung": "jemandem etwas beibringen",
+        "beispiel": "Sie bringt den Kindern das Lesen bei.",
+        "uebersetzung": {
+          "fa": "او خواندن را به بچه‌ها یاد می‌دهد.",
+          "en": "She teaches the children to read."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beibringen",
+      "praeteritum": "brachte bei",
+      "partizip2": "beigebracht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bringe bei",
+        "du": "bringst bei",
+        "er_sie_es": "bringt bei",
+        "wir": "bringen bei",
+        "ihr": "bringt bei",
+        "sie_Sie": "bringen bei"
+      },
+      "praeteritum": {
+        "ich": "brachte bei",
+        "du": "brachtest bei",
+        "er_sie_es": "brachte bei",
+        "wir": "brachten bei",
+        "ihr": "brachtet bei",
+        "sie_Sie": "brachten bei"
+      },
+      "imperativ": {
+        "du": "Bring bei!",
+        "ihr": "Bringt bei!",
+        "Sie": "Bringen Sie bei!"
+      }
+    },
+    "partizip1": "beibringend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bringen",
+    "woerter": [
+      {
+        "wort": "lernen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "یاد گرفتن",
+          "en": "to learn"
+        },
+        "id_ref": "verb_lernen"
+      },
+      {
+        "wort": "lehren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آموزش دادن",
+          "en": "to teach"
+        },
+        "id_ref": "verb_lehren"
+      },
+      {
+        "wort": "der Lehrer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "معلم",
+          "en": "teacher"
+        },
+        "id_ref": "nomen_lehrer"
+      },
+      {
+        "wort": "zeigen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نشان دادن",
+          "en": "to show"
+        },
+        "id_ref": "verb_zeigen"
+      },
+      {
+        "wort": "üben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تمرین کردن",
+          "en": "to practise"
+        },
+        "id_ref": "verb_ueben"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Ich bringe dir das Schwimmen bei.",
+      "dativ": [
+        "dir"
+      ],
+      "akkusativ": [
+        "das Schwimmen"
+      ],
+      "uebersetzung": {
+        "fa": "شنا را به تو یاد می‌دهم.",
+        "en": "I'll teach you to swim."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

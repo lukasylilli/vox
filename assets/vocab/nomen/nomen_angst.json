@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "nomen_angst",
+  "wort": "die Angst",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "ترس",
+      "دلهره"
+    ],
+    "en": [
+      "fear",
+      "anxiety"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Gefühle"
+  ],
+  "ipa": "aŋst",
+  "anmerkung": "Häufig in festen Wendungen ohne Artikel: Angst haben, Angst bekommen.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich habe Angst vor Hunden.",
+      "uebersetzung": {
+        "fa": "من از سگ‌ها می‌ترسم.",
+        "en": "I am afraid of dogs."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Sie hatte solche Angst, dass sie die ganze Nacht nicht schlafen konnte.",
+      "uebersetzung": {
+        "fa": "او آن‌قدر ترس داشت که تمام شب نتوانست بخوابد.",
+        "en": "She was so afraid that she could not sleep all night."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Furcht",
+      "uebersetzung": {
+        "fa": "بیم، هراس",
+        "en": "fear, dread"
+      }
+    },
+    {
+      "wort": "die Panik",
+      "uebersetzung": {
+        "fa": "وحشت",
+        "en": "panic"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "der Mut",
+      "uebersetzung": {
+        "fa": "شجاعت",
+        "en": "courage"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Prüfungsangst",
+      "uebersetzung": {
+        "fa": "اضطراب امتحان",
+        "en": "exam anxiety"
+      }
+    },
+    {
+      "wort": "die Höhenangst",
+      "uebersetzung": {
+        "fa": "ترس از ارتفاع",
+        "en": "fear of heights"
+      }
+    },
+    {
+      "wort": "der Angsthase",
+      "uebersetzung": {
+        "fa": "آدم ترسو",
+        "en": "scaredy-cat"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "die",
+    "plural": "die Ängste",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "die Angst vor + Dat",
+        "beispiel": "Er hat Angst vor der Prüfung.",
+        "uebersetzung": {
+          "fa": "او از امتحان می‌ترسد.",
+          "en": "He is afraid of the exam."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "Angst haben",
+        "beispiel": "Ich habe Angst.",
+        "uebersetzung": {
+          "fa": "من می‌ترسم.",
+          "en": "I am afraid."
+        }
+      },
+      {
+        "verbindung": "jemandem Angst machen",
+        "beispiel": "Der Film macht mir Angst.",
+        "uebersetzung": {
+          "fa": "این فیلم مرا می‌ترساند.",
+          "en": "The film scares me."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "Angst",
+    "woerter": [
+      {
+        "wort": "der Mut",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شجاعت",
+          "en": "courage"
+        },
+        "id_ref": "nomen_mut"
+      },
+      {
+        "wort": "die Sorge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نگرانی",
+          "en": "worry"
+        },
+        "id_ref": "nomen_sorge"
+      },
+      {
+        "wort": "fürchten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ترسیدن",
+          "en": "to fear"
+        },
+        "id_ref": "verb_fuerchten"
+      },
+      {
+        "wort": "ängstlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ترسو، مضطرب",
+          "en": "anxious, timid"
+        },
+        "id_ref": "adjektiv_aengstlich"
+      },
+      {
+        "wort": "die Panik",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "وحشت",
+          "en": "panic"
+        },
+        "id_ref": "nomen_panik"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

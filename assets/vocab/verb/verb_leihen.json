@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_leihen",
+  "wort": "leihen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "قرض دادن",
+      "به امانت دادن"
+    ],
+    "en": [
+      "to lend"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈlaɪ̯ən",
+  "anmerkung": "Unregelmäßig (lieh, geliehen; Präsens regelmäßig). Doppeldeutig: jemandem etwas leihen = قرض دادن; sich (Dat) etwas leihen = قرض گرفتن.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Ich leihe dir meinen Toaster.",
+      "uebersetzung": {
+        "fa": "توسترم را به تو قرض می‌دهم.",
+        "en": "I'll lend you my toaster."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ich habe mir von einem Freund das Geld geliehen.",
+      "uebersetzung": {
+        "fa": "پول را از یک دوست قرض گرفتم.",
+        "en": "I borrowed the money from a friend."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verleihen",
+      "uebersetzung": {
+        "fa": "به امانت دادن",
+        "en": "to lend out"
+      }
+    },
+    {
+      "wort": "borgen",
+      "uebersetzung": {
+        "fa": "قرض دادن/گرفتن",
+        "en": "to lend/borrow"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zurückgeben",
+      "uebersetzung": {
+        "fa": "پس دادن",
+        "en": "to return"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "leihen + Dat + Akk",
+        "bedeutung": "jemandem etwas leihen",
+        "beispiel": "Kannst du mir dein Fahrrad leihen?",
+        "uebersetzung": {
+          "fa": "می‌توانی دوچرخه‌ات را به من قرض بدهی؟",
+          "en": "Can you lend me your bike?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "leihen",
+      "praeteritum": "lieh",
+      "partizip2": "geliehen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "leihe",
+        "du": "leihst",
+        "er_sie_es": "leiht",
+        "wir": "leihen",
+        "ihr": "leiht",
+        "sie_Sie": "leihen"
+      },
+      "praeteritum": {
+        "ich": "lieh",
+        "du": "liehst",
+        "er_sie_es": "lieh",
+        "wir": "liehen",
+        "ihr": "lieht",
+        "sie_Sie": "liehen"
+      },
+      "imperativ": {
+        "du": "Leihe!",
+        "ihr": "Leiht!",
+        "Sie": "Leihen Sie!"
+      }
+    },
+    "partizip1": "leihend",
+    "nominalisierung": "das Leihen"
+  },
+  "wortnetz": {
+    "grundwort": "leihen",
+    "woerter": [
+      {
+        "wort": "borgen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرض دادن/گرفتن",
+          "en": "to lend/borrow"
+        },
+        "id_ref": "verb_borgen"
+      },
+      {
+        "wort": "das Geld",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پول",
+          "en": "money"
+        },
+        "id_ref": "nomen_geld"
+      },
+      {
+        "wort": "zurückgeben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پس دادن",
+          "en": "to give back"
+        },
+        "id_ref": "verb_zurueckgeben"
+      },
+      {
+        "wort": "mieten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اجاره کردن",
+          "en": "to rent"
+        },
+        "id_ref": "verb_mieten"
+      },
+      {
+        "wort": "der Freund",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دوست",
+          "en": "friend"
+        },
+        "id_ref": "nomen_freund"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Ich leihe dir meinen Toaster.",
+      "dativ": [
+        "dir"
+      ],
+      "akkusativ": [
+        "meinen Toaster"
+      ],
+      "uebersetzung": {
+        "fa": "توسترم را به تو قرض می‌دهم.",
+        "en": "I'll lend you my toaster."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}

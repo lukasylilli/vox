@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_zeigen",
+  "wort": "zeigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نشان دادن"
+    ],
+    "en": [
+      "to show"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈt͡saɪ̯ɡn̩",
+  "anmerkung": "Regelmäßig. Konstruktion: jemandem (Dat) etwas (Akk) zeigen.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Sie zeigen ihren Freunden die Stadt.",
+      "uebersetzung": {
+        "fa": "آن‌ها شهر را به دوستانشان نشان می‌دهند.",
+        "en": "They show their friends the city."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Kannst du mir zeigen, wie man das Programm benutzt?",
+      "uebersetzung": {
+        "fa": "می‌توانی به من نشان دهی که چطور از این برنامه استفاده می‌شود؟",
+        "en": "Can you show me how to use the program?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vorführen",
+      "uebersetzung": {
+        "fa": "نمایش دادن",
+        "en": "to demonstrate"
+      }
+    },
+    {
+      "wort": "präsentieren",
+      "uebersetzung": {
+        "fa": "ارائه دادن",
+        "en": "to present"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verbergen",
+      "uebersetzung": {
+        "fa": "پنهان کردن",
+        "en": "to hide"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zeigen + Dat + Akk",
+        "bedeutung": "jemandem etwas zeigen",
+        "beispiel": "Der Vater zeigt dem Kind die Bilder.",
+        "uebersetzung": {
+          "fa": "پدر عکس‌ها را به کودک نشان می‌دهد.",
+          "en": "The father shows the child the pictures."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zeigen",
+      "praeteritum": "zeigte",
+      "partizip2": "gezeigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "zeige",
+        "du": "zeigst",
+        "er_sie_es": "zeigt",
+        "wir": "zeigen",
+        "ihr": "zeigt",
+        "sie_Sie": "zeigen"
+      },
+      "praeteritum": {
+        "ich": "zeigte",
+        "du": "zeigtest",
+        "er_sie_es": "zeigte",
+        "wir": "zeigten",
+        "ihr": "zeigtet",
+        "sie_Sie": "zeigten"
+      },
+      "imperativ": {
+        "du": "Zeige!",
+        "ihr": "Zeigt!",
+        "Sie": "Zeigen Sie!"
+      }
+    },
+    "partizip1": "zeigend",
+    "nominalisierung": "das Zeigen"
+  },
+  "wortnetz": {
+    "grundwort": "zeigen",
+    "woerter": [
+      {
+        "wort": "sehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دیدن",
+          "en": "to see"
+        },
+        "id_ref": "verb_sehen"
+      },
+      {
+        "wort": "erklären",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "توضیح دادن",
+          "en": "to explain"
+        },
+        "id_ref": "verb_erklaeren"
+      },
+      {
+        "wort": "das Bild",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تصویر",
+          "en": "picture"
+        },
+        "id_ref": "nomen_bild"
+      },
+      {
+        "wort": "die Karte",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نقشه، کارت",
+          "en": "map, card"
+        },
+        "id_ref": "nomen_karte"
+      },
+      {
+        "wort": "vorführen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نمایش دادن",
+          "en": "to demonstrate"
+        },
+        "id_ref": "verb_vorfuehren"
+      }
+    ]
+  },
+  "kasus_beispiele": [
+    {
+      "satz": "Sie zeigen ihren Freunden die Stadt.",
+      "dativ": [
+        "ihren Freunden"
+      ],
+      "akkusativ": [
+        "die Stadt"
+      ],
+      "uebersetzung": {
+        "fa": "آن‌ها شهر را به دوستانشان نشان می‌دهند.",
+        "en": "They show their friends the city."
+      }
+    }
+  ],
+  "box": 1,
+  "nextReviewDate": null
+}
