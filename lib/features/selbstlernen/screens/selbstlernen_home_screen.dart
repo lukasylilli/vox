@@ -3,12 +3,12 @@
 // PURPOSE: خانه Selbstlernen — ۴ بخش: Routine، Pomodoro، Lernpfad، Vorlagen
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:web/web.dart' as web;
 
 import '../../../core/constants/app_links.dart';
 import '../../../core/constants/app_routes.dart';
 import '../../../core/constants/app_sizes.dart';
 import '../../../core/l10n/app_l10n.dart';
+import '../../../core/utils/external_link_opener.dart';
 
 class SelbstlernenHomeScreen extends StatelessWidget {
   const SelbstlernenHomeScreen({super.key});
@@ -67,7 +67,7 @@ class SelbstlernenHomeScreen extends StatelessWidget {
             color  : s.color,
             desc   : AppL10n.t(context, s.desc),
             onTap  : () => s.route.isEmpty
-              ? web.window.open(AppLinks.rootInUrl, '_blank')
+              ? openExternalLink(AppLinks.rootInUrl)
               : context.push(s.route),
           );
         },
