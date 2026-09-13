@@ -65,8 +65,6 @@ class AppRoutes {
 
   // Selbstlernen
   static const selbstlernen = '/selbstlernen';
-  static const habitMaker   = '/selbstlernen/habit';
-  static const habitStats   = '/selbstlernen/habit/:habitId/stats';
   static const pomodoro     = '/selbstlernen/pomodoro';
   static const leitfaden    = '/selbstlernen/leitfaden';
   static const vorlagen     = '/selbstlernen/vorlagen';

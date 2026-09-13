@@ -1,6 +1,6 @@
 // FILE: lib/features/selbstlernen/screens/pomodoro_screen.dart
 // DEPS: selbstlernen_controller.dart, pomodoro_timer_widget.dart
-// PURPOSE: صفحه پومودورو — تایمر + کنترل‌ها + انتخاب عادت مرتبط
+// PURPOSE: صفحه پومودورو — تایمر + کنترل‌ها
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -17,7 +17,6 @@ class PomodoroScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final pState     = ref.watch(pomodoroProvider);
     final notifier   = ref.read(pomodoroProvider.notifier);
-    final habitsAsync = ref.watch(activeHabitsProvider);
     final scheme     = Theme.of(context).colorScheme;
 
     return Scaffold(
@@ -78,44 +77,6 @@ class PomodoroScreen extends ConsumerWidget {
                 ],
               ),
               const SizedBox(height: AppSizes.xl),
-
-              // Linked habit selector
-              habitsAsync.when(
-                loading: () => const SizedBox.shrink(),
-                error  : (_, _) => const SizedBox.shrink(),
-                data   : (habits) {
-                  if (habits.isEmpty) return const SizedBox.shrink();
-                  return Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(AppL10n.t(context, 'related_habit'),
-                          style: TextStyle(
-                            fontWeight: FontWeight.w700,
-                            color     : scheme.onSurfaceVariant,
-                          )),
-                      const SizedBox(height: 8),
-                      DropdownButton<int?>(
-                        value    : pState.linkedHabitId,
-                        isExpanded: true,
-                        hint     : Text(AppL10n.t(context, 'no_habit')),
-                        items    : [
-                          DropdownMenuItem<int?>(
-                            value: null,
-                            child: Text(AppL10n.t(context, 'no_habit')),
-                          ),
-                          ...habits.map((h) => DropdownMenuItem<int?>(
-                                value: h.id,
-                                child: Text(h.name),
-                              )),
-                        ],
-                        onChanged: (v) => notifier.setLinkedHabit(v),
-                      ),
-                    ],
-                  );
-                },
-              ),
-
-              const SizedBox(height: AppSizes.md),
 
               // Session count
               if (pState.sessionCount > 0)

@@ -1,9 +1,11 @@
 // FILE: lib/features/selbstlernen/screens/selbstlernen_home_screen.dart
 // DEPS: app_routes.dart
-// PURPOSE: خانه Selbstlernen — ۴ بخش: Habit، Pomodoro، Lernpfad، Vorlagen
+// PURPOSE: خانه Selbstlernen — ۴ بخش: Routine، Pomodoro، Lernpfad، Vorlagen
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:web/web.dart' as web;
 
+import '../../../core/constants/app_links.dart';
 import '../../../core/constants/app_routes.dart';
 import '../../../core/constants/app_sizes.dart';
 import '../../../core/l10n/app_l10n.dart';
@@ -13,12 +15,14 @@ class SelbstlernenHomeScreen extends StatelessWidget {
 
   static const _sections = [
     (
-      title   : 'Habit Maker',
-      titleFa : 'habit_building',
+      title   : 'Routine',
+      titleFa : 'routine',
       icon    : Icons.local_fire_department_rounded,
       color   : Color(0xFFE65100),
-      desc    : 'habit_building_sub',
-      route   : AppRoutes.habitMaker,
+      desc    : 'routine_sub',
+      // Externer Link zu Root-in (separates Projekt/Repo) statt interner Route —
+      // leeres route = Signal für _SectionCard, extern zu öffnen (kein Code-Merge).
+      route   : '',
     ),
     (
       title   : 'Pomodoro',
@@ -62,7 +66,9 @@ class SelbstlernenHomeScreen extends StatelessWidget {
             icon   : s.icon,
             color  : s.color,
             desc   : AppL10n.t(context, s.desc),
-            onTap  : () => context.push(s.route),
+            onTap  : () => s.route.isEmpty
+              ? web.window.open(AppLinks.rootInUrl, '_blank')
+              : context.push(s.route),
           );
         },
       ),

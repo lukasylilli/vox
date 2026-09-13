@@ -20,8 +20,6 @@ import '../../features/auswendiglernen/screens/auswendiglernen_home_screen.dart'
 import '../../features/pruefungen/screens/exam_simulation_screen.dart';
 import '../../features/pruefungen/screens/exam_type_screen.dart';
 import '../../features/pruefungen/screens/pruefungen_home_screen.dart';
-import '../../features/selbstlernen/screens/habit_maker_screen.dart';
-import '../../features/selbstlernen/screens/habit_stats_screen.dart';
 import '../../features/selbstlernen/screens/leitfaden_screen.dart';
 import '../../features/selbstlernen/screens/pomodoro_screen.dart';
 import '../../features/selbstlernen/screens/selbstlernen_home_screen.dart';
@@ -415,19 +413,6 @@ final appRouter = GoRouter(
       path   : AppRoutes.selbstlernen,
       builder: (ctx, _) => const SelbstlernenHomeScreen(),
       routes : [
-        GoRoute(
-          path   : 'habit',
-          builder: (ctx, _) => const HabitMakerScreen(),
-          routes : [
-            GoRoute(
-              path   : ':habitId/stats',
-              builder: (ctx, state) {
-                final id = int.parse(state.pathParameters['habitId']!);
-                return HabitStatsScreen(habitId: id);
-              },
-            ),
-          ],
-        ),
         GoRoute(
           path   : 'pomodoro',
           builder: (ctx, _) => const PomodoroScreen(),
