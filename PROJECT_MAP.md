@@ -10,6 +10,7 @@
 #   · B-3 / R-1.1 در کد رفع شده‌اند (stripPreposition در word_list_item.dart) — در BACKLOG اصلاح شد
 #   · README قدیمی: «Selbstlernen — Gewohnheiten, Streaks» (Habit از 2026-09-13 حذف شده)
 #   · فاز A (خودکارسازی ورود کلمات) باز شد — PLAN.md → «فاز A»
+#   · فاز S (ذخیره‌سازی داده‌ی کاربر) باز شد — S.1 ✅؛ S.0 بلاک (build_runner)
 #
 # 🎯 وضعیت: ۲۴۴ فایل Dart (۱۶۳ features + ۷۷ core) — analyze سبز
 # فاز V (Vokabular-DB ۲۵k) طراحی شد — کجا کلمات ذخیره می‌شوند + معماری آینده: بخش «فاز V» + Services
@@ -1005,6 +1006,34 @@ data_seed_service.dart  [x]  — یک‌بار seed از JSON asset به SQLite 
 
 ---
 
+## 💾 Wo die Nutzerdaten liegen (فاز S, 2026-09-15)
+
+⚠️ **Wichtigster Abschnitt für alles, was Fortschritt anfasst.** Details: PLAN.md → فاز S.
+
+| Ablage | Inhalt | Datei |
+|---|---|---|
+| drift/SQLite-WASM (IndexedDB, DB `vox`) | `LeitnerCards` (alte Wortschatz-Wörter) · `Words`/`Books`/`WordBooks` · `UserCategories`/`CategoryWords` | `core/database/app_database.dart` |
+| SharedPreferences (localStorage) | `vokab_user_leitner_v1` · `vokab_user_kategorien_v1` · `vokab_user_notizen_v1` | `features/vokabular/controllers/vokabular_user_state.dart` |
+| SharedPreferences (localStorage) | `theme_mode`, `tts_rate`, `tts_language`, `current_level`, `daily_goal_min`, `ui_language` | `features/more/controllers/settings_controller.dart` |
+
+⚠️ **Leitner-Fortschritt liegt in ZWEI Ablagen in zwei Formaten** (S.0 räumt das auf).
+Wer Sicherung, Sync oder Migration baut, bevor S.0 fertig ist, schreibt alles doppelt.
+⚠️ `core/services/backup_service.dart` ist ein **Stub ohne Code** — es gibt heute keine Sicherung.
+⚠️ Drei Orte, EIN Zuhause: Browser = Zuhause, Server + Datei = nur Wiederherstellung.
+   Die App liest nie direkt von Server oder Datei. Konfliktregel: **höchstes Leitner-Fach gewinnt.**
+
+| Datei | Zweck |
+|---|---|
+| `core/utils/persistent_storage.dart` (+ `_io`/`_web`) | **S.1 ✅** — bittet den Browser um dauerhaften Speicher; bedingter Export wie `external_link_opener`. Aus Root-in kopiert, Herkunft im Dateikopf |
+| `core/services/backup_service.dart` | **S.2 offen** — Export/Import, heute nur Kommentar |
+| `test/persistent_storage_test.dart` | prüft, dass auf der Dart-VM die io-Fassung greift |
+
+⚠️ **Jede Änderung an einer Drift-Tabelle braucht `dart run build_runner build`**
+(`app_database.g.dart`, ~8.000 Zeilen, versioniert). Ohne Rechner und ohne CI-Workflow dafür
+ist S.0 blockiert — dasselbe fehlende PAT-Recht wie bei فاز A / A.4.
+
+---
+
 ## tool/ — Werkzeuge (فاز A, 2026-09-15)
 
 | فایل | زبان | کار |
@@ -1013,6 +1042,7 @@ data_seed_service.dart  [x]  — یک‌بار seed از JSON asset به SQLite 
 | `tool/backlog.py` | Python | **A.1** — welches Wort ist als Nächstes dran? Leitet den Stand aus `assets/vocab/` ab (nicht aus den ✓-Marken). `--stand` / `--naechste N` / `--gruppe` / `--json`. Spiegelt `vokabId()` zeichengenau |
 | `tool/sync_backlog.py` | Python | **A.2** — schreibt die ✓-Marken in `Wörter/*.txt` aus `assets/vocab/` neu. idempotent, `--dry-run` |
 | `tool/generate_words.py` | Python | **A.3** — nächste N Wörter → SUPER-PROMPT v3.0 → Anthropic API → `import_inbox/`. Pre-Flight nur grob; **validiert NICHT** (das macht Dart). Sicherheitsgrenze 500 Karten |
+| `tool/check_vendored.py` | Python | **فاز S** — meldet, wenn eine aus Root-in kopierte Datei dort inzwischen geändert wurde (Vergleich über den `commit`-Vermerk im Dateikopf). Meldet nur, entscheidet nie |
 | `tool/webtest_ci.py`, `tool/webtest_serve.sh` | Python/sh | Web-Testlauf |
 
 ⚠️ **Eine Validierungsquelle:** `vokab_schema.dart`. Die Python-Werkzeuge dürfen nie eine zweite
