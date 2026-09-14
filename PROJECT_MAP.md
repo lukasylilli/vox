@@ -1005,6 +1005,25 @@ data_seed_service.dart  [x]  — یک‌بار seed از JSON asset به SQLite 
 
 ---
 
+## tool/ — Werkzeuge (فاز A, 2026-09-15)
+
+| فایل | زبان | کار |
+|------|------|-----|
+| `tool/vokabular_import.dart` | Dart | **verbindliche Prüfung** — Konverter-Output → `assets/vocab/<wortart>/<id>.json`. Nutzt `vokabPruefeKarte()` aus `lib/features/vokabular/data/vokab_schema.dart`. Duplikat-Schutz, idempotent, exit 1 bei Fehlern |
+| `tool/backlog.py` | Python | **A.1** — welches Wort ist als Nächstes dran? Leitet den Stand aus `assets/vocab/` ab (nicht aus den ✓-Marken). `--stand` / `--naechste N` / `--gruppe` / `--json`. Spiegelt `vokabId()` zeichengenau |
+| `tool/sync_backlog.py` | Python | **A.2** — schreibt die ✓-Marken in `Wörter/*.txt` aus `assets/vocab/` neu. idempotent, `--dry-run` |
+| `tool/generate_words.py` | Python | **A.3** — nächste N Wörter → SUPER-PROMPT v3.0 → Anthropic API → `import_inbox/`. Pre-Flight nur grob; **validiert NICHT** (das macht Dart). Sicherheitsgrenze 500 Karten |
+| `tool/webtest_ci.py`, `tool/webtest_serve.sh` | Python/sh | Web-Testlauf |
+
+⚠️ **Eine Validierungsquelle:** `vokab_schema.dart`. Die Python-Werkzeuge dürfen nie eine zweite
+Prüflogik bekommen — sie bereiten nur vor und räumen nach.
+⚠️ `tool/backlog.py` enthält eine Kopie der ID-Regel 5 (`vokab_id()`). Ändert sich `vokabId()` in
+Dart, **muss** sie hier mitgezogen werden, sonst greift der Duplikat-Schutz nicht.
+⚠️ **`.github/workflows/vokabular-autofill.yml` fehlt noch** — das PAT darf keine Workflow-Dateien
+schreiben (PLAN.md → فاز A → A.4).
+
+---
+
 ## BUGS FIXED
 
 ### [2026-06-30] Phase 8 (جزئی): RevenueCat SDK کامل + Native Splash
