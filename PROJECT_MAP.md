@@ -1024,13 +1024,29 @@ Wer Sicherung, Sync oder Migration baut, bevor S.0 fertig ist, schreibt alles do
 
 | Datei | Zweck |
 |---|---|
-| `core/utils/persistent_storage.dart` (+ `_io`/`_web`) | **S.1 ✅** — bittet den Browser um dauerhaften Speicher; bedingter Export wie `external_link_opener`. Aus Root-in kopiert, Herkunft im Dateikopf |
+| `core/utils/persistent_storage.dart` (+ `_io`/`_web`) | **S.1 ✅** — bittet den Browser um dauerhaften Speicher; bedingter Export wie `external_link_opener`. Aus Root-in kopiert, Herkunft (Repo/Pfad/Commit) im Dateikopf. ⚠️ Der `_web`-Teil ist eine **zeichengleiche** Kopie — beim Nachziehen nicht umbenennen |
 | `core/services/backup_service.dart` | **S.2 offen** — Export/Import, heute nur Kommentar |
 | `test/persistent_storage_test.dart` | prüft, dass auf der Dart-VM die io-Fassung greift |
 
 ⚠️ **Jede Änderung an einer Drift-Tabelle braucht `dart run build_runner build`**
 (`app_database.g.dart`, ~8.000 Zeilen, versioniert). Ohne Rechner und ohne CI-Workflow dafür
 ist S.0 blockiert — dasselbe fehlende PAT-Recht wie bei فاز A / A.4.
+
+---
+
+## ⚙️ Arbeiten über die GitHub-API (Lehren 2026-09-15)
+
+- **Ein Arbeitsschritt = EIN Commit.** Über die Git-Data-API (blobs → tree → commit → ref),
+  nicht über mehrere `PUT /contents`. Einzel-Pushes erzeugen Zwischenstände, die nicht
+  übersetzen (Datei exportiert auf eine noch fehlende Datei) und lösen je einen Deploy aus,
+  der den vorigen abbricht.
+- **Die CI-Logs sind von Claude aus nicht lesbar** — GitHub liefert sie von
+  `*.blob.core.windows.net`, das nicht in der Netz-Freigabe steht. `check-runs/annotations`
+  ist bei diesem Workflow leer. Sichtbar sind nur Status und Schrittname.
+  ⇒ Bei rotem Lauf: Schritt am Namen erkennen, Ursache aus dem Diff erschließen — oder den
+  Text beim Nutzer erfragen. **Darum in Dart nur Konstrukte verwenden, die im Repo schon
+  vorkommen**, und übernommenen Code zeichengleich kopieren.
+- Jeder Commit auf `main` ist eine Veröffentlichung (deploy-web.yml).
 
 ---
 

@@ -890,9 +890,25 @@ Gleiche Hülle, unterschiedliche Nutzlast. In beiden PLAN-Dateien festgehalten.
       ⚠️ **BLOCKIERT** — jede Drift-Änderung braucht `build_runner` (`app_database.g.dart`,
       ~8.000 Zeilen). Claude hat kein Dart, und der nötige CI-Workflow lässt sich nicht pushen
       (PAT ohne „Workflows"-Recht, siehe فاز A / A.4). **Ein Recht löst beide Blockaden.**
-- [x] **S.1 `persist()` + PWA** ✅ (2026-09-15) — `core/utils/persistent_storage.dart`
-      (bedingter Export wie `external_link_opener`), aus `main.dart` gerufen. Aus Root-in
-      übernommen, Herkunft im Dateikopf vermerkt, `tool/check_vendored.py` überwacht Abweichungen.
+- [x] **S.1 `persist()`** ✅ (2026-09-15, CI grün bestätigt) — `core/utils/persistent_storage.dart`
+      (+ `_io`/`_web`, bedingter Export wie `external_link_opener`), aus `main.dart` gerufen. Aus
+      Root-in übernommen, Herkunft (Repo/Pfad/Commit) im Dateikopf, `tool/check_vendored.py`
+      meldet Abweichungen. Test: `test/persistent_storage_test.dart`.
+      ⏳ **Offen bleibt der PWA-Teil**: Einladung „zur Startseite hinzufügen". Erst das nimmt
+      Safari die Sieben-Tage-Regel — `persist()` allein ist nur eine Bitte.
+
+  **⚠️ Zwei Lehren aus dem roten Lauf dabei (2026-09-15) — beide wiederholbar:**
+  · **Mehrere Dateien gehören in EINEN Commit.** Claude hat sie einzeln über die
+    Contents-API geschoben. Der erste Commit enthielt eine Datei, die auf noch nicht
+    existierende Dateien exportierte ⇒ `flutter analyze` rot, und jeder Push stieß einen
+    Deploy an, der den vorigen abbrach (7 abgebrochene Läufe). **Ab jetzt über die Git-Data-API
+    committen** (blobs → tree → commit → ref), ein Commit je Arbeitsschritt.
+  · **Claude kann die CI-Logs nicht lesen.** GitHub liefert sie von
+    `*.blob.core.windows.net` aus; diese Domain steht nicht in Claudes Netz-Freigabe. Die
+    Fehlermeldung war also unsichtbar, und die Ursache musste erschlossen werden (sie lag in
+    `main.dart`: `dart:async` + `unawaited` + `catchError` statt des im Repo bewährten
+    try/catch). **Konsequenz: in Dart-Dateien nur Konstrukte verwenden, die im Repo schon
+    vorkommen, und übernommenen Code zeichengleich kopieren — nicht umbenennen.**
 - [ ] **S.2 Export/Import** — `backup_service.dart` ausbauen (heute Stub), Hülle wie oben
 - [ ] **S.3 Supabase-Konto** — `auth_service.dart` aus Root-in übernehmen (~90 % allgemein);
       `auth.users` geteilt, aber **jedes Repo besitzt seine eigenen Tabellen**:
