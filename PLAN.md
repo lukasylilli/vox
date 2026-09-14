@@ -24,7 +24,7 @@
 | **V — Vokabular-DB (۲۵٬۰۰۰ کلمه)** | Stufen ۱–۵ ✅ · **۸۷ کارت** (۰٫۳٪ از ~۲۶٬۲۰۰) · گلوگاه = سرعت، نه کد | Pipeline کامل و سالم: SUPER-PROMPT v3.0 → `import_inbox/` → `tool/vokabular_import.dart` → اپ. از ۱۴ جولای تا ۱۵ سپتامبر (۲ ماه) فقط چند کلمه اضافه شد ⇒ **فاز A (خودکارسازی) باز شد.** باز: V.2 `vocab.db` (حالا **پیش‌شرط**، نه اختیاری) · اتصال Leitner به imLeitner · V.5 توزیع |
 | ۱۶ — انتشار و QA نهایی | باز | آخرین فاز قبل از launch |
 
-**قدم‌های بعدی (2026-09-15):** ① **فاز A** — A.1/A.2/A.3/A.5 ✅ · A.4 بلاک (مجوز Workflows در توکن) ② **V.2** `vocab.db` — قبل از اینکه تعداد کارت‌ها از چند صد بگذرد، وگرنه startup می‌شکند ③ G3–G6 (استخراج محتوای ۸۴ درس) ④ فاز ۱۶ launch/QA
+**قدم‌های بعدی (2026-09-15):** ⓪ **فاز S** — ذخیره‌سازی داده‌ی کاربر (S.1 ✅، S.0 بلاک) ① **فاز A** — A.1/A.2/A.3/A.5 ✅ · A.4 بلاک (مجوز Workflows در توکن) ② **V.2** `vocab.db` — قبل از اینکه تعداد کارت‌ها از چند صد بگذرد، وگرنه startup می‌شکند ③ G3–G6 (استخراج محتوای ۸۴ درس) ④ فاز ۱۶ launch/QA
 
 ---
 
@@ -44,6 +44,7 @@
 | 6e | **فاز L — L10n: زبان فقط از Settings** ✅ | [→](#فاز-l--l10n-زبان-فقط-از-settings-step-1--audit--2026-07-07) |
 | 6f | **فاز L2 — Massen-Lokalisierung** ✅ | [→](#فاز-l2--massen-lokalisierung-هیچ-fa-در-حالت-en-l2-ae--l2-f-باز-2026-07-07) |
 | 6g | **فاز L3 — Content-Zweisprachigkeit** ✅ | [→](#فاز-l3--content-zweisprachigkeit-همه-محتواها-faen-l3-ad--e-باز-2026-07-07) |
+| 6h3 | **فاز S — ذخیره‌سازی داده‌ی کاربر** (باز) | [→](#فاز-s--speicherung-der-nutzerdaten-باز-شد-2026-09-15) |
 | 6h2 | **فاز A — خودکارسازی ورود کلمات** (باز) | [→](#فاز-a--automatisierung-der-worterfassung-باز-شد-2026-09-15) |
 | 6h | **فاز V — Vokabular-DB (۲۵k)** (طراحی ✅) | [→](#فاز-v--vokabular-datenbank-آرشیو-بزرگ-۲۵۰۰۰-کلمه-طراحی-نهایی--پیاده‌سازی-باز-2026-07-08) |
 | 7 | Phase 13 — Redemittel 1010 ✅ | [→](#phase-13--redemittel-1010--2026-07-04) |
@@ -841,6 +842,66 @@ Regel 14 (فرم‌ها در سطح Duden)، Regel 15 (حرف اضافه‌ی ث
       حالات یکسان است؛ فقط build-script/توزیع فرق می‌کند. (زمان تصمیم: وقتی حجم بزرگ شد.)
 - **قانون**: هر کلمه‌ی جدید = **۱ فایل** (از `Wort prompt`، بدون بازنویسی بقیه)؛ سورت = query نه فایل؛
   آلمانی تغییرناپذیر؛ FA+EN از ابتدا (اصل ۵ MAP)؛ جمله‌ها هرگز در لیست load نمی‌شوند.
+
+### فاز S — Speicherung der Nutzerdaten [باز شد 2026-09-15]
+> **Anlass:** Frage des Nutzers — wo liegen Fortschritt, Kategorien und Karteninhalte?
+> **Befund (Code gelesen, nicht geraten):** ausschließlich im Browser des Nutzers, und dort
+> auf **zwei** Ablagen verteilt. Es gibt **keinerlei Sicherung** — `core/services/backup_service.dart`
+> ist ein Stub ohne eine Zeile Code.
+
+**Ist-Zustand:**
+| Ablage | Was liegt drin |
+|---|---|
+| drift/SQLite-WASM (IndexedDB, DB-Name `vox`) | `LeitnerCards` (Box, nextReview) für die **alten** Wortschatz-Wörter · `Words`/`Books`/`WordBooks` (eigene Wörter) · `UserCategories`/`CategoryWords` |
+| SharedPreferences (localStorage) | `vokab_user_leitner_v1` (Leitner der **neuen** Archiv-Karten) · `vokab_user_kategorien_v1` · `vokab_user_notizen_v1` · Einstellungen (`theme_mode`, `current_level`, `daily_goal_min`, `ui_language`, tts) · Grammatik-Katalog-Fortschritt |
+
+⚠️ **Der Leitner-Fortschritt liegt in zwei Ablagen in zwei Formaten.** Solange das so ist, muss
+jede Sicherung, jede Synchronisierung und jede Migration **doppelt** geschrieben werden.
+
+**Risiko (belegt):** Safari löscht die script-writable Ablagen (IndexedDB, localStorage) nach
+sieben Tagen Safari-Nutzung **ohne Interaktion mit der Seite** — jede echte Interaktion setzt den
+Zähler zurück, und zur Startseite hinzugefügte Web-Apps sind ausgenommen. Für die iPhone-Nutzer
+von VOX heißt das: eine Woche nicht geöffnet ⇒ Fortschritt **still** weg. Dazu: „Browserdaten
+löschen" trifft alles, und ein anderes Gerät kennt nichts.
+
+**Entscheidung des Nutzers 2026-09-15 — drei Orte, EIN Zuhause:**
+| Ort | Rolle |
+|---|---|
+| **Browser** | Zuhause — die App liest und schreibt immer nur hier |
+| **Server (Supabase, geteilt mit Root-in)** | automatische Kopie; Daten sind winzig (nur Nutzerzustand, keine Wörter) ⇒ dauerhaft im Gratis-Tarif |
+| **Datei (Export/Import)** | Rettungsnetz von Hand — muss **immer** allein genügen |
+⇒ Die App liest **nie** direkt von Server oder Datei; beide dienen nur der Wiederherstellung.
+⚠️ **Der Server darf nie das einzige Netz sein.** Zielgruppe sind Persischsprachige; ein Backend
+kann per Anordnung über Nacht verschwinden (Supabase war Februar 2026 in Indien acht Tage lang
+gesperrt, Auth komplett tot). Der Offline-Weg muss vollständig und selbsttragend bleiben.
+
+**Konfliktregel (Nutzerentscheidung 2026-09-15): „höchstes Fach gewinnt".**
+Beim Zusammenführen zweier Stände wird **nicht** der jüngste Zeitstempel genommen, sondern je
+Karte das höhere Leitner-Fach. Begründung: Lernfortschritt geht nur vorwärts; so geht Offline-
+Arbeit nie verloren. Für Notizen und Kategorien gilt Vereinigung statt Überschreiben.
+
+**Gemeinsame Sicherungs-Hülle (Vertrag mit Root-in, kein geteilter Code):**
+`{ "version": <int>, "exportedAt": <ISO>, "app": "vox" | "root-in", "payload": { … } }`
+Gleiche Hülle, unterschiedliche Nutzlast. In beiden PLAN-Dateien festgehalten.
+
+- [ ] **S.0 EINE Ablage** — `vokab_user_*` von localStorage nach drift; `LeitnerCards` so
+      erweitern, dass es beide Wortquellen trägt (Archiv-Karten haben Text-IDs wie
+      `adjektiv_stolz`, die alten Wörter eine Int-ID); Migration ohne Datenverlust.
+      ⚠️ **BLOCKIERT** — jede Drift-Änderung braucht `build_runner` (`app_database.g.dart`,
+      ~8.000 Zeilen). Claude hat kein Dart, und der nötige CI-Workflow lässt sich nicht pushen
+      (PAT ohne „Workflows"-Recht, siehe فاز A / A.4). **Ein Recht löst beide Blockaden.**
+- [x] **S.1 `persist()` + PWA** ✅ (2026-09-15) — `core/utils/persistent_storage.dart`
+      (bedingter Export wie `external_link_opener`), aus `main.dart` gerufen. Aus Root-in
+      übernommen, Herkunft im Dateikopf vermerkt, `tool/check_vendored.py` überwacht Abweichungen.
+- [ ] **S.2 Export/Import** — `backup_service.dart` ausbauen (heute Stub), Hülle wie oben
+- [ ] **S.3 Supabase-Konto** — `auth_service.dart` aus Root-in übernehmen (~90 % allgemein);
+      `auth.users` geteilt, aber **jedes Repo besitzt seine eigenen Tabellen**:
+      `schema.sql` bleibt in Root-in, VOX bekommt ein eigenes `supabase/vox_tables.sql`
+- [ ] **S.4** Ehrlicher Hinweis in den Einstellungen, solange S.2/S.3 fehlen
+
+**Reihenfolge ist zwingend: S.0 vor S.2 und S.3** — sonst wird jeder Serializer zweimal geschrieben.
+
+---
 
 ### فاز A — Automatisierung der Worterfassung [باز شد 2026-09-15]
 > **مسئله (اندازه‌گیری‌شده، نه حدس):** Pipeline سالم است؛ گلوگاه **انسانی** است. از ۲۰۲۶-۰۷-۱۴ تا
