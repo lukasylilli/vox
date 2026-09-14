@@ -2,12 +2,18 @@
 
 > ⚠️ **2026-09-13 — Umbau zur reinen Web-App:** android/ios/macos/linux/windows, RevenueCat (Abos) und lokale Notifications wurden entfernt. VOX läuft nur noch als kostenlose Flutter-Web-App auf GitHub Pages (DB: drift + SQLite-WASM). Ältere Einträge unten beschreiben teils den früheren nativen Stand.
 > ⚠️ **2026-09-13 — Habit/Routine entfernt, Root-in-Verlinkung.** VOX bleibt dauerhaft ein eigenes Repo (`github.com/lukasylilli/vox`), getrennt von Root-in (`github.com/lukasylilli/Root-in`, live unter `lukasylilli.github.io/Root-in/`) — bewusst KEIN Code-Merge, damit Nutzer, die nur die Routine-App brauchen, sie eigenständig nutzen können. In Selbstlernen ersetzt die Karte **„Routine"** die frühere „Habit Maker"-Karte und öffnet Root-in per Link in einem neuen Tab (`core/constants/app_links.dart` → `rootInUrl`, geöffnet über `core/utils/external_link_opener.dart`). Entfernt: `habit_maker_screen.dart`, `habit_stats_screen.dart`, `habit_day_selector_widget.dart`, `streak_chart_widget.dart`, `core/database/dao/habit_dao.dart`, alle Habit-Provider in `selbstlernen_controller.dart` und die „verknüpfte Gewohnheit"-Auswahl im Pomodoro-Timer (Pomodoro selbst bleibt unverändert als eigenständiger Fokus-Timer). Die Drift-Tabellen `Habits`/`HabitSessions` bleiben vorerst im Schema (kein Downgrade) — unbenutzt, entfernbar in einer künftigen Migration. ⚠️ **Lehre:** `package:web` darf nie ungeschützt importiert werden — bricht `flutter test` auf der VM, `flutter analyze` merkt es nicht. Bedingter Export nach Root-in-Vorbild (`external_link_opener_io.dart` / `_web.dart`).
+> ⚠️ **2026-09-15 — Voll-Audit von Code + Daten (Claude, direkt über die GitHub-API).** Befunde, die die Planung ändern:
+> **(1) Die `✓ `-Markierungen in `old files Lukasalmani/Wörter/*.txt` sind NICHT mehr die Wahrheit.** Gezählt: `assets/vocab/` enthält **87 Karten** (alle `schema: "3.0"`, kein kaputtes JSON) — davon **76 Verben**; markiert ist aber nur `✓ warten` (+ 3 Adjektive, 1 Nomen). 45 dieser Verbkarten stehen unmarkiert in den txt-Listen, 31 stehen dort gar nicht (sie stammen aus dem Dativ/Akkusativ-Deck, nicht aus dem alphabetischen Backlog). ⇒ **Neue Regel: einzige Wahrheit ist `assets/vocab/`; die `✓ `-Marken werden daraus abgeleitet (Sync-Skript), nicht mehr von Hand gesetzt.**
+> **(2) Harte Obergrenze im Laufzeit-Pfad gefunden.** `lib/features/vokabular/controllers/vokabular_controller.dart` lädt beim Start **jede** Datei aus `assets/vocab/` über den `AssetManifest` und dekodiert sie vollständig in den Speicher. Bei 87 Karten unauffällig, bei einigen Tausend startet die Web-App nicht mehr sinnvoll. ⇒ **V.2 (`vocab.db`) ist keine „später"-Aufgabe mehr, sondern die Voraussetzung für die Automatisierung** (siehe فاز A).
+> **(3) Doku-Drift korrigiert:** B-3 / R-1.1 sind im Code längst erledigt (`stripPreposition()` in `word_list_item.dart`) und werden hier auf ✅ gesetzt. Die README nennt unter „Selbstlernen" noch „Gewohnheiten, Streaks" — seit 2026-09-13 falsch (Habit entfernt, Root-in-Link).
+> **(4) Entscheidung des Nutzers 2026-09-15:** Die Wörter werden **weiter alphabetisch** abgearbeitet (nicht nach Häufigkeit sortiert) — der Durchsatz kommt aus der Automatisierung, nicht aus der Reihenfolge.
+
 # پلن کامل صفر تا انتشار اپ یادگیری آلمانی برای فارسی‌زبانان
-# آپدیت: 2026-07-07
+# آپدیت: 2026-09-15
 
 ---
 
-## 🎯 وضعیت فعلی (2026-07-07)
+## 🎯 وضعیت فعلی (2026-09-15)
 | فاز | وضعیت | خلاصه |
 |-----|-------|-------|
 | **G — Grammatik Vollausbau** | G1+G2 ✅ / G3–G8 باز | کاتالوگ ۹۳ موضوع + LektionScreen live (۴ درس واقعی)؛ نقشه: `GRAMMATIK_MAP.md` |
@@ -15,10 +21,10 @@
 | **L — L10n: زبان فقط از Settings** | ✅ | ۶ سوییچ حذف، Dual-Display صفر، AppL10n تنها منبع |
 | **L2 — Massen-Lokalisierung** | ✅ | ۶۴۱→۴۱ رشته FA در UI (کاتالوگ ۵۳۷=۵۳۷)؛ باقی در L3 |
 | **L3 — Content-Zweisprachigkeit** | ✅ | **همه محتواها FA+EN** (JSON + صفحات + دیتابیس)؛ audit ۰؛ کاتالوگ ۵۶۵=۵۶۵؛ helper AppL10n.loc؛ MemorizeItems.meaningEn (schema v2) |
-| **V — Vokabular-DB (۲۵٬۰۰۰ کلمه)** | Stufen ۱–۵ ✅ — **ورود کلمات شروع شد (2026-07-14)** | کل مسیر فعال: SUPER-PROMPT v3.0 → import_inbox/ → tool/vokabular_import.dart (Validierung+Duplikat-Schutz+Bericht) → اپ. Workflow ثابت: بخش V «جریان ورود کلمات»؛ پیشرفت فقط با مارک `✓ ` در فایل‌های txt. باز: اتصال Leitner-Lernmodus به imLeitner؛ V.2 vocab.db وقتی حجم زیاد شد؛ V.5 توزیع |
+| **V — Vokabular-DB (۲۵٬۰۰۰ کلمه)** | Stufen ۱–۵ ✅ · **۸۷ کارت** (۰٫۳٪ از ~۲۶٬۲۰۰) · گلوگاه = سرعت، نه کد | Pipeline کامل و سالم: SUPER-PROMPT v3.0 → `import_inbox/` → `tool/vokabular_import.dart` → اپ. از ۱۴ جولای تا ۱۵ سپتامبر (۲ ماه) فقط چند کلمه اضافه شد ⇒ **فاز A (خودکارسازی) باز شد.** باز: V.2 `vocab.db` (حالا **پیش‌شرط**، نه اختیاری) · اتصال Leitner به imLeitner · V.5 توزیع |
 | ۱۶ — انتشار و QA نهایی | باز | آخرین فاز قبل از launch |
 
-**قدم‌های بعدی پیشنهادی:** ① فاز V (وقتی کاربر schema + اولین کلمه را فرستاد) ② G3–G6 (استخراج محتوای ۸۴ درس) ③ فاز ۱۶ launch/QA
+**قدم‌های بعدی (2026-09-15):** ① **فاز A** — خودکارسازی تولید کلمات (Generator + Sync + CI) ② **V.2** `vocab.db` — قبل از اینکه تعداد کارت‌ها از چند صد بگذرد، وگرنه startup می‌شکند ③ G3–G6 (استخراج محتوای ۸۴ درس) ④ فاز ۱۶ launch/QA
 
 ---
 
@@ -38,6 +44,7 @@
 | 6e | **فاز L — L10n: زبان فقط از Settings** ✅ | [→](#فاز-l--l10n-زبان-فقط-از-settings-step-1--audit--2026-07-07) |
 | 6f | **فاز L2 — Massen-Lokalisierung** ✅ | [→](#فاز-l2--massen-lokalisierung-هیچ-fa-در-حالت-en-l2-ae--l2-f-باز-2026-07-07) |
 | 6g | **فاز L3 — Content-Zweisprachigkeit** ✅ | [→](#فاز-l3--content-zweisprachigkeit-همه-محتواها-faen-l3-ad--e-باز-2026-07-07) |
+| 6h2 | **فاز A — خودکارسازی ورود کلمات** (باز) | [→](#فاز-a--automatisierung-der-worterfassung-باز-شد-2026-09-15) |
 | 6h | **فاز V — Vokabular-DB (۲۵k)** (طراحی ✅) | [→](#فاز-v--vokabular-datenbank-آرشیو-بزرگ-۲۵۰۰۰-کلمه-طراحی-نهایی--پیاده‌سازی-باز-2026-07-08) |
 | 7 | Phase 13 — Redemittel 1010 ✅ | [→](#phase-13--redemittel-1010--2026-07-04) |
 | 8 | Phase 12 — Unregelmäßige Verben ✅ | [→](#phase-12--unregelmäßige-verben--2026-07-03) |
@@ -79,11 +86,10 @@
 ### B-2: خطای SQLite — UNIQUE constraint در words ✅
 - وضعیت: رفع شد (2026-06-29)
 
-### B-3: Wortschatz — نمایش کلمه با حرف اضافه در لیست [باید رفع شود]
-- مشکل: کلمات Präpositionen مثل "das Engagement für" در لیست Wortschatz نمایش داده می‌شوند
-- درست: در لیست فقط "das Engagement" — حرف اضافه فقط در detail view
-- فایل: `word_list_item.dart`
-- راه‌حل: `_stripPreposition(german)` helper
+### B-3: Wortschatz — نمایش کلمه با حرف اضافه در لیست ✅
+- مشکل: کلمات Präpositionen مثل "das Engagement für" در لیست Wortschatz نمایش داده می‌شدند
+- رفع: `stripPreposition(german)` در `word_list_item.dart` (۲۱ حرف اضافه) — در لیست فقط "das Engagement"؛ detail view کامل می‌ماند
+- وضعیت: **رفع شده — تأیید با خواندن کد در Audit 2026-09-15** (قبلاً اشتباهاً «باز» ثبت شده بود)
 
 ### B-4: Grammatik home — لینک به صفحه لیست به جای گرامر ✅
 - مشکل: `_GrammarSection` tiles به list screens می‌رفتند (konnektoren، dativ، praep)
@@ -95,7 +101,7 @@
 ## فاز R — Refactor & UX (فاز جاری — بعد از رفع باگ‌ها)
 
 ### R-1: Wortschatz — نمایش پاک کلمه در لیست
-- [ ] R-1.1 `word_list_item.dart`: `german` را با `_stripPreposition(german)` نمایش بده
+- [x] R-1.1 ✅ (تأیید 2026-09-15) `word_list_item.dart`: `german` با `stripPreposition(german)` نمایش داده می‌شود
   - حرف اضافه‌ها: `für`, `auf`, `an`, `über`, `mit`, `von`, `zu`, `bei`, `nach`, `aus`, `in`, `um`
   - اگر `german` = "das Engagement für" → display: "das Engagement"
   - detail view: همه اطلاعات شامل حرف اضافه باقی می‌ماند
@@ -742,8 +748,10 @@ lib/core/services/
    (route `/vokabular/wort/:id`)؛ همین فایل‌ها بعداً عیناً به cloud/توزیع Android+iOS می‌روند (V.5).
 6. **مارک کردن**: در فایل txt، خط کلمه پیشوند `✓ ` می‌گیرد (مثال: `✓ aalartig`). batch-فایل در
    import_inbox بعد از import قابل حذف است (منبع حقیقت = assets/vocab/).
-**پیشرفت در PLAN/MAP ثبت نمی‌شود (تصمیم کاربر 2026-07-14):** تنها منبع پیشرفت = مارک‌های `✓ `
-در خود فایل‌های txt؛ تنها منبع محتوا = فایل‌های `assets/vocab/`. این دو سند فقط «چگونه» را نگه می‌دارند.
+**پیشرفت در PLAN/MAP ثبت نمی‌شود (تصمیم کاربر 2026-07-14):** این دو سند فقط «چگونه» را نگه می‌دارند.
+⚠️ **اصلاح 2026-09-15 (Audit):** مارک‌های `✓ ` دستی از واقعیت عقب افتاده بودند (۸۷ کارت موجود، ۶ مارک).
+**قانون جدید: تنها منبع حقیقت = `assets/vocab/`.** مارک‌های `✓ ` دیگر دستی زده نمی‌شوند، بلکه
+`tool/sync_backlog.py` آن‌ها را از روی فایل‌های موجود بازسازی می‌کند (قدم ۶ پایین خودکار شد).
 
 **🧩 D — Deck-Vervollständigung nach Wort-prompt-Standard (۸ دِک زنده، 2026-07-15):**
 هدف: ۸ دِک زنده‌ی Auswendiglernen (Konnektoren، Dativ+Akk، Präp-Cluster، Unregelm، Trennbar،
@@ -823,6 +831,8 @@ Regel 14 (فرم‌ها در سطح Duden)، Regel 15 (حرف اضافه‌ی ث
       کلمات واقعی از این پس via `import_inbox/` + `tool/vokabular_import.dart` (مرحله ۵ بالا)
 - [ ] **V.2** build-script (Dart/Python): فایل‌های کلمه → `vocab.db` (words/word_tags/sentences + index ها)
       + خواندن txt های `Wörter/` برای backlog کلمات (کدام غنی شده، کدام نه)
+      ⚠️ **ارتقا به «پیش‌شرط» (Audit 2026-09-15):** `vokabular_controller` همه‌ی کارت‌ها را در startup
+      می‌خواند ⇒ بدون V.2 خودکارسازی (فاز A) اپ را می‌شکند. سقف امن تا آن زمان ~۵۰۰ کارت.
 - [ ] **V.3** اپ: کپی prebuilt `vocab.db` در first-launch (نه seed) + DAO + provider های سورت
 - [ ] **V.4** UI: **لیست فقط words (سریع/paginated)** + detail با جمله‌های lazy + **چند سورت هم‌زمان**
       (A1–C2 / kasus / wortart / thema — هر کدام index+query روی همان جدول)
@@ -831,6 +841,36 @@ Regel 14 (فرم‌ها در سطح Duden)، Regel 15 (حرف اضافه‌ی ث
       حالات یکسان است؛ فقط build-script/توزیع فرق می‌کند. (زمان تصمیم: وقتی حجم بزرگ شد.)
 - **قانون**: هر کلمه‌ی جدید = **۱ فایل** (از `Wort prompt`، بدون بازنویسی بقیه)؛ سورت = query نه فایل؛
   آلمانی تغییرناپذیر؛ FA+EN از ابتدا (اصل ۵ MAP)؛ جمله‌ها هرگز در لیست load نمی‌شوند.
+
+### فاز A — Automatisierung der Worterfassung [باز شد 2026-09-15]
+> **مسئله (اندازه‌گیری‌شده، نه حدس):** Pipeline سالم است؛ گلوگاه **انسانی** است. از ۲۰۲۶-۰۷-۱۴ تا
+> ۲۰۲۶-۰۹-۱۵ — دو ماه — تعداد کارت‌ها به ۸۷ رسید (۰٫۳٪ از ~۲۶٬۲۰۰). با همین آهنگ پروژه هرگز تمام نمی‌شود.
+> **تصمیم کاربر:** ترتیب **الفبایی** می‌ماند؛ سرعت از خودکارسازی می‌آید.
+
+**اصل راهنما: فقط «تولید» خودکار می‌شود، نه «اعتبارسنجی».** اعتبارسنجی همچنان تنها و تنها
+`vokabPruefeKarte` در `lib/features/vokabular/data/vokab_schema.dart` است (یک منبع برای اپ + تول + CI).
+هیچ منطق validation دومی نوشته نمی‌شود — هر ابزار کمکی فقط «pre-flight» است و حرف آخر را Dart می‌زند.
+
+- [ ] **A.1 `tool/backlog.py`** — backlog reader: از `old files Lukasalmani/Wörter/*.txt` و
+      `assets/vocab/` حساب می‌کند **کلمه‌ی بعدی کدام است** (بر اساس فایل‌های موجود، نه مارک‌ها).
+      خروجی: لیست N کلمه‌ی بعدی به ترتیب الفبا + گزارش پوشش per Wortart.
+- [ ] **A.2 `tool/sync_backlog.py`** — مارک‌های `✓ ` را از روی `assets/vocab/` بازسازی می‌کند
+      (رفع ناهماهنگی Audit). idempotent؛ `--dry-run` دارد.
+- [ ] **A.3 `tool/generate_words.py`** — Generator: N کلمه از A.1 می‌گیرد، SUPER-PROMPT v3.0 را
+      از `old files Lukasalmani/Wort prompt` می‌خواند (**یک منبع** — کپی نمی‌شود)، batch را به
+      Anthropic API می‌فرستد، خروجی را pre-flight می‌کند و در `import_inbox/` می‌نویسد.
+      ⚠️ نیاز به `ANTHROPIC_API_KEY` (Secret) — هزینه دارد و باید شفاف گزارش شود.
+- [ ] **A.4 `.github/workflows/vokabular-autofill.yml`** — `workflow_dispatch` (+ اختیاری `schedule`):
+      A.3 → `dart run tool/vokabular_import.dart` (اعتبارسنجی واقعی) → A.2 → `flutter analyze` +
+      `flutter test` → commit. **اگر Fehler > 0 یا تست قرمز: هیچ چیز commit نمی‌شود.**
+      ورودی‌ها: `anzahl` (چند کلمه)، `gruppe` (adjektive/verben/nomen)، `dry_run`.
+- [ ] **A.5** گزارش: هر اجرا یک خلاصه در Job-Summary (چند کلمه، چند Warnung، هزینه‌ی تقریبی).
+
+**⚠️ ترتیب اجباری:** A.1/A.2 بی‌خطرند و می‌توانند همین حالا بروند. **A.3/A.4 نباید قبل از V.2
+فعال شوند** — چون `vokabular_controller` همه‌ی کارت‌ها را در startup می‌خواند و یک اجرای موفق
+با چند هزار کلمه اپ زنده را می‌شکند. سقف امن فعلی: **~۵۰۰ کارت**.
+
+---
 
 ### فاز L — L10n: زبان فقط از Settings [Step 1 ✅ Audit — 2026-07-07]
 > قوانین کاربر (blueprint 2026-07-07):
