@@ -24,7 +24,7 @@
 | **V — Vokabular-DB (۲۵٬۰۰۰ کلمه)** | Stufen ۱–۵ ✅ · **۸۷ کارت** (۰٫۳٪ از ~۲۶٬۲۰۰) · گلوگاه = سرعت، نه کد | Pipeline کامل و سالم: SUPER-PROMPT v3.0 → `import_inbox/` → `tool/vokabular_import.dart` → اپ. از ۱۴ جولای تا ۱۵ سپتامبر (۲ ماه) فقط چند کلمه اضافه شد ⇒ **فاز A (خودکارسازی) باز شد.** باز: V.2 `vocab.db` (حالا **پیش‌شرط**، نه اختیاری) · اتصال Leitner به imLeitner · V.5 توزیع |
 | ۱۶ — انتشار و QA نهایی | باز | آخرین فاز قبل از launch |
 
-**قدم‌های بعدی (2026-09-15):** ① **فاز A** — خودکارسازی تولید کلمات (Generator + Sync + CI) ② **V.2** `vocab.db` — قبل از اینکه تعداد کارت‌ها از چند صد بگذرد، وگرنه startup می‌شکند ③ G3–G6 (استخراج محتوای ۸۴ درس) ④ فاز ۱۶ launch/QA
+**قدم‌های بعدی (2026-09-15):** ① **فاز A** — A.1/A.2/A.3/A.5 ✅ · A.4 بلاک (مجوز Workflows در توکن) ② **V.2** `vocab.db` — قبل از اینکه تعداد کارت‌ها از چند صد بگذرد، وگرنه startup می‌شکند ③ G3–G6 (استخراج محتوای ۸۴ درس) ④ فاز ۱۶ launch/QA
 
 ---
 
@@ -851,20 +851,20 @@ Regel 14 (فرم‌ها در سطح Duden)، Regel 15 (حرف اضافه‌ی ث
 `vokabPruefeKarte` در `lib/features/vokabular/data/vokab_schema.dart` است (یک منبع برای اپ + تول + CI).
 هیچ منطق validation دومی نوشته نمی‌شود — هر ابزار کمکی فقط «pre-flight» است و حرف آخر را Dart می‌زند.
 
-- [ ] **A.1 `tool/backlog.py`** — backlog reader: از `old files Lukasalmani/Wörter/*.txt` و
+- [x] **A.1 `tool/backlog.py`** ✅ (2026-09-15) — backlog reader: از `old files Lukasalmani/Wörter/*.txt` و
       `assets/vocab/` حساب می‌کند **کلمه‌ی بعدی کدام است** (بر اساس فایل‌های موجود، نه مارک‌ها).
       خروجی: لیست N کلمه‌ی بعدی به ترتیب الفبا + گزارش پوشش per Wortart.
-- [ ] **A.2 `tool/sync_backlog.py`** — مارک‌های `✓ ` را از روی `assets/vocab/` بازسازی می‌کند
+- [x] **A.2 `tool/sync_backlog.py`** ✅ (2026-09-15) — **اجرا شد: ۴۵ مارک نو، ۰ حذف؛ اجرای دوم بدون تغییر (idempotent)** — مارک‌های `✓ ` را از روی `assets/vocab/` بازسازی می‌کند
       (رفع ناهماهنگی Audit). idempotent؛ `--dry-run` دارد.
-- [ ] **A.3 `tool/generate_words.py`** — Generator: N کلمه از A.1 می‌گیرد، SUPER-PROMPT v3.0 را
+- [x] **A.3 `tool/generate_words.py`** ✅ (2026-09-15) — با `--dry-run` تست شد؛ سقف امن ۵۰۰ کارت سخت‌کد شده (`--grenze`) — Generator: N کلمه از A.1 می‌گیرد، SUPER-PROMPT v3.0 را
       از `old files Lukasalmani/Wort prompt` می‌خواند (**یک منبع** — کپی نمی‌شود)، batch را به
       Anthropic API می‌فرستد، خروجی را pre-flight می‌کند و در `import_inbox/` می‌نویسد.
       ⚠️ نیاز به `ANTHROPIC_API_KEY` (Secret) — هزینه دارد و باید شفاف گزارش شود.
-- [ ] **A.4 `.github/workflows/vokabular-autofill.yml`** — `workflow_dispatch` (+ اختیاری `schedule`):
+- [!] **A.4 `.github/workflows/vokabular-autofill.yml`** — **بلاک: توکن اجازه ندارد.** فایل نوشته و YAML-تست شده، ولی `PUT` با «Resource not accessible by personal access token» رد شد: fine-grained PAT برای `.github/workflows/` مجوز جداگانه‌ی **«Workflows: Read and write»** می‌خواهد (فقط «Contents» کافی نیست). راه‌حل: یا مجوز به توکن اضافه شود، یا Lukas فایل را یک‌بار دستی در GitHub بسازد. — `workflow_dispatch` (+ اختیاری `schedule`):
       A.3 → `dart run tool/vokabular_import.dart` (اعتبارسنجی واقعی) → A.2 → `flutter analyze` +
       `flutter test` → commit. **اگر Fehler > 0 یا تست قرمز: هیچ چیز commit نمی‌شود.**
       ورودی‌ها: `anzahl` (چند کلمه)، `gruppe` (adjektive/verben/nomen)، `dry_run`.
-- [ ] **A.5** گزارش: هر اجرا یک خلاصه در Job-Summary (چند کلمه، چند Warnung، هزینه‌ی تقریبی).
+- [x] **A.5** ✅ گزارش: هر اجرا یک خلاصه در Job-Summary (چند کلمه، چند Warnung، هزینه‌ی تقریبی).
 
 **⚠️ ترتیب اجباری:** A.1/A.2 بی‌خطرند و می‌توانند همین حالا بروند. **A.3/A.4 نباید قبل از V.2
 فعال شوند** — چون `vokabular_controller` همه‌ی کارت‌ها را در startup می‌خواند و یک اجرای موفق
