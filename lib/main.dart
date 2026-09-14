@@ -1,7 +1,5 @@
 // FILE: lib/main.dart
 // PURPOSE: Entry point (Web) — dauerhafter Speicher (S.1), Vokabel-Seeding, ProviderScope
-import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -17,10 +15,13 @@ Future<void> main() async {
 
   // فاز S / S.1: Den Browser bitten, den Speicher dieser Seite dauerhaft zu
   // behalten. Reine Bitte, keine Garantie — darf den Start nie aufhalten,
-  // deshalb bewusst ohne await und ohne Anzeige.
-  unawaited(requestPersistentStorage().then((dauerhaft) {
-    debugPrint('Dauerhafter Speicher: ${dauerhaft ? 'zugesagt' : 'nicht zugesagt'}');
-  }).catchError((Object e) => debugPrint('persist() fehlgeschlagen: $e')));
+  // deshalb wie beim Seeding unten in try/catch.
+  try {
+    final dauerhaft = await requestPersistentStorage();
+    debugPrint('Dauerhafter Speicher: $dauerhaft');
+  } catch (e) {
+    debugPrint('Dauerhafter Speicher konnte nicht erbeten werden: $e');
+  }
 
   // Seed vocabulary from JSON files into SQLite (runs once on first launch).
   // Fehler dürfen den App-Start NIE blockieren (weißer Bildschirm) — die
