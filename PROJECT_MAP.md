@@ -1,8 +1,15 @@
 # PROJECT MAP — VOX
 # نقشه کامل پروژه برای ناوبری سریع در هر session
-# آپدیت: 2026-07-08
+# آپدیت: 2026-09-15
 # ⚠️ 2026-09-13: Umbau zur reinen Web-App — android/ios/macos/linux/windows, RevenueCat & Notifications entfernt; ältere Einträge beschreiben teils den nativen Stand
 # ⚠️ 2026-09-13: Habit/Routine entfernt — Root-in (eigenes Repo, lukasylilli.github.io/Root-in/) übernimmt das, verlinkt aus Selbstlernen ("Routine"-Karte, core/constants/app_links.dart + core/utils/external_link_opener.dart). Pomodoro bleibt unverändert.
+# ⚠️ 2026-09-15 Audit (Claude, über GitHub-API): ۲۵۳ فایل Dart (بدون .g.dart) · ~۴۱٬۴۰۰ خط
+#   · assets/vocab/ = ۸۷ کارت، همه schema 3.0، بدون JSON خراب (۷۶ verb · ۳ adjektiv · ۸ بقیه)
+#   · ⚠️ vokabular_controller.dart همه کارت‌ها را در startup می‌خواند ⇒ سقف امن ~۵۰۰ کارت؛ V.2 پیش‌شرط شد
+#   · ⚠️ مارک‌های ✓ در Wörter/*.txt از واقعیت عقب‌اند ⇒ منبع حقیقت = assets/vocab/ (tool/sync_backlog.py)
+#   · B-3 / R-1.1 در کد رفع شده‌اند (stripPreposition در word_list_item.dart) — در BACKLOG اصلاح شد
+#   · README قدیمی: «Selbstlernen — Gewohnheiten, Streaks» (Habit از 2026-09-13 حذف شده)
+#   · فاز A (خودکارسازی ورود کلمات) باز شد — PLAN.md → «فاز A»
 #
 # 🎯 وضعیت: ۲۴۴ فایل Dart (۱۶۳ features + ۷۷ core) — analyze سبز
 # فاز V (Vokabular-DB ۲۵k) طراحی شد — کجا کلمات ذخیره می‌شوند + معماری آینده: بخش «فاز V» + Services
@@ -1037,11 +1044,11 @@ data_seed_service.dart  [x]  — یک‌بار seed از JSON asset به SQLite 
 
 ## BACKLOG / UPCOMING CHANGES
 
-### B-3 [فوری]: Wortschatz — حرف اضافه در display
-- **مشکل**: کلمات Präpositionen (مثل "das Engagement für") در لیست Wortschatz با حرف اضافه نمایش می‌شوند
-- **درست**: لیست → فقط lemma ("das Engagement") | detail view → همه اطلاعات
-- **فایل**: `word_list_item.dart` — نیاز به `_stripPreposition(german)` helper
-- **حرف اضافه‌ها**: für، auf، an، über، mit، von، zu، bei، nach، aus، in، um
+### B-3 ✅ (تأیید Audit 2026-09-15): Wortschatz — حرف اضافه در display
+- در کد رفع شده: `stripPreposition(german)` در `lib/features/wortschatz/widgets/word_list_item.dart`
+  (مجموعه‌ی ۲۱ حرف اضافه؛ آخرین توکن اگر حرف اضافه بود حذف می‌شود)
+- لیست: «das Engagement» · detail view: کامل با حرف اضافه
+- ⚠️ تا 2026-09-15 اشتباهاً «فوری/باز» ثبت شده بود
 
 ### R-1 [ضروری]: Auswendiglernen Präpositionen — full form در لیست
 - **درست**: لیست Auswendiglernen از Präpositionen → فرمت: "lemma · حرف‌اضافه"
