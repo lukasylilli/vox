@@ -17,6 +17,13 @@
 #   · فاز A (خودکارسازی ورود کلمات) باز شد — PLAN.md → «فاز A»
 #   · فاز S (ذخیره‌سازی داده‌ی کاربر) — S.0–S.5 ✅ (S.4 ehrlicher Hinweis 2026-09-16)؛ باز: S.6 + S.3 Konto löschen
 #
+# 🚀 2026-09-16 تصمیم Lukas — ترتیب جدید (PLAN.md → «فاز LAUNCH»):
+#   اپ زودتر و به‌صورت نسخه‌ی نهایی منتشر می‌شود؛ کلمه‌ها آخرین مرحله‌اند و بعد از انتشار روزانه اضافه می‌شوند.
+#   L.1 امنیت لایتنر (S.6, V.2, نگهبان شناسه‌ها, تست مهاجرت) → L.2 کامل بودن محتوا → L.3 انتشار → L.4 کلمه‌ها
+#   Audit محتوا: Redemittel/Goethe/ÖSD B2/Konnektoren/NVV/Präp/Dativ = کامل نسبت به منبع.
+#   باز: ÖSD C1 (۶ عبارت، بدون منبع) · A1/A2 Wortschatz (۱٬۰۶۳ کلمه در old files/1، در اپ استفاده نشده) ·
+#   گرامر ۴/۸۴ · deckهای «به‌زودی» در core/services/feature_flags.dart
+#   ⚠️ شناسه‌ی کارت منتشرشده در assets/vocab/ هرگز حذف/عوض نشود — لایتنر کاربر به آن اشاره می‌کند.
 # 🎯 وضعیت: ۲۴۴ فایل Dart (۱۶۳ features + ۷۷ core) — analyze سبز
 # فاز V (Vokabular-DB ۲۵k) طراحی شد — کجا کلمات ذخیره می‌شوند + معماری آینده: بخش «فاز V» + Services
 # فازهای اخیر: G1 گرامر-کاتالوگ ✅ · B دکمه‌ها (Puzzling) ✅ · L زبان-فقط-Settings ✅
@@ -1107,6 +1114,7 @@ die Fassade, die allein `NutzerZustand` nach außen zeigt.
 | `core/services/auth_service.dart` | **S.3 ✅** — einzige Stelle, die `supabase_flutter` kennt. ⚠️ **Kein Benutzername** (`profiles` gehört Root-in) und **kein `deleteAccount()`** (löscht `auth.users` und damit auch den Root-in-Bestand desselben Menschen). Gibt `AuthResult` zurück statt zu werfen; `AuthIssue` wird in der Oberfläche übersetzt, nicht hier |
 | `supabase/vox_tables.sql` | **S.3 ✅** — `vox_backups`, eine Zeile je Konto. ⚠️ **Nicht** `backups` — die gehört Root-in und hat dieselbe `user_id` als Primärschlüssel; geteilt hieße: eine App überschreibt die Sicherung der anderen. `touch_updated_at()` zeichengleich zu `schema.sql` in Root-in — Änderung immer in BEIDEN Dateien |
 | `features/more/screens/settings_screen.dart` → `_KontoKarte` | **S.3 Schritt 2 ✅** — anmelden/registrieren/abmelden; nur sichtbar bei `kontoAktivProvider`. `AuthIssue` wird hier übersetzt (`_kontoFehlerText`). Noch **ohne** Cloud-Kopie — das ist Schritt 3 |
+| `core/services/feature_flags.dart` | **L.2d** — deckهای «به‌زودی»: قبل از انتشار یا پر شوند یا `hidden` (نسخه‌ی نهایی دکمه‌ی بی‌محتوا ندارد) |
 | `core/backup/cloud_abgleich.dart` | **S.3 Schritt 3** — holen → zusammenführen → nur bei Änderung hochladen; kennt kein Supabase |
 | `core/services/cloud_ablage_supabase.dart` | echte `CloudAblage` (`vox_backups`); zweite und letzte Datei mit `supabase_flutter` |
 | `features/more/controllers/konto_abgleich.dart` | wann abgeglichen wird (Anmeldung/Start, alle 5 Min., Knopf); `kontoAbgleichStarterProvider` in `app.dart` |
