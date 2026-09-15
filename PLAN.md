@@ -968,7 +968,23 @@ Gleiche Hülle, unterschiedliche Nutzlast. In beiden PLAN-Dateien festgehalten.
 S.0 braucht `build_runner` und ist gesperrt. Statt zu warten, kommt eine **Fassade** davor —
 reines Dart, kein Codegen:
 
-- [ ] **S.0a `features/vokabular/data/user_state_repository.dart`** — die **einzige** Stelle, über
+- [x] **S.0a-1 `core/backup/nutzer_zustand.dart`** ✅ (2026-09-15, CI grün) — **der Vertrag**.
+      Reines Dart, kennt weder drift noch SharedPreferences noch Flutter, deshalb vollständig
+      prüfbar (`test/nutzer_zustand_test.dart`, 12 Fälle). Enthält:
+      · `NutzerZustand` — leitner · kategorien · notizen · einstellungen · eigeneWoerter
+      · Hülle `{version, exportedAt, app, payload}` mit `sicherungSchreiben`/`sicherungLesen`;
+        fehlerhafte Dateien werfen `SicherungFehler` mit einem Grund, den man zeigen kann
+      · `zusammenfuehren()` mit der Regel **höchstes Fach gewinnt** — getestet auch im Fall,
+        dass der ÄLTERE Stand das höhere Fach hat (Offline-Arbeit darf nie verloren gehen),
+        und auf Reihenfolge-Unabhängigkeit (a+b == b+a)
+      ⚠️ **Wichtige Festlegung: Leitner-IDs sind Text, nie die drift-Nummer.** Archivkarten
+      `adjektiv_stolz`, eigene Wörter `eigen:<wort>|<wortart>` (genau der eindeutige Schlüssel
+      der Tabelle `Words`). Die fortlaufende `id` bezeichnet auf einem anderen Gerät ein anderes
+      Wort — sie darf niemals in eine Sicherung geraten.
+- [ ] **S.0a-2 `user_state_repository.dart`** — die Fassade verdrahten: liest/schreibt
+      `NutzerZustand` gegen die heutigen zwei Ablagen (drift + SharedPreferences).
+      Ab dann kennt alles oberhalb nur noch den Vertrag.
+- [ ] ~~S.0a~~ (alt) `features/vokabular/data/user_state_repository.dart` — die **einzige** Stelle, über
       die künftig Nutzerzustand gelesen und geschrieben wird. Heute liegt darunter weiterhin
       beides (drift + SharedPreferences); nach außen sieht es aus wie eine Ablage.
 - [ ] **S.0b** (nach dem Workflow-Recht): die Ablage unter der Fassade auf drift umstellen.

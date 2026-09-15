@@ -1081,6 +1081,8 @@ Wer Sicherung, Sync oder Migration baut, bevor S.0 fertig ist, schreibt alles do
 | `core/utils/install_state.dart` (+ `install_hinweis.dart`, `_io`/`_web`) | **S.1b ✅** — erkennt, ob VOX als Web-App installiert ist, sonst Anleitung je Plattform. Der Aufzählungstyp liegt bewusst in einer eigenen Datei (sonst Import-Kreis mit der Weiche) |
 | `features/more/screens/settings_screen.dart` → `_SpeicherKarte` | zeigt diese Einladung unter «داده‌ی من» |
 | `test/l10n_paritaet_test.dart` | hält FA/EN-Schlüssel synchron. MaterialApp-Aufbau **muss** `Global*Localizations` nutzen — `Default*Localizations` kennen kein Farsi |
+| `core/backup/nutzer_zustand.dart` | **S.0a-1 ✅ — DER VERTRAG.** Was einem Nutzer gehört + Hülle `{version, exportedAt, app, payload}` + `zusammenfuehren()` („höchstes Fach gewinnt"). Reines Dart, ohne drift/prefs/Flutter. ⚠️ Leitner-IDs sind Text (`adjektiv_stolz`, `eigen:<wort>\|<wortart>`) — die drift-Nummer gehört NIE in eine Sicherung |
+| `test/nutzer_zustand_test.dart` | 12 Fälle, darunter: älterer Stand mit höherem Fach gewinnt; a+b == b+a; Notizen werden nie zusammengeklebt |
 | `core/services/backup_service.dart` | **S.2 offen** — Export/Import, heute nur Kommentar |
 | `test/persistent_storage_test.dart` | prüft, dass auf der Dart-VM die io-Fassung greift |
 
