@@ -44,15 +44,19 @@ class ImportService {
       final meaningFa = cols[1];
       if (german.isEmpty || meaningFa.isEmpty) { skipped++; continue; }
 
+      final wordType =
+          cols.length > 2 && cols[2].isNotEmpty ? cols[2] : 'andere';
       try {
         await _db.into(_db.words).insertOnConflictUpdate(WordsCompanion.insert(
           german    : german,
           meaningFa : meaningFa,
-          wordType  : cols.length > 2 && cols[2].isNotEmpty ? cols[2] : 'andere',
+          wordType  : wordType,
           level     : Value(cols.length > 3 && cols[3].isNotEmpty ? cols[3] : null),
           article   : Value(cols.length > 4 && cols[4].isNotEmpty ? cols[4] : null),
           plural    : Value(cols.length > 5 && cols[5].isNotEmpty ? cols[5] : null),
         ));
+        await _db.nutzerwortMerkenNachSchluessel(german, wordType,
+            drin: true); // S.5
         imported++;
       } catch (_) {
         skipped++;
@@ -80,15 +84,18 @@ class ImportService {
       final meaningFa = item['meaningFa'] as String?;
       if (german == null || meaningFa == null) { skipped++; continue; }
 
+      final wordType = (item['wordType'] as String?) ?? 'andere';
       try {
         await _db.into(_db.words).insertOnConflictUpdate(WordsCompanion.insert(
           german    : german,
           meaningFa : meaningFa,
-          wordType  : (item['wordType']  as String?) ?? 'andere',
+          wordType  : wordType,
           level     : Value(item['level']   as String?),
           article   : Value(item['article'] as String?),
           plural    : Value(item['plural']  as String?),
         ));
+        await _db.nutzerwortMerkenNachSchluessel(german, wordType,
+            drin: true); // S.5
         imported++;
       } catch (_) {
         skipped++;

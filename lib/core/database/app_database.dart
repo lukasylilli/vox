@@ -3,6 +3,8 @@
 // AFTER WRITING: run `dart run build_runner build` to generate app_database.g.dart
 import 'package:drift/drift.dart';
 
+import '../backup/nutzer_zustand.dart'
+    show LeitnerStand, artLeitner, artListe, artListenwort, artWort;
 import 'connection/connection.dart';
 
 part 'app_database.g.dart';
@@ -37,6 +39,12 @@ class Words extends Table {
   BoolColumn   get regelmaessig     => boolean().nullable()();
   BoolColumn   get trennbar         => boolean().nullable()();
   TextColumn   get grammatikDetail  => text().nullable()();
+
+  // فاز S.5 (2026-09-15): true = kommt aus den App-Daten (Seed aus
+  // assets/data/), nicht vom Nutzer. Solche Wörter bringt jedes Gerät selbst
+  // mit — sie gehören nicht in eine Sicherung. Gesetzt NUR vom Seed
+  // (data_seed_service.dart), nach Daten, nie geraten. null = Nutzerwort.
+  BoolColumn   get ausApp           => boolean().nullable()();
 
   @override
   List<Set<Column>> get uniqueKeys => [{german, wordType}];
@@ -169,6 +177,29 @@ class ArchivLeitner extends Table {
   Set<Column> get primaryKey => {wortId};
 }
 
+// فاز S.5 (2026-09-15): die letzte bewusste Handlung je Eintrag — aufgenommen
+// oder entfernt, mit Zeitpunkt. Ohne sie käme beim Abgleich jede Entfernung
+// vom anderen Gerät zurück (Zusammenführen vereinigt). Arten und Schlüssel
+// wie in core/backup/nutzer_zustand.dart (Mitgliedschaft):
+//   leitner    · schluessel = wortId
+//   liste      · schluessel = Listen-id
+//   listenwort · schluessel = Listen-id, wort = wortId
+//   wort       · schluessel = `<german>|<wordType>` (nur Nutzerwörter)
+// Eine Zeile je Eintrag — nur die LETZTE Handlung zählt.
+class Mitgliedschaften extends Table {
+  TextColumn     get art        => text()();
+  TextColumn     get schluessel => text()();
+  TextColumn     get wort       => text().withDefault(const Constant(''))();
+  BoolColumn     get drin       => boolean()();
+  // Millisekunden seit 1970 (UTC). ⚠️ Bewusst KEIN DateTimeColumn: drift legt
+  // DateTime ohne build.yaml-Option in SEKUNDEN ab — zwei Handlungen in
+  // derselben Sekunde wären dann gleichzeitig, und „drin" gewönne immer.
+  IntColumn      get amMs       => integer()();
+
+  @override
+  Set<Column> get primaryKey => {art, schluessel, wort};
+}
+
 // ── Database class ────────────────────────────────────────────────────────────
 
 @DriftDatabase(tables: [
@@ -176,6 +207,7 @@ class ArchivLeitner extends Table {
   UserCategories, CategoryWords,
   LeitnerCards, ArchivLeitner,
   ArchivKategorien, ArchivKategorieWoerter,
+  Mitgliedschaften,
   GrammarLessons, MemorizeItems,
   ReadingTexts, AudioItems,
   Habits, HabitSessions,
@@ -188,7 +220,7 @@ class AppDatabase extends _$AppDatabase {
   AppDatabase.forTesting(super.e);
 
   @override
-  int get schemaVersion => 5;
+  int get schemaVersion => 6;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -221,6 +253,95 @@ class AppDatabase extends _$AppDatabase {
         await m.addColumn(words, words.trennbar);
         await m.addColumn(words, words.grammatikDetail);
       }
+      // فاز S.5: Entfernungen als Ereignisse + Herkunft der Wörter. `ausApp`
+      // bleibt für bestehende Zeilen zunächst leer; der Seed (Marke v3) setzt
+      // es beim nächsten Start nach Daten.
+      if (from < 6) {
+        await m.createTable(mitgliedschaften);
+        await m.addColumn(words, words.ausApp);
+      }
     },
   );
+
+  // ── Mitgliedschaft protokollieren (S.5) ──────────────────────────────────
+  //
+  // Jede Stelle, die etwas aufnimmt oder entfernt, ruft eine dieser Methoden.
+  // Sie liegen hier, weil alle DAOs die Datenbank kennen, aber nicht einander.
+
+  /// Merkt sich die letzte Handlung für einen Eintrag.
+  Future<void> mitgliedschaftMerken(
+    String art,
+    String schluessel, {
+    String wort = '',
+    required bool drin,
+    DateTime? am,
+  }) async {
+    final zeile = MitgliedschaftenCompanion.insert(
+      art: art,
+      schluessel: schluessel,
+      wort: Value(wort),
+      drin: drin,
+      amMs: (am ?? DateTime.now()).millisecondsSinceEpoch,
+    );
+    await into(mitgliedschaften).insert(
+      zeile,
+      onConflict: DoUpdate(
+        (_) => zeile,
+        target: [mitgliedschaften.art, mitgliedschaften.schluessel,
+                 mitgliedschaften.wort],
+      ),
+    );
+  }
+
+  /// Text-ID eines Worts der Tabelle `Words` (`eigen:<german>|<wordType>`),
+  /// oder null, wenn es die Nummer nicht gibt.
+  Future<String?> wortIdVon(int wordId) async {
+    final w = await (select(words)..where((t) => t.id.equals(wordId)))
+        .getSingleOrNull();
+    return w == null ? null : LeitnerStand.eigenesWort(w.german, w.wordType);
+  }
+
+  /// Leitner-Karte eines Worts aufgenommen/entfernt.
+  Future<void> leitnerMerken(int wordId, {required bool drin}) async {
+    final id = await wortIdVon(wordId);
+    if (id != null) await mitgliedschaftMerken(artLeitner, id, drin: drin);
+  }
+
+  /// Eigene Liste angelegt/gelöscht. Die id einer eigenen Liste ist
+  /// `eigen:<Name>` (siehe user_state_repository.dart).
+  Future<void> eigeneListeMerken(String name, {required bool drin}) =>
+      mitgliedschaftMerken(artListe, 'eigen:$name', drin: drin);
+
+  /// Wort in eine eigene Liste aufgenommen/daraus entfernt.
+  Future<void> eigenesListenwortMerken(int categoryId, int wordId,
+      {required bool drin}) async {
+    final kat = await (select(userCategories)
+          ..where((t) => t.id.equals(categoryId)))
+        .getSingleOrNull();
+    final wortId = await wortIdVon(wordId);
+    if (kat == null || wortId == null) return;
+    await mitgliedschaftMerken(artListenwort, 'eigen:${kat.name}',
+        wort: wortId, drin: drin);
+  }
+
+  /// Wie [nutzerwortMerken], aber über den eindeutigen Schlüssel statt die
+  /// Nummer — für Einfügungen, die die Nummer nicht verlässlich liefern.
+  Future<void> nutzerwortMerkenNachSchluessel(String german, String wordType,
+      {required bool drin}) async {
+    final w = await (select(words)
+          ..where((t) => t.german.equals(german) & t.wordType.equals(wordType)))
+        .getSingleOrNull();
+    if (w != null) await nutzerwortMerken(w.id, drin: drin);
+  }
+
+  /// Nutzerwort angelegt/gelöscht. App-Wörter werden nicht protokolliert —
+  /// sie gehören nicht in eine Sicherung.
+  Future<void> nutzerwortMerken(int wordId, {required bool drin}) async {
+    final w = await (select(words)..where((t) => t.id.equals(wordId)))
+        .getSingleOrNull();
+    if (w == null || w.ausApp == true) return;
+    await mitgliedschaftMerken(
+        artWort, LeitnerStand.wortSchluessel(w.german, w.wordType),
+        drin: drin);
+  }
 }

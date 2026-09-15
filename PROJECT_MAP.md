@@ -1109,8 +1109,14 @@ die Fassade, die allein `NutzerZustand` nach außen zeigt.
 | `test/puzzling_buttons_test.dart` | **B.5** — kein roher Material-Button in `lib/features/`. Entstanden, weil `_SicherungKarte` und `_KontoKarte` die Regel unbemerkt gebrochen hatten |
 | `test/auth_service_test.dart` | Fehlercode-Zuordnung (kann **still** brechen: „E-Mail vergeben" → „unbekannter Fehler") + Nachweis, dass ohne Konfiguration nichts geworfen und nichts gesendet wird |
 
-⏳ **In Arbeit (2026-09-15): S.5** — `Mitgliedschaften` (Entfernungen als Ereignisse) und
-`Words.ausApp` (App-Wörter nicht in die Sicherung). Voraussetzung für S.3 Schritt 3. Details: PLAN.md → S.5.
+✅ **S.5 (2026-09-15): Entfernungen und App-Wörter.**
+| Stelle | Rolle |
+|---|---|
+| `core/backup/nutzer_zustand.dart` → `Mitgliedschaft` | Vertrag v2: letzte Handlung entscheidet „drin oder nicht"; Fach weiter „höchstes gewinnt" |
+| `core/database/app_database.dart` → `Mitgliedschaften` + Helfer | Tabelle (art · schluessel · wort · drin · `amMs`) und `…Merken()`-Methoden. ⚠️ `amMs` = Millisekunden, kein DateTimeColumn (drift speichert sonst Sekunden) |
+| `Words.ausApp` | nur der Seed setzt es (`vocab_seeded_v3`); solche Wörter gehen nie in eine Sicherung |
+| `LeitnerDao` · `CategoryDao` · `WordDao` · `ImportService` · Fassade (Archiv) | **jede** Aufnahme/Entfernung schreibt ein Ereignis. ⚠️ Neue Stelle, die aufnimmt/entfernt ⇒ ebenfalls protokollieren, sonst kommt die Entfernung beim Abgleich zurück |
+| `user_state_repository.dart` → `_entfernen()` | setzt eingehende Entfernungen in allen Tabellen um |
 
 ⚠️ **Jede Änderung an einer Drift-Tabelle braucht `dart run build_runner build`**
 (`app_database.g.dart`, ~8.000 Zeilen, versioniert). Claude hat kein Dart im Container —
@@ -1179,6 +1185,9 @@ ein erfolgreicher Lauf mit mehreren tausend Wörtern bricht die laufende App. Gr
 ---
 
 ## BUGS FIXED
+
+### [2026-09-15] S.5: Sicherung trug ~830 App-Wörter; Entfernungen kamen beim Zusammenführen zurück
+- `Words.ausApp` (vom Seed gesetzt) + `Mitgliedschaften` (Ereignisse), Vertrag v2 — siehe „Wo die Nutzerdaten liegen"
 
 ### [2026-09-15] B-12: Sicherung verlor die B-10-Grammatikfelder eigener Wörter
 - `user_state_repository.dart`: `regelmaessig`/`trennbar`/`grammatikDetail` in `_wortZuJson` und `anwenden()`

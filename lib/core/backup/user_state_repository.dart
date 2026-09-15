@@ -178,7 +178,22 @@ class UserStateRepository {
         for (final k in einstellungsSchluessel)
           if (_prefs.containsKey(k)) k: _prefs.get(k),
       },
-      eigeneWoerter: woerter.map(_wortZuJson).toList(),
+      // S.5: App-Wörter bringt jedes Gerät selbst mit — nicht sichern.
+      // Verweise auf sie (Leitner, Listen) bleiben oben trotzdem erhalten.
+      eigeneWoerter: woerter
+          .where((w) => w.ausApp != true)
+          .map(_wortZuJson)
+          .toList(),
+      mitgliedschaften: {
+        for (final m in await _db.select(_db.mitgliedschaften).get())
+          mitgliedschaftsSchluessel(m.art, m.schluessel, m.wort): Mitgliedschaft(
+            art: m.art,
+            id: m.schluessel,
+            wort: m.wort,
+            drin: m.drin,
+            am: DateTime.fromMillisecondsSinceEpoch(m.amMs, isUtc: true),
+          ),
+      },
     );
   }
 
@@ -204,8 +219,23 @@ class UserStateRepository {
   /// Führt `eingehend` mit dem aktuellen Stand zusammen („höchstes Fach
   /// gewinnt", siehe nutzer_zustand.dart) und legt das Ergebnis ab.
   /// Nichts wird gelöscht — eine Wiederherstellung darf nie Fortschritt kosten.
+  ///
+  /// **Ausnahme (S.5):** Was der Nutzer auf einem Gerät ausdrücklich entfernt
+  /// hat (spätere [Mitgliedschaft] mit `drin == false`), wird auch hier
+  /// entfernt. Das ist kein Datenverlust, sondern seine Handlung.
   Future<NutzerZustand> anwenden(NutzerZustand eingehend) async {
     final zusammen = (await lesen()).zusammenfuehren(eingehend);
+
+    // (0) Ereignisse ablegen — der zusammengeführte Stand enthält je Schlüssel
+    //     bereits die spätere Handlung.
+    for (final m in zusammen.mitgliedschaften.values) {
+      await _db.mitgliedschaftMerken(m.art, m.id,
+          wort: m.wort, drin: m.drin, am: m.am);
+    }
+    // (0b) Entfernungen hier nachvollziehen.
+    for (final m in zusammen.mitgliedschaften.values) {
+      if (!m.drin) await _entfernen(m);
+    }
 
     // (1) Eigene Wörter zuerst: Leitner und Listen brauchen ihre Nummern.
     for (final w in zusammen.eigeneWoerter) {
@@ -347,6 +377,95 @@ class UserStateRepository {
     return zusammen;
   }
 
+  /// Setzt EINE Entfernung in der Ablage um (S.5). Mehrfach ausführbar.
+  Future<void> _entfernen(Mitgliedschaft m) async {
+    switch (m.art) {
+      case artLeitner:
+        if (m.id.startsWith(_eigenPraefix)) {
+          final w = await _wortNachId(m.id);
+          if (w != null) {
+            await (_db.delete(_db.leitnerCards)
+                  ..where((t) => t.wordId.equals(w.id)))
+                .go();
+          }
+        } else {
+          await (_db.delete(_db.archivLeitner)
+                ..where((t) => t.wortId.equals(m.id)))
+              .go();
+        }
+      case artListe:
+        if (m.id.startsWith(_eigenPraefix)) {
+          final kat = await _eigeneListe(m.id);
+          if (kat != null) {
+            await (_db.delete(_db.categoryWords)
+                  ..where((t) => t.categoryId.equals(kat.id)))
+                .go();
+            await (_db.delete(_db.userCategories)
+                  ..where((t) => t.id.equals(kat.id)))
+                .go();
+          }
+        } else {
+          await (_db.delete(_db.archivKategorieWoerter)
+                ..where((t) => t.kategorieId.equals(m.id)))
+              .go();
+          await (_db.delete(_db.archivKategorien)
+                ..where((t) => t.id.equals(m.id)))
+              .go();
+        }
+      case artListenwort:
+        if (m.id.startsWith(_eigenPraefix)) {
+          final kat = await _eigeneListe(m.id);
+          final w = await _wortNachId(m.wort);
+          if (kat != null && w != null) {
+            await (_db.delete(_db.categoryWords)
+                  ..where((t) =>
+                      t.categoryId.equals(kat.id) & t.wordId.equals(w.id)))
+                .go();
+          }
+        } else {
+          await (_db.delete(_db.archivKategorieWoerter)
+                ..where((t) =>
+                    t.kategorieId.equals(m.id) & t.wortId.equals(m.wort)))
+              .go();
+        }
+      case artWort:
+        final w = await _wortNachId('$_eigenPraefix${m.id}');
+        // Nur Nutzerwörter — ein App-Wort bringt jedes Gerät selbst mit.
+        if (w != null && w.ausApp != true) {
+          await (_db.delete(_db.leitnerCards)
+                ..where((t) => t.wordId.equals(w.id)))
+              .go();
+          await (_db.delete(_db.categoryWords)
+                ..where((t) => t.wordId.equals(w.id)))
+              .go();
+          await (_db.delete(_db.wordBooks)
+                ..where((t) => t.wordId.equals(w.id)))
+              .go();
+          await (_db.delete(_db.words)..where((t) => t.id.equals(w.id))).go();
+        }
+    }
+  }
+
+  /// `eigen:<german>|<wordType>` → Zeile in `Words`.
+  Future<Word?> _wortNachId(String wortId) async {
+    if (!wortId.startsWith(_eigenPraefix)) return null;
+    final schluessel = wortId.substring(_eigenPraefix.length);
+    final trenner = schluessel.lastIndexOf('|');
+    if (trenner < 0) return null;
+    final german = schluessel.substring(0, trenner);
+    final wordType = schluessel.substring(trenner + 1);
+    return (_db.select(_db.words)
+          ..where((t) => t.german.equals(german) & t.wordType.equals(wordType)))
+        .getSingleOrNull();
+  }
+
+  /// `eigen:<Name>` → Zeile in `UserCategories`.
+  Future<UserCategory?> _eigeneListe(String listenId) =>
+      (_db.select(_db.userCategories)
+            ..where((t) =>
+                t.name.equals(listenId.substring(_eigenPraefix.length))))
+          .getSingleOrNull();
+
   // ── Wortarchiv: Einzelzugriffe für den Wort-Store (B-11) ───────────────
   //
   // Der Store in `features/vokabular/controllers/vokabular_user_state.dart`
@@ -396,6 +515,7 @@ class UserStateRepository {
           onConflict:
               DoUpdate((_) => companion, target: [_db.archivLeitner.wortId]),
         );
+    await _db.mitgliedschaftMerken(artLeitner, wortId, drin: true); // S.5
   }
 
   /// Archivkarte aus dem Stapel — auf ausdrücklichen Wunsch des Nutzers.
@@ -403,12 +523,14 @@ class UserStateRepository {
     await (_db.delete(_db.archivLeitner)
           ..where((t) => t.wortId.equals(wortId)))
         .go();
+    await _db.mitgliedschaftMerken(artLeitner, wortId, drin: false); // S.5
   }
 
   Future<void> archivKategorieAnlegen(String id, String name) async {
     await _db
         .into(_db.archivKategorien)
         .insert(ArchivKategorienCompanion.insert(id: id, name: name));
+    await _db.mitgliedschaftMerken(artListe, id, drin: true); // S.5
   }
 
   /// Wort in eine Liste aufnehmen ([drin] wahr) oder daraus entfernen.
@@ -426,6 +548,8 @@ class UserStateRepository {
                 t.kategorieId.equals(kategorieId) & t.wortId.equals(wortId)))
           .go();
     }
+    await _db.mitgliedschaftMerken(artListenwort, kategorieId,
+        wort: wortId, drin: drin); // S.5
   }
 
   // ── Helfer ─────────────────────────────────────────────────────────────

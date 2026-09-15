@@ -59,20 +59,33 @@ class WordDao {
   // ── Mutate ───────────────────────────────────────────────────────────────
 
   /// Upserts on the (german, word_type) unique key — matching the table constraint.
-  Future<int> insert(WordsCompanion companion) =>
-      _db.into(_db.words).insert(
-        companion,
-        onConflict: DoUpdate(
-          (old) => companion,
-          target: [_db.words.german, _db.words.wordType],
-        ),
-      );
+  Future<int> insert(WordsCompanion companion) async {
+    await _db.into(_db.words).insert(
+      companion,
+      onConflict: DoUpdate(
+        (old) => companion,
+        target: [_db.words.german, _db.words.wordType],
+      ),
+    );
+    // S.5: Nutzerwort angelegt. Die Nummer wird über den eindeutigen
+    // Schlüssel gesucht — bei einem Upsert liefert insert() sie nicht
+    // verlässlich.
+    final zeile = await (_db.select(_db.words)
+          ..where((t) =>
+              t.german.equals(companion.german.value) &
+              t.wordType.equals(companion.wordType.value)))
+        .getSingle();
+    await _db.nutzerwortMerken(zeile.id, drin: true);
+    return zeile.id;
+  }
 
   Future<bool> update(WordsCompanion companion) =>
       _db.update(_db.words).replace(companion);
 
-  Future<int> delete(int id) =>
-      (_db.delete(_db.words)..where((t) => t.id.equals(id))).go();
+  Future<int> delete(int id) async {
+    await _db.nutzerwortMerken(id, drin: false); // S.5 — vor dem Löschen
+    return (_db.delete(_db.words)..where((t) => t.id.equals(id))).go();
+  }
 
   // ── Book relations ───────────────────────────────────────────────────────
 

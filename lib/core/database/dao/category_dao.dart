@@ -26,18 +26,38 @@ class CategoryDao {
         ..where((t) => t.id.equals(id)))
           .getSingleOrNull();
 
-  Future<int> insertCategory(String name) =>
-      _db.into(_db.userCategories).insert(
-        UserCategoriesCompanion.insert(name: name),
-      );
+  Future<int> insertCategory(String name) async {
+    final id = await _db.into(_db.userCategories).insert(
+      UserCategoriesCompanion.insert(name: name),
+    );
+    await _db.eigeneListeMerken(name, drin: true); // S.5
+    return id;
+  }
 
-  Future<bool> updateCategory(int id, String newName) =>
-      (_db.update(_db.userCategories)
-        ..where((t) => t.id.equals(id)))
-          .write(UserCategoriesCompanion(name: Value(newName)))
-          .then((n) => n > 0);
+  /// Umbenennen. ⚠️ S.5: Die geräteübergreifende id einer eigenen Liste ist
+  /// ihr Name — für den Abgleich ist Umbenennen deshalb „alte Liste weg,
+  /// neue Liste da" (samt ihrer Wörter).
+  Future<bool> updateCategory(int id, String newName) async {
+    final alt = await getById(id);
+    final geaendert = await (_db.update(_db.userCategories)
+          ..where((t) => t.id.equals(id)))
+        .write(UserCategoriesCompanion(name: Value(newName)))
+        .then((n) => n > 0);
+    if (geaendert && alt != null && alt.name != newName) {
+      await _db.eigeneListeMerken(alt.name, drin: false);
+      await _db.eigeneListeMerken(newName, drin: true);
+      for (final z in await (_db.select(_db.categoryWords)
+            ..where((t) => t.categoryId.equals(id)))
+          .get()) {
+        await _db.eigenesListenwortMerken(id, z.wordId, drin: true);
+      }
+    }
+    return geaendert;
+  }
 
   Future<int> deleteCategory(int id) async {
+    final kat = await getById(id);
+    if (kat != null) await _db.eigeneListeMerken(kat.name, drin: false); // S.5
     // Remove all words from this category first
     await (_db.delete(_db.categoryWords)
       ..where((t) => t.categoryId.equals(id)))
@@ -90,19 +110,23 @@ class CategoryDao {
     return rows.map((r) => r.categoryId).toList();
   }
 
-  Future<void> addWordToCategory(int categoryId, int wordId) =>
-      _db.into(_db.categoryWords).insertOnConflictUpdate(
-        CategoryWordsCompanion.insert(
-          categoryId: categoryId,
-          wordId    : wordId,
-        ),
-      );
+  Future<void> addWordToCategory(int categoryId, int wordId) async {
+    await _db.into(_db.categoryWords).insertOnConflictUpdate(
+      CategoryWordsCompanion.insert(
+        categoryId: categoryId,
+        wordId    : wordId,
+      ),
+    );
+    await _db.eigenesListenwortMerken(categoryId, wordId, drin: true); // S.5
+  }
 
-  Future<int> removeWordFromCategory(int categoryId, int wordId) =>
-      (_db.delete(_db.categoryWords)
-        ..where((t) =>
-            t.categoryId.equals(categoryId) & t.wordId.equals(wordId)))
-          .go();
+  Future<int> removeWordFromCategory(int categoryId, int wordId) async {
+    await _db.eigenesListenwortMerken(categoryId, wordId, drin: false); // S.5
+    return (_db.delete(_db.categoryWords)
+      ..where((t) =>
+          t.categoryId.equals(categoryId) & t.wordId.equals(wordId)))
+        .go();
+  }
 
   Future<int> countInCategory(int categoryId) async {
     final rows = await (_db.select(_db.categoryWords)

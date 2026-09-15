@@ -158,4 +158,106 @@ void main() {
     expect(LeitnerStand.eigenesWort('Bank', 'verb'),
         isNot(LeitnerStand.eigenesWort('Bank', 'nomen')));
   });
+
+  // ── S.5: Entfernungen ─────────────────────────────────────────────────
+  group('S.5 — letzte Handlung entscheidet über „drin"', () {
+    final t1 = DateTime.utc(2026, 9, 15, 10);
+    final t2 = DateTime.utc(2026, 9, 15, 12);
+    const karte = LeitnerStand(wortId: 'verb_helfen', fach: 4);
+
+    Mitgliedschaft ev(String art, String id, bool drin, DateTime am,
+            [String wort = '']) =>
+        Mitgliedschaft(art: art, id: id, wort: wort, drin: drin, am: am);
+
+    NutzerZustand mitEreignis(Mitgliedschaft m,
+            {Map<String, LeitnerStand> leitner = const {},
+            List<KategorieStand> kategorien = const [],
+            List<Map<String, dynamic>> eigeneWoerter = const []}) =>
+        NutzerZustand(
+          leitner: leitner,
+          kategorien: kategorien,
+          eigeneWoerter: eigeneWoerter,
+          mitgliedschaften: {m.schluessel: m},
+        );
+
+    test('spätere Entfernung schlägt ein höheres Fach — in beide Richtungen', () {
+      final a = mitEreignis(ev(artLeitner, 'verb_helfen', true, t1),
+          leitner: {'verb_helfen': karte});
+      final b = mitEreignis(ev(artLeitner, 'verb_helfen', false, t2));
+      expect(a.zusammenfuehren(b).leitner, isEmpty);
+      expect(b.zusammenfuehren(a).leitner, isEmpty);
+    });
+
+    test('späteres Wiederaufnehmen schlägt eine ältere Entfernung', () {
+      final a = mitEreignis(ev(artLeitner, 'verb_helfen', true, t2),
+          leitner: {'verb_helfen': karte});
+      final b = mitEreignis(ev(artLeitner, 'verb_helfen', false, t1));
+      expect(a.zusammenfuehren(b).leitner['verb_helfen']!.fach, 4);
+      expect(b.zusammenfuehren(a).leitner['verb_helfen']!.fach, 4);
+    });
+
+    test('Eintrag ohne Ereignis ist älter als jede Entfernung', () {
+      const alt = NutzerZustand(leitner: {'verb_helfen': karte});
+      final weg = mitEreignis(ev(artLeitner, 'verb_helfen', false, t1));
+      expect(alt.zusammenfuehren(weg).leitner, isEmpty);
+    });
+
+    test('ohne jedes Ereignis bleibt es beim Vereinigen (Fassung 1)', () {
+      const a = NutzerZustand(leitner: {'verb_helfen': karte});
+      const b = NutzerZustand(
+          leitner: {'adjektiv_stolz': LeitnerStand(wortId: 'adjektiv_stolz', fach: 1)});
+      expect(a.zusammenfuehren(b).leitner.keys.toSet(),
+          {'verb_helfen', 'adjektiv_stolz'});
+    });
+
+    test('Gleichstand: „drin" gewinnt', () {
+      final rein = ev(artLeitner, 'x', true, t1);
+      final raus = ev(artLeitner, 'x', false, t1);
+      expect(Mitgliedschaft.spaetere(rein, raus).drin, isTrue);
+      expect(Mitgliedschaft.spaetere(raus, rein).drin, isTrue);
+    });
+
+    test('Listen: Wort entfernt und Liste gelöscht', () {
+      const liste = KategorieStand(
+          id: 'kat_1', name: 'B1', wortIds: ['verb_helfen', 'adjektiv_stolz']);
+      final wortRaus = mitEreignis(
+          ev(artListenwort, 'kat_1', false, t2, 'verb_helfen'));
+      const mitListe = NutzerZustand(kategorien: [liste]);
+      expect(mitListe.zusammenfuehren(wortRaus).kategorien.single.wortIds,
+          ['adjektiv_stolz']);
+
+      final listeWeg = mitEreignis(ev(artListe, 'kat_1', false, t2));
+      expect(mitListe.zusammenfuehren(listeWeg).kategorien, isEmpty);
+    });
+
+    test('entferntes eigenes Wort nimmt Leitner-Karte und Listenplatz mit', () {
+      final id = LeitnerStand.eigenesWort('Bank', 'nomen');
+      final lokal = NutzerZustand(
+        leitner: {id: LeitnerStand(wortId: id, fach: 2)},
+        kategorien: [KategorieStand(id: 'eigen:Alltag', name: 'Alltag', wortIds: [id])],
+        eigeneWoerter: const [
+          {'german': 'Bank', 'wordType': 'nomen', 'meaningFa': 'بانک'},
+        ],
+      );
+      final weg = mitEreignis(ev(artWort, 'Bank|nomen', false, t2));
+      final z = lokal.zusammenfuehren(weg);
+      expect(z.eigeneWoerter, isEmpty);
+      expect(z.leitner, isEmpty);
+      expect(z.kategorien.single.wortIds, isEmpty);
+    });
+
+    test('Ereignisse überleben die Hülle; Fassung 1 bleibt lesbar', () {
+      final z = mitEreignis(ev(artListenwort, 'kat_1', false, t2, 'verb_helfen'));
+      final zurueck = sicherungLesen(sicherungSchreiben(z)).zustand;
+      final m = zurueck.mitgliedschaften.values.single;
+      expect(m.art, artListenwort);
+      expect(m.wort, 'verb_helfen');
+      expect(m.drin, isFalse);
+      expect(m.am.isAtSameMomentAs(t2), isTrue);
+
+      final v1 = sicherungLesen(
+          '{"version":1,"app":"vox","payload":{"leitner":{}}}').zustand;
+      expect(v1.mitgliedschaften, isEmpty);
+    });
+  });
 }

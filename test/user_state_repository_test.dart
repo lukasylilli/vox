@@ -7,6 +7,7 @@
 // Die wichtigste Zusicherung: eine Sicherung überlebt den Gerätewechsel.
 // Dafür wird ein zweites, leeres „Gerät" gebaut und der Zustand dorthin
 // übertragen — genau dort fiele eine gerätelokale Nummer auf.
+import 'package:drift/drift.dart' show Value;
 import 'package:drift/native.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -251,5 +252,51 @@ void main() {
     expect(woerter['wegen']!['grammatikDetail'], 'genitiv');
     expect(woerter['wegen']!['trennbar'], isNull,
         reason: 'Unbekanntes bleibt unbekannt — nie geraten.');
+  });
+
+  // ── S.5 ─────────────────────────────────────────────────────────────────
+  test('S.5: eine Entfernung auf Gerät A wirkt nach dem Abgleich auf Gerät B',
+      () async {
+    // Beide Geräte haben dasselbe Wort im Stapel …
+    final a = await geraet();
+    await a.archivLeitnerAufnehmen('verb_helfen', DateTime(2026, 9, 1));
+    final b = await geraet();
+    await b.anwenden(await a.lesen());
+    expect((await b.lesen()).leitner.keys, contains('verb_helfen'));
+
+    // … A entfernt es später bewusst (mindestens 1 ms später — die Ereignisse
+    // tragen Millisekunden) …
+    await Future<void>.delayed(const Duration(milliseconds: 5));
+    await a.archivLeitnerEntfernen('verb_helfen');
+
+    // … nach dem Abgleich ist es auch auf B weg — und kommt nicht zurück.
+    await b.anwenden(await a.lesen());
+    expect((await b.lesen()).leitner.keys, isNot(contains('verb_helfen')));
+    await a.anwenden(await b.lesen());
+    expect((await a.lesen()).leitner.keys, isNot(contains('verb_helfen')));
+  });
+
+  test('S.5: App-Wörter wandern nicht in die Sicherung, Verweise schon',
+      () async {
+    SharedPreferences.setMockInitialValues({});
+    final db = AppDatabase.forTesting(NativeDatabase.memory());
+    addTearDown(db.close);
+    final repo = UserStateRepository(db, await SharedPreferences.getInstance());
+
+    await repo.anwenden(const NutzerZustand(
+      eigeneWoerter: [
+        {'german': 'helfen', 'wordType': 'verb', 'meaningFa': 'کمک کردن'},
+      ],
+      leitner: {
+        'eigen:helfen|verb': LeitnerStand(wortId: 'eigen:helfen|verb', fach: 2),
+      },
+    ));
+    // Genau das tut data_seed_service.dart für die App-Daten.
+    await (db.update(db.words)..where((t) => t.german.equals('helfen')))
+        .write(const WordsCompanion(ausApp: Value(true)));
+
+    final z = await repo.lesen();
+    expect(z.eigeneWoerter, isEmpty);
+    expect(z.leitner['eigen:helfen|verb']!.fach, 2);
   });
 }

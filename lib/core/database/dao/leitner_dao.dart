@@ -76,14 +76,16 @@ class LeitnerDao {
 
   /// Adds a word to box 1 with nextReview = tomorrow.
   /// Safe to call multiple times — uses upsert (no duplicates).
-  Future<void> addWord(int wordId) {
+  Future<void> addWord(int wordId) async {
     final tomorrow = DateTime.now().add(const Duration(days: 1));
-    return _db.into(_db.leitnerCards).insertOnConflictUpdate(
+    await _db.into(_db.leitnerCards).insertOnConflictUpdate(
       LeitnerCardsCompanion.insert(
         wordId    : wordId,
         nextReview: tomorrow,
       ),
     );
+    // S.5: bewusste Handlung — für den Abgleich festhalten.
+    await _db.leitnerMerken(wordId, drin: true);
   }
 
   Future<void> markCorrect(LeitnerCard card) {
@@ -110,6 +112,14 @@ class LeitnerDao {
         ));
   }
 
-  Future<int> removeCard(int cardId) =>
-      (_db.delete(_db.leitnerCards)..where((t) => t.id.equals(cardId))).go();
+  Future<int> removeCard(int cardId) async {
+    // S.5: vor dem Löschen festhalten — danach ist das Wort nicht mehr
+    // über die Karte auffindbar.
+    final karte = await (_db.select(_db.leitnerCards)
+          ..where((t) => t.id.equals(cardId)))
+        .getSingleOrNull();
+    if (karte != null) await _db.leitnerMerken(karte.wordId, drin: false);
+    return (_db.delete(_db.leitnerCards)..where((t) => t.id.equals(cardId)))
+        .go();
+  }
 }

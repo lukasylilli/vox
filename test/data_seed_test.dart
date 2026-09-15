@@ -41,5 +41,11 @@ void main() {
         .getSingle();
     expect(wort.meaningEn, isNotNull);
     expect(wort.meaningEn, isNotEmpty);
+
+    // S.5 (v3-Grund): Jedes geseedete Wort ist als App-Wort markiert —
+    // sonst wanderten ~830 App-Wörter in jede Sicherung.
+    final alle = await db.select(db.words).get();
+    expect(alle, isNotEmpty);
+    expect(alle.where((w) => w.ausApp != true), isEmpty);
   });
 }

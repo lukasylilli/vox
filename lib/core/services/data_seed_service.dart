@@ -17,7 +17,9 @@ class DataSeedService {
   DataSeedService(this._db);
   final AppDatabase _db;
 
-  static const _prefKey = 'vocab_seeded_v2';
+  // v3 (S.5, 2026-09-15): setzt `Words.ausApp` — bestehende Installationen
+  // seeden einmal nach, alle Inserts sind Upserts, also exakt nach Daten.
+  static const _prefKey = 'vocab_seeded_v3';
 
   Future<void> seedIfNeeded() async {
     final prefs = await SharedPreferences.getInstance();
@@ -69,6 +71,7 @@ class DataSeedService {
       });
 
       final companion = WordsCompanion.insert(
+        ausApp         : const Value(true), // S.5: App-Wort, nicht sichern
         german         : inf,
         wordType       : 'verb',
         meaningFa      : j['meaning_fa'] as String,
@@ -95,6 +98,7 @@ class DataSeedService {
 
     for (final j in list) {
       final companion = WordsCompanion.insert(
+        ausApp         : const Value(true), // S.5: App-Wort, nicht sichern
         german      : j['connector'] as String,
         wordType    : 'konnektor',
         meaningFa   : j['meaning_fa'] as String,
@@ -120,6 +124,7 @@ class DataSeedService {
 
     for (final j in list) {
       final companion = WordsCompanion.insert(
+        ausApp         : const Value(true), // S.5: App-Wort, nicht sichern
         german      : j['phrase_de'] as String,
         wordType    : 'sonstige',
         meaningFa   : j['meaning_fa'] as String,
@@ -160,6 +165,8 @@ class DataSeedService {
             .toList();
 
         final companion = WordsCompanion.insert(
+          ausApp      : const Value(true), // S.5: App-Wort, nicht sichern
+        ausApp         : const Value(true), // S.5: App-Wort, nicht sichern
           german      : '$lemma $prep',
           wordType    : wt,
           meaningFa   : meaningFa,

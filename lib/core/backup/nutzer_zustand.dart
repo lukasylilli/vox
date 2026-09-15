@@ -21,9 +21,78 @@ import 'dart:convert';
 /// Erhöhen, sobald sich die Form der Nutzlast ändert. `vonJson` muss ältere
 /// Fassungen weiter lesen können — eine Sicherung von gestern darf nie
 /// unbrauchbar werden.
-const int nutzerZustandVersion = 1;
+///
+/// Fassung 2 (S.5, 2026-09-15): `mitgliedschaften` — Aufnehmen/Entfernen als
+/// Ereignisse mit Zeitpunkt. Fassung 1 hat keine; sie gilt als „älter als jede
+/// Handlung" und wird unverändert gelesen.
+const int nutzerZustandVersion = 2;
 
 const String appKennung = 'vox';
+
+// ── Mitgliedschaft (S.5) ────────────────────────────────────────────────
+
+/// Arten von Mitgliedschaft. Jede Stelle, die etwas aufnimmt oder entfernt,
+/// schreibt ein [Mitgliedschaft]-Ereignis mit einer dieser Arten.
+const String artLeitner = 'leitner'; //     id = wortId
+const String artListe = 'liste'; //         id = Listen-id
+const String artListenwort = 'listenwort'; // id = Listen-id, wort = wortId
+const String artWort = 'wort'; //           id = Wortschlüssel `<german>|<wordType>`
+
+/// Eine bewusste Handlung des Nutzers: etwas aufgenommen ([drin]) oder
+/// entfernt — und wann.
+///
+/// ⚠️ **Warum es das gibt:** Zusammenführen vereinigt. Ohne diese Ereignisse
+/// käme jede Entfernung beim nächsten Abgleich vom anderen Gerät zurück.
+/// Regel: **die letzte Handlung gewinnt** — für die Frage „drin oder nicht".
+/// Für den Lernfortschritt (das Fach) bleibt „höchstes Fach gewinnt".
+class Mitgliedschaft {
+  final String art;
+  final String id;
+
+  /// Nur bei [artListenwort] gesetzt, sonst leer.
+  final String wort;
+  final bool drin;
+  final DateTime am;
+
+  const Mitgliedschaft({
+    required this.art,
+    required this.id,
+    this.wort = '',
+    required this.drin,
+    required this.am,
+  });
+
+  String get schluessel => mitgliedschaftsSchluessel(art, id, wort);
+
+  Map<String, dynamic> toJson() => {
+        'art': art,
+        'id': id,
+        'wort': wort,
+        'drin': drin,
+        'am': am.toUtc().toIso8601String(),
+      };
+
+  static Mitgliedschaft vonJson(Map<String, dynamic> j) => Mitgliedschaft(
+        art: j['art'] as String,
+        id: j['id'] as String,
+        wort: j['wort'] as String? ?? '',
+        drin: j['drin'] as bool? ?? true,
+        am: _datum(j['am']) ?? DateTime.fromMillisecondsSinceEpoch(0, isUtc: true),
+      );
+
+  /// Die spätere der beiden Handlungen. Gleichstand ⇒ „drin" gewinnt:
+  /// im Zweifel bleibt Fortschritt erhalten.
+  static Mitgliedschaft spaetere(Mitgliedschaft a, Mitgliedschaft b) {
+    final c = a.am.compareTo(b.am);
+    if (c != 0) return c > 0 ? a : b;
+    return a.drin ? a : b;
+  }
+}
+
+/// Eindeutiger Schlüssel je Ereignis. Das Trennzeichen kommt in keiner
+/// Wort- oder Listen-id vor (dort stehen `:` und `|`).
+String mitgliedschaftsSchluessel(String art, String id, [String wort = '']) =>
+    '$art\u0000$id\u0000$wort';
 
 /// Ein Wort im Leitner-Stapel.
 ///
@@ -61,7 +130,10 @@ class LeitnerStand {
       );
 
   static String eigenesWort(String wort, String wortart) =>
-      'eigen:$wort|$wortart';
+      'eigen:${wortSchluessel(wort, wortart)}';
+
+  /// Schlüssel eines Worts der Tabelle `Words` — genau ihr eindeutiger Index.
+  static String wortSchluessel(String wort, String wortart) => '$wort|$wortart';
 }
 
 /// Eine selbst angelegte Liste. `wortIds` nutzt dieselben Text-IDs wie oben.
@@ -118,8 +190,12 @@ class NutzerZustand {
   final Map<String, Object?> einstellungen;
 
   /// Selbst hinzugefügte Wörter, roh wie in `Words` — ohne die lokale `id`,
-  /// die auf einem anderen Gerät nichts bedeutet.
+  /// die auf einem anderen Gerät nichts bedeutet. **Keine App-Wörter**
+  /// (`Words.ausApp`): die bringt jedes Gerät selbst mit (S.5).
   final List<Map<String, dynamic>> eigeneWoerter;
+
+  /// Letzte Handlung je Schlüssel ([Mitgliedschaft.schluessel]) — S.5.
+  final Map<String, Mitgliedschaft> mitgliedschaften;
 
   const NutzerZustand({
     this.leitner = const {},
@@ -127,6 +203,7 @@ class NutzerZustand {
     this.notizen = const {},
     this.einstellungen = const {},
     this.eigeneWoerter = const [],
+    this.mitgliedschaften = const {},
   });
 
   bool get istLeer =>
@@ -134,7 +211,8 @@ class NutzerZustand {
       kategorien.isEmpty &&
       notizen.isEmpty &&
       einstellungen.isEmpty &&
-      eigeneWoerter.isEmpty;
+      eigeneWoerter.isEmpty &&
+      mitgliedschaften.isEmpty;
 
   Map<String, dynamic> toJson() => {
         'leitner': leitner.map((k, v) => MapEntry(k, v.toJson())),
@@ -142,6 +220,8 @@ class NutzerZustand {
         'notizen': notizen.map((k, v) => MapEntry(k, v.toJson())),
         'einstellungen': einstellungen,
         'eigeneWoerter': eigeneWoerter,
+        'mitgliedschaften':
+            mitgliedschaften.values.map((m) => m.toJson()).toList(),
       };
 
   static NutzerZustand vonJson(Map<String, dynamic> j) => NutzerZustand(
@@ -157,6 +237,13 @@ class NutzerZustand {
         eigeneWoerter: ((j['eigeneWoerter'] as List?) ?? const [])
             .map((e) => (e as Map).cast<String, dynamic>())
             .toList(),
+        // Fassung 1 kennt das Feld nicht ⇒ leer.
+        mitgliedschaften: {
+          for (final e in (j['mitgliedschaften'] as List?) ?? const [])
+            if (e is Map)
+              Mitgliedschaft.vonJson(e.cast<String, dynamic>()).schluessel:
+                  Mitgliedschaft.vonJson(e.cast<String, dynamic>()),
+        },
       );
 
   // ── Zusammenführen ────────────────────────────────────────────────────
@@ -167,7 +254,20 @@ class NutzerZustand {
   /// wiederholt und sich danach woanders anmeldet, darf diese Arbeit nicht
   /// verlieren. Bei Kategorien und Notizen wird vereinigt statt überschrieben;
   /// Einstellungen sind Gerätesache — dort gewinnt der eigene Stand.
+  ///
+  /// **Entfernungen (S.5):** Ob etwas überhaupt drin ist, entscheidet die
+  /// jeweils letzte [Mitgliedschaft] — auch über beide Stände hinweg. Einträge
+  /// ohne Ereignis gelten als älter als jede Handlung.
   NutzerZustand zusammenfuehren(NutzerZustand anderer) {
+    final ereignisse = Map<String, Mitgliedschaft>.from(mitgliedschaften);
+    anderer.mitgliedschaften.forEach((k, fremd) {
+      final eigen = ereignisse[k];
+      ereignisse[k] =
+          eigen == null ? fremd : Mitgliedschaft.spaetere(eigen, fremd);
+    });
+    bool entfernt(String art, String id, [String wort = '']) =>
+        ereignisse[mitgliedschaftsSchluessel(art, id, wort)]?.drin == false;
+
     final leitnerNeu = Map<String, LeitnerStand>.from(leitner);
     anderer.leitner.forEach((id, fremd) {
       final eigen = leitnerNeu[id];
@@ -218,17 +318,38 @@ class NutzerZustand {
       woerterNeu[_wortSchluessel(w)] = w;
     }
 
+    // Entfernungen anwenden (S.5). Ein entferntes eigenes Wort nimmt seine
+    // Leitner-Karte und seine Listenplätze mit.
+    woerterNeu.removeWhere((k, _) => entfernt(artWort, k));
+    bool wortWeg(String wortId) =>
+        wortId.startsWith('eigen:') &&
+        entfernt(artWort, wortId.substring('eigen:'.length));
+    leitnerNeu.removeWhere((id, _) => entfernt(artLeitner, id) || wortWeg(id));
+    katNeu.removeWhere((id, _) => entfernt(artListe, id));
+    final katBereinigt = [
+      for (final k in katNeu.values)
+        KategorieStand(
+          id: k.id,
+          name: k.name,
+          wortIds: [
+            for (final w in k.wortIds)
+              if (!entfernt(artListenwort, k.id, w) && !wortWeg(w)) w,
+          ],
+        ),
+    ];
+
     return NutzerZustand(
       leitner: leitnerNeu,
-      kategorien: katNeu.values.toList(),
+      kategorien: katBereinigt,
       notizen: notizenNeu,
       einstellungen: einstellungen.isEmpty ? anderer.einstellungen : einstellungen,
       eigeneWoerter: woerterNeu.values.toList(),
+      mitgliedschaften: ereignisse,
     );
   }
 
   static String _wortSchluessel(Map<String, dynamic> w) =>
-      '${w['german']}|${w['wordType']}';
+      LeitnerStand.wortSchluessel('${w['german']}', '${w['wordType']}');
 }
 
 // ── Hülle ───────────────────────────────────────────────────────────────

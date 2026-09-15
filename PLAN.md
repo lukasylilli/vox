@@ -24,7 +24,7 @@
 | **V — Vokabular-DB (۲۵٬۰۰۰ کلمه)** | Stufen ۱–۵ ✅ · **۸۷ کارت** (۰٫۳٪ از ~۲۶٬۲۰۰) · گلوگاه = سرعت، نه کد | Pipeline کامل و سالم: SUPER-PROMPT v3.0 → `import_inbox/` → `tool/vokabular_import.dart` → اپ. از ۱۴ جولای تا ۱۵ سپتامبر (۲ ماه) فقط چند کلمه اضافه شد ⇒ **فاز A (خودکارسازی) باز شد.** باز: V.2 `vocab.db` (حالا **پیش‌شرط**، نه اختیاری) · اتصال Leitner به imLeitner · V.5 توزیع |
 | ۱۶ — انتشار و QA نهایی | باز | آخرین فاز قبل از launch |
 
-**قدم‌های بعدی (2026-09-15):** ⓪ **فاز S** — ذخیره‌سازی داده‌ی کاربر (S.0a/b/c ✅، S.1 ✅، S.2 ✅، S.3 Schritt 1+2 ✅ · **B-11 ✅ · B-12 ✅** · بعدی: S.3 Schritt 3) ① **فاز A** — A.1/A.2/A.3/A.5 ✅ · A.4 بلاک (مجوز Workflows در توکن) ② **V.2** `vocab.db` — قبل از اینکه تعداد کارت‌ها از چند صد بگذرد، وگرنه startup می‌شکند ③ G3–G6 (استخراج محتوای ۸۴ درس) ④ فاز ۱۶ launch/QA
+**قدم‌های بعدی (2026-09-15):** ⓪ **فاز S** — ذخیره‌سازی داده‌ی کاربر (S.0a/b/c ✅، S.1 ✅، S.2 ✅، S.3 Schritt 1+2 ✅ · **B-11 ✅ · B-12 ✅ · S.5 ✅** · بعدی: S.3 Schritt 3) ① **فاز A** — A.1/A.2/A.3/A.5 ✅ · A.4 بلاک (مجوز Workflows در توکن) ② **V.2** `vocab.db` — قبل از اینکه تعداد کارت‌ها از چند صد بگذرد، وگرنه startup می‌شکند ③ G3–G6 (استخراج محتوای ۸۴ درس) ④ فاز ۱۶ launch/QA
 
 ---
 
@@ -1092,7 +1092,7 @@ Gleiche Hülle, unterschiedliche Nutzlast. In beiden PLAN-Dateien festgehalten.
   vox-Repo (Settings → Secrets and variables → Actions) und `supabase/vox_tables.sql` einmal im
   SQL-Editor des Supabase-Projekts ausgeführt. Bis dahin bleibt alles wirkungslos — aber heil.
 - [ ] **S.4** Ehrlicher Hinweis in den Einstellungen, solange S.2/S.3 fehlen
-- [ ] **S.5 Entfernungen und App-Wörter im Vertrag** (Voraussetzung für S.3 Schritt 3) —
+- [x] **S.5 Entfernungen und App-Wörter im Vertrag** ✅ (2026-09-15, CI grün) (Voraussetzung für S.3 Schritt 3) —
       Entscheidung von Claude (2026-09-15, im Rahmen von Lukas' Vollmacht; Lukas kann sie kippen):
       · **Mitgliedschaft = „letzte Handlung gewinnt"**, **Fortschritt = „höchstes Fach gewinnt"**
         (Lukas' Regel bleibt unverändert). Aufnehmen/Entfernen ist eine bewusste Handlung des
@@ -1109,6 +1109,30 @@ Gleiche Hülle, unterschiedliche Nutzlast. In beiden PLAN-Dateien festgehalten.
         diese Marke; Leitner- und Listenverweise auf App-Wörter bleiben erhalten (Text-ID).
       · Migration `schemaVersion` 5 → 6, generierter Code über `build-runner.yml` **auf einem
         Zweig**, erst danach nach `main`.
+      **Umgesetzt:**
+      · `nutzer_zustand.dart`: `Mitgliedschaft` + `spaetere()`; `zusammenfuehren()` entfernt,
+        was die letzte Handlung entfernt hat — ein entferntes eigenes Wort nimmt seine
+        Leitner-Karte und Listenplätze mit.
+      · `app_database.dart`: Tabelle `Mitgliedschaften`, `Words.ausApp`, Migration v6 und die
+        Protokoll-Helfer (`mitgliedschaftMerken`, `leitnerMerken`, `eigeneListeMerken`,
+        `eigenesListenwortMerken`, `nutzerwortMerken[NachSchluessel]`).
+        ⚠️ Zeitpunkt als **Millisekunden-Integer** (`amMs`), nicht `DateTimeColumn` — drift legt
+        DateTime ohne `build.yaml` in Sekunden ab, zwei Handlungen in derselben Sekunde wären
+        sonst gleichzeitig.
+      · Protokolliert wird in: `LeitnerDao.addWord/removeCard`, `CategoryDao.insert/update/
+        deleteCategory` + `add/removeWordFromCategory` (Umbenennen = alte Liste weg, neue da),
+        `WordDao.insert/delete` (liefert jetzt die echte Nummer über den eindeutigen Schlüssel),
+        `ImportService`, Archiv-Store über die Fassade.
+      · Fassade: `lesen()` liefert Ereignisse und nur Nutzerwörter; `anwenden()` legt Ereignisse
+        ab und setzt Entfernungen um (`_entfernen`, mehrfach ausführbar).
+      · Seed-Marke `vocab_seeded_v3`, alle Seed-Wörter mit `ausApp: true`.
+      · Tests: 8 neue in `nutzer_zustand_test.dart`, 2 in `user_state_repository_test.dart`
+        (Entfernung wandert von Gerät A nach B und kommt nicht zurück · App-Wörter nicht in der
+        Sicherung), Seed-Test prüft `ausApp`.
+      ⚠️ **Grenze:** Umbenennen einer eigenen Liste auf Gerät A, während Gerät B offline Wörter in
+      die alte Liste legt ⇒ diese Wörter gehen beim Abgleich mit der alten Liste. Selten; eine
+      stabile Listen-id (statt des Namens) wäre die Lösung und ist als **S.6** vorgemerkt.
+- [ ] **S.6** Eigene Listen bekommen eine stabile geräteübergreifende id statt ihres Namens.
 
 **Planänderung 2026-09-15 — S.0a, damit die Blockade nicht alles aufhält.**
 S.0 braucht `build_runner` und ist gesperrt. Statt zu warten, kommt eine **Fassade** davor —
