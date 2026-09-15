@@ -223,6 +223,11 @@ class UserStateRepository {
         etymology: Value(w['etymology'] as String?),
         commonErrors: Value(w['commonErrors'] as String?),
         grammarNote: Value(w['grammarNote'] as String?),
+        // B-12: Grammatikfelder aus B-10 — ohne sie verlöre ein Gerätewechsel
+        // die Symbole für Verb/Präposition/Konnektor.
+        regelmaessig: Value(w['regelmaessig'] as bool?),
+        trennbar: Value(w['trennbar'] as bool?),
+        grammatikDetail: Value(w['grammatikDetail'] as String?),
       );
       await _db.into(_db.words).insert(
             companion,
@@ -440,6 +445,9 @@ class UserStateRepository {
         'etymology': w.etymology,
         'commonErrors': w.commonErrors,
         'grammarNote': w.grammarNote,
+        'regelmaessig': w.regelmaessig,
+        'trennbar': w.trennbar,
+        'grammatikDetail': w.grammatikDetail,
       };
 
   static Map<String, dynamic> _jsonMap(String roh) {

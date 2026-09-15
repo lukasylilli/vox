@@ -220,4 +220,36 @@ void main() {
     final kat = (await repo.lesen()).kategorien.single;
     expect(kat.wortIds.toSet(), {'adjektiv_stolz', 'verb_helfen'});
   });
+
+  test('B-12: Grammatikfelder eigener Wörter überleben den Gerätewechsel',
+      () async {
+    final alt = await geraet();
+    await alt.anwenden(const NutzerZustand(eigeneWoerter: [
+      {
+        'german': 'aufstehen',
+        'wordType': 'verb',
+        'meaningFa': 'بلند شدن',
+        'regelmaessig': false,
+        'trennbar': true,
+      },
+      {
+        'german': 'wegen',
+        'wordType': 'praeposition',
+        'meaningFa': 'به خاطر',
+        'grammatikDetail': 'genitiv',
+      },
+    ]));
+    final sicherung = await alt.lesen();
+
+    final neu = await geraet();
+    await neu.anwenden(sicherung);
+    final woerter = {
+      for (final w in (await neu.lesen()).eigeneWoerter) w['german']: w,
+    };
+    expect(woerter['aufstehen']!['regelmaessig'], isFalse);
+    expect(woerter['aufstehen']!['trennbar'], isTrue);
+    expect(woerter['wegen']!['grammatikDetail'], 'genitiv');
+    expect(woerter['wegen']!['trennbar'], isNull,
+        reason: 'Unbekanntes bleibt unbekannt — nie geraten.');
+  });
 }

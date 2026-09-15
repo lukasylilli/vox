@@ -24,7 +24,7 @@
 | **V — Vokabular-DB (۲۵٬۰۰۰ کلمه)** | Stufen ۱–۵ ✅ · **۸۷ کارت** (۰٫۳٪ از ~۲۶٬۲۰۰) · گلوگاه = سرعت، نه کد | Pipeline کامل و سالم: SUPER-PROMPT v3.0 → `import_inbox/` → `tool/vokabular_import.dart` → اپ. از ۱۴ جولای تا ۱۵ سپتامبر (۲ ماه) فقط چند کلمه اضافه شد ⇒ **فاز A (خودکارسازی) باز شد.** باز: V.2 `vocab.db` (حالا **پیش‌شرط**، نه اختیاری) · اتصال Leitner به imLeitner · V.5 توزیع |
 | ۱۶ — انتشار و QA نهایی | باز | آخرین فاز قبل از launch |
 
-**قدم‌های بعدی (2026-09-15):** ⓪ **فاز S** — ذخیره‌سازی داده‌ی کاربر (S.0a/b/c ✅، S.1 ✅، S.2 ✅، S.3 Schritt 1+2 ✅ · **B-11 ✅** · بعدی: S.3 Schritt 3) ① **فاز A** — A.1/A.2/A.3/A.5 ✅ · A.4 بلاک (مجوز Workflows در توکن) ② **V.2** `vocab.db` — قبل از اینکه تعداد کارت‌ها از چند صد بگذرد، وگرنه startup می‌شکند ③ G3–G6 (استخراج محتوای ۸۴ درس) ④ فاز ۱۶ launch/QA
+**قدم‌های بعدی (2026-09-15):** ⓪ **فاز S** — ذخیره‌سازی داده‌ی کاربر (S.0a/b/c ✅، S.1 ✅، S.2 ✅، S.3 Schritt 1+2 ✅ · **B-11 ✅ · B-12 ✅** · بعدی: S.3 Schritt 3) ① **فاز A** — A.1/A.2/A.3/A.5 ✅ · A.4 بلاک (مجوز Workflows در توکن) ② **V.2** `vocab.db` — قبل از اینکه تعداد کارت‌ها از چند صد بگذرد، وگرنه startup می‌شکند ③ G3–G6 (استخراج محتوای ۸۴ درس) ④ فاز ۱۶ launch/QA
 
 ---
 
@@ -86,6 +86,14 @@
 
 ### B-2: خطای SQLite — UNIQUE constraint در words ✅
 - وضعیت: رفع شد (2026-06-29)
+
+### B-12 ✅ (2026-09-15): پشتیبان فیلدهای گرامری B-10 را نداشت
+- B-10 hat `Words` um `regelmaessig`/`trennbar`/`grammatikDetail` erweitert, die Fassade
+  (`user_state_repository.dart` → `_wortZuJson` + `anwenden()`) aber nicht. Eine Sicherung
+  (Datei oder Konto) hätte diese Felder still verloren ⇒ auf dem neuen Gerät keine Symbole.
+- Beide Richtungen ergänzt; Test „B-12" in `test/user_state_repository_test.dart` (Gerätewechsel,
+  und: ein unbekanntes Feld bleibt `null` — nie geraten).
+- ⚠️ **Regel:** Jede neue Spalte in einer Nutzer-Tabelle braucht denselben Commit in der Fassade.
 
 ### B-11 ✅ (2026-09-15): اپ و پشتیبان دو جای متفاوت را می‌خواندند — از دست رفتن ظاهری پیشرفت
 - **Befund (beim Vorbereiten von S.3 Schritt 3 am Code gefunden):** S.0b/S.0c hatten nur die

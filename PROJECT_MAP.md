@@ -1177,6 +1177,10 @@ ein erfolgreicher Lauf mit mehreren tausend Wörtern bricht die laufende App. Gr
 
 ## BUGS FIXED
 
+### [2026-09-15] B-12: Sicherung verlor die B-10-Grammatikfelder eigener Wörter
+- `user_state_repository.dart`: `regelmaessig`/`trennbar`/`grammatikDetail` in `_wortZuJson` und `anwenden()`
+- ⚠️ Neue Spalte in einer Nutzer-Tabelle ⇒ im selben Commit die Fassade nachziehen
+
 ### [2026-09-15] B-11: App und Sicherung lasen verschiedene Ablagen
 - Store (`vokabular_user_state.dart`) las noch SharedPreferences, die Fassade seit S.0b/S.0c drift;
   Einspielen leerte die alten Schlüssel ⇒ leerer Leitner/Listen in der App
