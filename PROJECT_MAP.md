@@ -1077,7 +1077,6 @@ SharedPreferences. Ein Übergangspfad in `user_state_repository.dart` übernimmt
 Bestände aus `vokab_user_leitner_v1`/`vokab_user_kategorien_v1`. Nur Notizen bleiben bewusst
 in SharedPreferences (Freitext). **Neuer Code fasst diese Ablagen nie direkt an** — nur über
 die Fassade, die allein `NutzerZustand` nach außen zeigt.
-⚠️ `core/services/backup_service.dart` ist ein **Stub ohne Code** — es gibt heute keine Sicherung.
 ⚠️ Drei Orte, EIN Zuhause: Browser = Zuhause, Server + Datei = nur Wiederherstellung.
    Die App liest nie direkt von Server oder Datei. Konfliktregel: **höchstes Leitner-Fach gewinnt.**
 
@@ -1091,15 +1090,24 @@ die Fassade, die allein `NutzerZustand` nach außen zeigt.
 | `test/nutzer_zustand_test.dart` | 12 Fälle, darunter: älterer Stand mit höherem Fach gewinnt; a+b == b+a; Notizen werden nie zusammengeklebt |
 | `core/backup/user_state_repository.dart` | **S.0a-2 ✅, S.0b ✅ — DIE FASSADE.** Einzige Stelle, die weiß, wo der Nutzerzustand liegt (Archivkarten seit S.0b in drift/`ArchivLeitner`, mit Übergangspfad aus SharedPreferences). `lesen()` / `anwenden()`. Löscht nie etwas; sichert nur Einstellungen aus `einstellungsSchluessel` |
 | `.github/workflows/build-runner.yml` | führt `dart run build_runner build` aus der Ferne aus, committet nur bei grünem analyze+test — für jede künftige Drift-Änderung, nicht nur S.0b |
+| `.github/workflows/pubspec-lock.yml` | **S.3 ✅** — Gegenstück dazu für `flutter pub get`: frischt `pubspec.lock` aus der Ferne auf und committet es. ⚠️ Das Lockfile ist hier nicht kosmetisch — `web/sqlite3.wasm`/`web/drift_worker.js` müssen zu den dort festgehaltenen drift-/sqlite3-Fassungen passen |
 | `test/user_state_repository_test.dart` | prüft gegen eine echte In-Memory-Datenbank, u. a. simulierter Gerätewechsel und doppeltes Einspielen |
 | `core/services/backup_service.dart` | **S.2 ✅** — `exportieren()` / `einspielen()`. Kennt nur die Fassade und `datei_io`, keine Ablage |
 | `core/backup/datei_io.dart` (+ `_io`/`_web`) | Datei auswählen und ablegen. `textDateiWaehlen` aus Root-in übernommen; `textDateiSpeichern` ist ein Blob-Download — **bewusst ohne share_plus**, damit `pubspec.lock` unberührt bleibt |
 | `features/more/screens/settings_screen.dart` → `_SicherungKarte` | die zwei Schaltflächen. ⚠️ Alle Meldungstexte werden VOR dem `await` aufgelöst (`use_build_context_synchronously`) |
 | `test/persistent_storage_test.dart` | prüft, dass auf der Dart-VM die io-Fassung greift |
+| `core/constants/app_config.dart` | **S.3 ✅** — `SUPABASE_URL`/`SUPABASE_ANON_KEY` aus `--dart-define`. ⚠️ **Leer = kein Server**: keine Anmeldung, kein Netzaufruf. Ein `--dart-define` versteckt nichts (im Web per Textsuche in `main.dart.js` auffindbar) — der `anon`-Schlüssel darf das, `service_role` niemals |
+| `core/services/auth_service.dart` | **S.3 ✅** — einzige Stelle, die `supabase_flutter` kennt. ⚠️ **Kein Benutzername** (`profiles` gehört Root-in) und **kein `deleteAccount()`** (löscht `auth.users` und damit auch den Root-in-Bestand desselben Menschen). Gibt `AuthResult` zurück statt zu werfen; `AuthIssue` wird in der Oberfläche übersetzt, nicht hier |
+| `supabase/vox_tables.sql` | **S.3 ✅** — `vox_backups`, eine Zeile je Konto. ⚠️ **Nicht** `backups` — die gehört Root-in und hat dieselbe `user_id` als Primärschlüssel; geteilt hieße: eine App überschreibt die Sicherung der anderen. `touch_updated_at()` zeichengleich zu `schema.sql` in Root-in — Änderung immer in BEIDEN Dateien |
+| `test/auth_service_test.dart` | Fehlercode-Zuordnung (kann **still** brechen: „E-Mail vergeben" → „unbekannter Fehler") + Nachweis, dass ohne Konfiguration nichts geworfen und nichts gesendet wird |
 
 ⚠️ **Jede Änderung an einer Drift-Tabelle braucht `dart run build_runner build`**
-(`app_database.g.dart`, ~8.000 Zeilen, versioniert). Ohne Rechner und ohne CI-Workflow dafür
-ist S.0 blockiert — dasselbe fehlende PAT-Recht wie bei فاز A / A.4.
+(`app_database.g.dart`, ~8.000 Zeilen, versioniert). Claude hat kein Dart im Container —
+dafür gibt es `.github/workflows/build-runner.yml`. ✅ Seit dem PAT mit „Workflows: Read and
+write" ist diese Blockade weg (S.0b/S.0c und فاز A / A.4 sind erledigt).
+⚠️ Schema-Änderung und `build_runner`-Lauf **unmittelbar hintereinander** schicken — sonst steht
+ein Zwischenstand auf `main`, der nicht übersetzt, und jeder Commit auf `main` ist eine
+Veröffentlichung.
 
 ---
 
@@ -1115,7 +1123,19 @@ ist S.0 blockiert — dasselbe fehlende PAT-Recht wie bei فاز A / A.4.
   ⇒ Bei rotem Lauf: Schritt am Namen erkennen, Ursache aus dem Diff erschließen — oder den
   Text beim Nutzer erfragen. **Darum in Dart nur Konstrukte verwenden, die im Repo schon
   vorkommen**, und übernommenen Code zeichengleich kopieren.
-- Jeder Commit auf `main` ist eine Veröffentlichung (deploy-web.yml).
+- Jeder Commit auf `main` ist eine Veröffentlichung (deploy-web.yml). **Deshalb seit S.3:
+  riskante Änderungen zuerst auf einen Zweig.** `.github/workflows/pruefen.yml` läuft auf jedem
+  Zweig außer `main` (pub get → analyze → test → `flutter build web`, ohne zu veröffentlichen).
+  Vor allem eine Änderung an `pubspec.yaml` ließ sich vorher nirgends prüfen, weil Claude kein
+  `pub get` ausführen kann — der erste ehrliche Test war bisher immer schon der Ernstfall.
+- **Workflow-Dateien brauchen ein eigenes PAT-Recht.** Ein Tree über die Git-Data-API, der einen
+  Pfad unter `.github/workflows/` enthält, wird ohne „Workflows: Read and write" mit
+  `403 Resource not accessible by personal access token` abgelehnt — die Blobs entstehen
+  vorher trotzdem, der Fehler kommt erst beim Tree. Nicht alle vorliegenden Token haben das
+  Recht; beim 403 schlicht das andere probieren.
+- **Artefakte aus Actions sind von Claude aus nicht herunterladbar** (`*.blob.core.windows.net`,
+  nicht in der Netz-Freigabe) — dieselbe Grenze wie bei den Logs. Was zurück ins Repository
+  soll, muss der Workflow selbst committen, nicht als Artefakt ablegen.
 - **Nichts neu erfinden, was im Repo schon funktioniert.** Zwei rote Läufe am 2026-09-15 kamen
   genau daher: in `main.dart` `unawaited`/`catchError` statt des bewährten try/catch, und im
   neuen Test `Default*Localizations` statt der in `test/vokabular_test.dart` erprobten
@@ -1139,8 +1159,11 @@ ist S.0 blockiert — dasselbe fehlende PAT-Recht wie bei فاز A / A.4.
 Prüflogik bekommen — sie bereiten nur vor und räumen nach.
 ⚠️ `tool/backlog.py` enthält eine Kopie der ID-Regel 5 (`vokab_id()`). Ändert sich `vokabId()` in
 Dart, **muss** sie hier mitgezogen werden, sonst greift der Duplikat-Schutz nicht.
-⚠️ **`.github/workflows/vokabular-autofill.yml` fehlt noch** — das PAT darf keine Workflow-Dateien
-schreiben (PLAN.md → فاز A → A.4).
+✅ **`.github/workflows/vokabular-autofill.yml` liegt seit 2026-09-16 im Repo** (فاز A / A.4) —
+möglich wurde das durch das PAT mit „Workflows: Read and write". Bevor ein echter Lauf Kosten
+verursacht, fehlt noch das Secret `ANTHROPIC_API_KEY`.
+⚠️ **A.3/A.4 erst nach V.2 scharfschalten** — `vokabular_controller` liest beim Start jede Karte;
+ein erfolgreicher Lauf mit mehreren tausend Wörtern bricht die laufende App. Grenze: ~500 Karten.
 
 ---
 
