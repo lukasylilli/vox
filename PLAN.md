@@ -1045,7 +1045,12 @@ reines Dart, kein Codegen:
       از `old files Lukasalmani/Wort prompt` می‌خواند (**یک منبع** — کپی نمی‌شود)، batch را به
       Anthropic API می‌فرستد، خروجی را pre-flight می‌کند و در `import_inbox/` می‌نویسد.
       ⚠️ نیاز به `ANTHROPIC_API_KEY` (Secret) — هزینه دارد و باید شفاف گزارش شود.
-- [!] **A.4 `.github/workflows/vokabular-autofill.yml`** — **بلاک: توکن اجازه ندارد.** فایل نوشته و YAML-تست شده، ولی `PUT` با «Resource not accessible by personal access token» رد شد: fine-grained PAT برای `.github/workflows/` مجوز جداگانه‌ی **«Workflows: Read and write»** می‌خواهد (فقط «Contents» کافی نیست). راه‌حل: یا مجوز به توکن اضافه شود، یا Lukas فایل را یک‌بار دستی در GitHub بسازد. — `workflow_dispatch` (+ اختیاری `schedule`):
+- [x] **A.4 `.github/workflows/vokabular-autofill.yml`** ✅ (2026-09-16, CI grün) —
+      Lukas hat ein neues Fine-grained-PAT mit **Contents + Workflows + Actions: Read and write**
+      erzeugt (Repos: nur `vox` + `Root-in`, bewusst nicht „All repositories"). Damit war der
+      Push sofort möglich — dieselbe Datei, die vorher mit „Resource not accessible" abgelehnt
+      wurde. Braucht noch das Secret `ANTHROPIC_API_KEY`, bevor ein echter (Nicht-Probe-)Lauf
+      Kosten verursacht. — `workflow_dispatch` (+ اختیاری `schedule`):
       A.3 → `dart run tool/vokabular_import.dart` (اعتبارسنجی واقعی) → A.2 → `flutter analyze` +
       `flutter test` → commit. **اگر Fehler > 0 یا تست قرمز: هیچ چیز commit نمی‌شود.**
       ورودی‌ها: `anzahl` (چند کلمه)، `gruppe` (adjektive/verben/nomen)، `dry_run`.
