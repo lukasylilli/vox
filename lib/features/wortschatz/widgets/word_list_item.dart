@@ -1,11 +1,17 @@
 // FILE: lib/features/wortschatz/widgets/word_list_item.dart
 // DEPS: article_color_indicator.dart, article_badge.dart, word_model.dart
-// PURPOSE: One row in a word list — color bar, article badge, german, meaning, level chip
+// PURPOSE: One row in a word list — Farbbalken, Grammatikon-Symbol, Artikel-Badge,
+//          deutsches Wort, Bedeutung, Niveau.
+//          Farben kommen über ArticleColors aus GrammatikonSpec (B-9: EINE Quelle).
+//          Das Symbol erscheint nur, wenn die alte Tabelle genug Daten hat —
+//          siehe wortschatz_grammatikon.dart (lieber kein Symbol als ein falsches).
 import 'package:flutter/material.dart';
 import '../../../core/models/word_model.dart';
 import '../../../core/widgets/article_badge.dart';
 import '../../../core/widgets/vox_badge.dart';
 import 'article_color_indicator.dart';
+import 'wortschatz_grammatikon.dart';
+import '../../../core/grammatikon/grammatikon_painter.dart';
 import '../../../core/l10n/app_l10n.dart';
 
 // common prepositions that may appear as suffix in german field
@@ -37,6 +43,7 @@ class WordListItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final grammatikonKarte = grammatikonKarteAus(word);
 
     return Card(
       margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
@@ -49,6 +56,10 @@ class WordListItem extends StatelessWidget {
             child: Row(
               children: [
                 ArticleColorIndicator(article: word.article),
+                if (grammatikonKarte != null) ...[
+                  const SizedBox(width: 10),
+                  WortSymbol(card: grammatikonKarte, size: 30),
+                ],
                 Expanded(
                   child: Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
