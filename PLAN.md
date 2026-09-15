@@ -940,6 +940,19 @@ Gleiche Hülle, unterschiedliche Nutzlast. In beiden PLAN-Dateien festgehalten.
       `schema.sql` bleibt in Root-in, VOX bekommt ein eigenes `supabase/vox_tables.sql`
 - [ ] **S.4** Ehrlicher Hinweis in den Einstellungen, solange S.2/S.3 fehlen
 
+**Planänderung 2026-09-15 — S.0a, damit die Blockade nicht alles aufhält.**
+S.0 braucht `build_runner` und ist gesperrt. Statt zu warten, kommt eine **Fassade** davor —
+reines Dart, kein Codegen:
+
+- [ ] **S.0a `features/vokabular/data/user_state_repository.dart`** — die **einzige** Stelle, über
+      die künftig Nutzerzustand gelesen und geschrieben wird. Heute liegt darunter weiterhin
+      beides (drift + SharedPreferences); nach außen sieht es aus wie eine Ablage.
+- [ ] **S.0b** (nach dem Workflow-Recht): die Ablage unter der Fassade auf drift umstellen.
+      Alles oberhalb — S.2, S.3 — bleibt unberührt.
+
+⇒ Damit gilt weiter „nichts wird doppelt geschrieben": S.2 und S.3 kennen nur die Fassade.
+**Zwingend bleibt: S.0a vor S.2 und S.3.** Die ursprüngliche Regel lautete:
+
 **Reihenfolge ist zwingend: S.0 vor S.2 und S.3** — sonst wird jeder Serializer zweimal geschrieben.
 
 ---
