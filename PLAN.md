@@ -87,15 +87,27 @@
 ### B-2: خطای SQLite — UNIQUE constraint در words ✅
 - وضعیت: رفع شد (2026-06-29)
 
-### B-10 [باز، نیازمند build_runner]: جدول قدیمی Words فیلدهای گرامری کم دارد
-- برای نماد درست، Grammatikon این‌ها را لازم دارد و جدول `Words` ندارد:
-  · **فعل** → `regelmaessig` / `trennbar` / `modalverb` (دایره ↔ بلاب موج‌دار ↔ چرخ‌دنده)
-  · **حرف اضافه** → `kasus` (شکل داخلی کپسول)
-  · **Konnektor** → `untertyp` (منحنی U ↔ موج ↔ دایره‌با‌خط)
-- تا وقتی نیستند، `wortschatz_grammatikon.dart` برای این سه **هیچ نمادی نمی‌سازد**.
-  قاعده: **بهتر است نماد نباشد تا نماد غلط** — نماد غلط یعنی آموزش گرامر اشتباه.
-- رفع: افزودن این ستون‌ها به `Words` + فیلدهای متناظر در `add_word_screen`.
-  ⚠️ نیاز به `build_runner` ⇒ همان قفل S.0 / A.4 (مجوز Workflows روی توکن).
+### B-10 ✅ (2026-09-16, CI grün): جدول قدیمی Words — Grammatikfelder nachgetragen
+- Neue Spalten in `Words` (alle nullable, Migration `schemaVersion` 4 → 5):
+  `regelmaessig` / `trennbar` (Verb) und `grammatikDetail` (Kasus bei Präposition,
+  Untertyp bei Konnektor — ein Textfeld für beide, je nach Wortart unterschiedlich gedeutet).
+- Durch alle Schichten gezogen: `Words` (drift) → `WordModel` → `WordToModel`/`ModelToCompanion`
+  → drei Parser (`word_parser.dart`, `connector_parser.dart`, `irregular_verb_parser.dart`) →
+  `wortschatz_grammatikon.dart`.
+- **Herkunft je Parser, bewusst unterschiedlich vorsichtig:**
+  · `IrregularVerbParser` (Format `UV`) nennt eigene Stammformen ⇒ per Definition
+    `regelmaessig: false`. `trennbar` bleibt null (aus dem Infinitiv nicht sicher ableitbar).
+  · `WordParser` — ein hier eingegebenes Verb hat kein Stammform-Feld (unregelmäßige laufen
+    über `UV`) ⇒ per Konvention `regelmaessig: true`. Für Präposition: optionaler vierter
+    Kasus-Wert direkt nach dem Typ, erkannt nur bei einem von vier bekannten Werten — jeder
+    andere Text bleibt wie zuvor die Bedeutung (kein bestehendes Format bricht).
+  · `ConnectorParser` — optionaler Untertyp direkt nach der `K`-Marke, gleiche Vorsicht.
+- **`wortschatz_grammatikon.dart` unterscheidet jetzt zwei Fälle:** Verb/Präposition
+  bekommen ohne das Feld weiterhin KEIN Symbol (raten wäre falsche Grammatik); Konnektor
+  bekommt IMMER ein Symbol, weil der Resolver dafür einen echten, nicht falschen
+  Standardfall hat (`kurve_u`) — mit Untertyp nur genauer, nie falsch ohne ihn.
+- 8 neue Testfälle in `test/wortschatz_grammatikon_test.dart`, u. a.: fehlendes `trennbar`
+  wird wie „nicht trennbar" behandelt statt geraten; Konnektor mit/ohne Untertyp.
 
 ### B-9 ✅ (2026-09-15): دو سیستم رنگ آرتیکل — یکی شد
 - `core/constants/article_colors.dart` (لیست Wortschatz): der=آبی · die=قرمز · das=سبز

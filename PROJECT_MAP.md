@@ -1049,10 +1049,12 @@ acht nutzenden Dateien (Liste, Badge, Leitner-Karte, Lese-Popup, Detail- und Hin
 das fest.
 
 **Symbol in der Wortschatz-Liste** — `features/wortschatz/widgets/wortschatz_grammatikon.dart`
-bildet `WordModel` auf eine Resolver-Karte ab. ⚠️ **Lieber kein Symbol als ein falsches:** für
-Verb, Präposition, Konnektor und „Sonstige" liefert es bewusst `null`, weil der alten
-`Words`-Tabelle `regelmaessig`/`trennbar`/`kasus`/`untertyp` fehlen (PLAN.md → B-10). Nomen
-brauchen einen Artikel, sonst ebenfalls kein Symbol.
+bildet `WordModel` auf eine Resolver-Karte ab. ✅ **B-10 (2026-09-16):** `Words` hat jetzt
+`regelmaessig`/`trennbar`/`grammatikDetail` (alle nullable). Verb und Präposition bekommen
+weiterhin nur MIT diesen Feldern ein Symbol (fehlt es — z. B. bei älteren Zeilen oder manchen
+Eingabeformaten — bleibt es bei „lieber kein Symbol als ein falsches"). Konnektor bekommt
+IMMER eins, weil der Resolver dafür einen echten Standardfall hat. Nomen brauchen weiterhin
+einen Artikel.
 
 ℹ️ Kleinere Doku-Drift: der Kopf von `grammatikon_resolver.dart` nennt noch „Schema 2.0",
 die Karten sind 3.0.
