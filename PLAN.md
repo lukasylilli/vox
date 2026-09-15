@@ -1023,8 +1023,18 @@ reines Dart, kein Codegen:
       übernimmt einmalig den alten `vokab_user_leitner_v1`-Stand (falls vorhanden, ohne
       etwas Neueres in drift zu überschreiben — dieselbe „höchstes Fach gewinnt"-Regel) und
       leert danach den alten Schlüssel.
-      Kategorien bleiben vorerst in SharedPreferences (kleinerer, nicht dringender Rest —
-      offen als **S.0c**, kein Blocker für S.2/S.3).
+- [x] **S.0c** ✅ (2026-09-16, CI grün beim ersten Versuch) — Archiv-Listen ebenfalls nach
+      drift. Zwei neue Tabellen (n:m wie bei den eigenen Listen): `ArchivKategorien` (id, name)
+      + `ArchivKategorieWoerter` (kategorieId, wortId), Migration `schemaVersion` 3 → 4.
+      Derselbe Übergangspfad wie S.0b: alter `vokab_user_kategorien_v1`-Stand wird einmalig
+      übernommen (nur wo drift die id noch nicht kennt) und der Schlüssel danach geleert.
+      Notizen bleiben bewusst in SharedPreferences — Freitext ist kein Kandidat für eine
+      eigene Tabelle.
+      ⚠️ **Diesmal keine eigenen Fehler** — Lehre aus S.0b direkt angewendet: Schema-Commit und
+      `build-runner`-Dispatch unmittelbar hintereinander (keine rote Zwischen-Zeile im
+      Actions-Log), und die neuen Tests per `str_replace` gegen eine bekannte, eindeutige
+      Endzeile eingefügt statt per Datei-Anhängen — damit landen sie garantiert innerhalb von
+      `main() { … }`.
       ⚠️ **Werkzeug dafür neu gebaut:** `.github/workflows/build-runner.yml` — führt
       `dart run build_runner build` aus der Ferne aus und committet nur bei grünem
       `analyze`+`test`. Nützlich für jede künftige Drift-Änderung, nicht nur S.0b.

@@ -1069,11 +1069,12 @@ die Karten sind 3.0.
 | SharedPreferences (localStorage) | `vokab_user_leitner_v1` · `vokab_user_kategorien_v1` · `vokab_user_notizen_v1` | `features/vokabular/controllers/vokabular_user_state.dart` |
 | SharedPreferences (localStorage) | `theme_mode`, `tts_rate`, `tts_language`, `current_level`, `daily_goal_min`, `ui_language` | `features/more/controllers/settings_controller.dart` |
 
-✅ **S.0b (2026-09-16): Archivkarten-Leitner liegt jetzt in drift** (Tabelle `ArchivLeitner`),
-nicht mehr in SharedPreferences. Ein Übergangspfad in `user_state_repository.dart` übernimmt
-einmalig alte Bestände aus `vokab_user_leitner_v1`. Kategorien liegen noch in SharedPreferences
-(**S.0c**, nicht dringend). **Neuer Code fasst diese Ablagen nie direkt an** — nur über die
-Fassade, die allein `NutzerZustand` nach außen zeigt.
+✅ **S.0b+S.0c (2026-09-16): Archivkarten-Leitner UND Archiv-Listen liegen jetzt in drift**
+(`ArchivLeitner` bzw. `ArchivKategorien`/`ArchivKategorieWoerter`), nicht mehr in
+SharedPreferences. Ein Übergangspfad in `user_state_repository.dart` übernimmt einmalig alte
+Bestände aus `vokab_user_leitner_v1`/`vokab_user_kategorien_v1`. Nur Notizen bleiben bewusst
+in SharedPreferences (Freitext). **Neuer Code fasst diese Ablagen nie direkt an** — nur über
+die Fassade, die allein `NutzerZustand` nach außen zeigt.
 ⚠️ `core/services/backup_service.dart` ist ein **Stub ohne Code** — es gibt heute keine Sicherung.
 ⚠️ Drei Orte, EIN Zuhause: Browser = Zuhause, Server + Datei = nur Wiederherstellung.
    Die App liest nie direkt von Server oder Datei. Konfliktregel: **höchstes Leitner-Fach gewinnt.**
