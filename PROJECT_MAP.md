@@ -1190,6 +1190,12 @@ möglich wurde das durch das PAT mit „Workflows: Read and write". Bevor ein ec
 verursacht, fehlt noch das Secret `ANTHROPIC_API_KEY`.
 ⚠️ **A.3/A.4 erst nach V.2 scharfschalten** — `vokabular_controller` liest beim Start jede Karte;
 ein erfolgreicher Lauf mit mehreren tausend Wörtern bricht die laufende App. Grenze: ~500 Karten.
+⛔ **A.6 (2026-09-16): Welcher Weg die Wörter erzeugt, entscheidet Lukas.** Optionen: API
+(`vokabular-autofill.yml`, kostet Geld) · von Hand im Chat mit Claude · Claude Code — oder gemischt.
+Details und Schätzung: PLAN.md → فاز A → A.6. **Claude beginnt damit nie von sich aus, sondern fragt
+Lukas, sobald es so weit ist** (vor dem ersten echten Lauf bzw. nach V.2). Der dafür nötige
+„nur-Import"-Weg (Karten in `import_inbox/` → Dart-Prüfung + Tests in GitHub → Commit) existiert
+noch nicht und wird erst nach dieser Entscheidung gebaut.
 
 ---
 
