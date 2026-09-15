@@ -24,7 +24,7 @@
 | **V — Vokabular-DB (۲۵٬۰۰۰ کلمه)** | Stufen ۱–۵ ✅ · **۸۷ کارت** (۰٫۳٪ از ~۲۶٬۲۰۰) · گلوگاه = سرعت، نه کد | Pipeline کامل و سالم: SUPER-PROMPT v3.0 → `import_inbox/` → `tool/vokabular_import.dart` → اپ. از ۱۴ جولای تا ۱۵ سپتامبر (۲ ماه) فقط چند کلمه اضافه شد ⇒ **فاز A (خودکارسازی) باز شد.** باز: V.2 `vocab.db` (حالا **پیش‌شرط**، نه اختیاری) · اتصال Leitner به imLeitner · V.5 توزیع |
 | ۱۶ — انتشار و QA نهایی | باز | آخرین فاز قبل از launch |
 
-**قدم‌های بعدی (2026-09-15):** ⓪ **فاز S** — ذخیره‌سازی داده‌ی کاربر (S.0a/b/c ✅، S.1 ✅، S.2 ✅، S.3 Schritt 1+2 ✅ · بعدی: S.3 Schritt 3) ① **فاز A** — A.1/A.2/A.3/A.5 ✅ · A.4 بلاک (مجوز Workflows در توکن) ② **V.2** `vocab.db` — قبل از اینکه تعداد کارت‌ها از چند صد بگذرد، وگرنه startup می‌شکند ③ G3–G6 (استخراج محتوای ۸۴ درس) ④ فاز ۱۶ launch/QA
+**قدم‌های بعدی (2026-09-15):** ⓪ **فاز S** — ذخیره‌سازی داده‌ی کاربر (S.0a/b/c ✅، S.1 ✅، S.2 ✅، S.3 Schritt 1+2 ✅ · **B-11 ✅** · بعدی: S.3 Schritt 3) ① **فاز A** — A.1/A.2/A.3/A.5 ✅ · A.4 بلاک (مجوز Workflows در توکن) ② **V.2** `vocab.db` — قبل از اینکه تعداد کارت‌ها از چند صد بگذرد، وگرنه startup می‌شکند ③ G3–G6 (استخراج محتوای ۸۴ درس) ④ فاز ۱۶ launch/QA
 
 ---
 
@@ -86,6 +86,31 @@
 
 ### B-2: خطای SQLite — UNIQUE constraint در words ✅
 - وضعیت: رفع شد (2026-06-29)
+
+### B-11 ✅ (2026-09-15): اپ و پشتیبان دو جای متفاوت را می‌خواندند — از دست رفتن ظاهری پیشرفت
+- **Befund (beim Vorbereiten von S.3 Schritt 3 am Code gefunden):** S.0b/S.0c hatten nur die
+  Fassade (`user_state_repository.dart`) auf drift umgestellt. Der Store der App,
+  `features/vokabular/controllers/vokabular_user_state.dart`, las und schrieb weiter
+  `vokab_user_leitner_v1` / `vokab_user_kategorien_v1` in SharedPreferences.
+- **Folge:** Wer eine Sicherung einspielte, dem leerte die Fassade genau diese Schlüssel
+  (Übergangspfad) — beim nächsten Start zeigte die Wortseite **leeren Leitner-Stapel und
+  leere Listen**, obwohl alles in drift lag. Jeder automatische Konto-Abgleich (S.3 Schritt 3)
+  hätte denselben Effekt bei jedem Lauf gehabt. ⇒ Schritt 3 war ohne diese Korrektur nicht baubar.
+- **Lösung — EIN Zuhause, keine zweite Logik:**
+  · Der Store kennt keine Ablage mehr; er ruft nur die Fassade: `archivLesen()`,
+    `archivLeitnerAufnehmen/-Entfernen()`, `archivKategorieAnlegen()`,
+    `archivKategorieWortSetzen()`. Die Fassade bleibt die **einzige** Stelle, die die Tabellen kennt.
+  · Beim Laden ruft der Store `uebergangAbschliessen()` — ein Altbestand in SharedPreferences wird
+    über **dieselbe** `anwenden()`-Logik nach drift übernommen. Wessen Stand durch ein Einspielen
+    „verschwunden" war, sieht ihn nach dem Update wieder (er lag die ganze Zeit in drift).
+  · `neuLaden()` im Store; `_SicherungKarte` ruft es nach dem Einspielen — vorher blieb die
+    Wortseite bis zum Neustart auf dem alten Stand.
+  · Die drei `kVokab…Key`-Konstanten liegen jetzt in der Fassade: `core/` importiert kein Feature mehr.
+- Drei neue Tests in `test/vokabular_test.dart` (gemeinsame Ablage · nach dem Einspielen fehlt
+  nichts · Altbestand wird beim Laden übernommen); die bestehenden Store-Tests laufen jetzt gegen
+  eine In-Memory-Datenbank.
+- ⚠️ **Lehre:** Wer eine Ablage umzieht, muss **alle Leser** umziehen, nicht nur den, an dem er
+  gerade arbeitet. Vor dem Umzug: `grep` nach dem Schlüssel/der Tabelle über `lib/`.
 
 ### B-10 ✅ (2026-09-16, CI grün): جدول قدیمی Words — Grammatikfelder nachgetragen
 - Neue Spalten in `Words` (alle nullable, Migration `schemaVersion` 4 → 5):
@@ -723,7 +748,8 @@ lib/core/services/
     + `vokabId(wortart, wort)` (قانون ۵ ID: آرتیکل حذف، ä→ae/ß→ss) + جستجوی DE/FA/EN.
   · `controllers/vokabular_user_state.dart` — **user state جدا از content read-only**
     (بهبود مهم نسبت به کد RN که flag را داخل خود کارت می‌نوشت): Leitner-Map (box/nextReview)
-    + Kategorien؛ SharedPreferences (V.3 → drift کنار vocab.db، API ثابت)؛ `_ready`-Gate ضد race.
+    + Kategorien؛ `_ready`-Gate ضد race. **Seit B-11 (2026-09-15): drift über die Fassade**
+    (`ArchivLeitner`/`ArchivKategorien`), nicht mehr SharedPreferences.
   · `widgets/wort_actions.dart` — 🔊 = **AudioPlayButton موجود** (نه expo-speech!) + Leitner-Toggle
     + Kategorien-BottomSheet (ساخت/toggle)؛ فقط VoxButton/VoxIconButton؛ snackbar از کلیدهای موجود.
   · `screens/vokabular_home_screen.dart` — جستجو + Wortarten-Grid (شمارنده، VoxColors.wordType)

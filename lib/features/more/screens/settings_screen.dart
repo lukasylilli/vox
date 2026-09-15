@@ -12,6 +12,7 @@ import '../../../core/services/auth_service.dart';
 import '../../../core/services/backup_service.dart';
 import '../../../core/utils/install_state.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../vokabular/controllers/vokabular_user_state.dart';
 import '../../wortschatz/controllers/word_controller.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../controllers/settings_controller.dart';
@@ -587,6 +588,14 @@ class _SicherungKarteState extends ConsumerState<_SicherungKarte> {
                     onPressed: () => _fuehreAus((d) async {
                       final e = await d.einspielen();
                       if (e.abgebrochen) return abgebrochen;
+                      // Die Ablage wurde am Wort-Store vorbei geändert —
+                      // sonst zeigt die Wortseite bis zum Neustart den
+                      // alten Stand (B-11).
+                      if (mounted) {
+                        await ref
+                            .read(vokabularUserProvider.notifier)
+                            .neuLaden();
+                      }
                       return '$zurueck: ${e.leitnerWoerter} $imLeitner, '
                           '${e.eigeneWoerter} $eigene';
                     }),

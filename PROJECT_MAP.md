@@ -961,7 +961,9 @@ data_seed_service.dart  [x]  — یک‌بار seed از JSON asset به SQLite 
     + `vokabKartePasst()` (جستجوی DE/FA/EN).
   · `controllers/vokabular_user_state.dart` [x] — Leitner-Map (box/nextReviewDate) + Kategorien
     (فقط Wort-ID) + **Notizen** (`VokabNotiz {text, farben: WortIndex→Farbname}`، متن خالی=حذف)؛
-    SharedPreferences (کلیدها vokab_user_*_v1)؛ `_ready`-Gate؛ V.3 → drift.
+    `_ready`-Gate. **Seit B-11: Leitner + Listen in drift, NUR über die Fassade**
+    (`archivLesen()` usw. in `core/backup/user_state_repository.dart`); Notizen in
+    SharedPreferences (`vokab_user_notizen_v1`). `neuLaden()` nach Einspielen/Abgleich.
   · `widgets/wort_notiz.dart` [x] ✅ 2026-07-14 — **Freitext-Notiz روی Wort-Seite** (user state):
     `WortNotizSektion` نمایش RichText رنگی + BottomSheet-Editor (کلمه لمس/انتخاب → VoxIconButton
     دایره‌ی رنگی، ۶ رنگ `notizFarben` + Standard)؛ live-رنگ با `_NotizController.buildTextSpan`؛
@@ -1071,7 +1073,8 @@ die Karten sind 3.0.
 | Ablage | Inhalt | Datei |
 |---|---|---|
 | drift/SQLite-WASM (IndexedDB, DB `vox`) | `LeitnerCards` (alte Wortschatz-Wörter) · `Words`/`Books`/`WordBooks` · `UserCategories`/`CategoryWords` | `core/database/app_database.dart` |
-| SharedPreferences (localStorage) | `vokab_user_leitner_v1` · `vokab_user_kategorien_v1` · `vokab_user_notizen_v1` | `features/vokabular/controllers/vokabular_user_state.dart` |
+| drift (seit S.0b/S.0c, App liest es seit **B-11**) | `ArchivLeitner` · `ArchivKategorien` · `ArchivKategorieWoerter` (Archivkarten) | Zugriff nur über `core/backup/user_state_repository.dart` |
+| SharedPreferences (localStorage) | `vokab_user_notizen_v1` (echte Ablage) · `vokab_user_leitner_v1` / `vokab_user_kategorien_v1` (nur Altbestand — wird beim Laden übernommen und geleert) | Schlüssel-Konstanten in `core/backup/user_state_repository.dart` |
 | SharedPreferences (localStorage) | `theme_mode`, `tts_rate`, `tts_language`, `current_level`, `daily_goal_min`, `ui_language` | `features/more/controllers/settings_controller.dart` |
 
 ✅ **S.0b+S.0c (2026-09-16): Archivkarten-Leitner UND Archiv-Listen liegen jetzt in drift**
@@ -1173,6 +1176,12 @@ ein erfolgreicher Lauf mit mehreren tausend Wörtern bricht die laufende App. Gr
 ---
 
 ## BUGS FIXED
+
+### [2026-09-15] B-11: App und Sicherung lasen verschiedene Ablagen
+- Store (`vokabular_user_state.dart`) las noch SharedPreferences, die Fassade seit S.0b/S.0c drift;
+  Einspielen leerte die alten Schlüssel ⇒ leerer Leitner/Listen in der App
+- Store geht jetzt nur über die Fassade (`archivLesen()` …), `uebergangAbschliessen()` beim Laden,
+  `neuLaden()` nach dem Einspielen; Tests in `test/vokabular_test.dart`
 
 ### [2026-09-15] Puzzling-Bruch in den Einstellungen (فاز S)
 - `settings_screen.dart`: fünf rohe Buttons (`_SicherungKarte` aus S.2, `_KontoKarte` aus S.3

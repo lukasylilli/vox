@@ -2,15 +2,20 @@
 // Kategorien, getrennt vom Content), Asset-Loader (lädt Demo-Wort aus pubspec)
 // und DetailsRenderer (Verb: Perfekt wird GEBAUT, nie gespeichert — Regel 7).
 import 'dart:convert';
+import 'package:drift/native.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:vox/core/backup/nutzer_zustand.dart';
+import 'package:vox/core/backup/user_state_repository.dart';
+import 'package:vox/core/database/app_database.dart';
 import 'package:vox/features/vokabular/controllers/vokabular_controller.dart';
 import 'package:vox/features/vokabular/controllers/vokabular_user_state.dart';
 import 'package:vox/features/vokabular/widgets/details_renderer.dart';
 import 'package:vox/features/vokabular/widgets/wort_notiz.dart';
+import 'package:vox/features/wortschatz/controllers/word_controller.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -54,11 +59,22 @@ void main() {
 
   group('VokabularUserStore', () {
     late ProviderContainer container;
+    late AppDatabase db;
+
+    // Seit B-11 liegt der Stand in drift — jeder Container bekommt dieselbe
+    // Datenbank im Speicher, genau wie in der App alle Provider dieselbe haben.
+    ProviderContainer neuerContainer() {
+      final c = ProviderContainer(
+          overrides: [databaseProvider.overrideWithValue(db)]);
+      addTearDown(c.dispose);
+      return c;
+    }
 
     setUp(() {
       SharedPreferences.setMockInitialValues({});
-      container = ProviderContainer();
-      addTearDown(container.dispose);
+      db = AppDatabase.forTesting(NativeDatabase.memory());
+      addTearDown(db.close);
+      container = neuerContainer();
     });
 
     test('toggleLeitner: Flag rein (Box 1) / raus — kein Auto-Import', () async {
@@ -117,8 +133,7 @@ void main() {
       await store.setzeNotiz(
           'verb_lernen', const VokabNotiz(text: 'täglich üben', farben: {1: 'rot'}));
 
-      final zweiter = ProviderContainer();
-      addTearDown(zweiter.dispose);
+      final zweiter = neuerContainer();
       // _load ist async — kurz auf den geladenen Zustand warten.
       await zweiter.read(vokabularUserProvider.notifier).toggleLeitner('x');
       final s = zweiter.read(vokabularUserProvider);
@@ -126,6 +141,59 @@ void main() {
       expect(s.kategorien.map((k) => k.name), contains('Arbeit'));
       expect(s.notizen['verb_lernen']!.text, 'täglich üben');
       expect(s.notizen['verb_lernen']!.farben, {1: 'rot'});
+    });
+
+    // ── B-11 ──────────────────────────────────────────────────────────────
+    test('B-11: Store und Sicherung teilen EINE Ablage', () async {
+      final store = container.read(vokabularUserProvider.notifier);
+      await store.toggleLeitner('verb_lernen');
+      final kat = await store.createKategorie('Arbeit');
+      await store.toggleWortInKategorie(kat.id, 'verb_lernen');
+
+      final repo = UserStateRepository(db, await SharedPreferences.getInstance());
+      final z = await repo.lesen();
+      expect(z.leitner.keys, contains('verb_lernen'));
+      expect(z.kategorien.single.wortIds, ['verb_lernen']);
+    });
+
+    test('B-11: nach dem Einspielen verschwindet nichts aus der App',
+        () async {
+      // Altbestand von vor S.0b in SharedPreferences …
+      SharedPreferences.setMockInitialValues({
+        'vokab_user_leitner_v1':
+            '{"adjektiv_stolz":{"box":2,"nextReviewDate":"2026-10-01T00:00:00.000"}}',
+        'vokab_user_kategorien_v1':
+            '[{"id":"kat_1","name":"B1","wortIds":["adjektiv_stolz"]}]',
+      });
+      final repo = UserStateRepository(db, await SharedPreferences.getInstance());
+      // … dann eine Sicherung eingespielt: die Fassade übernimmt den
+      // Altbestand nach drift und leert die alten Schlüssel.
+      await repo.anwenden(const NutzerZustand(leitner: {
+        'verb_helfen': LeitnerStand(wortId: 'verb_helfen', fach: 3),
+      }));
+
+      final zweiter = neuerContainer();
+      await zweiter.read(vokabularUserProvider.notifier).neuLaden();
+      final s = zweiter.read(vokabularUserProvider);
+      expect(s.imLeitner('adjektiv_stolz'), isTrue);
+      expect(s.leitner['adjektiv_stolz']!.box, 2);
+      expect(s.imLeitner('verb_helfen'), isTrue);
+      expect(s.kategorien.single.wortIds, ['adjektiv_stolz']);
+    });
+
+    test('B-11: Altbestand wird beim Laden übernommen, auch ohne Einspielen',
+        () async {
+      SharedPreferences.setMockInitialValues({
+        'vokab_user_leitner_v1':
+            '{"adjektiv_stolz":{"box":1,"nextReviewDate":"2026-10-01T00:00:00.000"}}',
+      });
+      final c = neuerContainer();
+      await c.read(vokabularUserProvider.notifier).neuLaden();
+      expect(c.read(vokabularUserProvider).imLeitner('adjektiv_stolz'), isTrue);
+
+      final prefs = await SharedPreferences.getInstance();
+      expect(prefs.containsKey('vokab_user_leitner_v1'), isFalse,
+          reason: 'Der Altbestand liegt jetzt in drift — der Schlüssel ist leer.');
     });
   });
 

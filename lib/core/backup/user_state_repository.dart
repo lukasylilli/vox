@@ -29,9 +29,20 @@ import 'package:drift/drift.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../database/app_database.dart';
-import '../../features/vokabular/controllers/vokabular_user_state.dart'
-    show kVokabLeitnerKey, kVokabKategorienKey, kVokabNotizenKey;
 import 'nutzer_zustand.dart';
+
+/// SharedPreferences-Schlüssel des Wortarchivs.
+///
+/// ⚠️ Seit S.0b/S.0c sind [kVokabLeitnerKey] und [kVokabKategorienKey] nur
+/// noch **Altbestand**: Sie werden gelesen, übernommen und danach geleert
+/// (siehe [UserStateRepository.uebergangAbschliessen]). Geschrieben wird
+/// dorthin nie mehr. Nur [kVokabNotizenKey] ist weiter die echte Ablage.
+///
+/// Die Schlüssel liegen hier und nicht im Wort-Store (`features/vokabular/…`),
+/// damit `core/` kein Feature importiert (B-11, 2026-09-15).
+const kVokabLeitnerKey = 'vokab_user_leitner_v1';
+const kVokabKategorienKey = 'vokab_user_kategorien_v1';
+const kVokabNotizenKey = 'vokab_user_notizen_v1';
 
 /// Einstellungsschlüssel, die zum Nutzer gehören und mitgesichert werden.
 /// Bewusst eine ausdrückliche Liste: so wandert nie versehentlich ein
@@ -173,6 +184,23 @@ class UserStateRepository {
 
   // ── Schreiben ──────────────────────────────────────────────────────────
 
+  /// Schließt den Übergang von SharedPreferences nach drift (S.0b/S.0c)
+  /// **sofort** ab, statt erst beim nächsten Einspielen.
+  ///
+  /// Wird vom Wort-Store beim Laden gerufen (B-11): Der Store liest seit
+  /// B-11 nur noch drift. Läge ein Altbestand dann noch in SharedPreferences,
+  /// sähe der Nutzer ihn nicht — deshalb wird er vorher übernommen.
+  /// Ohne Altbestand passiert nichts. Dieselbe Logik wie beim Einspielen
+  /// (ein leerer Stand wird zusammengeführt), kein zweiter Weg.
+  Future<void> uebergangAbschliessen() async {
+    if (!_prefs.containsKey(kVokabLeitnerKey) &&
+        !_prefs.containsKey(kVokabKategorienKey)) {
+      return;
+    }
+    await anwenden(const NutzerZustand());
+  }
+
+
   /// Führt `eingehend` mit dem aktuellen Stand zusammen („höchstes Fach
   /// gewinnt", siehe nutzer_zustand.dart) und legt das Ergebnis ab.
   /// Nichts wird gelöscht — eine Wiederherstellung darf nie Fortschritt kosten.
@@ -312,6 +340,87 @@ class UserStateRepository {
     }
 
     return zusammen;
+  }
+
+  // ── Wortarchiv: Einzelzugriffe für den Wort-Store (B-11) ───────────────
+  //
+  // Der Store in `features/vokabular/controllers/vokabular_user_state.dart`
+  // liest und schreibt hierüber — so kennt weiterhin NUR diese Datei die
+  // Tabellen. Sicherung, Konto und App teilen damit dieselbe Ablage.
+
+  /// Nur der Archiv-Teil: Leitner und Listen der Archivkarten.
+  /// (Eigene Wörter, Notizen und Einstellungen bleiben hier leer.)
+  Future<NutzerZustand> archivLesen() async {
+    final zuordnung = await _db.select(_db.archivKategorieWoerter).get();
+    final kategorien = await _db.select(_db.archivKategorien).get();
+    // Feste Reihenfolge: ids sind `kat_<Millisekunden>`, also nach Anlage.
+    kategorien.sort((a, b) => a.id.compareTo(b.id));
+    return NutzerZustand(
+      leitner: {
+        for (final k in await _db.select(_db.archivLeitner).get())
+          k.wortId: LeitnerStand(
+            wortId: k.wortId,
+            fach: k.boxNumber,
+            naechsteWiederholung: k.nextReview,
+            letzteWiederholung: k.lastReview,
+          ),
+      },
+      kategorien: [
+        for (final k in kategorien)
+          KategorieStand(
+            id: k.id,
+            name: k.name,
+            wortIds: [
+              for (final z in zuordnung)
+                if (z.kategorieId == k.id) z.wortId,
+            ],
+          ),
+      ],
+    );
+  }
+
+  /// Archivkarte in den Stapel: Fach 1, fällig ab [faellig].
+  Future<void> archivLeitnerAufnehmen(String wortId, DateTime faellig) async {
+    final companion = ArchivLeitnerCompanion.insert(
+      wortId: wortId,
+      boxNumber: const Value(1),
+      nextReview: faellig,
+    );
+    await _db.into(_db.archivLeitner).insert(
+          companion,
+          onConflict:
+              DoUpdate((_) => companion, target: [_db.archivLeitner.wortId]),
+        );
+  }
+
+  /// Archivkarte aus dem Stapel — auf ausdrücklichen Wunsch des Nutzers.
+  Future<void> archivLeitnerEntfernen(String wortId) async {
+    await (_db.delete(_db.archivLeitner)
+          ..where((t) => t.wortId.equals(wortId)))
+        .go();
+  }
+
+  Future<void> archivKategorieAnlegen(String id, String name) async {
+    await _db
+        .into(_db.archivKategorien)
+        .insert(ArchivKategorienCompanion.insert(id: id, name: name));
+  }
+
+  /// Wort in eine Liste aufnehmen ([drin] wahr) oder daraus entfernen.
+  Future<void> archivKategorieWortSetzen(
+      String kategorieId, String wortId, bool drin) async {
+    if (drin) {
+      await _db.into(_db.archivKategorieWoerter).insert(
+            ArchivKategorieWoerterCompanion.insert(
+                kategorieId: kategorieId, wortId: wortId),
+            mode: InsertMode.insertOrIgnore,
+          );
+    } else {
+      await (_db.delete(_db.archivKategorieWoerter)
+            ..where((t) =>
+                t.kategorieId.equals(kategorieId) & t.wortId.equals(wortId)))
+          .go();
+    }
   }
 
   // ── Helfer ─────────────────────────────────────────────────────────────
