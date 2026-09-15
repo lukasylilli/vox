@@ -8,6 +8,7 @@ import '../../../core/constants/app_sizes.dart';
 import '../../../core/l10n/app_l10n.dart';
 import '../../../core/backup/nutzer_zustand.dart';
 import '../../../core/backup/user_state_repository.dart';
+import '../../../core/services/auth_service.dart';
 import '../../../core/services/backup_service.dart';
 import '../../../core/utils/install_state.dart';
 import '../../wortschatz/controllers/word_controller.dart';
@@ -190,11 +191,235 @@ class SettingsScreen extends ConsumerWidget {
             const _SpeicherKarte(),
             const SizedBox(height: AppSizes.sm),
             const _SicherungKarte(),
+
+            // ── Konto (فاز S / S.3 Schritt 2) ───────────────────
+            // Erscheint nur, wenn Supabase konfiguriert ist — sonst gibt es
+            // keine Rubrik, statt eine, die nichts tut.
+            if (ref.watch(kontoAktivProvider)) ...[
+              const SizedBox(height: AppSizes.md),
+              _SectionHeader(AppL10n.t(context, 'section_account')),
+              const _KontoKarte(),
+            ],
           ],
         ),
       ),
     );
   }
+}
+
+/// Übersetzt einen [AuthIssue] in einen anzeigbaren Text.
+///
+/// ⚠️ Übersetzung passiert **hier**, nicht in `auth_service.dart` — der
+/// Dienst kennt bewusst kein `BuildContext` und keine Sprache (siehe Kopf
+/// der Datei dort).
+String _kontoFehlerText(BuildContext context, AuthIssue issue) => switch (issue) {
+      AuthIssue.notConfigured      => AppL10n.t(context, 'auth_issue_not_configured'),
+      AuthIssue.emailTaken         => AppL10n.t(context, 'auth_issue_email_taken'),
+      AuthIssue.invalidCredentials => AppL10n.t(context, 'auth_issue_invalid_credentials'),
+      AuthIssue.weakPassword       => AppL10n.t(context, 'auth_issue_weak_password'),
+      AuthIssue.invalidEmail       => AppL10n.t(context, 'auth_issue_invalid_email'),
+      AuthIssue.signupDisabled     => AppL10n.t(context, 'auth_issue_signup_disabled'),
+      AuthIssue.emailRateLimited   => AppL10n.t(context, 'auth_issue_email_rate_limited'),
+      AuthIssue.offline            => AppL10n.t(context, 'auth_issue_offline'),
+      AuthIssue.unknown            => AppL10n.t(context, 'auth_issue_unknown'),
+    };
+
+/// Konto: anmelden, registrieren, abmelden (فاز S / S.3 Schritt 2).
+///
+/// Zeigt sich nur, wenn `kontoAktivProvider` wahr ist (siehe
+/// `settings_screen.dart` oben) — ohne Supabase-Konfiguration existiert diese
+/// Rubrik einfach nicht, statt eine zu sein, die nie funktioniert.
+///
+/// ⚠️ Noch **keine** Cloud-Sicherung hier — das ist S.3 Schritt 3. Diese
+/// Karte kümmert sich ausschließlich um Anmeldung; `vox_backups` wird an
+/// anderer Stelle angebunden, mit derselben Nutzlast wie S.2.
+class _KontoKarte extends ConsumerStatefulWidget {
+  const _KontoKarte();
+
+  @override
+  ConsumerState<_KontoKarte> createState() => _KontoKarteState();
+}
+
+class _KontoKarteState extends ConsumerState<_KontoKarte> {
+  final _emailController    = TextEditingController();
+  final _passwordController = TextEditingController();
+
+  bool _istRegistrierung = false;
+  bool _laeuft           = false;
+  bool _passwortSichtbar = false;
+
+  @override
+  void dispose() {
+    _emailController.dispose();
+    _passwordController.dispose();
+    super.dispose();
+  }
+
+  void _melde(String text) {
+    if (!mounted) return;
+    ScaffoldMessenger.of(context)
+      ..hideCurrentSnackBar()
+      ..showSnackBar(SnackBar(content: Text(text)));
+  }
+
+  Future<void> _absenden() async {
+    if (_laeuft) return;
+    final email    = _emailController.text;
+    final password = _passwordController.text;
+
+    // Texte VOR dem await auflösen — dieselbe Regel wie bei _SicherungKarte
+    // (use_build_context_synchronously): der Bildschirm kann inzwischen weg
+    // sein, `context` danach anzufassen wäre sowohl ein Analyse- als auch
+    // ein Sachfehler.
+    final bestaetigungGesendet = AppL10n.t(context, 'account_confirm_email_sent');
+    final istRegistrierung     = _istRegistrierung;
+
+    setState(() => _laeuft = true);
+    try {
+      final service = ref.read(authServiceProvider);
+      final result = istRegistrierung
+          ? await service.signUp(email: email, password: password)
+          : await service.signIn(email: email, password: password);
+
+      if (!mounted) return;
+
+      if (result.isSuccess) {
+        _passwordController.clear();
+        // Bei Registrierung mit eingeschalteter E-Mail-Bestätigung kommt ein
+        // Konto ohne Sitzung zurück (siehe Kopf von signUp in
+        // auth_service.dart) — currentAccount bleibt dann null, und genau
+        // das ist der Fall, in dem der Hinweis auf die Bestätigungsmail
+        // sichtbar sein muss statt einer stillen Erfolgsmeldung ohne Wirkung.
+        if (istRegistrierung && ref.read(authServiceProvider).currentAccount == null) {
+          _melde(bestaetigungGesendet);
+        }
+      } else {
+        _melde(_kontoFehlerText(context, result.issue!));
+      }
+    } finally {
+      if (mounted) setState(() => _laeuft = false);
+    }
+  }
+
+  Future<void> _abmelden() async {
+    if (_laeuft) return;
+    final abgemeldet = AppL10n.t(context, 'account_signed_out');
+    setState(() => _laeuft = true);
+    try {
+      await ref.read(authServiceProvider).signOut();
+    } finally {
+      if (mounted) {
+        setState(() => _laeuft = false);
+        _melde(abgemeldet);
+      }
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final account = ref.watch(authAccountProvider).valueOrNull;
+
+    return Card(
+      child: Padding(
+        padding: const EdgeInsets.all(AppSizes.md),
+        child: account != null
+            ? _angemeldeteAnsicht(context, account)
+            : _anmeldeFormular(context),
+      ),
+    );
+  }
+
+  Widget _angemeldeteAnsicht(BuildContext context, AuthAccount account) => Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(children: [
+            const Icon(Icons.account_circle_outlined),
+            const SizedBox(width: AppSizes.sm),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(AppL10n.t(context, 'account_signed_in_as'),
+                      style: Theme.of(context).textTheme.bodySmall),
+                  Text(account.email,
+                      style: const TextStyle(fontWeight: FontWeight.w700)),
+                ],
+              ),
+            ),
+          ]),
+          const SizedBox(height: AppSizes.md),
+          if (_laeuft)
+            const Center(child: CircularProgressIndicator())
+          else
+            OutlinedButton.icon(
+              onPressed: _abmelden,
+              icon : const Icon(Icons.logout_outlined),
+              label: Text(AppL10n.t(context, 'account_sign_out')),
+            ),
+        ],
+      );
+
+  Widget _anmeldeFormular(BuildContext context) => Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(children: [
+            const Icon(Icons.account_circle_outlined),
+            const SizedBox(width: AppSizes.sm),
+            Expanded(
+              child: Text(AppL10n.t(context, 'account_title'),
+                  style: const TextStyle(fontWeight: FontWeight.w700)),
+            ),
+          ]),
+          const SizedBox(height: AppSizes.md),
+          TextField(
+            controller: _emailController,
+            keyboardType: TextInputType.emailAddress,
+            autocorrect: false,
+            decoration: InputDecoration(
+              labelText: AppL10n.t(context, 'account_email_label'),
+              border   : const OutlineInputBorder(),
+            ),
+          ),
+          const SizedBox(height: AppSizes.sm),
+          TextField(
+            controller: _passwordController,
+            obscureText: !_passwortSichtbar,
+            decoration: InputDecoration(
+              labelText: AppL10n.t(context, 'account_password_label'),
+              border   : const OutlineInputBorder(),
+              suffixIcon: IconButton(
+                icon: Icon(_passwortSichtbar
+                    ? Icons.visibility_off_outlined
+                    : Icons.visibility_outlined),
+                onPressed: () =>
+                    setState(() => _passwortSichtbar = !_passwortSichtbar),
+              ),
+            ),
+            onSubmitted: (_) => _absenden(),
+          ),
+          const SizedBox(height: AppSizes.md),
+          if (_laeuft)
+            const Center(child: CircularProgressIndicator())
+          else
+            FilledButton.icon(
+              onPressed: _absenden,
+              icon : const Icon(Icons.login_outlined),
+              label: Text(AppL10n.t(
+                  context,
+                  _istRegistrierung ? 'account_sign_up' : 'account_sign_in')),
+            ),
+          const SizedBox(height: AppSizes.sm),
+          TextButton(
+            onPressed: () =>
+                setState(() => _istRegistrierung = !_istRegistrierung),
+            child: Text(AppL10n.t(
+                context,
+                _istRegistrierung
+                    ? 'account_switch_to_signin'
+                    : 'account_switch_to_signup')),
+          ),
+        ],
+      );
 }
 
 /// Zeigt, ob VOX als Web-App auf der Startseite läuft — und wenn nicht, wie
