@@ -25,6 +25,20 @@ void main() {
     'storage_how_ios',
     'storage_how_android',
     'storage_how_desktop',
+    // S.2 — Sicherung (nachgetragen 2026-09-16; fehlten bisher im Schutz)
+    'backup_title',
+    'backup_sub',
+    'backup_export',
+    'backup_import',
+    'backup_saved',
+    'backup_restored',
+    'backup_cancelled',
+    'backup_merge_hint',
+    'backup_words_leitner',
+    'backup_words_own',
+    // S.4 — ehrlicher Hinweis, wo die Daten liegen
+    'backup_only_here',
+    'backup_only_here_signin',
     // S.3 Schritt 2 — Konto (2026-09-15)
     'section_account',
     'account_title',

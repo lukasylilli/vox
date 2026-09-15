@@ -64,6 +64,9 @@ class AppL10n {
       'backup_merge_hint'   : 'برگرداندن هیچ چیزی را پاک نمی‌کند؛ با داده‌ی فعلی ادغام می‌شود و جعبه‌ی بالاتر می‌ماند.',
       'backup_words_leitner': 'کلمه در جعبه‌ی لایتنر',
       'backup_words_own'    : 'کلمه‌ی شخصی',
+      // فاز S / S.4 — صادقانه: داده کجاست
+      'backup_only_here'    : 'پیشرفتت فقط در همین مرورگرِ همین دستگاه ذخیره است و هیچ کپی خودکاری جای دیگری ندارد. هر چند وقت یک بار فایل پشتیبان بگیر.',
+      'backup_only_here_signin': 'پیشرفتت الان فقط در همین مرورگر است. برای کپی خودکار، پایین‌تر وارد حسابت شو — یا هر چند وقت یک بار فایل پشتیبان بگیر.',
       // فاز S / S.3 — حساب کاربری
       'section_account'     : 'حساب کاربری',
       'account_title'       : 'حساب کاربری',
@@ -692,6 +695,9 @@ class AppL10n {
       'backup_merge_hint'   : 'Restoring never deletes anything — it merges with what you have and keeps the higher box.',
       'backup_words_leitner': 'words in your Leitner boxes',
       'backup_words_own'    : 'own words',
+      // فاز S / S.4 — honest: where your data lives
+      'backup_only_here'    : 'Your progress is stored only in this browser on this device — there is no automatic copy anywhere else. Save a backup file every now and then.',
+      'backup_only_here_signin': 'Right now your progress is only in this browser. Sign in below for an automatic copy — or save a backup file every now and then.',
       // فاز S / S.3 — account
       'section_account'     : 'Account',
       'account_title'       : 'Account',

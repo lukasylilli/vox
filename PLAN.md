@@ -9,7 +9,7 @@
 > **(4) Entscheidung des Nutzers 2026-09-15:** Die Wörter werden **weiter alphabetisch** abgearbeitet (nicht nach Häufigkeit sortiert) — der Durchsatz kommt aus der Automatisierung, nicht aus der Reihenfolge.
 
 # پلن کامل صفر تا انتشار اپ یادگیری آلمانی برای فارسی‌زبانان
-# آپدیت: 2026-09-15
+# آپدیت: 2026-09-16
 
 ---
 
@@ -24,7 +24,7 @@
 | **V — Vokabular-DB (۲۵٬۰۰۰ کلمه)** | Stufen ۱–۵ ✅ · **۸۷ کارت** (۰٫۳٪ از ~۲۶٬۲۰۰) · گلوگاه = سرعت، نه کد | Pipeline کامل و سالم: SUPER-PROMPT v3.0 → `import_inbox/` → `tool/vokabular_import.dart` → اپ. از ۱۴ جولای تا ۱۵ سپتامبر (۲ ماه) فقط چند کلمه اضافه شد ⇒ **فاز A (خودکارسازی) باز شد.** باز: V.2 `vocab.db` (حالا **پیش‌شرط**، نه اختیاری) · اتصال Leitner به imLeitner · V.5 توزیع |
 | ۱۶ — انتشار و QA نهایی | باز | آخرین فاز قبل از launch |
 
-**قدم‌های بعدی (2026-09-15):** ⓪ **فاز S** — ذخیره‌سازی داده‌ی کاربر (S.0a/b/c ✅، S.1 ✅، S.2 ✅، S.3 Schritt 1+2 ✅ · **B-11 ✅ · B-12 ✅ · S.5 ✅ · S.3 ✅** · بعدی: S.4 · S.6) ① **فاز A** — A.1/A.2/A.3/A.5 ✅ · A.4 بلاک (مجوز Workflows در توکن) ② **V.2** `vocab.db` — قبل از اینکه تعداد کارت‌ها از چند صد بگذرد، وگرنه startup می‌شکند ③ G3–G6 (استخراج محتوای ۸۴ درس) ④ فاز ۱۶ launch/QA
+**قدم‌های بعدی (2026-09-15):** ⓪ **فاز S** — ذخیره‌سازی داده‌ی کاربر (S.0a/b/c ✅، S.1 ✅، S.2 ✅، S.3 Schritt 1+2 ✅ · **B-11 ✅ · B-12 ✅ · S.5 ✅ · S.3 ✅ · S.4 ✅** · بعدی: S.6) ① **فاز A** — A.1/A.2/A.3/A.5 ✅ · A.4 بلاک (مجوز Workflows در توکن) ② **V.2** `vocab.db` — قبل از اینکه تعداد کارت‌ها از چند صد بگذرد، وگرنه startup می‌شکند ③ G3–G6 (استخراج محتوای ۸۴ درس) ④ فاز ۱۶ launch/QA
 
 ---
 
@@ -978,7 +978,10 @@ Arbeit nie verloren. Für Notizen und Kategorien gilt Vereinigung statt Übersch
 `{ "version": <int>, "exportedAt": <ISO>, "app": "vox" | "root-in", "payload": { … } }`
 Gleiche Hülle, unterschiedliche Nutzlast. In beiden PLAN-Dateien festgehalten.
 
-- [ ] **S.0 EINE Ablage** — `vokab_user_*` von localStorage nach drift; `LeitnerCards` so
+- [x] **S.0 EINE Ablage** ✅ — erledigt über S.0a–S.0c (Doku nachgezogen 2026-09-16; anderer Weg als
+      ursprünglich geplant: eigene Tabelle `ArchivLeitner` statt `LeitnerCards` zu erweitern; die
+      Blockade unten ist seit dem PAT mit „Workflows"-Recht weg). Ursprünglicher Text:
+      `vokab_user_*` von localStorage nach drift; `LeitnerCards` so
       erweitern, dass es beide Wortquellen trägt (Archiv-Karten haben Text-IDs wie
       `adjektiv_stolz`, die alten Wörter eine Int-ID); Migration ohne Datenverlust.
       ⚠️ **BLOCKIERT** — jede Drift-Änderung braucht `build_runner` (`app_database.g.dart`,
@@ -1104,7 +1107,18 @@ Gleiche Hülle, unterschiedliche Nutzlast. In beiden PLAN-Dateien festgehalten.
   ⚠️ **Voraussetzung für Schritt 2:** die Secrets `SUPABASE_URL` und `SUPABASE_ANON_KEY` im
   vox-Repo (Settings → Secrets and variables → Actions) und `supabase/vox_tables.sql` einmal im
   SQL-Editor des Supabase-Projekts ausgeführt. Bis dahin bleibt alles wirkungslos — aber heil.
-- [ ] **S.4** Ehrlicher Hinweis in den Einstellungen, solange S.2/S.3 fehlen
+- [x] **S.4 Ehrlicher Hinweis** ✅ (2026-09-16) — Einstellungen → «داده‌ی من» → Karte «پشتیبان»
+      sagt jetzt, wo die Daten wirklich liegen. Da S.2 und S.3 gebaut sind, war die ursprüngliche
+      Formulierung („solange S.2/S.3 fehlen") überholt; die Lücke, die bleibt: **ohne Server**
+      (keine Secrets) gibt es keine Konto-Rubrik und damit auch keinen Satz, der sagt, dass nichts
+      kopiert wird.
+      · `settings_screen.dart` → `datenOrtSchluessel()` (reine Funktion): kein Server ⇒
+        `backup_only_here` · Server, nicht angemeldet ⇒ `backup_only_here_signin` · angemeldet ⇒
+        kein Hinweis (die Konto-Karte sagt dann selbst, dass kopiert wird).
+      · `authAccountProvider` wird nur beobachtet, wenn es überhaupt einen Server gibt.
+      · 2 Schlüssel FA/EN; `test/l10n_paritaet_test.dart` schützt jetzt auch die 10
+        `backup_*`-Schlüssel aus S.2, die dort bisher fehlten.
+      · Test: `test/datenort_hinweis_test.dart` (alle vier Zustände).
 - [x] **S.5 Entfernungen und App-Wörter im Vertrag** ✅ (2026-09-15, CI grün) (Voraussetzung für S.3 Schritt 3) —
       Entscheidung von Claude (2026-09-15, im Rahmen von Lukas' Vollmacht; Lukas kann sie kippen):
       · **Mitgliedschaft = „letzte Handlung gewinnt"**, **Fortschritt = „höchstes Fach gewinnt"**

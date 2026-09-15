@@ -1,6 +1,6 @@
 # PROJECT MAP — VOX
 # نقشه کامل پروژه برای ناوبری سریع در هر session
-# آپدیت: 2026-09-15
+# آپدیت: 2026-09-16
 # ⚠️ 2026-09-13: Umbau zur reinen Web-App — android/ios/macos/linux/windows, RevenueCat & Notifications entfernt; ältere Einträge beschreiben teils den nativen Stand
 # ⚠️ 2026-09-13: Habit/Routine entfernt — Root-in (eigenes Repo, lukasylilli.github.io/Root-in/) übernimmt das, verlinkt aus Selbstlernen ("Routine"-Karte, core/constants/app_links.dart + core/utils/external_link_opener.dart). Pomodoro bleibt unverändert.
 # ❗ Wort-Prompt: EIN Wort = EINE Karte. Alle Übersetzungen stehen zweisprachig {fa,en} in
@@ -15,7 +15,7 @@
 #   · B-3 / R-1.1 در کد رفع شده‌اند (stripPreposition در word_list_item.dart) — در BACKLOG اصلاح شد
 #   · README قدیمی: «Selbstlernen — Gewohnheiten, Streaks» (Habit از 2026-09-13 حذف شده)
 #   · فاز A (خودکارسازی ورود کلمات) باز شد — PLAN.md → «فاز A»
-#   · فاز S (ذخیره‌سازی داده‌ی کاربر) باز شد — S.1 ✅؛ S.0 بلاک (build_runner)
+#   · فاز S (ذخیره‌سازی داده‌ی کاربر) — S.0–S.5 ✅ (S.4 ehrlicher Hinweis 2026-09-16)؛ باز: S.6 + S.3 Konto löschen
 #
 # 🎯 وضعیت: ۲۴۴ فایل Dart (۱۶۳ features + ۷۷ core) — analyze سبز
 # فاز V (Vokabular-DB ۲۵k) طراحی شد — کجا کلمات ذخیره می‌شوند + معماری آینده: بخش «فاز V» + Services
@@ -1101,6 +1101,7 @@ die Fassade, die allein `NutzerZustand` nach außen zeigt.
 | `core/services/backup_service.dart` | **S.2 ✅** — `exportieren()` / `einspielen()`. Kennt nur die Fassade und `datei_io`, keine Ablage |
 | `core/backup/datei_io.dart` (+ `_io`/`_web`) | Datei auswählen und ablegen. `textDateiWaehlen` aus Root-in übernommen; `textDateiSpeichern` ist ein Blob-Download — **bewusst ohne share_plus**, damit `pubspec.lock` unberührt bleibt |
 | `features/more/screens/settings_screen.dart` → `_SicherungKarte` | die zwei Schaltflächen. ⚠️ Alle Meldungstexte werden VOR dem `await` aufgelöst (`use_build_context_synchronously`) |
+| `features/more/screens/settings_screen.dart` → `datenOrtSchluessel()` | **S.4 ✅ (2026-09-16)** — ehrlicher Satz in `_SicherungKarte`, wo die Daten liegen: ohne Server `backup_only_here`, mit Server ohne Anmeldung `backup_only_here_signin`, angemeldet nichts. Test: `test/datenort_hinweis_test.dart` |
 | `test/persistent_storage_test.dart` | prüft, dass auf der Dart-VM die io-Fassung greift |
 | `core/constants/app_config.dart` | **S.3 ✅** — `SUPABASE_URL`/`SUPABASE_ANON_KEY` aus `--dart-define`. ⚠️ **Leer = kein Server**: keine Anmeldung, kein Netzaufruf. Ein `--dart-define` versteckt nichts (im Web per Textsuche in `main.dart.js` auffindbar) — der `anon`-Schlüssel darf das, `service_role` niemals |
 | `core/services/auth_service.dart` | **S.3 ✅** — einzige Stelle, die `supabase_flutter` kennt. ⚠️ **Kein Benutzername** (`profiles` gehört Root-in) und **kein `deleteAccount()`** (löscht `auth.users` und damit auch den Root-in-Bestand desselben Menschen). Gibt `AuthResult` zurück statt zu werfen; `AuthIssue` wird in der Oberfläche übersetzt, nicht hier |

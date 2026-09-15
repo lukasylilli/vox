@@ -1,6 +1,6 @@
 // FILE: lib/features/more/screens/settings_screen.dart
 // DEPS: settings_controller.dart
-// PURPOSE: تنظیمات اپ — تم، سرعت TTS، سطح آلمانی، هدف روزانه، ایمنی داده (فاز S)
+// PURPOSE: تنظیمات اپ — تم، سرعت TTS، سطح آلمانی، هدف روزانه، ایمنی داده (فاز S, S.4 Hinweis)
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -516,6 +516,24 @@ class _SpeicherKarte extends StatelessWidget {
   }
 }
 
+/// Welcher ehrliche Hinweis über den Ort der Daten erscheint (فاز S / S.4).
+///
+/// · Kein Server eingerichtet ⇒ `backup_only_here`: die Daten liegen nur in
+///   diesem Browser, die Datei ist das einzige Netz.
+/// · Server eingerichtet, aber niemand angemeldet ⇒ `backup_only_here_signin`.
+/// · Angemeldet ⇒ `null` — die Konto-Karte sagt dann selbst, dass kopiert wird.
+///
+/// Reine Funktion, damit die Entscheidung ohne Browser und ohne Server
+/// prüfbar bleibt (`test/datenort_hinweis_test.dart`).
+String? datenOrtSchluessel({
+  required bool kontoAktiv,
+  required bool angemeldet,
+}) {
+  if (!kontoAktiv) return 'backup_only_here';
+  if (!angemeldet) return 'backup_only_here_signin';
+  return null;
+}
+
 class _SectionHeader extends StatelessWidget {
   const _SectionHeader(this.text);
   final String text;
@@ -589,6 +607,16 @@ class _SicherungKarteState extends ConsumerState<_SicherungKarte> {
     final imLeitner    = AppL10n.t(context, 'backup_words_leitner');
     final eigene       = AppL10n.t(context, 'backup_words_own');
 
+    // S.4 — ehrlich sagen, wo die Daten liegen. Der Konto-Zustand wird nur
+    // beobachtet, wenn es überhaupt einen Server gibt.
+    final kontoAktiv = ref.watch(kontoAktivProvider);
+    final angemeldet =
+        kontoAktiv && ref.watch(authAccountProvider).valueOrNull != null;
+    final ortSchluessel = datenOrtSchluessel(
+      kontoAktiv: kontoAktiv,
+      angemeldet: angemeldet,
+    );
+
     return Card(
       child: Padding(
         padding: const EdgeInsets.all(AppSizes.md),
@@ -605,6 +633,25 @@ class _SicherungKarteState extends ConsumerState<_SicherungKarte> {
             ]),
             const SizedBox(height: AppSizes.sm),
             Text(AppL10n.t(context, 'backup_sub')),
+            if (ortSchluessel != null) ...[
+              const SizedBox(height: AppSizes.sm),
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Icon(Icons.info_outline,
+                      size: 18,
+                      color: Theme.of(context).colorScheme.primary),
+                  const SizedBox(width: AppSizes.sm),
+                  Expanded(
+                    child: Text(AppL10n.t(context, ortSchluessel),
+                        style: TextStyle(
+                          color: Theme.of(context).colorScheme.primary,
+                          fontWeight: FontWeight.w600,
+                        )),
+                  ),
+                ],
+              ),
+            ],
             const SizedBox(height: AppSizes.sm),
             Text(AppL10n.t(context, 'backup_merge_hint'),
                 style: Theme.of(context).textTheme.bodySmall),
