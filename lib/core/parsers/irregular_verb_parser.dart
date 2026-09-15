@@ -48,6 +48,12 @@ class IrregularVerbParser {
       level       : level,
       examples    : examples,
       conjugation : conjugation,
+      // فاز B-10: dieses Format nennt eigene Stammformen → per Definition
+      // unregelmäßig. Trennbarkeit lässt sich aus dem reinen Infinitiv nicht
+      // sicher ableiten (z. B. "verstehen" sieht trennbar aus, ist es nicht)
+      // — deshalb bewusst null statt geraten (Regel „lieber kein Symbol als
+      // ein falsches").
+      regelmaessig: false,
     );
   }
 }

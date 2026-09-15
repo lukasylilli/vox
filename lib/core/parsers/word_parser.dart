@@ -7,6 +7,7 @@
 //   Verb:     "gehen | Verb | رفتن | A1 | Er geht."
 //   Adjektiv: "groß | Adj | بزرگ | A1"
 //   Präp:     "mit | Präp | با | A1 | Ich fahre mit dem Bus."
+//   Präp+Kasus (فاز B-10, optional): "mit | Präp | dativ | با | A1 | ..."
 //   Simple:   "gern | خوشحال | A1"               (no type hint, FA in field[1])
 //
 // DETECTION: called by parser_registry when field[1] ≠ "UV" / "K" / "NVV"
@@ -31,6 +32,10 @@ class WordParser {
     'pronomen'     : WordType.pronomen,
     'zahl'         : WordType.zahl,
   };
+
+  // فاز B-10: Kasus fürs Grammatikon-Symbol der Präposition. "wechsel" ist
+  // die einzige Kategorie mit eigener Innenform (siehe grammatikon_resolver).
+  static const _kasusWerte = {'akkusativ', 'dativ', 'genitiv', 'wechsel'};
 
   static WordModel? parse(String input) {
     final fields = input.split('|').map((f) => f.trim()).toList();
@@ -91,11 +96,25 @@ class WordParser {
     final type    = _typeMap[typeKey] ?? WordType.sonstige;
 
     if (fields.length < 3) return null;
-    final meaningFa = fields[2];
+
+    // فاز B-10: optionaler Kasus direkt hinter dem Typ, nur bei Präposition.
+    // Erkannt nur bei genau einem der vier Werte — jeder andere Text zählt
+    // weiter als Bedeutung, genau wie vorher (kein Format bricht).
+    String? kasus;
+    var meaningIdx = 2;
+    if (type == WordType.praepositon &&
+        fields.length > 3 &&
+        _kasusWerte.contains(fields[2].toLowerCase())) {
+      kasus = fields[2].toLowerCase();
+      meaningIdx = 3;
+    }
+
+    if (fields.length <= meaningIdx) return null;
+    final meaningFa = fields[meaningIdx];
     if (meaningFa.isEmpty || !_hasFarsi(meaningFa)) return null;
 
     GermanLevel? level;
-    int nextIdx = 3;
+    var nextIdx = meaningIdx + 1;
     if (nextIdx < fields.length) {
       level = GermanLevel.fromString(fields[nextIdx]);
       if (level != null) nextIdx++;
@@ -104,6 +123,12 @@ class WordParser {
     return WordModel(
       id: 0, german: german, wordType: type,
       meaningFa: meaningFa, level: level, examples: _tail(fields, nextIdx),
+      // فاز B-10: dieses Format hat kein eigenes Feld für Stammformen —
+      // unregelmäßige Verben kommen über das UV-Format (IrregularVerbParser).
+      // Ein hier eingegebenes Verb ist deshalb per Konvention regelmäßig.
+      // Trennbarkeit bleibt null (nicht sicher aus dem Infinitiv ableitbar).
+      regelmaessig: type == WordType.verb ? true : null,
+      grammatikDetail: kasus,
     );
   }
 

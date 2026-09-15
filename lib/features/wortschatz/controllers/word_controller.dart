@@ -74,6 +74,9 @@ extension WordToModel on Word {
     etymology      : etymology,
     commonErrors   : commonErrors,
     grammarNote    : grammarNote,
+    regelmaessig   : regelmaessig,
+    trennbar       : trennbar,
+    grammatikDetail: grammatikDetail,
   );
 }
 
@@ -94,5 +97,8 @@ extension ModelToCompanion on WordModel {
     etymology       : Value(etymology),
     commonErrors    : Value(commonErrors),
     grammarNote     : Value(grammarNote),
+    regelmaessig    : Value(regelmaessig),
+    trennbar        : Value(trennbar),
+    grammatikDetail : Value(grammatikDetail),
   );
 }

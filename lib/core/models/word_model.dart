@@ -90,6 +90,9 @@ class WordModel {
     this.etymology,
     this.commonErrors,
     this.grammarNote,
+    this.regelmaessig,
+    this.trennbar,
+    this.grammatikDetail,
   });
 
   final int              id;
@@ -106,6 +109,11 @@ class WordModel {
   final String?          etymology;
   final String?          commonErrors;
   final String?          grammarNote;
+
+  // فاز B-10: fürs Grammatikon-Symbol (siehe app_database.dart → Words).
+  final bool?            regelmaessig; // nur Verb
+  final bool?            trennbar;     // nur Verb
+  final String?          grammatikDetail; // Präp: Kasus · Konnektor: Untertyp
 
   // Display helpers
   String get displayGerman => article != null ? '${article!} $german' : german;
@@ -146,6 +154,9 @@ class WordModel {
     String?  etymology,
     String?  commonErrors,
     String?  grammarNote,
+    bool?    regelmaessig,
+    bool?    trennbar,
+    String?  grammatikDetail,
   }) =>
       WordModel(
         id          : id,
@@ -162,6 +173,9 @@ class WordModel {
         etymology   : etymology,
         commonErrors: commonErrors,
         grammarNote : grammarNote,
+        regelmaessig: regelmaessig,
+        trennbar    : trennbar,
+        grammatikDetail: grammatikDetail,
       );
 
   String get examplesJson =>
