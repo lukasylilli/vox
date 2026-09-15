@@ -1,11 +1,12 @@
 // FILE: lib/features/more/screens/settings_screen.dart
 // DEPS: settings_controller.dart
-// PURPOSE: تنظیمات اپ — تم، سرعت TTS، سطح آلمانی، هدف روزانه
+// PURPOSE: تنظیمات اپ — تم، سرعت TTS، سطح آلمانی، هدف روزانه، ایمنی داده (فاز S)
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/constants/app_sizes.dart';
 import '../../../core/l10n/app_l10n.dart';
+import '../../../core/utils/install_state.dart';
 import '../controllers/settings_controller.dart';
 
 class SettingsScreen extends ConsumerWidget {
@@ -177,6 +178,63 @@ class SettingsScreen extends ConsumerWidget {
                 ),
               ),
             ),
+
+            // ── Meine Daten (فاز S / S.1b) ─────────────────────
+            const SizedBox(height: AppSizes.md),
+            _SectionHeader(AppL10n.t(context, 'section_storage')),
+            const _SpeicherKarte(),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// Zeigt, ob VOX als Web-App auf der Startseite läuft — und wenn nicht, wie
+/// man sie hinzufügt. Kein Komfort-Hinweis: installierte Web-Apps sind von
+/// Safaris Sieben-Tage-Aufräumen ausgenommen (PLAN.md → فاز S).
+class _SpeicherKarte extends StatelessWidget {
+  const _SpeicherKarte();
+
+  @override
+  Widget build(BuildContext context) {
+    final hinweis = erkenneInstallHinweis();
+    if (hinweis == InstallHinweis.installiert) {
+      return Card(
+        child: ListTile(
+          leading : const Icon(Icons.verified_user_outlined),
+          title   : Text(AppL10n.t(context, 'storage_ok_title')),
+          subtitle: Text(AppL10n.t(context, 'storage_ok_sub')),
+        ),
+      );
+    }
+    final anleitung = switch (hinweis) {
+      InstallHinweis.ios     => 'storage_how_ios',
+      InstallHinweis.android => 'storage_how_android',
+      _                      => 'storage_how_desktop',
+    };
+    return Card(
+      child: Padding(
+        padding: const EdgeInsets.all(AppSizes.md),
+        child  : Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(children: [
+              const Icon(Icons.add_to_home_screen_outlined),
+              const SizedBox(width: AppSizes.sm),
+              Expanded(
+                child: Text(AppL10n.t(context, 'storage_warn_title'),
+                    style: const TextStyle(fontWeight: FontWeight.w700)),
+              ),
+            ]),
+            const SizedBox(height: AppSizes.sm),
+            Text(AppL10n.t(context, 'storage_warn_sub')),
+            const SizedBox(height: AppSizes.sm),
+            Text(AppL10n.t(context, anleitung),
+                style: TextStyle(
+                  color: Theme.of(context).colorScheme.primary,
+                  fontWeight: FontWeight.w600,
+                )),
           ],
         ),
       ),

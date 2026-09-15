@@ -53,6 +53,15 @@ class AppL10n {
 
   static const _s = <String, Map<String, String>>{
     'fa': {
+      // فاز S — ذخیره‌سازی و ایمنی داده
+      'section_storage'     : 'داده‌ی من',
+      'storage_ok_title'    : 'روی صفحه‌ی اصلی نصب شده',
+      'storage_ok_sub'      : 'داده‌ات در این حالت امن‌تر می‌ماند.',
+      'storage_warn_title'  : 'اپ را به صفحه‌ی اصلی اضافه کن',
+      'storage_warn_sub'    : 'مرورگر ممکن است داده‌ی سایت‌هایی را که مدتی باز نشوند پاک کند. اگر اپ روی صفحه‌ی اصلی باشد، این اتفاق نمی‌افتد.',
+      'storage_how_ios'     : 'در Safari: دکمه‌ی هم‌رسانی ⬆️ ← «Add to Home Screen»',
+      'storage_how_android' : 'در Chrome: منوی ⋮ ← «Install app» یا «Add to Home screen»',
+      'storage_how_desktop' : 'در نوار آدرس مرورگر، دکمه‌ی نصب را بزن.',
       // App
       'app_tagline'         : 'یادگیری آلمانی به فارسی',
       // Home sections
@@ -632,6 +641,15 @@ class AppL10n {
       'view_all_n_phrases'        : 'مشاهده همه {n} عبارت',
     },
     'en': {
+      // فاز S — storage safety
+      'section_storage'     : 'My data',
+      'storage_ok_title'    : 'Installed on your home screen',
+      'storage_ok_sub'      : 'Your data is safer this way.',
+      'storage_warn_title'  : 'Add the app to your home screen',
+      'storage_warn_sub'    : 'Browsers may clear data for sites you have not opened in a while. Installed apps are exempt.',
+      'storage_how_ios'     : 'In Safari: Share ⬆️ → “Add to Home Screen”',
+      'storage_how_android' : 'In Chrome: menu ⋮ → “Install app” or “Add to Home screen”',
+      'storage_how_desktop' : 'Use the install button in your browser address bar.',
       'app_tagline'         : 'Learn German in Persian',
       'wortschatz'          : 'Vocabulary',
       'grammatik'           : 'Grammar',
