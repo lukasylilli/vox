@@ -103,6 +103,7 @@ test/widget_test.dart   [x]  — smoke test (VoxApp در ProviderScope)
 
 ### lib/main.dart [x]
 PURPOSE: entry point — WidgetsFlutterBinding + ProviderScope + VoxApp
+⚠️ S.3 Schritt 2 (2026-09-15): ruft `AuthService().initialize()` in try/catch — ohne Secrets nur `false`, nie ein Startfehler
 ⚠️ RevenueCat entfernt (2026-09-13) — die Web-App ist kostenlos, kein Abo-System
 
 ### lib/app.dart [x]
@@ -147,6 +148,8 @@ widgets/
                                  VoxFab + VoxFab.extended
                                  VoxOptionButton: گزینه آزمون (idle/selected/correct/wrong) — همه ۱۱ quiz [B.4 ✅]
                                  منبع طراحی: old files Lukasalmani/1/Button (نسخه System-APIs)
+                                 🛡 Wächter: test/puzzling_buttons_test.dart — roher Button in
+                                   lib/features ⇒ CI rot (B.5, 2026-09-15)
   vox_badge.dart          [x]  — VoxBadge.level(level) — colored، wordType، colored variants
   article_badge.dart      [x]  — pill badge رنگی برای der/die/das (prop: large)
   filter_accordion.dart   [x]  — FilterAccordion(label, options, selected, onChanged)
@@ -1099,6 +1102,8 @@ die Fassade, die allein `NutzerZustand` nach außen zeigt.
 | `core/constants/app_config.dart` | **S.3 ✅** — `SUPABASE_URL`/`SUPABASE_ANON_KEY` aus `--dart-define`. ⚠️ **Leer = kein Server**: keine Anmeldung, kein Netzaufruf. Ein `--dart-define` versteckt nichts (im Web per Textsuche in `main.dart.js` auffindbar) — der `anon`-Schlüssel darf das, `service_role` niemals |
 | `core/services/auth_service.dart` | **S.3 ✅** — einzige Stelle, die `supabase_flutter` kennt. ⚠️ **Kein Benutzername** (`profiles` gehört Root-in) und **kein `deleteAccount()`** (löscht `auth.users` und damit auch den Root-in-Bestand desselben Menschen). Gibt `AuthResult` zurück statt zu werfen; `AuthIssue` wird in der Oberfläche übersetzt, nicht hier |
 | `supabase/vox_tables.sql` | **S.3 ✅** — `vox_backups`, eine Zeile je Konto. ⚠️ **Nicht** `backups` — die gehört Root-in und hat dieselbe `user_id` als Primärschlüssel; geteilt hieße: eine App überschreibt die Sicherung der anderen. `touch_updated_at()` zeichengleich zu `schema.sql` in Root-in — Änderung immer in BEIDEN Dateien |
+| `features/more/screens/settings_screen.dart` → `_KontoKarte` | **S.3 Schritt 2 ✅** — anmelden/registrieren/abmelden; nur sichtbar bei `kontoAktivProvider`. `AuthIssue` wird hier übersetzt (`_kontoFehlerText`). Noch **ohne** Cloud-Kopie — das ist Schritt 3 |
+| `test/puzzling_buttons_test.dart` | **B.5** — kein roher Material-Button in `lib/features/`. Entstanden, weil `_SicherungKarte` und `_KontoKarte` die Regel unbemerkt gebrochen hatten |
 | `test/auth_service_test.dart` | Fehlercode-Zuordnung (kann **still** brechen: „E-Mail vergeben" → „unbekannter Fehler") + Nachweis, dass ohne Konfiguration nichts geworfen und nichts gesendet wird |
 
 ⚠️ **Jede Änderung an einer Drift-Tabelle braucht `dart run build_runner build`**
@@ -1168,6 +1173,11 @@ ein erfolgreicher Lauf mit mehreren tausend Wörtern bricht die laufende App. Gr
 ---
 
 ## BUGS FIXED
+
+### [2026-09-15] Puzzling-Bruch in den Einstellungen (فاز S)
+- `settings_screen.dart`: fünf rohe Buttons (`_SicherungKarte` aus S.2, `_KontoKarte` aus S.3
+  Schritt 2) → `VoxButton.tonal/secondary/primary/text` + `VoxIconButton`
+- Neu: `test/puzzling_buttons_test.dart` — die grep-Regel aus فاز B ist jetzt eine CI-Prüfung
 
 ### [2026-06-30] Phase 8 (جزئی): RevenueCat SDK کامل + Native Splash
 - `purchases_ui_flutter 8.11.0` اضافه شد

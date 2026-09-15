@@ -24,7 +24,7 @@
 | **V — Vokabular-DB (۲۵٬۰۰۰ کلمه)** | Stufen ۱–۵ ✅ · **۸۷ کارت** (۰٫۳٪ از ~۲۶٬۲۰۰) · گلوگاه = سرعت، نه کد | Pipeline کامل و سالم: SUPER-PROMPT v3.0 → `import_inbox/` → `tool/vokabular_import.dart` → اپ. از ۱۴ جولای تا ۱۵ سپتامبر (۲ ماه) فقط چند کلمه اضافه شد ⇒ **فاز A (خودکارسازی) باز شد.** باز: V.2 `vocab.db` (حالا **پیش‌شرط**، نه اختیاری) · اتصال Leitner به imLeitner · V.5 توزیع |
 | ۱۶ — انتشار و QA نهایی | باز | آخرین فاز قبل از launch |
 
-**قدم‌های بعدی (2026-09-15):** ⓪ **فاز S** — ذخیره‌سازی داده‌ی کاربر (S.0a/b/c ✅، S.1 ✅، S.2 ✅، S.3 Schritt 1 ✅) ① **فاز A** — A.1/A.2/A.3/A.5 ✅ · A.4 بلاک (مجوز Workflows در توکن) ② **V.2** `vocab.db` — قبل از اینکه تعداد کارت‌ها از چند صد بگذرد، وگرنه startup می‌شکند ③ G3–G6 (استخراج محتوای ۸۴ درس) ④ فاز ۱۶ launch/QA
+**قدم‌های بعدی (2026-09-15):** ⓪ **فاز S** — ذخیره‌سازی داده‌ی کاربر (S.0a/b/c ✅، S.1 ✅، S.2 ✅، S.3 Schritt 1+2 ✅ · بعدی: S.3 Schritt 3) ① **فاز A** — A.1/A.2/A.3/A.5 ✅ · A.4 بلاک (مجوز Workflows در توکن) ② **V.2** `vocab.db` — قبل از اینکه تعداد کارت‌ها از چند صد بگذرد، وگرنه startup می‌شکند ③ G3–G6 (استخراج محتوای ۸۴ درس) ④ فاز ۱۶ launch/QA
 
 ---
 
@@ -307,6 +307,12 @@ ElevatedButton(
       استفاده می‌کنند — ۰ ListTile گزینه باقی ماند.
 - [~] B.4-alt باقی‌مانده (بعداً): Word-Chips (wortstellung، dativ) → vox_chip؛ قدیمی:
       RadioListTile) → VoxOptionButton برای یکدستی کامل؛ Word-Chips (wortstellung، dativ) → vox_chip
+- [x] **B.5 ✅ (2026-09-15) Wächter statt grep:** `test/puzzling_buttons_test.dart` durchsucht
+      `lib/features/` nach rohen `IconButton`/`TextButton`/`OutlinedButton`/`FilledButton`/
+      `ElevatedButton`/`FloatingActionButton` und macht CI rot, wenn einer auftaucht.
+      **Anlass:** Die Regel stand nur als grep-Befehl hier — und S.2 + S.3 Schritt 2 haben sie
+      unbemerkt gebrochen (fünf rohe Buttons in `settings_screen.dart`, jetzt ersetzt).
+      `lib/core/widgets/` bleibt ausgenommen: dort wird das Design System gebaut.
 - **قانون از این به بعد**: دکمه جدید = فقط reference به vox_button.dart؛
   `grep -rE 'IconButton\(|TextButton|OutlinedButton|FilledButton|FloatingActionButton' lib/features`
   باید همیشه ۰ نتیجه غیر-Vox بدهد.
@@ -1017,9 +1023,24 @@ Gleiche Hülle, unterschiedliche Nutzlast. In beiden PLAN-Dateien festgehalten.
         · **Noch nichts davon ist verdrahtet:** `main.dart` ruft `initialize()` nicht, es gibt
           keine Anmelde-Oberfläche. Für den Nutzer ist die App unverändert. Das ist Absicht —
           Schritt 1 kann nichts kaputtmachen.
-  - [ ] **S.3 Schritt 2** — `main.dart` ruft `AuthService.initialize()` (try/catch wie beim
-        Seeding) + Rubrik «حساب کاربری» in den Einstellungen: anmelden, registrieren, abmelden.
-        Zweisprachig über `AppL10n`, `AuthIssue` wird dort übersetzt — nicht im Dienst.
+  - [x] **S.3 Schritt 2 ✅ (2026-09-15, CI grün; Commits `63d14b4`…`16b7ad5`)** —
+        · `main.dart` ruft `AuthService().initialize()` in try/catch (wie beim Seeding) —
+          ohne Secrets liefert es nur `false`, der Start bleibt unberührt.
+        · `settings_screen.dart` → `_KontoKarte` unter der Rubrik `section_account`: anmelden,
+          registrieren, abmelden. **Nur sichtbar, wenn `kontoAktivProvider` wahr ist** — ohne
+          Konfiguration gibt es die Rubrik gar nicht, statt einer, die nie funktioniert.
+        · `AuthIssue` → Text in `_kontoFehlerText` (Oberfläche), nicht im Dienst.
+          Registrierung mit E-Mail-Bestätigung ⇒ Konto ohne Sitzung ⇒ Hinweis
+          `account_confirm_email_sent` statt stiller Erfolgsmeldung.
+        · `app_l10n.dart` +21 Schlüssel FA/EN, `test/l10n_paritaet_test.dart` erweitert.
+        ⚠️ **Zwei eigene Regelbrüche, am selben Tag nachträglich behoben:**
+        (a) Der Schritt ging als **vier** Einzel-Commits hinaus statt als einer — zwei
+        Deploy-Läufe wurden abgebrochen, der letzte war grün. Regel bleibt: ein Schritt = ein
+        Commit (Git-Data-API oder ein einziger `git push`).
+        (b) `_KontoKarte` — und schon vorher `_SicherungKarte` aus S.2 — nutzten **rohe**
+        Material-Buttons (`FilledButton`/`OutlinedButton`/`TextButton`/`IconButton`, fünf
+        Stellen). Das bricht فاز B (Puzzling). Umgestellt auf `VoxButton`/`VoxIconButton`,
+        und die Regel ist jetzt ein Test (siehe فاز B → B.5).
   - [ ] **S.3 Schritt 3** — Kopie in der Cloud: `vox_backups` schreiben/lesen über **dieselbe**
         Nutzlast wie S.2 (`nutzer_zustand.dart`), Zusammenführen weiter „höchstes Fach gewinnt".
   - [ ] **S.3 offen (Entscheidung für BEIDE Apps):** Wie löscht jemand sein Konto, wenn daran

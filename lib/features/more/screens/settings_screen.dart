@@ -11,6 +11,7 @@ import '../../../core/backup/user_state_repository.dart';
 import '../../../core/services/auth_service.dart';
 import '../../../core/services/backup_service.dart';
 import '../../../core/utils/install_state.dart';
+import '../../../core/widgets/vox_button.dart';
 import '../../wortschatz/controllers/word_controller.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../controllers/settings_controller.dart';
@@ -351,10 +352,10 @@ class _KontoKarteState extends ConsumerState<_KontoKarte> {
           if (_laeuft)
             const Center(child: CircularProgressIndicator())
           else
-            OutlinedButton.icon(
+            VoxButton.secondary(
+              label    : AppL10n.t(context, 'account_sign_out'),
+              icon     : Icons.logout_outlined,
               onPressed: _abmelden,
-              icon : const Icon(Icons.logout_outlined),
-              label: Text(AppL10n.t(context, 'account_sign_out')),
             ),
         ],
       );
@@ -387,10 +388,10 @@ class _KontoKarteState extends ConsumerState<_KontoKarte> {
             decoration: InputDecoration(
               labelText: AppL10n.t(context, 'account_password_label'),
               border   : const OutlineInputBorder(),
-              suffixIcon: IconButton(
-                icon: Icon(_passwortSichtbar
+              suffixIcon: VoxIconButton(
+                icon: _passwortSichtbar
                     ? Icons.visibility_off_outlined
-                    : Icons.visibility_outlined),
+                    : Icons.visibility_outlined,
                 onPressed: () =>
                     setState(() => _passwortSichtbar = !_passwortSichtbar),
               ),
@@ -401,22 +402,22 @@ class _KontoKarteState extends ConsumerState<_KontoKarte> {
           if (_laeuft)
             const Center(child: CircularProgressIndicator())
           else
-            FilledButton.icon(
-              onPressed: _absenden,
-              icon : const Icon(Icons.login_outlined),
-              label: Text(AppL10n.t(
+            VoxButton.primary(
+              label    : AppL10n.t(
                   context,
-                  _istRegistrierung ? 'account_sign_up' : 'account_sign_in')),
+                  _istRegistrierung ? 'account_sign_up' : 'account_sign_in'),
+              icon     : Icons.login_outlined,
+              onPressed: _absenden,
             ),
           const SizedBox(height: AppSizes.sm),
-          TextButton(
-            onPressed: () =>
-                setState(() => _istRegistrierung = !_istRegistrierung),
-            child: Text(AppL10n.t(
+          VoxButton.text(
+            label    : AppL10n.t(
                 context,
                 _istRegistrierung
                     ? 'account_switch_to_signin'
-                    : 'account_switch_to_signup')),
+                    : 'account_switch_to_signup'),
+            onPressed: () =>
+                setState(() => _istRegistrierung = !_istRegistrierung),
           ),
         ],
       );
@@ -574,21 +575,21 @@ class _SicherungKarteState extends ConsumerState<_SicherungKarte> {
                 spacing: AppSizes.sm,
                 runSpacing: AppSizes.sm,
                 children: [
-                  FilledButton.tonalIcon(
+                  VoxButton.tonal(
+                    label    : AppL10n.t(context, 'backup_export'),
+                    icon     : Icons.download_outlined,
                     onPressed: () => _fuehreAus((d) async =>
                         '$gespeichert: ${await d.exportieren()}'),
-                    icon: const Icon(Icons.download_outlined),
-                    label: Text(AppL10n.t(context, 'backup_export')),
                   ),
-                  OutlinedButton.icon(
+                  VoxButton.secondary(
+                    label    : AppL10n.t(context, 'backup_import'),
+                    icon     : Icons.upload_outlined,
                     onPressed: () => _fuehreAus((d) async {
                       final e = await d.einspielen();
                       if (e.abgebrochen) return abgebrochen;
                       return '$zurueck: ${e.leitnerWoerter} $imLeitner, '
                           '${e.eigeneWoerter} $eigene';
                     }),
-                    icon: const Icon(Icons.upload_outlined),
-                    label: Text(AppL10n.t(context, 'backup_import')),
                   ),
                 ],
               ),
