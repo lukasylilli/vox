@@ -1077,12 +1077,38 @@ Gleiche Hülle, unterschiedliche Nutzlast. In beiden PLAN-Dateien festgehalten.
         und die Regel ist jetzt ein Test (siehe فاز B → B.5).
   - [ ] **S.3 Schritt 3** — Kopie in der Cloud: `vox_backups` schreiben/lesen über **dieselbe**
         Nutzlast wie S.2 (`nutzer_zustand.dart`), Zusammenführen weiter „höchstes Fach gewinnt".
+        ⚠️ **Planänderung 2026-09-15 (Claude, beim Vorbereiten am Code gefunden):** Schritt 3 braucht
+        vorher **S.5** (unten). Ohne S.5 wäre der automatische Abgleich fehlerhaft: (a) jede Entfernung
+        (Wort aus dem Leitner, Wort aus einer Liste, Liste gelöscht) käme beim nächsten Abgleich vom
+        Server zurück, weil Zusammenführen nur vereinigt; (b) jede Sicherung trüge ~830 **App-Wörter**
+        (die Seed-Daten aus `assets/data/`) als „eigene Wörter" mit — mehrere hundert Kilobyte je
+        Konto-Zeile statt weniger Kilobyte.
+        **Form (VOX, anders als Root-in):** Weil VOX zusammenführt statt zu überschreiben, ist der
+        Abgleich ein echter Abgleich — holen → zusammenführen → nur bei Änderung hochladen. Kein
+        Bestätigungsdialog nötig, denn nichts geht verloren, was nicht ausdrücklich entfernt wurde.
   - [ ] **S.3 offen (Entscheidung für BEIDE Apps):** Wie löscht jemand sein Konto, wenn daran
         zwei Apps hängen? Root-in hat `delete_own_account()`; VOX ruft es bewusst noch nicht.
   ⚠️ **Voraussetzung für Schritt 2:** die Secrets `SUPABASE_URL` und `SUPABASE_ANON_KEY` im
   vox-Repo (Settings → Secrets and variables → Actions) und `supabase/vox_tables.sql` einmal im
   SQL-Editor des Supabase-Projekts ausgeführt. Bis dahin bleibt alles wirkungslos — aber heil.
 - [ ] **S.4** Ehrlicher Hinweis in den Einstellungen, solange S.2/S.3 fehlen
+- [ ] **S.5 Entfernungen und App-Wörter im Vertrag** (Voraussetzung für S.3 Schritt 3) —
+      Entscheidung von Claude (2026-09-15, im Rahmen von Lukas' Vollmacht; Lukas kann sie kippen):
+      · **Mitgliedschaft = „letzte Handlung gewinnt"**, **Fortschritt = „höchstes Fach gewinnt"**
+        (Lukas' Regel bleibt unverändert). Aufnehmen/Entfernen ist eine bewusste Handlung des
+        Nutzers und hat einen Zeitpunkt; das Fach ist Lernfortschritt und geht nur vorwärts.
+        Gleichstand ⇒ „drin" gewinnt (im Zweifel bleibt Fortschritt erhalten).
+      · Neue Tabelle `Mitgliedschaften` (art · schluessel · wort · drin · am). Arten: `leitner`,
+        `liste`, `listenwort`, `wort`. Jede Stelle, die aufnimmt oder entfernt, schreibt dort ein
+        Ereignis — Archiv-Store (über die Fassade), `LeitnerDao`, `CategoryDao`, `WordDao`,
+        `ImportService`.
+      · Vertrag `nutzerZustandVersion` 1 → **2** (`mitgliedschaften`); Fassung 1 bleibt lesbar
+        (ohne Ereignisse = „älter als jede Handlung").
+      · `Words.ausApp` — der Seed setzt es (Seed-Marke `vocab_seeded_v2` → `v3`, alle Inserts
+        sind Upserts, also exakt nach Daten, nicht geraten). Sicherungen tragen nur Wörter ohne
+        diese Marke; Leitner- und Listenverweise auf App-Wörter bleiben erhalten (Text-ID).
+      · Migration `schemaVersion` 5 → 6, generierter Code über `build-runner.yml` **auf einem
+        Zweig**, erst danach nach `main`.
 
 **Planänderung 2026-09-15 — S.0a, damit die Blockade nicht alles aufhält.**
 S.0 braucht `build_runner` und ist gesperrt. Statt zu warten, kommt eine **Fassade** davor —

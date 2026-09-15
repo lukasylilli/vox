@@ -1109,6 +1109,9 @@ die Fassade, die allein `NutzerZustand` nach außen zeigt.
 | `test/puzzling_buttons_test.dart` | **B.5** — kein roher Material-Button in `lib/features/`. Entstanden, weil `_SicherungKarte` und `_KontoKarte` die Regel unbemerkt gebrochen hatten |
 | `test/auth_service_test.dart` | Fehlercode-Zuordnung (kann **still** brechen: „E-Mail vergeben" → „unbekannter Fehler") + Nachweis, dass ohne Konfiguration nichts geworfen und nichts gesendet wird |
 
+⏳ **In Arbeit (2026-09-15): S.5** — `Mitgliedschaften` (Entfernungen als Ereignisse) und
+`Words.ausApp` (App-Wörter nicht in die Sicherung). Voraussetzung für S.3 Schritt 3. Details: PLAN.md → S.5.
+
 ⚠️ **Jede Änderung an einer Drift-Tabelle braucht `dart run build_runner build`**
 (`app_database.g.dart`, ~8.000 Zeilen, versioniert). Claude hat kein Dart im Container —
 dafür gibt es `.github/workflows/build-runner.yml`. ✅ Seit dem PAT mit „Workflows: Read and
