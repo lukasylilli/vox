@@ -2041,6 +2041,328 @@ class LeitnerCardsCompanion extends UpdateCompanion<LeitnerCard> {
   }
 }
 
+class $ArchivLeitnerTable extends ArchivLeitner
+    with TableInfo<$ArchivLeitnerTable, ArchivLeitnerData> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $ArchivLeitnerTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _wortIdMeta = const VerificationMeta('wortId');
+  @override
+  late final GeneratedColumn<String> wortId = GeneratedColumn<String>(
+    'wort_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _boxNumberMeta = const VerificationMeta(
+    'boxNumber',
+  );
+  @override
+  late final GeneratedColumn<int> boxNumber = GeneratedColumn<int>(
+    'box_number',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(1),
+  );
+  static const VerificationMeta _nextReviewMeta = const VerificationMeta(
+    'nextReview',
+  );
+  @override
+  late final GeneratedColumn<DateTime> nextReview = GeneratedColumn<DateTime>(
+    'next_review',
+    aliasedName,
+    false,
+    type: DriftSqlType.dateTime,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _lastReviewMeta = const VerificationMeta(
+    'lastReview',
+  );
+  @override
+  late final GeneratedColumn<DateTime> lastReview = GeneratedColumn<DateTime>(
+    'last_review',
+    aliasedName,
+    true,
+    type: DriftSqlType.dateTime,
+    requiredDuringInsert: false,
+  );
+  @override
+  List<GeneratedColumn> get $columns => [
+    wortId,
+    boxNumber,
+    nextReview,
+    lastReview,
+  ];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'archiv_leitner';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<ArchivLeitnerData> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('wort_id')) {
+      context.handle(
+        _wortIdMeta,
+        wortId.isAcceptableOrUnknown(data['wort_id']!, _wortIdMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_wortIdMeta);
+    }
+    if (data.containsKey('box_number')) {
+      context.handle(
+        _boxNumberMeta,
+        boxNumber.isAcceptableOrUnknown(data['box_number']!, _boxNumberMeta),
+      );
+    }
+    if (data.containsKey('next_review')) {
+      context.handle(
+        _nextReviewMeta,
+        nextReview.isAcceptableOrUnknown(data['next_review']!, _nextReviewMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_nextReviewMeta);
+    }
+    if (data.containsKey('last_review')) {
+      context.handle(
+        _lastReviewMeta,
+        lastReview.isAcceptableOrUnknown(data['last_review']!, _lastReviewMeta),
+      );
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {wortId};
+  @override
+  ArchivLeitnerData map(Map<String, dynamic> data, {String? tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return ArchivLeitnerData(
+      wortId: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}wort_id'],
+      )!,
+      boxNumber: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}box_number'],
+      )!,
+      nextReview: attachedDatabase.typeMapping.read(
+        DriftSqlType.dateTime,
+        data['${effectivePrefix}next_review'],
+      )!,
+      lastReview: attachedDatabase.typeMapping.read(
+        DriftSqlType.dateTime,
+        data['${effectivePrefix}last_review'],
+      ),
+    );
+  }
+
+  @override
+  $ArchivLeitnerTable createAlias(String alias) {
+    return $ArchivLeitnerTable(attachedDatabase, alias);
+  }
+}
+
+class ArchivLeitnerData extends DataClass
+    implements Insertable<ArchivLeitnerData> {
+  final String wortId;
+  final int boxNumber;
+  final DateTime nextReview;
+  final DateTime? lastReview;
+  const ArchivLeitnerData({
+    required this.wortId,
+    required this.boxNumber,
+    required this.nextReview,
+    this.lastReview,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['wort_id'] = Variable<String>(wortId);
+    map['box_number'] = Variable<int>(boxNumber);
+    map['next_review'] = Variable<DateTime>(nextReview);
+    if (!nullToAbsent || lastReview != null) {
+      map['last_review'] = Variable<DateTime>(lastReview);
+    }
+    return map;
+  }
+
+  ArchivLeitnerCompanion toCompanion(bool nullToAbsent) {
+    return ArchivLeitnerCompanion(
+      wortId: Value(wortId),
+      boxNumber: Value(boxNumber),
+      nextReview: Value(nextReview),
+      lastReview: lastReview == null && nullToAbsent
+          ? const Value.absent()
+          : Value(lastReview),
+    );
+  }
+
+  factory ArchivLeitnerData.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return ArchivLeitnerData(
+      wortId: serializer.fromJson<String>(json['wortId']),
+      boxNumber: serializer.fromJson<int>(json['boxNumber']),
+      nextReview: serializer.fromJson<DateTime>(json['nextReview']),
+      lastReview: serializer.fromJson<DateTime?>(json['lastReview']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'wortId': serializer.toJson<String>(wortId),
+      'boxNumber': serializer.toJson<int>(boxNumber),
+      'nextReview': serializer.toJson<DateTime>(nextReview),
+      'lastReview': serializer.toJson<DateTime?>(lastReview),
+    };
+  }
+
+  ArchivLeitnerData copyWith({
+    String? wortId,
+    int? boxNumber,
+    DateTime? nextReview,
+    Value<DateTime?> lastReview = const Value.absent(),
+  }) => ArchivLeitnerData(
+    wortId: wortId ?? this.wortId,
+    boxNumber: boxNumber ?? this.boxNumber,
+    nextReview: nextReview ?? this.nextReview,
+    lastReview: lastReview.present ? lastReview.value : this.lastReview,
+  );
+  ArchivLeitnerData copyWithCompanion(ArchivLeitnerCompanion data) {
+    return ArchivLeitnerData(
+      wortId: data.wortId.present ? data.wortId.value : this.wortId,
+      boxNumber: data.boxNumber.present ? data.boxNumber.value : this.boxNumber,
+      nextReview: data.nextReview.present
+          ? data.nextReview.value
+          : this.nextReview,
+      lastReview: data.lastReview.present
+          ? data.lastReview.value
+          : this.lastReview,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('ArchivLeitnerData(')
+          ..write('wortId: $wortId, ')
+          ..write('boxNumber: $boxNumber, ')
+          ..write('nextReview: $nextReview, ')
+          ..write('lastReview: $lastReview')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(wortId, boxNumber, nextReview, lastReview);
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is ArchivLeitnerData &&
+          other.wortId == this.wortId &&
+          other.boxNumber == this.boxNumber &&
+          other.nextReview == this.nextReview &&
+          other.lastReview == this.lastReview);
+}
+
+class ArchivLeitnerCompanion extends UpdateCompanion<ArchivLeitnerData> {
+  final Value<String> wortId;
+  final Value<int> boxNumber;
+  final Value<DateTime> nextReview;
+  final Value<DateTime?> lastReview;
+  final Value<int> rowid;
+  const ArchivLeitnerCompanion({
+    this.wortId = const Value.absent(),
+    this.boxNumber = const Value.absent(),
+    this.nextReview = const Value.absent(),
+    this.lastReview = const Value.absent(),
+    this.rowid = const Value.absent(),
+  });
+  ArchivLeitnerCompanion.insert({
+    required String wortId,
+    this.boxNumber = const Value.absent(),
+    required DateTime nextReview,
+    this.lastReview = const Value.absent(),
+    this.rowid = const Value.absent(),
+  }) : wortId = Value(wortId),
+       nextReview = Value(nextReview);
+  static Insertable<ArchivLeitnerData> custom({
+    Expression<String>? wortId,
+    Expression<int>? boxNumber,
+    Expression<DateTime>? nextReview,
+    Expression<DateTime>? lastReview,
+    Expression<int>? rowid,
+  }) {
+    return RawValuesInsertable({
+      if (wortId != null) 'wort_id': wortId,
+      if (boxNumber != null) 'box_number': boxNumber,
+      if (nextReview != null) 'next_review': nextReview,
+      if (lastReview != null) 'last_review': lastReview,
+      if (rowid != null) 'rowid': rowid,
+    });
+  }
+
+  ArchivLeitnerCompanion copyWith({
+    Value<String>? wortId,
+    Value<int>? boxNumber,
+    Value<DateTime>? nextReview,
+    Value<DateTime?>? lastReview,
+    Value<int>? rowid,
+  }) {
+    return ArchivLeitnerCompanion(
+      wortId: wortId ?? this.wortId,
+      boxNumber: boxNumber ?? this.boxNumber,
+      nextReview: nextReview ?? this.nextReview,
+      lastReview: lastReview ?? this.lastReview,
+      rowid: rowid ?? this.rowid,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (wortId.present) {
+      map['wort_id'] = Variable<String>(wortId.value);
+    }
+    if (boxNumber.present) {
+      map['box_number'] = Variable<int>(boxNumber.value);
+    }
+    if (nextReview.present) {
+      map['next_review'] = Variable<DateTime>(nextReview.value);
+    }
+    if (lastReview.present) {
+      map['last_review'] = Variable<DateTime>(lastReview.value);
+    }
+    if (rowid.present) {
+      map['rowid'] = Variable<int>(rowid.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('ArchivLeitnerCompanion(')
+          ..write('wortId: $wortId, ')
+          ..write('boxNumber: $boxNumber, ')
+          ..write('nextReview: $nextReview, ')
+          ..write('lastReview: $lastReview, ')
+          ..write('rowid: $rowid')
+          ..write(')'))
+        .toString();
+  }
+}
+
 class $GrammarLessonsTable extends GrammarLessons
     with TableInfo<$GrammarLessonsTable, GrammarLesson> {
   @override
@@ -4314,6 +4636,7 @@ abstract class _$AppDatabase extends GeneratedDatabase {
   late final $UserCategoriesTable userCategories = $UserCategoriesTable(this);
   late final $CategoryWordsTable categoryWords = $CategoryWordsTable(this);
   late final $LeitnerCardsTable leitnerCards = $LeitnerCardsTable(this);
+  late final $ArchivLeitnerTable archivLeitner = $ArchivLeitnerTable(this);
   late final $GrammarLessonsTable grammarLessons = $GrammarLessonsTable(this);
   late final $MemorizeItemsTable memorizeItems = $MemorizeItemsTable(this);
   late final $ReadingTextsTable readingTexts = $ReadingTextsTable(this);
@@ -4331,6 +4654,7 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     userCategories,
     categoryWords,
     leitnerCards,
+    archivLeitner,
     grammarLessons,
     memorizeItems,
     readingTexts,
@@ -6482,6 +6806,195 @@ typedef $$LeitnerCardsTableProcessedTableManager =
       LeitnerCard,
       PrefetchHooks Function({bool wordId})
     >;
+typedef $$ArchivLeitnerTableCreateCompanionBuilder =
+    ArchivLeitnerCompanion Function({
+      required String wortId,
+      Value<int> boxNumber,
+      required DateTime nextReview,
+      Value<DateTime?> lastReview,
+      Value<int> rowid,
+    });
+typedef $$ArchivLeitnerTableUpdateCompanionBuilder =
+    ArchivLeitnerCompanion Function({
+      Value<String> wortId,
+      Value<int> boxNumber,
+      Value<DateTime> nextReview,
+      Value<DateTime?> lastReview,
+      Value<int> rowid,
+    });
+
+class $$ArchivLeitnerTableFilterComposer
+    extends Composer<_$AppDatabase, $ArchivLeitnerTable> {
+  $$ArchivLeitnerTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<String> get wortId => $composableBuilder(
+    column: $table.wortId,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get boxNumber => $composableBuilder(
+    column: $table.boxNumber,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<DateTime> get nextReview => $composableBuilder(
+    column: $table.nextReview,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<DateTime> get lastReview => $composableBuilder(
+    column: $table.lastReview,
+    builder: (column) => ColumnFilters(column),
+  );
+}
+
+class $$ArchivLeitnerTableOrderingComposer
+    extends Composer<_$AppDatabase, $ArchivLeitnerTable> {
+  $$ArchivLeitnerTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<String> get wortId => $composableBuilder(
+    column: $table.wortId,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get boxNumber => $composableBuilder(
+    column: $table.boxNumber,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<DateTime> get nextReview => $composableBuilder(
+    column: $table.nextReview,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<DateTime> get lastReview => $composableBuilder(
+    column: $table.lastReview,
+    builder: (column) => ColumnOrderings(column),
+  );
+}
+
+class $$ArchivLeitnerTableAnnotationComposer
+    extends Composer<_$AppDatabase, $ArchivLeitnerTable> {
+  $$ArchivLeitnerTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<String> get wortId =>
+      $composableBuilder(column: $table.wortId, builder: (column) => column);
+
+  GeneratedColumn<int> get boxNumber =>
+      $composableBuilder(column: $table.boxNumber, builder: (column) => column);
+
+  GeneratedColumn<DateTime> get nextReview => $composableBuilder(
+    column: $table.nextReview,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<DateTime> get lastReview => $composableBuilder(
+    column: $table.lastReview,
+    builder: (column) => column,
+  );
+}
+
+class $$ArchivLeitnerTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $ArchivLeitnerTable,
+          ArchivLeitnerData,
+          $$ArchivLeitnerTableFilterComposer,
+          $$ArchivLeitnerTableOrderingComposer,
+          $$ArchivLeitnerTableAnnotationComposer,
+          $$ArchivLeitnerTableCreateCompanionBuilder,
+          $$ArchivLeitnerTableUpdateCompanionBuilder,
+          (
+            ArchivLeitnerData,
+            BaseReferences<
+              _$AppDatabase,
+              $ArchivLeitnerTable,
+              ArchivLeitnerData
+            >,
+          ),
+          ArchivLeitnerData,
+          PrefetchHooks Function()
+        > {
+  $$ArchivLeitnerTableTableManager(_$AppDatabase db, $ArchivLeitnerTable table)
+    : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$ArchivLeitnerTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$ArchivLeitnerTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$ArchivLeitnerTableAnnotationComposer($db: db, $table: table),
+          updateCompanionCallback:
+              ({
+                Value<String> wortId = const Value.absent(),
+                Value<int> boxNumber = const Value.absent(),
+                Value<DateTime> nextReview = const Value.absent(),
+                Value<DateTime?> lastReview = const Value.absent(),
+                Value<int> rowid = const Value.absent(),
+              }) => ArchivLeitnerCompanion(
+                wortId: wortId,
+                boxNumber: boxNumber,
+                nextReview: nextReview,
+                lastReview: lastReview,
+                rowid: rowid,
+              ),
+          createCompanionCallback:
+              ({
+                required String wortId,
+                Value<int> boxNumber = const Value.absent(),
+                required DateTime nextReview,
+                Value<DateTime?> lastReview = const Value.absent(),
+                Value<int> rowid = const Value.absent(),
+              }) => ArchivLeitnerCompanion.insert(
+                wortId: wortId,
+                boxNumber: boxNumber,
+                nextReview: nextReview,
+                lastReview: lastReview,
+                rowid: rowid,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map((e) => (e.readTable(table), BaseReferences(db, table, e)))
+              .toList(),
+          prefetchHooksCallback: null,
+        ),
+      );
+}
+
+typedef $$ArchivLeitnerTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $ArchivLeitnerTable,
+      ArchivLeitnerData,
+      $$ArchivLeitnerTableFilterComposer,
+      $$ArchivLeitnerTableOrderingComposer,
+      $$ArchivLeitnerTableAnnotationComposer,
+      $$ArchivLeitnerTableCreateCompanionBuilder,
+      $$ArchivLeitnerTableUpdateCompanionBuilder,
+      (
+        ArchivLeitnerData,
+        BaseReferences<_$AppDatabase, $ArchivLeitnerTable, ArchivLeitnerData>,
+      ),
+      ArchivLeitnerData,
+      PrefetchHooks Function()
+    >;
 typedef $$GrammarLessonsTableCreateCompanionBuilder =
     GrammarLessonsCompanion Function({
       Value<int> id,
@@ -7949,6 +8462,8 @@ class $AppDatabaseManager {
       $$CategoryWordsTableTableManager(_db, _db.categoryWords);
   $$LeitnerCardsTableTableManager get leitnerCards =>
       $$LeitnerCardsTableTableManager(_db, _db.leitnerCards);
+  $$ArchivLeitnerTableTableManager get archivLeitner =>
+      $$ArchivLeitnerTableTableManager(_db, _db.archivLeitner);
   $$GrammarLessonsTableTableManager get grammarLessons =>
       $$GrammarLessonsTableTableManager(_db, _db.grammarLessons);
   $$MemorizeItemsTableTableManager get memorizeItems =>
