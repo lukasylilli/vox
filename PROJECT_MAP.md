@@ -1087,7 +1087,9 @@ die Karten sind 3.0.
 | `test/nutzer_zustand_test.dart` | 12 Fälle, darunter: älterer Stand mit höherem Fach gewinnt; a+b == b+a; Notizen werden nie zusammengeklebt |
 | `core/backup/user_state_repository.dart` | **S.0a-2 ✅ — DIE FASSADE.** Einzige Stelle, die weiß, dass der Nutzerzustand auf zwei Ablagen liegt. `lesen()` / `anwenden()`. Löscht nie etwas; sichert nur Einstellungen aus `einstellungsSchluessel` |
 | `test/user_state_repository_test.dart` | prüft gegen eine echte In-Memory-Datenbank, u. a. simulierter Gerätewechsel und doppeltes Einspielen |
-| `core/services/backup_service.dart` | **S.2 offen** — Export/Import, heute nur Kommentar |
+| `core/services/backup_service.dart` | **S.2 ✅** — `exportieren()` / `einspielen()`. Kennt nur die Fassade und `datei_io`, keine Ablage |
+| `core/backup/datei_io.dart` (+ `_io`/`_web`) | Datei auswählen und ablegen. `textDateiWaehlen` aus Root-in übernommen; `textDateiSpeichern` ist ein Blob-Download — **bewusst ohne share_plus**, damit `pubspec.lock` unberührt bleibt |
+| `features/more/screens/settings_screen.dart` → `_SicherungKarte` | die zwei Schaltflächen. ⚠️ Alle Meldungstexte werden VOR dem `await` aufgelöst (`use_build_context_synchronously`) |
 | `test/persistent_storage_test.dart` | prüft, dass auf der Dart-VM die io-Fassung greift |
 
 ⚠️ **Jede Änderung an einer Drift-Tabelle braucht `dart run build_runner build`**

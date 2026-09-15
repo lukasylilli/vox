@@ -958,7 +958,25 @@ Gleiche Hülle, unterschiedliche Nutzlast. In beiden PLAN-Dateien festgehalten.
     `main.dart`: `dart:async` + `unawaited` + `catchError` statt des im Repo bewährten
     try/catch). **Konsequenz: in Dart-Dateien nur Konstrukte verwenden, die im Repo schon
     vorkommen, und übernommenen Code zeichengleich kopieren — nicht umbenennen.**
-- [ ] **S.2 Export/Import** — `backup_service.dart` ausbauen (heute Stub), Hülle wie oben
+- [x] **S.2 Export/Import** ✅ (2026-09-15, CI grün) — `backup_service.dart` war ein leerer Stub,
+      jetzt echte Sicherung. Vier getrennte Schichten, damit alles außer der Dateiauswahl ohne
+      Browser prüfbar bleibt:
+      `nutzer_zustand.dart` (was) → `user_state_repository.dart` (wo) →
+      `core/backup/datei_io.dart` (Datei öffnen/ablegen) → `backup_service.dart` (Zusammenspiel).
+      · Oberfläche: Einstellungen → «داده‌ی من» → Karte «پشتیبان», zwei Schaltflächen, FA/EN.
+      · Dateiname `vox-sicherung-JJJJ-MM-TT.json` — Sicherungen verschiedener Tage
+        überschreiben sich nicht.
+      · **Einspielen ist immer ein Zusammenführen, nie ein Ersetzen.** Auch eine versehentlich
+        gewählte alte Datei kann keinen Fortschritt kosten.
+      · Fehlerhafte Dateien: `SicherungFehler` mit einem Grund, der direkt angezeigt wird
+        (kein JSON · fremde App · zu neue Fassung · fehlende Version).
+      · **Kein neues Paket.** Root-in nutzt für den Export share_plus; VOX hat das nicht und ist
+        reine Web-App, deshalb Blob-Download über `package:web` (schon vorhanden). Damit bleibt
+        `pubspec.lock` unberührt — wichtig, weil Claude kein `flutter pub get` ausführen kann.
+      · `textDateiWaehlen` ist die zeichengleiche Übernahme aus Root-in (Herkunft im Dateikopf).
+      ⚠️ Zwei eigene Fehler dabei vor dem Push abgefangen: ein unbenutzter Import und
+        `context` nach einem `await` (`use_build_context_synchronously`). Alle anzuzeigenden
+        Texte werden jetzt VOR der Unterbrechung aufgelöst.
 - [ ] **S.3 Supabase-Konto** — `auth_service.dart` aus Root-in übernehmen (~90 % allgemein);
       `auth.users` geteilt, aber **jedes Repo besitzt seine eigenen Tabellen**:
       `schema.sql` bleibt in Root-in, VOX bekommt ein eigenes `supabase/vox_tables.sql`
