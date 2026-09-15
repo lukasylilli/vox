@@ -170,6 +170,45 @@ class $WordsTable extends Words with TableInfo<$WordsTable, Word> {
     requiredDuringInsert: false,
     defaultValue: currentDateAndTime,
   );
+  static const VerificationMeta _regelmaessigMeta = const VerificationMeta(
+    'regelmaessig',
+  );
+  @override
+  late final GeneratedColumn<bool> regelmaessig = GeneratedColumn<bool>(
+    'regelmaessig',
+    aliasedName,
+    true,
+    type: DriftSqlType.bool,
+    requiredDuringInsert: false,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'CHECK ("regelmaessig" IN (0, 1))',
+    ),
+  );
+  static const VerificationMeta _trennbarMeta = const VerificationMeta(
+    'trennbar',
+  );
+  @override
+  late final GeneratedColumn<bool> trennbar = GeneratedColumn<bool>(
+    'trennbar',
+    aliasedName,
+    true,
+    type: DriftSqlType.bool,
+    requiredDuringInsert: false,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'CHECK ("trennbar" IN (0, 1))',
+    ),
+  );
+  static const VerificationMeta _grammatikDetailMeta = const VerificationMeta(
+    'grammatikDetail',
+  );
+  @override
+  late final GeneratedColumn<String> grammatikDetail = GeneratedColumn<String>(
+    'grammatik_detail',
+    aliasedName,
+    true,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+  );
   @override
   List<GeneratedColumn> get $columns => [
     id,
@@ -187,6 +226,9 @@ class $WordsTable extends Words with TableInfo<$WordsTable, Word> {
     commonErrors,
     grammarNote,
     createdAt,
+    regelmaessig,
+    trennbar,
+    grammatikDetail,
   ];
   @override
   String get aliasedName => _alias ?? actualTableName;
@@ -308,6 +350,30 @@ class $WordsTable extends Words with TableInfo<$WordsTable, Word> {
         createdAt.isAcceptableOrUnknown(data['created_at']!, _createdAtMeta),
       );
     }
+    if (data.containsKey('regelmaessig')) {
+      context.handle(
+        _regelmaessigMeta,
+        regelmaessig.isAcceptableOrUnknown(
+          data['regelmaessig']!,
+          _regelmaessigMeta,
+        ),
+      );
+    }
+    if (data.containsKey('trennbar')) {
+      context.handle(
+        _trennbarMeta,
+        trennbar.isAcceptableOrUnknown(data['trennbar']!, _trennbarMeta),
+      );
+    }
+    if (data.containsKey('grammatik_detail')) {
+      context.handle(
+        _grammatikDetailMeta,
+        grammatikDetail.isAcceptableOrUnknown(
+          data['grammatik_detail']!,
+          _grammatikDetailMeta,
+        ),
+      );
+    }
     return context;
   }
 
@@ -381,6 +447,18 @@ class $WordsTable extends Words with TableInfo<$WordsTable, Word> {
         DriftSqlType.dateTime,
         data['${effectivePrefix}created_at'],
       )!,
+      regelmaessig: attachedDatabase.typeMapping.read(
+        DriftSqlType.bool,
+        data['${effectivePrefix}regelmaessig'],
+      ),
+      trennbar: attachedDatabase.typeMapping.read(
+        DriftSqlType.bool,
+        data['${effectivePrefix}trennbar'],
+      ),
+      grammatikDetail: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}grammatik_detail'],
+      ),
     );
   }
 
@@ -406,6 +484,9 @@ class Word extends DataClass implements Insertable<Word> {
   final String? commonErrors;
   final String? grammarNote;
   final DateTime createdAt;
+  final bool? regelmaessig;
+  final bool? trennbar;
+  final String? grammatikDetail;
   const Word({
     required this.id,
     required this.german,
@@ -422,6 +503,9 @@ class Word extends DataClass implements Insertable<Word> {
     this.commonErrors,
     this.grammarNote,
     required this.createdAt,
+    this.regelmaessig,
+    this.trennbar,
+    this.grammatikDetail,
   });
   @override
   Map<String, Expression> toColumns(bool nullToAbsent) {
@@ -461,6 +545,15 @@ class Word extends DataClass implements Insertable<Word> {
       map['grammar_note'] = Variable<String>(grammarNote);
     }
     map['created_at'] = Variable<DateTime>(createdAt);
+    if (!nullToAbsent || regelmaessig != null) {
+      map['regelmaessig'] = Variable<bool>(regelmaessig);
+    }
+    if (!nullToAbsent || trennbar != null) {
+      map['trennbar'] = Variable<bool>(trennbar);
+    }
+    if (!nullToAbsent || grammatikDetail != null) {
+      map['grammatik_detail'] = Variable<String>(grammatikDetail);
+    }
     return map;
   }
 
@@ -501,6 +594,15 @@ class Word extends DataClass implements Insertable<Word> {
           ? const Value.absent()
           : Value(grammarNote),
       createdAt: Value(createdAt),
+      regelmaessig: regelmaessig == null && nullToAbsent
+          ? const Value.absent()
+          : Value(regelmaessig),
+      trennbar: trennbar == null && nullToAbsent
+          ? const Value.absent()
+          : Value(trennbar),
+      grammatikDetail: grammatikDetail == null && nullToAbsent
+          ? const Value.absent()
+          : Value(grammatikDetail),
     );
   }
 
@@ -525,6 +627,9 @@ class Word extends DataClass implements Insertable<Word> {
       commonErrors: serializer.fromJson<String?>(json['commonErrors']),
       grammarNote: serializer.fromJson<String?>(json['grammarNote']),
       createdAt: serializer.fromJson<DateTime>(json['createdAt']),
+      regelmaessig: serializer.fromJson<bool?>(json['regelmaessig']),
+      trennbar: serializer.fromJson<bool?>(json['trennbar']),
+      grammatikDetail: serializer.fromJson<String?>(json['grammatikDetail']),
     );
   }
   @override
@@ -546,6 +651,9 @@ class Word extends DataClass implements Insertable<Word> {
       'commonErrors': serializer.toJson<String?>(commonErrors),
       'grammarNote': serializer.toJson<String?>(grammarNote),
       'createdAt': serializer.toJson<DateTime>(createdAt),
+      'regelmaessig': serializer.toJson<bool?>(regelmaessig),
+      'trennbar': serializer.toJson<bool?>(trennbar),
+      'grammatikDetail': serializer.toJson<String?>(grammatikDetail),
     };
   }
 
@@ -565,6 +673,9 @@ class Word extends DataClass implements Insertable<Word> {
     Value<String?> commonErrors = const Value.absent(),
     Value<String?> grammarNote = const Value.absent(),
     DateTime? createdAt,
+    Value<bool?> regelmaessig = const Value.absent(),
+    Value<bool?> trennbar = const Value.absent(),
+    Value<String?> grammatikDetail = const Value.absent(),
   }) => Word(
     id: id ?? this.id,
     german: german ?? this.german,
@@ -585,6 +696,11 @@ class Word extends DataClass implements Insertable<Word> {
     commonErrors: commonErrors.present ? commonErrors.value : this.commonErrors,
     grammarNote: grammarNote.present ? grammarNote.value : this.grammarNote,
     createdAt: createdAt ?? this.createdAt,
+    regelmaessig: regelmaessig.present ? regelmaessig.value : this.regelmaessig,
+    trennbar: trennbar.present ? trennbar.value : this.trennbar,
+    grammatikDetail: grammatikDetail.present
+        ? grammatikDetail.value
+        : this.grammatikDetail,
   );
   Word copyWithCompanion(WordsCompanion data) {
     return Word(
@@ -613,6 +729,13 @@ class Word extends DataClass implements Insertable<Word> {
           ? data.grammarNote.value
           : this.grammarNote,
       createdAt: data.createdAt.present ? data.createdAt.value : this.createdAt,
+      regelmaessig: data.regelmaessig.present
+          ? data.regelmaessig.value
+          : this.regelmaessig,
+      trennbar: data.trennbar.present ? data.trennbar.value : this.trennbar,
+      grammatikDetail: data.grammatikDetail.present
+          ? data.grammatikDetail.value
+          : this.grammatikDetail,
     );
   }
 
@@ -633,7 +756,10 @@ class Word extends DataClass implements Insertable<Word> {
           ..write('etymology: $etymology, ')
           ..write('commonErrors: $commonErrors, ')
           ..write('grammarNote: $grammarNote, ')
-          ..write('createdAt: $createdAt')
+          ..write('createdAt: $createdAt, ')
+          ..write('regelmaessig: $regelmaessig, ')
+          ..write('trennbar: $trennbar, ')
+          ..write('grammatikDetail: $grammatikDetail')
           ..write(')'))
         .toString();
   }
@@ -655,6 +781,9 @@ class Word extends DataClass implements Insertable<Word> {
     commonErrors,
     grammarNote,
     createdAt,
+    regelmaessig,
+    trennbar,
+    grammatikDetail,
   );
   @override
   bool operator ==(Object other) =>
@@ -674,7 +803,10 @@ class Word extends DataClass implements Insertable<Word> {
           other.etymology == this.etymology &&
           other.commonErrors == this.commonErrors &&
           other.grammarNote == this.grammarNote &&
-          other.createdAt == this.createdAt);
+          other.createdAt == this.createdAt &&
+          other.regelmaessig == this.regelmaessig &&
+          other.trennbar == this.trennbar &&
+          other.grammatikDetail == this.grammatikDetail);
 }
 
 class WordsCompanion extends UpdateCompanion<Word> {
@@ -693,6 +825,9 @@ class WordsCompanion extends UpdateCompanion<Word> {
   final Value<String?> commonErrors;
   final Value<String?> grammarNote;
   final Value<DateTime> createdAt;
+  final Value<bool?> regelmaessig;
+  final Value<bool?> trennbar;
+  final Value<String?> grammatikDetail;
   const WordsCompanion({
     this.id = const Value.absent(),
     this.german = const Value.absent(),
@@ -709,6 +844,9 @@ class WordsCompanion extends UpdateCompanion<Word> {
     this.commonErrors = const Value.absent(),
     this.grammarNote = const Value.absent(),
     this.createdAt = const Value.absent(),
+    this.regelmaessig = const Value.absent(),
+    this.trennbar = const Value.absent(),
+    this.grammatikDetail = const Value.absent(),
   });
   WordsCompanion.insert({
     this.id = const Value.absent(),
@@ -726,6 +864,9 @@ class WordsCompanion extends UpdateCompanion<Word> {
     this.commonErrors = const Value.absent(),
     this.grammarNote = const Value.absent(),
     this.createdAt = const Value.absent(),
+    this.regelmaessig = const Value.absent(),
+    this.trennbar = const Value.absent(),
+    this.grammatikDetail = const Value.absent(),
   }) : german = Value(german),
        wordType = Value(wordType),
        meaningFa = Value(meaningFa);
@@ -745,6 +886,9 @@ class WordsCompanion extends UpdateCompanion<Word> {
     Expression<String>? commonErrors,
     Expression<String>? grammarNote,
     Expression<DateTime>? createdAt,
+    Expression<bool>? regelmaessig,
+    Expression<bool>? trennbar,
+    Expression<String>? grammatikDetail,
   }) {
     return RawValuesInsertable({
       if (id != null) 'id': id,
@@ -762,6 +906,9 @@ class WordsCompanion extends UpdateCompanion<Word> {
       if (commonErrors != null) 'common_errors': commonErrors,
       if (grammarNote != null) 'grammar_note': grammarNote,
       if (createdAt != null) 'created_at': createdAt,
+      if (regelmaessig != null) 'regelmaessig': regelmaessig,
+      if (trennbar != null) 'trennbar': trennbar,
+      if (grammatikDetail != null) 'grammatik_detail': grammatikDetail,
     });
   }
 
@@ -781,6 +928,9 @@ class WordsCompanion extends UpdateCompanion<Word> {
     Value<String?>? commonErrors,
     Value<String?>? grammarNote,
     Value<DateTime>? createdAt,
+    Value<bool?>? regelmaessig,
+    Value<bool?>? trennbar,
+    Value<String?>? grammatikDetail,
   }) {
     return WordsCompanion(
       id: id ?? this.id,
@@ -798,6 +948,9 @@ class WordsCompanion extends UpdateCompanion<Word> {
       commonErrors: commonErrors ?? this.commonErrors,
       grammarNote: grammarNote ?? this.grammarNote,
       createdAt: createdAt ?? this.createdAt,
+      regelmaessig: regelmaessig ?? this.regelmaessig,
+      trennbar: trennbar ?? this.trennbar,
+      grammatikDetail: grammatikDetail ?? this.grammatikDetail,
     );
   }
 
@@ -849,6 +1002,15 @@ class WordsCompanion extends UpdateCompanion<Word> {
     if (createdAt.present) {
       map['created_at'] = Variable<DateTime>(createdAt.value);
     }
+    if (regelmaessig.present) {
+      map['regelmaessig'] = Variable<bool>(regelmaessig.value);
+    }
+    if (trennbar.present) {
+      map['trennbar'] = Variable<bool>(trennbar.value);
+    }
+    if (grammatikDetail.present) {
+      map['grammatik_detail'] = Variable<String>(grammatikDetail.value);
+    }
     return map;
   }
 
@@ -869,7 +1031,10 @@ class WordsCompanion extends UpdateCompanion<Word> {
           ..write('etymology: $etymology, ')
           ..write('commonErrors: $commonErrors, ')
           ..write('grammarNote: $grammarNote, ')
-          ..write('createdAt: $createdAt')
+          ..write('createdAt: $createdAt, ')
+          ..write('regelmaessig: $regelmaessig, ')
+          ..write('trennbar: $trennbar, ')
+          ..write('grammatikDetail: $grammatikDetail')
           ..write(')'))
         .toString();
   }
@@ -5128,6 +5293,9 @@ typedef $$WordsTableCreateCompanionBuilder =
       Value<String?> commonErrors,
       Value<String?> grammarNote,
       Value<DateTime> createdAt,
+      Value<bool?> regelmaessig,
+      Value<bool?> trennbar,
+      Value<String?> grammatikDetail,
     });
 typedef $$WordsTableUpdateCompanionBuilder =
     WordsCompanion Function({
@@ -5146,6 +5314,9 @@ typedef $$WordsTableUpdateCompanionBuilder =
       Value<String?> commonErrors,
       Value<String?> grammarNote,
       Value<DateTime> createdAt,
+      Value<bool?> regelmaessig,
+      Value<bool?> trennbar,
+      Value<String?> grammatikDetail,
     });
 
 final class $$WordsTableReferences
@@ -5287,6 +5458,21 @@ class $$WordsTableFilterComposer extends Composer<_$AppDatabase, $WordsTable> {
 
   ColumnFilters<DateTime> get createdAt => $composableBuilder(
     column: $table.createdAt,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<bool> get regelmaessig => $composableBuilder(
+    column: $table.regelmaessig,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<bool> get trennbar => $composableBuilder(
+    column: $table.trennbar,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get grammatikDetail => $composableBuilder(
+    column: $table.grammatikDetail,
     builder: (column) => ColumnFilters(column),
   );
 
@@ -5449,6 +5635,21 @@ class $$WordsTableOrderingComposer
     column: $table.createdAt,
     builder: (column) => ColumnOrderings(column),
   );
+
+  ColumnOrderings<bool> get regelmaessig => $composableBuilder(
+    column: $table.regelmaessig,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<bool> get trennbar => $composableBuilder(
+    column: $table.trennbar,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get grammatikDetail => $composableBuilder(
+    column: $table.grammatikDetail,
+    builder: (column) => ColumnOrderings(column),
+  );
 }
 
 class $$WordsTableAnnotationComposer
@@ -5514,6 +5715,19 @@ class $$WordsTableAnnotationComposer
 
   GeneratedColumn<DateTime> get createdAt =>
       $composableBuilder(column: $table.createdAt, builder: (column) => column);
+
+  GeneratedColumn<bool> get regelmaessig => $composableBuilder(
+    column: $table.regelmaessig,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<bool> get trennbar =>
+      $composableBuilder(column: $table.trennbar, builder: (column) => column);
+
+  GeneratedColumn<String> get grammatikDetail => $composableBuilder(
+    column: $table.grammatikDetail,
+    builder: (column) => column,
+  );
 
   Expression<T> wordBooksRefs<T extends Object>(
     Expression<T> Function($$WordBooksTableAnnotationComposer a) f,
@@ -5638,6 +5852,9 @@ class $$WordsTableTableManager
                 Value<String?> commonErrors = const Value.absent(),
                 Value<String?> grammarNote = const Value.absent(),
                 Value<DateTime> createdAt = const Value.absent(),
+                Value<bool?> regelmaessig = const Value.absent(),
+                Value<bool?> trennbar = const Value.absent(),
+                Value<String?> grammatikDetail = const Value.absent(),
               }) => WordsCompanion(
                 id: id,
                 german: german,
@@ -5654,6 +5871,9 @@ class $$WordsTableTableManager
                 commonErrors: commonErrors,
                 grammarNote: grammarNote,
                 createdAt: createdAt,
+                regelmaessig: regelmaessig,
+                trennbar: trennbar,
+                grammatikDetail: grammatikDetail,
               ),
           createCompanionCallback:
               ({
@@ -5672,6 +5892,9 @@ class $$WordsTableTableManager
                 Value<String?> commonErrors = const Value.absent(),
                 Value<String?> grammarNote = const Value.absent(),
                 Value<DateTime> createdAt = const Value.absent(),
+                Value<bool?> regelmaessig = const Value.absent(),
+                Value<bool?> trennbar = const Value.absent(),
+                Value<String?> grammatikDetail = const Value.absent(),
               }) => WordsCompanion.insert(
                 id: id,
                 german: german,
@@ -5688,6 +5911,9 @@ class $$WordsTableTableManager
                 commonErrors: commonErrors,
                 grammarNote: grammarNote,
                 createdAt: createdAt,
+                regelmaessig: regelmaessig,
+                trennbar: trennbar,
+                grammatikDetail: grammatikDetail,
               ),
           withReferenceMapper: (p0) => p0
               .map(
