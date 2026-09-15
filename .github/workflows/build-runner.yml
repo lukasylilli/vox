@@ -1,0 +1,66 @@
+# FILE: .github/workflows/build-runner.yml
+# ZWECK: Führt `dart run build_runner build` aus der Ferne aus und committet
+#        das Ergebnis (app_database.g.dart, ~8.000 Zeilen).
+#
+# WARUM DAS EXISTIERT: Claude hat kein Dart/Flutter im eigenen Container und
+# kann build_runner deshalb nicht selbst ausführen (PLAN.md → فاز S, S.0). Mit
+# diesem Workflow reicht es, die Tabellen in app_database.dart per Hand zu
+# ändern und den Lauf hier anzustoßen — jede künftige Drift-Änderung profitiert
+# davon, nicht nur S.0b.
+#
+# Committet NUR, wenn `flutter analyze` UND `flutter test` danach grün sind.
+# Sonst bleibt das Repository unverändert und der Lauf endet rot.
+name: build_runner ausführen
+
+on:
+  workflow_dispatch:
+    inputs:
+      grund:
+        description: "Wofür (nur für das Protokoll, z. B. 'S.0b: LeitnerCards erweitert')"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-runner
+  cancel-in-progress: false
+
+jobs:
+  generieren:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: 3.44.6
+          cache: true
+
+      - name: Abhängigkeiten
+        run: flutter pub get
+
+      - name: build_runner
+        run: dart run build_runner build --delete-conflicting-outputs
+
+      - name: Analyze (vor dem Commit — nichts Kaputtes veröffentlichen)
+        run: flutter analyze --no-pub --no-fatal-infos
+
+      - name: Test
+        run: flutter test --no-pub
+
+      - name: Committen
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "### Nichts geändert" >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git config user.name  "vox-build-runner"
+          git config user.email "actions@github.com"
+          git add -A
+          git commit -m "build_runner: generierter Code aktualisiert${{ inputs.grund != '' && format(' ({0})', inputs.grund) || '' }}"
+          git push
+          echo "### Committet" >> "$GITHUB_STEP_SUMMARY"
+          git show --stat -1 >> "$GITHUB_STEP_SUMMARY"

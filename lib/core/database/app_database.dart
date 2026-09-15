@@ -119,12 +119,28 @@ class HabitSessions extends Table {
   IntColumn    get durationMinutes => integer().nullable()();
 }
 
+// فاز S.0b (2026-09-15): Leitner-Stand der ARCHIVKARTEN (die ~26.200 Wörter aus
+// assets/vocab/) — bisher in SharedPreferences unter vokab_user_leitner_v1.
+// Eigener Schlüsseltyp, bewusst getrennt von LeitnerCards: die Archivkarten
+// haben Text-IDs wie "adjektiv_stolz", keine drift-Zeilen-ID. Dieselbe Text-ID
+// wie in core/backup/nutzer_zustand.dart (LeitnerStand.wortId) — das ist die
+// Brücke zwischen Datei-Sicherung und Ablage.
+class ArchivLeitner extends Table {
+  TextColumn     get wortId     => text()();
+  IntColumn      get boxNumber  => integer().withDefault(const Constant(1))();
+  DateTimeColumn get nextReview => dateTime()();
+  DateTimeColumn get lastReview => dateTime().nullable()();
+
+  @override
+  Set<Column> get primaryKey => {wortId};
+}
+
 // ── Database class ────────────────────────────────────────────────────────────
 
 @DriftDatabase(tables: [
   Words, Books, WordBooks,
   UserCategories, CategoryWords,
-  LeitnerCards,
+  LeitnerCards, ArchivLeitner,
   GrammarLessons, MemorizeItems,
   ReadingTexts, AudioItems,
   Habits, HabitSessions,
@@ -137,7 +153,7 @@ class AppDatabase extends _$AppDatabase {
   AppDatabase.forTesting(super.e);
 
   @override
-  int get schemaVersion => 2;
+  int get schemaVersion => 3;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -146,6 +162,15 @@ class AppDatabase extends _$AppDatabase {
       // فاز L3-E: EN-Bedeutung für Auswendiglernen-Karten
       if (from < 2) {
         await m.addColumn(memorizeItems, memorizeItems.meaningEn);
+      }
+      // فاز S.0b: Leitner-Stand der Archivkarten bekommt eine eigene Tabelle.
+      // Der Inhalt von vokab_user_leitner_v1 (SharedPreferences) wandert beim
+      // ersten Start NICHT automatisch hierher — das übernimmt weiterhin
+      // core/backup/user_state_repository.dart zur Laufzeit (lesen() liest
+      // schon heute beide Quellen). Eine leere neue Tabelle ist deshalb
+      // unbedenklich; nichts geht verloren.
+      if (from < 3) {
+        await m.createTable(archivLeitner);
       }
     },
   );
