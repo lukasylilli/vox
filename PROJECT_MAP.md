@@ -1032,7 +1032,7 @@ Modalverb `blob_zahnrad` · trennbar+regelmäßig `doppel_kreis` · trennbar+unr
 Partikel. Beispiel: `helfen` (unregelmäßig, nicht trennbar) → `blob_wellig`, gefüllt, Verb-Grau;
 `gestatten` (regelmäßig) → `kreis`, gefüllt.
 
-⚠️ **WIDERSPRUCH, ungelöst (gefunden 2026-09-15): es gibt ZWEI Artikel-Farbsysteme.**
+✅ **B-9 gelöst (2026-09-15): es gibt nur noch EIN Artikel-Farbsystem.** Vorher galt:
 
 | Artikel | `core/constants/article_colors.dart` (alte Wortschatz-Liste) | `grammatikon_spec.dart` (Vokabular-Archiv) |
 |---|---|---|
@@ -1041,11 +1041,18 @@ Partikel. Beispiel: `helfen` (unregelmäßig, nicht trennbar) → `blob_wellig`,
 | das | grün `#1EDB6F` | lila `#7A4B96` |
 | Plural | — | rot `#D85E5C` |
 
-Grün bedeutet in der einen Ansicht „das", in der anderen „der"; Rot einmal „die", einmal Plural.
-Für Lernende, die sich Farben einprägen sollen, sind das zwei widersprüchliche Systeme.
-`vox_colors.dart` reicht Artikelfarben an `ArticleColors` durch, der Widerspruch liegt also
-zwischen den beiden Systemen, nicht innerhalb eines. **Auflösung ist eine Produktentscheidung
-(welches System gewinnt) und steht bei Lukas** — Claude ändert das nicht eigenmächtig.
+Das Grammatikon-System hat gewonnen. `core/constants/article_colors.dart` hält **keine eigenen
+Farbwerte mehr**, sondern reicht `GrammatikonSpec.maskulin/feminin/neutral/plural` durch; alle
+acht nutzenden Dateien (Liste, Badge, Leitner-Karte, Lese-Popup, Detail- und Hinzufügen-Seite,
+`vox_colors.dart`) bekamen die neuen Farben ohne eigene Änderung.
+**Farbe ändern = ausschließlich `grammatikon_spec.dart`.** `test/artikelfarben_test.dart` hält
+das fest.
+
+**Symbol in der Wortschatz-Liste** — `features/wortschatz/widgets/wortschatz_grammatikon.dart`
+bildet `WordModel` auf eine Resolver-Karte ab. ⚠️ **Lieber kein Symbol als ein falsches:** für
+Verb, Präposition, Konnektor und „Sonstige" liefert es bewusst `null`, weil der alten
+`Words`-Tabelle `regelmaessig`/`trennbar`/`kasus`/`untertyp` fehlen (PLAN.md → B-10). Nomen
+brauchen einen Artikel, sonst ebenfalls kein Symbol.
 
 ℹ️ Kleinere Doku-Drift: der Kopf von `grammatikon_resolver.dart` nennt noch „Schema 2.0",
 die Karten sind 3.0.
