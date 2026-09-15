@@ -1,0 +1,73 @@
+# FILE: .github/workflows/pruefen.yml
+# ZWECK: `flutter pub get` + `analyze` + `test` auf JEDEM Zweig AUSSER main —
+#        also eine Probe, die nichts veröffentlicht.
+#
+# WARUM DAS EXISTIERT: Auf main ist jeder Commit zugleich eine
+# Veröffentlichung (deploy-web.yml). Bisher war der erste ehrliche Test einer
+# Änderung damit immer schon der Ernstfall. Vor allem eine Änderung an
+# `pubspec.yaml` lässt sich vorher nirgends prüfen: Claude hat kein Flutter im
+# Container und kann `pub get` nicht selbst ausführen (PLAN.md → Arbeitsweise).
+#
+# Ablauf ab jetzt: Zweig anlegen → hier grün werden → nach main. Rote Läufe
+# passieren auf dem Zweig, nicht in der laufenden App.
+#
+# ⚠️ Bewusst OHNE `--no-pub` beim ersten Schritt und ohne Lockfile-Zwang: Der
+# Sinn dieses Laufs ist gerade zu sehen, ob sich die Abhängigkeiten überhaupt
+# auflösen lassen.
+name: Zweig prüfen
+
+on:
+  push:
+    branches-ignore: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pruefen-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pruefen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: 3.44.6
+          cache: true
+
+      - name: Abhängigkeiten auflösen
+        run: flutter pub get
+
+      - name: Aufgelöste Fassungen ins Protokoll
+        # Damit im Lauf nachlesbar ist, WAS aufgelöst wurde — ohne das bleibt
+        # bei einem späteren Fehler unklar, welche Fassung schuld war.
+        run: |
+          echo '### Abhängigkeiten' >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          flutter pub deps --style=compact --no-dev >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Analyze
+        run: flutter analyze --no-pub --no-fatal-infos
+
+      - name: Test
+        run: flutter test --no-pub
+
+      - name: Web bauen (ohne zu veröffentlichen)
+        # Der Bau ist der einzige Schritt, der Web-Besonderheiten aufdeckt —
+        # ein Paket kann analyze und test überstehen und erst hier scheitern.
+        run: flutter build web --release --no-pub --no-wasm-dry-run --base-href "/vox/"
+
+      - name: Aktualisiertes pubspec.lock zum Mitnehmen
+        # Claude kann `pub get` nicht selbst ausführen. Ohne diesen Artefakt
+        # bliebe das Lockfile im Repository dauerhaft hinter dem zurück, was
+        # der Bau tatsächlich benutzt.
+        uses: actions/upload-artifact@v5
+        with:
+          name: pubspec-lock
+          path: pubspec.lock

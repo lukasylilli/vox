@@ -41,6 +41,12 @@ dependencies:
   # Settings persistence (Web: localStorage)
   shared_preferences: ^2.3.3
 
+  # Konto + Kopie in der Cloud (فاز S / S.3).
+  # ⚠️ Ohne SUPABASE_URL/SUPABASE_ANON_KEY (--dart-define) wird dieses Paket
+  #    nie gestartet und es geht kein einziger Netzaufruf hinaus — siehe
+  #    lib/core/constants/app_config.dart. Das Paket ist trotzdem im Bundle.
+  supabase_flutter: ^2.8.0
+
   # Browser-APIs (DOM) — z. B. Ladeanzeige aus web/index.html entfernen
   web: ^1.1.0
 

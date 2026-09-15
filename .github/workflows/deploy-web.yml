@@ -36,7 +36,16 @@ jobs:
         run: flutter test --no-pub
 
       - name: Build web
-        run: flutter build web --release --no-pub --no-wasm-dry-run --base-href "/${{ github.event.repository.name }}/"
+        # ⚠️ SUPABASE_* sind Secrets des Repositories. Fehlen sie, werden hier
+        # leere Zeichenketten übergeben — dann ist `hasSupabaseConfig` falsch,
+        # und VOX verhält sich exakt wie vor S.3: kein Konto, kein Netzaufruf
+        # zu Supabase. Der Bau geht dabei NICHT kaputt, das ist Absicht.
+        # Nur der `anon`-Schlüssel gehört hierher, niemals `service_role`.
+        run: |
+          flutter build web --release --no-pub --no-wasm-dry-run \
+            --base-href "/${{ github.event.repository.name }}/" \
+            --dart-define=SUPABASE_URL="${{ secrets.SUPABASE_URL }}" \
+            --dart-define=SUPABASE_ANON_KEY="${{ secrets.SUPABASE_ANON_KEY }}"
 
       - uses: actions/upload-pages-artifact@v5
         with:
