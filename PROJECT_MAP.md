@@ -1011,6 +1011,47 @@ data_seed_service.dart  [x]  — یک‌بار seed از JSON asset به SQLite 
 
 ---
 
+## 🎨 Wo Form und Farbe der Wörter festgelegt sind (Grammatikon)
+
+**Nirgends in den Daten.** Symbol, Füllung und Farbe werden zur Laufzeit aus `wortart` +
+`details` berechnet und nie in den Wort-JSONs gespeichert. Design ändern = diese zwei Dateien
+anfassen, nie die Karten.
+
+| Datei | Rolle |
+|---|---|
+| `core/grammatikon/grammatikon_resolver.dart` | **das Gehirn** — Karte (+ Kasus/Genus/Numerus/Form) → `GrammatikonDescriptor{shape, fuellung, color, marker, innen}` |
+| `core/grammatikon/grammatikon_spec.dart` | **das Aussehen** — Farbwerte, Maße jeder Grundform, Rahmenbreiten, Streifen, Marker |
+| `core/grammatikon/grammatikon_painter.dart` | zeichnet den Descriptor |
+| `core/grammatikon/wort_card.dart` | Listeneintrag; **Endungsfarbe kommt aus demselben Resolver** — keine zweite Genus→Farbe-Tabelle |
+| `core/grammatikon/wort_text.dart` + `endung_resolver.dart` | farbige Endungen im Wort |
+
+**Grundregeln:** FORM = Kasus (Nominativ `quadrat` · Akkusativ `raute` · Dativ `dreieck_links` ·
+Genitiv `ellipse`), FARBE = Genus. Verben laufen über eine eigene Formenreihe:
+Modalverb `blob_zahnrad` · trennbar+regelmäßig `doppel_kreis` · trennbar+unregelmäßig
+`doppel_blob` · regelmäßig `kreis` · **unregelmäßig `blob_wellig`**. `stern` gehört allein der
+Partikel. Beispiel: `helfen` (unregelmäßig, nicht trennbar) → `blob_wellig`, gefüllt, Verb-Grau;
+`gestatten` (regelmäßig) → `kreis`, gefüllt.
+
+⚠️ **WIDERSPRUCH, ungelöst (gefunden 2026-09-15): es gibt ZWEI Artikel-Farbsysteme.**
+
+| Artikel | `core/constants/article_colors.dart` (alte Wortschatz-Liste) | `grammatikon_spec.dart` (Vokabular-Archiv) |
+|---|---|---|
+| der | blau `#1E6FDB` | grün `#5DA283` |
+| die | rot `#DB1E1E` | orange `#E39F4E` |
+| das | grün `#1EDB6F` | lila `#7A4B96` |
+| Plural | — | rot `#D85E5C` |
+
+Grün bedeutet in der einen Ansicht „das", in der anderen „der"; Rot einmal „die", einmal Plural.
+Für Lernende, die sich Farben einprägen sollen, sind das zwei widersprüchliche Systeme.
+`vox_colors.dart` reicht Artikelfarben an `ArticleColors` durch, der Widerspruch liegt also
+zwischen den beiden Systemen, nicht innerhalb eines. **Auflösung ist eine Produktentscheidung
+(welches System gewinnt) und steht bei Lukas** — Claude ändert das nicht eigenmächtig.
+
+ℹ️ Kleinere Doku-Drift: der Kopf von `grammatikon_resolver.dart` nennt noch „Schema 2.0",
+die Karten sind 3.0.
+
+---
+
 ## 💾 Wo die Nutzerdaten liegen (فاز S, 2026-09-15)
 
 ⚠️ **Wichtigster Abschnitt für alles, was Fortschritt anfasst.** Details: PLAN.md → فاز S.

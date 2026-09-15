@@ -87,6 +87,15 @@
 ### B-2: خطای SQLite — UNIQUE constraint در words ✅
 - وضعیت: رفع شد (2026-06-29)
 
+### B-9 [تصمیم محصول، باز از 2026-09-15]: دو سیستم رنگ آرتیکل هم‌زمان
+- `core/constants/article_colors.dart` (لیست Wortschatz): der=آبی · die=قرمز · das=سبز
+- `core/grammatikon/grammatikon_spec.dart` (آرشیو Vokabular): maskulin=سبز · feminin=نارنجی ·
+  neutral=بنفش · plural=قرمز
+- ⇒ سبز یک‌جا «das» و جای دیگر «der»؛ قرمز یک‌جا «die» و جای دیگر «جمع»
+- برای زبان‌آموزی که رنگ‌ها را حفظ می‌کند، دو نظام متناقض است
+- **تصمیم با Lukas است** (کدام نظام می‌ماند). Claude خودسرانه عوض نمی‌کند.
+  وقتی تصمیم گرفته شد: فقط یکی از این دو فایل می‌ماند، بقیه از همان یکی می‌خوانند (Puzzling).
+
 ### B-3: Wortschatz — نمایش کلمه با حرف اضافه در لیست ✅
 - مشکل: کلمات Präpositionen مثل "das Engagement für" در لیست Wortschatz نمایش داده می‌شدند
 - رفع: `stripPreposition(german)` در `word_list_item.dart` (۲۱ حرف اضافه) — در لیست فقط "das Engagement"؛ detail view کامل می‌ماند
