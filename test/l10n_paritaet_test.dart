@@ -25,6 +25,28 @@ void main() {
     'storage_how_ios',
     'storage_how_android',
     'storage_how_desktop',
+    // S.3 Schritt 2 — Konto (2026-09-15)
+    'section_account',
+    'account_title',
+    'account_signed_in_as',
+    'account_email_label',
+    'account_password_label',
+    'account_sign_in',
+    'account_sign_up',
+    'account_sign_out',
+    'account_signed_out',
+    'account_switch_to_signup',
+    'account_switch_to_signin',
+    'account_confirm_email_sent',
+    'auth_issue_not_configured',
+    'auth_issue_email_taken',
+    'auth_issue_invalid_credentials',
+    'auth_issue_weak_password',
+    'auth_issue_invalid_email',
+    'auth_issue_signup_disabled',
+    'auth_issue_email_rate_limited',
+    'auth_issue_offline',
+    'auth_issue_unknown',
   ];
 
   // t() braucht einen BuildContext, die Textmap selbst ist privat — deshalb
