@@ -209,6 +209,18 @@ class $WordsTable extends Words with TableInfo<$WordsTable, Word> {
     type: DriftSqlType.string,
     requiredDuringInsert: false,
   );
+  static const VerificationMeta _ausAppMeta = const VerificationMeta('ausApp');
+  @override
+  late final GeneratedColumn<bool> ausApp = GeneratedColumn<bool>(
+    'aus_app',
+    aliasedName,
+    true,
+    type: DriftSqlType.bool,
+    requiredDuringInsert: false,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'CHECK ("aus_app" IN (0, 1))',
+    ),
+  );
   @override
   List<GeneratedColumn> get $columns => [
     id,
@@ -229,6 +241,7 @@ class $WordsTable extends Words with TableInfo<$WordsTable, Word> {
     regelmaessig,
     trennbar,
     grammatikDetail,
+    ausApp,
   ];
   @override
   String get aliasedName => _alias ?? actualTableName;
@@ -374,6 +387,12 @@ class $WordsTable extends Words with TableInfo<$WordsTable, Word> {
         ),
       );
     }
+    if (data.containsKey('aus_app')) {
+      context.handle(
+        _ausAppMeta,
+        ausApp.isAcceptableOrUnknown(data['aus_app']!, _ausAppMeta),
+      );
+    }
     return context;
   }
 
@@ -459,6 +478,10 @@ class $WordsTable extends Words with TableInfo<$WordsTable, Word> {
         DriftSqlType.string,
         data['${effectivePrefix}grammatik_detail'],
       ),
+      ausApp: attachedDatabase.typeMapping.read(
+        DriftSqlType.bool,
+        data['${effectivePrefix}aus_app'],
+      ),
     );
   }
 
@@ -487,6 +510,7 @@ class Word extends DataClass implements Insertable<Word> {
   final bool? regelmaessig;
   final bool? trennbar;
   final String? grammatikDetail;
+  final bool? ausApp;
   const Word({
     required this.id,
     required this.german,
@@ -506,6 +530,7 @@ class Word extends DataClass implements Insertable<Word> {
     this.regelmaessig,
     this.trennbar,
     this.grammatikDetail,
+    this.ausApp,
   });
   @override
   Map<String, Expression> toColumns(bool nullToAbsent) {
@@ -553,6 +578,9 @@ class Word extends DataClass implements Insertable<Word> {
     }
     if (!nullToAbsent || grammatikDetail != null) {
       map['grammatik_detail'] = Variable<String>(grammatikDetail);
+    }
+    if (!nullToAbsent || ausApp != null) {
+      map['aus_app'] = Variable<bool>(ausApp);
     }
     return map;
   }
@@ -603,6 +631,9 @@ class Word extends DataClass implements Insertable<Word> {
       grammatikDetail: grammatikDetail == null && nullToAbsent
           ? const Value.absent()
           : Value(grammatikDetail),
+      ausApp: ausApp == null && nullToAbsent
+          ? const Value.absent()
+          : Value(ausApp),
     );
   }
 
@@ -630,6 +661,7 @@ class Word extends DataClass implements Insertable<Word> {
       regelmaessig: serializer.fromJson<bool?>(json['regelmaessig']),
       trennbar: serializer.fromJson<bool?>(json['trennbar']),
       grammatikDetail: serializer.fromJson<String?>(json['grammatikDetail']),
+      ausApp: serializer.fromJson<bool?>(json['ausApp']),
     );
   }
   @override
@@ -654,6 +686,7 @@ class Word extends DataClass implements Insertable<Word> {
       'regelmaessig': serializer.toJson<bool?>(regelmaessig),
       'trennbar': serializer.toJson<bool?>(trennbar),
       'grammatikDetail': serializer.toJson<String?>(grammatikDetail),
+      'ausApp': serializer.toJson<bool?>(ausApp),
     };
   }
 
@@ -676,6 +709,7 @@ class Word extends DataClass implements Insertable<Word> {
     Value<bool?> regelmaessig = const Value.absent(),
     Value<bool?> trennbar = const Value.absent(),
     Value<String?> grammatikDetail = const Value.absent(),
+    Value<bool?> ausApp = const Value.absent(),
   }) => Word(
     id: id ?? this.id,
     german: german ?? this.german,
@@ -701,6 +735,7 @@ class Word extends DataClass implements Insertable<Word> {
     grammatikDetail: grammatikDetail.present
         ? grammatikDetail.value
         : this.grammatikDetail,
+    ausApp: ausApp.present ? ausApp.value : this.ausApp,
   );
   Word copyWithCompanion(WordsCompanion data) {
     return Word(
@@ -736,6 +771,7 @@ class Word extends DataClass implements Insertable<Word> {
       grammatikDetail: data.grammatikDetail.present
           ? data.grammatikDetail.value
           : this.grammatikDetail,
+      ausApp: data.ausApp.present ? data.ausApp.value : this.ausApp,
     );
   }
 
@@ -759,7 +795,8 @@ class Word extends DataClass implements Insertable<Word> {
           ..write('createdAt: $createdAt, ')
           ..write('regelmaessig: $regelmaessig, ')
           ..write('trennbar: $trennbar, ')
-          ..write('grammatikDetail: $grammatikDetail')
+          ..write('grammatikDetail: $grammatikDetail, ')
+          ..write('ausApp: $ausApp')
           ..write(')'))
         .toString();
   }
@@ -784,6 +821,7 @@ class Word extends DataClass implements Insertable<Word> {
     regelmaessig,
     trennbar,
     grammatikDetail,
+    ausApp,
   );
   @override
   bool operator ==(Object other) =>
@@ -806,7 +844,8 @@ class Word extends DataClass implements Insertable<Word> {
           other.createdAt == this.createdAt &&
           other.regelmaessig == this.regelmaessig &&
           other.trennbar == this.trennbar &&
-          other.grammatikDetail == this.grammatikDetail);
+          other.grammatikDetail == this.grammatikDetail &&
+          other.ausApp == this.ausApp);
 }
 
 class WordsCompanion extends UpdateCompanion<Word> {
@@ -828,6 +867,7 @@ class WordsCompanion extends UpdateCompanion<Word> {
   final Value<bool?> regelmaessig;
   final Value<bool?> trennbar;
   final Value<String?> grammatikDetail;
+  final Value<bool?> ausApp;
   const WordsCompanion({
     this.id = const Value.absent(),
     this.german = const Value.absent(),
@@ -847,6 +887,7 @@ class WordsCompanion extends UpdateCompanion<Word> {
     this.regelmaessig = const Value.absent(),
     this.trennbar = const Value.absent(),
     this.grammatikDetail = const Value.absent(),
+    this.ausApp = const Value.absent(),
   });
   WordsCompanion.insert({
     this.id = const Value.absent(),
@@ -867,6 +908,7 @@ class WordsCompanion extends UpdateCompanion<Word> {
     this.regelmaessig = const Value.absent(),
     this.trennbar = const Value.absent(),
     this.grammatikDetail = const Value.absent(),
+    this.ausApp = const Value.absent(),
   }) : german = Value(german),
        wordType = Value(wordType),
        meaningFa = Value(meaningFa);
@@ -889,6 +931,7 @@ class WordsCompanion extends UpdateCompanion<Word> {
     Expression<bool>? regelmaessig,
     Expression<bool>? trennbar,
     Expression<String>? grammatikDetail,
+    Expression<bool>? ausApp,
   }) {
     return RawValuesInsertable({
       if (id != null) 'id': id,
@@ -909,6 +952,7 @@ class WordsCompanion extends UpdateCompanion<Word> {
       if (regelmaessig != null) 'regelmaessig': regelmaessig,
       if (trennbar != null) 'trennbar': trennbar,
       if (grammatikDetail != null) 'grammatik_detail': grammatikDetail,
+      if (ausApp != null) 'aus_app': ausApp,
     });
   }
 
@@ -931,6 +975,7 @@ class WordsCompanion extends UpdateCompanion<Word> {
     Value<bool?>? regelmaessig,
     Value<bool?>? trennbar,
     Value<String?>? grammatikDetail,
+    Value<bool?>? ausApp,
   }) {
     return WordsCompanion(
       id: id ?? this.id,
@@ -951,6 +996,7 @@ class WordsCompanion extends UpdateCompanion<Word> {
       regelmaessig: regelmaessig ?? this.regelmaessig,
       trennbar: trennbar ?? this.trennbar,
       grammatikDetail: grammatikDetail ?? this.grammatikDetail,
+      ausApp: ausApp ?? this.ausApp,
     );
   }
 
@@ -1011,6 +1057,9 @@ class WordsCompanion extends UpdateCompanion<Word> {
     if (grammatikDetail.present) {
       map['grammatik_detail'] = Variable<String>(grammatikDetail.value);
     }
+    if (ausApp.present) {
+      map['aus_app'] = Variable<bool>(ausApp.value);
+    }
     return map;
   }
 
@@ -1034,7 +1083,8 @@ class WordsCompanion extends UpdateCompanion<Word> {
           ..write('createdAt: $createdAt, ')
           ..write('regelmaessig: $regelmaessig, ')
           ..write('trennbar: $trennbar, ')
-          ..write('grammatikDetail: $grammatikDetail')
+          ..write('grammatikDetail: $grammatikDetail, ')
+          ..write('ausApp: $ausApp')
           ..write(')'))
         .toString();
   }
@@ -2962,6 +3012,363 @@ class ArchivKategorieWoerterCompanion
     return (StringBuffer('ArchivKategorieWoerterCompanion(')
           ..write('kategorieId: $kategorieId, ')
           ..write('wortId: $wortId, ')
+          ..write('rowid: $rowid')
+          ..write(')'))
+        .toString();
+  }
+}
+
+class $MitgliedschaftenTable extends Mitgliedschaften
+    with TableInfo<$MitgliedschaftenTable, MitgliedschaftenData> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $MitgliedschaftenTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _artMeta = const VerificationMeta('art');
+  @override
+  late final GeneratedColumn<String> art = GeneratedColumn<String>(
+    'art',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _schluesselMeta = const VerificationMeta(
+    'schluessel',
+  );
+  @override
+  late final GeneratedColumn<String> schluessel = GeneratedColumn<String>(
+    'schluessel',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _wortMeta = const VerificationMeta('wort');
+  @override
+  late final GeneratedColumn<String> wort = GeneratedColumn<String>(
+    'wort',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(''),
+  );
+  static const VerificationMeta _drinMeta = const VerificationMeta('drin');
+  @override
+  late final GeneratedColumn<bool> drin = GeneratedColumn<bool>(
+    'drin',
+    aliasedName,
+    false,
+    type: DriftSqlType.bool,
+    requiredDuringInsert: true,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'CHECK ("drin" IN (0, 1))',
+    ),
+  );
+  static const VerificationMeta _amMsMeta = const VerificationMeta('amMs');
+  @override
+  late final GeneratedColumn<int> amMs = GeneratedColumn<int>(
+    'am_ms',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  @override
+  List<GeneratedColumn> get $columns => [art, schluessel, wort, drin, amMs];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'mitgliedschaften';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<MitgliedschaftenData> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('art')) {
+      context.handle(
+        _artMeta,
+        art.isAcceptableOrUnknown(data['art']!, _artMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_artMeta);
+    }
+    if (data.containsKey('schluessel')) {
+      context.handle(
+        _schluesselMeta,
+        schluessel.isAcceptableOrUnknown(data['schluessel']!, _schluesselMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_schluesselMeta);
+    }
+    if (data.containsKey('wort')) {
+      context.handle(
+        _wortMeta,
+        wort.isAcceptableOrUnknown(data['wort']!, _wortMeta),
+      );
+    }
+    if (data.containsKey('drin')) {
+      context.handle(
+        _drinMeta,
+        drin.isAcceptableOrUnknown(data['drin']!, _drinMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_drinMeta);
+    }
+    if (data.containsKey('am_ms')) {
+      context.handle(
+        _amMsMeta,
+        amMs.isAcceptableOrUnknown(data['am_ms']!, _amMsMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_amMsMeta);
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {art, schluessel, wort};
+  @override
+  MitgliedschaftenData map(Map<String, dynamic> data, {String? tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return MitgliedschaftenData(
+      art: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}art'],
+      )!,
+      schluessel: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}schluessel'],
+      )!,
+      wort: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}wort'],
+      )!,
+      drin: attachedDatabase.typeMapping.read(
+        DriftSqlType.bool,
+        data['${effectivePrefix}drin'],
+      )!,
+      amMs: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}am_ms'],
+      )!,
+    );
+  }
+
+  @override
+  $MitgliedschaftenTable createAlias(String alias) {
+    return $MitgliedschaftenTable(attachedDatabase, alias);
+  }
+}
+
+class MitgliedschaftenData extends DataClass
+    implements Insertable<MitgliedschaftenData> {
+  final String art;
+  final String schluessel;
+  final String wort;
+  final bool drin;
+  final int amMs;
+  const MitgliedschaftenData({
+    required this.art,
+    required this.schluessel,
+    required this.wort,
+    required this.drin,
+    required this.amMs,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['art'] = Variable<String>(art);
+    map['schluessel'] = Variable<String>(schluessel);
+    map['wort'] = Variable<String>(wort);
+    map['drin'] = Variable<bool>(drin);
+    map['am_ms'] = Variable<int>(amMs);
+    return map;
+  }
+
+  MitgliedschaftenCompanion toCompanion(bool nullToAbsent) {
+    return MitgliedschaftenCompanion(
+      art: Value(art),
+      schluessel: Value(schluessel),
+      wort: Value(wort),
+      drin: Value(drin),
+      amMs: Value(amMs),
+    );
+  }
+
+  factory MitgliedschaftenData.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return MitgliedschaftenData(
+      art: serializer.fromJson<String>(json['art']),
+      schluessel: serializer.fromJson<String>(json['schluessel']),
+      wort: serializer.fromJson<String>(json['wort']),
+      drin: serializer.fromJson<bool>(json['drin']),
+      amMs: serializer.fromJson<int>(json['amMs']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'art': serializer.toJson<String>(art),
+      'schluessel': serializer.toJson<String>(schluessel),
+      'wort': serializer.toJson<String>(wort),
+      'drin': serializer.toJson<bool>(drin),
+      'amMs': serializer.toJson<int>(amMs),
+    };
+  }
+
+  MitgliedschaftenData copyWith({
+    String? art,
+    String? schluessel,
+    String? wort,
+    bool? drin,
+    int? amMs,
+  }) => MitgliedschaftenData(
+    art: art ?? this.art,
+    schluessel: schluessel ?? this.schluessel,
+    wort: wort ?? this.wort,
+    drin: drin ?? this.drin,
+    amMs: amMs ?? this.amMs,
+  );
+  MitgliedschaftenData copyWithCompanion(MitgliedschaftenCompanion data) {
+    return MitgliedschaftenData(
+      art: data.art.present ? data.art.value : this.art,
+      schluessel: data.schluessel.present
+          ? data.schluessel.value
+          : this.schluessel,
+      wort: data.wort.present ? data.wort.value : this.wort,
+      drin: data.drin.present ? data.drin.value : this.drin,
+      amMs: data.amMs.present ? data.amMs.value : this.amMs,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('MitgliedschaftenData(')
+          ..write('art: $art, ')
+          ..write('schluessel: $schluessel, ')
+          ..write('wort: $wort, ')
+          ..write('drin: $drin, ')
+          ..write('amMs: $amMs')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(art, schluessel, wort, drin, amMs);
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is MitgliedschaftenData &&
+          other.art == this.art &&
+          other.schluessel == this.schluessel &&
+          other.wort == this.wort &&
+          other.drin == this.drin &&
+          other.amMs == this.amMs);
+}
+
+class MitgliedschaftenCompanion extends UpdateCompanion<MitgliedschaftenData> {
+  final Value<String> art;
+  final Value<String> schluessel;
+  final Value<String> wort;
+  final Value<bool> drin;
+  final Value<int> amMs;
+  final Value<int> rowid;
+  const MitgliedschaftenCompanion({
+    this.art = const Value.absent(),
+    this.schluessel = const Value.absent(),
+    this.wort = const Value.absent(),
+    this.drin = const Value.absent(),
+    this.amMs = const Value.absent(),
+    this.rowid = const Value.absent(),
+  });
+  MitgliedschaftenCompanion.insert({
+    required String art,
+    required String schluessel,
+    this.wort = const Value.absent(),
+    required bool drin,
+    required int amMs,
+    this.rowid = const Value.absent(),
+  }) : art = Value(art),
+       schluessel = Value(schluessel),
+       drin = Value(drin),
+       amMs = Value(amMs);
+  static Insertable<MitgliedschaftenData> custom({
+    Expression<String>? art,
+    Expression<String>? schluessel,
+    Expression<String>? wort,
+    Expression<bool>? drin,
+    Expression<int>? amMs,
+    Expression<int>? rowid,
+  }) {
+    return RawValuesInsertable({
+      if (art != null) 'art': art,
+      if (schluessel != null) 'schluessel': schluessel,
+      if (wort != null) 'wort': wort,
+      if (drin != null) 'drin': drin,
+      if (amMs != null) 'am_ms': amMs,
+      if (rowid != null) 'rowid': rowid,
+    });
+  }
+
+  MitgliedschaftenCompanion copyWith({
+    Value<String>? art,
+    Value<String>? schluessel,
+    Value<String>? wort,
+    Value<bool>? drin,
+    Value<int>? amMs,
+    Value<int>? rowid,
+  }) {
+    return MitgliedschaftenCompanion(
+      art: art ?? this.art,
+      schluessel: schluessel ?? this.schluessel,
+      wort: wort ?? this.wort,
+      drin: drin ?? this.drin,
+      amMs: amMs ?? this.amMs,
+      rowid: rowid ?? this.rowid,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (art.present) {
+      map['art'] = Variable<String>(art.value);
+    }
+    if (schluessel.present) {
+      map['schluessel'] = Variable<String>(schluessel.value);
+    }
+    if (wort.present) {
+      map['wort'] = Variable<String>(wort.value);
+    }
+    if (drin.present) {
+      map['drin'] = Variable<bool>(drin.value);
+    }
+    if (amMs.present) {
+      map['am_ms'] = Variable<int>(amMs.value);
+    }
+    if (rowid.present) {
+      map['rowid'] = Variable<int>(rowid.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('MitgliedschaftenCompanion(')
+          ..write('art: $art, ')
+          ..write('schluessel: $schluessel, ')
+          ..write('wort: $wort, ')
+          ..write('drin: $drin, ')
+          ..write('amMs: $amMs, ')
           ..write('rowid: $rowid')
           ..write(')'))
         .toString();
@@ -5247,6 +5654,9 @@ abstract class _$AppDatabase extends GeneratedDatabase {
   );
   late final $ArchivKategorieWoerterTable archivKategorieWoerter =
       $ArchivKategorieWoerterTable(this);
+  late final $MitgliedschaftenTable mitgliedschaften = $MitgliedschaftenTable(
+    this,
+  );
   late final $GrammarLessonsTable grammarLessons = $GrammarLessonsTable(this);
   late final $MemorizeItemsTable memorizeItems = $MemorizeItemsTable(this);
   late final $ReadingTextsTable readingTexts = $ReadingTextsTable(this);
@@ -5267,6 +5677,7 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     archivLeitner,
     archivKategorien,
     archivKategorieWoerter,
+    mitgliedschaften,
     grammarLessons,
     memorizeItems,
     readingTexts,
@@ -5296,6 +5707,7 @@ typedef $$WordsTableCreateCompanionBuilder =
       Value<bool?> regelmaessig,
       Value<bool?> trennbar,
       Value<String?> grammatikDetail,
+      Value<bool?> ausApp,
     });
 typedef $$WordsTableUpdateCompanionBuilder =
     WordsCompanion Function({
@@ -5317,6 +5729,7 @@ typedef $$WordsTableUpdateCompanionBuilder =
       Value<bool?> regelmaessig,
       Value<bool?> trennbar,
       Value<String?> grammatikDetail,
+      Value<bool?> ausApp,
     });
 
 final class $$WordsTableReferences
@@ -5473,6 +5886,11 @@ class $$WordsTableFilterComposer extends Composer<_$AppDatabase, $WordsTable> {
 
   ColumnFilters<String> get grammatikDetail => $composableBuilder(
     column: $table.grammatikDetail,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<bool> get ausApp => $composableBuilder(
+    column: $table.ausApp,
     builder: (column) => ColumnFilters(column),
   );
 
@@ -5650,6 +6068,11 @@ class $$WordsTableOrderingComposer
     column: $table.grammatikDetail,
     builder: (column) => ColumnOrderings(column),
   );
+
+  ColumnOrderings<bool> get ausApp => $composableBuilder(
+    column: $table.ausApp,
+    builder: (column) => ColumnOrderings(column),
+  );
 }
 
 class $$WordsTableAnnotationComposer
@@ -5728,6 +6151,9 @@ class $$WordsTableAnnotationComposer
     column: $table.grammatikDetail,
     builder: (column) => column,
   );
+
+  GeneratedColumn<bool> get ausApp =>
+      $composableBuilder(column: $table.ausApp, builder: (column) => column);
 
   Expression<T> wordBooksRefs<T extends Object>(
     Expression<T> Function($$WordBooksTableAnnotationComposer a) f,
@@ -5855,6 +6281,7 @@ class $$WordsTableTableManager
                 Value<bool?> regelmaessig = const Value.absent(),
                 Value<bool?> trennbar = const Value.absent(),
                 Value<String?> grammatikDetail = const Value.absent(),
+                Value<bool?> ausApp = const Value.absent(),
               }) => WordsCompanion(
                 id: id,
                 german: german,
@@ -5874,6 +6301,7 @@ class $$WordsTableTableManager
                 regelmaessig: regelmaessig,
                 trennbar: trennbar,
                 grammatikDetail: grammatikDetail,
+                ausApp: ausApp,
               ),
           createCompanionCallback:
               ({
@@ -5895,6 +6323,7 @@ class $$WordsTableTableManager
                 Value<bool?> regelmaessig = const Value.absent(),
                 Value<bool?> trennbar = const Value.absent(),
                 Value<String?> grammatikDetail = const Value.absent(),
+                Value<bool?> ausApp = const Value.absent(),
               }) => WordsCompanion.insert(
                 id: id,
                 german: german,
@@ -5914,6 +6343,7 @@ class $$WordsTableTableManager
                 regelmaessig: regelmaessig,
                 trennbar: trennbar,
                 grammatikDetail: grammatikDetail,
+                ausApp: ausApp,
               ),
           withReferenceMapper: (p0) => p0
               .map(
@@ -8217,6 +8647,218 @@ typedef $$ArchivKategorieWoerterTableProcessedTableManager =
       ArchivKategorieWoerterData,
       PrefetchHooks Function({bool kategorieId})
     >;
+typedef $$MitgliedschaftenTableCreateCompanionBuilder =
+    MitgliedschaftenCompanion Function({
+      required String art,
+      required String schluessel,
+      Value<String> wort,
+      required bool drin,
+      required int amMs,
+      Value<int> rowid,
+    });
+typedef $$MitgliedschaftenTableUpdateCompanionBuilder =
+    MitgliedschaftenCompanion Function({
+      Value<String> art,
+      Value<String> schluessel,
+      Value<String> wort,
+      Value<bool> drin,
+      Value<int> amMs,
+      Value<int> rowid,
+    });
+
+class $$MitgliedschaftenTableFilterComposer
+    extends Composer<_$AppDatabase, $MitgliedschaftenTable> {
+  $$MitgliedschaftenTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<String> get art => $composableBuilder(
+    column: $table.art,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get schluessel => $composableBuilder(
+    column: $table.schluessel,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get wort => $composableBuilder(
+    column: $table.wort,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<bool> get drin => $composableBuilder(
+    column: $table.drin,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get amMs => $composableBuilder(
+    column: $table.amMs,
+    builder: (column) => ColumnFilters(column),
+  );
+}
+
+class $$MitgliedschaftenTableOrderingComposer
+    extends Composer<_$AppDatabase, $MitgliedschaftenTable> {
+  $$MitgliedschaftenTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<String> get art => $composableBuilder(
+    column: $table.art,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get schluessel => $composableBuilder(
+    column: $table.schluessel,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get wort => $composableBuilder(
+    column: $table.wort,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<bool> get drin => $composableBuilder(
+    column: $table.drin,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get amMs => $composableBuilder(
+    column: $table.amMs,
+    builder: (column) => ColumnOrderings(column),
+  );
+}
+
+class $$MitgliedschaftenTableAnnotationComposer
+    extends Composer<_$AppDatabase, $MitgliedschaftenTable> {
+  $$MitgliedschaftenTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<String> get art =>
+      $composableBuilder(column: $table.art, builder: (column) => column);
+
+  GeneratedColumn<String> get schluessel => $composableBuilder(
+    column: $table.schluessel,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<String> get wort =>
+      $composableBuilder(column: $table.wort, builder: (column) => column);
+
+  GeneratedColumn<bool> get drin =>
+      $composableBuilder(column: $table.drin, builder: (column) => column);
+
+  GeneratedColumn<int> get amMs =>
+      $composableBuilder(column: $table.amMs, builder: (column) => column);
+}
+
+class $$MitgliedschaftenTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $MitgliedschaftenTable,
+          MitgliedschaftenData,
+          $$MitgliedschaftenTableFilterComposer,
+          $$MitgliedschaftenTableOrderingComposer,
+          $$MitgliedschaftenTableAnnotationComposer,
+          $$MitgliedschaftenTableCreateCompanionBuilder,
+          $$MitgliedschaftenTableUpdateCompanionBuilder,
+          (
+            MitgliedschaftenData,
+            BaseReferences<
+              _$AppDatabase,
+              $MitgliedschaftenTable,
+              MitgliedschaftenData
+            >,
+          ),
+          MitgliedschaftenData,
+          PrefetchHooks Function()
+        > {
+  $$MitgliedschaftenTableTableManager(
+    _$AppDatabase db,
+    $MitgliedschaftenTable table,
+  ) : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$MitgliedschaftenTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$MitgliedschaftenTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$MitgliedschaftenTableAnnotationComposer($db: db, $table: table),
+          updateCompanionCallback:
+              ({
+                Value<String> art = const Value.absent(),
+                Value<String> schluessel = const Value.absent(),
+                Value<String> wort = const Value.absent(),
+                Value<bool> drin = const Value.absent(),
+                Value<int> amMs = const Value.absent(),
+                Value<int> rowid = const Value.absent(),
+              }) => MitgliedschaftenCompanion(
+                art: art,
+                schluessel: schluessel,
+                wort: wort,
+                drin: drin,
+                amMs: amMs,
+                rowid: rowid,
+              ),
+          createCompanionCallback:
+              ({
+                required String art,
+                required String schluessel,
+                Value<String> wort = const Value.absent(),
+                required bool drin,
+                required int amMs,
+                Value<int> rowid = const Value.absent(),
+              }) => MitgliedschaftenCompanion.insert(
+                art: art,
+                schluessel: schluessel,
+                wort: wort,
+                drin: drin,
+                amMs: amMs,
+                rowid: rowid,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map((e) => (e.readTable(table), BaseReferences(db, table, e)))
+              .toList(),
+          prefetchHooksCallback: null,
+        ),
+      );
+}
+
+typedef $$MitgliedschaftenTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $MitgliedschaftenTable,
+      MitgliedschaftenData,
+      $$MitgliedschaftenTableFilterComposer,
+      $$MitgliedschaftenTableOrderingComposer,
+      $$MitgliedschaftenTableAnnotationComposer,
+      $$MitgliedschaftenTableCreateCompanionBuilder,
+      $$MitgliedschaftenTableUpdateCompanionBuilder,
+      (
+        MitgliedschaftenData,
+        BaseReferences<
+          _$AppDatabase,
+          $MitgliedschaftenTable,
+          MitgliedschaftenData
+        >,
+      ),
+      MitgliedschaftenData,
+      PrefetchHooks Function()
+    >;
 typedef $$GrammarLessonsTableCreateCompanionBuilder =
     GrammarLessonsCompanion Function({
       Value<int> id,
@@ -9693,6 +10335,8 @@ class $AppDatabaseManager {
         _db,
         _db.archivKategorieWoerter,
       );
+  $$MitgliedschaftenTableTableManager get mitgliedschaften =>
+      $$MitgliedschaftenTableTableManager(_db, _db.mitgliedschaften);
   $$GrammarLessonsTableTableManager get grammarLessons =>
       $$GrammarLessonsTableTableManager(_db, _db.grammarLessons);
   $$MemorizeItemsTableTableManager get memorizeItems =>
