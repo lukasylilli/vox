@@ -1106,6 +1106,10 @@ die Fassade, die allein `NutzerZustand` nach außen zeigt.
 | `core/services/auth_service.dart` | **S.3 ✅** — einzige Stelle, die `supabase_flutter` kennt. ⚠️ **Kein Benutzername** (`profiles` gehört Root-in) und **kein `deleteAccount()`** (löscht `auth.users` und damit auch den Root-in-Bestand desselben Menschen). Gibt `AuthResult` zurück statt zu werfen; `AuthIssue` wird in der Oberfläche übersetzt, nicht hier |
 | `supabase/vox_tables.sql` | **S.3 ✅** — `vox_backups`, eine Zeile je Konto. ⚠️ **Nicht** `backups` — die gehört Root-in und hat dieselbe `user_id` als Primärschlüssel; geteilt hieße: eine App überschreibt die Sicherung der anderen. `touch_updated_at()` zeichengleich zu `schema.sql` in Root-in — Änderung immer in BEIDEN Dateien |
 | `features/more/screens/settings_screen.dart` → `_KontoKarte` | **S.3 Schritt 2 ✅** — anmelden/registrieren/abmelden; nur sichtbar bei `kontoAktivProvider`. `AuthIssue` wird hier übersetzt (`_kontoFehlerText`). Noch **ohne** Cloud-Kopie — das ist Schritt 3 |
+| `core/backup/cloud_abgleich.dart` | **S.3 Schritt 3** — holen → zusammenführen → nur bei Änderung hochladen; kennt kein Supabase |
+| `core/services/cloud_ablage_supabase.dart` | echte `CloudAblage` (`vox_backups`); zweite und letzte Datei mit `supabase_flutter` |
+| `features/more/controllers/konto_abgleich.dart` | wann abgeglichen wird (Anmeldung/Start, alle 5 Min., Knopf); `kontoAbgleichStarterProvider` in `app.dart` |
+| `test/cloud_abgleich_test.dart` | Abgleich mit Server im Speicher: zwei Geräte, Entfernen, „zu neu", offline |
 | `test/puzzling_buttons_test.dart` | **B.5** — kein roher Material-Button in `lib/features/`. Entstanden, weil `_SicherungKarte` und `_KontoKarte` die Regel unbemerkt gebrochen hatten |
 | `test/auth_service_test.dart` | Fehlercode-Zuordnung (kann **still** brechen: „E-Mail vergeben" → „unbekannter Fehler") + Nachweis, dass ohne Konfiguration nichts geworfen und nichts gesendet wird |
 

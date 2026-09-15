@@ -24,7 +24,7 @@
 | **V — Vokabular-DB (۲۵٬۰۰۰ کلمه)** | Stufen ۱–۵ ✅ · **۸۷ کارت** (۰٫۳٪ از ~۲۶٬۲۰۰) · گلوگاه = سرعت، نه کد | Pipeline کامل و سالم: SUPER-PROMPT v3.0 → `import_inbox/` → `tool/vokabular_import.dart` → اپ. از ۱۴ جولای تا ۱۵ سپتامبر (۲ ماه) فقط چند کلمه اضافه شد ⇒ **فاز A (خودکارسازی) باز شد.** باز: V.2 `vocab.db` (حالا **پیش‌شرط**، نه اختیاری) · اتصال Leitner به imLeitner · V.5 توزیع |
 | ۱۶ — انتشار و QA نهایی | باز | آخرین فاز قبل از launch |
 
-**قدم‌های بعدی (2026-09-15):** ⓪ **فاز S** — ذخیره‌سازی داده‌ی کاربر (S.0a/b/c ✅، S.1 ✅، S.2 ✅، S.3 Schritt 1+2 ✅ · **B-11 ✅ · B-12 ✅ · S.5 ✅** · بعدی: S.3 Schritt 3) ① **فاز A** — A.1/A.2/A.3/A.5 ✅ · A.4 بلاک (مجوز Workflows در توکن) ② **V.2** `vocab.db` — قبل از اینکه تعداد کارت‌ها از چند صد بگذرد، وگرنه startup می‌شکند ③ G3–G6 (استخراج محتوای ۸۴ درس) ④ فاز ۱۶ launch/QA
+**قدم‌های بعدی (2026-09-15):** ⓪ **فاز S** — ذخیره‌سازی داده‌ی کاربر (S.0a/b/c ✅، S.1 ✅، S.2 ✅، S.3 Schritt 1+2 ✅ · **B-11 ✅ · B-12 ✅ · S.5 ✅ · S.3 ✅** · بعدی: S.4 · S.6) ① **فاز A** — A.1/A.2/A.3/A.5 ✅ · A.4 بلاک (مجوز Workflows در توکن) ② **V.2** `vocab.db` — قبل از اینکه تعداد کارت‌ها از چند صد بگذرد، وگرنه startup می‌شکند ③ G3–G6 (استخراج محتوای ۸۴ درس) ④ فاز ۱۶ launch/QA
 
 ---
 
@@ -1075,7 +1075,7 @@ Gleiche Hülle, unterschiedliche Nutzlast. In beiden PLAN-Dateien festgehalten.
         Material-Buttons (`FilledButton`/`OutlinedButton`/`TextButton`/`IconButton`, fünf
         Stellen). Das bricht فاز B (Puzzling). Umgestellt auf `VoxButton`/`VoxIconButton`,
         und die Regel ist jetzt ein Test (siehe فاز B → B.5).
-  - [ ] **S.3 Schritt 3** — Kopie in der Cloud: `vox_backups` schreiben/lesen über **dieselbe**
+  - [x] **S.3 Schritt 3 ✅ (2026-09-15)** — Kopie in der Cloud: `vox_backups` schreiben/lesen über **dieselbe**
         Nutzlast wie S.2 (`nutzer_zustand.dart`), Zusammenführen weiter „höchstes Fach gewinnt".
         ⚠️ **Planänderung 2026-09-15 (Claude, beim Vorbereiten am Code gefunden):** Schritt 3 braucht
         vorher **S.5** (unten). Ohne S.5 wäre der automatische Abgleich fehlerhaft: (a) jede Entfernung
@@ -1086,6 +1086,19 @@ Gleiche Hülle, unterschiedliche Nutzlast. In beiden PLAN-Dateien festgehalten.
         **Form (VOX, anders als Root-in):** Weil VOX zusammenführt statt zu überschreiben, ist der
         Abgleich ein echter Abgleich — holen → zusammenführen → nur bei Änderung hochladen. Kein
         Bestätigungsdialog nötig, denn nichts geht verloren, was nicht ausdrücklich entfernt wurde.
+        **Umgesetzt:**
+        · `core/backup/cloud_abgleich.dart` — Ablauf ohne Supabase (`CloudAblage` austauschbar).
+          Neuere Fassung auf dem Server ⇒ `zuNeu`: weder einspielen noch überschreiben.
+          Gleichheit über geordnetes JSON (der Server ordnet `jsonb` um); `NutzerZustand.toJson()`
+          gibt Listen dafür geordnet aus.
+        · `core/services/cloud_ablage_supabase.dart` — `vox_backups` (Abfrageform aus Root-in).
+        · `features/more/controllers/konto_abgleich.dart` — wann: bei Anmeldung/Start mit Sitzung,
+          alle 5 Minuten, und von Hand. Stumm bei Fehlern; danach `neuLaden()` + Einstellungen neu.
+          `app.dart` hält ihn über `kontoAbgleichStarterProvider` am Leben (ohne Neubau der App).
+        · Einstellungen → Konto: Hinweis, „آخرین کپی" (Serverzeit), Knopf «همگام‌سازی».
+        · 7 Schlüssel FA/EN + Paritätstest; `test/cloud_abgleich_test.dart` (7 Tests, Server im Speicher).
+        ⚠️ **Wirkt erst, wenn Lukas** die Secrets `SUPABASE_URL`/`SUPABASE_ANON_KEY` im vox-Repo
+        setzt und `supabase/vox_tables.sql` einmal ausführt. Bis dahin: keine Rubrik, kein Timer.
   - [ ] **S.3 offen (Entscheidung für BEIDE Apps):** Wie löscht jemand sein Konto, wenn daran
         zwei Apps hängen? Root-in hat `delete_own_account()`; VOX ruft es bewusst noch nicht.
   ⚠️ **Voraussetzung für Schritt 2:** die Secrets `SUPABASE_URL` und `SUPABASE_ANON_KEY` im

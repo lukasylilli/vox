@@ -214,14 +214,23 @@ class NutzerZustand {
       eigeneWoerter.isEmpty &&
       mitgliedschaften.isEmpty;
 
+  /// Listen werden **geordnet** ausgegeben (nach id bzw. Schlüssel), damit
+  /// derselbe Inhalt immer denselben Text ergibt — der Konto-Abgleich
+  /// erkennt daran, dass nichts hochzuladen ist (S.3 Schritt 3).
   Map<String, dynamic> toJson() => {
         'leitner': leitner.map((k, v) => MapEntry(k, v.toJson())),
-        'kategorien': kategorien.map((k) => k.toJson()).toList(),
+        'kategorien': ([...kategorien]..sort((a, b) => a.id.compareTo(b.id)))
+            .map((k) => k.toJson())
+            .toList(),
         'notizen': notizen.map((k, v) => MapEntry(k, v.toJson())),
         'einstellungen': einstellungen,
-        'eigeneWoerter': eigeneWoerter,
-        'mitgliedschaften':
-            mitgliedschaften.values.map((m) => m.toJson()).toList(),
+        'eigeneWoerter': ([...eigeneWoerter]
+              ..sort((a, b) => _wortSchluessel(a).compareTo(_wortSchluessel(b))))
+            .toList(),
+        'mitgliedschaften': (mitgliedschaften.entries.toList()
+              ..sort((a, b) => a.key.compareTo(b.key)))
+            .map((e) => e.value.toJson())
+            .toList(),
       };
 
   static NutzerZustand vonJson(Map<String, dynamic> j) => NutzerZustand(

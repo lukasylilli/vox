@@ -13,6 +13,8 @@ import '../../../core/services/backup_service.dart';
 import '../../../core/utils/install_state.dart';
 import '../../../core/widgets/vox_button.dart';
 import '../../vokabular/controllers/vokabular_user_state.dart';
+import '../../../core/backup/cloud_abgleich.dart';
+import '../controllers/konto_abgleich.dart';
 import '../../wortschatz/controllers/word_controller.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../controllers/settings_controller.dart';
@@ -320,18 +322,41 @@ class _KontoKarteState extends ConsumerState<_KontoKarte> {
   @override
   Widget build(BuildContext context) {
     final account = ref.watch(authAccountProvider).valueOrNull;
+    final abgleich = ref.watch(kontoAbgleichProvider);
 
     return Card(
       child: Padding(
         padding: const EdgeInsets.all(AppSizes.md),
         child: account != null
-            ? _angemeldeteAnsicht(context, account)
+            ? _angemeldeteAnsicht(context, account, abgleich)
             : _anmeldeFormular(context),
       ),
     );
   }
 
-  Widget _angemeldeteAnsicht(BuildContext context, AuthAccount account) => Column(
+  /// Von Hand abgleichen (S.3 Schritt 3). Der automatische Abgleich bleibt
+  /// stumm — nur hier gibt es eine Rückmeldung.
+  Future<void> _jetztAbgleichen() async {
+    final texte = {
+      CloudStatus.ok: AppL10n.t(context, 'account_sync_ok'),
+      CloudStatus.fehlgeschlagen: AppL10n.t(context, 'account_sync_failed'),
+      CloudStatus.zuNeu: AppL10n.t(context, 'account_sync_too_new'),
+      CloudStatus.nichtVerfuegbar: AppL10n.t(context, 'auth_issue_not_configured'),
+    };
+    final status = await ref.read(kontoAbgleichProvider.notifier).abgleichen();
+    _melde(texte[status]!);
+  }
+
+  String _zeitText(BuildContext context, DateTime zeit) {
+    final l = MaterialLocalizations.of(context);
+    final lokal = zeit.toLocal();
+    return '${l.formatShortDate(lokal)} · '
+        '${l.formatTimeOfDay(TimeOfDay.fromDateTime(lokal))}';
+  }
+
+  Widget _angemeldeteAnsicht(BuildContext context, AuthAccount account,
+          KontoAbgleichStand abgleich) =>
+      Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(children: [
@@ -349,6 +374,21 @@ class _KontoKarteState extends ConsumerState<_KontoKarte> {
               ),
             ),
           ]),
+          const SizedBox(height: AppSizes.md),
+          Text(AppL10n.t(context, 'account_sync_hint'),
+              style: Theme.of(context).textTheme.bodySmall),
+          const SizedBox(height: AppSizes.sm),
+          Text(abgleich.zuletzt == null
+              ? AppL10n.t(context, 'account_sync_never')
+              : '${AppL10n.t(context, 'account_sync_last')}: '
+                  '${_zeitText(context, abgleich.zuletzt!)}'),
+          const SizedBox(height: AppSizes.sm),
+          VoxButton.tonal(
+            label    : AppL10n.t(context, 'account_sync_now'),
+            icon     : Icons.sync,
+            loading  : abgleich.laeuft,
+            onPressed: _jetztAbgleichen,
+          ),
           const SizedBox(height: AppSizes.md),
           if (_laeuft)
             const Center(child: CircularProgressIndicator())

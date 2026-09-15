@@ -1,5 +1,6 @@
 // FILE: lib/core/services/auth_service.dart
-// PURPOSE: Nutzerkonten (فاز S / S.3) — **einzige** Stelle im Projekt, die
+// PURPOSE: Nutzerkonten (فاز S / S.3). Neben `cloud_ablage_supabase.dart`
+//          (S.3 Schritt 3, Tabelle vox_backups) die einzige Stelle, die
 //          `supabase_flutter` kennt. Die Oberfläche spricht nur mit
 //          [AuthService].
 //

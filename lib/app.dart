@@ -10,6 +10,7 @@ import 'core/l10n/app_l10n.dart';
 import 'core/utils/formatters.dart';
 import 'core/router/app_router.dart';
 import 'core/theme/app_theme.dart';
+import 'features/more/controllers/konto_abgleich.dart';
 import 'features/more/controllers/settings_controller.dart';
 
 // Removes the glow overscroll effect that looks odd with RTL + Material 3
@@ -26,6 +27,8 @@ class VoxApp extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    // S.3 Schritt 3: Konto-Abgleich im Hintergrund (ohne Konfiguration: nichts).
+    ref.watch(kontoAbgleichStarterProvider);
     final themeMode     = ref.watch(themeModeProvider);
     final settingsAsync = ref.watch(settingsProvider);
 
