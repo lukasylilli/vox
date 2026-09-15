@@ -4,13 +4,14 @@
 //          wirklich liegt. Nach außen gibt es nur `NutzerZustand`
 //          (core/backup/nutzer_zustand.dart).
 //
-// STAND S.0b (2026-09-15): Archivkarten-Leitner liegt jetzt in drift
-// (Tabelle ArchivLeitner), nicht mehr in SharedPreferences. `lesen()` liest
-// SharedPreferences trotzdem noch mit — Nutzer, die die App vor S.0b
+// STAND S.0c (2026-09-16): Archivkarten-Leitner (S.0b) UND Archiv-Listen
+// (S.0c) liegen jetzt in drift (ArchivLeitner bzw. ArchivKategorien/
+// ArchivKategorieWoerter), nicht mehr in SharedPreferences. `lesen()` liest
+// SharedPreferences trotzdem noch mit — Nutzer, die die App vorher
 // installiert haben, haben ihren Stand dort; er wird beim nächsten
-// `anwenden()` automatisch nach ArchivLeitner übernommen (zusammengeführt,
-// nie überschrieben) und der alte Schlüssel danach geleert. Kategorien
-// bleiben vorerst in SharedPreferences (PLAN.md → S.0c).
+// `anwenden()` automatisch übernommen (zusammengeführt, nie überschrieben)
+// und der alte Schlüssel danach geleert. Notizen bleiben in
+// SharedPreferences (Freitext, kein Kandidat für eine eigene Tabelle).
 //
 // WARUM: Ohne diese Schicht müsste jede Sicherung (S.2) und jede
 // Synchronisierung (S.3) beide Ablagen einzeln kennen und alles doppelt
@@ -103,20 +104,39 @@ class UserStateRepository {
       );
     }
 
-    // Kategorien aus beiden Ablagen.
-    final kategorien = <KategorieStand>[];
+    // Kategorien aus ALLEN Quellen.
+    final kategorien = <String, KategorieStand>{};
 
+    // (1) Archiv-Listen — drift (seit S.0c; vorher SharedPreferences).
+    final archivKatZuordnung = await _db.select(_db.archivKategorieWoerter).get();
+    for (final k in await _db.select(_db.archivKategorien).get()) {
+      kategorien[k.id] = KategorieStand(
+        id: k.id,
+        name: k.name,
+        wortIds: archivKatZuordnung
+            .where((z) => z.kategorieId == k.id)
+            .map((z) => z.wortId)
+            .toList(),
+      );
+    }
+
+    // (1b) Übergangspfad: Archiv-Listen, die noch in SharedPreferences liegen
+    // (Geräte von vor S.0c). Nur übernehmen, wenn drift dieselbe id noch
+    // nicht kennt — sonst entscheidet zusammenfuehren() später sauberer.
     final katRoh = _prefs.getString(kVokabKategorienKey);
     if (katRoh != null) {
       for (final e in _jsonListe(katRoh)) {
-        kategorien.add(KategorieStand(
-          id: e['id'] as String? ?? '',
+        final id = e['id'] as String? ?? '';
+        if (id.isEmpty || kategorien.containsKey(id)) continue;
+        kategorien[id] = KategorieStand(
+          id: id,
           name: e['name'] as String? ?? '',
           wortIds: (e['wortIds'] as List?)?.cast<String>() ?? const [],
-        ));
+        );
       }
     }
 
+    // (2) Eigene Listen — drift, wie schon vor S.0c.
     final zuordnung = await _db.select(_db.categoryWords).get();
     for (final k in await _db.select(_db.userCategories).get()) {
       final ids = zuordnung
@@ -125,8 +145,8 @@ class UserStateRepository {
           .whereType<Word>()
           .map((w) => LeitnerStand.eigenesWort(w.german, w.wordType))
           .toList();
-      kategorien.add(KategorieStand(
-          id: '$_eigenPraefix${k.name}', name: k.name, wortIds: ids));
+      final id = '$_eigenPraefix${k.name}';
+      kategorien[id] = KategorieStand(id: id, name: k.name, wortIds: ids);
     }
 
     // Notizen — nur Archiv.
@@ -141,7 +161,7 @@ class UserStateRepository {
 
     return NutzerZustand(
       leitner: leitner,
-      kategorien: kategorien,
+      kategorien: kategorien.values.toList(),
       notizen: notizen,
       einstellungen: {
         for (final k in einstellungsSchluessel)
@@ -231,11 +251,24 @@ class UserStateRepository {
     // dazwischen Fortschritt kosten.
     await _prefs.remove(kVokabLeitnerKey);
 
-    // (3) Kategorien aufteilen.
-    final archivKat = <Map<String, dynamic>>[];
+    // (3) Kategorien aufteilen: Archiv-Listen → drift (seit S.0c), eigene
+    //     Listen → drift wie zuvor. SharedPreferences bekommt hier nichts
+    //     Neues mehr — nur (1b) oben liest von dort noch mit.
     for (final k in zusammen.kategorien) {
       if (!k.id.startsWith(_eigenPraefix)) {
-        archivKat.add({'id': k.id, 'name': k.name, 'wortIds': k.wortIds});
+        await _db.into(_db.archivKategorien).insert(
+              ArchivKategorienCompanion.insert(id: k.id, name: k.name),
+              onConflict: DoUpdate(
+                  (_) => ArchivKategorienCompanion.insert(id: k.id, name: k.name),
+                  target: [_db.archivKategorien.id]),
+            );
+        for (final wortId in k.wortIds) {
+          await _db.into(_db.archivKategorieWoerter).insert(
+                ArchivKategorieWoerterCompanion.insert(
+                    kategorieId: k.id, wortId: wortId),
+                mode: InsertMode.insertOrIgnore,
+              );
+        }
         continue;
       }
       final vorhanden = await (_db.select(_db.userCategories)
@@ -255,7 +288,8 @@ class UserStateRepository {
             );
       }
     }
-    await _prefs.setString(kVokabKategorienKey, jsonEncode(archivKat));
+    // Übergangsschlüssel leeren: der Stand liegt jetzt vollständig in drift.
+    await _prefs.remove(kVokabKategorienKey);
 
     // (4) Notizen.
     await _prefs.setString(

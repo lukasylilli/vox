@@ -174,4 +174,50 @@ void main() {
     }));
     expect((await repo.lesen()).leitner['adjektiv_stolz']!.fach, 5);
   });
+
+  test('S.0c: Archiv-Listen liegen in drift und überstehen einen '
+      'Gerätewechsel wie eigene Wörter', () async {
+    final alt = await geraet();
+    await alt.anwenden(const NutzerZustand(kategorien: [
+      KategorieStand(
+          id: 'archiv_1', name: 'Prüfung', wortIds: ['adjektiv_stolz']),
+    ]));
+
+    final datei = sicherungSchreiben(await alt.lesen());
+    final neu = await geraet();
+    await neu.anwenden(sicherungLesen(datei).zustand);
+
+    final kat = (await neu.lesen()).kategorien.single;
+    expect(kat.id, 'archiv_1');
+    expect(kat.wortIds, ['adjektiv_stolz']);
+  });
+
+  test('S.0c Übergang: Archiv-Listen aus SharedPreferences wandern nach '
+      'drift, der alte Schlüssel wird danach geleert', () async {
+    final repo = await geraet(prefs: {
+      'vokab_user_kategorien_v1':
+          '[{"id":"archiv_1","name":"Prüfung","wortIds":["adjektiv_stolz"]}]',
+    });
+    await repo.anwenden(const NutzerZustand()); // stößt die Übernahme an
+
+    final prefs = await SharedPreferences.getInstance();
+    expect(prefs.getString('vokab_user_kategorien_v1'), isNull);
+
+    final kat = (await repo.lesen()).kategorien.single;
+    expect(kat.name, 'Prüfung');
+    expect(kat.wortIds, ['adjektiv_stolz']);
+  });
+
+  test('S.0c: mehrere Wörter in derselben Archiv-Liste bleiben getrennt '
+      'zählbar (n:m, nicht überschrieben)', () async {
+    final repo = await geraet();
+    await repo.anwenden(const NutzerZustand(kategorien: [
+      KategorieStand(
+          id: 'archiv_1',
+          name: 'Prüfung',
+          wortIds: ['adjektiv_stolz', 'verb_helfen']),
+    ]));
+    final kat = (await repo.lesen()).kategorien.single;
+    expect(kat.wortIds.toSet(), {'adjektiv_stolz', 'verb_helfen'});
+  });
 }
