@@ -26,6 +26,8 @@
 #   Lukas: «منابع همه‌چیز با من، برنامه‌نویسی با تو» ⇒ برای محتوا (گرامر، deckها، …) منبع را از او بخواه.
 #   ⛔ استثنا: کارت‌های کلمه را همیشه Claude طبق «old files Lukasalmani/Wort prompt» می‌سازد — تبدیل منابع Lukas رد شد (2026-09-16).
 #   ⚠️ شناسه‌ی کارت منتشرشده در assets/vocab/ هرگز حذف/عوض نشود — لایتنر کاربر به آن اشاره می‌کند.
+# 🌐 2026-09-16 L.3a — زبان شروع: پیش‌فرض انگلیسی، فقط روی دستگاه فارسی‌زبان فارسی.
+#   تنها منبع قاعده: core/l10n/geraete_sprache.dart · انتخاب کاربر در Settings (ui_language) همیشه مقدم.
 # 🎯 وضعیت: ۲۴۴ فایل Dart (۱۶۳ features + ۷۷ core) — analyze سبز
 # فاز V (Vokabular-DB ۲۵k) طراحی شد — کجا کلمات ذخیره می‌شوند + معماری آینده: بخش «فاز V» + Services
 # فازهای اخیر: G1 گرامر-کاتالوگ ✅ · B دکمه‌ها (Puzzling) ✅ · L زبان-فقط-Settings ✅
@@ -352,6 +354,12 @@ app_l10n.dart   [x]  — themeModeProvider (StateProvider<ThemeMode>، default: 
                        supportedLocales = [Locale('fa'), Locale('en')]
                        AppL10n.isFa(context) → bool (فاز L — برای widget های فرزند)
                        زبان واقعی از settingsProvider.uiLanguage می‌آید (app.dart → locale:)
+                       activeLang پیش‌فرض 'en' (L.3a — قبل از اولین build)
+geraete_sprache.dart [x] — L.3a (2026-09-16) **تنها منبع زبان شروع**: GeraeteSprache.aus(locales)
+                       → 'fa' فقط اگر اولین زبانِ پشتیبانی‌شده‌ی دستگاه fa/prs باشد، وگرنه 'en'
+                       (rueckfall). GeraeteSprache.aktuell = PlatformDispatcher.locales.
+                       استفاده: settings_controller._load (بدون ui_language) + app.dart (حین بارگذاری).
+                       نتیجه ذخیره نمی‌شود — تا انتخاب کاربر، دنبال دستگاه. تست: geraete_sprache_test.dart
                        ✅ Phase 7 (2026-06-30): 100+ keys — همه UI strings استاتیک localize شدند
                        ✅ فاز L کامل (2026-07-07): کاتالوگ ۲۵۱=۲۵۱ کلید (پاریتی صفر اختلاف؛
                        کلیدهای جدید: pronunciation/conjugation/etymology/common_errors/
@@ -1084,7 +1092,7 @@ die Karten sind 3.0.
 | drift/SQLite-WASM (IndexedDB, DB `vox`) | `LeitnerCards` (alte Wortschatz-Wörter) · `Words`/`Books`/`WordBooks` · `UserCategories`/`CategoryWords` | `core/database/app_database.dart` |
 | drift (seit S.0b/S.0c, App liest es seit **B-11**) | `ArchivLeitner` · `ArchivKategorien` · `ArchivKategorieWoerter` (Archivkarten) | Zugriff nur über `core/backup/user_state_repository.dart` |
 | SharedPreferences (localStorage) | `vokab_user_notizen_v1` (echte Ablage) · `vokab_user_leitner_v1` / `vokab_user_kategorien_v1` (nur Altbestand — wird beim Laden übernommen und geleert) | Schlüssel-Konstanten in `core/backup/user_state_repository.dart` |
-| SharedPreferences (localStorage) | `theme_mode`, `tts_rate`, `tts_language`, `current_level`, `daily_goal_min`, `ui_language` | `features/more/controllers/settings_controller.dart` |
+| SharedPreferences (localStorage) | `theme_mode`, `tts_rate`, `tts_language`, `current_level`, `daily_goal_min`, `ui_language` (fehlt ⇒ Gerätesprache, L.3a) | `features/more/controllers/settings_controller.dart` |
 
 ✅ **S.0b+S.0c (2026-09-16): Archivkarten-Leitner UND Archiv-Listen liegen jetzt in drift**
 (`ArchivLeitner` bzw. `ArchivKategorien`/`ArchivKategorieWoerter`), nicht mehr in
@@ -1099,6 +1107,7 @@ die Fassade, die allein `NutzerZustand` nach außen zeigt.
 |---|---|
 | `core/utils/persistent_storage.dart` (+ `_io`/`_web`) | **S.1 ✅** — bittet den Browser um dauerhaften Speicher; bedingter Export wie `external_link_opener`. Aus Root-in kopiert, Herkunft (Repo/Pfad/Commit) im Dateikopf. ⚠️ Der `_web`-Teil ist eine **zeichengleiche** Kopie — beim Nachziehen nicht umbenennen |
 | `core/utils/install_state.dart` (+ `install_hinweis.dart`, `_io`/`_web`) | **S.1b ✅** — erkennt, ob VOX als Web-App installiert ist, sonst Anleitung je Plattform. Der Aufzählungstyp liegt bewusst in einer eigenen Datei (sonst Import-Kreis mit der Weiche) |
+| `core/utils/dokument_sprache.dart` (+ `_io`/`_web`) | **L.3a ✅** (2026-09-16) — setzt `<html lang>` auf die aktive Oberflächensprache (aus `app.dart`), damit der Browser keine falsche Übersetzung anbietet. Bedingter Export wie `external_link_opener`. `web/index.html` startet mit `lang="en"` |
 | `features/more/screens/settings_screen.dart` → `_SpeicherKarte` | zeigt diese Einladung unter «داده‌ی من» |
 | `test/l10n_paritaet_test.dart` | hält FA/EN-Schlüssel synchron. MaterialApp-Aufbau **muss** `Global*Localizations` nutzen — `Default*Localizations` kennen kein Farsi |
 | `core/backup/nutzer_zustand.dart` | **S.0a-1 ✅ — DER VERTRAG.** Was einem Nutzer gehört + Hülle `{version, exportedAt, app, payload}` + `zusammenfuehren()` („höchstes Fach gewinnt"). Reines Dart, ohne drift/prefs/Flutter. ⚠️ Leitner-IDs sind Text (`adjektiv_stolz`, `eigen:<wort>\|<wortart>`) — die drift-Nummer gehört NIE in eine Sicherung |

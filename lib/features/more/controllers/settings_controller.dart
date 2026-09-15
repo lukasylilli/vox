@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../../../core/l10n/geraete_sprache.dart';
+
 // ── Keys ─────────────────────────────────────────────────────────────────────
 abstract class _K {
   static const themeMode        = 'theme_mode';      // 0=system,1=light,2=dark
@@ -12,7 +14,7 @@ abstract class _K {
   static const ttsLanguage      = 'tts_language';    // 'de-DE' | 'de-AT' | 'de-CH'
   static const currentLevel     = 'current_level';   // 'a1'..'c2'
   static const dailyGoalMin     = 'daily_goal_min';  // int minutes per day
-  static const uiLanguage       = 'ui_language';     // 'fa' | 'en'
+  static const uiLanguage       = 'ui_language';     // 'fa' | 'en' — fehlt = Gerätesprache
 }
 
 // ── Model ─────────────────────────────────────────────────────────────────────
@@ -23,7 +25,7 @@ class AppSettings {
     this.ttsLanguage     = 'de-DE',
     this.currentLevel    = 'a1',
     this.dailyGoalMinutes = 15,
-    this.uiLanguage      = 'fa',
+    this.uiLanguage      = GeraeteSprache.rueckfall,
   });
 
   final ThemeMode themeMode;
@@ -67,8 +69,16 @@ class SettingsNotifier extends AsyncNotifier<AppSettings> {
         ttsLanguage         : _prefs.getString(_K.ttsLanguage) ?? 'de-DE',
         currentLevel        : _prefs.getString(_K.currentLevel) ?? 'a1',
         dailyGoalMinutes    : _prefs.getInt(_K.dailyGoalMin) ?? 15,
-        uiLanguage          : _prefs.getString(_K.uiLanguage) ?? 'fa',
+        // L.3: ohne eigene Wahl folgt die Oberfläche dem Gerät
+        // (Englisch, außer das Gerät spricht Persisch) — siehe geraete_sprache.dart.
+        uiLanguage          : _gespeicherteSprache() ?? GeraeteSprache.aktuell,
       );
+
+  /// Nur 'fa' oder 'en' zählen als echte Wahl; alles andere wird ignoriert.
+  String? _gespeicherteSprache() {
+    final wert = _prefs.getString(_K.uiLanguage);
+    return (wert == 'fa' || wert == 'en') ? wert : null;
+  }
 
   Future<void> setThemeMode(ThemeMode mode) async {
     await _prefs.setInt(_K.themeMode, mode.index);

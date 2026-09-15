@@ -5,7 +5,7 @@
 
 abstract final class Formatters {
   /// فاز L: von app.dart bei Locale-Wechsel gesetzt — steuert Ziffern & Datumstexte.
-  static bool useFa = true;
+  static bool useFa = false;
 
   // ── Persian digits ─────────────────────────────────────────────────────────
 

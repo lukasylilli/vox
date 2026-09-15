@@ -29,7 +29,7 @@ class AppL10n {
 
   /// Aktive Sprache ohne BuildContext (Services/Notifications).
   /// Wird in app.dart bei jedem Locale-Wechsel gesetzt.
-  static String activeLang = 'fa';
+  static String activeLang = 'en';
 
   /// Statische Übersetzung ohne context (Services).
   static String ts(String key) =>
