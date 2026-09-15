@@ -5,30 +5,16 @@
 //          oder auf den Schlüsselnamen zurück — der Nutzer sieht dann rohen
 //          Text wie "storage_ok_title". Dieser Test macht das sichtbar,
 //          BEVOR es veröffentlicht wird.
+//
+// Aufbau der MaterialApp bewusst 1:1 wie in test/vokabular_test.dart —
+// mit den Global*Localizations aus flutter_localizations. Die
+// Default*Localizations kennen kein Farsi und lassen den Test scheitern.
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:vox/core/l10n/app_l10n.dart';
 
 void main() {
-  // Sammelt über einen echten Widget-Baum je Sprache die Ausgaben ein: t()
-  // braucht einen BuildContext, die interne Map ist privat.
-  Future<String> hole(WidgetTester tester, String sprache, String key) async {
-    late String ergebnis;
-    await tester.pumpWidget(MaterialApp(
-      locale: Locale(sprache),
-      supportedLocales: AppL10n.supportedLocales,
-      localizationsDelegates: const [
-        DefaultMaterialLocalizations.delegate,
-        DefaultWidgetsLocalizations.delegate,
-      ],
-      home: Builder(builder: (context) {
-        ergebnis = AppL10n.t(context, key);
-        return const SizedBox.shrink();
-      }),
-    ));
-    return ergebnis;
-  }
-
   // Die Schlüssel aus فاز S. Wächst die Liste, wächst der Schutz.
   const schluessel = [
     'section_storage',
@@ -41,8 +27,27 @@ void main() {
     'storage_how_desktop',
   ];
 
-  testWidgets('Speicher-Texte gibt es in beiden Sprachen und sie sind '
-      'nicht identisch mit dem Schlüsselnamen', (tester) async {
+  // t() braucht einen BuildContext, die Textmap selbst ist privat — deshalb
+  // über einen echten Widget-Baum lesen.
+  Future<String> hole(WidgetTester tester, String sprache, String key) async {
+    late String ergebnis;
+    await tester.pumpWidget(MaterialApp(
+      locale: Locale(sprache),
+      supportedLocales: AppL10n.supportedLocales,
+      localizationsDelegates: const [
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ],
+      home: Builder(builder: (context) {
+        ergebnis = AppL10n.t(context, key);
+        return const SizedBox.shrink();
+      }),
+    ));
+    return ergebnis;
+  }
+
+  testWidgets('Speicher-Texte gibt es in beiden Sprachen', (tester) async {
     for (final k in schluessel) {
       for (final sprache in ['fa', 'en']) {
         final wert = await hole(tester, sprache, k);
@@ -54,8 +59,7 @@ void main() {
     }
   });
 
-  testWidgets('FA und EN sind wirklich verschiedene Texte (nicht kopiert)',
-      (tester) async {
+  testWidgets('FA und EN sind wirklich verschiedene Texte', (tester) async {
     for (final k in schluessel) {
       final fa = await hole(tester, 'fa', k);
       final en = await hole(tester, 'en', k);
