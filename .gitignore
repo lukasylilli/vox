@@ -38,6 +38,10 @@ app.*.map.json
 # Secrets & credentials — niemals committen
 .env
 .env.*
+# ⚠️ Ausnahme: die Vorlage enthält KEINE Werte, nur die Namen der Schlüssel
+# und die Erklärung dazu (فاز S / S.3). Ohne diese Zeile fiele sie unter
+# `.env.*` und wäre unsichtbar.
+!.env.example
 !.env.example
 *.pem
 *.key

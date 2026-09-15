@@ -24,7 +24,7 @@
 | **V — Vokabular-DB (۲۵٬۰۰۰ کلمه)** | Stufen ۱–۵ ✅ · **۸۷ کارت** (۰٫۳٪ از ~۲۶٬۲۰۰) · گلوگاه = سرعت، نه کد | Pipeline کامل و سالم: SUPER-PROMPT v3.0 → `import_inbox/` → `tool/vokabular_import.dart` → اپ. از ۱۴ جولای تا ۱۵ سپتامبر (۲ ماه) فقط چند کلمه اضافه شد ⇒ **فاز A (خودکارسازی) باز شد.** باز: V.2 `vocab.db` (حالا **پیش‌شرط**، نه اختیاری) · اتصال Leitner به imLeitner · V.5 توزیع |
 | ۱۶ — انتشار و QA نهایی | باز | آخرین فاز قبل از launch |
 
-**قدم‌های بعدی (2026-09-15):** ⓪ **فاز S** — ذخیره‌سازی داده‌ی کاربر (S.1 ✅، S.0 بلاک) ① **فاز A** — A.1/A.2/A.3/A.5 ✅ · A.4 بلاک (مجوز Workflows در توکن) ② **V.2** `vocab.db` — قبل از اینکه تعداد کارت‌ها از چند صد بگذرد، وگرنه startup می‌شکند ③ G3–G6 (استخراج محتوای ۸۴ درس) ④ فاز ۱۶ launch/QA
+**قدم‌های بعدی (2026-09-15):** ⓪ **فاز S** — ذخیره‌سازی داده‌ی کاربر (S.0a/b/c ✅، S.1 ✅، S.2 ✅، S.3 Schritt 1 ✅) ① **فاز A** — A.1/A.2/A.3/A.5 ✅ · A.4 بلاک (مجوز Workflows در توکن) ② **V.2** `vocab.db` — قبل از اینکه تعداد کارت‌ها از چند صد بگذرد، وگرنه startup می‌شکند ③ G3–G6 (استخراج محتوای ۸۴ درس) ④ فاز ۱۶ launch/QA
 
 ---
 
@@ -989,9 +989,44 @@ Gleiche Hülle, unterschiedliche Nutzlast. In beiden PLAN-Dateien festgehalten.
       ⚠️ Zwei eigene Fehler dabei vor dem Push abgefangen: ein unbenutzter Import und
         `context` nach einem `await` (`use_build_context_synchronously`). Alle anzuzeigenden
         Texte werden jetzt VOR der Unterbrechung aufgelöst.
-- [ ] **S.3 Supabase-Konto** — `auth_service.dart` aus Root-in übernehmen (~90 % allgemein);
-      `auth.users` geteilt, aber **jedes Repo besitzt seine eigenen Tabellen**:
-      `schema.sql` bleibt in Root-in, VOX bekommt ein eigenes `supabase/vox_tables.sql`
+- [~] **S.3 Supabase-Konto** — `auth.users` geteilt, aber **jedes Repo besitzt seine eigenen
+      Tabellen**: `schema.sql` bleibt in Root-in, VOX hat ein eigenes `supabase/vox_tables.sql`.
+  - [x] **S.3 Schritt 1 ✅ (2026-09-15)** — das Fundament, ohne dass die laufende App sich ändert:
+        · `lib/core/constants/app_config.dart` — `SUPABASE_URL`/`SUPABASE_ANON_KEY` per
+          `--dart-define`. **Leer heißt: kein Server, kein Konto, kein Netzaufruf** — der
+          Normalfall in Tests und in jedem Bau ohne Secrets. Aus Root-in übernommen; VOX braucht
+          kein `platform_support.dart`, weil es nur eine Plattform gibt (Web).
+        · `lib/core/services/auth_service.dart` — einzige Stelle, die `supabase_flutter` kennt.
+          `AuthIssue`/`authIssueFromCode`/`AuthResult` zeichengleich aus Root-in.
+          ⚠️ **Zwei bewusste Auslassungen gegenüber der Vorlage:** (a) **kein Benutzername** —
+          `profiles` samt Eindeutigkeits-Index gehört Root-in, und keine App schreibt in die
+          Tabellen der anderen; (b) **kein `deleteAccount()`** — es löscht `auth.users` und damit
+          auch den Root-in-Bestand desselben Menschen. Das ist eine Entscheidung für beide Apps
+          zusammen und gehört nicht nebenbei in diese Phase.
+        · `supabase/vox_tables.sql` — Tabelle `vox_backups` (eine Zeile je Konto), Rechte nur für
+          `authenticated`, RLS mit einer Regel je Vorgang, `updated_at` per Trigger vom Server.
+          ⚠️ Der Name ist **nicht** `backups`: diese Tabelle gehört Root-in, und `user_id` ist dort
+          ebenfalls Primärschlüssel — eine geteilte Tabelle hieße, dass eine App die Sicherung der
+          anderen überschreibt. `touch_updated_at()` ist zeichengleich zu `schema.sql`; wer sie
+          ändert, muss BEIDE Dateien ändern.
+        · `test/auth_service_test.dart` — die Fehlercodes (sie können still brechen) und der
+          Nachweis, dass ohne Konfiguration nichts geworfen und nichts ins Netz geschickt wird.
+        · `pubspec.yaml` + `supabase_flutter: ^2.8.0`; `deploy-web.yml` reicht die beiden Secrets
+          als `--dart-define` weiter (fehlend ⇒ leer ⇒ aus, der Bau bleibt grün);
+          `.env.example` erklärt beide Werte, `.gitignore` nimmt sie von `.env.*` aus.
+        · **Noch nichts davon ist verdrahtet:** `main.dart` ruft `initialize()` nicht, es gibt
+          keine Anmelde-Oberfläche. Für den Nutzer ist die App unverändert. Das ist Absicht —
+          Schritt 1 kann nichts kaputtmachen.
+  - [ ] **S.3 Schritt 2** — `main.dart` ruft `AuthService.initialize()` (try/catch wie beim
+        Seeding) + Rubrik «حساب کاربری» in den Einstellungen: anmelden, registrieren, abmelden.
+        Zweisprachig über `AppL10n`, `AuthIssue` wird dort übersetzt — nicht im Dienst.
+  - [ ] **S.3 Schritt 3** — Kopie in der Cloud: `vox_backups` schreiben/lesen über **dieselbe**
+        Nutzlast wie S.2 (`nutzer_zustand.dart`), Zusammenführen weiter „höchstes Fach gewinnt".
+  - [ ] **S.3 offen (Entscheidung für BEIDE Apps):** Wie löscht jemand sein Konto, wenn daran
+        zwei Apps hängen? Root-in hat `delete_own_account()`; VOX ruft es bewusst noch nicht.
+  ⚠️ **Voraussetzung für Schritt 2:** die Secrets `SUPABASE_URL` und `SUPABASE_ANON_KEY` im
+  vox-Repo (Settings → Secrets and variables → Actions) und `supabase/vox_tables.sql` einmal im
+  SQL-Editor des Supabase-Projekts ausgeführt. Bis dahin bleibt alles wirkungslos — aber heil.
 - [ ] **S.4** Ehrlicher Hinweis in den Einstellungen, solange S.2/S.3 fehlen
 
 **Planänderung 2026-09-15 — S.0a, damit die Blockade nicht alles aufhält.**
