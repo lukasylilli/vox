@@ -1069,8 +1069,10 @@ die Karten sind 3.0.
 | SharedPreferences (localStorage) | `vokab_user_leitner_v1` · `vokab_user_kategorien_v1` · `vokab_user_notizen_v1` | `features/vokabular/controllers/vokabular_user_state.dart` |
 | SharedPreferences (localStorage) | `theme_mode`, `tts_rate`, `tts_language`, `current_level`, `daily_goal_min`, `ui_language` | `features/more/controllers/settings_controller.dart` |
 
-⚠️ **Leitner-Fortschritt liegt in ZWEI Ablagen in zwei Formaten** (S.0 räumt das auf).
-Wer Sicherung, Sync oder Migration baut, bevor S.0 fertig ist, schreibt alles doppelt.
+⚠️ **Leitner-Fortschritt liegt in ZWEI Ablagen in zwei Formaten.**
+✅ Seit S.0a (2026-09-15) merkt das aber nur noch **eine** Datei: `core/backup/user_state_repository.dart`.
+**Neuer Code fasst diese Ablagen nicht mehr direkt an** — er geht über die Fassade und kennt nur
+`NutzerZustand`. S.0b vereinheitlicht später das Innere, ohne dass darüber etwas bricht.
 ⚠️ `core/services/backup_service.dart` ist ein **Stub ohne Code** — es gibt heute keine Sicherung.
 ⚠️ Drei Orte, EIN Zuhause: Browser = Zuhause, Server + Datei = nur Wiederherstellung.
    Die App liest nie direkt von Server oder Datei. Konfliktregel: **höchstes Leitner-Fach gewinnt.**
@@ -1083,6 +1085,8 @@ Wer Sicherung, Sync oder Migration baut, bevor S.0 fertig ist, schreibt alles do
 | `test/l10n_paritaet_test.dart` | hält FA/EN-Schlüssel synchron. MaterialApp-Aufbau **muss** `Global*Localizations` nutzen — `Default*Localizations` kennen kein Farsi |
 | `core/backup/nutzer_zustand.dart` | **S.0a-1 ✅ — DER VERTRAG.** Was einem Nutzer gehört + Hülle `{version, exportedAt, app, payload}` + `zusammenfuehren()` („höchstes Fach gewinnt"). Reines Dart, ohne drift/prefs/Flutter. ⚠️ Leitner-IDs sind Text (`adjektiv_stolz`, `eigen:<wort>\|<wortart>`) — die drift-Nummer gehört NIE in eine Sicherung |
 | `test/nutzer_zustand_test.dart` | 12 Fälle, darunter: älterer Stand mit höherem Fach gewinnt; a+b == b+a; Notizen werden nie zusammengeklebt |
+| `core/backup/user_state_repository.dart` | **S.0a-2 ✅ — DIE FASSADE.** Einzige Stelle, die weiß, dass der Nutzerzustand auf zwei Ablagen liegt. `lesen()` / `anwenden()`. Löscht nie etwas; sichert nur Einstellungen aus `einstellungsSchluessel` |
+| `test/user_state_repository_test.dart` | prüft gegen eine echte In-Memory-Datenbank, u. a. simulierter Gerätewechsel und doppeltes Einspielen |
 | `core/services/backup_service.dart` | **S.2 offen** — Export/Import, heute nur Kommentar |
 | `test/persistent_storage_test.dart` | prüft, dass auf der Dart-VM die io-Fassung greift |
 

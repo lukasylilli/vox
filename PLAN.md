@@ -981,10 +981,22 @@ reines Dart, kein Codegen:
       `adjektiv_stolz`, eigene Wörter `eigen:<wort>|<wortart>` (genau der eindeutige Schlüssel
       der Tabelle `Words`). Die fortlaufende `id` bezeichnet auf einem anderen Gerät ein anderes
       Wort — sie darf niemals in eine Sicherung geraten.
-- [ ] **S.0a-2 `user_state_repository.dart`** — die Fassade verdrahten: liest/schreibt
-      `NutzerZustand` gegen die heutigen zwei Ablagen (drift + SharedPreferences).
-      Ab dann kennt alles oberhalb nur noch den Vertrag.
-- [ ] ~~S.0a~~ (alt) `features/vokabular/data/user_state_repository.dart` — die **einzige** Stelle, über
+- [x] **S.0a-2 `core/backup/user_state_repository.dart`** ✅ (2026-09-15, CI grün) — die Fassade.
+      `lesen()` holt beide Ablagen in EINEN `NutzerZustand`; `anwenden()` führt einen
+      eingehenden Stand ein (immer über `zusammenfuehren`, also „höchstes Fach gewinnt") und
+      verteilt ihn wieder korrekt: Archivkarten → SharedPreferences, eigene Wörter/Listen/
+      Leitner-Karten → drift.
+      · **Nichts wird je gelöscht** — eine Wiederherstellung darf nie Fortschritt kosten.
+      · Einstellungen werden über eine **ausdrückliche Liste** gesichert
+        (`einstellungsSchluessel`), damit kein technischer Marker wie `vocab_seed_version`
+        in eine Sicherung gerät.
+      · Die Prefs-Schlüssel sind jetzt öffentlich (`kVokabLeitnerKey` …) und werden von
+        Store und Fassade geteilt — keine zweite Kopie.
+      · Tests gegen eine ECHTE Datenbank im Speicher (`AppDatabase.forTesting`), darunter
+        ein simulierter **Gerätewechsel** (Sicherung schreiben → leeres Gerät → einspielen)
+        und ein Nachweis, dass zweimaliges Einspielen nichts verdoppelt.
+⇒ **Ab hier kennt alles oberhalb nur noch `NutzerZustand`.** S.2 und S.3 fassen die Ablagen
+  nicht mehr an; S.0b tauscht später nur noch das Innere dieser einen Datei. — die **einzige** Stelle, über
       die künftig Nutzerzustand gelesen und geschrieben wird. Heute liegt darunter weiterhin
       beides (drift + SharedPreferences); nach außen sieht es aus wie eine Ablage.
 - [ ] **S.0b** (nach dem Workflow-Recht): die Ablage unter der Fassade auf drift umstellen.
