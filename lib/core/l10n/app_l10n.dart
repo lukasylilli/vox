@@ -53,6 +53,17 @@ class AppL10n {
 
   static const _s = <String, Map<String, String>>{
     'fa': {
+      // فاز S — پشتیبان‌گیری
+      'backup_title'        : 'پشتیبان',
+      'backup_sub'          : 'یک فایل از پیشرفتت بگیر و هر وقت خواستی برگردان.',
+      'backup_export'       : 'گرفتن فایل پشتیبان',
+      'backup_import'       : 'برگرداندن از فایل',
+      'backup_saved'        : 'فایل ذخیره شد',
+      'backup_restored'     : 'برگردانده شد',
+      'backup_cancelled'    : 'لغو شد',
+      'backup_merge_hint'   : 'برگرداندن هیچ چیزی را پاک نمی‌کند؛ با داده‌ی فعلی ادغام می‌شود و جعبه‌ی بالاتر می‌ماند.',
+      'backup_words_leitner': 'کلمه در جعبه‌ی لایتنر',
+      'backup_words_own'    : 'کلمه‌ی شخصی',
       // فاز S — ذخیره‌سازی و ایمنی داده
       'section_storage'     : 'داده‌ی من',
       'storage_ok_title'    : 'روی صفحه‌ی اصلی نصب شده',
@@ -641,6 +652,17 @@ class AppL10n {
       'view_all_n_phrases'        : 'مشاهده همه {n} عبارت',
     },
     'en': {
+      // فاز S — backup
+      'backup_title'        : 'Backup',
+      'backup_sub'          : 'Save your progress to a file and restore it whenever you need.',
+      'backup_export'       : 'Save a backup file',
+      'backup_import'       : 'Restore from a file',
+      'backup_saved'        : 'File saved',
+      'backup_restored'     : 'Restored',
+      'backup_cancelled'    : 'Cancelled',
+      'backup_merge_hint'   : 'Restoring never deletes anything — it merges with what you have and keeps the higher box.',
+      'backup_words_leitner': 'words in your Leitner boxes',
+      'backup_words_own'    : 'own words',
       // فاز S — storage safety
       'section_storage'     : 'My data',
       'storage_ok_title'    : 'Installed on your home screen',
