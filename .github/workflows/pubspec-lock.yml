@@ -1,0 +1,70 @@
+# FILE: .github/workflows/pubspec-lock.yml
+# ZWECK: `flutter pub get` aus der Ferne ausführen und das aktualisierte
+#        `pubspec.lock` committen.
+#
+# WARUM DAS EXISTIERT: Claude hat kein Flutter im Container (PLAN.md →
+# Arbeitsweise) und kann `pub get` nicht selbst ausführen. Ohne diesen
+# Arbeitsablauf bliebe das Lockfile nach jeder Änderung an `pubspec.yaml`
+# hinter dem zurück, was der Bau tatsächlich benutzt — und dann entscheidet
+# der Zufall des Auflösungszeitpunkts, welche Fassungen im veröffentlichten
+# Bundle landen. Dieselbe Bauart wie `build-runner.yml`, nur für die
+# Abhängigkeiten statt für den generierten Code.
+#
+# ⚠️ Das Lockfile ist in diesem Projekt nicht kosmetisch: `web/sqlite3.wasm`
+# und `web/drift_worker.js` müssen zu den dort festgehaltenen drift- und
+# sqlite3-Fassungen passen (README → Datenbank). Wandert drift hier hoch,
+# müssen die beiden Web-Dateien mitwandern.
+#
+# Committet NUR, wenn `flutter analyze` UND `flutter test` danach grün sind.
+# Sonst bleibt das Repository unverändert und der Lauf endet rot.
+name: pubspec.lock auffrischen
+
+on:
+  workflow_dispatch:
+    inputs:
+      grund:
+        description: "Wofür (nur für das Protokoll, z. B. 'S.3: supabase_flutter')"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pubspec-lock
+  cancel-in-progress: false
+
+jobs:
+  auffrischen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: 3.44.6
+          cache: true
+
+      - name: Abhängigkeiten auflösen
+        run: flutter pub get
+
+      - name: Analyze (vor dem Commit — nichts Kaputtes veröffentlichen)
+        run: flutter analyze --no-pub --no-fatal-infos
+
+      - name: Test
+        run: flutter test --no-pub
+
+      - name: Committen
+        run: |
+          if [ -z "$(git status --porcelain pubspec.lock)" ]; then
+            echo "### pubspec.lock war schon aktuell" >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git config user.name  "vox-pubspec-lock"
+          git config user.email "actions@github.com"
+          git add pubspec.lock
+          git commit -m "pubspec.lock: Abhaengigkeiten aufgeloest${{ inputs.grund != '' && format(' ({0})', inputs.grund) || '' }}"
+          git push
+          echo "### Committet" >> "$GITHUB_STEP_SUMMARY"
+          git show --stat -1 >> "$GITHUB_STEP_SUMMARY"
