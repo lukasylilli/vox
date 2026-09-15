@@ -10,9 +10,11 @@ import 'dart:convert';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-const _kLeitnerKey = 'vokab_user_leitner_v1';
-const _kKategorienKey = 'vokab_user_kategorien_v1';
-const _kNotizenKey = 'vokab_user_notizen_v1';
+// Öffentlich, damit die Fassade (core/backup/user_state_repository.dart)
+// dieselben Schlüssel benutzt und nicht eine zweite Kopie pflegt (Puzzling).
+const kVokabLeitnerKey = 'vokab_user_leitner_v1';
+const kVokabKategorienKey = 'vokab_user_kategorien_v1';
+const kVokabNotizenKey = 'vokab_user_notizen_v1';
 
 class VokabLeitnerEintrag {
   final int box;
@@ -93,9 +95,9 @@ class VokabularUserStore extends Notifier<VokabularUserState> {
 
   Future<void> _load() async {
     _prefs = await SharedPreferences.getInstance();
-    final leitnerRaw = _prefs.getString(_kLeitnerKey);
-    final katRaw = _prefs.getString(_kKategorienKey);
-    final notizenRaw = _prefs.getString(_kNotizenKey);
+    final leitnerRaw = _prefs.getString(kVokabLeitnerKey);
+    final katRaw = _prefs.getString(kVokabKategorienKey);
+    final notizenRaw = _prefs.getString(kVokabNotizenKey);
     state = VokabularUserState(
       leitner: leitnerRaw == null
           ? const {}
@@ -114,10 +116,10 @@ class VokabularUserStore extends Notifier<VokabularUserState> {
     );
   }
 
-  Future<void> _saveLeitner() => _prefs.setString(_kLeitnerKey,
+  Future<void> _saveLeitner() => _prefs.setString(kVokabLeitnerKey,
       jsonEncode(state.leitner.map((k, v) => MapEntry(k, v.toJson()))));
 
-  Future<void> _saveKategorien() => _prefs.setString(_kKategorienKey,
+  Future<void> _saveKategorien() => _prefs.setString(kVokabKategorienKey,
       jsonEncode(state.kategorien.map((k) => k.toJson()).toList()));
 
   /// Rein → Box 1, Review sofort fällig; raus → Eintrag weg (Fortschritt weg).
@@ -147,7 +149,7 @@ class VokabularUserStore extends Notifier<VokabularUserState> {
     return neu;
   }
 
-  Future<void> _saveNotizen() => _prefs.setString(_kNotizenKey,
+  Future<void> _saveNotizen() => _prefs.setString(kVokabNotizenKey,
       jsonEncode(state.notizen.map((k, v) => MapEntry(k, v.toJson()))));
 
   /// Notiz speichern; leerer Text (oder null) → Notiz löschen.
