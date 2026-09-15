@@ -2363,6 +2363,446 @@ class ArchivLeitnerCompanion extends UpdateCompanion<ArchivLeitnerData> {
   }
 }
 
+class $ArchivKategorienTable extends ArchivKategorien
+    with TableInfo<$ArchivKategorienTable, ArchivKategorienData> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $ArchivKategorienTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _idMeta = const VerificationMeta('id');
+  @override
+  late final GeneratedColumn<String> id = GeneratedColumn<String>(
+    'id',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _nameMeta = const VerificationMeta('name');
+  @override
+  late final GeneratedColumn<String> name = GeneratedColumn<String>(
+    'name',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  @override
+  List<GeneratedColumn> get $columns => [id, name];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'archiv_kategorien';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<ArchivKategorienData> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('id')) {
+      context.handle(_idMeta, id.isAcceptableOrUnknown(data['id']!, _idMeta));
+    } else if (isInserting) {
+      context.missing(_idMeta);
+    }
+    if (data.containsKey('name')) {
+      context.handle(
+        _nameMeta,
+        name.isAcceptableOrUnknown(data['name']!, _nameMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_nameMeta);
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {id};
+  @override
+  ArchivKategorienData map(Map<String, dynamic> data, {String? tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return ArchivKategorienData(
+      id: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}id'],
+      )!,
+      name: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}name'],
+      )!,
+    );
+  }
+
+  @override
+  $ArchivKategorienTable createAlias(String alias) {
+    return $ArchivKategorienTable(attachedDatabase, alias);
+  }
+}
+
+class ArchivKategorienData extends DataClass
+    implements Insertable<ArchivKategorienData> {
+  final String id;
+  final String name;
+  const ArchivKategorienData({required this.id, required this.name});
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['id'] = Variable<String>(id);
+    map['name'] = Variable<String>(name);
+    return map;
+  }
+
+  ArchivKategorienCompanion toCompanion(bool nullToAbsent) {
+    return ArchivKategorienCompanion(id: Value(id), name: Value(name));
+  }
+
+  factory ArchivKategorienData.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return ArchivKategorienData(
+      id: serializer.fromJson<String>(json['id']),
+      name: serializer.fromJson<String>(json['name']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'id': serializer.toJson<String>(id),
+      'name': serializer.toJson<String>(name),
+    };
+  }
+
+  ArchivKategorienData copyWith({String? id, String? name}) =>
+      ArchivKategorienData(id: id ?? this.id, name: name ?? this.name);
+  ArchivKategorienData copyWithCompanion(ArchivKategorienCompanion data) {
+    return ArchivKategorienData(
+      id: data.id.present ? data.id.value : this.id,
+      name: data.name.present ? data.name.value : this.name,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('ArchivKategorienData(')
+          ..write('id: $id, ')
+          ..write('name: $name')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(id, name);
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is ArchivKategorienData &&
+          other.id == this.id &&
+          other.name == this.name);
+}
+
+class ArchivKategorienCompanion extends UpdateCompanion<ArchivKategorienData> {
+  final Value<String> id;
+  final Value<String> name;
+  final Value<int> rowid;
+  const ArchivKategorienCompanion({
+    this.id = const Value.absent(),
+    this.name = const Value.absent(),
+    this.rowid = const Value.absent(),
+  });
+  ArchivKategorienCompanion.insert({
+    required String id,
+    required String name,
+    this.rowid = const Value.absent(),
+  }) : id = Value(id),
+       name = Value(name);
+  static Insertable<ArchivKategorienData> custom({
+    Expression<String>? id,
+    Expression<String>? name,
+    Expression<int>? rowid,
+  }) {
+    return RawValuesInsertable({
+      if (id != null) 'id': id,
+      if (name != null) 'name': name,
+      if (rowid != null) 'rowid': rowid,
+    });
+  }
+
+  ArchivKategorienCompanion copyWith({
+    Value<String>? id,
+    Value<String>? name,
+    Value<int>? rowid,
+  }) {
+    return ArchivKategorienCompanion(
+      id: id ?? this.id,
+      name: name ?? this.name,
+      rowid: rowid ?? this.rowid,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (id.present) {
+      map['id'] = Variable<String>(id.value);
+    }
+    if (name.present) {
+      map['name'] = Variable<String>(name.value);
+    }
+    if (rowid.present) {
+      map['rowid'] = Variable<int>(rowid.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('ArchivKategorienCompanion(')
+          ..write('id: $id, ')
+          ..write('name: $name, ')
+          ..write('rowid: $rowid')
+          ..write(')'))
+        .toString();
+  }
+}
+
+class $ArchivKategorieWoerterTable extends ArchivKategorieWoerter
+    with TableInfo<$ArchivKategorieWoerterTable, ArchivKategorieWoerterData> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $ArchivKategorieWoerterTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _kategorieIdMeta = const VerificationMeta(
+    'kategorieId',
+  );
+  @override
+  late final GeneratedColumn<String> kategorieId = GeneratedColumn<String>(
+    'kategorie_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'REFERENCES archiv_kategorien (id)',
+    ),
+  );
+  static const VerificationMeta _wortIdMeta = const VerificationMeta('wortId');
+  @override
+  late final GeneratedColumn<String> wortId = GeneratedColumn<String>(
+    'wort_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  @override
+  List<GeneratedColumn> get $columns => [kategorieId, wortId];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'archiv_kategorie_woerter';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<ArchivKategorieWoerterData> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('kategorie_id')) {
+      context.handle(
+        _kategorieIdMeta,
+        kategorieId.isAcceptableOrUnknown(
+          data['kategorie_id']!,
+          _kategorieIdMeta,
+        ),
+      );
+    } else if (isInserting) {
+      context.missing(_kategorieIdMeta);
+    }
+    if (data.containsKey('wort_id')) {
+      context.handle(
+        _wortIdMeta,
+        wortId.isAcceptableOrUnknown(data['wort_id']!, _wortIdMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_wortIdMeta);
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {kategorieId, wortId};
+  @override
+  ArchivKategorieWoerterData map(
+    Map<String, dynamic> data, {
+    String? tablePrefix,
+  }) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return ArchivKategorieWoerterData(
+      kategorieId: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}kategorie_id'],
+      )!,
+      wortId: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}wort_id'],
+      )!,
+    );
+  }
+
+  @override
+  $ArchivKategorieWoerterTable createAlias(String alias) {
+    return $ArchivKategorieWoerterTable(attachedDatabase, alias);
+  }
+}
+
+class ArchivKategorieWoerterData extends DataClass
+    implements Insertable<ArchivKategorieWoerterData> {
+  final String kategorieId;
+  final String wortId;
+  const ArchivKategorieWoerterData({
+    required this.kategorieId,
+    required this.wortId,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['kategorie_id'] = Variable<String>(kategorieId);
+    map['wort_id'] = Variable<String>(wortId);
+    return map;
+  }
+
+  ArchivKategorieWoerterCompanion toCompanion(bool nullToAbsent) {
+    return ArchivKategorieWoerterCompanion(
+      kategorieId: Value(kategorieId),
+      wortId: Value(wortId),
+    );
+  }
+
+  factory ArchivKategorieWoerterData.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return ArchivKategorieWoerterData(
+      kategorieId: serializer.fromJson<String>(json['kategorieId']),
+      wortId: serializer.fromJson<String>(json['wortId']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'kategorieId': serializer.toJson<String>(kategorieId),
+      'wortId': serializer.toJson<String>(wortId),
+    };
+  }
+
+  ArchivKategorieWoerterData copyWith({String? kategorieId, String? wortId}) =>
+      ArchivKategorieWoerterData(
+        kategorieId: kategorieId ?? this.kategorieId,
+        wortId: wortId ?? this.wortId,
+      );
+  ArchivKategorieWoerterData copyWithCompanion(
+    ArchivKategorieWoerterCompanion data,
+  ) {
+    return ArchivKategorieWoerterData(
+      kategorieId: data.kategorieId.present
+          ? data.kategorieId.value
+          : this.kategorieId,
+      wortId: data.wortId.present ? data.wortId.value : this.wortId,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('ArchivKategorieWoerterData(')
+          ..write('kategorieId: $kategorieId, ')
+          ..write('wortId: $wortId')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(kategorieId, wortId);
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is ArchivKategorieWoerterData &&
+          other.kategorieId == this.kategorieId &&
+          other.wortId == this.wortId);
+}
+
+class ArchivKategorieWoerterCompanion
+    extends UpdateCompanion<ArchivKategorieWoerterData> {
+  final Value<String> kategorieId;
+  final Value<String> wortId;
+  final Value<int> rowid;
+  const ArchivKategorieWoerterCompanion({
+    this.kategorieId = const Value.absent(),
+    this.wortId = const Value.absent(),
+    this.rowid = const Value.absent(),
+  });
+  ArchivKategorieWoerterCompanion.insert({
+    required String kategorieId,
+    required String wortId,
+    this.rowid = const Value.absent(),
+  }) : kategorieId = Value(kategorieId),
+       wortId = Value(wortId);
+  static Insertable<ArchivKategorieWoerterData> custom({
+    Expression<String>? kategorieId,
+    Expression<String>? wortId,
+    Expression<int>? rowid,
+  }) {
+    return RawValuesInsertable({
+      if (kategorieId != null) 'kategorie_id': kategorieId,
+      if (wortId != null) 'wort_id': wortId,
+      if (rowid != null) 'rowid': rowid,
+    });
+  }
+
+  ArchivKategorieWoerterCompanion copyWith({
+    Value<String>? kategorieId,
+    Value<String>? wortId,
+    Value<int>? rowid,
+  }) {
+    return ArchivKategorieWoerterCompanion(
+      kategorieId: kategorieId ?? this.kategorieId,
+      wortId: wortId ?? this.wortId,
+      rowid: rowid ?? this.rowid,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (kategorieId.present) {
+      map['kategorie_id'] = Variable<String>(kategorieId.value);
+    }
+    if (wortId.present) {
+      map['wort_id'] = Variable<String>(wortId.value);
+    }
+    if (rowid.present) {
+      map['rowid'] = Variable<int>(rowid.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('ArchivKategorieWoerterCompanion(')
+          ..write('kategorieId: $kategorieId, ')
+          ..write('wortId: $wortId, ')
+          ..write('rowid: $rowid')
+          ..write(')'))
+        .toString();
+  }
+}
+
 class $GrammarLessonsTable extends GrammarLessons
     with TableInfo<$GrammarLessonsTable, GrammarLesson> {
   @override
@@ -4637,6 +5077,11 @@ abstract class _$AppDatabase extends GeneratedDatabase {
   late final $CategoryWordsTable categoryWords = $CategoryWordsTable(this);
   late final $LeitnerCardsTable leitnerCards = $LeitnerCardsTable(this);
   late final $ArchivLeitnerTable archivLeitner = $ArchivLeitnerTable(this);
+  late final $ArchivKategorienTable archivKategorien = $ArchivKategorienTable(
+    this,
+  );
+  late final $ArchivKategorieWoerterTable archivKategorieWoerter =
+      $ArchivKategorieWoerterTable(this);
   late final $GrammarLessonsTable grammarLessons = $GrammarLessonsTable(this);
   late final $MemorizeItemsTable memorizeItems = $MemorizeItemsTable(this);
   late final $ReadingTextsTable readingTexts = $ReadingTextsTable(this);
@@ -4655,6 +5100,8 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     categoryWords,
     leitnerCards,
     archivLeitner,
+    archivKategorien,
+    archivKategorieWoerter,
     grammarLessons,
     memorizeItems,
     readingTexts,
@@ -6995,6 +7442,555 @@ typedef $$ArchivLeitnerTableProcessedTableManager =
       ArchivLeitnerData,
       PrefetchHooks Function()
     >;
+typedef $$ArchivKategorienTableCreateCompanionBuilder =
+    ArchivKategorienCompanion Function({
+      required String id,
+      required String name,
+      Value<int> rowid,
+    });
+typedef $$ArchivKategorienTableUpdateCompanionBuilder =
+    ArchivKategorienCompanion Function({
+      Value<String> id,
+      Value<String> name,
+      Value<int> rowid,
+    });
+
+final class $$ArchivKategorienTableReferences
+    extends
+        BaseReferences<
+          _$AppDatabase,
+          $ArchivKategorienTable,
+          ArchivKategorienData
+        > {
+  $$ArchivKategorienTableReferences(
+    super.$_db,
+    super.$_table,
+    super.$_typedResult,
+  );
+
+  static MultiTypedResultKey<
+    $ArchivKategorieWoerterTable,
+    List<ArchivKategorieWoerterData>
+  >
+  _archivKategorieWoerterRefsTable(_$AppDatabase db) =>
+      MultiTypedResultKey.fromTable(
+        db.archivKategorieWoerter,
+        aliasName:
+            'archiv_kategorien__id__archiv_kategorie_woerter__kategorie_id',
+      );
+
+  $$ArchivKategorieWoerterTableProcessedTableManager
+  get archivKategorieWoerterRefs {
+    final manager = $$ArchivKategorieWoerterTableTableManager(
+      $_db,
+      $_db.archivKategorieWoerter,
+    ).filter((f) => f.kategorieId.id.sqlEquals($_itemColumn<String>('id')!));
+
+    final cache = $_typedResult.readTableOrNull(
+      _archivKategorieWoerterRefsTable($_db),
+    );
+    return ProcessedTableManager(
+      manager.$state.copyWith(prefetchedData: cache),
+    );
+  }
+}
+
+class $$ArchivKategorienTableFilterComposer
+    extends Composer<_$AppDatabase, $ArchivKategorienTable> {
+  $$ArchivKategorienTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<String> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get name => $composableBuilder(
+    column: $table.name,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  Expression<bool> archivKategorieWoerterRefs(
+    Expression<bool> Function($$ArchivKategorieWoerterTableFilterComposer f) f,
+  ) {
+    final $$ArchivKategorieWoerterTableFilterComposer composer =
+        $composerBuilder(
+          composer: this,
+          getCurrentColumn: (t) => t.id,
+          referencedTable: $db.archivKategorieWoerter,
+          getReferencedColumn: (t) => t.kategorieId,
+          builder:
+              (
+                joinBuilder, {
+                $addJoinBuilderToRootComposer,
+                $removeJoinBuilderFromRootComposer,
+              }) => $$ArchivKategorieWoerterTableFilterComposer(
+                $db: $db,
+                $table: $db.archivKategorieWoerter,
+                $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+                joinBuilder: joinBuilder,
+                $removeJoinBuilderFromRootComposer:
+                    $removeJoinBuilderFromRootComposer,
+              ),
+        );
+    return f(composer);
+  }
+}
+
+class $$ArchivKategorienTableOrderingComposer
+    extends Composer<_$AppDatabase, $ArchivKategorienTable> {
+  $$ArchivKategorienTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<String> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get name => $composableBuilder(
+    column: $table.name,
+    builder: (column) => ColumnOrderings(column),
+  );
+}
+
+class $$ArchivKategorienTableAnnotationComposer
+    extends Composer<_$AppDatabase, $ArchivKategorienTable> {
+  $$ArchivKategorienTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<String> get id =>
+      $composableBuilder(column: $table.id, builder: (column) => column);
+
+  GeneratedColumn<String> get name =>
+      $composableBuilder(column: $table.name, builder: (column) => column);
+
+  Expression<T> archivKategorieWoerterRefs<T extends Object>(
+    Expression<T> Function($$ArchivKategorieWoerterTableAnnotationComposer a) f,
+  ) {
+    final $$ArchivKategorieWoerterTableAnnotationComposer composer =
+        $composerBuilder(
+          composer: this,
+          getCurrentColumn: (t) => t.id,
+          referencedTable: $db.archivKategorieWoerter,
+          getReferencedColumn: (t) => t.kategorieId,
+          builder:
+              (
+                joinBuilder, {
+                $addJoinBuilderToRootComposer,
+                $removeJoinBuilderFromRootComposer,
+              }) => $$ArchivKategorieWoerterTableAnnotationComposer(
+                $db: $db,
+                $table: $db.archivKategorieWoerter,
+                $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+                joinBuilder: joinBuilder,
+                $removeJoinBuilderFromRootComposer:
+                    $removeJoinBuilderFromRootComposer,
+              ),
+        );
+    return f(composer);
+  }
+}
+
+class $$ArchivKategorienTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $ArchivKategorienTable,
+          ArchivKategorienData,
+          $$ArchivKategorienTableFilterComposer,
+          $$ArchivKategorienTableOrderingComposer,
+          $$ArchivKategorienTableAnnotationComposer,
+          $$ArchivKategorienTableCreateCompanionBuilder,
+          $$ArchivKategorienTableUpdateCompanionBuilder,
+          (ArchivKategorienData, $$ArchivKategorienTableReferences),
+          ArchivKategorienData,
+          PrefetchHooks Function({bool archivKategorieWoerterRefs})
+        > {
+  $$ArchivKategorienTableTableManager(
+    _$AppDatabase db,
+    $ArchivKategorienTable table,
+  ) : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$ArchivKategorienTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$ArchivKategorienTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$ArchivKategorienTableAnnotationComposer($db: db, $table: table),
+          updateCompanionCallback:
+              ({
+                Value<String> id = const Value.absent(),
+                Value<String> name = const Value.absent(),
+                Value<int> rowid = const Value.absent(),
+              }) => ArchivKategorienCompanion(id: id, name: name, rowid: rowid),
+          createCompanionCallback:
+              ({
+                required String id,
+                required String name,
+                Value<int> rowid = const Value.absent(),
+              }) => ArchivKategorienCompanion.insert(
+                id: id,
+                name: name,
+                rowid: rowid,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map(
+                (e) => (
+                  e.readTable(table),
+                  $$ArchivKategorienTableReferences(db, table, e),
+                ),
+              )
+              .toList(),
+          prefetchHooksCallback: ({archivKategorieWoerterRefs = false}) {
+            return PrefetchHooks(
+              db: db,
+              explicitlyWatchedTables: [
+                if (archivKategorieWoerterRefs) db.archivKategorieWoerter,
+              ],
+              addJoins: null,
+              getPrefetchedDataCallback: (items) async {
+                return [
+                  if (archivKategorieWoerterRefs)
+                    await $_getPrefetchedData<
+                      ArchivKategorienData,
+                      $ArchivKategorienTable,
+                      ArchivKategorieWoerterData
+                    >(
+                      currentTable: table,
+                      referencedTable: $$ArchivKategorienTableReferences
+                          ._archivKategorieWoerterRefsTable(db),
+                      managerFromTypedResult: (p0) =>
+                          $$ArchivKategorienTableReferences(
+                            db,
+                            table,
+                            p0,
+                          ).archivKategorieWoerterRefs,
+                      referencedItemsForCurrentItem: (item, referencedItems) =>
+                          referencedItems.where(
+                            (e) => e.kategorieId == item.id,
+                          ),
+                      typedResults: items,
+                    ),
+                ];
+              },
+            );
+          },
+        ),
+      );
+}
+
+typedef $$ArchivKategorienTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $ArchivKategorienTable,
+      ArchivKategorienData,
+      $$ArchivKategorienTableFilterComposer,
+      $$ArchivKategorienTableOrderingComposer,
+      $$ArchivKategorienTableAnnotationComposer,
+      $$ArchivKategorienTableCreateCompanionBuilder,
+      $$ArchivKategorienTableUpdateCompanionBuilder,
+      (ArchivKategorienData, $$ArchivKategorienTableReferences),
+      ArchivKategorienData,
+      PrefetchHooks Function({bool archivKategorieWoerterRefs})
+    >;
+typedef $$ArchivKategorieWoerterTableCreateCompanionBuilder =
+    ArchivKategorieWoerterCompanion Function({
+      required String kategorieId,
+      required String wortId,
+      Value<int> rowid,
+    });
+typedef $$ArchivKategorieWoerterTableUpdateCompanionBuilder =
+    ArchivKategorieWoerterCompanion Function({
+      Value<String> kategorieId,
+      Value<String> wortId,
+      Value<int> rowid,
+    });
+
+final class $$ArchivKategorieWoerterTableReferences
+    extends
+        BaseReferences<
+          _$AppDatabase,
+          $ArchivKategorieWoerterTable,
+          ArchivKategorieWoerterData
+        > {
+  $$ArchivKategorieWoerterTableReferences(
+    super.$_db,
+    super.$_table,
+    super.$_typedResult,
+  );
+
+  static $ArchivKategorienTable _kategorieIdTable(_$AppDatabase db) =>
+      db.archivKategorien.createAlias(
+        'archiv_kategorie_woerter__kategorie_id__archiv_kategorien__id',
+      );
+
+  $$ArchivKategorienTableProcessedTableManager get kategorieId {
+    final $_column = $_itemColumn<String>('kategorie_id')!;
+
+    final manager = $$ArchivKategorienTableTableManager(
+      $_db,
+      $_db.archivKategorien,
+    ).filter((f) => f.id.sqlEquals($_column));
+    final item = $_typedResult.readTableOrNull(_kategorieIdTable($_db));
+    if (item == null) return manager;
+    return ProcessedTableManager(
+      manager.$state.copyWith(prefetchedData: [item]),
+    );
+  }
+}
+
+class $$ArchivKategorieWoerterTableFilterComposer
+    extends Composer<_$AppDatabase, $ArchivKategorieWoerterTable> {
+  $$ArchivKategorieWoerterTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<String> get wortId => $composableBuilder(
+    column: $table.wortId,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  $$ArchivKategorienTableFilterComposer get kategorieId {
+    final $$ArchivKategorienTableFilterComposer composer = $composerBuilder(
+      composer: this,
+      getCurrentColumn: (t) => t.kategorieId,
+      referencedTable: $db.archivKategorien,
+      getReferencedColumn: (t) => t.id,
+      builder:
+          (
+            joinBuilder, {
+            $addJoinBuilderToRootComposer,
+            $removeJoinBuilderFromRootComposer,
+          }) => $$ArchivKategorienTableFilterComposer(
+            $db: $db,
+            $table: $db.archivKategorien,
+            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+            joinBuilder: joinBuilder,
+            $removeJoinBuilderFromRootComposer:
+                $removeJoinBuilderFromRootComposer,
+          ),
+    );
+    return composer;
+  }
+}
+
+class $$ArchivKategorieWoerterTableOrderingComposer
+    extends Composer<_$AppDatabase, $ArchivKategorieWoerterTable> {
+  $$ArchivKategorieWoerterTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<String> get wortId => $composableBuilder(
+    column: $table.wortId,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  $$ArchivKategorienTableOrderingComposer get kategorieId {
+    final $$ArchivKategorienTableOrderingComposer composer = $composerBuilder(
+      composer: this,
+      getCurrentColumn: (t) => t.kategorieId,
+      referencedTable: $db.archivKategorien,
+      getReferencedColumn: (t) => t.id,
+      builder:
+          (
+            joinBuilder, {
+            $addJoinBuilderToRootComposer,
+            $removeJoinBuilderFromRootComposer,
+          }) => $$ArchivKategorienTableOrderingComposer(
+            $db: $db,
+            $table: $db.archivKategorien,
+            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+            joinBuilder: joinBuilder,
+            $removeJoinBuilderFromRootComposer:
+                $removeJoinBuilderFromRootComposer,
+          ),
+    );
+    return composer;
+  }
+}
+
+class $$ArchivKategorieWoerterTableAnnotationComposer
+    extends Composer<_$AppDatabase, $ArchivKategorieWoerterTable> {
+  $$ArchivKategorieWoerterTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<String> get wortId =>
+      $composableBuilder(column: $table.wortId, builder: (column) => column);
+
+  $$ArchivKategorienTableAnnotationComposer get kategorieId {
+    final $$ArchivKategorienTableAnnotationComposer composer = $composerBuilder(
+      composer: this,
+      getCurrentColumn: (t) => t.kategorieId,
+      referencedTable: $db.archivKategorien,
+      getReferencedColumn: (t) => t.id,
+      builder:
+          (
+            joinBuilder, {
+            $addJoinBuilderToRootComposer,
+            $removeJoinBuilderFromRootComposer,
+          }) => $$ArchivKategorienTableAnnotationComposer(
+            $db: $db,
+            $table: $db.archivKategorien,
+            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+            joinBuilder: joinBuilder,
+            $removeJoinBuilderFromRootComposer:
+                $removeJoinBuilderFromRootComposer,
+          ),
+    );
+    return composer;
+  }
+}
+
+class $$ArchivKategorieWoerterTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $ArchivKategorieWoerterTable,
+          ArchivKategorieWoerterData,
+          $$ArchivKategorieWoerterTableFilterComposer,
+          $$ArchivKategorieWoerterTableOrderingComposer,
+          $$ArchivKategorieWoerterTableAnnotationComposer,
+          $$ArchivKategorieWoerterTableCreateCompanionBuilder,
+          $$ArchivKategorieWoerterTableUpdateCompanionBuilder,
+          (ArchivKategorieWoerterData, $$ArchivKategorieWoerterTableReferences),
+          ArchivKategorieWoerterData,
+          PrefetchHooks Function({bool kategorieId})
+        > {
+  $$ArchivKategorieWoerterTableTableManager(
+    _$AppDatabase db,
+    $ArchivKategorieWoerterTable table,
+  ) : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$ArchivKategorieWoerterTableFilterComposer(
+                $db: db,
+                $table: table,
+              ),
+          createOrderingComposer: () =>
+              $$ArchivKategorieWoerterTableOrderingComposer(
+                $db: db,
+                $table: table,
+              ),
+          createComputedFieldComposer: () =>
+              $$ArchivKategorieWoerterTableAnnotationComposer(
+                $db: db,
+                $table: table,
+              ),
+          updateCompanionCallback:
+              ({
+                Value<String> kategorieId = const Value.absent(),
+                Value<String> wortId = const Value.absent(),
+                Value<int> rowid = const Value.absent(),
+              }) => ArchivKategorieWoerterCompanion(
+                kategorieId: kategorieId,
+                wortId: wortId,
+                rowid: rowid,
+              ),
+          createCompanionCallback:
+              ({
+                required String kategorieId,
+                required String wortId,
+                Value<int> rowid = const Value.absent(),
+              }) => ArchivKategorieWoerterCompanion.insert(
+                kategorieId: kategorieId,
+                wortId: wortId,
+                rowid: rowid,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map(
+                (e) => (
+                  e.readTable(table),
+                  $$ArchivKategorieWoerterTableReferences(db, table, e),
+                ),
+              )
+              .toList(),
+          prefetchHooksCallback: ({kategorieId = false}) {
+            return PrefetchHooks(
+              db: db,
+              explicitlyWatchedTables: [],
+              addJoins:
+                  <
+                    T extends TableManagerState<
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic
+                    >
+                  >(state) {
+                    if (kategorieId) {
+                      state =
+                          state.withJoin(
+                                currentTable: table,
+                                currentColumn: table.kategorieId,
+                                referencedTable:
+                                    $$ArchivKategorieWoerterTableReferences
+                                        ._kategorieIdTable(db),
+                                referencedColumn:
+                                    $$ArchivKategorieWoerterTableReferences
+                                        ._kategorieIdTable(db)
+                                        .id,
+                              )
+                              as T;
+                    }
+
+                    return state;
+                  },
+              getPrefetchedDataCallback: (items) async {
+                return [];
+              },
+            );
+          },
+        ),
+      );
+}
+
+typedef $$ArchivKategorieWoerterTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $ArchivKategorieWoerterTable,
+      ArchivKategorieWoerterData,
+      $$ArchivKategorieWoerterTableFilterComposer,
+      $$ArchivKategorieWoerterTableOrderingComposer,
+      $$ArchivKategorieWoerterTableAnnotationComposer,
+      $$ArchivKategorieWoerterTableCreateCompanionBuilder,
+      $$ArchivKategorieWoerterTableUpdateCompanionBuilder,
+      (ArchivKategorieWoerterData, $$ArchivKategorieWoerterTableReferences),
+      ArchivKategorieWoerterData,
+      PrefetchHooks Function({bool kategorieId})
+    >;
 typedef $$GrammarLessonsTableCreateCompanionBuilder =
     GrammarLessonsCompanion Function({
       Value<int> id,
@@ -8464,6 +9460,13 @@ class $AppDatabaseManager {
       $$LeitnerCardsTableTableManager(_db, _db.leitnerCards);
   $$ArchivLeitnerTableTableManager get archivLeitner =>
       $$ArchivLeitnerTableTableManager(_db, _db.archivLeitner);
+  $$ArchivKategorienTableTableManager get archivKategorien =>
+      $$ArchivKategorienTableTableManager(_db, _db.archivKategorien);
+  $$ArchivKategorieWoerterTableTableManager get archivKategorieWoerter =>
+      $$ArchivKategorieWoerterTableTableManager(
+        _db,
+        _db.archivKategorieWoerter,
+      );
   $$GrammarLessonsTableTableManager get grammarLessons =>
       $$GrammarLessonsTableTableManager(_db, _db.grammarLessons);
   $$MemorizeItemsTableTableManager get memorizeItems =>
