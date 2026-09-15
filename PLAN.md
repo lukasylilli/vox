@@ -875,6 +875,24 @@ löschen" trifft alles, und ein anderes Gerät kennt nichts.
 kann per Anordnung über Nacht verschwinden (Supabase war Februar 2026 in Indien acht Tage lang
 gesperrt, Auth komplett tot). Der Offline-Weg muss vollständig und selbsttragend bleiben.
 
+**❗ Zwei Klarstellungen zum Wort-Prompt (2026-09-15, am Code geprüft):**
+1. **Ein Wort = EINE Karte, nicht zwei.** `old files Lukasalmani/Wort prompt` (SUPER-PROMPT v3.0),
+   Regel 2: alle Übersetzungsfelder sind zweisprachige Objekte `{ fa: …, en: … }` in
+   **derselben** Datei. Regel 10 hält ausdrücklich fest, dass die App laut Einstellungen
+   **genau eine** Sprache zeigt, nie fa und en zugleich; `vokabUeb()` in
+   `features/vokabular/widgets/wortseite_bausteine.dart` setzt das über `AppL10n.isFa` um.
+   ⚠️ Karten je Sprache getrennt zu erzeugen würde die Kosten verdoppeln und kollidierende
+   IDs erzeugen (`adjektiv_stolz` zweimal) — `vokabular_import.dart` verwürfe die zweite.
+2. **Das Aussehen der Wortseite steht NICHT im Prompt.** Der Prompt sagt in seinem Kopf
+   ausdrücklich, er enthalte nur linguistische Daten und keine Icon-, Farb- oder
+   Render-Informationen, weil die App sie berechnet. Was er sehr wohl vorgibt, sind
+   Reihenfolge und Verhalten: Gegenteil direkt nach Synonyme und ohne Beispielsatz
+   (Regel 10), `wortnetz` als klickbare Verweise (Regel 13), Beispielsätze als Vorlage für
+   Lückentext (Regel 9), Perfekt und Genitiv baut die App selbst (Regel 7).
+   Das tatsächliche Aussehen liegt in `core/grammatikon/grammatikon_spec.dart` (Farben,
+   Formen), `features/vokabular/screens/wort_seite_screen.dart` (Abschnittsfolge) und
+   `wortseite_bausteine.dart`. Code und Prompt stimmen überein — geprüft 2026-09-15.
+
 **Konfliktregel (Nutzerentscheidung 2026-09-15): „höchstes Fach gewinnt".**
 Beim Zusammenführen zweier Stände wird **nicht** der jüngste Zeitstempel genommen, sondern je
 Karte das höhere Leitner-Fach. Begründung: Lernfortschritt geht nur vorwärts; so geht Offline-
@@ -894,8 +912,15 @@ Gleiche Hülle, unterschiedliche Nutzlast. In beiden PLAN-Dateien festgehalten.
       (+ `_io`/`_web`, bedingter Export wie `external_link_opener`), aus `main.dart` gerufen. Aus
       Root-in übernommen, Herkunft (Repo/Pfad/Commit) im Dateikopf, `tool/check_vendored.py`
       meldet Abweichungen. Test: `test/persistent_storage_test.dart`.
-      ⏳ **Offen bleibt der PWA-Teil**: Einladung „zur Startseite hinzufügen". Erst das nimmt
-      Safari die Sieben-Tage-Regel — `persist()` allein ist nur eine Bitte.
+- [x] **S.1b Einladung zur Installation** ✅ (2026-09-15, CI grün) — `core/utils/install_state.dart`
+      (+ `install_hinweis.dart` mit dem Aufzählungstyp, damit kein Import-Kreis entsteht,
+      + `_io`/`_web`). Erkennt über `matchMedia('(display-mode: standalone)')` und `userAgent`,
+      ob VOX schon installiert ist, und zeigt sonst in den Einstellungen unter «داده‌ی من» die
+      passende Anleitung (iOS/Android/Desktop). Bewusst **ohne** `beforeinstallprompt` und ohne
+      Promises — je weniger Web-API, desto weniger kann brechen. Texte zweisprachig
+      (8 neue Schlüssel in `app_l10n.dart`), abgesichert durch `test/l10n_paritaet_test.dart`.
+      **Warum das mehr bringt als `persist()`:** installierte Web-Apps sind von Safaris
+      Sieben-Tage-Aufräumen ausgenommen; `persist()` ist nur eine Bitte.
 
   **⚠️ Zwei Lehren aus dem roten Lauf dabei (2026-09-15) — beide wiederholbar:**
   · **Mehrere Dateien gehören in EINEN Commit.** Claude hat sie einzeln über die
