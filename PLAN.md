@@ -1013,17 +1013,31 @@ reines Dart, kein Codegen:
       · Tests gegen eine ECHTE Datenbank im Speicher (`AppDatabase.forTesting`), darunter
         ein simulierter **Gerätewechsel** (Sicherung schreiben → leeres Gerät → einspielen)
         und ein Nachweis, dass zweimaliges Einspielen nichts verdoppelt.
-⇒ **Ab hier kennt alles oberhalb nur noch `NutzerZustand`.** S.2 und S.3 fassen die Ablagen
-  nicht mehr an; S.0b tauscht später nur noch das Innere dieser einen Datei. — die **einzige** Stelle, über
-      die künftig Nutzerzustand gelesen und geschrieben wird. Heute liegt darunter weiterhin
-      beides (drift + SharedPreferences); nach außen sieht es aus wie eine Ablage.
-- [ ] **S.0b** (nach dem Workflow-Recht): die Ablage unter der Fassade auf drift umstellen.
-      Alles oberhalb — S.2, S.3 — bleibt unberührt.
+⇒ **Seit S.0a kennt alles oberhalb nur noch `NutzerZustand`.** S.2 fasst die Ablagen nicht
+  direkt an; es geht ausschließlich über die Fassade.
 
-⇒ Damit gilt weiter „nichts wird doppelt geschrieben": S.2 und S.3 kennen nur die Fassade.
-**Zwingend bleibt: S.0a vor S.2 und S.3.** Die ursprüngliche Regel lautete:
+- [x] **S.0b** ✅ (2026-09-16, CI grün) — die Ablage unter der Fassade auf drift umgestellt.
+      Neue Tabelle `ArchivLeitner` (Text-Primärschlüssel `wortId`, dieselben IDs wie in
+      `nutzer_zustand.dart`), Migration `schemaVersion` 2 → 3. `user_state_repository.dart`
+      liest/schreibt Archivkarten jetzt aus drift statt SharedPreferences; ein **Übergangspfad**
+      übernimmt einmalig den alten `vokab_user_leitner_v1`-Stand (falls vorhanden, ohne
+      etwas Neueres in drift zu überschreiben — dieselbe „höchstes Fach gewinnt"-Regel) und
+      leert danach den alten Schlüssel.
+      Kategorien bleiben vorerst in SharedPreferences (kleinerer, nicht dringender Rest —
+      offen als **S.0c**, kein Blocker für S.2/S.3).
+      ⚠️ **Werkzeug dafür neu gebaut:** `.github/workflows/build-runner.yml` — führt
+      `dart run build_runner build` aus der Ferne aus und committet nur bei grünem
+      `analyze`+`test`. Nützlich für jede künftige Drift-Änderung, nicht nur S.0b.
+      ⚠️ **Zwei eigene Fehler dabei, beide vor dem grünen Lauf behoben:**
+      erstens ein Zwischen-Commit (Schema ohne den dazu passenden generierten Code), der
+      genau EINEN `deploy-web`-Lauf rot machte, bevor der Codegen-Lauf folgte — Lehre:
+      Schema-Änderung und `build_runner`-Commit so dicht wie möglich hintereinander schicken;
+      zweitens ein Python-Skript, das zwei neue Tests HINTER die schließende Klammer von
+      `main()` statt davor eingefügt hat (Syntaxfehler, `flutter analyze` rot). Lehre: beim
+      Anhängen an eine bestehende Dart-Datei immer die genaue Einfügestelle prüfen, nicht
+      blind ans Dateiende hängen.
 
-**Reihenfolge ist zwingend: S.0 vor S.2 und S.3** — sonst wird jeder Serializer zweimal geschrieben.
+**Zwingend bleibt: S.0a vor S.2 und S.3** — sonst wird jeder Serializer zweimal geschrieben.
 
 ---
 

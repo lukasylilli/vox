@@ -1069,10 +1069,11 @@ die Karten sind 3.0.
 | SharedPreferences (localStorage) | `vokab_user_leitner_v1` · `vokab_user_kategorien_v1` · `vokab_user_notizen_v1` | `features/vokabular/controllers/vokabular_user_state.dart` |
 | SharedPreferences (localStorage) | `theme_mode`, `tts_rate`, `tts_language`, `current_level`, `daily_goal_min`, `ui_language` | `features/more/controllers/settings_controller.dart` |
 
-⚠️ **Leitner-Fortschritt liegt in ZWEI Ablagen in zwei Formaten.**
-✅ Seit S.0a (2026-09-15) merkt das aber nur noch **eine** Datei: `core/backup/user_state_repository.dart`.
-**Neuer Code fasst diese Ablagen nicht mehr direkt an** — er geht über die Fassade und kennt nur
-`NutzerZustand`. S.0b vereinheitlicht später das Innere, ohne dass darüber etwas bricht.
+✅ **S.0b (2026-09-16): Archivkarten-Leitner liegt jetzt in drift** (Tabelle `ArchivLeitner`),
+nicht mehr in SharedPreferences. Ein Übergangspfad in `user_state_repository.dart` übernimmt
+einmalig alte Bestände aus `vokab_user_leitner_v1`. Kategorien liegen noch in SharedPreferences
+(**S.0c**, nicht dringend). **Neuer Code fasst diese Ablagen nie direkt an** — nur über die
+Fassade, die allein `NutzerZustand` nach außen zeigt.
 ⚠️ `core/services/backup_service.dart` ist ein **Stub ohne Code** — es gibt heute keine Sicherung.
 ⚠️ Drei Orte, EIN Zuhause: Browser = Zuhause, Server + Datei = nur Wiederherstellung.
    Die App liest nie direkt von Server oder Datei. Konfliktregel: **höchstes Leitner-Fach gewinnt.**
@@ -1085,7 +1086,8 @@ die Karten sind 3.0.
 | `test/l10n_paritaet_test.dart` | hält FA/EN-Schlüssel synchron. MaterialApp-Aufbau **muss** `Global*Localizations` nutzen — `Default*Localizations` kennen kein Farsi |
 | `core/backup/nutzer_zustand.dart` | **S.0a-1 ✅ — DER VERTRAG.** Was einem Nutzer gehört + Hülle `{version, exportedAt, app, payload}` + `zusammenfuehren()` („höchstes Fach gewinnt"). Reines Dart, ohne drift/prefs/Flutter. ⚠️ Leitner-IDs sind Text (`adjektiv_stolz`, `eigen:<wort>\|<wortart>`) — die drift-Nummer gehört NIE in eine Sicherung |
 | `test/nutzer_zustand_test.dart` | 12 Fälle, darunter: älterer Stand mit höherem Fach gewinnt; a+b == b+a; Notizen werden nie zusammengeklebt |
-| `core/backup/user_state_repository.dart` | **S.0a-2 ✅ — DIE FASSADE.** Einzige Stelle, die weiß, dass der Nutzerzustand auf zwei Ablagen liegt. `lesen()` / `anwenden()`. Löscht nie etwas; sichert nur Einstellungen aus `einstellungsSchluessel` |
+| `core/backup/user_state_repository.dart` | **S.0a-2 ✅, S.0b ✅ — DIE FASSADE.** Einzige Stelle, die weiß, wo der Nutzerzustand liegt (Archivkarten seit S.0b in drift/`ArchivLeitner`, mit Übergangspfad aus SharedPreferences). `lesen()` / `anwenden()`. Löscht nie etwas; sichert nur Einstellungen aus `einstellungsSchluessel` |
+| `.github/workflows/build-runner.yml` | führt `dart run build_runner build` aus der Ferne aus, committet nur bei grünem analyze+test — für jede künftige Drift-Änderung, nicht nur S.0b |
 | `test/user_state_repository_test.dart` | prüft gegen eine echte In-Memory-Datenbank, u. a. simulierter Gerätewechsel und doppeltes Einspielen |
 | `core/services/backup_service.dart` | **S.2 ✅** — `exportieren()` / `einspielen()`. Kennt nur die Fassade und `datei_io`, keine Ablage |
 | `core/backup/datei_io.dart` (+ `_io`/`_web`) | Datei auswählen und ablegen. `textDateiWaehlen` aus Root-in übernommen; `textDateiSpeichern` ist ein Blob-Download — **bewusst ohne share_plus**, damit `pubspec.lock` unberührt bleibt |
