@@ -26,6 +26,18 @@ class Words extends Table {
   TextColumn   get grammarNote      => text().nullable()();
   DateTimeColumn get createdAt      => dateTime().withDefault(currentDateAndTime)();
 
+  // فاز B-10 (2026-09-16): fehlten fürs Grammatikon-Symbol bei drei Wortarten
+  // (PROJECT_MAP.md → wortschatz_grammatikon.dart, "lieber kein Symbol als
+  // ein falsches"). Alle drei nullable — bestehende Zeilen bleiben gültig,
+  // ohne Symbol bis nachgetragen.
+  //   Verb          → regelmaessig, trennbar (blob_wellig vs. kreis vs. doppel_*)
+  //   Präposition   → grammatikDetail = Kasus ("akkusativ"|"dativ"|"genitiv"|"wechsel")
+  //   Konnektor     → grammatikDetail = Untertyp ("koordinierend"|"subordinierend"|
+  //                    "konjunktionaladverb")
+  BoolColumn   get regelmaessig     => boolean().nullable()();
+  BoolColumn   get trennbar         => boolean().nullable()();
+  TextColumn   get grammatikDetail  => text().nullable()();
+
   @override
   List<Set<Column>> get uniqueKeys => [{german, wordType}];
 }
@@ -176,7 +188,7 @@ class AppDatabase extends _$AppDatabase {
   AppDatabase.forTesting(super.e);
 
   @override
-  int get schemaVersion => 4;
+  int get schemaVersion => 5;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -202,6 +214,12 @@ class AppDatabase extends _$AppDatabase {
       if (from < 4) {
         await m.createTable(archivKategorien);
         await m.createTable(archivKategorieWoerter);
+      }
+      // فاز B-10: Grammatikfelder für Verb/Präposition/Konnektor.
+      if (from < 5) {
+        await m.addColumn(words, words.regelmaessig);
+        await m.addColumn(words, words.trennbar);
+        await m.addColumn(words, words.grammatikDetail);
       }
     },
   );
