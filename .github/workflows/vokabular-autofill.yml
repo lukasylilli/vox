@@ -1,0 +1,139 @@
+# FILE: .github/workflows/vokabular-autofill.yml
+# PHASE: فاز A, Schritt A.4 (2026-09-15)
+# ZWECK: Wortkarten automatisch nachfüllen — Generator → echte Prüfung in Dart
+#        → Marken synchronisieren → analyze + test → erst dann committen.
+#
+# Es wird NUR committet, wenn der Import 0 Fehler meldet UND analyze und test
+# grün sind. Sonst endet der Lauf rot und das Repository bleibt unverändert.
+#
+# ⚠️ Voraussetzung: Secret ANTHROPIC_API_KEY (Settings → Secrets and variables
+#    → Actions). Jeder Lauf kostet Geld — die Nutzung steht in der Zusammenfassung.
+# ⚠️ Ein Commit auf main löst deploy-web.yml aus: die neuen Wörter gehen sofort live.
+name: Vokabular auffüllen
+
+on:
+  workflow_dispatch:
+    inputs:
+      anzahl:
+        description: "Wie viele Wörter insgesamt"
+        required: true
+        default: "20"
+      gruppe:
+        description: "Welche Liste"
+        required: true
+        default: "adjektive"
+        type: choice
+        options: [adjektive, verben, nomen]
+      pro_batch:
+        description: "Wörter je API-Aufruf (1–10)"
+        required: true
+        default: "5"
+      dry_run:
+        description: "Nur zeigen, welche Wörter drankämen"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vokabular-autofill     # nie zwei Läufe gleichzeitig — sonst Doppelwörter
+  cancel-in-progress: false
+
+jobs:
+  auffuellen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: 3.44.6
+          cache: true
+
+      - name: Abhängigkeiten
+        run: flutter pub get
+
+      - name: Stand vorher
+        run: |
+          echo '### Stand vorher' >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          python3 tool/backlog.py --stand | tee -a "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Wörter erzeugen
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          echo '### Generator' >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          python3 tool/generate_words.py \
+            --anzahl "${{ inputs.anzahl }}" \
+            --gruppe "${{ inputs.gruppe }}" \
+            --pro-batch "${{ inputs.pro_batch }}" \
+            ${{ inputs.dry_run && '--dry-run' || '' }} \
+            2>&1 | tee -a "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Abbruch bei Probelauf
+        if: ${{ inputs.dry_run }}
+        run: |
+          echo '**Probelauf — nichts erzeugt, nichts committet.**' >> "$GITHUB_STEP_SUMMARY"
+          exit 0
+
+      # Ab hier die verbindliche Prüfung. vokabPruefeKarte() in
+      # lib/features/vokabular/data/vokab_schema.dart entscheidet, nicht Python.
+      - name: Import + Validierung (verbindlich)
+        if: ${{ !inputs.dry_run }}
+        run: |
+          echo '### Import (Dart — verbindlich)' >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          dart run tool/vokabular_import.dart 2>&1 | tee -a "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Marken synchronisieren
+        if: ${{ !inputs.dry_run }}
+        run: |
+          echo '### ✓-Marken' >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          python3 tool/sync_backlog.py 2>&1 | tail -5 | tee -a "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Batch-Dateien aufräumen
+        if: ${{ !inputs.dry_run }}
+        # Quelle der Wahrheit ist assets/vocab/ — die Batches sind Wegwerfware
+        # (import_inbox/README.md). Die README selbst bleibt liegen.
+        run: find import_inbox -name '*.json' -delete
+
+      - name: Analyze
+        if: ${{ !inputs.dry_run }}
+        run: flutter analyze --no-pub --no-fatal-infos
+
+      - name: Test
+        if: ${{ !inputs.dry_run }}
+        run: flutter test --no-pub
+
+      - name: Committen
+        if: ${{ !inputs.dry_run }}
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo '**Nichts Neues** — alle erzeugten Wörter waren schon da.' >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git config user.name  "vox-autofill"
+          git config user.email "actions@github.com"
+          git add assets/vocab "old files Lukasalmani/Wörter"
+          NEU=$(git diff --cached --name-only --diff-filter=A -- assets/vocab | wc -l)
+          git commit -m "vokabular: ${NEU} neue Wörter (${{ inputs.gruppe }}, automatisch)"
+          git push
+          echo "### Ergebnis" >> "$GITHUB_STEP_SUMMARY"
+          echo "**${NEU} neue Wortkarten committet.** deploy-web.yml baut jetzt neu." >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Stand nachher
+        if: ${{ !inputs.dry_run }}
+        run: |
+          echo '### Stand nachher' >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          python3 tool/backlog.py --stand | tee -a "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
