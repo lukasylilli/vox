@@ -166,7 +166,6 @@ class DataSeedService {
 
         final companion = WordsCompanion.insert(
           ausApp      : const Value(true), // S.5: App-Wort, nicht sichern
-        ausApp         : const Value(true), // S.5: App-Wort, nicht sichern
           german      : '$lemma $prep',
           wordType    : wt,
           meaningFa   : meaningFa,

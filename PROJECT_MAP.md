@@ -1153,6 +1153,10 @@ Veröffentlichung.
 - **Artefakte aus Actions sind von Claude aus nicht herunterladbar** (`*.blob.core.windows.net`,
   nicht in der Netz-Freigabe) — dieselbe Grenze wie bei den Logs. Was zurück ins Repository
   soll, muss der Workflow selbst committen, nicht als Artefakt ablegen.
+- **Textersetzung per Skript: Teilzeichenketten beachten.** S.5 (2026-09-15): ein Ersatz für
+  `      final companion` (6 Leerzeichen) traf auch die Zeile mit 8 Leerzeichen — doppelter
+  Parameter, `analyze` rot im build-runner-Lauf. Vor jedem `replace` die Treffer **zeilengenau**
+  zählen (`^` verankern), nicht nur die Anzahl.
 - **Nichts neu erfinden, was im Repo schon funktioniert.** Zwei rote Läufe am 2026-09-15 kamen
   genau daher: in `main.dart` `unawaited`/`catchError` statt des bewährten try/catch, und im
   neuen Test `Default*Localizations` statt der in `test/vokabular_test.dart` erprobten
