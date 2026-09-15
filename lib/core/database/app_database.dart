@@ -119,6 +119,28 @@ class HabitSessions extends Table {
   IntColumn    get durationMinutes => integer().nullable()();
 }
 
+// فاز S.0c (2026-09-16): eigene Listen zu ARCHIVKARTEN — bisher in
+// SharedPreferences unter vokab_user_kategorien_v1. Zwei Tabellen statt einer
+// JSON-Liste, damit Wörter einer Liste einzeln abgefragt werden können (wie
+// bei den eigenen Wörtern in CategoryWords) und weil eine Kategorie beliebig
+// viele Wörter referenziert (n:m) — genau das Muster, das UserCategories/
+// CategoryWords für eigene Wörter schon nutzt.
+class ArchivKategorien extends Table {
+  TextColumn get id   => text()();
+  TextColumn get name => text()();
+
+  @override
+  Set<Column> get primaryKey => {id};
+}
+
+class ArchivKategorieWoerter extends Table {
+  TextColumn get kategorieId => text().references(ArchivKategorien, #id)();
+  TextColumn get wortId      => text()(); // Archivkarten-ID, z. B. adjektiv_stolz
+
+  @override
+  Set<Column> get primaryKey => {kategorieId, wortId};
+}
+
 // فاز S.0b (2026-09-15): Leitner-Stand der ARCHIVKARTEN (die ~26.200 Wörter aus
 // assets/vocab/) — bisher in SharedPreferences unter vokab_user_leitner_v1.
 // Eigener Schlüsseltyp, bewusst getrennt von LeitnerCards: die Archivkarten
@@ -141,6 +163,7 @@ class ArchivLeitner extends Table {
   Words, Books, WordBooks,
   UserCategories, CategoryWords,
   LeitnerCards, ArchivLeitner,
+  ArchivKategorien, ArchivKategorieWoerter,
   GrammarLessons, MemorizeItems,
   ReadingTexts, AudioItems,
   Habits, HabitSessions,
@@ -153,7 +176,7 @@ class AppDatabase extends _$AppDatabase {
   AppDatabase.forTesting(super.e);
 
   @override
-  int get schemaVersion => 3;
+  int get schemaVersion => 4;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -171,6 +194,14 @@ class AppDatabase extends _$AppDatabase {
       // unbedenklich; nichts geht verloren.
       if (from < 3) {
         await m.createTable(archivLeitner);
+      }
+      // فاز S.0c: eigene Listen zu Archivkarten. Wie bei S.0b wandert der
+      // Inhalt von vokab_user_kategorien_v1 NICHT automatisch hierher — das
+      // übernimmt user_state_repository.dart zur Laufzeit (Übergangspfad,
+      // dieselbe „vereinigen statt überschreiben"-Regel wie beim Leitner).
+      if (from < 4) {
+        await m.createTable(archivKategorien);
+        await m.createTable(archivKategorieWoerter);
       }
     },
   );
