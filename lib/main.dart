@@ -5,6 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'app.dart';
 import 'core/database/app_database.dart';
+import 'core/services/auth_service.dart';
 import 'core/services/data_seed_service.dart';
 import 'core/utils/html_loader.dart';
 import 'core/utils/persistent_storage.dart';
@@ -21,6 +22,18 @@ Future<void> main() async {
     debugPrint('Dauerhafter Speicher: $dauerhaft');
   } catch (e) {
     debugPrint('Dauerhafter Speicher konnte nicht erbeten werden: $e');
+  }
+
+  // فاز S / S.3 Schritt 2: Supabase starten, **falls** konfiguriert.
+  // Ohne Secrets (Normalfall in Tests und in jedem Bau ohne --dart-define)
+  // meldet initialize() einfach `false` — nie eine Ausnahme. Trotzdem hier
+  // zusätzlich try/catch wie beim Seeding: ein Fehler in dieser Zeile darf
+  // die App nie am Start hindern.
+  try {
+    final kontoBereit = await const AuthService().initialize();
+    debugPrint('Supabase-Konto bereit: $kontoBereit');
+  } catch (e) {
+    debugPrint('Supabase-Start fehlgeschlagen: $e');
   }
 
   // Seed vocabulary from JSON files into SQLite (runs once on first launch).
