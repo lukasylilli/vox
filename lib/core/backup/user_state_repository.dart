@@ -1,8 +1,16 @@
 // FILE: lib/core/backup/user_state_repository.dart
 // PHASE: فاز S, Schritt S.0a-2 (2026-09-15)
-// PURPOSE: Die Fassade — die EINZIGE Stelle, die weiß, dass der Nutzerzustand
-//          heute auf ZWEI Ablagen verteilt liegt (drift + SharedPreferences).
-//          Nach außen gibt es nur `NutzerZustand` (core/backup/nutzer_zustand.dart).
+// PURPOSE: Die Fassade — die EINZIGE Stelle, die weiß, wo der Nutzerzustand
+//          wirklich liegt. Nach außen gibt es nur `NutzerZustand`
+//          (core/backup/nutzer_zustand.dart).
+//
+// STAND S.0b (2026-09-15): Archivkarten-Leitner liegt jetzt in drift
+// (Tabelle ArchivLeitner), nicht mehr in SharedPreferences. `lesen()` liest
+// SharedPreferences trotzdem noch mit — Nutzer, die die App vor S.0b
+// installiert haben, haben ihren Stand dort; er wird beim nächsten
+// `anwenden()` automatisch nach ArchivLeitner übernommen (zusammengeführt,
+// nie überschrieben) und der alte Schlüssel danach geleert. Kategorien
+// bleiben vorerst in SharedPreferences (PLAN.md → S.0c).
 //
 // WARUM: Ohne diese Schicht müsste jede Sicherung (S.2) und jede
 // Synchronisierung (S.3) beide Ablagen einzeln kennen und alles doppelt
@@ -50,15 +58,28 @@ class UserStateRepository {
     final woerter = await _db.select(_db.words).get();
     final nachId = {for (final w in woerter) w.id: w};
 
-    // Leitner aus BEIDEN Ablagen in eine Map.
+    // Leitner aus ALLEN Quellen in eine Map.
     final leitner = <String, LeitnerStand>{};
 
-    // (1) Archivkarten — SharedPreferences.
+    // (1) Archivkarten — drift (seit S.0b; vorher SharedPreferences).
+    for (final k in await _db.select(_db.archivLeitner).get()) {
+      leitner[k.wortId] = LeitnerStand(
+        wortId: k.wortId,
+        fach: k.boxNumber,
+        naechsteWiederholung: k.nextReview,
+        letzteWiederholung: k.lastReview,
+      );
+    }
+
+    // (1b) Übergangspfad: Archivkarten-Stand, der noch in SharedPreferences
+    // liegt (Geräte von vor S.0b). Nur übernehmen, wenn drift noch nichts
+    // Neueres für dasselbe Wort hat — sonst „höchstes Fach gewinnt" später
+    // in zusammenfuehren() sauberer lösen als hier zweimal zu vergleichen.
     final archivRoh = _prefs.getString(kVokabLeitnerKey);
     if (archivRoh != null) {
       final map = _jsonMap(archivRoh);
       map.forEach((wortId, v) {
-        if (v is! Map) return;
+        if (v is! Map || leitner.containsKey(wortId)) return;
         final e = v.cast<String, dynamic>();
         leitner[wortId] = LeitnerStand(
           wortId: wortId,
@@ -168,9 +189,9 @@ class UserStateRepository {
         LeitnerStand.eigenesWort(w.german, w.wordType): w.id,
     };
 
-    // (2) Leitner aufteilen: Archivkarten in die Einstellungen, eigene Wörter
-    //     in die Datenbank.
-    final archiv = <String, dynamic>{};
+    // (2) Leitner aufteilen: Archivkarten → ArchivLeitner (drift), eigene
+    //     Wörter → LeitnerCards (drift). SharedPreferences bekommt hier
+    //     nichts Neues mehr — nur (1b) liest von dort noch mit.
     for (final e in zusammen.leitner.entries) {
       if (e.key.startsWith(_eigenPraefix)) {
         final wordId = nachSchluessel[e.key];
@@ -192,13 +213,23 @@ class UserStateRepository {
               .write(companion);
         }
       } else {
-        archiv[e.key] = {
-          'box': e.value.fach,
-          'nextReviewDate': e.value.naechsteWiederholung?.toIso8601String(),
-        };
+        final companion = ArchivLeitnerCompanion.insert(
+          wortId: e.key,
+          boxNumber: Value(e.value.fach),
+          nextReview: e.value.naechsteWiederholung ?? DateTime.now(),
+          lastReview: Value(e.value.letzteWiederholung),
+        );
+        await _db.into(_db.archivLeitner).insert(
+              companion,
+              onConflict:
+                  DoUpdate((_) => companion, target: [_db.archivLeitner.wortId]),
+            );
       }
     }
-    await _prefs.setString(kVokabLeitnerKey, jsonEncode(archiv));
+    // Übergangsschlüssel leeren: der Stand liegt jetzt vollständig in drift.
+    // Erst NACH erfolgreichem Schreiben oben — sonst könnte ein Absturz
+    // dazwischen Fortschritt kosten.
+    await _prefs.remove(kVokabLeitnerKey);
 
     // (3) Kategorien aufteilen.
     final archivKat = <Map<String, dynamic>>[];

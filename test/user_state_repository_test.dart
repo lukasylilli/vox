@@ -30,7 +30,8 @@ void main() {
     expect((await repo.lesen()).istLeer, isTrue);
   });
 
-  test('liest beide Ablagen in EINEN Zustand', () async {
+  test('liest alle Quellen in EINEN Zustand '
+      '(Notizen aus prefs, Archiv-Leitner via Übergangspfad)', () async {
     final repo = await geraet(prefs: {
       'vokab_user_leitner_v1':
           '{"adjektiv_stolz":{"box":3,"nextReviewDate":"2026-10-01T00:00:00.000"}}',
@@ -145,3 +146,32 @@ void main() {
     expect(z.einstellungen.containsKey('vocab_seed_version'), isFalse);
   });
 }
+
+  test('S.0b Übergang: Archiv-Leitner aus SharedPreferences wandert nach '
+      'drift, der alte Schlüssel wird danach geleert', () async {
+    final repo = await geraet(prefs: {
+      'vokab_user_leitner_v1': '{"adjektiv_stolz":{"box":3}}',
+    });
+    await repo.anwenden(const NutzerZustand()); // stößt die Übernahme an
+
+    final prefs = await SharedPreferences.getInstance();
+    expect(prefs.getString('vokab_user_leitner_v1'), isNull,
+        reason: 'nach der Übernahme ist der alte Schlüssel überflüssig');
+
+    final z = await repo.lesen();
+    expect(z.leitner['adjektiv_stolz']!.fach, 3,
+        reason: 'der Stand selbst darf beim Umzug nicht verloren gehen');
+  });
+
+  test('S.0b Übergang: drift-Stand gewinnt, wenn er neuer ist als der alte '
+      'Schlüssel', () async {
+    final repo = await geraet(prefs: {
+      'vokab_user_leitner_v1': '{"adjektiv_stolz":{"box":1}}',
+    });
+    // Ein Gerät hat den Stand schon nach drift gebracht, mit höherem Fach.
+    await repo.anwenden(NutzerZustand(leitner: {
+      'adjektiv_stolz':
+          const LeitnerStand(wortId: 'adjektiv_stolz', fach: 5),
+    }));
+    expect((await repo.lesen()).leitner['adjektiv_stolz']!.fach, 5);
+  });
