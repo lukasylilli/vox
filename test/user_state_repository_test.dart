@@ -145,7 +145,6 @@ void main() {
     expect(z.einstellungen.containsKey('ui_language'), isTrue);
     expect(z.einstellungen.containsKey('vocab_seed_version'), isFalse);
   });
-}
 
   test('S.0b Übergang: Archiv-Leitner aus SharedPreferences wandert nach '
       'drift, der alte Schlüssel wird danach geleert', () async {
@@ -175,3 +174,4 @@ void main() {
     }));
     expect((await repo.lesen()).leitner['adjektiv_stolz']!.fach, 5);
   });
+}
