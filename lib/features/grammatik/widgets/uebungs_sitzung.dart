@@ -88,7 +88,7 @@ class _UebungsSitzungState extends State<UebungsSitzung> {
         ),
         const SizedBox(height: AppSizes.lg),
         UebungKarte(
-          key: ValueKey('${u.id}#$_durchgang'),
+          key: ValueKey('${u.schluessel}#$_durchgang'),
           uebung: u,
           onGeprueft: (ok) => setState(() {
             _geprueft = true;

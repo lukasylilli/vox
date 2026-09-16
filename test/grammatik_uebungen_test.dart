@@ -84,8 +84,20 @@ void main() {
           if (uebungen[i] == null) roh[i]['id'],
       ];
       expect(fehlend, isEmpty, reason: 'nicht lesbar: $fehlend');
-      expect(gueltig.map((u) => u.id).toSet().length, 336,
-          reason: 'id doppelt');
+      expect(gueltig.map((u) => u.schluessel).toSet().length, 336,
+          reason: 'Lektion + id doppelt');
+    });
+
+    test('bekannte Doppel-ids der Quelle: ex-komp-1…4 in zwei Lektionen', () {
+      final doppelt = <String, Set<String>>{};
+      for (final u in gueltig) {
+        (doppelt[u.id] ??= {}).add(u.lektionSlug);
+      }
+      doppelt.removeWhere((_, l) => l.length < 2);
+      expect(doppelt, {
+        for (var i = 1; i <= 4; i++)
+          'ex-komp-$i': {'komparativ-superlativ', 'komposita'},
+      });
     });
 
     test('fünf Arten wie in der Quelle', () {
@@ -182,6 +194,7 @@ void main() {
     });
 
     GrammatikUebung hole(String id) => gueltig.firstWhere((u) => u.id == id);
+    // (ex-komp-* nie über hole() — die id ist dort nicht eindeutig)
 
     test('fillBlank: alternatives sind Ablenker, Lösung ist Option', () {
       for (final u in gueltig.where((u) => u.art == UebungsArt.fillBlank)) {
@@ -260,7 +273,7 @@ void main() {
         Scaffold(
           body: SingleChildScrollView(
             child: UebungKarte(
-              key: ValueKey('${u.id}-$sprache'),
+              key: ValueKey('${u.schluessel}-$sprache'),
               uebung: u,
               onGeprueft: (ok) {
                 aufrufe++;

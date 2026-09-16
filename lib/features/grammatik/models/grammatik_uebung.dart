@@ -20,6 +20,8 @@
 //     (z. B. „Dativ" ×4) ⇒ zu jedem linken Eintrag wird aus den
 //     VERSCHIEDENEN rechten Werten gewählt; richtig ist der Wert, nicht die
 //     Position.
+//   · ids: `ex-komp-1…4` kommen in zwei Lektionen vor ⇒ eindeutig ist nur
+//     [GrammatikUebung.schluessel] (Lektion + id).
 import 'package:flutter/foundation.dart';
 
 /// Art einer Übung — die Namen sind die `type`-Werte der Quelle.
@@ -187,6 +189,12 @@ class GrammatikUebung {
 
   final String id, lektionSlug;
   final UebungsArt art;
+
+  /// Eindeutig über ALLE Lektionen. Die `id` allein ist es nicht: Die Quelle
+  /// vergibt `ex-komp-1…4` zweimal (adjektive.json → komparativ-superlativ
+  /// und nomen.json → komposita). Die Daten bleiben unverändert; eindeutig
+  /// ist erst Lektion + id.
+  String get schluessel => '$lektionSlug/$id';
 
   /// Arbeitsauftrag (bei multipleChoice zugleich der Satz mit Lücke).
   final String aufgabeDe, aufgabeFa, aufgabeEn;
