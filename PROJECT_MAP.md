@@ -15,11 +15,11 @@
 #   · B-3 / R-1.1 در کد رفع شده‌اند (stripPreposition در word_list_item.dart) — در BACKLOG اصلاح شد
 #   · README قدیمی: «Selbstlernen — Gewohnheiten, Streaks» (Habit از 2026-09-13 حذف شده)
 #   · فاز A (خودکارسازی ورود کلمات) باز شد — PLAN.md → «فاز A»
-#   · فاز S (ذخیره‌سازی داده‌ی کاربر) — S.0–S.5 ✅ (S.4 ehrlicher Hinweis 2026-09-16)؛ باز: S.6 + S.3 Konto löschen
+#   · فاز S (ذخیره‌سازی داده‌ی کاربر) — S.0–S.6 ✅ (S.6 feste Listen-id 2026-09-16, DB v7, Vertrag v3)؛ باز: S.3 Konto löschen
 #
 # 🚀 2026-09-16 تصمیم Lukas — ترتیب جدید (PLAN.md → «فاز LAUNCH»):
 #   اپ زودتر و به‌صورت نسخه‌ی نهایی منتشر می‌شود؛ کلمه‌ها آخرین مرحله‌اند و بعد از انتشار روزانه اضافه می‌شوند.
-#   L.1 امنیت لایتنر (S.6, V.2, نگهبان شناسه‌ها, تست مهاجرت) → L.2 کامل بودن محتوا → L.3 انتشار → L.4 کلمه‌ها
+#   L.1 امنیت لایتنر (S.6 ✅, V.2, نگهبان شناسه‌ها, تست مهاجرت) → L.2 کامل بودن محتوا → L.3 انتشار → L.4 کلمه‌ها
 #   Audit محتوا: Redemittel/Goethe/ÖSD B2/Konnektoren/NVV/Präp/Dativ = کامل نسبت به منبع.
 #   باز: ÖSD C1 (۶ عبارت، بدون منبع) · A1/A2 Wortschatz (۱٬۰۶۳ کلمه در old files/1، در اپ استفاده نشده) ·
 #   گرامر ۴/۸۴ · deckهای «به‌زودی» در core/services/feature_flags.dart
@@ -1142,6 +1142,17 @@ die Fassade, die allein `NutzerZustand` nach außen zeigt.
 | `LeitnerDao` · `CategoryDao` · `WordDao` · `ImportService` · Fassade (Archiv) | **jede** Aufnahme/Entfernung schreibt ein Ereignis. ⚠️ Neue Stelle, die aufnimmt/entfernt ⇒ ebenfalls protokollieren, sonst kommt die Entfernung beim Abgleich zurück |
 | `user_state_repository.dart` → `_entfernen()` | setzt eingehende Entfernungen in allen Tabellen um |
 
+✅ **S.6 (2026-09-16): feste Listen-id.**
+| Stelle | Rolle |
+|---|---|
+| `UserCategories.uid` + `nameAmMs` (`app_database.dart`) | feste id und Zeitpunkt des Namens; Index `user_categories_uid`; **Migration v7** trägt für alte Listen `eigen:<Name>` ein (= bisherige id) |
+| `eigeneListenId(UserCategory)` (`app_database.dart`) | **einzige** Stelle, die aus einer Zeile die Listen-id macht |
+| `neueEigeneListenId()` (`nutzer_zustand.dart`) | neue id `eigen:#<32 Hex>` — nur `CategoryDao.insertCategory` ruft sie |
+| `KategorieStand.nameAm` | Vertrag v3: später vergebener Name gewinnt; ohne `nameAm` = älter als jede Umbenennung |
+| `CategoryDao.updateCategory` | Umbenennen = nur Name + Zeitpunkt; die id bleibt |
+| `test/migration_v7_test.dart` | echte Datei im Stand 6 → neu geöffnet: alte ids bleiben, doppelter Name ⇒ neue id, Index wirkt |
+⚠️ Eine eigene Liste **nie** über ihren Namen suchen — immer über `uid`. Der Name ist nur Anzeige.
+
 ⚠️ **Jede Änderung an einer Drift-Tabelle braucht `dart run build_runner build`**
 (`app_database.g.dart`, ~8.000 Zeilen, versioniert). Claude hat kein Dart im Container —
 dafür gibt es `.github/workflows/build-runner.yml`. ✅ Seit dem PAT mit „Workflows: Read and
@@ -1177,6 +1188,11 @@ Veröffentlichung.
 - **Artefakte aus Actions sind von Claude aus nicht herunterladbar** (`*.blob.core.windows.net`,
   nicht in der Netz-Freigabe) — dieselbe Grenze wie bei den Logs. Was zurück ins Repository
   soll, muss der Workflow selbst committen, nicht als Artefakt ablegen.
+- **Workflows von Hand anstoßen (`workflow_dispatch`) geht nur mit einem der beiden Token** — das
+  andere bekommt `403`. Beim 403 das andere probieren (2026-09-16, S.6).
+- **Ein Commit, den ein Workflow selbst schreibt (z. B. `build-runner.yml`), startet keine weiteren
+  Workflows** — auf dem Zweig läuft danach also kein `pruefen.yml` von allein. Für den Web-Bau vor
+  dem Zusammenführen `pruefen.yml` per Dispatch auf den Zweig anstoßen (2026-09-16, S.6).
 - **Textersetzung per Skript: Teilzeichenketten beachten.** S.5 (2026-09-15): ein Ersatz für
   `      final companion` (6 Leerzeichen) traf auch die Zeile mit 8 Leerzeichen — doppelter
   Parameter, `analyze` rot im build-runner-Lauf. Vor jedem `replace` die Treffer **zeilengenau**
@@ -1219,6 +1235,11 @@ noch nicht und wird erst nach dieser Entscheidung gebaut.
 ---
 
 ## BUGS FIXED
+
+### [2026-09-16] S.6: Umbenennen einer Liste kostete beim Abgleich Wörter
+- Die id einer eigenen Liste war ihr Name ⇒ Umbenennen = „alte Liste weg"; Wörter, die ein anderes
+  Gerät inzwischen in die alte Liste legte, verschwanden. Jetzt feste `uid` (DB v7, Vertrag v3) —
+  siehe „Wo die Nutzerdaten liegen" → S.6
 
 ### [2026-09-15] S.5: Sicherung trug ~830 App-Wörter; Entfernungen kamen beim Zusammenführen zurück
 - `Words.ausApp` (vom Seed gesetzt) + `Mitgliedschaften` (Ereignisse), Vertrag v2 — siehe „Wo die Nutzerdaten liegen"

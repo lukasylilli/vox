@@ -25,8 +25,9 @@
 | ۱۶ — انتشار و QA نهایی | باز | آخرین فاز قبل از launch |
 
 **2026-09-16:** L.3a ✅ زبان شروع = انگلیسی، مگر دستگاه فارسی باشد.
+**2026-09-16:** S.6 ✅ لیست‌های شخصی شناسه‌ی ثابت دارند — تغییر نام دیگر کلمه‌ای را در همگام‌سازی از بین نمی‌برد (پایگاه داده نسخه‌ی ۷، قرارداد پشتیبان نسخه‌ی ۳).
 
-**قدم‌های بعدی (2026-09-16, ترتیب جدید — بخش «فاز LAUNCH»):** ① **L.1** امنیت لایتنر: S.6 → V.2 → L.1a/L.1b (+ Lukas: Supabase-Secrets، تصمیم حذف حساب) ② **L.2** کامل بودن محتوا: G3–G6 + deckهای «به‌زودی» + سؤال‌ها از Lukas (ÖSD C1، A1/A2 Wortschatz) ③ **L.3** آماده‌سازی انتشار ← **انتشار** ④ **L.4** کلمه‌ها روزانه (A.6 ⛔ اول از Lukas بپرس)
+**قدم‌های بعدی (2026-09-16, ترتیب جدید — بخش «فاز LAUNCH»):** ① **L.1** امنیت لایتنر: S.6 ✅ → **V.2** → L.1a/L.1b (+ Lukas: Supabase-Secrets، تصمیم حذف حساب) ② **L.2** کامل بودن محتوا: G3–G6 + deckهای «به‌زودی» + سؤال‌ها از Lukas (ÖSD C1، A1/A2 Wortschatz) ③ **L.3** آماده‌سازی انتشار ← **انتشار** ④ **L.4** کلمه‌ها روزانه (A.6 ⛔ اول از Lukas بپرس)
 
 ---
 
@@ -39,7 +40,9 @@
 > ترتیب اجرا: **L.1 → L.2 → L.3 → انتشار → L.4 (کلمه‌ها، روزانه)**
 
 ### L.1 — امنیت داده‌ی لایتنر (قبل از انتشار)
-- [ ] **S.6** شناسه‌ی ثابت برای لیست‌های شخصی (فاز S)
+- [x] **S.6** شناسه‌ی ثابت برای لیست‌های شخصی ✅ (2026-09-16، CI سبز) — تغییر نام یک لیست دیگر
+      «لیست قدیم حذف، لیست جدید ساخته» نیست؛ کلمه‌ای که دستگاه دیگر در همان فاصله در لیست گذاشته
+      حفظ می‌شود. لیست‌های قبلی شناسه‌ی قبلی‌شان (`eigen:<نام>`) را نگه می‌دارند. جزئیات: فاز S → S.6.
 - [ ] **V.2 `vocab.db` — حالا پیش‌شرط انتشار.** چون بعد از انتشار کلمه‌ها روزانه زیاد می‌شوند و
       `vokabular_controller` در startup همه‌ی کارت‌ها را می‌خواند (سقف ~۵۰۰). ⚠️ داده‌ی کلمه‌ها باید از
       داده‌ی کاربر **جدا** بماند: به‌روزرسانی کلمه‌ها هرگز به جدول‌های کاربر (`ArchivLeitner`,
@@ -1221,7 +1224,36 @@ Gleiche Hülle, unterschiedliche Nutzlast. In beiden PLAN-Dateien festgehalten.
       ⚠️ **Grenze:** Umbenennen einer eigenen Liste auf Gerät A, während Gerät B offline Wörter in
       die alte Liste legt ⇒ diese Wörter gehen beim Abgleich mit der alten Liste. Selten; eine
       stabile Listen-id (statt des Namens) wäre die Lösung und ist als **S.6** vorgemerkt.
-- [ ] **S.6** Eigene Listen bekommen eine stabile geräteübergreifende id statt ihres Namens.
+      → **gelöst durch S.6 (2026-09-16).**
+- [x] **S.6 Feste Listen-id** ✅ (2026-09-16, `build_runner` + `analyze` + `test` auf dem Zweig
+      `s6-listen-id` grün, danach nach `main`) — eigene Listen tragen eine geräteübergreifende id
+      statt ihres Namens. **Warum:** Umbenennen war für den Abgleich „alte Liste weg, neue da"; Wörter,
+      die ein anderes Gerät offline in die alte Liste legte, gingen verloren (Grenze aus S.5).
+      · **Tabelle** `UserCategories` + `uid` (Text) + `nameAmMs` (Millisekunden, wann der Name
+        vergeben wurde); eindeutiger Index `user_categories_uid` (als eigener Index, weil SQLite eine
+        UNIQUE-Spalte nicht nachträglich anlegen kann). `schemaVersion` 6 → **7**.
+      · **Migration ohne Bruch:** bestehende Listen bekommen `eigen:<Name>` — genau ihre bisherige id,
+        damit Sicherungen, Server-Kopie und gespeicherte Ereignisse weiter passen und derselbe Name auf
+        zwei alten Geräten weiter EINE Liste ist. Doppelter Name auf einem Gerät (war möglich): die
+        älteste Zeile behält die alte id, jede weitere bekommt eine neue.
+      · **Neue Listen:** `eigen:#` + 32 Hex (`neueEigeneListenId()` in `nutzer_zustand.dart`), einmal
+        bei der Anlage vergeben, nie geändert. Das Präfix `eigen:` bleibt — daran trennt die Fassade
+        eigene Listen von Archiv-Listen (`kat_<ms>`, die schon immer eine feste id hatten).
+      · **Name beim Zusammenführen:** der später vergebene gewinnt (`KategorieStand.nameAm`); ohne
+        Zeitpunkt oder bei Gleichstand bleibt der eigene. Vertrag `nutzerZustandVersion` 2 → **3**;
+        Fassung 2 bleibt lesbar. `nameAm` steht nur im Text, wenn bekannt — alte Listen ändern ihren
+        Text nicht, der Konto-Abgleich lädt nicht grundlos hoch.
+      · **Umbenennen** (`CategoryDao.updateCategory`) ändert nur Name + `nameAmMs`, kein Ereignis mehr;
+        Anlegen/Löschen protokollieren die feste id (`eigeneListeMerken(listenId)`).
+      · **Fassade** sucht eigene Listen über `uid`, nicht über den Namen (`_eigeneListe`).
+      · **Tests:** `test/migration_v7_test.dart` (echte Datei im Stand 6 → neu geöffnet: alte ids
+        bleiben, doppelter Name bekommt neue id, Index wirkt) · 4 neue in `nutzer_zustand_test.dart`
+        · 2 neue in `user_state_repository_test.dart` (A benennt um, B legt offline ein Wort hinein ⇒
+        nach Abgleich auf beiden Geräten: gleiche id, neuer Name, Wort drin).
+      ⚠️ **Folge:** zwei Geräte, die nach S.6 unabhängig je eine Liste „Reise" anlegen, haben danach
+      zwei Listen „Reise" — ehrlich, denn es sind zwei Handlungen. Nichts geht verloren.
+      ⚠️ Ein noch offener alter Tab (Fassung 2) sieht die Server-Kopie als „zu neu" und überschreibt
+      sie nicht — genau dafür gibt es die Versionsprüfung.
 
 **Planänderung 2026-09-15 — S.0a, damit die Blockade nicht alles aufhält.**
 S.0 braucht `build_runner` und ist gesperrt. Statt zu warten, kommt eine **Fassade** davor —
