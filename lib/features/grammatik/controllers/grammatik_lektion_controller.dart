@@ -9,6 +9,7 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../models/grammatik_lektion.dart';
+import '../models/grammatik_uebung.dart';
 
 /// Content-JSON-Dateien pro Thema — alle 17 Dateien der Quelle
 /// (`old files Lukasalmani/1/Grammatik`), zusammen die 84 Kern-Lektionen
@@ -59,4 +60,36 @@ final grammatikLektionProvider =
     FutureProvider.family<GrammatikLektion?, String>((ref, slug) async {
   final all = await ref.watch(grammatikLektionenProvider.future);
   return all[slug];
+});
+
+/// G7a (2026-09-16): alle Übungen der Content-Dateien, nach Lektion
+/// gruppiert (slug → Übungen in Quell-Reihenfolge). Übungen, die das Modell
+/// nicht sicher lesen kann, fehlen hier — der Test verlangt, dass das bei
+/// den echten Daten keine einzige ist.
+final grammatikUebungenProvider =
+    FutureProvider<Map<String, List<GrammatikUebung>>>((ref) async {
+  final out = <String, List<GrammatikUebung>>{};
+  for (final path in grammatikContentFiles) {
+    late final String raw;
+    try {
+      raw = await rootBundle.loadString(path);
+    } catch (_) {
+      continue;
+    }
+    final json = jsonDecode(raw) as Map<String, dynamic>;
+    for (final e in (json['exercises'] as List<dynamic>? ?? [])) {
+      if (e is! Map<String, dynamic>) continue;
+      final u = GrammatikUebung.ausJson(e);
+      if (u == null) continue;
+      (out[u.lektionSlug] ??= []).add(u);
+    }
+  }
+  return out;
+});
+
+/// Übungen einer Lektion (leer, wenn es keine gibt).
+final grammatikLektionUebungenProvider =
+    FutureProvider.family<List<GrammatikUebung>, String>((ref, slug) async {
+  final all = await ref.watch(grammatikUebungenProvider.future);
+  return all[slug] ?? const [];
 });

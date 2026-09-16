@@ -17,6 +17,17 @@ import 'package:vox/core/l10n/app_l10n.dart';
 void main() {
   // Die Schlüssel aus فاز S. Wächst die Liste, wächst der Schutz.
   const schluessel = [
+    // G7a — Grammatik-Übungen (2026-09-16)
+    'uebung_start',
+    'uebung_progress',
+    'uebung_result',
+    'uebung_repeat',
+    'uebung_back',
+    'uebung_reset',
+    'uebung_type_hint',
+    'uebung_match_hint',
+    'uebung_order_hint',
+    'uebung_wrong_answer',
     'section_storage',
     'storage_ok_title',
     'storage_ok_sub',

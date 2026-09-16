@@ -60,6 +60,7 @@ enum _Variant {
 class VoxButton extends StatelessWidget {
   const VoxButton._(
     this._variant, {
+    super.key,
     required this.label,
     required this.onPressed,
     this.icon,
@@ -70,6 +71,7 @@ class VoxButton extends StatelessWidget {
   });
 
   factory VoxButton.primary({
+    Key?                   key,
     required String        label,
     required VoidCallback? onPressed,
     IconData?              icon,
@@ -79,12 +81,14 @@ class VoxButton extends StatelessWidget {
     String?                tooltip,
   }) => VoxButton._(
         _Variant.primary,
+        key: key,
         label: label, onPressed: onPressed,
         icon: icon, size: size, expand: expand, loading: loading,
         tooltip: tooltip,
       );
 
   factory VoxButton.tonal({
+    Key?                   key,
     required String        label,
     required VoidCallback? onPressed,
     IconData?              icon,
@@ -94,12 +98,14 @@ class VoxButton extends StatelessWidget {
     String?                tooltip,
   }) => VoxButton._(
         _Variant.tonal,
+        key: key,
         label: label, onPressed: onPressed,
         icon: icon, size: size, expand: expand, loading: loading,
         tooltip: tooltip,
       );
 
   factory VoxButton.secondary({
+    Key?                   key,
     required String        label,
     required VoidCallback? onPressed,
     IconData?              icon,
@@ -109,12 +115,14 @@ class VoxButton extends StatelessWidget {
     String?                tooltip,
   }) => VoxButton._(
         _Variant.secondary,
+        key: key,
         label: label, onPressed: onPressed,
         icon: icon, size: size, expand: expand, loading: loading,
         tooltip: tooltip,
       );
 
   factory VoxButton.text({
+    Key?                   key,
     required String        label,
     required VoidCallback? onPressed,
     IconData?              icon,
@@ -122,11 +130,13 @@ class VoxButton extends StatelessWidget {
     String?                tooltip,
   }) => VoxButton._(
         _Variant.text,
+        key: key,
         label: label, onPressed: onPressed,
         icon: icon, size: size, tooltip: tooltip,
       );
 
   factory VoxButton.success({
+    Key?                   key,
     required String        label,
     required VoidCallback? onPressed,
     IconData?              icon,
@@ -136,12 +146,14 @@ class VoxButton extends StatelessWidget {
     String?                tooltip,
   }) => VoxButton._(
         _Variant.success,
+        key: key,
         label: label, onPressed: onPressed,
         icon: icon, size: size, expand: expand, loading: loading,
         tooltip: tooltip,
       );
 
   factory VoxButton.destructive({
+    Key?                   key,
     required String        label,
     required VoidCallback? onPressed,
     IconData?              icon,
@@ -151,12 +163,14 @@ class VoxButton extends StatelessWidget {
     String?                tooltip,
   }) => VoxButton._(
         _Variant.destructive,
+        key: key,
         label: label, onPressed: onPressed,
         icon: icon, size: size, expand: expand, loading: loading,
         tooltip: tooltip,
       );
 
   factory VoxButton.destructiveOutlined({
+    Key?                   key,
     required String        label,
     required VoidCallback? onPressed,
     IconData?              icon,
@@ -165,11 +179,13 @@ class VoxButton extends StatelessWidget {
     String?                tooltip,
   }) => VoxButton._(
         _Variant.destructiveOutlined,
+        key: key,
         label: label, onPressed: onPressed,
         icon: icon, size: size, expand: expand, tooltip: tooltip,
       );
 
   factory VoxButton.header({
+    Key?                   key,
     required String        label,
     required VoidCallback? onPressed,
     IconData?              icon,
@@ -177,6 +193,7 @@ class VoxButton extends StatelessWidget {
     String?                tooltip,
   }) => VoxButton._(
         _Variant.header,
+        key: key,
         label: label, onPressed: onPressed,
         icon: icon, size: VoxButtonSize.medium, expand: expand,
         tooltip: tooltip,
@@ -184,12 +201,14 @@ class VoxButton extends StatelessWidget {
 
   /// Kompakter Pill-Button (ehem. VoxButton.small) — jetzt System-tonal.
   factory VoxButton.small({
+    Key?                   key,
     required String        label,
     required VoidCallback? onPressed,
     IconData?              icon,
     String?                tooltip,
   }) => VoxButton._(
         _Variant.tonal,
+        key: key,
         label: label, onPressed: onPressed,
         icon: icon, size: VoxButtonSize.small, tooltip: tooltip,
       );

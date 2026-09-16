@@ -53,6 +53,17 @@ class AppL10n {
 
   static const _s = <String, Map<String, String>>{
     'fa': {
+      // فاز G / G7a — تمرین‌های درس گرامر
+      'uebung_start'        : 'تمرین این درس ({n})',
+      'uebung_progress'     : 'تمرین {i} از {n}',
+      'uebung_result'       : '{r} از {n} درست',
+      'uebung_repeat'       : 'دوباره از اول',
+      'uebung_back'         : 'برگشت به درس',
+      'uebung_reset'        : 'از نو بچین',
+      'uebung_type_hint'    : 'جمله‌ی تبدیل‌شده را بنویس',
+      'uebung_match_hint'   : 'برای هر مورد جواب درست را انتخاب کن',
+      'uebung_order_hint'   : 'روی کلمه‌ها بزن تا جمله ساخته شود (ممکن است کلمه‌ای اضافه باشد)',
+      'uebung_wrong_answer' : 'درست نبود',
       // فاز S — پشتیبان‌گیری
       'backup_title'        : 'پشتیبان',
       'backup_sub'          : 'یک فایل از پیشرفتت بگیر و هر وقت خواستی برگردان.',
@@ -684,6 +695,17 @@ class AppL10n {
       'view_all_n_phrases'        : 'مشاهده همه {n} عبارت',
     },
     'en': {
+      // Phase G / G7a — grammar lesson exercises
+      'uebung_start'        : 'Practise this lesson ({n})',
+      'uebung_progress'     : 'Exercise {i} of {n}',
+      'uebung_result'       : '{r} of {n} correct',
+      'uebung_repeat'       : 'Start again',
+      'uebung_back'         : 'Back to the lesson',
+      'uebung_reset'        : 'Start over',
+      'uebung_type_hint'    : 'Type the transformed sentence',
+      'uebung_match_hint'   : 'Choose the right answer for each item',
+      'uebung_order_hint'   : 'Tap the words to build the sentence (one word may be extra)',
+      'uebung_wrong_answer' : 'Not quite',
       // فاز S — backup
       'backup_title'        : 'Backup',
       'backup_sub'          : 'Save your progress to a file and restore it whenever you need.',

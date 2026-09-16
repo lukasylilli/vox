@@ -13,6 +13,7 @@ import '../../features/grammatik/screens/grammar_quiz_screen.dart';
 import '../../features/grammatik/screens/grammatik_home_screen.dart';
 import '../../features/grammatik/screens/grammatik_katalog_screen.dart';
 import '../../features/grammatik/screens/grammatik_lektion_screen.dart';
+import '../../features/grammatik/screens/grammatik_uebung_screen.dart';
 import '../../features/grammatik/screens/lesson_detail_screen.dart';
 import '../../features/grammatik/screens/level_lessons_screen.dart';
 import '../../features/leitner/screens/leitner_home_screen.dart';
@@ -252,6 +253,14 @@ final appRouter = GoRouter(
           path   : 'lektion/:slug',
           builder: (ctx, state) => GrammatikLektionScreen(
               slug: state.pathParameters['slug']!),
+          routes : [
+            // G7a: Übungen der Lektion
+            GoRoute(
+              path   : 'uebung',
+              builder: (ctx, state) => GrammatikUebungScreen(
+                  slug: state.pathParameters['slug']!),
+            ),
+          ],
         ),
         GoRoute(
           path   : ':level',

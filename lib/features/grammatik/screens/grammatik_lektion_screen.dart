@@ -10,6 +10,7 @@ import 'package:go_router/go_router.dart';
 import '../../../core/constants/app_routes.dart';
 import '../../../core/constants/app_sizes.dart';
 import '../../../core/l10n/app_l10n.dart';
+import '../../../core/widgets/vox_button.dart';
 import '../../../core/widgets/vox_empty_state.dart';
 import '../controllers/grammatik_lektion_controller.dart';
 import '../models/grammatik_lektion.dart';
@@ -75,6 +76,9 @@ class _LektionView extends ConsumerWidget {
           ],
           const SizedBox(height: AppSizes.md),
 
+          // ── G7a: Übungen (oben kurz, unten groß) ─────────────────
+          _UebungStart(slug: lek.slug, gross: false),
+
           // ── Erklärblöcke ─────────────────────────────────────────
           ...lek.explanationBlocks.map((b) => _Block(b)),
 
@@ -93,6 +97,9 @@ class _LektionView extends ConsumerWidget {
             ...lek.examples.map((e) => _ExampleTile(e)),
           ],
 
+          // ── G7a: Übungen nach dem Lesen ──────────────────────────
+          _UebungStart(slug: lek.slug, gross: true),
+
           // ── Verwandte Lektionen ──────────────────────────────────
           if (lek.relatedSlugs.isNotEmpty) ...[
             const SizedBox(height: AppSizes.md),
@@ -100,6 +107,45 @@ class _LektionView extends ConsumerWidget {
           ],
         ],
       ),
+    );
+  }
+}
+
+// ─── G7a: Einstieg in die Übungen ────────────────────────────────────────────
+
+/// Knopf „Diese Lektion üben (n)" — nur, wenn die Lektion Übungen hat.
+class _UebungStart extends ConsumerWidget {
+  const _UebungStart({required this.slug, required this.gross});
+  final String slug;
+  final bool gross;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final n = ref.watch(grammatikLektionUebungenProvider(slug))
+            .valueOrNull
+            ?.length ??
+        0;
+    if (n == 0) return const SizedBox.shrink();
+    final label = AppL10n.tf(context, 'uebung_start', {'n': '$n'});
+    void los() => context.push(AppRoutes.grammatikLektionUebung(slug));
+    return Padding(
+      padding: EdgeInsets.only(
+          top: gross ? AppSizes.md : 0, bottom: AppSizes.md),
+      child: gross
+          ? VoxButton.primary(
+              label: label,
+              icon: Icons.edit_note_rounded,
+              expand: true,
+              onPressed: los,
+            )
+          : Align(
+              alignment: AlignmentDirectional.centerStart,
+              child: VoxButton.tonal(
+                label: label,
+                icon: Icons.edit_note_rounded,
+                onPressed: los,
+              ),
+            ),
     );
   }
 }

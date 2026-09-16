@@ -35,6 +35,9 @@ class AppRoutes {
 
   /// Lektion-Content-Screen (G2)
   static String grammatikLektion(String slug) => '/grammatik/lektion/$slug';
+  /// G7a: Übungen einer Lektion.
+  static String grammatikLektionUebung(String slug) =>
+      '/grammatik/lektion/$slug/uebung';
 
   // Lesen
   static const lesen      = '/lesen';

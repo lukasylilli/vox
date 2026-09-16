@@ -18,6 +18,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:vox/core/l10n/app_l10n.dart';
 import 'package:vox/features/grammatik/controllers/grammatik_lektion_controller.dart';
 import 'package:vox/features/grammatik/models/grammatik_lektion.dart';
+import 'package:vox/features/grammatik/models/grammatik_uebung.dart';
 import 'package:vox/features/grammatik/screens/grammatik_lektion_screen.dart';
 
 Map<String, dynamic> lies(String pfad) =>
@@ -31,6 +32,14 @@ void main() {
       final roh = l as Map<String, dynamic>;
       rohe.add(roh);
       lektionen[roh['slug'] as String] = GrammatikLektion.fromJson(roh);
+    }
+  }
+  // G7a: Übungen je Lektion (die Lektionsseite zeigt dafür einen Knopf)
+  final uebungen = <String, List<GrammatikUebung>>{};
+  for (final pfad in grammatikContentFiles) {
+    for (final e in (lies(pfad)['exercises'] as List)) {
+      final u = GrammatikUebung.ausJson(e as Map<String, dynamic>);
+      if (u != null) (uebungen[u.lektionSlug] ??= []).add(u);
     }
   }
   final katalog = {
@@ -124,6 +133,7 @@ void main() {
           key: ValueKey('${lek.slug}-$sprache'),
           overrides: [
             grammatikLektionenProvider.overrideWith((ref) async => lektionen),
+            grammatikUebungenProvider.overrideWith((ref) async => uebungen),
           ],
           child: MaterialApp(
             locale: Locale(sprache),
@@ -142,6 +152,13 @@ void main() {
         expect(find.text(lek.titleDe), findsWidgets, reason: lek.slug);
         expect(find.byType(DataTable), findsNWidgets(lek.tables.length),
             reason: '${lek.slug}: jede Tabelle wird gezeichnet');
+        // G7a: Übungsknopf oben und unten, wenn die Lektion Übungen hat
+        final n = uebungen[lek.slug]?.length ?? 0;
+        expect(n, greaterThan(0), reason: '${lek.slug}: keine Übungen');
+        final label = sprache == 'fa'
+            ? 'تمرین این درس ($n)'
+            : 'Practise this lesson ($n)';
+        expect(find.text(label), findsNWidgets(2), reason: lek.slug);
       }
     });
   }
