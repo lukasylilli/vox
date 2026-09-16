@@ -1,0 +1,1129 @@
+{
+ "_index": {
+  "fileDescription": "Artikel: Nullartikel, bestimmter/unbestimmter Artikel, Possessivartikel, Demonstrativartikel, Indefinitartikel, Interrogativartikel",
+  "lastUpdatedStage": 11,
+  "lessons": [
+   "bestimmter-unbestimmter-artikel — آرتیکل معین و نامعین",
+   "nullartikel — بدون آرتیکل",
+   "possessivartikel — آرتیکل ملکی",
+   "demonstrativartikel — آرتیکل اشاره",
+   "indefinitartikel — آرتیکل نامعین کمی",
+   "interrogativartikel — آرتیکل پرسشی"
+  ]
+ },
+ "lessons": [
+  {
+   "id": "bestimmter-unbestimmter-artikel",
+   "slug": "bestimmter-unbestimmter-artikel",
+   "titleDE": "Bestimmter und unbestimmter Artikel",
+   "titleFA": "آرتیکل معین و نامعین",
+   "titleEN": "Definite and Indefinite Article",
+   "levels": [
+    "A1"
+   ],
+   "category": "artikel",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Der bestimmte Artikel (der, die, das) wird verwendet, wenn etwas bekannt oder bereits erwähnt ist. Der unbestimmte Artikel (ein, eine) wird verwendet, wenn etwas neu oder unbestimmt ist. Im Plural gibt es keinen unbestimmten Artikel.",
+     "bodyFA": "آرتیکل معین (der، die، das) زمانی استفاده می‌شود که چیزی شناخته‌شده یا قبلاً ذکر شده باشد. آرتیکل نامعین (ein، eine) زمانی استفاده می‌شود که چیزی جدید یا نامشخص باشد. در جمع، آرتیکل نامعین وجود ندارد.",
+     "bodyEN": "The definite article (der, die, das) is used when something is known or already mentioned. The indefinite article (ein, eine) is used when something is new or unspecified. There is no indefinite article in the plural."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Ich sehe einen Hund. Der Hund ist braun.",
+     "meaningFA": "من یک سگ می‌بینم. سگ قهوه‌ای است.",
+     "meaningEN": "I see a dog. The dog is brown.",
+     "noteDE": "Erste Erwähnung: unbestimmt; zweite: bestimmt.",
+     "noteFA": "اولین ذکر: نامعین؛ دومین: معین.",
+     "noteEN": "First mention: indefinite; second: definite."
+    },
+    {
+     "id": "ex-2",
+     "german": "Wir kaufen eine Wohnung.",
+     "meaningFA": "ما یک آپارتمان می‌خریم.",
+     "meaningEN": "We are buying an apartment."
+    },
+    {
+     "id": "ex-3",
+     "german": "Die Sonne scheint heute hell.",
+     "meaningFA": "خورشید امروز روشن می‌تابد.",
+     "meaningEN": "The sun is shining brightly today."
+    },
+    {
+     "id": "ex-4",
+     "german": "Er hat ein neues Fahrrad gekauft.",
+     "meaningFA": "او یک دوچرخهٔ جدید خرید.",
+     "meaningEN": "He bought a new bicycle."
+    },
+    {
+     "id": "ex-5",
+     "german": "Das Restaurant um die Ecke ist sehr gut.",
+     "meaningFA": "رستوران سر کوچه خیلی خوب است.",
+     "meaningEN": "The restaurant around the corner is very good."
+    },
+    {
+     "id": "ex-6",
+     "german": "Kinder brauchen viel Aufmerksamkeit.",
+     "meaningFA": "بچه‌ها به توجه زیادی نیاز دارند.",
+     "meaningEN": "Children need a lot of attention.",
+     "noteDE": "Plural: kein Artikel bei allgemeiner Aussage.",
+     "noteFA": "جمع: بدون آرتیکل در گفتهٔ کلی.",
+     "noteEN": "Plural: no article for general statements."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "Artikel im Nominativ, Akkusativ, Dativ",
+     "titleFA": "آرتیکل در Nominativ، Akkusativ، Dativ",
+     "titleEN": "Article in Nominative, Accusative, Dative",
+     "style": "simple",
+     "columns": [
+      "Genus",
+      "Nominativ",
+      "Akkusativ",
+      "Dativ"
+     ],
+     "rows": [
+      {
+       "rowLabel": "maskulin (bestimmt)",
+       "cells": [
+        "der",
+        "den",
+        "dem"
+       ]
+      },
+      {
+       "rowLabel": "feminin (bestimmt)",
+       "cells": [
+        "die",
+        "die",
+        "der"
+       ]
+      },
+      {
+       "rowLabel": "neutrum (bestimmt)",
+       "cells": [
+        "das",
+        "das",
+        "dem"
+       ]
+      },
+      {
+       "rowLabel": "maskulin (unbestimmt)",
+       "cells": [
+        "ein",
+        "einen",
+        "einem"
+       ]
+      },
+      {
+       "rowLabel": "feminin (unbestimmt)",
+       "cells": [
+        "eine",
+        "eine",
+        "einer"
+       ]
+      },
+      {
+       "rowLabel": "neutrum (unbestimmt)",
+       "cells": [
+        "ein",
+        "ein",
+        "einem"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "nullartikel",
+    "genusbestimmung"
+   ],
+   "exerciseSlugs": [
+    "ex-bestimm-1",
+    "ex-bestimm-2",
+    "ex-bestimm-3",
+    "ex-bestimm-4"
+   ]
+  },
+  {
+   "id": "nullartikel",
+   "slug": "nullartikel",
+   "titleDE": "Der Nullartikel",
+   "titleFA": "بدون آرتیکل (Nullartikel)",
+   "titleEN": "The Zero Article",
+   "levels": [
+    "A2",
+    "B1"
+   ],
+   "category": "artikel",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Kein Artikel wird verwendet bei: Ländernamen ohne Artikel, Berufen/Nationalitäten nach 'sein', unzählbaren Stoffnamen im allgemeinen Sinn, und Pluralformen bei allgemeinen Aussagen.",
+     "bodyFA": "بدون آرتیکل استفاده می‌شود در: نام کشورهای بدون آرتیکل، مشاغل/ملیت‌ها بعد از «sein»، اسم‌های غیرقابل‌شمارش در معنای کلی، و شکل جمع در گفته‌های کلی.",
+     "bodyEN": "No article is used with: country names without an article, professions/nationalities after 'sein', uncountable substance names in a general sense, and plural forms in general statements."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Er ist Ingenieur.",
+     "meaningFA": "او مهندس است.",
+     "meaningEN": "He is an engineer.",
+     "noteDE": "Beruf nach 'sein': kein Artikel.",
+     "noteFA": "شغل بعد از «sein»: بدون آرتیکل.",
+     "noteEN": "Profession after 'sein': no article."
+    },
+    {
+     "id": "ex-2",
+     "german": "Deutschland liegt in Europa.",
+     "meaningFA": "آلمان در اروپا واقع شده است.",
+     "meaningEN": "Germany is located in Europe."
+    },
+    {
+     "id": "ex-3",
+     "german": "Ich trinke gern Wasser.",
+     "meaningFA": "من دوست دارم آب بنوشم.",
+     "meaningEN": "I like to drink water."
+    },
+    {
+     "id": "ex-4",
+     "german": "Sie ist Iranerin.",
+     "meaningFA": "او ایرانی است.",
+     "meaningEN": "She is Iranian."
+    },
+    {
+     "id": "ex-5",
+     "german": "Hunde sind treue Tiere.",
+     "meaningFA": "سگ‌ها حیوانات وفاداری هستند.",
+     "meaningEN": "Dogs are loyal animals."
+    },
+    {
+     "id": "ex-6",
+     "german": "Wir brauchen Zucker für den Kuchen.",
+     "meaningFA": "ما برای کیک به شکر نیاز داریم.",
+     "meaningEN": "We need sugar for the cake."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "bestimmter-unbestimmter-artikel"
+   ],
+   "exerciseSlugs": [
+    "ex-null-1",
+    "ex-null-2",
+    "ex-null-3",
+    "ex-null-4"
+   ]
+  },
+  {
+   "id": "possessivartikel",
+   "slug": "possessivartikel",
+   "titleDE": "Der Possessivartikel",
+   "titleFA": "آرتیکل ملکی",
+   "titleEN": "The Possessive Article",
+   "levels": [
+    "A1",
+    "A2"
+   ],
+   "category": "artikel",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Possessivartikel (mein, dein, sein, ihr, unser, euer, ihr/Ihr) zeigen Besitz an und werden wie 'ein' dekliniert. Sie stimmen im Genus und Kasus mit dem folgenden Nomen überein.",
+     "bodyFA": "آرتیکل‌های ملکی (mein، dein، sein، ihr، unser، euer، ihr/Ihr) مالکیت را نشان می‌دهند و مانند «ein» صرف می‌شوند. با جنسیت و کاسوس اسم بعدی هماهنگ می‌شوند.",
+     "bodyEN": "Possessive articles (mein, dein, sein, ihr, unser, euer, ihr/Ihr) indicate possession and are declined like 'ein'. They agree in gender and case with the following noun."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Das ist meine Tasche.",
+     "meaningFA": "این کیف من است.",
+     "meaningEN": "That is my bag."
+    },
+    {
+     "id": "ex-2",
+     "german": "Wo ist dein Schlüssel?",
+     "meaningFA": "کلید تو کجاست؟",
+     "meaningEN": "Where is your key?"
+    },
+    {
+     "id": "ex-3",
+     "german": "Unser Haus liegt am Stadtrand.",
+     "meaningFA": "خانهٔ ما در حومهٔ شهر است.",
+     "meaningEN": "Our house is on the outskirts of the city."
+    },
+    {
+     "id": "ex-4",
+     "german": "Ihre Kollegen sind sehr hilfsbereit.",
+     "meaningFA": "همکاران او خیلی کمک‌کننده هستند.",
+     "meaningEN": "Her colleagues are very helpful."
+    },
+    {
+     "id": "ex-5",
+     "german": "Habt ihr euren Ausweis dabei?",
+     "meaningFA": "کارت شناسایی‌تان را همراه دارید؟",
+     "meaningEN": "Do you (pl.) have your ID with you?"
+    },
+    {
+     "id": "ex-6",
+     "german": "Sein Bruder studiert in München.",
+     "meaningFA": "برادر او در مونیخ درس می‌خواند.",
+     "meaningEN": "His brother is studying in Munich."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "Possessivartikel nach Person",
+     "titleFA": "آرتیکل ملکی بر اساس شخص",
+     "titleEN": "Possessive Articles by Person",
+     "style": "simple",
+     "columns": [
+      "Person",
+      "Possessivartikel"
+     ],
+     "rows": [
+      {
+       "rowLabel": "ich",
+       "cells": [
+        "mein"
+       ]
+      },
+      {
+       "rowLabel": "du",
+       "cells": [
+        "dein"
+       ]
+      },
+      {
+       "rowLabel": "er/es",
+       "cells": [
+        "sein"
+       ]
+      },
+      {
+       "rowLabel": "sie",
+       "cells": [
+        "ihr"
+       ]
+      },
+      {
+       "rowLabel": "wir",
+       "cells": [
+        "unser"
+       ]
+      },
+      {
+       "rowLabel": "ihr",
+       "cells": [
+        "euer"
+       ]
+      },
+      {
+       "rowLabel": "sie/Sie",
+       "cells": [
+        "ihr/Ihr"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "bestimmter-unbestimmter-artikel"
+   ],
+   "exerciseSlugs": [
+    "ex-poss-1",
+    "ex-poss-2",
+    "ex-poss-3",
+    "ex-poss-4"
+   ]
+  },
+  {
+   "id": "demonstrativartikel",
+   "slug": "demonstrativartikel",
+   "titleDE": "Der Demonstrativartikel",
+   "titleFA": "آرتیکل اشاره",
+   "titleEN": "The Demonstrative Article",
+   "levels": [
+    "A2",
+    "B1"
+   ],
+   "category": "artikel",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Demonstrativartikel (dieser, jener, derjenige) weisen auf etwas Bestimmtes hin. 'dieser' ist der häufigste und wird wie der bestimmte Artikel dekliniert.",
+     "bodyFA": "آرتیکل‌های اشاره (dieser، jener، derjenige) به چیزی مشخص اشاره می‌کنند. «dieser» پرکاربردترین است و مانند آرتیکل معین صرف می‌شود.",
+     "bodyEN": "Demonstrative articles (dieser, jener, derjenige) point to something specific. 'dieser' is the most common and is declined like the definite article."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Dieser Rock passt dir sehr gut.",
+     "meaningFA": "این دامن خیلی به تو می‌آید.",
+     "meaningEN": "This skirt suits you very well."
+    },
+    {
+     "id": "ex-2",
+     "german": "Diese Übung war schwieriger als erwartet.",
+     "meaningFA": "این تمرین سخت‌تر از انتظار بود.",
+     "meaningEN": "This exercise was harder than expected."
+    },
+    {
+     "id": "ex-3",
+     "german": "Dieses Café ist mein Lieblingsort.",
+     "meaningFA": "این کافه محل موردعلاقهٔ من است.",
+     "meaningEN": "This café is my favorite place."
+    },
+    {
+     "id": "ex-4",
+     "german": "Diese Kollegen kenne ich noch nicht.",
+     "meaningFA": "این همکاران را هنوز نمی‌شناسم.",
+     "meaningEN": "I don't know these colleagues yet."
+    },
+    {
+     "id": "ex-5",
+     "german": "In jenem Sommer waren wir in Spanien.",
+     "meaningFA": "در آن تابستان ما در اسپانیا بودیم.",
+     "meaningEN": "In that summer, we were in Spain."
+    },
+    {
+     "id": "ex-6",
+     "german": "Diesen Film habe ich schon gesehen.",
+     "meaningFA": "این فیلم را قبلاً دیده‌ام.",
+     "meaningEN": "I have already seen this movie."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "bestimmter-unbestimmter-artikel"
+   ],
+   "exerciseSlugs": [
+    "ex-demo-1",
+    "ex-demo-2",
+    "ex-demo-3",
+    "ex-demo-4"
+   ]
+  },
+  {
+   "id": "indefinitartikel",
+   "slug": "indefinitartikel",
+   "titleDE": "Der Indefinitartikel",
+   "titleFA": "آرتیکل نامعین کمّی",
+   "titleEN": "The Indefinite Quantity Article",
+   "levels": [
+    "A2",
+    "B1"
+   ],
+   "category": "artikel",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Indefinitartikel wie 'einige', 'manche', 'jeder', 'kein' geben eine unbestimmte Menge oder Auswahl an. 'jeder' bezieht sich auf Singular, 'einige'/'manche' meist auf Plural.",
+     "bodyFA": "آرتیکل‌های نامعین کمّی مثل «einige»، «manche»، «jeder»، «kein» مقدار یا انتخاب نامشخصی را نشان می‌دهند. «jeder» به مفرد اشاره می‌کند، «einige»/«manche» معمولاً به جمع.",
+     "bodyEN": "Indefinite quantity articles like 'einige', 'manche', 'jeder', 'kein' indicate an unspecified amount or selection. 'jeder' refers to the singular, 'einige'/'manche' usually to the plural."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Jeder Schüler muss die Aufgabe machen.",
+     "meaningFA": "هر دانش‌آموزی باید تکلیف را انجام دهد.",
+     "meaningEN": "Every student has to do the assignment."
+    },
+    {
+     "id": "ex-2",
+     "german": "Einige Kollegen kommen später.",
+     "meaningFA": "برخی از همکاران دیرتر می‌آیند.",
+     "meaningEN": "Some colleagues are coming later."
+    },
+    {
+     "id": "ex-3",
+     "german": "Manche Menschen mögen keinen Kaffee.",
+     "meaningFA": "برخی افراد قهوه دوست ندارند.",
+     "meaningEN": "Some people don't like coffee."
+    },
+    {
+     "id": "ex-4",
+     "german": "Ich habe keine Zeit für diese Diskussion.",
+     "meaningFA": "من برای این بحث وقت ندارم.",
+     "meaningEN": "I don't have time for this discussion."
+    },
+    {
+     "id": "ex-5",
+     "german": "Wir brauchen mehrere Freiwillige für das Projekt.",
+     "meaningFA": "ما به چند داوطلب برای پروژه نیاز داریم.",
+     "meaningEN": "We need several volunteers for the project."
+    },
+    {
+     "id": "ex-6",
+     "german": "Kein Zimmer war noch frei.",
+     "meaningFA": "هیچ اتاقی دیگر خالی نبود.",
+     "meaningEN": "No room was still free."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "bestimmter-unbestimmter-artikel",
+    "demonstrativartikel"
+   ],
+   "exerciseSlugs": [
+    "ex-indef-1",
+    "ex-indef-2",
+    "ex-indef-3",
+    "ex-indef-4"
+   ]
+  },
+  {
+   "id": "interrogativartikel",
+   "slug": "interrogativartikel",
+   "titleDE": "Der Interrogativartikel",
+   "titleFA": "آرتیکل پرسشی",
+   "titleEN": "The Interrogative Article",
+   "levels": [
+    "A2",
+    "B1"
+   ],
+   "category": "artikel",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Der Interrogativartikel 'welcher' (welcher, welche, welches) fragt nach einer bestimmten Auswahl aus einer Gruppe. Er wird wie der bestimmte Artikel dekliniert.",
+     "bodyFA": "آرتیکل پرسشی «welcher» (welcher، welche، welches) دربارهٔ انتخابی مشخص از یک گروه می‌پرسد. مانند آرتیکل معین صرف می‌شود.",
+     "bodyEN": "The interrogative article 'welcher' (welcher, welche, welches) asks about a specific choice from a group. It is declined like the definite article."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Welcher Zug fährt nach Köln?",
+     "meaningFA": "کدام قطار به کلن می‌رود؟",
+     "meaningEN": "Which train goes to Cologne?"
+    },
+    {
+     "id": "ex-2",
+     "german": "Welche Farbe gefällt dir am besten?",
+     "meaningFA": "کدام رنگ را بیشتر دوست داری؟",
+     "meaningEN": "Which color do you like best?"
+    },
+    {
+     "id": "ex-3",
+     "german": "Welches Buch hast du gerade gelesen?",
+     "meaningFA": "کدام کتاب را تازه خواندی؟",
+     "meaningEN": "Which book did you just read?"
+    },
+    {
+     "id": "ex-4",
+     "german": "Mit welchem Bus kommst du?",
+     "meaningFA": "با کدام اتوبوس می‌آیی؟",
+     "meaningEN": "Which bus are you coming with?"
+    },
+    {
+     "id": "ex-5",
+     "german": "Welche Kollegen waren bei dem Treffen dabei?",
+     "meaningFA": "کدام همکاران در آن جلسه بودند؟",
+     "meaningEN": "Which colleagues were at the meeting?"
+    },
+    {
+     "id": "ex-6",
+     "german": "Welchen Film wollen wir heute Abend sehen?",
+     "meaningFA": "کدام فیلم را می‌خواهیم امشب ببینیم؟",
+     "meaningEN": "Which movie do we want to watch tonight?"
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "demonstrativartikel"
+   ],
+   "exerciseSlugs": [
+    "ex-interr-1",
+    "ex-interr-2",
+    "ex-interr-3",
+    "ex-interr-4"
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-bestimm-1",
+   "lessonSlug": "bestimmter-unbestimmter-artikel",
+   "type": "multipleChoice",
+   "promptDE": "Ich sehe ___ Hund. ___ Hund ist braun.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "den / Der",
+     "einen / Der",
+     "einen / Den",
+     "der / Ein"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "Erste Erwähnung: unbestimmter Artikel; zweite: bestimmter Artikel.",
+   "explanationAfterAnswerFA": "اولین ذکر: آرتیکل نامعین؛ دومین: معین.",
+   "explanationAfterAnswerEN": "First mention: indefinite article; second: definite article."
+  },
+  {
+   "id": "ex-bestimm-2",
+   "lessonSlug": "bestimmter-unbestimmter-artikel",
+   "type": "fillBlank",
+   "promptDE": "Ergänze den richtigen Artikel.",
+   "promptFA": "آرتیکل درست را کامل کن.",
+   "promptEN": "Complete with the correct article.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Er hat ___ neues Fahrrad gekauft.",
+    "correctAnswer": "ein",
+    "alternatives": [
+     "einen",
+     "eine"
+    ]
+   },
+   "explanationAfterAnswerDE": "'Fahrrad' ist neutrum: 'ein' im Akkusativ.",
+   "explanationAfterAnswerFA": "«Fahrrad» خنثی است: «ein» در Akkusativ.",
+   "explanationAfterAnswerEN": "'Fahrrad' is neuter: 'ein' in the accusative."
+  },
+  {
+   "id": "ex-bestimm-3",
+   "lessonSlug": "bestimmter-unbestimmter-artikel",
+   "type": "matching",
+   "promptDE": "Verbinde Genus und unbestimmten Artikel.",
+   "promptFA": "جنسیت را به آرتیکل نامعین وصل کن.",
+   "promptEN": "Match the gender to the indefinite article.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "maskulin",
+      "right": "ein"
+     },
+     {
+      "left": "feminin",
+      "right": "eine"
+     },
+     {
+      "left": "neutrum",
+      "right": "ein"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Maskulinum und Neutrum teilen sich die Form 'ein' im Nominativ.",
+   "explanationAfterAnswerFA": "مذکر و خنثی در Nominativ شکل «ein» را مشترک دارند.",
+   "explanationAfterAnswerEN": "Masculine and neuter share the form 'ein' in the nominative."
+  },
+  {
+   "id": "ex-bestimm-4",
+   "lessonSlug": "bestimmter-unbestimmter-artikel",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "Wohnung",
+     "kaufen",
+     "eine",
+     "Wir"
+    ],
+    "correctSentence": "Wir kaufen eine Wohnung."
+   },
+   "explanationAfterAnswerDE": "'Wohnung' ist feminin: 'eine' im Akkusativ.",
+   "explanationAfterAnswerFA": "«Wohnung» مؤنث است: «eine» در Akkusativ.",
+   "explanationAfterAnswerEN": "'Wohnung' is feminine: 'eine' in the accusative."
+  },
+  {
+   "id": "ex-null-1",
+   "lessonSlug": "nullartikel",
+   "type": "multipleChoice",
+   "promptDE": "Er ist ___ Ingenieur.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "ein",
+     "der",
+     "-",
+     "einen"
+    ],
+    "correctIndex": 2
+   },
+   "explanationAfterAnswerDE": "Bei Berufen nach 'sein' wird kein Artikel verwendet.",
+   "explanationAfterAnswerFA": "در شغل بعد از «sein» آرتیکل استفاده نمی‌شود.",
+   "explanationAfterAnswerEN": "No article is used with professions after 'sein'."
+  },
+  {
+   "id": "ex-null-2",
+   "lessonSlug": "nullartikel",
+   "type": "fillBlank",
+   "promptDE": "Ergänze, falls nötig, den Artikel.",
+   "promptFA": "در صورت نیاز آرتیکل را کامل کن.",
+   "promptEN": "Complete with the article if needed.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Ich trinke gern ___ Wasser.",
+    "correctAnswer": "-",
+    "alternatives": [
+     "das",
+     "ein"
+    ]
+   },
+   "explanationAfterAnswerDE": "Bei Stoffnamen im allgemeinen Sinn wird kein Artikel verwendet.",
+   "explanationAfterAnswerFA": "در اسم‌های ماده به معنای کلی آرتیکل استفاده نمی‌شود.",
+   "explanationAfterAnswerEN": "No article is used with substance names in a general sense."
+  },
+  {
+   "id": "ex-null-3",
+   "lessonSlug": "nullartikel",
+   "type": "matching",
+   "promptDE": "Verbinde Kontext und Regel.",
+   "promptFA": "موقعیت را به قاعده وصل کن.",
+   "promptEN": "Match the context to the rule.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "Beruf nach 'sein'",
+      "right": "kein Artikel"
+     },
+     {
+      "left": "Ländername (meist)",
+      "right": "kein Artikel"
+     },
+     {
+      "left": "allgemeine Pluralaussage",
+      "right": "kein Artikel"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Diese drei Fälle sind die häufigsten Nullartikel-Kontexte.",
+   "explanationAfterAnswerFA": "این سه مورد پرکاربردترین موقعیت‌های بدون آرتیکل هستند.",
+   "explanationAfterAnswerEN": "These three cases are the most common zero-article contexts."
+  },
+  {
+   "id": "ex-null-4",
+   "lessonSlug": "nullartikel",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "treue",
+     "Hunde",
+     "sind",
+     "Tiere"
+    ],
+    "correctSentence": "Hunde sind treue Tiere."
+   },
+   "explanationAfterAnswerDE": "Allgemeine Pluralaussagen brauchen keinen Artikel.",
+   "explanationAfterAnswerFA": "گفته‌های کلی جمع به آرتیکل نیاز ندارند.",
+   "explanationAfterAnswerEN": "General plural statements need no article."
+  },
+  {
+   "id": "ex-poss-1",
+   "lessonSlug": "possessivartikel",
+   "type": "multipleChoice",
+   "promptDE": "Wo ist ___ Schlüssel? (du)",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "mein",
+     "dein",
+     "sein",
+     "ihr"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "Bei 'du' verwendet man den Possessivartikel 'dein'.",
+   "explanationAfterAnswerFA": "برای «du» از آرتیکل ملکی «dein» استفاده می‌شود.",
+   "explanationAfterAnswerEN": "For 'du', the possessive article 'dein' is used."
+  },
+  {
+   "id": "ex-poss-2",
+   "lessonSlug": "possessivartikel",
+   "type": "fillBlank",
+   "promptDE": "Ergänze den richtigen Possessivartikel.",
+   "promptFA": "آرتیکل ملکی درست را کامل کن.",
+   "promptEN": "Complete with the correct possessive article.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Habt ihr ___ Ausweis dabei?",
+    "correctAnswer": "euren",
+    "alternatives": [
+     "euer",
+     "eure"
+    ]
+   },
+   "explanationAfterAnswerDE": "'Ausweis' ist maskulin im Akkusativ: 'euren'.",
+   "explanationAfterAnswerFA": "«Ausweis» مذکر در Akkusativ است: «euren».",
+   "explanationAfterAnswerEN": "'Ausweis' is masculine in the accusative: 'euren'."
+  },
+  {
+   "id": "ex-poss-3",
+   "lessonSlug": "possessivartikel",
+   "type": "matching",
+   "promptDE": "Verbinde Person und Possessivartikel.",
+   "promptFA": "شخص را به آرتیکل ملکی وصل کن.",
+   "promptEN": "Match the person to the possessive article.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "wir",
+      "right": "unser"
+     },
+     {
+      "left": "sie (Sg.)",
+      "right": "ihr"
+     },
+     {
+      "left": "er",
+      "right": "sein"
+     },
+     {
+      "left": "ihr",
+      "right": "euer"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Jede Person hat einen eigenen Possessivartikel.",
+   "explanationAfterAnswerFA": "هر شخص آرتیکل ملکی مخصوص خودش را دارد.",
+   "explanationAfterAnswerEN": "Each person has its own possessive article."
+  },
+  {
+   "id": "ex-poss-4",
+   "lessonSlug": "possessivartikel",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "Stadtrand",
+     "liegt",
+     "Haus",
+     "Unser",
+     "am"
+    ],
+    "correctSentence": "Unser Haus liegt am Stadtrand."
+   },
+   "explanationAfterAnswerDE": "'Haus' ist neutrum: 'unser' bleibt unverändert im Nominativ.",
+   "explanationAfterAnswerFA": "«Haus» خنثی است: «unser» در Nominativ بدون تغییر می‌ماند.",
+   "explanationAfterAnswerEN": "'Haus' is neuter: 'unser' stays unchanged in the nominative."
+  },
+  {
+   "id": "ex-demo-1",
+   "lessonSlug": "demonstrativartikel",
+   "type": "multipleChoice",
+   "promptDE": "___ Rock passt dir sehr gut.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "Diese",
+     "Dieser",
+     "Dieses",
+     "Diesen"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "'Rock' ist maskulin: 'dieser' im Nominativ.",
+   "explanationAfterAnswerFA": "«Rock» مذکر است: «dieser» در Nominativ.",
+   "explanationAfterAnswerEN": "'Rock' is masculine: 'dieser' in the nominative."
+  },
+  {
+   "id": "ex-demo-2",
+   "lessonSlug": "demonstrativartikel",
+   "type": "fillBlank",
+   "promptDE": "Ergänze den richtigen Demonstrativartikel.",
+   "promptFA": "آرتیکل اشارهٔ درست را کامل کن.",
+   "promptEN": "Complete with the correct demonstrative article.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "___ Film habe ich schon gesehen.",
+    "correctAnswer": "Diesen",
+    "alternatives": [
+     "Dieser",
+     "Dieses"
+    ]
+   },
+   "explanationAfterAnswerDE": "'Film' ist maskulin im Akkusativ: 'diesen'.",
+   "explanationAfterAnswerFA": "«Film» مذکر در Akkusativ است: «diesen».",
+   "explanationAfterAnswerEN": "'Film' is masculine in the accusative: 'diesen'."
+  },
+  {
+   "id": "ex-demo-3",
+   "lessonSlug": "demonstrativartikel",
+   "type": "matching",
+   "promptDE": "Verbinde Genus und Form von 'dieser'.",
+   "promptFA": "جنسیت را به شکل «dieser» وصل کن.",
+   "promptEN": "Match the gender to the form of 'dieser'.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "maskulin",
+      "right": "dieser"
+     },
+     {
+      "left": "feminin",
+      "right": "diese"
+     },
+     {
+      "left": "neutrum",
+      "right": "dieses"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "'dieser' wird wie der bestimmte Artikel dekliniert.",
+   "explanationAfterAnswerFA": "«dieser» مانند آرتیکل معین صرف می‌شود.",
+   "explanationAfterAnswerEN": "'dieser' is declined like the definite article."
+  },
+  {
+   "id": "ex-demo-4",
+   "lessonSlug": "demonstrativartikel",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "Lieblingsort",
+     "ist",
+     "Café",
+     "mein",
+     "Dieses"
+    ],
+    "correctSentence": "Dieses Café ist mein Lieblingsort."
+   },
+   "explanationAfterAnswerDE": "'Café' ist neutrum: 'dieses' im Nominativ.",
+   "explanationAfterAnswerFA": "«Café» خنثی است: «dieses» در Nominativ.",
+   "explanationAfterAnswerEN": "'Café' is neuter: 'dieses' in the nominative."
+  },
+  {
+   "id": "ex-indef-1",
+   "lessonSlug": "indefinitartikel",
+   "type": "multipleChoice",
+   "promptDE": "___ Schüler muss die Aufgabe machen.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "Einige",
+     "Jeder",
+     "Manche",
+     "Kein"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "'jeder' bezieht sich auf Singular und bedeutet 'alle einzeln'.",
+   "explanationAfterAnswerFA": "«jeder» به مفرد اشاره دارد و به معنای «همه به‌صورت تک‌تک» است.",
+   "explanationAfterAnswerEN": "'jeder' refers to the singular and means 'each one'."
+  },
+  {
+   "id": "ex-indef-2",
+   "lessonSlug": "indefinitartikel",
+   "type": "fillBlank",
+   "promptDE": "Ergänze den richtigen Indefinitartikel.",
+   "promptFA": "آرتیکل نامعین درست را کامل کن.",
+   "promptEN": "Complete with the correct indefinite article.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Ich habe ___ Zeit für diese Diskussion.",
+    "correctAnswer": "keine",
+    "alternatives": [
+     "kein",
+     "keinen"
+    ]
+   },
+   "explanationAfterAnswerDE": "'Zeit' ist feminin: 'keine' im Akkusativ.",
+   "explanationAfterAnswerFA": "«Zeit» مؤنث است: «keine» در Akkusativ.",
+   "explanationAfterAnswerEN": "'Zeit' is feminine: 'keine' in the accusative."
+  },
+  {
+   "id": "ex-indef-3",
+   "lessonSlug": "indefinitartikel",
+   "type": "matching",
+   "promptDE": "Verbinde Indefinitartikel und Bedeutung.",
+   "promptFA": "آرتیکل نامعین را به معنایش وصل کن.",
+   "promptEN": "Match the indefinite article to its meaning.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "jeder",
+      "right": "alle einzeln"
+     },
+     {
+      "left": "einige",
+      "right": "eine kleine Anzahl"
+     },
+     {
+      "left": "kein",
+      "right": "null / gar nicht"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Jeder Indefinitartikel hat eine eigene Nuance.",
+   "explanationAfterAnswerFA": "هر آرتیکل نامعین یک نوانس (سایه‌معنایی) مخصوص خودش دارد.",
+   "explanationAfterAnswerEN": "Each indefinite article has its own nuance."
+  },
+  {
+   "id": "ex-indef-4",
+   "lessonSlug": "indefinitartikel",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "später",
+     "kommen",
+     "Einige",
+     "Kollegen"
+    ],
+    "correctSentence": "Einige Kollegen kommen später."
+   },
+   "explanationAfterAnswerDE": "'einige' + Plural-Nomen ohne weitere Endung.",
+   "explanationAfterAnswerFA": "«einige» + اسم جمع بدون پایانهٔ دیگر.",
+   "explanationAfterAnswerEN": "'einige' + plural noun without further ending."
+  },
+  {
+   "id": "ex-interr-1",
+   "lessonSlug": "interrogativartikel",
+   "type": "multipleChoice",
+   "promptDE": "___ Zug fährt nach Köln?",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "Welche",
+     "Welcher",
+     "Welches",
+     "Welchen"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "'Zug' ist maskulin: 'welcher' im Nominativ.",
+   "explanationAfterAnswerFA": "«Zug» مذکر است: «welcher» در Nominativ.",
+   "explanationAfterAnswerEN": "'Zug' is masculine: 'welcher' in the nominative."
+  },
+  {
+   "id": "ex-interr-2",
+   "lessonSlug": "interrogativartikel",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Form.",
+   "promptFA": "شکل درست را کامل کن.",
+   "promptEN": "Complete with the correct form.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Mit ___ Bus kommst du?",
+    "correctAnswer": "welchem",
+    "alternatives": [
+     "welcher",
+     "welches"
+    ]
+   },
+   "explanationAfterAnswerDE": "'mit' verlangt Dativ; 'Bus' ist maskulin: 'welchem'.",
+   "explanationAfterAnswerFA": "«mit» به Dativ نیاز دارد؛ «Bus» مذکر است: «welchem».",
+   "explanationAfterAnswerEN": "'mit' requires the dative; 'Bus' is masculine: 'welchem'."
+  },
+  {
+   "id": "ex-interr-3",
+   "lessonSlug": "interrogativartikel",
+   "type": "matching",
+   "promptDE": "Verbinde Genus und Form von 'welcher'.",
+   "promptFA": "جنسیت را به شکل «welcher» وصل کن.",
+   "promptEN": "Match the gender to the form of 'welcher'.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "maskulin",
+      "right": "welcher"
+     },
+     {
+      "left": "feminin",
+      "right": "welche"
+     },
+     {
+      "left": "neutrum",
+      "right": "welches"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "'welcher' wird wie der bestimmte Artikel dekliniert.",
+   "explanationAfterAnswerFA": "«welcher» مانند آرتیکل معین صرف می‌شود.",
+   "explanationAfterAnswerEN": "'welcher' is declined like the definite article."
+  },
+  {
+   "id": "ex-interr-4",
+   "lessonSlug": "interrogativartikel",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "am",
+     "gelesen",
+     "Buch",
+     "hast",
+     "gerade",
+     "du",
+     "Welches"
+    ],
+    "correctSentence": "Welches Buch hast du gerade gelesen?"
+   },
+   "explanationAfterAnswerDE": "'Buch' ist neutrum: 'welches' im Akkusativ.",
+   "explanationAfterAnswerFA": "«Buch» خنثی است: «welches» در Akkusativ.",
+   "explanationAfterAnswerEN": "'Buch' is neuter: 'welches' in the accusative."
+  }
+ ]
+}

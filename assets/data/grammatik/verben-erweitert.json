@@ -1,0 +1,1030 @@
+{
+ "_index": {
+  "fileDescription": "Verben – Erweitert: Unregelmäßige Verben, Trennbare Verben, Reflexive Verben, Modalverben, Imperativ",
+  "lastUpdatedStage": 4,
+  "lessons": [
+   "unregelmaessige-verben — افعال بی‌قاعده",
+   "trennbare-verben — افعال جداشدنی",
+   "reflexive-verben — افعال انعکاسی",
+   "modalverben — افعال وجهی",
+   "imperativ — امر"
+  ]
+ },
+ "lessons": [
+  {
+   "id": "unregelmaessige-verben",
+   "slug": "unregelmaessige-verben",
+   "titleDE": "Unregelmäßige Verben",
+   "titleFA": "افعال بی‌قاعده",
+   "titleEN": "Irregular Verbs",
+   "levels": [
+    "A2",
+    "B1"
+   ],
+   "category": "verben",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": "Stammvokalwechsel",
+     "headingFA": "تغییر مصوت ریشه",
+     "headingEN": "Stem Vowel Change",
+     "bodyDE": "Viele unregelmäßige Verben ändern ihren Stammvokal in der 2. und 3. Person Singular Präsens (e→i, e→ie, a→ä) sowie im Präteritum und Partizip II.",
+     "bodyFA": "بسیاری از افعال بی‌قاعده در دوم و سوم شخص مفرد زمان حال (e→i، e→ie، a→ä) و همچنین در Präteritum و Partizip II مصوت ریشه‌شان تغییر می‌کند.",
+     "bodyEN": "Many irregular verbs change their stem vowel in the 2nd and 3rd person singular present tense (e→i, e→ie, a→ä) as well as in the simple past and Partizip II."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Sie fährt jeden Morgen zur Arbeit.",
+     "meaningFA": "او هر صبح به سر کار می‌رود.",
+     "meaningEN": "She drives to work every morning.",
+     "noteDE": "a→ä bei 'fahren'.",
+     "noteFA": "a→ä در فعل «fahren».",
+     "noteEN": "a→ä in 'fahren'."
+    },
+    {
+     "id": "ex-2",
+     "german": "Er isst gern Pizza.",
+     "meaningFA": "او پیتزا دوست دارد بخورد.",
+     "meaningEN": "He likes to eat pizza."
+    },
+    {
+     "id": "ex-3",
+     "german": "Wir haben das Buch gelesen.",
+     "meaningFA": "ما آن کتاب را خواندیم.",
+     "meaningEN": "We read the book."
+    },
+    {
+     "id": "ex-4",
+     "german": "Nimmst du den Bus oder das Auto?",
+     "meaningFA": "با اتوبوس می‌روی یا ماشین؟",
+     "meaningEN": "Are you taking the bus or the car?"
+    },
+    {
+     "id": "ex-5",
+     "german": "Sie hat gestern lange geschlafen.",
+     "meaningFA": "او دیروز خیلی خوابید.",
+     "meaningEN": "She slept a long time yesterday."
+    },
+    {
+     "id": "ex-6",
+     "german": "Ich half meinem Nachbarn im Garten.",
+     "meaningFA": "من به همسایه‌ام در باغ کمک کردم.",
+     "meaningEN": "I helped my neighbor in the garden."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "Häufige unregelmäßige Verben",
+     "titleFA": "افعال بی‌قاعدهٔ پرکاربرد",
+     "titleEN": "Common Irregular Verbs",
+     "style": "simple",
+     "columns": [
+      "Infinitiv",
+      "Präsens (er/sie)",
+      "Präteritum",
+      "Partizip II"
+     ],
+     "rows": [
+      {
+       "rowLabel": "fahren",
+       "cells": [
+        "fährt",
+        "fuhr",
+        "gefahren"
+       ]
+      },
+      {
+       "rowLabel": "essen",
+       "cells": [
+        "isst",
+        "aß",
+        "gegessen"
+       ]
+      },
+      {
+       "rowLabel": "lesen",
+       "cells": [
+        "liest",
+        "las",
+        "gelesen"
+       ]
+      },
+      {
+       "rowLabel": "nehmen",
+       "cells": [
+        "nimmt",
+        "nahm",
+        "genommen"
+       ]
+      },
+      {
+       "rowLabel": "schlafen",
+       "cells": [
+        "schläft",
+        "schlief",
+        "geschlafen"
+       ]
+      },
+      {
+       "rowLabel": "helfen",
+       "cells": [
+        "hilft",
+        "half",
+        "geholfen"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "regelmaessige-verben",
+    "trennbare-verben"
+   ],
+   "exerciseSlugs": [
+    "ex-unreg-1",
+    "ex-unreg-2",
+    "ex-unreg-3",
+    "ex-unreg-4"
+   ]
+  },
+  {
+   "id": "trennbare-verben",
+   "slug": "trennbare-verben",
+   "titleDE": "Trennbare Verben",
+   "titleFA": "افعال جداشدنی",
+   "titleEN": "Separable Verbs",
+   "levels": [
+    "A1",
+    "A2"
+   ],
+   "category": "verben",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Trennbare Verben bestehen aus einem Präfix (z.B. auf-, an-, mit-, ein-) und einem Verbstamm. Im Hauptsatz im Präsens und Präteritum steht das Präfix am Satzende, getrennt vom konjugierten Verb.",
+     "bodyFA": "افعال جداشدنی از یک پیشوند (مثل auf-، an-، mit-، ein-) و ریشهٔ فعل تشکیل می‌شوند. در جملهٔ اصلی در Präsens و Präteritum، پیشوند در انتهای جمله، جدا از فعل صرف‌شده قرار می‌گیرد.",
+     "bodyEN": "Separable verbs consist of a prefix (e.g. auf-, an-, mit-, ein-) and a verb stem. In a main clause in the Present and Simple Past, the prefix goes to the end of the sentence, separated from the conjugated verb."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Sie steht um sieben Uhr auf.",
+     "meaningFA": "او ساعت هفت بیدار می‌شود.",
+     "meaningEN": "She gets up at seven o'clock.",
+     "noteDE": "aufstehen → steht ... auf.",
+     "noteFA": "aufstehen → steht ... auf.",
+     "noteEN": "aufstehen → steht ... auf."
+    },
+    {
+     "id": "ex-2",
+     "german": "Wir rufen unsere Tante an.",
+     "meaningFA": "ما به عمه‌مان زنگ می‌زنیم.",
+     "meaningEN": "We call our aunt."
+    },
+    {
+     "id": "ex-3",
+     "german": "Machst du das Fenster zu?",
+     "meaningFA": "پنجره را می‌بندی؟",
+     "meaningEN": "Are you closing the window?"
+    },
+    {
+     "id": "ex-4",
+     "german": "Ich räume mein Zimmer auf.",
+     "meaningFA": "من اتاقم را مرتب می‌کنم.",
+     "meaningEN": "I'm tidying up my room."
+    },
+    {
+     "id": "ex-5",
+     "german": "Er hat gestern seinen Koffer ausgepackt.",
+     "meaningFA": "او دیروز چمدانش را باز کرد.",
+     "meaningEN": "He unpacked his suitcase yesterday."
+    },
+    {
+     "id": "ex-6",
+     "german": "Die Kinder ziehen ihre Schuhe an.",
+     "meaningFA": "بچه‌ها کفش‌هایشان را می‌پوشند.",
+     "meaningEN": "The children are putting on their shoes."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "unregelmaessige-verben",
+    "reflexive-verben"
+   ],
+   "exerciseSlugs": [
+    "ex-trenn-1",
+    "ex-trenn-2",
+    "ex-trenn-3",
+    "ex-trenn-4"
+   ]
+  },
+  {
+   "id": "reflexive-verben",
+   "slug": "reflexive-verben",
+   "titleDE": "Reflexive Verben",
+   "titleFA": "افعال انعکاسی",
+   "titleEN": "Reflexive Verbs",
+   "levels": [
+    "A2",
+    "B1"
+   ],
+   "category": "verben",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Reflexive Verben brauchen ein Reflexivpronomen (mich, dich, sich, uns, euch, sich), das sich auf das Subjekt bezieht. Manche Verben sind immer reflexiv (sich freuen), andere nur manchmal (sich waschen / jemanden waschen).",
+     "bodyFA": "افعال انعکاسی به یک ضمیر انعکاسی (mich، dich، sich، uns، euch، sich) نیاز دارند که به فاعل برمی‌گردد. برخی فعل‌ها همیشه انعکاسی‌اند (sich freuen)، برخی فقط گاهی (sich waschen / jemanden waschen).",
+     "bodyEN": "Reflexive verbs need a reflexive pronoun (mich, dich, sich, uns, euch, sich) that refers back to the subject. Some verbs are always reflexive (sich freuen), others only sometimes (sich waschen / jemanden waschen)."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Ich freue mich auf die Ferien.",
+     "meaningFA": "من منتظر تعطیلات هستم (خوشحالم).",
+     "meaningEN": "I'm looking forward to the holidays."
+    },
+    {
+     "id": "ex-2",
+     "german": "Er wäscht sich jeden Morgen.",
+     "meaningFA": "او هر صبح خودش را می‌شوید.",
+     "meaningEN": "He washes himself every morning."
+    },
+    {
+     "id": "ex-3",
+     "german": "Wir erinnern uns gern an die Reise.",
+     "meaningFA": "ما با کمال میل سفر را به یاد می‌آوریم.",
+     "meaningEN": "We fondly remember the trip."
+    },
+    {
+     "id": "ex-4",
+     "german": "Interessierst du dich für Musik?",
+     "meaningFA": "به موسیقی علاقه داری؟",
+     "meaningEN": "Are you interested in music?"
+    },
+    {
+     "id": "ex-5",
+     "german": "Ihr müsst euch beeilen.",
+     "meaningFA": "شما باید عجله کنید.",
+     "meaningEN": "You (pl.) have to hurry."
+    },
+    {
+     "id": "ex-6",
+     "german": "Die Studenten setzen sich an den Tisch.",
+     "meaningFA": "دانشجویان پشت میز می‌نشینند.",
+     "meaningEN": "The students sit down at the table."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "Reflexivpronomen (Akkusativ)",
+     "titleFA": "ضمایر انعکاسی (حالت Akkusativ)",
+     "titleEN": "Reflexive Pronouns (Accusative)",
+     "style": "simple",
+     "columns": [
+      "Form"
+     ],
+     "rows": [
+      {
+       "rowLabel": "ich",
+       "cells": [
+        "mich"
+       ]
+      },
+      {
+       "rowLabel": "du",
+       "cells": [
+        "dich"
+       ]
+      },
+      {
+       "rowLabel": "er/sie/es",
+       "cells": [
+        "sich"
+       ]
+      },
+      {
+       "rowLabel": "wir",
+       "cells": [
+        "uns"
+       ]
+      },
+      {
+       "rowLabel": "ihr",
+       "cells": [
+        "euch"
+       ]
+      },
+      {
+       "rowLabel": "sie/Sie",
+       "cells": [
+        "sich"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "trennbare-verben",
+    "reflexivpronomen"
+   ],
+   "exerciseSlugs": [
+    "ex-reflex-1",
+    "ex-reflex-2",
+    "ex-reflex-3",
+    "ex-reflex-4"
+   ]
+  },
+  {
+   "id": "modalverben",
+   "slug": "modalverben",
+   "titleDE": "Modalverben",
+   "titleFA": "افعال وجهی",
+   "titleEN": "Modal Verbs",
+   "levels": [
+    "A1",
+    "A2"
+   ],
+   "category": "verben",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Die Modalverben (können, müssen, wollen, sollen, dürfen, mögen) verändern die Bedeutung eines anderen Verbs (Notwendigkeit, Fähigkeit, Erlaubnis, Wunsch). Das Hauptverb steht im Infinitiv am Satzende.",
+     "bodyFA": "افعال وجهی (können، müssen، wollen، sollen، dürfen، mögen) معنای فعل دیگری را تغییر می‌دهند (ضرورت، توانایی، اجازه، خواسته). فعل اصلی به‌صورت Infinitiv در انتهای جمله می‌آید.",
+     "bodyEN": "Modal verbs (können, müssen, wollen, sollen, dürfen, mögen) modify the meaning of another verb (necessity, ability, permission, wish). The main verb appears in infinitive form at the end of the sentence."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Ich kann gut schwimmen.",
+     "meaningFA": "من می‌توانم خوب شنا کنم.",
+     "meaningEN": "I can swim well."
+    },
+    {
+     "id": "ex-2",
+     "german": "Wir müssen morgen früh aufstehen.",
+     "meaningFA": "ما باید فردا زود بیدار شویم.",
+     "meaningEN": "We have to get up early tomorrow."
+    },
+    {
+     "id": "ex-3",
+     "german": "Willst du mit uns ins Kino gehen?",
+     "meaningFA": "می‌خواهی با ما به سینما بیایی؟",
+     "meaningEN": "Do you want to go to the cinema with us?"
+    },
+    {
+     "id": "ex-4",
+     "german": "Ihr dürft hier nicht rauchen.",
+     "meaningFA": "شما اینجا نباید سیگار بکشید.",
+     "meaningEN": "You (pl.) are not allowed to smoke here."
+    },
+    {
+     "id": "ex-5",
+     "german": "Er soll seine Hausaufgaben machen.",
+     "meaningFA": "او باید تکالیفش را انجام دهد.",
+     "meaningEN": "He is supposed to do his homework."
+    },
+    {
+     "id": "ex-6",
+     "german": "Meine Schwester mag keinen Kaffee.",
+     "meaningFA": "خواهرم قهوه دوست ندارد.",
+     "meaningEN": "My sister doesn't like coffee."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "Konjugation der Modalverben (Präsens)",
+     "titleFA": "صرف افعال وجهی (زمان حال)",
+     "titleEN": "Conjugation of Modal Verbs (Present)",
+     "style": "simple",
+     "columns": [
+      "können",
+      "müssen",
+      "wollen",
+      "dürfen",
+      "sollen",
+      "mögen"
+     ],
+     "rows": [
+      {
+       "rowLabel": "ich",
+       "cells": [
+        "kann",
+        "muss",
+        "will",
+        "darf",
+        "soll",
+        "mag"
+       ]
+      },
+      {
+       "rowLabel": "du",
+       "cells": [
+        "kannst",
+        "musst",
+        "willst",
+        "darfst",
+        "sollst",
+        "magst"
+       ]
+      },
+      {
+       "rowLabel": "er/sie/es",
+       "cells": [
+        "kann",
+        "muss",
+        "will",
+        "darf",
+        "soll",
+        "mag"
+       ]
+      },
+      {
+       "rowLabel": "wir",
+       "cells": [
+        "können",
+        "müssen",
+        "wollen",
+        "dürfen",
+        "sollen",
+        "mögen"
+       ]
+      },
+      {
+       "rowLabel": "ihr",
+       "cells": [
+        "könnt",
+        "müsst",
+        "wollt",
+        "dürft",
+        "sollt",
+        "mögt"
+       ]
+      },
+      {
+       "rowLabel": "sie/Sie",
+       "cells": [
+        "können",
+        "müssen",
+        "wollen",
+        "dürfen",
+        "sollen",
+        "mögen"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "imperativ"
+   ],
+   "exerciseSlugs": [
+    "ex-modal-1",
+    "ex-modal-2",
+    "ex-modal-3",
+    "ex-modal-4"
+   ]
+  },
+  {
+   "id": "imperativ",
+   "slug": "imperativ",
+   "titleDE": "Der Imperativ",
+   "titleFA": "حالت امری",
+   "titleEN": "The Imperative",
+   "levels": [
+    "A1",
+    "A2"
+   ],
+   "category": "verben",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Der Imperativ wird für Befehle, Bitten und Ratschläge verwendet. Er existiert für 'du', 'ihr' und 'Sie'. Bei 'du' fällt die Endung -st weg, bei starken Verben mit e→i/ie-Wechsel bleibt dieser erhalten.",
+     "bodyFA": "حالت امری برای دستور، درخواست و توصیه استفاده می‌شود. برای «du»، «ihr» و «Sie» وجود دارد. برای «du» پایانهٔ -st حذف می‌شود، در افعال قوی با تغییر e→i/ie این تغییر باقی می‌ماند.",
+     "bodyEN": "The imperative is used for commands, requests, and advice. It exists for 'du', 'ihr', and 'Sie'. For 'du', the -st ending is dropped; for strong verbs with an e→i/ie change, this change is kept."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Mach bitte das Licht aus!",
+     "meaningFA": "لطفاً چراغ را خاموش کن!",
+     "meaningEN": "Please turn off the light!"
+    },
+    {
+     "id": "ex-2",
+     "german": "Nimm doch noch etwas Kuchen!",
+     "meaningFA": "یه کم کیک دیگه بردار!",
+     "meaningEN": "Have some more cake!"
+    },
+    {
+     "id": "ex-3",
+     "german": "Kommt bitte pünktlich!",
+     "meaningFA": "لطفاً سر وقت بیایید!",
+     "meaningEN": "Please come on time (pl.)!"
+    },
+    {
+     "id": "ex-4",
+     "german": "Seien Sie so freundlich und warten Sie kurz.",
+     "meaningFA": "لطف کنید و کمی صبر کنید.",
+     "meaningEN": "Please be kind and wait a moment."
+    },
+    {
+     "id": "ex-5",
+     "german": "Hilf mir bitte mit den Taschen!",
+     "meaningFA": "لطفاً با کیف‌ها کمکم کن!",
+     "meaningEN": "Please help me with the bags!"
+    },
+    {
+     "id": "ex-6",
+     "german": "Vergesst eure Hausaufgaben nicht!",
+     "meaningFA": "تکالیفتان را فراموش نکنید!",
+     "meaningEN": "Don't forget your homework (pl.)!"
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "modalverben"
+   ],
+   "exerciseSlugs": [
+    "ex-imp-1",
+    "ex-imp-2",
+    "ex-imp-3",
+    "ex-imp-4"
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-unreg-1",
+   "lessonSlug": "unregelmaessige-verben",
+   "type": "multipleChoice",
+   "promptDE": "Sie ___ jeden Morgen zur Arbeit.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "fahrt",
+     "fährt",
+     "fahren",
+     "fahre"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "Bei 'fahren' ändert sich a→ä bei 'du' und 'er/sie/es'.",
+   "explanationAfterAnswerFA": "در فعل «fahren»، برای «du» و «er/sie/es» تغییر a→ä رخ می‌دهد.",
+   "explanationAfterAnswerEN": "In 'fahren', a changes to ä for 'du' and 'er/sie/es'."
+  },
+  {
+   "id": "ex-unreg-2",
+   "lessonSlug": "unregelmaessige-verben",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Form.",
+   "promptFA": "شکل درست را کامل کن.",
+   "promptEN": "Complete with the correct form.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Er ___ (essen) gern Pizza.",
+    "correctAnswer": "isst",
+    "alternatives": [
+     "esst",
+     "essen"
+    ]
+   },
+   "explanationAfterAnswerDE": "Bei 'essen' ändert sich e→i bei 'er/sie/es'.",
+   "explanationAfterAnswerFA": "در فعل «essen»، برای «er/sie/es» تغییر e→i رخ می‌دهد.",
+   "explanationAfterAnswerEN": "In 'essen', e changes to i for 'er/sie/es'."
+  },
+  {
+   "id": "ex-unreg-3",
+   "lessonSlug": "unregelmaessige-verben",
+   "type": "transform",
+   "promptDE": "Wandle den Satz ins Präteritum um.",
+   "promptFA": "جمله را به Präteritum تبدیل کن.",
+   "promptEN": "Transform into simple past.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Ich helfe meinem Nachbarn.",
+    "instructionDE": "Präteritum-Form.",
+    "instructionFA": "به شکل Präteritum تبدیل کن.",
+    "instructionEN": "Transform to simple past.",
+    "correctAnswer": "Ich half meinem Nachbarn."
+   },
+   "explanationAfterAnswerDE": "Präteritum von 'helfen' ist 'half'.",
+   "explanationAfterAnswerFA": "Präteritum فعل «helfen»، «half» است.",
+   "explanationAfterAnswerEN": "The simple past of 'helfen' is 'half'."
+  },
+  {
+   "id": "ex-unreg-4",
+   "lessonSlug": "unregelmaessige-verben",
+   "type": "matching",
+   "promptDE": "Verbinde Infinitiv und Partizip II.",
+   "promptFA": "مصدر را به Partizip II وصل کن.",
+   "promptEN": "Match infinitive to Partizip II.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "lesen",
+      "right": "gelesen"
+     },
+     {
+      "left": "nehmen",
+      "right": "genommen"
+     },
+     {
+      "left": "schlafen",
+      "right": "geschlafen"
+     },
+     {
+      "left": "fahren",
+      "right": "gefahren"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Partizip II unregelmäßiger Verben muss auswendig gelernt werden.",
+   "explanationAfterAnswerFA": "Partizip II افعال بی‌قاعده باید حفظ شود.",
+   "explanationAfterAnswerEN": "The Partizip II of irregular verbs must be memorized."
+  },
+  {
+   "id": "ex-trenn-1",
+   "lessonSlug": "trennbare-verben",
+   "type": "multipleChoice",
+   "promptDE": "Sie steht um sieben Uhr ___.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "auf",
+     "an",
+     "zu",
+     "mit"
+    ],
+    "correctIndex": 0
+   },
+   "explanationAfterAnswerDE": "aufstehen: das Präfix 'auf' steht am Satzende.",
+   "explanationAfterAnswerFA": "aufstehen: پیشوند «auf» در انتهای جمله می‌آید.",
+   "explanationAfterAnswerEN": "aufstehen: the prefix 'auf' goes to the end of the sentence."
+  },
+  {
+   "id": "ex-trenn-2",
+   "lessonSlug": "trennbare-verben",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "Tante",
+     "Wir",
+     "unsere",
+     "an",
+     "rufen"
+    ],
+    "correctSentence": "Wir rufen unsere Tante an."
+   },
+   "explanationAfterAnswerDE": "anrufen: 'ruft ... an' bzw. 'rufen ... an'.",
+   "explanationAfterAnswerFA": "anrufen: «ruft ... an» یا «rufen ... an».",
+   "explanationAfterAnswerEN": "anrufen: 'ruft ... an' or 'rufen ... an'."
+  },
+  {
+   "id": "ex-trenn-3",
+   "lessonSlug": "trennbare-verben",
+   "type": "fillBlank",
+   "promptDE": "Ergänze das Präfix.",
+   "promptFA": "پیشوند را کامل کن.",
+   "promptEN": "Complete with the correct prefix.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Ich räume mein Zimmer ___.",
+    "correctAnswer": "auf",
+    "alternatives": [
+     "an",
+     "ein"
+    ]
+   },
+   "explanationAfterAnswerDE": "aufräumen: aufräumen bedeutet ordentlich machen.",
+   "explanationAfterAnswerFA": "aufräumen به معنای مرتب کردن است.",
+   "explanationAfterAnswerEN": "aufräumen means to tidy up."
+  },
+  {
+   "id": "ex-trenn-4",
+   "lessonSlug": "trennbare-verben",
+   "type": "transform",
+   "promptDE": "Wandle den Satz ins Perfekt um.",
+   "promptFA": "جمله را به Perfekt تبدیل کن.",
+   "promptEN": "Transform into the Perfect tense.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Er packt seinen Koffer aus.",
+    "instructionDE": "Perfekt-Form.",
+    "instructionFA": "به شکل Perfekt تبدیل کن.",
+    "instructionEN": "Transform to the Perfect tense.",
+    "correctAnswer": "Er hat seinen Koffer ausgepackt."
+   },
+   "explanationAfterAnswerDE": "Bei trennbaren Verben steht 'ge' zwischen Präfix und Stamm: aus-ge-packt.",
+   "explanationAfterAnswerFA": "در افعال جداشدنی، 'ge' بین پیشوند و ریشه قرار می‌گیرد: aus-ge-packt.",
+   "explanationAfterAnswerEN": "In separable verbs, 'ge' goes between the prefix and the stem: aus-ge-packt."
+  },
+  {
+   "id": "ex-reflex-1",
+   "lessonSlug": "reflexive-verben",
+   "type": "multipleChoice",
+   "promptDE": "Ich freue ___ auf die Ferien.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "mich",
+     "dich",
+     "sich",
+     "uns"
+    ],
+    "correctIndex": 0
+   },
+   "explanationAfterAnswerDE": "Bei 'ich' verwendet man das Reflexivpronomen 'mich'.",
+   "explanationAfterAnswerFA": "برای «ich» از ضمیر انعکاسی «mich» استفاده می‌شود.",
+   "explanationAfterAnswerEN": "For 'ich', the reflexive pronoun 'mich' is used."
+  },
+  {
+   "id": "ex-reflex-2",
+   "lessonSlug": "reflexive-verben",
+   "type": "fillBlank",
+   "promptDE": "Ergänze das Reflexivpronomen.",
+   "promptFA": "ضمیر انعکاسی را کامل کن.",
+   "promptEN": "Complete with the reflexive pronoun.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Interessierst du ___ für Musik?",
+    "correctAnswer": "dich",
+    "alternatives": [
+     "dir",
+     "sich"
+    ]
+   },
+   "explanationAfterAnswerDE": "Bei 'du' verwendet man 'dich'.",
+   "explanationAfterAnswerFA": "برای «du» از «dich» استفاده می‌شود.",
+   "explanationAfterAnswerEN": "For 'du', 'dich' is used."
+  },
+  {
+   "id": "ex-reflex-3",
+   "lessonSlug": "reflexive-verben",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "Tisch",
+     "sich",
+     "Studenten",
+     "Die",
+     "setzen",
+     "an",
+     "den"
+    ],
+    "correctSentence": "Die Studenten setzen sich an den Tisch."
+   },
+   "explanationAfterAnswerDE": "Das Reflexivpronomen steht direkt nach dem Verb.",
+   "explanationAfterAnswerFA": "ضمیر انعکاسی بلافاصله بعد از فعل می‌آید.",
+   "explanationAfterAnswerEN": "The reflexive pronoun comes directly after the verb."
+  },
+  {
+   "id": "ex-reflex-4",
+   "lessonSlug": "reflexive-verben",
+   "type": "matching",
+   "promptDE": "Verbinde Person und Reflexivpronomen.",
+   "promptFA": "شخص را به ضمیر انعکاسی وصل کن.",
+   "promptEN": "Match the person to the reflexive pronoun.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "wir",
+      "right": "uns"
+     },
+     {
+      "left": "ihr",
+      "right": "euch"
+     },
+     {
+      "left": "er",
+      "right": "sich"
+     },
+     {
+      "left": "ich",
+      "right": "mich"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Jede Person hat ein eigenes Reflexivpronomen (außer er/sie/es/sie/Sie = sich).",
+   "explanationAfterAnswerFA": "هر شخص ضمیر انعکاسی مخصوص خودش را دارد (به‌جز er/sie/es/sie/Sie که «sich» است).",
+   "explanationAfterAnswerEN": "Each person has its own reflexive pronoun (except er/sie/es/sie/Sie = sich)."
+  },
+  {
+   "id": "ex-modal-1",
+   "lessonSlug": "modalverben",
+   "type": "multipleChoice",
+   "promptDE": "Ich ___ gut schwimmen.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "kann",
+     "kannst",
+     "können",
+     "könnt"
+    ],
+    "correctIndex": 0
+   },
+   "explanationAfterAnswerDE": "Bei 'ich' lautet die Form 'kann'.",
+   "explanationAfterAnswerFA": "برای «ich» شکل درست «kann» است.",
+   "explanationAfterAnswerEN": "For 'ich', the form is 'kann'."
+  },
+  {
+   "id": "ex-modal-2",
+   "lessonSlug": "modalverben",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "aufstehen",
+     "müssen",
+     "früh",
+     "morgen",
+     "Wir"
+    ],
+    "correctSentence": "Wir müssen morgen früh aufstehen."
+   },
+   "explanationAfterAnswerDE": "Das Modalverb steht an Position 2, der Infinitiv am Satzende.",
+   "explanationAfterAnswerFA": "فعل وجهی در جایگاه دوم و مصدر در انتهای جمله می‌آید.",
+   "explanationAfterAnswerEN": "The modal verb is in position 2, and the infinitive is at the end."
+  },
+  {
+   "id": "ex-modal-3",
+   "lessonSlug": "modalverben",
+   "type": "fillBlank",
+   "promptDE": "Ergänze das richtige Modalverb.",
+   "promptFA": "فعل وجهی درست را کامل کن.",
+   "promptEN": "Complete with the correct modal verb.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Ihr ___ hier nicht rauchen.",
+    "correctAnswer": "dürft",
+    "alternatives": [
+     "könnt",
+     "müsst"
+    ]
+   },
+   "explanationAfterAnswerDE": "'dürfen' + nicht drückt ein Verbot aus.",
+   "explanationAfterAnswerFA": "«dürfen» + nicht بیانگر ممنوعیت است.",
+   "explanationAfterAnswerEN": "'dürfen' + nicht expresses prohibition."
+  },
+  {
+   "id": "ex-modal-4",
+   "lessonSlug": "modalverben",
+   "type": "matching",
+   "promptDE": "Verbinde Modalverb und Bedeutung.",
+   "promptFA": "فعل وجهی را به معنایش وصل کن.",
+   "promptEN": "Match the modal verb to its meaning.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "können",
+      "right": "Fähigkeit"
+     },
+     {
+      "left": "müssen",
+      "right": "Notwendigkeit"
+     },
+     {
+      "left": "dürfen",
+      "right": "Erlaubnis"
+     },
+     {
+      "left": "wollen",
+      "right": "Wunsch"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Jedes Modalverb hat eine eigene Grundbedeutung.",
+   "explanationAfterAnswerFA": "هر فعل وجهی معنای پایهٔ مخصوص خودش را دارد.",
+   "explanationAfterAnswerEN": "Each modal verb has its own basic meaning."
+  },
+  {
+   "id": "ex-imp-1",
+   "lessonSlug": "imperativ",
+   "type": "multipleChoice",
+   "promptDE": "___ bitte das Licht aus!",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "Machst",
+     "Mach",
+     "Macht",
+     "Machen"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "Imperativ für 'du': Verbstamm ohne Endung.",
+   "explanationAfterAnswerFA": "امر برای «du»: ریشهٔ فعل بدون پایانه.",
+   "explanationAfterAnswerEN": "Imperative for 'du': verb stem without ending."
+  },
+  {
+   "id": "ex-imp-2",
+   "lessonSlug": "imperativ",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die Imperativform.",
+   "promptFA": "شکل امری را کامل کن.",
+   "promptEN": "Complete with the imperative form.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "___ (nehmen) doch noch etwas Kuchen!",
+    "correctAnswer": "Nimm",
+    "alternatives": [
+     "Nehme",
+     "Nehmt"
+    ]
+   },
+   "explanationAfterAnswerDE": "Bei 'nehmen' bleibt der e→i-Wechsel im Imperativ 'du' erhalten: Nimm!",
+   "explanationAfterAnswerFA": "در فعل «nehmen»، تغییر e→i در حالت امر «du» باقی می‌ماند: Nimm!",
+   "explanationAfterAnswerEN": "In 'nehmen', the e→i change is kept in the 'du' imperative: Nimm!"
+  },
+  {
+   "id": "ex-imp-3",
+   "lessonSlug": "imperativ",
+   "type": "transform",
+   "promptDE": "Wandle in die 'Sie'-Form des Imperativs um.",
+   "promptFA": "به شکل امری «Sie» تبدیل کن.",
+   "promptEN": "Transform into the 'Sie' imperative form.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Warten Sie kurz.",
+    "instructionDE": "Bereits korrekt — bestätige die Struktur.",
+    "instructionFA": "جمله را با ساختار 'Seien Sie so freundlich und ...' گسترش بده.",
+    "instructionEN": "Expand using 'Seien Sie so freundlich und ...'",
+    "correctAnswer": "Seien Sie so freundlich und warten Sie kurz."
+   },
+   "explanationAfterAnswerDE": "Die höfliche Bitte wird oft mit 'Seien Sie so freundlich und ...' eingeleitet.",
+   "explanationAfterAnswerFA": "درخواست مؤدبانه اغلب با «Seien Sie so freundlich und ...» شروع می‌شود.",
+   "explanationAfterAnswerEN": "A polite request is often introduced with 'Seien Sie so freundlich und ...'"
+  },
+  {
+   "id": "ex-imp-4",
+   "lessonSlug": "imperativ",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Imperativsatz.",
+   "promptFA": "جملهٔ امری را به‌درستی بچین.",
+   "promptEN": "Form a correct imperative sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "eure",
+     "nicht",
+     "Hausaufgaben",
+     "Vergesst"
+    ],
+    "correctSentence": "Vergesst eure Hausaufgaben nicht!"
+   },
+   "explanationAfterAnswerDE": "Imperativ für 'ihr': Verbstamm + -t, ohne Personalpronomen.",
+   "explanationAfterAnswerFA": "امر برای «ihr»: ریشهٔ فعل + -t، بدون ضمیر شخصی.",
+   "explanationAfterAnswerEN": "Imperative for 'ihr': verb stem + -t, without a personal pronoun."
+  }
+ ]
+}

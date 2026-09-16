@@ -1,0 +1,987 @@
+{
+ "_index": {
+  "fileDescription": "Präpositionen: mit Akkusativ, mit Dativ, Wechselpräpositionen, mit Genitiv, Lokale/Temporale Präpositionen",
+  "lastUpdatedStage": 15,
+  "lessons": [
+   "praepositionen-akkusativ — حرف‌اضافه با Akkusativ",
+   "praepositionen-dativ — حرف‌اضافه با Dativ",
+   "wechselpraepositionen — حرف‌اضافهٔ دوگانه (Wechselpräpositionen)",
+   "praepositionen-genitiv — حرف‌اضافه با Genitiv",
+   "lokale-temporale-praepositionen — حرف‌اضافهٔ مکانی و زمانی"
+  ]
+ },
+ "lessons": [
+  {
+   "id": "praepositionen-akkusativ",
+   "slug": "praepositionen-akkusativ",
+   "titleDE": "Präpositionen mit Akkusativ",
+   "titleFA": "حرف‌اضافه با Akkusativ",
+   "titleEN": "Prepositions with the Accusative",
+   "levels": [
+    "A1",
+    "A2"
+   ],
+   "category": "praepositionen",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Diese Präpositionen verlangen immer den Akkusativ: für, durch, gegen, ohne, um, entlang (nachgestellt).",
+     "bodyFA": "این حروف‌اضافه همیشه به Akkusativ نیاز دارند: für، durch، gegen، ohne، um، entlang (پس از اسم می‌آید).",
+     "bodyEN": "These prepositions always require the accusative: für, durch, gegen, ohne, um, entlang (placed after the noun)."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Das Geschenk ist für meinen Kollegen.",
+     "meaningFA": "این هدیه برای همکارم است.",
+     "meaningEN": "The gift is for my colleague."
+    },
+    {
+     "id": "ex-2",
+     "german": "Wir gehen durch den Park.",
+     "meaningFA": "ما از میان پارک عبور می‌کنیم.",
+     "meaningEN": "We are walking through the park."
+    },
+    {
+     "id": "ex-3",
+     "german": "Sie hat nichts gegen den Vorschlag.",
+     "meaningFA": "او مخالفتی با پیشنهاد ندارد.",
+     "meaningEN": "She has nothing against the suggestion."
+    },
+    {
+     "id": "ex-4",
+     "german": "Ich trinke Kaffee ohne Zucker.",
+     "meaningFA": "من قهوه را بدون شکر می‌نوشم.",
+     "meaningEN": "I drink coffee without sugar."
+    },
+    {
+     "id": "ex-5",
+     "german": "Wir treffen uns um den Brunnen.",
+     "meaningFA": "ما دور چشمه همدیگر را می‌بینیم.",
+     "meaningEN": "We're meeting around the fountain."
+    },
+    {
+     "id": "ex-6",
+     "german": "Der Weg führt den Fluss entlang.",
+     "meaningFA": "مسیر در امتداد رودخانه می‌رود.",
+     "meaningEN": "The path runs along the river."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "akkusativergaenzung",
+    "wechselpraepositionen"
+   ],
+   "exerciseSlugs": [
+    "ex-akkpraep-1",
+    "ex-akkpraep-2",
+    "ex-akkpraep-3",
+    "ex-akkpraep-4"
+   ]
+  },
+  {
+   "id": "praepositionen-dativ",
+   "slug": "praepositionen-dativ",
+   "titleDE": "Präpositionen mit Dativ",
+   "titleFA": "حرف‌اضافه با Dativ",
+   "titleEN": "Prepositions with the Dative",
+   "levels": [
+    "A1",
+    "A2"
+   ],
+   "category": "praepositionen",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Diese Präpositionen verlangen immer den Dativ: aus, bei, mit, nach, seit, von, zu, gegenüber.",
+     "bodyFA": "این حروف‌اضافه همیشه به Dativ نیاز دارند: aus، bei، mit، nach، seit، von، zu، gegenüber.",
+     "bodyEN": "These prepositions always require the dative: aus, bei, mit, nach, seit, von, zu, gegenüber."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Sie kommt aus der Schweiz.",
+     "meaningFA": "او اهل سوئیس است.",
+     "meaningEN": "She comes from Switzerland."
+    },
+    {
+     "id": "ex-2",
+     "german": "Wir wohnen bei unseren Eltern.",
+     "meaningFA": "ما پیش والدینمان زندگی می‌کنیم.",
+     "meaningEN": "We live with our parents."
+    },
+    {
+     "id": "ex-3",
+     "german": "Er fährt mit dem Fahrrad zur Arbeit.",
+     "meaningFA": "او با دوچرخه به سر کار می‌رود.",
+     "meaningEN": "He rides his bike to work."
+    },
+    {
+     "id": "ex-4",
+     "german": "Nach dem Essen gehen wir spazieren.",
+     "meaningFA": "بعد از غذا به پیاده‌روی می‌رویم.",
+     "meaningEN": "After dinner, we go for a walk."
+    },
+    {
+     "id": "ex-5",
+     "german": "Seit einem Jahr lernt sie Deutsch.",
+     "meaningFA": "او یک سال است آلمانی یاد می‌گیرد.",
+     "meaningEN": "She has been learning German for a year."
+    },
+    {
+     "id": "ex-6",
+     "german": "Das Geschenk ist von meiner Schwester.",
+     "meaningFA": "این هدیه از طرف خواهرم است.",
+     "meaningEN": "The gift is from my sister."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "praepositionen-akkusativ",
+    "wechselpraepositionen"
+   ],
+   "exerciseSlugs": [
+    "ex-datpraep-1",
+    "ex-datpraep-2",
+    "ex-datpraep-3",
+    "ex-datpraep-4"
+   ]
+  },
+  {
+   "id": "wechselpraepositionen",
+   "slug": "wechselpraepositionen",
+   "titleDE": "Wechselpräpositionen",
+   "titleFA": "حرف‌اضافهٔ دوگانه (Wechselpräpositionen)",
+   "titleEN": "Two-Way Prepositions",
+   "levels": [
+    "A2",
+    "B1"
+   ],
+   "category": "praepositionen",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": "Regel: wohin vs. wo",
+     "headingFA": "قاعده: wohin در مقابل wo",
+     "headingEN": "Rule: wohin vs. wo",
+     "bodyDE": "Wechselpräpositionen (an, auf, hinter, in, neben, über, unter, vor, zwischen) stehen mit Akkusativ bei Bewegung/Richtung ('wohin?') und mit Dativ bei Position/Ort ('wo?').",
+     "bodyFA": "حرف‌اضافه‌های دوگانه (an، auf، hinter، in، neben، über، unter، vor، zwischen) در حرکت/جهت («به کجا؟») با Akkusativ و در موقعیت/مکان («کجا؟») با Dativ می‌آیند.",
+     "bodyEN": "Two-way prepositions (an, auf, hinter, in, neben, über, unter, vor, zwischen) take the accusative for motion/direction ('where to?') and the dative for position/location ('where?')."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Ich lege das Buch auf den Tisch.",
+     "meaningFA": "من کتاب را روی میز می‌گذارم.",
+     "meaningEN": "I put the book on the table.",
+     "noteDE": "Bewegung → Akkusativ.",
+     "noteFA": "حرکت → Akkusativ.",
+     "noteEN": "Motion → accusative."
+    },
+    {
+     "id": "ex-2",
+     "german": "Das Buch liegt auf dem Tisch.",
+     "meaningFA": "کتاب روی میز است.",
+     "meaningEN": "The book is lying on the table.",
+     "noteDE": "Position → Dativ.",
+     "noteFA": "موقعیت → Dativ.",
+     "noteEN": "Position → dative."
+    },
+    {
+     "id": "ex-3",
+     "german": "Sie geht in die Küche.",
+     "meaningFA": "او به آشپزخانه می‌رود.",
+     "meaningEN": "She is going into the kitchen."
+    },
+    {
+     "id": "ex-4",
+     "german": "Sie kocht in der Küche.",
+     "meaningFA": "او در آشپزخانه آشپزی می‌کند.",
+     "meaningEN": "She is cooking in the kitchen."
+    },
+    {
+     "id": "ex-5",
+     "german": "Wir hängen das Bild an die Wand.",
+     "meaningFA": "ما تابلو را روی دیوار آویزان می‌کنیم.",
+     "meaningEN": "We're hanging the picture on the wall."
+    },
+    {
+     "id": "ex-6",
+     "german": "Das Bild hängt an der Wand.",
+     "meaningFA": "تابلو روی دیوار آویزان است.",
+     "meaningEN": "The picture is hanging on the wall."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "Die neun Wechselpräpositionen",
+     "titleFA": "نه حرف‌اضافهٔ دوگانه",
+     "titleEN": "The Nine Two-Way Prepositions",
+     "style": "simple",
+     "columns": [
+      "Präposition",
+      "wohin (Akkusativ)",
+      "wo (Dativ)"
+     ],
+     "rows": [
+      {
+       "rowLabel": "an",
+       "cells": [
+        "an die Wand",
+        "an der Wand"
+       ]
+      },
+      {
+       "rowLabel": "auf",
+       "cells": [
+        "auf den Tisch",
+        "auf dem Tisch"
+       ]
+      },
+      {
+       "rowLabel": "in",
+       "cells": [
+        "in die Küche",
+        "in der Küche"
+       ]
+      },
+      {
+       "rowLabel": "über",
+       "cells": [
+        "über den Tisch",
+        "über dem Tisch"
+       ]
+      },
+      {
+       "rowLabel": "unter",
+       "cells": [
+        "unter den Tisch",
+        "unter dem Tisch"
+       ]
+      },
+      {
+       "rowLabel": "vor",
+       "cells": [
+        "vor das Haus",
+        "vor dem Haus"
+       ]
+      },
+      {
+       "rowLabel": "hinter",
+       "cells": [
+        "hinter das Haus",
+        "hinter dem Haus"
+       ]
+      },
+      {
+       "rowLabel": "neben",
+       "cells": [
+        "neben den Stuhl",
+        "neben dem Stuhl"
+       ]
+      },
+      {
+       "rowLabel": "zwischen",
+       "cells": [
+        "zwischen die Bücher",
+        "zwischen den Büchern"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "praepositionen-akkusativ",
+    "praepositionen-dativ"
+   ],
+   "exerciseSlugs": [
+    "ex-wechsel-1",
+    "ex-wechsel-2",
+    "ex-wechsel-3",
+    "ex-wechsel-4"
+   ]
+  },
+  {
+   "id": "praepositionen-genitiv",
+   "slug": "praepositionen-genitiv",
+   "titleDE": "Präpositionen mit Genitiv",
+   "titleFA": "حرف‌اضافه با Genitiv",
+   "titleEN": "Prepositions with the Genitive",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "category": "praepositionen",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Diese Präpositionen verlangen den Genitiv, meist in formeller Sprache: wegen, trotz, während, statt, außerhalb, innerhalb. In der Umgangssprache wird oft der Dativ verwendet.",
+     "bodyFA": "این حروف‌اضافه به Genitiv نیاز دارند، معمولاً در زبان رسمی: wegen، trotz، während، statt، außerhalb، innerhalb. در گفتار روزمره اغلب از Dativ استفاده می‌شود.",
+     "bodyEN": "These prepositions require the genitive, mostly in formal language: wegen, trotz, während, statt, außerhalb, innerhalb. In colloquial speech, the dative is often used instead."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Wegen des Sturms fällt der Flug aus.",
+     "meaningFA": "به دلیل طوفان، پرواز کنسل می‌شود.",
+     "meaningEN": "The flight is cancelled due to the storm."
+    },
+    {
+     "id": "ex-2",
+     "german": "Trotz des Regens gehen wir spazieren.",
+     "meaningFA": "با وجود باران، به پیاده‌روی می‌رویم.",
+     "meaningEN": "Despite the rain, we're going for a walk."
+    },
+    {
+     "id": "ex-3",
+     "german": "Während der Besprechung klingelte sein Handy.",
+     "meaningFA": "در طول جلسه موبایل او زنگ خورد.",
+     "meaningEN": "During the meeting, his phone rang."
+    },
+    {
+     "id": "ex-4",
+     "german": "Statt eines Autos kaufte sie ein Fahrrad.",
+     "meaningFA": "او به‌جای ماشین یک دوچرخه خرید.",
+     "meaningEN": "Instead of a car, she bought a bicycle."
+    },
+    {
+     "id": "ex-5",
+     "german": "Außerhalb der Stadt ist es viel ruhiger.",
+     "meaningFA": "بیرون از شهر خیلی آرام‌تر است.",
+     "meaningEN": "Outside the city, it's much quieter."
+    },
+    {
+     "id": "ex-6",
+     "german": "Innerhalb einer Woche muss die Aufgabe fertig sein.",
+     "meaningFA": "تکلیف باید ظرف یک هفته آماده باشد.",
+     "meaningEN": "The task must be finished within a week."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "genitiv"
+   ],
+   "exerciseSlugs": [
+    "ex-genpraep-1",
+    "ex-genpraep-2",
+    "ex-genpraep-3",
+    "ex-genpraep-4"
+   ]
+  },
+  {
+   "id": "lokale-temporale-praepositionen",
+   "slug": "lokale-temporale-praepositionen",
+   "titleDE": "Lokale und temporale Präpositionen",
+   "titleFA": "حرف‌اضافهٔ مکانی و زمانی",
+   "titleEN": "Local and Temporal Prepositions",
+   "levels": [
+    "A2",
+    "B1"
+   ],
+   "category": "praepositionen",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Manche Präpositionen zeigen speziell Ort (in, an, bei, nach, zu) oder Zeit (an, in, um, seit, bis) an. Die Bedeutung kann je nach Kontext unterschiedlich sein — z.B. 'in' für geschlossene Räume/Zeiträume, 'an' für Flächen/Tage.",
+     "bodyFA": "برخی حروف‌اضافه به‌طور خاص مکان (in، an، bei، nach، zu) یا زمان (an، in، um، seit، bis) را نشان می‌دهند. معنا بسته به بافت متفاوت است — مثلاً «in» برای فضاهای بسته/بازه‌های زمانی، «an» برای سطوح/روزها.",
+     "bodyEN": "Some prepositions specifically indicate place (in, an, bei, nach, zu) or time (an, in, um, seit, bis). The meaning can vary by context — e.g., 'in' for enclosed spaces/time periods, 'an' for surfaces/days."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Wir fahren am Montag nach Hamburg.",
+     "meaningFA": "ما دوشنبه به هامبورگ می‌رویم.",
+     "meaningEN": "We're traveling to Hamburg on Monday.",
+     "noteDE": "'am' für Wochentage.",
+     "noteFA": "«am» برای روزهای هفته.",
+     "noteEN": "'am' for days of the week."
+    },
+    {
+     "id": "ex-2",
+     "german": "Im Sommer reisen wir gern.",
+     "meaningFA": "در تابستان دوست داریم سفر کنیم.",
+     "meaningEN": "We like to travel in summer.",
+     "noteDE": "'im' für Jahreszeiten/Monate.",
+     "noteFA": "«im» برای فصل‌ها/ماه‌ها.",
+     "noteEN": "'im' for seasons/months."
+    },
+    {
+     "id": "ex-3",
+     "german": "Um acht Uhr beginnt der Unterricht.",
+     "meaningFA": "کلاس ساعت هشت شروع می‌شود.",
+     "meaningEN": "Class starts at eight o'clock.",
+     "noteDE": "'um' für Uhrzeiten.",
+     "noteFA": "«um» برای ساعت.",
+     "noteEN": "'um' for clock times."
+    },
+    {
+     "id": "ex-4",
+     "german": "Bis nächsten Freitag muss die Arbeit fertig sein.",
+     "meaningFA": "کار باید تا جمعهٔ بعد آماده باشد.",
+     "meaningEN": "The work must be finished by next Friday."
+    },
+    {
+     "id": "ex-5",
+     "german": "Sie geht zu ihrer Kollegin.",
+     "meaningFA": "او پیش همکارش می‌رود.",
+     "meaningEN": "She's going to her colleague."
+    },
+    {
+     "id": "ex-6",
+     "german": "Nach der Arbeit treffen wir uns im Café.",
+     "meaningFA": "بعد از کار در کافه همدیگر را می‌بینیم.",
+     "meaningEN": "After work, we're meeting at the café."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "Temporale Präpositionen im Überblick",
+     "titleFA": "خلاصهٔ حروف‌اضافهٔ زمانی",
+     "titleEN": "Overview of Temporal Prepositions",
+     "style": "simple",
+     "columns": [
+      "Präposition",
+      "Verwendung",
+      "Beispiel"
+     ],
+     "rows": [
+      {
+       "rowLabel": "am",
+       "cells": [
+        "Wochentage, Datum",
+        "am Montag"
+       ]
+      },
+      {
+       "rowLabel": "im",
+       "cells": [
+        "Monate, Jahreszeiten",
+        "im Januar"
+       ]
+      },
+      {
+       "rowLabel": "um",
+       "cells": [
+        "Uhrzeiten",
+        "um 8 Uhr"
+       ]
+      },
+      {
+       "rowLabel": "seit",
+       "cells": [
+        "Beginn bis jetzt",
+        "seit 2020"
+       ]
+      },
+      {
+       "rowLabel": "bis",
+       "cells": [
+        "Endpunkt",
+        "bis Freitag"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "temporaladverbien",
+    "wechselpraepositionen"
+   ],
+   "exerciseSlugs": [
+    "ex-loktemp-1",
+    "ex-loktemp-2",
+    "ex-loktemp-3",
+    "ex-loktemp-4"
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-akkpraep-1",
+   "lessonSlug": "praepositionen-akkusativ",
+   "type": "multipleChoice",
+   "promptDE": "Das Geschenk ist ___ meinen Kollegen.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "für",
+     "aus",
+     "bei",
+     "mit"
+    ],
+    "correctIndex": 0
+   },
+   "explanationAfterAnswerDE": "'für' verlangt immer den Akkusativ.",
+   "explanationAfterAnswerFA": "«für» همیشه به Akkusativ نیاز دارد.",
+   "explanationAfterAnswerEN": "'für' always requires the accusative."
+  },
+  {
+   "id": "ex-akkpraep-2",
+   "lessonSlug": "praepositionen-akkusativ",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Präposition.",
+   "promptFA": "حرف‌اضافهٔ درست را کامل کن.",
+   "promptEN": "Complete with the correct preposition.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Wir gehen ___ den Park.",
+    "correctAnswer": "durch",
+    "alternatives": [
+     "gegen",
+     "ohne"
+    ]
+   },
+   "explanationAfterAnswerDE": "'durch' + Akkusativ zeigt eine Bewegung hindurch.",
+   "explanationAfterAnswerFA": "«durch» + Akkusativ حرکت از میان چیزی را نشان می‌دهد.",
+   "explanationAfterAnswerEN": "'durch' + accusative indicates movement through something."
+  },
+  {
+   "id": "ex-akkpraep-3",
+   "lessonSlug": "praepositionen-akkusativ",
+   "type": "matching",
+   "promptDE": "Verbinde Präposition und Beispiel.",
+   "promptFA": "حرف‌اضافه را به مثال وصل کن.",
+   "promptEN": "Match the preposition to the example.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "ohne",
+      "right": "ohne Zucker"
+     },
+     {
+      "left": "gegen",
+      "right": "gegen den Vorschlag"
+     },
+     {
+      "left": "um",
+      "right": "um den Brunnen"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Diese Präpositionen verlangen immer Akkusativ.",
+   "explanationAfterAnswerFA": "این حروف‌اضافه همیشه به Akkusativ نیاز دارند.",
+   "explanationAfterAnswerEN": "These prepositions always require the accusative."
+  },
+  {
+   "id": "ex-akkpraep-4",
+   "lessonSlug": "praepositionen-akkusativ",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "Kaffee",
+     "Zucker",
+     "Ich",
+     "ohne",
+     "trinke"
+    ],
+    "correctSentence": "Ich trinke Kaffee ohne Zucker."
+   },
+   "explanationAfterAnswerDE": "'ohne' + Akkusativ (hier ohne Artikel bei unzählbarem Nomen).",
+   "explanationAfterAnswerFA": "«ohne» + Akkusativ (اینجا بدون آرتیکل چون اسم غیرقابل‌شمارش است).",
+   "explanationAfterAnswerEN": "'ohne' + accusative (here without an article for the uncountable noun)."
+  },
+  {
+   "id": "ex-datpraep-1",
+   "lessonSlug": "praepositionen-dativ",
+   "type": "multipleChoice",
+   "promptDE": "Sie kommt ___ der Schweiz.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "für",
+     "aus",
+     "durch",
+     "um"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "'aus' + Dativ zeigt eine Herkunft an.",
+   "explanationAfterAnswerFA": "«aus» + Dativ اصلیت را نشان می‌دهد.",
+   "explanationAfterAnswerEN": "'aus' + dative indicates origin."
+  },
+  {
+   "id": "ex-datpraep-2",
+   "lessonSlug": "praepositionen-dativ",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Präposition.",
+   "promptFA": "حرف‌اضافهٔ درست را کامل کن.",
+   "promptEN": "Complete with the correct preposition.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Er fährt ___ dem Fahrrad zur Arbeit.",
+    "correctAnswer": "mit",
+    "alternatives": [
+     "bei",
+     "nach"
+    ]
+   },
+   "explanationAfterAnswerDE": "'mit' + Dativ zeigt ein Mittel/Werkzeug an.",
+   "explanationAfterAnswerFA": "«mit» + Dativ وسیله را نشان می‌دهد.",
+   "explanationAfterAnswerEN": "'mit' + dative indicates a means/tool."
+  },
+  {
+   "id": "ex-datpraep-3",
+   "lessonSlug": "praepositionen-dativ",
+   "type": "matching",
+   "promptDE": "Verbinde Präposition und Beispiel.",
+   "promptFA": "حرف‌اضافه را به مثال وصل کن.",
+   "promptEN": "Match the preposition to the example.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "seit",
+      "right": "seit einem Jahr"
+     },
+     {
+      "left": "von",
+      "right": "von meiner Schwester"
+     },
+     {
+      "left": "bei",
+      "right": "bei unseren Eltern"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Diese Präpositionen verlangen immer Dativ.",
+   "explanationAfterAnswerFA": "این حروف‌اضافه همیشه به Dativ نیاز دارند.",
+   "explanationAfterAnswerEN": "These prepositions always require the dative."
+  },
+  {
+   "id": "ex-datpraep-4",
+   "lessonSlug": "praepositionen-dativ",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "Essen",
+     "wir",
+     "spazieren",
+     "gehen",
+     "Nach",
+     "dem"
+    ],
+    "correctSentence": "Nach dem Essen gehen wir spazieren."
+   },
+   "explanationAfterAnswerDE": "'nach' + Dativ zeigt eine zeitliche Abfolge an.",
+   "explanationAfterAnswerFA": "«nach» + Dativ ترتیب زمانی را نشان می‌دهد.",
+   "explanationAfterAnswerEN": "'nach' + dative indicates a sequence in time."
+  },
+  {
+   "id": "ex-wechsel-1",
+   "lessonSlug": "wechselpraepositionen",
+   "type": "multipleChoice",
+   "promptDE": "Ich lege das Buch auf ___ Tisch.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "der",
+     "den",
+     "dem",
+     "des"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "Bewegung (wohin?) → Akkusativ: 'den Tisch'.",
+   "explanationAfterAnswerFA": "حرکت (به کجا؟) → Akkusativ: «den Tisch».",
+   "explanationAfterAnswerEN": "Motion (where to?) → accusative: 'den Tisch'."
+  },
+  {
+   "id": "ex-wechsel-2",
+   "lessonSlug": "wechselpraepositionen",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Form.",
+   "promptFA": "شکل درست را کامل کن.",
+   "promptEN": "Complete with the correct form.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Das Buch liegt auf ___ Tisch.",
+    "correctAnswer": "dem",
+    "alternatives": [
+     "den",
+     "der"
+    ]
+   },
+   "explanationAfterAnswerDE": "Position (wo?) → Dativ: 'dem Tisch'.",
+   "explanationAfterAnswerFA": "موقعیت (کجا؟) → Dativ: «dem Tisch».",
+   "explanationAfterAnswerEN": "Position (where?) → dative: 'dem Tisch'."
+  },
+  {
+   "id": "ex-wechsel-3",
+   "lessonSlug": "wechselpraepositionen",
+   "type": "transform",
+   "promptDE": "Wandle in eine Bewegung um (wohin?).",
+   "promptFA": "به حرکت (به کجا؟) تبدیل کن.",
+   "promptEN": "Transform into motion (where to?).",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Das Bild hängt an der Wand.",
+    "instructionDE": "Bewegungs-Form mit Akkusativ.",
+    "instructionFA": "شکل حرکتی با Akkusativ.",
+    "instructionEN": "Motion form with accusative.",
+    "correctAnswer": "Wir hängen das Bild an die Wand."
+   },
+   "explanationAfterAnswerDE": "Bewegung → Akkusativ: 'die Wand'.",
+   "explanationAfterAnswerFA": "حرکت → Akkusativ: «die Wand».",
+   "explanationAfterAnswerEN": "Motion → accusative: 'die Wand'."
+  },
+  {
+   "id": "ex-wechsel-4",
+   "lessonSlug": "wechselpraepositionen",
+   "type": "matching",
+   "promptDE": "Verbinde wohin/wo mit Kasus.",
+   "promptFA": "wohin/wo را به کاسوس وصل کن.",
+   "promptEN": "Match wohin/wo to the case.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "wohin?",
+      "right": "Akkusativ"
+     },
+     {
+      "left": "wo?",
+      "right": "Dativ"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Dies ist die Grundregel der Wechselpräpositionen.",
+   "explanationAfterAnswerFA": "این قاعدهٔ پایهٔ حروف‌اضافهٔ دوگانه است.",
+   "explanationAfterAnswerEN": "This is the basic rule of two-way prepositions."
+  },
+  {
+   "id": "ex-genpraep-1",
+   "lessonSlug": "praepositionen-genitiv",
+   "type": "multipleChoice",
+   "promptDE": "___ des Sturms fällt der Flug aus.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "Wegen",
+     "Für",
+     "Durch",
+     "Mit"
+    ],
+    "correctIndex": 0
+   },
+   "explanationAfterAnswerDE": "'wegen' + Genitiv drückt einen Grund aus.",
+   "explanationAfterAnswerFA": "«wegen» + Genitiv دلیل را بیان می‌کند.",
+   "explanationAfterAnswerEN": "'wegen' + genitive expresses a reason."
+  },
+  {
+   "id": "ex-genpraep-2",
+   "lessonSlug": "praepositionen-genitiv",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Präposition.",
+   "promptFA": "حرف‌اضافهٔ درست را کامل کن.",
+   "promptEN": "Complete with the correct preposition.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "___ des Regens gehen wir spazieren.",
+    "correctAnswer": "Trotz",
+    "alternatives": [
+     "Wegen",
+     "Während"
+    ]
+   },
+   "explanationAfterAnswerDE": "'trotz' drückt einen Gegensatz aus.",
+   "explanationAfterAnswerFA": "«trotz» تضاد را بیان می‌کند.",
+   "explanationAfterAnswerEN": "'trotz' expresses a contrast."
+  },
+  {
+   "id": "ex-genpraep-3",
+   "lessonSlug": "praepositionen-genitiv",
+   "type": "matching",
+   "promptDE": "Verbinde Präposition und Bedeutung.",
+   "promptFA": "حرف‌اضافه را به معنایش وصل کن.",
+   "promptEN": "Match the preposition to its meaning.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "wegen",
+      "right": "Grund"
+     },
+     {
+      "left": "trotz",
+      "right": "Gegensatz"
+     },
+     {
+      "left": "während",
+      "right": "gleichzeitig"
+     },
+     {
+      "left": "statt",
+      "right": "Ersatz"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Diese Genitivpräpositionen haben je eine eigene logische Funktion.",
+   "explanationAfterAnswerFA": "هر یک از این حروف‌اضافهٔ Genitiv کارکرد منطقی مخصوص خودش را دارد.",
+   "explanationAfterAnswerEN": "Each of these genitive prepositions has its own logical function."
+  },
+  {
+   "id": "ex-genpraep-4",
+   "lessonSlug": "praepositionen-genitiv",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "fertig",
+     "muss",
+     "Woche",
+     "Aufgabe",
+     "sein",
+     "Innerhalb",
+     "die",
+     "einer"
+    ],
+    "correctSentence": "Innerhalb einer Woche muss die Aufgabe fertig sein."
+   },
+   "explanationAfterAnswerDE": "'innerhalb' + Genitiv zeigt einen Zeitrahmen an.",
+   "explanationAfterAnswerFA": "«innerhalb» + Genitiv یک بازهٔ زمانی را نشان می‌دهد.",
+   "explanationAfterAnswerEN": "'innerhalb' + genitive indicates a time frame."
+  },
+  {
+   "id": "ex-loktemp-1",
+   "lessonSlug": "lokale-temporale-praepositionen",
+   "type": "multipleChoice",
+   "promptDE": "Wir fahren ___ Montag nach Hamburg.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "im",
+     "am",
+     "um",
+     "seit"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "'am' wird für Wochentage verwendet.",
+   "explanationAfterAnswerFA": "«am» برای روزهای هفته استفاده می‌شود.",
+   "explanationAfterAnswerEN": "'am' is used for days of the week."
+  },
+  {
+   "id": "ex-loktemp-2",
+   "lessonSlug": "lokale-temporale-praepositionen",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Präposition.",
+   "promptFA": "حرف‌اضافهٔ درست را کامل کن.",
+   "promptEN": "Complete with the correct preposition.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "___ acht Uhr beginnt der Unterricht.",
+    "correctAnswer": "Um",
+    "alternatives": [
+     "Am",
+     "Im"
+    ]
+   },
+   "explanationAfterAnswerDE": "'um' wird für Uhrzeiten verwendet.",
+   "explanationAfterAnswerFA": "«um» برای ساعت استفاده می‌شود.",
+   "explanationAfterAnswerEN": "'um' is used for clock times."
+  },
+  {
+   "id": "ex-loktemp-3",
+   "lessonSlug": "lokale-temporale-praepositionen",
+   "type": "matching",
+   "promptDE": "Verbinde Präposition und Verwendung.",
+   "promptFA": "حرف‌اضافه را به کاربردش وصل کن.",
+   "promptEN": "Match the preposition to its use.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "im",
+      "right": "Monate/Jahreszeiten"
+     },
+     {
+      "left": "am",
+      "right": "Wochentage"
+     },
+     {
+      "left": "um",
+      "right": "Uhrzeiten"
+     },
+     {
+      "left": "seit",
+      "right": "Beginn bis jetzt"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Jede temporale Präposition hat einen festen Anwendungsbereich.",
+   "explanationAfterAnswerFA": "هر حرف‌اضافهٔ زمانی حوزهٔ کاربرد ثابت خودش را دارد.",
+   "explanationAfterAnswerEN": "Each temporal preposition has a fixed area of use."
+  },
+  {
+   "id": "ex-loktemp-4",
+   "lessonSlug": "lokale-temporale-praepositionen",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "im",
+     "uns",
+     "Café",
+     "treffen",
+     "Nach",
+     "der",
+     "wir",
+     "Arbeit"
+    ],
+    "correctSentence": "Nach der Arbeit treffen wir uns im Café."
+   },
+   "explanationAfterAnswerDE": "'nach' + Dativ zeigt eine zeitliche Abfolge; 'im Café' zeigt den Ort.",
+   "explanationAfterAnswerFA": "«nach» + Dativ ترتیب زمانی و «im Café» مکان را نشان می‌دهد.",
+   "explanationAfterAnswerEN": "'nach' + dative shows a time sequence; 'im Café' shows the place."
+  }
+ ]
+}

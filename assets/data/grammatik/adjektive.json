@@ -1,0 +1,877 @@
+{
+ "_index": {
+  "fileDescription": "Adjektive: Adjektivdeklination Typ 1/2/3 (گرید تعاملی)، Komparativ/Superlativ، Partizipien als Adjektive، Zahlwörter",
+  "lastUpdatedStage": 12,
+  "lessons": [
+   "adjektivdeklination — صرف صفت (Typ 1/2/3، گرید تعاملی)",
+   "komparativ-superlativ — صفت تفضیلی و عالی",
+   "partizipien-als-adjektive — Partizip به‌عنوان صفت",
+   "zahlwoerter — اعداد"
+  ]
+ },
+ "lessons": [
+  {
+   "id": "adjektivdeklination",
+   "slug": "adjektivdeklination",
+   "titleDE": "Die Adjektivdeklination",
+   "titleFA": "صرف صفت (Adjektivdeklination)",
+   "titleEN": "Adjective Declension",
+   "levels": [
+    "A2",
+    "B1",
+    "B2"
+   ],
+   "category": "adjektive",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": "Drei Typen",
+     "headingFA": "سه نوع صرف",
+     "headingEN": "Three Types",
+     "bodyDE": "Attributive Adjektive (vor einem Nomen) bekommen eine Endung, die vom vorangehenden Artikel abhängt. Typ 1: nach bestimmtem Artikel (schwache Deklination). Typ 2: nach unbestimmtem Artikel/Possessivartikel (gemischte Deklination). Typ 3: ohne Artikel (starke Deklination).",
+     "bodyFA": "صفت‌های توصیفی (قبل از اسم) پایانه‌ای می‌گیرند که به آرتیکل قبل از آن‌ها بستگی دارد. نوع ۱: بعد از آرتیکل معین (صرف ضعیف). نوع ۲: بعد از آرتیکل نامعین/ملکی (صرف مختلط). نوع ۳: بدون آرتیکل (صرف قوی).",
+     "bodyEN": "Attributive adjectives (before a noun) take an ending that depends on the preceding article. Type 1: after the definite article (weak declension). Type 2: after the indefinite/possessive article (mixed declension). Type 3: without an article (strong declension)."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Der neue Kollege ist sehr freundlich.",
+     "meaningFA": "همکار جدید خیلی مهربان است.",
+     "meaningEN": "The new colleague is very friendly.",
+     "noteDE": "Typ 1: nach 'der'.",
+     "noteFA": "نوع ۱: بعد از «der».",
+     "noteEN": "Type 1: after 'der'."
+    },
+    {
+     "id": "ex-2",
+     "german": "Ein neuer Kollege hat heute angefangen.",
+     "meaningFA": "یک همکار جدید امروز شروع کرده است.",
+     "meaningEN": "A new colleague started today.",
+     "noteDE": "Typ 2: nach 'ein'.",
+     "noteFA": "نوع ۲: بعد از «ein».",
+     "noteEN": "Type 2: after 'ein'."
+    },
+    {
+     "id": "ex-3",
+     "german": "Frischer Kaffee schmeckt am besten.",
+     "meaningFA": "قهوهٔ تازه بهترین طعم را دارد.",
+     "meaningEN": "Fresh coffee tastes best.",
+     "noteDE": "Typ 3: ohne Artikel.",
+     "noteFA": "نوع ۳: بدون آرتیکل.",
+     "noteEN": "Type 3: without an article."
+    },
+    {
+     "id": "ex-4",
+     "german": "Ich mag diese schönen Blumen.",
+     "meaningFA": "من این گل‌های زیبا را دوست دارم.",
+     "meaningEN": "I like these beautiful flowers."
+    },
+    {
+     "id": "ex-5",
+     "german": "Mit meinem alten Auto komme ich gut zurecht.",
+     "meaningFA": "با ماشین قدیمی‌ام خوب کنار می‌آیم.",
+     "meaningEN": "I get along well with my old car."
+    },
+    {
+     "id": "ex-6",
+     "german": "Kaltes Wasser hilft bei Kopfschmerzen.",
+     "meaningFA": "آب سرد به سردرد کمک می‌کند.",
+     "meaningEN": "Cold water helps with headaches."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "Typ 1: Nach bestimmtem Artikel",
+     "titleFA": "نوع ۱: بعد از آرتیکل معین",
+     "titleEN": "Type 1: After the Definite Article",
+     "style": "interactiveGrid",
+     "columns": [
+      "maskulin",
+      "feminin",
+      "neutrum",
+      "Plural"
+     ],
+     "rows": [
+      {
+       "rowLabel": "Nominativ",
+       "cells": [
+        "der neue",
+        "die neue",
+        "das neue",
+        "die neuen"
+       ]
+      },
+      {
+       "rowLabel": "Akkusativ",
+       "cells": [
+        "den neuen",
+        "die neue",
+        "das neue",
+        "die neuen"
+       ]
+      },
+      {
+       "rowLabel": "Dativ",
+       "cells": [
+        "dem neuen",
+        "der neuen",
+        "dem neuen",
+        "den neuen"
+       ]
+      },
+      {
+       "rowLabel": "Genitiv",
+       "cells": [
+        "des neuen",
+        "der neuen",
+        "des neuen",
+        "der neuen"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "table-2",
+     "titleDE": "Typ 2: Nach unbestimmtem Artikel",
+     "titleFA": "نوع ۲: بعد از آرتیکل نامعین",
+     "titleEN": "Type 2: After the Indefinite Article",
+     "style": "interactiveGrid",
+     "columns": [
+      "maskulin",
+      "feminin",
+      "neutrum",
+      "Plural"
+     ],
+     "rows": [
+      {
+       "rowLabel": "Nominativ",
+       "cells": [
+        "ein neuer",
+        "eine neue",
+        "ein neues",
+        "meine neuen"
+       ]
+      },
+      {
+       "rowLabel": "Akkusativ",
+       "cells": [
+        "einen neuen",
+        "eine neue",
+        "ein neues",
+        "meine neuen"
+       ]
+      },
+      {
+       "rowLabel": "Dativ",
+       "cells": [
+        "einem neuen",
+        "einer neuen",
+        "einem neuen",
+        "meinen neuen"
+       ]
+      },
+      {
+       "rowLabel": "Genitiv",
+       "cells": [
+        "eines neuen",
+        "einer neuen",
+        "eines neuen",
+        "meiner neuen"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "table-3",
+     "titleDE": "Typ 3: Ohne Artikel",
+     "titleFA": "نوع ۳: بدون آرتیکل",
+     "titleEN": "Type 3: Without an Article",
+     "style": "interactiveGrid",
+     "columns": [
+      "maskulin",
+      "feminin",
+      "neutrum",
+      "Plural"
+     ],
+     "rows": [
+      {
+       "rowLabel": "Nominativ",
+       "cells": [
+        "frischer Kaffee",
+        "frische Milch",
+        "frisches Brot",
+        "frische Eier"
+       ]
+      },
+      {
+       "rowLabel": "Akkusativ",
+       "cells": [
+        "frischen Kaffee",
+        "frische Milch",
+        "frisches Brot",
+        "frische Eier"
+       ]
+      },
+      {
+       "rowLabel": "Dativ",
+       "cells": [
+        "frischem Kaffee",
+        "frischer Milch",
+        "frischem Brot",
+        "frischen Eiern"
+       ]
+      },
+      {
+       "rowLabel": "Genitiv",
+       "cells": [
+        "frischen Kaffees",
+        "frischer Milch",
+        "frischen Brots",
+        "frischer Eier"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "komparativ-superlativ",
+    "bestimmter-unbestimmter-artikel"
+   ],
+   "exerciseSlugs": [
+    "ex-adjdekl-1",
+    "ex-adjdekl-2",
+    "ex-adjdekl-3",
+    "ex-adjdekl-4"
+   ]
+  },
+  {
+   "id": "komparativ-superlativ",
+   "slug": "komparativ-superlativ",
+   "titleDE": "Komparativ und Superlativ",
+   "titleFA": "صفت تفضیلی و عالی",
+   "titleEN": "Comparative and Superlative",
+   "levels": [
+    "A2",
+    "B1"
+   ],
+   "category": "adjektive",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Der Komparativ wird mit -er gebildet (schnell → schneller), der Superlativ mit am + -sten (am schnellsten) oder der/die/das + -ste. Viele einsilbige Adjektive bekommen einen Umlaut (groß → größer).",
+     "bodyFA": "صفت تفضیلی با -er ساخته می‌شود (schnell → schneller)، صفت عالی با am + -sten (am schnellsten) یا der/die/das + -ste. بسیاری از صفت‌های تک‌هجایی Umlaut می‌گیرند (groß → größer).",
+     "bodyEN": "The comparative is formed with -er (schnell → schneller), the superlative with am + -sten (am schnellsten) or der/die/das + -ste. Many one-syllable adjectives take an umlaut (groß → größer)."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Dieses Auto ist schneller als meins.",
+     "meaningFA": "این ماشین سریع‌تر از ماشین من است.",
+     "meaningEN": "This car is faster than mine."
+    },
+    {
+     "id": "ex-2",
+     "german": "Berlin ist größer als München.",
+     "meaningFA": "برلین از مونیخ بزرگ‌تر است.",
+     "meaningEN": "Berlin is bigger than Munich."
+    },
+    {
+     "id": "ex-3",
+     "german": "Das ist die interessanteste Idee.",
+     "meaningFA": "این جالب‌ترین ایده است.",
+     "meaningEN": "That is the most interesting idea."
+    },
+    {
+     "id": "ex-4",
+     "german": "Er läuft am schnellsten im Team.",
+     "meaningFA": "او سریع‌ترین دونده در تیم است.",
+     "meaningEN": "He runs the fastest in the team."
+    },
+    {
+     "id": "ex-5",
+     "german": "Diese Übung ist genauso schwer wie die letzte.",
+     "meaningFA": "این تمرین دقیقاً به همان اندازهٔ تمرین قبلی سخت است.",
+     "meaningEN": "This exercise is just as hard as the last one."
+    },
+    {
+     "id": "ex-6",
+     "german": "Das war der beste Tag meines Lebens.",
+     "meaningFA": "آن بهترین روز زندگی من بود.",
+     "meaningEN": "That was the best day of my life."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "Unregelmäßige Steigerung",
+     "titleFA": "مقایسهٔ بی‌قاعده",
+     "titleEN": "Irregular Comparison",
+     "style": "simple",
+     "columns": [
+      "Positiv",
+      "Komparativ",
+      "Superlativ"
+     ],
+     "rows": [
+      {
+       "rowLabel": "gut",
+       "cells": [
+        "besser",
+        "am besten"
+       ]
+      },
+      {
+       "rowLabel": "viel",
+       "cells": [
+        "mehr",
+        "am meisten"
+       ]
+      },
+      {
+       "rowLabel": "gern",
+       "cells": [
+        "lieber",
+        "am liebsten"
+       ]
+      },
+      {
+       "rowLabel": "hoch",
+       "cells": [
+        "höher",
+        "am höchsten"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "adjektivdeklination"
+   ],
+   "exerciseSlugs": [
+    "ex-komp-1",
+    "ex-komp-2",
+    "ex-komp-3",
+    "ex-komp-4"
+   ]
+  },
+  {
+   "id": "partizipien-als-adjektive",
+   "slug": "partizipien-als-adjektive",
+   "titleDE": "Partizipien als Adjektive",
+   "titleFA": "Partizip به‌عنوان صفت",
+   "titleEN": "Participles as Adjectives",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "category": "adjektive",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Partizip I (Verbstamm + -end) drückt eine aktive, gleichzeitige Handlung aus (der lachende Mann = der Mann, der lacht). Partizip II drückt eine passive/abgeschlossene Handlung aus (der reparierte Computer = der Computer, der repariert wurde).",
+     "bodyFA": "Partizip I (ریشهٔ فعل + -end) کنش فعال و هم‌زمان را بیان می‌کند (der lachende Mann = مردی که می‌خندد). Partizip II کنش منفعل/تمام‌شده را بیان می‌کند (der reparierte Computer = کامپیوتری که تعمیر شده).",
+     "bodyEN": "Partizip I (verb stem + -end) expresses an active, simultaneous action (der lachende Mann = the man who is laughing). Partizip II expresses a passive/completed action (der reparierte Computer = the computer that was repaired)."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Der schlafende Hund liegt auf dem Sofa.",
+     "meaningFA": "سگ خوابیده روی مبل است.",
+     "meaningEN": "The sleeping dog is lying on the sofa."
+    },
+    {
+     "id": "ex-2",
+     "german": "Das reparierte Fahrrad funktioniert wieder gut.",
+     "meaningFA": "دوچرخهٔ تعمیرشده دوباره خوب کار می‌کند.",
+     "meaningEN": "The repaired bicycle works well again."
+    },
+    {
+     "id": "ex-3",
+     "german": "Die wartende Menge wurde langsam ungeduldig.",
+     "meaningFA": "جمعیت منتظر کم‌کم بی‌صبر شد.",
+     "meaningEN": "The waiting crowd slowly became impatient."
+    },
+    {
+     "id": "ex-4",
+     "german": "Ich habe den verlorenen Schlüssel gefunden.",
+     "meaningFA": "من کلید گم‌شده را پیدا کردم.",
+     "meaningEN": "I found the lost key."
+    },
+    {
+     "id": "ex-5",
+     "german": "Die spielenden Kinder machten viel Lärm.",
+     "meaningFA": "بچه‌های در حال بازی سروصدای زیادی می‌کردند.",
+     "meaningEN": "The playing children were making a lot of noise."
+    },
+    {
+     "id": "ex-6",
+     "german": "Das gekochte Gemüse schmeckt frisch.",
+     "meaningFA": "سبزی پخته‌شده تازه مزه می‌دهد.",
+     "meaningEN": "The cooked vegetables taste fresh."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "adjektivdeklination",
+    "vorgangspassiv"
+   ],
+   "exerciseSlugs": [
+    "ex-partadj-1",
+    "ex-partadj-2",
+    "ex-partadj-3",
+    "ex-partadj-4"
+   ]
+  },
+  {
+   "id": "zahlwoerter",
+   "slug": "zahlwoerter",
+   "titleDE": "Zahlwörter",
+   "titleFA": "اعداد",
+   "titleEN": "Numerals",
+   "levels": [
+    "A1",
+    "A2"
+   ],
+   "category": "adjektive",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Kardinalzahlen (eins, zwei, drei) zählen; sie werden nicht dekliniert (außer 'eins'). Ordinalzahlen (erste, zweite, dritte) beschreiben eine Reihenfolge und werden wie Adjektive dekliniert.",
+     "bodyFA": "اعداد اصلی (eins، zwei، drei) شمارش می‌کنند و صرف نمی‌شوند (به‌جز «eins»). اعداد ترتیبی (erste، zweite، dritte) ترتیب را توصیف می‌کنند و مانند صفت صرف می‌شوند.",
+     "bodyEN": "Cardinal numbers (eins, zwei, drei) count things; they are not declined (except 'eins'). Ordinal numbers (erste, zweite, dritte) describe an order and are declined like adjectives."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Wir haben drei Kinder.",
+     "meaningFA": "ما سه بچه داریم.",
+     "meaningEN": "We have three children."
+    },
+    {
+     "id": "ex-2",
+     "german": "Das ist mein erster Arbeitstag.",
+     "meaningFA": "این اولین روز کاری من است.",
+     "meaningEN": "This is my first day at work."
+    },
+    {
+     "id": "ex-3",
+     "german": "Sie wohnt im zweiten Stock.",
+     "meaningFA": "او در طبقهٔ دوم زندگی می‌کند.",
+     "meaningEN": "She lives on the second floor."
+    },
+    {
+     "id": "ex-4",
+     "german": "Ich habe eine Schwester und einen Bruder.",
+     "meaningFA": "من یک خواهر و یک برادر دارم.",
+     "meaningEN": "I have one sister and one brother."
+    },
+    {
+     "id": "ex-5",
+     "german": "Das Treffen ist am dritten Mai.",
+     "meaningFA": "جلسه در سوم می است.",
+     "meaningEN": "The meeting is on the third of May."
+    },
+    {
+     "id": "ex-6",
+     "german": "Wir haben zwanzig Teilnehmer eingeladen.",
+     "meaningFA": "ما بیست شرکت‌کننده دعوت کردیم.",
+     "meaningEN": "We invited twenty participants."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "adjektivdeklination"
+   ],
+   "exerciseSlugs": [
+    "ex-zahl-1",
+    "ex-zahl-2",
+    "ex-zahl-3",
+    "ex-zahl-4"
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-adjdekl-1",
+   "lessonSlug": "adjektivdeklination",
+   "type": "multipleChoice",
+   "promptDE": "Der ___ Kollege ist sehr freundlich.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "neue",
+     "neuer",
+     "neuen",
+     "neues"
+    ],
+    "correctIndex": 0
+   },
+   "explanationAfterAnswerDE": "Typ 1 (nach 'der') Maskulinum Nominativ: Endung -e.",
+   "explanationAfterAnswerFA": "نوع ۱ (بعد از «der») مذکر Nominativ: پایانهٔ -e.",
+   "explanationAfterAnswerEN": "Type 1 (after 'der') masculine nominative: ending -e."
+  },
+  {
+   "id": "ex-adjdekl-2",
+   "lessonSlug": "adjektivdeklination",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Endung.",
+   "promptFA": "پایانهٔ درست را کامل کن.",
+   "promptEN": "Complete with the correct ending.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Ein neu___ Kollege hat heute angefangen.",
+    "correctAnswer": "er",
+    "alternatives": [
+     "e",
+     "en"
+    ]
+   },
+   "explanationAfterAnswerDE": "Typ 2 (nach 'ein') Maskulinum Nominativ: Endung -er.",
+   "explanationAfterAnswerFA": "نوع ۲ (بعد از «ein») مذکر Nominativ: پایانهٔ -er.",
+   "explanationAfterAnswerEN": "Type 2 (after 'ein') masculine nominative: ending -er."
+  },
+  {
+   "id": "ex-adjdekl-3",
+   "lessonSlug": "adjektivdeklination",
+   "type": "transform",
+   "promptDE": "Wandle in Typ 3 (ohne Artikel) um.",
+   "promptFA": "به نوع ۳ (بدون آرتیکل) تبدیل کن.",
+   "promptEN": "Transform into Type 3 (without article).",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Der frische Kaffee schmeckt gut.",
+    "instructionDE": "Ohne Artikel formulieren.",
+    "instructionFA": "بدون آرتیکل بنویس.",
+    "instructionEN": "Rephrase without an article.",
+    "correctAnswer": "Frischer Kaffee schmeckt gut."
+   },
+   "explanationAfterAnswerDE": "Typ 3 Maskulinum Nominativ: Endung -er (starke Deklination).",
+   "explanationAfterAnswerFA": "نوع ۳ مذکر Nominativ: پایانهٔ -er (صرف قوی).",
+   "explanationAfterAnswerEN": "Type 3 masculine nominative: ending -er (strong declension)."
+  },
+  {
+   "id": "ex-adjdekl-4",
+   "lessonSlug": "adjektivdeklination",
+   "type": "matching",
+   "promptDE": "Verbinde Typ und Beispiel.",
+   "promptFA": "نوع را به مثال وصل کن.",
+   "promptEN": "Match the type to the example.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "Typ 1 (bestimmter Artikel)",
+      "right": "der neue Kollege"
+     },
+     {
+      "left": "Typ 2 (unbestimmter Artikel)",
+      "right": "ein neuer Kollege"
+     },
+     {
+      "left": "Typ 3 (ohne Artikel)",
+      "right": "frischer Kaffee"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Jeder Typ hat eine eigene Endungstabelle.",
+   "explanationAfterAnswerFA": "هر نوع جدول پایانهٔ مخصوص خودش را دارد.",
+   "explanationAfterAnswerEN": "Each type has its own ending table."
+  },
+  {
+   "id": "ex-komp-1",
+   "lessonSlug": "komparativ-superlativ",
+   "type": "multipleChoice",
+   "promptDE": "Berlin ist ___ als München.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "groß",
+     "größer",
+     "am größten",
+     "großer"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "Komparativ mit Umlaut: groß → größer.",
+   "explanationAfterAnswerFA": "صفت تفضیلی با Umlaut: groß → größer.",
+   "explanationAfterAnswerEN": "Comparative with umlaut: groß → größer."
+  },
+  {
+   "id": "ex-komp-2",
+   "lessonSlug": "komparativ-superlativ",
+   "type": "fillBlank",
+   "promptDE": "Ergänze den Superlativ.",
+   "promptFA": "صفت عالی را کامل کن.",
+   "promptEN": "Complete with the superlative.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Er läuft ___ im Team. (schnell)",
+    "correctAnswer": "am schnellsten",
+    "alternatives": [
+     "schneller",
+     "am schnellste"
+    ]
+   },
+   "explanationAfterAnswerDE": "Superlativ prädikativ: am + -sten.",
+   "explanationAfterAnswerFA": "صفت عالی به‌صورت مسندی: am + -sten.",
+   "explanationAfterAnswerEN": "Predicative superlative: am + -sten."
+  },
+  {
+   "id": "ex-komp-3",
+   "lessonSlug": "komparativ-superlativ",
+   "type": "matching",
+   "promptDE": "Verbinde Positiv und unregelmäßigen Komparativ.",
+   "promptFA": "صفت پایه را به تفضیلی بی‌قاعده وصل کن.",
+   "promptEN": "Match the base form to its irregular comparative.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "gut",
+      "right": "besser"
+     },
+     {
+      "left": "viel",
+      "right": "mehr"
+     },
+     {
+      "left": "gern",
+      "right": "lieber"
+     },
+     {
+      "left": "hoch",
+      "right": "höher"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Diese Adjektive haben unregelmäßige Steigerungsformen.",
+   "explanationAfterAnswerFA": "این صفت‌ها شکل مقایسه‌ای بی‌قاعده دارند.",
+   "explanationAfterAnswerEN": "These adjectives have irregular comparison forms."
+  },
+  {
+   "id": "ex-komp-4",
+   "lessonSlug": "komparativ-superlativ",
+   "type": "transform",
+   "promptDE": "Bilde den Superlativ (attributiv).",
+   "promptFA": "صفت عالی وصفی بساز.",
+   "promptEN": "Form the attributive superlative.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Das ist eine interessante Idee.",
+    "instructionDE": "Superlativ-Form.",
+    "instructionFA": "شکل صفت عالی.",
+    "instructionEN": "Superlative form.",
+    "correctAnswer": "Das ist die interessanteste Idee."
+   },
+   "explanationAfterAnswerDE": "Attributiver Superlativ: der/die/das + -ste + Adjektivendung.",
+   "explanationAfterAnswerFA": "صفت عالی وصفی: der/die/das + -ste + پایانهٔ صفت.",
+   "explanationAfterAnswerEN": "Attributive superlative: der/die/das + -ste + adjective ending."
+  },
+  {
+   "id": "ex-partadj-1",
+   "lessonSlug": "partizipien-als-adjektive",
+   "type": "multipleChoice",
+   "promptDE": "Der ___ Hund liegt auf dem Sofa. (schlafen)",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "schlafend",
+     "schlafende",
+     "geschlafen",
+     "schlafte"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "Partizip I + Adjektivendung: schlafende.",
+   "explanationAfterAnswerFA": "Partizip I + پایانهٔ صفت: schlafende.",
+   "explanationAfterAnswerEN": "Partizip I + adjective ending: schlafende."
+  },
+  {
+   "id": "ex-partadj-2",
+   "lessonSlug": "partizipien-als-adjektive",
+   "type": "fillBlank",
+   "promptDE": "Ergänze das richtige Partizip.",
+   "promptFA": "Partizip درست را کامل کن.",
+   "promptEN": "Complete with the correct participle.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Das ___ Fahrrad funktioniert wieder gut. (reparieren)",
+    "correctAnswer": "reparierte",
+    "alternatives": [
+     "reparierende",
+     "reparieren"
+    ]
+   },
+   "explanationAfterAnswerDE": "Partizip II (passive Bedeutung) + Adjektivendung: reparierte.",
+   "explanationAfterAnswerFA": "Partizip II (معنای منفعل) + پایانهٔ صفت: reparierte.",
+   "explanationAfterAnswerEN": "Partizip II (passive meaning) + adjective ending: reparierte."
+  },
+  {
+   "id": "ex-partadj-3",
+   "lessonSlug": "partizipien-als-adjektive",
+   "type": "matching",
+   "promptDE": "Verbinde Partizip I/II mit Bedeutung.",
+   "promptFA": "Partizip I/II را به معنایش وصل کن.",
+   "promptEN": "Match Partizip I/II to its meaning.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "die spielenden Kinder",
+      "right": "Partizip I: aktiv, gleichzeitig"
+     },
+     {
+      "left": "der verlorene Schlüssel",
+      "right": "Partizip II: passiv, abgeschlossen"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Partizip I ist aktiv, Partizip II ist meist passiv/abgeschlossen.",
+   "explanationAfterAnswerFA": "Partizip I فعال است، Partizip II اغلب منفعل/تمام‌شده است.",
+   "explanationAfterAnswerEN": "Partizip I is active; Partizip II is mostly passive/completed."
+  },
+  {
+   "id": "ex-partadj-4",
+   "lessonSlug": "partizipien-als-adjektive",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "schmeckt",
+     "Gemüse",
+     "frisch",
+     "Das",
+     "gekochte"
+    ],
+    "correctSentence": "Das gekochte Gemüse schmeckt frisch."
+   },
+   "explanationAfterAnswerDE": "Partizip II 'gekocht' + Adjektivendung -e (Typ 1, neutrum).",
+   "explanationAfterAnswerFA": "Partizip II «gekocht» + پایانهٔ صفت -e (نوع ۱، خنثی).",
+   "explanationAfterAnswerEN": "Partizip II 'gekocht' + adjective ending -e (Type 1, neuter)."
+  },
+  {
+   "id": "ex-zahl-1",
+   "lessonSlug": "zahlwoerter",
+   "type": "multipleChoice",
+   "promptDE": "Das ist mein ___ Arbeitstag.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "ein",
+     "erste",
+     "erster",
+     "erstes"
+    ],
+    "correctIndex": 2
+   },
+   "explanationAfterAnswerDE": "Ordinalzahl wie Adjektiv dekliniert: Typ 2 Maskulinum: erster.",
+   "explanationAfterAnswerFA": "عدد ترتیبی مانند صفت صرف می‌شود: نوع ۲ مذکر: erster.",
+   "explanationAfterAnswerEN": "Ordinal number declined like an adjective: Type 2 masculine: erster."
+  },
+  {
+   "id": "ex-zahl-2",
+   "lessonSlug": "zahlwoerter",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Form.",
+   "promptFA": "شکل درست را کامل کن.",
+   "promptEN": "Complete with the correct form.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Sie wohnt im ___ Stock. (zweite)",
+    "correctAnswer": "zweiten",
+    "alternatives": [
+     "zweite",
+     "zweiter"
+    ]
+   },
+   "explanationAfterAnswerDE": "Nach 'im' (in dem) Dativ: 'zweiten'.",
+   "explanationAfterAnswerFA": "بعد از «im» (in dem) در Dativ: «zweiten».",
+   "explanationAfterAnswerEN": "After 'im' (in dem), dative: 'zweiten'."
+  },
+  {
+   "id": "ex-zahl-3",
+   "lessonSlug": "zahlwoerter",
+   "type": "matching",
+   "promptDE": "Verbinde Kardinalzahl und Ordinalzahl.",
+   "promptFA": "عدد اصلی را به ترتیبی وصل کن.",
+   "promptEN": "Match the cardinal number to the ordinal.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "eins",
+      "right": "erste"
+     },
+     {
+      "left": "drei",
+      "right": "dritte"
+     },
+     {
+      "left": "sieben",
+      "right": "siebte"
+     },
+     {
+      "left": "zwanzig",
+      "right": "zwanzigste"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Ordinalzahlen bis 19 bekommen -te, ab 20 -ste.",
+   "explanationAfterAnswerFA": "اعداد ترتیبی تا ۱۹ پایانهٔ -te و از ۲۰ به بعد -ste می‌گیرند.",
+   "explanationAfterAnswerEN": "Ordinal numbers up to 19 take -te, from 20 onward -ste."
+  },
+  {
+   "id": "ex-zahl-4",
+   "lessonSlug": "zahlwoerter",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "Bruder",
+     "Ich",
+     "eine",
+     "habe",
+     "und",
+     "einen",
+     "Schwester"
+    ],
+    "correctSentence": "Ich habe eine Schwester und einen Bruder."
+   },
+   "explanationAfterAnswerDE": "'eins' wird wie ein unbestimmter Artikel dekliniert: 'eine' (fem.), 'einen' (mask. Akk.).",
+   "explanationAfterAnswerFA": "«eins» مانند آرتیکل نامعین صرف می‌شود: «eine» (مؤنث)، «einen» (مذکر در Akkusativ).",
+   "explanationAfterAnswerEN": "'eins' is declined like the indefinite article: 'eine' (fem.), 'einen' (masc. accusative)."
+  }
+ ]
+}

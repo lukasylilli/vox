@@ -1,0 +1,851 @@
+{
+ "_index": {
+  "fileDescription": "Temporalsätze: wenn/als, während, bevor, nachdem, seitdem, sobald, solange, bis",
+  "lastUpdatedStage": 19,
+  "lessons": [
+   "wenn-als — تفاوت wenn و als",
+   "waehrend-temporal — während (زمانی)",
+   "bevor-nachdem — bevor و nachdem",
+   "seitdem-sobald — seitdem و sobald",
+   "solange-bis — solange و bis"
+  ]
+ },
+ "lessons": [
+  {
+   "id": "wenn-als",
+   "slug": "wenn-als",
+   "titleDE": "Wenn oder als?",
+   "titleFA": "تفاوت «wenn» و «als»",
+   "titleEN": "Wenn or als?",
+   "levels": [
+    "A2",
+    "B1"
+   ],
+   "category": "nebensaetze",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "'als' wird für ein einmaliges Ereignis in der Vergangenheit verwendet. 'wenn' wird für wiederholte Ereignisse (Vergangenheit, Gegenwart, Zukunft) oder für ein einmaliges Ereignis in Gegenwart/Zukunft verwendet.",
+     "bodyFA": "«als» برای یک رویداد یک‌بار در گذشته استفاده می‌شود. «wenn» برای رویدادهای تکراری (گذشته، حال، آینده) یا یک رویداد یک‌بار در حال/آینده استفاده می‌شود.",
+     "bodyEN": "'als' is used for a one-time event in the past. 'wenn' is used for repeated events (past, present, future) or for a one-time event in the present/future."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Als ich acht Jahre alt war, zogen wir nach Wien.",
+     "meaningFA": "وقتی هشت ساله بودم، به وین اسباب‌کشی کردیم.",
+     "meaningEN": "When I was eight years old, we moved to Vienna.",
+     "noteDE": "Einmaliges Ereignis in der Vergangenheit → 'als'.",
+     "noteFA": "رویداد یک‌بار در گذشته → «als».",
+     "noteEN": "One-time event in the past → 'als'."
+    },
+    {
+     "id": "ex-2",
+     "german": "Wenn ich müde bin, trinke ich einen Kaffee.",
+     "meaningFA": "وقتی خسته‌ام، یک قهوه می‌نوشم.",
+     "meaningEN": "When I'm tired, I drink a coffee.",
+     "noteDE": "Wiederholtes Ereignis → 'wenn'.",
+     "noteFA": "رویداد تکراری → «wenn».",
+     "noteEN": "Repeated event → 'wenn'."
+    },
+    {
+     "id": "ex-3",
+     "german": "Als sie in Hamburg ankam, regnete es stark.",
+     "meaningFA": "وقتی او به هامبورگ رسید، باران شدید می‌بارید.",
+     "meaningEN": "When she arrived in Hamburg, it was raining heavily."
+    },
+    {
+     "id": "ex-4",
+     "german": "Wenn wir uns nächstes Mal treffen, gehen wir ins Kino.",
+     "meaningFA": "دفعهٔ بعد که همدیگر را ببینیم، به سینما می‌رویم.",
+     "meaningEN": "When we meet next time, we'll go to the cinema."
+    },
+    {
+     "id": "ex-5",
+     "german": "Immer wenn er Musik hört, wird er ruhig.",
+     "meaningFA": "هر وقت او موسیقی گوش می‌دهد، آرام می‌شود.",
+     "meaningEN": "Whenever he listens to music, he becomes calm."
+    },
+    {
+     "id": "ex-6",
+     "german": "Als der Film zu Ende war, verließen wir das Kino.",
+     "meaningFA": "وقتی فیلم تمام شد، سینما را ترک کردیم.",
+     "meaningEN": "When the movie ended, we left the cinema."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "wenn vs. als",
+     "titleFA": "تفاوت wenn و als",
+     "titleEN": "wenn vs. als",
+     "style": "simple",
+     "columns": [
+      "Konjunktion",
+      "Verwendung"
+     ],
+     "rows": [
+      {
+       "rowLabel": "als",
+       "cells": [
+        "einmalig, Vergangenheit"
+       ]
+      },
+      {
+       "rowLabel": "wenn",
+       "cells": [
+        "wiederholt (jede Zeit) oder einmalig (Gegenwart/Zukunft)"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "konditionalsaetze",
+    "praeteritum"
+   ],
+   "exerciseSlugs": [
+    "ex-wennals-1",
+    "ex-wennals-2",
+    "ex-wennals-3",
+    "ex-wennals-4"
+   ]
+  },
+  {
+   "id": "waehrend-temporal",
+   "slug": "waehrend-temporal",
+   "titleDE": "Während (temporal)",
+   "titleFA": "«während» (به‌معنای زمانی)",
+   "titleEN": "Während (temporal)",
+   "levels": [
+    "A2",
+    "B1"
+   ],
+   "category": "nebensaetze",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "'während' zeigt Gleichzeitigkeit zweier Handlungen an: eine Handlung passiert, solange die andere andauert. Nicht zu verwechseln mit dem adversativen 'während' (siehe Adversativsätze).",
+     "bodyFA": "«während» هم‌زمانی دو کنش را نشان می‌دهد: یک کنش در حالی اتفاق می‌افتد که دیگری ادامه دارد. با «während» تقابلی (نگاه کنید به جملات تقابلی) اشتباه نشود.",
+     "bodyEN": "'während' indicates simultaneity of two actions: one action happens while the other continues. Not to be confused with the adversative 'während' (see adversative clauses)."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Während ich koche, hört mein Mann Musik.",
+     "meaningFA": "در حالی که من آشپزی می‌کنم، همسرم موسیقی گوش می‌دهد.",
+     "meaningEN": "While I'm cooking, my husband listens to music."
+    },
+    {
+     "id": "ex-2",
+     "german": "Sie las ein Buch, während sie auf den Bus wartete.",
+     "meaningFA": "او یک کتاب می‌خواند، در حالی که منتظر اتوبوس بود.",
+     "meaningEN": "She read a book while she was waiting for the bus."
+    },
+    {
+     "id": "ex-3",
+     "german": "Während wir arbeiten, spielen die Kinder im Garten.",
+     "meaningFA": "در حالی که ما کار می‌کنیم، بچه‌ها در باغ بازی می‌کنند.",
+     "meaningEN": "While we work, the children play in the garden."
+    },
+    {
+     "id": "ex-4",
+     "german": "Während des Fluges schlief sie fast die ganze Zeit.",
+     "meaningFA": "در طول پرواز، او تقریباً تمام مدت خوابید.",
+     "meaningEN": "During the flight, she slept almost the whole time."
+    },
+    {
+     "id": "ex-5",
+     "german": "Er telefonierte, während er zur Arbeit fuhr.",
+     "meaningFA": "او تلفن می‌زد، در حالی که به سر کار می‌رفت.",
+     "meaningEN": "He was on the phone while driving to work."
+    },
+    {
+     "id": "ex-6",
+     "german": "Während des Meetings kam eine wichtige E-Mail an.",
+     "meaningFA": "در طول جلسه، یک ایمیل مهم رسید.",
+     "meaningEN": "An important email arrived during the meeting."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "adversativsaetze"
+   ],
+   "exerciseSlugs": [
+    "ex-waehrend-1",
+    "ex-waehrend-2",
+    "ex-waehrend-3",
+    "ex-waehrend-4"
+   ]
+  },
+  {
+   "id": "bevor-nachdem",
+   "slug": "bevor-nachdem",
+   "titleDE": "Bevor und nachdem",
+   "titleFA": "«bevor» و «nachdem»",
+   "titleEN": "Bevor and nachdem",
+   "levels": [
+    "A2",
+    "B1"
+   ],
+   "category": "nebensaetze",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": "Zeitliche Abfolge",
+     "headingFA": "ترتیب زمانی",
+     "headingEN": "Temporal Sequence",
+     "bodyDE": "'bevor' zeigt an, dass etwas vor einem anderen Ereignis passiert; 'nachdem' zeigt an, dass etwas danach passiert. Bei 'nachdem' muss der Nebensatz in einer früheren Zeitstufe stehen (Plusquamperfekt vor Präteritum, Perfekt vor Präsens).",
+     "bodyFA": "«bevor» نشان می‌دهد چیزی قبل از رویداد دیگری اتفاق می‌افتد؛ «nachdem» نشان می‌دهد چیزی بعد از آن اتفاق می‌افتد. در «nachdem»، جملهٔ پیرو باید در زمان قبلی‌تری باشد (Plusquamperfekt قبل از Präteritum، Perfekt قبل از Präsens).",
+     "bodyEN": "'bevor' indicates something happens before another event; 'nachdem' indicates something happens after. With 'nachdem', the subordinate clause must be in an earlier tense (Plusquamperfekt before Präteritum, Perfekt before Präsens)."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Bevor wir essen, waschen wir uns die Hände.",
+     "meaningFA": "قبل از اینکه غذا بخوریم، دست‌هایمان را می‌شوییم.",
+     "meaningEN": "Before we eat, we wash our hands."
+    },
+    {
+     "id": "ex-2",
+     "german": "Nachdem sie gegessen hatte, räumte sie die Küche auf.",
+     "meaningFA": "بعد از اینکه غذا خورده بود، آشپزخانه را مرتب کرد.",
+     "meaningEN": "After she had eaten, she tidied up the kitchen.",
+     "noteDE": "Plusquamperfekt (gegessen hatte) vor Präteritum (räumte auf).",
+     "noteFA": "Plusquamperfekt (gegessen hatte) قبل از Präteritum (räumte auf).",
+     "noteEN": "Plusquamperfekt (gegessen hatte) before Präteritum (räumte auf)."
+    },
+    {
+     "id": "ex-3",
+     "german": "Bevor du gehst, schalte bitte das Licht aus.",
+     "meaningFA": "قبل از اینکه بروی، لطفاً چراغ را خاموش کن.",
+     "meaningEN": "Before you leave, please turn off the light."
+    },
+    {
+     "id": "ex-4",
+     "german": "Nachdem er die Prüfung bestanden hat, feiert er heute Abend.",
+     "meaningFA": "بعد از اینکه امتحان را قبول شده است، امشب جشن می‌گیرد.",
+     "meaningEN": "After passing the exam, he's celebrating tonight."
+    },
+    {
+     "id": "ex-5",
+     "german": "Bevor die Firma expandierte, hatte sie nur zehn Mitarbeiter.",
+     "meaningFA": "قبل از اینکه شرکت گسترش یابد، فقط ده کارمند داشت.",
+     "meaningEN": "Before the company expanded, it only had ten employees."
+    },
+    {
+     "id": "ex-6",
+     "german": "Nachdem wir den Vertrag unterschrieben hatten, begannen wir mit der Arbeit.",
+     "meaningFA": "بعد از اینکه قرارداد را امضا کرده بودیم، کار را شروع کردیم.",
+     "meaningEN": "After we had signed the contract, we started the work."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "plusquamperfekt",
+    "perfekt"
+   ],
+   "exerciseSlugs": [
+    "ex-bevornach-1",
+    "ex-bevornach-2",
+    "ex-bevornach-3",
+    "ex-bevornach-4"
+   ]
+  },
+  {
+   "id": "seitdem-sobald",
+   "slug": "seitdem-sobald",
+   "titleDE": "Seitdem und sobald",
+   "titleFA": "«seitdem» و «sobald»",
+   "titleEN": "Seitdem and sobald",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "category": "nebensaetze",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "'seitdem' zeigt den Beginn eines Zustands an, der bis jetzt andauert. 'sobald' zeigt an, dass etwas unmittelbar nach einem anderen Ereignis geschieht.",
+     "bodyFA": "«seitdem» شروع حالتی را نشان می‌دهد که تا الان ادامه دارد. «sobald» نشان می‌دهد چیزی بلافاصله بعد از رویداد دیگری اتفاق می‌افتد.",
+     "bodyEN": "'seitdem' indicates the beginning of a state that continues until now. 'sobald' indicates that something happens immediately after another event."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Seitdem sie umgezogen ist, sehen wir uns seltener.",
+     "meaningFA": "از وقتی او اسباب‌کشی کرده، کمتر همدیگر را می‌بینیم.",
+     "meaningEN": "Since she moved, we see each other less often."
+    },
+    {
+     "id": "ex-2",
+     "german": "Sobald ich Zeit habe, rufe ich dich zurück.",
+     "meaningFA": "به محض اینکه وقت داشته باشم، بهت زنگ می‌زنم.",
+     "meaningEN": "As soon as I have time, I'll call you back."
+    },
+    {
+     "id": "ex-3",
+     "german": "Seitdem er das Rauchen aufgegeben hat, fühlt er sich besser.",
+     "meaningFA": "از وقتی سیگار را ترک کرده، حالش بهتر است.",
+     "meaningEN": "Since he quit smoking, he feels better."
+    },
+    {
+     "id": "ex-4",
+     "german": "Sobald das Essen fertig ist, rufen wir alle zu Tisch.",
+     "meaningFA": "به محض اینکه غذا آماده شد، همه را برای غذا صدا می‌زنیم.",
+     "meaningEN": "As soon as the food is ready, we'll call everyone to the table."
+    },
+    {
+     "id": "ex-5",
+     "german": "Seitdem wir das neue System nutzen, arbeiten wir effizienter.",
+     "meaningFA": "از وقتی از سیستم جدید استفاده می‌کنیم، کارآمدتر کار می‌کنیم.",
+     "meaningEN": "Since we've been using the new system, we work more efficiently."
+    },
+    {
+     "id": "ex-6",
+     "german": "Sobald du ankommst, schreib mir bitte eine Nachricht.",
+     "meaningFA": "به محض اینکه رسیدی، لطفاً یک پیام بفرست.",
+     "meaningEN": "As soon as you arrive, please send me a message."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "perfekt",
+    "praesens"
+   ],
+   "exerciseSlugs": [
+    "ex-seitsobald-1",
+    "ex-seitsobald-2",
+    "ex-seitsobald-3",
+    "ex-seitsobald-4"
+   ]
+  },
+  {
+   "id": "solange-bis",
+   "slug": "solange-bis",
+   "titleDE": "Solange und bis",
+   "titleFA": "«solange» و «bis»",
+   "titleEN": "Solange and bis",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "category": "nebensaetze",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "'solange' zeigt an, dass zwei Handlungen gleich lange dauern. 'bis' zeigt einen Endpunkt in der Zeit an: eine Handlung dauert an, bis etwas anderes passiert.",
+     "bodyFA": "«solange» نشان می‌دهد که دو کنش به یک اندازه طول می‌کشند. «bis» نقطهٔ پایانی در زمان را نشان می‌دهد: کنشی ادامه دارد تا چیز دیگری اتفاق بیفتد.",
+     "bodyEN": "'solange' indicates that two actions last for the same amount of time. 'bis' indicates an endpoint in time: an action continues until something else happens."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Solange es regnet, bleiben wir drinnen.",
+     "meaningFA": "تا وقتی باران می‌بارد، داخل می‌مانیم.",
+     "meaningEN": "As long as it's raining, we're staying inside."
+    },
+    {
+     "id": "ex-2",
+     "german": "Wir warten hier, bis der Bus kommt.",
+     "meaningFA": "ما اینجا منتظر می‌مانیم تا اتوبوس بیاید.",
+     "meaningEN": "We're waiting here until the bus comes."
+    },
+    {
+     "id": "ex-3",
+     "german": "Solange du hier wohnst, musst du die Regeln respektieren.",
+     "meaningFA": "تا وقتی اینجا زندگی می‌کنی، باید قوانین را رعایت کنی.",
+     "meaningEN": "As long as you live here, you must respect the rules."
+    },
+    {
+     "id": "ex-4",
+     "german": "Sie übte, bis sie das Lied perfekt konnte.",
+     "meaningFA": "او تمرین کرد تا اینکه آهنگ را کامل یاد گرفت.",
+     "meaningEN": "She practiced until she knew the song perfectly."
+    },
+    {
+     "id": "ex-5",
+     "german": "Solange die Prüfung nicht bestanden ist, kann er nicht weitermachen.",
+     "meaningFA": "تا وقتی امتحان قبول نشده، او نمی‌تواند ادامه دهد.",
+     "meaningEN": "As long as the exam isn't passed, he can't continue."
+    },
+    {
+     "id": "ex-6",
+     "german": "Bleib bitte, bis ich zurückkomme.",
+     "meaningFA": "لطفاً بمان تا برگردم.",
+     "meaningEN": "Please stay until I come back."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "konditionalsaetze"
+   ],
+   "exerciseSlugs": [
+    "ex-solangebis-1",
+    "ex-solangebis-2",
+    "ex-solangebis-3",
+    "ex-solangebis-4"
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-wennals-1",
+   "lessonSlug": "wenn-als",
+   "type": "multipleChoice",
+   "promptDE": "___ ich acht Jahre alt war, zogen wir nach Wien.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "Wenn",
+     "Als",
+     "Während",
+     "Bevor"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "Einmaliges Ereignis in der Vergangenheit → 'als'.",
+   "explanationAfterAnswerFA": "رویداد یک‌بار در گذشته → «als».",
+   "explanationAfterAnswerEN": "One-time event in the past → 'als'."
+  },
+  {
+   "id": "ex-wennals-2",
+   "lessonSlug": "wenn-als",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Konjunktion.",
+   "promptFA": "حرف ربط درست را کامل کن.",
+   "promptEN": "Complete with the correct conjunction.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "___ ich müde bin, trinke ich einen Kaffee.",
+    "correctAnswer": "Wenn",
+    "alternatives": [
+     "Als",
+     "Während"
+    ]
+   },
+   "explanationAfterAnswerDE": "Wiederholtes Ereignis → 'wenn'.",
+   "explanationAfterAnswerFA": "رویداد تکراری → «wenn».",
+   "explanationAfterAnswerEN": "Repeated event → 'wenn'."
+  },
+  {
+   "id": "ex-wennals-3",
+   "lessonSlug": "wenn-als",
+   "type": "matching",
+   "promptDE": "Verbinde Situation und richtige Konjunktion.",
+   "promptFA": "موقعیت را به حرف ربط درست وصل کن.",
+   "promptEN": "Match the situation to the correct conjunction.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "einmalig, Vergangenheit",
+      "right": "als"
+     },
+     {
+      "left": "wiederholt, jede Zeit",
+      "right": "wenn"
+     },
+     {
+      "left": "einmalig, Zukunft",
+      "right": "wenn"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Die Wahl hängt von Häufigkeit und Zeitstufe ab.",
+   "explanationAfterAnswerFA": "انتخاب به تکرار و زمان‌بندی بستگی دارد.",
+   "explanationAfterAnswerEN": "The choice depends on frequency and tense."
+  },
+  {
+   "id": "ex-wennals-4",
+   "lessonSlug": "wenn-als",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "regnete",
+     "ankam",
+     "sie",
+     "stark",
+     "Als",
+     "in",
+     "es",
+     "Hamburg"
+    ],
+    "correctSentence": "Als sie in Hamburg ankam, regnete es stark."
+   },
+   "explanationAfterAnswerDE": "Bei 'als' zuerst folgt das Verb des Hauptsatzes direkt danach.",
+   "explanationAfterAnswerFA": "وقتی «als» اول بیاید، فعل جملهٔ اصلی بلافاصله بعدش می‌آید.",
+   "explanationAfterAnswerEN": "When 'als' comes first, the main clause verb follows directly."
+  },
+  {
+   "id": "ex-waehrend-1",
+   "lessonSlug": "waehrend-temporal",
+   "type": "multipleChoice",
+   "promptDE": "___ ich koche, hört mein Mann Musik.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "Bevor",
+     "Während",
+     "Nachdem",
+     "Bis"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "'während' zeigt Gleichzeitigkeit an.",
+   "explanationAfterAnswerFA": "«während» هم‌زمانی را نشان می‌دهد.",
+   "explanationAfterAnswerEN": "'während' indicates simultaneity."
+  },
+  {
+   "id": "ex-waehrend-2",
+   "lessonSlug": "waehrend-temporal",
+   "type": "transform",
+   "promptDE": "Verbinde mit 'während'.",
+   "promptFA": "با «während» وصل کن.",
+   "promptEN": "Connect with 'während'.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Wir arbeiten. Die Kinder spielen im Garten.",
+    "instructionDE": "Mit 'während' verbinden.",
+    "instructionFA": "با «während» وصل کن.",
+    "instructionEN": "Connect with 'während'.",
+    "correctAnswer": "Während wir arbeiten, spielen die Kinder im Garten."
+   },
+   "explanationAfterAnswerDE": "'während' zeigt zwei gleichzeitige Handlungen.",
+   "explanationAfterAnswerFA": "«während» دو کنش هم‌زمان را نشان می‌دهد.",
+   "explanationAfterAnswerEN": "'während' shows two simultaneous actions."
+  },
+  {
+   "id": "ex-waehrend-3",
+   "lessonSlug": "waehrend-temporal",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Präposition.",
+   "promptFA": "حرف‌اضافهٔ درست را کامل کن.",
+   "promptEN": "Complete with the correct preposition.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "___ des Fluges schlief sie fast die ganze Zeit.",
+    "correctAnswer": "Während",
+    "alternatives": [
+     "Bevor",
+     "Bis"
+    ]
+   },
+   "explanationAfterAnswerDE": "'während' + Genitiv als Präposition.",
+   "explanationAfterAnswerFA": "«während» + Genitiv به‌عنوان حرف‌اضافه.",
+   "explanationAfterAnswerEN": "'während' + genitive as a preposition."
+  },
+  {
+   "id": "ex-waehrend-4",
+   "lessonSlug": "waehrend-temporal",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "fuhr",
+     "er",
+     "zur",
+     "telefonierte",
+     "Arbeit",
+     "er",
+     "Er",
+     "während"
+    ],
+    "correctSentence": "Er telefonierte, während er zur Arbeit fuhr."
+   },
+   "explanationAfterAnswerDE": "'während' verbindet zwei gleichzeitige Handlungen.",
+   "explanationAfterAnswerFA": "«während» دو کنش هم‌زمان را به هم وصل می‌کند.",
+   "explanationAfterAnswerEN": "'während' connects two simultaneous actions."
+  },
+  {
+   "id": "ex-bevornach-1",
+   "lessonSlug": "bevor-nachdem",
+   "type": "multipleChoice",
+   "promptDE": "___ wir essen, waschen wir uns die Hände.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "Nachdem",
+     "Bevor",
+     "Seitdem",
+     "Solange"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "'bevor' zeigt an, dass etwas vorher passiert.",
+   "explanationAfterAnswerFA": "«bevor» نشان می‌دهد چیزی قبل‌تر اتفاق می‌افتد.",
+   "explanationAfterAnswerEN": "'bevor' indicates that something happens beforehand."
+  },
+  {
+   "id": "ex-bevornach-2",
+   "lessonSlug": "bevor-nachdem",
+   "type": "transform",
+   "promptDE": "Verbinde mit 'nachdem' (richtige Zeitstufe).",
+   "promptFA": "با «nachdem» وصل کن (زمان درست).",
+   "promptEN": "Connect with 'nachdem' (correct tense).",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Sie aß. Sie räumte die Küche auf.",
+    "instructionDE": "Mit 'nachdem' und Plusquamperfekt verbinden.",
+    "instructionFA": "با «nachdem» و Plusquamperfekt وصل کن.",
+    "instructionEN": "Connect with 'nachdem' and the Plusquamperfekt.",
+    "correctAnswer": "Nachdem sie gegessen hatte, räumte sie die Küche auf."
+   },
+   "explanationAfterAnswerDE": "Bei 'nachdem' steht der Nebensatz in einer früheren Zeitstufe.",
+   "explanationAfterAnswerFA": "در «nachdem»، جملهٔ پیرو در زمان قبلی‌تری می‌آید.",
+   "explanationAfterAnswerEN": "With 'nachdem', the subordinate clause is in an earlier tense."
+  },
+  {
+   "id": "ex-bevornach-3",
+   "lessonSlug": "bevor-nachdem",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Konjunktion.",
+   "promptFA": "حرف ربط درست را کامل کن.",
+   "promptEN": "Complete with the correct conjunction.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "___ du gehst, schalte bitte das Licht aus.",
+    "correctAnswer": "Bevor",
+    "alternatives": [
+     "Nachdem",
+     "Seitdem"
+    ]
+   },
+   "explanationAfterAnswerDE": "'bevor' zeigt eine Handlung vor einer anderen an.",
+   "explanationAfterAnswerFA": "«bevor» یک کنش قبل از دیگری را نشان می‌دهد.",
+   "explanationAfterAnswerEN": "'bevor' indicates an action before another one."
+  },
+  {
+   "id": "ex-bevornach-4",
+   "lessonSlug": "bevor-nachdem",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "begannen",
+     "hatten",
+     "unterschrieben",
+     "wir",
+     "den",
+     "Vertrag",
+     "Nachdem",
+     "wir",
+     "mit",
+     "der",
+     "Arbeit"
+    ],
+    "correctSentence": "Nachdem wir den Vertrag unterschrieben hatten, begannen wir mit der Arbeit."
+   },
+   "explanationAfterAnswerDE": "Plusquamperfekt im Nebensatz, Präteritum im Hauptsatz.",
+   "explanationAfterAnswerFA": "Plusquamperfekt در جملهٔ پیرو، Präteritum در جملهٔ اصلی.",
+   "explanationAfterAnswerEN": "Plusquamperfekt in the subordinate clause, Präteritum in the main clause."
+  },
+  {
+   "id": "ex-seitsobald-1",
+   "lessonSlug": "seitdem-sobald",
+   "type": "multipleChoice",
+   "promptDE": "___ sie umgezogen ist, sehen wir uns seltener.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "Sobald",
+     "Seitdem",
+     "Bevor",
+     "Bis"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "'seitdem' zeigt den Beginn eines andauernden Zustands.",
+   "explanationAfterAnswerFA": "«seitdem» شروع یک حالت ادامه‌دار را نشان می‌دهد.",
+   "explanationAfterAnswerEN": "'seitdem' indicates the start of an ongoing state."
+  },
+  {
+   "id": "ex-seitsobald-2",
+   "lessonSlug": "seitdem-sobald",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Konjunktion.",
+   "promptFA": "حرف ربط درست را کامل کن.",
+   "promptEN": "Complete with the correct conjunction.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "___ ich Zeit habe, rufe ich dich zurück.",
+    "correctAnswer": "Sobald",
+    "alternatives": [
+     "Seitdem",
+     "Solange"
+    ]
+   },
+   "explanationAfterAnswerDE": "'sobald' zeigt eine unmittelbare Folge an.",
+   "explanationAfterAnswerFA": "«sobald» یک پیامد فوری را نشان می‌دهد.",
+   "explanationAfterAnswerEN": "'sobald' indicates an immediate consequence."
+  },
+  {
+   "id": "ex-seitsobald-3",
+   "lessonSlug": "seitdem-sobald",
+   "type": "transform",
+   "promptDE": "Verbinde mit 'sobald'.",
+   "promptFA": "با «sobald» وصل کن.",
+   "promptEN": "Connect with 'sobald'.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Das Essen ist fertig. Wir rufen alle zu Tisch.",
+    "instructionDE": "Mit 'sobald' verbinden.",
+    "instructionFA": "با «sobald» وصل کن.",
+    "instructionEN": "Connect with 'sobald'.",
+    "correctAnswer": "Sobald das Essen fertig ist, rufen wir alle zu Tisch."
+   },
+   "explanationAfterAnswerDE": "'sobald' zeigt: unmittelbar danach passiert etwas.",
+   "explanationAfterAnswerFA": "«sobald» نشان می‌دهد: بلافاصله بعد از آن چیزی اتفاق می‌افتد.",
+   "explanationAfterAnswerEN": "'sobald' shows: something happens immediately after."
+  },
+  {
+   "id": "ex-seitsobald-4",
+   "lessonSlug": "seitdem-sobald",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "aufgegeben",
+     "er",
+     "fühlt",
+     "hat",
+     "besser",
+     "Rauchen",
+     "sich",
+     "er",
+     "das",
+     "Seitdem"
+    ],
+    "correctSentence": "Seitdem er das Rauchen aufgegeben hat, fühlt er sich besser."
+   },
+   "explanationAfterAnswerDE": "'seitdem' + Perfekt zeigt einen Zustand seit einem Zeitpunkt.",
+   "explanationAfterAnswerFA": "«seitdem» + Perfekt یک حالت از یک زمان مشخص را نشان می‌دهد.",
+   "explanationAfterAnswerEN": "'seitdem' + Perfekt shows a state since a point in time."
+  },
+  {
+   "id": "ex-solangebis-1",
+   "lessonSlug": "solange-bis",
+   "type": "multipleChoice",
+   "promptDE": "Wir warten hier, ___ der Bus kommt.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "solange",
+     "bis",
+     "während",
+     "seitdem"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "'bis' zeigt einen Endpunkt an.",
+   "explanationAfterAnswerFA": "«bis» نقطهٔ پایانی را نشان می‌دهد.",
+   "explanationAfterAnswerEN": "'bis' indicates an endpoint."
+  },
+  {
+   "id": "ex-solangebis-2",
+   "lessonSlug": "solange-bis",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Konjunktion.",
+   "promptFA": "حرف ربط درست را کامل کن.",
+   "promptEN": "Complete with the correct conjunction.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "___ es regnet, bleiben wir drinnen.",
+    "correctAnswer": "Solange",
+    "alternatives": [
+     "Bis",
+     "Bevor"
+    ]
+   },
+   "explanationAfterAnswerDE": "'solange' zeigt eine gleiche Dauer zweier Handlungen.",
+   "explanationAfterAnswerFA": "«solange» مدت زمان یکسان دو کنش را نشان می‌دهد.",
+   "explanationAfterAnswerEN": "'solange' shows an equal duration of two actions."
+  },
+  {
+   "id": "ex-solangebis-3",
+   "lessonSlug": "solange-bis",
+   "type": "transform",
+   "promptDE": "Verbinde mit 'bis'.",
+   "promptFA": "با «bis» وصل کن.",
+   "promptEN": "Connect with 'bis'.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Sie übte. Sie konnte das Lied perfekt.",
+    "instructionDE": "Mit 'bis' verbinden.",
+    "instructionFA": "با «bis» وصل کن.",
+    "instructionEN": "Connect with 'bis'.",
+    "correctAnswer": "Sie übte, bis sie das Lied perfekt konnte."
+   },
+   "explanationAfterAnswerDE": "'bis' zeigt: die Handlung dauert an, bis etwas anderes passiert.",
+   "explanationAfterAnswerFA": "«bis» نشان می‌دهد: کنش ادامه دارد تا چیز دیگری اتفاق بیفتد.",
+   "explanationAfterAnswerEN": "'bis' shows: the action continues until something else happens."
+  },
+  {
+   "id": "ex-solangebis-4",
+   "lessonSlug": "solange-bis",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "ich",
+     "bitte",
+     "zurückkomme",
+     "bis",
+     "Bleib"
+    ],
+    "correctSentence": "Bleib bitte, bis ich zurückkomme."
+   },
+   "explanationAfterAnswerDE": "'bis' + Präsens zeigt den Endpunkt einer Handlung an.",
+   "explanationAfterAnswerFA": "«bis» + Präsens نقطهٔ پایانی یک کنش را نشان می‌دهد.",
+   "explanationAfterAnswerEN": "'bis' + present tense indicates the endpoint of an action."
+  }
+ ]
+}

@@ -1,0 +1,891 @@
+{
+ "_index": {
+  "fileDescription": "Satzlehre-Grundlagen: Satzarten, Konjunktionen (koordinierend), Satzverbindende Adverbien, Angaben, مقدمهٔ Nebensätze",
+  "lastUpdatedStage": 17,
+  "lessons": [
+   "satzarten — انواع جمله",
+   "konjunktionen — حروف ربط هم‌پایه‌ساز",
+   "satzverbindende-adverbien — قیدهای ربطی",
+   "angaben — قیدهای اضافی (Angaben)",
+   "nebensaetze-einfuehrung — مقدمهٔ جملات وابسته"
+  ]
+ },
+ "lessons": [
+  {
+   "id": "satzarten",
+   "slug": "satzarten",
+   "titleDE": "Satzarten",
+   "titleFA": "انواع جمله",
+   "titleEN": "Sentence Types",
+   "levels": [
+    "A1",
+    "A2"
+   ],
+   "category": "satzlehre",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Deutsche Sätze lassen sich in Aussagesätze (Verb an Position 2), Fragesätze (W-Frage oder Ja/Nein-Frage mit Verb an Position 1) und Aufforderungssätze (Imperativ) einteilen.",
+     "bodyFA": "جملات آلمانی به جملات خبری (فعل در جایگاه دوم)، جملات پرسشی (سؤال W یا سؤال بله/خیر با فعل در جایگاه اول) و جملات امری (Imperativ) تقسیم می‌شوند.",
+     "bodyEN": "German sentences can be divided into declarative sentences (verb in position 2), questions (W-question or yes/no question with the verb in position 1), and imperative sentences."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Wir lernen heute Grammatik.",
+     "meaningFA": "ما امروز گرامر یاد می‌گیریم.",
+     "meaningEN": "We are learning grammar today.",
+     "noteDE": "Aussagesatz: Verb an Position 2.",
+     "noteFA": "جملهٔ خبری: فعل در جایگاه دوم.",
+     "noteEN": "Declarative sentence: verb in position 2."
+    },
+    {
+     "id": "ex-2",
+     "german": "Kommst du heute Abend mit?",
+     "meaningFA": "امشب همراه می‌آیی؟",
+     "meaningEN": "Are you coming along tonight?",
+     "noteDE": "Ja/Nein-Frage: Verb an Position 1.",
+     "noteFA": "سؤال بله/خیر: فعل در جایگاه اول.",
+     "noteEN": "Yes/no question: verb in position 1."
+    },
+    {
+     "id": "ex-3",
+     "german": "Was machst du am Wochenende?",
+     "meaningFA": "آخر هفته چه کار می‌کنی؟",
+     "meaningEN": "What are you doing this weekend?"
+    },
+    {
+     "id": "ex-4",
+     "german": "Mach bitte das Fenster zu!",
+     "meaningFA": "لطفاً پنجره را ببند!",
+     "meaningEN": "Please close the window!"
+    },
+    {
+     "id": "ex-5",
+     "german": "Die Sonne scheint heute sehr stark.",
+     "meaningFA": "خورشید امروز خیلی قوی می‌تابد.",
+     "meaningEN": "The sun is shining very strongly today."
+    },
+    {
+     "id": "ex-6",
+     "german": "Wie lange dauert die Besprechung?",
+     "meaningFA": "جلسه چقدر طول می‌کشد؟",
+     "meaningEN": "How long does the meeting last?"
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "fragewoerter"
+   ],
+   "exerciseSlugs": [
+    "ex-satzart-1",
+    "ex-satzart-2",
+    "ex-satzart-3",
+    "ex-satzart-4"
+   ]
+  },
+  {
+   "id": "konjunktionen",
+   "slug": "konjunktionen",
+   "titleDE": "Konjunktionen (koordinierend)",
+   "titleFA": "حروف ربط هم‌پایه‌ساز",
+   "titleEN": "Coordinating Conjunctions",
+   "levels": [
+    "A2",
+    "B1"
+   ],
+   "category": "satzlehre",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Die koordinierenden Konjunktionen (und, oder, aber, denn, sondern) verbinden zwei gleichrangige Hauptsätze, ohne die Wortstellung im zweiten Satz zu verändern (Verb bleibt an Position 2).",
+     "bodyFA": "حروف ربط هم‌پایه‌ساز (und، oder، aber، denn، sondern) دو جملهٔ اصلی هم‌پایه را به هم وصل می‌کنند، بدون تغییر ترتیب واژگان در جملهٔ دوم (فعل در جایگاه دوم می‌ماند).",
+     "bodyEN": "Coordinating conjunctions (und, oder, aber, denn, sondern) connect two equal main clauses without changing the word order in the second clause (the verb stays in position 2)."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Ich koche und mein Mann deckt den Tisch.",
+     "meaningFA": "من آشپزی می‌کنم و همسرم میز را می‌چیند.",
+     "meaningEN": "I cook and my husband sets the table."
+    },
+    {
+     "id": "ex-2",
+     "german": "Wir bleiben zu Hause, denn es regnet stark.",
+     "meaningFA": "ما خانه می‌مانیم، چون باران شدید می‌بارد.",
+     "meaningEN": "We're staying home, because it's raining heavily."
+    },
+    {
+     "id": "ex-3",
+     "german": "Sie ist müde, aber sie arbeitet weiter.",
+     "meaningFA": "او خسته است، اما به کارش ادامه می‌دهد.",
+     "meaningEN": "She is tired, but she keeps working."
+    },
+    {
+     "id": "ex-4",
+     "german": "Möchtest du Tee oder Kaffee?",
+     "meaningFA": "چای می‌خواهی یا قهوه؟",
+     "meaningEN": "Would you like tea or coffee?"
+    },
+    {
+     "id": "ex-5",
+     "german": "Er trinkt keinen Alkohol, sondern nur Wasser.",
+     "meaningFA": "او الکل نمی‌نوشد، بلکه فقط آب می‌نوشد.",
+     "meaningEN": "He doesn't drink alcohol, but only water."
+    },
+    {
+     "id": "ex-6",
+     "german": "Wir gehen spazieren, und die Kinder spielen im Park.",
+     "meaningFA": "ما پیاده‌روی می‌کنیم و بچه‌ها در پارک بازی می‌کنند.",
+     "meaningEN": "We're going for a walk, and the children are playing in the park."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "Die fünf koordinierenden Konjunktionen",
+     "titleFA": "پنج حرف ربط هم‌پایه‌ساز",
+     "titleEN": "The Five Coordinating Conjunctions",
+     "style": "simple",
+     "columns": [
+      "Konjunktion",
+      "Bedeutung"
+     ],
+     "rows": [
+      {
+       "rowLabel": "und",
+       "cells": [
+        "پیوند ساده"
+       ]
+      },
+      {
+       "rowLabel": "oder",
+       "cells": [
+        "انتخاب"
+       ]
+      },
+      {
+       "rowLabel": "aber",
+       "cells": [
+        "تضاد"
+       ]
+      },
+      {
+       "rowLabel": "denn",
+       "cells": [
+        "دلیل"
+       ]
+      },
+      {
+       "rowLabel": "sondern",
+       "cells": [
+        "جایگزینی بعد از نفی"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "satzverbindende-adverbien",
+    "nebensaetze-einfuehrung"
+   ],
+   "exerciseSlugs": [
+    "ex-konj-1",
+    "ex-konj-2",
+    "ex-konj-3",
+    "ex-konj-4"
+   ]
+  },
+  {
+   "id": "satzverbindende-adverbien",
+   "slug": "satzverbindende-adverbien",
+   "titleDE": "Satzverbindende Adverbien",
+   "titleFA": "قیدهای ربطی",
+   "titleEN": "Connecting Adverbs",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "category": "satzlehre",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Satzverbindende Adverbien (deshalb, trotzdem, außerdem, dann, also) verbinden zwei Hauptsätze logisch, verhalten sich aber wie normale Adverbien: sie können an Position 1 stehen, wodurch das Verb an Position 2 folgt.",
+     "bodyFA": "قیدهای ربطی (deshalb، trotzdem، außerdem، dann، also) دو جملهٔ اصلی را از نظر منطقی به هم وصل می‌کنند، اما مانند قید عادی رفتار می‌کنند: می‌توانند در جایگاه اول بیایند، که در این صورت فعل در جایگاه دوم می‌آید.",
+     "bodyEN": "Connecting adverbs (deshalb, trotzdem, außerdem, dann, also) logically link two main clauses but behave like normal adverbs: they can occupy position 1, causing the verb to follow in position 2."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Es regnet stark, deshalb bleiben wir zu Hause.",
+     "meaningFA": "باران شدید می‌بارد، به همین دلیل ما خانه می‌مانیم.",
+     "meaningEN": "It's raining heavily, so we're staying home."
+    },
+    {
+     "id": "ex-2",
+     "german": "Sie ist krank, trotzdem geht sie zur Arbeit.",
+     "meaningFA": "او بیمار است، با این حال به سر کار می‌رود.",
+     "meaningEN": "She is sick, nevertheless she goes to work."
+    },
+    {
+     "id": "ex-3",
+     "german": "Wir haben eingekauft, außerdem haben wir gekocht.",
+     "meaningFA": "ما خرید کردیم، علاوه بر این آشپزی هم کردیم.",
+     "meaningEN": "We went shopping, and besides that, we also cooked."
+    },
+    {
+     "id": "ex-4",
+     "german": "Er hat gelernt, dann hat er die Prüfung bestanden.",
+     "meaningFA": "او درس خواند، سپس امتحان را قبول شد.",
+     "meaningEN": "He studied, then he passed the exam."
+    },
+    {
+     "id": "ex-5",
+     "german": "Der Zug fällt aus, also nehmen wir den Bus.",
+     "meaningFA": "قطار کنسل شده، پس ما اتوبوس سوار می‌شویم.",
+     "meaningEN": "The train is cancelled, so we're taking the bus."
+    },
+    {
+     "id": "ex-6",
+     "german": "Wir hatten wenig Zeit, dennoch haben wir alles geschafft.",
+     "meaningFA": "وقت کمی داشتیم، با این وجود همه‌چیز را انجام دادیم.",
+     "meaningEN": "We had little time, yet we managed everything."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "konjunktionen"
+   ],
+   "exerciseSlugs": [
+    "ex-satzverb-1",
+    "ex-satzverb-2",
+    "ex-satzverb-3",
+    "ex-satzverb-4"
+   ]
+  },
+  {
+   "id": "angaben",
+   "slug": "angaben",
+   "titleDE": "Angaben",
+   "titleFA": "قیدهای اضافی (Angaben)",
+   "titleEN": "Adjuncts (Angaben)",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "category": "satzlehre",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": "Reihenfolge: Te-Ka-Mo-Lo",
+     "headingFA": "ترتیب: Te-Ka-Mo-Lo",
+     "headingEN": "Order: Te-Ka-Mo-Lo",
+     "bodyDE": "Angaben sind optionale Zusatzinformationen (Zeit, Grund, Art/Weise, Ort). Die übliche Reihenfolge im Mittelfeld ist: Temporal (te) → Kausal (ka) → Modal (mo) → Lokal (lo).",
+     "bodyFA": "قیدهای اضافی اطلاعات جانبی اختیاری‌اند (زمان، دلیل، شیوه، مکان). ترتیب معمول در بخش میانی جمله: زمانی (te) → علّی (ka) → حالتی (mo) → مکانی (lo).",
+     "bodyEN": "Angaben are optional additional pieces of information (time, cause, manner, place). The usual order in the middle field is: temporal (te) → causal (ka) → modal (mo) → local (lo)."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Wir fahren morgen wegen der Ferien mit dem Zug nach Berlin.",
+     "meaningFA": "ما فردا به دلیل تعطیلات با قطار به برلین می‌رویم.",
+     "meaningEN": "We're traveling to Berlin by train tomorrow because of the holidays.",
+     "noteDE": "morgen(te) - wegen der Ferien(ka) - mit dem Zug(mo) - nach Berlin(lo).",
+     "noteFA": "morgen(te) - wegen der Ferien(ka) - mit dem Zug(mo) - nach Berlin(lo).",
+     "noteEN": "morgen(te) - wegen der Ferien(ka) - mit dem Zug(mo) - nach Berlin(lo)."
+    },
+    {
+     "id": "ex-2",
+     "german": "Sie arbeitet heute wegen der Deadline sehr konzentriert im Büro.",
+     "meaningFA": "او امروز به دلیل مهلت تحویل بسیار متمرکز در دفتر کار می‌کند.",
+     "meaningEN": "She's working very focused in the office today because of the deadline."
+    },
+    {
+     "id": "ex-3",
+     "german": "Er kommt später aus Zeitgründen nicht ins Meeting.",
+     "meaningFA": "او بعداً به دلایل وقتی به جلسه نمی‌آید.",
+     "meaningEN": "He won't come to the meeting later due to time constraints."
+    },
+    {
+     "id": "ex-4",
+     "german": "Wir treffen uns nächste Woche schnell im Café.",
+     "meaningFA": "ما هفتهٔ آینده سریع در کافه همدیگر را می‌بینیم.",
+     "meaningEN": "We're meeting quickly at the café next week."
+    },
+    {
+     "id": "ex-5",
+     "german": "Ich gehe abends wegen der Ruhe gern spazieren.",
+     "meaningFA": "من عصرها به دلیل آرامش دوست دارم پیاده‌روی کنم.",
+     "meaningEN": "I like to go for walks in the evenings for the peace and quiet."
+    },
+    {
+     "id": "ex-6",
+     "german": "Sie fliegt im Sommer aus beruflichen Gründen nach Tokio.",
+     "meaningFA": "او تابستان به دلایل کاری به توکیو پرواز می‌کند.",
+     "meaningEN": "She's flying to Tokyo in the summer for professional reasons."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "temporaladverbien",
+    "lokale-temporale-praepositionen"
+   ],
+   "exerciseSlugs": [
+    "ex-angaben-1",
+    "ex-angaben-2",
+    "ex-angaben-3",
+    "ex-angaben-4"
+   ]
+  },
+  {
+   "id": "nebensaetze-einfuehrung",
+   "slug": "nebensaetze-einfuehrung",
+   "titleDE": "Einführung in Nebensätze",
+   "titleFA": "مقدمهٔ جملات وابسته (Nebensätze)",
+   "titleEN": "Introduction to Subordinate Clauses",
+   "levels": [
+    "A2",
+    "B1"
+   ],
+   "category": "satzlehre",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Nebensätze werden von einer subordinierenden Konjunktion (weil, dass, wenn, obwohl usw.) eingeleitet und stehen nicht allein. Das konjugierte Verb steht immer am Ende. Sie können vor oder nach dem Hauptsatz stehen.",
+     "bodyFA": "جملات وابسته با یک حرف ربط تابع‌ساز (weil، dass، wenn، obwohl و...) معرفی می‌شوند و به‌تنهایی نمی‌آیند. فعل صرف‌شده همیشه در انتها می‌آید. می‌توانند قبل یا بعد از جملهٔ اصلی بیایند.",
+     "bodyEN": "Subordinate clauses are introduced by a subordinating conjunction (weil, dass, wenn, obwohl, etc.) and cannot stand alone. The conjugated verb always goes at the end. They can come before or after the main clause."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Ich bleibe zu Hause, weil ich erkältet bin.",
+     "meaningFA": "من خانه می‌مانم، چون سرما خورده‌ام.",
+     "meaningEN": "I'm staying home because I have a cold."
+    },
+    {
+     "id": "ex-2",
+     "german": "Weil ich erkältet bin, bleibe ich zu Hause.",
+     "meaningFA": "چون سرما خورده‌ام، خانه می‌مانم.",
+     "meaningEN": "Because I have a cold, I'm staying home.",
+     "noteDE": "Bei Nebensatz zuerst: Verb + Subjekt im Hauptsatz direkt danach.",
+     "noteFA": "وقتی جملهٔ وابسته اول باشد: فعل + فاعل جملهٔ اصلی بلافاصله بعد از آن.",
+     "noteEN": "When the subordinate clause comes first: verb + subject of the main clause follows directly."
+    },
+    {
+     "id": "ex-3",
+     "german": "Sie glaubt, dass er die Wahrheit sagt.",
+     "meaningFA": "او فکر می‌کند که او حقیقت را می‌گوید.",
+     "meaningEN": "She believes that he's telling the truth."
+    },
+    {
+     "id": "ex-4",
+     "german": "Wenn du Zeit hast, können wir uns treffen.",
+     "meaningFA": "اگر وقت داری، می‌توانیم همدیگر را ببینیم.",
+     "meaningEN": "If you have time, we can meet up."
+    },
+    {
+     "id": "ex-5",
+     "german": "Obwohl es regnet, gehen wir spazieren.",
+     "meaningFA": "با اینکه باران می‌بارد، ما پیاده‌روی می‌کنیم.",
+     "meaningEN": "Although it's raining, we're going for a walk."
+    },
+    {
+     "id": "ex-6",
+     "german": "Ich weiß nicht, ob er heute kommt.",
+     "meaningFA": "نمی‌دانم آیا او امروز می‌آید.",
+     "meaningEN": "I don't know if he's coming today."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "dass-saetze",
+    "konjunktionen",
+    "temporalsaetze"
+   ],
+   "exerciseSlugs": [
+    "ex-nebeneinf-1",
+    "ex-nebeneinf-2",
+    "ex-nebeneinf-3",
+    "ex-nebeneinf-4"
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-satzart-1",
+   "lessonSlug": "satzarten",
+   "type": "multipleChoice",
+   "promptDE": "Welcher Satz ist eine Ja/Nein-Frage?",
+   "promptFA": "کدام جمله سؤال بله/خیر است؟",
+   "promptEN": "Which sentence is a yes/no question?",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "Was machst du?",
+     "Kommst du mit?",
+     "Wir lernen Deutsch.",
+     "Mach das Fenster zu!"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "Ja/Nein-Fragen beginnen mit dem Verb.",
+   "explanationAfterAnswerFA": "سؤالات بله/خیر با فعل شروع می‌شوند.",
+   "explanationAfterAnswerEN": "Yes/no questions start with the verb."
+  },
+  {
+   "id": "ex-satzart-2",
+   "lessonSlug": "satzarten",
+   "type": "matching",
+   "promptDE": "Verbinde Satzart und Beispiel.",
+   "promptFA": "نوع جمله را به مثال وصل کن.",
+   "promptEN": "Match the sentence type to the example.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "Aussagesatz",
+      "right": "Wir lernen heute Grammatik."
+     },
+     {
+      "left": "W-Frage",
+      "right": "Was machst du am Wochenende?"
+     },
+     {
+      "left": "Aufforderungssatz",
+      "right": "Mach bitte das Fenster zu!"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Jede Satzart hat eine eigene Wortstellung.",
+   "explanationAfterAnswerFA": "هر نوع جمله ترتیب واژگان مخصوص خودش را دارد.",
+   "explanationAfterAnswerEN": "Each sentence type has its own word order."
+  },
+  {
+   "id": "ex-satzart-3",
+   "lessonSlug": "satzarten",
+   "type": "transform",
+   "promptDE": "Wandle in eine Ja/Nein-Frage um.",
+   "promptFA": "به سؤال بله/خیر تبدیل کن.",
+   "promptEN": "Transform into a yes/no question.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Du kommst heute Abend mit.",
+    "instructionDE": "Frage-Form.",
+    "instructionFA": "شکل سؤالی.",
+    "instructionEN": "Question form.",
+    "correctAnswer": "Kommst du heute Abend mit?"
+   },
+   "explanationAfterAnswerDE": "Bei Ja/Nein-Fragen steht das Verb am Satzanfang.",
+   "explanationAfterAnswerFA": "در سؤالات بله/خیر، فعل در ابتدای جمله می‌آید.",
+   "explanationAfterAnswerEN": "In yes/no questions, the verb goes at the start of the sentence."
+  },
+  {
+   "id": "ex-satzart-4",
+   "lessonSlug": "satzarten",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Aussagesatz.",
+   "promptFA": "جملهٔ خبری را به‌درستی بچین.",
+   "promptEN": "Form a correct declarative sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "stark",
+     "Die",
+     "heute",
+     "scheint",
+     "Sonne",
+     "sehr"
+    ],
+    "correctSentence": "Die Sonne scheint heute sehr stark."
+   },
+   "explanationAfterAnswerDE": "Im Aussagesatz steht das Verb an Position 2.",
+   "explanationAfterAnswerFA": "در جملهٔ خبری، فعل در جایگاه دوم می‌آید.",
+   "explanationAfterAnswerEN": "In a declarative sentence, the verb is in position 2."
+  },
+  {
+   "id": "ex-konj-1",
+   "lessonSlug": "konjunktionen",
+   "type": "multipleChoice",
+   "promptDE": "Er trinkt keinen Alkohol, ___ nur Wasser.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "aber",
+     "sondern",
+     "denn",
+     "oder"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "'sondern' ersetzt eine Aussage nach einer Verneinung.",
+   "explanationAfterAnswerFA": "«sondern» بعد از نفی یک گفته را جایگزین می‌کند.",
+   "explanationAfterAnswerEN": "'sondern' replaces a statement after a negation."
+  },
+  {
+   "id": "ex-konj-2",
+   "lessonSlug": "konjunktionen",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Konjunktion.",
+   "promptFA": "حرف ربط درست را کامل کن.",
+   "promptEN": "Complete with the correct conjunction.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Wir bleiben zu Hause, ___ es regnet stark.",
+    "correctAnswer": "denn",
+    "alternatives": [
+     "aber",
+     "oder"
+    ]
+   },
+   "explanationAfterAnswerDE": "'denn' gibt einen Grund an.",
+   "explanationAfterAnswerFA": "«denn» دلیل را بیان می‌کند.",
+   "explanationAfterAnswerEN": "'denn' gives a reason."
+  },
+  {
+   "id": "ex-konj-3",
+   "lessonSlug": "konjunktionen",
+   "type": "matching",
+   "promptDE": "Verbinde Konjunktion und Funktion.",
+   "promptFA": "حرف ربط را به کارکردش وصل کن.",
+   "promptEN": "Match the conjunction to its function.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "und",
+      "right": "پیوند"
+     },
+     {
+      "left": "oder",
+      "right": "انتخاب"
+     },
+     {
+      "left": "aber",
+      "right": "تضاد"
+     },
+     {
+      "left": "denn",
+      "right": "دلیل"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "هر حرف ربط کارکرد منطقی مخصوص خودش را دارد.",
+   "explanationAfterAnswerFA": "هر حرف ربط کارکرد منطقی مخصوص خودش را دارد.",
+   "explanationAfterAnswerEN": "Each conjunction has its own logical function."
+  },
+  {
+   "id": "ex-konj-4",
+   "lessonSlug": "konjunktionen",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "ist",
+     "aber",
+     "müde",
+     "Sie",
+     "weiter",
+     "sie",
+     "arbeitet"
+    ],
+    "correctSentence": "Sie ist müde, aber sie arbeitet weiter."
+   },
+   "explanationAfterAnswerDE": "Nach 'aber' bleibt die normale Wortstellung (Verb an Position 2).",
+   "explanationAfterAnswerFA": "بعد از «aber» ترتیب واژگان عادی حفظ می‌شود (فعل در جایگاه دوم).",
+   "explanationAfterAnswerEN": "After 'aber', normal word order is kept (verb in position 2)."
+  },
+  {
+   "id": "ex-satzverb-1",
+   "lessonSlug": "satzverbindende-adverbien",
+   "type": "multipleChoice",
+   "promptDE": "Es regnet stark, ___ bleiben wir zu Hause.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "deshalb",
+     "und",
+     "aber",
+     "weil"
+    ],
+    "correctIndex": 0
+   },
+   "explanationAfterAnswerDE": "'deshalb' verbindet logisch und verlangt Verb an Position 2 direkt danach.",
+   "explanationAfterAnswerFA": "«deshalb» از نظر منطقی وصل می‌کند و بلافاصله بعدش فعل در جایگاه دوم می‌آید.",
+   "explanationAfterAnswerEN": "'deshalb' connects logically and requires the verb in position 2 right after it."
+  },
+  {
+   "id": "ex-satzverb-2",
+   "lessonSlug": "satzverbindende-adverbien",
+   "type": "fillBlank",
+   "promptDE": "Ergänze das richtige Adverb.",
+   "promptFA": "قید درست را کامل کن.",
+   "promptEN": "Complete with the correct adverb.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Sie ist krank, ___ geht sie zur Arbeit.",
+    "correctAnswer": "trotzdem",
+    "alternatives": [
+     "deshalb",
+     "also"
+    ]
+   },
+   "explanationAfterAnswerDE": "'trotzdem' drückt einen Gegensatz aus.",
+   "explanationAfterAnswerFA": "«trotzdem» تضاد را بیان می‌کند.",
+   "explanationAfterAnswerEN": "'trotzdem' expresses a contrast."
+  },
+  {
+   "id": "ex-satzverb-3",
+   "lessonSlug": "satzverbindende-adverbien",
+   "type": "transform",
+   "promptDE": "Verbinde die Sätze mit 'also'.",
+   "promptFA": "جملات را با «also» وصل کن.",
+   "promptEN": "Connect the sentences with 'also'.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Der Zug fällt aus. Wir nehmen den Bus.",
+    "instructionDE": "Mit 'also' verbinden.",
+    "instructionFA": "با «also» وصل کن.",
+    "instructionEN": "Connect with 'also'.",
+    "correctAnswer": "Der Zug fällt aus, also nehmen wir den Bus."
+   },
+   "explanationAfterAnswerDE": "Nach 'also' folgt das Verb direkt (Position 2).",
+   "explanationAfterAnswerFA": "بعد از «also» فعل بلافاصله می‌آید (جایگاه دوم).",
+   "explanationAfterAnswerEN": "After 'also', the verb comes directly (position 2)."
+  },
+  {
+   "id": "ex-satzverb-4",
+   "lessonSlug": "satzverbindende-adverbien",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "haben",
+     "Wir",
+     "außerdem",
+     "gekocht",
+     "eingekauft",
+     "haben",
+     "wir"
+    ],
+    "correctSentence": "Wir haben eingekauft, außerdem haben wir gekocht."
+   },
+   "explanationAfterAnswerDE": "'außerdem' steht an Position 1, das Verb folgt direkt danach.",
+   "explanationAfterAnswerFA": "«außerdem» در جایگاه اول می‌آید، فعل بلافاصله بعدش می‌آید.",
+   "explanationAfterAnswerEN": "'außerdem' is in position 1, the verb follows directly."
+  },
+  {
+   "id": "ex-angaben-1",
+   "lessonSlug": "angaben",
+   "type": "multipleChoice",
+   "promptDE": "Welche Reihenfolge ist richtig?",
+   "promptFA": "کدام ترتیب درست است؟",
+   "promptEN": "Which order is correct?",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "Lokal-Kausal-Temporal-Modal",
+     "Temporal-Kausal-Modal-Lokal",
+     "Modal-Lokal-Temporal-Kausal",
+     "Kausal-Temporal-Lokal-Modal"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "Die Regel ist Te-Ka-Mo-Lo.",
+   "explanationAfterAnswerFA": "قاعده Te-Ka-Mo-Lo است.",
+   "explanationAfterAnswerEN": "The rule is Te-Ka-Mo-Lo."
+  },
+  {
+   "id": "ex-angaben-2",
+   "lessonSlug": "angaben",
+   "type": "matching",
+   "promptDE": "Verbinde Angabe-Typ und Beispiel.",
+   "promptFA": "نوع Angabe را به مثال وصل کن.",
+   "promptEN": "Match the Angabe type to the example.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "temporal (te)",
+      "right": "morgen"
+     },
+     {
+      "left": "kausal (ka)",
+      "right": "wegen der Ferien"
+     },
+     {
+      "left": "modal (mo)",
+      "right": "mit dem Zug"
+     },
+     {
+      "left": "lokal (lo)",
+      "right": "nach Berlin"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "هر Angabe نوعی خاص از اطلاعات را نشان می‌دهد.",
+   "explanationAfterAnswerFA": "هر Angabe نوعی خاص از اطلاعات را نشان می‌دهد.",
+   "explanationAfterAnswerEN": "Each Angabe represents a specific type of information."
+  },
+  {
+   "id": "ex-angaben-3",
+   "lessonSlug": "angaben",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz mit Te-Ka-Mo-Lo.",
+   "promptFA": "جمله را با ترتیب Te-Ka-Mo-Lo بچین.",
+   "promptEN": "Form a sentence following Te-Ka-Mo-Lo.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "Café",
+     "im",
+     "uns",
+     "schnell",
+     "Woche",
+     "treffen",
+     "nächste",
+     "Wir"
+    ],
+    "correctSentence": "Wir treffen uns nächste Woche schnell im Café."
+   },
+   "explanationAfterAnswerDE": "Temporal (nächste Woche) vor Modal (schnell) vor Lokal (im Café).",
+   "explanationAfterAnswerFA": "زمانی (nächste Woche) قبل از حالتی (schnell) قبل از مکانی (im Café).",
+   "explanationAfterAnswerEN": "Temporal (nächste Woche) before modal (schnell) before local (im Café)."
+  },
+  {
+   "id": "ex-angaben-4",
+   "lessonSlug": "angaben",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die fehlende Angabe.",
+   "promptFA": "Angabe جاافتاده را کامل کن.",
+   "promptEN": "Complete the missing Angabe.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Ich gehe abends ___ gern spazieren. (wegen der Ruhe)",
+    "correctAnswer": "wegen der Ruhe",
+    "alternatives": [
+     "die Ruhe wegen",
+     "Ruhe wegen"
+    ]
+   },
+   "explanationAfterAnswerDE": "Kausale Angabe (ka) steht nach der temporalen Angabe (te).",
+   "explanationAfterAnswerFA": "Angabe علّی (ka) بعد از Angabe زمانی (te) می‌آید.",
+   "explanationAfterAnswerEN": "The causal Angabe (ka) comes after the temporal Angabe (te)."
+  },
+  {
+   "id": "ex-nebeneinf-1",
+   "lessonSlug": "nebensaetze-einfuehrung",
+   "type": "multipleChoice",
+   "promptDE": "Ich bleibe zu Hause, weil ich erkältet ___.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "bin",
+     "bin ich",
+     "ich bin",
+     "war"
+    ],
+    "correctIndex": 0
+   },
+   "explanationAfterAnswerDE": "Im Nebensatz mit 'weil' steht das Verb am Ende.",
+   "explanationAfterAnswerFA": "در جملهٔ وابسته با «weil»، فعل در انتها می‌آید.",
+   "explanationAfterAnswerEN": "In a subordinate clause with 'weil', the verb goes at the end."
+  },
+  {
+   "id": "ex-nebeneinf-2",
+   "lessonSlug": "nebensaetze-einfuehrung",
+   "type": "transform",
+   "promptDE": "Beginne den Satz mit dem Nebensatz.",
+   "promptFA": "جمله را با جملهٔ وابسته شروع کن.",
+   "promptEN": "Start the sentence with the subordinate clause.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Ich bleibe zu Hause, weil ich erkältet bin.",
+    "instructionDE": "Mit 'Weil' beginnen.",
+    "instructionFA": "با «Weil» شروع کن.",
+    "instructionEN": "Start with 'Weil'.",
+    "correctAnswer": "Weil ich erkältet bin, bleibe ich zu Hause."
+   },
+   "explanationAfterAnswerDE": "Nach dem Nebensatz folgt sofort das Verb des Hauptsatzes.",
+   "explanationAfterAnswerFA": "بعد از جملهٔ وابسته، بلافاصله فعل جملهٔ اصلی می‌آید.",
+   "explanationAfterAnswerEN": "After the subordinate clause, the verb of the main clause comes immediately."
+  },
+  {
+   "id": "ex-nebeneinf-3",
+   "lessonSlug": "nebensaetze-einfuehrung",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Konjunktion.",
+   "promptFA": "حرف ربط درست را کامل کن.",
+   "promptEN": "Complete with the correct conjunction.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "___ es regnet, gehen wir spazieren.",
+    "correctAnswer": "Obwohl",
+    "alternatives": [
+     "Weil",
+     "Dass"
+    ]
+   },
+   "explanationAfterAnswerDE": "'obwohl' drückt einen Gegensatz aus.",
+   "explanationAfterAnswerFA": "«obwohl» تضاد را بیان می‌کند.",
+   "explanationAfterAnswerEN": "'obwohl' expresses a contrast."
+  },
+  {
+   "id": "ex-nebeneinf-4",
+   "lessonSlug": "nebensaetze-einfuehrung",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "heute",
+     "er",
+     "nicht",
+     "weiß",
+     "ob",
+     "kommt",
+     "Ich"
+    ],
+    "correctSentence": "Ich weiß nicht, ob er heute kommt."
+   },
+   "explanationAfterAnswerDE": "Im Nebensatz mit 'ob' steht das Verb am Ende.",
+   "explanationAfterAnswerFA": "در جملهٔ وابسته با «ob»، فعل در انتها می‌آید.",
+   "explanationAfterAnswerEN": "In a subordinate clause with 'ob', the verb goes at the end."
+  }
+ ]
+}

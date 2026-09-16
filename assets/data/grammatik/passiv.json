@@ -1,0 +1,774 @@
+{
+ "_index": {
+  "fileDescription": "Passiv: Vorgangspassiv, Zustandspassiv, Passiversatz, nicht passivfähige Verben",
+  "lastUpdatedStage": 6,
+  "lessons": [
+   "vorgangspassiv — مجهول جریانی",
+   "zustandspassiv — مجهول حالتی",
+   "passiversatz — جایگزین‌های مجهول",
+   "nicht-passivfaehige-verben — افعال غیرقابل‌مجهول‌شدن"
+  ]
+ },
+ "lessons": [
+  {
+   "id": "vorgangspassiv",
+   "slug": "vorgangspassiv",
+   "titleDE": "Das Vorgangspassiv",
+   "titleFA": "مجهول جریانی (Vorgangspassiv)",
+   "titleEN": "The Process Passive",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "category": "passiv",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": "Bildung",
+     "headingFA": "ساختار",
+     "headingEN": "Formation",
+     "bodyDE": "Das Vorgangspassiv wird mit 'werden' (konjugiert) + Partizip II gebildet. Es betont den Vorgang/die Handlung, nicht wer sie ausführt. Der Handelnde kann mit 'von' + Dativ genannt werden.",
+     "bodyFA": "مجهول جریانی با «werden» (صرف‌شده) + Partizip II ساخته می‌شود. بر خودِ فرآیند/کنش تأکید دارد، نه اینکه چه کسی آن را انجام می‌دهد. عامل کنش می‌تواند با «von» + Dativ ذکر شود.",
+     "bodyEN": "The process passive is formed with 'werden' (conjugated) + Partizip II. It emphasizes the process/action, not who performs it. The agent can be mentioned with 'von' + Dativ."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Der Bericht wird von der Abteilung geschrieben.",
+     "meaningFA": "گزارش توسط بخش نوشته می‌شود.",
+     "meaningEN": "The report is written by the department."
+    },
+    {
+     "id": "ex-2",
+     "german": "Die Rechnung wurde gestern bezahlt.",
+     "meaningFA": "فاکتور دیروز پرداخت شد.",
+     "meaningEN": "The invoice was paid yesterday."
+    },
+    {
+     "id": "ex-3",
+     "german": "Das Projekt ist letzte Woche vorgestellt worden.",
+     "meaningFA": "پروژه هفتهٔ پیش معرفی شده است.",
+     "meaningEN": "The project was presented last week.",
+     "noteDE": "Perfekt Passiv: 'worden' statt 'geworden'.",
+     "noteFA": "Perfekt Passiv: «worden» به‌جای «geworden».",
+     "noteEN": "Perfekt Passiv: 'worden' instead of 'geworden'."
+    },
+    {
+     "id": "ex-4",
+     "german": "Wird das Formular heute noch geprüft?",
+     "meaningFA": "آیا فرم امروز بررسی خواهد شد؟",
+     "meaningEN": "Will the form still be checked today?"
+    },
+    {
+     "id": "ex-5",
+     "german": "Die neuen Regeln werden nächste Woche eingeführt.",
+     "meaningFA": "قوانین جدید هفتهٔ بعد معرفی خواهند شد.",
+     "meaningEN": "The new rules will be introduced next week."
+    },
+    {
+     "id": "ex-6",
+     "german": "Die Anfrage wurde vom Team schnell bearbeitet.",
+     "meaningFA": "درخواست توسط تیم سریع پردازش شد.",
+     "meaningEN": "The request was processed quickly by the team."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "Vorgangspassiv in allen Zeiten",
+     "titleFA": "مجهول جریانی در همهٔ زمان‌ها",
+     "titleEN": "Process Passive in All Tenses",
+     "style": "simple",
+     "columns": [
+      "Zeit",
+      "Struktur",
+      "Beispiel"
+     ],
+     "rows": [
+      {
+       "rowLabel": "Präsens",
+       "cells": [
+        "werden + Partizip II",
+        "wird geschrieben"
+       ]
+      },
+      {
+       "rowLabel": "Präteritum",
+       "cells": [
+        "wurden + Partizip II",
+        "wurde geschrieben"
+       ]
+      },
+      {
+       "rowLabel": "Perfekt",
+       "cells": [
+        "sein + Partizip II + worden",
+        "ist geschrieben worden"
+       ]
+      },
+      {
+       "rowLabel": "Futur I",
+       "cells": [
+        "werden + Partizip II + werden",
+        "wird geschrieben werden"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "zustandspassiv",
+    "passiversatz"
+   ],
+   "exerciseSlugs": [
+    "ex-vorgpass-1",
+    "ex-vorgpass-2",
+    "ex-vorgpass-3",
+    "ex-vorgpass-4"
+   ]
+  },
+  {
+   "id": "zustandspassiv",
+   "slug": "zustandspassiv",
+   "titleDE": "Das Zustandspassiv",
+   "titleFA": "مجهول حالتی (Zustandspassiv)",
+   "titleEN": "The State Passive",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "category": "passiv",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Das Zustandspassiv wird mit 'sein' + Partizip II gebildet. Es beschreibt das Ergebnis/den Zustand nach einer abgeschlossenen Handlung, nicht den Vorgang selbst.",
+     "bodyFA": "مجهول حالتی با «sein» + Partizip II ساخته می‌شود. نتیجه/حالت پس از یک کنش تمام‌شده را توصیف می‌کند، نه خود فرآیند را.",
+     "bodyEN": "The state passive is formed with 'sein' + Partizip II. It describes the result/state after a completed action, not the process itself."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Der Laden ist schon geöffnet.",
+     "meaningFA": "مغازه قبلاً باز است.",
+     "meaningEN": "The shop is already open."
+    },
+    {
+     "id": "ex-2",
+     "german": "Die Tür war fest verschlossen.",
+     "meaningFA": "در محکم بسته بود.",
+     "meaningEN": "The door was tightly closed."
+    },
+    {
+     "id": "ex-3",
+     "german": "Das Zimmer ist bereits aufgeräumt.",
+     "meaningFA": "اتاق از قبل مرتب شده است.",
+     "meaningEN": "The room is already tidied up."
+    },
+    {
+     "id": "ex-4",
+     "german": "Sind die Formulare schon ausgefüllt?",
+     "meaningFA": "فرم‌ها تا حالا پر شده‌اند؟",
+     "meaningEN": "Are the forms already filled out?"
+    },
+    {
+     "id": "ex-5",
+     "german": "Der Vertrag ist unterschrieben.",
+     "meaningFA": "قرارداد امضا شده است.",
+     "meaningEN": "The contract is signed."
+    },
+    {
+     "id": "ex-6",
+     "german": "Die Fenster waren alle geschlossen.",
+     "meaningFA": "همهٔ پنجره‌ها بسته بودند.",
+     "meaningEN": "All the windows were closed."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "Vorgangspassiv vs. Zustandspassiv",
+     "titleFA": "مجهول جریانی در مقابل مجهول حالتی",
+     "titleEN": "Process Passive vs. State Passive",
+     "style": "simple",
+     "columns": [
+      "Typ",
+      "Hilfsverb",
+      "Fokus",
+      "Beispiel"
+     ],
+     "rows": [
+      {
+       "rowLabel": "Vorgangspassiv",
+       "cells": [
+        "werden",
+        "der Vorgang",
+        "Die Tür wird geschlossen."
+       ]
+      },
+      {
+       "rowLabel": "Zustandspassiv",
+       "cells": [
+        "sein",
+        "das Ergebnis",
+        "Die Tür ist geschlossen."
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "vorgangspassiv"
+   ],
+   "exerciseSlugs": [
+    "ex-zustpass-1",
+    "ex-zustpass-2",
+    "ex-zustpass-3",
+    "ex-zustpass-4"
+   ]
+  },
+  {
+   "id": "passiversatz",
+   "slug": "passiversatz",
+   "titleDE": "Passiversatzformen",
+   "titleFA": "جایگزین‌های مجهول",
+   "titleEN": "Passive Substitutes",
+   "levels": [
+    "B2",
+    "C1"
+   ],
+   "category": "passiv",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Passiv kann auch ohne 'werden' ausgedrückt werden: mit 'sich lassen' + Infinitiv (Möglichkeit), 'sein' + zu + Infinitiv (Möglichkeit/Notwendigkeit), oder Adjektiven auf -bar/-lich.",
+     "bodyFA": "مجهول را می‌توان بدون «werden» هم بیان کرد: با «sich lassen» + مصدر (امکان)، «sein» + zu + مصدر (امکان/ضرورت)، یا صفت‌های با پسوند -bar/-lich.",
+     "bodyEN": "The passive can also be expressed without 'werden': with 'sich lassen' + infinitive (possibility), 'sein' + zu + infinitive (possibility/necessity), or adjectives ending in -bar/-lich."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Diese Aufgabe lässt sich leicht lösen.",
+     "meaningFA": "این تکلیف به‌راحتی قابل حل است.",
+     "meaningEN": "This task can be solved easily."
+    },
+    {
+     "id": "ex-2",
+     "german": "Der Termin ist noch zu verschieben.",
+     "meaningFA": "قرار ملاقات هنوز قابل تعویق است.",
+     "meaningEN": "The appointment can still be postponed."
+    },
+    {
+     "id": "ex-3",
+     "german": "Das Problem ist kaum lösbar.",
+     "meaningFA": "این مشکل به‌سختی قابل حل است.",
+     "meaningEN": "The problem is barely solvable."
+    },
+    {
+     "id": "ex-4",
+     "german": "Diese Regeln lassen sich nicht ändern.",
+     "meaningFA": "این قوانین قابل تغییر نیستند.",
+     "meaningEN": "These rules cannot be changed."
+    },
+    {
+     "id": "ex-5",
+     "german": "Der Text ist gut verständlich.",
+     "meaningFA": "متن به‌خوبی قابل‌فهم است.",
+     "meaningEN": "The text is well understandable."
+    },
+    {
+     "id": "ex-6",
+     "german": "Diese Datei ist nicht zu öffnen.",
+     "meaningFA": "این فایل قابل باز شدن نیست.",
+     "meaningEN": "This file cannot be opened."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "Passiversatzformen im Überblick",
+     "titleFA": "خلاصهٔ جایگزین‌های مجهول",
+     "titleEN": "Overview of Passive Substitutes",
+     "style": "simple",
+     "columns": [
+      "Form",
+      "Beispiel"
+     ],
+     "rows": [
+      {
+       "rowLabel": "sich lassen + Infinitiv",
+       "cells": [
+        "Das lässt sich machen."
+       ]
+      },
+      {
+       "rowLabel": "sein + zu + Infinitiv",
+       "cells": [
+        "Das ist zu machen."
+       ]
+      },
+      {
+       "rowLabel": "Adjektiv auf -bar",
+       "cells": [
+        "lösbar, machbar, sichtbar"
+       ]
+      },
+      {
+       "rowLabel": "Adjektiv auf -lich",
+       "cells": [
+        "verständlich, erklärlich"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "vorgangspassiv",
+    "zustandspassiv"
+   ],
+   "exerciseSlugs": [
+    "ex-passers-1",
+    "ex-passers-2",
+    "ex-passers-3",
+    "ex-passers-4"
+   ]
+  },
+  {
+   "id": "nicht-passivfaehige-verben",
+   "slug": "nicht-passivfaehige-verben",
+   "titleDE": "Nicht passivfähige Verben",
+   "titleFA": "افعال غیرقابل‌مجهول‌شدن",
+   "titleEN": "Verbs That Cannot Form the Passive",
+   "levels": [
+    "B2"
+   ],
+   "category": "passiv",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Manche Verben können kein Passiv bilden: reflexive Verben, Verben ohne Akkusativobjekt (z.B. 'schlafen', 'bleiben'), sowie Verben wie 'haben', 'besitzen', 'kennen', 'wissen' in ihrer Grundbedeutung.",
+     "bodyFA": "برخی افعال نمی‌توانند مجهول ساخته شوند: افعال انعکاسی، افعال بدون مفعول Akkusativ (مثل «schlafen»، «bleiben»)، و افعالی مثل «haben»، «besitzen»، «kennen»، «wissen» در معنای پایه‌شان.",
+     "bodyEN": "Some verbs cannot form the passive: reflexive verbs, verbs without an accusative object (e.g. 'schlafen', 'bleiben'), and verbs like 'haben', 'besitzen', 'kennen', 'wissen' in their basic meaning."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Er besitzt ein großes Haus. (kein Passiv möglich)",
+     "meaningFA": "او یک خانهٔ بزرگ دارد. (مجهول ممکن نیست)",
+     "meaningEN": "He owns a big house. (no passive possible)"
+    },
+    {
+     "id": "ex-2",
+     "german": "Sie schläft jeden Tag acht Stunden.",
+     "meaningFA": "او هر روز هشت ساعت می‌خوابد.",
+     "meaningEN": "She sleeps eight hours every day."
+    },
+    {
+     "id": "ex-3",
+     "german": "Wir bleiben heute zu Hause.",
+     "meaningFA": "ما امروز خانه می‌مانیم.",
+     "meaningEN": "We are staying home today."
+    },
+    {
+     "id": "ex-4",
+     "german": "Er kennt die Antwort nicht.",
+     "meaningFA": "او جواب را نمی‌داند.",
+     "meaningEN": "He doesn't know the answer."
+    },
+    {
+     "id": "ex-5",
+     "german": "Ich habe genug Zeit.",
+     "meaningFA": "من وقت کافی دارم.",
+     "meaningEN": "I have enough time."
+    },
+    {
+     "id": "ex-6",
+     "german": "Sie interessiert sich für Kunst. (reflexiv, kein Passiv)",
+     "meaningFA": "او به هنر علاقه‌مند است. (انعکاسی، بدون مجهول)",
+     "meaningEN": "She is interested in art. (reflexive, no passive)"
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "vorgangspassiv"
+   ],
+   "exerciseSlugs": [
+    "ex-nichtpass-1",
+    "ex-nichtpass-2",
+    "ex-nichtpass-3",
+    "ex-nichtpass-4"
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-vorgpass-1",
+   "lessonSlug": "vorgangspassiv",
+   "type": "multipleChoice",
+   "promptDE": "Der Bericht ___ von der Abteilung geschrieben.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "ist",
+     "wird",
+     "hat",
+     "war"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "Vorgangspassiv im Präsens: 'werden' + Partizip II.",
+   "explanationAfterAnswerFA": "مجهول جریانی در Präsens: «werden» + Partizip II.",
+   "explanationAfterAnswerEN": "Process passive in the present: 'werden' + Partizip II."
+  },
+  {
+   "id": "ex-vorgpass-2",
+   "lessonSlug": "vorgangspassiv",
+   "type": "transform",
+   "promptDE": "Wandle den Satz ins Passiv um.",
+   "promptFA": "جمله را به مجهول تبدیل کن.",
+   "promptEN": "Transform into the passive.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Das Team bearbeitet die Anfrage schnell.",
+    "instructionDE": "Passiv-Form.",
+    "instructionFA": "به شکل مجهول تبدیل کن.",
+    "instructionEN": "Transform to passive.",
+    "correctAnswer": "Die Anfrage wird vom Team schnell bearbeitet."
+   },
+   "explanationAfterAnswerDE": "Das Akkusativobjekt wird zum Subjekt; der Handelnde folgt mit 'von'.",
+   "explanationAfterAnswerFA": "مفعول Akkusativ به فاعل تبدیل می‌شود؛ عامل کنش با «von» می‌آید.",
+   "explanationAfterAnswerEN": "The accusative object becomes the subject; the agent follows with 'von'."
+  },
+  {
+   "id": "ex-vorgpass-3",
+   "lessonSlug": "vorgangspassiv",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Form.",
+   "promptFA": "شکل درست را کامل کن.",
+   "promptEN": "Complete with the correct form.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Das Projekt ist letzte Woche vorgestellt ___.",
+    "correctAnswer": "worden",
+    "alternatives": [
+     "geworden",
+     "gewesen"
+    ]
+   },
+   "explanationAfterAnswerDE": "Im Perfekt Passiv verwendet man 'worden', nicht 'geworden'.",
+   "explanationAfterAnswerFA": "در Perfekt Passiv از «worden» استفاده می‌شود، نه «geworden».",
+   "explanationAfterAnswerEN": "In the Perfect passive, 'worden' is used, not 'geworden'."
+  },
+  {
+   "id": "ex-vorgpass-4",
+   "lessonSlug": "vorgangspassiv",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz im Passiv.",
+   "promptFA": "جمله را در حالت مجهول بچین.",
+   "promptEN": "Form a correct sentence in the passive.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "Woche",
+     "werden",
+     "eingeführt",
+     "Die",
+     "Regeln",
+     "neuen",
+     "nächste"
+    ],
+    "correctSentence": "Die neuen Regeln werden nächste Woche eingeführt."
+   },
+   "explanationAfterAnswerDE": "'werden' an Position 2, Partizip II am Satzende.",
+   "explanationAfterAnswerFA": "«werden» در جایگاه دوم، Partizip II در انتهای جمله.",
+   "explanationAfterAnswerEN": "'werden' in position 2, Partizip II at the end."
+  },
+  {
+   "id": "ex-zustpass-1",
+   "lessonSlug": "zustandspassiv",
+   "type": "multipleChoice",
+   "promptDE": "Der Laden ___ schon geöffnet.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "wird",
+     "ist",
+     "hat",
+     "war"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "Zustandspassiv: 'sein' + Partizip II beschreibt das Ergebnis.",
+   "explanationAfterAnswerFA": "Zustandspassiv: «sein» + Partizip II نتیجه را توصیف می‌کند.",
+   "explanationAfterAnswerEN": "State passive: 'sein' + Partizip II describes the result."
+  },
+  {
+   "id": "ex-zustpass-2",
+   "lessonSlug": "zustandspassiv",
+   "type": "matching",
+   "promptDE": "Verbinde Vorgangspassiv und Zustandspassiv.",
+   "promptFA": "مجهول جریانی را به مجهول حالتی وصل کن.",
+   "promptEN": "Match process passive to state passive.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "Die Tür wird geschlossen.",
+      "right": "Die Tür ist geschlossen."
+     },
+     {
+      "left": "Das Zimmer wird aufgeräumt.",
+      "right": "Das Zimmer ist aufgeräumt."
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Vorgangspassiv beschreibt den Prozess, Zustandspassiv das Ergebnis.",
+   "explanationAfterAnswerFA": "مجهول جریانی فرآیند و مجهول حالتی نتیجه را توصیف می‌کند.",
+   "explanationAfterAnswerEN": "Process passive describes the process; state passive describes the result."
+  },
+  {
+   "id": "ex-zustpass-3",
+   "lessonSlug": "zustandspassiv",
+   "type": "transform",
+   "promptDE": "Wandle ins Zustandspassiv um.",
+   "promptFA": "به مجهول حالتی تبدیل کن.",
+   "promptEN": "Transform into the state passive.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Der Vertrag wird unterschrieben.",
+    "instructionDE": "Zustandspassiv-Form (Ergebnis).",
+    "instructionFA": "به شکل نتیجه (Zustandspassiv) تبدیل کن.",
+    "instructionEN": "Transform to the resulting state.",
+    "correctAnswer": "Der Vertrag ist unterschrieben."
+   },
+   "explanationAfterAnswerDE": "Zustandspassiv verwendet 'sein' statt 'werden'.",
+   "explanationAfterAnswerFA": "Zustandspassiv از «sein» به‌جای «werden» استفاده می‌کند.",
+   "explanationAfterAnswerEN": "The state passive uses 'sein' instead of 'werden'."
+  },
+  {
+   "id": "ex-zustpass-4",
+   "lessonSlug": "zustandspassiv",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Form.",
+   "promptFA": "شکل درست را کامل کن.",
+   "promptEN": "Complete with the correct form.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Die Fenster ___ alle geschlossen.",
+    "correctAnswer": "waren",
+    "alternatives": [
+     "wurden",
+     "haben"
+    ]
+   },
+   "explanationAfterAnswerDE": "Zustandspassiv im Präteritum: 'war/waren' + Partizip II.",
+   "explanationAfterAnswerFA": "Zustandspassiv در Präteritum: «war/waren» + Partizip II.",
+   "explanationAfterAnswerEN": "State passive in the past: 'war/waren' + Partizip II."
+  },
+  {
+   "id": "ex-passers-1",
+   "lessonSlug": "passiversatz",
+   "type": "multipleChoice",
+   "promptDE": "Diese Aufgabe ___ sich leicht lösen.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "lässt",
+     "hat",
+     "ist",
+     "wird"
+    ],
+    "correctIndex": 0
+   },
+   "explanationAfterAnswerDE": "'sich lassen' + Infinitiv drückt Möglichkeit aus (= kann gelöst werden).",
+   "explanationAfterAnswerFA": "«sich lassen» + مصدر امکان را بیان می‌کند (= می‌تواند حل شود).",
+   "explanationAfterAnswerEN": "'sich lassen' + infinitive expresses possibility (= can be solved)."
+  },
+  {
+   "id": "ex-passers-2",
+   "lessonSlug": "passiversatz",
+   "type": "transform",
+   "promptDE": "Wandle mit 'sich lassen' um.",
+   "promptFA": "با «sich lassen» بازنویسی کن.",
+   "promptEN": "Rewrite with 'sich lassen'.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Diese Regeln können nicht geändert werden.",
+    "instructionDE": "Mit 'sich lassen' umformulieren.",
+    "instructionFA": "با «sich lassen» بازنویسی کن.",
+    "instructionEN": "Rephrase using 'sich lassen'.",
+    "correctAnswer": "Diese Regeln lassen sich nicht ändern."
+   },
+   "explanationAfterAnswerDE": "'sich lassen' + Infinitiv ist eine kürzere Alternative zu 'können ... werden'.",
+   "explanationAfterAnswerFA": "«sich lassen» + مصدر جایگزین کوتاه‌تری برای «können ... werden» است.",
+   "explanationAfterAnswerEN": "'sich lassen' + infinitive is a shorter alternative to 'können ... werden'."
+  },
+  {
+   "id": "ex-passers-3",
+   "lessonSlug": "passiversatz",
+   "type": "fillBlank",
+   "promptDE": "Ergänze das richtige Adjektiv.",
+   "promptFA": "صفت درست را کامل کن.",
+   "promptEN": "Complete with the correct adjective.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Der Text ist gut ___.",
+    "correctAnswer": "verständlich",
+    "alternatives": [
+     "verstehen",
+     "verständigt"
+    ]
+   },
+   "explanationAfterAnswerDE": "Adjektive auf -lich drücken oft 'kann verstanden werden' aus.",
+   "explanationAfterAnswerFA": "صفت‌های با پسوند -lich اغلب «قابل درک است» را بیان می‌کنند.",
+   "explanationAfterAnswerEN": "Adjectives ending in -lich often express 'can be understood'."
+  },
+  {
+   "id": "ex-passers-4",
+   "lessonSlug": "passiversatz",
+   "type": "matching",
+   "promptDE": "Verbinde Passiversatz und Bedeutung.",
+   "promptFA": "جایگزین مجهول را به معنایش وصل کن.",
+   "promptEN": "Match the passive substitute to its meaning.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "lösbar",
+      "right": "kann gelöst werden"
+     },
+     {
+      "left": "sichtbar",
+      "right": "kann gesehen werden"
+     },
+     {
+      "left": "sein + zu + Infinitiv",
+      "right": "Möglichkeit/Notwendigkeit"
+     },
+     {
+      "left": "sich lassen",
+      "right": "Möglichkeit"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Alle diese Formen ersetzen das klassische Passiv mit 'werden'.",
+   "explanationAfterAnswerFA": "همهٔ این ساختارها جایگزین مجهول کلاسیک با «werden» هستند.",
+   "explanationAfterAnswerEN": "All these forms replace the classic passive with 'werden'."
+  },
+  {
+   "id": "ex-nichtpass-1",
+   "lessonSlug": "nicht-passivfaehige-verben",
+   "type": "multipleChoice",
+   "promptDE": "Welcher Satz kann KEIN Passiv bilden?",
+   "promptFA": "کدام جمله نمی‌تواند مجهول شود؟",
+   "promptEN": "Which sentence cannot form the passive?",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "Er liest das Buch.",
+     "Sie schläft acht Stunden.",
+     "Wir kaufen ein Auto.",
+     "Sie schreibt einen Brief."
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "'schlafen' hat kein Akkusativobjekt und kann kein Passiv bilden.",
+   "explanationAfterAnswerFA": "«schlafen» مفعول Akkusativ ندارد و نمی‌تواند مجهول شود.",
+   "explanationAfterAnswerEN": "'schlafen' has no accusative object and cannot form the passive."
+  },
+  {
+   "id": "ex-nichtpass-2",
+   "lessonSlug": "nicht-passivfaehige-verben",
+   "type": "matching",
+   "promptDE": "Verbinde Verb und Grund für kein Passiv.",
+   "promptFA": "فعل را به دلیل عدم مجهول‌شدن وصل کن.",
+   "promptEN": "Match the verb to the reason it has no passive.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "schlafen",
+      "right": "kein Akkusativobjekt"
+     },
+     {
+      "left": "sich interessieren",
+      "right": "reflexives Verb"
+     },
+     {
+      "left": "besitzen",
+      "right": "Grundbedeutung von Zustand"
+     },
+     {
+      "left": "bleiben",
+      "right": "kein Akkusativobjekt"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Diese Verbtypen erlauben grammatisch kein Passiv.",
+   "explanationAfterAnswerFA": "این نوع افعال از نظر گرامری اجازهٔ ساخت مجهول ندارند.",
+   "explanationAfterAnswerEN": "These verb types grammatically do not allow the passive."
+  },
+  {
+   "id": "ex-nichtpass-3",
+   "lessonSlug": "nicht-passivfaehige-verben",
+   "type": "fillBlank",
+   "promptDE": "Wähle: passivfähig oder nicht?",
+   "promptFA": "انتخاب کن: قابل‌مجهول یا نه؟",
+   "promptEN": "Choose: can form passive or not?",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "'Er kennt die Antwort.' → Passiv ist ___ (möglich/nicht möglich).",
+    "correctAnswer": "nicht möglich",
+    "alternatives": [
+     "möglich"
+    ]
+   },
+   "explanationAfterAnswerDE": "'kennen' in seiner Grundbedeutung bildet normalerweise kein Passiv.",
+   "explanationAfterAnswerFA": "«kennen» در معنای پایه‌اش معمولاً مجهول نمی‌سازد.",
+   "explanationAfterAnswerEN": "'kennen' in its basic meaning usually does not form the passive."
+  },
+  {
+   "id": "ex-nichtpass-4",
+   "lessonSlug": "nicht-passivfaehige-verben",
+   "type": "multipleChoice",
+   "promptDE": "Welches Verb KANN ein Passiv bilden?",
+   "promptFA": "کدام فعل می‌تواند مجهول شود؟",
+   "promptEN": "Which verb CAN form the passive?",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "bleiben",
+     "haben (Besitz)",
+     "schreiben",
+     "schlafen"
+    ],
+    "correctIndex": 2
+   },
+   "explanationAfterAnswerDE": "'schreiben' hat ein Akkusativobjekt und kann ein Passiv bilden.",
+   "explanationAfterAnswerFA": "«schreiben» مفعول Akkusativ دارد و می‌تواند مجهول شود.",
+   "explanationAfterAnswerEN": "'schreiben' has an accusative object and can form the passive."
+  }
+ ]
+}

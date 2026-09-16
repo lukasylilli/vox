@@ -1,0 +1,716 @@
+{
+ "_index": {
+  "fileDescription": "Adverbien: Lokaladverbien, Temporaladverbien, Modaladverbien, Partikeln",
+  "lastUpdatedStage": 13,
+  "lessons": [
+   "lokaladverbien — قید مکان",
+   "temporaladverbien — قید زمان",
+   "modaladverbien — قید حالت/کیفیت",
+   "partikeln — واژه‌های تأکیدی (Partikeln)"
+  ]
+ },
+ "lessons": [
+  {
+   "id": "lokaladverbien",
+   "slug": "lokaladverbien",
+   "titleDE": "Lokaladverbien",
+   "titleFA": "قید مکان",
+   "titleEN": "Adverbs of Place",
+   "levels": [
+    "A1",
+    "A2"
+   ],
+   "category": "adverbien",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Lokaladverbien beantworten die Frage 'wo?', 'wohin?' oder 'woher?' und beschreiben Ort oder Richtung. Beispiele: hier, dort, oben, unten, draußen, drinnen, nirgendwo.",
+     "bodyFA": "قید مکان به سؤال «کجا؟»، «به کجا؟» یا «از کجا؟» پاسخ می‌دهد و مکان یا جهت را توصیف می‌کند. مثال: hier، dort، oben، unten، draußen، drinnen، nirgendwo.",
+     "bodyEN": "Adverbs of place answer the question 'where?', 'where to?', or 'where from?' and describe location or direction. Examples: hier, dort, oben, unten, draußen, drinnen, nirgendwo."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Die Schlüssel liegen dort auf dem Tisch.",
+     "meaningFA": "کلیدها آنجا روی میز هستند.",
+     "meaningEN": "The keys are lying there on the table."
+    },
+    {
+     "id": "ex-2",
+     "german": "Wir gehen heute nach draußen.",
+     "meaningFA": "ما امروز بیرون می‌رویم.",
+     "meaningEN": "We are going outside today."
+    },
+    {
+     "id": "ex-3",
+     "german": "Oben im Regal findest du die Bücher.",
+     "meaningFA": "بالای قفسه کتاب‌ها را پیدا می‌کنی.",
+     "meaningEN": "You'll find the books on top of the shelf."
+    },
+    {
+     "id": "ex-4",
+     "german": "Er wartet unten vor dem Haus.",
+     "meaningFA": "او پایین جلوی خانه منتظر است.",
+     "meaningEN": "He's waiting downstairs in front of the house."
+    },
+    {
+     "id": "ex-5",
+     "german": "Nirgendwo war ein Parkplatz frei.",
+     "meaningFA": "هیچ‌جا جای پارک خالی نبود.",
+     "meaningEN": "There was no free parking spot anywhere."
+    },
+    {
+     "id": "ex-6",
+     "german": "Kommst du von hier oder von dort?",
+     "meaningFA": "از اینجا می‌آیی یا از آنجا؟",
+     "meaningEN": "Are you coming from here or from there?"
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "temporaladverbien"
+   ],
+   "exerciseSlugs": [
+    "ex-lokal-1",
+    "ex-lokal-2",
+    "ex-lokal-3",
+    "ex-lokal-4"
+   ]
+  },
+  {
+   "id": "temporaladverbien",
+   "slug": "temporaladverbien",
+   "titleDE": "Temporaladverbien",
+   "titleFA": "قید زمان",
+   "titleEN": "Adverbs of Time",
+   "levels": [
+    "A1",
+    "A2"
+   ],
+   "category": "adverbien",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Temporaladverbien beantworten die Frage 'wann?' und geben einen Zeitpunkt, eine Dauer oder eine Häufigkeit an. Beispiele: heute, morgen, gestern, oft, manchmal, immer, nie, bald.",
+     "bodyFA": "قید زمان به سؤال «کی؟» پاسخ می‌دهد و لحظه، مدت یا تکرار زمانی را نشان می‌دهد. مثال: heute، morgen، gestern، oft، manchmal، immer، nie، bald.",
+     "bodyEN": "Adverbs of time answer the question 'when?' and indicate a point in time, duration, or frequency. Examples: heute, morgen, gestern, oft, manchmal, immer, nie, bald."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Wir treffen uns morgen um zehn Uhr.",
+     "meaningFA": "ما فردا ساعت ده همدیگر را می‌بینیم.",
+     "meaningEN": "We're meeting tomorrow at ten o'clock."
+    },
+    {
+     "id": "ex-2",
+     "german": "Sie geht oft ins Fitnessstudio.",
+     "meaningFA": "او اغلب به باشگاه می‌رود.",
+     "meaningEN": "She often goes to the gym."
+    },
+    {
+     "id": "ex-3",
+     "german": "Ich habe das noch nie probiert.",
+     "meaningFA": "من این را هرگز امتحان نکرده‌ام.",
+     "meaningEN": "I have never tried that."
+    },
+    {
+     "id": "ex-4",
+     "german": "Bald beginnt der neue Kurs.",
+     "meaningFA": "به‌زودی دورهٔ جدید شروع می‌شود.",
+     "meaningEN": "The new course starts soon."
+    },
+    {
+     "id": "ex-5",
+     "german": "Manchmal arbeiten wir bis spät in die Nacht.",
+     "meaningFA": "گاهی ما تا دیروقت شب کار می‌کنیم.",
+     "meaningEN": "Sometimes we work late into the night."
+    },
+    {
+     "id": "ex-6",
+     "german": "Er kommt immer pünktlich zur Arbeit.",
+     "meaningFA": "او همیشه سر وقت سر کار می‌آید.",
+     "meaningEN": "He always comes to work on time."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "lokaladverbien",
+    "temporalsaetze"
+   ],
+   "exerciseSlugs": [
+    "ex-tempadv-1",
+    "ex-tempadv-2",
+    "ex-tempadv-3",
+    "ex-tempadv-4"
+   ]
+  },
+  {
+   "id": "modaladverbien",
+   "slug": "modaladverbien",
+   "titleDE": "Modaladverbien",
+   "titleFA": "قید حالت/کیفیت",
+   "titleEN": "Adverbs of Manner",
+   "levels": [
+    "A2",
+    "B1"
+   ],
+   "category": "adverbien",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Modaladverbien beantworten die Frage 'wie?' und beschreiben die Art und Weise einer Handlung. Viele werden aus Adjektiven gebildet (schnell, langsam, gern, leider, gewiss).",
+     "bodyFA": "قید حالت به سؤال «چگونه؟» پاسخ می‌دهد و شیوهٔ انجام کنش را توصیف می‌کند. بسیاری از صفت‌ها ساخته می‌شوند (schnell، langsam، gern، leider، gewiss).",
+     "bodyEN": "Adverbs of manner answer the question 'how?' and describe the way an action is carried out. Many are formed from adjectives (schnell, langsam, gern, leider, gewiss)."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Sie spricht sehr schnell Deutsch.",
+     "meaningFA": "او خیلی سریع آلمانی صحبت می‌کند.",
+     "meaningEN": "She speaks German very quickly."
+    },
+    {
+     "id": "ex-2",
+     "german": "Wir fahren leider zu spät los.",
+     "meaningFA": "متأسفانه ما دیر حرکت می‌کنیم.",
+     "meaningEN": "Unfortunately, we're leaving too late."
+    },
+    {
+     "id": "ex-3",
+     "german": "Er hört gern klassische Musik.",
+     "meaningFA": "او با کمال میل موسیقی کلاسیک گوش می‌دهد.",
+     "meaningEN": "He likes to listen to classical music."
+    },
+    {
+     "id": "ex-4",
+     "german": "Das Ergebnis wird gewiss positiv sein.",
+     "meaningFA": "نتیجه قطعاً مثبت خواهد بود.",
+     "meaningEN": "The result will certainly be positive."
+    },
+    {
+     "id": "ex-5",
+     "german": "Bitte fahr langsamer!",
+     "meaningFA": "لطفاً آهسته‌تر رانندگی کن!",
+     "meaningEN": "Please drive more slowly!"
+    },
+    {
+     "id": "ex-6",
+     "german": "Die Kollegen arbeiten sehr sorgfältig.",
+     "meaningFA": "همکاران خیلی با دقت کار می‌کنند.",
+     "meaningEN": "The colleagues work very carefully."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "komparativ-superlativ"
+   ],
+   "exerciseSlugs": [
+    "ex-modadv-1",
+    "ex-modadv-2",
+    "ex-modadv-3",
+    "ex-modadv-4"
+   ]
+  },
+  {
+   "id": "partikeln",
+   "slug": "partikeln",
+   "titleDE": "Partikeln (Modalpartikeln)",
+   "titleFA": "واژه‌های تأکیدی (Partikeln)",
+   "titleEN": "Modal Particles",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "category": "adverbien",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Modalpartikeln (doch, ja, mal, eben, halt, wohl) verändern nicht die Grundbedeutung eines Satzes, sondern drücken eine Einstellung, Emotion oder Erwartung des Sprechers aus. Sie sind typisch für die gesprochene Sprache.",
+     "bodyFA": "واژه‌های تأکیدی (doch، ja، mal، eben، halt، wohl) معنای پایهٔ جمله را تغییر نمی‌دهند، بلکه نگرش، احساس یا انتظار گوینده را بیان می‌کنند. مشخصهٔ زبان محاوره هستند.",
+     "bodyEN": "Modal particles (doch, ja, mal, eben, halt, wohl) don't change the basic meaning of a sentence, but express the speaker's attitude, emotion, or expectation. They are typical of spoken language."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Das ist doch klar!",
+     "meaningFA": "این که واضح است!",
+     "meaningEN": "That's obvious, isn't it!",
+     "noteDE": "'doch' betont Selbstverständlichkeit.",
+     "noteFA": "«doch» بدیهی‌بودن را تأکید می‌کند.",
+     "noteEN": "'doch' emphasizes something obvious."
+    },
+    {
+     "id": "ex-2",
+     "german": "Komm doch mal vorbei!",
+     "meaningFA": "یه سری بزن!",
+     "meaningEN": "Come by sometime!",
+     "noteDE": "'mal' macht die Bitte lockerer.",
+     "noteFA": "«mal» درخواست را غیررسمی‌تر می‌کند.",
+     "noteEN": "'mal' makes the request more casual."
+    },
+    {
+     "id": "ex-3",
+     "german": "Das ist eben so.",
+     "meaningFA": "همینه دیگه.",
+     "meaningEN": "That's just how it is."
+    },
+    {
+     "id": "ex-4",
+     "german": "Er hat wohl recht.",
+     "meaningFA": "احتمالاً او حق دارد.",
+     "meaningEN": "He's probably right."
+    },
+    {
+     "id": "ex-5",
+     "german": "Das kannst du ja versuchen.",
+     "meaningFA": "خب می‌تونی امتحانش کنی.",
+     "meaningEN": "You can try that, then."
+    },
+    {
+     "id": "ex-6",
+     "german": "So ist es halt.",
+     "meaningFA": "خب همینه دیگه.",
+     "meaningEN": "That's just the way it is."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "Häufige Modalpartikeln",
+     "titleFA": "واژه‌های تأکیدی پرکاربرد",
+     "titleEN": "Common Modal Particles",
+     "style": "simple",
+     "columns": [
+      "Partikel",
+      "Funktion"
+     ],
+     "rows": [
+      {
+       "rowLabel": "doch",
+       "cells": [
+        "Selbstverständlichkeit / Widerspruch"
+       ]
+      },
+      {
+       "rowLabel": "mal",
+       "cells": [
+        "macht Bitten lockerer"
+       ]
+      },
+      {
+       "rowLabel": "eben/halt",
+       "cells": [
+        "Resignation, 'so ist es nun mal'"
+       ]
+      },
+      {
+       "rowLabel": "wohl",
+       "cells": [
+        "Vermutung"
+       ]
+      },
+      {
+       "rowLabel": "ja",
+       "cells": [
+        "Bestätigung, Betonung"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "modaladverbien"
+   ],
+   "exerciseSlugs": [
+    "ex-partik-1",
+    "ex-partik-2",
+    "ex-partik-3",
+    "ex-partik-4"
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-lokal-1",
+   "lessonSlug": "lokaladverbien",
+   "type": "multipleChoice",
+   "promptDE": "Die Schlüssel liegen ___ auf dem Tisch.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "dort",
+     "heute",
+     "gern",
+     "schnell"
+    ],
+    "correctIndex": 0
+   },
+   "explanationAfterAnswerDE": "'dort' antwortet auf 'wo?' und ist ein Lokaladverb.",
+   "explanationAfterAnswerFA": "«dort» به «wo?» پاسخ می‌دهد و قید مکان است.",
+   "explanationAfterAnswerEN": "'dort' answers 'where?' and is an adverb of place."
+  },
+  {
+   "id": "ex-lokal-2",
+   "lessonSlug": "lokaladverbien",
+   "type": "fillBlank",
+   "promptDE": "Ergänze das richtige Lokaladverb.",
+   "promptFA": "قید مکان درست را کامل کن.",
+   "promptEN": "Complete with the correct adverb of place.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Er wartet ___ vor dem Haus.",
+    "correctAnswer": "unten",
+    "alternatives": [
+     "oben",
+     "bald"
+    ]
+   },
+   "explanationAfterAnswerDE": "'unten' beschreibt eine Position.",
+   "explanationAfterAnswerFA": "«unten» یک موقعیت را توصیف می‌کند.",
+   "explanationAfterAnswerEN": "'unten' describes a position."
+  },
+  {
+   "id": "ex-lokal-3",
+   "lessonSlug": "lokaladverbien",
+   "type": "matching",
+   "promptDE": "Verbinde Lokaladverb und Gegenteil.",
+   "promptFA": "قید مکان را به متضادش وصل کن.",
+   "promptEN": "Match the adverb of place to its opposite.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "oben",
+      "right": "unten"
+     },
+     {
+      "left": "drinnen",
+      "right": "draußen"
+     },
+     {
+      "left": "hier",
+      "right": "dort"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Diese Lokaladverbien bilden Gegensatzpaare.",
+   "explanationAfterAnswerFA": "این قیدهای مکان جفت‌های متضاد می‌سازند.",
+   "explanationAfterAnswerEN": "These adverbs of place form opposite pairs."
+  },
+  {
+   "id": "ex-lokal-4",
+   "lessonSlug": "lokaladverbien",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "nach",
+     "heute",
+     "Wir",
+     "draußen",
+     "gehen"
+    ],
+    "correctSentence": "Wir gehen heute nach draußen."
+   },
+   "explanationAfterAnswerDE": "'nach draußen' zeigt eine Richtung an.",
+   "explanationAfterAnswerFA": "«nach draußen» یک جهت را نشان می‌دهد.",
+   "explanationAfterAnswerEN": "'nach draußen' indicates a direction."
+  },
+  {
+   "id": "ex-tempadv-1",
+   "lessonSlug": "temporaladverbien",
+   "type": "multipleChoice",
+   "promptDE": "Ich habe das noch ___ probiert.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "nie",
+     "dort",
+     "gern",
+     "hier"
+    ],
+    "correctIndex": 0
+   },
+   "explanationAfterAnswerDE": "'nie' antwortet auf 'wann?' (nie = zu keinem Zeitpunkt).",
+   "explanationAfterAnswerFA": "«nie» به «wann?» پاسخ می‌دهد (nie = هیچ‌وقت).",
+   "explanationAfterAnswerEN": "'nie' answers 'when?' (nie = at no point in time)."
+  },
+  {
+   "id": "ex-tempadv-2",
+   "lessonSlug": "temporaladverbien",
+   "type": "fillBlank",
+   "promptDE": "Ergänze das richtige Temporaladverb.",
+   "promptFA": "قید زمان درست را کامل کن.",
+   "promptEN": "Complete with the correct adverb of time.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "___ beginnt der neue Kurs.",
+    "correctAnswer": "Bald",
+    "alternatives": [
+     "Dort",
+     "Gern"
+    ]
+   },
+   "explanationAfterAnswerDE": "'bald' zeigt einen nahen Zeitpunkt in der Zukunft an.",
+   "explanationAfterAnswerFA": "«bald» یک زمان نزدیک در آینده را نشان می‌دهد.",
+   "explanationAfterAnswerEN": "'bald' indicates a near point in the future."
+  },
+  {
+   "id": "ex-tempadv-3",
+   "lessonSlug": "temporaladverbien",
+   "type": "matching",
+   "promptDE": "Verbinde Temporaladverb und Häufigkeit.",
+   "promptFA": "قید زمان را به میزان تکرار وصل کن.",
+   "promptEN": "Match the adverb to its frequency.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "immer",
+      "right": "100%"
+     },
+     {
+      "left": "oft",
+      "right": "häufig"
+     },
+     {
+      "left": "manchmal",
+      "right": "gelegentlich"
+     },
+     {
+      "left": "nie",
+      "right": "0%"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Diese Adverbien bilden eine Skala der Häufigkeit.",
+   "explanationAfterAnswerFA": "این قیدها یک مقیاس تکرار را می‌سازند.",
+   "explanationAfterAnswerEN": "These adverbs form a scale of frequency."
+  },
+  {
+   "id": "ex-tempadv-4",
+   "lessonSlug": "temporaladverbien",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "zur",
+     "kommt",
+     "pünktlich",
+     "immer",
+     "Arbeit",
+     "Er"
+    ],
+    "correctSentence": "Er kommt immer pünktlich zur Arbeit."
+   },
+   "explanationAfterAnswerDE": "Temporaladverbien stehen oft direkt nach dem Verb.",
+   "explanationAfterAnswerFA": "قید زمان اغلب مستقیم بعد از فعل می‌آید.",
+   "explanationAfterAnswerEN": "Adverbs of time often come right after the verb."
+  },
+  {
+   "id": "ex-modadv-1",
+   "lessonSlug": "modaladverbien",
+   "type": "multipleChoice",
+   "promptDE": "Sie spricht sehr ___ Deutsch.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "schnell",
+     "dort",
+     "nie",
+     "bald"
+    ],
+    "correctIndex": 0
+   },
+   "explanationAfterAnswerDE": "'schnell' antwortet auf 'wie?' und ist ein Modaladverb.",
+   "explanationAfterAnswerFA": "«schnell» به «wie?» پاسخ می‌دهد و قید حالت است.",
+   "explanationAfterAnswerEN": "'schnell' answers 'how?' and is an adverb of manner."
+  },
+  {
+   "id": "ex-modadv-2",
+   "lessonSlug": "modaladverbien",
+   "type": "fillBlank",
+   "promptDE": "Ergänze das richtige Modaladverb.",
+   "promptFA": "قید حالت درست را کامل کن.",
+   "promptEN": "Complete with the correct adverb of manner.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Wir fahren ___ zu spät los.",
+    "correctAnswer": "leider",
+    "alternatives": [
+     "dort",
+     "oft"
+    ]
+   },
+   "explanationAfterAnswerDE": "'leider' drückt Bedauern über die Art der Handlung aus.",
+   "explanationAfterAnswerFA": "«leider» تأسف دربارهٔ نحوهٔ انجام کنش را بیان می‌کند.",
+   "explanationAfterAnswerEN": "'leider' expresses regret about the manner of the action."
+  },
+  {
+   "id": "ex-modadv-3",
+   "lessonSlug": "modaladverbien",
+   "type": "transform",
+   "promptDE": "Ersetze das Adjektiv durch ein Modaladverb.",
+   "promptFA": "صفت را با قید حالت جایگزین کن.",
+   "promptEN": "Replace the adjective with an adverb of manner.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Er ist ein sorgfältiger Arbeiter.",
+    "instructionDE": "Als Modaladverb: 'Er arbeitet ...'",
+    "instructionFA": "به‌عنوان قید حالت: «Er arbeitet ...»",
+    "instructionEN": "As an adverb of manner: 'Er arbeitet ...'",
+    "correctAnswer": "Er arbeitet sorgfältig."
+   },
+   "explanationAfterAnswerDE": "Im Deutschen sind Adjektiv und Adverb oft formgleich.",
+   "explanationAfterAnswerFA": "در آلمانی، صفت و قید اغلب شکل یکسانی دارند.",
+   "explanationAfterAnswerEN": "In German, adjectives and adverbs often have the same form."
+  },
+  {
+   "id": "ex-modadv-4",
+   "lessonSlug": "modaladverbien",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "klassische",
+     "Musik",
+     "hört",
+     "gern",
+     "Er"
+    ],
+    "correctSentence": "Er hört gern klassische Musik."
+   },
+   "explanationAfterAnswerDE": "'gern' steht meist direkt nach dem konjugierten Verb.",
+   "explanationAfterAnswerFA": "«gern» معمولاً مستقیم بعد از فعل صرف‌شده می‌آید.",
+   "explanationAfterAnswerEN": "'gern' usually comes right after the conjugated verb."
+  },
+  {
+   "id": "ex-partik-1",
+   "lessonSlug": "partikeln",
+   "type": "multipleChoice",
+   "promptDE": "Komm ___ mal vorbei!",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "doch",
+     "dort",
+     "nie",
+     "schnell"
+    ],
+    "correctIndex": 0
+   },
+   "explanationAfterAnswerDE": "'doch mal' macht eine Aufforderung freundlicher.",
+   "explanationAfterAnswerFA": "«doch mal» درخواست را دوستانه‌تر می‌کند.",
+   "explanationAfterAnswerEN": "'doch mal' makes a request friendlier."
+  },
+  {
+   "id": "ex-partik-2",
+   "lessonSlug": "partikeln",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Partikel.",
+   "promptFA": "واژهٔ تأکیدی درست را کامل کن.",
+   "promptEN": "Complete with the correct particle.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Er hat ___ recht.",
+    "correctAnswer": "wohl",
+    "alternatives": [
+     "dort",
+     "schnell"
+    ]
+   },
+   "explanationAfterAnswerDE": "'wohl' drückt eine Vermutung aus.",
+   "explanationAfterAnswerFA": "«wohl» حدس را بیان می‌کند.",
+   "explanationAfterAnswerEN": "'wohl' expresses an assumption."
+  },
+  {
+   "id": "ex-partik-3",
+   "lessonSlug": "partikeln",
+   "type": "matching",
+   "promptDE": "Verbinde Partikel und Funktion.",
+   "promptFA": "واژهٔ تأکیدی را به کارکردش وصل کن.",
+   "promptEN": "Match the particle to its function.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "doch",
+      "right": "Selbstverständlichkeit"
+     },
+     {
+      "left": "wohl",
+      "right": "Vermutung"
+     },
+     {
+      "left": "halt",
+      "right": "Resignation"
+     },
+     {
+      "left": "ja",
+      "right": "Bestätigung"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Jede Partikel trägt eine eigene Sprechhaltung.",
+   "explanationAfterAnswerFA": "هر واژهٔ تأکیدی نگرش گفتاری مخصوص خودش را دارد.",
+   "explanationAfterAnswerEN": "Each particle carries its own speaker attitude."
+  },
+  {
+   "id": "ex-partik-4",
+   "lessonSlug": "partikeln",
+   "type": "transform",
+   "promptDE": "Füge eine passende Partikel hinzu.",
+   "promptFA": "واژهٔ تأکیدی مناسب اضافه کن.",
+   "promptEN": "Add a suitable particle.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "So ist es.",
+    "instructionDE": "Mit 'halt' ergänzen.",
+    "instructionFA": "با «halt» کامل کن.",
+    "instructionEN": "Complete with 'halt'.",
+    "correctAnswer": "So ist es halt."
+   },
+   "explanationAfterAnswerDE": "'halt' drückt eine gewisse Resignation aus.",
+   "explanationAfterAnswerFA": "«halt» نوعی تسلیم را بیان می‌کند.",
+   "explanationAfterAnswerEN": "'halt' expresses a kind of resignation."
+  }
+ ]
+}

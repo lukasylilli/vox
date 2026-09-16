@@ -1,0 +1,798 @@
+{
+ "_index": {
+  "fileDescription": "Satzlehre-Misc: Fragewörter, die vier Fälle (Kasus)، Negation/Verneinung، Attribute",
+  "lastUpdatedStage": 16,
+  "lessons": [
+   "fragewoerter — کلمات پرسشی",
+   "die-vier-faelle — چهار حالت (Kasus)",
+   "negation-verneinung — نفی",
+   "attribute — صفات توصیفی و وابسته"
+  ]
+ },
+ "lessons": [
+  {
+   "id": "fragewoerter",
+   "slug": "fragewoerter",
+   "titleDE": "Fragewörter",
+   "titleFA": "کلمات پرسشی",
+   "titleEN": "Question Words",
+   "levels": [
+    "A1",
+    "A2"
+   ],
+   "category": "satzlehre",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "W-Fragewörter (wer, was, wann, wo, wie, warum, welcher) leiten offene Fragen ein und stehen am Satzanfang, gefolgt vom konjugierten Verb an Position 2.",
+     "bodyFA": "کلمات پرسشی W (wer، was، wann، wo، wie، warum، welcher) سؤالات باز را معرفی می‌کنند و در ابتدای جمله می‌آیند، به‌دنبال آن فعل صرف‌شده در جایگاه دوم.",
+     "bodyEN": "W-question words (wer, was, wann, wo, wie, warum, welcher) introduce open questions and appear at the start of the sentence, followed by the conjugated verb in position 2."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Wer hat die Tür geöffnet?",
+     "meaningFA": "چه کسی در را باز کرد؟",
+     "meaningEN": "Who opened the door?"
+    },
+    {
+     "id": "ex-2",
+     "german": "Was möchtest du trinken?",
+     "meaningFA": "چه می‌خواهی بنوشی؟",
+     "meaningEN": "What would you like to drink?"
+    },
+    {
+     "id": "ex-3",
+     "german": "Wann beginnt das Konzert?",
+     "meaningFA": "کنسرت کی شروع می‌شود؟",
+     "meaningEN": "When does the concert start?"
+    },
+    {
+     "id": "ex-4",
+     "german": "Wo hast du deine Schlüssel gelassen?",
+     "meaningFA": "کلیدهایت را کجا گذاشتی؟",
+     "meaningEN": "Where did you leave your keys?"
+    },
+    {
+     "id": "ex-5",
+     "german": "Warum kommst du heute so spät?",
+     "meaningFA": "چرا امروز اینقدر دیر می‌آیی؟",
+     "meaningEN": "Why are you coming so late today?"
+    },
+    {
+     "id": "ex-6",
+     "german": "Wie funktioniert diese Maschine?",
+     "meaningFA": "این دستگاه چطور کار می‌کند؟",
+     "meaningEN": "How does this machine work?"
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "Übersicht der Fragewörter",
+     "titleFA": "خلاصهٔ کلمات پرسشی",
+     "titleEN": "Overview of Question Words",
+     "style": "simple",
+     "columns": [
+      "Fragewort",
+      "Bedeutung"
+     ],
+     "rows": [
+      {
+       "rowLabel": "wer",
+       "cells": [
+        "چه کسی (فاعل)"
+       ]
+      },
+      {
+       "rowLabel": "wen/wem",
+       "cells": [
+        "چه کسی را/به چه کسی"
+       ]
+      },
+      {
+       "rowLabel": "was",
+       "cells": [
+        "چه چیزی"
+       ]
+      },
+      {
+       "rowLabel": "wann",
+       "cells": [
+        "کی"
+       ]
+      },
+      {
+       "rowLabel": "wo/wohin/woher",
+       "cells": [
+        "کجا/به کجا/از کجا"
+       ]
+      },
+      {
+       "rowLabel": "warum/weshalb",
+       "cells": [
+        "چرا"
+       ]
+      },
+      {
+       "rowLabel": "wie",
+       "cells": [
+        "چگونه"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "indirekte-fragesaetze"
+   ],
+   "exerciseSlugs": [
+    "ex-frag-1",
+    "ex-frag-2",
+    "ex-frag-3",
+    "ex-frag-4"
+   ]
+  },
+  {
+   "id": "die-vier-faelle",
+   "slug": "die-vier-faelle",
+   "titleDE": "Die vier Fälle (Kasus)",
+   "titleFA": "چهار حالت دستوری (Kasus)",
+   "titleEN": "The Four Cases",
+   "levels": [
+    "A1",
+    "A2",
+    "B1"
+   ],
+   "category": "satzlehre",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": "Überblick",
+     "headingFA": "مروری کلی",
+     "headingEN": "Overview",
+     "bodyDE": "Deutsch hat vier Fälle: Nominativ (Subjekt, wer/was?), Akkusativ (direktes Objekt, wen/was?), Dativ (indirektes Objekt, wem?), Genitiv (Besitz, wessen?). Jeder Kasus beeinflusst Artikel- und Adjektivendungen.",
+     "bodyFA": "آلمانی چهار حالت دارد: Nominativ (فاعل، چه کسی/چه چیزی؟)، Akkusativ (مفعول مستقیم، چه کسی را/چه چیزی را؟)، Dativ (مفعول غیرمستقیم، به چه کسی؟)، Genitiv (مالکیت، مال چه کسی؟). هر کاسوس روی پایانهٔ آرتیکل و صفت تأثیر می‌گذارد.",
+     "bodyEN": "German has four cases: nominative (subject, who/what?), accusative (direct object, whom/what?), dative (indirect object, to whom?), genitive (possession, whose?). Each case affects article and adjective endings."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Der Lehrer erklärt den Schülern die Regel.",
+     "meaningFA": "معلم قانون را به دانش‌آموزان توضیح می‌دهد.",
+     "meaningEN": "The teacher explains the rule to the students.",
+     "noteDE": "'der Lehrer'=Nominativ, 'den Schülern'=Dativ, 'die Regel'=Akkusativ.",
+     "noteFA": "«der Lehrer»=Nominativ، «den Schülern»=Dativ، «die Regel»=Akkusativ.",
+     "noteEN": "'der Lehrer'=nominative, 'den Schülern'=dative, 'die Regel'=accusative."
+    },
+    {
+     "id": "ex-2",
+     "german": "Das Auto meiner Kollegin ist neu.",
+     "meaningFA": "ماشین همکارم جدید است.",
+     "meaningEN": "My colleague's car is new."
+    },
+    {
+     "id": "ex-3",
+     "german": "Ich sehe den Hund im Park.",
+     "meaningFA": "من سگ را در پارک می‌بینم.",
+     "meaningEN": "I see the dog in the park."
+    },
+    {
+     "id": "ex-4",
+     "german": "Sie gibt ihrem Bruder ein Geschenk.",
+     "meaningFA": "او به برادرش یک هدیه می‌دهد.",
+     "meaningEN": "She gives her brother a gift."
+    },
+    {
+     "id": "ex-5",
+     "german": "Wessen Tasche ist das?",
+     "meaningFA": "این کیف مال کیست؟",
+     "meaningEN": "Whose bag is this?"
+    },
+    {
+     "id": "ex-6",
+     "german": "Wir helfen unseren Nachbarn.",
+     "meaningFA": "ما به همسایگانمان کمک می‌کنیم.",
+     "meaningEN": "We help our neighbors."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "Frage und Funktion jedes Kasus",
+     "titleFA": "سؤال و کارکرد هر کاسوس",
+     "titleEN": "Question and Function of Each Case",
+     "style": "simple",
+     "columns": [
+      "Kasus",
+      "Frage",
+      "Funktion"
+     ],
+     "rows": [
+      {
+       "rowLabel": "Nominativ",
+       "cells": [
+        "wer/was?",
+        "Subjekt"
+       ]
+      },
+      {
+       "rowLabel": "Akkusativ",
+       "cells": [
+        "wen/was?",
+        "direktes Objekt"
+       ]
+      },
+      {
+       "rowLabel": "Dativ",
+       "cells": [
+        "wem?",
+        "indirektes Objekt"
+       ]
+      },
+      {
+       "rowLabel": "Genitiv",
+       "cells": [
+        "wessen?",
+        "Besitz"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "nominativergaenzung",
+    "akkusativergaenzung",
+    "dativergaenzung",
+    "genitiv"
+   ],
+   "exerciseSlugs": [
+    "ex-kasus-1",
+    "ex-kasus-2",
+    "ex-kasus-3",
+    "ex-kasus-4"
+   ]
+  },
+  {
+   "id": "negation-verneinung",
+   "slug": "negation-verneinung",
+   "titleDE": "Negation (Verneinung)",
+   "titleFA": "نفی (Verneinung)",
+   "titleEN": "Negation",
+   "levels": [
+    "A1",
+    "A2"
+   ],
+   "category": "satzlehre",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": "nicht vs. kein",
+     "headingFA": "nicht در مقابل kein",
+     "headingEN": "nicht vs. kein",
+     "bodyDE": "'kein' verneint ein Nomen mit unbestimmtem Artikel oder ohne Artikel. 'nicht' verneint Verben, Adjektive, Adverbien oder ein Nomen mit bestimmtem Artikel. 'nicht' steht oft am Satzende oder direkt vor dem verneinten Wort.",
+     "bodyFA": "«kein» یک اسم با آرتیکل نامعین یا بدون آرتیکل را نفی می‌کند. «nicht» فعل، صفت، قید یا اسم با آرتیکل معین را نفی می‌کند. «nicht» اغلب در انتهای جمله یا بلافاصله قبل از کلمهٔ نفی‌شده می‌آید.",
+     "bodyEN": "'kein' negates a noun with an indefinite article or no article. 'nicht' negates verbs, adjectives, adverbs, or a noun with a definite article. 'nicht' often comes at the end of the sentence or right before the negated word."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Ich habe keine Zeit.",
+     "meaningFA": "من وقت ندارم.",
+     "meaningEN": "I don't have time.",
+     "noteDE": "'Zeit' ohne Artikel → 'keine'.",
+     "noteFA": "«Zeit» بدون آرتیکل → «keine».",
+     "noteEN": "'Zeit' without an article → 'keine'."
+    },
+    {
+     "id": "ex-2",
+     "german": "Ich verstehe das nicht.",
+     "meaningFA": "من این را نمی‌فهمم.",
+     "meaningEN": "I don't understand this."
+    },
+    {
+     "id": "ex-3",
+     "german": "Sie kommt heute nicht.",
+     "meaningFA": "او امروز نمی‌آید.",
+     "meaningEN": "She's not coming today."
+    },
+    {
+     "id": "ex-4",
+     "german": "Das ist nicht mein Buch.",
+     "meaningFA": "این کتاب من نیست.",
+     "meaningEN": "That is not my book."
+    },
+    {
+     "id": "ex-5",
+     "german": "Wir haben kein Auto.",
+     "meaningFA": "ما ماشین نداریم.",
+     "meaningEN": "We don't have a car."
+    },
+    {
+     "id": "ex-6",
+     "german": "Er ist nicht müde, sondern hungrig.",
+     "meaningFA": "او خسته نیست، بلکه گرسنه است.",
+     "meaningEN": "He's not tired, but hungry."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "die-vier-faelle"
+   ],
+   "exerciseSlugs": [
+    "ex-neg-1",
+    "ex-neg-2",
+    "ex-neg-3",
+    "ex-neg-4"
+   ]
+  },
+  {
+   "id": "attribute",
+   "slug": "attribute",
+   "titleDE": "Attribute",
+   "titleFA": "صفات و وابسته‌های توصیفی (Attribute)",
+   "titleEN": "Attributes",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "category": "satzlehre",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Attribute geben zusätzliche Informationen zu einem Nomen: als Adjektiv vor dem Nomen, als Genitivattribut, als Präpositionalattribut, oder als Relativsatz. Sie machen Sätze präziser und formeller.",
+     "bodyFA": "وابسته‌های توصیفی (Attribute) اطلاعات اضافی به یک اسم می‌دهند: به‌صورت صفت قبل از اسم، وابستهٔ Genitiv، وابستهٔ حرف‌اضافه‌ای، یا جملهٔ موصولی. جملات را دقیق‌تر و رسمی‌تر می‌کنند.",
+     "bodyEN": "Attributes add extra information to a noun: as an adjective before the noun, as a genitive attribute, as a prepositional attribute, or as a relative clause. They make sentences more precise and formal."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Der erfahrene Ingenieur löste das Problem schnell.",
+     "meaningFA": "مهندس باتجربه مشکل را سریع حل کرد.",
+     "meaningEN": "The experienced engineer solved the problem quickly.",
+     "noteDE": "Adjektivattribut vor dem Nomen.",
+     "noteFA": "وابستهٔ صفتی قبل از اسم.",
+     "noteEN": "Adjective attribute before the noun."
+    },
+    {
+     "id": "ex-2",
+     "german": "Das Ergebnis der Untersuchung war überraschend.",
+     "meaningFA": "نتیجهٔ بررسی شگفت‌انگیز بود.",
+     "meaningEN": "The result of the investigation was surprising.",
+     "noteDE": "Genitivattribut.",
+     "noteFA": "وابستهٔ Genitiv.",
+     "noteEN": "Genitive attribute."
+    },
+    {
+     "id": "ex-3",
+     "german": "Die Diskussion über das neue Gesetz dauerte lange.",
+     "meaningFA": "بحث دربارهٔ قانون جدید طولانی بود.",
+     "meaningEN": "The discussion about the new law took a long time.",
+     "noteDE": "Präpositionalattribut.",
+     "noteFA": "وابستهٔ حرف‌اضافه‌ای.",
+     "noteEN": "Prepositional attribute."
+    },
+    {
+     "id": "ex-4",
+     "german": "Der Mitarbeiter, der gestern angefangen hat, lernt schnell.",
+     "meaningFA": "کارمندی که دیروز شروع کرد سریع یاد می‌گیرد.",
+     "meaningEN": "The employee who started yesterday learns quickly.",
+     "noteDE": "Relativsatz als Attribut.",
+     "noteFA": "جملهٔ موصولی به‌عنوان وابسته.",
+     "noteEN": "Relative clause as an attribute."
+    },
+    {
+     "id": "ex-5",
+     "german": "Ein Mann mit grauen Haaren betrat den Raum.",
+     "meaningFA": "مردی با موهای خاکستری وارد اتاق شد.",
+     "meaningEN": "A man with gray hair entered the room."
+    },
+    {
+     "id": "ex-6",
+     "german": "Die Firma, deren Chef sehr freundlich ist, wächst schnell.",
+     "meaningFA": "شرکتی که رئیسش خیلی مهربان است سریع رشد می‌کند.",
+     "meaningEN": "The company, whose boss is very friendly, is growing fast."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "adjektivdeklination",
+    "genitiv",
+    "relativpronomen-relativsaetze"
+   ],
+   "exerciseSlugs": [
+    "ex-attrib-1",
+    "ex-attrib-2",
+    "ex-attrib-3",
+    "ex-attrib-4"
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-frag-1",
+   "lessonSlug": "fragewoerter",
+   "type": "multipleChoice",
+   "promptDE": "___ hast du deine Schlüssel gelassen?",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "Wer",
+     "Wo",
+     "Was",
+     "Wann"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "'wo' fragt nach einem Ort.",
+   "explanationAfterAnswerFA": "«wo» دربارهٔ یک مکان می‌پرسد.",
+   "explanationAfterAnswerEN": "'wo' asks about a location."
+  },
+  {
+   "id": "ex-frag-2",
+   "lessonSlug": "fragewoerter",
+   "type": "fillBlank",
+   "promptDE": "Ergänze das richtige Fragewort.",
+   "promptFA": "کلمهٔ پرسشی درست را کامل کن.",
+   "promptEN": "Complete with the correct question word.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "___ beginnt das Konzert?",
+    "correctAnswer": "Wann",
+    "alternatives": [
+     "Wo",
+     "Wer"
+    ]
+   },
+   "explanationAfterAnswerDE": "'wann' fragt nach einer Zeit.",
+   "explanationAfterAnswerFA": "«wann» دربارهٔ زمان می‌پرسد.",
+   "explanationAfterAnswerEN": "'wann' asks about a time."
+  },
+  {
+   "id": "ex-frag-3",
+   "lessonSlug": "fragewoerter",
+   "type": "matching",
+   "promptDE": "Verbinde Fragewort und Bedeutung.",
+   "promptFA": "کلمهٔ پرسشی را به معنایش وصل کن.",
+   "promptEN": "Match the question word to its meaning.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "wer",
+      "right": "چه کسی"
+     },
+     {
+      "left": "warum",
+      "right": "چرا"
+     },
+     {
+      "left": "wie",
+      "right": "چگونه"
+     },
+     {
+      "left": "wo",
+      "right": "کجا"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "هر کلمهٔ پرسشی یک نوع اطلاعات خاص می‌طلبد.",
+   "explanationAfterAnswerFA": "هر کلمهٔ پرسشی نوع خاصی از اطلاعات را می‌خواهد.",
+   "explanationAfterAnswerEN": "Each question word asks for a specific type of information."
+  },
+  {
+   "id": "ex-frag-4",
+   "lessonSlug": "fragewoerter",
+   "type": "wordOrder",
+   "promptDE": "Bilde eine richtige Frage.",
+   "promptFA": "سؤال را به‌درستی بچین.",
+   "promptEN": "Form a correct question.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "diese",
+     "funktioniert",
+     "Wie",
+     "Maschine"
+    ],
+    "correctSentence": "Wie funktioniert diese Maschine?"
+   },
+   "explanationAfterAnswerDE": "Nach dem Fragewort folgt direkt das konjugierte Verb.",
+   "explanationAfterAnswerFA": "بعد از کلمهٔ پرسشی، مستقیم فعل صرف‌شده می‌آید.",
+   "explanationAfterAnswerEN": "The conjugated verb follows directly after the question word."
+  },
+  {
+   "id": "ex-kasus-1",
+   "lessonSlug": "die-vier-faelle",
+   "type": "multipleChoice",
+   "promptDE": "Der Lehrer erklärt ___ Schülern die Regel.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "die",
+     "den",
+     "der",
+     "des"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "'erklären' + Dativ Plural: 'den Schülern'.",
+   "explanationAfterAnswerFA": "«erklären» + Dativ جمع: «den Schülern».",
+   "explanationAfterAnswerEN": "'erklären' + dative plural: 'den Schülern'."
+  },
+  {
+   "id": "ex-kasus-2",
+   "lessonSlug": "die-vier-faelle",
+   "type": "matching",
+   "promptDE": "Verbinde Kasus und Frage.",
+   "promptFA": "کاسوس را به سؤالش وصل کن.",
+   "promptEN": "Match the case to its question.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "Nominativ",
+      "right": "wer/was?"
+     },
+     {
+      "left": "Akkusativ",
+      "right": "wen/was?"
+     },
+     {
+      "left": "Dativ",
+      "right": "wem?"
+     },
+     {
+      "left": "Genitiv",
+      "right": "wessen?"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "هر کاسوس یک سؤال مشخص دارد.",
+   "explanationAfterAnswerFA": "هر کاسوس یک سؤال مشخص دارد.",
+   "explanationAfterAnswerEN": "Each case has a specific question."
+  },
+  {
+   "id": "ex-kasus-3",
+   "lessonSlug": "die-vier-faelle",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Form.",
+   "promptFA": "شکل درست را کامل کن.",
+   "promptEN": "Complete with the correct form.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Ich sehe ___ Hund im Park.",
+    "correctAnswer": "den",
+    "alternatives": [
+     "der",
+     "dem"
+    ]
+   },
+   "explanationAfterAnswerDE": "'sehen' verlangt Akkusativ: 'den Hund'.",
+   "explanationAfterAnswerFA": "«sehen» به Akkusativ نیاز دارد: «den Hund».",
+   "explanationAfterAnswerEN": "'sehen' requires the accusative: 'den Hund'."
+  },
+  {
+   "id": "ex-kasus-4",
+   "lessonSlug": "die-vier-faelle",
+   "type": "transform",
+   "promptDE": "Identifiziere den Kasus des unterstrichenen Teils.",
+   "promptFA": "کاسوس بخش موردنظر را مشخص کن.",
+   "promptEN": "Identify the case of the highlighted part.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Wir helfen unseren Nachbarn.",
+    "instructionDE": "Welcher Kasus ist 'unseren Nachbarn'?",
+    "instructionFA": "«unseren Nachbarn» چه کاسوسی است؟",
+    "instructionEN": "What case is 'unseren Nachbarn'?",
+    "correctAnswer": "Dativ"
+   },
+   "explanationAfterAnswerDE": "'helfen' verlangt immer den Dativ.",
+   "explanationAfterAnswerFA": "«helfen» همیشه به Dativ نیاز دارد.",
+   "explanationAfterAnswerEN": "'helfen' always requires the dative."
+  },
+  {
+   "id": "ex-neg-1",
+   "lessonSlug": "negation-verneinung",
+   "type": "multipleChoice",
+   "promptDE": "Ich habe ___ Zeit.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "nicht",
+     "kein",
+     "keine",
+     "nichts"
+    ],
+    "correctIndex": 2
+   },
+   "explanationAfterAnswerDE": "'Zeit' ist feminin ohne Artikel: 'keine'.",
+   "explanationAfterAnswerFA": "«Zeit» مؤنث و بدون آرتیکل است: «keine».",
+   "explanationAfterAnswerEN": "'Zeit' is feminine without an article: 'keine'."
+  },
+  {
+   "id": "ex-neg-2",
+   "lessonSlug": "negation-verneinung",
+   "type": "fillBlank",
+   "promptDE": "Ergänze 'nicht' oder 'kein'.",
+   "promptFA": "«nicht» یا «kein» را کامل کن.",
+   "promptEN": "Complete with 'nicht' or 'kein'.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Sie kommt heute ___.",
+    "correctAnswer": "nicht",
+    "alternatives": [
+     "kein",
+     "keine"
+    ]
+   },
+   "explanationAfterAnswerDE": "Verben werden mit 'nicht' verneint.",
+   "explanationAfterAnswerFA": "فعل‌ها با «nicht» نفی می‌شوند.",
+   "explanationAfterAnswerEN": "Verbs are negated with 'nicht'."
+  },
+  {
+   "id": "ex-neg-3",
+   "lessonSlug": "negation-verneinung",
+   "type": "matching",
+   "promptDE": "Verbinde Satz und richtige Negation.",
+   "promptFA": "جمله را به نفی درست وصل کن.",
+   "promptEN": "Match the sentence to the correct negation.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "Wir haben ___ Auto.",
+      "right": "kein"
+     },
+     {
+      "left": "Ich verstehe das ___.",
+      "right": "nicht"
+     },
+     {
+      "left": "Das ist ___ mein Buch.",
+      "right": "nicht"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "'kein' für Nomen ohne Artikel, 'nicht' für den Rest.",
+   "explanationAfterAnswerFA": "«kein» برای اسم بدون آرتیکل، «nicht» برای بقیه.",
+   "explanationAfterAnswerEN": "'kein' for nouns without an article, 'nicht' for everything else."
+  },
+  {
+   "id": "ex-neg-4",
+   "lessonSlug": "negation-verneinung",
+   "type": "transform",
+   "promptDE": "Verneine den Satz.",
+   "promptFA": "جمله را منفی کن.",
+   "promptEN": "Negate the sentence.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Er ist müde.",
+    "instructionDE": "Mit 'nicht' verneinen.",
+    "instructionFA": "با «nicht» منفی کن.",
+    "instructionEN": "Negate with 'nicht'.",
+    "correctAnswer": "Er ist nicht müde."
+   },
+   "explanationAfterAnswerDE": "'nicht' steht meist nach dem konjugierten Verb bei Adjektiven.",
+   "explanationAfterAnswerFA": "«nicht» معمولاً بعد از فعل صرف‌شده در جملات با صفت می‌آید.",
+   "explanationAfterAnswerEN": "'nicht' usually comes after the conjugated verb with adjectives."
+  },
+  {
+   "id": "ex-attrib-1",
+   "lessonSlug": "attribute",
+   "type": "multipleChoice",
+   "promptDE": "Der ___ Ingenieur löste das Problem schnell.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "erfahrene",
+     "erfahrener",
+     "erfahrenen",
+     "erfahrenes"
+    ],
+    "correctIndex": 0
+   },
+   "explanationAfterAnswerDE": "Typ 1 (nach 'der') Maskulinum Nominativ: Endung -e.",
+   "explanationAfterAnswerFA": "نوع ۱ (بعد از «der») مذکر Nominativ: پایانهٔ -e.",
+   "explanationAfterAnswerEN": "Type 1 (after 'der') masculine nominative: ending -e."
+  },
+  {
+   "id": "ex-attrib-2",
+   "lessonSlug": "attribute",
+   "type": "transform",
+   "promptDE": "Bilde ein Genitivattribut.",
+   "promptFA": "یک وابستهٔ Genitiv بساز.",
+   "promptEN": "Form a genitive attribute.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Das Ergebnis war überraschend. (die Untersuchung)",
+    "instructionDE": "Mit Genitivattribut verbinden.",
+    "instructionFA": "با وابستهٔ Genitiv وصل کن.",
+    "instructionEN": "Connect with a genitive attribute.",
+    "correctAnswer": "Das Ergebnis der Untersuchung war überraschend."
+   },
+   "explanationAfterAnswerDE": "Das Genitivattribut folgt direkt dem Bezugsnomen.",
+   "explanationAfterAnswerFA": "وابستهٔ Genitiv بلافاصله بعد از اسم مرجع می‌آید.",
+   "explanationAfterAnswerEN": "The genitive attribute follows directly after the reference noun."
+  },
+  {
+   "id": "ex-attrib-3",
+   "lessonSlug": "attribute",
+   "type": "matching",
+   "promptDE": "Verbinde Attributtyp und Beispiel.",
+   "promptFA": "نوع وابسته را به مثال وصل کن.",
+   "promptEN": "Match the attribute type to the example.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "Adjektivattribut",
+      "right": "der erfahrene Ingenieur"
+     },
+     {
+      "left": "Genitivattribut",
+      "right": "das Ergebnis der Untersuchung"
+     },
+     {
+      "left": "Präpositionalattribut",
+      "right": "die Diskussion über das Gesetz"
+     },
+     {
+      "left": "Relativsatz",
+      "right": "der Mitarbeiter, der gestern angefangen hat"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "هر نوع وابسته اطلاعات را متفاوت به اسم اضافه می‌کند.",
+   "explanationAfterAnswerFA": "هر نوع وابسته اطلاعات را به‌شکلی متفاوت به اسم اضافه می‌کند.",
+   "explanationAfterAnswerEN": "Each attribute type adds information to the noun differently."
+  },
+  {
+   "id": "ex-attrib-4",
+   "lessonSlug": "attribute",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "Raum",
+     "Mann",
+     "grauen",
+     "Ein",
+     "mit",
+     "betrat",
+     "Haaren",
+     "den"
+    ],
+    "correctSentence": "Ein Mann mit grauen Haaren betrat den Raum."
+   },
+   "explanationAfterAnswerDE": "Das Präpositionalattribut 'mit grauen Haaren' steht direkt nach dem Nomen 'Mann'.",
+   "explanationAfterAnswerFA": "وابستهٔ حرف‌اضافه‌ای «mit grauen Haaren» بلافاصله بعد از اسم «Mann» می‌آید.",
+   "explanationAfterAnswerEN": "The prepositional attribute 'mit grauen Haaren' comes directly after the noun 'Mann'."
+  }
+ ]
+}

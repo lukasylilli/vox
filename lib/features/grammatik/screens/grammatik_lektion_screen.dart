@@ -79,7 +79,9 @@ class _LektionView extends ConsumerWidget {
           ...lek.explanationBlocks.map((b) => _Block(b)),
 
           // ── Tabellen ─────────────────────────────────────────────
-          ...lek.tables.map((t) => _TableCard(t)),
+          // Unstimmige Tabelle nie zeichnen (DataTable stürzt sonst ab) —
+          // dass es keine gibt, prüft test/grammatik_lektionen_test.dart.
+          ...lek.tables.where((t) => t.istStimmig).map((t) => _TableCard(t)),
 
           // ── Beispiele ────────────────────────────────────────────
           if (lek.examples.isNotEmpty) ...[

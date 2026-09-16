@@ -1,0 +1,1195 @@
+{
+ "_index": {
+  "fileDescription": "Nomen: Genusbestimmung, Pluralbildung, Komposita, n-Deklination, Genitiv, Nominalisierung",
+  "lastUpdatedStage": 10,
+  "lessons": [
+   "genusbestimmung — تشخیص جنسیت اسم",
+   "pluralbildung — ساخت جمع",
+   "komposita — اسم‌های مرکب",
+   "n-deklination — صرف با -n",
+   "genitiv — حالت مالکیت (Genitiv)",
+   "nominalisierung — اسم‌سازی از فعل/صفت"
+  ]
+ },
+ "lessons": [
+  {
+   "id": "genusbestimmung",
+   "slug": "genusbestimmung",
+   "titleDE": "Genusbestimmung",
+   "titleFA": "تشخیص جنسیت دستوری اسم",
+   "titleEN": "Determining Grammatical Gender",
+   "levels": [
+    "A1"
+   ],
+   "category": "nomen",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Jedes deutsche Nomen hat ein grammatisches Geschlecht: maskulin (der), feminin (die) oder neutrum (das). Es gibt einige Regeln (z.B. Wörter auf -ung, -heit, -keit sind feminin; auf -chen, -lein sind neutrum), aber viele Ausnahmen müssen auswendig gelernt werden.",
+     "bodyFA": "هر اسم آلمانی یک جنسیت دستوری دارد: مذکر (der)، مؤنث (die) یا خنثی (das). قواعدی وجود دارد (مثلاً کلمات با پسوند -ung، -heit، -keit مؤنث‌اند؛ با -chen، -lein خنثی‌اند)، اما استثناهای زیادی باید حفظ شوند.",
+     "bodyEN": "Every German noun has a grammatical gender: masculine (der), feminine (die), or neuter (das). There are some rules (e.g. words ending in -ung, -heit, -keit are feminine; -chen, -lein are neuter), but many exceptions must be memorized."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "die Wohnung",
+     "meaningFA": "آپارتمان",
+     "meaningEN": "the apartment",
+     "noteDE": "Endung -ung → feminin.",
+     "noteFA": "پسوند -ung → مؤنث.",
+     "noteEN": "Ending -ung → feminine."
+    },
+    {
+     "id": "ex-2",
+     "german": "die Freiheit",
+     "meaningFA": "آزادی",
+     "meaningEN": "the freedom",
+     "noteDE": "Endung -heit → feminin.",
+     "noteFA": "پسوند -heit → مؤنث.",
+     "noteEN": "Ending -heit → feminine."
+    },
+    {
+     "id": "ex-3",
+     "german": "das Mädchen",
+     "meaningFA": "دختر",
+     "meaningEN": "the girl",
+     "noteDE": "Endung -chen → immer neutrum.",
+     "noteFA": "پسوند -chen → همیشه خنثی.",
+     "noteEN": "Ending -chen → always neuter."
+    },
+    {
+     "id": "ex-4",
+     "german": "der Lehrer",
+     "meaningFA": "معلم مرد",
+     "meaningEN": "the (male) teacher",
+     "noteDE": "Endung -er bei Personen → meist maskulin.",
+     "noteFA": "پسوند -er برای اشخاص → اغلب مذکر.",
+     "noteEN": "Ending -er for people → mostly masculine."
+    },
+    {
+     "id": "ex-5",
+     "german": "die Möglichkeit",
+     "meaningFA": "امکان",
+     "meaningEN": "the possibility",
+     "noteDE": "Endung -keit → feminin.",
+     "noteFA": "پسوند -keit → مؤنث.",
+     "noteEN": "Ending -keit → feminine."
+    },
+    {
+     "id": "ex-6",
+     "german": "der Tisch",
+     "meaningFA": "میز",
+     "meaningEN": "the table"
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "Häufige Genusregeln",
+     "titleFA": "قواعد پرکاربرد جنسیت",
+     "titleEN": "Common Gender Rules",
+     "style": "simple",
+     "columns": [
+      "Endung",
+      "Genus",
+      "Beispiel"
+     ],
+     "rows": [
+      {
+       "rowLabel": "-ung, -heit, -keit, -schaft, -ion",
+       "cells": [
+        "feminin",
+        "die Zeitung, die Nation"
+       ]
+      },
+      {
+       "rowLabel": "-chen, -lein",
+       "cells": [
+        "neutrum",
+        "das Kätzchen"
+       ]
+      },
+      {
+       "rowLabel": "-er (bei Personen/Geräten)",
+       "cells": [
+        "maskulin",
+        "der Computer"
+       ]
+      },
+      {
+       "rowLabel": "-ismus, -or",
+       "cells": [
+        "maskulin",
+        "der Tourismus"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "pluralbildung",
+    "artikel"
+   ],
+   "exerciseSlugs": [
+    "ex-genus-1",
+    "ex-genus-2",
+    "ex-genus-3",
+    "ex-genus-4"
+   ]
+  },
+  {
+   "id": "pluralbildung",
+   "slug": "pluralbildung",
+   "titleDE": "Die Pluralbildung",
+   "titleFA": "ساخت شکل جمع اسم",
+   "titleEN": "Forming the Plural",
+   "levels": [
+    "A1",
+    "A2"
+   ],
+   "category": "nomen",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Es gibt mehrere Pluralendungen im Deutschen: -e, -er, -(e)n, -s oder keine Endung, oft zusammen mit Umlaut. Es gibt keine feste Regel; der Plural muss meist mit jedem Wort gelernt werden.",
+     "bodyFA": "پایانه‌های جمع متعددی در آلمانی وجود دارد: -e، -er، -(e)n، -s یا بدون پایانه، اغلب همراه با تغییر مصوت (Umlaut). قانون ثابتی وجود ندارد؛ شکل جمع باید معمولاً همراه با هر کلمه حفظ شود.",
+     "bodyEN": "There are several plural endings in German: -e, -er, -(e)n, -s, or none, often combined with an umlaut. There is no fixed rule; the plural usually has to be learned with each word."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "der Tisch → die Tische",
+     "meaningFA": "میز → میزها",
+     "meaningEN": "table → tables"
+    },
+    {
+     "id": "ex-2",
+     "german": "das Kind → die Kinder",
+     "meaningFA": "بچه → بچه‌ها",
+     "meaningEN": "child → children"
+    },
+    {
+     "id": "ex-3",
+     "german": "die Blume → die Blumen",
+     "meaningFA": "گل → گل‌ها",
+     "meaningEN": "flower → flowers"
+    },
+    {
+     "id": "ex-4",
+     "german": "das Auto → die Autos",
+     "meaningFA": "ماشین → ماشین‌ها",
+     "meaningEN": "car → cars"
+    },
+    {
+     "id": "ex-5",
+     "german": "der Apfel → die Äpfel",
+     "meaningFA": "سیب → سیب‌ها",
+     "meaningEN": "apple → apples",
+     "noteDE": "Umlaut ohne Endung.",
+     "noteFA": "Umlaut بدون پایانه.",
+     "noteEN": "Umlaut without an ending."
+    },
+    {
+     "id": "ex-6",
+     "german": "das Buch → die Bücher",
+     "meaningFA": "کتاب → کتاب‌ها",
+     "meaningEN": "book → books"
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "Die fünf Pluraltypen",
+     "titleFA": "پنج نوع جمع",
+     "titleEN": "The Five Plural Types",
+     "style": "simple",
+     "columns": [
+      "Typ",
+      "Beispiel"
+     ],
+     "rows": [
+      {
+       "rowLabel": "-e (+/- Umlaut)",
+       "cells": [
+        "der Tisch → die Tische"
+       ]
+      },
+      {
+       "rowLabel": "-er (+ Umlaut wenn möglich)",
+       "cells": [
+        "das Buch → die Bücher"
+       ]
+      },
+      {
+       "rowLabel": "-(e)n",
+       "cells": [
+        "die Blume → die Blumen"
+       ]
+      },
+      {
+       "rowLabel": "-s",
+       "cells": [
+        "das Auto → die Autos"
+       ]
+      },
+      {
+       "rowLabel": "keine Endung (+/- Umlaut)",
+       "cells": [
+        "der Lehrer → die Lehrer"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "genusbestimmung"
+   ],
+   "exerciseSlugs": [
+    "ex-plural-1",
+    "ex-plural-2",
+    "ex-plural-3",
+    "ex-plural-4"
+   ]
+  },
+  {
+   "id": "komposita",
+   "slug": "komposita",
+   "titleDE": "Komposita",
+   "titleFA": "اسم‌های مرکب",
+   "titleEN": "Compound Nouns",
+   "levels": [
+    "A2",
+    "B1"
+   ],
+   "category": "nomen",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Deutsche Komposita bestehen aus zwei oder mehr Wörtern, die zu einem Nomen zusammengesetzt werden. Das letzte Wort bestimmt Genus und Plural des gesamten Kompositums; oft wird ein Fugenelement (-s-, -n-, -e-) eingefügt.",
+     "bodyFA": "اسم‌های مرکب آلمانی از دو یا چند کلمه تشکیل می‌شوند که به یک اسم واحد ترکیب می‌شوند. کلمهٔ آخر جنسیت و جمع کل کلمهٔ مرکب را تعیین می‌کند؛ اغلب یک عنصر پیوندی (-s-، -n-، -e-) اضافه می‌شود.",
+     "bodyEN": "German compound nouns consist of two or more words combined into one noun. The last word determines the gender and plural of the whole compound; a linking element (-s-, -n-, -e-) is often inserted."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "das Haus + die Tür → die Haustür",
+     "meaningFA": "خانه + در → درِ خانه",
+     "meaningEN": "house + door → front door"
+    },
+    {
+     "id": "ex-2",
+     "german": "der Arbeit(s) + der Platz → der Arbeitsplatz",
+     "meaningFA": "کار + مکان → محل کار",
+     "meaningEN": "work + place → workplace",
+     "noteDE": "Fugenelement -s-.",
+     "noteFA": "عنصر پیوندی -s-.",
+     "noteEN": "Linking element -s-."
+    },
+    {
+     "id": "ex-3",
+     "german": "die Sonne(n) + die Brille → die Sonnenbrille",
+     "meaningFA": "خورشید + عینک → عینک آفتابی",
+     "meaningEN": "sun + glasses → sunglasses",
+     "noteDE": "Fugenelement -n-.",
+     "noteFA": "عنصر پیوندی -n-.",
+     "noteEN": "Linking element -n-."
+    },
+    {
+     "id": "ex-4",
+     "german": "das Kind + der Garten → der Kindergarten",
+     "meaningFA": "بچه + باغ → مهدکودک",
+     "meaningEN": "child + garden → kindergarten"
+    },
+    {
+     "id": "ex-5",
+     "german": "das Wasser + die Flasche → die Wasserflasche",
+     "meaningFA": "آب + بطری → بطری آب",
+     "meaningEN": "water + bottle → water bottle"
+    },
+    {
+     "id": "ex-6",
+     "german": "der Bahn(hof) + die Straße → die Bahnhofstraße",
+     "meaningFA": "ایستگاه قطار + خیابان → خیابان ایستگاه",
+     "meaningEN": "station + street → station street"
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "genusbestimmung",
+    "pluralbildung"
+   ],
+   "exerciseSlugs": [
+    "ex-komp-1",
+    "ex-komp-2",
+    "ex-komp-3",
+    "ex-komp-4"
+   ]
+  },
+  {
+   "id": "n-deklination",
+   "slug": "n-deklination",
+   "titleDE": "Die n-Deklination",
+   "titleFA": "صرف اسم با -n (n-Deklination)",
+   "titleEN": "The n-Declension",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "category": "nomen",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Manche maskuline Nomen (meist Personen- und Tierbezeichnungen) bekommen in allen Fällen außer Nominativ Singular die Endung -(e)n. Diese Nomen müssen einzeln gelernt werden (der Mensch, der Student, der Kollege, der Junge, der Herr).",
+     "bodyFA": "برخی اسم‌های مذکر (عمدتاً اسم اشخاص و حیوانات) در همهٔ حالات به‌جز Nominativ مفرد پایانهٔ -(e)n می‌گیرند. این اسم‌ها باید تک‌تک حفظ شوند (der Mensch، der Student، der Kollege، der Junge، der Herr).",
+     "bodyEN": "Some masculine nouns (mostly referring to people and animals) take the ending -(e)n in all cases except the nominative singular. These nouns must be learned individually (der Mensch, der Student, der Kollege, der Junge, der Herr)."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Ich kenne den Studenten gut.",
+     "meaningFA": "من آن دانشجو را خوب می‌شناسم.",
+     "meaningEN": "I know the student well.",
+     "noteDE": "Akkusativ: 'den Studenten'.",
+     "noteFA": "Akkusativ: «den Studenten».",
+     "noteEN": "Accusative: 'den Studenten'."
+    },
+    {
+     "id": "ex-2",
+     "german": "Wir helfen dem Kollegen bei der Arbeit.",
+     "meaningFA": "ما به همکار در کار کمک می‌کنیم.",
+     "meaningEN": "We help the colleague with the work."
+    },
+    {
+     "id": "ex-3",
+     "german": "Sie spricht mit dem Herrn dort drüben.",
+     "meaningFA": "او با آن آقا آنجا صحبت می‌کند.",
+     "meaningEN": "She is talking to the gentleman over there."
+    },
+    {
+     "id": "ex-4",
+     "german": "Der Lehrer lobt den Jungen für seine Arbeit.",
+     "meaningFA": "معلم آن پسر را برای کارش تحسین می‌کند.",
+     "meaningEN": "The teacher praises the boy for his work."
+    },
+    {
+     "id": "ex-5",
+     "german": "Das Verhalten des Menschen ist oft unvorhersehbar.",
+     "meaningFA": "رفتار انسان اغلب غیرقابل پیش‌بینی است.",
+     "meaningEN": "Human behavior is often unpredictable."
+    },
+    {
+     "id": "ex-6",
+     "german": "Ich habe dem Nachbarn eine Frage gestellt.",
+     "meaningFA": "من از همسایه یک سؤال پرسیدم.",
+     "meaningEN": "I asked the neighbor a question."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "n-Deklination: der Student",
+     "titleFA": "n-Deklination: der Student",
+     "titleEN": "n-Declension: der Student",
+     "style": "simple",
+     "columns": [
+      "Kasus",
+      "Singular",
+      "Plural"
+     ],
+     "rows": [
+      {
+       "rowLabel": "Nominativ",
+       "cells": [
+        "der Student",
+        "die Studenten"
+       ]
+      },
+      {
+       "rowLabel": "Akkusativ",
+       "cells": [
+        "den Studenten",
+        "die Studenten"
+       ]
+      },
+      {
+       "rowLabel": "Dativ",
+       "cells": [
+        "dem Studenten",
+        "den Studenten"
+       ]
+      },
+      {
+       "rowLabel": "Genitiv",
+       "cells": [
+        "des Studenten",
+        "der Studenten"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "genitiv"
+   ],
+   "exerciseSlugs": [
+    "ex-ndekl-1",
+    "ex-ndekl-2",
+    "ex-ndekl-3",
+    "ex-ndekl-4"
+   ]
+  },
+  {
+   "id": "genitiv",
+   "slug": "genitiv",
+   "titleDE": "Der Genitiv",
+   "titleFA": "حالت Genitiv (مالکیت)",
+   "titleEN": "The Genitive Case",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "category": "nomen",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Der Genitiv drückt einen Besitz oder eine Zugehörigkeit aus ('wessen?'). Maskuline und neutrale Nomen bekommen im Singular die Endung -(e)s. Im Alltag wird der Genitiv oft durch 'von' + Dativ ersetzt.",
+     "bodyFA": "Genitiv مالکیت یا تعلق را بیان می‌کند («مال کیست؟»). اسم‌های مذکر و خنثی در مفرد پایانهٔ -(e)s می‌گیرند. در گفتار روزمره، Genitiv اغلب با «von» + Dativ جایگزین می‌شود.",
+     "bodyEN": "The genitive expresses possession or belonging ('whose?'). Masculine and neuter nouns take the ending -(e)s in the singular. In everyday speech, the genitive is often replaced by 'von' + dative."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Das ist das Auto meines Bruders.",
+     "meaningFA": "این ماشین برادرم است.",
+     "meaningEN": "This is my brother's car."
+    },
+    {
+     "id": "ex-2",
+     "german": "Die Farbe des Himmels ändert sich.",
+     "meaningFA": "رنگ آسمان تغییر می‌کند.",
+     "meaningEN": "The color of the sky is changing."
+    },
+    {
+     "id": "ex-3",
+     "german": "Der Titel des Buches gefällt mir.",
+     "meaningFA": "عنوان کتاب را دوست دارم.",
+     "meaningEN": "I like the title of the book."
+    },
+    {
+     "id": "ex-4",
+     "german": "Trotz des schlechten Wetters gehen wir spazieren.",
+     "meaningFA": "با وجود هوای بد، ما به پیاده‌روی می‌رویم.",
+     "meaningEN": "Despite the bad weather, we're going for a walk."
+    },
+    {
+     "id": "ex-5",
+     "german": "Wegen der Verspätung haben wir den Zug verpasst.",
+     "meaningFA": "به دلیل تأخیر، قطار را از دست دادیم.",
+     "meaningEN": "Due to the delay, we missed the train."
+    },
+    {
+     "id": "ex-6",
+     "german": "Das ist die Idee von unserem Kollegen. (Alltagssprache)",
+     "meaningFA": "این ایدهٔ همکارمان است. (زبان محاوره)",
+     "meaningEN": "That's our colleague's idea. (colloquial)"
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "Genitiv-Endungen des bestimmten Artikels",
+     "titleFA": "پایانه‌های Genitiv آرتیکل معین",
+     "titleEN": "Genitive Endings of the Definite Article",
+     "style": "simple",
+     "columns": [
+      "Genus",
+      "Artikel",
+      "Beispiel"
+     ],
+     "rows": [
+      {
+       "rowLabel": "maskulin",
+       "cells": [
+        "des + -(e)s",
+        "des Mannes"
+       ]
+      },
+      {
+       "rowLabel": "feminin",
+       "cells": [
+        "der",
+        "der Frau"
+       ]
+      },
+      {
+       "rowLabel": "neutrum",
+       "cells": [
+        "des + -(e)s",
+        "des Kindes"
+       ]
+      },
+      {
+       "rowLabel": "Plural",
+       "cells": [
+        "der",
+        "der Kinder"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "n-deklination",
+    "artikel"
+   ],
+   "exerciseSlugs": [
+    "ex-genitiv-1",
+    "ex-genitiv-2",
+    "ex-genitiv-3",
+    "ex-genitiv-4"
+   ]
+  },
+  {
+   "id": "nominalisierung",
+   "slug": "nominalisierung",
+   "titleDE": "Nominalisierung",
+   "titleFA": "اسم‌سازی از فعل و صفت",
+   "titleEN": "Nominalization",
+   "levels": [
+    "B2",
+    "C1"
+   ],
+   "category": "nomen",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Aus Verben und Adjektiven können durch Nominalisierung Nomen gebildet werden, z.B. der Infinitiv als Neutrum (das Lesen), Verbstamm + -ung (die Bearbeitung), oder Adjektiv + -heit/-keit (die Schönheit). Diese Struktur ist typisch für formelle/wissenschaftliche Texte.",
+     "bodyFA": "از افعال و صفت‌ها می‌توان از طریق اسم‌سازی، اسم ساخت؛ مثلاً مصدر به‌عنوان خنثی (das Lesen)، ریشهٔ فعل + -ung (die Bearbeitung)، یا صفت + -heit/-keit (die Schönheit). این ساختار برای متن‌های رسمی/علمی معمول است.",
+     "bodyEN": "Nouns can be formed from verbs and adjectives through nominalization, e.g. the infinitive as neuter (das Lesen), verb stem + -ung (die Bearbeitung), or adjective + -heit/-keit (die Schönheit). This structure is typical of formal/academic texts."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Das Lesen macht mir großen Spaß.",
+     "meaningFA": "خواندن برایم لذت زیادی دارد.",
+     "meaningEN": "Reading is a lot of fun for me.",
+     "noteDE": "Infinitiv als Nomen (immer neutrum).",
+     "noteFA": "مصدر به‌عنوان اسم (همیشه خنثی).",
+     "noteEN": "Infinitive as a noun (always neuter)."
+    },
+    {
+     "id": "ex-2",
+     "german": "Die Bearbeitung des Antrags dauert zwei Wochen.",
+     "meaningFA": "پردازش درخواست دو هفته طول می‌کشد.",
+     "meaningEN": "Processing the application takes two weeks."
+    },
+    {
+     "id": "ex-3",
+     "german": "Die Schönheit der Landschaft beeindruckt uns.",
+     "meaningFA": "زیبایی منظره ما را تحت تأثیر قرار می‌دهد.",
+     "meaningEN": "The beauty of the landscape impresses us."
+    },
+    {
+     "id": "ex-4",
+     "german": "Beim Kochen höre ich gern Musik.",
+     "meaningFA": "هنگام آشپزی دوست دارم موسیقی گوش کنم.",
+     "meaningEN": "While cooking, I like to listen to music."
+    },
+    {
+     "id": "ex-5",
+     "german": "Die Entwicklung neuer Technologien geht schnell voran.",
+     "meaningFA": "توسعهٔ فناوری‌های جدید سریع پیش می‌رود.",
+     "meaningEN": "The development of new technologies is progressing quickly."
+    },
+    {
+     "id": "ex-6",
+     "german": "Die Freundlichkeit des Personals war beeindruckend.",
+     "meaningFA": "مهربانی کارکنان چشمگیر بود.",
+     "meaningEN": "The friendliness of the staff was impressive."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "genusbestimmung"
+   ],
+   "exerciseSlugs": [
+    "ex-nomin-1",
+    "ex-nomin-2",
+    "ex-nomin-3",
+    "ex-nomin-4"
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-genus-1",
+   "lessonSlug": "genusbestimmung",
+   "type": "multipleChoice",
+   "promptDE": "___ Freiheit ist wichtig.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "Der",
+     "Die",
+     "Das",
+     "Den"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "Wörter auf -heit sind feminin: die Freiheit.",
+   "explanationAfterAnswerFA": "کلمات با پسوند -heit مؤنث‌اند: die Freiheit.",
+   "explanationAfterAnswerEN": "Words ending in -heit are feminine: die Freiheit."
+  },
+  {
+   "id": "ex-genus-2",
+   "lessonSlug": "genusbestimmung",
+   "type": "matching",
+   "promptDE": "Verbinde Endung und Genus.",
+   "promptFA": "پسوند را به جنسیت وصل کن.",
+   "promptEN": "Match the ending to the gender.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "-ung",
+      "right": "feminin"
+     },
+     {
+      "left": "-chen",
+      "right": "neutrum"
+     },
+     {
+      "left": "-ismus",
+      "right": "maskulin"
+     },
+     {
+      "left": "-keit",
+      "right": "feminin"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Diese Endungen zeigen fast immer das gleiche Genus an.",
+   "explanationAfterAnswerFA": "این پسوندها تقریباً همیشه یک جنسیت را نشان می‌دهند.",
+   "explanationAfterAnswerEN": "These endings almost always indicate the same gender."
+  },
+  {
+   "id": "ex-genus-3",
+   "lessonSlug": "genusbestimmung",
+   "type": "fillBlank",
+   "promptDE": "Ergänze den richtigen Artikel.",
+   "promptFA": "آرتیکل درست را کامل کن.",
+   "promptEN": "Complete with the correct article.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "___ Mädchen spielt im Garten.",
+    "correctAnswer": "Das",
+    "alternatives": [
+     "Der",
+     "Die"
+    ]
+   },
+   "explanationAfterAnswerDE": "Wörter auf -chen sind immer neutrum: das Mädchen.",
+   "explanationAfterAnswerFA": "کلمات با پسوند -chen همیشه خنثی‌اند: das Mädchen.",
+   "explanationAfterAnswerEN": "Words ending in -chen are always neuter: das Mädchen."
+  },
+  {
+   "id": "ex-genus-4",
+   "lessonSlug": "genusbestimmung",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "Lehrer",
+     "ist",
+     "Der",
+     "freundlich",
+     "sehr"
+    ],
+    "correctSentence": "Der Lehrer ist sehr freundlich."
+   },
+   "explanationAfterAnswerDE": "'Lehrer' (Person, männlich) → maskulin: der Lehrer.",
+   "explanationAfterAnswerFA": "«Lehrer» (شخص، مرد) → مذکر: der Lehrer.",
+   "explanationAfterAnswerEN": "'Lehrer' (person, male) → masculine: der Lehrer."
+  },
+  {
+   "id": "ex-plural-1",
+   "lessonSlug": "pluralbildung",
+   "type": "multipleChoice",
+   "promptDE": "das Buch → die ___",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "Buche",
+     "Bücher",
+     "Buchs",
+     "Büchers"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "Plural von 'Buch' ist 'Bücher' (-er + Umlaut).",
+   "explanationAfterAnswerFA": "جمع «Buch»، «Bücher» است (-er + Umlaut).",
+   "explanationAfterAnswerEN": "The plural of 'Buch' is 'Bücher' (-er + umlaut)."
+  },
+  {
+   "id": "ex-plural-2",
+   "lessonSlug": "pluralbildung",
+   "type": "matching",
+   "promptDE": "Verbinde Singular und Plural.",
+   "promptFA": "مفرد را به جمع وصل کن.",
+   "promptEN": "Match singular to plural.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "der Apfel",
+      "right": "die Äpfel"
+     },
+     {
+      "left": "das Auto",
+      "right": "die Autos"
+     },
+     {
+      "left": "die Blume",
+      "right": "die Blumen"
+     },
+     {
+      "left": "das Kind",
+      "right": "die Kinder"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Jedes Nomen hat eine eigene, meist unregelmäßige Pluralform.",
+   "explanationAfterAnswerFA": "هر اسم شکل جمع مخصوص خودش را دارد که اغلب بی‌قاعده است.",
+   "explanationAfterAnswerEN": "Each noun has its own, usually irregular plural form."
+  },
+  {
+   "id": "ex-plural-3",
+   "lessonSlug": "pluralbildung",
+   "type": "fillBlank",
+   "promptDE": "Ergänze den richtigen Plural.",
+   "promptFA": "جمع درست را کامل کن.",
+   "promptEN": "Complete with the correct plural.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "der Tisch → die ___",
+    "correctAnswer": "Tische",
+    "alternatives": [
+     "Tischer",
+     "Tischen"
+    ]
+   },
+   "explanationAfterAnswerDE": "Plural von 'Tisch' ist 'Tische' (-e).",
+   "explanationAfterAnswerFA": "جمع «Tisch»، «Tische» است (-e).",
+   "explanationAfterAnswerEN": "The plural of 'Tisch' is 'Tische' (-e)."
+  },
+  {
+   "id": "ex-plural-4",
+   "lessonSlug": "pluralbildung",
+   "type": "transform",
+   "promptDE": "Wandle den Satz in den Plural um.",
+   "promptFA": "جمله را به جمع تبدیل کن.",
+   "promptEN": "Transform the sentence into the plural.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Das Kind spielt im Garten.",
+    "instructionDE": "Plural-Form von 'Kind'.",
+    "instructionFA": "شکل جمع «Kind».",
+    "instructionEN": "Plural form of 'Kind'.",
+    "correctAnswer": "Die Kinder spielen im Garten."
+   },
+   "explanationAfterAnswerDE": "Plural von 'Kind' ist 'Kinder'; das Verb wird ebenfalls angepasst.",
+   "explanationAfterAnswerFA": "جمع «Kind»، «Kinder» است؛ فعل هم متناسب تغییر می‌کند.",
+   "explanationAfterAnswerEN": "The plural of 'Kind' is 'Kinder'; the verb is adjusted accordingly."
+  },
+  {
+   "id": "ex-komp-1",
+   "lessonSlug": "komposita",
+   "type": "multipleChoice",
+   "promptDE": "das Wasser + die Flasche → die ___",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "Wasserflasche",
+     "Wassersflasche",
+     "Wasserenflasche",
+     "Wasserflaschen"
+    ],
+    "correctIndex": 0
+   },
+   "explanationAfterAnswerDE": "Kein Fugenelement nötig: Wasserflasche.",
+   "explanationAfterAnswerFA": "عنصر پیوندی نیاز نیست: Wasserflasche.",
+   "explanationAfterAnswerEN": "No linking element needed: Wasserflasche."
+  },
+  {
+   "id": "ex-komp-2",
+   "lessonSlug": "komposita",
+   "type": "transform",
+   "promptDE": "Bilde ein Kompositum.",
+   "promptFA": "یک اسم مرکب بساز.",
+   "promptEN": "Form a compound noun.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "die Sonne + die Brille",
+    "instructionDE": "Kompositum mit Fugenelement bilden.",
+    "instructionFA": "با عنصر پیوندی مناسب ترکیب کن.",
+    "instructionEN": "Form the compound with a linking element.",
+    "correctAnswer": "die Sonnenbrille"
+   },
+   "explanationAfterAnswerDE": "Fugenelement -n- verbindet die beiden Wörter.",
+   "explanationAfterAnswerFA": "عنصر پیوندی -n- دو کلمه را به هم وصل می‌کند.",
+   "explanationAfterAnswerEN": "The linking element -n- connects the two words."
+  },
+  {
+   "id": "ex-komp-3",
+   "lessonSlug": "komposita",
+   "type": "matching",
+   "promptDE": "Verbinde die Teile zu einem Kompositum.",
+   "promptFA": "بخش‌ها را به یک اسم مرکب وصل کن.",
+   "promptEN": "Match the parts into a compound noun.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "das Haus",
+      "right": "die Haustür"
+     },
+     {
+      "left": "der Kindergarten",
+      "right": "das Kind + der Garten"
+     },
+     {
+      "left": "die Bahnhofstraße",
+      "right": "der Bahnhof + die Straße"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Das letzte Wort bestimmt das Genus des gesamten Kompositums.",
+   "explanationAfterAnswerFA": "کلمهٔ آخر جنسیت کل اسم مرکب را تعیین می‌کند.",
+   "explanationAfterAnswerEN": "The last word determines the gender of the whole compound."
+  },
+  {
+   "id": "ex-komp-4",
+   "lessonSlug": "komposita",
+   "type": "fillBlank",
+   "promptDE": "Ergänze das richtige Fugenelement.",
+   "promptFA": "عنصر پیوندی درست را کامل کن.",
+   "promptEN": "Complete with the correct linking element.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "der Arbeit___platz",
+    "correctAnswer": "s",
+    "alternatives": [
+     "n",
+     "e"
+    ]
+   },
+   "explanationAfterAnswerDE": "'Arbeitsplatz' verwendet das Fugenelement -s-.",
+   "explanationAfterAnswerFA": "«Arbeitsplatz» از عنصر پیوندی -s- استفاده می‌کند.",
+   "explanationAfterAnswerEN": "'Arbeitsplatz' uses the linking element -s-."
+  },
+  {
+   "id": "ex-ndekl-1",
+   "lessonSlug": "n-deklination",
+   "type": "multipleChoice",
+   "promptDE": "Ich kenne den ___ gut.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "Student",
+     "Studenten",
+     "Studente",
+     "Studentes"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "Im Akkusativ bekommt 'der Student' die Endung -en.",
+   "explanationAfterAnswerFA": "در Akkusativ، «der Student» پایانهٔ -en می‌گیرد.",
+   "explanationAfterAnswerEN": "In the accusative, 'der Student' takes the ending -en."
+  },
+  {
+   "id": "ex-ndekl-2",
+   "lessonSlug": "n-deklination",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Form.",
+   "promptFA": "شکل درست را کامل کن.",
+   "promptEN": "Complete with the correct form.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Wir helfen dem ___ (Kollege) bei der Arbeit.",
+    "correctAnswer": "Kollegen",
+    "alternatives": [
+     "Kollege",
+     "Kolleges"
+    ]
+   },
+   "explanationAfterAnswerDE": "Im Dativ bekommt 'der Kollege' die Endung -n.",
+   "explanationAfterAnswerFA": "در Dativ، «der Kollege» پایانهٔ -n می‌گیرد.",
+   "explanationAfterAnswerEN": "In the dative, 'der Kollege' takes the ending -n."
+  },
+  {
+   "id": "ex-ndekl-3",
+   "lessonSlug": "n-deklination",
+   "type": "matching",
+   "promptDE": "Verbinde Kasus und Form.",
+   "promptFA": "کاسوس را به شکل درست وصل کن.",
+   "promptEN": "Match the case to the correct form.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "Nominativ",
+      "right": "der Student"
+     },
+     {
+      "left": "Akkusativ",
+      "right": "den Studenten"
+     },
+     {
+      "left": "Dativ",
+      "right": "dem Studenten"
+     },
+     {
+      "left": "Genitiv",
+      "right": "des Studenten"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Nur der Nominativ Singular hat keine -n-Endung.",
+   "explanationAfterAnswerFA": "فقط Nominativ مفرد پایانهٔ -n ندارد.",
+   "explanationAfterAnswerEN": "Only the nominative singular has no -n ending."
+  },
+  {
+   "id": "ex-ndekl-4",
+   "lessonSlug": "n-deklination",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "dem",
+     "gestellt",
+     "Frage",
+     "habe",
+     "Nachbarn",
+     "Ich",
+     "eine"
+    ],
+    "correctSentence": "Ich habe dem Nachbarn eine Frage gestellt."
+   },
+   "explanationAfterAnswerDE": "'Nachbar' folgt der n-Deklination im Dativ: dem Nachbarn.",
+   "explanationAfterAnswerFA": "«Nachbar» در Dativ از n-Deklination پیروی می‌کند: dem Nachbarn.",
+   "explanationAfterAnswerEN": "'Nachbar' follows the n-declension in the dative: dem Nachbarn."
+  },
+  {
+   "id": "ex-genitiv-1",
+   "lessonSlug": "genitiv",
+   "type": "multipleChoice",
+   "promptDE": "Das ist das Auto ___ Bruders.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "mein",
+     "meines",
+     "meinen",
+     "meinem"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "Genitiv Maskulinum: 'meines' + Nomen mit -s.",
+   "explanationAfterAnswerFA": "Genitiv مذکر: «meines» + اسم با -s.",
+   "explanationAfterAnswerEN": "Genitive masculine: 'meines' + noun with -s."
+  },
+  {
+   "id": "ex-genitiv-2",
+   "lessonSlug": "genitiv",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Form.",
+   "promptFA": "شکل درست را کامل کن.",
+   "promptEN": "Complete with the correct form.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Die Farbe ___ Himmels ändert sich.",
+    "correctAnswer": "des",
+    "alternatives": [
+     "dem",
+     "den"
+    ]
+   },
+   "explanationAfterAnswerDE": "Genitiv Maskulinum Artikel: 'des'.",
+   "explanationAfterAnswerFA": "آرتیکل Genitiv مذکر: «des».",
+   "explanationAfterAnswerEN": "Genitive masculine article: 'des'."
+  },
+  {
+   "id": "ex-genitiv-3",
+   "lessonSlug": "genitiv",
+   "type": "transform",
+   "promptDE": "Ersetze durch 'von' + Dativ.",
+   "promptFA": "با «von» + Dativ جایگزین کن.",
+   "promptEN": "Replace with 'von' + dative.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Das ist die Idee meines Kollegen.",
+    "instructionDE": "Alltagssprachliche Form mit 'von'.",
+    "instructionFA": "شکل محاوره‌ای با «von».",
+    "instructionEN": "Colloquial form with 'von'.",
+    "correctAnswer": "Das ist die Idee von meinem Kollegen."
+   },
+   "explanationAfterAnswerDE": "'von' + Dativ ersetzt oft den Genitiv im Alltag.",
+   "explanationAfterAnswerFA": "«von» + Dativ اغلب در گفتار روزمره جایگزین Genitiv می‌شود.",
+   "explanationAfterAnswerEN": "'von' + dative often replaces the genitive in everyday speech."
+  },
+  {
+   "id": "ex-genitiv-4",
+   "lessonSlug": "genitiv",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "Zug",
+     "der",
+     "Verspätung",
+     "Wir",
+     "haben",
+     "Wegen",
+     "verpasst",
+     "den"
+    ],
+    "correctSentence": "Wegen der Verspätung haben wir den Zug verpasst."
+   },
+   "explanationAfterAnswerDE": "'wegen' verlangt den Genitiv: 'der Verspätung'.",
+   "explanationAfterAnswerFA": "«wegen» به Genitiv نیاز دارد: «der Verspätung».",
+   "explanationAfterAnswerEN": "'wegen' requires the genitive: 'der Verspätung'."
+  },
+  {
+   "id": "ex-nomin-1",
+   "lessonSlug": "nominalisierung",
+   "type": "multipleChoice",
+   "promptDE": "___ Lesen macht mir Spaß.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "Der",
+     "Die",
+     "Das",
+     "Den"
+    ],
+    "correctIndex": 2
+   },
+   "explanationAfterAnswerDE": "Infinitiv als Nomen ist immer neutrum: das Lesen.",
+   "explanationAfterAnswerFA": "مصدر به‌عنوان اسم همیشه خنثی است: das Lesen.",
+   "explanationAfterAnswerEN": "The infinitive as a noun is always neuter: das Lesen."
+  },
+  {
+   "id": "ex-nomin-2",
+   "lessonSlug": "nominalisierung",
+   "type": "transform",
+   "promptDE": "Bilde ein Nomen aus dem Verb.",
+   "promptFA": "از فعل یک اسم بساز.",
+   "promptEN": "Form a noun from the verb.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "bearbeiten",
+    "instructionDE": "Nominalisierung mit -ung.",
+    "instructionFA": "اسم‌سازی با -ung.",
+    "instructionEN": "Nominalize with -ung.",
+    "correctAnswer": "die Bearbeitung"
+   },
+   "explanationAfterAnswerDE": "Verbstamm + -ung bildet ein feminines Nomen.",
+   "explanationAfterAnswerFA": "ریشهٔ فعل + -ung یک اسم مؤنث می‌سازد.",
+   "explanationAfterAnswerEN": "Verb stem + -ung forms a feminine noun."
+  },
+  {
+   "id": "ex-nomin-3",
+   "lessonSlug": "nominalisierung",
+   "type": "fillBlank",
+   "promptDE": "Ergänze das richtige Nomen.",
+   "promptFA": "اسم درست را کامل کن.",
+   "promptEN": "Complete with the correct noun.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Die ___ (schön) der Landschaft beeindruckt uns.",
+    "correctAnswer": "Schönheit",
+    "alternatives": [
+     "Schönung",
+     "Schönkeit"
+    ]
+   },
+   "explanationAfterAnswerDE": "Adjektiv + -heit bildet 'die Schönheit'.",
+   "explanationAfterAnswerFA": "صفت + -heit «die Schönheit» را می‌سازد.",
+   "explanationAfterAnswerEN": "Adjective + -heit forms 'die Schönheit'."
+  },
+  {
+   "id": "ex-nomin-4",
+   "lessonSlug": "nominalisierung",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "höre",
+     "gern",
+     "Kochen",
+     "Musik",
+     "Beim",
+     "ich"
+    ],
+    "correctSentence": "Beim Kochen höre ich gern Musik."
+   },
+   "explanationAfterAnswerDE": "'beim' + nominalisierter Infinitiv drückt Gleichzeitigkeit aus.",
+   "explanationAfterAnswerFA": "«beim» + مصدر اسم‌شده هم‌زمانی را بیان می‌کند.",
+   "explanationAfterAnswerEN": "'beim' + nominalized infinitive expresses simultaneity."
+  }
+ ]
+}

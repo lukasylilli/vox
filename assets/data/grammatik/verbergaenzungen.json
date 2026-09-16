@@ -1,0 +1,933 @@
+{
+ "_index": {
+  "fileDescription": "Verbergänzungen (متمم فعل بر اساس کاسوس): Nominativ, Akkusativ, Dativ, Dativ+Akkusativ, Präpositional. (Situativ و Direktiv در فایل بعدی همین دسته پوشش داده می‌شوند)",
+  "lastUpdatedStage": 8,
+  "lessons": [
+   "nominativergaenzung — متمم Nominativ",
+   "akkusativergaenzung — متمم Akkusativ",
+   "dativergaenzung — متمم Dativ",
+   "dativ-akkusativ-ergaenzung — متمم دوگانهٔ Dativ+Akkusativ",
+   "praepositionalergaenzung — متمم حرف‌اضافه‌ای"
+  ]
+ },
+ "lessons": [
+  {
+   "id": "nominativergaenzung",
+   "slug": "nominativergaenzung",
+   "titleDE": "Die Nominativergänzung",
+   "titleFA": "متمم Nominativ",
+   "titleEN": "The Nominative Complement",
+   "levels": [
+    "A1",
+    "A2"
+   ],
+   "category": "verbergaenzungen",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Die Nominativergänzung ist meist das Subjekt des Satzes. Manche Verben (sein, werden, bleiben, heißen) haben zusätzlich eine zweite Nominativergänzung, die eine Eigenschaft des Subjekts beschreibt.",
+     "bodyFA": "متمم Nominativ معمولاً همان فاعل جمله است. برخی افعال (sein، werden، bleiben، heißen) یک متمم Nominativ دوم هم دارند که ویژگی فاعل را توصیف می‌کند.",
+     "bodyEN": "The nominative complement is usually the subject of the sentence. Some verbs (sein, werden, bleiben, heißen) have a second nominative complement that describes a quality of the subject."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Meine Schwester ist Ärztin.",
+     "meaningFA": "خواهرم پزشک است.",
+     "meaningEN": "My sister is a doctor.",
+     "noteDE": "'Ärztin' ist die zweite Nominativergänzung.",
+     "noteFA": "«Ärztin» متمم Nominativ دوم است.",
+     "noteEN": "'Ärztin' is the second nominative complement."
+    },
+    {
+     "id": "ex-2",
+     "german": "Er wird nächstes Jahr Lehrer.",
+     "meaningFA": "او سال آینده معلم می‌شود.",
+     "meaningEN": "He will become a teacher next year."
+    },
+    {
+     "id": "ex-3",
+     "german": "Das Wetter bleibt heute sonnig.",
+     "meaningFA": "هوا امروز آفتابی می‌ماند.",
+     "meaningEN": "The weather stays sunny today."
+    },
+    {
+     "id": "ex-4",
+     "german": "Unser neuer Kollege heißt Thomas.",
+     "meaningFA": "همکار جدیدمان توماس نام دارد.",
+     "meaningEN": "Our new colleague is called Thomas."
+    },
+    {
+     "id": "ex-5",
+     "german": "Diese Übung ist ziemlich schwer.",
+     "meaningFA": "این تمرین نسبتاً سخت است.",
+     "meaningEN": "This exercise is quite difficult."
+    },
+    {
+     "id": "ex-6",
+     "german": "Die Kinder werden schnell müde.",
+     "meaningFA": "بچه‌ها سریع خسته می‌شوند.",
+     "meaningEN": "The children get tired quickly."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "akkusativergaenzung",
+    "dativergaenzung"
+   ],
+   "exerciseSlugs": [
+    "ex-nom-1",
+    "ex-nom-2",
+    "ex-nom-3",
+    "ex-nom-4"
+   ]
+  },
+  {
+   "id": "akkusativergaenzung",
+   "slug": "akkusativergaenzung",
+   "titleDE": "Die Akkusativergänzung",
+   "titleFA": "متمم Akkusativ",
+   "titleEN": "The Accusative Complement",
+   "levels": [
+    "A1"
+   ],
+   "category": "verbergaenzungen",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Die Akkusativergänzung ist das direkte Objekt eines Satzes. Sie beantwortet die Frage 'wen?' oder 'was?' und wird bei der Bildung des Passivs zum Subjekt.",
+     "bodyFA": "متمم Akkusativ همان مفعول مستقیم جمله است. به سؤال «چه کسی؟» یا «چه چیزی؟» پاسخ می‌دهد و در ساخت مجهول به فاعل تبدیل می‌شود.",
+     "bodyEN": "The accusative complement is the direct object of a sentence. It answers the question 'whom?' or 'what?' and becomes the subject when forming the passive."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Ich kaufe einen neuen Laptop.",
+     "meaningFA": "من یک لپ‌تاپ جدید می‌خرم.",
+     "meaningEN": "I am buying a new laptop."
+    },
+    {
+     "id": "ex-2",
+     "german": "Sie liest gerade einen spannenden Roman.",
+     "meaningFA": "او دارد یک رمان جذاب می‌خواند.",
+     "meaningEN": "She is currently reading an exciting novel."
+    },
+    {
+     "id": "ex-3",
+     "german": "Wir besuchen unsere Großeltern am Wochenende.",
+     "meaningFA": "ما آخر هفته پدربزرگ و مادربزرگمان را می‌بینیم.",
+     "meaningEN": "We are visiting our grandparents this weekend."
+    },
+    {
+     "id": "ex-4",
+     "german": "Kennst du diesen Schauspieler?",
+     "meaningFA": "این بازیگر را می‌شناسی؟",
+     "meaningEN": "Do you know this actor?"
+    },
+    {
+     "id": "ex-5",
+     "german": "Er trägt heute eine warme Jacke.",
+     "meaningFA": "او امروز یک ژاکت گرم پوشیده است.",
+     "meaningEN": "He is wearing a warm jacket today."
+    },
+    {
+     "id": "ex-6",
+     "german": "Die Firma sucht neue Mitarbeiter.",
+     "meaningFA": "شرکت به دنبال کارمندان جدید است.",
+     "meaningEN": "The company is looking for new employees."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "nominativergaenzung",
+    "dativ-akkusativ-ergaenzung"
+   ],
+   "exerciseSlugs": [
+    "ex-akk-1",
+    "ex-akk-2",
+    "ex-akk-3",
+    "ex-akk-4"
+   ]
+  },
+  {
+   "id": "dativergaenzung",
+   "slug": "dativergaenzung",
+   "titleDE": "Die Dativergänzung",
+   "titleFA": "متمم Dativ",
+   "titleEN": "The Dative Complement",
+   "levels": [
+    "A2"
+   ],
+   "category": "verbergaenzungen",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Die Dativergänzung beantwortet die Frage 'wem?'. Manche Verben verlangen nur eine Dativergänzung (helfen, danken, gratulieren, gefallen).",
+     "bodyFA": "متمم Dativ به سؤال «به چه کسی؟» پاسخ می‌دهد. برخی افعال فقط به متمم Dativ نیاز دارند (helfen، danken، gratulieren، gefallen).",
+     "bodyEN": "The dative complement answers the question 'to whom?'. Some verbs require only a dative complement (helfen, danken, gratulieren, gefallen)."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Ich helfe meinem Bruder bei den Hausaufgaben.",
+     "meaningFA": "من به برادرم در تکالیف کمک می‌کنم.",
+     "meaningEN": "I help my brother with his homework."
+    },
+    {
+     "id": "ex-2",
+     "german": "Wir danken unseren Lehrern für die Geduld.",
+     "meaningFA": "ما از معلم‌هایمان بابت صبرشان تشکر می‌کنیم.",
+     "meaningEN": "We thank our teachers for their patience."
+    },
+    {
+     "id": "ex-3",
+     "german": "Das neue Restaurant gefällt mir sehr.",
+     "meaningFA": "رستوران جدید خیلی به من پسند می‌آید.",
+     "meaningEN": "I like the new restaurant a lot."
+    },
+    {
+     "id": "ex-4",
+     "german": "Gratulierst du deiner Kollegin zum Geburtstag?",
+     "meaningFA": "به همکارت برای تولدش تبریک می‌گویی؟",
+     "meaningEN": "Are you congratulating your colleague on her birthday?"
+    },
+    {
+     "id": "ex-5",
+     "german": "Diese Regel widerspricht der Logik.",
+     "meaningFA": "این قانون با منطق در تضاد است.",
+     "meaningEN": "This rule contradicts logic."
+    },
+    {
+     "id": "ex-6",
+     "german": "Der Plan gehört meinem Team.",
+     "meaningFA": "این برنامه متعلق به تیم من است.",
+     "meaningEN": "The plan belongs to my team."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "Häufige Verben mit reiner Dativergänzung",
+     "titleFA": "افعال پرکاربرد با متمم Dativ خالص",
+     "titleEN": "Common Verbs with Pure Dative Complement",
+     "style": "simple",
+     "columns": [
+      "Verb",
+      "Beispiel"
+     ],
+     "rows": [
+      {
+       "rowLabel": "helfen",
+       "cells": [
+        "Ich helfe dir."
+       ]
+      },
+      {
+       "rowLabel": "danken",
+       "cells": [
+        "Ich danke dir."
+       ]
+      },
+      {
+       "rowLabel": "gefallen",
+       "cells": [
+        "Das gefällt mir."
+       ]
+      },
+      {
+       "rowLabel": "gratulieren",
+       "cells": [
+        "Ich gratuliere dir."
+       ]
+      },
+      {
+       "rowLabel": "gehören",
+       "cells": [
+        "Das gehört mir."
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "dativ-akkusativ-ergaenzung",
+    "nominativergaenzung"
+   ],
+   "exerciseSlugs": [
+    "ex-dat-1",
+    "ex-dat-2",
+    "ex-dat-3",
+    "ex-dat-4"
+   ]
+  },
+  {
+   "id": "dativ-akkusativ-ergaenzung",
+   "slug": "dativ-akkusativ-ergaenzung",
+   "titleDE": "Dativ- und Akkusativergänzung",
+   "titleFA": "متمم دوگانهٔ Dativ و Akkusativ",
+   "titleEN": "Dative and Accusative Complement",
+   "levels": [
+    "A2",
+    "B1"
+   ],
+   "category": "verbergaenzungen",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": "Wortstellung",
+     "headingFA": "ترتیب واژگان",
+     "headingEN": "Word Order",
+     "bodyDE": "Manche Verben (geben, schenken, zeigen, schicken) haben sowohl eine Dativ- als auch eine Akkusativergänzung. Bei zwei Nomen steht meist Dativ vor Akkusativ; bei einem Pronomen steht das Pronomen zuerst.",
+     "bodyFA": "برخی افعال (geben، schenken، zeigen، schicken) هم متمم Dativ و هم Akkusativ دارند. وقتی هر دو اسم باشند، معمولاً Dativ قبل از Akkusativ می‌آید؛ اگر یکی ضمیر باشد، ضمیر اول می‌آید.",
+     "bodyEN": "Some verbs (geben, schenken, zeigen, schicken) have both a dative and an accusative complement. With two nouns, dative usually comes before accusative; if one is a pronoun, the pronoun comes first."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Ich gebe meinem Freund das Buch.",
+     "meaningFA": "من کتاب را به دوستم می‌دهم.",
+     "meaningEN": "I give the book to my friend."
+    },
+    {
+     "id": "ex-2",
+     "german": "Ich gebe es ihm.",
+     "meaningFA": "من آن را به او می‌دهم.",
+     "meaningEN": "I give it to him.",
+     "noteDE": "Zwei Pronomen: Akkusativ vor Dativ.",
+     "noteFA": "دو ضمیر: Akkusativ قبل از Dativ.",
+     "noteEN": "Two pronouns: accusative before dative."
+    },
+    {
+     "id": "ex-3",
+     "german": "Sie schenkt ihrer Mutter einen Blumenstrauß.",
+     "meaningFA": "او به مادرش یک دسته گل هدیه می‌دهد.",
+     "meaningEN": "She gives her mother a bouquet of flowers."
+    },
+    {
+     "id": "ex-4",
+     "german": "Wir zeigen den Gästen unsere neue Wohnung.",
+     "meaningFA": "ما آپارتمان جدیدمان را به مهمانان نشان می‌دهیم.",
+     "meaningEN": "We show our new apartment to the guests."
+    },
+    {
+     "id": "ex-5",
+     "german": "Kannst du mir deine Notizen schicken?",
+     "meaningFA": "می‌توانی یادداشت‌هایت را برایم بفرستی؟",
+     "meaningEN": "Can you send me your notes?"
+    },
+    {
+     "id": "ex-6",
+     "german": "Der Kellner bringt uns die Rechnung.",
+     "meaningFA": "پیشخدمت صورت‌حساب را برایمان می‌آورد.",
+     "meaningEN": "The waiter brings us the bill."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "dativergaenzung",
+    "akkusativergaenzung"
+   ],
+   "exerciseSlugs": [
+    "ex-datakk-1",
+    "ex-datakk-2",
+    "ex-datakk-3",
+    "ex-datakk-4"
+   ]
+  },
+  {
+   "id": "praepositionalergaenzung",
+   "slug": "praepositionalergaenzung",
+   "titleDE": "Die Präpositionalergänzung",
+   "titleFA": "متمم حرف‌اضافه‌ای",
+   "titleEN": "The Prepositional Complement",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "category": "verbergaenzungen",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Manche Verben verlangen eine feste Präposition mit bestimmtem Kasus (warten auf + Akkusativ, sich freuen über + Akkusativ, sich interessieren für + Akkusativ). Diese Kombinationen müssen auswendig gelernt werden.",
+     "bodyFA": "برخی افعال به یک حرف‌اضافهٔ ثابت با کاسوس مشخص نیاز دارند (warten auf + Akkusativ، sich freuen über + Akkusativ، sich interessieren für + Akkusativ). این ترکیب‌ها باید حفظ شوند.",
+     "bodyEN": "Some verbs require a fixed preposition with a specific case (warten auf + accusative, sich freuen über + accusative, sich interessieren für + accusative). These combinations must be memorized."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Wir warten auf den nächsten Bus.",
+     "meaningFA": "ما منتظر اتوبوس بعدی هستیم.",
+     "meaningEN": "We are waiting for the next bus."
+    },
+    {
+     "id": "ex-2",
+     "german": "Sie freut sich über das Geschenk.",
+     "meaningFA": "او از هدیه خوشحال است.",
+     "meaningEN": "She is happy about the gift."
+    },
+    {
+     "id": "ex-3",
+     "german": "Interessierst du dich für alte Filme?",
+     "meaningFA": "به فیلم‌های قدیمی علاقه داری؟",
+     "meaningEN": "Are you interested in old movies?"
+    },
+    {
+     "id": "ex-4",
+     "german": "Er denkt oft an seine Kindheit.",
+     "meaningFA": "او اغلب به کودکی‌اش فکر می‌کند.",
+     "meaningEN": "He often thinks about his childhood."
+    },
+    {
+     "id": "ex-5",
+     "german": "Wir sprechen morgen über das Projekt.",
+     "meaningFA": "ما فردا دربارهٔ پروژه صحبت می‌کنیم.",
+     "meaningEN": "We will talk about the project tomorrow."
+    },
+    {
+     "id": "ex-6",
+     "german": "Sie kümmert sich um ihre kranke Nachbarin.",
+     "meaningFA": "او مراقب همسایهٔ بیمارش است.",
+     "meaningEN": "She takes care of her sick neighbor."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "Häufige Verben mit fester Präposition",
+     "titleFA": "افعال پرکاربرد با حرف‌اضافهٔ ثابت",
+     "titleEN": "Common Verbs with Fixed Prepositions",
+     "style": "simple",
+     "columns": [
+      "Verb + Präposition",
+      "Kasus",
+      "Beispiel"
+     ],
+     "rows": [
+      {
+       "rowLabel": "warten auf",
+       "cells": [
+        "Akkusativ",
+        "Ich warte auf dich."
+       ]
+      },
+      {
+       "rowLabel": "sich freuen über",
+       "cells": [
+        "Akkusativ",
+        "Ich freue mich über den Erfolg."
+       ]
+      },
+      {
+       "rowLabel": "sich interessieren für",
+       "cells": [
+        "Akkusativ",
+        "Ich interessiere mich für Kunst."
+       ]
+      },
+      {
+       "rowLabel": "denken an",
+       "cells": [
+        "Akkusativ",
+        "Ich denke an dich."
+       ]
+      },
+      {
+       "rowLabel": "sich kümmern um",
+       "cells": [
+        "Akkusativ",
+        "Ich kümmere mich um das Problem."
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "reflexive-verben"
+   ],
+   "exerciseSlugs": [
+    "ex-praep-1",
+    "ex-praep-2",
+    "ex-praep-3",
+    "ex-praep-4"
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-nom-1",
+   "lessonSlug": "nominativergaenzung",
+   "type": "multipleChoice",
+   "promptDE": "Meine Schwester ist ___.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "Ärztin",
+     "eine Ärztin",
+     "der Ärztin",
+     "Ärztinnen"
+    ],
+    "correctIndex": 0
+   },
+   "explanationAfterAnswerDE": "Bei Berufsbezeichnungen nach 'sein' steht meist kein Artikel.",
+   "explanationAfterAnswerFA": "در اسم شغل بعد از «sein» معمولاً آرتیکل نمی‌آید.",
+   "explanationAfterAnswerEN": "With professions after 'sein', an article is usually omitted."
+  },
+  {
+   "id": "ex-nom-2",
+   "lessonSlug": "nominativergaenzung",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Form.",
+   "promptFA": "شکل درست را کامل کن.",
+   "promptEN": "Complete with the correct form.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Er ___ nächstes Jahr Lehrer.",
+    "correctAnswer": "wird",
+    "alternatives": [
+     "ist",
+     "hat"
+    ]
+   },
+   "explanationAfterAnswerDE": "'werden' + Nominativergänzung drückt eine zukünftige Rolle aus.",
+   "explanationAfterAnswerFA": "«werden» + متمم Nominativ نقش آینده را بیان می‌کند.",
+   "explanationAfterAnswerEN": "'werden' + nominative complement expresses a future role."
+  },
+  {
+   "id": "ex-nom-3",
+   "lessonSlug": "nominativergaenzung",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "heißt",
+     "Kollege",
+     "Thomas",
+     "Unser",
+     "neuer"
+    ],
+    "correctSentence": "Unser neuer Kollege heißt Thomas."
+   },
+   "explanationAfterAnswerDE": "'heißen' verlangt eine Nominativergänzung als Namen.",
+   "explanationAfterAnswerFA": "«heißen» به متمم Nominativ به‌عنوان اسم نیاز دارد.",
+   "explanationAfterAnswerEN": "'heißen' requires a nominative complement as a name."
+  },
+  {
+   "id": "ex-nom-4",
+   "lessonSlug": "nominativergaenzung",
+   "type": "matching",
+   "promptDE": "Verbinde Verb und Beispiel.",
+   "promptFA": "فعل را به مثال وصل کن.",
+   "promptEN": "Match the verb to its example.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "sein",
+      "right": "ist Ärztin"
+     },
+     {
+      "left": "werden",
+      "right": "wird Lehrer"
+     },
+     {
+      "left": "bleiben",
+      "right": "bleibt sonnig"
+     },
+     {
+      "left": "heißen",
+      "right": "heißt Thomas"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Diese Verben verbinden Subjekt und Nominativergänzung.",
+   "explanationAfterAnswerFA": "این افعال فاعل را به متمم Nominativ وصل می‌کنند.",
+   "explanationAfterAnswerEN": "These verbs link the subject to the nominative complement."
+  },
+  {
+   "id": "ex-akk-1",
+   "lessonSlug": "akkusativergaenzung",
+   "type": "multipleChoice",
+   "promptDE": "Ich kaufe ___ neuen Laptop.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "ein",
+     "einen",
+     "einem",
+     "eines"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "Maskulinum im Akkusativ: 'einen'.",
+   "explanationAfterAnswerFA": "مذکر در Akkusativ: «einen».",
+   "explanationAfterAnswerEN": "Masculine in the accusative: 'einen'."
+  },
+  {
+   "id": "ex-akk-2",
+   "lessonSlug": "akkusativergaenzung",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Form.",
+   "promptFA": "شکل درست را کامل کن.",
+   "promptEN": "Complete with the correct form.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Kennst du ___ Schauspieler?",
+    "correctAnswer": "diesen",
+    "alternatives": [
+     "dieser",
+     "diesem"
+    ]
+   },
+   "explanationAfterAnswerDE": "Maskulinum im Akkusativ: 'diesen'.",
+   "explanationAfterAnswerFA": "مذکر در Akkusativ: «diesen».",
+   "explanationAfterAnswerEN": "Masculine in the accusative: 'diesen'."
+  },
+  {
+   "id": "ex-akk-3",
+   "lessonSlug": "akkusativergaenzung",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "neue",
+     "Die",
+     "sucht",
+     "Mitarbeiter",
+     "Firma"
+    ],
+    "correctSentence": "Die Firma sucht neue Mitarbeiter."
+   },
+   "explanationAfterAnswerDE": "'suchen' verlangt eine Akkusativergänzung.",
+   "explanationAfterAnswerFA": "«suchen» به متمم Akkusativ نیاز دارد.",
+   "explanationAfterAnswerEN": "'suchen' requires an accusative complement."
+  },
+  {
+   "id": "ex-akk-4",
+   "lessonSlug": "akkusativergaenzung",
+   "type": "transform",
+   "promptDE": "Wandle den Satz ins Passiv um.",
+   "promptFA": "جمله را به مجهول تبدیل کن.",
+   "promptEN": "Transform into the passive.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Sie liest den Roman.",
+    "instructionDE": "Passiv-Form.",
+    "instructionFA": "به شکل مجهول تبدیل کن.",
+    "instructionEN": "Transform to passive.",
+    "correctAnswer": "Der Roman wird gelesen."
+   },
+   "explanationAfterAnswerDE": "Die Akkusativergänzung wird im Passiv zum Subjekt.",
+   "explanationAfterAnswerFA": "متمم Akkusativ در مجهول به فاعل تبدیل می‌شود.",
+   "explanationAfterAnswerEN": "The accusative complement becomes the subject in the passive."
+  },
+  {
+   "id": "ex-dat-1",
+   "lessonSlug": "dativergaenzung",
+   "type": "multipleChoice",
+   "promptDE": "Ich helfe ___ Bruder.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "mein",
+     "meinen",
+     "meinem",
+     "meines"
+    ],
+    "correctIndex": 2
+   },
+   "explanationAfterAnswerDE": "'helfen' verlangt Dativ: 'meinem'.",
+   "explanationAfterAnswerFA": "«helfen» به Dativ نیاز دارد: «meinem».",
+   "explanationAfterAnswerEN": "'helfen' requires the dative: 'meinem'."
+  },
+  {
+   "id": "ex-dat-2",
+   "lessonSlug": "dativergaenzung",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Form.",
+   "promptFA": "شکل درست را کامل کن.",
+   "promptEN": "Complete with the correct form.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Das Restaurant gefällt ___ sehr.",
+    "correctAnswer": "mir",
+    "alternatives": [
+     "mich",
+     "ich"
+    ]
+   },
+   "explanationAfterAnswerDE": "'gefallen' verlangt Dativ: 'mir'.",
+   "explanationAfterAnswerFA": "«gefallen» به Dativ نیاز دارد: «mir».",
+   "explanationAfterAnswerEN": "'gefallen' requires the dative: 'mir'."
+  },
+  {
+   "id": "ex-dat-3",
+   "lessonSlug": "dativergaenzung",
+   "type": "matching",
+   "promptDE": "Verbinde Verb und Kasus.",
+   "promptFA": "فعل را به کاسوس وصل کن.",
+   "promptEN": "Match the verb to its case.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "danken",
+      "right": "Dativ"
+     },
+     {
+      "left": "gratulieren",
+      "right": "Dativ"
+     },
+     {
+      "left": "gehören",
+      "right": "Dativ"
+     },
+     {
+      "left": "widersprechen",
+      "right": "Dativ"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Diese Verben verlangen ausschließlich eine Dativergänzung.",
+   "explanationAfterAnswerFA": "این افعال منحصراً به متمم Dativ نیاز دارند.",
+   "explanationAfterAnswerEN": "These verbs require exclusively a dative complement."
+  },
+  {
+   "id": "ex-dat-4",
+   "lessonSlug": "dativergaenzung",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "Geduld",
+     "Lehrern",
+     "danken",
+     "für",
+     "Wir",
+     "unseren",
+     "die"
+    ],
+    "correctSentence": "Wir danken unseren Lehrern für die Geduld."
+   },
+   "explanationAfterAnswerDE": "'danken' + Dativ + 'für' + Akkusativ.",
+   "explanationAfterAnswerFA": "«danken» + Dativ + «für» + Akkusativ.",
+   "explanationAfterAnswerEN": "'danken' + dative + 'für' + accusative."
+  },
+  {
+   "id": "ex-datakk-1",
+   "lessonSlug": "dativ-akkusativ-ergaenzung",
+   "type": "multipleChoice",
+   "promptDE": "Ich gebe ___ Freund das Buch.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "mein",
+     "meinen",
+     "meinem",
+     "meines"
+    ],
+    "correctIndex": 2
+   },
+   "explanationAfterAnswerDE": "'geben' + Dativ (Person) + Akkusativ (Sache): 'meinem Freund'.",
+   "explanationAfterAnswerFA": "«geben» + Dativ (شخص) + Akkusativ (شیء): «meinem Freund».",
+   "explanationAfterAnswerEN": "'geben' + dative (person) + accusative (thing): 'meinem Freund'."
+  },
+  {
+   "id": "ex-datakk-2",
+   "lessonSlug": "dativ-akkusativ-ergaenzung",
+   "type": "transform",
+   "promptDE": "Ersetze beide Objekte durch Pronomen.",
+   "promptFA": "هر دو مفعول را با ضمیر جایگزین کن.",
+   "promptEN": "Replace both objects with pronouns.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Ich gebe meinem Freund das Buch.",
+    "instructionDE": "Beide Objekte durch Pronomen ersetzen.",
+    "instructionFA": "هر دو مفعول را با ضمیر جایگزین کن.",
+    "instructionEN": "Replace both objects with pronouns.",
+    "correctAnswer": "Ich gebe es ihm."
+   },
+   "explanationAfterAnswerDE": "Bei zwei Pronomen steht Akkusativ vor Dativ.",
+   "explanationAfterAnswerFA": "در دو ضمیر، Akkusativ قبل از Dativ می‌آید.",
+   "explanationAfterAnswerEN": "With two pronouns, accusative comes before dative."
+  },
+  {
+   "id": "ex-datakk-3",
+   "lessonSlug": "dativ-akkusativ-ergaenzung",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Reihenfolge.",
+   "promptFA": "ترتیب درست را کامل کن.",
+   "promptEN": "Complete with the correct order.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Wir zeigen ___ unsere neue Wohnung. (den Gästen)",
+    "correctAnswer": "den Gästen",
+    "alternatives": [
+     "die Gäste",
+     "der Gäste"
+    ]
+   },
+   "explanationAfterAnswerDE": "Bei zwei Nomen steht Dativ (den Gästen) vor Akkusativ.",
+   "explanationAfterAnswerFA": "در دو اسم، Dativ (den Gästen) قبل از Akkusativ می‌آید.",
+   "explanationAfterAnswerEN": "With two nouns, dative (den Gästen) comes before accusative."
+  },
+  {
+   "id": "ex-datakk-4",
+   "lessonSlug": "dativ-akkusativ-ergaenzung",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "die",
+     "uns",
+     "bringt",
+     "Rechnung",
+     "Der",
+     "Kellner"
+    ],
+    "correctSentence": "Der Kellner bringt uns die Rechnung."
+   },
+   "explanationAfterAnswerDE": "'bringen' + Dativ (uns) + Akkusativ (die Rechnung).",
+   "explanationAfterAnswerFA": "«bringen» + Dativ (uns) + Akkusativ (die Rechnung).",
+   "explanationAfterAnswerEN": "'bringen' + dative (uns) + accusative (die Rechnung)."
+  },
+  {
+   "id": "ex-praep-1",
+   "lessonSlug": "praepositionalergaenzung",
+   "type": "multipleChoice",
+   "promptDE": "Wir warten ___ den nächsten Bus.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "für",
+     "auf",
+     "an",
+     "um"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "'warten auf' + Akkusativ ist eine feste Kombination.",
+   "explanationAfterAnswerFA": "«warten auf» + Akkusativ یک ترکیب ثابت است.",
+   "explanationAfterAnswerEN": "'warten auf' + accusative is a fixed combination."
+  },
+  {
+   "id": "ex-praep-2",
+   "lessonSlug": "praepositionalergaenzung",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Präposition.",
+   "promptFA": "حرف‌اضافهٔ درست را کامل کن.",
+   "promptEN": "Complete with the correct preposition.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Interessierst du dich ___ alte Filme?",
+    "correctAnswer": "für",
+    "alternatives": [
+     "an",
+     "auf"
+    ]
+   },
+   "explanationAfterAnswerDE": "'sich interessieren für' + Akkusativ.",
+   "explanationAfterAnswerFA": "«sich interessieren für» + Akkusativ.",
+   "explanationAfterAnswerEN": "'sich interessieren für' + accusative."
+  },
+  {
+   "id": "ex-praep-3",
+   "lessonSlug": "praepositionalergaenzung",
+   "type": "matching",
+   "promptDE": "Verbinde Verb und Präposition.",
+   "promptFA": "فعل را به حرف‌اضافه وصل کن.",
+   "promptEN": "Match the verb to its preposition.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "sich freuen",
+      "right": "über"
+     },
+     {
+      "left": "denken",
+      "right": "an"
+     },
+     {
+      "left": "sich kümmern",
+      "right": "um"
+     },
+     {
+      "left": "warten",
+      "right": "auf"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Diese Kombinationen müssen auswendig gelernt werden.",
+   "explanationAfterAnswerFA": "این ترکیب‌ها باید حفظ شوند.",
+   "explanationAfterAnswerEN": "These combinations must be memorized."
+  },
+  {
+   "id": "ex-praep-4",
+   "lessonSlug": "praepositionalergaenzung",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "kranke",
+     "sich",
+     "um",
+     "Sie",
+     "ihre",
+     "kümmert",
+     "Nachbarin"
+    ],
+    "correctSentence": "Sie kümmert sich um ihre kranke Nachbarin."
+   },
+   "explanationAfterAnswerDE": "'sich kümmern um' + Akkusativ.",
+   "explanationAfterAnswerFA": "«sich kümmern um» + Akkusativ.",
+   "explanationAfterAnswerEN": "'sich kümmern um' + accusative."
+  }
+ ]
+}

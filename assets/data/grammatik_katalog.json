@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-07-06",
+ "updated": "2026-09-16",
  "themen": [
   {
    "id": "verben",
@@ -229,7 +229,7 @@
    ],
    "thema": "verben",
    "satzglied": "praedikat",
-   "route": null,
+   "route": "/grammatik/lektion/imperativ",
    "lektion": 7
   },
   {
@@ -243,7 +243,7 @@
    ],
    "thema": "tempus",
    "satzglied": "praedikat",
-   "route": null,
+   "route": "/grammatik/lektion/perfekt",
    "lektion": 8
   },
   {
@@ -257,7 +257,7 @@
    ],
    "thema": "verbergaenzungen",
    "satzglied": "ergaenzungen",
-   "route": null,
+   "route": "/grammatik/lektion/nominativergaenzung",
    "lektion": 9
   },
   {
@@ -270,7 +270,7 @@
    ],
    "thema": "verbergaenzungen",
    "satzglied": "ergaenzungen",
-   "route": null,
+   "route": "/grammatik/lektion/akkusativergaenzung",
    "lektion": 10
   },
   {
@@ -283,7 +283,7 @@
    ],
    "thema": "nomen",
    "satzglied": "nominalgruppe",
-   "route": null,
+   "route": "/grammatik/lektion/genusbestimmung",
    "lektion": 11
   },
   {
@@ -297,7 +297,7 @@
    ],
    "thema": "nomen",
    "satzglied": "nominalgruppe",
-   "route": null,
+   "route": "/grammatik/lektion/pluralbildung",
    "lektion": 12
   },
   {
@@ -310,7 +310,7 @@
    ],
    "thema": "artikel",
    "satzglied": "nominalgruppe",
-   "route": null,
+   "route": "/grammatik/lektion/bestimmter-unbestimmter-artikel",
    "lektion": 13
   },
   {
@@ -324,7 +324,7 @@
    ],
    "thema": "artikel",
    "satzglied": "nominalgruppe",
-   "route": null,
+   "route": "/grammatik/lektion/possessivartikel",
    "lektion": 14
   },
   {
@@ -338,7 +338,7 @@
    ],
    "thema": "adjektive",
    "satzglied": "attribute",
-   "route": null,
+   "route": "/grammatik/lektion/zahlwoerter",
    "lektion": 15
   },
   {
@@ -352,7 +352,7 @@
    ],
    "thema": "adverbien",
    "satzglied": "angaben",
-   "route": null,
+   "route": "/grammatik/lektion/lokaladverbien",
    "lektion": 16
   },
   {
@@ -366,7 +366,7 @@
    ],
    "thema": "adverbien",
    "satzglied": "angaben",
-   "route": null,
+   "route": "/grammatik/lektion/temporaladverbien",
    "lektion": 17
   },
   {
@@ -379,7 +379,7 @@
    ],
    "thema": "pronomen",
    "satzglied": "nominalgruppe",
-   "route": null,
+   "route": "/grammatik/lektion/personalpronomen",
    "lektion": 18
   },
   {
@@ -393,7 +393,7 @@
    ],
    "thema": "praepositionen",
    "satzglied": "angaben",
-   "route": null,
+   "route": "/grammatik/lektion/praepositionen-akkusativ",
    "lektion": 19
   },
   {
@@ -407,7 +407,7 @@
    ],
    "thema": "praepositionen",
    "satzglied": "angaben",
-   "route": null,
+   "route": "/grammatik/lektion/praepositionen-dativ",
    "lektion": 20
   },
   {
@@ -421,7 +421,7 @@
    ],
    "thema": "satzlehre",
    "satzglied": "satzverbindung",
-   "route": null,
+   "route": "/grammatik/lektion/fragewoerter",
    "lektion": 21
   },
   {
@@ -450,7 +450,7 @@
    ],
    "thema": "satzlehre",
    "satzglied": "angaben",
-   "route": null,
+   "route": "/grammatik/lektion/negation-verneinung",
    "lektion": 23
   },
   {
@@ -464,7 +464,7 @@
    ],
    "thema": "satzlehre",
    "satzglied": "satzverbindung",
-   "route": null,
+   "route": "/grammatik/lektion/satzarten",
    "lektion": 24
   },
   {
@@ -506,7 +506,7 @@
    ],
    "thema": "tempus",
    "satzglied": "praedikat",
-   "route": null,
+   "route": "/grammatik/lektion/praeteritum",
    "lektion": 27
   },
   {
@@ -520,7 +520,7 @@
    ],
    "thema": "konjunktiv",
    "satzglied": "praedikat",
-   "route": null,
+   "route": "/grammatik/lektion/hoeflichkeit-konjunktiv",
    "lektion": 28
   },
   {
@@ -533,7 +533,7 @@
    ],
    "thema": "verbergaenzungen",
    "satzglied": "ergaenzungen",
-   "route": null,
+   "route": "/grammatik/lektion/dativergaenzung",
    "lektion": 29
   },
   {
@@ -547,7 +547,7 @@
    ],
    "thema": "verbergaenzungen",
    "satzglied": "ergaenzungen",
-   "route": null,
+   "route": "/grammatik/lektion/dativ-akkusativ-ergaenzung",
    "lektion": 30
   },
   {
@@ -561,7 +561,7 @@
    ],
    "thema": "ergaenzungssaetze",
    "satzglied": "ergaenzungen",
-   "route": null,
+   "route": "/grammatik/lektion/dass-saetze",
    "lektion": 31
   },
   {
@@ -575,7 +575,7 @@
    ],
    "thema": "ergaenzungssaetze",
    "satzglied": "ergaenzungen",
-   "route": null,
+   "route": "/grammatik/lektion/indirekte-fragesaetze",
    "lektion": 32
   },
   {
@@ -589,7 +589,7 @@
    ],
    "thema": "nomen",
    "satzglied": "nominalgruppe",
-   "route": null,
+   "route": "/grammatik/lektion/komposita",
    "lektion": 33
   },
   {
@@ -603,7 +603,7 @@
    ],
    "thema": "artikel",
    "satzglied": "nominalgruppe",
-   "route": null,
+   "route": "/grammatik/lektion/nullartikel",
    "lektion": 34
   },
   {
@@ -617,7 +617,7 @@
    ],
    "thema": "artikel",
    "satzglied": "nominalgruppe",
-   "route": null,
+   "route": "/grammatik/lektion/demonstrativartikel",
    "lektion": 35
   },
   {
@@ -631,7 +631,7 @@
    ],
    "thema": "artikel",
    "satzglied": "nominalgruppe",
-   "route": null,
+   "route": "/grammatik/lektion/indefinitartikel",
    "lektion": 36
   },
   {
@@ -645,7 +645,7 @@
    ],
    "thema": "artikel",
    "satzglied": "nominalgruppe",
-   "route": null,
+   "route": "/grammatik/lektion/interrogativartikel",
    "lektion": 37
   },
   {
@@ -660,7 +660,7 @@
    ],
    "thema": "adjektive",
    "satzglied": "attribute",
-   "route": null,
+   "route": "/grammatik/lektion/adjektivdeklination",
    "lektion": 38
   },
   {
@@ -674,7 +674,7 @@
    ],
    "thema": "adjektive",
    "satzglied": "attribute",
-   "route": null,
+   "route": "/grammatik/lektion/komparativ-superlativ",
    "lektion": 39
   },
   {
@@ -688,7 +688,7 @@
    ],
    "thema": "adverbien",
    "satzglied": "angaben",
-   "route": null,
+   "route": "/grammatik/lektion/modaladverbien",
    "lektion": 40
   },
   {
@@ -702,7 +702,7 @@
    ],
    "thema": "pronomen",
    "satzglied": "nominalgruppe",
-   "route": null,
+   "route": "/grammatik/lektion/indefinitpronomen",
    "lektion": 41
   },
   {
@@ -716,7 +716,7 @@
    ],
    "thema": "praepositionen",
    "satzglied": "angaben",
-   "route": null,
+   "route": "/grammatik/lektion/wechselpraepositionen",
    "lektion": 42
   },
   {
@@ -730,7 +730,7 @@
    ],
    "thema": "praepositionen",
    "satzglied": "angaben",
-   "route": null,
+   "route": "/grammatik/lektion/lokale-temporale-praepositionen",
    "lektion": 43
   },
   {
@@ -744,7 +744,7 @@
    ],
    "thema": "satzlehre",
    "satzglied": "satzverbindung",
-   "route": null,
+   "route": "/grammatik/lektion/konjunktionen",
    "lektion": 44
   },
   {
@@ -758,7 +758,7 @@
    ],
    "thema": "satzlehre",
    "satzglied": "satzverbindung",
-   "route": null,
+   "route": "/grammatik/lektion/nebensaetze-einfuehrung",
    "lektion": 45
   },
   {
@@ -772,7 +772,7 @@
    ],
    "thema": "nebensaetze",
    "satzglied": "satzverbindung",
-   "route": null,
+   "route": "/grammatik/lektion/kausalsaetze",
    "lektion": 46
   },
   {
@@ -786,7 +786,7 @@
    ],
    "thema": "nebensaetze",
    "satzglied": "satzverbindung",
-   "route": null,
+   "route": "/grammatik/lektion/konditionalsaetze",
    "lektion": 47
   },
   {
@@ -800,7 +800,7 @@
    ],
    "thema": "nebensaetze",
    "satzglied": "satzverbindung",
-   "route": null,
+   "route": "/grammatik/lektion/wenn-als",
    "lektion": 48
   },
   {
@@ -814,7 +814,7 @@
    ],
    "thema": "nebensaetze",
    "satzglied": "satzverbindung",
-   "route": null,
+   "route": "/grammatik/lektion/waehrend-temporal",
    "lektion": 49
   },
   {
@@ -828,7 +828,7 @@
    ],
    "thema": "nebensaetze",
    "satzglied": "satzverbindung",
-   "route": null,
+   "route": "/grammatik/lektion/bevor-nachdem",
    "lektion": 50
   },
   {
@@ -842,7 +842,7 @@
    ],
    "thema": "tempus",
    "satzglied": "praedikat",
-   "route": null,
+   "route": "/grammatik/lektion/plusquamperfekt",
    "lektion": 51
   },
   {
@@ -855,7 +855,7 @@
    ],
    "thema": "tempus",
    "satzglied": "praedikat",
-   "route": null,
+   "route": "/grammatik/lektion/futur-1",
    "lektion": 52
   },
   {
@@ -869,7 +869,7 @@
    ],
    "thema": "passiv",
    "satzglied": "praedikat",
-   "route": null,
+   "route": "/grammatik/lektion/vorgangspassiv",
    "lektion": 53
   },
   {
@@ -883,7 +883,7 @@
    ],
    "thema": "passiv",
    "satzglied": "praedikat",
-   "route": null,
+   "route": "/grammatik/lektion/zustandspassiv",
    "lektion": 54
   },
   {
@@ -897,7 +897,7 @@
    ],
    "thema": "konjunktiv",
    "satzglied": "praedikat",
-   "route": null,
+   "route": "/grammatik/lektion/konjunktiv-2-gegenwart",
    "lektion": 55
   },
   {
@@ -911,7 +911,7 @@
    ],
    "thema": "konjunktiv",
    "satzglied": "praedikat",
-   "route": null,
+   "route": "/grammatik/lektion/wunschsaetze",
    "lektion": 56
   },
   {
@@ -925,7 +925,7 @@
    ],
    "thema": "konjunktiv",
    "satzglied": "praedikat",
-   "route": null,
+   "route": "/grammatik/lektion/irreale-bedingungssaetze",
    "lektion": 57
   },
   {
@@ -939,7 +939,7 @@
    ],
    "thema": "verbergaenzungen",
    "satzglied": "ergaenzungen",
-   "route": null,
+   "route": "/grammatik/lektion/praepositionalergaenzung",
    "lektion": 58
   },
   {
@@ -953,7 +953,7 @@
    ],
    "thema": "ergaenzungssaetze",
    "satzglied": "ergaenzungen",
-   "route": null,
+   "route": "/grammatik/lektion/infinitivsaetze",
    "lektion": 59
   },
   {
@@ -967,7 +967,7 @@
    ],
    "thema": "nomen",
    "satzglied": "nominalgruppe",
-   "route": null,
+   "route": "/grammatik/lektion/n-deklination",
    "lektion": 60
   },
   {
@@ -981,7 +981,7 @@
    ],
    "thema": "nomen",
    "satzglied": "nominalgruppe",
-   "route": null,
+   "route": "/grammatik/lektion/genitiv",
    "lektion": 61
   },
   {
@@ -995,7 +995,7 @@
    ],
    "thema": "adjektive",
    "satzglied": "attribute",
-   "route": null,
+   "route": "/grammatik/lektion/partizipien-als-adjektive",
    "lektion": 62
   },
   {
@@ -1009,7 +1009,7 @@
    ],
    "thema": "adverbien",
    "satzglied": "angaben",
-   "route": null,
+   "route": "/grammatik/lektion/partikeln",
    "lektion": 63
   },
   {
@@ -1023,7 +1023,7 @@
    ],
    "thema": "pronomen",
    "satzglied": "nominalgruppe",
-   "route": null,
+   "route": "/grammatik/lektion/demonstrativpronomen",
    "lektion": 64
   },
   {
@@ -1037,7 +1037,7 @@
    ],
    "thema": "pronomen",
    "satzglied": "attribute",
-   "route": null,
+   "route": "/grammatik/lektion/relativpronomen-relativsaetze",
    "lektion": 65
   },
   {
@@ -1051,7 +1051,7 @@
    ],
    "thema": "pronomen",
    "satzglied": "nominalgruppe",
-   "route": null,
+   "route": "/grammatik/lektion/pronomen-es",
    "lektion": 66
   },
   {
@@ -1065,7 +1065,7 @@
    ],
    "thema": "praepositionen",
    "satzglied": "angaben",
-   "route": null,
+   "route": "/grammatik/lektion/praepositionen-genitiv",
    "lektion": 67
   },
   {
@@ -1079,7 +1079,7 @@
    ],
    "thema": "satzlehre",
    "satzglied": "attribute",
-   "route": null,
+   "route": "/grammatik/lektion/attribute",
    "lektion": 68
   },
   {
@@ -1093,7 +1093,7 @@
    ],
    "thema": "satzlehre",
    "satzglied": "satzverbindung",
-   "route": null,
+   "route": "/grammatik/lektion/satzverbindende-adverbien",
    "lektion": 69
   },
   {
@@ -1107,7 +1107,7 @@
    ],
    "thema": "satzlehre",
    "satzglied": "angaben",
-   "route": null,
+   "route": "/grammatik/lektion/angaben",
    "lektion": 70
   },
   {
@@ -1121,7 +1121,7 @@
    ],
    "thema": "nebensaetze",
    "satzglied": "satzverbindung",
-   "route": null,
+   "route": "/grammatik/lektion/konzessivsaetze",
    "lektion": 71
   },
   {
@@ -1135,7 +1135,7 @@
    ],
    "thema": "nebensaetze",
    "satzglied": "satzverbindung",
-   "route": null,
+   "route": "/grammatik/lektion/finalsaetze",
    "lektion": 72
   },
   {
@@ -1149,7 +1149,7 @@
    ],
    "thema": "nebensaetze",
    "satzglied": "satzverbindung",
-   "route": null,
+   "route": "/grammatik/lektion/adversativsaetze",
    "lektion": 73
   },
   {
@@ -1163,7 +1163,7 @@
    ],
    "thema": "nebensaetze",
    "satzglied": "satzverbindung",
-   "route": null,
+   "route": "/grammatik/lektion/seitdem-sobald",
    "lektion": 74
   },
   {
@@ -1177,7 +1177,7 @@
    ],
    "thema": "nebensaetze",
    "satzglied": "satzverbindung",
-   "route": null,
+   "route": "/grammatik/lektion/solange-bis",
    "lektion": 75
   },
   {
@@ -1191,7 +1191,7 @@
    ],
    "thema": "tempus",
    "satzglied": "praedikat",
-   "route": null,
+   "route": "/grammatik/lektion/futur-2",
    "lektion": 76
   },
   {
@@ -1205,7 +1205,7 @@
    ],
    "thema": "passiv",
    "satzglied": "praedikat",
-   "route": null,
+   "route": "/grammatik/lektion/passiversatz",
    "lektion": 77
   },
   {
@@ -1218,7 +1218,7 @@
    ],
    "thema": "passiv",
    "satzglied": "praedikat",
-   "route": null,
+   "route": "/grammatik/lektion/nicht-passivfaehige-verben",
    "lektion": 78
   },
   {
@@ -1232,7 +1232,7 @@
    ],
    "thema": "konjunktiv",
    "satzglied": "praedikat",
-   "route": null,
+   "route": "/grammatik/lektion/konjunktiv-2-vergangenheit",
    "lektion": 79
   },
   {
@@ -1246,7 +1246,7 @@
    ],
    "thema": "konjunktiv",
    "satzglied": "praedikat",
-   "route": null,
+   "route": "/grammatik/lektion/irreale-vergleichssaetze",
    "lektion": 80
   },
   {
@@ -1260,7 +1260,7 @@
    ],
    "thema": "nomen",
    "satzglied": "nominalgruppe",
-   "route": null,
+   "route": "/grammatik/lektion/nominalisierung",
    "lektion": 81
   },
   {
@@ -1274,7 +1274,7 @@
    ],
    "thema": "nebensaetze",
    "satzglied": "satzverbindung",
-   "route": null,
+   "route": "/grammatik/lektion/modalsaetze",
    "lektion": 82
   },
   {
@@ -1288,7 +1288,7 @@
    ],
    "thema": "nebensaetze",
    "satzglied": "satzverbindung",
-   "route": null,
+   "route": "/grammatik/lektion/konsekutivsaetze",
    "lektion": 83
   },
   {
@@ -1302,7 +1302,7 @@
    ],
    "thema": "konjunktiv",
    "satzglied": "praedikat",
-   "route": null,
+   "route": "/grammatik/lektion/konjunktiv-1",
    "lektion": 84
   },
   {

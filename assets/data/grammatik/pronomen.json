@@ -1,0 +1,967 @@
+{
+ "_index": {
+  "fileDescription": "Pronomen: Personalpronomen, Demonstrativpronomen, Indefinitpronomen, Reflexivpronomen (تکمیلی)، Relativpronomen + Relativsätze، Pronomen 'es'",
+  "lastUpdatedStage": 14,
+  "lessons": [
+   "personalpronomen — ضمیر شخصی",
+   "demonstrativpronomen — ضمیر اشاره",
+   "indefinitpronomen — ضمیر نامعین",
+   "relativpronomen-relativsaetze — ضمیر موصولی و جملات موصولی",
+   "pronomen-es — ضمیر «es»"
+  ]
+ },
+ "lessons": [
+  {
+   "id": "personalpronomen",
+   "slug": "personalpronomen",
+   "titleDE": "Personalpronomen",
+   "titleFA": "ضمیر شخصی",
+   "titleEN": "Personal Pronouns",
+   "levels": [
+    "A1"
+   ],
+   "category": "pronomen",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Personalpronomen (ich, du, er, sie, es, wir, ihr, sie/Sie) stehen anstelle eines Nomens und werden je nach Kasus (Nominativ, Akkusativ, Dativ) dekliniert.",
+     "bodyFA": "ضمایر شخصی (ich، du، er، sie، es، wir، ihr، sie/Sie) به‌جای یک اسم می‌آیند و بسته به کاسوس (Nominativ، Akkusativ، Dativ) صرف می‌شوند.",
+     "bodyEN": "Personal pronouns (ich, du, er, sie, es, wir, ihr, sie/Sie) stand in place of a noun and are declined depending on the case (nominative, accusative, dative)."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Ich sehe ihn jeden Tag.",
+     "meaningFA": "من هر روز او را می‌بینم.",
+     "meaningEN": "I see him every day.",
+     "noteDE": "'ihn' = Akkusativ von 'er'.",
+     "noteFA": "«ihn» = Akkusativ فعل «er».",
+     "noteEN": "'ihn' = accusative of 'er'."
+    },
+    {
+     "id": "ex-2",
+     "german": "Kannst du mir helfen?",
+     "meaningFA": "می‌توانی به من کمک کنی؟",
+     "meaningEN": "Can you help me?"
+    },
+    {
+     "id": "ex-3",
+     "german": "Wir besuchen sie am Wochenende.",
+     "meaningFA": "ما آخر هفته به او سر می‌زنیم.",
+     "meaningEN": "We are visiting her this weekend."
+    },
+    {
+     "id": "ex-4",
+     "german": "Gehört das Buch euch?",
+     "meaningFA": "این کتاب مال شماست؟",
+     "meaningEN": "Does this book belong to you (pl.)?"
+    },
+    {
+     "id": "ex-5",
+     "german": "Ich gebe es ihm morgen.",
+     "meaningFA": "من فردا آن را به او می‌دهم.",
+     "meaningEN": "I'll give it to him tomorrow."
+    },
+    {
+     "id": "ex-6",
+     "german": "Sie kennen uns schon lange.",
+     "meaningFA": "آن‌ها ما را خیلی وقت است می‌شناسند.",
+     "meaningEN": "They have known us for a long time."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "Personalpronomen dekliniert",
+     "titleFA": "صرف ضمیر شخصی",
+     "titleEN": "Declined Personal Pronouns",
+     "style": "simple",
+     "columns": [
+      "Nominativ",
+      "Akkusativ",
+      "Dativ"
+     ],
+     "rows": [
+      {
+       "rowLabel": "ich",
+       "cells": [
+        "mich",
+        "mir"
+       ]
+      },
+      {
+       "rowLabel": "du",
+       "cells": [
+        "dich",
+        "dir"
+       ]
+      },
+      {
+       "rowLabel": "er",
+       "cells": [
+        "ihn",
+        "ihm"
+       ]
+      },
+      {
+       "rowLabel": "sie (Sg.)",
+       "cells": [
+        "sie",
+        "ihr"
+       ]
+      },
+      {
+       "rowLabel": "es",
+       "cells": [
+        "es",
+        "ihm"
+       ]
+      },
+      {
+       "rowLabel": "wir",
+       "cells": [
+        "uns",
+        "uns"
+       ]
+      },
+      {
+       "rowLabel": "ihr",
+       "cells": [
+        "euch",
+        "euch"
+       ]
+      },
+      {
+       "rowLabel": "sie/Sie (Pl.)",
+       "cells": [
+        "sie/Sie",
+        "ihnen/Ihnen"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "dativ-akkusativ-ergaenzung"
+   ],
+   "exerciseSlugs": [
+    "ex-pers-1",
+    "ex-pers-2",
+    "ex-pers-3",
+    "ex-pers-4"
+   ]
+  },
+  {
+   "id": "demonstrativpronomen",
+   "slug": "demonstrativpronomen",
+   "titleDE": "Demonstrativpronomen",
+   "titleFA": "ضمیر اشاره",
+   "titleEN": "Demonstrative Pronouns",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "category": "pronomen",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Demonstrativpronomen (der, die, das als Pronomen, dieser, derjenige) betonen oder ersetzen ein bereits genanntes Nomen. Sie werden wie der bestimmte Artikel dekliniert, im Dativ Plural aber 'denen'.",
+     "bodyFA": "ضمایر اشاره (der، die، das به‌عنوان ضمیر، dieser، derjenige) اسمی که قبلاً ذکر شده را تأکید یا جایگزین می‌کنند. مانند آرتیکل معین صرف می‌شوند، اما در Dativ جمع «denen» است.",
+     "bodyEN": "Demonstrative pronouns (der, die, das as pronouns, dieser, derjenige) emphasize or replace a noun already mentioned. They are declined like the definite article, but 'denen' in the dative plural."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Kennst du den neuen Kollegen? – Den kenne ich gut.",
+     "meaningFA": "همکار جدید را می‌شناسی؟ – او را خوب می‌شناسم.",
+     "meaningEN": "Do you know the new colleague? – I know him well."
+    },
+    {
+     "id": "ex-2",
+     "german": "Das ist genau das, was ich meinte.",
+     "meaningFA": "این دقیقاً همان چیزی است که منظورم بود.",
+     "meaningEN": "That is exactly what I meant."
+    },
+    {
+     "id": "ex-3",
+     "german": "Diese Idee finde ich besser als jene.",
+     "meaningFA": "این ایده را بهتر از آن می‌دانم.",
+     "meaningEN": "I find this idea better than that one."
+    },
+    {
+     "id": "ex-4",
+     "german": "Die Kollegen, mit denen ich arbeite, sind nett.",
+     "meaningFA": "همکارانی که با آن‌ها کار می‌کنم مهربان هستند.",
+     "meaningEN": "The colleagues I work with are nice."
+    },
+    {
+     "id": "ex-5",
+     "german": "Derjenige, der das gemacht hat, soll sich melden.",
+     "meaningFA": "کسی که این کار را کرده، اعلام کند.",
+     "meaningEN": "Whoever did this should speak up."
+    },
+    {
+     "id": "ex-6",
+     "german": "Das Auto meiner Schwester ist schneller als das meines Bruders.",
+     "meaningFA": "ماشین خواهرم سریع‌تر از ماشین برادرم است.",
+     "meaningEN": "My sister's car is faster than my brother's."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "personalpronomen",
+    "relativpronomen-relativsaetze"
+   ],
+   "exerciseSlugs": [
+    "ex-demopron-1",
+    "ex-demopron-2",
+    "ex-demopron-3",
+    "ex-demopron-4"
+   ]
+  },
+  {
+   "id": "indefinitpronomen",
+   "slug": "indefinitpronomen",
+   "titleDE": "Indefinitpronomen",
+   "titleFA": "ضمیر نامعین",
+   "titleEN": "Indefinite Pronouns",
+   "levels": [
+    "A2",
+    "B1"
+   ],
+   "category": "pronomen",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Indefinitpronomen (man, jemand, niemand, etwas, nichts, alle) beziehen sich auf unbestimmte Personen oder Dinge. 'man' wird nur im Nominativ verwendet und immer mit der 3. Person Singular konjugiert.",
+     "bodyFA": "ضمایر نامعین (man، jemand، niemand، etwas، nichts، alle) به اشخاص یا اشیای نامشخص اشاره می‌کنند. «man» فقط در Nominativ استفاده می‌شود و همیشه با سوم شخص مفرد صرف می‌شود.",
+     "bodyEN": "Indefinite pronouns (man, jemand, niemand, etwas, nichts, alle) refer to unspecified persons or things. 'man' is used only in the nominative and always conjugated with the 3rd person singular."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Man muss diese Regeln kennen.",
+     "meaningFA": "باید این قوانین را دانست.",
+     "meaningEN": "One must know these rules."
+    },
+    {
+     "id": "ex-2",
+     "german": "Hat jemand meinen Regenschirm gesehen?",
+     "meaningFA": "کسی چتر من را دیده؟",
+     "meaningEN": "Has anyone seen my umbrella?"
+    },
+    {
+     "id": "ex-3",
+     "german": "Niemand hat die Antwort gewusst.",
+     "meaningFA": "هیچ‌کس جواب را نمی‌دانست.",
+     "meaningEN": "Nobody knew the answer."
+    },
+    {
+     "id": "ex-4",
+     "german": "Ich möchte noch etwas fragen.",
+     "meaningFA": "می‌خواهم چیزی دیگر بپرسم.",
+     "meaningEN": "I would like to ask something else."
+    },
+    {
+     "id": "ex-5",
+     "german": "Das hat nichts mit dir zu tun.",
+     "meaningFA": "این ربطی به تو ندارد.",
+     "meaningEN": "That has nothing to do with you."
+    },
+    {
+     "id": "ex-6",
+     "german": "Alle waren mit dem Ergebnis zufrieden.",
+     "meaningFA": "همه از نتیجه راضی بودند.",
+     "meaningEN": "Everyone was satisfied with the result."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "indefinitartikel"
+   ],
+   "exerciseSlugs": [
+    "ex-indefpron-1",
+    "ex-indefpron-2",
+    "ex-indefpron-3",
+    "ex-indefpron-4"
+   ]
+  },
+  {
+   "id": "relativpronomen-relativsaetze",
+   "slug": "relativpronomen-relativsaetze",
+   "titleDE": "Relativpronomen und Relativsätze",
+   "titleFA": "ضمیر موصولی و جملات موصولی",
+   "titleEN": "Relative Pronouns and Relative Clauses",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "category": "pronomen",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": "Bildung",
+     "headingFA": "ساختار",
+     "headingEN": "Formation",
+     "bodyDE": "Relativsätze geben zusätzliche Informationen zu einem Nomen. Das Relativpronomen (der, die, das) stimmt im Genus/Numerus mit dem Bezugswort überein, sein Kasus hängt von seiner Funktion im Nebensatz ab. Das Verb steht am Satzende.",
+     "bodyFA": "جملات موصولی اطلاعات اضافی دربارهٔ یک اسم می‌دهند. ضمیر موصولی (der، die، das) در جنسیت/عدد با اسم مرجع هماهنگ است، کاسوسش به نقش آن در جملهٔ پیرو بستگی دارد. فعل در انتهای جمله می‌آید.",
+     "bodyEN": "Relative clauses give additional information about a noun. The relative pronoun (der, die, das) agrees in gender/number with the reference noun; its case depends on its function in the subordinate clause. The verb goes at the end."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Der Mann, der dort steht, ist mein Nachbar.",
+     "meaningFA": "مردی که آنجا ایستاده همسایهٔ من است.",
+     "meaningEN": "The man who is standing there is my neighbor.",
+     "noteDE": "'der' im Nominativ (Subjekt des Nebensatzes).",
+     "noteFA": "«der» در Nominativ (فاعل جملهٔ پیرو).",
+     "noteEN": "'der' in the nominative (subject of the clause)."
+    },
+    {
+     "id": "ex-2",
+     "german": "Das Buch, das ich gerade lese, ist spannend.",
+     "meaningFA": "کتابی که تازه می‌خوانم جذاب است.",
+     "meaningEN": "The book that I'm reading is exciting."
+    },
+    {
+     "id": "ex-3",
+     "german": "Die Frau, der ich geholfen habe, hat sich bedankt.",
+     "meaningFA": "زنی که به او کمک کردم تشکر کرد.",
+     "meaningEN": "The woman I helped thanked me.",
+     "noteDE": "'der' im Dativ (nach 'helfen').",
+     "noteFA": "«der» در Dativ (بعد از «helfen»).",
+     "noteEN": "'der' in the dative (after 'helfen')."
+    },
+    {
+     "id": "ex-4",
+     "german": "Die Kollegen, mit denen ich arbeite, sind hilfsbereit.",
+     "meaningFA": "همکارانی که با آن‌ها کار می‌کنم کمک‌کننده هستند.",
+     "meaningEN": "The colleagues I work with are helpful."
+    },
+    {
+     "id": "ex-5",
+     "german": "Das ist die Firma, deren Produkte sehr bekannt sind.",
+     "meaningFA": "این شرکتی است که محصولاتش خیلی معروف است.",
+     "meaningEN": "This is the company whose products are well known."
+    },
+    {
+     "id": "ex-6",
+     "german": "Der Film, den wir gestern gesehen haben, war toll.",
+     "meaningFA": "فیلمی که دیروز دیدیم عالی بود.",
+     "meaningEN": "The movie we watched yesterday was great."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "Relativpronomen dekliniert",
+     "titleFA": "صرف ضمیر موصولی",
+     "titleEN": "Declined Relative Pronouns",
+     "style": "simple",
+     "columns": [
+      "maskulin",
+      "feminin",
+      "neutrum",
+      "Plural"
+     ],
+     "rows": [
+      {
+       "rowLabel": "Nominativ",
+       "cells": [
+        "der",
+        "die",
+        "das",
+        "die"
+       ]
+      },
+      {
+       "rowLabel": "Akkusativ",
+       "cells": [
+        "den",
+        "die",
+        "das",
+        "die"
+       ]
+      },
+      {
+       "rowLabel": "Dativ",
+       "cells": [
+        "dem",
+        "der",
+        "dem",
+        "denen"
+       ]
+      },
+      {
+       "rowLabel": "Genitiv",
+       "cells": [
+        "dessen",
+        "deren",
+        "dessen",
+        "deren"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "demonstrativpronomen",
+    "praepositionalergaenzung"
+   ],
+   "exerciseSlugs": [
+    "ex-relsaetze-1",
+    "ex-relsaetze-2",
+    "ex-relsaetze-3",
+    "ex-relsaetze-4"
+   ]
+  },
+  {
+   "id": "pronomen-es",
+   "slug": "pronomen-es",
+   "titleDE": "Das Pronomen 'es'",
+   "titleFA": "ضمیر «es»",
+   "titleEN": "The Pronoun 'es'",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "category": "pronomen",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "'es' hat mehrere Funktionen: als Personalpronomen für neutrale Nomen, als unpersönliches Subjekt bei Wetter- und Zeitausdrücken, als Platzhalter am Satzanfang, und als Korrelat vor Nebensätzen.",
+     "bodyFA": "«es» چند کارکرد دارد: به‌عنوان ضمیر شخصی برای اسم‌های خنثی، به‌عنوان فاعل غیرشخصی در عبارات هوا و زمان، به‌عنوان جای‌نگهدار در ابتدای جمله، و به‌عنوان جانشین قبل از جملات پیرو.",
+     "bodyEN": "'es' has several functions: as a personal pronoun for neuter nouns, as an impersonal subject in weather and time expressions, as a placeholder at the start of a sentence, and as a correlate before subordinate clauses."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Es regnet seit heute Morgen.",
+     "meaningFA": "از امروز صبح باران می‌بارد.",
+     "meaningEN": "It has been raining since this morning.",
+     "noteDE": "Unpersönliches 'es' bei Wetter.",
+     "noteFA": "«es» غیرشخصی برای هوا.",
+     "noteEN": "Impersonal 'es' for weather."
+    },
+    {
+     "id": "ex-2",
+     "german": "Wie spät ist es?",
+     "meaningFA": "ساعت چند است؟",
+     "meaningEN": "What time is it?"
+    },
+    {
+     "id": "ex-3",
+     "german": "Es gibt heute keine Milch mehr.",
+     "meaningFA": "امروز دیگر شیر وجود ندارد.",
+     "meaningEN": "There is no more milk today."
+    },
+    {
+     "id": "ex-4",
+     "german": "Es freut mich, dass du gekommen bist.",
+     "meaningFA": "خوشحالم که آمدی.",
+     "meaningEN": "I'm happy that you came.",
+     "noteDE": "'es' als Korrelat vor dem dass-Satz.",
+     "noteFA": "«es» به‌عنوان جانشین قبل از جملهٔ dass.",
+     "noteEN": "'es' as a correlate before the dass-clause."
+    },
+    {
+     "id": "ex-5",
+     "german": "Das Kind spielt draußen; es ist sehr glücklich.",
+     "meaningFA": "بچه بیرون بازی می‌کند؛ او خیلی خوشحال است.",
+     "meaningEN": "The child is playing outside; it/he is very happy."
+    },
+    {
+     "id": "ex-6",
+     "german": "Es klingelt an der Tür.",
+     "meaningFA": "زنگ در به صدا درآمد.",
+     "meaningEN": "The doorbell is ringing."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "personalpronomen",
+    "dass-saetze"
+   ],
+   "exerciseSlugs": [
+    "ex-es-1",
+    "ex-es-2",
+    "ex-es-3",
+    "ex-es-4"
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-pers-1",
+   "lessonSlug": "personalpronomen",
+   "type": "multipleChoice",
+   "promptDE": "Ich sehe ___ jeden Tag. (er)",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "er",
+     "ihn",
+     "ihm",
+     "sein"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "Akkusativ von 'er' ist 'ihn'.",
+   "explanationAfterAnswerFA": "Akkusativ فعل «er»، «ihn» است.",
+   "explanationAfterAnswerEN": "The accusative of 'er' is 'ihn'."
+  },
+  {
+   "id": "ex-pers-2",
+   "lessonSlug": "personalpronomen",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Form.",
+   "promptFA": "شکل درست را کامل کن.",
+   "promptEN": "Complete with the correct form.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Kannst du ___ helfen? (ich)",
+    "correctAnswer": "mir",
+    "alternatives": [
+     "mich",
+     "ich"
+    ]
+   },
+   "explanationAfterAnswerDE": "'helfen' verlangt Dativ: 'mir'.",
+   "explanationAfterAnswerFA": "«helfen» به Dativ نیاز دارد: «mir».",
+   "explanationAfterAnswerEN": "'helfen' requires the dative: 'mir'."
+  },
+  {
+   "id": "ex-pers-3",
+   "lessonSlug": "personalpronomen",
+   "type": "matching",
+   "promptDE": "Verbinde Nominativ und Akkusativ.",
+   "promptFA": "Nominativ را به Akkusativ وصل کن.",
+   "promptEN": "Match nominative to accusative.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "ich",
+      "right": "mich"
+     },
+     {
+      "left": "du",
+      "right": "dich"
+     },
+     {
+      "left": "er",
+      "right": "ihn"
+     },
+     {
+      "left": "wir",
+      "right": "uns"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Jedes Pronomen hat eine eigene Akkusativform.",
+   "explanationAfterAnswerFA": "هر ضمیر شکل Akkusativ مخصوص خودش را دارد.",
+   "explanationAfterAnswerEN": "Each pronoun has its own accusative form."
+  },
+  {
+   "id": "ex-pers-4",
+   "lessonSlug": "personalpronomen",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "morgen",
+     "es",
+     "ihm",
+     "Ich",
+     "gebe"
+    ],
+    "correctSentence": "Ich gebe es ihm morgen."
+   },
+   "explanationAfterAnswerDE": "Bei zwei Pronomen steht Akkusativ vor Dativ.",
+   "explanationAfterAnswerFA": "در دو ضمیر، Akkusativ قبل از Dativ می‌آید.",
+   "explanationAfterAnswerEN": "With two pronouns, accusative comes before dative."
+  },
+  {
+   "id": "ex-demopron-1",
+   "lessonSlug": "demonstrativpronomen",
+   "type": "multipleChoice",
+   "promptDE": "Kennst du den neuen Kollegen? – ___ kenne ich gut.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "Der",
+     "Den",
+     "Dem",
+     "Die"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "Als Demonstrativpronomen im Akkusativ Maskulinum: 'Den'.",
+   "explanationAfterAnswerFA": "به‌عنوان ضمیر اشاره در Akkusativ مذکر: «Den».",
+   "explanationAfterAnswerEN": "As a demonstrative pronoun in the masculine accusative: 'Den'."
+  },
+  {
+   "id": "ex-demopron-2",
+   "lessonSlug": "demonstrativpronomen",
+   "type": "fillBlank",
+   "promptDE": "Ergänze das richtige Demonstrativpronomen.",
+   "promptFA": "ضمیر اشارهٔ درست را کامل کن.",
+   "promptEN": "Complete with the correct demonstrative pronoun.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Die Kollegen, mit ___ ich arbeite, sind nett.",
+    "correctAnswer": "denen",
+    "alternatives": [
+     "die",
+     "denen die"
+    ]
+   },
+   "explanationAfterAnswerDE": "Dativ Plural des Demonstrativpronomens ist 'denen'.",
+   "explanationAfterAnswerFA": "Dativ جمع ضمیر اشاره «denen» است.",
+   "explanationAfterAnswerEN": "The dative plural of the demonstrative pronoun is 'denen'."
+  },
+  {
+   "id": "ex-demopron-3",
+   "lessonSlug": "demonstrativpronomen",
+   "type": "matching",
+   "promptDE": "Verbinde die Sätze logisch.",
+   "promptFA": "جملات را منطقی وصل کن.",
+   "promptEN": "Match the sentences logically.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "Das Auto meiner Schwester",
+      "right": "ist schneller als das meines Bruders."
+     },
+     {
+      "left": "Diese Idee",
+      "right": "finde ich besser als jene."
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Demonstrativpronomen vermeiden Wiederholung des Nomens.",
+   "explanationAfterAnswerFA": "ضمیر اشاره از تکرار اسم جلوگیری می‌کند.",
+   "explanationAfterAnswerEN": "Demonstrative pronouns avoid repeating the noun."
+  },
+  {
+   "id": "ex-demopron-4",
+   "lessonSlug": "demonstrativpronomen",
+   "type": "transform",
+   "promptDE": "Ersetze das Nomen durch ein Demonstrativpronomen.",
+   "promptFA": "اسم را با ضمیر اشاره جایگزین کن.",
+   "promptEN": "Replace the noun with a demonstrative pronoun.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Kennst du das neue Café? Das neue Café kenne ich gut.",
+    "instructionDE": "Zweiten Satz mit Pronomen umformulieren.",
+    "instructionFA": "جملهٔ دوم را با ضمیر بازنویسی کن.",
+    "instructionEN": "Rephrase the second sentence with a pronoun.",
+    "correctAnswer": "Kennst du das neue Café? Das kenne ich gut."
+   },
+   "explanationAfterAnswerDE": "'das' ersetzt das bereits genannte Nomen.",
+   "explanationAfterAnswerFA": "«das» اسمی که قبلاً ذکر شده را جایگزین می‌کند.",
+   "explanationAfterAnswerEN": "'das' replaces the noun already mentioned."
+  },
+  {
+   "id": "ex-indefpron-1",
+   "lessonSlug": "indefinitpronomen",
+   "type": "multipleChoice",
+   "promptDE": "___ muss diese Regeln kennen.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "Man",
+     "Jemand",
+     "Niemand",
+     "Etwas"
+    ],
+    "correctIndex": 0
+   },
+   "explanationAfterAnswerDE": "'man' drückt eine allgemeine, unbestimmte Aussage aus.",
+   "explanationAfterAnswerFA": "«man» یک گفتهٔ کلی و نامشخص را بیان می‌کند.",
+   "explanationAfterAnswerEN": "'man' expresses a general, unspecified statement."
+  },
+  {
+   "id": "ex-indefpron-2",
+   "lessonSlug": "indefinitpronomen",
+   "type": "fillBlank",
+   "promptDE": "Ergänze das richtige Indefinitpronomen.",
+   "promptFA": "ضمیر نامعین درست را کامل کن.",
+   "promptEN": "Complete with the correct indefinite pronoun.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Hat ___ meinen Regenschirm gesehen?",
+    "correctAnswer": "jemand",
+    "alternatives": [
+     "niemand",
+     "man"
+    ]
+   },
+   "explanationAfterAnswerDE": "'jemand' fragt nach einer unbestimmten Person.",
+   "explanationAfterAnswerFA": "«jemand» دربارهٔ شخصی نامشخص سؤال می‌کند.",
+   "explanationAfterAnswerEN": "'jemand' asks about an unspecified person."
+  },
+  {
+   "id": "ex-indefpron-3",
+   "lessonSlug": "indefinitpronomen",
+   "type": "matching",
+   "promptDE": "Verbinde Indefinitpronomen und Gegenteil.",
+   "promptFA": "ضمیر نامعین را به متضادش وصل کن.",
+   "promptEN": "Match the indefinite pronoun to its opposite.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "jemand",
+      "right": "niemand"
+     },
+     {
+      "left": "etwas",
+      "right": "nichts"
+     },
+     {
+      "left": "alle",
+      "right": "keiner"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Diese Indefinitpronomen bilden Gegensatzpaare.",
+   "explanationAfterAnswerFA": "این ضمایر نامعین جفت‌های متضاد می‌سازند.",
+   "explanationAfterAnswerEN": "These indefinite pronouns form opposite pairs."
+  },
+  {
+   "id": "ex-indefpron-4",
+   "lessonSlug": "indefinitpronomen",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "mit",
+     "dem",
+     "zu",
+     "hat",
+     "nichts",
+     "tun",
+     "Das",
+     "dir"
+    ],
+    "correctSentence": "Das hat nichts mit dir zu tun."
+   },
+   "explanationAfterAnswerDE": "'nichts' verneint das Objekt vollständig.",
+   "explanationAfterAnswerFA": "«nichts» مفعول را کاملاً نفی می‌کند.",
+   "explanationAfterAnswerEN": "'nichts' completely negates the object."
+  },
+  {
+   "id": "ex-relsaetze-1",
+   "lessonSlug": "relativpronomen-relativsaetze",
+   "type": "multipleChoice",
+   "promptDE": "Der Mann, ___ dort steht, ist mein Nachbar.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "den",
+     "der",
+     "dem",
+     "dessen"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "'der' ist hier Subjekt des Nebensatzes (Nominativ).",
+   "explanationAfterAnswerFA": "«der» اینجا فاعل جملهٔ پیرو است (Nominativ).",
+   "explanationAfterAnswerEN": "'der' here is the subject of the subordinate clause (nominative)."
+  },
+  {
+   "id": "ex-relsaetze-2",
+   "lessonSlug": "relativpronomen-relativsaetze",
+   "type": "fillBlank",
+   "promptDE": "Ergänze das richtige Relativpronomen.",
+   "promptFA": "ضمیر موصولی درست را کامل کن.",
+   "promptEN": "Complete with the correct relative pronoun.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Die Frau, ___ ich geholfen habe, hat sich bedankt.",
+    "correctAnswer": "der",
+    "alternatives": [
+     "die",
+     "den"
+    ]
+   },
+   "explanationAfterAnswerDE": "'helfen' verlangt Dativ: 'der' (feminin Dativ).",
+   "explanationAfterAnswerFA": "«helfen» به Dativ نیاز دارد: «der» (مؤنث در Dativ).",
+   "explanationAfterAnswerEN": "'helfen' requires the dative: 'der' (feminine dative)."
+  },
+  {
+   "id": "ex-relsaetze-3",
+   "lessonSlug": "relativpronomen-relativsaetze",
+   "type": "transform",
+   "promptDE": "Verbinde die zwei Sätze mit einem Relativsatz.",
+   "promptFA": "دو جمله را با جملهٔ موصولی وصل کن.",
+   "promptEN": "Connect the two sentences with a relative clause.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Das ist die Firma. Ihre Produkte sind sehr bekannt.",
+    "instructionDE": "Mit 'deren' verbinden.",
+    "instructionFA": "با «deren» وصل کن.",
+    "instructionEN": "Connect with 'deren'.",
+    "correctAnswer": "Das ist die Firma, deren Produkte sehr bekannt sind."
+   },
+   "explanationAfterAnswerDE": "'deren' ersetzt einen possessiven Bezug (Genitiv).",
+   "explanationAfterAnswerFA": "«deren» یک ارجاع ملکی (Genitiv) را جایگزین می‌کند.",
+   "explanationAfterAnswerEN": "'deren' replaces a possessive reference (genitive)."
+  },
+  {
+   "id": "ex-relsaetze-4",
+   "lessonSlug": "relativpronomen-relativsaetze",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "war",
+     "gestern",
+     "Film",
+     "toll",
+     "gesehen",
+     "haben",
+     "Der",
+     "den",
+     "wir"
+    ],
+    "correctSentence": "Der Film, den wir gestern gesehen haben, war toll."
+   },
+   "explanationAfterAnswerDE": "Das Verb steht am Ende des Relativsatzes.",
+   "explanationAfterAnswerFA": "فعل در انتهای جملهٔ موصولی می‌آید.",
+   "explanationAfterAnswerEN": "The verb goes at the end of the relative clause."
+  },
+  {
+   "id": "ex-es-1",
+   "lessonSlug": "pronomen-es",
+   "type": "multipleChoice",
+   "promptDE": "___ regnet seit heute Morgen.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "Er",
+     "Es",
+     "Sie",
+     "Das"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "Wetterausdrücke verwenden unpersönliches 'es'.",
+   "explanationAfterAnswerFA": "عبارات هوا از «es» غیرشخصی استفاده می‌کنند.",
+   "explanationAfterAnswerEN": "Weather expressions use the impersonal 'es'."
+  },
+  {
+   "id": "ex-es-2",
+   "lessonSlug": "pronomen-es",
+   "type": "fillBlank",
+   "promptDE": "Ergänze 'es', falls nötig.",
+   "promptFA": "در صورت نیاز «es» را کامل کن.",
+   "promptEN": "Complete with 'es' if needed.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "___ freut mich, dass du gekommen bist.",
+    "correctAnswer": "Es",
+    "alternatives": [
+     "Das",
+     "Ich"
+    ]
+   },
+   "explanationAfterAnswerDE": "'es' als Korrelat vor dem dass-Satz.",
+   "explanationAfterAnswerFA": "«es» به‌عنوان جانشین قبل از جملهٔ dass.",
+   "explanationAfterAnswerEN": "'es' as a correlate before the dass-clause."
+  },
+  {
+   "id": "ex-es-3",
+   "lessonSlug": "pronomen-es",
+   "type": "matching",
+   "promptDE": "Verbinde Funktion von 'es' mit Beispiel.",
+   "promptFA": "کارکرد «es» را به مثال وصل کن.",
+   "promptEN": "Match the function of 'es' to the example.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "Wetter",
+      "right": "Es regnet."
+     },
+     {
+      "left": "Zeit",
+      "right": "Wie spät ist es?"
+     },
+     {
+      "left": "unpersönlicher Ausdruck",
+      "right": "Es gibt keine Milch."
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "'es' hat mehrere unterschiedliche Funktionen im Deutschen.",
+   "explanationAfterAnswerFA": "«es» چند کارکرد متفاوت در آلمانی دارد.",
+   "explanationAfterAnswerEN": "'es' has several different functions in German."
+  },
+  {
+   "id": "ex-es-4",
+   "lessonSlug": "pronomen-es",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "der",
+     "klingelt",
+     "Tür",
+     "Es",
+     "an"
+    ],
+    "correctSentence": "Es klingelt an der Tür."
+   },
+   "explanationAfterAnswerDE": "'es' als unpersönliches Subjekt bei Geräuschen.",
+   "explanationAfterAnswerFA": "«es» به‌عنوان فاعل غیرشخصی برای صداها.",
+   "explanationAfterAnswerEN": "'es' as an impersonal subject for sounds."
+  }
+ ]
+}

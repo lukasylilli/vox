@@ -1,0 +1,539 @@
+{
+ "_index": {
+  "fileDescription": "Ergänzungssätze: dass-Sätze, Infinitivsätze (mit/ohne zu), indirekte Fragesätze",
+  "lastUpdatedStage": 9,
+  "lessons": [
+   "dass-saetze — جملات متممی با dass",
+   "infinitivsaetze — جملات مصدری با zu",
+   "indirekte-fragesaetze — سؤالات غیرمستقیم"
+  ]
+ },
+ "lessons": [
+  {
+   "id": "dass-saetze",
+   "slug": "dass-saetze",
+   "titleDE": "Dass-Sätze",
+   "titleFA": "جملات متممی با «dass»",
+   "titleEN": "Dass-Clauses",
+   "levels": [
+    "A2",
+    "B1"
+   ],
+   "category": "ergaenzungssaetze",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "'dass'-Sätze sind Nebensätze, die als Objekt- oder Subjektergänzung dienen, oft nach Verben wie 'glauben', 'wissen', 'denken', 'hoffen'. Das konjugierte Verb steht am Ende des Nebensatzes.",
+     "bodyFA": "جملات «dass» جملات پیرو هستند که به‌عنوان متمم مفعولی یا فاعلی عمل می‌کنند، اغلب بعد از افعالی مثل «glauben»، «wissen»، «denken»، «hoffen». فعل صرف‌شده در انتهای جملهٔ پیرو می‌آید.",
+     "bodyEN": "'dass'-clauses are subordinate clauses that function as an object or subject complement, often after verbs like 'glauben', 'wissen', 'denken', 'hoffen'. The conjugated verb goes to the end of the subordinate clause."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Ich glaube, dass er recht hat.",
+     "meaningFA": "فکر می‌کنم که او حق دارد.",
+     "meaningEN": "I believe that he is right."
+    },
+    {
+     "id": "ex-2",
+     "german": "Wir hoffen, dass das Wetter morgen besser wird.",
+     "meaningFA": "امیدواریم که هوا فردا بهتر شود.",
+     "meaningEN": "We hope that the weather will be better tomorrow."
+    },
+    {
+     "id": "ex-3",
+     "german": "Sie weiß, dass die Prüfung schwer ist.",
+     "meaningFA": "او می‌داند که امتحان سخت است.",
+     "meaningEN": "She knows that the exam is difficult."
+    },
+    {
+     "id": "ex-4",
+     "german": "Es ist wichtig, dass du pünktlich kommst.",
+     "meaningFA": "مهم است که سر وقت بیایی.",
+     "meaningEN": "It is important that you come on time."
+    },
+    {
+     "id": "ex-5",
+     "german": "Ich freue mich, dass ihr uns besucht.",
+     "meaningFA": "خوشحالم که شما به ما سر می‌زنید.",
+     "meaningEN": "I'm happy that you (pl.) are visiting us."
+    },
+    {
+     "id": "ex-6",
+     "german": "Der Chef sagt, dass das Projekt Priorität hat.",
+     "meaningFA": "رئیس می‌گوید که پروژه اولویت دارد.",
+     "meaningEN": "The boss says that the project has priority."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "infinitivsaetze",
+    "indirekte-fragesaetze"
+   ],
+   "exerciseSlugs": [
+    "ex-dass-1",
+    "ex-dass-2",
+    "ex-dass-3",
+    "ex-dass-4"
+   ]
+  },
+  {
+   "id": "infinitivsaetze",
+   "slug": "infinitivsaetze",
+   "titleDE": "Infinitivsätze mit 'zu'",
+   "titleFA": "جملات مصدری با «zu»",
+   "titleEN": "Infinitive Clauses with 'zu'",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "category": "ergaenzungssaetze",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Infinitivsätze mit 'zu' werden verwendet, wenn Haupt- und Nebensatz das gleiche Subjekt haben. Sie sind eine kürzere Alternative zum 'dass'-Satz. Häufige Auslöser: 'es ist wichtig', 'versuchen', 'vorhaben', 'Lust haben'.",
+     "bodyFA": "جملات مصدری با «zu» زمانی استفاده می‌شوند که جملهٔ اصلی و پیرو فاعل یکسان داشته باشند. جایگزین کوتاه‌تری برای جملهٔ «dass» هستند. محرک‌های پرکاربرد: «es ist wichtig»، «versuchen»، «vorhaben»، «Lust haben».",
+     "bodyEN": "Infinitive clauses with 'zu' are used when the main and subordinate clause share the same subject. They are a shorter alternative to a 'dass'-clause. Common triggers: 'es ist wichtig', 'versuchen', 'vorhaben', 'Lust haben'."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Es ist wichtig, pünktlich zu kommen.",
+     "meaningFA": "مهم است که سر وقت آمد.",
+     "meaningEN": "It is important to come on time."
+    },
+    {
+     "id": "ex-2",
+     "german": "Wir versuchen, das Problem zu lösen.",
+     "meaningFA": "ما سعی می‌کنیم مشکل را حل کنیم.",
+     "meaningEN": "We are trying to solve the problem."
+    },
+    {
+     "id": "ex-3",
+     "german": "Sie hat vor, nächstes Jahr umzuziehen.",
+     "meaningFA": "او قصد دارد سال آینده اسباب‌کشی کند.",
+     "meaningEN": "She plans to move next year.",
+     "noteDE": "Bei trennbaren Verben steht 'zu' zwischen Präfix und Stamm.",
+     "noteFA": "در افعال جداشدنی، «zu» بین پیشوند و ریشه قرار می‌گیرد.",
+     "noteEN": "With separable verbs, 'zu' goes between the prefix and stem."
+    },
+    {
+     "id": "ex-4",
+     "german": "Ich habe keine Lust, heute zu kochen.",
+     "meaningFA": "امروز حوصلهٔ آشپزی ندارم.",
+     "meaningEN": "I don't feel like cooking today."
+    },
+    {
+     "id": "ex-5",
+     "german": "Er hofft, die Stelle zu bekommen.",
+     "meaningFA": "او امیدوار است آن شغل را بگیرد.",
+     "meaningEN": "He hopes to get the position."
+    },
+    {
+     "id": "ex-6",
+     "german": "Es macht Spaß, neue Sprachen zu lernen.",
+     "meaningFA": "یادگیری زبان‌های جدید لذت‌بخش است.",
+     "meaningEN": "It's fun to learn new languages."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "dass-Satz vs. Infinitivsatz",
+     "titleFA": "جملهٔ dass در مقابل جملهٔ مصدری",
+     "titleEN": "dass-Clause vs. Infinitive Clause",
+     "style": "simple",
+     "columns": [
+      "Bedingung",
+      "Beispiel"
+     ],
+     "rows": [
+      {
+       "rowLabel": "gleiches Subjekt",
+       "cells": [
+        "Infinitivsatz möglich: Ich hoffe, das zu schaffen."
+       ]
+      },
+      {
+       "rowLabel": "unterschiedliches Subjekt",
+       "cells": [
+        "nur dass-Satz: Ich hoffe, dass du das schaffst."
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "dass-saetze"
+   ],
+   "exerciseSlugs": [
+    "ex-inf-1",
+    "ex-inf-2",
+    "ex-inf-3",
+    "ex-inf-4"
+   ]
+  },
+  {
+   "id": "indirekte-fragesaetze",
+   "slug": "indirekte-fragesaetze",
+   "titleDE": "Indirekte Fragesätze",
+   "titleFA": "سؤالات غیرمستقیم",
+   "titleEN": "Indirect Questions",
+   "levels": [
+    "A2",
+    "B1"
+   ],
+   "category": "ergaenzungssaetze",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Indirekte Fragesätze berichten eine Frage, ohne ein Fragezeichen zu benötigen. Bei W-Fragen wird das Fragewort beibehalten (wer, was, wann...); bei Ja/Nein-Fragen wird 'ob' verwendet. Das Verb steht am Ende.",
+     "bodyFA": "سؤالات غیرمستقیم یک سؤال را نقل می‌کنند بدون نیاز به علامت سؤال. در سؤالات با کلمهٔ پرسشی (W-Fragen)، همان کلمه حفظ می‌شود (wer، was، wann...)؛ در سؤالات بله/خیر از «ob» استفاده می‌شود. فعل در انتها می‌آید.",
+     "bodyEN": "Indirect questions report a question without needing a question mark. With W-questions, the question word is kept (wer, was, wann...); with yes/no questions, 'ob' is used. The verb goes at the end."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Ich weiß nicht, wann der Zug ankommt.",
+     "meaningFA": "نمی‌دانم قطار کی می‌رسد.",
+     "meaningEN": "I don't know when the train arrives."
+    },
+    {
+     "id": "ex-2",
+     "german": "Kannst du mir sagen, ob das Geschäft heute offen ist?",
+     "meaningFA": "می‌توانی به من بگویی آیا مغازه امروز باز است؟",
+     "meaningEN": "Can you tell me if the shop is open today?"
+    },
+    {
+     "id": "ex-3",
+     "german": "Sie fragt sich, warum er nicht angerufen hat.",
+     "meaningFA": "او از خودش می‌پرسد چرا او زنگ نزده است.",
+     "meaningEN": "She wonders why he hasn't called."
+    },
+    {
+     "id": "ex-4",
+     "german": "Wir wissen nicht, wie viel das kostet.",
+     "meaningFA": "نمی‌دانیم این چقدر قیمت دارد.",
+     "meaningEN": "We don't know how much that costs."
+    },
+    {
+     "id": "ex-5",
+     "german": "Er hat gefragt, ob wir mitkommen wollen.",
+     "meaningFA": "او پرسید که آیا ما می‌خواهیم همراه بیاییم.",
+     "meaningEN": "He asked if we wanted to come along."
+    },
+    {
+     "id": "ex-6",
+     "german": "Ich möchte wissen, wo der nächste Supermarkt ist.",
+     "meaningFA": "می‌خواهم بدانم نزدیک‌ترین سوپرمارکت کجاست.",
+     "meaningEN": "I would like to know where the nearest supermarket is."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "W-Frage vs. Ja/Nein-Frage indirekt",
+     "titleFA": "سؤال با کلمهٔ پرسشی در مقابل سؤال بله/خیر (غیرمستقیم)",
+     "titleEN": "Indirect W-Question vs. Yes/No Question",
+     "style": "simple",
+     "columns": [
+      "Direkte Frage",
+      "Indirekte Frage"
+     ],
+     "rows": [
+      {
+       "rowLabel": "Wann kommt er?",
+       "cells": [
+        "Ich weiß nicht, wann er kommt."
+       ]
+      },
+      {
+       "rowLabel": "Kommt er heute?",
+       "cells": [
+        "Ich weiß nicht, ob er heute kommt."
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "dass-saetze"
+   ],
+   "exerciseSlugs": [
+    "ex-indfr-1",
+    "ex-indfr-2",
+    "ex-indfr-3",
+    "ex-indfr-4"
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-dass-1",
+   "lessonSlug": "dass-saetze",
+   "type": "multipleChoice",
+   "promptDE": "Ich glaube, dass er recht ___.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "hat",
+     "hatte",
+     "haben",
+     "habe"
+    ],
+    "correctIndex": 0
+   },
+   "explanationAfterAnswerDE": "Bei 'er' verwendet man 'hat'; das Verb steht am Ende des dass-Satzes.",
+   "explanationAfterAnswerFA": "برای «er» از «hat» استفاده می‌شود؛ فعل در انتهای جملهٔ dass می‌آید.",
+   "explanationAfterAnswerEN": "For 'er', 'hat' is used; the verb goes at the end of the dass-clause."
+  },
+  {
+   "id": "ex-dass-2",
+   "lessonSlug": "dass-saetze",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen dass-Satz.",
+   "promptFA": "جملهٔ dass را به‌درستی بچین.",
+   "promptEN": "Form a correct dass-clause.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "morgen",
+     "dass",
+     "besser",
+     "Wetter",
+     "wird",
+     "das"
+    ],
+    "correctSentence": "dass das Wetter morgen besser wird"
+   },
+   "explanationAfterAnswerDE": "Im Nebensatz mit 'dass' steht das konjugierte Verb am Ende.",
+   "explanationAfterAnswerFA": "در جملهٔ پیرو با «dass»، فعل صرف‌شده در انتها می‌آید.",
+   "explanationAfterAnswerEN": "In a 'dass'-clause, the conjugated verb goes at the end."
+  },
+  {
+   "id": "ex-dass-3",
+   "lessonSlug": "dass-saetze",
+   "type": "transform",
+   "promptDE": "Verbinde die zwei Sätze mit 'dass'.",
+   "promptFA": "دو جمله را با «dass» وصل کن.",
+   "promptEN": "Connect the two sentences with 'dass'.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Sie weiß etwas. Die Prüfung ist schwer.",
+    "instructionDE": "Mit 'dass' verbinden.",
+    "instructionFA": "با «dass» وصل کن.",
+    "instructionEN": "Connect with 'dass'.",
+    "correctAnswer": "Sie weiß, dass die Prüfung schwer ist."
+   },
+   "explanationAfterAnswerDE": "'dass' leitet den Nebensatz ein; das Verb wandert ans Ende.",
+   "explanationAfterAnswerFA": "«dass» جملهٔ پیرو را معرفی می‌کند؛ فعل به انتها می‌رود.",
+   "explanationAfterAnswerEN": "'dass' introduces the subordinate clause; the verb moves to the end."
+  },
+  {
+   "id": "ex-dass-4",
+   "lessonSlug": "dass-saetze",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Verbform.",
+   "promptFA": "شکل درست فعل را کامل کن.",
+   "promptEN": "Complete with the correct verb form.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Der Chef sagt, dass das Projekt Priorität ___.",
+    "correctAnswer": "hat",
+    "alternatives": [
+     "haben",
+     "hatte"
+    ]
+   },
+   "explanationAfterAnswerDE": "Bei 'das Projekt' (Singular) verwendet man 'hat'.",
+   "explanationAfterAnswerFA": "برای «das Projekt» (مفرد) از «hat» استفاده می‌شود.",
+   "explanationAfterAnswerEN": "For 'das Projekt' (singular), 'hat' is used."
+  },
+  {
+   "id": "ex-inf-1",
+   "lessonSlug": "infinitivsaetze",
+   "type": "multipleChoice",
+   "promptDE": "Es ist wichtig, pünktlich ___ kommen.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "zu",
+     "dass",
+     "um",
+     "für"
+    ],
+    "correctIndex": 0
+   },
+   "explanationAfterAnswerDE": "Infinitivsatz: 'zu' + Infinitiv.",
+   "explanationAfterAnswerFA": "جملهٔ مصدری: «zu» + مصدر.",
+   "explanationAfterAnswerEN": "Infinitive clause: 'zu' + infinitive."
+  },
+  {
+   "id": "ex-inf-2",
+   "lessonSlug": "infinitivsaetze",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Form.",
+   "promptFA": "شکل درست را کامل کن.",
+   "promptEN": "Complete with the correct form.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Sie hat vor, nächstes Jahr ___ (umziehen).",
+    "correctAnswer": "umzuziehen",
+    "alternatives": [
+     "zu umziehen",
+     "umziehen zu"
+    ]
+   },
+   "explanationAfterAnswerDE": "Bei trennbaren Verben steht 'zu' zwischen Präfix und Stamm: um-zu-ziehen.",
+   "explanationAfterAnswerFA": "در افعال جداشدنی، «zu» بین پیشوند و ریشه می‌آید: um-zu-ziehen.",
+   "explanationAfterAnswerEN": "With separable verbs, 'zu' goes between the prefix and stem: um-zu-ziehen."
+  },
+  {
+   "id": "ex-inf-3",
+   "lessonSlug": "infinitivsaetze",
+   "type": "transform",
+   "promptDE": "Wandle in einen Infinitivsatz um.",
+   "promptFA": "به جملهٔ مصدری تبدیل کن.",
+   "promptEN": "Transform into an infinitive clause.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Ich hoffe, dass ich die Stelle bekomme.",
+    "instructionDE": "Mit gleichem Subjekt als Infinitivsatz.",
+    "instructionFA": "با فاعل یکسان به جملهٔ مصدری تبدیل کن.",
+    "instructionEN": "Transform with the same subject.",
+    "correctAnswer": "Ich hoffe, die Stelle zu bekommen."
+   },
+   "explanationAfterAnswerDE": "Bei gleichem Subjekt ist der Infinitivsatz kürzer und natürlicher.",
+   "explanationAfterAnswerFA": "وقتی فاعل یکسان است، جملهٔ مصدری کوتاه‌تر و طبیعی‌تر است.",
+   "explanationAfterAnswerEN": "With the same subject, the infinitive clause is shorter and more natural."
+  },
+  {
+   "id": "ex-inf-4",
+   "lessonSlug": "infinitivsaetze",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "Spaß",
+     "macht",
+     "zu",
+     "Sprachen",
+     "neue",
+     "Es",
+     "lernen"
+    ],
+    "correctSentence": "Es macht Spaß, neue Sprachen zu lernen."
+   },
+   "explanationAfterAnswerDE": "'zu' steht direkt vor dem Infinitiv am Satzende.",
+   "explanationAfterAnswerFA": "«zu» بلافاصله قبل از مصدر در انتهای جمله می‌آید.",
+   "explanationAfterAnswerEN": "'zu' goes directly before the infinitive at the end."
+  },
+  {
+   "id": "ex-indfr-1",
+   "lessonSlug": "indirekte-fragesaetze",
+   "type": "multipleChoice",
+   "promptDE": "Kannst du mir sagen, ___ das Geschäft heute offen ist?",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "dass",
+     "ob",
+     "wenn",
+     "als"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "Bei Ja/Nein-Fragen wird 'ob' verwendet.",
+   "explanationAfterAnswerFA": "در سؤالات بله/خیر از «ob» استفاده می‌شود.",
+   "explanationAfterAnswerEN": "For yes/no questions, 'ob' is used."
+  },
+  {
+   "id": "ex-indfr-2",
+   "lessonSlug": "indirekte-fragesaetze",
+   "type": "transform",
+   "promptDE": "Wandle in eine indirekte Frage um.",
+   "promptFA": "به سؤال غیرمستقیم تبدیل کن.",
+   "promptEN": "Transform into an indirect question.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Wann kommt der Zug an?",
+    "instructionDE": "Mit 'Ich weiß nicht, ...' einleiten.",
+    "instructionFA": "با «Ich weiß nicht, ...» شروع کن.",
+    "instructionEN": "Introduce with 'Ich weiß nicht, ...'.",
+    "correctAnswer": "Ich weiß nicht, wann der Zug ankommt."
+   },
+   "explanationAfterAnswerDE": "Das Fragewort bleibt erhalten; das Verb wandert ans Ende.",
+   "explanationAfterAnswerFA": "کلمهٔ پرسشی حفظ می‌شود؛ فعل به انتها می‌رود.",
+   "explanationAfterAnswerEN": "The question word is kept; the verb moves to the end."
+  },
+  {
+   "id": "ex-indfr-3",
+   "lessonSlug": "indirekte-fragesaetze",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Form.",
+   "promptFA": "شکل درست را کامل کن.",
+   "promptEN": "Complete with the correct form.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Wir wissen nicht, wie viel das ___.",
+    "correctAnswer": "kostet",
+    "alternatives": [
+     "kostete",
+     "gekostet"
+    ]
+   },
+   "explanationAfterAnswerDE": "Präsens-Form am Ende des Nebensatzes.",
+   "explanationAfterAnswerFA": "شکل Präsens در انتهای جملهٔ پیرو.",
+   "explanationAfterAnswerEN": "Present tense form at the end of the subordinate clause."
+  },
+  {
+   "id": "ex-indfr-4",
+   "lessonSlug": "indirekte-fragesaetze",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "Supermarkt",
+     "wissen",
+     "wo",
+     "nächste",
+     "Ich",
+     "möchte",
+     "ist",
+     "der"
+    ],
+    "correctSentence": "Ich möchte wissen, wo der nächste Supermarkt ist."
+   },
+   "explanationAfterAnswerDE": "Bei 'wo' bleibt das Fragewort, das Verb steht am Ende.",
+   "explanationAfterAnswerFA": "در «wo» کلمهٔ پرسشی حفظ می‌شود، فعل در انتها می‌آید.",
+   "explanationAfterAnswerEN": "With 'wo', the question word is kept, and the verb goes at the end."
+  }
+ ]
+}

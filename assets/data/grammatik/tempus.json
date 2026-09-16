@@ -1,0 +1,929 @@
+{
+ "_index": {
+  "fileDescription": "Tempus: Perfekt, Präteritum, Plusquamperfekt, Futur I, Futur II (Gegenwart/Präsens قبلاً در verben-grundlagen.json پوشش داده شده)",
+  "lastUpdatedStage": 5,
+  "lessons": [
+   "perfekt — زمان کامل (گذشتهٔ نقلی محاوره‌ای)",
+   "praeteritum — زمان گذشتهٔ ساده",
+   "plusquamperfekt — زمان ماقبل ماضی",
+   "futur-1 — آیندهٔ ساده",
+   "futur-2 — آیندهٔ کامل"
+  ]
+ },
+ "lessons": [
+  {
+   "id": "perfekt",
+   "slug": "perfekt",
+   "titleDE": "Das Perfekt",
+   "titleFA": "زمان Perfekt (گذشتهٔ نقلی)",
+   "titleEN": "The Perfect Tense",
+   "levels": [
+    "A1",
+    "A2"
+   ],
+   "category": "tempus",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": "Bildung",
+     "headingFA": "ساختار",
+     "headingEN": "Formation",
+     "bodyDE": "Das Perfekt wird mit 'haben' oder 'sein' (konjugiert) + Partizip II gebildet. Das Partizip II steht am Satzende. Die meisten Verben bilden das Perfekt mit 'haben'; Bewegungs- und Zustandsänderungsverben mit 'sein'.",
+     "bodyFA": "زمان Perfekt با «haben» یا «sein» (صرف‌شده) + Partizip II ساخته می‌شود. Partizip II در انتهای جمله می‌آید. اکثر افعال با «haben» و افعال حرکتی/تغییر حالت با «sein» ساخته می‌شوند.",
+     "bodyEN": "The Perfect tense is formed with 'haben' or 'sein' (conjugated) + Partizip II. The Partizip II goes to the end of the sentence. Most verbs use 'haben'; verbs of motion or change of state use 'sein'."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Wir haben gestern einen Film gesehen.",
+     "meaningFA": "ما دیروز یک فیلم دیدیم.",
+     "meaningEN": "We watched a movie yesterday."
+    },
+    {
+     "id": "ex-2",
+     "german": "Sie ist letzte Woche nach Berlin gefahren.",
+     "meaningFA": "او هفتهٔ پیش به برلین رفت.",
+     "meaningEN": "She went to Berlin last week.",
+     "noteDE": "Bewegungsverb → 'sein'.",
+     "noteFA": "فعل حرکتی → 'sein'.",
+     "noteEN": "Verb of motion → 'sein'."
+    },
+    {
+     "id": "ex-3",
+     "german": "Hast du das Paket schon bekommen?",
+     "meaningFA": "بسته را تا حالا دریافت کردی؟",
+     "meaningEN": "Have you already received the package?"
+    },
+    {
+     "id": "ex-4",
+     "german": "Ich bin heute Morgen aufgewacht.",
+     "meaningFA": "من امروز صبح بیدار شدم.",
+     "meaningEN": "I woke up this morning.",
+     "noteDE": "Zustandsänderung → 'sein'.",
+     "noteFA": "تغییر حالت → 'sein'.",
+     "noteEN": "Change of state → 'sein'."
+    },
+    {
+     "id": "ex-5",
+     "german": "Ihr habt die Prüfung gut bestanden.",
+     "meaningFA": "شما امتحان را خوب قبول شدید.",
+     "meaningEN": "You (pl.) passed the exam well."
+    },
+    {
+     "id": "ex-6",
+     "german": "Die Firma hat neue Mitarbeiter eingestellt.",
+     "meaningFA": "شرکت کارمندان جدید استخدام کرد.",
+     "meaningEN": "The company hired new employees."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "haben oder sein?",
+     "titleFA": "haben یا sein؟",
+     "titleEN": "haben or sein?",
+     "style": "simple",
+     "columns": [
+      "Regel",
+      "Beispielverb"
+     ],
+     "rows": [
+      {
+       "rowLabel": "die meisten Verben",
+       "cells": [
+        "mit haben",
+        "machen, sehen, kaufen"
+       ]
+      },
+      {
+       "rowLabel": "Bewegung (Ortswechsel)",
+       "cells": [
+        "mit sein",
+        "fahren, gehen, laufen"
+       ]
+      },
+      {
+       "rowLabel": "Zustandsänderung",
+       "cells": [
+        "mit sein",
+        "aufwachen, einschlafen, sterben"
+       ]
+      },
+      {
+       "rowLabel": "sein, bleiben, werden",
+       "cells": [
+        "mit sein",
+        "Ausnahmen"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "regelmaessige-verben",
+    "unregelmaessige-verben",
+    "praeteritum"
+   ],
+   "exerciseSlugs": [
+    "ex-perfekt-1",
+    "ex-perfekt-2",
+    "ex-perfekt-3",
+    "ex-perfekt-4"
+   ]
+  },
+  {
+   "id": "praeteritum",
+   "slug": "praeteritum",
+   "titleDE": "Das Präteritum",
+   "titleFA": "زمان Präteritum (گذشتهٔ ساده)",
+   "titleEN": "The Simple Past (Präteritum)",
+   "levels": [
+    "A2",
+    "B1"
+   ],
+   "category": "tempus",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Das Präteritum wird vor allem in geschriebenen Texten und beim Erzählen verwendet, sowie fast immer bei 'sein', 'haben' und Modalverben (auch mündlich). Regelmäßige Verben bilden es mit -te, unregelmäßige mit Stammveränderung.",
+     "bodyFA": "Präteritum بیشتر در متن‌های نوشتاری و روایت به‌کار می‌رود، و تقریباً همیشه برای «sein»، «haben» و افعال وجهی (حتی در گفتار) استفاده می‌شود. افعال باقاعده با -te و بی‌قاعده با تغییر ریشه ساخته می‌شوند.",
+     "bodyEN": "The Präteritum is mainly used in written texts and narration, and almost always with 'sein', 'haben', and modal verbs (even in speech). Regular verbs form it with -te; irregular verbs change their stem."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Er wohnte früher in München.",
+     "meaningFA": "او قبلاً در مونیخ زندگی می‌کرد.",
+     "meaningEN": "He used to live in Munich."
+    },
+    {
+     "id": "ex-2",
+     "german": "Wir hatten letztes Jahr wenig Zeit.",
+     "meaningFA": "ما سال گذشته وقت کمی داشتیم.",
+     "meaningEN": "We had little time last year."
+    },
+    {
+     "id": "ex-3",
+     "german": "Sie war als Kind sehr schüchtern.",
+     "meaningFA": "او در کودکی خیلی خجالتی بود.",
+     "meaningEN": "She was very shy as a child."
+    },
+    {
+     "id": "ex-4",
+     "german": "Ich konnte damals kein Wort Deutsch.",
+     "meaningFA": "من آن‌موقع اصلاً آلمانی بلد نبودم.",
+     "meaningEN": "I couldn't speak a word of German back then."
+    },
+    {
+     "id": "ex-5",
+     "german": "Die Geschichte endete sehr traurig.",
+     "meaningFA": "داستان خیلی غم‌انگیز تمام شد.",
+     "meaningEN": "The story ended very sadly."
+    },
+    {
+     "id": "ex-6",
+     "german": "Wir gingen jeden Sommer ans Meer.",
+     "meaningFA": "ما هر تابستان به دریا می‌رفتیم.",
+     "meaningEN": "We went to the sea every summer."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "Präteritum von sein, haben, können",
+     "titleFA": "Präteritum افعال sein، haben، können",
+     "titleEN": "Präteritum of sein, haben, können",
+     "style": "simple",
+     "columns": [
+      "sein",
+      "haben",
+      "können"
+     ],
+     "rows": [
+      {
+       "rowLabel": "ich",
+       "cells": [
+        "war",
+        "hatte",
+        "konnte"
+       ]
+      },
+      {
+       "rowLabel": "du",
+       "cells": [
+        "warst",
+        "hattest",
+        "konntest"
+       ]
+      },
+      {
+       "rowLabel": "er/sie/es",
+       "cells": [
+        "war",
+        "hatte",
+        "konnte"
+       ]
+      },
+      {
+       "rowLabel": "wir",
+       "cells": [
+        "waren",
+        "hatten",
+        "konnten"
+       ]
+      },
+      {
+       "rowLabel": "ihr",
+       "cells": [
+        "wart",
+        "hattet",
+        "konntet"
+       ]
+      },
+      {
+       "rowLabel": "sie/Sie",
+       "cells": [
+        "waren",
+        "hatten",
+        "konnten"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "perfekt",
+    "plusquamperfekt"
+   ],
+   "exerciseSlugs": [
+    "ex-praet-1",
+    "ex-praet-2",
+    "ex-praet-3",
+    "ex-praet-4"
+   ]
+  },
+  {
+   "id": "plusquamperfekt",
+   "slug": "plusquamperfekt",
+   "titleDE": "Das Plusquamperfekt",
+   "titleFA": "زمان ماقبل ماضی (Plusquamperfekt)",
+   "titleEN": "The Past Perfect (Plusquamperfekt)",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "category": "tempus",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Das Plusquamperfekt beschreibt ein Ereignis, das vor einem anderen Ereignis in der Vergangenheit passiert ist ('Vorvergangenheit'). Es wird mit 'hatte'/'war' + Partizip II gebildet, oft mit 'nachdem' oder 'bevor'.",
+     "bodyFA": "Plusquamperfekt رویدادی را توصیف می‌کند که قبل از رویداد دیگری در گذشته اتفاق افتاده («گذشته پیش از گذشته»). با «hatte»/«war» + Partizip II ساخته می‌شود، اغلب همراه با «nachdem» یا «bevor».",
+     "bodyEN": "The Plusquamperfekt describes an event that happened before another event in the past ('past-before-past'). It is formed with 'hatte'/'war' + Partizip II, often together with 'nachdem' or 'bevor'."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Nachdem er gegessen hatte, ging er spazieren.",
+     "meaningFA": "بعد از اینکه غذا خورده بود، رفت پیاده‌روی.",
+     "meaningEN": "After he had eaten, he went for a walk."
+    },
+    {
+     "id": "ex-2",
+     "german": "Wir waren schon angekommen, als es zu regnen begann.",
+     "meaningFA": "ما قبلاً رسیده بودیم که باران شروع شد.",
+     "meaningEN": "We had already arrived when it started to rain."
+    },
+    {
+     "id": "ex-3",
+     "german": "Sie hatte den Brief nicht gelesen, bevor sie antwortete.",
+     "meaningFA": "او نامه را نخوانده بود قبل از اینکه جواب بدهد.",
+     "meaningEN": "She had not read the letter before she replied."
+    },
+    {
+     "id": "ex-4",
+     "german": "Ich hatte meine Schlüssel vergessen und musste zurückgehen.",
+     "meaningFA": "من کلیدهایم را فراموش کرده بودم و مجبور شدم برگردم.",
+     "meaningEN": "I had forgotten my keys and had to go back."
+    },
+    {
+     "id": "ex-5",
+     "german": "Ihr wart schon eingeschlafen, als wir nach Hause kamen.",
+     "meaningFA": "شما قبلاً خوابتان برده بود که ما به خانه رسیدیم.",
+     "meaningEN": "You (pl.) had already fallen asleep when we came home."
+    },
+    {
+     "id": "ex-6",
+     "german": "Die Firma hatte das Projekt beendet, bevor das Budget endete.",
+     "meaningFA": "شرکت پروژه را تمام کرده بود قبل از اینکه بودجه تمام شود.",
+     "meaningEN": "The company had finished the project before the budget ran out."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "perfekt",
+    "praeteritum"
+   ],
+   "exerciseSlugs": [
+    "ex-plusq-1",
+    "ex-plusq-2",
+    "ex-plusq-3",
+    "ex-plusq-4"
+   ]
+  },
+  {
+   "id": "futur-1",
+   "slug": "futur-1",
+   "titleDE": "Das Futur I",
+   "titleFA": "زمان آیندهٔ ساده (Futur I)",
+   "titleEN": "The Future Tense (Futur I)",
+   "levels": [
+    "B1"
+   ],
+   "category": "tempus",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Das Futur I wird mit 'werden' (konjugiert) + Infinitiv gebildet. Es drückt eine Zukunftshandlung oder eine Vermutung aus. Im Alltag wird oft einfach das Präsens mit einer Zeitangabe verwendet.",
+     "bodyFA": "Futur I با «werden» (صرف‌شده) + مصدر ساخته می‌شود. کنش آینده یا حدس را بیان می‌کند. در گفتار روزمره اغلب فقط از Präsens همراه با یک قید زمان استفاده می‌شود.",
+     "bodyEN": "Futur I is formed with 'werden' (conjugated) + infinitive. It expresses a future action or an assumption. In everyday speech, the present tense with a time expression is often used instead."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Ich werde nächstes Jahr nach Kanada reisen.",
+     "meaningFA": "من سال آینده به کانادا سفر خواهم کرد.",
+     "meaningEN": "I will travel to Canada next year."
+    },
+    {
+     "id": "ex-2",
+     "german": "Sie wird die Prüfung sicher bestehen.",
+     "meaningFA": "او مطمئناً امتحان را قبول خواهد شد.",
+     "meaningEN": "She will surely pass the exam."
+    },
+    {
+     "id": "ex-3",
+     "german": "Wir werden das Haus bis Sommer renovieren.",
+     "meaningFA": "ما خانه را تا تابستان بازسازی خواهیم کرد.",
+     "meaningEN": "We will renovate the house by summer."
+    },
+    {
+     "id": "ex-4",
+     "german": "Wirst du morgen Zeit haben?",
+     "meaningFA": "فردا وقت خواهی داشت؟",
+     "meaningEN": "Will you have time tomorrow?"
+    },
+    {
+     "id": "ex-5",
+     "german": "Er wird wohl schon zu Hause sein.",
+     "meaningFA": "او احتمالاً الان خانه است.",
+     "meaningEN": "He is probably already home.",
+     "noteDE": "Vermutung über die Gegenwart.",
+     "noteFA": "حدس دربارهٔ زمان حال.",
+     "noteEN": "Assumption about the present."
+    },
+    {
+     "id": "ex-6",
+     "german": "Die Preise werden im Herbst steigen.",
+     "meaningFA": "قیمت‌ها در پاییز افزایش خواهند یافت.",
+     "meaningEN": "Prices will rise in autumn."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "futur-2"
+   ],
+   "exerciseSlugs": [
+    "ex-fut1-1",
+    "ex-fut1-2",
+    "ex-fut1-3",
+    "ex-fut1-4"
+   ]
+  },
+  {
+   "id": "futur-2",
+   "slug": "futur-2",
+   "titleDE": "Das Futur II",
+   "titleFA": "زمان آیندهٔ کامل (Futur II)",
+   "titleEN": "The Future Perfect (Futur II)",
+   "levels": [
+    "B2",
+    "C1"
+   ],
+   "category": "tempus",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Das Futur II wird mit 'werden' + Partizip II + 'haben'/'sein' gebildet. Es drückt aus, dass eine Handlung zu einem bestimmten Zeitpunkt in der Zukunft abgeschlossen sein wird, oder eine Vermutung über die Vergangenheit.",
+     "bodyFA": "Futur II با «werden» + Partizip II + «haben»/«sein» ساخته می‌شود. بیان می‌کند که کنشی در نقطه‌ای مشخص در آینده تمام‌شده خواهد بود، یا حدسی دربارهٔ گذشته است.",
+     "bodyEN": "Futur II is formed with 'werden' + Partizip II + 'haben'/'sein'. It expresses that an action will be completed at a certain point in the future, or an assumption about the past."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Bis nächsten Monat werden wir das Projekt beendet haben.",
+     "meaningFA": "تا ماه بعد ما پروژه را تمام کرده خواهیم بود.",
+     "meaningEN": "By next month, we will have finished the project."
+    },
+    {
+     "id": "ex-2",
+     "german": "Sie wird wohl schon angekommen sein.",
+     "meaningFA": "او احتمالاً قبلاً رسیده بوده است.",
+     "meaningEN": "She has probably already arrived.",
+     "noteDE": "Vermutung über die Vergangenheit.",
+     "noteFA": "حدس دربارهٔ گذشته.",
+     "noteEN": "Assumption about the past."
+    },
+    {
+     "id": "ex-3",
+     "german": "Er wird das Buch bis morgen gelesen haben.",
+     "meaningFA": "او کتاب را تا فردا خوانده خواهد بود.",
+     "meaningEN": "He will have read the book by tomorrow."
+    },
+    {
+     "id": "ex-4",
+     "german": "Werdet ihr die Prüfung bis dann bestanden haben?",
+     "meaningFA": "شما تا آن‌موقع امتحان را قبول شده خواهید بود؟",
+     "meaningEN": "Will you (pl.) have passed the exam by then?"
+    },
+    {
+     "id": "ex-5",
+     "german": "Wir werden umgezogen sein, bevor der Winter beginnt.",
+     "meaningFA": "ما اسباب‌کشی کرده خواهیم بود قبل از شروع زمستان.",
+     "meaningEN": "We will have moved before winter begins."
+    },
+    {
+     "id": "ex-6",
+     "german": "Die Firma wird bis Jahresende expandiert haben.",
+     "meaningFA": "شرکت تا پایان سال گسترش یافته خواهد بود.",
+     "meaningEN": "The company will have expanded by the end of the year."
+    }
+   ],
+   "tables": null,
+   "relatedSlugs": [
+    "futur-1",
+    "perfekt"
+   ],
+   "exerciseSlugs": [
+    "ex-fut2-1",
+    "ex-fut2-2",
+    "ex-fut2-3",
+    "ex-fut2-4"
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-perfekt-1",
+   "lessonSlug": "perfekt",
+   "type": "multipleChoice",
+   "promptDE": "Sie ___ letzte Woche nach Berlin gefahren.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "hat",
+     "ist",
+     "haben",
+     "sind"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "'fahren' ist ein Bewegungsverb → Perfekt mit 'sein'.",
+   "explanationAfterAnswerFA": "«fahren» فعل حرکتی است → Perfekt با «sein».",
+   "explanationAfterAnswerEN": "'fahren' is a verb of motion → Perfect with 'sein'."
+  },
+  {
+   "id": "ex-perfekt-2",
+   "lessonSlug": "perfekt",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Form.",
+   "promptFA": "شکل درست را کامل کن.",
+   "promptEN": "Complete with the correct form.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Ich ___ heute Morgen aufgewacht.",
+    "correctAnswer": "bin",
+    "alternatives": [
+     "habe",
+     "hat"
+    ]
+   },
+   "explanationAfterAnswerDE": "'aufwachen' beschreibt eine Zustandsänderung → 'sein'.",
+   "explanationAfterAnswerFA": "«aufwachen» تغییر حالت است → «sein».",
+   "explanationAfterAnswerEN": "'aufwachen' describes a change of state → 'sein'."
+  },
+  {
+   "id": "ex-perfekt-3",
+   "lessonSlug": "perfekt",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz im Perfekt.",
+   "promptFA": "جمله را در Perfekt بچین.",
+   "promptEN": "Form a correct sentence in the Perfect tense.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "gesehen",
+     "Wir",
+     "gestern",
+     "haben",
+     "einen",
+     "Film"
+    ],
+    "correctSentence": "Wir haben gestern einen Film gesehen."
+   },
+   "explanationAfterAnswerDE": "Hilfsverb an Position 2, Partizip II am Satzende.",
+   "explanationAfterAnswerFA": "فعل کمکی در جایگاه دوم، Partizip II در انتهای جمله.",
+   "explanationAfterAnswerEN": "Auxiliary verb in position 2, Partizip II at the end."
+  },
+  {
+   "id": "ex-perfekt-4",
+   "lessonSlug": "perfekt",
+   "type": "transform",
+   "promptDE": "Wandle den Satz ins Perfekt um.",
+   "promptFA": "جمله را به Perfekt تبدیل کن.",
+   "promptEN": "Transform into the Perfect tense.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Die Firma stellt neue Mitarbeiter ein.",
+    "instructionDE": "Perfekt-Form.",
+    "instructionFA": "به شکل Perfekt تبدیل کن.",
+    "instructionEN": "Transform to Perfect tense.",
+    "correctAnswer": "Die Firma hat neue Mitarbeiter eingestellt."
+   },
+   "explanationAfterAnswerDE": "'einstellen' ist trennbar: ein-ge-stellt.",
+   "explanationAfterAnswerFA": "«einstellen» فعل جداشدنی است: ein-ge-stellt.",
+   "explanationAfterAnswerEN": "'einstellen' is separable: ein-ge-stellt."
+  },
+  {
+   "id": "ex-praet-1",
+   "lessonSlug": "praeteritum",
+   "type": "multipleChoice",
+   "promptDE": "Wir ___ letztes Jahr wenig Zeit.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "haben",
+     "hatten",
+     "hatte",
+     "habt"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "Präteritum von 'haben' bei 'wir' ist 'hatten'.",
+   "explanationAfterAnswerFA": "Präteritum فعل «haben» برای «wir»، «hatten» است.",
+   "explanationAfterAnswerEN": "The Präteritum of 'haben' for 'wir' is 'hatten'."
+  },
+  {
+   "id": "ex-praet-2",
+   "lessonSlug": "praeteritum",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Form von 'sein'.",
+   "promptFA": "شکل درست «sein» را کامل کن.",
+   "promptEN": "Complete with the correct form of 'sein'.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Sie ___ als Kind sehr schüchtern.",
+    "correctAnswer": "war",
+    "alternatives": [
+     "waren",
+     "warst"
+    ]
+   },
+   "explanationAfterAnswerDE": "Bei 'sie' (Singular) lautet die Form 'war'.",
+   "explanationAfterAnswerFA": "برای «sie» (مفرد) شکل درست «war» است.",
+   "explanationAfterAnswerEN": "For 'sie' (singular), the form is 'war'."
+  },
+  {
+   "id": "ex-praet-3",
+   "lessonSlug": "praeteritum",
+   "type": "matching",
+   "promptDE": "Verbinde Präsens und Präteritum.",
+   "promptFA": "Präsens را به Präteritum وصل کن.",
+   "promptEN": "Match present tense to simple past.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "gehen",
+      "right": "ging"
+     },
+     {
+      "left": "können",
+      "right": "konnte"
+     },
+     {
+      "left": "haben",
+      "right": "hatte"
+     },
+     {
+      "left": "sein",
+      "right": "war"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Unregelmäßige Verben ändern ihren Stamm im Präteritum.",
+   "explanationAfterAnswerFA": "افعال بی‌قاعده ریشه‌شان در Präteritum تغییر می‌کند.",
+   "explanationAfterAnswerEN": "Irregular verbs change their stem in the simple past."
+  },
+  {
+   "id": "ex-praet-4",
+   "lessonSlug": "praeteritum",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "ans",
+     "jeden",
+     "Wir",
+     "Meer",
+     "gingen",
+     "Sommer"
+    ],
+    "correctSentence": "Wir gingen jeden Sommer ans Meer."
+   },
+   "explanationAfterAnswerDE": "Präteritum von 'gehen' ist 'gingen' (wir).",
+   "explanationAfterAnswerFA": "Präteritum فعل «gehen» برای «wir»، «gingen» است.",
+   "explanationAfterAnswerEN": "The Präteritum of 'gehen' for 'wir' is 'gingen'."
+  },
+  {
+   "id": "ex-plusq-1",
+   "lessonSlug": "plusquamperfekt",
+   "type": "multipleChoice",
+   "promptDE": "Nachdem er gegessen ___, ging er spazieren.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "hat",
+     "hatte",
+     "war",
+     "ist"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "Plusquamperfekt: 'hatte' + Partizip II für die Vorvergangenheit.",
+   "explanationAfterAnswerFA": "Plusquamperfekt: «hatte» + Partizip II برای گذشتهٔ پیش از گذشته.",
+   "explanationAfterAnswerEN": "Plusquamperfekt: 'hatte' + Partizip II for the past-before-past."
+  },
+  {
+   "id": "ex-plusq-2",
+   "lessonSlug": "plusquamperfekt",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Form.",
+   "promptFA": "شکل درست را کامل کن.",
+   "promptEN": "Complete with the correct form.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Wir ___ schon angekommen, als es zu regnen begann.",
+    "correctAnswer": "waren",
+    "alternatives": [
+     "hatten",
+     "sind"
+    ]
+   },
+   "explanationAfterAnswerDE": "'ankommen' ist ein Bewegungsverb → 'sein' im Plusquamperfekt.",
+   "explanationAfterAnswerFA": "«ankommen» فعل حرکتی است → «sein» در Plusquamperfekt.",
+   "explanationAfterAnswerEN": "'ankommen' is a verb of motion → 'sein' in the Plusquamperfekt."
+  },
+  {
+   "id": "ex-plusq-3",
+   "lessonSlug": "plusquamperfekt",
+   "type": "transform",
+   "promptDE": "Wandle in einen Satz mit 'bevor' und Plusquamperfekt um.",
+   "promptFA": "با «bevor» و Plusquamperfekt بازنویسی کن.",
+   "promptEN": "Rewrite with 'bevor' and the Plusquamperfekt.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Ich vergaß meine Schlüssel. Ich musste zurückgehen.",
+    "instructionDE": "Verbinde mit 'und' im Plusquamperfekt.",
+    "instructionFA": "با «und» در Plusquamperfekt وصل کن.",
+    "instructionEN": "Connect with 'und' in the Plusquamperfekt.",
+    "correctAnswer": "Ich hatte meine Schlüssel vergessen und musste zurückgehen."
+   },
+   "explanationAfterAnswerDE": "Das erste Ereignis (vergessen) steht im Plusquamperfekt.",
+   "explanationAfterAnswerFA": "رویداد اول (فراموش کردن) در Plusquamperfekt می‌آید.",
+   "explanationAfterAnswerEN": "The first event (forgetting) is in the Plusquamperfekt."
+  },
+  {
+   "id": "ex-plusq-4",
+   "lessonSlug": "plusquamperfekt",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "gelesen",
+     "Sie",
+     "den",
+     "hatte",
+     "nicht",
+     "Brief"
+    ],
+    "correctSentence": "Sie hatte den Brief nicht gelesen."
+   },
+   "explanationAfterAnswerDE": "Plusquamperfekt: 'hatte' an Position 2, Partizip II am Ende.",
+   "explanationAfterAnswerFA": "Plusquamperfekt: «hatte» در جایگاه دوم، Partizip II در انتها.",
+   "explanationAfterAnswerEN": "Plusquamperfekt: 'hatte' in position 2, Partizip II at the end."
+  },
+  {
+   "id": "ex-fut1-1",
+   "lessonSlug": "futur-1",
+   "type": "multipleChoice",
+   "promptDE": "Ich ___ nächstes Jahr nach Kanada reisen.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "werde",
+     "wirst",
+     "wird",
+     "werden"
+    ],
+    "correctIndex": 0
+   },
+   "explanationAfterAnswerDE": "Bei 'ich' lautet die Form von 'werden' 'werde'.",
+   "explanationAfterAnswerFA": "برای «ich» شکل «werden»، «werde» است.",
+   "explanationAfterAnswerEN": "For 'ich', the form of 'werden' is 'werde'."
+  },
+  {
+   "id": "ex-fut1-2",
+   "lessonSlug": "futur-1",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Form von 'werden'.",
+   "promptFA": "شکل درست «werden» را کامل کن.",
+   "promptEN": "Complete with the correct form of 'werden'.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Die Preise ___ im Herbst steigen.",
+    "correctAnswer": "werden",
+    "alternatives": [
+     "wird",
+     "werdet"
+    ]
+   },
+   "explanationAfterAnswerDE": "Bei Plural-Subjekten (Preise) lautet die Form 'werden'.",
+   "explanationAfterAnswerFA": "برای فاعل جمع (Preise) شکل «werden» درست است.",
+   "explanationAfterAnswerEN": "For plural subjects (Preise), the form is 'werden'."
+  },
+  {
+   "id": "ex-fut1-3",
+   "lessonSlug": "futur-1",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "das",
+     "werden",
+     "Haus",
+     "bis",
+     "Wir",
+     "renovieren",
+     "Sommer"
+    ],
+    "correctSentence": "Wir werden das Haus bis Sommer renovieren."
+   },
+   "explanationAfterAnswerDE": "'werden' an Position 2, der Infinitiv am Satzende.",
+   "explanationAfterAnswerFA": "«werden» در جایگاه دوم، مصدر در انتهای جمله.",
+   "explanationAfterAnswerEN": "'werden' in position 2, the infinitive at the end."
+  },
+  {
+   "id": "ex-fut1-4",
+   "lessonSlug": "futur-1",
+   "type": "transform",
+   "promptDE": "Wandle den Satz ins Futur I um.",
+   "promptFA": "جمله را به Futur I تبدیل کن.",
+   "promptEN": "Transform into Futur I.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Sie besteht die Prüfung sicher.",
+    "instructionDE": "Futur-I-Form.",
+    "instructionFA": "به شکل Futur I تبدیل کن.",
+    "instructionEN": "Transform to Futur I.",
+    "correctAnswer": "Sie wird die Prüfung sicher bestehen."
+   },
+   "explanationAfterAnswerDE": "'werden' + Infinitiv drückt die Zukunft aus.",
+   "explanationAfterAnswerFA": "«werden» + مصدر آینده را بیان می‌کند.",
+   "explanationAfterAnswerEN": "'werden' + infinitive expresses the future."
+  },
+  {
+   "id": "ex-fut2-1",
+   "lessonSlug": "futur-2",
+   "type": "multipleChoice",
+   "promptDE": "Bis nächsten Monat ___ wir das Projekt beendet haben.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "werden",
+     "wird",
+     "werdet",
+     "wirst"
+    ],
+    "correctIndex": 0
+   },
+   "explanationAfterAnswerDE": "Bei 'wir' lautet die Form von 'werden' 'werden'.",
+   "explanationAfterAnswerFA": "برای «wir» شکل «werden»، «werden» است.",
+   "explanationAfterAnswerEN": "For 'wir', the form of 'werden' is 'werden'."
+  },
+  {
+   "id": "ex-fut2-2",
+   "lessonSlug": "futur-2",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Form.",
+   "promptFA": "شکل درست را کامل کن.",
+   "promptEN": "Complete with the correct form.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Sie wird wohl schon ___ sein.",
+    "correctAnswer": "angekommen",
+    "alternatives": [
+     "ankommen",
+     "gekommen"
+    ]
+   },
+   "explanationAfterAnswerDE": "Partizip II von 'ankommen' ist 'angekommen'.",
+   "explanationAfterAnswerFA": "Partizip II فعل «ankommen»، «angekommen» است.",
+   "explanationAfterAnswerEN": "The Partizip II of 'ankommen' is 'angekommen'."
+  },
+  {
+   "id": "ex-fut2-3",
+   "lessonSlug": "futur-2",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz im Futur II.",
+   "promptFA": "جمله را در Futur II بچین.",
+   "promptEN": "Form a correct sentence in Futur II.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "gelesen",
+     "Er",
+     "das",
+     "bis",
+     "haben",
+     "wird",
+     "Buch",
+     "morgen"
+    ],
+    "correctSentence": "Er wird das Buch bis morgen gelesen haben."
+   },
+   "explanationAfterAnswerDE": "Futur II: 'werden' ... Partizip II + haben/sein.",
+   "explanationAfterAnswerFA": "Futur II: «werden» ... Partizip II + haben/sein.",
+   "explanationAfterAnswerEN": "Futur II: 'werden' ... Partizip II + haben/sein."
+  },
+  {
+   "id": "ex-fut2-4",
+   "lessonSlug": "futur-2",
+   "type": "transform",
+   "promptDE": "Wandle den Satz ins Futur II um.",
+   "promptFA": "جمله را به Futur II تبدیل کن.",
+   "promptEN": "Transform into Futur II.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Die Firma expandiert bis Jahresende.",
+    "instructionDE": "Futur-II-Form.",
+    "instructionFA": "به شکل Futur II تبدیل کن.",
+    "instructionEN": "Transform to Futur II.",
+    "correctAnswer": "Die Firma wird bis Jahresende expandiert haben."
+   },
+   "explanationAfterAnswerDE": "Futur II drückt eine abgeschlossene Handlung in der Zukunft aus.",
+   "explanationAfterAnswerFA": "Futur II کنش تمام‌شده در آینده را بیان می‌کند.",
+   "explanationAfterAnswerEN": "Futur II expresses a completed action in the future."
+  }
+ ]
+}

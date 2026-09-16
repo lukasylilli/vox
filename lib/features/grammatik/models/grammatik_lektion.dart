@@ -81,20 +81,41 @@ class GrammatikTable {
     required this.rows,
   });
 
-  factory GrammatikTable.fromJson(Map<String, dynamic> j) => GrammatikTable(
-        titleDe: j['titleDE'] as String? ?? '',
-        titleFa: j['titleFA'] as String? ?? '',
-        titleEn: j['titleEN'] as String? ?? '',
-        columns: (j['columns'] as List<dynamic>? ?? []).cast<String>(),
-        rows   : (j['rows'] as List<dynamic>? ?? [])
-            .cast<Map<String, dynamic>>()
-            .map(GrammatikTableRow.fromJson)
-            .toList(),
-      );
+  /// ⚠️ L.2c (2026-09-16): Die Quelle kennt ZWEI Schreibweisen für
+  /// `columns` — mit einer Überschrift für die Spalte der Zeilenbeschriftung
+  /// (`["Person", "Endung", "Beispiel"]`) oder ohne (`["sein", "haben"]`,
+  /// Zeilen `ich`/`du` …). Hier wird beides auf EINE Form gebracht:
+  /// [columns] hat immer die volle Breite (Beschriftung + Zellen); fehlt die
+  /// erste Überschrift, bleibt sie leer. Vorher stürzte die Tabelle von
+  /// „verb-sein"/„verb-haben" ab (DataTable verlangt gleich viele Zellen wie
+  /// Spalten).
+  factory GrammatikTable.fromJson(Map<String, dynamic> j) {
+    final spalten = (j['columns'] as List<dynamic>? ?? []).cast<String>();
+    final zeilen = (j['rows'] as List<dynamic>? ?? [])
+        .cast<Map<String, dynamic>>()
+        .map(GrammatikTableRow.fromJson)
+        .toList();
+    final ohneBeschriftung =
+        zeilen.isNotEmpty && spalten.length == zeilen.first.cells.length;
+    return GrammatikTable(
+      titleDe: j['titleDE'] as String? ?? '',
+      titleFa: j['titleFA'] as String? ?? '',
+      titleEn: j['titleEN'] as String? ?? '',
+      columns: ohneBeschriftung ? ['', ...spalten] : spalten,
+      rows   : zeilen,
+    );
+  }
 
   final String              titleDe, titleFa, titleEn;
   final List<String>        columns;
   final List<GrammatikTableRow> rows;
+
+  /// Jede Zeile hat genau so viele Felder (Beschriftung + Zellen) wie es
+  /// Spalten gibt. Nur dann darf die Tabelle gezeichnet werden;
+  /// test/grammatik_lektionen_test.dart stellt es für alle Lektionen sicher.
+  bool get istStimmig =>
+      columns.isNotEmpty &&
+      rows.every((r) => r.cells.length + 1 == columns.length);
 }
 
 @immutable
