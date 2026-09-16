@@ -4,7 +4,7 @@
 > ⚠️ **2026-09-13 — Habit/Routine entfernt, Root-in-Verlinkung.** VOX bleibt dauerhaft ein eigenes Repo (`github.com/lukasylilli/vox`), getrennt von Root-in (`github.com/lukasylilli/Root-in`, live unter `lukasylilli.github.io/Root-in/`) — bewusst KEIN Code-Merge, damit Nutzer, die nur die Routine-App brauchen, sie eigenständig nutzen können. In Selbstlernen ersetzt die Karte **„Routine"** die frühere „Habit Maker"-Karte und öffnet Root-in per Link in einem neuen Tab (`core/constants/app_links.dart` → `rootInUrl`, geöffnet über `core/utils/external_link_opener.dart`). Entfernt: `habit_maker_screen.dart`, `habit_stats_screen.dart`, `habit_day_selector_widget.dart`, `streak_chart_widget.dart`, `core/database/dao/habit_dao.dart`, alle Habit-Provider in `selbstlernen_controller.dart` und die „verknüpfte Gewohnheit"-Auswahl im Pomodoro-Timer (Pomodoro selbst bleibt unverändert als eigenständiger Fokus-Timer). Die Drift-Tabellen `Habits`/`HabitSessions` bleiben vorerst im Schema (kein Downgrade) — unbenutzt, entfernbar in einer künftigen Migration. ⚠️ **Lehre:** `package:web` darf nie ungeschützt importiert werden — bricht `flutter test` auf der VM, `flutter analyze` merkt es nicht. Bedingter Export nach Root-in-Vorbild (`external_link_opener_io.dart` / `_web.dart`).
 > ⚠️ **2026-09-15 — Voll-Audit von Code + Daten (Claude, direkt über die GitHub-API).** Befunde, die die Planung ändern:
 > **(1) Die `✓ `-Markierungen in `old files Lukasalmani/Wörter/*.txt` sind NICHT mehr die Wahrheit.** Gezählt: `assets/vocab/` enthält **87 Karten** (alle `schema: "3.0"`, kein kaputtes JSON) — davon **76 Verben**; markiert ist aber nur `✓ warten` (+ 3 Adjektive, 1 Nomen). 45 dieser Verbkarten stehen unmarkiert in den txt-Listen, 31 stehen dort gar nicht (sie stammen aus dem Dativ/Akkusativ-Deck, nicht aus dem alphabetischen Backlog). ⇒ **Neue Regel: einzige Wahrheit ist `assets/vocab/`; die `✓ `-Marken werden daraus abgeleitet (Sync-Skript), nicht mehr von Hand gesetzt.**
-> **(2) Harte Obergrenze im Laufzeit-Pfad gefunden.** `lib/features/vokabular/controllers/vokabular_controller.dart` lädt beim Start **jede** Datei aus `assets/vocab/` über den `AssetManifest` und dekodiert sie vollständig in den Speicher. Bei 87 Karten unauffällig, bei einigen Tausend startet die Web-App nicht mehr sinnvoll. ⇒ **V.2 (`vocab.db`) ist keine „später"-Aufgabe mehr, sondern die Voraussetzung für die Automatisierung** (siehe فاز A).
+> **(2) Harte Obergrenze im Laufzeit-Pfad gefunden.** `lib/features/vokabular/controllers/vokabular_controller.dart` lädt beim Start **jede** Datei aus `assets/vocab/` über den `AssetManifest` und dekodiert sie vollständig in den Speicher. Bei 87 Karten unauffällig, bei einigen Tausend startet die Web-App nicht mehr sinnvoll. ⇒ **V.2 (`vocab.db`) ist keine „später"-Aufgabe mehr, sondern die Voraussetzung für die Automatisierung** (siehe فاز A). → ✅ **Gelöst durch V.2 (2026-09-16):** Die App lädt beim Start nur noch EINEN Wortindex, die volle Karte erst beim Öffnen.
 > **(3) Doku-Drift korrigiert:** B-3 / R-1.1 sind im Code längst erledigt (`stripPreposition()` in `word_list_item.dart`) und werden hier auf ✅ gesetzt. Die README nennt unter „Selbstlernen" noch „Gewohnheiten, Streaks" — seit 2026-09-13 falsch (Habit entfernt, Root-in-Link).
 > **(4) Entscheidung des Nutzers 2026-09-15:** Die Wörter werden **weiter alphabetisch** abgearbeitet (nicht nach Häufigkeit sortiert) — der Durchsatz kommt aus der Automatisierung, nicht aus der Reihenfolge.
 
@@ -21,13 +21,14 @@
 | **L — L10n: زبان فقط از Settings** | ✅ | ۶ سوییچ حذف، Dual-Display صفر، AppL10n تنها منبع |
 | **L2 — Massen-Lokalisierung** | ✅ | ۶۴۱→۴۱ رشته FA در UI (کاتالوگ ۵۳۷=۵۳۷)؛ باقی در L3 |
 | **L3 — Content-Zweisprachigkeit** | ✅ | **همه محتواها FA+EN** (JSON + صفحات + دیتابیس)؛ audit ۰؛ کاتالوگ ۵۶۵=۵۶۵؛ helper AppL10n.loc؛ MemorizeItems.meaningEn (schema v2) |
-| **V — Vokabular-DB (۲۵٬۰۰۰ کلمه)** | Stufen ۱–۵ ✅ · **۸۷ کارت** (۰٫۳٪ از ~۲۶٬۲۰۰) · گلوگاه = سرعت، نه کد | Pipeline کامل و سالم: SUPER-PROMPT v3.0 → `import_inbox/` → `tool/vokabular_import.dart` → اپ. از ۱۴ جولای تا ۱۵ سپتامبر (۲ ماه) فقط چند کلمه اضافه شد ⇒ **فاز A (خودکارسازی) باز شد.** باز: V.2 `vocab.db` (حالا **پیش‌شرط**، نه اختیاری) · اتصال Leitner به imLeitner · V.5 توزیع |
+| **V — Vokabular-DB (۲۵٬۰۰۰ کلمه)** | Stufen ۱–۵ ✅ · **۸۷ کارت** (۰٫۳٪ از ~۲۶٬۲۰۰) · گلوگاه = سرعت، نه کد | Pipeline کامل و سالم: SUPER-PROMPT v3.0 → `import_inbox/` → `tool/vokabular_import.dart` → اپ. از ۱۴ جولای تا ۱۵ سپتامبر (۲ ماه) فقط چند کلمه اضافه شد ⇒ **فاز A (خودکارسازی) باز شد.** V.2 ✅ (فهرست کلمات به‌جای vocab.db، 2026-09-16) · باز: · اتصال Leitner به imLeitner · V.5 توزیع |
 | ۱۶ — انتشار و QA نهایی | باز | آخرین فاز قبل از launch |
 
 **2026-09-16:** L.3a ✅ زبان شروع = انگلیسی، مگر دستگاه فارسی باشد.
+**2026-09-16:** V.2 ✅ اپ هنگام شروع دیگر همه‌ی کارت‌ها را نمی‌خواند — فقط یک فهرست کوچک (`assets/vocab_index.json`)؛ کارت کامل فقط وقتی صفحه‌ی آن کلمه باز شود. سقف ~۵۰۰ کارت برداشته شد.
 **2026-09-16:** S.6 ✅ لیست‌های شخصی شناسه‌ی ثابت دارند — تغییر نام دیگر کلمه‌ای را در همگام‌سازی از بین نمی‌برد (پایگاه داده نسخه‌ی ۷، قرارداد پشتیبان نسخه‌ی ۳).
 
-**قدم‌های بعدی (2026-09-16, ترتیب جدید — بخش «فاز LAUNCH»):** ① **L.1** امنیت لایتنر: S.6 ✅ → **V.2** → L.1a/L.1b (+ Lukas: Supabase-Secrets، تصمیم حذف حساب) ② **L.2** کامل بودن محتوا: G3–G6 + deckهای «به‌زودی» + سؤال‌ها از Lukas (ÖSD C1، A1/A2 Wortschatz) ③ **L.3** آماده‌سازی انتشار ← **انتشار** ④ **L.4** کلمه‌ها روزانه (A.6 ⛔ اول از Lukas بپرس)
+**قدم‌های بعدی (2026-09-16, ترتیب جدید — بخش «فاز LAUNCH»):** ① **L.1** امنیت لایتنر: S.6 ✅ → V.2 ✅ → **L.1a** → L.1b (+ Lukas: Supabase-Secrets، تصمیم حذف حساب) ② **L.2** کامل بودن محتوا: G3–G6 + deckهای «به‌زودی» + سؤال‌ها از Lukas (ÖSD C1، A1/A2 Wortschatz) ③ **L.3** آماده‌سازی انتشار ← **انتشار** ④ **L.4** کلمه‌ها روزانه (A.6 ⛔ اول از Lukas بپرس)
 
 ---
 
@@ -43,10 +44,12 @@
 - [x] **S.6** شناسه‌ی ثابت برای لیست‌های شخصی ✅ (2026-09-16، CI سبز) — تغییر نام یک لیست دیگر
       «لیست قدیم حذف، لیست جدید ساخته» نیست؛ کلمه‌ای که دستگاه دیگر در همان فاصله در لیست گذاشته
       حفظ می‌شود. لیست‌های قبلی شناسه‌ی قبلی‌شان (`eigen:<نام>`) را نگه می‌دارند. جزئیات: فاز S → S.6.
-- [ ] **V.2 `vocab.db` — حالا پیش‌شرط انتشار.** چون بعد از انتشار کلمه‌ها روزانه زیاد می‌شوند و
-      `vokabular_controller` در startup همه‌ی کارت‌ها را می‌خواند (سقف ~۵۰۰). ⚠️ داده‌ی کلمه‌ها باید از
-      داده‌ی کاربر **جدا** بماند: به‌روزرسانی کلمه‌ها هرگز به جدول‌های کاربر (`ArchivLeitner`,
-      `Mitgliedschaften`, …) دست نمی‌زند.
+- [x] **V.2 ✅ (2026-09-16, CI سبز روی شاخه + ساخت وب) — به شکل «فهرست کلمات»، نه `vocab.db`.**
+      اپ در شروع فقط `assets/vocab_index.json` را می‌خواند؛ کارت کامل فقط هنگام باز کردن صفحه‌ی کلمه.
+      داده‌ی کلمه‌ها کاملاً از داده‌ی کاربر **جدا** ماند: فهرست هیچ لایتنر/لیستی ندارد و به جدول‌های
+      کاربر (`ArchivLeitner`, `Mitgliedschaften`, …) دست نمی‌زند. جزئیات و دلیل تغییر شکل: فاز V → V.2.
+      ~~V.2 `vocab.db` — حالا پیش‌شرط انتشار. چون بعد از انتشار کلمه‌ها روزانه زیاد می‌شوند و
+      `vokabular_controller` در startup همه‌ی کارت‌ها را می‌خواند (سقف ~۵۰۰).~~
 - [ ] **L.1a قاعده + نگهبان CI: شناسه‌ی کارت منتشرشده هرگز حذف یا عوض نمی‌شود.** لایتنر کارت‌های
       آرشیو را با شناسه‌ی متنی (`adjektiv_stolz`) نگه می‌دارد؛ حذف/تغییر نام = کارت یتیم در لایتنر کاربر.
       یک بررسی در CI که اگر شناسه‌ای نسبت به `main` ناپدید شد، قرمز شود.
@@ -754,6 +757,13 @@ lib/core/services/
 > می‌فرستد و Claude آن را با همه اطلاعات ذخیره می‌کند. اپ باید **آفلاین** بماند، **سریع load**
 > شود، و **چند سورت هم‌زمان** داشته باشد (A1–C2، Akkusativ، Adjektive، …).
 
+> ⚠️ **Update 2026-09-16 (V.2, Entscheidung von Claude im Rahmen von Lukas' Vollmacht — Lukas kann sie kippen):**
+> Die Architektur unten („prebuilt `vocab.db`, beim ersten Start kopieren, Tabelle `sentences`") stammt aus
+> der Zeit der nativen App und der ~100-Sätze-Idee. Beides gilt nicht mehr: VOX ist seit 2026-09-13 eine
+> **reine Web-App**, und V.0 hat die Karten auf **2 Beispiele** festgelegt. Umgesetzt ist deshalb ein
+> **Wortindex** statt einer zweiten SQLite-Datenbank — Begründung und Aufbau unter **V.2** unten.
+> Die ältere Beschreibung bleibt als Geschichte stehen.
+
 **📂 منبع کلمات (خام): `old files Lukasalmani/Wörter/`**
 لیست کامل کلمات آلمانی (منبع GitHub AlleDeutschenWoerter — `LICENSE.txt` باید رعایت شود):
 | فایل | نوع | تعداد |
@@ -818,6 +828,7 @@ lib/core/services/
     «Leitner hinzufügen» flag می‌زند؛ Kategorien = لیست‌های شخصی فقط با Wort-ID ها.
   · `controllers/vokabular_controller.dart` — لود کارت‌ها از `assets/vocab/<wortart>/<id>.json`
     (AssetManifest)؛ **پل به V.3**: بعداً فقط این provider با prebuilt vocab.db عوض می‌شود.
+    → ✅ **V.2 (2026-09-16):** دو مرحله شد — `vokabIndexProvider` (فهرست) + `vokabKarteProvider(id)` (کارت کامل، lazy).
     + `vokabId(wortart, wort)` (قانون ۵ ID: آرتیکل حذف، ä→ae/ß→ss) + جستجوی DE/FA/EN.
   · `controllers/vokabular_user_state.dart` — **user state جدا از content read-only**
     (بهبود مهم نسبت به کد RN که flag را داخل خود کارت می‌نوشت): Leitner-Map (box/nextReview)
@@ -971,11 +982,42 @@ Regel 14 (فرم‌ها در سطح Duden)، Regel 15 (حرف اضافه‌ی ث
 - [x] **V.1** ✅ (2026-07-14) ساختار پوشه `assets/vocab/<wortart>/<id>.json` (۱۰ پوشه در pubspec)
       + نگاشت Prompt→ذخیره = `vokab_schema.dart` (Validierung/Normalisierung) + demo `verb_lernen`؛
       کلمات واقعی از این پس via `import_inbox/` + `tool/vokabular_import.dart` (مرحله ۵ بالا)
-- [ ] **V.2** build-script (Dart/Python): فایل‌های کلمه → `vocab.db` (words/word_tags/sentences + index ها)
-      + خواندن txt های `Wörter/` برای backlog کلمات (کدام غنی شده، کدام نه)
-      ⚠️ **ارتقا به «پیش‌شرط» (Audit 2026-09-15):** `vokabular_controller` همه‌ی کارت‌ها را در startup
-      می‌خواند ⇒ بدون V.2 خودکارسازی (فاز A) اپ را می‌شکند. سقف امن تا آن زمان ~۵۰۰ کارت.
-- [ ] **V.3** اپ: کپی prebuilt `vocab.db` در first-launch (نه seed) + DAO + provider های سورت
+- [x] **V.2 Wortindex** ✅ (2026-09-16, Zweig `v2-wortindex`: Index-Bau + `analyze` + `test` + `flutter build web`
+      grün, danach nach `main`). Ursprünglich: build-script → `vocab.db`; der Backlog-Teil („welche Wörter sind
+      schon da") ist seit A.1 `tool/backlog.py`.
+      **Problem:** `vokabular_controller` las beim Start JEDE Karten-Datei — im Browser eine Netzanfrage je Wort.
+      Bei ~26.200 Wörtern startet die App so nicht (sichere Grenze ~500).
+      **Warum kein `vocab.db`:** (a) VOX ist nur noch Web; eine zweite SQLite-Datei müsste bei jedem neuen Wort
+      (nach dem Start täglich!) komplett neu heruntergeladen werden — genau wie ein Index, nur größer und mit einer
+      zweiten Datenbank im Browser. (b) Die Sätze-Tabelle ist seit V.0 hinfällig (2 Beispiele je Karte).
+      (c) Filter und Suche über ~26.000 kurze Einträge sind im Speicher schnell — dafür braucht es keine
+      SQL-Indizes. ⇒ Einfachste Lösung, die bis zum Ende trägt.
+      **Aufbau (zwei Stufen):**
+      · `assets/vocab_index.json` — je Wort nur id · wort · wortart · niveau · uebersetzung {fa,en} · die
+        Symbol-Felder aus `details` (genus, typ, regelmaessig, trennbar, modalverb, kasus, untertyp).
+        Gemessen an den 87 echten Karten: **~220 Byte je Wort** ⇒ bei 26.200 Wörtern ~5,8 MB, komprimiert
+        übertragen etwa ein Viertel. Eine Anfrage beim Start.
+      · Volle Karte `assets/vocab/<wortart>/<id>.json` — erst beim Öffnen der Wort-Seite
+        (`vokabKarteProvider(id)`).
+      **Der Index wird nie von Hand geschrieben und nie committet** (`.gitignore`). `tool/vokab_index.dart` baut
+      ihn in **jedem** Workflow direkt vor `flutter analyze` (deploy-web, pruefen, build-runner, pubspec-lock,
+      vokabular-autofill) — er kann also nicht veralten. Der Bau bricht ab (Bau rot, nichts veröffentlicht), wenn
+      eine Karte nicht lesbar ist, id/wortart/wort fehlt, die Wortart unbekannt ist, die Datei nicht unter
+      `assets/vocab/<wortart>/<id>.json` liegt oder eine id doppelt ist.
+      **Dateien:** `lib/features/vokabular/data/vokab_index.dart` (Format, reines Dart — EINE Quelle für Werkzeug
+      und App) · `tool/vokab_index.dart` · `vokabular_controller.dart` (`vokabIndexProvider`,
+      `vokabIndexByIdProvider`, `vokabKarteProvider`) · Verwender: `wortschatz_list_screen`,
+      `wortschatz_home_screen`, `dativ_verben_list_screen`, `wort_seite_screen` · `pubspec.yaml` · 5 Workflows.
+      **Tests:** `test/vokab_index_test.dart` — Format; drei Wächter an den echten Karten: (1) Symbol und Farbe aus
+      dem Index = aus der vollen Karte (liest der Resolver ein neues details-Feld, schlägt das an), (2) der
+      ausgelieferte Index ist frisch gebaut, (3) jede Wortart hat ihren Ordner in `pubspec.yaml`.
+      `test/vokabular_test.dart`: Index enthält das Demo-Wort ohne Seiteninhalt; Einzelkarte lädt, unbekannte id = null.
+      ⚠️ **Bewusst geändert:** Die Liste zeigt bei Archiv-Karten kein „Fach 1" mehr — das kam aus dem festen
+      `box: 1` jeder Karten-Datei und stimmte nie mit dem echten Leitner-Stand überein.
+      ⚠️ **Offline:** Nur geöffnete Wörter liegen im Browser-Zwischenspeicher; ein nie geöffnetes Wort braucht
+      Netz. Bei ~100 MB Karten ist Vorab-Laden aller Wörter keine Option — gehört zur Offline-Prüfung in L.3.
+- [x] **V.3** ✅ entfällt — in V.2 aufgegangen (kein `vocab.db` zu kopieren; Filter/Suche laufen im Speicher über den Index).
+      Ursprünglich: اپ: کپی prebuilt `vocab.db` در first-launch (نه seed) + DAO + provider های سورت
 - [ ] **V.4** UI: **لیست فقط words (سریع/paginated)** + detail با جمله‌های lazy + **چند سورت هم‌زمان**
       (A1–C2 / kasus / wortart / thema — هر کدام index+query روی همان جدول)
 - [ ] **V.5** تصمیم توزیع (کاربر + Claude با هم): **ZIP** یا **Apple CloudKit** یا db قابل‌دانلود یا
@@ -1370,6 +1412,13 @@ reines Dart, kein Codegen:
 **⚠️ ترتیب اجباری:** A.1/A.2 بی‌خطرند و می‌توانند همین حالا بروند. **A.3/A.4 نباید قبل از V.2
 فعال شوند** — چون `vokabular_controller` همه‌ی کارت‌ها را در startup می‌خواند و یک اجرای موفق
 با چند هزار کلمه اپ زنده را می‌شکند. سقف امن فعلی: **~۵۰۰ کارت**.
+✅ **V.2 انجام شد (2026-09-16)** — دلیل فنی این سقف از بین رفت. سقف `--grenze 500` در
+`tool/generate_words.py` **عمداً** باقی است: حالا فقط جلوی هزینه‌ی ناخواسته را می‌گیرد و برداشتنش جزو
+تصمیم A.6 با Lukas است.
+⚠️ **یافته‌ی 2026-09-16 (برای A.6):** `vokabular-autofill.yml` با `GITHUB_TOKEN` push می‌کند؛ چنین commitی
+**هیچ workflow دیگری را راه نمی‌اندازد** ⇒ `deploy-web.yml` بعد از آن اجرا **نمی‌شود** و کلمه‌های جدید
+منتشر نمی‌شوند (متن «deploy-web.yml baut jetzt neu» در خلاصه‌ی آن workflow درست نیست). قبل از اولین اجرای
+واقعی باید حل شود — همراه ساخت مسیر «فقط import».
 
 ---
 

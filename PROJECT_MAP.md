@@ -11,6 +11,7 @@
 # ⚠️ 2026-09-15 Audit (Claude, über GitHub-API): ۲۵۳ فایل Dart (بدون .g.dart) · ~۴۱٬۴۰۰ خط
 #   · assets/vocab/ = ۸۷ کارت، همه schema 3.0، بدون JSON خراب (۷۶ verb · ۳ adjektiv · ۸ بقیه)
 #   · ⚠️ vokabular_controller.dart همه کارت‌ها را در startup می‌خواند ⇒ سقف امن ~۵۰۰ کارت؛ V.2 پیش‌شرط شد
+#     ✅ V.2 (2026-09-16): حل شد — شروع فقط assets/vocab_index.json (ساخته‌ی tool/vokab_index.dart در هر workflow، commit نمی‌شود)؛ کارت کامل lazy
 #   · ⚠️ مارک‌های ✓ در Wörter/*.txt از واقعیت عقب‌اند ⇒ منبع حقیقت = assets/vocab/ (tool/sync_backlog.py)
 #   · B-3 / R-1.1 در کد رفع شده‌اند (stripPreposition در word_list_item.dart) — در BACKLOG اصلاح شد
 #   · README قدیمی: «Selbstlernen — Gewohnheiten, Streaks» (Habit از 2026-09-13 حذف شده)
@@ -973,9 +974,11 @@ data_seed_service.dart  [x]  — یک‌بار seed از JSON asset به SQLite 
   Wortschatz-Home = DB + کارت‌ها. ⏳ باز: نمایش لیست Kategorien شخصی (فعلاً فقط افزودن از
   WortActions ممکن است، صفحه‌ی نمایش با حذف home از بین رفت)؛ فیلتر Themen.
   **اصل: Wortschatz ≠ Leitner** — کارت‌ها read-only (assets)، user state جدا؛ لایتنر فقط با flag.
-  · `controllers/vokabular_controller.dart` [x] — کارت‌ها از `assets/vocab/<wortart>/<id>.json`
-    (AssetManifest؛ پل: V.3 فقط این provider را با vocab.db عوض می‌کند) + `vokabId()` (قانون ۵)
-    + `vokabKartePasst()` (جستجوی DE/FA/EN).
+  · `controllers/vokabular_controller.dart` [x] — **V.2 (2026-09-16):** `vokabIndexProvider` (فهرست از
+    `assets/vocab_index.json`، برای لیست/جستجو/شمارنده/نماد) · `vokabIndexByIdProvider` (id → مدخل فهرست؛
+    «کلمه وجود دارد؟») · `vokabKarteProvider(id)` (کارت **کامل** از `assets/vocab/<wortart>/<id>.json`، فقط
+    هنگام باز کردن صفحه‌ی کلمه) + `vokabId()` (قانون ۵) + `vokabKartePasst()` (جستجوی DE/FA/EN).
+    ⚠️ مدخل فهرست ≠ کارت کامل: Beispiele/Konjugation/Wortnetz فقط در `vokabKarteProvider`.
   · `controllers/vokabular_user_state.dart` [x] — Leitner-Map (box/nextReviewDate) + Kategorien
     (فقط Wort-ID) + **Notizen** (`VokabNotiz {text, farben: WortIndex→Farbname}`، متن خالی=حذف)؛
     `_ready`-Gate. **Seit B-11: Leitner + Listen in drift, NUR über die Fassade**
@@ -1001,6 +1004,9 @@ data_seed_service.dart  [x]  — یک‌بار seed از JSON asset به SQLite 
     آلمانی، بدون گلاس FA/EN، Wortnetz ۵×`id_ref` تخت، دقیقاً ۲ Beispiel؛ **Regel 15** از
     2026-07-14: برای Verb/Adjektiv/Nomen با حرف اضافه‌ی ثابت، `rektion`/`mit_praeposition`
     اجباری — Präposition + Kasus دقیق + جمله‌ی نمونه، هرگز null/خالی). Pipeline:
+    · `data/vokab_index.dart` [x] **V.2** — reines Dart: قالب فهرست کلمات (`vokabIndexEintrag`,
+      `vokabIndexBauen`, `vokabIndexLesen`, `vokabKartenPfad`) + `vokabIndexDetailFelder` (فیلدهایی از
+      details که نماد لازم دارد — ⚠️ فیلد جدید در Resolver ⇒ اینجا هم؛ `test/vokab_index_test.dart` مراقب است).
     · `data/vokab_schema.dart` [x] — reines Dart (بدون Flutter-Import!)، یک منبع اپ+تول:
       vokabId + vokabParseBatch (Fences-tolerant) + vokabPruefeKarte (فاتال→رد؛
       id/box/perfekt/genitiv/id_ref → normalisiert+Warnung). vokabId از controller به اینجا
@@ -1022,7 +1028,10 @@ data_seed_service.dart  [x]  — یک‌بار seed از JSON asset به SQLite 
   (→ PerfektBuilder) هنگام ذخیره strip می‌شوند. فقط enum معنایی می‌ماند.
 - **منبع ذخیره (Git، افزودنی)**: `assets/vocab/<wortType>/<id>.json` — ۱ فایل برای هر کلمه،
   خودکفا (متادیتا + جمله‌ها). فیلد `tags` (level:/kasus:/type:/thema:) برای سورت. بدون بازنویسی بقیه.
-- **Laufzeit (سریع)**: build-script → یک **prebuilt SQLite `assets/vocab.db`**:
+- ✅ **Laufzeit — umgesetzt 2026-09-16 (V.2) als Wortindex, NICHT als `vocab.db`** (Web-only + 2 Beispiele je
+  Karte ⇒ zweite SQLite-DB ohne Nutzen): `assets/vocab_index.json` beim Start, volle Karte lazy. Begründung:
+  PLAN.md → فاز V → V.2. Der folgende Punkt ist die ältere Planung:
+- ~~**Laufzeit (سریع)**~~ (überholt): build-script → یک **prebuilt SQLite `assets/vocab.db`**:
   `words` (~26k، indexed) + `word_tags` (m:n) + `sentences` (~2.6M، **lazy**).
   first-launch **یک‌بار کپی** (نه seed). **لیست فقط words (سریع/paginated)؛ جمله‌ها lazy.
   چند سورت هم‌زمان = چند index روی همان یک جدول. سورت = query نه فایل.**
@@ -1209,6 +1218,7 @@ Veröffentlichung.
 
 | فایل | زبان | کار |
 |------|------|-----|
+| `tool/vokab_index.dart` | Dart | **V.2** — baut `assets/vocab_index.json` aus `assets/vocab/`. Läuft in **jedem** Workflow direkt vor `flutter analyze`; Ergebnis nie committet (`.gitignore`). exit 1 bei unlesbarer/falsch abgelegter Karte oder doppelter id |
 | `tool/vokabular_import.dart` | Dart | **verbindliche Prüfung** — Konverter-Output → `assets/vocab/<wortart>/<id>.json`. Nutzt `vokabPruefeKarte()` aus `lib/features/vokabular/data/vokab_schema.dart`. Duplikat-Schutz, idempotent, exit 1 bei Fehlern |
 | `tool/backlog.py` | Python | **A.1** — welches Wort ist als Nächstes dran? Leitet den Stand aus `assets/vocab/` ab (nicht aus den ✓-Marken). `--stand` / `--naechste N` / `--gruppe` / `--json`. Spiegelt `vokabId()` zeichengenau |
 | `tool/sync_backlog.py` | Python | **A.2** — schreibt die ✓-Marken in `Wörter/*.txt` aus `assets/vocab/` neu. idempotent, `--dry-run` |
@@ -1223,7 +1233,9 @@ Dart, **muss** sie hier mitgezogen werden, sonst greift der Duplikat-Schutz nich
 ✅ **`.github/workflows/vokabular-autofill.yml` liegt seit 2026-09-16 im Repo** (فاز A / A.4) —
 möglich wurde das durch das PAT mit „Workflows: Read and write". Bevor ein echter Lauf Kosten
 verursacht, fehlt noch das Secret `ANTHROPIC_API_KEY`.
-⚠️ **A.3/A.4 erst nach V.2 scharfschalten** — `vokabular_controller` liest beim Start jede Karte;
+✅ **V.2 erledigt (2026-09-16)** — die technische Grenze ist weg; `--grenze 500` in `generate_words.py` bleibt als Kostenschutz bis A.6.
+⚠️ **A.4-Befund:** Push aus `vokabular-autofill.yml` (GITHUB_TOKEN) startet `deploy-web.yml` NICHT — vor dem ersten echten Lauf lösen (PLAN.md → فاز A).
+~~⚠️ **A.3/A.4 erst nach V.2 scharfschalten**~~ — `vokabular_controller` liest beim Start jede Karte;
 ein erfolgreicher Lauf mit mehreren tausend Wörtern bricht die laufende App. Grenze: ~500 Karten.
 ⛔ **A.6 (2026-09-16): Welcher Weg die Wörter erzeugt, entscheidet Lukas.** Optionen: API
 (`vokabular-autofill.yml`, kostet Geld) · von Hand im Chat mit Claude · Claude Code — oder gemischt.
@@ -1235,6 +1247,13 @@ noch nicht und wird erst nach dieser Entscheidung gebaut.
 ---
 
 ## BUGS FIXED
+
+### [2026-09-16] V.2: App-Start las jede Wortkarte einzeln
+- `vokabular_controller.dart` lud beim Start alle Dateien aus `assets/vocab/` (im Browser je eine Anfrage) ⇒
+  Grenze ~500 Wörter. Jetzt ein Wortindex + Einzelkarte beim Öffnen (siehe `tool/vokab_index.dart`).
+- Nebenbei: Archiv-Karten zeigten in der Liste immer „Fach 1" (festes `box: 1` der Datei) — entfällt.
+- ⚠️ Neuer Workflow mit `flutter analyze`/`test`/`build` ⇒ vorher `dart run tool/vokab_index.dart`, sonst
+  fehlt das Asset `assets/vocab_index.json`.
 
 ### [2026-09-16] S.6: Umbenennen einer Liste kostete beim Abgleich Wörter
 - Die id einer eigenen Liste war ihr Name ⇒ Umbenennen = „alte Liste weg"; Wörter, die ein anderes
