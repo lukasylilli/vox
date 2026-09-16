@@ -5772,6 +5772,10 @@ abstract class _$AppDatabase extends GeneratedDatabase {
   late final $AudioItemsTable audioItems = $AudioItemsTable(this);
   late final $HabitsTable habits = $HabitsTable(this);
   late final $HabitSessionsTable habitSessions = $HabitSessionsTable(this);
+  late final Index userCategoriesUid = Index(
+    'user_categories_uid',
+    'CREATE UNIQUE INDEX user_categories_uid ON user_categories (uid)',
+  );
   @override
   Iterable<TableInfo<Table, Object?>> get allTables =>
       allSchemaEntities.whereType<TableInfo<Table, Object?>>();
@@ -5793,6 +5797,7 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     audioItems,
     habits,
     habitSessions,
+    userCategoriesUid,
   ];
 }
 
