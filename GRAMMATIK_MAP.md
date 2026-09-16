@@ -105,6 +105,7 @@ Der gewählte Modus wird in `shared_preferences` gespeichert (`grammatik_sort_mo
 | **G7b** | Kombiniertes Niveau-Quiz A1–C2 (Quelle: 10 Fragen, Bestehen ab 70 %) | ✅ 2026-09-16 |
 | **G7c** | Übungen aus den Beispielsätzen der Lektionen (nur Formen, die ohne Raten richtig sind) | [ ] |
 | **G7d** | Übungen für Redemittel und weitere Decks | [ ] |
+| **G7e** | Ergebnis des Niveau-Tests im Lernstand speichern (Lukas: ja — später Bereich „Erfolge") | [ ] |
 | **G8** | Integration: Global Search, Leitner-Verknüpfung, Glossar A–Z, neue Nutzer-Quellen einpflegen | [ ] |
 
 Bei jeder Stufe: Status-Spalten hier + Katalog-JSON + PLAN.md aktualisieren.

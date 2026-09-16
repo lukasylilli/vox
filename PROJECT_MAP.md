@@ -30,7 +30,8 @@
 #   deckهای «به‌زودی» در core/services/feature_flags.dart (Lukas منبع هر کدام را یکی‌یکی می‌فرستد)
 #   🧩 L.2e/G7 (تصمیم Lukas 2026-09-16): تمرین‌ها قبل از انتشار — گرامر → تمرین (گرامر، ردمیتل…) → انتشار → کلمه‌ها → تمرین کلمه‌ها
 #     ✅ G7a (2026-09-16): ۳۳۶ تمرین منبع در هر درس — /grammatik/lektion/:slug/uebung
-#     ✅ G7b (2026-09-16): آزمون سطح — /grammatik/quiz-niveau/:level (assets/data/grammatik_niveautest.json) · باز: G7c از مثال‌ها · G7d ردمیتل
+#     ✅ G7b (2026-09-16): آزمون سطح — /grammatik/quiz-niveau/:level (assets/data/grammatik_niveautest.json)
+#     باز: G7c از مثال‌ها (Lukas: کاملاً متنوع و تصادفی) · G7d ردمیتل · G7e ذخیره‌ی نتیجه‌ی آزمون (Lukas: بله → بخش آینده‌ی «دست‌یافته‌ها»)
 #   L.2b: A1/A2 Wortschatz = جزو فاز کلمه‌ها؛ قبل از انتشار فقط چند کارت نمونه از هر نوع
 #   Lukas: «منابع همه‌چیز با من، برنامه‌نویسی با تو» ⇒ برای محتوا (گرامر، deckها، …) منبع را از او بخواه.
 #   ⛔ استثنا: کارت‌های کلمه را همیشه Claude طبق «old files Lukasalmani/Wort prompt» می‌سازد — تبدیل منابع Lukas رد شد (2026-09-16).
