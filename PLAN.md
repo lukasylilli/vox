@@ -16,7 +16,7 @@
 ## 🎯 وضعیت فعلی (2026-09-15)
 | فاز | وضعیت | خلاصه |
 |-----|-------|-------|
-| **G — Grammatik Vollausbau** | G1+G2 ✅ / G3–G8 باز | کاتالوگ ۹۳ موضوع + LektionScreen live (۴ درس واقعی)؛ نقشه: `GRAMMATIK_MAP.md` |
+| **G — Grammatik Vollausbau** | G1–G6 ✅ / G7–G8 باز | کاتالوگ ۹۳ موضوع + LektionScreen live (**۸۴ درس**، 2026-09-16)؛ نقشه: `GRAMMATIK_MAP.md` |
 | **B — Buttons (Puzzling)** | ✅ | همه دکمه‌ها reference به `vox_button.dart`؛ ۰ دکمه خام؛ همه quiz options → VoxOptionButton |
 | **L — L10n: زبان فقط از Settings** | ✅ | ۶ سوییچ حذف، Dual-Display صفر، AppL10n تنها منبع |
 | **L2 — Massen-Lokalisierung** | ✅ | ۶۴۱→۴۱ رشته FA در UI (کاتالوگ ۵۳۷=۵۳۷)؛ باقی در L3 |
@@ -25,12 +25,13 @@
 | ۱۶ — انتشار و QA نهایی | باز | آخرین فاز قبل از launch |
 
 **2026-09-16:** L.3a ✅ زبان شروع = انگلیسی، مگر دستگاه فارسی باشد.
+**2026-09-16:** L.2c ✅ گرامر: هر ۸۴ درس اصلی زنده‌اند (G3–G6) — منبع برخلاف یادداشت قبلی کامل بود؛ بدون تغییر محتوا وارد شد. یک خطای نمایش جدول در درس‌های sein/haben هم رفع شد.
 **2026-09-16:** L.1b ✅ آزمون به‌روزرسانی: هر نسخه‌ی منتشرشده‌ی پایگاه‌داده (۲ تا ۶) با داده‌ی واقعی لایتنر به نسخه‌ی ۷ رسانده و بررسی می‌شود — ساختار دقیقاً مثل نصب تازه، لایتنر/لیست‌ها سالم. آزمون عمدی خراب ⇒ قرمز شد.
 **2026-09-16:** L.1a ✅ نگهبان شناسه‌ها: اگر شناسه‌ی کارتی که روی سایت منتشر شده حذف یا عوض شود، ساخت قرمز می‌شود و چیزی منتشر نمی‌شود (با حذف آزمایشی یک کارت روی شاخه‌ی جدا ثابت شد).
 **2026-09-16:** V.2 ✅ اپ هنگام شروع دیگر همه‌ی کارت‌ها را نمی‌خواند — فقط یک فهرست کوچک (`assets/vocab_index.json`)؛ کارت کامل فقط وقتی صفحه‌ی آن کلمه باز شود. سقف ~۵۰۰ کارت برداشته شد.
 **2026-09-16:** S.6 ✅ لیست‌های شخصی شناسه‌ی ثابت دارند — تغییر نام دیگر کلمه‌ای را در همگام‌سازی از بین نمی‌برد (پایگاه داده نسخه‌ی ۷، قرارداد پشتیبان نسخه‌ی ۳).
 
-**قدم‌های بعدی (2026-09-16, ترتیب جدید — بخش «فاز LAUNCH»):** ① **L.1** امنیت لایتنر: S.6 ✅ → V.2 ✅ → L.1a ✅ → L.1b ✅ (باقی L.1 با Lukas: L.1c/L.1d) (+ Lukas: Supabase-Secrets، تصمیم حذف حساب) ② **L.2** کامل بودن محتوا: G3–G6 + deckهای «به‌زودی» + سؤال‌ها از Lukas (ÖSD C1، A1/A2 Wortschatz) ③ **L.3** آماده‌سازی انتشار ← **انتشار** ④ **L.4** کلمه‌ها روزانه (A.6 ⛔ اول از Lukas بپرس)
+**قدم‌های بعدی (2026-09-16, ترتیب جدید — بخش «فاز LAUNCH»):** ① **L.1** امنیت لایتنر: S.6 ✅ → V.2 ✅ → L.1a ✅ → L.1b ✅ (باقی L.1 با Lukas: L.1c/L.1d) (+ Lukas: Supabase-Secrets، تصمیم حذف حساب) ② **L.2** کامل بودن محتوا: G3–G6 ✅ + deckهای «به‌زودی» + سؤال‌ها از Lukas (ÖSD C1، A1/A2 Wortschatz) ③ **L.3** آماده‌سازی انتشار ← **انتشار** ④ **L.4** کلمه‌ها روزانه (A.6 ⛔ اول از Lukas بپرس)
 
 ---
 
@@ -117,7 +118,9 @@
 - [ ] **L.2b A1/A2 Wortschatz از جزوه‌ها:** `a1_wortschatz.json` (۷۳۹) + `a2_wortschatz.json` (۳۲۴) =
       **۱٬۰۶۳ کلمه** در `old files Lukasalmani/1/` — **هیچ‌جای اپ استفاده نشده‌اند.** ⇒ **از Lukas بپرس:**
       قبل از انتشار وارد شوند یا جزو مرحله‌ی کلمه‌ها (L.4)؟
-- [ ] **L.2c گرامر:** فقط ۴ از ۸۴ درس live ⇒ **G3–G6** قبل از انتشار (منبع `old files Lukasalmani/1/Grammatik`، ۵۴۶ KB)
+- [x] **L.2c گرامر** ✅ (2026-09-16): ~~فقط ۴ از ۸۴ درس live ⇒ G3–G6 قبل از انتشار~~ ⇒ **هر ۸۴ درس live** (فاز G → G3–G6؛
+      جزئیات کامل: `GRAMMATIK_MAP.md` → Änderungsprotokoll 2026-09-16). تمرین‌ها (G7) هنوز باز است — تصمیم با Lukas
+      که قبل از انتشار لازم است یا بعد.
 - [ ] **L.2d deckهای «به‌زودی» بدون محتوا:** relativsatz · da_praepositionen · adjektive ·
       adjektivdeklination · tempusformen (⚠️ `tempusformen_grammar.json` موجود است ولی deck خاموش) ·
       oesd_c1 · zusammenfassung · a2_zusammenfassung · feature.sprechen · feature.schreiben
@@ -789,15 +792,27 @@ lib/core/services/
         verb-haben، regelmaessige-verben) — از منبع استخراج شد → assets/data/grammatik/
       · pubspec: `assets/data/grammatik/` اضافه شد (زیرپوشه غیررکورسیو)
       · flutter test: سبز · analyze: سبز
-- [~] **G2-alt** (نکته برای G3): منبع `old files Lukasalmani/1/Grammatik` ناقص/آشفته است —
-      فقط ۴ لکسیون کامل parse شد. G3–G6 باید محتوای کامل ۸۴ درس را با دقت استخراج کنند.
+- [x] **G2-alt** ✅ اصلاح شد (2026-09-16): منبع **ناقص نیست** — ۱۷ سند JSON کامل (۸۴ درس، ۳۳۶ تمرین) پشت‌سرهم
+      با متن توضیحی میانشان؛ هر سند از `{` قبل از `"_index"` جدا می‌شود. `verben-grundlagen.json` موجود بایت‌به‌بایت
+      با سند منبع برابر بود. ~~منبع ناقص/آشفته است — فقط ۴ لکسیون کامل parse شد.~~
 - [ ] **G2-old** `GrammatikLektionScreen` — رندر Content-JSON (explanationBlocks سه‌زبانه +
       examples + tables + relatedSlugs) در `/grammatik/lektion/:slug`
-- [ ] **G3** ایمپورت محتوا I: verben-grundlagen(9) + tempus(5) + passiv(4) + konjunktiv(7)
+- [x] **G3** ✅ (2026-09-16) ایمپورت محتوا I: verben-grundlagen(9) + tempus(5) + passiv(4) + konjunktiv(7)
       → `assets/data/grammatik/<thema>.json` + آپدیت route در کاتالوگ
-- [ ] **G4** ایمپورت محتوا II: verbergaenzungen(5) + ergaenzungssaetze(3) + nomen(6) + artikel(6)
-- [ ] **G5** ایمپورت محتوا III: adjektive(4) + adverbien(4) + pronomen(5) + praepositionen(5)
-- [ ] **G6** ایمپورت محتوا IV: satzlehre(9) + nebensaetze(7) + temporalsaetze(5) → همه ۸۴ درس live
+- [x] **G4** ✅ (2026-09-16) ایمپورت محتوا II: verbergaenzungen(5) + ergaenzungssaetze(3) + nomen(6) + artikel(6)
+- [x] **G5** ✅ (2026-09-16) ایمپورت محتوا III: adjektive(4) + adverbien(4) + pronomen(5) + praepositionen(5)
+- [x] **G6** ✅ (2026-09-16) ایمپورت محتوا IV: satzlehre(9) + nebensaetze(7) + temporalsaetze(5) → همه ۸۴ درس live
+      **G3–G6 انجام شد (2026-09-16):** ۱۷ فایل در `assets/data/grammatik/` (نام‌ها طبق منبع)، محتوا **بدون هیچ تغییر**؛
+      ۷۵ مدخل کاتالوگ route `/grammatik/lektion/<slug>` گرفتند؛ ۵ مدخلی که صفحه‌ی ویژه‌ی خودشان را دارند
+      (trennbare-verben، modalverben، unregelmaessige-verben، reflexive-verben، die-vier-faelle) **عمداً** دست نخوردند.
+      · `grammatik_lektion_controller.dart`: فهرست `grammatikContentFiles` (۱۷ فایل).
+      · `grammatik_lektion.dart`: منبع `columns` را دو جور نوشته (با/بدون عنوانِ ستونِ برچسب) ⇒ `GrammatikTable.fromJson`
+        یکی‌شان می‌کند + `istStimmig`؛ صفحه جدول ناسازگار را هرگز نمی‌کشد. قبلاً جدول‌های `verb-sein`/`verb-haben`
+        (live از G2) با DataTable ناسازگار بودند.
+      · ۳ جدول `interactiveGrid` (Adjektivdeklination) به‌صورت جدول عادی نمایش داده می‌شوند؛ تمرین روی آن‌ها = G7.
+      · ۸ ارجاع منبع به slugهای بدون درس (مثل `temporalsaetze`) مثل قبل بی‌صدا نادیده گرفته می‌شوند — حدس زده نشد.
+      · تست: `test/grammatik_lektionen_test.dart` — فایل‌ها ↔ فهرست، درس ↔ کاتالوگ، جدول‌ها قابل‌نمایش، سه‌زبانه،
+        و **رسم واقعی هر ۸۴ درس در EN و FA** بدون خطا (همه‌ی جدول‌ها کشیده می‌شوند).
 - [ ] **G7** تمرین‌ها: GrammarExercise per درس (منبع exerciseSlugs دارد) + آزمون ترکیبی هر Niveau
 - [ ] **G8** یکپارچه‌سازی: Global Search + لینک Leitner + گلاسری A–Z + منابع جدید کاربر
 

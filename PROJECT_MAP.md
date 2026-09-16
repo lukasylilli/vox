@@ -22,6 +22,7 @@
 #   اپ زودتر و به‌صورت نسخه‌ی نهایی منتشر می‌شود؛ کلمه‌ها آخرین مرحله‌اند و بعد از انتشار روزانه اضافه می‌شوند.
 #   L.1 امنیت لایتنر (S.6 ✅, V.2, نگهبان شناسه‌ها, تست مهاجرت) → L.2 کامل بودن محتوا → L.3 انتشار → L.4 کلمه‌ها
 #   Audit محتوا: Redemittel/Goethe/ÖSD B2/Konnektoren/NVV/Präp/Dativ = کامل نسبت به منبع.
+#   ✅ L.2c (2026-09-16): گرامر ۸۴/۸۴ درس live (assets/data/grammatik/ ۱۷ فایل) — تمرین‌ها (G7) باز.
 #   باز: ÖSD C1 (۶ عبارت، بدون منبع) · A1/A2 Wortschatz (۱٬۰۶۳ کلمه در old files/1، در اپ استفاده نشده) ·
 #   گرامر ۴/۸۴ · deckهای «به‌زودی» در core/services/feature_flags.dart
 #   Lukas: «منابع همه‌چیز با من، برنامه‌نویسی با تو» ⇒ برای محتوا (گرامر، deckها، …) منبع را از او بخواه.
@@ -521,7 +522,9 @@ screens/
   grammatik_lektion_screen.dart[x]  — G2: رندر Content-JSON یک لکسیون (route /grammatik/lektion/:slug)
                                       بلوک‌ها (DE ثابت + FA/EN فعال) + DataTable + مثال‌ها + verwandte
                                       مدل grammatik_lektion.dart + controller grammatik_lektion_controller.dart
-                                      (لیست _contentFiles؛ G3–G6 خط اضافه می‌کنند). ۴ درس live.
+                                      (فهرست grammatikContentFiles، ۱۷ فایل). **۸۴ درس live** (G3–G6، 2026-09-16).
+                                      ⚠️ GrammatikTable.fromJson دو شکل «columns» منبع را یکی می‌کند؛ istStimmig.
+                                      تست: test/grammatik_lektionen_test.dart (رسم هر ۸۴ درس در EN/FA).
   grammatik_katalog_screen.dart[x]  — G1: صفحه پارامتریک /grammatik/katalog/:view/:key
                                       niveau/satzglied → گروه‌بندی بر اساس Thema · thema → flat
                                       + کارت «Lektionen & Übungen» → /grammatik/:level (سیستم DB قدیم)
@@ -1265,6 +1268,10 @@ noch nicht und wird erst nach dieser Entscheidung gebaut.
 ---
 
 ## BUGS FIXED
+
+### [2026-09-16] L.2c: Tabellen von „verb-sein"/„verb-haben" nicht darstellbar
+- Die Quelle schreibt `columns` mal mit, mal ohne Überschrift der Beschriftungsspalte; DataTable verlangt
+  gleich viele Zellen wie Spalten. `GrammatikTable.fromJson` vereinheitlicht, `istStimmig` schützt die Anzeige.
 
 ### [2026-09-16] L.1b: Index `user_categories_uid` war für drift unsichtbar
 - In S.6 per rohem SQL angelegt ⇒ Schema-Vergleich hätte ihn als „überzählig" gemeldet und drift kannte ihn nicht.

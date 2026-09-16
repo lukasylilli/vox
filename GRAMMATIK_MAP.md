@@ -1,6 +1,6 @@
 # GRAMMATIK_MAP — VOX
 # Vollständige Seiten-Map des Grammatik-Bereichs
-# Stand: 2026-07-06 · Stufe G1 umgesetzt
+# Stand: 2026-09-16 · Stufen G1–G6 umgesetzt (alle 84 Kern-Lektionen live)
 
 > **Pflegeregeln (bei jeder Stufe aktualisieren!):**
 > 1. Neue Inhalte ⇒ Eintrag im Master-Katalog unten **und** in `assets/data/grammatik_katalog.json` ergänzen/Status ändern.
@@ -78,7 +78,7 @@ Der gewählte Modus wird in `shared_preferences` gespeichert (`grammatik_sort_mo
 | Datei | Rolle |
 |---|---|
 | `assets/data/grammatik_katalog.json` | **Master-Katalog**: `themen[]`, `satzglieder[]`, `eintraege[]` (slug, de, fa, en, niveaus, thema, satzglied, lektion, route) |
-| `assets/data/grammatik/<thema>.json` | Content-JSONs der Kern-Lektionen (dreisprachig; Schema: explanationBlocks/examples/tables/relatedSlugs). ab G2: verben-grundlagen.json (4 live); G3–G6 folgen. **pubspec: `assets/data/grammatik/` deklariert (nicht rekursiv!)** |
+| `assets/data/grammatik/<thema>.json` | Content-JSONs der Kern-Lektionen (dreisprachig; Schema: explanationBlocks/examples/tables/relatedSlugs). seit G3–G6 (2026-09-16): **17 Dateien, 84 Lektionen** (verben-grundlagen, verben-erweitert, tempus, passiv, konjunktiv, verbergaenzungen, ergaenzungssaetze, nomen, artikel, adjektive, adverbien, pronomen, praepositionen, satzlehre-misc, satzlehre-grundlagen, nebensaetze-semantisch, temporalsaetze — Namen wie in der Quelle); Liste `grammatikContentFiles` im Controller. **pubspec: `assets/data/grammatik/` deklariert (nicht rekursiv!)** |
 | `lib/features/grammatik/models/grammatik_lektion.dart` | G2: Lektion-Content-Model (Block/Example/Table) |
 | `lib/features/grammatik/controllers/grammatik_lektion_controller.dart` | G2: lädt `_contentFiles`, indexiert nach slug |
 | `lib/features/grammatik/screens/grammatik_lektion_screen.dart` | G2: Renderer (route `/grammatik/lektion/:slug`) |
@@ -96,10 +96,10 @@ Der gewählte Modus wird in `shared_preferences` gespeichert (`grammatik_sort_mo
 |---|---|---|
 | **G1** | Katalog-JSON (93 Einträge) + Models + Controller + Home mit 4 Ansichten + Katalog-Screen + Router | ✅ 2026-07-06 |
 | **G2** | `GrammatikLektionScreen` — Renderer für Content-JSON (Blocks, Beispiele, Tabellen, related) | ✅ 2026-07-07 |
-| **G3** | Content-Import I: verben-grundlagen (9) + tempus (5) + passiv (4) + konjunktiv (7) | [ ] |
-| **G4** | Content-Import II: verbergaenzungen (5) + ergaenzungssaetze (3) + nomen (6) + artikel (6) | [ ] |
-| **G5** | Content-Import III: adjektive (4) + adverbien (4) + pronomen (5) + praepositionen (5) | [ ] |
-| **G6** | Content-Import IV: satzlehre (9) + nebensaetze (7) + temporalsaetze (5) → **alle 84 live** | [ ] |
+| **G3** | Content-Import I: verben-grundlagen (9) + tempus (5) + passiv (4) + konjunktiv (7) | ✅ 2026-09-16 |
+| **G4** | Content-Import II: verbergaenzungen (5) + ergaenzungssaetze (3) + nomen (6) + artikel (6) | ✅ 2026-09-16 |
+| **G5** | Content-Import III: adjektive (4) + adverbien (4) + pronomen (5) + praepositionen (5) | ✅ 2026-09-16 |
+| **G6** | Content-Import IV: satzlehre (9) + nebensaetze (7) + temporalsaetze (5) → **alle 84 live** | ✅ 2026-09-16 |
 | **G7** | Übungen pro Lektion (Quelle enthält exerciseSlugs) + kombiniertes Niveau-Quiz A1–C2 | [ ] |
 | **G8** | Integration: Global Search, Leitner-Verknüpfung, Glossar A–Z, neue Nutzer-Quellen einpflegen | [ ] |
 
@@ -117,84 +117,84 @@ Lekt. = Position im linearen Lernpfad („Lektionen"-Ansicht) · — = Vertiefun
 | 4 | `regelmaessige-verben` | Regelmäßige Verben | افعال باقاعده | A1 | verben | praedikat | LIVE → `/grammatik/lektion/regelmaessige-verben` |
 | 5 | `trennbare-verben` | Trennbare Verben | افعال جداشدنی | A1·A2 | verben | praedikat | LIVE → `/trennbar/grammar` |
 | 6 | `modalverben` | Modalverben | افعال وجهی | A1·A2 | verben | praedikat | LIVE → `/modalverben/grammar` |
-| 7 | `imperativ` | Der Imperativ | حالت امری | A1·A2 | verben | praedikat | geplant |
-| 8 | `perfekt` | Das Perfekt | زمان Perfekt (گذشتهٔ نقلی) | A1·A2 | tempus | praedikat | geplant |
-| 9 | `nominativergaenzung` | Die Nominativergänzung | متمم Nominativ | A1·A2 | verbergaenzungen | ergaenzungen | geplant |
-| 10 | `akkusativergaenzung` | Die Akkusativergänzung | متمم Akkusativ | A1 | verbergaenzungen | ergaenzungen | geplant |
-| 11 | `genusbestimmung` | Genusbestimmung | تشخیص جنسیت دستوری اسم | A1 | nomen | nominalgruppe | geplant |
-| 12 | `pluralbildung` | Die Pluralbildung | ساخت شکل جمع اسم | A1·A2 | nomen | nominalgruppe | geplant |
-| 13 | `bestimmter-unbestimmter-artikel` | Bestimmter und unbestimmter Artikel | آرتیکل معین و نامعین | A1 | artikel | nominalgruppe | geplant |
-| 14 | `possessivartikel` | Der Possessivartikel | آرتیکل ملکی | A1·A2 | artikel | nominalgruppe | geplant |
-| 15 | `zahlwoerter` | Zahlwörter | اعداد | A1·A2 | adjektive | attribute | geplant |
-| 16 | `lokaladverbien` | Lokaladverbien | قید مکان | A1·A2 | adverbien | angaben | geplant |
-| 17 | `temporaladverbien` | Temporaladverbien | قید زمان | A1·A2 | adverbien | angaben | geplant |
-| 18 | `personalpronomen` | Personalpronomen | ضمیر شخصی | A1 | pronomen | nominalgruppe | geplant |
-| 19 | `praepositionen-akkusativ` | Präpositionen mit Akkusativ | حرف‌اضافه با Akkusativ | A1·A2 | praepositionen | angaben | geplant |
-| 20 | `praepositionen-dativ` | Präpositionen mit Dativ | حرف‌اضافه با Dativ | A1·A2 | praepositionen | angaben | geplant |
-| 21 | `fragewoerter` | Fragewörter | کلمات پرسشی | A1·A2 | satzlehre | satzverbindung | geplant |
+| 7 | `imperativ` | Der Imperativ | حالت امری | A1·A2 | verben | praedikat | LIVE → `/grammatik/lektion/imperativ` |
+| 8 | `perfekt` | Das Perfekt | زمان Perfekt (گذشتهٔ نقلی) | A1·A2 | tempus | praedikat | LIVE → `/grammatik/lektion/perfekt` |
+| 9 | `nominativergaenzung` | Die Nominativergänzung | متمم Nominativ | A1·A2 | verbergaenzungen | ergaenzungen | LIVE → `/grammatik/lektion/nominativergaenzung` |
+| 10 | `akkusativergaenzung` | Die Akkusativergänzung | متمم Akkusativ | A1 | verbergaenzungen | ergaenzungen | LIVE → `/grammatik/lektion/akkusativergaenzung` |
+| 11 | `genusbestimmung` | Genusbestimmung | تشخیص جنسیت دستوری اسم | A1 | nomen | nominalgruppe | LIVE → `/grammatik/lektion/genusbestimmung` |
+| 12 | `pluralbildung` | Die Pluralbildung | ساخت شکل جمع اسم | A1·A2 | nomen | nominalgruppe | LIVE → `/grammatik/lektion/pluralbildung` |
+| 13 | `bestimmter-unbestimmter-artikel` | Bestimmter und unbestimmter Artikel | آرتیکل معین و نامعین | A1 | artikel | nominalgruppe | LIVE → `/grammatik/lektion/bestimmter-unbestimmter-artikel` |
+| 14 | `possessivartikel` | Der Possessivartikel | آرتیکل ملکی | A1·A2 | artikel | nominalgruppe | LIVE → `/grammatik/lektion/possessivartikel` |
+| 15 | `zahlwoerter` | Zahlwörter | اعداد | A1·A2 | adjektive | attribute | LIVE → `/grammatik/lektion/zahlwoerter` |
+| 16 | `lokaladverbien` | Lokaladverbien | قید مکان | A1·A2 | adverbien | angaben | LIVE → `/grammatik/lektion/lokaladverbien` |
+| 17 | `temporaladverbien` | Temporaladverbien | قید زمان | A1·A2 | adverbien | angaben | LIVE → `/grammatik/lektion/temporaladverbien` |
+| 18 | `personalpronomen` | Personalpronomen | ضمیر شخصی | A1 | pronomen | nominalgruppe | LIVE → `/grammatik/lektion/personalpronomen` |
+| 19 | `praepositionen-akkusativ` | Präpositionen mit Akkusativ | حرف‌اضافه با Akkusativ | A1·A2 | praepositionen | angaben | LIVE → `/grammatik/lektion/praepositionen-akkusativ` |
+| 20 | `praepositionen-dativ` | Präpositionen mit Dativ | حرف‌اضافه با Dativ | A1·A2 | praepositionen | angaben | LIVE → `/grammatik/lektion/praepositionen-dativ` |
+| 21 | `fragewoerter` | Fragewörter | کلمات پرسشی | A1·A2 | satzlehre | satzverbindung | LIVE → `/grammatik/lektion/fragewoerter` |
 | 22 | `die-vier-faelle` | Die vier Fälle (Kasus) | چهار حالت دستوری (Kasus) | A1·A2·B1 | satzlehre | ergaenzungen | LIVE → `/grammatik/thema/kasus` |
-| 23 | `negation-verneinung` | Negation (Verneinung) | نفی (Verneinung) | A1·A2 | satzlehre | angaben | geplant |
-| 24 | `satzarten` | Satzarten | انواع جمله | A1·A2 | satzlehre | satzverbindung | geplant |
+| 23 | `negation-verneinung` | Negation (Verneinung) | نفی (Verneinung) | A1·A2 | satzlehre | angaben | LIVE → `/grammatik/lektion/negation-verneinung` |
+| 24 | `satzarten` | Satzarten | انواع جمله | A1·A2 | satzlehre | satzverbindung | LIVE → `/grammatik/lektion/satzarten` |
 | 25 | `unregelmaessige-verben` | Unregelmäßige Verben | افعال بی‌قاعده | A2·B1 | verben | praedikat | LIVE → `/unregelm-verben/grammar` |
 | 26 | `reflexive-verben` | Reflexive Verben | افعال انعکاسی | A2·B1 | verben | praedikat | LIVE → `/reflexiv/grammar` |
-| 27 | `praeteritum` | Das Präteritum | زمان Präteritum (گذشتهٔ ساده) | A2·B1 | tempus | praedikat | geplant |
-| 28 | `hoeflichkeit-konjunktiv` | Höflichkeit mit Konjunktiv II | مؤدبانه‌گویی با کونیونکتیو II | A2·B1 | konjunktiv | praedikat | geplant |
-| 29 | `dativergaenzung` | Die Dativergänzung | متمم Dativ | A2 | verbergaenzungen | ergaenzungen | geplant |
-| 30 | `dativ-akkusativ-ergaenzung` | Dativ- und Akkusativergänzung | متمم دوگانهٔ Dativ و Akkusativ | A2·B1 | verbergaenzungen | ergaenzungen | geplant |
-| 31 | `dass-saetze` | Dass-Sätze | جملات متممی با «dass» | A2·B1 | ergaenzungssaetze | ergaenzungen | geplant |
-| 32 | `indirekte-fragesaetze` | Indirekte Fragesätze | سؤالات غیرمستقیم | A2·B1 | ergaenzungssaetze | ergaenzungen | geplant |
-| 33 | `komposita` | Komposita | اسم‌های مرکب | A2·B1 | nomen | nominalgruppe | geplant |
-| 34 | `nullartikel` | Der Nullartikel | بدون آرتیکل (Nullartikel) | A2·B1 | artikel | nominalgruppe | geplant |
-| 35 | `demonstrativartikel` | Der Demonstrativartikel | آرتیکل اشاره | A2·B1 | artikel | nominalgruppe | geplant |
-| 36 | `indefinitartikel` | Der Indefinitartikel | آرتیکل نامعین کمّی | A2·B1 | artikel | nominalgruppe | geplant |
-| 37 | `interrogativartikel` | Der Interrogativartikel | آرتیکل پرسشی | A2·B1 | artikel | nominalgruppe | geplant |
-| 38 | `adjektivdeklination` | Die Adjektivdeklination | صرف صفت (Adjektivdeklination) | A2·B1·B2 | adjektive | attribute | geplant |
-| 39 | `komparativ-superlativ` | Komparativ und Superlativ | صفت تفضیلی و عالی | A2·B1 | adjektive | attribute | geplant |
-| 40 | `modaladverbien` | Modaladverbien | قید حالت/کیفیت | A2·B1 | adverbien | angaben | geplant |
-| 41 | `indefinitpronomen` | Indefinitpronomen | ضمیر نامعین | A2·B1 | pronomen | nominalgruppe | geplant |
-| 42 | `wechselpraepositionen` | Wechselpräpositionen | حرف‌اضافهٔ دوگانه (Wechselpräpositionen) | A2·B1 | praepositionen | angaben | geplant |
-| 43 | `lokale-temporale-praepositionen` | Lokale und temporale Präpositionen | حرف‌اضافهٔ مکانی و زمانی | A2·B1 | praepositionen | angaben | geplant |
-| 44 | `konjunktionen` | Konjunktionen (koordinierend) | حروف ربط هم‌پایه‌ساز | A2·B1 | satzlehre | satzverbindung | geplant |
-| 45 | `nebensaetze-einfuehrung` | Einführung in Nebensätze | مقدمهٔ جملات وابسته (Nebensätze) | A2·B1 | satzlehre | satzverbindung | geplant |
-| 46 | `kausalsaetze` | Kausalsätze | جملات علّی (بیان دلیل) | A2·B1 | nebensaetze | satzverbindung | geplant |
-| 47 | `konditionalsaetze` | Konditionalsätze (real) | جملات شرطی (واقعی) | A2·B1 | nebensaetze | satzverbindung | geplant |
-| 48 | `wenn-als` | Wenn oder als? | تفاوت «wenn» و «als» | A2·B1 | nebensaetze | satzverbindung | geplant |
-| 49 | `waehrend-temporal` | Während (temporal) | «während» (به‌معنای زمانی) | A2·B1 | nebensaetze | satzverbindung | geplant |
-| 50 | `bevor-nachdem` | Bevor und nachdem | «bevor» و «nachdem» | A2·B1 | nebensaetze | satzverbindung | geplant |
-| 51 | `plusquamperfekt` | Das Plusquamperfekt | زمان ماقبل ماضی (Plusquamperfekt) | B1·B2 | tempus | praedikat | geplant |
-| 52 | `futur-1` | Das Futur I | زمان آیندهٔ ساده (Futur I) | B1 | tempus | praedikat | geplant |
-| 53 | `vorgangspassiv` | Das Vorgangspassiv | مجهول جریانی (Vorgangspassiv) | B1·B2 | passiv | praedikat | geplant |
-| 54 | `zustandspassiv` | Das Zustandspassiv | مجهول حالتی (Zustandspassiv) | B1·B2 | passiv | praedikat | geplant |
-| 55 | `konjunktiv-2-gegenwart` | Konjunktiv II – Gegenwart | کونیونکتیو II — زمان حال | B1·B2 | konjunktiv | praedikat | geplant |
-| 56 | `wunschsaetze` | Wunschsätze | جملات آرزویی | B1·B2 | konjunktiv | praedikat | geplant |
-| 57 | `irreale-bedingungssaetze` | Irreale Bedingungssätze | جملات شرطی غیرواقعی | B1·B2 | konjunktiv | praedikat | geplant |
-| 58 | `praepositionalergaenzung` | Die Präpositionalergänzung | متمم حرف‌اضافه‌ای | B1·B2 | verbergaenzungen | ergaenzungen | geplant |
-| 59 | `infinitivsaetze` | Infinitivsätze mit 'zu' | جملات مصدری با «zu» | B1·B2 | ergaenzungssaetze | ergaenzungen | geplant |
-| 60 | `n-deklination` | Die n-Deklination | صرف اسم با -n (n-Deklination) | B1·B2 | nomen | nominalgruppe | geplant |
-| 61 | `genitiv` | Der Genitiv | حالت Genitiv (مالکیت) | B1·B2 | nomen | nominalgruppe | geplant |
-| 62 | `partizipien-als-adjektive` | Partizipien als Adjektive | Partizip به‌عنوان صفت | B1·B2 | adjektive | attribute | geplant |
-| 63 | `partikeln` | Partikeln (Modalpartikeln) | واژه‌های تأکیدی (Partikeln) | B1·B2 | adverbien | angaben | geplant |
-| 64 | `demonstrativpronomen` | Demonstrativpronomen | ضمیر اشاره | B1·B2 | pronomen | nominalgruppe | geplant |
-| 65 | `relativpronomen-relativsaetze` | Relativpronomen und Relativsätze | ضمیر موصولی و جملات موصولی | B1·B2 | pronomen | attribute | geplant |
-| 66 | `pronomen-es` | Das Pronomen 'es' | ضمیر «es» | B1·B2 | pronomen | nominalgruppe | geplant |
-| 67 | `praepositionen-genitiv` | Präpositionen mit Genitiv | حرف‌اضافه با Genitiv | B1·B2 | praepositionen | angaben | geplant |
-| 68 | `attribute` | Attribute | صفات و وابسته‌های توصیفی (Attribute) | B1·B2 | satzlehre | attribute | geplant |
-| 69 | `satzverbindende-adverbien` | Satzverbindende Adverbien | قیدهای ربطی | B1·B2 | satzlehre | satzverbindung | geplant |
-| 70 | `angaben` | Angaben | قیدهای اضافی (Angaben) | B1·B2 | satzlehre | angaben | geplant |
-| 71 | `konzessivsaetze` | Konzessivsätze | جملات امتیازی/تقابلی (وجود مانع) | B1·B2 | nebensaetze | satzverbindung | geplant |
-| 72 | `finalsaetze` | Finalsätze | جملات هدف (غایی) | B1·B2 | nebensaetze | satzverbindung | geplant |
-| 73 | `adversativsaetze` | Adversativsätze | جملات تقابلی | B1·B2 | nebensaetze | satzverbindung | geplant |
-| 74 | `seitdem-sobald` | Seitdem und sobald | «seitdem» و «sobald» | B1·B2 | nebensaetze | satzverbindung | geplant |
-| 75 | `solange-bis` | Solange und bis | «solange» و «bis» | B1·B2 | nebensaetze | satzverbindung | geplant |
-| 76 | `futur-2` | Das Futur II | زمان آیندهٔ کامل (Futur II) | B2·C1 | tempus | praedikat | geplant |
-| 77 | `passiversatz` | Passiversatzformen | جایگزین‌های مجهول | B2·C1 | passiv | praedikat | geplant |
-| 78 | `nicht-passivfaehige-verben` | Nicht passivfähige Verben | افعال غیرقابل‌مجهول‌شدن | B2 | passiv | praedikat | geplant |
-| 79 | `konjunktiv-2-vergangenheit` | Konjunktiv II – Vergangenheit | کونیونکتیو II — زمان گذشته | B2·C1 | konjunktiv | praedikat | geplant |
-| 80 | `irreale-vergleichssaetze` | Irreale Vergleichssätze | جملات مقایسه‌ای غیرواقعی | B2·C1 | konjunktiv | praedikat | geplant |
-| 81 | `nominalisierung` | Nominalisierung | اسم‌سازی از فعل و صفت | B2·C1 | nomen | nominalgruppe | geplant |
-| 82 | `modalsaetze` | Modalsätze | جملات حالت/شیوه | B2·C1 | nebensaetze | satzverbindung | geplant |
-| 83 | `konsekutivsaetze` | Konsekutivsätze | جملات نتیجه‌ای | B2·C1 | nebensaetze | satzverbindung | geplant |
-| 84 | `konjunktiv-1` | Konjunktiv I – Indirekte Rede | کونیونکتیو I — نقل قول غیرمستقیم | C1·C2 | konjunktiv | praedikat | geplant |
+| 27 | `praeteritum` | Das Präteritum | زمان Präteritum (گذشتهٔ ساده) | A2·B1 | tempus | praedikat | LIVE → `/grammatik/lektion/praeteritum` |
+| 28 | `hoeflichkeit-konjunktiv` | Höflichkeit mit Konjunktiv II | مؤدبانه‌گویی با کونیونکتیو II | A2·B1 | konjunktiv | praedikat | LIVE → `/grammatik/lektion/hoeflichkeit-konjunktiv` |
+| 29 | `dativergaenzung` | Die Dativergänzung | متمم Dativ | A2 | verbergaenzungen | ergaenzungen | LIVE → `/grammatik/lektion/dativergaenzung` |
+| 30 | `dativ-akkusativ-ergaenzung` | Dativ- und Akkusativergänzung | متمم دوگانهٔ Dativ و Akkusativ | A2·B1 | verbergaenzungen | ergaenzungen | LIVE → `/grammatik/lektion/dativ-akkusativ-ergaenzung` |
+| 31 | `dass-saetze` | Dass-Sätze | جملات متممی با «dass» | A2·B1 | ergaenzungssaetze | ergaenzungen | LIVE → `/grammatik/lektion/dass-saetze` |
+| 32 | `indirekte-fragesaetze` | Indirekte Fragesätze | سؤالات غیرمستقیم | A2·B1 | ergaenzungssaetze | ergaenzungen | LIVE → `/grammatik/lektion/indirekte-fragesaetze` |
+| 33 | `komposita` | Komposita | اسم‌های مرکب | A2·B1 | nomen | nominalgruppe | LIVE → `/grammatik/lektion/komposita` |
+| 34 | `nullartikel` | Der Nullartikel | بدون آرتیکل (Nullartikel) | A2·B1 | artikel | nominalgruppe | LIVE → `/grammatik/lektion/nullartikel` |
+| 35 | `demonstrativartikel` | Der Demonstrativartikel | آرتیکل اشاره | A2·B1 | artikel | nominalgruppe | LIVE → `/grammatik/lektion/demonstrativartikel` |
+| 36 | `indefinitartikel` | Der Indefinitartikel | آرتیکل نامعین کمّی | A2·B1 | artikel | nominalgruppe | LIVE → `/grammatik/lektion/indefinitartikel` |
+| 37 | `interrogativartikel` | Der Interrogativartikel | آرتیکل پرسشی | A2·B1 | artikel | nominalgruppe | LIVE → `/grammatik/lektion/interrogativartikel` |
+| 38 | `adjektivdeklination` | Die Adjektivdeklination | صرف صفت (Adjektivdeklination) | A2·B1·B2 | adjektive | attribute | LIVE → `/grammatik/lektion/adjektivdeklination` |
+| 39 | `komparativ-superlativ` | Komparativ und Superlativ | صفت تفضیلی و عالی | A2·B1 | adjektive | attribute | LIVE → `/grammatik/lektion/komparativ-superlativ` |
+| 40 | `modaladverbien` | Modaladverbien | قید حالت/کیفیت | A2·B1 | adverbien | angaben | LIVE → `/grammatik/lektion/modaladverbien` |
+| 41 | `indefinitpronomen` | Indefinitpronomen | ضمیر نامعین | A2·B1 | pronomen | nominalgruppe | LIVE → `/grammatik/lektion/indefinitpronomen` |
+| 42 | `wechselpraepositionen` | Wechselpräpositionen | حرف‌اضافهٔ دوگانه (Wechselpräpositionen) | A2·B1 | praepositionen | angaben | LIVE → `/grammatik/lektion/wechselpraepositionen` |
+| 43 | `lokale-temporale-praepositionen` | Lokale und temporale Präpositionen | حرف‌اضافهٔ مکانی و زمانی | A2·B1 | praepositionen | angaben | LIVE → `/grammatik/lektion/lokale-temporale-praepositionen` |
+| 44 | `konjunktionen` | Konjunktionen (koordinierend) | حروف ربط هم‌پایه‌ساز | A2·B1 | satzlehre | satzverbindung | LIVE → `/grammatik/lektion/konjunktionen` |
+| 45 | `nebensaetze-einfuehrung` | Einführung in Nebensätze | مقدمهٔ جملات وابسته (Nebensätze) | A2·B1 | satzlehre | satzverbindung | LIVE → `/grammatik/lektion/nebensaetze-einfuehrung` |
+| 46 | `kausalsaetze` | Kausalsätze | جملات علّی (بیان دلیل) | A2·B1 | nebensaetze | satzverbindung | LIVE → `/grammatik/lektion/kausalsaetze` |
+| 47 | `konditionalsaetze` | Konditionalsätze (real) | جملات شرطی (واقعی) | A2·B1 | nebensaetze | satzverbindung | LIVE → `/grammatik/lektion/konditionalsaetze` |
+| 48 | `wenn-als` | Wenn oder als? | تفاوت «wenn» و «als» | A2·B1 | nebensaetze | satzverbindung | LIVE → `/grammatik/lektion/wenn-als` |
+| 49 | `waehrend-temporal` | Während (temporal) | «während» (به‌معنای زمانی) | A2·B1 | nebensaetze | satzverbindung | LIVE → `/grammatik/lektion/waehrend-temporal` |
+| 50 | `bevor-nachdem` | Bevor und nachdem | «bevor» و «nachdem» | A2·B1 | nebensaetze | satzverbindung | LIVE → `/grammatik/lektion/bevor-nachdem` |
+| 51 | `plusquamperfekt` | Das Plusquamperfekt | زمان ماقبل ماضی (Plusquamperfekt) | B1·B2 | tempus | praedikat | LIVE → `/grammatik/lektion/plusquamperfekt` |
+| 52 | `futur-1` | Das Futur I | زمان آیندهٔ ساده (Futur I) | B1 | tempus | praedikat | LIVE → `/grammatik/lektion/futur-1` |
+| 53 | `vorgangspassiv` | Das Vorgangspassiv | مجهول جریانی (Vorgangspassiv) | B1·B2 | passiv | praedikat | LIVE → `/grammatik/lektion/vorgangspassiv` |
+| 54 | `zustandspassiv` | Das Zustandspassiv | مجهول حالتی (Zustandspassiv) | B1·B2 | passiv | praedikat | LIVE → `/grammatik/lektion/zustandspassiv` |
+| 55 | `konjunktiv-2-gegenwart` | Konjunktiv II – Gegenwart | کونیونکتیو II — زمان حال | B1·B2 | konjunktiv | praedikat | LIVE → `/grammatik/lektion/konjunktiv-2-gegenwart` |
+| 56 | `wunschsaetze` | Wunschsätze | جملات آرزویی | B1·B2 | konjunktiv | praedikat | LIVE → `/grammatik/lektion/wunschsaetze` |
+| 57 | `irreale-bedingungssaetze` | Irreale Bedingungssätze | جملات شرطی غیرواقعی | B1·B2 | konjunktiv | praedikat | LIVE → `/grammatik/lektion/irreale-bedingungssaetze` |
+| 58 | `praepositionalergaenzung` | Die Präpositionalergänzung | متمم حرف‌اضافه‌ای | B1·B2 | verbergaenzungen | ergaenzungen | LIVE → `/grammatik/lektion/praepositionalergaenzung` |
+| 59 | `infinitivsaetze` | Infinitivsätze mit 'zu' | جملات مصدری با «zu» | B1·B2 | ergaenzungssaetze | ergaenzungen | LIVE → `/grammatik/lektion/infinitivsaetze` |
+| 60 | `n-deklination` | Die n-Deklination | صرف اسم با -n (n-Deklination) | B1·B2 | nomen | nominalgruppe | LIVE → `/grammatik/lektion/n-deklination` |
+| 61 | `genitiv` | Der Genitiv | حالت Genitiv (مالکیت) | B1·B2 | nomen | nominalgruppe | LIVE → `/grammatik/lektion/genitiv` |
+| 62 | `partizipien-als-adjektive` | Partizipien als Adjektive | Partizip به‌عنوان صفت | B1·B2 | adjektive | attribute | LIVE → `/grammatik/lektion/partizipien-als-adjektive` |
+| 63 | `partikeln` | Partikeln (Modalpartikeln) | واژه‌های تأکیدی (Partikeln) | B1·B2 | adverbien | angaben | LIVE → `/grammatik/lektion/partikeln` |
+| 64 | `demonstrativpronomen` | Demonstrativpronomen | ضمیر اشاره | B1·B2 | pronomen | nominalgruppe | LIVE → `/grammatik/lektion/demonstrativpronomen` |
+| 65 | `relativpronomen-relativsaetze` | Relativpronomen und Relativsätze | ضمیر موصولی و جملات موصولی | B1·B2 | pronomen | attribute | LIVE → `/grammatik/lektion/relativpronomen-relativsaetze` |
+| 66 | `pronomen-es` | Das Pronomen 'es' | ضمیر «es» | B1·B2 | pronomen | nominalgruppe | LIVE → `/grammatik/lektion/pronomen-es` |
+| 67 | `praepositionen-genitiv` | Präpositionen mit Genitiv | حرف‌اضافه با Genitiv | B1·B2 | praepositionen | angaben | LIVE → `/grammatik/lektion/praepositionen-genitiv` |
+| 68 | `attribute` | Attribute | صفات و وابسته‌های توصیفی (Attribute) | B1·B2 | satzlehre | attribute | LIVE → `/grammatik/lektion/attribute` |
+| 69 | `satzverbindende-adverbien` | Satzverbindende Adverbien | قیدهای ربطی | B1·B2 | satzlehre | satzverbindung | LIVE → `/grammatik/lektion/satzverbindende-adverbien` |
+| 70 | `angaben` | Angaben | قیدهای اضافی (Angaben) | B1·B2 | satzlehre | angaben | LIVE → `/grammatik/lektion/angaben` |
+| 71 | `konzessivsaetze` | Konzessivsätze | جملات امتیازی/تقابلی (وجود مانع) | B1·B2 | nebensaetze | satzverbindung | LIVE → `/grammatik/lektion/konzessivsaetze` |
+| 72 | `finalsaetze` | Finalsätze | جملات هدف (غایی) | B1·B2 | nebensaetze | satzverbindung | LIVE → `/grammatik/lektion/finalsaetze` |
+| 73 | `adversativsaetze` | Adversativsätze | جملات تقابلی | B1·B2 | nebensaetze | satzverbindung | LIVE → `/grammatik/lektion/adversativsaetze` |
+| 74 | `seitdem-sobald` | Seitdem und sobald | «seitdem» و «sobald» | B1·B2 | nebensaetze | satzverbindung | LIVE → `/grammatik/lektion/seitdem-sobald` |
+| 75 | `solange-bis` | Solange und bis | «solange» و «bis» | B1·B2 | nebensaetze | satzverbindung | LIVE → `/grammatik/lektion/solange-bis` |
+| 76 | `futur-2` | Das Futur II | زمان آیندهٔ کامل (Futur II) | B2·C1 | tempus | praedikat | LIVE → `/grammatik/lektion/futur-2` |
+| 77 | `passiversatz` | Passiversatzformen | جایگزین‌های مجهول | B2·C1 | passiv | praedikat | LIVE → `/grammatik/lektion/passiversatz` |
+| 78 | `nicht-passivfaehige-verben` | Nicht passivfähige Verben | افعال غیرقابل‌مجهول‌شدن | B2 | passiv | praedikat | LIVE → `/grammatik/lektion/nicht-passivfaehige-verben` |
+| 79 | `konjunktiv-2-vergangenheit` | Konjunktiv II – Vergangenheit | کونیونکتیو II — زمان گذشته | B2·C1 | konjunktiv | praedikat | LIVE → `/grammatik/lektion/konjunktiv-2-vergangenheit` |
+| 80 | `irreale-vergleichssaetze` | Irreale Vergleichssätze | جملات مقایسه‌ای غیرواقعی | B2·C1 | konjunktiv | praedikat | LIVE → `/grammatik/lektion/irreale-vergleichssaetze` |
+| 81 | `nominalisierung` | Nominalisierung | اسم‌سازی از فعل و صفت | B2·C1 | nomen | nominalgruppe | LIVE → `/grammatik/lektion/nominalisierung` |
+| 82 | `modalsaetze` | Modalsätze | جملات حالت/شیوه | B2·C1 | nebensaetze | satzverbindung | LIVE → `/grammatik/lektion/modalsaetze` |
+| 83 | `konsekutivsaetze` | Konsekutivsätze | جملات نتیجه‌ای | B2·C1 | nebensaetze | satzverbindung | LIVE → `/grammatik/lektion/konsekutivsaetze` |
+| 84 | `konjunktiv-1` | Konjunktiv I – Indirekte Rede | کونیونکتیو I — نقل قول غیرمستقیم | C1·C2 | konjunktiv | praedikat | LIVE → `/grammatik/lektion/konjunktiv-1` |
 | — | `tempusformen-ueberblick` | Tempusformen im Überblick | کدام زمان برای کدام کار؟ | A2·B1·B2 | tempus | praedikat | LIVE → `/grammatik/thema/tempusformen` |
 | — | `passiv-ueberblick` | Passiv im Überblick | مجهول — ساخت، es، ۶ نوع مجهول | B1·B2 | passiv | praedikat | LIVE → `/grammatik/thema/passiv` |
 | — | `zu-dass` | zu und dass | دو فعل در یک جمله — zu، dass، um...zu، damit | A2·B1 | ergaenzungssaetze | ergaenzungen | LIVE → `/grammatik/thema/zu-dass` |
@@ -212,3 +212,4 @@ Lekt. = Position im linearen Lernpfad („Lektionen"-Ansicht) · — = Vertiefun
 | 2026-07-06 | G0/G1 | Map erstellt aus `old files Lukasalmani/1/Grammatik` (84 Kern-Lektionen extrahiert) + 9 Bestands-Einträge verknüpft. Katalog-Infrastruktur mit 4 Sortier-Ansichten implementiert. |
 | 2026-07-07 | G2 | `GrammatikLektionScreen` + Model + Controller + Route `/grammatik/lektion/:slug` gebaut. 4 echte Lektionen aus verben-grundlagen importiert (assets/data/grammatik/verben-grundlagen.json) → live geschaltet. Quelle ist teils unvollständig; G3–G6 extrahieren die restlichen 80 Lektionen. |
 | 2026-07-07 | — | Querschnitt (فاز B/L/L2): Grammatik-Screens auf VoxButton/VoxOptionButton umgestellt; alle UI-Labels der Grammatik-Screens laufen über AppL10n (FA/EN aus Settings); `grammatik_katalog.json`-Einträge haben `en`-Titel (Modell liest sie noch nicht — bei G2 mit einbauen: Eintrag-Untertitel locale-aware statt fix `fa`). |
+| 2026-09-16 | G3–G6 | **Alle 84 Kern-Lektionen live.** Die Quelle war NICHT unvollständig (Notiz vom 2026-07-07 korrigiert): sie enthält 17 vollständige JSON-Dokumente, die sich einzeln herauslösen lassen (je ab dem `{` vor `"_index"`); das schon vorhandene `verben-grundlagen.json` ist mit dem Quell-Dokument byte-gleich. Übernommen **unverändert**, Dateinamen aus den Quell-Hinweisen `Resources/JSON/Grammar/<name>.json`. 75 Katalog-Einträge bekamen `route: /grammatik/lektion/<slug>`. **Bewusst unverändert:** 5 Einträge mit eigenem Feature-Screen (trennbare-verben, modalverben, unregelmaessige-verben, reflexive-verben, die-vier-faelle) — ihre Lektion ist über `/grammatik/lektion/<slug>` und die Querverweise erreichbar. **Gefunden und behoben:** die Quelle schreibt `columns` auf zwei Arten (mit/ohne Überschrift der Beschriftungsspalte) — `GrammatikTable.fromJson` vereinheitlicht das; vorher konnten die Tabellen von `verb-sein`/`verb-haben` nicht gezeichnet werden. 3 Tabellen mit `style: interactiveGrid` (Adjektivdeklination) werden als normale Tabelle gezeigt; das Üben daran gehört zu G7. 8 Querverweise der Quelle zeigen auf Slugs ohne Lektion (z. B. `temporalsaetze`, `artikel`) — sie werden wie bisher still ausgelassen, nicht geraten. Wächter: `test/grammatik_lektionen_test.dart` (Dateien ↔ Liste, Lektion ↔ Katalog, Tabellen darstellbar, dreisprachig, alle 84 Lektionen in EN und FA gezeichnet). |
