@@ -31,7 +31,8 @@
 #   🧩 L.2e/G7 (تصمیم Lukas 2026-09-16): تمرین‌ها قبل از انتشار — گرامر → تمرین (گرامر، ردمیتل…) → انتشار → کلمه‌ها → تمرین کلمه‌ها
 #     ✅ G7a (2026-09-16): ۳۳۶ تمرین منبع در هر درس — /grammatik/lektion/:slug/uebung
 #     ✅ G7b (2026-09-16): آزمون سطح — /grammatik/quiz-niveau/:level (assets/data/grammatik_niveautest.json)
-#     باز: G7c از مثال‌ها (Lukas: کاملاً متنوع و تصادفی) · G7d ردمیتل · G7e ذخیره‌ی نتیجه‌ی آزمون (Lukas: بله → بخش آینده‌ی «دست‌یافته‌ها»)
+#     ✅ G7c (2026-09-16): تمرین از ۵۰۴ جمله‌ی مثال (models/beispiel_uebungen.dart) — نوبت درس = ۴ منبع + ۶ ساخته‌شده، مخلوط
+#     باز: G7d ردمیتل · G7e ذخیره‌ی نتیجه‌ی آزمون (Lukas: بله → بخش آینده‌ی «دست‌یافته‌ها»)
 #   L.2b: A1/A2 Wortschatz = جزو فاز کلمه‌ها؛ قبل از انتشار فقط چند کارت نمونه از هر نوع
 #   Lukas: «منابع همه‌چیز با من، برنامه‌نویسی با تو» ⇒ برای محتوا (گرامر، deckها، …) منبع را از او بخواه.
 #   ⛔ استثنا: کارت‌های کلمه را همیشه Claude طبق «old files Lukasalmani/Wort prompt» می‌سازد — تبدیل منابع Lukas رد شد (2026-09-16).
@@ -521,10 +522,15 @@ widgets/
 > ⭐ نقشه کامل بخش گرامر: **GRAMMATIK_MAP.md** (کاتالوگ ۹۳ موضوع، ۴ نمای مرتب‌سازی، Stufenplan G1–G8)
 ```
 models/
+  beispiel_uebungen.dart       [x]  — G7c: BeispielUebungen.erzeuge(lek, Random) — یک تمرین برای هر جمله‌ی مثال،
+                                      نوع تصادفی (bedeutung/satzWahl/richtigFalsch/matching/wordOrder با Vorgabe)؛
+                                      anzahl(lek) مستقل از تصادف؛ istEinfach(satz) برای چیدن کلمه
   grammatik_niveautest.dart    [x]  — G7b: تنظیمات (از assets/data/grammatik_niveautest.json، کپی بی‌تغییر منبع)
-                                      + vorrat(niveau) بدون transform + ziehe(vorrat, Random)
+                                      + vorrat(niveau, zufall:) فقط testTauglich (+ تمرین‌های مثال، G7c) + ziehe
   grammatik_uebung.dart        [x]  — G7a: GrammatikUebung (۵ نوع منبع) + **تنها جای بررسی جواب**
                                       (pruefeWahl/Reihenfolge/Umformung/Zuordnung). ausJson ⇒ null برای ناقص.
+                                      G7c: +۳ نوع (bedeutung, satzWahl, richtigFalsch)، ausBeispiel, vorgabe,
+                                      optionenFa/En, beispielDe/Fa/En, testTauglich
                                       ⚠️ id در منبع یکتا نیست (ex-komp-1…4 دو بار) ⇒ کلید = schluessel (درس/id).
                                       fillBlank.alternatives = گزینه‌ی غلط · wordOrder: تکه‌ی اضافه مجاز، بدون حروف بزرگ
   grammar_catalog.dart         [x]  — G1: GrammatikKatalog/KatalogEintrag/KatalogThema/KatalogSatzglied
@@ -544,7 +550,8 @@ screens/
                                       UebungsSitzung(bestehensQuote, onNochmal). + NiveauTestKarte (بالای
                                       grammatik_katalog_screen در نمای niveau). بدون transform؛ نتیجه ذخیره نمی‌شود.
   grammatik_uebung_screen.dart [x]  — G7a (2026-09-16): route /grammatik/lektion/:slug/uebung — UebungsSitzung
-                                      با تمرین‌های همان درس (grammatikLektionUebungenProvider). دکمه‌ی ورود
+                                      با تمرین‌های همان درس (grammatikLektionUebungenProvider) + G7c: ۶ تمرین
+                                      ساخته‌شده، مخلوط (stelleDurchgangZusammen)، «دوباره» = نوبت تازه. دکمه‌ی ورود
                                       «تمرین این درس (n)» بالا و پایین grammatik_lektion_screen (_UebungStart).
   grammatik_katalog_screen.dart[x]  — G1: صفحه پارامتریک /grammatik/katalog/:view/:key
                                       niveau/satzglied → گروه‌بندی بر اساس Thema · thema → flat
