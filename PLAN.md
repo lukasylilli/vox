@@ -121,6 +121,11 @@
 - [x] **L.2c گرامر** ✅ (2026-09-16): ~~فقط ۴ از ۸۴ درس live ⇒ G3–G6 قبل از انتشار~~ ⇒ **هر ۸۴ درس live** (فاز G → G3–G6؛
       جزئیات کامل: `GRAMMATIK_MAP.md` → Änderungsprotokoll 2026-09-16). تمرین‌ها (G7) هنوز باز است — تصمیم با Lukas
       که قبل از انتشار لازم است یا بعد.
+      🔁 **بازبینی مستقل (2026-09-16، جلسه‌ی بعد، بدون تغییر کد):** منبع دوباره از صفر تجزیه شد ⇒ ۱۷ سند درس
+      (۸۴ درس، ۸۴ slug یکتا، ۳۳۶ تمرین؛ فهرست `_index` هر سند دقیقاً = درس‌هایش؛ هر `exerciseSlugs` تمرینش را دارد)
+      + ۲ سند «پیکربندی آزمون ترکیبی هر سطح» (۱۰ سؤال، حد قبولی ۷۰٪، A1–C2) که برای **G7** کنار گذاشته می‌شود.
+      هر ۱۷ سند با فایل‌های `assets/data/grammatik/` برابرند؛ ۷۹ مدخل کاتالوگ route درس دارند + ۵ صفحه‌ی ویژه = ۸۴.
+      ⇒ **از منبع چیزی کم نیست**؛ سؤالی برای Lukas فقط درباره‌ی زمان G7 باقی است.
 - [ ] **L.2d deckهای «به‌زودی» بدون محتوا:** relativsatz · da_praepositionen · adjektive ·
       adjektivdeklination · tempusformen (⚠️ `tempusformen_grammar.json` موجود است ولی deck خاموش) ·
       oesd_c1 · zusammenfassung · a2_zusammenfassung · feature.sprechen · feature.schreiben
@@ -157,7 +162,7 @@
 | 5 | فاز R — Refactor & UX | [→](#فاز-r--refactor--ux-فاز-جاری--بعد-از-رفع-باگ‌ها) |
 | 6 | Design System (DS) | [→](#فاز-ds--design-system--یک-بار-برای-همیشه) |
 | 6b | فاز ARCH — Architecture Hub | [→](#فاز-arch--architecture-hub--زیرساخت-مرکزی-2026-07-04) |
-| 6c | **فاز G — Grammatik Vollausbau** (G1 ✅) | [→](#فاز-g--grammatik-vollausbau-تمام-گرامر-زبان-آلمانی-g1-) |
+| 6c | **فاز G — Grammatik Vollausbau** (G1–G6 ✅) | [→](#فاز-g--grammatik-vollausbau-تمام-گرامر-زبان-آلمانی-g1g6-) |
 | 6d | **فاز B — Buttons: Puzzling** ✅ | [→](#فاز-b--buttons-puzzling-prinzip--2026-07-07) |
 | 6e | **فاز L — L10n: زبان فقط از Settings** ✅ | [→](#فاز-l--l10n-زبان-فقط-از-settings-step-1--audit--2026-07-07) |
 | 6f | **فاز L2 — Massen-Lokalisierung** ✅ | [→](#فاز-l2--massen-lokalisierung-هیچ-fa-در-حالت-en-l2-ae--l2-f-باز-2026-07-07) |
@@ -763,7 +768,7 @@ lib/core/services/
 - [x] 15.7 ۴ tile جدید در Grammatik home
 - منابع پاک‌سازی‌شده: passiv_grammar_quelle.md (قبلی) + منابع 2026-07-05 در JSON ها ساختاریافته
 
-### فاز G — Grammatik Vollausbau (تمام گرامر زبان آلمانی) [G1 ✅]
+### فاز G — Grammatik Vollausbau (تمام گرامر زبان آلمانی) [G1–G6 ✅]
 > هدف: صفحه Grammatik کل گرامر آلمانی را پوشش دهد و مرحله‌به‌مرحله کامل شود.
 > **نقشه مرجع: `GRAMMATIK_MAP.md`** — کاتالوگ ۹۳ موضوع + ۴ نمای مرتب‌سازی.
 > منبع فعلی: `old files Lukasalmani/1/Grammatik` (۸۴ درس کامل سه‌زبانه با جدول/مثال/تمرین).

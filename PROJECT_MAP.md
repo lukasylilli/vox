@@ -23,8 +23,11 @@
 #   L.1 امنیت لایتنر (S.6 ✅, V.2, نگهبان شناسه‌ها, تست مهاجرت) → L.2 کامل بودن محتوا → L.3 انتشار → L.4 کلمه‌ها
 #   Audit محتوا: Redemittel/Goethe/ÖSD B2/Konnektoren/NVV/Präp/Dativ = کامل نسبت به منبع.
 #   ✅ L.2c (2026-09-16): گرامر ۸۴/۸۴ درس live (assets/data/grammatik/ ۱۷ فایل) — تمرین‌ها (G7) باز.
+#     🔁 L.2c بازبینی مستقل (2026-09-16، جلسه‌ی بعد): منبع «old files Lukasalmani/1/Grammatik» = ۱۷ سند درس (۸۴ درس، ۳۳۶ تمرین،
+#        _index هر سند = درس‌های واقعی‌اش) + ۲ سند تنظیمات آزمون سطح (questionsPerLevel 10، passThreshold 0.7 ⇒ برای G7)؛
+#        هر ۱۷ سند بایت‌به‌بایت = assets/data/grammatik/ · ۷۹ route درس + ۵ صفحه‌ی ویژه = ۸۴ · چیزی کم نیست.
 #   باز: ÖSD C1 (۶ عبارت، بدون منبع) · A1/A2 Wortschatz (۱٬۰۶۳ کلمه در old files/1، در اپ استفاده نشده) ·
-#   گرامر ۴/۸۴ · deckهای «به‌زودی» در core/services/feature_flags.dart
+#   deckهای «به‌زودی» در core/services/feature_flags.dart · تمرین‌های گرامر (G7، تصمیم با Lukas)
 #   Lukas: «منابع همه‌چیز با من، برنامه‌نویسی با تو» ⇒ برای محتوا (گرامر، deckها، …) منبع را از او بخواه.
 #   ⛔ استثنا: کارت‌های کلمه را همیشه Claude طبق «old files Lukasalmani/Wort prompt» می‌سازد — تبدیل منابع Lukas رد شد (2026-09-16).
 #   ⚠️ شناسه‌ی کارت منتشرشده در assets/vocab/ هرگز حذف/عوض نشود — لایتنر کاربر به آن اشاره می‌کند.
