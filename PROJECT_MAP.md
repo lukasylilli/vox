@@ -27,6 +27,7 @@
 #   Lukas: «منابع همه‌چیز با من، برنامه‌نویسی با تو» ⇒ برای محتوا (گرامر، deckها، …) منبع را از او بخواه.
 #   ⛔ استثنا: کارت‌های کلمه را همیشه Claude طبق «old files Lukasalmani/Wort prompt» می‌سازد — تبدیل منابع Lukas رد شد (2026-09-16).
 #   ⚠️ شناسه‌ی کارت منتشرشده در assets/vocab/ هرگز حذف/عوض نشود — لایتنر کاربر به آن اشاره می‌کند.
+#     ✅ L.1a (2026-09-16): نگهبان CI (tool/vokab_ids_pruefen.dart) با فهرست سایت زنده مقایسه می‌کند ⇒ حذف = ساخت قرمز.
 # 🌐 2026-09-16 L.3a — زبان شروع: پیش‌فرض انگلیسی، فقط روی دستگاه فارسی‌زبان فارسی.
 #   تنها منبع قاعده: core/l10n/geraete_sprache.dart · انتخاب کاربر در Settings (ui_language) همیشه مقدم.
 # 🎯 وضعیت: ۲۴۴ فایل Dart (۱۶۳ features + ۷۷ core) — analyze سبز
@@ -1007,6 +1008,7 @@ data_seed_service.dart  [x]  — یک‌بار seed از JSON asset به SQLite 
     · `data/vokab_index.dart` [x] **V.2** — reines Dart: قالب فهرست کلمات (`vokabIndexEintrag`,
       `vokabIndexBauen`, `vokabIndexLesen`, `vokabKartenPfad`) + `vokabIndexDetailFelder` (فیلدهایی از
       details که نماد لازم دارد — ⚠️ فیلد جدید در Resolver ⇒ اینجا هم؛ `test/vokab_index_test.dart` مراقب است).
+      + **L.1a:** `vokabIndexIds` (بدون بررسی نسخه، برای فهرست سایت زنده) و `vokabVerloreneIds`.
     · `data/vokab_schema.dart` [x] — reines Dart (بدون Flutter-Import!)، یک منبع اپ+تول:
       vokabId + vokabParseBatch (Fences-tolerant) + vokabPruefeKarte (فاتال→رد؛
       id/box/perfekt/genitiv/id_ref → normalisiert+Warnung). vokabId از controller به اینجا
@@ -1202,6 +1204,11 @@ Veröffentlichung.
 - **Ein Commit, den ein Workflow selbst schreibt (z. B. `build-runner.yml`), startet keine weiteren
   Workflows** — auf dem Zweig läuft danach also kein `pruefen.yml` von allein. Für den Web-Bau vor
   dem Zusammenführen `pruefen.yml` per Dispatch auf den Zweig anstoßen (2026-09-16, S.6).
+- **`| tee` in einem `run:` verschluckt Fehler.** Die Standard-Shell von GitHub ist `bash -e` **ohne**
+  `pipefail` — der Schritt ist grün, auch wenn der Befehl vor `tee` scheitert. Jeder Schritt mit `| tee`
+  beginnt deshalb mit `set -o pipefail` (L.1a, 2026-09-16; offen in `vokabular-autofill.yml`, siehe A.6).
+- **Wächter immer mit einer Gegenprobe prüfen:** auf einem Wegwerf-Zweig den verbotenen Fall herstellen und
+  sehen, dass genau der Wächter-Schritt rot wird — erst dann gilt er als wirksam (L.1a).
 - **Textersetzung per Skript: Teilzeichenketten beachten.** S.5 (2026-09-15): ein Ersatz für
   `      final companion` (6 Leerzeichen) traf auch die Zeile mit 8 Leerzeichen — doppelter
   Parameter, `analyze` rot im build-runner-Lauf. Vor jedem `replace` die Treffer **zeilengenau**
@@ -1218,6 +1225,7 @@ Veröffentlichung.
 
 | فایل | زبان | کار |
 |------|------|-----|
+| `tool/vokab_ids_pruefen.dart` | Dart | **L.1a** — Wächter: vergleicht den Index der **Live-Seite** mit dem frisch gebauten; fehlt eine veröffentlichte id ⇒ exit 1. Läuft in `deploy-web.yml` und `pruefen.yml` nach „Wortindex bauen". Handauslassung nur über `workflow_dispatch`-Eingabe `ohne_id_waechter` |
 | `tool/vokab_index.dart` | Dart | **V.2** — baut `assets/vocab_index.json` aus `assets/vocab/`. Läuft in **jedem** Workflow direkt vor `flutter analyze`; Ergebnis nie committet (`.gitignore`). exit 1 bei unlesbarer/falsch abgelegter Karte oder doppelter id |
 | `tool/vokabular_import.dart` | Dart | **verbindliche Prüfung** — Konverter-Output → `assets/vocab/<wortart>/<id>.json`. Nutzt `vokabPruefeKarte()` aus `lib/features/vokabular/data/vokab_schema.dart`. Duplikat-Schutz, idempotent, exit 1 bei Fehlern |
 | `tool/backlog.py` | Python | **A.1** — welches Wort ist als Nächstes dran? Leitet den Stand aus `assets/vocab/` ab (nicht aus den ✓-Marken). `--stand` / `--naechste N` / `--gruppe` / `--json`. Spiegelt `vokabId()` zeichengenau |

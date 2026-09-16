@@ -25,10 +25,11 @@
 | ۱۶ — انتشار و QA نهایی | باز | آخرین فاز قبل از launch |
 
 **2026-09-16:** L.3a ✅ زبان شروع = انگلیسی، مگر دستگاه فارسی باشد.
+**2026-09-16:** L.1a ✅ نگهبان شناسه‌ها: اگر شناسه‌ی کارتی که روی سایت منتشر شده حذف یا عوض شود، ساخت قرمز می‌شود و چیزی منتشر نمی‌شود (با حذف آزمایشی یک کارت روی شاخه‌ی جدا ثابت شد).
 **2026-09-16:** V.2 ✅ اپ هنگام شروع دیگر همه‌ی کارت‌ها را نمی‌خواند — فقط یک فهرست کوچک (`assets/vocab_index.json`)؛ کارت کامل فقط وقتی صفحه‌ی آن کلمه باز شود. سقف ~۵۰۰ کارت برداشته شد.
 **2026-09-16:** S.6 ✅ لیست‌های شخصی شناسه‌ی ثابت دارند — تغییر نام دیگر کلمه‌ای را در همگام‌سازی از بین نمی‌برد (پایگاه داده نسخه‌ی ۷، قرارداد پشتیبان نسخه‌ی ۳).
 
-**قدم‌های بعدی (2026-09-16, ترتیب جدید — بخش «فاز LAUNCH»):** ① **L.1** امنیت لایتنر: S.6 ✅ → V.2 ✅ → **L.1a** → L.1b (+ Lukas: Supabase-Secrets، تصمیم حذف حساب) ② **L.2** کامل بودن محتوا: G3–G6 + deckهای «به‌زودی» + سؤال‌ها از Lukas (ÖSD C1، A1/A2 Wortschatz) ③ **L.3** آماده‌سازی انتشار ← **انتشار** ④ **L.4** کلمه‌ها روزانه (A.6 ⛔ اول از Lukas بپرس)
+**قدم‌های بعدی (2026-09-16, ترتیب جدید — بخش «فاز LAUNCH»):** ① **L.1** امنیت لایتنر: S.6 ✅ → V.2 ✅ → L.1a ✅ → **L.1b** (+ Lukas: Supabase-Secrets، تصمیم حذف حساب) ② **L.2** کامل بودن محتوا: G3–G6 + deckهای «به‌زودی» + سؤال‌ها از Lukas (ÖSD C1، A1/A2 Wortschatz) ③ **L.3** آماده‌سازی انتشار ← **انتشار** ④ **L.4** کلمه‌ها روزانه (A.6 ⛔ اول از Lukas بپرس)
 
 ---
 
@@ -50,9 +51,29 @@
       کاربر (`ArchivLeitner`, `Mitgliedschaften`, …) دست نمی‌زند. جزئیات و دلیل تغییر شکل: فاز V → V.2.
       ~~V.2 `vocab.db` — حالا پیش‌شرط انتشار. چون بعد از انتشار کلمه‌ها روزانه زیاد می‌شوند و
       `vokabular_controller` در startup همه‌ی کارت‌ها را می‌خواند (سقف ~۵۰۰).~~
-- [ ] **L.1a قاعده + نگهبان CI: شناسه‌ی کارت منتشرشده هرگز حذف یا عوض نمی‌شود.** لایتنر کارت‌های
+- [x] **L.1a قاعده + نگهبان CI: شناسه‌ی کارت منتشرشده هرگز حذف یا عوض نمی‌شود.** ✅ (2026-09-16) لایتنر کارت‌های
       آرشیو را با شناسه‌ی متنی (`adjektiv_stolz`) نگه می‌دارد؛ حذف/تغییر نام = کارت یتیم در لایتنر کاربر.
-      یک بررسی در CI که اگر شناسه‌ای نسبت به `main` ناپدید شد، قرمز شود.
+      ~~یک بررسی در CI که اگر شناسه‌ای نسبت به `main` ناپدید شد، قرمز شود.~~
+      **Umgesetzt — Vergleich mit der LIVE-Seite, nicht mit `main`:** Ein roter Lauf veröffentlicht nichts; ein
+      Vergleich mit „dem vorigen Commit" ließe deshalb den NÄCHSTEN Push die Löschung schon als Ausgangslage sehen
+      und durchlassen. Die Live-Seite ist genau das, was Nutzer haben.
+      · `deploy-web.yml` + `pruefen.yml`: neuer Schritt direkt nach „Wortindex bauen" — lädt
+        `https://lukasylilli.github.io/vox/assets/assets/vocab_index.json` und ruft
+        `dart run tool/vokab_ids_pruefen.dart` auf. Fehlt eine veröffentlichte id ⇒ rot, alles danach
+        (Analyze/Test/Bau/Veröffentlichung) wird übersprungen. Neue ids sind immer erlaubt.
+      · Seite nicht abrufbar (HTTP ≠ 200) ⇒ ebenfalls rot. **Einziger Ausweg:** „Run workflow" von Hand mit
+        `ohne_id_waechter` — nur bewusst, z. B. wenn die Seite ganz weg ist. Ein Push kann das nie.
+      · Der veröffentlichte Index wird **ohne Fassungsprüfung** gelesen (er darf älter sein); ist er gar kein
+        Index, ist das ein Fehler — nie „nichts veröffentlicht, alles erlaubt".
+      · `set -o pipefail` im Schritt: ohne das verschluckt `| tee` den roten Ausgang (Standard-Shell ist
+        `bash -e` ohne pipefail).
+      · Dateien: `vokab_index.dart` (`vokabIndexIds`, `vokabVerloreneIds`) · `tool/vokab_ids_pruefen.dart` ·
+        Test `test/vokab_ids_waechter_test.dart` (4 Fälle).
+      · **Gegenprobe:** auf einem Wegwerf-Zweig `adjektiv_aalartig.json` gelöscht ⇒ Lauf rot genau im
+        Wächter-Schritt, Analyze/Test/Bau übersprungen; Zweig danach gelöscht.
+      ⚠️ **Keine Ausnahmeliste, mit Absicht.** Muss eine Karte je wirklich weg (z. B. doppelt/falsch), braucht es
+      vorher eine Umzugsregel für Leitner, Listen und Notizen der Nutzer (alte id → neue id) — eine Entscheidung
+      mit Lukas, kein Handgriff. Eine fehlerhafte Karte wird **korrigiert**, nicht gelöscht; ihre id bleibt.
 - [ ] **L.1b تست مهاجرت:** از هر `schemaVersion` قدیمی (۱…۶) به نسخه‌ی فعلی، بدون از دست رفتن لایتنر.
 - [ ] **L.1c (Lukas)** Secrets `SUPABASE_URL`/`SUPABASE_ANON_KEY` در ریپوی vox + اجرای یک‌باره‌ی
       `supabase/vox_tables.sql` — بدون این‌ها کپی خودکار در حساب وجود ندارد (فقط مرورگر + فایل پشتیبان).
@@ -1415,6 +1436,10 @@ reines Dart, kein Codegen:
 ✅ **V.2 انجام شد (2026-09-16)** — دلیل فنی این سقف از بین رفت. سقف `--grenze 500` در
 `tool/generate_words.py` **عمداً** باقی است: حالا فقط جلوی هزینه‌ی ناخواسته را می‌گیرد و برداشتنش جزو
 تصمیم A.6 با Lukas است.
+⚠️ **یافته‌ی دوم 2026-09-16 (برای A.6, هنگام L.1a):** در `vokabular-autofill.yml` قدم «Import + Validierung»
+`dart run tool/vokabular_import.dart 2>&1 | tee …` است؛ shell پیش‌فرض GitHub (`bash -e`) بدون `pipefail` است ⇒
+خروجی قرمز import **پنهان می‌شود** و workflow ادامه می‌دهد — برخلاف قاعده‌ی «Fehler > 0 ⇒ هیچ commit». همراه با
+یافته‌ی زیر، قبل از اولین اجرای واقعی درست شود (`set -o pipefail`).
 ⚠️ **یافته‌ی 2026-09-16 (برای A.6):** `vokabular-autofill.yml` با `GITHUB_TOKEN` push می‌کند؛ چنین commitی
 **هیچ workflow دیگری را راه نمی‌اندازد** ⇒ `deploy-web.yml` بعد از آن اجرا **نمی‌شود** و کلمه‌های جدید
 منتشر نمی‌شوند (متن «deploy-web.yml baut jetzt neu» در خلاصه‌ی آن workflow درست نیست). قبل از اولین اجرای
