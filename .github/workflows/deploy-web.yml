@@ -6,6 +6,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      ohne_id_waechter:
+        description: "Wort-id-Wächter (L.1a) auslassen — NUR bewusst, z. B. wenn die Seite ganz weg ist"
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -31,6 +36,23 @@ jobs:
 
       - name: Wortindex bauen (V.2 — entsteht beim Bauen, nie von Hand)
         run: dart run tool/vokab_index.dart
+
+      - name: Veröffentlichte Wort-ids noch da? (L.1a)
+        # Vergleich mit dem Index der LIVE-Seite — dem, was Nutzer wirklich
+        # haben (Begründung: tool/vokab_ids_pruefen.dart). Nicht erreichbar
+        # ⇒ rot. Nur ein Mensch kann den Wächter über „Run workflow" und
+        # `ohne_id_waechter` bewusst auslassen (z. B. wenn die Seite ganz weg ist).
+        if: ${{ !inputs.ohne_id_waechter }}
+        run: |
+          set -o pipefail  # sonst verschluckt `| tee` einen roten Wächter
+          url="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/assets/assets/vocab_index.json"
+          code=$(curl -sS --compressed --retry 3 --retry-all-errors \
+            -o /tmp/vocab_index_live.json -w '%{http_code}' "$url" || true)
+          if [ "$code" != "200" ]; then
+            echo "::error::Veröffentlichter Wortindex nicht abrufbar (HTTP $code): $url"
+            exit 1
+          fi
+          dart run tool/vokab_ids_pruefen.dart /tmp/vocab_index_live.json | tee -a "$GITHUB_STEP_SUMMARY"
 
       - name: Analyze
         run: flutter analyze --no-pub --no-fatal-infos

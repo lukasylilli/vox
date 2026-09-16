@@ -160,3 +160,41 @@ List<Map<String, dynamic>> vokabIndexLesen(String text) {
       (e as Map).cast<String, dynamic>(),
   ];
 }
+
+// ── L.1a: Wächter für veröffentlichte ids ─────────────────────────────────
+//
+// Der Leitner-Stand, die Listen und die Notizen der Nutzer zeigen auf
+// Archivkarten über deren Text-id (`adjektiv_stolz`). Verschwindet eine
+// veröffentlichte id — gelöscht oder umbenannt —, bleibt beim Nutzer eine
+// Karte ohne Wort zurück. Regel: **eine veröffentlichte id bleibt für immer.**
+
+/// Alle ids eines Index-Textes. Bewusst OHNE Versionsprüfung: der Vergleich
+/// läuft gegen den Index der LIVE-Seite, und der darf eine ältere Fassung
+/// haben. Wirft [FormatException], wenn der Text gar kein Index ist — dann
+/// lieber rot als „nichts veröffentlicht, alles erlaubt".
+Set<String> vokabIndexIds(String text) {
+  final Object? roh;
+  try {
+    roh = jsonDecode(text);
+  } on FormatException {
+    throw const FormatException('Wortindex ist kein lesbares JSON');
+  }
+  final karten = roh is Map ? roh['karten'] : null;
+  if (karten is! List) {
+    throw const FormatException('Wortindex ohne Liste "karten"');
+  }
+  final ids = <String>{};
+  for (final e in karten) {
+    final id = e is Map ? e['id'] : null;
+    if (id is! String || id.isEmpty) {
+      throw const FormatException('Wortindex-Eintrag ohne id');
+    }
+    ids.add(id);
+  }
+  return ids;
+}
+
+/// ids, die [veroeffentlicht] waren und in [neu] fehlen — sortiert.
+/// Leer = alles in Ordnung.
+List<String> vokabVerloreneIds(Set<String> veroeffentlicht, Set<String> neu) =>
+    (veroeffentlicht.difference(neu).toList()..sort());
