@@ -1,6 +1,6 @@
 # GRAMMATIK_MAP — VOX
 # Vollständige Seiten-Map des Grammatik-Bereichs
-# Stand: 2026-09-16 · Stufen G1–G6 umgesetzt (alle 84 Kern-Lektionen live) · G7a: 336 Übungen live
+# Stand: 2026-09-16 · Stufen G1–G6 umgesetzt (alle 84 Kern-Lektionen live) · G7a: 336 Übungen live · G7b: Niveau-Test A1–C2 live
 
 > **Pflegeregeln (bei jeder Stufe aktualisieren!):**
 > 1. Neue Inhalte ⇒ Eintrag im Master-Katalog unten **und** in `assets/data/grammatik_katalog.json` ergänzen/Status ändern.
@@ -47,7 +47,8 @@ desselben Katalogs** (Referenz, keine Kopie — wie bei `words`).
 │
 ├─ /grammatik/lesson/:lessonId    LessonDetailScreen (DB-Lektionen, Alt-System)
 │      └─ /exercise · /quiz
-├─ /grammatik/quiz-niveau/:level  [Stufe G7] kombiniertes Niveau-Quiz
+├─ /grammatik/quiz-niveau/:level  [G7b ✅] GrammatikNiveauTestScreen — Einführung → 10 Zufallsfragen → bestanden ab 70 %
+│      Einstieg: NiveauTestKarte oben in /grammatik/katalog/niveau/:key
 └─ /grammatik/:level              LevelLessonsScreen (DB-Lektionen pro Niveau)
        erreichbar als „Lektionen & Übungen"-Kachel in der Niveau-Ansicht
 
@@ -101,7 +102,7 @@ Der gewählte Modus wird in `shared_preferences` gespeichert (`grammatik_sort_mo
 | **G5** | Content-Import III: adjektive (4) + adverbien (4) + pronomen (5) + praepositionen (5) | ✅ 2026-09-16 |
 | **G6** | Content-Import IV: satzlehre (9) + nebensaetze (7) + temporalsaetze (5) → **alle 84 live** | ✅ 2026-09-16 |
 | **G7a** | 336 Übungen der Quelle (5 Arten) in jeder Lektion, Route `/grammatik/lektion/:slug/uebung` | ✅ 2026-09-16 |
-| **G7b** | Kombiniertes Niveau-Quiz A1–C2 (Quelle: 10 Fragen, Bestehen ab 70 %) | [ ] |
+| **G7b** | Kombiniertes Niveau-Quiz A1–C2 (Quelle: 10 Fragen, Bestehen ab 70 %) | ✅ 2026-09-16 |
 | **G7c** | Übungen aus den Beispielsätzen der Lektionen (nur Formen, die ohne Raten richtig sind) | [ ] |
 | **G7d** | Übungen für Redemittel und weitere Decks | [ ] |
 | **G8** | Integration: Global Search, Leitner-Verknüpfung, Glossar A–Z, neue Nutzer-Quellen einpflegen | [ ] |
@@ -217,3 +218,4 @@ Lekt. = Position im linearen Lernpfad („Lektionen"-Ansicht) · — = Vertiefun
 | 2026-07-07 | — | Querschnitt (فاز B/L/L2): Grammatik-Screens auf VoxButton/VoxOptionButton umgestellt; alle UI-Labels der Grammatik-Screens laufen über AppL10n (FA/EN aus Settings); `grammatik_katalog.json`-Einträge haben `en`-Titel (Modell liest sie noch nicht — bei G2 mit einbauen: Eintrag-Untertitel locale-aware statt fix `fa`). |
 | 2026-09-16 | G3–G6 | **Alle 84 Kern-Lektionen live.** Die Quelle war NICHT unvollständig (Notiz vom 2026-07-07 korrigiert): sie enthält 17 vollständige JSON-Dokumente, die sich einzeln herauslösen lassen (je ab dem `{` vor `"_index"`); das schon vorhandene `verben-grundlagen.json` ist mit dem Quell-Dokument byte-gleich. Übernommen **unverändert**, Dateinamen aus den Quell-Hinweisen `Resources/JSON/Grammar/<name>.json`. 75 Katalog-Einträge bekamen `route: /grammatik/lektion/<slug>`. **Bewusst unverändert:** 5 Einträge mit eigenem Feature-Screen (trennbare-verben, modalverben, unregelmaessige-verben, reflexive-verben, die-vier-faelle) — ihre Lektion ist über `/grammatik/lektion/<slug>` und die Querverweise erreichbar. **Gefunden und behoben:** die Quelle schreibt `columns` auf zwei Arten (mit/ohne Überschrift der Beschriftungsspalte) — `GrammatikTable.fromJson` vereinheitlicht das; vorher konnten die Tabellen von `verb-sein`/`verb-haben` nicht gezeichnet werden. 3 Tabellen mit `style: interactiveGrid` (Adjektivdeklination) werden als normale Tabelle gezeigt; das Üben daran gehört zu G7. 8 Querverweise der Quelle zeigen auf Slugs ohne Lektion (z. B. `temporalsaetze`, `artikel`) — sie werden wie bisher still ausgelassen, nicht geraten. Wächter: `test/grammatik_lektionen_test.dart` (Dateien ↔ Liste, Lektion ↔ Katalog, Tabellen darstellbar, dreisprachig, alle 84 Lektionen in EN und FA gezeichnet). |
 | 2026-09-16 | G7a | **336 Übungen live** (multipleChoice 85 · fillBlank 82 · wordOrder 67 · transform 51 · matching 51), Daten **unverändert** aus `assets/data/grammatik/*.json` (`exercises`). Modell + einzige Bewertungsstelle: `models/grammatik_uebung.dart`; Anzeige: `widgets/uebung_karte.dart` (deutscher Text immer LTR), Folge + Ergebnis: `widgets/uebungs_sitzung.dart` (für G7b wiederverwendbar), Seite: `screens/grammatik_uebung_screen.dart`; Knopf „تمرین این درس (n)" oben und unten in jeder Lektion. **Befunde der Quelle, im Code aufgefangen:** `alternatives` bei fillBlank sind immer falsche Wahlmöglichkeiten (82/82) · 4 wordOrder mit überzähligem/großgeschriebenem Kärtchen (ex-interr-4, ex-indefpron-4, ex-waehrend-4, ex-genitiv-4) ⇒ übrige Kärtchen erlaubt, Vergleich ohne Groß-/Kleinschreibung und Satzzeichen · 7 matching mit gleichen rechten Werten ⇒ Auswahl aus den verschiedenen Werten · **`ex-komp-1…4` gibt es zweimal** (komparativ-superlativ und komposita) ⇒ eindeutig ist nur Lektion + id (`schluessel`). transform wird streng geprüft (nur Leerzeichen/Anführungszeichen/Schlusszeichen egal); „نمایش جواب" zählt als falsch. Ergebnisse werden nicht gespeichert (Training, kein Lernstand). Wächter: `test/grammatik_uebungen_test.dart` (alle 336 lesbar, je Lektion genau `exerciseSlugs`, eigene Lösung richtig / falsche falsch, jede Übung in EN und FA per Tippen gelöst, Sitzung zählt). |
+| 2026-09-16 | G7b | **Niveau-Test A1–C2 live.** Einstellungen: `assets/data/grammatik_niveautest.json` — das Quell-Dokument, das sich selbst „einzige Quelle der Einstellungen" nennt, **unverändert** übernommen (10 Fragen, 70 %, A1–C2; das zweite, gleichlautende Konfig-Dokument der Quelle unterscheidet sich nur in der Beschreibung). Modell: `models/grammatik_niveautest.dart` (Prüfung der Einstellungen, Vorrat, Ziehen); Seite: `screens/grammatik_niveautest_screen.dart` (Einführung → Sitzung mit Bestehensgrenze → „آزمون تازه" zieht neu) + `NiveauTestKarte` oben in der Niveau-Ansicht des Katalogs; Route `quiz-niveau/:level` vor `:level`. **Entscheidung (Claude):** Fragen **ohne `transform`** — frei getippt und streng verglichen wäre eine andere richtige Formulierung im Test ein Fehler. Vorrat je Niveau: A1 86 · A2 146 · B1 170 · B2 107 · C1 24 · **C2 nur 3** (eine einzige C2-Lektion in der Quelle) ⇒ der C2-Test hat 3 Fragen; nichts wird aufgefüllt. Ergebnis wird **nicht gespeichert** (offene Frage an Lukas). Wächter: `test/grammatik_niveautest_test.dart`. |
