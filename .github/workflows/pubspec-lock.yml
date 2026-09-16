@@ -49,6 +49,9 @@ jobs:
       - name: Abhängigkeiten auflösen
         run: flutter pub get
 
+      - name: Wortindex bauen (V.2 — entsteht beim Bauen, nie von Hand)
+        run: dart run tool/vokab_index.dart
+
       - name: Analyze (vor dem Commit — nichts Kaputtes veröffentlichen)
         run: flutter analyze --no-pub --no-fatal-infos
 

@@ -29,14 +29,17 @@ class WortSeiteScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final byIdAsync = ref.watch(vokabularByIdProvider);
+    // V.2: die volle Karte wird erst hier geladen (eine Datei); für die
+    // Wortnetz-Links genügt der Index (gibt es das Wort?).
+    final karteAsync = ref.watch(vokabKarteProvider(wortId));
+    final byId = ref.watch(vokabIndexByIdProvider).valueOrNull ??
+        const <String, Map<String, dynamic>>{};
 
-    return byIdAsync.when(
+    return karteAsync.when(
       loading: () =>
           const Scaffold(body: Center(child: CircularProgressIndicator())),
       error: (e, _) => Scaffold(body: Center(child: Text('$e'))),
-      data: (byId) {
-        final card = byId[wortId];
+      data: (card) {
         if (card == null) {
           return Scaffold(
             appBar: AppBar(),
@@ -53,6 +56,8 @@ class WortSeiteScreen extends ConsumerWidget {
 
 class _WortSeiteBody extends StatelessWidget {
   final Map<String, dynamic> card;
+
+  /// id → Index-Eintrag (NICHT volle Karten) — nur für „gibt es das Wort?".
   final Map<String, Map<String, dynamic>> byId;
   const _WortSeiteBody({required this.card, required this.byId});
 

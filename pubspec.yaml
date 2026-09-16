@@ -79,6 +79,9 @@ flutter:
     - assets/vocab/konjunktion/
     - assets/vocab/adverb/
     - assets/vocab/partikel/
+    # V.2: Wortindex (Liste/Suche/Symbol) — wird in JEDEM Workflow vor
+    # `flutter analyze` von tool/vokab_index.dart gebaut, nie committet.
+    - assets/vocab_index.json
   fonts:
     - family: Vazirmatn
       fonts:

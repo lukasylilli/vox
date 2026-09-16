@@ -106,6 +106,10 @@ jobs:
         # (import_inbox/README.md). Die README selbst bleibt liegen.
         run: find import_inbox -name '*.json' -delete
 
+      - name: Wortindex bauen (V.2 — entsteht beim Bauen, nie von Hand)
+        if: ${{ !inputs.dry_run }}
+        run: dart run tool/vokab_index.dart
+
       - name: Analyze
         if: ${{ !inputs.dry_run }}
         run: flutter analyze --no-pub --no-fatal-infos

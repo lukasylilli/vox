@@ -197,11 +197,28 @@ void main() {
     });
   });
 
-  test('Asset-Loader: Demo-Wort wird über pubspec gefunden', () async {
+  test('V.2 Index: Demo-Wort steht im Wortindex (assets/vocab_index.json)',
+      () async {
     final container = ProviderContainer();
     addTearDown(container.dispose);
-    final karten = await container.read(vokabularProvider.future);
-    expect(karten.map((k) => k['id']), contains('verb_lernen'));
+    final eintraege = await container.read(vokabIndexProvider.future);
+    final lernen = eintraege.firstWhere((k) => k['id'] == 'verb_lernen');
+    // Index-Eintrag: Listenfelder ja, Inhalt der Wort-Seite nein.
+    expect(lernen['wortart'], 'verb');
+    expect(lernen.containsKey('beispiele'), isFalse);
+    expect((lernen['details'] as Map).containsKey('konjugation'), isFalse);
+  });
+
+  test('V.2 Einzelkarte: volle Karte erst beim Öffnen, unbekannte id = null',
+      () async {
+    final container = ProviderContainer();
+    addTearDown(container.dispose);
+    final karte =
+        await container.read(vokabKarteProvider('verb_lernen').future);
+    expect(karte, isNotNull);
+    expect((karte!['details'] as Map).containsKey('konjugation'), isTrue);
+    expect(await container.read(vokabKarteProvider('gibt_es_nicht').future),
+        isNull);
   });
 
   late Map<String, dynamic> verbKarte;

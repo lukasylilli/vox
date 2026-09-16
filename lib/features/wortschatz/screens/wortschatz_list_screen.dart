@@ -2,6 +2,8 @@
 // PURPOSE: «Alle Wörter» — EINE Liste für beide Quellen:
 //            · alte Wortschatz-DB (drift → WordModel → WordListItem)
 //            · Vokabular-Karten aus assets/vocab/ (SUPER-PROMPT v3.0 → WortCard)
+//              — seit V.2 als Index-Einträge (vokabIndexProvider), nicht als
+//              volle Karten; WortCard braucht nur diese Felder.
 //          Das frühere «Vokabular-Archiv» (eigene Home/Liste) wurde hierher
 //          verschmolzen; Wort-Seite bleibt /vokabular/wort/:id.
 import 'package:flutter/material.dart';
@@ -153,7 +155,7 @@ class _WortschatzListScreenState extends ConsumerState<WortschatzListScreen> {
   @override
   Widget build(BuildContext context) {
     final wordsAsync = ref.watch(allWordsProvider);
-    final kartenAsync = ref.watch(vokabularProvider);
+    final kartenAsync = ref.watch(vokabIndexProvider);
     final activeMap  = _activeFilters;
 
     return Scaffold(

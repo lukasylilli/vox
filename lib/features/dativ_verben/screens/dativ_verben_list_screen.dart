@@ -113,7 +113,7 @@ class _DativVerbenListScreenState
 
     // Bereits nach assets/vocab migrierte Verben → Detail öffnet die
     // einheitliche Vokabelseite; noch nicht migrierte → alte Detailseite.
-    final vocabIds = ref.watch(vokabularByIdProvider).asData?.value.keys.toSet()
+    final vocabIds = ref.watch(vokabIndexByIdProvider).asData?.value.keys.toSet()
         ?? const <String>{};
 
     return Scaffold(

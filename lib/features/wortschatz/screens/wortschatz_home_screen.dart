@@ -19,7 +19,7 @@ class WortschatzHomeScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     // Zähler = alte Wortschatz-DB + Vokabular-Karten (beide in «Alle Wörter»).
     final wordsAsync = ref.watch(allWordsProvider);
-    final kartenAsync = ref.watch(vokabularProvider);
+    final kartenAsync = ref.watch(vokabIndexProvider);
     final count = (wordsAsync.valueOrNull?.length ?? 0) +
         (kartenAsync.valueOrNull?.length ?? 0);
 
