@@ -11,12 +11,16 @@
 #
 #   tool/ci_fehler_melden.sh "<Titel>" <logdatei>
 #
-# Schreibt die ersten relevanten Zeilen (höchstens 120) als EINE Annotation;
+# Schreibt die ersten relevanten Zeilen (höchstens 150) als EINE Annotation;
 # Zeilenumbrüche werden nach GitHub-Regel kodiert (%0A), `%` als %25.
+# Ausgefiltert wird Rauschen, das den eigentlichen Fehler verdrängt: Stapel-
+# zeilen (`#0 …`) und drifts Hinweis „database class … multiple times" (Tests
+# öffnen bewusst mehrere Datenbanken im Speicher).
 set -u
 titel="$1"
 datei="$2"
 [ -f "$datei" ] || { echo "::error title=$titel::(keine Ausgabe gefunden)"; exit 0; }
-text=$(grep -v '^[[:space:]]*$' "$datei" | head -n 120 \
+text=$(grep -v -E '^[[:space:]]*$|^#[0-9]+ |<asynchronous suspension>|^WARNING \(drift\)|^Try to follow the advice|^Here is the stacktrace|^This warning will only appear' "$datei" \
+  | head -n 150 \
   | sed -e 's/%/%25/g' -e 's/\r/%0D/g' | sed -e ':a;N;$!ba;s/\n/%0A/g')
 echo "::error title=${titel}::${text}"
