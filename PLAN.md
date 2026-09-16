@@ -25,11 +25,12 @@
 | ۱۶ — انتشار و QA نهایی | باز | آخرین فاز قبل از launch |
 
 **2026-09-16:** L.3a ✅ زبان شروع = انگلیسی، مگر دستگاه فارسی باشد.
+**2026-09-16:** L.1b ✅ آزمون به‌روزرسانی: هر نسخه‌ی منتشرشده‌ی پایگاه‌داده (۲ تا ۶) با داده‌ی واقعی لایتنر به نسخه‌ی ۷ رسانده و بررسی می‌شود — ساختار دقیقاً مثل نصب تازه، لایتنر/لیست‌ها سالم. آزمون عمدی خراب ⇒ قرمز شد.
 **2026-09-16:** L.1a ✅ نگهبان شناسه‌ها: اگر شناسه‌ی کارتی که روی سایت منتشر شده حذف یا عوض شود، ساخت قرمز می‌شود و چیزی منتشر نمی‌شود (با حذف آزمایشی یک کارت روی شاخه‌ی جدا ثابت شد).
 **2026-09-16:** V.2 ✅ اپ هنگام شروع دیگر همه‌ی کارت‌ها را نمی‌خواند — فقط یک فهرست کوچک (`assets/vocab_index.json`)؛ کارت کامل فقط وقتی صفحه‌ی آن کلمه باز شود. سقف ~۵۰۰ کارت برداشته شد.
 **2026-09-16:** S.6 ✅ لیست‌های شخصی شناسه‌ی ثابت دارند — تغییر نام دیگر کلمه‌ای را در همگام‌سازی از بین نمی‌برد (پایگاه داده نسخه‌ی ۷، قرارداد پشتیبان نسخه‌ی ۳).
 
-**قدم‌های بعدی (2026-09-16, ترتیب جدید — بخش «فاز LAUNCH»):** ① **L.1** امنیت لایتنر: S.6 ✅ → V.2 ✅ → L.1a ✅ → **L.1b** (+ Lukas: Supabase-Secrets، تصمیم حذف حساب) ② **L.2** کامل بودن محتوا: G3–G6 + deckهای «به‌زودی» + سؤال‌ها از Lukas (ÖSD C1، A1/A2 Wortschatz) ③ **L.3** آماده‌سازی انتشار ← **انتشار** ④ **L.4** کلمه‌ها روزانه (A.6 ⛔ اول از Lukas بپرس)
+**قدم‌های بعدی (2026-09-16, ترتیب جدید — بخش «فاز LAUNCH»):** ① **L.1** امنیت لایتنر: S.6 ✅ → V.2 ✅ → L.1a ✅ → L.1b ✅ (باقی L.1 با Lukas: L.1c/L.1d) (+ Lukas: Supabase-Secrets، تصمیم حذف حساب) ② **L.2** کامل بودن محتوا: G3–G6 + deckهای «به‌زودی» + سؤال‌ها از Lukas (ÖSD C1، A1/A2 Wortschatz) ③ **L.3** آماده‌سازی انتشار ← **انتشار** ④ **L.4** کلمه‌ها روزانه (A.6 ⛔ اول از Lukas بپرس)
 
 ---
 
@@ -74,7 +75,34 @@
       ⚠️ **Keine Ausnahmeliste, mit Absicht.** Muss eine Karte je wirklich weg (z. B. doppelt/falsch), braucht es
       vorher eine Umzugsregel für Leitner, Listen und Notizen der Nutzer (alte id → neue id) — eine Entscheidung
       mit Lukas, kein Handgriff. Eine fehlerhafte Karte wird **korrigiert**, nicht gelöscht; ihre id bleibt.
-- [ ] **L.1b تست مهاجرت:** از هر `schemaVersion` قدیمی (۱…۶) به نسخه‌ی فعلی، بدون از دست رفتن لایتنر.
+- [x] **L.1b تست مهاجرت** ✅ (2026-09-16): از هر `schemaVersion` قدیمی به نسخه‌ی فعلی، بدون از دست رفتن لایتنر.
+      **Umgesetzt mit drifts eigenem Werkzeug (SchemaVerifier), nicht mit einer Nachbildung:**
+      · **Echte alte Schemata:** `build-runner.yml` holt je Fassung den LETZTEN Commit, in dem
+        `app_database.dart` diese `schemaVersion` trägt, legt dafür einen eigenen Arbeitsbaum an und führt
+        `drift_dev schema dump` aus ⇒ `drift_schemas/drift_schema_v2…v7.json`; daraus
+        `drift_dev schema generate` ⇒ `test/generated_migrations/`. Bei **jedem** Lauf alle neu — kein
+        Abzug kann veralten. Ab jetzt entsteht der Abzug einer neuen Fassung automatisch mit.
+      · **Fassung 1 gibt es nicht:** Die Geschichte dieses Repos beginnt am 2026-09-13 mit Fassung 2 (erste
+        Web-Veröffentlichung, `ERSTE_FASSUNG` im Workflow). Kein Web-Nutzer kann Fassung 1 haben.
+      · `test/migration_test.dart`: je Fassung 2…6 eine Datenbank im alten Schema anlegen, Nutzerdaten
+        hineinschreiben (eigenes Wort mit Leitner-Fach 4 + Termin, eigene Liste; ab 3 Archiv-Leitner Fach 5;
+        ab 4 Archiv-Liste; ab 6 Ereignis) ⇒ mit der App öffnen ⇒ `migrateAndValidate` (Tabellen, Spalten,
+        Einschränkungen, Indizes **genau** wie bei einer frischen Installation; auch nichts Überzähliges) ⇒
+        über `UserStateRepository.lesen()` prüfen, dass Fächer, Termine, Listen (mit ihrer alten id) und
+        Ereignisse noch da sind. Dazu: frische Installation = was der Code erwartet; für jede Fassung ab 2
+        gibt es einen Abzug (neue `schemaVersion` ohne Abzug ⇒ rot).
+      · **Dabei korrigiert:** Der eindeutige Index `user_categories_uid` (S.6) war rohes SQL und damit für drift
+        unsichtbar — jetzt `@TableIndex` an `UserCategories`, angelegt über `createAll` bzw. `m.createIndex`.
+        Name und Definition unverändert ⇒ Datenbanken der Fassung 7 haben ihn schon, **keine** neue Fassung.
+      · **Gegenprobe:** auf einem Wegwerf-Zweig `m.addColumn(words, words.ausApp)` aus der Migration entfernt ⇒
+        genau 4 Tests rot (Fassung 2–5; 6 hatte die Spalte schon), Meldung „words: aus_app — the actual schema
+        does not contain anything with this name". Zweig gelöscht.
+      · **Fehlertexte sind jetzt lesbar:** `tool/ci_fehler_melden.sh` schreibt den Fehlertext roter Schritte als
+        GitHub-Annotation (in `build-runner.yml` und `pruefen.yml`); Claude liest sie über
+        `api.github.com/…/check-runs/<job>/annotations`. Die Gegenprobe oben wurde genau so gelesen.
+        (`deploy-web.yml` hat das noch nicht — dort wird nur veröffentlicht, was vorher auf einem Zweig grün war.)
+      ⚠️ **Regel ab jetzt:** Jede Schema-Änderung ⇒ `schemaVersion` erhöhen + Migration schreiben + `build-runner.yml`
+      auf dem Zweig laufen lassen. Der Migrationstest deckt die neue Fassung dann von selbst ab.
 - [ ] **L.1c (Lukas)** Secrets `SUPABASE_URL`/`SUPABASE_ANON_KEY` در ریپوی vox + اجرای یک‌باره‌ی
       `supabase/vox_tables.sql` — بدون این‌ها کپی خودکار در حساب وجود ندارد (فقط مرورگر + فایل پشتیبان).
 - [ ] **L.1d (Lukas، برای هر دو اپ)** تصمیم حذف حساب (S.3 باز).

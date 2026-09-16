@@ -27,6 +27,7 @@
 #   Lukas: «منابع همه‌چیز با من، برنامه‌نویسی با تو» ⇒ برای محتوا (گرامر، deckها، …) منبع را از او بخواه.
 #   ⛔ استثنا: کارت‌های کلمه را همیشه Claude طبق «old files Lukasalmani/Wort prompt» می‌سازد — تبدیل منابع Lukas رد شد (2026-09-16).
 #   ⚠️ شناسه‌ی کارت منتشرشده در assets/vocab/ هرگز حذف/عوض نشود — لایتنر کاربر به آن اشاره می‌کند.
+#     ✅ L.1b (2026-09-16): test/migration_test.dart hebt jede veröffentlichte DB-Fassung (2…6) mit echten Daten auf die aktuelle.
 #     ✅ L.1a (2026-09-16): نگهبان CI (tool/vokab_ids_pruefen.dart) با فهرست سایت زنده مقایسه می‌کند ⇒ حذف = ساخت قرمز.
 # 🌐 2026-09-16 L.3a — زبان شروع: پیش‌فرض انگلیسی، فقط روی دستگاه فارسی‌زبان فارسی.
 #   تنها منبع قاعده: core/l10n/geraete_sprache.dart · انتخاب کاربر در Settings (ui_language) همیشه مقدم.
@@ -1124,7 +1125,10 @@ die Fassade, die allein `NutzerZustand` nach außen zeigt.
 | `core/backup/nutzer_zustand.dart` | **S.0a-1 ✅ — DER VERTRAG.** Was einem Nutzer gehört + Hülle `{version, exportedAt, app, payload}` + `zusammenfuehren()` („höchstes Fach gewinnt"). Reines Dart, ohne drift/prefs/Flutter. ⚠️ Leitner-IDs sind Text (`adjektiv_stolz`, `eigen:<wort>\|<wortart>`) — die drift-Nummer gehört NIE in eine Sicherung |
 | `test/nutzer_zustand_test.dart` | 12 Fälle, darunter: älterer Stand mit höherem Fach gewinnt; a+b == b+a; Notizen werden nie zusammengeklebt |
 | `core/backup/user_state_repository.dart` | **S.0a-2 ✅, S.0b ✅ — DIE FASSADE.** Einzige Stelle, die weiß, wo der Nutzerzustand liegt (Archivkarten seit S.0b in drift/`ArchivLeitner`, mit Übergangspfad aus SharedPreferences). `lesen()` / `anwenden()`. Löscht nie etwas; sichert nur Einstellungen aus `einstellungsSchluessel` |
-| `.github/workflows/build-runner.yml` | führt `dart run build_runner build` aus der Ferne aus, committet nur bei grünem analyze+test — für jede künftige Drift-Änderung, nicht nur S.0b |
+| `.github/workflows/build-runner.yml` | führt `dart run build_runner build` aus der Ferne aus, committet nur bei grünem analyze+test — für jede künftige Drift-Änderung, nicht nur S.0b. **Seit L.1b** zusätzlich: Schema-Abzüge aller Fassungen ab `ERSTE_FASSUNG=2` aus der Git-Geschichte (je Fassung ein Arbeitsbaum des letzten Commits mit dieser `schemaVersion`) → `drift_schemas/` → `test/generated_migrations/`; Fehlertexte als Annotation. Braucht `fetch-depth: 0` |
+| `drift_schemas/drift_schema_vN.json` | **L.1b** — Schema jeder veröffentlichten Fassung (2…aktuell), erzeugt von `build-runner.yml`, **nie von Hand** |
+| `test/generated_migrations/` | **L.1b** — von `drift_dev schema generate` erzeugt (`GeneratedHelper.versions`), nie von Hand |
+| `tool/ci_fehler_melden.sh` | **L.1b** — Fehlertext eines roten CI-Schritts → eine GitHub-Annotation (filtert Stapelzeilen und drifts Mehrfach-DB-Hinweis) |
 | `.github/workflows/pubspec-lock.yml` | **S.3 ✅** — Gegenstück dazu für `flutter pub get`: frischt `pubspec.lock` aus der Ferne auf und committet es. ⚠️ Das Lockfile ist hier nicht kosmetisch — `web/sqlite3.wasm`/`web/drift_worker.js` müssen zu den dort festgehaltenen drift-/sqlite3-Fassungen passen |
 | `test/user_state_repository_test.dart` | prüft gegen eine echte In-Memory-Datenbank, u. a. simulierter Gerätewechsel und doppeltes Einspielen |
 | `core/services/backup_service.dart` | **S.2 ✅** — `exportieren()` / `einspielen()`. Kennt nur die Fassade und `datei_io`, keine Ablage |
@@ -1162,12 +1166,16 @@ die Fassade, die allein `NutzerZustand` nach außen zeigt.
 | `KategorieStand.nameAm` | Vertrag v3: später vergebener Name gewinnt; ohne `nameAm` = älter als jede Umbenennung |
 | `CategoryDao.updateCategory` | Umbenennen = nur Name + Zeitpunkt; die id bleibt |
 | `test/migration_v7_test.dart` | echte Datei im Stand 6 → neu geöffnet: alte ids bleiben, doppelter Name ⇒ neue id, Index wirkt |
+| `test/migration_test.dart` | **L.1b** — jede Fassung 2…6 mit Nutzerdaten → aktuelle Fassung: Schema exakt (drift `SchemaVerifier`), Leitner/Listen/Ereignisse erhalten |
+| `UserCategories` → `@TableIndex(user_categories_uid)` | **L.1b** — der Index aus S.6 ist jetzt Teil des drift-Schemas (vorher rohes SQL, für die Schema-Prüfung unsichtbar) |
 ⚠️ Eine eigene Liste **nie** über ihren Namen suchen — immer über `uid`. Der Name ist nur Anzeige.
 
 ⚠️ **Jede Änderung an einer Drift-Tabelle braucht `dart run build_runner build`**
 (`app_database.g.dart`, ~8.000 Zeilen, versioniert). Claude hat kein Dart im Container —
 dafür gibt es `.github/workflows/build-runner.yml`. ✅ Seit dem PAT mit „Workflows: Read and
 write" ist diese Blockade weg (S.0b/S.0c und فاز A / A.4 sind erledigt).
+⚠️ **Seit L.1b:** Schema-Änderung ⇒ `schemaVersion` erhöhen + Migration + `build-runner.yml` auf dem Zweig — er legt
+auch den Schema-Abzug der neuen Fassung an; `test/migration_test.dart` prüft sie dann von selbst.
 ⚠️ Schema-Änderung und `build_runner`-Lauf **unmittelbar hintereinander** schicken — sonst steht
 ein Zwischenstand auf `main`, der nicht übersetzt, und jeder Commit auf `main` ist eine
 Veröffentlichung.
@@ -1181,10 +1189,12 @@ Veröffentlichung.
   übersetzen (Datei exportiert auf eine noch fehlende Datei) und lösen je einen Deploy aus,
   der den vorigen abbricht.
 - **Die CI-Logs sind von Claude aus nicht lesbar** — GitHub liefert sie von
-  `*.blob.core.windows.net`, das nicht in der Netz-Freigabe steht. `check-runs/annotations`
-  ist bei diesem Workflow leer. Sichtbar sind nur Status und Schrittname.
-  ⇒ Bei rotem Lauf: Schritt am Namen erkennen, Ursache aus dem Diff erschließen — oder den
-  Text beim Nutzer erfragen. **Darum in Dart nur Konstrukte verwenden, die im Repo schon
+  `*.blob.core.windows.net`, das nicht in der Netz-Freigabe steht.
+  ✅ **Gelöst seit L.1b (2026-09-16):** `tool/ci_fehler_melden.sh` schreibt den Fehlertext roter Schritte
+  (build_runner, Schema-Abzug, Analyze, Test) als Annotation. Lesen:
+  `GET api.github.com/repos/lukasylilli/vox/actions/runs/<run>/jobs` → Job-id →
+  `GET …/check-runs/<job-id>/annotations`. Vorhanden in `build-runner.yml` und `pruefen.yml`
+  (nicht in `deploy-web.yml`). Ohne Annotation gilt weiter: Ursache aus dem Diff erschließen. **Darum in Dart nur Konstrukte verwenden, die im Repo schon
   vorkommen**, und übernommenen Code zeichengleich kopieren.
 - Jeder Commit auf `main` ist eine Veröffentlichung (deploy-web.yml). **Deshalb seit S.3:
   riskante Änderungen zuerst auf einen Zweig.** `.github/workflows/pruefen.yml` läuft auf jedem
@@ -1255,6 +1265,10 @@ noch nicht und wird erst nach dieser Entscheidung gebaut.
 ---
 
 ## BUGS FIXED
+
+### [2026-09-16] L.1b: Index `user_categories_uid` war für drift unsichtbar
+- In S.6 per rohem SQL angelegt ⇒ Schema-Vergleich hätte ihn als „überzählig" gemeldet und drift kannte ihn nicht.
+  Jetzt `@TableIndex` (gleicher Name, gleiche Definition, keine neue Fassung).
 
 ### [2026-09-16] V.2: App-Start las jede Wortkarte einzeln
 - `vokabular_controller.dart` lud beim Start alle Dateien aus `assets/vocab/` (im Browser je eine Anfrage) ⇒
