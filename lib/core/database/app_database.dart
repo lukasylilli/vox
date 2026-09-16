@@ -63,6 +63,11 @@ class WordBooks extends Table {
   Set<Column> get primaryKey => {wordId, bookId};
 }
 
+// S.6/L.1b: der eindeutige Index gehört zum drift-Schema (nicht als rohes SQL),
+// damit die Schema-Prüfung der Migrationen (test/migration_test.dart) ihn kennt.
+// Name und Definition sind dieselben wie beim ersten Anlegen per SQL — eine
+// Datenbank der Fassung 7 hat ihn also schon; keine neue Fassung nötig.
+@TableIndex(name: 'user_categories_uid', columns: {#uid}, unique: true)
 class UserCategories extends Table {
   IntColumn  get id   => integer().autoIncrement()();
   TextColumn get name => text()();
@@ -76,7 +81,7 @@ class UserCategories extends Table {
   // ⚠️ Nullable nur, weil SQLite beim Hinzufügen einer Spalte keinen
   // Standardwert je Zeile kennt; die Migration füllt jede Zeile, jede neue
   // Zeile bekommt sie beim Anlegen. Eindeutig über den Index
-  // `user_categories_uid` (siehe _listenIdIndex).
+  // `user_categories_uid` (@TableIndex oben).
   TextColumn get uid      => text().nullable()();
   // Wann der Name vergeben wurde, Millisekunden seit 1970 (UTC) — beim
   // Abgleich gewinnt der später vergebene Name. null = unbekannt (älter als
@@ -216,11 +221,6 @@ class Mitgliedschaften extends Table {
   Set<Column> get primaryKey => {art, schluessel, wort};
 }
 
-// S.6: Eindeutigkeit der Listen-id. Als eigener Index, weil SQLite eine
-// UNIQUE-Spalte nicht nachträglich hinzufügen kann (ALTER TABLE ADD COLUMN).
-const _listenIdIndex = 'CREATE UNIQUE INDEX IF NOT EXISTS user_categories_uid '
-    'ON user_categories (uid)';
-
 /// Geräteübergreifende id einer eigenen Liste (S.6). `uid` fehlt nur bei einer
 /// Zeile, die die Migration auf Fassung 7 nicht gesehen hat — dann gilt die
 /// alte Form `eigen:<Name>`, genau das, was die Migration dort einträgt.
@@ -250,10 +250,7 @@ class AppDatabase extends _$AppDatabase {
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
-    onCreate: (m) async {
-      await m.createAll();
-      await customStatement(_listenIdIndex); // S.6
-    },
+    onCreate: (m) => m.createAll(),
     onUpgrade: (m, from, to) async {
       // فاز L3-E: EN-Bedeutung für Auswendiglernen-Karten
       if (from < 2) {
@@ -307,7 +304,9 @@ class AppDatabase extends _$AppDatabase {
           "UPDATE user_categories SET uid = 'eigen:#' || lower(hex(randomblob(16))) "
           'WHERE uid IS NULL',
         );
-        await customStatement(_listenIdIndex);
+        // Eindeutigkeit als eigener Index, weil SQLite eine UNIQUE-Spalte
+        // nicht nachträglich hinzufügen kann (ALTER TABLE ADD COLUMN).
+        await m.createIndex(userCategoriesUid);
       }
     },
   );
