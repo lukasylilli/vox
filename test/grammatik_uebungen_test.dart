@@ -12,6 +12,7 @@
 //   · eine Sitzung zählt richtig und zeigt das Ergebnis
 import 'dart:convert';
 import 'dart:io';
+import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -19,6 +20,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:vox/core/l10n/app_l10n.dart';
 import 'package:vox/features/grammatik/controllers/grammatik_lektion_controller.dart';
+import 'package:vox/features/grammatik/models/beispiel_uebungen.dart';
+import 'package:vox/features/grammatik/models/grammatik_lektion.dart';
 import 'package:vox/features/grammatik/models/grammatik_uebung.dart';
 import 'package:vox/features/grammatik/screens/grammatik_uebung_screen.dart';
 import 'package:vox/features/grammatik/widgets/uebung_karte.dart';
@@ -47,7 +50,8 @@ Widget app(Widget kind, {String sprache = 'en', List<Override> overrides = const
 List<int> kaertchenFuerLoesung(GrammatikUebung u) {
   final benutzt = <int>{};
   final out = <int>[];
-  for (final w in GrammatikUebung.satzWoerter(u.loesung)) {
+  final vorgabe = GrammatikUebung.satzWoerter(u.vorgabe).length;
+  for (final w in GrammatikUebung.satzWoerter(u.loesung).skip(vorgabe)) {
     final i = [
       for (var k = 0; k < u.woerter.length; k++)
         if (!benutzt.contains(k) &&
@@ -75,6 +79,29 @@ void main() {
   for (final u in gueltig) {
     (proLektion[u.lektionSlug] ??= []).add(u);
   }
+  final lektionen = [
+    for (final l in lektionenRoh) GrammatikLektion.fromJson(l),
+  ];
+  // G7c: erzeugte Übungen aus Beispielsätzen — mehrere Zufallsläufe, damit
+  // jede Art vorkommt.
+  final erzeugt = [
+    for (final seed in const [1, 2, 3, 4, 5])
+      for (final l in lektionen) ...BeispielUebungen.erzeuge(l, Random(seed)),
+  ];
+
+  bool eigeneLoesungRichtig(GrammatikUebung u) => switch (u.art) {
+        UebungsArt.multipleChoice ||
+        UebungsArt.fillBlank ||
+        UebungsArt.bedeutung ||
+        UebungsArt.satzWahl ||
+        UebungsArt.richtigFalsch =>
+          u.pruefeWahl(u.loesung),
+        UebungsArt.wordOrder => u.pruefeReihenfolge(
+            [for (final i in kaertchenFuerLoesung(u)) u.woerter[i]]),
+        UebungsArt.transform => u.pruefeUmformung(u.loesung),
+        UebungsArt.matching => u.pruefeZuordnung(
+            {for (final p in u.paare) p.links: p.rechts}),
+      };
 
   group('Daten', () {
     test('alle 336 Übungen werden gelesen, keine fällt weg', () {
@@ -138,26 +165,19 @@ void main() {
 
   group('Bewertung', () {
     test('die eigene Lösung jeder Übung ist richtig', () {
-      for (final u in gueltig) {
-        final ok = switch (u.art) {
-          UebungsArt.multipleChoice ||
-          UebungsArt.fillBlank =>
-            u.pruefeWahl(u.loesung),
-          UebungsArt.wordOrder => u.pruefeReihenfolge(
-              [for (final i in kaertchenFuerLoesung(u)) u.woerter[i]]),
-          UebungsArt.transform => u.pruefeUmformung(u.loesung),
-          UebungsArt.matching => u.pruefeZuordnung(
-              {for (final p in u.paare) p.links: p.rechts}),
-        };
-        expect(ok, isTrue, reason: u.id);
+      for (final u in [...gueltig, ...erzeugt]) {
+        expect(eigeneLoesungRichtig(u), isTrue, reason: u.schluessel);
       }
     });
 
     test('falsche Antworten sind falsch', () {
-      for (final u in gueltig) {
+      for (final u in [...gueltig, ...erzeugt]) {
         switch (u.art) {
           case UebungsArt.multipleChoice:
           case UebungsArt.fillBlank:
+          case UebungsArt.bedeutung:
+          case UebungsArt.satzWahl:
+          case UebungsArt.richtigFalsch:
             for (final o in u.optionen.where((o) => o != u.loesung)) {
               expect(u.pruefeWahl(o), isFalse, reason: '${u.id}: $o');
             }
@@ -265,6 +285,111 @@ void main() {
     });
   });
 
+  group('Übungen aus Beispielsätzen (G7c)', () {
+    test('je Beispielsatz genau eine Übung, jede Art kommt vor', () {
+      for (final l in lektionen) {
+        expect(l.examples, isNotEmpty, reason: l.slug);
+        expect(BeispielUebungen.anzahl(l), l.examples.length, reason: l.slug);
+        for (final seed in const [1, 2, 3]) {
+          final liste = BeispielUebungen.erzeuge(l, Random(seed));
+          expect(liste.length, l.examples.length, reason: l.slug);
+          expect(liste.map((u) => u.schluessel).toSet().length, liste.length,
+              reason: '${l.slug}: doppelt');
+          for (final u in liste) {
+            expect(u.ausBeispiel, isTrue);
+            expect(u.lektionSlug, l.slug);
+            expect(u.aufgabeKey, isNotNull);
+            expect(u.beispielDe, isNotEmpty);
+          }
+        }
+      }
+      final arten = erzeugt.map((u) => u.art).toSet();
+      expect(arten, {
+        UebungsArt.bedeutung,
+        UebungsArt.satzWahl,
+        UebungsArt.richtigFalsch,
+        UebungsArt.matching,
+        UebungsArt.wordOrder,
+      });
+      // richtig/falsch kommt in beiden Ausprägungen vor
+      final rf = erzeugt.where((u) => u.art == UebungsArt.richtigFalsch);
+      expect(rf.map((u) => u.loesung).toSet(),
+          {BeispielUebungen.richtig, BeispielUebungen.falsch});
+    });
+
+    test('Zufall wechselt die Arten', () {
+      final l = lektionen.first;
+      final a = BeispielUebungen.erzeuge(l, Random(1)).map((u) => u.art);
+      final b = [
+        for (var s = 2; s < 20; s++)
+          BeispielUebungen.erzeuge(l, Random(s)).map((u) => u.art).toList(),
+      ];
+      expect(b.any((x) => x.toString() != a.toList().toString()), isTrue);
+    });
+
+    test('Wahlmöglichkeiten sind in DE, FA und EN verschieden', () {
+      for (final u in erzeugt.where((u) =>
+          u.art == UebungsArt.bedeutung || u.art == UebungsArt.satzWahl)) {
+        expect(u.optionen.length, 4, reason: u.schluessel);
+        expect(u.optionen.toSet().length, 4, reason: u.schluessel);
+        expect(u.optionen, contains(u.loesung));
+        if (u.art == UebungsArt.bedeutung) {
+          expect(u.optionenFa.toSet().length, 4, reason: u.schluessel);
+          expect(u.optionenEn.toSet().length, 4, reason: u.schluessel);
+          final i = u.optionen.indexOf(u.loesung);
+          expect(u.optionenFa[i], u.beispielFa);
+          expect(u.optionenEn[i], u.beispielEn);
+        }
+      }
+    });
+
+    test('richtig/falsch sagt die Wahrheit', () {
+      for (final u in erzeugt.where((u) => u.art == UebungsArt.richtigFalsch)) {
+        final stimmt =
+            u.bedeutungFa == u.beispielFa && u.bedeutungEn == u.beispielEn;
+        expect(u.loesung,
+            stimmt ? BeispielUebungen.richtig : BeispielUebungen.falsch,
+            reason: u.schluessel);
+        if (!stimmt) {
+          expect(u.bedeutungFa, isNot(u.beispielFa), reason: u.schluessel);
+          expect(u.bedeutungEn, isNot(u.beispielEn), reason: u.schluessel);
+        }
+      }
+    });
+
+    test('Zuordnung: 3 Paare, rechte Seite nie in linker Reihenfolge', () {
+      for (final u in erzeugt.where((u) => u.art == UebungsArt.matching)) {
+        expect(u.paare.length, 3, reason: u.schluessel);
+        expect(u.rechteWerte.toSet(), u.paare.map((p) => p.rechts).toSet());
+        expect(u.rechteWerte, isNot(u.paare.map((p) => p.rechts).toList()),
+            reason: u.schluessel);
+        expect(u.paare.map((p) => p.links), contains(u.beispielDe));
+        expect(u.paare.every((p) => p.rechtsUebersetzt), isTrue);
+      }
+    });
+
+    test('Satzbau: nur einfache Sätze, Anfang vorgegeben, gemischt', () {
+      for (final u in erzeugt.where((u) => u.art == UebungsArt.wordOrder)) {
+        expect(BeispielUebungen.istEinfach(u.loesung), isTrue,
+            reason: u.schluessel);
+        final w = GrammatikUebung.satzWoerter(u.loesung);
+        expect(u.vorgabe, w.first);
+        expect([...u.woerter]..sort(), [...w.skip(1)]..sort());
+        expect(u.woerter.join(' ').toLowerCase(),
+            isNot(w.skip(1).join(' ').toLowerCase()),
+            reason: '${u.schluessel}: nicht gemischt');
+        expect(u.testTauglich, isFalse);
+      }
+      expect(BeispielUebungen.istEinfach('der Tisch → die Tische'), isFalse);
+      expect(BeispielUebungen.istEinfach('Ich sehe einen Hund. Der Hund ist braun.'),
+          isFalse);
+      expect(BeispielUebungen.istEinfach('Er besitzt ein großes Haus. (kein Passiv möglich)'),
+          isFalse);
+      expect(BeispielUebungen.istEinfach('Ich gehe heute ins Kino.'), isTrue);
+      expect(BeispielUebungen.istEinfach('Ich gehe.'), isFalse);
+    });
+  });
+
   group('Bedienung', () {
     Future<bool?> loese(WidgetTester tester, GrammatikUebung u, String sprache) async {
       bool? ergebnis;
@@ -290,11 +415,10 @@ void main() {
       switch (u.art) {
         case UebungsArt.multipleChoice:
         case UebungsArt.fillBlank:
-          await tester.tap(find
-              .descendant(
-                  of: find.byType(OutlinedButton),
-                  matching: find.text(u.loesung))
-              .first);
+        case UebungsArt.bedeutung:
+        case UebungsArt.satzWahl:
+        case UebungsArt.richtigFalsch:
+          await tester.tap(find.byKey(uebungOptionKey(u.loesung)));
         case UebungsArt.wordOrder:
           for (final i in kaertchenFuerLoesung(u)) {
             await tester.tap(find.byKey(ValueKey('frei-$i')));
@@ -326,6 +450,48 @@ void main() {
         for (final u in gueltig) {
           expect(await loese(tester, u, sprache), isTrue, reason: u.id);
         }
+      });
+
+      testWidgets('jede erzeugte Übung lässt sich lösen ($sprache)',
+          (tester) async {
+        tester.view.physicalSize = const Size(900, 6000);
+        tester.view.devicePixelRatio = 1;
+        addTearDown(tester.view.reset);
+        for (final l in lektionen) {
+          for (final u in BeispielUebungen.erzeuge(l, Random(l.slug.length))) {
+            expect(await loese(tester, u, sprache), isTrue,
+                reason: u.schluessel);
+          }
+        }
+        // jede Art einmal ausdrücklich
+        for (final art in UebungsArt.values) {
+          final u = erzeugt.where((x) => x.art == art);
+          if (u.isEmpty) continue;
+          expect(await loese(tester, u.first, sprache), isTrue,
+              reason: '${art.name} ${u.first.schluessel}');
+        }
+      });
+
+      testWidgets('erzeugte Übung: falsche Antwort zeigt Satz und Bedeutung '
+          '($sprache)', (tester) async {
+        final u = erzeugt.firstWhere((x) => x.art == UebungsArt.satzWahl);
+        bool? ergebnis;
+        await tester.pumpWidget(app(
+          Scaffold(
+            body: SingleChildScrollView(
+              child: UebungKarte(uebung: u, onGeprueft: (ok) => ergebnis = ok),
+            ),
+          ),
+          sprache: sprache,
+        ));
+        final falsch = u.optionen.firstWhere((o) => o != u.loesung);
+        await tester.tap(find.byKey(uebungOptionKey(falsch)));
+        await tester.pump();
+        expect(ergebnis, isFalse);
+        final bedeutung = sprache == 'fa' ? u.beispielFa : u.beispielEn;
+        // Bedeutung steht oben als Frage und unten in der Rückmeldung
+        expect(find.text(bedeutung), findsNWidgets(2));
+        expect(tester.takeException(), isNull);
       });
     }
 

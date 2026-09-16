@@ -19,6 +19,7 @@ import 'package:vox/core/l10n/app_l10n.dart';
 import 'package:vox/features/grammatik/controllers/grammatik_lektion_controller.dart';
 import 'package:vox/features/grammatik/models/grammatik_lektion.dart';
 import 'package:vox/features/grammatik/models/grammatik_uebung.dart';
+import 'package:vox/features/grammatik/screens/grammatik_uebung_screen.dart';
 import 'package:vox/features/grammatik/screens/grammatik_lektion_screen.dart';
 
 Map<String, dynamic> lies(String pfad) =>
@@ -153,8 +154,11 @@ void main() {
         expect(find.byType(DataTable), findsNWidgets(lek.tables.length),
             reason: '${lek.slug}: jede Tabelle wird gezeichnet');
         // G7a: Übungsknopf oben und unten, wenn die Lektion Übungen hat
-        final n = uebungen[lek.slug]?.length ?? 0;
-        expect(n, greaterThan(0), reason: '${lek.slug}: keine Übungen');
+        final quelle = uebungen[lek.slug]?.length ?? 0;
+        expect(quelle, greaterThan(0), reason: '${lek.slug}: keine Übungen');
+        // G7c: + je Beispielsatz eine erzeugte Übung
+        final n = uebungenProDurchgang(lek, quelle);
+        expect(n, quelle + lek.examples.length, reason: lek.slug);
         final label = sprache == 'fa'
             ? 'تمرین این درس ($n)'
             : 'Practise this lesson ($n)';

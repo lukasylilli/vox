@@ -22,23 +22,60 @@
 //     Position.
 //   · ids: `ex-komp-1…4` kommen in zwei Lektionen vor ⇒ eindeutig ist nur
 //     [GrammatikUebung.schluessel] (Lektion + id).
+//
+// G7c (2026-09-16): Übungen aus den Beispielsätzen der Lektionen entstehen in
+// beispiel_uebungen.dart und benutzen DIESES Modell ([ausBeispiel] = true),
+// mit drei zusätzlichen Arten (bedeutung · satzWahl · richtigFalsch), die es
+// in der Quelle nicht gibt.
 import 'package:flutter/foundation.dart';
 
-/// Art einer Übung — die Namen sind die `type`-Werte der Quelle.
-enum UebungsArt { multipleChoice, fillBlank, wordOrder, transform, matching }
+/// Art einer Übung. Die ersten fünf sind die `type`-Werte der Quelle; die
+/// letzten drei gibt es nur bei Übungen aus Beispielsätzen (G7c).
+enum UebungsArt {
+  multipleChoice,
+  fillBlank,
+  wordOrder,
+  transform,
+  matching,
+
+  /// Deutscher Satz → richtige Bedeutung wählen (Optionen übersetzt).
+  bedeutung,
+
+  /// Bedeutung → richtigen deutschen Satz wählen.
+  satzWahl,
+
+  /// Passt die gezeigte Bedeutung zum Satz? (Optionen: richtig/falsch)
+  richtigFalsch,
+}
+
+/// Arten, die in der Quelle vorkommen dürfen.
+const _quellArten = {
+  UebungsArt.multipleChoice,
+  UebungsArt.fillBlank,
+  UebungsArt.wordOrder,
+  UebungsArt.transform,
+  UebungsArt.matching,
+};
 
 UebungsArt? _artAus(String? s) {
-  for (final a in UebungsArt.values) {
+  for (final a in _quellArten) {
     if (a.name == s) return a;
   }
   return null;
 }
 
-/// Ein Paar einer Zuordnungsübung.
+/// Ein Paar einer Zuordnungsübung. [rechtsFa]/[rechtsEn]: übersetzte
+/// Anzeige des rechten Werts (G7c: Satz ↔ Bedeutung); leer ⇒ [rechts] zeigen.
 @immutable
 class UebungsPaar {
-  const UebungsPaar({required this.links, required this.rechts});
-  final String links, rechts;
+  const UebungsPaar({
+    required this.links,
+    required this.rechts,
+    this.rechtsFa = '',
+    this.rechtsEn = '',
+  });
+  final String links, rechts, rechtsFa, rechtsEn;
+  bool get rechtsUebersetzt => rechtsFa.isNotEmpty || rechtsEn.isNotEmpty;
 }
 
 @immutable
@@ -61,6 +98,17 @@ class GrammatikUebung {
     this.anweisungFa = '',
     this.anweisungEn = '',
     this.paare = const [],
+    this.ausBeispiel = false,
+    this.aufgabeKey,
+    this.vorgabe = '',
+    this.optionenFa = const [],
+    this.optionenEn = const [],
+    this.bedeutungFa = '',
+    this.bedeutungEn = '',
+    this.beispielDe = '',
+    this.beispielFa = '',
+    this.beispielEn = '',
+    this.rechteReihenfolge = const [],
   });
 
   /// Liest eine Übung der Quelle. Unvollständige oder unbekannte Übungen
@@ -154,6 +202,11 @@ class GrammatikUebung {
           return null;
         }
         return basis._mit(paare: paare);
+      // Nur aus Beispielsätzen (beispiel_uebungen.dart), nie aus der Quelle.
+      case UebungsArt.bedeutung:
+      case UebungsArt.satzWahl:
+      case UebungsArt.richtigFalsch:
+        return null;
     }
   }
 
@@ -221,9 +274,42 @@ class GrammatikUebung {
   /// matching: Paare in Quell-Reihenfolge.
   final List<UebungsPaar> paare;
 
-  /// matching: die verschiedenen rechten Werte, sortiert (Anzeige-Auswahl).
-  List<String> get rechteWerte =>
-      (paare.map((p) => p.rechts).toSet().toList()..sort());
+  // ── G7c: Übungen aus Beispielsätzen ─────────────────────────────────────
+
+  /// Aus einem Beispielsatz erzeugt (nicht aus der Quell-Übungsliste).
+  final bool ausBeispiel;
+
+  /// AppL10n-Schlüssel des Auftrags (statt [aufgabeFa]/[aufgabeEn]).
+  final String? aufgabeKey;
+
+  /// wordOrder: fest vorgegebener Satzanfang (nicht verschiebbar).
+  final String vorgabe;
+
+  /// bedeutung: übersetzte Anzeige zu [optionen] (gleiche Länge).
+  final List<String> optionenFa, optionenEn;
+
+  /// richtigFalsch: die gezeigte (evtl. falsche) Bedeutung.
+  final String bedeutungFa, bedeutungEn;
+
+  /// Der Beispielsatz, aus dem die Übung stammt, mit seiner Bedeutung —
+  /// wird nach dem Prüfen gezeigt.
+  final String beispielDe, beispielFa, beispielEn;
+
+  /// matching: Anzeige-Reihenfolge der rechten Werte (leer ⇒ sortiert).
+  final List<String> rechteReihenfolge;
+
+  /// matching: die verschiedenen rechten Werte (Anzeige-Auswahl).
+  List<String> get rechteWerte => rechteReihenfolge.isNotEmpty
+      ? rechteReihenfolge
+      : (paare.map((p) => p.rechts).toSet().toList()..sort());
+
+  /// Darf in den Niveau-Test (G7b): nur Arten ohne jede Chance, eine richtige
+  /// Antwort als falsch zu werten — also ohne frei getippte Umformung und
+  /// ohne Satzbau aus Beispielsätzen (dort kann es eine zweite richtige
+  /// Wortstellung geben; die Quell-Übungen sind dafür gebaut).
+  bool get testTauglich =>
+      art != UebungsArt.transform &&
+      !(ausBeispiel && art == UebungsArt.wordOrder);
 
   bool get hatErklaerung => erklaerungDe.trim().isNotEmpty;
 
@@ -232,9 +318,9 @@ class GrammatikUebung {
   /// multipleChoice / fillBlank: gewählte Option.
   bool pruefeWahl(String gewaehlt) => gewaehlt == loesung;
 
-  /// wordOrder: gelegte Kärtchen in Reihenfolge.
+  /// wordOrder: gelegte Kärtchen in Reihenfolge (ohne [vorgabe]).
   bool pruefeReihenfolge(List<String> gelegt) =>
-      _gleicheWorte(gelegt, satzWoerter(loesung));
+      _gleicheWorte([...satzWoerter(vorgabe), ...gelegt], satzWoerter(loesung));
 
   /// transform: frei getippter Satz. Streng bis auf Leerzeichen, typografische
   /// Anführungszeichen/Apostrophe und das Satzzeichen am Ende — Groß- und

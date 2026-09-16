@@ -155,8 +155,11 @@ class _UebungsSitzungState extends State<UebungsSitzung> {
         ],
         const SizedBox(height: AppSizes.xl),
         VoxButton.primary(
-          label: AppL10n.t(context,
-              widget.onNochmal == null ? 'uebung_repeat' : 'niveautest_new'),
+          label: AppL10n.t(
+              context,
+              widget.onNochmal != null && widget.bestehensQuote != null
+                  ? 'niveautest_new'
+                  : 'uebung_repeat'),
           icon: Icons.refresh_rounded,
           expand: true,
           onPressed: widget.onNochmal ?? _neuStart,

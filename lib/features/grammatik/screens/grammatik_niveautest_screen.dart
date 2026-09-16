@@ -19,6 +19,7 @@ import '../../../core/l10n/app_l10n.dart';
 import '../../../core/widgets/vox_button.dart';
 import '../../../core/widgets/vox_empty_state.dart';
 import '../controllers/grammatik_lektion_controller.dart';
+import '../models/grammatik_lektion.dart';
 import '../models/grammatik_niveautest.dart';
 import '../models/grammatik_uebung.dart';
 import '../widgets/uebungs_sitzung.dart';
@@ -28,6 +29,8 @@ import '../widgets/uebungs_sitzung.dart';
 typedef _TestDaten = ({
   GrammatikNiveauTest? test,
   List<GrammatikUebung> vorrat,
+  Map<String, GrammatikLektion> lektionen,
+  Map<String, List<GrammatikUebung>> uebungen,
 });
 
 _TestDaten? _testDaten(WidgetRef ref, String niveau) {
@@ -39,9 +42,16 @@ _TestDaten? _testDaten(WidgetRef ref, String niveau) {
   final l = lektionen.valueOrNull;
   final u = uebungen.valueOrNull;
   if (t == null || l == null || u == null) {
-    return (test: t, vorrat: const <GrammatikUebung>[]);
+    return (
+      test: t,
+      vorrat: const <GrammatikUebung>[],
+      lektionen: const <String, GrammatikLektion>{},
+      uebungen: const <String, List<GrammatikUebung>>{},
+    );
   }
-  return (test: t, vorrat: t.vorrat(niveau, l, u));
+  // Ohne Zufall: nur die festen Quell-Übungen — reicht für „gibt es einen
+  // Test?" und die Anzeige der Fragenzahl.
+  return (test: t, vorrat: t.vorrat(niveau, l, u), lektionen: l, uebungen: u);
 }
 
 class GrammatikNiveauTestScreen extends ConsumerStatefulWidget {
@@ -65,7 +75,10 @@ class _GrammatikNiveauTestScreenState
 
   String get _niveau => widget.level.toUpperCase();
 
-  void _starte(GrammatikNiveauTest test, List<GrammatikUebung> vorrat) {
+  void _starte(GrammatikNiveauTest test, _TestDaten daten) {
+    // Mit Zufall: Quell-Übungen + frisch erzeugte aus den Beispielsätzen.
+    final vorrat = test.vorrat(_niveau, daten.lektionen, daten.uebungen,
+        zufall: _zufall);
     setState(() {
       _fragen = test.ziehe(vorrat, _zufall);
       _runde++;
@@ -95,14 +108,14 @@ class _GrammatikNiveauTestScreenState
         niveau: _niveau,
         test: daten.test!,
         anzahl: min(daten.test!.fragenProNiveau, daten.vorrat.length),
-        onStart: () => _starte(daten.test!, daten.vorrat),
+        onStart: () => _starte(daten.test!, daten),
       );
     } else {
       body = UebungsSitzung(
         key: ValueKey('niveautest-$_runde'),
         uebungen: _fragen!,
         bestehensQuote: daten.test!.bestehensQuote,
-        onNochmal: () => _starte(daten.test!, daten.vorrat),
+        onNochmal: () => _starte(daten.test!, daten),
         onZurueck: _zurueck,
       );
     }

@@ -10,13 +10,16 @@
 // Niveau enthalten. Bewusst OHNE `transform`: Dort wird frei getippt und
 // streng verglichen — eine andere richtige Formulierung würde als falsch
 // zählen. Im Üben ist das tragbar (Lösung wird gezeigt), in einem Test mit
-// Bestehensgrenze nicht.
+// Bestehensgrenze nicht. (Regel: GrammatikUebung.testTauglich)
+// G7c: Mit Zufall ([vorrat] zufall:) kommen die Übungen aus den
+// Beispielsätzen dieser Lektionen dazu — ebenfalls nur testtaugliche.
 // Hat ein Niveau weniger Übungen als 10 (C2: nur 3), besteht der Test aus
 // allen vorhandenen — nichts wird aufgefüllt oder erfunden.
 import 'dart:math';
 
 import 'package:flutter/foundation.dart';
 
+import 'beispiel_uebungen.dart';
 import 'grammatik_lektion.dart';
 import 'grammatik_uebung.dart';
 
@@ -52,26 +55,20 @@ class GrammatikNiveauTest {
   /// Großgeschrieben, z. B. `A1`.
   final List<String> niveaus;
 
-  /// Übungsarten, die im Test vorkommen (siehe Kopf: ohne transform).
-  static const testArten = {
-    UebungsArt.multipleChoice,
-    UebungsArt.fillBlank,
-    UebungsArt.wordOrder,
-    UebungsArt.matching,
-  };
-
   bool kennt(String niveau) => niveaus.contains(niveau.toUpperCase());
 
   /// Bestehensgrenze in ganzen Prozent (für die Anzeige).
   int get quoteProzent => (bestehensQuote * 100).round();
 
-  /// Alle Übungen, aus denen für [niveau] gezogen wird — in fester
-  /// Reihenfolge (Lektion nach slug, darin Quell-Reihenfolge).
+  /// Alle Übungen, aus denen für [niveau] gezogen wird — Lektion nach slug,
+  /// darin Quell-Reihenfolge. Ohne [zufall] nur die Quell-Übungen (fest);
+  /// mit [zufall] zusätzlich je Lektion die Übungen aus den Beispielsätzen.
   List<GrammatikUebung> vorrat(
     String niveau,
     Map<String, GrammatikLektion> lektionen,
-    Map<String, List<GrammatikUebung>> uebungen,
-  ) {
+    Map<String, List<GrammatikUebung>> uebungen, {
+    Random? zufall,
+  }) {
     final n = niveau.toUpperCase();
     if (!kennt(n)) return const [];
     final slugs = [
@@ -79,9 +76,13 @@ class GrammatikNiveauTest {
         if (l.levels.map((x) => x.toUpperCase()).contains(n)) l.slug,
     ]..sort();
     return [
-      for (final s in slugs)
+      for (final s in slugs) ...[
         for (final u in uebungen[s] ?? const <GrammatikUebung>[])
-          if (testArten.contains(u.art)) u,
+          if (u.testTauglich) u,
+        if (zufall != null)
+          for (final u in BeispielUebungen.erzeuge(lektionen[s]!, zufall))
+            if (u.testTauglich) u,
+      ],
     ];
   }
 

@@ -71,6 +71,15 @@ class AppL10n {
       'niveautest_new'      : 'آزمون تازه',
       'niveautest_passed'   : 'قبول شدی!',
       'niveautest_failed'   : 'هنوز نه — درس‌ها را مرور کن و دوباره امتحان بده',
+      // فاز G / G7c — تمرین از جمله‌های مثال
+      'bsp_bedeutung'       : 'معنی این جمله چیست؟',
+      'bsp_satzwahl'        : 'کدام جمله این معنی را دارد؟',
+      'bsp_richtigfalsch'   : 'آیا این معنی برای جمله درست است؟',
+      'bsp_zuordnung'       : 'هر جمله را به معنی‌اش وصل کن',
+      'bsp_satzbau'         : 'جمله را بچین — شروعش داده شده',
+      'bsp_true'            : 'بله، درست است',
+      'bsp_false'           : 'نه، درست نیست',
+      'bsp_means'           : 'جمله‌ی درس و معنی‌اش:',
       // فاز S — پشتیبان‌گیری
       'backup_title'        : 'پشتیبان',
       'backup_sub'          : 'یک فایل از پیشرفتت بگیر و هر وقت خواستی برگردان.',
@@ -720,6 +729,15 @@ class AppL10n {
       'niveautest_new'      : 'New test',
       'niveautest_passed'   : 'Passed!',
       'niveautest_failed'   : 'Not yet — review the lessons and try again',
+      // Phase G / G7c — exercises from example sentences
+      'bsp_bedeutung'       : 'What does this sentence mean?',
+      'bsp_satzwahl'        : 'Which sentence has this meaning?',
+      'bsp_richtigfalsch'   : 'Is this the right meaning of the sentence?',
+      'bsp_zuordnung'       : 'Match each sentence to its meaning',
+      'bsp_satzbau'         : 'Build the sentence — the start is given',
+      'bsp_true'            : 'Yes, that\'s right',
+      'bsp_false'           : 'No, that\'s not right',
+      'bsp_means'           : 'The lesson sentence and its meaning:',
       // فاز S — backup
       'backup_title'        : 'Backup',
       'backup_sub'          : 'Save your progress to a file and restore it whenever you need.',

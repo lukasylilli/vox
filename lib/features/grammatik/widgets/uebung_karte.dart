@@ -8,6 +8,8 @@
 // Deutscher Text steht immer links-nach-rechts (auch in der FA-Oberfläche) —
 // sonst würden Kärtchen und Sätze rückwärts angeordnet.
 // [onGeprueft] wird GENAU EINMAL aufgerufen, sobald die Übung bewertet ist.
+// G7c (2026-09-16): auch die Arten aus Beispielsätzen (bedeutung · satzWahl ·
+// richtigFalsch · Satzbau mit Vorgabe · Zuordnung Satz ↔ Bedeutung).
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -16,10 +18,14 @@ import '../../../core/constants/app_sizes.dart';
 import '../../../core/constants/vox_colors.dart';
 import '../../../core/l10n/app_l10n.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../models/beispiel_uebungen.dart';
 import '../models/grammatik_uebung.dart';
 
 /// Schlüssel des „Prüfen"-Knopfs (für Tests).
 const uebungPruefenKey = ValueKey<String>('uebung-pruefen');
+
+/// Schlüssel einer Wahlmöglichkeit (für Tests) — [wert] ist der Options-Wert.
+ValueKey<String> uebungOptionKey(String wert) => ValueKey('option-$wert');
 
 class UebungKarte extends StatefulWidget {
   const UebungKarte({
@@ -87,6 +93,11 @@ class _UebungKarteState extends State<UebungKarte> {
     final cs = theme.colorScheme;
     final u = _u;
     final istWahlFrage = u.art == UebungsArt.multipleChoice;
+    final gross = theme.textTheme.titleMedium
+        ?.copyWith(fontWeight: FontWeight.w700, height: 1.5);
+    final auftrag = u.aufgabeKey != null
+        ? AppL10n.t(context, u.aufgabeKey!)
+        : AppL10n.meaning(context, fa: u.aufgabeFa, en: u.aufgabeEn);
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -97,7 +108,7 @@ class _UebungKarteState extends State<UebungKarte> {
               style: theme.textTheme.bodyMedium
                   ?.copyWith(fontWeight: FontWeight.w600)),
         Text(
-          AppL10n.meaning(context, fa: u.aufgabeFa, en: u.aufgabeEn),
+          auftrag,
           style: theme.textTheme.bodySmall
               ?.copyWith(color: cs.onSurfaceVariant),
         ),
@@ -107,7 +118,29 @@ class _UebungKarteState extends State<UebungKarte> {
         switch (u.art) {
           UebungsArt.multipleChoice ||
           UebungsArt.fillBlank =>
-            _auswahl(context, frage: istWahlFrage ? u.aufgabeDe : u.satz),
+            _auswahl(context,
+                frage: _Deutsch(istWahlFrage ? u.aufgabeDe : u.satz,
+                    style: gross)),
+          UebungsArt.bedeutung =>
+            _auswahl(context, frage: _Deutsch(u.satz, style: gross)),
+          UebungsArt.satzWahl => _auswahl(context,
+              frage: Text(
+                  AppL10n.meaning(context,
+                      fa: u.beispielFa, en: u.beispielEn),
+                  style: gross)),
+          UebungsArt.richtigFalsch => _auswahl(context,
+              frage: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  _Deutsch(u.satz, style: gross),
+                  const SizedBox(height: AppSizes.xs),
+                  Text(
+                    '« ${AppL10n.meaning(context, fa: u.bedeutungFa, en: u.bedeutungEn)} »',
+                    style: theme.textTheme.bodyLarge
+                        ?.copyWith(color: cs.primary),
+                  ),
+                ],
+              )),
           UebungsArt.wordOrder => _reihenfolge(context),
           UebungsArt.transform => _umformung(context),
           UebungsArt.matching => _zuordnen(context),
@@ -122,30 +155,55 @@ class _UebungKarteState extends State<UebungKarte> {
     );
   }
 
-  // ── multipleChoice / fillBlank ──────────────────────────────────────────
+  // ── Auswahl: multipleChoice · fillBlank · bedeutung · satzWahl · r/f ────
 
-  Widget _auswahl(BuildContext context, {required String frage}) {
-    final theme = Theme.of(context);
+  /// Anzeige einer Option: deutscher Wert, übersetzte Bedeutung oder
+  /// richtig/falsch.
+  (String, bool) _optionText(BuildContext context, String o) {
+    final u = _u;
+    if (u.art == UebungsArt.richtigFalsch) {
+      return (
+        AppL10n.t(context,
+            o == BeispielUebungen.richtig ? 'bsp_true' : 'bsp_false'),
+        false,
+      );
+    }
+    final i = u.optionen.indexOf(o);
+    if (u.optionenFa.isNotEmpty && i >= 0) {
+      return (
+        AppL10n.meaning(context, fa: u.optionenFa[i], en: u.optionenEn[i]),
+        false,
+      );
+    }
+    return (o, true);
+  }
+
+  Widget _auswahl(BuildContext context, {required Widget frage}) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        _Deutsch(frage,
-            style: theme.textTheme.titleMedium
-                ?.copyWith(fontWeight: FontWeight.w700, height: 1.5)),
+        frage,
         const SizedBox(height: AppSizes.md),
         for (final o in _optionen)
-          Directionality(
-            textDirection: TextDirection.ltr,
-            child: VoxOptionButton(
-              label: o,
-              state: _zustand(o),
-              onPressed: _richtig != null
-                  ? null
-                  : () {
-                      _gewaehlt = o;
-                      _bewerte(_u.pruefeWahl(o));
-                    },
-            ),
+          KeyedSubtree(
+            key: uebungOptionKey(o),
+            child: Builder(builder: (context) {
+              final (text, deutsch) = _optionText(context, o);
+              final knopf = VoxOptionButton(
+                label: text,
+                state: _zustand(o),
+                onPressed: _richtig != null
+                    ? null
+                    : () {
+                        _gewaehlt = o;
+                        _bewerte(_u.pruefeWahl(o));
+                      },
+              );
+              return deutsch
+                  ? Directionality(
+                      textDirection: TextDirection.ltr, child: knopf)
+                  : knopf;
+            }),
           ),
       ],
     );
@@ -171,11 +229,18 @@ class _UebungKarteState extends State<UebungKarte> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        Text(AppL10n.t(context, 'uebung_order_hint'),
-            style: Theme.of(context)
-                .textTheme
-                .bodySmall
-                ?.copyWith(color: cs.onSurfaceVariant)),
+        if (_u.ausBeispiel)
+          Text(
+            AppL10n.meaning(context, fa: _u.beispielFa, en: _u.beispielEn),
+            style: Theme.of(context).textTheme.titleMedium
+                ?.copyWith(fontWeight: FontWeight.w700, height: 1.5),
+          )
+        else
+          Text(AppL10n.t(context, 'uebung_order_hint'),
+              style: Theme.of(context)
+                  .textTheme
+                  .bodySmall
+                  ?.copyWith(color: cs.onSurfaceVariant)),
         const SizedBox(height: AppSizes.sm),
         Directionality(
           textDirection: TextDirection.ltr,
@@ -195,6 +260,13 @@ class _UebungKarteState extends State<UebungKarte> {
                   spacing: 6,
                   runSpacing: 6,
                   children: [
+                    // fester Satzanfang (G7c) — nicht verschiebbar
+                    if (_u.vorgabe.isNotEmpty)
+                      Chip(
+                        label: Text(_u.vorgabe,
+                            style: const TextStyle(fontWeight: FontWeight.w700)),
+                        backgroundColor: cs.secondaryContainer,
+                      ),
                     for (final i in _gelegt)
                       ActionChip(
                         key: ValueKey('gelegt-$i'),
@@ -252,6 +324,16 @@ class _UebungKarteState extends State<UebungKarte> {
         ],
       ],
     );
+  }
+
+  /// Anzeige eines rechten Werts (übersetzt, falls das Paar es vorsieht).
+  String _rechtsText(BuildContext context, String wert) {
+    for (final p in _u.paare) {
+      if (p.rechts == wert && p.rechtsUebersetzt) {
+        return AppL10n.meaning(context, fa: p.rechtsFa, en: p.rechtsEn);
+      }
+    }
+    return wert;
   }
 
   // ── transform ───────────────────────────────────────────────────────────
@@ -346,14 +428,18 @@ class _UebungKarteState extends State<UebungKarte> {
             child: Padding(
               padding: const EdgeInsets.all(AppSizes.sm),
               child: Directionality(
-                textDirection: TextDirection.ltr,
+                // Deutsche Werte links-nach-rechts; übersetzte Bedeutungen
+                // in der Richtung der Oberfläche.
+                textDirection: p.rechtsUebersetzt
+                    ? Directionality.of(context)
+                    : TextDirection.ltr,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Row(
                       children: [
                         Expanded(
-                          child: Text(p.links,
+                          child: _Deutsch(p.links,
                               style: theme.textTheme.bodyLarge
                                   ?.copyWith(fontWeight: FontWeight.w700)),
                         ),
@@ -377,7 +463,7 @@ class _UebungKarteState extends State<UebungKarte> {
                         for (final w in werte)
                           ChoiceChip(
                             key: ValueKey('wahl-$pi-$w'),
-                            label: Text(w),
+                            label: Text(_rechtsText(context, w)),
                             selected: fertig
                                 ? w == p.rechts
                                 : _zuordnung[p.links] == w,
@@ -424,6 +510,7 @@ class _Rueckmeldung extends StatelessWidget {
     // Bei Auswahl und Zuordnung ist die Lösung schon markiert; bei
     // Satzbau und Umformung wird sie hier ausgeschrieben.
     final zeigeLoesung = !richtig &&
+        !uebung.ausBeispiel &&
         (uebung.art == UebungsArt.wordOrder ||
             uebung.art == UebungsArt.transform);
 
@@ -459,6 +546,19 @@ class _Rueckmeldung extends StatelessWidget {
             _Deutsch(uebung.loesung,
                 style: theme.textTheme.bodyLarge
                     ?.copyWith(fontWeight: FontWeight.w700)),
+          ],
+          if (uebung.ausBeispiel && uebung.beispielDe.isNotEmpty) ...[
+            const SizedBox(height: AppSizes.sm),
+            Text(AppL10n.t(context, 'bsp_means'),
+                style: theme.textTheme.labelMedium),
+            _Deutsch(uebung.beispielDe,
+                style: theme.textTheme.bodyLarge
+                    ?.copyWith(fontWeight: FontWeight.w700)),
+            Text(
+              AppL10n.meaning(context,
+                  fa: uebung.beispielFa, en: uebung.beispielEn),
+              style: theme.textTheme.bodyMedium,
+            ),
           ],
           if (uebung.hatErklaerung) ...[
             const SizedBox(height: AppSizes.sm),

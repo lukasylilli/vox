@@ -12,6 +12,7 @@ import '../../../core/constants/app_sizes.dart';
 import '../../../core/l10n/app_l10n.dart';
 import '../../../core/widgets/vox_button.dart';
 import '../../../core/widgets/vox_empty_state.dart';
+import 'grammatik_uebung_screen.dart';
 import '../controllers/grammatik_lektion_controller.dart';
 import '../models/grammatik_lektion.dart';
 
@@ -121,10 +122,12 @@ class _UebungStart extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final n = ref.watch(grammatikLektionUebungenProvider(slug))
-            .valueOrNull
-            ?.length ??
-        0;
+    final quelle = ref.watch(grammatikLektionUebungenProvider(slug)).valueOrNull;
+    final lek = ref.watch(grammatikLektionProvider(slug)).valueOrNull;
+    // G7c: Quell-Übungen + je Beispielsatz eine erzeugte
+    final n = quelle == null || lek == null
+        ? 0
+        : uebungenProDurchgang(lek, quelle.length);
     if (n == 0) return const SizedBox.shrink();
     final label = AppL10n.tf(context, 'uebung_start', {'n': '$n'});
     void los() => context.push(AppRoutes.grammatikLektionUebung(slug));

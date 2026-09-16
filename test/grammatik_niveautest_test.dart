@@ -124,6 +124,22 @@ void main() {
       expect(niveauTest.vorrat('X9', lektionen, uebungen), isEmpty);
     });
 
+    test('mit Zufall: Beispiel-Übungen dazu, aber kein Satzbau daraus (G7c)', () {
+      for (final n in niveauTest.niveaus) {
+        final fest = niveauTest.vorrat(n, lektionen, uebungen);
+        final mit = niveauTest.vorrat(n, lektionen, uebungen, zufall: Random(3));
+        final erzeugt = mit.where((u) => u.ausBeispiel).toList();
+        expect(mit.length, fest.length + erzeugt.length, reason: n);
+        expect(erzeugt, isNotEmpty, reason: n);
+        for (final u in erzeugt) {
+          expect(u.art, isNot(UebungsArt.wordOrder), reason: u.schluessel);
+          expect(lektionen[u.lektionSlug]!.levels, contains(n));
+        }
+        expect(mit.map((u) => u.schluessel).toSet().length, mit.length,
+            reason: '$n: doppelt');
+      }
+    });
+
     test('ein Durchgang: höchstens 10, keine doppelt, zufällig', () {
       final a1 = niveauTest.vorrat('A1', lektionen, uebungen);
       final eins = niveauTest.ziehe(a1, Random(1));
