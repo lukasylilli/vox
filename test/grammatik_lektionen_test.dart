@@ -57,7 +57,7 @@ void main() {
   test('Lektionen und Katalog passen zusammen', () {
     for (final slug in lektionen.keys) {
       expect(katalog.containsKey(slug), isTrue, reason: '$slug fehlt im Katalog');
-      expect(katalog[slug]['route'], isNotNull, reason: '$slug ist nicht erreichbar');
+      expect(katalog[slug]!['route'], isNotNull, reason: '$slug ist nicht erreichbar');
     }
     for (final e in katalog.values) {
       final route = e['route'] as String?;
