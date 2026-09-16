@@ -11,9 +11,14 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:vox/core/l10n/app_l10n.dart';
 import 'package:vox/features/grammatik/controllers/grammatik_lektion_controller.dart';
 import 'package:vox/features/grammatik/models/grammatik_lektion.dart';
+import 'package:vox/features/grammatik/screens/grammatik_lektion_screen.dart';
 
 Map<String, dynamic> lies(String pfad) =>
     jsonDecode(File(pfad).readAsStringSync()) as Map<String, dynamic>;
@@ -103,4 +108,41 @@ void main() {
           reason: '${l.slug}: leeres Textfeld');
     }
   });
+
+  // Jede Lektion wirklich zeichnen — in beiden Sprachen. Genau hier stürzte
+  // vorher „verb-sein" ab. Die Fläche ist sehr hoch, damit die Liste ALLE
+  // Tabellen und Beispiele baut (ListView baut sonst nur Sichtbares).
+  for (final sprache in const ['en', 'fa']) {
+    testWidgets('alle 84 Lektionen zeichnen ohne Fehler ($sprache)',
+        (tester) async {
+      tester.view.physicalSize = const Size(1400, 60000);
+      tester.view.devicePixelRatio = 1;
+      addTearDown(tester.view.reset);
+
+      for (final lek in lektionen.values) {
+        await tester.pumpWidget(ProviderScope(
+          key: ValueKey('${lek.slug}-$sprache'),
+          overrides: [
+            grammatikLektionenProvider.overrideWith((ref) async => lektionen),
+          ],
+          child: MaterialApp(
+            locale: Locale(sprache),
+            supportedLocales: AppL10n.supportedLocales,
+            localizationsDelegates: const [
+              GlobalMaterialLocalizations.delegate,
+              GlobalWidgetsLocalizations.delegate,
+              GlobalCupertinoLocalizations.delegate,
+            ],
+            home: GrammatikLektionScreen(slug: lek.slug),
+          ),
+        ));
+        await tester.pump();
+        await tester.pump();
+        expect(tester.takeException(), isNull, reason: lek.slug);
+        expect(find.text(lek.titleDe), findsWidgets, reason: lek.slug);
+        expect(find.byType(DataTable), findsNWidgets(lek.tables.length),
+            reason: '${lek.slug}: jede Tabelle wird gezeichnet');
+      }
+    });
+  }
 }
