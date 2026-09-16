@@ -16,7 +16,7 @@
 ## 🎯 وضعیت فعلی (2026-09-15)
 | فاز | وضعیت | خلاصه |
 |-----|-------|-------|
-| **G — Grammatik Vollausbau** | G1–G6 ✅ / G7–G8 باز | کاتالوگ ۹۳ موضوع + LektionScreen live (**۸۴ درس**، 2026-09-16)؛ نقشه: `GRAMMATIK_MAP.md` |
+| **G — Grammatik Vollausbau** | G1–G6 ✅ · G7a ✅ / G7b–G8 باز | کاتالوگ ۹۳ موضوع + LektionScreen live (**۸۴ درس**، 2026-09-16)؛ نقشه: `GRAMMATIK_MAP.md` |
 | **B — Buttons (Puzzling)** | ✅ | همه دکمه‌ها reference به `vox_button.dart`؛ ۰ دکمه خام؛ همه quiz options → VoxOptionButton |
 | **L — L10n: زبان فقط از Settings** | ✅ | ۶ سوییچ حذف، Dual-Display صفر، AppL10n تنها منبع |
 | **L2 — Massen-Lokalisierung** | ✅ | ۶۴۱→۴۱ رشته FA در UI (کاتالوگ ۵۳۷=۵۳۷)؛ باقی در L3 |
@@ -24,6 +24,7 @@
 | **V — Vokabular-DB (۲۵٬۰۰۰ کلمه)** | Stufen ۱–۵ ✅ · **۸۷ کارت** (۰٫۳٪ از ~۲۶٬۲۰۰) · گلوگاه = سرعت، نه کد | Pipeline کامل و سالم: SUPER-PROMPT v3.0 → `import_inbox/` → `tool/vokabular_import.dart` → اپ. از ۱۴ جولای تا ۱۵ سپتامبر (۲ ماه) فقط چند کلمه اضافه شد ⇒ **فاز A (خودکارسازی) باز شد.** V.2 ✅ (فهرست کلمات به‌جای vocab.db، 2026-09-16) · باز: · اتصال Leitner به imLeitner · V.5 توزیع |
 | ۱۶ — انتشار و QA نهایی | باز | آخرین فاز قبل از launch |
 
+**2026-09-16:** G7a ✅ تمرین‌ها: هر درس گرامر حالا دکمه‌ی «تمرین این درس» دارد — ۳۳۶ تمرین منبع (۵ نوع)، یکی‌یکی با جواب و توضیح، در آخر نتیجه.
 **2026-09-16:** L.3a ✅ زبان شروع = انگلیسی، مگر دستگاه فارسی باشد.
 **2026-09-16:** L.2c ✅ گرامر: هر ۸۴ درس اصلی زنده‌اند (G3–G6) — منبع برخلاف یادداشت قبلی کامل بود؛ بدون تغییر محتوا وارد شد. یک خطای نمایش جدول در درس‌های sein/haben هم رفع شد.
 **2026-09-16:** L.1b ✅ آزمون به‌روزرسانی: هر نسخه‌ی منتشرشده‌ی پایگاه‌داده (۲ تا ۶) با داده‌ی واقعی لایتنر به نسخه‌ی ۷ رسانده و بررسی می‌شود — ساختار دقیقاً مثل نصب تازه، لایتنر/لیست‌ها سالم. آزمون عمدی خراب ⇒ قرمز شد.
@@ -135,6 +136,7 @@
       کلمه‌ها) که به جای‌خالی یا انواع دیگر تمرین تبدیل می‌شوند. تمرین‌های ساخته‌شده از کارت کلمه‌ها **بعد از** تمام شدن کلمه‌ها.
       اجرا: فاز G → **G7a** (تمرین‌های منبع در هر درس) · **G7b** (آزمون هر سطح) · **G7c** (تمرین از جمله‌های مثال) ·
       **G7d** (تمرین برای ردمیتل و deckهای دیگر).
+      وضعیت: G7a ✅ (2026-09-16) · G7b/G7c/G7d باز.
 - [ ] **L.2d deckهای «به‌زودی» بدون محتوا:** relativsatz · da_praepositionen · adjektive ·
       adjektivdeklination · tempusformen (⚠️ `tempusformen_grammar.json` موجود است ولی deck خاموش) ·
       oesd_c1 · zusammenfassung · a2_zusammenfassung · feature.sprechen · feature.schreiben
@@ -829,12 +831,22 @@ lib/core/services/
       · تست: `test/grammatik_lektionen_test.dart` — فایل‌ها ↔ فهرست، درس ↔ کاتالوگ، جدول‌ها قابل‌نمایش، سه‌زبانه،
         و **رسم واقعی هر ۸۴ درس در EN و FA** بدون خطا (همه‌ی جدول‌ها کشیده می‌شوند).
 - [ ] **G7** تمرین‌ها — **قبل از انتشار** (تصمیم Lukas، L.2e). مراحل:
-  - [ ] **G7a** ۳۳۶ تمرین منبع (۵ نوع: multipleChoice ۸۵ · fillBlank ۸۲ · wordOrder ۶۷ · transform ۵۱ · matching ۵۱) در هر درس.
+  - [x] **G7a** ✅ (2026-09-16، CI سبز روی شاخه + ساخت وب) ۳۳۶ تمرین منبع (۵ نوع: multipleChoice ۸۵ · fillBlank ۸۲ · wordOrder ۶۷ · transform ۵۱ · matching ۵۱) در هر درس.
         یافته‌های داده (بدون تغییر منبع، در منطق بررسی جذب می‌شوند): `alternatives` در fillBlank همیشه **گزینه‌ی غلط** است
         (۸۲/۸۲، هیچ‌کدام برابر جواب نیست) ⇒ fillBlank = انتخاب بین جواب + alternatives · ۴ wordOrder تکه‌ی اضافی دارند
         (`ex-interr-4` «am»، `ex-indefpron-4` «dem»، `ex-waehrend-4` یک «er»، `ex-genitiv-4` «Wir» با حرف بزرگ) ⇒ تکه‌ی
         بی‌استفاده مجاز، مقایسه بدون حروف بزرگ/کوچک و بدون علامت‌ها · ۷ matching جواب تکراری دارند ⇒ برای هر مورد چپ از
         فهرست جواب‌های **یکتا** انتخاب می‌شود.
+        · **یافته‌ی دیگر (در CI پیدا شد):** شناسه‌های `ex-komp-1…4` دو بار در منبع آمده‌اند (درس komparativ-superlativ و
+        درس komposita) ⇒ کلید یکتا = درس + شناسه (`GrammatikUebung.schluessel`)؛ داده دست نخورد.
+        · فایل‌ها: `models/grammatik_uebung.dart` (مدل + **تنها** جای بررسی جواب) · `widgets/uebung_karte.dart` (نمایش ۵ نوع؛
+          متن آلمانی همیشه چپ‌به‌راست) · `widgets/uebungs_sitzung.dart` (پشت‌سرهم + نتیجه؛ برای G7b هم) ·
+          `screens/grammatik_uebung_screen.dart` · route `/grammatik/lektion/:slug/uebung` (`AppRoutes.grammatikLektionUebung`) ·
+          دکمه‌ی بالا/پایین در `grammatik_lektion_screen.dart` · `grammatik_lektion_controller.dart` (`grammatikUebungenProvider`) ·
+          ۱۰ کلید `uebung_*` در `app_l10n.dart` · `VoxButton` حالا `key` می‌پذیرد (برای تست).
+        · transform سخت بررسی می‌شود (فقط فاصله/گیومه/علامت آخر مهم نیست)؛ «نمایش جواب» = غلط. نتیجه‌ها **ذخیره نمی‌شوند**
+          (تمرین است، نه پیشرفت) — اگر «سطح گذرانده شد» باید بماند، در G7b از راه داده‌ی کاربر (فاز S).
+        · تست: `test/grammatik_uebungen_test.dart` + دکمه در `grammatik_lektionen_test.dart` + کلیدها در `l10n_paritaet_test.dart`.
   - [ ] **G7b** آزمون ترکیبی هر سطح — منبع: دو سند «پیکربندی» در `Grammatik` (۱۰ سؤال، حد قبولی ۷۰٪، A1–C2).
   - [ ] **G7c** تمرین از جمله‌های مثال درس‌ها (فقط شکل‌هایی که بی‌حدس درست‌اند).
   - [ ] **G7d** تمرین برای ردمیتل و deckهای دیگر.

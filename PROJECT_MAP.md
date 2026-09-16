@@ -29,6 +29,7 @@
 #   باز: ÖSD C1 (۶ عبارت، بدون منبع) · A1/A2 Wortschatz (۱٬۰۶۳ کلمه در old files/1، در اپ استفاده نشده) ·
 #   deckهای «به‌زودی» در core/services/feature_flags.dart (Lukas منبع هر کدام را یکی‌یکی می‌فرستد)
 #   🧩 L.2e/G7 (تصمیم Lukas 2026-09-16): تمرین‌ها قبل از انتشار — گرامر → تمرین (گرامر، ردمیتل…) → انتشار → کلمه‌ها → تمرین کلمه‌ها
+#     ✅ G7a (2026-09-16): ۳۳۶ تمرین منبع در هر درس — /grammatik/lektion/:slug/uebung · باز: G7b آزمون سطح · G7c از مثال‌ها · G7d ردمیتل
 #   L.2b: A1/A2 Wortschatz = جزو فاز کلمه‌ها؛ قبل از انتشار فقط چند کارت نمونه از هر نوع
 #   Lukas: «منابع همه‌چیز با من، برنامه‌نویسی با تو» ⇒ برای محتوا (گرامر، deckها، …) منبع را از او بخواه.
 #   ⛔ استثنا: کارت‌های کلمه را همیشه Claude طبق «old files Lukasalmani/Wort prompt» می‌سازد — تبدیل منابع Lukas رد شد (2026-09-16).
@@ -160,6 +161,7 @@ constants/
 ```
 widgets/
   vox_button.dart         [x]  — ⭐ بازنویسی کامل (فاز B — 2026-07-07): تنها منبع همه دکمه‌ها
+                                 (G7a 2026-09-16: همه‌ی factoryها پارامتر اختیاری `key` دارند — برای تست)
                                  اصل Puzzling: هیچ screen ای کد دکمه ندارد — فقط reference
                                  همه variant ها روی System-Widgets متریال (آپدیت خودکار با فریمورک):
                                  VoxButton: primary/tonal/secondary/text/success/destructive/
@@ -517,6 +519,10 @@ widgets/
 > ⭐ نقشه کامل بخش گرامر: **GRAMMATIK_MAP.md** (کاتالوگ ۹۳ موضوع، ۴ نمای مرتب‌سازی، Stufenplan G1–G8)
 ```
 models/
+  grammatik_uebung.dart        [x]  — G7a: GrammatikUebung (۵ نوع منبع) + **تنها جای بررسی جواب**
+                                      (pruefeWahl/Reihenfolge/Umformung/Zuordnung). ausJson ⇒ null برای ناقص.
+                                      ⚠️ id در منبع یکتا نیست (ex-komp-1…4 دو بار) ⇒ کلید = schluessel (درس/id).
+                                      fillBlank.alternatives = گزینه‌ی غلط · wordOrder: تکه‌ی اضافه مجاز، بدون حروف بزرگ
   grammar_catalog.dart         [x]  — G1: GrammatikKatalog/KatalogEintrag/KatalogThema/KatalogSatzglied
                                       + icon/color per Thema، byNiveau/byThema/bySatzglied/lektionen
   grammar_topic.dart           [x]  — GrammarTopicSection + Register (grammarTopics)
@@ -530,6 +536,9 @@ screens/
                                       (فهرست grammatikContentFiles، ۱۷ فایل). **۸۴ درس live** (G3–G6، 2026-09-16).
                                       ⚠️ GrammatikTable.fromJson دو شکل «columns» منبع را یکی می‌کند؛ istStimmig.
                                       تست: test/grammatik_lektionen_test.dart (رسم هر ۸۴ درس در EN/FA).
+  grammatik_uebung_screen.dart [x]  — G7a (2026-09-16): route /grammatik/lektion/:slug/uebung — UebungsSitzung
+                                      با تمرین‌های همان درس (grammatikLektionUebungenProvider). دکمه‌ی ورود
+                                      «تمرین این درس (n)» بالا و پایین grammatik_lektion_screen (_UebungStart).
   grammatik_katalog_screen.dart[x]  — G1: صفحه پارامتریک /grammatik/katalog/:view/:key
                                       niveau/satzglied → گروه‌بندی بر اساس Thema · thema → flat
                                       + کارت «Lektionen & Übungen» → /grammatik/:level (سیستم DB قدیم)
@@ -538,6 +547,11 @@ screens/
                                       bottom bar: تمرین→exercise، آزمون→quiz (اگر exercises.isNotEmpty)
   grammar_exercise_screen.dart [x]  — ListView.separated همه تمرین‌ها، number circle + hint
   grammar_quiz_screen.dart     [x]  — یک تمرین در هر بار، _OptionButton feedback، QuizResultWidget
+widgets/ (G7a)
+  uebung_karte.dart            [x]  — UebungKarte: یک تمرین، ۵ نوع (VoxOptionButton / ActionChip / TextField /
+                                      ChoiceChip)، بازخورد + توضیح؛ آلمانی همیشه LTR؛ onGeprueft دقیقاً یک بار
+  uebungs_sitzung.dart         [x]  — UebungsSitzung: پیشرفت، «بعدی»، نتیجه + «دوباره»/«برگشت»؛
+                                      bestehensQuote اختیاری (برای G7b). نتیجه ذخیره نمی‌شود.
 controllers/
   grammar_catalog_controller.dart [x] — G1: grammatikKatalogProvider (asset) +
                                       grammatikSortModeProvider (StateNotifier، persist در
