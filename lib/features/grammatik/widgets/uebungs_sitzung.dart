@@ -6,6 +6,8 @@
 //          „Nochmal" und „Zurück". Wiederverwendbar — G7b (Niveau-Test)
 //          nutzt dieselbe Sitzung mit einer anderen Übungsliste.
 //
+// G7b (2026-09-16): optional Bestehensgrenze + „neuer Test" (onNochmal).
+//
 // Ergebnisse werden bewusst NICHT gespeichert: Übungen sind Training, kein
 // Lernstand. Was davon dauerhaft sein soll (z. B. „Niveau bestanden"),
 // entscheidet G7b — dann über die Nutzerdaten (فاز S), nicht hier.
@@ -27,6 +29,7 @@ class UebungsSitzung extends StatefulWidget {
     required this.uebungen,
     required this.onZurueck,
     this.bestehensQuote,
+    this.onNochmal,
   });
 
   final List<GrammatikUebung> uebungen;
@@ -34,6 +37,10 @@ class UebungsSitzung extends StatefulWidget {
 
   /// Optional (G7b): Anteil richtiger Antworten zum Bestehen, z. B. 0.7.
   final double? bestehensQuote;
+
+  /// Optional (G7b): statt dieselben Übungen zu wiederholen, zieht der
+  /// Aufrufer neue (Niveau-Test). Er baut die Sitzung dann mit neuem Key auf.
+  final VoidCallback? onNochmal;
 
   @override
   State<UebungsSitzung> createState() => _UebungsSitzungState();
@@ -137,12 +144,22 @@ class _UebungsSitzungState extends State<UebungsSitzung> {
           style: theme.textTheme.headlineSmall
               ?.copyWith(fontWeight: FontWeight.w700, color: farbe),
         ),
+        if (bestanden != null) ...[
+          const SizedBox(height: AppSizes.sm),
+          Text(
+            AppL10n.t(context,
+                bestanden ? 'niveautest_passed' : 'niveautest_failed'),
+            textAlign: TextAlign.center,
+            style: theme.textTheme.titleMedium?.copyWith(color: farbe),
+          ),
+        ],
         const SizedBox(height: AppSizes.xl),
         VoxButton.primary(
-          label: AppL10n.t(context, 'uebung_repeat'),
+          label: AppL10n.t(context,
+              widget.onNochmal == null ? 'uebung_repeat' : 'niveautest_new'),
           icon: Icons.refresh_rounded,
           expand: true,
-          onPressed: _neuStart,
+          onPressed: widget.onNochmal ?? _neuStart,
         ),
         const SizedBox(height: AppSizes.sm),
         VoxButton.secondary(

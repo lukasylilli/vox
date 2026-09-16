@@ -13,6 +13,7 @@ import '../../features/grammatik/screens/grammar_quiz_screen.dart';
 import '../../features/grammatik/screens/grammatik_home_screen.dart';
 import '../../features/grammatik/screens/grammatik_katalog_screen.dart';
 import '../../features/grammatik/screens/grammatik_lektion_screen.dart';
+import '../../features/grammatik/screens/grammatik_niveautest_screen.dart';
 import '../../features/grammatik/screens/grammatik_uebung_screen.dart';
 import '../../features/grammatik/screens/lesson_detail_screen.dart';
 import '../../features/grammatik/screens/level_lessons_screen.dart';
@@ -261,6 +262,12 @@ final appRouter = GoRouter(
                   slug: state.pathParameters['slug']!),
             ),
           ],
+        ),
+        // G7b: vor ':level' registrieren
+        GoRoute(
+          path   : 'quiz-niveau/:level',
+          builder: (ctx, state) => GrammatikNiveauTestScreen(
+              level: state.pathParameters['level']!),
         ),
         GoRoute(
           path   : ':level',

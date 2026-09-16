@@ -28,6 +28,13 @@ void main() {
     'uebung_match_hint',
     'uebung_order_hint',
     'uebung_wrong_answer',
+    // G7b — Niveau-Test
+    'niveautest_title',
+    'niveautest_sub',
+    'niveautest_start',
+    'niveautest_new',
+    'niveautest_passed',
+    'niveautest_failed',
     'section_storage',
     'storage_ok_title',
     'storage_ok_sub',

@@ -64,6 +64,13 @@ class AppL10n {
       'uebung_match_hint'   : 'برای هر مورد جواب درست را انتخاب کن',
       'uebung_order_hint'   : 'روی کلمه‌ها بزن تا جمله ساخته شود (ممکن است کلمه‌ای اضافه باشد)',
       'uebung_wrong_answer' : 'درست نبود',
+      // فاز G / G7b — آزمون سطح
+      'niveautest_title'    : 'آزمون سطح {x}',
+      'niveautest_sub'      : '{n} سؤال تصادفی از درس‌های {x} — قبولی از {p}٪',
+      'niveautest_start'    : 'شروع آزمون',
+      'niveautest_new'      : 'آزمون تازه',
+      'niveautest_passed'   : 'قبول شدی!',
+      'niveautest_failed'   : 'هنوز نه — درس‌ها را مرور کن و دوباره امتحان بده',
       // فاز S — پشتیبان‌گیری
       'backup_title'        : 'پشتیبان',
       'backup_sub'          : 'یک فایل از پیشرفتت بگیر و هر وقت خواستی برگردان.',
@@ -706,6 +713,13 @@ class AppL10n {
       'uebung_match_hint'   : 'Choose the right answer for each item',
       'uebung_order_hint'   : 'Tap the words to build the sentence (one word may be extra)',
       'uebung_wrong_answer' : 'Not quite',
+      // Phase G / G7b — level test
+      'niveautest_title'    : 'Level test {x}',
+      'niveautest_sub'      : '{n} random questions from the {x} lessons — pass mark {p}%',
+      'niveautest_start'    : 'Start the test',
+      'niveautest_new'      : 'New test',
+      'niveautest_passed'   : 'Passed!',
+      'niveautest_failed'   : 'Not yet — review the lessons and try again',
       // فاز S — backup
       'backup_title'        : 'Backup',
       'backup_sub'          : 'Save your progress to a file and restore it whenever you need.',

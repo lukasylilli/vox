@@ -35,6 +35,9 @@ class AppRoutes {
 
   /// Lektion-Content-Screen (G2)
   static String grammatikLektion(String slug) => '/grammatik/lektion/$slug';
+  /// G7b: kombinierter Niveau-Test (level = a1…c2).
+  static String grammatikNiveauTest(String level) =>
+      '/grammatik/quiz-niveau/${level.toLowerCase()}';
   /// G7a: Übungen einer Lektion.
   static String grammatikLektionUebung(String slug) =>
       '/grammatik/lektion/$slug/uebung';

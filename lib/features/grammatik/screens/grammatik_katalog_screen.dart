@@ -13,6 +13,7 @@ import '../../../core/constants/vox_colors.dart';
 import '../controllers/grammar_catalog_controller.dart';
 import '../models/grammar_catalog.dart';
 import '../widgets/katalog_eintrag_tile.dart';
+import 'grammatik_niveautest_screen.dart';
 import '../../../core/l10n/app_l10n.dart';
 
 class GrammatikKatalogScreen extends ConsumerWidget {
@@ -56,6 +57,8 @@ class GrammatikKatalogScreen extends ConsumerWidget {
           body: ListView(
             padding: const EdgeInsets.all(AppSizes.md),
             children: [
+              // G7b: Niveau-Test oben in der Niveau-Ansicht
+              if (view == 'niveau') NiveauTestKarte(level: keyId),
               // Thema-Ansicht: flache Liste · sonst nach Thema gruppiert
               if (view == 'thema')
                 ...eintraege.map((e) => KatalogEintragTile(eintrag: e))

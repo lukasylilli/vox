@@ -9,6 +9,7 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../models/grammatik_lektion.dart';
+import '../models/grammatik_niveautest.dart';
 import '../models/grammatik_uebung.dart';
 
 /// Content-JSON-Dateien pro Thema — alle 17 Dateien der Quelle
@@ -92,4 +93,17 @@ final grammatikLektionUebungenProvider =
     FutureProvider.family<List<GrammatikUebung>, String>((ref, slug) async {
   final all = await ref.watch(grammatikUebungenProvider.future);
   return all[slug] ?? const [];
+});
+
+/// G7b: Einstellungen des Niveau-Tests (null ⇒ kein Test anbieten).
+const grammatikNiveauTestDatei = 'assets/data/grammatik_niveautest.json';
+
+final grammatikNiveauTestProvider =
+    FutureProvider<GrammatikNiveauTest?>((ref) async {
+  try {
+    final raw = await rootBundle.loadString(grammatikNiveauTestDatei);
+    return GrammatikNiveauTest.ausJson(jsonDecode(raw) as Map<String, dynamic>);
+  } catch (_) {
+    return null;
+  }
 });
