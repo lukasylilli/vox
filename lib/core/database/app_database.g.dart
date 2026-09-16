@@ -1517,8 +1517,28 @@ class $UserCategoriesTable extends UserCategories
     type: DriftSqlType.string,
     requiredDuringInsert: true,
   );
+  static const VerificationMeta _uidMeta = const VerificationMeta('uid');
   @override
-  List<GeneratedColumn> get $columns => [id, name];
+  late final GeneratedColumn<String> uid = GeneratedColumn<String>(
+    'uid',
+    aliasedName,
+    true,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+  );
+  static const VerificationMeta _nameAmMsMeta = const VerificationMeta(
+    'nameAmMs',
+  );
+  @override
+  late final GeneratedColumn<int> nameAmMs = GeneratedColumn<int>(
+    'name_am_ms',
+    aliasedName,
+    true,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+  );
+  @override
+  List<GeneratedColumn> get $columns => [id, name, uid, nameAmMs];
   @override
   String get aliasedName => _alias ?? actualTableName;
   @override
@@ -1542,6 +1562,18 @@ class $UserCategoriesTable extends UserCategories
     } else if (isInserting) {
       context.missing(_nameMeta);
     }
+    if (data.containsKey('uid')) {
+      context.handle(
+        _uidMeta,
+        uid.isAcceptableOrUnknown(data['uid']!, _uidMeta),
+      );
+    }
+    if (data.containsKey('name_am_ms')) {
+      context.handle(
+        _nameAmMsMeta,
+        nameAmMs.isAcceptableOrUnknown(data['name_am_ms']!, _nameAmMsMeta),
+      );
+    }
     return context;
   }
 
@@ -1559,6 +1591,14 @@ class $UserCategoriesTable extends UserCategories
         DriftSqlType.string,
         data['${effectivePrefix}name'],
       )!,
+      uid: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}uid'],
+      ),
+      nameAmMs: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}name_am_ms'],
+      ),
     );
   }
 
@@ -1571,17 +1611,37 @@ class $UserCategoriesTable extends UserCategories
 class UserCategory extends DataClass implements Insertable<UserCategory> {
   final int id;
   final String name;
-  const UserCategory({required this.id, required this.name});
+  final String? uid;
+  final int? nameAmMs;
+  const UserCategory({
+    required this.id,
+    required this.name,
+    this.uid,
+    this.nameAmMs,
+  });
   @override
   Map<String, Expression> toColumns(bool nullToAbsent) {
     final map = <String, Expression>{};
     map['id'] = Variable<int>(id);
     map['name'] = Variable<String>(name);
+    if (!nullToAbsent || uid != null) {
+      map['uid'] = Variable<String>(uid);
+    }
+    if (!nullToAbsent || nameAmMs != null) {
+      map['name_am_ms'] = Variable<int>(nameAmMs);
+    }
     return map;
   }
 
   UserCategoriesCompanion toCompanion(bool nullToAbsent) {
-    return UserCategoriesCompanion(id: Value(id), name: Value(name));
+    return UserCategoriesCompanion(
+      id: Value(id),
+      name: Value(name),
+      uid: uid == null && nullToAbsent ? const Value.absent() : Value(uid),
+      nameAmMs: nameAmMs == null && nullToAbsent
+          ? const Value.absent()
+          : Value(nameAmMs),
+    );
   }
 
   factory UserCategory.fromJson(
@@ -1592,6 +1652,8 @@ class UserCategory extends DataClass implements Insertable<UserCategory> {
     return UserCategory(
       id: serializer.fromJson<int>(json['id']),
       name: serializer.fromJson<String>(json['name']),
+      uid: serializer.fromJson<String?>(json['uid']),
+      nameAmMs: serializer.fromJson<int?>(json['nameAmMs']),
     );
   }
   @override
@@ -1600,15 +1662,28 @@ class UserCategory extends DataClass implements Insertable<UserCategory> {
     return <String, dynamic>{
       'id': serializer.toJson<int>(id),
       'name': serializer.toJson<String>(name),
+      'uid': serializer.toJson<String?>(uid),
+      'nameAmMs': serializer.toJson<int?>(nameAmMs),
     };
   }
 
-  UserCategory copyWith({int? id, String? name}) =>
-      UserCategory(id: id ?? this.id, name: name ?? this.name);
+  UserCategory copyWith({
+    int? id,
+    String? name,
+    Value<String?> uid = const Value.absent(),
+    Value<int?> nameAmMs = const Value.absent(),
+  }) => UserCategory(
+    id: id ?? this.id,
+    name: name ?? this.name,
+    uid: uid.present ? uid.value : this.uid,
+    nameAmMs: nameAmMs.present ? nameAmMs.value : this.nameAmMs,
+  );
   UserCategory copyWithCompanion(UserCategoriesCompanion data) {
     return UserCategory(
       id: data.id.present ? data.id.value : this.id,
       name: data.name.present ? data.name.value : this.name,
+      uid: data.uid.present ? data.uid.value : this.uid,
+      nameAmMs: data.nameAmMs.present ? data.nameAmMs.value : this.nameAmMs,
     );
   }
 
@@ -1616,42 +1691,68 @@ class UserCategory extends DataClass implements Insertable<UserCategory> {
   String toString() {
     return (StringBuffer('UserCategory(')
           ..write('id: $id, ')
-          ..write('name: $name')
+          ..write('name: $name, ')
+          ..write('uid: $uid, ')
+          ..write('nameAmMs: $nameAmMs')
           ..write(')'))
         .toString();
   }
 
   @override
-  int get hashCode => Object.hash(id, name);
+  int get hashCode => Object.hash(id, name, uid, nameAmMs);
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
-      (other is UserCategory && other.id == this.id && other.name == this.name);
+      (other is UserCategory &&
+          other.id == this.id &&
+          other.name == this.name &&
+          other.uid == this.uid &&
+          other.nameAmMs == this.nameAmMs);
 }
 
 class UserCategoriesCompanion extends UpdateCompanion<UserCategory> {
   final Value<int> id;
   final Value<String> name;
+  final Value<String?> uid;
+  final Value<int?> nameAmMs;
   const UserCategoriesCompanion({
     this.id = const Value.absent(),
     this.name = const Value.absent(),
+    this.uid = const Value.absent(),
+    this.nameAmMs = const Value.absent(),
   });
   UserCategoriesCompanion.insert({
     this.id = const Value.absent(),
     required String name,
+    this.uid = const Value.absent(),
+    this.nameAmMs = const Value.absent(),
   }) : name = Value(name);
   static Insertable<UserCategory> custom({
     Expression<int>? id,
     Expression<String>? name,
+    Expression<String>? uid,
+    Expression<int>? nameAmMs,
   }) {
     return RawValuesInsertable({
       if (id != null) 'id': id,
       if (name != null) 'name': name,
+      if (uid != null) 'uid': uid,
+      if (nameAmMs != null) 'name_am_ms': nameAmMs,
     });
   }
 
-  UserCategoriesCompanion copyWith({Value<int>? id, Value<String>? name}) {
-    return UserCategoriesCompanion(id: id ?? this.id, name: name ?? this.name);
+  UserCategoriesCompanion copyWith({
+    Value<int>? id,
+    Value<String>? name,
+    Value<String?>? uid,
+    Value<int?>? nameAmMs,
+  }) {
+    return UserCategoriesCompanion(
+      id: id ?? this.id,
+      name: name ?? this.name,
+      uid: uid ?? this.uid,
+      nameAmMs: nameAmMs ?? this.nameAmMs,
+    );
   }
 
   @override
@@ -1663,6 +1764,12 @@ class UserCategoriesCompanion extends UpdateCompanion<UserCategory> {
     if (name.present) {
       map['name'] = Variable<String>(name.value);
     }
+    if (uid.present) {
+      map['uid'] = Variable<String>(uid.value);
+    }
+    if (nameAmMs.present) {
+      map['name_am_ms'] = Variable<int>(nameAmMs.value);
+    }
     return map;
   }
 
@@ -1670,7 +1777,9 @@ class UserCategoriesCompanion extends UpdateCompanion<UserCategory> {
   String toString() {
     return (StringBuffer('UserCategoriesCompanion(')
           ..write('id: $id, ')
-          ..write('name: $name')
+          ..write('name: $name, ')
+          ..write('uid: $uid, ')
+          ..write('nameAmMs: $nameAmMs')
           ..write(')'))
         .toString();
   }
@@ -7012,9 +7121,19 @@ typedef $$WordBooksTableProcessedTableManager =
       PrefetchHooks Function({bool wordId, bool bookId})
     >;
 typedef $$UserCategoriesTableCreateCompanionBuilder =
-    UserCategoriesCompanion Function({Value<int> id, required String name});
+    UserCategoriesCompanion Function({
+      Value<int> id,
+      required String name,
+      Value<String?> uid,
+      Value<int?> nameAmMs,
+    });
 typedef $$UserCategoriesTableUpdateCompanionBuilder =
-    UserCategoriesCompanion Function({Value<int> id, Value<String> name});
+    UserCategoriesCompanion Function({
+      Value<int> id,
+      Value<String> name,
+      Value<String?> uid,
+      Value<int?> nameAmMs,
+    });
 
 final class $$UserCategoriesTableReferences
     extends BaseReferences<_$AppDatabase, $UserCategoriesTable, UserCategory> {
@@ -7062,6 +7181,16 @@ class $$UserCategoriesTableFilterComposer
     builder: (column) => ColumnFilters(column),
   );
 
+  ColumnFilters<String> get uid => $composableBuilder(
+    column: $table.uid,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get nameAmMs => $composableBuilder(
+    column: $table.nameAmMs,
+    builder: (column) => ColumnFilters(column),
+  );
+
   Expression<bool> categoryWordsRefs(
     Expression<bool> Function($$CategoryWordsTableFilterComposer f) f,
   ) {
@@ -7106,6 +7235,16 @@ class $$UserCategoriesTableOrderingComposer
     column: $table.name,
     builder: (column) => ColumnOrderings(column),
   );
+
+  ColumnOrderings<String> get uid => $composableBuilder(
+    column: $table.uid,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get nameAmMs => $composableBuilder(
+    column: $table.nameAmMs,
+    builder: (column) => ColumnOrderings(column),
+  );
 }
 
 class $$UserCategoriesTableAnnotationComposer
@@ -7122,6 +7261,12 @@ class $$UserCategoriesTableAnnotationComposer
 
   GeneratedColumn<String> get name =>
       $composableBuilder(column: $table.name, builder: (column) => column);
+
+  GeneratedColumn<String> get uid =>
+      $composableBuilder(column: $table.uid, builder: (column) => column);
+
+  GeneratedColumn<int> get nameAmMs =>
+      $composableBuilder(column: $table.nameAmMs, builder: (column) => column);
 
   Expression<T> categoryWordsRefs<T extends Object>(
     Expression<T> Function($$CategoryWordsTableAnnotationComposer a) f,
@@ -7181,10 +7326,26 @@ class $$UserCategoriesTableTableManager
               ({
                 Value<int> id = const Value.absent(),
                 Value<String> name = const Value.absent(),
-              }) => UserCategoriesCompanion(id: id, name: name),
+                Value<String?> uid = const Value.absent(),
+                Value<int?> nameAmMs = const Value.absent(),
+              }) => UserCategoriesCompanion(
+                id: id,
+                name: name,
+                uid: uid,
+                nameAmMs: nameAmMs,
+              ),
           createCompanionCallback:
-              ({Value<int> id = const Value.absent(), required String name}) =>
-                  UserCategoriesCompanion.insert(id: id, name: name),
+              ({
+                Value<int> id = const Value.absent(),
+                required String name,
+                Value<String?> uid = const Value.absent(),
+                Value<int?> nameAmMs = const Value.absent(),
+              }) => UserCategoriesCompanion.insert(
+                id: id,
+                name: name,
+                uid: uid,
+                nameAmMs: nameAmMs,
+              ),
           withReferenceMapper: (p0) => p0
               .map(
                 (e) => (
