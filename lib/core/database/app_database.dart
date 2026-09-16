@@ -66,6 +66,22 @@ class WordBooks extends Table {
 class UserCategories extends Table {
   IntColumn  get id   => integer().autoIncrement()();
   TextColumn get name => text()();
+
+  // فاز S.6 (2026-09-16): feste geräteübergreifende id (`eigen:#<32 Hex>`,
+  // siehe neueEigeneListenId in core/backup/nutzer_zustand.dart). Vorher war
+  // der NAME die id — Umbenennen hieß für den Abgleich „alte Liste weg, neue
+  // da", und Wörter, die ein anderes Gerät offline in die alte Liste legte,
+  // gingen verloren. Listen von vor S.6 bekommen in der Migration
+  // `eigen:<Name>`, also genau ihre bisherige id.
+  // ⚠️ Nullable nur, weil SQLite beim Hinzufügen einer Spalte keinen
+  // Standardwert je Zeile kennt; die Migration füllt jede Zeile, jede neue
+  // Zeile bekommt sie beim Anlegen. Eindeutig über den Index
+  // `user_categories_uid` (siehe _listenIdIndex).
+  TextColumn get uid      => text().nullable()();
+  // Wann der Name vergeben wurde, Millisekunden seit 1970 (UTC) — beim
+  // Abgleich gewinnt der später vergebene Name. null = unbekannt (älter als
+  // jede Umbenennung). Millisekunden aus demselben Grund wie Mitgliedschaften.amMs.
+  IntColumn  get nameAmMs => integer().nullable()();
 }
 
 class CategoryWords extends Table {
@@ -200,6 +216,16 @@ class Mitgliedschaften extends Table {
   Set<Column> get primaryKey => {art, schluessel, wort};
 }
 
+// S.6: Eindeutigkeit der Listen-id. Als eigener Index, weil SQLite eine
+// UNIQUE-Spalte nicht nachträglich hinzufügen kann (ALTER TABLE ADD COLUMN).
+const _listenIdIndex = 'CREATE UNIQUE INDEX IF NOT EXISTS user_categories_uid '
+    'ON user_categories (uid)';
+
+/// Geräteübergreifende id einer eigenen Liste (S.6). `uid` fehlt nur bei einer
+/// Zeile, die die Migration auf Fassung 7 nicht gesehen hat — dann gilt die
+/// alte Form `eigen:<Name>`, genau das, was die Migration dort einträgt.
+String eigeneListenId(UserCategory k) => k.uid ?? 'eigen:${k.name}';
+
 // ── Database class ────────────────────────────────────────────────────────────
 
 @DriftDatabase(tables: [
@@ -220,11 +246,14 @@ class AppDatabase extends _$AppDatabase {
   AppDatabase.forTesting(super.e);
 
   @override
-  int get schemaVersion => 6;
+  int get schemaVersion => 7;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
-    onCreate: (m) => m.createAll(),
+    onCreate: (m) async {
+      await m.createAll();
+      await customStatement(_listenIdIndex); // S.6
+    },
     onUpgrade: (m, from, to) async {
       // فاز L3-E: EN-Bedeutung für Auswendiglernen-Karten
       if (from < 2) {
@@ -259,6 +288,26 @@ class AppDatabase extends _$AppDatabase {
       if (from < 6) {
         await m.createTable(mitgliedschaften);
         await m.addColumn(words, words.ausApp);
+      }
+      // فاز S.6: feste Listen-id. Bestehende Listen behalten ihre bisherige id
+      // `eigen:<Name>` — so passen Sicherungen, Server-Kopie und gespeicherte
+      // Ereignisse weiter zusammen. Gab es einen Namen doppelt (möglich, der
+      // Name war nie eindeutig), behält die älteste Zeile die alte id, jede
+      // weitere bekommt eine neue zufällige in derselben Form wie
+      // neueEigeneListenId(). Erst danach der eindeutige Index.
+      if (from < 7) {
+        await m.addColumn(userCategories, userCategories.uid);
+        await m.addColumn(userCategories, userCategories.nameAmMs);
+        await customStatement(
+          "UPDATE user_categories SET uid = 'eigen:' || name "
+          'WHERE uid IS NULL AND id = (SELECT MIN(u2.id) FROM user_categories u2 '
+          'WHERE u2.name = user_categories.name)',
+        );
+        await customStatement(
+          "UPDATE user_categories SET uid = 'eigen:#' || lower(hex(randomblob(16))) "
+          'WHERE uid IS NULL',
+        );
+        await customStatement(_listenIdIndex);
       }
     },
   );
@@ -307,10 +356,10 @@ class AppDatabase extends _$AppDatabase {
     if (id != null) await mitgliedschaftMerken(artLeitner, id, drin: drin);
   }
 
-  /// Eigene Liste angelegt/gelöscht. Die id einer eigenen Liste ist
-  /// `eigen:<Name>` (siehe user_state_repository.dart).
-  Future<void> eigeneListeMerken(String name, {required bool drin}) =>
-      mitgliedschaftMerken(artListe, 'eigen:$name', drin: drin);
+  /// Eigene Liste angelegt/gelöscht. [listenId] ist die feste id der Liste
+  /// ([eigeneListenId], S.6) — nicht mehr ihr Name.
+  Future<void> eigeneListeMerken(String listenId, {required bool drin}) =>
+      mitgliedschaftMerken(artListe, listenId, drin: drin);
 
   /// Wort in eine eigene Liste aufgenommen/daraus entfernt.
   Future<void> eigenesListenwortMerken(int categoryId, int wordId,
@@ -320,7 +369,7 @@ class AppDatabase extends _$AppDatabase {
         .getSingleOrNull();
     final wortId = await wortIdVon(wordId);
     if (kat == null || wortId == null) return;
-    await mitgliedschaftMerken(artListenwort, 'eigen:${kat.name}',
+    await mitgliedschaftMerken(artListenwort, eigeneListenId(kat),
         wort: wortId, drin: drin);
   }
 

@@ -260,4 +260,65 @@ void main() {
       expect(v1.mitgliedschaften, isEmpty);
     });
   });
+
+  // ── S.6: feste Listen-id ──────────────────────────────────────────────
+  group('S.6 — feste Listen-id, später vergebener Name gewinnt', () {
+    final t1 = DateTime.utc(2026, 9, 16, 10);
+    final t2 = DateTime.utc(2026, 9, 16, 12);
+
+    test('neue ids haben die feste Form und sind verschieden', () {
+      final a = neueEigeneListenId();
+      final b = neueEigeneListenId();
+      expect(a, matches(RegExp(r'^eigen:#[0-9a-f]{32}$')));
+      expect(a, isNot(b));
+    });
+
+    test('der später vergebene Name gewinnt — in beide Richtungen', () {
+      final alt = NutzerZustand(kategorien: [
+        KategorieStand(
+            id: 'eigen:#1', name: 'Reise', nameAm: t1, wortIds: const ['x']),
+      ]);
+      final neu = NutzerZustand(kategorien: [
+        KategorieStand(
+            id: 'eigen:#1', name: 'Urlaub', nameAm: t2, wortIds: const ['y']),
+      ]);
+      for (final k in [
+        alt.zusammenfuehren(neu).kategorien.single,
+        neu.zusammenfuehren(alt).kategorien.single,
+      ]) {
+        expect(k.name, 'Urlaub');
+        expect(k.nameAm, t2);
+        expect(k.wortIds.toSet(), {'x', 'y'},
+            reason: 'Umbenennen darf keine Wörter kosten');
+      }
+    });
+
+    test('ein Name mit Zeitpunkt schlägt einen ohne (Fassung 2)', () {
+      const ohne = NutzerZustand(
+          kategorien: [KategorieStand(id: 'eigen:Reise', name: 'Reise')]);
+      final mit = NutzerZustand(kategorien: [
+        KategorieStand(id: 'eigen:Reise', name: 'Urlaub', nameAm: t1),
+      ]);
+      expect(ohne.zusammenfuehren(mit).kategorien.single.name, 'Urlaub');
+      expect(mit.zusammenfuehren(ohne).kategorien.single.name, 'Urlaub');
+    });
+
+    test('nameAm übersteht die Hülle; ohne nameAm bleibt der Text wie in '
+        'Fassung 2; Fassung 2 bleibt lesbar', () {
+      final z = NutzerZustand(kategorien: [
+        KategorieStand(id: 'eigen:#1', name: 'Urlaub', nameAm: t2),
+      ]);
+      final zurueck =
+          sicherungLesen(sicherungSchreiben(z)).zustand.kategorien.single;
+      expect(zurueck.nameAm!.isAtSameMomentAs(t2), isTrue);
+
+      const ohne = KategorieStand(id: 'eigen:Reise', name: 'Reise');
+      expect(ohne.toJson().containsKey('nameAm'), isFalse);
+
+      final v2 = sicherungLesen('{"version":2,"app":"vox","payload":'
+              '{"kategorien":[{"id":"eigen:Reise","name":"Reise","wortIds":[]}]}}')
+          .zustand;
+      expect(v2.kategorien.single.nameAm, isNull);
+    });
+  });
 }

@@ -14,6 +14,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:vox/core/backup/nutzer_zustand.dart';
 import 'package:vox/core/backup/user_state_repository.dart';
 import 'package:vox/core/database/app_database.dart';
+import 'package:vox/core/database/dao/category_dao.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -298,5 +299,71 @@ void main() {
     final z = await repo.lesen();
     expect(z.eigeneWoerter, isEmpty);
     expect(z.leitner['eigen:helfen|verb']!.fach, 2);
+  });
+
+  // ── S.6 ─────────────────────────────────────────────────────────────────
+  test('S.6: Umbenennen auf Gerät A behält die Liste — ein Wort, das Gerät B '
+      'inzwischen hineinlegt, bleibt drin, und der neue Name kommt an',
+      () async {
+    SharedPreferences.setMockInitialValues({});
+    final prefs = await SharedPreferences.getInstance();
+    final dbA = AppDatabase.forTesting(NativeDatabase.memory());
+    addTearDown(dbA.close);
+    final dbB = AppDatabase.forTesting(NativeDatabase.memory());
+    addTearDown(dbB.close);
+    final a = UserStateRepository(dbA, prefs);
+    final b = UserStateRepository(dbB, prefs);
+
+    // A: zwei eigene Wörter und eine Liste — dann alles zu B.
+    await a.anwenden(const NutzerZustand(eigeneWoerter: [
+      {'german': 'Bank', 'wordType': 'nomen', 'meaningFa': 'بانک'},
+      {'german': 'Zug', 'wordType': 'nomen', 'meaningFa': 'قطار'},
+    ]));
+    final listeA = await CategoryDao(dbA).insertCategory('Reise');
+    final id = (await a.lesen()).kategorien.single.id;
+    expect(id, startsWith('eigen:#'), reason: 'neue Listen: feste id');
+    await b.anwenden(await a.lesen());
+
+    // A benennt um; B legt — noch ohne Abgleich — ein Wort in die Liste.
+    await Future<void>.delayed(const Duration(milliseconds: 5));
+    expect(await CategoryDao(dbA).updateCategory(listeA, 'Urlaub'), isTrue);
+    final listeB = (await CategoryDao(dbB).getAll()).single;
+    final zugB = await (dbB.select(dbB.words)
+          ..where((t) => t.german.equals('Zug')))
+        .getSingle();
+    await CategoryDao(dbB).addWordToCategory(listeB.id, zugB.id);
+
+    // Abgleich in beide Richtungen.
+    await a.anwenden(await b.lesen());
+    await b.anwenden(await a.lesen());
+
+    for (final repo in [a, b]) {
+      final k = (await repo.lesen()).kategorien.single;
+      expect(k.id, id, reason: 'Umbenennen ändert die id nie');
+      expect(k.name, 'Urlaub');
+      expect(k.wortIds, ['eigen:Zug|nomen']);
+    }
+  });
+
+  test('S.6: eine Liste von vor S.6 (id = Name) findet ihr Gegenstück über '
+      'die id, nicht über den Namen', () async {
+    final repo = await geraet();
+    await repo.anwenden(const NutzerZustand(
+      eigeneWoerter: [
+        {'german': 'Bank', 'wordType': 'nomen', 'meaningFa': 'بانک'},
+      ],
+      kategorien: [
+        KategorieStand(
+            id: 'eigen:Alltag', name: 'Alltag', wortIds: ['eigen:Bank|nomen']),
+      ],
+    ));
+    // Gleicher Name, andere id ⇒ eine ZWEITE Liste, keine Vermischung.
+    await repo.anwenden(NutzerZustand(kategorien: [
+      KategorieStand(id: neueEigeneListenId(), name: 'Alltag'),
+    ]));
+    final listen = (await repo.lesen()).kategorien;
+    expect(listen.length, 2);
+    final alt = listen.firstWhere((k) => k.id == 'eigen:Alltag');
+    expect(alt.wortIds, ['eigen:Bank|nomen']);
   });
 }

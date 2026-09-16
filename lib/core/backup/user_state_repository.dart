@@ -21,7 +21,9 @@
 // ⚠️ IDs sind immer Text und geräteunabhängig (siehe nutzer_zustand.dart):
 //    · Archivkarten   `adjektiv_stolz`
 //    · eigene Wörter  `eigen:<german>|<wordType>`
-//    · eigene Listen  `eigen:<name>`
+//    · eigene Listen  feste `uid` der Zeile (S.6): `eigen:#<32 Hex>` für neue,
+//                     `eigen:<Name>` für Listen von vor S.6 — Umbenennen
+//                     ändert sie nie
 //    Die fortlaufenden drift-Nummern bleiben lokal und verlassen das Gerät nie.
 import 'dart:convert';
 
@@ -156,8 +158,16 @@ class UserStateRepository {
           .whereType<Word>()
           .map((w) => LeitnerStand.eigenesWort(w.german, w.wordType))
           .toList();
-      final id = '$_eigenPraefix${k.name}';
-      kategorien[id] = KategorieStand(id: id, name: k.name, wortIds: ids);
+      final id = eigeneListenId(k); // S.6: feste id, nicht der Name
+      final nameAmMs = k.nameAmMs;
+      kategorien[id] = KategorieStand(
+        id: id,
+        name: k.name,
+        nameAm: nameAmMs == null
+            ? null
+            : DateTime.fromMillisecondsSinceEpoch(nameAmMs, isUtc: true),
+        wortIds: ids,
+      );
     }
 
     // Notizen — nur Archiv.
@@ -334,13 +344,31 @@ class UserStateRepository {
         }
         continue;
       }
-      final vorhanden = await (_db.select(_db.userCategories)
-            ..where((t) => t.name.equals(k.name)))
-          .getSingleOrNull();
-      final katId = vorhanden?.id ??
-          await _db
-              .into(_db.userCategories)
-              .insert(UserCategoriesCompanion.insert(name: k.name));
+      // S.6: über die feste id suchen, nicht über den Namen. Der Name im
+      // zusammengeführten Stand ist schon der gültige (später vergebener
+      // gewinnt) — er wird hier nur übernommen.
+      final vorhanden = await _eigeneListe(k.id);
+      final nameAmMs = k.nameAm?.millisecondsSinceEpoch;
+      final int katId;
+      if (vorhanden == null) {
+        katId = await _db.into(_db.userCategories).insert(
+              UserCategoriesCompanion.insert(
+                name: k.name,
+                uid: Value(k.id),
+                nameAmMs: Value(nameAmMs),
+              ),
+            );
+      } else {
+        katId = vorhanden.id;
+        if (vorhanden.name != k.name || vorhanden.nameAmMs != nameAmMs) {
+          await (_db.update(_db.userCategories)
+                ..where((t) => t.id.equals(vorhanden.id)))
+              .write(UserCategoriesCompanion(
+                name: Value(k.name),
+                nameAmMs: Value(nameAmMs),
+              ));
+        }
+      }
       for (final wortId in k.wortIds) {
         final nummer = nachSchluessel[wortId];
         if (nummer == null) continue;
@@ -459,11 +487,10 @@ class UserStateRepository {
         .getSingleOrNull();
   }
 
-  /// `eigen:<Name>` → Zeile in `UserCategories`.
+  /// Listen-id → Zeile in `UserCategories` — über die feste `uid` (S.6),
+  /// nicht über den Namen. Eindeutig dank Index `user_categories_uid`.
   Future<UserCategory?> _eigeneListe(String listenId) =>
-      (_db.select(_db.userCategories)
-            ..where((t) =>
-                t.name.equals(listenId.substring(_eigenPraefix.length))))
+      (_db.select(_db.userCategories)..where((t) => t.uid.equals(listenId)))
           .getSingleOrNull();
 
   // ── Wortarchiv: Einzelzugriffe für den Wort-Store (B-11) ───────────────

@@ -3,6 +3,7 @@
 // PURPOSE: CRUD for UserCategories + CategoryWords (reference-based, no word copies)
 import 'package:drift/drift.dart';
 
+import '../../backup/nutzer_zustand.dart' show neueEigeneListenId;
 import '../app_database.dart';
 
 class CategoryDao {
@@ -26,38 +27,43 @@ class CategoryDao {
         ..where((t) => t.id.equals(id)))
           .getSingleOrNull();
 
+  /// Neue Liste. S.6: Sie bekommt sofort ihre feste id — sie bleibt, egal
+  /// wie oft die Liste umbenannt wird.
   Future<int> insertCategory(String name) async {
+    final listenId = neueEigeneListenId();
     final id = await _db.into(_db.userCategories).insert(
-      UserCategoriesCompanion.insert(name: name),
+      UserCategoriesCompanion.insert(
+        name: name,
+        uid: Value(listenId),
+        nameAmMs: Value(DateTime.now().millisecondsSinceEpoch),
+      ),
     );
-    await _db.eigeneListeMerken(name, drin: true); // S.5
+    await _db.eigeneListeMerken(listenId, drin: true); // S.5
     return id;
   }
 
-  /// Umbenennen. ⚠️ S.5: Die geräteübergreifende id einer eigenen Liste ist
-  /// ihr Name — für den Abgleich ist Umbenennen deshalb „alte Liste weg,
-  /// neue Liste da" (samt ihrer Wörter).
+  /// Umbenennen. S.6: Die id der Liste bleibt; nur Name und Zeitpunkt
+  /// ändern sich. Beim Abgleich gewinnt der später vergebene Name, und
+  /// Wörter, die ein anderes Gerät inzwischen in die Liste gelegt hat,
+  /// bleiben drin (vorher: „alte Liste weg, neue da" — diese Wörter gingen
+  /// verloren).
   Future<bool> updateCategory(int id, String newName) async {
     final alt = await getById(id);
-    final geaendert = await (_db.update(_db.userCategories)
-          ..where((t) => t.id.equals(id)))
-        .write(UserCategoriesCompanion(name: Value(newName)))
+    if (alt == null) return false;
+    if (alt.name == newName) return true;
+    return (_db.update(_db.userCategories)..where((t) => t.id.equals(id)))
+        .write(UserCategoriesCompanion(
+          name: Value(newName),
+          nameAmMs: Value(DateTime.now().millisecondsSinceEpoch),
+        ))
         .then((n) => n > 0);
-    if (geaendert && alt != null && alt.name != newName) {
-      await _db.eigeneListeMerken(alt.name, drin: false);
-      await _db.eigeneListeMerken(newName, drin: true);
-      for (final z in await (_db.select(_db.categoryWords)
-            ..where((t) => t.categoryId.equals(id)))
-          .get()) {
-        await _db.eigenesListenwortMerken(id, z.wordId, drin: true);
-      }
-    }
-    return geaendert;
   }
 
   Future<int> deleteCategory(int id) async {
     final kat = await getById(id);
-    if (kat != null) await _db.eigeneListeMerken(kat.name, drin: false); // S.5
+    if (kat != null) {
+      await _db.eigeneListeMerken(eigeneListenId(kat), drin: false); // S.5
+    }
     // Remove all words from this category first
     await (_db.delete(_db.categoryWords)
       ..where((t) => t.categoryId.equals(id)))

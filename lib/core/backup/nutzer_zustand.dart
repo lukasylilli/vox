@@ -17,6 +17,7 @@
 // Nutzlast, KEIN geteilter Code):
 //   { "version": 1, "exportedAt": "<ISO>", "app": "vox", "payload": { … } }
 import 'dart:convert';
+import 'dart:math' show Random;
 
 /// Erhöhen, sobald sich die Form der Nutzlast ändert. `vonJson` muss ältere
 /// Fassungen weiter lesen können — eine Sicherung von gestern darf nie
@@ -25,7 +26,13 @@ import 'dart:convert';
 /// Fassung 2 (S.5, 2026-09-15): `mitgliedschaften` — Aufnehmen/Entfernen als
 /// Ereignisse mit Zeitpunkt. Fassung 1 hat keine; sie gilt als „älter als jede
 /// Handlung" und wird unverändert gelesen.
-const int nutzerZustandVersion = 2;
+///
+/// Fassung 3 (S.6, 2026-09-16): eigene Listen tragen eine feste id
+/// (`eigen:#<32 Hex>`) statt ihres Namens, und `kategorien[].nameAm` sagt, wann
+/// der Name vergeben wurde — beim Zusammenführen gewinnt der später vergebene
+/// Name. Fassung 2 hat kein `nameAm`; ihre Namen gelten als älter als jede
+/// Umbenennung. Listen von vor S.6 behalten ihre alte id `eigen:<Name>`.
+const int nutzerZustandVersion = 3;
 
 const String appKennung = 'vox';
 
@@ -137,25 +144,59 @@ class LeitnerStand {
 }
 
 /// Eine selbst angelegte Liste. `wortIds` nutzt dieselben Text-IDs wie oben.
+///
+/// ⚠️ S.6: [id] ist fest ab Anlage und ändert sich beim Umbenennen NIE —
+/// sonst verlöre ein Gerät, das offline Wörter in die Liste legt, diese
+/// Wörter beim Abgleich. Der Name ist nur Anzeige; [nameAm] entscheidet,
+/// welcher Name beim Zusammenführen gewinnt.
 class KategorieStand {
   final String id;
   final String name;
+
+  /// Wann [name] vergeben wurde (S.6). null = unbekannt — älter als jede
+  /// Umbenennung (Fassung 2 und Listen von vor S.6).
+  final DateTime? nameAm;
   final List<String> wortIds;
 
   const KategorieStand({
     required this.id,
     required this.name,
+    this.nameAm,
     this.wortIds = const [],
   });
 
-  Map<String, dynamic> toJson() =>
-      {'id': id, 'name': name, 'wortIds': wortIds};
+  /// `nameAm` steht nur drin, wenn es bekannt ist — so bleibt der Text einer
+  /// Liste von vor S.6 unverändert, und der Konto-Abgleich lädt nicht grundlos
+  /// neu hoch.
+  Map<String, dynamic> toJson() => {
+        'id': id,
+        'name': name,
+        if (nameAm != null) 'nameAm': nameAm!.toUtc().toIso8601String(),
+        'wortIds': wortIds,
+      };
 
   static KategorieStand vonJson(Map<String, dynamic> j) => KategorieStand(
         id: j['id'] as String,
         name: j['name'] as String? ?? '',
+        nameAm: _datum(j['nameAm']),
         wortIds: (j['wortIds'] as List?)?.cast<String>() ?? const [],
       );
+}
+
+/// Neue geräteübergreifende id einer eigenen Liste (S.6):
+/// `eigen:#` + 32 Hex-Zeichen (128 Bit Zufall). Sie wird EINMAL bei der Anlage
+/// vergeben und nie mehr geändert. Listen von vor S.6 behalten `eigen:<Name>`
+/// (so trägt es die Datenbank-Migration auf Fassung 7 ein).
+///
+/// Das Präfix `eigen:` bleibt, weil die Fassade daran eigene Listen von
+/// Archiv-Listen (`kat_<Millisekunden>`) unterscheidet.
+String neueEigeneListenId([Random? zufall]) {
+  final r = zufall ?? Random.secure();
+  final hex = StringBuffer();
+  for (var i = 0; i < 16; i++) {
+    hex.write(r.nextInt(256).toRadixString(16).padLeft(2, '0'));
+  }
+  return 'eigen:#$hex';
 }
 
 /// Freitext-Notiz zu einem Wort, mit Farbe je Wort-Token.
@@ -296,8 +337,9 @@ class NutzerZustand {
       );
     });
 
-    // Kategorien: gleiche id = dieselbe Liste, Wörter vereinigen. Der Name des
-    // eigenen Standes bleibt (Umbenennen ist eine Gerätesache, kein Fortschritt).
+    // Kategorien: gleiche id = dieselbe Liste, Wörter vereinigen.
+    // Name (S.6): der später vergebene gewinnt; ohne bekannten Zeitpunkt oder
+    // bei Gleichstand bleibt der eigene.
     final katNeu = <String, KategorieStand>{
       for (final k in kategorien) k.id: k,
     };
@@ -307,9 +349,14 @@ class NutzerZustand {
         katNeu[fremd.id] = fremd;
         continue;
       }
+      final fremdAm = fremd.nameAm;
+      final eigenAm = eigen.nameAm;
+      final fremderName =
+          fremdAm != null && (eigenAm == null || fremdAm.isAfter(eigenAm));
       katNeu[fremd.id] = KategorieStand(
         id: fremd.id,
-        name: eigen.name,
+        name: fremderName ? fremd.name : eigen.name,
+        nameAm: fremderName ? fremdAm : eigenAm,
         wortIds: {...eigen.wortIds, ...fremd.wortIds}.toList(),
       );
     }
@@ -340,6 +387,7 @@ class NutzerZustand {
         KategorieStand(
           id: k.id,
           name: k.name,
+          nameAm: k.nameAm,
           wortIds: [
             for (final w in k.wortIds)
               if (!entfernt(artListenwort, k.id, w) && !wortWeg(w)) w,
