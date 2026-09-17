@@ -1430,6 +1430,28 @@ noch nicht und wird erst nach dieser Entscheidung gebaut.
 - تمام strings استاتیک UI → AppL10n.t(context, key)
 - Dynamic strings (با $variable) intentionally left — نیاز به ICU system جداگانه
 
+### L.5a [ایده، هنوز قطعی نیست — 2026-09-17]: صفحه‌ی پیشرفت (درصد) در VOX
+- مشابه جدول‌ها/درصدهای Root-in، ولی **صفحه‌ی مستقل و مخصوص VOX** — کپی کد از Root-in ممنوع؛
+  دو ریپو همیشه جدا (اصل ثابت `ways-of-working`)
+- معیار دقیق پیشرفت (کلمه‌ها؟ گرامر؟ تمرین‌ها؟ کلی؟) و جای دقیق صفحه (داخل L.5d یا جدا) هنوز با Lukas مشخص نشده
+- جزئیات کامل → PLAN.md → L.5a
+
+### L.5b [باز — 2026-09-17]: ترجمه‌ی جمله‌به‌جمله در Lesen، از جمله اخبار
+- زیر هر جمله‌ی متن خواندن (و بخش اخبار)، معنی‌اش نوشته شود — FA یا EN، بسته به `AppL10n.activeLang`
+- محتمل‌ترین فایل‌های درگیر: `lib/features/lesen/screens/...`، هر ویجت رندر متن Lesen/اخبار
+- جزئیات کامل → PLAN.md → L.5b
+
+### L.5c [باز — 2026-09-17]: تبدیل همه‌ی محتوای آموزشی به تمرین، به‌شدت متنوع
+- گسترش زیرساخت **G7** (فعلاً فقط گرامر: G7a–G7c ✅، G7d/G7e باز) به همه‌ی محتوا: Redemittel، Lesen،
+  Hören، Auswendiglernen و بیشتر
+- هدف: بیشترین تنوع نوع تمرین ممکن (چندگزینه‌ای، جفت‌کردن، درست/غلط، چیدن کلمه، جای‌خالی، شنیداری، …)
+- اجرا بعد از تکمیل G7d/G7e برای گرامر (L.2e)
+- جزئیات کامل → PLAN.md → L.5c
+
+### L.5d [باز — 2026-09-17]: صفحه‌ی کامل اکانت کاربری
+- یک صفحه‌ی مستقل: اطلاعات حساب + آرشیوها + سطح کاربر — فعلاً پخش در More/Settings
+- جزئیات کامل → PLAN.md → L.5d
+
 ### R-7 [متوسط]: Content/Data جداسازی ✅ (2026-06-29)
 - فایل‌های موجود: konnektoren_data.json، dativ_akkusativ_data.json، nvv_data.json، praepositionen_data.json، reflexiv_data.json، reflexiv_grammar.json ✅
 - ساخته شدند: redemittel_goethe_b2.json (**۶۱ عبارت** 2026-07-04)، redemittel_oesd_b2.json (**۱۲۱ عبارت در ۲۰ بخش** 2026-07-04)، redemittel_oesd_c1.json (۶ placeholder)، redemittel_1010.json (**۹۰۸ عبارت** 2026-07-04) ✅
