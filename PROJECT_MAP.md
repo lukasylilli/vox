@@ -1452,6 +1452,20 @@ noch nicht und wird erst nach dieser Entscheidung gebaut.
 - یک صفحه‌ی مستقل: اطلاعات حساب + آرشیوها + سطح کاربر — فعلاً پخش در More/Settings
 - جزئیات کامل → PLAN.md → L.5d
 
+### L.5e [باز — 2026-09-17]: هر بخش محتوایی بعد از مطالعه یک آزمون دارد
+- پوشش کامل، نه فقط گرامر: هر متن Lesen/اخبار بعد از خواندن آزمون دارد؛ الگوی G7a+G7b (تمرین هر درس +
+  آزمون هر سطح) برای بقیه‌ی بخش‌ها هم تکرار می‌شود
+- تفاوت با L.5c: L.5c = تنوع نوع تمرین، L.5e = هیچ بخشی بدون آزمون پایانی نماند
+- جزئیات کامل → PLAN.md → L.5e
+
+### L.5f [باز — 2026-09-17]: کامپوننت مشترک «کلیک روی کلمه» در کل اپ
+- رفتار یکسان همه‌جا: کلیک روی هر کلمه → پاپ‌آپ کوچک → کلیک روی پاپ‌آپ → `wort_seite_screen.dart` کامل
+  باز می‌شود (چک معنی یا افزودن به لایتنر از همان‌جا)
+- باید یک ویجت/کامپوننت مشترک باشد (اصل Component Isolation)، نه پیاده‌سازی جدا در هر صفحه؛ همه‌ی
+  صفحاتی که کلمه نشان می‌دهند (Lesen، Hören، Redemittel، گرامر، جمله‌های مثال، …) باید همین را reference کنند
+- محتمل‌ترین جای پیاده‌سازی: یک widget جدید در `core/widgets/` که popup + navigation به route کلمه را می‌سازد
+- جزئیات کامل → PLAN.md → L.5f
+
 ### R-7 [متوسط]: Content/Data جداسازی ✅ (2026-06-29)
 - فایل‌های موجود: konnektoren_data.json، dativ_akkusativ_data.json، nvv_data.json، praepositionen_data.json، reflexiv_data.json، reflexiv_grammar.json ✅
 - ساخته شدند: redemittel_goethe_b2.json (**۶۱ عبارت** 2026-07-04)، redemittel_oesd_b2.json (**۱۲۱ عبارت در ۲۰ بخش** 2026-07-04)، redemittel_oesd_c1.json (۶ placeholder)، redemittel_1010.json (**۹۰۸ عبارت** 2026-07-04) ✅
