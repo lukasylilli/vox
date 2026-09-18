@@ -1,6 +1,6 @@
 # PROJECT MAP — VOX
 # نقشه کامل پروژه برای ناوبری سریع در هر session
-# آپدیت: 2026-09-16
+# آپدیت: 2026-09-18
 # ⚠️ 2026-09-13: Umbau zur reinen Web-App — android/ios/macos/linux/windows, RevenueCat & Notifications entfernt; ältere Einträge beschreiben teils den nativen Stand
 # ⚠️ 2026-09-13: Habit/Routine entfernt — Root-in (eigenes Repo, lukasylilli.github.io/Root-in/) übernimmt das, verlinkt aus Selbstlernen ("Routine"-Karte, core/constants/app_links.dart + core/utils/external_link_opener.dart). Pomodoro bleibt unverändert.
 # ❗ Wort-Prompt: EIN Wort = EINE Karte. Alle Übersetzungen stehen zweisprachig {fa,en} in
@@ -28,7 +28,10 @@
 #        هر ۱۷ سند بایت‌به‌بایت = assets/data/grammatik/ · ۷۹ route درس + ۵ صفحه‌ی ویژه = ۸۴ · چیزی کم نیست.
 #   باز: ÖSD C1 (۶ عبارت، بدون منبع) · A1/A2 Wortschatz (۱٬۰۶۳ کلمه در old files/1، در اپ استفاده نشده) ·
 #   deckهای «به‌زودی» در core/services/feature_flags.dart (Lukas منبع هر کدام را یکی‌یکی می‌فرستد)
-#   🧩 L.2e/G7 (تصمیم Lukas 2026-09-16): تمرین‌ها قبل از انتشار — گرامر → تمرین (گرامر، ردمیتل…) → انتشار → کلمه‌ها → تمرین کلمه‌ها
+#     ⏳ 2026-09-18: درخواست باز = ÖSD C1؛ بعد از رسیدنش منبع بعدی خواسته می‌شود. بدون منبع تا انتشار ⇒ deck پنهان.
+#     ⇒ تنها کار باز L.2؛ کار بعدی Claude = L.3 (تست RTL، آفلاین، آیکون/manifest، حریم خصوصی، README).
+#   🧩 L.2e/G7 — ⚠️ تصمیم تازه‌ی Lukas (2026-09-18): گرامر ✅ → تمرین گرامر G7a–G7c ✅ → **انتشار** → G7d/G7e →
+#     کلمه‌ها → تمرین کلمه‌ها. (تصمیم 2026-09-16 «تمرین‌ها قبل از انتشار» با این جایگزین شد.)
 #     ✅ G7a (2026-09-16): ۳۳۶ تمرین منبع در هر درس — /grammatik/lektion/:slug/uebung
 #     ✅ G7b (2026-09-16): آزمون سطح — /grammatik/quiz-niveau/:level (assets/data/grammatik_niveautest.json)
 #     ✅ G7c (2026-09-16): تمرین از ۵۰۴ جمله‌ی مثال (models/beispiel_uebungen.dart) — نوبت درس = ۴ منبع + ۶ ساخته‌شده، مخلوط
