@@ -1,5 +1,18 @@
 # PLAN — VOX
 
+> 🧭 **قاعده‌ی ثابت برای هر چت جدید (Lukas، 2026-09-18) — این بخش را حذف نکن.**
+> Claude بین چت‌ها حافظه ندارد؛ **این چهار فایل تنها حافظه‌ی پروژه‌اند:**
+> `vox/PLAN.md` · `vox/PROJECT_MAP.md` · `Root-in/PLAN.md` · `Root-in/MAP.md`.
+> **۱ — اول هر چت:** هر چهار فایل را **تازه از GitHub** بخوان (api.github.com، شاخه main)، نه از حافظه.
+> **۲ — بعد:** اولین قدم باز را پیدا کن و بدون پرسیدن انجامش بده.
+> **۳ — آخر هر کار (و آخر هر چت):** در PLAN و MAP همان ریپو یک ورودی کوتاه بنویس — چه کردی، چرا، در کدام فایل/فاز —
+> و خط «آخرین جلسه / قدم بعدی» پایین را تازه کن. **کاری که در پلن و مپ ثبت نشده، برای چت بعدی وجود ندارد.**
+> فهرست مطالب و بخش Hinweise همیشه حفظ می‌شوند.
+>
+> 🗓️ **آخرین جلسه:** 2026-09-18 — L.6 شروع شد؛ درس ۱ کتاب «Grammatik aktiv» (Personalpronomen) از نو نوشته و در درس
+> `personalpronomen` اپ جا گرفت (۲ توضیح، ۲ جدول، ۴ مثال، ۶ تمرین) · تصمیم‌های Lukas ثبت شد (G7d/G7e بعد از انتشار).
+> ⏭️ **قدم بعدی:** درس بعدی کتاب از Lukas (L.6) · منتظر منبع ÖSD C1 (L.2a/L.2d) · بعد **L.3** آماده‌سازی انتشار.
+
 > ⚠️ **2026-09-13 — Umbau zur reinen Web-App:** android/ios/macos/linux/windows, RevenueCat (Abos) und lokale Notifications wurden entfernt. VOX läuft nur noch als kostenlose Flutter-Web-App auf GitHub Pages (DB: drift + SQLite-WASM). Ältere Einträge unten beschreiben teils den früheren nativen Stand.
 > ⚠️ **2026-09-13 — Habit/Routine entfernt, Root-in-Verlinkung.** VOX bleibt dauerhaft ein eigenes Repo (`github.com/lukasylilli/vox`), getrennt von Root-in (`github.com/lukasylilli/Root-in`, live unter `lukasylilli.github.io/Root-in/`) — bewusst KEIN Code-Merge, damit Nutzer, die nur die Routine-App brauchen, sie eigenständig nutzen können. In Selbstlernen ersetzt die Karte **„Routine"** die frühere „Habit Maker"-Karte und öffnet Root-in per Link in einem neuen Tab (`core/constants/app_links.dart` → `rootInUrl`, geöffnet über `core/utils/external_link_opener.dart`). Entfernt: `habit_maker_screen.dart`, `habit_stats_screen.dart`, `habit_day_selector_widget.dart`, `streak_chart_widget.dart`, `core/database/dao/habit_dao.dart`, alle Habit-Provider in `selbstlernen_controller.dart` und die „verknüpfte Gewohnheit"-Auswahl im Pomodoro-Timer (Pomodoro selbst bleibt unverändert als eigenständiger Fokus-Timer). Die Drift-Tabellen `Habits`/`HabitSessions` bleiben vorerst im Schema (kein Downgrade) — unbenutzt, entfernbar in einer künftigen Migration. ⚠️ **Lehre:** `package:web` darf nie ungeschützt importiert werden — bricht `flutter test` auf der VM, `flutter analyze` merkt es nicht. Bedingter Export nach Root-in-Vorbild (`external_link_opener_io.dart` / `_web.dart`).
 > ⚠️ **2026-09-15 — Voll-Audit von Code + Daten (Claude, direkt über die GitHub-API).** Befunde, die die Planung ändern:
@@ -9,7 +22,7 @@
 > **(4) Entscheidung des Nutzers 2026-09-15:** Die Wörter werden **weiter alphabetisch** abgearbeitet (nicht nach Häufigkeit sortiert) — der Durchsatz kommt aus der Automatisierung, nicht aus der Reihenfolge.
 
 # پلن کامل صفر تا انتشار اپ یادگیری آلمانی برای فارسی‌زبانان
-# آپدیت: 2026-09-16
+# آپدیت: 2026-09-18
 
 ---
 

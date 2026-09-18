@@ -1,6 +1,13 @@
 # PROJECT MAP — VOX
 # نقشه کامل پروژه برای ناوبری سریع در هر session
 # آپدیت: 2026-09-18
+#
+# 🧭 قاعده‌ی ثابت هر چت جدید (Lukas، 2026-09-18) — این بخش را حذف نکن:
+#   ۱) اول چت: هر چهار فایل (vox/PLAN.md، vox/PROJECT_MAP.md، Root-in/PLAN.md، Root-in/MAP.md) را
+#      تازه از api.github.com بخوان، نه از حافظه.  ۲) اولین قدم باز را بدون پرسیدن انجام بده.
+#   ۳) آخر هر کار و آخر هر چت: در PLAN و MAP همان ریپو ورودی کوتاه بنویس + خط «آخرین جلسه» در PLAN را تازه کن.
+#      کاری که ثبت نشود، برای چت بعدی وجود ندارد. فهرست مطالب و Hinweise حفظ می‌شوند.
+#
 # ⚠️ 2026-09-13: Umbau zur reinen Web-App — android/ios/macos/linux/windows, RevenueCat & Notifications entfernt; ältere Einträge beschreiben teils den nativen Stand
 # ⚠️ 2026-09-13: Habit/Routine entfernt — Root-in (eigenes Repo, lukasylilli.github.io/Root-in/) übernimmt das, verlinkt aus Selbstlernen ("Routine"-Karte, core/constants/app_links.dart + core/utils/external_link_opener.dart). Pomodoro bleibt unverändert.
 # ❗ Wort-Prompt: EIN Wort = EINE Karte. Alle Übersetzungen stehen zweisprachig {fa,en} in
