@@ -33,9 +33,9 @@
 #     🔁 L.2c بازبینی مستقل (2026-09-16، جلسه‌ی بعد): منبع «old files Lukasalmani/1/Grammatik» = ۱۷ سند درس (۸۴ درس، ۳۳۶ تمرین،
 #        _index هر سند = درس‌های واقعی‌اش) + ۲ سند تنظیمات آزمون سطح (questionsPerLevel 10، passThreshold 0.7 ⇒ برای G7)؛
 #        هر ۱۷ سند بایت‌به‌بایت = assets/data/grammatik/ · ۷۹ route درس + ۵ صفحه‌ی ویژه = ۸۴ · چیزی کم نیست.
-#   باز: ÖSD C1 (۶ عبارت، بدون منبع) · A1/A2 Wortschatz (۱٬۰۶۳ کلمه در old files/1، در اپ استفاده نشده) ·
+#   ✅ ÖSD C1 (2026-09-18): ۱۱۲ عبارت از منبع Lukas ساخته و زنده شد (route + flag live) · A1/A2 Wortschatz (۱٬۰۶۳ کلمه در old files/1، در اپ استفاده نشده) ·
 #   deckهای «به‌زودی» در core/services/feature_flags.dart (Lukas منبع هر کدام را یکی‌یکی می‌فرستد)
-#     ⏳ 2026-09-18: درخواست باز = ÖSD C1؛ بعد از رسیدنش منبع بعدی خواسته می‌شود. بدون منبع تا انتشار ⇒ deck پنهان.
+#     ⏳ 2026-09-18: ÖSD C1 ✅ رسید و منتشر شد؛ درخواست باز بعدی = یکی از deckهای باقی‌مانده. بدون منبع تا انتشار ⇒ deck پنهان.
 #     ⇒ تنها کار باز L.2؛ بعد از آن L.3 (تست RTL، آفلاین، آیکون/manifest، حریم خصوصی — README ✅ 2026-09-18).
 # 📘 L.6 (از 2026-09-18): درس‌های گرامر کتاب‌های Lukas یکی‌یکی می‌رسند. شماره‌ی او ≠ شماره‌ی اپ ⇒ نگاشت در PLAN.md → L.6 (+ GRAMMATIK_MAP).
 #   ⚠️ کپی‌رایت: هیچ جمله/تمرینی از کتاب کپی نمی‌شود — فقط موضوع؛ متن و مثال و تمرین از نو نوشته می‌شود.
@@ -924,7 +924,7 @@ controllers/
 models/
   redemittel_item.dart                [x]  — RedemittelItem (rich + legacy flat format)
 ```
-**Data:** redemittel_1010.json (۹۰۸) · redemittel_goethe_b2.json (۶۱) · redemittel_oesd_b2.json (۱۲۱) · oesd_c1 (placeholder)
+**Data:** redemittel_1010.json (۹۰۸) · redemittel_goethe_b2.json (۶۱) · redemittel_oesd_b2.json (۱۲۱) · redemittel_oesd_c1.json (۱۱۲ ✅ 2026-09-18)
 **Routes:** redemittel1010 (+Quiz/Grammar/Detail) · redemittelGoetheB2 · redemittelOesdB2 (+Quiz/Detail)
 
 #### lib/features/modalverben/ [x] ✅ (2026-07-04)

@@ -28,7 +28,7 @@ abstract final class FeatureFlags {
     // ── Prüfungen decks ───────────────────────────────────────────────────
     'deck.goethe_b2'          : FeatureState.live,
     'deck.oesd_b2'            : FeatureState.live,
-    'deck.oesd_c1'            : FeatureState.comingSoon,
+    'deck.oesd_c1'            : FeatureState.live,
     'deck.redemittel_1010'    : FeatureState.live,
     'deck.zusammenfassung'    : FeatureState.comingSoon,
     'deck.a2_zusammenfassung' : FeatureState.comingSoon,

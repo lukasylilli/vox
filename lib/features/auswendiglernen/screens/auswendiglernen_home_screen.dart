@@ -201,7 +201,9 @@ const _pruefungenDecks = [
     levels : ['C1'],
     icon   : Icons.school_rounded,
     color  : Color(0xFF880E4F),
-    flag   : 'deck.oesd_c1',           // comingSoon via FeatureFlags
+    route      : AppRoutes.redemittelOesdC1,
+    flag       : 'deck.oesd_c1',
+    description: 'deck_oesd_c1_sub',
   ),
   _Deck(
     titleDe    : '1010 Redemittel',

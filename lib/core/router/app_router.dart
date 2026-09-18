@@ -840,6 +840,56 @@ final appRouter = GoRouter(
       ],
     ),
 
+    // ── Redemittel — ÖSD C1 (Prüfungsdeck) ────────────────────
+    GoRoute(
+      path   : AppRoutes.redemittelOesdC1,
+      builder: (ctx, _) => RedemittelExamListScreen(
+        title   : 'ÖSD C1 Redemittel',
+        provider: redemittelOesdC1Provider,
+        basePath: AppRoutes.redemittelOesdC1,
+      ),
+      routes : [
+        GoRoute(
+          path   : 'quiz',
+          builder: (ctx, state) {
+            final items = state.extra as List<RedemittelItem>?;
+            if (items != null && items.isNotEmpty) {
+              return Redemittel1010QuizScreen(phrases: items);
+            }
+            return Consumer(
+              builder: (ctx, ref, _) =>
+                  ref.watch(redemittelOesdC1Provider).when(
+                loading: () => const _LoadingScaffold(),
+                error  : (e, _) => _ErrorScaffold(e),
+                data   : (list) => Redemittel1010QuizScreen(phrases: list),
+              ),
+            );
+          },
+        ),
+        GoRoute(
+          path   : ':phraseId',
+          builder: (ctx, state) {
+            final id     = int.parse(state.pathParameters['phraseId']!);
+            final phrase = state.extra as RedemittelItem?;
+            if (phrase != null) {
+              return Redemittel1010DetailScreen(phraseId: id, phrase: phrase);
+            }
+            return Consumer(
+              builder: (ctx, ref, _) =>
+                  ref.watch(redemittelOesdC1Provider).when(
+                loading: () => const _LoadingScaffold(),
+                error  : (e, _) => _ErrorScaffold(e),
+                data   : (list) => Redemittel1010DetailScreen(
+                  phraseId: id,
+                  phrase  : list.firstWhere((p) => p.id == id),
+                ),
+              ),
+            );
+          },
+        ),
+      ],
+    ),
+
     // ── Modalverben ───────────────────────────────────────────
     GoRoute(
       path   : AppRoutes.modalverben,

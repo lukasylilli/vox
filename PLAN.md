@@ -9,11 +9,15 @@
 > و خط «آخرین جلسه / قدم بعدی» پایین را تازه کن. **کاری که در پلن و مپ ثبت نشده، برای چت بعدی وجود ندارد.**
 > فهرست مطالب و بخش Hinweise همیشه حفظ می‌شوند.
 >
-> 🗓️ **آخرین جلسه:** 2026-09-18 (ادامه) — L.2 روی منبع ÖSD C1 و L.6 روی درس بعدی کتاب Lukas منتظر مانده (نیاز به Lukas)؛
-> در غیاب این منابع، اولین قدم باز غیرمنتظر = **L.3** انتخاب شد: خط قدیمی README («Selbstlernen — Gewohnheiten, Streaks»)
-> که از 2026-09-13 غلط بود (Habit حذف شده، جایگزین: لینک Root-in + Pomodoro/Lernpfad/Vorlagen) اصلاح شد.
-> ⏭️ **قدم بعدی:** بقیه‌ی L.3 (تست RTL همه‌ی صفحات، تست آفلاین، آیکون/manifest وب، صفحه‌ی حریم خصوصی) · درس بعدی کتاب
-> از Lukas (L.6) · منتظر منبع ÖSD C1 (L.2a/L.2d).
+> 🗓️ **آخرین جلسه:** 2026-09-18 (ادامه ۲) — منبع **ÖSD C1** از Lukas رسید (PDF) → `redemittel_oesd_c1.json`
+> با ۱۱۲ عبارت (Schreiben Aufgabe 1/2 + Sprechen Aufgabe 1/2/3) ساخته و به‌عنوان deck زنده وصل شد (route،
+> feature-flag، content_registry) ⇒ **L.2a بسته شد.** درس ۲ کتاب «Grammatik Aktiv» (صرف فعل در زمان حال —
+> استثناهای پایانه‌ی فعل: arbeiten-نوع با -e- اضافه، heißen/tanzen-نوع فقط -t) به‌عنوان بلوک دوم به درس
+> `konjugation-praesens` اضافه شد (۱ توضیح، ۱ جدول، ۲ مثال، ۳ تمرین تازه) — نه کپی از کتاب، نوشته‌ی نو.
+> Secrets پروژه‌ی Supabase (`SUPABASE_URL`, `SUPABASE_ANON_KEY`) که Lukas فرستاد در ریپوی vox روی GitHub
+> Actions ثبت شدند. ⚠️ **باز مانده با Lukas:** اجرای یک‌باره‌ی `supabase/vox_tables.sql` در SQL Editor سایت
+> Supabase — Claude به `supabase.com` در این محیط دسترسی شبکه ندارد (فقط GitHub/PyPI/npm مجازند).
+> ⏭️ **قدم بعدی:** منتظر منبع deck بعدی «به‌زودی» (L.2d) · درس بعدی کتاب از Lukas (L.6) · اجرای SQL از Lukas.
 
 > ⚠️ **2026-09-13 — Umbau zur reinen Web-App:** android/ios/macos/linux/windows, RevenueCat (Abos) und lokale Notifications wurden entfernt. VOX läuft nur noch als kostenlose Flutter-Web-App auf GitHub Pages (DB: drift + SQLite-WASM). Ältere Einträge unten beschreiben teils den früheren nativen Stand.
 > ⚠️ **2026-09-13 — Habit/Routine entfernt, Root-in-Verlinkung.** VOX bleibt dauerhaft ein eigenes Repo (`github.com/lukasylilli/vox`), getrennt von Root-in (`github.com/lukasylilli/Root-in`, live unter `lukasylilli.github.io/Root-in/`) — bewusst KEIN Code-Merge, damit Nutzer, die nur die Routine-App brauchen, sie eigenständig nutzen können. In Selbstlernen ersetzt die Karte **„Routine"** die frühere „Habit Maker"-Karte und öffnet Root-in per Link in einem neuen Tab (`core/constants/app_links.dart` → `rootInUrl`, geöffnet über `core/utils/external_link_opener.dart`). Entfernt: `habit_maker_screen.dart`, `habit_stats_screen.dart`, `habit_day_selector_widget.dart`, `streak_chart_widget.dart`, `core/database/dao/habit_dao.dart`, alle Habit-Provider in `selbstlernen_controller.dart` und die „verknüpfte Gewohnheit"-Auswahl im Pomodoro-Timer (Pomodoro selbst bleibt unverändert als eigenständiger Fokus-Timer). Die Drift-Tabellen `Habits`/`HabitSessions` bleiben vorerst im Schema (kein Downgrade) — unbenutzt, entfernbar in einer künftigen Migration. ⚠️ **Lehre:** `package:web` darf nie ungeschützt importiert werden — bricht `flutter test` auf der VM, `flutter analyze` merkt es nicht. Bedingter Export nach Root-in-Vorbild (`external_link_opener_io.dart` / `_web.dart`).
@@ -126,6 +130,9 @@
       auf dem Zweig laufen lassen. Der Migrationstest deckt die neue Fassung dann von selbst ab.
 - [ ] **L.1c (Lukas)** Secrets `SUPABASE_URL`/`SUPABASE_ANON_KEY` در ریپوی vox + اجرای یک‌باره‌ی
       `supabase/vox_tables.sql` — بدون این‌ها کپی خودکار در حساب وجود ندارد (فقط مرورگر + فایل پشتیبان).
+      ✅ **Secrets ثبت شدند (2026-09-18)** توسط Claude روی GitHub Actions از پروژه‌ی Supabase که Lukas فرستاد
+      (project ref `uayaomoxxzzbjquxbcpu`). ⚠️ **باز مانده، فقط با Lukas:** اجرای `supabase/vox_tables.sql`
+      در SQL Editor سایت Supabase — این محیط Claude به `supabase.com` دسترسی شبکه ندارد.
 - [ ] **L.1d (Lukas، برای هر دو اپ)** تصمیم حذف حساب (S.3 باز).
 
 ### L.2 — کامل بودن محتوا (Audit 2026-09-16، Claude، شمارش مستقیم منبع ↔ اپ)
@@ -133,9 +140,12 @@
 - ✅ **کامل نسبت به منبع** (`old files Lukasalmani/1/` ↔ `assets/data/`):
       Redemittel 1010 **۹۰۸/۹۰۸** (منبع خودش ۹۰۸ عبارت دارد، نه ۱۰۱۰؛ ۹۳ بخش) · Goethe B2 ۶۱/۶۱ ·
       ÖSD B2 ۱۲۱/۱۲۱ · Konnektoren ۱۸۶/۱۸۶ · NVV ۳۴۶/۳۴۶ · Präpositionen ۱۸۵/۱۸۵ · Dativ/Akkusativ ۱۱۰/۱۱۰
-- [ ] **L.2a ÖSD C1:** در اپ فقط **۶** عبارت (`redemittel_oesd_c1.json`) و فایل منبعی در ریپو نیست؛ deck
-      «به‌زودی» است ⇒ **از Lukas:** جزوه‌اش را بدهد، یا deck قبل از انتشار پنهان شود.
-      ⏳ **درخواست شد (2026-09-18)** — این همان «منبع اول» از فهرست L.2d است؛ منتظر فایل Lukas (هر قالبی).
+- [x] **L.2a ÖSD C1:** ✅ (2026-09-18) منبع از Lukas رسید (PDF «Prüfungstraining C1»)؛ `redemittel_oesd_c1.json`
+      با **۱۱۲ عبارت** ساخته شد (Schreiben Aufgabe 1 Antwortbrief، Aufgabe 2 Referat/Stellungnahme، Gute-Texte-
+      Redemittel، Sprechen Aufgabe 1/2/3) — دسته‌بندی بر اساس بخش‌های منبع؛ ترجمه‌ی EN چون منبع نداشت توسط
+      Claude اضافه شد. وصل شد: `AppRoutes.redemittelOesdC1` + route در `app_router.dart` (کپی دقیق از الگوی
+      ÖSD B2) + `feature_flags.dart` → `deck.oesd_c1` از `comingSoon` به `live` + `content_registry.dart`
+      (route + itemCount) + کلید l10n جدید `deck_oesd_c1_sub` (FA+EN). ~~در اپ فقط **۶** عبارت...~~
 - [x] **L.2b — تصمیم Lukas (2026-09-16):** این کلمه‌ها جزو **فاز کلمه‌ها (L.4)** هستند، مثل بقیه — فرقی ندارد.
       قبل از انتشار حداکثر **چند کارت نمونه** از سطوح و نوع‌های مختلف (اسم، فعل، …) تا هر نوع نمایشی یک نمونه داشته باشد
       (طبق پرامپت کلمه؛ روشش A.6 است).
@@ -166,9 +176,10 @@
       oesd_c1 · zusammenfassung · a2_zusammenfassung · feature.sprechen · feature.schreiben
       ⇒ برای هر کدام: منبع از Lukas ← ساخت، یا قبل از انتشار **پنهان** (`FeatureFlags`) — نسخه‌ی نهایی
       دکمه‌ی «به‌زودی» ندارد. **فهرست را با Lukas مرور کن.**
-      **Lukas (2026-09-16):** منبع هر کدام را **یکی‌یکی** می‌فرستد — Claude هر بار فقط منبع **یک** deck را بخواهد.
-      ⏳ **جریان کار (از 2026-09-18):** درخواست باز = **ÖSD C1** (L.2a). وقتی فایلش رسید: ساخت + تست + انتشار، بعد
-      منبع **بعدی** خواسته می‌شود. deckی که تا انتشار منبع نگیرد، قبل از انتشار **پنهان** می‌شود (`FeatureFlags`) —
+      ⏳ **جریان کار (از 2026-09-18):** **ÖSD C1 ✅ انجام شد.** درخواست باز بعدی = یکی از deckهای باقی‌مانده
+      (relativsatz، da_praepositionen، adjektive، adjektivdeklination، tempusformen، zusammenfassung،
+      a2_zusammenfassung، feature.sprechen، feature.schreiben) — منتظر منبع بعدی از Lukas. وقتی فایلش رسید:
+      ساخت + تست + انتشار، بعد منبع **بعدی** خواسته می‌شود. deckی که تا انتشار منبع نگیرد، قبل از انتشار **پنهان** می‌شود (`FeatureFlags`) —
       نسخه‌ی نهایی دکمه‌ی «به‌زودی» ندارد. ⚠️ این تنها کار باز L.2 است؛ کار بعدی Claude **L.3** است.
 
 ### L.6 — درس‌های گرامر از کتاب‌های Lukas (باز شد 2026-09-18)
@@ -184,9 +195,10 @@
 | # کتاب | کتاب | موضوع درس | درس اپ (slug) | چه اضافه شد | تاریخ |
 |---|---|---|---|---|---|
 | ۱ | Grammatik aktiv | Personalpronomen (ich…Sie، ضمیر برای اشیاء، du/ihr/Sie) | `personalpronomen` (درس ۱۸ اپ، A1) | ۲ بلوک توضیح (شخص/شمار/خطاب · ضمیر اشیاء) · ۲ جدول (Nominativ؛ آرتیکل ⇒ ضمیر) · ۴ مثال · ۶ تمرین (`ex-pers-5…10`) | 2026-09-18 ✅ |
+| ۲ | Grammatik aktiv | Konjugation Präsens (پایانه‌های فعل، استثنا: ریشه با -t/-d نیاز به -e- اضافه، ریشه با -s/-ß/-z/-x فقط -t برای du) | `konjugation-praesens` (درس در `verben-grundlagen.json`، A1) | ۱ بلوک توضیح تازه (block-2) · ۱ جدول (arbeiten) · ۲ مثال (`ex-7`,`ex-8`) · ۳ تمرین تازه (`ex-konjugation-5…7`) — همه از نو نوشته‌شده | 2026-09-18 ✅ |
 
 ⚠️ درس اپ از قبل بخش Akkusativ/Dativ را داشت؛ درس کتاب پایه‌ی A1 را اضافه کرد — چیزی حذف یا بازنویسی نشد.
-شمار تمرین‌ها: ۳۳۶ (منبع قدیمی) + ۶ = **۳۴۲**؛ آزمون سطح A1 هم ۵ تمرین بیشتر دارد (transform در آزمون نمی‌آید).
+شمار تمرین‌ها: ۳۳۶ (منبع قدیمی) + ۶ (personalpronomen) + ۳ (konjugation-praesens) = **۳۴۵**؛ آزمون سطح A1 هم ۵ تمرین بیشتر دارد (transform در آزمون نمی‌آید).
 
 ### L.3 — آماده‌سازی انتشار (جایگزین فاز ۱۶ قدیمی که هنوز iOS/Android/RevenueCat دارد)
 - [x] **L.3a زبان شروع اپ** ✅ (2026-09-16, تصمیم Lukas) — **مشکل:** پیش‌فرض قبلی فارسی بود؛ کاربر

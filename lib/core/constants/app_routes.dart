@@ -167,6 +167,11 @@ class AppRoutes {
 
   static String redemittelOesdB2Detail(int id) => '/redemittel-oesd-b2/$id';
 
+  static const redemittelOesdC1     = '/redemittel-oesd-c1';
+  static const redemittelOesdC1Quiz = '/redemittel-oesd-c1/quiz';
+
+  static String redemittelOesdC1Detail(int id) => '/redemittel-oesd-c1/$id';
+
   // Modalverben
   static const modalverben        = '/modalverben';
   static const modalverbenGrammar = '/modalverben/grammar';

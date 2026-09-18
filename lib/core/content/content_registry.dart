@@ -107,8 +107,9 @@ const contentRegistry = [
     titleFa    : 'عبارات ÖSD C1',
     source     : ContentSource.json,
     assetPath  : 'assets/data/redemittel_oesd_c1.json',
+    route      : AppRoutes.redemittelOesdC1,
     cefrLevels : ['C1'],
-    itemCount  : 6,
+    itemCount  : 112,
     flag       : 'deck.oesd_c1',
   ),
   ContentEntry(

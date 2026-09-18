@@ -9,7 +9,7 @@
    "regelmaessige-verben — افعال باقاعده"
   ],
   "exercises": [
-   "ex-konjugation-1..4 (متعلق به konjugation-praesens)",
+   "ex-konjugation-1..7 (متعلق به konjugation-praesens)",
    "ex-sein-1..4 (متعلق به verb-sein)",
    "ex-haben-1..4 (متعلق به verb-haben)",
    "ex-regelmaessig-1..4 (متعلق به regelmaessige-verben)"
@@ -36,6 +36,15 @@
      "bodyDE": "Im Deutschen bekommt jedes Verb je nach Person eine andere Endung: ich -e, du -st, er/sie/es -t, wir -en, ihr -t, sie/Sie -en. Der Verbstamm bleibt meistens gleich.",
      "bodyFA": "در زبان آلمانی هر فعل بسته به شخص، پایانهٔ متفاوتی می‌گیرد: ich -e، du -st، er/sie/es -t، wir -en، ihr -t، sie/Sie -en. ریشهٔ فعل معمولاً ثابت می‌ماند.",
      "bodyEN": "In German, every verb takes a different ending depending on the person: ich -e, du -st, er/sie/es -t, wir -en, ihr -t, sie/Sie -en. The verb stem usually stays the same."
+    },
+    {
+     "id": "block-2",
+     "headingDE": "Besonderheiten bei der Endung",
+     "headingFA": "استثناهای پایانه‌ی فعل",
+     "headingEN": "Special Cases in the Ending",
+     "bodyDE": "Endet der Verbstamm auf -t, -d oder auf -m/-n nach einem Konsonanten (arbeiten, warten, regnen), wird vor -st und -t ein zusätzliches -e- eingefügt: du arbeitest, er arbeitet. Endet der Stamm dagegen auf -s, -ß, -z oder -x (heißen, tanzen, sitzen), fällt bei 'du' das -s- der Endung weg, es bleibt nur -t: du heißt, du tanzt.",
+     "bodyFA": "اگر ریشه‌ی فعل به -t، -d یا به -m/-n بعد از یک صامت ختم شود (arbeiten، warten، regnen)، قبل از پایانه‌های -st و -t یک -e- اضافه می‌شود: du arbeitest، er arbeitet. اما اگر ریشه به -s، -ß، -z یا -x ختم شود (heißen، tanzen، sitzen)، برای «du» بخش -s پایانه حذف می‌شود و فقط -t می‌ماند: du heißt، du tanzt.",
+     "bodyEN": "If the verb stem ends in -t, -d, or in -m/-n after a consonant (arbeiten, warten, regnen), an extra -e- is inserted before -st and -t: du arbeitest, er arbeitet. If the stem instead ends in -s, -ß, -z, or -x (heißen, tanzen, sitzen), the -s- of the ending is dropped for 'du', leaving only -t: du heißt, du tanzt."
     }
    ],
    "examples": [
@@ -77,6 +86,24 @@
      "german": "Meine Eltern reisen oft nach Italien.",
      "meaningFA": "والدینم اغلب به ایتالیا سفر می‌کنند.",
      "meaningEN": "My parents often travel to Italy."
+    },
+    {
+     "id": "ex-7",
+     "german": "Wartest du schon lange auf den Bus?",
+     "meaningFA": "مدت زیادی است منتظر اتوبوس هستی؟",
+     "meaningEN": "Have you been waiting for the bus for a long time?",
+     "noteDE": "Stamm 'wart-' endet auf -t ⇒ zusätzliches -e- vor -st: wart-e-st.",
+     "noteFA": "ریشه‌ی «wart-» به -t ختم می‌شود ⇒ قبل از -st یک -e- اضافه می‌شود: wart-e-st.",
+     "noteEN": "Stem 'wart-' ends in -t ⇒ extra -e- before -st: wart-e-st."
+    },
+    {
+     "id": "ex-8",
+     "german": "Er heißt Tobias und sitzt neben mir.",
+     "meaningFA": "نام او توبیاس است و کنار من می‌نشیند.",
+     "meaningEN": "His name is Tobias and he sits next to me.",
+     "noteDE": "Stämme 'heiß-' und 'sitz-' enden auf -ß/-z ⇒ bei 'er' nur -t, kein doppeltes -s-.",
+     "noteFA": "ریشه‌های «heiß-» و «sitz-» به -ß/-z ختم می‌شوند ⇒ برای «er» فقط -t می‌آید.",
+     "noteEN": "Stems 'heiß-' and 'sitz-' end in -ß/-z ⇒ only -t for 'er', no extra -s-."
     }
    ],
    "tables": [
@@ -135,6 +162,55 @@
        ]
       }
      ]
+    },
+    {
+     "id": "table-2",
+     "titleDE": "Beispiel: arbeiten (Stamm endet auf -t)",
+     "titleFA": "نمونه: arbeiten (ریشه به -t ختم می‌شود)",
+     "titleEN": "Example: arbeiten (stem ends in -t)",
+     "style": "simple",
+     "columns": [
+      "Person",
+      "Form"
+     ],
+     "rows": [
+      {
+       "rowLabel": "ich",
+       "cells": [
+        "arbeite"
+       ]
+      },
+      {
+       "rowLabel": "du",
+       "cells": [
+        "arbeitest"
+       ]
+      },
+      {
+       "rowLabel": "er/sie/es",
+       "cells": [
+        "arbeitet"
+       ]
+      },
+      {
+       "rowLabel": "wir",
+       "cells": [
+        "arbeiten"
+       ]
+      },
+      {
+       "rowLabel": "ihr",
+       "cells": [
+        "arbeitet"
+       ]
+      },
+      {
+       "rowLabel": "sie/Sie",
+       "cells": [
+        "arbeiten"
+       ]
+      }
+     ]
     }
    ],
    "relatedSlugs": [
@@ -145,7 +221,10 @@
     "ex-konjugation-1",
     "ex-konjugation-2",
     "ex-konjugation-3",
-    "ex-konjugation-4"
+    "ex-konjugation-4",
+    "ex-konjugation-5",
+    "ex-konjugation-6",
+    "ex-konjugation-7"
    ]
   },
   {
@@ -818,6 +897,68 @@
    "explanationAfterAnswerDE": "Regelmäßige Verben bilden das Perfekt mit 'haben' + Partizip II (ge-...-t).",
    "explanationAfterAnswerFA": "افعال باقاعده Perfekt را با «haben» + Partizip II (ge-...-t) می‌سازند.",
    "explanationAfterAnswerEN": "Regular verbs form the Perfect tense with 'haben' + Partizip II (ge-...-t)."
+  },
+  {
+   "id": "ex-konjugation-5",
+   "lessonSlug": "konjugation-praesens",
+   "type": "multipleChoice",
+   "promptDE": "Wähle die richtige Form: Du ___ (arbeiten) heute lange.",
+   "promptFA": "شکل درست را انتخاب کن: Du ___ (arbeiten) heute lange.",
+   "promptEN": "Choose the correct form: Du ___ (arbeiten) heute lange.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "arbeitst",
+     "arbeitest",
+     "arbeitet",
+     "arbeiten"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "Stamm 'arbeit-' endet auf -t ⇒ zusätzliches -e- vor -st: arbeit-e-st.",
+   "explanationAfterAnswerFA": "ریشه‌ی «arbeit-» به -t ختم می‌شود ⇒ قبل از -st یک -e- اضافه می‌شود: arbeit-e-st.",
+   "explanationAfterAnswerEN": "Stem 'arbeit-' ends in -t ⇒ extra -e- before -st: arbeit-e-st."
+  },
+  {
+   "id": "ex-konjugation-6",
+   "lessonSlug": "konjugation-praesens",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Form von 'heißen'.",
+   "promptFA": "شکل درست فعل «heißen» را کامل کن.",
+   "promptEN": "Complete the correct form of 'heißen'.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Wie ___ du?",
+    "correctAnswer": "heißt",
+    "alternatives": [
+     "heißst",
+     "heißest"
+    ]
+   },
+   "explanationAfterAnswerDE": "Stamm 'heiß-' endet auf -ß ⇒ bei 'du' nur -t: heiß-t.",
+   "explanationAfterAnswerFA": "ریشه‌ی «heiß-» به -ß ختم می‌شود ⇒ برای «du» فقط -t: heiß-t.",
+   "explanationAfterAnswerEN": "Stem 'heiß-' ends in -ß ⇒ only -t for 'du': heiß-t."
+  },
+  {
+   "id": "ex-konjugation-7",
+   "lessonSlug": "konjugation-praesens",
+   "type": "multipleChoice",
+   "promptDE": "Was ist richtig? Es ___ (regnen) heute wieder.",
+   "promptFA": "کدام گزینه درست است؟ Es ___ (regnen) heute wieder.",
+   "promptEN": "Which is correct? Es ___ (regnen) heute wieder.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "regnt",
+     "regent",
+     "regnet",
+     "regnest"
+    ],
+    "correctIndex": 2
+   },
+   "explanationAfterAnswerDE": "Stamm 'regn-' endet auf -n nach Konsonant ⇒ zusätzliches -e- vor -t: regn-e-t.",
+   "explanationAfterAnswerFA": "ریشه‌ی «regn-» بعد از صامت به -n ختم می‌شود ⇒ قبل از -t یک -e- اضافه می‌شود: regn-e-t.",
+   "explanationAfterAnswerEN": "Stem 'regn-' ends in -n after a consonant ⇒ extra -e- before -t: regn-e-t."
   }
  ]
 }
