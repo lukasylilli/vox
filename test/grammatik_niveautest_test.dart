@@ -111,15 +111,17 @@ void main() {
       }
     });
 
-    test('Vorratsgrößen (Stand der Quelle)', () {
+    test('Vorratsgrößen (Stand der Inhalte)', () {
       final groesse = {
         for (final n in niveauTest.niveaus)
           n: niveauTest.vorrat(n, lektionen, uebungen).length,
       };
+      // A1: 86 aus der alten Quelle + 5 aus Buch-Lektion 1 (personalpronomen,
+      // L.6 2026-09-18; die sechste ist transform und zählt hier nie mit).
       expect(groesse, {
-        'A1': 86, 'A2': 146, 'B1': 170, 'B2': 107, 'C1': 24, 'C2': 3,
+        'A1': 91, 'A2': 146, 'B1': 170, 'B2': 107, 'C1': 24, 'C2': 3,
       });
-      expect(niveauTest.vorrat('a1', lektionen, uebungen).length, 86,
+      expect(niveauTest.vorrat('a1', lektionen, uebungen).length, 91,
           reason: 'Kleinschreibung aus der Route');
       expect(niveauTest.vorrat('X9', lektionen, uebungen), isEmpty);
     });
