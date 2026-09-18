@@ -3,7 +3,8 @@
 // PURPOSE: Alle Übungen der Grammatik-Lektionen sind vollständig, lösbar und
 //          werden richtig bewertet — in beiden Oberflächensprachen.
 //          Bestand: 336 aus der alten Quelle + 6 aus Lukas' Buch-Lektion 1
-//          (L.6, 2026-09-18, selbst geschrieben) = 342.
+//          (L.6, 2026-09-18, selbst geschrieben) + 3 aus Buch-Lektion 2
+//          (Konjugation Präsens, L.6, 2026-09-18, selbst geschrieben) = 345.
 //
 // Wächter:
 //   · jede Übung der Quelle wird gelesen (keine fällt still weg)
@@ -106,15 +107,15 @@ void main() {
       };
 
   group('Daten', () {
-    test('alle 342 Übungen werden gelesen, keine fällt weg', () {
-      // 336 (alte Quelle) + 6 (Buch-Lektion 1 → personalpronomen, L.6).
-      expect(roh.length, 342);
+    test('alle 345 Übungen werden gelesen, keine fällt weg', () {
+      // 336 (alte Quelle) + 6 (Buch-Lektion 1 → personalpronomen) + 3 (Buch-Lektion 2 → konjugation-praesens), L.6.
+      expect(roh.length, 345);
       final fehlend = [
         for (var i = 0; i < roh.length; i++)
           if (uebungen[i] == null) roh[i]['id'],
       ];
       expect(fehlend, isEmpty, reason: 'nicht lesbar: $fehlend');
-      expect(gueltig.map((u) => u.schluessel).toSet().length, 342,
+      expect(gueltig.map((u) => u.schluessel).toSet().length, 345,
           reason: 'Lektion + id doppelt');
     });
 

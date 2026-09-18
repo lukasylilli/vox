@@ -117,11 +117,13 @@ void main() {
           n: niveauTest.vorrat(n, lektionen, uebungen).length,
       };
       // A1: 86 aus der alten Quelle + 5 aus Buch-Lektion 1 (personalpronomen,
-      // L.6 2026-09-18; die sechste ist transform und zählt hier nie mit).
+      // L.6 2026-09-18; die sechste ist transform und zählt hier nie mit)
+      // + 3 aus Buch-Lektion 2 (konjugation-praesens, L.6 2026-09-18;
+      // multipleChoice/fillBlank, keine transform/wordOrder).
       expect(groesse, {
-        'A1': 91, 'A2': 146, 'B1': 170, 'B2': 107, 'C1': 24, 'C2': 3,
+        'A1': 94, 'A2': 146, 'B1': 170, 'B2': 107, 'C1': 24, 'C2': 3,
       });
-      expect(niveauTest.vorrat('a1', lektionen, uebungen).length, 91,
+      expect(niveauTest.vorrat('a1', lektionen, uebungen).length, 94,
           reason: 'Kleinschreibung aus der Route');
       expect(niveauTest.vorrat('X9', lektionen, uebungen), isEmpty);
     });
