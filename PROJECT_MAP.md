@@ -1,6 +1,6 @@
 # PROJECT MAP — VOX
 # نقشه کامل پروژه برای ناوبری سریع در هر session
-# آپدیت: 2026-09-18
+# آپدیت: 2026-09-18 (ادامه — اصلاح README)
 #
 # 🧭 قاعده‌ی ثابت هر چت جدید (Lukas، 2026-09-18) — این بخش را حذف نکن:
 #   ۱) اول چت: هر چهار فایل (vox/PLAN.md، vox/PROJECT_MAP.md، Root-in/PLAN.md، Root-in/MAP.md) را
@@ -21,7 +21,7 @@
 #     ✅ V.2 (2026-09-16): حل شد — شروع فقط assets/vocab_index.json (ساخته‌ی tool/vokab_index.dart در هر workflow، commit نمی‌شود)؛ کارت کامل lazy
 #   · ⚠️ مارک‌های ✓ در Wörter/*.txt از واقعیت عقب‌اند ⇒ منبع حقیقت = assets/vocab/ (tool/sync_backlog.py)
 #   · B-3 / R-1.1 در کد رفع شده‌اند (stripPreposition در word_list_item.dart) — در BACKLOG اصلاح شد
-#   · README قدیمی: «Selbstlernen — Gewohnheiten, Streaks» (Habit از 2026-09-13 حذف شده)
+#   · ✅ README (2026-09-18): خط قدیمی «Selbstlernen — Gewohnheiten, Streaks» به Pomodoro/Lernpfad/Vorlagen + Root-in-Link اصلاح شد
 #   · فاز A (خودکارسازی ورود کلمات) باز شد — PLAN.md → «فاز A»
 #   · فاز S (ذخیره‌سازی داده‌ی کاربر) — S.0–S.6 ✅ (S.6 feste Listen-id 2026-09-16, DB v7, Vertrag v3)؛ باز: S.3 Konto löschen
 #
@@ -36,7 +36,7 @@
 #   باز: ÖSD C1 (۶ عبارت، بدون منبع) · A1/A2 Wortschatz (۱٬۰۶۳ کلمه در old files/1، در اپ استفاده نشده) ·
 #   deckهای «به‌زودی» در core/services/feature_flags.dart (Lukas منبع هر کدام را یکی‌یکی می‌فرستد)
 #     ⏳ 2026-09-18: درخواست باز = ÖSD C1؛ بعد از رسیدنش منبع بعدی خواسته می‌شود. بدون منبع تا انتشار ⇒ deck پنهان.
-#     ⇒ تنها کار باز L.2؛ بعد از آن L.3 (تست RTL، آفلاین، آیکون/manifest، حریم خصوصی، README).
+#     ⇒ تنها کار باز L.2؛ بعد از آن L.3 (تست RTL، آفلاین، آیکون/manifest، حریم خصوصی — README ✅ 2026-09-18).
 # 📘 L.6 (از 2026-09-18): درس‌های گرامر کتاب‌های Lukas یکی‌یکی می‌رسند. شماره‌ی او ≠ شماره‌ی اپ ⇒ نگاشت در PLAN.md → L.6 (+ GRAMMATIK_MAP).
 #   ⚠️ کپی‌رایت: هیچ جمله/تمرینی از کتاب کپی نمی‌شود — فقط موضوع؛ متن و مثال و تمرین از نو نوشته می‌شود.
 #   رسیده: درس ۱ (Grammatik aktiv, Personalpronomen) ⇒ assets/data/grammatik/pronomen.json → `personalpronomen`. تمرین‌ها: ۳۴۲ = ۳۳۶ + ۶.

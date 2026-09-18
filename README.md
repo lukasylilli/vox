@@ -30,7 +30,8 @@ umschaltbar.
 - **Leitner-Karteikasten** — Wiederholung in 5 Boxen
 - **Lesen & Hören** — Texte mit Wort-Popup, aktuelle Nachrichten (Tagesschau, DW), Vorlesen per Sprachausgabe
 - **Prüfungen** — Redemittel für Goethe B2, ÖSD B2 und mehr
-- **Selbstlernen** — Gewohnheiten, Streaks, Pomodoro-Timer
+- **Selbstlernen** — Pomodoro-Timer, Lernpfad, Vorlagen sowie ein Link zur eigenständigen
+  Routine-App ([Root-in](https://lukasylilli.github.io/Root-in/)) für Gewohnheiten und Streaks
 
 **Datenschutz:** Es gibt keinen Server und kein Tracking. Fortschritt und eigene Wörter
 bleiben im Browser auf deinem Gerät (IndexedDB / localStorage).
@@ -113,3 +114,4 @@ Fehler oder Ideen bitte als [Issue](https://github.com/lukasylilli/vox/issues) m
 Ausnahme: Die Wortlisten in `old files Lukasalmani/Wörter/` stammen aus
 [AlleDeutschenWoerter](https://github.com/cpos/AlleDeutschenWoerter) und stehen unter
 der GPL-2.0 (siehe die dortige `LICENSE.txt`).
+

@@ -9,16 +9,18 @@
 > و خط «آخرین جلسه / قدم بعدی» پایین را تازه کن. **کاری که در پلن و مپ ثبت نشده، برای چت بعدی وجود ندارد.**
 > فهرست مطالب و بخش Hinweise همیشه حفظ می‌شوند.
 >
-> 🗓️ **آخرین جلسه:** 2026-09-18 — L.6 شروع شد؛ درس ۱ کتاب «Grammatik aktiv» (Personalpronomen) از نو نوشته و در درس
-> `personalpronomen` اپ جا گرفت (۲ توضیح، ۲ جدول، ۴ مثال، ۶ تمرین) · تصمیم‌های Lukas ثبت شد (G7d/G7e بعد از انتشار).
-> ⏭️ **قدم بعدی:** درس بعدی کتاب از Lukas (L.6) · منتظر منبع ÖSD C1 (L.2a/L.2d) · بعد **L.3** آماده‌سازی انتشار.
+> 🗓️ **آخرین جلسه:** 2026-09-18 (ادامه) — L.2 روی منبع ÖSD C1 و L.6 روی درس بعدی کتاب Lukas منتظر مانده (نیاز به Lukas)؛
+> در غیاب این منابع، اولین قدم باز غیرمنتظر = **L.3** انتخاب شد: خط قدیمی README («Selbstlernen — Gewohnheiten, Streaks»)
+> که از 2026-09-13 غلط بود (Habit حذف شده، جایگزین: لینک Root-in + Pomodoro/Lernpfad/Vorlagen) اصلاح شد.
+> ⏭️ **قدم بعدی:** بقیه‌ی L.3 (تست RTL همه‌ی صفحات، تست آفلاین، آیکون/manifest وب، صفحه‌ی حریم خصوصی) · درس بعدی کتاب
+> از Lukas (L.6) · منتظر منبع ÖSD C1 (L.2a/L.2d).
 
 > ⚠️ **2026-09-13 — Umbau zur reinen Web-App:** android/ios/macos/linux/windows, RevenueCat (Abos) und lokale Notifications wurden entfernt. VOX läuft nur noch als kostenlose Flutter-Web-App auf GitHub Pages (DB: drift + SQLite-WASM). Ältere Einträge unten beschreiben teils den früheren nativen Stand.
 > ⚠️ **2026-09-13 — Habit/Routine entfernt, Root-in-Verlinkung.** VOX bleibt dauerhaft ein eigenes Repo (`github.com/lukasylilli/vox`), getrennt von Root-in (`github.com/lukasylilli/Root-in`, live unter `lukasylilli.github.io/Root-in/`) — bewusst KEIN Code-Merge, damit Nutzer, die nur die Routine-App brauchen, sie eigenständig nutzen können. In Selbstlernen ersetzt die Karte **„Routine"** die frühere „Habit Maker"-Karte und öffnet Root-in per Link in einem neuen Tab (`core/constants/app_links.dart` → `rootInUrl`, geöffnet über `core/utils/external_link_opener.dart`). Entfernt: `habit_maker_screen.dart`, `habit_stats_screen.dart`, `habit_day_selector_widget.dart`, `streak_chart_widget.dart`, `core/database/dao/habit_dao.dart`, alle Habit-Provider in `selbstlernen_controller.dart` und die „verknüpfte Gewohnheit"-Auswahl im Pomodoro-Timer (Pomodoro selbst bleibt unverändert als eigenständiger Fokus-Timer). Die Drift-Tabellen `Habits`/`HabitSessions` bleiben vorerst im Schema (kein Downgrade) — unbenutzt, entfernbar in einer künftigen Migration. ⚠️ **Lehre:** `package:web` darf nie ungeschützt importiert werden — bricht `flutter test` auf der VM, `flutter analyze` merkt es nicht. Bedingter Export nach Root-in-Vorbild (`external_link_opener_io.dart` / `_web.dart`).
 > ⚠️ **2026-09-15 — Voll-Audit von Code + Daten (Claude, direkt über die GitHub-API).** Befunde, die die Planung ändern:
 > **(1) Die `✓ `-Markierungen in `old files Lukasalmani/Wörter/*.txt` sind NICHT mehr die Wahrheit.** Gezählt: `assets/vocab/` enthält **87 Karten** (alle `schema: "3.0"`, kein kaputtes JSON) — davon **76 Verben**; markiert ist aber nur `✓ warten` (+ 3 Adjektive, 1 Nomen). 45 dieser Verbkarten stehen unmarkiert in den txt-Listen, 31 stehen dort gar nicht (sie stammen aus dem Dativ/Akkusativ-Deck, nicht aus dem alphabetischen Backlog). ⇒ **Neue Regel: einzige Wahrheit ist `assets/vocab/`; die `✓ `-Marken werden daraus abgeleitet (Sync-Skript), nicht mehr von Hand gesetzt.**
 > **(2) Harte Obergrenze im Laufzeit-Pfad gefunden.** `lib/features/vokabular/controllers/vokabular_controller.dart` lädt beim Start **jede** Datei aus `assets/vocab/` über den `AssetManifest` und dekodiert sie vollständig in den Speicher. Bei 87 Karten unauffällig, bei einigen Tausend startet die Web-App nicht mehr sinnvoll. ⇒ **V.2 (`vocab.db`) ist keine „später"-Aufgabe mehr, sondern die Voraussetzung für die Automatisierung** (siehe فاز A). → ✅ **Gelöst durch V.2 (2026-09-16):** Die App lädt beim Start nur noch EINEN Wortindex, die volle Karte erst beim Öffnen.
-> **(3) Doku-Drift korrigiert:** B-3 / R-1.1 sind im Code längst erledigt (`stripPreposition()` in `word_list_item.dart`) und werden hier auf ✅ gesetzt. Die README nennt unter „Selbstlernen" noch „Gewohnheiten, Streaks" — seit 2026-09-13 falsch (Habit entfernt, Root-in-Link).
+> **(3) Doku-Drift korrigiert:** B-3 / R-1.1 sind im Code längst erledigt (`stripPreposition()` in `word_list_item.dart`) und werden hier auf ✅ gesetzt. Die README nannte unter „Selbstlernen" noch „Gewohnheiten, Streaks" — seit 2026-09-13 falsch (Habit entfernt, Root-in-Link). ✅ **Behoben (2026-09-18):** README-Zeile auf Pomodoro/Lernpfad/Vorlagen + Root-in-Link umgestellt.
 > **(4) Entscheidung des Nutzers 2026-09-15:** Die Wörter werden **weiter alphabetisch** abgearbeitet (nicht nach Häufigkeit sortiert) — der Durchsatz kommt aus der Automatisierung, nicht aus der Reihenfolge.
 
 # پلن کامل صفر تا انتشار اپ یادگیری آلمانی برای فارسی‌زبانان
@@ -198,7 +200,10 @@
       (+`_io`/`_web`: `<html lang>` همراه زبان) · `web/index.html` (`lang="en"`) · پیش‌فرض‌های
       `AppL10n.activeLang`/`Formatters.useFa` ⇒ en · تست: `test/geraete_sprache_test.dart`.
       ⚠️ هر تغییر بعدی در زبان پیش‌فرض فقط در `geraete_sprache.dart` — هیچ جای دیگری `'fa'` را پیش‌فرض نکند.
-- [ ] تست RTL همه‌ی صفحات · تست آفلاین · آیکون و manifest وب · صفحه‌ی حریم خصوصی · اصلاح README
+- [x] **اصلاح README** ✅ (2026-09-18) — خط قدیمی «Selbstlernen — Gewohnheiten, Streaks» (از 2026-09-13 غلط
+      بود چون Habit حذف و با لینک Root-in جایگزین شده بود) به «Pomodoro-Timer, Lernpfad, Vorlagen sowie ein
+      Link zur eigenständigen Routine-App (Root-in)» تغییر کرد. فقط متن README؛ کد دست نخورد.
+- [ ] تست RTL همه‌ی صفحات · تست آفلاین · آیکون و manifest وب · صفحه‌ی حریم خصوصی
 - [ ] **(Lukas)** تست روی آیفون واقعی (Safari + افزودن به صفحه‌ی اصلی)
 
 ### L.4 — بعد از انتشار: کلمه‌ها، روزانه
