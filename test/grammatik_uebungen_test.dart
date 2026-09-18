@@ -133,10 +133,11 @@ void main() {
 
     test('fünf Arten — Quelle plus eigene Übungen', () {
       // Quelle 85/82/67/51/51; dazu aus Buch-Lektion 1 je eine multipleChoice,
-      // wordOrder, transform, matching und zwei fillBlank.
+      // wordOrder, transform, matching und zwei fillBlank; aus Buch-Lektion 2
+      // (konjugation-praesens) zwei multipleChoice und eine fillBlank.
       int zahl(UebungsArt a) => gueltig.where((u) => u.art == a).length;
-      expect(zahl(UebungsArt.multipleChoice), 86);
-      expect(zahl(UebungsArt.fillBlank), 84);
+      expect(zahl(UebungsArt.multipleChoice), 88);
+      expect(zahl(UebungsArt.fillBlank), 85);
       expect(zahl(UebungsArt.wordOrder), 68);
       expect(zahl(UebungsArt.transform), 52);
       expect(zahl(UebungsArt.matching), 52);
