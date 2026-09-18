@@ -19,17 +19,29 @@ class PrivacyPolicyScreen extends StatelessWidget {
         children: [
           _Section(
             AppL10n.meaning(context, fa: 'آخرین بروزرسانی', en: 'Last updated'),
-            AppL10n.meaning(context, fa: '۲۲ شهریور ۱۴۰۵', en: '13 September 2026'),
+            AppL10n.meaning(context, fa: '۲۷ شهریور ۱۴۰۵', en: '18 September 2026'),
           ),
           _Section(
             AppL10n.meaning(context, fa: 'جمع‌آوری داده‌ها', en: 'Data collection'),
             AppL10n.meaning(context,
-              fa: 'VOX هیچ داده شخصی را روی سرور ذخیره نمی‌کند و به ثبت‌نام نیازی ندارد. '
-                  'تمام اطلاعات (واژگان، پیشرفت، عادت‌ها) '
-                  'فقط در مرورگر روی دستگاه شما ذخیره می‌شوند.',
-              en: 'VOX stores no personal data on any server and needs no account. '
-                  'All information (vocabulary, progress, habits) is kept only in '
-                  'your browser on this device.'),
+              fa: 'VOX بدون نیاز به حساب کاربری کار می‌کند. به‌طور پیش‌فرض هیچ داده‌ی '
+                  'شخصی روی سرور ذخیره نمی‌شود؛ تمام اطلاعات (واژگان، پیشرفت، عادت‌ها) '
+                  'فقط در مرورگر روی همین دستگاه شما ذخیره می‌شوند.',
+              en: 'VOX works without any account. By default, no personal data is '
+                  'stored on any server; all information (vocabulary, progress, '
+                  'habits) is kept only in your browser on this device.'),
+          ),
+          _Section(
+            AppL10n.meaning(context, fa: 'حساب کاربری (اختیاری)', en: 'Account (optional)'),
+            AppL10n.meaning(context,
+              fa: 'اگر خودتان از بخش تنظیمات یک حساب بسازید، ایمیل شما و یک نسخه‌ی '
+                  'پشتیبان از پیشرفت‌تان (واژگان، Leitner، عادت‌ها) روی سرور Supabase '
+                  'ذخیره می‌شود تا بین چند دستگاه هماهنگ بماند. بدون ساختن حساب، هیچ‌چیز '
+                  'به سرور فرستاده نمی‌شود.',
+              en: 'If you choose to create an account in Settings, your email and a '
+                  'backup copy of your progress (vocabulary, Leitner state, habits) '
+                  'are stored on our Supabase server so it can sync across devices. '
+                  'Without creating an account, nothing is sent to any server.'),
           ),
           _Section(
             AppL10n.meaning(context, fa: 'میکروفون', en: 'Microphone'),
@@ -42,10 +54,12 @@ class PrivacyPolicyScreen extends StatelessWidget {
           _Section(
             AppL10n.meaning(context, fa: 'اینترنت', en: 'Internet'),
             AppL10n.meaning(context,
-              fa: 'VOX در مرورگر اجرا می‌شود؛ برای بارگذاری اپ و بخش اخبار (RSS) '
-                  'به اینترنت نیاز است.',
-              en: 'VOX runs in your browser; the internet is needed to load the app '
-                  'and for the news section (RSS).'),
+              fa: 'VOX در مرورگر اجرا می‌شود و برای بارگذاری اولیه و بخش اخبار (RSS) '
+                  'به اینترنت نیاز دارد؛ اگر حساب بسازید، برای هماهنگ‌سازی هم به '
+                  'اینترنت نیاز است.',
+              en: 'VOX runs in your browser and needs the internet for the initial '
+                  'load and the news section (RSS); if you create an account, it '
+                  'also needs the internet to sync.'),
           ),
           _Section(
             AppL10n.meaning(context, fa: 'تماس با ما', en: 'Contact us'),

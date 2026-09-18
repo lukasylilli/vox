@@ -730,6 +730,9 @@ screens/
                                       restore با SnackBar موفقیت / PurchasesError handling
                                       ⚠️ paywall + customer center: method channel — بدون context arg
   import_screen.dart          [x]  — SegmentedButton type/format، TextField paste، ImportResult
+  privacy_policy_screen.dart  [x]  — متن حریم خصوصی؛ **به‌روز شد (2026-09-18)**: بخش «حساب کاربری (اختیاری)»
+                                     اضافه شد چون متن قدیمی از قبل S.3 بود و دیگر درست نبود (می‌گفت هیچ داده‌ای
+                                     روی سرور نمی‌رود؛ الان با ساختن حساب، ایمیل + نسخه‌ی پشتیبان می‌رود)
   fragen_screen.dart          [x] (در lib/features/fragen/) — ۸ FAQ با InkWell expansion
   sozialmedien_screen.dart    [x] (در lib/features/sozialmedien/) — Telegram/Instagram/YouTube
 controllers/
