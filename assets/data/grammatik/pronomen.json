@@ -31,6 +31,24 @@
      "bodyDE": "Personalpronomen (ich, du, er, sie, es, wir, ihr, sie/Sie) stehen anstelle eines Nomens und werden je nach Kasus (Nominativ, Akkusativ, Dativ) dekliniert.",
      "bodyFA": "ضمایر شخصی (ich، du، er، sie، es، wir، ihr، sie/Sie) به‌جای یک اسم می‌آیند و بسته به کاسوس (Nominativ، Akkusativ، Dativ) صرف می‌شوند.",
      "bodyEN": "Personal pronouns (ich, du, er, sie, es, wir, ihr, sie/Sie) stand in place of a noun and are declined depending on the case (nominative, accusative, dative)."
+    },
+    {
+     "id": "block-2",
+     "headingDE": "Person, Zahl und Anrede",
+     "headingFA": "شخص، شمار و شکل خطاب",
+     "headingEN": "Person, Number and Address",
+     "bodyDE": "Im Singular gibt es drei Personen (ich, du, er/sie/es), im Plural ebenfalls drei (wir, ihr, sie). Für die Anrede stehen zwei Wege offen: du für eine vertraute Person und ihr für mehrere vertraute Personen; Sie — immer mit großem S — im Beruf und gegenüber Fremden, und zwar für eine Person genauso wie für mehrere.",
+     "bodyFA": "در مفرد سه شخص داریم (ich، du، er/sie/es) و در جمع هم سه تا (wir، ihr، sie). برای خطاب دو راه هست: du برای یک نفر که با او صمیمی هستیم و ihr برای چند نفر صمیمی؛ Sie — همیشه با S بزرگ — در محیط کاری و با افراد غریبه، هم برای یک نفر و هم برای چند نفر.",
+     "bodyEN": "There are three persons in the singular (ich, du, er/sie/es) and three in the plural (wir, ihr, sie). For addressing someone there are two ways: du for one familiar person and ihr for several; Sie — always capitalised — at work and with strangers, for one person as well as for several."
+    },
+    {
+     "id": "block-3",
+     "headingDE": "Pronomen für Sachen",
+     "headingFA": "ضمیر برای اشیاء",
+     "headingEN": "Pronouns for Things",
+     "bodyDE": "Auch Dinge bekommen ein Pronomen. Welches es ist, entscheidet der Artikel des Nomens: der wird zu er, die zu sie, das zu es; im Plural steht immer sie. Ein Tisch ist im Deutschen also er und eine Tür sie — mit dem Geschlecht einer Person hat das nichts zu tun.",
+     "bodyFA": "اشیاء هم ضمیر می‌گیرند. کدام ضمیر؟ آرتیکل همان اسم تعیین می‌کند: der می‌شود er، die می‌شود sie و das می‌شود es؛ در جمع همیشه sie. پس در آلمانی یک میز «er» است و یک در «sie» — این ربطی به جنسیت انسان ندارد.",
+     "bodyEN": "Things take pronouns too. Which one depends on the noun's article: der becomes er, die becomes sie, das becomes es; in the plural it is always sie. So a table is er in German and a door is sie — this has nothing to do with a person's gender."
     }
    ],
    "examples": [
@@ -72,6 +90,42 @@
      "german": "Sie kennen uns schon lange.",
      "meaningFA": "آن‌ها ما را خیلی وقت است می‌شناسند.",
      "meaningEN": "They have known us for a long time."
+    },
+    {
+     "id": "ex-7",
+     "german": "Der Teppich ist neu. Er liegt im Flur.",
+     "meaningFA": "فرش نو است. در راهرو پهن شده است.",
+     "meaningEN": "The carpet is new. It is in the hallway.",
+     "noteDE": "'der Teppich' ist maskulin ⇒ 'er'.",
+     "noteFA": "«der Teppich» مذکر است ⇒ «er».",
+     "noteEN": "'der Teppich' is masculine ⇒ 'er'."
+    },
+    {
+     "id": "ex-8",
+     "german": "Die Wohnung ist klein, aber sie ist sehr hell.",
+     "meaningFA": "آپارتمان کوچک است، اما خیلی روشن است.",
+     "meaningEN": "The flat is small, but it is very bright.",
+     "noteDE": "'die Wohnung' ist feminin ⇒ 'sie'.",
+     "noteFA": "«die Wohnung» مؤنث است ⇒ «sie».",
+     "noteEN": "'die Wohnung' is feminine ⇒ 'sie'."
+    },
+    {
+     "id": "ex-9",
+     "german": "Jonas und Nina, kommt ihr mit?",
+     "meaningFA": "یوناس و نینا، شما هم می‌آیید؟",
+     "meaningEN": "Jonas and Nina, are you coming along?",
+     "noteDE": "Mehrere Personen, die man duzt ⇒ 'ihr'.",
+     "noteFA": "چند نفر که با آن‌ها صمیمی هستیم ⇒ «ihr».",
+     "noteEN": "Several people you address informally ⇒ 'ihr'."
+    },
+    {
+     "id": "ex-10",
+     "german": "Frau Bauer, haben Sie kurz Zeit?",
+     "meaningFA": "خانم باوئر، چند لحظه وقت دارید؟",
+     "meaningEN": "Ms Bauer, do you have a moment?",
+     "noteDE": "Höfliche Anrede: 'Sie' immer mit großem S.",
+     "noteFA": "خطاب مؤدبانه: «Sie» همیشه با S بزرگ.",
+     "noteEN": "Polite address: 'Sie' always with a capital S."
     }
    ],
    "tables": [
@@ -144,6 +198,90 @@
        ]
       }
      ]
+    },
+    {
+     "id": "table-2",
+     "titleDE": "Nominativ: Person und Zahl",
+     "titleFA": "Nominativ: شخص و شمار",
+     "titleEN": "Nominative: Person and Number",
+     "style": "simple",
+     "columns": [
+      "Person",
+      "Singular",
+      "Plural"
+     ],
+     "rows": [
+      {
+       "rowLabel": "1.",
+       "cells": [
+        "ich",
+        "wir"
+       ]
+      },
+      {
+       "rowLabel": "2. (vertraut)",
+       "cells": [
+        "du",
+        "ihr"
+       ]
+      },
+      {
+       "rowLabel": "2. (förmlich)",
+       "cells": [
+        "Sie",
+        "Sie"
+       ]
+      },
+      {
+       "rowLabel": "3.",
+       "cells": [
+        "er / sie / es",
+        "sie"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "table-3",
+     "titleDE": "Welches Pronomen für welches Nomen?",
+     "titleFA": "برای هر اسم کدام ضمیر؟",
+     "titleEN": "Which Pronoun for Which Noun?",
+     "style": "simple",
+     "columns": [
+      "Artikel",
+      "Beispiel",
+      "Pronomen"
+     ],
+     "rows": [
+      {
+       "rowLabel": "der",
+       "cells": [
+        "der Teppich",
+        "er"
+       ]
+      },
+      {
+       "rowLabel": "die",
+       "cells": [
+        "die Wohnung",
+        "sie"
+       ]
+      },
+      {
+       "rowLabel": "das",
+       "cells": [
+        "das Fenster",
+        "es"
+       ]
+      },
+      {
+       "rowLabel": "die (Plural)",
+       "cells": [
+        "die Bücher",
+        "sie"
+       ]
+      }
+     ]
     }
    ],
    "relatedSlugs": [
@@ -153,7 +291,13 @@
     "ex-pers-1",
     "ex-pers-2",
     "ex-pers-3",
-    "ex-pers-4"
+    "ex-pers-4",
+    "ex-pers-5",
+    "ex-pers-6",
+    "ex-pers-7",
+    "ex-pers-8",
+    "ex-pers-9",
+    "ex-pers-10"
    ]
   },
   {
@@ -962,6 +1106,135 @@
    "explanationAfterAnswerDE": "'es' als unpersönliches Subjekt bei Geräuschen.",
    "explanationAfterAnswerFA": "«es» به‌عنوان فاعل غیرشخصی برای صداها.",
    "explanationAfterAnswerEN": "'es' as an impersonal subject for sounds."
+  },
+  {
+   "id": "ex-pers-5",
+   "lessonSlug": "personalpronomen",
+   "type": "multipleChoice",
+   "promptDE": "Der Teppich ist neu. ___ liegt im Flur.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "Er",
+     "Sie",
+     "Es",
+     "Ihr"
+    ],
+    "correctIndex": 0
+   },
+   "explanationAfterAnswerDE": "'der Teppich' ist maskulin, also steht dafür 'er'.",
+   "explanationAfterAnswerFA": "«der Teppich» مذکر است، پس ضمیرش «er» می‌شود.",
+   "explanationAfterAnswerEN": "'der Teppich' is masculine, so the pronoun is 'er'."
+  },
+  {
+   "id": "ex-pers-6",
+   "lessonSlug": "personalpronomen",
+   "type": "fillBlank",
+   "promptDE": "Ergänze das passende Pronomen.",
+   "promptFA": "ضمیر مناسب را کامل کن.",
+   "promptEN": "Complete with the right pronoun.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Jonas und Nina, kommt ___ mit?",
+    "correctAnswer": "ihr",
+    "alternatives": [
+     "du",
+     "Sie"
+    ]
+   },
+   "explanationAfterAnswerDE": "Mehrere Personen, die man duzt ⇒ 'ihr'.",
+   "explanationAfterAnswerFA": "چند نفر که با آن‌ها صمیمی هستیم ⇒ «ihr».",
+   "explanationAfterAnswerEN": "Several people you address informally ⇒ 'ihr'."
+  },
+  {
+   "id": "ex-pers-7",
+   "lessonSlug": "personalpronomen",
+   "type": "fillBlank",
+   "promptDE": "Ergänze das passende Pronomen.",
+   "promptFA": "ضمیر مناسب را کامل کن.",
+   "promptEN": "Complete with the right pronoun.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Die Wohnung ist klein, aber ___ ist sehr hell.",
+    "correctAnswer": "sie",
+    "alternatives": [
+     "er",
+     "es"
+    ]
+   },
+   "explanationAfterAnswerDE": "'die Wohnung' ist feminin ⇒ 'sie'.",
+   "explanationAfterAnswerFA": "«die Wohnung» مؤنث است ⇒ «sie».",
+   "explanationAfterAnswerEN": "'die Wohnung' is feminine ⇒ 'sie'."
+  },
+  {
+   "id": "ex-pers-8",
+   "lessonSlug": "personalpronomen",
+   "type": "matching",
+   "promptDE": "Verbinde das Nomen mit seinem Pronomen.",
+   "promptFA": "هر اسم را به ضمیرش وصل کن.",
+   "promptEN": "Match each noun with its pronoun.",
+   "payload": {
+    "type": "matching",
+    "pairs": [
+     {
+      "left": "der Tisch",
+      "right": "er"
+     },
+     {
+      "left": "die Tür",
+      "right": "sie"
+     },
+     {
+      "left": "das Fenster",
+      "right": "es"
+     }
+    ]
+   },
+   "explanationAfterAnswerDE": "Der Artikel entscheidet: der ⇒ er, die ⇒ sie, das ⇒ es.",
+   "explanationAfterAnswerFA": "آرتیکل تعیین می‌کند: der ⇒ er، die ⇒ sie، das ⇒ es.",
+   "explanationAfterAnswerEN": "The article decides: der ⇒ er, die ⇒ sie, das ⇒ es."
+  },
+  {
+   "id": "ex-pers-9",
+   "lessonSlug": "personalpronomen",
+   "type": "wordOrder",
+   "promptDE": "Bilde einen richtigen Satz.",
+   "promptFA": "جمله را به‌درستی بچین.",
+   "promptEN": "Form a correct sentence.",
+   "payload": {
+    "type": "wordOrder",
+    "shuffledWords": [
+     "heute",
+     "später",
+     "Sie",
+     "kommt"
+    ],
+    "correctSentence": "Sie kommt heute später."
+   },
+   "explanationAfterAnswerDE": "Das Verb steht im Aussagesatz an zweiter Stelle.",
+   "explanationAfterAnswerFA": "در جمله‌ی خبری، فعل در جایگاه دوم می‌آید.",
+   "explanationAfterAnswerEN": "In a statement the verb comes second."
+  },
+  {
+   "id": "ex-pers-10",
+   "lessonSlug": "personalpronomen",
+   "type": "transform",
+   "promptDE": "Schreib den Satz in der höflichen Anrede.",
+   "promptFA": "جمله را با خطاب مؤدبانه بنویس.",
+   "promptEN": "Rewrite the sentence using the polite form.",
+   "payload": {
+    "type": "transform",
+    "sourceSentence": "Kommst du heute mit?",
+    "instructionDE": "du ⇒ Sie",
+    "instructionFA": "du ⇒ Sie",
+    "instructionEN": "du ⇒ Sie",
+    "correctAnswer": "Kommen Sie heute mit?"
+   },
+   "explanationAfterAnswerDE": "Bei 'Sie' steht das Verb in der Wir-Form: 'kommen'.",
+   "explanationAfterAnswerFA": "با «Sie» فعل مثل حالت wir صرف می‌شود: «kommen».",
+   "explanationAfterAnswerEN": "With 'Sie' the verb takes the same form as with 'wir': 'kommen'."
   }
  ]
 }

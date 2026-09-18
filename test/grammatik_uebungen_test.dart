@@ -1,7 +1,9 @@
 // FILE: test/grammatik_uebungen_test.dart
 // PHASE: فاز G → G7a (2026-09-16) · فاز LAUNCH → L.2e
-// PURPOSE: Die 336 Übungen der Grammatik-Quelle sind vollständig, lösbar und
+// PURPOSE: Alle Übungen der Grammatik-Lektionen sind vollständig, lösbar und
 //          werden richtig bewertet — in beiden Oberflächensprachen.
+//          Bestand: 336 aus der alten Quelle + 6 aus Lukas' Buch-Lektion 1
+//          (L.6, 2026-09-18, selbst geschrieben) = 342.
 //
 // Wächter:
 //   · jede Übung der Quelle wird gelesen (keine fällt still weg)
@@ -104,14 +106,15 @@ void main() {
       };
 
   group('Daten', () {
-    test('alle 336 Übungen werden gelesen, keine fällt weg', () {
-      expect(roh.length, 336);
+    test('alle 342 Übungen werden gelesen, keine fällt weg', () {
+      // 336 (alte Quelle) + 6 (Buch-Lektion 1 → personalpronomen, L.6).
+      expect(roh.length, 342);
       final fehlend = [
         for (var i = 0; i < roh.length; i++)
           if (uebungen[i] == null) roh[i]['id'],
       ];
       expect(fehlend, isEmpty, reason: 'nicht lesbar: $fehlend');
-      expect(gueltig.map((u) => u.schluessel).toSet().length, 336,
+      expect(gueltig.map((u) => u.schluessel).toSet().length, 342,
           reason: 'Lektion + id doppelt');
     });
 
@@ -127,13 +130,15 @@ void main() {
       });
     });
 
-    test('fünf Arten wie in der Quelle', () {
+    test('fünf Arten — Quelle plus eigene Übungen', () {
+      // Quelle 85/82/67/51/51; dazu aus Buch-Lektion 1 je eine multipleChoice,
+      // wordOrder, transform, matching und zwei fillBlank.
       int zahl(UebungsArt a) => gueltig.where((u) => u.art == a).length;
-      expect(zahl(UebungsArt.multipleChoice), 85);
-      expect(zahl(UebungsArt.fillBlank), 82);
-      expect(zahl(UebungsArt.wordOrder), 67);
-      expect(zahl(UebungsArt.transform), 51);
-      expect(zahl(UebungsArt.matching), 51);
+      expect(zahl(UebungsArt.multipleChoice), 86);
+      expect(zahl(UebungsArt.fillBlank), 84);
+      expect(zahl(UebungsArt.wordOrder), 68);
+      expect(zahl(UebungsArt.transform), 52);
+      expect(zahl(UebungsArt.matching), 52);
     });
 
     test('jede Lektion hat genau ihre exerciseSlugs', () {

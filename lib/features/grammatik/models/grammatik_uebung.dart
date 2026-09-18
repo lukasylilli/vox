@@ -1,6 +1,6 @@
 // FILE: lib/features/grammatik/models/grammatik_uebung.dart
 // PHASE: فاز G → G7a (2026-09-16) · فاز LAUNCH → L.2e
-// PURPOSE: Die 336 Übungen der Grammatik-Quelle (`exercises` in
+// PURPOSE: Die Übungen der Grammatik-Lektionen (`exercises` in
 //          assets/data/grammatik/<thema>.json) als Modell + die EINE Stelle,
 //          die entscheidet, ob eine Antwort richtig ist.
 //
