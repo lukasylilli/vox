@@ -14,9 +14,9 @@
 > feature-flag، content_registry) ⇒ **L.2a بسته شد.** درس ۲ کتاب «Grammatik Aktiv» (صرف فعل در زمان حال —
 > استثناهای پایانه‌ی فعل: arbeiten-نوع با -e- اضافه، heißen/tanzen-نوع فقط -t) به‌عنوان بلوک دوم به درس
 > `konjugation-praesens` اضافه شد (۱ توضیح، ۱ جدول، ۲ مثال، ۳ تمرین تازه) — نه کپی از کتاب، نوشته‌ی نو.
-> Secrets پروژه‌ی Supabase (`SUPABASE_URL`, `SUPABASE_ANON_KEY`) که Lukas فرستاد در ریپوی vox روی GitHub
-> Actions ثبت شدند. ⚠️ **باز مانده با Lukas:** اجرای یک‌باره‌ی `supabase/vox_tables.sql` در SQL Editor سایت
-> Supabase — Claude به `supabase.com` در این محیط دسترسی شبکه ندارد (فقط GitHub/PyPI/npm مجازند).
+> Secrets پروژه‌ی Supabase (`SUPABASE_URL`, `SUPABASE_ANON_KEY`) — تلاش Claude برای ثبت خودکار شکست خورد (هر
+> دو PAT بدون دسترسی «Secrets»، 403) ⇒ Lukas خودش این دو Secret را در Settings → Actions ثبت کرد و
+> `supabase/vox_tables.sql` را در SQL Editor سایت Supabase اجرا کرد (2026-09-18). **L.1c ✅ بسته شد.**
 > ⏭️ **قدم بعدی:** منتظر منبع deck بعدی «به‌زودی» (L.2d) · درس بعدی کتاب از Lukas (L.6) · اجرای SQL از Lukas.
 
 > ⚠️ **2026-09-13 — Umbau zur reinen Web-App:** android/ios/macos/linux/windows, RevenueCat (Abos) und lokale Notifications wurden entfernt. VOX läuft nur noch als kostenlose Flutter-Web-App auf GitHub Pages (DB: drift + SQLite-WASM). Ältere Einträge unten beschreiben teils den früheren nativen Stand.
@@ -55,7 +55,7 @@
 **2026-09-16:** V.2 ✅ اپ هنگام شروع دیگر همه‌ی کارت‌ها را نمی‌خواند — فقط یک فهرست کوچک (`assets/vocab_index.json`)؛ کارت کامل فقط وقتی صفحه‌ی آن کلمه باز شود. سقف ~۵۰۰ کارت برداشته شد.
 **2026-09-16:** S.6 ✅ لیست‌های شخصی شناسه‌ی ثابت دارند — تغییر نام دیگر کلمه‌ای را در همگام‌سازی از بین نمی‌برد (پایگاه داده نسخه‌ی ۷، قرارداد پشتیبان نسخه‌ی ۳).
 
-**قدم‌های بعدی (2026-09-16, ترتیب جدید — بخش «فاز LAUNCH»):** ① **L.1** امنیت لایتنر: S.6 ✅ → V.2 ✅ → L.1a ✅ → L.1b ✅ (باقی L.1 با Lukas: L.1c/L.1d) (+ Lukas: Supabase-Secrets، تصمیم حذف حساب) ② **L.2** کامل بودن محتوا: G3–G6 ✅ · G7a–G7c ✅ · **G7d/G7e رفت بعد از انتشار** (2026-09-18) ⇒ تنها کار باز = deckهای «به‌زودی» که منتظر منبع Lukas‌اند (یکی‌یکی؛ اولی: ÖSD C1) ③ **L.6** درس‌های کتاب Lukas (یکی‌یکی؛ رسیده: درس ۱) ④ **L.3 آماده‌سازی انتشار** ← **انتشار** ④ **L.4** کلمه‌ها روزانه (A.6 ⛔ اول از Lukas بپرس)
+**قدم‌های بعدی (2026-09-16, ترتیب جدید — بخش «فاز LAUNCH»):** ① **L.1** امنیت لایتنر: S.6 ✅ → V.2 ✅ → L.1a ✅ → L.1b ✅ → L.1c ✅ (2026-09-18, Supabase-Secrets + SQL) → باقی L.1: L.1d (Lukas: تصمیم حذف حساب) ② **L.2** کامل بودن محتوا: G3–G6 ✅ · G7a–G7c ✅ · **G7d/G7e رفت بعد از انتشار** · L.2a ÖSD C1 ✅ (2026-09-18) ⇒ تنها کار باز = deckهای «به‌زودی» دیگر که منتظر منبع Lukas‌اند ③ **L.6** درس‌های کتاب Lukas (یکی‌یکی؛ رسیده: درس ۱ و ۲) ④ **L.3 آماده‌سازی انتشار** ← **انتشار** ④ **L.4** کلمه‌ها روزانه (A.6 ⛔ اول از Lukas بپرس)
 
 ---
 
@@ -128,11 +128,12 @@
         (`deploy-web.yml` hat das noch nicht — dort wird nur veröffentlicht, was vorher auf einem Zweig grün war.)
       ⚠️ **Regel ab jetzt:** Jede Schema-Änderung ⇒ `schemaVersion` erhöhen + Migration schreiben + `build-runner.yml`
       auf dem Zweig laufen lassen. Der Migrationstest deckt die neue Fassung dann von selbst ab.
-- [ ] **L.1c (Lukas)** Secrets `SUPABASE_URL`/`SUPABASE_ANON_KEY` در ریپوی vox + اجرای یک‌باره‌ی
+- [x] **L.1c (Lukas)** Secrets `SUPABASE_URL`/`SUPABASE_ANON_KEY` در ریپوی vox + اجرای یک‌باره‌ی
       `supabase/vox_tables.sql` — بدون این‌ها کپی خودکار در حساب وجود ندارد (فقط مرورگر + فایل پشتیبان).
-      ✅ **Secrets ثبت شدند (2026-09-18)** توسط Claude روی GitHub Actions از پروژه‌ی Supabase که Lukas فرستاد
-      (project ref `uayaomoxxzzbjquxbcpu`). ⚠️ **باز مانده، فقط با Lukas:** اجرای `supabase/vox_tables.sql`
-      در SQL Editor سایت Supabase — این محیط Claude به `supabase.com` دسترسی شبکه ندارد.
+      ⚠️ **تلاش Claude (2026-09-18) ناموفق بود:** هر دو توکن PAT موجود دسترسی «Secrets» ندارند
+      (`GET .../actions/secrets/public-key` → 403 Resource not accessible). ✅ **Lukas خودش انجام داد
+      (2026-09-18):** هر دو Secret در Settings → Actions ثبت شد + `vox_tables.sql` در SQL Editor سایت
+      Supabase اجرا شد (project ref `uayaomoxxzzbjquxbcpu`).
 - [ ] **L.1d (Lukas، برای هر دو اپ)** تصمیم حذف حساب (S.3 باز).
 
 ### L.2 — کامل بودن محتوا (Audit 2026-09-16، Claude، شمارش مستقیم منبع ↔ اپ)
