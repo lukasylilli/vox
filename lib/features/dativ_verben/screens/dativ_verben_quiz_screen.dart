@@ -7,6 +7,7 @@ import '../../../core/widgets/vox_dialog.dart';
 import '../models/dativ_verb.dart';
 import '../widgets/case_type_badge.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 enum _QuizType { multiChoice, matchMeaning, wordOrder, cloze }
 
@@ -322,7 +323,7 @@ class _MCBody extends StatelessWidget {
               ?.copyWith(fontWeight: FontWeight.w800),
         ),
         const SizedBox(height: 4),
-        Text(q.verb.exampleDe,
+        DeutschText(q.verb.exampleDe,
             style: Theme.of(context).textTheme.bodySmall?.copyWith(
                   color: cs.onSurfaceVariant, fontStyle: FontStyle.italic)),
         const SizedBox(height: 20),

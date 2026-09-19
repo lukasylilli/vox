@@ -10,6 +10,7 @@ import '../../../core/widgets/vox_error_widget.dart';
 import '../controllers/nvv_controller.dart';
 import '../models/nvv_phrase.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class NvvDetailScreen extends ConsumerWidget {
   const NvvDetailScreen({super.key, required this.phraseId});
@@ -31,7 +32,7 @@ class NvvDetailScreen extends ConsumerWidget {
 
         return Scaffold(
           appBar: AppBar(
-            title: Text(phrase.phraseDe),
+            title: DeutschText(phrase.phraseDe),
           ),
           body: _NvvDetailBody(
             phrase : phrase,

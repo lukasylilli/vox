@@ -8,6 +8,7 @@ import '../../../core/widgets/vox_dialog.dart';
 import '../models/praep_cluster.dart';
 import '../../../core/widgets/vox_button.dart';
 import '../../../core/l10n/app_l10n.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class PraepositonenQuizScreen extends StatefulWidget {
   const PraepositonenQuizScreen({super.key, required this.clusters});
@@ -195,7 +196,7 @@ class _PraepositonenQuizScreenState extends State<PraepositonenQuizScreen> {
                       ),
                       if (item.exampleDe.isNotEmpty) ...[
                         const SizedBox(height: 4),
-                        Text(item.exampleDe,
+                        DeutschText(item.exampleDe,
                             style: const TextStyle(fontWeight: FontWeight.w500)),
                         Text(AppL10n.meaning(context, fa: item.exampleFa,
                             en: item.exampleEn.isNotEmpty ? item.exampleEn : item.exampleFa),

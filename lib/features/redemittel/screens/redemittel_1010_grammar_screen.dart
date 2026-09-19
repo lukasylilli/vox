@@ -311,7 +311,7 @@ class _PatternCardState extends State<_PatternCard> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(widget.labelDe,
+                        DeutschText(widget.labelDe,
                             style: tt.bodyLarge?.copyWith(
                                 fontWeight: FontWeight.w700)),
                         Text(widget.labelFa,

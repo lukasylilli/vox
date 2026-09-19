@@ -9,6 +9,7 @@ import '../models/konnektor_rich.dart';
 import '../widgets/connector_type_badge.dart';
 import '../widgets/highlighted_example_text.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class KonnektorDetailScreen extends ConsumerStatefulWidget {
   const KonnektorDetailScreen({super.key, required this.konnektorId});
@@ -41,7 +42,7 @@ class _KonnektorDetailScreenState
 
         return Scaffold(
           appBar: AppBar(
-            title: Text(k.connector),
+            title: DeutschText(k.connector),
           ),
           body: ListView(
             padding: const EdgeInsets.fromLTRB(16, 8, 16, 80),
@@ -359,7 +360,7 @@ class _BasicExample extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(k.exampleDe,
+          DeutschText(k.exampleDe,
               style: Theme.of(context)
                   .textTheme
                   .bodyMedium
@@ -411,7 +412,7 @@ class _ConfusableSection extends StatelessWidget {
                       color       : cs.secondaryContainer,
                       borderRadius: BorderRadius.circular(6),
                     ),
-                    child: Text(c.connector,
+                    child: DeutschText(c.connector,
                         style: const TextStyle(
                             fontSize   : 12,
                             fontWeight : FontWeight.w700)),

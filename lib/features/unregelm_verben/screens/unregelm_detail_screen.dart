@@ -8,6 +8,7 @@ import '../controllers/unregelm_controller.dart';
 import '../models/unregelm_verb.dart';
 import '../widgets/verb_class_badge.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class UnregelmDetailScreen extends ConsumerWidget {
   const UnregelmDetailScreen({super.key, required this.verbId});
@@ -206,7 +207,7 @@ class _DetailView extends StatelessWidget {
                       style: tt.labelLarge
                           ?.copyWith(color: cs.onSurfaceVariant)),
                   const SizedBox(height: 6),
-                  Text(verb.exampleDe,
+                  DeutschText(verb.exampleDe,
                       style: tt.bodyLarge
                           ?.copyWith(fontWeight: FontWeight.w500)),
                   if (verb.exampleFa.isNotEmpty) ...[

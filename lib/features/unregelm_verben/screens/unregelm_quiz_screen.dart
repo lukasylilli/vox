@@ -8,6 +8,7 @@ import '../../../core/widgets/vox_dialog.dart';
 import '../models/unregelm_verb.dart';
 import '../widgets/verb_class_badge.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 enum _QuizType { multiChoice, matchMeaning, wordOrder, cloze }
 
@@ -319,7 +320,7 @@ class _UnregelmQuizScreenState extends State<UnregelmQuizScreen> {
             ),
             if (_answered) ...[
               const SizedBox(height: 12),
-              Text('✓ ${q.verb.exampleDe}',
+              DeutschText('✓ ${q.verb.exampleDe}',
                   style: const TextStyle(color: Colors.green)),
               Text(AppL10n.meaning(context, fa: q.verb.exampleFa,
                   en: q.verb.exampleEn.isNotEmpty ? q.verb.exampleEn : q.verb.exampleFa),

@@ -11,6 +11,7 @@ import '../controllers/konnektoren_controller.dart';
 import '../models/konnektor.dart';
 import '../models/konnektor_rich.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class KonnektorenQuizScreen extends ConsumerStatefulWidget {
   const KonnektorenQuizScreen({super.key, required this.richEntries});
@@ -304,7 +305,7 @@ class _MCBody extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(exercise.promptDe,
+        DeutschText(exercise.promptDe,
             style: Theme.of(context)
                 .textTheme
                 .bodyLarge

@@ -16,6 +16,7 @@ import '../../../core/widgets/vox_empty_state.dart';
 import '../../../core/widgets/vox_error_widget.dart';
 import '../../../core/widgets/vox_loading_widget.dart';
 import '../models/grammar_topic.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 final grammarTopicProvider =
     FutureProvider.family<List<GrammarTopicSection>, String>((ref, asset) async {
@@ -45,7 +46,7 @@ class GrammarTopicScreen extends ConsumerWidget {
     final sectionsAsync = ref.watch(grammarTopicProvider(meta.assetPath));
 
     return Scaffold(
-      appBar: AppBar(title: Text(meta.titleDe)),
+      appBar: AppBar(title: DeutschText(meta.titleDe)),
       body: sectionsAsync.when(
         loading: () => const VoxLoadingWidget(),
         error  : (e, _) => VoxErrorWidget(error: e),

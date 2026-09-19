@@ -11,6 +11,7 @@ import '../../../core/widgets/article_badge.dart';
 import '../../../core/utils/formatters.dart';
 import '../controllers/word_controller.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class AddWordScreen extends ConsumerStatefulWidget {
   const AddWordScreen({super.key});
@@ -244,7 +245,7 @@ class _ParsePreview extends StatelessWidget {
           Row(
             children: [
               Expanded(
-                child: Text(model.german,
+                child: DeutschText(model.german,
                   style: theme.textTheme.titleLarge?.copyWith(
                     fontWeight: FontWeight.w700,
                   )),

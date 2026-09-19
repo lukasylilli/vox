@@ -15,6 +15,7 @@ import '../../../features/categories/widgets/add_to_category_sheet.dart';
 import '../controllers/word_controller.dart';
 import '../widgets/conjugation_table.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class WordDetailScreen extends ConsumerWidget {
   const WordDetailScreen({super.key, required this.wordId});
@@ -50,7 +51,7 @@ class _WordDetailView extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title  : Text(model.german),
+        title  : DeutschText(model.german),
         actions: [
           AudioPlayButton(text: model.displayGerman),
           const SizedBox(width: 8),

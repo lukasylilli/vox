@@ -8,6 +8,7 @@ import '../../../core/constants/app_sizes.dart';
 import '../../../core/l10n/app_l10n.dart';
 import '../../../core/widgets/vox_snack_bar.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class VorlagenScreen extends StatelessWidget {
   const VorlagenScreen({super.key});
@@ -138,7 +139,7 @@ class _TemplateCardState extends State<_TemplateCard> {
             ),
             title   : Text(AppL10n.t(context, widget.t.title),
                 style: const TextStyle(fontWeight: FontWeight.w700)),
-            subtitle: Text(widget.t.titleDe,
+            subtitle: DeutschText(widget.t.titleDe,
                 style: TextStyle(color: scheme.onSurfaceVariant, fontSize: 12)),
             trailing: Icon(
               _expanded

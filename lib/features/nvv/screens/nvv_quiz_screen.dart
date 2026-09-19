@@ -9,6 +9,7 @@ import '../../../core/widgets/vox_progress.dart';
 import '../../../core/widgets/vox_dialog.dart';
 import '../models/nvv_phrase.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class NvvQuizScreen extends ConsumerStatefulWidget {
   const NvvQuizScreen({super.key, required this.phrases});
@@ -166,7 +167,7 @@ class _NvvQuizScreenState extends ConsumerState<NvvQuizScreen> {
                   padding: const EdgeInsets.all(AppSizes.sm),
                   child: Column(
                     children: [
-                      Text(p.exampleDe,
+                      DeutschText(p.exampleDe,
                           style: const TextStyle(fontWeight: FontWeight.w600)),
                       const SizedBox(height: 4),
                       Text(AppL10n.meaning(context, fa: p.exampleFa, en: p.exampleEn),
