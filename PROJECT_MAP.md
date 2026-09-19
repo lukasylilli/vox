@@ -1,12 +1,20 @@
 # PROJECT MAP — VOX
 # نقشه کامل پروژه برای ناوبری سریع در هر session
-# آپدیت: 2026-09-18 (ادامه ۳ — باگ RTL آلمانی رفع شد؛ باگ آفلاین باز است، منتظر شواهد DevTools از Lukas)
+# آپدیت: 2026-09-18 (ادامه ۵ — باگ RTL کاملاً بسته شد + نگهبان CI؛ اصل «یک محتوا، چند ورودی» و A-1 ثبت شد؛ باگ آفلاین باز)
 #
 # 🧭 قاعده‌ی ثابت هر چت جدید (Lukas، 2026-09-18) — این بخش را حذف نکن:
 #   ۱) اول چت: هر چهار فایل (vox/PLAN.md، vox/PROJECT_MAP.md، Root-in/PLAN.md، Root-in/MAP.md) را
 #      تازه از api.github.com بخوان، نه از حافظه.  ۲) اولین قدم باز را بدون پرسیدن انجام بده.
 #   ۳) آخر هر کار و آخر هر چت: در PLAN و MAP همان ریپو ورودی کوتاه بنویس + خط «آخرین جلسه» در PLAN را تازه کن.
 #      کاری که ثبت نشود، برای چت بعدی وجود ندارد. فهرست مطالب و Hinweise حفظ می‌شوند.
+#
+# ⭐ اصل معماری «یک محتوا، چند ورودی» (Lukas، 2026-09-18) — هم‌ردیف Component Isolation:
+#   هر واحد محتوا (تمرین، کلمه، عبارت، متن) یک‌بار ساخته و ذخیره می‌شود و از چند در دیده می‌شود.
+#   هرگز برای نمایش دوم، نسخه‌ی دوم ساخته نشود — وگرنه اصلاح باید دوبار انجام شود و دو نسخه واگرا می‌شوند.
+#   نمونه: تمرین گرامر ← (۱) در Grammatik بعد از آموزشِ همان موضوع، (۲) در Prüfungen با دسته‌بندی
+#   سطح / موضوع / هفت مهارت. جزئیات کامل + تقسیم کار در PLAN.md بخش «یک محتوا، چند ورودی» و A-1.
+#   ⚠️ شکاف شناخته‌شده: pruefungen_home_screen فقط بر اساس سازمان آزمون (Goethe/telc/ÖSD) چیده شده؛
+#   سه محور دسته‌بندی هنوز آنجا نیستند و ۳۴۵ تمرین گرامر از Prüfungen دیده نمی‌شوند.
 #
 # ⚠️ 2026-09-13: Umbau zur reinen Web-App — android/ios/macos/linux/windows, RevenueCat & Notifications entfernt; ältere Einträge beschreiben teils den nativen Stand
 # ⚠️ 2026-09-13: Habit/Routine entfernt — Root-in (eigenes Repo, lukasylilli.github.io/Root-in/) übernimmt das, verlinkt aus Selbstlernen ("Routine"-Karte, core/constants/app_links.dart + core/utils/external_link_opener.dart). Pomodoro bleibt unverändert.
@@ -698,6 +706,11 @@ screens/
                                       Dativ → /dativ-verben/quiz (بدون extra، Consumer loader)
                                       NVV → /nvv/quiz (بدون extra، Consumer loader)
                                       Präpositionen → /praepositionen/quiz (بدون extra، Consumer loader)
+                                      ⚠️⚠️ **شکاف A-1 (2026-09-18):** این صفحه فقط بر اساس **سازمان
+                                      آزمون** چیده شده. طبق اصل «یک محتوا، چند ورودی» باید سه محور
+                                      دسته‌بندی هم داشته باشد: سطح / موضوع / هفت مهارت — و ۳۴۵ تمرین
+                                      گرامر (که الان فقط از درس‌ها دیده می‌شوند) از اینجا هم پیدا باشند.
+                                      فهرست دقیق «هفت مهارت» هنوز از Lukas گرفته نشده.
   exam_type_screen.dart        [x]  — سطوح + count + _PrepGuide (tips per org)
   exam_simulation_screen.dart  [x]  — Timer.periodic countdown، سوال به سوال
                                       تایمر قرمز زیر ۳۰۰s، finish on expire
