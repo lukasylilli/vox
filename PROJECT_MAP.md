@@ -185,6 +185,8 @@ widgets/
                                  VoxIconButton: plain/filled/tonal/outlined + isSelected/selectedIcon
                                  VoxFab + VoxFab.extended
                                  VoxOptionButton: گزینه آزمون (idle/selected/correct/wrong) — همه ۱۱ quiz [B.4 ✅]
+                                   + `istDeutsch` (2026-09-18): label آلمانی ⇒ DeutschText (LTR)؛
+                                     پیش‌فرض false، پس گزینه‌های ترجمه‌ای رفتارشان عوض نشد
                                  منبع طراحی: old files Lukasalmani/1/Button (نسخه System-APIs)
                                  🛡 Wächter: test/puzzling_buttons_test.dart — roher Button in
                                    lib/features ⇒ CI rot (B.5, 2026-09-15)
@@ -201,8 +203,12 @@ widgets/
                                    (uebung_karte از قبل درست بود)
                                  ⚠️ درس: دور اول b.bodyDe جا افتاد و Lukas دوباره گزارش داد ⇒ در هر فایل
                                    باید **همه‌ی** Text(ها شمرده شوند، نه فقط آن‌هایی که به چشم می‌آیند.
-                                 ⚠️ باقی: گزینه‌های کوییز از VoxOptionButton(label:String) می‌گذرند —
-                                 آن دکمه هنوز پارامتر جهت ندارد (قدم مستقل؛ نگهبان: puzzling_buttons_test)
+                                 ✅ **کامل شد (2026-09-18):** VoxOptionButton پارامتر `istDeutsch` گرفت
+                                   (پیش‌فرض false ⇒ ترجمه‌ها دست‌نخورده)، ۱۰ صفحه‌ی کوییز وصل شدند
+                                   (`istDeutsch: q.type != _QuizType.matchMeaning`؛ nvv عمداً نه، چون
+                                   گزینه‌هایش ترجمه‌اند)، و ۱۴ جای باقی‌مانده در features جارو شد.
+                                 🛡🛡 **test/deutscher_text_waechter_test.dart** — فیلد آلمانی داخل
+                                   Text( خالی در lib/features ⇒ CI قرمز (الگوی B.5، دو استثنای مستند)
   article_badge.dart      [x]  — pill badge رنگی برای der/die/das (prop: large)
   filter_accordion.dart   [x]  — FilterAccordion(label, options, selected, onChanged)
                                  FilterOption(value, label, icon?)
