@@ -12,6 +12,7 @@ import '../../../core/widgets/vox_search_field.dart';
 import '../../../core/widgets/vox_empty_state.dart';
 import '../../../core/widgets/vox_chip.dart';
 import '../../../core/widgets/vox_badge.dart';
+import '../../../core/widgets/deutsch_text.dart';
 import '../controllers/redemittel_controller.dart';
 import '../models/redemittel_item.dart';
 import '../../../core/widgets/vox_button.dart';
@@ -238,7 +239,7 @@ class _PhraseCard extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
+                    DeutschText(
                       phrase.phraseDe,
                       style: theme.textTheme.bodyMedium?.copyWith(
                           fontWeight: FontWeight.w600),

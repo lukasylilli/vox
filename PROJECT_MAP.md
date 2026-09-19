@@ -1,6 +1,6 @@
 # PROJECT MAP — VOX
 # نقشه کامل پروژه برای ناوبری سریع در هر session
-# آپدیت: 2026-09-18 (ادامه — اصلاح README)
+# آپدیت: 2026-09-18 (ادامه ۳ — باگ RTL آلمانی رفع شد؛ باگ آفلاین باز است، منتظر شواهد DevTools از Lukas)
 #
 # 🧭 قاعده‌ی ثابت هر چت جدید (Lukas، 2026-09-18) — این بخش را حذف نکن:
 #   ۱) اول چت: هر چهار فایل (vox/PLAN.md، vox/PROJECT_MAP.md، Root-in/PLAN.md، Root-in/MAP.md) را
@@ -189,6 +189,12 @@ widgets/
                                  🛡 Wächter: test/puzzling_buttons_test.dart — roher Button in
                                    lib/features ⇒ CI rot (B.5, 2026-09-15)
   vox_badge.dart          [x]  — VoxBadge.level(level) — colored، wordType، colored variants
+  deutsch_text.dart       [x]  — ⭐ DeutschText (2026-09-18، باگ RTL Lukas): متن **آلمانی** با
+                                 textDirection.ltr + textAlign.left **ثابت**، نه ارث‌بری از Directionality.
+                                 چرا: با locale=fa کل اپ RTL می‌شود و یک Text ساده باعث می‌شد جمله‌ی آلمانی
+                                 به لبه‌ی راست بچسبد و نقطه‌ی پایان در سمت چپ (ظاهراً اولِ جمله) بیفتد.
+                                 قاعده: هر محتوای آلمانی ⇒ DeutschText؛ ترجمه‌ی fa/en ⇒ Text عادی.
+                                 🛡 test/deutsch_text_test.dart. مشابه قبلی: wort_text.dart (از قبل ltr داشت)
   article_badge.dart      [x]  — pill badge رنگی برای der/die/das (prop: large)
   filter_accordion.dart   [x]  — FilterAccordion(label, options, selected, onChanged)
                                  FilterOption(value, label, icon?)

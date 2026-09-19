@@ -9,6 +9,7 @@ import '../../../core/constants/vox_colors.dart';
 import '../controllers/redemittel_controller.dart';
 import '../models/redemittel_item.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../../core/widgets/deutsch_text.dart';
 import '../../../core/l10n/app_l10n.dart';
 
 class Redemittel1010DetailScreen extends ConsumerWidget {
@@ -70,7 +71,7 @@ class _DetailView extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(phrase.sectionTitleDe,
+        title: DeutschText(phrase.sectionTitleDe,
             style: const TextStyle(fontSize: 15)),
         actions: [
           VoxIconButton(
@@ -110,6 +111,7 @@ class _DetailView extends StatelessWidget {
             label  : 'Deutsch',
             content: phrase.phraseDe,
             style  : tt.titleMedium?.copyWith(fontWeight: FontWeight.w700),
+            istDeutsch: true,
           ),
           const SizedBox(height: AppSizes.sm),
 
@@ -133,6 +135,7 @@ class _DetailView extends StatelessWidget {
               color  : const Color(0xFF6A1B9A),
               label  : 'Struktur danach',
               content: phrase.structureAfter,
+              istDeutsch: true,
             ),
             const SizedBox(height: AppSizes.sm),
           ],
@@ -192,6 +195,7 @@ class _Card extends StatelessWidget {
     required this.label,
     required this.content,
     this.style,
+    this.istDeutsch = false,
   });
   final IconData   icon;
   final Color      color;
@@ -199,10 +203,16 @@ class _Card extends StatelessWidget {
   final String     content;
   final TextStyle? style;
 
+  /// true = der Inhalt ist deutsch und läuft immer links-nach-rechts,
+  /// auch wenn die Oberfläche auf Persisch (RTL) steht.
+  final bool istDeutsch;
+
   @override
   Widget build(BuildContext context) {
     final cs = Theme.of(context).colorScheme;
     final tt = Theme.of(context).textTheme;
+    final inhaltStil = style ??
+        tt.bodyMedium?.copyWith(color: cs.onSurface, height: 1.5);
     return Card(
       child: Padding(
         padding: const EdgeInsets.all(AppSizes.sm),
@@ -219,10 +229,10 @@ class _Card extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 8),
-            Text(content,
-                style: style ??
-                    tt.bodyMedium?.copyWith(
-                        color: cs.onSurface, height: 1.5)),
+            if (istDeutsch)
+              DeutschText(content, style: inhaltStil)
+            else
+              Text(content, style: inhaltStil),
           ],
         ),
       ),
@@ -260,7 +270,7 @@ class _ExampleCard extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 8),
-            Text(de,
+            DeutschText(de,
                 style: tt.bodyMedium?.copyWith(
                     fontWeight: FontWeight.w600, height: 1.5)),
             const SizedBox(height: 4),
