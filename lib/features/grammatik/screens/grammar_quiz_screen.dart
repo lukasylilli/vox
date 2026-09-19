@@ -150,6 +150,7 @@ class _QuizSessionState extends State<_QuizSession> {
               if (ex.options != null)
                 ...ex.options!.map((opt) => VoxOptionButton(
                   label    : opt,
+                  istDeutsch: true, // Übungsoptionen sind deutsche Formen
                   state    : !_answered
                       ? VoxOptionState.idle
                       : opt == (ex.answer ?? '')

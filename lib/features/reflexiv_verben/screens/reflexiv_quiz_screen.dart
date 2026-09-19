@@ -297,6 +297,8 @@ class _ReflexivQuizScreenState extends State<ReflexivQuizScreen> {
                     : VoxOptionState.idle);
             return VoxOptionButton(
               label    : q.options[i],
+              // matchMeaning zeigt die Übersetzung, alles andere deutsche Formen
+              istDeutsch: q.type != _QuizType.matchMeaning,
               state    : state,
               onPressed:
                   _answered ? null : () => setState(() => _selected = i),

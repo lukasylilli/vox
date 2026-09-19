@@ -261,6 +261,7 @@ class _FillBlankBody extends StatelessWidget {
           final isCorrect = opt == exercise.answer;
           return VoxOptionButton(
             label    : opt,
+            istDeutsch: true, // Konnektoren und Lueckensaetze sind deutsch
             state    : !answered
                 ? VoxOptionState.idle
                 : isCorrect
@@ -314,6 +315,7 @@ class _MCBody extends StatelessWidget {
           final isCorrect = i == exercise.answerIndex;
           return VoxOptionButton(
             label    : opt,
+            istDeutsch: true, // Konnektoren und Lueckensaetze sind deutsch
             state    : !answered
                 ? VoxOptionState.idle
                 : isCorrect

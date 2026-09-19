@@ -162,6 +162,7 @@ class _PraepositonenQuizScreenState extends State<PraepositonenQuizScreen> {
               final isCorrect = item.options[i] == item.preposition;
               return VoxOptionButton(
                 label    : item.options[i],
+                istDeutsch: true, // Präpositionen
                 state    : _answered
                     ? (isCorrect
                         ? VoxOptionState.correct

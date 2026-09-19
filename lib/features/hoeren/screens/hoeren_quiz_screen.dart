@@ -11,6 +11,7 @@ import '../../../core/l10n/app_l10n.dart';
 import '../controllers/hoeren_controller.dart';
 import '../widgets/audio_player_controls.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class HoerenQuizScreen extends ConsumerStatefulWidget {
   const HoerenQuizScreen({super.key, required this.audioId});
@@ -168,7 +169,7 @@ class _HoerenQuizScreenState extends ConsumerState<HoerenQuizScreen> {
                 color       : scheme.surfaceContainerLow,
                 borderRadius: BorderRadius.circular(AppSizes.radiusMd),
               ),
-              child: Text(
+              child: DeutschText(
                 item.context,
                 style    : theme.textTheme.bodyLarge,
                 textAlign: TextAlign.center,

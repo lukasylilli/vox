@@ -329,6 +329,8 @@ class _MCBody extends StatelessWidget {
         ...List.generate(q.options.length, (i) {
           return VoxOptionButton(
             label    : q.options[i],
+            // matchMeaning zeigt die Übersetzung, alles andere deutsche Formen
+            istDeutsch: q.type != _QuizType.matchMeaning,
             state    : answered
                 ? (i == q.correctIndex
                     ? VoxOptionState.correct

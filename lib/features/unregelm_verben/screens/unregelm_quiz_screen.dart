@@ -270,6 +270,8 @@ class _UnregelmQuizScreenState extends State<UnregelmQuizScreen> {
           children: List.generate(q.options.length, (i) {
             return VoxOptionButton(
               label    : q.options[i],
+              // matchMeaning zeigt die Übersetzung, alles andere deutsche Formen
+              istDeutsch: q.type != _QuizType.matchMeaning,
               state    : _answered
                   ? (i == q.correctIndex
                       ? VoxOptionState.correct

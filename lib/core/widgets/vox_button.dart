@@ -13,6 +13,7 @@
 import 'package:flutter/material.dart';
 
 import '../constants/vox_colors.dart';
+import 'deutsch_text.dart';
 
 // ─── Größen-Token (controlSize-Äquivalent) ────────────────────────────────────
 
@@ -479,12 +480,19 @@ class VoxOptionButton extends StatelessWidget {
     required this.onPressed,
     this.state = VoxOptionState.idle,
     this.subtitle,
+    this.istDeutsch = false,
   });
 
   final String          label;
   final VoidCallback?   onPressed;
   final VoxOptionState  state;
   final String?         subtitle;
+
+  /// true = `label` ist deutscher Text und läuft immer links-nach-rechts,
+  /// auch wenn die Oberfläche auf Persisch (RTL) steht. Sonst landet der
+  /// Schlusspunkt am linken Ende — siehe `core/widgets/deutsch_text.dart`.
+  /// `subtitle` ist immer eine Übersetzung und folgt der Oberfläche.
+  final bool istDeutsch;
 
   @override
   Widget build(BuildContext context) {
@@ -520,10 +528,10 @@ class VoxOptionButton extends StatelessWidget {
               fontSize: 16, fontWeight: FontWeight.w500),
         ),
         child: subtitle == null
-            ? Text(label, textAlign: TextAlign.center)
+            ? _label()
             : Column(
                 children: [
-                  Text(label, textAlign: TextAlign.center),
+                  _label(),
                   const SizedBox(height: 2),
                   Text(
                     subtitle!,
@@ -539,4 +547,8 @@ class VoxOptionButton extends StatelessWidget {
       ),
     );
   }
+
+  Widget _label() => istDeutsch
+      ? DeutschText(label, textAlign: TextAlign.center)
+      : Text(label, textAlign: TextAlign.center);
 }

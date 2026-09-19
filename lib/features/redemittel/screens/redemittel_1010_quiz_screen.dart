@@ -364,6 +364,8 @@ class _Redemittel1010QuizScreenState
           children: List.generate(q.options.length, (i) {
             return VoxOptionButton(
               label    : q.options[i],
+              // matchMeaning zeigt Uebersetzungen, multiChoice/fillBlank deutsche Phrasen
+              istDeutsch: q.type != _QuizType.matchMeaning,
               state    : _answered
                   ? (i == q.correctIndex
                       ? VoxOptionState.correct

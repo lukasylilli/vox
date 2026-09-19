@@ -5,6 +5,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:vox/core/widgets/deutsch_text.dart';
+import 'package:vox/core/widgets/vox_button.dart';
 
 void main() {
   group('DeutschText', () {
@@ -63,6 +64,41 @@ void main() {
       expect(text.style?.fontSize, 21);
       expect(text.maxLines, 2);
       expect(text.overflow, TextOverflow.ellipsis);
+    });
+  });
+
+  group('VoxOptionButton.istDeutsch', () {
+    Widget huelle(Widget kind) => MaterialApp(
+          locale: const Locale('fa'),
+          home: Directionality(
+            textDirection: TextDirection.rtl,
+            child: Scaffold(body: kind),
+          ),
+        );
+
+    testWidgets('istDeutsch: true ⇒ Label läuft LTR', (tester) async {
+      await tester.pumpWidget(huelle(VoxOptionButton(
+        label: 'Ich komme aus Österreich.',
+        istDeutsch: true,
+        onPressed: () {},
+      )));
+
+      final text = tester.widget<Text>(
+          find.descendant(of: find.byType(VoxOptionButton), matching: find.byType(Text)));
+      expect(text.textDirection, TextDirection.ltr);
+    });
+
+    testWidgets('Standard (Übersetzung) folgt weiter der Oberfläche',
+        (tester) async {
+      await tester.pumpWidget(huelle(VoxOptionButton(
+        label: 'من از اتریش می‌آیم.',
+        onPressed: () {},
+      )));
+
+      final text = tester.widget<Text>(
+          find.descendant(of: find.byType(VoxOptionButton), matching: find.byType(Text)));
+      expect(text.textDirection, isNull,
+          reason: 'Übersetzungen erben die Richtung der Oberfläche');
     });
   });
 }
