@@ -253,7 +253,7 @@ class AuswendiglernHomeScreen extends ConsumerWidget {
 
     // Build list items: learning decks + separator + Prüfungen decks
     final items = <Widget>[
-      ..._learningDecks.map((d) {
+      ..._learningDecks.where((d) => FeatureFlags.isVisible(d.flag)).map((d) {
         final desc = d.titleDe == 'Redewendungen' && redewendungenCount > 0
             ? Formatters.countLabel(redewendungenCount, AppL10n.t(context, 'card_unit'))
             : d.description;
@@ -265,7 +265,7 @@ class AuswendiglernHomeScreen extends ConsumerWidget {
       const SizedBox(height: AppSizes.sm),
       _PruefungenDivider(),
       const SizedBox(height: AppSizes.xs),
-      ..._pruefungenDecks.map((d) => Padding(
+      ..._pruefungenDecks.where((d) => FeatureFlags.isVisible(d.flag)).map((d) => Padding(
             padding: const EdgeInsets.only(bottom: AppSizes.xs),
             child  : _DeckTile(deck: d, onTap: () => onTap(d)),
           )),

@@ -8,6 +8,7 @@ import '../../../core/constants/app_colors.dart';
 import '../../../core/constants/app_routes.dart';
 import '../../../core/constants/app_sizes.dart';
 import '../../../core/l10n/app_l10n.dart';
+import '../../../core/services/feature_flags.dart';
 import '../../../core/widgets/global_search_bar.dart';
 import '../widgets/section_grid_item.dart';
 
@@ -96,6 +97,7 @@ class HomeScreen extends StatelessWidget {
       color     : AppColors.hoeren,
       route     : AppRoutes.hoeren,
     ),
+    if (FeatureFlags.isVisible('feature.sprechen'))
     SectionData(
       titleDe   : 'Sprechen',
       titleLocal: AppL10n.t(context, 'sprechen'),
@@ -103,6 +105,7 @@ class HomeScreen extends StatelessWidget {
       color     : AppColors.sprechen,
       route     : AppRoutes.sprechen,
     ),
+    if (FeatureFlags.isVisible('feature.schreiben'))
     SectionData(
       titleDe   : 'Schreiben',
       titleLocal: AppL10n.t(context, 'schreiben'),

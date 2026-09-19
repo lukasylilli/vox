@@ -303,7 +303,7 @@ utils/
   validators.dart         [ ]  stub — form validation مرکزی (بعدی)
   extensions.dart         [ ]  stub — StringX/ContextX/ListX (بعدی)
 services/
-  feature_flags.dart      [x]  LIVE — ۲۳ فلگ — استفاده: auswendiglernen decks +
+  feature_flags.dart      [x]  LIVE — ۲۳ فلگ — حالت‌ها live/comingSoon/**hidden** (hidden از 2026-09-19 واقعاً اعمال می‌شود: isHidden/isVisible/resolve/keys) — استفاده: auswendiglernen decks + home-Kacheln Sprechen/Schreiben +
                                       content_registry.isReady
   cache_service.dart      [x]  LIVE — file-based TTL + getStale — استفاده: rss_service
   app_logger.dart         [x]  LIVE — AppLogger(tag) + loggerProvider
@@ -318,7 +318,7 @@ test/helpers/
 ```
 
 **معادل‌های موجود (دوباره ساخته نشدند):** main.dart · pubspec.yaml · Riverpod (di/store) ·
-app_router + app_routes · app_database (db) · subscription_service (auth/RevenueCat) ·
+app_router + app_routes · app_database (db) · ~~subscription_service (auth/RevenueCat)~~ [⛔ entfernt 2026-09-13] ·
 app_l10n (i18n) · app_theme + tokens (theme) · widget_test (setupTests)
 **N/A فعلاً:** AuthInterceptor · cryptoUtils · JSBridge
 
@@ -398,7 +398,7 @@ notification_service.dart [x]  — NotificationService static singleton
                                  showLeitnerReminder(count)، showHabitReminder(id,name)
 import_service.dart       [x]  — ImportService: importWordsCsv، importWordsJson، importMemorizeJson
                                  ImportResult {imported, skipped, error}، importServiceProvider
-subscription_service.dart [x]  — RevenueCat Riverpod integration (2026-06-30)
+subscription_service.dart [⛔] — ENTFERNT 2026-09-13: Datei existiert nicht mehr (Web-App ist kostenlos). Früher: RevenueCat Riverpod integration (2026-06-30)
                                  customerInfoProvider (StreamProvider — listener-based stream)
                                  isProProvider (Provider<bool> — entitlement: 'VOX Unlimited')
                                  offeringsProvider (FutureProvider<Offerings?> — invalidatable)
@@ -497,7 +497,7 @@ route_guards.dart  [ ]  — فاز بعدی (subscription guard)
 
 #### lib/features/home/ [x]
 ```
-screens/home_screen.dart       [x]  — SliverAppBar + SliverGrid 3×4، 12 SectionData
+screens/home_screen.dart       [x]  — SliverAppBar + SliverGrid 3×4، 12 SectionData (Sprechen/Schreiben شرطی با `FeatureFlags.isVisible`، 2026-09-19)
 widgets/section_grid_item.dart [x]  — gradient card + shadow، color.withValues(alpha:...)
 ```
 
@@ -686,7 +686,7 @@ widgets/
 #### lib/features/auswendiglernen/ [x]
 ```
 screens/
-  auswendiglernen_home_screen.dart [x]  — flat ListView (_learningDecks + _PruefungenDivider + _pruefungenDecks)
+  auswendiglernen_home_screen.dart [x]  — flat ListView (_learningDecks + _PruefungenDivider + _pruefungenDecks)؛ deckهای `hidden` فیلتر می‌شوند (2026-09-19)
                                           بدون section headers، جداکننده "PRÜFUNGEN" قبل از Redemittel
                                           coming-soon decks: lock icon، snackbar on tap
   category_items_screen.dart       [x]  — ExpansionTile list، action bar مرور/cloze
@@ -767,7 +767,7 @@ screens/
   more_home_screen.dart       [x]  — ۳ section: اپ (settings/premium) / پشتیبانی / درباره
   settings_screen.dart        [x]  — SegmentedButton theme، Slider TTS rate/daily goal
                                      DropdownButton level/language، SwitchListTile notifications
-  subscription_screen.dart    [x]  — ConsumerWidget، isProProvider + customerInfoProvider (2026-06-30)
+  subscription_screen.dart    [⛔]  — ENTFERNT 2026-09-13: Datei existiert nicht mehr (kein Abo). Früher: ConsumerWidget، isProProvider + customerInfoProvider (2026-06-30)
                                       not subscribed → RevenueCatUI.presentPaywallIfNeeded('VOX Unlimited')
                                       subscribed → active badge + RevenueCatUI.presentCustomerCenter()
                                       restore با SnackBar موفقیت / PurchasesError handling
@@ -795,7 +795,7 @@ screens/sozialmedien_screen.dart   [x]  — ۳ کانال با copy link
 
 #### lib/features/home/ [x]
 ```
-screens/home_screen.dart           [x]  — SliverAppBar + SliverGrid 3×4، 12 SectionData
+screens/home_screen.dart           [x]  — SliverAppBar + SliverGrid 3×4، 12 SectionData (Sprechen/Schreiben شرطی با `FeatureFlags.isVisible`)
 screens/search_results_screen.dart [x]  — TextField AppBar، _Highlighted، ListTile results
 controllers/search_controller.dart [x]  — GlobalSearchNotifier، جستجو در words/lessons/items
 widgets/section_grid_item.dart     [x]  — gradient card + shadow
@@ -1252,6 +1252,7 @@ die Fassade, die allein `NutzerZustand` nach außen zeigt.
 | `core/services/cloud_ablage_supabase.dart` | echte `CloudAblage` (`vox_backups`); zweite und letzte Datei mit `supabase_flutter` |
 | `features/more/controllers/konto_abgleich.dart` | wann abgeglichen wird (Anmeldung/Start, alle 5 Min., Knopf); `kontoAbgleichStarterProvider` in `app.dart` |
 | `test/cloud_abgleich_test.dart` | Abgleich mit Server im Speicher: zwei Geräte, Entfernen, „zu neu", offline |
+| `test/feature_flags_test.dart` | **L.2d** (2026-09-19) — `FeatureState.hidden` wirkt wirklich: Lookup-Regel, widerspruchsfreie Prädikate, und Quelltext-Wächter, dass Home-Kacheln Sprechen/Schreiben und beide Auswendiglernen-Listen `isVisible` abfragen (vorher las sie niemand — „verstecken" wäre wirkungslos gewesen) |
 | `test/puzzling_buttons_test.dart` | **B.5** — kein roher Material-Button in `lib/features/`. Entstanden, weil `_SicherungKarte` und `_KontoKarte` die Regel unbemerkt gebrochen hatten |
 | `test/auth_service_test.dart` | Fehlercode-Zuordnung (kann **still** brechen: „E-Mail vergeben" → „unbekannter Fehler") + Nachweis, dass ohne Konfiguration nichts geworfen und nichts gesendet wird |
 
@@ -1411,7 +1412,7 @@ noch nicht und wird erst nach dieser Entscheidung gebaut.
   Schritt 2) → `VoxButton.tonal/secondary/primary/text` + `VoxIconButton`
 - Neu: `test/puzzling_buttons_test.dart` — die grep-Regel aus فاز B ist jetzt eine CI-Prüfung
 
-### [2026-06-30] Phase 8 (جزئی): RevenueCat SDK کامل + Native Splash
+### [2026-06-30] Phase 8 (جزئی): RevenueCat SDK کامل + Native Splash — ⛔ RevenueCat später entfernt (2026-09-13)
 - `purchases_ui_flutter 8.11.0` اضافه شد
 - `subscription_service.dart` ساخته شد — Riverpod providers (stream-based customer info)
 - `subscription_screen.dart` بازنویسی شد — paywall + customer center + entitlement check

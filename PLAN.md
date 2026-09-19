@@ -22,7 +22,7 @@
 > به کامپیوتر دسترسی ندارد ⇒ منتظر خروجی DevTools. نکته‌ی مهم: حجم کل assets فقط ۷٫۵MB است، پس ادعای قدیمیِ
 > «۱۰۰MB، precache ممکن نیست» باطل شد.
 > ⏭️ **قدم بعدی:** (۱) باگ آفلاین — منتظر خروجی DevTools از Lukas · (۲) درس بعدی کتاب / منبع deck بعدی
-> از Lukas · (۳) L.1d تصمیم حذف حساب از Lukas · (۴) پاک‌سازی doc-drift فاز ۱۶ (iOS/Android/RevenueCat).
+> از Lukas · (۳) L.1d تصمیم حذف حساب از Lukas · (۴) ~~پاک‌سازی doc-drift فاز ۱۶ (iOS/Android/RevenueCat)~~ ✅ 2026-09-19.
 >
 > 🆕 **اولویت‌بندی «قبل از انتشار» (درخواست Lukas، 2026-09-18):** معیار = کاری که **بعد از انتشار دیگر
 > نمی‌شود انجام داد**. تحلیل Claude: این دسته تقریباً همیشه یعنی **شناسه‌هایی که داده‌ی کاربر به آن‌ها
@@ -67,7 +67,7 @@
 | **L2 — Massen-Lokalisierung** | ✅ | ۶۴۱→۴۱ رشته FA در UI (کاتالوگ ۵۳۷=۵۳۷)؛ باقی در L3 |
 | **L3 — Content-Zweisprachigkeit** | ✅ | **همه محتواها FA+EN** (JSON + صفحات + دیتابیس)؛ audit ۰؛ کاتالوگ ۵۶۵=۵۶۵؛ helper AppL10n.loc؛ MemorizeItems.meaningEn (schema v2) |
 | **V — Vokabular-DB (۲۵٬۰۰۰ کلمه)** | Stufen ۱–۵ ✅ · **۸۷ کارت** (۰٫۳٪ از ~۲۶٬۲۰۰) · گلوگاه = سرعت، نه کد | Pipeline کامل و سالم: SUPER-PROMPT v3.0 → `import_inbox/` → `tool/vokabular_import.dart` → اپ. از ۱۴ جولای تا ۱۵ سپتامبر (۲ ماه) فقط چند کلمه اضافه شد ⇒ **فاز A (خودکارسازی) باز شد.** V.2 ✅ (فهرست کلمات به‌جای vocab.db، 2026-09-16) · باز: · اتصال Leitner به imLeitner · V.5 توزیع |
-| ۱۶ — انتشار و QA نهایی | باز | آخرین فاز قبل از launch |
+| ~~۱۶ — انتشار و QA نهایی~~ | ⛔ منسوخ — فهرست معتبر: **L.3** | نسخه‌ی بومی (iOS/Android/RevenueCat) از 2026-09-13 حذف شد؛ انتشار = فقط وب (GitHub Pages) |
 
 **2026-09-18:** L.6 شروع شد — Lukas درس‌های گرامر کتاب‌هایش را **یکی‌یکی** می‌فرستد. درس ۱ «Grammatik aktiv» (Personalpronomen) رسید و در درس `personalpronomen` اپ جا گرفت: ۲ توضیح تازه، ۲ جدول، ۴ مثال و ۶ تمرین — همه **از نو نوشته‌شده** (کپی‌رایت). فهرست کامل «کدام درس Lukas ↔ کدام درس اپ»: پایین‌تر در L.6 و در `GRAMMATIK_MAP.md`.
 **2026-09-18:** تصمیم‌های Lukas (پاسخ به سه سؤال Claude): ① تمرین‌های باقی‌مانده (**G7d/G7e**) **بعد از انتشار** — این تصمیم جای تصمیم ۲۰۲۶-۰۹-۱۶ («تمرین‌ها قبل از انتشار») را می‌گیرد؛ G7a–G7c که آماده شده‌اند می‌مانند. ② کلمه‌های A1/A2 جزوه‌ها: مثل قبل جزو **L.4** (بدون تغییر). ③ deckهای «به‌زودی»: Lukas منبعشان را می‌فرستد؛ Claude هر بار فقط **یک** منبع می‌خواهد — درخواست اول (۲۰۲۶-۰۹-۱۸): **ÖSD C1**.
@@ -232,6 +232,23 @@
       a2_zusammenfassung، feature.sprechen، feature.schreiben) — منتظر منبع بعدی از Lukas. وقتی فایلش رسید:
       ساخت + تست + انتشار، بعد منبع **بعدی** خواسته می‌شود. deckی که تا انتشار منبع نگیرد، قبل از انتشار **پنهان** می‌شود (`FeatureFlags`) —
       نسخه‌ی نهایی دکمه‌ی «به‌زودی» ندارد. ⚠️ این تنها کار باز L.2 است؛ کار بعدی Claude **L.3** است.
+      🔎 **Audit کد (Claude، 2026-09-19) — وضعیت واقعی هر ۹ مورد، برای تصمیم Lukas (فقط واقعیت، نه تصمیم):**
+      · **tempusformen:** محتوا هست و **در Grammatik زنده است** (`tempusformen-ueberblick` ← `/grammatik/thema/tempusformen`،
+        ۴ بخش، سطح B2، `assets/data/tempusformen_grammar.json`). ولی deck «Tempusformen» در Auswendiglernen (برچسب سطح **C2**)
+        محتوای خودش را ندارد و به همان صفحه هم وصل نیست. گزینه‌ها: پنهان‌کردن، یا وصل‌کردن به همان صفحه (اصل «یک محتوا، چند
+        ورودی»). ⛔ تصمیم با Lukas — و برچسب C2 deck با سطح B2 محتوا نمی‌خواند.
+      · **relativsatz · da_praepositionen · adjektive · adjektivdeklination · zusammenfassung · a2_zusammenfassung:** برای deck
+        فایل داده و route اختصاصی در Auswendiglernen/Prüfungen **وجود ندارد**. ولی در کاتالوگ **گرامر** دو موضوعِ مرتبط درس دارند:
+        `relativpronomen-relativsaetze` و `adjektivdeklination` — یعنی این deckها «در حفظی» همان موضوع‌اند، نه موضوعِ بدون محتوا.
+        (برای «adjektive» اسلاگ جدا در کاتالوگ نیست؛ فایل `grammatik/adjektive.json` هست ولی درس‌هایش را بررسی نکردم.)
+      · **feature.sprechen / feature.schreiben:** `sprechen_home_screen.dart` و `schreiben_home_screen.dart` **stub**اند (۴۳ خط، فقط
+        چیپ «به‌زودی») و از **کاشی صفحه‌ی اصلی** باز می‌شوند — یعنی الان کاربر آخر مسیر یک صفحه‌ی خالی می‌بیند.
+      🔧 **مکانیزم «پنهان‌کردن» کار نمی‌کرد — درست شد (2026-09-19):** `FeatureState.hidden` تعریف شده بود ولی **هیچ صفحه‌ای آن را
+      نمی‌خواند**، و کاشی‌های Sprechen/Schreiben اصلاً فلگ را نمی‌خواندند ⇒ «قبل از انتشار پنهان کن» یک تغییر یک‌خطیِ **بی‌اثر** بود.
+      حالا: `FeatureFlags.isHidden/isVisible/resolve/keys` · `auswendiglernen_home_screen.dart` هر دو فهرست را با `isVisible` فیلتر
+      می‌کند · `home_screen.dart` کاشی‌های Sprechen/Schreiben را با `feature.sprechen`/`feature.schreiben` شرطی کرد · نگهبان
+      `test/feature_flags_test.dart`. ⚠️ **رفتار امروز عوض نشد** (هیچ فلگی `hidden` نشد؛ تصمیمش با Lukas است). با پنهان‌شدن
+      Sprechen+Schreiben شبکه‌ی خانه ۱۰ کاشی می‌شود (۳ ستون ⇒ ردیف آخر ناقص) — تصمیم ظاهری هم با Lukas.
 
 ### L.6 — درس‌های گرامر از کتاب‌های Lukas (باز شد 2026-09-18)
 > **جریان کار:** Lukas درس‌ها را **به ترتیب کتاب** می‌فرستد. شماره‌گذاری او با شماره‌ی درس‌های اپ **یکی نیست** —
@@ -431,7 +448,7 @@
 ---
 
 ## STATUS LEGEND
-[x] = done  [ ] = planned  [~] = in progress  [!] = blocked
+[x] = done  [ ] = planned  [~] = in progress  [!] = blocked  [⛔] = منسوخ/حذف‌شده (فقط تاریخچه)
 
 ---
 
@@ -811,18 +828,18 @@ ElevatedButton(
 
 ## فاز ۱۶ — انتشار و QA نهایی [ ]
 > ⚠️ **2026-09-16:** این فهرست مال نسخه‌ی بومی قدیمی است (iOS/Android/RevenueCat) و از 2026-09-13 منسوخ است. فهرست معتبر: **فاز LAUNCH → L.3**.
-- [ ] 16.1 تست دستی iOS Simulator
-- [ ] 16.2 تست دستی Android Emulator
-- [ ] 16.3 تست RTL فارسی همه صفحات
-- [ ] 16.4 تست آفلاین (airplane mode)
+- [⛔] ~~16.1 تست دستی iOS Simulator~~ — ⛔ منسوخ (وب‌اپ، 2026-09-13)؛ جایگزین: تست آیفون واقعی در L.3
+- [⛔] ~~16.2 تست دستی Android Emulator~~ — ⛔ منسوخ (وب‌اپ، 2026-09-13)
+- [x] 16.3 تست RTL فارسی همه صفحات ✅ (2026-09-18) — باگ پیدا و رفع شد؛ Lukas تأیید کرد (جزئیات: L.3 «تست RTL»)
+- [ ] 16.4 تست آفلاین (airplane mode) — ⏸️ ادامه در L.3 «تست آفلاین» (منتظر خروجی DevTools از Lukas)
 - [ ] 16.5 آیکون 1024×1024 در assets/images/app_icon.png
 - [ ] 16.6 dart run flutter_launcher_icons
 - [ ] 16.7 dart run flutter_native_splash:create
-- [ ] 16.8 RevenueCat API keys واقعی در main.dart
-- [ ] 16.9 App Store Connect + Google Play metadata
-- [ ] 16.10 flutter build ios --release + flutter build appbundle --release
-- [ ] 16.11 TestFlight + internal Android test track
-- [ ] 16.12 submit review
+- [⛔] ~~16.8 RevenueCat API keys واقعی در main.dart~~ — ⛔ منسوخ (وب‌اپ، 2026-09-13)؛ RevenueCat از پروژه حذف شد، اپ رایگان است
+- [⛔] ~~16.9 App Store Connect + Google Play metadata~~ — ⛔ منسوخ (وب‌اپ، 2026-09-13)
+- [⛔] ~~16.10 flutter build ios/appbundle~~ — ⛔ منسوخ (وب‌اپ، 2026-09-13)
+- [⛔] ~~16.11 TestFlight + Android test track~~ — ⛔ منسوخ (وب‌اپ، 2026-09-13)
+- [⛔] ~~16.12 submit review~~ — ⛔ منسوخ (وب‌اپ، 2026-09-13)
 
 ---
 
@@ -987,7 +1004,7 @@ app_theme+tokens، widget_test. **N/A:** AuthInterceptor، cryptoUtils، JSBridg
       متصل شد: vox_badge، ۹ صفحه detail/list، ۳ home-screen level lists
 - [x] B2  `formatters.dart` — LIVE — faDigits، countLabel، outOf، percent، relativeDate، timer
       متصل شد: ۱۱ صفحه (count labels + quiz result strings)
-- [x] B3  `app_env.dart` — LIVE — RevenueCat keys via --dart-define (main.dart پاک شد)
+- [x] B3  `app_env.dart` — LIVE — RevenueCat keys via --dart-define (main.dart پاک شد) — ⛔ RevenueCat بعداً حذف شد (2026-09-13)
 - [x] B4  `app_logger.dart` — LIVE — AppLogger(tag) + loggerProvider
 - [x] B5  `feature_flags.dart` — LIVE — همه ۲۳ فلگ deck/feature
       متصل شد: auswendiglernen decks (enum _Status حذف شد) + content_registry (isReady getter)
@@ -2055,21 +2072,21 @@ reines Dart, kein Codegen:
 - [x] app_l10n.dart: کلیدهای reflexiv_title و search_reflexiv
 
 ### Phase 8 — انتشار (فاز ۱۶)
-> بعد از همه phase‌های بالا
-- [ ] 16.1 تست دستی iOS Simulator
-- [ ] 16.2 تست دستی Android Emulator
-- [ ] 16.3 تست RTL فارسی همه صفحات
-- [ ] 16.4 تست آفلاین (airplane mode)
+> ⚠️ **2026-09-19: این بخش منسوخ است — فقط تاریخچه.** نسخه‌ی بومی (iOS/Android/RevenueCat) از 2026-09-13 حذف شد؛ فهرست معتبر = **فاز LAUNCH → L.3**. (در کد بررسی شد: پوشه‌های android/ios/… و هر ارجاع RevenueCat/purchases_* در `lib/`، `test/`، `pubspec.yaml` وجود ندارد.)
+- [⛔] ~~16.1 تست دستی iOS Simulator~~ — ⛔ منسوخ (وب‌اپ، 2026-09-13)؛ جایگزین: تست آیفون واقعی در L.3
+- [⛔] ~~16.2 تست دستی Android Emulator~~ — ⛔ منسوخ (وب‌اپ، 2026-09-13)
+- [x] 16.3 تست RTL فارسی همه صفحات ✅ (2026-09-18) — باگ پیدا و رفع شد؛ Lukas تأیید کرد (جزئیات: L.3 «تست RTL»)
+- [ ] 16.4 تست آفلاین (airplane mode) — ⏸️ ادامه در L.3 «تست آفلاین» (منتظر خروجی DevTools از Lukas)
 - [x] 16.5 آیکون در assets/images/app_icon.png + app_icon_fg.png ✅ (2026-07-03) — 1254×1254px
 - [x] 16.6 dart run flutter_launcher_icons ✅ (2026-07-03) — Android adaptive + iOS generated
 - [x] 16.7 dart run flutter_native_splash:create ✅ (2026-06-30) — light #F5F5FA / dark #0A0A0F
-- [x] 16.8 RevenueCat API keys واقعی در main.dart ✅ (2026-06-30) — test_*** (Key entfernt)
-- [x] 16.8b RevenueCat SDK کامل ✅ (2026-06-30)
+- [⛔] 16.8 RevenueCat API keys ✅ (2026-06-30) — ⛔ بعداً حذف شد (2026-09-13؛ تاریخچه)
+- [⛔] 16.8b RevenueCat SDK ✅ (2026-06-30) — ⛔ بعداً حذف شد (2026-09-13؛ در کد نیست)
       purchases_ui_flutter اضافه، subscription_service.dart (Riverpod)، paywall + customer center
-- [ ] 16.9 App Store Connect + Google Play metadata
-- [ ] 16.10 flutter build ios --release + flutter build appbundle --release
-- [ ] 16.11 TestFlight + internal Android test track
-- [ ] 16.12 submit review
+- [⛔] ~~16.9 App Store Connect + Google Play metadata~~ — ⛔ منسوخ (وب‌اپ، 2026-09-13)
+- [⛔] ~~16.10 flutter build ios/appbundle~~ — ⛔ منسوخ (وب‌اپ، 2026-09-13)
+- [⛔] ~~16.11 TestFlight + Android test track~~ — ⛔ منسوخ (وب‌اپ، 2026-09-13)
+- [⛔] ~~16.12 submit review~~ — ⛔ منسوخ (وب‌اپ، 2026-09-13)
 
 ---
 
@@ -2104,7 +2121,7 @@ reines Dart, kein Codegen:
 | Router | go_router | declarative، deep link |
 | Audio | just_audio + flutter_tts | بهترین Flutter audio |
 | Charts | fl_chart | محبوب‌ترین Flutter chart |
-| Subscriptions | RevenueCat | iOS+Android یک SDK |
+| ~~Subscriptions~~ | ~~RevenueCat~~ | ⛔ حذف شد (2026-09-13) — وب‌اپ رایگان، بدون اشتراک |
 | Font | Vazirmatn (google_fonts) | FA+DE+EN یک فونت |
 | Color API | withValues(alpha:) | withOpacity deprecated |
 | L10n | strings در app_l10n.dart | بدون .arb files |
