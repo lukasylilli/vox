@@ -9,6 +9,7 @@ import '../controllers/redemittel_controller.dart';
 import '../models/redemittel_item.dart';
 import '../../../core/widgets/vox_button.dart';
 import '../../../core/l10n/app_l10n.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class Redemittel1010GrammarScreen extends ConsumerWidget {
   const Redemittel1010GrammarScreen({super.key});
@@ -426,7 +427,7 @@ class _ExampleRow extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(phrase.phraseDe,
+          DeutschText(phrase.phraseDe,
               style: tt.bodySmall
                   ?.copyWith(fontWeight: FontWeight.w600)),
           const SizedBox(height: 2),

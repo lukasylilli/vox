@@ -8,6 +8,7 @@ import '../../../core/widgets/vox_dialog.dart';
 import '../models/redemittel_item.dart';
 import '../../../core/widgets/vox_button.dart';
 import '../../../core/l10n/app_l10n.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 enum _QuizType { multiChoice, matchMeaning, fillBlank, wordOrder }
 
@@ -288,29 +289,40 @@ class _Redemittel1010QuizScreenState
                         _QuizTypeBadge(q.type),
                         const SizedBox(width: 8),
                         Flexible(
-                          child: Text(
+                          child: DeutschText(
                             q.phrase.sectionTitleDe,
                             style: tt.labelSmall?.copyWith(
                                 color: cs.onSurfaceVariant),
                             overflow: TextOverflow.ellipsis,
+                            textAlign: TextAlign.center,
                           ),
                         ),
                       ],
                     ),
                     const SizedBox(height: 12),
                     // phrase prompt
-                    Text(
-                      switch (q.type) {
-                        _QuizType.multiChoice  => q.phrase.phraseDe,
-                        _QuizType.matchMeaning => _meaning(q.phrase),
-                        _QuizType.fillBlank    =>
+                    // Deutsch bleibt LTR; die Übersetzung folgt der Oberfläche.
+                    switch (q.type) {
+                      _QuizType.multiChoice || _QuizType.wordOrder =>
+                        DeutschText(
+                          q.phrase.phraseDe,
+                          textAlign: TextAlign.center,
+                          style: tt.bodyLarge?.copyWith(
+                              fontWeight: FontWeight.w600, height: 1.5),
+                        ),
+                      _QuizType.matchMeaning => Text(
+                          _meaning(q.phrase),
+                          textAlign: TextAlign.center,
+                          style: tt.bodyLarge?.copyWith(
+                              fontWeight: FontWeight.w600, height: 1.5),
+                        ),
+                      _QuizType.fillBlank => Text(
                           '___  ${_meaning(q.phrase)}',
-                        _QuizType.wordOrder    => q.phrase.phraseDe,
-                      },
-                      textAlign: TextAlign.center,
-                      style: tt.bodyLarge?.copyWith(
-                          fontWeight: FontWeight.w600, height: 1.5),
-                    ),
+                          textAlign: TextAlign.center,
+                          style: tt.bodyLarge?.copyWith(
+                              fontWeight: FontWeight.w600, height: 1.5),
+                        ),
+                    },
                     const SizedBox(height: 8),
                     Text(
                       _prompt(q),
@@ -392,7 +404,7 @@ class _Redemittel1010QuizScreenState
                   : Wrap(
                       spacing: 6, runSpacing: 6,
                       children: _arranged.map((w) => ActionChip(
-                            label    : Text(w),
+                            label    : DeutschText(w),
                             onPressed: _answered
                                 ? null
                                 : () => setState(
@@ -405,7 +417,7 @@ class _Redemittel1010QuizScreenState
             Wrap(
               spacing: 6, runSpacing: 6,
               children: remaining.map((w) => ActionChip(
-                    label    : Text(w),
+                    label    : DeutschText(w),
                     onPressed: _answered
                         ? null
                         : () => setState(() => _arranged.add(w)),
@@ -413,7 +425,7 @@ class _Redemittel1010QuizScreenState
             ),
             if (_answered) ...[
               const SizedBox(height: 12),
-              Text(
+              DeutschText(
                 '✓ ${q.phrase.exampleDe}',
                 style: const TextStyle(
                     color: Colors.green, fontWeight: FontWeight.w600),

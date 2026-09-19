@@ -15,6 +15,7 @@ import '../../../core/widgets/vox_empty_state.dart';
 import 'grammatik_uebung_screen.dart';
 import '../controllers/grammatik_lektion_controller.dart';
 import '../models/grammatik_lektion.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class GrammatikLektionScreen extends ConsumerWidget {
   const GrammatikLektionScreen({super.key, required this.slug});
@@ -52,7 +53,7 @@ class _LektionView extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return Scaffold(
-      appBar: AppBar(title: Text(lek.titleDe)),
+      appBar: AppBar(title: DeutschText(lek.titleDe)),
       body: ListView(
         padding: const EdgeInsets.all(AppSizes.md),
         children: [
@@ -211,7 +212,7 @@ class _ExampleTile extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(e.german,
+            DeutschText(e.german,
                 style: theme.textTheme.bodyLarge?.copyWith(
                   fontWeight: FontWeight.w600, height: 1.5)),
             const SizedBox(height: 2),
@@ -253,7 +254,7 @@ class _TableCard extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(t.titleDe,
+            DeutschText(t.titleDe,
                 style: theme.textTheme.titleSmall
                     ?.copyWith(fontWeight: FontWeight.w700)),
             Text(AppL10n.meaning(context, fa: t.titleFa, en: t.titleEn),
@@ -319,7 +320,7 @@ class _RelatedSection extends ConsumerWidget {
           return Card(
             margin: const EdgeInsets.only(bottom: AppSizes.sm),
             child: ListTile(
-              title   : Text(lek.titleDe,
+              title   : DeutschText(lek.titleDe,
                   style: const TextStyle(fontWeight: FontWeight.w600)),
               subtitle: Text(AppL10n.meaning(context,
                   fa: lek.titleFa, en: lek.titleEn)),

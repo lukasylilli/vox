@@ -15,6 +15,7 @@ import '../controllers/redemittel_controller.dart';
 import '../models/redemittel_item.dart';
 import '../../../core/widgets/vox_button.dart';
 import '../../../core/l10n/app_l10n.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class Redemittel1010ListScreen extends ConsumerStatefulWidget {
   const Redemittel1010ListScreen({super.key});
@@ -277,7 +278,7 @@ class _SectionGroupState extends State<_SectionGroup> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
+                      DeutschText(
                         widget.titleDe,
                         style: theme.textTheme.titleSmall?.copyWith(
                           fontWeight: FontWeight.w700,
@@ -335,7 +336,7 @@ class _PhraseCard extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
+                    DeutschText(
                       phrase.phraseDe,
                       style: theme.textTheme.bodyMedium?.copyWith(
                           fontWeight: FontWeight.w600),

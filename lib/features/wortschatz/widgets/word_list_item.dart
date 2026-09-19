@@ -13,6 +13,7 @@ import 'article_color_indicator.dart';
 import 'wortschatz_grammatikon.dart';
 import '../../../core/grammatikon/grammatikon_painter.dart';
 import '../../../core/l10n/app_l10n.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 // common prepositions that may appear as suffix in german field
 const _kPrepositions = {
@@ -70,7 +71,7 @@ class WordListItem extends StatelessWidget {
                           children: [
                             // German word — preposition stripped for list display
                             Expanded(
-                              child: Text(
+                              child: DeutschText(
                                 stripPreposition(word.german),
                                 style: theme.textTheme.titleMedium?.copyWith(
                                   fontWeight: FontWeight.w700,
