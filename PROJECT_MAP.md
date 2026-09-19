@@ -1534,6 +1534,14 @@ noch nicht und wird erst nach dieser Entscheidung gebaut.
 - محتمل‌ترین جای پیاده‌سازی: یک widget جدید در `core/widgets/` که popup + navigation به route کلمه را می‌سازد
 - جزئیات کامل → PLAN.md → L.5f
 
+### L.5g [باز — 2026-09-19]: ساختار دو لایه‌ی Lesen و اخبار (سطح · ترجمه‌ی زیر متن · پاپ‌آپ · تمرین)
+- کل Lesen، نه فقط اخبار: سطح A1–C2 برای هر متن/خبر (اخبار RSS فعلاً بدون سطح: `news_screen.dart`)
+- **لایه‌ی خودکار** (همه‌ی متن‌ها): ترجمه‌ی زیر متن FA/EN طبق `AppL10n.activeLang` (L.5b) + کلیک کلمه ⇒ پاپ‌آپ ⇒
+  `wort_seite_screen.dart` (L.5f؛ الان `clickable_word_text.dart` → `showWordPopup` فقط پاپ‌آپ دارد، مرحله‌ی دوم نیست)
+- **لایه‌ی دست‌ساز** (فقط متن‌های از قبل آماده): تمرین · کلمات مهم · آزمون (L.5e) · نکات گرامری متن — اختیاری، نبودش بخش را پنهان می‌کند
+- ⛔ باز: منبع سطح برای اخبار خودکار + سرویس ترجمه‌ی جمله‌ها برای اخبار خودکار (با کد تنها ممکن نیست)
+- جزئیات کامل → PLAN.md → L.5g
+
 ### R-7 [متوسط]: Content/Data جداسازی ✅ (2026-06-29)
 - فایل‌های موجود: konnektoren_data.json، dativ_akkusativ_data.json، nvv_data.json، praepositionen_data.json، reflexiv_data.json، reflexiv_grammar.json ✅
 - ساخته شدند: redemittel_goethe_b2.json (**۶۱ عبارت** 2026-07-04)، redemittel_oesd_b2.json (**۱۲۱ عبارت در ۲۰ بخش** 2026-07-04)، redemittel_oesd_c1.json (۶ placeholder)، redemittel_1010.json (**۹۰۸ عبارت** 2026-07-04) ✅
