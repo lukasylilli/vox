@@ -196,7 +196,11 @@ widgets/
                                  قاعده: هر محتوای آلمانی ⇒ DeutschText؛ ترجمه‌ی fa/en ⇒ Text عادی.
                                  🛡 test/deutsch_text_test.dart. مشابه قبلی: wort_text.dart (از قبل ltr داشت)
                                  اعمال‌شده در: redemittel_exam_list · redemittel_1010_detail/list/quiz/grammar
-                                 · grammatik_lektion_screen · word_list_item (uebung_karte از قبل درست بود)
+                                 · grammatik_lektion_screen (عنوان، **پاراگراف توضیح b.bodyDe**، تیتر بلوک،
+                                   جمله‌ی نمونه، و جدول‌ها: سرستون + rowLabel + خانه‌ها) · word_list_item
+                                   (uebung_karte از قبل درست بود)
+                                 ⚠️ درس: دور اول b.bodyDe جا افتاد و Lukas دوباره گزارش داد ⇒ در هر فایل
+                                   باید **همه‌ی** Text(ها شمرده شوند، نه فقط آن‌هایی که به چشم می‌آیند.
                                  ⚠️ باقی: گزینه‌های کوییز از VoxOptionButton(label:String) می‌گذرند —
                                  آن دکمه هنوز پارامتر جهت ندارد (قدم مستقل؛ نگهبان: puzzling_buttons_test)
   article_badge.dart      [x]  — pill badge رنگی برای der/die/das (prop: large)
