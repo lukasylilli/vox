@@ -1,6 +1,10 @@
 # PROJECT MAP — VOX
 # نقشه کامل پروژه برای ناوبری سریع در هر session
-# آپدیت: 2026-09-18 (ادامه ۵ — باگ RTL کاملاً بسته شد + نگهبان CI؛ اصل «یک محتوا، چند ورودی» و A-1 ثبت شد؛ باگ آفلاین باز)
+# آپدیت: 2026-09-18 (ادامه ۶ — L.1e: نگهبان شناسه‌ی کلمه‌های همراه اپ؛ RTL بسته؛ اصل «یک محتوا، چند ورودی» + A-1 ثبت؛ آفلاین باز)
+#
+# 🔒 قاعده: هر چیزی که **داده‌ی کاربر به آن اشاره می‌کند** باید قبل از انتشار نگهبان داشته باشد —
+#   بعد از انتشار عوض‌کردنش یعنی از دست رفتن پیشرفت کاربر. وضعیت: کارت آرشیو ✅ L.1a · مهاجرت DB ✅ L.1b ·
+#   لیست‌های شخصی ✅ S.6 · قرارداد پشتیبان ✅ S.5 · کلمه‌های همراه اپ ✅ L.1e (2026-09-18).
 #
 # 🧭 قاعده‌ی ثابت هر چت جدید (Lukas، 2026-09-18) — این بخش را حذف نکن:
 #   ۱) اول چت: هر چهار فایل (vox/PLAN.md، vox/PROJECT_MAP.md، Root-in/PLAN.md، Root-in/MAP.md) را
@@ -1012,6 +1016,18 @@ screens/
 ```
 data_seed_service.dart  [x]  — یک‌بار seed از JSON asset به SQLite (flag: vocab_seeded_v1)
                                4 متد: _seedDativAkkusativ، _seedKonnektoren، _seedNvv، _seedPraepositionen
+seed_wortschluessel.dart [x] — ⭐ **L.1e (2026-09-18) — تنها منبع** استخراج `<german>|<wordType>` از آن
+                               ۴ فایل. چرا: همین رشته، شناسه‌ی لایتنر کاربر است
+                               (`nutzer_zustand.dart` → `eigen:<german>|<wordType>`). یک اصلاح تایپی یا
+                               عوض‌شدن `word_class` ⇒ پیشرفت کاربر روی آن کلمه یتیم می‌شود.
+                               `data_seed_service` حالا `mapWordClass` را از اینجا می‌گیرد (قبلاً کپی
+                               محلی داشت) تا دو فرمول از هم جدا نشوند.
+                               🛡🛡 `test/seed_wortschluessel_test.dart` + فهرست ۱٬۰۱۶ شناسه در
+                               `test/daten/seed_schluessel_veroeffentlicht.txt` ⇒ گم‌شدن شناسه = CI قرمز.
+                               ثبت کلمه‌های تازه: `dart run tool/seed_schluessel_schreiben.dart`
+                               (عمداً از حذف شناسه امتناع می‌کند — نمی‌شود با آن نگهبان را خاموش کرد).
+                               ⚠️ برخلاف L.1a داخل workflow نیست: توکن‌های PAT اجازه‌ی تغییر
+                               `.github/workflows/` ندارند (403) ⇒ نگهبان داخل تست‌ها، بدون شبکه.
                                ⚠️ upsert: DoUpdate(target:[german,wordType]) — نه insertOnConflictUpdate
                                import: 'package:drift/drift.dart' show Value, DoUpdate;
 ```
