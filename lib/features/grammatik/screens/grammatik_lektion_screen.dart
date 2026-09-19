@@ -171,14 +171,14 @@ class _Block extends StatelessWidget {
           if (b.hasHeading)
             Padding(
               padding: const EdgeInsets.only(bottom: 4),
-              child: Text(
+              child: DeutschText(
                 b.headingDe!,
                 style: theme.textTheme.titleSmall
                     ?.copyWith(fontWeight: FontWeight.w700),
               ),
             ),
-          // Deutsch fest
-          Text(b.bodyDe,
+          // Deutsch fest — LTR, sonst rutscht der Schlusspunkt nach links
+          DeutschText(b.bodyDe,
               style: theme.textTheme.bodyMedium?.copyWith(height: 1.7)),
           const SizedBox(height: 6),
           // Aktive Zweitsprache
@@ -270,18 +270,18 @@ class _TableCard extends StatelessWidget {
                 dataRowMaxHeight: 42,
                 columns: [
                   for (final c in t.columns)
-                    DataColumn(label: Text(c,
+                    DataColumn(label: DeutschText(c,
                         style: const TextStyle(
                             fontWeight: FontWeight.w700, fontSize: 12))),
                 ],
                 rows: [
                   for (final r in t.rows)
                     DataRow(cells: [
-                      DataCell(Text(r.rowLabel,
+                      DataCell(DeutschText(r.rowLabel,
                           style: const TextStyle(
                               fontWeight: FontWeight.w600, fontSize: 12))),
                       for (final cell in r.cells)
-                        DataCell(Text(cell,
+                        DataCell(DeutschText(cell,
                             style: const TextStyle(fontSize: 12))),
                     ]),
                 ],
