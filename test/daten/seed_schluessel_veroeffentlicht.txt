@@ -1,0 +1,1036 @@
+# FILE: test/daten/seed_schluessel_veroeffentlicht.txt
+# PHASE: فاز LAUNCH, Schritt L.1e (2026-09-18)
+#
+# Die Leitner-Schluessel der mitgelieferten App-Woerter, wie sie zum Zeitpunkt
+# dieser Zeile veroeffentlicht sind. Form: <german>|<wordType> — genau der
+# Schluessel aus core/backup/nutzer_zustand.dart (dort mit Praefix "eigen:").
+#
+# ⚠️ DIESE DATEI WIRD NIE VON HAND GEKUERZT.
+#   test/seed_wortschluessel_test.dart macht CI rot, sobald ein Schluessel von
+#   hier in den vier Datendateien nicht mehr entsteht. Genau das ist der Sinn:
+#   ein geaenderter deutscher Text oder eine geaenderte Wortart wuerde den
+#   Leitner-Fortschritt der Nutzer zu diesem Wort verwaisen lassen.
+#
+# NEUE Woerter sind immer erlaubt und muessen hier nicht stehen.
+# Sie eintragen (damit auch sie ab jetzt geschuetzt sind):
+#     dart run tool/seed_schluessel_schreiben.dart
+#
+# Ein Schluessel darf hier nur verschwinden, wenn es vorher eine Umzugsregel
+# alt→neu fuer den Leitner-Stand gibt — Entscheidung mit Lukas, kein Handgriff
+# (PLAN.md → L.1e).
+(keine) Ahnung haben von|sonstige
+Abschied nehmen von|sonstige
+Acht geben auf|sonstige
+Anerkennung finden|sonstige
+Angst haben vor|sonstige
+Anklang finden|sonstige
+Anlass geben zu|sonstige
+Anspruch erheben (auf)|sonstige
+Anstoß nehmen an|sonstige
+Anteil nehmen (an)|sonstige
+Anzeige erstatten|sonstige
+Arbeitsplätze abbauen|sonstige
+Arbeitsplätze schaffen|sonstige
+Aufnahme finden|sonstige
+Aufsehen erregen|sonstige
+Beachtung finden|sonstige
+Berechnungen anstellen|sonstige
+Berufung einlegen|sonstige
+Bescheid geben/sagen|sonstige
+Bescheid geben|verb
+Bescheid wissen über|sonstige
+Beschwerde einlegen|sonstige
+Beweise vorlegen|sonstige
+Bezug nehmen auf|sonstige
+Druck ausüben (auf)|sonstige
+Durst haben|sonstige
+Eindruck machen auf|sonstige
+Einfluss nehmen auf|sonstige
+Einspruch einlegen/erheben|sonstige
+Einwände erheben|sonstige
+Feierabend haben|sonstige
+Fernweh haben|sonstige
+Fieber haben|sonstige
+Fortschritte machen|sonstige
+Frieden schließen|sonstige
+Geduld haben|sonstige
+Gefallen finden (an)|sonstige
+Glück haben|sonstige
+Hausaufgaben machen|sonstige
+Heimweh haben|sonstige
+Hilfe brauchen|sonstige
+Hunger haben|sonstige
+Insolvenz anmelden|sonstige
+Interesse wecken für|sonstige
+Investitionen tätigen|sonstige
+Klarheit schaffen|sonstige
+Kontakt halten|sonstige
+Krieg führen|sonstige
+Kritik üben an|sonstige
+Lust haben auf|sonstige
+Maßnahmen ergreifen|sonstige
+Mitleid haben (mit)|sonstige
+Mut haben|sonstige
+Nachforschungen anstellen|sonstige
+Nachsicht üben|sonstige
+Pech haben|sonstige
+Platz nehmen|sonstige
+Probleme machen|sonstige
+Protest einlegen|sonstige
+Protokoll führen|sonstige
+Quatsch reden/machen|sonstige
+Recht behalten|sonstige
+Recht haben|sonstige
+Rechte einräumen|sonstige
+Ruhe bewahren bei/für|sonstige
+Rücksicht nehmen auf|sonstige
+Sanktionen verhängen|sonstige
+Schaden anrichten|sonstige
+Schiss haben (vor)|sonstige
+Schluss machen mit|sonstige
+Schulden machen|sonstige
+Schwein haben|sonstige
+Sinn machen/ergeben|sonstige
+Spaß haben|sonstige
+Spaß machen|sonstige
+Stellung beziehen|sonstige
+Stellung nehmen zu|sonstige
+Streit haben (mit)|sonstige
+Unrecht haben|sonstige
+Unterricht geben|sonstige
+Untersuchungen durchführen|sonstige
+Urlaub beantragen|sonstige
+Verantwortung tragen für|sonstige
+Verdacht erregen|sonstige
+Verhandlungen führen|sonstige
+Vernunft annehmen|sonstige
+Verspätung haben|sonstige
+Verständnis aufbringen für|sonstige
+Verwendung finden|sonstige
+Verzicht leisten (auf)|sonstige
+Voraussetzungen schaffen|sonstige
+Vorbereitungen treffen|sonstige
+Widerstand leisten|sonstige
+Wirkung zeigen|sonstige
+Witze reißen|sonstige
+Zeit haben|sonstige
+Zweifel haben an|sonstige
+aber|konnektor
+abhalten von|verb
+abhängen von|verb
+abhängig von|adjektiv
+abraten von|verb
+abseits|konnektor
+abweichen von|verb
+achten auf|verb
+allerdings|konnektor
+allergisch auf|adjektiv
+alles beim Alten lassen|sonstige
+als dass|konnektor
+als ob|konnektor
+als wenn|konnektor
+also|konnektor
+als|konnektor
+alternativ zu|adjektiv
+an Bedeutung gewinnen|sonstige
+anbieten|verb
+anderenfalls|konnektor
+andernfalls|konnektor
+anerkannt für|adjektiv
+anfangen mit|verb
+angenommen|konnektor
+angepasst an|adjektiv
+angesichts|konnektor
+angewiesen auf|adjektiv
+anhand|konnektor
+ankommen auf|verb
+anlässlich|konnektor
+anpassen an|verb
+anrufen|verb
+anschließend|konnektor
+ansonsten|konnektor
+anstatt dass|konnektor
+anstatt|konnektor
+anstelle|konnektor
+antworten auf|verb
+antworten|verb
+anvertrauen|verb
+appellieren an|verb
+arbeiten an|verb
+arbeiten bei|verb
+auch wenn|konnektor
+auf dem Laufenden sein über|sonstige
+auf dem Standpunkt stehen|sonstige
+auf den Markt bringen|sonstige
+auffallen|verb
+aufgeregt über|adjektiv
+aufgeschlossen gegenüber|adjektiv
+aufgrund|konnektor
+aufhören mit|verb
+aufpassen auf|verb
+aus dem Weg gehen (jmdm.)|sonstige
+ausgehen von|verb
+ausgerichtet auf|adjektiv
+auskommen mit|verb
+ausweichen auf|verb
+ausweichen vor|verb
+ausweichen|verb
+außer Frage stehen|sonstige
+außer Kontrolle geraten|sonstige
+außer Kraft setzen|sonstige
+außer Zweifel stehen|sonstige
+außer dass|konnektor
+außer wenn|konnektor
+außer zu|konnektor
+außerdem|konnektor
+außerhalb|konnektor
+außer|konnektor
+bald bald|konnektor
+basieren auf|verb
+beantworten|verb
+befehlen|verb
+befreien von|verb
+begegnen|verb
+begeistert von|adjektiv
+beginnen mit|verb
+beharren auf|verb
+beibringen|verb
+beistehen|verb
+beitragen zu|verb
+beitreten|verb
+bekannt für|adjektiv
+beneiden um|verb
+berichten von|verb
+berichten über|verb
+beruhen auf|verb
+berühmt für|adjektiv
+beschreiben|verb
+beschäftigt mit|adjektiv
+bestehen auf|verb
+bestehen aus|verb
+bestellen|verb
+bestätigen|verb
+besuchen|verb
+beteiligt an|adjektiv
+bevor|konnektor
+beweisen|verb
+beziehungsweise|konnektor
+bezüglich|konnektor
+bieten|verb
+binnen|konnektor
+bis|konnektor
+bitten um|verb
+borgen|verb
+bringen|verb
+böse auf|adjektiv
+dabei|konnektor
+dadurch dass|konnektor
+dadurch|konnektor
+dafür|konnektor
+dagegen|konnektor
+daher|konnektor
+damit|konnektor
+danach|konnektor
+dankbar für|adjektiv
+danken|verb
+dank|konnektor
+dann|konnektor
+darum|konnektor
+darüber hinaus|konnektor
+das Engagement für|nomen
+das Erstaunen über|nomen
+das Interesse an|nomen
+das Interesse für|nomen
+das Misstrauen gegenüber|nomen
+das Treffen mit|nomen
+das Verständnis vertiefen|sonstige
+das Vertrauen in|nomen
+das Wort ergreifen|sonstige
+das bringt nichts|sonstige
+dass|konnektor
+das|konnektor
+dazu|konnektor
+da|konnektor
+demgegenüber|konnektor
+demnach|konnektor
+demzufolge|konnektor
+dem|konnektor
+den Anschein haben|sonstige
+den Befehl geben|sonstige
+den Betrieb einstellen|sonstige
+den Dienst antreten|sonstige
+den Eindruck gewinnen|sonstige
+den Mut verlieren|sonstige
+den Widerstand aufgeben|sonstige
+denen|konnektor
+denken an|verb
+dennoch|konnektor
+denn|konnektor
+den|konnektor
+der Anfang mit|nomen
+der Austausch mit|nomen
+der Beginn mit|nomen
+der Beitrag zu|nomen
+der Bericht über|nomen
+der Dank für|nomen
+der Entschluss zu|nomen
+der Gedanke an|nomen
+der Glaube an|nomen
+der Kampf für|nomen
+der Neid auf|nomen
+der Protest gegen|nomen
+der Rat zu|nomen
+der Stolz auf|nomen
+der Traum von|nomen
+der Umgang mit|nomen
+der Vergleich mit|nomen
+der Verweis auf|nomen
+der Verzicht auf|nomen
+der Zwang zu|nomen
+der Zweifel an|nomen
+der Ärger über|nomen
+deren|konnektor
+der|konnektor
+des Weiteren|konnektor
+deshalb|konnektor
+dessen|konnektor
+deswegen|konnektor
+die Abhängigkeit von|nomen
+die Abmeldung von|nomen
+die Absicht haben zu|sonstige
+die Allergie auf|nomen
+die Alternative zu|nomen
+die Anerkennung für|nomen
+die Angst vor|nomen
+die Anpassung an|nomen
+die Antwort auf|nomen
+die Arbeit an|nomen
+die Arbeit einstellen|sonstige
+die Aufgeschlossenheit gegenüber|nomen
+die Aufregung über|nomen
+die Befreiung von|nomen
+die Begeisterung für|nomen
+die Bekanntschaft machen (mit)|sonstige
+die Bemühung um|nomen
+die Berühmtheit für|nomen
+die Beschränkung auf|nomen
+die Beschwerde über|nomen
+die Beschäftigung mit|nomen
+die Beteiligung an|nomen
+die Bewerbung um|nomen
+die Bitte um|nomen
+die Diskussion über|nomen
+die Distanz zu|nomen
+die Eifersucht auf|nomen
+die Eignung für|nomen
+die Einladung zu|nomen
+die Einstellung zu|nomen
+die Empörung über|nomen
+die Entfernung von|nomen
+die Entscheidung für|nomen
+die Entschuldigung für|nomen
+die Enttäuschung über|nomen
+die Entwicklung zu|nomen
+die Erholung von|nomen
+die Erinnerung an|nomen
+die Erkundigung nach|nomen
+die Erlaubnis erteilen zu|sonstige
+die Ernährung von|nomen
+die Erwartung an|nomen
+die Erzählung von|nomen
+die Flucht ergreifen vor|sonstige
+die Freude über|nomen
+die Furcht vor|nomen
+die Geduld verlieren|sonstige
+die Gelegenheit ergreifen|sonstige
+die Gewöhnung an|nomen
+die Hoffnung aufgeben|sonstige
+die Hoffnung auf|nomen
+die Information über|nomen
+die Initiative ergreifen|sonstige
+die Investition in|nomen
+die Klage über|nomen
+die Konzentration auf|nomen
+die Kosten tragen für|sonstige
+die Nase voll haben (von)|sonstige
+die Neigung zu|nomen
+die Orientierung an|nomen
+die Rache an|nomen
+die Reaktion auf|nomen
+die Rede von|nomen
+die Scham für|nomen
+die Schnauze voll haben (von)|sonstige
+die Sehnsucht nach|nomen
+die Spezialisierung auf|nomen
+die Suche nach|nomen
+die Teilnahme an|nomen
+die Tendenz zu|nomen
+die Trauer um|nomen
+die Trennung von|nomen
+die Täuschung über|nomen
+die Unterhaltung über|nomen
+die Verabredung mit|nomen
+die Verabschiedung von|nomen
+die Verantwortung für|nomen
+die Verantwortung übernehmen|sonstige
+die Verbindung mit|nomen
+die Verhandlung über|nomen
+die Verliebtheit in|nomen
+die Verpflichtung zu|nomen
+die Versicherung gegen|nomen
+die Versorgung mit|nomen
+die Versöhnung mit|nomen
+die Verwunderung über|nomen
+die Vorbereitung auf|nomen
+die Wahl haben|sonstige
+die Warnung vor|nomen
+die Wirkung auf|nomen
+die Zufriedenheit mit|nomen
+die Zurückhaltung gegenüber|nomen
+die Zuständigkeit für|nomen
+die Änderung an|nomen
+dienen|verb
+die|konnektor
+diskutieren über|verb
+doch|konnektor
+drohen|verb
+duften nach|verb
+durch eine Prüfung fallen|sonstige
+ebenfalls|konnektor
+ebenso|konnektor
+ehe|konnektor
+eifersüchtig auf|adjektiv
+ein Angebot machen|sonstige
+ein Bad nehmen|sonstige
+ein Foto machen|sonstige
+ein Gesetz verabschieden|sonstige
+ein Gespräch führen (mit/über)|sonstige
+ein Geständnis ablegen|sonstige
+ein Konto eröffnen|sonstige
+ein Problem haben (mit)|sonstige
+ein Referat halten|sonstige
+ein Stipendium bekommen|sonstige
+ein Unternehmen gründen|sonstige
+ein Urteil fällen|sonstige
+ein Verbrechen begehen|sonstige
+ein Verfahren einleiten|sonstige
+ein Versprechen brechen|sonstige
+ein Versprechen halten|sonstige
+ein Veto einlegen|sonstige
+ein Ziel erreichen|sonstige
+ein Ziel verfolgen|sonstige
+ein gutes Wort einlegen (für)|sonstige
+ein gutes/schlechtes Gewissen haben|sonstige
+eine Abstimmung durchführen|sonstige
+eine Anregung geben|sonstige
+eine Anstrengung unternehmen|sonstige
+eine Anzahlung leisten|sonstige
+eine Ausnahme machen|sonstige
+eine Ausrede haben|sonstige
+eine Bedingung stellen|sonstige
+eine Beförderung bekommen|sonstige
+eine Bemerkung machen|sonstige
+eine Beschäftigung aufnehmen|sonstige
+eine Besprechung abhalten|sonstige
+eine Bestellung aufgeben|sonstige
+eine Bilanz ziehen|sonstige
+eine Diagnose stellen|sonstige
+eine Dusche nehmen|sonstige
+eine Einladung annehmen|sonstige
+eine Entscheidung treffen|sonstige
+eine Erklärung abgeben|sonstige
+eine Forderung stellen|sonstige
+eine Frage aufwerfen|sonstige
+eine Frage haben|sonstige
+eine Frage stellen|sonstige
+eine Garantie geben|sonstige
+eine Genehmigung erteilen|sonstige
+eine Idee haben|sonstige
+eine Klage einreichen|sonstige
+eine Koalition bilden|sonstige
+eine Konsequenz ziehen (aus)|sonstige
+eine Lösung finden|sonstige
+eine Mehrheit erreichen|sonstige
+eine Meinung haben (zu)|sonstige
+eine Meinung vertreten|sonstige
+eine Mitteilung machen|sonstige
+eine Niederlage erleiden|sonstige
+eine Operation durchführen|sonstige
+eine Pause brauchen|sonstige
+eine Pause machen|sonstige
+eine Präsentation halten|sonstige
+eine Prüfung bestehen|sonstige
+eine Rechnung bezahlen|sonstige
+eine Rede halten|sonstige
+eine Reform durchführen|sonstige
+eine Reise planen|sonstige
+eine Rolle spielen in/bei|sonstige
+eine Strafe verhängen|sonstige
+eine Untersuchung einleiten|sonstige
+eine Verabredung treffen zu/mit|sonstige
+eine Vereinbarung treffen|sonstige
+eine Wahl gewinnen|sonstige
+eine Wahl verlieren|sonstige
+eine Änderung vornehmen|sonstige
+einen Abschluss machen|sonstige
+einen Antrag stellen auf|sonstige
+einen Auftrag geben/erteilen|sonstige
+einen Befehl ausführen|sonstige
+einen Beitrag leisten|sonstige
+einen Bericht vorlegen|sonstige
+einen Beruf ausüben|sonstige
+einen Beschluss fassen|sonstige
+einen Besuch abstatten|sonstige
+einen Eid ablegen|sonstige
+einen Einblick gewinnen|sonstige
+einen Entschluss fassen|sonstige
+einen Fehler begehen|sonstige
+einen Flug buchen|sonstige
+einen Gewinn erzielen|sonstige
+einen Grund angeben für|sonstige
+einen Kater haben|sonstige
+einen Kompromiss schließen|sonstige
+einen Kredit aufnehmen|sonstige
+einen Plan aufgeben|sonstige
+einen Rat geben|sonstige
+einen Skandal aufdecken|sonstige
+einen Skandal auslösen|sonstige
+einen Spaziergang machen|sonstige
+einen Termin einhalten|sonstige
+einen Termin vereinbaren|sonstige
+einen Termin verschieben|sonstige
+einen Umsatz erzielen|sonstige
+einen Unterschied machen|sonstige
+einen Verlust erleiden|sonstige
+einen Vertrag abschließen|sonstige
+einen Vertrag kündigen|sonstige
+einen Vortrag halten|sonstige
+einen Witz machen|sonstige
+einerseits andererseits|konnektor
+einfallen|verb
+eingehen auf|verb
+einladen zu|verb
+empfehlen|verb
+empört über|adjektiv
+engagiert für|adjektiv
+entfallen|verb
+entfernt von|adjektiv
+entgegenkommen|verb
+entgehen|verb
+entlang|konnektor
+entscheidend für|adjektiv
+entschlossen zu|adjektiv
+enttäuscht von|adjektiv
+entweder oder|konnektor
+entziehen|verb
+erfreut über|adjektiv
+erholt von|adjektiv
+erklären|verb
+erkranken an|verb
+erlauben|verb
+erleichtern|verb
+ermöglichen|verb
+erstaunt über|adjektiv
+erwarten von|verb
+erzählen von|verb
+erzählen|verb
+es eilig haben|sonstige
+es sei denn dass|konnektor
+etw. aufs Spiel setzen|sonstige
+etwas in Angriff nehmen|sonstige
+etwas in Auftrag geben|sonstige
+etwas in Betrieb nehmen|sonstige
+etwas in Erfahrung bringen|sonstige
+etwas in Erwägung ziehen|sonstige
+etwas in Ordnung bringen|sonstige
+etwas ins Leben rufen|sonstige
+etwas unter Kontrolle bringen|sonstige
+etwas zum Abschluss bringen|sonstige
+etwas zur Abstimmung bringen|sonstige
+etwas zur Verfügung stellen|sonstige
+exklusive|konnektor
+falls|konnektor
+fehlen|verb
+ferner|konnektor
+folgen|verb
+folglich|konnektor
+fragen|verb
+frei von|adjektiv
+freilich|konnektor
+froh über|adjektiv
+führen zu|verb
+geben|verb
+geeignet für|adjektiv
+gefallen|verb
+gehorchen|verb
+gehören zu|verb
+gehören|verb
+gelingen|verb
+gelten als|verb
+gelten für|verb
+gelten|verb
+gemäß|konnektor
+genügen|verb
+geraten an|verb
+geraten in|verb
+gespannt auf|adjektiv
+gestatten|verb
+getrennt von|adjektiv
+gewöhnt an|adjektiv
+gezwungen zu|adjektiv
+glauben an|verb
+glauben|verb
+gleichwohl|konnektor
+gratulieren|verb
+grenzen an|verb
+großen Wert legen (auf)|sonstige
+gute Laune haben|sonstige
+gute/schlechte Noten bekommen|sonstige
+guttun|verb
+haften für|verb
+halb halb|konnektor
+halten für|verb
+halten von|verb
+handeln von|verb
+heiraten|verb
+helfen|verb
+hingegen|konnektor
+hinsichtlich|konnektor
+hoffen auf|verb
+hängen an|verb
+hören auf|verb
+hören von|verb
+im Stau stehen|sonstige
+im Stress sein|sonstige
+immerhin|konnektor
+imponieren|verb
+in Anspruch nehmen|sonstige
+in Aufregung versetzen|sonstige
+in Betracht kommen|sonstige
+in Betracht ziehen|sonstige
+in Eile sein|sonstige
+in Einklang stehen mit|sonstige
+in Erfüllung gehen|sonstige
+in Erscheinung treten|sonstige
+in Frage kommen|sonstige
+in Frage stellen|sonstige
+in Gefahr geraten|sonstige
+in Gefahr sein|sonstige
+in Kauf nehmen|sonstige
+in Kontakt treten mit|sonstige
+in Kraft treten|sonstige
+in Rente gehen|sonstige
+in Schutz nehmen vor|sonstige
+in Vergessenheit geraten|sonstige
+in der Lage sein zu|sonstige
+indem|konnektor
+indessen|konnektor
+indes|konnektor
+infolgedessen|konnektor
+infolge|konnektor
+informiert über|adjektiv
+inklusive|konnektor
+inmitten|konnektor
+innerhalb|konnektor
+insofern|konnektor
+interessiert an|adjektiv
+investieren in|verb
+jammern über|verb
+jdm. Folge leisten|sonstige
+jdm. Gesellschaft leisten|sonstige
+jdm. Vertrauen schenken|sonstige
+jdm. die Daumen drücken|sonstige
+jdm. eine Chance geben|sonstige
+jdm. einen Gefallen tun|sonstige
+jdm. in den Sinn kommen|sonstige
+jdm. zu Hilfe kommen|sonstige
+jdn. auf den Arm nehmen|sonstige
+jdn. auf die Probe stellen|sonstige
+jdn. zum Wahnsinn treiben|sonstige
+jdn. zur Verantwortung ziehen|sonstige
+jdn. zur Verzweiflung bringen|sonstige
+jds. Vertrauen gewinnen|sonstige
+je desto|konnektor
+je nachdem|konnektor
+je umso|konnektor
+jedenfalls|konnektor
+jedoch|konnektor
+jenseits|konnektor
+jmdm. Angst machen|sonstige
+jmdm. Hilfe leisten|sonstige
+jmdm. Mut machen|sonstige
+jmdm. auf die Nerven gehen|sonstige
+jmdn. in Ruhe lassen|sonstige
+jmdn. in Verlegenheit bringen|sonstige
+jmdn. zum Lachen bringen|sonstige
+kaufen|verb
+kaum dass|konnektor
+keine Lust haben (auf/zu)|sonstige
+keine Wahl haben|sonstige
+keine Zeit haben|sonstige
+keinen Bock haben (auf)|sonstige
+keinen Spaß verstehen|sonstige
+klagen über|verb
+klarkommen mit|verb
+kochen|verb
+konzentriert auf|adjektiv
+kraft|konnektor
+kämpfen für|verb
+kämpfen gegen|verb
+kämpfen um|verb
+lachen über|verb
+laut|konnektor
+leben von|verb
+leiden an|verb
+leiden unter|verb
+leidtun|verb
+leihen|verb
+liefern|verb
+liegen|verb
+mal mal|konnektor
+mangels|konnektor
+misslingen|verb
+misstrauisch gegenüber|adjektiv
+mitbringen|verb
+mithilfe|konnektor
+mithin|konnektor
+mitteilen|verb
+mittels|konnektor
+nachdem|konnektor
+nachdenken über|verb
+nach|konnektor
+neidisch auf|adjektiv
+neigen zu|verb
+nennen|verb
+nicht nur sondern auch|konnektor
+nichtsdestotrotz|konnektor
+nähern|verb
+nämlich|konnektor
+nützen|verb
+ob oder|konnektor
+oberhalb|konnektor
+obgleich|konnektor
+obschon|konnektor
+obwohl|konnektor
+obzwar|konnektor
+ob|konnektor
+oder|konnektor
+offen für|adjektiv
+ohne dass|konnektor
+ohne zu|konnektor
+passen|verb
+passieren|verb
+profitieren von|verb
+protestieren gegen|verb
+präsentieren|verb
+raten von|verb
+raten zu|verb
+raten|verb
+reagieren auf|verb
+rechnen auf|verb
+rechnen mit|verb
+reden von|verb
+reden über|verb
+reservieren|verb
+resultieren aus|verb
+riechen nach|verb
+schaden|verb
+scheitern an|verb
+schenken|verb
+schicken|verb
+schimpfen mit|verb
+schimpfen über|verb
+schlechte Laune haben|sonstige
+schließlich|konnektor
+schmecken|verb
+schreiben|verb
+schulden|verb
+schwärmen für|verb
+schwärmen von|verb
+sein Versprechen geben|sonstige
+sein für|verb
+sein gegen|verb
+seine Kündigung einreichen|sonstige
+seine Zustimmung geben|sonstige
+seitdem|konnektor
+seitens|konnektor
+selbst wenn|konnektor
+senden|verb
+servieren|verb
+sich Gedanken machen über|sonstige
+sich Mühe geben bei/mit|sonstige
+sich Sorgen machen um|sonstige
+sich Zeit nehmen (für)|sonstige
+sich abfinden mit|verb
+sich abmelden von|verb
+sich an die Arbeit machen|sonstige
+sich aufregen über|verb
+sich auskennen in|verb
+sich auskennen mit|verb
+sich ausrichten an|verb
+sich aussprechen für|verb
+sich aussprechen gegen|verb
+sich austauschen mit|verb
+sich austauschen über|verb
+sich bedanken bei|verb
+sich bedanken für|verb
+sich beeilen mit|verb
+sich befassen mit|verb
+sich befinden in|verb
+sich begeistern für|verb
+sich bekennen zu|verb
+sich beklagen über|verb
+sich bemühen um|verb
+sich berufen auf|verb
+sich beschränken auf|verb
+sich beschweren bei|verb
+sich beschweren über|verb
+sich beschäftigen mit|verb
+sich beteiligen an|verb
+sich bewerben bei|verb
+sich bewerben um|verb
+sich distanzieren von|verb
+sich eignen für|verb
+sich eignen zu|verb
+sich einlassen auf|verb
+sich einsetzen für|verb
+sich einstellen auf|verb
+sich engagieren bei|verb
+sich engagieren für|verb
+sich engagieren gegen|verb
+sich entfernen von|verb
+sich entscheiden für|verb
+sich entscheiden gegen|verb
+sich entschließen zu|verb
+sich entschuldigen bei|verb
+sich entschuldigen für|verb
+sich entwickeln zu|verb
+sich erfreuen an|verb
+sich erfreuen von|verb
+sich ergeben aus|verb
+sich erholen von|verb
+sich erinnern an|verb
+sich erkundigen bei|verb
+sich erkundigen nach|verb
+sich ernähren von|verb
+sich etwas zum Ziel setzen|sonstige
+sich freuen auf|verb
+sich freuen über|verb
+sich fürchten vor|verb
+sich gewöhnen an|verb
+sich hüten vor|verb
+sich in Acht nehmen vor|sonstige
+sich informieren über|verb
+sich interessieren für|verb
+sich irren in|verb
+sich konzentrieren auf|verb
+sich kümmern um|verb
+sich melden (bei)|sonstige
+sich orientieren an|verb
+sich rächen an|verb
+sich rächen für|verb
+sich schämen für|verb
+sich sehnen nach|verb
+sich spezialisieren auf|verb
+sich treffen mit|verb
+sich trennen von|verb
+sich täuschen in|verb
+sich unterhalten über|verb
+sich verabreden mit|verb
+sich verabschieden von|verb
+sich verlassen auf|verb
+sich verlieben in|verb
+sich verpflichten zu|verb
+sich verstecken vor|verb
+sich versöhnen mit|verb
+sich vertiefen in|verb
+sich vorbereiten auf|verb
+sich wehren gegen|verb
+sich wenden an|verb
+sich wundern über|verb
+sich zur Wehr setzen|sonstige
+sich ängstigen vor|verb
+sich ärgern über|verb
+so dass|konnektor
+sobald|konnektor
+sofern|konnektor
+solange|konnektor
+somit|konnektor
+sondern|konnektor
+sonst|konnektor
+sooft|konnektor
+soviel|konnektor
+soweit|konnektor
+sowie|konnektor
+sowohl als auch|konnektor
+spenden|verb
+sprechen mit|verb
+sprechen von|verb
+sprechen über|verb
+stammen aus|verb
+statt dass|konnektor
+statt zu|konnektor
+stattdessen|konnektor
+statt|konnektor
+stehen für|verb
+stehlen|verb
+stolz auf|adjektiv
+streben nach|verb
+suchen nach|verb
+teilnehmen an|verb
+teils teils|konnektor
+telefonieren mit|verb
+tendieren zu|verb
+trauern um|verb
+traurig über|adjektiv
+trotzdem|konnektor
+trotz|konnektor
+träumen von|verb
+um willen|konnektor
+um zu|konnektor
+umgehen mit|verb
+und|konnektor
+ungeachtet|konnektor
+unter Beweis stellen|sonstige
+unter Druck stehen|sonstige
+unter Schmerzen leiden|sonstige
+unter Verdacht stehen|sonstige
+unterhalb|konnektor
+unterstützen|verb
+unweit|konnektor
+verabredet mit|adjektiv
+verantwortlich für|adjektiv
+verbieten|verb
+verbinden mit|verb
+verbunden mit|adjektiv
+verdanken|verb
+verfallen auf|verb
+verfallen in|verb
+verfügen über|verb
+vergeben|verb
+vergleichbar mit|adjektiv
+vergleichen mit|verb
+verhandeln mit|verb
+verhandeln über|verb
+verheimlichen|verb
+verkaufen|verb
+verliebt in|adjektiv
+verlieren an|verb
+vermieten|verb
+vermitteln|verb
+verpflichtet zu|adjektiv
+verraten|verb
+verschreiben|verb
+verschweigen|verb
+versichern bei|verb
+versichern gegen|verb
+versorgen mit|verb
+versprechen|verb
+vertrauen auf|verb
+vertrauen in|verb
+vertrauen|verb
+vertraut mit|adjektiv
+verweisen auf|verb
+verwundert über|adjektiv
+verzeihen|verb
+verzichten auf|verb
+verärgert über|adjektiv
+vielmehr|konnektor
+von Vorteil/Nachteil sein|sonstige
+vor Gericht stehen|sonstige
+vor dem Abschluss stehen|sonstige
+vorausgesetzt|konnektor
+vorbereitet auf|adjektiv
+vorher|konnektor
+vorlesen|verb
+vorschlagen|verb
+vorstellen|verb
+warnen vor|verb
+warten auf|verb
+was|konnektor
+weder noch|konnektor
+wegen|konnektor
+wegnehmen|verb
+wehtun|verb
+weil|konnektor
+welcher|konnektor
+welches|konnektor
+welche|konnektor
+wenn auch|konnektor
+wenngleich|konnektor
+wenn|konnektor
+wer|konnektor
+weshalb|konnektor
+weswegen|konnektor
+widersprechen|verb
+wiedergeben|verb
+wie|konnektor
+wirken auf|verb
+woher|konnektor
+wohingegen|konnektor
+wohin|konnektor
+wo|konnektor
+währenddem|konnektor
+währenddessen|konnektor
+während|konnektor
+wünschen|verb
+wütend auf|adjektiv
+zeigen|verb
+zittern vor|verb
+zu Ende bringen|sonstige
+zu Ende gehen|sonstige
+zu Wort kommen|sonstige
+zu der Auffassung gelangen|sonstige
+zudem|konnektor
+zuerst|konnektor
+zufolge|konnektor
+zufrieden mit|adjektiv
+zugehen auf|verb
+zuhören|verb
+zuletzt|konnektor
+zum Ausdruck bringen|sonstige
+zum Ausdruck kommen|sonstige
+zum Einsatz kommen|sonstige
+zum Stillstand kommen|sonstige
+zum Tragen kommen|sonstige
+zum Verkauf stehen|sonstige
+zum Vorschein kommen|sonstige
+zumal|konnektor
+zumindest|konnektor
+zuordnen|verb
+zur Anwendung kommen|sonstige
+zur Auswahl stehen|sonstige
+zur Diskussion stehen|sonstige
+zur Einsicht kommen|sonstige
+zur Folge haben|sonstige
+zur Geltung kommen|sonstige
+zur Kenntnis nehmen|sonstige
+zur Sprache bringen|sonstige
+zur Sprache kommen|sonstige
+zur Verfügung stehen für|sonstige
+zurückbringen|verb
+zurückführen auf|verb
+zurückhaltend gegenüber|adjektiv
+zurückkommen auf|verb
+zusehen|verb
+zustande kommen|sonstige
+zustimmen|verb
+zuständig für|adjektiv
+zuvor|konnektor
+zwar aber|konnektor
+zwecks|konnektor
+zweifeln an|verb
+zwingen zu|verb
+zählen auf|verb
+zählen zu|verb
+Ärger haben (mit)|sonstige
+Überstunden machen|sonstige
+ähneln|verb
+ändern an|verb
+ängstlich vor|adjektiv
+ärgerlich über|adjektiv
+öffnen|verb
+überlassen|verb
+überreden zu|verb
+überzeugen von|verb
+überzeugt von|adjektiv

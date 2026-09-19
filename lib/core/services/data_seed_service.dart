@@ -5,6 +5,12 @@
 //          der Bump lässt bestehende Installationen einmalig nach-seeden,
 //          alle Inserts sind Upserts → idempotent).
 //          Creates 4 Books and inserts words linked to them.
+//
+// ⚠️ L.1e (2026-09-18): `german` + `wordType` dieser Wörter bilden den
+//    Leitner-Schlüssel der Nutzer (`eigen:<german>|<wordType>`). Ändert sich
+//    einer davon, ist der Fortschritt des Nutzers zu diesem Wort verwaist.
+//    Der Wächter `tool/seed_schluessel_pruefen.dart` macht CI rot, wenn ein
+//    schon veröffentlichter Schlüssel verschwindet — siehe PLAN.md → L.1e.
 import 'dart:convert';
 
 import 'package:drift/drift.dart' show Value, DoUpdate;
@@ -12,6 +18,7 @@ import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../database/app_database.dart';
+import 'seed_wortschluessel.dart';
 
 class DataSeedService {
   DataSeedService(this._db);
@@ -185,12 +192,8 @@ class DataSeedService {
     }
   }
 
-  String _mapWordClass(String wc) => switch (wc.toLowerCase()) {
-    'verb'      => 'verb',
-    'adjective' => 'adjektiv',
-    'adjektiv'  => 'adjektiv',
-    'noun'      => 'nomen',
-    'nomen'     => 'nomen',
-    _           => 'sonstige',
-  };
+  // ⚠️ L.1e: Die Ableitung von `wordType` steht in seed_wortschluessel.dart —
+  // sie bestimmt den Leitner-Schlüssel der Nutzer und darf es nur EINMAL
+  // geben, sonst laufen Seeding und Wächter auseinander.
+  String _mapWordClass(String wc) => mapWordClass(wc);
 }
