@@ -9,7 +9,15 @@
 > و خط «آخرین جلسه / قدم بعدی» پایین را تازه کن. **کاری که در پلن و مپ ثبت نشده، برای چت بعدی وجود ندارد.**
 > فهرست مطالب و بخش Hinweise همیشه حفظ می‌شوند.
 >
-> 🗓️ **آخرین جلسه:** 2026-09-18 (ادامه ۲) — منبع **ÖSD C1** از Lukas رسید (PDF) → `redemittel_oesd_c1.json`
+> 🗓️ **آخرین جلسه:** 2026-09-18 (ادامه ۴) — گزارش دو باگ از Lukas پس از تست دستی:
+> **(الف) RTL/آلمانی ✅ رفع شد** — با locale=fa کل اپ RTL می‌شد و متن آلمانی هم آن را ارث می‌برد (خط به لبه‌ی
+> راست، نقطه در سمت چپ). ویجت مشترک `DeutschText` ساخته شد (ltr + left ثابت) + `test/deutsch_text_test.dart`.
+> **(ب) آفلاین ⏸️ بلوکه** — SW یا ثبت نمی‌شود یا `assets/` را نگه نمی‌دارد؛ Claude مرورگر ندارد و Lukas فعلاً
+> به کامپیوتر دسترسی ندارد ⇒ منتظر خروجی DevTools. نکته‌ی مهم: حجم کل assets فقط ۷٫۵MB است، پس ادعای قدیمیِ
+> «۱۰۰MB، precache ممکن نیست» باطل شد.
+> ⏭️ **قدم بعدی (بدون وابستگی به Lukas):** جاروی RTL در بقیه‌ی صفحه‌هایی که آلمانی نشان می‌دهند.
+>
+> 🗓️ **جلسه‌ی پیش‌تر:** 2026-09-18 (ادامه ۲) — منبع **ÖSD C1** از Lukas رسید (PDF) → `redemittel_oesd_c1.json`
 > با ۱۱۲ عبارت (Schreiben Aufgabe 1/2 + Sprechen Aufgabe 1/2/3) ساخته و به‌عنوان deck زنده وصل شد (route،
 > feature-flag، content_registry) ⇒ **L.2a بسته شد.** درس ۲ کتاب «Grammatik Aktiv» (صرف فعل در زمان حال —
 > استثناهای پایانه‌ی فعل: arbeiten-نوع با -e- اضافه، heißen/tanzen-نوع فقط -t) به‌عنوان بلوک دوم به درس
@@ -17,7 +25,6 @@
 > Secrets پروژه‌ی Supabase (`SUPABASE_URL`, `SUPABASE_ANON_KEY`) — تلاش Claude برای ثبت خودکار شکست خورد (هر
 > دو PAT بدون دسترسی «Secrets»، 403) ⇒ Lukas خودش این دو Secret را در Settings → Actions ثبت کرد و
 > `supabase/vox_tables.sql` را در SQL Editor سایت Supabase اجرا کرد (2026-09-18). **L.1c ✅ بسته شد.**
-> ⏭️ **قدم بعدی:** منتظر منبع deck بعدی «به‌زودی» (L.2d) · درس بعدی کتاب از Lukas (L.6) · اجرای SQL از Lukas.
 
 > ⚠️ **2026-09-13 — Umbau zur reinen Web-App:** android/ios/macos/linux/windows, RevenueCat (Abos) und lokale Notifications wurden entfernt. VOX läuft nur noch als kostenlose Flutter-Web-App auf GitHub Pages (DB: drift + SQLite-WASM). Ältere Einträge unten beschreiben teils den früheren nativen Stand.
 > ⚠️ **2026-09-13 — Habit/Routine entfernt, Root-in-Verlinkung.** VOX bleibt dauerhaft ein eigenes Repo (`github.com/lukasylilli/vox`), getrennt von Root-in (`github.com/lukasylilli/Root-in`, live unter `lukasylilli.github.io/Root-in/`) — bewusst KEIN Code-Merge, damit Nutzer, die nur die Routine-App brauchen, sie eigenständig nutzen können. In Selbstlernen ersetzt die Karte **„Routine"** die frühere „Habit Maker"-Karte und öffnet Root-in per Link in einem neuen Tab (`core/constants/app_links.dart` → `rootInUrl`, geöffnet über `core/utils/external_link_opener.dart`). Entfernt: `habit_maker_screen.dart`, `habit_stats_screen.dart`, `habit_day_selector_widget.dart`, `streak_chart_widget.dart`, `core/database/dao/habit_dao.dart`, alle Habit-Provider in `selbstlernen_controller.dart` und die „verknüpfte Gewohnheit"-Auswahl im Pomodoro-Timer (Pomodoro selbst bleibt unverändert als eigenständiger Fokus-Timer). Die Drift-Tabellen `Habits`/`HabitSessions` bleiben vorerst im Schema (kein Downgrade) — unbenutzt, entfernbar in einer künftigen Migration. ⚠️ **Lehre:** `package:web` darf nie ungeschützt importiert werden — bricht `flutter test` auf der VM, `flutter analyze` merkt es nicht. Bedingter Export nach Root-in-Vorbild (`external_link_opener_io.dart` / `_web.dart`).
@@ -245,8 +252,9 @@
       استاندارد است (بدون `--pwa-strategy=none`).
       ⛔ **چرا هنوز رفع نشده:** Claude در این محیط مرورگر ندارد و `*.github.io` هم خارج از allowlist شبکه
       است، پس نمی‌تواند ببیند SW اصلاً ثبت شده یا نه. حدس‌زدن و «وصله‌ی آزمایشی» خلاف قاعده‌ی ۵ است.
-      **نیاز از Lukas:** خروجی DevTools (Application → Service Workers + Cache Storage) — در پرسش بعدی
-      توضیح ساده داده شد.
+      **نیاز از Lukas:** خروجی DevTools (Application → Service Workers + Cache Storage).
+      ⏸️ **معلق (2026-09-18):** Lukas فعلاً به کامپیوتر دسترسی ندارد ⇒ این کار تا رسیدن آن شواهد **بلوکه**
+      است و Claude سراغ کار بعدیِ بدون‌وابستگی رفت (جاروی RTL).
 - [ ] **(Lukas)** تست روی آیفون واقعی (Safari + افزودن به صفحه‌ی اصلی)
 
 ### L.4 — بعد از انتشار: کلمه‌ها، روزانه
