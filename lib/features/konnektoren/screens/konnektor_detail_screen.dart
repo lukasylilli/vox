@@ -10,6 +10,7 @@ import '../widgets/connector_type_badge.dart';
 import '../widgets/highlighted_example_text.dart';
 import '../../../core/widgets/vox_button.dart';
 import '../../../core/widgets/deutsch_text.dart';
+import '../../../core/widgets/klick_wort_text.dart';
 
 class KonnektorDetailScreen extends ConsumerStatefulWidget {
   const KonnektorDetailScreen({super.key, required this.konnektorId});
@@ -360,7 +361,7 @@ class _BasicExample extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          DeutschText(k.exampleDe,
+          KlickWortText(k.exampleDe,
               style: Theme.of(context)
                   .textTheme
                   .bodyMedium

@@ -14,22 +14,12 @@ import 'wortschatz_grammatikon.dart';
 import '../../../core/grammatikon/grammatikon_painter.dart';
 import '../../../core/l10n/app_l10n.dart';
 import '../../../core/widgets/deutsch_text.dart';
+import '../../../core/wort/wort_form.dart';
 
-// common prepositions that may appear as suffix in german field
-const _kPrepositions = {
-  'für', 'auf', 'an', 'über', 'mit', 'von', 'zu', 'bei',
-  'nach', 'aus', 'in', 'um', 'gegen', 'ohne', 'durch',
-  'bis', 'vor', 'hinter', 'neben', 'zwischen', 'gegenüber',
-};
-
-String stripPreposition(String german) {
-  final parts = german.split(' ');
-  if (parts.length >= 2 &&
-      _kPrepositions.contains(parts.last.toLowerCase())) {
-    return parts.sublist(0, parts.length - 1).join(' ');
-  }
-  return german;
-}
+// `stripPreposition` lebt seit L.5f in core/wort/wort_form.dart (eine Quelle
+// für die Popup-Suche und diese Liste); hier weitergereicht, damit bisherige
+// Importe unverändert funktionieren.
+export '../../../core/wort/wort_form.dart' show stripPreposition;
 
 class WordListItem extends StatelessWidget {
   const WordListItem({

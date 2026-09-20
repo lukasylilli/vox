@@ -6,6 +6,7 @@
 //          Alles null-sicher: fehlende Felder → Baustein rendert nichts.
 import 'package:flutter/material.dart';
 import '../../../core/l10n/app_l10n.dart';
+import '../../../core/widgets/klick_wort_text.dart';
 
 /// {fa:…, en:…} (String oder List) → Text der AKTIVEN Sprache (EN-Fallback→FA).
 String? vokabUeb(BuildContext context, dynamic u) {
@@ -110,8 +111,8 @@ class BeispielBlock extends StatelessWidget {
                       color: theme.colorScheme.primary,
                       fontWeight: FontWeight.w800)),
             ),
-          Text(satz,
-              textDirection: TextDirection.ltr,
+          // L.5f: jedes Wort antippbar (Popup → Wort-Seite)
+          KlickWortText(satz,
               style: theme.textTheme.bodyMedium
                   ?.copyWith(fontWeight: FontWeight.w500)),
           if (uebersetzung != null && uebersetzung!.isNotEmpty)

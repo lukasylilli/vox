@@ -4,6 +4,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../../core/widgets/wort_popup.dart';
 import '../controllers/hoeren_controller.dart';
 
 class KaraokeTextDisplay extends ConsumerWidget {
@@ -34,7 +35,11 @@ class KaraokeTextDisplay extends ConsumerWidget {
         runSpacing: 8,
         children  : List.generate(words.length, (i) {
           final isActive = i == activeIndex;
-          return AnimatedContainer(
+          // L.5f: Wort antippen → Popup → Wort-Seite (wie überall in der App)
+          return GestureDetector(
+            behavior: HitTestBehavior.opaque,
+            onTap: () => showWortPopup(context, words[i].word),
+            child: AnimatedContainer(
             duration: const Duration(milliseconds: 120),
             padding : const EdgeInsets.symmetric(horizontal: 4, vertical: 2),
             decoration: BoxDecoration(
@@ -51,7 +56,7 @@ class KaraokeTextDisplay extends ConsumerWidget {
                     : scheme.onSurface,
               ),
             ),
-          );
+          ));
         }),
       ),
     );

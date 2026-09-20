@@ -1,13 +1,13 @@
 // FILE: lib/features/lesen/screens/text_reader_screen.dart
-// DEPS: lesen_controller.dart, clickable_word_text.dart, reader_toolbar.dart, tts_service.dart
+// DEPS: lesen_controller.dart, klick_wort_text.dart (core), reader_toolbar.dart, tts_service.dart
 // PURPOSE: Full-screen reader — clickable words + TTS + font size toolbar
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/constants/app_sizes.dart';
 import '../../../core/l10n/app_l10n.dart';
+import '../../../core/widgets/klick_wort_text.dart';
 import '../controllers/lesen_controller.dart';
-import '../widgets/clickable_word_text.dart';
 import '../widgets/reader_toolbar.dart';
 
 class TextReaderScreen extends ConsumerWidget {
@@ -55,8 +55,16 @@ class TextReaderScreen extends ConsumerWidget {
                 ),
                 const SizedBox(height: AppSizes.lg),
 
-                // Clickable text body
-                ClickableWordText(text: readingText.content),
+                // Clickable text body — L.5f: gemeinsame Komponente (Wort → Popup → Wort-Seite)
+                KlickWortText(
+                  readingText.content,
+                  markiert   : true,
+                  auswaehlbar: true,
+                  style      : Theme.of(context).textTheme.bodyLarge!.copyWith(
+                    fontSize: ref.watch(readerFontSizeProvider),
+                    height  : 1.9,
+                  ),
+                ),
 
                 const SizedBox(height: AppSizes.xl),
 

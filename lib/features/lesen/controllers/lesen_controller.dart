@@ -1,12 +1,12 @@
 // FILE: lib/features/lesen/controllers/lesen_controller.dart
 // DEPS: lesen_dao.dart, rss_service.dart, tts_service.dart, databaseProvider
 // PURPOSE: Riverpod providers for Lesen — texts, RSS feed, reader state
+//          (Wort-Nachschlagen beim Klick: seit L.5f core/wort/klick_wort_provider.dart)
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/database/app_database.dart';
 import '../../../core/database/dao/lesen_dao.dart';
 import '../../../core/services/rss_service.dart';
-import '../../wortschatz/controllers/word_controller.dart';
 
 // ── DAO ───────────────────────────────────────────────────────────────────────
 
@@ -47,15 +47,3 @@ final rssItemsProvider = FutureProvider<List<RssItem>>((ref) {
 // ── Reader state ──────────────────────────────────────────────────────────────
 
 final readerFontSizeProvider = StateProvider<double>((ref) => 16.0);
-
-// Word looked up via tap in reader (exact match first, then partial)
-final wordLookupProvider =
-    FutureProvider.family<Word?, String>((ref, german) async {
-  final dao     = ref.watch(wordDaoProvider);
-  final results = await dao.search(german);
-  // Prefer exact match (case-insensitive)
-  final exact = results
-      .where((w) => w.german.toLowerCase() == german.toLowerCase())
-      .firstOrNull;
-  return exact ?? results.firstOrNull;
-});

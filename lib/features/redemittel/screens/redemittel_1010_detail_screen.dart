@@ -10,6 +10,7 @@ import '../controllers/redemittel_controller.dart';
 import '../models/redemittel_item.dart';
 import '../../../core/widgets/vox_button.dart';
 import '../../../core/widgets/deutsch_text.dart';
+import '../../../core/widgets/klick_wort_text.dart';
 import '../../../core/l10n/app_l10n.dart';
 
 class Redemittel1010DetailScreen extends ConsumerWidget {
@@ -230,7 +231,7 @@ class _Card extends StatelessWidget {
             ),
             const SizedBox(height: 8),
             if (istDeutsch)
-              DeutschText(content, style: inhaltStil)
+              KlickWortText(content, style: inhaltStil)
             else
               Text(content, style: inhaltStil),
           ],
@@ -270,7 +271,7 @@ class _ExampleCard extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 8),
-            DeutschText(de,
+            KlickWortText(de,
                 style: tt.bodyMedium?.copyWith(
                     fontWeight: FontWeight.w600, height: 1.5)),
             const SizedBox(height: 4),

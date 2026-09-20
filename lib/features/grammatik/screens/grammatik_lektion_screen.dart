@@ -16,6 +16,7 @@ import 'grammatik_uebung_screen.dart';
 import '../controllers/grammatik_lektion_controller.dart';
 import '../models/grammatik_lektion.dart';
 import '../../../core/widgets/deutsch_text.dart';
+import '../../../core/widgets/klick_wort_text.dart';
 
 class GrammatikLektionScreen extends ConsumerWidget {
   const GrammatikLektionScreen({super.key, required this.slug});
@@ -177,8 +178,9 @@ class _Block extends StatelessWidget {
                     ?.copyWith(fontWeight: FontWeight.w700),
               ),
             ),
-          // Deutsch fest — LTR, sonst rutscht der Schlusspunkt nach links
-          DeutschText(b.bodyDe,
+          // Deutsch fest — LTR, sonst rutscht der Schlusspunkt nach links;
+          // L.5f: jedes Wort antippbar (Popup → Wort-Seite)
+          KlickWortText(b.bodyDe,
               style: theme.textTheme.bodyMedium?.copyWith(height: 1.7)),
           const SizedBox(height: 6),
           // Aktive Zweitsprache
@@ -212,7 +214,7 @@ class _ExampleTile extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            DeutschText(e.german,
+            KlickWortText(e.german,
                 style: theme.textTheme.bodyLarge?.copyWith(
                   fontWeight: FontWeight.w600, height: 1.5)),
             const SizedBox(height: 2),
