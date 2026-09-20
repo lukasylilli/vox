@@ -1,23 +1,20 @@
 // FILE: lib/features/more/screens/settings_screen.dart
 // DEPS: settings_controller.dart
-// PURPOSE: تنظیمات اپ — تم، سرعت TTS، سطح آلمانی، هدف روزانه، ایمنی داده (فاز S, S.4 Hinweis)
+// PURPOSE: تنظیمات اپ — تم، سرعت TTS، سطح آلمانی، هدف روزانه؛ حساب و داده → صفحه‌ی پروفایل (فاز P / P.3)
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 
+import '../../../core/constants/app_routes.dart';
 import '../../../core/constants/app_sizes.dart';
 import '../../../core/l10n/app_l10n.dart';
-import '../../../core/backup/nutzer_zustand.dart';
-import '../../../core/backup/user_state_repository.dart';
 import '../../../core/services/auth_service.dart';
-import '../../../core/services/backup_service.dart';
 import '../../../core/utils/install_state.dart';
-import '../../../core/widgets/vox_button.dart';
-import '../../vokabular/controllers/vokabular_user_state.dart';
-import '../../../core/backup/cloud_abgleich.dart';
-import '../controllers/konto_abgleich.dart';
-import '../../wortschatz/controllers/word_controller.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import '../controllers/settings_controller.dart';
+
+// `datenOrtSchluessel` steht seit P.3 in `widgets/sicherung_karte.dart`;
+// `test/datenort_hinweis_test.dart` importiert es weiter von hier.
+export '../widgets/sicherung_karte.dart' show datenOrtSchluessel;
 
 class SettingsScreen extends ConsumerWidget {
   const SettingsScreen({super.key});
@@ -189,21 +186,18 @@ class SettingsScreen extends ConsumerWidget {
               ),
             ),
 
-            // ── Meine Daten (فاز S / S.1b) ─────────────────────
+            // ── Konto, Angaben, Daten → eigene Seite (فاز P / P.3) ──────
+            // Sichtbar immer: auch ohne Server gibt es dort Angaben, Archive
+            // und die Sicherung als Datei. Nur die Anmelde-Teile erscheinen
+            // dort erst, wenn ein Server eingerichtet ist.
+            const SizedBox(height: AppSizes.md),
+            _SectionHeader(AppL10n.t(context, 'section_account')),
+            const _ProfilKachel(),
+
+            // ── Speicher (فاز S / S.1b) ─────────────────────────────────
             const SizedBox(height: AppSizes.md),
             _SectionHeader(AppL10n.t(context, 'section_storage')),
             const _SpeicherKarte(),
-            const SizedBox(height: AppSizes.sm),
-            const _SicherungKarte(),
-
-            // ── Konto (فاز S / S.3 Schritt 2) ───────────────────
-            // Erscheint nur, wenn Supabase konfiguriert ist — sonst gibt es
-            // keine Rubrik, statt eine, die nichts tut.
-            if (ref.watch(kontoAktivProvider)) ...[
-              const SizedBox(height: AppSizes.md),
-              _SectionHeader(AppL10n.t(context, 'section_account')),
-              const _KontoKarte(),
-            ],
           ],
         ),
       ),
@@ -211,257 +205,29 @@ class SettingsScreen extends ConsumerWidget {
   }
 }
 
-/// Übersetzt einen [AuthIssue] in einen anzeigbaren Text.
-///
-/// ⚠️ Übersetzung passiert **hier**, nicht in `auth_service.dart` — der
-/// Dienst kennt bewusst kein `BuildContext` und keine Sprache (siehe Kopf
-/// der Datei dort).
-String _kontoFehlerText(BuildContext context, AuthIssue issue) => switch (issue) {
-      AuthIssue.notConfigured      => AppL10n.t(context, 'auth_issue_not_configured'),
-      AuthIssue.emailTaken         => AppL10n.t(context, 'auth_issue_email_taken'),
-      AuthIssue.invalidCredentials => AppL10n.t(context, 'auth_issue_invalid_credentials'),
-      AuthIssue.weakPassword       => AppL10n.t(context, 'auth_issue_weak_password'),
-      AuthIssue.invalidEmail       => AppL10n.t(context, 'auth_issue_invalid_email'),
-      AuthIssue.signupDisabled     => AppL10n.t(context, 'auth_issue_signup_disabled'),
-      AuthIssue.emailRateLimited   => AppL10n.t(context, 'auth_issue_email_rate_limited'),
-      AuthIssue.offline            => AppL10n.t(context, 'auth_issue_offline'),
-      AuthIssue.unknown            => AppL10n.t(context, 'auth_issue_unknown'),
-    };
-
-/// Konto: anmelden, registrieren, abmelden (فاز S / S.3 Schritt 2).
-///
-/// Zeigt sich nur, wenn `kontoAktivProvider` wahr ist (siehe
-/// `settings_screen.dart` oben) — ohne Supabase-Konfiguration existiert diese
-/// Rubrik einfach nicht, statt eine zu sein, die nie funktioniert.
-///
-/// ⚠️ Noch **keine** Cloud-Sicherung hier — das ist S.3 Schritt 3. Diese
-/// Karte kümmert sich ausschließlich um Anmeldung; `vox_backups` wird an
-/// anderer Stelle angebunden, mit derselben Nutzlast wie S.2.
-class _KontoKarte extends ConsumerStatefulWidget {
-  const _KontoKarte();
+/// Eintrittskachel zur Profil-Seite (فاز P / P.3). Zeigt, wer angemeldet ist —
+/// sonst, was die Seite kann.
+class _ProfilKachel extends ConsumerWidget {
+  const _ProfilKachel();
 
   @override
-  ConsumerState<_KontoKarte> createState() => _KontoKarteState();
-}
-
-class _KontoKarteState extends ConsumerState<_KontoKarte> {
-  final _emailController    = TextEditingController();
-  final _passwordController = TextEditingController();
-
-  bool _istRegistrierung = false;
-  bool _laeuft           = false;
-  bool _passwortSichtbar = false;
-
-  @override
-  void dispose() {
-    _emailController.dispose();
-    _passwordController.dispose();
-    super.dispose();
-  }
-
-  void _melde(String text) {
-    if (!mounted) return;
-    ScaffoldMessenger.of(context)
-      ..hideCurrentSnackBar()
-      ..showSnackBar(SnackBar(content: Text(text)));
-  }
-
-  Future<void> _absenden() async {
-    if (_laeuft) return;
-    final email    = _emailController.text;
-    final password = _passwordController.text;
-
-    // Texte VOR dem await auflösen — dieselbe Regel wie bei _SicherungKarte
-    // (use_build_context_synchronously): der Bildschirm kann inzwischen weg
-    // sein, `context` danach anzufassen wäre sowohl ein Analyse- als auch
-    // ein Sachfehler.
-    final bestaetigungGesendet = AppL10n.t(context, 'account_confirm_email_sent');
-    final istRegistrierung     = _istRegistrierung;
-
-    setState(() => _laeuft = true);
-    try {
-      final service = ref.read(authServiceProvider);
-      final result = istRegistrierung
-          ? await service.signUp(email: email, password: password)
-          : await service.signIn(email: email, password: password);
-
-      if (!mounted) return;
-
-      if (result.isSuccess) {
-        _passwordController.clear();
-        // Bei Registrierung mit eingeschalteter E-Mail-Bestätigung kommt ein
-        // Konto ohne Sitzung zurück (siehe Kopf von signUp in
-        // auth_service.dart) — currentAccount bleibt dann null, und genau
-        // das ist der Fall, in dem der Hinweis auf die Bestätigungsmail
-        // sichtbar sein muss statt einer stillen Erfolgsmeldung ohne Wirkung.
-        if (istRegistrierung && ref.read(authServiceProvider).currentAccount == null) {
-          _melde(bestaetigungGesendet);
-        }
-      } else {
-        _melde(_kontoFehlerText(context, result.issue!));
-      }
-    } finally {
-      if (mounted) setState(() => _laeuft = false);
-    }
-  }
-
-  Future<void> _abmelden() async {
-    if (_laeuft) return;
-    final abgemeldet = AppL10n.t(context, 'account_signed_out');
-    setState(() => _laeuft = true);
-    try {
-      await ref.read(authServiceProvider).signOut();
-    } finally {
-      if (mounted) {
-        setState(() => _laeuft = false);
-        _melde(abgemeldet);
-      }
-    }
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final account = ref.watch(authAccountProvider).valueOrNull;
-    final abgleich = ref.watch(kontoAbgleichProvider);
-
+  Widget build(BuildContext context, WidgetRef ref) {
+    final konto = ref.watch(kontoAktivProvider)
+        ? ref.watch(authAccountProvider).valueOrNull
+        : null;
     return Card(
-      child: Padding(
-        padding: const EdgeInsets.all(AppSizes.md),
-        child: account != null
-            ? _angemeldeteAnsicht(context, account, abgleich)
-            : _anmeldeFormular(context),
+      child: ListTile(
+        leading : const Icon(Icons.account_circle_outlined),
+        title   : Text(AppL10n.t(context, 'profile_title'),
+            style: const TextStyle(fontWeight: FontWeight.w700)),
+        subtitle: Text(konto != null
+            ? konto.email
+            : AppL10n.t(context, 'profile_tile_sub')),
+        trailing: const Icon(Icons.chevron_right_rounded),
+        onTap   : () => context.push(AppRoutes.profil),
       ),
     );
   }
-
-  /// Von Hand abgleichen (S.3 Schritt 3). Der automatische Abgleich bleibt
-  /// stumm — nur hier gibt es eine Rückmeldung.
-  Future<void> _jetztAbgleichen() async {
-    final texte = {
-      CloudStatus.ok: AppL10n.t(context, 'account_sync_ok'),
-      CloudStatus.fehlgeschlagen: AppL10n.t(context, 'account_sync_failed'),
-      CloudStatus.zuNeu: AppL10n.t(context, 'account_sync_too_new'),
-      CloudStatus.nichtVerfuegbar: AppL10n.t(context, 'auth_issue_not_configured'),
-    };
-    final status = await ref.read(kontoAbgleichProvider.notifier).abgleichen();
-    _melde(texte[status]!);
-  }
-
-  String _zeitText(BuildContext context, DateTime zeit) {
-    final l = MaterialLocalizations.of(context);
-    final lokal = zeit.toLocal();
-    return '${l.formatShortDate(lokal)} · '
-        '${l.formatTimeOfDay(TimeOfDay.fromDateTime(lokal))}';
-  }
-
-  Widget _angemeldeteAnsicht(BuildContext context, AuthAccount account,
-          KontoAbgleichStand abgleich) =>
-      Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(children: [
-            const Icon(Icons.account_circle_outlined),
-            const SizedBox(width: AppSizes.sm),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(AppL10n.t(context, 'account_signed_in_as'),
-                      style: Theme.of(context).textTheme.bodySmall),
-                  Text(account.email,
-                      style: const TextStyle(fontWeight: FontWeight.w700)),
-                ],
-              ),
-            ),
-          ]),
-          const SizedBox(height: AppSizes.md),
-          Text(AppL10n.t(context, 'account_sync_hint'),
-              style: Theme.of(context).textTheme.bodySmall),
-          const SizedBox(height: AppSizes.sm),
-          Text(abgleich.zuletzt == null
-              ? AppL10n.t(context, 'account_sync_never')
-              : '${AppL10n.t(context, 'account_sync_last')}: '
-                  '${_zeitText(context, abgleich.zuletzt!)}'),
-          const SizedBox(height: AppSizes.sm),
-          VoxButton.tonal(
-            label    : AppL10n.t(context, 'account_sync_now'),
-            icon     : Icons.sync,
-            loading  : abgleich.laeuft,
-            onPressed: _jetztAbgleichen,
-          ),
-          const SizedBox(height: AppSizes.md),
-          if (_laeuft)
-            const Center(child: CircularProgressIndicator())
-          else
-            VoxButton.secondary(
-              label    : AppL10n.t(context, 'account_sign_out'),
-              icon     : Icons.logout_outlined,
-              onPressed: _abmelden,
-            ),
-        ],
-      );
-
-  Widget _anmeldeFormular(BuildContext context) => Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(children: [
-            const Icon(Icons.account_circle_outlined),
-            const SizedBox(width: AppSizes.sm),
-            Expanded(
-              child: Text(AppL10n.t(context, 'account_title'),
-                  style: const TextStyle(fontWeight: FontWeight.w700)),
-            ),
-          ]),
-          const SizedBox(height: AppSizes.md),
-          TextField(
-            controller: _emailController,
-            keyboardType: TextInputType.emailAddress,
-            autocorrect: false,
-            decoration: InputDecoration(
-              labelText: AppL10n.t(context, 'account_email_label'),
-              border   : const OutlineInputBorder(),
-            ),
-          ),
-          const SizedBox(height: AppSizes.sm),
-          TextField(
-            controller: _passwordController,
-            obscureText: !_passwortSichtbar,
-            decoration: InputDecoration(
-              labelText: AppL10n.t(context, 'account_password_label'),
-              border   : const OutlineInputBorder(),
-              suffixIcon: VoxIconButton(
-                icon: _passwortSichtbar
-                    ? Icons.visibility_off_outlined
-                    : Icons.visibility_outlined,
-                onPressed: () =>
-                    setState(() => _passwortSichtbar = !_passwortSichtbar),
-              ),
-            ),
-            onSubmitted: (_) => _absenden(),
-          ),
-          const SizedBox(height: AppSizes.md),
-          if (_laeuft)
-            const Center(child: CircularProgressIndicator())
-          else
-            VoxButton.primary(
-              label    : AppL10n.t(
-                  context,
-                  _istRegistrierung ? 'account_sign_up' : 'account_sign_in'),
-              icon     : Icons.login_outlined,
-              onPressed: _absenden,
-            ),
-          const SizedBox(height: AppSizes.sm),
-          VoxButton.text(
-            label    : AppL10n.t(
-                context,
-                _istRegistrierung
-                    ? 'account_switch_to_signin'
-                    : 'account_switch_to_signup'),
-            onPressed: () =>
-                setState(() => _istRegistrierung = !_istRegistrierung),
-          ),
-        ],
-      );
 }
 
 /// Zeigt, ob VOX als Web-App auf der Startseite läuft — und wenn nicht, wie
@@ -516,24 +282,6 @@ class _SpeicherKarte extends StatelessWidget {
   }
 }
 
-/// Welcher ehrliche Hinweis über den Ort der Daten erscheint (فاز S / S.4).
-///
-/// · Kein Server eingerichtet ⇒ `backup_only_here`: die Daten liegen nur in
-///   diesem Browser, die Datei ist das einzige Netz.
-/// · Server eingerichtet, aber niemand angemeldet ⇒ `backup_only_here_signin`.
-/// · Angemeldet ⇒ `null` — die Konto-Karte sagt dann selbst, dass kopiert wird.
-///
-/// Reine Funktion, damit die Entscheidung ohne Browser und ohne Server
-/// prüfbar bleibt (`test/datenort_hinweis_test.dart`).
-String? datenOrtSchluessel({
-  required bool kontoAktiv,
-  required bool angemeldet,
-}) {
-  if (!kontoAktiv) return 'backup_only_here';
-  if (!angemeldet) return 'backup_only_here_signin';
-  return null;
-}
-
 class _SectionHeader extends StatelessWidget {
   const _SectionHeader(this.text);
   final String text;
@@ -548,150 +296,4 @@ class _SectionHeader extends StatelessWidget {
               color     : Theme.of(context).colorScheme.onSurfaceVariant,
             )),
       );
-}
-
-/// Sicherung: Datei schreiben und wieder einlesen (فاز S / S.2).
-///
-/// Bewusst zwei schlichte Schaltflächen statt eines Assistenten — die Aufgabe
-/// ist klein und soll auch dann verständlich sein, wenn jemand sie ein Jahr
-/// später einmal braucht. Alle Rückmeldungen laufen über eine SnackBar; es
-/// gibt nichts zu bestätigen, weil Einspielen nie etwas löscht.
-class _SicherungKarte extends ConsumerStatefulWidget {
-  const _SicherungKarte();
-
-  @override
-  ConsumerState<_SicherungKarte> createState() => _SicherungKarteState();
-}
-
-class _SicherungKarteState extends ConsumerState<_SicherungKarte> {
-  bool _laeuft = false;
-
-  Future<BackupService> _dienst() async {
-    final db = ref.read(databaseProvider);
-    final prefs = await SharedPreferences.getInstance();
-    return BackupService(UserStateRepository(db, prefs));
-  }
-
-  void _melde(String text) {
-    if (!mounted) return;
-    ScaffoldMessenger.of(context)
-      ..hideCurrentSnackBar()
-      ..showSnackBar(SnackBar(content: Text(text)));
-  }
-
-  /// Texte werden VOR dem await aufgelöst. `context` nach einer
-  /// Unterbrechung anzufassen ist ein Analyse-Fehler
-  /// (use_build_context_synchronously) — und wäre auch sachlich falsch:
-  /// der Bildschirm kann inzwischen weg sein.
-  Future<void> _fuehreAus(Future<String> Function(BackupService) aktion) async {
-    if (_laeuft) return;
-    setState(() => _laeuft = true);
-    try {
-      _melde(await aktion(await _dienst()));
-    } on SicherungFehler catch (e) {
-      // Der Grund ist schon so formuliert, dass man ihn zeigen kann.
-      _melde(e.grund);
-    } catch (e) {
-      _melde('$e');
-    } finally {
-      if (mounted) setState(() => _laeuft = false);
-    }
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    // Alles, was eine Rückmeldung braucht, jetzt auflösen — siehe _fuehreAus.
-    final gespeichert  = AppL10n.t(context, 'backup_saved');
-    final zurueck      = AppL10n.t(context, 'backup_restored');
-    final abgebrochen  = AppL10n.t(context, 'backup_cancelled');
-    final imLeitner    = AppL10n.t(context, 'backup_words_leitner');
-    final eigene       = AppL10n.t(context, 'backup_words_own');
-
-    // S.4 — ehrlich sagen, wo die Daten liegen. Der Konto-Zustand wird nur
-    // beobachtet, wenn es überhaupt einen Server gibt.
-    final kontoAktiv = ref.watch(kontoAktivProvider);
-    final angemeldet =
-        kontoAktiv && ref.watch(authAccountProvider).valueOrNull != null;
-    final ortSchluessel = datenOrtSchluessel(
-      kontoAktiv: kontoAktiv,
-      angemeldet: angemeldet,
-    );
-
-    return Card(
-      child: Padding(
-        padding: const EdgeInsets.all(AppSizes.md),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Row(children: [
-              const Icon(Icons.save_outlined),
-              const SizedBox(width: AppSizes.sm),
-              Expanded(
-                child: Text(AppL10n.t(context, 'backup_title'),
-                    style: const TextStyle(fontWeight: FontWeight.w700)),
-              ),
-            ]),
-            const SizedBox(height: AppSizes.sm),
-            Text(AppL10n.t(context, 'backup_sub')),
-            if (ortSchluessel != null) ...[
-              const SizedBox(height: AppSizes.sm),
-              Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Icon(Icons.info_outline,
-                      size: 18,
-                      color: Theme.of(context).colorScheme.primary),
-                  const SizedBox(width: AppSizes.sm),
-                  Expanded(
-                    child: Text(AppL10n.t(context, ortSchluessel),
-                        style: TextStyle(
-                          color: Theme.of(context).colorScheme.primary,
-                          fontWeight: FontWeight.w600,
-                        )),
-                  ),
-                ],
-              ),
-            ],
-            const SizedBox(height: AppSizes.sm),
-            Text(AppL10n.t(context, 'backup_merge_hint'),
-                style: Theme.of(context).textTheme.bodySmall),
-            const SizedBox(height: AppSizes.md),
-            if (_laeuft)
-              const Center(child: CircularProgressIndicator())
-            else
-              Wrap(
-                spacing: AppSizes.sm,
-                runSpacing: AppSizes.sm,
-                children: [
-                  VoxButton.tonal(
-                    label    : AppL10n.t(context, 'backup_export'),
-                    icon     : Icons.download_outlined,
-                    onPressed: () => _fuehreAus((d) async =>
-                        '$gespeichert: ${await d.exportieren()}'),
-                  ),
-                  VoxButton.secondary(
-                    label    : AppL10n.t(context, 'backup_import'),
-                    icon     : Icons.upload_outlined,
-                    onPressed: () => _fuehreAus((d) async {
-                      final e = await d.einspielen();
-                      if (e.abgebrochen) return abgebrochen;
-                      // Die Ablage wurde am Wort-Store vorbei geändert —
-                      // sonst zeigt die Wortseite bis zum Neustart den
-                      // alten Stand (B-11).
-                      if (mounted) {
-                        await ref
-                            .read(vokabularUserProvider.notifier)
-                            .neuLaden();
-                      }
-                      return '$zurueck: ${e.leitnerWoerter} $imLeitner, '
-                          '${e.eigeneWoerter} $eigene';
-                    }),
-                  ),
-                ],
-              ),
-          ],
-        ),
-      ),
-    );
-  }
 }

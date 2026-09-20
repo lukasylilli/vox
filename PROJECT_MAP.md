@@ -1,6 +1,6 @@
 # PROJECT MAP — VOX
 # نقشه کامل پروژه برای ناوبری سریع در هر session
-# آپدیت: 2026-09-19 (دور چهارم — فلگ `hidden` واقعاً اعمال می‌شود [feature_flags · home_screen · auswendiglernen_home_screen · test/feature_flags_test]؛ doc-drift فاز ۱۶/RevenueCat پاک شد) · دور سوم همان روز: فقط ثبت — دروازه‌های انتشار؛ جزئیات: PLAN.md → «آخرین جلسه» · قبلی: 2026-09-18 (ادامه ۶ — L.1e: نگهبان شناسه‌ی کلمه‌های همراه اپ؛ RTL بسته؛ اصل «یک محتوا، چند ورودی» + A-1 ثبت؛ آفلاین باز)
+# آپدیت: 2026-09-20 (فاز P: صفحه‌ی `/more/profil` — حساب/امنیت/اطلاعات شخصی/آرشیو/پشتیبان؛ قرارداد پشتیبان v4 `profil`؛ `_KontoKarte`/`_SicherungKarte` از settings به widgets منتقل) · قبلی: 2026-09-19 (دور چهارم — فلگ `hidden` واقعاً اعمال می‌شود [feature_flags · home_screen · auswendiglernen_home_screen · test/feature_flags_test]؛ doc-drift فاز ۱۶/RevenueCat پاک شد) · دور سوم همان روز: فقط ثبت — دروازه‌های انتشار؛ جزئیات: PLAN.md → «آخرین جلسه» · قبلی: 2026-09-18 (ادامه ۶ — L.1e: نگهبان شناسه‌ی کلمه‌های همراه اپ؛ RTL بسته؛ اصل «یک محتوا، چند ورودی» + A-1 ثبت؛ آفلاین باز)
 #
 # ⚠️ 2026-09-19 (اصلاح یادداشت آفلاین): «precache شدنی است» فقط برای ~۷٫۵MB فعلی (۸۷ کارت) درست است. کارت ~۴KB ⇒ ~۲۶٬۲۰۰ کارت ≈ ~۱۰۰MB
 #   (ارقام خود PLAN) ⇒ پیش‌بارگذاری همه‌ی کارت‌ها همچنان گزینه نیست؛ فقط دارایی‌های ثابت + فهرست + کارتِ بازشده. تحلیل است نه تصمیم. جزئیات: PLAN → L.3.
@@ -115,6 +115,7 @@
 | 27 | Features — Redemittel 1010 | [→](#libfeaturesredemittel-x) |
 | 27b | Features — Modalverben | [→](#libfeaturesmodalverben-x--2026-07-04) |
 | 28 | Features — More / Home / Fragen | [→](#libfeaturesmore-x) |
+| 28b | **Profil & Konto (P)** — Zeilen in „Wo die Nutzerdaten liegen" | [→](#-wo-die-nutzerdaten-liegen-فاز-s-2026-09-15) |
 | 29 | Database Tables | [→ Database Tables](#database-tables-drift--schema-v1--تغییر-نده) |
 | 30 | Conventions | [→ Conventions](#key-conventions) |
 | 31 | Bugs Fixed | [→ Bugs Fixed](#bugs-fixed) |
@@ -767,6 +768,10 @@ screens/
   more_home_screen.dart       [x]  — ۳ section: اپ (settings/premium) / پشتیبانی / درباره
   settings_screen.dart        [x]  — SegmentedButton theme، Slider TTS rate/daily goal
                                      DropdownButton level/language، SwitchListTile notifications
+                                     **P.3 (2026-09-20):** حساب و پشتیبان دیگر اینجا نیستند — `_ProfilKachel` (→ `/more/profil`)
+                                     + `_SpeicherKarte`؛ `datenOrtSchluessel` از widgets/sicherung_karte.dart re-export می‌شود
+  profil_screen.dart          [x]  — **P** (2026-09-20) `/more/profil`: `_Kopf` (آواتار/نام/وضعیت) · حساب (فقط با سرور) ·
+                                     `PasswortAendernKarte` (بالا اگر `passwortNeuProvider`) · اطلاعات شخصی · آرشیو · پشتیبان
   subscription_screen.dart    [⛔]  — ENTFERNT 2026-09-13: Datei existiert nicht mehr (kein Abo). Früher: ConsumerWidget، isProProvider + customerInfoProvider (2026-06-30)
                                       not subscribed → RevenueCatUI.presentPaywallIfNeeded('VOX Unlimited')
                                       subscribed → active badge + RevenueCatUI.presentCustomerCenter()
@@ -781,6 +786,15 @@ screens/
 controllers/
   settings_controller.dart    [x]  — AppSettings model (themeMode،ttsRate،currentLevel،...)
                                      SettingsNotifier AsyncNotifier، settingsProvider
+  profil_controller.dart      [x]  — **P** `profilProvider` (AsyncNotifier، `speichern()`)، `archivUebersichtProvider`،
+                                     `passwortNeuProvider` + `passwortWiederherstellungStarterProvider` (از `app.dart` دیده می‌شود)
+widgets/
+  profil_angaben_karte.dart   [x]  — **P.1** نام/تلفن/آدرس‌ها؛ `_AdresseDialog`؛ یک «ذخیره» = کل فرم
+  profil_konto_karte.dart     [x]  — **P.2** `ProfilKontoKarte` (ورود/ثبت‌نام/فراموشی رمز/ایمیل/همگام/خروج) + `PasswortAendernKarte`
+                                     + `passwortFehlerSchluessel()` (تابع خالص)
+  profil_archiv_karte.dart    [x]  — **P.3** اعداد آرشیو (فقط‌خواندنی) + پرش به لایتنر/فهرست‌ها
+  sicherung_karte.dart        [x]  — کارت پشتیبان (از settings منتقل) + `datenOrtSchluessel()`
+  konto_texte.dart            [x]  — `kontoFehlerText()`، `profilFehlerText()` (ترجمه فقط اینجا)
 ```
 
 #### lib/features/fragen/ [x]
@@ -1240,13 +1254,13 @@ die Fassade, die allein `NutzerZustand` nach außen zeigt.
 | `test/user_state_repository_test.dart` | prüft gegen eine echte In-Memory-Datenbank, u. a. simulierter Gerätewechsel und doppeltes Einspielen |
 | `core/services/backup_service.dart` | **S.2 ✅** — `exportieren()` / `einspielen()`. Kennt nur die Fassade und `datei_io`, keine Ablage |
 | `core/backup/datei_io.dart` (+ `_io`/`_web`) | Datei auswählen und ablegen. `textDateiWaehlen` aus Root-in übernommen; `textDateiSpeichern` ist ein Blob-Download — **bewusst ohne share_plus**, damit `pubspec.lock` unberührt bleibt |
-| `features/more/screens/settings_screen.dart` → `_SicherungKarte` | die zwei Schaltflächen. ⚠️ Alle Meldungstexte werden VOR dem `await` aufgelöst (`use_build_context_synchronously`) |
-| `features/more/screens/settings_screen.dart` → `datenOrtSchluessel()` | **S.4 ✅ (2026-09-16)** — ehrlicher Satz in `_SicherungKarte`, wo die Daten liegen: ohne Server `backup_only_here`, mit Server ohne Anmeldung `backup_only_here_signin`, angemeldet nichts. Test: `test/datenort_hinweis_test.dart` |
+| `features/more/widgets/sicherung_karte.dart` → `SicherungKarte` (bis P.3: `_SicherungKarte` in settings_screen) | die zwei Schaltflächen. ⚠️ Alle Meldungstexte werden VOR dem `await` aufgelöst (`use_build_context_synchronously`) |
+| `features/more/widgets/sicherung_karte.dart` → `datenOrtSchluessel()` (re-export in settings_screen) | **S.4 ✅ (2026-09-16)** — ehrlicher Satz in `_SicherungKarte`, wo die Daten liegen: ohne Server `backup_only_here`, mit Server ohne Anmeldung `backup_only_here_signin`, angemeldet nichts. Test: `test/datenort_hinweis_test.dart` |
 | `test/persistent_storage_test.dart` | prüft, dass auf der Dart-VM die io-Fassung greift |
 | `core/constants/app_config.dart` | **S.3 ✅** — `SUPABASE_URL`/`SUPABASE_ANON_KEY` aus `--dart-define`. ⚠️ **Leer = kein Server**: keine Anmeldung, kein Netzaufruf. Ein `--dart-define` versteckt nichts (im Web per Textsuche in `main.dart.js` auffindbar) — der `anon`-Schlüssel darf das, `service_role` niemals |
 | `core/services/auth_service.dart` | **S.3 ✅** — einzige Stelle, die `supabase_flutter` kennt. ⚠️ **Kein Benutzername** (`profiles` gehört Root-in) und **kein `deleteAccount()`** (löscht `auth.users` und damit auch den Root-in-Bestand desselben Menschen). Gibt `AuthResult` zurück statt zu werfen; `AuthIssue` wird in der Oberfläche übersetzt, nicht hier |
 | `supabase/vox_tables.sql` | **S.3 ✅** — `vox_backups`, eine Zeile je Konto. ⚠️ **Nicht** `backups` — die gehört Root-in und hat dieselbe `user_id` als Primärschlüssel; geteilt hieße: eine App überschreibt die Sicherung der anderen. `touch_updated_at()` zeichengleich zu `schema.sql` in Root-in — Änderung immer in BEIDEN Dateien |
-| `features/more/screens/settings_screen.dart` → `_KontoKarte` | **S.3 Schritt 2 ✅** — anmelden/registrieren/abmelden; nur sichtbar bei `kontoAktivProvider`. `AuthIssue` wird hier übersetzt (`_kontoFehlerText`). Noch **ohne** Cloud-Kopie — das ist Schritt 3 |
+| `features/more/widgets/profil_konto_karte.dart` → `ProfilKontoKarte` (bis P.2: `_KontoKarte` in settings_screen; `_kontoFehlerText` → `konto_texte.dart`) | **S.3 Schritt 2 ✅** — anmelden/registrieren/abmelden; nur sichtbar bei `kontoAktivProvider`. `AuthIssue` wird hier übersetzt (`_kontoFehlerText`). Noch **ohne** Cloud-Kopie — das ist Schritt 3 |
 | `core/services/feature_flags.dart` | **L.2d** — deckهای «به‌زودی»: قبل از انتشار یا پر شوند یا `hidden` (نسخه‌ی نهایی دکمه‌ی بی‌محتوا ندارد) |
 | `core/backup/cloud_abgleich.dart` | **S.3 Schritt 3** — holen → zusammenführen → nur bei Änderung hochladen; kennt kein Supabase |
 | `core/services/cloud_ablage_supabase.dart` | echte `CloudAblage` (`vox_backups`); zweite und letzte Datei mit `supabase_flutter` |
@@ -1255,6 +1269,14 @@ die Fassade, die allein `NutzerZustand` nach außen zeigt.
 | `test/feature_flags_test.dart` | **L.2d** (2026-09-19) — `FeatureState.hidden` wirkt wirklich: Lookup-Regel, widerspruchsfreie Prädikate, und Quelltext-Wächter, dass Home-Kacheln Sprechen/Schreiben und beide Auswendiglernen-Listen `isVisible` abfragen (vorher las sie niemand — „verstecken" wäre wirkungslos gewesen) |
 | `test/puzzling_buttons_test.dart` | **B.5** — kein roher Material-Button in `lib/features/`. Entstanden, weil `_SicherungKarte` und `_KontoKarte` die Regel unbemerkt gebrochen hatten |
 | `test/auth_service_test.dart` | Fehlercode-Zuordnung (kann **still** brechen: „E-Mail vergeben" → „unbekannter Fehler") + Nachweis, dass ohne Konfiguration nichts geworfen und nichts gesendet wird |
+| `core/backup/nutzer_profil.dart` | **P.1 (2026-09-20)** — `NutzerProfil`/`ProfilAdresse`/`ProfilFehler`, `telefonGueltig`, `normalisiereZiffern`, `NutzerProfil.spaeteres` (ادغام: آخرین ویرایش، کامل). Reines Dart. ⚠️ **Keine E-Mail hier** (gehört `auth.users`) |
+| `core/backup/nutzer_zustand.dart` → `profil` | **Vertrag Fassung 4 (P.1)** — Feld nur im JSON, wenn vorhanden; Fassung 1–3 lesbar; leeres Profil mit neuerem Zeitpunkt gewinnt |
+| `core/backup/user_state_repository.dart` → `kProfilKey` (`vox_profil_v1`) | Profil in SharedPreferences; `lesen()` liest, `anwenden()` Schritt (6) schreibt. ⚠️ bewusst **nicht** in `einstellungsSchluessel` (dort „eigener Stand gewinnt" ⇒ neues Gerät bekäme das Profil nie) |
+| `core/services/auth_service.dart` (P.2) | + `changePassword` · `changeEmail` · `sendPasswordReset` · `signOutEverywhere` · `watchPasswordRecovery`; `AuthIssue.samePassword`/`reauthNeeded`. ⚠️ Passwort/E-Mail gelten für **beide** Apps (`auth.users` geteilt) |
+| `core/constants/app_links.dart` → `voxUrl` | Rücksprung-Adresse für Mails; **muss** in Supabase → Redirect URLs stehen, sonst landet der Link auf der Site URL (= Root-in) |
+| `features/more/…` (Profil-Seite) | siehe Baum `lib/features/more/` oben; Route `AppRoutes.profil` = `/more/profil`; Einstieg: More (erste Zeile) + Einstellungen → `_ProfilKachel` |
+| `test/profil_test.dart` · `test/profil_controller_test.dart` | **P** — Telefon/Bereinigen/JSON/Zusammenführen/Vertrag v4 (+ v3 lesbar)/Passwortregel/Auth-Codes · Notifier (bereinigt, Zeitpunkt, Ungültiges schreibt nichts) |
+| **Nicht gebaut** | **Konto löschen** — offen L.1d (löscht `auth.users` ⇒ auch Root-in) |
 
 ✅ **S.5 (2026-09-15): Entfernungen und App-Wörter.**
 | Stelle | Rolle |

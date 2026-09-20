@@ -31,6 +31,7 @@ import 'package:drift/drift.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../database/app_database.dart';
+import 'nutzer_profil.dart';
 import 'nutzer_zustand.dart';
 
 /// SharedPreferences-Schlüssel des Wortarchivs.
@@ -45,6 +46,11 @@ import 'nutzer_zustand.dart';
 const kVokabLeitnerKey = 'vokab_user_leitner_v1';
 const kVokabKategorienKey = 'vokab_user_kategorien_v1';
 const kVokabNotizenKey = 'vokab_user_notizen_v1';
+
+/// Persönliche Angaben (P.1) — ein JSON-Text ([NutzerProfil.zuText]). Liegt in
+/// SharedPreferences; der Vertrag (`nutzer_zustand.dart`, Fassung 4) trägt ihn
+/// in Datei und Cloud-Kopie.
+const kProfilKey = 'vox_profil_v1';
 
 /// Einstellungsschlüssel, die zum Nutzer gehören und mitgesichert werden.
 /// Bewusst eine ausdrückliche Liste: so wandert nie versehentlich ein
@@ -188,6 +194,8 @@ class UserStateRepository {
         for (final k in einstellungsSchluessel)
           if (_prefs.containsKey(k)) k: _prefs.get(k),
       },
+      // P.1: fehlt oder unlesbar ⇒ null (nie eingegeben).
+      profil: NutzerProfil.ausText(_prefs.getString(kProfilKey)),
       // S.5: App-Wörter bringt jedes Gerät selbst mit — nicht sichern.
       // Verweise auf sie (Leitner, Listen) bleiben oben trotzdem erhalten.
       eigeneWoerter: woerter
@@ -400,6 +408,13 @@ class UserStateRepository {
       } else if (wert is String) {
         await _prefs.setString(k, wert);
       }
+    }
+
+    // (6) Profil (P.1) — der zusammengeführte Stand ganz, so wie
+    //     `NutzerProfil.spaeteres` ihn bestimmt hat.
+    final profil = zusammen.profil;
+    if (profil != null) {
+      await _prefs.setString(kProfilKey, profil.zuText());
     }
 
     return zusammen;

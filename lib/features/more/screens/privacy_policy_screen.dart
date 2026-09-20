@@ -19,7 +19,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
         children: [
           _Section(
             AppL10n.meaning(context, fa: 'آخرین بروزرسانی', en: 'Last updated'),
-            AppL10n.meaning(context, fa: '۲۷ شهریور ۱۴۰۵', en: '18 September 2026'),
+            AppL10n.meaning(context, fa: '۲۹ شهریور ۱۴۰۵', en: '20 September 2026'),
           ),
           _Section(
             AppL10n.meaning(context, fa: 'جمع‌آوری داده‌ها', en: 'Data collection'),
@@ -34,14 +34,32 @@ class PrivacyPolicyScreen extends StatelessWidget {
           _Section(
             AppL10n.meaning(context, fa: 'حساب کاربری (اختیاری)', en: 'Account (optional)'),
             AppL10n.meaning(context,
-              fa: 'اگر خودتان از بخش تنظیمات یک حساب بسازید، ایمیل شما و یک نسخه‌ی '
+              fa: 'اگر خودتان از صفحه‌ی «پروفایل و حساب» یک حساب بسازید، ایمیل شما و یک نسخه‌ی '
                   'پشتیبان از پیشرفت‌تان (واژگان، Leitner، عادت‌ها) روی سرور Supabase '
                   'ذخیره می‌شود تا بین چند دستگاه هماهنگ بماند. بدون ساختن حساب، هیچ‌چیز '
                   'به سرور فرستاده نمی‌شود.',
-              en: 'If you choose to create an account in Settings, your email and a '
+              en: 'If you choose to create an account on the Profile & account page, your email and a '
                   'backup copy of your progress (vocabulary, Leitner state, habits) '
                   'are stored on our Supabase server so it can sync across devices. '
                   'Without creating an account, nothing is sent to any server.'),
+          ),
+          _Section(
+            AppL10n.meaning(context,
+                fa: 'اطلاعات شخصی (اختیاری)', en: 'Personal details (optional)'),
+            AppL10n.meaning(context,
+              fa: 'در صفحه‌ی «پروفایل و حساب» می‌توانی نام، شماره‌ی تلفن و آدرس‌هایت را '
+                  'بنویسی. این بخش کاملاً اختیاری است و برای یادگیری لازم نیست. اطلاعات '
+                  'در مرورگر خودت می‌ماند. فقط اگر حساب کاربری داشته باشی، همراه '
+                  'نسخه‌ی پشتیبان خودت روی سرور Supabase هم ذخیره می‌شود؛ همین‌طور '
+                  'در فایل پشتیبانی که خودت می‌گیری. جای دیگری فرستاده نمی‌شود و '
+                  'هر وقت خواستی می‌توانی آن را پاک کنی.',
+              en: 'On the “Profile & account” page you can enter your name, phone '
+                  'number and addresses. This is entirely optional and not needed '
+                  'for learning. The details stay in your browser. Only if you have '
+                  'an account are they also stored on our Supabase server, together '
+                  'with your own backup copy, and in the backup file you export '
+                  'yourself. They are not sent anywhere else, and you can erase '
+                  'them at any time.'),
           ),
           _Section(
             AppL10n.meaning(context, fa: 'میکروفون', en: 'Microphone'),

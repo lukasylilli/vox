@@ -20,6 +20,12 @@ class MoreHomeScreen extends StatelessWidget {
         children: [
           _Section(title: AppL10n.t(context, 'app_section'), children: [
             _Tile(
+              icon    : Icons.account_circle_outlined,
+              title   : 'Profil & Konto',
+              titleFa : AppL10n.t(context, 'profile_title'),
+              onTap   : () => context.push(AppRoutes.profil),
+            ),
+            _Tile(
               icon    : Icons.settings_rounded,
               title   : 'Einstellungen',
               titleFa : AppL10n.t(context, 'settings_title'),

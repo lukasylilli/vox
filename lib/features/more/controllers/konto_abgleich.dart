@@ -24,6 +24,7 @@ import '../../../core/services/auth_service.dart';
 import '../../../core/services/cloud_ablage_supabase.dart';
 import '../../vokabular/controllers/vokabular_user_state.dart';
 import '../../wortschatz/controllers/word_controller.dart' show databaseProvider;
+import 'profil_controller.dart';
 import 'settings_controller.dart';
 
 class KontoAbgleichStand {
@@ -84,6 +85,9 @@ class KontoAbgleich extends Notifier<KontoAbgleichStand> {
         // Die Ablage wurde an den Stores vorbei geändert.
         await ref.read(vokabularUserProvider.notifier).neuLaden();
         ref.invalidate(settingsProvider);
+        // P.1: Angaben und Archiv-Zahlen kamen ebenfalls vom Server.
+        ref.invalidate(profilProvider);
+        ref.invalidate(archivUebersichtProvider);
       }
     } catch (_) {
       status = CloudStatus.fehlgeschlagen;

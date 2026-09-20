@@ -19,6 +19,8 @@
 import 'dart:convert';
 import 'dart:math' show Random;
 
+import 'nutzer_profil.dart';
+
 /// Erhöhen, sobald sich die Form der Nutzlast ändert. `vonJson` muss ältere
 /// Fassungen weiter lesen können — eine Sicherung von gestern darf nie
 /// unbrauchbar werden.
@@ -32,7 +34,11 @@ import 'dart:math' show Random;
 /// der Name vergeben wurde — beim Zusammenführen gewinnt der später vergebene
 /// Name. Fassung 2 hat kein `nameAm`; ihre Namen gelten als älter als jede
 /// Umbenennung. Listen von vor S.6 behalten ihre alte id `eigen:<Name>`.
-const int nutzerZustandVersion = 3;
+///
+/// Fassung 4 (P.1, 2026-09-20): `profil` — Name, Telefonnummer, Adressen
+/// (`nutzer_profil.dart`). Fehlt das Feld (Fassung 1–3), gibt es kein Profil.
+/// Beim Zusammenführen gewinnt der später bearbeitete Stand als Ganzes.
+const int nutzerZustandVersion = 4;
 
 const String appKennung = 'vox';
 
@@ -238,6 +244,11 @@ class NutzerZustand {
   /// Letzte Handlung je Schlüssel ([Mitgliedschaft.schluessel]) — S.5.
   final Map<String, Mitgliedschaft> mitgliedschaften;
 
+  /// Persönliche Angaben (P.1). `null` = nie eingegeben. ⚠️ Ein **leeres**
+  /// Profil mit Zeitpunkt ist etwas anderes als `null`: es sagt „bewusst
+  /// geleert" und setzt sich beim Zusammenführen gegen ältere Angaben durch.
+  final NutzerProfil? profil;
+
   const NutzerZustand({
     this.leitner = const {},
     this.kategorien = const [],
@@ -245,6 +256,7 @@ class NutzerZustand {
     this.einstellungen = const {},
     this.eigeneWoerter = const [],
     this.mitgliedschaften = const {},
+    this.profil,
   });
 
   bool get istLeer =>
@@ -253,7 +265,8 @@ class NutzerZustand {
       notizen.isEmpty &&
       einstellungen.isEmpty &&
       eigeneWoerter.isEmpty &&
-      mitgliedschaften.isEmpty;
+      mitgliedschaften.isEmpty &&
+      profil == null;
 
   /// Listen werden **geordnet** ausgegeben (nach id bzw. Schlüssel), damit
   /// derselbe Inhalt immer denselben Text ergibt — der Konto-Abgleich
@@ -272,6 +285,9 @@ class NutzerZustand {
               ..sort((a, b) => a.key.compareTo(b.key)))
             .map((e) => e.value.toJson())
             .toList(),
+        // Nur wenn vorhanden: Sicherungen ohne Profil bleiben Byte für Byte
+        // gleich (der Konto-Abgleich vergleicht den Text).
+        if (profil != null) 'profil': profil!.toJson(),
       };
 
   static NutzerZustand vonJson(Map<String, dynamic> j) => NutzerZustand(
@@ -294,6 +310,10 @@ class NutzerZustand {
               Mitgliedschaft.vonJson(e.cast<String, dynamic>()).schluessel:
                   Mitgliedschaft.vonJson(e.cast<String, dynamic>()),
         },
+        // Fassung 1–3 kennt das Feld nicht ⇒ kein Profil.
+        profil: j['profil'] is Map
+            ? NutzerProfil.vonJson((j['profil'] as Map).cast<String, dynamic>())
+            : null,
       );
 
   // ── Zusammenführen ────────────────────────────────────────────────────
@@ -402,6 +422,7 @@ class NutzerZustand {
       einstellungen: einstellungen.isEmpty ? anderer.einstellungen : einstellungen,
       eigeneWoerter: woerterNeu.values.toList(),
       mitgliedschaften: ereignisse,
+      profil: NutzerProfil.spaeteres(profil, anderer.profil),
     );
   }
 

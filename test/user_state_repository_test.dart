@@ -11,6 +11,7 @@ import 'package:drift/drift.dart' show Value;
 import 'package:drift/native.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:vox/core/backup/nutzer_profil.dart';
 import 'package:vox/core/backup/nutzer_zustand.dart';
 import 'package:vox/core/backup/user_state_repository.dart';
 import 'package:vox/core/database/app_database.dart';
@@ -365,5 +366,53 @@ void main() {
     expect(listen.length, 2);
     final alt = listen.firstWhere((k) => k.id == 'eigen:Alltag');
     expect(alt.wortIds, ['eigen:Bank|nomen']);
+  });
+
+  group('Profil (P.1)', () {
+    test('ohne Eintrag: kein Profil', () async {
+      final repo = await geraet();
+      expect((await repo.lesen()).profil, isNull);
+    });
+
+    test('liest das Profil aus der Ablage', () async {
+      final gespeichert = NutzerProfil(
+          name: 'Lukas', am: DateTime.utc(2026, 9, 19)).zuText();
+      final repo = await geraet(prefs: {kProfilKey: gespeichert});
+      final z = await repo.lesen();
+      expect(z.profil!.name, 'Lukas');
+      expect(z.istLeer, isFalse);
+    });
+
+    test('ein kaputter Eintrag verhindert nichts', () async {
+      final repo = await geraet(prefs: {kProfilKey: 'kein json'});
+      expect((await repo.lesen()).profil, isNull);
+    });
+
+    test('Gerätewechsel: Profil kommt mit der Sicherung mit', () async {
+      final a = await geraet(prefs: {
+        kProfilKey: NutzerProfil(
+                name: 'Lukas',
+                telefon: '+43 664 1234567',
+                am: DateTime.utc(2026, 9, 19))
+            .zuText(),
+      });
+      final datei = sicherungSchreiben(await a.lesen());
+
+      final b = await geraet();
+      await b.anwenden(sicherungLesen(datei).zustand);
+      final z = await b.lesen();
+      expect(z.profil!.name, 'Lukas');
+      expect(z.profil!.telefon, '+43 664 1234567');
+    });
+
+    test('ein älteres Profil überschreibt kein neueres', () async {
+      final repo = await geraet(prefs: {
+        kProfilKey:
+            NutzerProfil(name: 'Neu', am: DateTime.utc(2026, 9, 5)).zuText(),
+      });
+      await repo.anwenden(NutzerZustand(
+          profil: NutzerProfil(name: 'Alt', am: DateTime.utc(2026, 9, 1))));
+      expect((await repo.lesen()).profil!.name, 'Neu');
+    });
   });
 }

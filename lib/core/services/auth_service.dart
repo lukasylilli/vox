@@ -30,6 +30,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 import '../constants/app_config.dart';
+import '../constants/app_links.dart';
 
 /// Warum ein Anmelde-Vorgang nicht geklappt hat — **sprachneutral**, wie
 /// `SicherungFehler` in `core/backup/nutzer_zustand.dart`.
@@ -61,6 +62,13 @@ enum AuthIssue {
   /// Server nicht erreichbar — kein Netz, Projekt pausiert, Adresse gesperrt.
   offline,
 
+  /// Das neue Passwort ist dasselbe wie das alte (P.2).
+  samePassword,
+
+  /// Der Server verlangt eine frische Anmeldung, bevor er das Passwort oder
+  /// die E-Mail ändert (P.2). Abmelden, neu anmelden, nochmal versuchen.
+  reauthNeeded,
+
   /// Alles andere. ⚠️ Muss existieren: Ein Server kann jederzeit einen Code
   /// melden, den diese Fassung der App noch nicht kennt.
   unknown,
@@ -83,6 +91,10 @@ AuthIssue authIssueFromCode(String? code) => switch (code) {
   'validation_failed' => AuthIssue.invalidEmail,
   'signup_disabled' => AuthIssue.signupDisabled,
   'over_email_send_rate_limit' => AuthIssue.emailRateLimited,
+  'same_password' => AuthIssue.samePassword,
+  'reauthentication_needed' ||
+  'reauthentication_not_valid' =>
+    AuthIssue.reauthNeeded,
   _ => AuthIssue.unknown,
 };
 
@@ -231,6 +243,105 @@ class AuthService {
     } catch (_) {
       return const AuthResult.failure(AuthIssue.offline);
     }
+  }
+
+  /// Ändert das Passwort des angemeldeten Kontos (P.2).
+  ///
+  /// ⚠️ **Gilt für BEIDE Apps.** `auth.users` ist mit Root-in geteilt — wer hier
+  /// das Passwort ändert, meldet sich danach auch in Root-in nur noch mit dem
+  /// neuen an. Die Oberfläche sagt das ausdrücklich.
+  /// ⚠️ Die Mindestlänge und ob eine frische Anmeldung nötig ist, bestimmt der
+  /// Server; beides kommt als [AuthIssue] zurück ([AuthIssue.weakPassword],
+  /// [AuthIssue.reauthNeeded]).
+  Future<AuthResult> changePassword(String newPassword) async {
+    final client = _client;
+    if (client == null) {
+      return const AuthResult.failure(AuthIssue.notConfigured);
+    }
+    try {
+      final response = await client.auth.updateUser(
+        UserAttributes(password: newPassword),
+      );
+      final user = response.user;
+      if (user == null) return const AuthResult.failure(AuthIssue.unknown);
+      return AuthResult.success(
+        AuthAccount(id: user.id, email: user.email ?? ''),
+      );
+    } on AuthException catch (error) {
+      return AuthResult.failure(authIssueFromCode(error.code));
+    } catch (_) {
+      return const AuthResult.failure(AuthIssue.offline);
+    }
+  }
+
+  /// Beantragt eine neue E-Mail-Adresse (P.2). Die Adresse ändert sich erst,
+  /// wenn der Nutzer den Link in der Bestätigungsmail öffnet — bis dahin
+  /// bleibt [currentAccount] unverändert.
+  ///
+  /// ⚠️ Gilt wie das Passwort für beide Apps.
+  Future<AuthResult> changeEmail(String newEmail) async {
+    final client = _client;
+    if (client == null) {
+      return const AuthResult.failure(AuthIssue.notConfigured);
+    }
+    try {
+      final response = await client.auth.updateUser(
+        UserAttributes(email: newEmail.trim()),
+        emailRedirectTo: AppLinks.voxUrl,
+      );
+      final user = response.user;
+      if (user == null) return const AuthResult.failure(AuthIssue.unknown);
+      return AuthResult.success(
+        AuthAccount(id: user.id, email: user.email ?? ''),
+      );
+    } on AuthException catch (error) {
+      return AuthResult.failure(authIssueFromCode(error.code));
+    } catch (_) {
+      return const AuthResult.failure(AuthIssue.offline);
+    }
+  }
+
+  /// Schickt eine Mail mit einem Link zum Zurücksetzen des Passworts (P.2).
+  /// `null` = abgeschickt, sonst der Grund.
+  ///
+  /// ⚠️ Der Server verrät **nicht**, ob die Adresse ein Konto hat — das ist
+  /// Absicht (sonst ließen sich Adressen durchprobieren). Die Oberfläche sagt
+  /// deshalb „falls es ein Konto gibt, ist eine Mail unterwegs".
+  Future<AuthIssue?> sendPasswordReset(String email) async {
+    final client = _client;
+    if (client == null) return AuthIssue.notConfigured;
+    try {
+      await client.auth.resetPasswordForEmail(
+        email.trim(),
+        redirectTo: AppLinks.voxUrl,
+      );
+      return null;
+    } on AuthException catch (error) {
+      return authIssueFromCode(error.code);
+    } catch (_) {
+      return AuthIssue.offline;
+    }
+  }
+
+  /// Meldet die Sitzung auf **allen** Geräten ab (P.2), nicht nur hier.
+  Future<void> signOutEverywhere() async {
+    try {
+      await _client?.auth.signOut(scope: SignOutScope.global);
+    } catch (_) {
+      // Wie bei signOut: nie hängen bleiben. Scheitert der Server, bleibt
+      // die lokale Sitzung trotzdem verworfen — der Nutzer kann es erneut
+      // versuchen.
+    }
+  }
+
+  /// Meldet, wenn der Nutzer über den Link aus der Passwort-zurücksetzen-Mail
+  /// zurückkommt (P.2). Leerer Stream ohne Server.
+  Stream<bool> watchPasswordRecovery() {
+    final client = _client;
+    if (client == null) return const Stream<bool>.empty();
+    return client.auth.onAuthStateChange
+        .where((event) => event.event == AuthChangeEvent.passwordRecovery)
+        .map((_) => true);
   }
 
   Future<void> signOut() async {

@@ -28,6 +28,7 @@ import '../../features/selbstlernen/screens/selbstlernen_home_screen.dart';
 import '../../features/selbstlernen/screens/vorlagen_screen.dart';
 import '../../features/fragen/screens/fragen_screen.dart';
 import '../../features/more/screens/more_home_screen.dart';
+import '../../features/more/screens/profil_screen.dart';
 import '../../features/more/screens/settings_screen.dart';
 import '../../features/more/screens/privacy_policy_screen.dart';
 import '../../features/sozialmedien/screens/sozialmedien_screen.dart';
@@ -960,6 +961,10 @@ final appRouter = GoRouter(
         GoRoute(
           path   : 'settings',
           builder: (ctx, _) => const SettingsScreen(),
+        ),
+        GoRoute(
+          path   : 'profil',
+          builder: (ctx, _) => const ProfilScreen(),
         ),
         GoRoute(
           path   : 'privacy',

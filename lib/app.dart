@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import 'core/constants/app_routes.dart';
 import 'core/l10n/app_l10n.dart';
 import 'core/l10n/geraete_sprache.dart';
 import 'core/utils/dokument_sprache.dart';
@@ -13,6 +14,7 @@ import 'core/utils/formatters.dart';
 import 'core/router/app_router.dart';
 import 'core/theme/app_theme.dart';
 import 'features/more/controllers/konto_abgleich.dart';
+import 'features/more/controllers/profil_controller.dart';
 import 'features/more/controllers/settings_controller.dart';
 
 // Removes the glow overscroll effect that looks odd with RTL + Material 3
@@ -31,6 +33,13 @@ class VoxApp extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     // S.3 Schritt 3: Konto-Abgleich im Hintergrund (ohne Konfiguration: nichts).
     ref.watch(kontoAbgleichStarterProvider);
+    // P.2: Link aus der „Passwort zurücksetzen"-Mail → Profil-Seite mit der
+    // Karte «رمز جدید». Der Starter hält nur das Abonnement; navigiert wird
+    // hier, weil nur `app.dart` den Router und die Provider zugleich kennt.
+    ref.watch(passwortWiederherstellungStarterProvider);
+    ref.listen<bool>(passwortNeuProvider, (vorher, jetzt) {
+      if (jetzt) appRouter.go(AppRoutes.profil);
+    });
     final themeMode     = ref.watch(themeModeProvider);
     final settingsAsync = ref.watch(settingsProvider);
 

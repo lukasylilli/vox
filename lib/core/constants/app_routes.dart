@@ -84,6 +84,7 @@ class AppRoutes {
   // More
   static const more          = '/more';
   static const settings      = '/more/settings';
+  static const profil        = '/more/profil';
   static const profile       = '/more/profile';
   static const privacyPolicy = '/more/privacy';
 
