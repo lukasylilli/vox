@@ -7,6 +7,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../core/database/app_database.dart';
 import '../../../core/database/dao/lesen_dao.dart';
 import '../../../core/services/rss_service.dart';
+import '../../wortschatz/controllers/word_controller.dart' show databaseProvider;
 
 // ── DAO ───────────────────────────────────────────────────────────────────────
 
