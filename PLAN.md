@@ -13,7 +13,7 @@
 > رمز و تغییر رمز، اکسپورت/ایمپورت لایتنر و بقیه‌ی چیزهای یک اپ حرفه‌ای». ⇒ **فاز P ساخته شد** (تفصیل: بخش «فاز P — Profil & Konto»).
 > صفحه‌ی `/more/profil` («پروفایل و حساب»): کارت حساب (ورود · ثبت‌نام · فراموشی رمز · تغییر ایمیل · همگام‌سازی · خروج · خروج از همه‌ی دستگاه‌ها)،
 > کارت تغییر رمز، اطلاعات شخصی (نام · تلفن · تا ۵ آدرس، همه اختیاری)، آرشیو من (اعداد لایتنر/فهرست/یادداشت/کلمه‌ی خودم)، پشتیبان فایل.
-> قرارداد پشتیبان **نسخه ۴** (`profil`). 🟡 **Stand: auf Zweig `profil-seite`, CI-Ergebnis siehe unten (wird nach dem Lauf nachgetragen).**
+> قرارداد پشتیبان **نسخه ۴** (`profil`). ✅ **CI grün** (2026-09-20, Lauf 35487912698 auf Zweig `profil-seite`: analyze + test + Web-Bau) — danach nach `main`. ⚠️ Noch **nicht im Browser gesehen** (Claude hat keinen): Ansicht/RTL/Dialoge bitte von Lukas anschauen.
 > ⚠️ **یک چیز عمداً ساخته نشد:** «حذف حساب» (L.1d — تصمیم Lukas برای هر دو اپ). ⏭️ **نیاز از Lukas:** (۱) L.1d · (۲) در Supabase →
 > Authentication → URL Configuration → Redirect URLs این آدرس ثبت شود: `https://lukasylilli.github.io/vox/` (وگرنه لینک ایمیل «فراموشی رمز» به Site URL می‌رود = احتمالاً Root-in) ·
 > (۳) دو PAT در چت نوشته شده‌اند ⇒ revoke و عوض شوند.
@@ -77,7 +77,7 @@
 | **L — L10n: زبان فقط از Settings** | ✅ | ۶ سوییچ حذف، Dual-Display صفر، AppL10n تنها منبع |
 | **L2 — Massen-Lokalisierung** | ✅ | ۶۴۱→۴۱ رشته FA در UI (کاتالوگ ۵۳۷=۵۳۷)؛ باقی در L3 |
 | **L3 — Content-Zweisprachigkeit** | ✅ | **همه محتواها FA+EN** (JSON + صفحات + دیتابیس)؛ audit ۰؛ کاتالوگ ۵۶۵=۵۶۵؛ helper AppL10n.loc؛ MemorizeItems.meaningEn (schema v2) |
-| **P — Profil & Konto** | 🟡 P.1–P.3 ساخته (2026-09-20)، CI ✱ | صفحه‌ی `/more/profil`: حساب + امنیت + اطلاعات شخصی + آرشیو + پشتیبان؛ قرارداد v4؛ **حذف حساب = L.1d باز** |
+| **P — Profil & Konto** | ✅ P.1–P.3 (2026-09-20، CI سبز) — بازبینی چشمی از Lukas مانده | صفحه‌ی `/more/profil`: حساب + امنیت + اطلاعات شخصی + آرشیو + پشتیبان؛ قرارداد v4؛ **حذف حساب = L.1d باز** |
 | **V — Vokabular-DB (۲۵٬۰۰۰ کلمه)** | Stufen ۱–۵ ✅ · **۸۷ کارت** (۰٫۳٪ از ~۲۶٬۲۰۰) · گلوگاه = سرعت، نه کد | Pipeline کامل و سالم: SUPER-PROMPT v3.0 → `import_inbox/` → `tool/vokabular_import.dart` → اپ. از ۱۴ جولای تا ۱۵ سپتامبر (۲ ماه) فقط چند کلمه اضافه شد ⇒ **فاز A (خودکارسازی) باز شد.** V.2 ✅ (فهرست کلمات به‌جای vocab.db، 2026-09-16) · باز: · اتصال Leitner به imLeitner · V.5 توزیع |
 | ~~۱۶ — انتشار و QA نهایی~~ | ⛔ منسوخ — فهرست معتبر: **L.3** | نسخه‌ی بومی (iOS/Android/RevenueCat) از 2026-09-13 حذف شد؛ انتشار = فقط وب (GitHub Pages) |
 
@@ -417,7 +417,7 @@
 ## فاز P — Profil & Konto (2026-09-20)
 
 > **درخواست Lukas (2026-09-20):** «کاربر اکانت و اطلاعات خودش را کجا وارد کند؟» تا آن روز جواب: فقط پایین «تنظیمات»، و آن هم فقط اگر Secretهای
-> Supabase ست بودند. اسم/آدرس/تلفن/تغییر رمز/آرشیو اصلاً وجود نداشت. 🟡 **Stand: auf Zweig `profil-seite`, CI-Ergebnis siehe unten (wird nach dem Lauf nachgetragen).**
+> Supabase ست بودند. اسم/آدرس/تلفن/تغییر رمز/آرشیو اصلاً وجود نداشت. ✅ **CI grün** (2026-09-20, Lauf 35487912698 auf Zweig `profil-seite`: analyze + test + Web-Bau) — danach nach `main`. ⚠️ Noch **nicht im Browser gesehen** (Claude hat keinen): Ansicht/RTL/Dialoge bitte von Lukas anschauen.
 
 **یک صفحه برای هرچه به کاربر تعلق دارد:** `/more/profil` (`AppRoutes.profil`) — از «More» (اولین ردیف) و «تنظیمات ← حساب» باز می‌شود.
 صفحه **بدون سرور هم کار می‌کند** (اطلاعات، آرشیو، پشتیبان فایل)؛ فقط کارت‌های حساب وقتی `kontoAktivProvider` درست است دیده می‌شوند.
