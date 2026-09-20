@@ -1,6 +1,6 @@
 # PROJECT MAP — VOX
 # نقشه کامل پروژه برای ناوبری سریع در هر session
-# آپدیت: 2026-09-20 دور ۳ (فقط یادداشت: Root-in «Phase 32 — Wochenplan» روی main؛ کد و ساختار VOX تغییر نکرد) · قبلی: 2026-09-20 دور ۲ (⏳ L.5f در حال انجام — کامپوننت مشترک «کلیک روی کلمه»: `core/widgets/wort_popup.dart`، `klick_wort_text.dart`، `core/wort/klick_wort.dart`؛ نتیجه در ورودی بعدی) · قبلی: 2026-09-20 (فاز P: صفحه‌ی `/more/profil` — حساب/امنیت/اطلاعات شخصی/آرشیو/پشتیبان؛ قرارداد پشتیبان v4 `profil`؛ `_KontoKarte`/`_SicherungKarte` از settings به widgets منتقل) · قبلی: 2026-09-19 (دور چهارم — فلگ `hidden` واقعاً اعمال می‌شود [feature_flags · home_screen · auswendiglernen_home_screen · test/feature_flags_test]؛ doc-drift فاز ۱۶/RevenueCat پاک شد) · دور سوم همان روز: فقط ثبت — دروازه‌های انتشار؛ جزئیات: PLAN.md → «آخرین جلسه» · قبلی: 2026-09-18 (ادامه ۶ — L.1e: نگهبان شناسه‌ی کلمه‌های همراه اپ؛ RTL بسته؛ اصل «یک محتوا، چند ورودی» + A-1 ثبت؛ آفلاین باز)
+# آپدیت: 2026-09-20 دور ۴ (✅ L.5f: کلیک روی کلمه — `core/wort/{wort_form,klick_wort,klick_wort_provider}.dart` + `core/widgets/{wort_popup,klick_wort_text}.dart`؛ وصل به Lesen/Grammatik-Lektion/Redemittel-Detail/Konnektor/Unregelm/Wort-Seite/Karaoke؛ `clickable_word_text`/`word_popup_card`/`wordLookupProvider` حذف؛ `test/klick_wort_test.dart`) · قبلی: 2026-09-20 دور ۳ (فقط یادداشت: Root-in «Phase 32 — Wochenplan» روی main؛ کد و ساختار VOX تغییر نکرد) · قبلی: 2026-09-20 دور ۲ (⏳ L.5f در حال انجام — کامپوننت مشترک «کلیک روی کلمه»: `core/widgets/wort_popup.dart`، `klick_wort_text.dart`، `core/wort/klick_wort.dart`؛ نتیجه در ورودی بعدی) · قبلی: 2026-09-20 (فاز P: صفحه‌ی `/more/profil` — حساب/امنیت/اطلاعات شخصی/آرشیو/پشتیبان؛ قرارداد پشتیبان v4 `profil`؛ `_KontoKarte`/`_SicherungKarte` از settings به widgets منتقل) · قبلی: 2026-09-19 (دور چهارم — فلگ `hidden` واقعاً اعمال می‌شود [feature_flags · home_screen · auswendiglernen_home_screen · test/feature_flags_test]؛ doc-drift فاز ۱۶/RevenueCat پاک شد) · دور سوم همان روز: فقط ثبت — دروازه‌های انتشار؛ جزئیات: PLAN.md → «آخرین جلسه» · قبلی: 2026-09-18 (ادامه ۶ — L.1e: نگهبان شناسه‌ی کلمه‌های همراه اپ؛ RTL بسته؛ اصل «یک محتوا، چند ورودی» + A-1 ثبت؛ آفلاین باز)
 #
 # ⚠️ 2026-09-19 (اصلاح یادداشت آفلاین): «precache شدنی است» فقط برای ~۷٫۵MB فعلی (۸۷ کارت) درست است. کارت ~۴KB ⇒ ~۲۶٬۲۰۰ کارت ≈ ~۱۰۰MB
 #   (ارقام خود PLAN) ⇒ پیش‌بارگذاری همه‌ی کارت‌ها همچنان گزینه نیست؛ فقط دارایی‌های ثابت + فهرست + کارتِ بازشده. تحلیل است نه تصمیم. جزئیات: PLAN → L.3.
@@ -228,6 +228,29 @@ widgets/
                                    گزینه‌هایش ترجمه‌اند)، و ۱۴ جای باقی‌مانده در features جارو شد.
                                  🛡🛡 **test/deutscher_text_waechter_test.dart** — فیلد آلمانی داخل
                                    Text( خالی در lib/features ⇒ CI قرمز (الگوی B.5، دو استثنای مستند)
+  klick_wort_text.dart    [x]  — ⭐ KlickWortText (L.5f، 2026-09-20): مثل DeutschText (LTR/left ثابت) ولی **هر کلمه
+                                  قابل‌کلیک** ⇒ showWortPopup. پارامترها: markiert (زیرخط/رنگ؛ فقط Leser)،
+                                  auswaehlbar (SelectableText.rich؛ Leser)، style، maxLines، overflow.
+                                  StatefulWidget: TapGestureRecognizerها فقط با تغییر متن ساخته و در dispose آزاد می‌شوند.
+                                  ⚠️ فقط در صفحه‌های Detail/Leser؛ نه در ردیف‌های لیستِ خودکلیک‌پذیر.
+                                  اعمال‌شده در: text_reader_screen · grammatik_lektion_screen (b.bodyDe، e.german) ·
+                                  redemittel_1010_detail (مثال + متن آلمانی) · konnektor_detail (exampleDe) ·
+                                  unregelm_detail (exampleDe) · wortseite_bausteine BeispielBlock.
+                                  (Karaoke: GestureDetector مستقیم روی هر کلمه → showWortPopup)
+  wort_popup.dart         [x]  — ⭐ showWortPopup(context, rohWort) (L.5f): مرحله ۱ = BottomSheet؛ مرحله ۲ = کلیک روی ردیف ⇒
+                                  push به صفحه‌ی کامل (Archiv: `/vokabular/wort/:id` = WortSeiteScreen؛ DB قدیمی:
+                                  `/wortschatz/word/:id`). ظاهر = WortCard + WortActions(kompakt) / WordListItem +
+                                  Audio + LeitnerAddButton — بدون طراحی جدا. بدون نتیجه ⇒ «not_in_dictionary» +
+                                  دکمه‌ی `search_in_vokabular` ⇒ `/wortschatz/list?suche=<کلمه>`. حداکثر ۸ نتیجه.
+                                  router قبل از باز شدن sheet گرفته می‌شود (context بعد از بستن معتبر نیست).
+  ── core/wort/ (L.5f — reines Dart + Provider، بدون UI) ──
+  wort_form.dart          [x]  — wortBereinigt · wortSchluessel (Groß/Klein؛ artikel فقط در چندکلمه‌ای؛ حرف اضافه‌ی آخر؛
+                                  **بدون تشخیص صورت صرف‌شده — حدس نیست**) · stripPreposition (از word_list_item منتقل شد؛ آنجا re-export)
+  klick_wort.dart         [x]  — zerlegeText(text) → KlickToken(text, istWort)؛ join(tokens)==text
+  klick_wort_provider.dart[x]  — vokabIndexNachSchluesselProvider · klickWortTrefferProvider(schluessel):
+                                  اول آرشیو (همه‌ی هم‌شکل‌ها)، فقط در نبودش DB قدیمی (WordDao.search + فیلتر هم‌کلید)
+                                  · KlickWortTreffer(archiv|datenbank).pfad · klickWortMaxTreffer=8
+                                  🛡 test/klick_wort_test.dart (tokenizer، کلید، provider، KlickWortText، popup بدون نتیجه)
   article_badge.dart      [x]  — pill badge رنگی برای der/die/das (prop: large)
   filter_accordion.dart   [x]  — FilterAccordion(label, options, selected, onChanged)
                                  FilterOption(value, label, icon?)
@@ -647,13 +670,9 @@ controllers/
                                     textByIdProvider، textLevelCountsProvider
                                     rssFeedUrlProvider، rssItemsProvider (FutureProvider)
                                     readerFontSizeProvider (StateProvider، default 16.0)
-                                    wordLookupProvider (exact match first)
 widgets/
-  clickable_word_text.dart   [x]  — tokenize با regex [a-zA-ZäöüÄÖÜß]+
-                                    TapGestureRecognizer → showWordPopup، SelectableText.rich
-  word_popup_card.dart       [x]  — showWordPopup(context, rawWord)
-                                    _cleanWord: strip non-letter chars، wordLookupProvider
-                                    TTS IconButton.filled + LeitnerAddButton، _NotFound widget
+  ⚠️ clickable_word_text.dart + word_popup_card.dart **حذف شدند** (L.5f) ⇒ core/widgets/klick_wort_text.dart +
+     core/widgets/wort_popup.dart. lesen_controller: wordLookupProvider حذف (جایگزین: core/wort/klick_wort_provider.dart)
   reader_toolbar.dart        [x]  — PreferredSizeWidget (48px)
                                     TTS play/stop، _SpeedButton [0.5,0.75,0.85,1.0,1.25]
                                     font size ±2 (range 12-28)
@@ -1552,7 +1571,7 @@ noch nicht und wird erst nach dieser Entscheidung gebaut.
 - تفاوت با L.5c: L.5c = تنوع نوع تمرین، L.5e = هیچ بخشی بدون آزمون پایانی نماند
 - جزئیات کامل → PLAN.md → L.5e
 
-### L.5f [باز — 2026-09-17]: کامپوننت مشترک «کلیک روی کلمه» در کل اپ
+### L.5f [✅ 2026-09-20]: کامپوننت مشترک «کلیک روی کلمه» در کل اپ (ساخته شد — تفصیل: core/widgets/klick_wort_text.dart + wort_popup.dart بالا)
 - رفتار یکسان همه‌جا: کلیک روی هر کلمه → پاپ‌آپ کوچک → کلیک روی پاپ‌آپ → `wort_seite_screen.dart` کامل
   باز می‌شود (چک معنی یا افزودن به لایتنر از همان‌جا)
 - باید یک ویجت/کامپوننت مشترک باشد (اصل Component Isolation)، نه پیاده‌سازی جدا در هر صفحه؛ همه‌ی
@@ -1563,7 +1582,7 @@ noch nicht und wird erst nach dieser Entscheidung gebaut.
 ### L.5g [باز — 2026-09-19]: ساختار دو لایه‌ی Lesen و اخبار (سطح · ترجمه‌ی زیر متن · پاپ‌آپ · تمرین)
 - کل Lesen، نه فقط اخبار: سطح A1–C2 برای هر متن/خبر (اخبار RSS فعلاً بدون سطح: `news_screen.dart`)
 - **لایه‌ی خودکار (پیش‌نویس)** (همه‌ی متن‌ها): ترجمه‌ی زیر متن FA/EN طبق `AppL10n.activeLang` (L.5b) + کلیک کلمه ⇒ پاپ‌آپ ⇒
-  `wort_seite_screen.dart` (L.5f؛ الان `clickable_word_text.dart` → `showWordPopup` فقط پاپ‌آپ دارد، مرحله‌ی دوم نیست)
+  `wort_seite_screen.dart` (L.5f ✅ 2026-09-20: `KlickWortText` → `showWortPopup` → صفحه‌ی کلمه)
 - **لایه‌ی دست‌ساز (پیش‌نویس)** (فقط متن‌های از قبل آماده): تمرین · کلمات مهم · آزمون (L.5e) · نکات گرامری متن — اختیاری، نبودش بخش را پنهان می‌کند
 - ⛔ باز: منبع سطح برای اخبار خودکار + سرویس ترجمه‌ی جمله‌ها برای اخبار خودکار (با کد تنها ممکن نیست)
 - ⛔⛔ **تصمیم مهم و باز، فقط با Lukas** (2026-09-19): (۱) چند متن آماده‌شده؟ (۲) از کجا می‌آیند؟ (۳) کدام قابلیت‌ها فقط‌مال
