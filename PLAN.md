@@ -9,7 +9,14 @@
 > و خط «آخرین جلسه / قدم بعدی» پایین را تازه کن. **کاری که در پلن و مپ ثبت نشده، برای چت بعدی وجود ندارد.**
 > فهرست مطالب و بخش Hinweise همیشه حفظ می‌شوند.
 >
-> 🗓️ **آخرین جلسه:** 2026-09-22 (دور ۵) — فقط PLAN/MAP، **اجرا نشد**: Lukas به ۴ سؤال R-2.2 جواب داد ⇒ ثبت در «R-2.2 — برنامه» → «تصمیم‌ها»:
+> 🗓️ **آخرین جلسه:** 2026-09-22 (دور ۶) — **باگ لینک «فراموشی رمز»** (گزارش Lukas): لینک ایمیل VOX را باز کرد ولی کارت «رمز جدید» نیامد، فقط صفحه‌ی اصلی.
+> **علت (از کد gotrue 2.27.2):** جریان PKCE (`?code=`) کد-تأیید (code verifier) را از **همان حافظه‌ی مرورگری** می‌خواهد که «فراموشی رمز» در آن زده شد؛ اگر ایمیل لینک را در مرورگر دیگر/مرورگر داخلی/کنار اپ صفحه‌ی اصلی باز کند، verifier نیست ⇒ تبادل بی‌صدا شکست ⇒ اپ عادی باز می‌شود. (رویداد `passwordRecovery` خودش درست است: `ReplaySubject` دیر-مشترک‌ها را هم می‌رساند.)
+> **راه ماندگار:** لینک با `token_hash` + `verifyOTP(type: recovery)` — به هیچ چیز روی دستگاه وابسته نیست. **کجا:** `auth_service.dart` (`verifyRecoveryToken`، تابع خالص `wiederherstellungsToken(Uri)`) · `profil_controller.dart` (starter: توکن از `Uri.base` ⇒ پاک‌کردن آدرس ⇒ تأیید ⇒ `passwortNeuProvider` یا `passwortLinkUngueltigProvider`) ·
+> `core/utils/anmelde_adresse{,_io,_web}.dart` (حذف `?token_hash…` از نوار آدرس با `history.replaceState`) · `app.dart` (لینک نامعتبر ⇒ پروفایل) · `profil_screen.dart` (کارت «لینک معتبر نیست») · کلید `account_reset_link_invalid` · تست‌ها: `auth_service_test.dart` (+۲)، پاریته (+۱).
+> **CI:** ✅ Zweig `passwort-link` (Lauf 35700227299) ⇒ `main`. مسیر قدیمی `?code=` هم سر جایش است (همان مرورگر ⇒ همچنان کار می‌کند).
+> ⏭️ **نیاز از Lukas (بدون این، راه تازه فعال نمی‌شود):** Supabase → Authentication → **Emails** (Email Templates) → **Reset Password** ⇒ لینک به `{{ .RedirectTo }}?token_hash={{ .TokenHash }}&type=recovery` (Root-in «فراموشی رمز» ندارد ⇒ اثری روی آن ندارد). بعد دوباره تست.
+>
+> 🗓️ **جلسه‌ی قبل (دور ۵):** 2026-09-22 (دور ۵) — فقط PLAN/MAP، **اجرا نشد**: Lukas به ۴ سؤال R-2.2 جواب داد ⇒ ثبت در «R-2.2 — برنامه» → «تصمیم‌ها»:
 > **بعد از انتشار · یکی‌یکی · کارت‌های Auswendiglernen هرگز حذف/کوتاه نمی‌شوند، فقط گسترش · یک کارت در دو جا مجاز اگر چیزی کم نشود (`sich bedanken für` ⇒ `verb_bedanken` با rektion) · عبارت‌ها ⇒ «کارت عبارت» با پرامپت دوم هم‌ساختار پرامپت کلمه و همان صفحه‌ی کلمه.**
 >
 > 🗓️ **جلسه‌ی قبل (دور ۴):** 2026-09-22 (دور ۴) — فقط ثبت: Lukas `supabase/vox_tables.sql` را در SQL Editor اجرا کرد ⇒ «Success. No rows returned» ✅ و گفت «تست موفق بود» ⇒ **L.1d روی سرور فعال** (`delete_own_account()` موجود).
