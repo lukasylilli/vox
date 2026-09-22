@@ -9,7 +9,10 @@
 > و خط «آخرین جلسه / قدم بعدی» پایین را تازه کن. **کاری که در پلن و مپ ثبت نشده، برای چت بعدی وجود ندارد.**
 > فهرست مطالب و بخش Hinweise همیشه حفظ می‌شوند.
 >
-> 🗓️ **آخرین جلسه:** 2026-09-22 (دور ۴) — فقط ثبت: Lukas `supabase/vox_tables.sql` را در SQL Editor اجرا کرد ⇒ «Success. No rows returned» ✅ و گفت «تست موفق بود» ⇒ **L.1d روی سرور فعال** (`delete_own_account()` موجود).
+> 🗓️ **آخرین جلسه:** 2026-09-22 (دور ۵) — فقط PLAN/MAP، **اجرا نشد**: Lukas به ۴ سؤال R-2.2 جواب داد ⇒ ثبت در «R-2.2 — برنامه» → «تصمیم‌ها»:
+> **بعد از انتشار · یکی‌یکی · کارت‌های Auswendiglernen هرگز حذف/کوتاه نمی‌شوند، فقط گسترش · یک کارت در دو جا مجاز اگر چیزی کم نشود (`sich bedanken für` ⇒ `verb_bedanken` با rektion) · عبارت‌ها ⇒ «کارت عبارت» با پرامپت دوم هم‌ساختار پرامپت کلمه و همان صفحه‌ی کلمه.**
+>
+> 🗓️ **جلسه‌ی قبل (دور ۴):** 2026-09-22 (دور ۴) — فقط ثبت: Lukas `supabase/vox_tables.sql` را در SQL Editor اجرا کرد ⇒ «Success. No rows returned» ✅ و گفت «تست موفق بود» ⇒ **L.1d روی سرور فعال** (`delete_own_account()` موجود).
 > ⏭️ کار بعدی Lukas: Redirect URL `https://lukasylilli.github.io/vox/` در Supabase → Authentication → URL Configuration (راهنما در چت داده شد).
 >
 > 🗓️ **جلسه‌ی قبل (دور ۳):** 2026-09-22 (دور ۳) — **فقط PLAN/MAP، کدی عوض نشد.** Lukas: (۱) اجرای `vox_tables.sql` را نتوانست ⇒ راهنمای قدم‌به‌قدم در چت داده شد (هنوز انجام نشده) ·
@@ -395,6 +398,7 @@
 - [ ] **(Lukas)** تست روی آیفون واقعی (Safari + افزودن به صفحه‌ی اصلی)
 
 ### L.4 — بعد از انتشار: کلمه‌ها، روزانه
+- ⏭️ **R-2.2 هم اینجاست** (2026-09-22): deckهای Auswendiglernen یکی‌یکی ⇒ کارت کلمه / کارت عبارت — برنامه: فاز R → «R-2.2 — برنامه». کارت‌های Auswendiglernen هرگز کم نمی‌شوند.
 - [ ] روش ساخت ⇒ **فاز A / A.6 ⛔ — قبلش حتماً از Lukas بپرس.** (گزینه‌ی مطرح‌شده 2026-09-16: API با
       حدود ۵۰ یورو در ماه، اعتبار پیش‌پرداخت بدون شارژ خودکار، ترجیحاً Batch — هنوز تأیید نشده)
 
@@ -659,7 +663,7 @@
   - مثال: "abhängen · abhängig · die Abhängigkeit von"
   - این فرمت را تغییر نده — کاربر می‌خواهد حرف اضافه را در لیست ببیند
 - [ ] R-2.2 کلیک روی هر آیتم → detail view کامل: (وضع 2026-09-22: `praep_cluster_detail_screen.dart` معنا + اعضا + مثال‌ها دارد؛ **صدا/لایتنر/دسته‌بندی ندارد**)
-  ⛔ **شروع نشود تا Lukas بگوید** (تصمیم Lukas 2026-09-22 دور ۳) — برنامه‌ی کامل: بخش «R-2.2 — برنامه» درست زیر همین.
+  ⛔ **بعد از انتشار** (تصمیم Lukas 2026-09-22 دور ۵) — برنامه و تصمیم‌ها: بخش «R-2.2 — برنامه» درست زیر همین.
 
 #### R-2.2 — برنامه (فقط برنامه؛ ثبت 2026-09-22 دور ۳ — هیچ کدی ساخته نشده)
 **تصمیم Lukas:** همه‌ی بخش‌های **Auswendiglernen** باید کلمه‌هایشان را **طبق پرامپت کلمه** بسازند؛ صفحه‌ی کلمه **کد جداگانه‌ی خودش** را دارد
@@ -675,9 +679,25 @@
   3. **اتصال:** در لیست/جزئیات هر deck، هر lemma ⇒ همان رفتار L.5f (`showWortPopup` / `router.push('/vokabular/wort/:id')`) — id فقط از `vokabId`/`vocab_index`، **هیچ id حدسی**. کارت نیست ⇒ لینک نیست (نه لینک شکسته).
   4. **صدا/لایتنر/دسته‌بندی** از خود صفحه‌ی کلمه می‌آیند (`WortActions`) — در صفحه‌های deck تکرار نمی‌شوند.
   5. تست: نگهبان «هر lemma که لینک دارد، id‌اش در `vocab_index.json` هست» (مثل L.1a).
-- **⛔ سؤال‌های باز برای Lukas (قبل از شروع):** (الف) **عبارت‌ها** (NVV مثل «eine Entscheidung treffen»، Redemittel) کلمه‌ی تکی نیستند و پرامپت کلمه فقط ۱۰ Wortart دارد ⇒ کارت جدا؟ لینک به کلمه‌ی اصلی (Entscheidung)؟ بدون لینک؟ ·
-  (ب) کلمه‌ای که در deck با **حرف اضافه/sich** است (sich bedanken für) ⇒ کارت همان lemma (`bedanken`) و حرف اضافه در `details` — یا کارت جدا؟ · (ج) ترتیب: همه‌ی deckها با هم یا یکی‌یکی (پیشنهاد: اول Präpositionen)؟ ·
-  (د) زمان: قبل از انتشار یا بعد (همراه L.4)؟
+- ✅ **تصمیم‌ها (Lukas، 2026-09-22 دور ۵) — هنوز اجرا نشده، فقط برنامه:**
+  **۰. زمان: همه‌ی R-2.2 بعد از انتشار** (قانون: اپ هر چه زودتر منتشر شود، کلمه‌ها به‌مرور) ⇒ همراه L.4 / A.6. **ترتیب: یکی‌یکی** (کیفیت بهتر، اشتباه کمتر).
+  **۱. کارت‌های Auswendiglernen مقدس‌اند (قانون ثابت Lukas):** هیچ کارتی از صفحه‌ی Auswendiglernen **حذف نمی‌شود**؛ مثال، جزئیات، توضیح و ترجمه‌ی هیچ‌کدام **پاک یا کوتاه نمی‌شود**.
+     فقط **گسترش** مجاز است = ترجمه/مثال/توضیح بیشتر، شکل‌های بصری (Grammatikon)، دکمه‌ی تلفظ، ذخیره در لایتنر و … .
+     ⇒ فایل‌های `assets/data/*_data.json` و صفحه‌های deck **منبع دست‌نخورده** می‌مانند؛ نگهبان: تستی که هر رشته‌ی متنی فعلی deckها (مثال/ترجمه/توضیح) را نگه می‌دارد و اگر یکی کم شد CI را قرمز می‌کند (baseline از commit قبل از شروع).
+  **۲. یک کارت، دو جا (Auswendiglernen + Wörter):** مجاز است **فقط** اگر از محتوای کارت Auswendiglernen چیزی کم نشود. مثال `sich bedanken für`:
+     · کارت Wörter = **یک کارت** `verb_bedanken` (id فقط از `vokabId`)؛ پرامپت کلمه خودش جا دارد: `details.reflexiv` + `details.rektion` (فهرست — هم `sich bedanken bei + Dat` هم `für + Akk`).
+     · وقتی کارت `bedanken` ساخته می‌شود، مثال‌ها/ترجمه‌های کارت Auswendiglernen **عیناً** به‌عنوان ورودی به پرامپت داده می‌شوند و در کارت می‌آیند (کارت کلمه از deck استفاده می‌کند، نه برعکس).
+     · در deck: همان کارت «sich bedanken für» با همه‌ی محتوای قبلی + دکمه‌های تازه (تلفظ، لایتنر، «صفحه‌ی کامل کلمه» ⇒ `/vokabular/wort/verb_bedanken`).
+     · هر عضو خوشه/deck که کلمه‌ی تکی است (Präp-Cluster، Verben mit Präp، Dativ/Akk، Reflexiv، Trennbar، Unregelmäßig، Modal، Konnektoren) همین راه را می‌رود.
+  **۳. عبارت‌ها (NVV، Redemittel) — تصمیم Claude به خواست Lukas: «کارت عبارت» (Ausdruck-Karte) هم‌خانواده‌ی کارت کلمه.**
+     · **یک پرامپت دوم، کپی ساختاری پرامپت کلمه:** `old files Lukasalmani/Ausdruck prompt` (ساخته نشده). همان TEIL 0 (فقط JSON، `{fa,en}`، null نه ""، `schema: "3.0"`، ۲ مثال A2 + B1/B2، مترادف/«Gegenteil»، `register`، `anmerkung` فقط آلمانی، هیچ اطلاعات ظاهری) ⇒ اپ یکپارچه می‌ماند.
+     · تفاوت فقط در `wortart: "ausdruck"` و بلوک `details`: `typ` (nvv | redemittel)، `bestandteile` (کلمه‌های سازنده ⇒ لینک به کارت کلمه‌ی هر کدام، مثل wortnetz)، برای NVV: `funktionsverb`، `nomen`، `kasus/praeposition`، `verbalform` (eine Entscheidung treffen ↔ entscheiden)؛ برای Redemittel: `situation/funktion` (Meinung äußern، Vortrag einleiten…)، `pruefung` (Goethe B2 / ÖSD B2 / ÖSD C1 / 1010)، `register`.
+     · **نمایش: همان صفحه‌ی کلمه** `wort_seite_screen.dart` + `wortseite_bausteine.dart`؛ فقط یک بلوک `details` تازه در `details_renderer.dart`. Grammatikon برای عبارت **شکل ندارد** تا Lukas شکل تعریف کند (قاعده‌ی ۳: بی‌نماد بهتر از نماد غلط).
+     · **محتوای قدیمی حفظ:** توضیح، مثال، ترجمه و برچسب‌های فعلی Redemittel/NVV **عیناً** در کارت عبارت می‌آیند (ورودی پرامپت) و در deck هم همان‌طور می‌مانند؛ فقط اضافه می‌شود.
+     · ⚠️ نیاز به تغییر `vokab_schema.dart` (`vokabWortarten` + `vokabId` برای `ausdruck_…`) = تغییر در «تنها منبع validation و id» ⇒ در قدم اجرا **اول پیش‌نویس پرامپت عبارت و تغییر schema به Lukas نشان داده شود**، بعد کد.
+  **۴. ترتیب پیشنهادی deckها (یکی‌یکی، هر کدام: فهرست‌برداری ⇒ کارت‌ها ⇒ اتصال ⇒ نگهبان ⇒ تأیید Lukas ⇒ بعدی):**
+     ① Nomen·Verb·Adjektiv + Präposition (منشأ R-2.2) ② Verben mit Präpositionen ③ Reflexivverben ④ Dativ/Akkusativ-Verben ⑤ Trennbare Verben ⑥ Unregelmäßige Verben ⑦ Modalverben ⑧ Satzkonnektoren
+     ⑨ NVV (اولین کارت عبارت) ⑩ Redemittel: Goethe B2 ⇒ ÖSD B2 ⇒ ÖSD C1 ⇒ 1010 (بزرگ‌ترین، آخر). Redewendungen = کارت‌های شخصی کاربر ⇒ بیرون از این کار.
   - معنا (FA + EN)، مثال‌ها، صدا (TTS)
   - دکمه Leitner، دسته‌بندی، favorit
 
