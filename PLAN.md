@@ -700,6 +700,12 @@
      · **تأیید Lukas (2026-09-22 دور ۷) — در لیست عبارت کامل می‌ماند:** لیست deck (NVV/Redemittel) هیچ تغییری نمی‌کند —
        هر ردیف همان عبارتِ کامل است («eine Entscheidung treffen» یک ردیف، نه سه ردیف جدا برای هر کلمه)، دقیقاً مثل الان.
        کلمه‌ها فقط **داخل صفحه‌ی جزئیات** (بعد از کلیک روی ردیف) تک‌تک و قابل‌کلیک می‌شوند (مثل L.5f) — نه در خود لیست.
+     · **تأیید Lukas (2026-09-22 دور ۸) — عبارت و کلمه دو کارت جدا، دو صفحه‌ی جدا:** «eine Entscheidung treffen» = کارت عبارت (`ausdruck_…`) با صفحه‌ی خودش
+       (معنی عبارت، معادل تک‌کلمه‌ای `entscheiden`، مثال‌های خودش)؛ «die Entscheidung» = کارت کلمه (`nomen_entscheidung`) با صفحه‌ی خودش (معنی، جمع، مثال…).
+       هرگز در هم ادغام نمی‌شوند؛ **فقط به هم لینک‌اند**: در صفحه‌ی عبارت، کلیک روی «Entscheidung» (از `bestandteile`) ⇒ صفحه‌ی کارت کلمه.
+     · **یک کارت، چند جا (اصل «یک محتوا، چند ورودی»):** هر کارت یک‌بار ساخته می‌شود و هرجا مربوط است دیده می‌شود — Auswendiglernen (همان جای قبلی)، Wörter (صفحه‌ی کامل)،
+       Prüfungen (تمرین‌های فعلی Redemittel دست‌نخورده می‌مانند). هیچ‌وقت نسخه‌ی دوم برای نمایش دوم.
+     · **دکمه‌ها:** تلفظ + لایتنر به کارت‌های عبارت هم اضافه می‌شوند؛ **شکل هندسی (Grammatikon) نه** تا Lukas برای عبارت شکل تعریف کند.
      · **یک پرامپت دوم، کپی ساختاری پرامپت کلمه:** `old files Lukasalmani/Ausdruck prompt` (ساخته نشده). همان TEIL 0 (فقط JSON، `{fa,en}`، null نه ""، `schema: "3.0"`، ۲ مثال A2 + B1/B2، مترادف/«Gegenteil»، `register`، `anmerkung` فقط آلمانی، هیچ اطلاعات ظاهری) ⇒ اپ یکپارچه می‌ماند.
      · تفاوت فقط در `wortart: "ausdruck"` و بلوک `details`: `typ` (nvv | redemittel)، `bestandteile` (کلمه‌های سازنده ⇒ لینک به کارت کلمه‌ی هر کدام، مثل wortnetz)، برای NVV: `funktionsverb`، `nomen`، `kasus/praeposition`، `verbalform` (eine Entscheidung treffen ↔ entscheiden)؛ برای Redemittel: `situation/funktion` (Meinung äußern، Vortrag einleiten…)، `pruefung` (Goethe B2 / ÖSD B2 / ÖSD C1 / 1010)، `register`.
      · **نمایش: همان صفحه‌ی کلمه** `wort_seite_screen.dart` + `wortseite_bausteine.dart`؛ فقط یک بلوک `details` تازه در `details_renderer.dart`. Grammatikon برای عبارت **شکل ندارد** تا Lukas شکل تعریف کند (قاعده‌ی ۳: بی‌نماد بهتر از نماد غلط).
