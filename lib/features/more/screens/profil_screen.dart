@@ -33,6 +33,7 @@ class ProfilScreen extends ConsumerWidget {
     final account = kontoAktiv ? ref.watch(authAccountProvider).valueOrNull : null;
     final profil = ref.watch(profilProvider).valueOrNull;
     final passwortNeu = ref.watch(passwortNeuProvider);
+    final linkUngueltig = ref.watch(passwortLinkUngueltigProvider);
 
     return Scaffold(
       appBar: AppBar(title: Text(AppL10n.t(context, 'profile_title'))),
@@ -45,6 +46,17 @@ class ProfilScreen extends ConsumerWidget {
           // Nach dem Link aus der Mail: ganz oben, damit es nicht übersehen wird.
           if (kontoAktiv && account != null && passwortNeu) ...[
             const PasswortAendernKarte(nachWiederherstellung: true),
+            const SizedBox(height: AppSizes.md),
+          ],
+
+          // Link aus der Mail ließ sich nicht einlösen (2026-09-22).
+          if (kontoAktiv && account == null && linkUngueltig) ...[
+            Card(
+              child: Padding(
+                padding: const EdgeInsets.all(AppSizes.md),
+                child: Text(AppL10n.t(context, 'account_reset_link_invalid')),
+              ),
+            ),
             const SizedBox(height: AppSizes.md),
           ],
 

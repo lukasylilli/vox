@@ -136,6 +136,7 @@ class AppL10n {
       'account_sign_out_all': 'خروج از همه‌ی دستگاه‌ها',
       'account_signed_out_all': 'از همه‌ی دستگاه‌ها خارج شدی.',
       // L.1d — حذف حساب (2026-09-22)
+      'account_reset_link_invalid': 'لینک بازنشانی رمز دیگر معتبر نیست (منقضی یا قبلاً استفاده شده). دوباره «رمز را فراموش کردی؟» را بزن تا لینک تازه بیاید.',
       'account_delete': 'حذف حساب',
       'account_delete_hint': 'حذف حساب، حساب را در VOX و Root-in با هم پاک می‌کند. داده‌های روی همین دستگاه می‌مانند.',
       'account_delete_title': 'حساب برای همیشه حذف شود؟',
@@ -859,6 +860,7 @@ class AppL10n {
       'account_sign_out_all': 'Sign out on all devices',
       'account_signed_out_all': 'You are signed out everywhere.',
       // L.1d — delete account (2026-09-22)
+      'account_reset_link_invalid': 'The password reset link is no longer valid (expired or already used). Tap “Forgot password?” again to get a new link.',
       'account_delete': 'Delete account',
       'account_delete_hint': 'Deleting the account removes it in VOX and Root-in together. The data on this device stays.',
       'account_delete_title': 'Delete account for good?',

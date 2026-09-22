@@ -352,6 +352,31 @@ class AuthService {
     }
   }
 
+  /// Löst den `token_hash` aus dem Wiederherstellungs-Link ein (P.2, 2026-09-22).
+  /// Erfolg ⇒ Sitzung + Ereignis `passwordRecovery` (gotrue `verifyOTP`).
+  ///
+  /// Warum nicht nur der PKCE-`?code=`-Weg: Der braucht den Code-Verifier aus
+  /// **demselben** Browser-Speicher, in dem „Passwort vergessen" gedrückt
+  /// wurde. Öffnet das Mailprogramm den Link in einem anderen Browser (oder
+  /// im eingebauten Browser / neben der Home-Bildschirm-App), fehlt er — die
+  /// App startet dann einfach normal (Bericht Lukas 2026-09-22). `token_hash`
+  /// braucht nichts vom Gerät. Voraussetzung: Supabase-Mailvorlage
+  /// «Reset Password» verlinkt `{{ .RedirectTo }}?token_hash={{ .TokenHash }}&type=recovery`.
+  Future<bool> verifyRecoveryToken(String tokenHash) async {
+    final client = _client;
+    if (client == null) return false;
+    try {
+      final antwort = await client.auth.verifyOTP(
+        type: OtpType.recovery,
+        tokenHash: tokenHash,
+      );
+      return antwort.session != null;
+    } catch (_) {
+      // Abgelaufen, schon benutzt oder kein Netz — nichts gesetzt.
+      return false;
+    }
+  }
+
   /// Meldet, wenn der Nutzer über den Link aus der Passwort-zurücksetzen-Mail
   /// zurückkommt (P.2). Leerer Stream ohne Server.
   Stream<bool> watchPasswordRecovery() {
@@ -404,6 +429,15 @@ class AuthService {
       // nichts.
     }
   }
+}
+
+/// Der `token_hash` eines Wiederherstellungs-Links (`?token_hash=…&type=recovery`)
+/// — sonst `null`. Rein, damit testbar; `Uri.base` reicht der Aufrufer herein.
+String? wiederherstellungsToken(Uri adresse) {
+  final q = adresse.queryParameters;
+  final hash = q['token_hash'];
+  if (q['type'] != 'recovery' || hash == null || hash.isEmpty) return null;
+  return hash;
 }
 
 final authServiceProvider = Provider<AuthService>((ref) => const AuthService());

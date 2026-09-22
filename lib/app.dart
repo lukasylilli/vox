@@ -40,6 +40,10 @@ class VoxApp extends ConsumerWidget {
     ref.listen<bool>(passwortNeuProvider, (vorher, jetzt) {
       if (jetzt) appRouter.go(AppRoutes.profil);
     });
+    // Link abgelaufen/benutzt: Profil-Seite sagt es (statt stumm Startseite).
+    ref.listen<bool>(passwortLinkUngueltigProvider, (vorher, jetzt) {
+      if (jetzt) appRouter.go(AppRoutes.profil);
+    });
     final themeMode     = ref.watch(themeModeProvider);
     final settingsAsync = ref.watch(settingsProvider);
 

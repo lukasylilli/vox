@@ -66,6 +66,36 @@ void main() {
     });
   });
 
+  group('wiederherstellungsToken', () {
+    test('liest token_hash nur bei type=recovery', () {
+      expect(
+        wiederherstellungsToken(Uri.parse(
+            'https://lukasylilli.github.io/vox/?token_hash=abc&type=recovery#/')),
+        'abc',
+      );
+      expect(
+        wiederherstellungsToken(Uri.parse(
+            'https://lukasylilli.github.io/vox/?token_hash=abc&type=signup')),
+        isNull,
+      );
+      expect(
+        wiederherstellungsToken(
+            Uri.parse('https://lukasylilli.github.io/vox/?code=xyz')),
+        isNull,
+      );
+      expect(
+        wiederherstellungsToken(Uri.parse(
+            'https://lukasylilli.github.io/vox/?token_hash=&type=recovery')),
+        isNull,
+      );
+    });
+
+    test('ohne Server: verifyRecoveryToken ist false statt zu werfen',
+        () async {
+      expect(await const AuthService().verifyRecoveryToken('abc'), isFalse);
+    });
+  });
+
   group('Ohne Konfiguration', () {
     test('ist im Testlauf genau der Normalfall', () {
       // Kein --dart-define im Testlauf ⇒ keine Schlüssel ⇒ kein Server.
