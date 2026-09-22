@@ -1,6 +1,6 @@
 # PROJECT MAP — VOX
 # نقشه کامل پروژه برای ناوبری سریع در هر session
-# آپدیت: 2026-09-22 دور ۲ (✅ R-2.1: `praepositionen/models/praep_cluster.dart` `vollform` + `praepositionen_home_screen.dart` + `test/praep_vollform_test.dart`) — قبلی: 2026-09-22 (✅ L.1d حذف حساب: `supabase/vox_tables.sql` §5 `delete_own_account()` هم‌متن Root-in · `AuthService.deleteAccount()` + `AccountDeletion` · `CloudAblage.loeschen()` · دکمه در `ProfilKontoKarte` · `test/konto_loeschen_test.dart`) — قبلی: 2026-09-20 دور ۴ (✅ L.5f: کلیک روی کلمه — `core/wort/{wort_form,klick_wort,klick_wort_provider}.dart` + `core/widgets/{wort_popup,klick_wort_text}.dart`؛ وصل به Lesen/Grammatik-Lektion/Redemittel-Detail/Konnektor/Unregelm/Wort-Seite/Karaoke؛ `clickable_word_text`/`word_popup_card`/`wordLookupProvider` حذف؛ `test/klick_wort_test.dart`) · قبلی: 2026-09-20 دور ۳ (فقط یادداشت: Root-in «Phase 32 — Wochenplan» روی main؛ کد و ساختار VOX تغییر نکرد) · قبلی: 2026-09-20 دور ۲ (⏳ L.5f در حال انجام — کامپوننت مشترک «کلیک روی کلمه»: `core/widgets/wort_popup.dart`، `klick_wort_text.dart`، `core/wort/klick_wort.dart`؛ نتیجه در ورودی بعدی) · قبلی: 2026-09-20 (فاز P: صفحه‌ی `/more/profil` — حساب/امنیت/اطلاعات شخصی/آرشیو/پشتیبان؛ قرارداد پشتیبان v4 `profil`؛ `_KontoKarte`/`_SicherungKarte` از settings به widgets منتقل) · قبلی: 2026-09-19 (دور چهارم — فلگ `hidden` واقعاً اعمال می‌شود [feature_flags · home_screen · auswendiglernen_home_screen · test/feature_flags_test]؛ doc-drift فاز ۱۶/RevenueCat پاک شد) · دور سوم همان روز: فقط ثبت — دروازه‌های انتشار؛ جزئیات: PLAN.md → «آخرین جلسه» · قبلی: 2026-09-18 (ادامه ۶ — L.1e: نگهبان شناسه‌ی کلمه‌های همراه اپ؛ RTL بسته؛ اصل «یک محتوا، چند ورودی» + A-1 ثبت؛ آفلاین باز)
+# آپدیت: 2026-09-22 دور ۳ (فقط سند: برنامه‌ی R-2.2 [deckهای Auswendiglernen ⇒ کارت‌های پرامپت کلمه + صفحه‌ی کلمه] + یافته‌ها: content_registry بی‌استفاده، favorit نیست) — قبلی: 2026-09-22 دور ۲ (✅ R-2.1: `praepositionen/models/praep_cluster.dart` `vollform` + `praepositionen_home_screen.dart` + `test/praep_vollform_test.dart`) — قبلی: 2026-09-22 (✅ L.1d حذف حساب: `supabase/vox_tables.sql` §5 `delete_own_account()` هم‌متن Root-in · `AuthService.deleteAccount()` + `AccountDeletion` · `CloudAblage.loeschen()` · دکمه در `ProfilKontoKarte` · `test/konto_loeschen_test.dart`) — قبلی: 2026-09-20 دور ۴ (✅ L.5f: کلیک روی کلمه — `core/wort/{wort_form,klick_wort,klick_wort_provider}.dart` + `core/widgets/{wort_popup,klick_wort_text}.dart`؛ وصل به Lesen/Grammatik-Lektion/Redemittel-Detail/Konnektor/Unregelm/Wort-Seite/Karaoke؛ `clickable_word_text`/`word_popup_card`/`wordLookupProvider` حذف؛ `test/klick_wort_test.dart`) · قبلی: 2026-09-20 دور ۳ (فقط یادداشت: Root-in «Phase 32 — Wochenplan» روی main؛ کد و ساختار VOX تغییر نکرد) · قبلی: 2026-09-20 دور ۲ (⏳ L.5f در حال انجام — کامپوننت مشترک «کلیک روی کلمه»: `core/widgets/wort_popup.dart`، `klick_wort_text.dart`، `core/wort/klick_wort.dart`؛ نتیجه در ورودی بعدی) · قبلی: 2026-09-20 (فاز P: صفحه‌ی `/more/profil` — حساب/امنیت/اطلاعات شخصی/آرشیو/پشتیبان؛ قرارداد پشتیبان v4 `profil`؛ `_KontoKarte`/`_SicherungKarte` از settings به widgets منتقل) · قبلی: 2026-09-19 (دور چهارم — فلگ `hidden` واقعاً اعمال می‌شود [feature_flags · home_screen · auswendiglernen_home_screen · test/feature_flags_test]؛ doc-drift فاز ۱۶/RevenueCat پاک شد) · دور سوم همان روز: فقط ثبت — دروازه‌های انتشار؛ جزئیات: PLAN.md → «آخرین جلسه» · قبلی: 2026-09-18 (ادامه ۶ — L.1e: نگهبان شناسه‌ی کلمه‌های همراه اپ؛ RTL بسته؛ اصل «یک محتوا، چند ورودی» + A-1 ثبت؛ آفلاین باز)
 #
 # ⚠️ 2026-09-19 (اصلاح یادداشت آفلاین): «precache شدنی است» فقط برای ~۷٫۵MB فعلی (۸۷ کارت) درست است. کارت ~۴KB ⇒ ~۲۶٬۲۰۰ کارت ≈ ~۱۰۰MB
 #   (ارقام خود PLAN) ⇒ پیش‌بارگذاری همه‌ی کارت‌ها همچنان گزینه نیست؛ فقط دارایی‌های ثابت + فهرست + کارتِ بازشده. تحلیل است نه تصمیم. جزئیات: PLAN → L.3.
@@ -537,7 +537,7 @@ screens/
   book_words_screen.dart       [x]  — wordsByBookProvider(bookId) + ListView
   level_words_screen.dart      [x]  — wordsByLevelProvider + _LevelPickerBar (legacy، هنوز در router)
   type_words_screen.dart       [x]  — wordsByTypeProvider + _TypePickerBar (legacy، هنوز در router)
-  word_detail_screen.dart      [x]  — همه فیلدها conditional + BottomBar:
+  word_detail_screen.dart      [x]  — همه فیلدها conditional + BottomBar: (2026-09-22: دکمه‌ی «favorit» جدا وجود ندارد — دسته‌بندی/فهرست جایش است)
                                       LeitnerAddButton / دسته‌بندی / آزمون(placeholder)
   add_word_screen.dart         [x]  — TextField → ParserRegistry.parse → _ParsePreview → save
 controllers/
@@ -707,6 +707,7 @@ widgets/
 ```
 screens/
   auswendiglernen_home_screen.dart [x]  — flat ListView (_learningDecks + _PruefungenDivider + _pruefungenDecks)؛ deckهای `hidden` فیلتر می‌شوند (2026-09-19)
+                                      ⏭️ R-2.2 (فقط برنامه، 2026-09-22): کلمه‌های همه‌ی این deckها ⇒ کارت پرامپت کلمه + صفحه‌ی کلمه (PLAN → «R-2.2 — برنامه»)
                                           بدون section headers، جداکننده "PRÜFUNGEN" قبل از Redemittel
                                           coming-soon decks: lock icon، snackbar on tap
   category_items_screen.dart       [x]  — ExpansionTile list، action bar مرور/cloze
@@ -910,6 +911,7 @@ models/
 ```
 screens/
   praepositionen_home_screen.dart      [x]  — لیست clusters (Nomen · Verb · Adjektiv + Präp) · **R-2.1 (2026-09-22):** عنوان = `PraepCluster.vollform` (کلمه + حرف اضافه، `DeutschText`)، معنی زیرش؛ جست‌وجو روی lemma هم
+  praep_cluster_detail_screen.dart     ⚠️  2026-09-22: صدا/لایتنر/دسته‌بندی ندارد ⇒ **R-2.2 (فقط برنامه)**: هر lemma به کارت Vokabular (`/vokabular/wort/:id`) وصل شود — نه صفحه‌ی دوم
                                              SearchBar + FilterAccordion (Niveau، Wortart، Kasus) + FilterChipBar + ListView
                                              AppBar: grammar + quiz icon buttons (no FAB)
   praep_cluster_detail_screen.dart     [x]  — جزئیات یک cluster
@@ -1600,7 +1602,7 @@ noch nicht und wird erst nach dieser Entscheidung gebaut.
   - routes: `/redemittel-goethe-b2` و `/redemittel-oesd-b2` (+ `/quiz` + `/:phraseId`)
   - quiz و detail از صفحات 1010 بازاستفاده می‌شوند
   - ÖSD B2 بخش‌ها: بحث (۶) · Beschwerdebrief (۴) · Meinungstext (۴) · Mündlich 1–3 (۶)
-- `core/content/content_registry.dart` — ثبت ۸ منبع محتوا با isReady flag ✅
+- `core/content/content_registry.dart` — ثبت ۸ منبع محتوا با isReady flag ✅ — ⚠️ 2026-09-22: **هیچ فایلی import‌اش نمی‌کند**؛ فهرست deckها جدا در `auswendiglernen_home_screen.dart` است (دو فهرست). وصل یا حذف: تصمیم باز (PLAN → یافته‌ها 2026-09-22)
 - `features/redemittel/models/redemittel_item.dart` — model کامل ✅
 - `features/redemittel/controllers/redemittel_controller.dart` — ۴ FutureProvider ✅
 - محتوای کامل (100+ عبارت per exam) → content authoring جداگانه
