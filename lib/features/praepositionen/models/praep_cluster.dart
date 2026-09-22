@@ -92,4 +92,27 @@ class PraepCluster {
   // All unique prepositions in this cluster
   List<String> get prepositions =>
       members.map((m) => m.preposition).toSet().toList();
+
+  /// R-2.1 (2026-09-22): die Form für die Liste — Lemma **mit** Präposition,
+  /// z. B. «abhängen · abhängig · die Abhängigkeit von».
+  ///
+  /// · Alle Glieder mit derselben Präposition ⇒ Präposition **einmal** am Ende.
+  /// · Sonst trägt jedes Glied seine eigene: «arbeiten an · arbeiten bei ·
+  ///   die Arbeit an» — nie eine Präposition, die nicht zu ihrem Wort gehört.
+  /// · Ein Paar (Lemma, Präposition) erscheint nur einmal; Reihenfolge wie in
+  ///   den Daten. Nichts wird erraten oder umgestellt.
+  String get vollform {
+    final gesehen = <String>{};
+    final glieder = <PraepMember>[];
+    for (final m in members) {
+      if (gesehen.add('${m.lemma}\u0000${m.preposition}')) glieder.add(m);
+    }
+    if (glieder.isEmpty) return '';
+    final praepositionen = glieder.map((m) => m.preposition).toSet();
+    if (praepositionen.length == 1) {
+      return '${glieder.map((m) => m.lemma).join(' · ')} '
+          '${praepositionen.single}';
+    }
+    return glieder.map((m) => '${m.lemma} ${m.preposition}').join(' · ');
+  }
 }

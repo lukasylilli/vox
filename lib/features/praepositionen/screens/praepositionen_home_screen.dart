@@ -7,6 +7,7 @@ import '../../../core/constants/app_routes.dart';
 import '../../../core/l10n/app_l10n.dart';
 import '../../../core/widgets/filter_accordion.dart';
 import '../../../core/widgets/filter_chip_bar.dart';
+import '../../../core/widgets/deutsch_text.dart';
 import '../../../core/widgets/vox_badge.dart';
 import '../../../core/widgets/vox_search_field.dart';
 import '../controllers/praepositionen_controller.dart';
@@ -183,6 +184,10 @@ class _PraepositonenHomeScreenState
                     : clusters.where((c) =>
                         c.meaningFa.contains(_query) ||
                         c.meaningEn.toLowerCase().contains(_query) ||
+                        // R-2.1: auch nach dem deutschen Wort suchbar,
+                        // das jetzt in der Liste steht.
+                        c.members.any((m) =>
+                            m.lemma.toLowerCase().contains(_query)) ||
                         c.prepositions.any((p) =>
                             p.toLowerCase().contains(_query))).toList();
 
@@ -231,33 +236,21 @@ class _ClusterTile extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
-                      AppL10n.meaning(context,
-                          fa: cluster.meaningFa, en: cluster.meaningEn),
+                    // R-2.1: das Wort MIT Präposition zuerst — so, wie man
+                    // es lernen soll («abhängen · abhängig · … von»).
+                    DeutschText(
+                      cluster.vollform,
                       style: tt.titleMedium
                           ?.copyWith(fontWeight: FontWeight.w700),
                     ),
-                    const SizedBox(height: 4),
-                    Wrap(
-                      spacing: 4,
-                      children: cluster.prepositions.map((prep) => Container(
-                        padding: const EdgeInsets.symmetric(
-                            horizontal: 6, vertical: 1),
-                        decoration: BoxDecoration(
-                          color: cs.primary.withValues(alpha: 0.1),
-                          borderRadius: BorderRadius.circular(4),
-                          border: Border.all(
-                              color: cs.primary.withValues(alpha: 0.3)),
-                        ),
-                        child: Text(
-                          prep,
-                          style: TextStyle(
-                            fontSize  : 11,
-                            color     : cs.primary,
-                            fontWeight: FontWeight.w600,
-                          ),
-                        ),
-                      )).toList(),
+                    const SizedBox(height: 3),
+                    Text(
+                      AppL10n.meaning(context,
+                          fa: cluster.meaningFa, en: cluster.meaningEn),
+                      style: tt.bodySmall
+                          ?.copyWith(color: cs.onSurfaceVariant),
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
                     ),
                   ],
                 ),
