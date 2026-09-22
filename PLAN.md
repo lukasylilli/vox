@@ -697,6 +697,9 @@
      · در deck: همان کارت «sich bedanken für» با همه‌ی محتوای قبلی + دکمه‌های تازه (تلفظ، لایتنر، «صفحه‌ی کامل کلمه» ⇒ `/vokabular/wort/verb_bedanken`).
      · هر عضو خوشه/deck که کلمه‌ی تکی است (Präp-Cluster، Verben mit Präp، Dativ/Akk، Reflexiv، Trennbar، Unregelmäßig، Modal، Konnektoren) همین راه را می‌رود.
   **۳. عبارت‌ها (NVV، Redemittel) — تصمیم Claude به خواست Lukas: «کارت عبارت» (Ausdruck-Karte) هم‌خانواده‌ی کارت کلمه.**
+     · **تأیید Lukas (2026-09-22 دور ۷) — در لیست عبارت کامل می‌ماند:** لیست deck (NVV/Redemittel) هیچ تغییری نمی‌کند —
+       هر ردیف همان عبارتِ کامل است («eine Entscheidung treffen» یک ردیف، نه سه ردیف جدا برای هر کلمه)، دقیقاً مثل الان.
+       کلمه‌ها فقط **داخل صفحه‌ی جزئیات** (بعد از کلیک روی ردیف) تک‌تک و قابل‌کلیک می‌شوند (مثل L.5f) — نه در خود لیست.
      · **یک پرامپت دوم، کپی ساختاری پرامپت کلمه:** `old files Lukasalmani/Ausdruck prompt` (ساخته نشده). همان TEIL 0 (فقط JSON، `{fa,en}`، null نه ""، `schema: "3.0"`، ۲ مثال A2 + B1/B2، مترادف/«Gegenteil»، `register`، `anmerkung` فقط آلمانی، هیچ اطلاعات ظاهری) ⇒ اپ یکپارچه می‌ماند.
      · تفاوت فقط در `wortart: "ausdruck"` و بلوک `details`: `typ` (nvv | redemittel)، `bestandteile` (کلمه‌های سازنده ⇒ لینک به کارت کلمه‌ی هر کدام، مثل wortnetz)، برای NVV: `funktionsverb`، `nomen`، `kasus/praeposition`، `verbalform` (eine Entscheidung treffen ↔ entscheiden)؛ برای Redemittel: `situation/funktion` (Meinung äußern، Vortrag einleiten…)، `pruefung` (Goethe B2 / ÖSD B2 / ÖSD C1 / 1010)، `register`.
      · **نمایش: همان صفحه‌ی کلمه** `wort_seite_screen.dart` + `wortseite_bausteine.dart`؛ فقط یک بلوک `details` تازه در `details_renderer.dart`. Grammatikon برای عبارت **شکل ندارد** تا Lukas شکل تعریف کند (قاعده‌ی ۳: بی‌نماد بهتر از نماد غلط).
