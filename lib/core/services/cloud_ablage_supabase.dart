@@ -74,6 +74,15 @@ class SupabaseCloudAblage implements CloudAblage {
     });
   }
 
+  /// Nur die EIGENE Zeile — die Regel `vox_backups_delete_own` in
+  /// `supabase/vox_tables.sql` ließe ohnehin keine fremde zu (L.1d).
+  @override
+  Future<void> loeschen() async {
+    final client = _client!;
+    final konto = _auth.currentAccount!;
+    await client.from(_tabelle).delete().eq('user_id', konto.id);
+  }
+
   /// Nur der Zeitstempel — ohne die Sicherung herunterzuladen (wie Root-in).
   @override
   Future<DateTime?> zuletzt() async {

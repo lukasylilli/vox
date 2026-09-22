@@ -14,10 +14,13 @@
 --                                          delete_own_account(),
 --                                          touch_updated_at()
 --   VOX      → diese Datei               : vox_backups
+--   BEIDE    → zeichengleich in beiden   : touch_updated_at(),
+--                                          delete_own_account() (L.1d)
 --
 -- Beide Dateien müssen im selben Projekt ausgeführt werden. Die Reihenfolge
--- ist egal — Abschnitt 4 legt `touch_updated_at()` mit `create or replace`
--- an, mit demselben Rumpf wie Root-in. Wer nur VOX betreibt, braucht
+-- ist egal — Abschnitt 4 und 5 legen `touch_updated_at()` und
+-- `delete_own_account()` mit `create or replace` an, mit demselben Rumpf wie
+-- Root-in. Wer nur VOX betreibt, braucht
 -- schema.sql nicht; wer beide betreibt, spielt beide ein.
 --
 -- ⚠️ DAS PROJEKT IST OPEN SOURCE — jeder liest diese Datei.
@@ -136,7 +139,55 @@ create trigger vox_backups_touch_updated_at
   for each row execute function public.touch_updated_at();
 
 -- ---------------------------------------------------------------------------
--- 5. Gegenprobe — nach dem Anwenden ausführen
+-- 5. Konto vollständig löschen (PLAN.md → L.1d, 2026-09-22)
+-- ---------------------------------------------------------------------------
+-- Löscht das EIGENE Konto: den Eintrag in `auth.users` — und über
+-- `on delete cascade` die Zeilen BEIDER Apps: `vox_backups` (oben) und
+-- Root-ins `profiles`/`backups`. Aufgerufen von `AuthService.deleteAccount()`.
+-- Lukas hat entschieden: ein Konto, ein Löschen, für beide Apps (L.1d).
+--
+-- ⚠️ Rumpf, `revoke` und `grant` ZEICHENGLEICH zu `supabase/schema.sql`
+-- (Root-in, Abschnitt 6). Wie bei `touch_updated_at()`: Wer beide Dateien
+-- einspielt, bekommt kein zweites Verhalten; wer nur VOX betreibt, hat die
+-- Funktion trotzdem. Änderung immer in BEIDEN Dateien.
+--
+-- WARUM EINE FUNKTION UND KEINE EDGE FUNCTION
+-- Der anon-Schlüssel darf `auth.users` nicht anfassen, also braucht es einen
+-- Aufruf mit erhöhten Rechten. Eine Edge Function bräuchte eine eigene
+-- Bereitstellung (Supabase-CLI plus Zugangs-Token als Secret) — ein zweiter
+-- Weg auf den Server neben dem SQL-Editor.
+--
+-- ⚠️ `security definer` IST HIER DER GANZE PUNKT — UND DIE GANZE GEFAHR.
+-- Die Funktion läuft mit den Rechten ihres Eigentümers, der `auth.users`
+-- löschen darf; der Aufrufer darf das nicht. Deshalb:
+--   - Sie löscht AUSSCHLIESSLICH `auth.uid()`. Es gibt KEINEN Parameter, über
+--     den jemand eine fremde Kennung hineinreichen könnte. Wer hier je einen
+--     hinzufügt, baut „jeder löscht jeden".
+--   - Ohne Anmeldung ist `auth.uid()` leer → sie bricht ab. Zusätzlich ist
+--     die Ausführung für `anon` und `PUBLIC` gar nicht erst freigegeben
+--     (Supabase gibt neuen Funktionen sonst von selbst `anon`-Rechte).
+--   - `set search_path = ''` und voll qualifizierte Namen: Eine security-
+--     definer-Funktion mit offenem Suchpfad lässt sich über ein gleichnamiges
+--     Objekt in einem anderen Schema umlenken.
+create or replace function public.delete_own_account()
+returns void
+language plpgsql
+security definer
+set search_path = ''
+as $$
+begin
+  if auth.uid() is null then
+    raise exception 'nicht angemeldet' using errcode = '42501';
+  end if;
+  delete from auth.users where id = auth.uid();
+end;
+$$;
+
+revoke all on function public.delete_own_account() from public, anon;
+grant execute on function public.delete_own_account() to authenticated;
+
+-- ---------------------------------------------------------------------------
+-- 6. Gegenprobe — nach dem Anwenden ausführen
 -- ---------------------------------------------------------------------------
 -- Muss `vox_backups` mit rowsecurity = true zeigen. Steht dort false, ist die
 -- Tabelle offen, und der Rest dieser Datei ist wirkungslos.
@@ -159,3 +210,10 @@ create trigger vox_backups_touch_updated_at
 -- die Zeile von Konto B abfragen (muss leer bleiben). Ein `select` im
 -- SQL-Editor läuft mit erhöhten Rechten und umgeht die Regeln — er beweist
 -- an dieser Stelle also gar nichts.
+--
+-- Und Abschnitt 5 — erwartet: `authenticated` ja, `anon`/`PUBLIC` NEIN:
+--
+--   select grantee, privilege_type
+--     from information_schema.routine_privileges
+--    where routine_schema = 'public'
+--      and routine_name   = 'delete_own_account';

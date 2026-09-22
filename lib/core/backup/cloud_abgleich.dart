@@ -45,6 +45,11 @@ abstract class CloudAblage {
 
   /// Zeitpunkt der letzten Ablage laut Server.
   Future<DateTime?> zuletzt();
+
+  /// Entfernt die eigene Sicherung vom Server (L.1d) — nur die Zeile in
+  /// `vox_backups`, nicht das Konto. Gebraucht, wenn `delete_own_account()`
+  /// auf dem Server fehlt; dann ist das alles, was der anon-Schlüssel darf.
+  Future<void> loeschen();
 }
 
 enum CloudStatus {

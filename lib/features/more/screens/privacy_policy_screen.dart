@@ -19,7 +19,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
         children: [
           _Section(
             AppL10n.meaning(context, fa: 'آخرین بروزرسانی', en: 'Last updated'),
-            AppL10n.meaning(context, fa: '۲۹ شهریور ۱۴۰۵', en: '20 September 2026'),
+            AppL10n.meaning(context, fa: '۳۱ شهریور ۱۴۰۵', en: '22 September 2026'),
           ),
           _Section(
             AppL10n.meaning(context, fa: 'جمع‌آوری داده‌ها', en: 'Data collection'),
@@ -42,6 +42,21 @@ class PrivacyPolicyScreen extends StatelessWidget {
                   'backup copy of your progress (vocabulary, Leitner state, habits) '
                   'are stored on our Supabase server so it can sync across devices. '
                   'Without creating an account, nothing is sent to any server.'),
+          ),
+          _Section(
+            AppL10n.meaning(context, fa: 'حذف حساب', en: 'Deleting your account'),
+            AppL10n.meaning(context,
+              fa: 'در صفحه‌ی «پروفایل و حساب» با دکمه‌ی «حذف حساب» می‌توانی حسابت را '
+                  'هر وقت خواستی خودت برای همیشه حذف کنی: ایمیل، رمز و نسخه‌ی پشتیبان '
+                  'روی سرور پاک می‌شوند. حساب VOX با اپ Root-in مشترک است؛ بنابراین '
+                  'پشتیبان و نمایه‌ی Root-in همان حساب هم با آن پاک می‌شود. داده‌های '
+                  'روی دستگاه خودت دست‌نخورده می‌مانند.',
+              en: 'On the “Profile & account” page, the “Delete account” button lets '
+                  'you delete your account yourself, for good, at any time: your '
+                  'email, password and the backup on the server are removed. The '
+                  'VOX account is shared with the Root-in app, so the Root-in backup '
+                  'and profile of the same account are removed with it. The data on '
+                  'your own device stays untouched.'),
           ),
           _Section(
             AppL10n.meaning(context,

@@ -11,9 +11,10 @@
 // ⚠️ **Zwei Apps, EIN Anmeldebestand.** E-Mail und Passwort gehören zu
 //    `auth.users`, das mit Root-in geteilt ist: Eine Änderung hier gilt dort
 //    mit. Beide Karten sagen das ausdrücklich (`account_shared_hint`).
-// ⚠️ **Kein „Konto löschen" hier.** Es löschte `auth.users` und damit auch den
-//    Root-in-Bestand — offene Entscheidung L.1d (PLAN.md → S.3), die Lukas für
-//    beide Apps zusammen trifft.
+// ⚠️ **„Konto löschen" (L.1d, 2026-09-22)** löscht `auth.users` und damit das
+//    Konto in BEIDEN Apps (VOX- und Root-in-Sicherung per cascade). Lukas hat
+//    das für beide Apps entschieden; der Bestätigungsdialog sagt es wörtlich
+//    (`account_delete_body`). Der Bestand auf dem Gerät bleibt unberührt.
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -21,6 +22,8 @@ import '../../../core/backup/cloud_abgleich.dart';
 import '../../../core/constants/app_sizes.dart';
 import '../../../core/l10n/app_l10n.dart';
 import '../../../core/services/auth_service.dart';
+import '../../../core/services/cloud_ablage_supabase.dart';
+import '../../../core/widgets/vox_dialog.dart';
 import '../../../core/widgets/vox_button.dart';
 import '../controllers/konto_abgleich.dart';
 import '../controllers/profil_controller.dart';
@@ -161,6 +164,59 @@ class _ProfilKontoKarteState extends ConsumerState<ProfilKontoKarte> {
     }
   }
 
+  /// „Konto löschen" (L.1d): so vollständig, wie der Server es gerade
+  /// zulässt — und danach genau das sagen, was geschehen ist (wie Root-in).
+  Future<void> _kontoLoeschen() async {
+    if (_laeuft) return;
+    final bestaetigt = await VoxDialog.confirm(
+      context,
+      title: AppL10n.t(context, 'account_delete_title'),
+      message: AppL10n.t(context, 'account_delete_body'),
+      confirmLabel: 'account_delete_confirm',
+      cancelLabel: 'cancel',
+    );
+    if (!mounted) return;
+    if (!bestaetigt) return;
+
+    // ⚠️ Alles, was nach dem Löschen noch gebraucht wird, JETZT greifen: Mit
+    // dem Abmelden baut die Karte auf „abgemeldet" um; die Rückmeldung darf
+    // daran nicht hängen.
+    final messenger = ScaffoldMessenger.of(context);
+    final auth = ref.read(authServiceProvider);
+    final ablage = ref.read(cloudAblageProvider);
+    final geloescht = AppL10n.t(context, 'account_delete_done');
+    final teilweise = AppL10n.t(context, 'account_delete_partial');
+    final fehlgeschlagen = AppL10n.t(context, 'account_delete_failed');
+
+    setState(() => _laeuft = true);
+    var meldung = fehlgeschlagen;
+    try {
+      switch (await auth.deleteAccount()) {
+        case AccountDeletion.deleted:
+          meldung = geloescht;
+        case AccountDeletion.unavailable:
+          // Die Funktion fehlt auf dem Server. Dann das, was der öffentliche
+          // Schlüssel darf — die eigene VOX-Sicherung — und ehrlich sagen,
+          // was fehlt. ⚠️ ABMELDEN gehört dazu: Sonst lädt der automatische
+          // Abgleich beim nächsten Takt alles wieder hoch.
+          try {
+            await ablage.loeschen();
+            await auth.signOut();
+            meldung = teilweise;
+          } catch (_) {
+            // Nichts gelöscht, weiter angemeldet — die Meldung sagt es.
+          }
+        case AccountDeletion.failed:
+          break;
+      }
+    } finally {
+      if (mounted) setState(() => _laeuft = false);
+    }
+    messenger
+      ..hideCurrentSnackBar()
+      ..showSnackBar(SnackBar(content: Text(meldung)));
+  }
+
   /// Von Hand abgleichen (S.3 Schritt 3). Der automatische Abgleich bleibt
   /// stumm — nur hier gibt es eine Rückmeldung.
   Future<void> _jetztAbgleichen() async {
@@ -290,6 +346,20 @@ class _ProfilKontoKarteState extends ConsumerState<ProfilKontoKarte> {
                 onPressed: () => _abmelden(ueberall: true),
               ),
             ]),
+
+          // ── Konto löschen (L.1d) ──
+          const SizedBox(height: AppSizes.md),
+          const Divider(),
+          const SizedBox(height: AppSizes.sm),
+          Text(AppL10n.t(context, 'account_delete_hint'),
+              style: Theme.of(context).textTheme.bodySmall),
+          const SizedBox(height: AppSizes.sm),
+          VoxButton.destructiveOutlined(
+            key: const ValueKey('konto_loeschen'),
+            label: AppL10n.t(context, 'account_delete'),
+            icon: Icons.delete_forever_outlined,
+            onPressed: _laeuft ? null : _kontoLoeschen,
+          ),
         ],
       );
 

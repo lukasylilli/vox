@@ -21,9 +21,12 @@
 // Benutzernamen.** `profiles.username` gehört Root-in, samt Eindeutigkeits-
 // Index und Namensregeln. VOX meldet mit E-Mail und Passwort an und hört
 // dort auf; ein Konto ohne Root-in-Profilzeile ist hier völlig normal.
-// Ebenfalls bewusst nicht übernommen: `deleteAccount()`. Es löscht
-// `auth.users` und damit **auch den Root-in-Bestand** desselben Menschen —
-// das ist eine Entscheidung für beide Apps zusammen, nicht für diese hier.
+//
+// `deleteAccount()` + [AccountDeletion] (L.1d, 2026-09-22) sind zeichengleich
+// aus Root-in übernommen. ⚠️ Das Löschen trifft `auth.users` — also das Konto
+// in **beiden** Apps: `vox_backups` (hier) und `profiles`/`backups` (Root-in)
+// verschwinden per `on delete cascade` mit. Lukas hat das für beide Apps so
+// entschieden; die Oberfläche sagt es vor dem Bestätigen ausdrücklich.
 library;
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -118,6 +121,21 @@ class AuthResult {
   final AuthIssue? issue;
 
   bool get isSuccess => issue == null;
+}
+
+/// Ausgang von [AuthService.deleteAccount] (L.1d; Vorlage: Root-in 31.3).
+enum AccountDeletion {
+  /// Das Konto ist vom Server verschwunden — und mit ihm per
+  /// `on delete cascade` die Sicherungen beider Apps. Abgemeldet.
+  deleted,
+
+  /// Die Funktion `delete_own_account()` fehlt auf dem Server — weder
+  /// `supabase/vox_tables.sql` (Abschnitt 5) noch Root-ins `schema.sql` ist
+  /// in der aktuellen Fassung eingespielt. **Nichts** ist gelöscht.
+  unavailable,
+
+  /// Kein Netz, keine Anmeldung oder ein anderer Fehler. Nichts gelöscht.
+  failed,
 }
 
 /// Der Dienst. Alle Methoden geben [AuthResult] zurück statt zu werfen —
@@ -342,6 +360,39 @@ class AuthService {
     return client.auth.onAuthStateChange
         .where((event) => event.event == AuthChangeEvent.passwordRecovery)
         .map((_) => true);
+  }
+
+  /// Löscht das **eigene Konto vollständig** — den Eintrag in `auth.users`
+  /// und über `on delete cascade` auch `vox_backups` und Root-ins
+  /// `profiles`/`backups` (L.1d). Danach ist abgemeldet. Der Bestand auf dem
+  /// Gerät bleibt unberührt.
+  ///
+  /// ⚠️ Hängt an `delete_own_account()` (`supabase/vox_tables.sql`,
+  /// Abschnitt 5 — zeichengleich zu Root-in). Fehlt die Funktion auf dem
+  /// Server, kommt [AccountDeletion.unavailable] zurück — **nicht** `failed`:
+  /// Die Oberfläche soll dann tun, was ohne sie geht, und sagen, was fehlt,
+  /// statt „Server nicht erreichbar" zu behaupten.
+  Future<AccountDeletion> deleteAccount() async {
+    final client = _client;
+    if (client == null || client.auth.currentUser == null) {
+      return AccountDeletion.failed;
+    }
+    try {
+      await client.rpc<dynamic>('delete_own_account');
+    } on PostgrestException catch (error) {
+      // PGRST202 = PostgREST kennt keine Funktion dieses Namens.
+      return error.code == 'PGRST202'
+          ? AccountDeletion.unavailable
+          : AccountDeletion.failed;
+    } catch (_) {
+      return AccountDeletion.failed;
+    }
+    // Das Token gehört jetzt zu niemandem mehr; die Sitzung auf dem Gerät
+    // muss trotzdem ausdrücklich verworfen werden. `signOut` verwirft sie
+    // zuerst lokal und nimmt die Absage des Servers („Nutzer gibt es nicht")
+    // hin.
+    await signOut();
+    return AccountDeletion.deleted;
   }
 
   Future<void> signOut() async {

@@ -34,6 +34,12 @@ class _Server implements CloudAblage {
   }
 
   @override
+  Future<void> loeschen() async {
+    if (kaputt) throw Exception('offline');
+    zeile = null;
+  }
+
+  @override
   Future<void> ablegen(Map<String, dynamic> payload, int v) async {
     if (kaputt) throw Exception('offline');
     zeile = jsonEncode(payload);

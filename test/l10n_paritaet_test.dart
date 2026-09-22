@@ -151,6 +151,15 @@ void main() {
     'profile_archive_words',
     'profile_open_leitner',
     'profile_open_lists',
+    // L.1d — Konto löschen (2026-09-22)
+    'account_delete',
+    'account_delete_hint',
+    'account_delete_title',
+    'account_delete_body',
+    'account_delete_confirm',
+    'account_delete_done',
+    'account_delete_partial',
+    'account_delete_failed',
   ];
 
   // t() braucht einen BuildContext, die Textmap selbst ist privat — deshalb
