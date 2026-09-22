@@ -9,7 +9,14 @@
 > و خط «آخرین جلسه / قدم بعدی» پایین را تازه کن. **کاری که در پلن و مپ ثبت نشده، برای چت بعدی وجود ندارد.**
 > فهرست مطالب و بخش Hinweise همیشه حفظ می‌شوند.
 >
-> 🗓️ **آخرین جلسه:** 2026-09-22 — Lukas: «حذف حساب را فعال کن» ⇒ **تصمیم L.1d = بله، برای هر دو اپ** (یک حساب، یک حذف). ✅ **L.1d ساخته و منتشر شد.**
+> 🗓️ **آخرین جلسه:** 2026-09-22 (دور ۲) — Lukas: «Weiter». اول: Deploy دور ۱ روی main در **هر دو** ریپو ✅ سبز (VOX 35693974368 · Root-in 35694006854 + Gegenprobe 35694006903).
+> هر چهار فایل تازه خوانده شد. بازبینی همه‌ی `- [ ]`ها ⇒ **بیشترِ R/B/G/16 قدیمی بودند و در کد انجام شده‌اند** (doc-drift؛ هر کدام در کد تأیید و علامت خورد، پایین).
+> اولین قدم بازِ واقعی بدون‌نیاز-به-Lukas = **R-2.1 ✅**: فهرست «Nomen · Verb · Adjektiv + Präpositionen» حالا کلمه را **با حرف اضافه** نشان می‌دهد («abhängen · abhängig · die Abhängigkeit von»)؛ قبلاً فقط معنی + چیپ حرف اضافه بود.
+> **کجا:** `praepositionen/models/praep_cluster.dart` (`vollform` — حرف اضافه‌ی مشترک یک‌بار در آخر؛ اگر فرق دارند هر کلمه با حرف اضافه‌ی خودش؛ بدون حدس) · `praepositionen_home_screen.dart` (`DeutschText(vollform)` + معنی زیرش؛ جست‌وجو حالا کلمه‌ی آلمانی را هم پیدا می‌کند) · تست `test/praep_vollform_test.dart` (۴؛ روی هر ۱۸۵ خوشه‌ی واقعی).
+> **CI:** ✅ Zweig `r21-praep-vollform` (Lauf 35694624236) ⇒ `main`.
+> ⏭️ **قدم بعدی بدون‌نیاز-به-Lukas:** R-2.2 (دکمه‌ی صدا/لایتنر برای خوشه‌ی حرف اضافه — لایتنر برای این نوع کارت هنوز مدل ندارد ⇒ اول طراحی) · بقیه منتظر Lukas: L.2d · L.3 · L.5a · L.5g ⛔⛔ · L.6.
+>
+> 🗓️ **جلسه‌ی قبل (دور ۱ همان روز):** 2026-09-22 — Lukas: «حذف حساب را فعال کن» ⇒ **تصمیم L.1d = بله، برای هر دو اپ** (یک حساب، یک حذف). ✅ **L.1d ساخته و منتشر شد.**
 > **چه:** دکمه‌ی «حذف حساب» در کارت حساب (`/more/profil`، زیر خروج). دیالوگ تأیید صریحاً می‌گوید پشتیبان/نمایه‌ی **Root-in** هم پاک می‌شود و داده‌ی روی دستگاه می‌ماند.
 > **چرا:** تصمیم Lukas + حق حذف (GDPR). **کجا:** `supabase/vox_tables.sql` بخش ۵ `delete_own_account()` (**زنونویسی‌شده‌ی دقیق** Root-in، مثل `touch_updated_at()`) ·
 > `core/services/auth_service.dart` (`AccountDeletion` + `deleteAccount()` دقیقاً از Root-in) · `core/backup/cloud_abgleich.dart` + `cloud_ablage_supabase.dart` (`CloudAblage.loeschen()` — فقط ردیف خود در `vox_backups`) ·
@@ -630,21 +637,21 @@
   - حرف اضافه‌ها: `für`, `auf`, `an`, `über`, `mit`, `von`, `zu`, `bei`, `nach`, `aus`, `in`, `um`
   - اگر `german` = "das Engagement für" → display: "das Engagement"
   - detail view: همه اطلاعات شامل حرف اضافه باقی می‌ماند
-- [ ] R-1.2 `word_detail_screen.dart`: کلیک روی کلمه → همه اطلاعات:
+- [x] R-1.2 ✅ (تأیید در کد 2026-09-22) `word_detail_screen.dart`: کلیک روی کلمه → همه اطلاعات: (معنا، مثال، `AudioPlayButton`، `LeitnerAddButton`، دسته‌بندی، یادداشت گرامر — **«favorit» در اپ مفهوم جدا ندارد؛ فهرست‌ها/دسته‌بندی جایش را گرفته‌اند**)
   - معنا (FA + EN)، مثال‌ها، صدا (TTS)
   - دکمه Leitner، دکمه دسته‌بندی، دکمه favorit، گرامر
 
 ### R-2: Auswendiglernen — Präpositionen list باید full form نشان دهد
-- [ ] R-2.1 لیست "Nomen · Verb · Adjektiv + Präpositionen": فرمت: `lemma · حرف_اضافه`
+- [x] R-2.1 ✅ 2026-09-22 لیست "Nomen · Verb · Adjektiv + Präpositionen": فرمت: `lemma · حرف_اضافه` — `PraepCluster.vollform` + `praepositionen_home_screen.dart`؛ تست `test/praep_vollform_test.dart`
   - مثال: "abhängen · abhängig · die Abhängigkeit von"
   - این فرمت را تغییر نده — کاربر می‌خواهد حرف اضافه را در لیست ببیند
-- [ ] R-2.2 کلیک روی هر آیتم → detail view کامل:
+- [ ] R-2.2 کلیک روی هر آیتم → detail view کامل: (وضع 2026-09-22: `praep_cluster_detail_screen.dart` معنا + اعضا + مثال‌ها دارد؛ **صدا/لایتنر/دسته‌بندی ندارد** — لایتنر برای خوشه مدل کارت ندارد ⇒ اول طراحی)
   - معنا (FA + EN)، مثال‌ها، صدا (TTS)
   - دکمه Leitner، دسته‌بندی، favorit
 
 ### R-3: Auswendiglernen — ساختار جدید صفحه اصلی
-- [ ] R-3.1 حذف section headers (Verben، Satzbau und Konnektoren، Wortschatz، Redemittel)
-- [ ] R-3.2 فقط یک لیست ساده از deck‌ها:
+- [x] R-3.1 ✅ (همان Phase 5، 2026-06-29) حذف section headers (Verben، Satzbau und Konnektoren، Wortschatz، Redemittel)
+- [x] R-3.2 ✅ (Phase 5) فقط یک لیست ساده از deck‌ها:
   ```
   • Satzkonnektoren
   • Dativ und Akkusativ Verben
@@ -662,7 +669,7 @@
   • 1010 Redemittel
   • ...
   ```
-- [ ] R-3.3 deck‌های "coming soon" را نشان بده ولی غیرفعال (قفل)
+- [x] R-3.3 ✅ (Phase 5) deck‌های "coming soon" را نشان بده ولی غیرفعال (قفل) — ⚠️ برای انتشار: L.2d
 
 ### R-3b: Grammatik — لینک‌های موضوعی ✅ (2026-06-29)
 - `grammatik_home_screen.dart` → بخش "بخش‌های ویژه گرامر":
@@ -724,10 +731,10 @@
 - هر Screen محتوای کشوها را به‌عنوان `List<FilterOption>` از بیرون به `FilterAccordion` می‌دهد
 - هیچ Screen‌ای نباید کد ظاهر دکمه‌ها را درون خودش داشته باشد
 
-- [ ] R-4.1 `core/widgets/filter_accordion.dart` — کامپوننت جدید
+- [x] R-4.1 ✅ (تأیید در کد 2026-09-22) `core/widgets/filter_accordion.dart` — کامپوننت جدید
   - params: `label:String`، `options:List<FilterOption>`، `selected:Set<String>`، `onChanged`
-- [ ] R-4.2 `core/widgets/filter_chip_bar.dart` — نمایش فیلترهای فعال + پاک کردن
-- [ ] R-4.3 اعمال در: Konnektoren، NVV، Dativ Verben، Präpositionen، Wortschatz
+- [x] R-4.2 ✅ `core/widgets/filter_chip_bar.dart` — نمایش فیلترهای فعال + پاک کردن
+- [x] R-4.3 ✅ اعمال در: Konnektoren، NVV، Dativ Verben، Präpositionen، Wortschatz (+ trennbar، unregelm، reflexiv، verb_praep، redemittel_1010)
   - هر Screen فقط `FilterOption`‌های خودش را تعریف می‌کند و به widget می‌دهد
 
 ### ⭐ اصل معماری پایه: یک محتوا، چند ورودی (Content Once, Many Entrances)
@@ -891,15 +898,15 @@ ElevatedButton(
 ### R-7: جداسازی محتوا از UI (Content Files)
 **هدف:** هر موضوع محتوایی فایل داده مستقل دارد — بدون نیاز به لمس UI برای آپدیت محتوا
 
-- [ ] R-7.1 `assets/data/konnektoren_data.json` — ✅ موجود — مستقل از UI
-- [ ] R-7.2 `assets/data/dativ_akkusativ_data.json` — ✅ موجود
-- [ ] R-7.3 `assets/data/nvv_data.json` — ✅ موجود
-- [ ] R-7.4 `assets/data/praepositionen_data.json` — ✅ موجود
+- [x] R-7.1 `assets/data/konnektoren_data.json` — ✅ موجود — مستقل از UI
+- [x] R-7.2 `assets/data/dativ_akkusativ_data.json` — ✅ موجود
+- [x] R-7.3 `assets/data/nvv_data.json` — ✅ موجود
+- [x] R-7.4 `assets/data/praepositionen_data.json` — ✅ موجود
 - [x] R-7.5 `assets/data/redemittel_goethe_b2.json` — ✅ ۶۱ عبارت (2026-07-04)
 - [x] R-7.6 `assets/data/redemittel_oesd_b2.json` — ✅ ۱۲۱ عبارت (2026-07-04)
-- [ ] R-7.7 `assets/data/redemittel_oesd_c1.json` — [ ] باید ساخته شود
+- [x] R-7.7 `assets/data/redemittel_oesd_c1.json` — ✅ ساخته شد (L.2a، 2026-09-18)
 - [x] R-7.8 `assets/data/redemittel_1010.json` — ✅ ۹۰۸ عبارت (2026-07-04)
-- [ ] R-7.9 `lib/core/content/content_registry.dart` — ثبت همه منابع محتوا + seed
+- [x] R-7.9 `lib/core/content/content_registry.dart` — ✅ موجود (oesd_c1 هم ثبت است) — ⚠️ 2026-09-22: هیچ فایل دیگری آن را import نمی‌کند (فقط فهرست)
 
 ---
 
@@ -909,9 +916,9 @@ ElevatedButton(
 - [⛔] ~~16.2 تست دستی Android Emulator~~ — ⛔ منسوخ (وب‌اپ، 2026-09-13)
 - [x] 16.3 تست RTL فارسی همه صفحات ✅ (2026-09-18) — باگ پیدا و رفع شد؛ Lukas تأیید کرد (جزئیات: L.3 «تست RTL»)
 - [ ] 16.4 تست آفلاین (airplane mode) — ⏸️ ادامه در L.3 «تست آفلاین» (منتظر خروجی DevTools از Lukas)
-- [ ] 16.5 آیکون 1024×1024 در assets/images/app_icon.png
-- [ ] 16.6 dart run flutter_launcher_icons
-- [ ] 16.7 dart run flutter_native_splash:create
+- [x] 16.5 آیکون ✅ (`assets/images/app_icon.png` 2026-07-03؛ وب: `web/icons/` + manifest، L.3)
+- [⛔] ~~16.6 dart run flutter_launcher_icons~~ — ⛔ بومی/منسوخ (وب‌اپ؛ در pubspec نیست)
+- [⛔] ~~16.7 dart run flutter_native_splash:create~~ — ⛔ بومی/منسوخ (وب‌اپ؛ در pubspec نیست)
 - [⛔] ~~16.8 RevenueCat API keys واقعی در main.dart~~ — ⛔ منسوخ (وب‌اپ، 2026-09-13)؛ RevenueCat از پروژه حذف شد، اپ رایگان است
 - [⛔] ~~16.9 App Store Connect + Google Play metadata~~ — ⛔ منسوخ (وب‌اپ، 2026-09-13)
 - [⛔] ~~16.10 flutter build ios/appbundle~~ — ⛔ منسوخ (وب‌اپ، 2026-09-13)
@@ -954,7 +961,7 @@ ElevatedButton(
 - [x] R-3.1: حذف section headers (Verben، Satzbau، Wortschatz، Redemittel)
 - [x] R-3.2: لیست flat + جداکننده "PRÜFUNGEN" + Redemittel exam-prep در انتها
 - [x] R-3.3: coming-soon decks نشان داده می‌شوند با lock icon
-- [ ] R-2: Präpositionen Auswendiglernen cards — full form (lemma · حرف‌اضافه) — future
+- [x] R-2 (R-2.1) ✅ 2026-09-22: Präpositionen — full form (lemma · حرف‌اضافه) در لیست. R-2.2 باز.
 
 ### Phase 6 — Data & Content Files ✅ (2026-06-29)
 - [x] R-7.5 redemittel_goethe_b2.json — ✅ ۶۱ عبارت واقعی (Vortrag + Diskussion) (2026-07-04)
@@ -1095,7 +1102,7 @@ app_theme+tokens، widget_test. **N/A:** AuthInterceptor، cryptoUtils، JSBridg
 - [x] B11 `vox_snack_bar` + `vox_dialog` (quizResult/confirm/info) + `vox_chip`
       (VoxRegisterDot + VoxCountPill) — LIVE
       متصل شد: comingSoon snackbar + **۹ quiz result dialog** + redemittel chips
-- [ ] B12 `mock_data_factory` + unit tests + git init + CI فعال — بعدی
+- [x] B12 ✅ (تأیید 2026-09-22) `test/helpers/mock_data_factory.dart` + تست‌ها + CI (`pruefen.yml`، `deploy-web.yml`)
 
 #### ARCH-C: Integration — اتصال Feature‌ها به مرکز ✅ عمده (2026-07-04)
 > از طریق B9–B11 انجام شد — هر الگوی تکراری با نسخه مرکزی جایگزین شد:
@@ -1197,7 +1204,7 @@ lib/core/services/
 - [x] **G2-alt** ✅ اصلاح شد (2026-09-16): منبع **ناقص نیست** — ۱۷ سند JSON کامل (۸۴ درس، ۳۳۶ تمرین) پشت‌سرهم
       با متن توضیحی میانشان؛ هر سند از `{` قبل از `"_index"` جدا می‌شود. `verben-grundlagen.json` موجود بایت‌به‌بایت
       با سند منبع برابر بود. ~~منبع ناقص/آشفته است — فقط ۴ لکسیون کامل parse شد.~~
-- [ ] **G2-old** `GrammatikLektionScreen` — رندر Content-JSON (explanationBlocks سه‌زبانه +
+- [x] **G2-old** ✅ (تأیید 2026-09-22: explanationBlocks + relatedSlugs رندر می‌شوند) `GrammatikLektionScreen` — رندر Content-JSON (explanationBlocks سه‌زبانه +
       examples + tables + relatedSlugs) در `/grammatik/lektion/:slug`
 - [x] **G3** ✅ (2026-09-16) ایمپورت محتوا I: verben-grundlagen(9) + tempus(5) + passiv(4) + konjunktiv(7)
       → `assets/data/grammatik/<thema>.json` + آپدیت route در کاتالوگ
@@ -1722,8 +1729,8 @@ Gleiche Hülle, unterschiedliche Nutzlast. In beiden PLAN-Dateien festgehalten.
         · 7 Schlüssel FA/EN + Paritätstest; `test/cloud_abgleich_test.dart` (7 Tests, Server im Speicher).
         ⚠️ **Wirkt erst, wenn Lukas** die Secrets `SUPABASE_URL`/`SUPABASE_ANON_KEY` im vox-Repo
         setzt und `supabase/vox_tables.sql` einmal ausführt. Bis dahin: keine Rubrik, kein Timer.
-  - [ ] **S.3 offen (Entscheidung für BEIDE Apps):** Wie löscht jemand sein Konto, wenn daran
-        zwei Apps hängen? Root-in hat `delete_own_account()`; VOX ruft es bewusst noch nicht.
+  - [x] **S.3 Konto löschen ✅ L.1d (2026-09-22):** Entscheidung Lukas — ein Konto, ein Löschen, für BEIDE Apps.
+        VOX ruft `delete_own_account()` (jetzt auch in `vox_tables.sql` §5).
   ⚠️ **Voraussetzung für Schritt 2:** die Secrets `SUPABASE_URL` und `SUPABASE_ANON_KEY` im
   vox-Repo (Settings → Secrets and variables → Actions) und `supabase/vox_tables.sql` einmal im
   SQL-Editor des Supabase-Projekts ausgeführt. Bis dahin bleibt alles wirkungslos — aber heil.
