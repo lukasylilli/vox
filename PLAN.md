@@ -9,11 +9,21 @@
 > و خط «آخرین جلسه / قدم بعدی» پایین را تازه کن. **کاری که در پلن و مپ ثبت نشده، برای چت بعدی وجود ندارد.**
 > فهرست مطالب و بخش Hinweise همیشه حفظ می‌شوند.
 >
-> 🗓️ **آخرین جلسه:** 2026-09-20 (دور ۴) — Lukas: «طبق مپ و پلن اپ VOX را پیش ببر». هر چهار فایل تازه از GitHub خوانده شد. **Root-in:** همه‌ی قدم‌های باز به Lukas وابسته‌اند ⇒ کاری نبود. **VOX: L.5f ✅ ساخته شد** (اولین قدم بازِ بدون‌نیاز-به-Lukas؛ ورودی «⏳ در حال انجام» دور ۲ فقط یادداشت بود و هیچ کدی در ریپو نبود).
+> 🗓️ **آخرین جلسه:** 2026-09-22 — Lukas: «حذف حساب را فعال کن» ⇒ **تصمیم L.1d = بله، برای هر دو اپ** (یک حساب، یک حذف). ✅ **L.1d ساخته و منتشر شد.**
+> **چه:** دکمه‌ی «حذف حساب» در کارت حساب (`/more/profil`، زیر خروج). دیالوگ تأیید صریحاً می‌گوید پشتیبان/نمایه‌ی **Root-in** هم پاک می‌شود و داده‌ی روی دستگاه می‌ماند.
+> **چرا:** تصمیم Lukas + حق حذف (GDPR). **کجا:** `supabase/vox_tables.sql` بخش ۵ `delete_own_account()` (**زنونویسی‌شده‌ی دقیق** Root-in، مثل `touch_updated_at()`) ·
+> `core/services/auth_service.dart` (`AccountDeletion` + `deleteAccount()` دقیقاً از Root-in) · `core/backup/cloud_abgleich.dart` + `cloud_ablage_supabase.dart` (`CloudAblage.loeschen()` — فقط ردیف خود در `vox_backups`) ·
+> `features/more/widgets/profil_konto_karte.dart` (`_kontoLoeschen`) · `core/l10n/app_l10n.dart` (۸ کلید `account_delete*`) · `privacy_policy_screen.dart` (بخش «حذف حساب»، تاریخ 2026-09-22) · تست: `test/konto_loeschen_test.dart` (۶) + `l10n_paritaet_test.dart` (+۸).
+> **سه حالت:** سرور تابع را دارد ⇒ حساب + پشتیبان هر دو اپ (cascade) پاک، خروج · تابع روی سرور نیست (PGRST202) ⇒ فقط پشتیبان VOX پاک + خروج + پیام صادقانه «به ما پیام بده» · خطا/بی‌اینترنت ⇒ هیچ چیز پاک نمی‌شود.
+> **Root-in:** فقط متن دیالوگ حذف (de/en/fa) اضافه شد که پشتیبان VOX هم پاک می‌شود — کد Root-in دست نخورد (ثبت در Root-in PLAN/MAP).
+> **CI:** ✅ Zweig `l1d-konto-loeschen` (Lauf 35693624574: Analyze + Test + Web-Bau) ⇒ `main`.
+> ⏭️ **نیاز از Lukas:** (۱) اگر `schema.sql` روی Supabase قبلاً اجرا شده، تابع آنجاست و کار می‌کند؛ برای اطمینان `supabase/vox_tables.sql` را یک‌بار دیگر در SQL Editor اجرا کن (idempotent) · (۲) یک بار با حساب آزمایشی دکمه را امتحان کن · (۳) Redirect URL (بالا) · (۴) PATها. بقیه‌ی قدم‌ها: L.2d · L.3 · L.5a · L.5g ⛔⛔ · L.6.
+>
+> 🗓️ **جلسه‌ی قبل:** 2026-09-20 (دور ۴) — Lukas: «طبق مپ و پلن اپ VOX را پیش ببر». هر چهار فایل تازه از GitHub خوانده شد. **Root-in:** همه‌ی قدم‌های باز به Lukas وابسته‌اند ⇒ کاری نبود. **VOX: L.5f ✅ ساخته شد** (اولین قدم بازِ بدون‌نیاز-به-Lukas؛ ورودی «⏳ در حال انجام» دور ۲ فقط یادداشت بود و هیچ کدی در ریپو نبود).
 > **چه:** کلیک روی هر کلمه در همه‌جا یک رفتار دارد: کلمه ⇒ **پاپ‌آپ** ⇒ کلیک روی ردیف پاپ‌آپ ⇒ **صفحه‌ی کامل کلمه**. **چرا:** درخواست Lukas (L.5f) + اصل Component Isolation. **کجا:** فایل‌های جدید `core/wort/wort_form.dart` (کلید کلمه: بدون حدس صرف؛ `stripPreposition` به اینجا منتقل شد و `word_list_item.dart` آن را re-export می‌کند) · `core/wort/klick_wort.dart` (شکستن متن؛ هیچ حرفی گم/دوبل نمی‌شود) · `core/wort/klick_wort_provider.dart` (اول آرشیو `vocab_index.json`، فقط اگر خالی بود DB قدیمی؛ کلمه‌های هم‌شکل **همه** نشان داده می‌شوند، انتخابی حدس زده نمی‌شود) · `core/widgets/wort_popup.dart` (`showWortPopup`؛ ظاهر = همان `WortCard`+`WortActions` / `WordListItem`، نه طراحی تازه؛ بدون نتیجه ⇒ «در دیکشنری نیست» + دکمه‌ی «جستجو در همه واژه‌ها» با کلمه‌ی پرشده) · `core/widgets/klick_wort_text.dart` (`KlickWortText`، هم‌خانواده‌ی `DeutschText`: LTR ثابت، `markiert`، `auswaehlbar`، recognizerها آزاد می‌شوند). **وصل‌شده به:** Lesen (Leser) · Grammatik-Lektion (`b.bodyDe`، جمله‌ی مثال) · Redemittel-Detail (مثال و متن آلمانی) · Konnektor-Detail · Unregelm-Detail · Wort-Seite (`BeispielBlock`) · Hören (کلمه‌های Karaoke). **عمداً وصل نشد:** ردیف‌های لیست که خودشان کلیک‌پذیرند (تداخل کلیک)، کوییزها (جواب را لو می‌دهند)، عنوان‌ها. **حذف شد:** `lesen/widgets/clickable_word_text.dart` · `lesen/widgets/word_popup_card.dart` · `wordLookupProvider`.
 > **CI:** ✅ Zweig `l5f-klick-wort` (Lauf 35514107519: Analyze + Test + Web-Bau؛ `test/klick_wort_test.dart` ۱۸ تست) — یک دور قرمز پیش از آن: `databaseProvider` فقط از `word_controller.dart` می‌آمد و با حذف import از `lesen_controller.dart` گم شد ⇒ import با `show databaseProvider` برگشت. سپس `main` (fast-forward، commit `56152ef`): ✅ **Deploy سبز** (Lauf 35514377341: Analyze + Test + Bau + Veröffentlichung).
 > ⚠️ **کد بدون کامپایلر نوشته شد و در مرورگر دیده نشد** (Claude مرورگر ندارد) — بازبینی چشمی از Lukas لازم است: (۱) پاپ‌آپ روی موبایل/RTL · (۲) کلمه‌های جمله‌های مثال **علامت ندارند** (فقط در Leser زیرخط دارند: `markiert`) — آیا کاربر می‌فهمد که قابل‌کلیک‌اند؟ (تصمیم ظاهری برای Lukas) · (۳) کلیک کلمه در Karaoke هنگام پخش صدا.
-> ⏭️ **قدم بعدی:** همه منتظر Lukas (L.1d · L.2d · L.3 · L.5a · L.5g ⛔⛔ · درس بعدی کتاب L.6). بدون‌نیاز-به-Lukas چیزی نمانده؛ L.5b/L.5e/L.5c به تصمیم‌های L.5g/G7d وابسته‌اند.
+> ⏭️ **قدم بعدی (آن روز):** همه منتظر Lukas (L.1d ✅ 2026-09-22 · L.2d · L.3 · L.5a · L.5g ⛔⛔ · درس بعدی کتاب L.6). بدون‌نیاز-به-Lukas چیزی نمانده؛ L.5b/L.5e/L.5c به تصمیم‌های L.5g/G7d وابسته‌اند.
 >
 > 🗓️ **جلسه‌ی قبل (دور ۳):** Lukas: سؤال درباره‌ی **برنامه‌ی هفتگی در Root-in** (عادت فقط سه‌شنبه‌ها / سه‌شنبه و پنجشنبه / سه بار در هفته). **VOX دست‌نخورده** — این ورودی فقط یادداشت است، هیچ فایل کدی در این ریپو عوض نشد. **Root-in:** «Phase 32 — Wochenplan» ساخته و روی `main` منتشر شد (schema 4→5، فرمت پشتیبان Root-in نسخه ۱→۲؛ analyze تمیز، ۲۷۹ تست سبز، Deploy سبز). برای VOX هیچ تغییری لازم نیست: VOX فقط در `vox_backups` می‌نویسد (نه `backups`/`profiles` از Root-in) و لینک «Routine» در `app_links.dart` همان است. جزئیات: `Root-in/PLAN.md` → Phase 32.
 >
@@ -89,7 +99,7 @@
 | **L — L10n: زبان فقط از Settings** | ✅ | ۶ سوییچ حذف، Dual-Display صفر، AppL10n تنها منبع |
 | **L2 — Massen-Lokalisierung** | ✅ | ۶۴۱→۴۱ رشته FA در UI (کاتالوگ ۵۳۷=۵۳۷)؛ باقی در L3 |
 | **L3 — Content-Zweisprachigkeit** | ✅ | **همه محتواها FA+EN** (JSON + صفحات + دیتابیس)؛ audit ۰؛ کاتالوگ ۵۶۵=۵۶۵؛ helper AppL10n.loc؛ MemorizeItems.meaningEn (schema v2) |
-| **P — Profil & Konto** | ✅ P.1–P.3 (2026-09-20، CI سبز) — بازبینی چشمی از Lukas مانده | صفحه‌ی `/more/profil`: حساب + امنیت + اطلاعات شخصی + آرشیو + پشتیبان؛ قرارداد v4؛ **حذف حساب = L.1d باز** |
+| **P — Profil & Konto** | ✅ P.1–P.3 (2026-09-20، CI سبز) — بازبینی چشمی از Lukas مانده | صفحه‌ی `/more/profil`: حساب + امنیت + اطلاعات شخصی + آرشیو + پشتیبان؛ قرارداد v4؛ **حذف حساب ✅ L.1d (2026-09-22)** |
 | **V — Vokabular-DB (۲۵٬۰۰۰ کلمه)** | Stufen ۱–۵ ✅ · **۸۷ کارت** (۰٫۳٪ از ~۲۶٬۲۰۰) · گلوگاه = سرعت، نه کد | Pipeline کامل و سالم: SUPER-PROMPT v3.0 → `import_inbox/` → `tool/vokabular_import.dart` → اپ. از ۱۴ جولای تا ۱۵ سپتامبر (۲ ماه) فقط چند کلمه اضافه شد ⇒ **فاز A (خودکارسازی) باز شد.** V.2 ✅ (فهرست کلمات به‌جای vocab.db، 2026-09-16) · باز: · اتصال Leitner به imLeitner · V.5 توزیع |
 | ~~۱۶ — انتشار و QA نهایی~~ | ⛔ منسوخ — فهرست معتبر: **L.3** | نسخه‌ی بومی (iOS/Android/RevenueCat) از 2026-09-13 حذف شد؛ انتشار = فقط وب (GitHub Pages) |
 
@@ -105,7 +115,7 @@
 **2026-09-16:** V.2 ✅ اپ هنگام شروع دیگر همه‌ی کارت‌ها را نمی‌خواند — فقط یک فهرست کوچک (`assets/vocab_index.json`)؛ کارت کامل فقط وقتی صفحه‌ی آن کلمه باز شود. سقف ~۵۰۰ کارت برداشته شد.
 **2026-09-16:** S.6 ✅ لیست‌های شخصی شناسه‌ی ثابت دارند — تغییر نام دیگر کلمه‌ای را در همگام‌سازی از بین نمی‌برد (پایگاه داده نسخه‌ی ۷، قرارداد پشتیبان نسخه‌ی ۳).
 
-**قدم‌های بعدی (2026-09-16, ترتیب جدید — بخش «فاز LAUNCH»):** ① **L.1** امنیت لایتنر: S.6 ✅ → V.2 ✅ → L.1a ✅ → L.1b ✅ → L.1c ✅ (2026-09-18, Supabase-Secrets + SQL) → باقی L.1: L.1d (Lukas: تصمیم حذف حساب) ② **L.2** کامل بودن محتوا: G3–G6 ✅ · G7a–G7c ✅ · **G7d/G7e رفت بعد از انتشار** · L.2a ÖSD C1 ✅ (2026-09-18) ⇒ تنها کار باز = deckهای «به‌زودی» دیگر که منتظر منبع Lukas‌اند ③ **L.6** درس‌های کتاب Lukas (یکی‌یکی؛ رسیده: درس ۱ و ۲) ④ **L.3 آماده‌سازی انتشار** ← **انتشار** ④ **L.4** کلمه‌ها روزانه (A.6 ⛔ اول از Lukas بپرس)
+**قدم‌های بعدی (2026-09-16, ترتیب جدید — بخش «فاز LAUNCH»):** ① **L.1** امنیت لایتنر: S.6 ✅ → V.2 ✅ → L.1a ✅ → L.1b ✅ → L.1c ✅ (2026-09-18, Supabase-Secrets + SQL) → L.1d ✅ (2026-09-22, حذف حساب برای هر دو اپ) ⇒ **L.1 کامل** ② **L.2** کامل بودن محتوا: G3–G6 ✅ · G7a–G7c ✅ · **G7d/G7e رفت بعد از انتشار** · L.2a ÖSD C1 ✅ (2026-09-18) ⇒ تنها کار باز = deckهای «به‌زودی» دیگر که منتظر منبع Lukas‌اند ③ **L.6** درس‌های کتاب Lukas (یکی‌یکی؛ رسیده: درس ۱ و ۲) ④ **L.3 آماده‌سازی انتشار** ← **انتشار** ④ **L.4** کلمه‌ها روزانه (A.6 ⛔ اول از Lukas بپرس)
 
 ---
 
@@ -184,7 +194,7 @@
       (`GET .../actions/secrets/public-key` → 403 Resource not accessible). ✅ **Lukas خودش انجام داد
       (2026-09-18):** هر دو Secret در Settings → Actions ثبت شد + `vox_tables.sql` در SQL Editor سایت
       Supabase اجرا شد (project ref `uayaomoxxzzbjquxbcpu`).
-- [ ] **L.1d (Lukas، برای هر دو اپ)** تصمیم حذف حساب (S.3 باز).
+- [x] **L.1d حذف حساب** ✅ 2026-09-22 — تصمیم Lukas: **بله، برای هر دو اپ** (یک حساب مشترک ⇒ یک حذف). `delete_own_account()` در `vox_tables.sql` (هم‌متن Root-in) + `AuthService.deleteAccount()` + دکمه در `ProfilKontoKarte` + fallback `CloudAblage.loeschen()`. S.3 بسته شد. جزئیات: «آخرین جلسه» بالا و بخش فاز P.
 - [x] **L.1e نگهبان شناسه‌ی کلمه‌های همراه اپ** ✅ (2026-09-18، Claude، CI سبز روی شاخه سپس main)
       **شکافی که پیدا شد (اولویت‌بندی «قبل از انتشار»، 2026-09-18):** لایتنر کاربر با شناسه‌ی متنی ذخیره
       می‌شود، نه شماره‌ی ردیف پایگاه‌داده (`core/backup/nutzer_zustand.dart`). برای کارت‌های آرشیو
@@ -456,8 +466,12 @@
   بعد از ایمپورت فایل: settings/profil/archiv هم invalidate می‌شوند (قبلاً settings تازه نمی‌شد). `datenOrtSchluessel` همراه رفت و از `settings_screen.dart` re-export می‌شود.
   تنظیمات: `_KontoKarte`/`_SicherungKarte` حذف؛ به‌جایش کاشی «پروفایل و حساب». `widgets/konto_texte.dart`: `kontoFehlerText`، `profilFehlerText` (ترجمه در UI، نه در سرویس).
 - [x] **حریم خصوصی:** `privacy_policy_screen.dart` بخش «اطلاعات شخصی (اختیاری)» گرفت (تاریخ 2026-09-20) — نام/تلفن/آدرس فقط در مرورگر، و با حساب: در ردیف خودِ کاربر در `vox_backups`؛ جای دیگر نه.
-- [ ] **حذف حساب — عمداً ساخته نشد (L.1d).** `delete_own_account()` مال Root-in است و `auth.users` را پاک می‌کند = بستر هر دو اپ. تصمیم Lukas برای هر دو اپ.
-  (راه محدودتر، در صورت خواست: فقط ردیف خودِ کاربر در `vox_backups` پاک شود — به Root-in دست نمی‌زند؛ نیاز به policy حذف در `vox_tables.sql` — **بررسی نشد**، ثبت به‌عنوان گزینه.)
+- [x] **حذف حساب (L.1d) ✅ 2026-09-22** — Lukas: «فعالش کن» (برای هر دو اپ). `auth.users` پاک می‌شود ⇒ `vox_backups` و `profiles`/`backups` Root-in با cascade.
+  · SQL: `supabase/vox_tables.sql` §5 `delete_own_account()` — **هم‌متن** `schema.sql` Root-in §6 (security definer، بدون پارامتر، `search_path=''`، فقط `authenticated`). تغییر = هر دو فایل. VOX دیگر برای حذف به schema.sql وابسته نیست.
+  · کد: `AuthService.deleteAccount()` → `AccountDeletion {deleted, unavailable, failed}` (کپی دقیق Root-in؛ PGRST202 ⇒ unavailable).
+  · UI: `ProfilKontoKarte._kontoLoeschen()` با `VoxDialog.confirm`؛ unavailable ⇒ `CloudAblage.loeschen()` (policy `vox_backups_delete_own` از قبل بود) + `signOut` (وگرنه همگام‌سازی خودکار دوباره آپلود می‌کرد) + پیام «به ما پیام بده».
+  · داده‌ی روی دستگاه عمداً دست نمی‌خورد (مثل Root-in؛ اپ بدون حساب هم کار می‌کند). حریم خصوصی: بخش «حذف حساب».
+  · ⚠️ مسابقه با همگام‌سازی: آپلود بعد از حذف با FK (`references auth.users`) رد می‌شود ⇒ حساب «برنمی‌گردد».
 - **تست‌ها:** `test/profil_test.dart` (تلفن، پاک‌سازی، JSON، ادغام، قرارداد v4 + خواندن v3، قاعده‌ی رمز، کدهای Auth)، `test/profil_controller_test.dart`،
   `user_state_repository_test.dart` +۵ (Profil: خواندن، خراب، جابه‌جایی دستگاه، قدیمی‌تر رونویس نمی‌کند)، `l10n_paritaet_test.dart` +۵۴ کلید.
 - ⚠️ **کد بدون کامپایلر نوشته شد** (Claude Flutter ندارد) — فقط ساختارهای موجود در ریپو؛ اعتبار واقعی = اجرای «Zweig prüfen».

@@ -1,6 +1,6 @@
 # PROJECT MAP — VOX
 # نقشه کامل پروژه برای ناوبری سریع در هر session
-# آپدیت: 2026-09-20 دور ۴ (✅ L.5f: کلیک روی کلمه — `core/wort/{wort_form,klick_wort,klick_wort_provider}.dart` + `core/widgets/{wort_popup,klick_wort_text}.dart`؛ وصل به Lesen/Grammatik-Lektion/Redemittel-Detail/Konnektor/Unregelm/Wort-Seite/Karaoke؛ `clickable_word_text`/`word_popup_card`/`wordLookupProvider` حذف؛ `test/klick_wort_test.dart`) · قبلی: 2026-09-20 دور ۳ (فقط یادداشت: Root-in «Phase 32 — Wochenplan» روی main؛ کد و ساختار VOX تغییر نکرد) · قبلی: 2026-09-20 دور ۲ (⏳ L.5f در حال انجام — کامپوننت مشترک «کلیک روی کلمه»: `core/widgets/wort_popup.dart`، `klick_wort_text.dart`، `core/wort/klick_wort.dart`؛ نتیجه در ورودی بعدی) · قبلی: 2026-09-20 (فاز P: صفحه‌ی `/more/profil` — حساب/امنیت/اطلاعات شخصی/آرشیو/پشتیبان؛ قرارداد پشتیبان v4 `profil`؛ `_KontoKarte`/`_SicherungKarte` از settings به widgets منتقل) · قبلی: 2026-09-19 (دور چهارم — فلگ `hidden` واقعاً اعمال می‌شود [feature_flags · home_screen · auswendiglernen_home_screen · test/feature_flags_test]؛ doc-drift فاز ۱۶/RevenueCat پاک شد) · دور سوم همان روز: فقط ثبت — دروازه‌های انتشار؛ جزئیات: PLAN.md → «آخرین جلسه» · قبلی: 2026-09-18 (ادامه ۶ — L.1e: نگهبان شناسه‌ی کلمه‌های همراه اپ؛ RTL بسته؛ اصل «یک محتوا، چند ورودی» + A-1 ثبت؛ آفلاین باز)
+# آپدیت: 2026-09-22 (✅ L.1d حذف حساب: `supabase/vox_tables.sql` §5 `delete_own_account()` هم‌متن Root-in · `AuthService.deleteAccount()` + `AccountDeletion` · `CloudAblage.loeschen()` · دکمه در `ProfilKontoKarte` · `test/konto_loeschen_test.dart`) — قبلی: 2026-09-20 دور ۴ (✅ L.5f: کلیک روی کلمه — `core/wort/{wort_form,klick_wort,klick_wort_provider}.dart` + `core/widgets/{wort_popup,klick_wort_text}.dart`؛ وصل به Lesen/Grammatik-Lektion/Redemittel-Detail/Konnektor/Unregelm/Wort-Seite/Karaoke؛ `clickable_word_text`/`word_popup_card`/`wordLookupProvider` حذف؛ `test/klick_wort_test.dart`) · قبلی: 2026-09-20 دور ۳ (فقط یادداشت: Root-in «Phase 32 — Wochenplan» روی main؛ کد و ساختار VOX تغییر نکرد) · قبلی: 2026-09-20 دور ۲ (⏳ L.5f در حال انجام — کامپوننت مشترک «کلیک روی کلمه»: `core/widgets/wort_popup.dart`، `klick_wort_text.dart`، `core/wort/klick_wort.dart`؛ نتیجه در ورودی بعدی) · قبلی: 2026-09-20 (فاز P: صفحه‌ی `/more/profil` — حساب/امنیت/اطلاعات شخصی/آرشیو/پشتیبان؛ قرارداد پشتیبان v4 `profil`؛ `_KontoKarte`/`_SicherungKarte` از settings به widgets منتقل) · قبلی: 2026-09-19 (دور چهارم — فلگ `hidden` واقعاً اعمال می‌شود [feature_flags · home_screen · auswendiglernen_home_screen · test/feature_flags_test]؛ doc-drift فاز ۱۶/RevenueCat پاک شد) · دور سوم همان روز: فقط ثبت — دروازه‌های انتشار؛ جزئیات: PLAN.md → «آخرین جلسه» · قبلی: 2026-09-18 (ادامه ۶ — L.1e: نگهبان شناسه‌ی کلمه‌های همراه اپ؛ RTL بسته؛ اصل «یک محتوا، چند ورودی» + A-1 ثبت؛ آفلاین باز)
 #
 # ⚠️ 2026-09-19 (اصلاح یادداشت آفلاین): «precache شدنی است» فقط برای ~۷٫۵MB فعلی (۸۷ کارت) درست است. کارت ~۴KB ⇒ ~۲۶٬۲۰۰ کارت ≈ ~۱۰۰MB
 #   (ارقام خود PLAN) ⇒ پیش‌بارگذاری همه‌ی کارت‌ها همچنان گزینه نیست؛ فقط دارایی‌های ثابت + فهرست + کارتِ بازشده. تحلیل است نه تصمیم. جزئیات: PLAN → L.3.
@@ -41,7 +41,7 @@
 #   · B-3 / R-1.1 در کد رفع شده‌اند (stripPreposition در word_list_item.dart) — در BACKLOG اصلاح شد
 #   · ✅ README (2026-09-18): خط قدیمی «Selbstlernen — Gewohnheiten, Streaks» به Pomodoro/Lernpfad/Vorlagen + Root-in-Link اصلاح شد
 #   · فاز A (خودکارسازی ورود کلمات) باز شد — PLAN.md → «فاز A»
-#   · فاز S (ذخیره‌سازی داده‌ی کاربر) — S.0–S.6 ✅ (S.6 feste Listen-id 2026-09-16, DB v7, Vertrag v3)؛ باز: S.3 Konto löschen
+#   · فاز S (ذخیره‌سازی داده‌ی کاربر) — S.0–S.6 ✅ (S.6 feste Listen-id 2026-09-16, DB v7, Vertrag v3)؛ S.3 Konto löschen ✅ L.1d (2026-09-22)
 #
 # 🚀 2026-09-16 تصمیم Lukas — ترتیب جدید (PLAN.md → «فاز LAUNCH»):
 #   اپ زودتر و به‌صورت نسخه‌ی نهایی منتشر می‌شود؛ کلمه‌ها آخرین مرحله‌اند و بعد از انتشار روزانه اضافه می‌شوند.
@@ -800,6 +800,7 @@ screens/
   privacy_policy_screen.dart  [x]  — متن حریم خصوصی؛ **به‌روز شد (2026-09-18)**: بخش «حساب کاربری (اختیاری)»
                                      اضافه شد چون متن قدیمی از قبل S.3 بود و دیگر درست نبود (می‌گفت هیچ داده‌ای
                                      روی سرور نمی‌رود؛ الان با ساختن حساب، ایمیل + نسخه‌ی پشتیبان می‌رود)
+                                     + **L.1d (2026-09-22)**: بخش «حذف حساب» (دکمه، Root-in هم پاک می‌شود، داده‌ی دستگاه می‌ماند)
   fragen_screen.dart          [x] (در lib/features/fragen/) — ۸ FAQ با InkWell expansion
   sozialmedien_screen.dart    [x] (در lib/features/sozialmedien/) — Telegram/Instagram/YouTube
 controllers/
@@ -809,7 +810,7 @@ controllers/
                                      `passwortNeuProvider` + `passwortWiederherstellungStarterProvider` (از `app.dart` دیده می‌شود)
 widgets/
   profil_angaben_karte.dart   [x]  — **P.1** نام/تلفن/آدرس‌ها؛ `_AdresseDialog`؛ یک «ذخیره» = کل فرم
-  profil_konto_karte.dart     [x]  — **P.2** `ProfilKontoKarte` (ورود/ثبت‌نام/فراموشی رمز/ایمیل/همگام/خروج) + `PasswortAendernKarte`
+  profil_konto_karte.dart     [x]  — **P.2** `ProfilKontoKarte` (ورود/ثبت‌نام/فراموشی رمز/ایمیل/همگام/خروج/**حذف حساب L.1d ✅ 2026-09-22**) + `PasswortAendernKarte`
                                      + `passwortFehlerSchluessel()` (تابع خالص)
   profil_archiv_karte.dart    [x]  — **P.3** اعداد آرشیو (فقط‌خواندنی) + پرش به لایتنر/فهرست‌ها
   sicherung_karte.dart        [x]  — کارت پشتیبان (از settings منتقل) + `datenOrtSchluessel()`
@@ -1261,6 +1262,7 @@ die Fassade, die allein `NutzerZustand` nach außen zeigt.
 | `core/utils/install_state.dart` (+ `install_hinweis.dart`, `_io`/`_web`) | **S.1b ✅** — erkennt, ob VOX als Web-App installiert ist, sonst Anleitung je Plattform. Der Aufzählungstyp liegt bewusst in einer eigenen Datei (sonst Import-Kreis mit der Weiche) |
 | `core/utils/dokument_sprache.dart` (+ `_io`/`_web`) | **L.3a ✅** (2026-09-16) — setzt `<html lang>` auf die aktive Oberflächensprache (aus `app.dart`), damit der Browser keine falsche Übersetzung anbietet. Bedingter Export wie `external_link_opener`. `web/index.html` startet mit `lang="en"` |
 | `features/more/screens/settings_screen.dart` → `_SpeicherKarte` | zeigt diese Einladung unter «داده‌ی من» |
+| `test/konto_loeschen_test.dart` | **L.1d (2026-09-22)** — Knopf «حذف حساب»: Dialog nennt Root-in · Abbrechen löscht nichts · deleted / unavailable (eigene Sicherung + abmelden) / failed · `deleteAccount()` ohne Server = failed. Auth/Ablage/Abgleich ersetzt, kein Netz |
 | `test/l10n_paritaet_test.dart` | hält FA/EN-Schlüssel synchron. MaterialApp-Aufbau **muss** `Global*Localizations` nutzen — `Default*Localizations` kennen kein Farsi |
 | `core/backup/nutzer_zustand.dart` | **S.0a-1 ✅ — DER VERTRAG.** Was einem Nutzer gehört + Hülle `{version, exportedAt, app, payload}` + `zusammenfuehren()` („höchstes Fach gewinnt"). Reines Dart, ohne drift/prefs/Flutter. ⚠️ Leitner-IDs sind Text (`adjektiv_stolz`, `eigen:<wort>\|<wortart>`) — die drift-Nummer gehört NIE in eine Sicherung |
 | `test/nutzer_zustand_test.dart` | 12 Fälle, darunter: älterer Stand mit höherem Fach gewinnt; a+b == b+a; Notizen werden nie zusammengeklebt |
@@ -1277,11 +1279,11 @@ die Fassade, die allein `NutzerZustand` nach außen zeigt.
 | `features/more/widgets/sicherung_karte.dart` → `datenOrtSchluessel()` (re-export in settings_screen) | **S.4 ✅ (2026-09-16)** — ehrlicher Satz in `_SicherungKarte`, wo die Daten liegen: ohne Server `backup_only_here`, mit Server ohne Anmeldung `backup_only_here_signin`, angemeldet nichts. Test: `test/datenort_hinweis_test.dart` |
 | `test/persistent_storage_test.dart` | prüft, dass auf der Dart-VM die io-Fassung greift |
 | `core/constants/app_config.dart` | **S.3 ✅** — `SUPABASE_URL`/`SUPABASE_ANON_KEY` aus `--dart-define`. ⚠️ **Leer = kein Server**: keine Anmeldung, kein Netzaufruf. Ein `--dart-define` versteckt nichts (im Web per Textsuche in `main.dart.js` auffindbar) — der `anon`-Schlüssel darf das, `service_role` niemals |
-| `core/services/auth_service.dart` | **S.3 ✅** — einzige Stelle, die `supabase_flutter` kennt. ⚠️ **Kein Benutzername** (`profiles` gehört Root-in) und **kein `deleteAccount()`** (löscht `auth.users` und damit auch den Root-in-Bestand desselben Menschen). Gibt `AuthResult` zurück statt zu werfen; `AuthIssue` wird in der Oberfläche übersetzt, nicht hier |
-| `supabase/vox_tables.sql` | **S.3 ✅** — `vox_backups`, eine Zeile je Konto. ⚠️ **Nicht** `backups` — die gehört Root-in und hat dieselbe `user_id` als Primärschlüssel; geteilt hieße: eine App überschreibt die Sicherung der anderen. `touch_updated_at()` zeichengleich zu `schema.sql` in Root-in — Änderung immer in BEIDEN Dateien |
+| `core/services/auth_service.dart` | **S.3 ✅** — einzige Stelle, die `supabase_flutter` kennt. ⚠️ **Kein Benutzername** (`profiles` gehört Root-in). **`deleteAccount()` ✅ L.1d (2026-09-22)** → `AccountDeletion {deleted, unavailable, failed}`, zeichengleich zu Root-in — löscht `auth.users` = Konto in **beiden** Apps (Entscheidung Lukas). Gibt `AuthResult` zurück statt zu werfen; `AuthIssue` wird in der Oberfläche übersetzt, nicht hier |
+| `supabase/vox_tables.sql` | **S.3 ✅** — `vox_backups`, eine Zeile je Konto. ⚠️ **Nicht** `backups` — die gehört Root-in und hat dieselbe `user_id` als Primärschlüssel; geteilt hieße: eine App überschreibt die Sicherung der anderen. `touch_updated_at()` **und (L.1d, §5) `delete_own_account()`** zeichengleich zu `schema.sql` in Root-in — Änderung immer in BEIDEN Dateien |
 | `features/more/widgets/profil_konto_karte.dart` → `ProfilKontoKarte` (bis P.2: `_KontoKarte` in settings_screen; `_kontoFehlerText` → `konto_texte.dart`) | **S.3 Schritt 2 ✅** — anmelden/registrieren/abmelden; nur sichtbar bei `kontoAktivProvider`. `AuthIssue` wird hier übersetzt (`_kontoFehlerText`). Noch **ohne** Cloud-Kopie — das ist Schritt 3 |
 | `core/services/feature_flags.dart` | **L.2d** — deckهای «به‌زودی»: قبل از انتشار یا پر شوند یا `hidden` (نسخه‌ی نهایی دکمه‌ی بی‌محتوا ندارد) |
-| `core/backup/cloud_abgleich.dart` | **S.3 Schritt 3** — holen → zusammenführen → nur bei Änderung hochladen; kennt kein Supabase |
+| `core/backup/cloud_abgleich.dart` | **S.3 Schritt 3** — holen → zusammenführen → nur bei Änderung hochladen; kennt kein Supabase. `CloudAblage.loeschen()` (L.1d): nur eigene `vox_backups`-Zeile — Notweg, wenn `delete_own_account()` fehlt |
 | `core/services/cloud_ablage_supabase.dart` | echte `CloudAblage` (`vox_backups`); zweite und letzte Datei mit `supabase_flutter` |
 | `features/more/controllers/konto_abgleich.dart` | wann abgeglichen wird (Anmeldung/Start, alle 5 Min., Knopf); `kontoAbgleichStarterProvider` in `app.dart` |
 | `test/cloud_abgleich_test.dart` | Abgleich mit Server im Speicher: zwei Geräte, Entfernen, „zu neu", offline |
