@@ -5,6 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../core/constants/app_sizes.dart';
 import '../controllers/unregelm_controller.dart';
 import '../../../core/l10n/app_l10n.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class UnregelmGrammarScreen extends ConsumerWidget {
   const UnregelmGrammarScreen({super.key});
@@ -660,7 +661,7 @@ class _HabenSein extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             if ((e['de'] as String?)?.isNotEmpty == true)
-                              Text(e['de'] as String,
+                              DeutschText(e['de'] as String,
                                   style: const TextStyle(
                                       fontSize  : 12,
                                       fontStyle : FontStyle.italic)),
@@ -895,7 +896,7 @@ class _FullyIrregular extends StatelessWidget {
                   ),
                   if ((v['example_de'] as String?)?.isNotEmpty == true) ...[
                     const SizedBox(height: 6),
-                    Text(v['example_de'] as String,
+                    DeutschText(v['example_de'] as String,
                         style: const TextStyle(
                             fontSize  : 12,
                             fontStyle : FontStyle.italic)),

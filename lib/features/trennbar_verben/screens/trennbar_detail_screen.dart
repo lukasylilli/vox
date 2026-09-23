@@ -9,6 +9,7 @@ import '../controllers/trennbar_controller.dart';
 import '../models/trennbar_verb.dart';
 import '../widgets/prefix_type_badge.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class TrennbarDetailScreen extends ConsumerStatefulWidget {
   const TrennbarDetailScreen({super.key, required this.verbId});
@@ -66,8 +67,8 @@ class _TrennbarDetailScreenState extends ConsumerState<TrennbarDetailScreen> {
               // ── prefix info ──
               _Section(
                 title: 'Präfix',
-                child: RichText(
-                  text: TextSpan(
+                child: DeutschRichText(
+                  TextSpan(
                     style: Theme.of(context).textTheme.bodyMedium,
                     children: [
                       TextSpan(
@@ -104,7 +105,7 @@ class _TrennbarDetailScreenState extends ConsumerState<TrennbarDetailScreen> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
+                    DeutschText(
                       verb.exampleDe,
                       style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                             fontStyle: FontStyle.italic,

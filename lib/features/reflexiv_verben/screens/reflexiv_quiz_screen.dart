@@ -8,6 +8,7 @@ import '../../../core/widgets/vox_dialog.dart';
 import '../models/reflexiv_verb.dart';
 import '../widgets/reflexivity_type_badge.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 enum _QuizType { multiChoice, matchMeaning, wordOrder, cloze }
 
@@ -334,7 +335,7 @@ class _ReflexivQuizScreenState extends State<ReflexivQuizScreen> {
             ),
             if (_answered) ...[
               const SizedBox(height: 8),
-              Text(
+              DeutschText(
                 q.verb.exampleDe,
                 style: TextStyle(
                     color     : _isCorrect() ? Colors.green : Colors.red,

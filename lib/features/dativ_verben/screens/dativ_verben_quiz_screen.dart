@@ -436,11 +436,21 @@ class _WordOrderBody extends StatelessWidget {
             label    : AppL10n.t(context, 'check'),
             onPressed: arranged.isNotEmpty ? onSubmit : null,
           ),
+        // Meldung folgt der Oberfläche, der deutsche Satz steht getrennt
+        // darunter — links, Punkt am Ende (Nachtrag 2026-09-23).
         if (answered)
           Text(
-            correct ? AppL10n.t(context, 'correct_check') : '${AppL10n.t(context, 'answer_wrong_prefix')} ${q.verb.exampleDe}',
+            correct ? AppL10n.t(context, 'correct_check') : AppL10n.t(context, 'answer_wrong_prefix'),
             style: TextStyle(
               color     : correct ? Colors.green : Colors.red,
+              fontWeight: FontWeight.w700,
+            ),
+          ),
+        if (answered && !correct)
+          DeutschText(
+            q.verb.exampleDe,
+            style: const TextStyle(
+              color     : Colors.red,
               fontWeight: FontWeight.w700,
             ),
           ),
@@ -500,8 +510,8 @@ class _ClozeBody extends StatelessWidget {
                   color: cs.onSurfaceVariant, fontStyle: FontStyle.italic)),
         const SizedBox(height: 20),
         // sentence with blank
-        RichText(
-          text: TextSpan(
+        DeutschRichText(
+          TextSpan(
             style: Theme.of(context).textTheme.bodyLarge?.copyWith(height: 1.8),
             children: [
               if (q.clozePrefix.isNotEmpty)

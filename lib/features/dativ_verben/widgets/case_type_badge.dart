@@ -1,6 +1,7 @@
 // FILE: lib/features/dativ_verben/widgets/case_type_badge.dart
 import 'package:flutter/material.dart';
 import '../models/dativ_verb.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class CaseTypeBadge extends StatelessWidget {
   const CaseTypeBadge(this.caseType, {super.key, this.small = false});
@@ -33,8 +34,9 @@ class CaseTypeBadge extends StatelessWidget {
         borderRadius: BorderRadius.circular(small ? 4 : 6),
         border      : Border.all(color: color.withValues(alpha: 0.4)),
       ),
-      child: Text(
+      child: DeutschText(
         caseType.labelDe,
+        ganzeZeile: false, // Abzeichen
         style: TextStyle(
           color     : color,
           fontSize  : small ? 10 : 11,

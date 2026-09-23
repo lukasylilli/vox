@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 
 import '../models/unregelm_verb.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class VerbClassBadge extends StatelessWidget {
   const VerbClassBadge(this.verbClass, {super.key, this.small = false});
@@ -27,8 +28,9 @@ class VerbClassBadge extends StatelessWidget {
         borderRadius: BorderRadius.circular(4),
         border      : Border.all(color: color.withValues(alpha: 0.45)),
       ),
-      child: Text(
+      child: DeutschText(
         verbClass.labelDe,
+        ganzeZeile: false, // Abzeichen
         style: TextStyle(
           fontSize  : fs,
           color     : color,

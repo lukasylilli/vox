@@ -5,6 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../core/constants/app_sizes.dart';
 import '../../../core/l10n/app_l10n.dart' show AppL10n;
 import '../controllers/reflexiv_controller.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class ReflexivGrammarScreen extends ConsumerWidget {
   const ReflexivGrammarScreen({super.key});
@@ -572,7 +573,7 @@ class _ExRow extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(de,
+                DeutschText(de,
                     style: const TextStyle(
                         fontStyle: FontStyle.italic, fontSize: 13)),
                 if (transl.isNotEmpty)

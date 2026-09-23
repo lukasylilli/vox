@@ -9,6 +9,7 @@ import '../controllers/verb_praep_controller.dart';
 import '../models/verb_praep.dart';
 import '../widgets/prep_case_badge.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class VerbPraepDetailScreen extends ConsumerStatefulWidget {
   const VerbPraepDetailScreen({super.key, required this.verbId});
@@ -70,8 +71,8 @@ class _VerbPraepDetailScreenState
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    RichText(
-                      text: TextSpan(
+                    DeutschRichText(
+                      TextSpan(
                         style: Theme.of(context).textTheme.bodyMedium,
                         children: [
                           TextSpan(
@@ -128,7 +129,7 @@ class _VerbPraepDetailScreenState
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
+                    DeutschText(
                       verb.exampleDe,
                       style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                             fontStyle: FontStyle.italic,

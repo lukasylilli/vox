@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 
 import '../models/konnektor.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class ConnectorTypeBadge extends StatelessWidget {
   const ConnectorTypeBadge(this.connectorType, {super.key, this.small = false});
@@ -24,8 +25,9 @@ class ConnectorTypeBadge extends StatelessWidget {
         borderRadius: BorderRadius.circular(radius),
         border      : Border.all(color: color.withValues(alpha: 0.4)),
       ),
-      child: Text(
+      child: DeutschText(
         connectorType.labelDe,
+        ganzeZeile: false, // Abzeichen
         style: TextStyle(
           fontSize  : fSize,
           color     : color,

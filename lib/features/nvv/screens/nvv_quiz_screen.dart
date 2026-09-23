@@ -114,8 +114,9 @@ class _NvvQuizScreenState extends ConsumerState<NvvQuizScreen> {
                 padding: const EdgeInsets.all(AppSizes.lg),
                 child: Column(
                   children: [
-                    Text(
+                    DeutschText(
                       p.phraseDe,
+                      ganzeZeile: false, // zentrierte Karte
                       style: Theme.of(context).textTheme.headlineSmall
                           ?.copyWith(fontWeight: FontWeight.w800),
                       textAlign: TextAlign.center,

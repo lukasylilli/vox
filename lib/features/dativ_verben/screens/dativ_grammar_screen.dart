@@ -6,6 +6,7 @@ import '../../../core/l10n/app_l10n.dart';
 import '../controllers/dativ_verben_controller.dart';
 import '../models/dativ_verb.dart';
 import '../widgets/case_type_badge.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class DativGrammarScreen extends ConsumerWidget {
   const DativGrammarScreen({super.key});
@@ -74,7 +75,7 @@ class DativGrammarScreen extends ConsumerWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text(ex['de'] as String,
+                            DeutschText(ex['de'] as String,
                                 style: const TextStyle(
                                     fontWeight: FontWeight.w700)),
                             const SizedBox(height: 2),

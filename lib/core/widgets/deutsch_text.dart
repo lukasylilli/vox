@@ -94,3 +94,49 @@ class DeutschText extends StatelessWidget {
         textAlign : textAlign,
       );
 }
+
+/// Wie [DeutschText], aber für deutschen Text mit mehreren Stilen in einer
+/// Zeile (hervorgehobene Präposition, farbiger Kasus, Lücke …).
+///
+/// Nachtrag 2026-09-23 (Fund Lukas, Auswendiglernen auf dem iPhone): Die
+/// Beispielsätze mit Hervorhebung liefen über ein nacktes `Text.rich` /
+/// `RichText` — in der persischen Oberfläche rechtsbündig und mit dem Punkt
+/// am Satzanfang. `test/deutscher_text_waechter_test.dart` lässt in
+/// `lib/features/` deshalb kein nacktes `Text.rich(`/`RichText(` mehr zu.
+class DeutschRichText extends StatelessWidget {
+  const DeutschRichText(
+    this.span, {
+    super.key,
+    this.style,
+    this.maxLines,
+    this.overflow,
+    this.textAlign = TextAlign.left,
+    this.ganzeZeile = true,
+  });
+
+  final InlineSpan span;
+  final TextStyle? style;
+  final int? maxLines;
+  final TextOverflow? overflow;
+
+  /// Standard links — niemals `right` (siehe [DeutschText.textAlign]).
+  final TextAlign textAlign;
+
+  /// Siehe [DeutschText.ganzeZeile].
+  final bool ganzeZeile;
+
+  @override
+  Widget build(BuildContext context) => deutschLinksbuendig(
+        context,
+        Text.rich(
+          span,
+          style        : style,
+          maxLines     : maxLines,
+          overflow     : overflow,
+          textAlign    : textAlign,
+          textDirection: TextDirection.ltr,
+        ),
+        ganzeZeile: ganzeZeile,
+        textAlign : textAlign,
+      );
+}

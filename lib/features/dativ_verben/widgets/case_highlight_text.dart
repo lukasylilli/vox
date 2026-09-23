@@ -6,6 +6,7 @@
 // FALLBACK: ohne Annotation greift die alte Pronomen-/Artikel-Heuristik.
 import 'package:flutter/material.dart';
 import '../models/dativ_verb.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class CaseHighlightText extends StatelessWidget {
   const CaseHighlightText({
@@ -49,7 +50,7 @@ class CaseHighlightText extends StatelessWidget {
         ? _annotatedSpans(base, datColor, akkColor)
         : _heuristicSpans(base, datColor, akkColor);
 
-    return RichText(text: TextSpan(children: spans));
+    return DeutschRichText(TextSpan(children: spans));
   }
 
   // ─── Datengetrieben: exakte Phrasen aus caseRoles färben ──────────────────

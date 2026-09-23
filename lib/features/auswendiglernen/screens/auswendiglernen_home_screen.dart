@@ -12,6 +12,7 @@ import '../../../core/utils/formatters.dart';
 import '../../../core/widgets/vox_snack_bar.dart';
 import '../controllers/auswendiglernen_controller.dart';
 import '../../../core/l10n/app_l10n.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 // ─── Data models ─────────────────────────────────────────────────────────────
 
@@ -364,7 +365,7 @@ class _DeckTile extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
+                    DeutschText(
                       deck.titleDe,
                       style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                             fontWeight: FontWeight.w600,

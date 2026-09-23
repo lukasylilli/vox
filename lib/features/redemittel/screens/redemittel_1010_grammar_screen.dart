@@ -296,8 +296,9 @@ class _PatternCardState extends State<_PatternCard> {
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Center(
-                      child: Text(
+                      child: DeutschText(
                         widget.labelDe.substring(0, 1),
+                        ganzeZeile: false, // Buchstabe im Kreis
                         style: TextStyle(
                           fontSize  : 20,
                           fontWeight: FontWeight.w900,

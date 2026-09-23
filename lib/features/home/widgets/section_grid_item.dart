@@ -1,6 +1,7 @@
 // FILE: lib/features/home/widgets/section_grid_item.dart
 // PURPOSE: Single card in the home 3×4 grid — icon, DE title, local title
 import 'package:flutter/material.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class SectionData {
   const SectionData({
@@ -63,8 +64,9 @@ class SectionGridItem extends StatelessWidget {
               children: [
                 Icon(section.icon, color: Colors.white, size: 28),
                 const Spacer(),
-                Text(
+                DeutschText(
                   section.titleDe,
+                  ganzeZeile: false, // Kachel-Beschriftung
                   style: const TextStyle(
                     color     : Colors.white,
                     fontSize  : 12,

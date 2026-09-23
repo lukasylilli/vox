@@ -336,7 +336,7 @@ class _VerbPraepQuizScreenState extends State<VerbPraepQuizScreen> {
         return Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text.rich(
+            DeutschRichText(
               TextSpan(children: [
                 TextSpan(text: '${q.clozePrefix} '),
                 const TextSpan(

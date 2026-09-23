@@ -4,6 +4,7 @@
 //          Dativ = blau, Akkusativ = lila. Rein datengetrieben (kein Raten):
 //          die Phrasen stehen wörtlich im Feld card['kasus_beispiele'].
 import 'package:flutter/material.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class KasusBeispielBlock extends StatelessWidget {
   const KasusBeispielBlock({
@@ -41,10 +42,8 @@ class KasusBeispielBlock extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          RichText(
-            textDirection: TextDirection.ltr,
-            text: TextSpan(children: _spans(base, datColor, akkColor)),
-          ),
+          DeutschRichText(
+              TextSpan(children: _spans(base, datColor, akkColor))),
           if (uebersetzung != null && uebersetzung!.isNotEmpty)
             Padding(
               padding: const EdgeInsets.only(top: 2),

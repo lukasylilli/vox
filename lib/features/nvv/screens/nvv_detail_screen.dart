@@ -95,7 +95,7 @@ class _NvvDetailBodyState extends State<_NvvDetailBody> {
                 Row(
                   children: [
                     Expanded(
-                      child: Text(
+                      child: DeutschText(
                         p.phraseDe,
                         style: Theme.of(context).textTheme.headlineSmall
                             ?.copyWith(fontWeight: FontWeight.w800),
@@ -261,11 +261,11 @@ class _HighlightedExample extends StatelessWidget {
     final start   = lower.indexOf(hLower);
 
     if (start == -1) {
-      return Text(sentence,
+      return DeutschText(sentence,
           style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w500));
     }
     final end = start + highlight.length;
-    return Text.rich(TextSpan(children: [
+    return DeutschRichText(TextSpan(children: [
       if (start > 0) TextSpan(text: sentence.substring(0, start)),
       TextSpan(
         text : sentence.substring(start, end),

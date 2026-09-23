@@ -13,6 +13,7 @@ import '../controllers/konnektoren_controller.dart';
 import '../models/konnektor.dart';
 import '../widgets/connector_type_badge.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class KonnektorenHomeScreen extends ConsumerStatefulWidget {
   const KonnektorenHomeScreen({super.key});
@@ -223,7 +224,7 @@ class _KonnektorTile extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
+                    DeutschText(
                       k.connector,
                       style: tt.titleMedium
                           ?.copyWith(fontWeight: FontWeight.w700),
@@ -238,7 +239,7 @@ class _KonnektorTile extends StatelessWidget {
                       overflow: TextOverflow.ellipsis,
                     ),
                     const SizedBox(height: 4),
-                    Text(
+                    DeutschText(
                       k.exampleDe,
                       style: tt.bodySmall?.copyWith(
                         color    : cs.onSurfaceVariant,

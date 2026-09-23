@@ -10,6 +10,7 @@ import '../../../core/widgets/vox_error_widget.dart';
 import '../controllers/praepositionen_controller.dart';
 import '../models/praep_cluster.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class PraepClusterDetailScreen extends ConsumerWidget {
   const PraepClusterDetailScreen({super.key, required this.clusterId});
@@ -186,7 +187,7 @@ class _MemberRow extends StatelessWidget {
               size: 16, color: scheme.onSurfaceVariant),
           const SizedBox(width: 8),
           Expanded(
-            child: Text.rich(TextSpan(children: [
+            child: DeutschRichText(TextSpan(children: [
               TextSpan(
                 text : member.lemma,
                 style: const TextStyle(fontWeight: FontWeight.w600,
@@ -267,12 +268,12 @@ class _HighlightedText extends StatelessWidget {
     final idx    = lower.indexOf(hLower);
 
     if (idx == -1) {
-      return Text(sentence,
+      return DeutschText(sentence,
           style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w500));
     }
     final start = idx + 1;
     final end   = start + highlight.length;
-    return Text.rich(TextSpan(children: [
+    return DeutschRichText(TextSpan(children: [
       if (start > 0) TextSpan(text: sentence.substring(0, start)),
       TextSpan(
         text : sentence.substring(start, end),

@@ -8,6 +8,7 @@ import '../controllers/reflexiv_controller.dart';
 import '../models/reflexiv_verb.dart';
 import '../widgets/reflexivity_type_badge.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class ReflexivDetailScreen extends ConsumerStatefulWidget {
   const ReflexivDetailScreen({super.key, required this.verbId});
@@ -117,7 +118,7 @@ class _ReflexivDetailScreenState
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
+                    DeutschText(
                       verb.exampleDe,
                       style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                             fontStyle: FontStyle.italic,

@@ -65,7 +65,7 @@ class _WordDetailView extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Expanded(
-                child: Text(
+                child: DeutschText(
                   model.german,
                   style: theme.textTheme.displaySmall?.copyWith(
                     fontWeight: FontWeight.w800,

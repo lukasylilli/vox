@@ -5,6 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../core/constants/app_sizes.dart';
 import '../../../core/l10n/app_l10n.dart' show AppL10n;
 import '../controllers/trennbar_controller.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 /// فاز L3: liest `<base>_en` im EN-Modus, Fallback auf `<base>_fa`.
 String _loc(BuildContext context, Map<String, dynamic> m, String base) =>
@@ -481,7 +482,7 @@ class _ExRow extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(de,
+          DeutschText(de,
               style: const TextStyle(
                   fontStyle: FontStyle.italic, fontSize: 13)),
           if (transl.isNotEmpty)

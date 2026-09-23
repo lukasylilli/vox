@@ -11,6 +11,7 @@ import '../../../core/models/word_model.dart';
 import '../../../core/widgets/article_badge.dart';
 import '../../../core/widgets/audio_play_button.dart';
 import 'wende_karte.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class FlashCardWidget extends StatelessWidget {
   const FlashCardWidget({
@@ -63,8 +64,9 @@ class _FrontFace extends StatelessWidget {
             ArticleBadge(article: article, large: true),
             const SizedBox(height: AppSizes.sm),
           ],
-          Text(
+          DeutschText(
             model.german,
+            ganzeZeile: false, // Karte ist zentriert
             style    : theme.textTheme.headlineLarge?.copyWith(
               fontWeight: FontWeight.w800,
               color: article != null ? color : scheme.onSurface,

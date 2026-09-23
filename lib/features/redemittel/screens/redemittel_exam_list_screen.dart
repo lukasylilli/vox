@@ -180,7 +180,7 @@ class _SectionGroupState extends State<_SectionGroup> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
+                      DeutschText(
                         widget.titleDe,
                         style: theme.textTheme.titleSmall?.copyWith(
                           fontWeight: FontWeight.w700,

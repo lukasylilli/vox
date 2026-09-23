@@ -12,6 +12,7 @@ import '../../../core/widgets/vox_search_field.dart';
 import '../controllers/nvv_controller.dart';
 import '../models/nvv_phrase.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class NvvHomeScreen extends ConsumerStatefulWidget {
   const NvvHomeScreen({super.key});
@@ -232,7 +233,7 @@ class _NvvTile extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
+                    DeutschText(
                       phrase.phraseDe,
                       style: tt.titleMedium
                           ?.copyWith(fontWeight: FontWeight.w700),

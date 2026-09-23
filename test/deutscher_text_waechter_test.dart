@@ -39,6 +39,9 @@ const deutscheFelder = <String>[
   '.sectionTitleDe',
   '.connector',
   '.labelDe',
+  // Nachtrag 2026-09-23: Beispielsätze in den Grammatik-Seiten der Decks
+  "['de']",
+  "['example_de']",
 ];
 
 /// Stellen, die absichtlich ein nacktes `Text(` behalten — mit Begründung.
@@ -80,7 +83,12 @@ void main() {
           continue;
         }
 
-        final feld = deutscheFelder.where(l.contains).toList();
+        // Auch `Text(` am Zeilenende mit dem Inhalt in der nächsten Zeile
+        // (Nachtrag 2026-09-23: so rutschten `verb.exampleDe` & Co. durch).
+        final inhalt = l.trimRight().endsWith('Text(') && i + 1 < zeile.length
+            ? '$l ${zeile[i + 1]}'
+            : l;
+        final feld = deutscheFelder.where(inhalt.contains).toList();
         if (feld.isEmpty) continue;
 
         if (erlaubteAusnahmen.containsKey(pfad)) continue;
@@ -99,5 +107,37 @@ void main() {
           'wirklich keine deutsche Anzeige ist, oben in erlaubteAusnahmen\n'
           'mit Begründung eintragen.\n\n${treffer.join("\n")}',
     );
+  });
+
+  // Nachtrag 2026-09-23 (Fund Lukas, Auswendiglernen): hervorgehobene
+  // Beispielsätze liefen über nacktes `Text.rich(` / `RichText(` und standen in
+  // der persischen Oberfläche rechts, mit dem Punkt am Satzanfang. Deutscher
+  // Text mit mehreren Stilen ⇒ `DeutschRichText` (core/widgets/deutsch_text.dart).
+  test('kein nacktes Text.rich( / RichText( in lib/features/', () {
+    // Stellen ohne (reinen) deutschen Inhalt — mit Begründung.
+    const ausnahmen = <String, String>{
+      'lib/features/vokabular/widgets/wort_notiz.dart':
+          'freie Notiz des Nutzers — Sprache offen, folgt der Oberfläche',
+      'lib/features/home/screens/search_results_screen.dart':
+          'Treffer der Suche: Deutsch ODER Übersetzung gemischt',
+      'lib/features/vokabular/screens/wort_seite_screen.dart':
+          'Kopf der Wortseite: schon LTR; steht bewusst direkt neben dem '
+              'Symbol (Kopfzeile folgt der Oberfläche)',
+    };
+    final treffer = <String>[];
+    for (final e in Directory('lib/features').listSync(recursive: true)) {
+      if (e is! File || !e.path.endsWith('.dart')) continue;
+      final pfad = e.path.replaceAll(r'\', '/');
+      if (ausnahmen.containsKey(pfad)) continue;
+      final zeilen = e.readAsLinesSync();
+      for (var i = 0; i < zeilen.length; i++) {
+        if (RegExp(r'(?<![A-Za-z])(Text\.rich|RichText)\(').hasMatch(zeilen[i])) {
+          treffer.add('$pfad:${i + 1}: ${zeilen[i].trim()}');
+        }
+      }
+    }
+    expect(treffer, isEmpty,
+        reason: 'Deutscher Text mit Hervorhebung ⇒ DeutschRichText; '
+            'sonst Ausnahme mit Begründung eintragen:\n${treffer.join('\n')}');
   });
 }

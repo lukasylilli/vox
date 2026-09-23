@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../core/l10n/app_l10n.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class NvvGrammarScreen extends StatelessWidget {
   const NvvGrammarScreen({super.key});
@@ -219,7 +220,7 @@ class _ExampleRow extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(de, style: const TextStyle(fontStyle: FontStyle.italic)),
+          DeutschText(de, style: const TextStyle(fontStyle: FontStyle.italic)),
           Text(AppL10n.meaning(context, fa: fa, en: en),
               style: Theme.of(context).textTheme.bodySmall
               ?.copyWith(color: cs.onSurfaceVariant)),

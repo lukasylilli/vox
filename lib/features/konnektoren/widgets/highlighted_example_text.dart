@@ -1,5 +1,6 @@
 // FILE: lib/features/konnektoren/widgets/highlighted_example_text.dart
 import 'package:flutter/material.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 /// Highlights [highlight] substring inside [sentence] with accent colour.
 /// Falls back to plain text if substring not found (case-sensitive search).
@@ -21,19 +22,19 @@ class HighlightedExampleText extends StatelessWidget {
     final accent  = Theme.of(context).colorScheme.primary;
 
     if (highlight.isEmpty) {
-      return Text(sentence, style: base);
+      return DeutschText(sentence, style: base);
     }
 
     final idx = sentence.indexOf(highlight);
     if (idx == -1) {
-      return Text(sentence, style: base);
+      return DeutschText(sentence, style: base);
     }
 
     final before = sentence.substring(0, idx);
     final match  = sentence.substring(idx, idx + highlight.length);
     final after  = sentence.substring(idx + highlight.length);
 
-    return Text.rich(
+    return DeutschRichText(
       TextSpan(
         style   : base,
         children: [
@@ -47,8 +48,9 @@ class HighlightedExampleText extends StatelessWidget {
                 color       : accent.withValues(alpha: 0.15),
                 borderRadius: BorderRadius.circular(3),
               ),
-              child: Text(
+              child: DeutschText(
                 match,
+                ganzeZeile: false, // Wort mitten im Satz
                 style: base.copyWith(
                   color     : accent,
                   fontWeight: FontWeight.w700,
