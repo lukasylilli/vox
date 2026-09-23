@@ -1,6 +1,7 @@
 # PROJECT MAP — VOX
 # نقشه کامل پروژه برای ناوبری سریع در هر session
-# آپدیت: 2026-09-23 دور ۱۷ — تست آیفون واقعی کامل ✅ (Lukas)؛ B-13 روی آیفون تأیید شد. نقشه‌ی فایل‌ها تغییری نکرد.
+# آپدیت: 2026-09-23 دور ۱۸ — گزارش Lukas: پاپ‌آپ کلمه (klick_wort_text.dart / wort_popup.dart) روی آیفون واقعی باز نمی‌شود؛ در Chromium و WebKit (شبیه‌سازی iPhone) باز می‌شود. کدی عوض نشد. جزئیات: PLAN «آخرین جلسه».
+# قبلی: 2026-09-23 دور ۱۷ — تست آیفون واقعی کامل ✅ (Lukas)؛ B-13 روی آیفون تأیید شد. نقشه‌ی فایل‌ها تغییری نکرد.
 # قبلی: 2026-09-23 دور ۱۶ — B-13: لایتنر هر دو منبع (LeitnerCards + ArchivLeitner) را می‌خواند؛ فایل‌های تازه wende_karte.dart، archiv_flash_card.dart، test/leitner_beide_quellen_test.dart؛ WortZeile در wort_card.dart.
 # قبلی: دور ۱۵ — تصمیم L.2d (deckهای خالی «به‌زودی» می‌مانند).
 # قبلی: دور ۱۴ — L.3b: web/locale_guard.js (نگهبان زبان نامعتبر مرورگر). دور ۱۳ خلاصه‌سازی (متن مفصل: `git show afad3ab:PROJECT_MAP.md`).
