@@ -293,6 +293,7 @@ class AppL10n {
       // Leitner
       'leitner_review_title': 'مرور Leitner',
       'leitner_no_cards'    : 'هیچ کارتی برای مرور امروز وجود نداره!',
+      'leitner_wortseite'   : 'صفحه‌ی کامل کلمه',
       'flip_card_hint'      : 'کارت رو برگردون تا جواب رو ببینی',
       'didn_t_know'         : 'نمی‌دونستم',
       'knew_it'             : 'بلد بودم',
@@ -1013,6 +1014,7 @@ class AppL10n {
       // Leitner
       'leitner_review_title': 'Leitner Review',
       'leitner_no_cards'    : 'No cards due today!',
+      'leitner_wortseite'   : 'Open full word page',
       'flip_card_hint'      : 'Flip the card to see the answer',
       'didn_t_know'         : "Didn't know",
       'knew_it'             : 'Knew it',

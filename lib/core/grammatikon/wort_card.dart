@@ -38,23 +38,8 @@ class WortCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final wort = card['wort'] as String? ?? '';
-    final wortart = card['wortart'] as String?;
     final niveau = card['niveau'] as String?;
     final box = card['box'] as int?;
-
-    // Genus-/Verb-Farbe aus derselben Quelle wie das Symbol.
-    // kontur (schwarz) wäre im Dark Mode unlesbar → dann Theme-Farbe (null).
-    final descriptorColor = GrammatikonResolver.resolve(card).color;
-    final farbe =
-        descriptorColor == GrammatikonSpec.kontur ? null : descriptorColor;
-
-    // Nomen: Artikel komplett in Genusfarbe (in Listen schneller erfassbar
-    // als nur die Endung), Lemma dahinter unmarkiert.
-    final istNomen = wortart == 'nomen';
-    final teile = wort.split(' ');
-    final artikel = istNomen && teile.length > 1 ? teile.first : null;
-    final lemma = artikel != null ? teile.sublist(1).join(' ') : wort;
 
     final uebersetzung = _uebersetzung(context);
 
@@ -76,32 +61,7 @@ class WortCard extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Row(
-                      textDirection: TextDirection.ltr, // Deutsch immer LTR
-                      crossAxisAlignment: CrossAxisAlignment.baseline,
-                      textBaseline: TextBaseline.alphabetic,
-                      children: [
-                        if (artikel != null)
-                          Text(
-                            '$artikel ',
-                            style: theme.textTheme.titleMedium?.copyWith(
-                              fontWeight: FontWeight.w800,
-                              color: farbe,
-                            ),
-                          ),
-                        Flexible(
-                          child: WortText(
-                            wort: lemma,
-                            color: farbe,
-                            // Verben: Infinitiv-Endung -en markiert (Duden:
-                            // "lernen"); Nomen-Lemma unmarkiert.
-                            endung: wortart == 'verb' ? 'en' : '',
-                            style: theme.textTheme.titleMedium
-                                ?.copyWith(fontWeight: FontWeight.w700),
-                          ),
-                        ),
-                      ],
-                    ),
+                    WortZeile(card: card, style: theme.textTheme.titleMedium),
                     if (uebersetzung.isNotEmpty) ...[
                       const SizedBox(height: 2),
                       Text(
@@ -141,6 +101,68 @@ class WortCard extends StatelessWidget {
           ),
         ),
       ),
+    );
+  }
+}
+
+/// Das Wort selbst — Artikel + Lemma in der Farbe aus dem Grammatikon.
+///
+/// Aus [WortCard] herausgelöst (B-13, 2026-09-23), damit die Lernkarte im
+/// Leitner (`ArchivFlashCard`) das Wort **genau so** färbt wie die Liste —
+/// eine Stelle, keine zweite Genus→Farbe-Regel. [style] ist die Grundschrift
+/// (Größe); Gewichte und Farbe setzt dieses Widget.
+class WortZeile extends StatelessWidget {
+  final Map<String, dynamic> card;
+  final TextStyle? style;
+
+  /// Mittig statt linksbündig (Lernkarte).
+  final bool zentriert;
+
+  const WortZeile(
+      {super.key, required this.card, this.style, this.zentriert = false});
+
+  @override
+  Widget build(BuildContext context) {
+    final wort = card['wort'] as String? ?? '';
+    final wortart = card['wortart'] as String?;
+
+    // Genus-/Verb-Farbe aus derselben Quelle wie das Symbol.
+    // kontur (schwarz) wäre im Dark Mode unlesbar → dann Theme-Farbe (null).
+    final descriptorColor = GrammatikonResolver.resolve(card).color;
+    final farbe =
+        descriptorColor == GrammatikonSpec.kontur ? null : descriptorColor;
+
+    // Nomen: Artikel komplett in Genusfarbe (in Listen schneller erfassbar
+    // als nur die Endung), Lemma dahinter unmarkiert.
+    final istNomen = wortart == 'nomen';
+    final teile = wort.split(' ');
+    final artikel = istNomen && teile.length > 1 ? teile.first : null;
+    final lemma = artikel != null ? teile.sublist(1).join(' ') : wort;
+
+    return Row(
+      textDirection: TextDirection.ltr, // Deutsch immer LTR
+      mainAxisSize: zentriert ? MainAxisSize.min : MainAxisSize.max,
+      crossAxisAlignment: CrossAxisAlignment.baseline,
+      textBaseline: TextBaseline.alphabetic,
+      children: [
+        if (artikel != null)
+          Text(
+            '$artikel ',
+            style: style?.copyWith(fontWeight: FontWeight.w800, color: farbe) ??
+                TextStyle(fontWeight: FontWeight.w800, color: farbe),
+          ),
+        Flexible(
+          child: WortText(
+            wort: lemma,
+            color: farbe,
+            // Verben: Infinitiv-Endung -en markiert (Duden:
+            // "lernen"); Nomen-Lemma unmarkiert.
+            endung: wortart == 'verb' ? 'en' : '',
+            style: style?.copyWith(fontWeight: FontWeight.w700) ??
+                const TextStyle(fontWeight: FontWeight.w700),
+          ),
+        ),
+      ],
     );
   }
 }

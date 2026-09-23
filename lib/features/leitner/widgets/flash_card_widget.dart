@@ -1,8 +1,7 @@
 // FILE: lib/features/leitner/widgets/flash_card_widget.dart
 // DEPS: word_model.dart, article_badge.dart, audio_play_button.dart
 // PURPOSE: 3D flip flash card — front=German, back=meaning+conjugation+examples
-import 'dart:math' as math;
-
+//          (App-Wörter; die Wende selbst steckt in wende_karte.dart — B-13)
 import 'package:flutter/material.dart';
 
 import '../../../core/constants/app_sizes.dart';
@@ -11,8 +10,9 @@ import '../../../core/l10n/app_l10n.dart';
 import '../../../core/models/word_model.dart';
 import '../../../core/widgets/article_badge.dart';
 import '../../../core/widgets/audio_play_button.dart';
+import 'wende_karte.dart';
 
-class FlashCardWidget extends StatefulWidget {
+class FlashCardWidget extends StatelessWidget {
   const FlashCardWidget({
     super.key,
     required this.model,
@@ -22,79 +22,13 @@ class FlashCardWidget extends StatefulWidget {
   final VoidCallback? onFlip;
 
   @override
-  State<FlashCardWidget> createState() => _FlashCardWidgetState();
-}
-
-class _FlashCardWidgetState extends State<FlashCardWidget>
-    with SingleTickerProviderStateMixin {
-  late final AnimationController _ctrl;
-  late final Animation<double>   _anim;
-  bool _showBack = false;
-
-  @override
-  void initState() {
-    super.initState();
-    _ctrl = AnimationController(
-      vsync   : this,
-      duration: const Duration(milliseconds: 400),
-    );
-    _anim = CurvedAnimation(parent: _ctrl, curve: Curves.easeInOut);
-  }
-
-  @override
-  void didUpdateWidget(FlashCardWidget old) {
-    super.didUpdateWidget(old);
-    if (old.model != widget.model) {
-      _ctrl.value = 0;
-      setState(() => _showBack = false);
-    }
-  }
-
-  void _flip() {
-    if (_ctrl.isAnimating) return;
-    if (_showBack) {
-      _ctrl.reverse().then((_) => setState(() => _showBack = false));
-    } else {
-      _ctrl.forward().then((_) {
-        setState(() => _showBack = true);
-        widget.onFlip?.call();
-      });
-    }
-  }
-
-  @override
-  void dispose() {
-    _ctrl.dispose();
-    super.dispose();
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: _flip,
-      child: AnimatedBuilder(
-        animation: _anim,
-        builder  : (_, _) {
-          final angle = _anim.value * math.pi;
-          final isShowingFront = angle < math.pi / 2;
-
-          return Transform(
-            alignment: Alignment.center,
-            transform: Matrix4.identity()
-              ..setEntry(3, 2, 0.001)
-              ..rotateY(angle),
-            child: isShowingFront
-                ? _FrontFace(model: widget.model)
-                : Transform(
-                    alignment: Alignment.center,
-                    transform: Matrix4.identity()..rotateY(math.pi),
-                    child    : _BackFace(model: widget.model),
-                  ),
-          );
-        },
-      ),
-    );
-  }
+  Widget build(BuildContext context) => WendeKarte(
+        // Neues Wort ⇒ neue Wende-Karte ⇒ wieder die Vorderseite.
+        key: ObjectKey(model),
+        vorne: _FrontFace(model: model),
+        hinten: _BackFace(model: model),
+        onFlip: onFlip,
+      );
 }
 
 // ── Front face ────────────────────────────────────────────────────────────────

@@ -1,15 +1,23 @@
 // FILE: lib/features/leitner/screens/leitner_review_screen.dart
-// DEPS: leitner_dao.dart, leitner_controller.dart, flash_card_widget.dart, word_controller.dart
+// DEPS: leitner_controller.dart, flash_card_widget.dart, archiv_flash_card.dart,
+//       word_controller.dart, vokabular_controller.dart, user_state_repository.dart
 // PURPOSE: Review session — flip cards, mark correct/wrong, show summary at end
+//          B-13: fragt BEIDE Quellen ab (App-Wörter + Archivkarten), in der
+//          Reihenfolge von leitnerEintraegeProvider; jede Bewertung geht an
+//          die Tabelle, aus der die Karte stammt.
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
+import '../../../core/backup/user_state_repository.dart';
 import '../../../core/constants/app_sizes.dart';
-import '../../../core/database/app_database.dart';
 import '../../../core/l10n/app_l10n.dart';
 import '../../../core/models/word_model.dart';
+import '../../vokabular/controllers/vokabular_controller.dart';
+import '../../vokabular/controllers/vokabular_user_state.dart';
 import '../../wortschatz/controllers/word_controller.dart';
 import '../controllers/leitner_controller.dart';
+import '../widgets/archiv_flash_card.dart';
 import '../widgets/flash_card_widget.dart';
 import '../../../core/widgets/vox_button.dart';
 
@@ -20,8 +28,25 @@ class LeitnerReviewScreen extends ConsumerStatefulWidget {
   ConsumerState<LeitnerReviewScreen> createState() => _LeitnerReviewScreenState();
 }
 
+/// Eine fällige Karte mit dem, was die Lernkarte zum Anzeigen braucht.
+sealed class _Pruefling {
+  const _Pruefling();
+}
+
+final class _AppWort extends _Pruefling {
+  const _AppWort(this.eintrag, this.wort);
+  final AppWortEintrag eintrag;
+  final WordModel wort;
+}
+
+final class _Archiv extends _Pruefling {
+  const _Archiv(this.eintrag, this.karte);
+  final ArchivEintrag eintrag;
+  final Map<String, dynamic> karte; // Index-Eintrag
+}
+
 class _LeitnerReviewScreenState extends ConsumerState<LeitnerReviewScreen> {
-  List<(LeitnerCard, WordModel)> _items = [];
+  List<_Pruefling> _items = [];
   int   _currentIndex = 0;
   bool  _showAnswer   = false;
   bool  _loaded       = false;
@@ -35,36 +60,54 @@ class _LeitnerReviewScreenState extends ConsumerState<LeitnerReviewScreen> {
   }
 
   Future<void> _loadCards() async {
-    final dao     = ref.read(leitnerDaoProvider);
-    final wordDao = ref.read(wordDaoProvider);
-    final due     = await dao.getDue();
+    final wordDao   = ref.read(wordDaoProvider);
+    final eintraege = await ref.read(leitnerEintraegeProvider.future);
+    final jetzt     = DateTime.now();
+    final faellig   = eintraege.where((e) => e.istFaellig(jetzt)).toList();
 
-    final pairs = <(LeitnerCard, WordModel)>[];
-    for (final card in due) {
-      final word = await wordDao.getById(card.wordId);
-      if (word != null) pairs.add((card, word.toModel()));
+    // Archivkarten brauchen nur den Index (schon beim Start geladen).
+    final index = faellig.any((e) => e is ArchivEintrag)
+        ? await ref.read(vokabIndexByIdProvider.future)
+        : const <String, Map<String, dynamic>>{};
+
+    final items = <_Pruefling>[];
+    for (final e in faellig) {
+      switch (e) {
+        case AppWortEintrag():
+          final word = await wordDao.getById(e.karte.wordId);
+          if (word != null) items.add(_AppWort(e, word.toModel()));
+        case ArchivEintrag():
+          // Karte (noch) nicht im Archiv dieser App-Fassung ⇒ nicht abfragen,
+          // aber auch nie löschen: der Fortschritt bleibt stehen (L.1a).
+          final karte = index[e.wortId];
+          if (karte != null) items.add(_Archiv(e, karte));
+      }
     }
 
-    if (mounted) setState(() { _items = pairs; _loaded = true; });
+    if (mounted) setState(() { _items = items; _loaded = true; });
+  }
+
+  Future<void> _bewerten({required bool gewusst}) async {
+    switch (_items[_currentIndex]) {
+      case _AppWort(:final eintrag):
+        final dao = ref.read(leitnerDaoProvider);
+        gewusst
+            ? await dao.markCorrect(eintrag.karte)
+            : await dao.markWrong(eintrag.karte);
+      case _Archiv(:final eintrag):
+        final prefs = await SharedPreferences.getInstance();
+        await UserStateRepository(ref.read(databaseProvider), prefs)
+            .archivLeitnerBewerten(eintrag.wortId, gewusst: gewusst);
+        // Wortseite/Liste zeigen das Fach aus dem Wort-Store.
+        await ref.read(vokabularUserProvider.notifier).neuLaden();
+    }
+    _advance(correct: gewusst);
   }
 
   void _onFlipped() => setState(() => _showAnswer = true);
 
-  Future<void> _markCorrect() async {
-    final (card, _) = _items[_currentIndex];
-    await ref.read(leitnerDaoProvider).markCorrect(card);
-    ref.invalidate(dueCountProvider);
-    ref.invalidate(boxCountsProvider);
-    _advance(correct: true);
-  }
-
-  Future<void> _markWrong() async {
-    final (card, _) = _items[_currentIndex];
-    await ref.read(leitnerDaoProvider).markWrong(card);
-    ref.invalidate(dueCountProvider);
-    ref.invalidate(boxCountsProvider);
-    _advance(correct: false);
-  }
+  Future<void> _markCorrect() => _bewerten(gewusst: true);
+  Future<void> _markWrong()   => _bewerten(gewusst: false);
 
   void _advance({required bool correct}) {
     setState(() {
@@ -94,8 +137,8 @@ class _LeitnerReviewScreenState extends ConsumerState<LeitnerReviewScreen> {
       );
     }
 
-    final (_, model) = _items[_currentIndex];
-    final progress    = _currentIndex / _items.length;
+    final item     = _items[_currentIndex];
+    final progress = _currentIndex / _items.length;
 
     return Scaffold(
       appBar: AppBar(
@@ -123,7 +166,12 @@ class _LeitnerReviewScreenState extends ConsumerState<LeitnerReviewScreen> {
 
             // Flash card — expands to fill available space
             Expanded(
-              child: FlashCardWidget(model: model, onFlip: _onFlipped),
+              child: switch (item) {
+                _AppWort(:final wort) =>
+                    FlashCardWidget(model: wort, onFlip: _onFlipped),
+                _Archiv(:final karte) =>
+                    ArchivFlashCard(karte: karte, onFlip: _onFlipped),
+              },
             ),
 
             const SizedBox(height: AppSizes.md),

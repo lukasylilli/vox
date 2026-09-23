@@ -18,7 +18,7 @@ class LeitnerStatsScreen extends ConsumerWidget {
     final theme       = Theme.of(context);
     final scheme      = theme.colorScheme;
     final countsAsync = ref.watch(boxCountsProvider);
-    final allAsync    = ref.watch(allLeitnerCardsProvider);
+    final allAsync    = ref.watch(leitnerEintraegeProvider); // B-13: beide Quellen
     final dueAsync    = ref.watch(dueCountProvider);
 
     return Scaffold(
@@ -134,15 +134,15 @@ class LeitnerStatsScreen extends ConsumerWidget {
             data   : (cards) {
               final now = DateTime.now();
               final upcoming = cards
-                  .where((c) => c.nextReview.isAfter(now))
+                  .where((c) => c.faellig.isAfter(now))
                   .toList()
-                ..sort((a, b) => a.nextReview.compareTo(b.nextReview));
+                ..sort((a, b) => a.faellig.compareTo(b.faellig));
               if (upcoming.isEmpty) {
                 return Text(AppL10n.t(context, 'no_future_cards'));
               }
               final grouped = <String, int>{};
               for (final card in upcoming) {
-                final diff = card.nextReview.difference(now).inDays + 1;
+                final diff = card.faellig.difference(now).inDays + 1;
                 final key  = diff == 1 ? AppL10n.t(context, 'tomorrow') : AppL10n.tf(context, 'in_x_days', {'n': '$diff'});
                 grouped[key] = (grouped[key] ?? 0) + 1;
               }

@@ -1,6 +1,7 @@
 # PROJECT MAP — VOX
 # نقشه کامل پروژه برای ناوبری سریع در هر session
-# آپدیت: 2026-09-23 دور ۱۵ — تصمیم Lukas L.2d: deckهای بی‌محتوا با «به‌زودی» (قفل، R-3.3) می‌مانند، پنهان نمی‌شوند ⇒ FeatureFlags برای آن‌ها دست نمی‌خورد؛ کدی عوض نشد.
+# آپدیت: 2026-09-23 دور ۱۶ — B-13: لایتنر هر دو منبع (LeitnerCards + ArchivLeitner) را می‌خواند؛ فایل‌های تازه wende_karte.dart، archiv_flash_card.dart، test/leitner_beide_quellen_test.dart؛ WortZeile در wort_card.dart.
+# قبلی: دور ۱۵ — تصمیم L.2d (deckهای خالی «به‌زودی» می‌مانند).
 # قبلی: دور ۱۴ — L.3b: web/locale_guard.js (نگهبان زبان نامعتبر مرورگر). دور ۱۳ خلاصه‌سازی (متن مفصل: `git show afad3ab:PROJECT_MAP.md`).
 #
 # ⚠️ 2026-09-19 (اصلاح یادداشت آفلاین): «precache شدنی است» فقط برای ~۷٫۵MB فعلی (۸۷ کارت) درست است. کارت ~۴KB ⇒ ~۲۶٬۲۰۰ کارت ≈ ~۱۰۰MB
@@ -556,16 +557,23 @@ screens/
   leitner_home_screen.dart   [x]  — _DueBanner (gradient) + BoxProgressWidget + FAB مرور
                                     AppBar: آیکون آمار → leitnerStats
   leitner_review_screen.dart [x]  — ConsumerStatefulWidget: _loadCards در initState
+                                    B-13: کارت‌های موعدرسیده از leitnerEintraegeProvider (هر دو منبع)؛
+                                    AppWort ⇒ FlashCardWidget/LeitnerDao · Archiv ⇒ ArchivFlashCard/archivLeitnerBewerten
                                     FlashCardWidget + _AnswerButtons (درست/نمی‌دونستم)
                                     _SummaryScreen در پایان (score، pct، _StatCard)
   leitner_stats_screen.dart  [x]  — _StatChip × 3 + BoxProgressWidget + LinearProgressIndicator
                                     جدول upcoming reviews (group by days)
 controllers/
-  leitner_controller.dart    [x]  — leitnerDaoProvider، dueCardsProvider، allLeitnerCardsProvider
-                                    leitnerByBoxProvider، boxCountsProvider، dueCountProvider
-                                    isInLeitnerProvider، boxLabels، boxIntervals
+  leitner_controller.dart    [x]  — B-13 (2026-09-23): LeitnerEintrag (AppWortEintrag | ArchivEintrag)،
+                                    allLeitnerCardsProvider + archivLeitnerProvider ⇒ leitnerEintraegeProvider
+                                    = **تنها فهرست** لایتنر؛ boxCountsProvider/dueCountProvider از آن مشتق و
+                                    خودکار تازه می‌شوند. leitnerDaoProvider، isInLeitnerProvider، boxLabels، boxIntervals
+                                    (dueCardsProvider/leitnerByBoxProvider بی‌استفاده بودند، حذف شدند)
 widgets/
-  flash_card_widget.dart     [x]  — 3D flip (Matrix4.rotateY، AnimationController 400ms)
+  wende_karte.dart           [x]  — B-13: چرخش سه‌بعدی مشترک همه‌ی کارت‌های مرور (Matrix4.rotateY، 400ms)
+  archiv_flash_card.dart     [x]  — B-13: کارت مرور کارت آرشیو — جلو: WortSymbol + WortZeile + تلفظ؛
+                                    پشت: ترجمه (فقط زبان تنظیمات) + دکمه‌ی صفحه‌ی کامل کلمه. فقط Index لازم دارد
+  flash_card_widget.dart     [x]  — کلمه‌های قدیمی اپ؛ چرخش از wende_karte.dart
                                     front: German + article badge + AudioPlayButton
                                     back: meaningFa + conjugation table + examples
   box_progress_widget.dart   [x]  — Row 5 رنگ‌دار با count + label + interval

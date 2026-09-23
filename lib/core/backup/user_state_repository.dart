@@ -31,6 +31,7 @@ import 'package:drift/drift.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../database/app_database.dart';
+import '../database/dao/leitner_dao.dart' show LeitnerDao;
 import 'nutzer_profil.dart';
 import 'nutzer_zustand.dart';
 
@@ -558,6 +559,46 @@ class UserStateRepository {
               DoUpdate((_) => companion, target: [_db.archivLeitner.wortId]),
         );
     await _db.mitgliedschaftMerken(artLeitner, wortId, drin: true); // S.5
+  }
+
+  /// Der Archiv-Stapel als laufender Strom — für den Leitner-Bereich (B-13):
+  /// jede Aufnahme, jede Bewertung, jedes Einspielen einer Sicherung und
+  /// jeder Konto-Abgleich erscheint dort sofort, ohne dass jemand die
+  /// Anzeige von Hand auffrischen muss.
+  Stream<List<LeitnerStand>> archivLeitnerBeobachten() =>
+      _db.select(_db.archivLeitner).watch().map((zeilen) => [
+            for (final k in zeilen)
+              LeitnerStand(
+                wortId: k.wortId,
+                fach: k.boxNumber,
+                naechsteWiederholung: k.nextReview,
+                letzteWiederholung: k.lastReview,
+              ),
+          ]);
+
+  /// Ergebnis einer Wiederholung für eine Archivkarte (B-13).
+  ///
+  /// Dieselbe Regel wie für App-Wörter (`LeitnerDao.markCorrect/markWrong`,
+  /// dieselben Abstände `LeitnerDao.boxIntervals`): gewusst ⇒ ein Fach
+  /// weiter (höchstens 5), nicht gewusst ⇒ zurück in Fach 1, morgen wieder.
+  /// Karten, die inzwischen nicht mehr im Stapel sind, bleiben unberührt —
+  /// eine Bewertung legt nie eine Karte neu an.
+  Future<void> archivLeitnerBewerten(String wortId,
+      {required bool gewusst, DateTime? jetzt}) async {
+    final zeit = jetzt ?? DateTime.now();
+    final zeile = await (_db.select(_db.archivLeitner)
+          ..where((t) => t.wortId.equals(wortId)))
+        .getSingleOrNull();
+    if (zeile == null) return;
+    final fach = gewusst ? (zeile.boxNumber + 1).clamp(1, 5) : 1;
+    final tage = gewusst ? LeitnerDao.boxIntervals[fach - 1] : 1;
+    await (_db.update(_db.archivLeitner)
+          ..where((t) => t.wortId.equals(wortId)))
+        .write(ArchivLeitnerCompanion(
+      boxNumber: Value(fach),
+      nextReview: Value(zeit.add(Duration(days: tage))),
+      lastReview: Value(zeit),
+    ));
   }
 
   /// Archivkarte aus dem Stapel — auf ausdrücklichen Wunsch des Nutzers.
