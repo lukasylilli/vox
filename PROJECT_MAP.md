@@ -1,16 +1,9 @@
 # PROJECT MAP — VOX
 # نقشه کامل پروژه برای ناوبری سریع در هر session
-# آپدیت: 2026-09-23 دور ۲۴ — تازه: lib/features/vokabular/data/vokab_formen.dart (formenAusKarte، vokabFormenBauen) ⇒ assets/vocab_formen/ (ساخته‌ی tool/vokab_index.dart، gitignore، pubspec)؛ vokabular_controller.dart: vokabFormenStueckeProvider، vokabFormenStueckProvider، vokabNachFormProvider؛ klick_wort_provider.dart مرحله‌ی 2b.
-# قبلی: 2026-09-23 دور ۲۳ — core/widgets/deutsch_text.dart: DeutschRichText (آلمانی چندسبکی)؛ deckهای Auswendiglernen (praep_cluster_detail، nvv_detail، konnektoren/highlighted_example_text، trennbar/verb_praep/reflexiv detail+quiz، dativ quiz + case_highlight_text، kasus_beispiel_block، badgeها، …) ⇒ DeutschText/DeutschRichText؛ نگهبان چندخطی + Text.rich/RichText.
-# قبلی: 2026-09-23 دور ۲۲ — core/widgets/deutsch_text.dart: تابع deutschLinksbuendig() (تنها منبع چپ‌چینی آلمانی در RTL) + پارامتر ganzeZeile در DeutschText و KlickWortText؛ ganzeZeile:false در عنوان‌های AppBar (grammar_topic، grammatik_lektion، konnektor_detail، redemittel_1010_detail، nvv_detail، word_detail) و redemittel_1010_quiz (چیپ‌ها + سرتیتر)، dativ/nvv/praepositionen quiz؛ جدول grammatik_lektion_screen = LTR تمام‌عرض؛ anmerkung در wort_seite_screen = DeutschText.
-# قبلی: 2026-09-23 دور ۲۱ — Lukas: پاپ‌آپ کلمه (L.5f) و صفحه‌ی پروفایل (فاز P) روی آیفون ✅؛ نقشه‌ی فایل‌ها تغییری نکرد.
-# قبلی: 2026-09-23 دور ۲۰ — L.5f نسخه‌ی دوم: wort_popup.dart (_WortKopf = کلمه + AudioPlayButton در هر حالت؛ _LadenFehlgeschlagen = «فهرست بارگذاری نشد» + تلاش مجدد)، klick_wort_provider.dart (خطای Index دیگر بی‌صدا «نیست» نمی‌شود)، news_screen.dart (توضیح خبر = KlickWortText)، کلید l10n wort_popup_ladefehler، تست‌ها در klick_wort_test.dart.
-# قبلی: 2026-09-23 دور ۱۹ — برنامه‌ی بعد از انتشار: R-2.3 گسترش همه‌ی محتوای Auswendiglernen (مثال، ترجمه، تمرین …؛ فقط افزودن). محل کار: lib/features/auswendiglernen/ + assets/data/*_data.json. کدی عوض نشد. جزئیات: PLAN → فاز R → R-2.3.
-# قبلی: 2026-09-23 دور ۱۸ — گزارش Lukas: پاپ‌آپ کلمه (klick_wort_text.dart / wort_popup.dart) روی آیفون واقعی باز نمی‌شود؛ در Chromium و WebKit (شبیه‌سازی iPhone) باز می‌شود. کدی عوض نشد. جزئیات: PLAN «آخرین جلسه».
-# قبلی: 2026-09-23 دور ۱۷ — تست آیفون واقعی کامل ✅ (Lukas)؛ B-13 روی آیفون تأیید شد. نقشه‌ی فایل‌ها تغییری نکرد.
-# قبلی: 2026-09-23 دور ۱۶ — B-13: لایتنر هر دو منبع (LeitnerCards + ArchivLeitner) را می‌خواند؛ فایل‌های تازه wende_karte.dart، archiv_flash_card.dart، test/leitner_beide_quellen_test.dart؛ WortZeile در wort_card.dart.
-# قبلی: دور ۱۵ — تصمیم L.2d (deckهای خالی «به‌زودی» می‌مانند).
-# قبلی: دور ۱۴ — L.3b: web/locale_guard.js (نگهبان زبان نامعتبر مرورگر). دور ۱۳ خلاصه‌سازی (متن مفصل: `git show afad3ab:PROJECT_MAP.md`).
+# آپدیت: 2026-09-23 دور ۲۵ — خلاصه‌سازی دوم (درخواست Lukas): کارنامه‌ی دورها به یک خط کوتاه شد؛ متن کامل قبلی: `git show a078dc2:PROJECT_MAP.md`.
+#   تازه‌ها در همین روز: web/locale_guard.js · leitnerEintraegeProvider (لایتنر دو منبع، B-13) · wende_karte.dart + archiv_flash_card.dart · WortZeile در wort_card.dart
+#   · wort_popup.dart (_WortKopf تلفظ، _LadenFehlgeschlagen) · deutschLinksbuendig + DeutschRichText (core/widgets/deutsch_text.dart) · vokab_formen.dart ⇒ assets/vocab_formen/.
+# 🚀 کارهای باز قبل از انتشار (فهرست کامل): PLAN.md → «🚀 قبل از انتشار». بعد از انتشار: PLAN.md → «⏭️ بعد از انتشار».
 #
 # ⚠️ 2026-09-19 (اصلاح یادداشت آفلاین): «precache شدنی است» فقط برای ~۷٫۵MB فعلی (۸۷ کارت) درست است. کارت ~۴KB ⇒ ~۲۶٬۲۰۰ کارت ≈ ~۱۰۰MB
 #   (ارقام خود PLAN) ⇒ پیش‌بارگذاری همه‌ی کارت‌ها همچنان گزینه نیست؛ فقط دارایی‌های ثابت + فهرست + کارتِ بازشده. تحلیل است نه تصمیم. جزئیات: PLAN → L.3.
@@ -46,14 +39,14 @@
 #   ⚠️ شناسه‌ی کارت منتشرشده در assets/vocab/ هرگز حذف/عوض نشود — لایتنر کاربر به آن اشاره می‌کند.
 #   ⚠️ کپی‌رایت: هیچ جمله/تمرینی از کتاب کپی نمی‌شود — فقط موضوع؛ متن و مثال و تمرین از نو نوشته می‌شود.
 # 🌐 زبان شروع: پیش‌فرض انگلیسی، فقط روی دستگاه فارسی‌زبان فارسی — تنها منبع: core/l10n/geraete_sprache.dart.
-# 🎯 وضعیت (2026-09-23): ۳۰۰ فایل Dart (۱۸۲ features + ۱۱۶ core) · DB schema v7 · ۲۸۶ تست سبز · analyze سبز.
+# 🎯 وضعیت (2026-09-23): ۳۰۰ فایل Dart (۱۸۲ features + ۱۱۶ core) · DB schema v7 · ۳۰۹ تست سبز · analyze سبز.
 #   کارهای باز و کارنامه‌ی جلسه‌ها: PLAN.md بالای فایل.
 
 ---
 
 ## INHALTSVERZEICHNIS (فهرست مطالب)
 
-> خودکار از سرتیترهای همین فایل ساخته شد (2026-09-23).
+> خودکار از سرتیترهای همین فایل ساخته شد (2026-09-23 دور ۲۵). ✅ = کامل · ⛔ = منسوخ.
 
 - [TECH STACK](#tech-stack)
 - [STATUS LEGEND](#status-legend)
@@ -64,49 +57,12 @@
   - [lib/core/](#libcore)
 - [lib/core/Design System — Tokens](#libcoredesign-system--tokens)
 - [lib/core/Design System — Components (موجود)](#libcoredesign-system--components-موجود)
-- [lib/core/Design System — Components (B9–B11 اکثراً LIVE شدند — 2026-07-04)](#libcoredesign-system--components-b9b11-اکثراً-live-شدند--2026-07-04)
+- [lib/core/Design System — Components (B9–B11 اکثراً LIVE شدند — 2026-07-04)](#libcoredesign-system--components-b9b11-اکثرا-live-شدند--2026-07-04)
 - [lib/core/Architecture Hub](#libcorearchitecture-hub)
-    - [lib/core/database/](#libcoredatabase)
-    - [lib/core/models/](#libcoremodels)
-    - [lib/core/parsers/](#libcoreparsers)
-    - [lib/core/services/](#libcoreservices)
-    - [lib/core/theme/](#libcoretheme)
-    - [lib/core/l10n/](#libcorel10n)
-    - [lib/core/router/](#libcorerouter)
   - [lib/features/](#libfeatures)
-    - [lib/features/home/ [x]](#libfeatureshome-x)
-    - [lib/features/wortschatz/ [x]](#libfeatureswortschatz-x)
-    - [lib/features/leitner/ [x]](#libfeaturesleitner-x)
-    - [lib/features/categories/ [x]](#libfeaturescategories-x)
-    - [lib/features/grammatik/ [x]](#libfeaturesgrammatik-x)
-    - [lib/features/lesen/ [x]](#libfeatureslesen-x)
-    - [lib/features/hoeren/ [x]](#libfeatureshoeren-x)
-    - [lib/features/auswendiglernen/ [x]](#libfeaturesauswendiglernen-x)
-    - [lib/features/pruefungen/ [x]](#libfeaturespruefungen-x)
-    - [lib/features/selbstlernen/ [x]](#libfeaturesselbstlernen-x)
-    - [lib/features/more/ [x]](#libfeaturesmore-x)
-    - [lib/features/fragen/ [x]](#libfeaturesfragen-x)
-    - [lib/features/sozialmedien/ [x]](#libfeaturessozialmedien-x)
-    - [lib/features/home/ [x]](#libfeatureshome-x-1)
-    - [lib/features/sprechen/ [x]](#libfeaturessprechen-x)
-    - [lib/features/schreiben/ [x]](#libfeaturesschreiben-x)
-    - [lib/features/konnektoren/ [x]](#libfeatureskonnektoren-x)
-    - [lib/features/dativ_verben/ [x]](#libfeaturesdativ_verben-x)
-    - [lib/features/nvv/ [x]](#libfeaturesnvv-x)
-    - [lib/features/praepositionen/ [x]](#libfeaturespraepositionen-x)
-    - [lib/features/reflexiv_verben/ [x] ✅ (2026-07-03)](#libfeaturesreflexiv_verben-x--2026-07-03)
-    - [lib/features/trennbar_verben/ [x] ✅ (2026-07-03)](#libfeaturestrennbar_verben-x--2026-07-03)
-    - [lib/features/verb_praep/ [x] ✅ (2026-07-03)](#libfeaturesverb_praep-x--2026-07-03)
-    - [lib/features/unregelm_verben/ [x] ✅ (2026-07-03)](#libfeaturesunregelm_verben-x--2026-07-03)
-    - [lib/features/redemittel/ [x] ✅ (2026-07-04)](#libfeaturesredemittel-x--2026-07-04)
-    - [lib/features/modalverben/ [x] ✅ (2026-07-04)](#libfeaturesmodalverben-x--2026-07-04)
-    - [lib/features/grammatik/ — Grammatik-Themen (generisch) [x] ✅ (2026-07-05)](#libfeaturesgrammatik--grammatik-themen-generisch-x--2026-07-05)
-    - [lib/core/services/ — DataSeedService [x]](#libcoreservices--dataseedservice-x)
-    - [⚠️ کجا کلمات ذخیره می‌شوند (وضعیت فعلی — چند‌جایی/ناهمگون)](#️-کجا-کلمات-ذخیره-می‌شوند-وضعیت-فعلی--چند‌جاییناهمگون)
-    - [🗄️ فاز V — Vokabular-DB (~۲۶٬۰۰۰ کلمه، ~۱۰۰ جمله/کلمه) — طراحی نهایی، پیاده‌سازی باز](#️-فاز-v--vokabular-db-۲۶۰۰۰-کلمه-۱۰۰-جملهکلمه--طراحی-نهایی-پیاده‌سازی-باز)
 - [🎨 Wo Form und Farbe der Wörter festgelegt sind (Grammatikon)](#-wo-form-und-farbe-der-wörter-festgelegt-sind-grammatikon)
 - [💾 Wo die Nutzerdaten liegen (فاز S, 2026-09-15)](#-wo-die-nutzerdaten-liegen-فاز-s-2026-09-15)
-- [⚙️ Arbeiten über die GitHub-API (Lehren 2026-09-15)](#️-arbeiten-über-die-github-api-lehren-2026-09-15)
+- [⚙️ Arbeiten über die GitHub-API (Lehren 2026-09-15)](#-arbeiten-über-die-github-api-lehren-2026-09-15)
 - [tool/ — Werkzeuge (فاز A, 2026-09-15)](#tool--werkzeuge-فاز-a-2026-09-15)
 - [BUGS FIXED](#bugs-fixed)
 - [BACKLOG / UPCOMING CHANGES](#backlog--upcoming-changes)

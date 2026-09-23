@@ -9,66 +9,45 @@
 > و خط «آخرین جلسه / قدم بعدی» پایین را تازه کن. **کاری که در پلن و مپ ثبت نشده، برای چت بعدی وجود ندارد.**
 > فهرست مطالب و بخش Hinweise همیشه حفظ می‌شوند.
 >
-> 🗂️ **خلاصه‌سازی 2026-09-23 (درخواست Lukas):** کارهای انجام‌شده به یک–دو خط کوتاه شدند؛ قاعده‌ها، تصمیم‌ها و کارهای باز کامل ماندند.
-> متن مفصل قبلی (هر جزئیات فنی): `git show afad3ab:PLAN.md`.
+> 🗂️ **خلاصه‌سازی دوم (2026-09-23 دور ۲۵، درخواست Lukas):** هر بخشی که کاملاً انجام و تست‌شده بود به یک خط کوتاه شد؛
+> قاعده‌ها، اصل‌ها، تصمیم‌ها و کارهای باز کامل ماندند. کارهای باز فقط در دو بخش پایین جمع‌اند: «🚀 قبل از انتشار» و «⏭️ بعد از انتشار».
+> متن مفصل قبل از این خلاصه: `git show a078dc2:PLAN.md` (نسخه‌ی قدیمی‌تر: `afad3ab`).
 >
-> 🗓️ **آخرین جلسه:** 2026-09-23 (دور ۲۴) — **پاپ‌آپ کلمه، شکل‌های صرف‌شده** (درخواست Lukas: «aalartige» ⇒ کارت «aalartig»): جدول شکل‌ها `assets/vocab_formen/<hex>.json` (تکه‌تکه بر اساس حرف اول تا با ۲۶٬۰۰۰ کلمه چند MB یک‌جا بار نشود) + `stuecke.json`؛ ساخت در `tool/vokab_index.dart` از `lib/features/vokabular/data/vokab_formen.dart` — فقط از داده‌ی خود کارت (صرف فعل، Stammformen، Plural، Steigerung) + قواعد ثابت (پسوندهای صفت، e-افتادن، Genitiv -s/-es، Dativ Plural -n). ترتیب جست‌وجو: شکل پایه در آرشیو ⇒ **شکل صرف‌شده در آرشیو** ⇒ دیتابیس قدیمی. ۶ تست تازه (`test/vokab_formen_test.dart`)، ۳۰۹ تست سبز؛ در WebKit: لمس «aalartigen» ⇒ کارت aalartig.
-> قبلی: 2026-09-23 (دور ۲۳) — RTL در Auswendiglernen (گزارش Lukas با اسکرین‌شات Präpositionen): `DeutschRichText` تازه (جمله‌ی آلمانی با هایلایت)؛ همه‌ی `Text.rich`/`RichText` آلمانی در deckها به آن منتقل شد؛ ۱۹ `Text(` آلمانی دیگر (مثال‌ها، عنوان‌ها، نشان‌ها) ⇒ `DeutschText`؛ نگهبان `deutscher_text_waechter_test.dart` حالا چندخطی است و `Text.rich`/`RichText` را هم می‌گیرد. ۳۰۳ تست سبز. ⏭️ باقی: چند سطر آلمانی در صفحه‌های گرامر/جزئیات deckها که نام فیلدشان برای نگهبان ناشناس است (مثل «sich auskennen mit + dativ»، مترادف NVV، چیپ «von +Dat»).
-> قبلی: 2026-09-23 (دور ۲۲) — **چپ‌چین متن آلمانی در رابط فارسی** (درخواست Lukas، یافته‌ی دور ۲۰). علت: `textAlign.left` فقط داخل پهنای خود متن اثر دارد؛ جمله‌ی کوتاه جعبه‌ای باریک است و ستون فارسی (`start` = راست) آن را به راست می‌برد. رفع در **یک جا**: `deutschLinksbuendig()` در `core/widgets/deutsch_text.dart` — فقط در RTL و فقط وقتی متن چپ‌چین است، جمله کل خط را می‌گیرد و چپ می‌ایستد (`Align` + `heightFactor: 1`؛ در Row بی‌عرض باریک می‌ماند). `DeutschText` و `KlickWortText` هر دو از آن استفاده می‌کنند؛ پارامتر `ganzeZeile` (پیش‌فرض true). **استثناها (`ganzeZeile: false`):** ۶ عنوان AppBar، چیپ‌های Redemittel-Quiz، سرتیتر وسط‌چین Redemittel-Quiz، مثال‌های کارت‌های وسط‌چین Dativ/NVV/Präp-Quiz. در LTR هیچ تغییری نیست. همچنین: `anmerkung` صفحه‌ی کلمه ⇒ `DeutschText`؛ جدول‌های درس گرامر ⇒ LTR ثابت + تمام‌عرض («ich | bin» به جای «bin | ich»). تست: ۷ تست تازه در `deutsch_text_test.dart`؛ analyze سبز، ۳۰۲ تست سبز؛ بازبینی در WebKit (iPhone، fa): صفحه‌ی کلمه، درس گرامر، Redemittel.
-> قبلی (دور ۲۱): بازبینی چشمی کامل.
-> قبلی (دور ۲۰): پاپ‌آپ — German News، تلفظ، پیام جدا برای بارگذاری.
-> 🔎 یافته‌ی جانبی (بدون تغییر): در رابط فارسی، جمله‌ی آلمانیِ کوتاه (مثال A2 صفحه‌ی کلمه) راست‌چین دیده می‌شود و `anmerkung` صفحه‌ی کلمه با `Text` ساده است (نقطه به اول جمله می‌رود) — خلاف قاعده‌ی `DeutschText`؛ رفع سراسری نیاز به بررسی دقیق دارد (Row/عرض)، ثبت برای بعد.
-> قبلی (دور ۱۹): R-2.3 ثبت شد.
-> قبلی (دور ۱۸): پروفایل ✅ · پاپ‌آپ کلمه روی آیفون ❌ (منتظر آزمایش دقیق Lukas).
-> قبلی (دور ۱۷): تست آیفون واقعی کامل.
-> قبلی (دور ۱۶): B-13 — لایتنر هر دو منبع را نشان می‌دهد.
-> قبلی (دور ۱۵): تصمیم L.2d — deckهای خالی با «به‌زودی» می‌مانند.
-> قبلی (دور ۱۴): L.3b کرش شروع با زبان نامعتبر مرورگر رفع شد (`web/locale_guard.js`، vox + Root-in).
+> 🗓️ **آخرین جلسه:** 2026-09-23 (دور ۲۵) — خلاصه‌سازی PLAN/MAP، فهرست کامل «قبل از انتشار»، فهرست مطالب تازه.
 >
-> ### ⏭️ کارهای باز
-> **Claude (بدون نیاز به Lukas):**
-> - ✅ ~~کرش هنگام شروع با زبان نامعتبر مرورگر~~ — رفع شد (L.3b، دور ۱۴).
-> - فعلاً کار بازی که بدون Lukas شدنی باشد نمانده.
->
-> **منتظر Lukas:**
-> - ✅ ~~L.2d تصمیم~~ — Lukas (دور ۱۵): پنهان نمی‌شوند، «به‌زودی» می‌مانند. منابع deckها بعد از انتشار، یکی‌یکی.
-> - [ ] **L.6** درس بعدی کتاب (رسیده: ۱ و ۲).
-> - [ ] **L.3** تست آفلاین (خروجی DevTools روی کامپیوتر) · ✅ تست آیفون کامل (2026-09-23).
-> - ✅ ~~بازبینی چشمی~~ — صفحه‌ی پروفایل (فاز P) ✅ · پاپ‌آپ کلمه (L.5f) ✅ روی آیفون (دور ۲۱).
-> - ✅ ~~جمله‌های آلمانی کوتاه راست‌چین در رابط فارسی~~ — رفع شد (دور ۲۲). **Lukas: یک نگاه روی آیفون با رابط فارسی** (صفحه‌ی کلمه، درس گرامر، Redemittel).
->
-> **تصمیم‌های باز Lukas (قبل از شروع حتماً بپرس):** L.5g ⛔⛔ · L.5a · A.6 (روش ساخت کلمه‌ها) ⛔ · V.5.
-> **بعد از انتشار:** L.2d منابع deckها (یکی‌یکی) · L.4 کلمه‌ها (روزانه) · G7d/G7e · R-2.2 · **R-2.3 گسترش Auswendiglernen** · L.5b/L.5c/L.5e · G8 · V.4.
->
-> ### 📜 کارنامه‌ی جلسه‌ها (خلاصه)
-> - ✅ **2026-09-23 دور ۲۲** — متن آلمانی در رابط فارسی چپ‌چین (یک منبع: `deutschLinksbuendig`) + جدول گرامر LTR.
-> - ✅ **2026-09-23 دور ۲۱** — بازبینی چشمی کامل (پروفایل + پاپ‌آپ کلمه روی آیفون).
-> - ✅ **2026-09-23 دور ۲۰** — پاپ‌آپ: German News + تلفظ + پیام جدا برای «فهرست بارگذاری نشد».
-> - ✅ **2026-09-23 دور ۱۹** — R-2.3 ثبت شد (گسترش Auswendiglernen بعد از انتشار).
-> - ✅ **2026-09-23 دور ۱۸** — پروفایل ✅ · پاپ‌آپ کلمه روی آیفون ❌ (بازتولید نشد، در بررسی).
-> - ✅ **2026-09-23 دور ۱۷** — تست آیفون واقعی کامل (Lukas).
-> - ✅ **2026-09-23 دور ۱۶** — B-13: لایتنر هر دو منبع (App-Wörter + کارت‌های آرشیو) را نشان می‌دهد.
-> - ✅ **2026-09-23 دور ۱۵** — تصمیم L.2d: deckهای خالی با «به‌زودی» می‌مانند (پنهان نمی‌شوند) ⇒ دیگر شرط انتشار نیست.
-> - ✅ **2026-09-23 دور ۱۴** — L.3b: کرش شروع با زبان نامعتبر (`en-US@posix`) ⇒ نگهبان `web/locale_guard.js` (vox + Root-in).
-> - ✅ **2026-09-23 دور ۱۳** — PLAN/MAP خلاصه + فهرست مطالب.
-> - ✅ **2026-09-23 دور ۱۲** — «فراموشی رمز» با جریان implicit: لینک در هر مرورگری کار می‌کند؛ قالب ایمیل دست نخورد، Redirect URL `…/vox/?link=passwort` اضافه شد. Lukas تأیید کرد.
-> - ✅ **2026-09-23 دور ۱۰–۱۱** — قفل قالب ایمیل Supabase (free tier) هم در Studio هم در API ثابت شد ⇒ تصمیم Lukas: گزینه‌ی ۴.
-> - ✅ **2026-09-22 دور ۶–۷** — علت باگ لینک رمز: PKCE به همان مرورگر وابسته است. راه `token_hash` ساخته شد ولی قالب قفل بود (در دور ۱۲ حذف شد).
-> - ✅ **2026-09-22 دور ۱–۵** — L.1d حذف حساب (هر دو اپ) + اجرای SQL روی سرور · R-2.1 (Präpositionen با حرف اضافه) · doc-drift پاک · یافته‌های L.5 و برنامه/تصمیم‌های R-2.2 ثبت.
-> - ✅ **2026-09-20** — فاز P (صفحه‌ی پروفایل و حساب) · L.5f (پاپ‌آپ کلمه).
-> - ✅ **2026-09-19** — doc-drift فاز ۱۶ · مکانیزم پنهان‌کردن `FeatureFlags` درست شد · L.5g ثبت شد.
-> - ✅ **2026-09-18** — باگ RTL متن آلمانی (Lukas تأیید کرد) · L.1c · L.1e · L.2a ÖSD C1 · L.6 درس ۱ و ۲ · اصل «یک محتوا، چند ورودی» + A-1 · باگ آفلاین پیدا شد (باز).
-> - ✅ **2026-09-16** — S.6 · V.2 · L.1a · L.1b · L.2c · L.3a · G7a–G7c.
+> 📜 **کارنامه (خیلی خلاصه):**
+> - **2026-09-23** — L.3b نگهبان زبان مرورگر (`web/locale_guard.js`، vox + Root-in) · L.2d تصمیم (deckهای خالی «به‌زودی» می‌مانند) · B-13 لایتنر هر دو منبع · تست آیفون ✅ · پاپ‌آپ کلمه: German News، تلفظ برای هر کلمه، پیام جدای «بارگذاری نشد»، **شکل‌های صرف‌شده** (`assets/vocab_formen/`) · RTL: `deutschLinksbuendig` + `DeutschRichText` + جدول‌های گرامر LTR + نگهبان چندخطی · R-2.3 ثبت شد · رمز فراموشی با جریان implicit.
+> - **2026-09-22** — L.1d حذف حساب (هر دو اپ) · R-2.1 Präpositionen · قفل قالب ایمیل Supabase.
+> - **2026-09-20** — فاز P (پروفایل و حساب) · L.5f پاپ‌آپ کلمه.  **2026-09-19** — `FeatureFlags` · L.5g ثبت.
+> - **2026-09-18** — RTL متن آلمانی · L.1c · L.1e · L.2a · L.6 درس ۱–۲ · اصل «یک محتوا، چند ورودی».  **2026-09-16** — S.6 · V.2 · L.1a · L.1b · L.2c · L.3a · G7a–G7c.
 >
 > 🔒 **قاعده‌ی «قبل از انتشار» (Lukas، 2026-09-18):** هر چیزی که داده‌ی کاربر به آن اشاره می‌کند باید قبل از انتشار نگهبان داشته باشد — کارت آرشیو ✅ L.1a · مهاجرت DB ✅ L.1b · لیست‌های شخصی ✅ S.6 · قرارداد پشتیبان ✅ S.5 · کلمه‌های همراه اپ ✅ L.1e.
 
 > ⚠️ **2026-09-13:** VOX فقط Flutter-Web روی GitHub Pages است (بومی، RevenueCat و Notifications حذف شدند). Habit/Routine ⇒ Root-in، ریپوی جدا؛ تنها اتصال: لینک Routine در `core/constants/app_links.dart`.
 > ⚠️ **2026-09-15 (Audit):** علامت‌های `✓` در `old files Lukasalmani/Wörter/*.txt` مرجع نیستند — مرجع `assets/vocab/` است · سقف startup (خواندن همه‌ی کارت‌ها) با V.2 ✅ رفع شد · کلمه‌ها **الفبایی** ساخته می‌شوند (تصمیم Lukas).
 
+## 🚀 قبل از انتشار — فهرست کامل (بازبینی کامل PLAN و MAP، 2026-09-23 دور ۲۵)
+
+> همه‌ی `[ ]`/`[~]`های این فایل یک‌به‌یک بررسی شدند. هر چه در این فهرست نیست یا انجام شده یا عمداً برای **بعد از انتشار** است (بخش بعدی).
+> L.1 (امنیت داده) ✅ کامل · L.2 (محتوا) ✅ برای انتشار · تست آیفون ✅ · بازبینی چشمی پروفایل/پاپ‌آپ ✅.
+
+1. [ ] **L.3 تست آفلاین روی کامپیوتر — Lukas.** تنها شرط جدی باقی‌مانده. نیاز: خروجی DevTools (Application → Service Workers + Cache Storage). نشانه‌ها و تحلیل: بخش L.3.
+2. [~] **پاپ‌آپ کلمه برای شکل‌های صرف‌شده — Claude ✅ ساخته شد (دور ۲۴)**؛ ⏭️ Lukas روی آیفون امتحان کند (مثلاً «aalartigen» در مثال صفحه‌ی aalartig).
+3. [ ] **باقی‌مانده‌ی RTL در Auswendiglernen — Claude.** سطرهای آلمانی که نام فیلدشان برای نگهبان ناشناس است: «sich auskennen mit + dativ» (Reflexiv)، مترادف NVV («sich verabschieden»)، چیپ «von +Dat»، عنوان کانکتورها در فهرست، و جمله‌های آلمانی در صفحه‌های گرامرِ deckها (`*_grammar_screen.dart`). بعدش Lukas یک نگاه روی آیفون.
+4. [ ] **L.6 درس بعدی کتاب گرامر — Lukas منبع بفرستد (اختیاری؛ می‌تواند بعد از انتشار بیاید).** رسیده: درس ۱ و ۲.
+
+## ⏭️ بعد از انتشار و تصمیم‌های باز
+
+- **بعد از انتشار (به ترتیب Lukas):** L.2d منابع deckهای «به‌زودی» (یکی‌یکی) · G7d/G7e تمرین deckها + ذخیره‌ی نتیجه‌ی آزمون سطح · L.4 کلمه‌ها (روزانه) · R-2.2 صفحه‌ی جزئیات کامل deckها (صدا/لایتنر/دسته) · **R-2.3 گسترش همه‌ی محتوای Auswendiglernen** (مثال، ترجمه، تمرین؛ فقط افزودن) · L.5b ترجمه‌ی جمله‌به‌جمله در Lesen · L.5c تمرین از همه‌ی محتوا · L.5d صفحه‌ی کامل اکانت · L.5e آزمون بعد از هر بخش · G8 جست‌وجو/گلاسری · V.4 UI لیست بزرگ کلمه‌ها · B.4-alt و DS باقی‌مانده (vox_chip، vox_list_tile …).
+- **تصمیم‌های باز Lukas (قبل از شروع حتماً بپرس):** L.5g ⛔⛔ ساختار دولایه‌ی متن‌ها · L.5a صفحه‌ی پیشرفت · A.6 روش ساخت کلمه‌ها ⛔ · V.5 توزیع آرشیو بزرگ.
+- ⚠️ **مقیاس:** جدول شکل‌ها (`assets/vocab_formen/`) تکه‌تکه است؛ با ~۲۶٬۰۰۰ کارت هر تکه چند صد KB می‌شود — اگر لازم شد، تکه‌ها بر اساس دو حرف اول.
+
 ## INHALTSVERZEICHNIS (فهرست مطالب)
 
-> خودکار از سرتیترهای همین فایل ساخته شد (2026-09-23). ✅ = کامل · ⛔ = منسوخ.
+> خودکار از سرتیترهای همین فایل ساخته شد (2026-09-23 دور ۲۵). ✅ = کامل · ⛔ = منسوخ.
 
+- [🚀 قبل از انتشار — فهرست کامل (بازبینی کامل PLAN و MAP، 2026-09-23 دور ۲۵)](#-قبل-از-انتشار--فهرست-کامل-بازبینی-کامل-plan-و-map-2026-09-23-دور-۲۵)
+- [⏭️ بعد از انتشار و تصمیم‌های باز](#-بعد-از-انتشار-و-تصمیم‌های-باز)
 - [🎯 وضعیت فعلی (2026-09-23)](#-وضعیت-فعلی-2026-09-23)
 - [🚀 فاز LAUNCH — ترتیب جدید تا انتشار (تصمیم Lukas، 2026-09-16)](#-فاز-launch--ترتیب-جدید-تا-انتشار-تصمیم-lukas-2026-09-16)
   - [L.1 — امنیت داده‌ی لایتنر (قبل از انتشار)](#l1--امنیت-داده‌ی-لایتنر-قبل-از-انتشار)
@@ -82,6 +61,7 @@
 - [STATUS LEGEND](#status-legend)
 - [فاز ۰ تا ۱۵ — زیرساخت و ویژگی‌های اصلی ✅](#فاز-۰-تا-۱۵--زیرساخت-و-ویژگی‌های-اصلی-)
 - [✅ باگ‌ها (همه بسته)](#-باگ‌ها-همه-بسته)
+  - [B-13 ✅ (2026-09-23): کلمه‌ی واژگان در لایتنر دیده نمی‌شد](#b-13--2026-09-23-کلمه‌ی-واژگان-در-لایتنر-دیده-نمی‌شد)
   - [B-1: خطای Flutter — color + decoration در Container ✅](#b-1-خطای-flutter--color--decoration-در-container-)
   - [B-2: خطای SQLite — UNIQUE constraint در words ✅](#b-2-خطای-sqlite--unique-constraint-در-words-)
   - [B-12 ✅ (2026-09-15): پشتیبان فیلدهای گرامری B-10 را نداشت](#b-12--2026-09-15-پشتیبان-فیلدهای-گرامری-b-10-را-نداشت)
@@ -167,16 +147,14 @@
 
 ### L.1 — امنیت داده‌ی لایتنر (قبل از انتشار)
 - [x] **S.6** شناسه‌ی ثابت برای لیست‌های شخصی ✅ (2026-09-16، CI سبز) — تغییر نام یک لیست دیگر
-      «لیست قدیم حذف، لیست جدید ساخته» نیست؛ کلمه‌ای که دستگاه دیگر در همان فاصله در لیست گذاشته
-      حفظ می‌شود. لیست‌های قبلی شناسه‌ی قبلی‌شان (`eigen:<نام>`) را نگه می‌دارند. جزئیات: فاز S → S.6.
 - [x] **V.2** ✅ (2026-09-16) — اپ در شروع فقط `assets/vocab_index.json` را می‌خواند؛ کارت کامل هنگام باز شدن صفحه‌ی کلمه. جزئیات: فاز V → V.2.
 - [x] **L.1a نگهبان شناسه‌ی کارت** ✅ (2026-09-16) — CI شناسه‌ها را با **سایت زنده** مقایسه می‌کند؛ شناسه‌ی منتشرشده گم شود ⇒ قرمز و چیزی منتشر نمی‌شود (`tool/vokab_ids_pruefen.dart`، `test/vokab_ids_waechter_test.dart`).
       ⚠️ **بدون فهرست استثنا:** کارت غلط **اصلاح** می‌شود، حذف نه. حذف واقعی فقط با قاعده‌ی کوچ (شناسه‌ی قدیم → جدید) و تصمیم Lukas.
 - [x] **L.1b تست مهاجرت** ✅ (2026-09-16) — هر نسخه‌ی قدیمی DB (۲ به بعد) با داده‌ی واقعی لایتنر به نسخه‌ی فعلی می‌رسد و با `SchemaVerifier` بررسی می‌شود (`test/migration_test.dart`؛ اسکیماهای قدیمی را `build-runner.yml` خودکار می‌سازد).
       ⚠️ **قاعده:** هر تغییر اسکیمای drift ⇒ `schemaVersion` بالا + migration + اجرای `build-runner.yml` روی شاخه.
 - [x] **L.1c** ✅ (2026-09-18، Lukas) — Secrets `SUPABASE_URL`/`SUPABASE_ANON_KEY` در ریپو + اجرای `supabase/vox_tables.sql` روی سرور (ref `uayaomoxxzzbjquxbcpu`).
-- [x] **L.1d حذف حساب** ✅ 2026-09-22 — تصمیم Lukas: **بله، برای هر دو اپ** (یک حساب مشترک ⇒ یک حذف). `delete_own_account()` در `vox_tables.sql` (هم‌متن Root-in) + `AuthService.deleteAccount()` + دکمه در `ProfilKontoKarte` + fallback `CloudAblage.loeschen()`. S.3 بسته شد. جزئیات: «آخرین جلسه» بالا و بخش فاز P.
-- [x] **L.1e نگهبان کلمه‌های همراه اپ** ✅ (2026-09-18) — ۱٬۰۱۶ شناسه‌ی `<german>|<wordType>` در `test/daten/seed_schluessel_veroeffentlicht.txt`؛ گم شدن یکی ⇒ تست قرمز. فرمول فقط در `seed_wortschluessel.dart`؛ ثبت کلمه‌ی تازه با `tool/seed_schluessel_schreiben.dart` (حذف را رد می‌کند).
+- [x] **L.1d حذف حساب** ✅ 2026-09-22 — تصمیم Lukas: **بله، برای هر دو اپ** (یک حساب مشترک ⇒ یک حذف). `delete_own_account()` در `vox_tables.sql` (هم‌متن Root-in) + `AuthService.deleteAccount()` + دکمه در `ProfilKontoKarte` + fallback `CloudAblage.loeschen()`. …
+- [x] **L.1e نگهبان کلمه‌های همراه اپ** ✅ (2026-09-18) — ۱٬۰۱۶ شناسه‌ی `<german>|<wordType>` در `test/daten/seed_schluessel_veroeffentlicht.txt`؛ گم شدن یکی ⇒ تست قرمز. فرمول فقط در `seed_wortschluessel.dart`؛ ثبت کلمه‌ی تازه با …
 
 ### L.2 — کامل بودن محتوا (Audit 2026-09-16، Claude، شمارش مستقیم منبع ↔ اپ)
 > **Lukas 2026-09-16:** «منابع همه‌چیز با من است، برنامه‌نویسی با تو.» ⇒ برای هر مورد باز پایین (گرامر، ÖSD C1، deckها و …)، وقتی نوبتش رسید **منبع را از Lukas بخواه** (هر قالبی: Excel، CSV، JSON، Word، PDF) — نه حدس. ⚠️ **استثنا: کارت‌های کلمه** — آن‌ها را Claude طبق پرامپت می‌سازد (فاز A / A.6).
@@ -188,9 +166,7 @@
 - [x] **L.2c گرامر** ✅ (2026-09-16) — هر ۸۴ درس زنده (G3–G6)؛ بازبینی مستقل: از منبع چیزی کم نیست (`GRAMMATIK_MAP.md`).
 - [~] **L.2e تمرین‌ها** — G7a–G7c ✅؛ **G7d/G7e بعد از انتشار** (تصمیم Lukas 2026-09-18). ترتیب: گرامر ✅ → تمرین گرامر ✅ → انتشار → G7d/G7e → کلمه‌ها → تمرین کلمه‌ها.
 - [x] **L.2d — تصمیم Lukas (2026-09-23 دور ۱۵):** deckهای بی‌محتوا **پنهان نمی‌شوند** — با دکمه‌ی قفل «به‌زودی» (R-3.3) می‌مانند
-      و **بعد از انتشار** یکی‌یکی پر می‌شوند. این تصمیم دستور قبلیِ «نسخه‌ی نهایی دکمه‌ی به‌زودی ندارد / قبل از انتشار پنهان شود» را **لغو می‌کند**.
       ⚠️ شرط Lukas برای هر پرکردنِ بعدی: به‌روزرسانی هرگز داده‌ی کاربر را پاک نکند ⇒ همان نگهبان‌های L.1 (شناسه‌ها، مهاجرت، پشتیبان).
-      (متن قدیمی زیر فقط تاریخچه است؛ جریان «منبع بعدی ← ساخت» بعد از انتشار ادامه دارد.)
 - [~] **L.2d deckهای «به‌زودی» بدون محتوا (بعد از انتشار):** relativsatz · da_praepositionen · adjektive ·
       adjektivdeklination · tempusformen (⚠️ `tempusformen_grammar.json` موجود است ولی deck خاموش) ·
       oesd_c1 · zusammenfassung · a2_zusammenfassung · feature.sprechen · feature.schreiben
@@ -241,22 +217,12 @@
 - [x] **L.3a زبان شروع** ✅ (2026-09-16) — پیش‌فرض انگلیسی؛ فقط اگر زبان دستگاه فارسی باشد (`fa`/`fa-AF`/`prs`) فارسی. انتخاب کاربر در Settings برنده است.
       ⚠️ تنها منبع: `core/l10n/geraete_sprache.dart` — هیچ جای دیگری `'fa'` را پیش‌فرض نکند.
 - [x] **اصلاح README** ✅ (2026-09-18) — خط قدیمی «Selbstlernen — Gewohnheiten, Streaks» (از 2026-09-13 غلط
-      بود چون Habit حذف و با لینک Root-in جایگزین شده بود) به «Pomodoro-Timer, Lernpfad, Vorlagen sowie ein
-      Link zur eigenständigen Routine-App (Root-in)» تغییر کرد. فقط متن README؛ کد دست نخورد.
 - [x] **آیکون و manifest وب** ✅ (بررسی 2026-09-18) — `web/manifest.json` و `web/index.html` از قبل کامل
-      بودند: نام/توضیح/رنگ‌ها، ۴ آیکون (192/512 عادی + maskable)، apple-touch-icon، favicon. کاری لازم نبود.
 - [x] **صفحه‌ی حریم خصوصی** ✅ (2026-09-18) — متن با وضعیت واقعی به‌روز شد (حساب اختیاری + پشتیبان Supabase)؛ بخش «حذف حساب» 2026-09-22.
 - [x] **تست RTL همه‌ی صفحات** ✅ (2026-09-18، Lukas تأیید کرد) — ویجت مشترک `DeutschText` (ltr + left ثابت) برای هر متن آلمانی + جاروی کامل + نگهبان تست.
       ⚠️ **تکمیل (2026-09-23 دور ۲۲):** `DeutschText`/`KlickWortText` در RTL کل خط را می‌گیرند و چپ می‌ایستند (`deutschLinksbuendig`)؛ جایی که متن نباید به لبه‌ی چپ برود (عنوان AppBar، چیپ، کارت وسط‌چین) ⇒ `ganzeZeile: false`. جدول کاملاً آلمانی ⇒ `Directionality(ltr)`.
       ⚠️ **قاعده:** هر متن آلمانی ⇒ `DeutschText`. در بازبینی **همه‌ی** `Text(`های هر فایل یکی‌یکی چک شوند، نه فقط جای گزارش‌شده.
 - [x] **L.3b کرش شروع با زبان نامعتبر مرورگر** ✅ (2026-09-23 دور ۱۴)
-      **علت (با Chromium واقعی روی سایت زنده بازتولید شد):** بعضی مرورگرها زبانی گزارش می‌دهند که BCP-47 معتبر نیست —
-      مثلاً Chromium روی لینوکس با locale سیستمی «C/POSIX» ⇒ `navigator.languages = ["en-US@posix"]`. **Engine خود Flutter**
-      (نه کد ما) هنگام شروع برای هر زبان `new Intl.Locale(tag)` می‌سازد ⇒ `RangeError` پیش از اجرای هر خط Dart ⇒ اپ روی دایره‌ی
-      بارگذاری می‌ماند. `geraete_sprache.dart` بی‌تقصیر است و دست نخورد.
-      **راه‌حل:** `web/locale_guard.js` که در `web/index.html` **قبل از** `flutter_bootstrap.js` اجرا می‌شود. فقط اگر زبانی نامعتبر
-      باشد، فهرست را تمیز می‌کند (`en-US@posix`→`en-US`، `de_AT.UTF-8`→`de-AT`، بی‌مصرف حذف، خالی ⇒ `["en"]`). مرورگر عادی ⇒ هیچ تغییری.
-      **آزمایش:** سایت زنده + نگهبان تزریقی در Chromium: بدون خطا، صفحه‌ی خانه دیده شد؛ با `fa-IR` هم سالم. Root-in همان باگ را داشت ⇒ همان فایل آنجا.
       ⚠️ اگر روزی Flutter خودش این را درست کرد، نگهبان بی‌ضرر می‌ماند (برای زبان معتبر کاری نمی‌کند).
 - [ ] **تست آفلاین — باگ تأیید شد، علت هنوز قطعی نیست** (گزارش Lukas، 2026-09-18)
       **نشانه‌ها:** (۱) اپ باز و همه‌ی صفحه‌ها بارگیری‌شده ⇒ قطع اینترنت مشکلی ندارد. (۲) اپ باز ولی صفحه‌ی
@@ -308,7 +274,7 @@
       L.5c درباره‌ی تنوع نوع تمرین‌هاست، L.5e درباره‌ی این است که **هیچ بخش محتوایی بدون آزمون پایانی نماند**
       (پوشش کامل، نه فقط گرامر). الگوی موجود برای گرامر: G7a (تمرین هر درس) + G7b (آزمون هر سطح) — همین
       الگو باید برای Lesen/اخبار و بقیه‌ی بخش‌ها هم تکرار شود.
-- [x] **L.5f کلیک روی کلمه** ✅ (2026-09-20) — در همه‌جا یک رفتار: کلمه ⇒ پاپ‌آپ ⇒ صفحه‌ی کامل کلمه (+ لایتنر)؛ یک کامپوننت مشترک (`test/klick_wort_test.dart`). ✅ بازبینی چشمی Lukas روی آیفون (2026-09-23 دور ۲۱)، بعد از نسخه‌ی دوم (German News + تلفظ + پیام بارگذاری، دور ۲۰).
+- [x] **L.5f کلیک روی کلمه** ✅ (2026-09-20) — در همه‌جا یک رفتار: کلمه ⇒ پاپ‌آپ ⇒ صفحه‌ی کامل کلمه (+ لایتنر)؛ یک کامپوننت مشترک (`test/klick_wort_test.dart`). ✅ بازبینی چشمی Lukas روی آیفون (2026-09-23 دور ۲۱)، بعد از نسخه‌ی دوم (German News + تلفظ + پیام …
 - [ ] **L.5g ساختار یکسان همه‌ی متن‌های Lesen و اخبار — دو لایه (درخواست Lukas، 2026-09-19).**
       **قاعده‌ی کلی:** این ساختار برای **کل بخش Lesen** است، نه فقط اخبار.
       **۱) سطح‌بندی:** هر متن و هر خبر برچسب سطح A1–C2 دارد (Lesen عادی الان دارد؛ اخبار RSS فعلاً ندارد —
@@ -335,27 +301,15 @@
       (هزینه، کیفیت، آفلاین). پاپ‌آپ کلمه با کد ممکن است ولی فقط برای کلمه‌هایی که در آرشیو کلمات هستند.
 
 ## فاز P — Profil & Konto (2026-09-20)
-
-> **درخواست Lukas (2026-09-20):** «کاربر اکانت و اطلاعات خودش را کجا وارد کند؟» تا آن روز جواب: فقط پایین «تنظیمات»، و آن هم فقط اگر Secretهای
+✅ درخواست Lukas (2026-09-20):** «کاربر اکانت و اطلاعات خودش را کجا وارد کند؟» تا آن روز جواب: فقط پایین «تنظیمات»، و آن هم فقط اگر Secretهای
 > Supabase ست بودند. اسم/آدرس/تلفن/تغییر رمز/آرشیو اصلاً وجود نداشت. ✅ **CI grün** (2026-09-20, Lauf 35487912698 auf Zweig `profil-seite`: analyze + test + Web-Bau) — danach nach `main`. ⚠️ Noch **nicht im Browser gesehen** (Claude hat keinen): Ansicht/RTL/Dialoge bitte von Lukas anschauen.
-
-**یک صفحه برای هرچه به کاربر تعلق دارد:** `/more/profil` (`AppRoutes.profil`) — از «More» (اولین ردیف) و «تنظیمات ← حساب» باز می‌شود.
-صفحه **بدون سرور هم کار می‌کند** (اطلاعات، آرشیو، پشتیبان فایل)؛ فقط کارت‌های حساب وقتی `kontoAktivProvider` درست است دیده می‌شوند.
-
-- [x] **P.1 اطلاعات شخصی** ✅ — نام، تلفن، تا ۵ آدرس (همه اختیاری)؛ فقط در مرورگر + پشتیبان/حساب خود کاربر.
       ⚠️ ادغام: «آخرین ویرایش کامل برنده است» (`NutzerProfil.spaeteres`)؛ عمداً جدا از `einstellungen`.
-- [x] **P.2 حساب و امنیت** ✅ — تغییر رمز، تغییر ایمیل، فراموشی رمز (از 2026-09-23 implicit ⇒ هر مرورگر)، خروج از همه‌ی دستگاه‌ها.
       ⚠️ حساب با Root-in مشترک است (`auth.users`): تغییر رمز/ایمیل در هر دو اپ اثر دارد (UI صریحاً می‌گوید).
       ⚠️ `AppLinks.voxUrl` و `AppLinks.voxPasswortUrl` باید زیر Redirect URLs در Supabase باشند.
-- [x] **P.3 آرشیو و داده** ✅ — کارت «آرشیو من» (اعداد لایتنر/فهرست/یادداشت/کلمه‌ی خودم) + پشتیبان فایل.
-- [x] **حریم خصوصی:** `privacy_policy_screen.dart` بخش «اطلاعات شخصی (اختیاری)» گرفت (تاریخ 2026-09-20) — نام/تلفن/آدرس فقط در مرورگر، و با حساب: در ردیف خودِ کاربر در `vox_backups`؛ جای دیگر نه.
-- [x] **حذف حساب (L.1d)** ✅ 2026-09-22 — حساب + پشتیبان هر دو اپ (cascade)؛ داده‌ی روی دستگاه می‌ماند.
       ⚠️ مسابقه با همگام‌سازی: آپلود بعد از حذف با FK رد می‌شود ⇒ حساب «برنمی‌گردد».
 - **تست‌ها:** `test/profil_test.dart` (تلفن، پاک‌سازی، JSON، ادغام، قرارداد v4 + خواندن v3، قاعده‌ی رمز، کدهای Auth)، `test/profil_controller_test.dart`،
-  `user_state_repository_test.dart` +۵ (Profil: خواندن، خراب، جابه‌جایی دستگاه، قدیمی‌تر رونویس نمی‌کند)، `l10n_paritaet_test.dart` +۵۴ کلید.
 - ⚠️ **کد بدون کامپایلر نوشته شد** (Claude Flutter ندارد) — فقط ساختارهای موجود در ریپو؛ اعتبار واقعی = اجرای «Zweig prüfen».
-
----
+_(جزئیات: `git show a078dc2:PLAN.md`)_
 
 ## اطلاعات کلی
 - نام اپ: VOX
@@ -380,15 +334,10 @@
 ## ✅ باگ‌ها (همه بسته)
 
 ### B-13 ✅ (2026-09-23): کلمه‌ی واژگان در لایتنر دیده نمی‌شد
-- **گزارش Lukas (آیفون):** «افزودن به لایتنر» در واژگان ⇒ دکمه رنگ عوض می‌کرد و پیام می‌آمد، ولی بخش لایتنر «هیچ کارتی» نشان می‌داد.
-- **علت:** دو جدول — `LeitnerCards` (کلمه‌های قدیمی اپ، شناسه‌ی عددی) و `ArchivLeitner` (کارت‌های آرشیو/پرامپت کلمه، شناسه‌ی متنی).
-  بخش لایتنر فقط اولی را می‌خواند. داده گم نشده بود.
-- **رفع (ماندگار، بدون جابه‌جایی داده):** جدول‌ها جدا ماندند (پشتیبان S.2، حساب S.3، رویدادهای S.5 به آن‌ها وابسته‌اند). فقط هنگام **خواندن**
-  یکی می‌شوند: `leitnerEintraegeProvider` (نوع `LeitnerEintrag` = `AppWortEintrag` | `ArchivEintrag`) تنها فهرست برای شمارنده، خانه‌ها، آمار و مرور.
+✅ گزارش Lukas (آیفون):** «افزودن به لایتنر» در واژگان ⇒ دکمه رنگ عوض می‌کرد و پیام می‌آمد، ولی بخش لایتنر «هیچ کارتی» نشان می‌داد.
   نمره‌دادن کارت آرشیو: `UserStateRepository.archivLeitnerBewerten` با همان قاعده و فاصله‌های `LeitnerDao.boxIntervals`؛ جریان زنده: `archivLeitnerBeobachten`.
-  کارت مرور آرشیو: `archiv_flash_card.dart` (نماد + رنگ از `WortZeile` — از `WortCard` بیرون کشیده شد، منبع رنگ یکی ماند) + دکمه‌ی صفحه‌ی کامل کلمه.
-  چرخش کارت مشترک: `wende_karte.dart`. تست: `test/leitner_beide_quellen_test.dart` (۷).
 - ⚠️ **قاعده:** هر جای تازه‌ای که لایتنر را می‌شمارد یا می‌خواند ⇒ از `leitnerEintraegeProvider`، هرگز مستقیم از یک جدول.
+_(جزئیات: `git show a078dc2:PLAN.md`)_
 
 ### B-1: خطای Flutter — color + decoration در Container ✅
 - وضعیت: رفع شد (2026-06-29)
@@ -397,44 +346,39 @@
 - وضعیت: رفع شد (2026-06-29)
 
 ### B-12 ✅ (2026-09-15): پشتیبان فیلدهای گرامری B-10 را نداشت
-- ✅ فیلدهای B-10 به Fassade و پشتیبان اضافه شدند.
+✅ ✅ فیلدهای B-10 به Fassade و پشتیبان اضافه شدند.
 - ⚠️ **قاعده:** هر ستون تازه در جدول کاربر ⇒ در **همان commit** در Fassade (`user_state_repository.dart`).
+_(جزئیات: `git show a078dc2:PLAN.md`)_
 
 ### B-11 ✅ (2026-09-15): اپ و پشتیبان دو جای متفاوت را می‌خواندند — از دست رفتن ظاهری پیشرفت
-- ✅ Store و پشتیبان حالا یک محل ذخیره دارند (فقط از راه Fassade).
+✅ ✅ Store و پشتیبان حالا یک محل ذخیره دارند (فقط از راه Fassade).
 - ⚠️ **درس:** جابه‌جایی محل ذخیره ⇒ **همه‌ی** خواننده‌ها منتقل شوند (قبلش grep روی `lib/`).
+_(جزئیات: `git show a078dc2:PLAN.md`)_
 
 ### B-10 ✅ (2026-09-16, CI grün): جدول قدیمی Words — Grammatikfelder nachgetragen
-- ✅ ستون‌های `regelmaessig`/`trennbar`/`grammatikDetail` در `Words` (schema 4→5).
+✅ ✅ ستون‌های `regelmaessig`/`trennbar`/`grammatikDetail` در `Words` (schema 4→5).
 - ⚠️ داده‌ی ناکافی ⇒ بدون نماد، هرگز حدس (Konnektor همیشه نماد دارد: `kurve_u`).
+_(جزئیات: `git show a078dc2:PLAN.md`)_
 
 ### B-9 ✅ (2026-09-15): دو سیستم رنگ آرتیکل — یکی شد
 - ✅ یک نظام رنگ آرتیکل: `GrammatikonSpec` (`article_colors.dart` از آن می‌خواند؛ نگهبان `test/artikelfarben_test.dart`).
 
 ### B-3: Wortschatz — نمایش کلمه با حرف اضافه در لیست ✅
-- مشکل: کلمات Präpositionen مثل "das Engagement für" در لیست Wortschatz نمایش داده می‌شدند
-- رفع: `stripPreposition(german)` در `word_list_item.dart` (۲۱ حرف اضافه) — در لیست فقط "das Engagement"؛ detail view کامل می‌ماند
-- وضعیت: **رفع شده — تأیید با خواندن کد در Audit 2026-09-15** (قبلاً اشتباهاً «باز» ثبت شده بود)
+✅ مشکل: کلمات Präpositionen مثل "das Engagement für" در لیست Wortschatz نمایش داده می‌شدند
+_(جزئیات: `git show a078dc2:PLAN.md`)_
 
 ### B-4: Grammatik home — لینک به صفحه لیست به جای گرامر ✅
-- مشکل: `_GrammarSection` tiles به list screens می‌رفتند (konnektoren، dativ، praep)
-- رفع: لینک‌ها به grammar screens تغییر کردند + NVV اضافه شد
-- وضعیت: رفع شد (2026-06-29)
-
----
+✅ مشکل: `_GrammarSection` tiles به list screens می‌رفتند (konnektoren، dativ، praep)
+_(جزئیات: `git show a078dc2:PLAN.md`)_
 
 ## فاز R — Refactor & UX (فاز جاری — بعد از رفع باگ‌ها)
 
 ### R-1: Wortschatz — نمایش پاک کلمه در لیست
-- [x] R-1.1 ✅ `word_list_item.dart` کلمه را بدون حرف اضافه نشان می‌دهد (`stripPreposition`).
-- [x] R-1.2 ✅ (تأیید در کد 2026-09-22) `word_detail_screen.dart`: کلیک روی کلمه → همه اطلاعات: (معنا، مثال، `AudioPlayButton`، `LeitnerAddButton`، دسته‌بندی، یادداشت گرامر — **«favorit» در اپ مفهوم جدا ندارد؛ فهرست‌ها/دسته‌بندی جایش را گرفته‌اند**)
-  - معنا (FA + EN)، مثال‌ها، صدا (TTS)
-  - دکمه Leitner، دکمه دسته‌بندی، دکمه favorit، گرامر
+✅ [x] R-1.1 ✅ `word_list_item.dart` کلمه را بدون حرف اضافه نشان می‌دهد (`stripPreposition`).
+_(جزئیات: `git show a078dc2:PLAN.md`)_
 
 ### R-2: Auswendiglernen — Präpositionen list باید full form نشان دهد
 - [x] R-2.1 ✅ 2026-09-22 لیست "Nomen · Verb · Adjektiv + Präpositionen": فرمت: `lemma · حرف_اضافه` — `PraepCluster.vollform` + `praepositionen_home_screen.dart`؛ تست `test/praep_vollform_test.dart`
-  - مثال: "abhängen · abhängig · die Abhängigkeit von"
-  - این فرمت را تغییر نده — کاربر می‌خواهد حرف اضافه را در لیست ببیند
 - [ ] R-2.2 کلیک روی هر آیتم → detail view کامل: (وضع 2026-09-22: `praep_cluster_detail_screen.dart` معنا + اعضا + مثال‌ها دارد؛ **صدا/لایتنر/دسته‌بندی ندارد**)
   ⛔ **بعد از انتشار** (تصمیم Lukas 2026-09-22 دور ۵) — برنامه و تصمیم‌ها: بخش «R-2.2 — برنامه» درست زیر همین.
 
@@ -492,9 +436,9 @@
 - ⚠️ قبل از شروع هر deck: فهرست دقیق «چه اضافه می‌شود» به Lukas نشان داده شود و بعد از «بله» ساخته شود.
 
 ### R-3: Auswendiglernen — ساختار جدید صفحه اصلی
-- [x] R-3.1 ✅ (همان Phase 5، 2026-06-29) حذف section headers (Verben، Satzbau und Konnektoren، Wortschatz، Redemittel)
-- [x] R-3.2 ✅ (Phase 5) صفحه‌ی اصلی Auswendiglernen = یک فهرست ساده‌ی deckها.
+✅ [x] R-3.1 ✅ (همان Phase 5، 2026-06-29) حذف section headers (Verben، Satzbau und Konnektoren، Wortschatz، Redemittel)
 - [x] R-3.3 ✅ (Phase 5) deck‌های "coming soon" را نشان بده ولی غیرفعال (قفل) — ⚠️ برای انتشار: L.2d
+_(جزئیات: `git show a078dc2:PLAN.md`)_
 
 ### R-3b: Grammatik — لینک‌های موضوعی ✅ (2026-06-29)
 - ✅ لینک‌های موضوعی (Konnektoren، Dativ/Akk، NVV، Präpositionen). اصل: Grammatik home فقط ارجاع می‌دهد.
@@ -503,53 +447,10 @@
 - ✅ تمرین‌های موضوعی (همان چهار موضوع). اصل: Prüfungen فقط ارجاع می‌دهد.
 
 ### R-4: Filter / Sort UI — یکپارچه در همه صفحات
-**هدف:** همه صفحات محتوا یک ظاهر یکسان دارند، ولی گزینه‌های فیلتر به محتوای همان صفحه تعلق دارند.
-**تعداد کشوها**: نامحدود — هر صفحه تعداد کشوهایی که نیاز دارد را به `FilterAccordion` می‌دهد.
-
-**ساختار عمودی هر صفحه:**
-```
-┌─────────────────────────────────┐
-│  [🔍 SearchBar                ] │  ← همیشه اول
-│  [📝 Prüfung]  [📖 Grammatik] │  ← دکمه‌های ثابت (اگر موجود)
-│  ┌─ Niveau ──────────────────┐  │
-│  │  [A1] [A2] [B1] [B2] ... │  │  ← کشو ۱ (accordion)
-│  └────────────────────────────┘  │
-│  ┌─ Art ─────────────────────┐  │
-│  │  [Nullposition] [Nebensatz│  │  ← کشو ۲ (محتوا از صفحه)
-│  └────────────────────────────┘  │
-│  ┌─ Thema ────────────────────┐  │  ← کشو ۳ (اگر مرتبط)
-│  └────────────────────────────┘  │
-│  ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─  │
-│  [نتایج فیلترشده]               │
-└─────────────────────────────────┘
-```
-
+✅ هدف:** همه صفحات محتوا یک ظاهر یکسان دارند، ولی گزینه‌های فیلتر به محتوای همان صفحه تعلق دارند.
 **⚠️ اصل مهم — گزینه‌های فیلتر باید با محتوای صفحه تطابق داشته باشند:**
-
-| صفحه | کشو ۱ (Niveau) | کشو ۲ (Art/Kasus/...) | کشو ۳ |
-|------|----------------|------------------------|--------|
-| Konnektoren | A1 A2 B1 B2 C1 | Nullposition، Nebensatz، Hauptsatz، Adverbial | Semantik (kausal، konzessiv، temporal...) |
-| Dativ Verben | A1 A2 B1 B2 | Dativ، Akkusativ | — |
-| NVV | A1 A2 B1 B2 C1 | — | Thema (Arbeit، Gesellschaft...) |
-| Präpositionen | A1 A2 B1 B2 C1 | an، auf، für، mit، über، von، zu... | Verb/Nomen/Adjektiv |
-| Wortschatz | A1 A2 B1 B2 C1 | Verb، Nomen، Adjektiv، Konnektor... | — |
-
-**ویژگی‌های فیلتر:**
-- Multi-select (ترکیبی): می‌توان A1 + B2 + Nullposition همزمان انتخاب کرد
-- Accordion کشویی: باز/بسته با animation
-- وضعیت انتخاب: chip‌های فعال زیر accordion
-- دکمه "پاک کردن همه" وقتی فیلتری فعال است
-
 **⚠️ اصل component isolation:**
-- `filter_accordion.dart` فقط ظاهر و رفتار کشو را می‌داند — هیچ چیز از محتوا نمی‌داند
-- هر Screen محتوای کشوها را به‌عنوان `List<FilterOption>` از بیرون به `FilterAccordion` می‌دهد
-- هیچ Screen‌ای نباید کد ظاهر دکمه‌ها را درون خودش داشته باشد
-
-- [x] R-4.1 ✅ (تأیید در کد 2026-09-22) `core/widgets/filter_accordion.dart` — کامپوننت جدید
-  - params: `label:String`، `options:List<FilterOption>`، `selected:Set<String>`، `onChanged`
-- [x] R-4.2 ✅ `core/widgets/filter_chip_bar.dart` — نمایش فیلترهای فعال + پاک کردن
-- [x] R-4.3 ✅ اعمال در: Konnektoren، NVV، Dativ Verben، Präpositionen، Wortschatz (+ trennbar، unregelm، reflexiv، verb_praep، redemittel_1010)
-  - هر Screen فقط `FilterOption`‌های خودش را تعریف می‌کند و به widget می‌دهد
+_(جزئیات: `git show a078dc2:PLAN.md`)_
 
 ### ⭐ اصل معماری پایه: یک محتوا، چند ورودی (Content Once, Many Entrances)
 > **تصمیم Lukas، 2026-09-18.** هم‌ردیف Component Isolation است و هر Session باید رعایتش کند.
@@ -648,9 +549,8 @@ ElevatedButton(
 - `core/widgets/article_badge.dart` — badge آرتیکل (der/die/das)
 
 ### R-5: دکمه‌ها و UI یکپارچه (Design System)
-- [x] R-5.1 `core/widgets/vox_button.dart` ✅ (2026-07-07 — فاز B کامل، پایین را ببین)
-- [x] R-5.2 `core/widgets/vox_badge.dart` — انواع badge (level، type، article) ✅
-- [x] R-5.3 `core/theme/app_decorations.dart` — BoxDecoration‌های مشترک ✅
+✅ [x] R-5.1 `core/widgets/vox_button.dart` ✅ (2026-07-07 — فاز B کامل، پایین را ببین)
+_(جزئیات: `git show a078dc2:PLAN.md`)_
 
 ### فاز B — Buttons: Puzzling-Prinzip ✅ (2026-07-07)
 > خواسته کاربر: **همه‌چیز در اپ فقط از «صفحه دکمه» استفاده می‌کند** — هیچ screen ای
@@ -662,8 +562,6 @@ ElevatedButton(
 - [x] B.2 ✅ جاروی کامل: ۰ دکمه‌ی خام در `features/`.
 - [x] B.3 flutter analyze: No issues ✅
 - [x] B.4 ✅ (2026-07-07) گزینه‌های آزمون ListTile-based (nvv، praep، redemittel، unregelm، verb-praep)
-      → VoxOptionButton (idle/selected/correct/wrong). حالا هر ۱۱ quiz screen از VoxOptionButton
-      استفاده می‌کنند — ۰ ListTile گزینه باقی ماند.
 - [~] B.4-alt باقی‌مانده (بعداً): Word-Chips (wortstellung، dativ) → vox_chip؛ قدیمی:
       RadioListTile) → VoxOptionButton برای یکدستی کامل؛ Word-Chips (wortstellung، dativ) → vox_chip
 - [x] **B.5** ✅ (2026-09-15) نگهبان `test/puzzling_buttons_test.dart`: دکمه‌ی خام در `lib/features/` ⇒ CI قرمز.
@@ -672,14 +570,14 @@ ElevatedButton(
   باید همیشه ۰ نتیجه غیر-Vox بدهد.
 
 ### R-6: دوزبانه — Audit کامل (FA + EN) ✅ (2026-06-30)
-- ✅ R-6.1 تا R-6.12 همه انجام شد (ادامه: فازهای L، L2، L3).
+✅ ✅ R-6.1 تا R-6.12 همه انجام شد (ادامه: فازهای L، L2، L3).
 - ⚠️ Dynamic strings با $variable intentionally left — نیاز به ICU system جداگانه
+_(جزئیات: `git show a078dc2:PLAN.md`)_
 
 ### R-7: جداسازی محتوا از UI (Content Files)
-- ✅ R-7.1 تا R-7.9 همه انجام شد: هر محتوا فایل مستقل در `assets/data/`.
+✅ ✅ R-7.1 تا R-7.9 همه انجام شد: هر محتوا فایل مستقل در `assets/data/`.
 - ⚠️ `content_registry.dart` فعلاً فقط فهرست است؛ هیچ فایل دیگری آن را import نمی‌کند (2026-09-22).
-
----
+_(جزئیات: `git show a078dc2:PLAN.md`)_
 
 ## فاز ۱۶ — انتشار و QA نهایی ⛔ منسوخ
 > نسخه‌ی بومی از 2026-09-13 حذف شد. فهرست معتبر: **فاز LAUNCH → L.3** (تست آفلاین همان‌جا باز است).
@@ -710,32 +608,8 @@ ElevatedButton(
 - ✅ انجام شد.
 
 ### فاز DS — Design System — یک بار برای همیشه
-> هدف: هر کامپوننت UI یک فایل اختصاصی دارد.
-> وقتی بعداً style را عوض کنی → فقط یک فایل تغییر می‌کند → کل اپ یک شکل می‌شود.
-
-#### DS-1: Tokens — وضعیت واقعی (بررسی کد 2026-09-23)
-- ✅ در استفاده: `app_colors.dart` · `app_sizes.dart` · `vox_colors.dart` · `app_theme.dart` · `app_decorations.dart`
-- ◻️ stub بی‌استفاده: `vox_typography.dart` · `vox_icons.dart` · `vox_animations.dart`
-
-#### DS-2: Components ✅
-- ✅ همه در استفاده: `vox_button` · `vox_badge` · `article_badge` · `filter_accordion` · `filter_chip_bar` · `vox_error_widget` · `vox_loading_widget` · `audio_play_button` · `leitner_add_button` · `grammar_link_button` · `quiz_launch_button` · `global_search_bar`
-
-#### DS-3: Components — وضعیت واقعی (بررسی کد 2026-09-23)
-- ✅ در استفاده: `vox_search_field` · `vox_empty_state` · `vox_chip` · `vox_dialog` · `vox_snack_bar` · `vox_progress`
-- ◻️ stub بی‌استفاده: `vox_list_tile` · `vox_section_header` · `vox_card` · `vox_divider` · `vox_bottom_bar` · `vox_text_field` · `vox_app_bar`
-
-#### DS-4: نحوه استفاده (بعد از نوشتن کد)
-هر stub بعد از نوشتن کد باید در همه صفحاتی که inline همان کامپوننت دارند جایگزین شود.
-**اولویت پیاده‌سازی:**
-1. `vox_colors.dart` — اول tokens، بعد widgets (پایه همه چیز)
-2. `vox_search_field.dart` — بیشترین تکرار (۹ صفحه)
-3. `vox_progress.dart` — VoxQuizProgressBar (۱۲ quiz screen، بالاترین duplication)
-4. `vox_chip.dart` — CEFR chips همه جا استفاده می‌شود
-5. `vox_empty_state.dart` — هر list screen یکی دارد
-6. `vox_snack_bar.dart` — ساده‌ترین refactor
-7. `vox_dialog.dart` — quiz result dialogs یکسان شوند
-8. `vox_section_header.dart` — بعد از قبلی‌ها
-9. بقیه در آینده
+✅ هدف: هر کامپوننت UI یک فایل اختصاصی دارد.
+_(جزئیات: `git show a078dc2:PLAN.md`)_
 
 ### فاز ARCH — Architecture Hub — زیرساخت مرکزی (2026-07-04)
 > هدف: هر سرویس/ابزار مرکزی یک فایل دارد — Screens فقط import می‌کنند.
@@ -748,32 +622,23 @@ ElevatedButton(
 
 #### ARCH-B: Implementation — ترتیب وابستگی ✅ B1–B11 (2026-07-04)
 - [x] B1  `vox_colors.dart` — LIVE — CEFR/register/article/wordType/quiz tokens
-      متصل شد: vox_badge، ۹ صفحه detail/list، ۳ home-screen level lists
 - [x] B2  `formatters.dart` — LIVE — faDigits، countLabel، outOf، percent، relativeDate، timer
-      متصل شد: ۱۱ صفحه (count labels + quiz result strings)
 - [x] B3  `app_env.dart` — LIVE — RevenueCat keys via --dart-define (main.dart پاک شد) — ⛔ RevenueCat بعداً حذف شد (2026-09-13)
 - [x] B4  `app_logger.dart` — LIVE — AppLogger(tag) + loggerProvider
 - [x] B5  `feature_flags.dart` — LIVE — همه ۲۳ فلگ deck/feature
-      متصل شد: auswendiglernen decks (enum _Status حذف شد) + content_registry (isReady getter)
 - [x] B6  `cache_service.dart` — LIVE — file-based TTL + getStale (offline fallback)
 - [x] B7  `api_client.dart` — LIVE — ApiException typed + logging
-      متصل شد: rss_service (cache→network→stale) + lesen_controller (rssServiceProvider)
 - [x] B8  `permission_service.dart` — LIVE — notifications (mic/speech برای Sprechen آماده)
 - [x] B9  `vox_search_field` — LIVE — متصل شد: **۱۱ list screen** (۹ template + ۲ redemittel)
 - [x] B10 `vox_progress` (VoxQuizProgressBar + VoxStepDots) + `vox_empty_state` — LIVE
-      متصل شد: **۱۱ quiz screen** progress + ۲ empty state
 - [x] B11 `vox_snack_bar` + `vox_dialog` (quizResult/confirm/info) + `vox_chip`
-      (VoxRegisterDot + VoxCountPill) — LIVE
-      متصل شد: comingSoon snackbar + **۹ quiz result dialog** + redemittel chips
 - [x] B12 ✅ (تأیید 2026-09-22) `test/helpers/mock_data_factory.dart` + تست‌ها + CI (`pruefen.yml`، `deploy-web.yml`)
 
 #### ARCH-C: Integration — اتصال Feature‌ها به مرکز ✅ عمده (2026-07-04)
 > از طریق B9–B11 انجام شد — هر الگوی تکراری با نسخه مرکزی جایگزین شد:
 - [x] Suchfelder: konnektoren، dativ، nvv، praepositionen، reflexiv، trennbar،
-      verb_praep، unregelm، wortschatz، redemittel_1010، redemittel_exam
 - [x] Quiz-Progress: همان ۹ + grammatik + cloze + exam_simulation
 - [x] Result-Dialoge: ۹ quiz (redemittel، unregelm، reflexiv، trennbar، verb_praep،
-      konnektoren، dativ، praepositionen، nvv)
 - [x] رنگ‌ها: CEFR/register switches حذف شدند (۱۲ مکان → VoxColors)
 - [x] Flags: comingSoon مرکزی شد
 - [ ] باقی‌مانده (بعدی): vox_list_tile، vox_card، vox_app_bar، vox_section_header،
@@ -807,12 +672,8 @@ ElevatedButton(
 - [x] **G1** ✅ (2026-07-06) کاتالوگ گرامر: `grammatik_katalog.json` (۱۵ موضوع، ۹۳ مدخل) + مدل‌ها.
 - [x] **G2** ✅ (2026-07-07) `GrammatikLektionScreen` — رندر درس از JSON سه‌زبانه.
 - [x] **G2-alt** ✅ اصلاح شد (2026-09-16): منبع **ناقص نیست** — ۱۷ سند JSON کامل (۸۴ درس، ۳۳۶ تمرین) پشت‌سرهم
-      با متن توضیحی میانشان؛ هر سند از `{` قبل از `"_index"` جدا می‌شود. `verben-grundlagen.json` موجود بایت‌به‌بایت
-      با سند منبع برابر بود. ~~منبع ناقص/آشفته است — فقط ۴ لکسیون کامل parse شد.~~
 - [x] **G2-old** ✅ (تأیید 2026-09-22: explanationBlocks + relatedSlugs رندر می‌شوند) `GrammatikLektionScreen` — رندر Content-JSON (explanationBlocks سه‌زبانه +
-      examples + tables + relatedSlugs) در `/grammatik/lektion/:slug`
 - [x] **G3** ✅ (2026-09-16) ایمپورت محتوا I: verben-grundlagen(9) + tempus(5) + passiv(4) + konjunktiv(7)
-      → `assets/data/grammatik/<thema>.json` + آپدیت route در کاتالوگ
 - [x] **G4** ✅ (2026-09-16) ایمپورت محتوا II: verbergaenzungen(5) + ergaenzungssaetze(3) + nomen(6) + artikel(6)
 - [x] **G5** ✅ (2026-09-16) ایمپورت محتوا III: adjektive(4) + adverbien(4) + pronomen(5) + praepositionen(5)
 - [x] **G6** ✅ (2026-09-16) satzlehre + nebensaetze + temporalsaetze ⇒ همه‌ی ۸۴ درس زنده (۱۷ فایل در `assets/data/grammatik/`، محتوا بدون تغییر).
@@ -910,10 +771,7 @@ Regel 14 (فرم‌ها در سطح Duden)، Regel 15 (حرف اضافه‌ی ث
 **قانون کاربر: هیچ محتوایی (معنی/جمله‌ی موجود) حذف نمی‌شود — فقط تکمیل و تصحیح.**
 - [x] **Audit** ✅ (2026-07-15) ۸ فایل `assets/data`: ۷ دِک پاس؛ نقص `praepositionen_data.json` (۱۳۴ عضو بدون جمله‌ی نمونه) ⇒ رفع شد (مورد بعد).
 - [x] **اجرا ✅ (2026-07-15):** ۱۳۴ جمله‌ی {de, fa, en} با الگوی روشن Lemma + Präposition + Kasus
-  به آرایه‌ی `examples` کلاسترها اضافه شد (کلیدهای member_lemma/member_preposition؛ مورد خاص:
-  «das Interesse» در کلاستر ۵۵ دو بار — an+Dat و für+Akk — هرکدام جمله‌ی مخصوص خودش).
 - [x] **تأیید ✅ (2026-07-15):** Re-Audit = ۰ عضو بدون جمله؛ flutter analyze پاک؛ ۳۳ تست سبز.
-  **⇒ فاز D بسته: هر ۸ دِک زنده حالا استاندارد Wort prompt را پاس می‌کنند. هیچ محتوایی حذف نشد.**
 
 **📦 نتیجه مهم برای ذخیره‌سازی: JSON ذخیره‌شده «لاغرتر» از خروجی خام Prompt است.**
 هنگام ذخیره، بخش‌های قابل‌اشتقاق strip می‌شوند:
@@ -967,15 +825,10 @@ Regel 14 (فرم‌ها در سطح Duden)، Regel 15 (حرف اضافه‌ی ث
 توزیع نهایی (ZIP / Apple CloudKit) بعداً.
 
 - [x] **V.0** ✅ (2026-07-14) schema نهایی = **SUPER-PROMPT v3.0** (کاربر تصمیم گرفت):
-      Array ۱–۱۰ کلمه، دقیقاً ۲ Beispiel (نه ~۱۰۰ جمله — جدول sentences فعلاً منتفی)،
-      Wortnetz = ۵ ارجاع تخت با id_ref، فیلد etymologie. tag ها بعداً از فیلدها (V.2).
 - [x] **V.1** ✅ (2026-07-14) ساختار پوشه `assets/vocab/<wortart>/<id>.json` (۱۰ پوشه در pubspec)
-      + نگاشت Prompt→ذخیره = `vokab_schema.dart` (Validierung/Normalisierung) + demo `verb_lernen`؛
-      کلمات واقعی از این پس via `import_inbox/` + `tool/vokabular_import.dart` (مرحله ۵ بالا)
 - [x] **V.2 Wortindex** ✅ (2026-09-16) — `tool/vokab_index.dart` هنگام build فهرست را می‌سازد؛ کارت کامل lazy.
       ⚠️ فهرست هرگز دستی نوشته یا commit نمی‌شود (`.gitignore`). آفلاین: فقط کلمه‌های بازشده در cache مرورگرند.
 - [x] **V.3** ✅ entfällt — in V.2 aufgegangen (kein `vocab.db` zu kopieren; Filter/Suche laufen im Speicher über den Index).
-      Ursprünglich: اپ: کپی prebuilt `vocab.db` در first-launch (نه seed) + DAO + provider های سورت
 - [ ] **V.4** UI: **لیست فقط words (سریع/paginated)** + detail با جمله‌های lazy + **چند سورت هم‌زمان**
       (A1–C2 / kasus / wortart / thema — هر کدام index+query روی همان جدول)
 - [ ] **V.5** تصمیم توزیع (کاربر + Claude با هم): **ZIP** یا **Apple CloudKit** یا db قابل‌دانلود یا
@@ -1068,7 +921,6 @@ Gleiche Hülle, unterschiedliche Nutzlast. In beiden PLAN-Dateien festgehalten.
   - [x] **S.3 گام ۲** ✅ (2026-09-15) — ورود/ثبت‌نام؛ بدون پیکربندی، بخش حساب اصلاً دیده نمی‌شود.
   - [x] **S.3 گام ۳** ✅ (2026-09-15) — کپی در `vox_backups` با همان محتوای S.2؛ ادغام «بالاترین جعبه برنده است».
   - [x] **S.3 Konto löschen ✅ L.1d (2026-09-22):** Entscheidung Lukas — ein Konto, ein Löschen, für BEIDE Apps.
-        VOX ruft `delete_own_account()` (jetzt auch in `vox_tables.sql` §5).
   ⚠️ **Voraussetzung für Schritt 2:** die Secrets `SUPABASE_URL` und `SUPABASE_ANON_KEY` im
   vox-Repo (Settings → Secrets and variables → Actions) und `supabase/vox_tables.sql` einmal im
   SQL-Editor des Supabase-Projekts ausgeführt. Bis dahin bleibt alles wirkungslos — aber heil.
@@ -1106,10 +958,7 @@ reines Dart, kein Codegen:
 هیچ منطق validation دومی نوشته نمی‌شود — هر ابزار کمکی فقط «pre-flight» است و حرف آخر را Dart می‌زند.
 
 - [x] **A.1 `tool/backlog.py`** ✅ (2026-09-15) — backlog reader: از `old files Lukasalmani/Wörter/*.txt` و
-      `assets/vocab/` حساب می‌کند **کلمه‌ی بعدی کدام است** (بر اساس فایل‌های موجود، نه مارک‌ها).
-      خروجی: لیست N کلمه‌ی بعدی به ترتیب الفبا + گزارش پوشش per Wortart.
 - [x] **A.2 `tool/sync_backlog.py`** ✅ (2026-09-15) — **اجرا شد: ۴۵ مارک نو، ۰ حذف؛ اجرای دوم بدون تغییر (idempotent)** — مارک‌های `✓ ` را از روی `assets/vocab/` بازسازی می‌کند
-      (رفع ناهماهنگی Audit). idempotent؛ `--dry-run` دارد.
 - [x] **A.3** ✅ `tool/generate_words.py` — سازنده‌ی کلمه با SUPER-PROMPT (مستقیم از `Wort prompt`)، سقف ۵۰۰.
 - [x] **A.4** ✅ (2026-09-16) `vokabular-autofill.yml`.
       ⚠️ نیاز به `ANTHROPIC_API_KEY` — هزینه دارد و باید شفاف گزارش شود.
@@ -1147,80 +996,16 @@ reines Dart, kein Codegen:
 ---
 
 ### فاز L — L10n: زبان فقط از Settings [Step 1 ✅ Audit — 2026-07-07]
-> قوانین کاربر (blueprint 2026-07-07):
-> ۱. آلمانی تغییرناپذیر است (محتوای یادگیری) — هرگز ترجمه/تغییر نشود.
-> ۲. زبان دوم داینامیک: FA یا EN — کاربر انتخاب می‌کند.
-> ۳. FA و EN هرگز هم‌زمان روی صفحه نباشند؛ تغییر زبان فوری کل اپ را آپدیت کند.
-> ۴. تغییر زبان **فقط** از Settings — هر سوییچ دیگری حذف شود.
-
-**نتیجه Audit (Step 1 — کد تغییر نکرد):**
-- ✅ زیرساخت موجود و کافی — «LocalizationManager» جدید لازم نیست:
-  · `settingsProvider.uiLanguage` (fa/en، persist در shared_preferences، فقط در Settings ست می‌شود)
-  · `app.dart` → `MaterialApp.router(locale: resolvedLocale)` → تغییر زبان بدون restart کل اپ را rebuild می‌کند
-  · `AppL10n.t(context, key)` — کاتالوگ مرکزی برچسب‌ها FA/EN (فاز R-6 همه صفحات را پوشش داد)
-  · `AppL10n.meaning(context, fa:, en:)` — برای محتوا؛ فعلاً فقط در ۱۱ فایل استفاده شده
-- ✅ الگوی مرجع صحیح: modalverben + unregelm + grammar_topic (locale-aware)
-- ❌ **۶ سوییچ زبان غیرمجاز خارج از Settings** — `_showFa` state + دکمه AppBar («نمایش انگلیسی/فارسی»):
-  dativ_verben_detail · konnektor_detail · verb_praep_detail · trennbar_detail ·
-  nvv_detail (+ دکمه EN/FA دوم داخل body!) · reflexiv_detail
-- ❌ **۵+ صفحه Dual-Display** (FA و EN هم‌زمان):
-  word_detail (meaningFa+meaningEn پشت هم) · flash_card_widget (لایتنر) ·
-  word_popup_card (Lesen) · praep_cluster_detail (هدر) ·
-  redemittel_1010_detail (کارت جدای 'English' + مثال fa+en)
-  → در Step 3 هر batch دوباره فایل‌به‌فایل چک می‌شود (لیست بالا حداقل است)
-
-**Roadmap:**
-- [x] **L-Step1** Audit + معماری + آپدیت Plan/Map ✅ (2026-07-07)
-- [x] **L-Step2** ✅ (2026-07-07) پاریتی کاتالوگ: fa=en=251 کلید، صفر اختلاف (اسکریپت اجرا شد)
-      + helper جدید `AppL10n.isFa(context)` (برای widget های فرزند که flag می‌گیرند)
-      + حذف هر ۶ سوییچ غیرمجاز (`_showFa` state + دکمه AppBar + دکمه دوم داخل nvv)
-- [x] **L-Step3a** ✅ همان ۶ detail: همه ternary ها → `AppL10n.meaning` / `showFa: AppL10n.isFa(context)`
-- [x] **L-Step3b** ✅ صفحه‌ی کلمه، لیست، فلش‌کارت و پاپ‌آپ فقط زبان فعال را نشان می‌دهند.
-- [x] **L-Step3c** ✅ redemittel_1010_detail (کارت‌های جدای فارسی/English → یک کارت «زبان فعال»،
-      _ExampleCard فقط زبان فعال، مثال/نکته → کلیدهای example/note_label) + praep_cluster_detail
-      (هدر + _ExampleTile فقط زبان فعال)
-- [x] **L-Step3d** ✅ (2026-07-07) جاروی نهایی — همه‌ی گیت‌ها پاس.
-- **قانون/گیت دائمی**: `grep -rn '_showFa' lib/features` = ۰؛ هیچ رندر هم‌زمان
-  `meaningFa`+`meaningEn` (و مشابه En/Fa) خارج از `AppL10n.meaning` در UI؛
-  زبان فقط از Settings (settingsProvider.uiLanguage)؛ آلمانی هرگز localize نمی‌شود.
+✅ قوانین کاربر (blueprint 2026-07-07):
+_(جزئیات: `git show a078dc2:PLAN.md`)_
 
 ### فاز L2 — Massen-Lokalisierung: «هیچ FA در حالت EN» [L2-A..E ✅ / L2-F باز] (2026-07-07)
-> شکایت کاربر: با انتخاب English هنوز خیلی جاها فارسی است. Audit: **۶۴۱ رشته FA hardcoded در ۹۸ فایل**
-> که هرگز از کاتالوگ رد نمی‌شدند. نتیجه بعد از L2: **لایه UI کامل — ۶۴۱ → ۴۱ (همه ۴۱ عمدی)**.
-
-- [x] **L2-A** Auto-Replace با reverse-catalog (تطبیق دقیق) + حلقه تعمیر خودکار
-      (خطاهای const/context → revert همان خط + import خودکار)
-- [x] **L2-B** کاتالوگ ۲۵۱ → **۵۳۳ کلید** (fa=en، صفر اختلاف) — دیکشنری دستی ~۲۸۰ ترجمه EN
-- [x] **L2-C** ✅ الگو: کلید در const، ترجمه هنگام رندر (`AppL10n.t`).
-- [x] **L2-D** Interpolation ها: helper جدید **`AppL10n.tf(ctx, key, {'n': ...})`** با {placeholder}
-      (صندوق $box، $x از $y درست، شروع مرور...، imported: n، ...)
-- [x] **L2-E** ✅ مدل‌ها/enumها کلید برمی‌گردانند، UI ترجمه می‌کند.
-- [x] گیت‌ها: analyze سبز؛ پاریتی ۵۳۳=۵۳۳؛ باقیمانده UI = ۴۱ رشته **عمدی**:
-      formatters (شاخه‌های FA پشت useFa)، content_registry (seed دیتابیس)، parser_registry
-      و import_screen (نمونه‌های فرمت با کلمه فارسی)، «فارسی» به‌عنوان نام زبان (settings/redemittel)
-- [→] **L2-F** در فاز L3 ادغام شد (پایین — L3-D)
+✅ شکایت کاربر: با انتخاب English هنوز خیلی جاها فارسی است. Audit: **۶۴۱ رشته FA hardcoded در ۹۸ فایل**
+_(جزئیات: `git show a078dc2:PLAN.md`)_
 
 ### فاز L3 — Content-Zweisprachigkeit: همه محتواها FA+EN [کامل ✅] (2026-07-07)
-> شکایت کاربر: بعضی صفحات هنوز **محتوایشان** فارسی است (مثال ۱: Auswendiglernen →
-> unregelmäßige Verben → معنی جمله‌ی مثال؛ مثال ۲: Grammatik → trennbare Verben).
-> Audit کامل انجام شد — دو کلاس مشکل:
-> **A) کد**: داده EN دارد ولی Screen فقط `Fa` را render می‌کند (ارزان — کد)
-> **B) داده**: JSON اصلاً فیلد `_en` ندارد یا خالی است (نگارش EN لازم)
-> **نتیجه: هر دو کلاس حل شد. asset-audit = ۰ فیلد fa بدون en. کاتالوگ ۵۶۵=۵۶۵.
-> precise-gate (Text مستقیم روی رشته FA) = ۰ در صفحات content. analyze سبز.**
-
-- [x] **L3-A** ✅ (2026-07-07) صفحه‌هایی که EN موجود را نادیده می‌گرفتند درست شدند.
-- [x] **L3-B** ✅ داده‌های کوچک + کاتالوگ گرامر دوزبانه.
-- [x] **L3-C** ✅ EN برای همه‌ی JSONهای ناقص (audit = ۰).
-- [x] **L3-D** ✅ رشته‌های محتوای hardcoded در ۱۰ صفحه دوزبانه شدند.
-- [x] **L3-E** ✅ (2026-07-07) `MemorizeItems.meaningEn` (schema 1→2).
-- **⭐ قانون دائمی (از الان برای همیشه — در MAP اصل ۵ هم ثبت شد):**
-  هر محتوای جدید از **اول** دوزبانه اضافه می‌شود:
-  ۱) JSON: هر فیلد متنی زبان دوم = جفت `*_fa` + `*_en` (آلمانی `*_de` جدا و تغییرناپذیر)
-  ۲) Screen: هرگز `xxxFa` مستقیم render نشود — فقط AppL10n.meaning/isFa یا الگوی `_loc`
-  ۳) برچسب UI: فقط کلید کاتالوگ، هم‌زمان در fa و en
-  ۴) گیت‌های پایان کار: analyze سبز · پاریتی کاتالوگ · asset-audit (هیچ `_fa` بدون `_en`
-     در فایل جدید) · grep render مستقیم Fa = ۰
+✅ شکایت کاربر: بعضی صفحات هنوز **محتوایشان** فارسی است (مثال ۱: Auswendiglernen →
+_(جزئیات: `git show a078dc2:PLAN.md`)_
 
 ### Phase 13 — Redemittel 1010 ✅ (2026-07-04)
 - ✅ همه انجام شد: ۹۰۸ عبارت (منبع ۹۰۸ دارد، نه ۱۰۱۰).
@@ -1243,27 +1028,8 @@ reines Dart, kein Codegen:
 ---
 
 ## فازهای تکمیل‌شده (آرشیو)
-| فاز | عنوان | وضعیت |
-|-----|--------|--------|
-| ۰   | Foundation | ✅ |
-| ۱   | Wortschatz | ✅ |
-| ۲   | Leitner | ✅ |
-| ۳   | User Categories | ✅ |
-| ۴   | Grammatik | ✅ |
-| ۵   | Lesen | ✅ |
-| ۶   | Hören | ✅ |
-| ۷   | Auswendiglernen | ✅ |
-| ۸   | Prüfungen | ✅ |
-| ۹   | Selbstlernen | ✅ |
-| ۱۰  | More/Settings | ✅ |
-| ۱۱  | Global Search | ✅ |
-| ۱۲  | Import | ✅ |
-| ۱۳  | Sprechen/Schreiben stubs | ✅ |
-| ۱۴  | Polish & QA | ✅ کد (تست دستی باقی) |
-| ۱۵  | Launch prep | ✅ کد (signing + store باقی) |
-| R13 | Redemittel 1010 — ۹۰۸ عبارت | ✅ 2026-07-04 |
-
----
+✅ | فاز | عنوان | وضعیت |
+_(جزئیات: `git show a078dc2:PLAN.md`)_
 
 ## تصمیمات تکنیکی
 | موضوع | تصمیم | دلیل |
