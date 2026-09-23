@@ -13,4 +13,21 @@ class AppLinks {
   /// Authentication → URL Configuration → Redirect URLs stehen, sonst landet
   /// der Link auf der „Site URL" — und das ist bei geteiltem Projekt Root-in.
   static const voxUrl = 'https://lukasylilli.github.io/vox/';
+
+  /// Kennzeichen des Rückwegs aus der „Passwort zurücksetzen"-Mail (P.2,
+  /// 2026-09-23). Supabase hängt Sitzung oder Fehler als `#…` an diese
+  /// Adresse; `core/utils/anmelde_ruecklauf.dart` erkennt daran, dass es der
+  /// Passwort-Link war — auch wenn er nicht mehr gilt.
+  static const passwortLinkParameter = 'link';
+  static const passwortLinkWert = 'passwort';
+
+  /// Rückkehr-Adresse der Passwort-Mail (`redirectTo` in
+  /// `AuthService.sendPasswordReset`).
+  ///
+  /// ⚠️ Muss **zeichengleich** in Supabase → Authentication → URL
+  /// Configuration → Redirect URLs stehen (eingetragen 2026-09-23). Fehlt sie
+  /// dort, schickt Supabase den Nutzer auf die „Site URL" — und die zeigt
+  /// nicht auf VOX.
+  static const voxPasswortUrl =
+      '$voxUrl?$passwortLinkParameter=$passwortLinkWert';
 }

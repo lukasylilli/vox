@@ -15,7 +15,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../../../core/backup/nutzer_profil.dart';
 import '../../../core/backup/user_state_repository.dart';
 import '../../../core/services/auth_service.dart';
-import '../../../core/utils/anmelde_adresse.dart';
+import '../../../core/utils/anmelde_ruecklauf.dart';
 import '../../wortschatz/controllers/word_controller.dart' show databaseProvider;
 
 // ── Persönliche Angaben ──────────────────────────────────────────────────
@@ -106,32 +106,42 @@ final archivUebersichtProvider =
 /// Karte «رمز جدید»; nach Erfolg wird es wieder falsch.
 final passwortNeuProvider = StateProvider<bool>((ref) => false);
 
+/// Was `main.dart` vor dem ersten Frame über einen Mail-Link festgestellt hat
+/// (P.2, 2026-09-23). `main` setzt den echten Wert per Override; die Adresse
+/// ist dann schon gesäubert und kann hier nicht mehr gelesen werden.
+final anmeldeRuecklaufProvider =
+    Provider<AnmeldeRuecklauf>((ref) => AnmeldeRuecklauf.keiner);
+
 /// Hält das Abonnement auf das Wiederherstellungs-Ereignis am Leben
 /// (`VoxApp` beobachtet dies wie `kontoAbgleichStarterProvider`). Ohne Server:
 /// nichts.
 ///
 /// ⚠️ Navigiert **nicht** selbst — das macht `app.dart`, damit dieser Provider
 /// den Router nicht kennen muss (sonst Import-Kreis über die Profil-Seite).
+///
+/// Eingelöst wird der Link nicht hier, sondern schon in `Supabase.initialize`
+/// (`main.dart`); hier kommt nur das Ergebnis an — Erfolg als Ereignis
+/// `passwordRecovery`, Misserfolg über [anmeldeRuecklaufProvider].
 final passwortWiederherstellungStarterProvider = Provider<void>((ref) {
   if (!ref.watch(kontoAktivProvider)) return;
   final service = ref.read(authServiceProvider);
   final abo = service.watchPasswordRecovery().listen((_) {
     ref.read(passwortNeuProvider.notifier).state = true;
   });
-  ref.onDispose(abo.cancel);
-
-  // Link mit `token_hash` (2026-09-22): einlösen, dann die Adresse säubern —
-  // der Token gilt nur einmal, ein Neuladen soll ihn nicht erneut versuchen.
-  final token = wiederherstellungsToken(Uri.base);
-  if (token == null) return;
-  entferneAnmeldeParameter();
-  service.verifyRecoveryToken(token).then((ok) {
-    if (ok) {
-      ref.read(passwortNeuProvider.notifier).state = true;
-    } else {
-      ref.read(passwortLinkUngueltigProvider.notifier).state = true;
-    }
+  var aktiv = true;
+  ref.onDispose(() {
+    aktiv = false;
+    abo.cancel();
   });
+
+  if (ref.read(anmeldeRuecklaufProvider) ==
+      AnmeldeRuecklauf.passwortLinkUngueltig) {
+    // Nicht mitten im Aufbau: Riverpod verbietet, im Aufbau eines Providers
+    // einen anderen zu ändern. Einen Takt später hört `app.dart` schon zu.
+    Future.microtask(() {
+      if (aktiv) ref.read(passwortLinkUngueltigProvider.notifier).state = true;
+    });
+  }
 });
 
 /// Wahr, wenn ein Wiederherstellungs-Link nicht eingelöst werden konnte

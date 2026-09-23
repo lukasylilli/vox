@@ -325,19 +325,51 @@ class AuthService {
   /// ⚠️ Der Server verrät **nicht**, ob die Adresse ein Konto hat — das ist
   /// Absicht (sonst ließen sich Adressen durchprobieren). Die Oberfläche sagt
   /// deshalb „falls es ein Konto gibt, ist eine Mail unterwegs".
+  ///
+  /// **Implizit, nicht PKCE** (2026-09-23). Der Hauptclient arbeitet mit PKCE;
+  /// dessen Link (`?code=`) braucht den Code-Verifier aus **demselben**
+  /// Browser-Speicher, in dem „Passwort vergessen" gedrückt wurde. Öffnet das
+  /// Mailprogramm den Link woanders (anderer Browser, eingebauter Browser der
+  /// Mail-App, Home-Bildschirm-App), fehlt er — die App startete dann still
+  /// auf der Startseite (Bericht Lukas 2026-09-22). Ohne PKCE hängt Supabase
+  /// die Sitzung selbst an den Link (`#access_token=…&type=recovery`); das
+  /// gilt in jedem Browser. `supabase_flutter` löst ihn beim Start ein und
+  /// meldet `passwordRecovery` — derselbe Weg wie bisher.
+  ///
+  /// Warum nicht die Mailvorlage auf `token_hash` umstellen (Plan vom
+  /// 2026-09-22): Supabase sperrt Vorlagen im Gratis-Tarif ohne eigenen
+  /// SMTP-Server — auch über die Management-API (400, geprüft 2026-09-23).
+  /// Der Link der Standardvorlage (`{{ .ConfirmationURL }}`) wird hier
+  /// unverändert benutzt.
+  ///
+  /// Dafür ein eigener, kurzlebiger Client: Die Ablaufart gilt je Client,
+  /// und nur **diese eine** Anfrage soll implizit sein — Anmelden,
+  /// Registrieren und E-Mail-Änderung bleiben beim Hauptclient (PKCE). Er
+  /// kennt keine Sitzung, hat nichts zu erneuern und wird sofort geschlossen.
   Future<AuthIssue?> sendPasswordReset(String email) async {
-    final client = _client;
-    if (client == null) return AuthIssue.notConfigured;
+    // Zugleich die Prüfung, dass Supabase gestartet ist.
+    if (_client == null) return AuthIssue.notConfigured;
+    final einmalig = GoTrueClient(
+      url: '${AppConfig.supabaseUrl}/auth/v1',
+      headers: {
+        'apikey': AppConfig.supabaseAnonKey,
+        'Authorization': 'Bearer ${AppConfig.supabaseAnonKey}',
+      },
+      autoRefreshToken: false,
+      flowType: AuthFlowType.implicit,
+    );
     try {
-      await client.auth.resetPasswordForEmail(
+      await einmalig.resetPasswordForEmail(
         email.trim(),
-        redirectTo: AppLinks.voxUrl,
+        redirectTo: AppLinks.voxPasswortUrl,
       );
       return null;
     } on AuthException catch (error) {
       return authIssueFromCode(error.code);
     } catch (_) {
       return AuthIssue.offline;
+    } finally {
+      einmalig.dispose();
     }
   }
 
@@ -352,33 +384,12 @@ class AuthService {
     }
   }
 
-  /// Löst den `token_hash` aus dem Wiederherstellungs-Link ein (P.2, 2026-09-22).
-  /// Erfolg ⇒ Sitzung + Ereignis `passwordRecovery` (gotrue `verifyOTP`).
-  ///
-  /// Warum nicht nur der PKCE-`?code=`-Weg: Der braucht den Code-Verifier aus
-  /// **demselben** Browser-Speicher, in dem „Passwort vergessen" gedrückt
-  /// wurde. Öffnet das Mailprogramm den Link in einem anderen Browser (oder
-  /// im eingebauten Browser / neben der Home-Bildschirm-App), fehlt er — die
-  /// App startet dann einfach normal (Bericht Lukas 2026-09-22). `token_hash`
-  /// braucht nichts vom Gerät. Voraussetzung: Supabase-Mailvorlage
-  /// «Reset Password» verlinkt `{{ .RedirectTo }}?token_hash={{ .TokenHash }}&type=recovery`.
-  Future<bool> verifyRecoveryToken(String tokenHash) async {
-    final client = _client;
-    if (client == null) return false;
-    try {
-      final antwort = await client.auth.verifyOTP(
-        type: OtpType.recovery,
-        tokenHash: tokenHash,
-      );
-      return antwort.session != null;
-    } catch (_) {
-      // Abgelaufen, schon benutzt oder kein Netz — nichts gesetzt.
-      return false;
-    }
-  }
-
   /// Meldet, wenn der Nutzer über den Link aus der Passwort-zurücksetzen-Mail
   /// zurückkommt (P.2). Leerer Stream ohne Server.
+  ///
+  /// Das Ereignis entsteht schon in `Supabase.initialize` (`main.dart`), also
+  /// **bevor** jemand zuhört. Es kommt trotzdem an: `onAuthStateChange` ist ein
+  /// `ReplaySubject` (gotrue) und reicht spätere Abonnenten alles nach.
   Stream<bool> watchPasswordRecovery() {
     final client = _client;
     if (client == null) return const Stream<bool>.empty();
@@ -429,15 +440,6 @@ class AuthService {
       // nichts.
     }
   }
-}
-
-/// Der `token_hash` eines Wiederherstellungs-Links (`?token_hash=…&type=recovery`)
-/// — sonst `null`. Rein, damit testbar; `Uri.base` reicht der Aufrufer herein.
-String? wiederherstellungsToken(Uri adresse) {
-  final q = adresse.queryParameters;
-  final hash = q['token_hash'];
-  if (q['type'] != 'recovery' || hash == null || hash.isEmpty) return null;
-  return hash;
 }
 
 final authServiceProvider = Provider<AuthService>((ref) => const AuthService());

@@ -160,7 +160,7 @@ void main() {
     'account_delete_done',
     'account_delete_partial',
     'account_delete_failed',
-    // Passwort-Link mit token_hash (2026-09-22)
+    // Passwort-Link ließ sich nicht einlösen (2026-09-22)
     'account_reset_link_invalid',
   ];
 

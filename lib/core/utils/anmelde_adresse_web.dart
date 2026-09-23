@@ -2,9 +2,17 @@
 // PURPOSE: Browser-Fassung — siehe anmelde_adresse.dart.
 import 'package:web/web.dart' as web;
 
-void entferneAnmeldeParameter() {
-  final ort = web.window.location;
-  if (ort.search.isEmpty) return;
-  web.window.history
-      .replaceState(null, '', '${ort.origin}${ort.pathname}${ort.hash}');
+import 'anmelde_ruecklauf.dart';
+
+void entferneAnmeldeReste() {
+  final String? neu;
+  try {
+    neu = bereinigteAnmeldeAdresse(Uri.parse(web.window.location.href));
+  } on FormatException {
+    return;
+  }
+  if (neu == null) return;
+  // `null` als Zustand: Flutters Browser-Verlauf entsteht erst beim ersten
+  // Lesen des Pfads (nach runApp) und versieht den Eintrag dann selbst.
+  web.window.history.replaceState(null, '', neu);
 }
