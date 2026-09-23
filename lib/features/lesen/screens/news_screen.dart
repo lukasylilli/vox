@@ -10,6 +10,7 @@ import '../../../core/l10n/app_l10n.dart';
 import '../../../core/services/rss_service.dart';
 import '../controllers/lesen_controller.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../../core/widgets/klick_wort_text.dart';
 
 class NewsScreen extends ConsumerWidget {
   const NewsScreen({super.key});
@@ -133,7 +134,9 @@ class _NewsCard extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               if (item.description.isNotEmpty)
-                Text(item.description, style: theme.textTheme.bodyMedium),
+                // L.5f: auch Nachrichten — jedes Wort antippbar (Popup → Wort-Seite).
+                KlickWortText(item.description,
+                    markiert: true, style: theme.textTheme.bodyMedium),
 
               const SizedBox(height: AppSizes.sm),
 

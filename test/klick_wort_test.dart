@@ -6,16 +6,20 @@
 //          · Homographen: alle Treffer, keine Auswahl,
 //          · KlickWortText: jedes Wort antippbar, Rest nicht, Richtung LTR,
 //          · Popup ohne Treffer: «nicht im Wörterbuch» + Weg in die Suche.
+import 'package:drift/native.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:go_router/go_router.dart';
+import 'package:vox/core/database/app_database.dart';
+import 'package:vox/core/widgets/audio_play_button.dart';
 import 'package:vox/core/wort/klick_wort.dart';
 import 'package:vox/core/wort/klick_wort_provider.dart';
 import 'package:vox/core/wort/wort_form.dart';
 import 'package:vox/core/widgets/klick_wort_text.dart';
 import 'package:vox/core/widgets/wort_popup.dart';
 import 'package:vox/features/vokabular/controllers/vokabular_controller.dart';
+import 'package:vox/features/wortschatz/controllers/word_controller.dart';
 
 void main() {
   group('zerlegeText', () {
@@ -127,6 +131,23 @@ void main() {
     });
   });
 
+  group('klickWortTrefferProvider — Wörterbuch nicht ladbar (2026-09-23)', () {
+    test('ohne Datenbank-Treffer: Fehler statt «nicht im Wörterbuch»',
+        () async {
+      final db = AppDatabase.forTesting(NativeDatabase.memory());
+      addTearDown(db.close);
+      final c = ProviderContainer(overrides: [
+        databaseProvider.overrideWithValue(db),
+        vokabIndexProvider.overrideWith(
+            (ref) async => throw StateError('Index nicht ladbar')),
+      ]);
+      addTearDown(c.dispose);
+      await expectLater(
+          c.read(klickWortTrefferProvider('aalartig').future),
+          throwsA(isA<StateError>()));
+    });
+  });
+
   group('KlickWortText', () {
     Future<List<TextSpan>> spansVon(WidgetTester tester, Widget w) async {
       await tester.pumpWidget(MaterialApp(home: Scaffold(body: w)));
@@ -202,10 +223,44 @@ void main() {
 
       expect(find.text('Ging'), findsOneWidget); // Satzzeichen entfernt
       expect(find.text('Not in dictionary'), findsOneWidget);
+      // Aussprache gibt es für jedes Wort, auch ohne Karte (2026-09-23).
+      expect(find.byType(AudioPlayButton), findsOneWidget);
 
       await tester.tap(find.text('Search all words'));
       await tester.pumpAndSettle();
       expect(find.text('LISTE Ging'), findsOneWidget);
+    });
+
+    testWidgets('Wörterbuch nicht geladen: ehrlicher Hinweis + neuer Versuch',
+        (tester) async {
+      await tester.pumpWidget(ProviderScope(
+        overrides: [
+          klickWortTrefferProvider.overrideWith(
+              (ref, schluessel) async => throw StateError('Index')),
+        ],
+        child: MaterialApp.router(
+          routerConfig: GoRouter(routes: [
+            GoRoute(
+              path: '/',
+              builder: (ctx, _) => Scaffold(
+                body: Builder(
+                  builder: (inner) => GestureDetector(
+                    onTap: () => showWortPopup(inner, 'aalartig'),
+                    child: const Text('ÖFFNEN'),
+                  ),
+                ),
+              ),
+            ),
+          ]),
+        ),
+      ));
+      await tester.tap(find.text('ÖFFNEN'));
+      await tester.pumpAndSettle();
+      expect(find.text('aalartig'), findsOneWidget);
+      expect(find.text('Not in dictionary'), findsNothing);
+      expect(find.text('The word list could not be loaded — please try again.'),
+          findsOneWidget);
+      expect(find.byType(AudioPlayButton), findsOneWidget);
     });
 
     testWidgets('ohne Buchstaben öffnet sich nichts', (tester) async {

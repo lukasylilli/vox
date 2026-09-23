@@ -11,6 +11,8 @@
 //      hat. Ziel: deren Detailseite (`/wortschatz/word/:id`). Ein Wort, das in
 //      beiden steht, erscheint so nicht doppelt.
 //   3. Nichts → leere Liste → «nicht im Wörterbuch».
+//      Ausnahme: der Wortindex war nicht ladbar ⇒ Fehler statt leerer Liste,
+//      damit der Popup «konnte nicht geladen werden» sagt, nicht «fehlt».
 //
 // Mehrere Treffer (Homographen: «See», «Band», «Reisen»/«reisen») werden ALLE
 // gezeigt; gewählt wird nie geraten (Regel 3 des Projekts).
@@ -68,13 +70,18 @@ final vokabIndexNachSchluesselProvider =
 final klickWortTrefferProvider =
     FutureProvider.family<List<KlickWortTreffer>, String>(
         (ref, schluessel) async {
-  // Archiv nicht ladbar ⇒ nicht abbrechen: die alte Datenbank kann trotzdem
-  // antworten.
+  // Archiv nicht ladbar ⇒ nicht sofort abbrechen: die alte Datenbank kann
+  // trotzdem antworten. Findet sie auch nichts, wird der Ladefehler aber
+  // WEITERGEGEBEN (L.5f-Nachtrag, 2026-09-23) — sonst hieße es fälschlich
+  // «nicht im Wörterbuch», obwohl das Wörterbuch nur nicht geladen war.
   var nachSchluessel = const <String, List<Map<String, dynamic>>>{};
+  Object? indexFehler;
+  StackTrace? indexStack;
   try {
     nachSchluessel = await ref.watch(vokabIndexNachSchluesselProvider.future);
-  } catch (_) {
-    // bewusst leer: siehe Kommentar oben — weiter mit der alten Datenbank.
+  } catch (e, st) {
+    indexFehler = e;
+    indexStack = st;
   }
 
   final imArchiv = nachSchluessel[schluessel] ?? const [];
@@ -88,9 +95,13 @@ final klickWortTrefferProvider =
   // Die Suche der Datenbank ist eine Teilstring-Suche — nur Einträge mit
   // GLEICHEM Schlüssel zählen («Hausaufgabe» ist kein Treffer für «Haus»).
   final zeilen = await ref.watch(wordDaoProvider).search(schluessel);
-  return [
+  final ausDatenbank = [
     for (final z in zeilen)
       if (wortSchluessel(z.german) == schluessel)
         KlickWortTreffer.datenbank(z.toModel()),
   ].take(klickWortMaxTreffer).toList();
+  if (ausDatenbank.isEmpty && indexFehler != null) {
+    Error.throwWithStackTrace(indexFehler, indexStack!);
+  }
+  return ausDatenbank;
 });

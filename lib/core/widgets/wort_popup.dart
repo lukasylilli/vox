@@ -20,6 +20,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../features/vokabular/controllers/vokabular_controller.dart'
+    show vokabIndexProvider;
 import '../../features/vokabular/widgets/wort_actions.dart';
 import '../../features/wortschatz/widgets/word_list_item.dart';
 import '../constants/app_routes.dart';
@@ -92,7 +94,15 @@ class _WortPopupBlatt extends ConsumerWidget {
             padding: EdgeInsets.all(AppSizes.lg),
             child: Center(child: CircularProgressIndicator()),
           ),
-          error: (_, _) => nichtGefunden(),
+          // Wörterbuch nicht geladen ≠ Wort fehlt (L.5f-Nachtrag 2026-09-23).
+          error: (_, _) => _LadenFehlgeschlagen(
+            anzeige: anzeige,
+            nochmal: () {
+              ref.invalidate(vokabIndexProvider);
+              ref.invalidate(klickWortTrefferProvider(schluessel));
+            },
+            schliesse: schliesse,
+          ),
           data: (liste) {
             if (liste.isEmpty) return nichtGefunden();
             return SingleChildScrollView(
@@ -174,11 +184,7 @@ class _NichtGefunden extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          DeutschText(
-            anzeige,
-            style: theme.textTheme.headlineSmall
-                ?.copyWith(fontWeight: FontWeight.w800),
-          ),
+          _WortKopf(anzeige: anzeige),
           const SizedBox(height: AppSizes.sm),
           Row(
             children: [
@@ -204,6 +210,92 @@ class _NichtGefunden extends StatelessWidget {
                 icon: Icons.search_rounded,
                 onPressed: () => oeffne(
                     '${AppRoutes.wortschatzList}?suche=${Uri.encodeComponent(anzeige)}'),
+              ),
+              VoxButton.text(
+                label: AppL10n.t(context, 'close'),
+                onPressed: schliesse,
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+/// Das angetippte Wort groß, mit Aussprache — auch wenn es (noch) keine
+/// Karte hat: hören kann man jedes Wort (Wunsch Lukas, 2026-09-23).
+class _WortKopf extends StatelessWidget {
+  const _WortKopf({required this.anzeige});
+  final String anzeige;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    return Row(
+      children: [
+        Flexible(
+          child: DeutschText(
+            anzeige,
+            style: theme.textTheme.headlineSmall
+                ?.copyWith(fontWeight: FontWeight.w800),
+          ),
+        ),
+        const SizedBox(width: AppSizes.sm),
+        AudioPlayButton(text: anzeige, size: 26),
+      ],
+    );
+  }
+}
+
+/// Das Wörterbuch (Wortindex) konnte nicht geladen werden — ehrlich sagen,
+/// statt «nicht im Wörterbuch» zu behaupten, und einen neuen Versuch anbieten.
+class _LadenFehlgeschlagen extends StatelessWidget {
+  const _LadenFehlgeschlagen({
+    required this.anzeige,
+    required this.nochmal,
+    required this.schliesse,
+  });
+
+  final String anzeige;
+  final VoidCallback nochmal;
+  final VoidCallback schliesse;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final scheme = theme.colorScheme;
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(
+          AppSizes.lg, 0, AppSizes.lg, AppSizes.lg),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          _WortKopf(anzeige: anzeige),
+          const SizedBox(height: AppSizes.sm),
+          Row(
+            children: [
+              Icon(Icons.cloud_off_rounded, color: scheme.error, size: 18),
+              const SizedBox(width: 6),
+              Flexible(
+                child: Text(
+                  AppL10n.t(context, 'wort_popup_ladefehler'),
+                  style: theme.textTheme.bodyMedium
+                      ?.copyWith(color: scheme.onSurfaceVariant),
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: AppSizes.md),
+          Wrap(
+            spacing: AppSizes.sm,
+            runSpacing: AppSizes.sm,
+            children: [
+              VoxButton.tonal(
+                label: AppL10n.t(context, 'retry'),
+                icon: Icons.refresh_rounded,
+                onPressed: nochmal,
               ),
               VoxButton.text(
                 label: AppL10n.t(context, 'close'),
