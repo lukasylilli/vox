@@ -10,6 +10,7 @@
 //   2. Alte Wortdatenbank (drift, Tabelle Words) — nur wenn das Archiv nichts
 //      hat. Ziel: deren Detailseite (`/wortschatz/word/:id`). Ein Wort, das in
 //      beiden steht, erscheint so nicht doppelt.
+//   2b. Gebeugte Form eines Archivworts (assets/vocab_formen/, 2026-09-23).
 //   3. Nichts → leere Liste → «nicht im Wörterbuch».
 //      Ausnahme: der Wortindex war nicht ladbar ⇒ Fehler statt leerer Liste,
 //      damit der Popup «konnte nicht geladen werden» sagt, nicht «fehlt».
@@ -90,6 +91,22 @@ final klickWortTrefferProvider =
       for (final karte in imArchiv.take(klickWortMaxTreffer))
         KlickWortTreffer.archiv(karte),
     ];
+  }
+
+  // Gebeugte Form eines Archivworts («aalartige» ⇒ «aalartig»,
+  // «bot» ⇒ «bieten»/«anbieten») — L.5f-Nachtrag 2026-09-23. Ladefehler der
+  // Formen-Tabelle zählen wie Ladefehler des Index (siehe unten).
+  try {
+    final ueberForm = await ref.watch(vokabNachFormProvider(schluessel).future);
+    if (ueberForm.isNotEmpty) {
+      return [
+        for (final karte in ueberForm.take(klickWortMaxTreffer))
+          KlickWortTreffer.archiv(karte),
+      ];
+    }
+  } catch (e, st) {
+    indexFehler ??= e;
+    indexStack ??= st;
   }
 
   // Die Suche der Datenbank ist eine Teilstring-Suche — nur Einträge mit

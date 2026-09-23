@@ -82,6 +82,7 @@ flutter:
     # V.2: Wortindex (Liste/Suche/Symbol) — wird in JEDEM Workflow vor
     # `flutter analyze` von tool/vokab_index.dart gebaut, nie committet.
     - assets/vocab_index.json
+    - assets/vocab_formen/
   fonts:
     - family: Vazirmatn
       fonts:

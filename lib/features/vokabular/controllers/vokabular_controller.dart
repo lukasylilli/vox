@@ -17,6 +17,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../data/vokab_index.dart';
+import '../data/vokab_formen.dart';
 
 // vokabId (ID-Regel 5) lebt in vokab_schema.dart (reines Dart) — EINE
 // Quelle für App + tool/vokabular_import.dart; hier re-exportiert, damit
@@ -39,6 +40,39 @@ final vokabIndexByIdProvider =
     FutureProvider<Map<String, Map<String, dynamic>>>((ref) async {
   final eintraege = await ref.watch(vokabIndexProvider.future);
   return {for (final e in eintraege) (e['id'] as String? ?? ''): e};
+});
+
+/// Welche Stücke der Formen-Tabelle es gibt (L.5f-Nachtrag 2026-09-23).
+final vokabFormenStueckeProvider = FutureProvider<Set<String>>((ref) async {
+  final text = await rootBundle.loadString(vokabFormenStueckeDatei);
+  return (jsonDecode(text) as List).cast<String>().toSet();
+});
+
+/// Ein Stück der Formen-Tabelle: Schlüssel der gebeugten Form → Karten-ids.
+final vokabFormenStueckProvider =
+    FutureProvider.family<Map<String, List<String>>, String>(
+        (ref, datei) async {
+  final roh = jsonDecode(await rootBundle.loadString(datei)) as Map;
+  return {
+    for (final e in roh.entries)
+      e.key as String: (e.value as List).cast<String>(),
+  };
+});
+
+/// Index-Einträge der Karten, zu denen die GEBEUGTE Form [schluessel] gehört
+/// («aalartige» ⇒ Karte «aalartig»). Leer, wenn keine.
+final vokabNachFormProvider =
+    FutureProvider.family<List<Map<String, dynamic>>, String>(
+        (ref, schluessel) async {
+  if (schluessel.isEmpty) return const [];
+  final datei = vokabFormenDatei(schluessel);
+  final stuecke = await ref.watch(vokabFormenStueckeProvider.future);
+  if (!stuecke.contains(datei)) return const [];
+  final tabelle = await ref.watch(vokabFormenStueckProvider(datei).future);
+  final ids = tabelle[schluessel] ?? const <String>[];
+  if (ids.isEmpty) return const [];
+  final nachId = await ref.watch(vokabIndexByIdProvider.future);
+  return [for (final id in ids) if (nachId[id] != null) nachId[id]!];
 });
 
 /// Die VOLLE Karte eines Worts — erst beim Öffnen geladen. `null`, wenn es

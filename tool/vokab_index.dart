@@ -1,6 +1,7 @@
 // FILE: tool/vokab_index.dart
 // PHASE: فاز V, Schritt V.2 (2026-09-16)
 // PURPOSE: Baut assets/vocab_index.json aus allen Karten in assets/vocab/.
+//          Dazu assets/vocab_formen.json (gebeugte Form → Karten, 2026-09-23).
 //
 //   dart run tool/vokab_index.dart
 //
@@ -13,6 +14,7 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:vox/features/vokabular/data/vokab_formen.dart';
 import 'package:vox/features/vokabular/data/vokab_index.dart';
 
 void main() {
@@ -64,4 +66,14 @@ void main() {
   File(vokabIndexPfad).writeAsStringSync(text);
   stdout.writeln('Wortindex: ${karten.length} Wörter, '
       '${text.length} Zeichen → $vokabIndexPfad');
+
+  // Gebeugte Formen → Karten (Wort-Popup: «aalartige» ⇒ «aalartig»).
+  final ordnerFormen = Directory(vokabFormenOrdner);
+  if (ordnerFormen.existsSync()) ordnerFormen.deleteSync(recursive: true);
+  ordnerFormen.createSync(recursive: true);
+  final stuecke = vokabFormenBauen(karten.values);
+  for (final e in stuecke.entries) {
+    File(e.key).writeAsStringSync(e.value);
+  }
+  stdout.writeln('Formen-Tabelle: ${stuecke.length} Dateien → $vokabFormenOrdner/');
 }
