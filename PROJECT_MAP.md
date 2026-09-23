@@ -1,6 +1,6 @@
 # PROJECT MAP — VOX
 # نقشه کامل پروژه برای ناوبری سریع در هر session
-# آپدیت: 2026-09-23 دور ۱۲ (P.2 «فراموشی رمز» با جریان implicit — لینک در هر مرورگری کار می‌کند؛ نو: core/utils/anmelde_ruecklauf.dart؛ عوض: app_links, anmelde_adresse*, auth_service, profil_controller, main؛ حذف: مسیر token_hash؛ سرور: Redirect URL `…/vox/?link=passwort`. جزئیات PLAN بالا)
+# آپدیت: 2026-09-23 دور ۱۳ — خلاصه‌سازی (درخواست Lukas): گزارش‌های کارهای انجام‌شده کوتاه شدند، فهرست مطالب تازه شد؛ نقشه‌ی فایل‌ها دست نخورد. متن مفصل قبلی: `git show afad3ab:PROJECT_MAP.md`.
 #
 # ⚠️ 2026-09-19 (اصلاح یادداشت آفلاین): «precache شدنی است» فقط برای ~۷٫۵MB فعلی (۸۷ کارت) درست است. کارت ~۴KB ⇒ ~۲۶٬۲۰۰ کارت ≈ ~۱۰۰MB
 #   (ارقام خود PLAN) ⇒ پیش‌بارگذاری همه‌ی کارت‌ها همچنان گزینه نیست؛ فقط دارایی‌های ثابت + فهرست + کارتِ بازشده. تحلیل است نه تصمیم. جزئیات: PLAN → L.3.
@@ -26,101 +26,95 @@
 #   ⚠️ شکاف شناخته‌شده: pruefungen_home_screen فقط بر اساس سازمان آزمون (Goethe/telc/ÖSD) چیده شده؛
 #   سه محور دسته‌بندی هنوز آنجا نیستند و ۳۴۵ تمرین گرامر از Prüfungen دیده نمی‌شوند.
 #
-# ⚠️ 2026-09-13: Umbau zur reinen Web-App — android/ios/macos/linux/windows, RevenueCat & Notifications entfernt; ältere Einträge beschreiben teils den nativen Stand
-# ⚠️ 2026-09-13: Habit/Routine entfernt — Root-in (eigenes Repo, lukasylilli.github.io/Root-in/) übernimmt das, verlinkt aus Selbstlernen ("Routine"-Karte, core/constants/app_links.dart + core/utils/external_link_opener.dart). Pomodoro bleibt unverändert.
+# ⚠️ 2026-09-13: فقط Flutter-Web روی GitHub Pages (بومی/RevenueCat/Notifications حذف). Habit/Routine ⇒ Root-in، ریپوی جدا؛
+#   تنها اتصال: لینک Routine در core/constants/app_links.dart.
 # ❗ Wort-Prompt: EIN Wort = EINE Karte. Alle Übersetzungen stehen zweisprachig {fa,en} in
 #   derselben Datei; die App zeigt laut Einstellungen genau eine Sprache (vokabUeb/AppL10n.isFa).
 #   Das Aussehen der Wortseite steht NICHT im Prompt, sondern in core/grammatikon/ und
 #   features/vokabular/screens/wort_seite_screen.dart. Details: PLAN.md → فاز S.
-#
-# ⚠️ 2026-09-15 Audit (Claude, über GitHub-API): ۲۵۳ فایل Dart (بدون .g.dart) · ~۴۱٬۴۰۰ خط
-#   · assets/vocab/ = ۸۷ کارت، همه schema 3.0، بدون JSON خراب (۷۶ verb · ۳ adjektiv · ۸ بقیه)
-#   · ⚠️ vokabular_controller.dart همه کارت‌ها را در startup می‌خواند ⇒ سقف امن ~۵۰۰ کارت؛ V.2 پیش‌شرط شد
-#     ✅ V.2 (2026-09-16): حل شد — شروع فقط assets/vocab_index.json (ساخته‌ی tool/vokab_index.dart در هر workflow، commit نمی‌شود)؛ کارت کامل lazy
-#   · ⚠️ مارک‌های ✓ در Wörter/*.txt از واقعیت عقب‌اند ⇒ منبع حقیقت = assets/vocab/ (tool/sync_backlog.py)
-#   · B-3 / R-1.1 در کد رفع شده‌اند (stripPreposition در word_list_item.dart) — در BACKLOG اصلاح شد
-#   · ✅ README (2026-09-18): خط قدیمی «Selbstlernen — Gewohnheiten, Streaks» به Pomodoro/Lernpfad/Vorlagen + Root-in-Link اصلاح شد
-#   · فاز A (خودکارسازی ورود کلمات) باز شد — PLAN.md → «فاز A»
-#   · فاز S (ذخیره‌سازی داده‌ی کاربر) — S.0–S.6 ✅ (S.6 feste Listen-id 2026-09-16, DB v7, Vertrag v3)؛ S.3 Konto löschen ✅ L.1d (2026-09-22)
-#
-# 🚀 2026-09-16 تصمیم Lukas — ترتیب جدید (PLAN.md → «فاز LAUNCH»):
-#   اپ زودتر و به‌صورت نسخه‌ی نهایی منتشر می‌شود؛ کلمه‌ها آخرین مرحله‌اند و بعد از انتشار روزانه اضافه می‌شوند.
-#   L.1 امنیت لایتنر (S.6 ✅, V.2, نگهبان شناسه‌ها, تست مهاجرت) → L.2 کامل بودن محتوا → L.3 انتشار → L.4 کلمه‌ها
-#   Audit محتوا: Redemittel/Goethe/ÖSD B2/Konnektoren/NVV/Präp/Dativ = کامل نسبت به منبع.
-#   ✅ L.2c (2026-09-16): گرامر ۸۴/۸۴ درس live (assets/data/grammatik/ ۱۷ فایل) — تمرین‌ها: G7a/G7b ✅، G7c/G7d باز.
-#     🔁 L.2c بازبینی مستقل (2026-09-16، جلسه‌ی بعد): منبع «old files Lukasalmani/1/Grammatik» = ۱۷ سند درس (۸۴ درس، ۳۳۶ تمرین،
-#        _index هر سند = درس‌های واقعی‌اش) + ۲ سند تنظیمات آزمون سطح (questionsPerLevel 10، passThreshold 0.7 ⇒ برای G7)؛
-#        هر ۱۷ سند بایت‌به‌بایت = assets/data/grammatik/ · ۷۹ route درس + ۵ صفحه‌ی ویژه = ۸۴ · چیزی کم نیست.
-#   ✅ ÖSD C1 (2026-09-18): ۱۱۲ عبارت از منبع Lukas ساخته و زنده شد (route + flag live) · A1/A2 Wortschatz (۱٬۰۶۳ کلمه در old files/1، در اپ استفاده نشده) ·
-#   deckهای «به‌زودی» در core/services/feature_flags.dart (Lukas منبع هر کدام را یکی‌یکی می‌فرستد)
-#     ⏳ 2026-09-18: ÖSD C1 ✅ رسید و منتشر شد؛ درخواست باز بعدی = یکی از deckهای باقی‌مانده. بدون منبع تا انتشار ⇒ deck پنهان.
-#     ⇒ تنها کار باز L.2؛ بعد از آن L.3 (تست RTL، آفلاین، آیکون/manifest، حریم خصوصی — README ✅ 2026-09-18).
-# 📘 L.6 (از 2026-09-18): درس‌های گرامر کتاب‌های Lukas یکی‌یکی می‌رسند. شماره‌ی او ≠ شماره‌ی اپ ⇒ نگاشت در PLAN.md → L.6 (+ GRAMMATIK_MAP).
-#   ⚠️ کپی‌رایت: هیچ جمله/تمرینی از کتاب کپی نمی‌شود — فقط موضوع؛ متن و مثال و تمرین از نو نوشته می‌شود.
-#   رسیده: درس ۱ (Grammatik aktiv, Personalpronomen) ⇒ assets/data/grammatik/pronomen.json → `personalpronomen`. تمرین‌ها: ۳۴۲ = ۳۳۶ + ۶.
-#   🧩 L.2e/G7 — ⚠️ تصمیم تازه‌ی Lukas (2026-09-18): گرامر ✅ → تمرین گرامر G7a–G7c ✅ → **انتشار** → G7d/G7e →
-#     کلمه‌ها → تمرین کلمه‌ها. (تصمیم 2026-09-16 «تمرین‌ها قبل از انتشار» با این جایگزین شد.)
-#     ✅ G7a (2026-09-16): ۳۳۶ تمرین منبع در هر درس — /grammatik/lektion/:slug/uebung
-#     ✅ G7b (2026-09-16): آزمون سطح — /grammatik/quiz-niveau/:level (assets/data/grammatik_niveautest.json)
-#     ✅ G7c (2026-09-16): تمرین از ۵۰۴ جمله‌ی مثال (models/beispiel_uebungen.dart) — نوبت درس = ۴ منبع + ۶ ساخته‌شده، مخلوط
-#     باز: G7d ردمیتل · G7e ذخیره‌ی نتیجه‌ی آزمون (Lukas: بله → بخش آینده‌ی «دست‌یافته‌ها»)
-#   L.2b: A1/A2 Wortschatz = جزو فاز کلمه‌ها؛ قبل از انتشار فقط چند کارت نمونه از هر نوع
-#   Lukas: «منابع همه‌چیز با من، برنامه‌نویسی با تو» ⇒ برای محتوا (گرامر، deckها، …) منبع را از او بخواه.
 #   ⛔ استثنا: کارت‌های کلمه را همیشه Claude طبق «old files Lukasalmani/Wort prompt» می‌سازد — تبدیل منابع Lukas رد شد (2026-09-16).
 #   ⚠️ شناسه‌ی کارت منتشرشده در assets/vocab/ هرگز حذف/عوض نشود — لایتنر کاربر به آن اشاره می‌کند.
-#     ✅ L.1b (2026-09-16): test/migration_test.dart hebt jede veröffentlichte DB-Fassung (2…6) mit echten Daten auf die aktuelle.
-#     ✅ L.1a (2026-09-16): نگهبان CI (tool/vokab_ids_pruefen.dart) با فهرست سایت زنده مقایسه می‌کند ⇒ حذف = ساخت قرمز.
-# 🌐 2026-09-16 L.3a — زبان شروع: پیش‌فرض انگلیسی، فقط روی دستگاه فارسی‌زبان فارسی.
-#   تنها منبع قاعده: core/l10n/geraete_sprache.dart · انتخاب کاربر در Settings (ui_language) همیشه مقدم.
-# 🎯 وضعیت: ۲۴۴ فایل Dart (۱۶۳ features + ۷۷ core) — analyze سبز
-# فاز V (Vokabular-DB ۲۵k) طراحی شد — کجا کلمات ذخیره می‌شوند + معماری آینده: بخش «فاز V» + Services
-# فازهای اخیر: G1 گرامر-کاتالوگ ✅ · B دکمه‌ها (Puzzling) ✅ · L زبان-فقط-Settings ✅
-#              G2 LektionScreen ✅ · L2/L3 L10n ✅ (JSON+صفحات+دیتابیس)
-#              همه محتوا FA+EN؛ asset-audit ۰؛ کاتالوگ ۵۶۵=۵۶۵؛ helper AppL10n.loc؛ schema v2
-# جزئیات فازها: PLAN.md → «وضعیت فعلی» بالای فایل
+#   ⚠️ کپی‌رایت: هیچ جمله/تمرینی از کتاب کپی نمی‌شود — فقط موضوع؛ متن و مثال و تمرین از نو نوشته می‌شود.
+# 🌐 زبان شروع: پیش‌فرض انگلیسی، فقط روی دستگاه فارسی‌زبان فارسی — تنها منبع: core/l10n/geraete_sprache.dart.
+# 🎯 وضعیت (2026-09-23): ۳۰۰ فایل Dart (۱۸۲ features + ۱۱۶ core) · DB schema v7 · ۲۸۶ تست سبز · analyze سبز.
+#   کارهای باز و کارنامه‌ی جلسه‌ها: PLAN.md بالای فایل.
 
 ---
 
 ## INHALTSVERZEICHNIS (فهرست مطالب)
 
-| # | بخش | لینک |
-|---|-----|------|
-| 1 | Tech Stack | [→ Tech Stack](#tech-stack) |
-| 2 | Root Files | [→ Root Files](#root-files) |
-| 3 | Design System — Tokens | [→ constants/](#libcoredesign-system--tokens) |
-| 4 | Design System — Components (موجود) | [→ widgets/ موجود](#libcoredesign-system--components-موجود) |
-| 5 | Design System — Components (stub) | [→ widgets/ stub](#libcoredesign-system--components-stub) |
-| 5b | Architecture Hub (stub) | [→ config/network/utils/services](#libcorearchitecture-hub-stub) |
-| 6 | Theme & Decorations | [→ theme/](#libcoretheme) |
-| 7 | Core Services | [→ services/](#libcoreservices) |
-| 8 | Database | [→ database/](#libcoredatabase) |
-| 9 | Router | [→ router/](#libcorerouter) |
-| 10 | L10n | [→ l10n/](#libcorel10n) |
-| 11 | Features — Wortschatz | [→](#libfeatureswortschatz-x) |
-| 12 | Features — Leitner | [→](#libfeaturesleitner-x) |
-| 13 | Features — Grammatik | [→](#libfeaturesgrammatik-x) |
-| 14 | Features — Lesen | [→](#libfeatureslesen-x) |
-| 15 | Features — Hören | [→](#libfeatureshoeren-x) |
-| 16 | Features — Auswendiglernen | [→](#libfeaturesauswendiglernen-x) |
-| 17 | Features — Prüfungen | [→](#libfeaturespruefungen-x) |
-| 18 | Features — Selbstlernen | [→](#libfeaturesselbstlernen-x) |
-| 19 | Features — Konnektoren | [→](#libfeatureskonnektoren-x) |
-| 20 | Features — Dativ/Akkusativ | [→](#libfeaturesdativ_verben-x) |
-| 21 | Features — NVV | [→](#libfeaturesnvv-x) |
-| 22 | Features — Präpositionen | [→](#libfeaturespraepositionen-x) |
-| 23 | Features — Reflexivverben | [→](#libfeaturesreflexiv_verben-x) |
-| 24 | Features — Trennbar/Untrennbar | [→](#libfeaturestrennbar_verben-x) |
-| 25 | Features — Verben mit Präp. | [→](#libfeaturesverb_praep-x) |
-| 26 | Features — Unregelm. Verben | [→](#libfeaturesunregelm_verben-x) |
-| 27 | Features — Redemittel 1010 | [→](#libfeaturesredemittel-x) |
-| 27b | Features — Modalverben | [→](#libfeaturesmodalverben-x--2026-07-04) |
-| 28 | Features — More / Home / Fragen | [→](#libfeaturesmore-x) |
-| 28b | **Profil & Konto (P)** — Zeilen in „Wo die Nutzerdaten liegen" | [→](#-wo-die-nutzerdaten-liegen-فاز-s-2026-09-15) |
-| 29 | Database Tables | [→ Database Tables](#database-tables-drift--schema-v1--تغییر-نده) |
-| 30 | Conventions | [→ Conventions](#key-conventions) |
-| 31 | Bugs Fixed | [→ Bugs Fixed](#bugs-fixed) |
-| 32 | Backlog | [→ Backlog](#backlog--upcoming-changes) |
-| 33 | Architecture Principles | [→ Principles](#️-اصول-معماری-پایه-هر-session-باید-رعایت-شود) |
+> خودکار از سرتیترهای همین فایل ساخته شد (2026-09-23).
+
+- [TECH STACK](#tech-stack)
+- [STATUS LEGEND](#status-legend)
+- [ROOT FILES](#root-files)
+- [lib/ — COMPLETE FILE TREE](#lib--complete-file-tree)
+  - [lib/main.dart [x]](#libmaindart-x)
+  - [lib/app.dart [x]](#libappdart-x)
+  - [lib/core/](#libcore)
+- [lib/core/Design System — Tokens](#libcoredesign-system--tokens)
+- [lib/core/Design System — Components (موجود)](#libcoredesign-system--components-موجود)
+- [lib/core/Design System — Components (B9–B11 اکثراً LIVE شدند — 2026-07-04)](#libcoredesign-system--components-b9b11-اکثراً-live-شدند--2026-07-04)
+- [lib/core/Architecture Hub](#libcorearchitecture-hub)
+    - [lib/core/database/](#libcoredatabase)
+    - [lib/core/models/](#libcoremodels)
+    - [lib/core/parsers/](#libcoreparsers)
+    - [lib/core/services/](#libcoreservices)
+    - [lib/core/theme/](#libcoretheme)
+    - [lib/core/l10n/](#libcorel10n)
+    - [lib/core/router/](#libcorerouter)
+  - [lib/features/](#libfeatures)
+    - [lib/features/home/ [x]](#libfeatureshome-x)
+    - [lib/features/wortschatz/ [x]](#libfeatureswortschatz-x)
+    - [lib/features/leitner/ [x]](#libfeaturesleitner-x)
+    - [lib/features/categories/ [x]](#libfeaturescategories-x)
+    - [lib/features/grammatik/ [x]](#libfeaturesgrammatik-x)
+    - [lib/features/lesen/ [x]](#libfeatureslesen-x)
+    - [lib/features/hoeren/ [x]](#libfeatureshoeren-x)
+    - [lib/features/auswendiglernen/ [x]](#libfeaturesauswendiglernen-x)
+    - [lib/features/pruefungen/ [x]](#libfeaturespruefungen-x)
+    - [lib/features/selbstlernen/ [x]](#libfeaturesselbstlernen-x)
+    - [lib/features/more/ [x]](#libfeaturesmore-x)
+    - [lib/features/fragen/ [x]](#libfeaturesfragen-x)
+    - [lib/features/sozialmedien/ [x]](#libfeaturessozialmedien-x)
+    - [lib/features/home/ [x]](#libfeatureshome-x-1)
+    - [lib/features/sprechen/ [x]](#libfeaturessprechen-x)
+    - [lib/features/schreiben/ [x]](#libfeaturesschreiben-x)
+    - [lib/features/konnektoren/ [x]](#libfeatureskonnektoren-x)
+    - [lib/features/dativ_verben/ [x]](#libfeaturesdativ_verben-x)
+    - [lib/features/nvv/ [x]](#libfeaturesnvv-x)
+    - [lib/features/praepositionen/ [x]](#libfeaturespraepositionen-x)
+    - [lib/features/reflexiv_verben/ [x] ✅ (2026-07-03)](#libfeaturesreflexiv_verben-x--2026-07-03)
+    - [lib/features/trennbar_verben/ [x] ✅ (2026-07-03)](#libfeaturestrennbar_verben-x--2026-07-03)
+    - [lib/features/verb_praep/ [x] ✅ (2026-07-03)](#libfeaturesverb_praep-x--2026-07-03)
+    - [lib/features/unregelm_verben/ [x] ✅ (2026-07-03)](#libfeaturesunregelm_verben-x--2026-07-03)
+    - [lib/features/redemittel/ [x] ✅ (2026-07-04)](#libfeaturesredemittel-x--2026-07-04)
+    - [lib/features/modalverben/ [x] ✅ (2026-07-04)](#libfeaturesmodalverben-x--2026-07-04)
+    - [lib/features/grammatik/ — Grammatik-Themen (generisch) [x] ✅ (2026-07-05)](#libfeaturesgrammatik--grammatik-themen-generisch-x--2026-07-05)
+    - [lib/core/services/ — DataSeedService [x]](#libcoreservices--dataseedservice-x)
+    - [⚠️ کجا کلمات ذخیره می‌شوند (وضعیت فعلی — چند‌جایی/ناهمگون)](#️-کجا-کلمات-ذخیره-می‌شوند-وضعیت-فعلی--چند‌جاییناهمگون)
+    - [🗄️ فاز V — Vokabular-DB (~۲۶٬۰۰۰ کلمه، ~۱۰۰ جمله/کلمه) — طراحی نهایی، پیاده‌سازی باز](#️-فاز-v--vokabular-db-۲۶۰۰۰-کلمه-۱۰۰-جملهکلمه--طراحی-نهایی-پیاده‌سازی-باز)
+- [🎨 Wo Form und Farbe der Wörter festgelegt sind (Grammatikon)](#-wo-form-und-farbe-der-wörter-festgelegt-sind-grammatikon)
+- [💾 Wo die Nutzerdaten liegen (فاز S, 2026-09-15)](#-wo-die-nutzerdaten-liegen-فاز-s-2026-09-15)
+- [⚙️ Arbeiten über die GitHub-API (Lehren 2026-09-15)](#️-arbeiten-über-die-github-api-lehren-2026-09-15)
+- [tool/ — Werkzeuge (فاز A, 2026-09-15)](#tool--werkzeuge-فاز-a-2026-09-15)
+- [BUGS FIXED](#bugs-fixed)
+- [BACKLOG / UPCOMING CHANGES](#backlog--upcoming-changes)
+- [⭐ اصول معماری پایه (هر Session باید رعایت شود)](#-اصول-معماری-پایه-هر-session-باید-رعایت-شود)
+  - [اصل ۱: Component Isolation (ارجاع‌دهی) — مهم‌ترین قانون](#اصل-۱-component-isolation-ارجاع‌دهی--مهم‌ترین-قانون)
+  - [اصل ۲: One Screen — Two Locations (یک صفحه، دو مکان نمایش)](#اصل-۲-one-screen--two-locations-یک-صفحه-دو-مکان-نمایش)
+  - [اصل ۳: Content-Aware Filters (فیلتر متناسب با محتوا)](#اصل-۳-content-aware-filters-فیلتر-متناسب-با-محتوا)
+  - [اصل ۴: آپدیت فوری نقشه و پلن](#اصل-۴-آپدیت-فوری-نقشه-و-پلن)
+  - [⭐ اصل ۵: هر محتوای جدید از اول دوزبانه (فارسی + انگلیسی) — فاز L3](#-اصل-۵-هر-محتوای-جدید-از-اول-دوزبانه-فارسی--انگلیسی--فاز-l3)
+- [KEY CONVENTIONS](#key-conventions)
+  - [سر هر فایل dart:](#سر-هر-فایل-dart)
+  - [آرتیکل رنگ‌ها (ArticleColors):](#آرتیکل-رنگ‌ها-articlecolors)
+  - [withValues vs withOpacity:](#withvalues-vs-withopacity)
+  - [Provider pattern:](#provider-pattern)
+  - [Drift imports:](#drift-imports)
+  - [دسته‌های کاربر:](#دسته‌های-کاربر)
+  - [Navigation:](#navigation)
+- [DATABASE TABLES (drift — schema v7)](#database-tables-drift--schema-v7)
 
 ---
 
@@ -1427,192 +1421,30 @@ noch nicht und wird erst nach dieser Entscheidung gebaut.
 
 ## BUGS FIXED
 
-### [2026-09-16] L.2c: Tabellen von „verb-sein"/„verb-haben" nicht darstellbar
-- Die Quelle schreibt `columns` mal mit, mal ohne Überschrift der Beschriftungsspalte; DataTable verlangt
-  gleich viele Zellen wie Spalten. `GrammatikTable.fromJson` vereinheitlicht, `istStimmig` schützt die Anzeige.
+> هر مورد یک خط؛ شرح کامل: `git show afad3ab:PROJECT_MAP.md`.
 
-### [2026-09-16] L.1b: Index `user_categories_uid` war für drift unsichtbar
-- In S.6 per rohem SQL angelegt ⇒ Schema-Vergleich hätte ihn als „überzählig" gemeldet und drift kannte ihn nicht.
-  Jetzt `@TableIndex` (gleicher Name, gleiche Definition, keine neue Fassung).
-
-### [2026-09-16] V.2: App-Start las jede Wortkarte einzeln
-- `vokabular_controller.dart` lud beim Start alle Dateien aus `assets/vocab/` (im Browser je eine Anfrage) ⇒
-  Grenze ~500 Wörter. Jetzt ein Wortindex + Einzelkarte beim Öffnen (siehe `tool/vokab_index.dart`).
-- Nebenbei: Archiv-Karten zeigten in der Liste immer „Fach 1" (festes `box: 1` der Datei) — entfällt.
-- ⚠️ Neuer Workflow mit `flutter analyze`/`test`/`build` ⇒ vorher `dart run tool/vokab_index.dart`, sonst
-  fehlt das Asset `assets/vocab_index.json`.
-
-### [2026-09-16] S.6: Umbenennen einer Liste kostete beim Abgleich Wörter
-- Die id einer eigenen Liste war ihr Name ⇒ Umbenennen = „alte Liste weg"; Wörter, die ein anderes
-  Gerät inzwischen in die alte Liste legte, verschwanden. Jetzt feste `uid` (DB v7, Vertrag v3) —
-  siehe „Wo die Nutzerdaten liegen" → S.6
-
-### [2026-09-15] S.5: Sicherung trug ~830 App-Wörter; Entfernungen kamen beim Zusammenführen zurück
-- `Words.ausApp` (vom Seed gesetzt) + `Mitgliedschaften` (Ereignisse), Vertrag v2 — siehe „Wo die Nutzerdaten liegen"
-
-### [2026-09-15] B-12: Sicherung verlor die B-10-Grammatikfelder eigener Wörter
-- `user_state_repository.dart`: `regelmaessig`/`trennbar`/`grammatikDetail` in `_wortZuJson` und `anwenden()`
-- ⚠️ Neue Spalte in einer Nutzer-Tabelle ⇒ im selben Commit die Fassade nachziehen
-
-### [2026-09-15] B-11: App und Sicherung lasen verschiedene Ablagen
-- Store (`vokabular_user_state.dart`) las noch SharedPreferences, die Fassade seit S.0b/S.0c drift;
-  Einspielen leerte die alten Schlüssel ⇒ leerer Leitner/Listen in der App
-- Store geht jetzt nur über die Fassade (`archivLesen()` …), `uebergangAbschliessen()` beim Laden,
-  `neuLaden()` nach dem Einspielen; Tests in `test/vokabular_test.dart`
-
-### [2026-09-15] Puzzling-Bruch in den Einstellungen (فاز S)
-- `settings_screen.dart`: fünf rohe Buttons (`_SicherungKarte` aus S.2, `_KontoKarte` aus S.3
-  Schritt 2) → `VoxButton.tonal/secondary/primary/text` + `VoxIconButton`
-- Neu: `test/puzzling_buttons_test.dart` — die grep-Regel aus فاز B ist jetzt eine CI-Prüfung
-
-### [2026-06-30] Phase 8 (جزئی): RevenueCat SDK کامل + Native Splash — ⛔ RevenueCat später entfernt (2026-09-13)
-- `purchases_ui_flutter 8.11.0` اضافه شد
-- `subscription_service.dart` ساخته شد — Riverpod providers (stream-based customer info)
-- `subscription_screen.dart` بازنویسی شد — paywall + customer center + entitlement check
-- `dart run flutter_native_splash:create` اجرا شد ✅
-- ⚠️ `app_icon.png` هنوز نیاز است → بعد از آن `dart run flutter_launcher_icons`
-
-### [2026-06-30] Phase 7: Bilingual Audit — 100+ localization keys اضافه شدند
-- `app_l10n.dart`: همه کلیدهای UI استاتیک در FA + EN (add_to_leitner، remove_leitner_*، tap_to_reveal، box_distribution، category_empty، ...)
-- ~45 فایل: import AppL10n اضافه، همه hardcoded Persian UI strings → AppL10n.t(context, key)
-- Dialog contexts: در dialogs از ctx (dialog's BuildContext) نه context استفاده شد
-- const: جاهایی که AppL10n.t() استفاده شد، const از parent حذف، به children بازگردانده شد
-- ⚠️ Dynamic strings ($variable) intentionally left — نیاز به ICU plural system
-
-### [2026-06-29] B-4: Grammatik home لینک اشتباه + Prüfungen topic quiz
-- **مشکل Grammatik**: `_GrammarSection` tiles به list screens می‌رفتند
-- **رفع**: لینک‌ها به grammar screens تغییر کردند + NVV اضافه شد
-- **مشکل Prüfungen**: هیچ بخشی برای quiz‌های موضوعی وجود نداشت
-- **رفع**: بخش "تمرین‌های موضوعی" با `_TopicQuizTile` اضافه شد
-- **درس**: "One Screen Two Locations" — صفحه quiz یک بار ساخته شد، دو بار ارجاع داده شد
-
-### [2026-06-29] B-1: Container color + decoration conflict
-- فایل: `konnektoren_home_screen.dart`
-- مشکل: `Container(color: x, decoration: BoxDecoration(...))` → Flutter assertion خطا
-- رفع: همه header Containers از `decoration: BoxDecoration(color: x)` استفاده می‌کنند
-- درس: **هرگز** `color:` و `decoration:` روی یک Container با هم نگذار
-
-### [2026-06-29] B-2: SQLite UNIQUE constraint 2067
-- فایل: `word_dao.dart` + `data_seed_service.dart`
-- مشکل: `insertOnConflictUpdate` فقط روی PK (`id`) conflict resolve می‌کند، نه روی unique key `(german, wordType)`
-- رفع: `DoUpdate((old) => companion, target: [_db.words.german, _db.words.wordType])`
-- درس: وقتی table یک composite unique key دارد، باید `target:` را صریح مشخص کرد
-
----
+- ✅ [2026-09-16] L.2c: Tabellen von „verb-sein"/„verb-haben" nicht darstellbar
+- ✅ [2026-09-16] L.1b: Index `user_categories_uid` war für drift unsichtbar
+- ✅ [2026-09-16] V.2: App-Start las jede Wortkarte einzeln
+- ✅ [2026-09-16] S.6: Umbenennen einer Liste kostete beim Abgleich Wörter
+- ✅ [2026-09-15] S.5: Sicherung trug ~830 App-Wörter; Entfernungen kamen beim Zusammenführen zurück
+- ✅ [2026-09-15] B-12: Sicherung verlor die B-10-Grammatikfelder eigener Wörter
+- ✅ [2026-09-15] B-11: App und Sicherung lasen verschiedene Ablagen
+- ✅ [2026-09-15] Puzzling-Bruch in den Einstellungen (فاز S)
+- ✅ [2026-06-30] Phase 8 (جزئی): RevenueCat SDK کامل + Native Splash — ⛔ RevenueCat später entfernt (2026-09-13)
+- ✅ [2026-06-30] Phase 7: Bilingual Audit — 100+ localization keys اضافه شدند
+- ✅ [2026-06-29] B-4: Grammatik home لینک اشتباه + Prüfungen topic quiz
+- ✅ [2026-06-29] B-1: Container color + decoration conflict
+- ✅ [2026-06-29] B-2: SQLite UNIQUE constraint 2067
 
 ## BACKLOG / UPCOMING CHANGES
 
-### B-3 ✅ (تأیید Audit 2026-09-15): Wortschatz — حرف اضافه در display
-- در کد رفع شده: `stripPreposition(german)` در `lib/features/wortschatz/widgets/word_list_item.dart`
-  (مجموعه‌ی ۲۱ حرف اضافه؛ آخرین توکن اگر حرف اضافه بود حذف می‌شود)
-- لیست: «das Engagement» · detail view: کامل با حرف اضافه
-- ⚠️ تا 2026-09-15 اشتباهاً «فوری/باز» ثبت شده بود
+> مرجع کامل و به‌روز: PLAN.md. اینجا فقط وضعیت (2026-09-23):
 
-### R-1 [ضروری]: Auswendiglernen Präpositionen — full form در لیست
-- **درست**: لیست Auswendiglernen از Präpositionen → فرمت: "lemma · حرف‌اضافه"
-- **مثال**: "abhängen · abhängig · die Abhängigkeit von"
-- **تفاوت با B-3**: در Wortschatz حرف اضافه حذف می‌شود، در Auswendiglernen نشان داده می‌شود
-
-### R-2 [ضروری]: Auswendiglernen detail view کامل
-- کلیک روی هر آیتم → معنا (FA+EN)، مثال‌ها، TTS، Leitner، دسته‌بندی، favorit
-
-### R-3 [مهم]: Auswendiglernen — ساختار جدید
-- **حذف**: section headers (Verben، Satzbau، Wortschatz، Redemittel)
-- **جایگزین**: یک لیست ساده از deck‌ها
-- **ساختار نهایی**:
-  ```
-  • Satzkonnektoren
-  • Dativ und Akkusativ Verben
-  • Nomen-Verb-Verbindungen (NVV)
-  • Nomen · Verb · Adjektiv + Präpositionen
-  • Unregelmäßige Verben
-  • ... (بقیه)
-  ── PRÜFUNGEN ──
-  • Goethe B2 Redemittel
-  • ÖSD B2 Redemittel
-  • ÖSD C1 Redemittel
-  • 1010 Redemittel
-  ```
-
-### R-4 [مهم]: Filter UI یکپارچه در همه صفحات
-- **ساختار**: SearchBar → (Prüfung + Grammatik دکمه‌ها) → accordion کشوها
-- **accordion**: Niveau، Art، Thema — هر کدام قابل بسته/باز شدن
-- **multi-select**: ترکیب A1+B2+Nullposition همزمان ممکن
-- **chip bar**: نمایش فیلترهای فعال + دکمه "پاک کردن"
-- **فایل‌های جدید**: `core/widgets/filter_accordion.dart`، `core/widgets/filter_chip_bar.dart`
-- **⚠️ اصل**: محتوای گزینه‌ها از Screen داده می‌شود، ظاهر accordion در `filter_accordion.dart` است
-- جدول گزینه‌های هر صفحه → ببین **اصل ۲: Content-Aware Filters** در بالای این فایل
-
-### R-5 [مهم]: Design System — فایل‌های کامپوننت
-- `core/widgets/vox_button.dart` — primary، secondary، small، icon، header variants
-- `core/widgets/vox_badge.dart` — level، type، article badge variants
-- `core/theme/app_decorations.dart` — card، chip، headerStrip BoxDecoration helpers
-- **⚠️ اصل**: تمام کد ظاهر دکمه‌ها/badge‌ها باید از Screen‌ها به این فایل‌ها منتقل شود
-- Screen‌ها فقط `VoxButton.primary(...)` صدا می‌زنند — style نمی‌نویسند
-
-### R-6 ✅ (2026-06-30): Bilingual Audit — کامل شد
-- همه ~45 فایل بررسی و 100+ کلید در app_l10n.dart (FA+EN) اضافه شدند
-- تمام strings استاتیک UI → AppL10n.t(context, key)
-- Dynamic strings (با $variable) intentionally left — نیاز به ICU system جداگانه
-
-### L.5a [ایده، هنوز قطعی نیست — 2026-09-17]: صفحه‌ی پیشرفت (درصد) در VOX
-- مشابه جدول‌ها/درصدهای Root-in، ولی **صفحه‌ی مستقل و مخصوص VOX** — کپی کد از Root-in ممنوع؛
-  دو ریپو همیشه جدا (اصل ثابت `ways-of-working`)
-- معیار دقیق پیشرفت (کلمه‌ها؟ گرامر؟ تمرین‌ها؟ کلی؟) و جای دقیق صفحه (داخل L.5d یا جدا) هنوز با Lukas مشخص نشده
-- جزئیات کامل → PLAN.md → L.5a
-
-### L.5b [باز — 2026-09-17]: ترجمه‌ی جمله‌به‌جمله در Lesen، از جمله اخبار
-- زیر هر جمله‌ی متن خواندن (و بخش اخبار)، معنی‌اش نوشته شود — FA یا EN، بسته به `AppL10n.activeLang`
-- محتمل‌ترین فایل‌های درگیر: `lib/features/lesen/screens/...`، هر ویجت رندر متن Lesen/اخبار
-- جزئیات کامل → PLAN.md → L.5b
-
-### L.5c [باز — 2026-09-17]: تبدیل همه‌ی محتوای آموزشی به تمرین، به‌شدت متنوع
-- گسترش زیرساخت **G7** (فعلاً فقط گرامر: G7a–G7c ✅، G7d/G7e باز) به همه‌ی محتوا: Redemittel، Lesen،
-  Hören، Auswendiglernen و بیشتر
-- هدف: بیشترین تنوع نوع تمرین ممکن (چندگزینه‌ای، جفت‌کردن، درست/غلط، چیدن کلمه، جای‌خالی، شنیداری، …)
-- اجرا بعد از تکمیل G7d/G7e برای گرامر (L.2e)
-- جزئیات کامل → PLAN.md → L.5c
-
-### L.5d [باز — 2026-09-17]: صفحه‌ی کامل اکانت کاربری
-- یک صفحه‌ی مستقل: اطلاعات حساب + آرشیوها + سطح کاربر — فعلاً پخش در More/Settings
-- جزئیات کامل → PLAN.md → L.5d
-
-### L.5e [باز — 2026-09-17]: هر بخش محتوایی بعد از مطالعه یک آزمون دارد
-- پوشش کامل، نه فقط گرامر: هر متن Lesen/اخبار بعد از خواندن آزمون دارد؛ الگوی G7a+G7b (تمرین هر درس +
-  آزمون هر سطح) برای بقیه‌ی بخش‌ها هم تکرار می‌شود
-- تفاوت با L.5c: L.5c = تنوع نوع تمرین، L.5e = هیچ بخشی بدون آزمون پایانی نماند
-- جزئیات کامل → PLAN.md → L.5e
-
-### L.5f [✅ 2026-09-20]: کامپوننت مشترک «کلیک روی کلمه» در کل اپ (ساخته شد — تفصیل: core/widgets/klick_wort_text.dart + wort_popup.dart بالا)
-- رفتار یکسان همه‌جا: کلیک روی هر کلمه → پاپ‌آپ کوچک → کلیک روی پاپ‌آپ → `wort_seite_screen.dart` کامل
-  باز می‌شود (چک معنی یا افزودن به لایتنر از همان‌جا)
-- باید یک ویجت/کامپوننت مشترک باشد (اصل Component Isolation)، نه پیاده‌سازی جدا در هر صفحه؛ همه‌ی
-  صفحاتی که کلمه نشان می‌دهند (Lesen، Hören، Redemittel، گرامر، جمله‌های مثال، …) باید همین را reference کنند
-- محتمل‌ترین جای پیاده‌سازی: یک widget جدید در `core/widgets/` که popup + navigation به route کلمه را می‌سازد
-- جزئیات کامل → PLAN.md → L.5f
-
-### L.5g [باز — 2026-09-19]: ساختار دو لایه‌ی Lesen و اخبار (سطح · ترجمه‌ی زیر متن · پاپ‌آپ · تمرین)
-- کل Lesen، نه فقط اخبار: سطح A1–C2 برای هر متن/خبر (اخبار RSS فعلاً بدون سطح: `news_screen.dart`)
-- **لایه‌ی خودکار (پیش‌نویس)** (همه‌ی متن‌ها): ترجمه‌ی زیر متن FA/EN طبق `AppL10n.activeLang` (L.5b) + کلیک کلمه ⇒ پاپ‌آپ ⇒
-  `wort_seite_screen.dart` (L.5f ✅ 2026-09-20: `KlickWortText` → `showWortPopup` → صفحه‌ی کلمه)
-- **لایه‌ی دست‌ساز (پیش‌نویس)** (فقط متن‌های از قبل آماده): تمرین · کلمات مهم · آزمون (L.5e) · نکات گرامری متن — اختیاری، نبودش بخش را پنهان می‌کند
-- ⛔ باز: منبع سطح برای اخبار خودکار + سرویس ترجمه‌ی جمله‌ها برای اخبار خودکار (با کد تنها ممکن نیست)
-- ⛔⛔ **تصمیم مهم و باز، فقط با Lukas** (2026-09-19): (۱) چند متن آماده‌شده؟ (۲) از کجا می‌آیند؟ (۳) کدام قابلیت‌ها فقط‌مال
-  همین متن‌های محدود است؟ (۴) کدام قابلیت‌ها مال همه‌ی متن‌هاست؟ — تقسیم «خودکار/دست‌ساز» بالا فقط پیش‌نویس است؛
-  Claude باید بپرسد و حدس نزند
-- جزئیات کامل → PLAN.md → L.5g
-
-### R-7 [متوسط]: Content/Data جداسازی ✅ (2026-06-29)
-- فایل‌های موجود: konnektoren_data.json، dativ_akkusativ_data.json، nvv_data.json، praepositionen_data.json، reflexiv_data.json، reflexiv_grammar.json ✅
-- ساخته شدند: redemittel_goethe_b2.json (**۶۱ عبارت** 2026-07-04)، redemittel_oesd_b2.json (**۱۲۱ عبارت در ۲۰ بخش** 2026-07-04)، redemittel_oesd_c1.json (۶ placeholder)، redemittel_1010.json (**۹۰۸ عبارت** 2026-07-04) ✅
-- `redemittel_exam_list_screen.dart` — صفحه generic برای deck‌های امتحانی (Goethe B2 + ÖSD B2 فعال، ÖSD C1 بعداً همین صفحه)
-  - routes: `/redemittel-goethe-b2` و `/redemittel-oesd-b2` (+ `/quiz` + `/:phraseId`)
-  - quiz و detail از صفحات 1010 بازاستفاده می‌شوند
-  - ÖSD B2 بخش‌ها: بحث (۶) · Beschwerdebrief (۴) · Meinungstext (۴) · Mündlich 1–3 (۶)
-- `core/content/content_registry.dart` — ثبت ۸ منبع محتوا با isReady flag ✅ — ⚠️ 2026-09-22: **هیچ فایلی import‌اش نمی‌کند**؛ فهرست deckها جدا در `auswendiglernen_home_screen.dart` است (دو فهرست). وصل یا حذف: تصمیم باز (PLAN → یافته‌ها 2026-09-22)
-- `features/redemittel/models/redemittel_item.dart` — model کامل ✅
-- `features/redemittel/controllers/redemittel_controller.dart` — ۴ FutureProvider ✅
-- محتوای کامل (100+ عبارت per exam) → content authoring جداگانه
+- ✅ **انجام شد:** B-3 · R-1 (full form = R-2.1، 2026-09-22) · R-3 · R-4 · R-5 · R-6 · R-7 · L.5f (2026-09-20) · L.5d (عملاً با فاز P؛ فقط «سطح کاربر» نیامده)
+- ⏳ **بعد از انتشار:** R-2.2 (detail view کامل Präpositionen) · L.5b ترجمه‌ی زیر متن · L.5c تمرین از همه‌ی محتوا · L.5e آزمون بعد از هر بخش
+- ⛔ **تصمیم Lukas لازم:** L.5a صفحه‌ی پیشرفت · L.5g ⛔⛔ ساختار دو لایه‌ی Lesen/اخبار (قبل از شروع بپرس، حدس نزن)
+- ⚠️ `core/content/content_registry.dart` فعلاً فقط فهرست است؛ هیچ فایلی import‌اش نمی‌کند (2026-09-22).
 
 ---
 
@@ -1725,18 +1557,16 @@ Screen‌ها فقط این کامپوننت‌ها را **صدا می‌زنن�
 
 ---
 
-## DATABASE TABLES (drift — schema v2 — تغییر نده)
+## DATABASE TABLES (drift — schema v7)
+> ⚠️ تغییر فقط با: `schemaVersion` بالا + migration + اجرای `build-runner.yml` روی شاخه (L.1b). جدول‌ها از `@DriftDatabase` در `core/database/app_database.dart` (بررسی 2026-09-23).
 ```
-words            — جدول اصلی (unique: {german, wordType})
-books            — کتاب‌های درسی (unique: name)
-word_books       — many-to-many: word ↔ book (PK: {wordId, bookId})
-user_categories  — دسته‌های شخصی کاربر
-category_words   — many-to-many: category ↔ word (PK: {categoryId, wordId})
-leitner_cards    — کارت‌های لایتنر (wordId unique، box 1-5، nextReview)
-grammar_lessons  — دروس گرامر (title، level، content، sortOrder)
-memorize_items   — حفظیات (phrase، meaning=FA، meaningEn=nullable [L3-E]، examplesJson)
-reading_texts    — متون Lesen (title، level، content، audioPath)
-audio_items      — فایل‌های Hören (title، level، audioPath، transcript JSON)
-habits           — عادت‌ها (name، daysJson، shift، streakCount، isActive)
-habit_sessions   — جلسات (habitId، completedAt، durationMinutes)
+words                    — جدول اصلی (unique: {german, wordType}) + regelmaessig/trennbar/grammatikDetail (B-10)
+books · word_books       — کتاب‌ها + many-to-many
+user_categories          — لیست‌های شخصی (uid ثابت، S.6) · category_words — many-to-many
+leitner_cards            — لایتنر کلمه‌های همراه اپ/خودی
+archiv_leitner           — لایتنر کارت‌های آرشیو (کلید متنی wortId، S.0b)
+archiv_kategorien · archiv_kategorie_woerter — لیست‌های آرشیو (S.0c)
+mitgliedschaften         — عضویت‌ها و حذف‌ها با زمان (S.5)
+grammar_lessons · memorize_items (meaningEn، L3-E) · reading_texts · audio_items
+habits · habit_sessions  — فقط برای سازگاری DB؛ Habit از 2026-09-13 در UI نیست (Root-in)
 ```
