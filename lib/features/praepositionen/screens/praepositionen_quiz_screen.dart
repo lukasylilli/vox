@@ -196,7 +196,7 @@ class _PraepositonenQuizScreenState extends State<PraepositonenQuizScreen> {
                       ),
                       if (item.exampleDe.isNotEmpty) ...[
                         const SizedBox(height: 4),
-                        DeutschText(item.exampleDe,
+                        DeutschText(item.exampleDe, ganzeZeile: false, // zentriert
                             style: const TextStyle(fontWeight: FontWeight.w500)),
                         Text(AppL10n.meaning(context, fa: item.exampleFa,
                             en: item.exampleEn.isNotEmpty ? item.exampleEn : item.exampleFa),

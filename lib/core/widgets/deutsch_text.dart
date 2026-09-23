@@ -21,7 +21,34 @@
 //        Wortliste, Struktur-Muster) wird mit `DeutschText` gezeigt, nie mit
 //        einem nackten `Text`. Übersetzungen (fa/en) bleiben beim normalen
 //        `Text` — die sollen der Oberflächensprache folgen.
+//
+// NACHTRAG 2026-09-23 (Fund von Claude, Auftrag Lukas): `textAlign` allein
+//   reicht nicht. Eine KURZE Zeile ist nur so breit wie ihr Text; in einer
+//   persischen Oberfläche schiebt die Eltern-Spalte (`crossAxisAlignment:
+//   start` = rechts) dieses schmale Kästchen an den RECHTEN Rand — der Satz
+//   stand rechtsbündig, obwohl `textAlign: left` gesetzt war. Darum nimmt
+//   deutscher Text in RTL jetzt die ganze verfügbare Zeile ein und steht darin
+//   links ([ganzeZeile], siehe [deutschLinksbuendig]).
+//   In LTR ändert sich nichts — dort ist „Anfang" schon links.
 import 'package:flutter/material.dart';
+
+/// Hält eine deutsche Zeile in einer RTL-Oberfläche am LINKEN Rand
+/// (Nachtrag 2026-09-23). Eine Quelle für `DeutschText` und `KlickWortText`.
+///
+/// Wirkt nur, wenn (1) [ganzeZeile] gilt, (2) die Zeile linksbündig sein soll
+/// und (3) die Umgebung RTL ist. Sonst kommt [kind] unverändert zurück.
+/// `Align` nimmt nur die BREITE ein, die es bekommt (in einer Row ohne feste
+/// Breite bleibt es so schmal wie der Text); `heightFactor: 1` lässt die Höhe
+/// beim Text.
+Widget deutschLinksbuendig(BuildContext context, Widget kind,
+    {required bool ganzeZeile, required TextAlign textAlign}) {
+  if (!ganzeZeile ||
+      textAlign != TextAlign.left ||
+      Directionality.of(context) != TextDirection.rtl) {
+    return kind;
+  }
+  return Align(alignment: Alignment.centerLeft, heightFactor: 1, child: kind);
+}
 
 class DeutschText extends StatelessWidget {
   const DeutschText(
@@ -32,6 +59,7 @@ class DeutschText extends StatelessWidget {
     this.overflow,
     this.softWrap,
     this.textAlign = TextAlign.left,
+    this.ganzeZeile = true,
   });
 
   final String data;
@@ -44,15 +72,25 @@ class DeutschText extends StatelessWidget {
   /// werden soll (z. B. eine große Titelzeile) — niemals auf `right` setzen.
   final TextAlign textAlign;
 
+  /// In RTL die ganze Zeile einnehmen und links stehen (Standard).
+  /// `false` nur, wo der Text bewusst nicht an den linken Rand gehört:
+  /// AppBar-Titel, Chips, zentrierte Karten/Zeilen.
+  final bool ganzeZeile;
+
   @override
-  Widget build(BuildContext context) => Text(
-        data,
-        style        : style,
-        maxLines     : maxLines,
-        overflow     : overflow,
-        softWrap     : softWrap,
-        textAlign    : textAlign,
-        // Fest, nicht geerbt: Deutsch läuft immer links-nach-rechts.
-        textDirection: TextDirection.ltr,
+  Widget build(BuildContext context) => deutschLinksbuendig(
+        context,
+        Text(
+          data,
+          style        : style,
+          maxLines     : maxLines,
+          overflow     : overflow,
+          softWrap     : softWrap,
+          textAlign    : textAlign,
+          // Fest, nicht geerbt: Deutsch läuft immer links-nach-rechts.
+          textDirection: TextDirection.ltr,
+        ),
+        ganzeZeile: ganzeZeile,
+        textAlign : textAlign,
       );
 }

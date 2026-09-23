@@ -323,7 +323,7 @@ class _MCBody extends StatelessWidget {
               ?.copyWith(fontWeight: FontWeight.w800),
         ),
         const SizedBox(height: 4),
-        DeutschText(q.verb.exampleDe,
+        DeutschText(q.verb.exampleDe, ganzeZeile: false, // zentrierte Spalte
             style: Theme.of(context).textTheme.bodySmall?.copyWith(
                   color: cs.onSurfaceVariant, fontStyle: FontStyle.italic)),
         const SizedBox(height: 20),

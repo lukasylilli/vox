@@ -18,6 +18,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
 import '../wort/klick_wort.dart';
+import 'deutsch_text.dart' show deutschLinksbuendig;
 import 'wort_popup.dart';
 
 class KlickWortText extends StatefulWidget {
@@ -30,6 +31,7 @@ class KlickWortText extends StatefulWidget {
     this.overflow,
     this.markiert = false,
     this.auswaehlbar = false,
+    this.ganzeZeile = true,
   });
 
   final String data;
@@ -47,6 +49,9 @@ class KlickWortText extends StatefulWidget {
   /// Text lässt sich markieren/kopieren (Leser). Das Antippen eines Worts
   /// bleibt dasselbe.
   final bool auswaehlbar;
+
+  /// Wie bei `DeutschText`: in RTL ganze Zeile, links (Nachtrag 2026-09-23).
+  final bool ganzeZeile;
 
   @override
   State<KlickWortText> createState() => _KlickWortTextState();
@@ -120,6 +125,11 @@ class _KlickWortTextState extends State<KlickWortText> {
     ];
     final wurzel = TextSpan(children: spans);
 
+    return deutschLinksbuendig(context, _text(wurzel),
+        ganzeZeile: widget.ganzeZeile, textAlign: widget.textAlign);
+  }
+
+  Widget _text(TextSpan wurzel) {
     if (widget.auswaehlbar) {
       return SelectableText.rich(
         wurzel,

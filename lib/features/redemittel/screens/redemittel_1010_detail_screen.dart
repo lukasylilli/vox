@@ -72,7 +72,7 @@ class _DetailView extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: DeutschText(phrase.sectionTitleDe,
+        title: DeutschText(phrase.sectionTitleDe, ganzeZeile: false,
             style: const TextStyle(fontSize: 15)),
         actions: [
           VoxIconButton(

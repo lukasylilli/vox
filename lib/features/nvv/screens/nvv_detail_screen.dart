@@ -32,7 +32,7 @@ class NvvDetailScreen extends ConsumerWidget {
 
         return Scaffold(
           appBar: AppBar(
-            title: DeutschText(phrase.phraseDe),
+            title: DeutschText(phrase.phraseDe, ganzeZeile: false),
           ),
           body: _NvvDetailBody(
             phrase : phrase,

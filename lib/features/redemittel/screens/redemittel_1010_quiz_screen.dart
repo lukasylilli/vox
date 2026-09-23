@@ -291,6 +291,7 @@ class _Redemittel1010QuizScreenState
                         Flexible(
                           child: DeutschText(
                             q.phrase.sectionTitleDe,
+                            ganzeZeile: false, // zentrierte Kopfzeile
                             style: tt.labelSmall?.copyWith(
                                 color: cs.onSurfaceVariant),
                             overflow: TextOverflow.ellipsis,
@@ -406,7 +407,7 @@ class _Redemittel1010QuizScreenState
                   : Wrap(
                       spacing: 6, runSpacing: 6,
                       children: _arranged.map((w) => ActionChip(
-                            label    : DeutschText(w),
+                            label    : DeutschText(w, ganzeZeile: false),
                             onPressed: _answered
                                 ? null
                                 : () => setState(
@@ -419,7 +420,7 @@ class _Redemittel1010QuizScreenState
             Wrap(
               spacing: 6, runSpacing: 6,
               children: remaining.map((w) => ActionChip(
-                    label    : DeutschText(w),
+                    label    : DeutschText(w, ganzeZeile: false),
                     onPressed: _answered
                         ? null
                         : () => setState(() => _arranged.add(w)),

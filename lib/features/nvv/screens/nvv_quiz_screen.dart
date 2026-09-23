@@ -167,7 +167,7 @@ class _NvvQuizScreenState extends ConsumerState<NvvQuizScreen> {
                   padding: const EdgeInsets.all(AppSizes.sm),
                   child: Column(
                     children: [
-                      DeutschText(p.exampleDe,
+                      DeutschText(p.exampleDe, ganzeZeile: false, // zentriert
                           style: const TextStyle(fontWeight: FontWeight.w600)),
                       const SizedBox(height: 4),
                       Text(AppL10n.meaning(context, fa: p.exampleFa, en: p.exampleEn),

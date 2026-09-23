@@ -1,6 +1,7 @@
 # PROJECT MAP — VOX
 # نقشه کامل پروژه برای ناوبری سریع در هر session
-# آپدیت: 2026-09-23 دور ۲۱ — Lukas: پاپ‌آپ کلمه (L.5f) و صفحه‌ی پروفایل (فاز P) روی آیفون ✅؛ نقشه‌ی فایل‌ها تغییری نکرد.
+# آپدیت: 2026-09-23 دور ۲۲ — core/widgets/deutsch_text.dart: تابع deutschLinksbuendig() (تنها منبع چپ‌چینی آلمانی در RTL) + پارامتر ganzeZeile در DeutschText و KlickWortText؛ ganzeZeile:false در عنوان‌های AppBar (grammar_topic، grammatik_lektion، konnektor_detail، redemittel_1010_detail، nvv_detail، word_detail) و redemittel_1010_quiz (چیپ‌ها + سرتیتر)، dativ/nvv/praepositionen quiz؛ جدول grammatik_lektion_screen = LTR تمام‌عرض؛ anmerkung در wort_seite_screen = DeutschText.
+# قبلی: 2026-09-23 دور ۲۱ — Lukas: پاپ‌آپ کلمه (L.5f) و صفحه‌ی پروفایل (فاز P) روی آیفون ✅؛ نقشه‌ی فایل‌ها تغییری نکرد.
 # قبلی: 2026-09-23 دور ۲۰ — L.5f نسخه‌ی دوم: wort_popup.dart (_WortKopf = کلمه + AudioPlayButton در هر حالت؛ _LadenFehlgeschlagen = «فهرست بارگذاری نشد» + تلاش مجدد)، klick_wort_provider.dart (خطای Index دیگر بی‌صدا «نیست» نمی‌شود)، news_screen.dart (توضیح خبر = KlickWortText)، کلید l10n wort_popup_ladefehler، تست‌ها در klick_wort_test.dart.
 # قبلی: 2026-09-23 دور ۱۹ — برنامه‌ی بعد از انتشار: R-2.3 گسترش همه‌ی محتوای Auswendiglernen (مثال، ترجمه، تمرین …؛ فقط افزودن). محل کار: lib/features/auswendiglernen/ + assets/data/*_data.json. کدی عوض نشد. جزئیات: PLAN → فاز R → R-2.3.
 # قبلی: 2026-09-23 دور ۱۸ — گزارش Lukas: پاپ‌آپ کلمه (klick_wort_text.dart / wort_popup.dart) روی آیفون واقعی باز نمی‌شود؛ در Chromium و WebKit (شبیه‌سازی iPhone) باز می‌شود. کدی عوض نشد. جزئیات: PLAN «آخرین جلسه».

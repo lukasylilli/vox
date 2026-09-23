@@ -46,7 +46,7 @@ class GrammarTopicScreen extends ConsumerWidget {
     final sectionsAsync = ref.watch(grammarTopicProvider(meta.assetPath));
 
     return Scaffold(
-      appBar: AppBar(title: DeutschText(meta.titleDe)),
+      appBar: AppBar(title: DeutschText(meta.titleDe, ganzeZeile: false)),
       body: sectionsAsync.when(
         loading: () => const VoxLoadingWidget(),
         error  : (e, _) => VoxErrorWidget(error: e),

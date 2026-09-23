@@ -43,7 +43,7 @@ class _KonnektorDetailScreenState
 
         return Scaffold(
           appBar: AppBar(
-            title: DeutschText(k.connector),
+            title: DeutschText(k.connector, ganzeZeile: false),
           ),
           body: ListView(
             padding: const EdgeInsets.fromLTRB(16, 8, 16, 80),

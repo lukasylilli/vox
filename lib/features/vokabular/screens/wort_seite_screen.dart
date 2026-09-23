@@ -16,6 +16,7 @@ import '../../../core/grammatikon/grammatikon_spec.dart';
 import '../../../core/l10n/app_l10n.dart';
 import '../../../core/widgets/vox_badge.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../../core/widgets/deutsch_text.dart';
 import '../controllers/vokabular_controller.dart';
 import '../widgets/details_renderer.dart';
 import '../widgets/kasus_beispiel_block.dart';
@@ -125,7 +126,8 @@ class _WortSeiteBody extends StatelessWidget {
           ],
           if (anmerkung != null && anmerkung.isNotEmpty) ...[
             const SizedBox(height: 6),
-            Text(anmerkung,
+            // anmerkung ist laut Wort-Prompt immer Deutsch ⇒ DeutschText
+            DeutschText(anmerkung,
                 style: theme.textTheme.bodySmall?.copyWith(
                     fontStyle: FontStyle.italic,
                     color: theme.colorScheme.onSurfaceVariant)),

@@ -51,7 +51,7 @@ class _WordDetailView extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title  : DeutschText(model.german),
+        title  : DeutschText(model.german, ganzeZeile: false),
         actions: [
           AudioPlayButton(text: model.displayGerman),
           const SizedBox(width: 8),

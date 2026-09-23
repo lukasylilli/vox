@@ -54,7 +54,7 @@ class _LektionView extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return Scaffold(
-      appBar: AppBar(title: DeutschText(lek.titleDe)),
+      appBar: AppBar(title: DeutschText(lek.titleDe, ganzeZeile: false)),
       body: ListView(
         padding: const EdgeInsets.all(AppSizes.md),
         children: [
@@ -263,7 +263,15 @@ class _TableCard extends StatelessWidget {
                 style: theme.textTheme.bodySmall
                     ?.copyWith(color: cs.onSurfaceVariant)),
             const SizedBox(height: AppSizes.sm),
-            SingleChildScrollView(
+            // Die Tabelle ist ganz Deutsch ⇒ fest LTR (2026-09-23): sonst
+            // spiegelt die persische Oberfläche die Spalten — «bin | ich»
+            // statt «ich | bin» — und die Tabelle klebt rechts.
+            // Volle Breite, damit die Tabelle auch in RTL links beginnt.
+            SizedBox(
+              width: double.infinity,
+              child: Directionality(
+              textDirection: TextDirection.ltr,
+              child: SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               child: DataTable(
                 columnSpacing: 20,
@@ -288,6 +296,8 @@ class _TableCard extends StatelessWidget {
                     ]),
                 ],
               ),
+            ),
+            ),
             ),
           ],
         ),
