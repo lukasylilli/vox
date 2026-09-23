@@ -1,6 +1,6 @@
 # PROJECT MAP — VOX
 # نقشه کامل پروژه برای ناوبری سریع در هر session
-# آپدیت: 2026-09-23 دور ۱۳ — خلاصه‌سازی (درخواست Lukas): گزارش‌های کارهای انجام‌شده کوتاه شدند، فهرست مطالب تازه شد؛ نقشه‌ی فایل‌ها دست نخورد. متن مفصل قبلی: `git show afad3ab:PROJECT_MAP.md`.
+# آپدیت: 2026-09-23 دور ۱۴ — L.3b: web/locale_guard.js (نگهبان زبان نامعتبر مرورگر، قبل از flutter_bootstrap.js). قبلی: دور ۱۳ خلاصه‌سازی (متن مفصل: `git show afad3ab:PROJECT_MAP.md`).
 #
 # ⚠️ 2026-09-19 (اصلاح یادداشت آفلاین): «precache شدنی است» فقط برای ~۷٫۵MB فعلی (۸۷ کارت) درست است. کارت ~۴KB ⇒ ~۲۶٬۲۰۰ کارت ≈ ~۱۰۰MB
 #   (ارقام خود PLAN) ⇒ پیش‌بارگذاری همه‌ی کارت‌ها همچنان گزینه نیست؛ فقط دارایی‌های ثابت + فهرست + کارتِ بازشده. تحلیل است نه تصمیم. جزئیات: PLAN → L.3.
@@ -439,6 +439,7 @@ app_l10n.dart   [x]  — themeModeProvider (StateProvider<ThemeMode>، default: 
                        زبان واقعی از settingsProvider.uiLanguage می‌آید (app.dart → locale:)
                        activeLang پیش‌فرض 'en' (L.3a — قبل از اولین build)
 geraete_sprache.dart [x] — L.3a (2026-09-16) **تنها منبع زبان شروع**: GeraeteSprache.aus(locales)
+                       (زبان نامعتبر مرورگر پیش از Engine در web/locale_guard.js تمیز می‌شود — L.3b)
                        → 'fa' فقط اگر اولین زبانِ پشتیبانی‌شده‌ی دستگاه fa/prs باشد، وگرنه 'en'
                        (rueckfall). GeraeteSprache.aktuell = PlatformDispatcher.locales.
                        استفاده: settings_controller._load (بدون ui_language) + app.dart (حین بارگذاری).
@@ -1261,6 +1262,7 @@ die Fassade, die allein `NutzerZustand` nach außen zeigt.
 | `core/utils/persistent_storage.dart` (+ `_io`/`_web`) | **S.1 ✅** — bittet den Browser um dauerhaften Speicher; bedingter Export wie `external_link_opener`. Aus Root-in kopiert, Herkunft (Repo/Pfad/Commit) im Dateikopf. ⚠️ Der `_web`-Teil ist eine **zeichengleiche** Kopie — beim Nachziehen nicht umbenennen |
 | `core/utils/install_state.dart` (+ `install_hinweis.dart`, `_io`/`_web`) | **S.1b ✅** — erkennt, ob VOX als Web-App installiert ist, sonst Anleitung je Plattform. Der Aufzählungstyp liegt bewusst in einer eigenen Datei (sonst Import-Kreis mit der Weiche) |
 | `core/utils/dokument_sprache.dart` (+ `_io`/`_web`) | **L.3a ✅** (2026-09-16) — setzt `<html lang>` auf die aktive Oberflächensprache (aus `app.dart`), damit der Browser keine falsche Übersetzung anbietet. Bedingter Export wie `external_link_opener`. `web/index.html` startet mit `lang="en"` |
+| `web/locale_guard.js` | **L.3b ✅** (2026-09-23) — läuft in `web/index.html` **vor** `flutter_bootstrap.js`. Die Flutter-Engine baut beim Start `new Intl.Locale()` für jede Browsersprache und stürzt bei ungültigem BCP-47 ab (z. B. Chromium/Linux mit POSIX-Locale: `en-US@posix`). Das Skript bereinigt nur dann `navigator.languages`/`language` (`@…`/`.…` weg, `_`→`-`, leer ⇒ `["en"]`); gültige Sprachen bleiben unberührt. Startsprache entscheidet weiter allein `geraete_sprache.dart`. Gleiche Datei in Root-in |
 | `features/more/screens/settings_screen.dart` → `_SpeicherKarte` | zeigt diese Einladung unter «داده‌ی من» |
 | `test/praep_vollform_test.dart` | **R-2.1 (2026-09-22)** — `PraepCluster.vollform`: gemeinsame Präposition einmal am Ende, sonst je Wort; prüft alle 185 echten Cluster |
 | `test/konto_loeschen_test.dart` | **L.1d (2026-09-22)** — Knopf «حذف حساب»: Dialog nennt Root-in · Abbrechen löscht nichts · deleted / unavailable (eigene Sicherung + abmelden) / failed · `deleteAccount()` ohne Server = failed. Auth/Ablage/Abgleich ersetzt, kein Netz |
