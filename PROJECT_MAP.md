@@ -4,6 +4,7 @@
 #   تازه‌ها در همین روز: web/locale_guard.js · leitnerEintraegeProvider (لایتنر دو منبع، B-13) · wende_karte.dart + archiv_flash_card.dart · WortZeile در wort_card.dart
 #   · wort_popup.dart (_WortKopf تلفظ، _LadenFehlgeschlagen) · deutschLinksbuendig + DeutschRichText (core/widgets/deutsch_text.dart) · vokab_formen.dart ⇒ assets/vocab_formen/.
 # دور ۲۶–۲۷: DeutschMitEtikett (deutsch_text.dart) · جدول/ردیف‌های آلمانی deckها Directionality(ltr) · Wrap(textDirection: ltr) در همه‌ی تمرین‌های مرتب‌کردن · نگهبان deutscher_text_waechter_test با ~۴۰ فیلد.
+# دور ۲۸: +۱۰ کارت صفت در assets/vocab/adjektiv/ (aalglatt … abbildbar) ⇒ آرشیو ۹۷ کارت؛ منبع: old files Lukasalmani/Wörter/Adjektive.txt (✓ = ساخته‌شده).
 # 🚀 کارهای باز قبل از انتشار (فهرست کامل): PLAN.md → «🚀 قبل از انتشار». بعد از انتشار: PLAN.md → «⏭️ بعد از انتشار».
 #
 # ⚠️ 2026-09-19 (اصلاح یادداشت آفلاین): «precache شدنی است» فقط برای ~۷٫۵MB فعلی (۸۷ کارت) درست است. کارت ~۴KB ⇒ ~۲۶٬۲۰۰ کارت ≈ ~۱۰۰MB

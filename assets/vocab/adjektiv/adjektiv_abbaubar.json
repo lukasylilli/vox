@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_abbaubar",
+  "wort": "abbaubar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "تجزیه‌پذیر"
+    ],
+    "en": [
+      "degradable",
+      "biodegradable"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Umwelt"
+  ],
+  "ipa": "ˈapbaʊ̯baːɐ̯",
+  "anmerkung": "Häufig in der Verbindung «biologisch abbaubar».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Tüte ist biologisch abbaubar.",
+      "uebersetzung": {
+        "fa": "این کیسه زیست‌تجزیه‌پذیر است.",
+        "en": "The bag is biodegradable."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wir kaufen nur Verpackungen, die biologisch abbaubar sind, weil wir weniger Müll produzieren wollen.",
+      "uebersetzung": {
+        "fa": "فقط بسته‌بندی‌هایی می‌خریم که زیست‌تجزیه‌پذیرند، چون می‌خواهیم زباله‌ی کمتری تولید کنیم.",
+        "en": "We only buy packaging that is biodegradable because we want to produce less waste."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zersetzbar",
+      "uebersetzung": {
+        "fa": "تجزیه‌شدنی",
+        "en": "decomposable"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "abbauen (تجزیه کردن) + -bar (پذیر)",
+    "en": "abbauen (to break down) + -bar (-able)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "abbaubar",
+      "komparativ": "abbaubarer",
+      "superlativ": "am abbaubarsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein abbaubarer Kunststoff",
+      "die abbaubare Verpackung"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "abbauen",
+    "woerter": [
+      {
+        "wort": "die Umwelt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "محیط زیست",
+          "en": "environment"
+        },
+        "id_ref": "nomen_umwelt"
+      },
+      {
+        "wort": "der Müll",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زباله",
+          "en": "rubbish, waste"
+        },
+        "id_ref": "nomen_muell"
+      },
+      {
+        "wort": "die Verpackung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بسته‌بندی",
+          "en": "packaging"
+        },
+        "id_ref": "nomen_verpackung"
+      },
+      {
+        "wort": "der Kunststoff",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پلاستیک",
+          "en": "plastic"
+        },
+        "id_ref": "nomen_kunststoff"
+      },
+      {
+        "wort": "abbauen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تجزیه کردن، کاهش دادن",
+          "en": "to break down, to reduce"
+        },
+        "id_ref": "verb_abbauen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

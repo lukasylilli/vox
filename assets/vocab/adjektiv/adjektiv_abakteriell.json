@@ -1,0 +1,127 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_abakteriell",
+  "wort": "abakteriell",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "غیرباکتریایی"
+    ],
+    "en": [
+      "abacterial",
+      "non-bacterial"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gesundheit",
+    "Medizin"
+  ],
+  "ipa": "ˈabakteʁi̯ɛl",
+  "anmerkung": "Medizinisch; nicht steigerbar.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Entzündung ist abakteriell.",
+      "uebersetzung": {
+        "fa": "این التهاب غیرباکتریایی است.",
+        "en": "The inflammation is non-bacterial."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil die Entzündung abakteriell war, hat der Arzt kein Antibiotikum verschrieben.",
+      "uebersetzung": {
+        "fa": "چون التهاب غیرباکتریایی بود، پزشک آنتی‌بیوتیک تجویز نکرد.",
+        "en": "Because the inflammation was non-bacterial, the doctor did not prescribe an antibiotic."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "bakteriell",
+      "uebersetzung": {
+        "fa": "باکتریایی",
+        "en": "bacterial"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "a- (نفی، نا-) + bakteriell (باکتریایی)",
+    "en": "a- (not) + bakteriell (bacterial)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "abakteriell",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine abakterielle Entzündung",
+      "die abakterielle Meningitis"
+    ],
+    "gegensatzpaar": "abakteriell ↔ bakteriell"
+  },
+  "wortnetz": {
+    "grundwort": "Bakterie",
+    "woerter": [
+      {
+        "wort": "die Bakterie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "باکتری",
+          "en": "bacterium"
+        },
+        "id_ref": "nomen_bakterie"
+      },
+      {
+        "wort": "die Entzündung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "التهاب",
+          "en": "inflammation"
+        },
+        "id_ref": "nomen_entzuendung"
+      },
+      {
+        "wort": "das Antibiotikum",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آنتی‌بیوتیک",
+          "en": "antibiotic"
+        },
+        "id_ref": "nomen_antibiotikum"
+      },
+      {
+        "wort": "bakteriell",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "باکتریایی",
+          "en": "bacterial"
+        },
+        "id_ref": "adjektiv_bakteriell"
+      },
+      {
+        "wort": "viral",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ویروسی",
+          "en": "viral"
+        },
+        "id_ref": "adjektiv_viral"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
