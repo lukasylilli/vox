@@ -25,7 +25,9 @@
 # دور ۴۷ (2026-09-24): +۱۰ کارت (afroamerikanisch … agnostizistisch) در assets/vocab/ ⇒ آرشیو ۲۳۶. 
 # دور ۴۸ (2026-09-24): قاعده‌ی ثابت کلمه‌های واردنشده ⇒ PLAN.md «📚 روال» → «🔒 قاعده‌ی ثابت» (جا: «🏁 مرحله‌ی آخر» ته PLAN + zurueckgestellt؛ بررسی: بعد از هر چهار فهرست) + کامنت tool/naechste_woerter.dart.
 # دور ۴۹–۵۳ (2026-09-24، یک چت): +۵۰ کارت (agogisch … allein) در assets/vocab/adjektiv/ ⇒ آرشیو ۲۸۶؛ aldente و aleppinisch کنار گذاشته شدند (zurueckgestellt در tool/naechste_woerter.dart + PLAN «🏁 مرحله‌ی آخر»).
-# دور ۵۴ (2026-09-24): L.4b شروع — قاعده‌ی «کلمه‌ای که از قبل در اپ هست» (صفحه‌ی قبلی گسترش، حذف هرگز) در PLAN «📚 روال» + MAP «📚 کلمه‌ها».
+# دور ۵۴ (2026-09-24): L.4b ✅ — قاعده‌ی «کلمه‌ای که از قبل در اپ هست» (صفحه‌ی قبلی گسترش، حذف هرگز). تازه: features/wortschatz/data/altwort_karte.dart (تنها منبع جفت‌کردن) ·
+#   features/wortschatz/controllers/altwort_karte_provider.dart · features/vokabular/widgets/wort_karte_inhalt.dart (WortKarteKopf + WortKarteAbschnitte) · test/altwort_karte_test.dart.
+#   تغییر: word_detail_screen (+_KartenErweiterung) · wort_seite_screen (کارت کلمه‌ی قبلی ⇒ صفحه‌ی قبلی) · wortschatz_list_screen (یک ردیف) · wortschatz_home_screen (شمارنده).
 # 🚀 کارهای باز قبل از انتشار (فهرست کامل): PLAN.md → «🚀 قبل از انتشار». بعد از انتشار: PLAN.md → «⏭️ بعد از انتشار».
 #
 # ⚠️ 2026-09-19 (اصلاح یادداشت آفلاین): «precache شدنی است» فقط برای ~۷٫۵MB فعلی (۸۷ کارت) درست است. کارت ~۴KB ⇒ ~۲۶٬۲۰۰ کارت ≈ ~۱۰۰MB
@@ -118,7 +120,7 @@
 - `tool/naechste_woerter.dart` — ۱۰ کلمه‌ی بعدی (رد: کارت موجود + `zurueckgestellt`؛ `wortartKorrektur` = Wortart درست برای برچسب غلط فهرست، مثل aberhundert ⇒ numerale) · `tool/vokabular_import.dart` — JSON-Array ⇒ `assets/vocab/<wortart>/<id>.json` (اعتبارسنجی با `vokab_schema.dart`) · `tool/vokab_index.dart` — `assets/vocab_index.json` + `assets/vocab_formen/`
 - **ترتیب فهرست‌ها (Lukas):** Adjektive ⇒ Verben_unregelmaeßig_Infinitiv ⇒ Verben_regelmaesig ⇒ substantiv_singular_alle — در `tool/naechste_woerter.dart` (`listen`). کلمه‌ی نامطمئن ⇒ `zurueckgestellt` + فهرست «🏁 مرحله‌ی آخر» ته PLAN.md + گزارش؛ بررسی‌شان فقط **بعد از تمام شدن هر چهار فهرست** با تصمیم Lukas (قاعده: PLAN → «🔒 قاعده‌ی ثابت»).
 - **اسم‌ها (Lukas 2026-09-24):** نام شهرها ⇒ فقط تلفظ + معنی + آرتیکل (نوع کارت کوتاه، هنوز در schema نیست) · ⛔ قبل از شروع فهرست اسم‌ها درباره‌ی اسم‌های بدون آرتیکل از Lukas بپرس.
-- **🔒 کلمه‌ای که از قبل در اپ هست (Lukas 2026-09-24، L.4b):** هیچ چیز از کلمه/صفحه‌ی قبلی (`word_detail_screen.dart`) حذف نمی‌شود؛ کارت پرامپتی همان کلمه به **همان صفحه‌ی قبلی** اضافه می‌شود (یک کلمه = یک صفحه، یک ردیف در لیست). جفت‌کردن: فقط `features/wortschatz/data/altwort_karte.dart`. قاعده‌ی کامل: PLAN → «📚 روال» → «🔒 کلمه‌ای که از قبل در اپ هست».
+- **🔒 کلمه‌ای که از قبل در اپ هست (Lukas 2026-09-24، L.4b ✅ — ۷۵ کلمه انجام شد):** هیچ چیز از کلمه/صفحه‌ی قبلی (`word_detail_screen.dart`) حذف نمی‌شود؛ کارت پرامپتی همان کلمه به **همان صفحه‌ی قبلی** اضافه می‌شود (یک کلمه = یک صفحه، یک ردیف در لیست). جفت‌کردن: فقط `features/wortschatz/data/altwort_karte.dart`. قاعده‌ی کامل: PLAN → «📚 روال» → «🔒 کلمه‌ای که از قبل در اپ هست».
 - **پیشرفت (2026-09-24 دور ۵۳):** آخرین کلمه‌ی ساخته‌شده **allein** · بعدی **alleine** · کنار گذاشته: abatisch، abdikativ، afrikaans، aldente، aleppinisch (فهرست کامل: PLAN.md → «🏁 مرحله‌ی آخر») · آرشیو: ۲۸۶ کارت.
 
 ## TECH STACK
@@ -527,7 +529,7 @@ widgets/section_grid_item.dart [x]  — gradient card + shadow، color.withValue
 ```
 screens/
   wortschatz_home_screen.dart  [x]  — stats banner + _MenuItem (Alle Wörter، Bücher، Leitner، Kategorien) + Add FAB
-  wortschatz_list_screen.dart  [x]  — «Alle Wörter» = لیست ادغامی دو منبع: allWordsProvider (DB → WordListItem)
+  wortschatz_list_screen.dart  [x]  — ⭐ L.4b: کارتِ جفت‌شده با کلمه‌ی قبلی ردیف جدا ندارد (یک کلمه = یک ردیف)؛ Wortart/lemma از `data/altwort_karte.dart`. — «Alle Wörter» = لیست ادغامی دو منبع: allWordsProvider (DB → WordListItem)
                                       + vokabularProvider (assets/vocab → WortCard+WortActions → /vokabular/wort/:id)؛
                                       سورت الفبایی مشترک (بدون Artikel)؛ SearchBar + FilterAccordion (Niveau، Wortart،
                                       نگاشت _typZuWortart) + FilterChipBar؛ query param `suche`؛ route: /wortschatz/list
@@ -535,7 +537,7 @@ screens/
   book_words_screen.dart       [x]  — wordsByBookProvider(bookId) + ListView
   level_words_screen.dart      [x]  — wordsByLevelProvider + _LevelPickerBar (legacy، هنوز در router)
   type_words_screen.dart       [x]  — wordsByTypeProvider + _TypePickerBar (legacy، هنوز در router)
-  word_detail_screen.dart      [x]  — همه فیلدها conditional + BottomBar: (2026-09-22: دکمه‌ی «favorit» جدا وجود ندارد — دسته‌بندی/فهرست جایش است)
+  word_detail_screen.dart      [x]  — ⭐ L.4b (2026-09-24): کلمه‌ی قبلی اپ با کارت پرامپتی ⇒ زیر بخش‌های قبلی کل کارت (`_KartenErweiterung` ← `WortKarteKopf`/`WortKarteAbschnitte`)؛ هیچ بخشی حذف نشد. — همه فیلدها conditional + BottomBar: (2026-09-22: دکمه‌ی «favorit» جدا وجود ندارد — دسته‌بندی/فهرست جایش است)
                                       LeitnerAddButton / دسته‌بندی / آزمون(placeholder)
   add_word_screen.dart         [x]  — TextField → ParserRegistry.parse → _ParsePreview → save
 controllers/
@@ -1147,7 +1149,7 @@ seed_wortschluessel.dart [x] — ⭐ **L.1e (2026-09-18) — تنها منبع**
     BottomSheet؛ فقط Vox-کامپوننت‌ها؛ snackbar کلیدهای added_to_leitner/removed_from_leitner.
   · `widgets/wortseite_bausteine.dart` [x] — Sektion/Zeile/BeispielBlock/Tabelle + `vokabUeb()`
     (یک زبان، فاز L). `widgets/details_renderer.dart` [x] — ۱۰ Wortart؛ Perfekt از PerfektBuilder.
-  · `screens/wort_seite_screen.dart` [x] (Wortnetz کلیک‌پذیر، id مشتق از vokabId، push زنجیره‌ای؛
+  · `screens/wort_seite_screen.dart` [x] (⭐ L.4b: کارتِ کلمه‌ی قبلی اپ ⇒ `WordDetailScreen` همان کلمه؛ کلمه‌ی قبلی = تنها صفحه. کاشی‌ها: `widgets/wort_karte_inhalt.dart`؛ Wortnetz کلیک‌پذیر، id مشتق از vokabId، push زنجیره‌ای؛
     دکمه‌ی «جستجو در همه واژه‌ها» → `/wortschatz/list?suche=<wort>`). ترتیب سکشن‌ها:
     Synonyme → **«Gegenteil»** (فیلد antonyme؛ فقط واژه+معنی، یک زبان) → Komposita →
     Wortbildung → Wortnetz → **Meine Notiz** (WortNotizSektion).

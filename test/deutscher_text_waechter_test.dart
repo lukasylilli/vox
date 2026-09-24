@@ -160,8 +160,9 @@ void main() {
           'freie Notiz des Nutzers — Sprache offen, folgt der Oberfläche',
       'lib/features/home/screens/search_results_screen.dart':
           'Treffer der Suche: Deutsch ODER Übersetzung gemischt',
-      'lib/features/vokabular/screens/wort_seite_screen.dart':
-          'Kopf der Wortseite: schon LTR; steht bewusst direkt neben dem '
+      'lib/features/vokabular/widgets/wort_karte_inhalt.dart':
+          'Kopf der Wortseite (WortKarteKopf, L.4b aus wort_seite_screen '
+              'herausgelöst): schon LTR; steht bewusst direkt neben dem '
               'Symbol (Kopfzeile folgt der Oberfläche)',
     };
     final treffer = <String>[];

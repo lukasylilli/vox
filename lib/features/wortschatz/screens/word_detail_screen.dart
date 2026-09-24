@@ -1,6 +1,12 @@
 // FILE: lib/features/wortschatz/screens/word_detail_screen.dart
 // DEPS: wordByIdProvider, WordModel, ArticleBadge, AudioPlayButton, ConjugationTable
 // PURPOSE: Full word detail — all fields + action buttons (Leitner, Grammar, Quiz)
+//
+// L.4b (Lukas, 2026-09-24): Gibt es zu einem App-Wort (schon vorher in der App)
+//   eine Prompt-Karte, wird DIESE Seite um die ganze Karte ERWEITERT
+//   ([_KartenErweiterung] unter den bisherigen Abschnitten). Von der Seite
+//   wird nichts gelöscht; sie bleibt die einzige Seite des Worts (die
+//   Karten-Route zeigt dann diese Seite). Paarung: ../data/altwort_karte.dart.
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -12,6 +18,9 @@ import '../../../core/widgets/audio_play_button.dart';
 import '../../../core/widgets/leitner_add_button.dart';
 import '../../../core/widgets/quiz_launch_button.dart';
 import '../../../features/categories/widgets/add_to_category_sheet.dart';
+import '../../vokabular/controllers/vokabular_controller.dart';
+import '../../vokabular/widgets/wort_karte_inhalt.dart';
+import '../controllers/altwort_karte_provider.dart';
 import '../controllers/word_controller.dart';
 import '../widgets/conjugation_table.dart';
 import '../../../core/widgets/vox_button.dart';
@@ -182,6 +191,9 @@ class _WordDetailView extends StatelessWidget {
               ),
             ),
 
+          // ── L.4b: Erweiterung um die Prompt-Karte (nur App-Wörter mit Karte) ──
+          _KartenErweiterung(wordId: model.id),
+
           const SizedBox(height: 100), // space for action bar
         ],
       ),
@@ -207,6 +219,41 @@ class _WordDetailView extends StatelessWidget {
           ),
         ),
       ),
+    );
+  }
+}
+
+// ── L.4b: Prompt-Karte unter den bisherigen Abschnitten ────────────────────────
+
+/// Zeigt die Prompt-Karte (SUPER-PROMPT 3.0) zu diesem App-Wort — Kopf mit
+/// Grammatikon-Symbol, IPA, Übersetzung, dann alle Abschnitte der Karte.
+/// Kein Paar (eigenes Wort, keine Karte, nicht eindeutig) ⇒ nichts.
+/// Aktionen (Leitner, Kategorie, Quiz) bleiben die bisherigen der Seite —
+/// kein zweiter Leitner-Knopf für dasselbe Wort.
+class _KartenErweiterung extends ConsumerWidget {
+  const _KartenErweiterung({required this.wordId});
+  final int wordId;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final kartenId =
+        ref.watch(altwortZuordnungProvider).valueOrNull?.wortZuKarte[wordId];
+    if (kartenId == null) return const SizedBox.shrink();
+
+    final karte = ref.watch(vokabKarteProvider(kartenId)).valueOrNull;
+    if (karte == null) return const SizedBox.shrink();
+    final byId = ref.watch(vokabIndexByIdProvider).valueOrNull ??
+        const <String, Map<String, dynamic>>{};
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        const Divider(),
+        const SizedBox(height: AppSizes.md),
+        WortKarteKopf(card: karte),
+        const SizedBox(height: AppSizes.sm),
+        WortKarteAbschnitte(card: karte, byId: byId),
+      ],
     );
   }
 }

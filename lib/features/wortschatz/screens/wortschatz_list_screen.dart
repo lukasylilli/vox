@@ -6,6 +6,10 @@
 //              volle Karten; WortCard braucht nur diese Felder.
 //          Das frühere «Vokabular-Archiv» (eigene Home/Liste) wurde hierher
 //          verschmolzen; Wort-Seite bleibt /vokabular/wort/:id.
+//          L.4b (2026-09-24): EIN Wort = EINE Zeile. Hat ein App-Wort der alten
+//          DB eine Prompt-Karte, bleibt die alte Zeile (→ alte, um die Karte
+//          erweiterte Seite); die Karten-Zeile entfällt. Paarung:
+//          ../data/altwort_karte.dart.
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -19,7 +23,9 @@ import '../../../core/widgets/filter_chip_bar.dart';
 import '../../../core/widgets/vox_search_field.dart';
 import '../../vokabular/controllers/vokabular_controller.dart';
 import '../../vokabular/widgets/wort_actions.dart';
+import '../controllers/altwort_karte_provider.dart';
 import '../controllers/word_controller.dart';
+import '../data/altwort_karte.dart';
 import '../widgets/word_list_item.dart';
 import '../../../core/widgets/vox_button.dart';
 
@@ -72,30 +78,8 @@ class _WortschatzListScreenState extends ConsumerState<WortschatzListScreen> {
       .map((t) => FilterOption(value: t.name, label: t.label))
       .toList();
 
-  /// WordType-Namen (alte DB) → Wortarten der Vokabular-Karten (Schema 3.0),
-  /// damit der bestehende Wortart-Filter beide Quellen abdeckt.
-  static const _typZuWortart = <String, Set<String>>{
-    'nomen'        : {'nomen'},
-    'verb'         : {'verb'},
-    'adjektiv'     : {'adjektiv'},
-    'praepositon'  : {'praeposition'},
-    'konnektor'    : {'konjunktion'},
-    'modalpartikel': {'partikel'},
-    'pronomen'     : {'pronomen'},
-    'zahl'         : {'numerale'},
-    'sonstige'     : {'artikel', 'adverb'},
-  };
-
-  /// Sortier-Lemma: Artikel weg, klein — so mischen sich DB-Wörter und
-  /// Vokabular-Karten alphabetisch in EINER Liste.
-  static String _lemmaKey(String wort) {
-    var w = wort.trim().toLowerCase();
-    final teile = w.split(' ');
-    if (teile.length > 1 && const {'der', 'die', 'das'}.contains(teile.first)) {
-      w = teile.sublist(1).join(' ');
-    }
-    return w;
-  }
+  // Wortart-Tabelle und Sortier-Lemma: EINE Quelle, ../data/altwort_karte.dart
+  // (altwortTypZuWortart, altwortLemma) — dieselbe, die L.4b zur Paarung nutzt.
 
   List<Map<String, dynamic>> _gefilterteKarten(
       List<Map<String, dynamic>> karten) {
@@ -108,7 +92,7 @@ class _WortschatzListScreenState extends ConsumerState<WortschatzListScreen> {
     }
     if (_selectedTypes.isNotEmpty) {
       final erlaubt = _selectedTypes
-          .expand((t) => _typZuWortart[t] ?? const <String>{})
+          .expand((t) => altwortTypZuWortart[t] ?? const <String>{})
           .toSet();
       liste = liste.where((k) => erlaubt.contains(k['wortart'])).toList();
     }
@@ -156,6 +140,10 @@ class _WortschatzListScreenState extends ConsumerState<WortschatzListScreen> {
   Widget build(BuildContext context) {
     final wordsAsync = ref.watch(allWordsProvider);
     final kartenAsync = ref.watch(vokabIndexProvider);
+    // L.4b: Karten, die zu einem alten App-Wort gehören — dessen Zeile zeigt sie.
+    final gepaart = ref.watch(altwortZuordnungProvider).valueOrNull
+            ?.karteZuWort ??
+        const <String, int>{};
     final activeMap  = _activeFilters;
 
     return Scaffold(
@@ -250,13 +238,15 @@ class _WortschatzListScreenState extends ConsumerState<WortschatzListScreen> {
 
                 // Vokabular-Karten (assets/vocab/) mit denselben Filtern.
                 final karten = _gefilterteKarten(
-                    kartenAsync.valueOrNull ?? const []);
+                        kartenAsync.valueOrNull ?? const [])
+                    .where((k) => !gepaart.containsKey(k['id']))
+                    .toList();
 
                 // Beide Quellen alphabetisch gemischt (Artikel zählt nicht).
                 final zeilen = <MapEntry<String, Object>>[
-                  for (final w in list) MapEntry(_lemmaKey(w.german), w),
+                  for (final w in list) MapEntry(altwortLemma(w.german), w),
                   for (final k in karten)
-                    MapEntry(_lemmaKey(k['wort'] as String? ?? ''), k),
+                    MapEntry(altwortLemma(k['wort'] as String? ?? ''), k),
                 ]..sort((a, b) => a.key.compareTo(b.key));
 
                 if (zeilen.isEmpty) {
