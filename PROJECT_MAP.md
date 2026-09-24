@@ -9,6 +9,7 @@
 #   جزئیات دور به دور: `git show be0c77d:PROJECT_MAP.md`.
 # دور ۳۳ (2026-09-24): L.3 آفلاین ⇒ tool/pwa/ (workbox_config.cjs · sw_bauen.cjs · offline_test.cjs) ⇒ build/web/vox_sw.js · deploy-web.yml
 #   (--pwa-strategy=none --no-web-resources-cdn + worker + تست آفلاین Chrome).
+# دور ۶۶: L.3 ✅ Lukas روی مک تأیید کرد (آفلاین کامل؛ اخبار فقط از cache قبلی، طبق rss_service.dart + cache_service.dart).
 # ⭐ دور ۶۳ (2026-09-24): اصل اول کلمه‌ها (Lukas): هر کلمه همیشه کارت + صفحه‌ی جدید؛ هیچ حذف/ادغام/هدایت/پنهان؛ تکراری‌ها فقط در آخر (L.4d، تصمیم Lukas).
 #   کد: wort_seite_screen (بدون هدایت به صفحه‌ی قبلی) · wortschatz_list_screen (بدون پنهان‌کردن) · wortschatz_home_screen (شمارش کامل) ·
 #   altwort_karte.dart/provider (فقط نمایش اضافه زیر صفحه‌ی قبلی) · test/altwort_karte_test.dart («Grundregel»، ۳۱۹ تست سبز) ·
