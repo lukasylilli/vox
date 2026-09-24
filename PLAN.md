@@ -13,7 +13,8 @@
 > قاعده‌ها، اصل‌ها، تصمیم‌ها و کارهای باز کامل ماندند. کارهای باز فقط در دو بخش پایین جمع‌اند: «🚀 قبل از انتشار» و «⏭️ بعد از انتشار».
 > متن مفصل قبل از این خلاصه: `git show a078dc2:PLAN.md` (نسخه‌ی قدیمی‌تر: `afad3ab`).
 >
-> 🗓️ **آخرین جلسه:** 2026-09-24 (دور ۳۸) — «ده کلمه جدید»: abortiv … absent (۱۰ کارت، ۰ خطا/هشدار) ⇒ آرشیو ۱۵۷ کارت.  بعدی: **absichtlich**.
+> 🗓️ **آخرین جلسه:** 2026-09-24 (دور ۳۹) — «ده کلمه جدید»: absichtlich … abtörnend (۱۰ کارت، ۰ خطا/هشدار) ⇒ آرشیو ۱۶۷ کارت.  بعدی: **abundant**.
+> قبلی: 2026-09-24 (دور ۳۸) — «ده کلمه جدید»: abortiv … absent (۱۰ کارت، ۰ خطا/هشدار) ⇒ آرشیو ۱۵۷ کارت.  بعدی: **absichtlich**.
 > قبلی: 2026-09-24 (دور ۳۷) — «ده کلمه جدید»: abhängig … aboral (۱۰ کارت، ۰ خطا/هشدار) ⇒ آرشیو ۱۴۷ کارت.  بعدی: **abortiv**.
 > قبلی: 2026-09-24 (دور ۳۶) — «ده کلمه جدید»: abgemacht … abhold (۱۰ کارت، ۰ خطا/هشدار) ⇒ آرشیو ۱۳۷ کارت.  بعدی: **abhängig**.
 > قبلی: 2026-09-24 (دور ۳۵) — «ده کلمه جدید»: abgabenfrei … abgelegen (۱۰ کارت، ۰ خطا/هشدار) ⇒ آرشیو ۱۲۷ کارت. abgefuckt mit Hinweis «vulgär». بعدی: **abgemacht**.
@@ -83,7 +84,7 @@
 
 | فهرست | انجام‌شده (آخرین کلمه) | کلمه‌ی بعدی | کنار گذاشته (منتظر Lukas) |
 |---|---|---|---|
-| ۱. `Adjektive.txt` (صفت) | aalartig · aalförmig (قبلاً) · دور ۲۸ (2026-09-23): aalglatt، aasfressend، aasig، abaissiert، abakteriell، abartig، abaxial، abbaubar، abbauwürdig، abbildbar · دور ۳۲ (2026-09-24): abbruchreif، abchasisch، abderitisch، abdingbar، abdominal، abdominell، abendfüllend، abendlich، abenteuerdurstig، abenteuerhungrig · دور ۳۴ (2026-09-24): abenteuerlich، abenteuersüchtig، abergläubisch، aberhundert، aberrant، abertausend، aberwitzig، abessinisch، abflusslos، abfällig · دور ۳۵ (2026-09-24): abgabenfrei، abgebrüht، abgefahren، abgefeimt، abgefuckt، abgehalftert، abgekartet، abgeklärt، abgekämpft، abgelegen · دور ۳۶ (2026-09-24): abgemacht، abgeneigt، abgerissen، abgeschieden، abgeschlagen، abgeschlossen، abgeschmackt، abgängig، abgöttisch، abhold · دور ۳۷ (2026-09-24): abhängig، abiotisch، abjekt، abkömmlich، ablandig، ablativisch، abnorm، abnormal، abominabel، aboral · دور ۳۸ (2026-09-24): abortiv، abrasiv، abrupt، abscheulich، abschnittsweise، abschreckend، abschätzig، abschüssig، abseitsverdächtig، **absent** | **absichtlich** | abatisch (2026-09-23) · abdikativ (2026-09-24) — معنا نامطمئن |
+| ۱. `Adjektive.txt` (صفت) | aalartig · aalförmig (قبلاً) · دور ۲۸ (2026-09-23): aalglatt، aasfressend، aasig، abaissiert، abakteriell، abartig، abaxial، abbaubar، abbauwürdig، abbildbar · دور ۳۲ (2026-09-24): abbruchreif، abchasisch، abderitisch، abdingbar، abdominal، abdominell، abendfüllend، abendlich، abenteuerdurstig، abenteuerhungrig · دور ۳۴ (2026-09-24): abenteuerlich، abenteuersüchtig، abergläubisch، aberhundert، aberrant، abertausend، aberwitzig، abessinisch، abflusslos، abfällig · دور ۳۵ (2026-09-24): abgabenfrei، abgebrüht، abgefahren، abgefeimt، abgefuckt، abgehalftert، abgekartet، abgeklärt، abgekämpft، abgelegen · دور ۳۶ (2026-09-24): abgemacht، abgeneigt، abgerissen، abgeschieden، abgeschlagen، abgeschlossen، abgeschmackt، abgängig، abgöttisch، abhold · دور ۳۷ (2026-09-24): abhängig، abiotisch، abjekt، abkömmlich، ablandig، ablativisch، abnorm، abnormal، abominabel، aboral · دور ۳۸ (2026-09-24): abortiv، abrasiv، abrupt، abscheulich، abschnittsweise، abschreckend، abschätzig، abschüssig، abseitsverdächtig، absent · دور ۳۹ (2026-09-24): absichtlich، absolut، absolutistisch، abstinent، abstrakt، abstrus، absurd، abträglich، abtrünnig، **abtörnend** | **abundant** | abatisch (2026-09-23) · abdikativ (2026-09-24) — معنا نامطمئن |
 | ۲. `Verben_unregelmaeßig_Infinitiv.txt` (فعل بی‌قاعده) | — | abbacken | — |
 | ۳. `Verben_regelmaesig.txt` (فعل باقاعده) | — | aalen | — |
 | ۴. `substantiv_singular_alle.txt` (اسم) | — | Aachen | — |
@@ -94,7 +95,7 @@
 - ⛔ **قبل از شروع اسم‌ها (فهرست ۴) حتماً از Lukas بپرس:** اسم‌هایی که آرتیکل ندارند (بیشتر نام شهرها و کشورها، مثل Aachen) چطور ساخته شوند — تصمیم Lukas: «وقتی به اسم‌ها رسیدیم، قبلش دوباره سؤال کن».
 - ⚠️ برای اسم‌ها: `substantiv_singular_alle.txt` بدون آرتیکل است ⇒ genus از `substantiv_singular_der/die/das.txt`؛ نام‌های خاص (شهر/کشور، مثل Aachen) هم در فهرست‌اند — وقتی رسیدیم، همان قاعده‌ی پرامپت (مطمئن نیستی ⇒ نساز) و گزارش به Lukas.
 - ✅ **Wortart غلط در فهرست (2026-09-24 دور ۳۴):** aberhundert و abertausend در Adjektive.txt هستند ولی طبق Duden «unbestimmtes Zahlwort»اند ⇒ کارت در `assets/vocab/numerale/` ساخته شد و در `wortartKorrektur` (`tool/naechste_woerter.dart`) ثبت شد تا ابزار آن‌ها را ساخته‌شده بشناسد. قاعده: Wortart درست (Duden) مهم‌تر از برچسب فهرست است؛ هر مورد تازه همان‌جا ثبت شود.
-- کارت‌های دیگر آرشیو (افعال Dativ و …) از deckها آمده‌اند، نه از این فهرست‌ها. کل آرشیو: **۱۵۷ کارت** (2026-09-24).
+- کارت‌های دیگر آرشیو (افعال Dativ و …) از deckها آمده‌اند، نه از این فهرست‌ها. کل آرشیو: **۱۶۷ کارت** (2026-09-24).
 
 ## INHALTSVERZEICHNIS (فهرست مطالب)
 
