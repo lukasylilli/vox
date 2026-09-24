@@ -21,6 +21,7 @@ final altwortZuordnungProvider = FutureProvider<AltwortZuordnung>((ref) async {
         german: w.german,
         wordType: w.wordType,
         ausApp: w.ausApp == true,
+        grammarNote: w.grammarNote,
       ),
   ], karten);
 });

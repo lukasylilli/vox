@@ -12,12 +12,23 @@
 //
 // PAARUNG — nie geraten (Projektregel 3: lieber kein Paar als ein falsches):
 //   · nur App-Wörter (`ausApp`), nie eigene Wörter des Nutzers;
-//   · Lemma exakt gleich (Artikel und Groß/Klein zählen nicht);
+//   · Lemma exakt gleich (Artikel und Groß/Klein zählen nicht); bei Einträgen
+//     «Wort + feste Präposition» aus dem Präpositionen-Deck («warten auf»,
+//     grammarNote «auf + Akk») zählt das Wort ohne Präposition — aber NUR,
+//     wenn die Präposition genau so in grammarNote steht (L.4b-2, Lukas
+//     2026-09-24);
 //   · Wortart verträglich laut [altwortTypZuWortart];
-//   · eindeutig in BEIDE Richtungen — passt ein altes Wort auf zwei Karten
-//     oder zwei alte Wörter auf eine Karte, entsteht kein Paar.
-//   Beispiele: «helfen|verb» ↔ verb_helfen ✓ · «der|konnektor» ↔ artikel_der ✗
-//   (andere Wortart) · «denken an|verb» ✗ (Lemma mit Präposition ≠ «denken»).
+//   · je altem Wort genau EINE passende Karte, sonst kein Paar;
+//   · eine Karte darf zu MEHREREN alten Seiten gehören (L.4b-2: «vertrauen»,
+//     «vertrauen auf», «vertrauen in») — sie erscheint dann unter JEDER davon
+//     (eine Karte, mehrere Türen). Nur zwei alte Einträge OHNE Präposition für
+//     dieselbe Karte gelten als unklar ⇒ die Karte wird gar nicht gepaart.
+//   · Ziel eines Links auf die Karte (Wortnetz, Popup …): die alte Seite ohne
+//     Präposition; gibt es die nicht, die einzige mit Präposition; bei mehreren
+//     die alphabetisch erste (alle zeigen dieselbe Karte).
+//   Beispiele: «helfen|verb» ↔ verb_helfen ✓ · «warten auf|verb» ↔ verb_warten ✓
+//   · «der|konnektor» ↔ artikel_der ✗ (andere Wortart) · «sich bedanken bei» ✗
+//   (Reflexiv-Lemma mit «sich» — erst klären, wenn Verbkarten kommen).
 //
 // WORT ODER AUSDRUCK? (Lukas, 2026-09-24 — sehr wichtig, PLAN → «📚 روال» 🔒🔒)
 //   · Wort (auch Wort + feste Präposition: «denken an») ⇒ alte Seite wird
@@ -62,11 +73,15 @@ class AltwortEintrag {
     required this.german,
     required this.wordType,
     required this.ausApp,
+    this.grammarNote,
   });
 
   final int id;
   final String german;
   final String wordType;
+
+  /// Präpositionen-Deck: «`präp` + `Kasus`» (siehe DataSeedService).
+  final String? grammarNote;
 
   /// true = mitgeliefertes App-Wort; false/null = eigenes Wort des Nutzers.
   final bool ausApp;
@@ -81,11 +96,26 @@ class AltwortZuordnung {
 
   static const leer = AltwortZuordnung(karteZuWort: {}, wortZuKarte: {});
 
-  /// Karten-id → id des alten Worts (drift).
+  /// Karten-id → id der alten Seite, auf die ein Link zur Karte führt.
+  /// Enthält jede gepaarte Karte genau einmal.
   final Map<String, int> karteZuWort;
 
-  /// id des alten Worts (drift) → Karten-id.
+  /// id des alten Worts (drift) → Karten-id. Mehrere alte Wörter können
+  /// dieselbe Karte haben (L.4b-2).
   final Map<int, String> wortZuKarte;
+}
+
+/// Lemma eines alten Eintrags für die Paarung: «warten auf» mit grammarNote
+/// «auf + Akk» ⇒ «warten». Ohne passende grammarNote bleibt alles, wie es ist
+/// (Ausdrücke wie «eine Entscheidung treffen» werden so nie gekürzt).
+String altwortPaarLemma(String german, String? grammarNote) {
+  final lemma = altwortLemma(german);
+  final note = grammarNote?.trim() ?? '';
+  if (!note.contains('+')) return lemma;
+  final praep = note.split('+').first.trim().toLowerCase();
+  final teile = lemma.split(' ');
+  if (praep.isEmpty || teile.length < 2 || teile.last != praep) return lemma;
+  return teile.sublist(0, teile.length - 1).join(' ');
 }
 
 /// Paart alte App-Wörter mit Karten (Index-Einträge oder volle Karten —
@@ -102,26 +132,35 @@ AltwortZuordnung altwortZuordnen(
     kartenNachLemma.putIfAbsent(lemma, () => []).add(k);
   }
 
-  final kandidat = <int, String>{};
-  final wieOftKarte = <String, int>{};
+  // Karte → alte Einträge (mit/ohne Präposition getrennt).
+  final ohnePraep = <String, List<AltwortEintrag>>{};
+  final mitPraep = <String, List<AltwortEintrag>>{};
   for (final w in woerter) {
     if (!w.ausApp) continue;
     final erlaubt = altwortTypZuWortart[w.wordType] ?? const <String>{};
-    final treffer = (kartenNachLemma[altwortLemma(w.german)] ?? const [])
+    final lemma = altwortPaarLemma(w.german, w.grammarNote);
+    final treffer = (kartenNachLemma[lemma] ?? const [])
         .where((k) => erlaubt.contains(k['wortart']))
         .toList();
     if (treffer.length != 1) continue;
     final kartenId = treffer.single['id'] as String;
-    kandidat[w.id] = kartenId;
-    wieOftKarte[kartenId] = (wieOftKarte[kartenId] ?? 0) + 1;
+    final ziel = lemma == altwortLemma(w.german) ? ohnePraep : mitPraep;
+    ziel.putIfAbsent(kartenId, () => []).add(w);
   }
 
   final karteZuWort = <String, int>{};
   final wortZuKarte = <int, String>{};
-  kandidat.forEach((wortId, kartenId) {
-    if (wieOftKarte[kartenId] != 1) return;
-    karteZuWort[kartenId] = wortId;
-    wortZuKarte[wortId] = kartenId;
-  });
+  for (final kartenId in {...ohnePraep.keys, ...mitPraep.keys}) {
+    final ohne = ohnePraep[kartenId] ?? const <AltwortEintrag>[];
+    if (ohne.length > 1) continue; // unklar ⇒ kein Paar
+    final mit = [
+      ...?mitPraep[kartenId],
+    ]..sort((a, b) => a.german.toLowerCase().compareTo(b.german.toLowerCase()));
+    final alle = [...ohne, ...mit];
+    karteZuWort[kartenId] = alle.first.id; // ohne Präposition zuerst
+    for (final w in alle) {
+      wortZuKarte[w.id] = kartenId;
+    }
+  }
   return AltwortZuordnung(karteZuWort: karteZuWort, wortZuKarte: wortZuKarte);
 }

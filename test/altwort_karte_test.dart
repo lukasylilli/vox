@@ -60,13 +60,78 @@ void main() {
       expect(z.karteZuWort, isEmpty);
     });
 
-    test('Lemma mit Präposition ⇒ kein Paar mit dem blanken Verb', () {
+    test(
+      'Wort + feste Präposition (L.4b-2) ⇒ Paar nur mit passender grammarNote',
+      () {
+        final mit = altwortZuordnen(
+          [
+            const AltwortEintrag(
+              id: 6,
+              german: 'warten auf',
+              wordType: 'verb',
+              ausApp: true,
+              grammarNote: 'auf + Akk',
+            ),
+          ],
+          [_k('verb_warten', 'warten', 'verb')],
+        );
+        expect(mit.wortZuKarte, {6: 'verb_warten'});
+        expect(mit.karteZuWort, {'verb_warten': 6});
+
+        // ohne grammarNote (z. B. NVV-Ausdruck) wird nie gekürzt
+        final ohne = altwortZuordnen(
+          [_w(7, 'denken an', 'verb')],
+          [_k('verb_denken', 'denken', 'verb')],
+        );
+        expect(ohne.karteZuWort, isEmpty);
+      },
+    );
+
+    test('Ausdruck (NVV) wird nie mit der Wortkarte gepaart (L.4c)', () {
       final z = altwortZuordnen(
-        [_w(6, 'denken an', 'verb')],
-        [_k('verb_denken', 'denken', 'verb')],
+        [_w(8, 'eine Entscheidung treffen', 'sonstige')],
+        [_k('nomen_entscheidung', 'die Entscheidung', 'nomen')],
       );
       expect(z.karteZuWort, isEmpty);
     });
+
+    test(
+      'eine Karte unter mehreren alten Seiten; Link ⇒ Seite ohne Präposition',
+      () {
+        AltwortEintrag p(int id, String g, String note) => AltwortEintrag(
+          id: id,
+          german: g,
+          wordType: 'verb',
+          ausApp: true,
+          grammarNote: note,
+        );
+        final z = altwortZuordnen(
+          [
+            p(12, 'vertrauen in', 'in + Akk'),
+            p(11, 'vertrauen auf', 'auf + Akk'),
+            _w(10, 'vertrauen', 'verb'),
+          ],
+          [_k('verb_vertrauen', 'vertrauen', 'verb')],
+        );
+        expect(z.wortZuKarte, {
+          10: 'verb_vertrauen',
+          11: 'verb_vertrauen',
+          12: 'verb_vertrauen',
+        });
+        expect(z.karteZuWort, {'verb_vertrauen': 10});
+
+        // ohne Seite ohne Präposition ⇒ alphabetisch erste
+        final nurMit = altwortZuordnen(
+          [
+            p(21, 'arbeiten bei', 'bei + Dat'),
+            p(20, 'arbeiten an', 'an + Dat'),
+          ],
+          [_k('verb_arbeiten', 'arbeiten', 'verb')],
+        );
+        expect(nurMit.karteZuWort, {'verb_arbeiten': 20});
+        expect(nurMit.wortZuKarte.length, 2);
+      },
+    );
 
     test('nicht eindeutig ⇒ kein Paar', () {
       // zwei Karten passen auf ein Wort (sonstige ⇒ artikel ODER adverb)
@@ -95,6 +160,40 @@ void main() {
       final i = zeile.lastIndexOf('|');
       woerter.add(_w(++id, zeile.substring(0, i), zeile.substring(i + 1)));
     }
+    // Präpositionen-Deck mit grammarNote wie DataSeedService (L.4b-2).
+    final praep =
+        (jsonDecode(
+                  File(
+                    'assets/data/praepositionen_data.json',
+                  ).readAsStringSync(),
+                )
+                as List)
+            .cast<Map<String, dynamic>>();
+    final mitNote = <String>{};
+    for (final c in praep) {
+      for (final m in (c['members'] as List).cast<Map<String, dynamic>>()) {
+        final g = '${m['lemma']} ${m['preposition']}';
+        if (!mitNote.add(g)) continue;
+        woerter.add(
+          AltwortEintrag(
+            id: ++id,
+            german: g,
+            wordType: switch ((m['word_class'] as String? ?? '')
+                .toLowerCase()) {
+              'verb' => 'verb',
+              'noun' => 'nomen',
+              'adjective' => 'adjektiv',
+              _ => 'sonstige',
+            },
+            ausApp: true,
+            grammarNote: '${m['preposition']} + ${m['case'] ?? ''}',
+          ),
+        );
+      }
+    }
+    woerter.removeWhere(
+      (w) => w.grammarNote == null && mitNote.contains(w.german),
+    );
     final karten = <Map<String, dynamic>>[
       for (final f in Directory('assets/vocab').listSync(recursive: true))
         if (f is File && f.path.endsWith('.json'))
@@ -108,6 +207,9 @@ void main() {
     );
     expect(z.karteZuWort, isNot(contains('artikel_der')));
     expect(z.karteZuWort, isNot(contains('partikel_doch')));
-    expect(z.karteZuWort.length, z.wortZuKarte.length);
+    // L.4b-2: «warten auf» / «stolz auf» hängen an ihrer Karte.
+    expect(z.karteZuWort.keys, containsAll(['verb_warten', 'adjektiv_stolz']));
+    // jede Karte hat genau ein Linkziel, und das zeigt auch auf sie zurück
+    z.karteZuWort.forEach((karte, wort) => expect(z.wortZuKarte[wort], karte));
   });
 }
