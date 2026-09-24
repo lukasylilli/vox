@@ -1,0 +1,143 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_abnorm",
+  "wort": "abnorm",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "غیرعادی",
+      "نابهنجار"
+    ],
+    "en": [
+      "abnormal",
+      "anomalous"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Wissenschaft"
+  ],
+  "ipa": "apˈnɔʁm",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Wert ist abnorm hoch.",
+      "uebersetzung": {
+        "fa": "این مقدار به‌طور غیرعادی بالاست.",
+        "en": "The value is abnormally high."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Arzt ließ weitere Tests machen, weil die Blutwerte des Patienten abnorm waren.",
+      "uebersetzung": {
+        "fa": "پزشک آزمایش‌های بیشتری داد، چون آزمایش خون بیمار غیرعادی بود.",
+        "en": "The doctor ordered more tests because the patient's blood values were abnormal."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anormal",
+      "uebersetzung": {
+        "fa": "غیرعادی",
+        "en": "abnormal"
+      }
+    },
+    {
+      "wort": "ungewöhnlich",
+      "uebersetzung": {
+        "fa": "غیرمعمول",
+        "en": "unusual"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "normal",
+      "uebersetzung": {
+        "fa": "عادی",
+        "en": "normal"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (دور از) + Norm (هنجار)",
+    "en": "ab- (away from) + Norm (norm)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "abnorm",
+      "komparativ": "abnormer",
+      "superlativ": "am abnormsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein abnormer Befund",
+      "die abnorme Hitze"
+    ],
+    "gegensatzpaar": "abnorm ↔ normal"
+  },
+  "wortnetz": {
+    "grundwort": "Norm",
+    "woerter": [
+      {
+        "wort": "normal",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عادی",
+          "en": "normal"
+        },
+        "id_ref": "adjektiv_normal"
+      },
+      {
+        "wort": "ungewöhnlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "غیرمعمول",
+          "en": "unusual"
+        },
+        "id_ref": "adjektiv_ungewoehnlich"
+      },
+      {
+        "wort": "die Norm",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "هنجار، استاندارد",
+          "en": "norm"
+        },
+        "id_ref": "nomen_norm"
+      },
+      {
+        "wort": "der Befund",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نتیجه‌ی معاینه",
+          "en": "findings"
+        },
+        "id_ref": "nomen_befund"
+      },
+      {
+        "wort": "anormal",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "غیرعادی",
+          "en": "abnormal"
+        },
+        "id_ref": "adjektiv_anormal"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

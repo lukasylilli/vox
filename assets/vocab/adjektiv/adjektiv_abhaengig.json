@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_abhaengig",
+  "wort": "abhängig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "وابسته",
+      "بستگی داشتن (به)",
+      "معتاد"
+    ],
+    "en": [
+      "dependent",
+      "depending (on)",
+      "addicted"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Gesundheit",
+    "Arbeit"
+  ],
+  "ipa": "ˈaphɛŋɪç",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das ist vom Wetter abhängig.",
+      "uebersetzung": {
+        "fa": "این به هوا بستگی دارد.",
+        "en": "That depends on the weather."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Viele junge Leute sind so abhängig von ihrem Handy, dass sie es keine Stunde weglegen können.",
+      "uebersetzung": {
+        "fa": "خیلی از جوان‌ها آن‌قدر به گوشی‌شان وابسته‌اند که یک ساعت هم نمی‌توانند کنارش بگذارند.",
+        "en": "Many young people are so dependent on their phone that they can't put it down for an hour."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "angewiesen",
+      "uebersetzung": {
+        "fa": "نیازمند، متکی",
+        "en": "reliant"
+      }
+    },
+    {
+      "wort": "süchtig",
+      "uebersetzung": {
+        "fa": "معتاد",
+        "en": "addicted"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "unabhängig",
+      "uebersetzung": {
+        "fa": "مستقل",
+        "en": "independent"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "drogenabhängig",
+      "uebersetzung": {
+        "fa": "معتاد به مواد مخدر",
+        "en": "drug-addicted"
+      }
+    },
+    {
+      "wort": "altersabhängig",
+      "uebersetzung": {
+        "fa": "وابسته به سن",
+        "en": "age-dependent"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "ab- (از) + hängen (آویزان بودن) + -ig",
+    "en": "ab- (from) + hängen (to hang) + -ig"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "abhängig",
+      "komparativ": "abhängiger",
+      "superlativ": "am abhängigsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "abhängig von + Dat",
+        "beispiel": "Die Kinder sind finanziell von ihren Eltern abhängig.",
+        "uebersetzung": {
+          "fa": "بچه‌ها از نظر مالی به پدر و مادرشان وابسته‌اند.",
+          "en": "The children are financially dependent on their parents."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein abhängiger Nebensatz",
+      "die abhängige Person"
+    ],
+    "gegensatzpaar": "abhängig ↔ unabhängig"
+  },
+  "wortnetz": {
+    "grundwort": "hängen",
+    "woerter": [
+      {
+        "wort": "hängen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آویزان بودن",
+          "en": "to hang"
+        },
+        "id_ref": "verb_haengen"
+      },
+      {
+        "wort": "unabhängig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مستقل",
+          "en": "independent"
+        },
+        "id_ref": "adjektiv_unabhaengig"
+      },
+      {
+        "wort": "abhängen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بستگی داشتن",
+          "en": "to depend"
+        },
+        "id_ref": "verb_abhaengen"
+      },
+      {
+        "wort": "die Abhängigkeit",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "وابستگی، اعتیاد",
+          "en": "dependence"
+        },
+        "id_ref": "nomen_abhaengigkeit"
+      },
+      {
+        "wort": "süchtig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "معتاد",
+          "en": "addicted"
+        },
+        "id_ref": "adjektiv_suechtig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
