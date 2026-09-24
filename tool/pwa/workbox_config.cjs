@@ -35,6 +35,7 @@ const PFLICHT = [
   'main.dart.js',
   'manifest.json',
   'locale_guard.js',
+  'telegram_guard.js',
   'drift_worker.js',
   'sqlite3.wasm',
   'canvaskit/canvaskit.js',

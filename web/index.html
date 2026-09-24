@@ -42,6 +42,11 @@
   <!-- Muss VOR flutter_bootstrap.js laufen: bereinigt ungültige Browsersprachen
        (z. B. "en-US@posix"), an denen die Flutter-Engine sonst beim Start abstürzt. -->
   <script src="locale_guard.js"></script>
+  <!-- Muss VOR flutter_bootstrap.js laufen: Telegram-Mini-App hängt
+       "#tgWebAppData=…" an die Adresse, go_router läse das als Seite
+       (GoException). Nur dann: Telegram-SDK laden, danach Adresse säubern.
+       Normale Browser-/PWA-Starts bleiben unberührt. (L.3c) -->
+  <script src="telegram_guard.js"></script>
   <script src="flutter_bootstrap.js" async></script>
   <!-- L.3 Offline: eigener Service Worker vox_sw.js — entsteht beim Bauen mit
        Workbox (tool/pwa/). Flutters eigener Worker ist abgeschaltet

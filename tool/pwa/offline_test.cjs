@@ -7,6 +7,8 @@
 //  3. jede Datei des Vorab-Pakets    ⇒ muss offline kommen (auch nie geöffnete
 //     Seiten: Lerninhalte, Bilder …)
 //  4. neues Fenster, Netz weiter AUS ⇒ VOX muss starten ("App zu, wieder auf")
+//  5. Start-Adressen (L.3c): Telegram-Mini-App (`#tgWebAppData=…`) ⇒ Startseite
+//     ohne Router-Fehler; `#/` und `#/wortschatz` wie bisher
 //
 // "VOX steht" = die Ladeanzeige #vox-loading ist weg; die entfernt erst
 // main.dart nach dem ersten Bild (lib/core/utils/html_loader.dart).
@@ -68,6 +70,27 @@ async function vox_steht(page, wo) {
   }
 }
 
+// Öffnet BASIS+hash in einem neuen Fenster; VOX muss starten, die Adresse
+// danach `erwartet` erfüllen und go_router darf keinen „no routes"-Fehler melden.
+async function adresse_pruefen(context, hash, erwartet, wo) {
+  const p = await context.newPage();
+  const meldungen = [];
+  p.on('console', (m) => meldungen.push(m.text()));
+  p.on('pageerror', (e) => meldungen.push(e.message));
+  try {
+    await p.goto(BASIS + hash);
+    if (!(await vox_steht(p, wo))) return;
+    await p.waitForTimeout(1000); // Router hat den ersten Pfad sicher gelesen
+    const h = await p.evaluate(() => location.hash);
+    const routerFehler = meldungen.filter((m) => /GoException|no routes for location/i.test(m));
+    if (routerFehler.length) return fehler(`${wo}: Router-Fehler: ${routerFehler[0]}`);
+    if (!erwartet(h)) return fehler(`${wo}: Adresse danach ${JSON.stringify(h)}`);
+    console.log(`✅ ${wo} (Adresse danach ${JSON.stringify(h)})`);
+  } finally {
+    await p.close();
+  }
+}
+
 async function main() {
   const srv = server();
   const browser = await chromium.launch(
@@ -113,7 +136,20 @@ async function main() {
     // 4. neues Fenster, weiter offline
     const page2 = await context.newPage();
     await page2.goto(BASIS);
-    await vox_steht(page2, 'neues Fenster offline');
+    if (!(await vox_steht(page2, 'neues Fenster offline'))) return;
+
+    // 5. Start-Adressen (L.3c, web/telegram_guard.js) — je ein NEUES Fenster,
+    //    sonst wäre es nur ein Hash-Wechsel ohne Neustart. Weiter offline:
+    //    so hängt die Prüfung nicht an telegram.org (das SDK scheitert, das
+    //    Säubern muss trotzdem laufen).
+    await adresse_pruefen(context, '#tgWebAppData=test&tgWebAppVersion=7.0',
+      (h) => h.indexOf('tgWebAppData') < 0, 'Telegram-Start ⇒ Startseite');
+    await adresse_pruefen(context, '#/wortschatz?tgWebAppData=test',
+      (h) => h.startsWith('#/wortschatz') && h.indexOf('tgWebAppData') < 0, 'Telegram-Start mit Pfad ⇒ Pfad bleibt');
+    await adresse_pruefen(context, '#/',
+      (h) => h === '#/' || h === '', 'normaler Start #/');
+    await adresse_pruefen(context, '#/wortschatz',
+      (h) => h.startsWith('#/wortschatz'), 'normaler Start #/wortschatz');
   } finally {
     await browser.close();
     srv.close();
