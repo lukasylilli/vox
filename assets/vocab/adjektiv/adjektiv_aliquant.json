@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_aliquant",
+  "wort": "aliquant",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "ناشمارنده (بخش‌کننده با باقی‌مانده)"
+    ],
+    "en": [
+      "aliquant"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik"
+  ],
+  "ipa": "aliˈkvant",
+  "anmerkung": "Fachsprache Mathematik, selten.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Drei ist ein aliquanter Teil von zehn.",
+      "uebersetzung": {
+        "fa": "سه بخش ناشمارنده‌ی ده است.",
+        "en": "Three is an aliquant part of ten."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ein Teil heißt aliquant, wenn er nicht ohne Rest in der ganzen Zahl aufgeht.",
+      "uebersetzung": {
+        "fa": "بخشی را ناشمارنده می‌گویند که بدون باقی‌مانده در عدد کامل نگنجد.",
+        "en": "A part is called aliquant if it does not go into the whole number without a remainder."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "aliquot",
+      "uebersetzung": {
+        "fa": "شمارنده",
+        "en": "aliquot"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. aliquantus (تا اندازه‌ای، نسبتاً)",
+    "en": "Latin aliquantus (somewhat, considerable)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "aliquant",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein aliquanter Teil",
+      "die aliquante Zahl"
+    ],
+    "gegensatzpaar": "aliquant ↔ aliquot"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Zahl",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عدد",
+          "en": "number"
+        },
+        "id_ref": "nomen_zahl"
+      },
+      {
+        "wort": "teilen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تقسیم کردن",
+          "en": "to divide"
+        },
+        "id_ref": "verb_teilen"
+      },
+      {
+        "wort": "der Rest",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "باقی‌مانده",
+          "en": "remainder"
+        },
+        "id_ref": "nomen_rest"
+      },
+      {
+        "wort": "der Teiler",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مقسوم‌علیه",
+          "en": "divisor"
+        },
+        "id_ref": "nomen_teiler"
+      },
+      {
+        "wort": "aliquot",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "شمارنده",
+          "en": "aliquot"
+        },
+        "id_ref": "adjektiv_aliquot"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

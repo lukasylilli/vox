@@ -1,0 +1,120 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_akephal",
+  "wort": "akephal",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "بی‌سر",
+      "بی‌آغاز (متن)"
+    ],
+    "en": [
+      "acephalous",
+      "lacking its beginning"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Literatur",
+    "Wissenschaft"
+  ],
+  "ipa": "akeˈfaːl",
+  "anmerkung": "Fachsprache: Literatur (Werk ohne erhaltenen Anfang), Verslehre (Vers ohne erste Silbe), Biologie (ohne Kopf). Auch: akephalisch.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der alte Text ist akephal.",
+      "uebersetzung": {
+        "fa": "این متن قدیمی آغاز ندارد.",
+        "en": "The old text is acephalous."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Handschrift ist akephal, weil die ersten Seiten im Laufe der Jahrhunderte verloren gingen.",
+      "uebersetzung": {
+        "fa": "این دست‌نوشته آغاز ندارد، چون صفحه‌های اولش در طول قرن‌ها از بین رفته‌اند.",
+        "en": "The manuscript is acephalous because the first pages were lost over the centuries."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "griech. a- (بی) + kephalē (سر)",
+    "en": "Greek a- (without) + kephalē (head)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "akephal",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein akephaler Text",
+      "die akephale Handschrift"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Kopf",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سر",
+          "en": "head"
+        },
+        "id_ref": "nomen_kopf"
+      },
+      {
+        "wort": "der Anfang",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آغاز",
+          "en": "beginning"
+        },
+        "id_ref": "nomen_anfang"
+      },
+      {
+        "wort": "der Text",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "متن",
+          "en": "text"
+        },
+        "id_ref": "nomen_text"
+      },
+      {
+        "wort": "der Vers",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مصراع",
+          "en": "verse, line"
+        },
+        "id_ref": "nomen_vers"
+      },
+      {
+        "wort": "die Handschrift",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دست‌نوشته",
+          "en": "manuscript"
+        },
+        "id_ref": "nomen_handschrift"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

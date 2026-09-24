@@ -1,0 +1,128 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_alimentaer",
+  "wort": "alimentär",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "تغذیه‌ای",
+      "ناشی از تغذیه"
+    ],
+    "en": [
+      "alimentary",
+      "nutritional"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Ernährung"
+  ],
+  "ipa": "alimɛnˈtɛːɐ̯",
+  "anmerkung": "Fachsprache Medizin.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Ursache ist alimentär.",
+      "uebersetzung": {
+        "fa": "علت آن تغذیه‌ای است.",
+        "en": "The cause is nutritional."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ärzte sprechen von alimentärem Übergewicht, wenn es hauptsächlich durch zu viel Essen entsteht.",
+      "uebersetzung": {
+        "fa": "پزشکان وقتی از اضافه‌وزن تغذیه‌ای حرف می‌زنند که عمدتاً از پرخوری ناشی شود.",
+        "en": "Doctors speak of alimentary overweight when it is mainly caused by eating too much."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ernährungsbedingt",
+      "uebersetzung": {
+        "fa": "ناشی از تغذیه",
+        "en": "diet-related"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. alimentum (غذا) + -är",
+    "en": "Latin alimentum (food) + -är"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "alimentär",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine alimentäre Ursache",
+      "das alimentäre Übergewicht"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "essen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوردن",
+          "en": "to eat"
+        },
+        "id_ref": "verb_essen"
+      },
+      {
+        "wort": "der Magen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "معده",
+          "en": "stomach"
+        },
+        "id_ref": "nomen_magen"
+      },
+      {
+        "wort": "die Ernährung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تغذیه",
+          "en": "nutrition"
+        },
+        "id_ref": "nomen_ernaehrung"
+      },
+      {
+        "wort": "die Nahrung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "غذا، خوراک",
+          "en": "food"
+        },
+        "id_ref": "nomen_nahrung"
+      },
+      {
+        "wort": "die Verdauung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گوارش",
+          "en": "digestion"
+        },
+        "id_ref": "nomen_verdauung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

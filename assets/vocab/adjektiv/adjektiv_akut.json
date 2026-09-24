@@ -1,0 +1,143 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_akut",
+  "wort": "akut",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "حاد",
+      "فوری"
+    ],
+    "en": [
+      "acute",
+      "urgent"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Medizin",
+    "Gesundheit"
+  ],
+  "ipa": "aˈkuːt",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Gefahr ist akut.",
+      "uebersetzung": {
+        "fa": "خطر فوری است.",
+        "en": "The danger is acute."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn die Schmerzen akut werden, sollten Sie sofort in die Notaufnahme kommen.",
+      "uebersetzung": {
+        "fa": "اگر دردها حاد شدند، باید فوراً به اورژانس بیایید.",
+        "en": "If the pain becomes acute, you should come to the emergency department immediately."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "dringend",
+      "uebersetzung": {
+        "fa": "فوری",
+        "en": "urgent"
+      }
+    },
+    {
+      "wort": "plötzlich",
+      "uebersetzung": {
+        "fa": "ناگهانی",
+        "en": "sudden"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "chronisch",
+      "uebersetzung": {
+        "fa": "مزمن",
+        "en": "chronic"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. acutus (تیز)",
+    "en": "Latin acutus (sharp)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "akut",
+      "komparativ": "akuter",
+      "superlativ": "am akutesten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine akute Entzündung",
+      "der akute Mangel"
+    ],
+    "gegensatzpaar": "akut ↔ chronisch"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Gefahr",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خطر",
+          "en": "danger"
+        },
+        "id_ref": "nomen_gefahr"
+      },
+      {
+        "wort": "dringend",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فوری",
+          "en": "urgent"
+        },
+        "id_ref": "adjektiv_dringend"
+      },
+      {
+        "wort": "der Notfall",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وضعیت اضطراری",
+          "en": "emergency"
+        },
+        "id_ref": "nomen_notfall"
+      },
+      {
+        "wort": "chronisch",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مزمن",
+          "en": "chronic"
+        },
+        "id_ref": "adjektiv_chronisch"
+      },
+      {
+        "wort": "die Notaufnahme",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اورژانس",
+          "en": "emergency department"
+        },
+        "id_ref": "nomen_notaufnahme"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

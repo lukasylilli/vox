@@ -1,0 +1,128 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_akustisch",
+  "wort": "akustisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "صوتی",
+      "شنیداری"
+    ],
+    "en": [
+      "acoustic",
+      "auditory"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Musik",
+    "Technik"
+  ],
+  "ipa": "aˈkʊstɪʃ",
+  "anmerkung": "«jemanden akustisch nicht verstehen» = ihn wegen Lärm oder schlechter Verbindung nicht hören können.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich habe dich akustisch nicht verstanden.",
+      "uebersetzung": {
+        "fa": "صدایت را درست نشنیدم.",
+        "en": "I didn't catch what you said."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil der Saal akustisch sehr gut ist, braucht der Sänger kein Mikrofon.",
+      "uebersetzung": {
+        "fa": "چون سالن از نظر صوتی خیلی خوب است، خواننده به میکروفون نیاز ندارد.",
+        "en": "Because the hall has very good acoustics, the singer doesn't need a microphone."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "klanglich",
+      "uebersetzung": {
+        "fa": "از نظر صدا",
+        "en": "tonal, sound-wise"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Akustik (صداشناسی، از یونانی akouein: شنیدن) + -isch",
+    "en": "Akustik (acoustics, from Greek akouein: to hear) + -isch"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "akustisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein akustisches Signal",
+      "die akustische Gitarre"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Akustik",
+    "woerter": [
+      {
+        "wort": "hören",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شنیدن",
+          "en": "to hear"
+        },
+        "id_ref": "verb_hoeren"
+      },
+      {
+        "wort": "laut",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بلند (صدا)",
+          "en": "loud"
+        },
+        "id_ref": "adjektiv_laut"
+      },
+      {
+        "wort": "der Ton",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صدا، لحن",
+          "en": "sound, tone"
+        },
+        "id_ref": "nomen_ton"
+      },
+      {
+        "wort": "das Geräusch",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صدا (غیرموسیقایی)",
+          "en": "noise"
+        },
+        "id_ref": "nomen_geraeusch"
+      },
+      {
+        "wort": "die Akustik",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آکوستیک",
+          "en": "acoustics"
+        },
+        "id_ref": "nomen_akustik"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

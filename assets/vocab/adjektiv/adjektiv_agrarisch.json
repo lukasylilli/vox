@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_agrarisch",
+  "wort": "agrarisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "کشاورزی",
+      "زراعی"
+    ],
+    "en": [
+      "agrarian",
+      "agricultural"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Landwirtschaft",
+    "Wirtschaft"
+  ],
+  "ipa": "aˈɡʁaːʁɪʃ",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Region ist agrarisch geprägt.",
+      "uebersetzung": {
+        "fa": "این منطقه خصلتی کشاورزی دارد.",
+        "en": "The region is agricultural in character."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Obwohl das Land früher agrarisch geprägt war, arbeiten heute die meisten Menschen in der Industrie.",
+      "uebersetzung": {
+        "fa": "با این‌که این کشور قبلاً کشاورزی‌محور بود، امروز بیشتر مردم در صنعت کار می‌کنند.",
+        "en": "Although the country used to be agricultural, today most people work in industry."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "landwirtschaftlich",
+      "uebersetzung": {
+        "fa": "کشاورزی",
+        "en": "agricultural"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "industriell",
+      "uebersetzung": {
+        "fa": "صنعتی",
+        "en": "industrial"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. ager (مزرعه) ⇒ Agrar- + -isch",
+    "en": "Latin ager (field) ⇒ Agrar- + -isch"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "agrarisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein agrarisches Land",
+      "die agrarische Produktion"
+    ],
+    "gegensatzpaar": "agrarisch ↔ industriell"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Bauer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کشاورز",
+          "en": "farmer"
+        },
+        "id_ref": "nomen_bauer"
+      },
+      {
+        "wort": "das Feld",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مزرعه، کشتزار",
+          "en": "field"
+        },
+        "id_ref": "nomen_feld"
+      },
+      {
+        "wort": "die Landwirtschaft",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کشاورزی",
+          "en": "agriculture"
+        },
+        "id_ref": "nomen_landwirtschaft"
+      },
+      {
+        "wort": "landwirtschaftlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کشاورزی",
+          "en": "agricultural"
+        },
+        "id_ref": "adjektiv_landwirtschaftlich"
+      },
+      {
+        "wort": "die Agrarpolitik",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سیاست کشاورزی",
+          "en": "agricultural policy"
+        },
+        "id_ref": "nomen_agrarpolitik"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

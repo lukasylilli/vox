@@ -38,7 +38,13 @@ const listen = <(String, String)>[
 
 /// Wörter, die Claude nicht sicher beschreiben konnte (Regel 14 des
 /// Wort-Prompts: nie raten) — warten auf Lukas. Mit Datum/Grund in PLAN.md.
-const zurueckgestellt = <String>{'abatisch', 'abdikativ', 'afrikaans'};
+const zurueckgestellt = <String>{
+  'abatisch',
+  'abdikativ',
+  'afrikaans',
+  'aldente', // Schreibung zweifelhaft (Duden: «al dente») 2026-09-24
+  'aleppinisch', // Gebrauch als Adjektiv unsicher 2026-09-24
+};
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
 /// Regel 14 des Wort-Prompts). Die Karte liegt dann unter der richtigen
@@ -83,6 +89,8 @@ void main(List<String> args) {
     stdout.writeln('Alle Listen sind durch.');
     return;
   }
-  stdout.writeln('Nächste ${treffer.length}: '
-      '${treffer.map((t) => '${t.$1} (${t.$2})').join(' · ')}');
+  stdout.writeln(
+    'Nächste ${treffer.length}: '
+    '${treffer.map((t) => '${t.$1} (${t.$2})').join(' · ')}',
+  );
 }

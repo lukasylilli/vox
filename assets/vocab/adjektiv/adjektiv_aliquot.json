@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_aliquot",
+  "wort": "aliquot",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "شمارنده (بخش‌کننده بدون باقی‌مانده)"
+    ],
+    "en": [
+      "aliquot"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik",
+    "Wissenschaft"
+  ],
+  "ipa": "aliˈkvɔt",
+  "anmerkung": "Fachsprache Mathematik und Labor. Dazu das Nomen: das Aliquot (genau abgemessene Teilprobe).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Zwei ist ein aliquoter Teil von zehn.",
+      "uebersetzung": {
+        "fa": "دو بخش شمارنده‌ی ده است.",
+        "en": "Two is an aliquot part of ten."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Labor nimmt man einen aliquoten Teil der Lösung, damit jede Probe genau gleich viel enthält.",
+      "uebersetzung": {
+        "fa": "در آزمایشگاه بخش هم‌اندازه‌ای از محلول برمی‌دارند تا هر نمونه دقیقاً به یک اندازه داشته باشد.",
+        "en": "In the lab one takes an aliquot part of the solution so that each sample contains exactly the same amount."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "aliquant",
+      "uebersetzung": {
+        "fa": "ناشمارنده",
+        "en": "aliquant"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. aliquot (چند، چندتایی)",
+    "en": "Latin aliquot (some, several)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "aliquot",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein aliquoter Teil",
+      "die aliquote Menge"
+    ],
+    "gegensatzpaar": "aliquot ↔ aliquant"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Zahl",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عدد",
+          "en": "number"
+        },
+        "id_ref": "nomen_zahl"
+      },
+      {
+        "wort": "teilen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تقسیم کردن",
+          "en": "to divide"
+        },
+        "id_ref": "verb_teilen"
+      },
+      {
+        "wort": "die Probe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نمونه",
+          "en": "sample"
+        },
+        "id_ref": "nomen_probe"
+      },
+      {
+        "wort": "das Labor",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آزمایشگاه",
+          "en": "laboratory"
+        },
+        "id_ref": "nomen_labor"
+      },
+      {
+        "wort": "aliquant",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "ناشمارنده",
+          "en": "aliquant"
+        },
+        "id_ref": "adjektiv_aliquant"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
