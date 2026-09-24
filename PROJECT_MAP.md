@@ -23,6 +23,7 @@
 # دور ۴۵ (2026-09-24): +۱۰ کارت (adstringierend … affektiert) در assets/vocab/ ⇒ آرشیو ۲۱۷. 
 # دور ۴۶ (2026-09-24): +۹ کارت (affektiv … afrikanisch؛ afrikaans کنار گذاشته شد) در assets/vocab/ ⇒ آرشیو ۲۲۶. 
 # دور ۴۷ (2026-09-24): +۱۰ کارت (afroamerikanisch … agnostizistisch) در assets/vocab/ ⇒ آرشیو ۲۳۶. 
+# دور ۴۸ (2026-09-24): قاعده‌ی ثابت کلمه‌های واردنشده ⇒ PLAN.md «📚 روال» → «🔒 قاعده‌ی ثابت» (جا: «🏁 مرحله‌ی آخر» ته PLAN + zurueckgestellt؛ بررسی: بعد از هر چهار فهرست) + کامنت tool/naechste_woerter.dart.
 # 🚀 کارهای باز قبل از انتشار (فهرست کامل): PLAN.md → «🚀 قبل از انتشار». بعد از انتشار: PLAN.md → «⏭️ بعد از انتشار».
 #
 # ⚠️ 2026-09-19 (اصلاح یادداشت آفلاین): «precache شدنی است» فقط برای ~۷٫۵MB فعلی (۸۷ کارت) درست است. کارت ~۴KB ⇒ ~۲۶٬۲۰۰ کارت ≈ ~۱۰۰MB
@@ -113,7 +114,7 @@
 - پرامپت کلمه: [`old files Lukasalmani/Wort prompt`](https://github.com/lukasylilli/vox/blob/main/old%20files%20Lukasalmani/Wort%20prompt)
 - فهرست‌ها: [`old files Lukasalmani/Wörter/`](https://github.com/lukasylilli/vox/tree/main/old%20files%20Lukasalmani/W%C3%B6rter) — فعلی: `Adjektive.txt` (`✓ ` = کارت ساخته شد؛ مرجع واقعی وجود کارت: `assets/vocab/`)
 - `tool/naechste_woerter.dart` — ۱۰ کلمه‌ی بعدی (رد: کارت موجود + `zurueckgestellt`؛ `wortartKorrektur` = Wortart درست برای برچسب غلط فهرست، مثل aberhundert ⇒ numerale) · `tool/vokabular_import.dart` — JSON-Array ⇒ `assets/vocab/<wortart>/<id>.json` (اعتبارسنجی با `vokab_schema.dart`) · `tool/vokab_index.dart` — `assets/vocab_index.json` + `assets/vocab_formen/`
-- **ترتیب فهرست‌ها (Lukas):** Adjektive ⇒ Verben_unregelmaeßig_Infinitiv ⇒ Verben_regelmaesig ⇒ substantiv_singular_alle — در `tool/naechste_woerter.dart` (`listen`). کلمه‌ی نامطمئن ⇒ `zurueckgestellt` + فهرست «🏁 مرحله‌ی آخر» ته PLAN.md + گزارش.
+- **ترتیب فهرست‌ها (Lukas):** Adjektive ⇒ Verben_unregelmaeßig_Infinitiv ⇒ Verben_regelmaesig ⇒ substantiv_singular_alle — در `tool/naechste_woerter.dart` (`listen`). کلمه‌ی نامطمئن ⇒ `zurueckgestellt` + فهرست «🏁 مرحله‌ی آخر» ته PLAN.md + گزارش؛ بررسی‌شان فقط **بعد از تمام شدن هر چهار فهرست** با تصمیم Lukas (قاعده: PLAN → «🔒 قاعده‌ی ثابت»).
 - **اسم‌ها (Lukas 2026-09-24):** نام شهرها ⇒ فقط تلفظ + معنی + آرتیکل (نوع کارت کوتاه، هنوز در schema نیست) · ⛔ قبل از شروع فهرست اسم‌ها درباره‌ی اسم‌های بدون آرتیکل از Lukas بپرس.
 - **پیشرفت (2026-09-24 دور ۴۷):** آخرین کلمه‌ی ساخته‌شده **agnostizistisch** · بعدی **agogisch** · کنار گذاشته: abatisch، abdikativ، afrikaans (فهرست کامل: PLAN.md → «🏁 مرحله‌ی آخر») · آرشیو: ۲۳۶ کارت.
 

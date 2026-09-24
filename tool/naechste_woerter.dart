@@ -15,6 +15,11 @@
 //     Liste durch, geht es automatisch mit der nächsten weiter.
 //   · Unsichere Wörter: nicht bauen, in [zurueckgestellt] eintragen, Lukas
 //     melden (Lukas 2026-09-23: «genau so weitermachen»).
+//   · Feste Regel (Lukas 2026-09-24): Jedes nicht gebaute Wort steht AUCH in
+//     PLAN.md → «🏁 مرحله‌ی آخر» (ganz unten, mit Datum/Liste/Grund). Geprüft
+//     und gebaut werden sie erst ganz am Ende, wenn alle vier Listen durch
+//     sind — nach Lukas' Entscheidung. [zurueckgestellt] und diese Tabelle
+//     sind immer identisch.
 import 'dart:io';
 
 import 'package:vox/features/vokabular/data/vokab_schema.dart';
