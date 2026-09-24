@@ -1,0 +1,127 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_additiv",
+  "wort": "additiv",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "افزایشی",
+      "جمع‌شونده"
+    ],
+    "en": [
+      "additive"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wissenschaft",
+    "Mathematik"
+  ],
+  "ipa": "adiˈtiːf",
+  "anmerkung": "Bildungs-/Fachsprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Wirkung ist additiv.",
+      "uebersetzung": {
+        "fa": "اثرها روی هم جمع می‌شوند.",
+        "en": "The effect is additive."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn man zwei Medikamente nimmt, kann ihre Wirkung additiv sein, weshalb der Arzt die Dosis prüft.",
+      "uebersetzung": {
+        "fa": "وقتی دو دارو مصرف می‌شود، ممکن است اثرشان روی هم جمع شود و برای همین پزشک دوز را بررسی می‌کند.",
+        "en": "If you take two medicines, their effect can be additive, which is why the doctor checks the dose."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hinzufügend",
+      "uebersetzung": {
+        "fa": "افزاینده",
+        "en": "adding"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین additivus ← addere (افزودن)",
+    "en": "from Latin additivus ← addere (to add)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "additiv",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine additive Wirkung",
+      "das additive Verfahren"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "plus",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "به‌علاوه",
+          "en": "plus"
+        },
+        "id_ref": "adverb_plus"
+      },
+      {
+        "wort": "die Summe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جمع",
+          "en": "sum"
+        },
+        "id_ref": "nomen_summe"
+      },
+      {
+        "wort": "addieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جمع کردن",
+          "en": "to add"
+        },
+        "id_ref": "verb_addieren"
+      },
+      {
+        "wort": "die Wirkung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اثر",
+          "en": "effect"
+        },
+        "id_ref": "nomen_wirkung"
+      },
+      {
+        "wort": "der Zusatz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "افزودنی",
+          "en": "additive, addition"
+        },
+        "id_ref": "nomen_zusatz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

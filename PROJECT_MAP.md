@@ -18,6 +18,7 @@
 # دور ۴۰ (2026-09-24): +۱۰ کارت (abundant … achromatisch) در assets/vocab/ ⇒ آرشیو ۱۷۷. 
 # دور ۴۱ (2026-09-24): +۱۰ کارت (achtarmig … achtjährig) در assets/vocab/ ⇒ آرشیو ۱۸۷. 
 # دور ۴۲ (2026-09-24): +۱۰ کارت (achtsam … adaxial) در assets/vocab/ ⇒ آرشیو ۱۹۷. 
+# دور ۴۳ (2026-09-24): +۱۰ کارت (additiv … adsorptiv) در assets/vocab/ ⇒ آرشیو ۲۰۷. 
 # 🚀 کارهای باز قبل از انتشار (فهرست کامل): PLAN.md → «🚀 قبل از انتشار». بعد از انتشار: PLAN.md → «⏭️ بعد از انتشار».
 #
 # ⚠️ 2026-09-19 (اصلاح یادداشت آفلاین): «precache شدنی است» فقط برای ~۷٫۵MB فعلی (۸۷ کارت) درست است. کارت ~۴KB ⇒ ~۲۶٬۲۰۰ کارت ≈ ~۱۰۰MB
@@ -110,7 +111,7 @@
 - `tool/naechste_woerter.dart` — ۱۰ کلمه‌ی بعدی (رد: کارت موجود + `zurueckgestellt`؛ `wortartKorrektur` = Wortart درست برای برچسب غلط فهرست، مثل aberhundert ⇒ numerale) · `tool/vokabular_import.dart` — JSON-Array ⇒ `assets/vocab/<wortart>/<id>.json` (اعتبارسنجی با `vokab_schema.dart`) · `tool/vokab_index.dart` — `assets/vocab_index.json` + `assets/vocab_formen/`
 - **ترتیب فهرست‌ها (Lukas):** Adjektive ⇒ Verben_unregelmaeßig_Infinitiv ⇒ Verben_regelmaesig ⇒ substantiv_singular_alle — در `tool/naechste_woerter.dart` (`listen`). کلمه‌ی نامطمئن ⇒ `zurueckgestellt` + گزارش.
 - **اسم‌ها (Lukas 2026-09-24):** نام شهرها ⇒ فقط تلفظ + معنی + آرتیکل (نوع کارت کوتاه، هنوز در schema نیست) · ⛔ قبل از شروع فهرست اسم‌ها درباره‌ی اسم‌های بدون آرتیکل از Lukas بپرس.
-- **پیشرفت (2026-09-24 دور ۴۲):** آخرین کلمه‌ی ساخته‌شده **adaxial** · بعدی **additiv** · کنار گذاشته: abatisch، abdikativ · آرشیو: ۱۹۷ کارت.
+- **پیشرفت (2026-09-24 دور ۴۳):** آخرین کلمه‌ی ساخته‌شده **adsorptiv** · بعدی **adstringierend** · کنار گذاشته: abatisch، abdikativ · آرشیو: ۲۰۷ کارت.
 
 ## TECH STACK
 - Flutter Web — reine Web-App, gehostet auf GitHub Pages (seit 2026-09-13)

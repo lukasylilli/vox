@@ -1,0 +1,134 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_adjazent",
+  "wort": "adjazent",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "مجاور",
+      "هم‌جوار"
+    ],
+    "en": [
+      "adjacent"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik",
+    "Wissenschaft"
+  ],
+  "ipa": "atjaˈt͡sɛnt",
+  "anmerkung": "Fachsprachlich (Mathematik, Informatik).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die zwei Winkel sind adjazent.",
+      "uebersetzung": {
+        "fa": "این دو زاویه مجاورند.",
+        "en": "The two angles are adjacent."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In einem Graphen nennt man zwei Knoten adjazent, wenn sie durch eine Kante verbunden sind.",
+      "uebersetzung": {
+        "fa": "در یک گراف، دو گره را مجاور می‌نامند اگر با یک یال به هم وصل باشند.",
+        "en": "In a graph two nodes are called adjacent if they are connected by an edge."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "benachbart",
+      "uebersetzung": {
+        "fa": "مجاور",
+        "en": "neighbouring"
+      }
+    },
+    {
+      "wort": "angrenzend",
+      "uebersetzung": {
+        "fa": "هم‌مرز",
+        "en": "bordering"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین adiacere (کنار چیزی قرار داشتن)",
+    "en": "from Latin adiacere (to lie beside)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "adjazent",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "adjazente Knoten",
+      "der adjazente Winkel"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "neben",
+        "wortart": "praeposition",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کنار",
+          "en": "next to"
+        },
+        "id_ref": "praeposition_neben"
+      },
+      {
+        "wort": "der Nachbar",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "همسایه",
+          "en": "neighbour"
+        },
+        "id_ref": "nomen_nachbar"
+      },
+      {
+        "wort": "benachbart",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مجاور",
+          "en": "neighbouring"
+        },
+        "id_ref": "adjektiv_benachbart"
+      },
+      {
+        "wort": "der Winkel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زاویه",
+          "en": "angle"
+        },
+        "id_ref": "nomen_winkel"
+      },
+      {
+        "wort": "angrenzend",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "هم‌مرز",
+          "en": "bordering"
+        },
+        "id_ref": "adjektiv_angrenzend"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
