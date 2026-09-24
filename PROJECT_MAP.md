@@ -6,6 +6,7 @@
 # دور ۲۶–۲۷: DeutschMitEtikett (deutsch_text.dart) · جدول/ردیف‌های آلمانی deckها Directionality(ltr) · Wrap(textDirection: ltr) در همه‌ی تمرین‌های مرتب‌کردن · نگهبان deutscher_text_waechter_test با ~۴۰ فیلد.
 # دور ۲۸: +۱۰ کارت صفت در assets/vocab/adjektiv/ (aalglatt … abbildbar) ⇒ آرشیو ۹۷ کارت؛ منبع: old files Lukasalmani/Wörter/Adjektive.txt (✓ = ساخته‌شده).
 # دور ۲۹: روال «ده کلمه جدید» ⇒ بخش «📚 کلمه‌ها» همین فایل + tool/naechste_woerter.dart (تازه).
+# دور ۳۰: ترتیب فهرست‌های کلمه (Lukas) در tool/naechste_woerter.dart؛ abatisch کنار گذاشته می‌ماند.
 # 🚀 کارهای باز قبل از انتشار (فهرست کامل): PLAN.md → «🚀 قبل از انتشار». بعد از انتشار: PLAN.md → «⏭️ بعد از انتشار».
 #
 # ⚠️ 2026-09-19 (اصلاح یادداشت آفلاین): «precache شدنی است» فقط برای ~۷٫۵MB فعلی (۸۷ کارت) درست است. کارت ~۴KB ⇒ ~۲۶٬۲۰۰ کارت ≈ ~۱۰۰MB
@@ -95,6 +96,7 @@
 - پرامپت کلمه: [`old files Lukasalmani/Wort prompt`](https://github.com/lukasylilli/vox/blob/main/old%20files%20Lukasalmani/Wort%20prompt)
 - فهرست‌ها: [`old files Lukasalmani/Wörter/`](https://github.com/lukasylilli/vox/tree/main/old%20files%20Lukasalmani/W%C3%B6rter) — فعلی: `Adjektive.txt` (`✓ ` = کارت ساخته شد؛ مرجع واقعی وجود کارت: `assets/vocab/`)
 - `tool/naechste_woerter.dart` — ۱۰ کلمه‌ی بعدی (رد: کارت موجود + `zurueckgestellt`) · `tool/vokabular_import.dart` — JSON-Array ⇒ `assets/vocab/<wortart>/<id>.json` (اعتبارسنجی با `vokab_schema.dart`) · `tool/vokab_index.dart` — `assets/vocab_index.json` + `assets/vocab_formen/`
+- **ترتیب فهرست‌ها (Lukas):** Adjektive ⇒ Verben_unregelmaeßig_Infinitiv ⇒ Verben_regelmaesig ⇒ substantiv_singular_alle — در `tool/naechste_woerter.dart` (`listen`). کلمه‌ی نامطمئن ⇒ `zurueckgestellt` + گزارش.
 - **پیشرفت (2026-09-23 دور ۲۸):** آخرین کلمه‌ی ساخته‌شده **abbildbar** · بعدی **abbruchreif** · کنار گذاشته: abatisch · آرشیو: ۹۷ کارت.
 
 ## TECH STACK

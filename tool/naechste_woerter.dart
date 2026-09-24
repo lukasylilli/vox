@@ -11,16 +11,23 @@
 //       (a) seine Karte schon existiert (assets/vocab/<wortart>/<id>.json —
 //           das ist die Wahrheit, nicht das ✓ in der Liste), oder
 //       (b) es in [zurueckgestellt] steht (Claude war unsicher ⇒ Lukas fragt).
-//   · Die aktuelle Liste und ihre Wortart stehen in [liste]/[wortart]; ist sie
-//     durch, meldet das Werkzeug das — welche Liste dann folgt, entscheidet
-//     Lukas (in PLAN.md eintragen, dann hier).
+//   · Listen-Reihenfolge: [listen] (Entscheidung Lukas 2026-09-23). Ist eine
+//     Liste durch, geht es automatisch mit der nächsten weiter.
+//   · Unsichere Wörter: nicht bauen, in [zurueckgestellt] eintragen, Lukas
+//     melden (Lukas 2026-09-23: «genau so weitermachen»).
 import 'dart:io';
 
 import 'package:vox/features/vokabular/data/vokab_schema.dart';
 
-/// Aktuelle Wortliste (Reihenfolge der Abarbeitung: PLAN.md).
-const liste = 'old files Lukasalmani/Wörter/Adjektive.txt';
-const wortart = 'adjektiv';
+/// Wortlisten in der Reihenfolge der Abarbeitung — Entscheidung Lukas
+/// (2026-09-23): erst Adjektive, dann unregelmäßige Verben, dann regelmäßige
+/// Verben, dann Nomen. Innerhalb jeder Liste: Reihenfolge der Datei.
+const listen = <(String, String)>[
+  ('old files Lukasalmani/Wörter/Adjektive.txt', 'adjektiv'),
+  ('old files Lukasalmani/Wörter/Verben_unregelmaeßig_Infinitiv.txt', 'verb'),
+  ('old files Lukasalmani/Wörter/Verben_regelmaesig.txt', 'verb'),
+  ('old files Lukasalmani/Wörter/substantiv_singular_alle.txt', 'nomen'),
+];
 
 /// Wörter, die Claude nicht sicher beschreiben konnte (Regel 14 des
 /// Wort-Prompts: nie raten) — warten auf Lukas. Mit Datum/Grund in PLAN.md.
@@ -28,33 +35,36 @@ const zurueckgestellt = <String>{'abatisch'};
 
 void main(List<String> args) {
   final anzahl = args.isNotEmpty ? int.parse(args.first) : 10;
-  final datei = File(liste);
-  if (!datei.existsSync()) {
-    stderr.writeln('Liste fehlt: $liste — im Projektordner starten.');
-    exit(1);
-  }
-  final woerter = datei
-      .readAsLinesSync()
-      .map((z) => z.replaceFirst(RegExp(r'^\s*✓\s*'), '').trim())
-      .where((z) => z.isNotEmpty);
+  final treffer = <(String, String)>[]; // (Wort, Wortart)
 
-  final treffer = <String>[];
-  var fertig = 0;
-  for (final w in woerter) {
-    final id = vokabId(wortart, w);
-    if (File('assets/vocab/$wortart/$id.json').existsSync()) {
-      fertig++;
-      continue;
+  for (final (liste, wortart) in listen) {
+    final datei = File(liste);
+    if (!datei.existsSync()) {
+      stderr.writeln('Liste fehlt: $liste — im Projektordner starten.');
+      exit(1);
     }
-    if (zurueckgestellt.contains(w)) continue;
-    treffer.add(w);
-    if (treffer.length == anzahl) break;
+    var fertig = 0;
+    var offen = 0;
+    for (final roh in datei.readAsLinesSync()) {
+      final w = roh.replaceFirst(RegExp(r'^\s*✓\s*'), '').trim();
+      if (w.isEmpty) continue;
+      if (File('assets/vocab/$wortart/${vokabId(wortart, w)}.json')
+          .existsSync()) {
+        fertig++;
+        continue;
+      }
+      if (zurueckgestellt.contains(w)) continue;
+      offen++;
+      if (treffer.length < anzahl) treffer.add((w, wortart));
+    }
+    stdout.writeln('$liste ($wortart): $fertig als Karte · $offen offen');
+    if (treffer.length >= anzahl) break;
   }
 
-  stdout.writeln('Liste: $liste ($wortart) · schon als Karte: $fertig');
   if (treffer.isEmpty) {
-    stdout.writeln('Liste ist durch — nächste Liste in PLAN.md nachsehen / Lukas fragen.');
+    stdout.writeln('Alle Listen sind durch.');
     return;
   }
-  stdout.writeln('Nächste ${treffer.length}: ${treffer.join(' · ')}');
+  stdout.writeln('Nächste ${treffer.length}: '
+      '${treffer.map((t) => '${t.$1} (${t.$2})').join(' · ')}');
 }

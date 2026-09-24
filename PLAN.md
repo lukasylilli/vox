@@ -13,7 +13,8 @@
 > قاعده‌ها، اصل‌ها، تصمیم‌ها و کارهای باز کامل ماندند. کارهای باز فقط در دو بخش پایین جمع‌اند: «🚀 قبل از انتشار» و «⏭️ بعد از انتشار».
 > متن مفصل قبل از این خلاصه: `git show a078dc2:PLAN.md` (نسخه‌ی قدیمی‌تر: `afad3ab`).
 >
-> 🗓️ **آخرین جلسه:** 2026-09-23 (دور ۲۹) — روال «ده کلمه جدید» ثبت شد: بخش «📚 روال ده کلمه جدید» در PLAN و MAP (لینک پرامپت و فهرست‌ها، مراحل، قاعده‌ها، جدول پیشرفت) + ابزار تازه `tool/naechste_woerter.dart`.
+> 🗓️ **آخرین جلسه:** 2026-09-23 (دور ۳۰) — تصمیم‌های Lukas برای کلمه‌ها ثبت شد: ترتیب فهرست‌ها (صفت ⇒ فعل بی‌قاعده ⇒ فعل باقاعده ⇒ اسم) در `tool/naechste_woerter.dart` + جدول پیشرفت؛ کلمه‌ی نامطمئن ⇒ کنار گذاشتن + گزارش (abatisch).
+> قبلی: 2026-09-23 (دور ۲۹) — روال «ده کلمه جدید» ثبت شد: بخش «📚 روال ده کلمه جدید» در PLAN و MAP (لینک پرامپت و فهرست‌ها، مراحل، قاعده‌ها، جدول پیشرفت) + ابزار تازه `tool/naechste_woerter.dart`.
 > قبلی: 2026-09-23 (دور ۲۸) — **۱۰ کلمه‌ی تازه (درخواست Lukas)** طبق «Wort prompt» ۳.۰، به ترتیب الفبا از `Wörter/Adjektive.txt`: aalglatt · aasfressend · aasig · abaissiert · abakteriell · abartig · abaxial · abbaubar · abbauwürdig · abbildbar ⇒ `assets/vocab/adjektiv/` با `tool/vokabular_import.dart` (۰ خطا، ۰ هشدار)؛ در فهرست ✓ خوردند. ⚠️ **abatisch رد شد** — معنای مطمئنی برایش ندارم (قاعده‌ی ۱۴: حدس ممنوع) ⇒ Lukas تصمیم بگیرد. آرشیو: **۹۷ کارت**. کلمه‌ی بعدی در فهرست: **abbruchreif**. ۳۰۹ تست سبز.
 > قبلی: 2026-09-23 (دور ۲۶–۲۷) — **بند ۳ قبل از انتشار (RTL در Auswendiglernen) کامل:** نگهبان حالا ~۴۰ فیلد آلمانی می‌شناسد (همه‌ی فیلدهای مدل deckها + `['de']`، `['infinitiv']` … + cloze)؛ همه‌ی موردهایش ⇒ `DeutschText`/`DeutschRichText`. جدول‌ها و ردیف‌های کلید–مقدار آلمانی (Stammformen، Konjugation، Zeitformen، Verb-Info، «Perfekt: …») ⇒ `Directionality(ltr)`؛ **باگ ترتیب برعکس در تمرین‌های مرتب‌کردن جمله** (همه‌ی deckها + Wortstellung) ⇒ `Wrap(textDirection: ltr)`؛ چیپ‌های NVV به ترتیب آلمانی؛ پیام «✗ درست: …» جدا با `DeutschMitEtikett` (تازه، `deutsch_text.dart`)؛ عنوان‌های فهرست کنار آیکون (`ganzeZeile: false`). ۳۰۹ تست سبز؛ بازبینی در WebKit/iPhone (fa). ⏭️ Lukas: نگاه روی آیفون.
 >
@@ -73,9 +74,14 @@
 
 | فهرست | انجام‌شده (آخرین کلمه) | کلمه‌ی بعدی | کنار گذاشته (منتظر Lukas) |
 |---|---|---|---|
-| `Adjektive.txt` (صفت) | aalartig · aalförmig (قبلاً) · دور ۲۸ (2026-09-23): aalglatt، aasfressend، aasig، abaissiert، abakteriell، abartig، abaxial، abbaubar، abbauwürdig، **abbildbar** | **abbruchreif** | abatisch — معنا نامطمئن (2026-09-23) |
+| ۱. `Adjektive.txt` (صفت) | aalartig · aalförmig (قبلاً) · دور ۲۸ (2026-09-23): aalglatt، aasfressend، aasig، abaissiert، abakteriell، abartig، abaxial، abbaubar، abbauwürdig، **abbildbar** | **abbruchreif** | abatisch — معنا نامطمئن (Lukas 2026-09-23: رد کردن درست بود) |
+| ۲. `Verben_unregelmaeßig_Infinitiv.txt` (فعل بی‌قاعده) | — | abbacken | — |
+| ۳. `Verben_regelmaesig.txt` (فعل باقاعده) | — | aalen | — |
+| ۴. `substantiv_singular_alle.txt` (اسم) | — | Aachen | — |
 
-- ⏭️ **بعد از تمام شدن `Adjektive.txt`:** کدام فهرست بعدی (`Verben_regelmaesig.txt` · `Verben_unregelmaeßig_Infinitiv.txt` · `substantiv_singular_*.txt`) ⇒ **از Lukas بپرس**، بعد در `tool/naechste_woerter.dart` (`liste`/`wortart`) و همین جدول ثبت کن.
+- ✅ **ترتیب فهرست‌ها (تصمیم Lukas، 2026-09-23):** ۱ صفت‌ها ⇒ ۲ افعال بی‌قاعده ⇒ ۳ افعال باقاعده ⇒ ۴ اسم‌ها. در `tool/naechste_woerter.dart` (`listen`) ثبت است؛ فهرست تمام شد ⇒ ابزار خودش سراغ بعدی می‌رود.
+- ✅ **کلمه‌ی نامطمئن (تصمیم Lukas، 2026-09-23):** ساخته نمی‌شود، کنار گذاشته می‌شود (`zurueckgestellt` + ستون آخر جدول) و به Lukas گزارش می‌شود — «همین کار درست بود، ادامه بده».
+- ⚠️ برای اسم‌ها: `substantiv_singular_alle.txt` بدون آرتیکل است ⇒ genus از `substantiv_singular_der/die/das.txt`؛ نام‌های خاص (شهر/کشور، مثل Aachen) هم در فهرست‌اند — وقتی رسیدیم، همان قاعده‌ی پرامپت (مطمئن نیستی ⇒ نساز) و گزارش به Lukas.
 - کارت‌های دیگر آرشیو (افعال Dativ و …) از deckها آمده‌اند، نه از این فهرست‌ها. کل آرشیو: **۹۷ کارت** (2026-09-23).
 
 ## INHALTSVERZEICHNIS (فهرست مطالب)
