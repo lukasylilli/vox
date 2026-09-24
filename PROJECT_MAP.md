@@ -22,6 +22,7 @@
 # دور ۴۴ (2026-09-24): PLAN.md ⇒ بخش تازه «🏁 مرحله‌ی آخر» (ته فایل) = فهرست همه‌ی کلمه‌هایی که کارت نمی‌گیرند + دلیل؛ همیشه هم‌زمان با zurueckgestellt.
 # دور ۴۵ (2026-09-24): +۱۰ کارت (adstringierend … affektiert) در assets/vocab/ ⇒ آرشیو ۲۱۷. 
 # دور ۴۶ (2026-09-24): +۹ کارت (affektiv … afrikanisch؛ afrikaans کنار گذاشته شد) در assets/vocab/ ⇒ آرشیو ۲۲۶. 
+# دور ۴۷ (2026-09-24): +۱۰ کارت (afroamerikanisch … agnostizistisch) در assets/vocab/ ⇒ آرشیو ۲۳۶. 
 # 🚀 کارهای باز قبل از انتشار (فهرست کامل): PLAN.md → «🚀 قبل از انتشار». بعد از انتشار: PLAN.md → «⏭️ بعد از انتشار».
 #
 # ⚠️ 2026-09-19 (اصلاح یادداشت آفلاین): «precache شدنی است» فقط برای ~۷٫۵MB فعلی (۸۷ کارت) درست است. کارت ~۴KB ⇒ ~۲۶٬۲۰۰ کارت ≈ ~۱۰۰MB
@@ -114,7 +115,7 @@
 - `tool/naechste_woerter.dart` — ۱۰ کلمه‌ی بعدی (رد: کارت موجود + `zurueckgestellt`؛ `wortartKorrektur` = Wortart درست برای برچسب غلط فهرست، مثل aberhundert ⇒ numerale) · `tool/vokabular_import.dart` — JSON-Array ⇒ `assets/vocab/<wortart>/<id>.json` (اعتبارسنجی با `vokab_schema.dart`) · `tool/vokab_index.dart` — `assets/vocab_index.json` + `assets/vocab_formen/`
 - **ترتیب فهرست‌ها (Lukas):** Adjektive ⇒ Verben_unregelmaeßig_Infinitiv ⇒ Verben_regelmaesig ⇒ substantiv_singular_alle — در `tool/naechste_woerter.dart` (`listen`). کلمه‌ی نامطمئن ⇒ `zurueckgestellt` + فهرست «🏁 مرحله‌ی آخر» ته PLAN.md + گزارش.
 - **اسم‌ها (Lukas 2026-09-24):** نام شهرها ⇒ فقط تلفظ + معنی + آرتیکل (نوع کارت کوتاه، هنوز در schema نیست) · ⛔ قبل از شروع فهرست اسم‌ها درباره‌ی اسم‌های بدون آرتیکل از Lukas بپرس.
-- **پیشرفت (2026-09-24 دور ۴۶):** آخرین کلمه‌ی ساخته‌شده **afrikanisch** · بعدی **afroamerikanisch** · کنار گذاشته: abatisch، abdikativ، afrikaans (فهرست کامل: PLAN.md → «🏁 مرحله‌ی آخر») · آرشیو: ۲۲۶ کارت.
+- **پیشرفت (2026-09-24 دور ۴۷):** آخرین کلمه‌ی ساخته‌شده **agnostizistisch** · بعدی **agogisch** · کنار گذاشته: abatisch، abdikativ، afrikaans (فهرست کامل: PLAN.md → «🏁 مرحله‌ی آخر») · آرشیو: ۲۳۶ کارت.
 
 ## TECH STACK
 - Flutter Web — reine Web-App, gehostet auf GitHub Pages (seit 2026-09-13)
