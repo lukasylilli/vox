@@ -42,6 +42,8 @@ const wortartKorrektur = <String, String>{
   'aberhundert': 'numerale', // unbestimmtes Zahlwort (2026-09-24)
   'abertausend': 'numerale', // unbestimmtes Zahlwort (2026-09-24)
   'achte': 'numerale', // Ordinalzahl (2026-09-24)
+  'achtzehnte': 'numerale', // Ordinalzahl (2026-09-24)
+  'achtzigste': 'numerale', // Ordinalzahl (2026-09-24)
 };
 
 void main(List<String> args) {
