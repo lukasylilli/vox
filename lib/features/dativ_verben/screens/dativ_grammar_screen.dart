@@ -245,7 +245,7 @@ class _VerbChip extends StatelessWidget {
         borderRadius: BorderRadius.circular(20),
         border      : Border.all(color: cs.outlineVariant),
       ),
-      child: Text(verb.verbInfinitive,
+      child: DeutschText(ganzeZeile: false, verb.verbInfinitive,
           style: Theme.of(context)
               .textTheme
               .bodySmall

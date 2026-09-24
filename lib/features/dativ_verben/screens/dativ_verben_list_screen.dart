@@ -14,6 +14,7 @@ import '../models/dativ_verb.dart';
 import '../widgets/case_type_badge.dart';
 import '../../../core/widgets/vox_button.dart';
 import '../../vokabular/controllers/vokabular_controller.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class DativVerbenListScreen extends ConsumerStatefulWidget {
   const DativVerbenListScreen({super.key});
@@ -250,7 +251,7 @@ class _VerbTile extends StatelessWidget {
                     Row(
                       children: [
                         Flexible(
-                          child: Text(
+                          child: DeutschText(ganzeZeile: false, 
                             verb.verbInfinitive,
                             style: tt.titleMedium
                                 ?.copyWith(fontWeight: FontWeight.w700),

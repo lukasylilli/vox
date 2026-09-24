@@ -11,6 +11,7 @@ import '../../../core/widgets/vox_error_widget.dart';
 import '../../../core/widgets/vox_loading_widget.dart';
 import '../controllers/modalverben_controller.dart';
 import '../models/modal_verb.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class ModalverbenDetailScreen extends ConsumerWidget {
   const ModalverbenDetailScreen({
@@ -58,7 +59,7 @@ class _DetailView extends StatelessWidget {
     final note  = isEn ? verb.noteEn : verb.noteFa;
 
     return Scaffold(
-      appBar: AppBar(title: Text(verb.infinitive)),
+      appBar: AppBar(title: DeutschText(ganzeZeile: false, verb.infinitive)),
       body: ListView(
         padding: const EdgeInsets.fromLTRB(
             AppSizes.md, AppSizes.sm, AppSizes.md, AppSizes.xl),
@@ -70,7 +71,7 @@ class _DetailView extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(
+                  DeutschText(
                     verb.infinitive,
                     style: theme.textTheme.headlineSmall?.copyWith(
                       fontWeight: FontWeight.w800,
@@ -97,7 +98,10 @@ class _DetailView extends StatelessWidget {
                 children: [
                   _sectionTitle(context, 'Konjugation'),
                   const SizedBox(height: 8),
-                  Table(
+                  Directionality(
+          // Deutsche Formen-Tabelle ⇒ fest LTR (2026-09-23)
+          textDirection: TextDirection.ltr,
+          child: Table(
                     columnWidths: const {
                       0: FlexColumnWidth(1.2),
                       1: FlexColumnWidth(1),
@@ -116,7 +120,7 @@ class _DetailView extends StatelessWidget {
                           _cell(context, verb.praeteritum[key] ?? ''),
                         ]),
                     ],
-                  ),
+                  )),
                 ],
               ),
             ),
@@ -161,7 +165,7 @@ class _DetailView extends StatelessWidget {
                         color       : cs.secondaryContainer,
                         borderRadius: BorderRadius.circular(5),
                       ),
-                      child: Text(
+                      child: DeutschText(ganzeZeile: false,
                         ex.tense,
                         style: TextStyle(
                           fontSize  : 10,
@@ -171,7 +175,7 @@ class _DetailView extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 4),
-                    Text(
+                    DeutschText(
                       ex.de,
                       style: theme.textTheme.bodyMedium?.copyWith(
                           fontWeight: FontWeight.w600),
@@ -235,7 +239,7 @@ class _DetailView extends StatelessWidget {
   Widget _cell(BuildContext context, String text, {bool muted = false}) =>
       Padding(
         padding: const EdgeInsets.symmetric(vertical: 4),
-        child: Text(
+        child: DeutschText(ganzeZeile: false,
           text,
           style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                 color: muted
@@ -249,11 +253,14 @@ class _DetailView extends StatelessWidget {
   Widget _formRow(BuildContext context, String label, String value) => Padding(
         padding: const EdgeInsets.only(bottom: 6),
         child: Row(
+          // Zeitform + Form sind Deutsch ⇒ LTR (2026-09-23).
+          textDirection: TextDirection.ltr,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             SizedBox(
               width: 130,
-              child: Text(
+              child: DeutschText(
+                ganzeZeile: false,
                 label,
                 style: Theme.of(context).textTheme.bodySmall?.copyWith(
                       color: Theme.of(context).colorScheme.onSurfaceVariant,
@@ -261,7 +268,7 @@ class _DetailView extends StatelessWidget {
               ),
             ),
             Expanded(
-              child: Text(
+              child: DeutschText(
                 value,
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                       fontWeight: FontWeight.w600,

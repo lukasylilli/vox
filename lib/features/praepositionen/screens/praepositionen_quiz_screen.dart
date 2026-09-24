@@ -135,7 +135,7 @@ class _PraepositonenQuizScreenState extends State<PraepositonenQuizScreen> {
                 padding: const EdgeInsets.all(AppSizes.lg),
                 child: Column(
                   children: [
-                    Text(
+                    DeutschText(ganzeZeile: false, 
                       item.lemma,
                       style: Theme.of(context).textTheme.headlineSmall
                           ?.copyWith(fontWeight: FontWeight.w800),
@@ -187,7 +187,7 @@ class _PraepositonenQuizScreenState extends State<PraepositonenQuizScreen> {
                   padding: const EdgeInsets.all(AppSizes.sm),
                   child: Column(
                     children: [
-                      Text(
+                      DeutschText(ganzeZeile: false, 
                         '${item.preposition} + ${item.gCase[0].toUpperCase()}'
                         '${item.gCase.substring(1)}',
                         style: TextStyle(

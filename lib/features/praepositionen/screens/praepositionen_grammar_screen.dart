@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../core/l10n/app_l10n.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class PraepositonenGrammarScreen extends StatelessWidget {
   const PraepositonenGrammarScreen({super.key});
@@ -146,7 +147,7 @@ class _PraepRow extends StatelessWidget {
               color       : cs.primaryContainer,
               borderRadius: BorderRadius.circular(6),
             ),
-            child: Text(prep,
+            child: DeutschText(ganzeZeile: false, prep,
                 style: TextStyle(
                   color     : cs.onPrimaryContainer,
                   fontWeight: FontWeight.w700,
@@ -162,7 +163,7 @@ class _PraepRow extends StatelessWidget {
               color       : cs.secondaryContainer,
               borderRadius: BorderRadius.circular(6),
             ),
-            child: Text(kasus,
+            child: DeutschText(ganzeZeile: false, kasus,
                 style: TextStyle(
                   color   : cs.onSecondaryContainer,
                   fontSize: 11,
@@ -171,7 +172,7 @@ class _PraepRow extends StatelessWidget {
           ),
           const SizedBox(width: 8),
           Expanded(
-            child: Text(
+            child: DeutschText(
               examples,
               style: Theme.of(context).textTheme.bodySmall?.copyWith(
                 color: cs.onSurfaceVariant,
@@ -202,7 +203,7 @@ class _DiffRow extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(verb, style: const TextStyle(
+        DeutschText(ganzeZeile: false, verb, style: const TextStyle(
           fontWeight: FontWeight.w700, fontSize: 15)),
         const SizedBox(height: 4),
         _row(prep1, AppL10n.meaning(context, fa: mean1, en: mean1En), cs),

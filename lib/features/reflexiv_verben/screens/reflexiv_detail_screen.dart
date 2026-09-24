@@ -41,7 +41,7 @@ class _ReflexivDetailScreenState
 
         return Scaffold(
           appBar: AppBar(
-            title: Text(verb.verbInfinitive),
+            title: DeutschText(ganzeZeile: false, verb.verbInfinitive),
           ),
           body: ListView(
             padding: const EdgeInsets.fromLTRB(16, 8, 16, 80),
@@ -69,7 +69,7 @@ class _ReflexivDetailScreenState
               if (verb.preposition != null) ...[
                 _Section(
                   title: 'Präposition',
-                  child: Text(
+                  child: DeutschText(
                     '${verb.verbInfinitive} ${verb.preposition} + ${verb.prepositionCase ?? ''}',
                     style: Theme.of(context).textTheme.titleMedium?.copyWith(
                           fontWeight: FontWeight.w600,
@@ -205,7 +205,10 @@ class _PrincipalPartsCard extends StatelessWidget {
       margin: EdgeInsets.zero,
       child : Padding(
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-        child: Column(
+        child: Directionality(
+          // Deutsche Formen-Tabelle ⇒ fest LTR (2026-09-23)
+          textDirection: TextDirection.ltr,
+          child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Row(
@@ -225,7 +228,7 @@ class _PrincipalPartsCard extends StatelessWidget {
               ],
             ),
           ],
-        ),
+        )),
       ),
     );
   }

@@ -120,6 +120,7 @@ class _WortstellungWidgetState extends State<WortstellungWidget> {
                     )),
                 )
               : Wrap(
+                textDirection: TextDirection.ltr, // deutsche Wortbausteine: Lesereihenfolge
                   spacing    : 6,
                   runSpacing : 4,
                   children   : _answer.map((w) => GestureDetector(
@@ -166,6 +167,7 @@ class _WortstellungWidgetState extends State<WortstellungWidget> {
 
         // ── Source word chips ────────────────────────────────────────────
         Wrap(
+          textDirection: TextDirection.ltr, // deutsche Wortbausteine: Lesereihenfolge
           spacing   : 6,
           runSpacing: 4,
           children  : _source.map((w) => GestureDetector(

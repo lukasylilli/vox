@@ -224,7 +224,7 @@ class _KonnektorTile extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    DeutschText(
+                    DeutschText(ganzeZeile: false, // Listentitel neben dem Symbol
                       k.connector,
                       style: tt.titleMedium
                           ?.copyWith(fontWeight: FontWeight.w700),

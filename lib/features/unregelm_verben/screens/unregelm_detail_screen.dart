@@ -9,6 +9,7 @@ import '../models/unregelm_verb.dart';
 import '../widgets/verb_class_badge.dart';
 import '../../../core/widgets/vox_button.dart';
 import '../../../core/widgets/klick_wort_text.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class UnregelmDetailScreen extends ConsumerWidget {
   const UnregelmDetailScreen({super.key, required this.verbId});
@@ -51,7 +52,7 @@ class _DetailView extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(verb.verbInfinitive),
+        title: DeutschText(ganzeZeile: false, verb.verbInfinitive),
         actions: [
           if (currentIdx > 0)
             VoxIconButton(
@@ -112,7 +113,10 @@ class _DetailView extends StatelessWidget {
                     style: tt.labelLarge
                         ?.copyWith(color: cs.onSurfaceVariant)),
                 const SizedBox(height: AppSizes.sm),
-                Table(
+                Directionality(
+          // Deutsche Formen-Tabelle ⇒ fest LTR (2026-09-23)
+          textDirection: TextDirection.ltr,
+          child: Table(
                   columnWidths: const {
                     0: FlexColumnWidth(1),
                     1: FlexColumnWidth(1),
@@ -139,14 +143,16 @@ class _DetailView extends StatelessWidget {
                           bold: true),
                     ]),
                   ],
-                ),
+                )),
                 const SizedBox(height: AppSizes.sm),
                 Row(
+                  // Beschriftung und Wert sind beide Deutsch ⇒ LTR.
+                  textDirection: TextDirection.ltr,
                   children: [
-                    Text('Perfekt: ',
+                    DeutschText('Perfekt: ', ganzeZeile: false,
                         style: tt.bodySmall
                             ?.copyWith(color: cs.onSurfaceVariant)),
-                    Text(
+                    DeutschText(
                       '${verb.perfektAuxiliary.label} + ${verb.principalParts.partizipIi}',
                       style: tt.bodySmall
                           ?.copyWith(fontWeight: FontWeight.w600),
@@ -164,7 +170,7 @@ class _DetailView extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('Verb-Info',
+                DeutschText('Verb-Info', ganzeZeile: false,
                     style: tt.labelLarge
                         ?.copyWith(color: cs.onSurfaceVariant)),
                 const SizedBox(height: AppSizes.sm),
@@ -282,16 +288,18 @@ class _Row extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(bottom: 4),
       child: Row(
+        // Verb-Info: Beschriftung + Wert Deutsch ⇒ LTR (2026-09-23).
+        textDirection: TextDirection.ltr,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           SizedBox(
             width: 120,
-            child: Text(label,
+            child: DeutschText(ganzeZeile: false, label,
                 style:
                     tt.bodySmall?.copyWith(color: cs.onSurfaceVariant)),
           ),
           Expanded(
-            child: Text(value,
+            child: DeutschText(ganzeZeile: false, value,
                 style: tt.bodySmall
                     ?.copyWith(fontWeight: FontWeight.w600)),
           ),
@@ -308,7 +316,7 @@ class _TH extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Padding(
         padding: const EdgeInsets.only(bottom: 4),
-        child: Text(text,
+        child: DeutschText(ganzeZeile: false, text,
             style: Theme.of(context).textTheme.labelSmall?.copyWith(
                 color: Theme.of(context).colorScheme.onSurfaceVariant)),
       );
@@ -322,7 +330,7 @@ class _TD extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Padding(
         padding: const EdgeInsets.only(top: 6),
-        child: Text(text,
+        child: DeutschText(ganzeZeile: false, text,
             style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                 fontWeight:
                     bold ? FontWeight.w700 : FontWeight.normal)),

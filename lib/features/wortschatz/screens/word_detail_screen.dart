@@ -80,7 +80,9 @@ class _WordDetailView extends StatelessWidget {
           // Plural
           if (model.plural != null) ...[
             const SizedBox(height: 4),
-            Text('${AppL10n.t(context, 'plural_label')} ${model.plural}',
+            DeutschMitEtikett(
+              etikett: AppL10n.t(context, 'plural_label'),
+              wert   : model.plural!,
               style: theme.textTheme.bodyMedium?.copyWith(
                 color: scheme.onSurfaceVariant,
               )),

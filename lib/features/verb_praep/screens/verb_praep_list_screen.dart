@@ -13,6 +13,7 @@ import '../controllers/verb_praep_controller.dart';
 import '../models/verb_praep.dart';
 import '../widgets/prep_case_badge.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class VerbPraepListScreen extends ConsumerStatefulWidget {
   const VerbPraepListScreen({super.key});
@@ -227,7 +228,7 @@ class _VerbTile extends StatelessWidget {
                     Row(
                       children: [
                         Flexible(
-                          child: Text(
+                          child: DeutschText(ganzeZeile: false, 
                             verb.displayVerb,
                             style: tt.titleMedium
                                 ?.copyWith(fontWeight: FontWeight.w700),
@@ -281,7 +282,7 @@ class _PrepChip extends StatelessWidget {
           border      : Border.all(
               color: const Color(0xFF6A1B9A).withValues(alpha: 0.4)),
         ),
-        child: Text(
+        child: DeutschText(ganzeZeile: false,
           prep,
           style: const TextStyle(
             fontSize  : 9,

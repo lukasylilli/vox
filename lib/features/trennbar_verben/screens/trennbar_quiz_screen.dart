@@ -308,11 +308,12 @@ class _TrennbarQuizScreenState extends State<TrennbarQuizScreen> {
                 borderRadius: BorderRadius.circular(10),
               ),
               child: Wrap(
+                textDirection: TextDirection.ltr, // deutsche Wortbausteine: Lesereihenfolge
                 spacing: 6,
                 runSpacing: 6,
                 children: _arranged
                     .map((w) => ActionChip(
-                          label    : Text(w),
+                          label    : DeutschText(w, ganzeZeile: false),
                           onPressed: _answered
                               ? null
                               : () => setState(() => _arranged.remove(w)),
@@ -331,12 +332,13 @@ class _TrennbarQuizScreenState extends State<TrennbarQuizScreen> {
             ],
             const SizedBox(height: 12),
             Wrap(
+              textDirection: TextDirection.ltr, // deutsche Wortbausteine: Lesereihenfolge
               spacing  : 6,
               runSpacing: 6,
               children : q.shuffledWords
                   .where((w) => !placed.contains(w))
                   .map((w) => ActionChip(
-                        label    : Text(w),
+                        label    : DeutschText(w, ganzeZeile: false),
                         onPressed: _answered
                             ? null
                             : () => setState(() => _arranged.add(w)),
@@ -350,7 +352,7 @@ class _TrennbarQuizScreenState extends State<TrennbarQuizScreen> {
         return Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Text('${q.clozePrefix} ___ ${q.clozeSuffix}',
+            DeutschText('${q.clozePrefix} ___ ${q.clozeSuffix}',
                 style: const TextStyle(fontSize: 16, height: 1.6)),
             const SizedBox(height: 16),
             TextField(
@@ -366,7 +368,7 @@ class _TrennbarQuizScreenState extends State<TrennbarQuizScreen> {
             ),
             if (_answered) ...[
               const SizedBox(height: 8),
-              Text(
+              DeutschText(
                 q.clozeAnswer,
                 style: TextStyle(
                     color     : _isCorrect() ? Colors.green : Colors.red,

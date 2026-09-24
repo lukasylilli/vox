@@ -123,7 +123,7 @@ class _NvvQuizScreenState extends ConsumerState<NvvQuizScreen> {
                     ),
                     if (p.hasPreposition) ...[
                       const SizedBox(height: 6),
-                      Text(
+                      DeutschText(ganzeZeile: false, 
                         p.preposition!,
                         style: TextStyle(
                             color: scheme.primary, fontWeight: FontWeight.w600),

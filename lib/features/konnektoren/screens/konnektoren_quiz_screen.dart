@@ -217,7 +217,7 @@ class _ConnectorLabel extends StatelessWidget {
         color       : cs.primaryContainer,
         borderRadius: BorderRadius.circular(12),
       ),
-      child: Text(
+      child: DeutschText(ganzeZeile: false,
         connector,
         textAlign: TextAlign.center,
         style: Theme.of(context)
@@ -251,7 +251,7 @@ class _FillBlankBody extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(prompt,
+        DeutschText(prompt,
             style: Theme.of(context)
                 .textTheme
                 .bodyLarge
@@ -356,7 +356,7 @@ class _WordOrderBody extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         if (exercise.context.isNotEmpty)
-          Text(exercise.context,
+          DeutschText(exercise.context,
               style: Theme.of(context)
                   .textTheme
                   .bodyMedium
@@ -375,13 +375,14 @@ class _WordOrderBody extends StatelessWidget {
                     width: 2)
                 : null,
           ),
-          child: Text(
+          child: DeutschText(
             current.isEmpty ? '...' : current,
             style: Theme.of(context).textTheme.bodyLarge,
           ),
         ),
         const SizedBox(height: 16),
         Wrap(
+          textDirection: TextDirection.ltr, // deutsche Wortbausteine: Lesereihenfolge
           spacing   : 8,
           runSpacing: 8,
           children  : List.generate(wordOrder.length, (i) => GestureDetector(
@@ -392,7 +393,7 @@ class _WordOrderBody extends StatelessWidget {
                 color       : cs.primaryContainer,
                 borderRadius: BorderRadius.circular(8),
               ),
-              child: Text(wordOrder[i]),
+              child: DeutschText(wordOrder[i], ganzeZeile: false),
             ),
           )),
         ),
@@ -403,8 +404,10 @@ class _WordOrderBody extends StatelessWidget {
             onPressed: onSubmit,
           ),
         if (answered)
-          Text(
-            isRight ? AppL10n.t(context, 'correct_check') : '${AppL10n.t(context, 'answer_wrong_prefix')} ${exercise.correct}',
+          // Meldung folgt der Oberfläche, die richtige Antwort ist Deutsch (LTR, 2026-09-23).
+          DeutschMitEtikett(
+            etikett: isRight ? AppL10n.t(context, 'correct_check') : AppL10n.t(context, 'answer_wrong_prefix'),
+            wert   : isRight ? '' : exercise.correct,
             style: TextStyle(
               color     : isRight ? Colors.green : cs.error,
               fontWeight: FontWeight.w700,

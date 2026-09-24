@@ -299,10 +299,11 @@ class _VerbPraepQuizScreenState extends State<VerbPraepQuizScreen> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Wrap(
+              textDirection: TextDirection.ltr, // deutsche Wortbausteine: Lesereihenfolge
               spacing: 8, runSpacing: 8,
               children: _arranged
                   .map((w) => ActionChip(
-                        label    : Text(w),
+                        label    : DeutschText(w, ganzeZeile: false),
                         onPressed: _answered
                             ? null
                             : () => setState(() => _arranged.remove(w)),
@@ -311,10 +312,11 @@ class _VerbPraepQuizScreenState extends State<VerbPraepQuizScreen> {
             ),
             const Divider(height: 24),
             Wrap(
+              textDirection: TextDirection.ltr, // deutsche Wortbausteine: Lesereihenfolge
               spacing: 8, runSpacing: 8,
               children: remaining
                   .map((w) => ActionChip(
-                        label    : Text(w),
+                        label    : DeutschText(w, ganzeZeile: false),
                         onPressed: _answered
                             ? null
                             : () => setState(() => _arranged.add(w)),
@@ -364,7 +366,7 @@ class _VerbPraepQuizScreenState extends State<VerbPraepQuizScreen> {
             ),
             if (_answered) ...[
               const SizedBox(height: 8),
-              Text('✓ ${q.clozeAnswer}',
+              DeutschText('✓ ${q.clozeAnswer}',
                   style: const TextStyle(color: Colors.green)),
               Text(AppL10n.meaning(context, fa: q.verb.exampleFa,
                   en: q.verb.exampleEn.isNotEmpty ? q.verb.exampleEn : q.verb.exampleFa),

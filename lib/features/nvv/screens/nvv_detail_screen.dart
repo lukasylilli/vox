@@ -105,7 +105,9 @@ class _NvvDetailBodyState extends State<_NvvDetailBody> {
                   ],
                 ),
                 const SizedBox(height: 8),
+                // Teile der Verbindung in deutscher Lesereihenfolge (LTR).
                 Row(
+                  textDirection: TextDirection.ltr,
                   children: [
                     _Chip(label: p.nounPhrase, icon: Icons.article_rounded),
                     const SizedBox(width: 6),
@@ -142,8 +144,9 @@ class _NvvDetailBodyState extends State<_NvvDetailBody> {
                 ),
                 if (p.synonymDe.isNotEmpty) ...[
                   const SizedBox(height: 8),
-                  Text(
-                    '${AppL10n.t(context, 'synonym_label')}: ${p.synonymDe}',
+                  DeutschMitEtikett(
+                    etikett: AppL10n.t(context, 'synonym_label'),
+                    wert   : p.synonymDe,
                     style: TextStyle(
                       fontSize: 13,
                       color   : scheme.onSurfaceVariant,
@@ -327,7 +330,7 @@ class _Chip extends StatelessWidget {
         children    : [
           Icon(icon, size: 13, color: c),
           const SizedBox(width: 4),
-          Text(label, style: TextStyle(fontSize: 12, color: c)),
+          DeutschText(label, ganzeZeile: false, style: TextStyle(fontSize: 12, color: c)),
         ],
       ),
     );

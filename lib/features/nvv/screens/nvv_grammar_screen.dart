@@ -167,7 +167,7 @@ class _CompareRow extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(simple, style: TextStyle(
+                DeutschText(ganzeZeile: false, simple, style: TextStyle(
                   color: cs.primary, fontWeight: FontWeight.w600)),
                 Text(AppL10n.meaning(context, fa: fa, en: en),
                     style: Theme.of(context).textTheme.bodySmall
@@ -178,7 +178,7 @@ class _CompareRow extends StatelessWidget {
           Icon(Icons.arrow_forward_rounded, size: 14, color: cs.outline),
           const SizedBox(width: 8),
           Expanded(
-            child: Text(nvv, style: const TextStyle(fontWeight: FontWeight.w600)),
+            child: DeutschText(nvv, style: const TextStyle(fontWeight: FontWeight.w600)),
           ),
         ],
       ),

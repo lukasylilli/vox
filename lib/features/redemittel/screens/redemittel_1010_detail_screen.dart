@@ -233,7 +233,7 @@ class _Card extends StatelessWidget {
             if (istDeutsch)
               KlickWortText(content, style: inhaltStil)
             else
-              Text(content, style: inhaltStil),
+              DeutschText(content, style: inhaltStil),
           ],
         ),
       ),

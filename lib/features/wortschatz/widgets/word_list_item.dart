@@ -94,8 +94,9 @@ class WordListItem extends StatelessWidget {
                         // Plural (if Nomen)
                         if (word.plural != null) ...[
                           const SizedBox(height: 2),
-                          Text(
-                            '${AppL10n.t(context, 'plural_label')} ${word.plural}',
+                          DeutschMitEtikett(
+                            etikett: AppL10n.t(context, 'plural_label'),
+                            wert   : word.plural!,
                             style: theme.textTheme.bodySmall,
                           ),
                         ],

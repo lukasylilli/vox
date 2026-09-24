@@ -9,6 +9,7 @@ import '../widgets/case_highlight_text.dart';
 import '../widgets/case_type_badge.dart';
 import '../widgets/principal_parts_table.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class DativVerbenDetailScreen extends ConsumerStatefulWidget {
   const DativVerbenDetailScreen({super.key, required this.verbId});
@@ -38,7 +39,7 @@ class _DativVerbenDetailScreenState
 
         return Scaffold(
           appBar: AppBar(
-            title: Text(verb.verbInfinitive),
+            title: DeutschText(ganzeZeile: false, verb.verbInfinitive),
           ),
           body: ListView(
             padding: const EdgeInsets.fromLTRB(16, 8, 16, 80),

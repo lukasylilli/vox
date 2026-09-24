@@ -405,6 +405,7 @@ class _Redemittel1010QuizScreenState
                       style: tt.bodySmall?.copyWith(
                           color: cs.onSurfaceVariant))
                   : Wrap(
+                    textDirection: TextDirection.ltr, // deutsche Wortbausteine: Lesereihenfolge
                       spacing: 6, runSpacing: 6,
                       children: _arranged.map((w) => ActionChip(
                             label    : DeutschText(w, ganzeZeile: false),
@@ -418,6 +419,7 @@ class _Redemittel1010QuizScreenState
             const SizedBox(height: 12),
             // remaining words (tap to add)
             Wrap(
+              textDirection: TextDirection.ltr, // deutsche Wortbausteine: Lesereihenfolge
               spacing: 6, runSpacing: 6,
               children: remaining.map((w) => ActionChip(
                     label    : DeutschText(w, ganzeZeile: false),

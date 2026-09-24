@@ -13,6 +13,7 @@ import '../controllers/unregelm_controller.dart';
 import '../models/unregelm_verb.dart';
 import '../widgets/verb_class_badge.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class UnregelmListScreen extends ConsumerStatefulWidget {
   const UnregelmListScreen({super.key});
@@ -235,7 +236,7 @@ class _VerbTile extends StatelessWidget {
                     Row(
                       children: [
                         Flexible(
-                          child: Text(
+                          child: DeutschText(ganzeZeile: false, 
                             verb.verbInfinitive,
                             style: tt.titleMedium
                                 ?.copyWith(fontWeight: FontWeight.w700),
@@ -246,7 +247,7 @@ class _VerbTile extends StatelessWidget {
                       ],
                     ),
                     const SizedBox(height: 2),
-                    Text(
+                    DeutschText(ganzeZeile: false, 
                       '${verb.principalParts.praeteritum}  ·  ${verb.principalParts.partizipIi}',
                       style: tt.bodySmall?.copyWith(
                           color: cs.onSurfaceVariant,
@@ -298,7 +299,7 @@ class _AblautChip extends StatelessWidget {
         border      : Border.all(
             color: const Color(0xFF37474F).withValues(alpha: 0.3)),
       ),
-      child: Text(
+      child: DeutschText(ganzeZeile: false,
         pattern,
         style: const TextStyle(
           fontSize  : 9,

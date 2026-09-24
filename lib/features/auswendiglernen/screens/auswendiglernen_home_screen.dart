@@ -365,7 +365,7 @@ class _DeckTile extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    DeutschText(
+                    DeutschText(ganzeZeile: false, // Listentitel neben dem Symbol
                       deck.titleDe,
                       style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                             fontWeight: FontWeight.w600,

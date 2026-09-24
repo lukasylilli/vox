@@ -140,3 +140,38 @@ class DeutschRichText extends StatelessWidget {
         textAlign : textAlign,
       );
 }
+
+/// Beschriftung in der Oberflächensprache + deutscher Wert, z. B.
+/// «جمع: die Tische» oder «Synonym: sich verabschieden».
+///
+/// Nachtrag 2026-09-23: Beides in EINEM `Text` mischte die Richtungen — in
+/// RTL landete der deutsche Teil verdreht. Jetzt: die Beschriftung folgt der
+/// Oberfläche, der Wert läuft als `DeutschText` links-nach-rechts daneben.
+class DeutschMitEtikett extends StatelessWidget {
+  const DeutschMitEtikett({
+    super.key,
+    required this.etikett,
+    required this.wert,
+    this.style,
+  });
+
+  /// Übersetzte Beschriftung (ohne Doppelpunkt — der wird hier gesetzt,
+  /// falls sie keinen hat).
+  final String etikett;
+  final String wert;
+  final TextStyle? style;
+
+  @override
+  Widget build(BuildContext context) {
+    final e = etikett.trimRight();
+    if (wert.isEmpty) return Text(e, style: style); // nur die Meldung
+    return Row(
+      crossAxisAlignment: CrossAxisAlignment.baseline,
+      textBaseline: TextBaseline.alphabetic,
+      children: [
+        Text(e.endsWith(':') ? '$e ' : '$e: ', style: style),
+        Flexible(child: DeutschText(wert, style: style, ganzeZeile: false)),
+      ],
+    );
+  }
+}

@@ -75,7 +75,7 @@ class _FrontFace extends StatelessWidget {
           ),
           if (model.plural != null) ...[
             const SizedBox(height: AppSizes.xs),
-            Text('Pl. ${model.plural}',
+            DeutschText(ganzeZeile: false, 'Pl. ${model.plural}',
               style: theme.textTheme.bodyMedium?.copyWith(
                 color: scheme.onSurfaceVariant,
               )),

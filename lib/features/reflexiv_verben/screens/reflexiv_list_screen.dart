@@ -13,6 +13,7 @@ import '../controllers/reflexiv_controller.dart';
 import '../models/reflexiv_verb.dart';
 import '../widgets/reflexivity_type_badge.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class ReflexivListScreen extends ConsumerStatefulWidget {
   const ReflexivListScreen({super.key});
@@ -239,7 +240,7 @@ class _VerbTile extends StatelessWidget {
                     Row(
                       children: [
                         Flexible(
-                          child: Text(
+                          child: DeutschText(ganzeZeile: false, 
                             verb.verbInfinitive,
                             style: tt.titleMedium
                                 ?.copyWith(fontWeight: FontWeight.w700),
@@ -264,7 +265,7 @@ class _VerbTile extends StatelessWidget {
                     ),
                     if (verb.preposition != null) ...[
                       const SizedBox(height: 2),
-                      Text(
+                      DeutschText(ganzeZeile: false, 
                         '${verb.verbInfinitive} ${verb.preposition} + ${verb.prepositionCase ?? ''}',
                         style: TextStyle(
                           fontSize: 10,

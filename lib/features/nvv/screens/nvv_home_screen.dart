@@ -233,7 +233,7 @@ class _NvvTile extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    DeutschText(
+                    DeutschText(ganzeZeile: false, // Listentitel neben dem Symbol
                       phrase.phraseDe,
                       style: tt.titleMedium
                           ?.copyWith(fontWeight: FontWeight.w700),
@@ -247,7 +247,7 @@ class _NvvTile extends StatelessWidget {
                     ),
                     if (phrase.hasPreposition) ...[
                       const SizedBox(height: 2),
-                      Text(
+                      DeutschText(ganzeZeile: false, 
                         phrase.preposition!,
                         style: TextStyle(
                           fontSize  : 12,

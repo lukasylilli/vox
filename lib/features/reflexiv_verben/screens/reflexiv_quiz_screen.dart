@@ -320,11 +320,12 @@ class _ReflexivQuizScreenState extends State<ReflexivQuizScreen> {
                 borderRadius: BorderRadius.circular(10),
               ),
               child: Wrap(
+                textDirection: TextDirection.ltr, // deutsche Wortbausteine: Lesereihenfolge
                 spacing: 6,
                 runSpacing: 6,
                 children: _arranged
                     .map((w) => ActionChip(
-                          label    : Text(w),
+                          label    : DeutschText(w, ganzeZeile: false),
                           onPressed: _answered
                               ? null
                               : () => setState(
@@ -345,12 +346,13 @@ class _ReflexivQuizScreenState extends State<ReflexivQuizScreen> {
             const SizedBox(height: 12),
             // word bank
             Wrap(
+              textDirection: TextDirection.ltr, // deutsche Wortbausteine: Lesereihenfolge
               spacing  : 6,
               runSpacing: 6,
               children : q.shuffledWords
                   .where((w) => !placed.contains(w))
                   .map((w) => ActionChip(
-                        label    : Text(w),
+                        label    : DeutschText(w, ganzeZeile: false),
                         onPressed: _answered
                             ? null
                             : () => setState(() => _arranged.add(w)),
@@ -364,7 +366,7 @@ class _ReflexivQuizScreenState extends State<ReflexivQuizScreen> {
         return Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Text('${q.clozePrefix} ___ ${q.clozeSuffix}',
+            DeutschText('${q.clozePrefix} ___ ${q.clozeSuffix}',
                 style: const TextStyle(fontSize: 16, height: 1.6)),
             const SizedBox(height: 16),
             TextField(
@@ -380,7 +382,7 @@ class _ReflexivQuizScreenState extends State<ReflexivQuizScreen> {
             ),
             if (_answered) ...[
               const SizedBox(height: 8),
-              Text(
+              DeutschText(
                 q.clozeAnswer,
                 style: TextStyle(
                     color     : _isCorrect() ? Colors.green : Colors.red,

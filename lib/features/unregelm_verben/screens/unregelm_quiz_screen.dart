@@ -234,7 +234,17 @@ class _UnregelmQuizScreenState extends State<UnregelmQuizScreen> {
                       ],
                     ),
                     const SizedBox(height: 8),
-                    Text(
+                    // Lückentext-Aufgabe ist Deutsch, die übrigen Aufgaben folgen der Oberfläche.
+                    q.type == _QuizType.cloze
+                        ? DeutschText(
+                      _prompt(q),
+                      textAlign: TextAlign.center,
+                      style: Theme.of(context)
+                          .textTheme
+                          .titleLarge
+                          ?.copyWith(fontWeight: FontWeight.w700),
+                    )
+                        : Text(
                       _prompt(q),
                       textAlign: TextAlign.center,
                       style: Theme.of(context)
@@ -296,10 +306,11 @@ class _UnregelmQuizScreenState extends State<UnregelmQuizScreen> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Wrap(
+              textDirection: TextDirection.ltr, // deutsche Wortbausteine: Lesereihenfolge
               spacing: 8, runSpacing: 8,
               children: _arranged
                   .map((w) => ActionChip(
-                        label    : Text(w),
+                        label    : DeutschText(w, ganzeZeile: false),
                         onPressed: _answered
                             ? null
                             : () => setState(() => _arranged.remove(w)),
@@ -308,10 +319,11 @@ class _UnregelmQuizScreenState extends State<UnregelmQuizScreen> {
             ),
             const Divider(height: 24),
             Wrap(
+              textDirection: TextDirection.ltr, // deutsche Wortbausteine: Lesereihenfolge
               spacing: 8, runSpacing: 8,
               children: remaining
                   .map((w) => ActionChip(
-                        label    : Text(w),
+                        label    : DeutschText(w, ganzeZeile: false),
                         onPressed: _answered
                             ? null
                             : () => setState(() => _arranged.add(w)),
@@ -346,10 +358,10 @@ class _UnregelmQuizScreenState extends State<UnregelmQuizScreen> {
             ),
             if (_answered) ...[
               const SizedBox(height: 12),
-              Text('✓ ${q.clozeAnswer}',
+              DeutschText('✓ ${q.clozeAnswer}',
                   style: const TextStyle(color: Colors.green)),
               const SizedBox(height: 4),
-              Text(
+              DeutschText(
                 '${q.verb.verbInfinitive}  →  ${q.verb.principalParts.praesens3sg}  →  ${q.verb.principalParts.praeteritum}  →  ${q.verb.principalParts.partizipIi}',
                 style: TextStyle(
                     color    : cs.onSurfaceVariant,

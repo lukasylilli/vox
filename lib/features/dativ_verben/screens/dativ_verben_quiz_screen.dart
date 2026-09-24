@@ -317,7 +317,7 @@ class _MCBody extends StatelessWidget {
           style: Theme.of(context).textTheme.titleMedium,
         ),
         const SizedBox(height: 6),
-        Text(
+        DeutschText(ganzeZeile: false, 
           q.verb.verbInfinitive,
           style: Theme.of(context).textTheme.headlineSmall
               ?.copyWith(fontWeight: FontWeight.w800),
@@ -407,6 +407,7 @@ class _WordOrderBody extends StatelessWidget {
             ),
           ),
           child: Wrap(
+            textDirection: TextDirection.ltr, // deutsche Wortbausteine: Lesereihenfolge
             spacing   : 8,
             runSpacing: 8,
             children  : arranged.map((w) => _WordChip(
@@ -422,6 +423,7 @@ class _WordOrderBody extends StatelessWidget {
         const SizedBox(height: 12),
         // available words
         Wrap(
+          textDirection: TextDirection.ltr, // deutsche Wortbausteine: Lesereihenfolge
           spacing   : 8,
           runSpacing: 8,
           children  : remaining.map((w) => _WordChip(
@@ -475,7 +477,7 @@ class _WordChip extends StatelessWidget {
             color       : color,
             borderRadius: BorderRadius.circular(8),
           ),
-          child: Text(word, style: const TextStyle(fontWeight: FontWeight.w500)),
+          child: DeutschText(ganzeZeile: false, word, style: const TextStyle(fontWeight: FontWeight.w500)),
         ),
       );
 }
@@ -544,8 +546,10 @@ class _ClozeBody extends StatelessWidget {
             onPressed: onSubmit,
           ),
         if (answered)
-          Text(
-            correct ? AppL10n.t(context, 'correct_check') : '${AppL10n.t(context, 'answer_wrong_prefix')} ${q.clozeAnswer}',
+          // Meldung folgt der Oberfläche, die richtige Antwort ist Deutsch (LTR, 2026-09-23).
+          DeutschMitEtikett(
+            etikett: correct ? AppL10n.t(context, 'correct_check') : AppL10n.t(context, 'answer_wrong_prefix'),
+            wert   : correct ? '' : q.clozeAnswer,
             style: TextStyle(
               color     : correct ? Colors.green : Colors.red,
               fontWeight: FontWeight.w700,

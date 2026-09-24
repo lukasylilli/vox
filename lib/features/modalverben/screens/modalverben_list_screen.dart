@@ -13,6 +13,7 @@ import '../../../core/widgets/vox_loading_widget.dart';
 import '../controllers/modalverben_controller.dart';
 import '../models/modal_verb.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class ModalverbenListScreen extends ConsumerWidget {
   const ModalverbenListScreen({super.key});
@@ -72,7 +73,7 @@ class _VerbCard extends StatelessWidget {
               Row(
                 children: [
                   Expanded(
-                    child: Text(
+                    child: DeutschText(ganzeZeile: false, 
                       verb.infinitive,
                       style: theme.textTheme.titleLarge?.copyWith(
                         fontWeight: FontWeight.w800,
@@ -87,7 +88,7 @@ class _VerbCard extends StatelessWidget {
                       color       : cs.primaryContainer,
                       borderRadius: BorderRadius.circular(8),
                     ),
-                    child: Text(
+                    child: DeutschText(ganzeZeile: false, 
                       'ich ${verb.praesens['ich']} · '
                       'ich ${verb.praeteritum['ich']}',
                       style: TextStyle(

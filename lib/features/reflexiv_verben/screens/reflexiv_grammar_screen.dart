@@ -249,7 +249,7 @@ class _ProTable extends StatelessWidget {
           children: headers
               .map((h) => Padding(
                     padding: const EdgeInsets.all(7),
-                    child: Text(h,
+                    child: DeutschText(ganzeZeile: false, h,
                         style: const TextStyle(
                             fontSize: 11, fontWeight: FontWeight.w700)),
                   ))
@@ -259,7 +259,7 @@ class _ProTable extends StatelessWidget {
               children: r
                   .map((c) => Padding(
                         padding: const EdgeInsets.all(7),
-                        child: Text(c, style: const TextStyle(fontSize: 12)),
+                        child: DeutschText(ganzeZeile: false, c, style: const TextStyle(fontSize: 12)),
                       ))
                   .toList(),
             )),
@@ -400,7 +400,7 @@ class _PrepGroup extends StatelessWidget {
             color: cs.primaryContainer.withValues(alpha: 0.5),
             borderRadius: BorderRadius.circular(6),
           ),
-          child: Text(prep,
+          child: DeutschText(ganzeZeile: false, prep,
               style: const TextStyle(
                   fontWeight: FontWeight.w700, fontSize: 13)),
         ),

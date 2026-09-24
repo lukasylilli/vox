@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 
 import '../../../core/constants/app_sizes.dart';
 import '../../../core/l10n/app_l10n.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class MemorizeCardWidget extends StatefulWidget {
   const MemorizeCardWidget({
@@ -141,7 +142,7 @@ class _FrontFace extends StatelessWidget {
                   )),
             ),
           if (level != null) const SizedBox(height: AppSizes.md),
-          Text(
+          DeutschText(ganzeZeile: false,
             phrase,
             style    : Theme.of(context).textTheme.headlineSmall?.copyWith(
                   color     : scheme.onPrimaryContainer,

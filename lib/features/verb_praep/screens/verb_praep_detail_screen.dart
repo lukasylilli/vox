@@ -41,7 +41,7 @@ class _VerbPraepDetailScreenState
 
         return Scaffold(
           appBar: AppBar(
-            title: Text(verb.displayVerb),
+            title: DeutschText(ganzeZeile: false, verb.displayVerb),
           ),
           body: ListView(
             padding: const EdgeInsets.fromLTRB(16, 8, 16, 80),
@@ -218,7 +218,10 @@ class _PrincipalPartsCard extends StatelessWidget {
       margin: EdgeInsets.zero,
       child : Padding(
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-        child: Column(
+        child: Directionality(
+          // Deutsche Formen-Tabelle ⇒ fest LTR (2026-09-23)
+          textDirection: TextDirection.ltr,
+          child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Row(
@@ -237,7 +240,7 @@ class _PrincipalPartsCard extends StatelessWidget {
               ],
             ),
           ],
-        ),
+        )),
       ),
     );
   }

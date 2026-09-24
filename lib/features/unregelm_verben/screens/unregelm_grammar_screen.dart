@@ -122,7 +122,7 @@ class _GreenChip extends StatelessWidget {
           borderRadius: BorderRadius.circular(6),
           border      : Border.all(color: Colors.green.withValues(alpha: 0.4)),
         ),
-        child: Text(text,
+        child: DeutschText(ganzeZeile: false, text,
             style: const TextStyle(
                 fontSize  : 12,
                 color     : Colors.green,
@@ -228,7 +228,7 @@ class _PrincipalParts extends StatelessWidget {
                     children: ['Infinitiv', 'Präteritum', 'Partizip II']
                         .map((h) => Padding(
                               padding: const EdgeInsets.all(6),
-                              child: Text(h,
+                              child: DeutschText(ganzeZeile: false, h,
                                   style: const TextStyle(
                                       fontSize  : 11,
                                       fontWeight: FontWeight.w700)),
@@ -257,7 +257,7 @@ class _TC extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Padding(
         padding: const EdgeInsets.all(6),
-        child: Text(text,
+        child: DeutschText(ganzeZeile: false, text,
             style: const TextStyle(
                 fontSize: 12, fontWeight: FontWeight.w500)),
       );
@@ -399,7 +399,7 @@ class _Partizip2Formation extends StatelessWidget {
                       color       : const Color(0xFF1565C0).withValues(alpha: 0.08),
                       borderRadius: BorderRadius.circular(6),
                     ),
-                    child: Text(r['formula'] as String,
+                    child: DeutschText(ganzeZeile: false, r['formula'] as String,
                         style: const TextStyle(
                             fontSize  : 13,
                             fontFamily: 'monospace',
@@ -483,7 +483,7 @@ class _PraesensVowel extends StatelessWidget {
                               color: const Color(0xFF00838F)
                                   .withValues(alpha: 0.4)),
                         ),
-                        child: Text(g['change'] as String,
+                        child: DeutschText(ganzeZeile: false, g['change'] as String,
                             style: const TextStyle(
                                 fontSize  : 12,
                                 color     : Color(0xFF00838F),
@@ -517,7 +517,7 @@ class _PraesensVowel extends StatelessWidget {
                       ],
                       rows: examples
                           .map((e) => DataRow(cells: [
-                                DataCell(Text(e['infinitiv'] as String,
+                                DataCell(DeutschText(e['infinitiv'] as String,
                                     style: const TextStyle(
                                         fontWeight: FontWeight.w600))),
                                 DataCell(Text(e['ich'] as String)),
@@ -586,7 +586,7 @@ class _HabenSein extends StatelessWidget {
                           border: Border.all(
                               color: color.withValues(alpha: 0.4)),
                         ),
-                        child: Text(aux,
+                        child: DeutschText(ganzeZeile: false, aux,
                             style: TextStyle(
                                 fontSize  : 12,
                                 color     : color,
@@ -735,7 +735,7 @@ class _ModalVerbs extends StatelessWidget {
               ),
               columns: ctHeaders
                   .map((h) => DataColumn(
-                        label: Text(h,
+                        label: DeutschText(ganzeZeile: false, h,
                             style: const TextStyle(
                                 fontWeight: FontWeight.w700,
                                 fontSize  : 12)),
@@ -747,7 +747,7 @@ class _ModalVerbs extends StatelessWidget {
                           DataCell(Text(row[0],
                               style: const TextStyle(
                                   fontWeight: FontWeight.w600))),
-                          ...row.sublist(1).map((c) => DataCell(Text(c,
+                          ...row.sublist(1).map((c) => DataCell(DeutschText(ganzeZeile: false, c,
                               style: const TextStyle(
                                   fontSize  : 12,
                                   fontWeight: FontWeight.w500,
@@ -779,7 +779,7 @@ class _ModalVerbs extends StatelessWidget {
                   columnSpacing   : 20,
                   columns: ptHeaders
                       .map((h) => DataColumn(
-                            label: Text(h,
+                            label: DeutschText(ganzeZeile: false, h,
                                 style: const TextStyle(
                                     fontWeight: FontWeight.w700,
                                     fontSize  : 11)),
@@ -788,7 +788,7 @@ class _ModalVerbs extends StatelessWidget {
                   rows: ptRows
                       .map((row) => DataRow(
                             cells: row
-                                .map((c) => DataCell(Text(c,
+                                .map((c) => DataCell(DeutschText(ganzeZeile: false, c,
                                     style: const TextStyle(fontSize: 12))))
                                 .toList(),
                           ))
@@ -846,7 +846,7 @@ class _FullyIrregular extends StatelessWidget {
                 children: [
                   Row(
                     children: [
-                      Text(v['infinitiv'] as String,
+                      DeutschText(v['infinitiv'] as String,
                           style: const TextStyle(
                               fontWeight: FontWeight.w800,
                               fontSize  : 16)),
@@ -970,7 +970,7 @@ class _CompoundVerbs extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(f['base'] as String,
+                  DeutschText(f['base'] as String,
                       style: const TextStyle(
                           fontWeight: FontWeight.w700)),
                   const SizedBox(height: 6),
@@ -978,7 +978,7 @@ class _CompoundVerbs extends StatelessWidget {
                     spacing: 6, runSpacing: 6,
                     children: compounds
                         .map((c) => Chip(
-                              label  : Text(c,
+                              label  : DeutschText(ganzeZeile: false, c,
                                   style: const TextStyle(fontSize: 11)),
                               padding: EdgeInsets.zero,
                             ))
@@ -1045,7 +1045,7 @@ class _CommonMistakes extends StatelessWidget {
                                 const Text('✗ ',
                                     style: TextStyle(color: Colors.red)),
                                 Expanded(
-                                  child: Text(e['wrong'] as String,
+                                  child: DeutschText(e['wrong'] as String,
                                       style: const TextStyle(
                                           color    : Colors.red,
                                           fontSize : 12,
@@ -1059,7 +1059,7 @@ class _CommonMistakes extends StatelessWidget {
                                 const Text('✓ ',
                                     style: TextStyle(color: Colors.green)),
                                 Expanded(
-                                  child: Text(e['correct'] as String,
+                                  child: DeutschText(e['correct'] as String,
                                       style: const TextStyle(
                                           color    : Colors.green,
                                           fontSize : 12,

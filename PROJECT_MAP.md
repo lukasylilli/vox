@@ -3,6 +3,7 @@
 # آپدیت: 2026-09-23 دور ۲۵ — خلاصه‌سازی دوم (درخواست Lukas): کارنامه‌ی دورها به یک خط کوتاه شد؛ متن کامل قبلی: `git show a078dc2:PROJECT_MAP.md`.
 #   تازه‌ها در همین روز: web/locale_guard.js · leitnerEintraegeProvider (لایتنر دو منبع، B-13) · wende_karte.dart + archiv_flash_card.dart · WortZeile در wort_card.dart
 #   · wort_popup.dart (_WortKopf تلفظ، _LadenFehlgeschlagen) · deutschLinksbuendig + DeutschRichText (core/widgets/deutsch_text.dart) · vokab_formen.dart ⇒ assets/vocab_formen/.
+# دور ۲۶–۲۷: DeutschMitEtikett (deutsch_text.dart) · جدول/ردیف‌های آلمانی deckها Directionality(ltr) · Wrap(textDirection: ltr) در همه‌ی تمرین‌های مرتب‌کردن · نگهبان deutscher_text_waechter_test با ~۴۰ فیلد.
 # 🚀 کارهای باز قبل از انتشار (فهرست کامل): PLAN.md → «🚀 قبل از انتشار». بعد از انتشار: PLAN.md → «⏭️ بعد از انتشار».
 #
 # ⚠️ 2026-09-19 (اصلاح یادداشت آفلاین): «precache شدنی است» فقط برای ~۷٫۵MB فعلی (۸۷ کارت) درست است. کارت ~۴KB ⇒ ~۲۶٬۲۰۰ کارت ≈ ~۱۰۰MB

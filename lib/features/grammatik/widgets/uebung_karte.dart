@@ -20,6 +20,7 @@ import '../../../core/l10n/app_l10n.dart';
 import '../../../core/widgets/vox_button.dart';
 import '../models/beispiel_uebungen.dart';
 import '../models/grammatik_uebung.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 /// Schlüssel des „Prüfen"-Knopfs (für Tests).
 const uebungPruefenKey = ValueKey<String>('uebung-pruefen');
@@ -263,7 +264,7 @@ class _UebungKarteState extends State<UebungKarte> {
                     // fester Satzanfang (G7c) — nicht verschiebbar
                     if (_u.vorgabe.isNotEmpty)
                       Chip(
-                        label: Text(_u.vorgabe,
+                        label: DeutschText(ganzeZeile: false, _u.vorgabe,
                             style: const TextStyle(fontWeight: FontWeight.w700)),
                         backgroundColor: cs.secondaryContainer,
                       ),

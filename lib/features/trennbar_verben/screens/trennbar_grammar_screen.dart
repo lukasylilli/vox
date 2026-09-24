@@ -175,7 +175,7 @@ class _CategoryBlock extends StatelessWidget {
                           color       : color.withValues(alpha: 0.12),
                           borderRadius: BorderRadius.circular(4),
                         ),
-                        child: Text(p,
+                        child: DeutschText(ganzeZeile: false, p,
                             style: TextStyle(
                                 fontSize  : 11,
                                 color     : color,
@@ -214,7 +214,7 @@ class _ExPair extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(verb,
+        DeutschText(ganzeZeile: false, verb,
             style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 12)),
         if (trDe.isNotEmpty) ...[
           const SizedBox(height: 2),
@@ -312,7 +312,7 @@ class _PrefixTable extends StatelessWidget {
                   e['prefix'] as String? ?? '',
                   e['type'] as String? ?? ''),
               _TCell(_loc(context, e, 'meaning')),
-              _TCell(e['example_de'] as String? ?? '',
+              _TCell(e['example_de'] as String? ?? '', deutsch: true,
                   italic: true),
             ],
           ),
@@ -322,22 +322,26 @@ class _PrefixTable extends StatelessWidget {
 }
 
 class _TCell extends StatelessWidget {
-  const _TCell(this.text, {this.header = false, this.italic = false});
+  const _TCell(this.text,
+      {this.header = false, this.italic = false, this.deutsch = false});
   final String text;
   final bool   header;
   final bool   italic;
+  /// Deutscher Zelleninhalt ⇒ LTR (2026-09-23).
+  final bool   deutsch;
+
+  TextStyle get _stil => TextStyle(
+        fontSize  : 11,
+        fontWeight: header ? FontWeight.w700 : FontWeight.normal,
+        fontStyle : italic ? FontStyle.italic : FontStyle.normal,
+      );
 
   @override
   Widget build(BuildContext context) => Padding(
         padding: const EdgeInsets.all(6),
-        child: Text(
-          text,
-          style: TextStyle(
-            fontSize  : header ? 11 : 11,
-            fontWeight: header ? FontWeight.w700 : FontWeight.normal,
-            fontStyle : italic ? FontStyle.italic : FontStyle.normal,
-          ),
-        ),
+        child: deutsch
+            ? DeutschText(text, ganzeZeile: false, style: _stil)
+            : Text(text, style: _stil),
       );
 }
 
@@ -358,7 +362,7 @@ class _TypedPrefixCell extends StatelessWidget {
     final color = _color(type);
     return Padding(
       padding: const EdgeInsets.all(6),
-      child: Text(
+      child: DeutschText(ganzeZeile: false,
         prefix,
         style: TextStyle(
           fontSize  : 12,

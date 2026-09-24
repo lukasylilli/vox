@@ -6,6 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../core/constants/app_sizes.dart';
 import '../controllers/verb_praep_controller.dart';
 import '../../../core/l10n/app_l10n.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class VerbPraepGrammarScreen extends ConsumerWidget {
   const VerbPraepGrammarScreen({super.key});
@@ -280,7 +281,7 @@ class _SubRule extends StatelessWidget {
               style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 13)),
           if (formation.isNotEmpty) ...[
             const SizedBox(height: 4),
-            Text(formation,
+            DeutschText(ganzeZeile: false, formation,
                 style: const TextStyle(
                     fontStyle: FontStyle.italic, fontSize: 13)),
           ],
@@ -383,7 +384,7 @@ class _SummaryTable extends StatelessWidget {
                   children: [
                     _TCell(AppL10n.loc(context, r, 'situation')),
                     _TCell(AppL10n.loc(context, r, 'form')),
-                    _TCell(r['example']      as String? ?? ''),
+                    _TCell(r['example']      as String? ?? '', deutsch: true),
                   ],
                 )),
           ],
@@ -394,18 +395,24 @@ class _SummaryTable extends StatelessWidget {
 }
 
 class _TCell extends StatelessWidget {
-  const _TCell(this.text, {this.header = false});
+  const _TCell(this.text, {this.header = false, this.deutsch = false});
   final String text;
   final bool   header;
+  /// Deutscher Zelleninhalt ⇒ LTR (2026-09-23).
+  final bool   deutsch;
 
   @override
-  Widget build(BuildContext context) => Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 5),
-        child: Text(text,
-            style: TextStyle(
-                fontSize  : 12,
-                fontWeight: header ? FontWeight.w700 : FontWeight.normal)),
-      );
+  Widget build(BuildContext context) {
+    final stil = TextStyle(
+        fontSize  : 12,
+        fontWeight: header ? FontWeight.w700 : FontWeight.normal);
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 5),
+      child: deutsch
+          ? DeutschText(text, ganzeZeile: false, style: stil)
+          : Text(text, style: stil),
+    );
+  }
 }
 
 // ─── da_compounds ─────────────────────────────────────────────────────────────
@@ -545,7 +552,7 @@ class _ReflexiveWithPrep extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 if (verb.isNotEmpty)
-                  Text(verb,
+                  DeutschText(ganzeZeile: false, verb,
                       style: const TextStyle(
                           fontWeight: FontWeight.w700, fontSize: 13)),
                 if (stmt.isNotEmpty)
@@ -724,7 +731,7 @@ class _FullPattern extends StatelessWidget {
                                 fontWeight: FontWeight.w600,
                                 fontSize: 12)),
                         if (example.isNotEmpty)
-                          Text(example,
+                          DeutschText(example,
                               style: const TextStyle(
                                   fontSize: 12,
                                   fontStyle: FontStyle.italic)),
@@ -775,7 +782,7 @@ class _FullExCard extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           if (verb.isNotEmpty)
-            Text(verb,
+            DeutschText(ganzeZeile: false, verb,
                 style: const TextStyle(
                     fontWeight: FontWeight.w700, fontSize: 13)),
           ...steps.asMap().entries.map((e) => Text(

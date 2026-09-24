@@ -13,6 +13,7 @@ import '../controllers/trennbar_controller.dart';
 import '../models/trennbar_verb.dart';
 import '../widgets/prefix_type_badge.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../../core/widgets/deutsch_text.dart';
 
 class TrennbarListScreen extends ConsumerStatefulWidget {
   const TrennbarListScreen({super.key});
@@ -227,7 +228,7 @@ class _VerbTile extends StatelessWidget {
                     Row(
                       children: [
                         Flexible(
-                          child: Text(
+                          child: DeutschText(ganzeZeile: false, 
                             verb.verbInfinitive,
                             style: tt.titleMedium
                                 ?.copyWith(fontWeight: FontWeight.w700),
