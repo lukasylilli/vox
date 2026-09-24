@@ -44,6 +44,10 @@ const zurueckgestellt = <String>{
   'afrikaans',
   'aldente', // Schreibung zweifelhaft (Duden: «al dente») 2026-09-24
   'aleppinisch', // Gebrauch als Adjektiv unsicher 2026-09-24
+  'allenfallsig', // keine gesicherte Form (nur Adverb «allenfalls») 2026-09-24
+  'altaltbacken', // Schreibung zweifelhaft (wohl «altbacken») 2026-09-24
+  'Altdorfer', // Eigenname/Herkunftsbezeichnung, kein gewöhnliches Adjektiv 2026-09-24
+  'altkrank', // Bedeutung/Gebrauch unsicher 2026-09-24
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

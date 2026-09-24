@@ -68,6 +68,7 @@
 #   ⚠️ کپی‌رایت: هیچ جمله/تمرینی از کتاب کپی نمی‌شود — فقط موضوع؛ متن و مثال و تمرین از نو نوشته می‌شود.
 # 🌐 زبان شروع: پیش‌فرض انگلیسی، فقط روی دستگاه فارسی‌زبان فارسی — تنها منبع: core/l10n/geraete_sprache.dart.
 # دور ۵۷ (2026-09-24): L.4d ثبت شد (Lukas) ⇒ PLAN.md بخش تازه «🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای» (ته فایل) + L.4 + «بعد از انتشار» + فهرست مطالب؛ بعد از همه‌ی کلمه‌ها Claude پیدا می‌کند، Lukas تصمیم می‌گیرد. کد عوض نشد.
+# دور ۵۸–۶۲ (2026-09-24، یک چت): +۵۰ کارت (alleine … alttestamentlich) در assets/vocab/adjektiv/ ⇒ آرشیو ۳۳۶؛ allenfallsig، altaltbacken، Altdorfer، altkrank کنار گذاشته شدند (zurueckgestellt در tool/naechste_woerter.dart + PLAN «🏁 مرحله‌ی آخر»).
 # 🎯 وضعیت (2026-09-23): ۳۰۰ فایل Dart (۱۸۲ features + ۱۱۶ core) · DB schema v7 · ۳۰۹ تست سبز · analyze سبز.
 #   کارهای باز و کارنامه‌ی جلسه‌ها: PLAN.md بالای فایل.
 
@@ -128,7 +129,7 @@
   · **عبارت** (NVV/Redemittel، «eine Entscheidung treffen») ⇒ کلمه‌ی سازنده (Entscheidung) صفحه‌ی **جدید** خودش را می‌گیرد؛ صفحه‌ی عبارت همان‌طور می‌ماند و **بعد از وارد شدن همه‌ی کلمه‌ها** جداگانه گسترش پیدا می‌کند (L.4c). عبارت هرگز با کارت کلمه جفت/ادغام نمی‌شود.
   · جفت‌کردن فقط در `features/wortschatz/data/altwort_karte.dart`.
 - **🔁 تکراری‌ها (L.4d، Lukas 2026-09-24):** بعد از وارد شدن همه‌ی کلمه‌ها، Claude همه‌ی منابع (`assets/vocab/**`، deckها/صفحه‌های قبلی از طریق `altwort_karte.dart`، فهرست‌های `Wörter/`) را برای کلمه‌های چندنسخه‌ای می‌گردد و در PLAN.md → «🔁 مرحله‌ی آخر (۲)» ثبت می‌کند؛ تصمیم فقط با Lukas، هیچ حذف/ادغام خودسرانه.
-- **پیشرفت (2026-09-24 دور ۵۳):** آخرین کلمه‌ی ساخته‌شده **allein** · بعدی **alleine** · کنار گذاشته: abatisch، abdikativ، afrikaans، aldente، aleppinisch (فهرست کامل: PLAN.md → «🏁 مرحله‌ی آخر») · آرشیو: ۲۸۶ کارت.
+- **پیشرفت (2026-09-24 دور ۶۲):** آخرین کلمه‌ی ساخته‌شده **alttestamentlich** · بعدی **altäthiopisch** · کنار گذاشته: abatisch، abdikativ، afrikaans، aldente، aleppinisch، allenfallsig، altaltbacken، Altdorfer، altkrank (فهرست کامل: PLAN.md → «🏁 مرحله‌ی آخر») · آرشیو: ۳۳۶ کارت.
 
 ## TECH STACK
 - Flutter Web — reine Web-App, gehostet auf GitHub Pages (seit 2026-09-13)

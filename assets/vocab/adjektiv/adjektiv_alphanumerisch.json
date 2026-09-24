@@ -1,0 +1,127 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_alphanumerisch",
+  "wort": "alphanumerisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "الفبایی-عددی",
+      "ترکیب حرف و عدد"
+    ],
+    "en": [
+      "alphanumeric"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Computer"
+  ],
+  "ipa": "alfanuˈmeːʁɪʃ",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Passwort ist alphanumerisch.",
+      "uebersetzung": {
+        "fa": "رمز عبور ترکیبی از حرف و عدد است.",
+        "en": "The password is alphanumeric."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ein sicheres Passwort sollte alphanumerisch sein, weil reine Zahlen leicht zu erraten sind.",
+      "uebersetzung": {
+        "fa": "یک رمز عبور امن باید ترکیبی از حرف و عدد باشد، چون فقط عدد به‌راحتی حدس زده می‌شود.",
+        "en": "A secure password should be alphanumeric because numbers alone are easy to guess."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "numerisch",
+      "uebersetzung": {
+        "fa": "عددی",
+        "en": "numeric"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Alpha(bet) (الفبا) + numerisch (عددی)",
+    "en": "Alpha(bet) (alphabet) + numerisch (numeric)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "alphanumerisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein alphanumerischer Code",
+      "die alphanumerische Eingabe"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Alphabet",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "الفبا",
+          "en": "alphabet"
+        },
+        "id_ref": "nomen_alphabet"
+      },
+      {
+        "wort": "die Zahl",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عدد",
+          "en": "number"
+        },
+        "id_ref": "nomen_zahl"
+      },
+      {
+        "wort": "der Buchstabe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حرف",
+          "en": "letter"
+        },
+        "id_ref": "nomen_buchstabe"
+      },
+      {
+        "wort": "das Passwort",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رمز عبور",
+          "en": "password"
+        },
+        "id_ref": "nomen_passwort"
+      },
+      {
+        "wort": "numerisch",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "عددی",
+          "en": "numeric"
+        },
+        "id_ref": "adjektiv_numerisch"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
