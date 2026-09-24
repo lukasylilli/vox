@@ -5,10 +5,15 @@
 //          Dativ/Akkusativ, Konnektoren, NVV, Präpositionen) gehört zu welcher
 //          Prompt-Karte (assets/vocab/, SUPER-PROMPT 3.0)?»
 //
-// REGEL (Lukas): Vom alten Wort und seiner Seite wird NICHTS gelöscht. Die
-//   alte Seite (word_detail_screen.dart) wird um die ganze Karte ERWEITERT und
-//   bleibt die einzige Seite des Worts; die Liste zeigt nur die alte Zeile;
-//   jeder Link auf die Karte führt zur alten Seite.
+// GRUNDREGEL (Lukas, 2026-09-24 — ersetzt die früheren Regeln L.4b/L.4b-2/
+//   L.4c «alte Seite statt neuer Seite»): Jedes Wort der Wortlisten bekommt
+//   IMMER eine eigene Karte mit eigener Seite und eigener Zeile — egal ob es
+//   das Wort schon gab (allein, mit Präposition, mit «sich», als Ausdruck).
+//   Nichts wird gelöscht, nichts umgeleitet, nichts ausgeblendet. Doppelte
+//   sucht Claude erst ganz am Ende (PLAN.md → L.4d); Lukas entscheidet.
+//   Diese Paarung bestimmt NUR noch, unter welcher alten Seite die Karte
+//   ZUSÄTZLICH angezeigt wird (word_detail_screen.dart, eine weitere Tür;
+//   nichts wird dort gelöscht) — und liefert L.4d die bekannten Paare.
 //
 // PAARUNG — nie geraten (Projektregel 3: lieber kein Paar als ein falsches):
 //   · nur App-Wörter (`ausApp`), nie eigene Wörter des Nutzers;
@@ -23,21 +28,11 @@
 //     «vertrauen auf», «vertrauen in») — sie erscheint dann unter JEDER davon
 //     (eine Karte, mehrere Türen). Nur zwei alte Einträge OHNE Präposition für
 //     dieselbe Karte gelten als unklar ⇒ die Karte wird gar nicht gepaart.
-//   · Ziel eines Links auf die Karte (Wortnetz, Popup …): die alte Seite ohne
-//     Präposition; gibt es die nicht, die einzige mit Präposition; bei mehreren
-//     die alphabetisch erste (alle zeigen dieselbe Karte).
+//   · Ausdrücke (NVV/Redemittel) werden nie gepaart («Lemma exakt gleich»).
 //   Beispiele: «helfen|verb» ↔ verb_helfen ✓ · «warten auf|verb» ↔ verb_warten ✓
 //   · «der|konnektor» ↔ artikel_der ✗ (andere Wortart) · «sich bedanken bei» ✗
-//   (Reflexiv-Lemma mit «sich» — erst klären, wenn Verbkarten kommen).
-//
-// WORT ODER AUSDRUCK? (Lukas, 2026-09-24 — sehr wichtig, PLAN → «📚 روال» 🔒🔒)
-//   · Wort (auch Wort + feste Präposition: «denken an») ⇒ alte Seite wird
-//     erweitert, KEINE neue Seite (L.4b; «+ Präposition» = L.4b-2, offen).
-//   · Ausdruck (NVV/Redemittel: «eine Entscheidung treffen») ⇒ wird NIE mit
-//     einer Wortkarte gepaart. Das Bestandteil-Wort («Entscheidung») bekommt
-//     eine eigene, neue Seite; die Ausdrucksseite bleibt, wie sie ist, und wird
-//     erst nach allen Wörtern gesondert erweitert (L.4c).
-//     Hier garantiert durch «Lemma exakt gleich».
+//   (Lemma mit «sich» ≠ Karten-Lemma ⇒ kein Paar; die Karte hat trotzdem
+//   ihre eigene Seite — Grundregel).
 //
 // Rein (ohne Flutter/DB), damit test/altwort_karte_test.dart es direkt prüft.
 
@@ -96,7 +91,8 @@ class AltwortZuordnung {
 
   static const leer = AltwortZuordnung(karteZuWort: {}, wortZuKarte: {});
 
-  /// Karten-id → id der alten Seite, auf die ein Link zur Karte führt.
+  /// Karten-id → erste alte Seite (ohne Präposition zuerst) — nur Übersicht
+  /// für L.4d und Tests; Links auf die Karte führen IMMER zur Karten-Seite.
   /// Enthält jede gepaarte Karte genau einmal.
   final Map<String, int> karteZuWort;
 

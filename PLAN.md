@@ -12,42 +12,16 @@
 > 🗂️ **خلاصه‌سازی دوم (2026-09-23 دور ۲۵، درخواست Lukas):** هر بخشی که کاملاً انجام و تست‌شده بود به یک خط کوتاه شد؛
 > قاعده‌ها، اصل‌ها، تصمیم‌ها و کارهای باز کامل ماندند. کارهای باز فقط در دو بخش پایین جمع‌اند: «🚀 قبل از انتشار» و «⏭️ بعد از انتشار».
 > متن مفصل قبل از این خلاصه: `git show a078dc2:PLAN.md` (نسخه‌ی قدیمی‌تر: `afad3ab`).
+> 🗂️ **خلاصه‌سازی سوم (2026-09-24 دور ۶۳، درخواست Lukas — «سریع‌تر، بدون اشتباه»):** گزارش دور به دور کلمه‌ها، جدول پیشرفت و L.4b/L.4b-2 به چند خط کوتاه شد؛ متن کامل قبلی: `git show be0c77d:PLAN.md`.
 >
-> 🗓️ **آخرین جلسه:** 2026-09-24 (دور ۵۸–۶۲، یک چت) — **۵۰ کلمه‌ی تازه** در ۵ دور: alleine … alttestamentlich ⇒ آرشیو **۳۳۶ کارت** (هر دور ۰ خطا/۰ هشدار؛ ۳۱۸ تست سبز). **کنار گذاشته شدند** ⇒ «🏁 مرحله‌ی آخر»: allenfallsig (شکل ثابت‌شده‌ای ندارد؛ فقط قید allenfalls)، altaltbacken (املا مشکوک، احتمالاً altbacken)، Altdorfer (اسم خاص/صفت مکانی)، altkrank (معنا/کاربرد نامطمئن). **ادامه‌ی کلمه‌ها از: altäthiopisch.**
-> جزئیات: دور ۵۸ alleine … alliiert · دور ۵۹ alljährlich … alltäglich · دور ۶۰ allumfassend … alteingesessen (altaltbacken، Altdorfer کنار) · دور ۶۱ altenglisch … althochdeutsch · دور ۶۲ altjiddisch … alttestamentlich (altkrank کنار؛ allenfallsig در دور ۵۸ کنار).
-> قبلی: 2026-09-24 (دور ۵۷) — **L.4d ثبت شد (درخواست Lukas):** مرحله‌ی تازه‌ی **«🔁 کلمه‌های تکراری/چندنسخه‌ای»** ته PLAN — بعد از وارد شدن **همه‌ی** کلمه‌ها، Claude کل اپ را می‌گردد و هر کلمه‌ای که چند نسخه دارد پیدا و در جدول ثبت می‌کند؛ **تصمیم برای هر مورد فقط با Lukas**. فقط ثبت، هیچ کدی عوض نشد. **ادامه‌ی کلمه‌ها از: alleine.**
-> قبلی: 2026-09-24 (دور ۵۶) — **L.4b-2 ✅ (تصمیم Lukas):** «کلمه + حرف اضافه» (warten auf، abhängig von) ⇒ کارت زیر صفحه‌ی قبلی؛ کلمه با چند صفحه‌ی قبلی (vertrauen / vertrauen auf / vertrauen in) ⇒ همان یک کارت زیر **هر سه**؛ لینک ⇒ صفحه‌ی بدون حرف اضافه. کد: `altwort_karte.dart`؛ ۳۱۸ تست سبز. باز: فعل‌های بازتابی («sich …») ⛔. **ادامه‌ی کلمه‌ها از: alleine.**
-> قبلی: 2026-09-24 (دور ۵۵) — **قاعده‌ی «کلمه یا عبارت» (Lukas، خیلی مهم)** در «📚 روال» (🔒🔒) + L.4 + R-2.2 + بعد از انتشار: **کلمه** (helfen، denken، denken an) ⇒ صفحه‌ی قبلی گسترش، هیچ حذف (L.4b)؛ **عبارت** (eine Entscheidung treffen) ⇒ کلمه‌ی سازنده (Entscheidung) صفحه‌ی **جدید** می‌گیرد، صفحه‌ی عبارت همان‌طور می‌ماند و **بعد از همه‌ی کلمه‌ها** جداگانه گسترش پیدا می‌کند (L.4c). باز: L.4b-2 ⛔ (کلمه + حرف اضافه؛ سؤال از Lukas). **ادامه‌ی کلمه‌ها از: alleine.**
-> قبلی: 2026-09-24 (دور ۵۴) — **L.4b ✅ (درخواست Lukas):** کلمه‌ای که از قبل در اپ بود ⇒ صفحه‌ی قبلی‌اش **گسترش** پیدا می‌کند، هیچ چیز حذف نمی‌شود؛ قاعده در «📚 روال ده کلمه جدید» ثبت شد. ۷۵ کلمه (۷۴ فعل Dativ/Akkusativ + weil) حالا کارت کامل را زیر صفحه‌ی قبلی دارند؛ یک ردیف در لیست؛ لینک‌های کارت ⇒ همان صفحه. جزئیات: L.4 → L.4b. **ادامه‌ی کلمه‌ها از: alleine.**
-> قبلی: 2026-09-24 (دور ۴۹–۵۳، یک چت) — **۵۰ کلمه‌ی تازه** در ۵ دور: agogisch … allein ⇒ آرشیو **۲۸۶ کارت** (هر دور ۰ خطا/۰ هشدار؛ ۳۰۹ تست سبز). **کنار گذاشته شدند:** aldente (املا مشکوک؛ Duden: «al dente») و aleppinisch (کاربرد صفتی نامطمئن) ⇒ «🏁 مرحله‌ی آخر». **ادامه‌ی کلمه‌ها از: alleine.**
-> جزئیات: دور ۴۹ agogisch … akkadisch · دور ۵۰ akkordisch … akzentfrei · دور ۵۱ akzeptabel … aleatorisch (aldente کنار) · دور ۵۲ alemannisch … alkoholarm (aleppinisch کنار) · دور ۵۳ alkoholfrei … allein.
-> قبلی: 2026-09-24 (دور ۴۸) — «🔒 قاعده‌ی ثابت: کلمه‌هایی که وارد اپ نمی‌شوند» در روال ده کلمه ثبت شد.
-> قبلی: 2026-09-24 (دور ۴۴–۴۷) — بخش «🏁 مرحله‌ی آخر» ته PLAN ساخته شد + ۲۹ کلمه‌ی تازه (adstringierend … agnostizistisch) ⇒ آرشیو ۲۳۶ کارت؛ **afrikaans کنار گذاشته شد**. **ادامه از: agogisch.**
-> جزئیات: 2026-09-24 (دور ۴۷) — «ده کلمه جدید»: afroamerikanisch … agnostizistisch (۱۰ کارت، ۰ خطا/هشدار) ⇒ آرشیو ۲۳۶ کارت.  بعدی: **agogisch**.
-> قبلی: 2026-09-24 (دور ۴۶) — «ده کلمه جدید»: affektiv … afrikanisch (۹ کارت، ۰ خطا/هشدار؛ **afrikaans کنار گذاشته شد** ⇒ «🏁 مرحله‌ی آخر») ⇒ آرشیو ۲۲۶ کارت.  بعدی: **afroamerikanisch**.
-> قبلی: 2026-09-24 (دور ۴۵) — «ده کلمه جدید»: adstringierend … affektiert (۱۰ کارت، ۰ خطا/هشدار) ⇒ آرشیو ۲۱۷ کارت.  بعدی: **affektiv**.
-> قبلی: 2026-09-24 (دور ۴۴) — درخواست Lukas: بخش تازه‌ی **«🏁 مرحله‌ی آخر — کلمه‌هایی که وارد اپ نشده‌اند»** ته PLAN (abatisch، abdikativ + دلیل)؛ قاعده‌ی روال: هر کلمه‌ی کنار گذاشته هم آن‌جا ثبت شود. Lukas روش عددها (numerale) را تأیید کرد.
-> قبلی: 2026-09-24 (دور ۳۴–۴۳، یک چت) — **۱۰۰ کلمه‌ی تازه** در ۱۰ دور: abenteuerlich … adsorptiv ⇒ آرشیو ۲۰۷ کارت؛ هیچ کلمه‌ای کنار گذاشته نشد؛ عددها (aberhundert، abertausend، achte، achtzehnte، achtzigste) ⇒ numerale با `wortartKorrektur`. **ادامه از: adstringierend.**
-> جزئیات دور ۴۳ — «ده کلمه جدید»: additiv … adsorptiv (۱۰ کارت، ۰ خطا/هشدار) ⇒ آرشیو ۲۰۷ کارت.  بعدی: **adstringierend**.
-> قبلی: 2026-09-24 (دور ۴۲) — «ده کلمه جدید»: achtsam … adaxial (۱۰ کارت، ۰ خطا/هشدار) ⇒ آرشیو ۱۹۷ کارت.  بعدی: **additiv**.
-> قبلی: 2026-09-24 (دور ۴۱) — «ده کلمه جدید»: achtarmig … achtjährig (۱۰ کارت، ۰ خطا/هشدار) ⇒ آرشیو ۱۸۷ کارت.  بعدی: **achtsam**.
-> قبلی: 2026-09-24 (دور ۴۰) — «ده کلمه جدید»: abundant … achromatisch (۱۰ کارت، ۰ خطا/هشدار) ⇒ آرشیو ۱۷۷ کارت.  بعدی: **achtarmig**.
-> قبلی: 2026-09-24 (دور ۳۹) — «ده کلمه جدید»: absichtlich … abtörnend (۱۰ کارت، ۰ خطا/هشدار) ⇒ آرشیو ۱۶۷ کارت.  بعدی: **abundant**.
-> قبلی: 2026-09-24 (دور ۳۸) — «ده کلمه جدید»: abortiv … absent (۱۰ کارت، ۰ خطا/هشدار) ⇒ آرشیو ۱۵۷ کارت.  بعدی: **absichtlich**.
-> قبلی: 2026-09-24 (دور ۳۷) — «ده کلمه جدید»: abhängig … aboral (۱۰ کارت، ۰ خطا/هشدار) ⇒ آرشیو ۱۴۷ کارت.  بعدی: **abortiv**.
-> قبلی: 2026-09-24 (دور ۳۶) — «ده کلمه جدید»: abgemacht … abhold (۱۰ کارت، ۰ خطا/هشدار) ⇒ آرشیو ۱۳۷ کارت.  بعدی: **abhängig**.
-> قبلی: 2026-09-24 (دور ۳۵) — «ده کلمه جدید»: abgabenfrei … abgelegen (۱۰ کارت، ۰ خطا/هشدار) ⇒ آرشیو ۱۲۷ کارت. abgefuckt mit Hinweis «vulgär». بعدی: **abgemacht**.
-> قبلی: 2026-09-24 (دور ۳۴) — «ده کلمه جدید»: abenteuerlich … abfällig (۱۰ کارت، ۰ خطا/هشدار) ⇒ آرشیو ۱۱۷ کارت. aberhundert/abertausend ⇒ numerale (wortartKorrektur). بعدی: **abgabenfrei**.
-> قبلی: 2026-09-24 (دور ۳۳) — **L.3 آفلاین: علت پیدا و رفع شد.** خروجی DevTools از Lukas: هیچ Service Worker، «No cache storage». علت (در کد Flutter 3.44.6 تأیید شد): `flutter_service_worker.js` فقط یک worker پاک‌کننده است که خودش را unregister می‌کند و هیچ cache نمی‌سازد؛ CanvasKit هم از www.gstatic.com می‌آمد. رفع: build با `--pwa-strategy=none --no-web-resources-cdn` + worker خودمان `vox_sw.js` با Workbox (`tool/pwa/`) + تست آفلاین در Chrome واقعی در `deploy-web.yml` (قرمز ⇒ بدون انتشار). ⏭️ Lukas: تست دوباره روی کامپیوتر.
-> قبلی: 2026-09-24 (دور ۳۲) — «ده کلمه جدید»: abbruchreif … abenteuerhungrig (۱۰ صفت، ۰ خطا/هشدار) ⇒ آرشیو ۱۰۷ کارت؛ **abdikativ کنار گذاشته شد** (معنا نامطمئن). بعدی: abenteuerlich.
-> قبلی: 2026-09-24 (دور ۳۱) — تصمیم Lukas برای اسم‌ها ثبت شد: نام شهرها فقط تلفظ + معنی + آرتیکل؛ اسم‌های بدون آرتیکل ⇒ قبل از شروع فهرست اسم‌ها دوباره از Lukas بپرس.
-> قبلی: 2026-09-23 (دور ۳۰) — تصمیم‌های Lukas برای کلمه‌ها ثبت شد: ترتیب فهرست‌ها (صفت ⇒ فعل بی‌قاعده ⇒ فعل باقاعده ⇒ اسم) در `tool/naechste_woerter.dart` + جدول پیشرفت؛ کلمه‌ی نامطمئن ⇒ کنار گذاشتن + گزارش (abatisch).
-> قبلی: 2026-09-23 (دور ۲۹) — روال «ده کلمه جدید» ثبت شد: بخش «📚 روال ده کلمه جدید» در PLAN و MAP (لینک پرامپت و فهرست‌ها، مراحل، قاعده‌ها، جدول پیشرفت) + ابزار تازه `tool/naechste_woerter.dart`.
-> قبلی: 2026-09-23 (دور ۲۸) — **۱۰ کلمه‌ی تازه (درخواست Lukas)** طبق «Wort prompt» ۳.۰، به ترتیب الفبا از `Wörter/Adjektive.txt`: aalglatt · aasfressend · aasig · abaissiert · abakteriell · abartig · abaxial · abbaubar · abbauwürdig · abbildbar ⇒ `assets/vocab/adjektiv/` با `tool/vokabular_import.dart` (۰ خطا، ۰ هشدار)؛ در فهرست ✓ خوردند. ⚠️ **abatisch رد شد** — معنای مطمئنی برایش ندارم (قاعده‌ی ۱۴: حدس ممنوع) ⇒ Lukas تصمیم بگیرد. آرشیو: **۹۷ کارت**. کلمه‌ی بعدی در فهرست: **abbruchreif**. ۳۰۹ تست سبز.
-> قبلی: 2026-09-23 (دور ۲۶–۲۷) — **بند ۳ قبل از انتشار (RTL در Auswendiglernen) کامل:** نگهبان حالا ~۴۰ فیلد آلمانی می‌شناسد (همه‌ی فیلدهای مدل deckها + `['de']`، `['infinitiv']` … + cloze)؛ همه‌ی موردهایش ⇒ `DeutschText`/`DeutschRichText`. جدول‌ها و ردیف‌های کلید–مقدار آلمانی (Stammformen، Konjugation، Zeitformen، Verb-Info، «Perfekt: …») ⇒ `Directionality(ltr)`؛ **باگ ترتیب برعکس در تمرین‌های مرتب‌کردن جمله** (همه‌ی deckها + Wortstellung) ⇒ `Wrap(textDirection: ltr)`؛ چیپ‌های NVV به ترتیب آلمانی؛ پیام «✗ درست: …» جدا با `DeutschMitEtikett` (تازه، `deutsch_text.dart`)؛ عنوان‌های فهرست کنار آیکون (`ganzeZeile: false`). ۳۰۹ تست سبز؛ بازبینی در WebKit/iPhone (fa). ⏭️ Lukas: نگاه روی آیفون.
+> 🗓️ **آخرین جلسه:** 2026-09-24 (دور ۶۳) — **⭐ اصل اول کلمه‌ها (Lukas، جایگزین L.4b / L.4b-2 / L.4c قدیم):** هر کلمه‌ی فهرست **همیشه** کارت و **صفحه‌ی جدید خودش** را می‌گیرد — حتی اگر از قبل در اپ باشد (تنها، با حرف اضافه، با sich، داخل عبارت)؛ **هیچ** صفحه/کلمه/جزئیاتی حذف نمی‌شود؛ دوبرابر شدن اشکال ندارد؛ **در آخرین مرحله** Claude همه‌ی تکراری‌ها را پیدا می‌کند و **Lukas تصمیم می‌گیرد** (L.4d). ⇒ **کد:** `wort_seite_screen.dart` دیگر به صفحه‌ی قبلی هدایت نمی‌کند · `wortschatz_list_screen.dart` هیچ کارتی را پنهان نمی‌کند · شمارنده‌ی `wortschatz_home_screen.dart` همه را می‌شمارد · صفحه‌ی قبلی کارت را فقط **اضافه** نشان می‌دهد (چیزی حذف نشد) · نگهبان تازه در `test/altwort_karte_test.dart`. **سرعت:** `tool/wort_runde.sh` (مراحل ۵–۷ در یک دستور، همان دستورها) + `naechste_woerter.dart --abhaken` (✓ با همان vokabId و wortartKorrektur). PLAN/MAP کل بازبینی و خلاصه شدند. **ادامه‌ی کلمه‌ها از: altäthiopisch.**
+> قبلی: 2026-09-24 (دور ۲۸–۶۲) — کلمه‌ها: aalglatt … alttestamentlich ⇒ آرشیو **۳۳۶ کارت** (هر دور ۰ خطا/۰ هشدار)؛ ۹ کلمه کنار گذاشته (⇒ «🏁 مرحله‌ی آخر»)؛ عددها ⇒ numerale با `wortartKorrektur` (دور ۳۴)؛ «🏁 مرحله‌ی آخر» (دور ۴۴) و قاعده‌اش (دور ۴۸)؛ L.4b / L.4b-2 (دور ۵۴/۵۶، حالا با اصل اول منسوخ)؛ L.4d ثبت (دور ۵۷).
+> قبلی: 2026-09-24 (دور ۳۳) — **L.3 آفلاین رفع شد:** worker خودمان `vox_sw.js` (Workbox، `tool/pwa/`) + build با `--pwa-strategy=none --no-web-resources-cdn` + تست آفلاین Chrome در `deploy-web.yml`. ⏭️ Lukas: تست دوباره روی کامپیوتر.
+> قبلی: 2026-09-24 (دور ۳۱) — اسم‌ها: نام شهرها فقط تلفظ + معنی + آرتیکل؛ قبل از فهرست اسم‌ها دوباره از Lukas بپرس.  2026-09-23 (دور ۲۹–۳۰) — روال «ده کلمه جدید» + `tool/naechste_woerter.dart` + ترتیب فهرست‌ها.
+> قبلی: 2026-09-23 (دور ۲۶–۲۷) — **RTL در Auswendiglernen کامل** (نگهبان ~۴۰ فیلد، جدول‌ها LTR، `Wrap(textDirection: ltr)`، `DeutschMitEtikett`). ⏭️ Lukas: نگاه روی آیفون.
 >
 > 📜 **کارنامه (خیلی خلاصه):**
-> - **2026-09-24** — ۵۰ کلمه‌ی تازه (دور ۵۸–۶۲، alleine … alttestamentlich، آرشیو ۳۳۶) · L.4d ثبت (بررسی کلمه‌های تکراری بعد از همه‌ی کلمه‌ها) · L.4b-2 (کارت زیر همه‌ی صفحه‌های قبلی یک کلمه) · قاعده‌ی «کلمه یا عبارت» (L.4b/L.4c) · L.4b صفحه‌ی کلمه‌های قبلی گسترش یافت (۷۵ کلمه) · ۵۰ کلمه‌ی تازه (دور ۴۹–۵۳، agogisch … allein) · ۲۹ کلمه (دور ۴۵–۴۷) · ۱۰۰ کلمه‌ی تازه (دور ۳۴–۴۳، abenteuerlich … adsorptiv) · L.3 آفلاین: `vox_sw.js` (Workbox، `tool/pwa/`) + تست آفلاین Chrome در deploy · ده کلمه‌ی جدید (دور ۳۲) · تصمیم اسم‌ها (دور ۳۱).
+> - **2026-09-24** — ⭐ اصل اول کلمه‌ها (هر کلمه صفحه‌ی جدید؛ تکراری‌ها فقط در آخر، تصمیم Lukas) + `tool/wort_runde.sh` + خلاصه‌سازی سوم · ۲۳۹ کلمه‌ی تازه (دور ۳۲–۶۲، abbruchreif … alttestamentlich، آرشیو ۳۳۶) · L.4d ثبت · L.4b/L.4b-2 (منسوخ) · L.3 آفلاین: `vox_sw.js` · تصمیم اسم‌ها.
 > - **2026-09-23** — L.3b نگهبان زبان مرورگر (`web/locale_guard.js`، vox + Root-in) · L.2d تصمیم (deckهای خالی «به‌زودی» می‌مانند) · B-13 لایتنر هر دو منبع · تست آیفون ✅ · پاپ‌آپ کلمه: German News، تلفظ برای هر کلمه، پیام جدای «بارگذاری نشد»، **شکل‌های صرف‌شده** (`assets/vocab_formen/`) · RTL: `deutschLinksbuendig` + `DeutschRichText` + جدول‌های گرامر LTR + نگهبان چندخطی · R-2.3 ثبت شد · رمز فراموشی با جریان implicit.
 > - **2026-09-22** — L.1d حذف حساب (هر دو اپ) · R-2.1 Präpositionen · قفل قالب ایمیل Supabase.
 > - **2026-09-20** — فاز P (پروفایل و حساب) · L.5f پاپ‌آپ کلمه.  **2026-09-19** — `FeatureFlags` · L.5g ثبت.
@@ -71,72 +45,55 @@
 ## ⏭️ بعد از انتشار و تصمیم‌های باز
 
 - **کلمه‌ها (L.4):** روال کامل، فایل‌ها و پیشرفت ⇒ بخش **«📚 روال ده کلمه جدید»** (پایین‌تر). Lukas فقط می‌گوید «ده کلمه جدید وارد کن».
-- **بعد از انتشار (به ترتیب Lukas):** L.2d منابع deckهای «به‌زودی» (یکی‌یکی) · G7d/G7e تمرین deckها + ذخیره‌ی نتیجه‌ی آزمون سطح · L.4 کلمه‌ها (روزانه؛ کلمه‌ی قبلی ⇒ L.4b گسترش صفحه‌ی قبلی) · **L.4c صفحه‌ی عبارت‌ها — فقط بعد از همه‌ی کلمه‌ها** · **L.4d پیدا کردن کلمه‌های تکراری/چندنسخه‌ای — فقط بعد از همه‌ی کلمه‌ها (Claude پیدا می‌کند، Lukas تصمیم می‌گیرد)** · R-2.2 صفحه‌ی جزئیات کامل deckها (صدا/لایتنر/دسته) · **R-2.3 گسترش همه‌ی محتوای Auswendiglernen** (مثال، ترجمه، تمرین؛ فقط افزودن) · L.5b ترجمه‌ی جمله‌به‌جمله در Lesen · L.5c تمرین از همه‌ی محتوا · L.5d صفحه‌ی کامل اکانت · L.5e آزمون بعد از هر بخش · G8 جست‌وجو/گلاسری · V.4 UI لیست بزرگ کلمه‌ها · B.4-alt و DS باقی‌مانده (vox_chip، vox_list_tile …).
-- **تصمیم‌های باز Lukas (قبل از شروع حتماً بپرس):** فعل‌های بازتابی قبلی («sich bedanken bei») ⛔ قبل از اولین فعل بازتابی · L.5g ⛔⛔ ساختار دولایه‌ی متن‌ها · L.5a صفحه‌ی پیشرفت · A.6 روش ساخت کلمه‌ها ⛔ · V.5 توزیع آرشیو بزرگ.
+- **بعد از انتشار (به ترتیب Lukas):** L.2d منابع deckهای «به‌زودی» (یکی‌یکی) · G7d/G7e تمرین deckها + ذخیره‌ی نتیجه‌ی آزمون سطح · L.4 کلمه‌ها (روزانه؛ هر کلمه همیشه صفحه‌ی جدید — ⭐ اصل اول) · **L.4c کارت عبارت (NVV/Redemittel) — بعد از همه‌ی کلمه‌ها** · **L.4d تکراری‌ها — آخرین مرحله (Claude پیدا می‌کند، Lukas تصمیم می‌گیرد)** · R-2.2 صفحه‌ی جزئیات کامل deckها (صدا/لایتنر/دسته) · **R-2.3 گسترش همه‌ی محتوای Auswendiglernen** (مثال، ترجمه، تمرین؛ فقط افزودن) · L.5b ترجمه‌ی جمله‌به‌جمله در Lesen · L.5c تمرین از همه‌ی محتوا · L.5d صفحه‌ی کامل اکانت · L.5e آزمون بعد از هر بخش · G8 جست‌وجو/گلاسری · V.4 UI لیست بزرگ کلمه‌ها · B.4-alt و DS باقی‌مانده (vox_chip، vox_list_tile …).
+- **تصمیم‌های باز Lukas (قبل از شروع حتماً بپرس):** L.5g ⛔⛔ ساختار دولایه‌ی متن‌ها · L.5a صفحه‌ی پیشرفت · V.5 توزیع آرشیو بزرگ.
 - ⚠️ **مقیاس:** جدول شکل‌ها (`assets/vocab_formen/`) تکه‌تکه است؛ با ~۲۶٬۰۰۰ کارت هر تکه چند صد KB می‌شود — اگر لازم شد، تکه‌ها بر اساس دو حرف اول.
 
 ## 📚 روال «ده کلمه جدید» — دیکشنری آنلاین VOX (L.4)
 
-> **Lukas فقط می‌گوید: «ده کلمه جدید وارد کن».** Claude بدون سؤال همین روال را از اول تا آخر اجرا می‌کند و نتیجه را همین‌جا + در MAP ثبت می‌کند.
-> هدف (Lukas، 2026-09-23): VOX یک **دیکشنری آنلاین** می‌شود که تقریباً همه‌ی کلمه‌ها را دارد. **ترتیب هرگز عوض نمی‌شود** (همان ترتیب الفبایی فایل فهرست).
+> **Lukas فقط می‌گوید: «ده کلمه جدید وارد کن».** Claude بدون سؤال همین روال را از اول تا آخر اجرا و ثبت می‌کند.
+> هدف (Lukas، 2026-09-23): VOX یک **دیکشنری آنلاین** با تقریباً همه‌ی کلمه‌ها. **ترتیب فهرست هرگز عوض نمی‌شود** (الفبایی، همان فایل).
 >
-> 🔒 **قاعده‌ی ثابت: کلمه‌هایی که وارد اپ نمی‌شوند (Lukas، 2026-09-24) — Claude این را خودکار و بدون پرسیدن اجرا می‌کند:**
-> - **چه کلمه‌ای؟** هر کلمه‌ی فهرست که به **هر دلیلی** کارت نمی‌گیرد: معنای نامطمئن، کاربرد نامطمئن (مثلاً شاید اصلاً صفت نیست)، املای مشکوک، یا هر شک دیگر (قاعده‌ی ۱۴ پرامپت: حدس ممنوع).
-> - **کجا ثبت می‌شود؟** (۱) فهرست **«🏁 مرحله‌ی آخر — کلمه‌هایی که وارد اپ نشده‌اند»** در **ته همین فایل PLAN.md** — یک ردیف با تاریخ، فهرست منبع و دلیل؛ (۲) `zurueckgestellt` در `tool/naechste_woerter.dart` تا ابزار دوباره پیشنهادش ندهد؛ (۳) ستون «کنار گذاشته» در جدول پیشرفت پایین. هر سه همیشه یکی‌اند.
-> - **جای خالی:** کلمه‌ی بعدی فهرست جایش می‌آید تا دسته باز هم ۱۰ کارت شود؛ در گزارش به Lukas نام کلمه + دلیل گفته می‌شود.
-> - **کی بررسی می‌شوند؟** **در آخر کار** — وقتی هر چهار فهرست (صفت ⇒ فعل بی‌قاعده ⇒ فعل باقاعده ⇒ اسم) تمام شدند. آن‌وقت Lukas درباره‌ی تک‌تکشان تصمیم می‌گیرد (ستون «تصمیم Lukas») و فقط بعد از تصمیم او ساخته و منتشر می‌شوند. **قبل از آن هیچ‌کدام ساخته نمی‌شود**، مگر Lukas خودش زودتر بخواهد.
-> - **استثنا — این‌ها کنار گذاشته نمی‌شوند:** کلمه‌ای که فقط Wortartش در فهرست غلط است (مثل aberhundert، achte ⇒ numerale) ساخته می‌شود با Wortart درست و در `wortartKorrektur` ثبت می‌شود.
+> ⭐ **اصل اول — هر کلمه همیشه صفحه‌ی جدید (Lukas، 2026-09-24 دور ۶۳؛ جایگزین L.4b / L.4b-2 / L.4c قدیم):**
+> - هر کلمه‌ی فهرست **همیشه** کارت تازه با **صفحه‌ی جدید خودش** می‌گیرد — مهم نیست از قبل در اپ باشد: کلمه‌ی تنها، دو کلمه‌ای/با حرف اضافه (`warten auf`)، با `sich`، یا داخل یک عبارت (`eine Entscheidung treffen`). از قبل بودن ⇒ **نه سؤال، نه بررسی، نه صبر.**
+> - **هیچ** صفحه، کلمه یا جزئیاتی از هیچ صفحه‌ای حذف نمی‌شود؛ هیچ ادغام، هدایت یا پنهان‌کردن. **دوبرابر شدن اشکال ندارد.**
+> - **آخرین مرحله** (وقتی هر چهار فهرست صفر تا صد وارد شد): Claude **همه‌ی** کلمه‌های اضافی/دوبرابر را پیدا می‌کند ⇒ **Lukas تصمیم می‌گیرد** با هر کدام چه شود ⇒ «🔁 مرحله‌ی آخر (۲)» ته همین فایل (L.4d).
+> - کد (همین اصل): هر کارت صفحه‌ی خودش (`/vokabular/wort/:id`) و ردیف خودش در «Alle Wörter» را دارد. اگر همان کلمه صفحه‌ی قدیمی اپ دارد، آن صفحه کارت را فقط **اضافه** زیر خودش نشان می‌دهد (`features/wortschatz/data/altwort_karte.dart` — فقط افزودن، هرگز هدایت/پنهان). نگهبان: `test/altwort_karte_test.dart` («Grundregel»).
 >
-> 🔒🔒 **قاعده‌ی ثابت و خیلی مهم: کلمه‌ای که از قبل در اپ هست (Lukas، 2026-09-24) — L.4b / L.4c:**
-> **اول بپرس: چیزی که از قبل در اپ است «کلمه» است یا «عبارت»؟** (کلمه‌های قبلی = دیتابیس قدیمی `Words` با `ausApp = true`، از deckهای Dativ/Akkusativ، Konnektoren، NVV، Präpositionen؛ صفحه‌شان `features/wortschatz/screens/word_detail_screen.dart`.)
->
-> **الف) کلمه است** (یک کلمه، یا کلمه + حرف اضافه‌ی ثابتش، مثل `helfen`، `denken an`، `abhängig von`) ⇒ **L.4b:**
-> - خود کلمه و **هیچ چیز از صفحه‌اش حذف نمی‌شود** (معنی، مثال، صرف، یادداشت گرامری، لایتنر، دسته‌بندی — همه می‌مانند).
-> - **همان صفحه‌ی قبلی گسترش پیدا می‌کند:** کارت کامل طبق پرامپت کلمه ساخته می‌شود (مثال‌ها و ترجمه‌ی قبلی ورودی پرامپت‌اند) و کل کارت (نماد Grammatikon، IPA، ترجمه، مثال‌ها، Details، Synonyme/Gegenteil/Komposita، Wortbildung، Wortnetz، یادداشت) **زیر صفحه‌ی قبلی** اضافه می‌شود.
-> - **یک کلمه = یک صفحه** (صفحه‌ی قبلی)؛ لیست «Alle Wörter» فقط ردیف قبلی را نشان می‌دهد؛ هر لینک به کارت (Wortnetz، پاپ‌آپ، deckها) به همان صفحه‌ی قبلی می‌رود. **صفحه‌ی جدید جدا ساخته نمی‌شود.**
-> - مثال Lukas: `denken` از قبل هست و حالا نوبت ساختن `denken` است ⇒ صفحه‌ی قبلی denken گسترش پیدا می‌کند.
->
-> **ب) عبارت است** (NVV و Redemittel، مثل «eine Entscheidung treffen») ⇒ **L.4c:**
-> - وقتی در فهرست به کلمه‌ی سازنده‌اش رسیدی (مثلاً `Entscheidung`) **اجازه داری صفحه‌ی جدید بسازی:** کارت `nomen_entscheidung` طبق پرامپت کلمه، با صفحه‌ی خودش (`wort_seite_screen.dart`). ⇒ **دو صفحه‌ی جدا:**
->   ① «die Entscheidung» = صفحه‌ی جدید طبق پرامپت کلمه · ② «eine Entscheidung treffen» = صفحه‌ی عبارت، **همان‌طور که قبلاً بود می‌ماند** (دست نمی‌خورد، چیزی حذف نمی‌شود).
-> - عبارت و کلمه هرگز در هم ادغام نمی‌شوند؛ عبارت هیچ‌وقت به کارت کلمه جفت نمی‌شود.
-> - **صفحه‌ی عبارت‌ها کی گسترش پیدا می‌کند؟ بعد از وارد شدن همه‌ی کلمه‌ها** (هر چهار فهرست تمام) ⇒ جداگانه، با «کارت عبارت» (R-2.2 تصمیم ۳) — فقط افزودن، هیچ حذف. تا آن زمان صفحه‌ی عبارت همان‌طور که هست می‌ماند.
->
-> **جفت کردن کلمه‌ی قبلی با کارت (کد):** فقط وقتی مطمئن است — وگرنه جفت نمی‌شود (قاعده‌ی ۳: حدس ممنوع). تنها منبع: `features/wortschatz/data/altwort_karte.dart`. در روال ده کلمه همه‌ی این‌ها **خودکار** است: کارت با id معمول (`vokabId`) ساخته می‌شود و کد خودش وصلش می‌کند.
-> ✅ **وضع کد (2026-09-24):** «کلمه‌ی تنها» (`helfen`) ✅ L.4b · «کلمه + حرف اضافه» (`warten auf`) ✅ L.4b-2. **چند صفحه‌ی قبلی برای یک کلمه** (`vertrauen`، `vertrauen auf`، `vertrauen in`) ⇒ همان یک کارت زیر **همه‌شان**؛ لینک کارت ⇒ صفحه‌ی بدون حرف اضافه (نبود ⇒ تنها/اولین صفحه با حرف اضافه). ⛔ فعل بازتابی («sich …») ⇒ قبل از اولین فعل بازتابی از Lukas بپرس.
+> 🔒 **کلمه‌ی نامطمئن ⇒ نساز (Lukas، 2026-09-24) — خودکار، بدون پرسیدن:**
+> - **چه کلمه‌ای؟** معنا، کاربرد (مثلاً شاید اصلاً صفت نیست) یا املای نامطمئن، یا هر شک دیگر (قاعده‌ی ۱۴ پرامپت: حدس ممنوع).
+> - **ثبت در سه جا (همیشه یکسان):** (۱) جدول «🏁 مرحله‌ی آخر» ته همین فایل (تاریخ، فهرست، دلیل) · (۲) `zurueckgestellt` در `tool/naechste_woerter.dart` · (۳) ستون «کنار گذاشته» جدول پیشرفت. کلمه‌ی بعدی جایش می‌آید؛ نام + دلیل به Lukas گزارش می‌شود.
+> - **کی؟** فقط در آخر کار (هر چهار فهرست تمام) Lukas درباره‌ی تک‌تکشان تصمیم می‌گیرد؛ تا آن موقع ساخته نمی‌شوند (مگر Lukas زودتر بخواهد).
+> - **استثنا:** فقط Wortart فهرست غلط است (aberhundert، achte ⇒ numerale) ⇒ با Wortart درست (Duden) ساخته می‌شود + `wortartKorrektur` در `tool/naechste_woerter.dart`.
 
 **فایل‌ها (همیشه تازه از `main` بخوان، نه از حافظه):**
 - پرامپت کلمه (تنها منبع قالب کارت، SUPER-PROMPT 3.0): [`old files Lukasalmani/Wort prompt`](https://github.com/lukasylilli/vox/blob/main/old%20files%20Lukasalmani/Wort%20prompt)
-- فهرست کلمه‌ها (پوشه): [`old files Lukasalmani/Wörter/`](https://github.com/lukasylilli/vox/tree/main/old%20files%20Lukasalmani/W%C3%B6rter) — فهرست فعلی: [`Adjektive.txt`](https://github.com/lukasylilli/vox/blob/main/old%20files%20Lukasalmani/W%C3%B6rter/Adjektive.txt) (۶٬۸۴۹ صفت)
+- فهرست‌ها: [`old files Lukasalmani/Wörter/`](https://github.com/lukasylilli/vox/tree/main/old%20files%20Lukasalmani/W%C3%B6rter) — فعلی: [`Adjektive.txt`](https://github.com/lukasylilli/vox/blob/main/old%20files%20Lukasalmani/W%C3%B6rter/Adjektive.txt) (۶٬۸۴۹ صفت)
 - اعتبارسنجی و id: [`lib/features/vokabular/data/vokab_schema.dart`](https://github.com/lukasylilli/vox/blob/main/lib/features/vokabular/data/vokab_schema.dart)
-- ابزارها: [`tool/naechste_woerter.dart`](https://github.com/lukasylilli/vox/blob/main/tool/naechste_woerter.dart) (کلمه‌های بعدی) · [`tool/vokabular_import.dart`](https://github.com/lukasylilli/vox/blob/main/tool/vokabular_import.dart) (نوشتن کارت‌ها) · [`tool/vokab_index.dart`](https://github.com/lukasylilli/vox/blob/main/tool/vokab_index.dart) (فهرست + جدول شکل‌های صرف‌شده)
-- مقصد کارت‌ها: `assets/vocab/<wortart>/<id>.json` (یک کلمه = یک فایل، fa+en در همان فایل). ظاهر (رنگ/نماد) در کد است، نه در کارت — برای کلمه‌ی تازه هیچ فایل ظاهری عوض نمی‌شود.
+- ابزارها: `tool/naechste_woerter.dart` (۱۰ کلمه‌ی بعدی؛ `--abhaken` = ✓) · `tool/vokabular_import.dart` (نوشتن کارت‌ها) · `tool/vokab_index.dart` (فهرست + شکل‌های صرف‌شده) · **`tool/wort_runde.sh`** (مراحل ۵–۷ در یک دستور)
+- مقصد: `assets/vocab/<wortart>/<id>.json` (یک کارت = یک فایل، fa+en در همان فایل). ظاهر (رنگ/نماد) فقط در کد — برای کلمه‌ی تازه هیچ فایل ظاهری عوض نمی‌شود.
 
 **مراحل (به همین ترتیب):**
 1. هر چهار فایل PLAN/MAP (vox + Root-in) و **پرامپت کلمه** را تازه بخوان.
-2. Flutter در کانتینر: `curl -sL https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.44.6-stable.tar.xz | tar xJ` ⇒ `export PATH=$PWD/flutter/bin:$PATH` ⇒ در ریپو `flutter pub get`.
-3. `dart run tool/naechste_woerter.dart` ⇒ ۱۰ کلمه‌ی بعدی (کارت‌های موجود و کلمه‌های «کنار گذاشته» را خودش رد می‌کند).
-4. **اول نگاه کن کلمه از قبل در اپ هست یا نه** (قاعده‌ی «🔒🔒» بالا): کلمه ⇒ همان کارت ساخته می‌شود و خودکار زیر صفحه‌ی قبلی می‌آید (L.4b / L.4b-2؛ چند صفحه‌ی قبلی ⇒ کارت زیر همه؛ «sich …» ⇒ اول از Lukas بپرس)؛ فقط عضو یک عبارت است ⇒ صفحه‌ی جدید مجاز (L.4c). کلمه‌ای که مطمئن نیستی ⇒ **نساز** و طبق «🔒 قاعده‌ی ثابت: کلمه‌هایی که وارد اپ نمی‌شوند» (بالا) ثبتش کن؛ کلمه‌ی بعدی جایش. بعد برای همان ۱۰ کلمه، طبق پرامپت یک **JSON-Array** بساز (همه‌ی قاعده‌های TEIL 0 — به‌ویژه ۱۴: «مطمئن نیستی ⇒ null، حدس نزن»؛ ۱۵: حرف اضافه‌ی ثابت اجباری). در `/tmp/batch.json`.
-5. `dart run tool/vokabular_import.dart --dry-run /tmp/batch.json` ⇒ باید «Fehler: 0 · Warnungen: 0» باشد ⇒ بعد بدون `--dry-run`.
-6. `dart run tool/vokab_index.dart` · جلوی هر کلمه‌ی ساخته‌شده در فایل فهرست `✓ ` بگذار.
-7. `flutter analyze` + `flutter test` (هر دو سبز).
-8. جدول «پیشرفت» پایین + خط «آخرین جلسه» + خط کلمه‌ها در MAP را به‌روز کن ⇒ commit + push ⇒ نتیجه‌ی GitHub Actions را چک کن (قرمز ⇒ فوراً درست کن).
+2. Flutter: `curl -sL https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.44.6-stable.tar.xz | tar xJ` ⇒ `export PATH=$PWD/flutter/bin:$PATH` ⇒ در ریپو `flutter pub get`.
+3. `dart run tool/naechste_woerter.dart` ⇒ ۱۰ کلمه‌ی بعدی (کارت موجود و «کنار گذاشته» را خودش رد می‌کند).
+4. برای همان ۱۰ کلمه طبق پرامپت یک **JSON-Array** در `/tmp/batch.json` بساز (همه‌ی TEIL 0 — به‌ویژه ۱۴: «مطمئن نیستی ⇒ null، حدس نزن»؛ ۱۵: حرف اضافه‌ی ثابت اجباری). از قبل بودن کلمه در اپ **مهم نیست** (⭐ اصل اول). کلمه‌ی نامطمئن ⇒ 🔒 بالا.
+5–7. `bash tool/wort_runde.sh /tmp/batch.json` — **همان دستورها به همان ترتیب**، در یک اجرا: dry-run (باید «Fehler: 0 · Warnungen: 0») ⇒ import ⇒ `vokab_index.dart` ⇒ `naechste_woerter.dart --abhaken` (✓ در فهرست) ⇒ `flutter analyze` ⇒ `flutter test` ⇒ ۱۰ کلمه‌ی بعدی. اولین مشکل ⇒ توقف (با dry-run ناپاک هیچ چیز نوشته نمی‌شود).
+8. جدول «پیشرفت» + خط «آخرین جلسه» + خط «پیشرفت» در MAP ⇒ commit + push ⇒ نتیجه‌ی GitHub Actions (قرمز ⇒ فوراً درست کن). چند دور در یک چت ⇒ هر دور commit خودش؛ «آخرین جلسه» یک ورودی جمعی.
 
-**قاعده‌ها:** ترتیب ثابت · اگر معنای کلمه‌ای را مطمئن نمی‌دانی ⇒ **نساز**، آن را به `zurueckgestellt` در `tool/naechste_woerter.dart`، به جدول زیر **و به فهرست «🏁 مرحله‌ی آخر» (ته همین فایل)** اضافه کن و به Lukas بگو (جایش کلمه‌ی بعدی می‌آید) · id کارت منتشرشده هرگز عوض/حذف نمی‌شود · بدون کپی از کتاب/دیکشنری، جمله‌ها از نو.
-
+**قاعده‌ها:** ترتیب ثابت · id کارت منتشرشده هرگز عوض/حذف نمی‌شود · بدون کپی از کتاب/دیکشنری، جمله‌ها از نو.
 **پیشرفت:**
 
 | فهرست | انجام‌شده (آخرین کلمه) | کلمه‌ی بعدی | کنار گذاشته (منتظر Lukas) |
 |---|---|---|---|
-| ۱. `Adjektive.txt` (صفت) | aalartig · aalförmig (قبلاً) · دور ۲۸ (2026-09-23): aalglatt، aasfressend، aasig، abaissiert، abakteriell، abartig، abaxial، abbaubar، abbauwürdig، abbildbar · دور ۳۲ (2026-09-24): abbruchreif، abchasisch، abderitisch، abdingbar، abdominal، abdominell، abendfüllend، abendlich، abenteuerdurstig، abenteuerhungrig · دور ۳۴ (2026-09-24): abenteuerlich، abenteuersüchtig، abergläubisch، aberhundert، aberrant، abertausend، aberwitzig، abessinisch، abflusslos، abfällig · دور ۳۵ (2026-09-24): abgabenfrei، abgebrüht، abgefahren، abgefeimt، abgefuckt، abgehalftert، abgekartet، abgeklärt، abgekämpft، abgelegen · دور ۳۶ (2026-09-24): abgemacht، abgeneigt، abgerissen، abgeschieden، abgeschlagen، abgeschlossen، abgeschmackt، abgängig، abgöttisch، abhold · دور ۳۷ (2026-09-24): abhängig، abiotisch، abjekt، abkömmlich، ablandig، ablativisch، abnorm، abnormal، abominabel، aboral · دور ۳۸ (2026-09-24): abortiv، abrasiv، abrupt، abscheulich، abschnittsweise، abschreckend، abschätzig، abschüssig، abseitsverdächtig، absent · دور ۳۹ (2026-09-24): absichtlich، absolut، absolutistisch، abstinent، abstrakt، abstrus، absurd، abträglich، abtrünnig، abtörnend · دور ۴۰ (2026-09-24): abundant، abwechslungsreich، abwegig، abwertend، abwesend، abzählbar، abänderbar، abänderlich، achaten، achromatisch · دور ۴۱ (2026-09-24): achtarmig، achtbar، achtbändig، achte، achteckig، achtenswert، achterlich، achtfach، achtgeschossig، achtjährig · دور ۴۲ (2026-09-24): achtsam، achtseitig، achtstellig، achtstündig، achtwöchig، achtzehnte، achtzigste، acidophil، adaptiv، adaxial · دور ۴۳ (2026-09-24): additiv، adhäsiv، adiabatisch، adipös، adjazent، adlerartig، adlig، administrativ، adrett، adsorptiv · دور ۴۵ (2026-09-24): adstringierend، adverbial، adverbiell، adygeisch، adäquat، aerob، aerodynamisch، afebril، affabel، affektiert · دور ۴۶ (2026-09-24): affektiv، affengeil، affentittengeil، affig، affin، affirmativ، affrös، afghanisch، afrikanisch · دور ۴۷ (2026-09-24): afroamerikanisch، afroasiatisch، afrodeutsch، agamisch، agglutinierend، aggressiv، agil، agitatorisch، agnostisch، agnostizistisch · دور ۴۹ (2026-09-24): agogisch، agonal، agrarisch، ahistorisch، ahnungslos، aidskrank، aidsverseucht، akatalektisch، akephal، akkadisch · دور ۵۰ (2026-09-24): akkordisch، akkumulativ، akkurat، akribisch، aktiv، aktiviert، aktuell، akustisch، akut، akzentfrei · دور ۵۱ (2026-09-24): akzeptabel، akzidentell، alabasterfarben، alabastern، alarmierend، alaunhaltig، albanisch، albern، albtraumhaft، aleatorisch · دور ۵۲ (2026-09-24): alemannisch، alert، algebraisch، algerisch، alimentär، aliphatisch، aliquant، aliquot، alkalisch، alkoholarm · دور ۵۳ (2026-09-24): alkoholfrei، alkoholhaltig، alkoholisch، alkoholisiert، alkoholselig، alkoholsüchtig، allabendlich، allbekannt، allegorisch، allein · دور ۵۸ (2026-09-24): alleine، alleinig، alleinstehend، allelopathisch، allerliebst، allfällig، allgegenwärtig، allgemein، allgemeingültig، alliiert · دور ۵۹ (2026-09-24): alljährlich، allmonatlich، allmorgendlich، allmächtig، allmählich، allnächtlich، allochthon، allophonisch، allstündlich، alltäglich · دور ۶۰ (2026-09-24): allumfassend، allwissend، allwöchentlich، alphabetisch، alphanumerisch، alptraumhaft، altbewährt، altdeutsch، altdänisch، alteingesessen · دور ۶۱ (2026-09-24): altenglisch، alternativ، alternativlos، alternierend، altfranzösisch، altfriesisch، altfränkisch، altgedient، altgriechisch، althochdeutsch · دور ۶۲ (2026-09-24): altjiddisch، altklug، altmodisch، altnordisch، altorientalisch، altpreußisch، altruistisch، altsorbisch، altsächsisch، **alttestamentlich** | **altäthiopisch** | abatisch (2026-09-23) · abdikativ (2026-09-24) — معنا نامطمئن · afrikaans (2026-09-24) — کاربرد صفتی نامطمئن · aldente (2026-09-24) — املا مشکوک · aleppinisch (2026-09-24) — کاربرد صفتی نامطمئن · allenfallsig (2026-09-24) — شکل ثابت‌شده ندارد · altaltbacken (2026-09-24) — املا مشکوک · Altdorfer (2026-09-24) — اسم خاص/صفت مکانی · altkrank (2026-09-24) — معنا/کاربرد نامطمئن |
+| ۱. `Adjektive.txt` (صفت) | aalartig … **alttestamentlich** (دور ۲۸–۶۲؛ فهرست دقیق: ✓ در `Adjektive.txt` = کارت در `assets/vocab/`) | **altäthiopisch** | abatisch (2026-09-23) · abdikativ (2026-09-24) — معنا نامطمئن · afrikaans (2026-09-24) — کاربرد صفتی نامطمئن · aldente (2026-09-24) — املا مشکوک · aleppinisch (2026-09-24) — کاربرد صفتی نامطمئن · allenfallsig (2026-09-24) — شکل ثابت‌شده ندارد · altaltbacken (2026-09-24) — املا مشکوک · Altdorfer (2026-09-24) — اسم خاص/صفت مکانی · altkrank (2026-09-24) — معنا/کاربرد نامطمئن |
 | ۲. `Verben_unregelmaeßig_Infinitiv.txt` (فعل بی‌قاعده) | — | abbacken | — |
 | ۳. `Verben_regelmaesig.txt` (فعل باقاعده) | — | aalen | — |
 | ۴. `substantiv_singular_alle.txt` (اسم) | — | Aachen | — |
 
 - ✅ **ترتیب فهرست‌ها (تصمیم Lukas، 2026-09-23):** ۱ صفت‌ها ⇒ ۲ افعال بی‌قاعده ⇒ ۳ افعال باقاعده ⇒ ۴ اسم‌ها. در `tool/naechste_woerter.dart` (`listen`) ثبت است؛ فهرست تمام شد ⇒ ابزار خودش سراغ بعدی می‌رود.
-- ✅ **کلمه‌ی نامطمئن (تصمیم Lukas، 2026-09-23):** ساخته نمی‌شود، کنار گذاشته می‌شود (`zurueckgestellt` + ستون آخر جدول) و به Lukas گزارش می‌شود — «همین کار درست بود، ادامه بده».
 - ✅ **اسم شهرها/کشورها/مکان‌ها (تصمیم Lukas، 2026-09-24):** کارت فقط با **تلفظ (IPA) + معنی (fa/en) + آرتیکل** — بدون مثال، توضیح، مترادف، wortnetz و بقیه. ⚠️ قالب پرامپت و `vokab_schema.dart` فعلاً برای این نوع کارت کوتاه جا ندارند (نبودِ مثال/wortnetz ⇒ هشدار) ⇒ **قبل از اولین اسم خاص**، این نوع کارت در schema و پرامپت تعریف شود (با تأیید Lukas).
-- ⛔ **قبل از شروع اسم‌ها (فهرست ۴) حتماً از Lukas بپرس:** اسم‌هایی که آرتیکل ندارند (بیشتر نام شهرها و کشورها، مثل Aachen) چطور ساخته شوند — تصمیم Lukas: «وقتی به اسم‌ها رسیدیم، قبلش دوباره سؤال کن».
+- ⛔ **قبل از شروع اسم‌ها (فهرست ۴) حتماً از Lukas بپرس:** اسم‌هایی که آرتیکل ندارند (بیشتر نام شهرها و کشورها، مثل Aachen) چطور ساخته شوند — تصمیم Lukas: «وقتی به اسم‌ها رسیدیم، قبلش دوباره سؤال کن». ⚠️ همان‌جا بپرس: **هم‌نویسه‌ها با همان Wortart** (مثل der See / die See) طبق `vokabId` یک id می‌گیرند و فعلاً فقط یکی ساخته می‌شود — با ⭐ اصل اول (همه ساخته شوند) باید id دوم تعریف شود (تغییر `vokab_schema.dart` ⇒ فقط با تأیید Lukas).
 - ⚠️ برای اسم‌ها: `substantiv_singular_alle.txt` بدون آرتیکل است ⇒ genus از `substantiv_singular_der/die/das.txt`؛ نام‌های خاص (شهر/کشور، مثل Aachen) هم در فهرست‌اند — وقتی رسیدیم، همان قاعده‌ی پرامپت (مطمئن نیستی ⇒ نساز) و گزارش به Lukas.
 - ✅ **Wortart غلط در فهرست (2026-09-24 دور ۳۴):** aberhundert و abertausend (و عددهای ترتیبی achte، achtzehnte، achtzigste) در Adjektive.txt هستند ولی طبق Duden «unbestimmtes Zahlwort»اند ⇒ کارت در `assets/vocab/numerale/` ساخته شد و در `wortartKorrektur` (`tool/naechste_woerter.dart`) ثبت شد تا ابزار آن‌ها را ساخته‌شده بشناسد. قاعده: Wortart درست (Duden) مهم‌تر از برچسب فهرست است؛ هر مورد تازه همان‌جا ثبت شود.
 - کارت‌های دیگر آرشیو (افعال Dativ و …) از deckها آمده‌اند، نه از این فهرست‌ها. کل آرشیو: **۳۳۶ کارت** (2026-09-24 دور ۶۲).
@@ -361,31 +318,12 @@
 - [x] **(Lukas)** تست روی آیفون واقعی (Safari + افزودن به صفحه‌ی اصلی) ✅ 2026-09-23 — هر ۱۴ مرحله سبز؛ تنها یافته B-13 (رفع شد، Lukas روی آیفون تأیید کرد). باز شدن در حالت هواپیما روی آیفون ✅ — تست آفلاین کامل (DevTools) هنوز باز است.
 
 ### L.4 — بعد از انتشار: کلمه‌ها، روزانه
-- ⏭️ **R-2.2 هم اینجاست** (2026-09-22): deckهای Auswendiglernen یکی‌یکی ⇒ کارت کلمه (قاعده‌ی «الف»، L.4b) / کارت عبارت (قاعده‌ی «ب»، L.4c — بعد از همه‌ی کلمه‌ها) — برنامه: فاز R → «R-2.2 — برنامه». کارت‌های Auswendiglernen هرگز کم نمی‌شوند.
-- [x] **L.4b گسترش صفحه‌ی کلمه‌های قبلی ✅ (Lukas، 2026-09-24 دور ۵۴)** — قاعده: «📚 روال ده کلمه جدید» → «🔒 کلمه‌ای که از قبل در اپ هست».
-      **چه شد:** ۷۵ کلمه‌ی قبلی که کارت پرامپتی دارند (۷۴ فعل Dativ/Akkusativ مثل helfen، geben، danken + weil) — صفحه‌ی قبلی‌شان (`word_detail_screen.dart`) **دست‌نخورده** ماند و زیر بخش‌های قبلی، کل کارت اضافه شد: نماد Grammatikon، IPA، ترجمه، Hinweis، مثال‌ها، Kasus im Beispiel، Details، Synonyme/Gegenteil/Komposita، Wortbildung، Wortnetz، یادداشت.
-      · لیست «Alle Wörter»: فقط **یک ردیف** (ردیف قبلی)؛ شمارنده‌ی Wortschatz-Home هم هر کلمه را یک‌بار می‌شمارد.
-      · هر لینک به کارت (Wortnetz، پاپ‌آپ کلمه، deckها) ⇒ `/vokabular/wort/:id` ⇒ همان صفحه‌ی قبلی (`wort_seite_screen.dart` خودش هدایت می‌کند).
-      · دکمه‌های لایتنر/دسته/کوییز همان دکمه‌های قبلی صفحه‌اند (لایتنر کلید قبلی `eigen:<german>|<wordType>` ⇒ پیشرفت کاربر دست نخورد؛ دکمه‌ی لایتنر دوم اضافه نشد).
-      · کد: `features/wortschatz/data/altwort_karte.dart` (**تنها منبع** جفت‌کردن + جدول Wortart + lemma؛ لیست هم از همین می‌خواند) · `controllers/altwort_karte_provider.dart` · `features/vokabular/widgets/wort_karte_inhalt.dart` (`WortKarteKopf` + `WortKarteAbschnitte` — از `wort_seite_screen.dart` بیرون کشیده شد؛ یک منبع برای هر دو صفحه) · نگهبان `test/altwort_karte_test.dart` (۷ تست؛ با داده‌ی واقعی). ۳۱۶ تست سبز.
-      · جفت نمی‌شوند (حدس ممنوع): der (Konnektor ≠ Artikel)، doch (Konnektor ≠ Partikel)، کلمه‌های شخصی کاربر، ورودی‌های «فعل + حرف اضافه» (مثل «denken an» ≠ denken)، هر جفت نایکتا.
-      · ⚠️ اصلاح عدد: در گفت‌وگو «۶۶» گفته شد (شمارش تقریبی)؛ شمارش دقیق = **۷۵**.
-      · خودکار برای آینده: هر کارت تازه‌ای که lemma و Wortartش با کلمه‌ی قبلی بخواند، بدون تغییر کد به صفحه‌ی قبلی اضافه می‌شود.
-      · ⏭️ Lukas: روی آیفون مثلاً «helfen» را در «Alle Wörter» باز کند (یک ردیف، صفحه‌ی قبلی + کارت زیرش).
-      · (اصلاح 2026-09-24 دور ۵۵، تصمیم Lukas:) ورودی‌های NVV **عبارت‌اند** ⇒ عمداً جفت نمی‌شوند (L.4c). ورودی‌های Präpositionen («denken an») **کلمه‌اند** ⇒ باید جفت شوند ⇒ L.4b-2.
-- [x] **L.4b-2 کلمه + حرف اضافه‌ی ثابت ✅ (تصمیم Lukas، 2026-09-24 دور ۵۶)** — ورودی‌های قبلی deck Präpositionen («warten auf»، «abhängig von») کلمه‌اند ⇒ صفحه‌ی قبلی‌شان با کارت همان lemma گسترش پیدا می‌کند (نه صفحه‌ی جدید).
-      **تصمیم Lukas («عالیه قبول دارم»):**
-      · کلمه‌ای که **چند صفحه‌ی قبلی** دارد (مثل `vertrauen` + `vertrauen auf` + `vertrauen in`) ⇒ همان **یک کارت** زیر **هر سه صفحه** نشان داده می‌شود؛ هر سه صفحه همان‌طور می‌مانند، هیچ چیز حذف نمی‌شود؛ کارت فقط یک‌بار ساخته می‌شود (اصل «یک محتوا، چند ورودی»).
-      · **لینک به کارت** (Wortnetz، پاپ‌آپ، deckها) ⇒ صفحه‌ی **بدون حرف اضافه** (`vertrauen`)؛ اگر نبود و فقط یک صفحه با حرف اضافه هست (`warten auf`) ⇒ همان. اگر چند صفحه‌ی با حرف اضافه هست و صفحه‌ی بدون حرف اضافه نیست (`arbeiten an` + `arbeiten bei`) ⇒ اولی به ترتیب الفبا (Claude؛ همه همان کارت را نشان می‌دهند — Lukas می‌تواند عوض کند).
-      · لیست «Alle Wörter»: ردیف کارت جدا نشان داده نمی‌شود؛ ردیف‌های قبلی همه می‌مانند.
-      **قاعده‌ی جفت‌کردن (بدون حدس):** حرف اضافه فقط وقتی کنار گذاشته می‌شود که **دقیقاً همان** در `grammarNote` ورودی قبلی آمده باشد («auf + Akk») — عبارت‌ها (NVV، بدون grammarNote) هرگز کوتاه و جفت نمی‌شوند. دو ورودی قبلی **بدون** حرف اضافه برای یک کارت ⇒ نامطمئن ⇒ جفت نمی‌شود.
-      **کد:** `features/wortschatz/data/altwort_karte.dart` (`altwortPaarLemma`، `altwortZuordnen`) + `grammarNote` در `altwort_karte_provider.dart`؛ صفحه‌ها بدون تغییر (همان مسیر L.4b). نگهبان: `test/altwort_karte_test.dart` (۹ تست، با داده‌ی واقعی deck Präpositionen). ۳۱۸ تست سبز.
-      **نتیجه‌ی امروز:** abhängig von، stolz auf، warten auf (قبلاً دو ردیف ⇒ حالا یک ردیف، کارت زیر صفحه‌ی قبلی)؛ antworten auf، erzählen von، gehören zu، glauben an، vertrauen auf/in ⇒ کارت زیر این صفحه‌ها هم آمد.
-      ⏭️ **باز برای بعد (ثبت، نه حدس):** فعل‌های بازتابی deck («sich bedanken bei»، «sich freuen auf») جفت نمی‌شوند، چون lemma با «sich» است و پرامپت نمی‌گوید `wort` کارت «sich» دارد یا نه ⇒ **وقتی به فهرست افعال رسیدیم (L.4 فهرست ۲/۳)، قبل از اولین فعل بازتابی از Lukas بپرس**.
-- [ ] **L.4c گسترش صفحه‌ی عبارت‌ها (NVV، Redemittel) — بعد از وارد شدن همه‌ی کلمه‌ها (Lukas، 2026-09-24)** — قاعده: «📚 روال» → «🔒🔒» بخش «ب».
-      تا آن زمان: صفحه‌ی هر عبارت («eine Entscheidung treffen») همان‌طور که هست می‌ماند؛ کلمه‌ی سازنده (`Entscheidung`) در روال عادی صفحه‌ی **جدید** خودش را می‌گیرد (دو صفحه‌ی جدا، هرگز ادغام).
-      بعد از تمام شدن هر چهار فهرست: صفحه‌ی عبارت‌ها **جداگانه** گسترش پیدا می‌کند — روش: R-2.2 تصمیم ۳ («کارت عبارت»، پرامپت عبارت، `bestandteile` ⇒ لینک به کارت کلمه‌ها)؛ فقط افزودن. ⛔ پیش‌نویس پرامپت عبارت + تغییر schema اول به Lukas نشان داده شود.
-- [ ] **L.4d پیدا کردن کلمه‌های تکراری/چندنسخه‌ای — بعد از وارد شدن همه‌ی کلمه‌ها (Lukas، 2026-09-24 دور ۵۷)** — کار Claude: فقط **جست‌وجو، بررسی و فهرست کردن**؛ کار Lukas: **تصمیم** برای هر مورد. جزئیات کامل: بخش **«🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای»** ته همین فایل.
+- ⏭️ **R-2.2 هم اینجاست** (2026-09-22): deckهای Auswendiglernen یکی‌یکی ⇒ هر کلمه کارت و صفحه‌ی خودش (⭐ اصل اول)؛ NVV/Redemittel ⇒ کارت عبارت (L.4c). برنامه: فاز R → «R-2.2 — برنامه». کارت‌های Auswendiglernen هرگز کم نمی‌شوند.
+- [x] **L.4b / L.4b-2 (دور ۵۴ و ۵۶) — ⚠️ از 2026-09-24 دور ۶۳ با ⭐ اصل اول منسوخ.** آن‌موقع کارت کلمه‌ای که از قبل در اپ بود (۷۵+ کلمه: افعال Dativ/Akkusativ، weil، «warten auf»، «vertrauen auf/in» …) **به‌جای** صفحه‌ی خودش زیر صفحه‌ی قبلی می‌آمد و ردیفش پنهان بود.
+      **حالا (دور ۶۳):** کارت همیشه صفحه (`wort_seite_screen.dart`، بدون هدایت) و ردیف خودش (`wortschatz_list_screen.dart`، بدون پنهان‌کردن) را دارد؛ شمارنده‌ی `wortschatz_home_screen.dart` همه را می‌شمارد. نمایش **اضافه**ی کارت زیر صفحه‌ی قبلی (`word_detail_screen.dart` → `_KartenErweiterung`) ماند — هیچ چیز حذف نشد.
+      کد جفت‌کردن (فقط برای همین نمایش اضافه + فهرست L.4d): `features/wortschatz/data/altwort_karte.dart` (+ `controllers/altwort_karte_provider.dart`، `vokabular/widgets/wort_karte_inhalt.dart`). نگهبان: `test/altwort_karte_test.dart` (+ تست «Grundregel»). جزئیات قدیم: `git show be0c77d:PLAN.md`.
+- [ ] **L.4c کارت عبارت (NVV، Redemittel) — بعد از وارد شدن همه‌ی کلمه‌ها (Lukas، 2026-09-24).** روش: R-2.2 تصمیم ۳ (پرامپت عبارت، `bestandteile` ⇒ لینک به کارت کلمه‌ها). مثل همه: کارت عبارت صفحه‌ی **جدید** خودش را می‌گیرد؛ صفحه‌ی قدیمی عبارت دست نمی‌خورد؛ فقط افزودن. ⛔ پیش‌نویس پرامپت عبارت + تغییر schema اول به Lukas نشان داده شود.
+- [ ] **L.4d تکراری‌ها — آخرین مرحله (Lukas، 2026-09-24 دور ۵۷/۶۳)** — Claude: فقط **پیدا کردن و فهرست کردن**؛ Lukas: **تصمیم**. جزئیات: «🔁 مرحله‌ی آخر (۲)» ته همین فایل.
 - [x] روش ساخت ⇒ **تصمیم Lukas (2026-09-23): Claude خودش طبق Wort prompt می‌سازد، هر بار ۱۰ کلمه با دستور «ده کلمه جدید وارد کن»** — روال: بخش «📚 روال ده کلمه جدید». (سابقه‌ی A.6: (گزینه‌ی مطرح‌شده 2026-09-16: API با
       حدود ۵۰ یورو در ماه، اعتبار پیش‌پرداخت بدون شارژ خودکار، ترجیحاً Batch — هنوز تأیید نشده)
 
@@ -533,7 +471,7 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
   Reflexivverben · Verben mit Präpositionen · Modalverben · (بعداً deckهای «به‌زودی» L.2d). Redewendungen = کارت‌های شخصی کاربر (جداست).
 - **مراحل پیشنهادی (هر کدام قدم جدا، بعد از «بله»ی Lukas):**
   1. **فهرست‌برداری:** از هر فایل داده‌ی deck (`assets/data/*_data.json`) همه‌ی lemmaها + Wortart بیرون کشیده شود و با `vocab_index.json` مقایسه شود ⇒ فهرست «کارت دارد / کارت ندارد». (ابزار در `tool/`، مثل `sync_backlog.py`؛ بدون تغییر در اپ.)
-  2. **ساخت کارت‌های نداشته** با پرامپت کلمه ⇒ `assets/vocab/` — این همان مسیر **L.4 / A.6 ⛔** است (روش و هزینه را Lukas تعیین می‌کند؛ «کلمه‌ها آخرین مرحله‌اند»).
+  2. **ساخت کارت‌های نداشته** با پرامپت کلمه ⇒ `assets/vocab/` — همان مسیر **L.4** (روش: «📚 روال ده کلمه جدید»، تصمیم 2026-09-23؛ هر کلمه صفحه‌ی خودش — ⭐ اصل اول).
   3. **اتصال:** در لیست/جزئیات هر deck، هر lemma ⇒ همان رفتار L.5f (`showWortPopup` / `router.push('/vokabular/wort/:id')`) — id فقط از `vokabId`/`vocab_index`، **هیچ id حدسی**. کارت نیست ⇒ لینک نیست (نه لینک شکسته).
   4. **صدا/لایتنر/دسته‌بندی** از خود صفحه‌ی کلمه می‌آیند (`WortActions`) — در صفحه‌های deck تکرار نمی‌شوند.
   5. تست: نگهبان «هر lemma که لینک دارد، id‌اش در `vocab_index.json` هست» (مثل L.1a).
@@ -548,7 +486,7 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
      · در deck: همان کارت «sich bedanken für» با همه‌ی محتوای قبلی + دکمه‌های تازه (تلفظ، لایتنر، «صفحه‌ی کامل کلمه» ⇒ `/vokabular/wort/verb_bedanken`).
      · هر عضو خوشه/deck که کلمه‌ی تکی است (Präp-Cluster، Verben mit Präp، Dativ/Akk، Reflexiv، Trennbar، Unregelmäßig، Modal، Konnektoren) همین راه را می‌رود.
   **۳. عبارت‌ها (NVV، Redemittel) — تصمیم Claude به خواست Lukas: «کارت عبارت» (Ausdruck-Karte) هم‌خانواده‌ی کارت کلمه.**
-     · ⏱️ **زمان (Lukas، 2026-09-24): بعد از وارد شدن همه‌ی کلمه‌ها** ⇒ L.4c. تا آن زمان صفحه‌ی عبارت همان‌طور که هست می‌ماند، و کلمه‌ی سازنده‌اش در روال ده کلمه صفحه‌ی **جدید** خودش را می‌گیرد (قاعده‌ی «🔒🔒» در «📚 روال»، بخش «ب»).
+     · ⏱️ **زمان (Lukas، 2026-09-24): بعد از وارد شدن همه‌ی کلمه‌ها** ⇒ L.4c. تا آن زمان صفحه‌ی عبارت همان‌طور که هست می‌ماند؛ کلمه‌های سازنده‌اش در روال ده کلمه مثل همه صفحه‌ی **جدید** خودشان را می‌گیرند (⭐ اصل اول).
      · **تأیید Lukas (2026-09-22 دور ۷) — در لیست عبارت کامل می‌ماند:** لیست deck (NVV/Redemittel) هیچ تغییری نمی‌کند —
        هر ردیف همان عبارتِ کامل است («eine Entscheidung treffen» یک ردیف، نه سه ردیف جدا برای هر کلمه)، دقیقاً مثل الان.
        کلمه‌ها فقط **داخل صفحه‌ی جزئیات** (بعد از کلیک روی ردیف) تک‌تک و قابل‌کلیک می‌شوند (مثل L.5f) — نه در خود لیست.
@@ -566,7 +504,7 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
   **۴. ترتیب پیشنهادی deckها (یکی‌یکی، هر کدام: فهرست‌برداری ⇒ کارت‌ها ⇒ اتصال ⇒ نگهبان ⇒ تأیید Lukas ⇒ بعدی):**
      ① Nomen·Verb·Adjektiv + Präposition (منشأ R-2.2) ② Verben mit Präpositionen ③ Reflexivverben ④ Dativ/Akkusativ-Verben ⑤ Trennbare Verben ⑥ Unregelmäßige Verben ⑦ Modalverben ⑧ Satzkonnektoren
      ⑨ NVV (اولین کارت عبارت) ⑩ Redemittel: Goethe B2 ⇒ ÖSD B2 ⇒ ÖSD C1 ⇒ 1010 (بزرگ‌ترین، آخر). Redewendungen = کارت‌های شخصی کاربر ⇒ بیرون از این کار.
-     ⚠️ (2026-09-24) ⑨ و ⑩ = L.4c ⇒ **فقط بعد از وارد شدن همه‌ی کلمه‌ها**؛ ①–⑧ (کلمه‌ها) طبق قاعده‌ی «الف»: صفحه‌ی قبلی گسترش، نه صفحه‌ی جدید.
+     ⚠️ (2026-09-24) ⑨ و ⑩ = L.4c ⇒ **فقط بعد از وارد شدن همه‌ی کلمه‌ها**. ①–⑧: هر کلمه کارت و صفحه‌ی خودش (⭐ اصل اول)؛ deck فقط دکمه/لینک به آن اضافه می‌کند؛ هیچ ادغام — تکراری‌ها فقط در L.4d.
   - معنا (FA + EN)، مثال‌ها، صدا (TTS)
   - دکمه Leitner، دسته‌بندی، favorit
 
@@ -1102,12 +1040,13 @@ reines Dart, kein Codegen:
 
 - [x] **A.1 `tool/backlog.py`** ✅ (2026-09-15) — backlog reader: از `old files Lukasalmani/Wörter/*.txt` و
 - [x] **A.2 `tool/sync_backlog.py`** ✅ (2026-09-15) — **اجرا شد: ۴۵ مارک نو، ۰ حذف؛ اجرای دوم بدون تغییر (idempotent)** — مارک‌های `✓ ` را از روی `assets/vocab/` بازسازی می‌کند
+      ⚠️ (2026-09-24 دور ۶۳) `wortartKorrektur` را نمی‌شناسد (✓ عددهای numerale را برمی‌دارد) ⇒ در روال **فقط** `dart run tool/naechste_woerter.dart --abhaken` (همان vokabId + wortartKorrektur). این ابزار را برای ✓ اجرا نکن.
 - [x] **A.3** ✅ `tool/generate_words.py` — سازنده‌ی کلمه با SUPER-PROMPT (مستقیم از `Wort prompt`)، سقف ۵۰۰.
 - [x] **A.4** ✅ (2026-09-16) `vokabular-autofill.yml`.
       ⚠️ نیاز به `ANTHROPIC_API_KEY` — هزینه دارد و باید شفاف گزارش شود.
 - [x] **A.5** ✅ گزارش: هر اجرا یک خلاصه در Job-Summary (چند کلمه، چند Warnung، هزینه‌ی تقریبی).
-- [!] **A.6 ⛔ روش ساخت کلمه‌ها — تصمیم با Lukas (ثبت 2026-09-16)**
-      **⚠️ قاعده برای Claude:** این قدم را **هرگز خودسرانه شروع نکن** — حتی اگر اولین قدم باز PLAN باشد
+- [x] **A.6 روش ساخت کلمه‌ها — ✅ تصمیم Lukas (2026-09-23): Claude در چت طبق Wort prompt، هر بار «ده کلمه جدید» ⇒ «📚 روال».** متن زیر فقط سابقه است (گزینه‌های 2026-09-16)؛ دیگر مانع کار نیست.
+      _(سابقه)_ **⚠️ قاعده‌ی قدیم برای Claude:** این قدم را **هرگز خودسرانه شروع نکن** — حتی اگر اولین قدم باز PLAN باشد
       و حتی با وکالت کلی 2026-09-15. وقتی زمانش رسید (پیش از اولین اجرای واقعی ساخت کلمه، یا وقتی
       V.2 تمام شد)، **حتماً از Lukas بپرس از کدام روش پیش برویم** و فقط بعد از جواب او کاری بکن.
       گزینه‌ها (تخمین 2026-09-16، اندازه‌ی میانگین کارت فعلی ≈ ۴ KB، ~۲۶٬۱۰۰ کلمه باقی):
@@ -1126,7 +1065,7 @@ reines Dart, kein Codegen:
 با چند هزار کلمه اپ زنده را می‌شکند. سقف امن فعلی: **~۵۰۰ کارت**.
 ✅ **V.2 انجام شد (2026-09-16)** — دلیل فنی این سقف از بین رفت. سقف `--grenze 500` در
 `tool/generate_words.py` **عمداً** باقی است: حالا فقط جلوی هزینه‌ی ناخواسته را می‌گیرد و برداشتنش جزو
-تصمیم A.6 با Lukas است.
+تصمیم A.6 گرفته شد (2026-09-23، «📚 روال»).
 ⚠️ **یافته‌ی دوم 2026-09-16 (برای A.6, هنگام L.1a):** در `vokabular-autofill.yml` قدم «Import + Validierung»
 `dart run tool/vokabular_import.dart 2>&1 | tee …` است؛ shell پیش‌فرض GitHub (`bash -e`) بدون `pipefail` است ⇒
 خروجی قرمز import **پنهان می‌شود** و workflow ادامه می‌دهد — برخلاف قاعده‌ی «Fehler > 0 ⇒ هیچ commit». همراه با
@@ -1211,26 +1150,24 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 
-> **تصمیم Lukas (2026-09-24 دور ۵۷):** بعد از تمام شدن پروژه‌ی کلمه‌ها و وارد شدن **همه‌ی** کلمه‌ها، هر کلمه‌ای که **تکراری** است یا **چند نسخه** از آن در اپ هست پیدا می‌شود و درباره‌اش تصمیم گرفته می‌شود.
-> **تقسیم کار (ثابت):** 🔍 **Claude** = جست‌وجو، بررسی و پیدا کردن + ثبت در جدول پایین · ⚖️ **Lukas** = تصمیم برای تک‌تک موردها (ادغام، نگه داشتن هر دو، جفت کردن، …).
-> ⛔ Claude **هیچ** کارت یا صفحه‌ای را به‌خاطر تکراری بودن خودش حذف، ادغام یا عوض نمی‌کند — فقط پیدا و ثبت می‌کند و بعد از تصمیم Lukas اجرا می‌کند.
-> 📌 **کی؟** فقط وقتی هر چهار فهرست (`Adjektive` ⇒ `Verben_unregelmaeßig_Infinitiv` ⇒ `Verben_regelmaesig` ⇒ `substantiv_singular_alle`) تمام شد. تا آن موقع این بخش فقط منتظر است؛ اگر در روال ده کلمه موردی دیده شد، فقط همین‌جا یک ردیف اضافه می‌شود (بدون هیچ تغییر).
-> ترتیب با «🏁 مرحله‌ی آخر» و L.4c: هر سه بعد از همه‌ی کلمه‌ها‌اند؛ ترتیب اجرای این سه را Lukas تعیین می‌کند.
+> **تصمیم Lukas (2026-09-24 دور ۵۷، به‌روز دور ۶۳):** کلمه‌ها **در هر صورت** ساخته می‌شوند، حتی اگر دوبرابر شوند (⭐ اصل اول در «📚 روال»). **در آخرین مرحله** — وقتی هر چهار فهرست (`Adjektive` ⇒ `Verben_unregelmaeßig_Infinitiv` ⇒ `Verben_regelmaesig` ⇒ `substantiv_singular_alle`) صفر تا صد وارد اپ شد — Claude **همه‌ی** کلمه‌های اضافی/دوبرابر را پیدا می‌کند و این‌جا ثبت می‌کند؛ **Lukas تصمیم می‌گیرد** با هر کدام چه شود (ادغام، نگه داشتن هر دو، لینک، …).
+> ⛔ تا آن موقع و بدون تصمیم Lukas: **هیچ** صفحه، کلمه یا جزئیاتی حذف، ادغام، پنهان یا هدایت نمی‌شود. وسط روال ده کلمه هم لازم نیست تکراری‌ها بررسی یا ثبت شوند — همه یک‌جا در آخر.
+> 📌 ترتیب این بخش با «🏁 مرحله‌ی آخر» و L.4c را Lukas تعیین می‌کند.
 
 **Claude کجا را می‌گردد (همه‌ی منابع کلمه در اپ):**
 - آرشیو `assets/vocab/**` (همه‌ی Wortartها) + `assets/vocab_index.json`.
-- کلمه‌های deckهای Auswendiglernen و صفحه‌های قبلی (`word_detail_screen.dart`) — از همان منبعی که `features/wortschatz/data/altwort_karte.dart` می‌خواند.
-- فهرست‌های `old files Lukasalmani/Wörter/*.txt` (فقط برای مقایسه؛ مرجع وجود کارت همچنان `assets/vocab/` است).
+- کلمه‌ها و عبارت‌های deckهای Auswendiglernen و صفحه‌های قدیمی (`word_detail_screen.dart`، `assets/data/*_data.json`؛ جفت‌های شناخته‌شده: `features/wortschatz/data/altwort_karte.dart`).
+- فهرست‌های `old files Lukasalmani/Wörter/*.txt` (فقط برای مقایسه؛ مرجع وجود کارت `assets/vocab/` است).
 
-**چه چیزی «تکراری/چندنسخه‌ای» حساب می‌شود (Claude پیدا می‌کند، دسته‌بندی می‌کند، حدس نمی‌زند):**
-1. همان lemma + همان Wortart در **دو کارت آرشیو** (دو id).
-2. **گونه‌های املایی/شکلی** یک کلمه با کارت جدا (مثل allein / alleine، شکل‌های قدیم/جدید املا).
-3. همان کلمه با **Wortartهای مختلف** (مثل صفت + قید، یا برچسب فهرست ≠ `wortartKorrektur`) — شاید درست باشد، شاید نه ⇒ فقط ثبت.
-4. کلمه‌ای که در deck/صفحه‌ی قبلی هست ولی **با کارت آرشیو جفت نشده** (L.4b/L.4b-2 آن را نشناخته).
-5. هم‌نویسه‌ها (Homographe) با معنای کاملاً جدا — احتمالاً درست‌اند، ولی برای تأیید Lukas ثبت می‌شوند.
-- ⚠️ **تکراری حساب نمی‌شوند:** جفت‌های عمدی L.4b/L.4b-2 (یک کارت زیر چند صفحه‌ی قبلی) و عبارت‌ها کنار کلمه‌ی سازنده‌شان (قاعده‌ی «🔒🔒 کلمه یا عبارت» — دو صفحه‌ی جدا، عمداً). اگر در این‌ها چیز مشکوکی دیده شد، فقط ثبت.
+**چه چیزی «تکراری/چندنسخه‌ای» است (Claude پیدا و دسته‌بندی می‌کند، حدس نمی‌زند):**
+1. همان lemma + همان Wortart در **دو کارت** (دو id).
+2. **گونه‌های املایی/شکلی** یک کلمه با کارت جدا (مثل allein / alleine — هر دو الان کارت دارند).
+3. همان کلمه با **Wortartهای مختلف** (صفت + قید، یا برچسب فهرست ≠ `wortartKorrektur`).
+4. کارت تازه + **صفحه‌ی قدیمی** همان کلمه: کلمه‌ی تنها (`helfen`)، با حرف اضافه (`warten auf`، `vertrauen auf/in`)، با `sich` (`sich bedanken bei`) — چه زیر صفحه‌ی قدیمی نمایش اضافه داشته باشد، چه نه.
+5. کارت کلمه + **عبارتی** که آن کلمه را دارد (`Entscheidung` ↔ «eine Entscheidung treffen») — فقط برای دیدن Lukas.
+6. هم‌نویسه‌ها (Homographe) با معنای جدا — احتمالاً درست‌اند، ولی برای تأیید Lukas ثبت می‌شوند.
 
-**خروجی Claude:** جدول پایین (یک ردیف برای هر گروه) + خلاصه در MAP. قاعده‌ها هنگام اجرای تصمیم: id کارت منتشرشده بدون تصمیم صریح Lukas هرگز عوض/حذف نمی‌شود؛ پیشرفت لایتنر و لیست‌های کاربر که به آن id اشاره دارند باید قبلش نگهبان داشته باشند (قاعده‌ی «قبل از انتشار»، L.1).
+**خروجی Claude:** جدول پایین (یک ردیف برای هر گروه) + خلاصه در MAP. هنگام اجرای تصمیم Lukas: id کارت منتشرشده بدون تصمیم صریح او هرگز عوض/حذف نمی‌شود؛ پیشرفت لایتنر و لیست‌های کاربر که به آن id اشاره دارند قبلش نگهبان دارند (قاعده‌ی «قبل از انتشار»، L.1).
 
 | # | کلمه | نسخه‌ها (id / جا) | نوع (۱–۵) | توضیح Claude | تصمیم Lukas |
 |---|---|---|---|---|---|

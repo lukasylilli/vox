@@ -2,9 +2,9 @@
 // PHASE: L.4b (2026-09-24)
 // PURPOSE: Paarung altes App-Wort ↔ Prompt-Karte für die Oberfläche.
 //          Regeln und Logik: ../data/altwort_karte.dart (einzige Quelle).
-//          Nutzer: word_detail_screen.dart (alte Seite zeigt die Karte mit),
-//          wort_seite_screen.dart (Karte eines alten Worts ⇒ alte Seite),
-//          wortschatz_list_screen.dart (nur EINE Zeile je Wort).
+//          Nutzer: nur word_detail_screen.dart (alte Seite zeigt die Karte
+//          ZUSÄTZLICH). Grundregel 2026-09-24: die Karte behält immer ihre
+//          eigene Seite und Zeile — keine Umleitung, kein Ausblenden.
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../vokabular/controllers/vokabular_controller.dart';

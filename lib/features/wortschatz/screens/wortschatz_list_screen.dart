@@ -6,10 +6,9 @@
 //              volle Karten; WortCard braucht nur diese Felder.
 //          Das frühere «Vokabular-Archiv» (eigene Home/Liste) wurde hierher
 //          verschmolzen; Wort-Seite bleibt /vokabular/wort/:id.
-//          L.4b (2026-09-24): EIN Wort = EINE Zeile. Hat ein App-Wort der alten
-//          DB eine Prompt-Karte, bleibt die alte Zeile (→ alte, um die Karte
-//          erweiterte Seite); die Karten-Zeile entfällt. Paarung:
-//          ../data/altwort_karte.dart.
+//          Grundregel (Lukas, 2026-09-24): JEDE Karte hat ihre eigene Zeile
+//          (→ eigene Seite), auch wenn es dasselbe Wort schon als alte Zeile
+//          gibt. Nichts wird ausgeblendet; Doppelte erst am Ende (L.4d).
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -23,7 +22,6 @@ import '../../../core/widgets/filter_chip_bar.dart';
 import '../../../core/widgets/vox_search_field.dart';
 import '../../vokabular/controllers/vokabular_controller.dart';
 import '../../vokabular/widgets/wort_actions.dart';
-import '../controllers/altwort_karte_provider.dart';
 import '../controllers/word_controller.dart';
 import '../data/altwort_karte.dart';
 import '../widgets/word_list_item.dart';
@@ -79,7 +77,7 @@ class _WortschatzListScreenState extends ConsumerState<WortschatzListScreen> {
       .toList();
 
   // Wortart-Tabelle und Sortier-Lemma: EINE Quelle, ../data/altwort_karte.dart
-  // (altwortTypZuWortart, altwortLemma) — dieselbe, die L.4b zur Paarung nutzt.
+  // (altwortTypZuWortart, altwortLemma).
 
   List<Map<String, dynamic>> _gefilterteKarten(
       List<Map<String, dynamic>> karten) {
@@ -140,10 +138,6 @@ class _WortschatzListScreenState extends ConsumerState<WortschatzListScreen> {
   Widget build(BuildContext context) {
     final wordsAsync = ref.watch(allWordsProvider);
     final kartenAsync = ref.watch(vokabIndexProvider);
-    // L.4b: Karten, die zu einem alten App-Wort gehören — dessen Zeile zeigt sie.
-    final gepaart = ref.watch(altwortZuordnungProvider).valueOrNull
-            ?.karteZuWort ??
-        const <String, int>{};
     final activeMap  = _activeFilters;
 
     return Scaffold(
@@ -238,9 +232,7 @@ class _WortschatzListScreenState extends ConsumerState<WortschatzListScreen> {
 
                 // Vokabular-Karten (assets/vocab/) mit denselben Filtern.
                 final karten = _gefilterteKarten(
-                        kartenAsync.valueOrNull ?? const [])
-                    .where((k) => !gepaart.containsKey(k['id']))
-                    .toList();
+                    kartenAsync.valueOrNull ?? const []);
 
                 // Beide Quellen alphabetisch gemischt (Artikel zählt nicht).
                 final zeilen = <MapEntry<String, Object>>[

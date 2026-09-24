@@ -2,8 +2,9 @@
 // PHASE: L.4b (2026-09-24)
 // PURPOSE: Wächter der Paarung altes App-Wort ↔ Prompt-Karte
 //          (lib/features/wortschatz/data/altwort_karte.dart).
-//          Regel (Lukas): alte Seite wird um die Karte erweitert, nichts
-//          gelöscht; gepaart wird nur, was eindeutig ist — nie geraten.
+//          Grundregel (Lukas, 2026-09-24): jede Karte hat IMMER ihre eigene
+//          Seite und Zeile; eine alte Seite zeigt sie höchstens ZUSÄTZLICH.
+//          Nichts gelöscht; gepaart wird nur, was eindeutig ist — nie geraten.
 import 'dart:convert';
 import 'dart:io';
 
@@ -211,5 +212,23 @@ void main() {
     expect(z.karteZuWort.keys, containsAll(['verb_warten', 'adjektiv_stolz']));
     // jede Karte hat genau ein Linkziel, und das zeigt auch auf sie zurück
     z.karteZuWort.forEach((karte, wort) => expect(z.wortZuKarte[wort], karte));
+  });
+
+  // Grundregel (Lukas, 2026-09-24): jede Karte behält ihre eigene Seite und
+  // Zeile. Wächter gegen die frühere Umleitung/Ausblendung (L.4b alt).
+  test('Grundregel: keine Umleitung, kein Ausblenden, Zähler zählt alles', () {
+    final seite = File(
+      'lib/features/vokabular/screens/wort_seite_screen.dart',
+    ).readAsStringSync();
+    expect(seite, isNot(contains('WordDetailScreen(')));
+    expect(seite, isNot(contains('altwortZuordnungProvider')));
+    for (final pfad in [
+      'lib/features/wortschatz/screens/wortschatz_list_screen.dart',
+      'lib/features/wortschatz/screens/wortschatz_home_screen.dart',
+    ]) {
+      final code = File(pfad).readAsStringSync();
+      expect(code, isNot(contains('altwortZuordnungProvider')), reason: pfad);
+      expect(code, isNot(contains('karteZuWort')), reason: pfad);
+    }
   });
 }

@@ -9,7 +9,6 @@ import '../../../core/constants/app_routes.dart';
 import '../../../core/constants/app_sizes.dart';
 import '../../../core/l10n/app_l10n.dart';
 import '../../vokabular/controllers/vokabular_controller.dart';
-import '../controllers/altwort_karte_provider.dart';
 import '../controllers/word_controller.dart';
 import '../../../core/widgets/vox_button.dart';
 
@@ -18,20 +17,12 @@ class WortschatzHomeScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    // Zähler = alte Wortschatz-DB + Vokabular-Karten (beide in «Alle Wörter»),
-    // minus Karten, die zu einem alten App-Wort gehören (L.4b: ein Wort =
-    // eine Zeile ⇒ wird auch nur einmal gezählt).
+    // Zähler = alte Wortschatz-DB + Vokabular-Karten — genau die Zeilen von
+    // «Alle Wörter» (Grundregel 2026-09-24: jede Karte eigene Zeile).
     final wordsAsync = ref.watch(allWordsProvider);
     final kartenAsync = ref.watch(vokabIndexProvider);
-    final gepaart = ref
-            .watch(altwortZuordnungProvider)
-            .valueOrNull
-            ?.karteZuWort
-            .length ??
-        0;
     final count = (wordsAsync.valueOrNull?.length ?? 0) +
-        (kartenAsync.valueOrNull?.length ?? 0) -
-        gepaart;
+        (kartenAsync.valueOrNull?.length ?? 0);
 
     return Scaffold(
       appBar: AppBar(title: const Text('Wortschatz')),

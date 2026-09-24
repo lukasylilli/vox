@@ -2,11 +2,12 @@
 // DEPS: wordByIdProvider, WordModel, ArticleBadge, AudioPlayButton, ConjugationTable
 // PURPOSE: Full word detail — all fields + action buttons (Leitner, Grammar, Quiz)
 //
-// L.4b (Lukas, 2026-09-24): Gibt es zu einem App-Wort (schon vorher in der App)
-//   eine Prompt-Karte, wird DIESE Seite um die ganze Karte ERWEITERT
-//   ([_KartenErweiterung] unter den bisherigen Abschnitten). Von der Seite
-//   wird nichts gelöscht; sie bleibt die einzige Seite des Worts (die
-//   Karten-Route zeigt dann diese Seite). Paarung: ../data/altwort_karte.dart.
+// Seit L.4b (2026-09-24) zeigt diese Seite unter ihren Abschnitten zusätzlich
+//   die Prompt-Karte desselben Worts ([_KartenErweiterung]) — nur als weitere
+//   Tür; nichts von der Seite wird gelöscht. GRUNDREGEL (Lukas, 2026-09-24):
+//   die Karte hat IMMER auch ihre eigene Seite und Zeile (keine Umleitung
+//   hierher). Doppelte ⇒ erst am Ende (L.4d), Entscheidung Lukas.
+//   Paarung: ../data/altwort_karte.dart.
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

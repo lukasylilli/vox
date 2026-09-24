@@ -1,35 +1,18 @@
 # PROJECT MAP — VOX
 # نقشه کامل پروژه برای ناوبری سریع در هر session
-# آپدیت: 2026-09-23 دور ۲۵ — خلاصه‌سازی دوم (درخواست Lukas): کارنامه‌ی دورها به یک خط کوتاه شد؛ متن کامل قبلی: `git show a078dc2:PROJECT_MAP.md`.
+# آپدیت: 2026-09-24 دور ۶۳ — خلاصه‌سازی سوم (درخواست Lukas): گزارش دورها کوتاه شد؛ متن قبلی: `git show be0c77d:PROJECT_MAP.md` (دوم: `a078dc2`).
 #   تازه‌ها در همین روز: web/locale_guard.js · leitnerEintraegeProvider (لایتنر دو منبع، B-13) · wende_karte.dart + archiv_flash_card.dart · WortZeile در wort_card.dart
 #   · wort_popup.dart (_WortKopf تلفظ، _LadenFehlgeschlagen) · deutschLinksbuendig + DeutschRichText (core/widgets/deutsch_text.dart) · vokab_formen.dart ⇒ assets/vocab_formen/.
 # دور ۲۶–۲۷: DeutschMitEtikett (deutsch_text.dart) · جدول/ردیف‌های آلمانی deckها Directionality(ltr) · Wrap(textDirection: ltr) در همه‌ی تمرین‌های مرتب‌کردن · نگهبان deutscher_text_waechter_test با ~۴۰ فیلد.
-# دور ۲۸: +۱۰ کارت صفت در assets/vocab/adjektiv/ (aalglatt … abbildbar) ⇒ آرشیو ۹۷ کارت؛ منبع: old files Lukasalmani/Wörter/Adjektive.txt (✓ = ساخته‌شده).
-# دور ۲۹: روال «ده کلمه جدید» ⇒ بخش «📚 کلمه‌ها» همین فایل + tool/naechste_woerter.dart (تازه).
-# دور ۳۰: ترتیب فهرست‌های کلمه (Lukas) در tool/naechste_woerter.dart؛ abatisch کنار گذاشته می‌ماند.
-# دور ۳۳ (2026-09-24): L.3 آفلاین ⇒ tool/pwa/ (تازه: workbox_config.cjs · sw_bauen.cjs · offline_test.cjs · package.json/lock) ⇒ build/web/vox_sw.js ·
-#   web/index.html ثبت vox_sw.js · deploy-web.yml: --pwa-strategy=none --no-web-resources-cdn + دو مرحله‌ی تازه (worker، تست آفلاین Chrome).
-# دور ۳۴ (2026-09-24): +۱۰ کارت (abenteuerlich … abfällig) در assets/vocab/ ⇒ آرشیو ۱۱۷. aberhundert/abertausend ⇒ numerale (wortartKorrektur).
-# دور ۳۵ (2026-09-24): +۱۰ کارت (abgabenfrei … abgelegen) در assets/vocab/ ⇒ آرشیو ۱۲۷. abgefuckt mit Hinweis «vulgär».
-# دور ۳۶ (2026-09-24): +۱۰ کارت (abgemacht … abhold) در assets/vocab/ ⇒ آرشیو ۱۳۷. 
-# دور ۳۷ (2026-09-24): +۱۰ کارت (abhängig … aboral) در assets/vocab/ ⇒ آرشیو ۱۴۷. 
-# دور ۳۸ (2026-09-24): +۱۰ کارت (abortiv … absent) در assets/vocab/ ⇒ آرشیو ۱۵۷. 
-# دور ۳۹ (2026-09-24): +۱۰ کارت (absichtlich … abtörnend) در assets/vocab/ ⇒ آرشیو ۱۶۷. 
-# دور ۴۰ (2026-09-24): +۱۰ کارت (abundant … achromatisch) در assets/vocab/ ⇒ آرشیو ۱۷۷. 
-# دور ۴۱ (2026-09-24): +۱۰ کارت (achtarmig … achtjährig) در assets/vocab/ ⇒ آرشیو ۱۸۷. 
-# دور ۴۲ (2026-09-24): +۱۰ کارت (achtsam … adaxial) در assets/vocab/ ⇒ آرشیو ۱۹۷. 
-# دور ۴۳ (2026-09-24): +۱۰ کارت (additiv … adsorptiv) در assets/vocab/ ⇒ آرشیو ۲۰۷. 
-# دور ۴۴ (2026-09-24): PLAN.md ⇒ بخش تازه «🏁 مرحله‌ی آخر» (ته فایل) = فهرست همه‌ی کلمه‌هایی که کارت نمی‌گیرند + دلیل؛ همیشه هم‌زمان با zurueckgestellt.
-# دور ۴۵ (2026-09-24): +۱۰ کارت (adstringierend … affektiert) در assets/vocab/ ⇒ آرشیو ۲۱۷. 
-# دور ۴۶ (2026-09-24): +۹ کارت (affektiv … afrikanisch؛ afrikaans کنار گذاشته شد) در assets/vocab/ ⇒ آرشیو ۲۲۶. 
-# دور ۴۷ (2026-09-24): +۱۰ کارت (afroamerikanisch … agnostizistisch) در assets/vocab/ ⇒ آرشیو ۲۳۶. 
-# دور ۴۸ (2026-09-24): قاعده‌ی ثابت کلمه‌های واردنشده ⇒ PLAN.md «📚 روال» → «🔒 قاعده‌ی ثابت» (جا: «🏁 مرحله‌ی آخر» ته PLAN + zurueckgestellt؛ بررسی: بعد از هر چهار فهرست) + کامنت tool/naechste_woerter.dart.
-# دور ۴۹–۵۳ (2026-09-24، یک چت): +۵۰ کارت (agogisch … allein) در assets/vocab/adjektiv/ ⇒ آرشیو ۲۸۶؛ aldente و aleppinisch کنار گذاشته شدند (zurueckgestellt در tool/naechste_woerter.dart + PLAN «🏁 مرحله‌ی آخر»).
-# دور ۵۴ (2026-09-24): L.4b ✅ — قاعده‌ی «کلمه‌ای که از قبل در اپ هست» (صفحه‌ی قبلی گسترش، حذف هرگز). تازه: features/wortschatz/data/altwort_karte.dart (تنها منبع جفت‌کردن) ·
-#   features/wortschatz/controllers/altwort_karte_provider.dart · features/vokabular/widgets/wort_karte_inhalt.dart (WortKarteKopf + WortKarteAbschnitte) · test/altwort_karte_test.dart.
-#   تغییر: word_detail_screen (+_KartenErweiterung) · wort_seite_screen (کارت کلمه‌ی قبلی ⇒ صفحه‌ی قبلی) · wortschatz_list_screen (یک ردیف) · wortschatz_home_screen (شمارنده).
-# دور ۵۵ (2026-09-24): قاعده‌ی «کلمه یا عبارت» (Lukas) ⇒ PLAN («📚 روال» 🔒🔒، L.4b-2 ⛔، L.4c تازه، R-2.2 تصمیم ۳ + ترتیب ⑨⑩، بعد از انتشار) + MAP «📚 کلمه‌ها» + کامنت altwort_karte.dart.
-# دور ۵۶ (2026-09-24): L.4b-2 ✅ (تصمیم Lukas) — features/wortschatz/data/altwort_karte.dart: altwortPaarLemma (حرف اضافه فقط با grammarNote) + یک کارت ⇒ چند صفحه‌ی قبلی؛ provider با grammarNote؛ test/altwort_karte_test.dart ۹ تست.
+# دور ۲۸–۶۲ (2026-09-23/24): کلمه‌ها ⇒ assets/vocab/ (aalglatt … alttestamentlich) ⇒ آرشیو ۳۳۶ · روال «ده کلمه جدید» + tool/naechste_woerter.dart
+#   (ترتیب فهرست‌ها، zurueckgestellt، wortartKorrektur) · PLAN «🏁 مرحله‌ی آخر» · L.4b/L.4b-2 (altwort_karte.dart، حالا منسوخ — دور ۶۳) · L.4d ثبت.
+#   جزئیات دور به دور: `git show be0c77d:PROJECT_MAP.md`.
+# دور ۳۳ (2026-09-24): L.3 آفلاین ⇒ tool/pwa/ (workbox_config.cjs · sw_bauen.cjs · offline_test.cjs) ⇒ build/web/vox_sw.js · deploy-web.yml
+#   (--pwa-strategy=none --no-web-resources-cdn + worker + تست آفلاین Chrome).
+# ⭐ دور ۶۳ (2026-09-24): اصل اول کلمه‌ها (Lukas): هر کلمه همیشه کارت + صفحه‌ی جدید؛ هیچ حذف/ادغام/هدایت/پنهان؛ تکراری‌ها فقط در آخر (L.4d، تصمیم Lukas).
+#   کد: wort_seite_screen (بدون هدایت به صفحه‌ی قبلی) · wortschatz_list_screen (بدون پنهان‌کردن) · wortschatz_home_screen (شمارش کامل) ·
+#   altwort_karte.dart/provider (فقط نمایش اضافه زیر صفحه‌ی قبلی) · test/altwort_karte_test.dart («Grundregel»، ۳۱۹ تست سبز) ·
+#   tool/wort_runde.sh (تازه: مراحل ۵–۷) · tool/naechste_woerter.dart --abhaken (تازه) · PLAN/MAP بازبینی و خلاصه (سوم).
 # 🚀 کارهای باز قبل از انتشار (فهرست کامل): PLAN.md → «🚀 قبل از انتشار». بعد از انتشار: PLAN.md → «⏭️ بعد از انتشار».
 #
 # ⚠️ 2026-09-19 (اصلاح یادداشت آفلاین): «precache شدنی است» فقط برای ~۷٫۵MB فعلی (۸۷ کارت) درست است. کارت ~۴KB ⇒ ~۲۶٬۲۰۰ کارت ≈ ~۱۰۰MB
@@ -67,9 +50,7 @@
 #   ⚠️ شناسه‌ی کارت منتشرشده در assets/vocab/ هرگز حذف/عوض نشود — لایتنر کاربر به آن اشاره می‌کند.
 #   ⚠️ کپی‌رایت: هیچ جمله/تمرینی از کتاب کپی نمی‌شود — فقط موضوع؛ متن و مثال و تمرین از نو نوشته می‌شود.
 # 🌐 زبان شروع: پیش‌فرض انگلیسی، فقط روی دستگاه فارسی‌زبان فارسی — تنها منبع: core/l10n/geraete_sprache.dart.
-# دور ۵۷ (2026-09-24): L.4d ثبت شد (Lukas) ⇒ PLAN.md بخش تازه «🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای» (ته فایل) + L.4 + «بعد از انتشار» + فهرست مطالب؛ بعد از همه‌ی کلمه‌ها Claude پیدا می‌کند، Lukas تصمیم می‌گیرد. کد عوض نشد.
-# دور ۵۸–۶۲ (2026-09-24، یک چت): +۵۰ کارت (alleine … alttestamentlich) در assets/vocab/adjektiv/ ⇒ آرشیو ۳۳۶؛ allenfallsig، altaltbacken، Altdorfer، altkrank کنار گذاشته شدند (zurueckgestellt در tool/naechste_woerter.dart + PLAN «🏁 مرحله‌ی آخر»).
-# 🎯 وضعیت (2026-09-23): ۳۰۰ فایل Dart (۱۸۲ features + ۱۱۶ core) · DB schema v7 · ۳۰۹ تست سبز · analyze سبز.
+# 🎯 وضعیت (2026-09-24 دور ۶۳): DB schema v7 · ۳۱۹ تست سبز · analyze سبز · آرشیو ۳۳۶ کارت.
 #   کارهای باز و کارنامه‌ی جلسه‌ها: PLAN.md بالای فایل.
 
 ---
@@ -121,14 +102,15 @@
 
 - پرامپت کلمه: [`old files Lukasalmani/Wort prompt`](https://github.com/lukasylilli/vox/blob/main/old%20files%20Lukasalmani/Wort%20prompt)
 - فهرست‌ها: [`old files Lukasalmani/Wörter/`](https://github.com/lukasylilli/vox/tree/main/old%20files%20Lukasalmani/W%C3%B6rter) — فعلی: `Adjektive.txt` (`✓ ` = کارت ساخته شد؛ مرجع واقعی وجود کارت: `assets/vocab/`)
-- `tool/naechste_woerter.dart` — ۱۰ کلمه‌ی بعدی (رد: کارت موجود + `zurueckgestellt`؛ `wortartKorrektur` = Wortart درست برای برچسب غلط فهرست، مثل aberhundert ⇒ numerale) · `tool/vokabular_import.dart` — JSON-Array ⇒ `assets/vocab/<wortart>/<id>.json` (اعتبارسنجی با `vokab_schema.dart`) · `tool/vokab_index.dart` — `assets/vocab_index.json` + `assets/vocab_formen/`
+- `tool/naechste_woerter.dart` — ۱۰ کلمه‌ی بعدی؛ `--abhaken` = ✓ در فهرست‌ها (رد: کارت موجود + `zurueckgestellt`؛ `wortartKorrektur` = Wortart درست برای برچسب غلط فهرست، مثل aberhundert ⇒ numerale) · `tool/vokabular_import.dart` — JSON-Array ⇒ `assets/vocab/<wortart>/<id>.json` (اعتبارسنجی با `vokab_schema.dart`) · `tool/vokab_index.dart` — `assets/vocab_index.json` + `assets/vocab_formen/`
 - **ترتیب فهرست‌ها (Lukas):** Adjektive ⇒ Verben_unregelmaeßig_Infinitiv ⇒ Verben_regelmaesig ⇒ substantiv_singular_alle — در `tool/naechste_woerter.dart` (`listen`). کلمه‌ی نامطمئن ⇒ `zurueckgestellt` + فهرست «🏁 مرحله‌ی آخر» ته PLAN.md + گزارش؛ بررسی‌شان فقط **بعد از تمام شدن هر چهار فهرست** با تصمیم Lukas (قاعده: PLAN → «🔒 قاعده‌ی ثابت»).
 - **اسم‌ها (Lukas 2026-09-24):** نام شهرها ⇒ فقط تلفظ + معنی + آرتیکل (نوع کارت کوتاه، هنوز در schema نیست) · ⛔ قبل از شروع فهرست اسم‌ها درباره‌ی اسم‌های بدون آرتیکل از Lukas بپرس.
-- **🔒🔒 کلمه یا عبارت؟ (Lukas 2026-09-24، خیلی مهم) — قاعده‌ی کامل: PLAN → «📚 روال» → «🔒🔒»:**
-  · **کلمه** (helfen، denken، denken an، abhängig von) از قبل در اپ ⇒ هیچ چیز حذف نمی‌شود؛ **صفحه‌ی قبلی** (`word_detail_screen.dart`) گسترش پیدا می‌کند و کل کارت پرامپتی زیرش می‌آید؛ صفحه‌ی جدید نه (L.4b ✅ کلمه‌ی تنها؛ L.4b-2 ✅ «+ حرف اضافه»: کلمه با چند صفحه‌ی قبلی ⇒ یک کارت زیر همه؛ لینک کارت ⇒ صفحه‌ی بدون حرف اضافه؛ «sich …» ⛔ هنوز جفت نمی‌شود).
-  · **عبارت** (NVV/Redemittel، «eine Entscheidung treffen») ⇒ کلمه‌ی سازنده (Entscheidung) صفحه‌ی **جدید** خودش را می‌گیرد؛ صفحه‌ی عبارت همان‌طور می‌ماند و **بعد از وارد شدن همه‌ی کلمه‌ها** جداگانه گسترش پیدا می‌کند (L.4c). عبارت هرگز با کارت کلمه جفت/ادغام نمی‌شود.
-  · جفت‌کردن فقط در `features/wortschatz/data/altwort_karte.dart`.
-- **🔁 تکراری‌ها (L.4d، Lukas 2026-09-24):** بعد از وارد شدن همه‌ی کلمه‌ها، Claude همه‌ی منابع (`assets/vocab/**`، deckها/صفحه‌های قبلی از طریق `altwort_karte.dart`، فهرست‌های `Wörter/`) را برای کلمه‌های چندنسخه‌ای می‌گردد و در PLAN.md → «🔁 مرحله‌ی آخر (۲)» ثبت می‌کند؛ تصمیم فقط با Lukas، هیچ حذف/ادغام خودسرانه.
+- **⭐ اصل اول (Lukas 2026-09-24 دور ۶۳، جایگزین L.4b/L.4b-2/L.4c قدیم) — قاعده‌ی کامل: PLAN → «📚 روال» → ⭐:**
+  · هر کلمه‌ی فهرست **همیشه** کارت + **صفحه‌ی جدید خودش** — حتی اگر از قبل در اپ باشد (تنها، با حرف اضافه، با sich، داخل عبارت). نه سؤال، نه بررسی.
+  · **هیچ** صفحه/کلمه/جزئیاتی حذف نمی‌شود؛ هیچ ادغام، هدایت یا پنهان‌کردن؛ دوبرابر شدن اشکال ندارد.
+  · کد: هر کارت ⇒ صفحه‌ی خودش (`/vokabular/wort/:id`) + ردیف خودش در «Alle Wörter»؛ صفحه‌ی قدیمی همان کلمه کارت را فقط **اضافه** نشان می‌دهد (`features/wortschatz/data/altwort_karte.dart`). نگهبان: `test/altwort_karte_test.dart` («Grundregel»).
+- **🔁 تکراری‌ها (L.4d):** فقط **در آخرین مرحله** (هر چهار فهرست صفر تا صد وارد شد) Claude همه‌ی کلمه‌های اضافی/دوبرابر را پیدا می‌کند و در PLAN.md → «🔁 مرحله‌ی آخر (۲)» ثبت می‌کند؛ **Lukas تصمیم می‌گیرد**. وسط روال بررسی لازم نیست.
+- **⚡ سرعت:** `bash tool/wort_runde.sh /tmp/batch.json` = مراحل ۵–۷ (dry-run ⇒ import ⇒ index ⇒ ✓ ⇒ analyze ⇒ test ⇒ ۱۰ کلمه‌ی بعدی) در یک اجرا؛ اولین مشکل ⇒ توقف.
 - **پیشرفت (2026-09-24 دور ۶۲):** آخرین کلمه‌ی ساخته‌شده **alttestamentlich** · بعدی **altäthiopisch** · کنار گذاشته: abatisch، abdikativ، afrikaans، aldente، aleppinisch، allenfallsig، altaltbacken، Altdorfer، altkrank (فهرست کامل: PLAN.md → «🏁 مرحله‌ی آخر») · آرشیو: ۳۳۶ کارت.
 
 ## TECH STACK
@@ -537,7 +519,7 @@ widgets/section_grid_item.dart [x]  — gradient card + shadow، color.withValue
 ```
 screens/
   wortschatz_home_screen.dart  [x]  — stats banner + _MenuItem (Alle Wörter، Bücher، Leitner، Kategorien) + Add FAB
-  wortschatz_list_screen.dart  [x]  — ⭐ L.4b: کارتِ جفت‌شده با کلمه‌ی قبلی ردیف جدا ندارد (یک کلمه = یک ردیف)؛ Wortart/lemma از `data/altwort_karte.dart`. — «Alle Wörter» = لیست ادغامی دو منبع: allWordsProvider (DB → WordListItem)
+  wortschatz_list_screen.dart  [x]  — ⭐ اصل اول (دور ۶۳): **هر کارت ردیف خودش** (هیچ کارتی پنهان نمی‌شود)؛ Wortart/lemma از `data/altwort_karte.dart`. — «Alle Wörter» = لیست ادغامی دو منبع: allWordsProvider (DB → WordListItem)
                                       + vokabularProvider (assets/vocab → WortCard+WortActions → /vokabular/wort/:id)؛
                                       سورت الفبایی مشترک (بدون Artikel)؛ SearchBar + FilterAccordion (Niveau، Wortart،
                                       نگاشت _typZuWortart) + FilterChipBar؛ query param `suche`؛ route: /wortschatz/list
@@ -545,10 +527,11 @@ screens/
   book_words_screen.dart       [x]  — wordsByBookProvider(bookId) + ListView
   level_words_screen.dart      [x]  — wordsByLevelProvider + _LevelPickerBar (legacy، هنوز در router)
   type_words_screen.dart       [x]  — wordsByTypeProvider + _TypePickerBar (legacy، هنوز در router)
-  word_detail_screen.dart      [x]  — ⭐ L.4b (2026-09-24): کلمه‌ی قبلی اپ با کارت پرامپتی ⇒ زیر بخش‌های قبلی کل کارت (`_KartenErweiterung` ← `WortKarteKopf`/`WortKarteAbschnitte`)؛ هیچ بخشی حذف نشد. — همه فیلدها conditional + BottomBar: (2026-09-22: دکمه‌ی «favorit» جدا وجود ندارد — دسته‌بندی/فهرست جایش است)
+  word_detail_screen.dart      [x]  — ⭐ کلمه‌ی قبلی اپ با کارت پرامپتی ⇒ زیر بخش‌های قبلی کارت را **اضافه** نشان می‌دهد (`_KartenErweiterung` ← `WortKarteKopf`/`WortKarteAbschnitte`)؛ کارت صفحه‌ی خودش را هم دارد (اصل اول)؛ هیچ بخشی حذف نشد. — همه فیلدها conditional + BottomBar: (2026-09-22: دکمه‌ی «favorit» جدا وجود ندارد — دسته‌بندی/فهرست جایش است)
                                       LeitnerAddButton / دسته‌بندی / آزمون(placeholder)
   add_word_screen.dart         [x]  — TextField → ParserRegistry.parse → _ParsePreview → save
 controllers/
+  altwort_karte_provider.dart  [x]  — altwortZuordnungProvider (فقط برای نمایش اضافه در word_detail_screen)
   word_controller.dart         [x]  — databaseProvider، wordDaoProvider
                                       allWordsProvider، wordsByLevel/Type/Book
                                       searchQueryProvider، searchResultsProvider
@@ -556,6 +539,8 @@ controllers/
                                       ext WordToModel on Word → toModel()
                                       ext ModelToCompanion on WordModel → toCompanion()
                                       ⚠️ import 'package:drift/drift.dart' show Value;
+data/
+  altwort_karte.dart           [x]  — تنها منبع جفت «کلمه‌ی قدیمی اپ ↔ کارت» (بدون حدس) + altwortTypZuWortart + altwortLemma (فیلتر/مرتب‌سازی لیست)؛ اصل اول: هرگز هدایت/پنهان
 widgets/
   word_list_item.dart          [x]  — card: ArticleColorIndicator + ArticleBadge + _LevelChip
   article_color_indicator.dart [x]  — نوار رنگی 4px سمت چپ (بر اساس article)
@@ -1157,7 +1142,7 @@ seed_wortschluessel.dart [x] — ⭐ **L.1e (2026-09-18) — تنها منبع**
     BottomSheet؛ فقط Vox-کامپوننت‌ها؛ snackbar کلیدهای added_to_leitner/removed_from_leitner.
   · `widgets/wortseite_bausteine.dart` [x] — Sektion/Zeile/BeispielBlock/Tabelle + `vokabUeb()`
     (یک زبان، فاز L). `widgets/details_renderer.dart` [x] — ۱۰ Wortart؛ Perfekt از PerfektBuilder.
-  · `screens/wort_seite_screen.dart` [x] (⭐ L.4b: کارتِ کلمه‌ی قبلی اپ ⇒ `WordDetailScreen` همان کلمه؛ کلمه‌ی قبلی = تنها صفحه. کاشی‌ها: `widgets/wort_karte_inhalt.dart`؛ Wortnetz کلیک‌پذیر، id مشتق از vokabId، push زنجیره‌ای؛
+  · `screens/wort_seite_screen.dart` [x] (⭐ اصل اول: هر کارت همیشه همین صفحه‌ی خودش — هیچ هدایت به صفحه‌ی قدیمی. کاشی‌ها: `widgets/wort_karte_inhalt.dart`؛ Wortnetz کلیک‌پذیر، id مشتق از vokabId، push زنجیره‌ای؛
     دکمه‌ی «جستجو در همه واژه‌ها» → `/wortschatz/list?suche=<wort>`). ترتیب سکشن‌ها:
     Synonyme → **«Gegenteil»** (فیلد antonyme؛ فقط واژه+معنی، یک زبان) → Komposita →
     Wortbildung → Wortnetz → **Meine Notiz** (WortNotizSektion).
@@ -1420,10 +1405,11 @@ Veröffentlichung.
 |------|------|-----|
 | `tool/vokab_ids_pruefen.dart` | Dart | **L.1a** — Wächter: vergleicht den Index der **Live-Seite** mit dem frisch gebauten; fehlt eine veröffentlichte id ⇒ exit 1. Läuft in `deploy-web.yml` und `pruefen.yml` nach „Wortindex bauen". Handauslassung nur über `workflow_dispatch`-Eingabe `ohne_id_waechter` |
 | `tool/vokab_index.dart` | Dart | **V.2** — baut `assets/vocab_index.json` aus `assets/vocab/`. Läuft in **jedem** Workflow direkt vor `flutter analyze`; Ergebnis nie committet (`.gitignore`). exit 1 bei unlesbarer/falsch abgelegter Karte oder doppelter id |
-| `tool/naechste_woerter.dart` | Dart | **L.4 (2026-09-23)** — nennt die nächsten N Wörter der aktuellen Wortliste ohne Karte (Reihenfolge der Datei, `zurueckgestellt` = unsichere Wörter für Lukas). Routine: «📚 کلمه‌ها» oben / PLAN.md |
+| `tool/naechste_woerter.dart` | Dart | **L.4 (2026-09-23)** — nennt die nächsten N Wörter der aktuellen Wortliste ohne Karte (Reihenfolge der Datei, `zurueckgestellt` = unsichere Wörter für Lukas). `--abhaken` (2026-09-24): ✓ in allen Listen für jedes Wort mit Karte (gleiche vokabId + wortartKorrektur). Routine: «📚 کلمه‌ها» oben / PLAN.md |
+| `tool/wort_runde.sh` | sh | **L.4 (2026-09-24 دور ۶۳)** — Routine-Schritte 5–7 in EINEM Aufruf, gleiche Befehle/Reihenfolge: Dry-Run (muss «Fehler: 0 · Warnungen: 0») ⇒ Import ⇒ vokab_index ⇒ `--abhaken` ⇒ analyze ⇒ test ⇒ nächste Wörter. Erstes Problem ⇒ Abbruch |
 | `tool/vokabular_import.dart` | Dart | **verbindliche Prüfung** — Konverter-Output → `assets/vocab/<wortart>/<id>.json`. Nutzt `vokabPruefeKarte()` aus `lib/features/vokabular/data/vokab_schema.dart`. Duplikat-Schutz, idempotent, exit 1 bei Fehlern |
 | `tool/backlog.py` | Python | **A.1** — welches Wort ist als Nächstes dran? Leitet den Stand aus `assets/vocab/` ab (nicht aus den ✓-Marken). `--stand` / `--naechste N` / `--gruppe` / `--json`. Spiegelt `vokabId()` zeichengenau |
-| `tool/sync_backlog.py` | Python | **A.2** — schreibt die ✓-Marken in `Wörter/*.txt` aus `assets/vocab/` neu. idempotent, `--dry-run` |
+| `tool/sync_backlog.py` | Python | **A.2** — schreibt die ✓-Marken in `Wörter/*.txt` aus `assets/vocab/` neu. idempotent, `--dry-run` · ⚠️ kennt `wortartKorrektur` nicht (entfernt ✓ der numerale-Wörter) ⇒ für die Routine NICHT benutzen, stattdessen `naechste_woerter.dart --abhaken` |
 | `tool/generate_words.py` | Python | **A.3** — nächste N Wörter → SUPER-PROMPT v3.0 → Anthropic API → `import_inbox/`. Pre-Flight nur grob; **validiert NICHT** (das macht Dart). Sicherheitsgrenze 500 Karten |
 | `tool/check_vendored.py` | Python | **فاز S** — meldet, wenn eine aus Root-in kopierte Datei dort inzwischen geändert wurde (Vergleich über den `commit`-Vermerk im Dateikopf). Meldet nur, entscheidet nie |
 | `tool/webtest_ci.py`, `tool/webtest_serve.sh` | Python/sh | Web-Testlauf |
@@ -1439,12 +1425,8 @@ verursacht, fehlt noch das Secret `ANTHROPIC_API_KEY`.
 ⚠️ **A.4-Befund:** Push aus `vokabular-autofill.yml` (GITHUB_TOKEN) startet `deploy-web.yml` NICHT — vor dem ersten echten Lauf lösen (PLAN.md → فاز A).
 ~~⚠️ **A.3/A.4 erst nach V.2 scharfschalten**~~ — `vokabular_controller` liest beim Start jede Karte;
 ein erfolgreicher Lauf mit mehreren tausend Wörtern bricht die laufende App. Grenze: ~500 Karten.
-⛔ **A.6 (2026-09-16): Welcher Weg die Wörter erzeugt, entscheidet Lukas.** Optionen: API
-(`vokabular-autofill.yml`, kostet Geld) · von Hand im Chat mit Claude · Claude Code — oder gemischt.
-Details und Schätzung: PLAN.md → فاز A → A.6. **Claude beginnt damit nie von sich aus, sondern fragt
-Lukas, sobald es so weit ist** (vor dem ersten echten Lauf bzw. nach V.2). Der dafür nötige
-„nur-Import"-Weg (Karten in `import_inbox/` → Dart-Prüfung + Tests in GitHub → Commit) existiert
-noch nicht und wird erst nach dieser Entscheidung gebaut.
+✅ **A.6 entschieden (Lukas 2026-09-23):** Claude baut die Karten im Chat nach dem Wort-Prompt, je «ده کلمه جدید»
+(PLAN.md → «📚 روال», Werkzeug `tool/wort_runde.sh`). API-Weg (`vokabular-autofill.yml`, `generate_words.py`) bleibt ungenutzt.
 
 ---
 

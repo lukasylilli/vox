@@ -8,17 +8,15 @@
 //          Kopf und Abschnitte: widgets/wort_karte_inhalt.dart (EINE Quelle, auch
 //          für die erweiterte alte Seite).
 //
-// L.4b (Lukas, 2026-09-24): Gehört die Karte zu einem Wort, das schon vorher in
-//   der App war (altes App-Wort, drift), ist DESSEN Seite die einzige Seite des
-//   Worts — sie wird um diese Karte erweitert (word_detail_screen.dart). Diese
-//   Route zeigt dann die alte Seite; jeder Link (Wortnetz, Popup, Deck) landet
-//   so auf derselben Seite. Paarung: features/wortschatz/data/altwort_karte.dart.
+// GRUNDREGEL (Lukas, 2026-09-24, ersetzt L.4b/L.4b-2/L.4c): JEDE Karte hat
+//   IMMER ihre eigene Seite — auch wenn es das Wort (allein, mit Präposition,
+//   mit «sich» oder als Teil eines Ausdrucks) schon vorher in der App gab.
+//   Keine Umleitung auf eine alte Seite. Doppelte sucht Claude erst ganz am
+//   Ende (L.4d); was damit passiert, entscheidet Lukas.
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/l10n/app_l10n.dart';
-import '../../wortschatz/controllers/altwort_karte_provider.dart';
-import '../../wortschatz/screens/word_detail_screen.dart';
 import '../controllers/vokabular_controller.dart';
 import '../widgets/wort_actions.dart';
 import '../widgets/wort_karte_inhalt.dart';
@@ -29,16 +27,6 @@ class WortSeiteScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    // L.4b: altes App-Wort zu dieser Karte? ⇒ dessen (erweiterte) Seite.
-    // Ist die Paarung nicht ladbar, bleibt es bei der Karten-Seite — die
-    // Karte ist trotzdem vollständig sichtbar, nichts geht verloren.
-    final zuordnung = ref.watch(altwortZuordnungProvider);
-    if (zuordnung.isLoading && !zuordnung.hasValue) {
-      return const Scaffold(body: Center(child: CircularProgressIndicator()));
-    }
-    final altesWort = zuordnung.valueOrNull?.karteZuWort[wortId];
-    if (altesWort != null) return WordDetailScreen(wordId: altesWort);
-
     // V.2: die volle Karte wird erst hier geladen (eine Datei); für die
     // Wortnetz-Links genügt der Index (gibt es das Wort?).
     final karteAsync = ref.watch(vokabKarteProvider(wortId));

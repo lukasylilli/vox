@@ -4,6 +4,7 @@
 //
 //   dart run tool/naechste_woerter.dart            # 10 aus der aktuellen Liste
 //   dart run tool/naechste_woerter.dart 5          # 5
+//   dart run tool/naechste_woerter.dart --abhaken  # ✓ vor jedes Wort mit Karte
 //
 // Regeln (siehe PLAN.md → «📚 روال ده کلمه جدید»):
 //   · Reihenfolge = Reihenfolge der Datei (alphabetisch) — NIE umsortieren.
@@ -61,7 +62,38 @@ const wortartKorrektur = <String, String>{
   'achtzigste': 'numerale', // Ordinalzahl (2026-09-24)
 };
 
+/// `--abhaken` (Schritt 6 der Routine): setzt in ALLEN Listen «✓ » vor jedes
+/// Wort, das eine Karte hat (Referenz: assets/vocab/, wie oben). Vorhandene
+/// Zeilen ohne Karte bleiben unverändert; eine Datei wird nur geschrieben,
+/// wenn sich etwas ändert.
+void abhaken() {
+  for (final (liste, wortart) in listen) {
+    final datei = File(liste);
+    if (!datei.existsSync()) continue;
+    final alt = datei.readAsStringSync();
+    final zeilen = alt.split('\n');
+    var neu = 0;
+    for (var i = 0; i < zeilen.length; i++) {
+      final roh = zeilen[i];
+      if (roh.trimLeft().startsWith('✓')) continue;
+      final w = roh.trim();
+      if (w.isEmpty) continue;
+      final art = wortartKorrektur[w] ?? wortart;
+      if (File('assets/vocab/$art/${vokabId(art, w)}.json').existsSync()) {
+        zeilen[i] = '✓ $w';
+        neu++;
+      }
+    }
+    if (neu > 0) datei.writeAsStringSync(zeilen.join('\n'));
+    stdout.writeln('$liste: $neu neu abgehakt');
+  }
+}
+
 void main(List<String> args) {
+  if (args.contains('--abhaken')) {
+    abhaken();
+    return;
+  }
   final anzahl = args.isNotEmpty ? int.parse(args.first) : 10;
   final treffer = <(String, String)>[]; // (Wort, Wortart)
 
