@@ -19,6 +19,15 @@
 //   Beispiele: «helfen|verb» ↔ verb_helfen ✓ · «der|konnektor» ↔ artikel_der ✗
 //   (andere Wortart) · «denken an|verb» ✗ (Lemma mit Präposition ≠ «denken»).
 //
+// WORT ODER AUSDRUCK? (Lukas, 2026-09-24 — sehr wichtig, PLAN → «📚 روال» 🔒🔒)
+//   · Wort (auch Wort + feste Präposition: «denken an») ⇒ alte Seite wird
+//     erweitert, KEINE neue Seite (L.4b; «+ Präposition» = L.4b-2, offen).
+//   · Ausdruck (NVV/Redemittel: «eine Entscheidung treffen») ⇒ wird NIE mit
+//     einer Wortkarte gepaart. Das Bestandteil-Wort («Entscheidung») bekommt
+//     eine eigene, neue Seite; die Ausdrucksseite bleibt, wie sie ist, und wird
+//     erst nach allen Wörtern gesondert erweitert (L.4c).
+//     Hier garantiert durch «Lemma exakt gleich».
+//
 // Rein (ohne Flutter/DB), damit test/altwort_karte_test.dart es direkt prüft.
 
 /// Alte `WordType`-Namen (drift) → Wortarten der Karten (Schema 3.0).

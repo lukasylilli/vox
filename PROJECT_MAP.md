@@ -28,6 +28,7 @@
 # دور ۵۴ (2026-09-24): L.4b ✅ — قاعده‌ی «کلمه‌ای که از قبل در اپ هست» (صفحه‌ی قبلی گسترش، حذف هرگز). تازه: features/wortschatz/data/altwort_karte.dart (تنها منبع جفت‌کردن) ·
 #   features/wortschatz/controllers/altwort_karte_provider.dart · features/vokabular/widgets/wort_karte_inhalt.dart (WortKarteKopf + WortKarteAbschnitte) · test/altwort_karte_test.dart.
 #   تغییر: word_detail_screen (+_KartenErweiterung) · wort_seite_screen (کارت کلمه‌ی قبلی ⇒ صفحه‌ی قبلی) · wortschatz_list_screen (یک ردیف) · wortschatz_home_screen (شمارنده).
+# دور ۵۵ (2026-09-24): قاعده‌ی «کلمه یا عبارت» (Lukas) ⇒ PLAN («📚 روال» 🔒🔒، L.4b-2 ⛔، L.4c تازه، R-2.2 تصمیم ۳ + ترتیب ⑨⑩، بعد از انتشار) + MAP «📚 کلمه‌ها» + کامنت altwort_karte.dart.
 # 🚀 کارهای باز قبل از انتشار (فهرست کامل): PLAN.md → «🚀 قبل از انتشار». بعد از انتشار: PLAN.md → «⏭️ بعد از انتشار».
 #
 # ⚠️ 2026-09-19 (اصلاح یادداشت آفلاین): «precache شدنی است» فقط برای ~۷٫۵MB فعلی (۸۷ کارت) درست است. کارت ~۴KB ⇒ ~۲۶٬۲۰۰ کارت ≈ ~۱۰۰MB
@@ -120,7 +121,10 @@
 - `tool/naechste_woerter.dart` — ۱۰ کلمه‌ی بعدی (رد: کارت موجود + `zurueckgestellt`؛ `wortartKorrektur` = Wortart درست برای برچسب غلط فهرست، مثل aberhundert ⇒ numerale) · `tool/vokabular_import.dart` — JSON-Array ⇒ `assets/vocab/<wortart>/<id>.json` (اعتبارسنجی با `vokab_schema.dart`) · `tool/vokab_index.dart` — `assets/vocab_index.json` + `assets/vocab_formen/`
 - **ترتیب فهرست‌ها (Lukas):** Adjektive ⇒ Verben_unregelmaeßig_Infinitiv ⇒ Verben_regelmaesig ⇒ substantiv_singular_alle — در `tool/naechste_woerter.dart` (`listen`). کلمه‌ی نامطمئن ⇒ `zurueckgestellt` + فهرست «🏁 مرحله‌ی آخر» ته PLAN.md + گزارش؛ بررسی‌شان فقط **بعد از تمام شدن هر چهار فهرست** با تصمیم Lukas (قاعده: PLAN → «🔒 قاعده‌ی ثابت»).
 - **اسم‌ها (Lukas 2026-09-24):** نام شهرها ⇒ فقط تلفظ + معنی + آرتیکل (نوع کارت کوتاه، هنوز در schema نیست) · ⛔ قبل از شروع فهرست اسم‌ها درباره‌ی اسم‌های بدون آرتیکل از Lukas بپرس.
-- **🔒 کلمه‌ای که از قبل در اپ هست (Lukas 2026-09-24، L.4b ✅ — ۷۵ کلمه انجام شد):** هیچ چیز از کلمه/صفحه‌ی قبلی (`word_detail_screen.dart`) حذف نمی‌شود؛ کارت پرامپتی همان کلمه به **همان صفحه‌ی قبلی** اضافه می‌شود (یک کلمه = یک صفحه، یک ردیف در لیست). جفت‌کردن: فقط `features/wortschatz/data/altwort_karte.dart`. قاعده‌ی کامل: PLAN → «📚 روال» → «🔒 کلمه‌ای که از قبل در اپ هست».
+- **🔒🔒 کلمه یا عبارت؟ (Lukas 2026-09-24، خیلی مهم) — قاعده‌ی کامل: PLAN → «📚 روال» → «🔒🔒»:**
+  · **کلمه** (helfen، denken، denken an، abhängig von) از قبل در اپ ⇒ هیچ چیز حذف نمی‌شود؛ **صفحه‌ی قبلی** (`word_detail_screen.dart`) گسترش پیدا می‌کند و کل کارت پرامپتی زیرش می‌آید؛ صفحه‌ی جدید نه (L.4b ✅ برای ۷۵ کلمه‌ی تنها؛ «+ حرف اضافه» = L.4b-2 ⛔ سؤال از Lukas).
+  · **عبارت** (NVV/Redemittel، «eine Entscheidung treffen») ⇒ کلمه‌ی سازنده (Entscheidung) صفحه‌ی **جدید** خودش را می‌گیرد؛ صفحه‌ی عبارت همان‌طور می‌ماند و **بعد از وارد شدن همه‌ی کلمه‌ها** جداگانه گسترش پیدا می‌کند (L.4c). عبارت هرگز با کارت کلمه جفت/ادغام نمی‌شود.
+  · جفت‌کردن فقط در `features/wortschatz/data/altwort_karte.dart`.
 - **پیشرفت (2026-09-24 دور ۵۳):** آخرین کلمه‌ی ساخته‌شده **allein** · بعدی **alleine** · کنار گذاشته: abatisch، abdikativ، afrikaans، aldente، aleppinisch (فهرست کامل: PLAN.md → «🏁 مرحله‌ی آخر») · آرشیو: ۲۸۶ کارت.
 
 ## TECH STACK
