@@ -25,6 +25,7 @@
 # دور ۴۷ (2026-09-24): +۱۰ کارت (afroamerikanisch … agnostizistisch) در assets/vocab/ ⇒ آرشیو ۲۳۶. 
 # دور ۴۸ (2026-09-24): قاعده‌ی ثابت کلمه‌های واردنشده ⇒ PLAN.md «📚 روال» → «🔒 قاعده‌ی ثابت» (جا: «🏁 مرحله‌ی آخر» ته PLAN + zurueckgestellt؛ بررسی: بعد از هر چهار فهرست) + کامنت tool/naechste_woerter.dart.
 # دور ۴۹–۵۳ (2026-09-24، یک چت): +۵۰ کارت (agogisch … allein) در assets/vocab/adjektiv/ ⇒ آرشیو ۲۸۶؛ aldente و aleppinisch کنار گذاشته شدند (zurueckgestellt در tool/naechste_woerter.dart + PLAN «🏁 مرحله‌ی آخر»).
+# دور ۵۴ (2026-09-24): L.4b شروع — قاعده‌ی «کلمه‌ای که از قبل در اپ هست» (صفحه‌ی قبلی گسترش، حذف هرگز) در PLAN «📚 روال» + MAP «📚 کلمه‌ها».
 # 🚀 کارهای باز قبل از انتشار (فهرست کامل): PLAN.md → «🚀 قبل از انتشار». بعد از انتشار: PLAN.md → «⏭️ بعد از انتشار».
 #
 # ⚠️ 2026-09-19 (اصلاح یادداشت آفلاین): «precache شدنی است» فقط برای ~۷٫۵MB فعلی (۸۷ کارت) درست است. کارت ~۴KB ⇒ ~۲۶٬۲۰۰ کارت ≈ ~۱۰۰MB
@@ -117,6 +118,7 @@
 - `tool/naechste_woerter.dart` — ۱۰ کلمه‌ی بعدی (رد: کارت موجود + `zurueckgestellt`؛ `wortartKorrektur` = Wortart درست برای برچسب غلط فهرست، مثل aberhundert ⇒ numerale) · `tool/vokabular_import.dart` — JSON-Array ⇒ `assets/vocab/<wortart>/<id>.json` (اعتبارسنجی با `vokab_schema.dart`) · `tool/vokab_index.dart` — `assets/vocab_index.json` + `assets/vocab_formen/`
 - **ترتیب فهرست‌ها (Lukas):** Adjektive ⇒ Verben_unregelmaeßig_Infinitiv ⇒ Verben_regelmaesig ⇒ substantiv_singular_alle — در `tool/naechste_woerter.dart` (`listen`). کلمه‌ی نامطمئن ⇒ `zurueckgestellt` + فهرست «🏁 مرحله‌ی آخر» ته PLAN.md + گزارش؛ بررسی‌شان فقط **بعد از تمام شدن هر چهار فهرست** با تصمیم Lukas (قاعده: PLAN → «🔒 قاعده‌ی ثابت»).
 - **اسم‌ها (Lukas 2026-09-24):** نام شهرها ⇒ فقط تلفظ + معنی + آرتیکل (نوع کارت کوتاه، هنوز در schema نیست) · ⛔ قبل از شروع فهرست اسم‌ها درباره‌ی اسم‌های بدون آرتیکل از Lukas بپرس.
+- **🔒 کلمه‌ای که از قبل در اپ هست (Lukas 2026-09-24، L.4b):** هیچ چیز از کلمه/صفحه‌ی قبلی (`word_detail_screen.dart`) حذف نمی‌شود؛ کارت پرامپتی همان کلمه به **همان صفحه‌ی قبلی** اضافه می‌شود (یک کلمه = یک صفحه، یک ردیف در لیست). جفت‌کردن: فقط `features/wortschatz/data/altwort_karte.dart`. قاعده‌ی کامل: PLAN → «📚 روال» → «🔒 کلمه‌ای که از قبل در اپ هست».
 - **پیشرفت (2026-09-24 دور ۵۳):** آخرین کلمه‌ی ساخته‌شده **allein** · بعدی **alleine** · کنار گذاشته: abatisch، abdikativ، afrikaans، aldente، aleppinisch (فهرست کامل: PLAN.md → «🏁 مرحله‌ی آخر») · آرشیو: ۲۸۶ کارت.
 
 ## TECH STACK
