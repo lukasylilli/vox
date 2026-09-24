@@ -13,7 +13,8 @@
 > قاعده‌ها، اصل‌ها، تصمیم‌ها و کارهای باز کامل ماندند. کارهای باز فقط در دو بخش پایین جمع‌اند: «🚀 قبل از انتشار» و «⏭️ بعد از انتشار».
 > متن مفصل قبل از این خلاصه: `git show a078dc2:PLAN.md` (نسخه‌ی قدیمی‌تر: `afad3ab`).
 >
-> 🗓️ **آخرین جلسه:** 2026-09-24 (دور ۳۳) — **L.3 آفلاین: علت پیدا و رفع شد.** خروجی DevTools از Lukas: هیچ Service Worker، «No cache storage». علت (در کد Flutter 3.44.6 تأیید شد): `flutter_service_worker.js` فقط یک worker پاک‌کننده است که خودش را unregister می‌کند و هیچ cache نمی‌سازد؛ CanvasKit هم از www.gstatic.com می‌آمد. رفع: build با `--pwa-strategy=none --no-web-resources-cdn` + worker خودمان `vox_sw.js` با Workbox (`tool/pwa/`) + تست آفلاین در Chrome واقعی در `deploy-web.yml` (قرمز ⇒ بدون انتشار). ⏭️ Lukas: تست دوباره روی کامپیوتر.
+> 🗓️ **آخرین جلسه:** 2026-09-24 (دور ۳۴) — «ده کلمه جدید»: abenteuerlich … abfällig (۱۰ کارت، ۰ خطا/هشدار) ⇒ آرشیو ۱۱۷ کارت. aberhundert/abertausend ⇒ numerale (wortartKorrektur). بعدی: **abgabenfrei**.
+> قبلی: 2026-09-24 (دور ۳۳) — **L.3 آفلاین: علت پیدا و رفع شد.** خروجی DevTools از Lukas: هیچ Service Worker، «No cache storage». علت (در کد Flutter 3.44.6 تأیید شد): `flutter_service_worker.js` فقط یک worker پاک‌کننده است که خودش را unregister می‌کند و هیچ cache نمی‌سازد؛ CanvasKit هم از www.gstatic.com می‌آمد. رفع: build با `--pwa-strategy=none --no-web-resources-cdn` + worker خودمان `vox_sw.js` با Workbox (`tool/pwa/`) + تست آفلاین در Chrome واقعی در `deploy-web.yml` (قرمز ⇒ بدون انتشار). ⏭️ Lukas: تست دوباره روی کامپیوتر.
 > قبلی: 2026-09-24 (دور ۳۲) — «ده کلمه جدید»: abbruchreif … abenteuerhungrig (۱۰ صفت، ۰ خطا/هشدار) ⇒ آرشیو ۱۰۷ کارت؛ **abdikativ کنار گذاشته شد** (معنا نامطمئن). بعدی: abenteuerlich.
 > قبلی: 2026-09-24 (دور ۳۱) — تصمیم Lukas برای اسم‌ها ثبت شد: نام شهرها فقط تلفظ + معنی + آرتیکل؛ اسم‌های بدون آرتیکل ⇒ قبل از شروع فهرست اسم‌ها دوباره از Lukas بپرس.
 > قبلی: 2026-09-23 (دور ۳۰) — تصمیم‌های Lukas برای کلمه‌ها ثبت شد: ترتیب فهرست‌ها (صفت ⇒ فعل بی‌قاعده ⇒ فعل باقاعده ⇒ اسم) در `tool/naechste_woerter.dart` + جدول پیشرفت؛ کلمه‌ی نامطمئن ⇒ کنار گذاشتن + گزارش (abatisch).
@@ -78,7 +79,7 @@
 
 | فهرست | انجام‌شده (آخرین کلمه) | کلمه‌ی بعدی | کنار گذاشته (منتظر Lukas) |
 |---|---|---|---|
-| ۱. `Adjektive.txt` (صفت) | aalartig · aalförmig (قبلاً) · دور ۲۸ (2026-09-23): aalglatt، aasfressend، aasig، abaissiert، abakteriell، abartig، abaxial، abbaubar، abbauwürdig، abbildbar · دور ۳۲ (2026-09-24): abbruchreif، abchasisch، abderitisch، abdingbar، abdominal، abdominell، abendfüllend، abendlich، abenteuerdurstig، **abenteuerhungrig** | **abenteuerlich** | abatisch (2026-09-23) · abdikativ (2026-09-24) — معنا نامطمئن |
+| ۱. `Adjektive.txt` (صفت) | aalartig · aalförmig (قبلاً) · دور ۲۸ (2026-09-23): aalglatt، aasfressend، aasig، abaissiert، abakteriell، abartig، abaxial، abbaubar، abbauwürdig، abbildbar · دور ۳۲ (2026-09-24): abbruchreif، abchasisch، abderitisch، abdingbar، abdominal، abdominell، abendfüllend، abendlich، abenteuerdurstig، abenteuerhungrig · دور ۳۴ (2026-09-24): abenteuerlich، abenteuersüchtig، abergläubisch، aberhundert، aberrant، abertausend، aberwitzig، abessinisch، abflusslos، **abfällig** | **abgabenfrei** | abatisch (2026-09-23) · abdikativ (2026-09-24) — معنا نامطمئن |
 | ۲. `Verben_unregelmaeßig_Infinitiv.txt` (فعل بی‌قاعده) | — | abbacken | — |
 | ۳. `Verben_regelmaesig.txt` (فعل باقاعده) | — | aalen | — |
 | ۴. `substantiv_singular_alle.txt` (اسم) | — | Aachen | — |
@@ -88,7 +89,8 @@
 - ✅ **اسم شهرها/کشورها/مکان‌ها (تصمیم Lukas، 2026-09-24):** کارت فقط با **تلفظ (IPA) + معنی (fa/en) + آرتیکل** — بدون مثال، توضیح، مترادف، wortnetz و بقیه. ⚠️ قالب پرامپت و `vokab_schema.dart` فعلاً برای این نوع کارت کوتاه جا ندارند (نبودِ مثال/wortnetz ⇒ هشدار) ⇒ **قبل از اولین اسم خاص**، این نوع کارت در schema و پرامپت تعریف شود (با تأیید Lukas).
 - ⛔ **قبل از شروع اسم‌ها (فهرست ۴) حتماً از Lukas بپرس:** اسم‌هایی که آرتیکل ندارند (بیشتر نام شهرها و کشورها، مثل Aachen) چطور ساخته شوند — تصمیم Lukas: «وقتی به اسم‌ها رسیدیم، قبلش دوباره سؤال کن».
 - ⚠️ برای اسم‌ها: `substantiv_singular_alle.txt` بدون آرتیکل است ⇒ genus از `substantiv_singular_der/die/das.txt`؛ نام‌های خاص (شهر/کشور، مثل Aachen) هم در فهرست‌اند — وقتی رسیدیم، همان قاعده‌ی پرامپت (مطمئن نیستی ⇒ نساز) و گزارش به Lukas.
-- کارت‌های دیگر آرشیو (افعال Dativ و …) از deckها آمده‌اند، نه از این فهرست‌ها. کل آرشیو: **۱۰۷ کارت** (2026-09-24).
+- ✅ **Wortart غلط در فهرست (2026-09-24 دور ۳۴):** aberhundert و abertausend در Adjektive.txt هستند ولی طبق Duden «unbestimmtes Zahlwort»اند ⇒ کارت در `assets/vocab/numerale/` ساخته شد و در `wortartKorrektur` (`tool/naechste_woerter.dart`) ثبت شد تا ابزار آن‌ها را ساخته‌شده بشناسد. قاعده: Wortart درست (Duden) مهم‌تر از برچسب فهرست است؛ هر مورد تازه همان‌جا ثبت شود.
+- کارت‌های دیگر آرشیو (افعال Dativ و …) از deckها آمده‌اند، نه از این فهرست‌ها. کل آرشیو: **۱۱۷ کارت** (2026-09-24).
 
 ## INHALTSVERZEICHNIS (فهرست مطالب)
 

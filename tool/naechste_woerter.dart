@@ -35,6 +35,14 @@ const listen = <(String, String)>[
 /// Wort-Prompts: nie raten) — warten auf Lukas. Mit Datum/Grund in PLAN.md.
 const zurueckgestellt = <String>{'abatisch', 'abdikativ'};
 
+/// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
+/// Regel 14 des Wort-Prompts). Die Karte liegt dann unter der richtigen
+/// Wortart; so erkennt das Tool sie trotzdem als fertig. Mit Datum in PLAN.md.
+const wortartKorrektur = <String, String>{
+  'aberhundert': 'numerale', // unbestimmtes Zahlwort (2026-09-24)
+  'abertausend': 'numerale', // unbestimmtes Zahlwort (2026-09-24)
+};
+
 void main(List<String> args) {
   final anzahl = args.isNotEmpty ? int.parse(args.first) : 10;
   final treffer = <(String, String)>[]; // (Wort, Wortart)
@@ -50,14 +58,14 @@ void main(List<String> args) {
     for (final roh in datei.readAsLinesSync()) {
       final w = roh.replaceFirst(RegExp(r'^\s*✓\s*'), '').trim();
       if (w.isEmpty) continue;
-      if (File('assets/vocab/$wortart/${vokabId(wortart, w)}.json')
-          .existsSync()) {
+      final art = wortartKorrektur[w] ?? wortart;
+      if (File('assets/vocab/$art/${vokabId(art, w)}.json').existsSync()) {
         fertig++;
         continue;
       }
       if (zurueckgestellt.contains(w)) continue;
       offen++;
-      if (treffer.length < anzahl) treffer.add((w, wortart));
+      if (treffer.length < anzahl) treffer.add((w, art));
     }
     stdout.writeln('$liste ($wortart): $fertig als Karte · $offen offen');
     if (treffer.length >= anzahl) break;
