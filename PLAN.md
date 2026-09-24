@@ -13,7 +13,8 @@
 > قاعده‌ها، اصل‌ها، تصمیم‌ها و کارهای باز کامل ماندند. کارهای باز فقط در دو بخش پایین جمع‌اند: «🚀 قبل از انتشار» و «⏭️ بعد از انتشار».
 > متن مفصل قبل از این خلاصه: `git show a078dc2:PLAN.md` (نسخه‌ی قدیمی‌تر: `afad3ab`).
 >
-> 🗓️ **آخرین جلسه:** 2026-09-24 (دور ۳۱) — تصمیم Lukas برای اسم‌ها ثبت شد: نام شهرها فقط تلفظ + معنی + آرتیکل؛ اسم‌های بدون آرتیکل ⇒ قبل از شروع فهرست اسم‌ها دوباره از Lukas بپرس.
+> 🗓️ **آخرین جلسه:** 2026-09-24 (دور ۳۲) — «ده کلمه جدید»: abbruchreif … abenteuerhungrig (۱۰ صفت، ۰ خطا/هشدار) ⇒ آرشیو ۱۰۷ کارت؛ **abdikativ کنار گذاشته شد** (معنا نامطمئن). بعدی: abenteuerlich.
+> قبلی: 2026-09-24 (دور ۳۱) — تصمیم Lukas برای اسم‌ها ثبت شد: نام شهرها فقط تلفظ + معنی + آرتیکل؛ اسم‌های بدون آرتیکل ⇒ قبل از شروع فهرست اسم‌ها دوباره از Lukas بپرس.
 > قبلی: 2026-09-23 (دور ۳۰) — تصمیم‌های Lukas برای کلمه‌ها ثبت شد: ترتیب فهرست‌ها (صفت ⇒ فعل بی‌قاعده ⇒ فعل باقاعده ⇒ اسم) در `tool/naechste_woerter.dart` + جدول پیشرفت؛ کلمه‌ی نامطمئن ⇒ کنار گذاشتن + گزارش (abatisch).
 > قبلی: 2026-09-23 (دور ۲۹) — روال «ده کلمه جدید» ثبت شد: بخش «📚 روال ده کلمه جدید» در PLAN و MAP (لینک پرامپت و فهرست‌ها، مراحل، قاعده‌ها، جدول پیشرفت) + ابزار تازه `tool/naechste_woerter.dart`.
 > قبلی: 2026-09-23 (دور ۲۸) — **۱۰ کلمه‌ی تازه (درخواست Lukas)** طبق «Wort prompt» ۳.۰، به ترتیب الفبا از `Wörter/Adjektive.txt`: aalglatt · aasfressend · aasig · abaissiert · abakteriell · abartig · abaxial · abbaubar · abbauwürdig · abbildbar ⇒ `assets/vocab/adjektiv/` با `tool/vokabular_import.dart` (۰ خطا، ۰ هشدار)؛ در فهرست ✓ خوردند. ⚠️ **abatisch رد شد** — معنای مطمئنی برایش ندارم (قاعده‌ی ۱۴: حدس ممنوع) ⇒ Lukas تصمیم بگیرد. آرشیو: **۹۷ کارت**. کلمه‌ی بعدی در فهرست: **abbruchreif**. ۳۰۹ تست سبز.
@@ -75,7 +76,7 @@
 
 | فهرست | انجام‌شده (آخرین کلمه) | کلمه‌ی بعدی | کنار گذاشته (منتظر Lukas) |
 |---|---|---|---|
-| ۱. `Adjektive.txt` (صفت) | aalartig · aalförmig (قبلاً) · دور ۲۸ (2026-09-23): aalglatt، aasfressend، aasig، abaissiert، abakteriell، abartig، abaxial، abbaubar، abbauwürdig، **abbildbar** | **abbruchreif** | abatisch — معنا نامطمئن (Lukas 2026-09-23: رد کردن درست بود) |
+| ۱. `Adjektive.txt` (صفت) | aalartig · aalförmig (قبلاً) · دور ۲۸ (2026-09-23): aalglatt، aasfressend، aasig، abaissiert، abakteriell، abartig، abaxial، abbaubar، abbauwürdig، abbildbar · دور ۳۲ (2026-09-24): abbruchreif، abchasisch، abderitisch، abdingbar، abdominal، abdominell، abendfüllend، abendlich، abenteuerdurstig، **abenteuerhungrig** | **abenteuerlich** | abatisch (2026-09-23) · abdikativ (2026-09-24) — معنا نامطمئن |
 | ۲. `Verben_unregelmaeßig_Infinitiv.txt` (فعل بی‌قاعده) | — | abbacken | — |
 | ۳. `Verben_regelmaesig.txt` (فعل باقاعده) | — | aalen | — |
 | ۴. `substantiv_singular_alle.txt` (اسم) | — | Aachen | — |
@@ -85,7 +86,7 @@
 - ✅ **اسم شهرها/کشورها/مکان‌ها (تصمیم Lukas، 2026-09-24):** کارت فقط با **تلفظ (IPA) + معنی (fa/en) + آرتیکل** — بدون مثال، توضیح، مترادف، wortnetz و بقیه. ⚠️ قالب پرامپت و `vokab_schema.dart` فعلاً برای این نوع کارت کوتاه جا ندارند (نبودِ مثال/wortnetz ⇒ هشدار) ⇒ **قبل از اولین اسم خاص**، این نوع کارت در schema و پرامپت تعریف شود (با تأیید Lukas).
 - ⛔ **قبل از شروع اسم‌ها (فهرست ۴) حتماً از Lukas بپرس:** اسم‌هایی که آرتیکل ندارند (بیشتر نام شهرها و کشورها، مثل Aachen) چطور ساخته شوند — تصمیم Lukas: «وقتی به اسم‌ها رسیدیم، قبلش دوباره سؤال کن».
 - ⚠️ برای اسم‌ها: `substantiv_singular_alle.txt` بدون آرتیکل است ⇒ genus از `substantiv_singular_der/die/das.txt`؛ نام‌های خاص (شهر/کشور، مثل Aachen) هم در فهرست‌اند — وقتی رسیدیم، همان قاعده‌ی پرامپت (مطمئن نیستی ⇒ نساز) و گزارش به Lukas.
-- کارت‌های دیگر آرشیو (افعال Dativ و …) از deckها آمده‌اند، نه از این فهرست‌ها. کل آرشیو: **۹۷ کارت** (2026-09-23).
+- کارت‌های دیگر آرشیو (افعال Dativ و …) از deckها آمده‌اند، نه از این فهرست‌ها. کل آرشیو: **۱۰۷ کارت** (2026-09-24).
 
 ## INHALTSVERZEICHNIS (فهرست مطالب)
 

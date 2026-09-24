@@ -33,7 +33,7 @@ const listen = <(String, String)>[
 
 /// Wörter, die Claude nicht sicher beschreiben konnte (Regel 14 des
 /// Wort-Prompts: nie raten) — warten auf Lukas. Mit Datum/Grund in PLAN.md.
-const zurueckgestellt = <String>{'abatisch'};
+const zurueckgestellt = <String>{'abatisch', 'abdikativ'};
 
 void main(List<String> args) {
   final anzahl = args.isNotEmpty ? int.parse(args.first) : 10;
