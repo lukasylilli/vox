@@ -11,6 +11,7 @@
 #   web/index.html ثبت vox_sw.js · deploy-web.yml: --pwa-strategy=none --no-web-resources-cdn + دو مرحله‌ی تازه (worker، تست آفلاین Chrome).
 # دور ۳۴ (2026-09-24): +۱۰ کارت (abenteuerlich … abfällig) در assets/vocab/ ⇒ آرشیو ۱۱۷. aberhundert/abertausend ⇒ numerale (wortartKorrektur).
 # دور ۳۵ (2026-09-24): +۱۰ کارت (abgabenfrei … abgelegen) در assets/vocab/ ⇒ آرشیو ۱۲۷. abgefuckt mit Hinweis «vulgär».
+# دور ۳۶ (2026-09-24): +۱۰ کارت (abgemacht … abhold) در assets/vocab/ ⇒ آرشیو ۱۳۷. 
 # 🚀 کارهای باز قبل از انتشار (فهرست کامل): PLAN.md → «🚀 قبل از انتشار». بعد از انتشار: PLAN.md → «⏭️ بعد از انتشار».
 #
 # ⚠️ 2026-09-19 (اصلاح یادداشت آفلاین): «precache شدنی است» فقط برای ~۷٫۵MB فعلی (۸۷ کارت) درست است. کارت ~۴KB ⇒ ~۲۶٬۲۰۰ کارت ≈ ~۱۰۰MB
@@ -103,7 +104,7 @@
 - `tool/naechste_woerter.dart` — ۱۰ کلمه‌ی بعدی (رد: کارت موجود + `zurueckgestellt`؛ `wortartKorrektur` = Wortart درست برای برچسب غلط فهرست، مثل aberhundert ⇒ numerale) · `tool/vokabular_import.dart` — JSON-Array ⇒ `assets/vocab/<wortart>/<id>.json` (اعتبارسنجی با `vokab_schema.dart`) · `tool/vokab_index.dart` — `assets/vocab_index.json` + `assets/vocab_formen/`
 - **ترتیب فهرست‌ها (Lukas):** Adjektive ⇒ Verben_unregelmaeßig_Infinitiv ⇒ Verben_regelmaesig ⇒ substantiv_singular_alle — در `tool/naechste_woerter.dart` (`listen`). کلمه‌ی نامطمئن ⇒ `zurueckgestellt` + گزارش.
 - **اسم‌ها (Lukas 2026-09-24):** نام شهرها ⇒ فقط تلفظ + معنی + آرتیکل (نوع کارت کوتاه، هنوز در schema نیست) · ⛔ قبل از شروع فهرست اسم‌ها درباره‌ی اسم‌های بدون آرتیکل از Lukas بپرس.
-- **پیشرفت (2026-09-24 دور ۳۵):** آخرین کلمه‌ی ساخته‌شده **abgelegen** · بعدی **abgemacht** · کنار گذاشته: abatisch، abdikativ · آرشیو: ۱۲۷ کارت.
+- **پیشرفت (2026-09-24 دور ۳۶):** آخرین کلمه‌ی ساخته‌شده **abhold** · بعدی **abhängig** · کنار گذاشته: abatisch، abdikativ · آرشیو: ۱۳۷ کارت.
 
 ## TECH STACK
 - Flutter Web — reine Web-App, gehostet auf GitHub Pages (seit 2026-09-13)
