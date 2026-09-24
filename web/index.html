@@ -43,5 +43,17 @@
        (z. B. "en-US@posix"), an denen die Flutter-Engine sonst beim Start abstürzt. -->
   <script src="locale_guard.js"></script>
   <script src="flutter_bootstrap.js" async></script>
+  <!-- L.3 Offline: eigener Service Worker vox_sw.js — entsteht beim Bauen mit
+       Workbox (tool/pwa/). Flutters eigener Worker ist abgeschaltet
+       (--pwa-strategy=none), weil er sich seit Flutter 3.4x selbst abmeldet. -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('vox_sw.js').catch(function (e) {
+          console.warn('VOX: Service Worker nicht registriert', e);
+        });
+      });
+    }
+  </script>
 </body>
 </html>

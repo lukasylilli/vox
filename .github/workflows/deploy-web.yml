@@ -66,11 +66,29 @@ jobs:
         # und VOX verhält sich exakt wie vor S.3: kein Konto, kein Netzaufruf
         # zu Supabase. Der Bau geht dabei NICHT kaputt, das ist Absicht.
         # Nur der `anon`-Schlüssel gehört hierher, niemals `service_role`.
+        # ⚠️ L.3 Offline (2026-09-24): `--pwa-strategy=none` — Flutters eigener
+        # Service Worker meldet sich seit 3.4x selbst ab und würde vox_sw.js
+        # (nächster Schritt) im selben Bereich verdrängen. `--no-web-resources-cdn`
+        # — CanvasKit kommt aus build/web statt von www.gstatic.com, sonst
+        # startet VOX offline nie. tool/pwa/sw_bauen.cjs prüft beides.
         run: |
           flutter build web --release --no-pub --no-wasm-dry-run \
+            --pwa-strategy=none --no-web-resources-cdn \
             --base-href "/${{ github.event.repository.name }}/" \
             --dart-define=SUPABASE_URL="${{ secrets.SUPABASE_URL }}" \
             --dart-define=SUPABASE_ANON_KEY="${{ secrets.SUPABASE_ANON_KEY }}"
+
+      - name: Offline-Worker bauen (L.3 — vox_sw.js, Workbox)
+        run: |
+          set -o pipefail
+          npm ci --prefix tool/pwa --no-audit --no-fund
+          node tool/pwa/sw_bauen.cjs | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Offline-Test im echten Chrome (L.3)
+        # Rot ⇒ kein Deploy. Ablauf und Begründung: tool/pwa/offline_test.cjs.
+        run: |
+          set -o pipefail
+          CHROME_PATH="$(command -v google-chrome)" node tool/pwa/offline_test.cjs | tee -a "$GITHUB_STEP_SUMMARY"
 
       - uses: actions/upload-pages-artifact@v5
         with:

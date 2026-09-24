@@ -7,10 +7,13 @@
 # دور ۲۸: +۱۰ کارت صفت در assets/vocab/adjektiv/ (aalglatt … abbildbar) ⇒ آرشیو ۹۷ کارت؛ منبع: old files Lukasalmani/Wörter/Adjektive.txt (✓ = ساخته‌شده).
 # دور ۲۹: روال «ده کلمه جدید» ⇒ بخش «📚 کلمه‌ها» همین فایل + tool/naechste_woerter.dart (تازه).
 # دور ۳۰: ترتیب فهرست‌های کلمه (Lukas) در tool/naechste_woerter.dart؛ abatisch کنار گذاشته می‌ماند.
+# دور ۳۳ (2026-09-24): L.3 آفلاین ⇒ tool/pwa/ (تازه: workbox_config.cjs · sw_bauen.cjs · offline_test.cjs · package.json/lock) ⇒ build/web/vox_sw.js ·
+#   web/index.html ثبت vox_sw.js · deploy-web.yml: --pwa-strategy=none --no-web-resources-cdn + دو مرحله‌ی تازه (worker، تست آفلاین Chrome).
 # 🚀 کارهای باز قبل از انتشار (فهرست کامل): PLAN.md → «🚀 قبل از انتشار». بعد از انتشار: PLAN.md → «⏭️ بعد از انتشار».
 #
 # ⚠️ 2026-09-19 (اصلاح یادداشت آفلاین): «precache شدنی است» فقط برای ~۷٫۵MB فعلی (۸۷ کارت) درست است. کارت ~۴KB ⇒ ~۲۶٬۲۰۰ کارت ≈ ~۱۰۰MB
-#   (ارقام خود PLAN) ⇒ پیش‌بارگذاری همه‌ی کارت‌ها همچنان گزینه نیست؛ فقط دارایی‌های ثابت + فهرست + کارتِ بازشده. تحلیل است نه تصمیم. جزئیات: PLAN → L.3.
+#   (ارقام خود PLAN) ⇒ پیش‌بارگذاری همه‌ی کارت‌ها همچنان گزینه نیست؛ فقط دارایی‌های ثابت + فهرست + کارتِ بازشده. جزئیات: PLAN → L.3.
+#   ✅ 2026-09-24 اجرا شد: tool/pwa/workbox_config.cjs (تنها منبع تقسیم پیش‌بارگذاری / هنگام استفاده).
 #
 # 🔒 قاعده: هر چیزی که **داده‌ی کاربر به آن اشاره می‌کند** باید قبل از انتشار نگهبان داشته باشد —
 #   بعد از انتشار عوض‌کردنش یعنی از دست رفتن پیشرفت کاربر. وضعیت: کارت آرشیو ✅ L.1a · مهاجرت DB ✅ L.1b ·
@@ -1253,6 +1256,11 @@ die Fassade, die allein `NutzerZustand` nach außen zeigt.
 | `core/utils/install_state.dart` (+ `install_hinweis.dart`, `_io`/`_web`) | **S.1b ✅** — erkennt, ob VOX als Web-App installiert ist, sonst Anleitung je Plattform. Der Aufzählungstyp liegt bewusst in einer eigenen Datei (sonst Import-Kreis mit der Weiche) |
 | `core/utils/dokument_sprache.dart` (+ `_io`/`_web`) | **L.3a ✅** (2026-09-16) — setzt `<html lang>` auf die aktive Oberflächensprache (aus `app.dart`), damit der Browser keine falsche Übersetzung anbietet. Bedingter Export wie `external_link_opener`. `web/index.html` startet mit `lang="en"` |
 | `web/locale_guard.js` | **L.3b ✅** (2026-09-23) — läuft in `web/index.html` **vor** `flutter_bootstrap.js`. Die Flutter-Engine baut beim Start `new Intl.Locale()` für jede Browsersprache und stürzt bei ungültigem BCP-47 ab (z. B. Chromium/Linux mit POSIX-Locale: `en-US@posix`). Das Skript bereinigt nur dann `navigator.languages`/`language` (`@…`/`.…` weg, `_`→`-`, leer ⇒ `["en"]`); gültige Sprachen bleiben unberührt. Startsprache entscheidet weiter allein `geraete_sprache.dart`. Gleiche Datei in Root-in |
+| `web/index.html` (ثبت SW) | **L.3 ✅** (2026-09-24) — بعد از `load` فایل `vox_sw.js` را ثبت می‌کند (scope = `/vox/`). Flutter-SW خاموش است (`--pwa-strategy=none`)، چون در 3.44 خودش را unregister می‌کند و `vox_sw.js` را در همان scope کنار می‌زد |
+| `tool/pwa/workbox_config.cjs` | **L.3 ✅** — **تنها منبع** رفتار آفلاین: فهرست پیش‌بارگذاری (همه‌چیز جز کارت‌ها/`vocab_formen`/`*.symbols`/skwasm)، `PFLICHT` (فایل‌هایی که بدونشان آفلاین شروع نمی‌شود)، runtime: `vox-woerter` (StaleWhileRevalidate) + `vox-schriften` (fonts.gstatic). skipWaiting خاموش، clientsClaim روشن |
+| `tool/pwa/sw_bauen.cjs` | **L.3 ✅** — بعد از `flutter build web` در deploy: پرچم‌ها را در `flutter_bootstrap.js` چک می‌کند (بدون serviceWorkerSettings، `useLocalCanvasKit: true`)، هر هشدار Workbox یا فایل اجباری غایب ⇒ قرمز؛ بعد `build/web/vox_sw.js` |
+| `tool/pwa/offline_test.cjs` | **L.3 ✅** — Chrome واقعی (`CHROME_PATH`): آنلاین ⇒ worker فعال ⇒ Offline + goto ⇒ همه‌ی فایل‌های بسته با fetch آفلاین ⇒ پنجره‌ی تازه آفلاین. ملاک «VOX بالا آمد» = `#vox-loading` حذف شده. ⚠️ `page.reload()` در Playwright با Offline از SW رد می‌شود ⇒ `goto` |
+| `tool/pwa/package.json` + `package-lock.json` | **L.3 ✅** — workbox-build 7.4.1 + playwright-core 1.55.0 (بدون مرورگر؛ Chrome خود ubuntu-latest). `node_modules` در `.gitignore` |
 | `features/more/screens/settings_screen.dart` → `_SpeicherKarte` | zeigt diese Einladung unter «داده‌ی من» |
 | `test/praep_vollform_test.dart` | **R-2.1 (2026-09-22)** — `PraepCluster.vollform`: gemeinsame Präposition einmal am Ende, sonst je Wort; prüft alle 185 echten Cluster |
 | `test/konto_loeschen_test.dart` | **L.1d (2026-09-22)** — Knopf «حذف حساب»: Dialog nennt Root-in · Abbrechen löscht nichts · deleted / unavailable (eigene Sicherung + abmelden) / failed · `deleteAccount()` ohne Server = failed. Auth/Ablage/Abgleich ersetzt, kein Netz |

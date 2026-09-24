@@ -1,0 +1,14 @@
+{
+  "name": "vox-pwa",
+  "private": true,
+  "description": "L.3 Offline: baut vox_sw.js (Workbox) nach `flutter build web` und prüft den Offline-Start im echten Chrome. Aufruf siehe README.md in diesem Ordner.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "sw": "node sw_bauen.cjs",
+    "offline-test": "node offline_test.cjs"
+  },
+  "devDependencies": {
+    "playwright-core": "1.55.0",
+    "workbox-build": "7.4.1"
+  }
+}

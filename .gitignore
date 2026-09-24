@@ -29,6 +29,8 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
+# L.3 Offline-Werkzeug (tool/pwa): Pakete kommen per `npm ci` aus package-lock.json
+tool/pwa/node_modules/
 /coverage/
 
 # Symbolication / obfuscation
