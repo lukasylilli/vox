@@ -1,0 +1,133 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_abzaehlbar",
+  "wort": "abzählbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "شمارش‌پذیر"
+    ],
+    "en": [
+      "countable"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik"
+  ],
+  "ipa": "ˈaptsɛːlbaːɐ̯",
+  "anmerkung": "Auch Fachbegriff der Mathematik (abzählbare Menge).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Fehler sind an einer Hand abzählbar.",
+      "uebersetzung": {
+        "fa": "اشتباه‌ها را می‌شود با انگشتان یک دست شمرد.",
+        "en": "The mistakes can be counted on one hand."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In der Mathematik nennt man eine Menge abzählbar, wenn man ihre Elemente nummerieren kann.",
+      "uebersetzung": {
+        "fa": "در ریاضی مجموعه‌ای را شمارش‌پذیر می‌نامند که بتوان عضوهایش را شماره‌گذاری کرد.",
+        "en": "In mathematics a set is called countable if its elements can be numbered."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zählbar",
+      "uebersetzung": {
+        "fa": "قابل‌شمارش",
+        "en": "countable"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "unzählig",
+      "uebersetzung": {
+        "fa": "بی‌شمار",
+        "en": "countless"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "abzählen (شمردن) + -bar (پذیر)",
+    "en": "abzählen (to count off) + -bar (-able)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "abzählbar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine abzählbare Menge",
+      "die abzählbaren Fälle"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "zählen",
+    "woerter": [
+      {
+        "wort": "zählen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شمردن",
+          "en": "to count"
+        },
+        "id_ref": "verb_zaehlen"
+      },
+      {
+        "wort": "die Zahl",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عدد",
+          "en": "number"
+        },
+        "id_ref": "nomen_zahl"
+      },
+      {
+        "wort": "die Menge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مقدار، مجموعه",
+          "en": "amount, set"
+        },
+        "id_ref": "nomen_menge"
+      },
+      {
+        "wort": "abzählen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شمردن",
+          "en": "to count off"
+        },
+        "id_ref": "verb_abzaehlen"
+      },
+      {
+        "wort": "unzählig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بی‌شمار",
+          "en": "countless"
+        },
+        "id_ref": "adjektiv_unzaehlig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
