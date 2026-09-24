@@ -27,6 +27,8 @@ const listen = <(String, String)>[
   ('old files Lukasalmani/Wörter/Verben_unregelmaeßig_Infinitiv.txt', 'verb'),
   ('old files Lukasalmani/Wörter/Verben_regelmaesig.txt', 'verb'),
   ('old files Lukasalmani/Wörter/substantiv_singular_alle.txt', 'nomen'),
+  // ⛔ Vor dem ersten Nomen Lukas fragen: Nomen ohne Artikel (Städte …);
+  //    Städtenamen = nur IPA + Bedeutung + Artikel (PLAN.md, 2026-09-24).
 ];
 
 /// Wörter, die Claude nicht sicher beschreiben konnte (Regel 14 des
