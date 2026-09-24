@@ -33,7 +33,7 @@ const listen = <(String, String)>[
 
 /// Wörter, die Claude nicht sicher beschreiben konnte (Regel 14 des
 /// Wort-Prompts: nie raten) — warten auf Lukas. Mit Datum/Grund in PLAN.md.
-const zurueckgestellt = <String>{'abatisch', 'abdikativ'};
+const zurueckgestellt = <String>{'abatisch', 'abdikativ', 'afrikaans'};
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
 /// Regel 14 des Wort-Prompts). Die Karte liegt dann unter der richtigen

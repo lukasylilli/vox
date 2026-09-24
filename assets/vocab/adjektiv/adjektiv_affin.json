@@ -1,0 +1,143 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_affin",
+  "wort": "affin",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "مرتبط، خویشاوند",
+      "(ریاضی) آفین"
+    ],
+    "en": [
+      "related, akin",
+      "affine (mathematics)"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wissenschaft",
+    "Mathematik"
+  ],
+  "ipa": "aˈfiːn",
+  "anmerkung": "Bildungs-/Fachsprache; oft in Zusammensetzungen: technikaffin (= der Technik zugeneigt).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die zwei Begriffe sind affin.",
+      "uebersetzung": {
+        "fa": "این دو مفهوم با هم مرتبط‌اند.",
+        "en": "The two concepts are related."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In der Geometrie lernt man, wie affine Abbildungen Geraden wieder auf Geraden abbilden.",
+      "uebersetzung": {
+        "fa": "در هندسه یاد می‌گیریم که نگاشت‌های آفین چطور خط‌ها را دوباره روی خط می‌برند.",
+        "en": "In geometry you learn how affine maps send straight lines to straight lines."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verwandt",
+      "uebersetzung": {
+        "fa": "خویشاوند، مرتبط",
+        "en": "related"
+      }
+    },
+    {
+      "wort": "ähnlich",
+      "uebersetzung": {
+        "fa": "شبیه",
+        "en": "similar"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "technikaffin",
+      "uebersetzung": {
+        "fa": "علاقه‌مند به فناوری",
+        "en": "tech-savvy"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از لاتین affinis (هم‌مرز، خویشاوند)",
+    "en": "from Latin affinis (bordering, related)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "affin",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine affine Abbildung",
+      "die affinen Begriffe"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "ähnlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شبیه",
+          "en": "similar"
+        },
+        "id_ref": "adjektiv_aehnlich"
+      },
+      {
+        "wort": "verwandt",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خویشاوند",
+          "en": "related"
+        },
+        "id_ref": "adjektiv_verwandt"
+      },
+      {
+        "wort": "die Mathematik",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ریاضی",
+          "en": "mathematics"
+        },
+        "id_ref": "nomen_mathematik"
+      },
+      {
+        "wort": "technikaffin",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "علاقه‌مند به فناوری",
+          "en": "tech-savvy"
+        },
+        "id_ref": "adjektiv_technikaffin"
+      },
+      {
+        "wort": "die Affinität",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "قرابت، کشش",
+          "en": "affinity"
+        },
+        "id_ref": "nomen_affinitaet"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,143 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_affektiv",
+  "wort": "affektiv",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "عاطفی",
+      "هیجانی"
+    ],
+    "en": [
+      "affective",
+      "emotional"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Psychologie",
+    "Medizin"
+  ],
+  "ipa": "afɛkˈtiːf",
+  "anmerkung": "Fachsprachlich (Psychologie, Medizin).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Reaktion war affektiv.",
+      "uebersetzung": {
+        "fa": "واکنش هیجانی بود.",
+        "en": "The reaction was emotional."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Arzt erklärte, dass affektive Störungen wie Depressionen gut behandelt werden können.",
+      "uebersetzung": {
+        "fa": "پزشک توضیح داد که اختلال‌های عاطفی مثل افسردگی قابل‌درمان‌اند.",
+        "en": "The doctor explained that affective disorders such as depression can be treated well."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "emotional",
+      "uebersetzung": {
+        "fa": "عاطفی",
+        "en": "emotional"
+      }
+    },
+    {
+      "wort": "gefühlsmäßig",
+      "uebersetzung": {
+        "fa": "احساسی",
+        "en": "emotional"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "rational",
+      "uebersetzung": {
+        "fa": "منطقی",
+        "en": "rational"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Affekt (هیجان شدید) + -iv",
+    "en": "Affekt (strong emotion) + -iv"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "affektiv",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine affektive Störung",
+      "das affektive Verhalten"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Affekt",
+    "woerter": [
+      {
+        "wort": "das Gefühl",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "احساس",
+          "en": "feeling"
+        },
+        "id_ref": "nomen_gefuehl"
+      },
+      {
+        "wort": "emotional",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عاطفی",
+          "en": "emotional"
+        },
+        "id_ref": "adjektiv_emotional"
+      },
+      {
+        "wort": "rational",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "منطقی",
+          "en": "rational"
+        },
+        "id_ref": "adjektiv_rational"
+      },
+      {
+        "wort": "die Psychologie",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "روان‌شناسی",
+          "en": "psychology"
+        },
+        "id_ref": "nomen_psychologie"
+      },
+      {
+        "wort": "der Affekt",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "هیجان شدید",
+          "en": "affect"
+        },
+        "id_ref": "nomen_affekt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
