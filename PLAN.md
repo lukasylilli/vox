@@ -13,7 +13,8 @@
 > قاعده‌ها، اصل‌ها، تصمیم‌ها و کارهای باز کامل ماندند. کارهای باز فقط در دو بخش پایین جمع‌اند: «🚀 قبل از انتشار» و «⏭️ بعد از انتشار».
 > متن مفصل قبل از این خلاصه: `git show a078dc2:PLAN.md` (نسخه‌ی قدیمی‌تر: `afad3ab`).
 >
-> 🗓️ **آخرین جلسه:** 2026-09-24 (دور ۴۳) — «ده کلمه جدید»: additiv … adsorptiv (۱۰ کارت، ۰ خطا/هشدار) ⇒ آرشیو ۲۰۷ کارت.  بعدی: **adstringierend**.
+> 🗓️ **آخرین جلسه:** 2026-09-24 (دور ۳۴–۴۳، یک چت) — **۱۰۰ کلمه‌ی تازه** در ۱۰ دور: abenteuerlich … adsorptiv ⇒ آرشیو ۲۰۷ کارت؛ هیچ کلمه‌ای کنار گذاشته نشد؛ عددها (aberhundert، abertausend، achte، achtzehnte، achtzigste) ⇒ numerale با `wortartKorrektur`. **ادامه از: adstringierend.**
+> جزئیات دور ۴۳ — «ده کلمه جدید»: additiv … adsorptiv (۱۰ کارت، ۰ خطا/هشدار) ⇒ آرشیو ۲۰۷ کارت.  بعدی: **adstringierend**.
 > قبلی: 2026-09-24 (دور ۴۲) — «ده کلمه جدید»: achtsam … adaxial (۱۰ کارت، ۰ خطا/هشدار) ⇒ آرشیو ۱۹۷ کارت.  بعدی: **additiv**.
 > قبلی: 2026-09-24 (دور ۴۱) — «ده کلمه جدید»: achtarmig … achtjährig (۱۰ کارت، ۰ خطا/هشدار) ⇒ آرشیو ۱۸۷ کارت.  بعدی: **achtsam**.
 > قبلی: 2026-09-24 (دور ۴۰) — «ده کلمه جدید»: abundant … achromatisch (۱۰ کارت، ۰ خطا/هشدار) ⇒ آرشیو ۱۷۷ کارت.  بعدی: **achtarmig**.
@@ -32,7 +33,7 @@
 > قبلی: 2026-09-23 (دور ۲۶–۲۷) — **بند ۳ قبل از انتشار (RTL در Auswendiglernen) کامل:** نگهبان حالا ~۴۰ فیلد آلمانی می‌شناسد (همه‌ی فیلدهای مدل deckها + `['de']`، `['infinitiv']` … + cloze)؛ همه‌ی موردهایش ⇒ `DeutschText`/`DeutschRichText`. جدول‌ها و ردیف‌های کلید–مقدار آلمانی (Stammformen، Konjugation، Zeitformen، Verb-Info، «Perfekt: …») ⇒ `Directionality(ltr)`؛ **باگ ترتیب برعکس در تمرین‌های مرتب‌کردن جمله** (همه‌ی deckها + Wortstellung) ⇒ `Wrap(textDirection: ltr)`؛ چیپ‌های NVV به ترتیب آلمانی؛ پیام «✗ درست: …» جدا با `DeutschMitEtikett` (تازه، `deutsch_text.dart`)؛ عنوان‌های فهرست کنار آیکون (`ganzeZeile: false`). ۳۰۹ تست سبز؛ بازبینی در WebKit/iPhone (fa). ⏭️ Lukas: نگاه روی آیفون.
 >
 > 📜 **کارنامه (خیلی خلاصه):**
-> - **2026-09-24** — L.3 آفلاین: `vox_sw.js` (Workbox، `tool/pwa/`) + تست آفلاین Chrome در deploy · ده کلمه‌ی جدید (دور ۳۲) · تصمیم اسم‌ها (دور ۳۱).
+> - **2026-09-24** — ۱۰۰ کلمه‌ی تازه (دور ۳۴–۴۳، abenteuerlich … adsorptiv) · L.3 آفلاین: `vox_sw.js` (Workbox، `tool/pwa/`) + تست آفلاین Chrome در deploy · ده کلمه‌ی جدید (دور ۳۲) · تصمیم اسم‌ها (دور ۳۱).
 > - **2026-09-23** — L.3b نگهبان زبان مرورگر (`web/locale_guard.js`، vox + Root-in) · L.2d تصمیم (deckهای خالی «به‌زودی» می‌مانند) · B-13 لایتنر هر دو منبع · تست آیفون ✅ · پاپ‌آپ کلمه: German News، تلفظ برای هر کلمه، پیام جدای «بارگذاری نشد»، **شکل‌های صرف‌شده** (`assets/vocab_formen/`) · RTL: `deutschLinksbuendig` + `DeutschRichText` + جدول‌های گرامر LTR + نگهبان چندخطی · R-2.3 ثبت شد · رمز فراموشی با جریان implicit.
 > - **2026-09-22** — L.1d حذف حساب (هر دو اپ) · R-2.1 Präpositionen · قفل قالب ایمیل Supabase.
 > - **2026-09-20** — فاز P (پروفایل و حساب) · L.5f پاپ‌آپ کلمه.  **2026-09-19** — `FeatureFlags` · L.5g ثبت.
