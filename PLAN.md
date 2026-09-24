@@ -13,7 +13,8 @@
 > قاعده‌ها، اصل‌ها، تصمیم‌ها و کارهای باز کامل ماندند. کارهای باز فقط در دو بخش پایین جمع‌اند: «🚀 قبل از انتشار» و «⏭️ بعد از انتشار».
 > متن مفصل قبل از این خلاصه: `git show a078dc2:PLAN.md` (نسخه‌ی قدیمی‌تر: `afad3ab`).
 >
-> 🗓️ **آخرین جلسه:** 2026-09-23 (دور ۲۸) — **۱۰ کلمه‌ی تازه (درخواست Lukas)** طبق «Wort prompt» ۳.۰، به ترتیب الفبا از `Wörter/Adjektive.txt`: aalglatt · aasfressend · aasig · abaissiert · abakteriell · abartig · abaxial · abbaubar · abbauwürdig · abbildbar ⇒ `assets/vocab/adjektiv/` با `tool/vokabular_import.dart` (۰ خطا، ۰ هشدار)؛ در فهرست ✓ خوردند. ⚠️ **abatisch رد شد** — معنای مطمئنی برایش ندارم (قاعده‌ی ۱۴: حدس ممنوع) ⇒ Lukas تصمیم بگیرد. آرشیو: **۹۷ کارت**. کلمه‌ی بعدی در فهرست: **abbruchreif**. ۳۰۹ تست سبز.
+> 🗓️ **آخرین جلسه:** 2026-09-23 (دور ۲۹) — روال «ده کلمه جدید» ثبت شد: بخش «📚 روال ده کلمه جدید» در PLAN و MAP (لینک پرامپت و فهرست‌ها، مراحل، قاعده‌ها، جدول پیشرفت) + ابزار تازه `tool/naechste_woerter.dart`.
+> قبلی: 2026-09-23 (دور ۲۸) — **۱۰ کلمه‌ی تازه (درخواست Lukas)** طبق «Wort prompt» ۳.۰، به ترتیب الفبا از `Wörter/Adjektive.txt`: aalglatt · aasfressend · aasig · abaissiert · abakteriell · abartig · abaxial · abbaubar · abbauwürdig · abbildbar ⇒ `assets/vocab/adjektiv/` با `tool/vokabular_import.dart` (۰ خطا، ۰ هشدار)؛ در فهرست ✓ خوردند. ⚠️ **abatisch رد شد** — معنای مطمئنی برایش ندارم (قاعده‌ی ۱۴: حدس ممنوع) ⇒ Lukas تصمیم بگیرد. آرشیو: **۹۷ کارت**. کلمه‌ی بعدی در فهرست: **abbruchreif**. ۳۰۹ تست سبز.
 > قبلی: 2026-09-23 (دور ۲۶–۲۷) — **بند ۳ قبل از انتشار (RTL در Auswendiglernen) کامل:** نگهبان حالا ~۴۰ فیلد آلمانی می‌شناسد (همه‌ی فیلدهای مدل deckها + `['de']`، `['infinitiv']` … + cloze)؛ همه‌ی موردهایش ⇒ `DeutschText`/`DeutschRichText`. جدول‌ها و ردیف‌های کلید–مقدار آلمانی (Stammformen، Konjugation، Zeitformen، Verb-Info، «Perfekt: …») ⇒ `Directionality(ltr)`؛ **باگ ترتیب برعکس در تمرین‌های مرتب‌کردن جمله** (همه‌ی deckها + Wortstellung) ⇒ `Wrap(textDirection: ltr)`؛ چیپ‌های NVV به ترتیب آلمانی؛ پیام «✗ درست: …» جدا با `DeutschMitEtikett` (تازه، `deutsch_text.dart`)؛ عنوان‌های فهرست کنار آیکون (`ganzeZeile: false`). ۳۰۹ تست سبز؛ بازبینی در WebKit/iPhone (fa). ⏭️ Lukas: نگاه روی آیفون.
 >
 > 📜 **کارنامه (خیلی خلاصه):**
@@ -39,10 +40,43 @@
 
 ## ⏭️ بعد از انتشار و تصمیم‌های باز
 
-- **کلمه‌ها (L.4):** Claude طبق «Wort prompt» می‌سازد، به ترتیب الفبا؛ دور ۲۸: ۱۰ صفت اول (تا abbildbar) ✅، **abatisch** منتظر تصمیم Lukas، بعدی: abbruchreif.
+- **کلمه‌ها (L.4):** روال کامل، فایل‌ها و پیشرفت ⇒ بخش **«📚 روال ده کلمه جدید»** (پایین‌تر). Lukas فقط می‌گوید «ده کلمه جدید وارد کن».
 - **بعد از انتشار (به ترتیب Lukas):** L.2d منابع deckهای «به‌زودی» (یکی‌یکی) · G7d/G7e تمرین deckها + ذخیره‌ی نتیجه‌ی آزمون سطح · L.4 کلمه‌ها (روزانه) · R-2.2 صفحه‌ی جزئیات کامل deckها (صدا/لایتنر/دسته) · **R-2.3 گسترش همه‌ی محتوای Auswendiglernen** (مثال، ترجمه، تمرین؛ فقط افزودن) · L.5b ترجمه‌ی جمله‌به‌جمله در Lesen · L.5c تمرین از همه‌ی محتوا · L.5d صفحه‌ی کامل اکانت · L.5e آزمون بعد از هر بخش · G8 جست‌وجو/گلاسری · V.4 UI لیست بزرگ کلمه‌ها · B.4-alt و DS باقی‌مانده (vox_chip، vox_list_tile …).
 - **تصمیم‌های باز Lukas (قبل از شروع حتماً بپرس):** L.5g ⛔⛔ ساختار دولایه‌ی متن‌ها · L.5a صفحه‌ی پیشرفت · A.6 روش ساخت کلمه‌ها ⛔ · V.5 توزیع آرشیو بزرگ.
 - ⚠️ **مقیاس:** جدول شکل‌ها (`assets/vocab_formen/`) تکه‌تکه است؛ با ~۲۶٬۰۰۰ کارت هر تکه چند صد KB می‌شود — اگر لازم شد، تکه‌ها بر اساس دو حرف اول.
+
+## 📚 روال «ده کلمه جدید» — دیکشنری آنلاین VOX (L.4)
+
+> **Lukas فقط می‌گوید: «ده کلمه جدید وارد کن».** Claude بدون سؤال همین روال را از اول تا آخر اجرا می‌کند و نتیجه را همین‌جا + در MAP ثبت می‌کند.
+> هدف (Lukas، 2026-09-23): VOX یک **دیکشنری آنلاین** می‌شود که تقریباً همه‌ی کلمه‌ها را دارد. **ترتیب هرگز عوض نمی‌شود** (همان ترتیب الفبایی فایل فهرست).
+
+**فایل‌ها (همیشه تازه از `main` بخوان، نه از حافظه):**
+- پرامپت کلمه (تنها منبع قالب کارت، SUPER-PROMPT 3.0): [`old files Lukasalmani/Wort prompt`](https://github.com/lukasylilli/vox/blob/main/old%20files%20Lukasalmani/Wort%20prompt)
+- فهرست کلمه‌ها (پوشه): [`old files Lukasalmani/Wörter/`](https://github.com/lukasylilli/vox/tree/main/old%20files%20Lukasalmani/W%C3%B6rter) — فهرست فعلی: [`Adjektive.txt`](https://github.com/lukasylilli/vox/blob/main/old%20files%20Lukasalmani/W%C3%B6rter/Adjektive.txt) (۶٬۸۴۹ صفت)
+- اعتبارسنجی و id: [`lib/features/vokabular/data/vokab_schema.dart`](https://github.com/lukasylilli/vox/blob/main/lib/features/vokabular/data/vokab_schema.dart)
+- ابزارها: [`tool/naechste_woerter.dart`](https://github.com/lukasylilli/vox/blob/main/tool/naechste_woerter.dart) (کلمه‌های بعدی) · [`tool/vokabular_import.dart`](https://github.com/lukasylilli/vox/blob/main/tool/vokabular_import.dart) (نوشتن کارت‌ها) · [`tool/vokab_index.dart`](https://github.com/lukasylilli/vox/blob/main/tool/vokab_index.dart) (فهرست + جدول شکل‌های صرف‌شده)
+- مقصد کارت‌ها: `assets/vocab/<wortart>/<id>.json` (یک کلمه = یک فایل، fa+en در همان فایل). ظاهر (رنگ/نماد) در کد است، نه در کارت — برای کلمه‌ی تازه هیچ فایل ظاهری عوض نمی‌شود.
+
+**مراحل (به همین ترتیب):**
+1. هر چهار فایل PLAN/MAP (vox + Root-in) و **پرامپت کلمه** را تازه بخوان.
+2. Flutter در کانتینر: `curl -sL https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.44.6-stable.tar.xz | tar xJ` ⇒ `export PATH=$PWD/flutter/bin:$PATH` ⇒ در ریپو `flutter pub get`.
+3. `dart run tool/naechste_woerter.dart` ⇒ ۱۰ کلمه‌ی بعدی (کارت‌های موجود و کلمه‌های «کنار گذاشته» را خودش رد می‌کند).
+4. برای همان ۱۰ کلمه، طبق پرامپت یک **JSON-Array** بساز (همه‌ی قاعده‌های TEIL 0 — به‌ویژه ۱۴: «مطمئن نیستی ⇒ null، حدس نزن»؛ ۱۵: حرف اضافه‌ی ثابت اجباری). در `/tmp/batch.json`.
+5. `dart run tool/vokabular_import.dart --dry-run /tmp/batch.json` ⇒ باید «Fehler: 0 · Warnungen: 0» باشد ⇒ بعد بدون `--dry-run`.
+6. `dart run tool/vokab_index.dart` · جلوی هر کلمه‌ی ساخته‌شده در فایل فهرست `✓ ` بگذار.
+7. `flutter analyze` + `flutter test` (هر دو سبز).
+8. جدول «پیشرفت» پایین + خط «آخرین جلسه» + خط کلمه‌ها در MAP را به‌روز کن ⇒ commit + push ⇒ نتیجه‌ی GitHub Actions را چک کن (قرمز ⇒ فوراً درست کن).
+
+**قاعده‌ها:** ترتیب ثابت · اگر معنای کلمه‌ای را مطمئن نمی‌دانی ⇒ **نساز**، آن را به `zurueckgestellt` در `tool/naechste_woerter.dart` و به جدول زیر اضافه کن و به Lukas بگو (جایش کلمه‌ی بعدی می‌آید) · id کارت منتشرشده هرگز عوض/حذف نمی‌شود · بدون کپی از کتاب/دیکشنری، جمله‌ها از نو.
+
+**پیشرفت:**
+
+| فهرست | انجام‌شده (آخرین کلمه) | کلمه‌ی بعدی | کنار گذاشته (منتظر Lukas) |
+|---|---|---|---|
+| `Adjektive.txt` (صفت) | aalartig · aalförmig (قبلاً) · دور ۲۸ (2026-09-23): aalglatt، aasfressend، aasig، abaissiert، abakteriell، abartig، abaxial، abbaubar، abbauwürdig، **abbildbar** | **abbruchreif** | abatisch — معنا نامطمئن (2026-09-23) |
+
+- ⏭️ **بعد از تمام شدن `Adjektive.txt`:** کدام فهرست بعدی (`Verben_regelmaesig.txt` · `Verben_unregelmaeßig_Infinitiv.txt` · `substantiv_singular_*.txt`) ⇒ **از Lukas بپرس**، بعد در `tool/naechste_woerter.dart` (`liste`/`wortart`) و همین جدول ثبت کن.
+- کارت‌های دیگر آرشیو (افعال Dativ و …) از deckها آمده‌اند، نه از این فهرست‌ها. کل آرشیو: **۹۷ کارت** (2026-09-23).
 
 ## INHALTSVERZEICHNIS (فهرست مطالب)
 
@@ -50,6 +84,7 @@
 
 - [🚀 قبل از انتشار — فهرست کامل (بازبینی کامل PLAN و MAP، 2026-09-23 دور ۲۵)](#-قبل-از-انتشار--فهرست-کامل-بازبینی-کامل-plan-و-map-2026-09-23-دور-۲۵)
 - [⏭️ بعد از انتشار و تصمیم‌های باز](#-بعد-از-انتشار-و-تصمیم‌های-باز)
+- [📚 روال «ده کلمه جدید» — دیکشنری آنلاین VOX (L.4)](#-روال-ده-کلمه-جدید--دیکشنری-آنلاین-vox-l4)
 - [🎯 وضعیت فعلی (2026-09-23)](#-وضعیت-فعلی-2026-09-23)
 - [🚀 فاز LAUNCH — ترتیب جدید تا انتشار (تصمیم Lukas، 2026-09-16)](#-فاز-launch--ترتیب-جدید-تا-انتشار-تصمیم-lukas-2026-09-16)
   - [L.1 — امنیت داده‌ی لایتنر (قبل از انتشار)](#l1--امنیت-داده‌ی-لایتنر-قبل-از-انتشار)
@@ -247,7 +282,7 @@
 
 ### L.4 — بعد از انتشار: کلمه‌ها، روزانه
 - ⏭️ **R-2.2 هم اینجاست** (2026-09-22): deckهای Auswendiglernen یکی‌یکی ⇒ کارت کلمه / کارت عبارت — برنامه: فاز R → «R-2.2 — برنامه». کارت‌های Auswendiglernen هرگز کم نمی‌شوند.
-- [ ] روش ساخت ⇒ **فاز A / A.6 ⛔ — قبلش حتماً از Lukas بپرس.** (گزینه‌ی مطرح‌شده 2026-09-16: API با
+- [x] روش ساخت ⇒ **تصمیم Lukas (2026-09-23): Claude خودش طبق Wort prompt می‌سازد، هر بار ۱۰ کلمه با دستور «ده کلمه جدید وارد کن»** — روال: بخش «📚 روال ده کلمه جدید». (سابقه‌ی A.6: (گزینه‌ی مطرح‌شده 2026-09-16: API با
       حدود ۵۰ یورو در ماه، اعتبار پیش‌پرداخت بدون شارژ خودکار، ترجیحاً Batch — هنوز تأیید نشده)
 
 ### L.5 — درخواست‌های جدید Lukas (باز شد 2026-09-17)

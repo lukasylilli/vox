@@ -5,6 +5,7 @@
 #   · wort_popup.dart (_WortKopf تلفظ، _LadenFehlgeschlagen) · deutschLinksbuendig + DeutschRichText (core/widgets/deutsch_text.dart) · vokab_formen.dart ⇒ assets/vocab_formen/.
 # دور ۲۶–۲۷: DeutschMitEtikett (deutsch_text.dart) · جدول/ردیف‌های آلمانی deckها Directionality(ltr) · Wrap(textDirection: ltr) در همه‌ی تمرین‌های مرتب‌کردن · نگهبان deutscher_text_waechter_test با ~۴۰ فیلد.
 # دور ۲۸: +۱۰ کارت صفت در assets/vocab/adjektiv/ (aalglatt … abbildbar) ⇒ آرشیو ۹۷ کارت؛ منبع: old files Lukasalmani/Wörter/Adjektive.txt (✓ = ساخته‌شده).
+# دور ۲۹: روال «ده کلمه جدید» ⇒ بخش «📚 کلمه‌ها» همین فایل + tool/naechste_woerter.dart (تازه).
 # 🚀 کارهای باز قبل از انتشار (فهرست کامل): PLAN.md → «🚀 قبل از انتشار». بعد از انتشار: PLAN.md → «⏭️ بعد از انتشار».
 #
 # ⚠️ 2026-09-19 (اصلاح یادداشت آفلاین): «precache شدنی است» فقط برای ~۷٫۵MB فعلی (۸۷ کارت) درست است. کارت ~۴KB ⇒ ~۲۶٬۲۰۰ کارت ≈ ~۱۰۰MB
@@ -50,6 +51,7 @@
 
 > خودکار از سرتیترهای همین فایل ساخته شد (2026-09-23 دور ۲۵). ✅ = کامل · ⛔ = منسوخ.
 
+- [📚 کلمه‌ها — روال «ده کلمه جدید» (فایل‌ها و پیشرفت)](#-کلمه‌ها--روال-ده-کلمه-جدید-فایل‌ها-و-پیشرفت)
 - [TECH STACK](#tech-stack)
 - [STATUS LEGEND](#status-legend)
 - [ROOT FILES](#root-files)
@@ -85,6 +87,15 @@
 - [DATABASE TABLES (drift — schema v7)](#database-tables-drift--schema-v7)
 
 ---
+
+## 📚 کلمه‌ها — روال «ده کلمه جدید» (فایل‌ها و پیشرفت)
+
+> روال کامل (مراحل ۱–۸ و قاعده‌ها): **PLAN.md → «📚 روال ده کلمه جدید»**. دستور Lukas: «ده کلمه جدید وارد کن». ترتیب فهرست هرگز عوض نمی‌شود.
+
+- پرامپت کلمه: [`old files Lukasalmani/Wort prompt`](https://github.com/lukasylilli/vox/blob/main/old%20files%20Lukasalmani/Wort%20prompt)
+- فهرست‌ها: [`old files Lukasalmani/Wörter/`](https://github.com/lukasylilli/vox/tree/main/old%20files%20Lukasalmani/W%C3%B6rter) — فعلی: `Adjektive.txt` (`✓ ` = کارت ساخته شد؛ مرجع واقعی وجود کارت: `assets/vocab/`)
+- `tool/naechste_woerter.dart` — ۱۰ کلمه‌ی بعدی (رد: کارت موجود + `zurueckgestellt`) · `tool/vokabular_import.dart` — JSON-Array ⇒ `assets/vocab/<wortart>/<id>.json` (اعتبارسنجی با `vokab_schema.dart`) · `tool/vokab_index.dart` — `assets/vocab_index.json` + `assets/vocab_formen/`
+- **پیشرفت (2026-09-23 دور ۲۸):** آخرین کلمه‌ی ساخته‌شده **abbildbar** · بعدی **abbruchreif** · کنار گذاشته: abatisch · آرشیو: ۹۷ کارت.
 
 ## TECH STACK
 - Flutter Web — reine Web-App, gehostet auf GitHub Pages (seit 2026-09-13)
@@ -1370,6 +1381,7 @@ Veröffentlichung.
 |------|------|-----|
 | `tool/vokab_ids_pruefen.dart` | Dart | **L.1a** — Wächter: vergleicht den Index der **Live-Seite** mit dem frisch gebauten; fehlt eine veröffentlichte id ⇒ exit 1. Läuft in `deploy-web.yml` und `pruefen.yml` nach „Wortindex bauen". Handauslassung nur über `workflow_dispatch`-Eingabe `ohne_id_waechter` |
 | `tool/vokab_index.dart` | Dart | **V.2** — baut `assets/vocab_index.json` aus `assets/vocab/`. Läuft in **jedem** Workflow direkt vor `flutter analyze`; Ergebnis nie committet (`.gitignore`). exit 1 bei unlesbarer/falsch abgelegter Karte oder doppelter id |
+| `tool/naechste_woerter.dart` | Dart | **L.4 (2026-09-23)** — nennt die nächsten N Wörter der aktuellen Wortliste ohne Karte (Reihenfolge der Datei, `zurueckgestellt` = unsichere Wörter für Lukas). Routine: «📚 کلمه‌ها» oben / PLAN.md |
 | `tool/vokabular_import.dart` | Dart | **verbindliche Prüfung** — Konverter-Output → `assets/vocab/<wortart>/<id>.json`. Nutzt `vokabPruefeKarte()` aus `lib/features/vokabular/data/vokab_schema.dart`. Duplikat-Schutz, idempotent, exit 1 bei Fehlern |
 | `tool/backlog.py` | Python | **A.1** — welches Wort ist als Nächstes dran? Leitet den Stand aus `assets/vocab/` ab (nicht aus den ✓-Marken). `--stand` / `--naechste N` / `--gruppe` / `--json`. Spiegelt `vokabId()` zeichengenau |
 | `tool/sync_backlog.py` | Python | **A.2** — schreibt die ✓-Marken in `Wörter/*.txt` aus `assets/vocab/` neu. idempotent, `--dry-run` |
