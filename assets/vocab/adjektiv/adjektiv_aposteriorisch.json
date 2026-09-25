@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_aposteriorisch",
+  "wort": "aposteriorisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "پسینی، تجربی"
+    ],
+    "en": [
+      "a posteriori",
+      "empirical"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Philosophie",
+    "Wissenschaft"
+  ],
+  "ipa": "apɔsteˈri̯oːrɪʃ",
+  "anmerkung": "Philosophie: auf Erfahrung beruhend. Gegenwort: apriorisch. Nicht steigerbar.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Dieses Wissen ist aposteriorisch.",
+      "uebersetzung": {
+        "fa": "این دانش پسینی است.",
+        "en": "This knowledge is a posteriori."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Kant nennt ein Urteil aposteriorisch, wenn es sich auf Erfahrung stützt.",
+      "uebersetzung": {
+        "fa": "کانت حکمی را پسینی می‌نامد که بر تجربه تکیه دارد.",
+        "en": "Kant calls a judgement a posteriori if it is based on experience."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "empirisch",
+      "uebersetzung": {
+        "fa": "تجربی",
+        "en": "empirical"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "apriorisch",
+      "uebersetzung": {
+        "fa": "پیشینی",
+        "en": "a priori"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "a posteriori (از پسین، از روی تجربه) + -isch (پسوند صفت‌ساز)",
+    "en": "a posteriori (from what comes after, from experience) + -isch (adjective suffix)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "aposteriorisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine aposteriorische Erkenntnis",
+      "das aposteriorische Urteil"
+    ],
+    "gegensatzpaar": "aposteriorisch ↔ apriorisch"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Erfahrung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تجربه",
+          "en": "experience"
+        },
+        "id_ref": "nomen_erfahrung"
+      },
+      {
+        "wort": "das Wissen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دانش",
+          "en": "knowledge"
+        },
+        "id_ref": "nomen_wissen"
+      },
+      {
+        "wort": "empirisch",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تجربی",
+          "en": "empirical"
+        },
+        "id_ref": "adjektiv_empirisch"
+      },
+      {
+        "wort": "die Erkenntnis",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شناخت",
+          "en": "insight, cognition"
+        },
+        "id_ref": "nomen_erkenntnis"
+      },
+      {
+        "wort": "apriorisch",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "پیشینی",
+          "en": "a priori"
+        },
+        "id_ref": "adjektiv_apriorisch"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
