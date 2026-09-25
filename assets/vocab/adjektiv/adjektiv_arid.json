@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_arid",
+  "wort": "arid",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "خشک، کم‌باران (اقلیم)"
+    ],
+    "en": [
+      "arid",
+      "dry"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Natur",
+    "Geografie",
+    "Klima"
+  ],
+  "ipa": "aˈriːt",
+  "anmerkung": "Fachsprache (Geografie, Klimakunde). Nicht steigerbar.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Klima ist arid.",
+      "uebersetzung": {
+        "fa": "آب‌وهوا خشک است.",
+        "en": "The climate is arid."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In ariden Gebieten fällt so wenig Regen, dass kaum Pflanzen wachsen können.",
+      "uebersetzung": {
+        "fa": "در مناطق خشک آن‌قدر باران کم می‌بارد که گیاهان به‌سختی می‌توانند رشد کنند.",
+        "en": "In arid regions so little rain falls that hardly any plants can grow."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "trocken",
+      "uebersetzung": {
+        "fa": "خشک",
+        "en": "dry"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "humid",
+      "uebersetzung": {
+        "fa": "مرطوب",
+        "en": "humid"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. aridus (خشک)",
+    "en": "Latin aridus (dry)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "arid",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein arides Gebiet",
+      "das aride Klima"
+    ],
+    "gegensatzpaar": "arid ↔ humid"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Regen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باران",
+          "en": "rain"
+        },
+        "id_ref": "nomen_regen"
+      },
+      {
+        "wort": "trocken",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خشک",
+          "en": "dry"
+        },
+        "id_ref": "adjektiv_trocken"
+      },
+      {
+        "wort": "die Wüste",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیابان",
+          "en": "desert"
+        },
+        "id_ref": "nomen_wueste"
+      },
+      {
+        "wort": "das Klima",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اقلیم، آب‌وهوا",
+          "en": "climate"
+        },
+        "id_ref": "nomen_klima"
+      },
+      {
+        "wort": "die Dürre",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خشکسالی",
+          "en": "drought"
+        },
+        "id_ref": "nomen_duerre"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
