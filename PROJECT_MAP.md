@@ -19,6 +19,7 @@
 #   · workbox_config.cjs PFLICHT += telegram_guard.js · offline_test.cjs مرحله‌ی ۵ (آدرس‌های شروع). Dart دست نخورد.
 # دور ۶۵ (2026-09-24): فقط PLAN — بخش تازه‌ی «🌍 فاز Z» (آخرین مرحله‌ی کل پروژه، بعد از کامل شدن همه و تست‌های سبز):
 #   Z.1 ربات تلگرام واقعی (نه Mini App) ⇒ Z.2 تبلیغات گوگل (AdSense) ⇒ Z.3 اندروید/آیفون. هیچ فایل کدی عوض نشد.
+# دور ۸۴ (2026-09-25): فقط PLAN — تصمیم‌های Lukas در «🧪 فاز T» + فهرست شبیه‌سازها (ÖSD اول، آزمون خود VOX آخر). کدی عوض نشد.
 # دور ۸۳ (2026-09-25): فقط PLAN — «🧪 فاز T» پیش‌نویس (T.0–T.11؛ آزمون‌ها، شبیه‌سازها، نتیجه در Lernpfad = leitfaden_screen.dart که امروز داده‌ی واقعی ندارد). G7e ⇒ T.1. کدی عوض نشد.
 # دور ۷۸–۸۲ (2026-09-25): ۵۰ کلمه ⇒ assets/vocab/adjektiv (antiamerikanisch … apologetisch) ⇒ آرشیو ۴۸۶ · کلمه‌ی تازه‌ای کنار گذاشته نشد (antichretisch از قبل). کد اپ دست نخورد.
 # دور ۷۳–۷۷ (2026-09-25): ۵۰ کلمه ⇒ assets/vocab/adjektiv (angelsächsisch … anthropozentrisch) ⇒ آرشیو ۴۳۶ · zurueckgestellt += anotherm، antichretisch. کد اپ دست نخورد.
