@@ -57,6 +57,7 @@ const zurueckgestellt = <String>{
   'anelliert', // keine gesicherte Bedeutung/Form gefunden 2026-09-25
   'anotherm', // Bedeutung/Fachgebiet unsicher 2026-09-25
   'antichretisch', // Fachwort (Antichrese?), Bedeutung unsicher 2026-09-25
+  'appendikuliert', // Bedeutung/Fachgebiet unsicher (Biologie?) 2026-09-25
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
