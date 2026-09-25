@@ -55,6 +55,8 @@ const zurueckgestellt = <String>{
   'amphibolisch', // Bedeutung unsicher (Logik «mehrdeutig» oder Mineral «Amphibol»?) 2026-09-25
   'anamorph', // Bedeutung fachabhängig unsicher (Optik/Biologie/Mykologie) 2026-09-25
   'anelliert', // keine gesicherte Bedeutung/Form gefunden 2026-09-25
+  'anotherm', // Bedeutung/Fachgebiet unsicher 2026-09-25
+  'antichretisch', // Fachwort (Antichrese?), Bedeutung unsicher 2026-09-25
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

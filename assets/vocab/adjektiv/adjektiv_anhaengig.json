@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_anhaengig",
+  "wort": "anhängig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "در جریان رسیدگی (در دادگاه)"
+    ],
+    "en": [
+      "pending (before a court)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht"
+  ],
+  "ipa": "ˈanhɛŋɪç",
+  "anmerkung": "Rechtssprache: Ein Verfahren ist (bei Gericht) anhängig = es läuft noch.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Verfahren ist noch anhängig.",
+      "uebersetzung": {
+        "fa": "این پرونده هنوز در جریان رسیدگی است.",
+        "en": "The proceedings are still pending."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Solange die Klage anhängig ist, darf die Firma das Grundstück nicht verkaufen.",
+      "uebersetzung": {
+        "fa": "تا وقتی دعوا در جریان رسیدگی است، شرکت اجازه ندارد زمین را بفروشد.",
+        "en": "As long as the lawsuit is pending, the company may not sell the property."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "anhängen (آویختن، ضمیمه کردن) + -ig (پسوند صفت‌ساز)",
+    "en": "anhängen (to attach) + -ig (adjective suffix)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "anhängig",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "anhängig bei + Dat",
+        "beispiel": "Der Fall ist beim Bundesgericht anhängig.",
+        "uebersetzung": {
+          "fa": "این پرونده در دادگاه فدرال در جریان است.",
+          "en": "The case is pending before the Federal Court."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein anhängiges Verfahren",
+      "die anhängige Klage"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Gericht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دادگاه",
+          "en": "court"
+        },
+        "id_ref": "nomen_gericht"
+      },
+      {
+        "wort": "der Prozess",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دادرسی",
+          "en": "trial"
+        },
+        "id_ref": "nomen_prozess"
+      },
+      {
+        "wort": "die Klage",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دادخواست",
+          "en": "lawsuit"
+        },
+        "id_ref": "nomen_klage"
+      },
+      {
+        "wort": "das Verfahren",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "روند، دادرسی",
+          "en": "proceedings"
+        },
+        "id_ref": "nomen_verfahren"
+      },
+      {
+        "wort": "das Urteil",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حکم",
+          "en": "judgement"
+        },
+        "id_ref": "nomen_urteil"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

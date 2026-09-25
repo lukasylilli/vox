@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_animalisch",
+  "wort": "animalisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "حیوانی",
+      "غریزی"
+    ],
+    "en": [
+      "animal",
+      "animalistic",
+      "bestial"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Gefühle"
+  ],
+  "ipa": "aniˈmaːlɪʃ",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das ist ein animalischer Instinkt.",
+      "uebersetzung": {
+        "fa": "این یک غریزه‌ی حیوانی است.",
+        "en": "That is an animal instinct."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In Gefahr reagiert der Mensch oft ganz animalisch, bevor er überhaupt nachdenken kann.",
+      "uebersetzung": {
+        "fa": "انسان در خطر اغلب کاملاً غریزی واکنش نشان می‌دهد، پیش از آنکه اصلاً بتواند فکر کند.",
+        "en": "In danger, people often react quite instinctively before they can even think."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "tierisch",
+      "uebersetzung": {
+        "fa": "حیوانی",
+        "en": "animal"
+      }
+    },
+    {
+      "wort": "triebhaft",
+      "uebersetzung": {
+        "fa": "غریزی، شهوانی",
+        "en": "instinctual"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. animal (جانور) + -isch (پسوند صفت‌ساز)",
+    "en": "Latin animal (animal) + -isch (adjective suffix)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "animalisch",
+      "komparativ": "animalischer",
+      "superlativ": "am animalischsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein animalischer Trieb",
+      "die animalische Kraft"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "das Tier",
+    "woerter": [
+      {
+        "wort": "das Tier",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حیوان",
+          "en": "animal"
+        },
+        "id_ref": "nomen_tier"
+      },
+      {
+        "wort": "wild",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "وحشی",
+          "en": "wild"
+        },
+        "id_ref": "adjektiv_wild"
+      },
+      {
+        "wort": "tierisch",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حیوانی",
+          "en": "animal"
+        },
+        "id_ref": "adjektiv_tierisch"
+      },
+      {
+        "wort": "der Instinkt",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "غریزه",
+          "en": "instinct"
+        },
+        "id_ref": "nomen_instinkt"
+      },
+      {
+        "wort": "der Trieb",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "غریزه، میل",
+          "en": "drive, urge"
+        },
+        "id_ref": "nomen_trieb"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
