@@ -1,0 +1,128 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_artgerecht",
+  "wort": "artgerecht",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "مناسب با نیاز طبیعی حیوان",
+      "متناسب با گونه"
+    ],
+    "en": [
+      "species-appropriate",
+      "appropriate to the animal's needs"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Tiere",
+    "Umwelt"
+  ],
+  "ipa": "ˈaːɐ̯tɡəˌʁɛçt",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kühe leben artgerecht.",
+      "uebersetzung": {
+        "fa": "این گاوها مناسب با نیاز طبیعی‌شان زندگی می‌کنند.",
+        "en": "The cows live in a species-appropriate way."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Viele Kunden kaufen lieber teureres Fleisch, wenn die Tiere artgerecht gehalten wurden.",
+      "uebersetzung": {
+        "fa": "خیلی از مشتری‌ها ترجیح می‌دهند گوشت گران‌تر بخرند، اگر حیوان‌ها مناسب با نیاز طبیعی‌شان نگهداری شده باشند.",
+        "en": "Many customers prefer to buy more expensive meat if the animals were kept in a species-appropriate way."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "tiergerecht",
+      "uebersetzung": {
+        "fa": "مناسب حیوان",
+        "en": "animal-friendly"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "die Art (گونه) + gerecht (متناسب)",
+    "en": "die Art (species) + gerecht (appropriate)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "artgerecht",
+      "komparativ": "artgerechter",
+      "superlativ": "am artgerechtesten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine artgerechte Haltung",
+      "der artgerechte Stall"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Tier",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حیوان",
+          "en": "animal"
+        },
+        "id_ref": "nomen_tier"
+      },
+      {
+        "wort": "gerecht",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عادلانه، متناسب",
+          "en": "fair, appropriate"
+        },
+        "id_ref": "adjektiv_gerecht"
+      },
+      {
+        "wort": "die Haltung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نگهداری (حیوان)",
+          "en": "keeping (of animals)"
+        },
+        "id_ref": "nomen_haltung"
+      },
+      {
+        "wort": "der Tierschutz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حمایت از حیوانات",
+          "en": "animal protection"
+        },
+        "id_ref": "nomen_tierschutz"
+      },
+      {
+        "wort": "die Massentierhaltung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دامداری صنعتی",
+          "en": "factory farming"
+        },
+        "id_ref": "nomen_massentierhaltung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

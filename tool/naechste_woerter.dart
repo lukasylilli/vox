@@ -59,6 +59,8 @@ const zurueckgestellt = <String>{
   'antichretisch', // Fachwort (Antichrese?), Bedeutung unsicher 2026-09-25
   'appendikuliert', // Bedeutung/Fachgebiet unsicher (Biologie?) 2026-09-25
   'aretologisch', // Bedeutung unsicher (Tugendlehre oder Wundererzählung?) 2026-09-25
+  'arschig', // derb; Bedeutung/Gebrauch als Adjektiv nicht gesichert 2026-09-25
+  'arschlos', // keine gesicherte Bedeutung/Form bekannt 2026-09-25
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
