@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_attributiv",
+  "wort": "attributiv",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "وصفی (در دستور زبان)"
+    ],
+    "en": [
+      "attributive"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Grammatik",
+    "Sprache"
+  ],
+  "ipa": "atʁibuˈtiːf",
+  "anmerkung": "Grammatik: als Beifügung vor einem Nomen gebraucht, z. B. «das schöne Haus».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Hier steht das Adjektiv attributiv.",
+      "uebersetzung": {
+        "fa": "این‌جا صفت به‌صورت وصفی آمده است.",
+        "en": "Here the adjective is used attributively."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In «der schnelle Zug» wird das Adjektiv attributiv gebraucht, in «der Zug ist schnell» dagegen prädikativ.",
+      "uebersetzung": {
+        "fa": "در «قطار سریع» صفت به‌صورت وصفی به کار رفته، ولی در «قطار سریع است» به‌صورت گزاره‌ای.",
+        "en": "In 'the fast train' the adjective is used attributively, whereas in 'the train is fast' it is used predicatively."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "prädikativ",
+      "uebersetzung": {
+        "fa": "گزاره‌ای",
+        "en": "predicative"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "das Attribut (وابسته‌ی وصفی) + -iv (پسوند صفت)",
+    "en": "das Attribut (attribute) + -iv (adjective suffix)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "attributiv",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein attributives Adjektiv",
+      "die attributive Stellung"
+    ],
+    "gegensatzpaar": "attributiv ↔ prädikativ"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Adjektiv",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صفت",
+          "en": "adjective"
+        },
+        "id_ref": "nomen_adjektiv"
+      },
+      {
+        "wort": "die Grammatik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دستور زبان",
+          "en": "grammar"
+        },
+        "id_ref": "nomen_grammatik"
+      },
+      {
+        "wort": "das Nomen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اسم",
+          "en": "noun"
+        },
+        "id_ref": "nomen_nomen"
+      },
+      {
+        "wort": "das Attribut",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "وابسته‌ی وصفی",
+          "en": "attribute"
+        },
+        "id_ref": "nomen_attribut"
+      },
+      {
+        "wort": "prädikativ",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "گزاره‌ای",
+          "en": "predicative"
+        },
+        "id_ref": "adjektiv_praedikativ"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
