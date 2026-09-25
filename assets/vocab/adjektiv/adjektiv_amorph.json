@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_amorph",
+  "wort": "amorph",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "بی‌شکل",
+      "بی‌ساختار (غیربلوری)"
+    ],
+    "en": [
+      "amorphous",
+      "shapeless"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wissenschaft"
+  ],
+  "ipa": "aˈmɔʁf",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Glas ist amorph.",
+      "uebersetzung": {
+        "fa": "شیشه بی‌شکل (غیربلوری) است.",
+        "en": "Glass is amorphous."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Gegensatz zu Kristallen haben amorphe Stoffe keine regelmäßige innere Struktur.",
+      "uebersetzung": {
+        "fa": "برخلاف بلورها، مواد بی‌شکل ساختار درونی منظمی ندارند.",
+        "en": "Unlike crystals, amorphous substances have no regular internal structure."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "formlos",
+      "uebersetzung": {
+        "fa": "بی‌شکل",
+        "en": "formless"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "kristallin",
+      "uebersetzung": {
+        "fa": "بلورین",
+        "en": "crystalline"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "a- (بی‌) + -morph (شکل، از یونانی)",
+    "en": "a- (without) + -morph (shape, from Greek)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "amorph",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein amorpher Stoff",
+      "die amorphe Masse"
+    ],
+    "gegensatzpaar": "amorph ↔ kristallin"
+  },
+  "wortnetz": {
+    "grundwort": "die Form",
+    "woerter": [
+      {
+        "wort": "das Glas",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شیشه",
+          "en": "glass"
+        },
+        "id_ref": "nomen_glas"
+      },
+      {
+        "wort": "die Form",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شکل",
+          "en": "shape"
+        },
+        "id_ref": "nomen_form"
+      },
+      {
+        "wort": "die Struktur",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ساختار",
+          "en": "structure"
+        },
+        "id_ref": "nomen_struktur"
+      },
+      {
+        "wort": "formlos",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بی‌شکل",
+          "en": "formless"
+        },
+        "id_ref": "adjektiv_formlos"
+      },
+      {
+        "wort": "der Kristall",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بلور",
+          "en": "crystal"
+        },
+        "id_ref": "nomen_kristall"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
