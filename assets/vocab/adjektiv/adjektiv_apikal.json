@@ -1,0 +1,128 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_apikal",
+  "wort": "apikal",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "رأسی، مربوط به نوک",
+      "(آواشناسی) نوک‌زبانی"
+    ],
+    "en": [
+      "apical"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Biologie",
+    "Sprache"
+  ],
+  "ipa": "apiˈkaːl",
+  "anmerkung": "Fachsprachlich: an der Spitze gelegen (Anatomie, Botanik); Phonetik: mit der Zungenspitze gebildet. Nicht steigerbar.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Laut ist apikal.",
+      "uebersetzung": {
+        "fa": "این صدا نوک‌زبانی است.",
+        "en": "The sound is apical."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Auf dem Röntgenbild erkannte die Zahnärztin eine apikale Entzündung an der Wurzelspitze des Zahns.",
+      "uebersetzung": {
+        "fa": "دندان‌پزشک روی عکس رادیولوژی یک التهاب رأسی در نوک ریشه‌ی دندان دید.",
+        "en": "On the X-ray the dentist saw an apical inflammation at the tip of the tooth root."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "basal",
+      "uebersetzung": {
+        "fa": "پایه‌ای، قاعده‌ای",
+        "en": "basal"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Apex (نوک، رأس) + -al (پسوند صفت‌ساز)",
+    "en": "Apex (tip) + -al (adjective suffix)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "apikal",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein apikaler Laut",
+      "die apikale Entzündung"
+    ],
+    "gegensatzpaar": "apikal ↔ basal"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Zahn",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دندان",
+          "en": "tooth"
+        },
+        "id_ref": "nomen_zahn"
+      },
+      {
+        "wort": "die Zunge",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زبان (عضو)",
+          "en": "tongue"
+        },
+        "id_ref": "nomen_zunge"
+      },
+      {
+        "wort": "die Spitze",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نوک",
+          "en": "tip"
+        },
+        "id_ref": "nomen_spitze"
+      },
+      {
+        "wort": "die Wurzel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ریشه",
+          "en": "root"
+        },
+        "id_ref": "nomen_wurzel"
+      },
+      {
+        "wort": "basal",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "پایه‌ای",
+          "en": "basal"
+        },
+        "id_ref": "adjektiv_basal"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
