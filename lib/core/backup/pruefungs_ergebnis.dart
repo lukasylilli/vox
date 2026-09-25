@@ -22,6 +22,16 @@
 //    übergangen — eine Sicherung darf daran nie scheitern.
 //  · Richtige Antworten werden hier NIE gespeichert (Entscheidung Lukas: im
 //    Prüfungsmodus sieht man sie nie).
+//
+// WIE EINE ECHTE PRÜFUNG (Entscheidung Lukas 2026-09-25, دور ۸۷):
+//  · **Zeit:** Jede Prüfung hat ein Zeitlimit ([zeitLimitSekunden]). Läuft es
+//    ab, endet die Prüfung sofort — Unbeantwortetes zählt 0 Punkte;
+//    [zeitAbgelaufen] hält fest, dass es so endete.
+//  · **Teile getrennt:** Die Punkte jeder Fertigkeit stehen einzeln in
+//    [teile] und werden einzeln angezeigt ([teilReihenfolge]).
+//  · **Nur als Ganzes:** Eine Prüfung wird immer vollständig abgelegt — nie
+//    nur ein Teil (etwa nur Hören). Ein Simulator-Ergebnis enthält deshalb
+//    immer ALLE Teile seiner Prüfung ([vollstaendig]).
 import 'dart:math' show Random;
 
 /// Bekannte Testarten. Neue Simulatoren fügen hier ihre Kennung hinzu —
@@ -36,6 +46,18 @@ const String teilSchreiben = 'schreiben';
 const String teilSprechen = 'sprechen';
 const String teilGrammatik = 'grammatik';
 const String teilWortschatz = 'wortschatz';
+
+/// Anzeige-Reihenfolge der Teile — wie auf echten Zeugnissen (Lesen, Hören,
+/// Schreiben, Sprechen), danach die übrigen. Unbekannte Teile (Modulnamen
+/// eines Instituts) folgen alphabetisch.
+const List<String> teilReihenfolge = [
+  teilLesen,
+  teilHoeren,
+  teilSchreiben,
+  teilSprechen,
+  teilGrammatik,
+  teilWortschatz,
+];
 
 /// Punkte eines Teils. `num`, weil manche Institute halbe Punkte vergeben.
 class PruefungsTeil {
@@ -76,6 +98,14 @@ class PruefungsErgebnis {
   /// Dauer in Sekunden, falls gemessen.
   final int? dauerSekunden;
 
+  /// Zeitlimit der Prüfung in Sekunden (`null` = ohne Limit, z. B. der
+  /// Grammatik-Niveau-Test).
+  final int? zeitLimitSekunden;
+
+  /// `true` = die Zeit lief ab und beendete die Prüfung (nicht alles war
+  /// beantwortet). Nur gespeichert, wenn `true`.
+  final bool zeitAbgelaufen;
+
   final num punkte;
   final num maxPunkte;
 
@@ -92,6 +122,8 @@ class PruefungsErgebnis {
     this.fassung = 1,
     required this.am,
     this.dauerSekunden,
+    this.zeitLimitSekunden,
+    this.zeitAbgelaufen = false,
     required this.punkte,
     required this.maxPunkte,
     this.bestanden,
@@ -100,6 +132,25 @@ class PruefungsErgebnis {
 
   /// Anteil 0…1.
   double get anteil => maxPunkte <= 0 ? 0 : (punkte / maxPunkte).toDouble();
+
+  /// Teile in Anzeige-Reihenfolge ([teilReihenfolge], dann alphabetisch).
+  List<MapEntry<String, PruefungsTeil>> get teileGeordnet {
+    int rang(String k) {
+      final i = teilReihenfolge.indexOf(k);
+      return i < 0 ? teilReihenfolge.length : i;
+    }
+
+    return teile.entries.toList()
+      ..sort((a, b) {
+        final r = rang(a.key).compareTo(rang(b.key));
+        return r != 0 ? r : a.key.compareTo(b.key);
+      });
+  }
+
+  /// Enthält das Ergebnis jeden der [erwartet]en Teile? Ein Simulator prüft
+  /// damit vor dem Speichern, dass die Prüfung als Ganzes abgelegt wurde.
+  bool vollstaendig(Iterable<String> erwartet) =>
+      erwartet.every(teile.containsKey);
 
   /// Schlüssel geordnet, optionale Felder nur wenn gesetzt — derselbe Inhalt
   /// ergibt immer denselben Text (der Konto-Abgleich vergleicht Text).
@@ -112,6 +163,8 @@ class PruefungsErgebnis {
       'fassung': fassung,
       'am': am.toUtc().toIso8601String(),
       if (dauerSekunden != null) 'dauer': dauerSekunden,
+      if (zeitLimitSekunden != null) 'limit': zeitLimitSekunden,
+      if (zeitAbgelaufen) 'zeitAbgelaufen': true,
       'punkte': punkte,
       'max': maxPunkte,
       if (bestanden != null) 'bestanden': bestanden,
@@ -137,6 +190,7 @@ class PruefungsErgebnis {
     final niveau = j['niveau'];
     final fassung = j['fassung'];
     final dauer = j['dauer'];
+    final limit = j['limit'];
     final bestanden = j['bestanden'];
     final teileRoh = j['teile'];
     final teile = <String, PruefungsTeil>{};
@@ -153,6 +207,8 @@ class PruefungsErgebnis {
       fassung: fassung is num && fassung >= 1 ? fassung.toInt() : 1,
       am: am.toUtc(),
       dauerSekunden: dauer is num && dauer >= 0 ? dauer.toInt() : null,
+      zeitLimitSekunden: limit is num && limit > 0 ? limit.toInt() : null,
+      zeitAbgelaufen: j['zeitAbgelaufen'] == true,
       punkte: punkte,
       maxPunkte: max,
       bestanden: bestanden is bool ? bestanden : null,

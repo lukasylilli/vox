@@ -70,6 +70,50 @@ void main() {
       expect(PruefungsErgebnis.vonJson(j)!.teile.keys, ['lesen']);
     });
 
+    test('Zeitlimit und „Zeit abgelaufen" reisen mit', () {
+      final e = PruefungsErgebnis(
+        id: 'pr:#zeit',
+        art: 'sim_oesd_a1',
+        niveau: 'A1',
+        am: DateTime.utc(2026, 9, 25),
+        dauerSekunden: 3600,
+        zeitLimitSekunden: 3600,
+        zeitAbgelaufen: true,
+        punkte: 20,
+        maxPunkte: 60,
+      );
+      final z = PruefungsErgebnis.vonJson(jsonDecode(jsonEncode(e.toJson())))!;
+      expect(z.zeitLimitSekunden, 3600);
+      expect(z.zeitAbgelaufen, isTrue);
+      // Ohne Ablauf und ohne Limit: keine Felder (Text bleibt schlank).
+      expect(erg('pr:#1').toJson().containsKey('zeitAbgelaufen'), isFalse);
+      expect(erg('pr:#1').toJson().containsKey('limit'), isFalse);
+    });
+
+    test('Teile: echte Zeugnis-Reihenfolge, dann Unbekanntes alphabetisch', () {
+      final e = PruefungsErgebnis(
+        id: 'pr:#t',
+        art: 'sim',
+        am: DateTime.utc(2026),
+        punkte: 4,
+        maxPunkte: 8,
+        teile: const {
+          'zmodul': PruefungsTeil(punkte: 1, maxPunkte: 2),
+          teilSprechen: PruefungsTeil(punkte: 1, maxPunkte: 2),
+          teilLesen: PruefungsTeil(punkte: 1, maxPunkte: 2),
+          teilHoeren: PruefungsTeil(punkte: 1, maxPunkte: 2),
+        },
+      );
+      expect(e.teileGeordnet.map((x) => x.key),
+          [teilLesen, teilHoeren, teilSprechen, 'zmodul']);
+    });
+
+    test('vollständig: nur als Ganzes abgelegt', () {
+      final e = erg('pr:#v');
+      expect(e.vollstaendig([teilGrammatik]), isTrue);
+      expect(e.vollstaendig([teilLesen, teilHoeren]), isFalse);
+    });
+
     test('id: pr:# + 32 Hex, geräteunabhängig zufällig', () {
       final a = neuePruefungsId(Random(1));
       expect(a, matches(RegExp(r'^pr:#[0-9a-f]{32}$')));
