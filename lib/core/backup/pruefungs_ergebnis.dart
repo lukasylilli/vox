@@ -32,6 +32,9 @@
 //  · **Nur als Ganzes:** Eine Prüfung wird immer vollständig abgelegt — nie
 //    nur ein Teil (etwa nur Hören). Ein Simulator-Ergebnis enthält deshalb
 //    immer ALLE Teile seiner Prüfung ([vollstaendig]).
+//  · Das gilt für den **Prüfungsmodus**. Im **Übungsmodus** (Antwort sofort
+//    sichtbar) darf man einen einzelnen Teil üben, z. B. nur Hören
+//    (Lukas, دور ۸۸).
 import 'dart:math' show Random;
 
 /// Bekannte Testarten. Neue Simulatoren fügen hier ihre Kennung hinzu —
