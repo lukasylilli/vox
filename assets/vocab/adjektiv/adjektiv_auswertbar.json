@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_auswertbar",
+  "wort": "auswertbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "قابل ارزیابی",
+      "قابل تحلیل"
+    ],
+    "en": [
+      "evaluable",
+      "analysable"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft",
+    "Technik"
+  ],
+  "ipa": "ˈaʊ̯sˌveːɐ̯tbaːɐ̯",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Daten sind nicht auswertbar.",
+      "uebersetzung": {
+        "fa": "داده‌ها قابل تحلیل نیستند.",
+        "en": "The data cannot be evaluated."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nur ein Teil der Fragebögen war auswertbar, weil viele Teilnehmer die Fragen nicht beantwortet hatten.",
+      "uebersetzung": {
+        "fa": "فقط بخشی از پرسشنامه‌ها قابل ارزیابی بود، چون بسیاری از شرکت‌کنندگان به سؤال‌ها جواب نداده بودند.",
+        "en": "Only some of the questionnaires could be evaluated because many participants had not answered the questions."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "analysierbar",
+      "uebersetzung": {
+        "fa": "قابل تحلیل",
+        "en": "analysable"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "unbrauchbar",
+      "uebersetzung": {
+        "fa": "غیرقابل استفاده",
+        "en": "unusable"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auswerten (ارزیابی کردن) + -bar (پذیر)",
+    "en": "auswerten (to evaluate) + -bar (-able)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "auswertbar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein auswertbares Ergebnis",
+      "die auswertbaren Daten"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "auswerten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ارزیابی کردن، تحلیل کردن",
+          "en": "to evaluate"
+        },
+        "id_ref": "verb_auswerten"
+      },
+      {
+        "wort": "die Auswertung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ارزیابی، تحلیل",
+          "en": "evaluation"
+        },
+        "id_ref": "nomen_auswertung"
+      },
+      {
+        "wort": "der Wert",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ارزش",
+          "en": "value"
+        },
+        "id_ref": "nomen_wert"
+      },
+      {
+        "wort": "die Daten",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "داده‌ها",
+          "en": "data"
+        },
+        "id_ref": "nomen_daten"
+      },
+      {
+        "wort": "messbar",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "قابل اندازه‌گیری",
+          "en": "measurable"
+        },
+        "id_ref": "adjektiv_messbar"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
