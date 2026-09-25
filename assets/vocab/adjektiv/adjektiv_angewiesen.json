@@ -1,0 +1,142 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_angewiesen",
+  "wort": "angewiesen",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "وابسته",
+      "نیازمند"
+    ],
+    "en": [
+      "dependent",
+      "reliant"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Gesellschaft"
+  ],
+  "ipa": "ˈanɡəviːzn̩",
+  "anmerkung": "Nur prädikativ, immer mit «auf + Akk».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich bin auf das Auto angewiesen.",
+      "uebersetzung": {
+        "fa": "من به ماشین وابسته‌ام.",
+        "en": "I depend on the car."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Viele ältere Menschen sind auf Hilfe angewiesen, weil sie ihren Alltag nicht mehr allein schaffen.",
+      "uebersetzung": {
+        "fa": "بسیاری از سالمندان به کمک نیاز دارند، چون دیگر کارهای روزمره‌شان را به‌تنهایی نمی‌توانند انجام دهند.",
+        "en": "Many elderly people depend on help because they can no longer manage their everyday lives alone."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abhängig",
+      "uebersetzung": {
+        "fa": "وابسته",
+        "en": "dependent"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "unabhängig",
+      "uebersetzung": {
+        "fa": "مستقل",
+        "en": "independent"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "anweisen (دستور دادن، حواله کردن) ⇒ Partizip II: angewiesen",
+    "en": "anweisen (to instruct, to assign) ⇒ past participle: angewiesen"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "angewiesen",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "praedikativ",
+    "mit_praeposition": [
+      {
+        "muster": "angewiesen auf + Akk",
+        "beispiel": "Als Student war er auf das Geld seiner Eltern angewiesen.",
+        "uebersetzung": {
+          "fa": "در دوران دانشجویی به پول پدر و مادرش وابسته بود.",
+          "en": "As a student he was dependent on his parents' money."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [],
+    "gegensatzpaar": "angewiesen ↔ unabhängig"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "brauchen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نیاز داشتن",
+          "en": "to need"
+        },
+        "id_ref": "verb_brauchen"
+      },
+      {
+        "wort": "die Hilfe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کمک",
+          "en": "help"
+        },
+        "id_ref": "nomen_hilfe"
+      },
+      {
+        "wort": "abhängig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وابسته",
+          "en": "dependent"
+        },
+        "id_ref": "adjektiv_abhaengig"
+      },
+      {
+        "wort": "unabhängig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مستقل",
+          "en": "independent"
+        },
+        "id_ref": "adjektiv_unabhaengig"
+      },
+      {
+        "wort": "die Unterstützung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حمایت",
+          "en": "support"
+        },
+        "id_ref": "nomen_unterstuetzung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
