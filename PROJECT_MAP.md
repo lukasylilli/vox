@@ -19,6 +19,7 @@
 #   · workbox_config.cjs PFLICHT += telegram_guard.js · offline_test.cjs مرحله‌ی ۵ (آدرس‌های شروع). Dart دست نخورد.
 # دور ۶۵ (2026-09-24): فقط PLAN — بخش تازه‌ی «🌍 فاز Z» (آخرین مرحله‌ی کل پروژه، بعد از کامل شدن همه و تست‌های سبز):
 #   Z.1 ربات تلگرام واقعی (نه Mini App) ⇒ Z.2 تبلیغات گوگل (AdSense) ⇒ Z.3 اندروید/آیفون. هیچ فایل کدی عوض نشد.
+# دور ۸۹–۹۳ (2026-09-25): ۵۰ کلمه ⇒ assets/vocab/adjektiv (apophatisch … arriviert) ⇒ آرشیو ۵۳۶ · zurueckgestellt += appendikuliert، aretologisch. کد اپ دست نخورد.
 # دور ۸۸ (2026-09-25): تصمیم Lukas — تمرین تک‌بخشی مجاز، آزمون فقط کامل (PLAN + توضیح pruefungs_ergebnis.dart). منطق کد تغییر نکرد.
 # دور ۸۷ (2026-09-25): قواعد آزمون واقعی (Lukas) — PLAN + `pruefungs_ergebnis.dart`: `zeitLimitSekunden`/`zeitAbgelaufen` (JSON `limit`/`zeitAbgelaufen`، فقط اگر لازم)، `teilReihenfolge`/`teileGeordnet`، `vollstaendig()`. قرارداد همچنان Fassung 5 (فیلدهای اختیاری). ۳۳۷ تست.
 # دور ۸۶ (2026-09-25): **T.1** — ذخیره‌ی عمومی نتیجه‌ی آزمون (pruefungs_ergebnis.dart، Fassung 5، vox_pruefungen_v1، pruefungsErgebnisseProvider)؛ Grammatik-Niveautest ذخیره می‌کند. ۳۳۴ تست.
@@ -128,7 +129,7 @@
   · کد: هر کارت ⇒ صفحه‌ی خودش (`/vokabular/wort/:id`) + ردیف خودش در «Alle Wörter»؛ صفحه‌ی قدیمی همان کلمه کارت را فقط **اضافه** نشان می‌دهد (`features/wortschatz/data/altwort_karte.dart`). نگهبان: `test/altwort_karte_test.dart` («Grundregel»).
 - **🔁 تکراری‌ها (L.4d):** فقط **در آخرین مرحله** (هر چهار فهرست صفر تا صد وارد شد) Claude همه‌ی کلمه‌های اضافی/دوبرابر را پیدا می‌کند و در PLAN.md → «🔁 مرحله‌ی آخر (۲)» ثبت می‌کند؛ **Lukas تصمیم می‌گیرد**. وسط روال بررسی لازم نیست.
 - **⚡ سرعت:** `bash tool/wort_runde.sh /tmp/batch.json` = مراحل ۵–۷ (dry-run ⇒ import ⇒ index ⇒ ✓ ⇒ analyze ⇒ test ⇒ ۱۰ کلمه‌ی بعدی) در یک اجرا؛ اولین مشکل ⇒ توقف.
-- **پیشرفت (2026-09-25 دور ۸۲):** آخرین کلمه‌ی ساخته‌شده **apologetisch** · بعدی **apophatisch** · کنار گذاشته: abatisch، abdikativ، afrikaans، aldente، aleppinisch، allenfallsig، altaltbacken، Altdorfer، altkrank، amaranten، ambient، amethysten، amphibolisch، anamorph، anelliert، anotherm، antichretisch (فهرست کامل: PLAN.md → «🏁 مرحله‌ی آخر») · آرشیو: ۴۸۶ کارت.
+- **پیشرفت (2026-09-25 دور ۹۳):** آخرین کلمه‌ی ساخته‌شده **arriviert** · بعدی **arrogant** · کنار گذاشته: abatisch، abdikativ، afrikaans، aldente، aleppinisch، allenfallsig، altaltbacken، Altdorfer، altkrank، amaranten، ambient، amethysten، amphibolisch، anamorph، anelliert، anotherm، antichretisch، appendikuliert، aretologisch (فهرست کامل: PLAN.md → «🏁 مرحله‌ی آخر») · آرشیو: ۵۳۶ کارت.
 
 ## TECH STACK
 - Flutter Web — reine Web-App, gehostet auf GitHub Pages (seit 2026-09-13)

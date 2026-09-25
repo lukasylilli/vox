@@ -1,0 +1,165 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_arm",
+  "wort": "arm",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "فقیر، تهی‌دست",
+      "بیچاره، بی‌نوا"
+    ],
+    "en": [
+      "poor",
+      "wretched, pitiable"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Geld",
+    "Gesellschaft",
+    "Gefühle"
+  ],
+  "ipa": "arm",
+  "anmerkung": "Steigerung mit Umlaut: ärmer, am ärmsten. Als Wortteil bedeutet -arm ‚wenig enthaltend‘ (fettarm, salzarm). Wendung: arm dran sein (in einer schlechten Lage sein).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Familie ist sehr arm.",
+      "uebersetzung": {
+        "fa": "این خانواده خیلی فقیر است.",
+        "en": "The family is very poor."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Obwohl sie als Kind arm war, hat sie später eine eigene Firma gegründet.",
+      "uebersetzung": {
+        "fa": "با اینکه در کودکی فقیر بود، بعدها شرکت خودش را تأسیس کرد.",
+        "en": "Although she was poor as a child, she later founded her own company."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bedürftig",
+      "uebersetzung": {
+        "fa": "نیازمند",
+        "en": "needy"
+      }
+    },
+    {
+      "wort": "mittellos",
+      "uebersetzung": {
+        "fa": "بی‌پول",
+        "en": "penniless"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "reich",
+      "uebersetzung": {
+        "fa": "ثروتمند",
+        "en": "rich"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "fettarm",
+      "uebersetzung": {
+        "fa": "کم‌چرب",
+        "en": "low-fat"
+      }
+    },
+    {
+      "wort": "bettelarm",
+      "uebersetzung": {
+        "fa": "بسیار فقیر",
+        "en": "dirt-poor"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "steigerung": {
+      "positiv": "arm",
+      "komparativ": "ärmer",
+      "superlativ": "am ärmsten"
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "arm an + Dat",
+        "beispiel": "Diese Suppe ist arm an Fett.",
+        "uebersetzung": {
+          "fa": "این سوپ کم‌چرب است.",
+          "en": "This soup is low in fat."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein armer Mann",
+      "die arme Familie"
+    ],
+    "gegensatzpaar": "arm ↔ reich"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Geld",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پول",
+          "en": "money"
+        },
+        "id_ref": "nomen_geld"
+      },
+      {
+        "wort": "reich",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ثروتمند",
+          "en": "rich"
+        },
+        "id_ref": "adjektiv_reich"
+      },
+      {
+        "wort": "arbeitslos",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیکار",
+          "en": "unemployed"
+        },
+        "id_ref": "adjektiv_arbeitslos"
+      },
+      {
+        "wort": "die Armut",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فقر",
+          "en": "poverty"
+        },
+        "id_ref": "nomen_armut"
+      },
+      {
+        "wort": "der Reichtum",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ثروت",
+          "en": "wealth"
+        },
+        "id_ref": "nomen_reichtum"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
