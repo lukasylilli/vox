@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_autosemantisch",
+  "wort": "autosemantisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "دارای معنای مستقل (واژه)"
+    ],
+    "en": [
+      "autosemantic"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Sprache",
+    "Linguistik"
+  ],
+  "ipa": "ˌaʊ̯tozeˈmantɪʃ",
+  "anmerkung": "Fachwort der Sprachwissenschaft.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "«Haus» ist ein autosemantisches Wort.",
+      "uebersetzung": {
+        "fa": "«Haus» واژه‌ای با معنای مستقل است.",
+        "en": "«Haus» is an autosemantic word."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nomen und Verben sind autosemantisch, während Artikel ihre Bedeutung erst im Zusammenhang mit anderen Wörtern bekommen.",
+      "uebersetzung": {
+        "fa": "اسم‌ها و فعل‌ها معنای مستقل دارند، در حالی که آرتیکل‌ها معنایشان را تازه در کنار واژه‌های دیگر پیدا می‌کنند.",
+        "en": "Nouns and verbs are autosemantic, whereas articles only get their meaning in connection with other words."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "synsemantisch",
+      "uebersetzung": {
+        "fa": "بدون معنای مستقل",
+        "en": "synsemantic"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auto- (خود) + semantisch (معنایی)",
+    "en": "auto- (self) + semantisch (semantic)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "autosemantisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein autosemantisches Wort",
+      "die autosemantischen Wortarten"
+    ],
+    "gegensatzpaar": "autosemantisch ↔ synsemantisch"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Semantik",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "معناشناسی",
+          "en": "semantics"
+        },
+        "id_ref": "nomen_semantik"
+      },
+      {
+        "wort": "die Bedeutung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "معنی",
+          "en": "meaning"
+        },
+        "id_ref": "nomen_bedeutung"
+      },
+      {
+        "wort": "das Wort",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "واژه",
+          "en": "word"
+        },
+        "id_ref": "nomen_wort"
+      },
+      {
+        "wort": "synsemantisch",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "بدون معنای مستقل",
+          "en": "synsemantic"
+        },
+        "id_ref": "adjektiv_synsemantisch"
+      },
+      {
+        "wort": "die Linguistik",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "زبان‌شناسی",
+          "en": "linguistics"
+        },
+        "id_ref": "nomen_linguistik"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
