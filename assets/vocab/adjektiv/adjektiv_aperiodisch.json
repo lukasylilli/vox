@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_aperiodisch",
+  "wort": "aperiodisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "غیرتناوبی"
+    ],
+    "en": [
+      "aperiodic",
+      "non-periodic"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Physik",
+    "Mathematik"
+  ],
+  "ipa": "ˈaːpeʁi̯oːdɪʃ",
+  "anmerkung": "Fachsprachlich; nicht steigerbar.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Signal ist aperiodisch.",
+      "uebersetzung": {
+        "fa": "این سیگنال غیرتناوبی است.",
+        "en": "The signal is aperiodic."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ein aperiodischer Vorgang wiederholt sich nicht in regelmäßigen Abständen.",
+      "uebersetzung": {
+        "fa": "یک فرایند غیرتناوبی در فاصله‌های منظم تکرار نمی‌شود.",
+        "en": "An aperiodic process does not repeat at regular intervals."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "unregelmäßig",
+      "uebersetzung": {
+        "fa": "نامنظم",
+        "en": "irregular"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "periodisch",
+      "uebersetzung": {
+        "fa": "تناوبی",
+        "en": "periodic"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "a- (نا-، بی-) + periodisch (تناوبی)",
+    "en": "a- (not) + periodisch (periodic)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "aperiodisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein aperiodischer Vorgang",
+      "die aperiodische Schwingung"
+    ],
+    "gegensatzpaar": "aperiodisch ↔ periodisch"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "regelmäßig",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "منظم",
+          "en": "regular"
+        },
+        "id_ref": "adjektiv_regelmaessig"
+      },
+      {
+        "wort": "die Wiederholung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تکرار",
+          "en": "repetition"
+        },
+        "id_ref": "nomen_wiederholung"
+      },
+      {
+        "wort": "unregelmäßig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نامنظم",
+          "en": "irregular"
+        },
+        "id_ref": "adjektiv_unregelmaessig"
+      },
+      {
+        "wort": "periodisch",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تناوبی",
+          "en": "periodic"
+        },
+        "id_ref": "adjektiv_periodisch"
+      },
+      {
+        "wort": "die Periode",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دوره، تناوب",
+          "en": "period"
+        },
+        "id_ref": "nomen_periode"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

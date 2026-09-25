@@ -1,0 +1,134 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_antonymisch",
+  "wort": "antonymisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "متضاد (از نظر معنا)"
+    ],
+    "en": [
+      "antonymous",
+      "antonymic"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Sprache"
+  ],
+  "ipa": "antoˈnyːmɪʃ",
+  "anmerkung": "Fachsprachlich (Sprachwissenschaft); nicht steigerbar.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "„Heiß“ und „kalt“ sind antonymisch.",
+      "uebersetzung": {
+        "fa": "«گرم» و «سرد» متضادند.",
+        "en": "“Hot” and “cold” are antonymous."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Unterricht sammelten die Schüler antonymische Wortpaare, damit sie sich die Vokabeln besser merken konnten.",
+      "uebersetzung": {
+        "fa": "دانش‌آموزان سر کلاس جفت‌واژه‌های متضاد جمع کردند تا لغت‌ها را بهتر به خاطر بسپارند.",
+        "en": "In class the pupils collected antonymous word pairs so that they could remember the vocabulary better."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gegensätzlich",
+      "uebersetzung": {
+        "fa": "متضاد",
+        "en": "opposite"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "synonym",
+      "uebersetzung": {
+        "fa": "هم‌معنا",
+        "en": "synonymous"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Antonym (واژه‌ی متضاد) + -isch (پسوند صفت‌ساز)",
+    "en": "Antonym (antonym) + -isch (adjective suffix)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "antonymisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein antonymisches Wortpaar",
+      "die antonymische Beziehung"
+    ],
+    "gegensatzpaar": "antonymisch ↔ synonym"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Wort",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کلمه",
+          "en": "word"
+        },
+        "id_ref": "nomen_wort"
+      },
+      {
+        "wort": "das Gegenteil",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "متضاد، عکس",
+          "en": "opposite"
+        },
+        "id_ref": "nomen_gegenteil"
+      },
+      {
+        "wort": "gegensätzlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "متضاد",
+          "en": "opposite"
+        },
+        "id_ref": "adjektiv_gegensaetzlich"
+      },
+      {
+        "wort": "das Synonym",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مترادف",
+          "en": "synonym"
+        },
+        "id_ref": "nomen_synonym"
+      },
+      {
+        "wort": "das Antonym",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "واژه‌ی متضاد",
+          "en": "antonym"
+        },
+        "id_ref": "nomen_antonym"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
