@@ -61,6 +61,7 @@ const zurueckgestellt = <String>{
   'aretologisch', // Bedeutung unsicher (Tugendlehre oder Wundererzählung?) 2026-09-25
   'arschig', // derb; Bedeutung/Gebrauch als Adjektiv nicht gesichert 2026-09-25
   'arschlos', // keine gesicherte Bedeutung/Form bekannt 2026-09-25
+  'assi', // umgangssprachliche Kurzform; als Adjektiv nicht gesichert (Duden: «assig», «der Assi») 2026-09-25
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
