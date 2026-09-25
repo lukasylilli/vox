@@ -6,18 +6,23 @@
 //          Bestehensgrenze), dann die Fragen; „آزمون تازه" zieht neue Fragen.
 //          Einstieg: Karte oben in der Niveau-Ansicht des Katalogs
 //          (NiveauTestKarte).
+// T.1 (2026-09-25): Am Ende wird das Ergebnis gespeichert
+//          (`pruefungsErgebnisseProvider`, Art `grammatik_niveau`) — nur
+//          Punkte, nie die Antworten.
 import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../../core/backup/pruefungs_ergebnis.dart';
 import '../../../core/constants/app_routes.dart';
 import '../../../core/constants/app_sizes.dart';
 import '../../../core/constants/vox_colors.dart';
 import '../../../core/l10n/app_l10n.dart';
 import '../../../core/widgets/vox_button.dart';
 import '../../../core/widgets/vox_empty_state.dart';
+import '../../pruefungen/controllers/pruefungs_ergebnisse_controller.dart';
 import '../controllers/grammatik_lektion_controller.dart';
 import '../models/grammatik_lektion.dart';
 import '../models/grammatik_niveautest.dart';
@@ -72,6 +77,7 @@ class _GrammatikNiveauTestScreenState
   late final Random _zufall = widget.zufall ?? Random();
   List<GrammatikUebung>? _fragen;
   int _runde = 0;
+  DateTime? _beginn;
 
   String get _niveau => widget.level.toUpperCase();
 
@@ -82,7 +88,30 @@ class _GrammatikNiveauTestScreenState
     setState(() {
       _fragen = test.ziehe(vorrat, _zufall);
       _runde++;
+      _beginn = DateTime.now();
     });
+  }
+
+  /// T.1: Ergebnis dauerhaft ablegen. Fassung 1 = 10 Fragen je Niveau aus
+  /// den Grammatik-Übungen, Grenze aus `grammatik_niveautest.json`.
+  void _gespeichert(GrammatikNiveauTest test, int richtig, int gesamt) {
+    final jetzt = DateTime.now();
+    final beginn = _beginn;
+    ref.read(pruefungsErgebnisseProvider.notifier).merken(PruefungsErgebnis(
+          id: neuePruefungsId(),
+          art: pruefungsArtGrammatikNiveau,
+          niveau: _niveau,
+          fassung: 1,
+          am: jetzt.toUtc(),
+          dauerSekunden:
+              beginn == null ? null : jetzt.difference(beginn).inSeconds,
+          punkte: richtig,
+          maxPunkte: gesamt,
+          bestanden: richtig / gesamt >= test.bestehensQuote,
+          teile: {
+            teilGrammatik: PruefungsTeil(punkte: richtig, maxPunkte: gesamt),
+          },
+        ));
   }
 
   void _zurueck() {
@@ -117,6 +146,7 @@ class _GrammatikNiveauTestScreenState
         bestehensQuote: daten.test!.bestehensQuote,
         onNochmal: () => _starte(daten.test!, daten),
         onZurueck: _zurueck,
+        onFertig: (r, n) => _gespeichert(daten.test!, r, n),
       );
     }
 

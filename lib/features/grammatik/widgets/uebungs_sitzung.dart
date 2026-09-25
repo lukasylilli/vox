@@ -8,9 +8,10 @@
 //
 // G7b (2026-09-16): optional Bestehensgrenze + „neuer Test" (onNochmal).
 //
-// Ergebnisse werden bewusst NICHT gespeichert: Übungen sind Training, kein
-// Lernstand. Was davon dauerhaft sein soll (z. B. „Niveau bestanden"),
-// entscheidet G7b — dann über die Nutzerdaten (فاز S), nicht hier.
+// Die Sitzung selbst speichert NICHTS: Übungen sind Training, kein
+// Lernstand. T.1 (2026-09-25): Wer ein Ergebnis dauerhaft braucht (der
+// Niveau-Test), bekommt es über [UebungsSitzung.onFertig] und speichert es
+// selbst über die Nutzerdaten (Vertrag Fassung 5).
 import 'package:flutter/material.dart';
 
 import '../../../core/constants/app_sizes.dart';
@@ -30,6 +31,7 @@ class UebungsSitzung extends StatefulWidget {
     required this.onZurueck,
     this.bestehensQuote,
     this.onNochmal,
+    this.onFertig,
   });
 
   final List<GrammatikUebung> uebungen;
@@ -41,6 +43,9 @@ class UebungsSitzung extends StatefulWidget {
   /// Optional (G7b): statt dieselben Übungen zu wiederholen, zieht der
   /// Aufrufer neue (Niveau-Test). Er baut die Sitzung dann mit neuem Key auf.
   final VoidCallback? onNochmal;
+
+  /// Optional (T.1): einmal je Durchgang, sobald das Ergebnis feststeht.
+  final void Function(int richtig, int gesamt)? onFertig;
 
   @override
   State<UebungsSitzung> createState() => _UebungsSitzungState();
@@ -63,14 +68,18 @@ class _UebungsSitzungState extends State<UebungsSitzung> {
         _durchgang++;
       });
 
-  void _weiter() => setState(() {
-        if (_index + 1 >= widget.uebungen.length) {
-          _fertig = true;
-        } else {
-          _index++;
-          _geprueft = false;
-        }
-      });
+  void _weiter() {
+    final ende = _index + 1 >= widget.uebungen.length;
+    setState(() {
+      if (ende) {
+        _fertig = true;
+      } else {
+        _index++;
+        _geprueft = false;
+      }
+    });
+    if (ende) widget.onFertig?.call(_richtig, widget.uebungen.length);
+  }
 
   @override
   Widget build(BuildContext context) {

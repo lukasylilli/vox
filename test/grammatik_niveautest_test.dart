@@ -242,15 +242,19 @@ void main() {
       tester.view.devicePixelRatio = 1;
       addTearDown(tester.view.reset);
       var neu = 0;
+      final fertig = <(int, int)>[];
       await tester.pumpWidget(app(Scaffold(
         body: UebungsSitzung(
           uebungen: mc,
           bestehensQuote: 0.7,
           onNochmal: () => neu++,
           onZurueck: () {},
+          onFertig: (r, n) => fertig.add((r, n)),
         ),
       )));
       await beantworte(tester, mc, 7);
+      // T.1: genau einmal, mit dem Ergebnis — Grundlage fürs Speichern.
+      expect(fertig, [(7, 10)]);
       expect(find.text('7 of 10 correct'), findsOneWidget);
       expect(find.text('Passed!'), findsOneWidget);
       await tester.tap(find.text('New test'));

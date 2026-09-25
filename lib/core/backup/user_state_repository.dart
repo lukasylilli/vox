@@ -34,6 +34,7 @@ import '../database/app_database.dart';
 import '../database/dao/leitner_dao.dart' show LeitnerDao;
 import 'nutzer_profil.dart';
 import 'nutzer_zustand.dart';
+import 'pruefungs_ergebnis.dart';
 
 /// SharedPreferences-Schlüssel des Wortarchivs.
 ///
@@ -52,6 +53,31 @@ const kVokabNotizenKey = 'vokab_user_notizen_v1';
 /// SharedPreferences; der Vertrag (`nutzer_zustand.dart`, Fassung 4) trägt ihn
 /// in Datei und Cloud-Kopie.
 const kProfilKey = 'vox_profil_v1';
+
+/// Ergebnisse abgeschlossener Tests (T.1) — eine JSON-Liste
+/// ([PruefungsErgebnis.listeSchreiben]). Liegt in SharedPreferences; der
+/// Vertrag (Fassung 5) trägt sie in Datei und Cloud-Kopie.
+const kPruefungenKey = 'vox_pruefungen_v1';
+
+/// Alle gespeicherten Testergebnisse dieses Geräts. Unlesbares ⇒ leer.
+Map<String, PruefungsErgebnis> pruefungenLesen(SharedPreferences prefs) {
+  final roh = prefs.getString(kPruefungenKey);
+  if (roh == null) return const {};
+  try {
+    return PruefungsErgebnis.listeLesen(jsonDecode(roh));
+  } catch (_) {
+    return const {};
+  }
+}
+
+/// Fügt EIN Ergebnis hinzu (T.1). Vorhandene werden nie verändert.
+Future<void> pruefungMerken(
+    SharedPreferences prefs, PruefungsErgebnis ergebnis) async {
+  final alle = PruefungsErgebnis.vereinigen(
+      pruefungenLesen(prefs), {ergebnis.id: ergebnis});
+  await prefs.setString(
+      kPruefungenKey, jsonEncode(PruefungsErgebnis.listeSchreiben(alle)));
+}
 
 /// Einstellungsschlüssel, die zum Nutzer gehören und mitgesichert werden.
 /// Bewusst eine ausdrückliche Liste: so wandert nie versehentlich ein
@@ -197,6 +223,8 @@ class UserStateRepository {
       },
       // P.1: fehlt oder unlesbar ⇒ null (nie eingegeben).
       profil: NutzerProfil.ausText(_prefs.getString(kProfilKey)),
+      // T.1: fehlt oder unlesbar ⇒ keine Ergebnisse.
+      pruefungen: pruefungenLesen(_prefs),
       // S.5: App-Wörter bringt jedes Gerät selbst mit — nicht sichern.
       // Verweise auf sie (Leitner, Listen) bleiben oben trotzdem erhalten.
       eigeneWoerter: woerter
@@ -416,6 +444,13 @@ class UserStateRepository {
     final profil = zusammen.profil;
     if (profil != null) {
       await _prefs.setString(kProfilKey, profil.zuText());
+    }
+
+    // (7) Testergebnisse (T.1) — die Vereinigung; nur schreiben, wenn es
+    //     welche gibt (kein leerer Schlüssel auf Geräten ohne Tests).
+    if (zusammen.pruefungen.isNotEmpty) {
+      await _prefs.setString(kPruefungenKey,
+          jsonEncode(PruefungsErgebnis.listeSchreiben(zusammen.pruefungen)));
     }
 
     return zusammen;

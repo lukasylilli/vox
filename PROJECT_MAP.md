@@ -19,6 +19,7 @@
 #   · workbox_config.cjs PFLICHT += telegram_guard.js · offline_test.cjs مرحله‌ی ۵ (آدرس‌های شروع). Dart دست نخورد.
 # دور ۶۵ (2026-09-24): فقط PLAN — بخش تازه‌ی «🌍 فاز Z» (آخرین مرحله‌ی کل پروژه، بعد از کامل شدن همه و تست‌های سبز):
 #   Z.1 ربات تلگرام واقعی (نه Mini App) ⇒ Z.2 تبلیغات گوگل (AdSense) ⇒ Z.3 اندروید/آیفون. هیچ فایل کدی عوض نشد.
+# دور ۸۶ (2026-09-25): **T.1** — ذخیره‌ی عمومی نتیجه‌ی آزمون (pruefungs_ergebnis.dart، Fassung 5، vox_pruefungen_v1، pruefungsErgebnisseProvider)؛ Grammatik-Niveautest ذخیره می‌کند. ۳۳۴ تست.
 # دور ۸۵ (2026-09-25): فقط PLAN — تصمیم‌های تکمیلی فاز T (حق نشر، ترتیب، A1→C2، Transkript، تاریخچه+مدال). کدی عوض نشد.
 # دور ۸۴ (2026-09-25): فقط PLAN — تصمیم‌های Lukas در «🧪 فاز T» + فهرست شبیه‌سازها (ÖSD اول، آزمون خود VOX آخر). کدی عوض نشد.
 # دور ۸۳ (2026-09-25): فقط PLAN — «🧪 فاز T» پیش‌نویس (T.0–T.11؛ آزمون‌ها، شبیه‌سازها، نتیجه در Lernpfad = leitfaden_screen.dart که امروز داده‌ی واقعی ندارد). G7e ⇒ T.1. کدی عوض نشد.
@@ -654,6 +655,7 @@ widgets/ (G7a)
   uebung_karte.dart            [x]  — UebungKarte: یک تمرین، ۵ نوع (VoxOptionButton / ActionChip / TextField /
                                       ChoiceChip)، بازخورد + توضیح؛ آلمانی همیشه LTR؛ onGeprueft دقیقاً یک بار
   uebungs_sitzung.dart         [x]  — UebungsSitzung: پیشرفت، «بعدی»، نتیجه + «دوباره»/«برگشت»؛
+                               **T.1:** `onFertig(richtig, gesamt)` — یک بار در هر دور؛ خود جلسه چیزی ذخیره نمی‌کند.
                                       bestehensQuote + onNochmal (G7b). نتیجه ذخیره نمی‌شود.
 controllers/
   grammar_catalog_controller.dart [x] — G1: grammatikKatalogProvider (asset) +
@@ -1322,6 +1324,7 @@ die Fassade, die allein `NutzerZustand` nach außen zeigt.
 | `test/puzzling_buttons_test.dart` | **B.5** — kein roher Material-Button in `lib/features/`. Entstanden, weil `_SicherungKarte` und `_KontoKarte` die Regel unbemerkt gebrochen hatten |
 | `test/auth_service_test.dart` | Fehlercode-Zuordnung (kann **still** brechen: „E-Mail vergeben" → „unbekannter Fehler") + Nachweis, dass ohne Konfiguration nichts geworfen und nichts gesendet wird |
 | `core/backup/nutzer_profil.dart` | **P.1 (2026-09-20)** — `NutzerProfil`/`ProfilAdresse`/`ProfilFehler`, `telefonGueltig`, `normalisiereZiffern`, `NutzerProfil.spaeteres` (ادغام: آخرین ویرایش، کامل). Reines Dart. ⚠️ **Keine E-Mail hier** (gehört `auth.users`) |
+| `core/backup/pruefungs_ergebnis.dart` | **T.1 (2026-09-25)** — `PruefungsErgebnis`/`PruefungsTeil`، `neuePruefungsId` (`pr:#`+32 hex)، `listeLesen` (بخشنده)، `listeSchreiben` (مرتب)، `vereinigen` (فقط افزودن). Reines Dart. قرارداد **Fassung 5**؛ ذخیره: `kPruefungenKey`=`vox_pruefungen_v1` + `pruefungenLesen`/`pruefungMerken` در `user_state_repository.dart`؛ Provider: `features/pruefungen/controllers/pruefungs_ergebnisse_controller.dart`. ⚠️ پاسخ‌ها هرگز ذخیره نمی‌شوند. |
 | `core/backup/nutzer_zustand.dart` → `profil` | **Vertrag Fassung 4 (P.1)** — Feld nur im JSON, wenn vorhanden; Fassung 1–3 lesbar; leeres Profil mit neuerem Zeitpunkt gewinnt |
 | `core/backup/user_state_repository.dart` → `kProfilKey` (`vox_profil_v1`) | Profil in SharedPreferences; `lesen()` liest, `anwenden()` Schritt (6) schreibt. ⚠️ bewusst **nicht** in `einstellungsSchluessel` (dort „eigener Stand gewinnt" ⇒ neues Gerät bekäme das Profil nie) |
 | `core/services/auth_service.dart` (P.2) | + `changePassword` · `changeEmail` · `sendPasswordReset` · `signOutEverywhere` · `watchPasswordRecovery`; `AuthIssue.samePassword`/`reauthNeeded`. ⚠️ Passwort/E-Mail gelten für **beide** Apps (`auth.users` geteilt) |

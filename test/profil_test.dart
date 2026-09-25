@@ -154,8 +154,8 @@ void main() {
   });
 
   group('Vertrag Fassung 4', () {
-    test('Version ist 4', () {
-      expect(nutzerZustandVersion, 4);
+    test('Version ist mindestens 4 (T.1: 5)', () {
+      expect(nutzerZustandVersion, greaterThanOrEqualTo(4));
     });
 
     test('Profil reist in der Sicherung mit', () {

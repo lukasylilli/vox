@@ -20,6 +20,7 @@ import 'dart:convert';
 import 'dart:math' show Random;
 
 import 'nutzer_profil.dart';
+import 'pruefungs_ergebnis.dart';
 
 /// Erhöhen, sobald sich die Form der Nutzlast ändert. `vonJson` muss ältere
 /// Fassungen weiter lesen können — eine Sicherung von gestern darf nie
@@ -38,7 +39,11 @@ import 'nutzer_profil.dart';
 /// Fassung 4 (P.1, 2026-09-20): `profil` — Name, Telefonnummer, Adressen
 /// (`nutzer_profil.dart`). Fehlt das Feld (Fassung 1–3), gibt es kein Profil.
 /// Beim Zusammenführen gewinnt der später bearbeitete Stand als Ganzes.
-const int nutzerZustandVersion = 4;
+///
+/// Fassung 5 (T.1, 2026-09-25): `pruefungen` — Ergebnisse abgeschlossener
+/// Tests (`pruefungs_ergebnis.dart`). Nur hinzufügen, nie ändern; beim
+/// Zusammenführen vereinigt nach id. Fehlt das Feld (Fassung 1–4) ⇒ keine.
+const int nutzerZustandVersion = 5;
 
 const String appKennung = 'vox';
 
@@ -249,6 +254,9 @@ class NutzerZustand {
   /// geleert" und setzt sich beim Zusammenführen gegen ältere Angaben durch.
   final NutzerProfil? profil;
 
+  /// Ergebnisse abgeschlossener Tests, id → Ergebnis (T.1). Nur hinzufügen.
+  final Map<String, PruefungsErgebnis> pruefungen;
+
   const NutzerZustand({
     this.leitner = const {},
     this.kategorien = const [],
@@ -257,6 +265,7 @@ class NutzerZustand {
     this.eigeneWoerter = const [],
     this.mitgliedschaften = const {},
     this.profil,
+    this.pruefungen = const {},
   });
 
   bool get istLeer =>
@@ -266,7 +275,8 @@ class NutzerZustand {
       einstellungen.isEmpty &&
       eigeneWoerter.isEmpty &&
       mitgliedschaften.isEmpty &&
-      profil == null;
+      profil == null &&
+      pruefungen.isEmpty;
 
   /// Listen werden **geordnet** ausgegeben (nach id bzw. Schlüssel), damit
   /// derselbe Inhalt immer denselben Text ergibt — der Konto-Abgleich
@@ -288,6 +298,9 @@ class NutzerZustand {
         // Nur wenn vorhanden: Sicherungen ohne Profil bleiben Byte für Byte
         // gleich (der Konto-Abgleich vergleicht den Text).
         if (profil != null) 'profil': profil!.toJson(),
+        // Ebenso (T.1): ohne Ergebnisse kein Feld.
+        if (pruefungen.isNotEmpty)
+          'pruefungen': PruefungsErgebnis.listeSchreiben(pruefungen),
       };
 
   static NutzerZustand vonJson(Map<String, dynamic> j) => NutzerZustand(
@@ -314,6 +327,8 @@ class NutzerZustand {
         profil: j['profil'] is Map
             ? NutzerProfil.vonJson((j['profil'] as Map).cast<String, dynamic>())
             : null,
+        // Fassung 1–4 kennt das Feld nicht ⇒ keine Ergebnisse.
+        pruefungen: PruefungsErgebnis.listeLesen(j['pruefungen']),
       );
 
   // ── Zusammenführen ────────────────────────────────────────────────────
@@ -423,6 +438,8 @@ class NutzerZustand {
       eigeneWoerter: woerterNeu.values.toList(),
       mitgliedschaften: ereignisse,
       profil: NutzerProfil.spaeteres(profil, anderer.profil),
+      // Ergebnisse (T.1): nur hinzufügen ⇒ Vereinigung, nichts geht verloren.
+      pruefungen: PruefungsErgebnis.vereinigen(pruefungen, anderer.pruefungen),
     );
   }
 
