@@ -1,0 +1,143 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_anomal",
+  "wort": "anomal",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "ناهنجار",
+      "غیرعادی"
+    ],
+    "en": [
+      "anomalous",
+      "abnormal"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft",
+    "Medizin"
+  ],
+  "ipa": "ˈanomaːl",
+  "anmerkung": "Bildungssprachlich/fachsprachlich; nicht verwechseln mit «anormal» (= nicht normal).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Ergebnis ist anomal.",
+      "uebersetzung": {
+        "fa": "این نتیجه غیرعادی است.",
+        "en": "The result is anomalous."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Ärzte untersuchten den anomalen Herzrhythmus, weil er nur nachts auftrat.",
+      "uebersetzung": {
+        "fa": "پزشکان ریتم غیرعادی قلب را بررسی کردند، چون فقط شب‌ها پیش می‌آمد.",
+        "en": "The doctors examined the abnormal heart rhythm because it only occurred at night."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abweichend",
+      "uebersetzung": {
+        "fa": "انحرافی، متفاوت",
+        "en": "deviant"
+      }
+    },
+    {
+      "wort": "ungewöhnlich",
+      "uebersetzung": {
+        "fa": "غیرمعمول",
+        "en": "unusual"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "normal",
+      "uebersetzung": {
+        "fa": "عادی",
+        "en": "normal"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "a- (نفی) + nomal (از یونانی: هموار، قاعده‌مند)",
+    "en": "a- (negation) + -nomal (from Greek: even, regular)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "anomal",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein anomaler Befund",
+      "die anomale Entwicklung"
+    ],
+    "gegensatzpaar": "anomal ↔ normal"
+  },
+  "wortnetz": {
+    "grundwort": "die Anomalie",
+    "woerter": [
+      {
+        "wort": "normal",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عادی",
+          "en": "normal"
+        },
+        "id_ref": "adjektiv_normal"
+      },
+      {
+        "wort": "ungewöhnlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "غیرمعمول",
+          "en": "unusual"
+        },
+        "id_ref": "adjektiv_ungewoehnlich"
+      },
+      {
+        "wort": "die Abweichung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "انحراف",
+          "en": "deviation"
+        },
+        "id_ref": "nomen_abweichung"
+      },
+      {
+        "wort": "die Anomalie",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ناهنجاری",
+          "en": "anomaly"
+        },
+        "id_ref": "nomen_anomalie"
+      },
+      {
+        "wort": "anormal",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "غیرطبیعی",
+          "en": "abnormal"
+        },
+        "id_ref": "adjektiv_anormal"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

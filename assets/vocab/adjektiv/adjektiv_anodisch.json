@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_anodisch",
+  "wort": "anodisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "آندی (مربوط به آند)"
+    ],
+    "en": [
+      "anodic"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Chemie",
+    "Technik"
+  ],
+  "ipa": "aˈnoːdɪʃ",
+  "anmerkung": "Fachwort der Elektrochemie.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Teil ist anodisch geschützt.",
+      "uebersetzung": {
+        "fa": "این قطعه به روش آندی محافظت شده است.",
+        "en": "The part is anodically protected."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei der anodischen Oxidation entsteht auf dem Aluminium eine harte Schutzschicht.",
+      "uebersetzung": {
+        "fa": "در اکسایش آندی، روی آلومینیوم یک لایه‌ی محافظ سخت به وجود می‌آید.",
+        "en": "In anodic oxidation, a hard protective layer forms on the aluminium."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "kathodisch",
+      "uebersetzung": {
+        "fa": "کاتدی",
+        "en": "cathodic"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Anode (آند، قطب مثبت) + -isch (پسوند صفت‌ساز)",
+    "en": "Anode (anode) + -isch (adjective suffix)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "anodisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "die anodische Oxidation",
+      "ein anodischer Schutz"
+    ],
+    "gegensatzpaar": "anodisch ↔ kathodisch"
+  },
+  "wortnetz": {
+    "grundwort": "die Anode",
+    "woerter": [
+      {
+        "wort": "der Strom",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جریان برق",
+          "en": "electric current"
+        },
+        "id_ref": "nomen_strom"
+      },
+      {
+        "wort": "die Batterie",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "باتری",
+          "en": "battery"
+        },
+        "id_ref": "nomen_batterie"
+      },
+      {
+        "wort": "elektrisch",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برقی",
+          "en": "electric"
+        },
+        "id_ref": "adjektiv_elektrisch"
+      },
+      {
+        "wort": "die Anode",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آند",
+          "en": "anode"
+        },
+        "id_ref": "nomen_anode"
+      },
+      {
+        "wort": "die Kathode",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کاتد",
+          "en": "cathode"
+        },
+        "id_ref": "nomen_kathode"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
