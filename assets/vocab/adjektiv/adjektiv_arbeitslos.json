@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_arbeitslos",
+  "wort": "arbeitslos",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "بیکار"
+    ],
+    "en": [
+      "unemployed",
+      "jobless"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Arbeit",
+    "Gesellschaft"
+  ],
+  "ipa": "ˈarbaɪ̯tsloːs",
+  "anmerkung": "Nicht steigerbar. Nomen: der/die Arbeitslose.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mein Nachbar ist arbeitslos.",
+      "uebersetzung": {
+        "fa": "همسایه‌ام بیکار است.",
+        "en": "My neighbour is unemployed."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil die Fabrik geschlossen wurde, sind viele Menschen in der Stadt arbeitslos geworden.",
+      "uebersetzung": {
+        "fa": "چون کارخانه تعطیل شد، بسیاری از مردم شهر بیکار شده‌اند.",
+        "en": "Because the factory was closed, many people in the town have become unemployed."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erwerbslos",
+      "uebersetzung": {
+        "fa": "بیکار (بدون درآمد از کار)",
+        "en": "out of work"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "berufstätig",
+      "uebersetzung": {
+        "fa": "شاغل",
+        "en": "employed"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Arbeit (کار) + -los (بی)",
+    "en": "Arbeit (work) + -los (without)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "arbeitslos",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein arbeitsloser Mann",
+      "die arbeitslose Frau"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "arbeiten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کار کردن",
+          "en": "to work"
+        },
+        "id_ref": "verb_arbeiten"
+      },
+      {
+        "wort": "die Arbeit",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کار",
+          "en": "work"
+        },
+        "id_ref": "nomen_arbeit"
+      },
+      {
+        "wort": "der Job",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شغل",
+          "en": "job"
+        },
+        "id_ref": "nomen_job"
+      },
+      {
+        "wort": "die Arbeitslosigkeit",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیکاری",
+          "en": "unemployment"
+        },
+        "id_ref": "nomen_arbeitslosigkeit"
+      },
+      {
+        "wort": "das Arbeitslosengeld",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیمه‌ی بیکاری",
+          "en": "unemployment benefit"
+        },
+        "id_ref": "nomen_arbeitslosengeld"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

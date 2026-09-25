@@ -1,0 +1,133 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_arbitraer",
+  "wort": "arbiträr",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "دلبخواهی، قراردادی، خودسرانه"
+    ],
+    "en": [
+      "arbitrary"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wissenschaft",
+    "Sprache"
+  ],
+  "ipa": "arbiˈtrɛːɐ̯",
+  "anmerkung": "Bildungssprachlich. In der Sprachwissenschaft: Das sprachliche Zeichen ist arbiträr (nicht natürlich begründet). Nicht steigerbar.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Regel ist arbiträr.",
+      "uebersetzung": {
+        "fa": "این قاعده دلبخواهی است.",
+        "en": "The rule is arbitrary."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Viele Studierende fanden die Entscheidung arbiträr, weil niemand sie begründet hatte.",
+      "uebersetzung": {
+        "fa": "بسیاری از دانشجویان این تصمیم را خودسرانه دانستند، چون کسی دلیلش را نگفته بود.",
+        "en": "Many students found the decision arbitrary because nobody had justified it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "willkürlich",
+      "uebersetzung": {
+        "fa": "خودسرانه",
+        "en": "arbitrary"
+      }
+    },
+    {
+      "wort": "beliebig",
+      "uebersetzung": {
+        "fa": "دلخواه",
+        "en": "any, random"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Arbiter (داور) + -är (پسوند صفت‌ساز)",
+    "en": "Arbiter (arbiter, judge) + -är (adjective suffix)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "arbiträr",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein arbiträres Zeichen",
+      "die arbiträre Entscheidung"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Regel",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قاعده",
+          "en": "rule"
+        },
+        "id_ref": "nomen_regel"
+      },
+      {
+        "wort": "die Entscheidung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تصمیم",
+          "en": "decision"
+        },
+        "id_ref": "nomen_entscheidung"
+      },
+      {
+        "wort": "beliebig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دلخواه",
+          "en": "any, random"
+        },
+        "id_ref": "adjektiv_beliebig"
+      },
+      {
+        "wort": "willkürlich",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خودسرانه",
+          "en": "arbitrary"
+        },
+        "id_ref": "adjektiv_willkuerlich"
+      },
+      {
+        "wort": "die Willkür",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خودسری",
+          "en": "arbitrariness"
+        },
+        "id_ref": "nomen_willkuer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
