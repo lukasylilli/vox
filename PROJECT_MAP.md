@@ -19,6 +19,7 @@
 #   · workbox_config.cjs PFLICHT += telegram_guard.js · offline_test.cjs مرحله‌ی ۵ (آدرس‌های شروع). Dart دست نخورد.
 # دور ۶۵ (2026-09-24): فقط PLAN — بخش تازه‌ی «🌍 فاز Z» (آخرین مرحله‌ی کل پروژه، بعد از کامل شدن همه و تست‌های سبز):
 #   Z.1 ربات تلگرام واقعی (نه Mini App) ⇒ Z.2 تبلیغات گوگل (AdSense) ⇒ Z.3 اندروید/آیفون. هیچ فایل کدی عوض نشد.
+# دور ۹۴ (2026-09-25): adjektiv_arisch.json +مثال سوم (درخواست Lukas) · vokab_schema.dart: هشدار فقط برای <۲ مثال (نه ≠۲) · test/vokab_schema_test.dart +۱ تست (۳۳۸).
 # دور ۸۹–۹۳ (2026-09-25): ۵۰ کلمه ⇒ assets/vocab/adjektiv (apophatisch … arriviert) ⇒ آرشیو ۵۳۶ · zurueckgestellt += appendikuliert، aretologisch. کد اپ دست نخورد.
 # دور ۸۸ (2026-09-25): تصمیم Lukas — تمرین تک‌بخشی مجاز، آزمون فقط کامل (PLAN + توضیح pruefungs_ergebnis.dart). منطق کد تغییر نکرد.
 # دور ۸۷ (2026-09-25): قواعد آزمون واقعی (Lukas) — PLAN + `pruefungs_ergebnis.dart`: `zeitLimitSekunden`/`zeitAbgelaufen` (JSON `limit`/`zeitAbgelaufen`، فقط اگر لازم)، `teilReihenfolge`/`teileGeordnet`، `vollstaendig()`. قرارداد همچنان Fassung 5 (فیلدهای اختیاری). ۳۳۷ تست.

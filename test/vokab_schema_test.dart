@@ -100,6 +100,19 @@ void main() {
       expect(p.warnungen.join(), contains('Lückentext'));
     });
 
+    test('Regel 9: mehr als 2 Beispiele erlaubt (nur erweitern), weniger → Warnung',
+        () {
+      final mehr = gueltigesVerb();
+      (mehr['beispiele'] as List)
+          .add({'niveau': 'C1', 'satz': 'Wir lernen gemeinsam.'});
+      expect(vokabPruefeKarte(mehr).warnungen, isEmpty);
+
+      final weniger = gueltigesVerb();
+      (weniger['beispiele'] as List).removeLast();
+      expect(vokabPruefeKarte(weniger).warnungen.join(),
+          contains('1 Beispiele statt 2'));
+    });
+
     test('Regel 12: etymologie muss {fa, en} sein — String/kaputt → Warnung',
         () {
       // zweisprachig → ok

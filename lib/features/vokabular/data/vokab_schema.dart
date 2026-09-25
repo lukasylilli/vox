@@ -138,9 +138,12 @@ VokabPruefung vokabPruefeKarte(Map<String, dynamic> roh) {
     karte['nextReviewDate'] = null;
   }
 
-  // Beispiele (Regel 9): genau 2, Zielwort muss im Satz vorkommen.
+  // Beispiele (Regel 9): der Prompt erzeugt genau 2; weitere Beispiele, die
+  // Lukas ausdrücklich ergänzt (z. B. adjektiv_arisch, 2026-09-25), sind
+  // erlaubt — Beispiele werden nur erweitert, nie gekürzt. Weniger als 2 ⇒
+  // Warnung. Zielwort muss in JEDEM Satz vorkommen.
   final beispiele = (karte['beispiele'] as List?) ?? const [];
-  if (beispiele.length != 2) {
+  if (beispiele.length < 2) {
     warnungen.add('[$label] ${beispiele.length} Beispiele statt 2');
   }
   final stamm = _lueckenStamm(wortart, wort);
