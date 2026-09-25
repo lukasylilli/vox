@@ -1,0 +1,127 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_anfechtbar",
+  "wort": "anfechtbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "قابل اعتراض",
+      "قابل ابطال"
+    ],
+    "en": [
+      "contestable",
+      "challengeable"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht"
+  ],
+  "ipa": "ˈanfɛçtbaːɐ̯",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Vertrag ist anfechtbar.",
+      "uebersetzung": {
+        "fa": "این قرارداد قابل ابطال است.",
+        "en": "The contract is contestable."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Urteil ist anfechtbar, solange die Frist von einem Monat noch nicht abgelaufen ist.",
+      "uebersetzung": {
+        "fa": "این حکم قابل اعتراض است، تا وقتی که مهلت یک‌ماهه هنوز تمام نشده باشد.",
+        "en": "The judgement can be challenged as long as the one-month deadline has not yet expired."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "unanfechtbar",
+      "uebersetzung": {
+        "fa": "غیرقابل اعتراض، قطعی",
+        "en": "incontestable"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "anfechten (اعتراض کردن، ابطال خواستن) + -bar (قابلِ)",
+    "en": "anfechten (to contest) + -bar (-able)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "anfechtbar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein anfechtbarer Bescheid",
+      "die anfechtbare Entscheidung"
+    ],
+    "gegensatzpaar": "anfechtbar ↔ unanfechtbar"
+  },
+  "wortnetz": {
+    "grundwort": "anfechten",
+    "woerter": [
+      {
+        "wort": "das Gericht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دادگاه",
+          "en": "court"
+        },
+        "id_ref": "nomen_gericht"
+      },
+      {
+        "wort": "der Vertrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرارداد",
+          "en": "contract"
+        },
+        "id_ref": "nomen_vertrag"
+      },
+      {
+        "wort": "das Urteil",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حکم",
+          "en": "judgement"
+        },
+        "id_ref": "nomen_urteil"
+      },
+      {
+        "wort": "anfechten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اعتراض کردن",
+          "en": "to contest"
+        },
+        "id_ref": "verb_anfechten"
+      },
+      {
+        "wort": "unanfechtbar",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "قطعی",
+          "en": "incontestable"
+        },
+        "id_ref": "adjektiv_unanfechtbar"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

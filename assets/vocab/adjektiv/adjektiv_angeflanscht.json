@@ -1,0 +1,128 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_angeflanscht",
+  "wort": "angeflanscht",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "فلنج‌شده",
+      "با فلنج وصل‌شده"
+    ],
+    "en": [
+      "flanged on",
+      "flange-mounted"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Technik"
+  ],
+  "ipa": "ˈanɡəflanʃt",
+  "anmerkung": "Partizip II von «anflanschen», adjektivisch gebraucht; Fachsprache der Technik.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Motor ist angeflanscht.",
+      "uebersetzung": {
+        "fa": "موتور با فلنج وصل شده است.",
+        "en": "The motor is flanged on."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil die Pumpe direkt angeflanscht ist, braucht man keine zusätzlichen Schläuche.",
+      "uebersetzung": {
+        "fa": "چون پمپ مستقیم با فلنج وصل شده، به شلنگ اضافی نیازی نیست.",
+        "en": "Because the pump is flanged on directly, no additional hoses are needed."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (به) + Flansch (فلنج) + -t (پسوند صفت مفعولی)",
+    "en": "an- (on) + Flansch (flange) + -t (participle ending)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "angeflanscht",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "angeflanscht an + Akk",
+        "beispiel": "Das Getriebe ist direkt an den Motor angeflanscht.",
+        "uebersetzung": {
+          "fa": "گیربکس مستقیم به موتور فلنج شده است.",
+          "en": "The gearbox is flanged directly onto the motor."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein angeflanschter Motor",
+      "die angeflanschte Pumpe"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "der Flansch",
+    "woerter": [
+      {
+        "wort": "die Maschine",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ماشین، دستگاه",
+          "en": "machine"
+        },
+        "id_ref": "nomen_maschine"
+      },
+      {
+        "wort": "der Motor",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "موتور",
+          "en": "motor"
+        },
+        "id_ref": "nomen_motor"
+      },
+      {
+        "wort": "befestigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "محکم کردن، وصل کردن",
+          "en": "to fasten"
+        },
+        "id_ref": "verb_befestigen"
+      },
+      {
+        "wort": "die Pumpe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پمپ",
+          "en": "pump"
+        },
+        "id_ref": "nomen_pumpe"
+      },
+      {
+        "wort": "der Flansch",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "فلنج",
+          "en": "flange"
+        },
+        "id_ref": "nomen_flansch"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
