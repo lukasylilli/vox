@@ -19,6 +19,7 @@
 #   · workbox_config.cjs PFLICHT += telegram_guard.js · offline_test.cjs مرحله‌ی ۵ (آدرس‌های شروع). Dart دست نخورد.
 # دور ۶۵ (2026-09-24): فقط PLAN — بخش تازه‌ی «🌍 فاز Z» (آخرین مرحله‌ی کل پروژه، بعد از کامل شدن همه و تست‌های سبز):
 #   Z.1 ربات تلگرام واقعی (نه Mini App) ⇒ Z.2 تبلیغات گوگل (AdSense) ⇒ Z.3 اندروید/آیفون. هیچ فایل کدی عوض نشد.
+# دور ۷۸–۸۲ (2026-09-25): ۵۰ کلمه ⇒ assets/vocab/adjektiv (antiamerikanisch … apologetisch) ⇒ آرشیو ۴۸۶ · کلمه‌ی تازه‌ای کنار گذاشته نشد (antichretisch از قبل). کد اپ دست نخورد.
 # دور ۷۳–۷۷ (2026-09-25): ۵۰ کلمه ⇒ assets/vocab/adjektiv (angelsächsisch … anthropozentrisch) ⇒ آرشیو ۴۳۶ · zurueckgestellt += anotherm، antichretisch. کد اپ دست نخورد.
 # دور ۶۸–۷۲ (2026-09-25): ۵۰ کلمه ⇒ assets/vocab/adjektiv (altäthiopisch … angelegentlich) + assets/vocab/adverb (andante، anderweit) ⇒ آرشیو ۳۸۶ ·
 #   tool/naechste_woerter.dart: zurueckgestellt += ۶ (amaranten … anelliert) · wortartKorrektur += andante، anderweit ⇒ adverb. کد اپ دست نخورد.
@@ -121,7 +122,7 @@
   · کد: هر کارت ⇒ صفحه‌ی خودش (`/vokabular/wort/:id`) + ردیف خودش در «Alle Wörter»؛ صفحه‌ی قدیمی همان کلمه کارت را فقط **اضافه** نشان می‌دهد (`features/wortschatz/data/altwort_karte.dart`). نگهبان: `test/altwort_karte_test.dart` («Grundregel»).
 - **🔁 تکراری‌ها (L.4d):** فقط **در آخرین مرحله** (هر چهار فهرست صفر تا صد وارد شد) Claude همه‌ی کلمه‌های اضافی/دوبرابر را پیدا می‌کند و در PLAN.md → «🔁 مرحله‌ی آخر (۲)» ثبت می‌کند؛ **Lukas تصمیم می‌گیرد**. وسط روال بررسی لازم نیست.
 - **⚡ سرعت:** `bash tool/wort_runde.sh /tmp/batch.json` = مراحل ۵–۷ (dry-run ⇒ import ⇒ index ⇒ ✓ ⇒ analyze ⇒ test ⇒ ۱۰ کلمه‌ی بعدی) در یک اجرا؛ اولین مشکل ⇒ توقف.
-- **پیشرفت (2026-09-25 دور ۷۷):** آخرین کلمه‌ی ساخته‌شده **anthropozentrisch** · بعدی **antiamerikanisch** · کنار گذاشته: abatisch، abdikativ، afrikaans، aldente، aleppinisch، allenfallsig، altaltbacken، Altdorfer، altkrank، amaranten، ambient، amethysten، amphibolisch، anamorph، anelliert، anotherm، antichretisch (فهرست کامل: PLAN.md → «🏁 مرحله‌ی آخر») · آرشیو: ۴۳۶ کارت.
+- **پیشرفت (2026-09-25 دور ۸۲):** آخرین کلمه‌ی ساخته‌شده **apologetisch** · بعدی **apophatisch** · کنار گذاشته: abatisch، abdikativ، afrikaans، aldente، aleppinisch، allenfallsig، altaltbacken، Altdorfer، altkrank، amaranten، ambient، amethysten، amphibolisch، anamorph، anelliert، anotherm، antichretisch (فهرست کامل: PLAN.md → «🏁 مرحله‌ی آخر») · آرشیو: ۴۸۶ کارت.
 
 ## TECH STACK
 - Flutter Web — reine Web-App, gehostet auf GitHub Pages (seit 2026-09-13)
