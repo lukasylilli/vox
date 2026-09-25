@@ -63,6 +63,7 @@ const zurueckgestellt = <String>{
   'arschlos', // keine gesicherte Bedeutung/Form bekannt 2026-09-25
   'assi', // umgangssprachliche Kurzform; als Adjektiv nicht gesichert (Duden: «assig», «der Assi») 2026-09-25
   'athermisch', // Bedeutung/Fachgebiet unsicher 2026-09-25
+  'ausheimisch', // Bedeutung/Gebrauch unsicher (landschaftlich/veraltet?) 2026-09-25
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
