@@ -131,7 +131,7 @@
   · کد: هر کارت ⇒ صفحه‌ی خودش (`/vokabular/wort/:id`) + ردیف خودش در «Alle Wörter»؛ صفحه‌ی قدیمی همان کلمه کارت را فقط **اضافه** نشان می‌دهد (`features/wortschatz/data/altwort_karte.dart`). نگهبان: `test/altwort_karte_test.dart` («Grundregel»).
 - **🔁 تکراری‌ها (L.4d):** فقط **در آخرین مرحله** (هر چهار فهرست صفر تا صد وارد شد) Claude همه‌ی کلمه‌های اضافی/دوبرابر را پیدا می‌کند و در PLAN.md → «🔁 مرحله‌ی آخر (۲)» ثبت می‌کند؛ **Lukas تصمیم می‌گیرد**. وسط روال بررسی لازم نیست.
 - **⚡ سرعت:** `bash tool/wort_runde.sh /tmp/batch.json` = مراحل ۵–۷ (dry-run ⇒ import ⇒ index ⇒ ✓ ⇒ analyze ⇒ test ⇒ ۱۰ کلمه‌ی بعدی) در یک اجرا؛ اولین مشکل ⇒ توقف.
-- **پیشرفت (2026-09-25 دور ۱۰۲):** آخرین کلمه‌ی ساخته‌شده **ausdrücklich** · بعدی **ausführlich** · کنار گذاشته: abatisch، abdikativ، afrikaans، aldente، aleppinisch، allenfallsig، altaltbacken، Altdorfer، altkrank، amaranten، ambient، amethysten، amphibolisch، anamorph، anelliert، anotherm، antichretisch، appendikuliert، aretologisch، arschig، arschlos، assi، athermisch (فهرست کامل: PLAN.md → «🏁 مرحله‌ی آخر») · آرشیو: ۶۱۶ کارت.
+- **پیشرفت (2026-09-25 دور ۱۰۳):** آخرین کلمه‌ی ساخته‌شده **ausgestorben** · بعدی **ausgewachsen** · کنار گذاشته: abatisch، abdikativ، afrikaans، aldente، aleppinisch، allenfallsig، altaltbacken، Altdorfer، altkrank، amaranten، ambient، amethysten، amphibolisch، anamorph، anelliert، anotherm، antichretisch، appendikuliert، aretologisch، arschig، arschlos، assi، athermisch (فهرست کامل: PLAN.md → «🏁 مرحله‌ی آخر») · آرشیو: ۶۲۶ کارت.
 
 ## TECH STACK
 - Flutter Web — reine Web-App, gehostet auf GitHub Pages (seit 2026-09-13)
