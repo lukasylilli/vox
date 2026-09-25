@@ -1,0 +1,150 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_ausstehend",
+  "wort": "ausstehend",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "معوق",
+      "باقی‌مانده، در انتظار"
+    ],
+    "en": [
+      "outstanding",
+      "pending"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Geld",
+    "Arbeit"
+  ],
+  "ipa": "ˈaʊ̯sˌʃteːənt",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Es gibt noch eine ausstehende Rechnung.",
+      "uebersetzung": {
+        "fa": "هنوز یک صورت‌حساب پرداخت‌نشده هست.",
+        "en": "There is still an outstanding invoice."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die ausstehenden Ergebnisse sollen nächste Woche kommen, deshalb können wir jetzt noch nichts entscheiden.",
+      "uebersetzung": {
+        "fa": "نتیجه‌های باقی‌مانده قرار است هفته‌ی بعد برسد، برای همین فعلاً نمی‌توانیم تصمیم بگیریم.",
+        "en": "The pending results are supposed to come next week, so we can't decide anything yet."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "offen",
+      "uebersetzung": {
+        "fa": "باز، پرداخت‌نشده",
+        "en": "open"
+      }
+    },
+    {
+      "wort": "unbezahlt",
+      "uebersetzung": {
+        "fa": "پرداخت‌نشده",
+        "en": "unpaid"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "erledigt",
+      "uebersetzung": {
+        "fa": "انجام‌شده",
+        "en": "done"
+      }
+    },
+    {
+      "wort": "bezahlt",
+      "uebersetzung": {
+        "fa": "پرداخت‌شده",
+        "en": "paid"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ausstehen (هنوز انجام‌نشده بودن) + -d (صفت فاعلی)",
+    "en": "ausstehen (to be pending) + -d (present participle)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "ausstehend",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine ausstehende Zahlung",
+      "die ausstehenden Ergebnisse"
+    ],
+    "gegensatzpaar": "ausstehend ↔ erledigt"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "stehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ایستادن",
+          "en": "to stand"
+        },
+        "id_ref": "verb_stehen"
+      },
+      {
+        "wort": "ausstehen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "هنوز انجام‌نشده بودن؛ تحمل کردن",
+          "en": "to be pending; to endure"
+        },
+        "id_ref": "verb_ausstehen"
+      },
+      {
+        "wort": "offen",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باز",
+          "en": "open"
+        },
+        "id_ref": "adjektiv_offen"
+      },
+      {
+        "wort": "die Rechnung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صورت‌حساب",
+          "en": "bill"
+        },
+        "id_ref": "nomen_rechnung"
+      },
+      {
+        "wort": "die Zahlung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پرداخت",
+          "en": "payment"
+        },
+        "id_ref": "nomen_zahlung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

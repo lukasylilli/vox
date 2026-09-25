@@ -161,7 +161,7 @@
 
 | فهرست | انجام‌شده (آخرین کلمه) | کلمه‌ی بعدی | کنار گذاشته (منتظر Lukas) |
 |---|---|---|---|
-| ۱. `Adjektive.txt` (صفت) | aalartig … **ausreichend** (دور ۲۸–۱۰۴؛ فهرست دقیق: ✓ در `Adjektive.txt` = کارت در `assets/vocab/`) | **aussagekräftig** | abatisch (2026-09-23) · abdikativ (2026-09-24) — معنا نامطمئن · afrikaans (2026-09-24) — کاربرد صفتی نامطمئن · aldente (2026-09-24) — املا مشکوک · aleppinisch (2026-09-24) — کاربرد صفتی نامطمئن · allenfallsig (2026-09-24) — شکل ثابت‌شده ندارد · altaltbacken (2026-09-24) — املا مشکوک · Altdorfer (2026-09-24) — اسم خاص/صفت مکانی · altkrank (2026-09-24) — معنا/کاربرد نامطمئن · amaranten · ambient · amethysten · amphibolisch · anamorph · anelliert · anotherm · antichretisch · appendikuliert · aretologisch · arschig · arschlos · assi · athermisch · ausheimisch (2026-09-25؛ دلیل‌ها: «🏁 مرحله‌ی آخر» #10–24) |
+| ۱. `Adjektive.txt` (صفت) | aalartig … **austronesisch** (دور ۲۸–۱۰۵؛ فهرست دقیق: ✓ در `Adjektive.txt` = کارت در `assets/vocab/`) | **ausweglos** | abatisch (2026-09-23) · abdikativ (2026-09-24) — معنا نامطمئن · afrikaans (2026-09-24) — کاربرد صفتی نامطمئن · aldente (2026-09-24) — املا مشکوک · aleppinisch (2026-09-24) — کاربرد صفتی نامطمئن · allenfallsig (2026-09-24) — شکل ثابت‌شده ندارد · altaltbacken (2026-09-24) — املا مشکوک · Altdorfer (2026-09-24) — اسم خاص/صفت مکانی · altkrank (2026-09-24) — معنا/کاربرد نامطمئن · amaranten · ambient · amethysten · amphibolisch · anamorph · anelliert · anotherm · antichretisch · appendikuliert · aretologisch · arschig · arschlos · assi · athermisch · ausheimisch · austral (2026-09-25؛ دلیل‌ها: «🏁 مرحله‌ی آخر» #10–25) |
 | ۲. `Verben_unregelmaeßig_Infinitiv.txt` (فعل بی‌قاعده) | — | abbacken | — |
 | ۳. `Verben_regelmaesig.txt` (فعل باقاعده) | — | aalen | — |
 | ۴. `substantiv_singular_alle.txt` (اسم) | — | Aachen | — |
@@ -171,7 +171,7 @@
 - ⛔ **قبل از شروع اسم‌ها (فهرست ۴) حتماً از Lukas بپرس:** اسم‌هایی که آرتیکل ندارند (بیشتر نام شهرها و کشورها، مثل Aachen) چطور ساخته شوند — تصمیم Lukas: «وقتی به اسم‌ها رسیدیم، قبلش دوباره سؤال کن». ⚠️ همان‌جا بپرس: **هم‌نویسه‌ها با همان Wortart** (مثل der See / die See) طبق `vokabId` یک id می‌گیرند و فعلاً فقط یکی ساخته می‌شود — با ⭐ اصل اول (همه ساخته شوند) باید id دوم تعریف شود (تغییر `vokab_schema.dart` ⇒ فقط با تأیید Lukas).
 - ⚠️ برای اسم‌ها: `substantiv_singular_alle.txt` بدون آرتیکل است ⇒ genus از `substantiv_singular_der/die/das.txt`؛ نام‌های خاص (شهر/کشور، مثل Aachen) هم در فهرست‌اند — وقتی رسیدیم، همان قاعده‌ی پرامپت (مطمئن نیستی ⇒ نساز) و گزارش به Lukas.
 - ✅ **Wortart غلط در فهرست (2026-09-24 دور ۳۴):** aberhundert و abertausend (و عددهای ترتیبی achte، achtzehnte، achtzigste) در Adjektive.txt هستند ولی طبق Duden «unbestimmtes Zahlwort»اند ⇒ کارت در `assets/vocab/numerale/` ساخته شد و در `wortartKorrektur` (`tool/naechste_woerter.dart`) ثبت شد تا ابزار آن‌ها را ساخته‌شده بشناسد. قاعده: Wortart درست (Duden) مهم‌تر از برچسب فهرست است؛ هر مورد تازه همان‌جا ثبت شود. **2026-09-25 دور ۷۱:** andante (نشانه‌ی تمپوی موسیقی) و anderweit (صفتش anderweitig است) ⇒ `assets/vocab/adverb/`.
-- کارت‌های دیگر آرشیو (افعال Dativ و …) از deckها آمده‌اند، نه از این فهرست‌ها. کل آرشیو: **۶۳۶ کارت** (2026-09-25 دور ۱۰۴).
+- کارت‌های دیگر آرشیو (افعال Dativ و …) از deckها آمده‌اند، نه از این فهرست‌ها. کل آرشیو: **۶۴۶ کارت** (2026-09-25 دور ۱۰۵).
 
 ## INHALTSVERZEICHNIS (فهرست مطالب)
 
@@ -1246,6 +1246,7 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | 22 | assi | `Adjektive.txt` | 2026-09-25 | عامیانه (کوتاه‌شده‌ی asozial)؛ Duden آن را به‌صورت «der Assi» (اسم) و «assig» (صفت) ثبت کرده — کاربرد صفتیِ «assi» مطمئن نیست | — |
 | 23 | athermisch | `Adjektive.txt` | 2026-09-25 | معنا و رشته‌ی کاربردش را مطمئن نمی‌دانم («نفوذناپذیر برای گرما» یا «بدون تولید گرما»؟) — قاعده‌ی ۱۴: حدس ممنوع | — |
 | 24 | ausheimisch | `Adjektive.txt` | 2026-09-25 | معنا روشن به نظر می‌رسد («غیربومی»)، ولی مطمئن نیستم که در آلمانی امروز رایج و در Duden ثبت باشد (شاید گویشی/کهنه) — قاعده‌ی ۱۴: حدس ممنوع | — |
+| 25 | austral | `Adjektive.txt` | 2026-09-25 | معنای احتمالی «جنوبی» (در نجوم/جغرافیا)، ولی مطمئن نیستم که به‌عنوان صفت مستقل در آلمانی رایج و ثبت‌شده باشد — قاعده‌ی ۱۴: حدس ممنوع | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 
