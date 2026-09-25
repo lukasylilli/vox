@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_antisymmetrisch",
+  "wort": "antisymmetrisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "پادمتقارن"
+    ],
+    "en": [
+      "antisymmetric",
+      "skew-symmetric"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik",
+    "Wissenschaft"
+  ],
+  "ipa": "ˈantizʏˌmeːtʁɪʃ",
+  "anmerkung": "Fachsprachlich (Mathematik/Physik); nicht steigerbar.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Matrix ist antisymmetrisch.",
+      "uebersetzung": {
+        "fa": "این ماتریس پادمتقارن است.",
+        "en": "The matrix is antisymmetric."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Eine Matrix heißt antisymmetrisch, wenn sie beim Transponieren ihr Vorzeichen wechselt.",
+      "uebersetzung": {
+        "fa": "یک ماتریس را پادمتقارن می‌نامند، اگر هنگام ترانهاده شدن علامتش عوض شود.",
+        "en": "A matrix is called antisymmetric if it changes its sign when transposed."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schiefsymmetrisch",
+      "uebersetzung": {
+        "fa": "پادمتقارن",
+        "en": "skew-symmetric"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "symmetrisch",
+      "uebersetzung": {
+        "fa": "متقارن",
+        "en": "symmetric"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "anti- (ضد) + symmetrisch (متقارن)",
+    "en": "anti- (against) + symmetrisch (symmetric)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "antisymmetrisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine antisymmetrische Matrix",
+      "die antisymmetrische Relation"
+    ],
+    "gegensatzpaar": "antisymmetrisch ↔ symmetrisch"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Mathematik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریاضیات",
+          "en": "mathematics"
+        },
+        "id_ref": "nomen_mathematik"
+      },
+      {
+        "wort": "symmetrisch",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "متقارن",
+          "en": "symmetric"
+        },
+        "id_ref": "adjektiv_symmetrisch"
+      },
+      {
+        "wort": "das Vorzeichen",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "علامت (مثبت/منفی)",
+          "en": "sign"
+        },
+        "id_ref": "nomen_vorzeichen"
+      },
+      {
+        "wort": "die Symmetrie",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تقارن",
+          "en": "symmetry"
+        },
+        "id_ref": "nomen_symmetrie"
+      },
+      {
+        "wort": "die Matrix",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "ماتریس",
+          "en": "matrix"
+        },
+        "id_ref": "nomen_matrix"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
