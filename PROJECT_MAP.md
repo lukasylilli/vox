@@ -19,6 +19,7 @@
 #   · workbox_config.cjs PFLICHT += telegram_guard.js · offline_test.cjs مرحله‌ی ۵ (آدرس‌های شروع). Dart دست نخورد.
 # دور ۶۵ (2026-09-24): فقط PLAN — بخش تازه‌ی «🌍 فاز Z» (آخرین مرحله‌ی کل پروژه، بعد از کامل شدن همه و تست‌های سبز):
 #   Z.1 ربات تلگرام واقعی (نه Mini App) ⇒ Z.2 تبلیغات گوگل (AdSense) ⇒ Z.3 اندروید/آیفون. هیچ فایل کدی عوض نشد.
+# دور ۷۳–۷۷ (2026-09-25): ۵۰ کلمه ⇒ assets/vocab/adjektiv (angelsächsisch … anthropozentrisch) ⇒ آرشیو ۴۳۶ · zurueckgestellt += anotherm، antichretisch. کد اپ دست نخورد.
 # دور ۶۸–۷۲ (2026-09-25): ۵۰ کلمه ⇒ assets/vocab/adjektiv (altäthiopisch … angelegentlich) + assets/vocab/adverb (andante، anderweit) ⇒ آرشیو ۳۸۶ ·
 #   tool/naechste_woerter.dart: zurueckgestellt += ۶ (amaranten … anelliert) · wortartKorrektur += andante، anderweit ⇒ adverb. کد اپ دست نخورد.
 # دور ۶۷ (2026-09-25): 🎉 Lukas وب‌اپ را عمومی منتشر کرد — فقط ثبت در PLAN/MAP، هیچ فایل کدی عوض نشد. قدم بعدی Claude: G7e ⇒ G7d.
@@ -59,7 +60,7 @@
 #   ⚠️ شناسه‌ی کارت منتشرشده در assets/vocab/ هرگز حذف/عوض نشود — لایتنر کاربر به آن اشاره می‌کند.
 #   ⚠️ کپی‌رایت: هیچ جمله/تمرینی از کتاب کپی نمی‌شود — فقط موضوع؛ متن و مثال و تمرین از نو نوشته می‌شود.
 # 🌐 زبان شروع: پیش‌فرض انگلیسی، فقط روی دستگاه فارسی‌زبان فارسی — تنها منبع: core/l10n/geraete_sprache.dart.
-# 🎯 وضعیت (2026-09-25 دور ۷۲): DB schema v7 · ۳۱۹ تست سبز · analyze سبز · آرشیو ۳۸۶ کارت.
+# 🎯 وضعیت (2026-09-25 دور ۷۷): DB schema v7 · ۳۱۹ تست سبز · analyze سبز · آرشیو ۴۳۶ کارت.
 #   کارهای باز و کارنامه‌ی جلسه‌ها: PLAN.md بالای فایل.
 
 ---
@@ -120,7 +121,7 @@
   · کد: هر کارت ⇒ صفحه‌ی خودش (`/vokabular/wort/:id`) + ردیف خودش در «Alle Wörter»؛ صفحه‌ی قدیمی همان کلمه کارت را فقط **اضافه** نشان می‌دهد (`features/wortschatz/data/altwort_karte.dart`). نگهبان: `test/altwort_karte_test.dart` («Grundregel»).
 - **🔁 تکراری‌ها (L.4d):** فقط **در آخرین مرحله** (هر چهار فهرست صفر تا صد وارد شد) Claude همه‌ی کلمه‌های اضافی/دوبرابر را پیدا می‌کند و در PLAN.md → «🔁 مرحله‌ی آخر (۲)» ثبت می‌کند؛ **Lukas تصمیم می‌گیرد**. وسط روال بررسی لازم نیست.
 - **⚡ سرعت:** `bash tool/wort_runde.sh /tmp/batch.json` = مراحل ۵–۷ (dry-run ⇒ import ⇒ index ⇒ ✓ ⇒ analyze ⇒ test ⇒ ۱۰ کلمه‌ی بعدی) در یک اجرا؛ اولین مشکل ⇒ توقف.
-- **پیشرفت (2026-09-25 دور ۷۲):** آخرین کلمه‌ی ساخته‌شده **angelegentlich** · بعدی **angelsächsisch** · کنار گذاشته: abatisch، abdikativ، afrikaans، aldente، aleppinisch، allenfallsig، altaltbacken، Altdorfer، altkrank، amaranten، ambient، amethysten، amphibolisch، anamorph، anelliert (فهرست کامل: PLAN.md → «🏁 مرحله‌ی آخر») · آرشیو: ۳۸۶ کارت.
+- **پیشرفت (2026-09-25 دور ۷۷):** آخرین کلمه‌ی ساخته‌شده **anthropozentrisch** · بعدی **antiamerikanisch** · کنار گذاشته: abatisch، abdikativ، afrikaans، aldente، aleppinisch، allenfallsig، altaltbacken، Altdorfer، altkrank، amaranten، ambient، amethysten، amphibolisch، anamorph، anelliert، anotherm، antichretisch (فهرست کامل: PLAN.md → «🏁 مرحله‌ی آخر») · آرشیو: ۴۳۶ کارت.
 
 ## TECH STACK
 - Flutter Web — reine Web-App, gehostet auf GitHub Pages (seit 2026-09-13)

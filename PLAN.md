@@ -14,7 +14,8 @@
 > متن مفصل قبل از این خلاصه: `git show a078dc2:PLAN.md` (نسخه‌ی قدیمی‌تر: `afad3ab`).
 > 🗂️ **خلاصه‌سازی سوم (2026-09-24 دور ۶۳، درخواست Lukas — «سریع‌تر، بدون اشتباه»):** گزارش دور به دور کلمه‌ها، جدول پیشرفت و L.4b/L.4b-2 به چند خط کوتاه شد؛ متن کامل قبلی: `git show be0c77d:PLAN.md`.
 >
-> 🗓️ **آخرین جلسه:** 2026-09-25 (دور ۶۸–۷۲) — **۵۰ کلمه‌ی تازه** (درخواست Lukas: «پنجاه کلمه جدید»): altäthiopisch … angelegentlich ⇒ آرشیو **۳۸۶ کارت** (هر دور: dry-run ۰ خطا/۰ هشدار، analyze سبز، ۳۱۹ تست سبز؛ هر دور commit خودش). **۶ کلمه کنار گذاشته** (⇒ «🏁 مرحله‌ی آخر» #10–15 + `zurueckgestellt`): amaranten، ambient، amethysten، amphibolisch، anamorph، anelliert. **Wortart درست:** andante و anderweit ⇒ `adverb` (Duden) + `wortartKorrektur`. ⏭️ Claude: G7e ⇒ G7d؛ کلمه‌ها موازی **از angelsächsisch**. L.2d و L.6 منتظر منبع Lukas.
+> 🗓️ **آخرین جلسه:** 2026-09-25 (دور ۷۳–۷۷) — **۵۰ کلمه‌ی تازه‌ی دیگر** (درخواست Lukas: «پنجاه تای بعدی»): angelsächsisch … anthropozentrisch ⇒ آرشیو **۴۳۶ کارت** (هر دور: dry-run ۰ خطا/۰ هشدار، analyze سبز، ۳۱۹ تست سبز؛ هر دور commit خودش). **۲ کلمه کنار گذاشته** (⇒ «🏁 مرحله‌ی آخر» #16–17 + `zurueckgestellt`): anotherm، antichretisch. ⏭️ Claude: G7e ⇒ G7d؛ کلمه‌ها موازی **از antiamerikanisch**. L.2d و L.6 منتظر منبع Lukas.
+> قبلی: 2026-09-25 (دور ۶۸–۷۲) — **۵۰ کلمه‌ی تازه** (درخواست Lukas: «پنجاه کلمه جدید»): altäthiopisch … angelegentlich ⇒ آرشیو **۳۸۶ کارت** (هر دور: dry-run ۰ خطا/۰ هشدار، analyze سبز، ۳۱۹ تست سبز؛ هر دور commit خودش). **۶ کلمه کنار گذاشته** (⇒ «🏁 مرحله‌ی آخر» #10–15 + `zurueckgestellt`): amaranten، ambient، amethysten، amphibolisch، anamorph، anelliert. **Wortart درست:** andante و anderweit ⇒ `adverb` (Duden) + `wortartKorrektur`. ⏭️ Claude: G7e ⇒ G7d؛ کلمه‌ها موازی **از angelsächsisch**. L.2d و L.6 منتظر منبع Lukas.
 > قبلی: 2026-09-25 (دور ۶۷) — **🎉 انتشار: Lukas لینک وب‌اپ را عمومی منتشر کرد.** کدی عوض نشد. ⏭️ Claude (ترتیب «بعد از انتشار»): **G7e** (ذخیره‌ی نتیجه‌ی آزمون سطح در داده‌ی کاربر + پشتیبان + همگام‌سازی) ⇒ **G7d** (تمرین Redemittel و deckهای دیگر)؛ کلمه‌ها با «ده کلمه جدید» موازی ادامه دارند (از altäthiopisch). L.2d و L.6 منتظر منبع Lukas.
 > قبلی: 2026-09-24 (دور ۶۶) — **🚀 همه‌ی شرط‌های «قبل از انتشار» ✅** (Lukas بندهای ۲–۴ را هم روی آیفون/تلگرام تأیید کرد). فقط L.6 (اختیاری) باز است. ⏭️ Lukas: انتشار (اعلام در کانال). ⏭️ Claude بعد از انتشار: G7e ⇒ G7d (ترتیب «بعد از انتشار»؛ L.2d منتظر منبع Lukas). **L.3 ✅ تأیید Lukas روی مک:** اپ آفلاین کامل کار می‌کند جز اخبار (طبق طراحی). ⚠️ نکته‌ی DevTools: صفحه‌ی کلی Cache storage همیشه خالی به نظر می‌رسد؛ باید فلش ▶ کنارش را باز کرد.
 > قبلی: 2026-09-24 (دور ۶۵) — **فاز Z ثبت شد (تصمیم Lukas؛ فقط برنامه، هیچ کدی ساخته نشد):** آخرین مرحله‌ی کل پروژه، بعد از کامل شدن همه‌ی بخش‌ها و سبز بودن همه‌ی تست‌ها — Z.1 ربات تلگرام واقعی ⇒ Z.2 تبلیغات گوگل ⇒ Z.3 اندروید/آیفون. بخش «🌍 فاز Z» ته فایل + فهرست مطالب + «⏭️ بعد از انتشار». **ادامه‌ی کلمه‌ها از: altäthiopisch.**
@@ -26,7 +27,7 @@
 > قبلی: 2026-09-23 (دور ۲۶–۲۷) — **RTL در Auswendiglernen کامل** (نگهبان ~۴۰ فیلد، جدول‌ها LTR، `Wrap(textDirection: ltr)`، `DeutschMitEtikett`). ⏭️ Lukas: نگاه روی آیفون.
 >
 > 📜 **کارنامه (خیلی خلاصه):**
-> - **2026-09-25** — 🎉 انتشار (دور ۶۷) · ۵۰ کلمه‌ی تازه (دور ۶۸–۷۲، altäthiopisch … angelegentlich، آرشیو ۳۸۶) · andante/anderweit ⇒ adverb.
+> - **2026-09-25** — 🎉 انتشار (دور ۶۷) · ۱۰۰ کلمه‌ی تازه (دور ۶۸–۷۷، altäthiopisch … anthropozentrisch، آرشیو ۴۳۶) · andante/anderweit ⇒ adverb.
 > - **2026-09-24** — فاز Z ثبت (ربات تلگرام ⇒ تبلیغات گوگل ⇒ اندروید/آیفون؛ آخرین مرحله) · L.3c تلگرام (`web/telegram_guard.js`) · ⭐ اصل اول کلمه‌ها (هر کلمه صفحه‌ی جدید؛ تکراری‌ها فقط در آخر، تصمیم Lukas) + `tool/wort_runde.sh` + خلاصه‌سازی سوم · ۲۳۹ کلمه‌ی تازه (دور ۳۲–۶۲، abbruchreif … alttestamentlich، آرشیو ۳۳۶) · L.4d ثبت · L.4b/L.4b-2 (منسوخ) · L.3 آفلاین: `vox_sw.js` · تصمیم اسم‌ها.
 > - **2026-09-23** — L.3b نگهبان زبان مرورگر (`web/locale_guard.js`، vox + Root-in) · L.2d تصمیم (deckهای خالی «به‌زودی» می‌مانند) · B-13 لایتنر هر دو منبع · تست آیفون ✅ · پاپ‌آپ کلمه: German News، تلفظ برای هر کلمه، پیام جدای «بارگذاری نشد»، **شکل‌های صرف‌شده** (`assets/vocab_formen/`) · RTL: `deutschLinksbuendig` + `DeutschRichText` + جدول‌های گرامر LTR + نگهبان چندخطی · R-2.3 ثبت شد · رمز فراموشی با جریان implicit.
 > - **2026-09-22** — L.1d حذف حساب (هر دو اپ) · R-2.1 Präpositionen · قفل قالب ایمیل Supabase.
@@ -94,7 +95,7 @@
 
 | فهرست | انجام‌شده (آخرین کلمه) | کلمه‌ی بعدی | کنار گذاشته (منتظر Lukas) |
 |---|---|---|---|
-| ۱. `Adjektive.txt` (صفت) | aalartig … **angelegentlich** (دور ۲۸–۷۲؛ فهرست دقیق: ✓ در `Adjektive.txt` = کارت در `assets/vocab/`) | **angelsächsisch** | abatisch (2026-09-23) · abdikativ (2026-09-24) — معنا نامطمئن · afrikaans (2026-09-24) — کاربرد صفتی نامطمئن · aldente (2026-09-24) — املا مشکوک · aleppinisch (2026-09-24) — کاربرد صفتی نامطمئن · allenfallsig (2026-09-24) — شکل ثابت‌شده ندارد · altaltbacken (2026-09-24) — املا مشکوک · Altdorfer (2026-09-24) — اسم خاص/صفت مکانی · altkrank (2026-09-24) — معنا/کاربرد نامطمئن · amaranten · ambient · amethysten · amphibolisch · anamorph · anelliert (2026-09-25؛ دلیل‌ها: «🏁 مرحله‌ی آخر» #10–15) |
+| ۱. `Adjektive.txt` (صفت) | aalartig … **anthropozentrisch** (دور ۲۸–۷۷؛ فهرست دقیق: ✓ در `Adjektive.txt` = کارت در `assets/vocab/`) | **antiamerikanisch** | abatisch (2026-09-23) · abdikativ (2026-09-24) — معنا نامطمئن · afrikaans (2026-09-24) — کاربرد صفتی نامطمئن · aldente (2026-09-24) — املا مشکوک · aleppinisch (2026-09-24) — کاربرد صفتی نامطمئن · allenfallsig (2026-09-24) — شکل ثابت‌شده ندارد · altaltbacken (2026-09-24) — املا مشکوک · Altdorfer (2026-09-24) — اسم خاص/صفت مکانی · altkrank (2026-09-24) — معنا/کاربرد نامطمئن · amaranten · ambient · amethysten · amphibolisch · anamorph · anelliert · anotherm · antichretisch (2026-09-25؛ دلیل‌ها: «🏁 مرحله‌ی آخر» #10–17) |
 | ۲. `Verben_unregelmaeßig_Infinitiv.txt` (فعل بی‌قاعده) | — | abbacken | — |
 | ۳. `Verben_regelmaesig.txt` (فعل باقاعده) | — | aalen | — |
 | ۴. `substantiv_singular_alle.txt` (اسم) | — | Aachen | — |
@@ -104,7 +105,7 @@
 - ⛔ **قبل از شروع اسم‌ها (فهرست ۴) حتماً از Lukas بپرس:** اسم‌هایی که آرتیکل ندارند (بیشتر نام شهرها و کشورها، مثل Aachen) چطور ساخته شوند — تصمیم Lukas: «وقتی به اسم‌ها رسیدیم، قبلش دوباره سؤال کن». ⚠️ همان‌جا بپرس: **هم‌نویسه‌ها با همان Wortart** (مثل der See / die See) طبق `vokabId` یک id می‌گیرند و فعلاً فقط یکی ساخته می‌شود — با ⭐ اصل اول (همه ساخته شوند) باید id دوم تعریف شود (تغییر `vokab_schema.dart` ⇒ فقط با تأیید Lukas).
 - ⚠️ برای اسم‌ها: `substantiv_singular_alle.txt` بدون آرتیکل است ⇒ genus از `substantiv_singular_der/die/das.txt`؛ نام‌های خاص (شهر/کشور، مثل Aachen) هم در فهرست‌اند — وقتی رسیدیم، همان قاعده‌ی پرامپت (مطمئن نیستی ⇒ نساز) و گزارش به Lukas.
 - ✅ **Wortart غلط در فهرست (2026-09-24 دور ۳۴):** aberhundert و abertausend (و عددهای ترتیبی achte، achtzehnte، achtzigste) در Adjektive.txt هستند ولی طبق Duden «unbestimmtes Zahlwort»اند ⇒ کارت در `assets/vocab/numerale/` ساخته شد و در `wortartKorrektur` (`tool/naechste_woerter.dart`) ثبت شد تا ابزار آن‌ها را ساخته‌شده بشناسد. قاعده: Wortart درست (Duden) مهم‌تر از برچسب فهرست است؛ هر مورد تازه همان‌جا ثبت شود. **2026-09-25 دور ۷۱:** andante (نشانه‌ی تمپوی موسیقی) و anderweit (صفتش anderweitig است) ⇒ `assets/vocab/adverb/`.
-- کارت‌های دیگر آرشیو (افعال Dativ و …) از deckها آمده‌اند، نه از این فهرست‌ها. کل آرشیو: **۳۸۶ کارت** (2026-09-25 دور ۷۲).
+- کارت‌های دیگر آرشیو (افعال Dativ و …) از deckها آمده‌اند، نه از این فهرست‌ها. کل آرشیو: **۴۳۶ کارت** (2026-09-25 دور ۷۷).
 
 ## INHALTSVERZEICHNIS (فهرست مطالب)
 
@@ -1169,6 +1170,8 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | 13 | amphibolisch | `Adjektive.txt` | 2026-09-25 | دو معنای ممکن از دو رشته (منطق: «دوپهلو» / کانی‌شناسی: «مربوط به آمفیبول») — کدام مقصود است مطمئن نیستم | — |
 | 14 | anamorph | `Adjektive.txt` | 2026-09-25 | معنا بسته به رشته فرق می‌کند (اپتیک/زیست‌شناسی/قارچ‌شناسی) و رایج‌ترینش را مطمئن نمی‌دانم | — |
 | 15 | anelliert | `Adjektive.txt` | 2026-09-25 | نه معنا و نه شکل ثبت‌شده‌ای برایش می‌شناسم (احتمالاً اصطلاح خیلی تخصصی یا املای غلط) | — |
+| 16 | anotherm | `Adjektive.txt` | 2026-09-25 | معنا و رشته‌ی کاربردش را مطمئن نمی‌دانم (شاید اصطلاح لیمنولوژی/دمای آب؟) — قاعده‌ی ۱۴: حدس ممنوع | — |
+| 17 | antichretisch | `Adjektive.txt` | 2026-09-25 | اصطلاح حقوقی خیلی تخصصی (احتمالاً از Antichrese: نوعی رهن که طلبکار از درآمد مال استفاده می‌کند) — معنای دقیق مطمئن نیست | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 
