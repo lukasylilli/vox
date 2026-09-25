@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_aufzaehlbar",
+  "wort": "aufzählbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "شمارش‌پذیر",
+      "قابل برشمردن"
+    ],
+    "en": [
+      "enumerable",
+      "countable"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik",
+    "Wissenschaft"
+  ],
+  "ipa": "ˈaʊ̯fˌt͡sɛːlbaːɐ̯",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Gründe sind leicht aufzählbar.",
+      "uebersetzung": {
+        "fa": "دلیل‌ها را به‌راحتی می‌شود برشمرد.",
+        "en": "The reasons are easy to enumerate."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In der Informatik nennt man eine Menge aufzählbar, wenn ein Programm alle ihre Elemente nacheinander ausgeben kann.",
+      "uebersetzung": {
+        "fa": "در علوم رایانه مجموعه‌ای را شمارش‌پذیر می‌نامند که یک برنامه بتواند همه‌ی عضوهایش را یکی‌یکی خروجی دهد.",
+        "en": "In computer science a set is called enumerable if a program can output all its elements one after another."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abzählbar",
+      "uebersetzung": {
+        "fa": "شمارش‌پذیر",
+        "en": "countable"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "unzählbar",
+      "uebersetzung": {
+        "fa": "بی‌شمار",
+        "en": "uncountable"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aufzählen (برشمردن) + -bar (پذیر)",
+    "en": "aufzählen (to enumerate) + -bar (-able)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "aufzählbar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine aufzählbare Menge",
+      "die aufzählbaren Elemente"
+    ],
+    "gegensatzpaar": "aufzählbar ↔ unzählbar"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "zählen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شمردن",
+          "en": "to count"
+        },
+        "id_ref": "verb_zaehlen"
+      },
+      {
+        "wort": "aufzählen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برشمردن",
+          "en": "to list"
+        },
+        "id_ref": "verb_aufzaehlen"
+      },
+      {
+        "wort": "die Aufzählung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فهرست، برشماری",
+          "en": "enumeration"
+        },
+        "id_ref": "nomen_aufzaehlung"
+      },
+      {
+        "wort": "die Menge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مجموعه، مقدار",
+          "en": "set, amount"
+        },
+        "id_ref": "nomen_menge"
+      },
+      {
+        "wort": "unzählbar",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بی‌شمار",
+          "en": "countless"
+        },
+        "id_ref": "adjektiv_unzaehlbar"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

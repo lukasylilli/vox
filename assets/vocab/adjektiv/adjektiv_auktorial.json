@@ -1,0 +1,127 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_auktorial",
+  "wort": "auktorial",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "دانای کل (راوی)",
+      "مؤلفی"
+    ],
+    "en": [
+      "authorial",
+      "omniscient (narrator)"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Literatur"
+  ],
+  "ipa": "aʊ̯ktoˈʁi̯aːl",
+  "anmerkung": "Fachwort der Literaturwissenschaft (Erzählperspektive).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Roman hat einen auktorialen Erzähler.",
+      "uebersetzung": {
+        "fa": "این رمان راوی دانای کل دارد.",
+        "en": "The novel has an omniscient narrator."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ein auktorialer Erzähler weiß mehr als die Figuren, weil er ihre Gedanken und ihre Zukunft kennt.",
+      "uebersetzung": {
+        "fa": "راوی دانای کل بیشتر از شخصیت‌ها می‌داند، چون افکار و آینده‌شان را می‌شناسد.",
+        "en": "An omniscient narrator knows more than the characters because he knows their thoughts and their future."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "personal",
+      "uebersetzung": {
+        "fa": "(راوی) محدود به یک شخصیت",
+        "en": "limited (narration)"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Auktor (لاتین: مؤلف) + -ial (پسوند صفت)",
+    "en": "Auktor (Latin auctor: author) + -ial (adjective suffix)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "auktorial",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein auktorialer Erzähler",
+      "die auktoriale Erzählsituation"
+    ],
+    "gegensatzpaar": "auktorial ↔ personal"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Autor",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نویسنده",
+          "en": "author"
+        },
+        "id_ref": "nomen_autor"
+      },
+      {
+        "wort": "der Erzähler",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "راوی",
+          "en": "narrator"
+        },
+        "id_ref": "nomen_erzaehler"
+      },
+      {
+        "wort": "die Perspektive",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دیدگاه",
+          "en": "perspective"
+        },
+        "id_ref": "nomen_perspektive"
+      },
+      {
+        "wort": "der Roman",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رمان",
+          "en": "novel"
+        },
+        "id_ref": "nomen_roman"
+      },
+      {
+        "wort": "personal",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "(راوی) سوم‌شخص محدود",
+          "en": "personal (narration)"
+        },
+        "id_ref": "adjektiv_personal"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
