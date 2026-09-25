@@ -49,6 +49,12 @@ const zurueckgestellt = <String>{
   'altaltbacken', // Schreibung zweifelhaft (wohl «altbacken») 2026-09-24
   'Altdorfer', // Eigenname/Herkunftsbezeichnung, kein gewöhnliches Adjektiv 2026-09-24
   'altkrank', // Bedeutung/Gebrauch unsicher 2026-09-24
+  'amaranten', // Bedeutung/Gebrauch unsicher (veraltet?) 2026-09-25
+  'ambient', // als deutsches Adjektiv nicht gesichert (v. a. Nomen «Ambient») 2026-09-25
+  'amethysten', // Bedeutung unsicher («aus Amethyst» oder «amethystfarben»?) 2026-09-25
+  'amphibolisch', // Bedeutung unsicher (Logik «mehrdeutig» oder Mineral «Amphibol»?) 2026-09-25
+  'anamorph', // Bedeutung fachabhängig unsicher (Optik/Biologie/Mykologie) 2026-09-25
+  'anelliert', // keine gesicherte Bedeutung/Form gefunden 2026-09-25
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
@@ -60,6 +66,8 @@ const wortartKorrektur = <String, String>{
   'achte': 'numerale', // Ordinalzahl (2026-09-24)
   'achtzehnte': 'numerale', // Ordinalzahl (2026-09-24)
   'achtzigste': 'numerale', // Ordinalzahl (2026-09-24)
+  'andante': 'adverb', // Tempobezeichnung, Duden: Adverb (2026-09-25)
+  'anderweit': 'adverb', // Duden: Adverb; Adjektiv ist «anderweitig» (2026-09-25)
 };
 
 /// `--abhaken` (Schritt 6 der Routine): setzt in ALLEN Listen «✓ » vor jedes

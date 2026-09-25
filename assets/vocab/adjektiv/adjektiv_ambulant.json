@@ -1,0 +1,124 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_ambulant",
+  "wort": "ambulant",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "سرپایی"
+    ],
+    "en": [
+      "outpatient",
+      "ambulatory"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Medizin"
+  ],
+  "ipa": "ambuˈlant",
+  "anmerkung": "Auch: ambulanter Handel (umherziehend, nicht an einem festen Ort).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Operation ist ambulant.",
+      "uebersetzung": {
+        "fa": "این عمل سرپایی است.",
+        "en": "The operation is outpatient."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil der Eingriff ambulant durchgeführt wird, kann der Patient noch am selben Tag nach Hause gehen.",
+      "uebersetzung": {
+        "fa": "چون عمل به‌صورت سرپایی انجام می‌شود، بیمار می‌تواند همان روز به خانه برگردد.",
+        "en": "Because the procedure is done on an outpatient basis, the patient can go home the same day."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "stationär",
+      "uebersetzung": {
+        "fa": "بستری",
+        "en": "inpatient"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "steigerung": {
+      "positiv": "ambulant",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine ambulante Behandlung",
+      "der ambulante Pflegedienst"
+    ],
+    "gegensatzpaar": "ambulant ↔ stationär"
+  },
+  "wortnetz": {
+    "grundwort": "die Ambulanz",
+    "woerter": [
+      {
+        "wort": "der Arzt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پزشک",
+          "en": "doctor"
+        },
+        "id_ref": "nomen_arzt"
+      },
+      {
+        "wort": "das Krankenhaus",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمارستان",
+          "en": "hospital"
+        },
+        "id_ref": "nomen_krankenhaus"
+      },
+      {
+        "wort": "die Behandlung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درمان",
+          "en": "treatment"
+        },
+        "id_ref": "nomen_behandlung"
+      },
+      {
+        "wort": "stationär",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بستری",
+          "en": "inpatient"
+        },
+        "id_ref": "adjektiv_stationaer"
+      },
+      {
+        "wort": "die Ambulanz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "درمانگاه سرپایی؛ آمبولانس",
+          "en": "outpatient clinic; ambulance"
+        },
+        "id_ref": "nomen_ambulanz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
