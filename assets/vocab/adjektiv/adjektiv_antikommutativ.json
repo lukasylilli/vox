@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_antikommutativ",
+  "wort": "antikommutativ",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "پادجابه‌جایی (ریاضی)"
+    ],
+    "en": [
+      "anticommutative"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik",
+    "Wissenschaft"
+  ],
+  "ipa": "ˈantikɔmutaˌtiːf",
+  "anmerkung": "Fachsprachlich (Mathematik): a · b = −(b · a). Nicht steigerbar.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Diese Operation ist antikommutativ.",
+      "uebersetzung": {
+        "fa": "این عمل پادجابه‌جایی است.",
+        "en": "This operation is anticommutative."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Kreuzprodukt ist antikommutativ, weil sich das Vorzeichen ändert, wenn man die Reihenfolge der Vektoren vertauscht.",
+      "uebersetzung": {
+        "fa": "ضرب خارجی پادجابه‌جایی است، چون اگر ترتیب بردارها را عوض کنیم علامت تغییر می‌کند.",
+        "en": "The cross product is anticommutative because the sign changes when you swap the order of the vectors."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "kommutativ",
+      "uebersetzung": {
+        "fa": "جابه‌جایی (ریاضی)",
+        "en": "commutative"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "anti- (ضد) + kommutativ (جابه‌جایی)",
+    "en": "anti- (against) + kommutativ (commutative)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "antikommutativ",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine antikommutative Verknüpfung",
+      "das antikommutative Produkt"
+    ],
+    "gegensatzpaar": "antikommutativ ↔ kommutativ"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Mathematik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریاضیات",
+          "en": "mathematics"
+        },
+        "id_ref": "nomen_mathematik"
+      },
+      {
+        "wort": "die Reihenfolge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ترتیب",
+          "en": "order"
+        },
+        "id_ref": "nomen_reihenfolge"
+      },
+      {
+        "wort": "das Vorzeichen",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "علامت (مثبت/منفی)",
+          "en": "sign"
+        },
+        "id_ref": "nomen_vorzeichen"
+      },
+      {
+        "wort": "der Vektor",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بردار",
+          "en": "vector"
+        },
+        "id_ref": "nomen_vektor"
+      },
+      {
+        "wort": "kommutativ",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "جابه‌جایی",
+          "en": "commutative"
+        },
+        "id_ref": "adjektiv_kommutativ"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
