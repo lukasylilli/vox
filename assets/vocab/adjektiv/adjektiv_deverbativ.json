@@ -1,0 +1,134 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_deverbativ",
+  "wort": "deverbativ",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "برگرفته از فعل (زبان‌شناسی)"
+    ],
+    "en": [
+      "deverbal, deverbative"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Grammatik",
+    "Linguistik"
+  ],
+  "ipa": "deˈvɛʁbatiːf",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "„Lesung“ ist ein deverbatives Nomen.",
+      "uebersetzung": {
+        "fa": "«Lesung» یک اسمِ برگرفته از فعل است.",
+        "en": "'Lesung' is a deverbal noun."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Viele deverbative Substantive enden auf „-ung“, zum Beispiel „Übung“ von „üben“.",
+      "uebersetzung": {
+        "fa": "خیلی از اسم‌های برگرفته از فعل به «-ung» ختم می‌شوند، مثلاً «Übung» از «üben».",
+        "en": "Many deverbal nouns end in '-ung', for example 'Übung' from 'üben'."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "deverbal",
+      "uebersetzung": {
+        "fa": "برگرفته از فعل",
+        "en": "deverbal"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "denominal",
+      "uebersetzung": {
+        "fa": "برگرفته از اسم",
+        "en": "denominal"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. de- (از) + verbum (فعل) + -ativ",
+    "en": "Latin de- (from) + verbum (verb) + -ativ"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "deverbativ",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein deverbatives Substantiv",
+      "die deverbative Ableitung"
+    ],
+    "gegensatzpaar": "deverbativ ↔ denominal"
+  },
+  "wortnetz": {
+    "grundwort": "Verb",
+    "woerter": [
+      {
+        "wort": "das Verb",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فعل",
+          "en": "verb"
+        },
+        "id_ref": "nomen_verb"
+      },
+      {
+        "wort": "das Nomen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اسم",
+          "en": "noun"
+        },
+        "id_ref": "nomen_nomen"
+      },
+      {
+        "wort": "die Endung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پسوند",
+          "en": "ending"
+        },
+        "id_ref": "nomen_endung"
+      },
+      {
+        "wort": "die Ableitung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اشتقاق",
+          "en": "derivation"
+        },
+        "id_ref": "nomen_ableitung"
+      },
+      {
+        "wort": "die Wortbildung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "واژه‌سازی",
+          "en": "word formation"
+        },
+        "id_ref": "nomen_wortbildung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
