@@ -1,0 +1,134 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_disjunkt",
+  "wort": "disjunkt",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "جدا از هم، بدون اشتراک (ریاضی)"
+    ],
+    "en": [
+      "disjoint"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik",
+    "Logik"
+  ],
+  "ipa": "dɪsˈjʊŋkt",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die beiden Mengen sind disjunkt.",
+      "uebersetzung": {
+        "fa": "این دو مجموعه جدا از هم‌اند.",
+        "en": "The two sets are disjoint."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Zwei Mengen heißen disjunkt, wenn sie kein einziges gemeinsames Element haben.",
+      "uebersetzung": {
+        "fa": "دو مجموعه را جدا از هم می‌نامند، اگر هیچ عضو مشترکی نداشته باشند.",
+        "en": "Two sets are called disjoint if they have no element in common."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "getrennt",
+      "uebersetzung": {
+        "fa": "جدا",
+        "en": "separate"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "überlappend",
+      "uebersetzung": {
+        "fa": "هم‌پوشان",
+        "en": "overlapping"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. disiunctus (جداشده)",
+    "en": "Latin disiunctus (separated)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "disjunkt",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "disjunkte Mengen",
+      "die disjunkten Intervalle"
+    ],
+    "gegensatzpaar": "disjunkt ↔ überlappend"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "trennen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جدا کردن",
+          "en": "to separate"
+        },
+        "id_ref": "verb_trennen"
+      },
+      {
+        "wort": "die Menge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مجموعه، مقدار",
+          "en": "set"
+        },
+        "id_ref": "nomen_menge"
+      },
+      {
+        "wort": "gemeinsam",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مشترک",
+          "en": "common"
+        },
+        "id_ref": "adjektiv_gemeinsam"
+      },
+      {
+        "wort": "das Element",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عضو، عنصر",
+          "en": "element"
+        },
+        "id_ref": "nomen_element"
+      },
+      {
+        "wort": "die Mathematik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریاضی",
+          "en": "mathematics"
+        },
+        "id_ref": "nomen_mathematik"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

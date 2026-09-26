@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_diploid",
+  "wort": "diploid",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "دولاد (دارای دو دسته کروموزوم)"
+    ],
+    "en": [
+      "diploid"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Biologie",
+    "Medizin"
+  ],
+  "ipa": "diploˈiːt",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Zelle ist diploid.",
+      "uebersetzung": {
+        "fa": "این سلول دولاد است.",
+        "en": "The cell is diploid."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Menschliche Körperzellen sind diploid, während Ei- und Samenzellen nur einen einfachen Chromosomensatz haben.",
+      "uebersetzung": {
+        "fa": "سلول‌های بدن انسان دولادند، در حالی که تخمک و اسپرم فقط یک دسته کروموزوم دارند.",
+        "en": "Human body cells are diploid, while egg and sperm cells have only a single set of chromosomes."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "haploid",
+      "uebersetzung": {
+        "fa": "تک‌لاد",
+        "en": "haploid"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "gr. diploos (دوتایی) + -id",
+    "en": "Greek diploos (double) + -id"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "diploid",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine diploide Zelle",
+      "der diploide Chromosomensatz"
+    ],
+    "gegensatzpaar": "diploid ↔ haploid"
+  },
+  "wortnetz": {
+    "grundwort": "Chromosom",
+    "woerter": [
+      {
+        "wort": "die Zelle",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سلول",
+          "en": "cell"
+        },
+        "id_ref": "nomen_zelle"
+      },
+      {
+        "wort": "die Biologie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زیست‌شناسی",
+          "en": "biology"
+        },
+        "id_ref": "nomen_biologie"
+      },
+      {
+        "wort": "das Gen",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ژن",
+          "en": "gene"
+        },
+        "id_ref": "nomen_gen"
+      },
+      {
+        "wort": "das Chromosom",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کروموزوم",
+          "en": "chromosome"
+        },
+        "id_ref": "nomen_chromosom"
+      },
+      {
+        "wort": "haploid",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "تک‌لاد",
+          "en": "haploid"
+        },
+        "id_ref": "adjektiv_haploid"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
