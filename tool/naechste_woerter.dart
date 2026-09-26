@@ -225,6 +225,7 @@ const zurueckgestellt = <String>{
   'flächsen', // Stoffadjektiv («aus Flachs»?) — wie birken 2026-09-26
   'flächsern', // Stoffadjektiv («aus Flachs»?) — wie birken 2026-09-26
   'flanellen', // Stoffadjektiv («aus Flanell»?) — wie batisten 2026-09-26
+  'fluvioglazial', // Fachwort der Geologie, Duden-Eintrag unsicher 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
