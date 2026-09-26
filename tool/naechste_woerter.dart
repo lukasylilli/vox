@@ -93,6 +93,11 @@ const zurueckgestellt = <String>{
   'bernsteinen', // Bedeutung unsicher («aus Bernstein»?) 2026-09-25
   'berstig', // keine gesicherte Form/Bedeutung 2026-09-25
   'berüscht', // Bedeutung/Gebrauch unsicher («mit Rüschen»?) 2026-09-25
+  'beschilft', // Bedeutung/Gebrauch unsicher («mit Schilf»?) 2026-09-25
+  'beschürzt', // Bedeutung/Gebrauch unsicher («mit Schürze»?) 2026-09-25
+  'besoffenbesondere', // Listenfehler (zwei Wörter zusammengeschrieben) 2026-09-25
+  'besonderes', // flektierte Form, keine Grundform (Lemma: «besonderer/besondere») 2026-09-25
+  'besonderer', // flektierte Form, keine Grundform 2026-09-25
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
