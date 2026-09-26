@@ -206,6 +206,7 @@ const zurueckgestellt = <String>{
   'extramundan', // Fachwort (Philosophie «außerweltlich»?), Duden-Eintrag unsicher 2026-09-26
   'extra-temporal', // Schreibweise/Bedeutung unsicher 2026-09-26
   'extratemporal', // Bedeutung/Duden-Eintrag unsicher (Medizin «außerhalb der Schläfe»?) 2026-09-26
+  'fabisch', // Bedeutung/Duden-Eintrag unsicher 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
