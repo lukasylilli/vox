@@ -86,6 +86,8 @@ const zurueckgestellt = <String>{
   'beinfarben', // Bedeutung unsicher («knochenfarben»?) 2026-09-25
   'bekrallt', // Bedeutung/Gebrauch unsicher («mit Krallen»?) 2026-09-25
   'bemähnt', // Bedeutung/Gebrauch unsicher («mit Mähne»?) 2026-09-25
+  'bemützt', // Bedeutung/Gebrauch unsicher («mit Mütze»?) 2026-09-25
+  'bepelzt', // Bedeutung/Gebrauch unsicher («mit Pelz»?) 2026-09-25
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
