@@ -170,6 +170,8 @@ const zurueckgestellt = <String>{
   'emeritus', // lateinisch, nur nachgestellt (Professor emeritus); kein gewöhnliches Adjektiv — wie designatus 2026-09-26
   'emisch', // Fachwort (Ethnologie/Linguistik «emisch»), Duden-Eintrag unsicher 2026-09-26
   'empathogen', // Fachwort der Pharmakologie, Duden-Eintrag unsicher 2026-09-26
+  'enaktiv', // Fachwort (Kognitionswissenschaft/Didaktik), Duden-Eintrag unsicher 2026-09-26
+  'endogenetisch', // Fachwort, Abgrenzung zu «endogen» unsicher 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

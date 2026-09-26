@@ -1,0 +1,134 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_endlich",
+  "wort": "endlich",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "محدود، پایان‌پذیر (ریاضی/فلسفه)"
+    ],
+    "en": [
+      "finite"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Mathematik",
+    "Philosophie"
+  ],
+  "ipa": "ˈɛntlɪç",
+  "anmerkung": "Als Adjektiv = begrenzt; sehr häufig als Adverb „endlich“ (= nach langer Zeit, schließlich).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Leben ist endlich.",
+      "uebersetzung": {
+        "fa": "زندگی پایان‌پذیر است.",
+        "en": "Life is finite."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Rohstoffe der Erde sind endlich, deshalb müssen wir sparsamer mit ihnen umgehen.",
+      "uebersetzung": {
+        "fa": "منابع زمین محدودند، به همین دلیل باید صرفه‌جویانه‌تر با آن‌ها رفتار کنیم.",
+        "en": "The earth's raw materials are finite, so we must use them more sparingly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "begrenzt",
+      "uebersetzung": {
+        "fa": "محدود",
+        "en": "limited"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "unendlich",
+      "uebersetzung": {
+        "fa": "بی‌پایان",
+        "en": "infinite"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Ende (پایان) + -lich",
+    "en": "Ende (end) + -lich"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "endlich",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine endliche Menge",
+      "die endlichen Ressourcen"
+    ],
+    "gegensatzpaar": "endlich ↔ unendlich"
+  },
+  "wortnetz": {
+    "grundwort": "Ende",
+    "woerter": [
+      {
+        "wort": "das Ende",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پایان",
+          "en": "end"
+        },
+        "id_ref": "nomen_ende"
+      },
+      {
+        "wort": "begrenzt",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "محدود",
+          "en": "limited"
+        },
+        "id_ref": "adjektiv_begrenzt"
+      },
+      {
+        "wort": "unendlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بی‌پایان",
+          "en": "infinite"
+        },
+        "id_ref": "adjektiv_unendlich"
+      },
+      {
+        "wort": "die Grenze",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مرز",
+          "en": "limit"
+        },
+        "id_ref": "nomen_grenze"
+      },
+      {
+        "wort": "die Ressource",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "منبع",
+          "en": "resource"
+        },
+        "id_ref": "nomen_ressource"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
