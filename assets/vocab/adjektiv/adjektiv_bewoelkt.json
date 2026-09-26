@@ -1,0 +1,148 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_bewoelkt",
+  "wort": "bewölkt",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "ابری"
+    ],
+    "en": [
+      "cloudy",
+      "overcast"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Wetter"
+  ],
+  "ipa": "bəˈvœlkt",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Heute ist es bewölkt.",
+      "uebersetzung": {
+        "fa": "امروز هوا ابری است.",
+        "en": "It's cloudy today."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Am Vormittag ist es noch bewölkt, aber am Nachmittag soll die Sonne herauskommen.",
+      "uebersetzung": {
+        "fa": "صبح هنوز ابری است، ولی قرار است بعدازظهر آفتاب دربیاید.",
+        "en": "It's still cloudy in the morning, but the sun is supposed to come out in the afternoon."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bedeckt",
+      "uebersetzung": {
+        "fa": "ابری",
+        "en": "overcast"
+      }
+    },
+    {
+      "wort": "wolkig",
+      "uebersetzung": {
+        "fa": "ابرآلود",
+        "en": "cloudy"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sonnig",
+      "uebersetzung": {
+        "fa": "آفتابی",
+        "en": "sunny"
+      }
+    },
+    {
+      "wort": "wolkenlos",
+      "uebersetzung": {
+        "fa": "بی‌ابر",
+        "en": "cloudless"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Wolke (ابر) → bewölken → صفت مفعولی",
+    "en": "be- + Wolke (cloud) → bewölken → past participle"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "bewölkt",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein bewölkter Himmel",
+      "die bewölkten Tage"
+    ],
+    "gegensatzpaar": "bewölkt ↔ sonnig"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Wolke",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ابر",
+          "en": "cloud"
+        },
+        "id_ref": "nomen_wolke"
+      },
+      {
+        "wort": "bedeckt",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ابری، پوشیده",
+          "en": "overcast"
+        },
+        "id_ref": "adjektiv_bedeckt"
+      },
+      {
+        "wort": "der Regen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باران",
+          "en": "rain"
+        },
+        "id_ref": "nomen_regen"
+      },
+      {
+        "wort": "das Wetter",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "هوا",
+          "en": "weather"
+        },
+        "id_ref": "nomen_wetter"
+      },
+      {
+        "wort": "sonnig",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آفتابی",
+          "en": "sunny"
+        },
+        "id_ref": "adjektiv_sonnig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

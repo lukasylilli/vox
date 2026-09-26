@@ -1,0 +1,145 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_bewehrt",
+  "wort": "bewehrt",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "مسلح، مجهز به (دفاع)",
+      "مسلّح (بتن)"
+    ],
+    "en": [
+      "armed",
+      "fortified",
+      "reinforced"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Militär",
+    "Natur"
+  ],
+  "ipa": "bəˈveːɐ̯t",
+  "anmerkung": "Gehoben; Bautechnik: «bewehrter Beton» = Stahlbeton.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Burg war gut bewehrt.",
+      "uebersetzung": {
+        "fa": "قلعه به‌خوبی مستحکم بود.",
+        "en": "The castle was well fortified."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Igel ist mit Stacheln bewehrt, sodass ihn viele Tiere lieber in Ruhe lassen.",
+      "uebersetzung": {
+        "fa": "جوجه‌تیغی با خارهایش مسلح است، طوری که خیلی از جانوران ترجیح می‌دهند کاری به کارش نداشته باشند.",
+        "en": "The hedgehog is armed with spines, so many animals prefer to leave it alone."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bewaffnet",
+      "uebersetzung": {
+        "fa": "مسلح",
+        "en": "armed"
+      }
+    },
+    {
+      "wort": "befestigt",
+      "uebersetzung": {
+        "fa": "مستحکم",
+        "en": "fortified"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Wehr (دفاع) + -t",
+    "en": "be- + Wehr (defence) + -t"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "bewehrt",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "bewehrt mit + Dat",
+        "beispiel": "Die Pflanze ist mit spitzen Dornen bewehrt.",
+        "uebersetzung": {
+          "fa": "این گیاه با خارهای تیز مسلح است.",
+          "en": "The plant is armed with sharp thorns."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein bewehrter Beton",
+      "die bewehrte Festung"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Wehr",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "دفاع",
+          "en": "defence"
+        },
+        "id_ref": "nomen_wehr"
+      },
+      {
+        "wort": "sich wehren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "از خود دفاع کردن",
+          "en": "to defend oneself"
+        },
+        "id_ref": "verb_sich_wehren"
+      },
+      {
+        "wort": "bewaffnet",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مسلح",
+          "en": "armed"
+        },
+        "id_ref": "adjektiv_bewaffnet"
+      },
+      {
+        "wort": "der Beton",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بتن",
+          "en": "concrete"
+        },
+        "id_ref": "nomen_beton"
+      },
+      {
+        "wort": "der Stachel",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خار",
+          "en": "spine"
+        },
+        "id_ref": "nomen_stachel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
