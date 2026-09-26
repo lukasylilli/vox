@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_feind",
+  "wort": "feind",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(قدیمی، فقط گزاره‌ای) دشمن، خصمانه"
+    ],
+    "en": [
+      "(dated, predicative) hostile"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Beziehung"
+  ],
+  "ipa": "faɪ̯nt",
+  "anmerkung": "Veraltet, nur prädikativ mit „sein“ oder „werden“ und kleingeschrieben; das Nomen ist „der Feind“.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er ist mir feind.",
+      "uebersetzung": {
+        "fa": "او با من دشمنی دارد.",
+        "en": "He is hostile to me."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die beiden Familien waren einander seit Generationen feind, obwohl keiner mehr den Grund wusste.",
+      "uebersetzung": {
+        "fa": "این دو خانواده نسل‌ها با هم دشمن بودند، با این‌که دیگر هیچ‌کس دلیلش را نمی‌دانست.",
+        "en": "The two families had been hostile to each other for generations, although no one knew the reason any more."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "feindlich",
+      "uebersetzung": {
+        "fa": "خصمانه",
+        "en": "hostile"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "freund",
+      "uebersetzung": {
+        "fa": "دوست (قدیمی)",
+        "en": "friendly"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "steigerung": {
+      "positiv": "feind",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "praedikativ",
+    "mit_praeposition": [
+      {
+        "muster": "jemandem feind sein (+ Dat)",
+        "beispiel": "Sie ist ihm nicht feind.",
+        "uebersetzung": {
+          "fa": "با او دشمنی ندارد.",
+          "en": "She bears him no hostility."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Feind",
+    "woerter": [
+      {
+        "wort": "der Feind",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دشمن",
+          "en": "enemy"
+        },
+        "id_ref": "nomen_feind"
+      },
+      {
+        "wort": "feindlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خصمانه",
+          "en": "hostile"
+        },
+        "id_ref": "adjektiv_feindlich"
+      },
+      {
+        "wort": "die Feindschaft",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دشمنی",
+          "en": "enmity"
+        },
+        "id_ref": "nomen_feindschaft"
+      },
+      {
+        "wort": "hassen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "متنفر بودن",
+          "en": "to hate"
+        },
+        "id_ref": "verb_hassen"
+      },
+      {
+        "wort": "der Freund",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دوست",
+          "en": "friend"
+        },
+        "id_ref": "nomen_freund"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
