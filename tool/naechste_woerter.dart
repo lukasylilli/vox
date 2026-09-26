@@ -101,6 +101,8 @@ const zurueckgestellt = <String>{
   'bestiefelt', // Bedeutung/Gebrauch unsicher («mit Stiefeln»?) 2026-09-25
   'bestrumpft', // Bedeutung/Gebrauch unsicher («mit Strümpfen»?) 2026-09-25
   'bestusst', // umgangssprachlich; Bedeutung/Gebrauch unsicher 2026-09-25
+  'betresst', // Bedeutung/Gebrauch unsicher («mit Tressen»?) 2026-09-25
+  'betrieben', // nur Partizip; als eigenständiges Adjektiv nicht gesichert (v. a. in Komposita wie «batteriebetrieben») 2026-09-25
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

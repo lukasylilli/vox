@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_beugbar",
+  "wort": "beugbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "صرف‌پذیر"
+    ],
+    "en": [
+      "inflectable",
+      "declinable"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Grammatik",
+    "Sprache"
+  ],
+  "ipa": "ˈbɔɪ̯kbaːɐ̯",
+  "anmerkung": "Grammatik: «beugbare Wortarten» = flektierbare Wortarten.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Adjektive sind beugbar.",
+      "uebersetzung": {
+        "fa": "صفت‌ها صرف‌پذیرند.",
+        "en": "Adjectives are inflectable."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Präpositionen sind nicht beugbar, während Nomen, Verben und Adjektive ihre Form ändern können.",
+      "uebersetzung": {
+        "fa": "حرف‌های اضافه صرف‌پذیر نیستند، در حالی که اسم‌ها، فعل‌ها و صفت‌ها می‌توانند شکلشان را تغییر دهند.",
+        "en": "Prepositions are not inflectable, whereas nouns, verbs and adjectives can change their form."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "flektierbar",
+      "uebersetzung": {
+        "fa": "صرف‌پذیر",
+        "en": "inflectable"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "unbeugbar",
+      "uebersetzung": {
+        "fa": "صرف‌ناپذیر",
+        "en": "uninflectable"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "beugen (صرف کردن) + -bar",
+    "en": "beugen (to inflect) + -bar (-able)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "beugbar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine beugbare Wortart",
+      "die beugbaren Wörter"
+    ],
+    "gegensatzpaar": "beugbar ↔ unbeugbar"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "beugen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خم کردن؛ صرف کردن",
+          "en": "to bend; to inflect"
+        },
+        "id_ref": "verb_beugen"
+      },
+      {
+        "wort": "die Beugung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "صرف",
+          "en": "inflection"
+        },
+        "id_ref": "nomen_beugung"
+      },
+      {
+        "wort": "deklinieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "صرف کردن (اسم/صفت)",
+          "en": "to decline"
+        },
+        "id_ref": "verb_deklinieren"
+      },
+      {
+        "wort": "konjugieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "صرف کردن (فعل)",
+          "en": "to conjugate"
+        },
+        "id_ref": "verb_konjugieren"
+      },
+      {
+        "wort": "unbeugbar",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "صرف‌ناپذیر",
+          "en": "uninflectable"
+        },
+        "id_ref": "adjektiv_unbeugbar"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
