@@ -1,0 +1,141 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_essbar",
+  "wort": "essbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "خوردنی"
+    ],
+    "en": [
+      "edible"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Essen",
+    "Natur"
+  ],
+  "ipa": "ˈɛsbaːɐ̯",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ist dieser Pilz essbar?",
+      "uebersetzung": {
+        "fa": "این قارچ خوردنی است؟",
+        "en": "Is this mushroom edible?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nicht alle Beeren im Wald sind essbar, deshalb sollte man nur sammeln, was man sicher kennt.",
+      "uebersetzung": {
+        "fa": "همه‌ی توت‌های جنگل خوردنی نیستند، به همین دلیل فقط باید چیزی را جمع کرد که مطمئن می‌شناسیم.",
+        "en": "Not all berries in the forest are edible, so you should only pick what you know for sure."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "genießbar",
+      "uebersetzung": {
+        "fa": "خوردنی",
+        "en": "edible"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "giftig",
+      "uebersetzung": {
+        "fa": "سمی",
+        "en": "poisonous"
+      }
+    },
+    {
+      "wort": "ungenießbar",
+      "uebersetzung": {
+        "fa": "غیرخوردنی",
+        "en": "inedible"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "essen (خوردن) + -bar",
+    "en": "essen (to eat) + -bar"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "essbar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein essbarer Pilz",
+      "die essbaren Blüten"
+    ],
+    "gegensatzpaar": "essbar ↔ giftig"
+  },
+  "wortnetz": {
+    "grundwort": "essen",
+    "woerter": [
+      {
+        "wort": "essen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوردن",
+          "en": "to eat"
+        },
+        "id_ref": "verb_essen"
+      },
+      {
+        "wort": "der Pilz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قارچ",
+          "en": "mushroom"
+        },
+        "id_ref": "nomen_pilz"
+      },
+      {
+        "wort": "giftig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سمی",
+          "en": "poisonous"
+        },
+        "id_ref": "adjektiv_giftig"
+      },
+      {
+        "wort": "genießbar",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خوردنی",
+          "en": "edible"
+        },
+        "id_ref": "adjektiv_geniessbar"
+      },
+      {
+        "wort": "die Beere",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "توت",
+          "en": "berry"
+        },
+        "id_ref": "nomen_beere"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
