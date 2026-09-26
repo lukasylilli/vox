@@ -120,6 +120,8 @@ const zurueckgestellt = <String>{
   'brillanten', // Bedeutung/Gebrauch unsicher (aus Brillanten?) 2026-09-26
   'brokaten', // Bedeutung/Gebrauch unsicher (aus Brokat?) 2026-09-26
   'buchen', // Bedeutung/Gebrauch unsicher («aus Buchenholz»?) — wie birken 2026-09-26
+  'bundrein', // Fachwort (Gitarrenbau?), Bedeutung/Duden-Eintrag unsicher 2026-09-26
+  'buntfarben', // Duden-Eintrag unsicher (gesichert: buntfarbig) 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
