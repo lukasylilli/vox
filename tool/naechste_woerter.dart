@@ -214,6 +214,8 @@ const zurueckgestellt = <String>{
   'fassettenartig', // Schreibvariante unsicher (gesichert: «facettenartig») 2026-09-26
   'fassettenreich', // Schreibvariante unsicher (gesichert: «facettenreich») 2026-09-26
   'fastidiös', // veraltet, Bedeutung unsicher («widerwärtig»? «wählerisch»?) 2026-09-26
+  'fekund', // selten, Duden-Eintrag unsicher («fruchtbar»?) 2026-09-26
+  'fennoskandisch', // Fachwort (Geologie/Geografie), Duden-Eintrag unsicher 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
