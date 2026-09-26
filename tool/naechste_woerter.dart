@@ -90,6 +90,9 @@ const zurueckgestellt = <String>{
   'bepelzt', // Bedeutung/Gebrauch unsicher («mit Pelz»?) 2026-09-25
   'beredet', // Bedeutung/Form unsicher (wohl Nebenform/Verwechslung mit «beredt») 2026-09-25
   'berindet', // Bedeutung/Gebrauch unsicher («mit Rinde»?) 2026-09-25
+  'bernsteinen', // Bedeutung unsicher («aus Bernstein»?) 2026-09-25
+  'berstig', // keine gesicherte Form/Bedeutung 2026-09-25
+  'berüscht', // Bedeutung/Gebrauch unsicher («mit Rüschen»?) 2026-09-25
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
