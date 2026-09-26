@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_endotherm",
+  "wort": "endotherm",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "گرماگیر"
+    ],
+    "en": [
+      "endothermic"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Chemie",
+    "Physik"
+  ],
+  "ipa": "ɛndoˈtɛʁm",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Reaktion ist endotherm.",
+      "uebersetzung": {
+        "fa": "این واکنش گرماگیر است.",
+        "en": "The reaction is endothermic."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Kühlpacks funktionieren durch eine endotherme Reaktion, die der Umgebung Wärme entzieht.",
+      "uebersetzung": {
+        "fa": "کیسه‌های خنک‌کننده با یک واکنش گرماگیر کار می‌کنند که گرما را از محیط می‌گیرد.",
+        "en": "Cold packs work through an endothermic reaction that draws heat from the surroundings."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "exotherm",
+      "uebersetzung": {
+        "fa": "گرماده",
+        "en": "exothermic"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "gr. endon (درون) + thermos (گرم)",
+    "en": "Greek endon (within) + thermos (warm)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "endotherm",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine endotherme Reaktion",
+      "der endotherme Prozess"
+    ],
+    "gegensatzpaar": "endotherm ↔ exotherm"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Wärme",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گرما",
+          "en": "warmth"
+        },
+        "id_ref": "nomen_waerme"
+      },
+      {
+        "wort": "die Reaktion",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "واکنش",
+          "en": "reaction"
+        },
+        "id_ref": "nomen_reaktion"
+      },
+      {
+        "wort": "die Chemie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شیمی",
+          "en": "chemistry"
+        },
+        "id_ref": "nomen_chemie"
+      },
+      {
+        "wort": "die Energie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انرژی",
+          "en": "energy"
+        },
+        "id_ref": "nomen_energie"
+      },
+      {
+        "wort": "exotherm",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "گرماده",
+          "en": "exothermic"
+        },
+        "id_ref": "adjektiv_exotherm"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

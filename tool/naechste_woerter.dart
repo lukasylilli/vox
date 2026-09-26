@@ -172,6 +172,9 @@ const zurueckgestellt = <String>{
   'empathogen', // Fachwort der Pharmakologie, Duden-Eintrag unsicher 2026-09-26
   'enaktiv', // Fachwort (Kognitionswissenschaft/Didaktik), Duden-Eintrag unsicher 2026-09-26
   'endogenetisch', // Fachwort, Abgrenzung zu «endogen» unsicher 2026-09-26
+  'endothym', // Fachwort (Psychologie), Bedeutung/Duden-Eintrag unsicher 2026-09-26
+  'endozentrisch', // Fachwort der Linguistik, Duden-Eintrag unsicher 2026-09-26
+  'enkaptisch', // Bedeutung/Duden-Eintrag unsicher 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
