@@ -114,6 +114,8 @@ const zurueckgestellt = <String>{
   'bland', // Fachwort (Medizin «mild, reizlos»?), unsicher 2026-09-25
   'blaustrümpfig', // Bedeutung/Gebrauch unsicher (abwertend für gebildete Frauen?) 2026-09-25
   'bonfortionös', // Schreibweise unsicher (Duden: «bomforzionös»?) 2026-09-26
+  'botrytisiert', // Fachwort (Weinbau), Duden-Eintrag unsicher 2026-09-26
+  'boustrophedon', // eher Adverb/Nomen (Bustrophedon), Wortart unsicher 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

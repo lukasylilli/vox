@@ -1,0 +1,129 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_brach",
+  "wort": "brach",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "آیش، کشت‌نشده",
+      "بلااستفاده"
+    ],
+    "en": [
+      "fallow",
+      "unused, idle"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Landwirtschaft"
+  ],
+  "ipa": "bʁaːx",
+  "anmerkung": "meist in „brachliegen“ / „brach liegen“.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Feld liegt brach.",
+      "uebersetzung": {
+        "fa": "این زمین آیش مانده است.",
+        "en": "The field lies fallow."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Viele Talente liegen brach, weil junge Menschen keine passende Ausbildung finden.",
+      "uebersetzung": {
+        "fa": "استعدادهای زیادی بلااستفاده می‌مانند، چون جوان‌ها آموزش مناسبی پیدا نمی‌کنند.",
+        "en": "Many talents lie idle because young people can't find suitable training."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ungenutzt",
+      "uebersetzung": {
+        "fa": "استفاده‌نشده",
+        "en": "unused"
+      }
+    },
+    {
+      "wort": "unbebaut",
+      "uebersetzung": {
+        "fa": "کشت‌نشده",
+        "en": "uncultivated"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "steigerung": {
+      "positiv": "brach",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "praedikativ",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Feld",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زمین کشاورزی",
+          "en": "field"
+        },
+        "id_ref": "nomen_feld"
+      },
+      {
+        "wort": "ungenutzt",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "استفاده‌نشده",
+          "en": "unused"
+        },
+        "id_ref": "adjektiv_ungenutzt"
+      },
+      {
+        "wort": "der Acker",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مزرعه",
+          "en": "field, farmland"
+        },
+        "id_ref": "nomen_acker"
+      },
+      {
+        "wort": "brachliegen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آیش ماندن؛ بلااستفاده ماندن",
+          "en": "to lie fallow"
+        },
+        "id_ref": "verb_brachliegen"
+      },
+      {
+        "wort": "die Brache",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "زمین آیش",
+          "en": "fallow land"
+        },
+        "id_ref": "nomen_brache"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_brackig",
+  "wort": "brackig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "لب‌شور (آب)",
+      "گندیده، راکد"
+    ],
+    "en": [
+      "brackish",
+      "stagnant, foul"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Natur",
+    "Wasser"
+  ],
+  "ipa": "ˈbʁakɪç",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Wasser ist brackig.",
+      "uebersetzung": {
+        "fa": "آب لب‌شور است.",
+        "en": "The water is brackish."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Am Flussdelta ist das Wasser brackig, weil sich Süßwasser und Meerwasser mischen.",
+      "uebersetzung": {
+        "fa": "در دلتای رود آب لب‌شور است، چون آب شیرین و آب دریا با هم مخلوط می‌شوند.",
+        "en": "In the river delta the water is brackish because fresh water and sea water mix."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "salzig",
+      "uebersetzung": {
+        "fa": "شور",
+        "en": "salty"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "klar",
+      "uebersetzung": {
+        "fa": "زلال",
+        "en": "clear"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Brack (آب لب‌شور، در زبان کهن آلمانی شمالی) + -ig",
+    "en": "Brack (brackish water, Low German) + -ig"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "brackig",
+      "komparativ": "brackiger",
+      "superlativ": "am brackigsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "brackiges Wasser",
+      "der brackige Tümpel"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Wasser",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب",
+          "en": "water"
+        },
+        "id_ref": "nomen_wasser"
+      },
+      {
+        "wort": "salzig",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شور",
+          "en": "salty"
+        },
+        "id_ref": "adjektiv_salzig"
+      },
+      {
+        "wort": "das Meer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دریا",
+          "en": "sea"
+        },
+        "id_ref": "nomen_meer"
+      },
+      {
+        "wort": "der Sumpf",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مرداب",
+          "en": "swamp"
+        },
+        "id_ref": "nomen_sumpf"
+      },
+      {
+        "wort": "das Brackwasser",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "آب لب‌شور",
+          "en": "brackish water"
+        },
+        "id_ref": "nomen_brackwasser"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
