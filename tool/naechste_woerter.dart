@@ -165,6 +165,8 @@ const zurueckgestellt = <String>{
   'eiben', // Stoffadjektiv («aus Eibenholz»?), Gebrauch unsicher — wie birken 2026-09-26
   'eichen', // Stoffadjektiv («aus Eichenholz»), leicht mit dem Verb «eichen» verwechselbar — wie birken 2026-09-26
   'einschaltbereit', // Bedeutung/Duden-Eintrag unsicher 2026-09-26
+  'elektrogen', // Fachwort, Bedeutung/Duden-Eintrag unsicher 2026-09-26
+  'elenktisch', // Fachwort (Philosophie «widerlegend»?), Duden-Eintrag unsicher 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
