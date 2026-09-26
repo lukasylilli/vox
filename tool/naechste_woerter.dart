@@ -125,6 +125,10 @@ const zurueckgestellt = <String>{
   'busig', // Bedeutung/Gebrauch unsicher (umgangssprachlich «vollbusig»?) — wie bebust 2026-09-26
   'bustrophedon', // eher Nomen/Adverb (das Bustrophedon), Wortart unsicher — wie boustrophedon 2026-09-26
   'chemometrisch', // Fachwort (Chemometrie), Duden-Eintrag unsicher 2026-09-26
+  'chilotisch', // Bedeutung unsicher (Chiloé? Chilote?) 2026-09-26
+  'chionophil', // Fachwort (Biologie «schneeliebend»?), unsicher 2026-09-26
+  'chochem', // im Duden nur als Nomen «der Chochem»; Adjektivgebrauch unsicher 2026-09-26
+  'chondritisch', // zwei mögliche Bedeutungen (Chondrit-Meteorit / Chondritis), unsicher 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
