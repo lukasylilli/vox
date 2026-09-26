@@ -151,6 +151,9 @@ const zurueckgestellt = <String>{
   'dissidentisch', // Duden-Eintrag unsicher (gesichert: «dissident») 2026-09-26
   'dissipativ', // Fachwort (Physik: «Energie zerstreuend»), Duden-Eintrag unsicher 2026-09-26
   'distich', // Fachwort (Botanik «zweizeilig»?) oder Verwechslung mit «Distichon»; unsicher 2026-09-26
+  'dolent', // Fachwort (Medizin «schmerzhaft»?), Duden-Eintrag unsicher 2026-09-26
+  'doloros', // Schreibvariante unsicher (gesichert: «dolorös») 2026-09-26
+  'dominicanisch', // Schreibweise unsicher (gesichert: «dominikanisch») 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

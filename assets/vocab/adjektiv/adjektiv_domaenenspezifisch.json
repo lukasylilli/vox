@@ -1,0 +1,134 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_domaenenspezifisch",
+  "wort": "domänenspezifisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "ویژه‌ی یک حوزه (تخصصی)"
+    ],
+    "en": [
+      "domain-specific"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft",
+    "Informatik"
+  ],
+  "ipa": "doˈmɛːnənʃpeˌtsiːfɪʃ",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das ist domänenspezifisches Wissen.",
+      "uebersetzung": {
+        "fa": "این دانشی ویژه‌ی یک حوزه است.",
+        "en": "That is domain-specific knowledge."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Für die Übersetzung medizinischer Texte braucht man domänenspezifisches Vokabular, das Laien nicht kennen.",
+      "uebersetzung": {
+        "fa": "برای ترجمه‌ی متن‌های پزشکی واژگانی تخصصیِ همان حوزه لازم است که افراد عادی نمی‌شناسند.",
+        "en": "To translate medical texts you need domain-specific vocabulary that laypeople don't know."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fachspezifisch",
+      "uebersetzung": {
+        "fa": "ویژه‌ی رشته",
+        "en": "subject-specific"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "allgemein",
+      "uebersetzung": {
+        "fa": "عمومی",
+        "en": "general"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Domäne (حوزه) + spezifisch (ویژه)",
+    "en": "Domäne (domain) + spezifisch (specific)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "domänenspezifisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein domänenspezifisches Wissen",
+      "die domänenspezifische Sprache"
+    ],
+    "gegensatzpaar": "domänenspezifisch ↔ allgemein"
+  },
+  "wortnetz": {
+    "grundwort": "Domäne",
+    "woerter": [
+      {
+        "wort": "das Fach",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رشته، درس",
+          "en": "subject"
+        },
+        "id_ref": "nomen_fach"
+      },
+      {
+        "wort": "spezifisch",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ویژه",
+          "en": "specific"
+        },
+        "id_ref": "adjektiv_spezifisch"
+      },
+      {
+        "wort": "das Wissen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دانش",
+          "en": "knowledge"
+        },
+        "id_ref": "nomen_wissen"
+      },
+      {
+        "wort": "die Domäne",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "حوزه",
+          "en": "domain"
+        },
+        "id_ref": "nomen_domaene"
+      },
+      {
+        "wort": "fachlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تخصصی",
+          "en": "professional"
+        },
+        "id_ref": "adjektiv_fachlich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
