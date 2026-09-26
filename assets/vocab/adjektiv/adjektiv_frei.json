@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_frei",
+  "wort": "frei",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "آزاد",
+      "خالی (جا)",
+      "رایگان",
+      "تعطیل"
+    ],
+    "en": [
+      "free",
+      "vacant",
+      "free of charge",
+      "off (work)"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Freizeit"
+  ],
+  "ipa": "fʁaɪ̯",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ist der Platz hier frei?",
+      "uebersetzung": {
+        "fa": "این جا خالی است؟",
+        "en": "Is this seat free?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil ich morgen frei habe, können wir zusammen ins Museum gehen.",
+      "uebersetzung": {
+        "fa": "چون فردا تعطیلم، می‌توانیم با هم به موزه برویم.",
+        "en": "Because I'm off tomorrow, we can go to the museum together."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "unabhängig",
+      "uebersetzung": {
+        "fa": "مستقل",
+        "en": "independent"
+      }
+    },
+    {
+      "wort": "kostenlos",
+      "uebersetzung": {
+        "fa": "رایگان",
+        "en": "free of charge"
+      }
+    },
+    {
+      "wort": "leer",
+      "uebersetzung": {
+        "fa": "خالی",
+        "en": "empty"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "besetzt",
+      "uebersetzung": {
+        "fa": "اشغال",
+        "en": "occupied"
+      }
+    },
+    {
+      "wort": "unfrei",
+      "uebersetzung": {
+        "fa": "ناآزاد",
+        "en": "unfree"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "zollfrei",
+      "uebersetzung": {
+        "fa": "بدون گمرک",
+        "en": "duty-free"
+      }
+    },
+    {
+      "wort": "rauchfrei",
+      "uebersetzung": {
+        "fa": "بدون دود",
+        "en": "smoke-free"
+      }
+    },
+    {
+      "wort": "fehlerfrei",
+      "uebersetzung": {
+        "fa": "بی‌غلط",
+        "en": "error-free"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "steigerung": {
+      "positiv": "frei",
+      "komparativ": "freier",
+      "superlativ": "am freiesten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "frei von + Dat",
+        "beispiel": "Das Produkt ist frei von Zucker.",
+        "uebersetzung": {
+          "fa": "این محصول بدون شکر است.",
+          "en": "The product is free of sugar."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein freier Tag",
+      "die freie Wahl"
+    ],
+    "gegensatzpaar": "frei ↔ besetzt"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Freiheit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آزادی",
+          "en": "freedom"
+        },
+        "id_ref": "nomen_freiheit"
+      },
+      {
+        "wort": "die Freizeit",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اوقات فراغت",
+          "en": "free time"
+        },
+        "id_ref": "nomen_freizeit"
+      },
+      {
+        "wort": "kostenlos",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رایگان",
+          "en": "free of charge"
+        },
+        "id_ref": "adjektiv_kostenlos"
+      },
+      {
+        "wort": "besetzt",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اشغال",
+          "en": "occupied"
+        },
+        "id_ref": "adjektiv_besetzt"
+      },
+      {
+        "wort": "befreien",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آزاد کردن",
+          "en": "to free"
+        },
+        "id_ref": "verb_befreien"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

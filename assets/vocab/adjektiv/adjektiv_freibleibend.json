@@ -1,0 +1,134 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_freibleibend",
+  "wort": "freibleibend",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(تجارت) بدون تعهد، غیرالزام‌آور"
+    ],
+    "en": [
+      "(commerce) without obligation, subject to change"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wirtschaft",
+    "Handel"
+  ],
+  "ipa": "ˈfʁaɪ̯blaɪ̯bn̩t",
+  "anmerkung": "Kaufmannssprache: Angebot/Preis gilt unverbindlich und kann sich ändern.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Angebot ist freibleibend.",
+      "uebersetzung": {
+        "fa": "این پیشنهاد بدون تعهد است.",
+        "en": "The offer is without obligation."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Alle Preise im Katalog sind freibleibend, weil sich die Rohstoffkosten ständig ändern.",
+      "uebersetzung": {
+        "fa": "همه‌ی قیمت‌های کاتالوگ بدون تعهدند، چون هزینه‌ی مواد اولیه مدام تغییر می‌کند.",
+        "en": "All prices in the catalogue are subject to change because raw material costs keep changing."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "unverbindlich",
+      "uebersetzung": {
+        "fa": "بدون تعهد",
+        "en": "non-binding"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verbindlich",
+      "uebersetzung": {
+        "fa": "الزام‌آور",
+        "en": "binding"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "frei (آزاد) + bleibend (ماندنی)",
+    "en": "frei (free) + bleibend (remaining)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "freibleibend",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein freibleibendes Angebot",
+      "die freibleibenden Preise"
+    ],
+    "gegensatzpaar": "freibleibend ↔ verbindlich"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Angebot",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پیشنهاد",
+          "en": "offer"
+        },
+        "id_ref": "nomen_angebot"
+      },
+      {
+        "wort": "der Preis",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قیمت",
+          "en": "price"
+        },
+        "id_ref": "nomen_preis"
+      },
+      {
+        "wort": "unverbindlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بدون تعهد",
+          "en": "non-binding"
+        },
+        "id_ref": "adjektiv_unverbindlich"
+      },
+      {
+        "wort": "verbindlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "الزام‌آور",
+          "en": "binding"
+        },
+        "id_ref": "adjektiv_verbindlich"
+      },
+      {
+        "wort": "der Vertrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرارداد",
+          "en": "contract"
+        },
+        "id_ref": "nomen_vertrag"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
