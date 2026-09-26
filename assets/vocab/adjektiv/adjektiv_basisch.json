@@ -1,0 +1,134 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_basisch",
+  "wort": "basisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "قلیایی، بازی"
+    ],
+    "en": [
+      "basic",
+      "alkaline"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Chemie"
+  ],
+  "ipa": "ˈbaːzɪʃ",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Seife ist basisch.",
+      "uebersetzung": {
+        "fa": "صابون قلیایی است.",
+        "en": "Soap is alkaline."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Eine Lösung mit einem pH-Wert über sieben ist basisch, während Werte unter sieben sauer sind.",
+      "uebersetzung": {
+        "fa": "محلولی با pH بالای هفت قلیایی است، در حالی که مقادیر زیر هفت اسیدی‌اند.",
+        "en": "A solution with a pH above seven is basic, while values below seven are acidic."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "alkalisch",
+      "uebersetzung": {
+        "fa": "قلیایی",
+        "en": "alkaline"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sauer",
+      "uebersetzung": {
+        "fa": "اسیدی",
+        "en": "acidic"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Base (باز شیمیایی) + -isch",
+    "en": "Base (chemical base) + -isch"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "basisch",
+      "komparativ": "basischer",
+      "superlativ": "am basischsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine basische Lösung",
+      "der basische Boden"
+    ],
+    "gegensatzpaar": "basisch ↔ sauer"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Base",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "باز (شیمی)",
+          "en": "base"
+        },
+        "id_ref": "nomen_base"
+      },
+      {
+        "wort": "sauer",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترش، اسیدی",
+          "en": "sour, acidic"
+        },
+        "id_ref": "adjektiv_sauer"
+      },
+      {
+        "wort": "neutral",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خنثی",
+          "en": "neutral"
+        },
+        "id_ref": "adjektiv_neutral"
+      },
+      {
+        "wort": "die Lauge",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "محلول قلیایی",
+          "en": "lye"
+        },
+        "id_ref": "nomen_lauge"
+      },
+      {
+        "wort": "der pH-Wert",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مقدار pH",
+          "en": "pH value"
+        },
+        "id_ref": "nomen_ph-wert"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

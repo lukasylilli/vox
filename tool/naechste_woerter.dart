@@ -70,6 +70,8 @@ const zurueckgestellt = <String>{
   'azephal', // Bedeutung fachabhängig unsicher (Medizin «ohne Kopf» / Verslehre «ohne Auftakt»?) 2026-09-25
   'bananig', // Bedeutung/Gebrauch unsicher (umgangssprachlich?) 2026-09-25
   'bannig', // regional (norddeutsch «sehr»), eher Adverb — unsicher 2026-09-25
+  'basalten', // Bedeutung unsicher («aus Basalt»?), nicht gesichert 2026-09-25
+  'basiklin', // Fachwort (Botanik?), Bedeutung unsicher 2026-09-25
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
