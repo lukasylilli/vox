@@ -182,6 +182,9 @@ const zurueckgestellt = <String>{
   'epifaszial', // Fachwort der Medizin («oberhalb der Faszie»?), Duden-Eintrag unsicher 2026-09-26
   'epithetisch', // Fachwort (Rhetorik), Duden-Eintrag unsicher 2026-09-26
   'eponymisch', // Duden-Eintrag unsicher (gesichert eher: «eponym») 2026-09-26
+  'erdhaltig', // Bedeutung/Duden-Eintrag unsicher 2026-09-26
+  'erethisch', // Fachwort der Medizin (Erethismus), Duden-Eintrag unsicher 2026-09-26
+  'erfolgswirksam', // Fachwort der Buchhaltung, genaue Bedeutung unsicher 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
