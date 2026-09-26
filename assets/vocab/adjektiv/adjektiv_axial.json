@@ -1,0 +1,127 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_axial",
+  "wort": "axial",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "محوری",
+      "در جهت محور"
+    ],
+    "en": [
+      "axial"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Technik",
+    "Mathematik"
+  ],
+  "ipa": "aˈksi̯aːl",
+  "anmerkung": "Fachwort (Technik, Medizin); oft adverbial.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kraft wirkt axial.",
+      "uebersetzung": {
+        "fa": "نیرو در جهت محور وارد می‌شود.",
+        "en": "The force acts axially."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ein axialer Ventilator bewegt die Luft entlang der Achse, während ein radialer sie zur Seite drückt.",
+      "uebersetzung": {
+        "fa": "پنکه‌ی محوری هوا را در امتداد محور جابه‌جا می‌کند، در حالی که پنکه‌ی شعاعی آن را به کنار می‌راند.",
+        "en": "An axial fan moves the air along the axis, while a radial one pushes it sideways."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "radial",
+      "uebersetzung": {
+        "fa": "شعاعی",
+        "en": "radial"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "لاتین axis (محور) + -al (پسوند صفت)",
+    "en": "Latin axis (axis) + -al (adjective suffix)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "axial",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein axialer Lüfter",
+      "die axiale Belastung"
+    ],
+    "gegensatzpaar": "axial ↔ radial"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Achse",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "محور",
+          "en": "axis"
+        },
+        "id_ref": "nomen_achse"
+      },
+      {
+        "wort": "radial",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "شعاعی",
+          "en": "radial"
+        },
+        "id_ref": "adjektiv_radial"
+      },
+      {
+        "wort": "die Drehung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "چرخش",
+          "en": "rotation"
+        },
+        "id_ref": "nomen_drehung"
+      },
+      {
+        "wort": "die Richtung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جهت",
+          "en": "direction"
+        },
+        "id_ref": "nomen_richtung"
+      },
+      {
+        "wort": "der Motor",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "موتور",
+          "en": "engine"
+        },
+        "id_ref": "nomen_motor"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

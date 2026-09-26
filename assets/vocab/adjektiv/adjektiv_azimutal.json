@@ -1,0 +1,118 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_azimutal",
+  "wort": "azimutal",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "سمتی (مربوط به آزیموت)"
+    ],
+    "en": [
+      "azimuthal"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Astronomie",
+    "Geografie"
+  ],
+  "ipa": "at͡simuˈtaːl",
+  "anmerkung": "Fachwort (Astronomie, Kartografie, Vermessung).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das ist eine azimutale Karte.",
+      "uebersetzung": {
+        "fa": "این یک نقشه‌ی سمت‌نما است.",
+        "en": "That is an azimuthal map."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei einer azimutalen Projektion werden alle Richtungen vom Mittelpunkt der Karte aus richtig dargestellt.",
+      "uebersetzung": {
+        "fa": "در تصویر سمتی همه‌ی جهت‌ها از مرکز نقشه درست نشان داده می‌شوند.",
+        "en": "In an azimuthal projection all directions from the centre of the map are shown correctly."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Azimut (آزیموت؛ از عربی as-sumūt: سمت‌ها) + -al",
+    "en": "Azimut (azimuth; from Arabic as-sumūt, the directions) + -al"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "azimutal",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine azimutale Projektion",
+      "der azimutale Winkel"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Azimut",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "آزیموت، سمت",
+          "en": "azimuth"
+        },
+        "id_ref": "nomen_azimut"
+      },
+      {
+        "wort": "die Himmelsrichtung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جهت جغرافیایی",
+          "en": "cardinal direction"
+        },
+        "id_ref": "nomen_himmelsrichtung"
+      },
+      {
+        "wort": "der Winkel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زاویه",
+          "en": "angle"
+        },
+        "id_ref": "nomen_winkel"
+      },
+      {
+        "wort": "die Karte",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نقشه",
+          "en": "map"
+        },
+        "id_ref": "nomen_karte"
+      },
+      {
+        "wort": "der Kompass",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قطب‌نما",
+          "en": "compass"
+        },
+        "id_ref": "nomen_kompass"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

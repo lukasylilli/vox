@@ -66,6 +66,8 @@ const zurueckgestellt = <String>{
   'ausheimisch', // Bedeutung/Gebrauch unsicher (landschaftlich/veraltet?) 2026-09-25
   'austral', // Bedeutung/Gebrauch unsicher (Fachwort «südlich»?) 2026-09-25
   'averbal', // Bedeutung/Gebrauch unsicher (Fachwort?) 2026-09-25
+  'azentrisch', // Bedeutung/Fachgebiet unsicher 2026-09-25
+  'azephal', // Bedeutung fachabhängig unsicher (Medizin «ohne Kopf» / Verslehre «ohne Auftakt»?) 2026-09-25
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
