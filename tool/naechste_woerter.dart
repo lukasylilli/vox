@@ -219,6 +219,8 @@ const zurueckgestellt = <String>{
   'fichten', // Stoffadjektiv («aus Fichtenholz»?) — wie birken 2026-09-26
   'fickerig', // landschaftlich, Bedeutung unsicher («nervös»?) und leicht missverständlich 2026-09-26
   'filamentartig', // Duden-Eintrag unsicher 2026-09-26
+  'fipsig', // landschaftlich/umgangssprachlich, Bedeutung unsicher 2026-09-26
+  'firn', // veraltet (Wein «firn» = alt, gereift?), Bedeutung unsicher 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
