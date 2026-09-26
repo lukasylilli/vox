@@ -1,0 +1,168 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_bekannt",
+  "wort": "bekannt",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "معروف",
+      "آشنا"
+    ],
+    "en": [
+      "well-known",
+      "famous",
+      "familiar"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Menschen"
+  ],
+  "ipa": "bəˈkant",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Sänger ist sehr bekannt.",
+      "uebersetzung": {
+        "fa": "این خواننده خیلی معروف است.",
+        "en": "The singer is very well known."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Kommt dir das Gesicht bekannt vor? Ich glaube, wir haben ihn im Urlaub getroffen.",
+      "uebersetzung": {
+        "fa": "این چهره به نظرت آشنا می‌آید؟ فکر کنم در تعطیلات دیدیمش.",
+        "en": "Does that face look familiar to you? I think we met him on holiday."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "berühmt",
+      "uebersetzung": {
+        "fa": "مشهور",
+        "en": "famous"
+      }
+    },
+    {
+      "wort": "vertraut",
+      "uebersetzung": {
+        "fa": "آشنا",
+        "en": "familiar"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "unbekannt",
+      "uebersetzung": {
+        "fa": "ناشناس",
+        "en": "unknown"
+      }
+    },
+    {
+      "wort": "fremd",
+      "uebersetzung": {
+        "fa": "غریبه",
+        "en": "strange"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "bekennen/kennen (شناختن) → صفت مفعولی",
+    "en": "past participle of bekennen, related to kennen (to know)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "bekannt",
+      "komparativ": "bekannter",
+      "superlativ": "am bekanntesten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "bekannt für + Akk",
+        "beispiel": "Wien ist bekannt für seine Kaffeehäuser.",
+        "uebersetzung": {
+          "fa": "وین به‌خاطر کافه‌هایش معروف است.",
+          "en": "Vienna is known for its coffee houses."
+        }
+      },
+      {
+        "muster": "bekannt mit + Dat",
+        "beispiel": "Bist du mit ihm bekannt?",
+        "uebersetzung": {
+          "fa": "با او آشنایی؟",
+          "en": "Are you acquainted with him?"
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein bekannter Schauspieler",
+      "die bekannte Straße"
+    ],
+    "gegensatzpaar": "bekannt ↔ unbekannt"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "kennen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شناختن",
+          "en": "to know"
+        },
+        "id_ref": "verb_kennen"
+      },
+      {
+        "wort": "der Bekannte",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آشنا",
+          "en": "acquaintance"
+        },
+        "id_ref": "nomen_bekannte"
+      },
+      {
+        "wort": "berühmt",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مشهور",
+          "en": "famous"
+        },
+        "id_ref": "adjektiv_beruehmt"
+      },
+      {
+        "wort": "die Bekanntschaft",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آشنایی",
+          "en": "acquaintance"
+        },
+        "id_ref": "nomen_bekanntschaft"
+      },
+      {
+        "wort": "unbekannt",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ناشناس",
+          "en": "unknown"
+        },
+        "id_ref": "adjektiv_unbekannt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
