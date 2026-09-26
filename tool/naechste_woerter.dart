@@ -119,6 +119,7 @@ const zurueckgestellt = <String>{
   'brennheiß', // Duden-Eintrag unsicher (eher «brennend heiß») 2026-09-26
   'brillanten', // Bedeutung/Gebrauch unsicher (aus Brillanten?) 2026-09-26
   'brokaten', // Bedeutung/Gebrauch unsicher (aus Brokat?) 2026-09-26
+  'buchen', // Bedeutung/Gebrauch unsicher («aus Buchenholz»?) — wie birken 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

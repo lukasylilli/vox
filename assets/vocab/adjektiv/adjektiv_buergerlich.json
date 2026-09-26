@@ -1,0 +1,160 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_buergerlich",
+  "wort": "bürgerlich",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "شهروندی، مدنی",
+      "طبقه‌ی متوسط، بورژوا",
+      "ساده و خانگی (غذا)"
+    ],
+    "en": [
+      "civil, civic",
+      "middle-class, bourgeois",
+      "plain, home-style (food)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesellschaft",
+    "Politik"
+  ],
+  "ipa": "ˈbʏʁɡɐlɪç",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Restaurant hat gute bürgerliche Küche.",
+      "uebersetzung": {
+        "fa": "این رستوران غذای خانگی خوبی دارد.",
+        "en": "The restaurant has good home-style cooking."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Er kommt aus einer bürgerlichen Familie, in der Bildung immer sehr wichtig war.",
+      "uebersetzung": {
+        "fa": "او از خانواده‌ای از طبقه‌ی متوسط می‌آید که در آن تحصیل همیشه خیلی مهم بود.",
+        "en": "He comes from a middle-class family in which education was always very important."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zivil",
+      "uebersetzung": {
+        "fa": "مدنی",
+        "en": "civil"
+      }
+    },
+    {
+      "wort": "gutbürgerlich",
+      "uebersetzung": {
+        "fa": "خانگی و ساده",
+        "en": "plain home-style"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "adlig",
+      "uebersetzung": {
+        "fa": "اشرافی",
+        "en": "aristocratic"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "gutbürgerlich",
+      "uebersetzung": {
+        "fa": "خانگی و ساده (غذا)",
+        "en": "plain home-style (food)"
+      }
+    },
+    {
+      "wort": "kleinbürgerlich",
+      "uebersetzung": {
+        "fa": "خرده‌بورژوا",
+        "en": "petty bourgeois"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "Bürger (شهروند) + -lich",
+    "en": "Bürger (citizen) + -lich"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "bürgerlich",
+      "komparativ": "bürgerlicher",
+      "superlativ": "am bürgerlichsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "das Bürgerliche Gesetzbuch",
+      "eine bürgerliche Familie"
+    ],
+    "gegensatzpaar": "bürgerlich ↔ adlig"
+  },
+  "wortnetz": {
+    "grundwort": "Bürger",
+    "woerter": [
+      {
+        "wort": "der Bürger",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شهروند",
+          "en": "citizen"
+        },
+        "id_ref": "nomen_buerger"
+      },
+      {
+        "wort": "die Gesellschaft",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جامعه",
+          "en": "society"
+        },
+        "id_ref": "nomen_gesellschaft"
+      },
+      {
+        "wort": "zivil",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مدنی",
+          "en": "civil"
+        },
+        "id_ref": "adjektiv_zivil"
+      },
+      {
+        "wort": "die Bürgerin",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شهروند (زن)",
+          "en": "citizen (female)"
+        },
+        "id_ref": "nomen_buergerin"
+      },
+      {
+        "wort": "das Bürgertum",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "طبقه‌ی متوسط",
+          "en": "middle class"
+        },
+        "id_ref": "nomen_buergertum"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
