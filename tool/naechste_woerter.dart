@@ -112,7 +112,6 @@ const zurueckgestellt = <String>{
   'bitchig', // umgangssprachlicher Anglizismus, Gebrauch nicht gesichert 2026-09-25
   'blakig', // Bedeutung/Gebrauch unsicher (rußend?) 2026-09-25
   'bland', // Fachwort (Medizin «mild, reizlos»?), unsicher 2026-09-25
-  'blaß', // alte Schreibung von «blass» (vor der Rechtschreibreform) 2026-09-25
   'blaustrümpfig', // Bedeutung/Gebrauch unsicher (abwertend für gebildete Frauen?) 2026-09-25
 };
 
