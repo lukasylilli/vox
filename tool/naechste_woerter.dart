@@ -167,6 +167,9 @@ const zurueckgestellt = <String>{
   'einschaltbereit', // Bedeutung/Duden-Eintrag unsicher 2026-09-26
   'elektrogen', // Fachwort, Bedeutung/Duden-Eintrag unsicher 2026-09-26
   'elenktisch', // Fachwort (Philosophie «widerlegend»?), Duden-Eintrag unsicher 2026-09-26
+  'emeritus', // lateinisch, nur nachgestellt (Professor emeritus); kein gewöhnliches Adjektiv — wie designatus 2026-09-26
+  'emisch', // Fachwort (Ethnologie/Linguistik «emisch»), Duden-Eintrag unsicher 2026-09-26
+  'empathogen', // Fachwort der Pharmakologie, Duden-Eintrag unsicher 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
