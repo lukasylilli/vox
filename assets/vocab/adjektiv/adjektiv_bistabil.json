@@ -1,0 +1,118 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_bistabil",
+  "wort": "bistabil",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "دوپایدار"
+    ],
+    "en": [
+      "bistable"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Technik",
+    "Physik"
+  ],
+  "ipa": "bistaˈbiːl",
+  "anmerkung": "Fachwort (Elektronik, Physik).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das ist ein bistabiler Schalter.",
+      "uebersetzung": {
+        "fa": "این یک کلید دوپایدار است.",
+        "en": "That is a bistable switch."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ein bistabiles System bleibt in einem von zwei Zuständen, bis ein äußerer Impuls es in den anderen versetzt.",
+      "uebersetzung": {
+        "fa": "یک سامانه‌ی دوپایدار در یکی از دو حالت می‌ماند تا یک ضربه‌ی بیرونی آن را به حالت دیگر ببرد.",
+        "en": "A bistable system remains in one of two states until an external impulse moves it into the other."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "bi- (دو) + stabil (پایدار)",
+    "en": "bi- (two) + stabil (stable)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "bistabil",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine bistabile Kippstufe",
+      "das bistabile Relais"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "stabil",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پایدار",
+          "en": "stable"
+        },
+        "id_ref": "adjektiv_stabil"
+      },
+      {
+        "wort": "der Zustand",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حالت",
+          "en": "state"
+        },
+        "id_ref": "nomen_zustand"
+      },
+      {
+        "wort": "der Schalter",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کلید",
+          "en": "switch"
+        },
+        "id_ref": "nomen_schalter"
+      },
+      {
+        "wort": "die Elektronik",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "الکترونیک",
+          "en": "electronics"
+        },
+        "id_ref": "nomen_elektronik"
+      },
+      {
+        "wort": "instabil",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ناپایدار",
+          "en": "unstable"
+        },
+        "id_ref": "adjektiv_instabil"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

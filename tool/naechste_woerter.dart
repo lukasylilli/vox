@@ -109,6 +109,9 @@ const zurueckgestellt = <String>{
   'biereifrig', // Bedeutung/Gebrauch unsicher (scherzhaft?) 2026-09-25
   'bimaxillär', // Fachwort (Medizin/Zahnmedizin), Bedeutung unsicher 2026-09-25
   'birken', // Bedeutung/Gebrauch unsicher («aus Birkenholz»?) 2026-09-25
+  'bitchig', // umgangssprachlicher Anglizismus, Gebrauch nicht gesichert 2026-09-25
+  'blakig', // Bedeutung/Gebrauch unsicher (rußend?) 2026-09-25
+  'bland', // Fachwort (Medizin «mild, reizlos»?), unsicher 2026-09-25
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
