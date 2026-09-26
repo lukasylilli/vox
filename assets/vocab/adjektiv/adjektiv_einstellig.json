@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_einstellig",
+  "wort": "einstellig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "تک‌رقمی"
+    ],
+    "en": [
+      "single-digit"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Zahlen"
+  ],
+  "ipa": "ˈaɪ̯nʃtɛlɪç",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Zahl ist einstellig.",
+      "uebersetzung": {
+        "fa": "این عدد تک‌رقمی است.",
+        "en": "The number is single-digit."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Temperaturen bleiben diese Woche einstellig, deshalb brauchen wir warme Jacken.",
+      "uebersetzung": {
+        "fa": "دماها این هفته تک‌رقمی می‌مانند، به همین دلیل کاپشن گرم لازم داریم.",
+        "en": "Temperatures will stay in single digits this week, so we need warm jackets."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "mehrstellig",
+      "uebersetzung": {
+        "fa": "چندرقمی",
+        "en": "multi-digit"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein (یک) + Stelle (رقم) + -ig",
+    "en": "ein (one) + Stelle (digit) + -ig"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "einstellig",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine einstellige Zahl",
+      "der einstellige Prozentbereich"
+    ],
+    "gegensatzpaar": "einstellig ↔ mehrstellig"
+  },
+  "wortnetz": {
+    "grundwort": "Stelle",
+    "woerter": [
+      {
+        "wort": "die Zahl",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عدد",
+          "en": "number"
+        },
+        "id_ref": "nomen_zahl"
+      },
+      {
+        "wort": "die Stelle",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رقم",
+          "en": "digit"
+        },
+        "id_ref": "nomen_stelle"
+      },
+      {
+        "wort": "zweistellig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دورقمی",
+          "en": "two-digit"
+        },
+        "id_ref": "adjektiv_zweistellig"
+      },
+      {
+        "wort": "dreistellig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سه‌رقمی",
+          "en": "three-digit"
+        },
+        "id_ref": "adjektiv_dreistellig"
+      },
+      {
+        "wort": "die Ziffer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رقم",
+          "en": "digit"
+        },
+        "id_ref": "nomen_ziffer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
