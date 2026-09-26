@@ -105,6 +105,8 @@ const zurueckgestellt = <String>{
   'betrieben', // nur Partizip; als eigenständiges Adjektiv nicht gesichert (v. a. in Komposita wie «batteriebetrieben») 2026-09-25
   'bezastert', // keine gesicherte Form/Bedeutung 2026-09-25
   'bezopft', // Bedeutung/Gebrauch unsicher («mit Zopf»?) 2026-09-25
+  'bibliophob', // Bedeutung/Gebrauch nicht gesichert 2026-09-25
+  'biereifrig', // Bedeutung/Gebrauch unsicher (scherzhaft?) 2026-09-25
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

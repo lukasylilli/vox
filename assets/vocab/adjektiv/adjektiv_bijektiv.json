@@ -1,0 +1,117 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_bijektiv",
+  "wort": "bijektiv",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "دوسویی (تابع)"
+    ],
+    "en": [
+      "bijective"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik"
+  ],
+  "ipa": "bijɛkˈtiːf",
+  "anmerkung": "Fachwort der Mathematik.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Funktion ist bijektiv.",
+      "uebersetzung": {
+        "fa": "این تابع دوسویی است.",
+        "en": "The function is bijective."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Eine Abbildung ist bijektiv, wenn jedem Element der Zielmenge genau ein Element der Ausgangsmenge zugeordnet ist.",
+      "uebersetzung": {
+        "fa": "یک نگاشت دوسویی است، اگر به هر عضو مجموعه‌ی مقصد دقیقاً یک عضو از مجموعه‌ی مبدأ نظیر شود.",
+        "en": "A mapping is bijective if every element of the target set is assigned exactly one element of the source set."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "bi- (دو) + لاتین iacere (افکندن)",
+    "en": "bi- (two) + Latin iacere (to throw)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "bijektiv",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine bijektive Abbildung",
+      "die bijektive Funktion"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Funktion",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تابع",
+          "en": "function"
+        },
+        "id_ref": "nomen_funktion"
+      },
+      {
+        "wort": "injektiv",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "یک‌به‌یک",
+          "en": "injective"
+        },
+        "id_ref": "adjektiv_injektiv"
+      },
+      {
+        "wort": "surjektiv",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "پوشا",
+          "en": "surjective"
+        },
+        "id_ref": "adjektiv_surjektiv"
+      },
+      {
+        "wort": "die Abbildung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نگاشت؛ تصویر",
+          "en": "mapping; illustration"
+        },
+        "id_ref": "nomen_abbildung"
+      },
+      {
+        "wort": "die Menge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مجموعه",
+          "en": "set"
+        },
+        "id_ref": "nomen_menge"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
