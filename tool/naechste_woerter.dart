@@ -122,6 +122,8 @@ const zurueckgestellt = <String>{
   'buchen', // Bedeutung/Gebrauch unsicher («aus Buchenholz»?) — wie birken 2026-09-26
   'bundrein', // Fachwort (Gitarrenbau?), Bedeutung/Duden-Eintrag unsicher 2026-09-26
   'buntfarben', // Duden-Eintrag unsicher (gesichert: buntfarbig) 2026-09-26
+  'busig', // Bedeutung/Gebrauch unsicher (umgangssprachlich «vollbusig»?) — wie bebust 2026-09-26
+  'bustrophedon', // eher Nomen/Adverb (das Bustrophedon), Wortart unsicher — wie boustrophedon 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
@@ -138,6 +140,7 @@ const wortartKorrektur = <String, String>{
   'baldmöglichst': 'adverb', // Duden: Adverb (Amtssprache) (2026-09-25)
   'billiardste': 'numerale', // Ordinalzahl (2026-09-26)
   'billionste': 'numerale', // Ordinalzahl (2026-09-26)
+  'demgemäß': 'adverb', // Duden: Adverb (2026-09-26)
 };
 
 /// `--abhaken` (Schritt 6 der Routine): setzt in ALLEN Listen «✓ » vor jedes
