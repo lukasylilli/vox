@@ -1,0 +1,118 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_deiktisch",
+  "wort": "deiktisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "اشاره‌ای (زبان‌شناسی)"
+    ],
+    "en": [
+      "deictic"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Sprache",
+    "Linguistik"
+  ],
+  "ipa": "ˈdeːɪktɪʃ",
+  "anmerkung": "Auch „de-iktisch“ gesprochen (deˈɪktɪʃ).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "„Hier“ ist ein deiktisches Wort.",
+      "uebersetzung": {
+        "fa": "«این‌جا» یک واژه‌ی اشاره‌ای است.",
+        "en": "'Here' is a deictic word."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Deiktische Ausdrücke wie „ich“, „jetzt“ oder „dort“ versteht man nur, wenn man die Situation kennt.",
+      "uebersetzung": {
+        "fa": "عبارت‌های اشاره‌ای مثل «من»، «الان» یا «آن‌جا» را فقط وقتی می‌فهمیم که موقعیت را بدانیم.",
+        "en": "Deictic expressions such as 'I', 'now' or 'there' can only be understood if you know the situation."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "gr. deiktikos (اشاره‌کننده) ← deiknynai (نشان دادن)",
+    "en": "Greek deiktikos (pointing) ← deiknynai (to show)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "deiktisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein deiktisches Pronomen",
+      "der deiktische Ausdruck"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Deixis",
+    "woerter": [
+      {
+        "wort": "zeigen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نشان دادن",
+          "en": "to show"
+        },
+        "id_ref": "verb_zeigen"
+      },
+      {
+        "wort": "hier",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "این‌جا",
+          "en": "here"
+        },
+        "id_ref": "adverb_hier"
+      },
+      {
+        "wort": "das Pronomen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ضمیر",
+          "en": "pronoun"
+        },
+        "id_ref": "nomen_pronomen"
+      },
+      {
+        "wort": "der Kontext",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بافت",
+          "en": "context"
+        },
+        "id_ref": "nomen_kontext"
+      },
+      {
+        "wort": "die Deixis",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "اشاره (زبان‌شناسی)",
+          "en": "deixis"
+        },
+        "id_ref": "nomen_deixis"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

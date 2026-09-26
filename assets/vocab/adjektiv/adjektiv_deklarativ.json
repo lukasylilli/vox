@@ -1,0 +1,127 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_deklarativ",
+  "wort": "deklarativ",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "اعلامی، اخباری",
+      "(فناوری) اعلانی"
+    ],
+    "en": [
+      "declarative"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Sprache",
+    "Informatik"
+  ],
+  "ipa": "deklaʁaˈtiːf",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das ist ein deklarativer Satz.",
+      "uebersetzung": {
+        "fa": "این یک جمله‌ی خبری است.",
+        "en": "That is a declarative sentence."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "In der deklarativen Programmierung beschreibt man, was das Ergebnis sein soll, nicht wie man es berechnet.",
+      "uebersetzung": {
+        "fa": "در برنامه‌نویسی اعلانی توصیف می‌کنی نتیجه باید چه باشد، نه این‌که چطور محاسبه شود.",
+        "en": "In declarative programming you describe what the result should be, not how to compute it."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "imperativ",
+      "uebersetzung": {
+        "fa": "دستوری",
+        "en": "imperative"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. declarare (اعلام کردن) + -iv",
+    "en": "Latin declarare (to declare) + -iv"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "deklarativ",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein deklarativer Satz",
+      "die deklarative Sprache"
+    ],
+    "gegensatzpaar": "deklarativ ↔ imperativ"
+  },
+  "wortnetz": {
+    "grundwort": "Deklaration",
+    "woerter": [
+      {
+        "wort": "der Satz",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جمله",
+          "en": "sentence"
+        },
+        "id_ref": "nomen_satz"
+      },
+      {
+        "wort": "erklären",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "توضیح دادن",
+          "en": "to explain"
+        },
+        "id_ref": "verb_erklaeren"
+      },
+      {
+        "wort": "die Aussage",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گزاره",
+          "en": "statement"
+        },
+        "id_ref": "nomen_aussage"
+      },
+      {
+        "wort": "programmieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "برنامه‌نویسی کردن",
+          "en": "to program"
+        },
+        "id_ref": "verb_programmieren"
+      },
+      {
+        "wort": "die Deklaration",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "اعلامیه",
+          "en": "declaration"
+        },
+        "id_ref": "nomen_deklaration"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

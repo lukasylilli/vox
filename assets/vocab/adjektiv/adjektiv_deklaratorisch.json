@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_deklaratorisch",
+  "wort": "deklaratorisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "اعلامی (حقوق)، صرفاً تأییدکننده (نه ایجادکننده)"
+    ],
+    "en": [
+      "declaratory"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Recht"
+  ],
+  "ipa": "deklaʁaˈtoːʁɪʃ",
+  "anmerkung": "Fachwort der Rechtssprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Urkunde ist nur deklaratorisch.",
+      "uebersetzung": {
+        "fa": "این سند فقط اعلامی است.",
+        "en": "The certificate is only declaratory."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Eintragung ist deklaratorisch, weil das Recht schon vorher besteht und nur bestätigt wird.",
+      "uebersetzung": {
+        "fa": "این ثبت اعلامی است، چون حق از قبل وجود دارد و فقط تأیید می‌شود.",
+        "en": "The registration is declaratory because the right already exists and is merely confirmed."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "konstitutiv",
+      "uebersetzung": {
+        "fa": "ایجادی، تأسیسی",
+        "en": "constitutive"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. declaratorius (اعلامی)",
+    "en": "Latin declaratorius (declaratory)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "deklaratorisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine deklaratorische Wirkung",
+      "der deklaratorische Charakter"
+    ],
+    "gegensatzpaar": "deklaratorisch ↔ konstitutiv"
+  },
+  "wortnetz": {
+    "grundwort": "Deklaration",
+    "woerter": [
+      {
+        "wort": "das Recht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حق، حقوق",
+          "en": "law, right"
+        },
+        "id_ref": "nomen_recht"
+      },
+      {
+        "wort": "das Gesetz",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قانون",
+          "en": "law"
+        },
+        "id_ref": "nomen_gesetz"
+      },
+      {
+        "wort": "die Urkunde",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سند",
+          "en": "certificate"
+        },
+        "id_ref": "nomen_urkunde"
+      },
+      {
+        "wort": "bestätigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تأیید کردن",
+          "en": "to confirm"
+        },
+        "id_ref": "verb_bestaetigen"
+      },
+      {
+        "wort": "konstitutiv",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "ایجادی",
+          "en": "constitutive"
+        },
+        "id_ref": "adjektiv_konstitutiv"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
