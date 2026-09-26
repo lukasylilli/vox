@@ -64,7 +64,7 @@ class SettingsNotifier extends AsyncNotifier<AppSettings> {
   }
 
   AppSettings _load() => AppSettings(
-        themeMode           : ThemeMode.values[_prefs.getInt(_K.themeMode) ?? 0],
+        themeMode           : _gespeichertesFarbschema(),
         ttsRate             : _prefs.getDouble(_K.ttsRate) ?? 0.5,
         ttsLanguage         : _prefs.getString(_K.ttsLanguage) ?? 'de-DE',
         currentLevel        : _prefs.getString(_K.currentLevel) ?? 'a1',
@@ -73,6 +73,19 @@ class SettingsNotifier extends AsyncNotifier<AppSettings> {
         // (Englisch, außer das Gerät spricht Persisch) — siehe geraete_sprache.dart.
         uiLanguage          : _gespeicherteSprache() ?? GeraeteSprache.aktuell,
       );
+
+  /// Nur eine gültige Zahl (0–2) zählt als gespeichertes Farbschema; alles
+  /// andere ⇒ System. Warum (2026-09-26): Root-in liegt auf derselben
+  /// Herkunft `lukasylilli.github.io` und schrieb bis Root-in PLAN 31.8 in
+  /// denselben Browser-Speicher denselben Schlüssel `theme_mode` — als
+  /// **Text** (`"dark"`). `getInt` warf darauf einen TypeError. Root-in hat
+  /// jetzt die eigene Vorsilbe `root_in.`; diese Prüfung fängt Altbestände ab.
+  ThemeMode _gespeichertesFarbschema() {
+    final wert = _prefs.get(_K.themeMode);
+    return (wert is int && wert >= 0 && wert < ThemeMode.values.length)
+        ? ThemeMode.values[wert]
+        : ThemeMode.system;
+  }
 
   /// Nur 'fa' oder 'en' zählen als echte Wahl; alles andere wird ignoriert.
   String? _gespeicherteSprache() {

@@ -33,6 +33,7 @@
 # دور ۶۸–۷۲ (2026-09-25): ۵۰ کلمه ⇒ assets/vocab/adjektiv (altäthiopisch … angelegentlich) + assets/vocab/adverb (andante، anderweit) ⇒ آرشیو ۳۸۶ ·
 #   tool/naechste_woerter.dart: zurueckgestellt += ۶ (amaranten … anelliert) · wortartKorrektur += andante، anderweit ⇒ adverb. کد اپ دست نخورد.
 # دور ۶۷ (2026-09-25): 🎉 Lukas وب‌اپ را عمومی منتشر کرد — فقط ثبت در PLAN/MAP، هیچ فایل کدی عوض نشد. قدم بعدی Claude: G7e ⇒ G7d.
+# جلسه‌ی 2026-09-26 (باگ مشترک با Root-in): features/more/controllers/settings_controller.dart → _gespeichertesFarbschema() (فقط عدد ۰–۲، بقیه System) ⋅ تست جدید test/farbschema_speicher_test.dart. چرا: localStorage مشترک با Root-in روی lukasylilli.github.io، کلید theme_mode آنجا متن بود. Root-in حالا پیشوند root_in. دارد (Root-in PLAN 31.8).
 # 🚀 کارهای باز قبل از انتشار (فهرست کامل): PLAN.md → «🚀 قبل از انتشار». بعد از انتشار: PLAN.md → «⏭️ بعد از انتشار».
 #
 # ⚠️ 2026-09-19 (اصلاح یادداشت آفلاین): «precache شدنی است» فقط برای ~۷٫۵MB فعلی (۸۷ کارت) درست است. کارت ~۴KB ⇒ ~۲۶٬۲۰۰ کارت ≈ ~۱۰۰MB
@@ -832,7 +833,7 @@ screens/
   fragen_screen.dart          [x] (در lib/features/fragen/) — ۸ FAQ با InkWell expansion
   sozialmedien_screen.dart    [x] (در lib/features/sozialmedien/) — Telegram/Instagram/YouTube
 controllers/
-  settings_controller.dart    [x]  — AppSettings model (themeMode،ttsRate،currentLevel،...)
+  settings_controller.dart    [x]  — AppSettings model (themeMode،ttsRate،currentLevel،...) — theme_mode فقط عدد ۰–۲ (2026-09-26، localStorage مشترک با Root-in)
                                      SettingsNotifier AsyncNotifier، settingsProvider
   profil_controller.dart      [x]  — **P** `profilProvider` (AsyncNotifier، `speichern()`)، `archivUebersichtProvider`،
                                      `passwortNeuProvider` + `passwortWiederherstellungStarterProvider` (از `app.dart` دیده می‌شود)
