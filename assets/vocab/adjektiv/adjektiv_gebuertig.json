@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_gebuertig",
+  "wort": "gebürtig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "اهلِ، زاده‌ی (شهر/کشور)"
+    ],
+    "en": [
+      "native (of)",
+      "born (in)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Personalien",
+    "Herkunft"
+  ],
+  "ipa": "ɡəˈbʏʁtɪç",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie ist gebürtige Wienerin.",
+      "uebersetzung": {
+        "fa": "او وینی‌الاصل است.",
+        "en": "She is a native of Vienna."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Obwohl er gebürtig aus Hamburg ist, lebt er seit zwanzig Jahren in Bayern.",
+      "uebersetzung": {
+        "fa": "با اینکه زاده‌ی هامبورگ است، بیست سال است در بایرن زندگی می‌کند.",
+        "en": "Although he was born in Hamburg, he has lived in Bavaria for twenty years."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "stammend",
+      "uebersetzung": {
+        "fa": "اهلِ",
+        "en": "originating"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Geburt (تولد) + -ig",
+    "en": "Geburt (birth) + -ig"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "gebürtig",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "gebürtig aus + Dat",
+        "beispiel": "Mein Mann ist gebürtig aus Teheran.",
+        "uebersetzung": {
+          "fa": "همسرم اهل تهران است.",
+          "en": "My husband was born in Tehran."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein gebürtiger Italiener",
+      "die gebürtige Berlinerin"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Geburt",
+    "woerter": [
+      {
+        "wort": "die Geburt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تولد",
+          "en": "birth"
+        },
+        "id_ref": "nomen_geburt"
+      },
+      {
+        "wort": "geboren",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "متولد",
+          "en": "born"
+        },
+        "id_ref": "adjektiv_geboren"
+      },
+      {
+        "wort": "die Herkunft",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اصل و نسب",
+          "en": "origin"
+        },
+        "id_ref": "nomen_herkunft"
+      },
+      {
+        "wort": "stammen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اهلِ جایی بودن",
+          "en": "to come from"
+        },
+        "id_ref": "verb_stammen"
+      },
+      {
+        "wort": "der Geburtsort",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "محل تولد",
+          "en": "place of birth"
+        },
+        "id_ref": "nomen_geburtsort"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

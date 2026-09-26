@@ -1,0 +1,138 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_geboren",
+  "wort": "geboren",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "زاده‌شده، متولد",
+      "(نام خانوادگی پیش از ازدواج) با نام قبلیِ",
+      "مادرزاد، ذاتی"
+    ],
+    "en": [
+      "born",
+      "née",
+      "born (natural)"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Familie",
+    "Personalien"
+  ],
+  "ipa": "ɡəˈboːʁən",
+  "anmerkung": "Abkürzung vor Geburtsnamen: geb. (Anna Müller, geb. Schmidt).",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich bin 1995 geboren.",
+      "uebersetzung": {
+        "fa": "من سال ۱۹۹۵ به دنیا آمده‌ام.",
+        "en": "I was born in 1995."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Er ist ein geborener Lehrer, weil er komplizierte Dinge ganz einfach erklären kann.",
+      "uebersetzung": {
+        "fa": "او معلم مادرزاد است، چون می‌تواند چیزهای پیچیده را خیلی ساده توضیح دهد.",
+        "en": "He is a born teacher because he can explain complicated things very simply."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "gestorben",
+      "uebersetzung": {
+        "fa": "درگذشته",
+        "en": "died"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "neugeboren",
+      "uebersetzung": {
+        "fa": "نوزاد، تازه‌متولد",
+        "en": "newborn"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "Partizip II von gebären (زاییدن)",
+    "en": "past participle of gebären (to give birth)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "geboren",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein geborener Berliner",
+      "die geborene Schmidt"
+    ],
+    "gegensatzpaar": "geboren ↔ gestorben"
+  },
+  "wortnetz": {
+    "grundwort": "Geburt",
+    "woerter": [
+      {
+        "wort": "die Geburt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تولد",
+          "en": "birth"
+        },
+        "id_ref": "nomen_geburt"
+      },
+      {
+        "wort": "der Geburtstag",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سالروز تولد",
+          "en": "birthday"
+        },
+        "id_ref": "nomen_geburtstag"
+      },
+      {
+        "wort": "das Baby",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نوزاد",
+          "en": "baby"
+        },
+        "id_ref": "nomen_baby"
+      },
+      {
+        "wort": "gebürtig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اهلِ، زاده‌ی",
+          "en": "native"
+        },
+        "id_ref": "adjektiv_gebuertig"
+      },
+      {
+        "wort": "gestorben",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "درگذشته",
+          "en": "dead"
+        },
+        "id_ref": "adjektiv_gestorben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -228,6 +228,7 @@ const zurueckgestellt = <String>{
   'fluvioglazial', // Fachwort der Geologie, Duden-Eintrag unsicher 2026-09-26
   'gasig', // Bedeutung/Gebrauch unsicher 2026-09-26
   'gebalkt', // Bedeutung/Gebrauch unsicher (Balken? Jagd?) 2026-09-26
+  'gebuckelt', // Bedeutung unsicher (bucklig? mit Buckeln?) 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
