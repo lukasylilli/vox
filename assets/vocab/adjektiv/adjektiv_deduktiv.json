@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_deduktiv",
+  "wort": "deduktiv",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "قیاسی، استنتاجی (از کل به جزء)"
+    ],
+    "en": [
+      "deductive"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft",
+    "Denken"
+  ],
+  "ipa": "deˈdʊktiːf",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir arbeiten deduktiv.",
+      "uebersetzung": {
+        "fa": "ما به روش قیاسی کار می‌کنیم.",
+        "en": "We work deductively."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Beim deduktiven Vorgehen leitet man aus einer allgemeinen Regel einen einzelnen Fall ab.",
+      "uebersetzung": {
+        "fa": "در روش قیاسی، یک مورد جزئی را از یک قاعده‌ی کلی نتیجه می‌گیرند.",
+        "en": "In the deductive approach, you derive an individual case from a general rule."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "induktiv",
+      "uebersetzung": {
+        "fa": "استقرایی",
+        "en": "inductive"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. deducere (نتیجه گرفتن، بیرون کشیدن) + -iv",
+    "en": "Latin deducere (to lead down, derive) + -iv"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "deduktiv",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine deduktive Methode",
+      "der deduktive Schluss"
+    ],
+    "gegensatzpaar": "deduktiv ↔ induktiv"
+  },
+  "wortnetz": {
+    "grundwort": "Deduktion",
+    "woerter": [
+      {
+        "wort": "die Regel",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قاعده",
+          "en": "rule"
+        },
+        "id_ref": "nomen_regel"
+      },
+      {
+        "wort": "logisch",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "منطقی",
+          "en": "logical"
+        },
+        "id_ref": "adjektiv_logisch"
+      },
+      {
+        "wort": "die Methode",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "روش",
+          "en": "method"
+        },
+        "id_ref": "nomen_methode"
+      },
+      {
+        "wort": "ableiten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "استنتاج کردن",
+          "en": "to derive"
+        },
+        "id_ref": "verb_ableiten"
+      },
+      {
+        "wort": "induktiv",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "استقرایی",
+          "en": "inductive"
+        },
+        "id_ref": "adjektiv_induktiv"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

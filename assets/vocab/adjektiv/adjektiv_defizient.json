@@ -1,0 +1,141 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_defizient",
+  "wort": "defizient",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "ناقص، دارای کمبود"
+    ],
+    "en": [
+      "deficient"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wissenschaft",
+    "Medizin"
+  ],
+  "ipa": "defiˈtsi̯ɛnt",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das System ist defizient.",
+      "uebersetzung": {
+        "fa": "این سیستم ناقص است.",
+        "en": "The system is deficient."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bei defizienten Zellen fehlt ein wichtiges Enzym, weshalb der Stoffwechsel gestört ist.",
+      "uebersetzung": {
+        "fa": "در سلول‌های دارای کمبود یک آنزیم مهم وجود ندارد، به همین دلیل سوخت‌وساز مختل است.",
+        "en": "In deficient cells an important enzyme is missing, which is why metabolism is disturbed."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "mangelhaft",
+      "uebersetzung": {
+        "fa": "ناقص",
+        "en": "deficient"
+      }
+    },
+    {
+      "wort": "unvollständig",
+      "uebersetzung": {
+        "fa": "ناکامل",
+        "en": "incomplete"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "vollständig",
+      "uebersetzung": {
+        "fa": "کامل",
+        "en": "complete"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. deficiens (کم‌آورنده) ← deficere (کم آمدن)",
+    "en": "Latin deficiens (lacking) ← deficere (to be lacking)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "defizient",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein defizienter Zustand",
+      "die defiziente Struktur"
+    ],
+    "gegensatzpaar": "defizient ↔ vollständig"
+  },
+  "wortnetz": {
+    "grundwort": "Defizit",
+    "woerter": [
+      {
+        "wort": "fehlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کم بودن، غایب بودن",
+          "en": "to be missing"
+        },
+        "id_ref": "verb_fehlen"
+      },
+      {
+        "wort": "der Mangel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کمبود",
+          "en": "lack"
+        },
+        "id_ref": "nomen_mangel"
+      },
+      {
+        "wort": "mangelhaft",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ناقص",
+          "en": "deficient"
+        },
+        "id_ref": "adjektiv_mangelhaft"
+      },
+      {
+        "wort": "das Defizit",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کسری",
+          "en": "deficit"
+        },
+        "id_ref": "nomen_defizit"
+      },
+      {
+        "wort": "die Schwäche",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ضعف",
+          "en": "weakness"
+        },
+        "id_ref": "nomen_schwaeche"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
