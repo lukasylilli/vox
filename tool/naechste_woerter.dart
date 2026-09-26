@@ -236,6 +236,8 @@ const zurueckgestellt = <String>{
   'geheist', // keine gesicherte Bedeutung/Form 2026-09-26
   'gehenkelt', // Bedeutung/Gebrauch unsicher (mit Henkel?) 2026-09-26
   'gehl', // mundartlich/veraltet, Bedeutung unsicher 2026-09-26
+  'geköpert', // Textil-Fachwort (Köperbindung?), unsicher 2026-09-26
+  'gekröpft', // Fachwort (Technik/Jagd), Bedeutung unsicher 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
