@@ -163,7 +163,7 @@
 
 | فهرست | انجام‌شده (آخرین کلمه) | کلمه‌ی بعدی | کنار گذاشته (منتظر Lukas) |
 |---|---|---|---|
-| ۱. `Adjektive.txt` (صفت) | aalartig … **bewohnbar** (دور ۲۸–۱۲۹؛ فهرست دقیق: ✓ در `Adjektive.txt` = کارت در `assets/vocab/`) | **bewundernswert** | abatisch (2026-09-23) · abdikativ (2026-09-24) — معنا نامطمئن · afrikaans (2026-09-24) — کاربرد صفتی نامطمئن · aldente (2026-09-24) — املا مشکوک · aleppinisch (2026-09-24) — کاربرد صفتی نامطمئن · allenfallsig (2026-09-24) — شکل ثابت‌شده ندارد · altaltbacken (2026-09-24) — املا مشکوک · Altdorfer (2026-09-24) — اسم خاص/صفت مکانی · altkrank (2026-09-24) — معنا/کاربرد نامطمئن · amaranten · ambient · amethysten · amphibolisch · anamorph · anelliert · anotherm · antichretisch · appendikuliert · aretologisch · arschig · arschlos · assi · athermisch · ausheimisch · austral · averbal · azentrisch · azephal · bananig · bannig · basalten · basiklin · basten · batisten · bebuscht · bebust · bedonnert · befotzt · begeißelt · begrannt · behemdet · behost · behuft · beinfarben · bekrallt · bemähnt · bemützt · bepelzt · beredet · berindet · bernsteinen · berstig · berüscht · beschilft · beschürzt · besoffenbesondere · besonderes · besonderer · bestiefelt · bestrumpft · bestusst · betresst · betrieben (2026-09-25؛ دلیل‌ها: «🏁 مرحله‌ی آخر» #10–63) |
+| ۱. `Adjektive.txt` (صفت) | aalartig … **bezugnehmend** (دور ۲۸–۱۳۰؛ فهرست دقیق: ✓ در `Adjektive.txt` = کارت در `assets/vocab/`) | **bhutanisch** | abatisch (2026-09-23) · abdikativ (2026-09-24) — معنا نامطمئن · afrikaans (2026-09-24) — کاربرد صفتی نامطمئن · aldente (2026-09-24) — املا مشکوک · aleppinisch (2026-09-24) — کاربرد صفتی نامطمئن · allenfallsig (2026-09-24) — شکل ثابت‌شده ندارد · altaltbacken (2026-09-24) — املا مشکوک · Altdorfer (2026-09-24) — اسم خاص/صفت مکانی · altkrank (2026-09-24) — معنا/کاربرد نامطمئن · amaranten · ambient · amethysten · amphibolisch · anamorph · anelliert · anotherm · antichretisch · appendikuliert · aretologisch · arschig · arschlos · assi · athermisch · ausheimisch · austral · averbal · azentrisch · azephal · bananig · bannig · basalten · basiklin · basten · batisten · bebuscht · bebust · bedonnert · befotzt · begeißelt · begrannt · behemdet · behost · behuft · beinfarben · bekrallt · bemähnt · bemützt · bepelzt · beredet · berindet · bernsteinen · berstig · berüscht · beschilft · beschürzt · besoffenbesondere · besonderes · besonderer · bestiefelt · bestrumpft · bestusst · betresst · betrieben · bezastert · bezopft (2026-09-25؛ دلیل‌ها: «🏁 مرحله‌ی آخر» #10–65) |
 | ۲. `Verben_unregelmaeßig_Infinitiv.txt` (فعل بی‌قاعده) | — | abbacken | — |
 | ۳. `Verben_regelmaesig.txt` (فعل باقاعده) | — | aalen | — |
 | ۴. `substantiv_singular_alle.txt` (اسم) | — | Aachen | — |
@@ -173,7 +173,7 @@
 - ⛔ **قبل از شروع اسم‌ها (فهرست ۴) حتماً از Lukas بپرس:** اسم‌هایی که آرتیکل ندارند (بیشتر نام شهرها و کشورها، مثل Aachen) چطور ساخته شوند — تصمیم Lukas: «وقتی به اسم‌ها رسیدیم، قبلش دوباره سؤال کن». ⚠️ همان‌جا بپرس: **هم‌نویسه‌ها با همان Wortart** (مثل der See / die See) طبق `vokabId` یک id می‌گیرند و فعلاً فقط یکی ساخته می‌شود — با ⭐ اصل اول (همه ساخته شوند) باید id دوم تعریف شود (تغییر `vokab_schema.dart` ⇒ فقط با تأیید Lukas).
 - ⚠️ برای اسم‌ها: `substantiv_singular_alle.txt` بدون آرتیکل است ⇒ genus از `substantiv_singular_der/die/das.txt`؛ نام‌های خاص (شهر/کشور، مثل Aachen) هم در فهرست‌اند — وقتی رسیدیم، همان قاعده‌ی پرامپت (مطمئن نیستی ⇒ نساز) و گزارش به Lukas.
 - ✅ **Wortart غلط در فهرست (2026-09-24 دور ۳۴):** aberhundert و abertausend (و عددهای ترتیبی achte، achtzehnte، achtzigste) در Adjektive.txt هستند ولی طبق Duden «unbestimmtes Zahlwort»اند ⇒ کارت در `assets/vocab/numerale/` ساخته شد و در `wortartKorrektur` (`tool/naechste_woerter.dart`) ثبت شد تا ابزار آن‌ها را ساخته‌شده بشناسد. قاعده: Wortart درست (Duden) مهم‌تر از برچسب فهرست است؛ هر مورد تازه همان‌جا ثبت شود. **2026-09-25 دور ۷۱:** andante (نشانه‌ی تمپوی موسیقی) و anderweit (صفتش anderweitig است) ⇒ `assets/vocab/adverb/`. **2026-09-26 دور ۱۱۱:** baldmöglichst (Duden: قید، زبان اداری) ⇒ `assets/vocab/adverb/`.
-- کارت‌های دیگر آرشیو (افعال Dativ و …) از deckها آمده‌اند، نه از این فهرست‌ها. کل آرشیو: **۸۸۶ کارت** (2026-09-25 دور ۱۲۹).
+- کارت‌های دیگر آرشیو (افعال Dativ و …) از deckها آمده‌اند، نه از این فهرست‌ها. کل آرشیو: **۸۹۶ کارت** (2026-09-25 دور ۱۳۰).
 
 ## INHALTSVERZEICHNIS (فهرست مطالب)
 
@@ -1287,6 +1287,8 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | 61 | bestusst | `Adjektive.txt` | 2026-09-25 | عامیانه؛ معنا و کاربرد رایجش را مطمئن نمی‌دانم («خل»؟) | — |
 | 62 | betresst | `Adjektive.txt` | 2026-09-25 | معنا و کاربرد رایجش مطمئن نیست («یراق‌دار»؟) | — |
 | 63 | betrieben | `Adjektive.txt` | 2026-09-25 | فقط صفت مفعولی است؛ به‌عنوان صفت مستقل مطمئن نیستم (بیشتر در ترکیب‌ها مثل batteriebetrieben) | — |
+| 64 | bezastert | `Adjektive.txt` | 2026-09-25 | نه معنا و نه شکل ثبت‌شده‌ای برایش می‌شناسم | — |
+| 65 | bezopft | `Adjektive.txt` | 2026-09-25 | معنا و کاربرد رایجش مطمئن نیست («گیس‌بافته»؟) | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 
