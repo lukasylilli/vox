@@ -159,6 +159,7 @@ const zurueckgestellt = <String>{
   'drittelzahlig', // Bedeutung/Duden-Eintrag unsicher 2026-09-26
   'dutzend', // Wortart unsicher (meist Nomen «das Dutzend»; klein nur in «dutzende») 2026-09-26
   'dyadisch', // mehrere Fachbedeutungen (Mathematik «dual» / Soziologie «Zweierbeziehung»), unsicher 2026-09-26
+  'ebengleich', // Bedeutung/Duden-Eintrag unsicher 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
