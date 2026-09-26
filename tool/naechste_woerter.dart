@@ -84,6 +84,7 @@ const zurueckgestellt = <String>{
   'behost', // Bedeutung/Gebrauch unsicher («mit Hose»?) 2026-09-25
   'behuft', // Bedeutung/Gebrauch unsicher («mit Hufen»?) 2026-09-25
   'beinfarben', // Bedeutung unsicher («knochenfarben»?) 2026-09-25
+  'bekrallt', // Bedeutung/Gebrauch unsicher («mit Krallen»?) 2026-09-25
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
