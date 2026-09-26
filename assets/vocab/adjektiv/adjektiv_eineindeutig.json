@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_eineindeutig",
+  "wort": "eineindeutig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(ریاضی) یک‌به‌یک، دوسویه"
+    ],
+    "en": [
+      "(maths) one-to-one, bijective"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik",
+    "Logik"
+  ],
+  "ipa": "ˈaɪ̯nʔaɪ̯ndɔʏ̯tɪç",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Zuordnung ist eineindeutig.",
+      "uebersetzung": {
+        "fa": "این نگاشت یک‌به‌یک است.",
+        "en": "The mapping is one-to-one."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Eine Abbildung ist eineindeutig, wenn jedem Element genau ein Partner zugeordnet ist und umgekehrt.",
+      "uebersetzung": {
+        "fa": "یک تابع یک‌به‌یک است اگر به هر عضو دقیقاً یک جفت نسبت داده شود و برعکس.",
+        "en": "A mapping is one-to-one if each element is assigned exactly one partner and vice versa."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bijektiv",
+      "uebersetzung": {
+        "fa": "دوسویه",
+        "en": "bijective"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein (یک) + eindeutig (یکتا)",
+    "en": "ein (one) + eindeutig (unique)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "eineindeutig",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine eineindeutige Zuordnung",
+      "die eineindeutige Abbildung"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "eindeutig",
+    "woerter": [
+      {
+        "wort": "die Mathematik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریاضی",
+          "en": "mathematics"
+        },
+        "id_ref": "nomen_mathematik"
+      },
+      {
+        "wort": "eindeutig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "یکتا",
+          "en": "unambiguous"
+        },
+        "id_ref": "adjektiv_eindeutig"
+      },
+      {
+        "wort": "die Zuordnung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تخصیص",
+          "en": "assignment"
+        },
+        "id_ref": "nomen_zuordnung"
+      },
+      {
+        "wort": "das Element",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عضو",
+          "en": "element"
+        },
+        "id_ref": "nomen_element"
+      },
+      {
+        "wort": "die Funktion",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تابع",
+          "en": "function"
+        },
+        "id_ref": "nomen_funktion"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
