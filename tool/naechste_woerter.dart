@@ -259,6 +259,8 @@ const wortartKorrektur = <String, String>{
   'fünfte': 'numerale', // Ordinalzahl (2026-09-26)
   'fünftel': 'numerale', // Bruchzahl (2026-09-26)
   'fünfzehnte': 'numerale', // Ordinalzahl (2026-09-26)
+  'fünfzigste': 'numerale', // Ordinalzahl (2026-09-26)
+  'fürbass': 'adverb', // Duden: Adverb (veraltet) (2026-09-26)
 };
 
 /// `--abhaken` (Schritt 6 der Routine): setzt in ALLEN Listen «✓ » vor jedes
