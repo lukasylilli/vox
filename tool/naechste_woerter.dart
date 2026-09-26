@@ -273,6 +273,7 @@ const wortartKorrektur = <String, String>{
   'fünfzehnte': 'numerale', // Ordinalzahl (2026-09-26)
   'fünfzigste': 'numerale', // Ordinalzahl (2026-09-26)
   'fürbass': 'adverb', // Duden: Adverb (veraltet) (2026-09-26)
+  'gell': 'partikel', // Duden: Partikel (landsch.) (2026-09-26)
 };
 
 /// `--abhaken` (Schritt 6 der Routine): setzt in ALLEN Listen «✓ » vor jedes
