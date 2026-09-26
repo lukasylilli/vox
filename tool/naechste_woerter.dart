@@ -207,6 +207,8 @@ const zurueckgestellt = <String>{
   'extra-temporal', // Schreibweise/Bedeutung unsicher 2026-09-26
   'extratemporal', // Bedeutung/Duden-Eintrag unsicher (Medizin «außerhalb der Schläfe»?) 2026-09-26
   'fabisch', // Bedeutung/Duden-Eintrag unsicher 2026-09-26
+  'fadenbreit', // eher Nomen («um keinen Fadenbreit»), Adjektivgebrauch unsicher 2026-09-26
+  'fadenlos', // Bedeutung/Duden-Eintrag unsicher 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
