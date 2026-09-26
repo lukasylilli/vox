@@ -178,6 +178,8 @@ const zurueckgestellt = <String>{
   'enneaeterisch', // sehr seltenes Fachwort («neunjährig»?), unsicher 2026-09-26
   'enostal', // Bedeutung/Duden-Eintrag unsicher (Verwechslung mit «enossal»?) 2026-09-26
   'entaktogen', // Fachwort der Pharmakologie, Duden-Eintrag unsicher 2026-09-26
+  'ephebisch', // Bedeutung/Duden-Eintrag unsicher («jünglingshaft»?) 2026-09-26
+  'epifaszial', // Fachwort der Medizin («oberhalb der Faszie»?), Duden-Eintrag unsicher 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
@@ -205,6 +207,7 @@ const wortartKorrektur = <String, String>{
   'einunddreißigste': 'numerale', // Ordinalzahl (2026-09-26)
   'einundzwanzigste': 'numerale', // Ordinalzahl (2026-09-26)
   'elfte': 'numerale', // Ordinalzahl (2026-09-26)
+  'erste': 'numerale', // Ordinalzahl (2026-09-26)
 };
 
 /// `--abhaken` (Schritt 6 der Routine): setzt in ALLEN Listen «✓ » vor jedes
