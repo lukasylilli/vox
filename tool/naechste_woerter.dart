@@ -175,6 +175,9 @@ const zurueckgestellt = <String>{
   'endothym', // Fachwort (Psychologie), Bedeutung/Duden-Eintrag unsicher 2026-09-26
   'endozentrisch', // Fachwort der Linguistik, Duden-Eintrag unsicher 2026-09-26
   'enkaptisch', // Bedeutung/Duden-Eintrag unsicher 2026-09-26
+  'enneaeterisch', // sehr seltenes Fachwort («neunjährig»?), unsicher 2026-09-26
+  'enostal', // Bedeutung/Duden-Eintrag unsicher (Verwechslung mit «enossal»?) 2026-09-26
+  'entaktogen', // Fachwort der Pharmakologie, Duden-Eintrag unsicher 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
