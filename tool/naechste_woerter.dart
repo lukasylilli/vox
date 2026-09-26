@@ -180,6 +180,8 @@ const zurueckgestellt = <String>{
   'entaktogen', // Fachwort der Pharmakologie, Duden-Eintrag unsicher 2026-09-26
   'ephebisch', // Bedeutung/Duden-Eintrag unsicher («jünglingshaft»?) 2026-09-26
   'epifaszial', // Fachwort der Medizin («oberhalb der Faszie»?), Duden-Eintrag unsicher 2026-09-26
+  'epithetisch', // Fachwort (Rhetorik), Duden-Eintrag unsicher 2026-09-26
+  'eponymisch', // Duden-Eintrag unsicher (gesichert eher: «eponym») 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
