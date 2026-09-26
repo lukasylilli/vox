@@ -1,0 +1,152 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_ergeben",
+  "wort": "ergeben",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "وفادار، سرسپرده",
+      "تسلیم، سربه‌زیر"
+    ],
+    "en": [
+      "devoted, loyal",
+      "resigned, submissive"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Charakter",
+    "Gefühle"
+  ],
+  "ipa": "ɛɐ̯ˈɡeːbn̩",
+  "anmerkung": "Auch Verb „ergeben“ (= zum Ergebnis haben) und „sich ergeben“ (= kapitulieren).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hund ist ihr treu ergeben.",
+      "uebersetzung": {
+        "fa": "سگ با وفاداری سرسپرده‌ی اوست.",
+        "en": "The dog is loyally devoted to her."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Er nahm die schlechte Nachricht ergeben hin, weil er wusste, dass er nichts ändern konnte.",
+      "uebersetzung": {
+        "fa": "خبر بد را با تسلیم پذیرفت، چون می‌دانست نمی‌تواند چیزی را تغییر دهد.",
+        "en": "He accepted the bad news with resignation because he knew he could change nothing."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "treu",
+      "uebersetzung": {
+        "fa": "وفادار",
+        "en": "loyal"
+      }
+    },
+    {
+      "wort": "demütig",
+      "uebersetzung": {
+        "fa": "سربه‌زیر",
+        "en": "humble"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "rebellisch",
+      "uebersetzung": {
+        "fa": "سرکش",
+        "en": "rebellious"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "sich ergeben (تسلیم شدن) + Partizip II",
+    "en": "sich ergeben (to surrender), past participle"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "ergeben",
+      "komparativ": "ergebener",
+      "superlativ": "am ergebensten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "jemandem ergeben sein (+ Dat)",
+        "beispiel": "Die Soldaten waren ihrem König ergeben.",
+        "uebersetzung": {
+          "fa": "سربازان سرسپرده‌ی پادشاهشان بودند.",
+          "en": "The soldiers were devoted to their king."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein ergebener Diener",
+      "die ergebene Haltung"
+    ],
+    "gegensatzpaar": "ergeben ↔ rebellisch"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "treu",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وفادار",
+          "en": "loyal"
+        },
+        "id_ref": "adjektiv_treu"
+      },
+      {
+        "wort": "sich ergeben",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تسلیم شدن",
+          "en": "to surrender"
+        },
+        "id_ref": "verb_sich_ergeben"
+      },
+      {
+        "wort": "die Ergebenheit",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "سرسپردگی",
+          "en": "devotion"
+        },
+        "id_ref": "nomen_ergebenheit"
+      },
+      {
+        "wort": "gehorsam",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مطیع",
+          "en": "obedient"
+        },
+        "id_ref": "adjektiv_gehorsam"
+      },
+      {
+        "wort": "das Ergebnis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نتیجه",
+          "en": "result"
+        },
+        "id_ref": "nomen_ergebnis"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
