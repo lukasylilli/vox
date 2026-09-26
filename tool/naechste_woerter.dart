@@ -191,6 +191,7 @@ const wortartKorrektur = <String, String>{
   'einhundertste': 'numerale', // Ordinalzahl (2026-09-26)
   'einunddreißigste': 'numerale', // Ordinalzahl (2026-09-26)
   'einundzwanzigste': 'numerale', // Ordinalzahl (2026-09-26)
+  'elfte': 'numerale', // Ordinalzahl (2026-09-26)
 };
 
 /// `--abhaken` (Schritt 6 der Routine): setzt in ALLEN Listen «✓ » vor jedes
