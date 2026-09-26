@@ -65,6 +65,7 @@ const zurueckgestellt = <String>{
   'athermisch', // Bedeutung/Fachgebiet unsicher 2026-09-25
   'ausheimisch', // Bedeutung/Gebrauch unsicher (landschaftlich/veraltet?) 2026-09-25
   'austral', // Bedeutung/Gebrauch unsicher (Fachwort «südlich»?) 2026-09-25
+  'averbal', // Bedeutung/Gebrauch unsicher (Fachwort?) 2026-09-25
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
