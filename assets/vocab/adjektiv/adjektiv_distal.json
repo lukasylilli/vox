@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_distal",
+  "wort": "distal",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "دور از مرکز بدن، دیستال (کالبدشناسی)"
+    ],
+    "en": [
+      "distal"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Anatomie"
+  ],
+  "ipa": "dɪsˈtaːl",
+  "anmerkung": "Fachwort der Anatomie: weiter vom Rumpf entfernt.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Verletzung ist distal.",
+      "uebersetzung": {
+        "fa": "آسیب در بخش دور (دیستال) است.",
+        "en": "The injury is distal."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Beim Unterarm liegt das Handgelenk distal, der Ellenbogen dagegen proximal.",
+      "uebersetzung": {
+        "fa": "در ساعد، مچ دست در بخش دیستال و آرنج در بخش پروگزیمال قرار دارد.",
+        "en": "In the forearm the wrist is distal, whereas the elbow is proximal."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "proximal",
+      "uebersetzung": {
+        "fa": "نزدیک به مرکز",
+        "en": "proximal"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. distare (دور بودن) + -al",
+    "en": "Latin distare (to stand apart) + -al"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "distal",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "die distale Fraktur",
+      "ein distaler Abschnitt"
+    ],
+    "gegensatzpaar": "distal ↔ proximal"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Körper",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بدن",
+          "en": "body"
+        },
+        "id_ref": "nomen_koerper"
+      },
+      {
+        "wort": "der Arm",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بازو",
+          "en": "arm"
+        },
+        "id_ref": "nomen_arm"
+      },
+      {
+        "wort": "das Handgelenk",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مچ دست",
+          "en": "wrist"
+        },
+        "id_ref": "nomen_handgelenk"
+      },
+      {
+        "wort": "die Anatomie",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کالبدشناسی",
+          "en": "anatomy"
+        },
+        "id_ref": "nomen_anatomie"
+      },
+      {
+        "wort": "proximal",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "نزدیک به مرکز",
+          "en": "proximal"
+        },
+        "id_ref": "adjektiv_proximal"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -148,6 +148,9 @@ const zurueckgestellt = <String>{
   'dikasterial', // Fachwort (Kirchenrecht/Verwaltung, von «Dikasterium»?), Bedeutung unsicher 2026-09-26
   'dilemmatisch', // Duden-Eintrag und Gebrauch unsicher 2026-09-26
   'diptotisch', // Fachwort (Grammatik: «mit nur zwei Kasusformen»?), Duden-Eintrag unsicher 2026-09-26
+  'dissidentisch', // Duden-Eintrag unsicher (gesichert: «dissident») 2026-09-26
+  'dissipativ', // Fachwort (Physik: «Energie zerstreuend»), Duden-Eintrag unsicher 2026-09-26
+  'distich', // Fachwort (Botanik «zweizeilig»?) oder Verwechslung mit «Distichon»; unsicher 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
@@ -165,6 +168,11 @@ const wortartKorrektur = <String, String>{
   'billiardste': 'numerale', // Ordinalzahl (2026-09-26)
   'billionste': 'numerale', // Ordinalzahl (2026-09-26)
   'demgemäß': 'adverb', // Duden: Adverb (2026-09-26)
+  'dreihundertste': 'numerale', // Ordinalzahl (2026-09-26)
+  'dreißigste': 'numerale', // Ordinalzahl (2026-09-26)
+  'dreiundzwanzigste': 'numerale', // Ordinalzahl (2026-09-26)
+  'dreizehnte': 'numerale', // Ordinalzahl (2026-09-26)
+  'dritte': 'numerale', // Ordinalzahl (2026-09-26)
 };
 
 /// `--abhaken` (Schritt 6 der Routine): setzt in ALLEN Listen «✓ » vor jedes
