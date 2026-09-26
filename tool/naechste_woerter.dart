@@ -218,6 +218,7 @@ const zurueckgestellt = <String>{
   'fennoskandisch', // Fachwort (Geologie/Geografie), Duden-Eintrag unsicher 2026-09-26
   'fichten', // Stoffadjektiv («aus Fichtenholz»?) — wie birken 2026-09-26
   'fickerig', // landschaftlich, Bedeutung unsicher («nervös»?) und leicht missverständlich 2026-09-26
+  'filamentartig', // Duden-Eintrag unsicher 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
