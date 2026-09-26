@@ -1,0 +1,169 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_bestimmt",
+  "wort": "bestimmt",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "معین، مشخص",
+      "قاطع",
+      "حتماً (قیدی)"
+    ],
+    "en": [
+      "certain",
+      "specific",
+      "firm",
+      "definitely (adv.)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Kommunikation"
+  ],
+  "ipa": "bəˈʃtɪmt",
+  "anmerkung": "Grammatik: «bestimmter Artikel» (der/die/das); als Adverb «bestimmt» = sicher.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er kommt bestimmt morgen.",
+      "uebersetzung": {
+        "fa": "او حتماً فردا می‌آید.",
+        "en": "He'll definitely come tomorrow."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Suchst du ein bestimmtes Buch, oder möchtest du dich einfach umsehen?",
+      "uebersetzung": {
+        "fa": "دنبال کتاب مشخصی هستی یا فقط می‌خواهی نگاهی بیندازی؟",
+        "en": "Are you looking for a particular book, or do you just want to look around?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sicher",
+      "uebersetzung": {
+        "fa": "حتماً",
+        "en": "surely"
+      }
+    },
+    {
+      "wort": "gewiss",
+      "uebersetzung": {
+        "fa": "قطعاً",
+        "en": "certain"
+      }
+    },
+    {
+      "wort": "entschieden",
+      "uebersetzung": {
+        "fa": "قاطع",
+        "en": "firm"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "unbestimmt",
+      "uebersetzung": {
+        "fa": "نامعلوم",
+        "en": "indefinite"
+      }
+    },
+    {
+      "wort": "vage",
+      "uebersetzung": {
+        "fa": "مبهم",
+        "en": "vague"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "bestimmen (تعیین کردن) → صفت مفعولی",
+    "en": "past participle of bestimmen (to determine)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "bestimmt",
+      "komparativ": "bestimmter",
+      "superlativ": "am bestimmtesten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "bestimmt für + Akk",
+        "beispiel": "Das Paket ist für dich bestimmt.",
+        "uebersetzung": {
+          "fa": "این بسته برای توست.",
+          "en": "The parcel is meant for you."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein bestimmter Grund",
+      "die bestimmte Antwort"
+    ],
+    "gegensatzpaar": "bestimmt ↔ unbestimmt"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "bestimmen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تعیین کردن",
+          "en": "to determine"
+        },
+        "id_ref": "verb_bestimmen"
+      },
+      {
+        "wort": "die Stimme",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صدا، رأی",
+          "en": "voice, vote"
+        },
+        "id_ref": "nomen_stimme"
+      },
+      {
+        "wort": "sicher",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مطمئن",
+          "en": "sure"
+        },
+        "id_ref": "adjektiv_sicher"
+      },
+      {
+        "wort": "genau",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دقیق",
+          "en": "exact"
+        },
+        "id_ref": "adjektiv_genau"
+      },
+      {
+        "wort": "unbestimmt",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نامعلوم",
+          "en": "indefinite"
+        },
+        "id_ref": "adjektiv_unbestimmt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

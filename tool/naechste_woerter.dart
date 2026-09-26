@@ -98,6 +98,9 @@ const zurueckgestellt = <String>{
   'besoffenbesondere', // Listenfehler (zwei Wörter zusammengeschrieben) 2026-09-25
   'besonderes', // flektierte Form, keine Grundform (Lemma: «besonderer/besondere») 2026-09-25
   'besonderer', // flektierte Form, keine Grundform 2026-09-25
+  'bestiefelt', // Bedeutung/Gebrauch unsicher («mit Stiefeln»?) 2026-09-25
+  'bestrumpft', // Bedeutung/Gebrauch unsicher («mit Strümpfen»?) 2026-09-25
+  'bestusst', // umgangssprachlich; Bedeutung/Gebrauch unsicher 2026-09-25
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
