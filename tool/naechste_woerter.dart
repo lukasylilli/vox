@@ -209,6 +209,10 @@ const zurueckgestellt = <String>{
   'fabisch', // Bedeutung/Duden-Eintrag unsicher 2026-09-26
   'fadenbreit', // eher Nomen («um keinen Fadenbreit»), Adjektivgebrauch unsicher 2026-09-26
   'fadenlos', // Bedeutung/Duden-Eintrag unsicher 2026-09-26
+  'faselnackend', // landschaftlich, Bedeutung/Schreibweise unsicher («splitternackt»?) 2026-09-26
+  'fasennackend', // landschaftlich, Bedeutung/Schreibweise unsicher — wie faselnackend 2026-09-26
+  'fassettenartig', // Schreibvariante unsicher (gesichert: «facettenartig») 2026-09-26
+  'fassettenreich', // Schreibvariante unsicher (gesichert: «facettenreich») 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
