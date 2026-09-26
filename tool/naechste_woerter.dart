@@ -124,6 +124,7 @@ const zurueckgestellt = <String>{
   'buntfarben', // Duden-Eintrag unsicher (gesichert: buntfarbig) 2026-09-26
   'busig', // Bedeutung/Gebrauch unsicher (umgangssprachlich «vollbusig»?) — wie bebust 2026-09-26
   'bustrophedon', // eher Nomen/Adverb (das Bustrophedon), Wortart unsicher — wie boustrophedon 2026-09-26
+  'chemometrisch', // Fachwort (Chemometrie), Duden-Eintrag unsicher 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
