@@ -116,6 +116,9 @@ const zurueckgestellt = <String>{
   'bonfortionös', // Schreibweise unsicher (Duden: «bomforzionös»?) 2026-09-26
   'botrytisiert', // Fachwort (Weinbau), Duden-Eintrag unsicher 2026-09-26
   'boustrophedon', // eher Adverb/Nomen (Bustrophedon), Wortart unsicher 2026-09-26
+  'brennheiß', // Duden-Eintrag unsicher (eher «brennend heiß») 2026-09-26
+  'brillanten', // Bedeutung/Gebrauch unsicher (aus Brillanten?) 2026-09-26
+  'brokaten', // Bedeutung/Gebrauch unsicher (aus Brokat?) 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
