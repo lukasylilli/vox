@@ -190,6 +190,7 @@ const zurueckgestellt = <String>{
   'erzen', // Stoffadjektiv («aus Erz»?, veraltet) — wie birken 2026-09-26
   'eschen', // Stoffadjektiv («aus Eschenholz»?) — wie birken 2026-09-26
   'espen', // Stoffadjektiv («aus Espenholz»?) — wie birken 2026-09-26
+  'etisch', // Fachwort (Ethnologie/Linguistik «etisch») — wie emisch 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
