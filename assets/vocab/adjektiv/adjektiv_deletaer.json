@@ -1,0 +1,140 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_deletaer",
+  "wort": "deletär",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(پزشکی) کشنده، مرگبار"
+    ],
+    "en": [
+      "(medicine) deleterious, lethal"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin"
+  ],
+  "ipa": "deleˈtɛːɐ̯",
+  "anmerkung": "Fachwort der Medizin/Biologie.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Mutation ist deletär.",
+      "uebersetzung": {
+        "fa": "این جهش کشنده است.",
+        "en": "The mutation is lethal."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Manche Genveränderungen sind deletär, weil der Organismus mit ihnen nicht überleben kann.",
+      "uebersetzung": {
+        "fa": "بعضی تغییرات ژنتیکی کشنده‌اند، چون موجود زنده با آن‌ها نمی‌تواند زنده بماند.",
+        "en": "Some genetic changes are deleterious because the organism cannot survive with them."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "tödlich",
+      "uebersetzung": {
+        "fa": "مرگبار",
+        "en": "deadly"
+      }
+    },
+    {
+      "wort": "letal",
+      "uebersetzung": {
+        "fa": "کشنده",
+        "en": "lethal"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "harmlos",
+      "uebersetzung": {
+        "fa": "بی‌خطر",
+        "en": "harmless"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. deleterius (مخرب) ← deleri (نابود شدن)",
+    "en": "Latin deleterius (destructive)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "deletär",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine deletäre Mutation",
+      "der deletäre Verlauf"
+    ],
+    "gegensatzpaar": "deletär ↔ harmlos"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "tödlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مرگبار",
+          "en": "deadly"
+        },
+        "id_ref": "adjektiv_toedlich"
+      },
+      {
+        "wort": "gefährlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خطرناک",
+          "en": "dangerous"
+        },
+        "id_ref": "adjektiv_gefaehrlich"
+      },
+      {
+        "wort": "die Mutation",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "جهش",
+          "en": "mutation"
+        },
+        "id_ref": "nomen_mutation"
+      },
+      {
+        "wort": "das Gen",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ژن",
+          "en": "gene"
+        },
+        "id_ref": "nomen_gen"
+      },
+      {
+        "wort": "letal",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "کشنده",
+          "en": "lethal"
+        },
+        "id_ref": "adjektiv_letal"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
