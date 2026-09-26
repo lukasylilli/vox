@@ -254,6 +254,7 @@ const wortartKorrektur = <String, String>{
   'einundzwanzigste': 'numerale', // Ordinalzahl (2026-09-26)
   'elfte': 'numerale', // Ordinalzahl (2026-09-26)
   'erste': 'numerale', // Ordinalzahl (2026-09-26)
+  'forte': 'adverb', // Duden: Adverb (Musik) (2026-09-26)
 };
 
 /// `--abhaken` (Schritt 6 der Routine): setzt in ALLEN Listen «✓ » vor jedes
