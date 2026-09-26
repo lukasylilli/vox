@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_frequent",
+  "wort": "frequent",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(رسمی) پرتکرار، مکرر",
+      "(پزشکی) سریع (نبض)"
+    ],
+    "en": [
+      "(formal) frequent",
+      "(medicine) rapid (pulse)"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wissenschaft",
+    "Medizin"
+  ],
+  "ipa": "fʁeˈkvɛnt",
+  "anmerkung": "Bildungssprachlich; in der Medizin: beschleunigt (frequenter Puls).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Puls ist frequent.",
+      "uebersetzung": {
+        "fa": "نبض سریع است.",
+        "en": "The pulse is rapid."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Dieses Wort ist im Korpus sehr frequent, deshalb sollten Lernende es früh kennen.",
+      "uebersetzung": {
+        "fa": "این کلمه در پیکره‌ی زبانی خیلی پرتکرار است، برای همین زبان‌آموزان باید زود آن را بشناسند.",
+        "en": "This word is very frequent in the corpus, so learners should know it early."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "häufig",
+      "uebersetzung": {
+        "fa": "مکرر",
+        "en": "frequent"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "selten",
+      "uebersetzung": {
+        "fa": "نادر",
+        "en": "rare"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. frequens (پرشمار، مکرر)",
+    "en": "Latin frequens (crowded, frequent)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "frequent",
+      "komparativ": "frequenter",
+      "superlativ": "am frequentesten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein frequenter Puls",
+      "das frequente Wort"
+    ],
+    "gegensatzpaar": "frequent ↔ selten"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "häufig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مکرر",
+          "en": "frequent"
+        },
+        "id_ref": "adjektiv_haeufig"
+      },
+      {
+        "wort": "oft",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اغلب",
+          "en": "often"
+        },
+        "id_ref": "adverb_oft"
+      },
+      {
+        "wort": "selten",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نادر",
+          "en": "rare"
+        },
+        "id_ref": "adjektiv_selten"
+      },
+      {
+        "wort": "die Frequenz",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بسامد، تعداد تکرار",
+          "en": "frequency"
+        },
+        "id_ref": "nomen_frequenz"
+      },
+      {
+        "wort": "der Puls",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نبض",
+          "en": "pulse"
+        },
+        "id_ref": "nomen_puls"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
