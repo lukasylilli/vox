@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_elliptisch",
+  "wort": "elliptisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "بیضوی",
+      "(دستور) حذفی، ناقص"
+    ],
+    "en": [
+      "elliptical",
+      "(grammar) elliptical"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Mathematik",
+    "Sprache"
+  ],
+  "ipa": "ɛˈlɪptɪʃ",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Umlaufbahn ist elliptisch.",
+      "uebersetzung": {
+        "fa": "مدار بیضوی است.",
+        "en": "The orbit is elliptical."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Satz „Komme gleich“ ist elliptisch, weil das Subjekt fehlt.",
+      "uebersetzung": {
+        "fa": "جمله‌ی «Komme gleich» حذفی است، چون فاعل ندارد.",
+        "en": "The sentence 'Komme gleich' is elliptical because the subject is missing."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "oval",
+      "uebersetzung": {
+        "fa": "بیضی",
+        "en": "oval"
+      }
+    },
+    {
+      "wort": "verkürzt",
+      "uebersetzung": {
+        "fa": "کوتاه‌شده",
+        "en": "shortened"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Ellipse (بیضی، حذف) + -tisch",
+    "en": "Ellipse (ellipse, ellipsis) + -tisch"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "elliptisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine elliptische Bahn",
+      "der elliptische Satz"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Ellipse",
+    "woerter": [
+      {
+        "wort": "der Kreis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دایره",
+          "en": "circle"
+        },
+        "id_ref": "nomen_kreis"
+      },
+      {
+        "wort": "oval",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیضی",
+          "en": "oval"
+        },
+        "id_ref": "adjektiv_oval"
+      },
+      {
+        "wort": "die Bahn",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مسیر",
+          "en": "track"
+        },
+        "id_ref": "nomen_bahn"
+      },
+      {
+        "wort": "der Satz",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جمله",
+          "en": "sentence"
+        },
+        "id_ref": "nomen_satz"
+      },
+      {
+        "wort": "die Ellipse",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بیضی، حذف",
+          "en": "ellipse"
+        },
+        "id_ref": "nomen_ellipse"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
