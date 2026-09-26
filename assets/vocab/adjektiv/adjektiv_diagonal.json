@@ -1,0 +1,134 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_diagonal",
+  "wort": "diagonal",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "اریب، مورب، قطری"
+    ],
+    "en": [
+      "diagonal"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Mathematik",
+    "Raum"
+  ],
+  "ipa": "diaɡoˈnaːl",
+  "anmerkung": "„etwas diagonal lesen“ = etwas nur flüchtig überfliegen.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Linie läuft diagonal.",
+      "uebersetzung": {
+        "fa": "خط به‌صورت مورب کشیده شده است.",
+        "en": "The line runs diagonally."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Er hat den Text nur diagonal gelesen, weil er keine Zeit hatte.",
+      "uebersetzung": {
+        "fa": "او متن را فقط سرسری خواند، چون وقت نداشت.",
+        "en": "He only skimmed the text because he had no time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schräg",
+      "uebersetzung": {
+        "fa": "کج، مورب",
+        "en": "slanting"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "gerade",
+      "uebersetzung": {
+        "fa": "راست",
+        "en": "straight"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "gr. diagonios (از گوشه به گوشه)",
+    "en": "Greek diagonios (from angle to angle)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "diagonal",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine diagonale Linie",
+      "der diagonale Schnitt"
+    ],
+    "gegensatzpaar": "diagonal ↔ gerade"
+  },
+  "wortnetz": {
+    "grundwort": "Diagonale",
+    "woerter": [
+      {
+        "wort": "die Linie",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خط",
+          "en": "line"
+        },
+        "id_ref": "nomen_linie"
+      },
+      {
+        "wort": "schräg",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مورب",
+          "en": "slanting"
+        },
+        "id_ref": "adjektiv_schraeg"
+      },
+      {
+        "wort": "gerade",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "راست",
+          "en": "straight"
+        },
+        "id_ref": "adjektiv_gerade"
+      },
+      {
+        "wort": "die Ecke",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گوشه",
+          "en": "corner"
+        },
+        "id_ref": "nomen_ecke"
+      },
+      {
+        "wort": "die Diagonale",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قطر",
+          "en": "diagonal"
+        },
+        "id_ref": "nomen_diagonale"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
