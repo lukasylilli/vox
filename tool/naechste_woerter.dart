@@ -231,6 +231,11 @@ const zurueckgestellt = <String>{
   'gebuckelt', // Bedeutung unsicher (bucklig? mit Buckeln?) 2026-09-26
   'gefizt', // keine gesicherte Bedeutung/Form 2026-09-26
   'gegengleich', // Bedeutung/Fachgebiet unsicher (Technik? österr.?) 2026-09-26
+  'gegiebelt', // Bedeutung/Gebrauch unsicher (mit Giebel?) 2026-09-26
+  'gehäusetragend', // Fachwort, Gebrauch unsicher (Schnecken?) 2026-09-26
+  'geheist', // keine gesicherte Bedeutung/Form 2026-09-26
+  'gehenkelt', // Bedeutung/Gebrauch unsicher (mit Henkel?) 2026-09-26
+  'gehl', // mundartlich/veraltet, Bedeutung unsicher 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
