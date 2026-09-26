@@ -80,6 +80,7 @@ const zurueckgestellt = <String>{
   'befotzt', // keine gesicherte Form/Bedeutung (derb, wohl Fehler) 2026-09-25
   'begeißelt', // Bedeutung/Fachgebiet unsicher (Biologie «mit Geißeln»?) 2026-09-25
   'begrannt', // Fachwort (Botanik «mit Grannen»?), unsicher 2026-09-25
+  'behemdet', // Bedeutung/Gebrauch unsicher («mit Hemd»?) 2026-09-25
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
