@@ -74,6 +74,8 @@ const zurueckgestellt = <String>{
   'basiklin', // Fachwort (Botanik?), Bedeutung unsicher 2026-09-25
   'basten', // Bedeutung/Gebrauch unsicher («aus Bast»?) 2026-09-25
   'batisten', // Bedeutung/Gebrauch unsicher («aus Batist»?) 2026-09-25
+  'bebuscht', // Bedeutung/Gebrauch unsicher 2026-09-25
+  'bebust', // Bedeutung/Gebrauch unsicher (umgangssprachlich/derb?) 2026-09-25
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

@@ -1,0 +1,158 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_bedeckt",
+  "wort": "bedeckt",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "ابری",
+      "پوشیده"
+    ],
+    "en": [
+      "overcast",
+      "covered"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Wetter"
+  ],
+  "ipa": "bəˈdɛkt",
+  "anmerkung": "Redewendung: «sich bedeckt halten» = sich nicht äußern.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Himmel ist heute bedeckt.",
+      "uebersetzung": {
+        "fa": "آسمان امروز ابری است.",
+        "en": "The sky is overcast today."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Als wir aufwachten, war der ganze Garten mit Schnee bedeckt, obwohl es am Abend noch geregnet hatte.",
+      "uebersetzung": {
+        "fa": "وقتی بیدار شدیم، کل باغ پوشیده از برف بود، با اینکه عصر هنوز باران می‌بارید.",
+        "en": "When we woke up, the whole garden was covered with snow, although it had still been raining in the evening."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bewölkt",
+      "uebersetzung": {
+        "fa": "ابری",
+        "en": "cloudy"
+      }
+    },
+    {
+      "wort": "trüb",
+      "uebersetzung": {
+        "fa": "گرفته",
+        "en": "dull"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sonnig",
+      "uebersetzung": {
+        "fa": "آفتابی",
+        "en": "sunny"
+      }
+    },
+    {
+      "wort": "klar",
+      "uebersetzung": {
+        "fa": "صاف",
+        "en": "clear"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "bedecken (پوشاندن) → صفت مفعولی",
+    "en": "past participle of bedecken (to cover)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "bedeckt",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "bedeckt mit + Dat",
+        "beispiel": "Der Tisch war mit Papieren bedeckt.",
+        "uebersetzung": {
+          "fa": "میز پوشیده از کاغذ بود.",
+          "en": "The table was covered with papers."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein bedeckter Himmel",
+      "die bedeckte Stirn"
+    ],
+    "gegensatzpaar": "bedeckt ↔ sonnig"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Decke",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پتو، سقف",
+          "en": "blanket, ceiling"
+        },
+        "id_ref": "nomen_decke"
+      },
+      {
+        "wort": "bedecken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پوشاندن",
+          "en": "to cover"
+        },
+        "id_ref": "verb_bedecken"
+      },
+      {
+        "wort": "bewölkt",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ابری",
+          "en": "cloudy"
+        },
+        "id_ref": "adjektiv_bewoelkt"
+      },
+      {
+        "wort": "die Wolke",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ابر",
+          "en": "cloud"
+        },
+        "id_ref": "nomen_wolke"
+      },
+      {
+        "wort": "sonnig",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آفتابی",
+          "en": "sunny"
+        },
+        "id_ref": "adjektiv_sonnig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
