@@ -1,0 +1,127 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_befindlich",
+  "wort": "befindlich",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "واقع، موجود"
+    ],
+    "en": [
+      "located",
+      "situated",
+      "existing"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Amtssprache"
+  ],
+  "ipa": "bəˈfɪntlɪç",
+  "anmerkung": "Amts-/Schriftsprache; meist mit Ortsangabe davor («im Bau befindlich»).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das im Keller befindliche Fahrrad gehört mir.",
+      "uebersetzung": {
+        "fa": "دوچرخه‌ای که در زیرزمین است مال من است.",
+        "en": "The bike located in the basement is mine."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Alle im Gebäude befindlichen Personen mussten wegen des Feueralarms sofort nach draußen gehen.",
+      "uebersetzung": {
+        "fa": "همه‌ی کسانی که در ساختمان بودند به‌خاطر آژیر آتش باید فوراً بیرون می‌رفتند.",
+        "en": "Everyone in the building had to go outside immediately because of the fire alarm."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vorhanden",
+      "uebersetzung": {
+        "fa": "موجود",
+        "en": "present"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "sich befinden (قرار داشتن) + -lich",
+    "en": "sich befinden (to be located) + -lich"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "befindlich",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "das im Bau befindliche Haus",
+      "die befindlichen Unterlagen"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "sich befinden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرار داشتن",
+          "en": "to be located"
+        },
+        "id_ref": "verb_sich_befinden"
+      },
+      {
+        "wort": "das Befinden",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "حال، وضع",
+          "en": "condition"
+        },
+        "id_ref": "nomen_befinden"
+      },
+      {
+        "wort": "vorhanden",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "موجود",
+          "en": "present"
+        },
+        "id_ref": "adjektiv_vorhanden"
+      },
+      {
+        "wort": "der Ort",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مکان",
+          "en": "place"
+        },
+        "id_ref": "nomen_ort"
+      },
+      {
+        "wort": "die Lage",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "موقعیت",
+          "en": "location"
+        },
+        "id_ref": "nomen_lage"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

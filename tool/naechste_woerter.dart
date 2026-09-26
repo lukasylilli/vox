@@ -77,6 +77,7 @@ const zurueckgestellt = <String>{
   'bebuscht', // Bedeutung/Gebrauch unsicher 2026-09-25
   'bebust', // Bedeutung/Gebrauch unsicher (umgangssprachlich/derb?) 2026-09-25
   'bedonnert', // Bedeutung/Gebrauch unsicher (umgangssprachlich?) 2026-09-25
+  'befotzt', // keine gesicherte Form/Bedeutung (derb, wohl Fehler) 2026-09-25
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
