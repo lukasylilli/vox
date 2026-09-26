@@ -88,6 +88,8 @@ const zurueckgestellt = <String>{
   'bemähnt', // Bedeutung/Gebrauch unsicher («mit Mähne»?) 2026-09-25
   'bemützt', // Bedeutung/Gebrauch unsicher («mit Mütze»?) 2026-09-25
   'bepelzt', // Bedeutung/Gebrauch unsicher («mit Pelz»?) 2026-09-25
+  'beredet', // Bedeutung/Form unsicher (wohl Nebenform/Verwechslung mit «beredt») 2026-09-25
+  'berindet', // Bedeutung/Gebrauch unsicher («mit Rinde»?) 2026-09-25
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

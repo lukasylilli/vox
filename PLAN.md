@@ -161,7 +161,7 @@
 
 | فهرست | انجام‌شده (آخرین کلمه) | کلمه‌ی بعدی | کنار گذاشته (منتظر Lukas) |
 |---|---|---|---|
-| ۱. `Adjektive.txt` (صفت) | aalartig … **beratungsresistent** (دور ۲۸–۱۲۳؛ فهرست دقیق: ✓ در `Adjektive.txt` = کارت در `assets/vocab/`) | **berechenbar** | abatisch (2026-09-23) · abdikativ (2026-09-24) — معنا نامطمئن · afrikaans (2026-09-24) — کاربرد صفتی نامطمئن · aldente (2026-09-24) — املا مشکوک · aleppinisch (2026-09-24) — کاربرد صفتی نامطمئن · allenfallsig (2026-09-24) — شکل ثابت‌شده ندارد · altaltbacken (2026-09-24) — املا مشکوک · Altdorfer (2026-09-24) — اسم خاص/صفت مکانی · altkrank (2026-09-24) — معنا/کاربرد نامطمئن · amaranten · ambient · amethysten · amphibolisch · anamorph · anelliert · anotherm · antichretisch · appendikuliert · aretologisch · arschig · arschlos · assi · athermisch · ausheimisch · austral · averbal · azentrisch · azephal · bananig · bannig · basalten · basiklin · basten · batisten · bebuscht · bebust · bedonnert · befotzt · begeißelt · begrannt · behemdet · behost · behuft · beinfarben · bekrallt · bemähnt · bemützt · bepelzt (2026-09-25؛ دلیل‌ها: «🏁 مرحله‌ی آخر» #10–48) |
+| ۱. `Adjektive.txt` (صفت) | aalartig … **berlinisch** (دور ۲۸–۱۲۴؛ فهرست دقیق: ✓ در `Adjektive.txt` = کارت در `assets/vocab/`) | **bernisch** | abatisch (2026-09-23) · abdikativ (2026-09-24) — معنا نامطمئن · afrikaans (2026-09-24) — کاربرد صفتی نامطمئن · aldente (2026-09-24) — املا مشکوک · aleppinisch (2026-09-24) — کاربرد صفتی نامطمئن · allenfallsig (2026-09-24) — شکل ثابت‌شده ندارد · altaltbacken (2026-09-24) — املا مشکوک · Altdorfer (2026-09-24) — اسم خاص/صفت مکانی · altkrank (2026-09-24) — معنا/کاربرد نامطمئن · amaranten · ambient · amethysten · amphibolisch · anamorph · anelliert · anotherm · antichretisch · appendikuliert · aretologisch · arschig · arschlos · assi · athermisch · ausheimisch · austral · averbal · azentrisch · azephal · bananig · bannig · basalten · basiklin · basten · batisten · bebuscht · bebust · bedonnert · befotzt · begeißelt · begrannt · behemdet · behost · behuft · beinfarben · bekrallt · bemähnt · bemützt · bepelzt · beredet · berindet (2026-09-25؛ دلیل‌ها: «🏁 مرحله‌ی آخر» #10–50) |
 | ۲. `Verben_unregelmaeßig_Infinitiv.txt` (فعل بی‌قاعده) | — | abbacken | — |
 | ۳. `Verben_regelmaesig.txt` (فعل باقاعده) | — | aalen | — |
 | ۴. `substantiv_singular_alle.txt` (اسم) | — | Aachen | — |
@@ -171,7 +171,7 @@
 - ⛔ **قبل از شروع اسم‌ها (فهرست ۴) حتماً از Lukas بپرس:** اسم‌هایی که آرتیکل ندارند (بیشتر نام شهرها و کشورها، مثل Aachen) چطور ساخته شوند — تصمیم Lukas: «وقتی به اسم‌ها رسیدیم، قبلش دوباره سؤال کن». ⚠️ همان‌جا بپرس: **هم‌نویسه‌ها با همان Wortart** (مثل der See / die See) طبق `vokabId` یک id می‌گیرند و فعلاً فقط یکی ساخته می‌شود — با ⭐ اصل اول (همه ساخته شوند) باید id دوم تعریف شود (تغییر `vokab_schema.dart` ⇒ فقط با تأیید Lukas).
 - ⚠️ برای اسم‌ها: `substantiv_singular_alle.txt` بدون آرتیکل است ⇒ genus از `substantiv_singular_der/die/das.txt`؛ نام‌های خاص (شهر/کشور، مثل Aachen) هم در فهرست‌اند — وقتی رسیدیم، همان قاعده‌ی پرامپت (مطمئن نیستی ⇒ نساز) و گزارش به Lukas.
 - ✅ **Wortart غلط در فهرست (2026-09-24 دور ۳۴):** aberhundert و abertausend (و عددهای ترتیبی achte، achtzehnte، achtzigste) در Adjektive.txt هستند ولی طبق Duden «unbestimmtes Zahlwort»اند ⇒ کارت در `assets/vocab/numerale/` ساخته شد و در `wortartKorrektur` (`tool/naechste_woerter.dart`) ثبت شد تا ابزار آن‌ها را ساخته‌شده بشناسد. قاعده: Wortart درست (Duden) مهم‌تر از برچسب فهرست است؛ هر مورد تازه همان‌جا ثبت شود. **2026-09-25 دور ۷۱:** andante (نشانه‌ی تمپوی موسیقی) و anderweit (صفتش anderweitig است) ⇒ `assets/vocab/adverb/`.
-- کارت‌های دیگر آرشیو (افعال Dativ و …) از deckها آمده‌اند، نه از این فهرست‌ها. کل آرشیو: **۸۲۶ کارت** (2026-09-25 دور ۱۲۳).
+- کارت‌های دیگر آرشیو (افعال Dativ و …) از deckها آمده‌اند، نه از این فهرست‌ها. کل آرشیو: **۸۳۶ کارت** (2026-09-25 دور ۱۲۴).
 
 ## INHALTSVERZEICHNIS (فهرست مطالب)
 
@@ -1270,6 +1270,8 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | 46 | bemähnt | `Adjektive.txt` | 2026-09-25 | معنا و کاربرد رایجش مطمئن نیست («یال‌دار»؟) | — |
 | 47 | bemützt | `Adjektive.txt` | 2026-09-25 | معنا و کاربرد رایجش مطمئن نیست («کلاه‌به‌سر»؟) | — |
 | 48 | bepelzt | `Adjektive.txt` | 2026-09-25 | معنا و کاربرد رایجش مطمئن نیست («خزپوش»؟) | — |
+| 49 | beredet | `Adjektive.txt` | 2026-09-25 | شکل مشکوک: احتمالاً با «beredt» (سخنور) اشتباه شده یا صفت مفعولی bereden است — مطمئن نیستم | — |
+| 50 | berindet | `Adjektive.txt` | 2026-09-25 | معنا و کاربرد رایجش مطمئن نیست («پوست‌دار (درخت)»؟) | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 
