@@ -1,0 +1,134 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_bakterizid",
+  "wort": "bakterizid",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "باکتری‌کش"
+    ],
+    "en": [
+      "bactericidal"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Pharmazie"
+  ],
+  "ipa": "bakteʁiˈt͡siːt",
+  "anmerkung": "Fachwort (Medizin, Hygiene).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Diese Seife ist bakterizid.",
+      "uebersetzung": {
+        "fa": "این صابون باکتری‌کش است.",
+        "en": "This soap is bactericidal."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Alkohol wirkt bakterizid, deshalb desinfiziert die Pflegerin die Haut vor jeder Spritze.",
+      "uebersetzung": {
+        "fa": "الکل باکتری‌کش است، برای همین پرستار قبل از هر تزریق پوست را ضدعفونی می‌کند.",
+        "en": "Alcohol is bactericidal, which is why the nurse disinfects the skin before every injection."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "keimtötend",
+      "uebersetzung": {
+        "fa": "میکروب‌کش",
+        "en": "germicidal"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "bakteriostatisch",
+      "uebersetzung": {
+        "fa": "مهارکننده‌ی رشد باکتری",
+        "en": "bacteriostatic"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Bakterie (باکتری) + لاتین -cida (کُشنده)",
+    "en": "Bakterie (bacterium) + Latin -cida (killer)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "bakterizid",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein bakterizides Mittel",
+      "die bakterizide Wirkung"
+    ],
+    "gegensatzpaar": "bakterizid ↔ bakteriostatisch"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Bakterie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "باکتری",
+          "en": "bacterium"
+        },
+        "id_ref": "nomen_bakterie"
+      },
+      {
+        "wort": "töten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کشتن",
+          "en": "to kill"
+        },
+        "id_ref": "verb_toeten"
+      },
+      {
+        "wort": "desinfizieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ضدعفونی کردن",
+          "en": "to disinfect"
+        },
+        "id_ref": "verb_desinfizieren"
+      },
+      {
+        "wort": "bakteriostatisch",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "مهارکننده‌ی رشد باکتری",
+          "en": "bacteriostatic"
+        },
+        "id_ref": "adjektiv_bakteriostatisch"
+      },
+      {
+        "wort": "das Desinfektionsmittel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ماده‌ی ضدعفونی",
+          "en": "disinfectant"
+        },
+        "id_ref": "nomen_desinfektionsmittel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

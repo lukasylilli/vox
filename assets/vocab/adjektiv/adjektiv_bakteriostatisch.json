@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_bakteriostatisch",
+  "wort": "bakteriostatisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "مهارکننده‌ی رشد باکتری"
+    ],
+    "en": [
+      "bacteriostatic"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Pharmazie"
+  ],
+  "ipa": "bakteʁi̯oˈstaːtɪʃ",
+  "anmerkung": "Fachwort (Medizin, Pharmakologie).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Mittel wirkt bakteriostatisch.",
+      "uebersetzung": {
+        "fa": "این دارو رشد باکتری را مهار می‌کند.",
+        "en": "The drug has a bacteriostatic effect."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ein bakteriostatisches Antibiotikum tötet die Bakterien nicht, sondern verhindert, dass sie sich weiter vermehren.",
+      "uebersetzung": {
+        "fa": "آنتی‌بیوتیک مهارکننده باکتری‌ها را نمی‌کشد، بلکه جلوی تکثیر بیشترشان را می‌گیرد.",
+        "en": "A bacteriostatic antibiotic doesn't kill the bacteria but prevents them from multiplying further."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "bakterizid",
+      "uebersetzung": {
+        "fa": "باکتری‌کش",
+        "en": "bactericidal"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Bakterie (باکتری) + statisch (ایستا)",
+    "en": "Bakterie (bacterium) + statisch (static)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "bakteriostatisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein bakteriostatisches Mittel",
+      "die bakteriostatische Wirkung"
+    ],
+    "gegensatzpaar": "bakteriostatisch ↔ bakterizid"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Bakterie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "باکتری",
+          "en": "bacterium"
+        },
+        "id_ref": "nomen_bakterie"
+      },
+      {
+        "wort": "bakterizid",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "باکتری‌کش",
+          "en": "bactericidal"
+        },
+        "id_ref": "adjektiv_bakterizid"
+      },
+      {
+        "wort": "hemmen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مهار کردن",
+          "en": "to inhibit"
+        },
+        "id_ref": "verb_hemmen"
+      },
+      {
+        "wort": "das Antibiotikum",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آنتی‌بیوتیک",
+          "en": "antibiotic"
+        },
+        "id_ref": "nomen_antibiotikum"
+      },
+      {
+        "wort": "sich vermehren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تکثیر شدن",
+          "en": "to multiply"
+        },
+        "id_ref": "verb_sich_vermehren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
