@@ -72,6 +72,8 @@ const zurueckgestellt = <String>{
   'bannig', // regional (norddeutsch «sehr»), eher Adverb — unsicher 2026-09-25
   'basalten', // Bedeutung unsicher («aus Basalt»?), nicht gesichert 2026-09-25
   'basiklin', // Fachwort (Botanik?), Bedeutung unsicher 2026-09-25
+  'basten', // Bedeutung/Gebrauch unsicher («aus Bast»?) 2026-09-25
+  'batisten', // Bedeutung/Gebrauch unsicher («aus Batist»?) 2026-09-25
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
