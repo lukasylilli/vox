@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_faellig",
+  "wort": "fällig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "سررسید، موعدرسیده",
+      "لازم، ضروری"
+    ],
+    "en": [
+      "due, payable",
+      "due, overdue"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Geld",
+    "Zeit"
+  ],
+  "ipa": "ˈfɛlɪç",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Miete ist am Ersten fällig.",
+      "uebersetzung": {
+        "fa": "اجاره اول ماه سررسید است.",
+        "en": "The rent is due on the first."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ein Urlaub ist längst fällig, weil ich seit einem Jahr keinen freien Tag hatte.",
+      "uebersetzung": {
+        "fa": "مرخصی مدت‌هاست لازم شده، چون یک سال است روز آزاد نداشته‌ام.",
+        "en": "A holiday is long overdue because I haven't had a day off for a year."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zahlbar",
+      "uebersetzung": {
+        "fa": "قابل پرداخت",
+        "en": "payable"
+      }
+    },
+    {
+      "wort": "überfällig",
+      "uebersetzung": {
+        "fa": "معوق",
+        "en": "overdue"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "fallen (افتادن) + -ig",
+    "en": "fallen (to fall) + -ig"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "fällig",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine fällige Rechnung",
+      "der fällige Betrag"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "zahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_zahlen"
+      },
+      {
+        "wort": "die Rechnung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صورت‌حساب",
+          "en": "bill"
+        },
+        "id_ref": "nomen_rechnung"
+      },
+      {
+        "wort": "die Frist",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مهلت",
+          "en": "deadline"
+        },
+        "id_ref": "nomen_frist"
+      },
+      {
+        "wort": "überfällig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "معوق",
+          "en": "overdue"
+        },
+        "id_ref": "adjektiv_ueberfaellig"
+      },
+      {
+        "wort": "die Miete",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اجاره",
+          "en": "rent"
+        },
+        "id_ref": "nomen_miete"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

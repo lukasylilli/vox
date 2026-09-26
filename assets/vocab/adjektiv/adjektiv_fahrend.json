@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_fahrend",
+  "wort": "fahrend",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "سیار، دوره‌گرد",
+      "در حال حرکت"
+    ],
+    "en": [
+      "itinerant, travelling",
+      "moving"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Verkehr",
+    "Geschichte"
+  ],
+  "ipa": "ˈfaːʁənt",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er sprang auf den fahrenden Zug.",
+      "uebersetzung": {
+        "fa": "روی قطار در حال حرکت پرید.",
+        "en": "He jumped onto the moving train."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Im Mittelalter zogen fahrende Sänger von Burg zu Burg und erzählten Geschichten.",
+      "uebersetzung": {
+        "fa": "در قرون وسطی خوانندگان دوره‌گرد از قلعه‌ای به قلعه‌ی دیگر می‌رفتند و داستان تعریف می‌کردند.",
+        "en": "In the Middle Ages travelling singers went from castle to castle telling stories."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "umherziehend",
+      "uebersetzung": {
+        "fa": "دوره‌گرد",
+        "en": "wandering"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sesshaft",
+      "uebersetzung": {
+        "fa": "یکجانشین",
+        "en": "settled"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "fahren (راندن، سفر کردن) + -end",
+    "en": "fahren (to travel) + -end"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "fahrend",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein fahrender Zug",
+      "das fahrende Volk"
+    ],
+    "gegensatzpaar": "fahrend ↔ sesshaft"
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to travel"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "die Reise",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سفر",
+          "en": "trip"
+        },
+        "id_ref": "nomen_reise"
+      },
+      {
+        "wort": "das Mittelalter",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قرون وسطی",
+          "en": "Middle Ages"
+        },
+        "id_ref": "nomen_mittelalter"
+      },
+      {
+        "wort": "umherziehen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دوره‌گردی کردن",
+          "en": "to wander"
+        },
+        "id_ref": "verb_umherziehen"
+      },
+      {
+        "wort": "sesshaft",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "یکجانشین",
+          "en": "settled"
+        },
+        "id_ref": "adjektiv_sesshaft"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
