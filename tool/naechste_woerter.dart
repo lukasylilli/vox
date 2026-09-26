@@ -216,6 +216,8 @@ const zurueckgestellt = <String>{
   'fastidiös', // veraltet, Bedeutung unsicher («widerwärtig»? «wählerisch»?) 2026-09-26
   'fekund', // selten, Duden-Eintrag unsicher («fruchtbar»?) 2026-09-26
   'fennoskandisch', // Fachwort (Geologie/Geografie), Duden-Eintrag unsicher 2026-09-26
+  'fichten', // Stoffadjektiv («aus Fichtenholz»?) — wie birken 2026-09-26
+  'fickerig', // landschaftlich, Bedeutung unsicher («nervös»?) und leicht missverständlich 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
