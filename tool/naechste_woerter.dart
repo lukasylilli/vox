@@ -197,6 +197,10 @@ const zurueckgestellt = <String>{
   'euryhygr', // Fachwort der Ökologie, Duden-Eintrag unsicher 2026-09-26
   'euryök', // Fachwort der Ökologie, Duden-Eintrag unsicher 2026-09-26
   'eurytherm', // Fachwort der Ökologie, Duden-Eintrag unsicher 2026-09-26
+  'exergon', // Fachwort (Biochemie; üblich «exergonisch»), Form unsicher 2026-09-26
+  'exogenetisch', // Fachwort, Abgrenzung zu «exogen» unsicher — wie endogenetisch 2026-09-26
+  'exozentrischg', // Tippfehler in der Liste (wohl «exozentrisch»); Fachwort, unsicher 2026-09-26
+  'expert', // kein gesichertes deutsches Adjektiv (engl. «expert») 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_exotherm",
+  "wort": "exotherm",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "گرماده"
+    ],
+    "en": [
+      "exothermic"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Chemie",
+    "Physik"
+  ],
+  "ipa": "ɛksoˈtɛʁm",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Verbrennung ist exotherm.",
+      "uebersetzung": {
+        "fa": "سوختن گرماده است.",
+        "en": "Combustion is exothermic."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bei einer exothermen Reaktion wird Wärme frei, deshalb wird das Reagenzglas heiß.",
+      "uebersetzung": {
+        "fa": "در واکنش گرماده گرما آزاد می‌شود، به همین دلیل لوله‌ی آزمایش داغ می‌شود.",
+        "en": "In an exothermic reaction heat is released, which is why the test tube gets hot."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "endotherm",
+      "uebersetzung": {
+        "fa": "گرماگیر",
+        "en": "endothermic"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "gr. exo (بیرون) + thermos (گرم)",
+    "en": "Greek exo (outside) + thermos (warm)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "exotherm",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine exotherme Reaktion",
+      "der exotherme Prozess"
+    ],
+    "gegensatzpaar": "exotherm ↔ endotherm"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Wärme",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گرما",
+          "en": "warmth"
+        },
+        "id_ref": "nomen_waerme"
+      },
+      {
+        "wort": "die Reaktion",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "واکنش",
+          "en": "reaction"
+        },
+        "id_ref": "nomen_reaktion"
+      },
+      {
+        "wort": "die Chemie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شیمی",
+          "en": "chemistry"
+        },
+        "id_ref": "nomen_chemie"
+      },
+      {
+        "wort": "verbrennen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سوختن",
+          "en": "to burn"
+        },
+        "id_ref": "verb_verbrennen"
+      },
+      {
+        "wort": "endotherm",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "گرماگیر",
+          "en": "endothermic"
+        },
+        "id_ref": "adjektiv_endotherm"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
