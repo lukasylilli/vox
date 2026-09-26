@@ -191,6 +191,12 @@ const zurueckgestellt = <String>{
   'eschen', // Stoffadjektiv («aus Eschenholz»?) — wie birken 2026-09-26
   'espen', // Stoffadjektiv («aus Espenholz»?) — wie birken 2026-09-26
   'etisch', // Fachwort (Ethnologie/Linguistik «etisch») — wie emisch 2026-09-26
+  'euploid', // Fachwort der Genetik, Duden-Eintrag unsicher 2026-09-26
+  'europazentriert', // Duden-Eintrag unsicher (üblich: «eurozentrisch») 2026-09-26
+  'euryhalin', // Fachwort der Ökologie, Duden-Eintrag unsicher 2026-09-26
+  'euryhygr', // Fachwort der Ökologie, Duden-Eintrag unsicher 2026-09-26
+  'euryök', // Fachwort der Ökologie, Duden-Eintrag unsicher 2026-09-26
+  'eurytherm', // Fachwort der Ökologie, Duden-Eintrag unsicher 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

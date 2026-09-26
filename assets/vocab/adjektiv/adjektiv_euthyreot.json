@@ -1,0 +1,129 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_euthyreot",
+  "wort": "euthyreot",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(پزشکی) با کارکرد طبیعی تیروئید"
+    ],
+    "en": [
+      "(medicine) euthyroid"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin"
+  ],
+  "ipa": "ɔɪ̯tyʁeˈoːt",
+  "anmerkung": "Fachwort der Medizin (Befundsprache).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Patientin ist euthyreot.",
+      "uebersetzung": {
+        "fa": "کارکرد تیروئید بیمار طبیعی است.",
+        "en": "The patient is euthyroid."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Trotz des Knotens ist der Patient euthyreot, weil die Schilddrüsenwerte im Normbereich liegen.",
+      "uebersetzung": {
+        "fa": "با وجود ندول، کارکرد تیروئید بیمار طبیعی است، چون مقادیر تیروئید در محدوده‌ی عادی است.",
+        "en": "Despite the nodule the patient is euthyroid because the thyroid levels are in the normal range."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "hyperthyreot",
+      "uebersetzung": {
+        "fa": "پرکار (تیروئید)",
+        "en": "hyperthyroid"
+      }
+    },
+    {
+      "wort": "hypothyreot",
+      "uebersetzung": {
+        "fa": "کم‌کار (تیروئید)",
+        "en": "hypothyroid"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "gr. eu (خوب) + thyreos (سپر؛ تیروئید)",
+    "en": "Greek eu (well) + thyreos (shield; thyroid)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "euthyreot",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "praedikativ",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [],
+    "gegensatzpaar": "euthyreot ↔ hyperthyreot"
+  },
+  "wortnetz": {
+    "grundwort": "Schilddrüse",
+    "woerter": [
+      {
+        "wort": "die Schilddrüse",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تیروئید",
+          "en": "thyroid"
+        },
+        "id_ref": "nomen_schilddruese"
+      },
+      {
+        "wort": "das Hormon",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "هورمون",
+          "en": "hormone"
+        },
+        "id_ref": "nomen_hormon"
+      },
+      {
+        "wort": "normal",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "طبیعی",
+          "en": "normal"
+        },
+        "id_ref": "adjektiv_normal"
+      },
+      {
+        "wort": "der Blutwert",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مقدار آزمایش خون",
+          "en": "blood value"
+        },
+        "id_ref": "nomen_blutwert"
+      },
+      {
+        "wort": "der Befund",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "یافته‌ی پزشکی",
+          "en": "findings"
+        },
+        "id_ref": "nomen_befund"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
