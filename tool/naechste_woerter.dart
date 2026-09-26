@@ -229,6 +229,8 @@ const zurueckgestellt = <String>{
   'gasig', // Bedeutung/Gebrauch unsicher 2026-09-26
   'gebalkt', // Bedeutung/Gebrauch unsicher (Balken? Jagd?) 2026-09-26
   'gebuckelt', // Bedeutung unsicher (bucklig? mit Buckeln?) 2026-09-26
+  'gefizt', // keine gesicherte Bedeutung/Form 2026-09-26
+  'gegengleich', // Bedeutung/Fachgebiet unsicher (Technik? österr.?) 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
