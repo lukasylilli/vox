@@ -213,6 +213,7 @@ const zurueckgestellt = <String>{
   'fasennackend', // landschaftlich, Bedeutung/Schreibweise unsicher — wie faselnackend 2026-09-26
   'fassettenartig', // Schreibvariante unsicher (gesichert: «facettenartig») 2026-09-26
   'fassettenreich', // Schreibvariante unsicher (gesichert: «facettenreich») 2026-09-26
+  'fastidiös', // veraltet, Bedeutung unsicher («widerwärtig»? «wählerisch»?) 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
