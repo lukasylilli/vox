@@ -121,6 +121,8 @@ const wortartKorrektur = <String, String>{
   'andante': 'adverb', // Tempobezeichnung, Duden: Adverb (2026-09-25)
   'anderweit': 'adverb', // Duden: Adverb; Adjektiv ist «anderweitig» (2026-09-25)
   'baldmöglichst': 'adverb', // Duden: Adverb (Amtssprache) (2026-09-25)
+  'billiardste': 'numerale', // Ordinalzahl (2026-09-26)
+  'billionste': 'numerale', // Ordinalzahl (2026-09-26)
 };
 
 /// `--abhaken` (Schritt 6 der Routine): setzt in ALLEN Listen «✓ » vor jedes

@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_binaer",
+  "wort": "binär",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "دودویی"
+    ],
+    "en": [
+      "binary"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Computer",
+    "Mathematik"
+  ],
+  "ipa": "biˈnɛːɐ̯",
+  "anmerkung": "Gesellschaft: «nicht-binär» = weder eindeutig männlich noch weiblich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Computer rechnen binär.",
+      "uebersetzung": {
+        "fa": "کامپیوترها دودویی محاسبه می‌کنند.",
+        "en": "Computers calculate in binary."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im binären System gibt es nur die Ziffern Null und Eins, mit denen man trotzdem jede Zahl darstellen kann.",
+      "uebersetzung": {
+        "fa": "در دستگاه دودویی فقط رقم‌های صفر و یک وجود دارد که با این حال می‌شود هر عددی را با آن‌ها نشان داد.",
+        "en": "In the binary system there are only the digits zero and one, with which you can nevertheless represent any number."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "dual",
+      "uebersetzung": {
+        "fa": "دوتایی",
+        "en": "dual"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "لاتین binarius (دوتایی)",
+    "en": "Latin binarius (consisting of two)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "binär",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein binärer Code",
+      "das binäre System"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Ziffer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رقم",
+          "en": "digit"
+        },
+        "id_ref": "nomen_ziffer"
+      },
+      {
+        "wort": "der Computer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کامپیوتر",
+          "en": "computer"
+        },
+        "id_ref": "nomen_computer"
+      },
+      {
+        "wort": "digital",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دیجیتال",
+          "en": "digital"
+        },
+        "id_ref": "adjektiv_digital"
+      },
+      {
+        "wort": "das System",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سامانه",
+          "en": "system"
+        },
+        "id_ref": "nomen_system"
+      },
+      {
+        "wort": "dezimal",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دهدهی",
+          "en": "decimal"
+        },
+        "id_ref": "adjektiv_dezimal"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
