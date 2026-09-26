@@ -154,6 +154,8 @@ const zurueckgestellt = <String>{
   'dolent', // Fachwort (Medizin «schmerzhaft»?), Duden-Eintrag unsicher 2026-09-26
   'doloros', // Schreibvariante unsicher (gesichert: «dolorös») 2026-09-26
   'dominicanisch', // Schreibweise unsicher (gesichert: «dominikanisch») 2026-09-26
+  'doppelherzig', // veraltet, Duden-Eintrag und Bedeutung unsicher («heuchlerisch»?) 2026-09-26
+  'drahten', // Bedeutung/Gebrauch unsicher («aus Draht»?) — wie birken 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
