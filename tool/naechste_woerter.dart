@@ -68,6 +68,8 @@ const zurueckgestellt = <String>{
   'averbal', // Bedeutung/Gebrauch unsicher (Fachwort?) 2026-09-25
   'azentrisch', // Bedeutung/Fachgebiet unsicher 2026-09-25
   'azephal', // Bedeutung fachabhängig unsicher (Medizin «ohne Kopf» / Verslehre «ohne Auftakt»?) 2026-09-25
+  'bananig', // Bedeutung/Gebrauch unsicher (umgangssprachlich?) 2026-09-25
+  'bannig', // regional (norddeutsch «sehr»), eher Adverb — unsicher 2026-09-25
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
@@ -81,6 +83,7 @@ const wortartKorrektur = <String, String>{
   'achtzigste': 'numerale', // Ordinalzahl (2026-09-24)
   'andante': 'adverb', // Tempobezeichnung, Duden: Adverb (2026-09-25)
   'anderweit': 'adverb', // Duden: Adverb; Adjektiv ist «anderweitig» (2026-09-25)
+  'baldmöglichst': 'adverb', // Duden: Adverb (Amtssprache) (2026-09-25)
 };
 
 /// `--abhaken` (Schritt 6 der Routine): setzt in ALLEN Listen «✓ » vor jedes

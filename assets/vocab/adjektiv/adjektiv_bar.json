@@ -1,0 +1,148 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_bar",
+  "wort": "bar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "نقد",
+      "عاری از (+ Genitiv)"
+    ],
+    "en": [
+      "cash",
+      "devoid of"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Geld"
+  ],
+  "ipa": "baːɐ̯",
+  "anmerkung": "«bar» als Präposition/gehoben mit Genitiv: «bar jeder Vernunft» = ohne.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Kann ich bar bezahlen?",
+      "uebersetzung": {
+        "fa": "می‌توانم نقد پرداخت کنم؟",
+        "en": "Can I pay in cash?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Seine Antwort war bar jeder Logik, deshalb konnte niemand verstehen, was er eigentlich meinte.",
+      "uebersetzung": {
+        "fa": "جوابش عاری از هر منطقی بود، برای همین کسی نمی‌فهمید واقعاً منظورش چیست.",
+        "en": "His answer was devoid of any logic, so nobody could understand what he actually meant."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "in Bargeld",
+      "uebersetzung": {
+        "fa": "نقدی",
+        "en": "in cash"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "bargeldlos",
+      "uebersetzung": {
+        "fa": "غیرنقدی",
+        "en": "cashless"
+      }
+    },
+    {
+      "wort": "mit Karte",
+      "uebersetzung": {
+        "fa": "با کارت",
+        "en": "by card"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "steigerung": {
+      "positiv": "bar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "bar + Gen",
+        "beispiel": "Der Plan war bar jeder Vernunft.",
+        "uebersetzung": {
+          "fa": "آن نقشه عاری از هر عقلی بود.",
+          "en": "The plan was devoid of any reason."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "bares Geld",
+      "die bare Münze"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Bargeld",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پول نقد",
+          "en": "cash"
+        },
+        "id_ref": "nomen_bargeld"
+      },
+      {
+        "wort": "bezahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_bezahlen"
+      },
+      {
+        "wort": "die Karte",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کارت",
+          "en": "card"
+        },
+        "id_ref": "nomen_karte"
+      },
+      {
+        "wort": "bargeldlos",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "غیرنقدی",
+          "en": "cashless"
+        },
+        "id_ref": "adjektiv_bargeldlos"
+      },
+      {
+        "wort": "die Kasse",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صندوق",
+          "en": "till"
+        },
+        "id_ref": "nomen_kasse"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
