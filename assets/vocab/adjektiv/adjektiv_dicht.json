@@ -1,0 +1,158 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_dicht",
+  "wort": "dicht",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "متراکم، انبوه",
+      "نفوذناپذیر، درزگیری‌شده",
+      "نزدیک"
+    ],
+    "en": [
+      "dense, thick",
+      "tight, sealed",
+      "close"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Eigenschaften",
+    "Raum"
+  ],
+  "ipa": "dɪçt",
+  "anmerkung": "Umgangssprachlich: „Der ist nicht ganz dicht“ = nicht ganz bei Verstand.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Nebel ist heute sehr dicht.",
+      "uebersetzung": {
+        "fa": "مه امروز خیلی غلیظ است.",
+        "en": "The fog is very thick today."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Das Fenster ist nicht mehr dicht, deshalb kommt im Winter kalte Luft herein.",
+      "uebersetzung": {
+        "fa": "پنجره دیگر درزبندی ندارد، به همین دلیل زمستان هوای سرد تو می‌آید.",
+        "en": "The window is no longer sealed, so cold air comes in during winter."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "eng",
+      "uebersetzung": {
+        "fa": "تنگ",
+        "en": "tight"
+      }
+    },
+    {
+      "wort": "undurchlässig",
+      "uebersetzung": {
+        "fa": "نفوذناپذیر",
+        "en": "impermeable"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "undicht",
+      "uebersetzung": {
+        "fa": "نشت‌دار",
+        "en": "leaky"
+      }
+    },
+    {
+      "wort": "locker",
+      "uebersetzung": {
+        "fa": "شل",
+        "en": "loose"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "steigerung": {
+      "positiv": "dicht",
+      "komparativ": "dichter",
+      "superlativ": "am dichtesten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "dicht an + Dat",
+        "beispiel": "Die Häuser stehen dicht am Fluss.",
+        "uebersetzung": {
+          "fa": "خانه‌ها خیلی نزدیک رودخانه‌اند.",
+          "en": "The houses stand close to the river."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein dichter Wald",
+      "der dichte Verkehr"
+    ],
+    "gegensatzpaar": "dicht ↔ undicht"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "eng",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تنگ",
+          "en": "narrow"
+        },
+        "id_ref": "adjektiv_eng"
+      },
+      {
+        "wort": "nah",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نزدیک",
+          "en": "near"
+        },
+        "id_ref": "adjektiv_nah"
+      },
+      {
+        "wort": "der Nebel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مه",
+          "en": "fog"
+        },
+        "id_ref": "nomen_nebel"
+      },
+      {
+        "wort": "undicht",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نشت‌دار",
+          "en": "leaky"
+        },
+        "id_ref": "adjektiv_undicht"
+      },
+      {
+        "wort": "die Dichte",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تراکم",
+          "en": "density"
+        },
+        "id_ref": "nomen_dichte"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
