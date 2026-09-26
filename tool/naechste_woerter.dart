@@ -107,6 +107,8 @@ const zurueckgestellt = <String>{
   'bezopft', // Bedeutung/Gebrauch unsicher («mit Zopf»?) 2026-09-25
   'bibliophob', // Bedeutung/Gebrauch nicht gesichert 2026-09-25
   'biereifrig', // Bedeutung/Gebrauch unsicher (scherzhaft?) 2026-09-25
+  'bimaxillär', // Fachwort (Medizin/Zahnmedizin), Bedeutung unsicher 2026-09-25
+  'birken', // Bedeutung/Gebrauch unsicher («aus Birkenholz»?) 2026-09-25
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
