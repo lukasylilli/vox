@@ -1,0 +1,142 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_havariert",
+  "wort": "havariert",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "آسیب‌دیده (کشتی، هواپیما)",
+      "سانحه‌دیده"
+    ],
+    "en": [
+      "damaged (ship, aircraft)",
+      "wrecked"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Verkehr",
+    "Technik"
+  ],
+  "ipa": "havaˈʁiːɐ̯t",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Schiff ist havariert.",
+      "uebersetzung": {
+        "fa": "کشتی آسیب دیده است.",
+        "en": "The ship is damaged."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der havarierte Tanker verlor so viel Öl, dass die ganze Küste verschmutzt wurde.",
+      "uebersetzung": {
+        "fa": "نفتکش آسیب‌دیده آن‌قدر نفت از دست داد که تمام ساحل آلوده شد.",
+        "en": "The damaged tanker lost so much oil that the whole coast was polluted."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beschädigt",
+      "uebersetzung": {
+        "fa": "آسیب‌دیده",
+        "en": "damaged"
+      }
+    },
+    {
+      "wort": "verunglückt",
+      "uebersetzung": {
+        "fa": "سانحه‌دیده",
+        "en": "crashed"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "intakt",
+      "uebersetzung": {
+        "fa": "سالم",
+        "en": "intact"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Havarie (سانحه‌ی دریایی) + -iert",
+    "en": "Havarie (maritime accident) + -iert"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "havariert",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein havariertes Atomkraftwerk"
+    ],
+    "gegensatzpaar": "havariert ↔ intakt"
+  },
+  "wortnetz": {
+    "grundwort": "Havarie",
+    "woerter": [
+      {
+        "wort": "das Schiff",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کشتی",
+          "en": "ship"
+        },
+        "id_ref": "nomen_schiff"
+      },
+      {
+        "wort": "der Unfall",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تصادف، سانحه",
+          "en": "accident"
+        },
+        "id_ref": "nomen_unfall"
+      },
+      {
+        "wort": "die Havarie",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "سانحه‌ی دریایی",
+          "en": "shipping accident"
+        },
+        "id_ref": "nomen_havarie"
+      },
+      {
+        "wort": "beschädigt",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آسیب‌دیده",
+          "en": "damaged"
+        },
+        "id_ref": "adjektiv_beschaedigt"
+      },
+      {
+        "wort": "der Tanker",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نفتکش",
+          "en": "tanker"
+        },
+        "id_ref": "nomen_tanker"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
