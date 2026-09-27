@@ -1,0 +1,127 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_kausal",
+  "wort": "kausal",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "علّی",
+      "سببی"
+    ],
+    "en": [
+      "causal"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft",
+    "Grammatik"
+  ],
+  "ipa": "kaʊ̯ˈzaːl",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Zusammenhang ist kausal.",
+      "uebersetzung": {
+        "fa": "این رابطه علّی است.",
+        "en": "The connection is causal."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nur weil zwei Dinge gleichzeitig passieren, besteht noch kein kausaler Zusammenhang zwischen ihnen.",
+      "uebersetzung": {
+        "fa": "فقط به این دلیل که دو چیز هم‌زمان اتفاق می‌افتند، هنوز رابطه‌ی علّی بین‌شان وجود ندارد.",
+        "en": "Just because two things happen at the same time does not mean there is a causal connection between them."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ursächlich",
+      "uebersetzung": {
+        "fa": "علّی",
+        "en": "causal"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین causa (علت) + -al",
+    "en": "from Latin causa (cause) + -al"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "kausal",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein kausaler Zusammenhang",
+      "ein kausaler Nebensatz"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Kausalität",
+    "woerter": [
+      {
+        "wort": "die Ursache",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "علت",
+          "en": "cause"
+        },
+        "id_ref": "nomen_ursache"
+      },
+      {
+        "wort": "die Wirkung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اثر",
+          "en": "effect"
+        },
+        "id_ref": "nomen_wirkung"
+      },
+      {
+        "wort": "weil",
+        "wortart": "konjunktion",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چون",
+          "en": "because"
+        },
+        "id_ref": "konjunktion_weil"
+      },
+      {
+        "wort": "der Zusammenhang",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ارتباط",
+          "en": "connection"
+        },
+        "id_ref": "nomen_zusammenhang"
+      },
+      {
+        "wort": "die Folge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیامد",
+          "en": "consequence"
+        },
+        "id_ref": "nomen_folge"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_kaudal",
+  "wort": "kaudal",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(کالبدشناسی) دُمی، به سمت پایین/عقب بدن"
+    ],
+    "en": [
+      "(anatomy) caudal"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Körper"
+  ],
+  "ipa": "kaʊ̯ˈdaːl",
+  "anmerkung": "Anatomische Fachsprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Lage ist kaudal.",
+      "uebersetzung": {
+        "fa": "این موقعیت به سمت پایین بدن است.",
+        "en": "The position is caudal."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In der Anatomie bedeutet kaudal «zum Steiß hin», das Gegenteil ist kranial, also «zum Kopf hin».",
+      "uebersetzung": {
+        "fa": "در کالبدشناسی «kaudal» یعنی «به سمت دنبالچه»؛ مخالفش «kranial» یعنی «به سمت سر» است.",
+        "en": "In anatomy caudal means «towards the tailbone»; the opposite is cranial, i.e. «towards the head»."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "kranial",
+      "uebersetzung": {
+        "fa": "سَری، به سمت سر",
+        "en": "cranial"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین cauda (دم) + -al",
+    "en": "from Latin cauda (tail) + -al"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "kaudal",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "die kaudale Richtung"
+    ],
+    "gegensatzpaar": "kaudal ↔ kranial"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Körper",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بدن",
+          "en": "body"
+        },
+        "id_ref": "nomen_koerper"
+      },
+      {
+        "wort": "der Kopf",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سر",
+          "en": "head"
+        },
+        "id_ref": "nomen_kopf"
+      },
+      {
+        "wort": "die Anatomie",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کالبدشناسی",
+          "en": "anatomy"
+        },
+        "id_ref": "nomen_anatomie"
+      },
+      {
+        "wort": "der Schwanz",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دم",
+          "en": "tail"
+        },
+        "id_ref": "nomen_schwanz"
+      },
+      {
+        "wort": "die Richtung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جهت",
+          "en": "direction"
+        },
+        "id_ref": "nomen_richtung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
