@@ -1,0 +1,134 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_hochdeutsch",
+  "wort": "hochdeutsch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "آلمانی معیار",
+      "آلمانی رسمی (نه لهجه)"
+    ],
+    "en": [
+      "standard German",
+      "High German"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Sprache"
+  ],
+  "ipa": "ˈhoːxˌdɔɪ̯t͡ʃ",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte sprechen Sie hochdeutsch.",
+      "uebersetzung": {
+        "fa": "لطفاً آلمانی معیار صحبت کنید.",
+        "en": "Please speak standard German."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "In der Schweiz sprechen die Leute im Alltag Dialekt, aber in der Schule lernen sie hochdeutsch.",
+      "uebersetzung": {
+        "fa": "در سوئیس مردم در زندگی روزمره به لهجه حرف می‌زنند، ولی در مدرسه آلمانی معیار یاد می‌گیرند.",
+        "en": "In Switzerland people speak dialect in everyday life, but at school they learn standard German."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "standarddeutsch",
+      "uebersetzung": {
+        "fa": "آلمانی معیار",
+        "en": "standard German"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "mundartlich",
+      "uebersetzung": {
+        "fa": "لهجه‌ای",
+        "en": "dialectal"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hoch (بالا، معیار) + deutsch (آلمانی)",
+    "en": "hoch (high, standard) + deutsch (German)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "hochdeutsch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "die hochdeutsche Aussprache"
+    ],
+    "gegensatzpaar": "hochdeutsch ↔ mundartlich"
+  },
+  "wortnetz": {
+    "grundwort": "Deutsch",
+    "woerter": [
+      {
+        "wort": "deutsch",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آلمانی",
+          "en": "German"
+        },
+        "id_ref": "adjektiv_deutsch"
+      },
+      {
+        "wort": "der Dialekt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لهجه",
+          "en": "dialect"
+        },
+        "id_ref": "nomen_dialekt"
+      },
+      {
+        "wort": "die Sprache",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زبان",
+          "en": "language"
+        },
+        "id_ref": "nomen_sprache"
+      },
+      {
+        "wort": "die Aussprache",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تلفظ",
+          "en": "pronunciation"
+        },
+        "id_ref": "nomen_aussprache"
+      },
+      {
+        "wort": "österreichisch",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اتریشی",
+          "en": "Austrian"
+        },
+        "id_ref": "adjektiv_oesterreichisch"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

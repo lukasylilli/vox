@@ -1,0 +1,162 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_hoch",
+  "wort": "hoch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "بلند، مرتفع",
+      "زیاد، بالا (قیمت، دما)"
+    ],
+    "en": [
+      "high",
+      "tall"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Maße",
+    "Alltag"
+  ],
+  "ipa": "hoːx",
+  "anmerkung": "Flektiert ohne ch: «ein hoher Berg», «die hohe Miete».",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Der Berg ist sehr hoch.",
+      "uebersetzung": {
+        "fa": "کوه خیلی بلند است.",
+        "en": "The mountain is very high."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Mieten in der Stadt sind so hoch, dass viele Familien aufs Land ziehen.",
+      "uebersetzung": {
+        "fa": "اجاره‌ها در شهر آن‌قدر بالاست که خیلی از خانواده‌ها به روستا می‌روند.",
+        "en": "Rents in the city are so high that many families are moving to the countryside."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "groß",
+      "uebersetzung": {
+        "fa": "بزرگ، بلند",
+        "en": "tall"
+      }
+    },
+    {
+      "wort": "erhöht",
+      "uebersetzung": {
+        "fa": "بالا رفته",
+        "en": "raised"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "niedrig",
+      "uebersetzung": {
+        "fa": "پایین، کوتاه",
+        "en": "low"
+      }
+    },
+    {
+      "wort": "tief",
+      "uebersetzung": {
+        "fa": "پایین، عمیق",
+        "en": "low, deep"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Höhe",
+      "uebersetzung": {
+        "fa": "ارتفاع",
+        "en": "height"
+      }
+    },
+    {
+      "wort": "das Hochhaus",
+      "uebersetzung": {
+        "fa": "برج، آسمان‌خراش",
+        "en": "high-rise"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "steigerung": {
+      "positiv": "hoch",
+      "komparativ": "höher",
+      "superlativ": "am höchsten"
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein hoher Berg",
+      "die hohe Miete"
+    ],
+    "gegensatzpaar": "hoch ↔ niedrig"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "niedrig",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پایین",
+          "en": "low"
+        },
+        "id_ref": "adjektiv_niedrig"
+      },
+      {
+        "wort": "die Höhe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ارتفاع",
+          "en": "height"
+        },
+        "id_ref": "nomen_hoehe"
+      },
+      {
+        "wort": "der Berg",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کوه",
+          "en": "mountain"
+        },
+        "id_ref": "nomen_berg"
+      },
+      {
+        "wort": "tief",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عمیق",
+          "en": "deep"
+        },
+        "id_ref": "adjektiv_tief"
+      },
+      {
+        "wort": "erhöhen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بالا بردن",
+          "en": "to raise"
+        },
+        "id_ref": "verb_erhoehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
