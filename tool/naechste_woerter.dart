@@ -328,6 +328,8 @@ const zurueckgestellt = <String>{
   'leidsam', // veraltet/selten, Bedeutung unsicher 2026-09-27
   'leinen', // Stoffadjektiv (aus Leinen) — wie flanellen zurückgestellt 2026-09-27
   'leinwand', // Schreibvariante zweifelhaft (üblich österr.: «leiwand», das gebaut wurde) 2026-09-27
+  'letzter', // Listenfehler: flektierte Form, Grundform «letzte» (wie hinterer/innerer) 2026-09-27
+  'levurozid', // sehr seltenes Fachwort (hefeabtötend?), unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
