@@ -1,0 +1,141 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_inkrementell",
+  "wort": "inkrementell",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "افزایشی",
+      "گام‌به‌گام (با افزودن تدریجی)"
+    ],
+    "en": [
+      "incremental"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Technik",
+    "Wissenschaft"
+  ],
+  "ipa": "ɪnkʁemɛnˈtɛl",
+  "anmerkung": "Fachsprachlich; Nebenform «inkremental».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Änderung ist inkrementell.",
+      "uebersetzung": {
+        "fa": "این تغییر گام‌به‌گام است.",
+        "en": "The change is incremental."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ein inkrementelles Backup speichert nur die Dateien, die sich seit der letzten Sicherung geändert haben.",
+      "uebersetzung": {
+        "fa": "پشتیبان‌گیری افزایشی فقط فایل‌هایی را ذخیره می‌کند که از آخرین پشتیبان تغییر کرده‌اند.",
+        "en": "An incremental backup only saves the files that have changed since the last backup."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schrittweise",
+      "uebersetzung": {
+        "fa": "گام‌به‌گام",
+        "en": "step by step"
+      }
+    },
+    {
+      "wort": "allmählich",
+      "uebersetzung": {
+        "fa": "تدریجی",
+        "en": "gradual"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "radikal",
+      "uebersetzung": {
+        "fa": "بنیادی، یکباره",
+        "en": "radical"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Inkrement (افزایش) + -al/-ell",
+    "en": "Inkrement (increment) + suffix"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "inkrementell",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine inkrementelle Verbesserung"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Inkrement",
+    "woerter": [
+      {
+        "wort": "schrittweise",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گام‌به‌گام",
+          "en": "step by step"
+        },
+        "id_ref": "adjektiv_schrittweise"
+      },
+      {
+        "wort": "allmählich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تدریجی",
+          "en": "gradual"
+        },
+        "id_ref": "adjektiv_allmaehlich"
+      },
+      {
+        "wort": "die Datei",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فایل",
+          "en": "file"
+        },
+        "id_ref": "nomen_datei"
+      },
+      {
+        "wort": "das Backup",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نسخه‌ی پشتیبان",
+          "en": "backup"
+        },
+        "id_ref": "nomen_backup"
+      },
+      {
+        "wort": "die Verbesserung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بهبود",
+          "en": "improvement"
+        },
+        "id_ref": "nomen_verbesserung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -264,6 +264,7 @@ const zurueckgestellt = <String>{
   'impardonnabel', // veraltet (unverzeihlich?), Gebrauch unsicher 2026-09-27
   'imperturbatisch', // Form zweifelhaft (üblich: «imperturbabel»?) 2026-09-27
   'importun', // veraltet (ungelegen?), Gebrauch unsicher 2026-09-27
+  'inkommod', // veraltet (lästig, unbequem?), Gebrauch unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

@@ -1,0 +1,124 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_injektiv",
+  "wort": "injektiv",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(ریاضی) یک‌به‌یک (تزریقی)"
+    ],
+    "en": [
+      "(maths) injective"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik"
+  ],
+  "ipa": "ɪnjɛkˈtiːf",
+  "anmerkung": "Mathematische Fachsprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Funktion ist injektiv.",
+      "uebersetzung": {
+        "fa": "این تابع یک‌به‌یک است.",
+        "en": "The function is injective."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Eine Funktion ist injektiv, wenn verschiedene Eingaben immer zu verschiedenen Ergebnissen führen.",
+      "uebersetzung": {
+        "fa": "تابعی یک‌به‌یک است که ورودی‌های متفاوت همیشه به نتیجه‌های متفاوت برسند.",
+        "en": "A function is injective if different inputs always lead to different results."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "eineindeutig",
+      "uebersetzung": {
+        "fa": "یک‌به‌یک",
+        "en": "one-to-one"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین inicere (درافکندن) + -iv",
+    "en": "from Latin inicere (to throw in) + -iv"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "injektiv",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine injektive Abbildung"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Funktion",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تابع",
+          "en": "function"
+        },
+        "id_ref": "nomen_funktion"
+      },
+      {
+        "wort": "die Mathematik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریاضی",
+          "en": "mathematics"
+        },
+        "id_ref": "nomen_mathematik"
+      },
+      {
+        "wort": "die Menge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مجموعه",
+          "en": "set"
+        },
+        "id_ref": "nomen_menge"
+      },
+      {
+        "wort": "das Ergebnis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نتیجه",
+          "en": "result"
+        },
+        "id_ref": "nomen_ergebnis"
+      },
+      {
+        "wort": "eindeutig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "یکتا، روشن",
+          "en": "unique, clear"
+        },
+        "id_ref": "adjektiv_eindeutig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
