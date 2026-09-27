@@ -1,0 +1,147 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_linear",
+  "wort": "linear",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "خطی"
+    ],
+    "en": [
+      "linear"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Mathematik",
+    "Wissenschaft"
+  ],
+  "ipa": "lineˈaːɐ̯",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Funktion ist linear.",
+      "uebersetzung": {
+        "fa": "این تابع خطی است.",
+        "en": "The function is linear."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Kosten steigen nicht linear, sondern immer schneller, je mehr Kunden das Unternehmen hat.",
+      "uebersetzung": {
+        "fa": "هزینه‌ها خطی بالا نمی‌روند، بلکه هر چه شرکت مشتری بیشتری داشته باشد سریع‌تر افزایش می‌یابند.",
+        "en": "The costs do not rise linearly but faster and faster the more customers the company has."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "geradlinig",
+      "uebersetzung": {
+        "fa": "مستقیم",
+        "en": "straight"
+      }
+    },
+    {
+      "wort": "gleichmäßig",
+      "uebersetzung": {
+        "fa": "یکنواخت",
+        "en": "steady"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "exponentiell",
+      "uebersetzung": {
+        "fa": "نمایی",
+        "en": "exponential"
+      }
+    },
+    {
+      "wort": "nichtlinear",
+      "uebersetzung": {
+        "fa": "غیرخطی",
+        "en": "nonlinear"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین linearis (خطی، از linea خط)",
+    "en": "from Latin linearis (from linea, line)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "linear",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine lineare Funktion"
+    ],
+    "gegensatzpaar": "linear ↔ exponentiell"
+  },
+  "wortnetz": {
+    "grundwort": "Linie",
+    "woerter": [
+      {
+        "wort": "die Linie",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خط",
+          "en": "line"
+        },
+        "id_ref": "nomen_linie"
+      },
+      {
+        "wort": "die Funktion",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تابع",
+          "en": "function"
+        },
+        "id_ref": "nomen_funktion"
+      },
+      {
+        "wort": "die Mathematik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریاضی",
+          "en": "mathematics"
+        },
+        "id_ref": "nomen_mathematik"
+      },
+      {
+        "wort": "gerade",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صاف",
+          "en": "straight"
+        },
+        "id_ref": "adjektiv_gerade"
+      },
+      {
+        "wort": "exponentiell",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نمایی",
+          "en": "exponential"
+        },
+        "id_ref": "adjektiv_exponentiell"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

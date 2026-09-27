@@ -1,0 +1,133 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_limnisch",
+  "wort": "limnisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(زمین‌شناسی/زیست) دریاچه‌ای، آب شیرینی"
+    ],
+    "en": [
+      "(geology/biology) limnic"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Natur",
+    "Wissenschaft"
+  ],
+  "ipa": "ˈlɪmnɪʃ",
+  "anmerkung": "Fachsprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Sediment ist limnisch.",
+      "uebersetzung": {
+        "fa": "این رسوب دریاچه‌ای است.",
+        "en": "The sediment is limnic."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Limnische Ablagerungen entstehen in Süßwasserseen und unterscheiden sich deutlich von Meeresablagerungen.",
+      "uebersetzung": {
+        "fa": "رسوب‌های دریاچه‌ای در دریاچه‌های آب شیرین پدید می‌آیند و به‌وضوح با رسوب‌های دریایی فرق دارند.",
+        "en": "Limnic deposits form in freshwater lakes and differ clearly from marine deposits."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "lakustrisch",
+      "uebersetzung": {
+        "fa": "دریاچه‌ای",
+        "en": "lacustrine"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "marin",
+      "uebersetzung": {
+        "fa": "دریایی",
+        "en": "marine"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از یونانی límnē (دریاچه) + -isch",
+    "en": "from Greek límnē (lake) + -isch"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "limnisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "limnische Sedimente"
+    ],
+    "gegensatzpaar": "limnisch ↔ marin"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der See",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دریاچه",
+          "en": "lake"
+        },
+        "id_ref": "nomen_see"
+      },
+      {
+        "wort": "das Süßwasser",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آب شیرین",
+          "en": "fresh water"
+        },
+        "id_ref": "nomen_suesswasser"
+      },
+      {
+        "wort": "lakustrisch",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "دریاچه‌ای",
+          "en": "lacustrine"
+        },
+        "id_ref": "adjektiv_lakustrisch"
+      },
+      {
+        "wort": "das Sediment",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "رسوب",
+          "en": "sediment"
+        },
+        "id_ref": "nomen_sediment"
+      },
+      {
+        "wort": "die Geologie",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "زمین‌شناسی",
+          "en": "geology"
+        },
+        "id_ref": "nomen_geologie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
