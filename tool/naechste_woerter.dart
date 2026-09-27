@@ -294,6 +294,12 @@ const wortartKorrektur = <String, String>{
   'fürbass': 'adverb', // Duden: Adverb (veraltet) (2026-09-26)
   'gell': 'partikel', // Duden: Partikel (landsch.) (2026-09-26)
   'gratis': 'adverb', // Duden: Adverb (2026-09-26)
+  'hunderterste': 'numerale', // Duden: Numerale (2026-09-27)
+  'hundertste': 'numerale', // Duden: Numerale (2026-09-27)
+  'hundertstel': 'numerale', // Duden: Numerale (2026-09-27)
+  'hunderttausendste': 'numerale', // Duden: Numerale (2026-09-27)
+  'hundertundzweite': 'numerale', // Duden: Numerale (2026-09-27)
+  'hundertzweite': 'numerale', // Duden: Numerale (2026-09-27)
 };
 
 /// `--abhaken` (Schritt 6 der Routine): setzt in ALLEN Listen «✓ » vor jedes
