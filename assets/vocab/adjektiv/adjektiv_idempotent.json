@@ -1,0 +1,118 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_idempotent",
+  "wort": "idempotent",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(ریاضی/رایانه) خودتوان",
+      "بی‌تغییر با تکرار"
+    ],
+    "en": [
+      "(maths/computing) idempotent"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik",
+    "Technik"
+  ],
+  "ipa": "idɛmpoˈtɛnt",
+  "anmerkung": "Fachsprachlich (Mathematik, Informatik).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Operation ist idempotent.",
+      "uebersetzung": {
+        "fa": "این عملیات خودتوان است.",
+        "en": "The operation is idempotent."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Eine Anfrage ist idempotent, wenn man sie mehrmals senden kann, ohne dass sich das Ergebnis ändert.",
+      "uebersetzung": {
+        "fa": "یک درخواست خودتوان است اگر بتوان آن را چند بار فرستاد بدون اینکه نتیجه عوض شود.",
+        "en": "A request is idempotent if you can send it several times without the result changing."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین idem (همان) + potens (توانا)",
+    "en": "from Latin idem (same) + potens (powerful)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "idempotent",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine idempotente Funktion"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Mathematik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریاضی",
+          "en": "mathematics"
+        },
+        "id_ref": "nomen_mathematik"
+      },
+      {
+        "wort": "die Funktion",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تابع، عملکرد",
+          "en": "function"
+        },
+        "id_ref": "nomen_funktion"
+      },
+      {
+        "wort": "das Ergebnis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نتیجه",
+          "en": "result"
+        },
+        "id_ref": "nomen_ergebnis"
+      },
+      {
+        "wort": "wiederholen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تکرار کردن",
+          "en": "to repeat"
+        },
+        "id_ref": "verb_wiederholen"
+      },
+      {
+        "wort": "die Informatik",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رایانه",
+          "en": "computer science"
+        },
+        "id_ref": "nomen_informatik"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

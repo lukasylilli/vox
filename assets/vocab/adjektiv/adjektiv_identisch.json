@@ -1,0 +1,157 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_identisch",
+  "wort": "identisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "یکسان",
+      "عیناً همان"
+    ],
+    "en": [
+      "identical"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Bewertung"
+  ],
+  "ipa": "iˈdɛntɪʃ",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die zwei Bilder sind identisch.",
+      "uebersetzung": {
+        "fa": "این دو عکس یکسان‌اند.",
+        "en": "The two pictures are identical."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Zwillinge sehen fast identisch aus, aber ihre Charaktere sind völlig verschieden.",
+      "uebersetzung": {
+        "fa": "دوقلوها تقریباً یکسان به نظر می‌رسند، ولی شخصیتشان کاملاً متفاوت است.",
+        "en": "The twins look almost identical, but their characters are completely different."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gleich",
+      "uebersetzung": {
+        "fa": "یکسان",
+        "en": "same"
+      }
+    },
+    {
+      "wort": "übereinstimmend",
+      "uebersetzung": {
+        "fa": "منطبق",
+        "en": "matching"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verschieden",
+      "uebersetzung": {
+        "fa": "متفاوت",
+        "en": "different"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Identität",
+      "uebersetzung": {
+        "fa": "هویت",
+        "en": "identity"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "Identität (یکسانی، هویت) + -isch",
+    "en": "Identität (identity) + -isch"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "identisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "identisch mit + Dat",
+        "beispiel": "Die Unterschrift ist identisch mit der auf dem Pass.",
+        "uebersetzung": {
+          "fa": "امضا با امضای روی پاسپورت یکسان است.",
+          "en": "The signature is identical with the one on the passport."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "identische Zwillinge"
+    ],
+    "gegensatzpaar": "identisch ↔ verschieden"
+  },
+  "wortnetz": {
+    "grundwort": "Identität",
+    "woerter": [
+      {
+        "wort": "gleich",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "یکسان",
+          "en": "same"
+        },
+        "id_ref": "adjektiv_gleich"
+      },
+      {
+        "wort": "verschieden",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "متفاوت",
+          "en": "different"
+        },
+        "id_ref": "adjektiv_verschieden"
+      },
+      {
+        "wort": "die Identität",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "هویت",
+          "en": "identity"
+        },
+        "id_ref": "nomen_identitaet"
+      },
+      {
+        "wort": "ähnlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شبیه",
+          "en": "similar"
+        },
+        "id_ref": "adjektiv_aehnlich"
+      },
+      {
+        "wort": "der Zwilling",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دوقلو",
+          "en": "twin"
+        },
+        "id_ref": "nomen_zwilling"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
