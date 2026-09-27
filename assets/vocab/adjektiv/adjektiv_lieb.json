@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_lieb",
+  "wort": "lieb",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "مهربان",
+      "عزیز، دوست‌داشتنی",
+      "سربه‌راه (بچه)"
+    ],
+    "en": [
+      "kind",
+      "dear",
+      "good (child)"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Charakter",
+    "Familie"
+  ],
+  "ipa": "liːp",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Meine Oma ist sehr lieb.",
+      "uebersetzung": {
+        "fa": "مادربزرگم خیلی مهربان است.",
+        "en": "My grandma is very kind."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Liebe Frau Müller, vielen Dank für Ihre schnelle Antwort auf meine Anfrage.",
+      "uebersetzung": {
+        "fa": "خانم مولر عزیز، خیلی ممنون از جواب سریعتان به درخواستم.",
+        "en": "Dear Ms Müller, many thanks for your quick reply to my enquiry."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nett",
+      "uebersetzung": {
+        "fa": "مهربان",
+        "en": "nice"
+      }
+    },
+    {
+      "wort": "freundlich",
+      "uebersetzung": {
+        "fa": "مهربان",
+        "en": "friendly"
+      }
+    },
+    {
+      "wort": "brav",
+      "uebersetzung": {
+        "fa": "سربه‌راه",
+        "en": "good"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "böse",
+      "uebersetzung": {
+        "fa": "بدجنس",
+        "en": "nasty"
+      }
+    },
+    {
+      "wort": "gemein",
+      "uebersetzung": {
+        "fa": "بدجنس",
+        "en": "mean"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Liebe",
+      "uebersetzung": {
+        "fa": "عشق",
+        "en": "love"
+      }
+    },
+    {
+      "wort": "der Liebling",
+      "uebersetzung": {
+        "fa": "عزیز، محبوب",
+        "en": "darling"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "steigerung": {
+      "positiv": "lieb",
+      "komparativ": "lieber",
+      "superlativ": "am liebsten"
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "lieb zu + Dat",
+        "beispiel": "Sei lieb zu deiner Schwester!",
+        "uebersetzung": {
+          "fa": "با خواهرت مهربان باش!",
+          "en": "Be nice to your sister!"
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein lieber Freund"
+    ],
+    "gegensatzpaar": "lieb ↔ böse"
+  },
+  "wortnetz": {
+    "grundwort": "Liebe",
+    "woerter": [
+      {
+        "wort": "die Liebe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عشق",
+          "en": "love"
+        },
+        "id_ref": "nomen_liebe"
+      },
+      {
+        "wort": "lieben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دوست داشتن",
+          "en": "to love"
+        },
+        "id_ref": "verb_lieben"
+      },
+      {
+        "wort": "nett",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مهربان",
+          "en": "nice"
+        },
+        "id_ref": "adjektiv_nett"
+      },
+      {
+        "wort": "böse",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بدجنس",
+          "en": "nasty"
+        },
+        "id_ref": "adjektiv_boese"
+      },
+      {
+        "wort": "lieber",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ترجیحاً",
+          "en": "rather"
+        },
+        "id_ref": "adverb_lieber"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

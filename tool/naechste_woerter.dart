@@ -330,6 +330,7 @@ const zurueckgestellt = <String>{
   'leinwand', // Schreibvariante zweifelhaft (üblich österr.: «leiwand», das gebaut wurde) 2026-09-27
   'letzter', // Listenfehler: flektierte Form, Grundform «letzte» (wie hinterer/innerer) 2026-09-27
   'levurozid', // sehr seltenes Fachwort (hefeabtötend?), unsicher 2026-09-27
+  'lidschäftig', // Wort unbekannt, Bedeutung unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
