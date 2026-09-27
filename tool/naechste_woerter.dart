@@ -305,6 +305,8 @@ const zurueckgestellt = <String>{
   'konjugal', // veraltet (ehelich?), Gebrauch unsicher 2026-09-27
   'konkomitant', // seltenes medizinisches Fachwort (begleitend?), unsicher 2026-09-27
   'konphas', // Wort unbekannt (Physik? gleichphasig?), Bedeutung unsicher 2026-09-27
+  'konvenient', // veraltet (passend, schicklich?), Gebrauch unsicher 2026-09-27
+  'konvers', // seltenes Fachwort (Logik: umgekehrt?), Gebrauch unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
