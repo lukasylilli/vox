@@ -1,0 +1,124 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_kovalent",
+  "wort": "kovalent",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(شیمی) کووالانسی"
+    ],
+    "en": [
+      "(chemistry) covalent"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Chemie"
+  ],
+  "ipa": "kovaˈlɛnt",
+  "anmerkung": "Chemische Fachsprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Bindung ist kovalent.",
+      "uebersetzung": {
+        "fa": "این پیوند کووالانسی است.",
+        "en": "The bond is covalent."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In einem Wassermolekül sind die Atome kovalent verbunden, weil sie sich Elektronen teilen.",
+      "uebersetzung": {
+        "fa": "در مولکول آب اتم‌ها به‌صورت کووالانسی به هم پیوسته‌اند، چون الکترون‌ها را به اشتراک می‌گذارند.",
+        "en": "In a water molecule the atoms are covalently bonded because they share electrons."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "ionisch",
+      "uebersetzung": {
+        "fa": "یونی",
+        "en": "ionic"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ko- (هم) + Valenz (ظرفیت)",
+    "en": "co- (together) + Valenz (valence)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "kovalent",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine kovalente Bindung"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Valenz",
+    "woerter": [
+      {
+        "wort": "die Bindung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پیوند",
+          "en": "bond"
+        },
+        "id_ref": "nomen_bindung"
+      },
+      {
+        "wort": "das Atom",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اتم",
+          "en": "atom"
+        },
+        "id_ref": "nomen_atom"
+      },
+      {
+        "wort": "das Elektron",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "الکترون",
+          "en": "electron"
+        },
+        "id_ref": "nomen_elektron"
+      },
+      {
+        "wort": "das Molekül",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مولکول",
+          "en": "molecule"
+        },
+        "id_ref": "nomen_molekuel"
+      },
+      {
+        "wort": "die Chemie",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شیمی",
+          "en": "chemistry"
+        },
+        "id_ref": "nomen_chemie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
