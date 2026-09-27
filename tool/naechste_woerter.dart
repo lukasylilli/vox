@@ -316,6 +316,8 @@ const zurueckgestellt = <String>{
   'kristallen', // Stoffadjektiv (aus Kristall) — wie birken zurückgestellt 2026-09-27
   'krütsch', // landschaftlich (wählerisch?), Bedeutung unsicher 2026-09-27
   'kryptomer', // seltenes Fachwort (Mineralogie: kryptokristallin?), Bedeutung unsicher 2026-09-27
+  'kunstseiden', // Stoffadjektiv (aus Kunstseide) — wie flanellen zurückgestellt 2026-09-27
+  'kurrent', // mehrdeutig (Kurrentschrift? kaufmännisch laufend?), Bedeutung unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
