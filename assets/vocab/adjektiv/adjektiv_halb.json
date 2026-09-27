@@ -1,0 +1,147 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_halb",
+  "wort": "halb",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "نیم، نصف",
+      "ناتمام، نیمه"
+    ],
+    "en": [
+      "half"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Zahlen",
+    "Zeit"
+  ],
+  "ipa": "halp",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Es ist halb acht.",
+      "uebersetzung": {
+        "fa": "ساعت هفت و نیم است.",
+        "en": "It is half past seven."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich habe das Buch nur halb gelesen, weil es mir zu langweilig war.",
+      "uebersetzung": {
+        "fa": "کتاب را فقط تا نیمه خواندم، چون برایم خیلی خسته‌کننده بود.",
+        "en": "I only read half the book because it was too boring for me."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zur Hälfte",
+      "uebersetzung": {
+        "fa": "به نصف",
+        "en": "by half"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ganz",
+      "uebersetzung": {
+        "fa": "کامل",
+        "en": "whole"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "halbtags",
+      "uebersetzung": {
+        "fa": "نیمه‌وقت",
+        "en": "part-time"
+      }
+    },
+    {
+      "wort": "die Halbzeit",
+      "uebersetzung": {
+        "fa": "نیمه‌ی بازی",
+        "en": "half-time"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "steigerung": {
+      "positiv": "halb",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine halbe Stunde",
+      "ein halbes Brot"
+    ],
+    "gegensatzpaar": "halb ↔ ganz"
+  },
+  "wortnetz": {
+    "grundwort": "Hälfte",
+    "woerter": [
+      {
+        "wort": "die Hälfte",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نصف",
+          "en": "half"
+        },
+        "id_ref": "nomen_haelfte"
+      },
+      {
+        "wort": "ganz",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کامل",
+          "en": "whole"
+        },
+        "id_ref": "adjektiv_ganz"
+      },
+      {
+        "wort": "die Stunde",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ساعت",
+          "en": "hour"
+        },
+        "id_ref": "nomen_stunde"
+      },
+      {
+        "wort": "das Viertel",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "یک‌چهارم",
+          "en": "quarter"
+        },
+        "id_ref": "nomen_viertel"
+      },
+      {
+        "wort": "halbieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نصف کردن",
+          "en": "to halve"
+        },
+        "id_ref": "verb_halbieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

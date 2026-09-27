@@ -242,6 +242,7 @@ const zurueckgestellt = <String>{
   'gewalmt', // Architektur-Fachwort (Walmdach?), unsicher 2026-09-26
   'glanzhell', // keine gesicherte lexikalische Form 2026-09-26
   'griveliert', // Form/Bedeutung unsicher (grivelliert?) 2026-09-26
+  'hären', // Stoffadjektiv (aus Haar), gehoben/veraltet — wie birken/flächsen zurückgestellt 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

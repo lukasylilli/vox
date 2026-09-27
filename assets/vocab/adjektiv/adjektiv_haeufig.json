@@ -1,0 +1,158 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_haeufig",
+  "wort": "häufig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "اغلب",
+      "مکرر",
+      "زیاد"
+    ],
+    "en": [
+      "frequent",
+      "often"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Zeit",
+    "Alltag"
+  ],
+  "ipa": "ˈhɔɪ̯fɪç",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich gehe häufig ins Kino.",
+      "uebersetzung": {
+        "fa": "من اغلب به سینما می‌روم.",
+        "en": "I often go to the cinema."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Das ist ein häufiger Fehler, den viele Deutschlernende am Anfang machen.",
+      "uebersetzung": {
+        "fa": "این یک اشتباه رایج است که خیلی از زبان‌آموزان آلمانی در ابتدا مرتکب می‌شوند.",
+        "en": "That is a common mistake that many learners of German make at the beginning."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "oft",
+      "uebersetzung": {
+        "fa": "اغلب",
+        "en": "often"
+      }
+    },
+    {
+      "wort": "öfter",
+      "uebersetzung": {
+        "fa": "بیشتر اوقات",
+        "en": "more often"
+      }
+    },
+    {
+      "wort": "regelmäßig",
+      "uebersetzung": {
+        "fa": "منظم",
+        "en": "regularly"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "selten",
+      "uebersetzung": {
+        "fa": "به‌ندرت",
+        "en": "rare"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Häufigkeit",
+      "uebersetzung": {
+        "fa": "فراوانی، تکرار",
+        "en": "frequency"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "Haufen (توده) + -ig",
+    "en": "Haufen (heap) + -ig"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "häufig",
+      "komparativ": "häufiger",
+      "superlativ": "am häufigsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine häufige Frage"
+    ],
+    "gegensatzpaar": "häufig ↔ selten"
+  },
+  "wortnetz": {
+    "grundwort": "Haufen",
+    "woerter": [
+      {
+        "wort": "oft",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اغلب",
+          "en": "often"
+        },
+        "id_ref": "adverb_oft"
+      },
+      {
+        "wort": "selten",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نادر",
+          "en": "rare"
+        },
+        "id_ref": "adjektiv_selten"
+      },
+      {
+        "wort": "manchmal",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گاهی",
+          "en": "sometimes"
+        },
+        "id_ref": "adverb_manchmal"
+      },
+      {
+        "wort": "immer",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "همیشه",
+          "en": "always"
+        },
+        "id_ref": "adverb_immer"
+      },
+      {
+        "wort": "die Häufigkeit",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فراوانی",
+          "en": "frequency"
+        },
+        "id_ref": "nomen_haeufigkeit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
