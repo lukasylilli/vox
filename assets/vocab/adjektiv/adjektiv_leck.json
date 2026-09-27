@@ -1,0 +1,133 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_leck",
+  "wort": "leck",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "نشتی‌دار",
+      "سوراخ (قایق، لوله)"
+    ],
+    "en": [
+      "leaky",
+      "leaking"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Haushalt"
+  ],
+  "ipa": "lɛk",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Boot ist leck.",
+      "uebersetzung": {
+        "fa": "این قایق نشتی دارد.",
+        "en": "The boat is leaking."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil der Tank leck war, lief über Nacht das ganze Heizöl in den Keller.",
+      "uebersetzung": {
+        "fa": "چون مخزن نشتی داشت، در طول شب همه‌ی نفت بخاری به زیرزمین ریخت.",
+        "en": "Because the tank was leaking, all the heating oil ran into the cellar overnight."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "undicht",
+      "uebersetzung": {
+        "fa": "نشتی‌دار",
+        "en": "leaky"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "dicht",
+      "uebersetzung": {
+        "fa": "آب‌بند",
+        "en": "watertight"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی شمالی leck (نشتی)",
+    "en": "from Low German leck (leaking)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "leck",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "praedikativ",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [],
+    "gegensatzpaar": "leck ↔ dicht"
+  },
+  "wortnetz": {
+    "grundwort": "Leck",
+    "woerter": [
+      {
+        "wort": "undicht",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نشتی‌دار",
+          "en": "leaky"
+        },
+        "id_ref": "adjektiv_undicht"
+      },
+      {
+        "wort": "dicht",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آب‌بند",
+          "en": "tight"
+        },
+        "id_ref": "adjektiv_dicht"
+      },
+      {
+        "wort": "das Leck",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نشتی",
+          "en": "leak"
+        },
+        "id_ref": "nomen_leck"
+      },
+      {
+        "wort": "das Boot",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قایق",
+          "en": "boat"
+        },
+        "id_ref": "nomen_boot"
+      },
+      {
+        "wort": "tropfen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چکه کردن",
+          "en": "to drip"
+        },
+        "id_ref": "verb_tropfen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
