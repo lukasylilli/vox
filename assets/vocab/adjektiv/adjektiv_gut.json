@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_gut",
+  "wort": "gut",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "خوب",
+      "درست، مناسب"
+    ],
+    "en": [
+      "good",
+      "well"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Bewertung",
+    "Alltag"
+  ],
+  "ipa": "ɡuːt",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Das Essen ist gut.",
+      "uebersetzung": {
+        "fa": "غذا خوب است.",
+        "en": "The food is good."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich habe gut geschlafen, obwohl es draußen sehr laut war.",
+      "uebersetzung": {
+        "fa": "خوب خوابیدم، با اینکه بیرون خیلی شلوغ بود.",
+        "en": "I slept well, although it was very loud outside."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "toll",
+      "uebersetzung": {
+        "fa": "عالی",
+        "en": "great"
+      }
+    },
+    {
+      "wort": "prima",
+      "uebersetzung": {
+        "fa": "عالی",
+        "en": "excellent"
+      }
+    },
+    {
+      "wort": "schön",
+      "uebersetzung": {
+        "fa": "خوب، قشنگ",
+        "en": "nice"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "schlecht",
+      "uebersetzung": {
+        "fa": "بد",
+        "en": "bad"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "das Gute",
+      "uebersetzung": {
+        "fa": "خوبی",
+        "en": "the good"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "steigerung": {
+      "positiv": "gut",
+      "komparativ": "besser",
+      "superlativ": "am besten"
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "gut zu + Dat",
+        "beispiel": "Sie ist immer gut zu mir.",
+        "uebersetzung": {
+          "fa": "او همیشه با من خوب است.",
+          "en": "She is always good to me."
+        }
+      },
+      {
+        "muster": "gut in + Dat",
+        "beispiel": "Er ist gut in Mathe.",
+        "uebersetzung": {
+          "fa": "او در ریاضی خوب است.",
+          "en": "He is good at maths."
+        }
+      },
+      {
+        "muster": "gut für + Akk",
+        "beispiel": "Obst ist gut für die Gesundheit.",
+        "uebersetzung": {
+          "fa": "میوه برای سلامتی خوب است.",
+          "en": "Fruit is good for your health."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein guter Freund",
+      "das gute Wetter"
+    ],
+    "gegensatzpaar": "gut ↔ schlecht"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "schlecht",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بد",
+          "en": "bad"
+        },
+        "id_ref": "adjektiv_schlecht"
+      },
+      {
+        "wort": "besser",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بهتر",
+          "en": "better"
+        },
+        "id_ref": "adjektiv_besser"
+      },
+      {
+        "wort": "toll",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عالی",
+          "en": "great"
+        },
+        "id_ref": "adjektiv_toll"
+      },
+      {
+        "wort": "die Güte",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خوبی، کیفیت",
+          "en": "goodness"
+        },
+        "id_ref": "nomen_guete"
+      },
+      {
+        "wort": "gütig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مهربان",
+          "en": "kind"
+        },
+        "id_ref": "adjektiv_guetig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
