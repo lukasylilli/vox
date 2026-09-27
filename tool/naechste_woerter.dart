@@ -265,6 +265,8 @@ const zurueckgestellt = <String>{
   'imperturbatisch', // Form zweifelhaft (üblich: «imperturbabel»?) 2026-09-27
   'importun', // veraltet (ungelegen?), Gebrauch unsicher 2026-09-27
   'inkommod', // veraltet (lästig, unbequem?), Gebrauch unsicher 2026-09-27
+  'innerer', // Listenfehler: flektierte Form, Grundform «innere» (wie hinterer) 2026-09-27
+  'insistent', // als Adjektiv im Deutschen unsicher (beharrlich?), Gebrauch unklar 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
