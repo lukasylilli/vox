@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_linksrekursiv",
+  "wort": "linksrekursiv",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(علوم رایانه) چپ‌بازگشتی"
+    ],
+    "en": [
+      "(computer science) left-recursive"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Technik",
+    "Mathematik"
+  ],
+  "ipa": "ˈlɪŋksʁekʊʁˌziːf",
+  "anmerkung": "Fachsprache der Informatik (formale Grammatiken).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Regel ist linksrekursiv.",
+      "uebersetzung": {
+        "fa": "این قاعده چپ‌بازگشتی است.",
+        "en": "The rule is left-recursive."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Eine linksrekursive Grammatik muss man umformen, bevor ein einfacher Parser sie verarbeiten kann.",
+      "uebersetzung": {
+        "fa": "دستور زبان چپ‌بازگشتی را باید پیش از آنکه یک تجزیه‌گر ساده پردازشش کند تغییر شکل داد.",
+        "en": "A left-recursive grammar has to be transformed before a simple parser can process it."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "rechtsrekursiv",
+      "uebersetzung": {
+        "fa": "راست‌بازگشتی",
+        "en": "right-recursive"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "links (چپ) + rekursiv (بازگشتی)",
+    "en": "links (left) + rekursiv (recursive)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "linksrekursiv",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine linksrekursive Grammatik"
+    ],
+    "gegensatzpaar": "linksrekursiv ↔ rechtsrekursiv"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Informatik",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "علوم رایانه",
+          "en": "computer science"
+        },
+        "id_ref": "nomen_informatik"
+      },
+      {
+        "wort": "die Grammatik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دستور زبان",
+          "en": "grammar"
+        },
+        "id_ref": "nomen_grammatik"
+      },
+      {
+        "wort": "die Regel",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قاعده",
+          "en": "rule"
+        },
+        "id_ref": "nomen_regel"
+      },
+      {
+        "wort": "kontextfrei",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "مستقل از بافت",
+          "en": "context-free"
+        },
+        "id_ref": "adjektiv_kontextfrei"
+      },
+      {
+        "wort": "rekursiv",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "بازگشتی",
+          "en": "recursive"
+        },
+        "id_ref": "adjektiv_rekursiv"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

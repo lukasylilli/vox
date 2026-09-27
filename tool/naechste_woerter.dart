@@ -333,6 +333,7 @@ const zurueckgestellt = <String>{
   'lidschäftig', // Wort unbekannt, Bedeutung unsicher 2026-09-27
   'limnophil', // seltenes Fachwort (Süßwasser liebend?), unsicher 2026-09-27
   'linden', // Stoffadjektiv (aus Lindenholz) — wie birken zurückgestellt 2026-09-27
+  'linker', // Listenfehler: flektierte Form, Grundform «linke» (wie hinterer/letzter) 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
