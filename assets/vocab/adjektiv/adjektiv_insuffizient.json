@@ -1,0 +1,149 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_insuffizient",
+  "wort": "insuffizient",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(پزشکی) نارسا",
+      "ناکافی"
+    ],
+    "en": [
+      "(medical) insufficient",
+      "inadequate"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin"
+  ],
+  "ipa": "ˈɪnzʊfiˌt͡si̯ɛnt",
+  "anmerkung": "Medizinische Fachsprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Herz ist insuffizient.",
+      "uebersetzung": {
+        "fa": "قلب نارساست.",
+        "en": "The heart is insufficient."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn die Nieren insuffizient sind, muss der Patient regelmäßig zur Dialyse.",
+      "uebersetzung": {
+        "fa": "وقتی کلیه‌ها نارسا باشند، بیمار باید مرتب دیالیز شود.",
+        "en": "If the kidneys are insufficient, the patient has to have regular dialysis."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "unzureichend",
+      "uebersetzung": {
+        "fa": "ناکافی",
+        "en": "insufficient"
+      }
+    },
+    {
+      "wort": "schwach",
+      "uebersetzung": {
+        "fa": "ضعیف",
+        "en": "weak"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "suffizient",
+      "uebersetzung": {
+        "fa": "کافی",
+        "en": "sufficient"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Insuffizienz",
+      "uebersetzung": {
+        "fa": "نارسایی",
+        "en": "insufficiency"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "in- (نا-) + suffizient (کافی)",
+    "en": "in- (not) + suffizient (sufficient)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "insuffizient",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine insuffiziente Herzklappe"
+    ],
+    "gegensatzpaar": "insuffizient ↔ suffizient"
+  },
+  "wortnetz": {
+    "grundwort": "Insuffizienz",
+    "woerter": [
+      {
+        "wort": "die Insuffizienz",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "نارسایی",
+          "en": "insufficiency"
+        },
+        "id_ref": "nomen_insuffizienz"
+      },
+      {
+        "wort": "das Herz",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قلب",
+          "en": "heart"
+        },
+        "id_ref": "nomen_herz"
+      },
+      {
+        "wort": "die Niere",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کلیه",
+          "en": "kidney"
+        },
+        "id_ref": "nomen_niere"
+      },
+      {
+        "wort": "unzureichend",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ناکافی",
+          "en": "insufficient"
+        },
+        "id_ref": "adjektiv_unzureichend"
+      },
+      {
+        "wort": "die Dialyse",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دیالیز",
+          "en": "dialysis"
+        },
+        "id_ref": "nomen_dialyse"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,154 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_integer",
+  "wort": "integer",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "درستکار",
+      "صادق و پاک‌دامن"
+    ],
+    "en": [
+      "upright",
+      "of integrity"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Charakter"
+  ],
+  "ipa": "ɪnˈteːɡɐ",
+  "anmerkung": "Dekliniert ohne e: «ein integrer Mensch».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Richter ist integer.",
+      "uebersetzung": {
+        "fa": "قاضی درستکار است.",
+        "en": "The judge is a person of integrity."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie gilt als absolut integer, deshalb vertrauen ihr sowohl die Kollegen als auch die Kunden.",
+      "uebersetzung": {
+        "fa": "او کاملاً درستکار شناخته می‌شود، به همین دلیل هم همکاران و هم مشتری‌ها به او اعتماد دارند.",
+        "en": "She is considered absolutely upright, which is why both colleagues and customers trust her."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ehrlich",
+      "uebersetzung": {
+        "fa": "صادق",
+        "en": "honest"
+      }
+    },
+    {
+      "wort": "rechtschaffen",
+      "uebersetzung": {
+        "fa": "درستکار",
+        "en": "righteous"
+      }
+    },
+    {
+      "wort": "unbestechlich",
+      "uebersetzung": {
+        "fa": "رشوه‌ناپذیر",
+        "en": "incorruptible"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "korrupt",
+      "uebersetzung": {
+        "fa": "فاسد",
+        "en": "corrupt"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Integrität",
+      "uebersetzung": {
+        "fa": "درستکاری",
+        "en": "integrity"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از لاتین integer (دست‌نخورده، کامل)",
+    "en": "from Latin integer (untouched, whole)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "integer",
+      "komparativ": "integrer",
+      "superlativ": "am integersten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "praedikativ",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [],
+    "gegensatzpaar": "integer ↔ korrupt"
+  },
+  "wortnetz": {
+    "grundwort": "Integrität",
+    "woerter": [
+      {
+        "wort": "ehrlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صادق",
+          "en": "honest"
+        },
+        "id_ref": "adjektiv_ehrlich"
+      },
+      {
+        "wort": "die Integrität",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "درستکاری",
+          "en": "integrity"
+        },
+        "id_ref": "nomen_integritaet"
+      },
+      {
+        "wort": "korrupt",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فاسد",
+          "en": "corrupt"
+        },
+        "id_ref": "adjektiv_korrupt"
+      },
+      {
+        "wort": "das Vertrauen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اعتماد",
+          "en": "trust"
+        },
+        "id_ref": "nomen_vertrauen"
+      },
+      {
+        "wort": "zuverlässig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قابل‌اعتماد",
+          "en": "reliable"
+        },
+        "id_ref": "adjektiv_zuverlaessig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
