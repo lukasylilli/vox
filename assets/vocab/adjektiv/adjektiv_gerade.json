@@ -1,0 +1,157 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_gerade",
+  "wort": "gerade",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "صاف، مستقیم",
+      "(عدد) زوج",
+      "رک و راست"
+    ],
+    "en": [
+      "straight",
+      "(number) even",
+      "upright, straightforward"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Formen",
+    "Zahlen"
+  ],
+  "ipa": "ɡəˈʁaːdə",
+  "anmerkung": "Auch Adverb: gerade (= jetzt; eben).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Straße ist gerade.",
+      "uebersetzung": {
+        "fa": "خیابان صاف است.",
+        "en": "The road is straight."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Zwei, vier und sechs sind gerade Zahlen, während drei und fünf ungerade sind.",
+      "uebersetzung": {
+        "fa": "دو، چهار و شش اعداد زوج‌اند، در حالی که سه و پنج فردند.",
+        "en": "Two, four and six are even numbers, whereas three and five are odd."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "direkt",
+      "uebersetzung": {
+        "fa": "مستقیم",
+        "en": "direct"
+      }
+    },
+    {
+      "wort": "aufrecht",
+      "uebersetzung": {
+        "fa": "راست قامت",
+        "en": "upright"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "krumm",
+      "uebersetzung": {
+        "fa": "کج",
+        "en": "crooked"
+      }
+    },
+    {
+      "wort": "ungerade",
+      "uebersetzung": {
+        "fa": "فرد",
+        "en": "odd"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "kerzengerade",
+      "uebersetzung": {
+        "fa": "راستِ راست",
+        "en": "bolt upright"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "steigerung": {
+      "positiv": "gerade",
+      "komparativ": "gerader",
+      "superlativ": "am geradesten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine gerade Linie",
+      "die gerade Zahl"
+    ],
+    "gegensatzpaar": "gerade ↔ krumm"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "krumm",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کج",
+          "en": "crooked"
+        },
+        "id_ref": "adjektiv_krumm"
+      },
+      {
+        "wort": "direkt",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مستقیم",
+          "en": "direct"
+        },
+        "id_ref": "adjektiv_direkt"
+      },
+      {
+        "wort": "ungerade",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فرد",
+          "en": "odd"
+        },
+        "id_ref": "adjektiv_ungerade"
+      },
+      {
+        "wort": "geradeaus",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مستقیم",
+          "en": "straight on"
+        },
+        "id_ref": "adverb_geradeaus"
+      },
+      {
+        "wort": "die Linie",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خط",
+          "en": "line"
+        },
+        "id_ref": "nomen_linie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

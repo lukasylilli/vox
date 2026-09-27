@@ -238,6 +238,7 @@ const zurueckgestellt = <String>{
   'gehl', // mundartlich/veraltet, Bedeutung unsicher 2026-09-26
   'geköpert', // Textil-Fachwort (Köperbindung?), unsicher 2026-09-26
   'gekröpft', // Fachwort (Technik/Jagd), Bedeutung unsicher 2026-09-26
+  'geperlt', // Bedeutung/Gebrauch unsicher 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

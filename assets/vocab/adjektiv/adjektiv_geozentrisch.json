@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_geozentrisch",
+  "wort": "geozentrisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "زمین‌مرکزی"
+    ],
+    "en": [
+      "geocentric"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wissenschaft",
+    "Geschichte"
+  ],
+  "ipa": "ɡeoˈtsɛntʁɪʃ",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das alte Weltbild war geozentrisch.",
+      "uebersetzung": {
+        "fa": "جهان‌بینی قدیم زمین‌مرکزی بود.",
+        "en": "The old world view was geocentric."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem geozentrischen Weltbild drehte sich die Sonne um die Erde, bis Kopernikus das Gegenteil zeigte.",
+      "uebersetzung": {
+        "fa": "طبق جهان‌بینی زمین‌مرکزی خورشید به دور زمین می‌چرخید، تا اینکه کوپرنیک خلافش را نشان داد.",
+        "en": "According to the geocentric world view the sun revolved around the earth, until Copernicus showed the opposite."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "heliozentrisch",
+      "uebersetzung": {
+        "fa": "خورشیدمرکزی",
+        "en": "heliocentric"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "geo- (زمین) + zentrisch (مرکزی)",
+    "en": "geo- (earth) + zentrisch (centric)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "geozentrisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "das geozentrische Weltbild"
+    ],
+    "gegensatzpaar": "geozentrisch ↔ heliozentrisch"
+  },
+  "wortnetz": {
+    "grundwort": "Zentrum",
+    "woerter": [
+      {
+        "wort": "die Erde",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زمین",
+          "en": "earth"
+        },
+        "id_ref": "nomen_erde"
+      },
+      {
+        "wort": "die Sonne",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خورشید",
+          "en": "sun"
+        },
+        "id_ref": "nomen_sonne"
+      },
+      {
+        "wort": "das Zentrum",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مرکز",
+          "en": "centre"
+        },
+        "id_ref": "nomen_zentrum"
+      },
+      {
+        "wort": "heliozentrisch",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "خورشیدمرکزی",
+          "en": "heliocentric"
+        },
+        "id_ref": "adjektiv_heliozentrisch"
+      },
+      {
+        "wort": "das Weltbild",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "جهان‌بینی",
+          "en": "world view"
+        },
+        "id_ref": "nomen_weltbild"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
