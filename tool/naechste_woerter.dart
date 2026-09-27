@@ -324,6 +324,7 @@ const zurueckgestellt = <String>{
   'latinisch', // selten/historisch (Latium betreffend?), Gebrauch unsicher 2026-09-27
   'latreutisch', // sehr seltenes theologisches Fachwort, Bedeutung unsicher 2026-09-27
   'leckerfritzig', // umgangssprachlich/regional, Bedeutung unsicher 2026-09-27
+  'legasthen', // seltene Nebenform (üblich: «legasthenisch», das gebaut wurde), unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
