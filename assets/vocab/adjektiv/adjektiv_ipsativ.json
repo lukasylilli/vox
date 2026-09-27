@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_ipsativ",
+  "wort": "ipsativ",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(روان‌سنجی) خودسنج",
+      "مقایسه‌شده با خود فرد"
+    ],
+    "en": [
+      "(psychometrics) ipsative"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Psychologie",
+    "Wissenschaft"
+  ],
+  "ipa": "ɪpsaˈtiːf",
+  "anmerkung": "Fachsprache der Testpsychologie.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Test ist ipsativ.",
+      "uebersetzung": {
+        "fa": "این آزمون خودسنج است.",
+        "en": "The test is ipsative."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei einer ipsativen Bewertung vergleicht man die Leistung eines Schülers mit seinen eigenen früheren Ergebnissen, nicht mit der Klasse.",
+      "uebersetzung": {
+        "fa": "در ارزیابی خودسنج عملکرد دانش‌آموز را با نتایج قبلی خودش مقایسه می‌کنند، نه با کلاس.",
+        "en": "In an ipsative assessment a pupil's performance is compared with his own earlier results, not with the class."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "normativ",
+      "uebersetzung": {
+        "fa": "هنجاری",
+        "en": "normative"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین ipse (خود) + -ativ",
+    "en": "from Latin ipse (self) + -ativ"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "ipsativ",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine ipsative Bewertung"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Test",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آزمون",
+          "en": "test"
+        },
+        "id_ref": "nomen_test"
+      },
+      {
+        "wort": "die Bewertung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ارزیابی",
+          "en": "assessment"
+        },
+        "id_ref": "nomen_bewertung"
+      },
+      {
+        "wort": "vergleichen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مقایسه کردن",
+          "en": "to compare"
+        },
+        "id_ref": "verb_vergleichen"
+      },
+      {
+        "wort": "die Leistung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عملکرد",
+          "en": "performance"
+        },
+        "id_ref": "nomen_leistung"
+      },
+      {
+        "wort": "die Psychologie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "روان‌شناسی",
+          "en": "psychology"
+        },
+        "id_ref": "nomen_psychologie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

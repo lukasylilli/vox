@@ -277,6 +277,8 @@ const zurueckgestellt = <String>{
   'intervallisch', // Bedeutung unsicher (in Intervallen? Musik?) 2026-09-27
   'interventiv', // seltenes Fachwort, Gebrauch unsicher 2026-09-27
   'inzident', // mehrdeutig (Mathematik: inzident; sonst «zufällig eintretend»?), Bedeutung unsicher 2026-09-27
+  'irden', // Stoffadjektiv (aus gebranntem Ton) — wie birken/flächsen zurückgestellt 2026-09-27
+  'irländisch', // selten neben «irisch», Gebrauch unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

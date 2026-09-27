@@ -1,0 +1,133 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_ipsilateral",
+  "wort": "ipsilateral",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(پزشکی) هم‌سو، در همان طرف بدن"
+    ],
+    "en": [
+      "(medical) ipsilateral"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Körper"
+  ],
+  "ipa": "ɪpsilateˈʁaːl",
+  "anmerkung": "Medizinische Fachsprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Lähmung ist ipsilateral.",
+      "uebersetzung": {
+        "fa": "این فلج در همان طرف است.",
+        "en": "The paralysis is ipsilateral."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach der Verletzung zeigte der Patient Ausfälle auf der ipsilateralen Seite, also auf derselben Seite wie die Wunde.",
+      "uebersetzung": {
+        "fa": "بیمار پس از آسیب در سمت هم‌سو، یعنی همان سمتِ زخم، نقص عملکرد نشان داد.",
+        "en": "After the injury the patient showed deficits on the ipsilateral side, i.e. the same side as the wound."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gleichseitig",
+      "uebersetzung": {
+        "fa": "هم‌طرف",
+        "en": "same-sided"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "kontralateral",
+      "uebersetzung": {
+        "fa": "در طرف مقابل",
+        "en": "contralateral"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین ipse (خود) + lateral (پهلویی)",
+    "en": "from Latin ipse (same) + lateral (of the side)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "ipsilateral",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "die ipsilaterale Seite"
+    ],
+    "gegensatzpaar": "ipsilateral ↔ kontralateral"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Seite",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "طرف، سمت",
+          "en": "side"
+        },
+        "id_ref": "nomen_seite"
+      },
+      {
+        "wort": "links",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چپ",
+          "en": "left"
+        },
+        "id_ref": "adverb_links"
+      },
+      {
+        "wort": "rechts",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "راست",
+          "en": "right"
+        },
+        "id_ref": "adverb_rechts"
+      },
+      {
+        "wort": "der Körper",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بدن",
+          "en": "body"
+        },
+        "id_ref": "nomen_koerper"
+      },
+      {
+        "wort": "die Lähmung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "فلج",
+          "en": "paralysis"
+        },
+        "id_ref": "nomen_laehmung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
