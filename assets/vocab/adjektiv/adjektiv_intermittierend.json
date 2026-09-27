@@ -1,0 +1,141 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_intermittierend",
+  "wort": "intermittierend",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "متناوب",
+      "گاه‌به‌گاه، با وقفه"
+    ],
+    "en": [
+      "intermittent"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Technik"
+  ],
+  "ipa": "ɪntɐmɪˈtiːʁənt",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Signal ist intermittierend.",
+      "uebersetzung": {
+        "fa": "این سیگنال متناوب است.",
+        "en": "The signal is intermittent."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Beim intermittierenden Fasten isst man zum Beispiel nur acht Stunden am Tag und fastet den Rest der Zeit.",
+      "uebersetzung": {
+        "fa": "در روزه‌داری متناوب مثلاً فقط هشت ساعت در روز غذا می‌خورند و بقیه‌ی وقت روزه‌اند.",
+        "en": "In intermittent fasting, for example, you only eat for eight hours a day and fast the rest of the time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "periodisch",
+      "uebersetzung": {
+        "fa": "دوره‌ای",
+        "en": "periodic"
+      }
+    },
+    {
+      "wort": "unterbrochen",
+      "uebersetzung": {
+        "fa": "منقطع",
+        "en": "interrupted"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "kontinuierlich",
+      "uebersetzung": {
+        "fa": "پیوسته",
+        "en": "continuous"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "intermittieren (قطع و وصل شدن) + -end",
+    "en": "intermittieren (to intermit) + -end"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "intermittierend",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein intermittierendes Fieber"
+    ],
+    "gegensatzpaar": "intermittierend ↔ kontinuierlich"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Pause",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "وقفه",
+          "en": "break"
+        },
+        "id_ref": "nomen_pause"
+      },
+      {
+        "wort": "regelmäßig",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "منظم",
+          "en": "regular"
+        },
+        "id_ref": "adjektiv_regelmaessig"
+      },
+      {
+        "wort": "kontinuierlich",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پیوسته",
+          "en": "continuous"
+        },
+        "id_ref": "adjektiv_kontinuierlich"
+      },
+      {
+        "wort": "das Fasten",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "روزه",
+          "en": "fasting"
+        },
+        "id_ref": "nomen_fasten"
+      },
+      {
+        "wort": "unterbrechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قطع کردن",
+          "en": "to interrupt"
+        },
+        "id_ref": "verb_unterbrechen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

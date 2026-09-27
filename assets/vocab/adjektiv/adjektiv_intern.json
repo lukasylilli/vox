@@ -1,0 +1,142 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_intern",
+  "wort": "intern",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "داخلی",
+      "درون‌سازمانی"
+    ],
+    "en": [
+      "internal",
+      "in-house"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Büro"
+  ],
+  "ipa": "ɪnˈtɛʁn",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Dokument ist intern.",
+      "uebersetzung": {
+        "fa": "این سند داخلی است.",
+        "en": "The document is internal."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Stelle wird zuerst intern ausgeschrieben, damit sich Mitarbeiter der Firma bewerben können.",
+      "uebersetzung": {
+        "fa": "این جایگاه اول داخلی آگهی می‌شود تا کارمندان شرکت بتوانند درخواست بدهند.",
+        "en": "The position is first advertised internally so that employees of the company can apply."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "innerbetrieblich",
+      "uebersetzung": {
+        "fa": "درون‌سازمانی",
+        "en": "in-house"
+      }
+    },
+    {
+      "wort": "vertraulich",
+      "uebersetzung": {
+        "fa": "محرمانه",
+        "en": "confidential"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "extern",
+      "uebersetzung": {
+        "fa": "خارجی، بیرونی",
+        "en": "external"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین internus (درونی)",
+    "en": "from Latin internus (inner)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "intern",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine interne Besprechung"
+    ],
+    "gegensatzpaar": "intern ↔ extern"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "extern",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیرونی",
+          "en": "external"
+        },
+        "id_ref": "adjektiv_extern"
+      },
+      {
+        "wort": "die Firma",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شرکت",
+          "en": "company"
+        },
+        "id_ref": "nomen_firma"
+      },
+      {
+        "wort": "der Mitarbeiter",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کارمند",
+          "en": "employee"
+        },
+        "id_ref": "nomen_mitarbeiter"
+      },
+      {
+        "wort": "vertraulich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "محرمانه",
+          "en": "confidential"
+        },
+        "id_ref": "adjektiv_vertraulich"
+      },
+      {
+        "wort": "die Abteilung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بخش",
+          "en": "department"
+        },
+        "id_ref": "nomen_abteilung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
