@@ -1,0 +1,165 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_grob",
+  "wort": "grob",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "زبر، درشت",
+      "خشن، بی‌ادب",
+      "تقریبی، کلی"
+    ],
+    "en": [
+      "coarse, rough",
+      "rude, crude",
+      "rough, approximate"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Oberfläche",
+    "Verhalten"
+  ],
+  "ipa": "ɡʁoːp",
+  "anmerkung": "Steigerung mit Umlaut: gröber, am gröbsten.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Stoff ist grob.",
+      "uebersetzung": {
+        "fa": "پارچه زبر است.",
+        "en": "The fabric is coarse."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Kannst du mir grob erklären, worum es in dem Buch geht, ohne das Ende zu verraten?",
+      "uebersetzung": {
+        "fa": "می‌توانی کلی بگویی کتاب درباره‌ی چیست، بدون اینکه پایانش را لو بدهی؟",
+        "en": "Can you roughly explain what the book is about without giving away the ending?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rau",
+      "uebersetzung": {
+        "fa": "زبر",
+        "en": "rough"
+      }
+    },
+    {
+      "wort": "unhöflich",
+      "uebersetzung": {
+        "fa": "بی‌ادب",
+        "en": "rude"
+      }
+    },
+    {
+      "wort": "ungefähr",
+      "uebersetzung": {
+        "fa": "تقریبی",
+        "en": "approximate"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "fein",
+      "uebersetzung": {
+        "fa": "ریز، لطیف",
+        "en": "fine"
+      }
+    },
+    {
+      "wort": "genau",
+      "uebersetzung": {
+        "fa": "دقیق",
+        "en": "exact"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "steigerung": {
+      "positiv": "grob",
+      "komparativ": "gröber",
+      "superlativ": "am gröbsten"
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "grob zu + Dat",
+        "beispiel": "Sei nicht so grob zu den Kindern!",
+        "uebersetzung": {
+          "fa": "با بچه‌ها این‌قدر خشن نباش!",
+          "en": "Don't be so rough with the children!"
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein grober Fehler",
+      "das grobe Salz"
+    ],
+    "gegensatzpaar": "grob ↔ fein"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "rau",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زبر",
+          "en": "rough"
+        },
+        "id_ref": "adjektiv_rau"
+      },
+      {
+        "wort": "fein",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریز",
+          "en": "fine"
+        },
+        "id_ref": "adjektiv_fein"
+      },
+      {
+        "wort": "unhöflich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بی‌ادب",
+          "en": "rude"
+        },
+        "id_ref": "adjektiv_unhoeflich"
+      },
+      {
+        "wort": "ungefähr",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تقریباً",
+          "en": "roughly"
+        },
+        "id_ref": "adverb_ungefaehr"
+      },
+      {
+        "wort": "grobkörnig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "درشت‌دانه",
+          "en": "coarse-grained"
+        },
+        "id_ref": "adjektiv_grobkoernig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

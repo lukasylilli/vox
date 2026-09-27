@@ -241,6 +241,7 @@ const zurueckgestellt = <String>{
   'geperlt', // Bedeutung/Gebrauch unsicher 2026-09-26
   'gewalmt', // Architektur-Fachwort (Walmdach?), unsicher 2026-09-26
   'glanzhell', // keine gesicherte lexikalische Form 2026-09-26
+  'griveliert', // Form/Bedeutung unsicher (grivelliert?) 2026-09-26
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

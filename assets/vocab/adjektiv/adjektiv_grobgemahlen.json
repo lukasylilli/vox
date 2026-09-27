@@ -1,0 +1,124 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_grobgemahlen",
+  "wort": "grobgemahlen",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "درشت‌آسیاب‌شده"
+    ],
+    "en": [
+      "coarsely ground"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Essen"
+  ],
+  "ipa": "ˈɡʁoːpɡəmaːlən",
+  "anmerkung": "Auch getrennt: grob gemahlen.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich nehme grobgemahlenen Pfeffer.",
+      "uebersetzung": {
+        "fa": "فلفل درشت‌آسیاب‌شده برمی‌دارم.",
+        "en": "I'll take coarsely ground pepper."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Für diesen Kaffee braucht man grobgemahlene Bohnen, weil feines Pulver den Filter verstopft.",
+      "uebersetzung": {
+        "fa": "برای این قهوه دانه‌ی درشت‌آسیاب لازم است، چون پودر ریز فیلتر را می‌گیرد.",
+        "en": "For this coffee you need coarsely ground beans because fine powder clogs the filter."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "feingemahlen",
+      "uebersetzung": {
+        "fa": "ریزآسیاب‌شده",
+        "en": "finely ground"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "grob (درشت) + gemahlen (آسیاب‌شده)",
+    "en": "grob (coarse) + gemahlen (ground)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "grobgemahlen",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "grobgemahlener Pfeffer"
+    ],
+    "gegensatzpaar": "grobgemahlen ↔ feingemahlen"
+  },
+  "wortnetz": {
+    "grundwort": "mahlen",
+    "woerter": [
+      {
+        "wort": "mahlen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آسیاب کردن",
+          "en": "to grind"
+        },
+        "id_ref": "verb_mahlen"
+      },
+      {
+        "wort": "grob",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درشت",
+          "en": "coarse"
+        },
+        "id_ref": "adjektiv_grob"
+      },
+      {
+        "wort": "fein",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریز",
+          "en": "fine"
+        },
+        "id_ref": "adjektiv_fein"
+      },
+      {
+        "wort": "der Pfeffer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فلفل",
+          "en": "pepper"
+        },
+        "id_ref": "nomen_pfeffer"
+      },
+      {
+        "wort": "die Mühle",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آسیاب",
+          "en": "mill"
+        },
+        "id_ref": "nomen_muehle"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
