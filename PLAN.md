@@ -14,7 +14,8 @@
 > متن مفصل قبل از این خلاصه: `git show a078dc2:PLAN.md` (نسخه‌ی قدیمی‌تر: `afad3ab`).
 > 🗂️ **خلاصه‌سازی سوم (2026-09-24 دور ۶۳، درخواست Lukas — «سریع‌تر، بدون اشتباه»):** گزارش دور به دور کلمه‌ها، جدول پیشرفت و L.4b/L.4b-2 به چند خط کوتاه شد؛ متن کامل قبلی: `git show be0c77d:PLAN.md`.
 >
-> 🗓️ **آخرین جلسه:** 2026-09-27 (دور ۳۳۵–۳۴۴) — **۱۰۰ کلمه‌ی تازه** (Lukas: «Weiter»): kombinatorisch … korrigierbar ⇒ آرشیو **۳۰۳۶ کارت** (از ۳۰۰۰ گذشت؛ هر دور: dry-run ۰/۰، analyze و همه‌ی ۳۴۲ تست سبز؛ هر دور commit خودش). Wortart غلطی پیدا نشد. **۱۰ کلمه کنار گذاشته** (⇒ «🏁 مرحله‌ی آخر» #۲۶۰–۲۶۹): komplektisch، komputativ، konfliktär، konjugal، konkomitant، konphas، konvenient، konvers، konvivial، korallen. ⏭️ Claude: کلمه‌ها **از korrosionsbeständig**.
+> 🗓️ **آخرین جلسه:** 2026-09-27 (دور ۳۴۵–۳۵۴) — **۱۰۰ کلمه‌ی تازه** (Lukas: «Weiter» ×۲): korrosionsbeständig … labil ⇒ آرشیو **۳۱۳۶ کارت** (حرف K تمام شد، L شروع شد؛ هر دور: dry-run ۰/۰، analyze و همه‌ی ۳۴۲ تست سبز؛ هر دور commit خودش). Wortart غلطی پیدا نشد. **۹ کلمه کنار گذاشته** (⇒ «🏁 مرحله‌ی آخر» #۲۷۰–۲۷۸): kredibel، kreiden، krisselig، krisslig، kristallen، krütsch، kryptomer، kunstseiden، kurrent. ⏭️ Claude: کلمه‌ها **از labiodental**.
+> قبلی: 2026-09-27 (دور ۳۳۵–۳۴۴) — **۱۰۰ کلمه‌ی تازه**: kombinatorisch … korrigierbar ⇒ آرشیو ۳۰۳۶؛ ۱۰ کلمه کنار گذاشته (#۲۶۰–۲۶۹).
 > قبلی: 2026-09-27 (دور ۳۲۵–۳۳۴) — **۱۰۰ کلمه‌ی تازه**: katholisch … komatös ⇒ آرشیو ۲۹۳۶؛ ۹ کلمه کنار گذاشته (#۲۵۱–۲۵۹)؛ GitHub Actions همه سبز.
 > قبلی: 2026-09-27 (دور ۳۱۵–۳۲۴) — **۱۰۰ کلمه‌ی تازه**: jadegrün … kategorisch ⇒ آرشیو ۲۸۳۶؛ ۱۱ کلمه کنار گذاشته (#۲۴۰–۲۵۰).
 > قبلی: 2026-09-27 (دور ۳۰۵–۳۱۴) — **۱۰۰ کلمه‌ی تازه**: interimistisch … ivorisch ⇒ آرشیو ۲۷۳۶؛ ۱۱ کلمه کنار گذاشته (#۲۲۹–۲۳۹).
