@@ -1,0 +1,152 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_geneigt",
+  "wort": "geneigt",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "مایل، راغب",
+      "شیب‌دار، کج"
+    ],
+    "en": [
+      "inclined, willing",
+      "sloping, tilted"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle",
+    "Formen"
+  ],
+  "ipa": "ɡəˈnaɪ̯kt",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Dach ist stark geneigt.",
+      "uebersetzung": {
+        "fa": "سقف خیلی شیب‌دار است.",
+        "en": "The roof is steeply sloped."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ich bin geneigt, dir zu glauben, aber ich brauche noch einen Beweis.",
+      "uebersetzung": {
+        "fa": "مایلم حرفت را باور کنم، ولی هنوز یک دلیل لازم دارم.",
+        "en": "I'm inclined to believe you, but I still need proof."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bereit",
+      "uebersetzung": {
+        "fa": "آماده",
+        "en": "willing"
+      }
+    },
+    {
+      "wort": "schräg",
+      "uebersetzung": {
+        "fa": "کج، مورب",
+        "en": "slanted"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "abgeneigt",
+      "uebersetzung": {
+        "fa": "بی‌میل",
+        "en": "disinclined"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Partizip II von neigen (خم کردن؛ متمایل بودن)",
+    "en": "past participle of neigen (to tilt; to tend)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "geneigt",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "geneigt zu + Dat",
+        "beispiel": "Er ist zu Übertreibungen geneigt.",
+        "uebersetzung": {
+          "fa": "او به اغراق کردن تمایل دارد.",
+          "en": "He is prone to exaggeration."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "der geneigte Leser",
+      "eine geneigte Fläche"
+    ],
+    "gegensatzpaar": "geneigt ↔ abgeneigt"
+  },
+  "wortnetz": {
+    "grundwort": "neigen",
+    "woerter": [
+      {
+        "wort": "neigen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "متمایل بودن",
+          "en": "to tend"
+        },
+        "id_ref": "verb_neigen"
+      },
+      {
+        "wort": "schräg",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کج",
+          "en": "slanted"
+        },
+        "id_ref": "adjektiv_schraeg"
+      },
+      {
+        "wort": "bereit",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آماده",
+          "en": "ready"
+        },
+        "id_ref": "adjektiv_bereit"
+      },
+      {
+        "wort": "die Neigung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تمایل؛ شیب",
+          "en": "inclination"
+        },
+        "id_ref": "nomen_neigung"
+      },
+      {
+        "wort": "abgeneigt",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بی‌میل",
+          "en": "disinclined"
+        },
+        "id_ref": "adjektiv_abgeneigt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

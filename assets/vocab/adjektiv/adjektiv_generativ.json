@@ -1,0 +1,127 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_generativ",
+  "wort": "generativ",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "زایشی، تولیدی",
+      "(فناوری) مولّد (مثل هوش مصنوعی مولد)"
+    ],
+    "en": [
+      "generative"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Wissenschaft"
+  ],
+  "ipa": "ɡeneʁaˈtiːf",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das ist generative KI.",
+      "uebersetzung": {
+        "fa": "این هوش مصنوعی مولد است.",
+        "en": "That is generative AI."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Generative Modelle können Texte und Bilder erzeugen, die kaum von menschlichen Werken zu unterscheiden sind.",
+      "uebersetzung": {
+        "fa": "مدل‌های مولد می‌توانند متن و تصویری بسازند که به‌سختی از آثار انسانی قابل تشخیص است.",
+        "en": "Generative models can create texts and images that are hardly distinguishable from human works."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erzeugend",
+      "uebersetzung": {
+        "fa": "تولیدکننده",
+        "en": "producing"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. generare (پدید آوردن)",
+    "en": "Latin generare (to produce)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "generativ",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "die generative Grammatik",
+      "ein generatives Modell"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "generieren",
+    "woerter": [
+      {
+        "wort": "erzeugen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تولید کردن",
+          "en": "to produce"
+        },
+        "id_ref": "verb_erzeugen"
+      },
+      {
+        "wort": "generieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تولید کردن",
+          "en": "to generate"
+        },
+        "id_ref": "verb_generieren"
+      },
+      {
+        "wort": "die KI",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "هوش مصنوعی",
+          "en": "AI"
+        },
+        "id_ref": "nomen_ki"
+      },
+      {
+        "wort": "digital",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دیجیتال",
+          "en": "digital"
+        },
+        "id_ref": "adjektiv_digital"
+      },
+      {
+        "wort": "das Modell",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مدل",
+          "en": "model"
+        },
+        "id_ref": "nomen_modell"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
