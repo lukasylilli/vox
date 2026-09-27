@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_hemizygot",
+  "wort": "hemizygot",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(ژنتیک) همی‌زیگوت",
+      "تک‌نسخه‌ای (ژن)"
+    ],
+    "en": [
+      "(genetics) hemizygous"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Biologie",
+    "Medizin"
+  ],
+  "ipa": "hemit͡syˈɡoːt",
+  "anmerkung": "Genetische Fachsprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Männer sind für X-Gene hemizygot.",
+      "uebersetzung": {
+        "fa": "مردها برای ژن‌های X همی‌زیگوت هستند.",
+        "en": "Men are hemizygous for X-linked genes."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil Männer nur ein X-Chromosom haben, sind sie für diese Gene hemizygot, deshalb zeigen sie Farbenblindheit häufiger.",
+      "uebersetzung": {
+        "fa": "چون مردها فقط یک کروموزوم X دارند، برای این ژن‌ها همی‌زیگوت‌اند و به همین دلیل کوررنگی در آن‌ها شایع‌تر است.",
+        "en": "Because men have only one X chromosome, they are hemizygous for these genes, which is why they show colour blindness more often."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "homozygot",
+      "uebersetzung": {
+        "fa": "هموزیگوت",
+        "en": "homozygous"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hemi- (نیم) + zygot (جفت‌شده)",
+    "en": "hemi- (half) + zygot (yoked)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "hemizygot",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein hemizygotes Gen"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Gen",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ژن",
+          "en": "gene"
+        },
+        "id_ref": "nomen_gen"
+      },
+      {
+        "wort": "das Chromosom",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کروموزوم",
+          "en": "chromosome"
+        },
+        "id_ref": "nomen_chromosom"
+      },
+      {
+        "wort": "homozygot",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "هموزیگوت",
+          "en": "homozygous"
+        },
+        "id_ref": "adjektiv_homozygot"
+      },
+      {
+        "wort": "heterozygot",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "هتروزیگوت",
+          "en": "heterozygous"
+        },
+        "id_ref": "adjektiv_heterozygot"
+      },
+      {
+        "wort": "die Genetik",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ژنتیک",
+          "en": "genetics"
+        },
+        "id_ref": "nomen_genetik"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
