@@ -267,6 +267,7 @@ const zurueckgestellt = <String>{
   'inkommod', // veraltet (lästig, unbequem?), Gebrauch unsicher 2026-09-27
   'innerer', // Listenfehler: flektierte Form, Grundform «innere» (wie hinterer) 2026-09-27
   'insistent', // als Adjektiv im Deutschen unsicher (beharrlich?), Gebrauch unklar 2026-09-27
+  'interdenominational', // im Deutschen unüblich (üblich: «interkonfessionell»), Anglizismus unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

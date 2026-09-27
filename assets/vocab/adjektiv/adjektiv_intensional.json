@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_intensional",
+  "wort": "intensional",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(منطق) مفهومی",
+      "مربوط به مفهوم (نه مصداق)"
+    ],
+    "en": [
+      "(logic) intensional"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Philosophie",
+    "Sprache"
+  ],
+  "ipa": "ɪntɛnzi̯oˈnaːl",
+  "anmerkung": "Fachsprache der Logik/Semantik; nicht verwechseln mit «intentional».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Definition ist intensional.",
+      "uebersetzung": {
+        "fa": "این تعریف مفهومی است.",
+        "en": "The definition is intensional."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Eine intensionale Definition nennt die Merkmale eines Begriffs, statt alle Dinge aufzuzählen, auf die er zutrifft.",
+      "uebersetzung": {
+        "fa": "تعریف مفهومی ویژگی‌های یک مفهوم را می‌گوید، به جای اینکه همه‌ی چیزهایی را که شامل آن می‌شوند بشمارد.",
+        "en": "An intensional definition names the features of a concept instead of listing all the things it applies to."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "extensional",
+      "uebersetzung": {
+        "fa": "مصداقی",
+        "en": "extensional"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Intension (مفهوم، محتوای معنایی) + -al",
+    "en": "Intension (intension) + -al"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "intensional",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine intensionale Definition"
+    ],
+    "gegensatzpaar": "intensional ↔ extensional"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Begriff",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مفهوم",
+          "en": "concept"
+        },
+        "id_ref": "nomen_begriff"
+      },
+      {
+        "wort": "die Bedeutung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "معنا",
+          "en": "meaning"
+        },
+        "id_ref": "nomen_bedeutung"
+      },
+      {
+        "wort": "die Logik",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "منطق",
+          "en": "logic"
+        },
+        "id_ref": "nomen_logik"
+      },
+      {
+        "wort": "das Merkmal",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ویژگی",
+          "en": "feature"
+        },
+        "id_ref": "nomen_merkmal"
+      },
+      {
+        "wort": "die Definition",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تعریف",
+          "en": "definition"
+        },
+        "id_ref": "nomen_definition"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
