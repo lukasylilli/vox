@@ -336,6 +336,10 @@ const zurueckgestellt = <String>{
   'linker', // Listenfehler: flektierte Form, Grundform «linke» (wie hinterer/letzter) 2026-09-27
   'listrisch', // seltenes geologisches Fachwort (listrische Verwerfung?), unsicher 2026-09-27
   'lohfarben', // Farbe unsicher (lohbraun? rotbraun?), Gebrauch unsicher 2026-09-27
+  'lucianisch', // Bedeutung unsicher (auf Lukian bezogen?), selten 2026-09-27
+  'ludisch', // seltenes Fachwort (spielerisch?), Gebrauch unsicher 2026-09-27
+  'lübsch', // veraltet/historisch (Lübeck betreffend?), Gebrauch unsicher 2026-09-27
+  'lüdisch', // Wort unbekannt, Bedeutung unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
