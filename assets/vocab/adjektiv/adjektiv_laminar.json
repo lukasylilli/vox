@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_laminar",
+  "wort": "laminar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(فیزیک) لایه‌ای، آرام (جریان)"
+    ],
+    "en": [
+      "(physics) laminar"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Physik",
+    "Technik"
+  ],
+  "ipa": "lamiˈnaːɐ̯",
+  "anmerkung": "Fachsprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Strömung ist laminar.",
+      "uebersetzung": {
+        "fa": "این جریان لایه‌ای است.",
+        "en": "The flow is laminar."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei langsamer Geschwindigkeit fließt Wasser laminar, bei hoher Geschwindigkeit wird die Strömung turbulent.",
+      "uebersetzung": {
+        "fa": "آب در سرعت کم به‌صورت لایه‌ای جریان دارد و در سرعت زیاد جریان متلاطم می‌شود.",
+        "en": "At low speed water flows laminarly; at high speed the flow becomes turbulent."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "turbulent",
+      "uebersetzung": {
+        "fa": "متلاطم",
+        "en": "turbulent"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین lamina (ورقه، لایه) + -ar",
+    "en": "from Latin lamina (layer) + -ar"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "laminar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine laminare Strömung"
+    ],
+    "gegensatzpaar": "laminar ↔ turbulent"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Strömung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "جریان",
+          "en": "flow"
+        },
+        "id_ref": "nomen_stroemung"
+      },
+      {
+        "wort": "turbulent",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "متلاطم",
+          "en": "turbulent"
+        },
+        "id_ref": "adjektiv_turbulent"
+      },
+      {
+        "wort": "das Wasser",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب",
+          "en": "water"
+        },
+        "id_ref": "nomen_wasser"
+      },
+      {
+        "wort": "die Physik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فیزیک",
+          "en": "physics"
+        },
+        "id_ref": "nomen_physik"
+      },
+      {
+        "wort": "die Schicht",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لایه",
+          "en": "layer"
+        },
+        "id_ref": "nomen_schicht"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
