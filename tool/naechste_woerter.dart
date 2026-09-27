@@ -335,6 +335,7 @@ const zurueckgestellt = <String>{
   'linden', // Stoffadjektiv (aus Lindenholz) — wie birken zurückgestellt 2026-09-27
   'linker', // Listenfehler: flektierte Form, Grundform «linke» (wie hinterer/letzter) 2026-09-27
   'listrisch', // seltenes geologisches Fachwort (listrische Verwerfung?), unsicher 2026-09-27
+  'lohfarben', // Farbe unsicher (lohbraun? rotbraun?), Gebrauch unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

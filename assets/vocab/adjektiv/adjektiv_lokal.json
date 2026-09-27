@@ -1,0 +1,156 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_lokal",
+  "wort": "lokal",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "محلی",
+      "(پزشکی) موضعی"
+    ],
+    "en": [
+      "local"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Ort",
+    "Medizin"
+  ],
+  "ipa": "loˈkaːl",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Zeitung ist lokal.",
+      "uebersetzung": {
+        "fa": "این روزنامه محلی است.",
+        "en": "The newspaper is local."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Zahnarzt gibt dir eine lokale Betäubung, damit du beim Bohren keine Schmerzen hast.",
+      "uebersetzung": {
+        "fa": "دندان‌پزشک یک بی‌حسی موضعی به تو می‌زند تا هنگام تراشیدن دندان درد نکشی.",
+        "en": "The dentist gives you a local anaesthetic so that you don't feel pain during the drilling."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "örtlich",
+      "uebersetzung": {
+        "fa": "محلی، موضعی",
+        "en": "local"
+      }
+    },
+    {
+      "wort": "regional",
+      "uebersetzung": {
+        "fa": "منطقه‌ای",
+        "en": "regional"
+      }
+    },
+    {
+      "wort": "hiesig",
+      "uebersetzung": {
+        "fa": "این‌جایی",
+        "en": "local"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "global",
+      "uebersetzung": {
+        "fa": "جهانی",
+        "en": "global"
+      }
+    },
+    {
+      "wort": "überregional",
+      "uebersetzung": {
+        "fa": "فرامنطقه‌ای",
+        "en": "national"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین localis (مکانی، از locus مکان)",
+    "en": "from Latin localis (from locus, place)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "lokal",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine lokale Betäubung",
+      "die lokale Presse"
+    ],
+    "gegensatzpaar": "lokal ↔ global"
+  },
+  "wortnetz": {
+    "grundwort": "Lokal",
+    "woerter": [
+      {
+        "wort": "regional",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "منطقه‌ای",
+          "en": "regional"
+        },
+        "id_ref": "adjektiv_regional"
+      },
+      {
+        "wort": "global",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جهانی",
+          "en": "global"
+        },
+        "id_ref": "adjektiv_global"
+      },
+      {
+        "wort": "das Lokal",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رستوران، کافه",
+          "en": "pub, restaurant"
+        },
+        "id_ref": "nomen_lokal"
+      },
+      {
+        "wort": "der Ort",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مکان",
+          "en": "place"
+        },
+        "id_ref": "nomen_ort"
+      },
+      {
+        "wort": "die Betäubung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بی‌حسی",
+          "en": "anaesthesia"
+        },
+        "id_ref": "nomen_betaeubung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
