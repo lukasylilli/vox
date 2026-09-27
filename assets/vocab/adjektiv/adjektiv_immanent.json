@@ -1,0 +1,151 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_immanent",
+  "wort": "immanent",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "ذاتی، درونی",
+      "نهفته در خود چیز"
+    ],
+    "en": [
+      "immanent",
+      "inherent"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Philosophie",
+    "Wissenschaft"
+  ],
+  "ipa": "ɪmaˈnɛnt",
+  "anmerkung": "Bildungssprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Risiko ist dem System immanent.",
+      "uebersetzung": {
+        "fa": "این خطر ذاتیِ این سیستم است.",
+        "en": "The risk is inherent in the system."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Jedem Wettbewerb ist der Druck immanent, besser zu sein als die anderen.",
+      "uebersetzung": {
+        "fa": "فشارِ بهتر بودن از دیگران در ذات هر رقابتی نهفته است.",
+        "en": "The pressure to be better than the others is inherent in every competition."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "innewohnend",
+      "uebersetzung": {
+        "fa": "ذاتی",
+        "en": "inherent"
+      }
+    },
+    {
+      "wort": "inhärent",
+      "uebersetzung": {
+        "fa": "ذاتی",
+        "en": "inherent"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "transzendent",
+      "uebersetzung": {
+        "fa": "فراتر از تجربه",
+        "en": "transcendent"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین immanere (ماندن در)",
+    "en": "from Latin immanere (to remain in)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "immanent",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "immanent + Dat (etwas ist einer Sache immanent)",
+        "beispiel": "Die Gefahr ist dieser Methode immanent.",
+        "uebersetzung": {
+          "fa": "این خطر ذاتیِ این روش است.",
+          "en": "The danger is inherent in this method."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein immanenter Widerspruch"
+    ],
+    "gegensatzpaar": "immanent ↔ transzendent"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "inhärent",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "ذاتی",
+          "en": "inherent"
+        },
+        "id_ref": "adjektiv_inhaerent"
+      },
+      {
+        "wort": "das Wesen",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ذات",
+          "en": "nature, essence"
+        },
+        "id_ref": "nomen_wesen"
+      },
+      {
+        "wort": "das System",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سیستم",
+          "en": "system"
+        },
+        "id_ref": "nomen_system"
+      },
+      {
+        "wort": "die Philosophie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فلسفه",
+          "en": "philosophy"
+        },
+        "id_ref": "nomen_philosophie"
+      },
+      {
+        "wort": "natürlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "طبیعی",
+          "en": "natural"
+        },
+        "id_ref": "adjektiv_natuerlich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

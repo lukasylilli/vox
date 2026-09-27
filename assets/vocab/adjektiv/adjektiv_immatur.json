@@ -1,0 +1,132 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_immatur",
+  "wort": "immatur",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(پزشکی) نارس، نابالغ"
+    ],
+    "en": [
+      "(medical) immature"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin"
+  ],
+  "ipa": "ɪmaˈtuːɐ̯",
+  "anmerkung": "Medizinische Fachsprache (z. B. Frühgeborene); allgemein «unreif».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Neugeborene ist immatur.",
+      "uebersetzung": {
+        "fa": "این نوزاد نارس است.",
+        "en": "The newborn is immature."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei sehr früh geborenen Babys ist die Lunge oft noch immatur, sodass sie beim Atmen Hilfe brauchen.",
+      "uebersetzung": {
+        "fa": "در نوزادانی که خیلی زود به دنیا می‌آیند ریه اغلب هنوز نارس است، طوری که برای نفس کشیدن کمک لازم دارند.",
+        "en": "In very premature babies the lungs are often still immature, so that they need help breathing."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "unreif",
+      "uebersetzung": {
+        "fa": "نارس",
+        "en": "unripe, immature"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "reif",
+      "uebersetzung": {
+        "fa": "رسیده، بالغ",
+        "en": "mature"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "im- (نا-) + matur (بالغ، از لاتین maturus)",
+    "en": "im- (not) + matur (mature, from Latin maturus)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "immatur",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein immaturer Befund"
+    ],
+    "gegensatzpaar": "immatur ↔ reif"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "unreif",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نارس",
+          "en": "immature"
+        },
+        "id_ref": "adjektiv_unreif"
+      },
+      {
+        "wort": "reif",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رسیده",
+          "en": "ripe"
+        },
+        "id_ref": "adjektiv_reif"
+      },
+      {
+        "wort": "das Baby",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نوزاد",
+          "en": "baby"
+        },
+        "id_ref": "nomen_baby"
+      },
+      {
+        "wort": "die Frühgeburt",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "زایمان زودرس",
+          "en": "premature birth"
+        },
+        "id_ref": "nomen_fruehgeburt"
+      },
+      {
+        "wort": "die Lunge",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ریه",
+          "en": "lung"
+        },
+        "id_ref": "nomen_lunge"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
