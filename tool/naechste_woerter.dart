@@ -243,6 +243,11 @@ const zurueckgestellt = <String>{
   'glanzhell', // keine gesicherte lexikalische Form 2026-09-26
   'griveliert', // Form/Bedeutung unsicher (grivelliert?) 2026-09-26
   'hären', // Stoffadjektiv (aus Haar), gehoben/veraltet — wie birken/flächsen zurückgestellt 2026-09-27
+  'halbverklungen', // freie Bildung, keine gesicherte lexikalische Form 2026-09-27
+  'halbwollen', // Stoffadjektiv (Halbwolle) — wie flanellen/flächsen zurückgestellt 2026-09-27
+  'hallisch', // Adjektiv zu Halle (Saale)? Form (hallesch/hallisch) unsicher 2026-09-27
+  'haloniert', // seltenes Fachwort (Augenringe?), Bedeutung unsicher 2026-09-27
+  'haltig', // als freies Wort unsicher (sonst nur Suffix -haltig) 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

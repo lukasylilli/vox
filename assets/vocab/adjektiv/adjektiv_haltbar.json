@@ -1,0 +1,159 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_haltbar",
+  "wort": "haltbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "بادوام",
+      "قابل نگهداری (خوراکی)",
+      "قابل دفاع (استدلال)"
+    ],
+    "en": [
+      "durable",
+      "non-perishable",
+      "tenable"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Lebensmittel",
+    "Einkaufen"
+  ],
+  "ipa": "ˈhaltbaːɐ̯",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Milch ist bis Freitag haltbar.",
+      "uebersetzung": {
+        "fa": "شیر تا جمعه قابل مصرف است.",
+        "en": "The milk keeps until Friday."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Seine These ist kaum haltbar, weil ihr die neuen Studien klar widersprechen.",
+      "uebersetzung": {
+        "fa": "نظریه‌اش به‌سختی قابل دفاع است، چون مطالعات جدید آشکارا با آن مخالف‌اند.",
+        "en": "His thesis is hardly tenable because the new studies clearly contradict it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "dauerhaft",
+      "uebersetzung": {
+        "fa": "پایدار",
+        "en": "lasting"
+      }
+    },
+    {
+      "wort": "robust",
+      "uebersetzung": {
+        "fa": "محکم",
+        "en": "robust"
+      }
+    },
+    {
+      "wort": "stichhaltig",
+      "uebersetzung": {
+        "fa": "قانع‌کننده",
+        "en": "sound"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verderblich",
+      "uebersetzung": {
+        "fa": "فاسدشدنی",
+        "en": "perishable"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Haltbarkeit",
+      "uebersetzung": {
+        "fa": "دوام، ماندگاری",
+        "en": "durability, shelf life"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "halten (نگه داشتن) + -bar (قابل)",
+    "en": "halten (to keep) + -bar (-able)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "haltbar",
+      "komparativ": "haltbarer",
+      "superlativ": "am haltbarsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "haltbare Lebensmittel"
+    ],
+    "gegensatzpaar": "haltbar ↔ verderblich"
+  },
+  "wortnetz": {
+    "grundwort": "halten",
+    "woerter": [
+      {
+        "wort": "halten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to hold, keep"
+        },
+        "id_ref": "verb_halten"
+      },
+      {
+        "wort": "das Mindesthaltbarkeitsdatum",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تاریخ انقضا",
+          "en": "best-before date"
+        },
+        "id_ref": "nomen_mindesthaltbarkeitsdatum"
+      },
+      {
+        "wort": "frisch",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تازه",
+          "en": "fresh"
+        },
+        "id_ref": "adjektiv_frisch"
+      },
+      {
+        "wort": "die Haltbarkeit",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ماندگاری",
+          "en": "shelf life"
+        },
+        "id_ref": "nomen_haltbarkeit"
+      },
+      {
+        "wort": "stabil",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "محکم",
+          "en": "stable"
+        },
+        "id_ref": "adjektiv_stabil"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
