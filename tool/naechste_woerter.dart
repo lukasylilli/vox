@@ -255,6 +255,8 @@ const zurueckgestellt = <String>{
   'hinterer', // Listenfehler: flektierte Form, Grundform «hintere» (wie besonderer) 2026-09-27
   'hirschledern', // Stoffadjektiv (aus Hirschleder) — wie flächsern zurückgestellt 2026-09-27
   'hitlerisch', // Form/Gebrauch als Adjektiv unsicher (üblich: «hitlersch»/Umschreibung) 2026-09-27
+  'hühnermüde', // umgangssprachlich/regional, Form und Bedeutung unsicher 2026-09-27
+  'humil', // veraltet/selten (demütig?), Bedeutung und Gebrauch unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_humanoid",
+  "wort": "humanoid",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "انسان‌نما",
+      "شبه‌انسان"
+    ],
+    "en": [
+      "humanoid"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Wissenschaft"
+  ],
+  "ipa": "humanoˈiːt",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Roboter ist humanoid.",
+      "uebersetzung": {
+        "fa": "این ربات انسان‌نماست.",
+        "en": "The robot is humanoid."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Humanoide Roboter sollen in Zukunft in Pflegeheimen helfen, zum Beispiel beim Tragen von Essen.",
+      "uebersetzung": {
+        "fa": "قرار است ربات‌های انسان‌نما در آینده در خانه‌های سالمندان کمک کنند، مثلاً در بردن غذا.",
+        "en": "In future humanoid robots are supposed to help in care homes, for example by carrying food."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "menschenähnlich",
+      "uebersetzung": {
+        "fa": "شبیه انسان",
+        "en": "human-like"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین humanus (انسانی) + -oid (مانند)",
+    "en": "from Latin humanus (human) + -oid (-like)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "humanoid",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein humanoider Roboter"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Roboter",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ربات",
+          "en": "robot"
+        },
+        "id_ref": "nomen_roboter"
+      },
+      {
+        "wort": "der Mensch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "انسان",
+          "en": "human being"
+        },
+        "id_ref": "nomen_mensch"
+      },
+      {
+        "wort": "die Technik",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فناوری",
+          "en": "technology"
+        },
+        "id_ref": "nomen_technik"
+      },
+      {
+        "wort": "künstlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مصنوعی",
+          "en": "artificial"
+        },
+        "id_ref": "adjektiv_kuenstlich"
+      },
+      {
+        "wort": "die Maschine",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ماشین",
+          "en": "machine"
+        },
+        "id_ref": "nomen_maschine"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
