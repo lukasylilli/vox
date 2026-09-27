@@ -1,0 +1,127 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_kriegsversehrt",
+  "wort": "kriegsversehrt",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "جانباز",
+      "زخمی‌شده در جنگ"
+    ],
+    "en": [
+      "war-injured",
+      "war-disabled"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Geschichte",
+    "Gesundheit"
+  ],
+  "ipa": "ˈkʁiːksfɛɐ̯ˌzeːɐ̯t",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Mann ist kriegsversehrt.",
+      "uebersetzung": {
+        "fa": "این مرد جانباز است.",
+        "en": "The man is war-injured."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In vielen Städten gab es nach dem Krieg Heime für kriegsversehrte Soldaten, die ihre Arme oder Beine verloren hatten.",
+      "uebersetzung": {
+        "fa": "در بسیاری از شهرها پس از جنگ آسایشگاه‌هایی برای سربازان جانبازی بود که دست یا پایشان را از دست داده بودند.",
+        "en": "After the war many towns had homes for war-disabled soldiers who had lost arms or legs."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kriegsbeschädigt",
+      "uebersetzung": {
+        "fa": "معلول جنگی",
+        "en": "war-disabled"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Krieg (جنگ) + -s- + versehrt (آسیب‌دیده)",
+    "en": "Krieg (war) + -s- + versehrt (injured)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "kriegsversehrt",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "kriegsversehrte Soldaten"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Krieg",
+    "woerter": [
+      {
+        "wort": "kriegsbeschädigt",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "معلول جنگی",
+          "en": "war-disabled"
+        },
+        "id_ref": "adjektiv_kriegsbeschaedigt"
+      },
+      {
+        "wort": "verletzt",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زخمی",
+          "en": "injured"
+        },
+        "id_ref": "adjektiv_verletzt"
+      },
+      {
+        "wort": "der Krieg",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جنگ",
+          "en": "war"
+        },
+        "id_ref": "nomen_krieg"
+      },
+      {
+        "wort": "der Soldat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرباز",
+          "en": "soldier"
+        },
+        "id_ref": "nomen_soldat"
+      },
+      {
+        "wort": "die Prothese",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "عضو مصنوعی",
+          "en": "prosthesis"
+        },
+        "id_ref": "nomen_prothese"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
