@@ -1,0 +1,134 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_iterativ",
+  "wort": "iterativ",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "تکراری",
+      "(دستور زبان/ریاضی) تکرارشونده"
+    ],
+    "en": [
+      "iterative"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik",
+    "Technik",
+    "Grammatik"
+  ],
+  "ipa": "iteʁaˈtiːf",
+  "anmerkung": "Fachsprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Verfahren ist iterativ.",
+      "uebersetzung": {
+        "fa": "این روش تکرارشونده است.",
+        "en": "The procedure is iterative."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei der iterativen Softwareentwicklung wird das Produkt in vielen kleinen Schritten verbessert.",
+      "uebersetzung": {
+        "fa": "در توسعه‌ی تکراری نرم‌افزار، محصول در گام‌های کوچک زیادی بهبود داده می‌شود.",
+        "en": "In iterative software development the product is improved in many small steps."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wiederholend",
+      "uebersetzung": {
+        "fa": "تکرارکننده",
+        "en": "repeating"
+      }
+    },
+    {
+      "wort": "schrittweise",
+      "uebersetzung": {
+        "fa": "گام‌به‌گام",
+        "en": "step by step"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین iterare (تکرار کردن) + -iv",
+    "en": "from Latin iterare (to repeat) + -iv"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "iterativ",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein iteratives Verfahren"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "wiederholen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تکرار کردن",
+          "en": "to repeat"
+        },
+        "id_ref": "verb_wiederholen"
+      },
+      {
+        "wort": "der Schritt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گام",
+          "en": "step"
+        },
+        "id_ref": "nomen_schritt"
+      },
+      {
+        "wort": "die Methode",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "روش",
+          "en": "method"
+        },
+        "id_ref": "nomen_methode"
+      },
+      {
+        "wort": "schrittweise",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گام‌به‌گام",
+          "en": "step by step"
+        },
+        "id_ref": "adjektiv_schrittweise"
+      },
+      {
+        "wort": "die Software",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نرم‌افزار",
+          "en": "software"
+        },
+        "id_ref": "nomen_software"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

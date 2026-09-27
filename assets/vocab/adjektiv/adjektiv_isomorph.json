@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_isomorph",
+  "wort": "isomorph",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "هم‌ریخت",
+      "هم‌شکل (ساختار)"
+    ],
+    "en": [
+      "isomorphic"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik",
+    "Chemie"
+  ],
+  "ipa": "izoˈmɔʁf",
+  "anmerkung": "Fachsprachlich (Mathematik, Chemie, Mineralogie).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Strukturen sind isomorph.",
+      "uebersetzung": {
+        "fa": "این ساختارها هم‌ریخت‌اند.",
+        "en": "The structures are isomorphic."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Zwei Graphen sind isomorph, wenn man sie durch Umbenennen der Punkte ineinander überführen kann.",
+      "uebersetzung": {
+        "fa": "دو گراف هم‌ریخت‌اند اگر بتوان با تغییر نام نقطه‌ها یکی را به دیگری تبدیل کرد.",
+        "en": "Two graphs are isomorphic if they can be transformed into each other by renaming the points."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "strukturgleich",
+      "uebersetzung": {
+        "fa": "هم‌ساختار",
+        "en": "structurally identical"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "iso- (برابر) + -morph (شکل)",
+    "en": "iso- (equal) + -morph (form)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "isomorph",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "isomorphe Kristalle"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Struktur",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ساختار",
+          "en": "structure"
+        },
+        "id_ref": "nomen_struktur"
+      },
+      {
+        "wort": "die Form",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شکل",
+          "en": "form"
+        },
+        "id_ref": "nomen_form"
+      },
+      {
+        "wort": "gleich",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "یکسان",
+          "en": "same"
+        },
+        "id_ref": "adjektiv_gleich"
+      },
+      {
+        "wort": "die Mathematik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریاضی",
+          "en": "mathematics"
+        },
+        "id_ref": "nomen_mathematik"
+      },
+      {
+        "wort": "der Kristall",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بلور",
+          "en": "crystal"
+        },
+        "id_ref": "nomen_kristall"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

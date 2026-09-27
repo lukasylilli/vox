@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_isotrop",
+  "wort": "isotrop",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "همسانگرد"
+    ],
+    "en": [
+      "isotropic"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Physik",
+    "Wissenschaft"
+  ],
+  "ipa": "izoˈtʁoːp",
+  "anmerkung": "Fachsprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Material ist isotrop.",
+      "uebersetzung": {
+        "fa": "این ماده همسانگرد است.",
+        "en": "The material is isotropic."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Glas ist isotrop, das heißt, es hat in alle Richtungen dieselben physikalischen Eigenschaften.",
+      "uebersetzung": {
+        "fa": "شیشه همسانگرد است، یعنی در همه‌ی جهت‌ها ویژگی‌های فیزیکی یکسانی دارد.",
+        "en": "Glass is isotropic, that is, it has the same physical properties in all directions."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "anisotrop",
+      "uebersetzung": {
+        "fa": "ناهمسانگرد",
+        "en": "anisotropic"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "iso- (برابر) + -trop (جهت)",
+    "en": "iso- (equal) + -trop (turning)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "isotrop",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein isotroper Körper"
+    ],
+    "gegensatzpaar": "isotrop ↔ anisotrop"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Richtung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جهت",
+          "en": "direction"
+        },
+        "id_ref": "nomen_richtung"
+      },
+      {
+        "wort": "die Eigenschaft",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ویژگی",
+          "en": "property"
+        },
+        "id_ref": "nomen_eigenschaft"
+      },
+      {
+        "wort": "das Glas",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شیشه",
+          "en": "glass"
+        },
+        "id_ref": "nomen_glas"
+      },
+      {
+        "wort": "die Physik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فیزیک",
+          "en": "physics"
+        },
+        "id_ref": "nomen_physik"
+      },
+      {
+        "wort": "gleichmäßig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "یکنواخت",
+          "en": "uniform"
+        },
+        "id_ref": "adjektiv_gleichmaessig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
