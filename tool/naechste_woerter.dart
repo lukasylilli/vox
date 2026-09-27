@@ -301,6 +301,8 @@ const zurueckgestellt = <String>{
   'koblenzisch', // Form unsicher (üblich: «Koblenzer») 2026-09-27
   'komplektisch', // Wort unbekannt, Bedeutung unsicher 2026-09-27
   'komputativ', // seltenes Fachwort, Bedeutung unsicher 2026-09-27
+  'konfliktär', // seltenes Fachwort (konfliktgeladen?), Gebrauch unsicher 2026-09-27
+  'konjugal', // veraltet (ehelich?), Gebrauch unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

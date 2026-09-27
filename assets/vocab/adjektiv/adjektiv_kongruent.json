@@ -1,0 +1,141 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_kongruent",
+  "wort": "kongruent",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "هم‌نهشت (هندسه)",
+      "همخوان، منطبق"
+    ],
+    "en": [
+      "congruent"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik",
+    "Kommunikation"
+  ],
+  "ipa": "kɔŋɡʁuˈɛnt",
+  "anmerkung": "Fachsprachlich/bildungssprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Dreiecke sind kongruent.",
+      "uebersetzung": {
+        "fa": "این مثلث‌ها هم‌نهشت‌اند.",
+        "en": "The triangles are congruent."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ein guter Redner wirkt glaubwürdig, wenn Worte und Körpersprache kongruent sind.",
+      "uebersetzung": {
+        "fa": "سخنران خوب وقتی باورپذیر است که حرف و زبان بدنش همخوان باشند.",
+        "en": "A good speaker seems credible when words and body language are congruent."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "deckungsgleich",
+      "uebersetzung": {
+        "fa": "منطبق",
+        "en": "identical in shape"
+      }
+    },
+    {
+      "wort": "übereinstimmend",
+      "uebersetzung": {
+        "fa": "همخوان",
+        "en": "matching"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "inkongruent",
+      "uebersetzung": {
+        "fa": "ناهمخوان",
+        "en": "incongruent"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین congruere (منطبق بودن)",
+    "en": "from Latin congruere (to agree)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "kongruent",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "kongruente Dreiecke"
+    ],
+    "gegensatzpaar": "kongruent ↔ inkongruent"
+  },
+  "wortnetz": {
+    "grundwort": "Kongruenz",
+    "woerter": [
+      {
+        "wort": "inkongruent",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "ناهمخوان",
+          "en": "incongruent"
+        },
+        "id_ref": "adjektiv_inkongruent"
+      },
+      {
+        "wort": "das Dreieck",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مثلث",
+          "en": "triangle"
+        },
+        "id_ref": "nomen_dreieck"
+      },
+      {
+        "wort": "gleich",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "یکسان",
+          "en": "same"
+        },
+        "id_ref": "adjektiv_gleich"
+      },
+      {
+        "wort": "übereinstimmen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مطابقت داشتن",
+          "en": "to match"
+        },
+        "id_ref": "verb_uebereinstimmen"
+      },
+      {
+        "wort": "die Geometrie",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "هندسه",
+          "en": "geometry"
+        },
+        "id_ref": "nomen_geometrie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
