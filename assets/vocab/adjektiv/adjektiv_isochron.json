@@ -1,0 +1,133 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_isochron",
+  "wort": "isochron",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "هم‌زمان، هم‌دوره",
+      "با فاصله‌های زمانی برابر"
+    ],
+    "en": [
+      "isochronous"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Physik",
+    "Wissenschaft"
+  ],
+  "ipa": "izoˈkʁoːn",
+  "anmerkung": "Fachsprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Schwingungen sind isochron.",
+      "uebersetzung": {
+        "fa": "این نوسان‌ها هم‌زمان‌اند.",
+        "en": "The oscillations are isochronous."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ein Pendel schwingt bei kleinen Ausschlägen nahezu isochron, deshalb eignet es sich für genaue Uhren.",
+      "uebersetzung": {
+        "fa": "آونگ در نوسان‌های کوچک تقریباً با دوره‌ی برابر نوسان می‌کند، به همین دلیل برای ساعت‌های دقیق مناسب است.",
+        "en": "With small swings a pendulum oscillates almost isochronously, which is why it is suitable for accurate clocks."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gleichzeitig",
+      "uebersetzung": {
+        "fa": "هم‌زمان",
+        "en": "simultaneous"
+      }
+    },
+    {
+      "wort": "taktgleich",
+      "uebersetzung": {
+        "fa": "هم‌ضرب",
+        "en": "in time"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "iso- (برابر) + chron (زمانی)",
+    "en": "iso- (equal) + chron (time)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "isochron",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "isochrone Schwingungen"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Zeit",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زمان",
+          "en": "time"
+        },
+        "id_ref": "nomen_zeit"
+      },
+      {
+        "wort": "gleichzeitig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "هم‌زمان",
+          "en": "simultaneous"
+        },
+        "id_ref": "adjektiv_gleichzeitig"
+      },
+      {
+        "wort": "das Pendel",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آونگ",
+          "en": "pendulum"
+        },
+        "id_ref": "nomen_pendel"
+      },
+      {
+        "wort": "die Uhr",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ساعت",
+          "en": "clock"
+        },
+        "id_ref": "nomen_uhr"
+      },
+      {
+        "wort": "die Schwingung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نوسان",
+          "en": "oscillation"
+        },
+        "id_ref": "nomen_schwingung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

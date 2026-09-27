@@ -1,0 +1,124 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_isochor",
+  "wort": "isochor",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(ترمودینامیک) هم‌حجم"
+    ],
+    "en": [
+      "(thermodynamics) isochoric"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Physik"
+  ],
+  "ipa": "izoˈkoːɐ̯",
+  "anmerkung": "Fachsprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Vorgang ist isochor.",
+      "uebersetzung": {
+        "fa": "این فرایند هم‌حجم است.",
+        "en": "The process is isochoric."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei einer isochoren Erwärmung bleibt das Volumen gleich, deshalb steigt der Druck im Gefäß.",
+      "uebersetzung": {
+        "fa": "در گرمایش هم‌حجم، حجم ثابت می‌ماند و به همین دلیل فشار در ظرف بالا می‌رود.",
+        "en": "In isochoric heating the volume stays the same, which is why the pressure in the container rises."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "isovolumetrisch",
+      "uebersetzung": {
+        "fa": "هم‌حجم",
+        "en": "isovolumetric"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "iso- (هم) + chor (از یونانی chōros، فضا)",
+    "en": "iso- (equal) + chor (from Greek chōros, space)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "isochor",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine isochore Zustandsänderung"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Volumen",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "حجم",
+          "en": "volume"
+        },
+        "id_ref": "nomen_volumen"
+      },
+      {
+        "wort": "der Druck",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فشار",
+          "en": "pressure"
+        },
+        "id_ref": "nomen_druck"
+      },
+      {
+        "wort": "die Temperatur",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دما",
+          "en": "temperature"
+        },
+        "id_ref": "nomen_temperatur"
+      },
+      {
+        "wort": "isobar",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "هم‌فشار",
+          "en": "isobaric"
+        },
+        "id_ref": "adjektiv_isobar"
+      },
+      {
+        "wort": "die Physik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فیزیک",
+          "en": "physics"
+        },
+        "id_ref": "nomen_physik"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
