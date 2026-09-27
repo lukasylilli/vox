@@ -1,0 +1,124 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_kryptographisch",
+  "wort": "kryptographisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "رمزنگاری"
+    ],
+    "en": [
+      "cryptographic"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Technik"
+  ],
+  "ipa": "kʁʏptoˈɡʁaːfɪʃ",
+  "anmerkung": "Fachsprachlich; auch «kryptografisch».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Verfahren ist kryptographisch.",
+      "uebersetzung": {
+        "fa": "این روش رمزنگاری است.",
+        "en": "The procedure is cryptographic."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Beim Onlinebanking schützen kryptographische Verfahren die Daten, damit niemand sie unterwegs lesen kann.",
+      "uebersetzung": {
+        "fa": "در بانکداری اینترنتی روش‌های رمزنگاری از داده‌ها محافظت می‌کنند تا کسی در مسیر نتواند آن‌ها را بخواند.",
+        "en": "In online banking cryptographic methods protect the data so that nobody can read it in transit."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verschlüsselt",
+      "uebersetzung": {
+        "fa": "رمزگذاری‌شده",
+        "en": "encrypted"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Kryptographie (رمزنگاری) + -isch",
+    "en": "Kryptographie (cryptography) + -isch"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "kryptographisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein kryptographischer Schlüssel"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Kryptographie",
+    "woerter": [
+      {
+        "wort": "verschlüsseln",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رمزگذاری کردن",
+          "en": "to encrypt"
+        },
+        "id_ref": "verb_verschluesseln"
+      },
+      {
+        "wort": "der Schlüssel",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کلید",
+          "en": "key"
+        },
+        "id_ref": "nomen_schluessel"
+      },
+      {
+        "wort": "die Daten",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "داده‌ها",
+          "en": "data"
+        },
+        "id_ref": "nomen_daten"
+      },
+      {
+        "wort": "die Sicherheit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "امنیت",
+          "en": "security"
+        },
+        "id_ref": "nomen_sicherheit"
+      },
+      {
+        "wort": "das Passwort",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رمز عبور",
+          "en": "password"
+        },
+        "id_ref": "nomen_passwort"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

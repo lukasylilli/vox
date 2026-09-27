@@ -315,6 +315,7 @@ const zurueckgestellt = <String>{
   'krisslig', // Nebenform von «krisselig», Bedeutung unsicher 2026-09-27
   'kristallen', // Stoffadjektiv (aus Kristall) — wie birken zurückgestellt 2026-09-27
   'krütsch', // landschaftlich (wählerisch?), Bedeutung unsicher 2026-09-27
+  'kryptomer', // seltenes Fachwort (Mineralogie: kryptokristallin?), Bedeutung unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
