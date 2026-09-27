@@ -1,0 +1,157 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_glatt",
+  "wort": "glatt",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "صاف، هموار",
+      "لیز، لغزنده",
+      "(مجازی) بی‌دردسر، روان"
+    ],
+    "en": [
+      "smooth",
+      "slippery",
+      "smooth, without problems"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Oberfläche",
+    "Wetter"
+  ],
+  "ipa": "ɡlat",
+  "anmerkung": "Steigerung auch mit Umlaut: glätter/am glättesten.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Straße ist heute glatt.",
+      "uebersetzung": {
+        "fa": "خیابان امروز لیز است.",
+        "en": "The road is slippery today."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Operation ist glatt verlaufen, sodass der Patient morgen nach Hause darf.",
+      "uebersetzung": {
+        "fa": "عمل بی‌دردسر انجام شد، طوری که بیمار فردا می‌تواند به خانه برود.",
+        "en": "The operation went smoothly, so the patient can go home tomorrow."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "eben",
+      "uebersetzung": {
+        "fa": "هموار",
+        "en": "even"
+      }
+    },
+    {
+      "wort": "rutschig",
+      "uebersetzung": {
+        "fa": "لیز",
+        "en": "slippery"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "rau",
+      "uebersetzung": {
+        "fa": "زبر",
+        "en": "rough"
+      }
+    },
+    {
+      "wort": "uneben",
+      "uebersetzung": {
+        "fa": "ناهموار",
+        "en": "uneven"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "spiegelglatt",
+      "uebersetzung": {
+        "fa": "صافِ صاف؛ لیز مثل آینه",
+        "en": "glassy; icy"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "steigerung": {
+      "positiv": "glatt",
+      "komparativ": "glatter",
+      "superlativ": "am glattesten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "glattes Haar",
+      "die glatte Straße"
+    ],
+    "gegensatzpaar": "glatt ↔ rau"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "rutschig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لیز",
+          "en": "slippery"
+        },
+        "id_ref": "adjektiv_rutschig"
+      },
+      {
+        "wort": "eben",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "هموار",
+          "en": "even"
+        },
+        "id_ref": "adjektiv_eben"
+      },
+      {
+        "wort": "das Glatteis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "یخ‌زدگی جاده",
+          "en": "black ice"
+        },
+        "id_ref": "nomen_glatteis"
+      },
+      {
+        "wort": "rau",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زبر",
+          "en": "rough"
+        },
+        "id_ref": "adjektiv_rau"
+      },
+      {
+        "wort": "glätten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "صاف کردن",
+          "en": "to smooth"
+        },
+        "id_ref": "verb_glaetten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
