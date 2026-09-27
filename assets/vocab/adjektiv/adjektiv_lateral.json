@@ -1,0 +1,134 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_lateral",
+  "wort": "lateral",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "جانبی",
+      "کناری"
+    ],
+    "en": [
+      "lateral"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Wissenschaft"
+  ],
+  "ipa": "lateˈʁaːl",
+  "anmerkung": "Fachsprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Wunde ist lateral.",
+      "uebersetzung": {
+        "fa": "زخم در کناره است.",
+        "en": "The wound is lateral."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Knöchelbruch liegt lateral, also an der Außenseite des Fußes.",
+      "uebersetzung": {
+        "fa": "شکستگی مچ پا در کناره، یعنی سمت بیرونی پاست.",
+        "en": "The ankle fracture is lateral, i.e. on the outside of the foot."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "seitlich",
+      "uebersetzung": {
+        "fa": "جانبی",
+        "en": "sideways"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "medial",
+      "uebersetzung": {
+        "fa": "میانی",
+        "en": "medial"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین latus (پهلو) + -al",
+    "en": "from Latin latus (side) + -al"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "lateral",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "die laterale Seite"
+    ],
+    "gegensatzpaar": "lateral ↔ medial"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "seitlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جانبی",
+          "en": "lateral"
+        },
+        "id_ref": "adjektiv_seitlich"
+      },
+      {
+        "wort": "die Seite",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "طرف",
+          "en": "side"
+        },
+        "id_ref": "nomen_seite"
+      },
+      {
+        "wort": "medial",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "میانی",
+          "en": "medial"
+        },
+        "id_ref": "adjektiv_medial"
+      },
+      {
+        "wort": "außen",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیرون",
+          "en": "outside"
+        },
+        "id_ref": "adverb_aussen"
+      },
+      {
+        "wort": "die Anatomie",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کالبدشناسی",
+          "en": "anatomy"
+        },
+        "id_ref": "nomen_anatomie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
