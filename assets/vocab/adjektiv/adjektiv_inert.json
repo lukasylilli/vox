@@ -1,0 +1,142 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_inert",
+  "wort": "inert",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(شیمی) بی‌اثر، واکنش‌ناپذیر",
+      "بی‌حال و کند"
+    ],
+    "en": [
+      "(chemistry) inert",
+      "sluggish"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Chemie",
+    "Wissenschaft"
+  ],
+  "ipa": "ɪˈnɛʁt",
+  "anmerkung": "Fachsprachlich (Chemie); bildungssprachlich auch «träge».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Gas ist inert.",
+      "uebersetzung": {
+        "fa": "این گاز واکنش‌ناپذیر است.",
+        "en": "The gas is inert."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Edelgase wie Helium sind inert, deshalb reagieren sie fast mit keinem anderen Stoff.",
+      "uebersetzung": {
+        "fa": "گازهای نجیب مثل هلیوم واکنش‌ناپذیرند، به همین دلیل تقریباً با هیچ ماده‌ی دیگری واکنش نمی‌دهند.",
+        "en": "Noble gases like helium are inert, which is why they react with almost no other substance."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "reaktionsträge",
+      "uebersetzung": {
+        "fa": "واکنش‌ناپذیر",
+        "en": "unreactive"
+      }
+    },
+    {
+      "wort": "träge",
+      "uebersetzung": {
+        "fa": "کند",
+        "en": "sluggish"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "reaktiv",
+      "uebersetzung": {
+        "fa": "واکنش‌پذیر",
+        "en": "reactive"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین iners (بی‌حال، بی‌هنر)",
+    "en": "from Latin iners (inactive)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "inert",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein inertes Gas"
+    ],
+    "gegensatzpaar": "inert ↔ reaktiv"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Gas",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گاز",
+          "en": "gas"
+        },
+        "id_ref": "nomen_gas"
+      },
+      {
+        "wort": "die Reaktion",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "واکنش",
+          "en": "reaction"
+        },
+        "id_ref": "nomen_reaktion"
+      },
+      {
+        "wort": "die Chemie",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شیمی",
+          "en": "chemistry"
+        },
+        "id_ref": "nomen_chemie"
+      },
+      {
+        "wort": "das Edelgas",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "گاز نجیب",
+          "en": "noble gas"
+        },
+        "id_ref": "nomen_edelgas"
+      },
+      {
+        "wort": "träge",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کند",
+          "en": "sluggish"
+        },
+        "id_ref": "adjektiv_traege"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

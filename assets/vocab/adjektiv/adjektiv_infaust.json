@@ -1,0 +1,141 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_infaust",
+  "wort": "infaust",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(پزشکی) با پیش‌آگهی بد",
+      "نامساعد (سرانجام بیماری)"
+    ],
+    "en": [
+      "(medical) with a poor prognosis",
+      "unfavourable"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin"
+  ],
+  "ipa": "ɪnˈfaʊ̯st",
+  "anmerkung": "Medizinische Fachsprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Prognose ist infaust.",
+      "uebersetzung": {
+        "fa": "پیش‌آگهی بد است.",
+        "en": "The prognosis is poor."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei einer infausten Prognose steht nicht mehr die Heilung, sondern die Linderung der Beschwerden im Mittelpunkt.",
+      "uebersetzung": {
+        "fa": "در پیش‌آگهی بد، دیگر درمان کامل نه، بلکه تسکین علائم در مرکز توجه است.",
+        "en": "With a poor prognosis the focus is no longer on cure but on relieving the symptoms."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ungünstig",
+      "uebersetzung": {
+        "fa": "نامساعد",
+        "en": "unfavourable"
+      }
+    },
+    {
+      "wort": "aussichtslos",
+      "uebersetzung": {
+        "fa": "بی‌امید",
+        "en": "hopeless"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "günstig",
+      "uebersetzung": {
+        "fa": "مساعد",
+        "en": "favourable"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین infaustus (بدیُمن)",
+    "en": "from Latin infaustus (unlucky)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "infaust",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine infauste Prognose"
+    ],
+    "gegensatzpaar": "infaust ↔ günstig"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Prognose",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پیش‌آگهی، پیش‌بینی",
+          "en": "prognosis"
+        },
+        "id_ref": "nomen_prognose"
+      },
+      {
+        "wort": "die Krankheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیماری",
+          "en": "disease"
+        },
+        "id_ref": "nomen_krankheit"
+      },
+      {
+        "wort": "ungünstig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نامساعد",
+          "en": "unfavourable"
+        },
+        "id_ref": "adjektiv_unguenstig"
+      },
+      {
+        "wort": "die Palliativmedizin",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "طب تسکینی",
+          "en": "palliative medicine"
+        },
+        "id_ref": "nomen_palliativmedizin"
+      },
+      {
+        "wort": "die Heilung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بهبود",
+          "en": "cure"
+        },
+        "id_ref": "nomen_heilung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

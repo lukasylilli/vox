@@ -1,0 +1,118 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_induzierbar",
+  "wort": "induzierbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "قابل القا",
+      "(زیست) قابل تحریک به تولید"
+    ],
+    "en": [
+      "inducible"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wissenschaft",
+    "Medizin"
+  ],
+  "ipa": "ɪndʊˈt͡siːɐ̯baːɐ̯",
+  "anmerkung": "Fachsprachlich (Biologie, Medizin, Physik).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Enzym ist induzierbar.",
+      "uebersetzung": {
+        "fa": "این آنزیم قابل القاست.",
+        "en": "The enzyme is inducible."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Manche Gene sind induzierbar, das heißt, die Zelle schaltet sie nur ein, wenn ein bestimmter Stoff vorhanden ist.",
+      "uebersetzung": {
+        "fa": "بعضی ژن‌ها قابل القایند، یعنی سلول فقط وقتی ماده‌ی خاصی باشد آن‌ها را روشن می‌کند.",
+        "en": "Some genes are inducible, that is, the cell only switches them on when a certain substance is present."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "induzieren (القا کردن) + -bar (قابل)",
+    "en": "induzieren (to induce) + -bar (-able)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "induzierbar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein induzierbares Gen"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "induzieren",
+    "woerter": [
+      {
+        "wort": "auslösen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "برانگیختن",
+          "en": "to trigger"
+        },
+        "id_ref": "verb_ausloesen"
+      },
+      {
+        "wort": "das Gen",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ژن",
+          "en": "gene"
+        },
+        "id_ref": "nomen_gen"
+      },
+      {
+        "wort": "die Zelle",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سلول",
+          "en": "cell"
+        },
+        "id_ref": "nomen_zelle"
+      },
+      {
+        "wort": "das Enzym",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آنزیم",
+          "en": "enzyme"
+        },
+        "id_ref": "nomen_enzym"
+      },
+      {
+        "wort": "die Induktion",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "القا",
+          "en": "induction"
+        },
+        "id_ref": "nomen_induktion"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
