@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_infinitesimal",
+  "wort": "infinitesimal",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(ریاضی) بی‌نهایت کوچک"
+    ],
+    "en": [
+      "(maths) infinitesimal"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik"
+  ],
+  "ipa": "ɪnfinitezimaːl",
+  "anmerkung": "Mathematische Fachsprache («Infinitesimalrechnung»).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Änderung ist infinitesimal.",
+      "uebersetzung": {
+        "fa": "این تغییر بی‌نهایت کوچک است.",
+        "en": "The change is infinitesimal."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In der Analysis betrachtet man infinitesimale Änderungen, um die Steigung einer Kurve genau zu berechnen.",
+      "uebersetzung": {
+        "fa": "در آنالیز تغییرات بی‌نهایت کوچک را بررسی می‌کنند تا شیب یک منحنی را دقیق حساب کنند.",
+        "en": "In analysis one considers infinitesimal changes in order to calculate the slope of a curve exactly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "unendlich klein",
+      "uebersetzung": {
+        "fa": "بی‌نهایت کوچک",
+        "en": "infinitely small"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین infinitus (بی‌پایان) + -esimal",
+    "en": "from Latin infinitus (infinite) + -esimal"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "infinitesimal",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "die Infinitesimalrechnung",
+      "eine infinitesimale Größe"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Mathematik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریاضی",
+          "en": "mathematics"
+        },
+        "id_ref": "nomen_mathematik"
+      },
+      {
+        "wort": "unendlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بی‌پایان",
+          "en": "infinite"
+        },
+        "id_ref": "adjektiv_unendlich"
+      },
+      {
+        "wort": "klein",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کوچک",
+          "en": "small"
+        },
+        "id_ref": "adjektiv_klein"
+      },
+      {
+        "wort": "berechnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "محاسبه کردن",
+          "en": "to calculate"
+        },
+        "id_ref": "verb_berechnen"
+      },
+      {
+        "wort": "die Kurve",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "منحنی",
+          "en": "curve"
+        },
+        "id_ref": "nomen_kurve"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
