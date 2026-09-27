@@ -303,6 +303,8 @@ const zurueckgestellt = <String>{
   'komputativ', // seltenes Fachwort, Bedeutung unsicher 2026-09-27
   'konfliktär', // seltenes Fachwort (konfliktgeladen?), Gebrauch unsicher 2026-09-27
   'konjugal', // veraltet (ehelich?), Gebrauch unsicher 2026-09-27
+  'konkomitant', // seltenes medizinisches Fachwort (begleitend?), unsicher 2026-09-27
+  'konphas', // Wort unbekannt (Physik? gleichphasig?), Bedeutung unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

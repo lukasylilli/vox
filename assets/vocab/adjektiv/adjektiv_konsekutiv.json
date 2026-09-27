@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_konsekutiv",
+  "wort": "konsekutiv",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "پیاپی",
+      "(دستور زبان) نتیجه‌ای",
+      "(دانشگاه) ادامه‌دهنده (کارشناسی ارشد پیوسته)"
+    ],
+    "en": [
+      "consecutive",
+      "(grammar) consecutive (of result)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Grammatik",
+    "Bildung"
+  ],
+  "ipa": "kɔnzekuˈtiːf",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Masterstudiengang ist konsekutiv.",
+      "uebersetzung": {
+        "fa": "این دوره‌ی کارشناسی ارشد ادامه‌ی کارشناسی است.",
+        "en": "The master's programme is consecutive."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Konsekutive Nebensätze mit «sodass» drücken eine Folge aus: Es regnete, sodass das Spiel ausfiel.",
+      "uebersetzung": {
+        "fa": "جمله‌های پیرو نتیجه‌ای با «sodass» پیامد را بیان می‌کنند: باران آمد، طوری که بازی لغو شد.",
+        "en": "Consecutive clauses with «sodass» express a consequence: it rained, so the match was cancelled."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufeinanderfolgend",
+      "uebersetzung": {
+        "fa": "پیاپی",
+        "en": "successive"
+      }
+    },
+    {
+      "wort": "folgernd",
+      "uebersetzung": {
+        "fa": "نتیجه‌ای",
+        "en": "consequential"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین consecutivus (در پی آینده)",
+    "en": "from Latin consecutivus (following)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "konsekutiv",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein konsekutiver Nebensatz",
+      "konsekutives Dolmetschen"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Folge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیامد",
+          "en": "consequence"
+        },
+        "id_ref": "nomen_folge"
+      },
+      {
+        "wort": "sodass",
+        "wortart": "konjunktion",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "طوری که",
+          "en": "so that"
+        },
+        "id_ref": "konjunktion_sodass"
+      },
+      {
+        "wort": "der Nebensatz",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جمله‌ی پیرو",
+          "en": "subordinate clause"
+        },
+        "id_ref": "nomen_nebensatz"
+      },
+      {
+        "wort": "dolmetschen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ترجمه‌ی شفاهی کردن",
+          "en": "to interpret"
+        },
+        "id_ref": "verb_dolmetschen"
+      },
+      {
+        "wort": "der Master",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کارشناسی ارشد",
+          "en": "master's"
+        },
+        "id_ref": "nomen_master"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
