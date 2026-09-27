@@ -1,0 +1,155 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_gesund",
+  "wort": "gesund",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "سالم",
+      "مفید برای سلامتی"
+    ],
+    "en": [
+      "healthy",
+      "wholesome"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Gesundheit"
+  ],
+  "ipa": "ɡəˈzʊnt",
+  "anmerkung": "Steigerung auch mit Umlaut: gesünder, am gesündesten (häufiger).",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Obst ist gesund.",
+      "uebersetzung": {
+        "fa": "میوه برای سلامتی مفید است.",
+        "en": "Fruit is healthy."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Er ernährt sich gesund und treibt viel Sport, damit er auch im Alter fit bleibt.",
+      "uebersetzung": {
+        "fa": "او سالم تغذیه می‌کند و زیاد ورزش می‌کند تا در پیری هم سرحال بماند.",
+        "en": "He eats healthily and does a lot of sport so that he stays fit in old age too."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fit",
+      "uebersetzung": {
+        "fa": "سرحال",
+        "en": "fit"
+      }
+    },
+    {
+      "wort": "munter",
+      "uebersetzung": {
+        "fa": "سرزنده",
+        "en": "lively"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "krank",
+      "uebersetzung": {
+        "fa": "بیمار",
+        "en": "ill"
+      }
+    },
+    {
+      "wort": "ungesund",
+      "uebersetzung": {
+        "fa": "ناسالم",
+        "en": "unhealthy"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "steigerung": {
+      "positiv": "gesund",
+      "komparativ": "gesünder",
+      "superlativ": "am gesündesten"
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "gesund für + Akk",
+        "beispiel": "Gemüse ist gesund für die Augen.",
+        "uebersetzung": {
+          "fa": "سبزیجات برای چشم مفید است.",
+          "en": "Vegetables are good for your eyes."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein gesundes Kind",
+      "die gesunde Ernährung"
+    ],
+    "gegensatzpaar": "gesund ↔ krank"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Gesundheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سلامتی",
+          "en": "health"
+        },
+        "id_ref": "nomen_gesundheit"
+      },
+      {
+        "wort": "krank",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "ill"
+        },
+        "id_ref": "adjektiv_krank"
+      },
+      {
+        "wort": "fit",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سرحال",
+          "en": "fit"
+        },
+        "id_ref": "adjektiv_fit"
+      },
+      {
+        "wort": "ungesund",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ناسالم",
+          "en": "unhealthy"
+        },
+        "id_ref": "adjektiv_ungesund"
+      },
+      {
+        "wort": "genesen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بهبود یافتن",
+          "en": "to recover"
+        },
+        "id_ref": "verb_genesen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
