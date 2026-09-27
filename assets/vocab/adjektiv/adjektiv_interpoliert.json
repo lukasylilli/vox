@@ -1,0 +1,118 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_interpoliert",
+  "wort": "interpoliert",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "درون‌یابی‌شده",
+      "(متن) افزوده‌شده بعدی"
+    ],
+    "en": [
+      "interpolated"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik",
+    "Wissenschaft"
+  ],
+  "ipa": "ɪntɐpoˈliːɐ̯t",
+  "anmerkung": "Fachsprachlich (Mathematik, Philologie).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Wert ist interpoliert.",
+      "uebersetzung": {
+        "fa": "این مقدار درون‌یابی‌شده است.",
+        "en": "The value is interpolated."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil an diesem Tag keine Messung stattfand, ist der Wert in der Tabelle aus den Nachbartagen interpoliert.",
+      "uebersetzung": {
+        "fa": "چون آن روز اندازه‌گیری انجام نشد، مقدار جدول از روزهای کناری درون‌یابی شده است.",
+        "en": "Because no measurement took place that day, the value in the table is interpolated from the neighbouring days."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "interpolieren (درون‌یابی کردن) + -t",
+    "en": "interpolieren (to interpolate) + -t"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "interpoliert",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "interpolierte Daten"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "interpolieren",
+    "woerter": [
+      {
+        "wort": "berechnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "محاسبه کردن",
+          "en": "to calculate"
+        },
+        "id_ref": "verb_berechnen"
+      },
+      {
+        "wort": "der Wert",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مقدار",
+          "en": "value"
+        },
+        "id_ref": "nomen_wert"
+      },
+      {
+        "wort": "die Messung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اندازه‌گیری",
+          "en": "measurement"
+        },
+        "id_ref": "nomen_messung"
+      },
+      {
+        "wort": "die Tabelle",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جدول",
+          "en": "table"
+        },
+        "id_ref": "nomen_tabelle"
+      },
+      {
+        "wort": "schätzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تخمین زدن",
+          "en": "to estimate"
+        },
+        "id_ref": "verb_schaetzen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
