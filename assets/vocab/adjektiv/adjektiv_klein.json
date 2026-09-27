@@ -1,0 +1,157 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_klein",
+  "wort": "klein",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "کوچک",
+      "کوتاه (قد)",
+      "جزئی"
+    ],
+    "en": [
+      "small",
+      "little",
+      "short"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Maße",
+    "Alltag"
+  ],
+  "ipa": "klaɪ̯n",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Die Wohnung ist klein.",
+      "uebersetzung": {
+        "fa": "آپارتمان کوچک است.",
+        "en": "The flat is small."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Als ich klein war, habe ich jeden Sommer bei meinen Großeltern auf dem Land verbracht.",
+      "uebersetzung": {
+        "fa": "وقتی بچه بودم هر تابستان را پیش پدربزرگ و مادربزرگم در روستا می‌گذراندم.",
+        "en": "When I was little I spent every summer with my grandparents in the countryside."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "winzig",
+      "uebersetzung": {
+        "fa": "ریز",
+        "en": "tiny"
+      }
+    },
+    {
+      "wort": "gering",
+      "uebersetzung": {
+        "fa": "اندک",
+        "en": "slight"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "groß",
+      "uebersetzung": {
+        "fa": "بزرگ",
+        "en": "big"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Kleinigkeit",
+      "uebersetzung": {
+        "fa": "چیز جزئی",
+        "en": "trifle"
+      }
+    },
+    {
+      "wort": "winzig klein",
+      "uebersetzung": {
+        "fa": "خیلی کوچک",
+        "en": "tiny"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "steigerung": {
+      "positiv": "klein",
+      "komparativ": "kleiner",
+      "superlativ": "am kleinsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein kleines Kind",
+      "die kleine Stadt"
+    ],
+    "gegensatzpaar": "klein ↔ groß"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "groß",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بزرگ",
+          "en": "big"
+        },
+        "id_ref": "adjektiv_gross"
+      },
+      {
+        "wort": "winzig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ریز",
+          "en": "tiny"
+        },
+        "id_ref": "adjektiv_winzig"
+      },
+      {
+        "wort": "die Kleinigkeit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چیز جزئی",
+          "en": "trifle"
+        },
+        "id_ref": "nomen_kleinigkeit"
+      },
+      {
+        "wort": "kurz",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کوتاه",
+          "en": "short"
+        },
+        "id_ref": "adjektiv_kurz"
+      },
+      {
+        "wort": "wenig",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کم",
+          "en": "little"
+        },
+        "id_ref": "adverb_wenig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
