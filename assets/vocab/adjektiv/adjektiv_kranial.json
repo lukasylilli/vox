@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_kranial",
+  "wort": "kranial",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(کالبدشناسی) سری، به سمت سر"
+    ],
+    "en": [
+      "(anatomy) cranial"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Körper"
+  ],
+  "ipa": "kʁaˈni̯aːl",
+  "anmerkung": "Anatomische Fachsprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Richtung ist kranial.",
+      "uebersetzung": {
+        "fa": "این جهت به سمت سر است.",
+        "en": "The direction is cranial."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Arzt beschrieb, dass der Tumor etwas kranial vom Herzen liegt, also näher zum Kopf hin.",
+      "uebersetzung": {
+        "fa": "پزشک توضیح داد که تومور کمی به سمت سر از قلب قرار دارد، یعنی نزدیک‌تر به سر.",
+        "en": "The doctor described the tumour as lying slightly cranial to the heart, i.e. closer to the head."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "kaudal",
+      "uebersetzung": {
+        "fa": "دُمی، به سمت پایین",
+        "en": "caudal"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از یونانی kranion (جمجمه) + -al",
+    "en": "from Greek kranion (skull) + -al"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "kranial",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "die kraniale Richtung"
+    ],
+    "gegensatzpaar": "kranial ↔ kaudal"
+  },
+  "wortnetz": {
+    "grundwort": "Kranium",
+    "woerter": [
+      {
+        "wort": "der Kopf",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سر",
+          "en": "head"
+        },
+        "id_ref": "nomen_kopf"
+      },
+      {
+        "wort": "der Schädel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جمجمه",
+          "en": "skull"
+        },
+        "id_ref": "nomen_schaedel"
+      },
+      {
+        "wort": "kaudal",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "دُمی",
+          "en": "caudal"
+        },
+        "id_ref": "adjektiv_kaudal"
+      },
+      {
+        "wort": "die Anatomie",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کالبدشناسی",
+          "en": "anatomy"
+        },
+        "id_ref": "nomen_anatomie"
+      },
+      {
+        "wort": "der Körper",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بدن",
+          "en": "body"
+        },
+        "id_ref": "nomen_koerper"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

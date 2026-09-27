@@ -1,0 +1,162 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_krank",
+  "wort": "krank",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "بیمار",
+      "مریض"
+    ],
+    "en": [
+      "ill",
+      "sick"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Gesundheit"
+  ],
+  "ipa": "kʁaŋk",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich bin heute krank.",
+      "uebersetzung": {
+        "fa": "من امروز بیمارم.",
+        "en": "I am ill today."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn du krank bist, musst du deinem Arbeitgeber spätestens am dritten Tag eine Krankmeldung schicken.",
+      "uebersetzung": {
+        "fa": "اگر بیمار باشی، باید حداکثر روز سوم گواهی بیماری برای کارفرما بفرستی.",
+        "en": "If you are ill, you have to send your employer a sick note by the third day at the latest."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erkrankt",
+      "uebersetzung": {
+        "fa": "بیمارشده",
+        "en": "ill"
+      }
+    },
+    {
+      "wort": "unwohl",
+      "uebersetzung": {
+        "fa": "ناخوش",
+        "en": "unwell"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "gesund",
+      "uebersetzung": {
+        "fa": "سالم",
+        "en": "healthy"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Krankheit",
+      "uebersetzung": {
+        "fa": "بیماری",
+        "en": "illness"
+      }
+    },
+    {
+      "wort": "das Krankenhaus",
+      "uebersetzung": {
+        "fa": "بیمارستان",
+        "en": "hospital"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "steigerung": {
+      "positiv": "krank",
+      "komparativ": "kränker",
+      "superlativ": "am kränksten"
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "krank vor + Dat",
+        "beispiel": "Sie war krank vor Sorge.",
+        "uebersetzung": {
+          "fa": "از نگرانی بیمار شده بود.",
+          "en": "She was sick with worry."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein kranker Mensch"
+    ],
+    "gegensatzpaar": "krank ↔ gesund"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "gesund",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سالم",
+          "en": "healthy"
+        },
+        "id_ref": "adjektiv_gesund"
+      },
+      {
+        "wort": "die Krankheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیماری",
+          "en": "illness"
+        },
+        "id_ref": "nomen_krankheit"
+      },
+      {
+        "wort": "der Arzt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پزشک",
+          "en": "doctor"
+        },
+        "id_ref": "nomen_arzt"
+      },
+      {
+        "wort": "das Krankenhaus",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمارستان",
+          "en": "hospital"
+        },
+        "id_ref": "nomen_krankenhaus"
+      },
+      {
+        "wort": "das Fieber",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تب",
+          "en": "fever"
+        },
+        "id_ref": "nomen_fieber"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
