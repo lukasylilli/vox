@@ -1,0 +1,141 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_indirekt",
+  "wort": "indirekt",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "غیرمستقیم"
+    ],
+    "en": [
+      "indirect"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Kommunikation",
+    "Grammatik"
+  ],
+  "ipa": "ˈɪndiʁɛkt",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er hat es indirekt gesagt.",
+      "uebersetzung": {
+        "fa": "او آن را غیرمستقیم گفت.",
+        "en": "He said it indirectly."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "In der indirekten Rede benutzt man im Deutschen oft den Konjunktiv, zum Beispiel in Zeitungsartikeln.",
+      "uebersetzung": {
+        "fa": "در نقل قول غیرمستقیم در آلمانی اغلب از وجه التزامی استفاده می‌شود، مثلاً در مقاله‌های روزنامه.",
+        "en": "In indirect speech German often uses the subjunctive, for example in newspaper articles."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "mittelbar",
+      "uebersetzung": {
+        "fa": "غیرمستقیم",
+        "en": "indirect"
+      }
+    },
+    {
+      "wort": "implizit",
+      "uebersetzung": {
+        "fa": "ضمنی",
+        "en": "implicit"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "direkt",
+      "uebersetzung": {
+        "fa": "مستقیم",
+        "en": "direct"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "in- (نا-) + direkt (مستقیم)",
+    "en": "in- (not) + direkt (direct)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "indirekt",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "die indirekte Rede",
+      "eine indirekte Frage"
+    ],
+    "gegensatzpaar": "indirekt ↔ direkt"
+  },
+  "wortnetz": {
+    "grundwort": "direkt",
+    "woerter": [
+      {
+        "wort": "direkt",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مستقیم",
+          "en": "direct"
+        },
+        "id_ref": "adjektiv_direkt"
+      },
+      {
+        "wort": "die Rede",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گفتار، سخن",
+          "en": "speech"
+        },
+        "id_ref": "nomen_rede"
+      },
+      {
+        "wort": "der Konjunktiv",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "وجه التزامی",
+          "en": "subjunctive"
+        },
+        "id_ref": "nomen_konjunktiv"
+      },
+      {
+        "wort": "implizit",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ضمنی",
+          "en": "implicit"
+        },
+        "id_ref": "adjektiv_implizit"
+      },
+      {
+        "wort": "fragen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرسیدن",
+          "en": "to ask"
+        },
+        "id_ref": "verb_fragen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
