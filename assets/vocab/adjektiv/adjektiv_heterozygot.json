@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_heterozygot",
+  "wort": "heterozygot",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(ژنتیک) هتروزیگوت",
+      "ناخالص (از نظر ژن)"
+    ],
+    "en": [
+      "(genetics) heterozygous"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Biologie",
+    "Medizin"
+  ],
+  "ipa": "heteʁot͡syˈɡoːt",
+  "anmerkung": "Genetische Fachsprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Mutter ist heterozygot.",
+      "uebersetzung": {
+        "fa": "مادر هتروزیگوت است.",
+        "en": "The mother is heterozygous."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn beide Eltern heterozygot sind, erkrankt statistisch jedes vierte Kind an der rezessiven Krankheit.",
+      "uebersetzung": {
+        "fa": "اگر هر دو والد هتروزیگوت باشند، از نظر آماری از هر چهار فرزند یکی به این بیماری مغلوب مبتلا می‌شود.",
+        "en": "If both parents are heterozygous, statistically one in four children will develop the recessive disease."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "homozygot",
+      "uebersetzung": {
+        "fa": "هموزیگوت",
+        "en": "homozygous"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hetero- (متفاوت) + zygot (جفت‌شده)",
+    "en": "hetero- (different) + zygot (yoked)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "heterozygot",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein heterozygoter Träger"
+    ],
+    "gegensatzpaar": "heterozygot ↔ homozygot"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Gen",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ژن",
+          "en": "gene"
+        },
+        "id_ref": "nomen_gen"
+      },
+      {
+        "wort": "homozygot",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "هموزیگوت",
+          "en": "homozygous"
+        },
+        "id_ref": "adjektiv_homozygot"
+      },
+      {
+        "wort": "hemizygot",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "همی‌زیگوت",
+          "en": "hemizygous"
+        },
+        "id_ref": "adjektiv_hemizygot"
+      },
+      {
+        "wort": "rezessiv",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "مغلوب",
+          "en": "recessive"
+        },
+        "id_ref": "adjektiv_rezessiv"
+      },
+      {
+        "wort": "vererben",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "به ارث گذاشتن",
+          "en": "to pass on"
+        },
+        "id_ref": "verb_vererben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
