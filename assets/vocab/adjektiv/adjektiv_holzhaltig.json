@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_holzhaltig",
+  "wort": "holzhaltig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(کاغذ) دارای خمیر چوب",
+      "ارزان و زردشونده"
+    ],
+    "en": [
+      "(paper) containing wood pulp",
+      "wood-containing"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Material"
+  ],
+  "ipa": "ˈhɔlt͡sˌhaltɪç",
+  "anmerkung": "Fachsprachlich (Papier): mit Holzschliff, z. B. Zeitungspapier.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Zeitungspapier ist holzhaltig.",
+      "uebersetzung": {
+        "fa": "کاغذ روزنامه خمیر چوب دارد.",
+        "en": "Newsprint contains wood pulp."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Holzhaltiges Papier wird mit der Zeit gelb und brüchig, deshalb sehen alte Zeitungen so vergilbt aus.",
+      "uebersetzung": {
+        "fa": "کاغذ دارای خمیر چوب با گذشت زمان زرد و شکننده می‌شود، به همین دلیل روزنامه‌های قدیمی این‌قدر زرد به نظر می‌رسند.",
+        "en": "Paper containing wood pulp becomes yellow and brittle over time, which is why old newspapers look so yellowed."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "holzfrei",
+      "uebersetzung": {
+        "fa": "بدون خمیر چوب",
+        "en": "woodfree"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Holz (چوب) + -haltig (دارای)",
+    "en": "Holz (wood) + -haltig (containing)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "holzhaltig",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "holzhaltiges Papier"
+    ],
+    "gegensatzpaar": "holzhaltig ↔ holzfrei"
+  },
+  "wortnetz": {
+    "grundwort": "Holz",
+    "woerter": [
+      {
+        "wort": "das Papier",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کاغذ",
+          "en": "paper"
+        },
+        "id_ref": "nomen_papier"
+      },
+      {
+        "wort": "das Holz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چوب",
+          "en": "wood"
+        },
+        "id_ref": "nomen_holz"
+      },
+      {
+        "wort": "holzfrei",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "بدون خمیر چوب",
+          "en": "woodfree"
+        },
+        "id_ref": "adjektiv_holzfrei"
+      },
+      {
+        "wort": "die Zeitung",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "روزنامه",
+          "en": "newspaper"
+        },
+        "id_ref": "nomen_zeitung"
+      },
+      {
+        "wort": "brüchig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شکننده",
+          "en": "brittle"
+        },
+        "id_ref": "adjektiv_bruechig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
