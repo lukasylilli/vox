@@ -1,0 +1,142 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_lesbar",
+  "wort": "lesbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "خوانا",
+      "قابل خواندن"
+    ],
+    "en": [
+      "legible",
+      "readable"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Schreiben",
+    "Technik"
+  ],
+  "ipa": "ˈleːsbaːɐ̯",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Schrift ist kaum lesbar.",
+      "uebersetzung": {
+        "fa": "این خط به‌زحمت خوانده می‌شود.",
+        "en": "The handwriting is barely legible."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die alte Datei ist mit dem neuen Programm nicht mehr lesbar, deshalb müssen wir sie umwandeln.",
+      "uebersetzung": {
+        "fa": "فایل قدیمی با برنامه‌ی جدید دیگر قابل خواندن نیست، به همین دلیل باید تبدیلش کنیم.",
+        "en": "The old file can no longer be read with the new program, so we have to convert it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "leserlich",
+      "uebersetzung": {
+        "fa": "خوانا",
+        "en": "legible"
+      }
+    },
+    {
+      "wort": "entzifferbar",
+      "uebersetzung": {
+        "fa": "رمزگشاپذیر",
+        "en": "decipherable"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "unleserlich",
+      "uebersetzung": {
+        "fa": "ناخوانا",
+        "en": "illegible"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lesen (خواندن) + -bar (قابل)",
+    "en": "lesen (to read) + -bar (-able)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "lesbar",
+      "komparativ": "lesbarer",
+      "superlativ": "am lesbarsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine lesbare Schrift"
+    ],
+    "gegensatzpaar": "lesbar ↔ unleserlich"
+  },
+  "wortnetz": {
+    "grundwort": "lesen",
+    "woerter": [
+      {
+        "wort": "lesen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خواندن",
+          "en": "to read"
+        },
+        "id_ref": "verb_lesen"
+      },
+      {
+        "wort": "leserlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خوانا",
+          "en": "legible"
+        },
+        "id_ref": "adjektiv_leserlich"
+      },
+      {
+        "wort": "die Schrift",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خط",
+          "en": "writing"
+        },
+        "id_ref": "nomen_schrift"
+      },
+      {
+        "wort": "die Datei",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فایل",
+          "en": "file"
+        },
+        "id_ref": "nomen_datei"
+      },
+      {
+        "wort": "deutlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "واضح",
+          "en": "clear"
+        },
+        "id_ref": "adjektiv_deutlich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -325,6 +325,9 @@ const zurueckgestellt = <String>{
   'latreutisch', // sehr seltenes theologisches Fachwort, Bedeutung unsicher 2026-09-27
   'leckerfritzig', // umgangssprachlich/regional, Bedeutung unsicher 2026-09-27
   'legasthen', // seltene Nebenform (üblich: «legasthenisch», das gebaut wurde), unsicher 2026-09-27
+  'leidsam', // veraltet/selten, Bedeutung unsicher 2026-09-27
+  'leinen', // Stoffadjektiv (aus Leinen) — wie flanellen zurückgestellt 2026-09-27
+  'leinwand', // Schreibvariante zweifelhaft (üblich österr.: «leiwand», das gebaut wurde) 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
