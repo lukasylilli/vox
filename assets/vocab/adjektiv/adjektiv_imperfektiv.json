@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_imperfektiv",
+  "wort": "imperfektiv",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(دستور زبان) ناقص (نمود ناتمام)"
+    ],
+    "en": [
+      "(grammar) imperfective"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Grammatik",
+    "Sprache"
+  ],
+  "ipa": "ˈɪmpɛʁfɛkˌtiːf",
+  "anmerkung": "Sprachwissenschaft (z. B. slawische Verben).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Verb ist imperfektiv.",
+      "uebersetzung": {
+        "fa": "این فعل نمود ناتمام دارد.",
+        "en": "The verb is imperfective."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Russischen gibt es zu fast jedem Verb eine perfektive und eine imperfektive Form.",
+      "uebersetzung": {
+        "fa": "در روسی تقریباً برای هر فعلی یک صورت تام و یک صورت ناتمام وجود دارد.",
+        "en": "In Russian almost every verb has a perfective and an imperfective form."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "perfektiv",
+      "uebersetzung": {
+        "fa": "(نمود) تام",
+        "en": "perfective"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "im- (نا-) + perfektiv (تام)",
+    "en": "im- (not) + perfektiv (perfective)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "imperfektiv",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein imperfektives Verb"
+    ],
+    "gegensatzpaar": "imperfektiv ↔ perfektiv"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Verb",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فعل",
+          "en": "verb"
+        },
+        "id_ref": "nomen_verb"
+      },
+      {
+        "wort": "die Grammatik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دستور زبان",
+          "en": "grammar"
+        },
+        "id_ref": "nomen_grammatik"
+      },
+      {
+        "wort": "perfektiv",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "تام",
+          "en": "perfective"
+        },
+        "id_ref": "adjektiv_perfektiv"
+      },
+      {
+        "wort": "russisch",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "روسی",
+          "en": "Russian"
+        },
+        "id_ref": "adjektiv_russisch"
+      },
+      {
+        "wort": "der Aspekt",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "جنبه، نمود",
+          "en": "aspect"
+        },
+        "id_ref": "nomen_aspekt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

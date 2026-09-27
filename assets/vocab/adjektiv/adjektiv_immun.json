@@ -1,0 +1,165 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_immun",
+  "wort": "immun",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "مصون، ایمن (در برابر بیماری)",
+      "بی‌تأثیر (در برابر چیزی)"
+    ],
+    "en": [
+      "immune"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Medizin",
+    "Gesundheit"
+  ],
+  "ipa": "ɪˈmuːn",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich bin gegen Masern immun.",
+      "uebersetzung": {
+        "fa": "من در برابر سرخک ایمن هستم.",
+        "en": "I am immune to measles."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach der Impfung ist man gegen die Krankheit meistens immun, aber nicht immer ein Leben lang.",
+      "uebersetzung": {
+        "fa": "بعد از واکسن معمولاً در برابر بیماری ایمن هستی، ولی نه همیشه تا آخر عمر.",
+        "en": "After vaccination you are usually immune to the disease, but not always for life."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "unempfindlich",
+      "uebersetzung": {
+        "fa": "بی‌تأثیر",
+        "en": "insensitive"
+      }
+    },
+    {
+      "wort": "geschützt",
+      "uebersetzung": {
+        "fa": "محافظت‌شده",
+        "en": "protected"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "anfällig",
+      "uebersetzung": {
+        "fa": "آسیب‌پذیر",
+        "en": "susceptible"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Immunität",
+      "uebersetzung": {
+        "fa": "ایمنی",
+        "en": "immunity"
+      }
+    },
+    {
+      "wort": "das Immunsystem",
+      "uebersetzung": {
+        "fa": "دستگاه ایمنی",
+        "en": "immune system"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از لاتین immunis (معاف)",
+    "en": "from Latin immunis (exempt)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "immun",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "immun gegen + Akk",
+        "beispiel": "Er scheint gegen Kritik völlig immun zu sein.",
+        "uebersetzung": {
+          "fa": "به نظر می‌رسد او در برابر انتقاد کاملاً بی‌تأثیر است.",
+          "en": "He seems to be completely immune to criticism."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein immuner Patient"
+    ],
+    "gegensatzpaar": "immun ↔ anfällig"
+  },
+  "wortnetz": {
+    "grundwort": "Immunität",
+    "woerter": [
+      {
+        "wort": "das Immunsystem",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دستگاه ایمنی",
+          "en": "immune system"
+        },
+        "id_ref": "nomen_immunsystem"
+      },
+      {
+        "wort": "die Impfung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "واکسیناسیون",
+          "en": "vaccination"
+        },
+        "id_ref": "nomen_impfung"
+      },
+      {
+        "wort": "der Schutz",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "محافظت",
+          "en": "protection"
+        },
+        "id_ref": "nomen_schutz"
+      },
+      {
+        "wort": "anfällig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آسیب‌پذیر",
+          "en": "susceptible"
+        },
+        "id_ref": "adjektiv_anfaellig"
+      },
+      {
+        "wort": "die Krankheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیماری",
+          "en": "disease"
+        },
+        "id_ref": "nomen_krankheit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

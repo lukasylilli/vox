@@ -261,6 +261,9 @@ const zurueckgestellt = <String>{
   'hygrisch', // seltenes Fachwort (Feuchtigkeit betreffend?), unsicher 2026-09-27
   'hypophrenisch', // Fachwort (unter dem Zwerchfell?), Bedeutung und Gebrauch unsicher 2026-09-27
   'immediat', // veraltet (unmittelbar dem Herrscher unterstellt?), Bedeutung/Gebrauch unsicher 2026-09-27
+  'impardonnabel', // veraltet (unverzeihlich?), Gebrauch unsicher 2026-09-27
+  'imperturbatisch', // Form zweifelhaft (üblich: «imperturbabel»?) 2026-09-27
+  'importun', // veraltet (ungelegen?), Gebrauch unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
