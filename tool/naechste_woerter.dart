@@ -299,6 +299,8 @@ const zurueckgestellt = <String>{
   'knülle', // landschaftlich/umgangssprachlich (betrunken? erschöpft?), Bedeutung unsicher 2026-09-27
   'knüll', // Nebenform von «knülle», Bedeutung unsicher 2026-09-27
   'koblenzisch', // Form unsicher (üblich: «Koblenzer») 2026-09-27
+  'komplektisch', // Wort unbekannt, Bedeutung unsicher 2026-09-27
+  'komputativ', // seltenes Fachwort, Bedeutung unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

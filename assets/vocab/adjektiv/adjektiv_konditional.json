@@ -1,0 +1,124 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_konditional",
+  "wort": "konditional",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(دستور زبان) شرطی"
+    ],
+    "en": [
+      "(grammar) conditional"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Grammatik"
+  ],
+  "ipa": "kɔndit͡si̯oˈnaːl",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Satz ist konditional.",
+      "uebersetzung": {
+        "fa": "این جمله شرطی است.",
+        "en": "The sentence is conditional."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Konditionale Nebensätze beginnen oft mit «wenn» oder «falls» und nennen eine Bedingung.",
+      "uebersetzung": {
+        "fa": "جمله‌های پیرو شرطی اغلب با «wenn» یا «falls» شروع می‌شوند و شرطی را بیان می‌کنند.",
+        "en": "Conditional clauses often begin with «wenn» or «falls» and state a condition."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bedingend",
+      "uebersetzung": {
+        "fa": "شرطی",
+        "en": "conditioning"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین condicio (شرط) + -al",
+    "en": "from Latin condicio (condition) + -al"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "konditional",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein konditionaler Nebensatz"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Kondition",
+    "woerter": [
+      {
+        "wort": "die Bedingung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شرط",
+          "en": "condition"
+        },
+        "id_ref": "nomen_bedingung"
+      },
+      {
+        "wort": "wenn",
+        "wortart": "konjunktion",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اگر",
+          "en": "if"
+        },
+        "id_ref": "konjunktion_wenn"
+      },
+      {
+        "wort": "falls",
+        "wortart": "konjunktion",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "در صورتی که",
+          "en": "in case"
+        },
+        "id_ref": "konjunktion_falls"
+      },
+      {
+        "wort": "der Nebensatz",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جمله‌ی پیرو",
+          "en": "subordinate clause"
+        },
+        "id_ref": "nomen_nebensatz"
+      },
+      {
+        "wort": "der Konjunktiv",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "وجه التزامی",
+          "en": "subjunctive"
+        },
+        "id_ref": "nomen_konjunktiv"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
