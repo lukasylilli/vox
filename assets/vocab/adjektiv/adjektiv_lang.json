@@ -1,0 +1,155 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_lang",
+  "wort": "lang",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "بلند، دراز",
+      "طولانی (زمان)"
+    ],
+    "en": [
+      "long",
+      "tall"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Maße",
+    "Zeit"
+  ],
+  "ipa": "laŋ",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Die Straße ist lang.",
+      "uebersetzung": {
+        "fa": "این خیابان طولانی است.",
+        "en": "The street is long."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich habe lange überlegt, ob ich die Stelle in einer anderen Stadt annehmen soll.",
+      "uebersetzung": {
+        "fa": "مدت زیادی فکر کردم که آیا کار در شهر دیگر را قبول کنم یا نه.",
+        "en": "I thought for a long time about whether I should accept the job in another city."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausgedehnt",
+      "uebersetzung": {
+        "fa": "گسترده",
+        "en": "extended"
+      }
+    },
+    {
+      "wort": "langwierig",
+      "uebersetzung": {
+        "fa": "طولانی و خسته‌کننده",
+        "en": "lengthy"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "kurz",
+      "uebersetzung": {
+        "fa": "کوتاه",
+        "en": "short"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Länge",
+      "uebersetzung": {
+        "fa": "طول",
+        "en": "length"
+      }
+    },
+    {
+      "wort": "lange",
+      "uebersetzung": {
+        "fa": "مدت زیاد",
+        "en": "for a long time"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "steigerung": {
+      "positiv": "lang",
+      "komparativ": "länger",
+      "superlativ": "am längsten"
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein langer Tag",
+      "lange Haare"
+    ],
+    "gegensatzpaar": "lang ↔ kurz"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "kurz",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کوتاه",
+          "en": "short"
+        },
+        "id_ref": "adjektiv_kurz"
+      },
+      {
+        "wort": "die Länge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "طول",
+          "en": "length"
+        },
+        "id_ref": "nomen_laenge"
+      },
+      {
+        "wort": "lange",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مدت زیاد",
+          "en": "for a long time"
+        },
+        "id_ref": "adverb_lange"
+      },
+      {
+        "wort": "groß",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بلند (قد)",
+          "en": "tall"
+        },
+        "id_ref": "adjektiv_gross"
+      },
+      {
+        "wort": "der Meter",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "متر",
+          "en": "metre"
+        },
+        "id_ref": "nomen_meter"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
