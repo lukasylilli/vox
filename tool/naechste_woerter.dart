@@ -276,6 +276,7 @@ const zurueckgestellt = <String>{
   'interurban', // veraltet (Fernverkehr/-gespräch?), Bedeutung unsicher 2026-09-27
   'intervallisch', // Bedeutung unsicher (in Intervallen? Musik?) 2026-09-27
   'interventiv', // seltenes Fachwort, Gebrauch unsicher 2026-09-27
+  'inzident', // mehrdeutig (Mathematik: inzident; sonst «zufällig eintretend»?), Bedeutung unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

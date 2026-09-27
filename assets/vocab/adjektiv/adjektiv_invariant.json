@@ -1,0 +1,141 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_invariant",
+  "wort": "invariant",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "ناوردا",
+      "ثابت، بی‌تغییر"
+    ],
+    "en": [
+      "invariant"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik",
+    "Wissenschaft"
+  ],
+  "ipa": "ɪnvaˈʁi̯ant",
+  "anmerkung": "Fachsprachlich (Mathematik, Physik).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Größe ist invariant.",
+      "uebersetzung": {
+        "fa": "این کمیت ناورداست.",
+        "en": "The quantity is invariant."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Lichtgeschwindigkeit ist invariant, das heißt, sie ist für alle Beobachter gleich, egal wie schnell sie sich bewegen.",
+      "uebersetzung": {
+        "fa": "سرعت نور ناورداست، یعنی برای همه‌ی ناظران یکسان است، مهم نیست چقدر سریع حرکت کنند.",
+        "en": "The speed of light is invariant, that is, it is the same for all observers no matter how fast they move."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "unveränderlich",
+      "uebersetzung": {
+        "fa": "تغییرناپذیر",
+        "en": "unchangeable"
+      }
+    },
+    {
+      "wort": "konstant",
+      "uebersetzung": {
+        "fa": "ثابت",
+        "en": "constant"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "variabel",
+      "uebersetzung": {
+        "fa": "متغیر",
+        "en": "variable"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "in- (نا-) + variant (متغیر)",
+    "en": "in- (not) + variant (varying)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "invariant",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine invariante Größe"
+    ],
+    "gegensatzpaar": "invariant ↔ variabel"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "konstant",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ثابت",
+          "en": "constant"
+        },
+        "id_ref": "adjektiv_konstant"
+      },
+      {
+        "wort": "variabel",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "متغیر",
+          "en": "variable"
+        },
+        "id_ref": "adjektiv_variabel"
+      },
+      {
+        "wort": "die Mathematik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریاضی",
+          "en": "mathematics"
+        },
+        "id_ref": "nomen_mathematik"
+      },
+      {
+        "wort": "die Physik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فیزیک",
+          "en": "physics"
+        },
+        "id_ref": "nomen_physik"
+      },
+      {
+        "wort": "ändern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تغییر دادن",
+          "en": "to change"
+        },
+        "id_ref": "verb_aendern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
