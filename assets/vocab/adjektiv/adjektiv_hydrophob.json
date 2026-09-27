@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_hydrophob",
+  "wort": "hydrophob",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "آب‌گریز",
+      "ضدآب"
+    ],
+    "en": [
+      "hydrophobic",
+      "water-repellent"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Chemie",
+    "Wissenschaft"
+  ],
+  "ipa": "hydʁoˈfoːp",
+  "anmerkung": "Fachsprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Jacke ist hydrophob.",
+      "uebersetzung": {
+        "fa": "این کاپشن ضدآب است.",
+        "en": "The jacket is water-repellent."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil Fett hydrophob ist, perlen Wassertropfen auf einer eingeölten Pfanne einfach ab.",
+      "uebersetzung": {
+        "fa": "چون چربی آب‌گریز است، قطره‌های آب روی ماهیتابه‌ی روغنی به‌سادگی سر می‌خورند.",
+        "en": "Because fat is hydrophobic, drops of water simply bead off an oiled pan."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wasserabweisend",
+      "uebersetzung": {
+        "fa": "ضدآب",
+        "en": "water-repellent"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hydrophil",
+      "uebersetzung": {
+        "fa": "آب‌دوست",
+        "en": "hydrophilic"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hydro- (آب) + -phob (گریزان)",
+    "en": "hydro- (water) + -phob (fearing)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "hydrophob",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine hydrophobe Beschichtung"
+    ],
+    "gegensatzpaar": "hydrophob ↔ hydrophil"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Wasser",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب",
+          "en": "water"
+        },
+        "id_ref": "nomen_wasser"
+      },
+      {
+        "wort": "hydrophil",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "آب‌دوست",
+          "en": "hydrophilic"
+        },
+        "id_ref": "adjektiv_hydrophil"
+      },
+      {
+        "wort": "wasserdicht",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ضدآب",
+          "en": "waterproof"
+        },
+        "id_ref": "adjektiv_wasserdicht"
+      },
+      {
+        "wort": "das Fett",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چربی",
+          "en": "fat"
+        },
+        "id_ref": "nomen_fett"
+      },
+      {
+        "wort": "das Öl",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "روغن",
+          "en": "oil"
+        },
+        "id_ref": "nomen_oel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

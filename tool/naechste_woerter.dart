@@ -257,6 +257,8 @@ const zurueckgestellt = <String>{
   'hitlerisch', // Form/Gebrauch als Adjektiv unsicher (üblich: «hitlersch»/Umschreibung) 2026-09-27
   'hühnermüde', // umgangssprachlich/regional, Form und Bedeutung unsicher 2026-09-27
   'humil', // veraltet/selten (demütig?), Bedeutung und Gebrauch unsicher 2026-09-27
+  'hydrogen', // als Adjektiv unsicher (wasserstoffhaltig?), sonst nur Präfix/Nomen 2026-09-27
+  'hygrisch', // seltenes Fachwort (Feuchtigkeit betreffend?), unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
