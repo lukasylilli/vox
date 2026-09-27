@@ -1,0 +1,141 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_kreditwuerdig",
+  "wort": "kreditwürdig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "دارای اعتبار مالی",
+      "شایسته‌ی وام"
+    ],
+    "en": [
+      "creditworthy"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Geld",
+    "Wirtschaft"
+  ],
+  "ipa": "kʁeˈdiːtˌvʏʁdɪç",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er ist nicht kreditwürdig.",
+      "uebersetzung": {
+        "fa": "او اعتبار مالی برای وام ندارد.",
+        "en": "He is not creditworthy."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor die Bank einen Kredit gibt, prüft sie, ob der Kunde kreditwürdig ist und ein festes Einkommen hat.",
+      "uebersetzung": {
+        "fa": "بانک پیش از دادن وام بررسی می‌کند که آیا مشتری اعتبار مالی و درآمد ثابت دارد.",
+        "en": "Before the bank grants a loan, it checks whether the customer is creditworthy and has a steady income."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zahlungsfähig",
+      "uebersetzung": {
+        "fa": "توانا به پرداخت",
+        "en": "solvent"
+      }
+    },
+    {
+      "wort": "solvent",
+      "uebersetzung": {
+        "fa": "توانای مالی",
+        "en": "solvent"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zahlungsunfähig",
+      "uebersetzung": {
+        "fa": "ناتوان از پرداخت",
+        "en": "insolvent"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Kredit (وام، اعتبار) + würdig (شایسته)",
+    "en": "Kredit (credit) + würdig (worthy)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "kreditwürdig",
+      "komparativ": "kreditwürdiger",
+      "superlativ": "am kreditwürdigsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein kreditwürdiger Kunde"
+    ],
+    "gegensatzpaar": "kreditwürdig ↔ zahlungsunfähig"
+  },
+  "wortnetz": {
+    "grundwort": "Kredit",
+    "woerter": [
+      {
+        "wort": "der Kredit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وام",
+          "en": "loan"
+        },
+        "id_ref": "nomen_kredit"
+      },
+      {
+        "wort": "die Bank",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بانک",
+          "en": "bank"
+        },
+        "id_ref": "nomen_bank"
+      },
+      {
+        "wort": "das Einkommen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درآمد",
+          "en": "income"
+        },
+        "id_ref": "nomen_einkommen"
+      },
+      {
+        "wort": "die Schulden",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بدهی",
+          "en": "debts"
+        },
+        "id_ref": "nomen_schulden"
+      },
+      {
+        "wort": "die Schufa",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سابقه‌ی اعتباری (آلمان)",
+          "en": "credit agency (Germany)"
+        },
+        "id_ref": "nomen_schufa"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

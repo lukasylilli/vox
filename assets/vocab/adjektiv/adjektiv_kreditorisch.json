@@ -1,0 +1,124 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_kreditorisch",
+  "wort": "kreditorisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(حسابداری) مربوط به بستانکاران"
+    ],
+    "en": [
+      "(accounting) creditor-side, relating to creditors"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wirtschaft"
+  ],
+  "ipa": "kʁediˈtoːʁɪʃ",
+  "anmerkung": "Fachsprache der Buchhaltung; Gegenstück: «debitorisch».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Konto ist kreditorisch.",
+      "uebersetzung": {
+        "fa": "این حساب مربوط به بستانکاران است.",
+        "en": "The account is on the creditor side."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In der Buchhaltung werden alle kreditorischen Rechnungen gesammelt, also die Rechnungen, die die Firma selbst bezahlen muss.",
+      "uebersetzung": {
+        "fa": "در حسابداری همه‌ی صورت‌حساب‌های بستانکاری جمع می‌شوند، یعنی صورت‌حساب‌هایی که شرکت خودش باید بپردازد.",
+        "en": "In accounting all creditor invoices are collected, i.e. the invoices that the company itself has to pay."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "debitorisch",
+      "uebersetzung": {
+        "fa": "مربوط به بدهکاران",
+        "en": "debtor-side"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Kreditor (بستانکار) + -isch",
+    "en": "Kreditor (creditor) + -isch"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "kreditorisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "die kreditorische Buchhaltung"
+    ],
+    "gegensatzpaar": "kreditorisch ↔ debitorisch"
+  },
+  "wortnetz": {
+    "grundwort": "Kreditor",
+    "woerter": [
+      {
+        "wort": "die Buchhaltung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حسابداری",
+          "en": "accounting"
+        },
+        "id_ref": "nomen_buchhaltung"
+      },
+      {
+        "wort": "die Rechnung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صورت‌حساب",
+          "en": "invoice"
+        },
+        "id_ref": "nomen_rechnung"
+      },
+      {
+        "wort": "der Gläubiger",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بستانکار",
+          "en": "creditor"
+        },
+        "id_ref": "nomen_glaeubiger"
+      },
+      {
+        "wort": "die Schulden",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بدهی",
+          "en": "debts"
+        },
+        "id_ref": "nomen_schulden"
+      },
+      {
+        "wort": "das Konto",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حساب",
+          "en": "account"
+        },
+        "id_ref": "nomen_konto"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

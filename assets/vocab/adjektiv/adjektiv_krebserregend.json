@@ -1,0 +1,133 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_krebserregend",
+  "wort": "krebserregend",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "سرطان‌زا"
+    ],
+    "en": [
+      "carcinogenic",
+      "cancer-causing"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Medizin"
+  ],
+  "ipa": "ˈkʁeːpsʔɛɐ̯ˌʁeːɡn̩t",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Rauchen ist krebserregend.",
+      "uebersetzung": {
+        "fa": "سیگار کشیدن سرطان‌زاست.",
+        "en": "Smoking causes cancer."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Stark verbranntes Fleisch kann krebserregende Stoffe enthalten, deshalb sollte man beim Grillen aufpassen.",
+      "uebersetzung": {
+        "fa": "گوشت خیلی سوخته ممکن است مواد سرطان‌زا داشته باشد، به همین دلیل باید هنگام کباب کردن مراقب بود.",
+        "en": "Heavily charred meat can contain carcinogenic substances, so you should be careful when barbecuing."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kanzerogen",
+      "uebersetzung": {
+        "fa": "سرطان‌زا",
+        "en": "carcinogenic"
+      }
+    },
+    {
+      "wort": "karzinogen",
+      "uebersetzung": {
+        "fa": "سرطان‌زا",
+        "en": "carcinogenic"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Krebs (سرطان) + erregend (برانگیزاننده)",
+    "en": "Krebs (cancer) + erregend (causing)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "krebserregend",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "krebserregende Stoffe"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Krebs",
+    "woerter": [
+      {
+        "wort": "der Krebs",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرطان",
+          "en": "cancer"
+        },
+        "id_ref": "nomen_krebs"
+      },
+      {
+        "wort": "kanzerogen",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "سرطان‌زا",
+          "en": "carcinogenic"
+        },
+        "id_ref": "adjektiv_kanzerogen"
+      },
+      {
+        "wort": "rauchen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سیگار کشیدن",
+          "en": "to smoke"
+        },
+        "id_ref": "verb_rauchen"
+      },
+      {
+        "wort": "giftig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سمی",
+          "en": "poisonous"
+        },
+        "id_ref": "adjektiv_giftig"
+      },
+      {
+        "wort": "die Gesundheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سلامتی",
+          "en": "health"
+        },
+        "id_ref": "nomen_gesundheit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

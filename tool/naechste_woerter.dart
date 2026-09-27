@@ -309,6 +309,8 @@ const zurueckgestellt = <String>{
   'konvers', // seltenes Fachwort (Logik: umgekehrt?), Gebrauch unsicher 2026-09-27
   'konvivial', // selten/bildungssprachlich (gesellig?), Gebrauch unsicher 2026-09-27
   'korallen', // Stoffadjektiv (aus Koralle) — wie birken zurückgestellt 2026-09-27
+  'kredibel', // veraltet/bildungssprachlich (glaubwürdig?), Gebrauch unsicher 2026-09-27
+  'kreiden', // Stoffadjektiv (aus Kreide) — wie birken zurückgestellt 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
