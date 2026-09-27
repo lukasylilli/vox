@@ -1,0 +1,164 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_heiss",
+  "wort": "heiß",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "داغ",
+      "خیلی گرم",
+      "(عامیانه) جذاب، هیجان‌انگیز"
+    ],
+    "en": [
+      "hot"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Wetter",
+    "Essen"
+  ],
+  "ipa": "haɪ̯s",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Der Tee ist heiß.",
+      "uebersetzung": {
+        "fa": "چای داغ است.",
+        "en": "The tea is hot."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Im Sommer ist es in Teheran oft so heiß, dass man tagsüber lieber drinnen bleibt.",
+      "uebersetzung": {
+        "fa": "تابستان در تهران اغلب آن‌قدر گرم است که آدم ترجیح می‌دهد روزها داخل بماند.",
+        "en": "In summer it is often so hot in Tehran that you prefer to stay inside during the day."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "warm",
+      "uebersetzung": {
+        "fa": "گرم",
+        "en": "warm"
+      }
+    },
+    {
+      "wort": "glühend",
+      "uebersetzung": {
+        "fa": "سوزان",
+        "en": "scorching"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "kalt",
+      "uebersetzung": {
+        "fa": "سرد",
+        "en": "cold"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Hitze",
+      "uebersetzung": {
+        "fa": "گرما",
+        "en": "heat"
+      }
+    },
+    {
+      "wort": "brennheiß",
+      "uebersetzung": {
+        "fa": "بسیار داغ",
+        "en": "burning hot"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "steigerung": {
+      "positiv": "heiß",
+      "komparativ": "heißer",
+      "superlativ": "am heißesten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "heiß auf + Akk (umgangssprachlich)",
+        "beispiel": "Er ist heiß auf das neue Spiel.",
+        "uebersetzung": {
+          "fa": "او برای بازی جدید خیلی هیجان‌زده است.",
+          "en": "He is really keen on the new game."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein heißer Sommer",
+      "die heiße Suppe"
+    ],
+    "gegensatzpaar": "heiß ↔ kalt"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "kalt",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سرد",
+          "en": "cold"
+        },
+        "id_ref": "adjektiv_kalt"
+      },
+      {
+        "wort": "warm",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گرم",
+          "en": "warm"
+        },
+        "id_ref": "adjektiv_warm"
+      },
+      {
+        "wort": "die Hitze",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گرما",
+          "en": "heat"
+        },
+        "id_ref": "nomen_hitze"
+      },
+      {
+        "wort": "der Sommer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تابستان",
+          "en": "summer"
+        },
+        "id_ref": "nomen_sommer"
+      },
+      {
+        "wort": "die Temperatur",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دما",
+          "en": "temperature"
+        },
+        "id_ref": "nomen_temperatur"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

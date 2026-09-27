@@ -1,0 +1,167 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_heilig",
+  "wort": "heilig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "مقدس",
+      "(عامیانه) خیلی جدی، محترم"
+    ],
+    "en": [
+      "holy",
+      "sacred"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Religion",
+    "Feste"
+  ],
+  "ipa": "ˈhaɪ̯lɪç",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kirche ist ein heiliger Ort.",
+      "uebersetzung": {
+        "fa": "کلیسا مکانی مقدس است.",
+        "en": "The church is a holy place."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Sonntag ist ihm heilig, deshalb arbeitet er an diesem Tag nie.",
+      "uebersetzung": {
+        "fa": "یکشنبه برایش مقدس است، به همین دلیل هیچ‌وقت آن روز کار نمی‌کند.",
+        "en": "Sunday is sacred to him, which is why he never works on that day."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "geweiht",
+      "uebersetzung": {
+        "fa": "متبرک",
+        "en": "consecrated"
+      }
+    },
+    {
+      "wort": "sakral",
+      "uebersetzung": {
+        "fa": "مقدس",
+        "en": "sacred"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "profan",
+      "uebersetzung": {
+        "fa": "دنیوی",
+        "en": "profane"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "der Heiligabend",
+      "uebersetzung": {
+        "fa": "شب کریسمس",
+        "en": "Christmas Eve"
+      }
+    },
+    {
+      "wort": "der/die Heilige",
+      "uebersetzung": {
+        "fa": "قدیس",
+        "en": "saint"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "heil (سالم، کامل) + -ig",
+    "en": "heil (whole) + -ig"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "heilig",
+      "komparativ": "heiliger",
+      "superlativ": "am heiligsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "heilig + Dat (jemandem heilig sein)",
+        "beispiel": "Die Familie ist ihr heilig.",
+        "uebersetzung": {
+          "fa": "خانواده برایش مقدس است.",
+          "en": "Family is sacred to her."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "die heilige Schrift",
+      "ein heiliger Tag"
+    ],
+    "gegensatzpaar": "heilig ↔ profan"
+  },
+  "wortnetz": {
+    "grundwort": "heil",
+    "woerter": [
+      {
+        "wort": "die Kirche",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کلیسا",
+          "en": "church"
+        },
+        "id_ref": "nomen_kirche"
+      },
+      {
+        "wort": "die Religion",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دین",
+          "en": "religion"
+        },
+        "id_ref": "nomen_religion"
+      },
+      {
+        "wort": "beten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دعا کردن",
+          "en": "to pray"
+        },
+        "id_ref": "verb_beten"
+      },
+      {
+        "wort": "der Heiligabend",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شب کریسمس",
+          "en": "Christmas Eve"
+        },
+        "id_ref": "nomen_heiligabend"
+      },
+      {
+        "wort": "der Gott",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خدا",
+          "en": "god"
+        },
+        "id_ref": "nomen_gott"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
