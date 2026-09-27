@@ -1,0 +1,165 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_gueltig",
+  "wort": "gültig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "معتبر",
+      "دارای اعتبار"
+    ],
+    "en": [
+      "valid"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Behörden",
+    "Reisen"
+  ],
+  "ipa": "ˈɡʏltɪç",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mein Pass ist noch gültig.",
+      "uebersetzung": {
+        "fa": "پاسپورتم هنوز معتبر است.",
+        "en": "My passport is still valid."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Das Ticket ist nur gültig, wenn Sie es vor der Fahrt entwerten.",
+      "uebersetzung": {
+        "fa": "بلیت فقط وقتی معتبر است که قبل از سفر آن را باطل (مهر) کنید.",
+        "en": "The ticket is only valid if you validate it before the journey."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "geltend",
+      "uebersetzung": {
+        "fa": "جاری، معتبر",
+        "en": "applicable"
+      }
+    },
+    {
+      "wort": "rechtskräftig",
+      "uebersetzung": {
+        "fa": "دارای اعتبار قانونی",
+        "en": "legally binding"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ungültig",
+      "uebersetzung": {
+        "fa": "نامعتبر",
+        "en": "invalid"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Gültigkeit",
+      "uebersetzung": {
+        "fa": "اعتبار",
+        "en": "validity"
+      }
+    },
+    {
+      "wort": "allgemeingültig",
+      "uebersetzung": {
+        "fa": "عام، همه‌جا معتبر",
+        "en": "universally valid"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "gelten (اعتبار داشتن) + -ig",
+    "en": "gelten (to be valid) + -ig"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "gültig",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "gültig für + Akk",
+        "beispiel": "Das Angebot ist nur gültig für neue Kunden.",
+        "uebersetzung": {
+          "fa": "این پیشنهاد فقط برای مشتری‌های جدید معتبر است.",
+          "en": "The offer is only valid for new customers."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein gültiger Ausweis"
+    ],
+    "gegensatzpaar": "gültig ↔ ungültig"
+  },
+  "wortnetz": {
+    "grundwort": "gelten",
+    "woerter": [
+      {
+        "wort": "gelten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اعتبار داشتن",
+          "en": "to be valid"
+        },
+        "id_ref": "verb_gelten"
+      },
+      {
+        "wort": "ungültig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نامعتبر",
+          "en": "invalid"
+        },
+        "id_ref": "adjektiv_ungueltig"
+      },
+      {
+        "wort": "der Ausweis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کارت شناسایی",
+          "en": "ID card"
+        },
+        "id_ref": "nomen_ausweis"
+      },
+      {
+        "wort": "das Ticket",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بلیت",
+          "en": "ticket"
+        },
+        "id_ref": "nomen_ticket"
+      },
+      {
+        "wort": "die Gültigkeit",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اعتبار",
+          "en": "validity"
+        },
+        "id_ref": "nomen_gueltigkeit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
