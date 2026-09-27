@@ -1,0 +1,149 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_gross",
+  "wort": "groß",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "بزرگ",
+      "بلند (قد)",
+      "مهم، عالی"
+    ],
+    "en": [
+      "big, large",
+      "tall",
+      "great"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Größe"
+  ],
+  "ipa": "ɡʁoːs",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Unser Haus ist groß.",
+      "uebersetzung": {
+        "fa": "خانه‌ی ما بزرگ است.",
+        "en": "Our house is big."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Er ist fast zwei Meter groß, deshalb stößt er oft mit dem Kopf an Türrahmen.",
+      "uebersetzung": {
+        "fa": "قدش تقریباً دو متر است، برای همین اغلب سرش به چارچوب در می‌خورد.",
+        "en": "He is almost two metres tall, which is why he often bumps his head on door frames."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "riesig",
+      "uebersetzung": {
+        "fa": "غول‌پیکر",
+        "en": "huge"
+      }
+    },
+    {
+      "wort": "hoch",
+      "uebersetzung": {
+        "fa": "بلند",
+        "en": "high"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "klein",
+      "uebersetzung": {
+        "fa": "کوچک",
+        "en": "small"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "riesengroß",
+      "uebersetzung": {
+        "fa": "خیلی بزرگ",
+        "en": "gigantic"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "steigerung": {
+      "positiv": "groß",
+      "komparativ": "größer",
+      "superlativ": "am größten"
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein großes Problem",
+      "die große Stadt"
+    ],
+    "gegensatzpaar": "groß ↔ klein"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "klein",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کوچک",
+          "en": "small"
+        },
+        "id_ref": "adjektiv_klein"
+      },
+      {
+        "wort": "die Größe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اندازه",
+          "en": "size"
+        },
+        "id_ref": "nomen_groesse"
+      },
+      {
+        "wort": "riesig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "غول‌پیکر",
+          "en": "huge"
+        },
+        "id_ref": "adjektiv_riesig"
+      },
+      {
+        "wort": "großartig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عالی",
+          "en": "great"
+        },
+        "id_ref": "adjektiv_grossartig"
+      },
+      {
+        "wort": "wachsen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رشد کردن",
+          "en": "to grow"
+        },
+        "id_ref": "verb_wachsen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
