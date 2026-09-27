@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_interkurrent",
+  "wort": "interkurrent",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(پزشکی) همزمان‌افزوده (بیماری)",
+      "عارض‌شده در کنار بیماری اصلی"
+    ],
+    "en": [
+      "(medical) intercurrent"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin"
+  ],
+  "ipa": "ɪntɐkʊˈʁɛnt",
+  "anmerkung": "Medizinische Fachsprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Infektion war interkurrent.",
+      "uebersetzung": {
+        "fa": "این عفونت در کنار بیماری اصلی پیش آمد.",
+        "en": "The infection was intercurrent."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Während der Chemotherapie trat eine interkurrente Lungenentzündung auf, sodass die Behandlung pausieren musste.",
+      "uebersetzung": {
+        "fa": "در طول شیمی‌درمانی یک ذات‌الریه‌ی همزمان پیش آمد، طوری که درمان باید متوقف می‌شد.",
+        "en": "During chemotherapy an intercurrent pneumonia occurred, so the treatment had to be paused."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hinzutretend",
+      "uebersetzung": {
+        "fa": "افزوده‌شونده",
+        "en": "supervening"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین intercurrere (در میان دویدن)",
+    "en": "from Latin intercurrere (to run between)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "interkurrent",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine interkurrente Erkrankung"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Krankheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیماری",
+          "en": "disease"
+        },
+        "id_ref": "nomen_krankheit"
+      },
+      {
+        "wort": "die Infektion",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عفونت",
+          "en": "infection"
+        },
+        "id_ref": "nomen_infektion"
+      },
+      {
+        "wort": "die Behandlung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درمان",
+          "en": "treatment"
+        },
+        "id_ref": "nomen_behandlung"
+      },
+      {
+        "wort": "gleichzeitig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "همزمان",
+          "en": "simultaneous"
+        },
+        "id_ref": "adjektiv_gleichzeitig"
+      },
+      {
+        "wort": "die Komplikation",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "عارضه",
+          "en": "complication"
+        },
+        "id_ref": "nomen_komplikation"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
