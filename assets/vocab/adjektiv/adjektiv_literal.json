@@ -1,0 +1,132 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_literal",
+  "wort": "literal",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(ادبی) لفظی، تحت‌اللفظی"
+    ],
+    "en": [
+      "(elevated) literal"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Sprache"
+  ],
+  "ipa": "liteˈʁaːl",
+  "anmerkung": "Bildungssprachlich; üblicher ist «wörtlich».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Bedeutung ist literal.",
+      "uebersetzung": {
+        "fa": "این معنا تحت‌اللفظی است.",
+        "en": "The meaning is literal."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die literale Bedeutung von «jemandem den Kopf waschen» ist etwas ganz anderes als die übertragene.",
+      "uebersetzung": {
+        "fa": "معنای تحت‌اللفظی «سر کسی را شستن» با معنای مجازی‌اش کاملاً فرق دارد.",
+        "en": "The literal meaning of «to wash someone's head» is something quite different from the figurative one."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wörtlich",
+      "uebersetzung": {
+        "fa": "لفظی",
+        "en": "literal"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "übertragen",
+      "uebersetzung": {
+        "fa": "مجازی",
+        "en": "figurative"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین litteralis (حرفی، از littera حرف)",
+    "en": "from Latin litteralis (from littera, letter)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "literal",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "die literale Bedeutung"
+    ],
+    "gegensatzpaar": "literal ↔ übertragen"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "wörtlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لفظی",
+          "en": "literal"
+        },
+        "id_ref": "adjektiv_woertlich"
+      },
+      {
+        "wort": "die Bedeutung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "معنا",
+          "en": "meaning"
+        },
+        "id_ref": "nomen_bedeutung"
+      },
+      {
+        "wort": "übertragen",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مجازی",
+          "en": "figurative"
+        },
+        "id_ref": "adjektiv_uebertragen"
+      },
+      {
+        "wort": "die Redewendung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اصطلاح",
+          "en": "idiom"
+        },
+        "id_ref": "nomen_redewendung"
+      },
+      {
+        "wort": "das Wort",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کلمه",
+          "en": "word"
+        },
+        "id_ref": "nomen_wort"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
