@@ -1,0 +1,117 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_isentrop",
+  "wort": "isentrop",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(ترمودینامیک) هم‌آنتروپی"
+    ],
+    "en": [
+      "(thermodynamics) isentropic"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Physik",
+    "Technik"
+  ],
+  "ipa": "izɛnˈtʁoːp",
+  "anmerkung": "Fachsprachlich (Thermodynamik).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kompression ist isentrop.",
+      "uebersetzung": {
+        "fa": "این تراکم هم‌آنتروپی است.",
+        "en": "The compression is isentropic."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ingenieure nehmen für eine ideale Turbine eine isentrope Entspannung an, weil dabei keine Verluste entstehen.",
+      "uebersetzung": {
+        "fa": "مهندسان برای یک توربین ایده‌آل انبساط هم‌آنتروپی فرض می‌کنند، چون در آن اتلافی ایجاد نمی‌شود.",
+        "en": "Engineers assume isentropic expansion for an ideal turbine because no losses arise."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "iso- (هم) + Entropie (آنتروپی)",
+    "en": "iso- (equal) + Entropie (entropy)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "isentrop",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine isentrope Expansion"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Entropie",
+    "woerter": [
+      {
+        "wort": "die Entropie",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "آنتروپی",
+          "en": "entropy"
+        },
+        "id_ref": "nomen_entropie"
+      },
+      {
+        "wort": "die Energie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انرژی",
+          "en": "energy"
+        },
+        "id_ref": "nomen_energie"
+      },
+      {
+        "wort": "isenthalp",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "هم‌آنتالپی",
+          "en": "isenthalpic"
+        },
+        "id_ref": "adjektiv_isenthalp"
+      },
+      {
+        "wort": "die Turbine",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "توربین",
+          "en": "turbine"
+        },
+        "id_ref": "nomen_turbine"
+      },
+      {
+        "wort": "die Thermodynamik",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "ترمودینامیک",
+          "en": "thermodynamics"
+        },
+        "id_ref": "nomen_thermodynamik"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

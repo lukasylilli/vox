@@ -1,0 +1,117 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_isenthalp",
+  "wort": "isenthalp",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(ترمودینامیک) هم‌آنتالپی"
+    ],
+    "en": [
+      "(thermodynamics) isenthalpic"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Physik",
+    "Technik"
+  ],
+  "ipa": "izɛnˈtalp",
+  "anmerkung": "Fachsprachlich (Thermodynamik).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Drosselung ist isenthalp.",
+      "uebersetzung": {
+        "fa": "این خفگی جریان هم‌آنتالپی است.",
+        "en": "The throttling is isenthalpic."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Beim Durchströmen eines Ventils verläuft die Zustandsänderung näherungsweise isenthalp, die Enthalpie bleibt also gleich.",
+      "uebersetzung": {
+        "fa": "هنگام عبور از یک شیر، تغییر حالت تقریباً هم‌آنتالپی است، یعنی آنتالپی ثابت می‌ماند.",
+        "en": "When flowing through a valve, the change of state is approximately isenthalpic, so the enthalpy stays the same."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "iso- (هم) + Enthalpie (آنتالپی)",
+    "en": "iso- (equal) + Enthalpie (enthalpy)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "isenthalp",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine isenthalpe Zustandsänderung"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Enthalpie",
+    "woerter": [
+      {
+        "wort": "die Enthalpie",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "آنتالپی",
+          "en": "enthalpy"
+        },
+        "id_ref": "nomen_enthalpie"
+      },
+      {
+        "wort": "die Energie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انرژی",
+          "en": "energy"
+        },
+        "id_ref": "nomen_energie"
+      },
+      {
+        "wort": "isentrop",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "هم‌آنتروپی",
+          "en": "isentropic"
+        },
+        "id_ref": "adjektiv_isentrop"
+      },
+      {
+        "wort": "die Wärme",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گرما",
+          "en": "heat"
+        },
+        "id_ref": "nomen_waerme"
+      },
+      {
+        "wort": "das Ventil",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شیر",
+          "en": "valve"
+        },
+        "id_ref": "nomen_ventil"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
