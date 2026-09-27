@@ -287,6 +287,7 @@ const zurueckgestellt = <String>{
   'juxtarenal', // seltenes medizinisches Fachwort (neben der Niere?), unsicher 2026-09-27
   'kaduk', // veraltet (hinfällig?), Gebrauch unsicher 2026-09-27
   'kärntisch', // Form zweifelhaft (üblich: «kärntnerisch», das gebaut wurde) 2026-09-27
+  'kanevassen', // Stoffadjektiv (aus Kanevas-Stoff) — wie flanellen zurückgestellt 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
