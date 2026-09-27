@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_indossierbar",
+  "wort": "indossierbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(بانکی) قابل پشت‌نویسی (چک، برات)"
+    ],
+    "en": [
+      "(banking) endorsable"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wirtschaft",
+    "Recht"
+  ],
+  "ipa": "ɪndɔˈsiːɐ̯baːɐ̯",
+  "anmerkung": "Fachsprache des Bank- und Wertpapierrechts.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Scheck ist indossierbar.",
+      "uebersetzung": {
+        "fa": "این چک قابل پشت‌نویسی است.",
+        "en": "The cheque is endorsable."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ein Wechsel ist indossierbar, das heißt, man kann ihn durch einen Vermerk auf der Rückseite an eine andere Person übertragen.",
+      "uebersetzung": {
+        "fa": "برات قابل پشت‌نویسی است، یعنی می‌توان آن را با یادداشتی در پشتش به شخص دیگری منتقل کرد.",
+        "en": "A bill of exchange is endorsable, that is, it can be transferred to another person by a note on the back."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "übertragbar",
+      "uebersetzung": {
+        "fa": "قابل انتقال",
+        "en": "transferable"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "indossieren (پشت‌نویسی کردن) + -bar (قابل)",
+    "en": "indossieren (to endorse) + -bar (-able)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "indossierbar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein indossierbares Wertpapier"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "indossieren",
+    "woerter": [
+      {
+        "wort": "der Scheck",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چک",
+          "en": "cheque"
+        },
+        "id_ref": "nomen_scheck"
+      },
+      {
+        "wort": "die Bank",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بانک",
+          "en": "bank"
+        },
+        "id_ref": "nomen_bank"
+      },
+      {
+        "wort": "übertragen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "انتقال دادن",
+          "en": "to transfer"
+        },
+        "id_ref": "verb_uebertragen"
+      },
+      {
+        "wort": "das Wertpapier",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اوراق بهادار",
+          "en": "security"
+        },
+        "id_ref": "nomen_wertpapier"
+      },
+      {
+        "wort": "die Unterschrift",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "امضا",
+          "en": "signature"
+        },
+        "id_ref": "nomen_unterschrift"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
