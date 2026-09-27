@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_intramolekular",
+  "wort": "intramolekular",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(شیمی) درون‌مولکولی"
+    ],
+    "en": [
+      "(chemistry) intramolecular"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Chemie",
+    "Wissenschaft"
+  ],
+  "ipa": "ɪntʁamolekuˈlaːɐ̯",
+  "anmerkung": "Fachsprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Bindung ist intramolekular.",
+      "uebersetzung": {
+        "fa": "این پیوند درون‌مولکولی است.",
+        "en": "The bond is intramolecular."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Intramolekulare Kräfte halten die Atome innerhalb eines Moleküls zusammen, intermolekulare wirken zwischen Molekülen.",
+      "uebersetzung": {
+        "fa": "نیروهای درون‌مولکولی اتم‌ها را درون یک مولکول نگه می‌دارند و نیروهای بین‌مولکولی بین مولکول‌ها عمل می‌کنند.",
+        "en": "Intramolecular forces hold the atoms together within a molecule; intermolecular forces act between molecules."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "intermolekular",
+      "uebersetzung": {
+        "fa": "بین‌مولکولی",
+        "en": "intermolecular"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "intra- (درون) + molekular (مولکولی)",
+    "en": "intra- (within) + molekular (molecular)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "intramolekular",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine intramolekulare Reaktion"
+    ],
+    "gegensatzpaar": "intramolekular ↔ intermolekular"
+  },
+  "wortnetz": {
+    "grundwort": "Molekül",
+    "woerter": [
+      {
+        "wort": "das Molekül",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مولکول",
+          "en": "molecule"
+        },
+        "id_ref": "nomen_molekuel"
+      },
+      {
+        "wort": "intermolekular",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "بین‌مولکولی",
+          "en": "intermolecular"
+        },
+        "id_ref": "adjektiv_intermolekular"
+      },
+      {
+        "wort": "das Atom",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اتم",
+          "en": "atom"
+        },
+        "id_ref": "nomen_atom"
+      },
+      {
+        "wort": "die Bindung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پیوند",
+          "en": "bond"
+        },
+        "id_ref": "nomen_bindung"
+      },
+      {
+        "wort": "die Chemie",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شیمی",
+          "en": "chemistry"
+        },
+        "id_ref": "nomen_chemie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

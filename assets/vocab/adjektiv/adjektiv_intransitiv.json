@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_intransitiv",
+  "wort": "intransitiv",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(دستور زبان) ناگذر، لازم"
+    ],
+    "en": [
+      "(grammar) intransitive"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Grammatik",
+    "Sprache"
+  ],
+  "ipa": "ˈɪntʁanziˌtiːf",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Verb «schlafen» ist intransitiv.",
+      "uebersetzung": {
+        "fa": "فعل «schlafen» ناگذر است.",
+        "en": "The verb «schlafen» is intransitive."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Intransitive Verben wie «kommen» haben kein Akkusativobjekt und bilden deshalb kein Passiv.",
+      "uebersetzung": {
+        "fa": "فعل‌های ناگذر مثل «kommen» مفعول رایی ندارند و به همین دلیل مجهول نمی‌سازند.",
+        "en": "Intransitive verbs like «kommen» have no accusative object and therefore do not form a passive."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "transitiv",
+      "uebersetzung": {
+        "fa": "گذرا، متعدی",
+        "en": "transitive"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "in- (نا-) + transitiv (گذرا)",
+    "en": "in- (not) + transitiv (transitive)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "intransitiv",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein intransitives Verb"
+    ],
+    "gegensatzpaar": "intransitiv ↔ transitiv"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "transitiv",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گذرا",
+          "en": "transitive"
+        },
+        "id_ref": "adjektiv_transitiv"
+      },
+      {
+        "wort": "das Verb",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فعل",
+          "en": "verb"
+        },
+        "id_ref": "nomen_verb"
+      },
+      {
+        "wort": "das Objekt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مفعول",
+          "en": "object"
+        },
+        "id_ref": "nomen_objekt"
+      },
+      {
+        "wort": "das Passiv",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مجهول",
+          "en": "passive"
+        },
+        "id_ref": "nomen_passiv"
+      },
+      {
+        "wort": "der Akkusativ",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حالت رایی",
+          "en": "accusative"
+        },
+        "id_ref": "nomen_akkusativ"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,124 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_intravasal",
+  "wort": "intravasal",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(پزشکی) درون‌رگی"
+    ],
+    "en": [
+      "(medical) intravascular"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin"
+  ],
+  "ipa": "ɪntʁavaˈzaːl",
+  "anmerkung": "Medizinische Fachsprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Volumen ist intravasal.",
+      "uebersetzung": {
+        "fa": "این حجم درون‌رگی است.",
+        "en": "The volume is intravascular."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei starkem Blutverlust sinkt das intravasale Volumen, sodass der Blutdruck gefährlich abfällt.",
+      "uebersetzung": {
+        "fa": "در خونریزی شدید حجم درون‌رگی کاهش می‌یابد، طوری که فشار خون به‌طور خطرناکی افت می‌کند.",
+        "en": "With heavy blood loss the intravascular volume drops, so the blood pressure falls dangerously."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "extravasal",
+      "uebersetzung": {
+        "fa": "برون‌رگی",
+        "en": "extravascular"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "intra- (درون) + Vas (رگ، لاتین) + -al",
+    "en": "intra- (within) + vas (vessel, Latin) + -al"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "intravasal",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "das intravasale Volumen"
+    ],
+    "gegensatzpaar": "intravasal ↔ extravasal"
+  },
+  "wortnetz": {
+    "grundwort": "Gefäß",
+    "woerter": [
+      {
+        "wort": "das Gefäß",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رگ",
+          "en": "vessel"
+        },
+        "id_ref": "nomen_gefaess"
+      },
+      {
+        "wort": "das Blut",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خون",
+          "en": "blood"
+        },
+        "id_ref": "nomen_blut"
+      },
+      {
+        "wort": "der Blutdruck",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فشار خون",
+          "en": "blood pressure"
+        },
+        "id_ref": "nomen_blutdruck"
+      },
+      {
+        "wort": "intravenös",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "وریدی",
+          "en": "intravenous"
+        },
+        "id_ref": "adjektiv_intravenoes"
+      },
+      {
+        "wort": "die Ader",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رگ",
+          "en": "vein"
+        },
+        "id_ref": "nomen_ader"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
