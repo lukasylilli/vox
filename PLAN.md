@@ -14,7 +14,8 @@
 > متن مفصل قبل از این خلاصه: `git show a078dc2:PLAN.md` (نسخه‌ی قدیمی‌تر: `afad3ab`).
 > 🗂️ **خلاصه‌سازی سوم (2026-09-24 دور ۶۳، درخواست Lukas — «سریع‌تر، بدون اشتباه»):** گزارش دور به دور کلمه‌ها، جدول پیشرفت و L.4b/L.4b-2 به چند خط کوتاه شد؛ متن کامل قبلی: `git show be0c77d:PLAN.md`.
 >
-> 🗓️ **آخرین جلسه:** 2026-09-27 (دور ۳۵۵–۳۶۴) — **۹۹ کلمه‌ی تازه** (Lukas: «Weiter»): labiodental … lexikographisch ⇒ آرشیو **۳۲۳۵ کارت** (هر دور: dry-run ۰/۰، analyze و همه‌ی ۳۴۲ تست سبز). ⚠️ دور ۳۶۱ فقط ۹ کارت داشت (legal جا ماند و در دور ۳۶۲ ساخته شد)؛ پیام commit آن دور به‌اشتباه «۱۰ کلمه» نوشته — هیچ کلمه‌ای گم نشده. Wortart غلطی پیدا نشد. **۱۲ کلمه کنار گذاشته** (⇒ «🏁 مرحله‌ی آخر» #۲۷۹–۲۹۰): laff، laikal، larifari، latinisch، latreutisch، leckerfritzig، legasthen، leidsam، leinen، leinwand (رایج: leiwand)، letzter (شکل صرف‌شده)، levurozid. ⏭️ Claude: کلمه‌ها **از libanesisch**.
+> 🗓️ **آخرین جلسه:** 2026-09-27 (دور ۳۶۵–۳۷۴) — **۱۰۰ کلمه‌ی تازه** (Lukas: «Weiter»): libanesisch … mäßig ⇒ آرشیو **۳۳۳۵ کارت** (حرف L تمام شد، M شروع شد؛ هر دور: dry-run ۰/۰، analyze و همه‌ی ۳۴۲ تست سبز؛ هر دور commit خودش). Wortart غلطی پیدا نشد. **۱۳ کلمه کنار گذاشته** (⇒ «🏁 مرحله‌ی آخر» #۲۹۱–۳۰۳): lidschäftig، limnophil، linden، linker (شکل صرف‌شده)، listrisch، lohfarben، lucianisch، ludisch، lübsch، lüdisch، lukulent، luminös، lustgetrieben. ⏭️ Claude: کلمه‌ها **از mäzenatisch**.
+> قبلی: 2026-09-27 (دور ۳۵۵–۳۶۴) — **۹۹ کلمه‌ی تازه**: labiodental … lexikographisch ⇒ آرشیو ۳۲۳۵؛ ۱۲ کلمه کنار گذاشته (#۲۷۹–۲۹۰)؛ GitHub Actions همه سبز.
 > قبلی: 2026-09-27 (دور ۳۴۵–۳۵۴) — **۱۰۰ کلمه‌ی تازه**: korrosionsbeständig … labil ⇒ آرشیو ۳۱۳۶؛ ۹ کلمه کنار گذاشته (#۲۷۰–۲۷۸).
 > قبلی: 2026-09-27 (دور ۳۳۵–۳۴۴) — **۱۰۰ کلمه‌ی تازه**: kombinatorisch … korrigierbar ⇒ آرشیو ۳۰۳۶؛ ۱۰ کلمه کنار گذاشته (#۲۶۰–۲۶۹).
 > قبلی: 2026-09-27 (دور ۳۲۵–۳۳۴) — **۱۰۰ کلمه‌ی تازه**: katholisch … komatös ⇒ آرشیو ۲۹۳۶؛ ۹ کلمه کنار گذاشته (#۲۵۱–۲۵۹)؛ GitHub Actions همه سبز.
