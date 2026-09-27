@@ -1,0 +1,116 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_gleichschenklig",
+  "wort": "gleichschenklig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(هندسه) متساوی‌الساقین"
+    ],
+    "en": [
+      "(geometry) isosceles"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Mathematik"
+  ],
+  "ipa": "ˈɡlaɪ̯çʃɛŋklɪç",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Dreieck ist gleichschenklig.",
+      "uebersetzung": {
+        "fa": "مثلث متساوی‌الساقین است.",
+        "en": "The triangle is isosceles."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In einem gleichschenkligen Dreieck sind zwei Seiten gleich lang, sodass auch zwei Winkel gleich groß sind.",
+      "uebersetzung": {
+        "fa": "در مثلث متساوی‌الساقین دو ضلع هم‌اندازه‌اند، طوری که دو زاویه هم برابرند.",
+        "en": "In an isosceles triangle two sides are the same length, so two angles are also equal."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "gleich (یکسان) + Schenkel (ساق) + -ig",
+    "en": "gleich (same) + Schenkel (leg) + -ig"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "gleichschenklig",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein gleichschenkliges Dreieck"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Schenkel",
+    "woerter": [
+      {
+        "wort": "das Dreieck",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مثلث",
+          "en": "triangle"
+        },
+        "id_ref": "nomen_dreieck"
+      },
+      {
+        "wort": "der Winkel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زاویه",
+          "en": "angle"
+        },
+        "id_ref": "nomen_winkel"
+      },
+      {
+        "wort": "die Seite",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ضلع، طرف",
+          "en": "side"
+        },
+        "id_ref": "nomen_seite"
+      },
+      {
+        "wort": "gleichseitig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "متساوی‌الاضلاع",
+          "en": "equilateral"
+        },
+        "id_ref": "adjektiv_gleichseitig"
+      },
+      {
+        "wort": "geometrisch",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "هندسی",
+          "en": "geometric"
+        },
+        "id_ref": "adjektiv_geometrisch"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
