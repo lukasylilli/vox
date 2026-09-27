@@ -340,6 +340,9 @@ const zurueckgestellt = <String>{
   'ludisch', // seltenes Fachwort (spielerisch?), Gebrauch unsicher 2026-09-27
   'lübsch', // veraltet/historisch (Lübeck betreffend?), Gebrauch unsicher 2026-09-27
   'lüdisch', // Wort unbekannt, Bedeutung unsicher 2026-09-27
+  'lukulent', // Wort unbekannt (Nebenform von «lukullisch»?), unsicher 2026-09-27
+  'luminös', // selten/bildungssprachlich (leuchtend?), Gebrauch unsicher 2026-09-27
+  'lustgetrieben', // freie Bildung, keine gesicherte lexikalische Form 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
