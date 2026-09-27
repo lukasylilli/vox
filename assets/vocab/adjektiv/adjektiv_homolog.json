@@ -1,0 +1,134 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_homolog",
+  "wort": "homolog",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "همولوگ",
+      "همتا، متناظر (در ساختار یا منشأ)"
+    ],
+    "en": [
+      "homologous"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Biologie",
+    "Wissenschaft"
+  ],
+  "ipa": "homoˈloːk",
+  "anmerkung": "Fachsprachlich (Biologie, Chemie, Mathematik).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Organe sind homolog.",
+      "uebersetzung": {
+        "fa": "این اندام‌ها همولوگ‌اند.",
+        "en": "The organs are homologous."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Arm des Menschen und der Flügel der Fledermaus sind homolog, weil sie denselben Ursprung haben.",
+      "uebersetzung": {
+        "fa": "دست انسان و بال خفاش همولوگ‌اند، چون منشأ یکسانی دارند.",
+        "en": "The human arm and the bat's wing are homologous because they have the same origin."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "entsprechend",
+      "uebersetzung": {
+        "fa": "متناظر",
+        "en": "corresponding"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "analog",
+      "uebersetzung": {
+        "fa": "آنالوگ (هم‌کار، نه هم‌منشأ)",
+        "en": "analogous"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "homo- (همان) + -log (نسبت، گفتار)",
+    "en": "homo- (same) + -log (relation)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "homolog",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "homologe Chromosomen"
+    ],
+    "gegensatzpaar": "homolog ↔ analog"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Organ",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اندام",
+          "en": "organ"
+        },
+        "id_ref": "nomen_organ"
+      },
+      {
+        "wort": "die Evolution",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تکامل",
+          "en": "evolution"
+        },
+        "id_ref": "nomen_evolution"
+      },
+      {
+        "wort": "das Chromosom",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کروموزوم",
+          "en": "chromosome"
+        },
+        "id_ref": "nomen_chromosom"
+      },
+      {
+        "wort": "der Ursprung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "منشأ",
+          "en": "origin"
+        },
+        "id_ref": "nomen_ursprung"
+      },
+      {
+        "wort": "ähnlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شبیه",
+          "en": "similar"
+        },
+        "id_ref": "adjektiv_aehnlich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

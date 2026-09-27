@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_homozygot",
+  "wort": "homozygot",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(ژنتیک) هموزیگوت",
+      "خالص (از نظر ژن)"
+    ],
+    "en": [
+      "(genetics) homozygous"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Biologie",
+    "Medizin"
+  ],
+  "ipa": "homot͡syˈɡoːt",
+  "anmerkung": "Genetische Fachsprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Tier ist homozygot.",
+      "uebersetzung": {
+        "fa": "این حیوان هموزیگوت است.",
+        "en": "The animal is homozygous."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Eine rezessive Krankheit tritt meist nur auf, wenn ein Mensch für das veränderte Gen homozygot ist.",
+      "uebersetzung": {
+        "fa": "بیماری مغلوب معمولاً فقط وقتی بروز می‌کند که فرد برای ژن تغییریافته هموزیگوت باشد.",
+        "en": "A recessive disease usually only appears when a person is homozygous for the altered gene."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "heterozygot",
+      "uebersetzung": {
+        "fa": "هتروزیگوت",
+        "en": "heterozygous"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "homo- (همان) + zygot (جفت‌شده)",
+    "en": "homo- (same) + zygot (yoked)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "homozygot",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein homozygoter Träger"
+    ],
+    "gegensatzpaar": "homozygot ↔ heterozygot"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Gen",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ژن",
+          "en": "gene"
+        },
+        "id_ref": "nomen_gen"
+      },
+      {
+        "wort": "heterozygot",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "هتروزیگوت",
+          "en": "heterozygous"
+        },
+        "id_ref": "adjektiv_heterozygot"
+      },
+      {
+        "wort": "hemizygot",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "همی‌زیگوت",
+          "en": "hemizygous"
+        },
+        "id_ref": "adjektiv_hemizygot"
+      },
+      {
+        "wort": "rezessiv",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "مغلوب",
+          "en": "recessive"
+        },
+        "id_ref": "adjektiv_rezessiv"
+      },
+      {
+        "wort": "die Genetik",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ژنتیک",
+          "en": "genetics"
+        },
+        "id_ref": "nomen_genetik"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
