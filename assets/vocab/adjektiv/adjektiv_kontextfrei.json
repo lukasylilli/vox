@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_kontextfrei",
+  "wort": "kontextfrei",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(زبان‌شناسی/رایانه) مستقل از بافت"
+    ],
+    "en": [
+      "context-free"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Sprache",
+    "Technik"
+  ],
+  "ipa": "kɔnˈtɛkstˌfʁaɪ̯",
+  "anmerkung": "Fachsprachlich (Informatik, Linguistik: «kontextfreie Grammatik»).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Grammatik ist kontextfrei.",
+      "uebersetzung": {
+        "fa": "این دستور زبان مستقل از بافت است.",
+        "en": "The grammar is context-free."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Viele Programmiersprachen lassen sich mit einer kontextfreien Grammatik beschreiben.",
+      "uebersetzung": {
+        "fa": "بسیاری از زبان‌های برنامه‌نویسی را می‌توان با یک دستور زبان مستقل از بافت توصیف کرد.",
+        "en": "Many programming languages can be described with a context-free grammar."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "kontextsensitiv",
+      "uebersetzung": {
+        "fa": "وابسته به بافت",
+        "en": "context-sensitive"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Kontext (بافت) + -frei (آزاد از)",
+    "en": "Kontext (context) + -frei (free)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "kontextfrei",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine kontextfreie Grammatik"
+    ],
+    "gegensatzpaar": "kontextfrei ↔ kontextsensitiv"
+  },
+  "wortnetz": {
+    "grundwort": "Kontext",
+    "woerter": [
+      {
+        "wort": "der Kontext",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بافت، زمینه",
+          "en": "context"
+        },
+        "id_ref": "nomen_kontext"
+      },
+      {
+        "wort": "die Grammatik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دستور زبان",
+          "en": "grammar"
+        },
+        "id_ref": "nomen_grammatik"
+      },
+      {
+        "wort": "kontextsensitiv",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "وابسته به بافت",
+          "en": "context-sensitive"
+        },
+        "id_ref": "adjektiv_kontextsensitiv"
+      },
+      {
+        "wort": "die Informatik",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "علوم رایانه",
+          "en": "computer science"
+        },
+        "id_ref": "nomen_informatik"
+      },
+      {
+        "wort": "die Regel",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قاعده",
+          "en": "rule"
+        },
+        "id_ref": "nomen_regel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

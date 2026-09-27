@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_kontextsensitiv",
+  "wort": "kontextsensitiv",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "وابسته به بافت"
+    ],
+    "en": [
+      "context-sensitive"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Sprache",
+    "Technik"
+  ],
+  "ipa": "kɔnˈtɛkstzɛnziˌtiːf",
+  "anmerkung": "Fachsprachlich (Informatik, Linguistik).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Hilfe ist kontextsensitiv.",
+      "uebersetzung": {
+        "fa": "این راهنما وابسته به بافت است.",
+        "en": "The help is context-sensitive."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Programm bietet eine kontextsensitive Hilfe, die immer passend zur aktuellen Aufgabe erscheint.",
+      "uebersetzung": {
+        "fa": "برنامه راهنمایی وابسته به بافت دارد که همیشه متناسب با کار فعلی نمایش داده می‌شود.",
+        "en": "The program offers context-sensitive help that always appears to fit the current task."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "kontextfrei",
+      "uebersetzung": {
+        "fa": "مستقل از بافت",
+        "en": "context-free"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Kontext (بافت) + sensitiv (حساس)",
+    "en": "Kontext (context) + sensitiv (sensitive)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "kontextsensitiv",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine kontextsensitive Hilfe"
+    ],
+    "gegensatzpaar": "kontextsensitiv ↔ kontextfrei"
+  },
+  "wortnetz": {
+    "grundwort": "Kontext",
+    "woerter": [
+      {
+        "wort": "der Kontext",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بافت",
+          "en": "context"
+        },
+        "id_ref": "nomen_kontext"
+      },
+      {
+        "wort": "kontextfrei",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "مستقل از بافت",
+          "en": "context-free"
+        },
+        "id_ref": "adjektiv_kontextfrei"
+      },
+      {
+        "wort": "sensibel",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حساس",
+          "en": "sensitive"
+        },
+        "id_ref": "adjektiv_sensibel"
+      },
+      {
+        "wort": "das Programm",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برنامه",
+          "en": "program"
+        },
+        "id_ref": "nomen_programm"
+      },
+      {
+        "wort": "die Hilfe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک",
+          "en": "help"
+        },
+        "id_ref": "nomen_hilfe"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
