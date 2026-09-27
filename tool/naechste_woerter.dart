@@ -311,6 +311,10 @@ const zurueckgestellt = <String>{
   'korallen', // Stoffadjektiv (aus Koralle) — wie birken zurückgestellt 2026-09-27
   'kredibel', // veraltet/bildungssprachlich (glaubwürdig?), Gebrauch unsicher 2026-09-27
   'kreiden', // Stoffadjektiv (aus Kreide) — wie birken zurückgestellt 2026-09-27
+  'krisselig', // landschaftlich/umgangssprachlich (gekräuselt? körnig?), Bedeutung unsicher 2026-09-27
+  'krisslig', // Nebenform von «krisselig», Bedeutung unsicher 2026-09-27
+  'kristallen', // Stoffadjektiv (aus Kristall) — wie birken zurückgestellt 2026-09-27
+  'krütsch', // landschaftlich (wählerisch?), Bedeutung unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
