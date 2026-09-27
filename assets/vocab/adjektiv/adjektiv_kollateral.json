@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_kollateral",
+  "wort": "kollateral",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "جانبی",
+      "(پزشکی) کناری، هم‌طرف"
+    ],
+    "en": [
+      "collateral"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Politik"
+  ],
+  "ipa": "kɔlateˈʁaːl",
+  "anmerkung": "Fachsprachlich (Medizin); bekannt aus «Kollateralschaden».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Gefäße sind kollateral.",
+      "uebersetzung": {
+        "fa": "این رگ‌ها جانبی‌اند.",
+        "en": "The vessels are collateral."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn eine Arterie verstopft ist, können sich kollaterale Gefäße bilden, die das Blut an der Engstelle vorbeiführen.",
+      "uebersetzung": {
+        "fa": "وقتی شریانی بسته شود، ممکن است رگ‌های جانبی تشکیل شوند که خون را از کنار تنگی عبور دهند.",
+        "en": "When an artery is blocked, collateral vessels can form that lead the blood past the narrowing."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "seitlich",
+      "uebersetzung": {
+        "fa": "جانبی",
+        "en": "lateral"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین con- (با) + latus (پهلو)",
+    "en": "from Latin con- (with) + latus (side)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "kollateral",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein kollateraler Kreislauf"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "seitlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جانبی",
+          "en": "lateral"
+        },
+        "id_ref": "adjektiv_seitlich"
+      },
+      {
+        "wort": "das Gefäß",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رگ",
+          "en": "vessel"
+        },
+        "id_ref": "nomen_gefaess"
+      },
+      {
+        "wort": "der Kollateralschaden",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خسارت جانبی",
+          "en": "collateral damage"
+        },
+        "id_ref": "nomen_kollateralschaden"
+      },
+      {
+        "wort": "die Arterie",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شریان",
+          "en": "artery"
+        },
+        "id_ref": "nomen_arterie"
+      },
+      {
+        "wort": "das Blut",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خون",
+          "en": "blood"
+        },
+        "id_ref": "nomen_blut"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
