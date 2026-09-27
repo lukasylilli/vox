@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_graphematisch",
+  "wort": "graphematisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(زبان‌شناسی) مربوط به نویسه‌ها/گرافم‌ها"
+    ],
+    "en": [
+      "(linguistics) graphemic"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Sprache",
+    "Wissenschaft"
+  ],
+  "ipa": "ɡʁafeˈmaːtɪʃ",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das ist ein graphematisches Problem.",
+      "uebersetzung": {
+        "fa": "این یک مسئله‌ی نویسه‌ای است.",
+        "en": "That is a graphemic problem."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die graphematische Analyse untersucht, wie Laute im Deutschen mit Buchstaben geschrieben werden.",
+      "uebersetzung": {
+        "fa": "تحلیل نویسه‌ای بررسی می‌کند که صداها در آلمانی چگونه با حروف نوشته می‌شوند.",
+        "en": "Graphemic analysis examines how sounds are written with letters in German."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "phonetisch",
+      "uebersetzung": {
+        "fa": "آوایی",
+        "en": "phonetic"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Graphem (نویسه) + -atisch",
+    "en": "Graphem (grapheme) + -atisch"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "graphematisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine graphematische Regel"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Graphem",
+    "woerter": [
+      {
+        "wort": "der Buchstabe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حرف",
+          "en": "letter"
+        },
+        "id_ref": "nomen_buchstabe"
+      },
+      {
+        "wort": "die Schrift",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خط",
+          "en": "script"
+        },
+        "id_ref": "nomen_schrift"
+      },
+      {
+        "wort": "die Rechtschreibung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "املا",
+          "en": "spelling"
+        },
+        "id_ref": "nomen_rechtschreibung"
+      },
+      {
+        "wort": "phonetisch",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آوایی",
+          "en": "phonetic"
+        },
+        "id_ref": "adjektiv_phonetisch"
+      },
+      {
+        "wort": "der Laut",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صدا",
+          "en": "sound"
+        },
+        "id_ref": "nomen_laut"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
