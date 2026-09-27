@@ -272,6 +272,10 @@ const zurueckgestellt = <String>{
   'interkrustal', // seltenes Fachwort (Geologie?), Bedeutung unsicher 2026-09-27
   'interkurrierend', // Form unsicher (üblich: «interkurrent») 2026-09-27
   'interorbital', // mehrdeutig (Anatomie: zwischen den Augenhöhlen / Raumfahrt?), Bedeutung unsicher 2026-09-27
+  'interterritorial', // seltenes Fachwort, Gebrauch unsicher 2026-09-27
+  'interurban', // veraltet (Fernverkehr/-gespräch?), Bedeutung unsicher 2026-09-27
+  'intervallisch', // Bedeutung unsicher (in Intervallen? Musik?) 2026-09-27
+  'interventiv', // seltenes Fachwort, Gebrauch unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

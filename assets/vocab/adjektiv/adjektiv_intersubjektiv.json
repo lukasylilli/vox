@@ -1,0 +1,134 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_intersubjektiv",
+  "wort": "intersubjektiv",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "بین‌الاذهانی",
+      "قابل بررسی برای همه"
+    ],
+    "en": [
+      "intersubjective"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Philosophie",
+    "Wissenschaft"
+  ],
+  "ipa": "ɪntɐzʊpjɛkˈtiːf",
+  "anmerkung": "Bildungssprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Ergebnis ist intersubjektiv.",
+      "uebersetzung": {
+        "fa": "این نتیجه بین‌الاذهانی است.",
+        "en": "The result is intersubjective."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wissenschaftliche Ergebnisse müssen intersubjektiv überprüfbar sein, also von anderen Forschern wiederholt werden können.",
+      "uebersetzung": {
+        "fa": "نتیجه‌های علمی باید به‌طور بین‌الاذهانی قابل بررسی باشند، یعنی پژوهشگران دیگر بتوانند تکرارشان کنند.",
+        "en": "Scientific results must be intersubjectively verifiable, that is, other researchers must be able to repeat them."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "objektiv",
+      "uebersetzung": {
+        "fa": "عینی",
+        "en": "objective"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "subjektiv",
+      "uebersetzung": {
+        "fa": "ذهنی",
+        "en": "subjective"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "inter- (میان) + subjektiv (ذهنی)",
+    "en": "inter- (between) + subjektiv (subjective)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "intersubjektiv",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine intersubjektive Überprüfung"
+    ],
+    "gegensatzpaar": "intersubjektiv ↔ subjektiv"
+  },
+  "wortnetz": {
+    "grundwort": "Subjekt",
+    "woerter": [
+      {
+        "wort": "subjektiv",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ذهنی",
+          "en": "subjective"
+        },
+        "id_ref": "adjektiv_subjektiv"
+      },
+      {
+        "wort": "objektiv",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عینی",
+          "en": "objective"
+        },
+        "id_ref": "adjektiv_objektiv"
+      },
+      {
+        "wort": "die Wissenschaft",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "علم",
+          "en": "science"
+        },
+        "id_ref": "nomen_wissenschaft"
+      },
+      {
+        "wort": "überprüfen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بررسی کردن",
+          "en": "to check"
+        },
+        "id_ref": "verb_ueberpruefen"
+      },
+      {
+        "wort": "die Philosophie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فلسفه",
+          "en": "philosophy"
+        },
+        "id_ref": "nomen_philosophie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
