@@ -248,6 +248,9 @@ const zurueckgestellt = <String>{
   'hallisch', // Adjektiv zu Halle (Saale)? Form (hallesch/hallisch) unsicher 2026-09-27
   'haloniert', // seltenes Fachwort (Augenringe?), Bedeutung unsicher 2026-09-27
   'haltig', // als freies Wort unsicher (sonst nur Suffix -haltig) 2026-09-27
+  'handsam', // landschaftlich, Bedeutung (handlich/umgänglich?) unsicher 2026-09-27
+  'hanfen', // Stoffadjektiv (aus Hanf) — wie flächsen zurückgestellt 2026-09-27
+  'hapaxanth', // botanisches Fachwort (einmal blühend?), Form/Bedeutung unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

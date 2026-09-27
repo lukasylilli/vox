@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_haploid",
+  "wort": "haploid",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(زیست‌شناسی) تک‌لاد، هاپلوئید"
+    ],
+    "en": [
+      "(biology) haploid"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Biologie",
+    "Wissenschaft"
+  ],
+  "ipa": "haploˈiːt",
+  "anmerkung": "Biologische Fachsprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Zelle ist haploid.",
+      "uebersetzung": {
+        "fa": "این سلول هاپلوئید است.",
+        "en": "The cell is haploid."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ei- und Samenzellen sind haploid, das heißt, sie besitzen nur einen einfachen Chromosomensatz.",
+      "uebersetzung": {
+        "fa": "تخمک و اسپرم هاپلوئیدند، یعنی فقط یک دست کروموزوم دارند.",
+        "en": "Egg and sperm cells are haploid, that is, they have only a single set of chromosomes."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "diploid",
+      "uebersetzung": {
+        "fa": "دولاد، دیپلوئید",
+        "en": "diploid"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از یونانی haplóos (ساده) + -oid",
+    "en": "from Greek haplóos (single) + -oid"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "haploid",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein haploider Chromosomensatz"
+    ],
+    "gegensatzpaar": "haploid ↔ diploid"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Zelle",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سلول",
+          "en": "cell"
+        },
+        "id_ref": "nomen_zelle"
+      },
+      {
+        "wort": "das Chromosom",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کروموزوم",
+          "en": "chromosome"
+        },
+        "id_ref": "nomen_chromosom"
+      },
+      {
+        "wort": "diploid",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "دیپلوئید",
+          "en": "diploid"
+        },
+        "id_ref": "adjektiv_diploid"
+      },
+      {
+        "wort": "die Genetik",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ژنتیک",
+          "en": "genetics"
+        },
+        "id_ref": "nomen_genetik"
+      },
+      {
+        "wort": "die Biologie",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زیست‌شناسی",
+          "en": "biology"
+        },
+        "id_ref": "nomen_biologie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
