@@ -1,0 +1,141 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_minimal",
+  "wort": "minimal",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "حداقل",
+      "ناچیز"
+    ],
+    "en": [
+      "minimal"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Zahlen",
+    "Bewertung"
+  ],
+  "ipa": "miniˈmaːl",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Unterschied ist minimal.",
+      "uebersetzung": {
+        "fa": "این تفاوت ناچیز است.",
+        "en": "The difference is minimal."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Operation ist minimal-invasiv, deshalb bleiben nur zwei kleine Narben zurück.",
+      "uebersetzung": {
+        "fa": "این جراحی کم‌تهاجمی است، به همین دلیل فقط دو جای زخم کوچک می‌ماند.",
+        "en": "The operation is minimally invasive, so only two small scars remain."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gering",
+      "uebersetzung": {
+        "fa": "اندک",
+        "en": "slight"
+      }
+    },
+    {
+      "wort": "winzig",
+      "uebersetzung": {
+        "fa": "ریز",
+        "en": "tiny"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "maximal",
+      "uebersetzung": {
+        "fa": "حداکثر",
+        "en": "maximal"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Minimum (کمینه) + -al",
+    "en": "Minimum + -al"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "minimal",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein minimaler Aufwand"
+    ],
+    "gegensatzpaar": "minimal ↔ maximal"
+  },
+  "wortnetz": {
+    "grundwort": "Minimum",
+    "woerter": [
+      {
+        "wort": "das Minimum",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حداقل",
+          "en": "minimum"
+        },
+        "id_ref": "nomen_minimum"
+      },
+      {
+        "wort": "maximal",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حداکثر",
+          "en": "maximum"
+        },
+        "id_ref": "adjektiv_maximal"
+      },
+      {
+        "wort": "gering",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اندک",
+          "en": "slight"
+        },
+        "id_ref": "adjektiv_gering"
+      },
+      {
+        "wort": "winzig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ریز",
+          "en": "tiny"
+        },
+        "id_ref": "adjektiv_winzig"
+      },
+      {
+        "wort": "marginal",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ناچیز",
+          "en": "marginal"
+        },
+        "id_ref": "adjektiv_marginal"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

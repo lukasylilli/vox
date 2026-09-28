@@ -358,6 +358,8 @@ const zurueckgestellt = <String>{
   'metadiegetisch', // sehr seltenes Fachwort (Erzähltheorie), unsicher 2026-09-27
   'millenarisch', // seltenes Fachwort (chiliastisch?), Bedeutung unsicher 2026-09-27
   'minderer', // Listenfehler: flektierte Form, Grundform «mindere» (wie hinterer/letzter) 2026-09-27
+  'ministrabel', // bildungssprachlich/selten (für ein Ministeramt geeignet?), Gebrauch unsicher 2026-09-27
+  'mirakulös', // bildungssprachlich/selten (wundersam?), Gebrauch unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
