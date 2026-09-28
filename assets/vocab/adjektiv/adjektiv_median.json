@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_median",
+  "wort": "median",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(آمار) میانه‌ای",
+      "(پزشکی) میانی، در خط وسط"
+    ],
+    "en": [
+      "median"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik",
+    "Medizin"
+  ],
+  "ipa": "meˈdi̯aːn",
+  "anmerkung": "Fachsprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Wert ist median.",
+      "uebersetzung": {
+        "fa": "این مقدار میانه است.",
+        "en": "The value is median."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das mediane Einkommen ist oft aussagekräftiger als der Durchschnitt, weil sehr hohe Gehälter es kaum verzerren.",
+      "uebersetzung": {
+        "fa": "درآمد میانه اغلب گویاتر از میانگین است، چون حقوق‌های خیلی بالا آن را کمتر مخدوش می‌کنند.",
+        "en": "Median income is often more meaningful than the average because very high salaries hardly distort it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "mittlere",
+      "uebersetzung": {
+        "fa": "میانی",
+        "en": "middle"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین medianus (میانی)",
+    "en": "from Latin medianus (middle)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "median",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "das mediane Einkommen"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Median",
+    "woerter": [
+      {
+        "wort": "der Durchschnitt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "میانگین",
+          "en": "average"
+        },
+        "id_ref": "nomen_durchschnitt"
+      },
+      {
+        "wort": "die Statistik",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آمار",
+          "en": "statistics"
+        },
+        "id_ref": "nomen_statistik"
+      },
+      {
+        "wort": "die Mitte",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "وسط",
+          "en": "middle"
+        },
+        "id_ref": "nomen_mitte"
+      },
+      {
+        "wort": "der Wert",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مقدار",
+          "en": "value"
+        },
+        "id_ref": "nomen_wert"
+      },
+      {
+        "wort": "das Einkommen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درآمد",
+          "en": "income"
+        },
+        "id_ref": "nomen_einkommen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

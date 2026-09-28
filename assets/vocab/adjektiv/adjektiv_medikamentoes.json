@@ -1,0 +1,139 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_medikamentoes",
+  "wort": "medikamentös",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(پزشکی) دارویی، با دارو"
+    ],
+    "en": [
+      "(medical) drug-based, medicinal"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin"
+  ],
+  "ipa": "medikamɛnˈtøːs",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Behandlung ist medikamentös.",
+      "uebersetzung": {
+        "fa": "این درمان دارویی است.",
+        "en": "The treatment is drug-based."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Zuerst versucht man, den hohen Blutdruck medikamentös zu senken, bevor andere Maßnahmen nötig werden.",
+      "uebersetzung": {
+        "fa": "اول سعی می‌کنند فشار خون بالا را با دارو پایین بیاورند، پیش از آنکه اقدامات دیگر لازم شود.",
+        "en": "First they try to lower the high blood pressure with medication before other measures become necessary."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "arzneilich",
+      "uebersetzung": {
+        "fa": "دارویی",
+        "en": "medicinal"
+      }
+    },
+    {
+      "wort": "pharmakologisch",
+      "uebersetzung": {
+        "fa": "دارویی",
+        "en": "pharmacological"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "operativ",
+      "uebersetzung": {
+        "fa": "جراحی",
+        "en": "surgical"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Medikament (دارو) + -ös",
+    "en": "Medikament (medication) + -ös"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "medikamentös",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine medikamentöse Therapie"
+    ],
+    "gegensatzpaar": "medikamentös ↔ operativ"
+  },
+  "wortnetz": {
+    "grundwort": "Medikament",
+    "woerter": [
+      {
+        "wort": "das Medikament",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دارو",
+          "en": "medicine"
+        },
+        "id_ref": "nomen_medikament"
+      },
+      {
+        "wort": "die Therapie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درمان",
+          "en": "therapy"
+        },
+        "id_ref": "nomen_therapie"
+      },
+      {
+        "wort": "die Behandlung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درمان",
+          "en": "treatment"
+        },
+        "id_ref": "nomen_behandlung"
+      },
+      {
+        "wort": "operativ",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "جراحی",
+          "en": "surgical"
+        },
+        "id_ref": "adjektiv_operativ"
+      },
+      {
+        "wort": "der Blutdruck",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فشار خون",
+          "en": "blood pressure"
+        },
+        "id_ref": "nomen_blutdruck"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
