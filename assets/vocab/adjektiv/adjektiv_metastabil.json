@@ -1,0 +1,132 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_metastabil",
+  "wort": "metastabil",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(فیزیک/شیمی) نیمه‌پایدار"
+    ],
+    "en": [
+      "metastable"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Physik",
+    "Chemie"
+  ],
+  "ipa": "metaʃtaˈbiːl",
+  "anmerkung": "Fachsprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Zustand ist metastabil.",
+      "uebersetzung": {
+        "fa": "این حالت نیمه‌پایدار است.",
+        "en": "The state is metastable."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Unterkühltes Wasser ist metastabil: Es bleibt flüssig, bis eine kleine Erschütterung es plötzlich gefrieren lässt.",
+      "uebersetzung": {
+        "fa": "آب فوق‌سرد نیمه‌پایدار است: مایع می‌ماند تا یک تکان کوچک ناگهان آن را منجمد کند.",
+        "en": "Supercooled water is metastable: it stays liquid until a small jolt makes it freeze suddenly."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "stabil",
+      "uebersetzung": {
+        "fa": "پایدار",
+        "en": "stable"
+      }
+    },
+    {
+      "wort": "instabil",
+      "uebersetzung": {
+        "fa": "ناپایدار",
+        "en": "unstable"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "meta- (فرا) + stabil (پایدار)",
+    "en": "meta- (beyond) + stabil (stable)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "metastabil",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein metastabiler Zustand"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "stabil",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پایدار",
+          "en": "stable"
+        },
+        "id_ref": "adjektiv_stabil"
+      },
+      {
+        "wort": "instabil",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ناپایدار",
+          "en": "unstable"
+        },
+        "id_ref": "adjektiv_instabil"
+      },
+      {
+        "wort": "der Zustand",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حالت",
+          "en": "state"
+        },
+        "id_ref": "nomen_zustand"
+      },
+      {
+        "wort": "die Physik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فیزیک",
+          "en": "physics"
+        },
+        "id_ref": "nomen_physik"
+      },
+      {
+        "wort": "gefrieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "یخ زدن",
+          "en": "to freeze"
+        },
+        "id_ref": "verb_gefrieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
