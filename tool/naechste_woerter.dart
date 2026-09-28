@@ -349,6 +349,7 @@ const zurueckgestellt = <String>{
   'mancherlei', // Wortart unsicher (Duden: unbestimmtes Zahlwort/Pronomen, undeklinierbar) — Lukas entscheidet 2026-09-27
   'marastisch', // Form unsicher (medizinisch üblich: «marantisch»?) 2026-09-27
   'marktbar', // Wort unbekannt (marktfähig?), Bedeutung unsicher 2026-09-27
+  'maschinenmäßig', // freie Bildung (wie eine Maschine?), keine gesicherte lexikalische Form 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
