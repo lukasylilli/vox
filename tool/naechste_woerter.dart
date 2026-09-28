@@ -363,6 +363,7 @@ const zurueckgestellt = <String>{
   'mittelalterig', // Form unsicher (mittleren Alters? Nebenform «mittelaltrig») 2026-09-27
   'mittelaltrig', // Form unsicher (Nebenform von «mittelalterig»?) 2026-09-27
   'mnestisch', // seltenes Fachwort (Gedächtnis betreffend?), unsicher 2026-09-27
+  'moderativ', // Wort unbekannt (mäßigend?), Bedeutung unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
