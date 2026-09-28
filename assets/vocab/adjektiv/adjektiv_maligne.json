@@ -1,0 +1,139 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_maligne",
+  "wort": "maligne",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(پزشکی) بدخیم"
+    ],
+    "en": [
+      "(medical) malignant"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin"
+  ],
+  "ipa": "maˈlɪɡnə",
+  "anmerkung": "Medizinische Fachsprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Tumor ist maligne.",
+      "uebersetzung": {
+        "fa": "این تومور بدخیم است.",
+        "en": "The tumour is malignant."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Erst die Gewebeprobe zeigte, ob der Knoten gutartig oder maligne war.",
+      "uebersetzung": {
+        "fa": "تازه نمونه‌برداری بافت نشان داد که آن توده خوش‌خیم است یا بدخیم.",
+        "en": "Only the biopsy showed whether the lump was benign or malignant."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bösartig",
+      "uebersetzung": {
+        "fa": "بدخیم",
+        "en": "malignant"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "benigne",
+      "uebersetzung": {
+        "fa": "خوش‌خیم",
+        "en": "benign"
+      }
+    },
+    {
+      "wort": "gutartig",
+      "uebersetzung": {
+        "fa": "خوش‌خیم",
+        "en": "benign"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین malignus (بدنهاد)",
+    "en": "from Latin malignus (malicious)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "maligne",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein maligner Tumor"
+    ],
+    "gegensatzpaar": "maligne ↔ benigne"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "bösartig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بدخیم",
+          "en": "malignant"
+        },
+        "id_ref": "adjektiv_boesartig"
+      },
+      {
+        "wort": "gutartig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خوش‌خیم",
+          "en": "benign"
+        },
+        "id_ref": "adjektiv_gutartig"
+      },
+      {
+        "wort": "der Tumor",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تومور",
+          "en": "tumour"
+        },
+        "id_ref": "nomen_tumor"
+      },
+      {
+        "wort": "der Krebs",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرطان",
+          "en": "cancer"
+        },
+        "id_ref": "nomen_krebs"
+      },
+      {
+        "wort": "die Diagnose",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تشخیص",
+          "en": "diagnosis"
+        },
+        "id_ref": "nomen_diagnose"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

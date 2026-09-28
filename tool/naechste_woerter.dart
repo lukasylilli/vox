@@ -345,6 +345,8 @@ const zurueckgestellt = <String>{
   'lustgetrieben', // freie Bildung, keine gesicherte lexikalische Form 2026-09-27
   'mainzisch', // Form unsicher (üblich: «Mainzer») 2026-09-27
   'majorenn', // veraltet (volljährig?), Gebrauch unsicher 2026-09-27
+  'mamertinisch', // seltenes historisches Wort (Mamertiner?), Bedeutung unsicher 2026-09-27
+  'mancherlei', // Wortart unsicher (Duden: unbestimmtes Zahlwort/Pronomen, undeklinierbar) — Lukas entscheidet 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
