@@ -1,0 +1,116 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_nephrotoxisch",
+  "wort": "nephrotoxisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(پزشکی) کلیه‌سمی، آسیب‌رسان به کلیه"
+    ],
+    "en": [
+      "(medical) nephrotoxic"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin"
+  ],
+  "ipa": "nefʁoˈtɔksɪʃ",
+  "anmerkung": "Medizinische Fachsprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Medikament ist nephrotoxisch.",
+      "uebersetzung": {
+        "fa": "این دارو برای کلیه سمی است.",
+        "en": "The drug is nephrotoxic."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil einige Antibiotika nephrotoxisch sind, müssen bei der Therapie regelmäßig die Nierenwerte kontrolliert werden.",
+      "uebersetzung": {
+        "fa": "چون برخی آنتی‌بیوتیک‌ها برای کلیه سمی‌اند، در طول درمان باید مرتب شاخص‌های کلیه کنترل شوند.",
+        "en": "Because some antibiotics are nephrotoxic, kidney values must be checked regularly during therapy."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "nephro- (کلیه) + toxisch (سمی)",
+    "en": "nephro- (kidney) + toxisch (toxic)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "nephrotoxisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "nephrotoxische Substanzen"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Niere",
+    "woerter": [
+      {
+        "wort": "die Niere",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کلیه",
+          "en": "kidney"
+        },
+        "id_ref": "nomen_niere"
+      },
+      {
+        "wort": "toxisch",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سمی",
+          "en": "toxic"
+        },
+        "id_ref": "adjektiv_toxisch"
+      },
+      {
+        "wort": "das Medikament",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دارو",
+          "en": "medicine"
+        },
+        "id_ref": "nomen_medikament"
+      },
+      {
+        "wort": "das Antibiotikum",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آنتی‌بیوتیک",
+          "en": "antibiotic"
+        },
+        "id_ref": "nomen_antibiotikum"
+      },
+      {
+        "wort": "die Nebenwirkung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عارضه",
+          "en": "side effect"
+        },
+        "id_ref": "nomen_nebenwirkung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
