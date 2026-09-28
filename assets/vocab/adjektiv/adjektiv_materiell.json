@@ -1,0 +1,149 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_materiell",
+  "wort": "materiell",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "مادی",
+      "مالی"
+    ],
+    "en": [
+      "material",
+      "financial"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Geld",
+    "Werte"
+  ],
+  "ipa": "mateˈʁi̯ɛl",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Schaden ist materiell.",
+      "uebersetzung": {
+        "fa": "این خسارت مادی است.",
+        "en": "The damage is material."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Für viele Menschen ist materieller Wohlstand weniger wichtig als Zeit mit der Familie.",
+      "uebersetzung": {
+        "fa": "برای بسیاری از مردم رفاه مادی کمتر از وقت گذراندن با خانواده اهمیت دارد.",
+        "en": "For many people material prosperity is less important than time with the family."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "finanziell",
+      "uebersetzung": {
+        "fa": "مالی",
+        "en": "financial"
+      }
+    },
+    {
+      "wort": "stofflich",
+      "uebersetzung": {
+        "fa": "جسمانی",
+        "en": "physical"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ideell",
+      "uebersetzung": {
+        "fa": "معنوی",
+        "en": "non-material"
+      }
+    },
+    {
+      "wort": "geistig",
+      "uebersetzung": {
+        "fa": "ذهنی",
+        "en": "spiritual"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Material (ماده) + -iell",
+    "en": "Material (material) + -iell"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "materiell",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "materielle Werte"
+    ],
+    "gegensatzpaar": "materiell ↔ ideell"
+  },
+  "wortnetz": {
+    "grundwort": "Materie",
+    "woerter": [
+      {
+        "wort": "ideell",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "معنوی",
+          "en": "non-material"
+        },
+        "id_ref": "adjektiv_ideell"
+      },
+      {
+        "wort": "finanziell",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مالی",
+          "en": "financial"
+        },
+        "id_ref": "adjektiv_finanziell"
+      },
+      {
+        "wort": "das Geld",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پول",
+          "en": "money"
+        },
+        "id_ref": "nomen_geld"
+      },
+      {
+        "wort": "der Wohlstand",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رفاه",
+          "en": "prosperity"
+        },
+        "id_ref": "nomen_wohlstand"
+      },
+      {
+        "wort": "der Schaden",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خسارت",
+          "en": "damage"
+        },
+        "id_ref": "nomen_schaden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
