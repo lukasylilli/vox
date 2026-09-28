@@ -370,6 +370,8 @@ const zurueckgestellt = <String>{
   'mongoloid', // veralteter rassentheoretischer/abwertender Begriff — Lukas entscheidet 2026-09-27
   'moros', // veraltet (mürrisch, verdrießlich?), Gebrauch unsicher 2026-09-27
   'moselromanisch', // seltenes Fachwort (Sprachgeschichte), Bedeutung unsicher 2026-09-27
+  'nachmalig', // veraltet (später?), Gebrauch unsicher 2026-09-27
+  'nachrichtlich', // Amtssprache (zur Kenntnisnahme?), Bedeutung unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
