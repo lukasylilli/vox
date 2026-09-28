@@ -381,6 +381,7 @@ const zurueckgestellt = <String>{
   'neusilbern', // Stoffadjektiv (aus Neusilber) — wie flanellen zurückgestellt 2026-09-27
   'neusumerisch', // sehr seltenes Fachwort (Altorientalistik), unsicher 2026-09-27
   'nichtperturbativ', // sehr seltenes Fachwort (Physik), unsicher 2026-09-27
+  'nillenkrank', // Wort unbekannt (vermutlich vulgär/regional), Bedeutung unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

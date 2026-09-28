@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_noerdlich",
+  "wort": "nördlich",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "شمالی"
+    ],
+    "en": [
+      "northern",
+      "north of"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Geografie",
+    "Orientierung"
+  ],
+  "ipa": "ˈnœʁtlɪç",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Hamburg liegt im nördlichen Deutschland.",
+      "uebersetzung": {
+        "fa": "هامبورگ در شمال آلمان است.",
+        "en": "Hamburg is in northern Germany."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Das kleine Dorf liegt etwa zwanzig Kilometer nördlich von Dornbirn, direkt am Bodensee.",
+      "uebersetzung": {
+        "fa": "این روستای کوچک حدود بیست کیلومتری شمال دورن‌بیرن، درست کنار دریاچه‌ی بودن است.",
+        "en": "The small village lies about twenty kilometres north of Dornbirn, right on Lake Constance."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "südlich",
+      "uebersetzung": {
+        "fa": "جنوبی",
+        "en": "southern"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Norden (شمال) + -lich",
+    "en": "Norden (north) + -lich"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "nördlich",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "nördlich von + Dat",
+        "beispiel": "Der See liegt nördlich von der Stadt.",
+        "uebersetzung": {
+          "fa": "دریاچه در شمال شهر است.",
+          "en": "The lake is north of the town."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "die nördliche Grenze"
+    ],
+    "gegensatzpaar": "nördlich ↔ südlich"
+  },
+  "wortnetz": {
+    "grundwort": "Norden",
+    "woerter": [
+      {
+        "wort": "der Norden",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شمال",
+          "en": "north"
+        },
+        "id_ref": "nomen_norden"
+      },
+      {
+        "wort": "südlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جنوبی",
+          "en": "southern"
+        },
+        "id_ref": "adjektiv_suedlich"
+      },
+      {
+        "wort": "östlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شرقی",
+          "en": "eastern"
+        },
+        "id_ref": "adjektiv_oestlich"
+      },
+      {
+        "wort": "westlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "غربی",
+          "en": "western"
+        },
+        "id_ref": "adjektiv_westlich"
+      },
+      {
+        "wort": "die Himmelsrichtung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جهت جغرافیایی",
+          "en": "compass point"
+        },
+        "id_ref": "nomen_himmelsrichtung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

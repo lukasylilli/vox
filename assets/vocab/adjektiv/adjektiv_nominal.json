@@ -1,0 +1,134 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_nominal",
+  "wort": "nominal",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "اسمی (ارزش)",
+      "(دستور زبان) اسمی"
+    ],
+    "en": [
+      "nominal"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wirtschaft",
+    "Grammatik"
+  ],
+  "ipa": "nomiˈnaːl",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Wert ist nominal.",
+      "uebersetzung": {
+        "fa": "این ارزش اسمی است.",
+        "en": "The value is nominal."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nominal sind die Löhne gestiegen, aber wegen der Inflation können sich die Menschen weniger leisten als vorher.",
+      "uebersetzung": {
+        "fa": "دستمزدها به‌طور اسمی بالا رفته‌اند، ولی به خاطر تورم مردم کمتر از قبل می‌توانند خرید کنند.",
+        "en": "Wages have risen in nominal terms, but because of inflation people can afford less than before."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "real",
+      "uebersetzung": {
+        "fa": "واقعی",
+        "en": "real"
+      }
+    },
+    {
+      "wort": "verbal",
+      "uebersetzung": {
+        "fa": "فعلی",
+        "en": "verbal"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین nominalis (اسمی)",
+    "en": "from Latin nominalis"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "nominal",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "das nominale Wachstum",
+      "der Nominalstil"
+    ],
+    "gegensatzpaar": "nominal ↔ real"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Inflation",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تورم",
+          "en": "inflation"
+        },
+        "id_ref": "nomen_inflation"
+      },
+      {
+        "wort": "der Lohn",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دستمزد",
+          "en": "wage"
+        },
+        "id_ref": "nomen_lohn"
+      },
+      {
+        "wort": "real",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "واقعی",
+          "en": "real"
+        },
+        "id_ref": "adjektiv_real"
+      },
+      {
+        "wort": "das Nomen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اسم",
+          "en": "noun"
+        },
+        "id_ref": "nomen_nomen"
+      },
+      {
+        "wort": "der Wert",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ارزش",
+          "en": "value"
+        },
+        "id_ref": "nomen_wert"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
