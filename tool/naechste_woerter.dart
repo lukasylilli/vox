@@ -354,6 +354,8 @@ const zurueckgestellt = <String>{
   'mediat', // veraltet/historisch (mittelbar?), Gebrauch unsicher 2026-09-27
   'meißenisch', // Form unsicher (üblich: «Meißner») 2026-09-27
   'meißnisch', // Form unsicher (üblich: «Meißner») 2026-09-27
+  'messingen', // Stoffadjektiv (aus Messing) — wie flanellen zurückgestellt 2026-09-27
+  'metadiegetisch', // sehr seltenes Fachwort (Erzähltheorie), unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

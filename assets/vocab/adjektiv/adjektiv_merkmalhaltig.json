@@ -1,0 +1,124 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_merkmalhaltig",
+  "wort": "merkmalhaltig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(زبان‌شناسی) نشان‌دار"
+    ],
+    "en": [
+      "(linguistics) marked"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Sprache"
+  ],
+  "ipa": "ˈmɛʁkmaːlˌhaltɪç",
+  "anmerkung": "Sprachwissenschaft (Markiertheit).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Form ist merkmalhaltig.",
+      "uebersetzung": {
+        "fa": "این صورت نشان‌دار است.",
+        "en": "The form is marked."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In der Linguistik gilt das Wort «Löwin» als merkmalhaltig, weil es das Merkmal «weiblich» ausdrücklich trägt.",
+      "uebersetzung": {
+        "fa": "در زبان‌شناسی کلمه‌ی «Löwin» نشان‌دار شمرده می‌شود، چون ویژگی «مؤنث» را آشکارا دارد.",
+        "en": "In linguistics the word «Löwin» is considered marked because it explicitly carries the feature «female»."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "merkmallos",
+      "uebersetzung": {
+        "fa": "بی‌نشان",
+        "en": "unmarked"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Merkmal (ویژگی، نشان) + -haltig (دارای)",
+    "en": "Merkmal (feature) + -haltig (containing)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "merkmalhaltig",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine merkmalhaltige Form"
+    ],
+    "gegensatzpaar": "merkmalhaltig ↔ merkmallos"
+  },
+  "wortnetz": {
+    "grundwort": "Merkmal",
+    "woerter": [
+      {
+        "wort": "das Merkmal",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ویژگی",
+          "en": "feature"
+        },
+        "id_ref": "nomen_merkmal"
+      },
+      {
+        "wort": "merkmallos",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "بی‌نشان",
+          "en": "unmarked"
+        },
+        "id_ref": "adjektiv_merkmallos"
+      },
+      {
+        "wort": "die Linguistik",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "زبان‌شناسی",
+          "en": "linguistics"
+        },
+        "id_ref": "nomen_linguistik"
+      },
+      {
+        "wort": "die Form",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صورت",
+          "en": "form"
+        },
+        "id_ref": "nomen_form"
+      },
+      {
+        "wort": "weiblich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مؤنث",
+          "en": "female"
+        },
+        "id_ref": "adjektiv_weiblich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
