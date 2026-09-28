@@ -1,0 +1,149 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_minderwertig",
+  "wort": "minderwertig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "بی‌کیفیت",
+      "پست‌تر"
+    ],
+    "en": [
+      "inferior",
+      "low-quality"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Bewertung"
+  ],
+  "ipa": "ˈmɪndɐˌveːɐ̯tɪç",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Ware ist minderwertig.",
+      "uebersetzung": {
+        "fa": "این کالا بی‌کیفیت است.",
+        "en": "The goods are inferior."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach der Reparatur stellte sich heraus, dass der Handwerker minderwertiges Material verwendet hatte.",
+      "uebersetzung": {
+        "fa": "بعد از تعمیر معلوم شد که صنعتگر از مواد بی‌کیفیت استفاده کرده بود.",
+        "en": "After the repair it turned out that the tradesman had used inferior material."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "billig",
+      "uebersetzung": {
+        "fa": "ارزان و بی‌کیفیت",
+        "en": "cheap"
+      }
+    },
+    {
+      "wort": "schlecht",
+      "uebersetzung": {
+        "fa": "بد",
+        "en": "poor"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hochwertig",
+      "uebersetzung": {
+        "fa": "باکیفیت",
+        "en": "high-quality"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "das Minderwertigkeitsgefühl",
+      "uebersetzung": {
+        "fa": "احساس حقارت",
+        "en": "inferiority complex"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "minder (کمتر) + wertig (ارزشی)",
+    "en": "minder (less) + wertig (valued)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "minderwertig",
+      "komparativ": "minderwertiger",
+      "superlativ": "am minderwertigsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "minderwertige Qualität"
+    ],
+    "gegensatzpaar": "minderwertig ↔ hochwertig"
+  },
+  "wortnetz": {
+    "grundwort": "Wert",
+    "woerter": [
+      {
+        "wort": "hochwertig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "باکیفیت",
+          "en": "high-quality"
+        },
+        "id_ref": "adjektiv_hochwertig"
+      },
+      {
+        "wort": "die Qualität",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کیفیت",
+          "en": "quality"
+        },
+        "id_ref": "nomen_qualitaet"
+      },
+      {
+        "wort": "der Wert",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ارزش",
+          "en": "value"
+        },
+        "id_ref": "nomen_wert"
+      },
+      {
+        "wort": "billig",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ارزان",
+          "en": "cheap"
+        },
+        "id_ref": "adjektiv_billig"
+      },
+      {
+        "wort": "das Material",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ماده",
+          "en": "material"
+        },
+        "id_ref": "nomen_material"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

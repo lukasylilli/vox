@@ -1,0 +1,110 @@
+{
+  "schema": "3.0",
+  "id": "numerale_millionstel",
+  "wort": "millionstel",
+  "wortart": "numerale",
+  "uebersetzung": {
+    "fa": [
+      "یک‌میلیونم"
+    ],
+    "en": [
+      "millionth (fraction)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Zahlen",
+    "Mathematik"
+  ],
+  "ipa": "mɪˈli̯oːnstl̩",
+  "anmerkung": "Bruchzahl, undeklinierbar vor Nomen; als Nomen großgeschrieben.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das ist ein millionstel Meter.",
+      "uebersetzung": {
+        "fa": "این یک‌میلیونم متر است.",
+        "en": "That is a millionth of a metre."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ein Mikrometer ist ein millionstel Meter, also tausendmal kleiner als ein Millimeter.",
+      "uebersetzung": {
+        "fa": "یک میکرومتر یک‌میلیونم متر است، یعنی هزار بار کوچک‌تر از یک میلی‌متر.",
+        "en": "A micrometre is a millionth of a metre, i.e. a thousand times smaller than a millimetre."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Million (میلیون) + -stel (پسوند کسر)",
+    "en": "Million + -stel (fraction suffix)"
+  },
+  "details": {
+    "untertyp": "bruchzahl",
+    "deklinierbar": false,
+    "deklinationsbeispiel": null,
+    "schreibweise": "Als Zahl: 1/1 000 000; Nomen großgeschrieben: das Millionstel.",
+    "feste_wendungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Million",
+    "woerter": [
+      {
+        "wort": "die Million",
+        "wortart": "numerale",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "میلیون",
+          "en": "million"
+        },
+        "id_ref": "numerale_million"
+      },
+      {
+        "wort": "millionste",
+        "wortart": "numerale",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "میلیونم",
+          "en": "millionth"
+        },
+        "id_ref": "numerale_millionste"
+      },
+      {
+        "wort": "hundertstel",
+        "wortart": "numerale",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "یک‌صدم",
+          "en": "hundredth (fraction)"
+        },
+        "id_ref": "numerale_hundertstel"
+      },
+      {
+        "wort": "der Meter",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "متر",
+          "en": "metre"
+        },
+        "id_ref": "nomen_meter"
+      },
+      {
+        "wort": "der Teil",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بخش",
+          "en": "part"
+        },
+        "id_ref": "nomen_teil"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

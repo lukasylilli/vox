@@ -356,6 +356,8 @@ const zurueckgestellt = <String>{
   'meißnisch', // Form unsicher (üblich: «Meißner») 2026-09-27
   'messingen', // Stoffadjektiv (aus Messing) — wie flanellen zurückgestellt 2026-09-27
   'metadiegetisch', // sehr seltenes Fachwort (Erzähltheorie), unsicher 2026-09-27
+  'millenarisch', // seltenes Fachwort (chiliastisch?), Bedeutung unsicher 2026-09-27
+  'minderer', // Listenfehler: flektierte Form, Grundform «mindere» (wie hinterer/letzter) 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
@@ -399,6 +401,10 @@ const wortartKorrektur = <String, String>{
   'hunderttausendste': 'numerale', // Duden: Numerale (2026-09-27)
   'hundertundzweite': 'numerale', // Duden: Numerale (2026-09-27)
   'hundertzweite': 'numerale', // Duden: Numerale (2026-09-27)
+  'milliardste': 'numerale', // Duden: Numerale (2026-09-27)
+  'milliardstel': 'numerale', // Duden: Numerale (2026-09-27)
+  'millionste': 'numerale', // Duden: Numerale (2026-09-27)
+  'millionstel': 'numerale', // Duden: Numerale (2026-09-27)
 };
 
 /// `--abhaken` (Schritt 6 der Routine): setzt in ALLEN Listen «✓ » vor jedes
