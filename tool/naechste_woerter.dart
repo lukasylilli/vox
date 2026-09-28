@@ -377,6 +377,7 @@ const zurueckgestellt = <String>{
   'naschsüchtig', // selten (Nebenform von «naschhaft»?), Gebrauch unsicher 2026-09-27
   'neolamarckistisch', // sehr seltenes Fachwort (Biologiegeschichte), unsicher 2026-09-27
   'neovitalistisch', // sehr seltenes Fachwort (Philosophie/Biologie), unsicher 2026-09-27
+  'neurasthenisch', // veralteter medizinischer Begriff, Gebrauch unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
@@ -424,6 +425,9 @@ const wortartKorrektur = <String, String>{
   'milliardstel': 'numerale', // Duden: Numerale (2026-09-27)
   'millionste': 'numerale', // Duden: Numerale (2026-09-27)
   'millionstel': 'numerale', // Duden: Numerale (2026-09-27)
+  'neunte': 'numerale', // Duden: Numerale (2026-09-27)
+  'neunzehnte': 'numerale', // Duden: Numerale (2026-09-27)
+  'neunzigste': 'numerale', // Duden: Numerale (2026-09-27)
 };
 
 /// `--abhaken` (Schritt 6 der Routine): setzt in ALLEN Listen «✓ » vor jedes
