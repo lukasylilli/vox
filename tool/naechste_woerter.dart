@@ -352,6 +352,8 @@ const zurueckgestellt = <String>{
   'maschinenmäßig', // freie Bildung (wie eine Maschine?), keine gesicherte lexikalische Form 2026-09-27
   'masturbatorisch', // sexueller Fachbegriff — für eine Lern-App ohne Altersgrenze zurückgestellt, Lukas entscheidet 2026-09-27
   'mediat', // veraltet/historisch (mittelbar?), Gebrauch unsicher 2026-09-27
+  'meißenisch', // Form unsicher (üblich: «Meißner») 2026-09-27
+  'meißnisch', // Form unsicher (üblich: «Meißner») 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
