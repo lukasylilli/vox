@@ -382,6 +382,7 @@ const zurueckgestellt = <String>{
   'neusumerisch', // sehr seltenes Fachwort (Altorientalistik), unsicher 2026-09-27
   'nichtperturbativ', // sehr seltenes Fachwort (Physik), unsicher 2026-09-27
   'nillenkrank', // Wort unbekannt (vermutlich vulgär/regional), Bedeutung unsicher 2026-09-27
+  'nordelbisch', // selten/regional (nördlich der Elbe?), Gebrauch unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

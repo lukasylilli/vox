@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_norddeutsch",
+  "wort": "norddeutsch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "آلمان شمالی"
+    ],
+    "en": [
+      "North German"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Geografie",
+    "Sprache"
+  ],
+  "ipa": "ˈnɔʁtˌdɔɪ̯t͡ʃ",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er hat einen norddeutschen Akzent.",
+      "uebersetzung": {
+        "fa": "او لهجه‌ی آلمان شمالی دارد.",
+        "en": "He has a North German accent."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Norddeutsche Städte wie Hamburg und Bremen waren früher wichtige Handelsstädte der Hanse.",
+      "uebersetzung": {
+        "fa": "شهرهای آلمان شمالی مثل هامبورگ و برمن قدیم شهرهای تجاری مهم اتحادیه‌ی هانزا بودند.",
+        "en": "North German cities such as Hamburg and Bremen used to be important trading cities of the Hanseatic League."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "süddeutsch",
+      "uebersetzung": {
+        "fa": "آلمان جنوبی",
+        "en": "South German"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Norden (شمال) + deutsch (آلمانی)",
+    "en": "Norden (north) + deutsch (German)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "norddeutsch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "die norddeutsche Küste"
+    ],
+    "gegensatzpaar": "norddeutsch ↔ süddeutsch"
+  },
+  "wortnetz": {
+    "grundwort": "Deutschland",
+    "woerter": [
+      {
+        "wort": "süddeutsch",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آلمان جنوبی",
+          "en": "South German"
+        },
+        "id_ref": "adjektiv_sueddeutsch"
+      },
+      {
+        "wort": "mitteldeutsch",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آلمان مرکزی",
+          "en": "Central German"
+        },
+        "id_ref": "adjektiv_mitteldeutsch"
+      },
+      {
+        "wort": "die Nordsee",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دریای شمال",
+          "en": "North Sea"
+        },
+        "id_ref": "nomen_nordsee"
+      },
+      {
+        "wort": "Hamburg",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "هامبورگ",
+          "en": "Hamburg"
+        },
+        "id_ref": "nomen_hamburg"
+      },
+      {
+        "wort": "der Akzent",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لهجه",
+          "en": "accent"
+        },
+        "id_ref": "nomen_akzent"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
