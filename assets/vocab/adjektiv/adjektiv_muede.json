@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_muede",
+  "wort": "müde",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "خسته",
+      "خواب‌آلود"
+    ],
+    "en": [
+      "tired",
+      "sleepy"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Gesundheit",
+    "Gefühle"
+  ],
+  "ipa": "ˈmyːdə",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich bin sehr müde.",
+      "uebersetzung": {
+        "fa": "خیلی خسته‌ام.",
+        "en": "I am very tired."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nach dem Nachtdienst im Krankenhaus bin ich so müde, dass ich den ganzen Vormittag schlafe.",
+      "uebersetzung": {
+        "fa": "بعد از شیفت شب در بیمارستان آن‌قدر خسته‌ام که کل صبح را می‌خوابم.",
+        "en": "After the night shift at the hospital I am so tired that I sleep all morning."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erschöpft",
+      "uebersetzung": {
+        "fa": "فرسوده",
+        "en": "exhausted"
+      }
+    },
+    {
+      "wort": "schläfrig",
+      "uebersetzung": {
+        "fa": "خواب‌آلود",
+        "en": "sleepy"
+      }
+    },
+    {
+      "wort": "kaputt",
+      "uebersetzung": {
+        "fa": "کوفته",
+        "en": "shattered"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "wach",
+      "uebersetzung": {
+        "fa": "بیدار",
+        "en": "awake"
+      }
+    },
+    {
+      "wort": "munter",
+      "uebersetzung": {
+        "fa": "سرحال",
+        "en": "lively"
+      }
+    },
+    {
+      "wort": "ausgeschlafen",
+      "uebersetzung": {
+        "fa": "سیرخواب",
+        "en": "well-rested"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Müdigkeit",
+      "uebersetzung": {
+        "fa": "خستگی",
+        "en": "tiredness"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "steigerung": {
+      "positiv": "müde",
+      "komparativ": "müder",
+      "superlativ": "am müdesten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "etwas (Gen) müde sein",
+        "beispiel": "Ich bin des Wartens müde.",
+        "uebersetzung": {
+          "fa": "از انتظار خسته شده‌ام.",
+          "en": "I am tired of waiting."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein müdes Gesicht"
+    ],
+    "gegensatzpaar": "müde ↔ wach"
+  },
+  "wortnetz": {
+    "grundwort": "Müdigkeit",
+    "woerter": [
+      {
+        "wort": "schlafen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوابیدن",
+          "en": "to sleep"
+        },
+        "id_ref": "verb_schlafen"
+      },
+      {
+        "wort": "wach",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیدار",
+          "en": "awake"
+        },
+        "id_ref": "adjektiv_wach"
+      },
+      {
+        "wort": "erschöpft",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فرسوده",
+          "en": "exhausted"
+        },
+        "id_ref": "adjektiv_erschoepft"
+      },
+      {
+        "wort": "die Müdigkeit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خستگی",
+          "en": "tiredness"
+        },
+        "id_ref": "nomen_muedigkeit"
+      },
+      {
+        "wort": "schläfrig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خواب‌آلود",
+          "en": "sleepy"
+        },
+        "id_ref": "adjektiv_schlaefrig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
