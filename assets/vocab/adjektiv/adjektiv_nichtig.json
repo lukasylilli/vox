@@ -1,0 +1,150 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_nichtig",
+  "wort": "nichtig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(حقوق) باطل، بی‌اعتبار",
+      "بی‌ارزش، پوچ"
+    ],
+    "en": [
+      "void, null",
+      "trivial, futile"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Bewertung"
+  ],
+  "ipa": "ˈnɪçtɪç",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Vertrag ist nichtig.",
+      "uebersetzung": {
+        "fa": "این قرارداد باطل است.",
+        "en": "The contract is void."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ein Vertrag, der gegen das Gesetz verstößt, ist von Anfang an nichtig und muss nicht erfüllt werden.",
+      "uebersetzung": {
+        "fa": "قراردادی که خلاف قانون باشد از همان اول باطل است و لازم نیست اجرا شود.",
+        "en": "A contract that violates the law is void from the outset and does not have to be fulfilled."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ungültig",
+      "uebersetzung": {
+        "fa": "بی‌اعتبار",
+        "en": "invalid"
+      }
+    },
+    {
+      "wort": "belanglos",
+      "uebersetzung": {
+        "fa": "بی‌اهمیت",
+        "en": "trivial"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "gültig",
+      "uebersetzung": {
+        "fa": "معتبر",
+        "en": "valid"
+      }
+    },
+    {
+      "wort": "wirksam",
+      "uebersetzung": {
+        "fa": "نافذ",
+        "en": "effective"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "nichts (هیچ) + -ig",
+    "en": "nichts (nothing) + -ig"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "nichtig",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein nichtiger Anlass",
+      "null und nichtig"
+    ],
+    "gegensatzpaar": "nichtig ↔ gültig"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "ungültig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بی‌اعتبار",
+          "en": "invalid"
+        },
+        "id_ref": "adjektiv_ungueltig"
+      },
+      {
+        "wort": "gültig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "معتبر",
+          "en": "valid"
+        },
+        "id_ref": "adjektiv_gueltig"
+      },
+      {
+        "wort": "der Vertrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرارداد",
+          "en": "contract"
+        },
+        "id_ref": "nomen_vertrag"
+      },
+      {
+        "wort": "das Gesetz",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قانون",
+          "en": "law"
+        },
+        "id_ref": "nomen_gesetz"
+      },
+      {
+        "wort": "unwichtig",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بی‌اهمیت",
+          "en": "unimportant"
+        },
+        "id_ref": "adjektiv_unwichtig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

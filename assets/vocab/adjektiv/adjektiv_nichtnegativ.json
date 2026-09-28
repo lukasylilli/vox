@@ -1,0 +1,124 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_nichtnegativ",
+  "wort": "nichtnegativ",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(ریاضی) نامنفی"
+    ],
+    "en": [
+      "(maths) non-negative"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik"
+  ],
+  "ipa": "ˈnɪçtneːɡaˌtiːf",
+  "anmerkung": "Mathematische Fachsprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Zahl ist nichtnegativ.",
+      "uebersetzung": {
+        "fa": "این عدد نامنفی است.",
+        "en": "The number is non-negative."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Eine nichtnegative Zahl ist entweder null oder größer als null.",
+      "uebersetzung": {
+        "fa": "عدد نامنفی یا صفر است یا بزرگ‌تر از صفر.",
+        "en": "A non-negative number is either zero or greater than zero."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "negativ",
+      "uebersetzung": {
+        "fa": "منفی",
+        "en": "negative"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "nicht (نا-) + negativ (منفی)",
+    "en": "nicht (non-) + negativ (negative)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "nichtnegativ",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine nichtnegative Zahl"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "negativ",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "منفی",
+          "en": "negative"
+        },
+        "id_ref": "adjektiv_negativ"
+      },
+      {
+        "wort": "positiv",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مثبت",
+          "en": "positive"
+        },
+        "id_ref": "adjektiv_positiv"
+      },
+      {
+        "wort": "die Zahl",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عدد",
+          "en": "number"
+        },
+        "id_ref": "nomen_zahl"
+      },
+      {
+        "wort": "null",
+        "wortart": "numerale",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "صفر",
+          "en": "zero"
+        },
+        "id_ref": "numerale_null"
+      },
+      {
+        "wort": "die Mathematik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریاضی",
+          "en": "mathematics"
+        },
+        "id_ref": "nomen_mathematik"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

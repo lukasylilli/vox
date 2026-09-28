@@ -378,6 +378,9 @@ const zurueckgestellt = <String>{
   'neolamarckistisch', // sehr seltenes Fachwort (Biologiegeschichte), unsicher 2026-09-27
   'neovitalistisch', // sehr seltenes Fachwort (Philosophie/Biologie), unsicher 2026-09-27
   'neurasthenisch', // veralteter medizinischer Begriff, Gebrauch unsicher 2026-09-27
+  'neusilbern', // Stoffadjektiv (aus Neusilber) — wie flanellen zurückgestellt 2026-09-27
+  'neusumerisch', // sehr seltenes Fachwort (Altorientalistik), unsicher 2026-09-27
+  'nichtperturbativ', // sehr seltenes Fachwort (Physik), unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
