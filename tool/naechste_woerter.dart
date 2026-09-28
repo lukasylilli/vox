@@ -383,6 +383,7 @@ const zurueckgestellt = <String>{
   'nichtperturbativ', // sehr seltenes Fachwort (Physik), unsicher 2026-09-27
   'nillenkrank', // Wort unbekannt (vermutlich vulgär/regional), Bedeutung unsicher 2026-09-27
   'nordelbisch', // selten/regional (nördlich der Elbe?), Gebrauch unsicher 2026-09-27
+  'notgeil', // vulgärer sexueller Ausdruck — für eine Lern-App ohne Altersgrenze zurückgestellt, Lukas entscheidet 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
@@ -433,6 +434,7 @@ const wortartKorrektur = <String, String>{
   'neunte': 'numerale', // Duden: Numerale (2026-09-27)
   'neunzehnte': 'numerale', // Duden: Numerale (2026-09-27)
   'neunzigste': 'numerale', // Duden: Numerale (2026-09-27)
+  'nullte': 'numerale', // Duden: Numerale (2026-09-27)
 };
 
 /// `--abhaken` (Schritt 6 der Routine): setzt in ALLEN Listen «✓ » vor jedes

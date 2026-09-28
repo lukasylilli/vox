@@ -1,0 +1,110 @@
+{
+  "schema": "3.0",
+  "id": "numerale_nullte",
+  "wort": "nullte",
+  "wortart": "numerale",
+  "uebersetzung": {
+    "fa": [
+      "صفرم"
+    ],
+    "en": [
+      "zeroth"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Zahlen",
+    "Mathematik"
+  ],
+  "ipa": "ˈnʊltə",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das ist die nullte Stunde.",
+      "uebersetzung": {
+        "fa": "این ساعت صفرم (پیش از ساعت اول) است.",
+        "en": "That is lesson zero."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In manchen Schulen gibt es eine nullte Stunde, die schon um sieben Uhr vor dem normalen Unterricht beginnt.",
+      "uebersetzung": {
+        "fa": "در بعضی مدرسه‌ها یک ساعت صفرم هست که ساعت هفت، پیش از کلاس‌های معمول، شروع می‌شود.",
+        "en": "Some schools have a lesson zero that begins at seven o'clock before normal lessons."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "null (صفر) + -te (پسوند عدد ترتیبی)",
+    "en": "null (zero) + -te (ordinal suffix)"
+  },
+  "details": {
+    "untertyp": "ordinal",
+    "deklinierbar": true,
+    "deklinationsbeispiel": "in der nullten Stunde",
+    "schreibweise": "Als Zahl mit Punkt: 0.",
+    "feste_wendungen": []
+  },
+  "wortnetz": {
+    "grundwort": "null",
+    "woerter": [
+      {
+        "wort": "null",
+        "wortart": "numerale",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "صفر",
+          "en": "zero"
+        },
+        "id_ref": "numerale_null"
+      },
+      {
+        "wort": "erste",
+        "wortart": "numerale",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اول",
+          "en": "first"
+        },
+        "id_ref": "numerale_erste"
+      },
+      {
+        "wort": "die Stunde",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ساعت درسی",
+          "en": "lesson"
+        },
+        "id_ref": "nomen_stunde"
+      },
+      {
+        "wort": "die Zahl",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عدد",
+          "en": "number"
+        },
+        "id_ref": "nomen_zahl"
+      },
+      {
+        "wort": "die Schule",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مدرسه",
+          "en": "school"
+        },
+        "id_ref": "nomen_schule"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
