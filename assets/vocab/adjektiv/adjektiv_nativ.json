@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_nativ",
+  "wort": "nativ",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "بومی، طبیعی (بدون افزودنی)",
+      "(رایانه) بومی (نرم‌افزار)"
+    ],
+    "en": [
+      "native",
+      "natural (unprocessed)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Essen"
+  ],
+  "ipa": "naˈtiːf",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Olivenöl ist nativ.",
+      "uebersetzung": {
+        "fa": "این روغن زیتون طبیعی است.",
+        "en": "The olive oil is virgin."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Eine native App wird speziell für ein Betriebssystem programmiert und läuft deshalb oft schneller als eine Web-App.",
+      "uebersetzung": {
+        "fa": "برنامه‌ی بومی مخصوص یک سیستم‌عامل نوشته می‌شود و به همین دلیل اغلب سریع‌تر از برنامه‌ی وب اجرا می‌شود.",
+        "en": "A native app is programmed specifically for one operating system and therefore often runs faster than a web app."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ursprünglich",
+      "uebersetzung": {
+        "fa": "اصلی",
+        "en": "original"
+      }
+    },
+    {
+      "wort": "naturbelassen",
+      "uebersetzung": {
+        "fa": "طبیعی",
+        "en": "untreated"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین nativus (مادرزادی، طبیعی)",
+    "en": "from Latin nativus (inborn, natural)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "nativ",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "natives Olivenöl extra",
+      "eine native App"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "natürlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "طبیعی",
+          "en": "natural"
+        },
+        "id_ref": "adjektiv_natuerlich"
+      },
+      {
+        "wort": "das Olivenöl",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "روغن زیتون",
+          "en": "olive oil"
+        },
+        "id_ref": "nomen_olivenoel"
+      },
+      {
+        "wort": "die App",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برنامه",
+          "en": "app"
+        },
+        "id_ref": "nomen_app"
+      },
+      {
+        "wort": "das Betriebssystem",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سیستم‌عامل",
+          "en": "operating system"
+        },
+        "id_ref": "nomen_betriebssystem"
+      },
+      {
+        "wort": "ursprünglich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اصلی",
+          "en": "original"
+        },
+        "id_ref": "adjektiv_urspruenglich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

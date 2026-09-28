@@ -1,0 +1,145 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_nass",
+  "wort": "nass",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "خیس"
+    ],
+    "en": [
+      "wet"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Wetter",
+    "Alltag"
+  ],
+  "ipa": "nas",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Meine Schuhe sind nass.",
+      "uebersetzung": {
+        "fa": "کفش‌هایم خیس‌اند.",
+        "en": "My shoes are wet."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Vorsicht, der Boden ist nass, weil gerade geputzt wurde!",
+      "uebersetzung": {
+        "fa": "مراقب باش، زمین خیس است چون تازه تمیز شده!",
+        "en": "Careful, the floor is wet because it has just been cleaned!"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "feucht",
+      "uebersetzung": {
+        "fa": "نم‌دار",
+        "en": "damp"
+      }
+    },
+    {
+      "wort": "klatschnass",
+      "uebersetzung": {
+        "fa": "خیس آب",
+        "en": "soaking wet"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "trocken",
+      "uebersetzung": {
+        "fa": "خشک",
+        "en": "dry"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Nässe",
+      "uebersetzung": {
+        "fa": "خیسی",
+        "en": "wetness"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "steigerung": {
+      "positiv": "nass",
+      "komparativ": "nasser",
+      "superlativ": "am nassesten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "nasse Kleidung"
+    ],
+    "gegensatzpaar": "nass ↔ trocken"
+  },
+  "wortnetz": {
+    "grundwort": "Nässe",
+    "woerter": [
+      {
+        "wort": "trocken",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خشک",
+          "en": "dry"
+        },
+        "id_ref": "adjektiv_trocken"
+      },
+      {
+        "wort": "feucht",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نم‌دار",
+          "en": "damp"
+        },
+        "id_ref": "adjektiv_feucht"
+      },
+      {
+        "wort": "der Regen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باران",
+          "en": "rain"
+        },
+        "id_ref": "nomen_regen"
+      },
+      {
+        "wort": "das Wasser",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب",
+          "en": "water"
+        },
+        "id_ref": "nomen_wasser"
+      },
+      {
+        "wort": "klatschnass",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خیس آب",
+          "en": "soaking wet"
+        },
+        "id_ref": "adjektiv_klatschnass"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
