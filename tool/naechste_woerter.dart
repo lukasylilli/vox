@@ -364,6 +364,8 @@ const zurueckgestellt = <String>{
   'mittelaltrig', // Form unsicher (Nebenform von «mittelalterig»?) 2026-09-27
   'mnestisch', // seltenes Fachwort (Gedächtnis betreffend?), unsicher 2026-09-27
   'moderativ', // Wort unbekannt (mäßigend?), Bedeutung unsicher 2026-09-27
+  'monadisch', // seltenes Fachwort (Philosophie/Mathematik), Gebrauch unsicher 2026-09-27
+  'monadologisch', // sehr seltenes philosophisches Fachwort (Leibniz), unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
