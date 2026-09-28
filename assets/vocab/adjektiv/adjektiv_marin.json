@@ -1,0 +1,140 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_marin",
+  "wort": "marin",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "دریایی (مربوط به دریا)"
+    ],
+    "en": [
+      "marine"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Wissenschaft"
+  ],
+  "ipa": "maˈʁiːn",
+  "anmerkung": "Fachsprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Pflanze ist marin.",
+      "uebersetzung": {
+        "fa": "این گیاه دریایی است.",
+        "en": "The plant is marine."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Plastikmüll ist eine große Gefahr für marine Lebewesen wie Schildkröten und Wale.",
+      "uebersetzung": {
+        "fa": "زباله‌ی پلاستیکی خطر بزرگی برای جانداران دریایی مثل لاک‌پشت‌ها و نهنگ‌هاست.",
+        "en": "Plastic waste is a great danger for marine creatures such as turtles and whales."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ozeanisch",
+      "uebersetzung": {
+        "fa": "اقیانوسی",
+        "en": "oceanic"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "limnisch",
+      "uebersetzung": {
+        "fa": "دریاچه‌ای",
+        "en": "limnic"
+      }
+    },
+    {
+      "wort": "terrestrisch",
+      "uebersetzung": {
+        "fa": "خشکی‌زی",
+        "en": "terrestrial"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین marinus (دریایی، از mare دریا)",
+    "en": "from Latin marinus (from mare, sea)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "marin",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "marine Ökosysteme"
+    ],
+    "gegensatzpaar": "marin ↔ terrestrisch"
+  },
+  "wortnetz": {
+    "grundwort": "Meer",
+    "woerter": [
+      {
+        "wort": "das Meer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دریا",
+          "en": "sea"
+        },
+        "id_ref": "nomen_meer"
+      },
+      {
+        "wort": "maritim",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دریایی",
+          "en": "maritime"
+        },
+        "id_ref": "adjektiv_maritim"
+      },
+      {
+        "wort": "der Ozean",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اقیانوس",
+          "en": "ocean"
+        },
+        "id_ref": "nomen_ozean"
+      },
+      {
+        "wort": "der Wal",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نهنگ",
+          "en": "whale"
+        },
+        "id_ref": "nomen_wal"
+      },
+      {
+        "wort": "die Biologie",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زیست‌شناسی",
+          "en": "biology"
+        },
+        "id_ref": "nomen_biologie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
