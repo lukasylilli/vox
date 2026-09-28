@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_maxillar",
+  "wort": "maxillar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(پزشکی) فک بالایی"
+    ],
+    "en": [
+      "(medical) maxillary"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Körper"
+  ],
+  "ipa": "maksɪˈlaːɐ̯",
+  "anmerkung": "Medizinische/zahnmedizinische Fachsprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Höhle ist maxillar.",
+      "uebersetzung": {
+        "fa": "این حفره مربوط به فک بالاست.",
+        "en": "The sinus is maxillary."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Eine Entzündung der maxillaren Nebenhöhle kann Zahnschmerzen im Oberkiefer verursachen.",
+      "uebersetzung": {
+        "fa": "التهاب سینوس فک بالا می‌تواند باعث دندان‌درد در فک بالا شود.",
+        "en": "Inflammation of the maxillary sinus can cause toothache in the upper jaw."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "mandibular",
+      "uebersetzung": {
+        "fa": "فک پایینی",
+        "en": "mandibular"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین maxilla (فک بالا) + -ar",
+    "en": "from Latin maxilla (upper jaw) + -ar"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "maxillar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "die maxillare Nebenhöhle"
+    ],
+    "gegensatzpaar": "maxillar ↔ mandibular"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Kiefer",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فک",
+          "en": "jaw"
+        },
+        "id_ref": "nomen_kiefer"
+      },
+      {
+        "wort": "mandibular",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "فک پایینی",
+          "en": "mandibular"
+        },
+        "id_ref": "adjektiv_mandibular"
+      },
+      {
+        "wort": "der Zahn",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دندان",
+          "en": "tooth"
+        },
+        "id_ref": "nomen_zahn"
+      },
+      {
+        "wort": "die Nebenhöhle",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سینوس",
+          "en": "sinus"
+        },
+        "id_ref": "nomen_nebenhoehle"
+      },
+      {
+        "wort": "die Entzündung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "التهاب",
+          "en": "inflammation"
+        },
+        "id_ref": "nomen_entzuendung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
