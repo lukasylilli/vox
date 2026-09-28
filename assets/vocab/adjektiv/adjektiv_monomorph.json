@@ -1,0 +1,124 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_monomorph",
+  "wort": "monomorph",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(زیست‌شناسی) تک‌ریخت"
+    ],
+    "en": [
+      "monomorphic"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Biologie"
+  ],
+  "ipa": "monoˈmɔʁf",
+  "anmerkung": "Fachsprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Art ist monomorph.",
+      "uebersetzung": {
+        "fa": "این گونه تک‌ریخت است.",
+        "en": "The species is monomorphic."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei monomorphen Tierarten sehen Männchen und Weibchen fast gleich aus, wie zum Beispiel bei vielen Möwen.",
+      "uebersetzung": {
+        "fa": "در گونه‌های تک‌ریخت، نر و ماده تقریباً یکسان به نظر می‌رسند، مثلاً در بسیاری از مرغ‌های دریایی.",
+        "en": "In monomorphic species males and females look almost the same, as with many gulls for example."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "polymorph",
+      "uebersetzung": {
+        "fa": "چندریخت",
+        "en": "polymorphic"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mono- (تک) + -morph (ریخت)",
+    "en": "mono- (single) + -morph (form)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "monomorph",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "monomorphe Arten"
+    ],
+    "gegensatzpaar": "monomorph ↔ polymorph"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Art",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گونه",
+          "en": "species"
+        },
+        "id_ref": "nomen_art"
+      },
+      {
+        "wort": "die Form",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شکل",
+          "en": "form"
+        },
+        "id_ref": "nomen_form"
+      },
+      {
+        "wort": "polymorph",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "چندریخت",
+          "en": "polymorphic"
+        },
+        "id_ref": "adjektiv_polymorph"
+      },
+      {
+        "wort": "das Männchen",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نر",
+          "en": "male"
+        },
+        "id_ref": "nomen_maennchen"
+      },
+      {
+        "wort": "das Weibchen",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ماده",
+          "en": "female"
+        },
+        "id_ref": "nomen_weibchen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

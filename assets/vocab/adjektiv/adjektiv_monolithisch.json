@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_monolithisch",
+  "wort": "monolithisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "یکپارچه (یک‌تکه)",
+      "بسته و انعطاف‌ناپذیر"
+    ],
+    "en": [
+      "monolithic"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Technik",
+    "Architektur"
+  ],
+  "ipa": "monoˈliːtɪʃ",
+  "anmerkung": "Bildungssprachlich/fachsprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Block ist monolithisch.",
+      "uebersetzung": {
+        "fa": "این قطعه یکپارچه است.",
+        "en": "The block is monolithic."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die alte Software war monolithisch aufgebaut, deshalb musste man bei jeder kleinen Änderung das ganze System neu starten.",
+      "uebersetzung": {
+        "fa": "نرم‌افزار قدیمی یکپارچه ساخته شده بود، به همین دلیل با هر تغییر کوچک باید کل سیستم را از نو راه‌اندازی می‌کردند.",
+        "en": "The old software was built monolithically, so with every small change the whole system had to be restarted."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "modular",
+      "uebersetzung": {
+        "fa": "ماژولار",
+        "en": "modular"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Monolith (تک‌سنگ) + -isch",
+    "en": "Monolith (monolith) + -isch"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "monolithisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine monolithische Architektur"
+    ],
+    "gegensatzpaar": "monolithisch ↔ modular"
+  },
+  "wortnetz": {
+    "grundwort": "Monolith",
+    "woerter": [
+      {
+        "wort": "modular",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ماژولار",
+          "en": "modular"
+        },
+        "id_ref": "adjektiv_modular"
+      },
+      {
+        "wort": "der Stein",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سنگ",
+          "en": "stone"
+        },
+        "id_ref": "nomen_stein"
+      },
+      {
+        "wort": "das System",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سیستم",
+          "en": "system"
+        },
+        "id_ref": "nomen_system"
+      },
+      {
+        "wort": "die Software",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نرم‌افزار",
+          "en": "software"
+        },
+        "id_ref": "nomen_software"
+      },
+      {
+        "wort": "starr",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خشک و انعطاف‌ناپذیر",
+          "en": "rigid"
+        },
+        "id_ref": "adjektiv_starr"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
