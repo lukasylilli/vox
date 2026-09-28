@@ -1,0 +1,147 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_manuell",
+  "wort": "manuell",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "دستی"
+    ],
+    "en": [
+      "manual"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Technik",
+    "Arbeit"
+  ],
+  "ipa": "manuˈɛl",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Auto hat eine manuelle Schaltung.",
+      "uebersetzung": {
+        "fa": "این ماشین دنده‌ی دستی دارد.",
+        "en": "The car has a manual gearbox."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn das automatische Update fehlschlägt, muss man die Software manuell installieren.",
+      "uebersetzung": {
+        "fa": "اگر به‌روزرسانی خودکار شکست بخورد، باید نرم‌افزار را دستی نصب کرد.",
+        "en": "If the automatic update fails, you have to install the software manually."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "händisch",
+      "uebersetzung": {
+        "fa": "دستی",
+        "en": "by hand"
+      }
+    },
+    {
+      "wort": "von Hand",
+      "uebersetzung": {
+        "fa": "با دست",
+        "en": "by hand"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "automatisch",
+      "uebersetzung": {
+        "fa": "خودکار",
+        "en": "automatic"
+      }
+    },
+    {
+      "wort": "maschinell",
+      "uebersetzung": {
+        "fa": "ماشینی",
+        "en": "mechanical"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین manualis (دستی، از manus دست)",
+    "en": "from Latin manualis (from manus, hand)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "manuell",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine manuelle Eingabe"
+    ],
+    "gegensatzpaar": "manuell ↔ automatisch"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "händisch",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دستی",
+          "en": "manual"
+        },
+        "id_ref": "adjektiv_haendisch"
+      },
+      {
+        "wort": "automatisch",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خودکار",
+          "en": "automatic"
+        },
+        "id_ref": "adjektiv_automatisch"
+      },
+      {
+        "wort": "die Hand",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دست",
+          "en": "hand"
+        },
+        "id_ref": "nomen_hand"
+      },
+      {
+        "wort": "die Maschine",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ماشین",
+          "en": "machine"
+        },
+        "id_ref": "nomen_maschine"
+      },
+      {
+        "wort": "die Schaltung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دنده",
+          "en": "gearbox"
+        },
+        "id_ref": "nomen_schaltung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
