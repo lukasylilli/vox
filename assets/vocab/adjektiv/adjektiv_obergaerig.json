@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_obergaerig",
+  "wort": "obergärig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(آبجو) رو‌تخمیر"
+    ],
+    "en": [
+      "(beer) top-fermented"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Essen",
+    "Getränke"
+  ],
+  "ipa": "ˈoːbɐˌɡɛːʁɪç",
+  "anmerkung": "Brauerei-Fachsprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Weißbier ist obergärig.",
+      "uebersetzung": {
+        "fa": "آبجوی سفید روتخمیر است.",
+        "en": "Wheat beer is top-fermented."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Kölsch und Altbier sind obergärige Biere, bei denen die Hefe während der Gärung nach oben steigt.",
+      "uebersetzung": {
+        "fa": "کلش و آلت‌بیر آبجوهای روتخمیرند که در آن‌ها مخمر هنگام تخمیر به بالا می‌آید.",
+        "en": "Kölsch and Altbier are top-fermented beers in which the yeast rises to the top during fermentation."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "untergärig",
+      "uebersetzung": {
+        "fa": "زیرتخمیر",
+        "en": "bottom-fermented"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ober (بالا) + gären (تخمیر شدن) + -ig",
+    "en": "ober (top) + gären (to ferment) + -ig"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "obergärig",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "obergäriges Bier"
+    ],
+    "gegensatzpaar": "obergärig ↔ untergärig"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Bier",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آبجو",
+          "en": "beer"
+        },
+        "id_ref": "nomen_bier"
+      },
+      {
+        "wort": "die Hefe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مخمر",
+          "en": "yeast"
+        },
+        "id_ref": "nomen_hefe"
+      },
+      {
+        "wort": "brauen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دم کردن (آبجو)",
+          "en": "to brew"
+        },
+        "id_ref": "verb_brauen"
+      },
+      {
+        "wort": "die Gärung",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "تخمیر",
+          "en": "fermentation"
+        },
+        "id_ref": "nomen_gaerung"
+      },
+      {
+        "wort": "untergärig",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "زیرتخمیر",
+          "en": "bottom-fermented"
+        },
+        "id_ref": "adjektiv_untergaerig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
