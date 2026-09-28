@@ -368,6 +368,7 @@ const zurueckgestellt = <String>{
   'monadologisch', // sehr seltenes philosophisches Fachwort (Leibniz), unsicher 2026-09-27
   'mongolid', // veralteter rassentheoretischer Begriff, heute als diskriminierend angesehen — Lukas entscheidet 2026-09-27
   'mongoloid', // veralteter rassentheoretischer/abwertender Begriff — Lukas entscheidet 2026-09-27
+  'moros', // veraltet (mürrisch, verdrießlich?), Gebrauch unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
