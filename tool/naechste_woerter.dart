@@ -360,6 +360,8 @@ const zurueckgestellt = <String>{
   'minderer', // Listenfehler: flektierte Form, Grundform «mindere» (wie hinterer/letzter) 2026-09-27
   'ministrabel', // bildungssprachlich/selten (für ein Ministeramt geeignet?), Gebrauch unsicher 2026-09-27
   'mirakulös', // bildungssprachlich/selten (wundersam?), Gebrauch unsicher 2026-09-27
+  'mittelalterig', // Form unsicher (mittleren Alters? Nebenform «mittelaltrig») 2026-09-27
+  'mittelaltrig', // Form unsicher (Nebenform von «mittelalterig»?) 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
