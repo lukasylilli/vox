@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_normativ",
+  "wort": "normativ",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "هنجاری، دستوری",
+      "الزام‌آور"
+    ],
+    "en": [
+      "normative",
+      "prescriptive"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wissenschaft",
+    "Recht"
+  ],
+  "ipa": "nɔʁmaˈtiːf",
+  "anmerkung": "Bildungssprachlich/fachsprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Regel ist normativ.",
+      "uebersetzung": {
+        "fa": "این قاعده هنجاری است.",
+        "en": "The rule is normative."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ein normatives Wörterbuch schreibt vor, wie man Wörter richtig benutzt, ein beschreibendes zeigt nur, wie sie benutzt werden.",
+      "uebersetzung": {
+        "fa": "فرهنگ لغت دستوری تجویز می‌کند که کلمات را چطور درست به کار ببریم، ولی فرهنگ توصیفی فقط نشان می‌دهد چطور به کار می‌روند.",
+        "en": "A normative dictionary prescribes how to use words correctly; a descriptive one only shows how they are used."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vorschreibend",
+      "uebersetzung": {
+        "fa": "تجویزی",
+        "en": "prescriptive"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "deskriptiv",
+      "uebersetzung": {
+        "fa": "توصیفی",
+        "en": "descriptive"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Norm (هنجار) + -ativ",
+    "en": "Norm (norm) + -ativ"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "normativ",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine normative Grammatik"
+    ],
+    "gegensatzpaar": "normativ ↔ deskriptiv"
+  },
+  "wortnetz": {
+    "grundwort": "Norm",
+    "woerter": [
+      {
+        "wort": "die Norm",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "هنجار",
+          "en": "norm"
+        },
+        "id_ref": "nomen_norm"
+      },
+      {
+        "wort": "deskriptiv",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "توصیفی",
+          "en": "descriptive"
+        },
+        "id_ref": "adjektiv_deskriptiv"
+      },
+      {
+        "wort": "die Regel",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قاعده",
+          "en": "rule"
+        },
+        "id_ref": "nomen_regel"
+      },
+      {
+        "wort": "vorschreiben",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تجویز کردن",
+          "en": "to prescribe"
+        },
+        "id_ref": "verb_vorschreiben"
+      },
+      {
+        "wort": "die Grammatik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دستور زبان",
+          "en": "grammar"
+        },
+        "id_ref": "nomen_grammatik"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

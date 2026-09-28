@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_nordwestlich",
+  "wort": "nordwestlich",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "شمال‌غربی",
+      "شمال‌غرب"
+    ],
+    "en": [
+      "north-western",
+      "north-west of"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Geografie",
+    "Orientierung"
+  ],
+  "ipa": "nɔʁtˈvɛstlɪç",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Dorf ist nordwestlich.",
+      "uebersetzung": {
+        "fa": "روستا در شمال‌غرب است.",
+        "en": "The village is in the north-west."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Dornbirn liegt im nordwestlichen Teil Österreichs, ganz in der Nähe der Schweiz und Deutschlands.",
+      "uebersetzung": {
+        "fa": "دورن‌بیرن در بخش شمال‌غربی اتریش، خیلی نزدیک سوئیس و آلمان است.",
+        "en": "Dornbirn lies in the north-western part of Austria, very close to Switzerland and Germany."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "südöstlich",
+      "uebersetzung": {
+        "fa": "جنوب‌شرقی",
+        "en": "south-eastern"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "nordwes (جهت) + -lich",
+    "en": "nordwes + -lich"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "nordwestlich",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "nordwestlich von + Dat",
+        "beispiel": "Das Dorf liegt nordwestlich von der Stadt.",
+        "uebersetzung": {
+          "fa": "روستا در شمال‌غربی شهر است.",
+          "en": "The village is north-west of the town."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "in nordwestlicher Richtung"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Himmelsrichtung",
+    "woerter": [
+      {
+        "wort": "nördlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شمالی",
+          "en": "northern"
+        },
+        "id_ref": "adjektiv_noerdlich"
+      },
+      {
+        "wort": "westlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "غربی",
+          "en": "western"
+        },
+        "id_ref": "adjektiv_westlich"
+      },
+      {
+        "wort": "nordöstlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شمال‌شرقی",
+          "en": "north-eastern"
+        },
+        "id_ref": "adjektiv_nordoestlich"
+      },
+      {
+        "wort": "die Richtung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جهت",
+          "en": "direction"
+        },
+        "id_ref": "nomen_richtung"
+      },
+      {
+        "wort": "die Karte",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نقشه",
+          "en": "map"
+        },
+        "id_ref": "nomen_karte"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
