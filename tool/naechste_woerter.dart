@@ -486,6 +486,9 @@ const zurueckgestellt = <String>{
   'rahn', // regional/veraltet (schlank?), Bedeutung unsicher 2026-09-29
   'rallig', // Jägersprache/umgangssprachlich, Bedeutung unsicher 2026-09-29
   'rangig', // meist nur als Zweitglied (-rangig), eigenständiger Gebrauch unsicher 2026-09-29
+  'raß', // regional (Nebenform zu räß), Bedeutung unsicher 2026-09-29
+  'ratierlich', // Rechtssprache, sehr selten, unsicher 2026-09-29
+  'raubauzig', // regional/umgangssprachlich, Bedeutung unsicher 2026-09-29
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
