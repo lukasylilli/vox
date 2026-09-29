@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_probabilistisch",
+  "wort": "probabilistisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "احتمالاتی"
+    ],
+    "en": [
+      "probabilistic"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik",
+    "Wissenschaft"
+  ],
+  "ipa": "pʁobabiˈlɪstɪʃ",
+  "anmerkung": "Fachsprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Modell ist probabilistisch.",
+      "uebersetzung": {
+        "fa": "این مدل احتمالاتی است.",
+        "en": "The model is probabilistic."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wettervorhersagen sind probabilistisch: Sie sagen nicht sicher, ob es regnet, sondern mit welcher Wahrscheinlichkeit.",
+      "uebersetzung": {
+        "fa": "پیش‌بینی‌های هوا احتمالاتی‌اند: با اطمینان نمی‌گویند باران می‌آید یا نه، بلکه با چه احتمالی.",
+        "en": "Weather forecasts are probabilistic: they don't say for certain whether it will rain, but with what probability."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "deterministisch",
+      "uebersetzung": {
+        "fa": "جبرگرایانه، قطعی",
+        "en": "deterministic"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین probabilis (محتمل) + -istisch",
+    "en": "from Latin probabilis (probable) + -istisch"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "probabilistisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein probabilistisches Modell"
+    ],
+    "gegensatzpaar": "probabilistisch ↔ deterministisch"
+  },
+  "wortnetz": {
+    "grundwort": "Wahrscheinlichkeit",
+    "woerter": [
+      {
+        "wort": "die Wahrscheinlichkeit",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "احتمال",
+          "en": "probability"
+        },
+        "id_ref": "nomen_wahrscheinlichkeit"
+      },
+      {
+        "wort": "wahrscheinlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "محتمل",
+          "en": "probable"
+        },
+        "id_ref": "adjektiv_wahrscheinlich"
+      },
+      {
+        "wort": "die Statistik",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آمار",
+          "en": "statistics"
+        },
+        "id_ref": "nomen_statistik"
+      },
+      {
+        "wort": "das Modell",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مدل",
+          "en": "model"
+        },
+        "id_ref": "nomen_modell"
+      },
+      {
+        "wort": "die Vorhersage",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پیش‌بینی",
+          "en": "forecast"
+        },
+        "id_ref": "nomen_vorhersage"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
