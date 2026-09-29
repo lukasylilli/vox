@@ -489,6 +489,7 @@ const zurueckgestellt = <String>{
   'raß', // regional (Nebenform zu räß), Bedeutung unsicher 2026-09-29
   'ratierlich', // Rechtssprache, sehr selten, unsicher 2026-09-29
   'raubauzig', // regional/umgangssprachlich, Bedeutung unsicher 2026-09-29
+  'rebenumsponnen', // dichterisch/sehr selten, unsicher 2026-09-29
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
