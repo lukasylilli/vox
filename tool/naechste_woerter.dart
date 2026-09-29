@@ -505,6 +505,10 @@ const zurueckgestellt = <String>{
   'retrofuturistisch', // Stilbegriff, Registrierung unsicher 2026-09-29
   'rezent', // mehrdeutig (Biologie: gegenwärtig lebend / regional: säuerlich), unsicher 2026-09-29
   'rezeptorvermittelt', // Fachwort, sehr selten, unsicher 2026-09-29
+  'rheophil', // biologisches Fachwort, sehr selten, unsicher 2026-09-29
+  'rhodiniert', // Fachwort (Schmuck), sehr selten, unsicher 2026-09-29
+  'rhomboedrisch', // Fachwort (Kristallografie), sehr selten, unsicher 2026-09-29
+  'ridikül', // veraltet/bildungssprachlich, unsicher 2026-09-29
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
