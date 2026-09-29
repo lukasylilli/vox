@@ -483,6 +483,9 @@ const zurueckgestellt = <String>{
   'quotal', // Fachwort (anteilig?), sehr selten, unsicher 2026-09-29
   'räß', // regional (schweiz./südd.), Bedeutung unsicher 2026-09-29
   'räumdig', // Bedeutung/Schreibung unsicher 2026-09-29
+  'rahn', // regional/veraltet (schlank?), Bedeutung unsicher 2026-09-29
+  'rallig', // Jägersprache/umgangssprachlich, Bedeutung unsicher 2026-09-29
+  'rangig', // meist nur als Zweitglied (-rangig), eigenständiger Gebrauch unsicher 2026-09-29
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
