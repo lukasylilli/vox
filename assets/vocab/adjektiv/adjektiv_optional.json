@@ -1,0 +1,147 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_optional",
+  "wort": "optional",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "اختیاری"
+    ],
+    "en": [
+      "optional"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Technik",
+    "Verwaltung"
+  ],
+  "ipa": "ɔpt͡si̯oˈnaːl",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Feld ist optional.",
+      "uebersetzung": {
+        "fa": "این فیلد اختیاری است.",
+        "en": "The field is optional."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Formular sind nur die Felder mit Sternchen Pflicht, alle anderen Angaben sind optional.",
+      "uebersetzung": {
+        "fa": "در فرم فقط فیلدهای ستاره‌دار اجباری‌اند و بقیه‌ی اطلاعات اختیاری است.",
+        "en": "In the form only the fields marked with an asterisk are mandatory; all other details are optional."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "freiwillig",
+      "uebersetzung": {
+        "fa": "داوطلبانه",
+        "en": "voluntary"
+      }
+    },
+    {
+      "wort": "wahlweise",
+      "uebersetzung": {
+        "fa": "انتخابی",
+        "en": "optionally"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "obligatorisch",
+      "uebersetzung": {
+        "fa": "اجباری",
+        "en": "compulsory"
+      }
+    },
+    {
+      "wort": "verpflichtend",
+      "uebersetzung": {
+        "fa": "اجباری",
+        "en": "mandatory"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Option (گزینه) + -al",
+    "en": "Option + -al"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "optional",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine optionale Angabe"
+    ],
+    "gegensatzpaar": "optional ↔ obligatorisch"
+  },
+  "wortnetz": {
+    "grundwort": "Option",
+    "woerter": [
+      {
+        "wort": "die Option",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گزینه",
+          "en": "option"
+        },
+        "id_ref": "nomen_option"
+      },
+      {
+        "wort": "freiwillig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "داوطلبانه",
+          "en": "voluntary"
+        },
+        "id_ref": "adjektiv_freiwillig"
+      },
+      {
+        "wort": "obligatorisch",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اجباری",
+          "en": "compulsory"
+        },
+        "id_ref": "adjektiv_obligatorisch"
+      },
+      {
+        "wort": "das Formular",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فرم",
+          "en": "form"
+        },
+        "id_ref": "nomen_formular"
+      },
+      {
+        "wort": "die Pflicht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وظیفه",
+          "en": "obligation"
+        },
+        "id_ref": "nomen_pflicht"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

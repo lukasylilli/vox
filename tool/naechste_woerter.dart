@@ -391,6 +391,7 @@ const zurueckgestellt = <String>{
   'öffenbar', // Wort unbekannt/Form zweifelhaft (offenbar? öffnungsfähig?) 2026-09-27
   'ogygisch', // sehr selten/bildungssprachlich (uralt?), unsicher 2026-09-27
   'oknophil', // sehr seltenes psychoanalytisches Fachwort, unsicher 2026-09-27
+  'opalen', // Stoffadjektiv (aus Opal) — wie flanellen zurückgestellt 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
