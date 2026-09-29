@@ -1,0 +1,124 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_pyrogen",
+  "wort": "pyrogen",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "تب‌زا"
+    ],
+    "en": [
+      "pyrogenic"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin"
+  ],
+  "ipa": "pyʁoˈɡeːn",
+  "anmerkung": "Medizinische Fachsprache (Fieber erzeugend).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Substanz ist pyrogen.",
+      "uebersetzung": {
+        "fa": "این ماده تب‌زاست.",
+        "en": "The substance is pyrogenic."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Infusionen müssen frei von pyrogenen Stoffen sein, weil diese beim Patienten Fieber auslösen können.",
+      "uebersetzung": {
+        "fa": "سرم‌ها باید عاری از مواد تب‌زا باشند، چون این مواد می‌توانند در بیمار تب ایجاد کنند.",
+        "en": "Infusions must be free of pyrogenic substances because they can cause fever in the patient."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fiebererzeugend",
+      "uebersetzung": {
+        "fa": "تب‌زا",
+        "en": "fever-inducing"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "یونانی pyr (آتش) + -gen (زاینده)",
+    "en": "Greek pyr (fire) + -gen (producing)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "pyrogen",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "pyrogene Stoffe"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Fieber",
+    "woerter": [
+      {
+        "wort": "das Fieber",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تب",
+          "en": "fever"
+        },
+        "id_ref": "nomen_fieber"
+      },
+      {
+        "wort": "die Infusion",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سرم، تزریق وریدی",
+          "en": "infusion"
+        },
+        "id_ref": "nomen_infusion"
+      },
+      {
+        "wort": "die Substanz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ماده",
+          "en": "substance"
+        },
+        "id_ref": "nomen_substanz"
+      },
+      {
+        "wort": "steril",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "استریل",
+          "en": "sterile"
+        },
+        "id_ref": "adjektiv_steril"
+      },
+      {
+        "wort": "die Entzündung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "التهاب",
+          "en": "inflammation"
+        },
+        "id_ref": "nomen_entzuendung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

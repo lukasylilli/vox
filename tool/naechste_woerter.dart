@@ -476,6 +476,7 @@ const zurueckgestellt = <String>{
   'proteisch', // bildungssprachlich/selten (wandelbar?), unsicher 2026-09-27
   'psychrophil', // biologisches Fachwort (kälteliebend), sehr selten, unsicher 2026-09-29
   'pueril', // bildungssprachlich/selten (kindlich?), unsicher 2026-09-29
+  'punitiv', // bildungssprachlich/juristisch selten (strafend?), unsicher 2026-09-29
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

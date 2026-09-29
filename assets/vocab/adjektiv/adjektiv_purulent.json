@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_purulent",
+  "wort": "purulent",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "چرکی"
+    ],
+    "en": [
+      "purulent"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Pflege"
+  ],
+  "ipa": "puʁuˈlɛnt",
+  "anmerkung": "Medizinische Fachsprache; allgemeinsprachlich „eitrig“.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Wunde ist purulent.",
+      "uebersetzung": {
+        "fa": "زخم چرکی است.",
+        "en": "The wound is purulent."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil die Wunde purulent ist, nimmt die Pflegekraft einen Abstrich und informiert den Arzt.",
+      "uebersetzung": {
+        "fa": "چون زخم چرکی است، پرستار از آن نمونه می‌گیرد و به پزشک خبر می‌دهد.",
+        "en": "Because the wound is purulent, the nurse takes a swab and informs the doctor."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "eitrig",
+      "uebersetzung": {
+        "fa": "چرکی",
+        "en": "festering"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "لاتین pus (چرک) + -ulent",
+    "en": "Latin pus (pus) + -ulent"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "purulent",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine purulente Entzündung"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Eiter",
+    "woerter": [
+      {
+        "wort": "der Eiter",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "چرک",
+          "en": "pus"
+        },
+        "id_ref": "nomen_eiter"
+      },
+      {
+        "wort": "eitrig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "چرکی",
+          "en": "festering"
+        },
+        "id_ref": "adjektiv_eitrig"
+      },
+      {
+        "wort": "die Wunde",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زخم",
+          "en": "wound"
+        },
+        "id_ref": "nomen_wunde"
+      },
+      {
+        "wort": "die Entzündung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "التهاب",
+          "en": "inflammation"
+        },
+        "id_ref": "nomen_entzuendung"
+      },
+      {
+        "wort": "die Infektion",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عفونت",
+          "en": "infection"
+        },
+        "id_ref": "nomen_infektion"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
