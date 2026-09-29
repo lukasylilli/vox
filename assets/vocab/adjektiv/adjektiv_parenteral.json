@@ -1,0 +1,139 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_parenteral",
+  "wort": "parenteral",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(پزشکی) تزریقی، غیرگوارشی"
+    ],
+    "en": [
+      "(medical) parenteral"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin"
+  ],
+  "ipa": "paʁɛnteˈʁaːl",
+  "anmerkung": "Medizinische Fachsprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Ernährung ist parenteral.",
+      "uebersetzung": {
+        "fa": "این تغذیه تزریقی است.",
+        "en": "The nutrition is parenteral."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil der Patient nach der Darmoperation nicht essen durfte, wurde er einige Tage parenteral ernährt.",
+      "uebersetzung": {
+        "fa": "چون بیمار بعد از جراحی روده اجازه‌ی غذا خوردن نداشت، چند روز به‌صورت تزریقی تغذیه شد.",
+        "en": "Because the patient was not allowed to eat after the bowel operation, he was fed parenterally for a few days."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "intravenös",
+      "uebersetzung": {
+        "fa": "وریدی",
+        "en": "intravenous"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "enteral",
+      "uebersetzung": {
+        "fa": "گوارشی",
+        "en": "enteral"
+      }
+    },
+    {
+      "wort": "oral",
+      "uebersetzung": {
+        "fa": "خوراکی",
+        "en": "oral"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "para- (کنار) + enteron (روده، یونانی) + -al",
+    "en": "para- (beside) + enteron (intestine) + -al"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "parenteral",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "parenterale Ernährung"
+    ],
+    "gegensatzpaar": "parenteral ↔ oral"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "intravenös",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "وریدی",
+          "en": "intravenous"
+        },
+        "id_ref": "adjektiv_intravenoes"
+      },
+      {
+        "wort": "oral",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خوراکی",
+          "en": "oral"
+        },
+        "id_ref": "adjektiv_oral"
+      },
+      {
+        "wort": "die Infusion",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سرم، تزریق",
+          "en": "infusion"
+        },
+        "id_ref": "nomen_infusion"
+      },
+      {
+        "wort": "die Ernährung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تغذیه",
+          "en": "nutrition"
+        },
+        "id_ref": "nomen_ernaehrung"
+      },
+      {
+        "wort": "der Darm",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "روده",
+          "en": "intestine"
+        },
+        "id_ref": "nomen_darm"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

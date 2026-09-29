@@ -410,6 +410,9 @@ const zurueckgestellt = <String>{
   'papiern', // Nebenform von «papieren» (Stoffadjektiv), unsicher 2026-09-27
   'papstfähig', // freie Bildung (Nebenform von «papabel»?), unsicher 2026-09-27
   'paradoxal', // seltene Nebenform von «paradox» (das gebaut wurde), unsicher 2026-09-27
+  'parasprachlich', // seltene Nebenform von «paralinguistisch» (das gebaut wurde), unsicher 2026-09-27
+  'paraxial', // seltenes Fachwort (Optik), unsicher 2026-09-27
+  'pariserisch', // Form unsicher (üblich: «Pariser») 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
