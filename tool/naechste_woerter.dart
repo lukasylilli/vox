@@ -474,6 +474,8 @@ const zurueckgestellt = <String>{
   'promiskuitiv', // sexueller Begriff (Nebenform) — zurückgestellt, Lukas entscheidet 2026-09-27
   'prosopografisch', // sehr seltenes geschichtswissenschaftliches Fachwort, unsicher 2026-09-27
   'proteisch', // bildungssprachlich/selten (wandelbar?), unsicher 2026-09-27
+  'psychrophil', // biologisches Fachwort (kälteliebend), sehr selten, unsicher 2026-09-29
+  'pueril', // bildungssprachlich/selten (kindlich?), unsicher 2026-09-29
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
