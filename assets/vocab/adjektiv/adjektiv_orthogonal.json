@@ -1,0 +1,140 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_orthogonal",
+  "wort": "orthogonal",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(ریاضی) عمود، متعامد"
+    ],
+    "en": [
+      "(maths) orthogonal",
+      "perpendicular"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik"
+  ],
+  "ipa": "ɔʁtoɡoˈnaːl",
+  "anmerkung": "Mathematische Fachsprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Linien sind orthogonal.",
+      "uebersetzung": {
+        "fa": "این خط‌ها بر هم عمودند.",
+        "en": "The lines are orthogonal."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Zwei Vektoren sind orthogonal, wenn sie einen rechten Winkel von neunzig Grad bilden.",
+      "uebersetzung": {
+        "fa": "دو بردار متعامدند، وقتی زاویه‌ی قائمه‌ی نود درجه تشکیل دهند.",
+        "en": "Two vectors are orthogonal if they form a right angle of ninety degrees."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "senkrecht",
+      "uebersetzung": {
+        "fa": "عمود",
+        "en": "perpendicular"
+      }
+    },
+    {
+      "wort": "rechtwinklig",
+      "uebersetzung": {
+        "fa": "قائم‌الزاویه",
+        "en": "right-angled"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "parallel",
+      "uebersetzung": {
+        "fa": "موازی",
+        "en": "parallel"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از یونانی orthogónios (قائم‌الزاویه)",
+    "en": "from Greek orthogónios (right-angled)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "orthogonal",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "orthogonale Vektoren"
+    ],
+    "gegensatzpaar": "orthogonal ↔ parallel"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "senkrecht",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عمود",
+          "en": "perpendicular"
+        },
+        "id_ref": "adjektiv_senkrecht"
+      },
+      {
+        "wort": "der Winkel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زاویه",
+          "en": "angle"
+        },
+        "id_ref": "nomen_winkel"
+      },
+      {
+        "wort": "parallel",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "موازی",
+          "en": "parallel"
+        },
+        "id_ref": "adjektiv_parallel"
+      },
+      {
+        "wort": "die Geometrie",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "هندسه",
+          "en": "geometry"
+        },
+        "id_ref": "nomen_geometrie"
+      },
+      {
+        "wort": "der Vektor",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بردار",
+          "en": "vector"
+        },
+        "id_ref": "nomen_vektor"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
