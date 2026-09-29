@@ -413,6 +413,7 @@ const zurueckgestellt = <String>{
   'parasprachlich', // seltene Nebenform von «paralinguistisch» (das gebaut wurde), unsicher 2026-09-27
   'paraxial', // seltenes Fachwort (Optik), unsicher 2026-09-27
   'pariserisch', // Form unsicher (üblich: «Pariser») 2026-09-27
+  'partial', // seltene Nebenform von «partiell» (das gebaut wurde), unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
