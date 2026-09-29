@@ -1,0 +1,143 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_redundant",
+  "wort": "redundant",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "زائد",
+      "تکراری"
+    ],
+    "en": [
+      "redundant",
+      "superfluous"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Sprache"
+  ],
+  "ipa": "ʁedʊnˈdant",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Satz ist redundant.",
+      "uebersetzung": {
+        "fa": "این جمله زائد است.",
+        "en": "The sentence is redundant."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Server sind redundant ausgelegt, damit das System weiterläuft, wenn einer ausfällt.",
+      "uebersetzung": {
+        "fa": "سرورها به‌صورت پشتیبان دوگانه طراحی شده‌اند تا اگر یکی از کار افتاد، سیستم کار کند.",
+        "en": "The servers are designed redundantly so that the system keeps running if one fails."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "überflüssig",
+      "uebersetzung": {
+        "fa": "زائد",
+        "en": "superfluous"
+      }
+    },
+    {
+      "wort": "doppelt",
+      "uebersetzung": {
+        "fa": "تکراری",
+        "en": "duplicate"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "notwendig",
+      "uebersetzung": {
+        "fa": "لازم",
+        "en": "necessary"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "لاتین redundare (سرریز شدن)",
+    "en": "Latin redundare (to overflow)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "redundant",
+      "komparativ": "redundanter",
+      "superlativ": "am redundantesten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "redundante Informationen",
+      "ein redundantes System"
+    ],
+    "gegensatzpaar": "redundant ↔ notwendig"
+  },
+  "wortnetz": {
+    "grundwort": "Redundanz",
+    "woerter": [
+      {
+        "wort": "die Redundanz",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "زیادی، تکرار",
+          "en": "redundancy"
+        },
+        "id_ref": "nomen_redundanz"
+      },
+      {
+        "wort": "überflüssig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زائد",
+          "en": "superfluous"
+        },
+        "id_ref": "adjektiv_ueberfluessig"
+      },
+      {
+        "wort": "doppelt",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دوبرابر",
+          "en": "double"
+        },
+        "id_ref": "adjektiv_doppelt"
+      },
+      {
+        "wort": "die Wiederholung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تکرار",
+          "en": "repetition"
+        },
+        "id_ref": "nomen_wiederholung"
+      },
+      {
+        "wort": "notwendig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لازم",
+          "en": "necessary"
+        },
+        "id_ref": "adjektiv_notwendig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
