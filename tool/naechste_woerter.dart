@@ -493,6 +493,10 @@ const zurueckgestellt = <String>{
   'renaissancistisch', // sehr selten, Bedeutung/Gebrauch unsicher 2026-09-29
   'reputabel', // bildungssprachlich/sehr selten, unsicher 2026-09-29
   'reputierlich', // veraltet/sehr selten, unsicher 2026-09-29
+  'resonant', // im Deutschen selten, Gebrauch unsicher 2026-09-29
+  'respektiv', // veraltet, unsicher 2026-09-29
+  'restituiert', // Partizip/Fachwort, Gebrauch als Adjektiv unsicher 2026-09-29
+  'restitutiv', // Fachwort, sehr selten, unsicher 2026-09-29
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

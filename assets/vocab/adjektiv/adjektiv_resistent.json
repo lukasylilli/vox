@@ -1,0 +1,156 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_resistent",
+  "wort": "resistent",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "مقاوم"
+    ],
+    "en": [
+      "resistant"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Natur"
+  ],
+  "ipa": "ʁezɪsˈtɛnt",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Bakterien sind resistent.",
+      "uebersetzung": {
+        "fa": "این باکتری‌ها مقاوم‌اند.",
+        "en": "The bacteria are resistant."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil viele Keime gegen Antibiotika resistent geworden sind, verschreiben Ärzte sie heute vorsichtiger.",
+      "uebersetzung": {
+        "fa": "چون بسیاری از میکروب‌ها در برابر آنتی‌بیوتیک مقاوم شده‌اند، پزشکان امروز با احتیاط بیشتری آن‌ها را تجویز می‌کنند.",
+        "en": "Because many germs have become resistant to antibiotics, doctors prescribe them more carefully today."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "widerstandsfähig",
+      "uebersetzung": {
+        "fa": "مقاوم",
+        "en": "resilient"
+      }
+    },
+    {
+      "wort": "unempfindlich",
+      "uebersetzung": {
+        "fa": "نامحسوس، مقاوم",
+        "en": "insensitive"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "anfällig",
+      "uebersetzung": {
+        "fa": "آسیب‌پذیر",
+        "en": "susceptible"
+      }
+    },
+    {
+      "wort": "empfindlich",
+      "uebersetzung": {
+        "fa": "حساس",
+        "en": "sensitive"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "لاتین resistere (مقاومت کردن)",
+    "en": "Latin resistere (to resist)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "resistent",
+      "komparativ": "resistenter",
+      "superlativ": "am resistentesten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "resistent gegen + Akk",
+        "beispiel": "Diese Pflanze ist resistent gegen Schädlinge.",
+        "uebersetzung": {
+          "fa": "این گیاه در برابر آفت‌ها مقاوم است.",
+          "en": "This plant is resistant to pests."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "resistente Keime"
+    ],
+    "gegensatzpaar": "resistent ↔ anfällig"
+  },
+  "wortnetz": {
+    "grundwort": "Resistenz",
+    "woerter": [
+      {
+        "wort": "die Resistenz",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مقاومت",
+          "en": "resistance"
+        },
+        "id_ref": "nomen_resistenz"
+      },
+      {
+        "wort": "widerstandsfähig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مقاوم",
+          "en": "resilient"
+        },
+        "id_ref": "adjektiv_widerstandsfaehig"
+      },
+      {
+        "wort": "das Antibiotikum",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آنتی‌بیوتیک",
+          "en": "antibiotic"
+        },
+        "id_ref": "nomen_antibiotikum"
+      },
+      {
+        "wort": "das Bakterium",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "باکتری",
+          "en": "bacterium"
+        },
+        "id_ref": "nomen_bakterium"
+      },
+      {
+        "wort": "anfällig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آسیب‌پذیر",
+          "en": "susceptible"
+        },
+        "id_ref": "adjektiv_anfaellig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
