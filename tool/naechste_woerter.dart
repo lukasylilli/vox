@@ -399,6 +399,10 @@ const zurueckgestellt = <String>{
   'ostfälisch', // seltenes Fachwort (Dialektologie: Ostfälisch), unsicher 2026-09-27
   'ostgrönländisch', // sehr selten, Gebrauch unsicher 2026-09-27
   'ouvert', // Fachwort (Kartenspiel/Französisch), Gebrauch unsicher 2026-09-27
+  'ovovivipar', // sehr seltenes Fachwort (Biologie), unsicher 2026-09-27
+  'pädophil', // sensibler medizinisch-juristischer Begriff — für eine Lern-App ohne Altersgrenze zurückgestellt, Lukas entscheidet 2026-09-27
+  'pagatorisch', // seltenes Fachwort (Rechnungswesen), unsicher 2026-09-27
+  'palato-alveolar', // seltenes phonetisches Fachwort (Bindestrichform), unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
