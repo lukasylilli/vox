@@ -427,6 +427,11 @@ const zurueckgestellt = <String>{
   'perkussiv', // seltenes Fachwort (Musik/Medizin), unsicher 2026-09-27
   'perlmuttern', // Stoffadjektiv (aus Perlmutt) — wie flanellen zurückgestellt 2026-09-27
   'permutabel', // seltenes Fachwort (Mathematik), unsicher 2026-09-27
+  'perpendikular', // seltenes Fachwort (senkrecht?), unsicher 2026-09-27
+  'perpetuell', // bildungssprachlich/selten (fortwährend?), Gebrauch unsicher 2026-09-27
+  'pervasiv', // seltenes Fachwort (Informatik: allgegenwärtig?), unsicher 2026-09-27
+  'pervers', // primär sexuelle Bedeutung — für eine Lern-App ohne Altersgrenze zurückgestellt, Lukas entscheidet 2026-09-27
+  'pestilenzartig', // veraltet/selten (wie die Pest?), unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
