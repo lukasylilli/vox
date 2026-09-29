@@ -392,6 +392,7 @@ const zurueckgestellt = <String>{
   'ogygisch', // sehr selten/bildungssprachlich (uralt?), unsicher 2026-09-27
   'oknophil', // sehr seltenes psychoanalytisches Fachwort, unsicher 2026-09-27
   'opalen', // Stoffadjektiv (aus Opal) — wie flanellen zurückgestellt 2026-09-27
+  'oreal', // Wort unbekannt (Geografie: Gebirgs-?), Bedeutung unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
