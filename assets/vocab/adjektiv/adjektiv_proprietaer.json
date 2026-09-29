@@ -1,0 +1,131 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_proprietaer",
+  "wort": "proprietär",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(فناوری) انحصاری، اختصاصی"
+    ],
+    "en": [
+      "(tech) proprietary"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Technik"
+  ],
+  "ipa": "pʁopʁi̯eˈtɛːɐ̯",
+  "anmerkung": "Fachsprachlich (Informatik).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Software ist proprietär.",
+      "uebersetzung": {
+        "fa": "این نرم‌افزار انحصاری است.",
+        "en": "The software is proprietary."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Viele Firmen nutzen lieber offene Standards statt proprietärer Formate, damit sie nicht von einem Hersteller abhängig sind.",
+      "uebersetzung": {
+        "fa": "بسیاری از شرکت‌ها ترجیح می‌دهند به جای قالب‌های انحصاری از استانداردهای باز استفاده کنند تا به یک سازنده وابسته نباشند.",
+        "en": "Many companies prefer open standards to proprietary formats so that they are not dependent on one manufacturer."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "offen",
+      "uebersetzung": {
+        "fa": "باز",
+        "en": "open"
+      }
+    },
+    {
+      "wort": "quelloffen",
+      "uebersetzung": {
+        "fa": "متن‌باز",
+        "en": "open-source"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین proprietarius (مالک)",
+    "en": "from Latin proprietarius (owner)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "proprietär",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "proprietäre Software"
+    ],
+    "gegensatzpaar": "proprietär ↔ quelloffen"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Software",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نرم‌افزار",
+          "en": "software"
+        },
+        "id_ref": "nomen_software"
+      },
+      {
+        "wort": "das Format",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قالب",
+          "en": "format"
+        },
+        "id_ref": "nomen_format"
+      },
+      {
+        "wort": "der Hersteller",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سازنده",
+          "en": "manufacturer"
+        },
+        "id_ref": "nomen_hersteller"
+      },
+      {
+        "wort": "abhängig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وابسته",
+          "en": "dependent"
+        },
+        "id_ref": "adjektiv_abhaengig"
+      },
+      {
+        "wort": "die Lizenz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مجوز",
+          "en": "licence"
+        },
+        "id_ref": "nomen_lizenz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

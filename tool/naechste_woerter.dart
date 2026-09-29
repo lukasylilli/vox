@@ -472,6 +472,8 @@ const zurueckgestellt = <String>{
   'primordial', // sehr seltenes Fachwort (ursprünglich?), unsicher 2026-09-27
   'promisk', // sexueller Begriff — für eine Lern-App ohne Altersgrenze zurückgestellt, Lukas entscheidet 2026-09-27
   'promiskuitiv', // sexueller Begriff (Nebenform) — zurückgestellt, Lukas entscheidet 2026-09-27
+  'prosopografisch', // sehr seltenes geschichtswissenschaftliches Fachwort, unsicher 2026-09-27
+  'proteisch', // bildungssprachlich/selten (wandelbar?), unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
