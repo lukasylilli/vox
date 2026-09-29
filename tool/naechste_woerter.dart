@@ -385,6 +385,8 @@ const zurueckgestellt = <String>{
   'nordelbisch', // selten/regional (nördlich der Elbe?), Gebrauch unsicher 2026-09-27
   'notgeil', // vulgärer sexueller Ausdruck — für eine Lern-App ohne Altersgrenze zurückgestellt, Lukas entscheidet 2026-09-27
   'oberer', // Listenfehler: flektierte Form, Grundform «obere» (wie hinterer/innerer) 2026-09-27
+  'oberschlächtig', // Fachwort (Wassermühle: oberschlächtiges Rad), Gebrauch unsicher 2026-09-27
+  'obliviös', // Wort unbekannt (vergesslich?), unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
