@@ -1,0 +1,134 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_rezidivierend",
+  "wort": "rezidivierend",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "عودکننده"
+    ],
+    "en": [
+      "recurrent",
+      "relapsing"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Pflege"
+  ],
+  "ipa": "ʁetsidiˈviːʁənt",
+  "anmerkung": "Medizinische Fachsprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Entzündung ist rezidivierend.",
+      "uebersetzung": {
+        "fa": "این التهاب عودکننده است.",
+        "en": "The inflammation is recurrent."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei rezidivierenden Harnwegsinfekten sucht der Arzt nach der Ursache, damit die Infekte nicht immer wiederkommen.",
+      "uebersetzung": {
+        "fa": "در عفونت‌های عودکننده‌ی مجاری ادراری، پزشک دنبال علت می‌گردد تا عفونت‌ها مدام برنگردند.",
+        "en": "With recurrent urinary tract infections the doctor looks for the cause so that the infections do not keep coming back."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wiederkehrend",
+      "uebersetzung": {
+        "fa": "بازگشت‌کننده",
+        "en": "recurring"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "einmalig",
+      "uebersetzung": {
+        "fa": "یک‌باره",
+        "en": "one-off"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Rezidiv (عود) + -ierend",
+    "en": "Rezidiv (relapse) + -ierend"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "rezidivierend",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "rezidivierende Infekte"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Rezidiv",
+    "woerter": [
+      {
+        "wort": "das Rezidiv",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "عود بیماری",
+          "en": "relapse"
+        },
+        "id_ref": "nomen_rezidiv"
+      },
+      {
+        "wort": "wiederkehrend",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بازگشت‌کننده",
+          "en": "recurring"
+        },
+        "id_ref": "adjektiv_wiederkehrend"
+      },
+      {
+        "wort": "chronisch",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مزمن",
+          "en": "chronic"
+        },
+        "id_ref": "adjektiv_chronisch"
+      },
+      {
+        "wort": "die Infektion",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عفونت",
+          "en": "infection"
+        },
+        "id_ref": "nomen_infektion"
+      },
+      {
+        "wort": "der Rückfall",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "عود",
+          "en": "relapse"
+        },
+        "id_ref": "nomen_rueckfall"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,127 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_rezessiv",
+  "wort": "rezessiv",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "نهفته (ژنتیک)",
+      "مغلوب"
+    ],
+    "en": [
+      "recessive"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft",
+    "Medizin"
+  ],
+  "ipa": "ʁetsɛˈsiːf",
+  "anmerkung": "Fachsprache (Genetik); in der Wirtschaft selten auch „rückläufig“.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Merkmal ist rezessiv.",
+      "uebersetzung": {
+        "fa": "این صفت مغلوب است.",
+        "en": "The trait is recessive."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Eine rezessive Krankheit tritt nur auf, wenn ein Kind das veränderte Gen von beiden Eltern erbt.",
+      "uebersetzung": {
+        "fa": "یک بیماری مغلوب فقط وقتی ظاهر می‌شود که کودک ژن تغییریافته را از هر دو والد به ارث ببرد.",
+        "en": "A recessive disease only appears when a child inherits the altered gene from both parents."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "dominant",
+      "uebersetzung": {
+        "fa": "غالب",
+        "en": "dominant"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "لاتین recessus (عقب‌نشینی) + -iv",
+    "en": "Latin recessus (retreat) + -iv"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "rezessiv",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein rezessives Gen",
+      "rezessiver Erbgang"
+    ],
+    "gegensatzpaar": "rezessiv ↔ dominant"
+  },
+  "wortnetz": {
+    "grundwort": "Gen",
+    "woerter": [
+      {
+        "wort": "das Gen",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ژن",
+          "en": "gene"
+        },
+        "id_ref": "nomen_gen"
+      },
+      {
+        "wort": "dominant",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "غالب",
+          "en": "dominant"
+        },
+        "id_ref": "adjektiv_dominant"
+      },
+      {
+        "wort": "erben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به ارث بردن",
+          "en": "to inherit"
+        },
+        "id_ref": "verb_erben"
+      },
+      {
+        "wort": "die Vererbung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "وراثت",
+          "en": "heredity"
+        },
+        "id_ref": "nomen_vererbung"
+      },
+      {
+        "wort": "das Merkmal",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ویژگی",
+          "en": "trait"
+        },
+        "id_ref": "nomen_merkmal"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

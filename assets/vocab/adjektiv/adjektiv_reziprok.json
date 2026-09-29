@@ -1,0 +1,144 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_reziprok",
+  "wort": "reziprok",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "متقابل",
+      "دوسویه",
+      "معکوس (ریاضی)"
+    ],
+    "en": [
+      "reciprocal",
+      "mutual"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wissenschaft",
+    "Sprache"
+  ],
+  "ipa": "ʁetsiˈpʁoːk",
+  "anmerkung": "Bildungs- und Fachsprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Beziehung ist reziprok.",
+      "uebersetzung": {
+        "fa": "این رابطه دوسویه است.",
+        "en": "The relationship is reciprocal."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Abkommen ist reziprok, das heißt, beide Länder erkennen die Führerscheine des anderen an.",
+      "uebersetzung": {
+        "fa": "این توافق دوسویه است، یعنی هر دو کشور گواهینامه‌های رانندگی یکدیگر را به رسمیت می‌شناسند.",
+        "en": "The agreement is reciprocal, which means both countries recognise each other's driving licences."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wechselseitig",
+      "uebersetzung": {
+        "fa": "متقابل",
+        "en": "mutual"
+      }
+    },
+    {
+      "wort": "gegenseitig",
+      "uebersetzung": {
+        "fa": "دوطرفه",
+        "en": "mutual"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "einseitig",
+      "uebersetzung": {
+        "fa": "یک‌طرفه",
+        "en": "one-sided"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "لاتین reciprocus (برگشتی، متقابل)",
+    "en": "Latin reciprocus (returning, alternating)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "reziprok",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein reziproker Wert",
+      "reziproke Verben"
+    ],
+    "gegensatzpaar": "reziprok ↔ einseitig"
+  },
+  "wortnetz": {
+    "grundwort": "gegenseitig",
+    "woerter": [
+      {
+        "wort": "gegenseitig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دوطرفه",
+          "en": "mutual"
+        },
+        "id_ref": "adjektiv_gegenseitig"
+      },
+      {
+        "wort": "wechselseitig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "متقابل",
+          "en": "mutual"
+        },
+        "id_ref": "adjektiv_wechselseitig"
+      },
+      {
+        "wort": "einseitig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "یک‌طرفه",
+          "en": "one-sided"
+        },
+        "id_ref": "adjektiv_einseitig"
+      },
+      {
+        "wort": "das Abkommen",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "توافق‌نامه",
+          "en": "agreement"
+        },
+        "id_ref": "nomen_abkommen"
+      },
+      {
+        "wort": "der Bruch",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کسر",
+          "en": "fraction"
+        },
+        "id_ref": "nomen_bruch"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
