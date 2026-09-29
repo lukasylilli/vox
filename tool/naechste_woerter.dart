@@ -460,6 +460,13 @@ const zurueckgestellt = <String>{
   'potentiometrisch', // sehr seltenes Fachwort (Chemie/Messtechnik), unsicher 2026-09-27
   'potenzsteigernd', // sexuell konnotiert — für eine Lern-App ohne Altersgrenze zurückgestellt, Lukas entscheidet 2026-09-27
   'prädiktabel', // selten (vorhersagbar?), Gebrauch unsicher 2026-09-27
+  'präjudiziell', // juristisches Fachwort, selten, unsicher 2026-09-27
+  'präliminär', // bildungssprachlich/selten (vorläufig?), unsicher 2026-09-27
+  'prämonetär', // sehr seltenes Fachwort, unsicher 2026-09-27
+  'präplanetar', // sehr seltenes Fachwort (Astronomie), unsicher 2026-09-27
+  'prärogativ', // selten (Vorrecht betreffend?), Gebrauch unsicher 2026-09-27
+  'präsentisch', // seltenes grammatisches Fachwort, unsicher 2026-09-27
+  'präsidiabel', // bildungssprachlich/selten, unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
