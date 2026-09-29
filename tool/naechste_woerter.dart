@@ -457,6 +457,9 @@ const zurueckgestellt = <String>{
   'postalveolar', // seltenes phonetisches Fachwort, unsicher 2026-09-27
   'postfrisch', // Fachwort (Philatelie: ungebrauchte Briefmarke), Gebrauch unsicher 2026-09-27
   'postulationsfähig', // juristisches Fachwort, selten, unsicher 2026-09-27
+  'potentiometrisch', // sehr seltenes Fachwort (Chemie/Messtechnik), unsicher 2026-09-27
+  'potenzsteigernd', // sexuell konnotiert — für eine Lern-App ohne Altersgrenze zurückgestellt, Lukas entscheidet 2026-09-27
+  'prädiktabel', // selten (vorhersagbar?), Gebrauch unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
