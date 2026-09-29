@@ -14,7 +14,8 @@
 > متن مفصل قبل از این خلاصه: `git show a078dc2:PLAN.md` (نسخه‌ی قدیمی‌تر: `afad3ab`).
 > 🗂️ **خلاصه‌سازی سوم (2026-09-24 دور ۶۳، درخواست Lukas — «سریع‌تر، بدون اشتباه»):** گزارش دور به دور کلمه‌ها، جدول پیشرفت و L.4b/L.4b-2 به چند خط کوتاه شد؛ متن کامل قبلی: `git show be0c77d:PLAN.md`.
 >
-> 🗓️ **آخرین جلسه:** 2026-09-27 (دور ۴۴۰–۴۴۴) — **۵۰ کلمه‌ی تازه** (Lukas: «Weiter»): pendent … phonetisch ⇒ آرشیو **۴۰۳۵ کارت** 🎉 (از ۴۰۰۰ گذشت؛ هر دور: dry-run ۰/۰، analyze و همه‌ی ۳۴۲ تست سبز؛ هر دور commit خودش). Wortart غلطی پیدا نشد. **۱۶ کلمه کنار گذاشته** (⇒ «🏁 مرحله‌ی آخر» #۳۷۹–۳۹۴)، از جمله penil، pervers، phallisch (بار جنسی ⇒ تصمیم با Lukas)، pergamenten و perlmuttern (صفت جنس)، و ۱۱ کلمه‌ی نادر/نامطمئن. ⏭️ Claude: کلمه‌ها **از phonologisch**.
+> 🗓️ **آخرین جلسه:** 2026-09-27 (دور ۴۴۵–۴۴۹) — **۵۰ کلمه‌ی تازه** (Lukas: «Weiter»): phonologisch … polemisch ⇒ آرشیو **۴۰۸۵ کارت** (هر دور: dry-run ۰/۰، analyze و همه‌ی ۳۴۲ تست سبز؛ هر دور commit خودش). Wortart غلطی پیدا نشد. **۱۰ کلمه کنار گذاشته** (⇒ «🏁 مرحله‌ی آخر» #۳۹۵–۴۰۴): phyletisch، pikarisch، pithekoid، pitschepatschenass، platzmäßig، plerophor، plüschen (صفت جنس)، pluralisch، poemisch، polabisch. ⏭️ Claude: کلمه‌ها **از polemogen**.
+> قبلی: 2026-09-27 (دور ۴۴۰–۴۴۴) — **۵۰ کلمه‌ی تازه**: pendent … phonetisch ⇒ آرشیو ۴۰۳۵؛ ۱۶ کلمه کنار گذاشته (#۳۷۹–۳۹۴)؛ GitHub Actions سبز.
 > قبلی: 2026-09-27 (دور ۴۳۵–۴۳۹) — **۵۰ کلمه‌ی تازه**: paranoid … pelzig ⇒ آرشیو ۳۹۸۵؛ ۸ کلمه کنار گذاشته (#۳۷۱–۳۷۸)؛ GitHub Actions سبز.
 > قبلی: 2026-09-27 (دور ۴۲۹–۴۳۴) — **۶۰ کلمه‌ی تازه**: ordoliberal … paramilitärisch ⇒ آرشیو ۳۹۳۵؛ ۱۸ کلمه کنار گذاشته (#۳۵۳–۳۷۰)؛ GitHub Actions سبز.
 > قبلی: 2026-09-27 (دور ۴۲۱–۴۲۸) — **۸۰ کلمه‌ی تازه**: obersächsisch … ordnungspolitisch ⇒ آرشیو ۳۸۷۵؛ ۷ کلمه کنار گذاشته (#۳۴۶–۳۵۲)؛ GitHub Actions سبز.
