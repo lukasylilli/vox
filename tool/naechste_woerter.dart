@@ -37,6 +37,16 @@ const listen = <(String, String)>[
   //    Städtenamen = nur IPA + Bedeutung + Artikel (PLAN.md, 2026-09-24).
 ];
 
+/// ⛔ Sperre vor den Verben — Entscheidung Lukas (2026-09-30): Bevor die
+/// erste Verbkarte aus den Wortlisten gebaut wird, muss Claude Lukas fragen,
+/// wie die Formensuche für Verben aussehen soll. Pflicht (schon entschieden):
+/// JEDE Form eines Verbs muss in der Suche die Karte finden — gehe, ging,
+/// gegangen, ausgehen, mitgegangen, … («gehen» im Archiv, «ging» gesucht ⇒
+/// nie null Treffer). Offen (entscheidet Lukas): eigene Wortseite je Form
+/// oder alle Formen auf der Seite des Infinitivs. Erst wenn Lukas
+/// entschieden hat, wird dies auf `true` gesetzt (PLAN.md → «📚 روال …»).
+const verbenFreigegeben = false;
+
 /// Wörter, die Claude nicht sicher beschreiben konnte (Regel 14 des
 /// Wort-Prompts: nie raten) — warten auf Lukas. Mit Datum/Grund in PLAN.md.
 const zurueckgestellt = <String>{
@@ -521,7 +531,8 @@ const wortartKorrektur = <String, String>{
   'achtzehnte': 'numerale', // Ordinalzahl (2026-09-24)
   'achtzigste': 'numerale', // Ordinalzahl (2026-09-24)
   'andante': 'adverb', // Tempobezeichnung, Duden: Adverb (2026-09-25)
-  'anderweit': 'adverb', // Duden: Adverb; Adjektiv ist «anderweitig» (2026-09-25)
+  'anderweit':
+      'adverb', // Duden: Adverb; Adjektiv ist «anderweitig» (2026-09-25)
   'baldmöglichst': 'adverb', // Duden: Adverb (Amtssprache) (2026-09-25)
   'billiardste': 'numerale', // Ordinalzahl (2026-09-26)
   'billionste': 'numerale', // Ordinalzahl (2026-09-26)
@@ -599,6 +610,14 @@ void main(List<String> args) {
   final treffer = <(String, String)>[]; // (Wort, Wortart)
 
   for (final (liste, wortart) in listen) {
+    if (wortart == 'verb' && !verbenFreigegeben) {
+      stdout.writeln(
+        '⛔ Verben gesperrt: vor der ersten Verbkarte Lukas fragen '
+        '(Formensuche gehe/ging/gegangen/ausgehen …, eine Seite oder je '
+        'Form eine Seite) — danach `verbenFreigegeben = true`.',
+      );
+      break;
+    }
     final datei = File(liste);
     if (!datei.existsSync()) {
       stderr.writeln('Liste fehlt: $liste — im Projektordner starten.');
