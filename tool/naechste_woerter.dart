@@ -477,6 +477,7 @@ const zurueckgestellt = <String>{
   'psychrophil', // biologisches Fachwort (kälteliebend), sehr selten, unsicher 2026-09-29
   'pueril', // bildungssprachlich/selten (kindlich?), unsicher 2026-09-29
   'punitiv', // bildungssprachlich/juristisch selten (strafend?), unsicher 2026-09-29
+  'pythonesk', // sehr selten/umgangssprachlich (im Stil von Monty Python?), unsicher 2026-09-29
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
@@ -528,6 +529,7 @@ const wortartKorrektur = <String, String>{
   'neunzehnte': 'numerale', // Duden: Numerale (2026-09-27)
   'neunzigste': 'numerale', // Duden: Numerale (2026-09-27)
   'nullte': 'numerale', // Duden: Numerale (2026-09-27)
+  'quadrillionste': 'numerale', // Duden: Numerale (2026-09-29)
 };
 
 /// `--abhaken` (Schritt 6 der Routine): setzt in ALLEN Listen «✓ » vor jedes
