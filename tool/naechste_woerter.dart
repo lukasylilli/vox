@@ -417,6 +417,7 @@ const zurueckgestellt = <String>{
   'passiert', // Partizip von «passieren» (Küche: durch ein Sieb gestrichen?), als Adjektiv unsicher 2026-09-27
   'pastellen', // selten (in Pastellfarben?), Gebrauch unsicher 2026-09-27
   'patrologisch', // seltenes theologisches Fachwort (Kirchenväter), unsicher 2026-09-27
+  'pekig', // Wort unbekannt (regional?), Bedeutung unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
