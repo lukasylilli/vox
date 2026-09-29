@@ -467,6 +467,8 @@ const zurueckgestellt = <String>{
   'prärogativ', // selten (Vorrecht betreffend?), Gebrauch unsicher 2026-09-27
   'präsentisch', // seltenes grammatisches Fachwort, unsicher 2026-09-27
   'präsidiabel', // bildungssprachlich/selten, unsicher 2026-09-27
+  'präsumtiv', // juristisches Fachwort, selten, unsicher 2026-09-27
+  'präterital', // seltenes grammatisches Fachwort, unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
