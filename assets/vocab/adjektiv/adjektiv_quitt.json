@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_quitt",
+  "wort": "quitt",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "بی‌حساب (بدهی تسویه‌شده)"
+    ],
+    "en": [
+      "quits",
+      "even"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Geld"
+  ],
+  "ipa": "kvɪt",
+  "anmerkung": "Nur prädikativ, meist mit „sein“; umgangssprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Jetzt sind wir quitt.",
+      "uebersetzung": {
+        "fa": "حالا بی‌حسابیم.",
+        "en": "Now we are quits."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ich habe dir das Geld zurückgegeben, also sind wir quitt und keiner schuldet dem anderen etwas.",
+      "uebersetzung": {
+        "fa": "پولت را پس دادم، پس بی‌حسابیم و هیچ‌کدام به دیگری بدهکار نیست.",
+        "en": "I have given you the money back, so we are even and nobody owes the other anything."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از فرانسوی quitte ← لاتین quietus (آسوده)",
+    "en": "from French quitte ← Latin quietus (at rest)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "quitt",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "praedikativ",
+    "mit_praeposition": [
+      {
+        "muster": "mit jemandem quitt sein (mit + Dat)",
+        "beispiel": "Mit meinem Bruder bin ich jetzt quitt.",
+        "uebersetzung": {
+          "fa": "حالا با برادرم بی‌حسابم.",
+          "en": "I am now quits with my brother."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "quitt",
+    "woerter": [
+      {
+        "wort": "die Schuld",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بدهی، تقصیر",
+          "en": "debt"
+        },
+        "id_ref": "nomen_schuld"
+      },
+      {
+        "wort": "schulden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بدهکار بودن",
+          "en": "to owe"
+        },
+        "id_ref": "verb_schulden"
+      },
+      {
+        "wort": "zurückzahlen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پس دادن (پول)",
+          "en": "to pay back"
+        },
+        "id_ref": "verb_zurueckzahlen"
+      },
+      {
+        "wort": "das Geld",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پول",
+          "en": "money"
+        },
+        "id_ref": "nomen_geld"
+      },
+      {
+        "wort": "die Quittung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رسید",
+          "en": "receipt"
+        },
+        "id_ref": "nomen_quittung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -478,6 +478,7 @@ const zurueckgestellt = <String>{
   'pueril', // bildungssprachlich/selten (kindlich?), unsicher 2026-09-29
   'punitiv', // bildungssprachlich/juristisch selten (strafend?), unsicher 2026-09-29
   'pythonesk', // sehr selten/umgangssprachlich (im Stil von Monty Python?), unsicher 2026-09-29
+  'quinär', // Fachwort (auf der Zahl Fünf beruhend?), sehr selten, unsicher 2026-09-29
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
