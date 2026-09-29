@@ -439,6 +439,11 @@ const zurueckgestellt = <String>{
   'pithekoid', // sehr seltenes anthropologisches Fachwort, unsicher 2026-09-27
   'pitschepatschenass', // umgangssprachliche Nebenform (verstärktes «pitschnass»), unsicher 2026-09-27
   'platzmäßig', // selten (Sport: vom Platz her?), Gebrauch unsicher 2026-09-27
+  'plerophor', // sehr seltenes Fachwort, Bedeutung unsicher 2026-09-27
+  'plüschen', // Stoffadjektiv (aus Plüsch) — wie flanellen zurückgestellt 2026-09-27
+  'pluralisch', // selten (Plural betreffend?), Gebrauch unsicher 2026-09-27
+  'poemisch', // Wort unbekannt, Bedeutung unsicher 2026-09-27
+  'polabisch', // sehr seltenes Fachwort (ausgestorbene Sprache), unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
