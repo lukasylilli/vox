@@ -418,6 +418,12 @@ const zurueckgestellt = <String>{
   'pastellen', // selten (in Pastellfarben?), Gebrauch unsicher 2026-09-27
   'patrologisch', // seltenes theologisches Fachwort (Kirchenväter), unsicher 2026-09-27
   'pekig', // Wort unbekannt (regional?), Bedeutung unsicher 2026-09-27
+  'penil', // anatomisch-sexueller Fachbegriff — für eine Lern-App ohne Altersgrenze zurückgestellt, Lukas entscheidet 2026-09-27
+  'pentelisch', // sehr seltenes Fachwort (pentelischer Marmor), unsicher 2026-09-27
+  'perdu', // umgangssprachlich/veraltet (verloren?), Gebrauch unsicher 2026-09-27
+  'pergamenisch', // seltenes Fachwort (Pergamon betreffend?), unsicher 2026-09-27
+  'pergamenten', // Stoffadjektiv (aus Pergament) — wie flanellen zurückgestellt 2026-09-27
+  'perimortal', // seltenes forensisches Fachwort, unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

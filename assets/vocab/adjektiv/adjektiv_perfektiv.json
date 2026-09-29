@@ -1,0 +1,124 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_perfektiv",
+  "wort": "perfektiv",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(دستور زبان) کامل، تمام‌شده (نمود فعل)"
+    ],
+    "en": [
+      "(grammar) perfective"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Grammatik"
+  ],
+  "ipa": "ˈpɛʁfɛktiːf",
+  "anmerkung": "Sprachwissenschaft.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Verb ist perfektiv.",
+      "uebersetzung": {
+        "fa": "این فعل نمود کامل دارد.",
+        "en": "The verb is perfective."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Perfektive Verben wie «einschlafen» beschreiben eine abgeschlossene Handlung, «schlafen» dagegen einen andauernden Zustand.",
+      "uebersetzung": {
+        "fa": "فعل‌های کامل مثل «einschlafen» کاری تمام‌شده را توصیف می‌کنند، ولی «schlafen» حالتی ادامه‌دار را.",
+        "en": "Perfective verbs like «einschlafen» describe a completed action, whereas «schlafen» describes an ongoing state."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "imperfektiv",
+      "uebersetzung": {
+        "fa": "ناقص (نمود فعل)",
+        "en": "imperfective"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین perfectivus (کامل‌کننده)",
+    "en": "from Latin perfectivus"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "perfektiv",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "perfektive Verben"
+    ],
+    "gegensatzpaar": "perfektiv ↔ imperfektiv"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Verb",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فعل",
+          "en": "verb"
+        },
+        "id_ref": "nomen_verb"
+      },
+      {
+        "wort": "die Grammatik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دستور زبان",
+          "en": "grammar"
+        },
+        "id_ref": "nomen_grammatik"
+      },
+      {
+        "wort": "abgeschlossen",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تمام‌شده",
+          "en": "completed"
+        },
+        "id_ref": "adjektiv_abgeschlossen"
+      },
+      {
+        "wort": "der Aspekt",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جنبه، نمود",
+          "en": "aspect"
+        },
+        "id_ref": "nomen_aspekt"
+      },
+      {
+        "wort": "das Perfekt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ماضی نقلی",
+          "en": "perfect tense"
+        },
+        "id_ref": "nomen_perfekt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
