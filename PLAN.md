@@ -14,7 +14,8 @@
 > متن مفصل قبل از این خلاصه: `git show a078dc2:PLAN.md` (نسخه‌ی قدیمی‌تر: `afad3ab`).
 > 🗂️ **خلاصه‌سازی سوم (2026-09-24 دور ۶۳، درخواست Lukas — «سریع‌تر، بدون اشتباه»):** گزارش دور به دور کلمه‌ها، جدول پیشرفت و L.4b/L.4b-2 به چند خط کوتاه شد؛ متن کامل قبلی: `git show be0c77d:PLAN.md`.
 >
-> 🗓️ **آخرین جلسه:** 2026-09-27 (دور ۴۲۱–۴۲۸) — **۸۰ کلمه‌ی تازه** (Lukas: «Weiter»): obersächsisch … ordnungspolitisch ⇒ آرشیو **۳۸۷۵ کارت** (هر دور: dry-run ۰/۰، analyze و همه‌ی ۳۴۲ تست سبز؛ هر دور commit خودش). Wortart غلطی پیدا نشد. **۷ کلمه کنار گذاشته** (⇒ «🏁 مرحله‌ی آخر» #۳۴۶–۳۵۲): oberschlächtig، obliviös، obstinat، öffenbar (شکل مشکوک)، ogygisch، oknophil، opalen. ⏭️ Claude: کلمه‌ها **از ordoliberal**.
+> 🗓️ **آخرین جلسه:** 2026-09-27 (دور ۴۲۹–۴۳۴) — **۶۰ کلمه‌ی تازه** (Lukas: «Weiter» ×۲): ordoliberal … paramilitärisch ⇒ آرشیو **۳۹۳۵ کارت** (حرف O تمام شد، P شروع شد؛ هر دور: dry-run ۰/۰، analyze و همه‌ی ۳۴۲ تست سبز؛ هر دور commit خودش). Wortart غلطی پیدا نشد. **۱۸ کلمه کنار گذاشته** (⇒ «🏁 مرحله‌ی آخر» #۳۵۳–۳۷۰)، از جمله pädophil (اصطلاح حساس ⇒ تصمیم با Lukas)، papabile (شکل ایتالیایی ⇒ تصمیم با Lukas)، papieren/papiern (صفت جنس)، و ۱۴ کلمه‌ی نادر/نامطمئن. ⏭️ Claude: کلمه‌ها **از paranoid**.
+> قبلی: 2026-09-27 (دور ۴۲۱–۴۲۸) — **۸۰ کلمه‌ی تازه**: obersächsisch … ordnungspolitisch ⇒ آرشیو ۳۸۷۵؛ ۷ کلمه کنار گذاشته (#۳۴۶–۳۵۲)؛ GitHub Actions سبز.
 > قبلی: 2026-09-27 (دور ۴۱۵–۴۲۰) — **۶۰ کلمه‌ی تازه**: niederländisch … oberösterreichisch ⇒ آرشیو ۳۷۹۵؛ nullte ⇒ numerale؛ ۴ کلمه کنار گذاشته (#۳۴۲–۳۴۵)؛ GitHub Actions سبز.
 > قبلی: 2026-09-27 (دور ۴۰۳–۴۱۴) — **۱۲۰ کلمه‌ی تازه**: mundtot … niedergeschlagen ⇒ آرشیو ۳۷۳۵؛ ۳ Wortart ⇒ numerale؛ ۱۱ کلمه کنار گذاشته (#۳۳۱–۳۴۱).
 > قبلی: 2026-09-27 (دور ۳۹۴–۴۰۲) — **۹۰ کلمه‌ی تازه**: mittelhochdeutsch … mundgerecht ⇒ آرشیو ۳۶۱۵؛ ۸ کلمه کنار گذاشته (#۳۲۳–۳۳۰)؛ GitHub Actions همه سبز.
