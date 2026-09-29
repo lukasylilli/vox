@@ -1,0 +1,132 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_planar",
+  "wort": "planar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(ریاضی/فنی) مسطح، تخت"
+    ],
+    "en": [
+      "planar"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik",
+    "Technik"
+  ],
+  "ipa": "plaˈnaːɐ̯",
+  "anmerkung": "Fachsprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Struktur ist planar.",
+      "uebersetzung": {
+        "fa": "این ساختار مسطح است.",
+        "en": "The structure is planar."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ein planarer Graph lässt sich so zeichnen, dass sich keine Linien kreuzen.",
+      "uebersetzung": {
+        "fa": "گراف مسطح را می‌شود طوری رسم کرد که هیچ خطی از خط دیگر عبور نکند.",
+        "en": "A planar graph can be drawn so that no lines cross."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "eben",
+      "uebersetzung": {
+        "fa": "مسطح",
+        "en": "flat"
+      }
+    },
+    {
+      "wort": "zweidimensional",
+      "uebersetzung": {
+        "fa": "دوبعدی",
+        "en": "two-dimensional"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین planaris (مسطح)",
+    "en": "from Latin planaris"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "planar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein planarer Graph"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "eben",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مسطح",
+          "en": "level"
+        },
+        "id_ref": "adjektiv_eben"
+      },
+      {
+        "wort": "die Fläche",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سطح",
+          "en": "plane"
+        },
+        "id_ref": "nomen_flaeche"
+      },
+      {
+        "wort": "die Geometrie",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "هندسه",
+          "en": "geometry"
+        },
+        "id_ref": "nomen_geometrie"
+      },
+      {
+        "wort": "zweidimensional",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دوبعدی",
+          "en": "two-dimensional"
+        },
+        "id_ref": "adjektiv_zweidimensional"
+      },
+      {
+        "wort": "die Linie",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خط",
+          "en": "line"
+        },
+        "id_ref": "nomen_linie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

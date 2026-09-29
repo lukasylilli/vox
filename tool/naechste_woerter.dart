@@ -436,6 +436,8 @@ const zurueckgestellt = <String>{
   'phaneromer', // sehr seltenes geologisches Fachwort, unsicher 2026-09-27
   'phyletisch', // seltenes Fachwort (Stammesgeschichte), unsicher 2026-09-27
   'pikarisch', // seltene Nebenform von «pikaresk» (das gebaut wurde), unsicher 2026-09-27
+  'pithekoid', // sehr seltenes anthropologisches Fachwort, unsicher 2026-09-27
+  'pitschepatschenass', // umgangssprachliche Nebenform (verstärktes «pitschnass»), unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
