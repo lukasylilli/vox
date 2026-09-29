@@ -389,6 +389,7 @@ const zurueckgestellt = <String>{
   'obliviös', // Wort unbekannt (vergesslich?), unsicher 2026-09-27
   'obstinat', // veraltet/bildungssprachlich (hartnäckig?), Gebrauch unsicher 2026-09-27
   'öffenbar', // Wort unbekannt/Form zweifelhaft (offenbar? öffnungsfähig?) 2026-09-27
+  'ogygisch', // sehr selten/bildungssprachlich (uralt?), unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
