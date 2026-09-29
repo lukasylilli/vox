@@ -1,0 +1,130 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_patt",
+  "wort": "patt",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(شطرنج/سیاست) در بن‌بست، پات"
+    ],
+    "en": [
+      "stalemate(d)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Spiele",
+    "Politik"
+  ],
+  "ipa": "pat",
+  "anmerkung": "Nur prädikativ: «patt sein».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Spiel ist patt.",
+      "uebersetzung": {
+        "fa": "بازی پات شده است.",
+        "en": "The game is stalemate."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil beide Parteien gleich viele Sitze haben, ist das Parlament patt, und keine Seite kann allein regieren.",
+      "uebersetzung": {
+        "fa": "چون هر دو حزب تعداد کرسی برابر دارند، پارلمان در بن‌بست است و هیچ طرفی نمی‌تواند تنها حکومت کند.",
+        "en": "Because both parties have the same number of seats, parliament is deadlocked and neither side can govern alone."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "unentschieden",
+      "uebersetzung": {
+        "fa": "مساوی",
+        "en": "tied"
+      }
+    },
+    {
+      "wort": "festgefahren",
+      "uebersetzung": {
+        "fa": "در بن‌بست",
+        "en": "deadlocked"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از فرانسوی pat (پات در شطرنج)",
+    "en": "from French pat"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "patt",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "praedikativ",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Patt",
+    "woerter": [
+      {
+        "wort": "das Schach",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شطرنج",
+          "en": "chess"
+        },
+        "id_ref": "nomen_schach"
+      },
+      {
+        "wort": "unentschieden",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مساوی",
+          "en": "tied"
+        },
+        "id_ref": "adjektiv_unentschieden"
+      },
+      {
+        "wort": "die Sackgasse",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بن‌بست",
+          "en": "dead end"
+        },
+        "id_ref": "nomen_sackgasse"
+      },
+      {
+        "wort": "die Mehrheit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اکثریت",
+          "en": "majority"
+        },
+        "id_ref": "nomen_mehrheit"
+      },
+      {
+        "wort": "das Parlament",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پارلمان",
+          "en": "parliament"
+        },
+        "id_ref": "nomen_parlament"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

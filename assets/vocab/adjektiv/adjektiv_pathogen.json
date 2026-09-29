@@ -1,0 +1,140 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_pathogen",
+  "wort": "pathogen",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(پزشکی) بیماری‌زا"
+    ],
+    "en": [
+      "(medical) pathogenic"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Biologie"
+  ],
+  "ipa": "patoˈɡeːn",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Bakterium ist pathogen.",
+      "uebersetzung": {
+        "fa": "این باکتری بیماری‌زاست.",
+        "en": "The bacterium is pathogenic."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nicht alle Bakterien sind pathogen, viele leben sogar nützlich in unserem Darm.",
+      "uebersetzung": {
+        "fa": "همه‌ی باکتری‌ها بیماری‌زا نیستند؛ بسیاری حتی به‌طور مفید در روده‌ی ما زندگی می‌کنند.",
+        "en": "Not all bacteria are pathogenic; many even live usefully in our gut."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "krankheitserregend",
+      "uebersetzung": {
+        "fa": "بیماری‌زا",
+        "en": "disease-causing"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "apathogen",
+      "uebersetzung": {
+        "fa": "غیربیماری‌زا",
+        "en": "non-pathogenic"
+      }
+    },
+    {
+      "wort": "harmlos",
+      "uebersetzung": {
+        "fa": "بی‌خطر",
+        "en": "harmless"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "patho- (بیماری) + -gen (زاینده)",
+    "en": "patho- (disease) + -gen (producing)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "pathogen",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "pathogene Keime"
+    ],
+    "gegensatzpaar": "pathogen ↔ harmlos"
+  },
+  "wortnetz": {
+    "grundwort": "Erreger",
+    "woerter": [
+      {
+        "wort": "der Erreger",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "عامل بیماری",
+          "en": "pathogen"
+        },
+        "id_ref": "nomen_erreger"
+      },
+      {
+        "wort": "die Bakterie",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "باکتری",
+          "en": "bacterium"
+        },
+        "id_ref": "nomen_bakterie"
+      },
+      {
+        "wort": "das Virus",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ویروس",
+          "en": "virus"
+        },
+        "id_ref": "nomen_virus"
+      },
+      {
+        "wort": "die Infektion",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عفونت",
+          "en": "infection"
+        },
+        "id_ref": "nomen_infektion"
+      },
+      {
+        "wort": "harmlos",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بی‌خطر",
+          "en": "harmless"
+        },
+        "id_ref": "adjektiv_harmlos"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
