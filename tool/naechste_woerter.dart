@@ -444,6 +444,8 @@ const zurueckgestellt = <String>{
   'pluralisch', // selten (Plural betreffend?), Gebrauch unsicher 2026-09-27
   'poemisch', // Wort unbekannt, Bedeutung unsicher 2026-09-27
   'polabisch', // sehr seltenes Fachwort (ausgestorbene Sprache), unsicher 2026-09-27
+  'polemogen', // sehr seltenes Fachwort (Konflikte erzeugend?), unsicher 2026-09-27
+  'polydispers', // seltenes Fachwort (Chemie), unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

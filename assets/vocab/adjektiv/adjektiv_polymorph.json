@@ -1,0 +1,133 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_polymorph",
+  "wort": "polymorph",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "چندریخت"
+    ],
+    "en": [
+      "polymorphic"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wissenschaft",
+    "Technik"
+  ],
+  "ipa": "polyˈmɔʁf",
+  "anmerkung": "Fachsprachlich (Biologie, Informatik, Chemie).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Virus ist polymorph.",
+      "uebersetzung": {
+        "fa": "این ویروس چندریخت است.",
+        "en": "The virus is polymorphic."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Polymorphe Viren verändern ständig ihre Form, deshalb ist es schwer, einen wirksamen Impfstoff zu entwickeln.",
+      "uebersetzung": {
+        "fa": "ویروس‌های چندریخت مدام شکلشان را عوض می‌کنند، به همین دلیل ساختن واکسن مؤثر سخت است.",
+        "en": "Polymorphic viruses constantly change their form, which makes it hard to develop an effective vaccine."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vielgestaltig",
+      "uebersetzung": {
+        "fa": "چندشکلی",
+        "en": "multiform"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "monomorph",
+      "uebersetzung": {
+        "fa": "تک‌ریخت",
+        "en": "monomorphic"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "poly- (چند) + -morph (ریخت)",
+    "en": "poly- (many) + -morph (form)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "polymorph",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "polymorphe Strukturen"
+    ],
+    "gegensatzpaar": "polymorph ↔ monomorph"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "monomorph",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "تک‌ریخت",
+          "en": "monomorphic"
+        },
+        "id_ref": "adjektiv_monomorph"
+      },
+      {
+        "wort": "die Form",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شکل",
+          "en": "form"
+        },
+        "id_ref": "nomen_form"
+      },
+      {
+        "wort": "das Virus",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ویروس",
+          "en": "virus"
+        },
+        "id_ref": "nomen_virus"
+      },
+      {
+        "wort": "verändern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تغییر دادن",
+          "en": "to change"
+        },
+        "id_ref": "verb_veraendern"
+      },
+      {
+        "wort": "die Biologie",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زیست‌شناسی",
+          "en": "biology"
+        },
+        "id_ref": "nomen_biologie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
