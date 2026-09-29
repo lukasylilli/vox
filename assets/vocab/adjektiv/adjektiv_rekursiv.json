@@ -1,0 +1,127 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_rekursiv",
+  "wort": "rekursiv",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "بازگشتی"
+    ],
+    "en": [
+      "recursive"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik",
+    "Informatik",
+    "Sprache"
+  ],
+  "ipa": "ʁekʊʁˈziːf",
+  "anmerkung": "Fachsprache (Mathematik, Informatik, Linguistik).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Funktion ist rekursiv.",
+      "uebersetzung": {
+        "fa": "این تابع بازگشتی است.",
+        "en": "The function is recursive."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Eine rekursive Funktion ruft sich selbst auf, bis eine bestimmte Bedingung erfüllt ist.",
+      "uebersetzung": {
+        "fa": "یک تابع بازگشتی خودش را فرامی‌خواند تا شرط مشخصی برقرار شود.",
+        "en": "A recursive function calls itself until a certain condition is met."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "iterativ",
+      "uebersetzung": {
+        "fa": "تکراری (حلقه‌ای)",
+        "en": "iterative"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "لاتین recurrere (برگشتن) + -iv",
+    "en": "Latin recurrere (to run back) + -iv"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "rekursiv",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine rekursive Funktion",
+      "ein rekursives Verfahren"
+    ],
+    "gegensatzpaar": "rekursiv ↔ iterativ"
+  },
+  "wortnetz": {
+    "grundwort": "Rekursion",
+    "woerter": [
+      {
+        "wort": "die Rekursion",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "بازگشت (ریاضی)",
+          "en": "recursion"
+        },
+        "id_ref": "nomen_rekursion"
+      },
+      {
+        "wort": "die Funktion",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تابع",
+          "en": "function"
+        },
+        "id_ref": "nomen_funktion"
+      },
+      {
+        "wort": "der Algorithmus",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "الگوریتم",
+          "en": "algorithm"
+        },
+        "id_ref": "nomen_algorithmus"
+      },
+      {
+        "wort": "programmieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "برنامه‌نویسی کردن",
+          "en": "to program"
+        },
+        "id_ref": "verb_programmieren"
+      },
+      {
+        "wort": "die Mathematik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریاضی",
+          "en": "mathematics"
+        },
+        "id_ref": "nomen_mathematik"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
