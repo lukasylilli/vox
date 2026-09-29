@@ -497,6 +497,14 @@ const zurueckgestellt = <String>{
   'respektiv', // veraltet, unsicher 2026-09-29
   'restituiert', // Partizip/Fachwort, Gebrauch als Adjektiv unsicher 2026-09-29
   'restitutiv', // Fachwort, sehr selten, unsicher 2026-09-29
+  'retikulär', // medizinisches Fachwort, sehr selten, unsicher 2026-09-29
+  'retinotop', // neurowissenschaftliches Fachwort, unsicher 2026-09-29
+  'retransloziert', // Fachwort, sehr selten, unsicher 2026-09-29
+  'retroaktiv', // im Deutschen selten (rückwirkend?), unsicher 2026-09-29
+  'retrobulbär', // medizinisches Fachwort, sehr selten, unsicher 2026-09-29
+  'retrofuturistisch', // Stilbegriff, Registrierung unsicher 2026-09-29
+  'rezent', // mehrdeutig (Biologie: gegenwärtig lebend / regional: säuerlich), unsicher 2026-09-29
+  'rezeptorvermittelt', // Fachwort, sehr selten, unsicher 2026-09-29
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

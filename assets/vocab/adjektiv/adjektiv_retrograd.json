@@ -1,0 +1,134 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_retrograd",
+  "wort": "retrograd",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "واپس‌گرد",
+      "رو به عقب"
+    ],
+    "en": [
+      "retrograde"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Wissenschaft"
+  ],
+  "ipa": "ʁetʁoˈɡʁaːt",
+  "anmerkung": "Fachsprache (Medizin, Astronomie).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Amnesie ist retrograd.",
+      "uebersetzung": {
+        "fa": "این فراموشی واپس‌گرد است.",
+        "en": "The amnesia is retrograde."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Unfall hatte er eine retrograde Amnesie, sodass er sich an die Stunden davor nicht erinnern konnte.",
+      "uebersetzung": {
+        "fa": "بعد از تصادف دچار فراموشی واپس‌گرد شد، طوری که ساعت‌های پیش از آن را به یاد نمی‌آورد.",
+        "en": "After the accident he had retrograde amnesia, so he could not remember the hours before it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rückläufig",
+      "uebersetzung": {
+        "fa": "رو به عقب",
+        "en": "retrograde"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "anterograd",
+      "uebersetzung": {
+        "fa": "پیش‌گرد",
+        "en": "anterograde"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "لاتین retro (به عقب) + gradi (گام برداشتن)",
+    "en": "Latin retro (backwards) + gradi (to step)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "retrograd",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine retrograde Amnesie"
+    ],
+    "gegensatzpaar": "retrograd ↔ anterograd"
+  },
+  "wortnetz": {
+    "grundwort": "Amnesie",
+    "woerter": [
+      {
+        "wort": "die Amnesie",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "فراموشی",
+          "en": "amnesia"
+        },
+        "id_ref": "nomen_amnesie"
+      },
+      {
+        "wort": "das Gedächtnis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حافظه",
+          "en": "memory"
+        },
+        "id_ref": "nomen_gedaechtnis"
+      },
+      {
+        "wort": "rückläufig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رو به عقب",
+          "en": "declining"
+        },
+        "id_ref": "adjektiv_ruecklaeufig"
+      },
+      {
+        "wort": "sich erinnern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "به یاد آوردن",
+          "en": "to remember"
+        },
+        "id_ref": "verb_sich_erinnern"
+      },
+      {
+        "wort": "der Unfall",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تصادف",
+          "en": "accident"
+        },
+        "id_ref": "nomen_unfall"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
