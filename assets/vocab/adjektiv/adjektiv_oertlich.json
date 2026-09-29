@@ -1,0 +1,149 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_oertlich",
+  "wort": "örtlich",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "محلی",
+      "(پزشکی) موضعی"
+    ],
+    "en": [
+      "local"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Ort",
+    "Medizin"
+  ],
+  "ipa": "ˈœʁtlɪç",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Betäubung ist örtlich.",
+      "uebersetzung": {
+        "fa": "این بی‌حسی موضعی است.",
+        "en": "The anaesthetic is local."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Wettervorhersage warnt vor örtlichen Gewittern mit Hagel am späten Nachmittag.",
+      "uebersetzung": {
+        "fa": "پیش‌بینی هوا درباره‌ی توفان‌های تندری محلی همراه با تگرگ در اواخر بعدازظهر هشدار می‌دهد.",
+        "en": "The weather forecast warns of local thunderstorms with hail in the late afternoon."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "lokal",
+      "uebersetzung": {
+        "fa": "محلی",
+        "en": "local"
+      }
+    },
+    {
+      "wort": "regional",
+      "uebersetzung": {
+        "fa": "منطقه‌ای",
+        "en": "regional"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "allgemein",
+      "uebersetzung": {
+        "fa": "عمومی",
+        "en": "general"
+      }
+    },
+    {
+      "wort": "flächendeckend",
+      "uebersetzung": {
+        "fa": "سراسری",
+        "en": "widespread"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Ort (مکان) + -lich",
+    "en": "Ort (place) + -lich"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "örtlich",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine örtliche Betäubung",
+      "die örtliche Polizei"
+    ],
+    "gegensatzpaar": "örtlich ↔ allgemein"
+  },
+  "wortnetz": {
+    "grundwort": "Ort",
+    "woerter": [
+      {
+        "wort": "der Ort",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مکان",
+          "en": "place"
+        },
+        "id_ref": "nomen_ort"
+      },
+      {
+        "wort": "lokal",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "محلی",
+          "en": "local"
+        },
+        "id_ref": "adjektiv_lokal"
+      },
+      {
+        "wort": "regional",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "منطقه‌ای",
+          "en": "regional"
+        },
+        "id_ref": "adjektiv_regional"
+      },
+      {
+        "wort": "die Betäubung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بی‌حسی",
+          "en": "anaesthesia"
+        },
+        "id_ref": "nomen_betaeubung"
+      },
+      {
+        "wort": "das Gewitter",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "توفان تندری",
+          "en": "thunderstorm"
+        },
+        "id_ref": "nomen_gewitter"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

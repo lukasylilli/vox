@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_oestlich",
+  "wort": "östlich",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "شرقی"
+    ],
+    "en": [
+      "eastern",
+      "east of"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Geografie",
+    "Orientierung"
+  ],
+  "ipa": "ˈœstlɪç",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wien liegt im östlichen Österreich.",
+      "uebersetzung": {
+        "fa": "وین در شرق اتریش است.",
+        "en": "Vienna is in eastern Austria."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Flughafen liegt etwa zwanzig Kilometer östlich der Stadt und ist mit dem Zug gut erreichbar.",
+      "uebersetzung": {
+        "fa": "فرودگاه حدود بیست کیلومتری شرق شهر است و با قطار راحت می‌شود به آن رسید.",
+        "en": "The airport is about twenty kilometres east of the city and easy to reach by train."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "westlich",
+      "uebersetzung": {
+        "fa": "غربی",
+        "en": "western"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Osten (شرق) + -lich",
+    "en": "Osten (east) + -lich"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "östlich",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "östlich von + Dat",
+        "beispiel": "Das Dorf liegt östlich von Graz.",
+        "uebersetzung": {
+          "fa": "روستا در شرق گراتس است.",
+          "en": "The village is east of Graz."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "die östliche Grenze"
+    ],
+    "gegensatzpaar": "östlich ↔ westlich"
+  },
+  "wortnetz": {
+    "grundwort": "Osten",
+    "woerter": [
+      {
+        "wort": "der Osten",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شرق",
+          "en": "east"
+        },
+        "id_ref": "nomen_osten"
+      },
+      {
+        "wort": "westlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "غربی",
+          "en": "western"
+        },
+        "id_ref": "adjektiv_westlich"
+      },
+      {
+        "wort": "nördlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شمالی",
+          "en": "northern"
+        },
+        "id_ref": "adjektiv_noerdlich"
+      },
+      {
+        "wort": "südlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جنوبی",
+          "en": "southern"
+        },
+        "id_ref": "adjektiv_suedlich"
+      },
+      {
+        "wort": "die Richtung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جهت",
+          "en": "direction"
+        },
+        "id_ref": "nomen_richtung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
