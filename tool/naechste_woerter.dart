@@ -470,6 +470,8 @@ const zurueckgestellt = <String>{
   'präsumtiv', // juristisches Fachwort, selten, unsicher 2026-09-27
   'präterital', // seltenes grammatisches Fachwort, unsicher 2026-09-27
   'primordial', // sehr seltenes Fachwort (ursprünglich?), unsicher 2026-09-27
+  'promisk', // sexueller Begriff — für eine Lern-App ohne Altersgrenze zurückgestellt, Lukas entscheidet 2026-09-27
+  'promiskuitiv', // sexueller Begriff (Nebenform) — zurückgestellt, Lukas entscheidet 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
