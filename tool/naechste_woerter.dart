@@ -454,6 +454,9 @@ const zurueckgestellt = <String>{
   'pornographisch', // sexueller Inhalt (Schreibvariante) — zurückgestellt, Lukas entscheidet 2026-09-27
   'porzellanen', // Stoffadjektiv (aus Porzellan) — wie flanellen zurückgestellt 2026-09-27
   'porzin', // Fachwort (vom Schwein, Medizin?), unsicher 2026-09-27
+  'postalveolar', // seltenes phonetisches Fachwort, unsicher 2026-09-27
+  'postfrisch', // Fachwort (Philatelie: ungebrauchte Briefmarke), Gebrauch unsicher 2026-09-27
+  'postulationsfähig', // juristisches Fachwort, selten, unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
