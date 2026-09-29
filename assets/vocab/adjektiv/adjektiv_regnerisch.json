@@ -1,0 +1,147 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_regnerisch",
+  "wort": "regnerisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "بارانی"
+    ],
+    "en": [
+      "rainy"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Wetter"
+  ],
+  "ipa": "ˈʁeːɡnəʁɪʃ",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Heute ist es regnerisch.",
+      "uebersetzung": {
+        "fa": "امروز هوا بارانی است.",
+        "en": "It is rainy today."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil das Wetter so regnerisch war, sind wir den ganzen Tag im Museum geblieben.",
+      "uebersetzung": {
+        "fa": "چون هوا خیلی بارانی بود، تمام روز در موزه ماندیم.",
+        "en": "Because the weather was so rainy, we stayed in the museum all day."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nass",
+      "uebersetzung": {
+        "fa": "خیس",
+        "en": "wet"
+      }
+    },
+    {
+      "wort": "trüb",
+      "uebersetzung": {
+        "fa": "گرفته",
+        "en": "dull"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sonnig",
+      "uebersetzung": {
+        "fa": "آفتابی",
+        "en": "sunny"
+      }
+    },
+    {
+      "wort": "trocken",
+      "uebersetzung": {
+        "fa": "خشک",
+        "en": "dry"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "regnen (باریدن) + -isch",
+    "en": "regnen (to rain) + -isch"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "regnerisch",
+      "komparativ": "regnerischer",
+      "superlativ": "am regnerischsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein regnerischer Tag",
+      "regnerisches Wetter"
+    ],
+    "gegensatzpaar": "regnerisch ↔ sonnig"
+  },
+  "wortnetz": {
+    "grundwort": "Regen",
+    "woerter": [
+      {
+        "wort": "der Regen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باران",
+          "en": "rain"
+        },
+        "id_ref": "nomen_regen"
+      },
+      {
+        "wort": "regnen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باریدن",
+          "en": "to rain"
+        },
+        "id_ref": "verb_regnen"
+      },
+      {
+        "wort": "sonnig",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آفتابی",
+          "en": "sunny"
+        },
+        "id_ref": "adjektiv_sonnig"
+      },
+      {
+        "wort": "bewölkt",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ابری",
+          "en": "cloudy"
+        },
+        "id_ref": "adjektiv_bewoelkt"
+      },
+      {
+        "wort": "das Wetter",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "هوا",
+          "en": "weather"
+        },
+        "id_ref": "nomen_wetter"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

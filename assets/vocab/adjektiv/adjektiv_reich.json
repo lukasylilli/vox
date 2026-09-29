@@ -1,0 +1,150 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_reich",
+  "wort": "reich",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "ثروتمند",
+      "پولدار",
+      "غنی"
+    ],
+    "en": [
+      "rich",
+      "wealthy"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Geld",
+    "Gesellschaft"
+  ],
+  "ipa": "ʁaɪ̯ç",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sein Onkel ist sehr reich.",
+      "uebersetzung": {
+        "fa": "عمویش خیلی ثروتمند است.",
+        "en": "His uncle is very rich."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Obwohl das Land reich an Bodenschätzen ist, leben viele Menschen dort in Armut.",
+      "uebersetzung": {
+        "fa": "با اینکه این کشور از نظر منابع زیرزمینی غنی است، بسیاری از مردمش در فقر زندگی می‌کنند.",
+        "en": "Although the country is rich in natural resources, many people there live in poverty."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wohlhabend",
+      "uebersetzung": {
+        "fa": "مرفه",
+        "en": "wealthy"
+      }
+    },
+    {
+      "wort": "vermögend",
+      "uebersetzung": {
+        "fa": "ثروتمند",
+        "en": "affluent"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "arm",
+      "uebersetzung": {
+        "fa": "فقیر",
+        "en": "poor"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "steigerung": {
+      "positiv": "reich",
+      "komparativ": "reicher",
+      "superlativ": "am reichsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "reich an + Dat",
+        "beispiel": "Orangen sind reich an Vitamin C.",
+        "uebersetzung": {
+          "fa": "پرتقال سرشار از ویتامین C است.",
+          "en": "Oranges are rich in vitamin C."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein reicher Mann",
+      "die reiche Ernte"
+    ],
+    "gegensatzpaar": "reich ↔ arm"
+  },
+  "wortnetz": {
+    "grundwort": "Reichtum",
+    "woerter": [
+      {
+        "wort": "der Reichtum",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ثروت",
+          "en": "wealth"
+        },
+        "id_ref": "nomen_reichtum"
+      },
+      {
+        "wort": "arm",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فقیر",
+          "en": "poor"
+        },
+        "id_ref": "adjektiv_arm"
+      },
+      {
+        "wort": "wohlhabend",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مرفه",
+          "en": "wealthy"
+        },
+        "id_ref": "adjektiv_wohlhabend"
+      },
+      {
+        "wort": "das Geld",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پول",
+          "en": "money"
+        },
+        "id_ref": "nomen_geld"
+      },
+      {
+        "wort": "reichlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فراوان",
+          "en": "plentiful"
+        },
+        "id_ref": "adjektiv_reichlich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
