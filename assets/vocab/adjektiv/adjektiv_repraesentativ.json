@@ -1,0 +1,152 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_repraesentativ",
+  "wort": "repräsentativ",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "نماینده (معرف)",
+      "آبرومند و باشکوه"
+    ],
+    "en": [
+      "representative",
+      "prestigious"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft",
+    "Politik"
+  ],
+  "ipa": "ʁepʁɛzɛntaˈtiːf",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Umfrage ist repräsentativ.",
+      "uebersetzung": {
+        "fa": "این نظرسنجی معرف جامعه است.",
+        "en": "The survey is representative."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Studie ist nicht repräsentativ, weil nur Studierende aus einer einzigen Stadt befragt wurden.",
+      "uebersetzung": {
+        "fa": "این پژوهش معرف کل جامعه نیست، چون فقط از دانشجویان یک شهر پرسیده شده است.",
+        "en": "The study is not representative because only students from a single city were surveyed."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "typisch",
+      "uebersetzung": {
+        "fa": "نمونه",
+        "en": "typical"
+      }
+    },
+    {
+      "wort": "stellvertretend",
+      "uebersetzung": {
+        "fa": "نماینده",
+        "en": "representative"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "untypisch",
+      "uebersetzung": {
+        "fa": "غیرنمونه",
+        "en": "atypical"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "repräsentieren (نمایندگی کردن) + -ativ",
+    "en": "repräsentieren (to represent) + -ativ"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "repräsentativ",
+      "komparativ": "repräsentativer",
+      "superlativ": "am repräsentativsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "repräsentativ für + Akk",
+        "beispiel": "Seine Meinung ist nicht repräsentativ für alle Lehrer.",
+        "uebersetzung": {
+          "fa": "نظر او معرف همه‌ی معلم‌ها نیست.",
+          "en": "His opinion is not representative of all teachers."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "eine repräsentative Umfrage",
+      "ein repräsentatives Gebäude"
+    ],
+    "gegensatzpaar": "repräsentativ ↔ untypisch"
+  },
+  "wortnetz": {
+    "grundwort": "Repräsentation",
+    "woerter": [
+      {
+        "wort": "repräsentieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نمایندگی کردن",
+          "en": "to represent"
+        },
+        "id_ref": "verb_repraesentieren"
+      },
+      {
+        "wort": "die Umfrage",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نظرسنجی",
+          "en": "survey"
+        },
+        "id_ref": "nomen_umfrage"
+      },
+      {
+        "wort": "typisch",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نمونه",
+          "en": "typical"
+        },
+        "id_ref": "adjektiv_typisch"
+      },
+      {
+        "wort": "die Studie",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پژوهش",
+          "en": "study"
+        },
+        "id_ref": "nomen_studie"
+      },
+      {
+        "wort": "der Vertreter",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نماینده",
+          "en": "representative"
+        },
+        "id_ref": "nomen_vertreter"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
