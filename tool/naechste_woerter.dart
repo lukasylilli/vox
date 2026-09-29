@@ -446,6 +446,14 @@ const zurueckgestellt = <String>{
   'polabisch', // sehr seltenes Fachwort (ausgestorbene Sprache), unsicher 2026-09-27
   'polemogen', // sehr seltenes Fachwort (Konflikte erzeugend?), unsicher 2026-09-27
   'polydispers', // seltenes Fachwort (Chemie), unsicher 2026-09-27
+  'polytoxikoman', // medizinischer Fachbegriff (Mehrfachabhängigkeit) — sensibel, Lukas entscheidet 2026-09-27
+  'polytrop', // seltenes Fachwort, unsicher 2026-09-27
+  'polyzyklisch', // seltenes Fachwort (Chemie), unsicher 2026-09-27
+  'pongid', // sehr seltenes zoologisches Fachwort, unsicher 2026-09-27
+  'pornografisch', // sexueller Inhalt — für eine Lern-App ohne Altersgrenze zurückgestellt, Lukas entscheidet 2026-09-27
+  'pornographisch', // sexueller Inhalt (Schreibvariante) — zurückgestellt, Lukas entscheidet 2026-09-27
+  'porzellanen', // Stoffadjektiv (aus Porzellan) — wie flanellen zurückgestellt 2026-09-27
+  'porzin', // Fachwort (vom Schwein, Medizin?), unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
