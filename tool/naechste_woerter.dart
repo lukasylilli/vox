@@ -396,6 +396,9 @@ const zurueckgestellt = <String>{
   'orthotrop', // seltenes Fachwort (Botanik/Technik), unsicher 2026-09-27
   'oskisch', // sehr seltenes Fachwort (altitalische Sprache), unsicher 2026-09-27
   'ostensibel', // veraltet/bildungssprachlich, Gebrauch unsicher 2026-09-27
+  'ostfälisch', // seltenes Fachwort (Dialektologie: Ostfälisch), unsicher 2026-09-27
+  'ostgrönländisch', // sehr selten, Gebrauch unsicher 2026-09-27
+  'ouvert', // Fachwort (Kartenspiel/Französisch), Gebrauch unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
