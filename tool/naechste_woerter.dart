@@ -479,6 +479,10 @@ const zurueckgestellt = <String>{
   'punitiv', // bildungssprachlich/juristisch selten (strafend?), unsicher 2026-09-29
   'pythonesk', // sehr selten/umgangssprachlich (im Stil von Monty Python?), unsicher 2026-09-29
   'quinär', // Fachwort (auf der Zahl Fünf beruhend?), sehr selten, unsicher 2026-09-29
+  'quittegelb', // Nebenform, Schreibung unsicher 2026-09-29
+  'quotal', // Fachwort (anteilig?), sehr selten, unsicher 2026-09-29
+  'räß', // regional (schweiz./südd.), Bedeutung unsicher 2026-09-29
+  'räumdig', // Bedeutung/Schreibung unsicher 2026-09-29
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
