@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_proximal",
+  "wort": "proximal",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "نزدیک به تنه (پزشکی)",
+      "پروگزیمال"
+    ],
+    "en": [
+      "proximal"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Anatomie"
+  ],
+  "ipa": "pʁɔksiˈmaːl",
+  "anmerkung": "Fachsprache der Medizin/Anatomie; nicht steigerbar.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Bruch ist proximal.",
+      "uebersetzung": {
+        "fa": "شکستگی در بخش نزدیک به تنه است.",
+        "en": "The fracture is proximal."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Arzt erklärt, dass die Verletzung proximal am Oberarm liegt, also nahe an der Schulter.",
+      "uebersetzung": {
+        "fa": "پزشک توضیح می‌دهد که آسیب در بخش پروگزیمال بازو است، یعنی نزدیک شانه.",
+        "en": "The doctor explains that the injury is proximal on the upper arm, i.e. close to the shoulder."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rumpfnah",
+      "uebersetzung": {
+        "fa": "نزدیک به تنه",
+        "en": "close to the trunk"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "distal",
+      "uebersetzung": {
+        "fa": "دور از تنه",
+        "en": "distal"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "لاتین proximus (نزدیک‌ترین) + -al",
+    "en": "Latin proximus (nearest) + -al"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "proximal",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "das proximale Ende",
+      "eine proximale Fraktur"
+    ],
+    "gegensatzpaar": "proximal ↔ distal"
+  },
+  "wortnetz": {
+    "grundwort": "proximal",
+    "woerter": [
+      {
+        "wort": "distal",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "دور از تنه",
+          "en": "distal"
+        },
+        "id_ref": "adjektiv_distal"
+      },
+      {
+        "wort": "der Knochen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "استخوان",
+          "en": "bone"
+        },
+        "id_ref": "nomen_knochen"
+      },
+      {
+        "wort": "der Bruch",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شکستگی",
+          "en": "fracture"
+        },
+        "id_ref": "nomen_bruch"
+      },
+      {
+        "wort": "das Gelenk",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مفصل",
+          "en": "joint"
+        },
+        "id_ref": "nomen_gelenk"
+      },
+      {
+        "wort": "anatomisch",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کالبدشناختی",
+          "en": "anatomical"
+        },
+        "id_ref": "adjektiv_anatomisch"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
