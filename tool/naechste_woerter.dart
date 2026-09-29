@@ -424,6 +424,9 @@ const zurueckgestellt = <String>{
   'pergamenisch', // seltenes Fachwort (Pergamon betreffend?), unsicher 2026-09-27
   'pergamenten', // Stoffadjektiv (aus Pergament) — wie flanellen zurückgestellt 2026-09-27
   'perimortal', // seltenes forensisches Fachwort, unsicher 2026-09-27
+  'perkussiv', // seltenes Fachwort (Musik/Medizin), unsicher 2026-09-27
+  'perlmuttern', // Stoffadjektiv (aus Perlmutt) — wie flanellen zurückgestellt 2026-09-27
+  'permutabel', // seltenes Fachwort (Mathematik), unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
