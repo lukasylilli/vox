@@ -408,6 +408,8 @@ const zurueckgestellt = <String>{
   'papabile', // italienische Nebenform von «papabel» (das gebaut wurde), unsicher 2026-09-27
   'papieren', // Stoffadjektiv (aus Papier) — wie flanellen zurückgestellt 2026-09-27
   'papiern', // Nebenform von «papieren» (Stoffadjektiv), unsicher 2026-09-27
+  'papstfähig', // freie Bildung (Nebenform von «papabel»?), unsicher 2026-09-27
+  'paradoxal', // seltene Nebenform von «paradox» (das gebaut wurde), unsicher 2026-09-27
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

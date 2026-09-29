@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_parametrisch",
+  "wort": "parametrisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(ریاضی/آمار) پارامتری"
+    ],
+    "en": [
+      "parametric"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik",
+    "Wissenschaft"
+  ],
+  "ipa": "paʁaˈmeːtʁɪʃ",
+  "anmerkung": "Fachsprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Test ist parametrisch.",
+      "uebersetzung": {
+        "fa": "این آزمون پارامتری است.",
+        "en": "The test is parametric."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Parametrische Tests setzen voraus, dass die Daten ungefähr normalverteilt sind.",
+      "uebersetzung": {
+        "fa": "آزمون‌های پارامتری فرض می‌کنند که داده‌ها تقریباً توزیع نرمال دارند.",
+        "en": "Parametric tests assume that the data are approximately normally distributed."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "nichtparametrisch",
+      "uebersetzung": {
+        "fa": "ناپارامتری",
+        "en": "non-parametric"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Parameter (پارامتر) + -isch",
+    "en": "Parameter + -isch"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "parametrisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein parametrischer Test"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Parameter",
+    "woerter": [
+      {
+        "wort": "der Parameter",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پارامتر",
+          "en": "parameter"
+        },
+        "id_ref": "nomen_parameter"
+      },
+      {
+        "wort": "die Statistik",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آمار",
+          "en": "statistics"
+        },
+        "id_ref": "nomen_statistik"
+      },
+      {
+        "wort": "die Daten",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "داده‌ها",
+          "en": "data"
+        },
+        "id_ref": "nomen_daten"
+      },
+      {
+        "wort": "der Test",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آزمون",
+          "en": "test"
+        },
+        "id_ref": "nomen_test"
+      },
+      {
+        "wort": "die Mathematik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریاضی",
+          "en": "mathematics"
+        },
+        "id_ref": "nomen_mathematik"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
