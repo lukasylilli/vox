@@ -1,0 +1,158 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_privat",
+  "wort": "privat",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "خصوصی",
+      "شخصی"
+    ],
+    "en": [
+      "private",
+      "personal"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Wirtschaft"
+  ],
+  "ipa": "pʁiˈvaːt",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das ist privat.",
+      "uebersetzung": {
+        "fa": "این خصوصی است.",
+        "en": "That's private."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "In Österreich sind die meisten Krankenhäuser öffentlich, es gibt aber auch einige private Kliniken.",
+      "uebersetzung": {
+        "fa": "در اتریش بیشتر بیمارستان‌ها دولتی‌اند، ولی چند کلینیک خصوصی هم هست.",
+        "en": "In Austria most hospitals are public, but there are also some private clinics."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "persönlich",
+      "uebersetzung": {
+        "fa": "شخصی",
+        "en": "personal"
+      }
+    },
+    {
+      "wort": "vertraulich",
+      "uebersetzung": {
+        "fa": "محرمانه",
+        "en": "confidential"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "öffentlich",
+      "uebersetzung": {
+        "fa": "عمومی",
+        "en": "public"
+      }
+    },
+    {
+      "wort": "staatlich",
+      "uebersetzung": {
+        "fa": "دولتی",
+        "en": "state"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Privatsphäre",
+      "uebersetzung": {
+        "fa": "حریم خصوصی",
+        "en": "privacy"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از لاتین privatus (جدا، خصوصی)",
+    "en": "from Latin privatus"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "privat",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine private Schule",
+      "private Daten"
+    ],
+    "gegensatzpaar": "privat ↔ öffentlich"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "öffentlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عمومی",
+          "en": "public"
+        },
+        "id_ref": "adjektiv_oeffentlich"
+      },
+      {
+        "wort": "persönlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شخصی",
+          "en": "personal"
+        },
+        "id_ref": "adjektiv_persoenlich"
+      },
+      {
+        "wort": "die Privatsphäre",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "حریم خصوصی",
+          "en": "privacy"
+        },
+        "id_ref": "nomen_privatsphaere"
+      },
+      {
+        "wort": "staatlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دولتی",
+          "en": "state"
+        },
+        "id_ref": "adjektiv_staatlich"
+      },
+      {
+        "wort": "geheim",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مخفی",
+          "en": "secret"
+        },
+        "id_ref": "adjektiv_geheim"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

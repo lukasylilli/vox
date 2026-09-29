@@ -1,0 +1,114 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_prim",
+  "wort": "prim",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "(ریاضی) اول (عدد)"
+    ],
+    "en": [
+      "(maths) prime"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik"
+  ],
+  "ipa": "pʁiːm",
+  "anmerkung": "Mathematische Fachsprache; meist «Primzahl».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Zahl 7 ist prim.",
+      "uebersetzung": {
+        "fa": "عدد ۷ اول است.",
+        "en": "The number 7 is prime."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Eine Zahl ist prim, wenn sie nur durch eins und durch sich selbst teilbar ist, wie zum Beispiel 13.",
+      "uebersetzung": {
+        "fa": "عددی اول است که فقط بر یک و بر خودش بخش‌پذیر باشد، مثل ۱۳.",
+        "en": "A number is prime if it is only divisible by one and by itself, such as 13."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین primus (نخست)",
+    "en": "from Latin primus (first)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "prim",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "praedikativ",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Primzahl",
+    "woerter": [
+      {
+        "wort": "die Primzahl",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عدد اول",
+          "en": "prime number"
+        },
+        "id_ref": "nomen_primzahl"
+      },
+      {
+        "wort": "die Zahl",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عدد",
+          "en": "number"
+        },
+        "id_ref": "nomen_zahl"
+      },
+      {
+        "wort": "teilbar",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بخش‌پذیر",
+          "en": "divisible"
+        },
+        "id_ref": "adjektiv_teilbar"
+      },
+      {
+        "wort": "die Mathematik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریاضی",
+          "en": "mathematics"
+        },
+        "id_ref": "nomen_mathematik"
+      },
+      {
+        "wort": "gerade",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زوج",
+          "en": "even"
+        },
+        "id_ref": "adjektiv_gerade"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
