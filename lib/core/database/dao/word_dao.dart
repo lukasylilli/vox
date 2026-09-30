@@ -2,6 +2,7 @@
 // DEPS: app_database.dart (generated types: Word, WordsCompanion, WordBooks)
 // PURPOSE: All CRUD + query operations for the words table
 import 'package:drift/drift.dart';
+import '../../wort/altwort_formen.dart';
 import '../app_database.dart';
 
 class WordDao {
@@ -51,6 +52,30 @@ class WordDao {
           t.german.lower().like(q) | t.meaningFa.like(q))
       ..orderBy([(t) => OrderingTerm.asc(t.german)]))
         .get();
+  }
+
+  /// Alte Wörter, zu denen [schluessel] (`wortSchluessel`) eine GEBEUGTE Form
+  /// ist — «empfahl» ⇒ empfehlen, «Häusern» ⇒ Haus (Lukas 2026-09-30).
+  /// Die Datenbank sucht grob (Teilstring in Konjugation/Plural), die genaue
+  /// Prüfung macht [altwortFormen] — nie ein Treffer, der nur ähnlich ist.
+  Future<List<Word>> nachForm(String schluessel) async {
+    if (schluessel.isEmpty) return const [];
+    final q = '%$schluessel%';
+    final kandidaten = await (_db.select(_db.words)
+          ..where((t) =>
+              t.conjugationJson.lower().like(q) | t.plural.lower().like(q))
+          ..orderBy([(t) => OrderingTerm.asc(t.german)]))
+        .get();
+    return [
+      for (final w in kandidaten)
+        if (altwortFormen(
+          wortart: w.wordType,
+          german: w.german,
+          plural: w.plural,
+          conjugationJson: w.conjugationJson,
+        ).contains(schluessel))
+          w,
+    ];
   }
 
   Future<int> countAll() =>

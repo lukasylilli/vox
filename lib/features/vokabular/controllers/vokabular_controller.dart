@@ -17,6 +17,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../data/vokab_index.dart';
+import '../../../core/wort/wort_form.dart';
 import '../data/vokab_formen.dart';
 
 // vokabId (ID-Regel 5) lebt in vokab_schema.dart (reines Dart) — EINE
@@ -74,6 +75,39 @@ final vokabNachFormProvider =
   final nachId = await ref.watch(vokabIndexByIdProvider.future);
   return [for (final id in ids) if (nachId[id] != null) nachId[id]!];
 });
+
+/// Archiv-Suche MIT gebeugten Formen (Entscheidung Lukas, 2026-09-30):
+/// Wer eine gebeugte Form sucht («aalartige», «Häuser», «ging»), findet die
+/// Karte — für jede Wortart, deren Formen die Formen-Tabelle kennt
+/// (vokab_formen.dart). Reihenfolge: zuerst die Karten, zu denen die Suche
+/// als FORM gehört (das gesuchte Wort selbst), dann die normalen Treffer über
+/// wort + Übersetzungen ([vokabKartePasst]); jede Karte nur einmal.
+/// `query` wie in der Suchleiste (klein, getrimmt). Leer ⇒ leere Liste.
+final vokabSucheProvider =
+    FutureProvider.family<List<Map<String, dynamic>>, String>(
+        (ref, query) async {
+  final q = query.trim();
+  if (q.isEmpty) return const [];
+  final alle = await ref.watch(vokabIndexProvider.future);
+  final ueberForm = await ref.watch(vokabNachFormProvider(
+          wortSchluessel(q))
+      .future);
+  return vokabTrefferZusammen(
+      ueberForm, [for (final k in alle) if (vokabKartePasst(k, q)) k]);
+});
+
+/// Form-Treffer zuerst, dann Text-Treffer; doppelte ids fallen weg.
+/// Reines Dart — von [vokabSucheProvider] und den Tests genutzt.
+List<Map<String, dynamic>> vokabTrefferZusammen(
+  List<Map<String, dynamic>> ueberForm,
+  List<Map<String, dynamic>> ueberText,
+) {
+  final gesehen = <String>{};
+  return [
+    for (final k in [...ueberForm, ...ueberText])
+      if (gesehen.add(k['id'] as String? ?? '')) k,
+  ];
+}
 
 /// Die VOLLE Karte eines Worts — erst beim Öffnen geladen. `null`, wenn es
 /// die id im Archiv nicht gibt. Der Pfad folgt aus Wortart + id; dass jede

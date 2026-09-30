@@ -20,6 +20,8 @@ import '../../../core/models/word_model.dart';
 import '../../../core/widgets/filter_accordion.dart';
 import '../../../core/widgets/filter_chip_bar.dart';
 import '../../../core/widgets/vox_search_field.dart';
+import '../../../core/wort/altwort_formen.dart';
+import '../../../core/wort/wort_form.dart';
 import '../../vokabular/controllers/vokabular_controller.dart';
 import '../../vokabular/widgets/wort_actions.dart';
 import '../controllers/word_controller.dart';
@@ -94,9 +96,8 @@ class _WortschatzListScreenState extends ConsumerState<WortschatzListScreen> {
           .toSet();
       liste = liste.where((k) => erlaubt.contains(k['wortart'])).toList();
     }
-    if (_query.isNotEmpty) {
-      liste = liste.where((k) => vokabKartePasst(k, _query)).toList();
-    }
+    // Suche: die Liste kommt schon fertig aus [vokabSucheProvider]
+    // (Text-Treffer + gebeugte Formen), siehe build().
     return liste;
   }
 
@@ -138,6 +139,8 @@ class _WortschatzListScreenState extends ConsumerState<WortschatzListScreen> {
   Widget build(BuildContext context) {
     final wordsAsync = ref.watch(allWordsProvider);
     final kartenAsync = ref.watch(vokabIndexProvider);
+    final sucheAsync =
+        _query.isEmpty ? null : ref.watch(vokabSucheProvider(_query));
     final activeMap  = _activeFilters;
 
     return Scaffold(
@@ -223,16 +226,34 @@ class _WortschatzListScreenState extends ConsumerState<WortschatzListScreen> {
                       _selectedTypes.contains(w.wordType.name)).toList();
                 }
                 if (_query.isNotEmpty) {
+                  // Auch gebeugte Formen («empfahl» ⇒ empfehlen) — 2026-09-30.
+                  final formSchluessel = wortSchluessel(_query);
                   list = list.where((w) =>
                       w.german.toLowerCase().contains(_query) ||
                       w.meaningFa.contains(_query) ||
-                      (w.meaningEn?.toLowerCase().contains(_query) ?? false))
+                      (w.meaningEn?.toLowerCase().contains(_query) ?? false) ||
+                      altwortFormen(
+                        wortart: w.wordType.name,
+                        german: w.german,
+                        plural: w.plural,
+                        conjugationJson: w.conjugationJson,
+                      ).contains(formSchluessel))
                       .toList();
                 }
 
                 // Vokabular-Karten (assets/vocab/) mit denselben Filtern.
-                final karten = _gefilterteKarten(
-                    kartenAsync.valueOrNull ?? const []);
+                // Mit Suche: Treffer inkl. gebeugter Formen («aalartige» ⇒
+                // aalartig) aus vokabSucheProvider — bis er geladen ist,
+                // die einfachen Text-Treffer.
+                final basis = _query.isEmpty
+                    ? (kartenAsync.valueOrNull ?? const <Map<String, dynamic>>[])
+                    : (sucheAsync?.valueOrNull ??
+                        [
+                          for (final k in kartenAsync.valueOrNull ??
+                              const <Map<String, dynamic>>[])
+                            if (vokabKartePasst(k, _query)) k,
+                        ]);
+                final karten = _gefilterteKarten(basis);
 
                 // Beide Quellen alphabetisch gemischt (Artikel zählt nicht).
                 final zeilen = <MapEntry<String, Object>>[

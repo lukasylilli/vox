@@ -1,10 +1,15 @@
 // FILE: lib/features/home/controllers/search_controller.dart
-// DEPS: app_database.dart
-// PURPOSE: Globale Suche — Wörter + Grammatik + Auswendiglernen parallel durchsuchen
+// DEPS: app_database.dart, vokabular_controller.dart (vokabSucheProvider)
+// PURPOSE: Globale Suche — Wörter (alte DB + Vokabular-Archiv, auch gebeugte
+//          Formen: «ging», «Häuser» ⇒ Karte; Lukas 2026-09-30) + Grammatik +
+//          Auswendiglernen parallel durchsuchen
 import 'package:drift/drift.dart' hide Value;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../../core/constants/app_routes.dart';
 import '../../../core/database/app_database.dart';
+import '../../../core/wort/wort_form.dart';
+import '../../vokabular/controllers/vokabular_controller.dart';
 import '../../wortschatz/controllers/word_controller.dart';
 import '../../../core/l10n/app_l10n.dart';
 
@@ -79,6 +84,11 @@ class GlobalSearchNotifier extends Notifier<SearchState> {
               t.german.like(like) |
               t.meaningFa.like(like)))
         .get();
+    // Gebeugte Formen alter Wörter («empfahl» ⇒ empfehlen) — 2026-09-30.
+    final schonDa = {for (final w in words) w.id};
+    for (final w in await ref.read(wordDaoProvider).nachForm(wortSchluessel(q))) {
+      if (schonDa.add(w.id)) words.add(w);
+    }
     for (final w in words) {
       results.add(SearchResult(
         type    : SearchResultType.word,
@@ -88,6 +98,24 @@ class GlobalSearchNotifier extends Notifier<SearchState> {
             ? w.meaningFa
             : (w.meaningEn ?? w.meaningFa),
         route   : '/wortschatz/word/${w.id}',
+      ));
+    }
+
+    // Vokabular-Archiv (assets/vocab/) — Text-Treffer UND gebeugte Formen.
+    final karten = await ref.read(vokabSucheProvider(q.toLowerCase()).future);
+    for (final k in karten) {
+      final u = (k['uebersetzung'] as Map?)?.cast<String, dynamic>() ??
+          const <String, dynamic>{};
+      String text(Object? v) =>
+          v is List ? v.join('، ') : (v as String? ?? '');
+      final fa = text(u['fa']);
+      final en = text(u['en']);
+      results.add(SearchResult(
+        type    : SearchResultType.word,
+        id      : 0,
+        title   : k['wort'] as String? ?? '',
+        subtitle: AppL10n.activeLang == 'fa' || en.isEmpty ? fa : en,
+        route   : AppRoutes.vokabularWort(k['id'] as String? ?? ''),
       ));
     }
 

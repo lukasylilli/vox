@@ -117,6 +117,13 @@ final klickWortTrefferProvider =
       if (wortSchluessel(z.german) == schluessel)
         KlickWortTreffer.datenbank(z.toModel()),
   ].take(klickWortMaxTreffer).toList();
+  // Gebeugte Form eines ALTEN Worts («empfahl» ⇒ empfehlen) — 2026-09-30.
+  if (ausDatenbank.isEmpty) {
+    for (final z in await ref.watch(wordDaoProvider).nachForm(schluessel)) {
+      if (ausDatenbank.length >= klickWortMaxTreffer) break;
+      ausDatenbank.add(KlickWortTreffer.datenbank(z.toModel()));
+    }
+  }
   if (ausDatenbank.isEmpty && indexFehler != null) {
     Error.throwWithStackTrace(indexFehler, indexStack!);
   }
