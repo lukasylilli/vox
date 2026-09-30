@@ -11,9 +11,11 @@
 //     nicht mit: «die Angst» → «angst». Das einzelne Wort «die» bleibt «die».
 //   · Eine nachgestellte Präposition zählt nicht mit: «warten auf» → «warten»
 //     (so steht es in der alten Wortdatenbank).
-//   · KEINE Formenerkennung (ging → gehen, Häuser → Haus): sie wäre geraten.
-//     Was nicht als Grundform vorkommt, wird «nicht im Wörterbuch» gezeigt —
-//     mit dem Weg in die Suche.
+//   · Der Schlüssel selbst erkennt KEINE Formen (ging → gehen wäre geraten).
+//     Gebeugte Formen findet man nur über das, was die Wörter selbst sagen:
+//     Archiv ⇒ vokab_formen.dart (assets/vocab_formen/), alte Wörter ⇒
+//     altwort_formen.dart — in Suche UND Antippen (Lukas 2026-09-30).
+//     Was auch dort fehlt, wird «nicht im Wörterbuch» gezeigt.
 //
 // ⚠️ `stripPreposition` lag früher in word_list_item.dart und wohnt seit L.5f
 //    hier (eine Quelle); word_list_item.dart reicht sie unverändert weiter.
