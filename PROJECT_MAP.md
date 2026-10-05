@@ -1,5 +1,6 @@
 # PROJECT MAP — VOX
 # نقشه کامل پروژه برای ناوبری سریع در هر session
+# آپدیت 2026-10-05: B-14 — `selbstlernen_controller.dart` ⇒ PomodoroNotifier بر پایه‌ی ساعت واقعی (`_endsAt`) + sync هنگام resumed + ذخیره در shared_preferences (کلید `pomodoro_zustand_v1`)؛ تست تازه `test/pomodoro_test.dart`.
 # آپدیت: 2026-09-24 دور ۶۳ — خلاصه‌سازی سوم (درخواست Lukas): گزارش دورها کوتاه شد؛ متن قبلی: `git show be0c77d:PROJECT_MAP.md` (دوم: `a078dc2`).
 #   تازه‌ها در همین روز: web/locale_guard.js · leitnerEintraegeProvider (لایتنر دو منبع، B-13) · wende_karte.dart + archiv_flash_card.dart · WortZeile در wort_card.dart
 #   · wort_popup.dart (_WortKopf تلفظ، _LadenFehlgeschlagen) · deutschLinksbuendig + DeutschRichText (core/widgets/deutsch_text.dart) · vokab_formen.dart ⇒ assets/vocab_formen/.
@@ -836,7 +837,9 @@ controllers/
   selbstlernen_controller.dart    [x]  — allHabitsProvider، activeHabitsProvider، habitByIdProvider
                                          habitLast7DaysProvider، habitCompletedTodayProvider
                                          HabitActions (create/update/delete/toggleToday)، habitActionsProvider
-                                         PomodoroState، PomodoroNotifier، pomodoroProvider
+                                         PomodoroState، PomodoroNotifier، pomodoroProvider، kPomodoroKey
+                                         **B-14 (2026-10-05):** PomodoroNotifier با ساعت واقعی کار می‌کند (`_endsAt`؛ `_sync` با هر تیک و با resumed)،
+                                         وضعیت در shared_preferences (`pomodoro_zustand_v1`) ذخیره و بازیابی می‌شود؛ `WidgetsBindingObserver`
                                          dayNames[7]، PomodoroPhase enum با labelFa + defaultSeconds
 widgets/
   streak_chart_widget.dart        [x]  — fl_chart BarChart آخر ۷ روز، سبز/خاکستری
@@ -1373,6 +1376,7 @@ die Fassade, die allein `NutzerZustand` nach außen zeigt.
 | `core/constants/app_links.dart` → `voxUrl` | Rücksprung-Adresse für Mails; **muss** in Supabase → Redirect URLs stehen, sonst landet der Link auf der Site URL (= Root-in) |
 | `core/constants/app_links.dart` → `voxPasswortUrl` (2026-09-23) | `…/vox/?link=passwort` — Rücksprung der Passwort-Mail. **Muss zeichengleich** in Supabase → Redirect URLs stehen (eingetragen 2026-09-23); fehlt sie, landet der Link auf der Site URL (`localhost:3000`). Test prüft den Text |
 | `features/more/…` (Profil-Seite) | siehe Baum `lib/features/more/` oben; Route `AppRoutes.profil` = `/more/profil`; Einstieg: More (erste Zeile) + Einstellungen → `_ProfilKachel` |
+| `test/pomodoro_test.dart` | **B-14** — Pomodoro با ساعت جعلی: قفل صفحه (۹۰ ثانیه)، پایان فاز حین قفل، pause، ساعت به عقب، reset، استراحت بلند، ذخیره/بازیابی، ورودی خراب |
 | `test/profil_test.dart` · `test/profil_controller_test.dart` | **P** — Telefon/Bereinigen/JSON/Zusammenführen/Vertrag v4 (+ v3 lesbar)/Passwortregel/Auth-Codes · Notifier (bereinigt, Zeitpunkt, Ungültiges schreibt nichts) |
 | **Nicht gebaut** | **Konto löschen** — offen L.1d (löscht `auth.users` ⇒ auch Root-in) |
 
