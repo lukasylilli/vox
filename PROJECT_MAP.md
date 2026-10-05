@@ -1,5 +1,6 @@
 # PROJECT MAP — VOX
 # نقشه کامل پروژه برای ناوبری سریع در هر session
+# آپدیت 2026-10-05 (بعدازظهر) B-14b: Pomodoro — سوییچ‌های «روشن ماندن صفحه» (Wake Lock)، «صدای پایان فاز»، «شروع خودکار فاز بعدی» + بنر پایان فاز؛ فایل‌های تازه `features/selbstlernen/services/pomodoro_geraet*.dart` (basis/io/web)؛ `app_l10n.dart` +۹ کلید `pomo_*`؛ تست‌های `pomodoro_test.dart` (گسترش)، `pomodoro_screen_test.dart` (تازه).
 # آپدیت 2026-10-05: B-14 — `selbstlernen_controller.dart` ⇒ PomodoroNotifier بر پایه‌ی ساعت واقعی (`_endsAt`) + sync هنگام resumed + ذخیره در shared_preferences (کلید `pomodoro_zustand_v1`)؛ تست تازه `test/pomodoro_test.dart`.
 # آپدیت: 2026-09-24 دور ۶۳ — خلاصه‌سازی سوم (درخواست Lukas): گزارش دورها کوتاه شد؛ متن قبلی: `git show be0c77d:PROJECT_MAP.md` (دوم: `a078dc2`).
 #   تازه‌ها در همین روز: web/locale_guard.js · leitnerEintraegeProvider (لایتنر دو منبع، B-13) · wende_karte.dart + archiv_flash_card.dart · WortZeile در wort_card.dart
@@ -830,7 +831,7 @@ screens/
   selbstlernen_home_screen.dart   [x]  — ۴ gradient cards: Habit، Pomodoro، Lernpfad، Vorlagen
   habit_maker_screen.dart         [x]  — لیست + dialog ایجاد/ویرایش (name، days، shift)
   habit_stats_screen.dart         [x]  — header + streak chart + ثبت امروز
-  pomodoro_screen.dart            [x]  — phase label + timer + play/pause/reset/skip + linked habit
+  pomodoro_screen.dart            [x]  — phase label + بنر «فاز تمام شد» (_EndeBanner) + timer + play/pause/reset/skip + ۳ SwitchListTile (روشن ماندن صفحه، شروع خودکار، صدا)
   leitfaden_screen.dart           [x]  — MountainProgressWidget + level cards با skill chips
   vorlagen_screen.dart            [x]  — ۶ قالب A1→C1، ExpansionTile، clipboard copy
 controllers/
@@ -840,7 +841,14 @@ controllers/
                                          PomodoroState، PomodoroNotifier، pomodoroProvider، kPomodoroKey
                                          **B-14 (2026-10-05):** PomodoroNotifier با ساعت واقعی کار می‌کند (`_endsAt`؛ `_sync` با هر تیک و با resumed)،
                                          وضعیت در shared_preferences (`pomodoro_zustand_v1`) ذخیره و بازیابی می‌شود؛ `WidgetsBindingObserver`
+                                         **B-14b:** PomodoroState += autoWeiter، wachHalten، klang، beendetePhase، beendetUm؛ setzeAutoWeiter/setzeWachHalten/setzeKlang؛
+                                         `_phasenAbschliessen` (فازهای میانی از ساعت واقعی)، `_wachAbgleich`؛ PomodoroPhaseExt.endeKey
                                          dayNames[7]، PomodoroPhase enum با labelFa + defaultSeconds
+services/                          **B-14b (2026-10-05)** — قابلیت‌های دستگاه، جدا از منطق زمان (export شرطی مثل install_state.dart)
+  pomodoro_geraet.dart            [x]  — export: basis + (io | web با dart.library.js_interop)
+  pomodoro_geraet_basis.dart      [x]  — قراردادها: BildschirmWach (halten/loslassen)، PomodoroKlang (vorbereiten/spielen)
+  pomodoro_geraet_io.dart         [x]  — بدون مرورگر (تست/بومی): کاری نمی‌کند
+  pomodoro_geraet_web.dart        [x]  — navigator.wakeLock + Web Audio (سه نت سینوسی، بدون فایل صوتی)
 widgets/
   streak_chart_widget.dart        [x]  — fl_chart BarChart آخر ۷ روز، سبز/خاکستری
   mountain_progress_widget.dart   [x]  — CustomPainter: ۷ نقطه A1→C2، رنگ done/current/todo
@@ -1376,7 +1384,8 @@ die Fassade, die allein `NutzerZustand` nach außen zeigt.
 | `core/constants/app_links.dart` → `voxUrl` | Rücksprung-Adresse für Mails; **muss** in Supabase → Redirect URLs stehen, sonst landet der Link auf der Site URL (= Root-in) |
 | `core/constants/app_links.dart` → `voxPasswortUrl` (2026-09-23) | `…/vox/?link=passwort` — Rücksprung der Passwort-Mail. **Muss zeichengleich** in Supabase → Redirect URLs stehen (eingetragen 2026-09-23); fehlt sie, landet der Link auf der Site URL (`localhost:3000`). Test prüft den Text |
 | `features/more/…` (Profil-Seite) | siehe Baum `lib/features/more/` oben; Route `AppRoutes.profil` = `/more/profil`; Einstieg: More (erste Zeile) + Einstellungen → `_ProfilKachel` |
-| `test/pomodoro_test.dart` | **B-14** — Pomodoro با ساعت جعلی: قفل صفحه (۹۰ ثانیه)، پایان فاز حین قفل، pause، ساعت به عقب، reset، استراحت بلند، ذخیره/بازیابی، ورودی خراب |
+| `test/pomodoro_screen_test.dart` | **B-14b** — صفحه: ۳ سوییچ (پیش‌فرض‌ها + تغییر وضعیت Notifier)، بنر پایان فاز (en/fa) |
+| `test/pomodoro_test.dart` | **B-14 + B-14b** — Pomodoro با ساعت و دستگاه جعلی: قفل صفحه، پایان فاز حین قفل، pause، ساعت به عقب، reset، استراحت بلند، ذخیره/بازیابی، ورودی خراب؛ wake-lock، صدا+بنر، شروع خودکار (قفل ۱۱۷ دقیقه، ۲۱ روز)، skip، سوییچ‌ها ذخیره می‌شوند |
 | `test/profil_test.dart` · `test/profil_controller_test.dart` | **P** — Telefon/Bereinigen/JSON/Zusammenführen/Vertrag v4 (+ v3 lesbar)/Passwortregel/Auth-Codes · Notifier (bereinigt, Zeitpunkt, Ungültiges schreibt nichts) |
 | **Nicht gebaut** | **Konto löschen** — offen L.1d (löscht `auth.users` ⇒ auch Root-in) |
 

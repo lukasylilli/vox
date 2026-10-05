@@ -1,6 +1,7 @@
 // FILE: lib/features/selbstlernen/screens/pomodoro_screen.dart
 // DEPS: selbstlernen_controller.dart, pomodoro_timer_widget.dart
-// PURPOSE: صفحه پومودورو — تایمر + کنترل‌ها
+// PURPOSE: صفحه پومودورو — تایمر + کنترل‌ها + بنر «فاز تمام شد» + سه سوییچ
+//          (روشن ماندن صفحه، شروع خودکار فاز بعدی، صدا) — 2026-10-05
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -44,6 +45,13 @@ class PomodoroScreen extends ConsumerWidget {
                   ),
                 ),
               ),
+              // Phase finished (also while the screen was locked)
+              if (pState.beendetePhase != null) ...[
+                const SizedBox(height: AppSizes.md),
+                _EndeBanner(
+                  text: AppL10n.t(context, pState.beendetePhase!.endeKey),
+                ),
+              ],
               const SizedBox(height: AppSizes.xl),
 
               // Timer circle
@@ -84,9 +92,82 @@ class PomodoroScreen extends ConsumerWidget {
                   AppL10n.tf(context, 'n_sessions_done', {'n': '${pState.sessionCount}'}),
                   style: TextStyle(color: scheme.onSurfaceVariant),
                 ),
+              const SizedBox(height: AppSizes.lg),
+
+              // Settings
+              ConstrainedBox(
+                constraints: const BoxConstraints(maxWidth: 420),
+                child: Card(
+                  margin: EdgeInsets.zero,
+                  child : Column(
+                    children: [
+                      SwitchListTile(
+                        key      : const Key('pomo_switch_keep_awake'),
+                        value    : pState.wachHalten,
+                        onChanged: notifier.setzeWachHalten,
+                        title    : Text(AppL10n.t(context, 'pomo_keep_awake')),
+                        subtitle : Text(AppL10n.t(context, 'pomo_keep_awake_sub')),
+                      ),
+                      SwitchListTile(
+                        key      : const Key('pomo_switch_auto_next'),
+                        value    : pState.autoWeiter,
+                        onChanged: notifier.setzeAutoWeiter,
+                        title    : Text(AppL10n.t(context, 'pomo_auto_next')),
+                        subtitle : Text(AppL10n.t(context, 'pomo_auto_next_sub')),
+                      ),
+                      SwitchListTile(
+                        key      : const Key('pomo_switch_sound'),
+                        value    : pState.klang,
+                        onChanged: notifier.setzeKlang,
+                        title    : Text(AppL10n.t(context, 'pomo_sound')),
+                        subtitle : Text(AppL10n.t(context, 'pomo_sound_sub')),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
             ],
           ),
         ),
+      ),
+    );
+  }
+}
+
+/// „Phase X ist zu Ende" — bleibt stehen, bis der Nutzer etwas bedient
+/// (im Auto-Modus verschwindet es nach 30 Sekunden, siehe PomodoroNotifier).
+class _EndeBanner extends StatelessWidget {
+  const _EndeBanner({required this.text});
+
+  final String text;
+
+  @override
+  Widget build(BuildContext context) {
+    final scheme = Theme.of(context).colorScheme;
+    return Container(
+      key       : const Key('pomo_ende_banner'),
+      padding   : const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+      decoration: BoxDecoration(
+        color       : scheme.tertiaryContainer,
+        borderRadius: BorderRadius.circular(AppSizes.radiusMd),
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Icon(Icons.check_circle_rounded,
+              size: 18, color: scheme.onTertiaryContainer),
+          const SizedBox(width: 8),
+          Flexible(
+            child: Text(
+              text,
+              style: TextStyle(
+                fontSize  : 13,
+                fontWeight: FontWeight.w700,
+                color     : scheme.onTertiaryContainer,
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }

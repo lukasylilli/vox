@@ -17,6 +17,16 @@ import 'package:vox/core/l10n/app_l10n.dart';
 void main() {
   // Die Schlüssel aus فاز S. Wächst die Liste, wächst der Schutz.
   const schluessel = [
+    // Pomodoro (2026-10-05) — Phasenende, Schalter
+    'pomo_ended_focus',
+    'pomo_ended_short_break',
+    'pomo_ended_long_break',
+    'pomo_keep_awake',
+    'pomo_keep_awake_sub',
+    'pomo_auto_next',
+    'pomo_auto_next_sub',
+    'pomo_sound',
+    'pomo_sound_sub',
     // G7a — Grammatik-Übungen (2026-09-16)
     'uebung_start',
     'uebung_progress',
