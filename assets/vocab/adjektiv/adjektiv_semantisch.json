@@ -1,0 +1,149 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_semantisch",
+  "wort": "semantisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "معنایی",
+      "مربوط به معناشناسی"
+    ],
+    "en": [
+      "semantic"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Sprache",
+    "Linguistik"
+  ],
+  "ipa": "zeˈmantɪʃ",
+  "anmerkung": "Fachsprache der Sprachwissenschaft: zur Bedeutung von Wörtern und Sätzen gehörend. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Der semantische Unterschied zwischen den beiden Wörtern ist sehr klein.",
+      "uebersetzung": {
+        "fa": "تفاوت معنایی بین این دو کلمه بسیار کوچک است.",
+        "en": "The semantic difference between the two words is very small."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Die semantische Analyse zeigt, wie sich die Bedeutung eines Wortes im Laufe der Zeit verändert.",
+      "uebersetzung": {
+        "fa": "تحلیل معنایی نشان می‌دهد معنای یک کلمه در طول زمان چگونه تغییر می‌کند.",
+        "en": "The semantic analysis shows how the meaning of a word changes over time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bedeutungsmäßig",
+      "uebersetzung": {
+        "fa": "از نظر معنا",
+        "en": "in terms of meaning"
+      }
+    },
+    {
+      "wort": "inhaltlich",
+      "uebersetzung": {
+        "fa": "محتوایی",
+        "en": "content-related"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "syntaktisch",
+      "uebersetzung": {
+        "fa": "نحوی",
+        "en": "syntactic"
+      }
+    },
+    {
+      "wort": "formal",
+      "uebersetzung": {
+        "fa": "صوری",
+        "en": "formal"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "gr. semantikos (دلالت‌کننده) → semantisch",
+    "en": "gr. semantikos (significant) → semantisch"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "semantisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein semantischer Unterschied",
+      "die semantische Ebene"
+    ],
+    "gegensatzpaar": "semantisch ↔ syntaktisch"
+  },
+  "wortnetz": {
+    "grundwort": "Semantik",
+    "woerter": [
+      {
+        "wort": "die Semantik",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "معناشناسی",
+          "en": "semantics"
+        },
+        "id_ref": "nomen_semantik"
+      },
+      {
+        "wort": "die Bedeutung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "معنا",
+          "en": "meaning"
+        },
+        "id_ref": "nomen_bedeutung"
+      },
+      {
+        "wort": "syntaktisch",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "نحوی",
+          "en": "syntactic"
+        },
+        "id_ref": "adjektiv_syntaktisch"
+      },
+      {
+        "wort": "die Linguistik",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "زبان‌شناسی",
+          "en": "linguistics"
+        },
+        "id_ref": "nomen_linguistik"
+      },
+      {
+        "wort": "das Wort",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کلمه",
+          "en": "word"
+        },
+        "id_ref": "nomen_wort"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

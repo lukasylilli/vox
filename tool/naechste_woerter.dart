@@ -567,6 +567,8 @@ const zurueckgestellt = <String>{
   'seiger', // Bergbau-Fachwort, selten, unsicher 2026-10-08
   'seimig', // regional, unsicher, unsicher 2026-10-08
   'sekkant', // österr. umgangssprachlich, unsicher, unsicher 2026-10-08
+  'selektionistisch', // Fachwort, sehr selten, unsicher 2026-10-08
+  'semesterbegleitend', // Zusammensetzung, Eintrag unsicher, unsicher 2026-10-08
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
