@@ -1,0 +1,169 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_schlecht",
+  "wort": "schlecht",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "بد",
+      "نامرغوب",
+      "ضعیف"
+    ],
+    "en": [
+      "bad",
+      "poor",
+      "evil"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Qualität",
+    "Gesundheit"
+  ],
+  "ipa": "ʃlɛçt",
+  "anmerkung": "Gegenteil von „gut“; für Qualität, Wetter, Gesundheit, Moral. Auch Adverb: „schlecht schlafen“. „Mir ist schlecht“ = Ich muss mich vielleicht übergeben.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Das Wetter ist heute schlecht.",
+      "uebersetzung": {
+        "fa": "هوا امروز بد است.",
+        "en": "The weather is bad today."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich schlafe in letzter Zeit schlecht, deshalb bin ich tagsüber müde.",
+      "uebersetzung": {
+        "fa": "اخیراً بد می‌خوابم و برای همین روزها خسته‌ام.",
+        "en": "I have been sleeping badly lately, so I am tired during the day."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "mies",
+      "uebersetzung": {
+        "fa": "افتضاح",
+        "en": "lousy"
+      }
+    },
+    {
+      "wort": "schlimm",
+      "uebersetzung": {
+        "fa": "بد",
+        "en": "bad"
+      }
+    },
+    {
+      "wort": "minderwertig",
+      "uebersetzung": {
+        "fa": "نامرغوب",
+        "en": "inferior"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "gut",
+      "uebersetzung": {
+        "fa": "خوب",
+        "en": "good"
+      }
+    },
+    {
+      "wort": "ausgezeichnet",
+      "uebersetzung": {
+        "fa": "عالی",
+        "en": "excellent"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mhd. slëht (ساده، صاف) → schlecht (معنای فعلی بعدی)",
+    "en": "mhd. slëht (plain, straight) → schlecht (later meaning)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "schlecht",
+      "komparativ": "schlechter",
+      "superlativ": "am schlechtesten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "schlecht in + Dat",
+        "beispiel": "Er ist schlecht in Mathematik.",
+        "uebersetzung": {
+          "fa": "او در ریاضی ضعیف است.",
+          "en": "He is bad at mathematics."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein schlechter Tag",
+      "die schlechte Nachricht"
+    ],
+    "gegensatzpaar": "schlecht ↔ gut"
+  },
+  "wortnetz": {
+    "grundwort": "Schlechtigkeit",
+    "woerter": [
+      {
+        "wort": "verschlechtern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بدتر کردن",
+          "en": "to worsen"
+        },
+        "id_ref": "verb_verschlechtern"
+      },
+      {
+        "wort": "die Verschlechterung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بدتر شدن",
+          "en": "deterioration"
+        },
+        "id_ref": "nomen_verschlechterung"
+      },
+      {
+        "wort": "schlimm",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بد",
+          "en": "bad"
+        },
+        "id_ref": "adjektiv_schlimm"
+      },
+      {
+        "wort": "gut",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوب",
+          "en": "good"
+        },
+        "id_ref": "adjektiv_gut"
+      },
+      {
+        "wort": "mies",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "افتضاح",
+          "en": "lousy"
+        },
+        "id_ref": "adjektiv_mies"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

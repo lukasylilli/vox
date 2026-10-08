@@ -1,0 +1,159 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_schief",
+  "wort": "schief",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "کج",
+      "مایل",
+      "نادرست"
+    ],
+    "en": [
+      "crooked",
+      "slanted",
+      "askew"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Form",
+    "Alltag"
+  ],
+  "ipa": "ʃiːf",
+  "anmerkung": "Nicht gerade; auch bildlich: „schief gehen“ = misslingen, „ein schiefer Vergleich“ = unpassend.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Das Bild hängt schief.",
+      "uebersetzung": {
+        "fa": "تابلو کج آویزان است.",
+        "en": "The picture hangs crooked."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Plan ging schief, weil niemand die Verantwortung übernehmen wollte.",
+      "uebersetzung": {
+        "fa": "نقشه شکست خورد، چون هیچ‌کس نمی‌خواست مسئولیت بپذیرد.",
+        "en": "The plan went wrong because nobody wanted to take responsibility."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "krumm",
+      "uebersetzung": {
+        "fa": "کج",
+        "en": "crooked"
+      }
+    },
+    {
+      "wort": "geneigt",
+      "uebersetzung": {
+        "fa": "مایل",
+        "en": "inclined"
+      }
+    },
+    {
+      "wort": "falsch",
+      "uebersetzung": {
+        "fa": "نادرست",
+        "en": "wrong"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "gerade",
+      "uebersetzung": {
+        "fa": "راست",
+        "en": "straight"
+      }
+    },
+    {
+      "wort": "senkrecht",
+      "uebersetzung": {
+        "fa": "عمودی",
+        "en": "vertical"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mhd. schief (کج) ← mnd. schêf",
+    "en": "mhd. schief (slanted) ← mnd. schêf"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "schief",
+      "komparativ": "schiefer",
+      "superlativ": "am schiefsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein schiefer Turm",
+      "die schiefe Wand"
+    ],
+    "gegensatzpaar": "schief ↔ gerade"
+  },
+  "wortnetz": {
+    "grundwort": "Schiefe",
+    "woerter": [
+      {
+        "wort": "die Schiefe",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کجی",
+          "en": "slant"
+        },
+        "id_ref": "nomen_schiefe"
+      },
+      {
+        "wort": "schieflaufen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خراب شدن",
+          "en": "to go wrong"
+        },
+        "id_ref": "verb_schieflaufen"
+      },
+      {
+        "wort": "gerade",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "راست",
+          "en": "straight"
+        },
+        "id_ref": "adjektiv_gerade"
+      },
+      {
+        "wort": "krumm",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کج",
+          "en": "crooked"
+        },
+        "id_ref": "adjektiv_krumm"
+      },
+      {
+        "wort": "der Turm",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برج",
+          "en": "tower"
+        },
+        "id_ref": "nomen_turm"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

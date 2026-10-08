@@ -545,6 +545,10 @@ const zurueckgestellt = <String>{
   'schicker', // Komparativform, Listenfehler, unsicher 2026-10-08
   'schiefern', // Materialadjektiv wie birken, unsicher 2026-10-08
   'schilfen', // Materialadjektiv wie birken, unsicher 2026-10-08
+  'schilfleinen', // Materialadjektiv wie birken, unsicher 2026-10-08
+  'schismogen', // Fachwort, sehr selten, unsicher 2026-10-08
+  'schlagzeilenträchtig', // Zusammensetzung, unsicher, unsicher 2026-10-08
+  'schleckig', // regional, unsicher, unsicher 2026-10-08
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
