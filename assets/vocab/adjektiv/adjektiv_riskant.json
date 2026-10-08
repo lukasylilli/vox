@@ -1,0 +1,159 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_riskant",
+  "wort": "riskant",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "پرخطر",
+      "خطرناک",
+      "ریسکی"
+    ],
+    "en": [
+      "risky",
+      "dangerous",
+      "hazardous"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Wirtschaft"
+  ],
+  "ipa": "ʁɪsˈkant",
+  "anmerkung": "Wird häufig bei Plänen, Entscheidungen und Geschäften verwendet.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das ist zu riskant.",
+      "uebersetzung": {
+        "fa": "این خیلی پرخطر است.",
+        "en": "That is too risky."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Es ist riskant, bei Glatteis so schnell zu fahren.",
+      "uebersetzung": {
+        "fa": "رانندگی با این سرعت روی یخ پرخطر است.",
+        "en": "It is risky to drive so fast on black ice."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gefährlich",
+      "uebersetzung": {
+        "fa": "خطرناک",
+        "en": "dangerous"
+      }
+    },
+    {
+      "wort": "gewagt",
+      "uebersetzung": {
+        "fa": "جسورانه",
+        "en": "daring"
+      }
+    },
+    {
+      "wort": "heikel",
+      "uebersetzung": {
+        "fa": "حساس",
+        "en": "delicate"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sicher",
+      "uebersetzung": {
+        "fa": "امن",
+        "en": "safe"
+      }
+    },
+    {
+      "wort": "ungefährlich",
+      "uebersetzung": {
+        "fa": "بی‌خطر",
+        "en": "harmless"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "frz. risquant (ریسک‌کننده) ← risquer (به خطر انداختن)",
+    "en": "French risquant ← risquer (to risk)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "riskant",
+      "komparativ": "riskanter",
+      "superlativ": "am riskantesten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein riskantes Spiel",
+      "der riskante Plan"
+    ],
+    "gegensatzpaar": "riskant ↔ sicher"
+  },
+  "wortnetz": {
+    "grundwort": "Risiko",
+    "woerter": [
+      {
+        "wort": "das Risiko",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ریسک",
+          "en": "risk"
+        },
+        "id_ref": "nomen_risiko"
+      },
+      {
+        "wort": "riskieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به خطر انداختن",
+          "en": "to risk"
+        },
+        "id_ref": "verb_riskieren"
+      },
+      {
+        "wort": "gefährlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خطرناک",
+          "en": "dangerous"
+        },
+        "id_ref": "adjektiv_gefaehrlich"
+      },
+      {
+        "wort": "sicher",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "امن",
+          "en": "safe"
+        },
+        "id_ref": "adjektiv_sicher"
+      },
+      {
+        "wort": "wagen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جرئت کردن",
+          "en": "to dare"
+        },
+        "id_ref": "verb_wagen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
