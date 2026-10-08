@@ -1,0 +1,160 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_schnell",
+  "wort": "schnell",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "سریع",
+      "تند",
+      "زود"
+    ],
+    "en": [
+      "fast",
+      "quick",
+      "rapid"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Verkehr",
+    "Zeit"
+  ],
+  "ipa": "ʃnɛl",
+  "anmerkung": "Auch Adverb: „schnell laufen“. Bildlich: „schnell“ = bald („Bis bald!“ → „Bis schnell!“ nicht gebräuchlich).",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Der Zug ist sehr schnell.",
+      "uebersetzung": {
+        "fa": "قطار بسیار سریع است.",
+        "en": "The train is very fast."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Mach bitte schnell, sonst verpassen wir den Bus!",
+      "uebersetzung": {
+        "fa": "لطفاً عجله کن، وگرنه اتوبوس را از دست می‌دهیم!",
+        "en": "Please hurry up, otherwise we will miss the bus!"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rasch",
+      "uebersetzung": {
+        "fa": "تند",
+        "en": "quick"
+      }
+    },
+    {
+      "wort": "zügig",
+      "uebersetzung": {
+        "fa": "با سرعت",
+        "en": "swift"
+      }
+    },
+    {
+      "wort": "flink",
+      "uebersetzung": {
+        "fa": "چابک",
+        "en": "nimble"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "langsam",
+      "uebersetzung": {
+        "fa": "کند",
+        "en": "slow"
+      }
+    },
+    {
+      "wort": "gemächlich",
+      "uebersetzung": {
+        "fa": "آرام",
+        "en": "leisurely"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mhd. snël (چابک، قوی)",
+    "en": "mhd. snël (agile, strong)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "schnell",
+      "komparativ": "schneller",
+      "superlativ": "am schnellsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein schnelles Auto",
+      "die schnelle Antwort"
+    ],
+    "gegensatzpaar": "schnell ↔ langsam"
+  },
+  "wortnetz": {
+    "grundwort": "Geschwindigkeit",
+    "woerter": [
+      {
+        "wort": "die Geschwindigkeit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سرعت",
+          "en": "speed"
+        },
+        "id_ref": "nomen_geschwindigkeit"
+      },
+      {
+        "wort": "beschleunigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شتاب دادن",
+          "en": "to accelerate"
+        },
+        "id_ref": "verb_beschleunigen"
+      },
+      {
+        "wort": "rasch",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تند",
+          "en": "quick"
+        },
+        "id_ref": "adjektiv_rasch"
+      },
+      {
+        "wort": "langsam",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کند",
+          "en": "slow"
+        },
+        "id_ref": "adjektiv_langsam"
+      },
+      {
+        "wort": "eilig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عجولانه",
+          "en": "hurried"
+        },
+        "id_ref": "adjektiv_eilig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -551,6 +551,8 @@ const zurueckgestellt = <String>{
   'schleckig', // regional, unsicher, unsicher 2026-10-08
   'schmerzenvoll', // ungebräuchliche Form, unsicher 2026-10-08
   'schnäukig', // regional, unsicher, unsicher 2026-10-08
+  'schoflig', // ungebräuchliche Nebenform, unsicher 2026-10-08
+  'schokoladen', // Materialadjektiv wie birken, unsicher 2026-10-08
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
