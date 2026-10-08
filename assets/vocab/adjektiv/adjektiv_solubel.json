@@ -1,0 +1,143 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_solubel",
+  "wort": "solubel",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "محلول",
+      "قابل‌حل"
+    ],
+    "en": [
+      "soluble"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Chemie",
+    "Medizin",
+    "Wissenschaft"
+  ],
+  "ipa": "zoˈluːbl̩",
+  "anmerkung": "Fachsprache: löslich, sich auflösen lassend. Wird nicht gesteigert; Gegenteil: „insolubel“.",
+  "beispiele": [
+    {
+      "niveau": "C1",
+      "satz": "Das Pulver ist solubel und löst sich sofort in Wasser auf.",
+      "uebersetzung": {
+        "fa": "پودر محلول است و فوراً در آب حل می‌شود.",
+        "en": "The powder is soluble and dissolves immediately in water."
+      }
+    },
+    {
+      "niveau": "C2",
+      "satz": "In der Pharmazie unterscheidet man solubele und unlösliche Wirkstoffe.",
+      "uebersetzung": {
+        "fa": "در داروسازی بین مواد مؤثر محلول و نامحلول تفاوت قائل می‌شوند.",
+        "en": "In pharmacy one distinguishes between soluble and insoluble active ingredients."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "löslich",
+      "uebersetzung": {
+        "fa": "محلول",
+        "en": "soluble"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "unlöslich",
+      "uebersetzung": {
+        "fa": "نامحلول",
+        "en": "insoluble"
+      }
+    },
+    {
+      "wort": "insolubel",
+      "uebersetzung": {
+        "fa": "نامحلول",
+        "en": "insoluble"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. solubilis (حل‌شدنی) ← solvere",
+    "en": "lat. solubilis (dissolvable) ← solvere"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "solubel",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein solubles Pulver",
+      "die solubele Substanz"
+    ],
+    "gegensatzpaar": "solubel ↔ unlöslich"
+  },
+  "wortnetz": {
+    "grundwort": "lösen",
+    "woerter": [
+      {
+        "wort": "löslich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "محلول",
+          "en": "soluble"
+        },
+        "id_ref": "adjektiv_loeslich"
+      },
+      {
+        "wort": "lösen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حل کردن",
+          "en": "to dissolve"
+        },
+        "id_ref": "verb_loesen"
+      },
+      {
+        "wort": "die Lösung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "محلول، راه‌حل",
+          "en": "solution"
+        },
+        "id_ref": "nomen_loesung"
+      },
+      {
+        "wort": "unlöslich",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نامحلول",
+          "en": "insoluble"
+        },
+        "id_ref": "adjektiv_unloeslich"
+      },
+      {
+        "wort": "der Wirkstoff",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ماده‌ی مؤثر",
+          "en": "active ingredient"
+        },
+        "id_ref": "nomen_wirkstoff"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

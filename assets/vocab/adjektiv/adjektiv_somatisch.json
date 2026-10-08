@@ -1,0 +1,153 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_somatisch",
+  "wort": "somatisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "تنی",
+      "جسمانی",
+      "بدنی"
+    ],
+    "en": [
+      "somatic",
+      "physical",
+      "bodily"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Psychologie",
+    "Biologie"
+  ],
+  "ipa": "zoˈmaːtɪʃ",
+  "anmerkung": "Fachsprache der Medizin: den Körper betreffend, im Gegensatz zu psychisch. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "C1",
+      "satz": "Der Arzt suchte zuerst nach somatischen Ursachen für die Beschwerden.",
+      "uebersetzung": {
+        "fa": "پزشک ابتدا به دنبال علل جسمانی ناراحتی‌ها گشت.",
+        "en": "The doctor first looked for somatic causes of the complaints."
+      }
+    },
+    {
+      "niveau": "C2",
+      "satz": "Bei somatischen Erkrankungen liegt die Ursache im Körper und nicht in der Psyche.",
+      "uebersetzung": {
+        "fa": "در بیماری‌های تنی علت در بدن است و نه در روان.",
+        "en": "In somatic illnesses the cause lies in the body and not in the psyche."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "körperlich",
+      "uebersetzung": {
+        "fa": "جسمی",
+        "en": "physical"
+      }
+    },
+    {
+      "wort": "leiblich",
+      "uebersetzung": {
+        "fa": "بدنی",
+        "en": "bodily"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "psychisch",
+      "uebersetzung": {
+        "fa": "روانی",
+        "en": "psychological"
+      }
+    },
+    {
+      "wort": "seelisch",
+      "uebersetzung": {
+        "fa": "روحی",
+        "en": "mental"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "gr. soma (بدن) + -isch",
+    "en": "gr. soma (body) + -isch"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "somatisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine somatische Erkrankung",
+      "die somatische Ursache"
+    ],
+    "gegensatzpaar": "somatisch ↔ psychisch"
+  },
+  "wortnetz": {
+    "grundwort": "Soma",
+    "woerter": [
+      {
+        "wort": "der Körper",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بدن",
+          "en": "body"
+        },
+        "id_ref": "nomen_koerper"
+      },
+      {
+        "wort": "körperlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جسمی",
+          "en": "physical"
+        },
+        "id_ref": "adjektiv_koerperlich"
+      },
+      {
+        "wort": "psychisch",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "روانی",
+          "en": "psychological"
+        },
+        "id_ref": "adjektiv_psychisch"
+      },
+      {
+        "wort": "die Ursache",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "علت",
+          "en": "cause"
+        },
+        "id_ref": "nomen_ursache"
+      },
+      {
+        "wort": "psychosomatisch",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "روان‌تنی",
+          "en": "psychosomatic"
+        },
+        "id_ref": "adjektiv_psychosomatisch"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
