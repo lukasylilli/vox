@@ -576,6 +576,10 @@ const zurueckgestellt = <String>{
   'silbentragend', // Fachwort, selten, unsicher 2026-10-08
   'silbern', // Materialadjektiv wie birken, unsicher 2026-10-08
   'siliziumhaltig', // Fachkompositum, unsicher, unsicher 2026-10-08
+  'sinnfrei', // umgangssprachlich/neu, unsicher, unsicher 2026-10-08
+  'siriusfern', // Zusammensetzung, sehr selten, unsicher 2026-10-08
+  'skatologisch', // Fachwort/vulgär, Entscheidung Lukas, unsicher 2026-10-08
+  'skoptisch', // Fachwort, sehr selten, unsicher 2026-10-08
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
