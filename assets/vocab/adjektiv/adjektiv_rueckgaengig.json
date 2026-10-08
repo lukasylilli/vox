@@ -1,0 +1,144 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_rueckgaengig",
+  "wort": "rückgängig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "لغوشده",
+      "برگشت‌داده‌شده"
+    ],
+    "en": [
+      "undone",
+      "reversed"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Recht",
+    "Alltag",
+    "Computer"
+  ],
+  "ipa": "ˈʁʏkˌɡɛŋɪç",
+  "anmerkung": "Fast nur in der Verbindung „etwas rückgängig machen“ = ungeschehen machen, widerrufen. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Kann ich die Buchung noch rückgängig machen?",
+      "uebersetzung": {
+        "fa": "آیا هنوز می‌توانم رزرو را لغو کنم؟",
+        "en": "Can I still cancel the booking?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil der Fehler zu spät bemerkt wurde, ließ sich die Überweisung nicht mehr rückgängig machen.",
+      "uebersetzung": {
+        "fa": "چون اشتباه خیلی دیر متوجه شد، دیگر نمی‌شد حواله را برگرداند.",
+        "en": "Because the mistake was noticed too late, the transfer could no longer be reversed."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "widerrufen",
+      "uebersetzung": {
+        "fa": "پس‌گرفتن",
+        "en": "to revoke"
+      }
+    },
+    {
+      "wort": "zurücknehmen",
+      "uebersetzung": {
+        "fa": "پس‌گرفتن",
+        "en": "to take back"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "endgültig",
+      "uebersetzung": {
+        "fa": "قطعی",
+        "en": "final"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "rück- (به عقب) + gängig (روان، رایج)",
+    "en": "rück- (back) + gängig (current, going)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "rückgängig",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "praedikativ",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "etwas rückgängig machen",
+      "die Entscheidung rückgängig machen"
+    ],
+    "gegensatzpaar": "rückgängig ↔ endgültig"
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "widerrufen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پس‌گرفتن",
+          "en": "to revoke"
+        },
+        "id_ref": "verb_widerrufen"
+      },
+      {
+        "wort": "stornieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لغو کردن",
+          "en": "to cancel"
+        },
+        "id_ref": "verb_stornieren"
+      },
+      {
+        "wort": "die Rücknahme",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پس‌گرفتن",
+          "en": "withdrawal"
+        },
+        "id_ref": "nomen_ruecknahme"
+      },
+      {
+        "wort": "endgültig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قطعی",
+          "en": "final"
+        },
+        "id_ref": "adjektiv_endgueltig"
+      },
+      {
+        "wort": "ändern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تغییر دادن",
+          "en": "to change"
+        },
+        "id_ref": "verb_aendern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
