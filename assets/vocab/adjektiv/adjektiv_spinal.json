@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_spinal",
+  "wort": "spinal",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "نخاعی",
+      "مربوط به ستون فقرات"
+    ],
+    "en": [
+      "spinal"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Anatomie"
+  ],
+  "ipa": "ʃpiˈnaːl",
+  "anmerkung": "Fachsprache der Medizin: zur Wirbelsäule oder zum Rückenmark gehörend. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "C1",
+      "satz": "Der Patient erhielt eine spinale Anästhesie für die Operation.",
+      "uebersetzung": {
+        "fa": "بیمار برای عمل بی‌حسی نخاعی گرفت.",
+        "en": "The patient received a spinal anaesthetic for the operation."
+      }
+    },
+    {
+      "niveau": "C2",
+      "satz": "Eine spinale Muskelatrophie schwächt die Muskeln, weil Nervenzellen im Rückenmark geschädigt sind.",
+      "uebersetzung": {
+        "fa": "آتروفی عضلانی نخاعی عضلات را ضعیف می‌کند، چون سلول‌های عصبی نخاع آسیب دیده‌اند.",
+        "en": "A spinal muscular atrophy weakens the muscles because nerve cells in the spinal cord are damaged."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rückenmarksbezogen",
+      "uebersetzung": {
+        "fa": "مربوط به نخاع",
+        "en": "spinal-cord-related"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zerebral",
+      "uebersetzung": {
+        "fa": "مغزی",
+        "en": "cerebral"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. spinalis (ستون‌فقراتی) ← spina (خار)",
+    "en": "lat. spinalis (of the spine) ← spina (thorn)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "spinal",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine spinale Betäubung",
+      "die spinale Lähmung"
+    ],
+    "gegensatzpaar": "spinal ↔ zerebral"
+  },
+  "wortnetz": {
+    "grundwort": "Wirbelsäule",
+    "woerter": [
+      {
+        "wort": "die Wirbelsäule",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ستون فقرات",
+          "en": "spine"
+        },
+        "id_ref": "nomen_wirbelsaeule"
+      },
+      {
+        "wort": "das Rückenmark",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نخاع",
+          "en": "spinal cord"
+        },
+        "id_ref": "nomen_rueckenmark"
+      },
+      {
+        "wort": "die Betäubung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بی‌حسی",
+          "en": "anaesthesia"
+        },
+        "id_ref": "nomen_betaeubung"
+      },
+      {
+        "wort": "zerebral",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "مغزی",
+          "en": "cerebral"
+        },
+        "id_ref": "adjektiv_zerebral"
+      },
+      {
+        "wort": "der Nerv",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عصب",
+          "en": "nerve"
+        },
+        "id_ref": "nomen_nerv"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

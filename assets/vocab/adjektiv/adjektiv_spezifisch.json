@@ -1,0 +1,169 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_spezifisch",
+  "wort": "spezifisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "مشخص",
+      "ویژه",
+      "خاص"
+    ],
+    "en": [
+      "specific",
+      "characteristic",
+      "particular"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Wissenschaft",
+    "Technik",
+    "Sprache"
+  ],
+  "ipa": "ʃpeˈtsiːfɪʃ",
+  "anmerkung": "Etwas gehört genau zu einer Sache und unterscheidet sie von anderen; man sagt: „spezifisch für + Akk“.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Jede Krankheit hat ihre spezifischen Symptome.",
+      "uebersetzung": {
+        "fa": "هر بیماری علائم مشخص خودش را دارد.",
+        "en": "Every illness has its specific symptoms."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Verhalten ist spezifisch für diese Tierart und kommt bei anderen nicht vor.",
+      "uebersetzung": {
+        "fa": "این رفتار ویژه‌ی این گونه‌ی حیوانی است و در دیگران دیده نمی‌شود.",
+        "en": "The behaviour is specific to this animal species and does not occur in others."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "charakteristisch",
+      "uebersetzung": {
+        "fa": "مشخصه",
+        "en": "characteristic"
+      }
+    },
+    {
+      "wort": "eigentümlich",
+      "uebersetzung": {
+        "fa": "ویژه",
+        "en": "peculiar"
+      }
+    },
+    {
+      "wort": "bestimmt",
+      "uebersetzung": {
+        "fa": "معین",
+        "en": "particular"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "allgemein",
+      "uebersetzung": {
+        "fa": "عمومی",
+        "en": "general"
+      }
+    },
+    {
+      "wort": "unspezifisch",
+      "uebersetzung": {
+        "fa": "نامشخص",
+        "en": "non-specific"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. specificus (دارای نوع) ← species + facere",
+    "en": "lat. specificus (of a kind) ← species + facere"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "spezifisch",
+      "komparativ": "spezifischer",
+      "superlativ": "am spezifischsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "spezifisch für + Akk",
+        "beispiel": "Diese Reaktion ist spezifisch für das Virus.",
+        "uebersetzung": {
+          "fa": "این واکنش ویژه‌ی ویروس است.",
+          "en": "This reaction is specific to the virus."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein spezifisches Merkmal",
+      "die spezifische Wirkung"
+    ],
+    "gegensatzpaar": "spezifisch ↔ allgemein"
+  },
+  "wortnetz": {
+    "grundwort": "Spezifik",
+    "woerter": [
+      {
+        "wort": "die Spezifik",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "ویژگی",
+          "en": "specificity"
+        },
+        "id_ref": "nomen_spezifik"
+      },
+      {
+        "wort": "typisch",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "معمول",
+          "en": "typical"
+        },
+        "id_ref": "adjektiv_typisch"
+      },
+      {
+        "wort": "charakteristisch",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مشخصه",
+          "en": "characteristic"
+        },
+        "id_ref": "adjektiv_charakteristisch"
+      },
+      {
+        "wort": "unspezifisch",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نامشخص",
+          "en": "non-specific"
+        },
+        "id_ref": "adjektiv_unspezifisch"
+      },
+      {
+        "wort": "das Merkmal",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ویژگی",
+          "en": "feature"
+        },
+        "id_ref": "nomen_merkmal"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

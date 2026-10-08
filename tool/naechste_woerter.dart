@@ -589,6 +589,11 @@ const zurueckgestellt = <String>{
   'spack', // regional, unsicher, unsicher 2026-10-08
   'spackig', // regional, unsicher, unsicher 2026-10-08
   'spätmittelhochdeutsch', // Fachwort, unsicher, unsicher 2026-10-08
+  'SPD-geführt', // politische Gelegenheitsbildung, unsicher 2026-10-08
+  'speditiv', // schweizerisch/amtlich, unsicher, unsicher 2026-10-08
+  'speicherresident', // Informatik-Fachwort, sehr selten, unsicher 2026-10-08
+  'spillerig', // regional, unsicher, unsicher 2026-10-08
+  'spillrig', // regional, unsicher, unsicher 2026-10-08
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
