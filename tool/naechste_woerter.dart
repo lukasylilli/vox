@@ -555,6 +555,10 @@ const zurueckgestellt = <String>{
   'schokoladen', // Materialadjektiv wie birken, unsicher 2026-10-08
   'schulautonom', // Fachwort Bildung, unsicher, unsicher 2026-10-08
   'schurwollen', // Materialadjektiv wie birken, unsicher 2026-10-08
+  'schwachsinnig', // abwertend/veraltet, Entscheidung Lukas, unsicher 2026-10-08
+  'schwätzicht', // selten, unsicher, unsicher 2026-10-08
+  'schwanzgesteuert', // vulgär, Entscheidung Lukas, unsicher 2026-10-08
+  'schwarzfeldrig', // Fachwort, sehr selten, unsicher 2026-10-08
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

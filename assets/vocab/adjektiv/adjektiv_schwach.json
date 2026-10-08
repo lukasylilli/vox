@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_schwach",
+  "wort": "schwach",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "ضعیف",
+      "سست",
+      "کم‌رمق"
+    ],
+    "en": [
+      "weak",
+      "faint",
+      "poor"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Körper",
+    "Charakter",
+    "Alltag",
+    "Leistung"
+  ],
+  "ipa": "ʃvax",
+  "anmerkung": "Für Körperkraft, Leistung, Gefühle, Signale: „ein schwaches Licht“, „schwache Noten“. Grammatik: „schwache Verben“. Man sagt: „schwach in + Dat“.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Mein Großvater ist alt und schwach.",
+      "uebersetzung": {
+        "fa": "پدربزرگم پیر و ضعیف است.",
+        "en": "My grandfather is old and weak."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Er ist schwach in Mathematik, aber sehr stark in Sprachen.",
+      "uebersetzung": {
+        "fa": "او در ریاضی ضعیف است ولی در زبان‌ها بسیار قوی.",
+        "en": "He is weak in mathematics but very strong in languages."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kraftlos",
+      "uebersetzung": {
+        "fa": "بی‌نیرو",
+        "en": "powerless"
+      }
+    },
+    {
+      "wort": "schwächlich",
+      "uebersetzung": {
+        "fa": "ضعیف‌بنیه",
+        "en": "feeble"
+      }
+    },
+    {
+      "wort": "mäßig",
+      "uebersetzung": {
+        "fa": "متوسط",
+        "en": "mediocre"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "stark",
+      "uebersetzung": {
+        "fa": "قوی",
+        "en": "strong"
+      }
+    },
+    {
+      "wort": "kräftig",
+      "uebersetzung": {
+        "fa": "نیرومند",
+        "en": "strong"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mhd. swach (کم‌ارزش، سست)",
+    "en": "mhd. swach (of little value, weak)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "schwach",
+      "komparativ": "schwächer",
+      "superlativ": "am schwächsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "schwach in + Dat",
+        "beispiel": "Sie ist schwach in Geografie.",
+        "uebersetzung": {
+          "fa": "او در جغرافیا ضعیف است.",
+          "en": "She is weak in geography."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein schwacher Mann",
+      "die schwache Leistung"
+    ],
+    "gegensatzpaar": "schwach ↔ stark"
+  },
+  "wortnetz": {
+    "grundwort": "Schwäche",
+    "woerter": [
+      {
+        "wort": "die Schwäche",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ضعف",
+          "en": "weakness"
+        },
+        "id_ref": "nomen_schwaeche"
+      },
+      {
+        "wort": "schwächen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ضعیف کردن",
+          "en": "to weaken"
+        },
+        "id_ref": "verb_schwaechen"
+      },
+      {
+        "wort": "schwächlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ضعیف‌بنیه",
+          "en": "feeble"
+        },
+        "id_ref": "adjektiv_schwaechlich"
+      },
+      {
+        "wort": "stark",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قوی",
+          "en": "strong"
+        },
+        "id_ref": "adjektiv_stark"
+      },
+      {
+        "wort": "kraftlos",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بی‌نیرو",
+          "en": "powerless"
+        },
+        "id_ref": "adjektiv_kraftlos"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
