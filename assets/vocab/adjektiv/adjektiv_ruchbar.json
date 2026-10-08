@@ -1,0 +1,145 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_ruchbar",
+  "wort": "ruchbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "شایع",
+      "فاش‌شده",
+      "علنی"
+    ],
+    "en": [
+      "known",
+      "public",
+      "notorious"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Sprache",
+    "Gesellschaft"
+  ],
+  "ipa": "ˈʁuːxbaːɐ̯",
+  "anmerkung": "Veraltet/gehoben; fast nur in „ruchbar werden“ = bekannt werden (meist von etwas Unangenehmem). Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "C1",
+      "satz": "Die Affäre ist inzwischen ruchbar geworden.",
+      "uebersetzung": {
+        "fa": "این رسوایی در این فاصله فاش شده است.",
+        "en": "The affair has meanwhile become known."
+      }
+    },
+    {
+      "niveau": "C2",
+      "satz": "Sobald der Betrug ruchbar wurde, trat der Direktor zurück.",
+      "uebersetzung": {
+        "fa": "به محض اینکه تقلب فاش شد، مدیر استعفا داد.",
+        "en": "As soon as the fraud became known, the director resigned."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bekannt",
+      "uebersetzung": {
+        "fa": "معروف",
+        "en": "known"
+      }
+    },
+    {
+      "wort": "offenkundig",
+      "uebersetzung": {
+        "fa": "آشکار",
+        "en": "evident"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "geheim",
+      "uebersetzung": {
+        "fa": "مخفی",
+        "en": "secret"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ahd. ruoh (شایعه، آوازه) + -bar",
+    "en": "ahd. ruoh (rumour, fame) + -bar"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "ruchbar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "praedikativ",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ruchbar werden",
+      "die ruchbare Sache"
+    ],
+    "gegensatzpaar": "ruchbar ↔ geheim"
+  },
+  "wortnetz": {
+    "grundwort": "Gerücht",
+    "woerter": [
+      {
+        "wort": "das Gerücht",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شایعه",
+          "en": "rumour"
+        },
+        "id_ref": "nomen_geruecht"
+      },
+      {
+        "wort": "bekannt",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "معروف",
+          "en": "known"
+        },
+        "id_ref": "adjektiv_bekannt"
+      },
+      {
+        "wort": "die Affäre",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رسوایی",
+          "en": "affair"
+        },
+        "id_ref": "nomen_affaere"
+      },
+      {
+        "wort": "geheim",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مخفی",
+          "en": "secret"
+        },
+        "id_ref": "adjektiv_geheim"
+      },
+      {
+        "wort": "offenkundig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آشکار",
+          "en": "evident"
+        },
+        "id_ref": "adjektiv_offenkundig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
