@@ -1,0 +1,153 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_sinistral",
+  "wort": "sinistral",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "چپ‌دست",
+      "سمت چپ",
+      "چپ‌گرا (فنی)"
+    ],
+    "en": [
+      "sinistral",
+      "left-handed",
+      "left-sided"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Biologie",
+    "Wissenschaft"
+  ],
+  "ipa": "zinɪsˈtʁaːl",
+  "anmerkung": "Fachsprache der Medizin und Biologie: auf der linken Seite liegend oder linkshändig; auch bei Schneckenhäusern („links gewunden“). Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "C1",
+      "satz": "Bei dem Patienten wurde eine sinistrale Lähmung festgestellt.",
+      "uebersetzung": {
+        "fa": "در بیمار فلج سمت چپ تشخیص داده شد.",
+        "en": "A sinistral paralysis was diagnosed in the patient."
+      }
+    },
+    {
+      "niveau": "C2",
+      "satz": "Manche Schnecken haben ein sinistrales Gehäuse, das gegen den Uhrzeigersinn gewunden ist.",
+      "uebersetzung": {
+        "fa": "برخی حلزون‌ها صدفی چپ‌گرد دارند که خلاف جهت عقربه‌های ساعت پیچیده است.",
+        "en": "Some snails have a sinistral shell that is coiled counterclockwise."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "linksseitig",
+      "uebersetzung": {
+        "fa": "سمت چپ",
+        "en": "left-sided"
+      }
+    },
+    {
+      "wort": "linkshändig",
+      "uebersetzung": {
+        "fa": "چپ‌دست",
+        "en": "left-handed"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "dextral",
+      "uebersetzung": {
+        "fa": "راست‌گرد",
+        "en": "dextral"
+      }
+    },
+    {
+      "wort": "rechtsseitig",
+      "uebersetzung": {
+        "fa": "سمت راست",
+        "en": "right-sided"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. sinister (چپ) + -al",
+    "en": "lat. sinister (left) + -al"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "sinistral",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine sinistrale Windung",
+      "die sinistrale Seite"
+    ],
+    "gegensatzpaar": "sinistral ↔ dextral"
+  },
+  "wortnetz": {
+    "grundwort": "links",
+    "woerter": [
+      {
+        "wort": "links",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چپ",
+          "en": "left"
+        },
+        "id_ref": "adverb_links"
+      },
+      {
+        "wort": "dextral",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "راست‌گرد",
+          "en": "dextral"
+        },
+        "id_ref": "adjektiv_dextral"
+      },
+      {
+        "wort": "die Seite",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سمت",
+          "en": "side"
+        },
+        "id_ref": "nomen_seite"
+      },
+      {
+        "wort": "die Schnecke",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حلزون",
+          "en": "snail"
+        },
+        "id_ref": "nomen_schnecke"
+      },
+      {
+        "wort": "die Lähmung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "فلج",
+          "en": "paralysis"
+        },
+        "id_ref": "nomen_laehmung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
