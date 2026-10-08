@@ -1,0 +1,151 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_schmiedbar",
+  "wort": "schmiedbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "چکش‌خوار",
+      "قابل آهنگری"
+    ],
+    "en": [
+      "malleable",
+      "forgeable"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Technik",
+    "Handwerk",
+    "Chemie"
+  ],
+  "ipa": "ˈʃmiːtbaːɐ̯",
+  "anmerkung": "Fachsprache der Metallbearbeitung: Metall, das sich schmieden lässt. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "C1",
+      "satz": "Glühendes Eisen ist leicht schmiedbar.",
+      "uebersetzung": {
+        "fa": "آهن گداخته به‌آسانی چکش‌خوار است.",
+        "en": "Glowing iron is easily forgeable."
+      }
+    },
+    {
+      "niveau": "C2",
+      "satz": "Gold ist wegen seiner Weichheit besonders gut schmiedbar und lässt sich zu feinen Blättchen formen.",
+      "uebersetzung": {
+        "fa": "طلا به‌خاطر نرمی‌اش به‌ویژه چکش‌خوار است و می‌توان آن را به ورقه‌های نازک تبدیل کرد.",
+        "en": "Gold is particularly malleable because of its softness and can be formed into fine leaves."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "formbar",
+      "uebersetzung": {
+        "fa": "شکل‌پذیر",
+        "en": "malleable"
+      }
+    },
+    {
+      "wort": "verformbar",
+      "uebersetzung": {
+        "fa": "قابل‌تغییرشکل",
+        "en": "deformable"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "spröde",
+      "uebersetzung": {
+        "fa": "ترد",
+        "en": "brittle"
+      }
+    },
+    {
+      "wort": "unformbar",
+      "uebersetzung": {
+        "fa": "شکل‌ناپذیر",
+        "en": "unformable"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "schmieden (آهنگری کردن) + -bar",
+    "en": "schmieden (to forge) + -bar"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "schmiedbar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "schmiedbares Eisen",
+      "das schmiedbare Metall"
+    ],
+    "gegensatzpaar": "schmiedbar ↔ spröde"
+  },
+  "wortnetz": {
+    "grundwort": "schmieden",
+    "woerter": [
+      {
+        "wort": "schmieden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آهنگری کردن",
+          "en": "to forge"
+        },
+        "id_ref": "verb_schmieden"
+      },
+      {
+        "wort": "der Schmied",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آهنگر",
+          "en": "blacksmith"
+        },
+        "id_ref": "nomen_schmied"
+      },
+      {
+        "wort": "das Metall",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فلز",
+          "en": "metal"
+        },
+        "id_ref": "nomen_metall"
+      },
+      {
+        "wort": "formbar",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شکل‌پذیر",
+          "en": "malleable"
+        },
+        "id_ref": "adjektiv_formbar"
+      },
+      {
+        "wort": "spröde",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ترد",
+          "en": "brittle"
+        },
+        "id_ref": "adjektiv_sproede"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

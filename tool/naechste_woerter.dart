@@ -549,6 +549,8 @@ const zurueckgestellt = <String>{
   'schismogen', // Fachwort, sehr selten, unsicher 2026-10-08
   'schlagzeilenträchtig', // Zusammensetzung, unsicher, unsicher 2026-10-08
   'schleckig', // regional, unsicher, unsicher 2026-10-08
+  'schmerzenvoll', // ungebräuchliche Form, unsicher 2026-10-08
+  'schnäukig', // regional, unsicher, unsicher 2026-10-08
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
