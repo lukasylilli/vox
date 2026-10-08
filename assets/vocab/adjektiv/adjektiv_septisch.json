@@ -1,0 +1,152 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_septisch",
+  "wort": "septisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "عفونی",
+      "ناشی از عفونت",
+      "سپتیک"
+    ],
+    "en": [
+      "septic",
+      "infected"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Gesundheit",
+    "Hygiene"
+  ],
+  "ipa": "ˈzɛptɪʃ",
+  "anmerkung": "Medizinisch: durch Bakterien infiziert oder mit Krankheitserregern verbunden; Gegenteil: „aseptisch“ (keimfrei). Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Der septische Schock ist ein lebensgefährlicher Zustand.",
+      "uebersetzung": {
+        "fa": "شوک سپتیک وضعیتی خطرناک برای زندگی است.",
+        "en": "Septic shock is a life-threatening condition."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "In einer Notaufnahme müssen septische Patienten sofort mit Antibiotika behandelt werden.",
+      "uebersetzung": {
+        "fa": "در اورژانس بیماران عفونی باید بلافاصله با آنتی‌بیوتیک درمان شوند.",
+        "en": "In an emergency department septic patients must be treated immediately with antibiotics."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "infiziert",
+      "uebersetzung": {
+        "fa": "عفونی",
+        "en": "infected"
+      }
+    },
+    {
+      "wort": "keimbelastet",
+      "uebersetzung": {
+        "fa": "دارای میکروب",
+        "en": "contaminated"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "aseptisch",
+      "uebersetzung": {
+        "fa": "بدون میکروب",
+        "en": "aseptic"
+      }
+    },
+    {
+      "wort": "steril",
+      "uebersetzung": {
+        "fa": "استریل",
+        "en": "sterile"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "gr. septikos (فاسدکننده) → septisch",
+    "en": "gr. septikos (putrefying) → septisch"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "septisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein septischer Schock",
+      "die septische Infektion"
+    ],
+    "gegensatzpaar": "septisch ↔ aseptisch"
+  },
+  "wortnetz": {
+    "grundwort": "Sepsis",
+    "woerter": [
+      {
+        "wort": "die Sepsis",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "عفونت خون",
+          "en": "sepsis"
+        },
+        "id_ref": "nomen_sepsis"
+      },
+      {
+        "wort": "aseptisch",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "بدون میکروب",
+          "en": "aseptic"
+        },
+        "id_ref": "adjektiv_aseptisch"
+      },
+      {
+        "wort": "die Infektion",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عفونت",
+          "en": "infection"
+        },
+        "id_ref": "nomen_infektion"
+      },
+      {
+        "wort": "das Antibiotikum",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آنتی‌بیوتیک",
+          "en": "antibiotic"
+        },
+        "id_ref": "nomen_antibiotikum"
+      },
+      {
+        "wort": "steril",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "استریل",
+          "en": "sterile"
+        },
+        "id_ref": "adjektiv_steril"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

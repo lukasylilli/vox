@@ -1,0 +1,159 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_sequentiell",
+  "wort": "sequentiell",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "ترتیبی",
+      "متوالی",
+      "دنباله‌ای"
+    ],
+    "en": [
+      "sequential",
+      "in sequence"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Informatik",
+    "Wissenschaft",
+    "Technik"
+  ],
+  "ipa": "zekvɛnˈtsi̯ɛl",
+  "anmerkung": "Fachsprache: nacheinander in einer festen Reihenfolge. Auch „sequenziell“. Gegenteil: parallel. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Die Aufgaben werden sequentiell abgearbeitet, eine nach der anderen.",
+      "uebersetzung": {
+        "fa": "وظایف به‌صورت ترتیبی انجام می‌شوند، یکی پس از دیگری.",
+        "en": "The tasks are processed sequentially, one after the other."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Bei sequentieller Verarbeitung dauert der Vorgang länger als bei paralleler.",
+      "uebersetzung": {
+        "fa": "در پردازش ترتیبی فرایند بیشتر از پردازش موازی طول می‌کشد.",
+        "en": "With sequential processing the procedure takes longer than with parallel processing."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufeinanderfolgend",
+      "uebersetzung": {
+        "fa": "پشت‌سرهم",
+        "en": "consecutive"
+      }
+    },
+    {
+      "wort": "seriell",
+      "uebersetzung": {
+        "fa": "سری",
+        "en": "serial"
+      }
+    },
+    {
+      "wort": "sequenziell",
+      "uebersetzung": {
+        "fa": "ترتیبی",
+        "en": "sequential"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "parallel",
+      "uebersetzung": {
+        "fa": "موازی",
+        "en": "parallel"
+      }
+    },
+    {
+      "wort": "gleichzeitig",
+      "uebersetzung": {
+        "fa": "هم‌زمان",
+        "en": "simultaneous"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. sequentia (پی‌آمد) + -ell",
+    "en": "lat. sequentia (sequence) + -ell"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "sequentiell",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine sequentielle Verarbeitung",
+      "der sequentielle Ablauf"
+    ],
+    "gegensatzpaar": "sequentiell ↔ parallel"
+  },
+  "wortnetz": {
+    "grundwort": "Sequenz",
+    "woerter": [
+      {
+        "wort": "die Sequenz",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دنباله",
+          "en": "sequence"
+        },
+        "id_ref": "nomen_sequenz"
+      },
+      {
+        "wort": "die Reihenfolge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ترتیب",
+          "en": "order"
+        },
+        "id_ref": "nomen_reihenfolge"
+      },
+      {
+        "wort": "parallel",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "موازی",
+          "en": "parallel"
+        },
+        "id_ref": "adjektiv_parallel"
+      },
+      {
+        "wort": "gleichzeitig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "هم‌زمان",
+          "en": "simultaneous"
+        },
+        "id_ref": "adjektiv_gleichzeitig"
+      },
+      {
+        "wort": "der Ablauf",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "روند",
+          "en": "process"
+        },
+        "id_ref": "nomen_ablauf"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

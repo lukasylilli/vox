@@ -1,0 +1,160 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_serienmaessig",
+  "wort": "serienmäßig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "استاندارد",
+      "به‌صورت پیش‌فرض",
+      "تولید سری"
+    ],
+    "en": [
+      "standard",
+      "as standard",
+      "mass-produced"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Technik",
+    "Auto",
+    "Wirtschaft"
+  ],
+  "ipa": "ˈzeːʁi̯ənˌmɛːsɪç",
+  "anmerkung": "Gehört zur normalen Ausstattung; auch Adverb: „serienmäßig eingebaut“. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Das Auto hat serienmäßig eine Klimaanlage.",
+      "uebersetzung": {
+        "fa": "ماشین به‌صورت استاندارد کولر دارد.",
+        "en": "The car has air conditioning as standard."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Alle neuen Modelle werden serienmäßig mit einem Notbremssystem ausgeliefert.",
+      "uebersetzung": {
+        "fa": "همه‌ی مدل‌های جدید به‌صورت استاندارد با سیستم ترمز اضطراری تحویل داده می‌شوند.",
+        "en": "All new models are delivered with an emergency braking system as standard."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "standardmäßig",
+      "uebersetzung": {
+        "fa": "استاندارد",
+        "en": "as standard"
+      }
+    },
+    {
+      "wort": "im Lieferumfang",
+      "uebersetzung": {
+        "fa": "در بسته",
+        "en": "included"
+      }
+    },
+    {
+      "wort": "werkseitig",
+      "uebersetzung": {
+        "fa": "کارخانه‌ای",
+        "en": "factory-fitted"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "aufpreispflichtig",
+      "uebersetzung": {
+        "fa": "با هزینه‌ی اضافه",
+        "en": "at extra cost"
+      }
+    },
+    {
+      "wort": "optional",
+      "uebersetzung": {
+        "fa": "اختیاری",
+        "en": "optional"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Serie (سری) + -mäßig",
+    "en": "Serie (series) + -mäßig"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "serienmäßig",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "serienmäßige Ausstattung",
+      "das serienmäßige Zubehör"
+    ],
+    "gegensatzpaar": "serienmäßig ↔ optional"
+  },
+  "wortnetz": {
+    "grundwort": "Serie",
+    "woerter": [
+      {
+        "wort": "die Serie",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سری",
+          "en": "series"
+        },
+        "id_ref": "nomen_serie"
+      },
+      {
+        "wort": "die Ausstattung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تجهیزات",
+          "en": "equipment"
+        },
+        "id_ref": "nomen_ausstattung"
+      },
+      {
+        "wort": "optional",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اختیاری",
+          "en": "optional"
+        },
+        "id_ref": "adjektiv_optional"
+      },
+      {
+        "wort": "der Aufpreis",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "هزینه‌ی اضافه",
+          "en": "extra charge"
+        },
+        "id_ref": "nomen_aufpreis"
+      },
+      {
+        "wort": "das Modell",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مدل",
+          "en": "model"
+        },
+        "id_ref": "nomen_modell"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

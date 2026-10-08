@@ -1,0 +1,158 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_sequenziell",
+  "wort": "sequenziell",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "ترتیبی",
+      "متوالی",
+      "دنباله‌ای"
+    ],
+    "en": [
+      "sequential"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Informatik",
+    "Wissenschaft",
+    "Technik"
+  ],
+  "ipa": "zekvɛnˈtsi̯ɛl",
+  "anmerkung": "Neuere Schreibung von „sequentiell“ (nach der Rechtschreibreform). Gleiche Bedeutung. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Das Programm arbeitet sequenziell und führt nur einen Schritt auf einmal aus.",
+      "uebersetzung": {
+        "fa": "برنامه به‌صورت ترتیبی کار می‌کند و فقط یک گام را در هر لحظه اجرا می‌کند.",
+        "en": "The program works sequentially and carries out only one step at a time."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Die sequenzielle Abfolge der Prüfungen sorgt dafür, dass kein Schritt vergessen wird.",
+      "uebersetzung": {
+        "fa": "توالی ترتیبی بازرسی‌ها تضمین می‌کند که هیچ گامی فراموش نشود.",
+        "en": "The sequential order of the checks ensures that no step is forgotten."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sequentiell",
+      "uebersetzung": {
+        "fa": "ترتیبی",
+        "en": "sequential"
+      }
+    },
+    {
+      "wort": "seriell",
+      "uebersetzung": {
+        "fa": "سری",
+        "en": "serial"
+      }
+    },
+    {
+      "wort": "nacheinander",
+      "uebersetzung": {
+        "fa": "پشت‌سرهم",
+        "en": "one after another"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "parallel",
+      "uebersetzung": {
+        "fa": "موازی",
+        "en": "parallel"
+      }
+    },
+    {
+      "wort": "gleichzeitig",
+      "uebersetzung": {
+        "fa": "هم‌زمان",
+        "en": "simultaneous"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. sequentia (پی‌آمد) + -ell, neue Schreibung",
+    "en": "lat. sequentia (sequence) + -ell, new spelling"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "sequenziell",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine sequenzielle Reihenfolge",
+      "der sequenzielle Ablauf"
+    ],
+    "gegensatzpaar": "sequenziell ↔ parallel"
+  },
+  "wortnetz": {
+    "grundwort": "Sequenz",
+    "woerter": [
+      {
+        "wort": "sequentiell",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ترتیبی",
+          "en": "sequential"
+        },
+        "id_ref": "adjektiv_sequentiell"
+      },
+      {
+        "wort": "die Sequenz",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دنباله",
+          "en": "sequence"
+        },
+        "id_ref": "nomen_sequenz"
+      },
+      {
+        "wort": "parallel",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "موازی",
+          "en": "parallel"
+        },
+        "id_ref": "adjektiv_parallel"
+      },
+      {
+        "wort": "die Abfolge",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "توالی",
+          "en": "sequence"
+        },
+        "id_ref": "nomen_abfolge"
+      },
+      {
+        "wort": "das Programm",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برنامه",
+          "en": "program"
+        },
+        "id_ref": "nomen_programm"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

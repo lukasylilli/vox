@@ -1,0 +1,129 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_sexagesimal",
+  "wort": "sexagesimal",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "شصت‌گانی",
+      "بر پایه‌ی شصت"
+    ],
+    "en": [
+      "sexagesimal",
+      "base-sixty"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik",
+    "Wissenschaft",
+    "Geschichte"
+  ],
+  "ipa": "zɛksaɡeziˈmaːl",
+  "anmerkung": "Fachsprache der Mathematik: auf der Zahl 60 beruhend (z. B. 60 Minuten, 60 Sekunden). Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "C1",
+      "satz": "Das sexagesimale System stammt von den alten Babyloniern.",
+      "uebersetzung": {
+        "fa": "دستگاه شصت‌گانی از بابلی‌های باستان است.",
+        "en": "The sexagesimal system comes from the ancient Babylonians."
+      }
+    },
+    {
+      "niveau": "C2",
+      "satz": "Die Zeiteinteilung in Stunden, Minuten und Sekunden folgt einem sexagesimalen Muster.",
+      "uebersetzung": {
+        "fa": "تقسیم زمان به ساعت، دقیقه و ثانیه از الگویی شصت‌گانی پیروی می‌کند.",
+        "en": "The division of time into hours, minutes and seconds follows a sexagesimal pattern."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "dezimal",
+      "uebersetzung": {
+        "fa": "دهدهی",
+        "en": "decimal"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. sexagesimus (شصتم) + -al",
+    "en": "lat. sexagesimus (sixtieth) + -al"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "sexagesimal",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "das sexagesimale System",
+      "die sexagesimale Zählung"
+    ],
+    "gegensatzpaar": "sexagesimal ↔ dezimal"
+  },
+  "wortnetz": {
+    "grundwort": "sechzig",
+    "woerter": [
+      {
+        "wort": "dezimal",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دهدهی",
+          "en": "decimal"
+        },
+        "id_ref": "adjektiv_dezimal"
+      },
+      {
+        "wort": "das Zahlensystem",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دستگاه اعداد",
+          "en": "number system"
+        },
+        "id_ref": "nomen_zahlensystem"
+      },
+      {
+        "wort": "die Minute",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دقیقه",
+          "en": "minute"
+        },
+        "id_ref": "nomen_minute"
+      },
+      {
+        "wort": "der Babylonier",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بابلی",
+          "en": "Babylonian"
+        },
+        "id_ref": "nomen_babylonier"
+      },
+      {
+        "wort": "die Mathematik",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ریاضی",
+          "en": "mathematics"
+        },
+        "id_ref": "nomen_mathematik"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

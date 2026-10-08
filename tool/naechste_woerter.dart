@@ -569,6 +569,8 @@ const zurueckgestellt = <String>{
   'sekkant', // österr. umgangssprachlich, unsicher, unsicher 2026-10-08
   'selektionistisch', // Fachwort, sehr selten, unsicher 2026-10-08
   'semesterbegleitend', // Zusammensetzung, Eintrag unsicher, unsicher 2026-10-08
+  'serbisch-montenegrinisch', // historisch/politisch, unsicher, unsicher 2026-10-08
+  'sexbesessen', // vulgär, Entscheidung Lukas, unsicher 2026-10-08
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

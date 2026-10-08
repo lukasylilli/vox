@@ -1,0 +1,159 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_seriell",
+  "wort": "seriell",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "سری",
+      "پشت‌سرهم",
+      "دنباله‌دار"
+    ],
+    "en": [
+      "serial",
+      "in series"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Informatik",
+    "Kunst"
+  ],
+  "ipa": "zeˈʁi̯ɛl",
+  "anmerkung": "Fachsprache: in einer Reihe nacheinander; auch in der Musik (serielle Musik). Gegenteil: parallel. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Der Drucker ist über einen seriellen Anschluss mit dem Computer verbunden.",
+      "uebersetzung": {
+        "fa": "چاپگر از راه یک درگاه سری به رایانه وصل است.",
+        "en": "The printer is connected to the computer via a serial port."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Die serielle Produktion senkt die Kosten, weil viele gleiche Teile nacheinander hergestellt werden.",
+      "uebersetzung": {
+        "fa": "تولید سری هزینه‌ها را کاهش می‌دهد، چون بسیاری قطعات یکسان پشت‌سرهم ساخته می‌شوند.",
+        "en": "Serial production lowers costs because many identical parts are made one after the other."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fortlaufend",
+      "uebersetzung": {
+        "fa": "پیوسته",
+        "en": "continuous"
+      }
+    },
+    {
+      "wort": "sequentiell",
+      "uebersetzung": {
+        "fa": "ترتیبی",
+        "en": "sequential"
+      }
+    },
+    {
+      "wort": "reihenweise",
+      "uebersetzung": {
+        "fa": "ردیفی",
+        "en": "in rows"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "parallel",
+      "uebersetzung": {
+        "fa": "موازی",
+        "en": "parallel"
+      }
+    },
+    {
+      "wort": "einzeln",
+      "uebersetzung": {
+        "fa": "تکی",
+        "en": "single"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "frz. sériel ← série (رشته)",
+    "en": "French sériel ← série (series)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "seriell",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "die serielle Fertigung",
+      "ein serieller Anschluss"
+    ],
+    "gegensatzpaar": "seriell ↔ parallel"
+  },
+  "wortnetz": {
+    "grundwort": "Serie",
+    "woerter": [
+      {
+        "wort": "die Serie",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سریال، مجموعه",
+          "en": "series"
+        },
+        "id_ref": "nomen_serie"
+      },
+      {
+        "wort": "serienmäßig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "استاندارد",
+          "en": "standard"
+        },
+        "id_ref": "adjektiv_serienmaessig"
+      },
+      {
+        "wort": "parallel",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "موازی",
+          "en": "parallel"
+        },
+        "id_ref": "adjektiv_parallel"
+      },
+      {
+        "wort": "die Produktion",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تولید",
+          "en": "production"
+        },
+        "id_ref": "nomen_produktion"
+      },
+      {
+        "wort": "der Anschluss",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اتصال",
+          "en": "connection"
+        },
+        "id_ref": "nomen_anschluss"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

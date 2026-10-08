@@ -1,0 +1,144 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_septiert",
+  "wort": "septiert",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "تیغه‌دار",
+      "دارای دیواره‌ی جداکننده"
+    ],
+    "en": [
+      "septate",
+      "partitioned"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Biologie",
+    "Anatomie"
+  ],
+  "ipa": "zɛpˈtiːɐ̯t",
+  "anmerkung": "Fachsprache der Medizin und Biologie: durch eine Scheidewand (Septum) geteilt. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "C1",
+      "satz": "Der Arzt entdeckte eine septierte Zyste im Gewebe.",
+      "uebersetzung": {
+        "fa": "پزشک یک کیست تیغه‌دار در بافت یافت.",
+        "en": "The doctor discovered a septate cyst in the tissue."
+      }
+    },
+    {
+      "niveau": "C2",
+      "satz": "Bei manchen Pilzen sind die Hyphen septiert, also durch Querwände in Zellen gegliedert.",
+      "uebersetzung": {
+        "fa": "در برخی قارچ‌ها هیف‌ها تیغه‌دارند، یعنی با دیواره‌های عرضی به سلول‌هایی تقسیم شده‌اند.",
+        "en": "In some fungi the hyphae are septate, that is, divided into cells by cross walls."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "geteilt",
+      "uebersetzung": {
+        "fa": "تقسیم‌شده",
+        "en": "divided"
+      }
+    },
+    {
+      "wort": "gekammert",
+      "uebersetzung": {
+        "fa": "محفظه‌دار",
+        "en": "chambered"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "unseptiert",
+      "uebersetzung": {
+        "fa": "بدون تیغه",
+        "en": "non-septate"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. septum (دیواره) + -iert",
+    "en": "lat. septum (partition) + -iert"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "septiert",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine septierte Zyste",
+      "die septierte Struktur"
+    ],
+    "gegensatzpaar": "septiert ↔ unseptiert"
+  },
+  "wortnetz": {
+    "grundwort": "Septum",
+    "woerter": [
+      {
+        "wort": "das Septum",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "دیواره‌ی جداکننده",
+          "en": "septum"
+        },
+        "id_ref": "nomen_septum"
+      },
+      {
+        "wort": "die Zyste",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "کیست",
+          "en": "cyst"
+        },
+        "id_ref": "nomen_zyste"
+      },
+      {
+        "wort": "die Zelle",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سلول",
+          "en": "cell"
+        },
+        "id_ref": "nomen_zelle"
+      },
+      {
+        "wort": "das Gewebe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بافت",
+          "en": "tissue"
+        },
+        "id_ref": "nomen_gewebe"
+      },
+      {
+        "wort": "der Pilz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قارچ",
+          "en": "fungus"
+        },
+        "id_ref": "nomen_pilz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
