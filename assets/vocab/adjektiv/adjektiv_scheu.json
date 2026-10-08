@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_scheu",
+  "wort": "scheu",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "خجالتی",
+      "کم‌رو",
+      "ترسو"
+    ],
+    "en": [
+      "shy",
+      "timid",
+      "bashful"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Charakter",
+    "Tiere",
+    "Gefühle"
+  ],
+  "ipa": "ʃɔɪ̯",
+  "anmerkung": "Für Menschen und Tiere, die ängstlich oder zurückhaltend sind. Man sagt: „scheu vor + Dat“.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Reh ist sehr scheu.",
+      "uebersetzung": {
+        "fa": "آهو بسیار ترسو است.",
+        "en": "The deer is very shy."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Das scheue Kind versteckte sich hinter seiner Mutter, als der Gast kam.",
+      "uebersetzung": {
+        "fa": "کودک خجالتی وقتی مهمان آمد پشت مادرش پنهان شد.",
+        "en": "The shy child hid behind its mother when the guest arrived."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schüchtern",
+      "uebersetzung": {
+        "fa": "خجالتی",
+        "en": "shy"
+      }
+    },
+    {
+      "wort": "ängstlich",
+      "uebersetzung": {
+        "fa": "ترسو",
+        "en": "fearful"
+      }
+    },
+    {
+      "wort": "zurückhaltend",
+      "uebersetzung": {
+        "fa": "محتاط",
+        "en": "reserved"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zutraulich",
+      "uebersetzung": {
+        "fa": "دست‌آموز",
+        "en": "trusting"
+      }
+    },
+    {
+      "wort": "kontaktfreudig",
+      "uebersetzung": {
+        "fa": "اجتماعی",
+        "en": "sociable"
+      }
+    },
+    {
+      "wort": "mutig",
+      "uebersetzung": {
+        "fa": "شجاع",
+        "en": "brave"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mhd. schiuhe (ترسو) ← ahd. sciuhen",
+    "en": "mhd. schiuhe (timid) ← ahd. sciuhen"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "scheu",
+      "komparativ": "scheuer",
+      "superlativ": "am scheuesten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "scheu vor + Dat",
+        "beispiel": "Er ist scheu vor fremden Menschen.",
+        "uebersetzung": {
+          "fa": "او از آدم‌های غریبه خجالت می‌کشد.",
+          "en": "He is shy of strangers."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein scheues Tier",
+      "das scheue Kind"
+    ],
+    "gegensatzpaar": "scheu ↔ zutraulich"
+  },
+  "wortnetz": {
+    "grundwort": "Scheu",
+    "woerter": [
+      {
+        "wort": "die Scheu",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کم‌رویی",
+          "en": "shyness"
+        },
+        "id_ref": "nomen_scheu"
+      },
+      {
+        "wort": "scheuen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "هراس داشتن",
+          "en": "to shy away from"
+        },
+        "id_ref": "verb_scheuen"
+      },
+      {
+        "wort": "schüchtern",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خجالتی",
+          "en": "shy"
+        },
+        "id_ref": "adjektiv_schuechtern"
+      },
+      {
+        "wort": "zutraulich",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دست‌آموز",
+          "en": "trusting"
+        },
+        "id_ref": "adjektiv_zutraulich"
+      },
+      {
+        "wort": "das Reh",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آهو",
+          "en": "deer"
+        },
+        "id_ref": "nomen_reh"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

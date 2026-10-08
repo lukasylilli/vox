@@ -538,6 +538,13 @@ const zurueckgestellt = <String>{
   'satzwertig', // Fachwort Linguistik, unsicher, unsicher 2026-10-08
   'saubillig', // umgangssprachlich, unsicher, unsicher 2026-10-08
   'scharlachen', // Materialadjektiv wie birken, unsicher 2026-10-08
+  'schau', // regional, unsicher, unsicher 2026-10-08
+  'scheiße', // vulgär, Entscheidung Lukas, unsicher 2026-10-08
+  'scheißegal', // vulgär, Entscheidung Lukas, unsicher 2026-10-08
+  'scheißfreundlich', // vulgär, Entscheidung Lukas, unsicher 2026-10-08
+  'schicker', // Komparativform, Listenfehler, unsicher 2026-10-08
+  'schiefern', // Materialadjektiv wie birken, unsicher 2026-10-08
+  'schilfen', // Materialadjektiv wie birken, unsicher 2026-10-08
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
