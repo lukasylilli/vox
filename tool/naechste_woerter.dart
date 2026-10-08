@@ -559,6 +559,10 @@ const zurueckgestellt = <String>{
   'schwätzicht', // selten, unsicher, unsicher 2026-10-08
   'schwanzgesteuert', // vulgär, Entscheidung Lukas, unsicher 2026-10-08
   'schwarzfeldrig', // Fachwort, sehr selten, unsicher 2026-10-08
+  'schweinern', // Materialadjektiv wie birken, unsicher 2026-10-08
+  'schwerkriegsbeschädigt', // historischer Amtsbegriff, unsicher 2026-10-08
+  'schwerlötig', // Fachwort, sehr selten, unsicher 2026-10-08
+  'sechsarmig', // Zusammensetzung, sehr selten, unsicher 2026-10-08
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

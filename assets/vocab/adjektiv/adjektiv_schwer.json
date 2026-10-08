@@ -1,0 +1,161 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_schwer",
+  "wort": "schwer",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "سنگین",
+      "سخت",
+      "دشوار"
+    ],
+    "en": [
+      "heavy",
+      "difficult",
+      "severe"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Gesundheit",
+    "Arbeit",
+    "Schule"
+  ],
+  "ipa": "ʃveːɐ̯",
+  "anmerkung": "Mehrere Bedeutungen: 1. mit großem Gewicht; 2. schwierig; 3. ernst („eine schwere Krankheit“). Auch Adverb: „schwer verletzt“.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Der Koffer ist sehr schwer.",
+      "uebersetzung": {
+        "fa": "چمدان بسیار سنگین است.",
+        "en": "The suitcase is very heavy."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Prüfung war schwer, aber ich habe sie trotzdem bestanden.",
+      "uebersetzung": {
+        "fa": "امتحان سخت بود ولی با این حال قبول شدم.",
+        "en": "The exam was difficult but I still passed it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gewichtig",
+      "uebersetzung": {
+        "fa": "سنگین",
+        "en": "weighty"
+      }
+    },
+    {
+      "wort": "schwierig",
+      "uebersetzung": {
+        "fa": "دشوار",
+        "en": "difficult"
+      }
+    },
+    {
+      "wort": "ernst",
+      "uebersetzung": {
+        "fa": "جدی",
+        "en": "serious"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "leicht",
+      "uebersetzung": {
+        "fa": "سبک، آسان",
+        "en": "light, easy"
+      }
+    },
+    {
+      "wort": "mühelos",
+      "uebersetzung": {
+        "fa": "بی‌زحمت",
+        "en": "effortless"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mhd. swære (سنگین، دشوار)",
+    "en": "mhd. swære (heavy, difficult)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "schwer",
+      "komparativ": "schwerer",
+      "superlativ": "am schwersten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein schwerer Koffer",
+      "die schwere Aufgabe"
+    ],
+    "gegensatzpaar": "schwer ↔ leicht"
+  },
+  "wortnetz": {
+    "grundwort": "Schwere",
+    "woerter": [
+      {
+        "wort": "die Schwere",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سنگینی",
+          "en": "heaviness"
+        },
+        "id_ref": "nomen_schwere"
+      },
+      {
+        "wort": "erschweren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دشوار کردن",
+          "en": "to make harder"
+        },
+        "id_ref": "verb_erschweren"
+      },
+      {
+        "wort": "leicht",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سبک، آسان",
+          "en": "light, easy"
+        },
+        "id_ref": "adjektiv_leicht"
+      },
+      {
+        "wort": "schwierig",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دشوار",
+          "en": "difficult"
+        },
+        "id_ref": "adjektiv_schwierig"
+      },
+      {
+        "wort": "das Gewicht",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "وزن",
+          "en": "weight"
+        },
+        "id_ref": "nomen_gewicht"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
