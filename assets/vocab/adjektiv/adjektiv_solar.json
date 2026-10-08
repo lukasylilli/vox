@@ -1,0 +1,150 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_solar",
+  "wort": "solar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "خورشیدی",
+      "وابسته به خورشید"
+    ],
+    "en": [
+      "solar"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Energie",
+    "Technik",
+    "Umwelt"
+  ],
+  "ipa": "zoˈlaːɐ̯",
+  "anmerkung": "Zur Sonne gehörend oder von ihr betrieben („Solarenergie“, „solare Strahlung“). Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Auf dem Dach ist eine solare Warmwasseranlage installiert.",
+      "uebersetzung": {
+        "fa": "روی بام یک سامانه‌ی آب گرم خورشیدی نصب شده است.",
+        "en": "A solar hot water system is installed on the roof."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die solare Strahlung ist im Sommer besonders stark und liefert viel Energie.",
+      "uebersetzung": {
+        "fa": "تابش خورشیدی در تابستان به‌ویژه قوی است و انرژی زیادی تأمین می‌کند.",
+        "en": "Solar radiation is especially strong in summer and supplies a lot of energy."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sonnenbetrieben",
+      "uebersetzung": {
+        "fa": "خورشیدی",
+        "en": "sun-powered"
+      }
+    },
+    {
+      "wort": "Sonnen-",
+      "uebersetzung": {
+        "fa": "خورشیدی",
+        "en": "sun-"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "lunar",
+      "uebersetzung": {
+        "fa": "ماهی",
+        "en": "lunar"
+      }
+    },
+    {
+      "wort": "fossil",
+      "uebersetzung": {
+        "fa": "فسیلی",
+        "en": "fossil"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. solaris (خورشیدی) ← sol (خورشید)",
+    "en": "lat. solaris (of the sun) ← sol (sun)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "solar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "solare Energie",
+      "die solare Strahlung"
+    ],
+    "gegensatzpaar": "solar ↔ fossil"
+  },
+  "wortnetz": {
+    "grundwort": "Sonne",
+    "woerter": [
+      {
+        "wort": "die Sonne",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خورشید",
+          "en": "sun"
+        },
+        "id_ref": "nomen_sonne"
+      },
+      {
+        "wort": "die Solarenergie",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "انرژی خورشیدی",
+          "en": "solar energy"
+        },
+        "id_ref": "nomen_solarenergie"
+      },
+      {
+        "wort": "die Energie",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "انرژی",
+          "en": "energy"
+        },
+        "id_ref": "nomen_energie"
+      },
+      {
+        "wort": "erneuerbar",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تجدیدپذیر",
+          "en": "renewable"
+        },
+        "id_ref": "adjektiv_erneuerbar"
+      },
+      {
+        "wort": "das Dach",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بام",
+          "en": "roof"
+        },
+        "id_ref": "nomen_dach"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -580,6 +580,11 @@ const zurueckgestellt = <String>{
   'siriusfern', // Zusammensetzung, sehr selten, unsicher 2026-10-08
   'skatologisch', // Fachwort/vulgär, Entscheidung Lukas, unsicher 2026-10-08
   'skoptisch', // Fachwort, sehr selten, unsicher 2026-10-08
+  'small', // Anglizismus, unsicher, unsicher 2026-10-08
+  'smaragden', // Materialadjektiv wie birken, unsicher 2026-10-08
+  'sodomitisch', // veraltet/heikel, Entscheidung Lukas, unsicher 2026-10-08
+  'solarthermisch', // Fachkompositum, unsicher, unsicher 2026-10-08
+  'solenn', // sehr selten, unsicher, unsicher 2026-10-08
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
