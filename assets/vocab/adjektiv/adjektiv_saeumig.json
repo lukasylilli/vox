@@ -1,0 +1,169 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_saeumig",
+  "wort": "säumig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "دیرکرد",
+      "عقب‌افتاده",
+      "کوتاهی‌کننده"
+    ],
+    "en": [
+      "late",
+      "in arrears",
+      "dilatory"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Finanzen",
+    "Arbeit"
+  ],
+  "ipa": "ˈzɔɪ̯mɪç",
+  "anmerkung": "Formell: etwas nicht rechtzeitig tun, besonders Zahlungen. Man sagt: „säumig mit der Zahlung“.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Der Kunde ist mit der Miete säumig.",
+      "uebersetzung": {
+        "fa": "مشتری در پرداخت اجاره دیرکرد دارد.",
+        "en": "The customer is in arrears with the rent."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Säumige Zahler müssen mit Mahngebühren und Zinsen rechnen.",
+      "uebersetzung": {
+        "fa": "پرداخت‌کنندگان دیرکرد باید منتظر هزینه‌ی یادآوری و بهره باشند.",
+        "en": "Late payers must expect reminder fees and interest."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "überfällig",
+      "uebersetzung": {
+        "fa": "معوق",
+        "en": "overdue"
+      }
+    },
+    {
+      "wort": "nachlässig",
+      "uebersetzung": {
+        "fa": "سهل‌انگار",
+        "en": "negligent"
+      }
+    },
+    {
+      "wort": "im Verzug",
+      "uebersetzung": {
+        "fa": "در تأخیر",
+        "en": "in default"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "pünktlich",
+      "uebersetzung": {
+        "fa": "به‌موقع",
+        "en": "punctual"
+      }
+    },
+    {
+      "wort": "zuverlässig",
+      "uebersetzung": {
+        "fa": "قابل‌اعتماد",
+        "en": "reliable"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mhd. sûmic (تأخیرکننده) ← säumen (تأخیر کردن) + -ig",
+    "en": "mhd. sûmic (delaying) ← säumen (to delay) + -ig"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "säumig",
+      "komparativ": "säumiger",
+      "superlativ": "am säumigsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "säumig mit + Dat",
+        "beispiel": "Er ist säumig mit der Zahlung der Miete.",
+        "uebersetzung": {
+          "fa": "او در پرداخت اجاره دیرکرد دارد.",
+          "en": "He is in arrears with paying the rent."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein säumiger Schuldner",
+      "die säumige Zahlung"
+    ],
+    "gegensatzpaar": "säumig ↔ pünktlich"
+  },
+  "wortnetz": {
+    "grundwort": "säumen",
+    "woerter": [
+      {
+        "wort": "säumen",
+        "wortart": "verb",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "تأخیر کردن",
+          "en": "to delay"
+        },
+        "id_ref": "verb_saeumen"
+      },
+      {
+        "wort": "der Verzug",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تأخیر",
+          "en": "default"
+        },
+        "id_ref": "nomen_verzug"
+      },
+      {
+        "wort": "pünktlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "به‌موقع",
+          "en": "punctual"
+        },
+        "id_ref": "adjektiv_puenktlich"
+      },
+      {
+        "wort": "der Schuldner",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بدهکار",
+          "en": "debtor"
+        },
+        "id_ref": "nomen_schuldner"
+      },
+      {
+        "wort": "die Mahnung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "یادآوری بدهی",
+          "en": "reminder"
+        },
+        "id_ref": "nomen_mahnung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,143 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_saechlich",
+  "wort": "sächlich",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "خنثی (دستوری)",
+      "مربوط به جنس خنثی"
+    ],
+    "en": [
+      "neuter",
+      "of neuter gender"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Grammatik",
+    "Sprache"
+  ],
+  "ipa": "ˈzɛçlɪç",
+  "anmerkung": "Grammatik: das Genus „das“ (Neutrum). Nicht verwechseln mit „sachlich“ (objektiv). Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Das Wort „Mädchen“ ist sächlich.",
+      "uebersetzung": {
+        "fa": "کلمه‌ی «Mädchen» خنثی است.",
+        "en": "The word “Mädchen” is neuter."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Deutschen gibt es männliche, weibliche und sächliche Nomen.",
+      "uebersetzung": {
+        "fa": "در آلمانی اسم‌های مذکر، مؤنث و خنثی وجود دارند.",
+        "en": "In German there are masculine, feminine and neuter nouns."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "neutral",
+      "uebersetzung": {
+        "fa": "خنثی",
+        "en": "neuter"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "männlich",
+      "uebersetzung": {
+        "fa": "مذکر",
+        "en": "masculine"
+      }
+    },
+    {
+      "wort": "weiblich",
+      "uebersetzung": {
+        "fa": "مؤنث",
+        "en": "feminine"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Sache (چیز) + -lich",
+    "en": "Sache (thing) + -lich"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "sächlich",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein sächliches Nomen",
+      "das sächliche Geschlecht"
+    ],
+    "gegensatzpaar": "sächlich ↔ männlich / weiblich"
+  },
+  "wortnetz": {
+    "grundwort": "Genus",
+    "woerter": [
+      {
+        "wort": "das Genus",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جنس دستوری",
+          "en": "gender"
+        },
+        "id_ref": "nomen_genus"
+      },
+      {
+        "wort": "das Neutrum",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خنثی",
+          "en": "neuter"
+        },
+        "id_ref": "nomen_neutrum"
+      },
+      {
+        "wort": "männlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مذکر",
+          "en": "masculine"
+        },
+        "id_ref": "adjektiv_maennlich"
+      },
+      {
+        "wort": "weiblich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مؤنث",
+          "en": "feminine"
+        },
+        "id_ref": "adjektiv_weiblich"
+      },
+      {
+        "wort": "der Artikel",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حرف تعریف",
+          "en": "article"
+        },
+        "id_ref": "nomen_artikel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

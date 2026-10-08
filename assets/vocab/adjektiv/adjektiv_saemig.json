@@ -1,0 +1,152 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_saemig",
+  "wort": "sämig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "غلیظ",
+      "کرم‌مانند",
+      "روان و غلیظ"
+    ],
+    "en": [
+      "creamy",
+      "thick",
+      "velvety"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kochen",
+    "Essen und Trinken"
+  ],
+  "ipa": "ˈzɛːmɪç",
+  "anmerkung": "Beschreibt Soßen und Suppen, die dick und weich sind, ohne Klumpen.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Die Suppe ist schön sämig.",
+      "uebersetzung": {
+        "fa": "سوپ به‌خوبی غلیظ و نرم است.",
+        "en": "The soup is nicely creamy."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Damit die Soße sämig wird, rührt man etwas Mehl hinein und lässt sie kurz kochen.",
+      "uebersetzung": {
+        "fa": "برای اینکه سس غلیظ شود، کمی آرد در آن هم می‌زنند و مدتی کوتاه می‌پزند.",
+        "en": "To make the sauce creamy, you stir in a little flour and let it simmer briefly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "cremig",
+      "uebersetzung": {
+        "fa": "کرمی",
+        "en": "creamy"
+      }
+    },
+    {
+      "wort": "dickflüssig",
+      "uebersetzung": {
+        "fa": "غلیظ",
+        "en": "thick"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "dünnflüssig",
+      "uebersetzung": {
+        "fa": "رقیق",
+        "en": "thin"
+      }
+    },
+    {
+      "wort": "wässrig",
+      "uebersetzung": {
+        "fa": "آبکی",
+        "en": "watery"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Säme (آرد ریزِ خمیری، در گویش) + -ig",
+    "en": "Säme (fine flour paste, dialect) + -ig"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "sämig",
+      "komparativ": "sämiger",
+      "superlativ": "am sämigsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine sämige Soße",
+      "die sämige Suppe"
+    ],
+    "gegensatzpaar": "sämig ↔ dünnflüssig"
+  },
+  "wortnetz": {
+    "grundwort": "Soße",
+    "woerter": [
+      {
+        "wort": "die Soße",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سس",
+          "en": "sauce"
+        },
+        "id_ref": "nomen_sosse"
+      },
+      {
+        "wort": "die Suppe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سوپ",
+          "en": "soup"
+        },
+        "id_ref": "nomen_suppe"
+      },
+      {
+        "wort": "cremig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کرمی",
+          "en": "creamy"
+        },
+        "id_ref": "adjektiv_cremig"
+      },
+      {
+        "wort": "dickflüssig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "غلیظ",
+          "en": "thick"
+        },
+        "id_ref": "adjektiv_dickfluessig"
+      },
+      {
+        "wort": "binden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "غلیظ کردن",
+          "en": "to thicken"
+        },
+        "id_ref": "verb_binden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
