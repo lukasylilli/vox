@@ -1,0 +1,160 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_simpel",
+  "wort": "simpel",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "ساده",
+      "بی‌پیرایه",
+      "سطحی"
+    ],
+    "en": [
+      "simple",
+      "plain",
+      "simplistic"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Sprache",
+    "Technik"
+  ],
+  "ipa": "ˈzɪmpl̩",
+  "anmerkung": "Sehr einfach; oft leicht abwertend („eine simple Lösung“ = zu einfach).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Rezept ist ganz simpel.",
+      "uebersetzung": {
+        "fa": "دستور پخت بسیار ساده است.",
+        "en": "The recipe is quite simple."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Dieses Problem ist nicht simpel und lässt sich nicht durch eine schnelle Antwort lösen.",
+      "uebersetzung": {
+        "fa": "این مشکل ساده نیست و با یک پاسخ سریع حل نمی‌شود.",
+        "en": "This problem is not simple and cannot be solved by a quick answer."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einfach",
+      "uebersetzung": {
+        "fa": "ساده",
+        "en": "simple"
+      }
+    },
+    {
+      "wort": "schlicht",
+      "uebersetzung": {
+        "fa": "بی‌پیرایه",
+        "en": "plain"
+      }
+    },
+    {
+      "wort": "primitiv",
+      "uebersetzung": {
+        "fa": "ابتدایی",
+        "en": "primitive"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "kompliziert",
+      "uebersetzung": {
+        "fa": "پیچیده",
+        "en": "complicated"
+      }
+    },
+    {
+      "wort": "komplex",
+      "uebersetzung": {
+        "fa": "مرکب",
+        "en": "complex"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "frz. simple (ساده) ← lat. simplex",
+    "en": "French simple (simple) ← lat. simplex"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "simpel",
+      "komparativ": "simpler",
+      "superlativ": "am simpelsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine simple Frage",
+      "die simple Erklärung"
+    ],
+    "gegensatzpaar": "simpel ↔ kompliziert"
+  },
+  "wortnetz": {
+    "grundwort": "Einfachheit",
+    "woerter": [
+      {
+        "wort": "einfach",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ساده",
+          "en": "simple"
+        },
+        "id_ref": "adjektiv_einfach"
+      },
+      {
+        "wort": "schlicht",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بی‌پیرایه",
+          "en": "plain"
+        },
+        "id_ref": "adjektiv_schlicht"
+      },
+      {
+        "wort": "kompliziert",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پیچیده",
+          "en": "complicated"
+        },
+        "id_ref": "adjektiv_kompliziert"
+      },
+      {
+        "wort": "simplifizieren",
+        "wortart": "verb",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "ساده‌سازی کردن",
+          "en": "to simplify"
+        },
+        "id_ref": "verb_simplifizieren"
+      },
+      {
+        "wort": "das Rezept",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دستور پخت",
+          "en": "recipe"
+        },
+        "id_ref": "nomen_rezept"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

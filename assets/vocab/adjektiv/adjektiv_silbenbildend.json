@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_silbenbildend",
+  "wort": "silbenbildend",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "هجاساز"
+    ],
+    "en": [
+      "syllabic",
+      "syllable-forming"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Sprache",
+    "Linguistik",
+    "Phonetik"
+  ],
+  "ipa": "ˈzɪlbn̩ˌbɪldn̩t",
+  "anmerkung": "Fachwort der Phonetik: ein Laut, der eine Silbe bilden kann (z. B. Vokale). Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "C1",
+      "satz": "Im Deutschen sind Vokale in der Regel silbenbildend.",
+      "uebersetzung": {
+        "fa": "در آلمانی واکه‌ها معمولاً هجاساز هستند.",
+        "en": "In German vowels are as a rule syllable-forming."
+      }
+    },
+    {
+      "niveau": "C2",
+      "satz": "Manche Sprachen kennen silbenbildende Konsonanten wie das r in einigen Wörtern.",
+      "uebersetzung": {
+        "fa": "برخی زبان‌ها صامت‌های هجاساز دارند، مانند r در برخی کلمات.",
+        "en": "Some languages have syllabic consonants such as the r in some words."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "silbisch",
+      "uebersetzung": {
+        "fa": "هجایی",
+        "en": "syllabic"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "unsilbisch",
+      "uebersetzung": {
+        "fa": "غیرهجایی",
+        "en": "non-syllabic"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Silbe (هجا) + bildend (سازنده)",
+    "en": "Silbe (syllable) + bildend (forming)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "silbenbildend",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein silbenbildender Laut",
+      "der silbenbildende Konsonant"
+    ],
+    "gegensatzpaar": "silbenbildend ↔ unsilbisch"
+  },
+  "wortnetz": {
+    "grundwort": "Silbe",
+    "woerter": [
+      {
+        "wort": "die Silbe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "هجا",
+          "en": "syllable"
+        },
+        "id_ref": "nomen_silbe"
+      },
+      {
+        "wort": "der Vokal",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "واکه",
+          "en": "vowel"
+        },
+        "id_ref": "nomen_vokal"
+      },
+      {
+        "wort": "der Konsonant",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صامت",
+          "en": "consonant"
+        },
+        "id_ref": "nomen_konsonant"
+      },
+      {
+        "wort": "silbisch",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "هجایی",
+          "en": "syllabic"
+        },
+        "id_ref": "adjektiv_silbisch"
+      },
+      {
+        "wort": "die Phonetik",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آواشناسی",
+          "en": "phonetics"
+        },
+        "id_ref": "nomen_phonetik"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
