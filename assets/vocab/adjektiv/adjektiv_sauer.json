@@ -1,0 +1,168 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_sauer",
+  "wort": "sauer",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "ترش",
+      "عصبانی",
+      "ناراحت"
+    ],
+    "en": [
+      "sour",
+      "angry",
+      "annoyed"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Essen und Trinken",
+    "Gefühle"
+  ],
+  "ipa": "ˈzaʊ̯ɐ",
+  "anmerkung": "Zwei Hauptbedeutungen: 1. mit saurem Geschmack; 2. umgangssprachlich: verärgert („sauer sein“). Auch: „saurer Regen“.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Die Zitrone ist sauer.",
+      "uebersetzung": {
+        "fa": "لیمو ترش است.",
+        "en": "The lemon is sour."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Sie war sauer auf ihren Bruder, weil er ihr Handy ohne Erlaubnis benutzt hatte.",
+      "uebersetzung": {
+        "fa": "او از دست برادرش عصبانی بود، چون گوشی‌اش را بدون اجازه استفاده کرده بود.",
+        "en": "She was angry with her brother because he had used her phone without permission."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "säuerlich",
+      "uebersetzung": {
+        "fa": "ترش‌مزه",
+        "en": "sourish"
+      }
+    },
+    {
+      "wort": "verärgert",
+      "uebersetzung": {
+        "fa": "عصبانی",
+        "en": "annoyed"
+      }
+    },
+    {
+      "wort": "wütend",
+      "uebersetzung": {
+        "fa": "خشمگین",
+        "en": "furious"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "süß",
+      "uebersetzung": {
+        "fa": "شیرین",
+        "en": "sweet"
+      }
+    },
+    {
+      "wort": "zufrieden",
+      "uebersetzung": {
+        "fa": "راضی",
+        "en": "content"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mhd. sûr (ترش) ← ahd. sûr",
+    "en": "mhd. sûr (sour) ← ahd. sûr"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "sauer",
+      "komparativ": "saurer",
+      "superlativ": "am sauersten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "sauer auf + Akk",
+        "beispiel": "Ich bin sauer auf dich, weil du nicht angerufen hast.",
+        "uebersetzung": {
+          "fa": "من از دست تو عصبانی‌ام، چون زنگ نزدی.",
+          "en": "I am angry with you because you did not call."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein saurer Apfel",
+      "der saure Regen"
+    ],
+    "gegensatzpaar": "sauer ↔ süß"
+  },
+  "wortnetz": {
+    "grundwort": "Säure",
+    "woerter": [
+      {
+        "wort": "die Säure",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اسید، ترشی",
+          "en": "acid"
+        },
+        "id_ref": "nomen_saeure"
+      },
+      {
+        "wort": "säuerlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ترش‌مزه",
+          "en": "sourish"
+        },
+        "id_ref": "adjektiv_saeuerlich"
+      },
+      {
+        "wort": "süß",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شیرین",
+          "en": "sweet"
+        },
+        "id_ref": "adjektiv_suess"
+      },
+      {
+        "wort": "verärgert",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عصبانی",
+          "en": "annoyed"
+        },
+        "id_ref": "adjektiv_veraergert"
+      },
+      {
+        "wort": "die Zitrone",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "لیمو",
+          "en": "lemon"
+        },
+        "id_ref": "nomen_zitrone"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -537,6 +537,7 @@ const zurueckgestellt = <String>{
   'saphiren', // Materialadjektiv wie birken, unsicher 2026-10-08
   'satzwertig', // Fachwort Linguistik, unsicher, unsicher 2026-10-08
   'saubillig', // umgangssprachlich, unsicher, unsicher 2026-10-08
+  'scharlachen', // Materialadjektiv wie birken, unsicher 2026-10-08
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

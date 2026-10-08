@@ -1,0 +1,159 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_schal",
+  "wort": "schal",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "بی‌مزه",
+      "بی‌گاز",
+      "بی‌طراوت"
+    ],
+    "en": [
+      "stale",
+      "flat",
+      "insipid"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Essen und Trinken",
+    "Gefühle"
+  ],
+  "ipa": "ʃaːl",
+  "anmerkung": "Für Getränke ohne Kohlensäure oder abgestandene Speisen; bildlich auch „leer, ohne Inhalt“ („ein schaler Beigeschmack“).",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Das Bier ist schal geworden, weil die Flasche offen stand.",
+      "uebersetzung": {
+        "fa": "آبجو بی‌گاز شده، چون بطری باز مانده بود.",
+        "en": "The beer has gone flat because the bottle was left open."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Der Sieg hinterließ einen schalen Beigeschmack, weil er durch Betrug erreicht worden war.",
+      "uebersetzung": {
+        "fa": "پیروزی طعمی تلخ و بی‌ارزش بر جا گذاشت، چون با تقلب به دست آمده بود.",
+        "en": "The victory left a stale aftertaste because it had been achieved through cheating."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abgestanden",
+      "uebersetzung": {
+        "fa": "مانده",
+        "en": "stale"
+      }
+    },
+    {
+      "wort": "fade",
+      "uebersetzung": {
+        "fa": "بی‌مزه",
+        "en": "bland"
+      }
+    },
+    {
+      "wort": "geschmacklos",
+      "uebersetzung": {
+        "fa": "بی‌طعم",
+        "en": "tasteless"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "frisch",
+      "uebersetzung": {
+        "fa": "تازه",
+        "en": "fresh"
+      }
+    },
+    {
+      "wort": "spritzig",
+      "uebersetzung": {
+        "fa": "گازدار و شاداب",
+        "en": "sparkling"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mhd. schal (کدر، بی‌مزه)",
+    "en": "mhd. schal (cloudy, insipid)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "schal",
+      "komparativ": "schaler",
+      "superlativ": "am schalsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein schales Getränk",
+      "der schale Geschmack"
+    ],
+    "gegensatzpaar": "schal ↔ frisch"
+  },
+  "wortnetz": {
+    "grundwort": "Beigeschmack",
+    "woerter": [
+      {
+        "wort": "abgestanden",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مانده",
+          "en": "stale"
+        },
+        "id_ref": "adjektiv_abgestanden"
+      },
+      {
+        "wort": "fade",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بی‌مزه",
+          "en": "bland"
+        },
+        "id_ref": "adjektiv_fade"
+      },
+      {
+        "wort": "frisch",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تازه",
+          "en": "fresh"
+        },
+        "id_ref": "adjektiv_frisch"
+      },
+      {
+        "wort": "der Beigeschmack",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "طعم جانبی",
+          "en": "aftertaste"
+        },
+        "id_ref": "nomen_beigeschmack"
+      },
+      {
+        "wort": "die Kohlensäure",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گاز (نوشیدنی)",
+          "en": "carbonation"
+        },
+        "id_ref": "nomen_kohlensaeure"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

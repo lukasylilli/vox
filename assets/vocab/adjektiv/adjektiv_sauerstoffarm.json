@@ -1,0 +1,129 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_sauerstoffarm",
+  "wort": "sauerstoffarm",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "کم‌اکسیژن",
+      "فقیر از اکسیژن"
+    ],
+    "en": [
+      "low in oxygen",
+      "oxygen-poor"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Medizin",
+    "Umwelt"
+  ],
+  "ipa": "ˈzaʊ̯ɐʃtɔfˌʔaʁm",
+  "anmerkung": "Fachsprache und Alltag: mit wenig Sauerstoff, z. B. Luft, Wasser oder Blut. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Im Gebirge ist die Luft sauerstoffarm.",
+      "uebersetzung": {
+        "fa": "در کوهستان هوا کم‌اکسیژن است.",
+        "en": "In the mountains the air is low in oxygen."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Das sauerstoffarme Wasser des Sees führte zu einem Fischsterben.",
+      "uebersetzung": {
+        "fa": "آب کم‌اکسیژن دریاچه باعث مرگ ماهی‌ها شد.",
+        "en": "The oxygen-poor water of the lake led to a fish die-off."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "sauerstoffreich",
+      "uebersetzung": {
+        "fa": "پراکسیژن",
+        "en": "oxygen-rich"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Sauerstoff (اکسیژن) + arm (کم‌چیز)",
+    "en": "Sauerstoff (oxygen) + arm (poor in)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "sauerstoffarm",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "sauerstoffarme Luft",
+      "das sauerstoffarme Blut"
+    ],
+    "gegensatzpaar": "sauerstoffarm ↔ sauerstoffreich"
+  },
+  "wortnetz": {
+    "grundwort": "Sauerstoff",
+    "woerter": [
+      {
+        "wort": "der Sauerstoff",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اکسیژن",
+          "en": "oxygen"
+        },
+        "id_ref": "nomen_sauerstoff"
+      },
+      {
+        "wort": "sauerstoffreich",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پراکسیژن",
+          "en": "oxygen-rich"
+        },
+        "id_ref": "adjektiv_sauerstoffreich"
+      },
+      {
+        "wort": "die Luft",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "هوا",
+          "en": "air"
+        },
+        "id_ref": "nomen_luft"
+      },
+      {
+        "wort": "atmen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نفس کشیدن",
+          "en": "to breathe"
+        },
+        "id_ref": "verb_atmen"
+      },
+      {
+        "wort": "der Mangel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کمبود",
+          "en": "lack"
+        },
+        "id_ref": "nomen_mangel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

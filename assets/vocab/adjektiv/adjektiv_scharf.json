@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_scharf",
+  "wort": "scharf",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "تیز",
+      "تند",
+      "تیزبین"
+    ],
+    "en": [
+      "sharp",
+      "spicy",
+      "hot",
+      "keen"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Essen und Trinken",
+    "Werkzeug",
+    "Charakter"
+  ],
+  "ipa": "ʃaʁf",
+  "anmerkung": "Viele Bedeutungen: schneidend (ein scharfes Messer), würzig-brennend (scharfes Essen), deutlich (ein scharfes Foto), streng (scharfe Kritik).",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Das Messer ist sehr scharf.",
+      "uebersetzung": {
+        "fa": "چاقو بسیار تیز است.",
+        "en": "The knife is very sharp."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich mag scharfes Essen, aber diese Soße ist selbst für mich zu scharf.",
+      "uebersetzung": {
+        "fa": "من غذای تند دوست دارم، ولی این سس حتی برای من هم خیلی تند است.",
+        "en": "I like spicy food, but this sauce is too hot even for me."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "spitz",
+      "uebersetzung": {
+        "fa": "تیز",
+        "en": "pointed"
+      }
+    },
+    {
+      "wort": "würzig",
+      "uebersetzung": {
+        "fa": "ادویه‌دار",
+        "en": "spicy"
+      }
+    },
+    {
+      "wort": "streng",
+      "uebersetzung": {
+        "fa": "سخت",
+        "en": "severe"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "stumpf",
+      "uebersetzung": {
+        "fa": "کُند",
+        "en": "blunt"
+      }
+    },
+    {
+      "wort": "mild",
+      "uebersetzung": {
+        "fa": "ملایم",
+        "en": "mild"
+      }
+    },
+    {
+      "wort": "unscharf",
+      "uebersetzung": {
+        "fa": "تار",
+        "en": "blurred"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mhd. scharf (برنده) ← ahd. scarf",
+    "en": "mhd. scharf (cutting) ← ahd. scarf"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "scharf",
+      "komparativ": "schärfer",
+      "superlativ": "am schärfsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "scharf auf + Akk",
+        "beispiel": "Er ist scharf auf das neue Auto.",
+        "uebersetzung": {
+          "fa": "او مشتاق ماشین جدید است.",
+          "en": "He is keen on the new car."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein scharfes Messer",
+      "die scharfe Soße"
+    ],
+    "gegensatzpaar": "scharf ↔ stumpf"
+  },
+  "wortnetz": {
+    "grundwort": "Schärfe",
+    "woerter": [
+      {
+        "wort": "die Schärfe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تیزی، تندی",
+          "en": "sharpness"
+        },
+        "id_ref": "nomen_schaerfe"
+      },
+      {
+        "wort": "schärfen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تیز کردن",
+          "en": "to sharpen"
+        },
+        "id_ref": "verb_schaerfen"
+      },
+      {
+        "wort": "stumpf",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کُند",
+          "en": "blunt"
+        },
+        "id_ref": "adjektiv_stumpf"
+      },
+      {
+        "wort": "mild",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ملایم",
+          "en": "mild"
+        },
+        "id_ref": "adjektiv_mild"
+      },
+      {
+        "wort": "würzig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ادویه‌دار",
+          "en": "spicy"
+        },
+        "id_ref": "adjektiv_wuerzig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

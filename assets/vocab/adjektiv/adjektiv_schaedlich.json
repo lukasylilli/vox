@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_schaedlich",
+  "wort": "schädlich",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "مضر",
+      "زیان‌آور"
+    ],
+    "en": [
+      "harmful",
+      "damaging"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gesundheit",
+    "Umwelt"
+  ],
+  "ipa": "ˈʃɛːtlɪç",
+  "anmerkung": "Man sagt: „schädlich für etwas/jemanden“. Gegenteil: „unschädlich“ oder „nützlich“.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Rauchen ist schädlich für die Gesundheit.",
+      "uebersetzung": {
+        "fa": "سیگار کشیدن برای سلامتی مضر است.",
+        "en": "Smoking is harmful to health."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Zu viel Zucker kann auf Dauer schädlich für die Zähne sein.",
+      "uebersetzung": {
+        "fa": "شکر زیاد در درازمدت می‌تواند برای دندان‌ها مضر باشد.",
+        "en": "Too much sugar can be harmful to the teeth in the long run."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nachteilig",
+      "uebersetzung": {
+        "fa": "زیان‌بار",
+        "en": "detrimental"
+      }
+    },
+    {
+      "wort": "gefährlich",
+      "uebersetzung": {
+        "fa": "خطرناک",
+        "en": "dangerous"
+      }
+    },
+    {
+      "wort": "ungesund",
+      "uebersetzung": {
+        "fa": "ناسالم",
+        "en": "unhealthy"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "nützlich",
+      "uebersetzung": {
+        "fa": "مفید",
+        "en": "useful"
+      }
+    },
+    {
+      "wort": "gesund",
+      "uebersetzung": {
+        "fa": "سالم",
+        "en": "healthy"
+      }
+    },
+    {
+      "wort": "harmlos",
+      "uebersetzung": {
+        "fa": "بی‌ضرر",
+        "en": "harmless"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Schaden (زیان) + -lich",
+    "en": "Schaden (harm) + -lich"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "schädlich",
+      "komparativ": "schädlicher",
+      "superlativ": "am schädlichsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "schädlich für + Akk",
+        "beispiel": "Zu viel Lärm ist schädlich für das Gehör.",
+        "uebersetzung": {
+          "fa": "سروصدای زیاد برای شنوایی مضر است.",
+          "en": "Too much noise is harmful to hearing."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein schädlicher Stoff",
+      "die schädliche Wirkung"
+    ],
+    "gegensatzpaar": "schädlich ↔ nützlich"
+  },
+  "wortnetz": {
+    "grundwort": "Schaden",
+    "woerter": [
+      {
+        "wort": "der Schaden",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زیان",
+          "en": "damage"
+        },
+        "id_ref": "nomen_schaden"
+      },
+      {
+        "wort": "schaden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زیان رساندن",
+          "en": "to harm"
+        },
+        "id_ref": "verb_schaden"
+      },
+      {
+        "wort": "der Schädling",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آفت",
+          "en": "pest"
+        },
+        "id_ref": "nomen_schaedling"
+      },
+      {
+        "wort": "nützlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مفید",
+          "en": "useful"
+        },
+        "id_ref": "adjektiv_nuetzlich"
+      },
+      {
+        "wort": "ungesund",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ناسالم",
+          "en": "unhealthy"
+        },
+        "id_ref": "adjektiv_ungesund"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

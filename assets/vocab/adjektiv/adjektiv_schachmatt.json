@@ -1,0 +1,145 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_schachmatt",
+  "wort": "schachmatt",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "مات",
+      "شکست‌خورده",
+      "ناتوان از ادامه"
+    ],
+    "en": [
+      "checkmated",
+      "beaten",
+      "at a loss"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Spiel",
+    "Alltag"
+  ],
+  "ipa": "ˈʃaxˌmat",
+  "anmerkung": "Im Schach: Der König kann nicht mehr entkommen. Bildlich: völlig besiegt oder ohne Ausweg („jemanden schachmatt setzen“). Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Nach zwanzig Zügen war ich schachmatt.",
+      "uebersetzung": {
+        "fa": "بعد از بیست حرکت مات شدم.",
+        "en": "After twenty moves I was checkmated."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Mit diesem Argument hat sie ihren Gegner in der Diskussion schachmatt gesetzt.",
+      "uebersetzung": {
+        "fa": "او با این استدلال حریفش را در بحث ناتوان کرد.",
+        "en": "With this argument she checkmated her opponent in the discussion."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "matt",
+      "uebersetzung": {
+        "fa": "مات",
+        "en": "checkmated"
+      }
+    },
+    {
+      "wort": "besiegt",
+      "uebersetzung": {
+        "fa": "شکست‌خورده",
+        "en": "defeated"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "überlegen",
+      "uebersetzung": {
+        "fa": "برتر",
+        "en": "superior"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "pers. shāh māt (شاه مات شد) → schachmatt",
+    "en": "Persian shāh māt (the king is helpless) → schachmatt"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "schachmatt",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "praedikativ",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "schachmatt sein",
+      "jemanden schachmatt setzen"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Schach",
+    "woerter": [
+      {
+        "wort": "das Schach",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شطرنج",
+          "en": "chess"
+        },
+        "id_ref": "nomen_schach"
+      },
+      {
+        "wort": "der Zug",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حرکت",
+          "en": "move"
+        },
+        "id_ref": "nomen_zug"
+      },
+      {
+        "wort": "der König",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شاه",
+          "en": "king"
+        },
+        "id_ref": "nomen_koenig"
+      },
+      {
+        "wort": "besiegen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شکست دادن",
+          "en": "to defeat"
+        },
+        "id_ref": "verb_besiegen"
+      },
+      {
+        "wort": "das Spiel",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بازی",
+          "en": "game"
+        },
+        "id_ref": "nomen_spiel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
