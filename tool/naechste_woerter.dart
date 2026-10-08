@@ -519,6 +519,7 @@ const zurueckgestellt = <String>{
   'rhodiniert', // Fachwort (Schmuck), sehr selten, unsicher 2026-09-29
   'rhomboedrisch', // Fachwort (Kristallografie), sehr selten, unsicher 2026-09-29
   'ridikül', // veraltet/bildungssprachlich, unsicher 2026-09-29
+  'rodelfrei', // Wort nicht gesichert, unsicher 2026-10-08
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
