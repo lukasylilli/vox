@@ -1,0 +1,169 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_schuldig",
+  "wort": "schuldig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "مقصر",
+      "گناهکار",
+      "بدهکار"
+    ],
+    "en": [
+      "guilty",
+      "culpable",
+      "owing"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Recht",
+    "Moral",
+    "Finanzen"
+  ],
+  "ipa": "ˈʃʊldɪç",
+  "anmerkung": "Mehrere Bedeutungen: 1. verantwortlich für etwas Schlechtes; 2. vor Gericht verurteilt; 3. „jemandem etwas schuldig sein“ = Geld oder Dank schulden.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wer ist schuld? Ich bin nicht schuldig.",
+      "uebersetzung": {
+        "fa": "تقصیر کیست؟ من مقصر نیستم.",
+        "en": "Who is to blame? I am not guilty."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Das Gericht sprach den Angeklagten des Diebstahls schuldig.",
+      "uebersetzung": {
+        "fa": "دادگاه متهم را به سرقت مجرم دانست.",
+        "en": "The court found the defendant guilty of theft."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verantwortlich",
+      "uebersetzung": {
+        "fa": "مسئول",
+        "en": "responsible"
+      }
+    },
+    {
+      "wort": "straffällig",
+      "uebersetzung": {
+        "fa": "مجرم",
+        "en": "criminal"
+      }
+    },
+    {
+      "wort": "verpflichtet",
+      "uebersetzung": {
+        "fa": "موظف",
+        "en": "obliged"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "unschuldig",
+      "uebersetzung": {
+        "fa": "بی‌گناه",
+        "en": "innocent"
+      }
+    },
+    {
+      "wort": "schuldlos",
+      "uebersetzung": {
+        "fa": "بی‌تقصیر",
+        "en": "blameless"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Schuld (گناه، بدهی) + -ig",
+    "en": "Schuld (guilt, debt) + -ig"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "schuldig",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "schuldig an + Dat",
+        "beispiel": "Er ist schuldig an dem Unfall.",
+        "uebersetzung": {
+          "fa": "او در تصادف مقصر است.",
+          "en": "He is guilty of the accident."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein schuldiger Angeklagter",
+      "die schuldige Person"
+    ],
+    "gegensatzpaar": "schuldig ↔ unschuldig"
+  },
+  "wortnetz": {
+    "grundwort": "Schuld",
+    "woerter": [
+      {
+        "wort": "die Schuld",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گناه، تقصیر",
+          "en": "guilt"
+        },
+        "id_ref": "nomen_schuld"
+      },
+      {
+        "wort": "der Schuldner",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بدهکار",
+          "en": "debtor"
+        },
+        "id_ref": "nomen_schuldner"
+      },
+      {
+        "wort": "unschuldig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بی‌گناه",
+          "en": "innocent"
+        },
+        "id_ref": "adjektiv_unschuldig"
+      },
+      {
+        "wort": "verurteilen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "محکوم کردن",
+          "en": "to sentence"
+        },
+        "id_ref": "verb_verurteilen"
+      },
+      {
+        "wort": "das Gericht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دادگاه",
+          "en": "court"
+        },
+        "id_ref": "nomen_gericht"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
