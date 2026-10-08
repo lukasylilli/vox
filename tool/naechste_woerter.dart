@@ -571,6 +571,8 @@ const zurueckgestellt = <String>{
   'semesterbegleitend', // Zusammensetzung, Eintrag unsicher, unsicher 2026-10-08
   'serbisch-montenegrinisch', // historisch/politisch, unsicher, unsicher 2026-10-08
   'sexbesessen', // vulgär, Entscheidung Lukas, unsicher 2026-10-08
+  'sichergestellt', // Partizip, Eintrag unsicher, unsicher 2026-10-08
+  'sichtlaut', // Fachwort, sehr selten, unsicher 2026-10-08
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
@@ -583,6 +585,7 @@ const wortartKorrektur = <String, String>{
   'sechste': 'numerale', // Ordinalzahl (2026-10-08)
   'sechzehnte': 'numerale', // Ordinalzahl (2026-10-08)
   'sechzigste': 'numerale', // Ordinalzahl (2026-10-08)
+  'siebente': 'numerale', // Ordinalzahl (2026-10-08)
   'achtzehnte': 'numerale', // Ordinalzahl (2026-09-24)
   'achtzigste': 'numerale', // Ordinalzahl (2026-09-24)
   'andante': 'adverb', // Tempobezeichnung, Duden: Adverb (2026-09-25)

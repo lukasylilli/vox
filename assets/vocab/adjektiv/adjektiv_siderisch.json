@@ -1,0 +1,143 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_siderisch",
+  "wort": "siderisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "نجومی",
+      "وابسته به ستارگان"
+    ],
+    "en": [
+      "sidereal",
+      "astral"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Astronomie",
+    "Wissenschaft"
+  ],
+  "ipa": "ziˈdeːʁɪʃ",
+  "anmerkung": "Fachsprache der Astronomie: auf die Sterne bezogen (sideralischer Tag, siderische Zeit). Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "C1",
+      "satz": "Das siderische Jahr dauert etwas länger als das tropische Jahr.",
+      "uebersetzung": {
+        "fa": "سال نجومی کمی طولانی‌تر از سال حاره‌ای است.",
+        "en": "The sidereal year lasts slightly longer than the tropical year."
+      }
+    },
+    {
+      "niveau": "C2",
+      "satz": "Die siderische Umlaufzeit des Mondes beträgt etwa siebenundzwanzig Tage.",
+      "uebersetzung": {
+        "fa": "زمان گردش نجومی ماه حدود بیست‌وهفت روز است.",
+        "en": "The sidereal orbital period of the Moon is about twenty-seven days."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "astral",
+      "uebersetzung": {
+        "fa": "ستاره‌ای",
+        "en": "astral"
+      }
+    },
+    {
+      "wort": "sternbezogen",
+      "uebersetzung": {
+        "fa": "وابسته به ستاره",
+        "en": "star-related"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "tropisch",
+      "uebersetzung": {
+        "fa": "حاره‌ای",
+        "en": "tropical"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. sidereus (ستاره‌ای) ← sidus (ستاره)",
+    "en": "lat. sidereus (starry) ← sidus (star)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "siderisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "die siderische Zeit",
+      "ein siderisches Jahr"
+    ],
+    "gegensatzpaar": "siderisch ↔ tropisch"
+  },
+  "wortnetz": {
+    "grundwort": "Stern",
+    "woerter": [
+      {
+        "wort": "der Stern",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ستاره",
+          "en": "star"
+        },
+        "id_ref": "nomen_stern"
+      },
+      {
+        "wort": "die Astronomie",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نجوم",
+          "en": "astronomy"
+        },
+        "id_ref": "nomen_astronomie"
+      },
+      {
+        "wort": "der Umlauf",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گردش",
+          "en": "orbit"
+        },
+        "id_ref": "nomen_umlauf"
+      },
+      {
+        "wort": "tropisch",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حاره‌ای",
+          "en": "tropical"
+        },
+        "id_ref": "adjektiv_tropisch"
+      },
+      {
+        "wort": "der Mond",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ماه",
+          "en": "moon"
+        },
+        "id_ref": "nomen_mond"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

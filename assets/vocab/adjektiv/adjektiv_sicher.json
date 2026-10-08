@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_sicher",
+  "wort": "sicher",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "مطمئن",
+      "امن",
+      "بی‌خطر"
+    ],
+    "en": [
+      "safe",
+      "sure",
+      "certain"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Sicherheit",
+    "Gefühle"
+  ],
+  "ipa": "ˈzɪçɐ",
+  "anmerkung": "Häufig und vielseitig: 1. ohne Gefahr; 2. ohne Zweifel („Ich bin sicher“); auch Adverb: „Das stimmt sicher.“ = bestimmt. Man sagt: „sicher vor + Dat“, „sich sicher sein“.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Hier ist es sicher.",
+      "uebersetzung": {
+        "fa": "اینجا امن است.",
+        "en": "It is safe here."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich bin mir sicher, dass er heute kommt, weil er es fest versprochen hat.",
+      "uebersetzung": {
+        "fa": "من مطمئنم که او امروز می‌آید، چون به‌طور قطعی قول داده است.",
+        "en": "I am sure that he is coming today because he promised it firmly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "geschützt",
+      "uebersetzung": {
+        "fa": "محافظت‌شده",
+        "en": "protected"
+      }
+    },
+    {
+      "wort": "gewiss",
+      "uebersetzung": {
+        "fa": "مسلم",
+        "en": "certain"
+      }
+    },
+    {
+      "wort": "zuverlässig",
+      "uebersetzung": {
+        "fa": "قابل‌اعتماد",
+        "en": "reliable"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "unsicher",
+      "uebersetzung": {
+        "fa": "نامطمئن",
+        "en": "unsure"
+      }
+    },
+    {
+      "wort": "gefährlich",
+      "uebersetzung": {
+        "fa": "خطرناک",
+        "en": "dangerous"
+      }
+    },
+    {
+      "wort": "riskant",
+      "uebersetzung": {
+        "fa": "پرخطر",
+        "en": "risky"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mhd. sicher (بی‌خطر، بی‌دغدغه) ← lat. securus",
+    "en": "mhd. sicher (safe, carefree) ← lat. securus"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "sicher",
+      "komparativ": "sicherer",
+      "superlativ": "am sichersten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "sicher vor + Dat",
+        "beispiel": "Hier sind wir sicher vor dem Regen.",
+        "uebersetzung": {
+          "fa": "اینجا از باران در امانیم.",
+          "en": "Here we are safe from the rain."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein sicherer Ort",
+      "die sichere Antwort"
+    ],
+    "gegensatzpaar": "sicher ↔ unsicher"
+  },
+  "wortnetz": {
+    "grundwort": "Sicherheit",
+    "woerter": [
+      {
+        "wort": "die Sicherheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "امنیت، اطمینان",
+          "en": "safety"
+        },
+        "id_ref": "nomen_sicherheit"
+      },
+      {
+        "wort": "sichern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ایمن کردن",
+          "en": "to secure"
+        },
+        "id_ref": "verb_sichern"
+      },
+      {
+        "wort": "unsicher",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نامطمئن",
+          "en": "unsure"
+        },
+        "id_ref": "adjektiv_unsicher"
+      },
+      {
+        "wort": "gewiss",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مسلم",
+          "en": "certain"
+        },
+        "id_ref": "adjektiv_gewiss"
+      },
+      {
+        "wort": "zuverlässig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قابل‌اعتماد",
+          "en": "reliable"
+        },
+        "id_ref": "adjektiv_zuverlaessig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
