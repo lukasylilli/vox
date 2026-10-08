@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_sechseckig",
+  "wort": "sechseckig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "شش‌ضلعی",
+      "شش‌گوشه"
+    ],
+    "en": [
+      "hexagonal",
+      "six-sided"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Form",
+    "Mathematik"
+  ],
+  "ipa": "ˈzɛksˌʔɛkɪç",
+  "anmerkung": "Mit sechs Ecken; Fachwort „hexagonal“. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Die Schachtel hat eine sechseckige Form.",
+      "uebersetzung": {
+        "fa": "جعبه شکل شش‌ضلعی دارد.",
+        "en": "The box has a hexagonal shape."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bienenwaben bestehen aus sechseckigen Zellen, die den Platz besonders gut nutzen.",
+      "uebersetzung": {
+        "fa": "لانه‌ی زنبور عسل از سلول‌های شش‌ضلعی ساخته شده که فضا را بسیار خوب به کار می‌گیرند.",
+        "en": "Honeycombs consist of hexagonal cells that use the space especially well."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hexagonal",
+      "uebersetzung": {
+        "fa": "هگزاگونال",
+        "en": "hexagonal"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "rund",
+      "uebersetzung": {
+        "fa": "گرد",
+        "en": "round"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "sechs (شش) + Eck (گوشه) + -ig",
+    "en": "sechs (six) + Eck (corner) + -ig"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "sechseckig",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein sechseckiger Stein",
+      "die sechseckige Zelle"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Sechseck",
+    "woerter": [
+      {
+        "wort": "das Sechseck",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شش‌ضلعی",
+          "en": "hexagon"
+        },
+        "id_ref": "nomen_sechseck"
+      },
+      {
+        "wort": "die Ecke",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گوشه",
+          "en": "corner"
+        },
+        "id_ref": "nomen_ecke"
+      },
+      {
+        "wort": "viereckig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چهارگوش",
+          "en": "square"
+        },
+        "id_ref": "adjektiv_viereckig"
+      },
+      {
+        "wort": "achteckig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "هشت‌ضلعی",
+          "en": "octagonal"
+        },
+        "id_ref": "adjektiv_achteckig"
+      },
+      {
+        "wort": "die Biene",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زنبور",
+          "en": "bee"
+        },
+        "id_ref": "nomen_biene"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -563,6 +563,7 @@ const zurueckgestellt = <String>{
   'schwerkriegsbeschädigt', // historischer Amtsbegriff, unsicher 2026-10-08
   'schwerlötig', // Fachwort, sehr selten, unsicher 2026-10-08
   'sechsarmig', // Zusammensetzung, sehr selten, unsicher 2026-10-08
+  'seiden', // Materialadjektiv wie birken, unsicher 2026-10-08
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

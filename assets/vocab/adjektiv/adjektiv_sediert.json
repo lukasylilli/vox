@@ -1,0 +1,149 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_sediert",
+  "wort": "sediert",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "آرام‌بخش‌خورده",
+      "تحت آرام‌بخش"
+    ],
+    "en": [
+      "sedated"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Gesundheit"
+  ],
+  "ipa": "zeˈdiːɐ̯t",
+  "anmerkung": "Medizinisch: durch ein Beruhigungsmittel ruhiggestellt (Partizip II von „sedieren“). Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Der Patient war leicht sediert und schlief fast.",
+      "uebersetzung": {
+        "fa": "بیمار کمی تحت آرام‌بخش بود و تقریباً خواب بود.",
+        "en": "The patient was lightly sedated and almost asleep."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Das sedierte Tier wurde vorsichtig in den Transporter gehoben.",
+      "uebersetzung": {
+        "fa": "حیوان آرام‌شده با احتیاط به داخل وانت منتقل شد.",
+        "en": "The sedated animal was carefully lifted into the transporter."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "betäubt",
+      "uebersetzung": {
+        "fa": "بی‌حس",
+        "en": "anaesthetised"
+      }
+    },
+    {
+      "wort": "beruhigt",
+      "uebersetzung": {
+        "fa": "آرام‌شده",
+        "en": "calmed"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "wach",
+      "uebersetzung": {
+        "fa": "بیدار",
+        "en": "awake"
+      }
+    },
+    {
+      "wort": "munter",
+      "uebersetzung": {
+        "fa": "سرحال",
+        "en": "lively"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. sedare (آرام کردن) → sedieren → sediert",
+    "en": "lat. sedare (to calm) → sedieren → sediert"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "sediert",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein sedierter Patient",
+      "die sedierte Katze"
+    ],
+    "gegensatzpaar": "sediert ↔ wach"
+  },
+  "wortnetz": {
+    "grundwort": "sedieren",
+    "woerter": [
+      {
+        "wort": "sedieren",
+        "wortart": "verb",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "آرام کردن (دارویی)",
+          "en": "to sedate"
+        },
+        "id_ref": "verb_sedieren"
+      },
+      {
+        "wort": "das Beruhigungsmittel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آرام‌بخش",
+          "en": "sedative"
+        },
+        "id_ref": "nomen_beruhigungsmittel"
+      },
+      {
+        "wort": "die Narkose",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیهوشی",
+          "en": "anaesthesia"
+        },
+        "id_ref": "nomen_narkose"
+      },
+      {
+        "wort": "wach",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیدار",
+          "en": "awake"
+        },
+        "id_ref": "adjektiv_wach"
+      },
+      {
+        "wort": "der Patient",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "patient"
+        },
+        "id_ref": "nomen_patient"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
