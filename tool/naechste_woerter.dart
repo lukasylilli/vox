@@ -520,6 +520,11 @@ const zurueckgestellt = <String>{
   'rhomboedrisch', // Fachwort (Kristallografie), sehr selten, unsicher 2026-09-29
   'ridikül', // veraltet/bildungssprachlich, unsicher 2026-09-29
   'rodelfrei', // Wort nicht gesichert, unsicher 2026-10-08
+  'röntgenabsorbierend', // Fachwort, sehr selten, unsicher 2026-10-08
+  'rösch', // regional, unsicher, unsicher 2026-10-08
+  'romfreundlich', // Zusammensetzung, nicht gesichert, unsicher 2026-10-08
+  'rossig', // Fachwort, unsicher, unsicher 2026-10-08
+  'rostral', // Fachwort Anatomie, sehr selten, unsicher 2026-10-08
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

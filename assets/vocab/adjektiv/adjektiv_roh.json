@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_roh",
+  "wort": "roh",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "خام",
+      "خشن",
+      "نپخته"
+    ],
+    "en": [
+      "raw",
+      "crude",
+      "rough"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Essen",
+    "Alltag"
+  ],
+  "ipa": "ʁoː",
+  "anmerkung": "Mehrdeutig: ungekocht (rohes Fleisch), unbearbeitet (rohes Holz) oder grob und brutal (rohe Gewalt).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich esse kein rohes Fleisch.",
+      "uebersetzung": {
+        "fa": "من گوشت خام نمی‌خورم.",
+        "en": "I do not eat raw meat."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Tischler hat das rohe Holz zuerst geschliffen und dann lackiert.",
+      "uebersetzung": {
+        "fa": "نجار ابتدا چوب خام را سنباده زد و بعد لاک زد.",
+        "en": "The carpenter first sanded the raw wood and then varnished it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ungekocht",
+      "uebersetzung": {
+        "fa": "نپخته",
+        "en": "uncooked"
+      }
+    },
+    {
+      "wort": "unbearbeitet",
+      "uebersetzung": {
+        "fa": "فرآوری‌نشده",
+        "en": "unprocessed"
+      }
+    },
+    {
+      "wort": "brutal",
+      "uebersetzung": {
+        "fa": "وحشیانه",
+        "en": "brutal"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "gekocht",
+      "uebersetzung": {
+        "fa": "پخته",
+        "en": "cooked"
+      }
+    },
+    {
+      "wort": "gar",
+      "uebersetzung": {
+        "fa": "پخته",
+        "en": "done"
+      }
+    },
+    {
+      "wort": "zart",
+      "uebersetzung": {
+        "fa": "ظریف",
+        "en": "gentle"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "Rohkost",
+      "uebersetzung": {
+        "fa": "خوراکی خام",
+        "en": "raw vegetables"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "mhd. rô (ناپخته، خام)",
+    "en": "mhd. rô (uncooked, raw)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "roh",
+      "komparativ": "roher",
+      "superlativ": "am rohesten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein rohes Ei",
+      "die rohe Gewalt"
+    ],
+    "gegensatzpaar": "roh ↔ gekocht"
+  },
+  "wortnetz": {
+    "grundwort": "Rohkost",
+    "woerter": [
+      {
+        "wort": "die Rohkost",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خوراک خام",
+          "en": "raw food"
+        },
+        "id_ref": "nomen_rohkost"
+      },
+      {
+        "wort": "das Rohmaterial",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مواد خام",
+          "en": "raw material"
+        },
+        "id_ref": "nomen_rohmaterial"
+      },
+      {
+        "wort": "gekocht",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پخته",
+          "en": "cooked"
+        },
+        "id_ref": "adjektiv_gekocht"
+      },
+      {
+        "wort": "brutal",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وحشیانه",
+          "en": "brutal"
+        },
+        "id_ref": "adjektiv_brutal"
+      },
+      {
+        "wort": "die Rohheit",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خشونت",
+          "en": "brutality"
+        },
+        "id_ref": "nomen_rohheit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
