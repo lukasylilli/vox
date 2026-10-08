@@ -1,0 +1,152 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_salzhaltig",
+  "wort": "salzhaltig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "شور",
+      "دارای نمک"
+    ],
+    "en": [
+      "salty",
+      "containing salt",
+      "saline"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Natur",
+    "Chemie",
+    "Essen und Trinken"
+  ],
+  "ipa": "ˈzaltsˌhaltɪç",
+  "anmerkung": "Fachlich oder alltäglich: enthält Salz, z. B. Wasser, Boden oder Luft. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Das Meerwasser ist stark salzhaltig.",
+      "uebersetzung": {
+        "fa": "آب دریا بسیار شور است.",
+        "en": "Seawater is highly saline."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Salzhaltige Böden sind für viele Pflanzen schädlich und lassen sich schwer bewirtschaften.",
+      "uebersetzung": {
+        "fa": "خاک‌های شور برای بسیاری از گیاهان مضرند و کشت در آن‌ها دشوار است.",
+        "en": "Saline soils are harmful to many plants and are hard to farm."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "salzig",
+      "uebersetzung": {
+        "fa": "شور",
+        "en": "salty"
+      }
+    },
+    {
+      "wort": "salinisch",
+      "uebersetzung": {
+        "fa": "شورمانند",
+        "en": "saline"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "salzfrei",
+      "uebersetzung": {
+        "fa": "بدون نمک",
+        "en": "salt-free"
+      }
+    },
+    {
+      "wort": "süß",
+      "uebersetzung": {
+        "fa": "شیرین",
+        "en": "fresh (water)"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Salz (نمک) + haltig (دارای)",
+    "en": "Salz (salt) + haltig (containing)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "salzhaltig",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "salzhaltiges Wasser",
+      "die salzhaltige Luft"
+    ],
+    "gegensatzpaar": "salzhaltig ↔ salzfrei"
+  },
+  "wortnetz": {
+    "grundwort": "Salz",
+    "woerter": [
+      {
+        "wort": "das Salz",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نمک",
+          "en": "salt"
+        },
+        "id_ref": "nomen_salz"
+      },
+      {
+        "wort": "salzig",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شور",
+          "en": "salty"
+        },
+        "id_ref": "adjektiv_salzig"
+      },
+      {
+        "wort": "das Meerwasser",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آب دریا",
+          "en": "seawater"
+        },
+        "id_ref": "nomen_meerwasser"
+      },
+      {
+        "wort": "der Boden",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خاک، زمین",
+          "en": "soil"
+        },
+        "id_ref": "nomen_boden"
+      },
+      {
+        "wort": "salzfrei",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بدون نمک",
+          "en": "salt-free"
+        },
+        "id_ref": "adjektiv_salzfrei"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

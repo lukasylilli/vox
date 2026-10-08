@@ -531,6 +531,9 @@ const zurueckgestellt = <String>{
   'rüstern', // Materialadjektiv wie birken, unsicher 2026-10-08
   'runtergerockt', // umgangssprachlich, Eintrag unsicher, unsicher 2026-10-08
   'sackleinen', // Materialadjektiv wie birken, unsicher 2026-10-08
+  'salpeterhaltig', // Fachkompositum, unsicher, unsicher 2026-10-08
+  'salzburgerisch', // ungebräuchliche Nebenform, unsicher 2026-10-08
+  'samten', // Materialadjektiv wie birken, unsicher 2026-10-08
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
