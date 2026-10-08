@@ -1,0 +1,160 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_satt",
+  "wort": "satt",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "سیر",
+      "پر",
+      "پرمایه"
+    ],
+    "en": [
+      "full",
+      "satisfied",
+      "rich (colour)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Essen und Trinken",
+    "Farben",
+    "Alltag"
+  ],
+  "ipa": "zat",
+  "anmerkung": "Mehrere Bedeutungen: nach dem Essen nicht mehr hungrig; bei Farben „kräftig“ („ein sattes Grün“). Umgangssprachlich: „etwas satt haben“ = genug davon haben.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich bin satt, danke.",
+      "uebersetzung": {
+        "fa": "سیرم، ممنون.",
+        "en": "I am full, thank you."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nach dem großen Essen waren alle so satt, dass niemand mehr einen Nachtisch wollte.",
+      "uebersetzung": {
+        "fa": "بعد از غذای بزرگ همه آن‌قدر سیر بودند که کسی دیگر دسر نمی‌خواست.",
+        "en": "After the big meal everyone was so full that nobody wanted a dessert any more."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gesättigt",
+      "uebersetzung": {
+        "fa": "سیرشده",
+        "en": "satiated"
+      }
+    },
+    {
+      "wort": "kräftig",
+      "uebersetzung": {
+        "fa": "پررنگ",
+        "en": "rich"
+      }
+    },
+    {
+      "wort": "voll",
+      "uebersetzung": {
+        "fa": "پر",
+        "en": "full"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hungrig",
+      "uebersetzung": {
+        "fa": "گرسنه",
+        "en": "hungry"
+      }
+    },
+    {
+      "wort": "blass",
+      "uebersetzung": {
+        "fa": "کم‌رنگ",
+        "en": "pale"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mhd. sat (سیر، پر) ← ahd. sat",
+    "en": "mhd. sat (full, sated) ← ahd. sat"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "satt",
+      "komparativ": "satter",
+      "superlativ": "am sattesten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein sattes Grün",
+      "die satte Farbe"
+    ],
+    "gegensatzpaar": "satt ↔ hungrig"
+  },
+  "wortnetz": {
+    "grundwort": "sättigen",
+    "woerter": [
+      {
+        "wort": "sättigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سیر کردن",
+          "en": "to satisfy"
+        },
+        "id_ref": "verb_saettigen"
+      },
+      {
+        "wort": "die Sättigung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سیری",
+          "en": "satiation"
+        },
+        "id_ref": "nomen_saettigung"
+      },
+      {
+        "wort": "hungrig",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گرسنه",
+          "en": "hungry"
+        },
+        "id_ref": "adjektiv_hungrig"
+      },
+      {
+        "wort": "der Hunger",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گرسنگی",
+          "en": "hunger"
+        },
+        "id_ref": "nomen_hunger"
+      },
+      {
+        "wort": "kräftig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قوی، پررنگ",
+          "en": "strong"
+        },
+        "id_ref": "adjektiv_kraeftig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

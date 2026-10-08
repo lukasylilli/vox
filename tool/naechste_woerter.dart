@@ -534,6 +534,9 @@ const zurueckgestellt = <String>{
   'salpeterhaltig', // Fachkompositum, unsicher, unsicher 2026-10-08
   'salzburgerisch', // ungebräuchliche Nebenform, unsicher 2026-10-08
   'samten', // Materialadjektiv wie birken, unsicher 2026-10-08
+  'saphiren', // Materialadjektiv wie birken, unsicher 2026-10-08
+  'satzwertig', // Fachwort Linguistik, unsicher, unsicher 2026-10-08
+  'saubillig', // umgangssprachlich, unsicher, unsicher 2026-10-08
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

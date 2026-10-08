@@ -1,0 +1,160 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_sauber",
+  "wort": "sauber",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "تمیز",
+      "پاک",
+      "مرتب"
+    ],
+    "en": [
+      "clean",
+      "neat",
+      "tidy"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Haushalt",
+    "Alltag",
+    "Hygiene"
+  ],
+  "ipa": "ˈzaʊ̯bɐ",
+  "anmerkung": "Auch bildlich: eine „saubere Arbeit“ = sorgfältig; ironisch: „Das ist ja sauber!“ = nicht gut.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Die Küche ist sauber.",
+      "uebersetzung": {
+        "fa": "آشپزخانه تمیز است.",
+        "en": "The kitchen is clean."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bitte halte das Badezimmer sauber, damit es keine Probleme mit Schimmel gibt.",
+      "uebersetzung": {
+        "fa": "لطفاً حمام را تمیز نگه دار تا مشکل کپک پیش نیاید.",
+        "en": "Please keep the bathroom clean so that there are no problems with mould."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rein",
+      "uebersetzung": {
+        "fa": "پاک",
+        "en": "pure"
+      }
+    },
+    {
+      "wort": "ordentlich",
+      "uebersetzung": {
+        "fa": "مرتب",
+        "en": "tidy"
+      }
+    },
+    {
+      "wort": "gepflegt",
+      "uebersetzung": {
+        "fa": "آراسته",
+        "en": "well-kept"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "schmutzig",
+      "uebersetzung": {
+        "fa": "کثیف",
+        "en": "dirty"
+      }
+    },
+    {
+      "wort": "dreckig",
+      "uebersetzung": {
+        "fa": "چرک",
+        "en": "filthy"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mhd. sûber (پاک، زیبا) ← lat. sobrius (هشیار، معتدل)",
+    "en": "mhd. sûber (clean, beautiful) ← lat. sobrius (sober)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "sauber",
+      "komparativ": "sauberer",
+      "superlativ": "am saubersten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein sauberes Zimmer",
+      "die saubere Wäsche"
+    ],
+    "gegensatzpaar": "sauber ↔ schmutzig"
+  },
+  "wortnetz": {
+    "grundwort": "Sauberkeit",
+    "woerter": [
+      {
+        "wort": "die Sauberkeit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پاکیزگی",
+          "en": "cleanliness"
+        },
+        "id_ref": "nomen_sauberkeit"
+      },
+      {
+        "wort": "säubern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تمیز کردن",
+          "en": "to clean"
+        },
+        "id_ref": "verb_saeubern"
+      },
+      {
+        "wort": "schmutzig",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کثیف",
+          "en": "dirty"
+        },
+        "id_ref": "adjektiv_schmutzig"
+      },
+      {
+        "wort": "rein",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پاک",
+          "en": "pure"
+        },
+        "id_ref": "adjektiv_rein"
+      },
+      {
+        "wort": "putzen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تمیز کردن",
+          "en": "to clean"
+        },
+        "id_ref": "verb_putzen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
