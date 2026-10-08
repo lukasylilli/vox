@@ -585,6 +585,10 @@ const zurueckgestellt = <String>{
   'sodomitisch', // veraltet/heikel, Entscheidung Lukas, unsicher 2026-10-08
   'solarthermisch', // Fachkompositum, unsicher, unsicher 2026-10-08
   'solenn', // sehr selten, unsicher, unsicher 2026-10-08
+  'sozioökologisch', // Fachkompositum, unsicher, unsicher 2026-10-08
+  'spack', // regional, unsicher, unsicher 2026-10-08
+  'spackig', // regional, unsicher, unsicher 2026-10-08
+  'spätmittelhochdeutsch', // Fachwort, unsicher, unsicher 2026-10-08
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

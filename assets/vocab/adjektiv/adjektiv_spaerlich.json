@@ -1,0 +1,160 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_spaerlich",
+  "wort": "spärlich",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "اندک",
+      "ناچیز",
+      "کم‌پشت"
+    ],
+    "en": [
+      "sparse",
+      "scanty",
+      "meagre"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Menge",
+    "Natur",
+    "Alltag"
+  ],
+  "ipa": "ˈʃpɛːɐ̯lɪç",
+  "anmerkung": "Nur in geringer Menge vorhanden; auch Adverb: „spärlich bekleidet“.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Auf dem Berg wächst nur spärliche Vegetation.",
+      "uebersetzung": {
+        "fa": "در کوه فقط پوشش گیاهی اندکی می‌روید.",
+        "en": "Only sparse vegetation grows on the mountain."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Informationen über den Unfall waren zunächst nur spärlich, sodass niemand Genaues wusste.",
+      "uebersetzung": {
+        "fa": "اطلاعات درباره‌ی تصادف در ابتدا فقط اندک بود و کسی چیز دقیقی نمی‌دانست.",
+        "en": "The information about the accident was at first only scanty, so nobody knew anything precise."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "dürftig",
+      "uebersetzung": {
+        "fa": "ناچیز",
+        "en": "meagre"
+      }
+    },
+    {
+      "wort": "knapp",
+      "uebersetzung": {
+        "fa": "کم",
+        "en": "scarce"
+      }
+    },
+    {
+      "wort": "schütter",
+      "uebersetzung": {
+        "fa": "کم‌پشت",
+        "en": "thin"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "reichlich",
+      "uebersetzung": {
+        "fa": "فراوان",
+        "en": "abundant"
+      }
+    },
+    {
+      "wort": "üppig",
+      "uebersetzung": {
+        "fa": "انبوه",
+        "en": "lush"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mhd. spärlich (صرفه‌جو، کم) ← sparen",
+    "en": "mhd. spärlich (thrifty, scanty) ← sparen"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "spärlich",
+      "komparativ": "spärlicher",
+      "superlativ": "am spärlichsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "spärliches Licht",
+      "die spärliche Nahrung"
+    ],
+    "gegensatzpaar": "spärlich ↔ reichlich"
+  },
+  "wortnetz": {
+    "grundwort": "sparen",
+    "woerter": [
+      {
+        "wort": "sparen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پس‌انداز کردن",
+          "en": "to save"
+        },
+        "id_ref": "verb_sparen"
+      },
+      {
+        "wort": "dürftig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ناچیز",
+          "en": "meagre"
+        },
+        "id_ref": "adjektiv_duerftig"
+      },
+      {
+        "wort": "reichlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فراوان",
+          "en": "abundant"
+        },
+        "id_ref": "adjektiv_reichlich"
+      },
+      {
+        "wort": "knapp",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کم",
+          "en": "scarce"
+        },
+        "id_ref": "adjektiv_knapp"
+      },
+      {
+        "wort": "die Vegetation",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پوشش گیاهی",
+          "en": "vegetation"
+        },
+        "id_ref": "nomen_vegetation"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

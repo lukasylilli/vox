@@ -1,0 +1,158 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_spaet",
+  "wort": "spät",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "دیر",
+      "دیرهنگام",
+      "پایانی"
+    ],
+    "en": [
+      "late",
+      "belated"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Zeit",
+    "Alltag"
+  ],
+  "ipa": "ʃpɛːt",
+  "anmerkung": "Auch Adverb: „spät ankommen“. Auch „später“ als Komparativ (nach dem jetzigen Zeitpunkt). Gegenteil: „früh“.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Es ist schon spät.",
+      "uebersetzung": {
+        "fa": "دیر شده است.",
+        "en": "It is already late."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wegen des Staus kam der Zug sehr spät an und wir verpassten den Anschluss.",
+      "uebersetzung": {
+        "fa": "به‌خاطر ترافیک قطار خیلی دیر رسید و ما ارتباط بعدی را از دست دادیم.",
+        "en": "Because of the traffic jam the train arrived very late and we missed our connection."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verspätet",
+      "uebersetzung": {
+        "fa": "با تأخیر",
+        "en": "delayed"
+      }
+    },
+    {
+      "wort": "fortgeschritten",
+      "uebersetzung": {
+        "fa": "پیشرفته",
+        "en": "advanced"
+      }
+    },
+    {
+      "wort": "abendlich",
+      "uebersetzung": {
+        "fa": "شبانگاهی",
+        "en": "evening"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "früh",
+      "uebersetzung": {
+        "fa": "زود",
+        "en": "early"
+      }
+    },
+    {
+      "wort": "rechtzeitig",
+      "uebersetzung": {
+        "fa": "به‌موقع",
+        "en": "on time"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mhd. spæte (دیر، کند) ← ahd. spato",
+    "en": "mhd. spæte (late, slow) ← ahd. spato"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "spät",
+      "komparativ": "später",
+      "superlativ": "am spätesten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein später Zug",
+      "die späte Stunde"
+    ],
+    "gegensatzpaar": "spät ↔ früh"
+  },
+  "wortnetz": {
+    "grundwort": "Verspätung",
+    "woerter": [
+      {
+        "wort": "die Verspätung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تأخیر",
+          "en": "delay"
+        },
+        "id_ref": "nomen_verspaetung"
+      },
+      {
+        "wort": "verspätet",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "با تأخیر",
+          "en": "delayed"
+        },
+        "id_ref": "adjektiv_verspaetet"
+      },
+      {
+        "wort": "früh",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زود",
+          "en": "early"
+        },
+        "id_ref": "adjektiv_frueh"
+      },
+      {
+        "wort": "später",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بعداً",
+          "en": "later"
+        },
+        "id_ref": "adverb_spaeter"
+      },
+      {
+        "wort": "der Abend",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عصر",
+          "en": "evening"
+        },
+        "id_ref": "nomen_abend"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
