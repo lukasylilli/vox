@@ -564,6 +564,9 @@ const zurueckgestellt = <String>{
   'schwerlötig', // Fachwort, sehr selten, unsicher 2026-10-08
   'sechsarmig', // Zusammensetzung, sehr selten, unsicher 2026-10-08
   'seiden', // Materialadjektiv wie birken, unsicher 2026-10-08
+  'seiger', // Bergbau-Fachwort, selten, unsicher 2026-10-08
+  'seimig', // regional, unsicher, unsicher 2026-10-08
+  'sekkant', // österr. umgangssprachlich, unsicher, unsicher 2026-10-08
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

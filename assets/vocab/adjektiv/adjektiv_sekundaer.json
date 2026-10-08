@@ -1,0 +1,159 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_sekundaer",
+  "wort": "sekundär",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "ثانویه",
+      "فرعی",
+      "درجه‌دوم"
+    ],
+    "en": [
+      "secondary",
+      "minor"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft",
+    "Wirtschaft",
+    "Medizin"
+  ],
+  "ipa": "zekʊnˈdɛːɐ̯",
+  "anmerkung": "Nicht an erster Stelle, nachrangig: „ein sekundäres Ziel“; in der Medizin: „sekundäre Erkrankung“. Wird kaum gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Für mich ist das nur eine sekundäre Frage.",
+      "uebersetzung": {
+        "fa": "برای من این فقط یک پرسش فرعی است.",
+        "en": "For me that is only a secondary question."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Neben der primären Wirkung des Medikaments traten auch sekundäre Effekte auf, die beobachtet werden mussten.",
+      "uebersetzung": {
+        "fa": "در کنار اثر اصلی دارو اثرات ثانویه‌ای هم ظاهر شد که باید زیر نظر گرفته می‌شد.",
+        "en": "Besides the primary effect of the medicine, secondary effects also occurred which had to be monitored."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nebensächlich",
+      "uebersetzung": {
+        "fa": "کم‌اهمیت",
+        "en": "minor"
+      }
+    },
+    {
+      "wort": "zweitrangig",
+      "uebersetzung": {
+        "fa": "درجه‌دوم",
+        "en": "second-rate"
+      }
+    },
+    {
+      "wort": "untergeordnet",
+      "uebersetzung": {
+        "fa": "فرعی",
+        "en": "subordinate"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "primär",
+      "uebersetzung": {
+        "fa": "اولیه",
+        "en": "primary"
+      }
+    },
+    {
+      "wort": "wesentlich",
+      "uebersetzung": {
+        "fa": "اصلی",
+        "en": "essential"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. secundarius (دومین) → sekundär",
+    "en": "lat. secundarius (second) → sekundär"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "sekundär",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein sekundäres Ziel",
+      "die sekundäre Bedeutung"
+    ],
+    "gegensatzpaar": "sekundär ↔ primär"
+  },
+  "wortnetz": {
+    "grundwort": "Sekundärliteratur",
+    "woerter": [
+      {
+        "wort": "primär",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اولیه",
+          "en": "primary"
+        },
+        "id_ref": "adjektiv_primaer"
+      },
+      {
+        "wort": "nebensächlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کم‌اهمیت",
+          "en": "minor"
+        },
+        "id_ref": "adjektiv_nebensaechlich"
+      },
+      {
+        "wort": "zweitrangig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "درجه‌دوم",
+          "en": "second-rate"
+        },
+        "id_ref": "adjektiv_zweitrangig"
+      },
+      {
+        "wort": "die Sekundärliteratur",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "منابع ثانویه",
+          "en": "secondary literature"
+        },
+        "id_ref": "nomen_sekundaerliteratur"
+      },
+      {
+        "wort": "die Wirkung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اثر",
+          "en": "effect"
+        },
+        "id_ref": "nomen_wirkung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

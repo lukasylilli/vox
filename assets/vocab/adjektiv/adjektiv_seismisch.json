@@ -1,0 +1,128 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_seismisch",
+  "wort": "seismisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "لرزه‌ای",
+      "زمین‌لرزه‌ای"
+    ],
+    "en": [
+      "seismic"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Geologie",
+    "Naturkatastrophen",
+    "Wissenschaft"
+  ],
+  "ipa": "ˈzaɪ̯smɪʃ",
+  "anmerkung": "Fachsprache der Geologie: zu Erdbeben und Erdschwingungen gehörend. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Die seismische Aktivität in der Region hat stark zugenommen.",
+      "uebersetzung": {
+        "fa": "فعالیت لرزه‌ای در منطقه به‌شدت افزایش یافته است.",
+        "en": "Seismic activity in the region has increased sharply."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Mit seismischen Messungen kann man Erdbeben früh erkennen und die Bevölkerung warnen.",
+      "uebersetzung": {
+        "fa": "با اندازه‌گیری‌های لرزه‌ای می‌توان زمین‌لرزه را زود شناخت و مردم را هشدار داد.",
+        "en": "With seismic measurements earthquakes can be detected early and the population warned."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erdbebenbedingt",
+      "uebersetzung": {
+        "fa": "ناشی از زلزله",
+        "en": "earthquake-related"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "gr. seismos (تکان، زلزله) + -isch",
+    "en": "gr. seismos (shaking, earthquake) + -isch"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "seismisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "seismische Wellen",
+      "die seismische Aktivität"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Erdbeben",
+    "woerter": [
+      {
+        "wort": "das Erdbeben",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زمین‌لرزه",
+          "en": "earthquake"
+        },
+        "id_ref": "nomen_erdbeben"
+      },
+      {
+        "wort": "die Welle",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "موج",
+          "en": "wave"
+        },
+        "id_ref": "nomen_welle"
+      },
+      {
+        "wort": "der Seismograf",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "لرزه‌نگار",
+          "en": "seismograph"
+        },
+        "id_ref": "nomen_seismograf"
+      },
+      {
+        "wort": "die Erde",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زمین",
+          "en": "earth"
+        },
+        "id_ref": "nomen_erde"
+      },
+      {
+        "wort": "die Geologie",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زمین‌شناسی",
+          "en": "geology"
+        },
+        "id_ref": "nomen_geologie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
