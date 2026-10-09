@@ -612,6 +612,13 @@ const zurueckgestellt = <String>{
   'stomachal', // medizinisches Fachwort, sehr selten, unsicher 2026-10-08
   'stotterig', // umgangssprachlich, unsicher, unsicher 2026-10-08
   'stottrig', // umgangssprachlich, unsicher, unsicher 2026-10-08
+  'strack', // regional/veraltet, unsicher, unsicher 2026-10-08
+  'strafbewehrt', // juristisch, selten, unsicher 2026-10-08
+  'strafmindernd', // ungebräuchliche Nebenform, unsicher 2026-10-08
+  'strafverdächtig', // juristisch, unsicher, unsicher 2026-10-08
+  'straßenköterblond', // umgangssprachlich/abwertend, Entscheidung Lukas, unsicher 2026-10-08
+  'streitbefangen', // juristisch, selten, unsicher 2026-10-08
+  'stressresistent', // Neubildung, unsicher, unsicher 2026-10-08
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

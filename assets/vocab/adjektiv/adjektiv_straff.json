@@ -1,0 +1,161 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_straff",
+  "wort": "straff",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "کشیده",
+      "سفت",
+      "منضبط"
+    ],
+    "en": [
+      "taut",
+      "tight",
+      "firm",
+      "strict"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Körper",
+    "Organisation",
+    "Technik"
+  ],
+  "ipa": "ʃtʁaf",
+  "anmerkung": "Fest gespannt (straffes Seil, straffe Haut) oder streng organisiert („straffer Zeitplan“).",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Das Seil muss straff gespannt sein.",
+      "uebersetzung": {
+        "fa": "طناب باید محکم کشیده شود.",
+        "en": "The rope must be pulled taut."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wir haben einen straffen Zeitplan und keine Minute zu verlieren.",
+      "uebersetzung": {
+        "fa": "ما برنامه‌ی زمانی فشرده‌ای داریم و حتی یک دقیقه را هم نباید از دست بدهیم.",
+        "en": "We have a tight schedule and no minute to lose."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gespannt",
+      "uebersetzung": {
+        "fa": "کشیده",
+        "en": "tensed"
+      }
+    },
+    {
+      "wort": "fest",
+      "uebersetzung": {
+        "fa": "محکم",
+        "en": "firm"
+      }
+    },
+    {
+      "wort": "streng",
+      "uebersetzung": {
+        "fa": "سخت‌گیر",
+        "en": "strict"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "schlaff",
+      "uebersetzung": {
+        "fa": "شل",
+        "en": "slack"
+      }
+    },
+    {
+      "wort": "locker",
+      "uebersetzung": {
+        "fa": "شل",
+        "en": "loose"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mhd. straf (کشیده، سفت)",
+    "en": "mhd. straf (taut, tight)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "straff",
+      "komparativ": "straffer",
+      "superlativ": "am straffsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein straffer Zeitplan",
+      "die straffe Haut"
+    ],
+    "gegensatzpaar": "straff ↔ schlaff"
+  },
+  "wortnetz": {
+    "grundwort": "straffen",
+    "woerter": [
+      {
+        "wort": "straffen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سفت کردن",
+          "en": "to tighten"
+        },
+        "id_ref": "verb_straffen"
+      },
+      {
+        "wort": "schlaff",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شل",
+          "en": "slack"
+        },
+        "id_ref": "adjektiv_schlaff"
+      },
+      {
+        "wort": "locker",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شل",
+          "en": "loose"
+        },
+        "id_ref": "adjektiv_locker"
+      },
+      {
+        "wort": "der Zeitplan",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برنامه‌ی زمانی",
+          "en": "schedule"
+        },
+        "id_ref": "nomen_zeitplan"
+      },
+      {
+        "wort": "das Seil",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "طناب",
+          "en": "rope"
+        },
+        "id_ref": "nomen_seil"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,148 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_strafverschaerfend",
+  "wort": "strafverschärfend",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "مشدده",
+      "افزایش‌دهنده‌ی مجازات"
+    ],
+    "en": [
+      "aggravating"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Recht"
+  ],
+  "ipa": "ˈʃtʁaːffɛɐ̯ˌʃɛʁfn̩t",
+  "anmerkung": "Fachsprache des Strafrechts: Umstände, die zu einer höheren Strafe führen. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "C1",
+      "satz": "Die Brutalität der Tat wirkte strafverschärfend.",
+      "uebersetzung": {
+        "fa": "وحشیگری جرم به‌عنوان عامل مشدده اثر گذاشت.",
+        "en": "The brutality of the act had an aggravating effect."
+      }
+    },
+    {
+      "niveau": "C2",
+      "satz": "Als strafverschärfend wertete das Gericht, dass der Täter bereits mehrfach vorbestraft war.",
+      "uebersetzung": {
+        "fa": "دادگاه این را عامل مشدده دانست که مجرم پیش‌تر چند بار سابقه‌ی محکومیت داشت.",
+        "en": "The court considered it aggravating that the offender already had several previous convictions."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "belastend",
+      "uebersetzung": {
+        "fa": "اتهامی",
+        "en": "incriminating"
+      }
+    },
+    {
+      "wort": "erschwerend",
+      "uebersetzung": {
+        "fa": "مشدده",
+        "en": "aggravating"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "strafmildernd",
+      "uebersetzung": {
+        "fa": "مخففه",
+        "en": "mitigating"
+      }
+    },
+    {
+      "wort": "entlastend",
+      "uebersetzung": {
+        "fa": "تبرئه‌کننده",
+        "en": "exonerating"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Strafe (مجازات) + verschärfen (شدیدتر کردن) + -end",
+    "en": "Strafe (punishment) + verschärfen (to aggravate) + -end"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "strafverschärfend",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "strafverschärfende Umstände",
+      "strafverschärfend wirken"
+    ],
+    "gegensatzpaar": "strafverschärfend ↔ strafmildernd"
+  },
+  "wortnetz": {
+    "grundwort": "Strafe",
+    "woerter": [
+      {
+        "wort": "die Strafe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مجازات",
+          "en": "punishment"
+        },
+        "id_ref": "nomen_strafe"
+      },
+      {
+        "wort": "verschärfen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شدیدتر کردن",
+          "en": "to aggravate"
+        },
+        "id_ref": "verb_verschaerfen"
+      },
+      {
+        "wort": "strafmildernd",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "مخففه",
+          "en": "mitigating"
+        },
+        "id_ref": "adjektiv_strafmildernd"
+      },
+      {
+        "wort": "das Gericht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دادگاه",
+          "en": "court"
+        },
+        "id_ref": "nomen_gericht"
+      },
+      {
+        "wort": "der Täter",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مجرم",
+          "en": "offender"
+        },
+        "id_ref": "nomen_taeter"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
