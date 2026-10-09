@@ -1,0 +1,151 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_steigerbar",
+  "wort": "steigerbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "قابل‌افزایش",
+      "تفضیل‌پذیر"
+    ],
+    "en": [
+      "increasable",
+      "comparable (grammar)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Grammatik",
+    "Wirtschaft",
+    "Sport"
+  ],
+  "ipa": "ˈʃtaɪ̯ɡɐbaːɐ̯",
+  "anmerkung": "Kann erhöht werden; in der Grammatik: Adjektive, die einen Komparativ bilden können („groß, größer“). Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Nicht jedes Adjektiv ist steigerbar, zum Beispiel „tot“ oder „schwanger“.",
+      "uebersetzung": {
+        "fa": "هر صفتی قابل تفضیل نیست، مثلاً «مرده» یا «باردار».",
+        "en": "Not every adjective can be compared, for example “dead” or “pregnant”."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Die Leistung des Motors ist noch steigerbar, wenn man ihn richtig einstellt.",
+      "uebersetzung": {
+        "fa": "کارایی موتور هنوز قابل افزایش است اگر درست تنظیمش کنند.",
+        "en": "The engine’s performance can still be increased if it is set correctly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erhöhbar",
+      "uebersetzung": {
+        "fa": "افزایش‌پذیر",
+        "en": "increasable"
+      }
+    },
+    {
+      "wort": "ausbaufähig",
+      "uebersetzung": {
+        "fa": "قابل‌توسعه",
+        "en": "expandable"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "unsteigerbar",
+      "uebersetzung": {
+        "fa": "تفضیل‌ناپذیر",
+        "en": "non-comparable"
+      }
+    },
+    {
+      "wort": "begrenzt",
+      "uebersetzung": {
+        "fa": "محدود",
+        "en": "limited"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "steigern (افزایش دادن) + -bar",
+    "en": "steigern (to increase) + -bar"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "steigerbar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein steigerbares Adjektiv",
+      "die steigerbare Leistung"
+    ],
+    "gegensatzpaar": "steigerbar ↔ unsteigerbar"
+  },
+  "wortnetz": {
+    "grundwort": "Steigerung",
+    "woerter": [
+      {
+        "wort": "die Steigerung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تفضیل، افزایش",
+          "en": "comparison, increase"
+        },
+        "id_ref": "nomen_steigerung"
+      },
+      {
+        "wort": "steigern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "افزایش دادن",
+          "en": "to increase"
+        },
+        "id_ref": "verb_steigern"
+      },
+      {
+        "wort": "der Komparativ",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صفت تفضیلی",
+          "en": "comparative"
+        },
+        "id_ref": "nomen_komparativ"
+      },
+      {
+        "wort": "das Adjektiv",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صفت",
+          "en": "adjective"
+        },
+        "id_ref": "nomen_adjektiv"
+      },
+      {
+        "wort": "die Leistung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کارایی",
+          "en": "performance"
+        },
+        "id_ref": "nomen_leistung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

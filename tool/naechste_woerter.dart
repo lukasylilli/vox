@@ -600,6 +600,8 @@ const zurueckgestellt = <String>{
   'spritig', // regional/selten, unsicher, unsicher 2026-10-08
   'stählern', // Materialadjektiv wie birken, unsicher 2026-10-08
   'stärkehaltig', // Fachkompositum, unsicher, unsicher 2026-10-08
+  'statutarisch', // juristisches Fachwort, selten, unsicher 2026-10-08
+  'steinern', // Materialadjektiv wie birken, unsicher 2026-10-08
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

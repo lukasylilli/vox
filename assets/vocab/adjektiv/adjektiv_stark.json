@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_stark",
+  "wort": "stark",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "قوی",
+      "نیرومند",
+      "شدید"
+    ],
+    "en": [
+      "strong",
+      "powerful",
+      "heavy"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Körper",
+    "Charakter",
+    "Wetter",
+    "Alltag"
+  ],
+  "ipa": "ʃtaʁk",
+  "anmerkung": "Sehr vielseitig: Kraft (starker Mann), Intensität (starker Regen), Qualität (umgangssprachlich: „Das ist stark!“ = toll). Man sagt: „stark in + Dat“.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Er ist sehr stark.",
+      "uebersetzung": {
+        "fa": "او بسیار قوی است.",
+        "en": "He is very strong."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wegen des starken Regens wurde das Fußballspiel abgesagt.",
+      "uebersetzung": {
+        "fa": "به‌خاطر باران شدید مسابقه‌ی فوتبال لغو شد.",
+        "en": "Because of the heavy rain the football match was cancelled."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kräftig",
+      "uebersetzung": {
+        "fa": "نیرومند",
+        "en": "powerful"
+      }
+    },
+    {
+      "wort": "mächtig",
+      "uebersetzung": {
+        "fa": "توانا",
+        "en": "mighty"
+      }
+    },
+    {
+      "wort": "heftig",
+      "uebersetzung": {
+        "fa": "شدید",
+        "en": "intense"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "schwach",
+      "uebersetzung": {
+        "fa": "ضعیف",
+        "en": "weak"
+      }
+    },
+    {
+      "wort": "leicht",
+      "uebersetzung": {
+        "fa": "سبک",
+        "en": "light"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mhd. starc (سخت، قوی)",
+    "en": "mhd. starc (hard, strong)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "stark",
+      "komparativ": "stärker",
+      "superlativ": "am stärksten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "stark in + Dat",
+        "beispiel": "Sie ist stark in Mathematik.",
+        "uebersetzung": {
+          "fa": "او در ریاضی قوی است.",
+          "en": "She is strong in mathematics."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein starker Wind",
+      "die starke Frau"
+    ],
+    "gegensatzpaar": "stark ↔ schwach"
+  },
+  "wortnetz": {
+    "grundwort": "Stärke",
+    "woerter": [
+      {
+        "wort": "die Stärke",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قدرت",
+          "en": "strength"
+        },
+        "id_ref": "nomen_staerke"
+      },
+      {
+        "wort": "stärken",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تقویت کردن",
+          "en": "to strengthen"
+        },
+        "id_ref": "verb_staerken"
+      },
+      {
+        "wort": "schwach",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ضعیف",
+          "en": "weak"
+        },
+        "id_ref": "adjektiv_schwach"
+      },
+      {
+        "wort": "kräftig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نیرومند",
+          "en": "powerful"
+        },
+        "id_ref": "adjektiv_kraeftig"
+      },
+      {
+        "wort": "mächtig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "توانا",
+          "en": "mighty"
+        },
+        "id_ref": "adjektiv_maechtig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

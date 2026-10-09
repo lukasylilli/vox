@@ -1,0 +1,153 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_stationaer",
+  "wort": "stationär",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "بستری",
+      "ثابت",
+      "ایستا"
+    ],
+    "en": [
+      "inpatient",
+      "stationary",
+      "fixed"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Medizin",
+    "Technik",
+    "Wirtschaft"
+  ],
+  "ipa": "ʃtatsi̯oˈnɛːɐ̯",
+  "anmerkung": "In der Medizin: mit Übernachtung im Krankenhaus („stationär aufgenommen“), Gegenteil von „ambulant“; allgemein: an einem festen Ort. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Der Patient wurde stationär aufgenommen.",
+      "uebersetzung": {
+        "fa": "بیمار بستری شد.",
+        "en": "The patient was admitted as an inpatient."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Neben der stationären Behandlung bietet die Klinik auch ambulante Termine an.",
+      "uebersetzung": {
+        "fa": "بیمارستان در کنار درمان بستری، نوبت‌های سرپایی هم ارائه می‌دهد.",
+        "en": "Besides inpatient treatment the clinic also offers outpatient appointments."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ortsfest",
+      "uebersetzung": {
+        "fa": "ثابت",
+        "en": "fixed"
+      }
+    },
+    {
+      "wort": "feststehend",
+      "uebersetzung": {
+        "fa": "ایستا",
+        "en": "stationary"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ambulant",
+      "uebersetzung": {
+        "fa": "سرپایی",
+        "en": "outpatient"
+      }
+    },
+    {
+      "wort": "mobil",
+      "uebersetzung": {
+        "fa": "سیار",
+        "en": "mobile"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. stationarius (ایستا) ← statio (ایستگاه)",
+    "en": "lat. stationarius (stationary) ← statio (station)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "stationär",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine stationäre Behandlung",
+      "der stationäre Handel"
+    ],
+    "gegensatzpaar": "stationär ↔ ambulant"
+  },
+  "wortnetz": {
+    "grundwort": "Station",
+    "woerter": [
+      {
+        "wort": "die Station",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بخش، ایستگاه",
+          "en": "ward, station"
+        },
+        "id_ref": "nomen_station"
+      },
+      {
+        "wort": "ambulant",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سرپایی",
+          "en": "outpatient"
+        },
+        "id_ref": "adjektiv_ambulant"
+      },
+      {
+        "wort": "das Krankenhaus",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمارستان",
+          "en": "hospital"
+        },
+        "id_ref": "nomen_krankenhaus"
+      },
+      {
+        "wort": "die Behandlung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درمان",
+          "en": "treatment"
+        },
+        "id_ref": "nomen_behandlung"
+      },
+      {
+        "wort": "mobil",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سیار",
+          "en": "mobile"
+        },
+        "id_ref": "adjektiv_mobil"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,159 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_statisch",
+  "wort": "statisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "ایستا",
+      "ساکن",
+      "استاتیک"
+    ],
+    "en": [
+      "static",
+      "stationary"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Physik",
+    "Technik",
+    "Bau"
+  ],
+  "ipa": "ˈʃtaːtɪʃ",
+  "anmerkung": "Unbewegt, ohne Veränderung; in der Physik: „statische Elektrizität“; im Bauwesen: die Stabilität betreffend. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Wenn ich den Pullover ausziehe, knistert es wegen statischer Elektrizität.",
+      "uebersetzung": {
+        "fa": "وقتی پلیور را درمی‌آورم، به‌خاطر الکتریسیته‌ی ساکن جرقه می‌زند.",
+        "en": "When I take off my jumper it crackles because of static electricity."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Ingenieur prüfte die statischen Berechnungen der Brücke, bevor sie gebaut wurde.",
+      "uebersetzung": {
+        "fa": "مهندس محاسبات ایستایی پل را پیش از ساخت بررسی کرد.",
+        "en": "The engineer checked the static calculations of the bridge before it was built."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "unbewegt",
+      "uebersetzung": {
+        "fa": "ساکن",
+        "en": "motionless"
+      }
+    },
+    {
+      "wort": "starr",
+      "uebersetzung": {
+        "fa": "خشک",
+        "en": "rigid"
+      }
+    },
+    {
+      "wort": "stillstehend",
+      "uebersetzung": {
+        "fa": "ایستاده",
+        "en": "stationary"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "dynamisch",
+      "uebersetzung": {
+        "fa": "پویا",
+        "en": "dynamic"
+      }
+    },
+    {
+      "wort": "beweglich",
+      "uebersetzung": {
+        "fa": "متحرک",
+        "en": "mobile"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "gr. statikos (ایستاکننده) → statisch",
+    "en": "gr. statikos (causing to stand) → statisch"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "statisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "statische Elektrizität",
+      "die statische Berechnung"
+    ],
+    "gegensatzpaar": "statisch ↔ dynamisch"
+  },
+  "wortnetz": {
+    "grundwort": "Statik",
+    "woerter": [
+      {
+        "wort": "die Statik",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ایستایی",
+          "en": "statics"
+        },
+        "id_ref": "nomen_statik"
+      },
+      {
+        "wort": "dynamisch",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پویا",
+          "en": "dynamic"
+        },
+        "id_ref": "adjektiv_dynamisch"
+      },
+      {
+        "wort": "die Elektrizität",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "الکتریسیته",
+          "en": "electricity"
+        },
+        "id_ref": "nomen_elektrizitaet"
+      },
+      {
+        "wort": "der Ingenieur",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مهندس",
+          "en": "engineer"
+        },
+        "id_ref": "nomen_ingenieur"
+      },
+      {
+        "wort": "die Brücke",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پل",
+          "en": "bridge"
+        },
+        "id_ref": "nomen_bruecke"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
