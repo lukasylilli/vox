@@ -619,6 +619,9 @@ const zurueckgestellt = <String>{
   'straßenköterblond', // umgangssprachlich/abwertend, Entscheidung Lukas, unsicher 2026-10-08
   'streitbefangen', // juristisch, selten, unsicher 2026-10-08
   'stressresistent', // Neubildung, unsicher, unsicher 2026-10-08
+  'streufähig', // technisch, unsicher, unsicher 2026-10-08
+  'strohen', // Materialadjektiv wie birken, unsicher 2026-10-08
+  'strunzdumm', // umgangssprachlich/beleidigend, unsicher 2026-10-08
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

@@ -1,0 +1,144 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_sturmfrei",
+  "wort": "sturmfrei",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "خالی از والدین (خانه)",
+      "آزاد"
+    ],
+    "en": [
+      "parent-free",
+      "home alone"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Jugend",
+    "Umgangssprache",
+    "Wohnen"
+  ],
+  "ipa": "ˈʃtʊʁmˌfʁaɪ̯",
+  "anmerkung": "Jugendsprache: „sturmfrei haben“ = die Eltern sind nicht zu Hause, man kann tun, was man will. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Am Wochenende habe ich sturmfrei, meine Eltern sind verreist.",
+      "uebersetzung": {
+        "fa": "آخر هفته خانه خالی است، والدینم به سفر رفته‌اند.",
+        "en": "At the weekend I have the place to myself; my parents are away."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als er sturmfrei hatte, lud er gleich seine Freunde zu einer Party ein.",
+      "uebersetzung": {
+        "fa": "وقتی خانه خالی بود، بلافاصله دوستانش را به مهمانی دعوت کرد.",
+        "en": "When he had the house to himself, he immediately invited his friends to a party."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "elternfrei",
+      "uebersetzung": {
+        "fa": "بدون والدین",
+        "en": "parent-free"
+      }
+    },
+    {
+      "wort": "allein zu Haus",
+      "uebersetzung": {
+        "fa": "تنها در خانه",
+        "en": "home alone"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "unter Aufsicht",
+      "uebersetzung": {
+        "fa": "زیر نظر",
+        "en": "supervised"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Sturm (یورش) + frei (آزاد) — urspr. militärisch",
+    "en": "Sturm (assault) + frei (free) — originally military"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "sturmfrei",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "praedikativ",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "sturmfrei haben",
+      "eine sturmfreie Bude"
+    ],
+    "gegensatzpaar": "sturmfrei ↔ unter Aufsicht"
+  },
+  "wortnetz": {
+    "grundwort": "frei",
+    "woerter": [
+      {
+        "wort": "frei",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آزاد",
+          "en": "free"
+        },
+        "id_ref": "adjektiv_frei"
+      },
+      {
+        "wort": "die Eltern",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "والدین",
+          "en": "parents"
+        },
+        "id_ref": "nomen_eltern"
+      },
+      {
+        "wort": "die Party",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مهمانی",
+          "en": "party"
+        },
+        "id_ref": "nomen_party"
+      },
+      {
+        "wort": "verreisen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به سفر رفتن",
+          "en": "to go away"
+        },
+        "id_ref": "verb_verreisen"
+      },
+      {
+        "wort": "die Aufsicht",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نظارت",
+          "en": "supervision"
+        },
+        "id_ref": "nomen_aufsicht"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

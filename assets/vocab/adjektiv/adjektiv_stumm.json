@@ -1,0 +1,169 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_stumm",
+  "wort": "stumm",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "لال",
+      "ساکت",
+      "بی‌صدا"
+    ],
+    "en": [
+      "mute",
+      "silent",
+      "dumb"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Körper",
+    "Gefühle",
+    "Kommunikation"
+  ],
+  "ipa": "ʃtʊm",
+  "anmerkung": "Nicht sprechend: aus Krankheit oder vor Gefühl („stumm vor Schreck“); auch „stummer Film“, „stummes h“. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er saß stumm am Tisch und aß.",
+      "uebersetzung": {
+        "fa": "او ساکت پشت میز نشسته بود و غذا می‌خورد.",
+        "en": "He sat silently at the table and ate."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Vor Schreck war sie ganz stumm und konnte kein Wort sagen.",
+      "uebersetzung": {
+        "fa": "از ترس کاملاً لال شده بود و نمی‌توانست کلمه‌ای بگوید.",
+        "en": "She was completely speechless with fright and could not say a word."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schweigend",
+      "uebersetzung": {
+        "fa": "خاموش",
+        "en": "silent"
+      }
+    },
+    {
+      "wort": "wortlos",
+      "uebersetzung": {
+        "fa": "بی‌کلام",
+        "en": "wordless"
+      }
+    },
+    {
+      "wort": "sprachlos",
+      "uebersetzung": {
+        "fa": "بی‌زبان",
+        "en": "speechless"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "gesprächig",
+      "uebersetzung": {
+        "fa": "پرحرف",
+        "en": "talkative"
+      }
+    },
+    {
+      "wort": "laut",
+      "uebersetzung": {
+        "fa": "بلند",
+        "en": "loud"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mhd. stum (گنگ، ساکت)",
+    "en": "mhd. stum (dumb, silent)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "stumm",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "stumm vor + Dat",
+        "beispiel": "Er war stumm vor Wut.",
+        "uebersetzung": {
+          "fa": "او از خشم لال شده بود.",
+          "en": "He was speechless with rage."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein stummer Zeuge",
+      "der stumme Film"
+    ],
+    "gegensatzpaar": "stumm ↔ gesprächig"
+  },
+  "wortnetz": {
+    "grundwort": "verstummen",
+    "woerter": [
+      {
+        "wort": "verstummen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خاموش شدن",
+          "en": "to fall silent"
+        },
+        "id_ref": "verb_verstummen"
+      },
+      {
+        "wort": "schweigend",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خاموش",
+          "en": "silent"
+        },
+        "id_ref": "adjektiv_schweigend"
+      },
+      {
+        "wort": "sprachlos",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بی‌زبان",
+          "en": "speechless"
+        },
+        "id_ref": "adjektiv_sprachlos"
+      },
+      {
+        "wort": "gesprächig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پرحرف",
+          "en": "talkative"
+        },
+        "id_ref": "adjektiv_gespraechig"
+      },
+      {
+        "wort": "der Stummfilm",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فیلم صامت",
+          "en": "silent film"
+        },
+        "id_ref": "nomen_stummfilm"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
