@@ -644,6 +644,18 @@ const zurueckgestellt = <String>{
   'sulzig', // regional, unsicher, unsicher 2026-10-09
   'summativ', // Fachwort Pädagogik, selten, unsicher 2026-10-09
   'supergen', // Fachwort, sehr selten, unsicher 2026-10-09
+  'superlativ', // adjektivisch selten, unsicher, unsicher 2026-10-09
+  'superprovisorisch', // schweizerisch juristisch, selten, unsicher 2026-10-09
+  'suppressiv', // medizinisches Fachwort, selten, unsicher 2026-10-09
+  'supragingival', // Fachwort Zahnmedizin, selten, unsicher 2026-10-09
+  'suprapubisch', // medizinisches Fachwort, selten, unsicher 2026-10-09
+  'surjektiv', // Fachwort Mathematik, selten, unsicher 2026-10-09
+  'suszeptibel', // Fachwort, selten, unsicher 2026-10-09
+  'swasiländisch', // veralteter Ländername, unsicher, unsicher 2026-10-09
+  'sympathetisch', // Fachwort/veraltet, selten, unsicher 2026-10-09
+  'syndetisch', // Fachwort Linguistik, selten, unsicher 2026-10-09
+  'synekdochisch', // Fachwort Rhetorik, selten, unsicher 2026-10-09
+  'synergistisch', // Fachwort, selten, unsicher 2026-10-09
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

@@ -1,0 +1,151 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_supplementaer",
+  "wort": "supplementär",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "تکمیلی",
+      "الحاقی"
+    ],
+    "en": [
+      "supplementary",
+      "additional"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wissenschaft",
+    "Verwaltung",
+    "Mathematik"
+  ],
+  "ipa": "zʊplemɛnˈtɛːɐ̯",
+  "anmerkung": "Bildungssprachlich: ergänzend, zusätzlich; in der Mathematik: „supplementäre Winkel“ (zusammen 180°). Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "C1",
+      "satz": "Zum Lehrbuch gibt es supplementäres Material im Internet.",
+      "uebersetzung": {
+        "fa": "برای کتاب درسی مطالب تکمیلی در اینترنت وجود دارد.",
+        "en": "There is supplementary material on the internet for the textbook."
+      }
+    },
+    {
+      "niveau": "C2",
+      "satz": "Zwei supplementäre Winkel ergeben zusammen genau einhundertachtzig Grad.",
+      "uebersetzung": {
+        "fa": "دو زاویه‌ی مکمل روی هم دقیقاً صدوهشتاد درجه می‌شوند.",
+        "en": "Two supplementary angles add up to exactly one hundred and eighty degrees."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ergänzend",
+      "uebersetzung": {
+        "fa": "تکمیلی",
+        "en": "complementary"
+      }
+    },
+    {
+      "wort": "zusätzlich",
+      "uebersetzung": {
+        "fa": "اضافی",
+        "en": "additional"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "grundlegend",
+      "uebersetzung": {
+        "fa": "پایه",
+        "en": "basic"
+      }
+    },
+    {
+      "wort": "hauptsächlich",
+      "uebersetzung": {
+        "fa": "اصلی",
+        "en": "main"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. supplementum (تکمله) + -är",
+    "en": "lat. supplementum (supplement) + -är"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "supplementär",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "supplementäres Material",
+      "der supplementäre Winkel"
+    ],
+    "gegensatzpaar": "supplementär ↔ grundlegend"
+  },
+  "wortnetz": {
+    "grundwort": "Supplement",
+    "woerter": [
+      {
+        "wort": "das Supplement",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "ضمیمه",
+          "en": "supplement"
+        },
+        "id_ref": "nomen_supplement"
+      },
+      {
+        "wort": "ergänzend",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تکمیلی",
+          "en": "complementary"
+        },
+        "id_ref": "adjektiv_ergaenzend"
+      },
+      {
+        "wort": "zusätzlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اضافی",
+          "en": "additional"
+        },
+        "id_ref": "adjektiv_zusaetzlich"
+      },
+      {
+        "wort": "der Winkel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زاویه",
+          "en": "angle"
+        },
+        "id_ref": "nomen_winkel"
+      },
+      {
+        "wort": "das Lehrbuch",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کتاب درسی",
+          "en": "textbook"
+        },
+        "id_ref": "nomen_lehrbuch"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
