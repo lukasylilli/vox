@@ -1,0 +1,159 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_staedtisch",
+  "wort": "städtisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "شهری",
+      "وابسته به شهر"
+    ],
+    "en": [
+      "urban",
+      "municipal",
+      "city"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Stadt",
+    "Politik",
+    "Leben"
+  ],
+  "ipa": "ˈʃtɛtɪʃ",
+  "anmerkung": "Zur Stadt gehörend oder von ihr betrieben („städtische Schule“), im Gegensatz zu „ländlich“. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das ist ein städtisches Krankenhaus.",
+      "uebersetzung": {
+        "fa": "این یک بیمارستان شهری است.",
+        "en": "This is a municipal hospital."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Das städtische Leben ist hektisch, bietet aber viele kulturelle Angebote.",
+      "uebersetzung": {
+        "fa": "زندگی شهری پرشتاب است ولی امکانات فرهنگی زیادی دارد.",
+        "en": "Urban life is hectic but offers many cultural opportunities."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "urban",
+      "uebersetzung": {
+        "fa": "شهری",
+        "en": "urban"
+      }
+    },
+    {
+      "wort": "kommunal",
+      "uebersetzung": {
+        "fa": "شهرداری",
+        "en": "municipal"
+      }
+    },
+    {
+      "wort": "großstädtisch",
+      "uebersetzung": {
+        "fa": "کلان‌شهری",
+        "en": "metropolitan"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ländlich",
+      "uebersetzung": {
+        "fa": "روستایی",
+        "en": "rural"
+      }
+    },
+    {
+      "wort": "dörflich",
+      "uebersetzung": {
+        "fa": "روستایی",
+        "en": "village"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Stadt (شهر) + -isch, umgelautet",
+    "en": "Stadt (city) + -isch, with umlaut"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "städtisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "die städtische Verwaltung",
+      "ein städtischer Park"
+    ],
+    "gegensatzpaar": "städtisch ↔ ländlich"
+  },
+  "wortnetz": {
+    "grundwort": "Stadt",
+    "woerter": [
+      {
+        "wort": "die Stadt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شهر",
+          "en": "city"
+        },
+        "id_ref": "nomen_stadt"
+      },
+      {
+        "wort": "ländlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "روستایی",
+          "en": "rural"
+        },
+        "id_ref": "adjektiv_laendlich"
+      },
+      {
+        "wort": "urban",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شهری",
+          "en": "urban"
+        },
+        "id_ref": "adjektiv_urban"
+      },
+      {
+        "wort": "die Verwaltung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اداره",
+          "en": "administration"
+        },
+        "id_ref": "nomen_verwaltung"
+      },
+      {
+        "wort": "der Park",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پارک",
+          "en": "park"
+        },
+        "id_ref": "nomen_park"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

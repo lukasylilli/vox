@@ -597,6 +597,9 @@ const zurueckgestellt = <String>{
   'splitterfasernackt', // umgangssprachliche Steigerung, unsicher, unsicher 2026-10-08
   'spottschlecht', // umgangssprachlich, unsicher, unsicher 2026-10-08
   'spottsüchtig', // selten, unsicher, unsicher 2026-10-08
+  'spritig', // regional/selten, unsicher, unsicher 2026-10-08
+  'stählern', // Materialadjektiv wie birken, unsicher 2026-10-08
+  'stärkehaltig', // Fachkompositum, unsicher, unsicher 2026-10-08
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
