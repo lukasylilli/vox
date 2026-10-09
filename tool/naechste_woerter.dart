@@ -733,6 +733,9 @@ const zurueckgestellt = <String>{
   'überwechtet', // Fachwort Schnee/Bergsport, selten, unsicher 2026-10-09
   'unangesehen', // veraltet, eher Präposition, unsicher 2026-10-09
   'unbedankt', // selten, veraltet, unsicher 2026-10-09
+  'unbeugbar', // mehrdeutig, selten, unsicher 2026-10-09
+  'unbewehrt', // selten, Fachwort, unsicher 2026-10-09
+  'undulös', // Fachwort Mineralogie, unsicher 2026-10-09
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

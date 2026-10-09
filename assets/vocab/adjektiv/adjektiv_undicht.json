@@ -1,0 +1,145 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_undicht",
+  "wort": "undicht",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "نشت‌دار",
+      "چکه‌کننده",
+      "نفوذپذیر"
+    ],
+    "en": [
+      "leaky",
+      "leaking",
+      "not watertight"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Wohnen",
+    "Technik"
+  ],
+  "ipa": "ˈʊnˌdɪçt",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Dach ist undicht.",
+      "uebersetzung": {
+        "fa": "سقف چکه می‌کند.",
+        "en": "The roof is leaking."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil das Fenster undicht ist, kommt im Winter kalte Luft in die Wohnung.",
+      "uebersetzung": {
+        "fa": "چون پنجره درزبندی نیست، زمستان هوای سرد وارد خانه می‌شود.",
+        "en": "Because the window isn't sealed properly, cold air gets into the flat in winter."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "leck",
+      "uebersetzung": {
+        "fa": "سوراخ",
+        "en": "leaky"
+      }
+    },
+    {
+      "wort": "durchlässig",
+      "uebersetzung": {
+        "fa": "نفوذپذیر",
+        "en": "permeable"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "dicht",
+      "uebersetzung": {
+        "fa": "آب‌بند",
+        "en": "watertight"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "un- (نا) + dicht (آب‌بند، فشرده)",
+    "en": "un- (not) + dicht (tight)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "undicht",
+      "komparativ": "undichter",
+      "superlativ": "am undichtesten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein undichtes Rohr",
+      "die undichte Stelle"
+    ],
+    "gegensatzpaar": "undicht ↔ dicht"
+  },
+  "wortnetz": {
+    "grundwort": "dicht",
+    "woerter": [
+      {
+        "wort": "dicht",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آب‌بند",
+          "en": "tight"
+        },
+        "id_ref": "adjektiv_dicht"
+      },
+      {
+        "wort": "das Leck",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نشتی",
+          "en": "leak"
+        },
+        "id_ref": "nomen_leck"
+      },
+      {
+        "wort": "das Rohr",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لوله",
+          "en": "pipe"
+        },
+        "id_ref": "nomen_rohr"
+      },
+      {
+        "wort": "das Dach",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سقف",
+          "en": "roof"
+        },
+        "id_ref": "nomen_dach"
+      },
+      {
+        "wort": "tropfen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چکه کردن",
+          "en": "to drip"
+        },
+        "id_ref": "verb_tropfen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

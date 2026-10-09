@@ -1,0 +1,143 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_unbrennbar",
+  "wort": "unbrennbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "نسوز",
+      "غیرقابل‌اشتعال"
+    ],
+    "en": [
+      "non-flammable",
+      "incombustible"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Sicherheit"
+  ],
+  "ipa": "ˈʊnˌbʁɛnbaːɐ̯",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Das Material ist unbrennbar.",
+      "uebersetzung": {
+        "fa": "این ماده نسوز است.",
+        "en": "The material is non-flammable."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "In Fluchtwegen dürfen nur unbrennbare Baustoffe verwendet werden, damit sich ein Feuer nicht ausbreitet.",
+      "uebersetzung": {
+        "fa": "در راه‌های فرار فقط از مصالح نسوز می‌توان استفاده کرد تا آتش گسترش نیابد.",
+        "en": "Only incombustible building materials may be used in escape routes so that a fire does not spread."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "feuerfest",
+      "uebersetzung": {
+        "fa": "ضدآتش",
+        "en": "fireproof"
+      }
+    },
+    {
+      "wort": "nicht entflammbar",
+      "uebersetzung": {
+        "fa": "غیرقابل‌اشتعال",
+        "en": "non-flammable"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "brennbar",
+      "uebersetzung": {
+        "fa": "اشتعال‌پذیر",
+        "en": "flammable"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "un- (نا) + brennen (سوختن) + -bar",
+    "en": "un- (not) + brennen (to burn) + -bar"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "unbrennbar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein unbrennbarer Stoff",
+      "das unbrennbare Material"
+    ],
+    "gegensatzpaar": "unbrennbar ↔ brennbar"
+  },
+  "wortnetz": {
+    "grundwort": "brennen",
+    "woerter": [
+      {
+        "wort": "brennen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سوختن",
+          "en": "to burn"
+        },
+        "id_ref": "verb_brennen"
+      },
+      {
+        "wort": "brennbar",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اشتعال‌پذیر",
+          "en": "flammable"
+        },
+        "id_ref": "adjektiv_brennbar"
+      },
+      {
+        "wort": "das Feuer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آتش",
+          "en": "fire"
+        },
+        "id_ref": "nomen_feuer"
+      },
+      {
+        "wort": "feuerfest",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ضدآتش",
+          "en": "fireproof"
+        },
+        "id_ref": "adjektiv_feuerfest"
+      },
+      {
+        "wort": "der Brandschutz",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ایمنی در برابر آتش",
+          "en": "fire protection"
+        },
+        "id_ref": "nomen_brandschutz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

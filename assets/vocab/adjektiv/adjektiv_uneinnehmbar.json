@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_uneinnehmbar",
+  "wort": "uneinnehmbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "تسخیرناپذیر",
+      "نفوذناپذیر"
+    ],
+    "en": [
+      "impregnable",
+      "unconquerable"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Geschichte",
+    "Militär"
+  ],
+  "ipa": "ʊnʔaɪ̯nˈneːmbaːɐ̯",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Die Burg galt als uneinnehmbar.",
+      "uebersetzung": {
+        "fa": "قلعه تسخیرناپذیر شمرده می‌شد.",
+        "en": "The castle was considered impregnable."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Die Stadtmauern waren so hoch, dass die Stadt jahrhundertelang uneinnehmbar blieb.",
+      "uebersetzung": {
+        "fa": "دیوارهای شهر آن‌قدر بلند بودند که شهر قرن‌ها تسخیرناپذیر ماند.",
+        "en": "The city walls were so high that the city remained impregnable for centuries."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "unbezwingbar",
+      "uebersetzung": {
+        "fa": "فتح‌نشدنی",
+        "en": "unconquerable"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "einnehmbar",
+      "uebersetzung": {
+        "fa": "تسخیرشدنی",
+        "en": "conquerable"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "un- (نا) + einnehmen (تسخیر کردن) + -bar",
+    "en": "un- (not) + einnehmen (to capture) + -bar"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "uneinnehmbar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine uneinnehmbare Festung",
+      "die uneinnehmbare Stadt"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "einnehmen",
+    "woerter": [
+      {
+        "wort": "einnehmen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تسخیر کردن",
+          "en": "to capture"
+        },
+        "id_ref": "verb_einnehmen"
+      },
+      {
+        "wort": "die Burg",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قلعه",
+          "en": "castle"
+        },
+        "id_ref": "nomen_burg"
+      },
+      {
+        "wort": "die Festung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دژ",
+          "en": "fortress"
+        },
+        "id_ref": "nomen_festung"
+      },
+      {
+        "wort": "erobern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فتح کردن",
+          "en": "to conquer"
+        },
+        "id_ref": "verb_erobern"
+      },
+      {
+        "wort": "die Mauer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دیوار",
+          "en": "wall"
+        },
+        "id_ref": "nomen_mauer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

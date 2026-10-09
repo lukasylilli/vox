@@ -1,0 +1,160 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_unbeteiligt",
+  "wort": "unbeteiligt",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "بی‌طرف و بیرون از ماجرا",
+      "بی‌تفاوت"
+    ],
+    "en": [
+      "uninvolved",
+      "indifferent",
+      "detached"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesellschaft",
+    "Recht"
+  ],
+  "ipa": "ˈʊnbəˌtaɪ̯lɪçt",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er stand unbeteiligt daneben.",
+      "uebersetzung": {
+        "fa": "او بی‌تفاوت کنارش ایستاده بود.",
+        "en": "He stood by, uninvolved."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei dem Unfall wurden auch unbeteiligte Fußgänger verletzt, die zufällig an der Ampel standen.",
+      "uebersetzung": {
+        "fa": "در این تصادف عابران بی‌گناهی هم که اتفاقاً سر چراغ‌راهنما ایستاده بودند آسیب دیدند.",
+        "en": "Uninvolved pedestrians who happened to be standing at the traffic lights were also injured in the accident."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gleichgültig",
+      "uebersetzung": {
+        "fa": "بی‌تفاوت",
+        "en": "indifferent"
+      }
+    },
+    {
+      "wort": "neutral",
+      "uebersetzung": {
+        "fa": "بی‌طرف",
+        "en": "neutral"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "beteiligt",
+      "uebersetzung": {
+        "fa": "درگیر",
+        "en": "involved"
+      }
+    },
+    {
+      "wort": "engagiert",
+      "uebersetzung": {
+        "fa": "متعهد",
+        "en": "committed"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "un- (نا) + beteiligt (شریک، درگیر)",
+    "en": "un- (not) + beteiligt (involved)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "unbeteiligt",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "unbeteiligt an + Dat",
+        "beispiel": "Sie war an dem Streit völlig unbeteiligt.",
+        "uebersetzung": {
+          "fa": "او در آن دعوا هیچ نقشی نداشت.",
+          "en": "She was completely uninvolved in the argument."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein unbeteiligter Zeuge",
+      "die unbeteiligten Passanten"
+    ],
+    "gegensatzpaar": "unbeteiligt ↔ beteiligt"
+  },
+  "wortnetz": {
+    "grundwort": "der Teil",
+    "woerter": [
+      {
+        "wort": "teilnehmen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شرکت کردن",
+          "en": "to take part"
+        },
+        "id_ref": "verb_teilnehmen"
+      },
+      {
+        "wort": "beteiligt",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "درگیر",
+          "en": "involved"
+        },
+        "id_ref": "adjektiv_beteiligt"
+      },
+      {
+        "wort": "der Zeuge",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شاهد",
+          "en": "witness"
+        },
+        "id_ref": "nomen_zeuge"
+      },
+      {
+        "wort": "gleichgültig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بی‌تفاوت",
+          "en": "indifferent"
+        },
+        "id_ref": "adjektiv_gleichgueltig"
+      },
+      {
+        "wort": "der Passant",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رهگذر",
+          "en": "passer-by"
+        },
+        "id_ref": "nomen_passant"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
