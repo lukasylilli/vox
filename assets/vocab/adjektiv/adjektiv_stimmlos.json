@@ -1,0 +1,129 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_stimmlos",
+  "wort": "stimmlos",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "بی‌واک",
+      "بی‌صدا"
+    ],
+    "en": [
+      "voiceless",
+      "unvoiced"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Phonetik",
+    "Sprache",
+    "Linguistik"
+  ],
+  "ipa": "ˈʃtɪmloːs",
+  "anmerkung": "Fachwort der Phonetik: ein Laut ohne Schwingung der Stimmbänder (p, t, k, f). Selten auch „ohne Stimme“. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Die Laute p, t und k sind stimmlos.",
+      "uebersetzung": {
+        "fa": "آواهای p، t و k بی‌واک‌اند.",
+        "en": "The sounds p, t and k are voiceless."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Viele Lernende sprechen das stimmlose „s“ am Wortanfang falsch aus.",
+      "uebersetzung": {
+        "fa": "بسیاری از زبان‌آموزان «s» بی‌واک در آغاز کلمه را اشتباه تلفظ می‌کنند.",
+        "en": "Many learners pronounce the voiceless “s” at the beginning of a word incorrectly."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "stimmhaft",
+      "uebersetzung": {
+        "fa": "واکدار",
+        "en": "voiced"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Stimme (صدا) + -los (بدون)",
+    "en": "Stimme (voice) + -los (without)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "stimmlos",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein stimmloser Laut",
+      "das stimmlose s"
+    ],
+    "gegensatzpaar": "stimmlos ↔ stimmhaft"
+  },
+  "wortnetz": {
+    "grundwort": "Stimme",
+    "woerter": [
+      {
+        "wort": "die Stimme",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صدا",
+          "en": "voice"
+        },
+        "id_ref": "nomen_stimme"
+      },
+      {
+        "wort": "stimmhaft",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "واکدار",
+          "en": "voiced"
+        },
+        "id_ref": "adjektiv_stimmhaft"
+      },
+      {
+        "wort": "der Laut",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آوا",
+          "en": "sound"
+        },
+        "id_ref": "nomen_laut"
+      },
+      {
+        "wort": "der Konsonant",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صامت",
+          "en": "consonant"
+        },
+        "id_ref": "nomen_konsonant"
+      },
+      {
+        "wort": "die Phonetik",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آواشناسی",
+          "en": "phonetics"
+        },
+        "id_ref": "nomen_phonetik"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

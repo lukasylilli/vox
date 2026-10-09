@@ -1,0 +1,144 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_stochastisch",
+  "wort": "stochastisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "تصادفی",
+      "احتمالاتی"
+    ],
+    "en": [
+      "stochastic",
+      "random"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik",
+    "Statistik",
+    "Wissenschaft"
+  ],
+  "ipa": "stoˈxastɪʃ",
+  "anmerkung": "Fachsprache der Mathematik: vom Zufall abhängig, mit Wahrscheinlichkeiten beschrieben. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "C1",
+      "satz": "Das Wetter lässt sich nur mit stochastischen Modellen vorhersagen.",
+      "uebersetzung": {
+        "fa": "آب‌وهوا را فقط با مدل‌های احتمالاتی می‌توان پیش‌بینی کرد.",
+        "en": "The weather can only be predicted with stochastic models."
+      }
+    },
+    {
+      "niveau": "C2",
+      "satz": "In der Physik beschreibt ein stochastischer Prozess zufällige Veränderungen über die Zeit.",
+      "uebersetzung": {
+        "fa": "در فیزیک یک فرایند تصادفی تغییرات تصادفی در طول زمان را توصیف می‌کند.",
+        "en": "In physics a stochastic process describes random changes over time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zufällig",
+      "uebersetzung": {
+        "fa": "تصادفی",
+        "en": "random"
+      }
+    },
+    {
+      "wort": "probabilistisch",
+      "uebersetzung": {
+        "fa": "احتمالاتی",
+        "en": "probabilistic"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "deterministisch",
+      "uebersetzung": {
+        "fa": "جبری",
+        "en": "deterministic"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "gr. stochastikos (حدس‌زننده) → stochastisch",
+    "en": "gr. stochastikos (guessing) → stochastisch"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "stochastisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein stochastisches Modell",
+      "der stochastische Prozess"
+    ],
+    "gegensatzpaar": "stochastisch ↔ deterministisch"
+  },
+  "wortnetz": {
+    "grundwort": "Stochastik",
+    "woerter": [
+      {
+        "wort": "die Stochastik",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "احتمالات",
+          "en": "stochastics"
+        },
+        "id_ref": "nomen_stochastik"
+      },
+      {
+        "wort": "die Wahrscheinlichkeit",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "احتمال",
+          "en": "probability"
+        },
+        "id_ref": "nomen_wahrscheinlichkeit"
+      },
+      {
+        "wort": "zufällig",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تصادفی",
+          "en": "random"
+        },
+        "id_ref": "adjektiv_zufaellig"
+      },
+      {
+        "wort": "deterministisch",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "جبری",
+          "en": "deterministic"
+        },
+        "id_ref": "adjektiv_deterministisch"
+      },
+      {
+        "wort": "das Modell",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مدل",
+          "en": "model"
+        },
+        "id_ref": "nomen_modell"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

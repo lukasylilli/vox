@@ -608,6 +608,10 @@ const zurueckgestellt = <String>{
   'stichprobenhaft', // ungebräuchliche Nebenform, unsicher 2026-10-08
   'stickstoffhaltig', // Fachkompositum, unsicher, unsicher 2026-10-08
   'stier', // mehrdeutig/regional, unsicher, unsicher 2026-10-08
+  'stilmäßig', // umgangssprachlich, unsicher, unsicher 2026-10-08
+  'stomachal', // medizinisches Fachwort, sehr selten, unsicher 2026-10-08
+  'stotterig', // umgangssprachlich, unsicher, unsicher 2026-10-08
+  'stottrig', // umgangssprachlich, unsicher, unsicher 2026-10-08
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
