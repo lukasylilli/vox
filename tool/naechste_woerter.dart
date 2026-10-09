@@ -730,6 +730,7 @@ const zurueckgestellt = <String>{
   'tuvaluisch', // Ortsadjektiv, sehr selten, unsicher 2026-10-09
   'tuwinisch', // Ortsadjektiv, sehr selten, unsicher 2026-10-09
   'tyrrhenisch', // geografisch, selten, unsicher 2026-10-09
+  'überwechtet', // Fachwort Schnee/Bergsport, selten, unsicher 2026-10-09
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

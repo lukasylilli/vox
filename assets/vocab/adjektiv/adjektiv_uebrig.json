@@ -1,0 +1,145 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_uebrig",
+  "wort": "übrig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "باقی‌مانده",
+      "اضافه"
+    ],
+    "en": [
+      "left (over)",
+      "remaining",
+      "other"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈyːbʁɪç",
+  "anmerkung": "Meist prädikativ mit „sein/bleiben/haben“: Ist noch Kuchen übrig? Attributiv: die übrigen Gäste.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ist noch Suppe übrig?",
+      "uebersetzung": {
+        "fa": "هنوز سوپ باقی مانده است؟",
+        "en": "Is there any soup left?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die übrigen Gäste blieben noch, während wir schon nach Hause gingen.",
+      "uebersetzung": {
+        "fa": "بقیه‌ی مهمان‌ها هنوز ماندند، در حالی که ما دیگر به خانه رفتیم.",
+        "en": "The remaining guests stayed while we went home."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "restlich",
+      "uebersetzung": {
+        "fa": "باقی‌مانده",
+        "en": "remaining"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verbraucht",
+      "uebersetzung": {
+        "fa": "مصرف‌شده",
+        "en": "used up"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "über (اضافه) + -ig",
+    "en": "über (over) + -ig"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "übrig",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "übrig bleiben von + Dat",
+        "beispiel": "Von der Pizza ist nichts übrig geblieben.",
+        "uebersetzung": {
+          "fa": "از پیتزا چیزی باقی نماند.",
+          "en": "Nothing was left of the pizza."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "die übrigen Leute",
+      "das übrige Geld"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "der Rest",
+    "woerter": [
+      {
+        "wort": "der Rest",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "باقی‌مانده",
+          "en": "rest"
+        },
+        "id_ref": "nomen_rest"
+      },
+      {
+        "wort": "restlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "باقی‌مانده",
+          "en": "remaining"
+        },
+        "id_ref": "adjektiv_restlich"
+      },
+      {
+        "wort": "übrigens",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "راستی",
+          "en": "by the way"
+        },
+        "id_ref": "adverb_uebrigens"
+      },
+      {
+        "wort": "bleiben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ماندن",
+          "en": "to stay"
+        },
+        "id_ref": "verb_bleiben"
+      },
+      {
+        "wort": "genug",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کافی",
+          "en": "enough"
+        },
+        "id_ref": "adverb_genug"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

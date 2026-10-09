@@ -1,0 +1,129 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_umgerechnet",
+  "wort": "umgerechnet",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "تبدیل‌شده",
+      "معادل (پس از تبدیل)"
+    ],
+    "en": [
+      "converted",
+      "equivalent to"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Finanzen",
+    "Mathematik"
+  ],
+  "ipa": "ˈʊmɡəˌʁɛçnət",
+  "anmerkung": "Partizip II von „umrechnen“; oft adverbial bei Währungen und Maßen: umgerechnet etwa 50 Euro.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das kostet umgerechnet zehn Euro.",
+      "uebersetzung": {
+        "fa": "این به حساب یورو ده یورو می‌شود.",
+        "en": "That costs the equivalent of ten euros."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der umgerechnete Betrag war höher, als ich erwartet hatte, weil der Kurs gestiegen war.",
+      "uebersetzung": {
+        "fa": "مبلغ تبدیل‌شده بیشتر از انتظارم بود، چون نرخ ارز بالا رفته بود.",
+        "en": "The converted amount was higher than I expected because the exchange rate had risen."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Partizip II von umrechnen (تبدیل کردن)",
+    "en": "past participle of umrechnen (to convert)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "umgerechnet",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "umgerechnet in + Akk",
+        "beispiel": "Umgerechnet in Dollar sind das etwa 100.",
+        "uebersetzung": {
+          "fa": "اگر به دلار تبدیل شود، تقریباً ۱۰۰ می‌شود.",
+          "en": "Converted into dollars, that's about 100."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "der umgerechnete Preis",
+      "ein umgerechneter Wert"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "umrechnen",
+    "woerter": [
+      {
+        "wort": "umrechnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تبدیل کردن",
+          "en": "to convert"
+        },
+        "id_ref": "verb_umrechnen"
+      },
+      {
+        "wort": "der Wechselkurs",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نرخ ارز",
+          "en": "exchange rate"
+        },
+        "id_ref": "nomen_wechselkurs"
+      },
+      {
+        "wort": "die Währung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پول رایج",
+          "en": "currency"
+        },
+        "id_ref": "nomen_waehrung"
+      },
+      {
+        "wort": "der Betrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مبلغ",
+          "en": "amount"
+        },
+        "id_ref": "nomen_betrag"
+      },
+      {
+        "wort": "der Euro",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "یورو",
+          "en": "euro"
+        },
+        "id_ref": "nomen_euro"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
