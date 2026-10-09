@@ -602,6 +602,12 @@ const zurueckgestellt = <String>{
   'stärkehaltig', // Fachkompositum, unsicher, unsicher 2026-10-08
   'statutarisch', // juristisches Fachwort, selten, unsicher 2026-10-08
   'steinern', // Materialadjektiv wie birken, unsicher 2026-10-08
+  'stenök', // Ökologie-Fachwort, selten, unsicher 2026-10-08
+  'stenohalin', // Biologie-Fachwort, selten, unsicher 2026-10-08
+  'stichometrisch', // Fachwort, sehr selten, unsicher 2026-10-08
+  'stichprobenhaft', // ungebräuchliche Nebenform, unsicher 2026-10-08
+  'stickstoffhaltig', // Fachkompositum, unsicher, unsicher 2026-10-08
+  'stier', // mehrdeutig/regional, unsicher, unsicher 2026-10-08
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

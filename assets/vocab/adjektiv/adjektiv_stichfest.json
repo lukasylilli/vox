@@ -1,0 +1,159 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_stichfest",
+  "wort": "stichfest",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "محکم",
+      "غیرقابل‌رد",
+      "قانع‌کننده"
+    ],
+    "en": [
+      "watertight",
+      "irrefutable"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Argumentation",
+    "Sprache"
+  ],
+  "ipa": "ˈʃtɪçˌfɛst",
+  "anmerkung": "Fast nur in „hieb- und stichfest“ = absolut sicher und nicht zu widerlegen (Beweise, Argumente). Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Die Polizei hat hieb- und stichfeste Beweise gegen den Täter.",
+      "uebersetzung": {
+        "fa": "پلیس شواهد محکمی علیه مجرم دارد.",
+        "en": "The police have watertight evidence against the culprit."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Ohne stichfeste Argumente wird der Antrag im Ausschuss keine Mehrheit finden.",
+      "uebersetzung": {
+        "fa": "بدون استدلال‌های محکم درخواست در کمیته اکثریت نخواهد یافت.",
+        "en": "Without watertight arguments the motion will not find a majority in the committee."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "stichhaltig",
+      "uebersetzung": {
+        "fa": "قانع‌کننده",
+        "en": "sound"
+      }
+    },
+    {
+      "wort": "unwiderlegbar",
+      "uebersetzung": {
+        "fa": "غیرقابل‌رد",
+        "en": "irrefutable"
+      }
+    },
+    {
+      "wort": "überzeugend",
+      "uebersetzung": {
+        "fa": "قانع‌کننده",
+        "en": "convincing"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "fragwürdig",
+      "uebersetzung": {
+        "fa": "مشکوک",
+        "en": "questionable"
+      }
+    },
+    {
+      "wort": "wackelig",
+      "uebersetzung": {
+        "fa": "سست",
+        "en": "shaky"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Stich (ضربه‌ی خنجر) + fest (مقاوم)",
+    "en": "Stich (stab) + fest (resistant)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "stichfest",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "hieb- und stichfeste Beweise",
+      "ein stichfestes Argument"
+    ],
+    "gegensatzpaar": "stichfest ↔ fragwürdig"
+  },
+  "wortnetz": {
+    "grundwort": "Beweis",
+    "woerter": [
+      {
+        "wort": "stichhaltig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "قانع‌کننده",
+          "en": "sound"
+        },
+        "id_ref": "adjektiv_stichhaltig"
+      },
+      {
+        "wort": "der Beweis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مدرک",
+          "en": "proof"
+        },
+        "id_ref": "nomen_beweis"
+      },
+      {
+        "wort": "unwiderlegbar",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "غیرقابل‌رد",
+          "en": "irrefutable"
+        },
+        "id_ref": "adjektiv_unwiderlegbar"
+      },
+      {
+        "wort": "fragwürdig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مشکوک",
+          "en": "questionable"
+        },
+        "id_ref": "adjektiv_fragwuerdig"
+      },
+      {
+        "wort": "das Argument",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "استدلال",
+          "en": "argument"
+        },
+        "id_ref": "nomen_argument"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

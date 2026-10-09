@@ -1,0 +1,160 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_steuerbar",
+  "wort": "steuerbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "قابل‌کنترل",
+      "قابل‌هدایت",
+      "مشمول مالیات"
+    ],
+    "en": [
+      "controllable",
+      "steerable",
+      "taxable"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Recht",
+    "Finanzen"
+  ],
+  "ipa": "ˈʃtɔɪ̯ɐbaːɐ̯",
+  "anmerkung": "Zwei Bedeutungen: 1. lenkbar, kontrollierbar (Technik); 2. im Steuerrecht: steuerpflichtig („steuerbare Umsätze“). Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Die Drohne ist per App steuerbar.",
+      "uebersetzung": {
+        "fa": "پهپاد از راه اپلیکیشن قابل هدایت است.",
+        "en": "The drone can be controlled via an app."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Nach dem Gesetz sind diese Einnahmen steuerbar und müssen angegeben werden.",
+      "uebersetzung": {
+        "fa": "طبق قانون این درآمدها مشمول مالیات‌اند و باید اظهار شوند.",
+        "en": "According to the law these earnings are taxable and must be declared."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "lenkbar",
+      "uebersetzung": {
+        "fa": "قابل‌هدایت",
+        "en": "steerable"
+      }
+    },
+    {
+      "wort": "kontrollierbar",
+      "uebersetzung": {
+        "fa": "قابل‌کنترل",
+        "en": "controllable"
+      }
+    },
+    {
+      "wort": "steuerpflichtig",
+      "uebersetzung": {
+        "fa": "مشمول مالیات",
+        "en": "taxable"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "unkontrollierbar",
+      "uebersetzung": {
+        "fa": "کنترل‌ناپذیر",
+        "en": "uncontrollable"
+      }
+    },
+    {
+      "wort": "steuerfrei",
+      "uebersetzung": {
+        "fa": "معاف از مالیات",
+        "en": "tax-free"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "steuern (هدایت کردن؛ مالیات بستن) + -bar",
+    "en": "steuern (to steer; to tax) + -bar"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "steuerbar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein steuerbares Gerät",
+      "die steuerbaren Umsätze"
+    ],
+    "gegensatzpaar": "steuerbar ↔ unkontrollierbar"
+  },
+  "wortnetz": {
+    "grundwort": "steuern",
+    "woerter": [
+      {
+        "wort": "steuern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "هدایت کردن",
+          "en": "to steer"
+        },
+        "id_ref": "verb_steuern"
+      },
+      {
+        "wort": "die Steuer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مالیات",
+          "en": "tax"
+        },
+        "id_ref": "nomen_steuer"
+      },
+      {
+        "wort": "das Steuer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فرمان",
+          "en": "steering wheel"
+        },
+        "id_ref": "nomen_steuer"
+      },
+      {
+        "wort": "kontrollierbar",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "قابل‌کنترل",
+          "en": "controllable"
+        },
+        "id_ref": "adjektiv_kontrollierbar"
+      },
+      {
+        "wort": "steuerfrei",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "معاف از مالیات",
+          "en": "tax-free"
+        },
+        "id_ref": "adjektiv_steuerfrei"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
