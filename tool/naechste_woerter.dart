@@ -594,6 +594,9 @@ const zurueckgestellt = <String>{
   'speicherresident', // Informatik-Fachwort, sehr selten, unsicher 2026-10-08
   'spillerig', // regional, unsicher, unsicher 2026-10-08
   'spillrig', // regional, unsicher, unsicher 2026-10-08
+  'splitterfasernackt', // umgangssprachliche Steigerung, unsicher, unsicher 2026-10-08
+  'spottschlecht', // umgangssprachlich, unsicher, unsicher 2026-10-08
+  'spottsüchtig', // selten, unsicher, unsicher 2026-10-08
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
