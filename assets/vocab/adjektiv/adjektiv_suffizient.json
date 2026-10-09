@@ -1,0 +1,152 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_suffizient",
+  "wort": "suffizient",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "کافی",
+      "بسنده",
+      "کارآمد"
+    ],
+    "en": [
+      "sufficient",
+      "adequate"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wissenschaft",
+    "Medizin",
+    "Umwelt"
+  ],
+  "ipa": "zʊfiˈtsi̯ɛnt",
+  "anmerkung": "Bildungssprachlich und fachlich: ausreichend; in der Medizin: ein Organ arbeitet ausreichend. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "C1",
+      "satz": "Die vorliegenden Daten sind nicht suffizient für eine sichere Aussage.",
+      "uebersetzung": {
+        "fa": "داده‌های موجود برای یک اظهارنظر مطمئن کافی نیستند.",
+        "en": "The available data are not sufficient for a reliable statement."
+      }
+    },
+    {
+      "niveau": "C2",
+      "satz": "Nach der Operation arbeitet die Herzklappe wieder suffizient.",
+      "uebersetzung": {
+        "fa": "پس از عمل، دریچه‌ی قلب دوباره به‌خوبی کار می‌کند.",
+        "en": "After the operation the heart valve is working sufficiently again."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausreichend",
+      "uebersetzung": {
+        "fa": "کافی",
+        "en": "sufficient"
+      }
+    },
+    {
+      "wort": "hinreichend",
+      "uebersetzung": {
+        "fa": "بسنده",
+        "en": "adequate"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "insuffizient",
+      "uebersetzung": {
+        "fa": "ناکافی",
+        "en": "insufficient"
+      }
+    },
+    {
+      "wort": "mangelhaft",
+      "uebersetzung": {
+        "fa": "ناقص",
+        "en": "deficient"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. sufficiens (کافی) ← sufficere",
+    "en": "lat. sufficiens (sufficient) ← sufficere"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "suffizient",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine suffiziente Versorgung",
+      "die suffiziente Funktion"
+    ],
+    "gegensatzpaar": "suffizient ↔ insuffizient"
+  },
+  "wortnetz": {
+    "grundwort": "Suffizienz",
+    "woerter": [
+      {
+        "wort": "die Suffizienz",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "کفایت",
+          "en": "sufficiency"
+        },
+        "id_ref": "nomen_suffizienz"
+      },
+      {
+        "wort": "ausreichend",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کافی",
+          "en": "sufficient"
+        },
+        "id_ref": "adjektiv_ausreichend"
+      },
+      {
+        "wort": "insuffizient",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "ناکافی",
+          "en": "insufficient"
+        },
+        "id_ref": "adjektiv_insuffizient"
+      },
+      {
+        "wort": "die Daten",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "داده‌ها",
+          "en": "data"
+        },
+        "id_ref": "nomen_daten"
+      },
+      {
+        "wort": "das Organ",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اندام",
+          "en": "organ"
+        },
+        "id_ref": "nomen_organ"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

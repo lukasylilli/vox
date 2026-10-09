@@ -640,6 +640,10 @@ const zurueckgestellt = <String>{
   'subterran', // bildungssprachlich, selten, unsicher 2026-10-09
   'subungual', // medizinisches Fachwort, selten, unsicher 2026-10-09
   'suburbikarisch', // kirchliches Fachwort, sehr selten, unsicher 2026-10-09
+  'südostdeutsch', // selten, unsicher, unsicher 2026-10-09
+  'sulzig', // regional, unsicher, unsicher 2026-10-09
+  'summativ', // Fachwort Pädagogik, selten, unsicher 2026-10-09
+  'supergen', // Fachwort, sehr selten, unsicher 2026-10-09
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
