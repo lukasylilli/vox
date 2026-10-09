@@ -1,0 +1,150 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_todkrank",
+  "wort": "todkrank",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "بیمار در حال مرگ",
+      "بدحال"
+    ],
+    "en": [
+      "terminally ill",
+      "critically ill"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Medizin"
+  ],
+  "ipa": "ˈtoːtˈkʁaŋk",
+  "anmerkung": "So schwer krank, dass man vielleicht stirbt; umgangssprachlich auch übertrieben („Ich fühle mich todkrank“). Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Ihr Großvater ist todkrank und liegt im Krankenhaus.",
+      "uebersetzung": {
+        "fa": "پدربزرگش بسیار بدحال است و در بیمارستان بستری است.",
+        "en": "Her grandfather is terminally ill and in hospital."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Familie kümmerte sich bis zum Schluss liebevoll um die todkranke Mutter.",
+      "uebersetzung": {
+        "fa": "خانواده تا آخر با مهربانی از مادر بیمار مراقبت کرد.",
+        "en": "The family lovingly cared for the terminally ill mother until the end."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schwerkrank",
+      "uebersetzung": {
+        "fa": "سخت بیمار",
+        "en": "seriously ill"
+      }
+    },
+    {
+      "wort": "sterbenskrank",
+      "uebersetzung": {
+        "fa": "در حال مرگ",
+        "en": "mortally ill"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "kerngesund",
+      "uebersetzung": {
+        "fa": "کاملاً سالم",
+        "en": "perfectly healthy"
+      }
+    },
+    {
+      "wort": "gesund",
+      "uebersetzung": {
+        "fa": "سالم",
+        "en": "healthy"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Tod (مرگ) + krank (بیمار)",
+    "en": "Tod (death) + krank (ill)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "todkrank",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein todkranker Patient",
+      "die todkranke Mutter"
+    ],
+    "gegensatzpaar": "todkrank ↔ kerngesund"
+  },
+  "wortnetz": {
+    "grundwort": "Krankheit",
+    "woerter": [
+      {
+        "wort": "krank",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "ill"
+        },
+        "id_ref": "adjektiv_krank"
+      },
+      {
+        "wort": "schwerkrank",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سخت بیمار",
+          "en": "seriously ill"
+        },
+        "id_ref": "adjektiv_schwerkrank"
+      },
+      {
+        "wort": "kerngesund",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کاملاً سالم",
+          "en": "perfectly healthy"
+        },
+        "id_ref": "adjektiv_kerngesund"
+      },
+      {
+        "wort": "das Krankenhaus",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمارستان",
+          "en": "hospital"
+        },
+        "id_ref": "nomen_krankenhaus"
+      },
+      {
+        "wort": "pflegen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مراقبت کردن",
+          "en": "to care for"
+        },
+        "id_ref": "verb_pflegen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

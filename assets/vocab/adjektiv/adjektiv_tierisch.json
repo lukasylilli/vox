@@ -1,0 +1,153 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_tierisch",
+  "wort": "tierisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "حیوانی",
+      "وحشیانه",
+      "خیلی (عامیانه)"
+    ],
+    "en": [
+      "animal",
+      "bestial",
+      "terribly"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Tiere",
+    "Ernährung",
+    "Umgangssprache"
+  ],
+  "ipa": "ˈtiːʁɪʃ",
+  "anmerkung": "Vom Tier stammend („tierische Produkte“); abwertend: wie ein Tier; umgangssprachlich als Verstärkung: „tierisch gut“ = sehr gut.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Veganer essen keine tierischen Produkte.",
+      "uebersetzung": {
+        "fa": "وگان‌ها هیچ محصول حیوانی نمی‌خورند.",
+        "en": "Vegans do not eat animal products."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Das Konzert war tierisch gut, wir haben die ganze Zeit getanzt.",
+      "uebersetzung": {
+        "fa": "کنسرت خیلی خوب بود، ما تمام وقت رقصیدیم.",
+        "en": "The concert was terribly good; we danced the whole time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "animalisch",
+      "uebersetzung": {
+        "fa": "حیوانی",
+        "en": "animal"
+      }
+    },
+    {
+      "wort": "sehr",
+      "uebersetzung": {
+        "fa": "خیلی",
+        "en": "very"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "pflanzlich",
+      "uebersetzung": {
+        "fa": "گیاهی",
+        "en": "vegetable"
+      }
+    },
+    {
+      "wort": "menschlich",
+      "uebersetzung": {
+        "fa": "انسانی",
+        "en": "human"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Tier (حیوان) + -isch",
+    "en": "Tier (animal) + -isch"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "tierisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "tierische Produkte",
+      "das tierische Eiweiß"
+    ],
+    "gegensatzpaar": "tierisch ↔ pflanzlich"
+  },
+  "wortnetz": {
+    "grundwort": "Tier",
+    "woerter": [
+      {
+        "wort": "das Tier",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حیوان",
+          "en": "animal"
+        },
+        "id_ref": "nomen_tier"
+      },
+      {
+        "wort": "pflanzlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گیاهی",
+          "en": "vegetable"
+        },
+        "id_ref": "adjektiv_pflanzlich"
+      },
+      {
+        "wort": "vegan",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وگان",
+          "en": "vegan"
+        },
+        "id_ref": "adjektiv_vegan"
+      },
+      {
+        "wort": "das Eiweiß",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پروتئین",
+          "en": "protein"
+        },
+        "id_ref": "nomen_eiweiss"
+      },
+      {
+        "wort": "animalisch",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "حیوانی",
+          "en": "animal"
+        },
+        "id_ref": "adjektiv_animalisch"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

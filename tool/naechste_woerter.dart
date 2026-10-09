@@ -690,6 +690,13 @@ const zurueckgestellt = <String>{
   'thermophil', // Fachwort Biologie, selten, unsicher 2026-10-09
   'thetisch', // Fachwort Philosophie, selten, unsicher 2026-10-09
   'thorakal', // medizinisches Fachwort, selten, unsicher 2026-10-09
+  'timokratisch', // selten, unsicher 2026-10-09
+  'timoresisch', // Ortsadjektiv, unsicher, unsicher 2026-10-09
+  'tobsüchtig', // veraltet medizinisch, unsicher 2026-10-09
+  'todgeweiht', // literarisch/heikel, unsicher 2026-10-09
+  'töfte', // berlinerisch, unsicher, unsicher 2026-10-09
+  'tönern', // Materialadjektiv wie birken, unsicher 2026-10-09
+  'togoisch', // ungebräuchliche Nebenform, unsicher 2026-10-09
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
