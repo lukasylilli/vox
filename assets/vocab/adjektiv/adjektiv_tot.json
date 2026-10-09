@@ -1,0 +1,159 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_tot",
+  "wort": "tot",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "مرده",
+      "بی‌جان",
+      "از کار افتاده"
+    ],
+    "en": [
+      "dead",
+      "lifeless"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Leben",
+    "Gesundheit",
+    "Alltag"
+  ],
+  "ipa": "toːt",
+  "anmerkung": "Nicht mehr lebend; bildlich auch: ohne Leben („eine tote Stadt“) oder ohne Funktion („Die Leitung ist tot“). Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Der Vogel ist tot.",
+      "uebersetzung": {
+        "fa": "پرنده مرده است.",
+        "en": "The bird is dead."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Am Sonntag wirkt die Innenstadt fast tot, weil alle Geschäfte geschlossen sind.",
+      "uebersetzung": {
+        "fa": "یکشنبه‌ها مرکز شهر تقریباً مرده به نظر می‌رسد، چون همه‌ی مغازه‌ها بسته‌اند.",
+        "en": "On Sundays the city centre seems almost dead because all the shops are closed."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gestorben",
+      "uebersetzung": {
+        "fa": "درگذشته",
+        "en": "died"
+      }
+    },
+    {
+      "wort": "leblos",
+      "uebersetzung": {
+        "fa": "بی‌جان",
+        "en": "lifeless"
+      }
+    },
+    {
+      "wort": "verstorben",
+      "uebersetzung": {
+        "fa": "درگذشته",
+        "en": "deceased"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "lebendig",
+      "uebersetzung": {
+        "fa": "زنده",
+        "en": "alive"
+      }
+    },
+    {
+      "wort": "lebend",
+      "uebersetzung": {
+        "fa": "زنده",
+        "en": "living"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mhd. tôt (مرده) ← ahd. tôt",
+    "en": "mhd. tôt (dead) ← ahd. tôt"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "tot",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein toter Baum",
+      "die tote Leitung"
+    ],
+    "gegensatzpaar": "tot ↔ lebendig"
+  },
+  "wortnetz": {
+    "grundwort": "Tod",
+    "woerter": [
+      {
+        "wort": "der Tod",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مرگ",
+          "en": "death"
+        },
+        "id_ref": "nomen_tod"
+      },
+      {
+        "wort": "sterben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مردن",
+          "en": "to die"
+        },
+        "id_ref": "verb_sterben"
+      },
+      {
+        "wort": "lebendig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زنده",
+          "en": "alive"
+        },
+        "id_ref": "adjektiv_lebendig"
+      },
+      {
+        "wort": "der Tote",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مرده",
+          "en": "dead person"
+        },
+        "id_ref": "nomen_tote"
+      },
+      {
+        "wort": "leblos",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بی‌جان",
+          "en": "lifeless"
+        },
+        "id_ref": "adjektiv_leblos"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

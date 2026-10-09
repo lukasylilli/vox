@@ -697,6 +697,16 @@ const zurueckgestellt = <String>{
   'töfte', // berlinerisch, unsicher, unsicher 2026-10-09
   'tönern', // Materialadjektiv wie birken, unsicher 2026-10-09
   'togoisch', // ungebräuchliche Nebenform, unsicher 2026-10-09
+  'tomatiert', // Küchenfachwort, unsicher, unsicher 2026-10-09
+  'tongaisch', // Ortsadjektiv, unsicher, unsicher 2026-10-09
+  'tonhaltig', // Fachkompositum, unsicher, unsicher 2026-10-09
+  'tonisch', // Fachwort, selten, unsicher 2026-10-09
+  'tonotop', // Fachwort, sehr selten, unsicher 2026-10-09
+  'topasen', // Materialadjektiv wie birken, unsicher 2026-10-09
+  'topisch', // medizinisches Fachwort, selten, unsicher 2026-10-09
+  'toreutisch', // Fachwort Kunst, sehr selten, unsicher 2026-10-09
+  'totipotent', // Fachwort Biologie, selten, unsicher 2026-10-09
+  'träf', // schweizerisch, unsicher, unsicher 2026-10-09
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
