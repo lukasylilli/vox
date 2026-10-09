@@ -1,0 +1,166 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_synonym",
+  "wort": "synonym",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "مترادف",
+      "هم‌معنا"
+    ],
+    "en": [
+      "synonymous"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Sprache",
+    "Linguistik",
+    "Schule"
+  ],
+  "ipa": "zynoˈnyːm",
+  "anmerkung": "Mit gleicher oder sehr ähnlicher Bedeutung; man sagt: „synonym mit + Dat“ oder „synonym zu + Dat“. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "„Anfangen“ und „beginnen“ sind synonym.",
+      "uebersetzung": {
+        "fa": "«anfangen» و «beginnen» مترادف‌اند.",
+        "en": "“Anfangen” and “beginnen” are synonymous."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Alltag wird „Handy“ synonym mit „Smartphone“ verwendet.",
+      "uebersetzung": {
+        "fa": "در زندگی روزمره «Handy» مترادف با «Smartphone» به کار می‌رود.",
+        "en": "In everyday life “Handy” is used synonymously with “smartphone”."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gleichbedeutend",
+      "uebersetzung": {
+        "fa": "هم‌معنا",
+        "en": "equivalent"
+      }
+    },
+    {
+      "wort": "bedeutungsgleich",
+      "uebersetzung": {
+        "fa": "هم‌معنی",
+        "en": "synonymous"
+      }
+    },
+    {
+      "wort": "sinnverwandt",
+      "uebersetzung": {
+        "fa": "هم‌معنا",
+        "en": "related in meaning"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "antonym",
+      "uebersetzung": {
+        "fa": "متضاد",
+        "en": "antonymous"
+      }
+    },
+    {
+      "wort": "gegensätzlich",
+      "uebersetzung": {
+        "fa": "متضاد",
+        "en": "opposite"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "gr. synonymos (هم‌نام) ← syn + onoma (نام)",
+    "en": "gr. synonymos (of like name) ← syn + onoma (name)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "synonym",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "synonym mit + Dat",
+        "beispiel": "Das Wort ist synonym mit „schnell“.",
+        "uebersetzung": {
+          "fa": "این کلمه مترادف «schnell» است.",
+          "en": "The word is synonymous with “schnell”."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "synonyme Wörter",
+      "der synonyme Ausdruck"
+    ],
+    "gegensatzpaar": "synonym ↔ antonym"
+  },
+  "wortnetz": {
+    "grundwort": "Synonym",
+    "woerter": [
+      {
+        "wort": "das Synonym",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مترادف",
+          "en": "synonym"
+        },
+        "id_ref": "nomen_synonym"
+      },
+      {
+        "wort": "das Antonym",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "متضاد",
+          "en": "antonym"
+        },
+        "id_ref": "nomen_antonym"
+      },
+      {
+        "wort": "gleichbedeutend",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "هم‌معنا",
+          "en": "equivalent"
+        },
+        "id_ref": "adjektiv_gleichbedeutend"
+      },
+      {
+        "wort": "die Bedeutung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "معنا",
+          "en": "meaning"
+        },
+        "id_ref": "nomen_bedeutung"
+      },
+      {
+        "wort": "das Wort",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کلمه",
+          "en": "word"
+        },
+        "id_ref": "nomen_wort"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

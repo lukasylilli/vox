@@ -656,6 +656,16 @@ const zurueckgestellt = <String>{
   'syndetisch', // Fachwort Linguistik, selten, unsicher 2026-10-09
   'synekdochisch', // Fachwort Rhetorik, selten, unsicher 2026-10-09
   'synergistisch', // Fachwort, selten, unsicher 2026-10-09
+  'synkretistisch', // Fachwort, selten, unsicher 2026-10-09
+  'synsemantisch', // Fachwort Linguistik, selten, unsicher 2026-10-09
+  'synsystematisch', // Fachwort, sehr selten, unsicher 2026-10-09
+  'syntagmatisch', // Fachwort Linguistik, selten, unsicher 2026-10-09
+  'syntaxonomisch', // Fachwort, sehr selten, unsicher 2026-10-09
+  'syntonisch', // Fachwort Psychologie, selten, unsicher 2026-10-09
+  'systemlos', // selten, unsicher, unsicher 2026-10-09
+  'systemoid', // Fachwort, sehr selten, unsicher 2026-10-09
+  'szientifisch', // veraltet, selten, unsicher 2026-10-09
+  'tablettensüchtig', // heikel, unsicher, unsicher 2026-10-09
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

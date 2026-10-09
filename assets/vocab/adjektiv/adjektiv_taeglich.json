@@ -1,0 +1,150 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_taeglich",
+  "wort": "täglich",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "روزانه",
+      "هرروزه"
+    ],
+    "en": [
+      "daily",
+      "every day"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Zeit",
+    "Alltag"
+  ],
+  "ipa": "ˈtɛːklɪç",
+  "anmerkung": "Jeden Tag; auch Adverb: „täglich trainieren“. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich trinke täglich zwei Liter Wasser.",
+      "uebersetzung": {
+        "fa": "من روزانه دو لیتر آب می‌نوشم.",
+        "en": "I drink two litres of water every day."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die tägliche Fahrt zur Arbeit dauert über eine Stunde, deshalb höre ich Podcasts im Zug.",
+      "uebersetzung": {
+        "fa": "رفت‌وآمد روزانه به محل کار بیش از یک ساعت طول می‌کشد، برای همین در قطار پادکست گوش می‌دهم.",
+        "en": "The daily journey to work takes over an hour, so I listen to podcasts on the train."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "alltäglich",
+      "uebersetzung": {
+        "fa": "روزمره",
+        "en": "everyday"
+      }
+    },
+    {
+      "wort": "jeden Tag",
+      "uebersetzung": {
+        "fa": "هر روز",
+        "en": "every day"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "wöchentlich",
+      "uebersetzung": {
+        "fa": "هفتگی",
+        "en": "weekly"
+      }
+    },
+    {
+      "wort": "selten",
+      "uebersetzung": {
+        "fa": "به‌ندرت",
+        "en": "rarely"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Tag (روز) + -lich, umgelautet",
+    "en": "Tag (day) + -lich, with umlaut"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "täglich",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "die tägliche Arbeit",
+      "das tägliche Brot"
+    ],
+    "gegensatzpaar": "täglich ↔ wöchentlich"
+  },
+  "wortnetz": {
+    "grundwort": "Tag",
+    "woerter": [
+      {
+        "wort": "der Tag",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "روز",
+          "en": "day"
+        },
+        "id_ref": "nomen_tag"
+      },
+      {
+        "wort": "alltäglich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "روزمره",
+          "en": "everyday"
+        },
+        "id_ref": "adjektiv_alltaeglich"
+      },
+      {
+        "wort": "wöchentlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "هفتگی",
+          "en": "weekly"
+        },
+        "id_ref": "adjektiv_woechentlich"
+      },
+      {
+        "wort": "monatlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ماهانه",
+          "en": "monthly"
+        },
+        "id_ref": "adjektiv_monatlich"
+      },
+      {
+        "wort": "der Alltag",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زندگی روزمره",
+          "en": "everyday life"
+        },
+        "id_ref": "nomen_alltag"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,150 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_syntaktisch",
+  "wort": "syntaktisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "نحوی",
+      "ساختاری (جمله)"
+    ],
+    "en": [
+      "syntactic"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Grammatik",
+    "Linguistik",
+    "Informatik"
+  ],
+  "ipa": "zʏnˈtaktɪʃ",
+  "anmerkung": "Zur Syntax (Satzbau) gehörend; auch in der Informatik: „syntaktischer Fehler“ im Code. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Der Satz ist syntaktisch richtig, aber inhaltlich falsch.",
+      "uebersetzung": {
+        "fa": "جمله از نظر نحوی درست ولی از نظر محتوا غلط است.",
+        "en": "The sentence is syntactically correct but wrong in content."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Das Programm stürzte wegen eines syntaktischen Fehlers in einer einzigen Zeile ab.",
+      "uebersetzung": {
+        "fa": "برنامه به‌خاطر یک خطای نحوی در یک خط از کار افتاد.",
+        "en": "The program crashed because of a syntactic error in a single line."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "grammatisch",
+      "uebersetzung": {
+        "fa": "دستوری",
+        "en": "grammatical"
+      }
+    },
+    {
+      "wort": "strukturell",
+      "uebersetzung": {
+        "fa": "ساختاری",
+        "en": "structural"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "semantisch",
+      "uebersetzung": {
+        "fa": "معنایی",
+        "en": "semantic"
+      }
+    },
+    {
+      "wort": "lexikalisch",
+      "uebersetzung": {
+        "fa": "واژگانی",
+        "en": "lexical"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "gr. syntaktikos (ترتیب‌دهنده) → syntaktisch",
+    "en": "gr. syntaktikos (arranging) → syntaktisch"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "syntaktisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein syntaktischer Fehler",
+      "die syntaktische Struktur"
+    ],
+    "gegensatzpaar": "syntaktisch ↔ semantisch"
+  },
+  "wortnetz": {
+    "grundwort": "Syntax",
+    "woerter": [
+      {
+        "wort": "die Syntax",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نحو",
+          "en": "syntax"
+        },
+        "id_ref": "nomen_syntax"
+      },
+      {
+        "wort": "der Satzbau",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ساختار جمله",
+          "en": "sentence structure"
+        },
+        "id_ref": "nomen_satzbau"
+      },
+      {
+        "wort": "semantisch",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "معنایی",
+          "en": "semantic"
+        },
+        "id_ref": "adjektiv_semantisch"
+      },
+      {
+        "wort": "grammatisch",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دستوری",
+          "en": "grammatical"
+        },
+        "id_ref": "adjektiv_grammatisch"
+      },
+      {
+        "wort": "der Fehler",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خطا",
+          "en": "error"
+        },
+        "id_ref": "nomen_fehler"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
