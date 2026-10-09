@@ -707,6 +707,15 @@ const zurueckgestellt = <String>{
   'toreutisch', // Fachwort Kunst, sehr selten, unsicher 2026-10-09
   'totipotent', // Fachwort Biologie, selten, unsicher 2026-10-09
   'träf', // schweizerisch, unsicher, unsicher 2026-10-09
+  'transdisziplinär', // Fachwort, selten, unsicher 2026-10-09
+  'transfinit', // Fachwort Mathematik, selten, unsicher 2026-10-09
+  'transient', // Fachwort, selten, unsicher 2026-10-09
+  'transitorisch', // bildungssprachlich, selten, unsicher 2026-10-09
+  'transmembranös', // Fachwort Biologie, sehr selten, unsicher 2026-10-09
+  'transregional', // Fachkompositum, unsicher, unsicher 2026-10-09
+  'transspezifisch', // Fachwort, sehr selten, unsicher 2026-10-09
+  'transzendental', // Fachwort Philosophie, selten, unsicher 2026-10-09
+  'treife', // religiöses Fachwort, selten, unsicher 2026-10-09
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

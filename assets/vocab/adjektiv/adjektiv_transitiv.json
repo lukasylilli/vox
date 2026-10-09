@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_transitiv",
+  "wort": "transitiv",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "متعدی",
+      "گذرا (فعل)"
+    ],
+    "en": [
+      "transitive"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Grammatik",
+    "Linguistik"
+  ],
+  "ipa": "ˈtʁanzitiːf",
+  "anmerkung": "Grammatik: Ein Verb mit Akkusativobjekt („Ich lese ein Buch“). Gegenteil: „intransitiv“. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "„Lesen“ ist ein transitives Verb.",
+      "uebersetzung": {
+        "fa": "«lesen» یک فعل متعدی است.",
+        "en": "“Lesen” is a transitive verb."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nur transitive Verben können ein persönliches Passiv bilden.",
+      "uebersetzung": {
+        "fa": "فقط فعل‌های متعدی می‌توانند مجهول شخصی بسازند.",
+        "en": "Only transitive verbs can form a personal passive."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zielend",
+      "uebersetzung": {
+        "fa": "متعدی",
+        "en": "transitive"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "intransitiv",
+      "uebersetzung": {
+        "fa": "لازم",
+        "en": "intransitive"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. transitivus (گذرنده) ← transire",
+    "en": "lat. transitivus (passing over) ← transire"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "transitiv",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein transitives Verb",
+      "die transitive Form"
+    ],
+    "gegensatzpaar": "transitiv ↔ intransitiv"
+  },
+  "wortnetz": {
+    "grundwort": "Transitivität",
+    "woerter": [
+      {
+        "wort": "intransitiv",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لازم",
+          "en": "intransitive"
+        },
+        "id_ref": "adjektiv_intransitiv"
+      },
+      {
+        "wort": "das Verb",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فعل",
+          "en": "verb"
+        },
+        "id_ref": "nomen_verb"
+      },
+      {
+        "wort": "das Objekt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مفعول",
+          "en": "object"
+        },
+        "id_ref": "nomen_objekt"
+      },
+      {
+        "wort": "der Akkusativ",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حالت مفعولی",
+          "en": "accusative"
+        },
+        "id_ref": "nomen_akkusativ"
+      },
+      {
+        "wort": "das Passiv",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مجهول",
+          "en": "passive"
+        },
+        "id_ref": "nomen_passiv"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

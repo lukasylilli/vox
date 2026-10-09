@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_traurig",
+  "wort": "traurig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "غمگین",
+      "اندوهگین",
+      "ناراحت"
+    ],
+    "en": [
+      "sad",
+      "unhappy",
+      "sorrowful"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Gefühle",
+    "Alltag"
+  ],
+  "ipa": "ˈtʁaʊ̯ʁɪç",
+  "anmerkung": "Voller Trauer oder Kummer; auch „eine traurige Nachricht“. Man sagt: „traurig über + Akk“.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Warum bist du so traurig?",
+      "uebersetzung": {
+        "fa": "چرا این‌قدر غمگینی؟",
+        "en": "Why are you so sad?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Kinder waren traurig über den Tod ihrer Katze und weinten den ganzen Abend.",
+      "uebersetzung": {
+        "fa": "بچه‌ها از مرگ گربه‌شان غمگین بودند و تمام شب گریه کردند.",
+        "en": "The children were sad about the death of their cat and cried all evening."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "betrübt",
+      "uebersetzung": {
+        "fa": "اندوهگین",
+        "en": "saddened"
+      }
+    },
+    {
+      "wort": "bedrückt",
+      "uebersetzung": {
+        "fa": "افسرده",
+        "en": "depressed"
+      }
+    },
+    {
+      "wort": "unglücklich",
+      "uebersetzung": {
+        "fa": "ناخوشحال",
+        "en": "unhappy"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "fröhlich",
+      "uebersetzung": {
+        "fa": "شاد",
+        "en": "cheerful"
+      }
+    },
+    {
+      "wort": "glücklich",
+      "uebersetzung": {
+        "fa": "خوشحال",
+        "en": "happy"
+      }
+    },
+    {
+      "wort": "lustig",
+      "uebersetzung": {
+        "fa": "بامزه",
+        "en": "funny"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mhd. trûrec (اندوهگین) ← trûren",
+    "en": "mhd. trûrec (sorrowful) ← trûren"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "traurig",
+      "komparativ": "trauriger",
+      "superlativ": "am traurigsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "traurig über + Akk",
+        "beispiel": "Sie ist traurig über den Abschied.",
+        "uebersetzung": {
+          "fa": "او از جدایی غمگین است.",
+          "en": "She is sad about the farewell."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "eine traurige Nachricht",
+      "das traurige Gesicht"
+    ],
+    "gegensatzpaar": "traurig ↔ fröhlich"
+  },
+  "wortnetz": {
+    "grundwort": "Trauer",
+    "woerter": [
+      {
+        "wort": "die Trauer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سوگ",
+          "en": "grief"
+        },
+        "id_ref": "nomen_trauer"
+      },
+      {
+        "wort": "trauern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سوگواری کردن",
+          "en": "to mourn"
+        },
+        "id_ref": "verb_trauern"
+      },
+      {
+        "wort": "glücklich",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوشحال",
+          "en": "happy"
+        },
+        "id_ref": "adjektiv_gluecklich"
+      },
+      {
+        "wort": "unglücklich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ناخوشحال",
+          "en": "unhappy"
+        },
+        "id_ref": "adjektiv_ungluecklich"
+      },
+      {
+        "wort": "weinen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گریه کردن",
+          "en": "to cry"
+        },
+        "id_ref": "verb_weinen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
