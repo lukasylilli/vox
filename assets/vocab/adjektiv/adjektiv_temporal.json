@@ -1,0 +1,143 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_temporal",
+  "wort": "temporal",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "زمانی",
+      "وابسته به زمان"
+    ],
+    "en": [
+      "temporal"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Grammatik",
+    "Linguistik",
+    "Medizin"
+  ],
+  "ipa": "tɛmpoˈʁaːl",
+  "anmerkung": "Grammatik: die Zeit betreffend („temporale Konjunktion“ wie „als“, „nachdem“); Medizin: zur Schläfe gehörend. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "„Nachdem“ ist eine temporale Konjunktion.",
+      "uebersetzung": {
+        "fa": "«nachdem» یک حرف ربط زمانی است.",
+        "en": "“Nachdem” is a temporal conjunction."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Temporale Nebensätze beschreiben, wann etwas im Verhältnis zur Haupthandlung geschieht.",
+      "uebersetzung": {
+        "fa": "جمله‌های پیرو زمانی توصیف می‌کنند که چیزی نسبت به عمل اصلی چه زمانی رخ می‌دهد.",
+        "en": "Temporal clauses describe when something happens in relation to the main action."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zeitlich",
+      "uebersetzung": {
+        "fa": "زمانی",
+        "en": "temporal"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "kausal",
+      "uebersetzung": {
+        "fa": "علّی",
+        "en": "causal"
+      }
+    },
+    {
+      "wort": "lokal",
+      "uebersetzung": {
+        "fa": "مکانی",
+        "en": "local"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. temporalis (زمانی) ← tempus (زمان)",
+    "en": "lat. temporalis (of time) ← tempus (time)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "temporal",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine temporale Konjunktion",
+      "der temporale Nebensatz"
+    ],
+    "gegensatzpaar": "temporal ↔ kausal"
+  },
+  "wortnetz": {
+    "grundwort": "Tempus",
+    "woerter": [
+      {
+        "wort": "das Tempus",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "زمان دستوری",
+          "en": "tense"
+        },
+        "id_ref": "nomen_tempus"
+      },
+      {
+        "wort": "zeitlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زمانی",
+          "en": "temporal"
+        },
+        "id_ref": "adjektiv_zeitlich"
+      },
+      {
+        "wort": "kausal",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "علّی",
+          "en": "causal"
+        },
+        "id_ref": "adjektiv_kausal"
+      },
+      {
+        "wort": "die Konjunktion",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حرف ربط",
+          "en": "conjunction"
+        },
+        "id_ref": "nomen_konjunktion"
+      },
+      {
+        "wort": "der Nebensatz",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جمله‌ی پیرو",
+          "en": "subordinate clause"
+        },
+        "id_ref": "nomen_nebensatz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

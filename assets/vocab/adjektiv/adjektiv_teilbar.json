@@ -1,0 +1,144 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_teilbar",
+  "wort": "teilbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "تقسیم‌پذیر",
+      "قابل تقسیم"
+    ],
+    "en": [
+      "divisible"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Mathematik",
+    "Alltag"
+  ],
+  "ipa": "ˈtaɪ̯lbaːɐ̯",
+  "anmerkung": "Kann geteilt werden; in der Mathematik: „teilbar durch + Akk“ (ohne Rest). Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Zehn ist durch zwei teilbar.",
+      "uebersetzung": {
+        "fa": "ده بر دو بخش‌پذیر است.",
+        "en": "Ten is divisible by two."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Eine Primzahl ist nur durch eins und durch sich selbst teilbar.",
+      "uebersetzung": {
+        "fa": "عدد اول فقط بر یک و بر خودش بخش‌پذیر است.",
+        "en": "A prime number is only divisible by one and by itself."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufteilbar",
+      "uebersetzung": {
+        "fa": "قابل تقسیم",
+        "en": "dividable"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "unteilbar",
+      "uebersetzung": {
+        "fa": "تقسیم‌ناپذیر",
+        "en": "indivisible"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "teilen (تقسیم کردن) + -bar",
+    "en": "teilen (to divide) + -bar"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "teilbar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "teilbar durch + Akk",
+        "beispiel": "Die Zahl ist durch drei teilbar.",
+        "uebersetzung": {
+          "fa": "این عدد بر سه بخش‌پذیر است.",
+          "en": "The number is divisible by three."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "eine teilbare Zahl",
+      "die teilbare Menge"
+    ],
+    "gegensatzpaar": "teilbar ↔ unteilbar"
+  },
+  "wortnetz": {
+    "grundwort": "teilen",
+    "woerter": [
+      {
+        "wort": "teilen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تقسیم کردن",
+          "en": "to divide"
+        },
+        "id_ref": "verb_teilen"
+      },
+      {
+        "wort": "unteilbar",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تقسیم‌ناپذیر",
+          "en": "indivisible"
+        },
+        "id_ref": "adjektiv_unteilbar"
+      },
+      {
+        "wort": "die Primzahl",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عدد اول",
+          "en": "prime number"
+        },
+        "id_ref": "nomen_primzahl"
+      },
+      {
+        "wort": "die Zahl",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عدد",
+          "en": "number"
+        },
+        "id_ref": "nomen_zahl"
+      },
+      {
+        "wort": "der Rest",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "باقی‌مانده",
+          "en": "remainder"
+        },
+        "id_ref": "nomen_rest"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -673,6 +673,14 @@ const zurueckgestellt = <String>{
   'tannen', // Materialadjektiv wie birken, unsicher 2026-10-09
   'tarentinisch', // Ortsadjektiv, sehr selten, unsicher 2026-10-09
   'taubstumm', // veraltet/verletzend, Entscheidung Lukas, unsicher 2026-10-09
+  'tausendstel', // Bruchzahl, unsicher, unsicher 2026-10-09
+  'taxativ', // österr. juristisch, selten, unsicher 2026-10-09
+  'teaken', // Materialadjektiv wie birken, unsicher 2026-10-09
+  'teilerfremd', // Fachwort Mathematik, selten, unsicher 2026-10-09
+  'teleoklin', // Fachwort, sehr selten, unsicher 2026-10-09
+  'teleologisch', // Fachwort Philosophie, selten, unsicher 2026-10-09
+  'tellurisch', // Fachwort, selten, unsicher 2026-10-09
+  'tentativ', // bildungssprachlich, selten, unsicher 2026-10-09
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
@@ -689,6 +697,7 @@ const wortartKorrektur = <String, String>{
   'siebte': 'numerale', // Ordinalzahl (2026-10-08)
   'siebzehnte': 'numerale', // Ordinalzahl (2026-10-08)
   'siebzigste': 'numerale', // Ordinalzahl (2026-10-08)
+  'tausendste': 'numerale', // Ordinalzahl (2026-10-09)
   'achtzehnte': 'numerale', // Ordinalzahl (2026-09-24)
   'achtzigste': 'numerale', // Ordinalzahl (2026-09-24)
   'andante': 'adverb', // Tempobezeichnung, Duden: Adverb (2026-09-25)

@@ -1,0 +1,143 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_tautologisch",
+  "wort": "tautologisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "همان‌گویانه",
+      "تکراری (معنایی)"
+    ],
+    "en": [
+      "tautological"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Sprache",
+    "Logik",
+    "Stil"
+  ],
+  "ipa": "tautoˈloːɡɪʃ",
+  "anmerkung": "Bildungssprachlich: dasselbe zweimal mit anderen Worten sagend („weißer Schimmel“). Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "C1",
+      "satz": "„Ein runder Kreis“ ist ein tautologischer Ausdruck.",
+      "uebersetzung": {
+        "fa": "«دایره‌ی گرد» یک عبارت همان‌گویانه است.",
+        "en": "“A round circle” is a tautological expression."
+      }
+    },
+    {
+      "niveau": "C2",
+      "satz": "Die Begründung ist tautologisch: Sie wiederholt nur die Behauptung mit anderen Worten.",
+      "uebersetzung": {
+        "fa": "استدلال همان‌گویانه است: فقط ادعا را با کلمات دیگر تکرار می‌کند.",
+        "en": "The reasoning is tautological: it merely repeats the claim in other words."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "pleonastisch",
+      "uebersetzung": {
+        "fa": "حشوآمیز",
+        "en": "pleonastic"
+      }
+    },
+    {
+      "wort": "redundant",
+      "uebersetzung": {
+        "fa": "زائد",
+        "en": "redundant"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "informativ",
+      "uebersetzung": {
+        "fa": "آموزنده",
+        "en": "informative"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "gr. tauto (همان) + logos (سخن) + -isch",
+    "en": "gr. tauto (the same) + logos (word) + -isch"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "tautologisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein tautologischer Ausdruck",
+      "die tautologische Begründung"
+    ],
+    "gegensatzpaar": "tautologisch ↔ informativ"
+  },
+  "wortnetz": {
+    "grundwort": "Tautologie",
+    "woerter": [
+      {
+        "wort": "die Tautologie",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "همان‌گویی",
+          "en": "tautology"
+        },
+        "id_ref": "nomen_tautologie"
+      },
+      {
+        "wort": "redundant",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "زائد",
+          "en": "redundant"
+        },
+        "id_ref": "adjektiv_redundant"
+      },
+      {
+        "wort": "der Ausdruck",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عبارت",
+          "en": "expression"
+        },
+        "id_ref": "nomen_ausdruck"
+      },
+      {
+        "wort": "die Begründung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "استدلال",
+          "en": "reasoning"
+        },
+        "id_ref": "nomen_begruendung"
+      },
+      {
+        "wort": "informativ",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آموزنده",
+          "en": "informative"
+        },
+        "id_ref": "adjektiv_informativ"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
