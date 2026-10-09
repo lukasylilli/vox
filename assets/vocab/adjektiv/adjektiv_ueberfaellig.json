@@ -1,0 +1,153 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_ueberfaellig",
+  "wort": "überfällig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "عقب‌افتاده",
+      "دیرکرده",
+      "ضروری و دیرشده"
+    ],
+    "en": [
+      "overdue",
+      "long overdue",
+      "late"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Zeit",
+    "Verkehr",
+    "Finanzen"
+  ],
+  "ipa": "ˈyːbɐˌfɛlɪç",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Zug ist schon überfällig.",
+      "uebersetzung": {
+        "fa": "قطار دیگر دیر کرده است.",
+        "en": "The train is already overdue."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Reform ist längst überfällig, denn das alte System funktioniert nicht mehr.",
+      "uebersetzung": {
+        "fa": "این اصلاحات خیلی وقت است که دیر شده، چون سیستم قدیمی دیگر کار نمی‌کند.",
+        "en": "The reform is long overdue, because the old system no longer works."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verspätet",
+      "uebersetzung": {
+        "fa": "دیرکرده",
+        "en": "delayed"
+      }
+    },
+    {
+      "wort": "fällig",
+      "uebersetzung": {
+        "fa": "سررسیده",
+        "en": "due"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "pünktlich",
+      "uebersetzung": {
+        "fa": "سروقت",
+        "en": "punctual"
+      }
+    },
+    {
+      "wort": "rechtzeitig",
+      "uebersetzung": {
+        "fa": "به‌موقع",
+        "en": "timely"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "über- (فراتر از) + fällig (سررسیده)",
+    "en": "über- (beyond) + fällig (due)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "überfällig",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine überfällige Rechnung",
+      "die überfällige Entscheidung"
+    ],
+    "gegensatzpaar": "überfällig ↔ pünktlich"
+  },
+  "wortnetz": {
+    "grundwort": "fällig",
+    "woerter": [
+      {
+        "wort": "fällig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سررسیده",
+          "en": "due"
+        },
+        "id_ref": "adjektiv_faellig"
+      },
+      {
+        "wort": "die Frist",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مهلت",
+          "en": "deadline"
+        },
+        "id_ref": "nomen_frist"
+      },
+      {
+        "wort": "die Rechnung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صورت‌حساب",
+          "en": "bill"
+        },
+        "id_ref": "nomen_rechnung"
+      },
+      {
+        "wort": "verspätet",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دیرکرده",
+          "en": "delayed"
+        },
+        "id_ref": "adjektiv_verspaetet"
+      },
+      {
+        "wort": "die Verspätung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تأخیر",
+          "en": "delay"
+        },
+        "id_ref": "nomen_verspaetung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
