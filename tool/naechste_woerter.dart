@@ -632,6 +632,14 @@ const zurueckgestellt = <String>{
   'submers', // Fachwort Biologie, selten, unsicher 2026-10-09
   'submikroskopisch', // Fachwort, selten, unsicher 2026-10-09
   'submukös', // medizinisches Fachwort, selten, unsicher 2026-10-09
+  'subnival', // Fachwort, selten, unsicher 2026-10-09
+  'suborbital', // Fachwort, selten, unsicher 2026-10-09
+  'subperiostal', // medizinisches Fachwort, selten, unsicher 2026-10-09
+  'subphrenisch', // medizinisches Fachwort, selten, unsicher 2026-10-09
+  'subsumtiv', // Fachwort, selten, unsicher 2026-10-09
+  'subterran', // bildungssprachlich, selten, unsicher 2026-10-09
+  'subungual', // medizinisches Fachwort, selten, unsicher 2026-10-09
+  'suburbikarisch', // kirchliches Fachwort, sehr selten, unsicher 2026-10-09
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

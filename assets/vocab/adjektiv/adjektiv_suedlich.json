@@ -1,0 +1,152 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_suedlich",
+  "wort": "südlich",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "جنوبی",
+      "در جنوب"
+    ],
+    "en": [
+      "southern",
+      "south of"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Geografie",
+    "Richtung"
+  ],
+  "ipa": "ˈzyːtlɪç",
+  "anmerkung": "Im Süden gelegen oder nach Süden gerichtet; auch Präposition mit Genitiv („südlich der Alpen“) oder „südlich von + Dat“.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir wohnen im südlichen Teil der Stadt.",
+      "uebersetzung": {
+        "fa": "ما در بخش جنوبی شهر زندگی می‌کنیم.",
+        "en": "We live in the southern part of the city."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Das Dorf liegt etwa zehn Kilometer südlich von München.",
+      "uebersetzung": {
+        "fa": "روستا حدود ده کیلومتر جنوب مونیخ قرار دارد.",
+        "en": "The village lies about ten kilometres south of Munich."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "im Süden",
+      "uebersetzung": {
+        "fa": "در جنوب",
+        "en": "in the south"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "nördlich",
+      "uebersetzung": {
+        "fa": "شمالی",
+        "en": "northern"
+      }
+    },
+    {
+      "wort": "nordwärts",
+      "uebersetzung": {
+        "fa": "به سمت شمال",
+        "en": "northward"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Süd (جنوب) + -lich",
+    "en": "Süd (south) + -lich"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "südlich",
+      "komparativ": "südlicher",
+      "superlativ": "am südlichsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "südlich von + Dat",
+        "beispiel": "Der See liegt südlich von der Stadt.",
+        "uebersetzung": {
+          "fa": "دریاچه در جنوب شهر قرار دارد.",
+          "en": "The lake lies south of the town."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "der südliche Teil",
+      "die südliche Grenze"
+    ],
+    "gegensatzpaar": "südlich ↔ nördlich"
+  },
+  "wortnetz": {
+    "grundwort": "Süden",
+    "woerter": [
+      {
+        "wort": "der Süden",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جنوب",
+          "en": "south"
+        },
+        "id_ref": "nomen_sueden"
+      },
+      {
+        "wort": "nördlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شمالی",
+          "en": "northern"
+        },
+        "id_ref": "adjektiv_noerdlich"
+      },
+      {
+        "wort": "östlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شرقی",
+          "en": "eastern"
+        },
+        "id_ref": "adjektiv_oestlich"
+      },
+      {
+        "wort": "westlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "غربی",
+          "en": "western"
+        },
+        "id_ref": "adjektiv_westlich"
+      },
+      {
+        "wort": "die Grenze",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مرز",
+          "en": "border"
+        },
+        "id_ref": "nomen_grenze"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
