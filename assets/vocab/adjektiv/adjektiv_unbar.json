@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_unbar",
+  "wort": "unbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "غیرنقدی",
+      "بانکی"
+    ],
+    "en": [
+      "cashless",
+      "non-cash"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Finanzen"
+  ],
+  "ipa": "ˈʊnbaːɐ̯",
+  "anmerkung": "Finanz- und Amtssprache: ohne Bargeld (per Überweisung oder Karte).",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Wir zahlen nur unbar.",
+      "uebersetzung": {
+        "fa": "ما فقط به‌صورت غیرنقدی پرداخت می‌کنیم.",
+        "en": "We only pay cashlessly."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Unbarer Zahlungsverkehr nimmt stark zu, weil immer mehr Menschen mit dem Handy bezahlen.",
+      "uebersetzung": {
+        "fa": "پرداخت غیرنقدی به‌شدت افزایش می‌یابد، چون افراد بیشتری با گوشی پرداخت می‌کنند.",
+        "en": "Cashless payments are increasing sharply because more and more people pay with their phones."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bargeldlos",
+      "uebersetzung": {
+        "fa": "بدون پول نقد",
+        "en": "cashless"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "bar",
+      "uebersetzung": {
+        "fa": "نقدی",
+        "en": "in cash"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "un- (نا) + bar (نقد)",
+    "en": "un- (not) + bar (cash)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "unbar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "die unbare Zahlung",
+      "ein unbarer Betrag"
+    ],
+    "gegensatzpaar": "unbar ↔ bar"
+  },
+  "wortnetz": {
+    "grundwort": "das Bargeld",
+    "woerter": [
+      {
+        "wort": "das Bargeld",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پول نقد",
+          "en": "cash"
+        },
+        "id_ref": "nomen_bargeld"
+      },
+      {
+        "wort": "bar",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نقدی",
+          "en": "in cash"
+        },
+        "id_ref": "adjektiv_bar"
+      },
+      {
+        "wort": "bargeldlos",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بدون پول نقد",
+          "en": "cashless"
+        },
+        "id_ref": "adjektiv_bargeldlos"
+      },
+      {
+        "wort": "die Überweisung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حواله‌ی بانکی",
+          "en": "bank transfer"
+        },
+        "id_ref": "nomen_ueberweisung"
+      },
+      {
+        "wort": "bezahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_bezahlen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
