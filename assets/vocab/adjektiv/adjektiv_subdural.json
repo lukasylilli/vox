@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_subdural",
+  "wort": "subdural",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "زیر سخت‌شامه‌ای"
+    ],
+    "en": [
+      "subdural"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Anatomie"
+  ],
+  "ipa": "zʊpduˈʁaːl",
+  "anmerkung": "Fachsprache der Medizin: unter der harten Hirnhaut (Dura mater) gelegen; bekannt aus „subdurales Hämatom“. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "C1",
+      "satz": "Nach dem Sturz wurde ein subdurales Hämatom festgestellt.",
+      "uebersetzung": {
+        "fa": "پس از افتادن، هماتوم زیر سخت‌شامه‌ای تشخیص داده شد.",
+        "en": "After the fall a subdural haematoma was diagnosed."
+      }
+    },
+    {
+      "niveau": "C2",
+      "satz": "Eine subdurale Blutung kann sich langsam entwickeln und erst Tage später Beschwerden verursachen.",
+      "uebersetzung": {
+        "fa": "خونریزی زیر سخت‌شامه‌ای ممکن است آرام پیش برود و روزها بعد علائم ایجاد کند.",
+        "en": "A subdural haemorrhage can develop slowly and only cause symptoms days later."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "epidural",
+      "uebersetzung": {
+        "fa": "روی سخت‌شامه‌ای",
+        "en": "epidural"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. sub (زیر) + dura (mater) (سخت‌شامه)",
+    "en": "lat. sub (under) + dura (mater)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "subdural",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein subdurales Hämatom",
+      "die subdurale Blutung"
+    ],
+    "gegensatzpaar": "subdural ↔ epidural"
+  },
+  "wortnetz": {
+    "grundwort": "Hirnhaut",
+    "woerter": [
+      {
+        "wort": "die Hirnhaut",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "پرده‌ی مغز",
+          "en": "meninges"
+        },
+        "id_ref": "nomen_hirnhaut"
+      },
+      {
+        "wort": "das Hämatom",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "هماتوم",
+          "en": "haematoma"
+        },
+        "id_ref": "nomen_haematom"
+      },
+      {
+        "wort": "die Blutung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خونریزی",
+          "en": "bleeding"
+        },
+        "id_ref": "nomen_blutung"
+      },
+      {
+        "wort": "das Gehirn",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مغز",
+          "en": "brain"
+        },
+        "id_ref": "nomen_gehirn"
+      },
+      {
+        "wort": "epidural",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "اپیدورال",
+          "en": "epidural"
+        },
+        "id_ref": "adjektiv_epidural"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

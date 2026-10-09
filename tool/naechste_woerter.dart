@@ -622,6 +622,16 @@ const zurueckgestellt = <String>{
   'streufähig', // technisch, unsicher, unsicher 2026-10-08
   'strohen', // Materialadjektiv wie birken, unsicher 2026-10-08
   'strunzdumm', // umgangssprachlich/beleidigend, unsicher 2026-10-08
+  'subaquatisch', // Fachwort, selten, unsicher 2026-10-09
+  'subfossil', // Fachwort Geologie, selten, unsicher 2026-10-09
+  'subgingival', // Fachwort Zahnmedizin, selten, unsicher 2026-10-09
+  'subglazial', // Fachwort Glaziologie, selten, unsicher 2026-10-09
+  'subkonszient', // veraltetes Fachwort, selten, unsicher 2026-10-09
+  'subkrustal', // Fachwort Geologie, selten, unsicher 2026-10-09
+  'sublunarisch', // veraltet, selten, unsicher 2026-10-09
+  'submers', // Fachwort Biologie, selten, unsicher 2026-10-09
+  'submikroskopisch', // Fachwort, selten, unsicher 2026-10-09
+  'submukös', // medizinisches Fachwort, selten, unsicher 2026-10-09
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

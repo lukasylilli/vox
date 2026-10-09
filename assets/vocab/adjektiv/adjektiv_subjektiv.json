@@ -1,0 +1,166 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_subjektiv",
+  "wort": "subjektiv",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "ذهنی",
+      "شخصی",
+      "غیرعینی"
+    ],
+    "en": [
+      "subjective",
+      "personal"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Denken",
+    "Wissenschaft",
+    "Kommunikation"
+  ],
+  "ipa": "zʊpjɛkˈtiːf",
+  "anmerkung": "Von der eigenen Sicht und den eigenen Gefühlen bestimmt; Gegenteil: „objektiv“. Auch Adverb.",
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Das ist nur meine subjektive Meinung.",
+      "uebersetzung": {
+        "fa": "این فقط نظر شخصی من است.",
+        "en": "That is only my subjective opinion."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Schmerz wird sehr subjektiv empfunden, deshalb fragen Ärzte nach einer Skala von eins bis zehn.",
+      "uebersetzung": {
+        "fa": "درد بسیار ذهنی احساس می‌شود، به همین دلیل پزشکان از مقیاس یک تا ده می‌پرسند.",
+        "en": "Pain is felt very subjectively, which is why doctors ask for a scale from one to ten."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "persönlich",
+      "uebersetzung": {
+        "fa": "شخصی",
+        "en": "personal"
+      }
+    },
+    {
+      "wort": "individuell",
+      "uebersetzung": {
+        "fa": "فردی",
+        "en": "individual"
+      }
+    },
+    {
+      "wort": "parteiisch",
+      "uebersetzung": {
+        "fa": "جانبدار",
+        "en": "biased"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "objektiv",
+      "uebersetzung": {
+        "fa": "عینی",
+        "en": "objective"
+      }
+    },
+    {
+      "wort": "sachlich",
+      "uebersetzung": {
+        "fa": "واقع‌بینانه",
+        "en": "factual"
+      }
+    },
+    {
+      "wort": "neutral",
+      "uebersetzung": {
+        "fa": "بی‌طرف",
+        "en": "neutral"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. subiectivus (مربوط به فاعل) → subjektiv",
+    "en": "lat. subiectivus (relating to the subject) → subjektiv"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "subjektiv",
+      "komparativ": "subjektiver",
+      "superlativ": "am subjektivsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine subjektive Meinung",
+      "der subjektive Eindruck"
+    ],
+    "gegensatzpaar": "subjektiv ↔ objektiv"
+  },
+  "wortnetz": {
+    "grundwort": "Subjekt",
+    "woerter": [
+      {
+        "wort": "das Subjekt",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فاعل، ذهن",
+          "en": "subject"
+        },
+        "id_ref": "nomen_subjekt"
+      },
+      {
+        "wort": "objektiv",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عینی",
+          "en": "objective"
+        },
+        "id_ref": "adjektiv_objektiv"
+      },
+      {
+        "wort": "persönlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شخصی",
+          "en": "personal"
+        },
+        "id_ref": "adjektiv_persoenlich"
+      },
+      {
+        "wort": "der Eindruck",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برداشت",
+          "en": "impression"
+        },
+        "id_ref": "nomen_eindruck"
+      },
+      {
+        "wort": "die Meinung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نظر",
+          "en": "opinion"
+        },
+        "id_ref": "nomen_meinung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
