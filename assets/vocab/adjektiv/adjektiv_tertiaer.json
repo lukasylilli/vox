@@ -1,0 +1,144 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_tertiaer",
+  "wort": "tertiär",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "سوم",
+      "درجه‌سوم",
+      "ثالث"
+    ],
+    "en": [
+      "tertiary"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft",
+    "Wirtschaft",
+    "Bildung"
+  ],
+  "ipa": "tɛʁˈtsi̯ɛːɐ̯",
+  "anmerkung": "An dritter Stelle; „tertiärer Sektor“ = Dienstleistungen; „Tertiär“ = geologisches Zeitalter. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Der tertiäre Sektor umfasst alle Dienstleistungen.",
+      "uebersetzung": {
+        "fa": "بخش سوم همه‌ی خدمات را در بر می‌گیرد.",
+        "en": "The tertiary sector includes all services."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Universitäten und Fachhochschulen gehören zum tertiären Bildungsbereich.",
+      "uebersetzung": {
+        "fa": "دانشگاه‌ها و دانشکده‌های فنی جزو آموزش عالی (مرحله‌ی سوم) هستند.",
+        "en": "Universities and universities of applied sciences belong to tertiary education."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "drittrangig",
+      "uebersetzung": {
+        "fa": "درجه‌سوم",
+        "en": "third-rate"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "primär",
+      "uebersetzung": {
+        "fa": "نخستین",
+        "en": "primary"
+      }
+    },
+    {
+      "wort": "sekundär",
+      "uebersetzung": {
+        "fa": "ثانویه",
+        "en": "secondary"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. tertiarius (سومی) ← tertius",
+    "en": "lat. tertiarius (third) ← tertius"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "tertiär",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "der tertiäre Sektor",
+      "die tertiäre Bildung"
+    ],
+    "gegensatzpaar": "tertiär ↔ primär"
+  },
+  "wortnetz": {
+    "grundwort": "Sektor",
+    "woerter": [
+      {
+        "wort": "primär",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نخستین",
+          "en": "primary"
+        },
+        "id_ref": "adjektiv_primaer"
+      },
+      {
+        "wort": "sekundär",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ثانویه",
+          "en": "secondary"
+        },
+        "id_ref": "adjektiv_sekundaer"
+      },
+      {
+        "wort": "der Sektor",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بخش",
+          "en": "sector"
+        },
+        "id_ref": "nomen_sektor"
+      },
+      {
+        "wort": "die Dienstleistung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خدمات",
+          "en": "service"
+        },
+        "id_ref": "nomen_dienstleistung"
+      },
+      {
+        "wort": "die Bildung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آموزش",
+          "en": "education"
+        },
+        "id_ref": "nomen_bildung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

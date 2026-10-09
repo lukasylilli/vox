@@ -681,6 +681,15 @@ const zurueckgestellt = <String>{
   'teleologisch', // Fachwort Philosophie, selten, unsicher 2026-10-09
   'tellurisch', // Fachwort, selten, unsicher 2026-10-09
   'tentativ', // bildungssprachlich, selten, unsicher 2026-10-09
+  'teratogen', // medizinisches Fachwort, selten, unsicher 2026-10-09
+  'ternär', // Fachwort, selten, unsicher 2026-10-09
+  'terrisch', // sehr selten, unsicher, unsicher 2026-10-09
+  'tetragonal', // Fachwort, selten, unsicher 2026-10-09
+  'thalassogen', // Fachwort, sehr selten, unsicher 2026-10-09
+  'theodosianisch', // historisch, sehr selten, unsicher 2026-10-09
+  'thermophil', // Fachwort Biologie, selten, unsicher 2026-10-09
+  'thetisch', // Fachwort Philosophie, selten, unsicher 2026-10-09
+  'thorakal', // medizinisches Fachwort, selten, unsicher 2026-10-09
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

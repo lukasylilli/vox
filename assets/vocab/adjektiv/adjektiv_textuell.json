@@ -1,0 +1,150 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_textuell",
+  "wort": "textuell",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "متنی",
+      "مربوط به متن"
+    ],
+    "en": [
+      "textual"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Sprache",
+    "Literatur",
+    "Linguistik"
+  ],
+  "ipa": "tɛkstuˈɛl",
+  "anmerkung": "Fachsprache: den Text betreffend („textuelle Analyse“). Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "C1",
+      "satz": "Die textuellen Unterschiede zwischen den beiden Ausgaben sind gering.",
+      "uebersetzung": {
+        "fa": "تفاوت‌های متنی میان دو چاپ ناچیز است.",
+        "en": "The textual differences between the two editions are slight."
+      }
+    },
+    {
+      "niveau": "C2",
+      "satz": "Die Forscherin untersucht die textuelle Struktur mittelalterlicher Urkunden.",
+      "uebersetzung": {
+        "fa": "پژوهشگر ساختار متنی اسناد قرون‌وسطایی را بررسی می‌کند.",
+        "en": "The researcher is examining the textual structure of medieval documents."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "textlich",
+      "uebersetzung": {
+        "fa": "متنی",
+        "en": "textual"
+      }
+    },
+    {
+      "wort": "schriftlich",
+      "uebersetzung": {
+        "fa": "مکتوب",
+        "en": "written"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "bildlich",
+      "uebersetzung": {
+        "fa": "تصویری",
+        "en": "pictorial"
+      }
+    },
+    {
+      "wort": "mündlich",
+      "uebersetzung": {
+        "fa": "شفاهی",
+        "en": "oral"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Text (متن) + -uell",
+    "en": "Text (text) + -uell"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "textuell",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine textuelle Analyse",
+      "die textuelle Struktur"
+    ],
+    "gegensatzpaar": "textuell ↔ bildlich"
+  },
+  "wortnetz": {
+    "grundwort": "Text",
+    "woerter": [
+      {
+        "wort": "der Text",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "متن",
+          "en": "text"
+        },
+        "id_ref": "nomen_text"
+      },
+      {
+        "wort": "die Ausgabe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چاپ",
+          "en": "edition"
+        },
+        "id_ref": "nomen_ausgabe"
+      },
+      {
+        "wort": "die Analyse",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تحلیل",
+          "en": "analysis"
+        },
+        "id_ref": "nomen_analyse"
+      },
+      {
+        "wort": "die Struktur",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ساختار",
+          "en": "structure"
+        },
+        "id_ref": "nomen_struktur"
+      },
+      {
+        "wort": "bildlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تصویری",
+          "en": "pictorial"
+        },
+        "id_ref": "adjektiv_bildlich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

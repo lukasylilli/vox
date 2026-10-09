@@ -1,0 +1,150 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_terrestrisch",
+  "wort": "terrestrisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "زمینی",
+      "خشکی‌زی"
+    ],
+    "en": [
+      "terrestrial"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Biologie",
+    "Technik",
+    "Astronomie"
+  ],
+  "ipa": "tɛˈʁɛstʁɪʃ",
+  "anmerkung": "Fachsprache: die Erde oder das Festland betreffend; auch „terrestrisches Fernsehen“ (über Antenne). Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "C1",
+      "satz": "Der Sender ist auch terrestrisch zu empfangen.",
+      "uebersetzung": {
+        "fa": "این شبکه از راه زمینی (آنتن) هم دریافت می‌شود.",
+        "en": "The channel can also be received terrestrially."
+      }
+    },
+    {
+      "niveau": "C2",
+      "satz": "Terrestrische Tiere leben auf dem Land, im Gegensatz zu Wassertieren.",
+      "uebersetzung": {
+        "fa": "جانوران خشکی‌زی روی زمین زندگی می‌کنند، برخلاف جانوران آبزی.",
+        "en": "Terrestrial animals live on land, in contrast to aquatic animals."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "irdisch",
+      "uebersetzung": {
+        "fa": "زمینی",
+        "en": "earthly"
+      }
+    },
+    {
+      "wort": "landlebend",
+      "uebersetzung": {
+        "fa": "خشکی‌زی",
+        "en": "land-dwelling"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "aquatisch",
+      "uebersetzung": {
+        "fa": "آبزی",
+        "en": "aquatic"
+      }
+    },
+    {
+      "wort": "extraterrestrisch",
+      "uebersetzung": {
+        "fa": "فرازمینی",
+        "en": "extraterrestrial"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. terrestris (زمینی) ← terra (زمین)",
+    "en": "lat. terrestris (earthly) ← terra (earth)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "terrestrisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "terrestrisches Fernsehen",
+      "ein terrestrisches Tier"
+    ],
+    "gegensatzpaar": "terrestrisch ↔ aquatisch"
+  },
+  "wortnetz": {
+    "grundwort": "Erde",
+    "woerter": [
+      {
+        "wort": "die Erde",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زمین",
+          "en": "earth"
+        },
+        "id_ref": "nomen_erde"
+      },
+      {
+        "wort": "irdisch",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "زمینی",
+          "en": "earthly"
+        },
+        "id_ref": "adjektiv_irdisch"
+      },
+      {
+        "wort": "extraterrestrisch",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "فرازمینی",
+          "en": "extraterrestrial"
+        },
+        "id_ref": "adjektiv_extraterrestrisch"
+      },
+      {
+        "wort": "das Festland",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خشکی",
+          "en": "mainland"
+        },
+        "id_ref": "nomen_festland"
+      },
+      {
+        "wort": "der Empfang",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دریافت",
+          "en": "reception"
+        },
+        "id_ref": "nomen_empfang"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

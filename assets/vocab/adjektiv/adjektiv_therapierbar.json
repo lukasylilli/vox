@@ -1,0 +1,148 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_therapierbar",
+  "wort": "therapierbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "قابل درمان"
+    ],
+    "en": [
+      "treatable"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Gesundheit"
+  ],
+  "ipa": "teʁaˈpiːɐ̯baːɐ̯",
+  "anmerkung": "Kann mit einer Therapie behandelt werden; nicht unbedingt „heilbar“. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Die Krankheit ist gut therapierbar.",
+      "uebersetzung": {
+        "fa": "این بیماری به‌خوبی قابل درمان است.",
+        "en": "The illness is readily treatable."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Viele Krebsarten sind heute therapierbar, wenn sie früh erkannt werden.",
+      "uebersetzung": {
+        "fa": "بسیاری از انواع سرطان امروزه قابل درمان‌اند اگر زود تشخیص داده شوند.",
+        "en": "Many types of cancer are treatable today if they are detected early."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "behandelbar",
+      "uebersetzung": {
+        "fa": "قابل معالجه",
+        "en": "treatable"
+      }
+    },
+    {
+      "wort": "heilbar",
+      "uebersetzung": {
+        "fa": "درمان‌پذیر",
+        "en": "curable"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "unheilbar",
+      "uebersetzung": {
+        "fa": "درمان‌ناپذیر",
+        "en": "incurable"
+      }
+    },
+    {
+      "wort": "therapieresistent",
+      "uebersetzung": {
+        "fa": "مقاوم به درمان",
+        "en": "treatment-resistant"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "therapieren (درمان کردن) + -bar",
+    "en": "therapieren (to treat) + -bar"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "therapierbar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine therapierbare Krankheit",
+      "die therapierbare Störung"
+    ],
+    "gegensatzpaar": "therapierbar ↔ unheilbar"
+  },
+  "wortnetz": {
+    "grundwort": "Therapie",
+    "woerter": [
+      {
+        "wort": "die Therapie",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "درمان",
+          "en": "therapy"
+        },
+        "id_ref": "nomen_therapie"
+      },
+      {
+        "wort": "behandelbar",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "قابل معالجه",
+          "en": "treatable"
+        },
+        "id_ref": "adjektiv_behandelbar"
+      },
+      {
+        "wort": "heilbar",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "درمان‌پذیر",
+          "en": "curable"
+        },
+        "id_ref": "adjektiv_heilbar"
+      },
+      {
+        "wort": "unheilbar",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "درمان‌ناپذیر",
+          "en": "incurable"
+        },
+        "id_ref": "adjektiv_unheilbar"
+      },
+      {
+        "wort": "erkennen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تشخیص دادن",
+          "en": "to detect"
+        },
+        "id_ref": "verb_erkennen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,150 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_terminal",
+  "wort": "terminal",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "پایانی",
+      "نهایی (مرحله‌ی بیماری)"
+    ],
+    "en": [
+      "terminal",
+      "final"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Technik"
+  ],
+  "ipa": "tɛʁmiˈnaːl",
+  "anmerkung": "Fachsprache: am Ende liegend; in der Medizin: „terminales Stadium“ (letzte Phase einer Krankheit). (Als Nomen: das Terminal = Abfertigungshalle.) Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "C1",
+      "satz": "Die Krankheit war bereits im terminalen Stadium.",
+      "uebersetzung": {
+        "fa": "بیماری دیگر در مرحله‌ی پایانی بود.",
+        "en": "The illness was already at the terminal stage."
+      }
+    },
+    {
+      "niveau": "C2",
+      "satz": "In der Palliativmedizin werden terminal erkrankte Menschen bis zum Lebensende begleitet.",
+      "uebersetzung": {
+        "fa": "در طب تسکینی بیماران در مرحله‌ی پایانی تا پایان زندگی همراهی می‌شوند.",
+        "en": "In palliative medicine terminally ill people are accompanied until the end of their life."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "final",
+      "uebersetzung": {
+        "fa": "نهایی",
+        "en": "final"
+      }
+    },
+    {
+      "wort": "abschließend",
+      "uebersetzung": {
+        "fa": "پایانی",
+        "en": "concluding"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "initial",
+      "uebersetzung": {
+        "fa": "آغازین",
+        "en": "initial"
+      }
+    },
+    {
+      "wort": "heilbar",
+      "uebersetzung": {
+        "fa": "درمان‌پذیر",
+        "en": "curable"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. terminalis (مرزی، پایانی) ← terminus",
+    "en": "lat. terminalis (of the boundary) ← terminus"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "terminal",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "das terminale Stadium",
+      "die terminale Phase"
+    ],
+    "gegensatzpaar": "terminal ↔ initial"
+  },
+  "wortnetz": {
+    "grundwort": "Terminus",
+    "woerter": [
+      {
+        "wort": "das Stadium",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مرحله",
+          "en": "stage"
+        },
+        "id_ref": "nomen_stadium"
+      },
+      {
+        "wort": "die Palliativmedizin",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "طب تسکینی",
+          "en": "palliative medicine"
+        },
+        "id_ref": "nomen_palliativmedizin"
+      },
+      {
+        "wort": "final",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نهایی",
+          "en": "final"
+        },
+        "id_ref": "adjektiv_final"
+      },
+      {
+        "wort": "heilbar",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "درمان‌پذیر",
+          "en": "curable"
+        },
+        "id_ref": "adjektiv_heilbar"
+      },
+      {
+        "wort": "die Krankheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیماری",
+          "en": "illness"
+        },
+        "id_ref": "nomen_krankheit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

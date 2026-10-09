@@ -1,0 +1,167 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_teuer",
+  "wort": "teuer",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "گران",
+      "پرهزینه",
+      "عزیز"
+    ],
+    "en": [
+      "expensive",
+      "dear",
+      "costly"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Einkaufen",
+    "Alltag",
+    "Gefühle"
+  ],
+  "ipa": "ˈtɔɪ̯ɐ",
+  "anmerkung": "Kostet viel Geld; gehoben auch „lieb, wertvoll“ („mein teurer Freund“). Bei Endung fällt das e: teure, teurer.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Das Auto ist zu teuer.",
+      "uebersetzung": {
+        "fa": "ماشین خیلی گران است.",
+        "en": "The car is too expensive."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Wohnungen in der Innenstadt sind so teuer, dass viele Familien an den Stadtrand ziehen.",
+      "uebersetzung": {
+        "fa": "آپارتمان‌ها در مرکز شهر آن‌قدر گران‌اند که بسیاری از خانواده‌ها به حاشیه‌ی شهر می‌روند.",
+        "en": "The flats in the city centre are so expensive that many families move to the outskirts."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kostspielig",
+      "uebersetzung": {
+        "fa": "پرهزینه",
+        "en": "costly"
+      }
+    },
+    {
+      "wort": "kostbar",
+      "uebersetzung": {
+        "fa": "باارزش",
+        "en": "precious"
+      }
+    },
+    {
+      "wort": "überteuert",
+      "uebersetzung": {
+        "fa": "گران‌تر از ارزش",
+        "en": "overpriced"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "billig",
+      "uebersetzung": {
+        "fa": "ارزان",
+        "en": "cheap"
+      }
+    },
+    {
+      "wort": "günstig",
+      "uebersetzung": {
+        "fa": "مناسب",
+        "en": "inexpensive"
+      }
+    },
+    {
+      "wort": "preiswert",
+      "uebersetzung": {
+        "fa": "ارزان",
+        "en": "good value"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mhd. tiure (گران، باارزش)",
+    "en": "mhd. tiure (precious, dear)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "teuer",
+      "komparativ": "teurer",
+      "superlativ": "am teuersten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein teures Auto",
+      "die teure Wohnung"
+    ],
+    "gegensatzpaar": "teuer ↔ billig"
+  },
+  "wortnetz": {
+    "grundwort": "Teuerung",
+    "woerter": [
+      {
+        "wort": "die Teuerung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "گرانی",
+          "en": "price increase"
+        },
+        "id_ref": "nomen_teuerung"
+      },
+      {
+        "wort": "billig",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ارزان",
+          "en": "cheap"
+        },
+        "id_ref": "adjektiv_billig"
+      },
+      {
+        "wort": "günstig",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مناسب",
+          "en": "inexpensive"
+        },
+        "id_ref": "adjektiv_guenstig"
+      },
+      {
+        "wort": "der Preis",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قیمت",
+          "en": "price"
+        },
+        "id_ref": "nomen_preis"
+      },
+      {
+        "wort": "kosten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قیمت داشتن",
+          "en": "to cost"
+        },
+        "id_ref": "verb_kosten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
