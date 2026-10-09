@@ -666,6 +666,13 @@ const zurueckgestellt = <String>{
   'systemoid', // Fachwort, sehr selten, unsicher 2026-10-09
   'szientifisch', // veraltet, selten, unsicher 2026-10-09
   'tablettensüchtig', // heikel, unsicher, unsicher 2026-10-09
+  'taften', // Materialadjektiv wie birken, unsicher 2026-10-09
+  'talentfrei', // umgangssprachlich/ironisch, unsicher, unsicher 2026-10-09
+  'talmudisch', // religiöses Fachwort, selten, unsicher 2026-10-09
+  'tangibel', // Fachwort, selten, unsicher 2026-10-09
+  'tannen', // Materialadjektiv wie birken, unsicher 2026-10-09
+  'tarentinisch', // Ortsadjektiv, sehr selten, unsicher 2026-10-09
+  'taubstumm', // veraltet/verletzend, Entscheidung Lukas, unsicher 2026-10-09
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
