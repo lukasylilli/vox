@@ -1,0 +1,159 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_triftig",
+  "wort": "triftig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "موجه",
+      "قانع‌کننده",
+      "محکم"
+    ],
+    "en": [
+      "valid",
+      "sound",
+      "cogent"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Argumentation",
+    "Recht"
+  ],
+  "ipa": "ˈtʁɪftɪç",
+  "anmerkung": "Fast nur in „ein triftiger Grund“ = ein guter, überzeugender Grund.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Ohne triftigen Grund darf man nicht fehlen.",
+      "uebersetzung": {
+        "fa": "بدون دلیل موجه نمی‌توان غیبت کرد.",
+        "en": "You must not be absent without good reason."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Die Kündigung ist nur aus triftigen Gründen zulässig, zum Beispiel bei schweren Pflichtverletzungen.",
+      "uebersetzung": {
+        "fa": "فسخ قرارداد فقط به دلایل موجه مجاز است، مثلاً در موارد تخلف جدی.",
+        "en": "Dismissal is only permissible for valid reasons, for example in cases of serious breach of duty."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "stichhaltig",
+      "uebersetzung": {
+        "fa": "مستدل",
+        "en": "sound"
+      }
+    },
+    {
+      "wort": "überzeugend",
+      "uebersetzung": {
+        "fa": "قانع‌کننده",
+        "en": "convincing"
+      }
+    },
+    {
+      "wort": "zwingend",
+      "uebersetzung": {
+        "fa": "الزامی",
+        "en": "compelling"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "fadenscheinig",
+      "uebersetzung": {
+        "fa": "واهی",
+        "en": "flimsy"
+      }
+    },
+    {
+      "wort": "haltlos",
+      "uebersetzung": {
+        "fa": "بی‌پایه",
+        "en": "groundless"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "treffen (به هدف زدن) → trift + -ig",
+    "en": "treffen (to hit) → trift + -ig"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "triftig",
+      "komparativ": "triftiger",
+      "superlativ": "am triftigsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein triftiger Grund",
+      "die triftige Erklärung"
+    ],
+    "gegensatzpaar": "triftig ↔ fadenscheinig"
+  },
+  "wortnetz": {
+    "grundwort": "Grund",
+    "woerter": [
+      {
+        "wort": "der Grund",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دلیل",
+          "en": "reason"
+        },
+        "id_ref": "nomen_grund"
+      },
+      {
+        "wort": "stichhaltig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مستدل",
+          "en": "sound"
+        },
+        "id_ref": "adjektiv_stichhaltig"
+      },
+      {
+        "wort": "überzeugend",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قانع‌کننده",
+          "en": "convincing"
+        },
+        "id_ref": "adjektiv_ueberzeugend"
+      },
+      {
+        "wort": "haltlos",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بی‌پایه",
+          "en": "groundless"
+        },
+        "id_ref": "adjektiv_haltlos"
+      },
+      {
+        "wort": "die Kündigung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فسخ قرارداد",
+          "en": "dismissal"
+        },
+        "id_ref": "nomen_kuendigung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,160 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_turnusmaessig",
+  "wort": "turnusmäßig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "نوبتی",
+      "دوره‌ای",
+      "طبق برنامه‌ی منظم"
+    ],
+    "en": [
+      "regular",
+      "rotating",
+      "scheduled"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Politik",
+    "Verwaltung"
+  ],
+  "ipa": "ˈtʊʁnʊsˌmɛːsɪç",
+  "anmerkung": "In regelmäßigem Wechsel oder Abstand; auch Adverb: „turnusmäßig wechseln“. Wird nicht gesteigert.",
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Die Sitzung findet turnusmäßig alle drei Monate statt.",
+      "uebersetzung": {
+        "fa": "جلسه به‌طور دوره‌ای هر سه ماه برگزار می‌شود.",
+        "en": "The meeting takes place regularly every three months."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Der Vorsitz im Rat wechselt turnusmäßig alle sechs Monate zwischen den Mitgliedsstaaten.",
+      "uebersetzung": {
+        "fa": "ریاست شورا هر شش ماه به‌نوبت میان کشورهای عضو تغییر می‌کند.",
+        "en": "The presidency of the council rotates every six months between the member states."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "regelmäßig",
+      "uebersetzung": {
+        "fa": "منظم",
+        "en": "regular"
+      }
+    },
+    {
+      "wort": "planmäßig",
+      "uebersetzung": {
+        "fa": "طبق برنامه",
+        "en": "scheduled"
+      }
+    },
+    {
+      "wort": "abwechselnd",
+      "uebersetzung": {
+        "fa": "نوبتی",
+        "en": "alternating"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "außerplanmäßig",
+      "uebersetzung": {
+        "fa": "خارج از برنامه",
+        "en": "unscheduled"
+      }
+    },
+    {
+      "wort": "unregelmäßig",
+      "uebersetzung": {
+        "fa": "نامنظم",
+        "en": "irregular"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Turnus (نوبت) + -mäßig",
+    "en": "Turnus (rota) + -mäßig"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "turnusmäßig",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein turnusmäßiger Wechsel",
+      "die turnusmäßige Sitzung"
+    ],
+    "gegensatzpaar": "turnusmäßig ↔ außerplanmäßig"
+  },
+  "wortnetz": {
+    "grundwort": "Turnus",
+    "woerter": [
+      {
+        "wort": "der Turnus",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نوبت",
+          "en": "rota"
+        },
+        "id_ref": "nomen_turnus"
+      },
+      {
+        "wort": "regelmäßig",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "منظم",
+          "en": "regular"
+        },
+        "id_ref": "adjektiv_regelmaessig"
+      },
+      {
+        "wort": "abwechselnd",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نوبتی",
+          "en": "alternating"
+        },
+        "id_ref": "adjektiv_abwechselnd"
+      },
+      {
+        "wort": "der Vorsitz",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ریاست",
+          "en": "chair"
+        },
+        "id_ref": "nomen_vorsitz"
+      },
+      {
+        "wort": "der Wechsel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تغییر",
+          "en": "change"
+        },
+        "id_ref": "nomen_wechsel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,168 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_typisch",
+  "wort": "typisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "معمول",
+      "رایج",
+      "مخصوص"
+    ],
+    "en": [
+      "typical",
+      "characteristic"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Kultur",
+    "Sprache"
+  ],
+  "ipa": "ˈtyːpɪʃ",
+  "anmerkung": "Charakteristisch für jemanden oder etwas; Ausruf: „Typisch!“ = Das war zu erwarten. Man sagt: „typisch für + Akk“.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das ist ein typisches deutsches Frühstück.",
+      "uebersetzung": {
+        "fa": "این یک صبحانه‌ی معمول آلمانی است.",
+        "en": "That is a typical German breakfast."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Es ist typisch für ihn, dass er immer zu spät kommt.",
+      "uebersetzung": {
+        "fa": "دیر آمدن همیشگی از خصوصیات اوست.",
+        "en": "It is typical of him that he always comes late."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "charakteristisch",
+      "uebersetzung": {
+        "fa": "مشخصه",
+        "en": "characteristic"
+      }
+    },
+    {
+      "wort": "kennzeichnend",
+      "uebersetzung": {
+        "fa": "بارز",
+        "en": "distinctive"
+      }
+    },
+    {
+      "wort": "üblich",
+      "uebersetzung": {
+        "fa": "رایج",
+        "en": "usual"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "untypisch",
+      "uebersetzung": {
+        "fa": "غیرمعمول",
+        "en": "atypical"
+      }
+    },
+    {
+      "wort": "ungewöhnlich",
+      "uebersetzung": {
+        "fa": "عجیب",
+        "en": "unusual"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Typ (نوع) + -isch",
+    "en": "Typ (type) + -isch"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "typisch",
+      "komparativ": "typischer",
+      "superlativ": "am typischsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "typisch für + Akk",
+        "beispiel": "Regen ist typisch für den Herbst.",
+        "uebersetzung": {
+          "fa": "باران ویژه‌ی پاییز است.",
+          "en": "Rain is typical of autumn."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein typisches Beispiel",
+      "die typische Reaktion"
+    ],
+    "gegensatzpaar": "typisch ↔ untypisch"
+  },
+  "wortnetz": {
+    "grundwort": "Typ",
+    "woerter": [
+      {
+        "wort": "der Typ",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نوع، آدم",
+          "en": "type"
+        },
+        "id_ref": "nomen_typ"
+      },
+      {
+        "wort": "charakteristisch",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مشخصه",
+          "en": "characteristic"
+        },
+        "id_ref": "adjektiv_charakteristisch"
+      },
+      {
+        "wort": "untypisch",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "غیرمعمول",
+          "en": "atypical"
+        },
+        "id_ref": "adjektiv_untypisch"
+      },
+      {
+        "wort": "üblich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رایج",
+          "en": "usual"
+        },
+        "id_ref": "adjektiv_ueblich"
+      },
+      {
+        "wort": "das Beispiel",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مثال",
+          "en": "example"
+        },
+        "id_ref": "nomen_beispiel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

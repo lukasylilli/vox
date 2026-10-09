@@ -716,6 +716,20 @@ const zurueckgestellt = <String>{
   'transspezifisch', // Fachwort, sehr selten, unsicher 2026-10-09
   'transzendental', // Fachwort Philosophie, selten, unsicher 2026-10-09
   'treife', // religiöses Fachwort, selten, unsicher 2026-10-09
+  'tribal', // Anglizismus, unsicher, unsicher 2026-10-09
+  'trichinenhaltig', // Fachwort, selten, unsicher 2026-10-09
+  'trilliardste', // sehr seltene Ordinalzahl, unsicher 2026-10-09
+  'trillionste', // sehr seltene Ordinalzahl, unsicher 2026-10-09
+  'trinär', // Fachwort, selten, unsicher 2026-10-09
+  'tropologisch', // Fachwort, selten, unsicher 2026-10-09
+  'trunksüchtig', // veraltet/heikel, unsicher 2026-10-09
+  'trutzig', // veraltet, unsicher, unsicher 2026-10-09
+  'tuchen', // Materialadjektiv wie birken, unsicher 2026-10-09
+  'tumb', // veraltet, unsicher, unsicher 2026-10-09
+  'tumultuarisch', // selten, Nebenform, unsicher 2026-10-09
+  'tuvaluisch', // Ortsadjektiv, sehr selten, unsicher 2026-10-09
+  'tuwinisch', // Ortsadjektiv, sehr selten, unsicher 2026-10-09
+  'tyrrhenisch', // geografisch, selten, unsicher 2026-10-09
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
