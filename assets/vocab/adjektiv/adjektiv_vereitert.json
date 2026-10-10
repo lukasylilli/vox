@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_vereitert",
+  "wort": "vereitert",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "چرکی",
+      "عفونی"
+    ],
+    "en": [
+      "festering",
+      "infected with pus"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gesundheit",
+    "Medizin"
+  ],
+  "ipa": "fɛɐ̯ˈʔaɪ̯tɐt",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Wunde ist vereitert.",
+      "uebersetzung": {
+        "fa": "زخم چرک کرده است.",
+        "en": "The wound has festered."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Zahnarzt stellte fest, dass die Wurzel vereitert war, und verschrieb ein Antibiotikum.",
+      "uebersetzung": {
+        "fa": "دندانپزشک متوجه شد که ریشه چرکی شده و آنتی‌بیوتیک تجویز کرد.",
+        "en": "The dentist found that the root was infected with pus and prescribed an antibiotic."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "entzündet",
+      "uebersetzung": {
+        "fa": "ملتهب",
+        "en": "inflamed"
+      }
+    },
+    {
+      "wort": "eitrig",
+      "uebersetzung": {
+        "fa": "چرکی",
+        "en": "purulent"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + Eiter (چرک) → Partizip II",
+    "en": "ver- + Eiter (pus) → past participle"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "vereitert",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine vereiterte Wunde",
+      "die vereiterte Wunde"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "der Eiter",
+    "woerter": [
+      {
+        "wort": "der Eiter",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "چرک",
+          "en": "pus"
+        },
+        "id_ref": "nomen_eiter"
+      },
+      {
+        "wort": "die Entzündung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "التهاب",
+          "en": "inflammation"
+        },
+        "id_ref": "nomen_entzuendung"
+      },
+      {
+        "wort": "die Wunde",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زخم",
+          "en": "wound"
+        },
+        "id_ref": "nomen_wunde"
+      },
+      {
+        "wort": "das Antibiotikum",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آنتی‌بیوتیک",
+          "en": "antibiotic"
+        },
+        "id_ref": "nomen_antibiotikum"
+      },
+      {
+        "wort": "infiziert",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عفونی",
+          "en": "infected"
+        },
+        "id_ref": "adjektiv_infiziert"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

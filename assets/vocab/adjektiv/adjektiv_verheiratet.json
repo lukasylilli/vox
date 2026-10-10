@@ -1,0 +1,150 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_verheiratet",
+  "wort": "verheiratet",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "متأهل"
+    ],
+    "en": [
+      "married"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Familie",
+    "Personalien"
+  ],
+  "ipa": "fɛɐ̯ˈhaɪ̯ʁaːtət",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich bin verheiratet.",
+      "uebersetzung": {
+        "fa": "من متأهلم.",
+        "en": "I am married."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Meine Eltern sind seit dreißig Jahren verheiratet und streiten trotzdem fast nie.",
+      "uebersetzung": {
+        "fa": "پدر و مادرم سی سال است که ازدواج کرده‌اند و با این حال تقریباً هیچ‌وقت دعوا نمی‌کنند.",
+        "en": "My parents have been married for thirty years and still almost never argue."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vermählt",
+      "uebersetzung": {
+        "fa": "عروسی‌کرده",
+        "en": "wed"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ledig",
+      "uebersetzung": {
+        "fa": "مجرد",
+        "en": "single"
+      }
+    },
+    {
+      "wort": "geschieden",
+      "uebersetzung": {
+        "fa": "طلاق‌گرفته",
+        "en": "divorced"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "verheiraten (به ازدواج درآوردن) → Partizip II",
+    "en": "verheiraten (to marry off) → past participle"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "verheiratet",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "verheiratet mit + Dat",
+        "beispiel": "Sie ist mit einem Österreicher verheiratet.",
+        "uebersetzung": {
+          "fa": "او با یک مرد اتریشی ازدواج کرده است.",
+          "en": "She is married to an Austrian."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein verheiratetes Paar",
+      "das verheiratete Paar"
+    ],
+    "gegensatzpaar": "verheiratet ↔ ledig"
+  },
+  "wortnetz": {
+    "grundwort": "heiraten",
+    "woerter": [
+      {
+        "wort": "heiraten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ازدواج کردن",
+          "en": "to marry"
+        },
+        "id_ref": "verb_heiraten"
+      },
+      {
+        "wort": "die Ehe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ازدواج",
+          "en": "marriage"
+        },
+        "id_ref": "nomen_ehe"
+      },
+      {
+        "wort": "die Hochzeit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عروسی",
+          "en": "wedding"
+        },
+        "id_ref": "nomen_hochzeit"
+      },
+      {
+        "wort": "ledig",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مجرد",
+          "en": "single"
+        },
+        "id_ref": "adjektiv_ledig"
+      },
+      {
+        "wort": "geschieden",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "طلاق‌گرفته",
+          "en": "divorced"
+        },
+        "id_ref": "adjektiv_geschieden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

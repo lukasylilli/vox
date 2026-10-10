@@ -1,0 +1,151 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_verfuegbar",
+  "wort": "verfügbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "موجود",
+      "در دسترس"
+    ],
+    "en": [
+      "available"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Einkaufen"
+  ],
+  "ipa": "fɛɐ̯ˈfyːkbaːɐ̯",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Produkt ist nicht verfügbar.",
+      "uebersetzung": {
+        "fa": "این محصول موجود نیست.",
+        "en": "The product is not available."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Arzt ist erst ab nächster Woche wieder verfügbar, weil er im Urlaub ist.",
+      "uebersetzung": {
+        "fa": "دکتر تازه از هفته‌ی بعد دوباره در دسترس است، چون در مرخصی است.",
+        "en": "The doctor will only be available again from next week because he is on holiday."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erhältlich",
+      "uebersetzung": {
+        "fa": "قابل‌خرید",
+        "en": "obtainable"
+      }
+    },
+    {
+      "wort": "vorhanden",
+      "uebersetzung": {
+        "fa": "موجود",
+        "en": "present"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "vergriffen",
+      "uebersetzung": {
+        "fa": "تمام‌شده",
+        "en": "out of stock"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "verfügen (در اختیار داشتن) + -bar (پذیر)",
+    "en": "verfügen (to have at one’s disposal) + -bar (-able)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "verfügbar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "verfügbar für + Akk",
+        "beispiel": "Die Wohnung ist ab Mai für neue Mieter verfügbar.",
+        "uebersetzung": {
+          "fa": "این آپارتمان از ماه مه برای مستأجران جدید در دسترس است.",
+          "en": "The flat is available for new tenants from May."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "eine verfügbare Zeit",
+      "die verfügbare Zeit"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "verfügen",
+    "woerter": [
+      {
+        "wort": "verfügen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "در اختیار داشتن",
+          "en": "to have at one’s disposal"
+        },
+        "id_ref": "verb_verfuegen"
+      },
+      {
+        "wort": "die Verfügung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اختیار",
+          "en": "disposal"
+        },
+        "id_ref": "nomen_verfuegung"
+      },
+      {
+        "wort": "erhältlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قابل‌خرید",
+          "en": "obtainable"
+        },
+        "id_ref": "adjektiv_erhaeltlich"
+      },
+      {
+        "wort": "frei",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آزاد",
+          "en": "free"
+        },
+        "id_ref": "adjektiv_frei"
+      },
+      {
+        "wort": "vorhanden",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "موجود",
+          "en": "present"
+        },
+        "id_ref": "adjektiv_vorhanden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
