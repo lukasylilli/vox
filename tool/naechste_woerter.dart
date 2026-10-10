@@ -787,6 +787,7 @@ const zurueckgestellt = <String>{
   'vorderer', // zurückgestellt (Regel 14): flektierte Form wie oberer 2026-10-10
   'vorgabenwirksam', // zurückgestellt (Regel 14): sehr seltener Verwaltungsbegriff 2026-10-10
   'vorletzte', // zurückgestellt (Regel 14): flektierte Form wie letzter 2026-10-10
+  'vulkanistisch', // zurückgestellt (Regel 14): Fachwort, Bedeutung unsicher 2026-10-10
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
@@ -855,6 +856,7 @@ const wortartKorrektur = <String, String>{
   'vierzigste': 'numerale', // Duden: Ordinalzahl (2026-10-10)
   'vorbehältlich': 'praeposition', // Duden: Präposition mit Genitiv (österr./schweiz.) (2026-10-10)
   'vorbehaltlich': 'praeposition', // Duden: Präposition mit Genitiv (2026-10-10)
+  'wahrlich': 'adverb', // Duden: Adverb (2026-10-10)
 };
 
 /// `--abhaken` (Schritt 6 der Routine): setzt in ALLEN Listen «✓ » vor jedes

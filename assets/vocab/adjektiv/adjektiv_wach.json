@@ -1,0 +1,151 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_wach",
+  "wort": "wach",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "بیدار",
+      "هوشیار"
+    ],
+    "en": [
+      "awake",
+      "alert"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Körper"
+  ],
+  "ipa": "vax",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Bist du schon wach?",
+      "uebersetzung": {
+        "fa": "بیدار شده‌ای؟",
+        "en": "Are you awake yet?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nach dem Kaffee war ich endlich wach genug, um die E-Mails zu beantworten.",
+      "uebersetzung": {
+        "fa": "بعد از قهوه بالاخره به اندازه‌ی کافی هوشیار بودم که ایمیل‌ها را جواب بدهم.",
+        "en": "After the coffee I was finally awake enough to answer the emails."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "munter",
+      "uebersetzung": {
+        "fa": "سرحال",
+        "en": "lively"
+      }
+    },
+    {
+      "wort": "aufmerksam",
+      "uebersetzung": {
+        "fa": "هوشیار، دقیق",
+        "en": "attentive"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "müde",
+      "uebersetzung": {
+        "fa": "خسته",
+        "en": "tired"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "aufwachen",
+      "uebersetzung": {
+        "fa": "بیدار شدن",
+        "en": "to wake up"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "althochdeutsch wahhar (بیدار)",
+    "en": "Old High German wahhar (awake)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "wach",
+      "komparativ": "wacher",
+      "superlativ": "am wachsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein wacher Geist",
+      "das wache Kind"
+    ],
+    "gegensatzpaar": "wach ↔ schläfrig"
+  },
+  "wortnetz": {
+    "grundwort": "aufwachen",
+    "woerter": [
+      {
+        "wort": "aufwachen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیدار شدن",
+          "en": "to wake up"
+        },
+        "id_ref": "verb_aufwachen"
+      },
+      {
+        "wort": "wecken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیدار کردن",
+          "en": "to wake"
+        },
+        "id_ref": "verb_wecken"
+      },
+      {
+        "wort": "schlafen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوابیدن",
+          "en": "to sleep"
+        },
+        "id_ref": "verb_schlafen"
+      },
+      {
+        "wort": "müde",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خسته",
+          "en": "tired"
+        },
+        "id_ref": "adjektiv_muede"
+      },
+      {
+        "wort": "munter",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرحال",
+          "en": "lively"
+        },
+        "id_ref": "adjektiv_munter"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
