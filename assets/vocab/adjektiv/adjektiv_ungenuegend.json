@@ -1,0 +1,143 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_ungenuegend",
+  "wort": "ungenügend",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "ناکافی",
+      "مردود"
+    ],
+    "en": [
+      "insufficient",
+      "inadequate"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Bildung",
+    "Arbeit"
+  ],
+  "ipa": "ˈʊnɡəˌnyːɡn̩t",
+  "anmerkung": "in Deutschland auch Schulnote 6",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Seine Note ist ungenügend.",
+      "uebersetzung": {
+        "fa": "نمره‌اش مردود است.",
+        "en": "His grade is insufficient."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Wohnung wurde nur ungenügend geheizt, sodass wir im Winter oft gefroren haben.",
+      "uebersetzung": {
+        "fa": "آپارتمان به‌طور ناکافی گرم می‌شد، طوری که زمستان اغلب سردمان بود.",
+        "en": "The flat was heated inadequately, so we were often cold in winter."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "unzureichend",
+      "uebersetzung": {
+        "fa": "ناکافی",
+        "en": "insufficient"
+      }
+    },
+    {
+      "wort": "mangelhaft",
+      "uebersetzung": {
+        "fa": "معیوب، ناقص",
+        "en": "deficient"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ausreichend",
+      "uebersetzung": {
+        "fa": "کافی",
+        "en": "sufficient"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "un- (نا) + genügen (کافی بودن) → Partizip I",
+    "en": "un- (not) + genügen (to suffice) → present participle"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "ungenügend",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine ungenügende Leistung",
+      "die ungenügende Vorbereitung"
+    ],
+    "gegensatzpaar": "ungenügend ↔ genügend"
+  },
+  "wortnetz": {
+    "grundwort": "genügen",
+    "woerter": [
+      {
+        "wort": "genügen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کافی بودن",
+          "en": "to suffice"
+        },
+        "id_ref": "verb_genuegen"
+      },
+      {
+        "wort": "genug",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کافی",
+          "en": "enough"
+        },
+        "id_ref": "adverb_genug"
+      },
+      {
+        "wort": "ausreichend",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کافی",
+          "en": "sufficient"
+        },
+        "id_ref": "adjektiv_ausreichend"
+      },
+      {
+        "wort": "mangelhaft",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ناقص",
+          "en": "deficient"
+        },
+        "id_ref": "adjektiv_mangelhaft"
+      },
+      {
+        "wort": "die Note",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نمره",
+          "en": "grade"
+        },
+        "id_ref": "nomen_note"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,151 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_ungefaehrlich",
+  "wort": "ungefährlich",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "بی‌خطر"
+    ],
+    "en": [
+      "harmless",
+      "safe"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gesundheit",
+    "Alltag"
+  ],
+  "ipa": "ˈʊnɡəˌfɛːɐ̯lɪç",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Diese Schlange ist ungefährlich.",
+      "uebersetzung": {
+        "fa": "این مار بی‌خطر است.",
+        "en": "This snake is harmless."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Eingriff ist relativ ungefährlich, trotzdem müssen Sie danach einen Tag im Krankenhaus bleiben.",
+      "uebersetzung": {
+        "fa": "این عمل نسبتاً بی‌خطر است، با این حال باید بعدش یک روز در بیمارستان بمانید.",
+        "en": "The procedure is relatively safe; nevertheless you have to stay in hospital for a day afterwards."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "harmlos",
+      "uebersetzung": {
+        "fa": "بی‌آزار",
+        "en": "harmless"
+      }
+    },
+    {
+      "wort": "sicher",
+      "uebersetzung": {
+        "fa": "امن",
+        "en": "safe"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "gefährlich",
+      "uebersetzung": {
+        "fa": "خطرناک",
+        "en": "dangerous"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "un- (نا) + Gefahr (خطر) + -lich",
+    "en": "un- (not) + Gefahr (danger) + -lich"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "ungefährlich",
+      "komparativ": "ungefährlicher",
+      "superlativ": "am ungefährlichsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "für + Akk",
+        "beispiel": "Das Mittel ist für Kinder ungefährlich.",
+        "uebersetzung": {
+          "fa": "این دارو برای کودکان بی‌خطر است.",
+          "en": "The remedy is harmless for children."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein ungefährlicher Weg",
+      "die ungefährliche Krankheit"
+    ],
+    "gegensatzpaar": "ungefährlich ↔ gefährlich"
+  },
+  "wortnetz": {
+    "grundwort": "die Gefahr",
+    "woerter": [
+      {
+        "wort": "die Gefahr",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خطر",
+          "en": "danger"
+        },
+        "id_ref": "nomen_gefahr"
+      },
+      {
+        "wort": "gefährlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خطرناک",
+          "en": "dangerous"
+        },
+        "id_ref": "adjektiv_gefaehrlich"
+      },
+      {
+        "wort": "harmlos",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بی‌آزار",
+          "en": "harmless"
+        },
+        "id_ref": "adjektiv_harmlos"
+      },
+      {
+        "wort": "sicher",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "امن",
+          "en": "safe"
+        },
+        "id_ref": "adjektiv_sicher"
+      },
+      {
+        "wort": "das Risiko",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ریسک",
+          "en": "risk"
+        },
+        "id_ref": "nomen_risiko"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
