@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_verschreibungspflichtig",
+  "wort": "verschreibungspflichtig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "نسخه‌ای",
+      "فقط با نسخه"
+    ],
+    "en": [
+      "prescription-only"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Medizin"
+  ],
+  "ipa": "fɛɐ̯ˈʃʁaɪ̯bʊŋsˌp͡flɪçtɪç",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Medikament ist verschreibungspflichtig.",
+      "uebersetzung": {
+        "fa": "این دارو فقط با نسخه داده می‌شود.",
+        "en": "The medicine is prescription-only."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Antibiotika sind verschreibungspflichtig, damit sie nicht ohne ärztliche Kontrolle eingenommen werden.",
+      "uebersetzung": {
+        "fa": "آنتی‌بیوتیک‌ها نسخه‌ای‌اند تا بدون نظارت پزشک مصرف نشوند.",
+        "en": "Antibiotics are prescription-only so that they are not taken without medical supervision."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rezeptpflichtig",
+      "uebersetzung": {
+        "fa": "نسخه‌ای",
+        "en": "prescription-only"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "rezeptfrei",
+      "uebersetzung": {
+        "fa": "بدون نسخه",
+        "en": "over-the-counter"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Verschreibung (تجویز) + -pflichtig (الزامی)",
+    "en": "Verschreibung (prescription) + -pflichtig (requiring)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "verschreibungspflichtig",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein verschreibungspflichtiges Medikament",
+      "das verschreibungspflichtige Medikament"
+    ],
+    "gegensatzpaar": "verschreibungspflichtig ↔ rezeptfrei"
+  },
+  "wortnetz": {
+    "grundwort": "verschreiben",
+    "woerter": [
+      {
+        "wort": "verschreiben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تجویز کردن",
+          "en": "to prescribe"
+        },
+        "id_ref": "verb_verschreiben"
+      },
+      {
+        "wort": "das Rezept",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نسخه",
+          "en": "prescription"
+        },
+        "id_ref": "nomen_rezept"
+      },
+      {
+        "wort": "die Apotheke",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "داروخانه",
+          "en": "pharmacy"
+        },
+        "id_ref": "nomen_apotheke"
+      },
+      {
+        "wort": "das Medikament",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دارو",
+          "en": "medicine"
+        },
+        "id_ref": "nomen_medikament"
+      },
+      {
+        "wort": "rezeptfrei",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بدون نسخه",
+          "en": "over-the-counter"
+        },
+        "id_ref": "adjektiv_rezeptfrei"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
