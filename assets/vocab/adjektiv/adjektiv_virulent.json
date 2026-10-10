@@ -1,0 +1,151 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_virulent",
+  "wort": "virulent",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "بیماری‌زا و فعال",
+      "حاد، شدید"
+    ],
+    "en": [
+      "virulent",
+      "acute"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Gesellschaft"
+  ],
+  "ipa": "viʁuˈlɛnt",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Erreger ist sehr virulent.",
+      "uebersetzung": {
+        "fa": "این عامل بیماری بسیار بیماری‌زاست.",
+        "en": "The pathogen is very virulent."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Problem der Wohnungsnot ist in vielen Städten wieder virulent geworden, sodass die Politik handeln muss.",
+      "uebersetzung": {
+        "fa": "مشکل کمبود مسکن در بسیاری از شهرها دوباره حاد شده است، طوری که سیاست باید وارد عمل شود.",
+        "en": "The housing shortage has become acute again in many cities, so politicians have to act."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "akut",
+      "uebersetzung": {
+        "fa": "حاد",
+        "en": "acute"
+      }
+    },
+    {
+      "wort": "ansteckend",
+      "uebersetzung": {
+        "fa": "مسری",
+        "en": "contagious"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "harmlos",
+      "uebersetzung": {
+        "fa": "بی‌خطر",
+        "en": "harmless"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Virulenz",
+      "uebersetzung": {
+        "fa": "شدت بیماری‌زایی",
+        "en": "virulence"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "lateinisch virulentus (پرزهر، از virus = زهر)",
+    "en": "Latin virulentus (full of poison, from virus = poison)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "virulent",
+      "komparativ": "virulenter",
+      "superlativ": "am virulentesten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein virulenter Erreger",
+      "die virulente Frage"
+    ],
+    "gegensatzpaar": "virulent ↔ harmlos"
+  },
+  "wortnetz": {
+    "grundwort": "die Virulenz",
+    "woerter": [
+      {
+        "wort": "das Virus",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ویروس",
+          "en": "virus"
+        },
+        "id_ref": "nomen_virus"
+      },
+      {
+        "wort": "ansteckend",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مسری",
+          "en": "contagious"
+        },
+        "id_ref": "adjektiv_ansteckend"
+      },
+      {
+        "wort": "akut",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "حاد",
+          "en": "acute"
+        },
+        "id_ref": "adjektiv_akut"
+      },
+      {
+        "wort": "der Erreger",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "عامل بیماری",
+          "en": "pathogen"
+        },
+        "id_ref": "nomen_erreger"
+      },
+      {
+        "wort": "gefährlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خطرناک",
+          "en": "dangerous"
+        },
+        "id_ref": "adjektiv_gefaehrlich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

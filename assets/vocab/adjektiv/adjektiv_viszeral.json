@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_viszeral",
+  "wort": "viszeral",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "احشایی",
+      "مربوط به اندام‌های درونی"
+    ],
+    "en": [
+      "visceral"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Körper"
+  ],
+  "ipa": "vɪst͡seˈʁaːl",
+  "anmerkung": "Medizinisches Fachwort.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Schmerz ist viszeral.",
+      "uebersetzung": {
+        "fa": "درد احشایی است.",
+        "en": "The pain is visceral."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Viszerale Schmerzen sind oft schwer zu lokalisieren, weil sie von den inneren Organen ausgehen.",
+      "uebersetzung": {
+        "fa": "دردهای احشایی اغلب به‌سختی محل‌یابی می‌شوند، چون از اندام‌های درونی سرچشمه می‌گیرند.",
+        "en": "Visceral pain is often hard to localise because it comes from the internal organs."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "somatisch",
+      "uebersetzung": {
+        "fa": "جسمی (پوست و عضله)",
+        "en": "somatic"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Viszeralchirurgie",
+      "uebersetzung": {
+        "fa": "جراحی شکم و احشا",
+        "en": "visceral surgery"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "lateinisch viscera (اندام‌های درونی) + -al (پسوند صفت)",
+    "en": "Latin viscera (internal organs) + -al (adjective suffix)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "viszeral",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "der viszerale Schmerz",
+      "das viszerale Fett"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "das Organ",
+    "woerter": [
+      {
+        "wort": "das Organ",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اندام",
+          "en": "organ"
+        },
+        "id_ref": "nomen_organ"
+      },
+      {
+        "wort": "der Bauch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شکم",
+          "en": "belly"
+        },
+        "id_ref": "nomen_bauch"
+      },
+      {
+        "wort": "innerlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "درونی",
+          "en": "internal"
+        },
+        "id_ref": "adjektiv_innerlich"
+      },
+      {
+        "wort": "der Schmerz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "درد",
+          "en": "pain"
+        },
+        "id_ref": "nomen_schmerz"
+      },
+      {
+        "wort": "die Chirurgie",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "جراحی",
+          "en": "surgery"
+        },
+        "id_ref": "nomen_chirurgie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

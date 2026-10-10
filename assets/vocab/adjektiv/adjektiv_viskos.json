@@ -1,0 +1,143 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_viskos",
+  "wort": "viskos",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "چسبناک",
+      "گران‌رو"
+    ],
+    "en": [
+      "viscous"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wissenschaft",
+    "Technik"
+  ],
+  "ipa": "vɪsˈkoːs",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Öl ist viskos.",
+      "uebersetzung": {
+        "fa": "روغن گران‌رو است.",
+        "en": "The oil is viscous."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Je kälter das Motoröl ist, desto viskoser wird es, sodass der Motor schwerer anspringt.",
+      "uebersetzung": {
+        "fa": "هر چه روغن موتور سردتر باشد، غلیظ‌تر می‌شود و موتور سخت‌تر روشن می‌شود.",
+        "en": "The colder the engine oil is, the more viscous it becomes, so the engine starts with more difficulty."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zähflüssig",
+      "uebersetzung": {
+        "fa": "غلیظ",
+        "en": "thick, viscous"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "dünnflüssig",
+      "uebersetzung": {
+        "fa": "رقیق",
+        "en": "runny"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Viskosität",
+      "uebersetzung": {
+        "fa": "گران‌روی",
+        "en": "viscosity"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "lateinisch viscosus (چسبناک، از viscum = سریشم)",
+    "en": "Latin viscosus (sticky, from viscum = birdlime)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "viskos",
+      "komparativ": "viskoser",
+      "superlativ": "am viskosesten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine viskose Flüssigkeit",
+      "das viskose Öl"
+    ],
+    "gegensatzpaar": "viskos ↔ dünnflüssig"
+  },
+  "wortnetz": {
+    "grundwort": "die Viskosität",
+    "woerter": [
+      {
+        "wort": "zähflüssig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "غلیظ",
+          "en": "viscous"
+        },
+        "id_ref": "adjektiv_zaehfluessig"
+      },
+      {
+        "wort": "dünnflüssig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رقیق",
+          "en": "runny"
+        },
+        "id_ref": "adjektiv_duennfluessig"
+      },
+      {
+        "wort": "die Flüssigkeit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مایع",
+          "en": "liquid"
+        },
+        "id_ref": "nomen_fluessigkeit"
+      },
+      {
+        "wort": "das Öl",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "روغن",
+          "en": "oil"
+        },
+        "id_ref": "nomen_oel"
+      },
+      {
+        "wort": "klebrig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "چسبناک",
+          "en": "sticky"
+        },
+        "id_ref": "adjektiv_klebrig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,150 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_volatil",
+  "wort": "volatil",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "پرنوسان",
+      "فرّار (در شیمی)"
+    ],
+    "en": [
+      "volatile"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Finanzen",
+    "Wissenschaft"
+  ],
+  "ipa": "voləˈtiːl",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Markt ist volatil.",
+      "uebersetzung": {
+        "fa": "بازار پرنوسان است.",
+        "en": "The market is volatile."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil die Kurse derzeit sehr volatil sind, raten Experten zu einer vorsichtigen Anlagestrategie.",
+      "uebersetzung": {
+        "fa": "چون قیمت‌ها در حال حاضر خیلی پرنوسان‌اند، کارشناسان راهبرد سرمایه‌گذاری محتاطانه را توصیه می‌کنند.",
+        "en": "Because prices are very volatile at the moment, experts recommend a cautious investment strategy."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schwankend",
+      "uebersetzung": {
+        "fa": "متغیر",
+        "en": "fluctuating"
+      }
+    },
+    {
+      "wort": "unbeständig",
+      "uebersetzung": {
+        "fa": "ناپایدار",
+        "en": "unstable"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "stabil",
+      "uebersetzung": {
+        "fa": "ثابت",
+        "en": "stable"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Volatilität",
+      "uebersetzung": {
+        "fa": "نوسان‌پذیری",
+        "en": "volatility"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "lateinisch volatilis (پرنده، فرّار، از volare = پریدن)",
+    "en": "Latin volatilis (flying, fleeting, from volare = to fly)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "volatil",
+      "komparativ": "volatiler",
+      "superlativ": "am volatilsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein volatiler Markt",
+      "die volatile Lage"
+    ],
+    "gegensatzpaar": "volatil ↔ stabil"
+  },
+  "wortnetz": {
+    "grundwort": "die Volatilität",
+    "woerter": [
+      {
+        "wort": "schwankend",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "متغیر",
+          "en": "fluctuating"
+        },
+        "id_ref": "adjektiv_schwankend"
+      },
+      {
+        "wort": "stabil",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ثابت",
+          "en": "stable"
+        },
+        "id_ref": "adjektiv_stabil"
+      },
+      {
+        "wort": "der Markt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بازار",
+          "en": "market"
+        },
+        "id_ref": "nomen_markt"
+      },
+      {
+        "wort": "die Börse",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بورس",
+          "en": "stock exchange"
+        },
+        "id_ref": "nomen_boerse"
+      },
+      {
+        "wort": "unsicher",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ناامن، نامطمئن",
+          "en": "uncertain"
+        },
+        "id_ref": "adjektiv_unsicher"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

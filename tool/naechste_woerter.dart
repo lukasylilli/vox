@@ -779,6 +779,10 @@ const zurueckgestellt = <String>{
   'vestibulär', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
   'vestimentär', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
   'vielerlei', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'vigil', // zurückgestellt (Regel 14): Bedeutung/Gebrauch unsicher (Fachwort) 2026-10-10
+  'vincentisch', // zurückgestellt (Regel 14): Herkunftsadjektiv unsicher 2026-10-10
+  'vinophil', // zurückgestellt (Regel 14): selten, Beleg unsicher 2026-10-10
+  'vogtländisch', // zurückgestellt (Regel 14): regionales Herkunftsadjektiv wie ostfälisch 2026-10-10
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
@@ -841,6 +845,10 @@ const wortartKorrektur = <String, String>{
   'nullte': 'numerale', // Duden: Numerale (2026-09-27)
   'quadrillionste': 'numerale', // Duden: Numerale (2026-09-29)
   'viel': 'numerale', // Duden: unbestimmtes Zahlwort/Indefinitpronomen (2026-10-10)
+  'vierte': 'numerale', // Duden: Ordinalzahl (2026-10-10)
+  'viertel': 'numerale', // Duden: Bruchzahl (2026-10-10)
+  'vierzehnte': 'numerale', // Duden: Ordinalzahl (2026-10-10)
+  'vierzigste': 'numerale', // Duden: Ordinalzahl (2026-10-10)
 };
 
 /// `--abhaken` (Schritt 6 der Routine): setzt in ALLEN Listen «✓ » vor jedes

@@ -1,0 +1,127 @@
+{
+  "schema": "3.0",
+  "id": "numerale_viertel",
+  "wort": "viertel",
+  "wortart": "numerale",
+  "uebersetzung": {
+    "fa": [
+      "یک‌چهارم",
+      "ربع"
+    ],
+    "en": [
+      "quarter",
+      "fourth (fraction)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Zahlen",
+    "Zeit"
+  ],
+  "ipa": "ˈfɪʁtl̩",
+  "anmerkung": "Bruchzahl, undeklinierbar vor Nomen (ein viertel Liter); als Nomen: das Viertel (auch: Stadtviertel). Aussprache mit kurzem i.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich brauche ein viertel Kilo Butter.",
+      "uebersetzung": {
+        "fa": "یک چهارم کیلو کره لازم دارم.",
+        "en": "I need a quarter of a kilo of butter."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Es ist Viertel nach acht, also müssen wir uns beeilen, wenn wir den Bus erreichen wollen.",
+      "uebersetzung": {
+        "fa": "ساعت هشت و ربع است، پس اگر بخواهیم به اتوبوس برسیم باید عجله کنیم.",
+        "en": "It is a quarter past eight, so we have to hurry if we want to catch the bus."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "vier (چهار) + -tel (پسوند کسر، از Teil)",
+    "en": "vier (four) + -tel (fraction suffix, from Teil)"
+  },
+  "details": {
+    "untertyp": "bruchzahl",
+    "deklinierbar": false,
+    "deklinationsbeispiel": null,
+    "schreibweise": "Als Zahl: 1/4; Nomen großgeschrieben: das Viertel; Uhrzeit: Viertel nach/vor acht.",
+    "feste_wendungen": [
+      {
+        "wendung": "Viertel nach/vor",
+        "uebersetzung": {
+          "fa": "و ربع / ربع به (در گفتن ساعت)",
+          "en": "quarter past / to"
+        }
+      },
+      {
+        "wendung": "eine Viertelstunde",
+        "uebersetzung": {
+          "fa": "یک ربع ساعت",
+          "en": "a quarter of an hour"
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "vier",
+    "woerter": [
+      {
+        "wort": "vier",
+        "wortart": "numerale",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چهار",
+          "en": "four"
+        },
+        "id_ref": "numerale_vier"
+      },
+      {
+        "wort": "halb",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نیم",
+          "en": "half"
+        },
+        "id_ref": "adjektiv_halb"
+      },
+      {
+        "wort": "die Viertelstunde",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ربع ساعت",
+          "en": "quarter of an hour"
+        },
+        "id_ref": "nomen_viertelstunde"
+      },
+      {
+        "wort": "das Viertel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "محله، یک‌چهارم",
+          "en": "quarter, district"
+        },
+        "id_ref": "nomen_viertel"
+      },
+      {
+        "wort": "vierte",
+        "wortart": "numerale",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چهارم",
+          "en": "fourth"
+        },
+        "id_ref": "numerale_vierte"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

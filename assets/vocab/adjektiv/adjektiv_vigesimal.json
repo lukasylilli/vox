@@ -1,0 +1,128 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_vigesimal",
+  "wort": "vigesimal",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "بیست‌بیستی",
+      "بر پایه‌ی عدد بیست"
+    ],
+    "en": [
+      "vigesimal",
+      "base-twenty"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik",
+    "Zahlen"
+  ],
+  "ipa": "viɡeziˈmaːl",
+  "anmerkung": "Fachwort; vergleiche dezimal (Basis 10).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das System ist vigesimal.",
+      "uebersetzung": {
+        "fa": "این دستگاه بر پایه‌ی بیست است.",
+        "en": "The system is base-twenty."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Französischen erkennt man noch Reste einer vigesimalen Zählweise, etwa bei „quatre-vingts“.",
+      "uebersetzung": {
+        "fa": "در زبان فرانسوی هنوز بقایای شمارش بیست‌بیستی دیده می‌شود، مثلاً در «quatre-vingts».",
+        "en": "In French you can still see traces of a vigesimal way of counting, for example in \"quatre-vingts\"."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "das Vigesimalsystem",
+      "uebersetzung": {
+        "fa": "دستگاه اعداد بر پایه‌ی بیست",
+        "en": "vigesimal system"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "lateinisch vicesimus (بیستم) + -al (پسوند صفت)",
+    "en": "Latin vicesimus (twentieth) + -al (adjective suffix)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "vigesimal",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein vigesimales Zahlensystem",
+      "die vigesimale Zählweise"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "das Vigesimalsystem",
+    "woerter": [
+      {
+        "wort": "dezimal",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دهدهی",
+          "en": "decimal"
+        },
+        "id_ref": "adjektiv_dezimal"
+      },
+      {
+        "wort": "zwanzig",
+        "wortart": "numerale",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیست",
+          "en": "twenty"
+        },
+        "id_ref": "numerale_zwanzig"
+      },
+      {
+        "wort": "das Zahlensystem",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دستگاه اعداد",
+          "en": "number system"
+        },
+        "id_ref": "nomen_zahlensystem"
+      },
+      {
+        "wort": "zählen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شمردن",
+          "en": "to count"
+        },
+        "id_ref": "verb_zaehlen"
+      },
+      {
+        "wort": "binär",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دودویی",
+          "en": "binary"
+        },
+        "id_ref": "adjektiv_binaer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
