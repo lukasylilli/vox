@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_zentripetal",
+  "wort": "zentripetal",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "مرکزگرا"
+    ],
+    "en": [
+      "centripetal"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Physik",
+    "Technik"
+  ],
+  "ipa": "tsɛntʁipeˈtaːl",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das ist eine zentripetale Kraft.",
+      "uebersetzung": {
+        "fa": "این یک نیروی مرکزگرا است.",
+        "en": "That is a centripetal force."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Damit ein Auto in der Kurve bleibt, muss eine zentripetale Kraft auf die Reifen wirken.",
+      "uebersetzung": {
+        "fa": "برای اینکه ماشین در پیچ بماند، باید نیرویی مرکزگرا روی لاستیک‌ها اثر کند.",
+        "en": "For a car to stay on the bend, a centripetal force must act on the tyres."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "zentrifugal",
+      "uebersetzung": {
+        "fa": "گریز از مرکز",
+        "en": "centrifugal"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Zentrum (مرکز) + lat. petere (به سوی چیزی رفتن)",
+    "en": "Zentrum (centre) + Latin petere (to seek, move towards)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "zentripetal",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "die zentripetale Kraft",
+      "zentripetale Beschleunigung"
+    ],
+    "gegensatzpaar": "zentripetal ↔ zentrifugal"
+  },
+  "wortnetz": {
+    "grundwort": "Zentrum",
+    "woerter": [
+      {
+        "wort": "das Zentrum",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مرکز",
+          "en": "centre"
+        },
+        "id_ref": "nomen_zentrum"
+      },
+      {
+        "wort": "die Kraft",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نیرو",
+          "en": "force"
+        },
+        "id_ref": "nomen_kraft"
+      },
+      {
+        "wort": "die Kurve",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیچ",
+          "en": "bend"
+        },
+        "id_ref": "nomen_kurve"
+      },
+      {
+        "wort": "die Physik",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فیزیک",
+          "en": "physics"
+        },
+        "id_ref": "nomen_physik"
+      },
+      {
+        "wort": "zentrifugal",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "گریز از مرکز",
+          "en": "centrifugal"
+        },
+        "id_ref": "adjektiv_zentrifugal"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

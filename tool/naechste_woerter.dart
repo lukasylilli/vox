@@ -819,6 +819,17 @@ const zurueckgestellt = <String>{
   'zedern', // zurückgestellt (Regel 14): Stoffadjektiv wie fichten 2026-10-11
   'zehntpflichtig', // zurückgestellt (Regel 14): historischer Fachbegriff 2026-10-11
   'zeitgeistlich', // zurückgestellt (Regel 14): Bedeutung unsicher 2026-10-11
+  'zeitinvariant', // zurückgestellt (Regel 14): Fachwort der Systemtheorie 2026-10-11
+  'zementen', // zurückgestellt (Regel 14): Stoffadjektiv, Gebrauch unsicher 2026-10-11
+  'zertalt', // zurückgestellt (Regel 14): Fachwort der Geografie, selten 2026-10-11
+  'zervikogen', // zurückgestellt (Regel 14): medizinisches Fachwort 2026-10-11
+  'zinken', // zurückgestellt (Regel 14): Stoffadjektiv «aus Zink», Gebrauch unsicher 2026-10-11
+  'zinnen', // zurückgestellt (Regel 14): Stoffadjektiv wie zinnern 2026-10-11
+  'zinnern', // zurückgestellt (Regel 14): Stoffadjektiv wie messingen 2026-10-11
+  'zirkumpolar', // zurückgestellt (Regel 14): Fachwort der Astronomie/Geografie 2026-10-11
+  'zisalpin', // zurückgestellt (Regel 14): selten, Fachwort der Geschichte 2026-10-11
+  'zombig', // zurückgestellt (Regel 14): Umgangssprache, Bedeutung unsicher 2026-10-11
+  'zotig', // zurückgestellt (Regel 14): anstößig/sexuell — Entscheidung Lukas 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

@@ -1,0 +1,128 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_zitierbar",
+  "wort": "zitierbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "قابل نقل‌قول",
+      "قابل استناد"
+    ],
+    "en": [
+      "quotable",
+      "citable"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft",
+    "Medien"
+  ],
+  "ipa": "tsiˈtiːɐ̯baːɐ̯",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ist dieser Satz zitierbar?",
+      "uebersetzung": {
+        "fa": "آیا این جمله قابل نقل‌قول است؟",
+        "en": "Is this sentence quotable?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Für die Hausarbeit brauchst du zitierbare Quellen, deshalb reicht ein Blogartikel nicht aus.",
+      "uebersetzung": {
+        "fa": "برای مقاله‌ی درسی به منابع قابل استناد نیاز داری، برای همین یک مطلب وبلاگ کافی نیست.",
+        "en": "For the term paper you need citable sources, so a blog article is not enough."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "belegbar",
+      "uebersetzung": {
+        "fa": "قابل اثبات",
+        "en": "verifiable"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zitieren (نقل‌قول کردن) + -bar (قابلِ)",
+    "en": "zitieren (to quote) + -bar (-able)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "zitierbar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine zitierbare Quelle",
+      "zitierbare Aussagen"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Zitat",
+    "woerter": [
+      {
+        "wort": "zitieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نقل‌قول کردن",
+          "en": "to quote"
+        },
+        "id_ref": "verb_zitieren"
+      },
+      {
+        "wort": "das Zitat",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نقل‌قول",
+          "en": "quotation"
+        },
+        "id_ref": "nomen_zitat"
+      },
+      {
+        "wort": "die Quelle",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "منبع",
+          "en": "source"
+        },
+        "id_ref": "nomen_quelle"
+      },
+      {
+        "wort": "wissenschaftlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "علمی",
+          "en": "scientific"
+        },
+        "id_ref": "adjektiv_wissenschaftlich"
+      },
+      {
+        "wort": "die Hausarbeit",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مقاله‌ی درسی",
+          "en": "term paper"
+        },
+        "id_ref": "nomen_hausarbeit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
