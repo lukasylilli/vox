@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_untergaerig",
+  "wort": "untergärig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "ته‌تخمیر (آبجو)"
+    ],
+    "en": [
+      "bottom-fermented"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Essen"
+  ],
+  "ipa": "ˈʊntɐˌɡɛːʁɪç",
+  "anmerkung": "Fachwort der Brauerei",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Pils ist ein untergäriges Bier.",
+      "uebersetzung": {
+        "fa": "پیلز یک آبجوی ته‌تخمیر است.",
+        "en": "Pils is a bottom-fermented beer."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Untergärige Biere werden bei niedrigen Temperaturen gebraut und brauchen länger zum Reifen.",
+      "uebersetzung": {
+        "fa": "آبجوهای ته‌تخمیر در دمای پایین ساخته می‌شوند و برای رسیدن زمان بیشتری لازم دارند.",
+        "en": "Bottom-fermented beers are brewed at low temperatures and take longer to mature."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "obergärig",
+      "uebersetzung": {
+        "fa": "سرتخمیر",
+        "en": "top-fermented"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "unter- (زیر) + gären (تخمیر شدن) + -ig",
+    "en": "unter- (below) + gären (to ferment) + -ig"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "untergärig",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein untergäriges Bier",
+      "die untergärige Hefe"
+    ],
+    "gegensatzpaar": "untergärig ↔ obergärig"
+  },
+  "wortnetz": {
+    "grundwort": "gären",
+    "woerter": [
+      {
+        "wort": "gären",
+        "wortart": "verb",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "تخمیر شدن",
+          "en": "to ferment"
+        },
+        "id_ref": "verb_gaeren"
+      },
+      {
+        "wort": "das Bier",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آبجو",
+          "en": "beer"
+        },
+        "id_ref": "nomen_bier"
+      },
+      {
+        "wort": "brauen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دم کردن (آبجو)",
+          "en": "to brew"
+        },
+        "id_ref": "verb_brauen"
+      },
+      {
+        "wort": "die Hefe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خمیرمایه",
+          "en": "yeast"
+        },
+        "id_ref": "nomen_hefe"
+      },
+      {
+        "wort": "die Brauerei",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کارخانه‌ی آبجوسازی",
+          "en": "brewery"
+        },
+        "id_ref": "nomen_brauerei"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

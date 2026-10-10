@@ -741,6 +741,9 @@ const zurueckgestellt = <String>{
   'unikursal', // Fachwort Mathematik, unsicher 2026-10-10
   'unitaristisch', // Fachwort Theologie, unsicher 2026-10-10
   'unleidig', // landschaftlich/veraltet, unsicher 2026-10-10
+  'unschierig', // Schreibung/Bedeutung unbekannt 2026-10-10
+  'unsexy', // umgangssprachlich, sexueller Bezug - Entscheidung Lukas 2026-10-10
+  'unterer', // flektierte Form wie oberer 2026-10-10
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

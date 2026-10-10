@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_unspielbar",
+  "wort": "unspielbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "غیرقابل‌بازی",
+      "غیرقابل‌اجرا"
+    ],
+    "en": [
+      "unplayable"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Sport",
+    "Musik"
+  ],
+  "ipa": "ʊnˈʃpiːlbaːɐ̯",
+  "anmerkung": "auch Musik: ein unspielbares Stück (zu schwer)",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Platz ist unspielbar.",
+      "uebersetzung": {
+        "fa": "زمین قابل‌بازی نیست.",
+        "en": "The pitch is unplayable."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Gewitter war der Rasen so nass, dass das Spiel als unspielbar abgesagt wurde.",
+      "uebersetzung": {
+        "fa": "بعد از رعدوبرق چمن آن‌قدر خیس بود که بازی به دلیل غیرقابل‌بازی بودن لغو شد.",
+        "en": "After the thunderstorm the grass was so wet that the match was called off as unplayable."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "unmöglich",
+      "uebersetzung": {
+        "fa": "غیرممکن",
+        "en": "impossible"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "spielbar",
+      "uebersetzung": {
+        "fa": "قابل‌بازی",
+        "en": "playable"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "un- (نا) + spielen (بازی کردن، نواختن) + -bar",
+    "en": "un- (not) + spielen (to play) + -bar (-able)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "unspielbar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein unspielbares Stück",
+      "der unspielbare Ball"
+    ],
+    "gegensatzpaar": "unspielbar ↔ spielbar"
+  },
+  "wortnetz": {
+    "grundwort": "spielen",
+    "woerter": [
+      {
+        "wort": "spielen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بازی کردن",
+          "en": "to play"
+        },
+        "id_ref": "verb_spielen"
+      },
+      {
+        "wort": "das Spiel",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بازی",
+          "en": "game"
+        },
+        "id_ref": "nomen_spiel"
+      },
+      {
+        "wort": "der Platz",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زمین",
+          "en": "pitch"
+        },
+        "id_ref": "nomen_platz"
+      },
+      {
+        "wort": "absagen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "لغو کردن",
+          "en": "to cancel"
+        },
+        "id_ref": "verb_absagen"
+      },
+      {
+        "wort": "das Stück",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قطعه",
+          "en": "piece"
+        },
+        "id_ref": "nomen_stueck"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
