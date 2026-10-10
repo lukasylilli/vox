@@ -1,0 +1,118 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_zytotoxisch",
+  "wort": "zytotoxisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "سلول‌کش",
+      "سمی برای سلول"
+    ],
+    "en": [
+      "cytotoxic"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin"
+  ],
+  "ipa": "tsytoˈtɔksɪʃ",
+  "anmerkung": "Medizinische und biologische Fachsprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Stoff ist zytotoxisch.",
+      "uebersetzung": {
+        "fa": "این ماده برای سلول‌ها سمی است.",
+        "en": "The substance is cytotoxic."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Labor wird getestet, ob das neue Mittel zytotoxisch wirkt, bevor man es an Menschen erprobt.",
+      "uebersetzung": {
+        "fa": "در آزمایشگاه بررسی می‌کنند که آیا داروی جدید برای سلول‌ها سمی است، پیش از اینکه روی انسان آزمایش شود.",
+        "en": "In the laboratory they test whether the new agent is cytotoxic before it is tried on humans."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zyto- (سلول، از یونانی) + toxisch (سمی)",
+    "en": "zyto- (cell, from Greek) + toxisch (toxic)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "zytotoxisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "zytotoxische Wirkung",
+      "zytotoxische T-Zellen"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "toxisch",
+    "woerter": [
+      {
+        "wort": "giftig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سمی",
+          "en": "poisonous"
+        },
+        "id_ref": "adjektiv_giftig"
+      },
+      {
+        "wort": "die Zelle",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سلول",
+          "en": "cell"
+        },
+        "id_ref": "nomen_zelle"
+      },
+      {
+        "wort": "toxisch",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سمی",
+          "en": "toxic"
+        },
+        "id_ref": "adjektiv_toxisch"
+      },
+      {
+        "wort": "das Gift",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سم",
+          "en": "poison"
+        },
+        "id_ref": "nomen_gift"
+      },
+      {
+        "wort": "zytostatisch",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "مهارکننده‌ی رشد سلول",
+          "en": "cytostatic"
+        },
+        "id_ref": "adjektiv_zytostatisch"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

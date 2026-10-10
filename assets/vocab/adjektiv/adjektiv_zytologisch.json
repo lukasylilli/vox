@@ -1,0 +1,119 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_zytologisch",
+  "wort": "zytologisch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "سلول‌شناختی",
+      "سیتولوژیک"
+    ],
+    "en": [
+      "cytological"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Wissenschaft"
+  ],
+  "ipa": "tsytoˈloːɡɪʃ",
+  "anmerkung": "Medizinische Fachsprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das ist eine zytologische Untersuchung.",
+      "uebersetzung": {
+        "fa": "این یک بررسی سلول‌شناختی است.",
+        "en": "That is a cytological examination."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der zytologische Befund war unauffällig, deshalb ist keine weitere Behandlung nötig.",
+      "uebersetzung": {
+        "fa": "نتیجه‌ی بررسی سلولی طبیعی بود، برای همین درمان بیشتری لازم نیست.",
+        "en": "The cytological findings were normal, so no further treatment is necessary."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Zytologie (سلول‌شناسی) + -isch (پسوند صفت‌ساز)",
+    "en": "Zytologie (cytology) + -isch (adjective suffix)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "zytologisch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein zytologischer Abstrich",
+      "die zytologische Diagnostik"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Zytologie",
+    "woerter": [
+      {
+        "wort": "die Zelle",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سلول",
+          "en": "cell"
+        },
+        "id_ref": "nomen_zelle"
+      },
+      {
+        "wort": "der Befund",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نتیجه‌ی آزمایش",
+          "en": "finding"
+        },
+        "id_ref": "nomen_befund"
+      },
+      {
+        "wort": "das Labor",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آزمایشگاه",
+          "en": "laboratory"
+        },
+        "id_ref": "nomen_labor"
+      },
+      {
+        "wort": "der Abstrich",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نمونه‌برداری (سوآب)",
+          "en": "smear"
+        },
+        "id_ref": "nomen_abstrich"
+      },
+      {
+        "wort": "die Biologie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زیست‌شناسی",
+          "en": "biology"
+        },
+        "id_ref": "nomen_biologie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

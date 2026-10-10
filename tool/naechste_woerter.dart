@@ -833,6 +833,13 @@ const zurueckgestellt = <String>{
   'zusammengeritten', // zurückgestellt (Regel 14): Bedeutung unsicher 2026-10-11
   'zweibasig', // zurückgestellt (Regel 14): Fachwort der Chemie 2026-10-11
   'zweibasisch', // zurückgestellt (Regel 14): Fachwort der Chemie 2026-10-11
+  'zweihebig', // zurückgestellt (Regel 14): Fachwort der Verslehre 2026-10-11
+  'zweitmeist', // zurückgestellt (Regel 14): selten, Duden-Eintrag unsicher 2026-10-11
+  'zwirnen', // zurückgestellt (Regel 14): Stoffadjektiv «aus Zwirn» 2026-10-11
+  'zygomorph', // zurückgestellt (Regel 14): Fachwort der Botanik 2026-10-11
+  'zypressen', // zurückgestellt (Regel 14): Stoffadjektiv wie zedern 2026-10-11
+  'zytogen', // zurückgestellt (Regel 14): Fachwort, Bedeutung unsicher 2026-10-11
+  'zytotrop', // zurückgestellt (Regel 14): Fachwort, selten 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
@@ -907,6 +914,10 @@ const wortartKorrektur = <String, String>{
   'zehnte': 'numerale', // Ordinalzahl (2026-10-11)
   'zehntel': 'numerale', // Bruchzahl (2026-10-11)
   'zwanzigste': 'numerale', // Ordinalzahl (2026-10-11)
+  'zweihundertste': 'numerale', // Ordinalzahl (2026-10-11)
+  'zweite': 'numerale', // Ordinalzahl (2026-10-11)
+  'zweiundzwanzigste': 'numerale', // Ordinalzahl (2026-10-11)
+  'zwölfte': 'numerale', // Ordinalzahl (2026-10-11)
 };
 
 /// `--abhaken` (Schritt 6 der Routine): setzt in ALLEN Listen «✓ » vor jedes
