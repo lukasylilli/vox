@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_unzerkaut",
+  "wort": "unzerkaut",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "جویده‌نشده",
+      "درسته"
+    ],
+    "en": [
+      "unchewed",
+      "whole"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gesundheit",
+    "Essen"
+  ],
+  "ipa": "ˈʊnt͡sɛɐ̯ˌkaʊ̯t",
+  "anmerkung": "vor allem in Einnahmehinweisen von Medikamenten",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Tablette unzerkaut schlucken.",
+      "uebersetzung": {
+        "fa": "قرص را بدون جویدن قورت دهید.",
+        "en": "Swallow the tablet whole."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Auf dem Beipackzettel steht, dass man die Kapsel unzerkaut mit einem Glas Wasser einnehmen soll.",
+      "uebersetzung": {
+        "fa": "در بروشور دارو نوشته که کپسول را باید بدون جویدن با یک لیوان آب خورد.",
+        "en": "The package leaflet says that the capsule should be taken whole with a glass of water."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ganz",
+      "uebersetzung": {
+        "fa": "درسته",
+        "en": "whole"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zerkaut",
+      "uebersetzung": {
+        "fa": "جویده‌شده",
+        "en": "chewed"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "un- (نا) + zerkauen (جویدن) → Partizip II",
+    "en": "un- (not) + zerkauen (to chew up) → past participle"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "unzerkaut",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine unzerkaute Tablette",
+      "die unzerkaute Tablette"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "kauen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جویدن",
+          "en": "to chew"
+        },
+        "id_ref": "verb_kauen"
+      },
+      {
+        "wort": "schlucken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قورت دادن",
+          "en": "to swallow"
+        },
+        "id_ref": "verb_schlucken"
+      },
+      {
+        "wort": "die Tablette",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قرص",
+          "en": "tablet"
+        },
+        "id_ref": "nomen_tablette"
+      },
+      {
+        "wort": "die Kapsel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کپسول",
+          "en": "capsule"
+        },
+        "id_ref": "nomen_kapsel"
+      },
+      {
+        "wort": "der Beipackzettel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بروشور دارو",
+          "en": "package leaflet"
+        },
+        "id_ref": "nomen_beipackzettel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

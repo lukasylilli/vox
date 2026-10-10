@@ -744,6 +744,41 @@ const zurueckgestellt = <String>{
   'unschierig', // Schreibung/Bedeutung unbekannt 2026-10-10
   'unsexy', // umgangssprachlich, sexueller Bezug - Entscheidung Lukas 2026-10-10
   'unterer', // flektierte Form wie oberer 2026-10-10
+  'unzial', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'uptodate', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'uranhaltig', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'urcool', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'uroborisch', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'vagil', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'vaginal', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'valabel', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'vanille', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'vaskularisiert', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'veilchenfarben', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'venenös', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'venerisch', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'venetisch', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'vereinslos', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'verfristet', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'vergnügungssüchtig', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'verhaltensgestört', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'verhascht', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'veritabel', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'verkrebst', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'verlustbehaftet', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'vernakulär', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'veronesisch', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'verpflichtungslos', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'verrechenbar', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'verrunzelt', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'versaut', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'verschwendungssüchtig', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'vertiert', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'vertränt', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'verzopft', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'vestibulär', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'vestimentär', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
+  'vielerlei', // zurückgestellt (Regel 14), Grund: PLAN «🏁 مرحله‌ی آخر» 2026-10-10
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
@@ -805,6 +840,7 @@ const wortartKorrektur = <String, String>{
   'neunzigste': 'numerale', // Duden: Numerale (2026-09-27)
   'nullte': 'numerale', // Duden: Numerale (2026-09-27)
   'quadrillionste': 'numerale', // Duden: Numerale (2026-09-29)
+  'viel': 'numerale', // Duden: unbestimmtes Zahlwort/Indefinitpronomen (2026-10-10)
 };
 
 /// `--abhaken` (Schritt 6 der Routine): setzt in ALLEN Listen «✓ » vor jedes

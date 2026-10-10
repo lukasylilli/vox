@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_unzustellbar",
+  "wort": "unzustellbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "غیرقابل‌تحویل"
+    ],
+    "en": [
+      "undeliverable"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation",
+    "Post"
+  ],
+  "ipa": "ˈʊnt͡suːʃtɛlbaːɐ̯",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Brief war unzustellbar.",
+      "uebersetzung": {
+        "fa": "نامه قابل تحویل نبود.",
+        "en": "The letter was undeliverable."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die E-Mail kam als unzustellbar zurück, weil ich mich bei der Adresse vertippt hatte.",
+      "uebersetzung": {
+        "fa": "ایمیل به‌عنوان غیرقابل‌تحویل برگشت، چون آدرس را اشتباه تایپ کرده بودم.",
+        "en": "The email bounced back as undeliverable because I had mistyped the address."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "zustellbar",
+      "uebersetzung": {
+        "fa": "قابل‌تحویل",
+        "en": "deliverable"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "un- (نا) + zustellen (تحویل دادن) + -bar (پذیر)",
+    "en": "un- (not) + zustellen (to deliver) + -bar (-able)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "unzustellbar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein unzustellbares Paket",
+      "das unzustellbare Paket"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "zustellen",
+    "woerter": [
+      {
+        "wort": "zustellen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تحویل دادن",
+          "en": "to deliver"
+        },
+        "id_ref": "verb_zustellen"
+      },
+      {
+        "wort": "die Post",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پست",
+          "en": "post"
+        },
+        "id_ref": "nomen_post"
+      },
+      {
+        "wort": "der Brief",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نامه",
+          "en": "letter"
+        },
+        "id_ref": "nomen_brief"
+      },
+      {
+        "wort": "die Adresse",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نشانی",
+          "en": "address"
+        },
+        "id_ref": "nomen_adresse"
+      },
+      {
+        "wort": "der Empfänger",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گیرنده",
+          "en": "recipient"
+        },
+        "id_ref": "nomen_empfaenger"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

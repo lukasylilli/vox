@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_unvollendet",
+  "wort": "unvollendet",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "ناتمام",
+      "ناقص"
+    ],
+    "en": [
+      "unfinished",
+      "incomplete"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kunst",
+    "Alltag"
+  ],
+  "ipa": "ˈʊnfɔlˌʔɛndət",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Bild ist unvollendet.",
+      "uebersetzung": {
+        "fa": "این نقاشی ناتمام است.",
+        "en": "The painting is unfinished."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Komponist starb, bevor er die Sinfonie beenden konnte, deshalb blieb sie unvollendet.",
+      "uebersetzung": {
+        "fa": "آهنگساز پیش از آنکه بتواند سمفونی را تمام کند درگذشت، برای همین ناتمام ماند.",
+        "en": "The composer died before he could finish the symphony, so it remained unfinished."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "unfertig",
+      "uebersetzung": {
+        "fa": "ناتمام",
+        "en": "unfinished"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "vollendet",
+      "uebersetzung": {
+        "fa": "کامل‌شده",
+        "en": "completed"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "un- (نا) + vollenden (به پایان رساندن) → Partizip II",
+    "en": "un- (not) + vollenden (to complete) → past participle"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "unvollendet",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein unvollendetes Werk",
+      "das unvollendete Werk"
+    ],
+    "gegensatzpaar": "unvollendet ↔ vollendet"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "vollenden",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "به پایان رساندن",
+          "en": "to complete"
+        },
+        "id_ref": "verb_vollenden"
+      },
+      {
+        "wort": "fertig",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تمام‌شده",
+          "en": "finished"
+        },
+        "id_ref": "adjektiv_fertig"
+      },
+      {
+        "wort": "beenden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تمام کردن",
+          "en": "to end"
+        },
+        "id_ref": "verb_beenden"
+      },
+      {
+        "wort": "das Werk",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اثر",
+          "en": "work"
+        },
+        "id_ref": "nomen_werk"
+      },
+      {
+        "wort": "unvollständig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ناقص",
+          "en": "incomplete"
+        },
+        "id_ref": "adjektiv_unvollstaendig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

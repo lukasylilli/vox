@@ -1,0 +1,152 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_unwirksam",
+  "wort": "unwirksam",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "بی‌اثر",
+      "باطل"
+    ],
+    "en": [
+      "ineffective",
+      "invalid"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Recht"
+  ],
+  "ipa": "ˈʊnvɪʁkzaːm",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Mittel war unwirksam.",
+      "uebersetzung": {
+        "fa": "آن دارو بی‌اثر بود.",
+        "en": "The remedy was ineffective."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ein Vertrag ist unwirksam, wenn er gegen das Gesetz verstößt.",
+      "uebersetzung": {
+        "fa": "قراردادی که خلاف قانون باشد باطل است.",
+        "en": "A contract is invalid if it breaks the law."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wirkungslos",
+      "uebersetzung": {
+        "fa": "بی‌اثر",
+        "en": "ineffective"
+      }
+    },
+    {
+      "wort": "ungültig",
+      "uebersetzung": {
+        "fa": "نامعتبر",
+        "en": "invalid"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "wirksam",
+      "uebersetzung": {
+        "fa": "مؤثر",
+        "en": "effective"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "un- (نا) + wirken (اثر کردن) + -sam (پسوند صفت)",
+    "en": "un- (not) + wirken (to have an effect) + -sam (adjective suffix)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "unwirksam",
+      "komparativ": "unwirksamer",
+      "superlativ": "am unwirksamsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "unwirksam gegen + Akk",
+        "beispiel": "Antibiotika sind gegen Viren unwirksam.",
+        "uebersetzung": {
+          "fa": "آنتی‌بیوتیک‌ها در برابر ویروس‌ها بی‌اثرند.",
+          "en": "Antibiotics are ineffective against viruses."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "eine unwirksame Behandlung",
+      "die unwirksame Behandlung"
+    ],
+    "gegensatzpaar": "unwirksam ↔ wirksam"
+  },
+  "wortnetz": {
+    "grundwort": "wirken",
+    "woerter": [
+      {
+        "wort": "wirken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اثر کردن",
+          "en": "to work, take effect"
+        },
+        "id_ref": "verb_wirken"
+      },
+      {
+        "wort": "die Wirkung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اثر",
+          "en": "effect"
+        },
+        "id_ref": "nomen_wirkung"
+      },
+      {
+        "wort": "wirksam",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مؤثر",
+          "en": "effective"
+        },
+        "id_ref": "adjektiv_wirksam"
+      },
+      {
+        "wort": "ungültig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نامعتبر",
+          "en": "invalid"
+        },
+        "id_ref": "adjektiv_ungueltig"
+      },
+      {
+        "wort": "das Medikament",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دارو",
+          "en": "medicine"
+        },
+        "id_ref": "nomen_medikament"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,134 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_urban",
+  "wort": "urban",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "شهری"
+    ],
+    "en": [
+      "urban"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Stadt",
+    "Gesellschaft"
+  ],
+  "ipa": "ʊʁˈbaːn",
+  "anmerkung": "bildungssprachlich; Wortbildung: aus dem Lateinischen entlehnt",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich mag das urbane Leben.",
+      "uebersetzung": {
+        "fa": "من زندگی شهری را دوست دارم.",
+        "en": "I like urban life."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Immer mehr Menschen ziehen in urbane Räume, weil sie dort bessere Arbeitsplätze finden.",
+      "uebersetzung": {
+        "fa": "آدم‌های بیشتری به مناطق شهری می‌روند، چون آنجا کار بهتری پیدا می‌کنند.",
+        "en": "More and more people move to urban areas because they find better jobs there."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "städtisch",
+      "uebersetzung": {
+        "fa": "شهری",
+        "en": "municipal, urban"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ländlich",
+      "uebersetzung": {
+        "fa": "روستایی",
+        "en": "rural"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lateinisch urbanus (شهری)",
+    "en": "Latin urbanus (of the city)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "urban",
+      "komparativ": "urbaner",
+      "superlativ": "am urbansten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein urbaner Raum",
+      "der urbane Raum"
+    ],
+    "gegensatzpaar": "urban ↔ ländlich"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Stadt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شهر",
+          "en": "city"
+        },
+        "id_ref": "nomen_stadt"
+      },
+      {
+        "wort": "städtisch",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شهری",
+          "en": "urban"
+        },
+        "id_ref": "adjektiv_staedtisch"
+      },
+      {
+        "wort": "ländlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "روستایی",
+          "en": "rural"
+        },
+        "id_ref": "adjektiv_laendlich"
+      },
+      {
+        "wort": "die Großstadt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کلان‌شهر",
+          "en": "big city"
+        },
+        "id_ref": "nomen_grossstadt"
+      },
+      {
+        "wort": "die Urbanisierung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شهرنشینی",
+          "en": "urbanization"
+        },
+        "id_ref": "nomen_urbanisierung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
