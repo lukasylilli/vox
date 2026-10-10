@@ -1,0 +1,128 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_vegetativ",
+  "wort": "vegetativ",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "خودکار (دستگاه عصبی)",
+      "رویشی"
+    ],
+    "en": [
+      "autonomic",
+      "vegetative"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Gesundheit",
+    "Biologie"
+  ],
+  "ipa": "veɡetaˈtiːf",
+  "anmerkung": "Fachwort (Medizin: das unwillkürliche Nervensystem betreffend; Biologie: ungeschlechtlich)",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das vegetative Nervensystem arbeitet automatisch.",
+      "uebersetzung": {
+        "fa": "دستگاه عصبی خودکار به‌طور خودکار کار می‌کند.",
+        "en": "The autonomic nervous system works automatically."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Stress kann vegetative Beschwerden wie Herzrasen oder Schwitzen auslösen, obwohl organisch alles gesund ist.",
+      "uebersetzung": {
+        "fa": "استرس می‌تواند ناراحتی‌های عصبی-خودکار مثل تپش قلب یا تعریق ایجاد کند، با اینکه از نظر جسمی همه‌چیز سالم است.",
+        "en": "Stress can trigger autonomic symptoms such as a racing heart or sweating, although everything is physically healthy."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "autonom",
+      "uebersetzung": {
+        "fa": "خودکار",
+        "en": "autonomic"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "لاتین vegetare (زنده نگه داشتن، رویاندن)",
+    "en": "Latin vegetare (to enliven, to grow)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "vegetativ",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein vegetatives Nervensystem",
+      "das vegetative Nervensystem"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Nerv",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عصب",
+          "en": "nerve"
+        },
+        "id_ref": "nomen_nerv"
+      },
+      {
+        "wort": "das Nervensystem",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دستگاه عصبی",
+          "en": "nervous system"
+        },
+        "id_ref": "nomen_nervensystem"
+      },
+      {
+        "wort": "der Stress",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "استرس",
+          "en": "stress"
+        },
+        "id_ref": "nomen_stress"
+      },
+      {
+        "wort": "schwitzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عرق کردن",
+          "en": "to sweat"
+        },
+        "id_ref": "verb_schwitzen"
+      },
+      {
+        "wort": "die Beschwerde",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ناراحتی، شکایت",
+          "en": "complaint"
+        },
+        "id_ref": "nomen_beschwerde"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,127 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_venoes",
+  "wort": "venös",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "وریدی",
+      "سیاهرگی"
+    ],
+    "en": [
+      "venous"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gesundheit",
+    "Medizin"
+  ],
+  "ipa": "veˈnøːs",
+  "anmerkung": "medizinisches Fachwort",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Pflegerin nimmt venöses Blut ab.",
+      "uebersetzung": {
+        "fa": "پرستار خون وریدی می‌گیرد.",
+        "en": "The nurse takes venous blood."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Venöses Blut ist dunkler als arterielles, weil es weniger Sauerstoff enthält.",
+      "uebersetzung": {
+        "fa": "خون وریدی تیره‌تر از خون شریانی است، چون اکسیژن کمتری دارد.",
+        "en": "Venous blood is darker than arterial blood because it contains less oxygen."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "arteriell",
+      "uebersetzung": {
+        "fa": "شریانی",
+        "en": "arterial"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Vene (سیاهرگ) + -ös (پسوند صفت)",
+    "en": "Vene (vein) + -ös (adjective suffix)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "venös",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein venöses Blut",
+      "das venöse Blut"
+    ],
+    "gegensatzpaar": "venös ↔ arteriell"
+  },
+  "wortnetz": {
+    "grundwort": "die Vene",
+    "woerter": [
+      {
+        "wort": "die Vene",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سیاهرگ",
+          "en": "vein"
+        },
+        "id_ref": "nomen_vene"
+      },
+      {
+        "wort": "das Blut",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خون",
+          "en": "blood"
+        },
+        "id_ref": "nomen_blut"
+      },
+      {
+        "wort": "die Arterie",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شریان",
+          "en": "artery"
+        },
+        "id_ref": "nomen_arterie"
+      },
+      {
+        "wort": "der Zugang",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "راه وریدی (کانولا)",
+          "en": "IV line"
+        },
+        "id_ref": "nomen_zugang"
+      },
+      {
+        "wort": "die Blutabnahme",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خون‌گیری",
+          "en": "blood sampling"
+        },
+        "id_ref": "nomen_blutabnahme"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

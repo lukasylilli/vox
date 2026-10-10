@@ -1,0 +1,141 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_vakant",
+  "wort": "vakant",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "خالی",
+      "بلاتصدی"
+    ],
+    "en": [
+      "vacant"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit"
+  ],
+  "ipa": "vaˈkant",
+  "anmerkung": "bildungssprachlich, vor allem für Stellen und Ämter",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Stelle ist vakant.",
+      "uebersetzung": {
+        "fa": "این پست خالی است.",
+        "en": "The position is vacant."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Seit der Chef in Rente gegangen ist, ist seine Position vakant, weil noch kein Nachfolger gefunden wurde.",
+      "uebersetzung": {
+        "fa": "از وقتی رئیس بازنشسته شده، جایگاهش خالی است، چون هنوز جانشینی پیدا نشده.",
+        "en": "Since the boss retired, his position has been vacant because no successor has been found yet."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "frei",
+      "uebersetzung": {
+        "fa": "خالی",
+        "en": "free"
+      }
+    },
+    {
+      "wort": "unbesetzt",
+      "uebersetzung": {
+        "fa": "بلاتصدی",
+        "en": "unfilled"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "besetzt",
+      "uebersetzung": {
+        "fa": "پرشده",
+        "en": "filled"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "لاتین vacare (خالی بودن)",
+    "en": "Latin vacare (to be empty)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "vakant",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine vakante Stelle",
+      "die vakante Stelle"
+    ],
+    "gegensatzpaar": "vakant ↔ besetzt"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Stelle",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پست، شغل",
+          "en": "job, position"
+        },
+        "id_ref": "nomen_stelle"
+      },
+      {
+        "wort": "frei",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آزاد، خالی",
+          "en": "free"
+        },
+        "id_ref": "adjektiv_frei"
+      },
+      {
+        "wort": "besetzen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اشغال کردن",
+          "en": "to fill"
+        },
+        "id_ref": "verb_besetzen"
+      },
+      {
+        "wort": "der Nachfolger",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جانشین",
+          "en": "successor"
+        },
+        "id_ref": "nomen_nachfolger"
+      },
+      {
+        "wort": "die Bewerbung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "درخواست کار",
+          "en": "application"
+        },
+        "id_ref": "nomen_bewerbung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_ventral",
+  "wort": "ventral",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "شکمی",
+      "جلویی"
+    ],
+    "en": [
+      "ventral"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Biologie"
+  ],
+  "ipa": "vɛnˈtʁaːl",
+  "anmerkung": "Fachwort der Anatomie",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Flosse sitzt ventral.",
+      "uebersetzung": {
+        "fa": "باله در سمت شکمی است.",
+        "en": "The fin is located ventrally."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In der Anatomie bedeutet ventral, dass etwas auf der Bauchseite des Körpers liegt.",
+      "uebersetzung": {
+        "fa": "در کالبدشناسی «ventral» یعنی چیزی در سمت شکم بدن قرار دارد.",
+        "en": "In anatomy, ventral means that something lies on the belly side of the body."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bauchseitig",
+      "uebersetzung": {
+        "fa": "سمت شکم",
+        "en": "abdominal side"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "dorsal",
+      "uebersetzung": {
+        "fa": "پشتی",
+        "en": "dorsal"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "لاتین venter (شکم) + -al (پسوند صفت)",
+    "en": "Latin venter (belly) + -al (adjective suffix)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "ventral",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine ventrale Seite",
+      "die ventrale Seite"
+    ],
+    "gegensatzpaar": "ventral ↔ dorsal"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Bauch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شکم",
+          "en": "belly"
+        },
+        "id_ref": "nomen_bauch"
+      },
+      {
+        "wort": "der Rücken",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پشت",
+          "en": "back"
+        },
+        "id_ref": "nomen_ruecken"
+      },
+      {
+        "wort": "die Anatomie",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کالبدشناسی",
+          "en": "anatomy"
+        },
+        "id_ref": "nomen_anatomie"
+      },
+      {
+        "wort": "dorsal",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "پشتی",
+          "en": "dorsal"
+        },
+        "id_ref": "adjektiv_dorsal"
+      },
+      {
+        "wort": "der Körper",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بدن",
+          "en": "body"
+        },
+        "id_ref": "nomen_koerper"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
