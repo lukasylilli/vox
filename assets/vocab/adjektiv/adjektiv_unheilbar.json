@@ -1,0 +1,142 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_unheilbar",
+  "wort": "unheilbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "درمان‌ناپذیر",
+      "لاعلاج"
+    ],
+    "en": [
+      "incurable",
+      "terminal"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit"
+  ],
+  "ipa": "ʊnˈhaɪ̯lbaːɐ̯",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Krankheit ist unheilbar.",
+      "uebersetzung": {
+        "fa": "این بیماری درمان‌ناپذیر است.",
+        "en": "The disease is incurable."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Auf der Palliativstation werden Menschen betreut, die unheilbar krank sind.",
+      "uebersetzung": {
+        "fa": "در بخش مراقبت تسکینی از کسانی که بیماری لاعلاج دارند مراقبت می‌شود.",
+        "en": "On the palliative ward people who are terminally ill are cared for."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "tödlich",
+      "uebersetzung": {
+        "fa": "کشنده",
+        "en": "fatal"
+      }
+    },
+    {
+      "wort": "chronisch",
+      "uebersetzung": {
+        "fa": "مزمن",
+        "en": "chronic"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "heilbar",
+      "uebersetzung": {
+        "fa": "درمان‌پذیر",
+        "en": "curable"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "un- (نا) + heilen (درمان کردن) + -bar",
+    "en": "un- (not) + heilen (to heal) + -bar (-able)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "unheilbar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine unheilbare Krankheit",
+      "der unheilbare Patient"
+    ],
+    "gegensatzpaar": "unheilbar ↔ heilbar"
+  },
+  "wortnetz": {
+    "grundwort": "heilen",
+    "woerter": [
+      {
+        "wort": "heilen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درمان کردن",
+          "en": "to heal"
+        },
+        "id_ref": "verb_heilen"
+      },
+      {
+        "wort": "heilbar",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "درمان‌پذیر",
+          "en": "curable"
+        },
+        "id_ref": "adjektiv_heilbar"
+      },
+      {
+        "wort": "die Krankheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیماری",
+          "en": "illness"
+        },
+        "id_ref": "nomen_krankheit"
+      },
+      {
+        "wort": "chronisch",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مزمن",
+          "en": "chronic"
+        },
+        "id_ref": "adjektiv_chronisch"
+      },
+      {
+        "wort": "die Therapie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درمان",
+          "en": "therapy"
+        },
+        "id_ref": "nomen_therapie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

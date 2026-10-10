@@ -1,0 +1,143 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_ungueltig",
+  "wort": "ungültig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "نامعتبر",
+      "باطل"
+    ],
+    "en": [
+      "invalid",
+      "void"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Recht",
+    "Alltag"
+  ],
+  "ipa": "ˈʊnˌɡʏltɪç",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mein Pass ist ungültig.",
+      "uebersetzung": {
+        "fa": "پاسپورتم نامعتبر است.",
+        "en": "My passport is invalid."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Stimmzettel wurde für ungültig erklärt, weil zwei Kreuze darauf waren.",
+      "uebersetzung": {
+        "fa": "برگه‌ی رأی باطل اعلام شد، چون دو ضربدر روی آن بود.",
+        "en": "The ballot was declared invalid because it had two crosses on it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abgelaufen",
+      "uebersetzung": {
+        "fa": "منقضی",
+        "en": "expired"
+      }
+    },
+    {
+      "wort": "nichtig",
+      "uebersetzung": {
+        "fa": "باطل",
+        "en": "void"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "gültig",
+      "uebersetzung": {
+        "fa": "معتبر",
+        "en": "valid"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "un- (نا) + gelten (اعتبار داشتن) + -ig",
+    "en": "un- (not) + gelten (to be valid) + -ig"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "ungültig",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein ungültiger Fahrschein",
+      "die ungültige Stimme"
+    ],
+    "gegensatzpaar": "ungültig ↔ gültig"
+  },
+  "wortnetz": {
+    "grundwort": "gelten",
+    "woerter": [
+      {
+        "wort": "gültig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "معتبر",
+          "en": "valid"
+        },
+        "id_ref": "adjektiv_gueltig"
+      },
+      {
+        "wort": "gelten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اعتبار داشتن",
+          "en": "to be valid"
+        },
+        "id_ref": "verb_gelten"
+      },
+      {
+        "wort": "der Ausweis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کارت شناسایی",
+          "en": "ID card"
+        },
+        "id_ref": "nomen_ausweis"
+      },
+      {
+        "wort": "abgelaufen",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "منقضی",
+          "en": "expired"
+        },
+        "id_ref": "adjektiv_abgelaufen"
+      },
+      {
+        "wort": "die Gültigkeit",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اعتبار",
+          "en": "validity"
+        },
+        "id_ref": "nomen_gueltigkeit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

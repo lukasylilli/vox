@@ -1,0 +1,144 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_ungesund",
+  "wort": "ungesund",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "ناسالم",
+      "مضر"
+    ],
+    "en": [
+      "unhealthy"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Gesundheit",
+    "Essen"
+  ],
+  "ipa": "ˈʊnɡəˌzʊnt",
+  "anmerkung": "Steigerung auch: ungesunder, am ungesundesten",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Zu viel Zucker ist ungesund.",
+      "uebersetzung": {
+        "fa": "شکر زیاد ناسالم است.",
+        "en": "Too much sugar is unhealthy."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Er weiß, dass Rauchen ungesund ist, aber er schafft es nicht aufzuhören.",
+      "uebersetzung": {
+        "fa": "می‌داند که سیگار کشیدن ناسالم است، اما نمی‌تواند ترکش کند.",
+        "en": "He knows smoking is unhealthy, but he can't manage to stop."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schädlich",
+      "uebersetzung": {
+        "fa": "مضر",
+        "en": "harmful"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "gesund",
+      "uebersetzung": {
+        "fa": "سالم",
+        "en": "healthy"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "un- (نا) + gesund (سالم)",
+    "en": "un- (not) + gesund (healthy)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "ungesund",
+      "komparativ": "ungesünder",
+      "superlativ": "am ungesündesten"
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "für + Akk",
+        "beispiel": "Fast Food ist für Kinder besonders ungesund.",
+        "uebersetzung": {
+          "fa": "فست‌فود برای بچه‌ها به‌ویژه ناسالم است.",
+          "en": "Fast food is especially unhealthy for children."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "eine ungesunde Ernährung",
+      "das ungesunde Essen"
+    ],
+    "gegensatzpaar": "ungesund ↔ gesund"
+  },
+  "wortnetz": {
+    "grundwort": "gesund",
+    "woerter": [
+      {
+        "wort": "gesund",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سالم",
+          "en": "healthy"
+        },
+        "id_ref": "adjektiv_gesund"
+      },
+      {
+        "wort": "die Gesundheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سلامتی",
+          "en": "health"
+        },
+        "id_ref": "nomen_gesundheit"
+      },
+      {
+        "wort": "schädlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مضر",
+          "en": "harmful"
+        },
+        "id_ref": "adjektiv_schaedlich"
+      },
+      {
+        "wort": "die Ernährung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تغذیه",
+          "en": "nutrition"
+        },
+        "id_ref": "nomen_ernaehrung"
+      },
+      {
+        "wort": "krank",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "ill"
+        },
+        "id_ref": "adjektiv_krank"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

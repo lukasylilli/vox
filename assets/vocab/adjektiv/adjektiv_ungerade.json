@@ -1,0 +1,128 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_ungerade",
+  "wort": "ungerade",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "فرد (عدد)",
+      "ناصاف"
+    ],
+    "en": [
+      "odd (number)",
+      "uneven"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Zahlen",
+    "Mathematik"
+  ],
+  "ipa": "ˈʊnɡəˌʁaːdə",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Drei ist eine ungerade Zahl.",
+      "uebersetzung": {
+        "fa": "سه یک عدد فرد است.",
+        "en": "Three is an odd number."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "An Tagen mit ungeradem Datum dürfen nur Autos mit ungerader Nummer in die Stadt fahren.",
+      "uebersetzung": {
+        "fa": "در روزهایی که تاریخشان فرد است، فقط ماشین‌هایی با شماره‌ی فرد می‌توانند وارد شهر شوند.",
+        "en": "On days with an odd date only cars with an odd number may drive into the city."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "gerade",
+      "uebersetzung": {
+        "fa": "زوج",
+        "en": "even"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "un- (نا) + gerade (زوج، صاف)",
+    "en": "un- (not) + gerade (even, straight)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "ungerade",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine ungerade Zahl",
+      "die ungeraden Hausnummern"
+    ],
+    "gegensatzpaar": "ungerade ↔ gerade"
+  },
+  "wortnetz": {
+    "grundwort": "gerade",
+    "woerter": [
+      {
+        "wort": "gerade",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زوج، صاف",
+          "en": "even, straight"
+        },
+        "id_ref": "adjektiv_gerade"
+      },
+      {
+        "wort": "die Zahl",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عدد",
+          "en": "number"
+        },
+        "id_ref": "nomen_zahl"
+      },
+      {
+        "wort": "zählen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شمردن",
+          "en": "to count"
+        },
+        "id_ref": "verb_zaehlen"
+      },
+      {
+        "wort": "rechnen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حساب کردن",
+          "en": "to calculate"
+        },
+        "id_ref": "verb_rechnen"
+      },
+      {
+        "wort": "die Nummer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شماره",
+          "en": "number"
+        },
+        "id_ref": "nomen_nummer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,127 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_ungespannt",
+  "wort": "ungespannt",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "نامنقبض",
+      "شل (واکه)"
+    ],
+    "en": [
+      "lax (vowel)",
+      "not tensed"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Sprache"
+  ],
+  "ipa": "ˈʊnɡəˌʃpant",
+  "anmerkung": "Fachwort der Phonetik; allgemein auch «nicht gespannt» (z. B. ein ungespannter Bogen)",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das «i» in «bitte» ist ungespannt.",
+      "uebersetzung": {
+        "fa": "«i» در «bitte» نامنقبض است.",
+        "en": "The \"i\" in \"bitte\" is lax."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ungespannte Vokale sind im Deutschen meistens kurz, während gespannte Vokale oft lang sind.",
+      "uebersetzung": {
+        "fa": "واکه‌های نامنقبض در آلمانی بیشتر کوتاه‌اند، در حالی که واکه‌های منقبض اغلب بلندند.",
+        "en": "In German, lax vowels are mostly short, while tense vowels are often long."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "gespannt",
+      "uebersetzung": {
+        "fa": "منقبض",
+        "en": "tense"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "un- (نا) + spannen (کشیدن، سفت کردن) → Partizip II",
+    "en": "un- (not) + spannen (to tighten) → past participle"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "ungespannt",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein ungespannter Vokal",
+      "die ungespannten Laute"
+    ],
+    "gegensatzpaar": "ungespannt ↔ gespannt"
+  },
+  "wortnetz": {
+    "grundwort": "spannen",
+    "woerter": [
+      {
+        "wort": "spannen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کشیدن، سفت کردن",
+          "en": "to tighten"
+        },
+        "id_ref": "verb_spannen"
+      },
+      {
+        "wort": "gespannt",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "منقبض، کنجکاو",
+          "en": "tense, curious"
+        },
+        "id_ref": "adjektiv_gespannt"
+      },
+      {
+        "wort": "der Vokal",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "واکه",
+          "en": "vowel"
+        },
+        "id_ref": "nomen_vokal"
+      },
+      {
+        "wort": "kurz",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کوتاه",
+          "en": "short"
+        },
+        "id_ref": "adjektiv_kurz"
+      },
+      {
+        "wort": "die Aussprache",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تلفظ",
+          "en": "pronunciation"
+        },
+        "id_ref": "nomen_aussprache"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

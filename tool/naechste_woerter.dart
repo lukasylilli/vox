@@ -736,6 +736,9 @@ const zurueckgestellt = <String>{
   'unbeugbar', // mehrdeutig, selten, unsicher 2026-10-09
   'unbewehrt', // selten, Fachwort, unsicher 2026-10-09
   'undulös', // Fachwort Mineralogie, unsicher 2026-10-09
+  'ungerechnet', // Gebrauch als Adjektiv unsicher (eher präpositional) 2026-10-10
+  'ungeständig', // seltenes Rechtswort, unsicher 2026-10-10
+  'unikursal', // Fachwort Mathematik, unsicher 2026-10-10
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

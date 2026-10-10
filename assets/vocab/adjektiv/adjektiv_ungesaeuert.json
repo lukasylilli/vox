@@ -1,0 +1,127 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_ungesaeuert",
+  "wort": "ungesäuert",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "فطیر",
+      "بی‌خمیرمایه"
+    ],
+    "en": [
+      "unleavened"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Essen",
+    "Religion"
+  ],
+  "ipa": "ˈʊnɡəˌzɔɪ̯ɐt",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Brot ist ungesäuert.",
+      "uebersetzung": {
+        "fa": "این نان فطیر است.",
+        "en": "This bread is unleavened."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Zum Pessachfest essen Juden ungesäuertes Brot, das an den Auszug aus Ägypten erinnert.",
+      "uebersetzung": {
+        "fa": "یهودیان در عید پسح نان فطیر می‌خورند که یادآور خروج از مصر است.",
+        "en": "At Passover Jews eat unleavened bread, which recalls the exodus from Egypt."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ungegoren",
+      "uebersetzung": {
+        "fa": "تخمیرنشده",
+        "en": "unfermented"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "un- (نا) + säuern (ترش کردن، ورآوردن خمیر) → Partizip II",
+    "en": "un- (not) + säuern (to leaven, sour) → past participle"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "ungesäuert",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ungesäuertes Brot",
+      "der ungesäuerte Teig"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "sauer",
+    "woerter": [
+      {
+        "wort": "sauer",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترش",
+          "en": "sour"
+        },
+        "id_ref": "adjektiv_sauer"
+      },
+      {
+        "wort": "das Brot",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نان",
+          "en": "bread"
+        },
+        "id_ref": "nomen_brot"
+      },
+      {
+        "wort": "der Teig",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خمیر",
+          "en": "dough"
+        },
+        "id_ref": "nomen_teig"
+      },
+      {
+        "wort": "backen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پختن (در فر)",
+          "en": "to bake"
+        },
+        "id_ref": "verb_backen"
+      },
+      {
+        "wort": "die Hefe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خمیرمایه",
+          "en": "yeast"
+        },
+        "id_ref": "nomen_hefe"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
