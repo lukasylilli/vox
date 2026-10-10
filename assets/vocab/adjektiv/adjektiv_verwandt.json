@@ -1,0 +1,144 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_verwandt",
+  "wort": "verwandt",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "خویشاوند",
+      "مرتبط"
+    ],
+    "en": [
+      "related"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Familie",
+    "Sprache"
+  ],
+  "ipa": "fɛɐ̯ˈvant",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Wir sind nicht verwandt.",
+      "uebersetzung": {
+        "fa": "ما با هم خویشاوند نیستیم.",
+        "en": "We are not related."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Deutsch und Englisch sind verwandte Sprachen, deshalb gibt es viele ähnliche Wörter.",
+      "uebersetzung": {
+        "fa": "آلمانی و انگلیسی زبان‌های خویشاوندند، برای همین واژه‌های مشابه زیادی دارند.",
+        "en": "German and English are related languages, so there are many similar words."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ähnlich",
+      "uebersetzung": {
+        "fa": "مشابه",
+        "en": "similar"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "fremd",
+      "uebersetzung": {
+        "fa": "غریبه",
+        "en": "unrelated"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "verwenden (برگرداندن، کهنه) → Partizip II",
+    "en": "verwenden (old: to turn) → past participle"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "verwandt",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "verwandt mit + Dat",
+        "beispiel": "Sie ist mit dem Bürgermeister verwandt.",
+        "uebersetzung": {
+          "fa": "او با شهردار خویشاوند است.",
+          "en": "She is related to the mayor."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "eine verwandte Sprache",
+      "die verwandte Sprache"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "die Verwandtschaft",
+    "woerter": [
+      {
+        "wort": "die Verwandtschaft",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خویشاوندی",
+          "en": "relatives"
+        },
+        "id_ref": "nomen_verwandtschaft"
+      },
+      {
+        "wort": "der Verwandte",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خویشاوند",
+          "en": "relative"
+        },
+        "id_ref": "nomen_verwandte"
+      },
+      {
+        "wort": "die Familie",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خانواده",
+          "en": "family"
+        },
+        "id_ref": "nomen_familie"
+      },
+      {
+        "wort": "ähnlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مشابه",
+          "en": "similar"
+        },
+        "id_ref": "adjektiv_aehnlich"
+      },
+      {
+        "wort": "der Cousin",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پسرعمو/پسرخاله",
+          "en": "cousin"
+        },
+        "id_ref": "nomen_cousin"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
