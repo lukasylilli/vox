@@ -830,6 +830,9 @@ const zurueckgestellt = <String>{
   'zisalpin', // zurückgestellt (Regel 14): selten, Fachwort der Geschichte 2026-10-11
   'zombig', // zurückgestellt (Regel 14): Umgangssprache, Bedeutung unsicher 2026-10-11
   'zotig', // zurückgestellt (Regel 14): anstößig/sexuell — Entscheidung Lukas 2026-10-11
+  'zusammengeritten', // zurückgestellt (Regel 14): Bedeutung unsicher 2026-10-11
+  'zweibasig', // zurückgestellt (Regel 14): Fachwort der Chemie 2026-10-11
+  'zweibasisch', // zurückgestellt (Regel 14): Fachwort der Chemie 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
@@ -903,6 +906,7 @@ const wortartKorrektur = <String, String>{
   'zehntausendste': 'numerale', // Ordinalzahl (2026-10-11)
   'zehnte': 'numerale', // Ordinalzahl (2026-10-11)
   'zehntel': 'numerale', // Bruchzahl (2026-10-11)
+  'zwanzigste': 'numerale', // Ordinalzahl (2026-10-11)
 };
 
 /// `--abhaken` (Schritt 6 der Routine): setzt in ALLEN Listen «✓ » vor jedes

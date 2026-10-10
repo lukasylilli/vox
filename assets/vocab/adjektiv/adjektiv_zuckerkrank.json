@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_zuckerkrank",
+  "wort": "zuckerkrank",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "دیابتی",
+      "مبتلا به قند"
+    ],
+    "en": [
+      "diabetic"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gesundheit",
+    "Medizin"
+  ],
+  "ipa": "ˈtsʊkɐˌkʁaŋk",
+  "anmerkung": "Umgangssprachlich; fachsprachlich: an Diabetes erkrankt, diabetisch.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mein Onkel ist zuckerkrank.",
+      "uebersetzung": {
+        "fa": "عمویم دیابت دارد.",
+        "en": "My uncle is diabetic."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil sie zuckerkrank ist, misst sie mehrmals am Tag ihren Blutzucker.",
+      "uebersetzung": {
+        "fa": "چون دیابت دارد، چند بار در روز قند خونش را اندازه می‌گیرد.",
+        "en": "Because she is diabetic, she measures her blood sugar several times a day."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "diabetisch",
+      "uebersetzung": {
+        "fa": "دیابتی",
+        "en": "diabetic"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "gesund",
+      "uebersetzung": {
+        "fa": "سالم",
+        "en": "healthy"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Zucker (قند) + krank (بیمار)",
+    "en": "Zucker (sugar) + krank (ill)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "zuckerkrank",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein zuckerkranker Patient",
+      "zuckerkranke Kinder"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Zucker",
+    "woerter": [
+      {
+        "wort": "der Zucker",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قند، شکر",
+          "en": "sugar"
+        },
+        "id_ref": "nomen_zucker"
+      },
+      {
+        "wort": "krank",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "ill"
+        },
+        "id_ref": "adjektiv_krank"
+      },
+      {
+        "wort": "der Diabetes",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دیابت",
+          "en": "diabetes"
+        },
+        "id_ref": "nomen_diabetes"
+      },
+      {
+        "wort": "das Insulin",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "انسولین",
+          "en": "insulin"
+        },
+        "id_ref": "nomen_insulin"
+      },
+      {
+        "wort": "der Blutzucker",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قند خون",
+          "en": "blood sugar"
+        },
+        "id_ref": "nomen_blutzucker"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

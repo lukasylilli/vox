@@ -1,0 +1,151 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_zufrieden",
+  "wort": "zufrieden",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "راضی",
+      "خشنود"
+    ],
+    "en": [
+      "satisfied",
+      "content"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Gefühle"
+  ],
+  "ipa": "tsuˈfʁiːdn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich bin mit dem Hotel zufrieden.",
+      "uebersetzung": {
+        "fa": "از هتل راضی‌ام.",
+        "en": "I am satisfied with the hotel."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Chef ist sehr zufrieden mit dir, weil du das Projekt so gut organisiert hast.",
+      "uebersetzung": {
+        "fa": "رئیس خیلی از تو راضی است، چون پروژه را خیلی خوب سازمان دادی.",
+        "en": "The boss is very satisfied with you because you organised the project so well."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "glücklich",
+      "uebersetzung": {
+        "fa": "خوشحال",
+        "en": "happy"
+      }
+    },
+    {
+      "wort": "froh",
+      "uebersetzung": {
+        "fa": "شاد",
+        "en": "glad"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "unzufrieden",
+      "uebersetzung": {
+        "fa": "ناراضی",
+        "en": "dissatisfied"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zu (به) + Frieden (صلح، آرامش)",
+    "en": "zu (to, in) + Frieden (peace)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "zufrieden",
+      "komparativ": "zufriedener",
+      "superlativ": "am zufriedensten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "zufrieden mit + Dat",
+        "beispiel": "Wir sind mit dem Ergebnis zufrieden.",
+        "uebersetzung": {
+          "fa": "از نتیجه راضی هستیم.",
+          "en": "We are satisfied with the result."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein zufriedener Kunde",
+      "die zufriedenen Gäste"
+    ],
+    "gegensatzpaar": "zufrieden ↔ unzufrieden"
+  },
+  "wortnetz": {
+    "grundwort": "Frieden",
+    "woerter": [
+      {
+        "wort": "glücklich",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوشحال",
+          "en": "happy"
+        },
+        "id_ref": "adjektiv_gluecklich"
+      },
+      {
+        "wort": "froh",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شاد",
+          "en": "glad"
+        },
+        "id_ref": "adjektiv_froh"
+      },
+      {
+        "wort": "die Zufriedenheit",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رضایت",
+          "en": "satisfaction"
+        },
+        "id_ref": "nomen_zufriedenheit"
+      },
+      {
+        "wort": "unzufrieden",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ناراضی",
+          "en": "dissatisfied"
+        },
+        "id_ref": "adjektiv_unzufrieden"
+      },
+      {
+        "wort": "der Frieden",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صلح",
+          "en": "peace"
+        },
+        "id_ref": "nomen_frieden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

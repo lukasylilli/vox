@@ -1,0 +1,146 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_zustaendig",
+  "wort": "zuständig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "مسئول",
+      "ذی‌صلاح"
+    ],
+    "en": [
+      "responsible",
+      "in charge",
+      "competent"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Behörden"
+  ],
+  "ipa": "ˈtsuːˌʃtɛndɪç",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wer ist hier zuständig?",
+      "uebersetzung": {
+        "fa": "چه کسی اینجا مسئول است؟",
+        "en": "Who is in charge here?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Für Ihre Frage bin ich leider nicht zuständig, aber ich verbinde Sie mit der richtigen Abteilung.",
+      "uebersetzung": {
+        "fa": "متأسفانه من مسئول این سؤال شما نیستم، اما شما را به بخش درست وصل می‌کنم.",
+        "en": "Unfortunately I am not responsible for your question, but I will put you through to the right department."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verantwortlich",
+      "uebersetzung": {
+        "fa": "مسئول",
+        "en": "responsible"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "unzuständig",
+      "uebersetzung": {
+        "fa": "غیرمسئول (در این مورد)",
+        "en": "not responsible"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Zustand (وضعیت، تعلق) + -ig (پسوند صفت‌ساز، با Umlaut)",
+    "en": "Zustand (state, belonging) + -ig (adjective suffix, with umlaut)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "zuständig",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "zuständig für + Akk",
+        "beispiel": "Frau Weber ist für die Anmeldung zuständig.",
+        "uebersetzung": {
+          "fa": "خانم وبر مسئول ثبت‌نام است.",
+          "en": "Ms Weber is responsible for registration."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "die zuständige Behörde",
+      "der zuständige Sachbearbeiter"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "Zuständigkeit",
+    "woerter": [
+      {
+        "wort": "verantwortlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مسئول",
+          "en": "responsible"
+        },
+        "id_ref": "adjektiv_verantwortlich"
+      },
+      {
+        "wort": "die Abteilung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بخش",
+          "en": "department"
+        },
+        "id_ref": "nomen_abteilung"
+      },
+      {
+        "wort": "die Behörde",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اداره",
+          "en": "authority"
+        },
+        "id_ref": "nomen_behoerde"
+      },
+      {
+        "wort": "die Zuständigkeit",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "صلاحیت، مسئولیت",
+          "en": "responsibility"
+        },
+        "id_ref": "nomen_zustaendigkeit"
+      },
+      {
+        "wort": "der Chef",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رئیس",
+          "en": "boss"
+        },
+        "id_ref": "nomen_chef"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

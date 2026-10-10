@@ -1,0 +1,128 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_zuordenbar",
+  "wort": "zuordenbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "قابل انتساب",
+      "قابل دسته‌بندی"
+    ],
+    "en": [
+      "assignable",
+      "attributable"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Organisation",
+    "Wissenschaft"
+  ],
+  "ipa": "ˈtsuːˌʔɔʁdn̩baːɐ̯",
+  "anmerkung": "Ohne Präposition, aber mit Dativ: einer Person/Sache zuordenbar.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kosten sind nicht zuordenbar.",
+      "uebersetzung": {
+        "fa": "هزینه‌ها قابل انتساب نیستند.",
+        "en": "The costs cannot be assigned."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Jede Zahlung muss einem Kunden eindeutig zuordenbar sein, sonst kann die Buchhaltung sie nicht verbuchen.",
+      "uebersetzung": {
+        "fa": "هر پرداخت باید به‌روشنی به یک مشتری قابل انتساب باشد، وگرنه حسابداری نمی‌تواند ثبتش کند.",
+        "en": "Every payment must be clearly attributable to a customer, otherwise accounting cannot book it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zurechenbar",
+      "uebersetzung": {
+        "fa": "قابل انتساب",
+        "en": "attributable"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zuordnen (نسبت دادن، مرتب کردن) + -bar (قابلِ)",
+    "en": "zuordnen (to assign) + -bar (-able)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "zuordenbar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eindeutig zuordenbare Daten",
+      "eine zuordenbare Nummer"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "zuordnen",
+    "woerter": [
+      {
+        "wort": "die Ordnung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نظم",
+          "en": "order"
+        },
+        "id_ref": "nomen_ordnung"
+      },
+      {
+        "wort": "ordnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مرتب کردن",
+          "en": "to arrange"
+        },
+        "id_ref": "verb_ordnen"
+      },
+      {
+        "wort": "zuordnen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نسبت دادن",
+          "en": "to assign"
+        },
+        "id_ref": "verb_zuordnen"
+      },
+      {
+        "wort": "eindeutig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "روشن، قطعی",
+          "en": "clear"
+        },
+        "id_ref": "adjektiv_eindeutig"
+      },
+      {
+        "wort": "die Kategorie",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دسته",
+          "en": "category"
+        },
+        "id_ref": "nomen_kategorie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
