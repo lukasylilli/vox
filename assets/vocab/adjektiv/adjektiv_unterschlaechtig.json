@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_unterschlaechtig",
+  "wort": "unterschlächtig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "پایین‌ضرب (چرخ آبی)"
+    ],
+    "en": [
+      "undershot (water wheel)"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Technik"
+  ],
+  "ipa": "ˈʊntɐˌʃlɛçtɪç",
+  "anmerkung": "Fachwort (Mühlen, Wasserräder)",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Mühle hat ein unterschlächtiges Rad.",
+      "uebersetzung": {
+        "fa": "این آسیاب یک چرخ آبی پایین‌ضرب دارد.",
+        "en": "The mill has an undershot wheel."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei einem unterschlächtigen Wasserrad fließt das Wasser unten am Rad vorbei und treibt es so an.",
+      "uebersetzung": {
+        "fa": "در چرخ آبی پایین‌ضرب، آب از زیر چرخ رد می‌شود و آن را به حرکت درمی‌آورد.",
+        "en": "With an undershot water wheel the water flows past the bottom of the wheel and drives it that way."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "oberschlächtig",
+      "uebersetzung": {
+        "fa": "بالاضرب",
+        "en": "overshot"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "unter- (زیر) + schlagen (ضربه زدن) + -ig",
+    "en": "unter- (below) + schlagen (to strike) + -ig"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "unterschlächtig",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "attributiv",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein unterschlächtiges Wasserrad",
+      "die unterschlächtige Mühle"
+    ],
+    "gegensatzpaar": "unterschlächtig ↔ oberschlächtig"
+  },
+  "wortnetz": {
+    "grundwort": "schlagen",
+    "woerter": [
+      {
+        "wort": "die Mühle",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آسیاب",
+          "en": "mill"
+        },
+        "id_ref": "nomen_muehle"
+      },
+      {
+        "wort": "das Rad",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چرخ",
+          "en": "wheel"
+        },
+        "id_ref": "nomen_rad"
+      },
+      {
+        "wort": "das Wasser",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب",
+          "en": "water"
+        },
+        "id_ref": "nomen_wasser"
+      },
+      {
+        "wort": "antreiben",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "به حرکت درآوردن",
+          "en": "to drive"
+        },
+        "id_ref": "verb_antreiben"
+      },
+      {
+        "wort": "die Energie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انرژی",
+          "en": "energy"
+        },
+        "id_ref": "nomen_energie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
