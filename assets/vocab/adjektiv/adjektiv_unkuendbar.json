@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_unkuendbar",
+  "wort": "unkündbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "غیرقابل‌فسخ",
+      "بدون امکان اخراج"
+    ],
+    "en": [
+      "non-terminable",
+      "permanent"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Recht"
+  ],
+  "ipa": "ʊnˈkʏntbaːɐ̯",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ihr Vertrag ist unkündbar.",
+      "uebersetzung": {
+        "fa": "قرارداد او قابل‌فسخ نیست.",
+        "en": "Her contract cannot be terminated."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Beamte sind nach einigen Jahren praktisch unkündbar, deshalb ist dieser Beruf bei vielen beliebt.",
+      "uebersetzung": {
+        "fa": "کارمندان رسمی دولت بعد از چند سال عملاً اخراج‌شدنی نیستند، برای همین این شغل محبوب است.",
+        "en": "After a few years civil servants practically cannot be dismissed, which is why this job is popular with many."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fest",
+      "uebersetzung": {
+        "fa": "ثابت",
+        "en": "permanent"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "kündbar",
+      "uebersetzung": {
+        "fa": "قابل‌فسخ",
+        "en": "terminable"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "un- (نا) + kündigen (فسخ کردن، استعفا دادن) + -bar",
+    "en": "un- (not) + kündigen (to terminate) + -bar (-able)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "unkündbar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein unkündbarer Vertrag",
+      "die unkündbare Stelle"
+    ],
+    "gegensatzpaar": "unkündbar ↔ kündbar"
+  },
+  "wortnetz": {
+    "grundwort": "kündigen",
+    "woerter": [
+      {
+        "wort": "kündigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فسخ کردن، استعفا دادن",
+          "en": "to terminate, quit"
+        },
+        "id_ref": "verb_kuendigen"
+      },
+      {
+        "wort": "die Kündigung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فسخ قرارداد",
+          "en": "notice"
+        },
+        "id_ref": "nomen_kuendigung"
+      },
+      {
+        "wort": "der Vertrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرارداد",
+          "en": "contract"
+        },
+        "id_ref": "nomen_vertrag"
+      },
+      {
+        "wort": "der Beamte",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کارمند رسمی دولت",
+          "en": "civil servant"
+        },
+        "id_ref": "nomen_beamte"
+      },
+      {
+        "wort": "die Stelle",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شغل",
+          "en": "position"
+        },
+        "id_ref": "nomen_stelle"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

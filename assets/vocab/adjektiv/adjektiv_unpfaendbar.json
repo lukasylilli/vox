@@ -1,0 +1,127 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_unpfaendbar",
+  "wort": "unpfändbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "غیرقابل‌توقیف"
+    ],
+    "en": [
+      "unseizable",
+      "exempt from seizure"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Recht",
+    "Wirtschaft"
+  ],
+  "ipa": "ʊnˈpfɛntbaːɐ̯",
+  "anmerkung": "Rechtssprache",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Dieses Geld ist unpfändbar.",
+      "uebersetzung": {
+        "fa": "این پول غیرقابل‌توقیف است.",
+        "en": "This money cannot be seized."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ein Teil des Gehalts ist unpfändbar, damit der Schuldner noch genug zum Leben hat.",
+      "uebersetzung": {
+        "fa": "بخشی از حقوق غیرقابل‌توقیف است تا بدهکار هنوز برای زندگی به اندازه‌ی کافی داشته باشد.",
+        "en": "Part of the salary is exempt from seizure so that the debtor still has enough to live on."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "pfändbar",
+      "uebersetzung": {
+        "fa": "قابل‌توقیف",
+        "en": "seizable"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "un- (نا) + pfänden (توقیف کردن) + -bar",
+    "en": "un- (not) + pfänden (to seize) + -bar (-able)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "unpfändbar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein unpfändbares Einkommen",
+      "der unpfändbare Betrag"
+    ],
+    "gegensatzpaar": "unpfändbar ↔ pfändbar"
+  },
+  "wortnetz": {
+    "grundwort": "das Pfand",
+    "woerter": [
+      {
+        "wort": "pfänden",
+        "wortart": "verb",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "توقیف کردن",
+          "en": "to seize"
+        },
+        "id_ref": "verb_pfaenden"
+      },
+      {
+        "wort": "die Schulden",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بدهی",
+          "en": "debts"
+        },
+        "id_ref": "nomen_schulden"
+      },
+      {
+        "wort": "das Gehalt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حقوق",
+          "en": "salary"
+        },
+        "id_ref": "nomen_gehalt"
+      },
+      {
+        "wort": "das Gericht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دادگاه",
+          "en": "court"
+        },
+        "id_ref": "nomen_gericht"
+      },
+      {
+        "wort": "das Konto",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حساب بانکی",
+          "en": "account"
+        },
+        "id_ref": "nomen_konto"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,134 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_unpassierbar",
+  "wort": "unpassierbar",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "غیرقابل‌عبور"
+    ],
+    "en": [
+      "impassable"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Verkehr",
+    "Natur"
+  ],
+  "ipa": "ˈʊnpaˌsiːɐ̯baːɐ̯",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Straße ist unpassierbar.",
+      "uebersetzung": {
+        "fa": "جاده غیرقابل‌عبور است.",
+        "en": "The road is impassable."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem starken Schneefall waren viele Bergpässe tagelang unpassierbar.",
+      "uebersetzung": {
+        "fa": "بعد از بارش شدید برف، خیلی از گردنه‌های کوهستانی روزها غیرقابل‌عبور بودند.",
+        "en": "After the heavy snowfall many mountain passes were impassable for days."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gesperrt",
+      "uebersetzung": {
+        "fa": "بسته",
+        "en": "closed"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "passierbar",
+      "uebersetzung": {
+        "fa": "قابل‌عبور",
+        "en": "passable"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "un- (نا) + passieren (عبور کردن) + -bar",
+    "en": "un- (not) + passieren (to pass) + -bar (-able)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "unpassierbar",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein unpassierbarer Weg",
+      "die unpassierbare Brücke"
+    ],
+    "gegensatzpaar": "unpassierbar ↔ passierbar"
+  },
+  "wortnetz": {
+    "grundwort": "passieren",
+    "woerter": [
+      {
+        "wort": "passieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عبور کردن، اتفاق افتادن",
+          "en": "to pass, happen"
+        },
+        "id_ref": "verb_passieren"
+      },
+      {
+        "wort": "gesperrt",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بسته",
+          "en": "closed"
+        },
+        "id_ref": "adjektiv_gesperrt"
+      },
+      {
+        "wort": "die Straße",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خیابان",
+          "en": "road"
+        },
+        "id_ref": "nomen_strasse"
+      },
+      {
+        "wort": "der Pass",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گردنه",
+          "en": "pass"
+        },
+        "id_ref": "nomen_pass"
+      },
+      {
+        "wort": "der Schnee",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "برف",
+          "en": "snow"
+        },
+        "id_ref": "nomen_schnee"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
