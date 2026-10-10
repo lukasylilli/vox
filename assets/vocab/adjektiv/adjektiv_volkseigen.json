@@ -1,0 +1,151 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_volkseigen",
+  "wort": "volkseigen",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "ملی (در مالکیت مردم، در آلمان شرقی)",
+      "دولتی"
+    ],
+    "en": [
+      "publicly owned (GDR)",
+      "state-owned"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Geschichte",
+    "Wirtschaft"
+  ],
+  "ipa": "ˈfɔlksʔaɪ̯ɡn̩",
+  "anmerkung": "Historischer Begriff aus der DDR (Abkürzung VEB = Volkseigener Betrieb).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Fabrik war volkseigen.",
+      "uebersetzung": {
+        "fa": "کارخانه ملی بود.",
+        "en": "The factory was publicly owned."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In der DDR gehörten viele Betriebe zum volkseigenen Sektor, sodass sie offiziell dem ganzen Volk gehörten.",
+      "uebersetzung": {
+        "fa": "در آلمان شرقی بسیاری از کارخانه‌ها جزو بخش ملی بودند، یعنی رسماً به همه‌ی مردم تعلق داشتند.",
+        "en": "In the GDR many enterprises belonged to the publicly owned sector, so officially they belonged to the whole people."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verstaatlicht",
+      "uebersetzung": {
+        "fa": "ملی‌شده",
+        "en": "nationalised"
+      }
+    },
+    {
+      "wort": "staatlich",
+      "uebersetzung": {
+        "fa": "دولتی",
+        "en": "state"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "privat",
+      "uebersetzung": {
+        "fa": "خصوصی",
+        "en": "private"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "der volkseigene Betrieb (VEB)",
+      "uebersetzung": {
+        "fa": "کارخانه‌ی ملی",
+        "en": "publicly owned enterprise"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "Volk (مردم) + eigen (متعلق به)",
+    "en": "Volk (people) + eigen (own)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "volkseigen",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein volkseigener Betrieb",
+      "das volkseigene Gut"
+    ],
+    "gegensatzpaar": "volkseigen ↔ privat"
+  },
+  "wortnetz": {
+    "grundwort": "das Volk",
+    "woerter": [
+      {
+        "wort": "das Volk",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مردم، ملت",
+          "en": "people"
+        },
+        "id_ref": "nomen_volk"
+      },
+      {
+        "wort": "eigen",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خود، متعلق به",
+          "en": "own"
+        },
+        "id_ref": "adjektiv_eigen"
+      },
+      {
+        "wort": "staatlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دولتی",
+          "en": "state"
+        },
+        "id_ref": "adjektiv_staatlich"
+      },
+      {
+        "wort": "der Betrieb",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کارخانه، بنگاه",
+          "en": "enterprise"
+        },
+        "id_ref": "nomen_betrieb"
+      },
+      {
+        "wort": "privat",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خصوصی",
+          "en": "private"
+        },
+        "id_ref": "adjektiv_privat"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

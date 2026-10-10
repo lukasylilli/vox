@@ -783,6 +783,10 @@ const zurueckgestellt = <String>{
   'vincentisch', // zurückgestellt (Regel 14): Herkunftsadjektiv unsicher 2026-10-10
   'vinophil', // zurückgestellt (Regel 14): selten, Beleg unsicher 2026-10-10
   'vogtländisch', // zurückgestellt (Regel 14): regionales Herkunftsadjektiv wie ostfälisch 2026-10-10
+  'volitional', // zurückgestellt (Regel 14): Fachwort, selten; Beleg unsicher 2026-10-10
+  'vorderer', // zurückgestellt (Regel 14): flektierte Form wie oberer 2026-10-10
+  'vorgabenwirksam', // zurückgestellt (Regel 14): sehr seltener Verwaltungsbegriff 2026-10-10
+  'vorletzte', // zurückgestellt (Regel 14): flektierte Form wie letzter 2026-10-10
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
@@ -849,6 +853,8 @@ const wortartKorrektur = <String, String>{
   'viertel': 'numerale', // Duden: Bruchzahl (2026-10-10)
   'vierzehnte': 'numerale', // Duden: Ordinalzahl (2026-10-10)
   'vierzigste': 'numerale', // Duden: Ordinalzahl (2026-10-10)
+  'vorbehältlich': 'praeposition', // Duden: Präposition mit Genitiv (österr./schweiz.) (2026-10-10)
+  'vorbehaltlich': 'praeposition', // Duden: Präposition mit Genitiv (2026-10-10)
 };
 
 /// `--abhaken` (Schritt 6 der Routine): setzt in ALLEN Listen «✓ » vor jedes

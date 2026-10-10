@@ -1,0 +1,150 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_vorsaetzlich",
+  "wort": "vorsätzlich",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "عمدی",
+      "از روی قصد قبلی"
+    ],
+    "en": [
+      "intentional",
+      "deliberate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht"
+  ],
+  "ipa": "ˈfoːɐ̯zɛt͡slɪç",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das war vorsätzlich.",
+      "uebersetzung": {
+        "fa": "این عمدی بود.",
+        "en": "That was deliberate."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Gericht kam zu dem Schluss, dass der Brand vorsätzlich gelegt worden war, um die Versicherung zu betrügen.",
+      "uebersetzung": {
+        "fa": "دادگاه به این نتیجه رسید که آتش‌سوزی عمداً برای فریب بیمه به راه افتاده بود.",
+        "en": "The court concluded that the fire had been set deliberately in order to defraud the insurance company."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "absichtlich",
+      "uebersetzung": {
+        "fa": "عمدی",
+        "en": "intentional"
+      }
+    },
+    {
+      "wort": "bewusst",
+      "uebersetzung": {
+        "fa": "آگاهانه",
+        "en": "conscious"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "fahrlässig",
+      "uebersetzung": {
+        "fa": "از روی بی‌احتیاطی",
+        "en": "negligent"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "der Vorsatz",
+      "uebersetzung": {
+        "fa": "قصد، عمد",
+        "en": "intent"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "Vorsatz (قصد) + -lich (پسوند صفت)",
+    "en": "Vorsatz (intent) + -lich (adjective suffix)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "vorsätzlich",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "eine vorsätzliche Tat",
+      "die vorsätzliche Körperverletzung"
+    ],
+    "gegensatzpaar": "vorsätzlich ↔ fahrlässig"
+  },
+  "wortnetz": {
+    "grundwort": "der Vorsatz",
+    "woerter": [
+      {
+        "wort": "der Vorsatz",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "قصد",
+          "en": "intent"
+        },
+        "id_ref": "nomen_vorsatz"
+      },
+      {
+        "wort": "absichtlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عمدی",
+          "en": "deliberate"
+        },
+        "id_ref": "adjektiv_absichtlich"
+      },
+      {
+        "wort": "fahrlässig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "از روی بی‌احتیاطی",
+          "en": "negligent"
+        },
+        "id_ref": "adjektiv_fahrlaessig"
+      },
+      {
+        "wort": "die Absicht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قصد",
+          "en": "intention"
+        },
+        "id_ref": "nomen_absicht"
+      },
+      {
+        "wort": "das Gericht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دادگاه",
+          "en": "court"
+        },
+        "id_ref": "nomen_gericht"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

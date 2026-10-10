@@ -1,0 +1,160 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_voreingenommen",
+  "wort": "voreingenommen",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "مغرض",
+      "دارای پیش‌داوری"
+    ],
+    "en": [
+      "biased",
+      "prejudiced"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gesellschaft",
+    "Kommunikation"
+  ],
+  "ipa": "ˈfoːɐ̯ʔaɪ̯nɡəˌnɔmən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Richter war voreingenommen.",
+      "uebersetzung": {
+        "fa": "قاضی مغرض بود.",
+        "en": "The judge was biased."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Man sollte neuen Kollegen nicht voreingenommen begegnen, nur weil man Gerüchte über sie gehört hat.",
+      "uebersetzung": {
+        "fa": "نباید با همکاران تازه با پیش‌داوری برخورد کرد، فقط چون شایعاتی درباره‌شان شنیده‌ایم.",
+        "en": "You shouldn't approach new colleagues with prejudice just because you have heard rumours about them."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "parteiisch",
+      "uebersetzung": {
+        "fa": "جانبدار",
+        "en": "partial"
+      }
+    },
+    {
+      "wort": "befangen",
+      "uebersetzung": {
+        "fa": "مغرض (حقوقی)",
+        "en": "biased"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "unvoreingenommen",
+      "uebersetzung": {
+        "fa": "بی‌طرف",
+        "en": "unbiased"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Voreingenommenheit",
+      "uebersetzung": {
+        "fa": "پیش‌داوری",
+        "en": "bias"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "vor- (پیش) + eingenommen (اشغال‌شده، از einnehmen)",
+    "en": "vor- (before) + eingenommen (taken in, from einnehmen)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "voreingenommen",
+      "komparativ": "voreingenommener",
+      "superlativ": "am voreingenommensten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "voreingenommen gegen + Akk",
+        "beispiel": "Viele sind gegen Fremde voreingenommen.",
+        "uebersetzung": {
+          "fa": "بسیاری نسبت به غریبه‌ها پیش‌داوری دارند.",
+          "en": "Many people are prejudiced against strangers."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein voreingenommener Richter",
+      "die voreingenommene Haltung"
+    ],
+    "gegensatzpaar": "voreingenommen ↔ unvoreingenommen"
+  },
+  "wortnetz": {
+    "grundwort": "das Vorurteil",
+    "woerter": [
+      {
+        "wort": "das Vorurteil",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پیش‌داوری",
+          "en": "prejudice"
+        },
+        "id_ref": "nomen_vorurteil"
+      },
+      {
+        "wort": "parteiisch",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "جانبدار",
+          "en": "partial"
+        },
+        "id_ref": "adjektiv_parteiisch"
+      },
+      {
+        "wort": "neutral",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بی‌طرف",
+          "en": "neutral"
+        },
+        "id_ref": "adjektiv_neutral"
+      },
+      {
+        "wort": "objektiv",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عینی",
+          "en": "objective"
+        },
+        "id_ref": "adjektiv_objektiv"
+      },
+      {
+        "wort": "unvoreingenommen",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بی‌طرف",
+          "en": "unbiased"
+        },
+        "id_ref": "adjektiv_unvoreingenommen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

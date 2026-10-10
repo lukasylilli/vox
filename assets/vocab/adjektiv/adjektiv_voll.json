@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_voll",
+  "wort": "voll",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "پر",
+      "کامل"
+    ],
+    "en": [
+      "full",
+      "complete"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Essen"
+  ],
+  "ipa": "fɔl",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Das Glas ist voll.",
+      "uebersetzung": {
+        "fa": "لیوان پر است.",
+        "en": "The glass is full."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Zug war so voll, dass wir die ganze Fahrt stehen mussten.",
+      "uebersetzung": {
+        "fa": "قطار آن‌قدر پر بود که مجبور شدیم تمام راه سرپا بایستیم.",
+        "en": "The train was so full that we had to stand the whole journey."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gefüllt",
+      "uebersetzung": {
+        "fa": "پرشده",
+        "en": "filled"
+      }
+    },
+    {
+      "wort": "komplett",
+      "uebersetzung": {
+        "fa": "کامل",
+        "en": "complete"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "leer",
+      "uebersetzung": {
+        "fa": "خالی",
+        "en": "empty"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "vollständig",
+      "uebersetzung": {
+        "fa": "کامل",
+        "en": "complete"
+      }
+    },
+    {
+      "wort": "die Vollzeit",
+      "uebersetzung": {
+        "fa": "تمام‌وقت",
+        "en": "full time"
+      }
+    },
+    {
+      "wort": "der Vollmond",
+      "uebersetzung": {
+        "fa": "ماه کامل",
+        "en": "full moon"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "althochdeutsch fol (پر)",
+    "en": "Old High German fol (full)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "voll",
+      "komparativ": "voller",
+      "superlativ": "am vollsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "voll von + Dat",
+        "beispiel": "Der Koffer war voll von alten Fotos.",
+        "uebersetzung": {
+          "fa": "چمدان پر از عکس‌های قدیمی بود.",
+          "en": "The suitcase was full of old photos."
+        }
+      },
+      {
+        "muster": "voll mit + Dat",
+        "beispiel": "Die Kiste ist voll mit Spielzeug.",
+        "uebersetzung": {
+          "fa": "جعبه پر از اسباب‌بازی است.",
+          "en": "The box is full of toys."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "ein volles Glas",
+      "der volle Bus"
+    ],
+    "gegensatzpaar": "voll ↔ leer"
+  },
+  "wortnetz": {
+    "grundwort": "leer",
+    "woerter": [
+      {
+        "wort": "leer",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خالی",
+          "en": "empty"
+        },
+        "id_ref": "adjektiv_leer"
+      },
+      {
+        "wort": "füllen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پر کردن",
+          "en": "to fill"
+        },
+        "id_ref": "verb_fuellen"
+      },
+      {
+        "wort": "vollständig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کامل",
+          "en": "complete"
+        },
+        "id_ref": "adjektiv_vollstaendig"
+      },
+      {
+        "wort": "völlig",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کاملاً",
+          "en": "completely"
+        },
+        "id_ref": "adjektiv_voellig"
+      },
+      {
+        "wort": "satt",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سیر",
+          "en": "full (after eating)"
+        },
+        "id_ref": "adjektiv_satt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

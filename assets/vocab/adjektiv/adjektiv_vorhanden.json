@@ -1,0 +1,142 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_vorhanden",
+  "wort": "vorhanden",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "موجود"
+    ],
+    "en": [
+      "available",
+      "existing"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Arbeit"
+  ],
+  "ipa": "foːɐ̯ˈhandn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ist noch Milch vorhanden?",
+      "uebersetzung": {
+        "fa": "هنوز شیر موجود است؟",
+        "en": "Is there any milk left?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die vorhandenen Plätze reichen nicht, deshalb müssen wir noch Stühle aus dem Keller holen.",
+      "uebersetzung": {
+        "fa": "صندلی‌های موجود کافی نیست، پس باید از زیرزمین صندلی بیاوریم.",
+        "en": "The available seats aren't enough, so we have to fetch more chairs from the basement."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verfügbar",
+      "uebersetzung": {
+        "fa": "در دسترس",
+        "en": "available"
+      }
+    },
+    {
+      "wort": "existent",
+      "uebersetzung": {
+        "fa": "موجود",
+        "en": "existing"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "fehlend",
+      "uebersetzung": {
+        "fa": "ناموجود، کم",
+        "en": "missing"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "vor (جلوی) + Hand (دست) — «دم دست»",
+    "en": "vor (before) + Hand (hand) — \"at hand\""
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "vorhanden",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "die vorhandenen Mittel",
+      "ein vorhandener Fehler"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "verfügbar",
+    "woerter": [
+      {
+        "wort": "verfügbar",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "در دسترس",
+          "en": "available"
+        },
+        "id_ref": "adjektiv_verfuegbar"
+      },
+      {
+        "wort": "existieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وجود داشتن",
+          "en": "to exist"
+        },
+        "id_ref": "verb_existieren"
+      },
+      {
+        "wort": "fehlen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کم بودن",
+          "en": "to be missing"
+        },
+        "id_ref": "verb_fehlen"
+      },
+      {
+        "wort": "die Hand",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دست",
+          "en": "hand"
+        },
+        "id_ref": "nomen_hand"
+      },
+      {
+        "wort": "der Bestand",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "موجودی",
+          "en": "stock"
+        },
+        "id_ref": "nomen_bestand"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

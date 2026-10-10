@@ -1,0 +1,131 @@
+{
+  "schema": "3.0",
+  "id": "praeposition_vorbehaltlich",
+  "wort": "vorbehaltlich",
+  "wortart": "praeposition",
+  "uebersetzung": {
+    "fa": [
+      "به شرط",
+      "مشروط به"
+    ],
+    "en": [
+      "subject to",
+      "provided"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Arbeit"
+  ],
+  "ipa": "ˈfoːɐ̯bəˌhaltlɪç",
+  "anmerkung": "In der Wortliste unter den Adjektiven; laut Duden Präposition mit Genitiv (Amtssprache). Österr./schweiz. auch „vorbehältlich“.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Vorbehaltlich Ihrer Zustimmung buchen wir das Hotel.",
+      "uebersetzung": {
+        "fa": "به شرط موافقت شما هتل را رزرو می‌کنیم.",
+        "en": "Subject to your approval, we will book the hotel."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Alle Preise gelten vorbehaltlich möglicher Änderungen, weil die Kosten für Energie stark schwanken.",
+      "uebersetzung": {
+        "fa": "همه‌ی قیمت‌ها با حفظ حق تغییر معتبرند، چون هزینه‌ی انرژی خیلی نوسان دارد.",
+        "en": "All prices are subject to possible changes because energy costs fluctuate strongly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "unter Vorbehalt",
+      "uebersetzung": {
+        "fa": "با قید شرط",
+        "en": "with reservation"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Vorbehalt (قید، شرط) + -lich (پسوند)",
+    "en": "Vorbehalt (reservation) + -lich (suffix)"
+  },
+  "details": {
+    "kasus": "genitiv",
+    "bedeutungen": [
+      {
+        "kategorie": "modal",
+        "bedeutung": "unter der Bedingung, dass etwas eintritt oder gilt",
+        "beispiel": "Vorbehaltlich der Zustimmung des Vorstands wird das Projekt gestartet.",
+        "uebersetzung": {
+          "fa": "به شرط موافقت هیئت‌مدیره، پروژه آغاز می‌شود.",
+          "en": "Subject to the board's approval, the project will be launched."
+        }
+      }
+    ],
+    "wechsel_beispielpaar": null,
+    "feste_verbindungen": [],
+    "verschmelzungen": [],
+    "kontrast": "vorbehaltlich + Gen (Amtssprache) ↔ unter Vorbehalt (allgemein)"
+  },
+  "wortnetz": {
+    "grundwort": "der Vorbehalt",
+    "woerter": [
+      {
+        "wort": "der Vorbehalt",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "قید، تردید",
+          "en": "reservation"
+        },
+        "id_ref": "nomen_vorbehalt"
+      },
+      {
+        "wort": "vorbehaltlos",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بی‌قیدوشرط",
+          "en": "unreserved"
+        },
+        "id_ref": "adjektiv_vorbehaltlos"
+      },
+      {
+        "wort": "die Bedingung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شرط",
+          "en": "condition"
+        },
+        "id_ref": "nomen_bedingung"
+      },
+      {
+        "wort": "die Zustimmung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "موافقت",
+          "en": "approval"
+        },
+        "id_ref": "nomen_zustimmung"
+      },
+      {
+        "wort": "vorbehältlich",
+        "wortart": "praeposition",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "به شرط (اتریشی)",
+          "en": "subject to (Austrian)"
+        },
+        "id_ref": "praeposition_vorbehaeltlich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
