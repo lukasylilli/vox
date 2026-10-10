@@ -1,0 +1,141 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_windig",
+  "wort": "windig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "بادی",
+      "پرباد"
+    ],
+    "en": [
+      "windy"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Wetter"
+  ],
+  "ipa": "ˈvɪndɪç",
+  "anmerkung": "Umgangssprachlich auch: unseriös, zweifelhaft (ein windiges Geschäft).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Heute ist es sehr windig.",
+      "uebersetzung": {
+        "fa": "امروز هوا خیلی باد دارد.",
+        "en": "It's very windy today."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Vertrag klingt windig, deshalb würde ich ihn erst von einem Anwalt prüfen lassen.",
+      "uebersetzung": {
+        "fa": "این قرارداد مشکوک به نظر می‌رسد، برای همین اول آن را به یک وکیل نشان می‌دادم.",
+        "en": "The contract sounds dodgy, so I would have a lawyer check it first."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "stürmisch",
+      "uebersetzung": {
+        "fa": "طوفانی",
+        "en": "stormy"
+      }
+    },
+    {
+      "wort": "zwielichtig",
+      "uebersetzung": {
+        "fa": "مشکوک",
+        "en": "shady"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "windstill",
+      "uebersetzung": {
+        "fa": "بی‌باد",
+        "en": "calm"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Wind (باد) + -ig (پسوند صفت)",
+    "en": "Wind (wind) + -ig (adjective suffix)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "windig",
+      "komparativ": "windiger",
+      "superlativ": "am windigsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein windiger Tag",
+      "die windige Ecke"
+    ],
+    "gegensatzpaar": "windig ↔ windstill"
+  },
+  "wortnetz": {
+    "grundwort": "der Wind",
+    "woerter": [
+      {
+        "wort": "der Wind",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باد",
+          "en": "wind"
+        },
+        "id_ref": "nomen_wind"
+      },
+      {
+        "wort": "stürmisch",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "طوفانی",
+          "en": "stormy"
+        },
+        "id_ref": "adjektiv_stuermisch"
+      },
+      {
+        "wort": "windstill",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بی‌باد",
+          "en": "calm"
+        },
+        "id_ref": "adjektiv_windstill"
+      },
+      {
+        "wort": "das Wetter",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "هوا",
+          "en": "weather"
+        },
+        "id_ref": "nomen_wetter"
+      },
+      {
+        "wort": "wehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وزیدن",
+          "en": "to blow"
+        },
+        "id_ref": "verb_wehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

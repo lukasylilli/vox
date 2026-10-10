@@ -801,6 +801,10 @@ const zurueckgestellt = <String>{
   'weißfeldrig', // zurückgestellt (Regel 14): Bedeutung unsicher 2026-10-10
   'weißgolden', // zurückgestellt (Regel 14): selten, Bedeutung unsicher 2026-10-10
   'weitentlegen', // zurückgestellt (Regel 14): Schreibung zweifelhaft (weit entlegen) 2026-10-10
+  'wergen', // zurückgestellt (Regel 14): Stoffadjektiv wie flächsen 2026-10-10
+  'westmitteldeutsch', // zurückgestellt (Regel 14): Fachwort der Dialektologie 2026-10-10
+  'westoberdeutsch', // zurückgestellt (Regel 14): Fachwort der Dialektologie 2026-10-10
+  'wipfelschäftig', // zurückgestellt (Regel 14): Bedeutung unsicher 2026-10-10
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_westlich",
+  "wort": "westlich",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "غربی"
+    ],
+    "en": [
+      "western",
+      "west of"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Geographie",
+    "Politik"
+  ],
+  "ipa": "ˈvɛstlɪç",
+  "anmerkung": "Auch als Präposition mit Genitiv: westlich der Stadt.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Wind kommt aus westlicher Richtung.",
+      "uebersetzung": {
+        "fa": "باد از سمت غرب می‌وزد.",
+        "en": "The wind is coming from the west."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Das Dorf liegt etwa zehn Kilometer westlich von Innsbruck, deshalb ist man schnell in der Stadt.",
+      "uebersetzung": {
+        "fa": "روستا حدود ده کیلومتری غرب اینسبروک است، به همین خاطر آدم زود به شهر می‌رسد.",
+        "en": "The village lies about ten kilometres west of Innsbruck, so you get to town quickly."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "östlich",
+      "uebersetzung": {
+        "fa": "شرقی",
+        "en": "eastern"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "West (غرب) + -lich (پسوند صفت)",
+    "en": "West (west) + -lich (adjective suffix)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "westlich",
+      "komparativ": "westlicher",
+      "superlativ": "am westlichsten"
+    },
+    "steigerung_regelmaessig": true,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "westlich von + Dat",
+        "beispiel": "Salzburg liegt westlich von Linz.",
+        "uebersetzung": {
+          "fa": "سالزبورگ در غرب لینتس است.",
+          "en": "Salzburg lies west of Linz."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "die westliche Welt",
+      "der westliche Teil"
+    ],
+    "gegensatzpaar": "westlich ↔ östlich"
+  },
+  "wortnetz": {
+    "grundwort": "der Westen",
+    "woerter": [
+      {
+        "wort": "der Westen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "غرب",
+          "en": "west"
+        },
+        "id_ref": "nomen_westen"
+      },
+      {
+        "wort": "östlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شرقی",
+          "en": "eastern"
+        },
+        "id_ref": "adjektiv_oestlich"
+      },
+      {
+        "wort": "nördlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شمالی",
+          "en": "northern"
+        },
+        "id_ref": "adjektiv_noerdlich"
+      },
+      {
+        "wort": "südlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جنوبی",
+          "en": "southern"
+        },
+        "id_ref": "adjektiv_suedlich"
+      },
+      {
+        "wort": "die Richtung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جهت",
+          "en": "direction"
+        },
+        "id_ref": "nomen_richtung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
