@@ -788,6 +788,19 @@ const zurueckgestellt = <String>{
   'vorgabenwirksam', // zurückgestellt (Regel 14): sehr seltener Verwaltungsbegriff 2026-10-10
   'vorletzte', // zurückgestellt (Regel 14): flektierte Form wie letzter 2026-10-10
   'vulkanistisch', // zurückgestellt (Regel 14): Fachwort, Bedeutung unsicher 2026-10-10
+  'wegsam', // zurückgestellt (Regel 14): veraltet, selten 2026-10-10
+  'wehrig', // zurückgestellt (Regel 14): Bedeutung unsicher 2026-10-10
+  'weidlich', // zurückgestellt (Regel 14): Wortart unsicher (Adverb/Adjektiv) 2026-10-10
+  'weinfarben', // zurückgestellt (Regel 14): wie beinfarben/lohfarben 2026-10-10
+  'weinfröhlich', // zurückgestellt (Regel 14): sehr selten 2026-10-10
+  'weinfroh', // zurückgestellt (Regel 14): sehr selten 2026-10-10
+  'weingelb', // zurückgestellt (Regel 14): selten, Farbton unsicher 2026-10-10
+  'weinhaltig', // zurückgestellt (Regel 14): wie uranhaltig 2026-10-10
+  'weinig', // zurückgestellt (Regel 14): selten, Bedeutung unsicher 2026-10-10
+  'weinsauer', // zurückgestellt (Regel 14): selten, Bedeutung unsicher 2026-10-10
+  'weißfeldrig', // zurückgestellt (Regel 14): Bedeutung unsicher 2026-10-10
+  'weißgolden', // zurückgestellt (Regel 14): selten, Bedeutung unsicher 2026-10-10
+  'weitentlegen', // zurückgestellt (Regel 14): Schreibung zweifelhaft (weit entlegen) 2026-10-10
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
@@ -857,6 +870,7 @@ const wortartKorrektur = <String, String>{
   'vorbehältlich': 'praeposition', // Duden: Präposition mit Genitiv (österr./schweiz.) (2026-10-10)
   'vorbehaltlich': 'praeposition', // Duden: Präposition mit Genitiv (2026-10-10)
   'wahrlich': 'adverb', // Duden: Adverb (2026-10-10)
+  'wenig': 'numerale', // Duden: unbestimmtes Zahlwort/Indefinitpronomen (2026-10-10)
 };
 
 /// `--abhaken` (Schritt 6 der Routine): setzt in ALLEN Listen «✓ » vor jedes

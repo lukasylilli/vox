@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_weisungsbefugt",
+  "wort": "weisungsbefugt",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "مجاز به دستور دادن",
+      "دارای اختیار صدور دستور"
+    ],
+    "en": [
+      "authorised to give instructions"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Recht"
+  ],
+  "ipa": "ˈvaɪ̯zʊŋsbəˌfuːkt",
+  "anmerkung": "Amts- und Arbeitsrechtssprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Chefin ist weisungsbefugt.",
+      "uebersetzung": {
+        "fa": "رئیس اختیار دستور دادن دارد.",
+        "en": "The boss is authorised to give instructions."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nur der Projektleiter ist gegenüber dem Team weisungsbefugt, deshalb müssen Änderungen über ihn laufen.",
+      "uebersetzung": {
+        "fa": "فقط مدیر پروژه نسبت به تیم اختیار صدور دستور دارد، به همین دلیل تغییرات باید از طریق او انجام شود.",
+        "en": "Only the project manager is authorised to give the team instructions, so changes must go through him."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "weisungsberechtigt",
+      "uebersetzung": {
+        "fa": "مجاز به دستور دادن",
+        "en": "entitled to give instructions"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Weisung (دستور) + befugt (مجاز)",
+    "en": "Weisung (instruction) + befugt (authorised)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "weisungsbefugt",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [
+      {
+        "muster": "weisungsbefugt gegenüber + Dat",
+        "beispiel": "Sie ist gegenüber den Praktikanten weisungsbefugt.",
+        "uebersetzung": {
+          "fa": "او نسبت به کارآموزان اختیار صدور دستور دارد.",
+          "en": "She is authorised to give instructions to the interns."
+        }
+      }
+    ],
+    "deklinationsbeispiele": [
+      "eine weisungsbefugte Person",
+      "der weisungsbefugte Vorgesetzte"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "die Weisung",
+    "woerter": [
+      {
+        "wort": "die Weisung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دستور",
+          "en": "instruction"
+        },
+        "id_ref": "nomen_weisung"
+      },
+      {
+        "wort": "befugt",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مجاز",
+          "en": "authorised"
+        },
+        "id_ref": "adjektiv_befugt"
+      },
+      {
+        "wort": "weisungsberechtigt",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مجاز به دستور دادن",
+          "en": "entitled to give instructions"
+        },
+        "id_ref": "adjektiv_weisungsberechtigt"
+      },
+      {
+        "wort": "der Vorgesetzte",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مافوق",
+          "en": "superior"
+        },
+        "id_ref": "nomen_vorgesetzte"
+      },
+      {
+        "wort": "anweisen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دستور دادن",
+          "en": "to instruct"
+        },
+        "id_ref": "verb_anweisen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

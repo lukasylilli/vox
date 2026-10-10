@@ -1,0 +1,128 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_welsch",
+  "wort": "welsch",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "فرانسوی‌زبان (در سوئیس)",
+      "ایتالیایی/فرانسوی (قدیمی)"
+    ],
+    "en": [
+      "French-speaking (Swiss)",
+      "Romance"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Länder",
+    "Sprache"
+  ],
+  "ipa": "vɛlʃ",
+  "anmerkung": "In der Schweiz neutral: französischsprachig (die Welschschweiz). Sonst veraltet, teils abwertend für „romanisch, fremd“.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie kommt aus der welschen Schweiz.",
+      "uebersetzung": {
+        "fa": "او از بخش فرانسوی‌زبان سوئیس است.",
+        "en": "She comes from French-speaking Switzerland."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In der welschen Schweiz wird Französisch gesprochen, während man in Zürich Schweizerdeutsch hört.",
+      "uebersetzung": {
+        "fa": "در بخش فرانسوی‌زبان سوئیس به فرانسوی حرف می‌زنند، در حالی که در زوریخ آلمانی سوئیسی شنیده می‌شود.",
+        "en": "In French-speaking Switzerland people speak French, whereas in Zurich you hear Swiss German."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "französischsprachig",
+      "uebersetzung": {
+        "fa": "فرانسوی‌زبان",
+        "en": "French-speaking"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "althochdeutsch walhisc (بیگانه، رومی‌زبان)",
+    "en": "Old High German walhisc (foreign, Romance-speaking)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "welsch",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "die welsche Schweiz",
+      "ein welscher Kanton"
+    ],
+    "gegensatzpaar": null
+  },
+  "wortnetz": {
+    "grundwort": "die Schweiz",
+    "woerter": [
+      {
+        "wort": "schweizerisch",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سوئیسی",
+          "en": "Swiss"
+        },
+        "id_ref": "adjektiv_schweizerisch"
+      },
+      {
+        "wort": "französisch",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فرانسوی",
+          "en": "French"
+        },
+        "id_ref": "adjektiv_franzoesisch"
+      },
+      {
+        "wort": "der Kanton",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کانتون",
+          "en": "canton"
+        },
+        "id_ref": "nomen_kanton"
+      },
+      {
+        "wort": "romanisch",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رومیایی",
+          "en": "Romance"
+        },
+        "id_ref": "adjektiv_romanisch"
+      },
+      {
+        "wort": "die Sprache",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زبان",
+          "en": "language"
+        },
+        "id_ref": "nomen_sprache"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

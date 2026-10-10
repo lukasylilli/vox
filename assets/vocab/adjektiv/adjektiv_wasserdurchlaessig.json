@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "adjektiv_wasserdurchlaessig",
+  "wort": "wasserdurchlässig",
+  "wortart": "adjektiv",
+  "uebersetzung": {
+    "fa": [
+      "آب‌گذر",
+      "نفوذپذیر برای آب"
+    ],
+    "en": [
+      "permeable (to water)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Technik"
+  ],
+  "ipa": "ˈvasɐdʊʁçˌlɛsɪç",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Boden ist wasserdurchlässig.",
+      "uebersetzung": {
+        "fa": "خاک آب‌گذر است.",
+        "en": "The soil is permeable."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Für den Garten braucht man einen wasserdurchlässigen Boden, damit sich nach dem Regen keine Pfützen bilden.",
+      "uebersetzung": {
+        "fa": "برای باغ خاکی آب‌گذر لازم است تا بعد از باران چاله‌ی آب درست نشود.",
+        "en": "For the garden you need permeable soil so that no puddles form after rain."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "durchlässig",
+      "uebersetzung": {
+        "fa": "نفوذپذیر",
+        "en": "permeable"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "wasserundurchlässig",
+      "uebersetzung": {
+        "fa": "نفوذناپذیر در برابر آب",
+        "en": "impermeable"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Wasser (آب) + durchlässig (نفوذپذیر)",
+    "en": "Wasser (water) + durchlässig (permeable)"
+  },
+  "details": {
+    "steigerung": {
+      "positiv": "wasserdurchlässig",
+      "komparativ": null,
+      "superlativ": null
+    },
+    "steigerung_regelmaessig": false,
+    "gebrauch": "beides",
+    "mit_praeposition": [],
+    "deklinationsbeispiele": [
+      "ein wasserdurchlässiger Boden",
+      "die wasserdurchlässige Schicht"
+    ],
+    "gegensatzpaar": "wasserdurchlässig ↔ wasserundurchlässig"
+  },
+  "wortnetz": {
+    "grundwort": "durchlassen",
+    "woerter": [
+      {
+        "wort": "durchlassen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عبور دادن",
+          "en": "to let through"
+        },
+        "id_ref": "verb_durchlassen"
+      },
+      {
+        "wort": "wasserundurchlässig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نفوذناپذیر",
+          "en": "impermeable"
+        },
+        "id_ref": "adjektiv_wasserundurchlaessig"
+      },
+      {
+        "wort": "der Boden",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خاک، زمین",
+          "en": "soil, ground"
+        },
+        "id_ref": "nomen_boden"
+      },
+      {
+        "wort": "das Wasser",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب",
+          "en": "water"
+        },
+        "id_ref": "nomen_wasser"
+      },
+      {
+        "wort": "die Pfütze",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "چاله‌ی آب",
+          "en": "puddle"
+        },
+        "id_ref": "nomen_pfuetze"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

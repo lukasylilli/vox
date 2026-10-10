@@ -1,0 +1,150 @@
+{
+  "schema": "3.0",
+  "id": "numerale_wenig",
+  "wort": "wenig",
+  "wortart": "numerale",
+  "uebersetzung": {
+    "fa": [
+      "کم",
+      "اندک"
+    ],
+    "en": [
+      "little",
+      "few"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Zahlen",
+    "Alltag"
+  ],
+  "ipa": "ˈveːnɪç",
+  "anmerkung": "Duden: Indefinitpronomen und unbestimmtes Zahlwort (in der Wortliste unter den Adjektiven); Steigerung: wenig – weniger – am wenigsten (auch: minder – am mindesten).",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich habe wenig Zeit.",
+      "uebersetzung": {
+        "fa": "وقت کمی دارم.",
+        "en": "I have little time."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nur wenige Menschen wissen, dass die Stadt früher einen eigenen Hafen hatte.",
+      "uebersetzung": {
+        "fa": "فقط افراد کمی می‌دانند که شهر قبلاً بندر خودش را داشته است.",
+        "en": "Only a few people know that the town used to have its own harbour."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kaum",
+      "uebersetzung": {
+        "fa": "به‌ندرت، تقریباً نه",
+        "en": "hardly"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "viel",
+      "uebersetzung": {
+        "fa": "زیاد",
+        "en": "much, many"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "althochdeutsch wēnag (کم، بیچاره)",
+    "en": "Old High German wēnag (little, pitiful)"
+  },
+  "details": {
+    "untertyp": "unbestimmt",
+    "deklinierbar": true,
+    "deklinationsbeispiel": "wenige Leute · mit wenigen Worten",
+    "schreibweise": "Klein geschrieben; vor Nomen im Singular meist ungebeugt (wenig Geld), im Plural gebeugt (wenige Bücher). Steigerung: weniger – am wenigsten.",
+    "feste_wendungen": [
+      {
+        "wendung": "ein wenig",
+        "uebersetzung": {
+          "fa": "کمی",
+          "en": "a little"
+        }
+      },
+      {
+        "wendung": "zu wenig",
+        "uebersetzung": {
+          "fa": "خیلی کم، ناکافی",
+          "en": "too little"
+        }
+      },
+      {
+        "wendung": "nicht wenig",
+        "uebersetzung": {
+          "fa": "نه کم، بسیار",
+          "en": "quite a lot"
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "viel",
+    "woerter": [
+      {
+        "wort": "viel",
+        "wortart": "numerale",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زیاد",
+          "en": "much"
+        },
+        "id_ref": "numerale_viel"
+      },
+      {
+        "wort": "weniger",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کمتر",
+          "en": "less"
+        },
+        "id_ref": "adverb_weniger"
+      },
+      {
+        "wort": "kaum",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به‌ندرت",
+          "en": "hardly"
+        },
+        "id_ref": "adverb_kaum"
+      },
+      {
+        "wort": "etwas",
+        "wortart": "pronomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چیزی، کمی",
+          "en": "something, a little"
+        },
+        "id_ref": "pronomen_etwas"
+      },
+      {
+        "wort": "manche",
+        "wortart": "pronomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برخی",
+          "en": "some"
+        },
+        "id_ref": "pronomen_manche"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
