@@ -808,6 +808,17 @@ const zurueckgestellt = <String>{
   'wirsch', // zurückgestellt (Regel 14): landschaftlich, Bedeutung schwankend (ärgerlich/verwirrt) 2026-10-11
   'wollen', // zurückgestellt (Regel 14): Stoffadjektiv «aus Wolle», leicht mit Verb wollen verwechselbar 2026-10-11
   'wollüstig', // zurückgestellt (Regel 14): sexuelle Bedeutung — Entscheidung Lukas 2026-10-11
+  'wurzelverwandt', // zurückgestellt (Regel 14): selten, Fachwort der Sprachwissenschaft 2026-10-11
+  'wuschig', // zurückgestellt (Regel 14): umgangssprachlich, Bedeutung schwankend (nervös / sexuell erregt) 2026-10-11
+  'xenophontisch', // zurückgestellt (Regel 14): Eigenname-Adjektiv (Xenophon) 2026-10-11
+  'xerographisch', // zurückgestellt (Regel 14): Fachwort, selten 2026-10-11
+  'xerophil', // zurückgestellt (Regel 14): Fachwort der Biologie 2026-10-11
+  'yttriumhaltig', // zurückgestellt (Regel 14): Fachwort wie uranhaltig 2026-10-11
+  'zahlungswirksam', // zurückgestellt (Regel 14): Fachwort der Buchhaltung, Duden-Eintrag unsicher 2026-10-11
+  'zapfentragend', // zurückgestellt (Regel 14): Fachwort der Botanik wie gehäusetragend 2026-10-11
+  'zedern', // zurückgestellt (Regel 14): Stoffadjektiv wie fichten 2026-10-11
+  'zehntpflichtig', // zurückgestellt (Regel 14): historischer Fachbegriff 2026-10-11
+  'zeitgeistlich', // zurückgestellt (Regel 14): Bedeutung unsicher 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
@@ -878,6 +889,9 @@ const wortartKorrektur = <String, String>{
   'vorbehaltlich': 'praeposition', // Duden: Präposition mit Genitiv (2026-10-10)
   'wahrlich': 'adverb', // Duden: Adverb (2026-10-10)
   'wenig': 'numerale', // Duden: unbestimmtes Zahlwort/Indefinitpronomen (2026-10-10)
+  'zehntausendste': 'numerale', // Ordinalzahl (2026-10-11)
+  'zehnte': 'numerale', // Ordinalzahl (2026-10-11)
+  'zehntel': 'numerale', // Bruchzahl (2026-10-11)
 };
 
 /// `--abhaken` (Schritt 6 der Routine): setzt in ALLEN Listen «✓ » vor jedes

@@ -1,0 +1,118 @@
+{
+  "schema": "3.0",
+  "id": "numerale_zehntel",
+  "wort": "zehntel",
+  "wortart": "numerale",
+  "uebersetzung": {
+    "fa": [
+      "یک‌دهم"
+    ],
+    "en": [
+      "tenth (fraction)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Zahlen",
+    "Mathematik"
+  ],
+  "ipa": "ˈtseːntl̩",
+  "anmerkung": "Bruchzahl, undeklinierbar vor Nomen (eine zehntel Sekunde); als Nomen: das Zehntel.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich warte ein zehntel Sekunde.",
+      "uebersetzung": {
+        "fa": "یک‌دهم ثانیه صبر می‌کنم.",
+        "en": "I wait a tenth of a second."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Läufer war nur eine zehntel Sekunde langsamer, trotzdem verlor er die Medaille.",
+      "uebersetzung": {
+        "fa": "دونده فقط یک‌دهم ثانیه کندتر بود، با این حال مدال را از دست داد.",
+        "en": "The runner was only a tenth of a second slower, yet he lost the medal."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zehn (ده) + -tel (پسوند کسر، از Teil)",
+    "en": "zehn (ten) + -tel (fraction suffix, from Teil)"
+  },
+  "details": {
+    "untertyp": "bruchzahl",
+    "deklinierbar": false,
+    "deklinationsbeispiel": null,
+    "schreibweise": "Als Zahl: 1/10 oder 0,1; Nomen großgeschrieben: das Zehntel.",
+    "feste_wendungen": [
+      {
+        "wendung": "ein Zehntel davon",
+        "uebersetzung": {
+          "fa": "یک‌دهمِ آن",
+          "en": "a tenth of it"
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "zehn",
+    "woerter": [
+      {
+        "wort": "zehn",
+        "wortart": "numerale",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ده",
+          "en": "ten"
+        },
+        "id_ref": "numerale_zehn"
+      },
+      {
+        "wort": "zehnte",
+        "wortart": "numerale",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دهم",
+          "en": "tenth"
+        },
+        "id_ref": "numerale_zehnte"
+      },
+      {
+        "wort": "viertel",
+        "wortart": "numerale",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "یک‌چهارم",
+          "en": "quarter"
+        },
+        "id_ref": "numerale_viertel"
+      },
+      {
+        "wort": "hundertstel",
+        "wortart": "numerale",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "یک‌صدم",
+          "en": "hundredth (fraction)"
+        },
+        "id_ref": "numerale_hundertstel"
+      },
+      {
+        "wort": "der Bruch",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کسر",
+          "en": "fraction"
+        },
+        "id_ref": "nomen_bruch"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
