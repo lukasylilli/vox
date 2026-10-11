@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_einfrieren",
+  "wort": "einfrieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "منجمد کردن، فریز کردن (غذا)",
+      "(خودش) یخ زدن",
+      "(حساب، قیمت یا روابطی را) مسدود یا متوقف کردن"
+    ],
+    "en": [
+      "to freeze (food)",
+      "to freeze up",
+      "to freeze (an account, prices, relations)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Küche",
+    "Haushalt",
+    "Wirtschaft"
+  ],
+  "ipa": "ˈaɪ̯nˌfʁiːʁən",
+  "anmerkung": "Transitiv mit «haben» (Fleisch einfrieren); intransitiv mit «sein» (Das Wasser ist eingefroren).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich friere das Brot ein.",
+      "uebersetzung": {
+        "fa": "نان را فریز می‌کنم.",
+        "en": "I'm freezing the bread."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Regierung hat die Konten der Firma eingefroren, bis der Fall geklärt ist.",
+      "uebersetzung": {
+        "fa": "دولت حساب‌های شرکت را تا روشن شدن پرونده مسدود کرده است.",
+        "en": "The government has frozen the company's accounts until the case is resolved."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "tiefkühlen",
+      "uebersetzung": {
+        "fa": "منجمد کردن",
+        "en": "to deep-freeze"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "auftauen",
+      "uebersetzung": {
+        "fa": "یخ‌زدایی کردن",
+        "en": "to thaw"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + frieren (یخ زدن، سرد بودن)",
+    "en": "ein- (in, into) + frieren (to freeze)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "einfrieren",
+      "praeteritum": "fror ein",
+      "partizip2": "eingefroren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "friere ein",
+        "du": "frierst ein",
+        "er_sie_es": "friert ein",
+        "wir": "frieren ein",
+        "ihr": "friert ein",
+        "sie_Sie": "frieren ein"
+      },
+      "praeteritum": {
+        "ich": "fror ein",
+        "du": "frorst ein",
+        "er_sie_es": "fror ein",
+        "wir": "froren ein",
+        "ihr": "frort ein",
+        "sie_Sie": "froren ein"
+      },
+      "konjunktiv1": {
+        "ich": "friere ein",
+        "du": "frierest ein",
+        "er_sie_es": "friere ein",
+        "wir": "frieren ein",
+        "ihr": "frieret ein",
+        "sie_Sie": "frieren ein"
+      },
+      "konjunktiv2": {
+        "ich": "fröre ein",
+        "du": "frörest ein",
+        "er_sie_es": "fröre ein",
+        "wir": "frören ein",
+        "ihr": "fröret ein",
+        "sie_Sie": "frören ein"
+      },
+      "imperativ": {
+        "du": "Frier ein!",
+        "ihr": "Friert ein!",
+        "Sie": "Frieren Sie ein!"
+      }
+    },
+    "partizip1": "einfrierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "frieren",
+    "woerter": [
+      {
+        "wort": "frieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سردش شدن، یخ زدن",
+          "en": "to be cold, to freeze"
+        },
+        "id_ref": "verb_frieren"
+      },
+      {
+        "wort": "auftauen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "یخ‌زدایی کردن",
+          "en": "to thaw"
+        },
+        "id_ref": "verb_auftauen"
+      },
+      {
+        "wort": "der Gefrierschrank",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فریزر",
+          "en": "freezer"
+        },
+        "id_ref": "nomen_gefrierschrank"
+      },
+      {
+        "wort": "das Eis",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "یخ",
+          "en": "ice"
+        },
+        "id_ref": "nomen_eis"
+      },
+      {
+        "wort": "tiefgekühlt",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "منجمد",
+          "en": "frozen"
+        },
+        "id_ref": "adjektiv_tiefgekuehlt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

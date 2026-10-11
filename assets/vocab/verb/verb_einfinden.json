@@ -1,0 +1,193 @@
+{
+  "schema": "3.0",
+  "id": "verb_einfinden",
+  "wort": "einfinden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(sich einfinden) (در جایی) حاضر شدن، آمدن",
+      "(sich in etwas einfinden) با (وضعی) کنار آمدن، خو گرفتن"
+    ],
+    "en": [
+      "(sich) to appear, to turn up, to arrive",
+      "(sich in etwas) to get used to"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Arbeit",
+    "Behörde"
+  ],
+  "ipa": "ˈaɪ̯nˌfɪndn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte finden Sie sich um acht Uhr ein.",
+      "uebersetzung": {
+        "fa": "لطفاً ساعت هشت حاضر باشید.",
+        "en": "Please be there at eight o'clock."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Alle Teilnehmer werden gebeten, sich eine halbe Stunde vor Beginn im Saal einzufinden.",
+      "uebersetzung": {
+        "fa": "از همه‌ی شرکت‌کنندگان خواهش می‌شود نیم ساعت قبل از شروع در سالن حاضر باشند.",
+        "en": "All participants are asked to be in the hall half an hour before the start."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erscheinen",
+      "uebersetzung": {
+        "fa": "حاضر شدن",
+        "en": "to appear"
+      }
+    },
+    {
+      "wort": "kommen",
+      "uebersetzung": {
+        "fa": "آمدن",
+        "en": "to come"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "fernbleiben",
+      "uebersetzung": {
+        "fa": "غایب بودن",
+        "en": "to stay away"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + finden (پیدا کردن)",
+    "en": "ein- (in, into) + finden (to find)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich zu + Dat einfinden",
+        "bedeutung": "zu einem Termin erscheinen",
+        "beispiel": "Die Gäste fanden sich pünktlich zur Feier ein.",
+        "uebersetzung": {
+          "fa": "مهمان‌ها سر وقت برای جشن حاضر شدند.",
+          "en": "The guests arrived punctually for the celebration."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "einfinden",
+      "praeteritum": "fand ein",
+      "partizip2": "eingefunden"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "finde ein",
+        "du": "findest ein",
+        "er_sie_es": "findet ein",
+        "wir": "finden ein",
+        "ihr": "findet ein",
+        "sie_Sie": "finden ein"
+      },
+      "praeteritum": {
+        "ich": "fand ein",
+        "du": "fandest ein",
+        "er_sie_es": "fand ein",
+        "wir": "fanden ein",
+        "ihr": "fandet ein",
+        "sie_Sie": "fanden ein"
+      },
+      "konjunktiv1": {
+        "ich": "finde ein",
+        "du": "findest ein",
+        "er_sie_es": "finde ein",
+        "wir": "finden ein",
+        "ihr": "findet ein",
+        "sie_Sie": "finden ein"
+      },
+      "konjunktiv2": {
+        "ich": "fände ein",
+        "du": "fändest ein",
+        "er_sie_es": "fände ein",
+        "wir": "fänden ein",
+        "ihr": "fändet ein",
+        "sie_Sie": "fänden ein"
+      },
+      "imperativ": {
+        "du": "Finde ein!",
+        "ihr": "Findet ein!",
+        "Sie": "Finden Sie ein!"
+      }
+    },
+    "partizip1": "einfindend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "finden",
+    "woerter": [
+      {
+        "wort": "finden",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پیدا کردن",
+          "en": "to find"
+        },
+        "id_ref": "verb_finden"
+      },
+      {
+        "wort": "erscheinen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حاضر شدن",
+          "en": "to appear"
+        },
+        "id_ref": "verb_erscheinen"
+      },
+      {
+        "wort": "pünktlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سر وقت",
+          "en": "punctual"
+        },
+        "id_ref": "adjektiv_puenktlich"
+      },
+      {
+        "wort": "der Termin",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "وقت ملاقات",
+          "en": "appointment"
+        },
+        "id_ref": "nomen_termin"
+      },
+      {
+        "wort": "ankommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رسیدن",
+          "en": "to arrive"
+        },
+        "id_ref": "verb_ankommen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

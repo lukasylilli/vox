@@ -1,0 +1,193 @@
+{
+  "schema": "3.0",
+  "id": "verb_eingeben",
+  "wort": "eingeben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(داده یا رمز را) وارد کردن، تایپ کردن",
+      "(دارو را) خوراندن"
+    ],
+    "en": [
+      "to enter, to input (data)",
+      "to administer (medicine)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Technik",
+    "Computer",
+    "Gesundheit"
+  ],
+  "ipa": "ˈaɪ̯nˌɡeːbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Geben Sie Ihre PIN ein.",
+      "uebersetzung": {
+        "fa": "رمز (پین) خود را وارد کنید.",
+        "en": "Enter your PIN."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn man das Passwort dreimal falsch eingibt, wird das Konto gesperrt.",
+      "uebersetzung": {
+        "fa": "اگر رمز را سه بار اشتباه وارد کنید، حساب مسدود می‌شود.",
+        "en": "If you enter the password incorrectly three times, the account is blocked."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "eintippen",
+      "uebersetzung": {
+        "fa": "تایپ کردن",
+        "en": "to type in"
+      }
+    },
+    {
+      "wort": "eintragen",
+      "uebersetzung": {
+        "fa": "ثبت کردن",
+        "en": "to enter"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "löschen",
+      "uebersetzung": {
+        "fa": "پاک کردن",
+        "en": "to delete"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + geben (دادن)",
+    "en": "ein- (in, into) + geben (to give)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas in + Akk eingeben",
+        "bedeutung": "Daten in ein Gerät eintippen",
+        "beispiel": "Gib die Adresse in das Navi ein.",
+        "uebersetzung": {
+          "fa": "آدرس را در مسیریاب وارد کن.",
+          "en": "Enter the address into the sat nav."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "eingeben",
+      "praeteritum": "gab ein",
+      "partizip2": "eingegeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gebe ein",
+        "du": "gibst ein",
+        "er_sie_es": "gibt ein",
+        "wir": "geben ein",
+        "ihr": "gebt ein",
+        "sie_Sie": "geben ein"
+      },
+      "praeteritum": {
+        "ich": "gab ein",
+        "du": "gabst ein",
+        "er_sie_es": "gab ein",
+        "wir": "gaben ein",
+        "ihr": "gabt ein",
+        "sie_Sie": "gaben ein"
+      },
+      "konjunktiv1": {
+        "ich": "gebe ein",
+        "du": "gebest ein",
+        "er_sie_es": "gebe ein",
+        "wir": "geben ein",
+        "ihr": "gebet ein",
+        "sie_Sie": "geben ein"
+      },
+      "konjunktiv2": {
+        "ich": "gäbe ein",
+        "du": "gäbest ein",
+        "er_sie_es": "gäbe ein",
+        "wir": "gäben ein",
+        "ihr": "gäbet ein",
+        "sie_Sie": "gäben ein"
+      },
+      "imperativ": {
+        "du": "Gib ein!",
+        "ihr": "Gebt ein!",
+        "Sie": "Geben Sie ein!"
+      }
+    },
+    "partizip1": "eingebend",
+    "nominalisierung": "die Eingabe"
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "die Eingabe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ورودی (داده)",
+          "en": "input"
+        },
+        "id_ref": "nomen_eingabe"
+      },
+      {
+        "wort": "das Passwort",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رمز عبور",
+          "en": "password"
+        },
+        "id_ref": "nomen_passwort"
+      },
+      {
+        "wort": "eintippen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تایپ کردن",
+          "en": "to type in"
+        },
+        "id_ref": "verb_eintippen"
+      },
+      {
+        "wort": "der Computer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رایانه",
+          "en": "computer"
+        },
+        "id_ref": "nomen_computer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

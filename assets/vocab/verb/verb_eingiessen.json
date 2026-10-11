@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_eingiessen",
+  "wort": "eingießen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(نوشیدنی را در لیوان یا فنجان) ریختن"
+    ],
+    "en": [
+      "to pour (a drink)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Essen",
+    "Alltag"
+  ],
+  "ipa": "ˈaɪ̯nˌɡiːsn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Darf ich Ihnen Kaffee eingießen?",
+      "uebersetzung": {
+        "fa": "اجازه می‌دهید برایتان قهوه بریزم؟",
+        "en": "May I pour you some coffee?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Er goss allen Gästen Wein ein, bevor er eine kurze Rede hielt.",
+      "uebersetzung": {
+        "fa": "قبل از اینکه سخنرانی کوتاهی کند، برای همه‌ی مهمان‌ها شراب ریخت.",
+        "en": "He poured wine for all the guests before giving a short speech."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einschenken",
+      "uebersetzung": {
+        "fa": "(نوشیدنی) ریختن",
+        "en": "to pour"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + gießen (ریختن (مایع))",
+    "en": "ein- (in, into) + gießen (to pour)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem etwas eingießen (+ Dat + Akk)",
+        "bedeutung": "jemandem ein Getränk ins Glas füllen",
+        "beispiel": "Sie gießt ihrer Mutter Tee ein.",
+        "uebersetzung": {
+          "fa": "او برای مادرش چای می‌ریزد.",
+          "en": "She pours her mother some tea."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "eingießen",
+      "praeteritum": "goss ein",
+      "partizip2": "eingegossen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gieße ein",
+        "du": "gießt ein",
+        "er_sie_es": "gießt ein",
+        "wir": "gießen ein",
+        "ihr": "gießt ein",
+        "sie_Sie": "gießen ein"
+      },
+      "praeteritum": {
+        "ich": "goss ein",
+        "du": "gossest ein",
+        "er_sie_es": "goss ein",
+        "wir": "gossen ein",
+        "ihr": "gosst ein",
+        "sie_Sie": "gossen ein"
+      },
+      "konjunktiv1": {
+        "ich": "gieße ein",
+        "du": "gießest ein",
+        "er_sie_es": "gieße ein",
+        "wir": "gießen ein",
+        "ihr": "gießet ein",
+        "sie_Sie": "gießen ein"
+      },
+      "konjunktiv2": {
+        "ich": "gösse ein",
+        "du": "gössest ein",
+        "er_sie_es": "gösse ein",
+        "wir": "gössen ein",
+        "ihr": "gösset ein",
+        "sie_Sie": "gössen ein"
+      },
+      "imperativ": {
+        "du": "Gieß ein!",
+        "ihr": "Gießt ein!",
+        "Sie": "Gießen Sie ein!"
+      }
+    },
+    "partizip1": "eingießend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gießen",
+    "woerter": [
+      {
+        "wort": "gießen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریختن (مایع)",
+          "en": "to pour"
+        },
+        "id_ref": "verb_giessen"
+      },
+      {
+        "wort": "einschenken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ریختن (نوشیدنی)",
+          "en": "to pour"
+        },
+        "id_ref": "verb_einschenken"
+      },
+      {
+        "wort": "das Glas",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "لیوان",
+          "en": "glass"
+        },
+        "id_ref": "nomen_glas"
+      },
+      {
+        "wort": "die Tasse",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فنجان",
+          "en": "cup"
+        },
+        "id_ref": "nomen_tasse"
+      },
+      {
+        "wort": "das Getränk",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نوشیدنی",
+          "en": "drink"
+        },
+        "id_ref": "nomen_getraenk"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

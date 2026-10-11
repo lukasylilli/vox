@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_eingraben",
+  "wort": "eingraben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(در خاک) چال کردن، دفن کردن",
+      "(sich eingraben) در خاک فرو رفتن؛ در ذهن حک شدن"
+    ],
+    "en": [
+      "to bury, to dig in",
+      "(sich) to dig in; to become engraved (in memory)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Natur",
+    "Garten"
+  ],
+  "ipa": "ˈaɪ̯nˌɡʁaːbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hund gräbt den Knochen ein.",
+      "uebersetzung": {
+        "fa": "سگ استخوان را در خاک چال می‌کند.",
+        "en": "The dog buries the bone."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Soldaten hatten sich am Waldrand eingegraben, um sich vor dem Feuer zu schützen.",
+      "uebersetzung": {
+        "fa": "سربازها در حاشیه‌ی جنگل سنگر کنده بودند تا از آتش در امان باشند.",
+        "en": "The soldiers had dug in at the edge of the forest to protect themselves from the fire."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vergraben",
+      "uebersetzung": {
+        "fa": "چال کردن",
+        "en": "to bury"
+      }
+    },
+    {
+      "wort": "verbuddeln",
+      "uebersetzung": {
+        "fa": "(محاوره) چال کردن",
+        "en": "to bury"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ausgraben",
+      "uebersetzung": {
+        "fa": "از خاک بیرون آوردن",
+        "en": "to dig up"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + graben (کندن (زمین))",
+    "en": "ein- (in, into) + graben (to dig)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich in + Akk eingraben",
+        "bedeutung": "sich in etwas hineingraben; sich fest einprägen",
+        "beispiel": "Der Wurm gräbt sich in die Erde ein.",
+        "uebersetzung": {
+          "fa": "کرم در خاک فرو می‌رود.",
+          "en": "The worm burrows into the soil."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "eingraben",
+      "praeteritum": "grub ein",
+      "partizip2": "eingegraben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "grabe ein",
+        "du": "gräbst ein",
+        "er_sie_es": "gräbt ein",
+        "wir": "graben ein",
+        "ihr": "grabt ein",
+        "sie_Sie": "graben ein"
+      },
+      "praeteritum": {
+        "ich": "grub ein",
+        "du": "grubst ein",
+        "er_sie_es": "grub ein",
+        "wir": "gruben ein",
+        "ihr": "grubt ein",
+        "sie_Sie": "gruben ein"
+      },
+      "konjunktiv1": {
+        "ich": "grabe ein",
+        "du": "grabest ein",
+        "er_sie_es": "grabe ein",
+        "wir": "graben ein",
+        "ihr": "grabet ein",
+        "sie_Sie": "graben ein"
+      },
+      "konjunktiv2": {
+        "ich": "grübe ein",
+        "du": "grübest ein",
+        "er_sie_es": "grübe ein",
+        "wir": "grüben ein",
+        "ihr": "grübet ein",
+        "sie_Sie": "grüben ein"
+      },
+      "imperativ": {
+        "du": "Grab ein!",
+        "ihr": "Grabt ein!",
+        "Sie": "Graben Sie ein!"
+      }
+    },
+    "partizip1": "eingrabend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "graben",
+    "woerter": [
+      {
+        "wort": "graben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کندن",
+          "en": "to dig"
+        },
+        "id_ref": "verb_graben"
+      },
+      {
+        "wort": "ausgraben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیرون آوردن از خاک",
+          "en": "to dig up"
+        },
+        "id_ref": "verb_ausgraben"
+      },
+      {
+        "wort": "die Erde",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خاک، زمین",
+          "en": "soil, earth"
+        },
+        "id_ref": "nomen_erde"
+      },
+      {
+        "wort": "das Loch",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سوراخ، چاله",
+          "en": "hole"
+        },
+        "id_ref": "nomen_loch"
+      },
+      {
+        "wort": "der Garten",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باغ",
+          "en": "garden"
+        },
+        "id_ref": "nomen_garten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

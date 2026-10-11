@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_einfliessen",
+  "wort": "einfließen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(مایع) به درون (جایی) جاری شدن",
+      "(نظر یا تجربه‌ای در چیزی) تأثیر گذاشتن، لحاظ شدن"
+    ],
+    "en": [
+      "to flow in",
+      "to be incorporated, to feed into"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Natur",
+    "Arbeit"
+  ],
+  "ipa": "ˈaɪ̯nˌfliːsn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Kalte Luft fließt in das Tal ein.",
+      "uebersetzung": {
+        "fa": "هوای سرد به دره جاری می‌شود.",
+        "en": "Cold air flows into the valley."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Wünsche der Patienten sollen in die Planung der neuen Station einfließen.",
+      "uebersetzung": {
+        "fa": "قرار است خواسته‌های بیماران در برنامه‌ریزی بخش جدید لحاظ شود.",
+        "en": "The patients' wishes are to be incorporated into the planning of the new ward."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "berücksichtigt werden",
+      "uebersetzung": {
+        "fa": "لحاظ شدن",
+        "en": "to be taken into account"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + fließen (جاری شدن)",
+    "en": "ein- (in, into) + fließen (to flow)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in + Akk einfließen",
+        "bedeutung": "in etwas hineinströmen; in etwas berücksichtigt werden",
+        "beispiel": "Ihre Erfahrung ist in das Buch eingeflossen.",
+        "uebersetzung": {
+          "fa": "تجربه‌ی او در این کتاب منعکس شده است.",
+          "en": "Her experience has fed into the book."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "einfließen",
+      "praeteritum": "floss ein",
+      "partizip2": "eingeflossen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fließe ein",
+        "du": "fließt ein",
+        "er_sie_es": "fließt ein",
+        "wir": "fließen ein",
+        "ihr": "fließt ein",
+        "sie_Sie": "fließen ein"
+      },
+      "praeteritum": {
+        "ich": "floss ein",
+        "du": "flossest ein",
+        "er_sie_es": "floss ein",
+        "wir": "flossen ein",
+        "ihr": "flosst ein",
+        "sie_Sie": "flossen ein"
+      },
+      "konjunktiv1": {
+        "ich": "fließe ein",
+        "du": "fließest ein",
+        "er_sie_es": "fließe ein",
+        "wir": "fließen ein",
+        "ihr": "fließet ein",
+        "sie_Sie": "fließen ein"
+      },
+      "konjunktiv2": {
+        "ich": "flösse ein",
+        "du": "flössest ein",
+        "er_sie_es": "flösse ein",
+        "wir": "flössen ein",
+        "ihr": "flösset ein",
+        "sie_Sie": "flössen ein"
+      },
+      "imperativ": {
+        "du": "Fließ ein!",
+        "ihr": "Fließt ein!",
+        "Sie": "Fließen Sie ein!"
+      }
+    },
+    "partizip1": "einfließend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fließen",
+    "woerter": [
+      {
+        "wort": "fließen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جاری شدن",
+          "en": "to flow"
+        },
+        "id_ref": "verb_fliessen"
+      },
+      {
+        "wort": "der Fluss",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رودخانه",
+          "en": "river"
+        },
+        "id_ref": "nomen_fluss"
+      },
+      {
+        "wort": "der Einfluss",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تأثیر",
+          "en": "influence"
+        },
+        "id_ref": "nomen_einfluss"
+      },
+      {
+        "wort": "berücksichtigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "در نظر گرفتن",
+          "en": "to take into account"
+        },
+        "id_ref": "verb_beruecksichtigen"
+      },
+      {
+        "wort": "die Planung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برنامه‌ریزی",
+          "en": "planning"
+        },
+        "id_ref": "nomen_planung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
