@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_abblasen",
+  "wort": "abblasen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "لغو کردن",
+      "فوت کردن (گرد)"
+    ],
+    "en": [
+      "to call off",
+      "to blow off"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Organisation",
+    "Umgangssprache"
+  ],
+  "ipa": "ˈapˌblaːzn̩",
+  "anmerkung": "Umgangssprachlich für «absagen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir blasen das Fest ab.",
+      "uebersetzung": {
+        "fa": "جشن را لغو می‌کنیم.",
+        "en": "We are calling off the party."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wegen des Gewitters wurde das Konzert in letzter Minute abgeblasen.",
+      "uebersetzung": {
+        "fa": "به‌خاطر طوفان، کنسرت در آخرین لحظه لغو شد.",
+        "en": "Because of the thunderstorm, the concert was called off at the last minute."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "absagen",
+      "uebersetzung": {
+        "fa": "لغو کردن",
+        "en": "to cancel"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "stattfinden",
+      "uebersetzung": {
+        "fa": "برگزار شدن",
+        "en": "to take place"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند) + blasen (فوت کردن، دمیدن)",
+    "en": "ab- (prefix) + blasen (to blow)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "abblasen",
+      "praeteritum": "blies ab",
+      "partizip2": "abgeblasen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "blase ab",
+        "du": "bläst ab",
+        "er_sie_es": "bläst ab",
+        "wir": "blasen ab",
+        "ihr": "blast ab",
+        "sie_Sie": "blasen ab"
+      },
+      "praeteritum": {
+        "ich": "blies ab",
+        "du": "bliesest ab",
+        "er_sie_es": "blies ab",
+        "wir": "bliesen ab",
+        "ihr": "bliest ab",
+        "sie_Sie": "bliesen ab"
+      },
+      "konjunktiv1": {
+        "ich": "blase ab",
+        "du": "blasest ab",
+        "er_sie_es": "blase ab",
+        "wir": "blasen ab",
+        "ihr": "blaset ab",
+        "sie_Sie": "blasen ab"
+      },
+      "konjunktiv2": {
+        "ich": "bliese ab",
+        "du": "bliesest ab",
+        "er_sie_es": "bliese ab",
+        "wir": "bliesen ab",
+        "ihr": "blieset ab",
+        "sie_Sie": "bliesen ab"
+      },
+      "imperativ": {
+        "du": "Blas ab!",
+        "ihr": "Blast ab!",
+        "Sie": "Blasen Sie ab!"
+      }
+    },
+    "partizip1": "abblasend",
+    "nominalisierung": "das Abblasen"
+  },
+  "wortnetz": {
+    "grundwort": "blasen",
+    "woerter": [
+      {
+        "wort": "blasen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فوت کردن",
+          "en": "to blow"
+        },
+        "id_ref": "verb_blasen"
+      },
+      {
+        "wort": "absagen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "لغو کردن",
+          "en": "to cancel"
+        },
+        "id_ref": "verb_absagen"
+      },
+      {
+        "wort": "der Termin",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قرار",
+          "en": "appointment"
+        },
+        "id_ref": "nomen_termin"
+      },
+      {
+        "wort": "das Konzert",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کنسرت",
+          "en": "concert"
+        },
+        "id_ref": "nomen_konzert"
+      },
+      {
+        "wort": "verschieben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به تعویق انداختن",
+          "en": "to postpone"
+        },
+        "id_ref": "verb_verschieben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

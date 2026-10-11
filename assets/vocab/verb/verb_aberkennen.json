@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_aberkennen",
+  "wort": "aberkennen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سلب کردن (حق، عنوان)"
+    ],
+    "en": [
+      "to deprive of",
+      "to strip of"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Sport"
+  ],
+  "ipa": "ˈapʔɛɐ̯ˌkɛnən",
+  "anmerkung": "Auch untrennbar gebraucht: «man aberkannte ihm den Titel».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Man erkennt ihm den Titel ab.",
+      "uebersetzung": {
+        "fa": "عنوان را از او سلب می‌کنند.",
+        "en": "They strip him of the title."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Dem Radfahrer wurde der Sieg aberkannt, weil er verbotene Mittel genommen hatte.",
+      "uebersetzung": {
+        "fa": "پیروزی دوچرخه‌سوار از او گرفته شد، چون مواد ممنوعه مصرف کرده بود.",
+        "en": "The cyclist was stripped of his victory because he had taken banned substances."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "entziehen",
+      "uebersetzung": {
+        "fa": "سلب کردن",
+        "en": "to withdraw"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zuerkennen",
+      "uebersetzung": {
+        "fa": "اعطا کردن",
+        "en": "to award"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند: گرفتن) + erkennen (تشخیص دادن، به رسمیت شناختن)",
+    "en": "ab- (prefix: away) + erkennen (to recognise)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem etwas aberkennen",
+        "bedeutung": "jemandem ein Recht oder einen Titel nehmen",
+        "beispiel": "Das Gericht erkannte ihm das Sorgerecht ab.",
+        "uebersetzung": {
+          "fa": "دادگاه حق حضانت را از او سلب کرد.",
+          "en": "The court deprived him of custody."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "aberkennen",
+      "praeteritum": "erkannte ab",
+      "partizip2": "aberkannt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erkenne ab",
+        "du": "erkennst ab",
+        "er_sie_es": "erkennt ab",
+        "wir": "erkennen ab",
+        "ihr": "erkennt ab",
+        "sie_Sie": "erkennen ab"
+      },
+      "praeteritum": {
+        "ich": "erkannte ab",
+        "du": "erkanntest ab",
+        "er_sie_es": "erkannte ab",
+        "wir": "erkannten ab",
+        "ihr": "erkanntet ab",
+        "sie_Sie": "erkannten ab"
+      },
+      "konjunktiv1": {
+        "ich": "erkenne ab",
+        "du": "erkennest ab",
+        "er_sie_es": "erkenne ab",
+        "wir": "erkennen ab",
+        "ihr": "erkennet ab",
+        "sie_Sie": "erkennen ab"
+      },
+      "konjunktiv2": {
+        "ich": "erkennte ab",
+        "du": "erkenntest ab",
+        "er_sie_es": "erkennte ab",
+        "wir": "erkennten ab",
+        "ihr": "erkenntet ab",
+        "sie_Sie": "erkennten ab"
+      },
+      "imperativ": {
+        "du": "Erkenne ab!",
+        "ihr": "Erkennt ab!",
+        "Sie": "Erkennen Sie ab!"
+      }
+    },
+    "partizip1": "aberkennend",
+    "nominalisierung": "die Aberkennung"
+  },
+  "wortnetz": {
+    "grundwort": "erkennen",
+    "woerter": [
+      {
+        "wort": "erkennen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تشخیص دادن",
+          "en": "to recognise"
+        },
+        "id_ref": "verb_erkennen"
+      },
+      {
+        "wort": "anerkennen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به رسمیت شناختن",
+          "en": "to acknowledge"
+        },
+        "id_ref": "verb_anerkennen"
+      },
+      {
+        "wort": "der Titel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عنوان",
+          "en": "title"
+        },
+        "id_ref": "nomen_titel"
+      },
+      {
+        "wort": "das Urteil",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حکم",
+          "en": "verdict"
+        },
+        "id_ref": "nomen_urteil"
+      },
+      {
+        "wort": "entziehen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سلب کردن",
+          "en": "to withdraw"
+        },
+        "id_ref": "verb_entziehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

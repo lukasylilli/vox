@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_abbringen",
+  "wort": "abbringen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "منصرف کردن"
+    ],
+    "en": [
+      "to dissuade",
+      "to talk out of"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "ˈapˌbʁɪŋən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Niemand bringt ihn davon ab.",
+      "uebersetzung": {
+        "fa": "هیچ‌کس او را منصرف نمی‌کند.",
+        "en": "Nobody can talk him out of it."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Seine Eltern versuchten, ihn von der gefährlichen Reise abzubringen, aber er fuhr trotzdem.",
+      "uebersetzung": {
+        "fa": "پدر و مادرش سعی کردند او را از این سفر خطرناک منصرف کنند، اما او باز هم رفت.",
+        "en": "His parents tried to talk him out of the dangerous trip, but he went anyway."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausreden",
+      "uebersetzung": {
+        "fa": "منصرف کردن با حرف",
+        "en": "to talk out of"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "überreden",
+      "uebersetzung": {
+        "fa": "قانع کردن به انجام",
+        "en": "to persuade"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند: دور کردن) + bringen (آوردن)",
+    "en": "ab- (prefix: away) + bringen (to bring)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden von + Dat abbringen",
+        "bedeutung": "jemanden dazu bringen, etwas nicht zu tun",
+        "beispiel": "Sie brachte ihn von seinem Plan ab.",
+        "uebersetzung": {
+          "fa": "او را از نقشه‌اش منصرف کرد.",
+          "en": "She talked him out of his plan."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abbringen",
+      "praeteritum": "brachte ab",
+      "partizip2": "abgebracht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bringe ab",
+        "du": "bringst ab",
+        "er_sie_es": "bringt ab",
+        "wir": "bringen ab",
+        "ihr": "bringt ab",
+        "sie_Sie": "bringen ab"
+      },
+      "praeteritum": {
+        "ich": "brachte ab",
+        "du": "brachtest ab",
+        "er_sie_es": "brachte ab",
+        "wir": "brachten ab",
+        "ihr": "brachtet ab",
+        "sie_Sie": "brachten ab"
+      },
+      "konjunktiv1": {
+        "ich": "bringe ab",
+        "du": "bringest ab",
+        "er_sie_es": "bringe ab",
+        "wir": "bringen ab",
+        "ihr": "bringet ab",
+        "sie_Sie": "bringen ab"
+      },
+      "konjunktiv2": {
+        "ich": "brächte ab",
+        "du": "brächtest ab",
+        "er_sie_es": "brächte ab",
+        "wir": "brächten ab",
+        "ihr": "brächtet ab",
+        "sie_Sie": "brächten ab"
+      },
+      "imperativ": {
+        "du": "Bring ab!",
+        "ihr": "Bringt ab!",
+        "Sie": "Bringen Sie ab!"
+      }
+    },
+    "partizip1": "abbringend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bringen",
+    "woerter": [
+      {
+        "wort": "bringen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آوردن",
+          "en": "to bring"
+        },
+        "id_ref": "verb_bringen"
+      },
+      {
+        "wort": "überzeugen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قانع کردن",
+          "en": "to convince"
+        },
+        "id_ref": "verb_ueberzeugen"
+      },
+      {
+        "wort": "der Plan",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نقشه",
+          "en": "plan"
+        },
+        "id_ref": "nomen_plan"
+      },
+      {
+        "wort": "ausreden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "منصرف کردن با حرف",
+          "en": "to talk out of"
+        },
+        "id_ref": "verb_ausreden"
+      },
+      {
+        "wort": "die Absicht",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قصد",
+          "en": "intention"
+        },
+        "id_ref": "nomen_absicht"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

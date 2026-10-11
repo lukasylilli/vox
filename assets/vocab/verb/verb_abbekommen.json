@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "verb_abbekommen",
+  "wort": "abbekommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سهم گرفتن",
+      "آسیب دیدن",
+      "جدا کردن (به‌زحمت)"
+    ],
+    "en": [
+      "to get a share of",
+      "to get hurt",
+      "to get off"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈapbəˌkɔmən",
+  "anmerkung": "Umgangssprachlich; Partizip II ohne ge-: abbekommen.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich bekomme den Deckel nicht ab.",
+      "uebersetzung": {
+        "fa": "نمی‌توانم در را باز کنم (جدا کنم).",
+        "en": "I can't get the lid off."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei dem Unfall hat zum Glück niemand etwas abbekommen, nur das Auto ist kaputt.",
+      "uebersetzung": {
+        "fa": "در این تصادف خوشبختانه به کسی آسیبی نرسید، فقط ماشین خراب شد.",
+        "en": "Fortunately nobody got hurt in the accident, only the car is damaged."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند: جدا، سهم) + bekommen (گرفتن)",
+    "en": "ab- (prefix: off, share) + bekommen (to get)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas von + Dat abbekommen",
+        "bedeutung": "einen Teil von etwas bekommen",
+        "beispiel": "Hast du auch etwas von dem Kuchen abbekommen?",
+        "uebersetzung": {
+          "fa": "تو هم از آن کیک سهمی گرفتی؟",
+          "en": "Did you get some of the cake too?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abbekommen",
+      "praeteritum": "bekam ab",
+      "partizip2": "abbekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bekomme ab",
+        "du": "bekommst ab",
+        "er_sie_es": "bekommt ab",
+        "wir": "bekommen ab",
+        "ihr": "bekommt ab",
+        "sie_Sie": "bekommen ab"
+      },
+      "praeteritum": {
+        "ich": "bekam ab",
+        "du": "bekamst ab",
+        "er_sie_es": "bekam ab",
+        "wir": "bekamen ab",
+        "ihr": "bekamt ab",
+        "sie_Sie": "bekamen ab"
+      },
+      "konjunktiv1": {
+        "ich": "bekomme ab",
+        "du": "bekommest ab",
+        "er_sie_es": "bekomme ab",
+        "wir": "bekommen ab",
+        "ihr": "bekommet ab",
+        "sie_Sie": "bekommen ab"
+      },
+      "konjunktiv2": {
+        "ich": "bekäme ab",
+        "du": "bekämest ab",
+        "er_sie_es": "bekäme ab",
+        "wir": "bekämen ab",
+        "ihr": "bekämet ab",
+        "sie_Sie": "bekämen ab"
+      },
+      "imperativ": {
+        "du": "Bekomm ab!",
+        "ihr": "Bekommt ab!",
+        "Sie": "Bekommen Sie ab!"
+      }
+    },
+    "partizip1": "abbekommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bekommen",
+    "woerter": [
+      {
+        "wort": "bekommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گرفتن",
+          "en": "to get"
+        },
+        "id_ref": "verb_bekommen"
+      },
+      {
+        "wort": "der Anteil",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سهم",
+          "en": "share"
+        },
+        "id_ref": "nomen_anteil"
+      },
+      {
+        "wort": "verletzt",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زخمی",
+          "en": "injured"
+        },
+        "id_ref": "adjektiv_verletzt"
+      },
+      {
+        "wort": "der Deckel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "در (ظرف)",
+          "en": "lid"
+        },
+        "id_ref": "nomen_deckel"
+      },
+      {
+        "wort": "abmachen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جدا کردن",
+          "en": "to take off"
+        },
+        "id_ref": "verb_abmachen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

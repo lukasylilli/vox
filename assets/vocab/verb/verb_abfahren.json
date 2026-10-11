@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_abfahren",
+  "wort": "abfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "حرکت کردن (وسیله‌ی نقلیه)",
+      "راه افتادن"
+    ],
+    "en": [
+      "to depart",
+      "to leave"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Reisen",
+    "Verkehr"
+  ],
+  "ipa": "ˈapˌfaːʁən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Der Zug fährt um acht Uhr ab.",
+      "uebersetzung": {
+        "fa": "قطار ساعت هشت حرکت می‌کند.",
+        "en": "The train departs at eight o'clock."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Als wir am Bahnhof ankamen, war der Bus leider schon abgefahren.",
+      "uebersetzung": {
+        "fa": "وقتی به ایستگاه رسیدیم، متأسفانه اتوبوس رفته بود.",
+        "en": "When we arrived at the station, the bus had unfortunately already left."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "losfahren",
+      "uebersetzung": {
+        "fa": "راه افتادن",
+        "en": "to set off"
+      }
+    },
+    {
+      "wort": "abreisen",
+      "uebersetzung": {
+        "fa": "عزیمت کردن",
+        "en": "to depart"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ankommen",
+      "uebersetzung": {
+        "fa": "رسیدن",
+        "en": "to arrive"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند: دور شدن) + fahren (رفتن با وسیله)",
+    "en": "ab- (prefix: away) + fahren (to go, to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Akk abfahren",
+        "bedeutung": "etwas sehr toll finden (umgangssprachlich)",
+        "beispiel": "Sie fährt total auf diese Band ab.",
+        "uebersetzung": {
+          "fa": "او حسابی شیفته‌ی این گروه موسیقی است.",
+          "en": "She is really into this band."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abfahren",
+      "praeteritum": "fuhr ab",
+      "partizip2": "abgefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre ab",
+        "du": "fährst ab",
+        "er_sie_es": "fährt ab",
+        "wir": "fahren ab",
+        "ihr": "fahrt ab",
+        "sie_Sie": "fahren ab"
+      },
+      "praeteritum": {
+        "ich": "fuhr ab",
+        "du": "fuhrst ab",
+        "er_sie_es": "fuhr ab",
+        "wir": "fuhren ab",
+        "ihr": "fuhrt ab",
+        "sie_Sie": "fuhren ab"
+      },
+      "konjunktiv1": {
+        "ich": "fahre ab",
+        "du": "fahrest ab",
+        "er_sie_es": "fahre ab",
+        "wir": "fahren ab",
+        "ihr": "fahret ab",
+        "sie_Sie": "fahren ab"
+      },
+      "konjunktiv2": {
+        "ich": "führe ab",
+        "du": "führest ab",
+        "er_sie_es": "führe ab",
+        "wir": "führen ab",
+        "ihr": "führet ab",
+        "sie_Sie": "führen ab"
+      },
+      "imperativ": {
+        "du": "Fahr ab!",
+        "ihr": "Fahrt ab!",
+        "Sie": "Fahren Sie ab!"
+      }
+    },
+    "partizip1": "abfahrend",
+    "nominalisierung": "die Abfahrt"
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to go, to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "ankommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رسیدن",
+          "en": "to arrive"
+        },
+        "id_ref": "verb_ankommen"
+      },
+      {
+        "wort": "die Abfahrt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حرکت",
+          "en": "departure"
+        },
+        "id_ref": "nomen_abfahrt"
+      },
+      {
+        "wort": "der Bahnhof",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ایستگاه قطار",
+          "en": "station"
+        },
+        "id_ref": "nomen_bahnhof"
+      },
+      {
+        "wort": "der Fahrplan",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برنامه‌ی حرکت",
+          "en": "timetable"
+        },
+        "id_ref": "nomen_fahrplan"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

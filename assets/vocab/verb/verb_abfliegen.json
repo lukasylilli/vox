@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_abfliegen",
+  "wort": "abfliegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پرواز کردن (هواپیما)",
+      "با هواپیما رفتن"
+    ],
+    "en": [
+      "to take off",
+      "to depart (by plane)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Reisen"
+  ],
+  "ipa": "ˈapˌfliːɡn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Wir fliegen morgen früh ab.",
+      "uebersetzung": {
+        "fa": "فردا صبح زود پرواز می‌کنیم.",
+        "en": "We fly out early tomorrow."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Das Flugzeug ist mit zwei Stunden Verspätung abgeflogen, weil es stark geschneit hatte.",
+      "uebersetzung": {
+        "fa": "هواپیما با دو ساعت تأخیر پرواز کرد، چون برف سنگینی آمده بود.",
+        "en": "The plane took off two hours late because it had snowed heavily."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "starten",
+      "uebersetzung": {
+        "fa": "بلند شدن (هواپیما)",
+        "en": "to take off"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "landen",
+      "uebersetzung": {
+        "fa": "فرود آمدن",
+        "en": "to land"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند: دور شدن) + fliegen (پرواز کردن)",
+    "en": "ab- (prefix: away) + fliegen (to fly)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "von + Dat abfliegen",
+        "bedeutung": "von einem Ort losfliegen",
+        "beispiel": "Wir fliegen von Wien ab.",
+        "uebersetzung": {
+          "fa": "از وین پرواز می‌کنیم.",
+          "en": "We are flying from Vienna."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abfliegen",
+      "praeteritum": "flog ab",
+      "partizip2": "abgeflogen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fliege ab",
+        "du": "fliegst ab",
+        "er_sie_es": "fliegt ab",
+        "wir": "fliegen ab",
+        "ihr": "fliegt ab",
+        "sie_Sie": "fliegen ab"
+      },
+      "praeteritum": {
+        "ich": "flog ab",
+        "du": "flogst ab",
+        "er_sie_es": "flog ab",
+        "wir": "flogen ab",
+        "ihr": "flogt ab",
+        "sie_Sie": "flogen ab"
+      },
+      "konjunktiv1": {
+        "ich": "fliege ab",
+        "du": "fliegest ab",
+        "er_sie_es": "fliege ab",
+        "wir": "fliegen ab",
+        "ihr": "flieget ab",
+        "sie_Sie": "fliegen ab"
+      },
+      "konjunktiv2": {
+        "ich": "flöge ab",
+        "du": "flögest ab",
+        "er_sie_es": "flöge ab",
+        "wir": "flögen ab",
+        "ihr": "flöget ab",
+        "sie_Sie": "flögen ab"
+      },
+      "imperativ": {
+        "du": "Flieg ab!",
+        "ihr": "Fliegt ab!",
+        "Sie": "Fliegen Sie ab!"
+      }
+    },
+    "partizip1": "abfliegend",
+    "nominalisierung": "der Abflug"
+  },
+  "wortnetz": {
+    "grundwort": "fliegen",
+    "woerter": [
+      {
+        "wort": "fliegen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرواز کردن",
+          "en": "to fly"
+        },
+        "id_ref": "verb_fliegen"
+      },
+      {
+        "wort": "der Abflug",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پرواز (حرکت)",
+          "en": "departure"
+        },
+        "id_ref": "nomen_abflug"
+      },
+      {
+        "wort": "der Flughafen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فرودگاه",
+          "en": "airport"
+        },
+        "id_ref": "nomen_flughafen"
+      },
+      {
+        "wort": "landen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فرود آمدن",
+          "en": "to land"
+        },
+        "id_ref": "verb_landen"
+      },
+      {
+        "wort": "das Flugzeug",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "هواپیما",
+          "en": "plane"
+        },
+        "id_ref": "nomen_flugzeug"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

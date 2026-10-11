@@ -1,0 +1,161 @@
+{
+  "schema": "3.0",
+  "id": "verb_abbinden",
+  "wort": "abbinden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بستن (برای بند آوردن خون)",
+      "باز کردن (گره)",
+      "سفت شدن (سیمان)"
+    ],
+    "en": [
+      "to tie off",
+      "to untie",
+      "to set (cement)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Handwerk"
+  ],
+  "ipa": "ˈapˌbɪndn̩",
+  "anmerkung": "Bauwesen: Zement bindet ab (wird fest).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er bindet die Krawatte ab.",
+      "uebersetzung": {
+        "fa": "کراواتش را باز می‌کند.",
+        "en": "He takes off his tie."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Sanitäter hat den Arm abgebunden, damit die Wunde nicht weiter blutet.",
+      "uebersetzung": {
+        "fa": "امدادگر بازو را بست تا زخم دیگر خونریزی نکند.",
+        "en": "The paramedic tied off the arm so that the wound would not keep bleeding."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند: جدا/بستن) + binden (بستن)",
+    "en": "ab- (prefix: off) + binden (to tie)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "abbinden",
+      "praeteritum": "band ab",
+      "partizip2": "abgebunden"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "binde ab",
+        "du": "bindest ab",
+        "er_sie_es": "bindet ab",
+        "wir": "binden ab",
+        "ihr": "bindet ab",
+        "sie_Sie": "binden ab"
+      },
+      "praeteritum": {
+        "ich": "band ab",
+        "du": "bandest ab",
+        "er_sie_es": "band ab",
+        "wir": "banden ab",
+        "ihr": "bandet ab",
+        "sie_Sie": "banden ab"
+      },
+      "konjunktiv1": {
+        "ich": "binde ab",
+        "du": "bindest ab",
+        "er_sie_es": "binde ab",
+        "wir": "binden ab",
+        "ihr": "bindet ab",
+        "sie_Sie": "binden ab"
+      },
+      "konjunktiv2": {
+        "ich": "bände ab",
+        "du": "bändest ab",
+        "er_sie_es": "bände ab",
+        "wir": "bänden ab",
+        "ihr": "bändet ab",
+        "sie_Sie": "bänden ab"
+      },
+      "imperativ": {
+        "du": "Binde ab!",
+        "ihr": "Bindet ab!",
+        "Sie": "Binden Sie ab!"
+      }
+    },
+    "partizip1": "abbindend",
+    "nominalisierung": "das Abbinden"
+  },
+  "wortnetz": {
+    "grundwort": "binden",
+    "woerter": [
+      {
+        "wort": "binden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بستن",
+          "en": "to tie"
+        },
+        "id_ref": "verb_binden"
+      },
+      {
+        "wort": "der Verband",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "باند (زخم)",
+          "en": "bandage"
+        },
+        "id_ref": "nomen_verband"
+      },
+      {
+        "wort": "bluten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خونریزی کردن",
+          "en": "to bleed"
+        },
+        "id_ref": "verb_bluten"
+      },
+      {
+        "wort": "die Wunde",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زخم",
+          "en": "wound"
+        },
+        "id_ref": "nomen_wunde"
+      },
+      {
+        "wort": "die Krawatte",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کراوات",
+          "en": "tie"
+        },
+        "id_ref": "nomen_krawatte"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,167 @@
+{
+  "schema": "3.0",
+  "id": "verb_abbrennen",
+  "wort": "abbrennen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سوختن و نابود شدن",
+      "آتش زدن (آتش‌بازی)"
+    ],
+    "en": [
+      "to burn down",
+      "to set off (fireworks)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Natur",
+    "Unfall"
+  ],
+  "ipa": "ˈapˌbʁɛnən",
+  "anmerkung": "Intransitiv mit sein (Das Haus ist abgebrannt); transitiv «ein Feuerwerk abbrennen» mit haben.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Scheune brennt ab.",
+      "uebersetzung": {
+        "fa": "انبار در آتش می‌سوزد.",
+        "en": "The barn is burning down."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das alte Gasthaus ist letzte Nacht abgebrannt, obwohl die Feuerwehr schnell da war.",
+      "uebersetzung": {
+        "fa": "مهمان‌خانه‌ی قدیمی دیشب سوخت و از بین رفت، با اینکه آتش‌نشانی زود رسید.",
+        "en": "The old inn burned down last night, although the fire brigade arrived quickly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "niederbrennen",
+      "uebersetzung": {
+        "fa": "به آتش کشیده شدن کامل",
+        "en": "to burn to the ground"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند: کامل) + brennen (سوختن)",
+    "en": "ab- (prefix: completely) + brennen (to burn)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "abbrennen",
+      "praeteritum": "brannte ab",
+      "partizip2": "abgebrannt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "brenne ab",
+        "du": "brennst ab",
+        "er_sie_es": "brennt ab",
+        "wir": "brennen ab",
+        "ihr": "brennt ab",
+        "sie_Sie": "brennen ab"
+      },
+      "praeteritum": {
+        "ich": "brannte ab",
+        "du": "branntest ab",
+        "er_sie_es": "brannte ab",
+        "wir": "brannten ab",
+        "ihr": "branntet ab",
+        "sie_Sie": "brannten ab"
+      },
+      "konjunktiv1": {
+        "ich": "brenne ab",
+        "du": "brennest ab",
+        "er_sie_es": "brenne ab",
+        "wir": "brennen ab",
+        "ihr": "brennet ab",
+        "sie_Sie": "brennen ab"
+      },
+      "konjunktiv2": {
+        "ich": "brennte ab",
+        "du": "brenntest ab",
+        "er_sie_es": "brennte ab",
+        "wir": "brennten ab",
+        "ihr": "brenntet ab",
+        "sie_Sie": "brennten ab"
+      },
+      "imperativ": {
+        "du": "Brenn ab!",
+        "ihr": "Brennt ab!",
+        "Sie": "Brennen Sie ab!"
+      }
+    },
+    "partizip1": "abbrennend",
+    "nominalisierung": "das Abbrennen"
+  },
+  "wortnetz": {
+    "grundwort": "brennen",
+    "woerter": [
+      {
+        "wort": "brennen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سوختن",
+          "en": "to burn"
+        },
+        "id_ref": "verb_brennen"
+      },
+      {
+        "wort": "das Feuer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آتش",
+          "en": "fire"
+        },
+        "id_ref": "nomen_feuer"
+      },
+      {
+        "wort": "die Feuerwehr",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آتش‌نشانی",
+          "en": "fire brigade"
+        },
+        "id_ref": "nomen_feuerwehr"
+      },
+      {
+        "wort": "das Feuerwerk",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آتش‌بازی",
+          "en": "fireworks"
+        },
+        "id_ref": "nomen_feuerwerk"
+      },
+      {
+        "wort": "der Brand",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آتش‌سوزی",
+          "en": "fire"
+        },
+        "id_ref": "nomen_brand"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

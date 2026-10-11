@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_abfragen",
+  "wort": "abfragen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "امتحان گرفتن (شفاهی)",
+      "استعلام کردن (داده)"
+    ],
+    "en": [
+      "to test (orally)",
+      "to query"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Lernen",
+    "Technik"
+  ],
+  "ipa": "ˈapˌfʁaːɡn̩",
+  "anmerkung": "Präteritum veraltet auch: frug ab.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Meine Mutter fragt mich die Vokabeln ab.",
+      "uebersetzung": {
+        "fa": "مادرم لغت‌ها را از من می‌پرسد.",
+        "en": "My mother tests me on the vocabulary."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die App fragt jeden Morgen das Wetter ab, damit sie dir passende Kleidung vorschlagen kann.",
+      "uebersetzung": {
+        "fa": "اپ هر صبح وضع هوا را استعلام می‌کند تا بتواند لباس مناسب پیشنهاد دهد.",
+        "en": "The app queries the weather every morning so that it can suggest suitable clothes."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "prüfen",
+      "uebersetzung": {
+        "fa": "امتحان کردن",
+        "en": "to test"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند) + fragen (پرسیدن)",
+    "en": "ab- (prefix) + fragen (to ask)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem / jemanden etwas abfragen",
+        "bedeutung": "jemandes Wissen mündlich prüfen",
+        "beispiel": "Er fragt mir die Verben ab.",
+        "uebersetzung": {
+          "fa": "او فعل‌ها را از من می‌پرسد.",
+          "en": "He tests me on the verbs."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abfragen",
+      "praeteritum": "fragte ab",
+      "partizip2": "abgefragt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "frage ab",
+        "du": "fragst ab",
+        "er_sie_es": "fragt ab",
+        "wir": "fragen ab",
+        "ihr": "fragt ab",
+        "sie_Sie": "fragen ab"
+      },
+      "praeteritum": {
+        "ich": "fragte ab",
+        "du": "fragtest ab",
+        "er_sie_es": "fragte ab",
+        "wir": "fragten ab",
+        "ihr": "fragtet ab",
+        "sie_Sie": "fragten ab"
+      },
+      "konjunktiv1": {
+        "ich": "frage ab",
+        "du": "fragest ab",
+        "er_sie_es": "frage ab",
+        "wir": "fragen ab",
+        "ihr": "fraget ab",
+        "sie_Sie": "fragen ab"
+      },
+      "konjunktiv2": {
+        "ich": "fragte ab",
+        "du": "fragtest ab",
+        "er_sie_es": "fragte ab",
+        "wir": "fragten ab",
+        "ihr": "fragtet ab",
+        "sie_Sie": "fragten ab"
+      },
+      "imperativ": {
+        "du": "Frag ab!",
+        "ihr": "Fragt ab!",
+        "Sie": "Fragen Sie ab!"
+      }
+    },
+    "partizip1": "abfragend",
+    "nominalisierung": "die Abfrage"
+  },
+  "wortnetz": {
+    "grundwort": "fragen",
+    "woerter": [
+      {
+        "wort": "fragen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرسیدن",
+          "en": "to ask"
+        },
+        "id_ref": "verb_fragen"
+      },
+      {
+        "wort": "die Abfrage",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "استعلام، پرس‌وجو",
+          "en": "query"
+        },
+        "id_ref": "nomen_abfrage"
+      },
+      {
+        "wort": "die Vokabel",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "لغت",
+          "en": "vocabulary word"
+        },
+        "id_ref": "nomen_vokabel"
+      },
+      {
+        "wort": "prüfen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "امتحان کردن",
+          "en": "to test"
+        },
+        "id_ref": "verb_pruefen"
+      },
+      {
+        "wort": "die Daten",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "داده‌ها",
+          "en": "data"
+        },
+        "id_ref": "nomen_daten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

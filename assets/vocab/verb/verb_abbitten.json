@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_abbitten",
+  "wort": "abbitten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "عذر خواستن (از کسی برای چیزی)"
+    ],
+    "en": [
+      "to apologise for"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Gefühle",
+    "Beziehung"
+  ],
+  "ipa": "ˈapˌbɪtn̩",
+  "anmerkung": "Gehoben; meist «jemandem etwas abbitten» oder «Abbitte leisten».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich bitte dir das ab.",
+      "uebersetzung": {
+        "fa": "بابت این از تو عذر می‌خواهم.",
+        "en": "I apologise to you for that."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Er musste ihr vieles abbitten, weil er sie lange zu Unrecht verdächtigt hatte.",
+      "uebersetzung": {
+        "fa": "مجبور بود بابت خیلی چیزها از او عذر بخواهد، چون مدت‌ها ناحق به او بدگمان بود.",
+        "en": "He had to apologise to her for a lot because he had wrongly suspected her for a long time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich entschuldigen",
+      "uebersetzung": {
+        "fa": "عذرخواهی کردن",
+        "en": "to apologise"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند) + bitten (خواهش کردن)",
+    "en": "ab- (prefix) + bitten (to ask)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem etwas abbitten",
+        "bedeutung": "jemanden für etwas um Verzeihung bitten",
+        "beispiel": "Ich muss dir etwas abbitten.",
+        "uebersetzung": {
+          "fa": "باید بابت چیزی از تو عذر بخواهم.",
+          "en": "I have something to apologise to you for."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abbitten",
+      "praeteritum": "bat ab",
+      "partizip2": "abgebeten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bitte ab",
+        "du": "bittest ab",
+        "er_sie_es": "bittet ab",
+        "wir": "bitten ab",
+        "ihr": "bittet ab",
+        "sie_Sie": "bitten ab"
+      },
+      "praeteritum": {
+        "ich": "bat ab",
+        "du": "batest ab",
+        "er_sie_es": "bat ab",
+        "wir": "baten ab",
+        "ihr": "batet ab",
+        "sie_Sie": "baten ab"
+      },
+      "konjunktiv1": {
+        "ich": "bitte ab",
+        "du": "bittest ab",
+        "er_sie_es": "bitte ab",
+        "wir": "bitten ab",
+        "ihr": "bittet ab",
+        "sie_Sie": "bitten ab"
+      },
+      "konjunktiv2": {
+        "ich": "bäte ab",
+        "du": "bätest ab",
+        "er_sie_es": "bäte ab",
+        "wir": "bäten ab",
+        "ihr": "bätet ab",
+        "sie_Sie": "bäten ab"
+      },
+      "imperativ": {
+        "du": "Bitte ab!",
+        "ihr": "Bittet ab!",
+        "Sie": "Bitten Sie ab!"
+      }
+    },
+    "partizip1": "abbittend",
+    "nominalisierung": "die Abbitte"
+  },
+  "wortnetz": {
+    "grundwort": "bitten",
+    "woerter": [
+      {
+        "wort": "bitten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خواهش کردن",
+          "en": "to ask"
+        },
+        "id_ref": "verb_bitten"
+      },
+      {
+        "wort": "entschuldigen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عذرخواهی کردن",
+          "en": "to apologise"
+        },
+        "id_ref": "verb_entschuldigen"
+      },
+      {
+        "wort": "die Abbitte",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "عذرخواهی",
+          "en": "apology"
+        },
+        "id_ref": "nomen_abbitte"
+      },
+      {
+        "wort": "verzeihen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بخشیدن",
+          "en": "to forgive"
+        },
+        "id_ref": "verb_verzeihen"
+      },
+      {
+        "wort": "die Schuld",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تقصیر",
+          "en": "guilt"
+        },
+        "id_ref": "nomen_schuld"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

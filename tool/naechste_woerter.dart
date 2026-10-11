@@ -840,6 +840,11 @@ const zurueckgestellt = <String>{
   'zypressen', // zurückgestellt (Regel 14): Stoffadjektiv wie zedern 2026-10-11
   'zytogen', // zurückgestellt (Regel 14): Fachwort, Bedeutung unsicher 2026-10-11
   'zytotrop', // zurückgestellt (Regel 14): Fachwort, selten 2026-10-11
+  'abbedingen', // zurückgestellt (Regel 14): Rechtssprache, sehr selten 2026-10-11
+  'abbehalten', // zurückgestellt (Regel 14): umgangssprachlich, selten 2026-10-11
+  'abbleichen', // zurückgestellt (Regel 14): selten, Bedeutung schwankend 2026-10-11
+  'abdingen', // zurückgestellt (Regel 14): veraltet 2026-10-11
+  'abdreschen', // zurückgestellt (Regel 14): selten (fast nur «abgedroschen») 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

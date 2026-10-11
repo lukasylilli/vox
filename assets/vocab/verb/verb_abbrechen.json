@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_abbrechen",
+  "wort": "abbrechen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "قطع کردن",
+      "شکستن و جدا کردن",
+      "نیمه‌کاره رها کردن"
+    ],
+    "en": [
+      "to break off",
+      "to stop",
+      "to abort"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Arbeit"
+  ],
+  "ipa": "ˈapˌbʁɛçn̩",
+  "anmerkung": "Transitiv mit haben; intransitiv «Der Ast ist abgebrochen» mit sein.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er bricht das Gespräch ab.",
+      "uebersetzung": {
+        "fa": "او گفتگو را قطع می‌کند.",
+        "en": "He breaks off the conversation."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Sie hat ihr Studium abgebrochen, weil sie lieber eine Ausbildung machen wollte.",
+      "uebersetzung": {
+        "fa": "او تحصیلش را نیمه‌کاره رها کرد، چون ترجیح می‌داد یک دوره‌ی حرفه‌ای بگذراند.",
+        "en": "She dropped out of her studies because she preferred to do vocational training."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beenden",
+      "uebersetzung": {
+        "fa": "تمام کردن",
+        "en": "to end"
+      }
+    },
+    {
+      "wort": "unterbrechen",
+      "uebersetzung": {
+        "fa": "قطع کردن موقت",
+        "en": "to interrupt"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "fortsetzen",
+      "uebersetzung": {
+        "fa": "ادامه دادن",
+        "en": "to continue"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند: جدا) + brechen (شکستن)",
+    "en": "ab- (prefix: off) + brechen (to break)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "abbrechen",
+      "praeteritum": "brach ab",
+      "partizip2": "abgebrochen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "breche ab",
+        "du": "brichst ab",
+        "er_sie_es": "bricht ab",
+        "wir": "brechen ab",
+        "ihr": "brecht ab",
+        "sie_Sie": "brechen ab"
+      },
+      "praeteritum": {
+        "ich": "brach ab",
+        "du": "brachst ab",
+        "er_sie_es": "brach ab",
+        "wir": "brachen ab",
+        "ihr": "bracht ab",
+        "sie_Sie": "brachen ab"
+      },
+      "konjunktiv1": {
+        "ich": "breche ab",
+        "du": "brechest ab",
+        "er_sie_es": "breche ab",
+        "wir": "brechen ab",
+        "ihr": "brechet ab",
+        "sie_Sie": "brechen ab"
+      },
+      "konjunktiv2": {
+        "ich": "bräche ab",
+        "du": "brächest ab",
+        "er_sie_es": "bräche ab",
+        "wir": "brächen ab",
+        "ihr": "brächet ab",
+        "sie_Sie": "brächen ab"
+      },
+      "imperativ": {
+        "du": "Brich ab!",
+        "ihr": "Brecht ab!",
+        "Sie": "Brechen Sie ab!"
+      }
+    },
+    "partizip1": "abbrechend",
+    "nominalisierung": "der Abbruch"
+  },
+  "wortnetz": {
+    "grundwort": "brechen",
+    "woerter": [
+      {
+        "wort": "brechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شکستن",
+          "en": "to break"
+        },
+        "id_ref": "verb_brechen"
+      },
+      {
+        "wort": "der Abbruch",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قطع، توقف",
+          "en": "termination"
+        },
+        "id_ref": "nomen_abbruch"
+      },
+      {
+        "wort": "beenden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تمام کردن",
+          "en": "to end"
+        },
+        "id_ref": "verb_beenden"
+      },
+      {
+        "wort": "aufhören",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دست کشیدن",
+          "en": "to stop"
+        },
+        "id_ref": "verb_aufhoeren"
+      },
+      {
+        "wort": "das Studium",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تحصیل دانشگاهی",
+          "en": "studies"
+        },
+        "id_ref": "nomen_studium"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

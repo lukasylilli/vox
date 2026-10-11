@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_abfallen",
+  "wort": "abfallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "افتادن (از جایی)",
+      "کم شدن",
+      "باقی ماندن (به‌عنوان سهم)"
+    ],
+    "en": [
+      "to fall off",
+      "to drop",
+      "to be left over"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Natur",
+    "Alltag"
+  ],
+  "ipa": "ˈapˌfalən",
+  "anmerkung": "Nominalisierung «der Abfall» hat auch die eigene Bedeutung «Müll» (eigene Karte).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Im Herbst fallen die Blätter ab.",
+      "uebersetzung": {
+        "fa": "در پاییز برگ‌ها می‌ریزند.",
+        "en": "In autumn the leaves fall off."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach der Prüfung ist die ganze Anspannung von mir abgefallen, und ich habe tief geschlafen.",
+      "uebersetzung": {
+        "fa": "بعد از امتحان همه‌ی فشار عصبی از من رخت بربست و عمیق خوابیدم.",
+        "en": "After the exam all the tension fell away from me and I slept deeply."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "herunterfallen",
+      "uebersetzung": {
+        "fa": "پایین افتادن",
+        "en": "to fall down"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند: جدا شدن) + fallen (افتادن)",
+    "en": "ab- (prefix: off) + fallen (to fall)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "für + Akk abfallen",
+        "bedeutung": "als Anteil übrig bleiben",
+        "beispiel": "Für uns ist nicht viel abgefallen.",
+        "uebersetzung": {
+          "fa": "سهم زیادی به ما نرسید.",
+          "en": "Not much was left over for us."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abfallen",
+      "praeteritum": "fiel ab",
+      "partizip2": "abgefallen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "falle ab",
+        "du": "fällst ab",
+        "er_sie_es": "fällt ab",
+        "wir": "fallen ab",
+        "ihr": "fallt ab",
+        "sie_Sie": "fallen ab"
+      },
+      "praeteritum": {
+        "ich": "fiel ab",
+        "du": "fielst ab",
+        "er_sie_es": "fiel ab",
+        "wir": "fielen ab",
+        "ihr": "fielt ab",
+        "sie_Sie": "fielen ab"
+      },
+      "konjunktiv1": {
+        "ich": "falle ab",
+        "du": "fallest ab",
+        "er_sie_es": "falle ab",
+        "wir": "fallen ab",
+        "ihr": "fallet ab",
+        "sie_Sie": "fallen ab"
+      },
+      "konjunktiv2": {
+        "ich": "fiele ab",
+        "du": "fielest ab",
+        "er_sie_es": "fiele ab",
+        "wir": "fielen ab",
+        "ihr": "fielet ab",
+        "sie_Sie": "fielen ab"
+      },
+      "imperativ": {
+        "du": "Fall ab!",
+        "ihr": "Fallt ab!",
+        "Sie": "Fallen Sie ab!"
+      }
+    },
+    "partizip1": "abfallend",
+    "nominalisierung": "der Abfall"
+  },
+  "wortnetz": {
+    "grundwort": "fallen",
+    "woerter": [
+      {
+        "wort": "fallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "افتادن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_fallen"
+      },
+      {
+        "wort": "der Abfall",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زباله",
+          "en": "waste"
+        },
+        "id_ref": "nomen_abfall"
+      },
+      {
+        "wort": "das Blatt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برگ",
+          "en": "leaf"
+        },
+        "id_ref": "nomen_blatt"
+      },
+      {
+        "wort": "der Herbst",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پاییز",
+          "en": "autumn"
+        },
+        "id_ref": "nomen_herbst"
+      },
+      {
+        "wort": "sinken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پایین آمدن",
+          "en": "to sink"
+        },
+        "id_ref": "verb_sinken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

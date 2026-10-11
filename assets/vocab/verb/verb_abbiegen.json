@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_abbiegen",
+  "wort": "abbiegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پیچیدن (به خیابان دیگر)",
+      "منحرف شدن"
+    ],
+    "en": [
+      "to turn (off)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Verkehr"
+  ],
+  "ipa": "ˈapˌbiːɡn̩",
+  "anmerkung": "Intransitiv mit sein (Wir sind abgebogen); umgangssprachlich transitiv «etwas abbiegen» (verhindern) mit haben.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Biegen Sie hier links ab.",
+      "uebersetzung": {
+        "fa": "اینجا به چپ بپیچید.",
+        "en": "Turn left here."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil die Straße gesperrt war, mussten wir an der Kreuzung rechts abbiegen.",
+      "uebersetzung": {
+        "fa": "چون خیابان بسته بود، مجبور شدیم سر چهارراه به راست بپیچیم.",
+        "en": "Because the road was closed, we had to turn right at the junction."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einbiegen",
+      "uebersetzung": {
+        "fa": "وارد (خیابان) شدن",
+        "en": "to turn into"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "geradeaus fahren",
+      "uebersetzung": {
+        "fa": "مستقیم رفتن",
+        "en": "to go straight on"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند: جدا شدن از مسیر) + biegen (خم کردن، پیچیدن)",
+    "en": "ab- (prefix: away) + biegen (to bend, to turn)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in + Akk abbiegen",
+        "bedeutung": "die Richtung ändern und hineinfahren",
+        "beispiel": "Wir biegen in die nächste Straße ab.",
+        "uebersetzung": {
+          "fa": "به خیابان بعدی می‌پیچیم.",
+          "en": "We turn into the next street."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abbiegen",
+      "praeteritum": "bog ab",
+      "partizip2": "abgebogen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "biege ab",
+        "du": "biegst ab",
+        "er_sie_es": "biegt ab",
+        "wir": "biegen ab",
+        "ihr": "biegt ab",
+        "sie_Sie": "biegen ab"
+      },
+      "praeteritum": {
+        "ich": "bog ab",
+        "du": "bogst ab",
+        "er_sie_es": "bog ab",
+        "wir": "bogen ab",
+        "ihr": "bogt ab",
+        "sie_Sie": "bogen ab"
+      },
+      "konjunktiv1": {
+        "ich": "biege ab",
+        "du": "biegest ab",
+        "er_sie_es": "biege ab",
+        "wir": "biegen ab",
+        "ihr": "bieget ab",
+        "sie_Sie": "biegen ab"
+      },
+      "konjunktiv2": {
+        "ich": "böge ab",
+        "du": "bögest ab",
+        "er_sie_es": "böge ab",
+        "wir": "bögen ab",
+        "ihr": "böget ab",
+        "sie_Sie": "bögen ab"
+      },
+      "imperativ": {
+        "du": "Bieg ab!",
+        "ihr": "Biegt ab!",
+        "Sie": "Biegen Sie ab!"
+      }
+    },
+    "partizip1": "abbiegend",
+    "nominalisierung": "das Abbiegen"
+  },
+  "wortnetz": {
+    "grundwort": "biegen",
+    "woerter": [
+      {
+        "wort": "biegen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خم کردن",
+          "en": "to bend"
+        },
+        "id_ref": "verb_biegen"
+      },
+      {
+        "wort": "links",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چپ",
+          "en": "left"
+        },
+        "id_ref": "adverb_links"
+      },
+      {
+        "wort": "rechts",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "راست",
+          "en": "right"
+        },
+        "id_ref": "adverb_rechts"
+      },
+      {
+        "wort": "die Kreuzung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چهارراه",
+          "en": "junction"
+        },
+        "id_ref": "nomen_kreuzung"
+      },
+      {
+        "wort": "die Kurve",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیچ",
+          "en": "bend"
+        },
+        "id_ref": "nomen_kurve"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
