@@ -954,6 +954,30 @@ const zurueckgestellt = <String>{
   'dazwischenfragen', // zurückgestellt (Regel 14/16): selten 2026-10-12
   'dazwischenhauen', // zurückgestellt (Regel 14/16): umgangssprachlich; Präteritum schwankt 2026-10-12
   'dazwischenliegen', // zurückgestellt (Regel 14/16): Hilfsverb schwankt (haben; südd./österr. sein) 2026-10-12
+  'dortbehalten', // zurückgestellt (Regel 14/16): selten 2026-10-12
+  'drangeben', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-12
+  'dranhalten', // zurückgestellt (Regel 14/16): umgangssprachlich (sich beeilen), Gebrauch schwankend 2026-10-12
+  'dranhängen', // zurückgestellt (Regel 14/16): umgangssprachlich; transitiv regelmäßig/intransitiv unregelmäßig (hängte/hing) 2026-10-12
+  'draufgeben', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-12
+  'draufhalten', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-12
+  'draufhauen', // zurückgestellt (Regel 14/16): umgangssprachlich; Präteritum schwankt (haute/hieb) 2026-10-12
+  'drauflosfahren', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-12
+  'drauflosgehen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-12
+  'drausbringen', // zurückgestellt (Regel 14/16): landschaftlich (südd.) 2026-10-12
+  'drauskommen', // zurückgestellt (Regel 14/16): landschaftlich (südd./schweiz.) 2026-10-12
+  'dreinfahren', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-12
+  'dreinfinden', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-12
+  'dreingeben', // zurückgestellt (Regel 14/16): landschaftlich, selten 2026-10-12
+  'durchblasen', // zurückgestellt (Regel 14/16): selten 2026-10-12
+  'durchbrechen', // zurückgestellt (Regel 14/16): trennbar UND untrennbar mit verschiedener Bedeutung (brach durch / durchbrach) — Symbol nicht eindeutig 2026-10-12
+  'durchdenken', // zurückgestellt (Regel 14/16): trennbar UND untrennbar (dachte durch / durchdachte) — Symbol nicht eindeutig 2026-10-12
+  'durchdreschen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-12
+  'durchdringen', // zurückgestellt (Regel 14/16): trennbar UND untrennbar mit verschiedener Bedeutung — Symbol nicht eindeutig 2026-10-12
+  'durchdürfen', // zurückgestellt (Regel 14/16): umgangssprachlich; kein Imperativ (wie dürfen) 2026-10-12
+  'durcheinanderessen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-12
+  'durcheinanderlaufen', // zurückgestellt (Regel 14/16): selten 2026-10-12
+  'durchessen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-12
+  'durchfahren', // zurückgestellt (Regel 14/16): trennbar UND untrennbar mit verschiedener Bedeutung — Symbol nicht eindeutig 2026-10-12
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

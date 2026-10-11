@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_dazugeben",
+  "wort": "dazugeben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اضافه کردن (به چیزی)"
+    ],
+    "en": [
+      "to add"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Kochen",
+    "Einkaufen"
+  ],
+  "ipa": "daˈtsuːˌɡeːbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Gib etwas Salz dazu!",
+      "uebersetzung": {
+        "fa": "کمی نمک اضافه کن!",
+        "en": "Add some salt!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn die Zwiebeln glasig sind, gibt man den Reis dazu und rührt kräftig um.",
+      "uebersetzung": {
+        "fa": "وقتی پیازها شفاف شدند، برنج را اضافه می‌کنند و خوب هم می‌زنند.",
+        "en": "When the onions are translucent, you add the rice and stir well."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hinzufügen",
+      "uebersetzung": {
+        "fa": "افزودن",
+        "en": "to add"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "wegnehmen",
+      "uebersetzung": {
+        "fa": "برداشتن",
+        "en": "to take away"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "dazu (افزون بر آن) + geben (دادن)",
+    "en": "dazu (in addition) + geben (to give)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas dazugeben",
+        "bedeutung": "etwas hinzufügen — mit Akkusativ",
+        "beispiel": "Zum Schluss gibt man die Sahne dazu.",
+        "uebersetzung": {
+          "fa": "در آخر خامه را اضافه می‌کنند.",
+          "en": "Finally you add the cream."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "dazugeben",
+      "praeteritum": "gab dazu",
+      "partizip2": "dazugegeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gebe dazu",
+        "du": "gibst dazu",
+        "er_sie_es": "gibt dazu",
+        "wir": "geben dazu",
+        "ihr": "gebt dazu",
+        "sie_Sie": "geben dazu"
+      },
+      "praeteritum": {
+        "ich": "gab dazu",
+        "du": "gabst dazu",
+        "er_sie_es": "gab dazu",
+        "wir": "gaben dazu",
+        "ihr": "gabt dazu",
+        "sie_Sie": "gaben dazu"
+      },
+      "konjunktiv1": {
+        "ich": "gebe dazu",
+        "du": "gebest dazu",
+        "er_sie_es": "gebe dazu",
+        "wir": "geben dazu",
+        "ihr": "gebet dazu",
+        "sie_Sie": "geben dazu"
+      },
+      "konjunktiv2": {
+        "ich": "gäbe dazu",
+        "du": "gäbest dazu",
+        "er_sie_es": "gäbe dazu",
+        "wir": "gäben dazu",
+        "ihr": "gäbet dazu",
+        "sie_Sie": "gäben dazu"
+      },
+      "imperativ": {
+        "du": "Gib dazu!",
+        "ihr": "Gebt dazu!",
+        "Sie": "Geben Sie dazu!"
+      }
+    },
+    "partizip1": "dazugebend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "hinzufügen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "افزودن",
+          "en": "to add"
+        },
+        "id_ref": "verb_hinzufuegen"
+      },
+      {
+        "wort": "das Salz",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نمک",
+          "en": "salt"
+        },
+        "id_ref": "nomen_salz"
+      },
+      {
+        "wort": "das Rezept",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دستور پخت",
+          "en": "recipe"
+        },
+        "id_ref": "nomen_rezept"
+      },
+      {
+        "wort": "die Zutat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ماده‌ی لازم",
+          "en": "ingredient"
+        },
+        "id_ref": "nomen_zutat"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

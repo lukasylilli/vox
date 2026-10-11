@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_davonlaufen",
+  "wort": "davonlaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "فرار کردن، دویدن و دور شدن",
+      "(jemandem davonlaufen) کسی را ترک کردن"
+    ],
+    "en": [
+      "to run away",
+      "to run off (from)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Beziehungen"
+  ],
+  "ipa": "daˈfɔnˌlaʊ̯fn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hund läuft davon.",
+      "uebersetzung": {
+        "fa": "سگ فرار می‌کند.",
+        "en": "The dog runs away."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Man kann seinen Problemen nicht ewig davonlaufen, irgendwann muss man sie lösen.",
+      "uebersetzung": {
+        "fa": "نمی‌شود برای همیشه از مشکلات فرار کرد، بالاخره باید حلشان کرد.",
+        "en": "You can't run away from your problems forever; at some point you have to solve them."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "weglaufen",
+      "uebersetzung": {
+        "fa": "فرار کردن",
+        "en": "to run away"
+      }
+    },
+    {
+      "wort": "fliehen",
+      "uebersetzung": {
+        "fa": "گریختن",
+        "en": "to flee"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "bleiben",
+      "uebersetzung": {
+        "fa": "ماندن",
+        "en": "to stay"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "davon (از آن‌جا) + laufen (دویدن)",
+    "en": "davon (away) + laufen (to run)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem/etwas davonlaufen (mit Dat)",
+        "bedeutung": "vor jemandem/etwas fliehen",
+        "beispiel": "Ihm ist die Frau davongelaufen.",
+        "uebersetzung": {
+          "fa": "زنش او را ترک کرد.",
+          "en": "His wife ran off and left him."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "davonlaufen",
+      "praeteritum": "lief davon",
+      "partizip2": "davongelaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laufe davon",
+        "du": "läufst davon",
+        "er_sie_es": "läuft davon",
+        "wir": "laufen davon",
+        "ihr": "lauft davon",
+        "sie_Sie": "laufen davon"
+      },
+      "praeteritum": {
+        "ich": "lief davon",
+        "du": "liefst davon",
+        "er_sie_es": "lief davon",
+        "wir": "liefen davon",
+        "ihr": "lieft davon",
+        "sie_Sie": "liefen davon"
+      },
+      "konjunktiv1": {
+        "ich": "laufe davon",
+        "du": "laufest davon",
+        "er_sie_es": "laufe davon",
+        "wir": "laufen davon",
+        "ihr": "laufet davon",
+        "sie_Sie": "laufen davon"
+      },
+      "konjunktiv2": {
+        "ich": "liefe davon",
+        "du": "liefest davon",
+        "er_sie_es": "liefe davon",
+        "wir": "liefen davon",
+        "ihr": "liefet davon",
+        "sie_Sie": "liefen davon"
+      },
+      "imperativ": {
+        "du": "Lauf davon!",
+        "ihr": "Lauft davon!",
+        "Sie": "Laufen Sie davon!"
+      }
+    },
+    "partizip1": "davonlaufend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دویدن",
+          "en": "to run"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "weglaufen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فرار کردن",
+          "en": "to run away"
+        },
+        "id_ref": "verb_weglaufen"
+      },
+      {
+        "wort": "fliehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گریختن",
+          "en": "to flee"
+        },
+        "id_ref": "verb_fliehen"
+      },
+      {
+        "wort": "die Flucht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فرار",
+          "en": "escape"
+        },
+        "id_ref": "nomen_flucht"
+      },
+      {
+        "wort": "davonkommen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قسر در رفتن",
+          "en": "to get away"
+        },
+        "id_ref": "verb_davonkommen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

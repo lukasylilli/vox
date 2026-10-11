@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_davonkommen",
+  "wort": "davonkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جان سالم به در بردن",
+      "قسر در رفتن"
+    ],
+    "en": [
+      "to escape",
+      "to get away (with)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Unfall",
+    "Recht"
+  ],
+  "ipa": "daˈfɔnˌkɔmən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er ist mit dem Schrecken davongekommen.",
+      "uebersetzung": {
+        "fa": "فقط ترسید و آسیبی ندید.",
+        "en": "He got away with no more than a fright."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Dieb ist diesmal ungestraft davongekommen, weil es keine Beweise gegen ihn gab.",
+      "uebersetzung": {
+        "fa": "دزد این بار بدون مجازات قسر در رفت، چون مدرکی علیهش نبود.",
+        "en": "This time the thief got away unpunished because there was no evidence against him."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "entkommen",
+      "uebersetzung": {
+        "fa": "گریختن",
+        "en": "to escape"
+      }
+    },
+    {
+      "wort": "überleben",
+      "uebersetzung": {
+        "fa": "زنده ماندن",
+        "en": "to survive"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "davon (از آن‌جا) + kommen (آمدن)",
+    "en": "davon (away) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit etwas davonkommen (mit + Dat)",
+        "bedeutung": "mit einer geringen Folge einer Gefahr entgehen",
+        "beispiel": "Sie ist mit einer Verwarnung davongekommen.",
+        "uebersetzung": {
+          "fa": "فقط با یک تذکر قسر در رفت.",
+          "en": "She got off with a warning."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "davonkommen",
+      "praeteritum": "kam davon",
+      "partizip2": "davongekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme davon",
+        "du": "kommst davon",
+        "er_sie_es": "kommt davon",
+        "wir": "kommen davon",
+        "ihr": "kommt davon",
+        "sie_Sie": "kommen davon"
+      },
+      "praeteritum": {
+        "ich": "kam davon",
+        "du": "kamst davon",
+        "er_sie_es": "kam davon",
+        "wir": "kamen davon",
+        "ihr": "kamt davon",
+        "sie_Sie": "kamen davon"
+      },
+      "konjunktiv1": {
+        "ich": "komme davon",
+        "du": "kommest davon",
+        "er_sie_es": "komme davon",
+        "wir": "kommen davon",
+        "ihr": "kommet davon",
+        "sie_Sie": "kommen davon"
+      },
+      "konjunktiv2": {
+        "ich": "käme davon",
+        "du": "kämest davon",
+        "er_sie_es": "käme davon",
+        "wir": "kämen davon",
+        "ihr": "kämet davon",
+        "sie_Sie": "kämen davon"
+      },
+      "imperativ": {
+        "du": "Komm davon!",
+        "ihr": "Kommt davon!",
+        "Sie": "Kommen Sie davon!"
+      }
+    },
+    "partizip1": "davonkommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "der Unfall",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تصادف",
+          "en": "accident"
+        },
+        "id_ref": "nomen_unfall"
+      },
+      {
+        "wort": "überleben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زنده ماندن",
+          "en": "to survive"
+        },
+        "id_ref": "verb_ueberleben"
+      },
+      {
+        "wort": "entkommen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گریختن",
+          "en": "to escape"
+        },
+        "id_ref": "verb_entkommen"
+      },
+      {
+        "wort": "das Glück",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شانس",
+          "en": "luck"
+        },
+        "id_ref": "nomen_glueck"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
