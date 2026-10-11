@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_einbiegen",
+  "wort": "einbiegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(به خیابان یا مسیر دیگری) پیچیدن"
+    ],
+    "en": [
+      "to turn (into a street)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Verkehr",
+    "Orientierung"
+  ],
+  "ipa": "ˈaɪ̯nˌbiːɡn̩",
+  "anmerkung": "Intransitiv mit «sein» (in eine Straße einbiegen); transitiv «etwas nach innen biegen» mit «haben».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Biegen Sie links in die Hauptstraße ein.",
+      "uebersetzung": {
+        "fa": "به چپ، به خیابان اصلی بپیچید.",
+        "en": "Turn left into the main road."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Als wir in die kleine Gasse eingebogen sind, haben wir das Restaurant sofort gesehen.",
+      "uebersetzung": {
+        "fa": "وقتی به آن کوچه‌ی کوچک پیچیدیم، رستوران را فوراً دیدیم.",
+        "en": "When we turned into the little alley, we saw the restaurant at once."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abbiegen",
+      "uebersetzung": {
+        "fa": "پیچیدن",
+        "en": "to turn off"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + biegen (خم کردن، پیچیدن)",
+    "en": "ein- (in, into) + biegen (to bend, to turn)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in + Akk einbiegen",
+        "bedeutung": "die Richtung ändern und in eine Straße fahren/gehen",
+        "beispiel": "Der Bus biegt gleich in die Bahnhofstraße ein.",
+        "uebersetzung": {
+          "fa": "اتوبوس الان به خیابان ایستگاه می‌پیچد.",
+          "en": "The bus is about to turn into Bahnhofstraße."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "einbiegen",
+      "praeteritum": "bog ein",
+      "partizip2": "eingebogen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "biege ein",
+        "du": "biegst ein",
+        "er_sie_es": "biegt ein",
+        "wir": "biegen ein",
+        "ihr": "biegt ein",
+        "sie_Sie": "biegen ein"
+      },
+      "praeteritum": {
+        "ich": "bog ein",
+        "du": "bogst ein",
+        "er_sie_es": "bog ein",
+        "wir": "bogen ein",
+        "ihr": "bogt ein",
+        "sie_Sie": "bogen ein"
+      },
+      "konjunktiv1": {
+        "ich": "biege ein",
+        "du": "biegest ein",
+        "er_sie_es": "biege ein",
+        "wir": "biegen ein",
+        "ihr": "bieget ein",
+        "sie_Sie": "biegen ein"
+      },
+      "konjunktiv2": {
+        "ich": "böge ein",
+        "du": "bögest ein",
+        "er_sie_es": "böge ein",
+        "wir": "bögen ein",
+        "ihr": "böget ein",
+        "sie_Sie": "bögen ein"
+      },
+      "imperativ": {
+        "du": "Bieg ein!",
+        "ihr": "Biegt ein!",
+        "Sie": "Biegen Sie ein!"
+      }
+    },
+    "partizip1": "einbiegend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "biegen",
+    "woerter": [
+      {
+        "wort": "abbiegen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پیچیدن",
+          "en": "to turn"
+        },
+        "id_ref": "verb_abbiegen"
+      },
+      {
+        "wort": "biegen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خم کردن",
+          "en": "to bend"
+        },
+        "id_ref": "verb_biegen"
+      },
+      {
+        "wort": "die Kreuzung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چهارراه",
+          "en": "intersection"
+        },
+        "id_ref": "nomen_kreuzung"
+      },
+      {
+        "wort": "die Straße",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خیابان",
+          "en": "street"
+        },
+        "id_ref": "nomen_strasse"
+      },
+      {
+        "wort": "links",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چپ",
+          "en": "left"
+        },
+        "id_ref": "adverb_links"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

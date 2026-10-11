@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_einbekennen",
+  "wort": "einbekennen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(اتریش، رسمی) اعتراف کردن، پذیرفتن (اشتباه یا تقصیر)"
+    ],
+    "en": [
+      "(Austrian, formal) to admit, to confess"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Politik",
+    "Österreich"
+  ],
+  "ipa": "ˈaɪ̯nbəˌkɛnən",
+  "anmerkung": "Vor allem österreichisch (Amts- und Pressesprache); gemischtes Verb: bekannte ein, einbekannt.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Minister bekennt seinen Fehler ein.",
+      "uebersetzung": {
+        "fa": "وزیر اشتباهش را می‌پذیرد.",
+        "en": "The minister admits his mistake."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Erst nach langem Zögern hat die Firma einbekannt, dass die Daten gestohlen worden waren.",
+      "uebersetzung": {
+        "fa": "شرکت تنها پس از تردیدی طولانی پذیرفت که داده‌ها دزدیده شده بودند.",
+        "en": "Only after long hesitation did the company admit that the data had been stolen."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zugeben",
+      "uebersetzung": {
+        "fa": "اعتراف کردن",
+        "en": "to admit"
+      }
+    },
+    {
+      "wort": "eingestehen",
+      "uebersetzung": {
+        "fa": "اذعان کردن",
+        "en": "to concede"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "leugnen",
+      "uebersetzung": {
+        "fa": "انکار کردن",
+        "en": "to deny"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + bekennen (اعتراف کردن)",
+    "en": "ein- (in, into) + bekennen (to confess)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "einbekennen",
+      "praeteritum": "bekannte ein",
+      "partizip2": "einbekannt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bekenne ein",
+        "du": "bekennst ein",
+        "er_sie_es": "bekennt ein",
+        "wir": "bekennen ein",
+        "ihr": "bekennt ein",
+        "sie_Sie": "bekennen ein"
+      },
+      "praeteritum": {
+        "ich": "bekannte ein",
+        "du": "bekanntest ein",
+        "er_sie_es": "bekannte ein",
+        "wir": "bekannten ein",
+        "ihr": "bekanntet ein",
+        "sie_Sie": "bekannten ein"
+      },
+      "konjunktiv1": {
+        "ich": "bekenne ein",
+        "du": "bekennest ein",
+        "er_sie_es": "bekenne ein",
+        "wir": "bekennen ein",
+        "ihr": "bekennet ein",
+        "sie_Sie": "bekennen ein"
+      },
+      "konjunktiv2": {
+        "ich": "bekennte ein",
+        "du": "bekenntest ein",
+        "er_sie_es": "bekennte ein",
+        "wir": "bekennten ein",
+        "ihr": "bekenntet ein",
+        "sie_Sie": "bekennten ein"
+      },
+      "imperativ": {
+        "du": "Bekenn ein!",
+        "ihr": "Bekennt ein!",
+        "Sie": "Bekennen Sie ein!"
+      }
+    },
+    "partizip1": "einbekennend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bekennen",
+    "woerter": [
+      {
+        "wort": "zugeben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اعتراف کردن",
+          "en": "to admit"
+        },
+        "id_ref": "verb_zugeben"
+      },
+      {
+        "wort": "bekennen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اعتراف کردن",
+          "en": "to confess"
+        },
+        "id_ref": "verb_bekennen"
+      },
+      {
+        "wort": "der Fehler",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اشتباه",
+          "en": "mistake"
+        },
+        "id_ref": "nomen_fehler"
+      },
+      {
+        "wort": "die Schuld",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تقصیر",
+          "en": "guilt"
+        },
+        "id_ref": "nomen_schuld"
+      },
+      {
+        "wort": "leugnen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "انکار کردن",
+          "en": "to deny"
+        },
+        "id_ref": "verb_leugnen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

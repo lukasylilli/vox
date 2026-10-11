@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_einfangen",
+  "wort": "einfangen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(حیوان یا فرد فراری را) گرفتن، به دام انداختن",
+      "(حال‌وهوا یا لحظه‌ای را در عکس یا متن) ثبت کردن"
+    ],
+    "en": [
+      "to catch, to capture",
+      "to capture (a mood, a moment)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Tiere",
+    "Kunst",
+    "Fotografie"
+  ],
+  "ipa": "ˈaɪ̯nˌfaŋən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Bauer fängt die Hühner ein.",
+      "uebersetzung": {
+        "fa": "کشاورز مرغ‌ها را می‌گیرد.",
+        "en": "The farmer catches the chickens."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Dem Fotografen ist es gelungen, die Stimmung des Abends perfekt einzufangen.",
+      "uebersetzung": {
+        "fa": "عکاس موفق شد حال‌وهوای آن شب را به‌خوبی ثبت کند.",
+        "en": "The photographer managed to capture the mood of the evening perfectly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fangen",
+      "uebersetzung": {
+        "fa": "گرفتن",
+        "en": "to catch"
+      }
+    },
+    {
+      "wort": "festhalten",
+      "uebersetzung": {
+        "fa": "ثبت کردن، نگه داشتن",
+        "en": "to capture"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "freilassen",
+      "uebersetzung": {
+        "fa": "آزاد کردن",
+        "en": "to release"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + fangen (گرفتن)",
+    "en": "ein- (in, into) + fangen (to catch)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "einfangen",
+      "praeteritum": "fing ein",
+      "partizip2": "eingefangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fange ein",
+        "du": "fängst ein",
+        "er_sie_es": "fängt ein",
+        "wir": "fangen ein",
+        "ihr": "fangt ein",
+        "sie_Sie": "fangen ein"
+      },
+      "praeteritum": {
+        "ich": "fing ein",
+        "du": "fingst ein",
+        "er_sie_es": "fing ein",
+        "wir": "fingen ein",
+        "ihr": "fingt ein",
+        "sie_Sie": "fingen ein"
+      },
+      "konjunktiv1": {
+        "ich": "fange ein",
+        "du": "fangest ein",
+        "er_sie_es": "fange ein",
+        "wir": "fangen ein",
+        "ihr": "fanget ein",
+        "sie_Sie": "fangen ein"
+      },
+      "konjunktiv2": {
+        "ich": "finge ein",
+        "du": "fingest ein",
+        "er_sie_es": "finge ein",
+        "wir": "fingen ein",
+        "ihr": "finget ein",
+        "sie_Sie": "fingen ein"
+      },
+      "imperativ": {
+        "du": "Fang ein!",
+        "ihr": "Fangt ein!",
+        "Sie": "Fangen Sie ein!"
+      }
+    },
+    "partizip1": "einfangend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fangen",
+    "woerter": [
+      {
+        "wort": "fangen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گرفتن",
+          "en": "to catch"
+        },
+        "id_ref": "verb_fangen"
+      },
+      {
+        "wort": "freilassen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آزاد کردن",
+          "en": "to release"
+        },
+        "id_ref": "verb_freilassen"
+      },
+      {
+        "wort": "die Stimmung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حال‌وهوا",
+          "en": "mood"
+        },
+        "id_ref": "nomen_stimmung"
+      },
+      {
+        "wort": "das Foto",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عکس",
+          "en": "photo"
+        },
+        "id_ref": "nomen_foto"
+      },
+      {
+        "wort": "fotografieren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عکس گرفتن",
+          "en": "to photograph"
+        },
+        "id_ref": "verb_fotografieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

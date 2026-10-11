@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_einbrennen",
+  "wort": "einbrennen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "داغ زدن، (نشانه‌ای را با آتش) حک کردن",
+      "(sich einbrennen) در ذهن نقش بستن"
+    ],
+    "en": [
+      "to brand, to burn in",
+      "(sich) to be etched (in memory)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle",
+    "Handwerk"
+  ],
+  "ipa": "ˈaɪ̯nˌbʁɛnən",
+  "anmerkung": "Gemischtes Verb: brannte ein, eingebrannt. Österreichisch auch: eine Mehlschwitze (Einbrenn) machen.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Bauer brennt dem Pferd ein Zeichen ein.",
+      "uebersetzung": {
+        "fa": "کشاورز روی اسب نشان داغ می‌زند.",
+        "en": "The farmer brands a mark on the horse."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Bild des brennenden Hauses hat sich für immer in mein Gedächtnis eingebrannt.",
+      "uebersetzung": {
+        "fa": "تصویر خانه‌ی در حال سوختن برای همیشه در ذهنم نقش بسته است.",
+        "en": "The image of the burning house is etched into my memory forever."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einprägen",
+      "uebersetzung": {
+        "fa": "در ذهن حک کردن",
+        "en": "to imprint"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + brennen (سوختن، سوزاندن)",
+    "en": "ein- (in, into) + brennen (to burn)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich in + Akk einbrennen",
+        "bedeutung": "sich fest einprägen",
+        "beispiel": "Dieser Satz hat sich in mein Herz eingebrannt.",
+        "uebersetzung": {
+          "fa": "این جمله در دلم نقش بسته است.",
+          "en": "That sentence has been etched into my heart."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "einbrennen",
+      "praeteritum": "brannte ein",
+      "partizip2": "eingebrannt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "brenne ein",
+        "du": "brennst ein",
+        "er_sie_es": "brennt ein",
+        "wir": "brennen ein",
+        "ihr": "brennt ein",
+        "sie_Sie": "brennen ein"
+      },
+      "praeteritum": {
+        "ich": "brannte ein",
+        "du": "branntest ein",
+        "er_sie_es": "brannte ein",
+        "wir": "brannten ein",
+        "ihr": "branntet ein",
+        "sie_Sie": "brannten ein"
+      },
+      "konjunktiv1": {
+        "ich": "brenne ein",
+        "du": "brennest ein",
+        "er_sie_es": "brenne ein",
+        "wir": "brennen ein",
+        "ihr": "brennet ein",
+        "sie_Sie": "brennen ein"
+      },
+      "konjunktiv2": {
+        "ich": "brennte ein",
+        "du": "brenntest ein",
+        "er_sie_es": "brennte ein",
+        "wir": "brennten ein",
+        "ihr": "brenntet ein",
+        "sie_Sie": "brennten ein"
+      },
+      "imperativ": {
+        "du": "Brenn ein!",
+        "ihr": "Brennt ein!",
+        "Sie": "Brennen Sie ein!"
+      }
+    },
+    "partizip1": "einbrennend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "brennen",
+    "woerter": [
+      {
+        "wort": "brennen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سوختن",
+          "en": "to burn"
+        },
+        "id_ref": "verb_brennen"
+      },
+      {
+        "wort": "einprägen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "در ذهن حک کردن",
+          "en": "to imprint"
+        },
+        "id_ref": "verb_einpraegen"
+      },
+      {
+        "wort": "das Gedächtnis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حافظه",
+          "en": "memory"
+        },
+        "id_ref": "nomen_gedaechtnis"
+      },
+      {
+        "wort": "die Erinnerung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خاطره",
+          "en": "memory"
+        },
+        "id_ref": "nomen_erinnerung"
+      },
+      {
+        "wort": "das Zeichen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نشانه",
+          "en": "sign"
+        },
+        "id_ref": "nomen_zeichen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

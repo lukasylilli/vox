@@ -1,0 +1,193 @@
+{
+  "schema": "3.0",
+  "id": "verb_einbinden",
+  "wort": "einbinden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(کسی یا چیزی را در کاری یا مجموعه‌ای) گنجاندن، مشارکت دادن",
+      "(کتاب را) صحافی کردن، جلد کردن"
+    ],
+    "en": [
+      "to integrate, to involve",
+      "to bind (a book)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit",
+    "Gesellschaft",
+    "Technik"
+  ],
+  "ipa": "ˈaɪ̯nˌbɪndn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir binden alle Kollegen ein.",
+      "uebersetzung": {
+        "fa": "همه‌ی همکاران را مشارکت می‌دهیم.",
+        "en": "We involve all colleagues."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Es ist wichtig, die Eltern in die Entscheidungen der Schule einzubinden, damit sie sich ernst genommen fühlen.",
+      "uebersetzung": {
+        "fa": "مهم است که والدین را در تصمیم‌های مدرسه مشارکت دهیم تا احساس کنند جدی گرفته می‌شوند.",
+        "en": "It is important to involve parents in the school's decisions so that they feel taken seriously."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beteiligen",
+      "uebersetzung": {
+        "fa": "شریک کردن",
+        "en": "to involve"
+      }
+    },
+    {
+      "wort": "integrieren",
+      "uebersetzung": {
+        "fa": "ادغام کردن",
+        "en": "to integrate"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ausschließen",
+      "uebersetzung": {
+        "fa": "کنار گذاشتن",
+        "en": "to exclude"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + binden (بستن)",
+    "en": "ein- (in, into) + binden (to tie, to bind)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden/etwas in + Akk einbinden",
+        "bedeutung": "zu einem Teil von etwas machen",
+        "beispiel": "Die neue Funktion wurde in die App eingebunden.",
+        "uebersetzung": {
+          "fa": "قابلیت جدید در اپ گنجانده شد.",
+          "en": "The new feature was integrated into the app."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "einbinden",
+      "praeteritum": "band ein",
+      "partizip2": "eingebunden"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "binde ein",
+        "du": "bindest ein",
+        "er_sie_es": "bindet ein",
+        "wir": "binden ein",
+        "ihr": "bindet ein",
+        "sie_Sie": "binden ein"
+      },
+      "praeteritum": {
+        "ich": "band ein",
+        "du": "bandest ein",
+        "er_sie_es": "band ein",
+        "wir": "banden ein",
+        "ihr": "bandet ein",
+        "sie_Sie": "banden ein"
+      },
+      "konjunktiv1": {
+        "ich": "binde ein",
+        "du": "bindest ein",
+        "er_sie_es": "binde ein",
+        "wir": "binden ein",
+        "ihr": "bindet ein",
+        "sie_Sie": "binden ein"
+      },
+      "konjunktiv2": {
+        "ich": "bände ein",
+        "du": "bändest ein",
+        "er_sie_es": "bände ein",
+        "wir": "bänden ein",
+        "ihr": "bändet ein",
+        "sie_Sie": "bänden ein"
+      },
+      "imperativ": {
+        "du": "Binde ein!",
+        "ihr": "Bindet ein!",
+        "Sie": "Binden Sie ein!"
+      }
+    },
+    "partizip1": "einbindend",
+    "nominalisierung": "die Einbindung"
+  },
+  "wortnetz": {
+    "grundwort": "binden",
+    "woerter": [
+      {
+        "wort": "binden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بستن",
+          "en": "to tie"
+        },
+        "id_ref": "verb_binden"
+      },
+      {
+        "wort": "beteiligen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شریک کردن",
+          "en": "to involve"
+        },
+        "id_ref": "verb_beteiligen"
+      },
+      {
+        "wort": "integrieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ادغام کردن",
+          "en": "to integrate"
+        },
+        "id_ref": "verb_integrieren"
+      },
+      {
+        "wort": "ausschließen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کنار گذاشتن",
+          "en": "to exclude"
+        },
+        "id_ref": "verb_ausschliessen"
+      },
+      {
+        "wort": "die Einbindung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "گنجاندن، مشارکت",
+          "en": "integration"
+        },
+        "id_ref": "nomen_einbindung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

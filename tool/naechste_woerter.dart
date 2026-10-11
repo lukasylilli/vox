@@ -995,6 +995,9 @@ const zurueckgestellt = <String>{
   'ehebrechen', // zurückgestellt (Regel 14/16): fast nur im Infinitiv; Konjugation nicht fest 2026-10-11
   'einbacken', // zurückgestellt (Regel 14/16): selten; Präteritum schwankt (buk/backte) 2026-10-11
   'einbegreifen', // zurückgestellt (Regel 14/16): fast nur als Partizip «einbegriffen» 2026-10-11
+  'einbeißen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'einblasen', // zurückgestellt (Regel 14/16): selten; umgangssprachliche Bedeutung unsicher 2026-10-11
+  'eindreschen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

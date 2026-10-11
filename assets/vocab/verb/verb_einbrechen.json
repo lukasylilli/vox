@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_einbrechen",
+  "wort": "einbrechen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(به جایی برای دزدی) دستبرد زدن، وارد شدن",
+      "(یخ یا سقف) شکستن و فرو ریختن",
+      "(تاریکی یا زمستان) فرا رسیدن؛ (قیمت) سقوط کردن"
+    ],
+    "en": [
+      "to break in, to burgle",
+      "to collapse, to fall through (ice)",
+      "(night, winter) to set in; (prices) to slump"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Kriminalität",
+    "Wetter",
+    "Wirtschaft"
+  ],
+  "ipa": "ˈaɪ̯nˌbʁɛçn̩",
+  "anmerkung": "Meist mit «sein»; bei «in ein Haus einbrechen» auch «haben» möglich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Diebe sind in unser Haus eingebrochen.",
+      "uebersetzung": {
+        "fa": "دزدها به خانه‌مان دستبرد زدند.",
+        "en": "Thieves broke into our house."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Als die Nacht einbrach, waren die Wanderer noch immer nicht im Tal.",
+      "uebersetzung": {
+        "fa": "وقتی شب فرا رسید، کوهنوردها هنوز به دره نرسیده بودند.",
+        "en": "When night fell, the hikers were still not in the valley."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "eindringen",
+      "uebersetzung": {
+        "fa": "وارد شدن (به‌زور)",
+        "en": "to break in"
+      }
+    },
+    {
+      "wort": "einstürzen",
+      "uebersetzung": {
+        "fa": "فرو ریختن",
+        "en": "to collapse"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + brechen (شکستن)",
+    "en": "ein- (in, into) + brechen (to break)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in + Akk einbrechen",
+        "bedeutung": "gewaltsam in ein Gebäude eindringen",
+        "beispiel": "Unbekannte sind letzte Nacht in die Apotheke eingebrochen.",
+        "uebersetzung": {
+          "fa": "افراد ناشناس دیشب به داروخانه دستبرد زدند.",
+          "en": "Unknown persons broke into the pharmacy last night."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "einbrechen",
+      "praeteritum": "brach ein",
+      "partizip2": "eingebrochen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "breche ein",
+        "du": "brichst ein",
+        "er_sie_es": "bricht ein",
+        "wir": "brechen ein",
+        "ihr": "brecht ein",
+        "sie_Sie": "brechen ein"
+      },
+      "praeteritum": {
+        "ich": "brach ein",
+        "du": "brachst ein",
+        "er_sie_es": "brach ein",
+        "wir": "brachen ein",
+        "ihr": "bracht ein",
+        "sie_Sie": "brachen ein"
+      },
+      "konjunktiv1": {
+        "ich": "breche ein",
+        "du": "brechest ein",
+        "er_sie_es": "breche ein",
+        "wir": "brechen ein",
+        "ihr": "brechet ein",
+        "sie_Sie": "brechen ein"
+      },
+      "konjunktiv2": {
+        "ich": "bräche ein",
+        "du": "brächest ein",
+        "er_sie_es": "bräche ein",
+        "wir": "brächen ein",
+        "ihr": "brächet ein",
+        "sie_Sie": "brächen ein"
+      },
+      "imperativ": {
+        "du": "Brich ein!",
+        "ihr": "Brecht ein!",
+        "Sie": "Brechen Sie ein!"
+      }
+    },
+    "partizip1": "einbrechend",
+    "nominalisierung": "der Einbruch"
+  },
+  "wortnetz": {
+    "grundwort": "brechen",
+    "woerter": [
+      {
+        "wort": "brechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شکستن",
+          "en": "to break"
+        },
+        "id_ref": "verb_brechen"
+      },
+      {
+        "wort": "der Einbruch",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دستبرد، سرقت",
+          "en": "burglary"
+        },
+        "id_ref": "nomen_einbruch"
+      },
+      {
+        "wort": "der Einbrecher",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سارق",
+          "en": "burglar"
+        },
+        "id_ref": "nomen_einbrecher"
+      },
+      {
+        "wort": "der Dieb",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دزد",
+          "en": "thief"
+        },
+        "id_ref": "nomen_dieb"
+      },
+      {
+        "wort": "stehlen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دزدیدن",
+          "en": "to steal"
+        },
+        "id_ref": "verb_stehlen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

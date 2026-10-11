@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_einfahren",
+  "wort": "einfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(قطار و مانند آن) وارد ایستگاه شدن",
+      "(ماشین نو را) آب‌بندی کردن",
+      "(سود یا محصول) به دست آوردن"
+    ],
+    "en": [
+      "to pull in, to arrive (train)",
+      "to run in (a new car)",
+      "to bring in (profit, harvest)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Verkehr",
+    "Wirtschaft"
+  ],
+  "ipa": "ˈaɪ̯nˌfaːʁən",
+  "anmerkung": "Intransitiv mit «sein» (Der Zug ist eingefahren); transitiv mit «haben» (Gewinne eingefahren).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Zug fährt auf Gleis 3 ein.",
+      "uebersetzung": {
+        "fa": "قطار وارد سکوی ۳ می‌شود.",
+        "en": "The train is arriving at platform 3."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Firma hat im letzten Jahr hohe Gewinne eingefahren, obwohl die Wirtschaft schwach war.",
+      "uebersetzung": {
+        "fa": "شرکت پارسال سود زیادی به دست آورد، با اینکه وضع اقتصاد ضعیف بود.",
+        "en": "The company brought in high profits last year, although the economy was weak."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ankommen",
+      "uebersetzung": {
+        "fa": "رسیدن",
+        "en": "to arrive"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ausfahren",
+      "uebersetzung": {
+        "fa": "خارج شدن (قطار)",
+        "en": "to pull out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + fahren (رفتن (با وسیله‌ی نقلیه))",
+    "en": "ein- (in, into) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in + Akk einfahren",
+        "bedeutung": "in einen Ort hineinfahren",
+        "beispiel": "Das Schiff fährt langsam in den Hafen ein.",
+        "uebersetzung": {
+          "fa": "کشتی آرام وارد بندر می‌شود.",
+          "en": "The ship is slowly entering the harbour."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "einfahren",
+      "praeteritum": "fuhr ein",
+      "partizip2": "eingefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre ein",
+        "du": "fährst ein",
+        "er_sie_es": "fährt ein",
+        "wir": "fahren ein",
+        "ihr": "fahrt ein",
+        "sie_Sie": "fahren ein"
+      },
+      "praeteritum": {
+        "ich": "fuhr ein",
+        "du": "fuhrst ein",
+        "er_sie_es": "fuhr ein",
+        "wir": "fuhren ein",
+        "ihr": "fuhrt ein",
+        "sie_Sie": "fuhren ein"
+      },
+      "konjunktiv1": {
+        "ich": "fahre ein",
+        "du": "fahrest ein",
+        "er_sie_es": "fahre ein",
+        "wir": "fahren ein",
+        "ihr": "fahret ein",
+        "sie_Sie": "fahren ein"
+      },
+      "konjunktiv2": {
+        "ich": "führe ein",
+        "du": "führest ein",
+        "er_sie_es": "führe ein",
+        "wir": "führen ein",
+        "ihr": "führet ein",
+        "sie_Sie": "führen ein"
+      },
+      "imperativ": {
+        "du": "Fahr ein!",
+        "ihr": "Fahrt ein!",
+        "Sie": "Fahren Sie ein!"
+      }
+    },
+    "partizip1": "einfahrend",
+    "nominalisierung": "die Einfahrt"
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "die Einfahrt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ورودی (ماشین‌رو)",
+          "en": "entrance, driveway"
+        },
+        "id_ref": "nomen_einfahrt"
+      },
+      {
+        "wort": "ankommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رسیدن",
+          "en": "to arrive"
+        },
+        "id_ref": "verb_ankommen"
+      },
+      {
+        "wort": "der Bahnhof",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ایستگاه قطار",
+          "en": "station"
+        },
+        "id_ref": "nomen_bahnhof"
+      },
+      {
+        "wort": "das Gleis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سکو، ریل",
+          "en": "platform, track"
+        },
+        "id_ref": "nomen_gleis"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

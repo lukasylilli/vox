@@ -1,0 +1,194 @@
+{
+  "schema": "3.0",
+  "id": "verb_einfallen",
+  "wort": "einfallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به ذهن (کسی) رسیدن، یاد (کسی) آمدن",
+      "(ساختمان) فرو ریختن؛ (به کشوری) یورش بردن",
+      "(در آواز یا گفت‌وگو) همراه شدن"
+    ],
+    "en": [
+      "to occur to, to come to mind",
+      "to collapse; to invade",
+      "to join in (singing, talking)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Denken",
+    "Alltag"
+  ],
+  "ipa": "ˈaɪ̯nˌfalən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mir fällt sein Name nicht ein.",
+      "uebersetzung": {
+        "fa": "اسمش یادم نمی‌آید.",
+        "en": "I can't think of his name."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Mir ist gerade eingefallen, dass ich heute noch zur Apotheke muss.",
+      "uebersetzung": {
+        "fa": "همین الان یادم آمد که امروز هنوز باید به داروخانه بروم.",
+        "en": "It just occurred to me that I still have to go to the pharmacy today."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "in den Sinn kommen",
+      "uebersetzung": {
+        "fa": "به ذهن رسیدن",
+        "en": "to come to mind"
+      }
+    },
+    {
+      "wort": "sich erinnern",
+      "uebersetzung": {
+        "fa": "به یاد آوردن",
+        "en": "to remember"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "vergessen",
+      "uebersetzung": {
+        "fa": "فراموش کردن",
+        "en": "to forget"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + fallen (افتادن)",
+    "en": "ein- (in, into) + fallen (to fall)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem einfallen (+ Dat)",
+        "bedeutung": "jemandem in den Sinn kommen",
+        "beispiel": "Ihr fällt immer eine gute Ausrede ein.",
+        "uebersetzung": {
+          "fa": "همیشه یک بهانه‌ی خوب به ذهنش می‌رسد.",
+          "en": "She can always think of a good excuse."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "einfallen",
+      "praeteritum": "fiel ein",
+      "partizip2": "eingefallen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "falle ein",
+        "du": "fällst ein",
+        "er_sie_es": "fällt ein",
+        "wir": "fallen ein",
+        "ihr": "fallt ein",
+        "sie_Sie": "fallen ein"
+      },
+      "praeteritum": {
+        "ich": "fiel ein",
+        "du": "fielst ein",
+        "er_sie_es": "fiel ein",
+        "wir": "fielen ein",
+        "ihr": "fielt ein",
+        "sie_Sie": "fielen ein"
+      },
+      "konjunktiv1": {
+        "ich": "falle ein",
+        "du": "fallest ein",
+        "er_sie_es": "falle ein",
+        "wir": "fallen ein",
+        "ihr": "fallet ein",
+        "sie_Sie": "fallen ein"
+      },
+      "konjunktiv2": {
+        "ich": "fiele ein",
+        "du": "fielest ein",
+        "er_sie_es": "fiele ein",
+        "wir": "fielen ein",
+        "ihr": "fielet ein",
+        "sie_Sie": "fielen ein"
+      },
+      "imperativ": {
+        "du": "Fall ein!",
+        "ihr": "Fallt ein!",
+        "Sie": "Fallen Sie ein!"
+      }
+    },
+    "partizip1": "einfallend",
+    "nominalisierung": "der Einfall"
+  },
+  "wortnetz": {
+    "grundwort": "fallen",
+    "woerter": [
+      {
+        "wort": "fallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "افتادن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_fallen"
+      },
+      {
+        "wort": "der Einfall",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فکر ناگهانی، ایده",
+          "en": "idea, notion"
+        },
+        "id_ref": "nomen_einfall"
+      },
+      {
+        "wort": "sich erinnern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "به یاد آوردن",
+          "en": "to remember"
+        },
+        "id_ref": "verb_sich_erinnern"
+      },
+      {
+        "wort": "vergessen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فراموش کردن",
+          "en": "to forget"
+        },
+        "id_ref": "verb_vergessen"
+      },
+      {
+        "wort": "die Idee",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ایده",
+          "en": "idea"
+        },
+        "id_ref": "nomen_idee"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
