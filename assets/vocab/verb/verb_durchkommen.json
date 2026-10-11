@@ -1,0 +1,195 @@
+{
+  "schema": "3.0",
+  "id": "verb_durchkommen",
+  "wort": "durchkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "از جایی گذشتن، رد شدن",
+      "(در امتحان) قبول شدن؛ (از بیماری) جان سالم به در بردن",
+      "با (پول یا چیزی) سر کردن؛ (تلفنی) ارتباط برقرار کردن"
+    ],
+    "en": [
+      "to get through, to pass through",
+      "to pass (an exam); to survive",
+      "to get by (with); to get through (on the phone)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Lernen",
+    "Gesundheit"
+  ],
+  "ipa": "ˈdʊʁçˌkɔmən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Hier kommt kein Auto durch.",
+      "uebersetzung": {
+        "fa": "اینجا هیچ ماشینی نمی‌تواند رد شود.",
+        "en": "No car can get through here."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Obwohl er kaum gelernt hatte, ist er in der Prüfung durchgekommen.",
+      "uebersetzung": {
+        "fa": "با اینکه تقریباً درس نخوانده بود، در امتحان قبول شد.",
+        "en": "Although he had hardly studied, he passed the exam."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bestehen",
+      "uebersetzung": {
+        "fa": "قبول شدن (امتحان)",
+        "en": "to pass"
+      }
+    },
+    {
+      "wort": "überleben",
+      "uebersetzung": {
+        "fa": "زنده ماندن",
+        "en": "to survive"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "durchfallen",
+      "uebersetzung": {
+        "fa": "رد شدن (در امتحان)",
+        "en": "to fail"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "durch- (از میان) + kommen (آمدن)",
+    "en": "durch- (through) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit + Dat durchkommen",
+        "bedeutung": "mit etwas auskommen, es schaffen",
+        "beispiel": "Mit 500 Euro im Monat komme ich nicht durch.",
+        "uebersetzung": {
+          "fa": "با ماهی ۵۰۰ یورو نمی‌توانم سر کنم.",
+          "en": "I can't get by on 500 euros a month."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "durchkommen",
+      "praeteritum": "kam durch",
+      "partizip2": "durchgekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme durch",
+        "du": "kommst durch",
+        "er_sie_es": "kommt durch",
+        "wir": "kommen durch",
+        "ihr": "kommt durch",
+        "sie_Sie": "kommen durch"
+      },
+      "praeteritum": {
+        "ich": "kam durch",
+        "du": "kamst durch",
+        "er_sie_es": "kam durch",
+        "wir": "kamen durch",
+        "ihr": "kamt durch",
+        "sie_Sie": "kamen durch"
+      },
+      "konjunktiv1": {
+        "ich": "komme durch",
+        "du": "kommest durch",
+        "er_sie_es": "komme durch",
+        "wir": "kommen durch",
+        "ihr": "kommet durch",
+        "sie_Sie": "kommen durch"
+      },
+      "konjunktiv2": {
+        "ich": "käme durch",
+        "du": "kämest durch",
+        "er_sie_es": "käme durch",
+        "wir": "kämen durch",
+        "ihr": "kämet durch",
+        "sie_Sie": "kämen durch"
+      },
+      "imperativ": {
+        "du": "Komm durch!",
+        "ihr": "Kommt durch!",
+        "Sie": "Kommen Sie durch!"
+      }
+    },
+    "partizip1": "durchkommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "bestehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قبول شدن",
+          "en": "to pass"
+        },
+        "id_ref": "verb_bestehen"
+      },
+      {
+        "wort": "durchfallen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رد شدن",
+          "en": "to fail"
+        },
+        "id_ref": "verb_durchfallen"
+      },
+      {
+        "wort": "auskommen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سر کردن",
+          "en": "to get by"
+        },
+        "id_ref": "verb_auskommen"
+      },
+      {
+        "wort": "überleben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زنده ماندن",
+          "en": "to survive"
+        },
+        "id_ref": "verb_ueberleben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_einbehalten",
+  "wort": "einbehalten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(پول یا مدرکی را) نگه داشتن و پس ندادن، کسر کردن"
+    ],
+    "en": [
+      "to withhold, to retain, to deduct"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Finanzen",
+    "Arbeit"
+  ],
+  "ipa": "ˈaɪ̯nbəˌhaltn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Bank behält die Karte ein.",
+      "uebersetzung": {
+        "fa": "بانک کارت را ضبط می‌کند (پس نمی‌دهد).",
+        "en": "The bank retains the card."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil die Wohnung beschädigt war, hat der Vermieter einen Teil der Kaution einbehalten.",
+      "uebersetzung": {
+        "fa": "چون آپارتمان آسیب دیده بود، صاحب‌خانه بخشی از ودیعه را نگه داشت.",
+        "en": "Because the flat was damaged, the landlord withheld part of the deposit."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zurückbehalten",
+      "uebersetzung": {
+        "fa": "پیش خود نگه داشتن",
+        "en": "to retain"
+      }
+    },
+    {
+      "wort": "abziehen",
+      "uebersetzung": {
+        "fa": "کسر کردن",
+        "en": "to deduct"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "auszahlen",
+      "uebersetzung": {
+        "fa": "پرداخت کردن",
+        "en": "to pay out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + behalten (نگه داشتن)",
+    "en": "ein- (in) + behalten (to keep)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "einbehalten",
+      "praeteritum": "behielt ein",
+      "partizip2": "einbehalten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "behalte ein",
+        "du": "behältst ein",
+        "er_sie_es": "behält ein",
+        "wir": "behalten ein",
+        "ihr": "behaltet ein",
+        "sie_Sie": "behalten ein"
+      },
+      "praeteritum": {
+        "ich": "behielt ein",
+        "du": "behieltest ein",
+        "er_sie_es": "behielt ein",
+        "wir": "behielten ein",
+        "ihr": "behieltet ein",
+        "sie_Sie": "behielten ein"
+      },
+      "konjunktiv1": {
+        "ich": "behalte ein",
+        "du": "behaltest ein",
+        "er_sie_es": "behalte ein",
+        "wir": "behalten ein",
+        "ihr": "behaltet ein",
+        "sie_Sie": "behalten ein"
+      },
+      "konjunktiv2": {
+        "ich": "behielte ein",
+        "du": "behieltest ein",
+        "er_sie_es": "behielte ein",
+        "wir": "behielten ein",
+        "ihr": "behieltet ein",
+        "sie_Sie": "behielten ein"
+      },
+      "imperativ": {
+        "du": "Behalt ein!",
+        "ihr": "Behaltet ein!",
+        "Sie": "Behalten Sie ein!"
+      }
+    },
+    "partizip1": "einbehaltend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "behalten",
+    "woerter": [
+      {
+        "wort": "behalten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to keep"
+        },
+        "id_ref": "verb_behalten"
+      },
+      {
+        "wort": "die Kaution",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ودیعه",
+          "en": "deposit"
+        },
+        "id_ref": "nomen_kaution"
+      },
+      {
+        "wort": "der Lohn",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دستمزد",
+          "en": "wage"
+        },
+        "id_ref": "nomen_lohn"
+      },
+      {
+        "wort": "abziehen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کسر کردن",
+          "en": "to deduct"
+        },
+        "id_ref": "verb_abziehen"
+      },
+      {
+        "wort": "zurückgeben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پس دادن",
+          "en": "to give back"
+        },
+        "id_ref": "verb_zurueckgeben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

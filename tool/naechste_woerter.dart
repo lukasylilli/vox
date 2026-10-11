@@ -986,6 +986,15 @@ const zurueckgestellt = <String>{
   'durchgären', // zurückgestellt (Regel 14/16): selten (Fachsprache) 2026-10-11
   'durchgraben', // zurückgestellt (Regel 14/16): trennbar UND untrennbar mit verschiedener Bedeutung — Symbol nicht eindeutig 2026-10-11
   'durchhauen', // zurückgestellt (Regel 14/16): trennbar UND untrennbar; Präteritum schwankt (haute/hieb) 2026-10-11
+  'durchklingen', // zurückgestellt (Regel 14/16): trennbar UND untrennbar mit verschiedener Bedeutung — Symbol nicht eindeutig 2026-10-11
+  'durchkönnen', // zurückgestellt (Regel 14/16): umgangssprachlich; Modalverb-Kompositum, kein Imperativ 2026-10-11
+  'durchkriechen', // zurückgestellt (Regel 14/16): trennbar UND untrennbar mit verschiedener Bedeutung — Symbol nicht eindeutig 2026-10-11
+  'durchlaufen', // zurückgestellt (Regel 14/16): trennbar UND untrennbar mit verschiedener Bedeutung — Symbol nicht eindeutig 2026-10-11
+  'durchmahlen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'durchmüssen', // zurückgestellt (Regel 14/16): umgangssprachlich; Modalverb-Kompositum, kein Imperativ 2026-10-11
+  'ehebrechen', // zurückgestellt (Regel 14/16): fast nur im Infinitiv; Konjugation nicht fest 2026-10-11
+  'einbacken', // zurückgestellt (Regel 14/16): selten; Präteritum schwankt (buk/backte) 2026-10-11
+  'einbegreifen', // zurückgestellt (Regel 14/16): fast nur als Partizip «einbegriffen» 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

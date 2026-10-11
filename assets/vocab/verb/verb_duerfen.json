@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_duerfen",
+  "wort": "dürfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اجازه داشتن، مجاز بودن",
+      "(در نفی) نباید",
+      "(dürfte) احتمالاً"
+    ],
+    "en": [
+      "to be allowed to, may",
+      "(negated) must not",
+      "(dürfte) probably"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Grammatik"
+  ],
+  "ipa": "ˈdʏʁfn̩",
+  "anmerkung": "Modalverb: kein Imperativ. Partizip II «gedurft» nur als Vollverb; mit Infinitiv Ersatzinfinitiv («Er hat kommen dürfen»).",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Darf ich hier rauchen?",
+      "uebersetzung": {
+        "fa": "اجازه دارم اینجا سیگار بکشم؟",
+        "en": "May I smoke here?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Ärztin sagt, dass ich nach der Operation drei Tage nichts essen darf.",
+      "uebersetzung": {
+        "fa": "پزشک می‌گوید که بعد از عمل سه روز نباید چیزی بخورم.",
+        "en": "The doctor says that I must not eat anything for three days after the operation."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "können",
+      "uebersetzung": {
+        "fa": "توانستن؛ (محاوره) اجازه داشتن",
+        "en": "can, may"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "müssen",
+      "uebersetzung": {
+        "fa": "مجبور بودن",
+        "en": "to have to"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "dürfen",
+      "praeteritum": "durfte",
+      "partizip2": "gedurft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "darf",
+        "du": "darfst",
+        "er_sie_es": "darf",
+        "wir": "dürfen",
+        "ihr": "dürft",
+        "sie_Sie": "dürfen"
+      },
+      "praeteritum": {
+        "ich": "durfte",
+        "du": "durftest",
+        "er_sie_es": "durfte",
+        "wir": "durften",
+        "ihr": "durftet",
+        "sie_Sie": "durften"
+      },
+      "konjunktiv1": {
+        "ich": "dürfe",
+        "du": "dürfest",
+        "er_sie_es": "dürfe",
+        "wir": "dürfen",
+        "ihr": "dürfet",
+        "sie_Sie": "dürfen"
+      },
+      "konjunktiv2": {
+        "ich": "dürfte",
+        "du": "dürftest",
+        "er_sie_es": "dürfte",
+        "wir": "dürften",
+        "ihr": "dürftet",
+        "sie_Sie": "dürften"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "dürfend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "können",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "توانستن",
+          "en": "can"
+        },
+        "id_ref": "verb_koennen"
+      },
+      {
+        "wort": "müssen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مجبور بودن",
+          "en": "must"
+        },
+        "id_ref": "verb_muessen"
+      },
+      {
+        "wort": "erlauben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اجازه دادن",
+          "en": "to allow"
+        },
+        "id_ref": "verb_erlauben"
+      },
+      {
+        "wort": "verbieten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ممنوع کردن",
+          "en": "to forbid"
+        },
+        "id_ref": "verb_verbieten"
+      },
+      {
+        "wort": "die Erlaubnis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اجازه",
+          "en": "permission"
+        },
+        "id_ref": "nomen_erlaubnis"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,167 @@
+{
+  "schema": "3.0",
+  "id": "verb_durchliegen",
+  "wort": "durchliegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(sich durchliegen) زخم بستر گرفتن (از دراز کشیدن طولانی)",
+      "(تشک را) از بس رویش خوابیده‌اند گود کردن"
+    ],
+    "en": [
+      "(sich) to get bedsores",
+      "to wear out (a mattress) by lying on it"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gesundheit",
+    "Pflege"
+  ],
+  "ipa": "ˈdʊʁçˌliːɡn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die alte Matratze ist ganz durchgelegen.",
+      "uebersetzung": {
+        "fa": "تشک قدیمی از بس رویش خوابیده‌اند کاملاً گود شده است.",
+        "en": "The old mattress is completely worn out."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Damit sich bettlägerige Patienten nicht durchliegen, werden sie regelmäßig umgelagert.",
+      "uebersetzung": {
+        "fa": "برای اینکه بیماران بستری زخم بستر نگیرند، مرتب جابه‌جایشان می‌کنند.",
+        "en": "So that bedridden patients do not get bedsores, they are repositioned regularly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich wundliegen",
+      "uebersetzung": {
+        "fa": "زخم بستر گرفتن",
+        "en": "to get bedsores"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "durch- (از میان) + liegen (دراز کشیدن)",
+    "en": "durch- (through) + liegen (to lie)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "durchliegen",
+      "praeteritum": "lag durch",
+      "partizip2": "durchgelegen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "liege durch",
+        "du": "liegst durch",
+        "er_sie_es": "liegt durch",
+        "wir": "liegen durch",
+        "ihr": "liegt durch",
+        "sie_Sie": "liegen durch"
+      },
+      "praeteritum": {
+        "ich": "lag durch",
+        "du": "lagst durch",
+        "er_sie_es": "lag durch",
+        "wir": "lagen durch",
+        "ihr": "lagt durch",
+        "sie_Sie": "lagen durch"
+      },
+      "konjunktiv1": {
+        "ich": "liege durch",
+        "du": "liegest durch",
+        "er_sie_es": "liege durch",
+        "wir": "liegen durch",
+        "ihr": "lieget durch",
+        "sie_Sie": "liegen durch"
+      },
+      "konjunktiv2": {
+        "ich": "läge durch",
+        "du": "lägest durch",
+        "er_sie_es": "läge durch",
+        "wir": "lägen durch",
+        "ihr": "läget durch",
+        "sie_Sie": "lägen durch"
+      },
+      "imperativ": {
+        "du": "Lieg durch!",
+        "ihr": "Liegt durch!",
+        "Sie": "Liegen Sie durch!"
+      }
+    },
+    "partizip1": "durchliegend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "liegen",
+    "woerter": [
+      {
+        "wort": "liegen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دراز کشیدن",
+          "en": "to lie"
+        },
+        "id_ref": "verb_liegen"
+      },
+      {
+        "wort": "der Dekubitus",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "زخم بستر",
+          "en": "pressure ulcer"
+        },
+        "id_ref": "nomen_dekubitus"
+      },
+      {
+        "wort": "bettlägerig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بستری، زمین‌گیر",
+          "en": "bedridden"
+        },
+        "id_ref": "adjektiv_bettlaegerig"
+      },
+      {
+        "wort": "umlagern",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "جابه‌جا کردن (بیمار)",
+          "en": "to reposition"
+        },
+        "id_ref": "verb_umlagern"
+      },
+      {
+        "wort": "die Matratze",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تشک",
+          "en": "mattress"
+        },
+        "id_ref": "nomen_matratze"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

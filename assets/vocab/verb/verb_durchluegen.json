@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_durchluegen",
+  "wort": "durchlügen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(sich durchlügen) با دروغ گفتن از پس (کاری یا وضعی) برآمدن"
+    ],
+    "en": [
+      "(sich) to lie one's way through"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gesellschaft",
+    "Moral"
+  ],
+  "ipa": "ˈdʊʁçˌlyːɡn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er lügt sich immer durch.",
+      "uebersetzung": {
+        "fa": "او همیشه با دروغ کارش را پیش می‌برد.",
+        "en": "He always lies his way through."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Jahrelang hat sie sich durchgelogen, bis die Wahrheit ans Licht kam.",
+      "uebersetzung": {
+        "fa": "سال‌ها با دروغ کارش را پیش برد تا اینکه حقیقت آشکار شد.",
+        "en": "For years she lied her way through until the truth came out."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich durchmogeln",
+      "uebersetzung": {
+        "fa": "با کلک از پس کاری برآمدن",
+        "en": "to wangle one's way through"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "durch- (از میان) + lügen (دروغ گفتن)",
+    "en": "durch- (through) + lügen (to lie)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich durch + Akk durchlügen",
+        "bedeutung": "mit Lügen eine Situation bewältigen",
+        "beispiel": "Er hat sich durch das ganze Vorstellungsgespräch durchgelogen.",
+        "uebersetzung": {
+          "fa": "او با دروغ مصاحبه‌ی کاری را پشت سر گذاشت.",
+          "en": "He lied his way through the job interview."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "durchlügen",
+      "praeteritum": "log durch",
+      "partizip2": "durchgelogen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lüge durch",
+        "du": "lügst durch",
+        "er_sie_es": "lügt durch",
+        "wir": "lügen durch",
+        "ihr": "lügt durch",
+        "sie_Sie": "lügen durch"
+      },
+      "praeteritum": {
+        "ich": "log durch",
+        "du": "logst durch",
+        "er_sie_es": "log durch",
+        "wir": "logen durch",
+        "ihr": "logt durch",
+        "sie_Sie": "logen durch"
+      },
+      "konjunktiv1": {
+        "ich": "lüge durch",
+        "du": "lügest durch",
+        "er_sie_es": "lüge durch",
+        "wir": "lügen durch",
+        "ihr": "lüget durch",
+        "sie_Sie": "lügen durch"
+      },
+      "konjunktiv2": {
+        "ich": "löge durch",
+        "du": "lögest durch",
+        "er_sie_es": "löge durch",
+        "wir": "lögen durch",
+        "ihr": "löget durch",
+        "sie_Sie": "lögen durch"
+      },
+      "imperativ": {
+        "du": "Lüg durch!",
+        "ihr": "Lügt durch!",
+        "Sie": "Lügen Sie durch!"
+      }
+    },
+    "partizip1": "durchlügend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "lügen",
+    "woerter": [
+      {
+        "wort": "lügen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دروغ گفتن",
+          "en": "to lie"
+        },
+        "id_ref": "verb_luegen"
+      },
+      {
+        "wort": "die Lüge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دروغ",
+          "en": "lie"
+        },
+        "id_ref": "nomen_luege"
+      },
+      {
+        "wort": "der Lügner",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دروغگو",
+          "en": "liar"
+        },
+        "id_ref": "nomen_luegner"
+      },
+      {
+        "wort": "die Wahrheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حقیقت",
+          "en": "truth"
+        },
+        "id_ref": "nomen_wahrheit"
+      },
+      {
+        "wort": "ehrlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صادق",
+          "en": "honest"
+        },
+        "id_ref": "adjektiv_ehrlich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
