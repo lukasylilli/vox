@@ -1,0 +1,213 @@
+{
+  "schema": "3.0",
+  "id": "verb_aufgeben",
+  "wort": "aufgeben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دست کشیدن، تسلیم شدن",
+      "ترک کردن (عادت)",
+      "پست کردن (بسته)",
+      "ثبت کردن (سفارش، آگهی)"
+    ],
+    "en": [
+      "to give up",
+      "to quit",
+      "to post (a parcel)",
+      "to place (an order, an ad)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Post",
+    "Gefühle"
+  ],
+  "ipa": "ˈaʊ̯fˌɡeːbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich gebe nicht auf!",
+      "uebersetzung": {
+        "fa": "من تسلیم نمی‌شوم!",
+        "en": "I won't give up!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Er hat das Rauchen aufgegeben, weil sein Arzt ihn gewarnt hatte.",
+      "uebersetzung": {
+        "fa": "او سیگار را ترک کرد، چون پزشکش به او هشدار داده بود.",
+        "en": "He gave up smoking because his doctor had warned him."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufhören",
+      "uebersetzung": {
+        "fa": "دست کشیدن",
+        "en": "to stop"
+      }
+    },
+    {
+      "wort": "kapitulieren",
+      "uebersetzung": {
+        "fa": "تسلیم شدن",
+        "en": "to capitulate"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "durchhalten",
+      "uebersetzung": {
+        "fa": "تاب آوردن، ادامه دادن",
+        "en": "to hold out"
+      }
+    },
+    {
+      "wort": "weitermachen",
+      "uebersetzung": {
+        "fa": "ادامه دادن",
+        "en": "to carry on"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auf- (پیشوند) + geben (دادن)",
+    "en": "auf- (prefix) + geben (to give)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas aufgeben",
+        "bedeutung": "mit etwas aufhören, auf etwas verzichten — mit Akkusativ",
+        "beispiel": "Sie hat ihren Job aufgegeben.",
+        "uebersetzung": {
+          "fa": "او کارش را رها کرد.",
+          "en": "She gave up her job."
+        }
+      },
+      {
+        "muster": "ein Paket / einen Brief aufgeben",
+        "bedeutung": "bei der Post zum Versand abgeben — mit Akkusativ",
+        "beispiel": "Ich muss heute noch ein Paket aufgeben.",
+        "uebersetzung": {
+          "fa": "امروز باید یک بسته پست کنم.",
+          "en": "I still have to post a parcel today."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "aufgeben",
+      "praeteritum": "gab auf",
+      "partizip2": "aufgegeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gebe auf",
+        "du": "gibst auf",
+        "er_sie_es": "gibt auf",
+        "wir": "geben auf",
+        "ihr": "gebt auf",
+        "sie_Sie": "geben auf"
+      },
+      "praeteritum": {
+        "ich": "gab auf",
+        "du": "gabst auf",
+        "er_sie_es": "gab auf",
+        "wir": "gaben auf",
+        "ihr": "gabt auf",
+        "sie_Sie": "gaben auf"
+      },
+      "konjunktiv1": {
+        "ich": "gebe auf",
+        "du": "gebest auf",
+        "er_sie_es": "gebe auf",
+        "wir": "geben auf",
+        "ihr": "gebet auf",
+        "sie_Sie": "geben auf"
+      },
+      "konjunktiv2": {
+        "ich": "gäbe auf",
+        "du": "gäbest auf",
+        "er_sie_es": "gäbe auf",
+        "wir": "gäben auf",
+        "ihr": "gäbet auf",
+        "sie_Sie": "gäben auf"
+      },
+      "imperativ": {
+        "du": "Gib auf!",
+        "ihr": "Gebt auf!",
+        "Sie": "Geben Sie auf!"
+      }
+    },
+    "partizip1": "aufgebend",
+    "nominalisierung": "die Aufgabe"
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "die Aufgabe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تکلیف، وظیفه",
+          "en": "task"
+        },
+        "id_ref": "nomen_aufgabe"
+      },
+      {
+        "wort": "das Paket",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بسته",
+          "en": "parcel"
+        },
+        "id_ref": "nomen_paket"
+      },
+      {
+        "wort": "aufhören",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دست کشیدن",
+          "en": "to stop"
+        },
+        "id_ref": "verb_aufhoeren"
+      },
+      {
+        "wort": "durchhalten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تاب آوردن",
+          "en": "to hold out"
+        },
+        "id_ref": "verb_durchhalten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

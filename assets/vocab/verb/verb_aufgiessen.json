@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_aufgiessen",
+  "wort": "aufgießen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دم کردن (چای، قهوه با آب جوش)",
+      "آب ریختن روی چیزی"
+    ],
+    "en": [
+      "to brew (by pouring on water)",
+      "to pour on"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Essen",
+    "Trinken"
+  ],
+  "ipa": "ˈaʊ̯fˌɡiːsn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich gieße den Tee mit heißem Wasser auf.",
+      "uebersetzung": {
+        "fa": "چای را با آب داغ دم می‌کنم.",
+        "en": "I brew the tea with hot water."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem sie den Kaffee aufgegossen hatte, ließ sie ihn vier Minuten ziehen.",
+      "uebersetzung": {
+        "fa": "بعد از این‌که قهوه را دم کرد، گذاشت چهار دقیقه دم بکشد.",
+        "en": "After she had poured water on the coffee, she let it steep for four minutes."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufbrühen",
+      "uebersetzung": {
+        "fa": "دم کردن",
+        "en": "to brew"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auf- (پیشوند: روی) + gießen (ریختن)",
+    "en": "auf- (prefix: onto) + gießen (to pour)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas aufgießen",
+        "bedeutung": "etwas mit heißem Wasser übergießen — mit Akkusativ",
+        "beispiel": "Kannst du bitte den Tee aufgießen?",
+        "uebersetzung": {
+          "fa": "می‌شود لطفاً چای را دم کنی؟",
+          "en": "Could you please make the tea?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "aufgießen",
+      "praeteritum": "goss auf",
+      "partizip2": "aufgegossen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gieße auf",
+        "du": "gießt auf",
+        "er_sie_es": "gießt auf",
+        "wir": "gießen auf",
+        "ihr": "gießt auf",
+        "sie_Sie": "gießen auf"
+      },
+      "praeteritum": {
+        "ich": "goss auf",
+        "du": "gossest auf",
+        "er_sie_es": "goss auf",
+        "wir": "gossen auf",
+        "ihr": "gosst auf",
+        "sie_Sie": "gossen auf"
+      },
+      "konjunktiv1": {
+        "ich": "gieße auf",
+        "du": "gießest auf",
+        "er_sie_es": "gieße auf",
+        "wir": "gießen auf",
+        "ihr": "gießet auf",
+        "sie_Sie": "gießen auf"
+      },
+      "konjunktiv2": {
+        "ich": "gösse auf",
+        "du": "gössest auf",
+        "er_sie_es": "gösse auf",
+        "wir": "gössen auf",
+        "ihr": "gösset auf",
+        "sie_Sie": "gössen auf"
+      },
+      "imperativ": {
+        "du": "Gieß auf!",
+        "ihr": "Gießt auf!",
+        "Sie": "Gießen Sie auf!"
+      }
+    },
+    "partizip1": "aufgießend",
+    "nominalisierung": "der Aufguss"
+  },
+  "wortnetz": {
+    "grundwort": "gießen",
+    "woerter": [
+      {
+        "wort": "der Tee",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چای",
+          "en": "tea"
+        },
+        "id_ref": "nomen_tee"
+      },
+      {
+        "wort": "der Kaffee",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قهوه",
+          "en": "coffee"
+        },
+        "id_ref": "nomen_kaffee"
+      },
+      {
+        "wort": "kochen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جوشاندن، پختن",
+          "en": "to boil, to cook"
+        },
+        "id_ref": "verb_kochen"
+      },
+      {
+        "wort": "gießen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریختن، آب دادن",
+          "en": "to pour, to water"
+        },
+        "id_ref": "verb_giessen"
+      },
+      {
+        "wort": "der Aufguss",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دم‌کرده؛ آب‌پاشی سونا",
+          "en": "infusion"
+        },
+        "id_ref": "nomen_aufguss"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

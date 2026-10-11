@@ -1,0 +1,207 @@
+{
+  "schema": "3.0",
+  "id": "verb_aufgehen",
+  "wort": "aufgehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "طلوع کردن (خورشید)",
+      "باز شدن",
+      "ور آمدن (خمیر)",
+      "درست درآمدن (حساب)",
+      "روشن شدن (برای کسی)"
+    ],
+    "en": [
+      "to rise",
+      "to open",
+      "to rise (dough)",
+      "to work out",
+      "to dawn on"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Natur",
+    "Alltag"
+  ],
+  "ipa": "ˈaʊ̯fˌɡeːən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Sonne geht um sechs Uhr auf.",
+      "uebersetzung": {
+        "fa": "خورشید ساعت شش طلوع می‌کند.",
+        "en": "The sun rises at six o'clock."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Erst als ich den Brief noch einmal las, ging mir auf, was sie wirklich meinte.",
+      "uebersetzung": {
+        "fa": "تازه وقتی نامه را دوباره خواندم، فهمیدم واقعاً منظورش چه بود.",
+        "en": "Only when I read the letter again did it dawn on me what she really meant."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich öffnen",
+      "uebersetzung": {
+        "fa": "باز شدن",
+        "en": "to open"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "untergehen",
+      "uebersetzung": {
+        "fa": "غروب کردن",
+        "en": "to set"
+      }
+    },
+    {
+      "wort": "zugehen",
+      "uebersetzung": {
+        "fa": "بسته شدن",
+        "en": "to close"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auf- (پیشوند: بالا، باز) + gehen (رفتن)",
+    "en": "auf- (prefix: up, open) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem aufgehen",
+        "bedeutung": "jemandem klar werden — mit Dativ",
+        "beispiel": "Plötzlich ging ihm auf, dass er den Termin vergessen hatte.",
+        "uebersetzung": {
+          "fa": "ناگهان فهمید که قرار را فراموش کرده است.",
+          "en": "Suddenly it dawned on him that he had forgotten the appointment."
+        }
+      },
+      {
+        "muster": "in etwas aufgehen (in + Dat)",
+        "bedeutung": "sich ganz einer Sache widmen",
+        "beispiel": "Sie geht ganz in ihrer Arbeit auf.",
+        "uebersetzung": {
+          "fa": "او کاملاً غرق کارش است.",
+          "en": "She is completely absorbed in her work."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "aufgehen",
+      "praeteritum": "ging auf",
+      "partizip2": "aufgegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe auf",
+        "du": "gehst auf",
+        "er_sie_es": "geht auf",
+        "wir": "gehen auf",
+        "ihr": "geht auf",
+        "sie_Sie": "gehen auf"
+      },
+      "praeteritum": {
+        "ich": "ging auf",
+        "du": "gingst auf",
+        "er_sie_es": "ging auf",
+        "wir": "gingen auf",
+        "ihr": "gingt auf",
+        "sie_Sie": "gingen auf"
+      },
+      "konjunktiv1": {
+        "ich": "gehe auf",
+        "du": "gehest auf",
+        "er_sie_es": "gehe auf",
+        "wir": "gehen auf",
+        "ihr": "gehet auf",
+        "sie_Sie": "gehen auf"
+      },
+      "konjunktiv2": {
+        "ich": "ginge auf",
+        "du": "gingest auf",
+        "er_sie_es": "ginge auf",
+        "wir": "gingen auf",
+        "ihr": "ginget auf",
+        "sie_Sie": "gingen auf"
+      },
+      "imperativ": {
+        "du": "Geh auf!",
+        "ihr": "Geht auf!",
+        "Sie": "Gehen Sie auf!"
+      }
+    },
+    "partizip1": "aufgehend",
+    "nominalisierung": "der Aufgang"
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "öffnen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باز کردن",
+          "en": "to open"
+        },
+        "id_ref": "verb_oeffnen"
+      },
+      {
+        "wort": "der Sonnenaufgang",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "طلوع خورشید",
+          "en": "sunrise"
+        },
+        "id_ref": "nomen_sonnenaufgang"
+      },
+      {
+        "wort": "untergehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "غروب کردن، غرق شدن",
+          "en": "to set, to sink"
+        },
+        "id_ref": "verb_untergehen"
+      },
+      {
+        "wort": "der Teig",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خمیر",
+          "en": "dough"
+        },
+        "id_ref": "nomen_teig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

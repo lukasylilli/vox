@@ -1,0 +1,193 @@
+{
+  "schema": "3.0",
+  "id": "verb_auffinden",
+  "wort": "auffinden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پیدا کردن (پس از جست‌وجو)",
+      "یافتن"
+    ],
+    "en": [
+      "to find",
+      "to locate",
+      "to discover"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag",
+    "Polizei"
+  ],
+  "ipa": "ˈaʊ̯fˌfɪndn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Polizei findet das Auto im Wald auf.",
+      "uebersetzung": {
+        "fa": "پلیس ماشین را در جنگل پیدا می‌کند.",
+        "en": "The police find the car in the forest."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Schlüssel wurde erst Wochen später aufgefunden, als man die Wohnung renovierte.",
+      "uebersetzung": {
+        "fa": "کلید تازه چند هفته بعد پیدا شد، وقتی آپارتمان را بازسازی می‌کردند.",
+        "en": "The key was only found weeks later, when the flat was being renovated."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "finden",
+      "uebersetzung": {
+        "fa": "پیدا کردن",
+        "en": "to find"
+      }
+    },
+    {
+      "wort": "entdecken",
+      "uebersetzung": {
+        "fa": "کشف کردن",
+        "en": "to discover"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verlieren",
+      "uebersetzung": {
+        "fa": "گم کردن",
+        "en": "to lose"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auf- (پیشوند: آشکار، بالا) + finden (پیدا کردن)",
+    "en": "auf- (prefix: up, into view) + finden (to find)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas auffinden",
+        "bedeutung": "etwas (nach längerer Suche) finden — mit Akkusativ",
+        "beispiel": "Man hat die vermissten Dokumente im Archiv aufgefunden.",
+        "uebersetzung": {
+          "fa": "مدارک گمشده را در بایگانی پیدا کرده‌اند.",
+          "en": "The missing documents have been found in the archive."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "auffinden",
+      "praeteritum": "fand auf",
+      "partizip2": "aufgefunden"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "finde auf",
+        "du": "findest auf",
+        "er_sie_es": "findet auf",
+        "wir": "finden auf",
+        "ihr": "findet auf",
+        "sie_Sie": "finden auf"
+      },
+      "praeteritum": {
+        "ich": "fand auf",
+        "du": "fandest auf",
+        "er_sie_es": "fand auf",
+        "wir": "fanden auf",
+        "ihr": "fandet auf",
+        "sie_Sie": "fanden auf"
+      },
+      "konjunktiv1": {
+        "ich": "finde auf",
+        "du": "findest auf",
+        "er_sie_es": "finde auf",
+        "wir": "finden auf",
+        "ihr": "findet auf",
+        "sie_Sie": "finden auf"
+      },
+      "konjunktiv2": {
+        "ich": "fände auf",
+        "du": "fändest auf",
+        "er_sie_es": "fände auf",
+        "wir": "fänden auf",
+        "ihr": "fändet auf",
+        "sie_Sie": "fänden auf"
+      },
+      "imperativ": {
+        "du": "Finde auf!",
+        "ihr": "Findet auf!",
+        "Sie": "Finden Sie auf!"
+      }
+    },
+    "partizip1": "auffindend",
+    "nominalisierung": "die Auffindung"
+  },
+  "wortnetz": {
+    "grundwort": "finden",
+    "woerter": [
+      {
+        "wort": "finden",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پیدا کردن",
+          "en": "to find"
+        },
+        "id_ref": "verb_finden"
+      },
+      {
+        "wort": "die Suche",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جست‌وجو",
+          "en": "search"
+        },
+        "id_ref": "nomen_suche"
+      },
+      {
+        "wort": "entdecken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کشف کردن",
+          "en": "to discover"
+        },
+        "id_ref": "verb_entdecken"
+      },
+      {
+        "wort": "der Fund",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "یافته",
+          "en": "find"
+        },
+        "id_ref": "nomen_fund"
+      },
+      {
+        "wort": "auffindbar",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "قابل پیدا کردن",
+          "en": "findable"
+        },
+        "id_ref": "adjektiv_auffindbar"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

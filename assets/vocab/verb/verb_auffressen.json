@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_auffressen",
+  "wort": "auffressen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کامل خوردن (حیوان)",
+      "بلعیدن",
+      "از پا درآوردن (کار، نگرانی)"
+    ],
+    "en": [
+      "to eat up",
+      "to devour",
+      "to consume (fig.)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Tiere",
+    "Essen"
+  ],
+  "ipa": "ˈaʊ̯fˌfʁɛsn̩",
+  "anmerkung": "bei Menschen umgangssprachlich/abwertend",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hund frisst sein Futter auf.",
+      "uebersetzung": {
+        "fa": "سگ غذایش را کامل می‌خورد.",
+        "en": "The dog eats up its food."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Arbeit hat ihn so aufgefressen, dass er kaum noch Zeit für seine Familie hatte.",
+      "uebersetzung": {
+        "fa": "کار آن‌قدر او را از پا درآورده بود که دیگر تقریباً وقتی برای خانواده‌اش نداشت.",
+        "en": "Work had consumed him so much that he hardly had any time left for his family."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verschlingen",
+      "uebersetzung": {
+        "fa": "بلعیدن",
+        "en": "to devour"
+      }
+    },
+    {
+      "wort": "aufessen",
+      "uebersetzung": {
+        "fa": "کامل خوردن",
+        "en": "to eat up"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auf- (پیشوند: تا آخر) + fressen (خوردن حیوان)",
+    "en": "auf- (prefix: completely) + fressen (to eat, of animals)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas/jemanden auffressen",
+        "bedeutung": "etwas vollständig fressen — mit Akkusativ",
+        "beispiel": "Die Katze hat die Maus aufgefressen.",
+        "uebersetzung": {
+          "fa": "گربه موش را خورد.",
+          "en": "The cat ate up the mouse."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "auffressen",
+      "praeteritum": "fraß auf",
+      "partizip2": "aufgefressen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fresse auf",
+        "du": "frisst auf",
+        "er_sie_es": "frisst auf",
+        "wir": "fressen auf",
+        "ihr": "fresst auf",
+        "sie_Sie": "fressen auf"
+      },
+      "praeteritum": {
+        "ich": "fraß auf",
+        "du": "fraßest auf",
+        "er_sie_es": "fraß auf",
+        "wir": "fraßen auf",
+        "ihr": "fraßt auf",
+        "sie_Sie": "fraßen auf"
+      },
+      "konjunktiv1": {
+        "ich": "fresse auf",
+        "du": "fressest auf",
+        "er_sie_es": "fresse auf",
+        "wir": "fressen auf",
+        "ihr": "fresset auf",
+        "sie_Sie": "fressen auf"
+      },
+      "konjunktiv2": {
+        "ich": "fräße auf",
+        "du": "fräßest auf",
+        "er_sie_es": "fräße auf",
+        "wir": "fräßen auf",
+        "ihr": "fräßet auf",
+        "sie_Sie": "fräßen auf"
+      },
+      "imperativ": {
+        "du": "Friss auf!",
+        "ihr": "Fresst auf!",
+        "Sie": "Fressen Sie auf!"
+      }
+    },
+    "partizip1": "auffressend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fressen",
+    "woerter": [
+      {
+        "wort": "das Tier",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حیوان",
+          "en": "animal"
+        },
+        "id_ref": "nomen_tier"
+      },
+      {
+        "wort": "aufessen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کامل خوردن",
+          "en": "to eat up"
+        },
+        "id_ref": "verb_aufessen"
+      },
+      {
+        "wort": "fressen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خوردن (حیوان)",
+          "en": "to eat (animals)"
+        },
+        "id_ref": "verb_fressen"
+      },
+      {
+        "wort": "das Futter",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "غذای حیوان",
+          "en": "animal food"
+        },
+        "id_ref": "nomen_futter"
+      },
+      {
+        "wort": "verschlingen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بلعیدن",
+          "en": "to devour"
+        },
+        "id_ref": "verb_verschlingen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

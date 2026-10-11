@@ -862,6 +862,8 @@ const zurueckgestellt = <String>{
   'aufbersten', // zurückgestellt (Regel 14): selten, gehoben 2026-10-11
   'aufbrennen', // zurückgestellt (Regel 14): selten, Bedeutung schwankend 2026-10-11
   'aufdringen', // zurückgestellt (Regel 14): veraltet (heute nur «aufdrängen», «aufdringlich») 2026-10-11
+  'aufgleiten', // zurückgestellt (Regel 14): selten, Bedeutung/Gebrauch nicht sicher belegt 2026-10-11
+  'aufglimmen', // zurückgestellt (Regel 14/16): Stammformen schwanken (glomm/glimmte) ⇒ «regelmaessig» nicht sicher 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

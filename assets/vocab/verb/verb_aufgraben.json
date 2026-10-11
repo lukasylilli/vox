@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_aufgraben",
+  "wort": "aufgraben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کندن و باز کردن (زمین، خیابان)",
+      "از زیر خاک بیرون آوردن"
+    ],
+    "en": [
+      "to dig up",
+      "to dig open"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Bauen",
+    "Garten"
+  ],
+  "ipa": "ˈaʊ̯fˌɡʁaːbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Arbeiter graben die Straße auf.",
+      "uebersetzung": {
+        "fa": "کارگرها خیابان را می‌کنند.",
+        "en": "The workers are digging up the street."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil ein Rohr kaputt war, musste der ganze Garten aufgegraben werden.",
+      "uebersetzung": {
+        "fa": "چون یک لوله خراب بود، باید کل باغ کنده می‌شد.",
+        "en": "Because a pipe was broken, the whole garden had to be dug up."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufreißen",
+      "uebersetzung": {
+        "fa": "کندن (خیابان)",
+        "en": "to tear up"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zuschütten",
+      "uebersetzung": {
+        "fa": "با خاک پر کردن",
+        "en": "to fill in"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auf- (پیشوند: باز) + graben (کندن)",
+    "en": "auf- (prefix: open) + graben (to dig)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas aufgraben",
+        "bedeutung": "durch Graben öffnen — mit Akkusativ",
+        "beispiel": "Man hat den Boden aufgegraben, um die Leitung zu finden.",
+        "uebersetzung": {
+          "fa": "زمین را کندند تا لوله را پیدا کنند.",
+          "en": "They dug up the ground to find the pipe."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "aufgraben",
+      "praeteritum": "grub auf",
+      "partizip2": "aufgegraben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "grabe auf",
+        "du": "gräbst auf",
+        "er_sie_es": "gräbt auf",
+        "wir": "graben auf",
+        "ihr": "grabt auf",
+        "sie_Sie": "graben auf"
+      },
+      "praeteritum": {
+        "ich": "grub auf",
+        "du": "grubst auf",
+        "er_sie_es": "grub auf",
+        "wir": "gruben auf",
+        "ihr": "grubt auf",
+        "sie_Sie": "gruben auf"
+      },
+      "konjunktiv1": {
+        "ich": "grabe auf",
+        "du": "grabest auf",
+        "er_sie_es": "grabe auf",
+        "wir": "graben auf",
+        "ihr": "grabet auf",
+        "sie_Sie": "graben auf"
+      },
+      "konjunktiv2": {
+        "ich": "grübe auf",
+        "du": "grübest auf",
+        "er_sie_es": "grübe auf",
+        "wir": "grüben auf",
+        "ihr": "grübet auf",
+        "sie_Sie": "grüben auf"
+      },
+      "imperativ": {
+        "du": "Grab auf!",
+        "ihr": "Grabt auf!",
+        "Sie": "Graben Sie auf!"
+      }
+    },
+    "partizip1": "aufgrabend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "graben",
+    "woerter": [
+      {
+        "wort": "die Straße",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خیابان",
+          "en": "street"
+        },
+        "id_ref": "nomen_strasse"
+      },
+      {
+        "wort": "das Loch",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سوراخ، چاله",
+          "en": "hole"
+        },
+        "id_ref": "nomen_loch"
+      },
+      {
+        "wort": "graben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کندن",
+          "en": "to dig"
+        },
+        "id_ref": "verb_graben"
+      },
+      {
+        "wort": "die Baustelle",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کارگاه ساختمانی",
+          "en": "construction site"
+        },
+        "id_ref": "nomen_baustelle"
+      },
+      {
+        "wort": "ausgraben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "از زیر خاک درآوردن",
+          "en": "to excavate"
+        },
+        "id_ref": "verb_ausgraben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

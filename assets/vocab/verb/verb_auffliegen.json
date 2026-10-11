@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_auffliegen",
+  "wort": "auffliegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به هوا پریدن (پرنده)",
+      "ناگهان باز شدن (در)",
+      "لو رفتن"
+    ],
+    "en": [
+      "to fly up",
+      "to burst open",
+      "to be exposed"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Natur",
+    "Kriminalität"
+  ],
+  "ipa": "ˈaʊ̯fˌfliːɡn̩",
+  "anmerkung": "in der Bedeutung «entdeckt werden» umgangssprachlich",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Vögel fliegen plötzlich auf.",
+      "uebersetzung": {
+        "fa": "پرنده‌ها ناگهان به هوا می‌پرند.",
+        "en": "The birds suddenly fly up."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Betrug ist aufgeflogen, weil ein Mitarbeiter die Polizei informiert hatte.",
+      "uebersetzung": {
+        "fa": "کلاهبرداری لو رفت، چون یکی از کارمندان به پلیس خبر داده بود.",
+        "en": "The fraud was exposed because an employee had informed the police."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hochfliegen",
+      "uebersetzung": {
+        "fa": "به بالا پریدن",
+        "en": "to fly up"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "landen",
+      "uebersetzung": {
+        "fa": "فرود آمدن",
+        "en": "to land"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auf- (پیشوند: بالا) + fliegen (پرواز کردن)",
+    "en": "auf- (prefix: up) + fliegen (to fly)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "auffliegen",
+      "praeteritum": "flog auf",
+      "partizip2": "aufgeflogen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fliege auf",
+        "du": "fliegst auf",
+        "er_sie_es": "fliegt auf",
+        "wir": "fliegen auf",
+        "ihr": "fliegt auf",
+        "sie_Sie": "fliegen auf"
+      },
+      "praeteritum": {
+        "ich": "flog auf",
+        "du": "flogst auf",
+        "er_sie_es": "flog auf",
+        "wir": "flogen auf",
+        "ihr": "flogt auf",
+        "sie_Sie": "flogen auf"
+      },
+      "konjunktiv1": {
+        "ich": "fliege auf",
+        "du": "fliegest auf",
+        "er_sie_es": "fliege auf",
+        "wir": "fliegen auf",
+        "ihr": "flieget auf",
+        "sie_Sie": "fliegen auf"
+      },
+      "konjunktiv2": {
+        "ich": "flöge auf",
+        "du": "flögest auf",
+        "er_sie_es": "flöge auf",
+        "wir": "flögen auf",
+        "ihr": "flöget auf",
+        "sie_Sie": "flögen auf"
+      },
+      "imperativ": {
+        "du": "Flieg auf!",
+        "ihr": "Fliegt auf!",
+        "Sie": "Fliegen Sie auf!"
+      }
+    },
+    "partizip1": "auffliegend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fliegen",
+    "woerter": [
+      {
+        "wort": "fliegen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرواز کردن",
+          "en": "to fly"
+        },
+        "id_ref": "verb_fliegen"
+      },
+      {
+        "wort": "der Vogel",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرنده",
+          "en": "bird"
+        },
+        "id_ref": "nomen_vogel"
+      },
+      {
+        "wort": "landen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فرود آمدن",
+          "en": "to land"
+        },
+        "id_ref": "verb_landen"
+      },
+      {
+        "wort": "entdecken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کشف کردن",
+          "en": "to discover"
+        },
+        "id_ref": "verb_entdecken"
+      },
+      {
+        "wort": "der Betrug",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کلاهبرداری",
+          "en": "fraud"
+        },
+        "id_ref": "nomen_betrug"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

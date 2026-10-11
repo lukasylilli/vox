@@ -1,0 +1,195 @@
+{
+  "schema": "3.0",
+  "id": "verb_aufhaben",
+  "wort": "aufhaben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سر داشتن (کلاه)، به چشم داشتن (عینک)",
+      "تکلیف داشتن",
+      "باز بودن (مغازه)"
+    ],
+    "en": [
+      "to have on (a hat, glasses)",
+      "to have (homework)",
+      "to be open (shop)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Schule",
+    "Einkaufen"
+  ],
+  "ipa": "ˈaʊ̯fˌhaːbn̩",
+  "anmerkung": "umgangssprachlich",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Heute haben wir viele Hausaufgaben auf.",
+      "uebersetzung": {
+        "fa": "امروز تکلیف زیادی داریم.",
+        "en": "We have a lot of homework today."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weißt du, ob die Apotheke am Sonntag aufhat, wenn ich dringend ein Medikament brauche?",
+      "uebersetzung": {
+        "fa": "می‌دانی داروخانه یکشنبه باز است، اگر فوری دارو لازم داشته باشم؟",
+        "en": "Do you know whether the pharmacy is open on Sunday if I urgently need some medicine?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "tragen",
+      "uebersetzung": {
+        "fa": "به تن داشتن، سر داشتن",
+        "en": "to wear"
+      }
+    },
+    {
+      "wort": "geöffnet sein",
+      "uebersetzung": {
+        "fa": "باز بودن",
+        "en": "to be open"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zuhaben",
+      "uebersetzung": {
+        "fa": "بسته بودن",
+        "en": "to be closed"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auf- (پیشوند: روی، باز) + haben (داشتن)",
+    "en": "auf- (prefix: on, open) + haben (to have)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas aufhaben",
+        "bedeutung": "etwas auf dem Kopf tragen / als Hausaufgabe haben — mit Akkusativ",
+        "beispiel": "Er hatte eine Mütze auf.",
+        "uebersetzung": {
+          "fa": "کلاهی سرش بود.",
+          "en": "He had a cap on."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "aufhaben",
+      "praeteritum": "hatte auf",
+      "partizip2": "aufgehabt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "habe auf",
+        "du": "hast auf",
+        "er_sie_es": "hat auf",
+        "wir": "haben auf",
+        "ihr": "habt auf",
+        "sie_Sie": "haben auf"
+      },
+      "praeteritum": {
+        "ich": "hatte auf",
+        "du": "hattest auf",
+        "er_sie_es": "hatte auf",
+        "wir": "hatten auf",
+        "ihr": "hattet auf",
+        "sie_Sie": "hatten auf"
+      },
+      "konjunktiv1": {
+        "ich": "habe auf",
+        "du": "habest auf",
+        "er_sie_es": "habe auf",
+        "wir": "haben auf",
+        "ihr": "habet auf",
+        "sie_Sie": "haben auf"
+      },
+      "konjunktiv2": {
+        "ich": "hätte auf",
+        "du": "hättest auf",
+        "er_sie_es": "hätte auf",
+        "wir": "hätten auf",
+        "ihr": "hättet auf",
+        "sie_Sie": "hätten auf"
+      },
+      "imperativ": {
+        "du": "Hab auf!",
+        "ihr": "Habt auf!",
+        "Sie": "Haben Sie auf!"
+      }
+    },
+    "partizip1": "aufhabend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "haben",
+    "woerter": [
+      {
+        "wort": "haben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "داشتن",
+          "en": "to have"
+        },
+        "id_ref": "verb_haben"
+      },
+      {
+        "wort": "die Hausaufgabe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تکلیف خانه",
+          "en": "homework"
+        },
+        "id_ref": "nomen_hausaufgabe"
+      },
+      {
+        "wort": "tragen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "به تن داشتن، حمل کردن",
+          "en": "to wear, to carry"
+        },
+        "id_ref": "verb_tragen"
+      },
+      {
+        "wort": "geöffnet",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باز",
+          "en": "open"
+        },
+        "id_ref": "adjektiv_geoeffnet"
+      },
+      {
+        "wort": "der Hut",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کلاه",
+          "en": "hat"
+        },
+        "id_ref": "nomen_hut"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
