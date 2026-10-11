@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_bereithalten",
+  "wort": "bereithalten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آماده نگه داشتن",
+      "(sich bereithalten) آماده بودن، گوش‌به‌زنگ بودن"
+    ],
+    "en": [
+      "to keep ready",
+      "to stand by (sich)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Arbeit"
+  ],
+  "ipa": "bʁaɪ̯tˈhaltn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Halten Sie bitte das Ticket bereit.",
+      "uebersetzung": {
+        "fa": "لطفاً بلیت را آماده نگه دارید.",
+        "en": "Please have your ticket ready."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Feuerwehr hielt sich die ganze Nacht bereit, weil man mit weiteren Überschwemmungen rechnete.",
+      "uebersetzung": {
+        "fa": "آتش‌نشانی تمام شب آماده‌باش بود، چون انتظار سیل‌های بیشتری می‌رفت.",
+        "en": "The fire brigade stood by all night because further flooding was expected."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bereithaben",
+      "uebersetzung": {
+        "fa": "آماده داشتن",
+        "en": "to have ready"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "bereit (آماده) + halten (نگه داشتن)",
+    "en": "bereit (ready) + halten (to hold)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich für etwas bereithalten (für + Akk)",
+        "bedeutung": "auf einen Einsatz vorbereitet sein",
+        "beispiel": "Halten Sie sich für den Notfall bereit!",
+        "uebersetzung": {
+          "fa": "برای شرایط اضطراری آماده باشید!",
+          "en": "Be ready for an emergency!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bereithalten",
+      "praeteritum": "hielt bereit",
+      "partizip2": "bereitgehalten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "halte bereit",
+        "du": "hältst bereit",
+        "er_sie_es": "hält bereit",
+        "wir": "halten bereit",
+        "ihr": "haltet bereit",
+        "sie_Sie": "halten bereit"
+      },
+      "praeteritum": {
+        "ich": "hielt bereit",
+        "du": "hieltest bereit",
+        "er_sie_es": "hielt bereit",
+        "wir": "hielten bereit",
+        "ihr": "hieltet bereit",
+        "sie_Sie": "hielten bereit"
+      },
+      "konjunktiv1": {
+        "ich": "halte bereit",
+        "du": "haltest bereit",
+        "er_sie_es": "halte bereit",
+        "wir": "halten bereit",
+        "ihr": "haltet bereit",
+        "sie_Sie": "halten bereit"
+      },
+      "konjunktiv2": {
+        "ich": "hielte bereit",
+        "du": "hieltest bereit",
+        "er_sie_es": "hielte bereit",
+        "wir": "hielten bereit",
+        "ihr": "hieltet bereit",
+        "sie_Sie": "hielten bereit"
+      },
+      "imperativ": {
+        "du": "Halt bereit!",
+        "ihr": "Haltet bereit!",
+        "Sie": "Halten Sie bereit!"
+      }
+    },
+    "partizip1": "bereithaltend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "halten",
+    "woerter": [
+      {
+        "wort": "halten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to hold"
+        },
+        "id_ref": "verb_halten"
+      },
+      {
+        "wort": "bereit",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آماده",
+          "en": "ready"
+        },
+        "id_ref": "adjektiv_bereit"
+      },
+      {
+        "wort": "der Notfall",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وضعیت اضطراری",
+          "en": "emergency"
+        },
+        "id_ref": "nomen_notfall"
+      },
+      {
+        "wort": "die Bereitschaft",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آمادگی، آماده‌باش",
+          "en": "readiness, standby"
+        },
+        "id_ref": "nomen_bereitschaft"
+      },
+      {
+        "wort": "bereithaben",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آماده داشتن",
+          "en": "to have ready"
+        },
+        "id_ref": "verb_bereithaben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

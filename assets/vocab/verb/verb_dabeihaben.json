@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_dabeihaben",
+  "wort": "dabeihaben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "همراه داشتن"
+    ],
+    "en": [
+      "to have with one",
+      "to carry"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Reisen"
+  ],
+  "ipa": "daˈbaɪ̯ˌhaːbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Hast du einen Schirm dabei?",
+      "uebersetzung": {
+        "fa": "چتر همراهت هست؟",
+        "en": "Do you have an umbrella with you?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich konnte nicht bezahlen, weil ich mein Portemonnaie nicht dabeihatte.",
+      "uebersetzung": {
+        "fa": "نتوانستم پول بدهم، چون کیف پولم همراهم نبود.",
+        "en": "I couldn't pay because I didn't have my wallet with me."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "mithaben",
+      "uebersetzung": {
+        "fa": "همراه داشتن",
+        "en": "to have with one"
+      }
+    },
+    {
+      "wort": "bei sich haben",
+      "uebersetzung": {
+        "fa": "همراه داشتن",
+        "en": "to carry"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "vergessen",
+      "uebersetzung": {
+        "fa": "جا گذاشتن",
+        "en": "to forget"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "dabei (همراه) + haben (داشتن)",
+    "en": "dabei (along) + haben (to have)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas dabeihaben",
+        "bedeutung": "etwas bei sich tragen — mit Akkusativ",
+        "beispiel": "Hast du deinen Ausweis dabei?",
+        "uebersetzung": {
+          "fa": "کارت شناسایی‌ات همراهت هست؟",
+          "en": "Have you got your ID on you?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "dabeihaben",
+      "praeteritum": "hatte dabei",
+      "partizip2": "dabeigehabt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "habe dabei",
+        "du": "hast dabei",
+        "er_sie_es": "hat dabei",
+        "wir": "haben dabei",
+        "ihr": "habt dabei",
+        "sie_Sie": "haben dabei"
+      },
+      "praeteritum": {
+        "ich": "hatte dabei",
+        "du": "hattest dabei",
+        "er_sie_es": "hatte dabei",
+        "wir": "hatten dabei",
+        "ihr": "hattet dabei",
+        "sie_Sie": "hatten dabei"
+      },
+      "konjunktiv1": {
+        "ich": "habe dabei",
+        "du": "habest dabei",
+        "er_sie_es": "habe dabei",
+        "wir": "haben dabei",
+        "ihr": "habet dabei",
+        "sie_Sie": "haben dabei"
+      },
+      "konjunktiv2": {
+        "ich": "hätte dabei",
+        "du": "hättest dabei",
+        "er_sie_es": "hätte dabei",
+        "wir": "hätten dabei",
+        "ihr": "hättet dabei",
+        "sie_Sie": "hätten dabei"
+      },
+      "imperativ": {
+        "du": "Hab dabei!",
+        "ihr": "Habt dabei!",
+        "Sie": "Haben Sie dabei!"
+      }
+    },
+    "partizip1": "dabeihabend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "haben",
+    "woerter": [
+      {
+        "wort": "haben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "داشتن",
+          "en": "to have"
+        },
+        "id_ref": "verb_haben"
+      },
+      {
+        "wort": "mitnehmen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "با خود بردن",
+          "en": "to take along"
+        },
+        "id_ref": "verb_mitnehmen"
+      },
+      {
+        "wort": "die Tasche",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کیف",
+          "en": "bag"
+        },
+        "id_ref": "nomen_tasche"
+      },
+      {
+        "wort": "vergessen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فراموش کردن",
+          "en": "to forget"
+        },
+        "id_ref": "verb_vergessen"
+      },
+      {
+        "wort": "mitbringen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "با خود آوردن",
+          "en": "to bring along"
+        },
+        "id_ref": "verb_mitbringen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

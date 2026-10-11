@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_braten",
+  "wort": "braten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سرخ کردن",
+      "کباب کردن (در فر)"
+    ],
+    "en": [
+      "to fry",
+      "to roast"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Essen",
+    "Kochen"
+  ],
+  "ipa": "ˈbʁaːtn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich brate Eier.",
+      "uebersetzung": {
+        "fa": "تخم‌مرغ سرخ می‌کنم.",
+        "en": "I'm frying eggs."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn man das Fleisch zu lange brät, wird es hart und trocken.",
+      "uebersetzung": {
+        "fa": "اگر گوشت را زیادی سرخ کنی، سفت و خشک می‌شود.",
+        "en": "If you fry the meat for too long, it becomes tough and dry."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anbraten",
+      "uebersetzung": {
+        "fa": "تفت دادن",
+        "en": "to sear"
+      }
+    },
+    {
+      "wort": "grillen",
+      "uebersetzung": {
+        "fa": "کباب کردن",
+        "en": "to grill"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Erbwort (کلمه‌ی اصیل آلمانی)",
+    "en": "native Germanic word"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas braten",
+        "bedeutung": "etwas in Fett garen — mit Akkusativ",
+        "beispiel": "Sie brät die Kartoffeln in Butter.",
+        "uebersetzung": {
+          "fa": "سیب‌زمینی‌ها را در کره سرخ می‌کند.",
+          "en": "She fries the potatoes in butter."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "braten",
+      "praeteritum": "briet",
+      "partizip2": "gebraten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "brate",
+        "du": "brätst",
+        "er_sie_es": "brät",
+        "wir": "braten",
+        "ihr": "bratet",
+        "sie_Sie": "braten"
+      },
+      "praeteritum": {
+        "ich": "briet",
+        "du": "brietest",
+        "er_sie_es": "briet",
+        "wir": "brieten",
+        "ihr": "brietet",
+        "sie_Sie": "brieten"
+      },
+      "konjunktiv1": {
+        "ich": "brate",
+        "du": "bratest",
+        "er_sie_es": "brate",
+        "wir": "braten",
+        "ihr": "bratet",
+        "sie_Sie": "braten"
+      },
+      "konjunktiv2": {
+        "ich": "briete",
+        "du": "brietest",
+        "er_sie_es": "briete",
+        "wir": "brieten",
+        "ihr": "brietet",
+        "sie_Sie": "brieten"
+      },
+      "imperativ": {
+        "du": "Brat!",
+        "ihr": "Bratet!",
+        "Sie": "Braten Sie!"
+      }
+    },
+    "partizip1": "bratend",
+    "nominalisierung": "der Braten"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "kochen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پختن",
+          "en": "to cook"
+        },
+        "id_ref": "verb_kochen"
+      },
+      {
+        "wort": "die Pfanne",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ماهیتابه",
+          "en": "pan"
+        },
+        "id_ref": "nomen_pfanne"
+      },
+      {
+        "wort": "das Fleisch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گوشت",
+          "en": "meat"
+        },
+        "id_ref": "nomen_fleisch"
+      },
+      {
+        "wort": "der Braten",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گوشت کبابی",
+          "en": "roast"
+        },
+        "id_ref": "nomen_braten"
+      },
+      {
+        "wort": "die Bratkartoffeln",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سیب‌زمینی سرخ‌کرده",
+          "en": "fried potatoes"
+        },
+        "id_ref": "nomen_bratkartoffeln"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

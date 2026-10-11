@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_bereitfinden",
+  "wort": "bereitfinden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(sich bereitfinden) حاضر شدن، رضایت دادن"
+    ],
+    "en": [
+      "to be willing",
+      "to agree (to do)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "bʁaɪ̯tˈfɪndn̩",
+  "anmerkung": "nur reflexiv: «sich (zu etwas) bereitfinden»",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er findet sich bereit zu helfen.",
+      "uebersetzung": {
+        "fa": "او حاضر می‌شود کمک کند.",
+        "en": "He is willing to help."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach langen Gesprächen fand sich der Vermieter bereit, die Miete nicht zu erhöhen.",
+      "uebersetzung": {
+        "fa": "بعد از گفت‌وگوهای طولانی، صاحب‌خانه حاضر شد اجاره را بالا نبرد.",
+        "en": "After long talks, the landlord agreed not to raise the rent."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich bereit erklären",
+      "uebersetzung": {
+        "fa": "اعلام آمادگی کردن",
+        "en": "to agree"
+      }
+    },
+    {
+      "wort": "einwilligen",
+      "uebersetzung": {
+        "fa": "رضایت دادن",
+        "en": "to consent"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ablehnen",
+      "uebersetzung": {
+        "fa": "رد کردن",
+        "en": "to refuse"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "bereit (آماده) + finden (پیدا کردن)",
+    "en": "bereit (ready) + finden (to find)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich zu etwas bereitfinden (zu + Dat)",
+        "bedeutung": "bereit sein, etwas zu tun",
+        "beispiel": "Sie fand sich zu einem Gespräch bereit.",
+        "uebersetzung": {
+          "fa": "او حاضر به گفت‌وگو شد.",
+          "en": "She agreed to a conversation."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bereitfinden",
+      "praeteritum": "fand bereit",
+      "partizip2": "bereitgefunden"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "finde bereit",
+        "du": "findest bereit",
+        "er_sie_es": "findet bereit",
+        "wir": "finden bereit",
+        "ihr": "findet bereit",
+        "sie_Sie": "finden bereit"
+      },
+      "praeteritum": {
+        "ich": "fand bereit",
+        "du": "fandest bereit",
+        "er_sie_es": "fand bereit",
+        "wir": "fanden bereit",
+        "ihr": "fandet bereit",
+        "sie_Sie": "fanden bereit"
+      },
+      "konjunktiv1": {
+        "ich": "finde bereit",
+        "du": "findest bereit",
+        "er_sie_es": "finde bereit",
+        "wir": "finden bereit",
+        "ihr": "findet bereit",
+        "sie_Sie": "finden bereit"
+      },
+      "konjunktiv2": {
+        "ich": "fände bereit",
+        "du": "fändest bereit",
+        "er_sie_es": "fände bereit",
+        "wir": "fänden bereit",
+        "ihr": "fändet bereit",
+        "sie_Sie": "fänden bereit"
+      },
+      "imperativ": {
+        "du": "Finde bereit!",
+        "ihr": "Findet bereit!",
+        "Sie": "Finden Sie bereit!"
+      }
+    },
+    "partizip1": "bereitfindend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "finden",
+    "woerter": [
+      {
+        "wort": "bereit",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آماده",
+          "en": "ready"
+        },
+        "id_ref": "adjektiv_bereit"
+      },
+      {
+        "wort": "zustimmen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "موافقت کردن",
+          "en": "to agree"
+        },
+        "id_ref": "verb_zustimmen"
+      },
+      {
+        "wort": "ablehnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رد کردن",
+          "en": "to refuse"
+        },
+        "id_ref": "verb_ablehnen"
+      },
+      {
+        "wort": "die Bereitschaft",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آمادگی",
+          "en": "willingness"
+        },
+        "id_ref": "nomen_bereitschaft"
+      },
+      {
+        "wort": "einwilligen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رضایت دادن",
+          "en": "to consent"
+        },
+        "id_ref": "verb_einwilligen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,193 @@
+{
+  "schema": "3.0",
+  "id": "verb_biegen",
+  "wort": "biegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خم کردن",
+      "پیچیدن (به خیابان دیگر)"
+    ],
+    "en": [
+      "to bend",
+      "to turn (a corner)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Verkehr",
+    "Technik"
+  ],
+  "ipa": "ˈbiːɡn̩",
+  "anmerkung": "transitiv («etwas biegen») mit haben; intransitiv («um die Ecke biegen») mit sein",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Auto biegt nach links.",
+      "uebersetzung": {
+        "fa": "ماشین به چپ می‌پیچد.",
+        "en": "The car turns left."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Er hat den Draht so lange gebogen, bis er schließlich gebrochen ist.",
+      "uebersetzung": {
+        "fa": "آن‌قدر سیم را خم کرد تا بالاخره شکست.",
+        "en": "He bent the wire until it finally broke."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "krümmen",
+      "uebersetzung": {
+        "fa": "خم کردن",
+        "en": "to bend"
+      }
+    },
+    {
+      "wort": "abbiegen",
+      "uebersetzung": {
+        "fa": "پیچیدن",
+        "en": "to turn off"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Erbwort (کلمه‌ی اصیل آلمانی)",
+    "en": "native Germanic word"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "etwas biegen",
+        "bedeutung": "etwas krumm machen — mit Akkusativ",
+        "beispiel": "Kannst du das Rohr gerade biegen?",
+        "uebersetzung": {
+          "fa": "می‌توانی لوله را صاف کنی؟",
+          "en": "Can you bend the pipe straight?"
+        }
+      },
+      {
+        "muster": "in/um etwas biegen (in/um + Akk, sein)",
+        "bedeutung": "die Richtung ändern",
+        "beispiel": "Der Bus ist in die Hauptstraße gebogen.",
+        "uebersetzung": {
+          "fa": "اتوبوس به خیابان اصلی پیچید.",
+          "en": "The bus turned into the main road."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "biegen",
+      "praeteritum": "bog",
+      "partizip2": "gebogen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "biege",
+        "du": "biegst",
+        "er_sie_es": "biegt",
+        "wir": "biegen",
+        "ihr": "biegt",
+        "sie_Sie": "biegen"
+      },
+      "praeteritum": {
+        "ich": "bog",
+        "du": "bogst",
+        "er_sie_es": "bog",
+        "wir": "bogen",
+        "ihr": "bogt",
+        "sie_Sie": "bogen"
+      },
+      "konjunktiv1": {
+        "ich": "biege",
+        "du": "biegest",
+        "er_sie_es": "biege",
+        "wir": "biegen",
+        "ihr": "bieget",
+        "sie_Sie": "biegen"
+      },
+      "konjunktiv2": {
+        "ich": "böge",
+        "du": "bögest",
+        "er_sie_es": "böge",
+        "wir": "bögen",
+        "ihr": "böget",
+        "sie_Sie": "bögen"
+      },
+      "imperativ": {
+        "du": "Bieg!",
+        "ihr": "Biegt!",
+        "Sie": "Biegen Sie!"
+      }
+    },
+    "partizip1": "biegend",
+    "nominalisierung": "die Biegung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "abbiegen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پیچیدن",
+          "en": "to turn off"
+        },
+        "id_ref": "verb_abbiegen"
+      },
+      {
+        "wort": "die Kurve",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیچ",
+          "en": "bend"
+        },
+        "id_ref": "nomen_kurve"
+      },
+      {
+        "wort": "gerade",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صاف، مستقیم",
+          "en": "straight"
+        },
+        "id_ref": "adjektiv_gerade"
+      },
+      {
+        "wort": "krumm",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کج",
+          "en": "crooked"
+        },
+        "id_ref": "adjektiv_krumm"
+      },
+      {
+        "wort": "die Biegung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خم، پیچ",
+          "en": "bend"
+        },
+        "id_ref": "nomen_biegung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
