@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_fernliegen",
+  "wort": "fernliegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(es liegt jemandem fern) (کسی) قصد (کاری را) نداشتن، از (کسی) بعید بودن",
+      "(فکر یا گمانی) دور از ذهن بودن"
+    ],
+    "en": [
+      "(es liegt jdm fern) to be far from someone's mind/intention",
+      "to be far-fetched"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation",
+    "Sprache (gehoben)"
+  ],
+  "ipa": "ˈfɛʁnˌliːɡn̩",
+  "anmerkung": "Meist unpersönlich: «Es liegt mir fern, …»; in Süddeutschland und Österreich auch mit «sein».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das liegt mir fern.",
+      "uebersetzung": {
+        "fa": "چنین قصدی ندارم.",
+        "en": "That is the last thing I want."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Es liegt mir fern, Sie zu kritisieren, aber der Bericht enthält einige Fehler.",
+      "uebersetzung": {
+        "fa": "قصد انتقاد از شما را ندارم، اما گزارش چند اشتباه دارد.",
+        "en": "Far be it from me to criticise you, but the report contains a few mistakes."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nicht beabsichtigen",
+      "uebersetzung": {
+        "fa": "قصد نداشتن",
+        "en": "not to intend"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "fern- (دور) + liegen (قرار داشتن)",
+    "en": "fern- (far) + liegen (to lie)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem fernliegen (+ Dat)",
+        "bedeutung": "nicht jemandes Absicht sein",
+        "beispiel": "Nichts liegt ihm ferner als Streit.",
+        "uebersetzung": {
+          "fa": "هیچ چیز به اندازه‌ی دعوا از او دور نیست.",
+          "en": "Nothing is further from his mind than a quarrel."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "fernliegen",
+      "praeteritum": "lag fern",
+      "partizip2": "ferngelegen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "liege fern",
+        "du": "liegst fern",
+        "er_sie_es": "liegt fern",
+        "wir": "liegen fern",
+        "ihr": "liegt fern",
+        "sie_Sie": "liegen fern"
+      },
+      "praeteritum": {
+        "ich": "lag fern",
+        "du": "lagst fern",
+        "er_sie_es": "lag fern",
+        "wir": "lagen fern",
+        "ihr": "lagt fern",
+        "sie_Sie": "lagen fern"
+      },
+      "konjunktiv1": {
+        "ich": "liege fern",
+        "du": "liegest fern",
+        "er_sie_es": "liege fern",
+        "wir": "liegen fern",
+        "ihr": "lieget fern",
+        "sie_Sie": "liegen fern"
+      },
+      "konjunktiv2": {
+        "ich": "läge fern",
+        "du": "lägest fern",
+        "er_sie_es": "läge fern",
+        "wir": "lägen fern",
+        "ihr": "läget fern",
+        "sie_Sie": "lägen fern"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "fernliegend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "liegen",
+    "woerter": [
+      {
+        "wort": "fern",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دور",
+          "en": "far"
+        },
+        "id_ref": "adjektiv_fern"
+      },
+      {
+        "wort": "liegen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قرار داشتن",
+          "en": "to lie"
+        },
+        "id_ref": "verb_liegen"
+      },
+      {
+        "wort": "die Absicht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قصد",
+          "en": "intention"
+        },
+        "id_ref": "nomen_absicht"
+      },
+      {
+        "wort": "naheliegen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بدیهی بودن، به ذهن رسیدن",
+          "en": "to be obvious"
+        },
+        "id_ref": "verb_naheliegen"
+      },
+      {
+        "wort": "beabsichtigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قصد داشتن",
+          "en": "to intend"
+        },
+        "id_ref": "verb_beabsichtigen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

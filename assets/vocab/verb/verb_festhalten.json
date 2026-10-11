@@ -1,0 +1,206 @@
+{
+  "schema": "3.0",
+  "id": "verb_festhalten",
+  "wort": "festhalten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "محکم نگه داشتن، گرفتن",
+      "(کسی را) نگه داشتن، (به‌اجبار) بازداشت کردن",
+      "(چیزی را) ثبت کردن، یادداشت کردن",
+      "(an etwas festhalten) به (چیزی) پایبند ماندن"
+    ],
+    "en": [
+      "to hold (on to), to hold tight",
+      "to detain",
+      "to record, to note",
+      "(an etwas) to stick to"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Arbeit",
+    "Recht"
+  ],
+  "ipa": "ˈfɛstˌhaltn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Halt dich gut fest!",
+      "uebersetzung": {
+        "fa": "محکم بگیر (خودت را نگه دار)!",
+        "en": "Hold on tight!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Im Protokoll wird festgehalten, welche Medikamente der Patient bekommen hat.",
+      "uebersetzung": {
+        "fa": "در گزارش ثبت می‌شود که بیمار چه داروهایی گرفته است.",
+        "en": "The record notes which medicines the patient received."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "halten",
+      "uebersetzung": {
+        "fa": "نگه داشتن",
+        "en": "to hold"
+      }
+    },
+    {
+      "wort": "notieren",
+      "uebersetzung": {
+        "fa": "یادداشت کردن",
+        "en": "to note down"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "loslassen",
+      "uebersetzung": {
+        "fa": "رها کردن",
+        "en": "to let go"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "fest- (محکم، ثابت) + halten (نگه داشتن)",
+    "en": "fest- (firm, fixed) + halten (to hold)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich an + Dat festhalten",
+        "bedeutung": "etwas greifen, um nicht zu fallen",
+        "beispiel": "Bitte halten Sie sich im Bus an der Stange fest.",
+        "uebersetzung": {
+          "fa": "لطفاً در اتوبوس میله را محکم بگیرید.",
+          "en": "Please hold on to the bar on the bus."
+        }
+      },
+      {
+        "muster": "an + Dat festhalten",
+        "bedeutung": "bei etwas bleiben, es nicht aufgeben",
+        "beispiel": "Die Regierung hält an ihrem Plan fest.",
+        "uebersetzung": {
+          "fa": "دولت به برنامه‌اش پایبند می‌ماند.",
+          "en": "The government is sticking to its plan."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "festhalten",
+      "praeteritum": "hielt fest",
+      "partizip2": "festgehalten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "halte fest",
+        "du": "hältst fest",
+        "er_sie_es": "hält fest",
+        "wir": "halten fest",
+        "ihr": "haltet fest",
+        "sie_Sie": "halten fest"
+      },
+      "praeteritum": {
+        "ich": "hielt fest",
+        "du": "hieltest fest",
+        "er_sie_es": "hielt fest",
+        "wir": "hielten fest",
+        "ihr": "hieltet fest",
+        "sie_Sie": "hielten fest"
+      },
+      "konjunktiv1": {
+        "ich": "halte fest",
+        "du": "haltest fest",
+        "er_sie_es": "halte fest",
+        "wir": "halten fest",
+        "ihr": "haltet fest",
+        "sie_Sie": "halten fest"
+      },
+      "konjunktiv2": {
+        "ich": "hielte fest",
+        "du": "hieltest fest",
+        "er_sie_es": "hielte fest",
+        "wir": "hielten fest",
+        "ihr": "hieltet fest",
+        "sie_Sie": "hielten fest"
+      },
+      "imperativ": {
+        "du": "Halt fest!",
+        "ihr": "Haltet fest!",
+        "Sie": "Halten Sie fest!"
+      }
+    },
+    "partizip1": "festhaltend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "halten",
+    "woerter": [
+      {
+        "wort": "halten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to hold"
+        },
+        "id_ref": "verb_halten"
+      },
+      {
+        "wort": "loslassen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رها کردن",
+          "en": "to let go"
+        },
+        "id_ref": "verb_loslassen"
+      },
+      {
+        "wort": "notieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "یادداشت کردن",
+          "en": "to note down"
+        },
+        "id_ref": "verb_notieren"
+      },
+      {
+        "wort": "fest",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "محکم",
+          "en": "firm"
+        },
+        "id_ref": "adjektiv_fest"
+      },
+      {
+        "wort": "das Protokoll",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "صورت‌جلسه، گزارش",
+          "en": "minutes, record"
+        },
+        "id_ref": "nomen_protokoll"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

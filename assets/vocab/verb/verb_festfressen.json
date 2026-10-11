@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_festfressen",
+  "wort": "festfressen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(sich festfressen) (قطعه‌ی ماشین) گیر کردن و قفل شدن (از اصطکاک یا زنگ‌زدگی)",
+      "(فکری در ذهن) ریشه دواندن"
+    ],
+    "en": [
+      "(sich) to seize up, to jam",
+      "(sich) to take root (an idea)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik"
+  ],
+  "ipa": "ˈfɛstˌfʁɛsn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Schraube hat sich festgefressen.",
+      "uebersetzung": {
+        "fa": "پیچ (از زنگ‌زدگی) گیر کرده است.",
+        "en": "The screw has seized."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil zu wenig Öl im Motor war, hat sich der Kolben festgefressen und der Wagen blieb stehen.",
+      "uebersetzung": {
+        "fa": "چون روغن موتور کم بود، پیستون گیر کرد و ماشین ایستاد.",
+        "en": "Because there was too little oil in the engine, the piston seized and the car stopped."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "blockieren",
+      "uebersetzung": {
+        "fa": "قفل شدن، گیر کردن",
+        "en": "to jam"
+      }
+    },
+    {
+      "wort": "klemmen",
+      "uebersetzung": {
+        "fa": "گیر کردن",
+        "en": "to stick"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "fest- (محکم، ثابت) + fressen ((حیوان) خوردن؛ ساییدن)",
+    "en": "fest- (firm, fixed) + fressen (to eat (animals); to erode)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "festfressen",
+      "praeteritum": "fraß fest",
+      "partizip2": "festgefressen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fresse fest",
+        "du": "frisst fest",
+        "er_sie_es": "frisst fest",
+        "wir": "fressen fest",
+        "ihr": "fresst fest",
+        "sie_Sie": "fressen fest"
+      },
+      "praeteritum": {
+        "ich": "fraß fest",
+        "du": "fraßest fest",
+        "er_sie_es": "fraß fest",
+        "wir": "fraßen fest",
+        "ihr": "fraßt fest",
+        "sie_Sie": "fraßen fest"
+      },
+      "konjunktiv1": {
+        "ich": "fresse fest",
+        "du": "fressest fest",
+        "er_sie_es": "fresse fest",
+        "wir": "fressen fest",
+        "ihr": "fresset fest",
+        "sie_Sie": "fressen fest"
+      },
+      "konjunktiv2": {
+        "ich": "fräße fest",
+        "du": "fräßest fest",
+        "er_sie_es": "fräße fest",
+        "wir": "fräßen fest",
+        "ihr": "fräßet fest",
+        "sie_Sie": "fräßen fest"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "festfressend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fressen",
+    "woerter": [
+      {
+        "wort": "fressen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "(حیوان) خوردن",
+          "en": "to eat (animals)"
+        },
+        "id_ref": "verb_fressen"
+      },
+      {
+        "wort": "klemmen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گیر کردن",
+          "en": "to jam"
+        },
+        "id_ref": "verb_klemmen"
+      },
+      {
+        "wort": "die Schraube",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیچ",
+          "en": "screw"
+        },
+        "id_ref": "nomen_schraube"
+      },
+      {
+        "wort": "der Motor",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "موتور",
+          "en": "engine"
+        },
+        "id_ref": "nomen_motor"
+      },
+      {
+        "wort": "rosten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زنگ زدن",
+          "en": "to rust"
+        },
+        "id_ref": "verb_rosten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

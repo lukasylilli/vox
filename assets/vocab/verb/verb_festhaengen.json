@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_festhaengen",
+  "wort": "festhängen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گیر کردن، (در جایی) گیر افتادن و نتوانستن جلو رفتن"
+    ],
+    "en": [
+      "to be stuck, to be caught"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Verkehr",
+    "Technik"
+  ],
+  "ipa": "ˈfɛstˌhɛŋən",
+  "anmerkung": "Intransitiv (hing fest, festgehangen); in Süddeutschland und Österreich auch mit «sein».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir hängen im Stau fest.",
+      "uebersetzung": {
+        "fa": "در ترافیک گیر افتاده‌ایم.",
+        "en": "We are stuck in a traffic jam."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wegen des Streiks hingen tausende Reisende am Flughafen fest und mussten dort übernachten.",
+      "uebersetzung": {
+        "fa": "به خاطر اعتصاب، هزاران مسافر در فرودگاه گیر افتادند و مجبور شدند شب را آنجا بمانند.",
+        "en": "Because of the strike, thousands of travellers were stuck at the airport and had to spend the night there."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "feststecken",
+      "uebersetzung": {
+        "fa": "گیر کردن",
+        "en": "to be stuck"
+      }
+    },
+    {
+      "wort": "stecken bleiben",
+      "uebersetzung": {
+        "fa": "گیر کردن",
+        "en": "to get stuck"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "fest- (محکم، ثابت) + hängen (آویزان بودن)",
+    "en": "fest- (firm, fixed) + hängen (to hang)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "an + Dat / in + Dat festhängen",
+        "bedeutung": "an/in etwas hängen bleiben",
+        "beispiel": "Mein Pullover hing am Zaun fest.",
+        "uebersetzung": {
+          "fa": "پلیورم به نرده گیر کرده بود.",
+          "en": "My jumper was caught on the fence."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "festhängen",
+      "praeteritum": "hing fest",
+      "partizip2": "festgehangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "hänge fest",
+        "du": "hängst fest",
+        "er_sie_es": "hängt fest",
+        "wir": "hängen fest",
+        "ihr": "hängt fest",
+        "sie_Sie": "hängen fest"
+      },
+      "praeteritum": {
+        "ich": "hing fest",
+        "du": "hingst fest",
+        "er_sie_es": "hing fest",
+        "wir": "hingen fest",
+        "ihr": "hingt fest",
+        "sie_Sie": "hingen fest"
+      },
+      "konjunktiv1": {
+        "ich": "hänge fest",
+        "du": "hängest fest",
+        "er_sie_es": "hänge fest",
+        "wir": "hängen fest",
+        "ihr": "hänget fest",
+        "sie_Sie": "hängen fest"
+      },
+      "konjunktiv2": {
+        "ich": "hinge fest",
+        "du": "hingest fest",
+        "er_sie_es": "hinge fest",
+        "wir": "hingen fest",
+        "ihr": "hinget fest",
+        "sie_Sie": "hingen fest"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "festhängend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "hängen",
+    "woerter": [
+      {
+        "wort": "hängen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آویزان بودن",
+          "en": "to hang"
+        },
+        "id_ref": "verb_haengen"
+      },
+      {
+        "wort": "stecken bleiben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گیر کردن",
+          "en": "to get stuck"
+        },
+        "id_ref": "verb_stecken_bleiben"
+      },
+      {
+        "wort": "der Stau",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترافیک",
+          "en": "traffic jam"
+        },
+        "id_ref": "nomen_stau"
+      },
+      {
+        "wort": "fest",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "محکم",
+          "en": "firm"
+        },
+        "id_ref": "adjektiv_fest"
+      },
+      {
+        "wort": "warten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "منتظر ماندن",
+          "en": "to wait"
+        },
+        "id_ref": "verb_warten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_fertigbekommen",
+  "wort": "fertigbekommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(محاوره) (کاری را) به پایان رساندن، تمام کردن",
+      "(محاوره) از پس (کاری) برآمدن، توانستن"
+    ],
+    "en": [
+      "(colloquial) to get (something) finished",
+      "(colloquial) to manage to do"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit",
+    "Alltag"
+  ],
+  "ipa": "ˈfɛʁtɪçbəˌkɔmən",
+  "anmerkung": "Umgangssprachlich; gleichbedeutend mit «fertigbringen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich bekomme das heute nicht fertig.",
+      "uebersetzung": {
+        "fa": "امروز این را تمام نمی‌کنم.",
+        "en": "I won't get this finished today."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wie hast du es fertigbekommen, die ganze Wohnung an einem Tag zu streichen?",
+      "uebersetzung": {
+        "fa": "چطور توانستی کل آپارتمان را در یک روز رنگ کنی؟",
+        "en": "How did you manage to paint the whole flat in one day?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fertigbringen",
+      "uebersetzung": {
+        "fa": "از پس کاری برآمدن",
+        "en": "to manage"
+      }
+    },
+    {
+      "wort": "schaffen",
+      "uebersetzung": {
+        "fa": "از پس برآمدن",
+        "en": "to manage"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "fertig (تمام، آماده) + bekommen (گرفتن)",
+    "en": "fertig (finished) + bekommen (to get)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "fertigbekommen",
+      "praeteritum": "bekam fertig",
+      "partizip2": "fertigbekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bekomme fertig",
+        "du": "bekommst fertig",
+        "er_sie_es": "bekommt fertig",
+        "wir": "bekommen fertig",
+        "ihr": "bekommt fertig",
+        "sie_Sie": "bekommen fertig"
+      },
+      "praeteritum": {
+        "ich": "bekam fertig",
+        "du": "bekamst fertig",
+        "er_sie_es": "bekam fertig",
+        "wir": "bekamen fertig",
+        "ihr": "bekamt fertig",
+        "sie_Sie": "bekamen fertig"
+      },
+      "konjunktiv1": {
+        "ich": "bekomme fertig",
+        "du": "bekommest fertig",
+        "er_sie_es": "bekomme fertig",
+        "wir": "bekommen fertig",
+        "ihr": "bekommet fertig",
+        "sie_Sie": "bekommen fertig"
+      },
+      "konjunktiv2": {
+        "ich": "bekäme fertig",
+        "du": "bekämest fertig",
+        "er_sie_es": "bekäme fertig",
+        "wir": "bekämen fertig",
+        "ihr": "bekämet fertig",
+        "sie_Sie": "bekämen fertig"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "fertigbekommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bekommen",
+    "woerter": [
+      {
+        "wort": "fertig",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تمام، آماده",
+          "en": "finished"
+        },
+        "id_ref": "adjektiv_fertig"
+      },
+      {
+        "wort": "bekommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گرفتن",
+          "en": "to get"
+        },
+        "id_ref": "verb_bekommen"
+      },
+      {
+        "wort": "schaffen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "از پس برآمدن",
+          "en": "to manage"
+        },
+        "id_ref": "verb_schaffen"
+      },
+      {
+        "wort": "fertigbringen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "از پس کاری برآمدن",
+          "en": "to manage"
+        },
+        "id_ref": "verb_fertigbringen"
+      },
+      {
+        "wort": "beenden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به پایان رساندن",
+          "en": "to finish"
+        },
+        "id_ref": "verb_beenden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

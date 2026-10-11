@@ -1032,6 +1032,8 @@ const zurueckgestellt = <String>{
   'feilbieten', // zurückgestellt (Regel 14/16): veraltend, selten 2026-10-11
   'feilhalten', // zurückgestellt (Regel 14/16): veraltend, selten 2026-10-11
   'feinmahlen', // zurückgestellt (Regel 14/16): amtliche Schreibung «fein mahlen» (getrennt) 2026-10-11
+  'fertiglesen', // zurückgestellt (Regel 14/16): amtliche Schreibung «fertig lesen» (getrennt) 2026-10-11
+  'festbleiben', // zurückgestellt (Regel 14/16): selten 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

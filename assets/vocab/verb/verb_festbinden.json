@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_festbinden",
+  "wort": "festbinden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با طناب یا بند) محکم بستن"
+    ],
+    "en": [
+      "to tie up, to tie down, to fasten"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Haushalt"
+  ],
+  "ipa": "ˈfɛstˌbɪndn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er bindet das Boot fest.",
+      "uebersetzung": {
+        "fa": "او قایق را محکم می‌بندد.",
+        "en": "He ties up the boat."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bevor der Sturm kam, haben wir die Gartenmöbel am Zaun festgebunden.",
+      "uebersetzung": {
+        "fa": "قبل از آمدن طوفان، مبلمان باغ را محکم به نرده بستیم.",
+        "en": "Before the storm came, we tied the garden furniture to the fence."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "befestigen",
+      "uebersetzung": {
+        "fa": "محکم کردن",
+        "en": "to fasten"
+      }
+    },
+    {
+      "wort": "anbinden",
+      "uebersetzung": {
+        "fa": "بستن (به چیزی)",
+        "en": "to tie up"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "losbinden",
+      "uebersetzung": {
+        "fa": "باز کردن (بند)",
+        "en": "to untie"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "fest- (محکم، ثابت) + binden (بستن)",
+    "en": "fest- (firm, fixed) + binden (to tie)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas an + Dat festbinden",
+        "bedeutung": "etwas mit einer Schnur an etwas fixieren",
+        "beispiel": "Sie bindet den Hund an der Laterne fest.",
+        "uebersetzung": {
+          "fa": "او سگ را به تیر چراغ برق می‌بندد.",
+          "en": "She ties the dog to the lamppost."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "festbinden",
+      "praeteritum": "band fest",
+      "partizip2": "festgebunden"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "binde fest",
+        "du": "bindest fest",
+        "er_sie_es": "bindet fest",
+        "wir": "binden fest",
+        "ihr": "bindet fest",
+        "sie_Sie": "binden fest"
+      },
+      "praeteritum": {
+        "ich": "band fest",
+        "du": "bandest fest",
+        "er_sie_es": "band fest",
+        "wir": "banden fest",
+        "ihr": "bandet fest",
+        "sie_Sie": "banden fest"
+      },
+      "konjunktiv1": {
+        "ich": "binde fest",
+        "du": "bindest fest",
+        "er_sie_es": "binde fest",
+        "wir": "binden fest",
+        "ihr": "bindet fest",
+        "sie_Sie": "binden fest"
+      },
+      "konjunktiv2": {
+        "ich": "bände fest",
+        "du": "bändest fest",
+        "er_sie_es": "bände fest",
+        "wir": "bänden fest",
+        "ihr": "bändet fest",
+        "sie_Sie": "bänden fest"
+      },
+      "imperativ": {
+        "du": "Binde fest!",
+        "ihr": "Bindet fest!",
+        "Sie": "Binden Sie fest!"
+      }
+    },
+    "partizip1": "festbindend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "binden",
+    "woerter": [
+      {
+        "wort": "binden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بستن",
+          "en": "to tie"
+        },
+        "id_ref": "verb_binden"
+      },
+      {
+        "wort": "das Seil",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "طناب",
+          "en": "rope"
+        },
+        "id_ref": "nomen_seil"
+      },
+      {
+        "wort": "befestigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "محکم کردن",
+          "en": "to fasten"
+        },
+        "id_ref": "verb_befestigen"
+      },
+      {
+        "wort": "losbinden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "باز کردن",
+          "en": "to untie"
+        },
+        "id_ref": "verb_losbinden"
+      },
+      {
+        "wort": "der Knoten",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گره",
+          "en": "knot"
+        },
+        "id_ref": "nomen_knoten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

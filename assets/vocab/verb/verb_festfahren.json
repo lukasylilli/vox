@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_festfahren",
+  "wort": "festfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(sich festfahren) (وسیله‌ی نقلیه) گیر کردن (در گل، برف و مانند آن)",
+      "(مذاکره یا وضعی) به بن‌بست رسیدن"
+    ],
+    "en": [
+      "(sich) to get stuck (vehicle)",
+      "(sich) to reach deadlock"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Verkehr",
+    "Politik"
+  ],
+  "ipa": "ˈfɛstˌfaːʁən",
+  "anmerkung": "Meist reflexiv mit «haben» (Das Auto hat sich festgefahren); intransitiv auch mit «sein». Oft adjektivisch: «festgefahrene Verhandlungen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Auto hat sich im Schnee festgefahren.",
+      "uebersetzung": {
+        "fa": "ماشین در برف گیر کرد.",
+        "en": "The car got stuck in the snow."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Verhandlungen haben sich festgefahren, weil keine Seite einen Kompromiss eingehen will.",
+      "uebersetzung": {
+        "fa": "مذاکرات به بن‌بست رسیده است، چون هیچ طرفی حاضر به سازش نیست.",
+        "en": "The negotiations have reached deadlock because neither side wants to compromise."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "stecken bleiben",
+      "uebersetzung": {
+        "fa": "گیر کردن",
+        "en": "to get stuck"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "fest- (محکم، ثابت) + fahren (حرکت کردن (با وسیله))",
+    "en": "fest- (firm, fixed) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich in + Dat festfahren",
+        "bedeutung": "in etwas stecken bleiben",
+        "beispiel": "Der Lastwagen fuhr sich im Schlamm fest.",
+        "uebersetzung": {
+          "fa": "کامیون در گل گیر کرد.",
+          "en": "The lorry got stuck in the mud."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "festfahren",
+      "praeteritum": "fuhr fest",
+      "partizip2": "festgefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre fest",
+        "du": "fährst fest",
+        "er_sie_es": "fährt fest",
+        "wir": "fahren fest",
+        "ihr": "fahrt fest",
+        "sie_Sie": "fahren fest"
+      },
+      "praeteritum": {
+        "ich": "fuhr fest",
+        "du": "fuhrst fest",
+        "er_sie_es": "fuhr fest",
+        "wir": "fuhren fest",
+        "ihr": "fuhrt fest",
+        "sie_Sie": "fuhren fest"
+      },
+      "konjunktiv1": {
+        "ich": "fahre fest",
+        "du": "fahrest fest",
+        "er_sie_es": "fahre fest",
+        "wir": "fahren fest",
+        "ihr": "fahret fest",
+        "sie_Sie": "fahren fest"
+      },
+      "konjunktiv2": {
+        "ich": "führe fest",
+        "du": "führest fest",
+        "er_sie_es": "führe fest",
+        "wir": "führen fest",
+        "ihr": "führet fest",
+        "sie_Sie": "führen fest"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "festfahrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "stecken bleiben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گیر کردن",
+          "en": "to get stuck"
+        },
+        "id_ref": "verb_stecken_bleiben"
+      },
+      {
+        "wort": "der Schlamm",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "گل و لای",
+          "en": "mud"
+        },
+        "id_ref": "nomen_schlamm"
+      },
+      {
+        "wort": "die Verhandlung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مذاکره",
+          "en": "negotiation"
+        },
+        "id_ref": "nomen_verhandlung"
+      },
+      {
+        "wort": "der Kompromiss",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سازش",
+          "en": "compromise"
+        },
+        "id_ref": "nomen_kompromiss"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

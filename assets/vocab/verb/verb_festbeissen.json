@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_festbeissen",
+  "wort": "festbeißen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(sich festbeißen) (حیوان) با دندان محکم گرفتن و رها نکردن",
+      "(در کار یا مسئله‌ای) گیر کردن، سمج شدن"
+    ],
+    "en": [
+      "(sich) to bite and hold on",
+      "(sich) to get stuck on, to become obsessed with"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Tiere",
+    "Arbeit"
+  ],
+  "ipa": "ˈfɛstˌbaɪ̯sn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hund beißt sich am Stock fest.",
+      "uebersetzung": {
+        "fa": "سگ چوب را محکم با دندان گرفته و ول نمی‌کند.",
+        "en": "The dog hangs on to the stick with its teeth."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ich habe mich an dieser Matheaufgabe so festgebissen, dass ich die anderen Aufgaben vergessen habe.",
+      "uebersetzung": {
+        "fa": "آن‌قدر سر این مسئله‌ی ریاضی گیر کردم که بقیه‌ی مسئله‌ها را فراموش کردم.",
+        "en": "I got so stuck on this maths problem that I forgot the other tasks."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich verbeißen",
+      "uebersetzung": {
+        "fa": "سمج شدن، گیر کردن",
+        "en": "to get stuck on"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "loslassen",
+      "uebersetzung": {
+        "fa": "رها کردن",
+        "en": "to let go"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "fest- (محکم، ثابت) + beißen (گاز گرفتن)",
+    "en": "fest- (firm, fixed) + beißen (to bite)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich an + Dat festbeißen",
+        "bedeutung": "sich hartnäckig mit etwas beschäftigen",
+        "beispiel": "Die Journalistin hat sich an dem Thema festgebissen.",
+        "uebersetzung": {
+          "fa": "خبرنگار سرسختانه دنبال این موضوع را گرفته است.",
+          "en": "The journalist has got her teeth into the topic."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "festbeißen",
+      "praeteritum": "biss fest",
+      "partizip2": "festgebissen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beiße fest",
+        "du": "beißt fest",
+        "er_sie_es": "beißt fest",
+        "wir": "beißen fest",
+        "ihr": "beißt fest",
+        "sie_Sie": "beißen fest"
+      },
+      "praeteritum": {
+        "ich": "biss fest",
+        "du": "bissest fest",
+        "er_sie_es": "biss fest",
+        "wir": "bissen fest",
+        "ihr": "bisst fest",
+        "sie_Sie": "bissen fest"
+      },
+      "konjunktiv1": {
+        "ich": "beiße fest",
+        "du": "beißest fest",
+        "er_sie_es": "beiße fest",
+        "wir": "beißen fest",
+        "ihr": "beißet fest",
+        "sie_Sie": "beißen fest"
+      },
+      "konjunktiv2": {
+        "ich": "bisse fest",
+        "du": "bissest fest",
+        "er_sie_es": "bisse fest",
+        "wir": "bissen fest",
+        "ihr": "bisset fest",
+        "sie_Sie": "bissen fest"
+      },
+      "imperativ": {
+        "du": "Beiß fest!",
+        "ihr": "Beißt fest!",
+        "Sie": "Beißen Sie fest!"
+      }
+    },
+    "partizip1": "festbeißend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "beißen",
+    "woerter": [
+      {
+        "wort": "beißen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گاز گرفتن",
+          "en": "to bite"
+        },
+        "id_ref": "verb_beissen"
+      },
+      {
+        "wort": "fest",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "محکم",
+          "en": "firm"
+        },
+        "id_ref": "adjektiv_fest"
+      },
+      {
+        "wort": "hartnäckig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سمج",
+          "en": "stubborn"
+        },
+        "id_ref": "adjektiv_hartnaeckig"
+      },
+      {
+        "wort": "loslassen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رها کردن",
+          "en": "to let go"
+        },
+        "id_ref": "verb_loslassen"
+      },
+      {
+        "wort": "der Zahn",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دندان",
+          "en": "tooth"
+        },
+        "id_ref": "nomen_zahn"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
