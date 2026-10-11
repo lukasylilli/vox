@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausbleiben",
+  "wort": "ausbleiben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اتفاق نیفتادن، نیامدن (نتیجه، باران)",
+      "دیر به خانه آمدن، بیرون ماندن"
+    ],
+    "en": [
+      "to fail to come",
+      "not to happen",
+      "to stay out"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈaʊ̯sˌblaɪ̯bn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Regen bleibt aus.",
+      "uebersetzung": {
+        "fa": "باران نمی‌بارد.",
+        "en": "The rain doesn't come."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der erhoffte Erfolg ist leider ausgeblieben, obwohl das ganze Team hart gearbeitet hat.",
+      "uebersetzung": {
+        "fa": "موفقیتی که انتظارش را داشتیم متأسفانه حاصل نشد، با این‌که کل تیم سخت کار کرد.",
+        "en": "Unfortunately, the hoped-for success did not materialise, even though the whole team worked hard."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fehlen",
+      "uebersetzung": {
+        "fa": "نبودن، کم بودن",
+        "en": "to be missing"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "eintreten",
+      "uebersetzung": {
+        "fa": "اتفاق افتادن",
+        "en": "to occur"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند: بیرون) + bleiben (ماندن)",
+    "en": "aus- (prefix: out, away) + bleiben (to stay)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "ausbleiben",
+      "praeteritum": "blieb aus",
+      "partizip2": "ausgeblieben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bleibe aus",
+        "du": "bleibst aus",
+        "er_sie_es": "bleibt aus",
+        "wir": "bleiben aus",
+        "ihr": "bleibt aus",
+        "sie_Sie": "bleiben aus"
+      },
+      "praeteritum": {
+        "ich": "blieb aus",
+        "du": "bliebst aus",
+        "er_sie_es": "blieb aus",
+        "wir": "blieben aus",
+        "ihr": "bliebt aus",
+        "sie_Sie": "blieben aus"
+      },
+      "konjunktiv1": {
+        "ich": "bleibe aus",
+        "du": "bleibest aus",
+        "er_sie_es": "bleibe aus",
+        "wir": "bleiben aus",
+        "ihr": "bleibet aus",
+        "sie_Sie": "bleiben aus"
+      },
+      "konjunktiv2": {
+        "ich": "bliebe aus",
+        "du": "bliebest aus",
+        "er_sie_es": "bliebe aus",
+        "wir": "blieben aus",
+        "ihr": "bliebet aus",
+        "sie_Sie": "blieben aus"
+      },
+      "imperativ": {
+        "du": "Bleib aus!",
+        "ihr": "Bleibt aus!",
+        "Sie": "Bleiben Sie aus!"
+      }
+    },
+    "partizip1": "ausbleibend",
+    "nominalisierung": "das Ausbleiben"
+  },
+  "wortnetz": {
+    "grundwort": "bleiben",
+    "woerter": [
+      {
+        "wort": "bleiben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ماندن",
+          "en": "to stay"
+        },
+        "id_ref": "verb_bleiben"
+      },
+      {
+        "wort": "fehlen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نبودن، غایب بودن",
+          "en": "to be missing"
+        },
+        "id_ref": "verb_fehlen"
+      },
+      {
+        "wort": "der Erfolg",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "موفقیت",
+          "en": "success"
+        },
+        "id_ref": "nomen_erfolg"
+      },
+      {
+        "wort": "passieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اتفاق افتادن",
+          "en": "to happen"
+        },
+        "id_ref": "verb_passieren"
+      },
+      {
+        "wort": "eintreten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "وارد شدن، رخ دادن",
+          "en": "to enter, to occur"
+        },
+        "id_ref": "verb_eintreten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

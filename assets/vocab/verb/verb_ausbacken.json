@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausbacken",
+  "wort": "ausbacken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کامل پختن (در فر)",
+      "سرخ کردن در روغن"
+    ],
+    "en": [
+      "to bake through",
+      "to deep-fry"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Essen",
+    "Kochen"
+  ],
+  "ipa": "ˈaʊ̯sˌbakn̩",
+  "anmerkung": "Präsens auch: du backst aus, er backt aus; Präteritum veraltet: buk aus",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir backen die Krapfen in Öl aus.",
+      "uebersetzung": {
+        "fa": "پیراشکی‌ها را در روغن سرخ می‌کنیم.",
+        "en": "We deep-fry the doughnuts in oil."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Kuchen war innen noch roh, weil er nicht lange genug ausgebacken worden war.",
+      "uebersetzung": {
+        "fa": "کیک داخلش هنوز خام بود، چون به‌اندازه‌ی کافی نپخته بود.",
+        "en": "The cake was still raw inside because it hadn't been baked through long enough."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "frittieren",
+      "uebersetzung": {
+        "fa": "سرخ کردن در روغن",
+        "en": "to deep-fry"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند: تا آخر) + backen (پختن در فر)",
+    "en": "aus- (prefix: through, completely) + backen (to bake)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas ausbacken",
+        "bedeutung": "etwas fertig backen oder in Fett backen — mit Akkusativ",
+        "beispiel": "Sie backt die Apfelringe in heißem Fett aus.",
+        "uebersetzung": {
+          "fa": "او حلقه‌های سیب را در روغن داغ سرخ می‌کند.",
+          "en": "She deep-fries the apple rings in hot fat."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausbacken",
+      "praeteritum": "backte aus",
+      "partizip2": "ausgebacken"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "backe aus",
+        "du": "bäckst aus",
+        "er_sie_es": "bäckt aus",
+        "wir": "backen aus",
+        "ihr": "backt aus",
+        "sie_Sie": "backen aus"
+      },
+      "praeteritum": {
+        "ich": "backte aus",
+        "du": "backtest aus",
+        "er_sie_es": "backte aus",
+        "wir": "backten aus",
+        "ihr": "backtet aus",
+        "sie_Sie": "backten aus"
+      },
+      "konjunktiv1": {
+        "ich": "backe aus",
+        "du": "backest aus",
+        "er_sie_es": "backe aus",
+        "wir": "backen aus",
+        "ihr": "backet aus",
+        "sie_Sie": "backen aus"
+      },
+      "konjunktiv2": {
+        "ich": "backte aus",
+        "du": "backtest aus",
+        "er_sie_es": "backte aus",
+        "wir": "backten aus",
+        "ihr": "backtet aus",
+        "sie_Sie": "backten aus"
+      },
+      "imperativ": {
+        "du": "Back aus!",
+        "ihr": "Backt aus!",
+        "Sie": "Backen Sie aus!"
+      }
+    },
+    "partizip1": "ausbackend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "backen",
+    "woerter": [
+      {
+        "wort": "backen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پختن در فر",
+          "en": "to bake"
+        },
+        "id_ref": "verb_backen"
+      },
+      {
+        "wort": "der Kuchen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کیک",
+          "en": "cake"
+        },
+        "id_ref": "nomen_kuchen"
+      },
+      {
+        "wort": "das Öl",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "روغن",
+          "en": "oil"
+        },
+        "id_ref": "nomen_oel"
+      },
+      {
+        "wort": "braten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرخ کردن",
+          "en": "to fry"
+        },
+        "id_ref": "verb_braten"
+      },
+      {
+        "wort": "frittieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سرخ کردن در روغن",
+          "en": "to deep-fry"
+        },
+        "id_ref": "verb_frittieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

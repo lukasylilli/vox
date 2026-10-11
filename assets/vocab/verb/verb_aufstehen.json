@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_aufstehen",
+  "wort": "aufstehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "از خواب بیدار شدن و برخاستن",
+      "بلند شدن (از جا)"
+    ],
+    "en": [
+      "to get up",
+      "to stand up"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Tagesablauf"
+  ],
+  "ipa": "ˈaʊ̯fˌʃteːən",
+  "anmerkung": "Konjunktiv II auch: stände auf (seltener)",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich stehe jeden Tag um sieben Uhr auf.",
+      "uebersetzung": {
+        "fa": "هر روز ساعت هفت از خواب بیدار می‌شوم.",
+        "en": "I get up at seven o'clock every day."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Als die alte Dame in den Bus stieg, ist ein junger Mann sofort aufgestanden.",
+      "uebersetzung": {
+        "fa": "وقتی خانم مسن سوار اتوبوس شد، مرد جوانی فوراً از جایش بلند شد.",
+        "en": "When the old lady got on the bus, a young man immediately stood up."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich erheben",
+      "uebersetzung": {
+        "fa": "برخاستن",
+        "en": "to rise"
+      }
+    },
+    {
+      "wort": "aufwachen",
+      "uebersetzung": {
+        "fa": "بیدار شدن",
+        "en": "to wake up"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sich hinsetzen",
+      "uebersetzung": {
+        "fa": "نشستن",
+        "en": "to sit down"
+      }
+    },
+    {
+      "wort": "ins Bett gehen",
+      "uebersetzung": {
+        "fa": "به رختخواب رفتن",
+        "en": "to go to bed"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auf- (پیشوند: بالا) + stehen (ایستادن)",
+    "en": "auf- (prefix: up) + stehen (to stand)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "aufstehen",
+      "praeteritum": "stand auf",
+      "partizip2": "aufgestanden"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stehe auf",
+        "du": "stehst auf",
+        "er_sie_es": "steht auf",
+        "wir": "stehen auf",
+        "ihr": "steht auf",
+        "sie_Sie": "stehen auf"
+      },
+      "praeteritum": {
+        "ich": "stand auf",
+        "du": "standest auf",
+        "er_sie_es": "stand auf",
+        "wir": "standen auf",
+        "ihr": "standet auf",
+        "sie_Sie": "standen auf"
+      },
+      "konjunktiv1": {
+        "ich": "stehe auf",
+        "du": "stehest auf",
+        "er_sie_es": "stehe auf",
+        "wir": "stehen auf",
+        "ihr": "stehet auf",
+        "sie_Sie": "stehen auf"
+      },
+      "konjunktiv2": {
+        "ich": "stünde auf",
+        "du": "stündest auf",
+        "er_sie_es": "stünde auf",
+        "wir": "stünden auf",
+        "ihr": "stündet auf",
+        "sie_Sie": "stünden auf"
+      },
+      "imperativ": {
+        "du": "Steh auf!",
+        "ihr": "Steht auf!",
+        "Sie": "Stehen Sie auf!"
+      }
+    },
+    "partizip1": "aufstehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "stehen",
+    "woerter": [
+      {
+        "wort": "stehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ایستادن",
+          "en": "to stand"
+        },
+        "id_ref": "verb_stehen"
+      },
+      {
+        "wort": "aufwachen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیدار شدن",
+          "en": "to wake up"
+        },
+        "id_ref": "verb_aufwachen"
+      },
+      {
+        "wort": "der Morgen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "صبح",
+          "en": "morning"
+        },
+        "id_ref": "nomen_morgen"
+      },
+      {
+        "wort": "der Wecker",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ساعت زنگ‌دار",
+          "en": "alarm clock"
+        },
+        "id_ref": "nomen_wecker"
+      },
+      {
+        "wort": "früh",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زود",
+          "en": "early"
+        },
+        "id_ref": "adjektiv_frueh"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

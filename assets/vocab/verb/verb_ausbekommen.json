@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausbekommen",
+  "wort": "ausbekommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(به‌زحمت) درآوردن (کفش، لباس)",
+      "تا آخر خواندن یا خوردن"
+    ],
+    "en": [
+      "to get off (shoes, clothes)",
+      "to finish (reading, drinking)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag",
+    "Kleidung"
+  ],
+  "ipa": "ˈaʊ̯sbəˌkɔmən",
+  "anmerkung": "umgangssprachlich",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich bekomme den Stiefel nicht aus.",
+      "uebersetzung": {
+        "fa": "نمی‌توانم چکمه را دربیاورم.",
+        "en": "I can't get the boot off."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Buch war so spannend, dass ich es in einer Nacht ausbekommen habe.",
+      "uebersetzung": {
+        "fa": "کتاب آن‌قدر هیجان‌انگیز بود که یک‌شبه تا آخر خواندمش.",
+        "en": "The book was so gripping that I finished it in one night."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausziehen",
+      "uebersetzung": {
+        "fa": "درآوردن (لباس)",
+        "en": "to take off"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "anbekommen",
+      "uebersetzung": {
+        "fa": "(به‌زحمت) پوشیدن",
+        "en": "to get on"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند: بیرون، تا آخر) + bekommen (به دست آوردن)",
+    "en": "aus- (prefix: out, to the end) + bekommen (to get)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas ausbekommen",
+        "bedeutung": "etwas (mit Mühe) ausziehen oder zu Ende bringen — mit Akkusativ",
+        "beispiel": "Bekommst du den Ring nicht mehr aus?",
+        "uebersetzung": {
+          "fa": "دیگر نمی‌توانی انگشتر را دربیاوری؟",
+          "en": "Can't you get the ring off any more?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausbekommen",
+      "praeteritum": "bekam aus",
+      "partizip2": "ausbekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bekomme aus",
+        "du": "bekommst aus",
+        "er_sie_es": "bekommt aus",
+        "wir": "bekommen aus",
+        "ihr": "bekommt aus",
+        "sie_Sie": "bekommen aus"
+      },
+      "praeteritum": {
+        "ich": "bekam aus",
+        "du": "bekamst aus",
+        "er_sie_es": "bekam aus",
+        "wir": "bekamen aus",
+        "ihr": "bekamt aus",
+        "sie_Sie": "bekamen aus"
+      },
+      "konjunktiv1": {
+        "ich": "bekomme aus",
+        "du": "bekommest aus",
+        "er_sie_es": "bekomme aus",
+        "wir": "bekommen aus",
+        "ihr": "bekommet aus",
+        "sie_Sie": "bekommen aus"
+      },
+      "konjunktiv2": {
+        "ich": "bekäme aus",
+        "du": "bekämest aus",
+        "er_sie_es": "bekäme aus",
+        "wir": "bekämen aus",
+        "ihr": "bekämet aus",
+        "sie_Sie": "bekämen aus"
+      },
+      "imperativ": {
+        "du": "Bekomm aus!",
+        "ihr": "Bekommt aus!",
+        "Sie": "Bekommen Sie aus!"
+      }
+    },
+    "partizip1": "ausbekommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bekommen",
+    "woerter": [
+      {
+        "wort": "bekommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گرفتن، به دست آوردن",
+          "en": "to get"
+        },
+        "id_ref": "verb_bekommen"
+      },
+      {
+        "wort": "ausziehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "درآوردن (لباس)",
+          "en": "to take off"
+        },
+        "id_ref": "verb_ausziehen"
+      },
+      {
+        "wort": "der Schuh",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کفش",
+          "en": "shoe"
+        },
+        "id_ref": "nomen_schuh"
+      },
+      {
+        "wort": "der Stiefel",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چکمه",
+          "en": "boot"
+        },
+        "id_ref": "nomen_stiefel"
+      },
+      {
+        "wort": "auslesen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تا آخر خواندن",
+          "en": "to read to the end"
+        },
+        "id_ref": "verb_auslesen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

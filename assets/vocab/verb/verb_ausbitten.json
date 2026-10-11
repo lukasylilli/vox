@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausbitten",
+  "wort": "ausbitten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(sich etwas ausbitten) خواستن، درخواست کردن (با تأکید)"
+    ],
+    "en": [
+      "to request",
+      "to insist on (something)"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "ˈaʊ̯sˌbɪtn̩",
+  "anmerkung": "gehoben; fast nur reflexiv: «sich (Dat) etwas ausbitten»; «Das möchte ich mir ausgebeten haben!» = nachdrückliche Forderung",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich bitte mir Ruhe aus!",
+      "uebersetzung": {
+        "fa": "خواهش می‌کنم ساکت باشید!",
+        "en": "I must ask for quiet!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Er bat sich etwas Bedenkzeit aus, bevor er das Angebot annahm.",
+      "uebersetzung": {
+        "fa": "قبل از این‌که پیشنهاد را بپذیرد، کمی وقت برای فکر کردن خواست.",
+        "en": "He asked for some time to think before accepting the offer."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verlangen",
+      "uebersetzung": {
+        "fa": "خواستن، مطالبه کردن",
+        "en": "to demand"
+      }
+    },
+    {
+      "wort": "erbitten",
+      "uebersetzung": {
+        "fa": "درخواست کردن",
+        "en": "to request"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند) + bitten (خواهش کردن)",
+    "en": "aus- (prefix) + bitten (to ask)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich (Dat) etwas ausbitten",
+        "bedeutung": "etwas nachdrücklich verlangen — Dativ (reflexiv) + Akkusativ",
+        "beispiel": "Ich bitte mir mehr Respekt aus!",
+        "uebersetzung": {
+          "fa": "خواهش می‌کنم احترام بیشتری بگذارید!",
+          "en": "I insist on more respect!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausbitten",
+      "praeteritum": "bat aus",
+      "partizip2": "ausgebeten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bitte aus",
+        "du": "bittest aus",
+        "er_sie_es": "bittet aus",
+        "wir": "bitten aus",
+        "ihr": "bittet aus",
+        "sie_Sie": "bitten aus"
+      },
+      "praeteritum": {
+        "ich": "bat aus",
+        "du": "batest aus",
+        "er_sie_es": "bat aus",
+        "wir": "baten aus",
+        "ihr": "batet aus",
+        "sie_Sie": "baten aus"
+      },
+      "konjunktiv1": {
+        "ich": "bitte aus",
+        "du": "bittest aus",
+        "er_sie_es": "bitte aus",
+        "wir": "bitten aus",
+        "ihr": "bittet aus",
+        "sie_Sie": "bitten aus"
+      },
+      "konjunktiv2": {
+        "ich": "bäte aus",
+        "du": "bätest aus",
+        "er_sie_es": "bäte aus",
+        "wir": "bäten aus",
+        "ihr": "bätet aus",
+        "sie_Sie": "bäten aus"
+      },
+      "imperativ": {
+        "du": "Bitte aus!",
+        "ihr": "Bittet aus!",
+        "Sie": "Bitten Sie aus!"
+      }
+    },
+    "partizip1": "ausbittend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bitten",
+    "woerter": [
+      {
+        "wort": "bitten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خواهش کردن",
+          "en": "to ask"
+        },
+        "id_ref": "verb_bitten"
+      },
+      {
+        "wort": "die Bitte",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خواهش",
+          "en": "request"
+        },
+        "id_ref": "nomen_bitte"
+      },
+      {
+        "wort": "verlangen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مطالبه کردن",
+          "en": "to demand"
+        },
+        "id_ref": "verb_verlangen"
+      },
+      {
+        "wort": "die Ruhe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آرامش، سکوت",
+          "en": "quiet"
+        },
+        "id_ref": "nomen_ruhe"
+      },
+      {
+        "wort": "erbitten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "درخواست کردن",
+          "en": "to request"
+        },
+        "id_ref": "verb_erbitten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

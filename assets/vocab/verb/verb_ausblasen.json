@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausblasen",
+  "wort": "ausblasen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "با فوت خاموش کردن (شمع)",
+      "فوت کردن و خالی کردن"
+    ],
+    "en": [
+      "to blow out"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Feste"
+  ],
+  "ipa": "ˈaʊ̯sˌblaːzn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Kind bläst die Kerzen aus.",
+      "uebersetzung": {
+        "fa": "بچه شمع‌ها را فوت می‌کند.",
+        "en": "The child blows out the candles."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bevor sie die Kerzen auf der Torte ausblies, wünschte sie sich etwas.",
+      "uebersetzung": {
+        "fa": "قبل از این‌که شمع‌های کیک را فوت کند، آرزویی کرد.",
+        "en": "Before she blew out the candles on the cake, she made a wish."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "auspusten",
+      "uebersetzung": {
+        "fa": "فوت کردن و خاموش کردن",
+        "en": "to blow out"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "anzünden",
+      "uebersetzung": {
+        "fa": "روشن کردن",
+        "en": "to light"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند: خاموش) + blasen (فوت کردن)",
+    "en": "aus- (prefix: out) + blasen (to blow)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas ausblasen",
+        "bedeutung": "durch Blasen löschen — mit Akkusativ",
+        "beispiel": "Vergiss nicht, die Kerze auszublasen!",
+        "uebersetzung": {
+          "fa": "یادت نرود شمع را خاموش کنی!",
+          "en": "Don't forget to blow out the candle!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausblasen",
+      "praeteritum": "blies aus",
+      "partizip2": "ausgeblasen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "blase aus",
+        "du": "bläst aus",
+        "er_sie_es": "bläst aus",
+        "wir": "blasen aus",
+        "ihr": "blast aus",
+        "sie_Sie": "blasen aus"
+      },
+      "praeteritum": {
+        "ich": "blies aus",
+        "du": "bliesest aus",
+        "er_sie_es": "blies aus",
+        "wir": "bliesen aus",
+        "ihr": "bliest aus",
+        "sie_Sie": "bliesen aus"
+      },
+      "konjunktiv1": {
+        "ich": "blase aus",
+        "du": "blasest aus",
+        "er_sie_es": "blase aus",
+        "wir": "blasen aus",
+        "ihr": "blaset aus",
+        "sie_Sie": "blasen aus"
+      },
+      "konjunktiv2": {
+        "ich": "bliese aus",
+        "du": "bliesest aus",
+        "er_sie_es": "bliese aus",
+        "wir": "bliesen aus",
+        "ihr": "blieset aus",
+        "sie_Sie": "bliesen aus"
+      },
+      "imperativ": {
+        "du": "Blas aus!",
+        "ihr": "Blast aus!",
+        "Sie": "Blasen Sie aus!"
+      }
+    },
+    "partizip1": "ausblasend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "blasen",
+    "woerter": [
+      {
+        "wort": "die Kerze",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شمع",
+          "en": "candle"
+        },
+        "id_ref": "nomen_kerze"
+      },
+      {
+        "wort": "der Geburtstag",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تولد",
+          "en": "birthday"
+        },
+        "id_ref": "nomen_geburtstag"
+      },
+      {
+        "wort": "anzünden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "روشن کردن",
+          "en": "to light"
+        },
+        "id_ref": "verb_anzuenden"
+      },
+      {
+        "wort": "blasen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فوت کردن، دمیدن",
+          "en": "to blow"
+        },
+        "id_ref": "verb_blasen"
+      },
+      {
+        "wort": "löschen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خاموش کردن",
+          "en": "to extinguish"
+        },
+        "id_ref": "verb_loeschen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
