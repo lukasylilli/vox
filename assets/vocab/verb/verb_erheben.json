@@ -1,0 +1,204 @@
+{
+  "schema": "3.0",
+  "id": "verb_erheben",
+  "wort": "erheben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(دست یا لیوانی را) بالا بردن",
+      "(مالیات، عوارض یا داده‌ای را) وضع و دریافت کردن، گردآوری کردن",
+      "(sich erheben) برخاستن؛ (علیه کسی) شورش کردن"
+    ],
+    "en": [
+      "to raise, to lift",
+      "to levy (taxes); to collect (data)",
+      "(sich) to rise, to get up; to revolt"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Politik",
+    "Wissenschaft",
+    "Recht"
+  ],
+  "ipa": "ɛɐ̯ˈheːbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Alle erheben das Glas.",
+      "uebersetzung": {
+        "fa": "همه لیوان‌هایشان را بالا می‌برند.",
+        "en": "Everyone raises their glass."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Für die Studie wurden Daten von über tausend Pflegekräften erhoben, um ihre Arbeitsbedingungen zu untersuchen.",
+      "uebersetzung": {
+        "fa": "برای این پژوهش داده‌هایی از بیش از هزار پرستار گردآوری شد تا شرایط کاری‌شان بررسی شود.",
+        "en": "For the study, data were collected from over a thousand nurses in order to examine their working conditions."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "heben",
+      "uebersetzung": {
+        "fa": "بلند کردن",
+        "en": "to lift"
+      }
+    },
+    {
+      "wort": "aufstehen",
+      "uebersetzung": {
+        "fa": "برخاستن",
+        "en": "to get up"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "senken",
+      "uebersetzung": {
+        "fa": "پایین آوردن",
+        "en": "to lower"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (پیشوند (رسیدن به نتیجه)) + heben (بلند کردن)",
+    "en": "er- (prefix (achieving a result)) + heben (to lift)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich gegen + Akk erheben",
+        "bedeutung": "gegen jemanden rebellieren",
+        "beispiel": "Das Volk erhob sich gegen den Diktator.",
+        "uebersetzung": {
+          "fa": "مردم علیه دیکتاتور قیام کردند.",
+          "en": "The people rose up against the dictator."
+        }
+      },
+      {
+        "muster": "Anspruch auf + Akk erheben",
+        "bedeutung": "etwas für sich fordern",
+        "beispiel": "Beide Länder erheben Anspruch auf die Insel.",
+        "uebersetzung": {
+          "fa": "هر دو کشور ادعای مالکیت جزیره را دارند.",
+          "en": "Both countries lay claim to the island."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "erheben",
+      "praeteritum": "erhob",
+      "partizip2": "erhoben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erhebe",
+        "du": "erhebst",
+        "er_sie_es": "erhebt",
+        "wir": "erheben",
+        "ihr": "erhebt",
+        "sie_Sie": "erheben"
+      },
+      "praeteritum": {
+        "ich": "erhob",
+        "du": "erhobst",
+        "er_sie_es": "erhob",
+        "wir": "erhoben",
+        "ihr": "erhobt",
+        "sie_Sie": "erhoben"
+      },
+      "konjunktiv1": {
+        "ich": "erhebe",
+        "du": "erhebest",
+        "er_sie_es": "erhebe",
+        "wir": "erheben",
+        "ihr": "erhebet",
+        "sie_Sie": "erheben"
+      },
+      "konjunktiv2": {
+        "ich": "erhöbe",
+        "du": "erhöbest",
+        "er_sie_es": "erhöbe",
+        "wir": "erhöben",
+        "ihr": "erhöbet",
+        "sie_Sie": "erhöben"
+      },
+      "imperativ": {
+        "du": "Erheb!",
+        "ihr": "Erhebt!",
+        "Sie": "Erheben Sie!"
+      }
+    },
+    "partizip1": "erhebend",
+    "nominalisierung": "die Erhebung"
+  },
+  "wortnetz": {
+    "grundwort": "heben",
+    "woerter": [
+      {
+        "wort": "heben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بلند کردن",
+          "en": "to lift"
+        },
+        "id_ref": "verb_heben"
+      },
+      {
+        "wort": "die Erhebung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "گردآوری (داده)؛ قیام",
+          "en": "survey; uprising"
+        },
+        "id_ref": "nomen_erhebung"
+      },
+      {
+        "wort": "aufstehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "برخاستن",
+          "en": "to get up"
+        },
+        "id_ref": "verb_aufstehen"
+      },
+      {
+        "wort": "die Steuer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مالیات",
+          "en": "tax"
+        },
+        "id_ref": "nomen_steuer"
+      },
+      {
+        "wort": "die Daten",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "داده‌ها",
+          "en": "data"
+        },
+        "id_ref": "nomen_daten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

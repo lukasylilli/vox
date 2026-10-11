@@ -1,0 +1,200 @@
+{
+  "schema": "3.0",
+  "id": "verb_erkennen",
+  "wort": "erkennen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شناختن، تشخیص دادن",
+      "(به چیزی) پی بردن، درک کردن"
+    ],
+    "en": [
+      "to recognize, to identify",
+      "to realize, to see"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Wahrnehmung",
+    "Denken",
+    "Medizin"
+  ],
+  "ipa": "ɛɐ̯ˈkɛnən",
+  "anmerkung": "Gemischtes Verb: erkannte, erkannt.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich habe dich sofort erkannt.",
+      "uebersetzung": {
+        "fa": "فوراً شناختمت.",
+        "en": "I recognized you immediately."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Erst später hat er erkannt, dass er einen großen Fehler gemacht hatte.",
+      "uebersetzung": {
+        "fa": "تازه بعدها فهمید که اشتباه بزرگی کرده بود.",
+        "en": "Only later did he realize that he had made a big mistake."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wiedererkennen",
+      "uebersetzung": {
+        "fa": "بازشناختن",
+        "en": "to recognize"
+      }
+    },
+    {
+      "wort": "feststellen",
+      "uebersetzung": {
+        "fa": "تشخیص دادن، متوجه شدن",
+        "en": "to establish"
+      }
+    },
+    {
+      "wort": "begreifen",
+      "uebersetzung": {
+        "fa": "درک کردن",
+        "en": "to grasp"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "übersehen",
+      "uebersetzung": {
+        "fa": "نادیده گرفتن، ندیدن",
+        "en": "to overlook"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (پیشوند (رسیدن به نتیجه)) + kennen (شناختن)",
+    "en": "er- (prefix (achieving a result)) + kennen (to know)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden/etwas an + Dat erkennen",
+        "bedeutung": "jemanden anhand eines Merkmals identifizieren",
+        "beispiel": "Ich erkenne ihn an seiner Stimme.",
+        "uebersetzung": {
+          "fa": "او را از صدایش می‌شناسم.",
+          "en": "I recognize him by his voice."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "erkennen",
+      "praeteritum": "erkannte",
+      "partizip2": "erkannt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erkenne",
+        "du": "erkennst",
+        "er_sie_es": "erkennt",
+        "wir": "erkennen",
+        "ihr": "erkennt",
+        "sie_Sie": "erkennen"
+      },
+      "praeteritum": {
+        "ich": "erkannte",
+        "du": "erkanntest",
+        "er_sie_es": "erkannte",
+        "wir": "erkannten",
+        "ihr": "erkanntet",
+        "sie_Sie": "erkannten"
+      },
+      "konjunktiv1": {
+        "ich": "erkenne",
+        "du": "erkennest",
+        "er_sie_es": "erkenne",
+        "wir": "erkennen",
+        "ihr": "erkennet",
+        "sie_Sie": "erkennen"
+      },
+      "konjunktiv2": {
+        "ich": "erkennte",
+        "du": "erkenntest",
+        "er_sie_es": "erkennte",
+        "wir": "erkennten",
+        "ihr": "erkenntet",
+        "sie_Sie": "erkennten"
+      },
+      "imperativ": {
+        "du": "Erkenn!",
+        "ihr": "Erkennt!",
+        "Sie": "Erkennen Sie!"
+      }
+    },
+    "partizip1": "erkennend",
+    "nominalisierung": "die Erkenntnis"
+  },
+  "wortnetz": {
+    "grundwort": "kennen",
+    "woerter": [
+      {
+        "wort": "kennen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شناختن",
+          "en": "to know"
+        },
+        "id_ref": "verb_kennen"
+      },
+      {
+        "wort": "die Erkenntnis",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شناخت، دریافت",
+          "en": "insight"
+        },
+        "id_ref": "nomen_erkenntnis"
+      },
+      {
+        "wort": "feststellen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "متوجه شدن",
+          "en": "to establish"
+        },
+        "id_ref": "verb_feststellen"
+      },
+      {
+        "wort": "verstehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فهمیدن",
+          "en": "to understand"
+        },
+        "id_ref": "verb_verstehen"
+      },
+      {
+        "wort": "die Diagnose",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تشخیص (پزشکی)",
+          "en": "diagnosis"
+        },
+        "id_ref": "nomen_diagnose"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

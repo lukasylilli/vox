@@ -1019,6 +1019,12 @@ const zurueckgestellt = <String>{
   'erbieten', // zurückgestellt (Regel 14/16): sich erbieten — gehoben, selten 2026-10-11
   'erbleichen', // zurückgestellt (Regel 14/16): Konjugation schwankt (erbleichte/erblich) 2026-10-11
   'erfechten', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-11
+  'erheischen', // zurückgestellt (Regel 14/16): gehoben, veraltet 2026-10-11
+  'erkiesen', // zurückgestellt (Regel 14/16): veraltet, selten 2026-10-11
+  'erküren', // zurückgestellt (Regel 14/16): veraltet, selten 2026-10-11
+  'erlaufen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'erlesen', // zurückgestellt (Regel 14/16): als Verb gehoben; meist Adjektiv «erlesen» 2026-10-11
+  'erlügen', // zurückgestellt (Regel 14/16): selten 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_erliegen",
+  "wort": "erliegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(در اثر بیماری یا جراحتی) جان باختن",
+      "تسلیم (وسوسه یا فریبی) شدن"
+    ],
+    "en": [
+      "to succumb to, to die of",
+      "to fall for, to succumb to (temptation)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Gefühle"
+  ],
+  "ipa": "ɛɐ̯ˈliːɡn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er ist seinen Verletzungen erlegen.",
+      "uebersetzung": {
+        "fa": "او بر اثر جراحاتش جان باخت.",
+        "en": "He succumbed to his injuries."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Viele Menschen erliegen der Versuchung, im Internet Dinge zu kaufen, die sie gar nicht brauchen.",
+      "uebersetzung": {
+        "fa": "بسیاری از مردم تسلیم وسوسه‌ی خرید اینترنتی چیزهایی می‌شوند که اصلاً به آن‌ها نیاز ندارند.",
+        "en": "Many people succumb to the temptation to buy things online that they don't need at all."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sterben an",
+      "uebersetzung": {
+        "fa": "مردن بر اثر",
+        "en": "to die of"
+      }
+    },
+    {
+      "wort": "nachgeben",
+      "uebersetzung": {
+        "fa": "تسلیم شدن",
+        "en": "to give in"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "widerstehen",
+      "uebersetzung": {
+        "fa": "مقاومت کردن",
+        "en": "to resist"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (پیشوند (رسیدن به نتیجه)) + liegen (دراز کشیدن)",
+    "en": "er- (prefix (achieving a result)) + liegen (to lie)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "einer Sache (+ Dat) erliegen",
+        "bedeutung": "einer Krankheit/Versuchung nicht standhalten",
+        "beispiel": "Sie ist einem Irrtum erlegen.",
+        "uebersetzung": {
+          "fa": "او دچار اشتباه شد (فریب خورد).",
+          "en": "She fell prey to a mistake."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "erliegen",
+      "praeteritum": "erlag",
+      "partizip2": "erlegen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erliege",
+        "du": "erliegst",
+        "er_sie_es": "erliegt",
+        "wir": "erliegen",
+        "ihr": "erliegt",
+        "sie_Sie": "erliegen"
+      },
+      "praeteritum": {
+        "ich": "erlag",
+        "du": "erlagst",
+        "er_sie_es": "erlag",
+        "wir": "erlagen",
+        "ihr": "erlagt",
+        "sie_Sie": "erlagen"
+      },
+      "konjunktiv1": {
+        "ich": "erliege",
+        "du": "erliegest",
+        "er_sie_es": "erliege",
+        "wir": "erliegen",
+        "ihr": "erlieget",
+        "sie_Sie": "erliegen"
+      },
+      "konjunktiv2": {
+        "ich": "erläge",
+        "du": "erlägest",
+        "er_sie_es": "erläge",
+        "wir": "erlägen",
+        "ihr": "erläget",
+        "sie_Sie": "erlägen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "erliegend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "liegen",
+    "woerter": [
+      {
+        "wort": "sterben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مردن",
+          "en": "to die"
+        },
+        "id_ref": "verb_sterben"
+      },
+      {
+        "wort": "die Versuchung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "وسوسه",
+          "en": "temptation"
+        },
+        "id_ref": "nomen_versuchung"
+      },
+      {
+        "wort": "nachgeben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تسلیم شدن",
+          "en": "to give in"
+        },
+        "id_ref": "verb_nachgeben"
+      },
+      {
+        "wort": "widerstehen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مقاومت کردن",
+          "en": "to resist"
+        },
+        "id_ref": "verb_widerstehen"
+      },
+      {
+        "wort": "der Irrtum",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اشتباه",
+          "en": "error"
+        },
+        "id_ref": "nomen_irrtum"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

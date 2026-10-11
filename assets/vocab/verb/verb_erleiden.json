@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_erleiden",
+  "wort": "erleiden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(آسیب، ضرر یا شکستی را) متحمل شدن، دچار شدن"
+    ],
+    "en": [
+      "to suffer, to sustain (injury, loss, defeat)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Medizin",
+    "Sport"
+  ],
+  "ipa": "ɛɐ̯ˈlaɪ̯dn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er hat einen Schock erlitten.",
+      "uebersetzung": {
+        "fa": "او دچار شوک شد.",
+        "en": "He suffered a shock."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei dem Unfall hat die Fahrerin schwere Verletzungen erlitten und musste operiert werden.",
+      "uebersetzung": {
+        "fa": "راننده در این تصادف جراحت‌های سختی برداشت و باید جراحی می‌شد.",
+        "en": "The driver suffered serious injuries in the accident and had to be operated on."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "davontragen",
+      "uebersetzung": {
+        "fa": "(آسیب) برداشتن",
+        "en": "to sustain"
+      }
+    },
+    {
+      "wort": "hinnehmen müssen",
+      "uebersetzung": {
+        "fa": "ناچار به تحمل بودن",
+        "en": "to have to accept"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (پیشوند (رسیدن به نتیجه)) + leiden (رنج بردن)",
+    "en": "er- (prefix (achieving a result)) + leiden (to suffer)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "erleiden",
+      "praeteritum": "erlitt",
+      "partizip2": "erlitten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erleide",
+        "du": "erleidest",
+        "er_sie_es": "erleidet",
+        "wir": "erleiden",
+        "ihr": "erleidet",
+        "sie_Sie": "erleiden"
+      },
+      "praeteritum": {
+        "ich": "erlitt",
+        "du": "erlittest",
+        "er_sie_es": "erlitt",
+        "wir": "erlitten",
+        "ihr": "erlittet",
+        "sie_Sie": "erlitten"
+      },
+      "konjunktiv1": {
+        "ich": "erleide",
+        "du": "erleidest",
+        "er_sie_es": "erleide",
+        "wir": "erleiden",
+        "ihr": "erleidet",
+        "sie_Sie": "erleiden"
+      },
+      "konjunktiv2": {
+        "ich": "erlitte",
+        "du": "erlittest",
+        "er_sie_es": "erlitte",
+        "wir": "erlitten",
+        "ihr": "erlittet",
+        "sie_Sie": "erlitten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "erleidend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "leiden",
+    "woerter": [
+      {
+        "wort": "leiden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رنج بردن",
+          "en": "to suffer"
+        },
+        "id_ref": "verb_leiden"
+      },
+      {
+        "wort": "die Verletzung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جراحت",
+          "en": "injury"
+        },
+        "id_ref": "nomen_verletzung"
+      },
+      {
+        "wort": "der Herzinfarkt",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سکته‌ی قلبی",
+          "en": "heart attack"
+        },
+        "id_ref": "nomen_herzinfarkt"
+      },
+      {
+        "wort": "der Verlust",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ضرر، از دست دادن",
+          "en": "loss"
+        },
+        "id_ref": "nomen_verlust"
+      },
+      {
+        "wort": "die Niederlage",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شکست",
+          "en": "defeat"
+        },
+        "id_ref": "nomen_niederlage"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

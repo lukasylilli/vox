@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_erhalten",
+  "wort": "erhalten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دریافت کردن، گرفتن",
+      "حفظ کردن، نگه داشتن (در وضعیت خوب)"
+    ],
+    "en": [
+      "to receive, to get",
+      "to preserve, to maintain"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Kommunikation",
+    "Behörde",
+    "Natur"
+  ],
+  "ipa": "ɛɐ̯ˈhaltn̩",
+  "anmerkung": "Das Partizip «erhalten» wird auch adjektivisch gebraucht («gut erhalten»).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich habe Ihren Brief erhalten.",
+      "uebersetzung": {
+        "fa": "نامه‌ی شما را دریافت کردم.",
+        "en": "I have received your letter."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die alte Kirche wurde mit viel Geld erhalten, damit auch spätere Generationen sie besuchen können.",
+      "uebersetzung": {
+        "fa": "این کلیسای قدیمی با هزینه‌ی زیادی حفظ شد تا نسل‌های بعدی هم بتوانند از آن دیدن کنند.",
+        "en": "The old church was preserved at great expense so that later generations can visit it too."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bekommen",
+      "uebersetzung": {
+        "fa": "گرفتن",
+        "en": "to get"
+      }
+    },
+    {
+      "wort": "bewahren",
+      "uebersetzung": {
+        "fa": "حفظ کردن",
+        "en": "to preserve"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "senden",
+      "uebersetzung": {
+        "fa": "فرستادن",
+        "en": "to send"
+      }
+    },
+    {
+      "wort": "zerstören",
+      "uebersetzung": {
+        "fa": "ویران کردن",
+        "en": "to destroy"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (پیشوند (رسیدن به نتیجه)) + halten (نگه داشتن)",
+    "en": "er- (prefix (achieving a result)) + halten (to hold)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "erhalten",
+      "praeteritum": "erhielt",
+      "partizip2": "erhalten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erhalte",
+        "du": "erhältst",
+        "er_sie_es": "erhält",
+        "wir": "erhalten",
+        "ihr": "erhaltet",
+        "sie_Sie": "erhalten"
+      },
+      "praeteritum": {
+        "ich": "erhielt",
+        "du": "erhieltest",
+        "er_sie_es": "erhielt",
+        "wir": "erhielten",
+        "ihr": "erhieltet",
+        "sie_Sie": "erhielten"
+      },
+      "konjunktiv1": {
+        "ich": "erhalte",
+        "du": "erhaltest",
+        "er_sie_es": "erhalte",
+        "wir": "erhalten",
+        "ihr": "erhaltet",
+        "sie_Sie": "erhalten"
+      },
+      "konjunktiv2": {
+        "ich": "erhielte",
+        "du": "erhieltest",
+        "er_sie_es": "erhielte",
+        "wir": "erhielten",
+        "ihr": "erhieltet",
+        "sie_Sie": "erhielten"
+      },
+      "imperativ": {
+        "du": "Erhalte!",
+        "ihr": "Erhaltet!",
+        "Sie": "Erhalten Sie!"
+      }
+    },
+    "partizip1": "erhaltend",
+    "nominalisierung": "der Erhalt"
+  },
+  "wortnetz": {
+    "grundwort": "halten",
+    "woerter": [
+      {
+        "wort": "bekommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گرفتن",
+          "en": "to get"
+        },
+        "id_ref": "verb_bekommen"
+      },
+      {
+        "wort": "der Erhalt",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دریافت؛ حفظ",
+          "en": "receipt; preservation"
+        },
+        "id_ref": "nomen_erhalt"
+      },
+      {
+        "wort": "bewahren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حفظ کردن",
+          "en": "to preserve"
+        },
+        "id_ref": "verb_bewahren"
+      },
+      {
+        "wort": "der Empfänger",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گیرنده",
+          "en": "recipient"
+        },
+        "id_ref": "nomen_empfaenger"
+      },
+      {
+        "wort": "halten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to hold"
+        },
+        "id_ref": "verb_halten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

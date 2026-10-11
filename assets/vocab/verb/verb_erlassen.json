@@ -1,0 +1,193 @@
+{
+  "schema": "3.0",
+  "id": "verb_erlassen",
+  "wort": "erlassen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(قانون، دستور یا فرمانی را) صادر کردن، وضع کردن",
+      "(بدهی، جریمه یا وظیفه‌ای را) بخشیدن، معاف کردن"
+    ],
+    "en": [
+      "to issue, to enact (a law, decree)",
+      "to remit, to let off (a debt, penalty)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Politik",
+    "Behörde"
+  ],
+  "ipa": "ɛɐ̯ˈlasn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Regierung erlässt ein Gesetz.",
+      "uebersetzung": {
+        "fa": "دولت قانونی وضع می‌کند.",
+        "en": "The government is passing a law."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil die Familie in Not geraten war, hat ihr die Gemeinde die Gebühren für den Kindergarten erlassen.",
+      "uebersetzung": {
+        "fa": "چون خانواده دچار تنگدستی شده بود، شهرداری هزینه‌های مهدکودک را به آن‌ها بخشید.",
+        "en": "Because the family had fallen on hard times, the municipality waived the nursery fees for them."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verabschieden",
+      "uebersetzung": {
+        "fa": "(قانون) تصویب کردن",
+        "en": "to pass"
+      }
+    },
+    {
+      "wort": "verordnen",
+      "uebersetzung": {
+        "fa": "مقرر کردن",
+        "en": "to decree"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "aufheben",
+      "uebersetzung": {
+        "fa": "لغو کردن",
+        "en": "to repeal"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (پیشوند (رسیدن به نتیجه)) + lassen (گذاشتن، رها کردن)",
+    "en": "er- (prefix (achieving a result)) + lassen (to let)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem etwas erlassen (+ Dat + Akk)",
+        "bedeutung": "jemanden von einer Pflicht oder Schuld befreien",
+        "beispiel": "Der Richter hat ihm die Strafe erlassen.",
+        "uebersetzung": {
+          "fa": "قاضی مجازاتش را بخشید.",
+          "en": "The judge let him off the punishment."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "erlassen",
+      "praeteritum": "erließ",
+      "partizip2": "erlassen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erlasse",
+        "du": "erlässt",
+        "er_sie_es": "erlässt",
+        "wir": "erlassen",
+        "ihr": "erlasst",
+        "sie_Sie": "erlassen"
+      },
+      "praeteritum": {
+        "ich": "erließ",
+        "du": "erließest",
+        "er_sie_es": "erließ",
+        "wir": "erließen",
+        "ihr": "erließt",
+        "sie_Sie": "erließen"
+      },
+      "konjunktiv1": {
+        "ich": "erlasse",
+        "du": "erlassest",
+        "er_sie_es": "erlasse",
+        "wir": "erlassen",
+        "ihr": "erlasset",
+        "sie_Sie": "erlassen"
+      },
+      "konjunktiv2": {
+        "ich": "erließe",
+        "du": "erließest",
+        "er_sie_es": "erließe",
+        "wir": "erließen",
+        "ihr": "erließet",
+        "sie_Sie": "erließen"
+      },
+      "imperativ": {
+        "du": "Erlass!",
+        "ihr": "Erlasst!",
+        "Sie": "Erlassen Sie!"
+      }
+    },
+    "partizip1": "erlassend",
+    "nominalisierung": "der Erlass"
+  },
+  "wortnetz": {
+    "grundwort": "lassen",
+    "woerter": [
+      {
+        "wort": "lassen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گذاشتن",
+          "en": "to let"
+        },
+        "id_ref": "verb_lassen"
+      },
+      {
+        "wort": "der Erlass",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "فرمان، بخشنامه",
+          "en": "decree"
+        },
+        "id_ref": "nomen_erlass"
+      },
+      {
+        "wort": "das Gesetz",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قانون",
+          "en": "law"
+        },
+        "id_ref": "nomen_gesetz"
+      },
+      {
+        "wort": "die Verordnung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آیین‌نامه",
+          "en": "regulation"
+        },
+        "id_ref": "nomen_verordnung"
+      },
+      {
+        "wort": "aufheben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لغو کردن",
+          "en": "to repeal"
+        },
+        "id_ref": "verb_aufheben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

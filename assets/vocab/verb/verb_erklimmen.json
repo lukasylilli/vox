@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_erklimmen",
+  "wort": "erklimmen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با زحمت) بالا رفتن از، صعود کردن به (قله و مانند آن)",
+      "(به جایگاه بالایی) رسیدن"
+    ],
+    "en": [
+      "to climb (to the top of), to scale",
+      "to reach (a high position)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Sport",
+    "Natur",
+    "Karriere"
+  ],
+  "ipa": "ɛɐ̯ˈklɪmən",
+  "anmerkung": "Gehoben.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir erklimmen den Berg.",
+      "uebersetzung": {
+        "fa": "از کوه بالا می‌رویم.",
+        "en": "We climb the mountain."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach sechs Stunden hatten die Bergsteiger endlich den Gipfel erklommen und genossen die Aussicht.",
+      "uebersetzung": {
+        "fa": "پس از شش ساعت، کوهنوردان سرانجام به قله رسیده بودند و از منظره لذت می‌بردند.",
+        "en": "After six hours the climbers had finally reached the summit and enjoyed the view."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "besteigen",
+      "uebersetzung": {
+        "fa": "صعود کردن به",
+        "en": "to ascend"
+      }
+    },
+    {
+      "wort": "hinaufklettern",
+      "uebersetzung": {
+        "fa": "بالا رفتن",
+        "en": "to climb up"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hinabsteigen",
+      "uebersetzung": {
+        "fa": "پایین آمدن",
+        "en": "to descend"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (پیشوند (رسیدن به نتیجه)) + klimmen ((قدیمی) بالا رفتن)",
+    "en": "er- (prefix (achieving a result)) + klimmen ((old) to climb)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "erklimmen",
+      "praeteritum": "erklomm",
+      "partizip2": "erklommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erklimme",
+        "du": "erklimmst",
+        "er_sie_es": "erklimmt",
+        "wir": "erklimmen",
+        "ihr": "erklimmt",
+        "sie_Sie": "erklimmen"
+      },
+      "praeteritum": {
+        "ich": "erklomm",
+        "du": "erklommst",
+        "er_sie_es": "erklomm",
+        "wir": "erklommen",
+        "ihr": "erklommt",
+        "sie_Sie": "erklommen"
+      },
+      "konjunktiv1": {
+        "ich": "erklimme",
+        "du": "erklimmest",
+        "er_sie_es": "erklimme",
+        "wir": "erklimmen",
+        "ihr": "erklimmet",
+        "sie_Sie": "erklimmen"
+      },
+      "konjunktiv2": {
+        "ich": "erklömme",
+        "du": "erklömmest",
+        "er_sie_es": "erklömme",
+        "wir": "erklömmen",
+        "ihr": "erklömmet",
+        "sie_Sie": "erklömmen"
+      },
+      "imperativ": {
+        "du": "Erklimm!",
+        "ihr": "Erklimmt!",
+        "Sie": "Erklimmen Sie!"
+      }
+    },
+    "partizip1": "erklimmend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "klimmen",
+    "woerter": [
+      {
+        "wort": "klettern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بالا رفتن",
+          "en": "to climb"
+        },
+        "id_ref": "verb_klettern"
+      },
+      {
+        "wort": "besteigen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "صعود کردن",
+          "en": "to ascend"
+        },
+        "id_ref": "verb_besteigen"
+      },
+      {
+        "wort": "der Gipfel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قله",
+          "en": "summit"
+        },
+        "id_ref": "nomen_gipfel"
+      },
+      {
+        "wort": "der Berg",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کوه",
+          "en": "mountain"
+        },
+        "id_ref": "nomen_berg"
+      },
+      {
+        "wort": "der Bergsteiger",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کوهنورد",
+          "en": "mountaineer"
+        },
+        "id_ref": "nomen_bergsteiger"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

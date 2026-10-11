@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_erloeschen",
+  "wort": "erlöschen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(آتش یا نور) خاموش شدن",
+      "(حق، قرارداد یا عضویتی) از اعتبار افتادن، باطل شدن"
+    ],
+    "en": [
+      "to go out (fire, light)",
+      "to expire, to lapse (right, contract)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Alltag"
+  ],
+  "ipa": "ɛɐ̯ˈlœʃn̩",
+  "anmerkung": "Intransitiv und unregelmäßig (erlischt, erlosch, ist erloschen) — anders als das regelmäßige transitive «löschen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Feuer erlischt.",
+      "uebersetzung": {
+        "fa": "آتش خاموش می‌شود.",
+        "en": "The fire goes out."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn Sie den Beitrag zwei Jahre nicht bezahlen, erlischt Ihre Mitgliedschaft automatisch.",
+      "uebersetzung": {
+        "fa": "اگر حق عضویت را دو سال پرداخت نکنید، عضویت‌تان خودبه‌خود باطل می‌شود.",
+        "en": "If you do not pay the fee for two years, your membership will lapse automatically."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausgehen",
+      "uebersetzung": {
+        "fa": "خاموش شدن",
+        "en": "to go out"
+      }
+    },
+    {
+      "wort": "ablaufen",
+      "uebersetzung": {
+        "fa": "منقضی شدن",
+        "en": "to expire"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "entflammen",
+      "uebersetzung": {
+        "fa": "شعله‌ور شدن",
+        "en": "to ignite"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (پیشوند (رسیدن به نتیجه)) + löschen (alt: erlöschen) (خاموش شدن)",
+    "en": "er- (prefix (achieving a result)) + löschen (alt: erlöschen) (to go out)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "erlöschen",
+      "praeteritum": "erlosch",
+      "partizip2": "erloschen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erlösche",
+        "du": "erlischst",
+        "er_sie_es": "erlischt",
+        "wir": "erlöschen",
+        "ihr": "erlöscht",
+        "sie_Sie": "erlöschen"
+      },
+      "praeteritum": {
+        "ich": "erlosch",
+        "du": "erloschest",
+        "er_sie_es": "erlosch",
+        "wir": "erloschen",
+        "ihr": "erloscht",
+        "sie_Sie": "erloschen"
+      },
+      "konjunktiv1": {
+        "ich": "erlösche",
+        "du": "erlöschest",
+        "er_sie_es": "erlösche",
+        "wir": "erlöschen",
+        "ihr": "erlöschet",
+        "sie_Sie": "erlöschen"
+      },
+      "konjunktiv2": {
+        "ich": "erlösche",
+        "du": "erlöschest",
+        "er_sie_es": "erlösche",
+        "wir": "erlöschen",
+        "ihr": "erlöschet",
+        "sie_Sie": "erlöschen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "erlöschend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "löschen",
+    "woerter": [
+      {
+        "wort": "löschen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خاموش کردن؛ پاک کردن",
+          "en": "to extinguish; to delete"
+        },
+        "id_ref": "verb_loeschen"
+      },
+      {
+        "wort": "ausgehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خاموش شدن",
+          "en": "to go out"
+        },
+        "id_ref": "verb_ausgehen"
+      },
+      {
+        "wort": "ablaufen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "منقضی شدن",
+          "en": "to expire"
+        },
+        "id_ref": "verb_ablaufen"
+      },
+      {
+        "wort": "das Feuer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آتش",
+          "en": "fire"
+        },
+        "id_ref": "nomen_feuer"
+      },
+      {
+        "wort": "der Vulkan",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آتشفشان",
+          "en": "volcano"
+        },
+        "id_ref": "nomen_vulkan"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
