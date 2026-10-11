@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_abheben",
+  "wort": "abheben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "برداشتن (پول از حساب)",
+      "گوشی را برداشتن",
+      "بلند شدن (هواپیما)"
+    ],
+    "en": [
+      "to withdraw",
+      "to answer (the phone)",
+      "to take off"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Geld",
+    "Verkehr",
+    "Telefon"
+  ],
+  "ipa": "ˈapˌheːbn̩",
+  "anmerkung": "Das Partizip «abgehoben» (realitätsfern) ist auch eigenes Adjektiv.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich hebe Geld ab.",
+      "uebersetzung": {
+        "fa": "پول برداشت می‌کنم.",
+        "en": "I withdraw money."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich habe dreimal angerufen, aber niemand hat abgehoben, deshalb schreibe ich dir jetzt.",
+      "uebersetzung": {
+        "fa": "سه بار زنگ زدم ولی کسی گوشی را برنداشت، برای همین حالا برایت می‌نویسم.",
+        "en": "I called three times but nobody answered, so I am writing to you now."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "einzahlen",
+      "uebersetzung": {
+        "fa": "واریز کردن",
+        "en": "to deposit"
+      }
+    },
+    {
+      "wort": "landen",
+      "uebersetzung": {
+        "fa": "فرود آمدن",
+        "en": "to land"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند: برداشتن) + heben (بلند کردن)",
+    "en": "ab- (prefix: off) + heben (to lift)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "sich von + Dat abheben",
+        "bedeutung": "sich deutlich unterscheiden",
+        "beispiel": "Ihr Entwurf hebt sich von den anderen ab.",
+        "uebersetzung": {
+          "fa": "طرح او از بقیه متمایز است.",
+          "en": "Her design stands out from the others."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abheben",
+      "praeteritum": "hob ab",
+      "partizip2": "abgehoben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "hebe ab",
+        "du": "hebst ab",
+        "er_sie_es": "hebt ab",
+        "wir": "heben ab",
+        "ihr": "hebt ab",
+        "sie_Sie": "heben ab"
+      },
+      "praeteritum": {
+        "ich": "hob ab",
+        "du": "hobst ab",
+        "er_sie_es": "hob ab",
+        "wir": "hoben ab",
+        "ihr": "hobt ab",
+        "sie_Sie": "hoben ab"
+      },
+      "konjunktiv1": {
+        "ich": "hebe ab",
+        "du": "hebest ab",
+        "er_sie_es": "hebe ab",
+        "wir": "heben ab",
+        "ihr": "hebet ab",
+        "sie_Sie": "heben ab"
+      },
+      "konjunktiv2": {
+        "ich": "höbe ab",
+        "du": "höbest ab",
+        "er_sie_es": "höbe ab",
+        "wir": "höben ab",
+        "ihr": "höbet ab",
+        "sie_Sie": "höben ab"
+      },
+      "imperativ": {
+        "du": "Heb ab!",
+        "ihr": "Hebt ab!",
+        "Sie": "Heben Sie ab!"
+      }
+    },
+    "partizip1": "abhebend",
+    "nominalisierung": "die Abhebung"
+  },
+  "wortnetz": {
+    "grundwort": "heben",
+    "woerter": [
+      {
+        "wort": "heben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بلند کردن",
+          "en": "to lift"
+        },
+        "id_ref": "verb_heben"
+      },
+      {
+        "wort": "das Konto",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حساب بانکی",
+          "en": "account"
+        },
+        "id_ref": "nomen_konto"
+      },
+      {
+        "wort": "der Geldautomat",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خودپرداز",
+          "en": "cash machine"
+        },
+        "id_ref": "nomen_geldautomat"
+      },
+      {
+        "wort": "einzahlen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "واریز کردن",
+          "en": "to deposit"
+        },
+        "id_ref": "verb_einzahlen"
+      },
+      {
+        "wort": "das Telefon",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تلفن",
+          "en": "telephone"
+        },
+        "id_ref": "nomen_telefon"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

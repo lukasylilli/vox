@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_abkommen",
+  "wort": "abkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "منحرف شدن (از راه)",
+      "دست کشیدن (از نظری)"
+    ],
+    "en": [
+      "to stray (from)",
+      "to get off",
+      "to give up"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr",
+    "Kommunikation"
+  ],
+  "ipa": "ˈapˌkɔmən",
+  "anmerkung": "Das Nomen «das Abkommen» (Vertrag) hat eigene Bedeutung — eigene Karte.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er kommt vom Weg ab.",
+      "uebersetzung": {
+        "fa": "از راه منحرف می‌شود.",
+        "en": "He strays from the path."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei Glatteis ist das Auto von der Straße abgekommen und gegen einen Baum gefahren.",
+      "uebersetzung": {
+        "fa": "در جاده‌ی یخ‌زده ماشین از جاده منحرف شد و به یک درخت خورد.",
+        "en": "In icy conditions the car came off the road and hit a tree."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abweichen",
+      "uebersetzung": {
+        "fa": "منحرف شدن",
+        "en": "to deviate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند: دور شدن) + kommen (آمدن)",
+    "en": "ab- (prefix: away) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "von + Dat abkommen",
+        "bedeutung": "sich von etwas entfernen oder eine Absicht aufgeben",
+        "beispiel": "Wir sind vom Thema abgekommen.",
+        "uebersetzung": {
+          "fa": "از موضوع دور شدیم.",
+          "en": "We have strayed from the subject."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abkommen",
+      "praeteritum": "kam ab",
+      "partizip2": "abgekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme ab",
+        "du": "kommst ab",
+        "er_sie_es": "kommt ab",
+        "wir": "kommen ab",
+        "ihr": "kommt ab",
+        "sie_Sie": "kommen ab"
+      },
+      "praeteritum": {
+        "ich": "kam ab",
+        "du": "kamst ab",
+        "er_sie_es": "kam ab",
+        "wir": "kamen ab",
+        "ihr": "kamt ab",
+        "sie_Sie": "kamen ab"
+      },
+      "konjunktiv1": {
+        "ich": "komme ab",
+        "du": "kommest ab",
+        "er_sie_es": "komme ab",
+        "wir": "kommen ab",
+        "ihr": "kommet ab",
+        "sie_Sie": "kommen ab"
+      },
+      "konjunktiv2": {
+        "ich": "käme ab",
+        "du": "kämest ab",
+        "er_sie_es": "käme ab",
+        "wir": "kämen ab",
+        "ihr": "kämet ab",
+        "sie_Sie": "kämen ab"
+      },
+      "imperativ": {
+        "du": "Komm ab!",
+        "ihr": "Kommt ab!",
+        "Sie": "Kommen Sie ab!"
+      }
+    },
+    "partizip1": "abkommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "das Abkommen",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "توافق‌نامه",
+          "en": "agreement"
+        },
+        "id_ref": "nomen_abkommen"
+      },
+      {
+        "wort": "abweichen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "منحرف شدن",
+          "en": "to deviate"
+        },
+        "id_ref": "verb_abweichen"
+      },
+      {
+        "wort": "der Weg",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "راه",
+          "en": "way"
+        },
+        "id_ref": "nomen_weg"
+      },
+      {
+        "wort": "das Thema",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "موضوع",
+          "en": "topic"
+        },
+        "id_ref": "nomen_thema"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

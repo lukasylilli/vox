@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_abgelten",
+  "wort": "abgelten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جبران کردن (مالی)",
+      "تسویه کردن"
+    ],
+    "en": [
+      "to compensate",
+      "to settle"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Geld"
+  ],
+  "ipa": "ˈapˌɡɛltn̩",
+  "anmerkung": "Amts- und Rechtssprache; Konjunktiv II auch: gölte ab.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Überstunden gelten wir mit Geld ab.",
+      "uebersetzung": {
+        "fa": "اضافه‌کاری‌ها را با پول جبران می‌کنیم.",
+        "en": "We compensate overtime with money."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Mit der Pauschale sind alle Fahrtkosten abgegolten, deshalb gibt es keine weiteren Zahlungen.",
+      "uebersetzung": {
+        "fa": "با این مبلغ ثابت همه‌ی هزینه‌های رفت‌وآمد تسویه شده، برای همین پرداخت دیگری در کار نیست.",
+        "en": "All travel costs are covered by the flat rate, so there are no further payments."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vergüten",
+      "uebersetzung": {
+        "fa": "جبران کردن",
+        "en": "to remunerate"
+      }
+    },
+    {
+      "wort": "ausgleichen",
+      "uebersetzung": {
+        "fa": "جبران کردن",
+        "en": "to compensate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند: تسویه) + gelten (ارزش داشتن، معتبر بودن)",
+    "en": "ab- (prefix: settling) + gelten (to be valid)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas mit + Dat abgelten",
+        "bedeutung": "etwas durch eine Zahlung ausgleichen",
+        "beispiel": "Der Schaden wurde mit 500 Euro abgegolten.",
+        "uebersetzung": {
+          "fa": "خسارت با ۵۰۰ یورو جبران شد.",
+          "en": "The damage was compensated with 500 euros."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abgelten",
+      "praeteritum": "galt ab",
+      "partizip2": "abgegolten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gelte ab",
+        "du": "giltst ab",
+        "er_sie_es": "gilt ab",
+        "wir": "gelten ab",
+        "ihr": "geltet ab",
+        "sie_Sie": "gelten ab"
+      },
+      "praeteritum": {
+        "ich": "galt ab",
+        "du": "galtest ab",
+        "er_sie_es": "galt ab",
+        "wir": "galten ab",
+        "ihr": "galtet ab",
+        "sie_Sie": "galten ab"
+      },
+      "konjunktiv1": {
+        "ich": "gelte ab",
+        "du": "geltest ab",
+        "er_sie_es": "gelte ab",
+        "wir": "gelten ab",
+        "ihr": "geltet ab",
+        "sie_Sie": "gelten ab"
+      },
+      "konjunktiv2": {
+        "ich": "gälte ab",
+        "du": "gältest ab",
+        "er_sie_es": "gälte ab",
+        "wir": "gälten ab",
+        "ihr": "gältet ab",
+        "sie_Sie": "gälten ab"
+      },
+      "imperativ": {
+        "du": "Gilt ab!",
+        "ihr": "Geltet ab!",
+        "Sie": "Gelten Sie ab!"
+      }
+    },
+    "partizip1": "abgeltend",
+    "nominalisierung": "die Abgeltung"
+  },
+  "wortnetz": {
+    "grundwort": "gelten",
+    "woerter": [
+      {
+        "wort": "gelten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "معتبر بودن",
+          "en": "to be valid"
+        },
+        "id_ref": "verb_gelten"
+      },
+      {
+        "wort": "die Überstunde",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اضافه‌کاری",
+          "en": "overtime"
+        },
+        "id_ref": "nomen_ueberstunde"
+      },
+      {
+        "wort": "die Pauschale",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مبلغ ثابت",
+          "en": "flat rate"
+        },
+        "id_ref": "nomen_pauschale"
+      },
+      {
+        "wort": "ausgleichen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جبران کردن",
+          "en": "to compensate"
+        },
+        "id_ref": "verb_ausgleichen"
+      },
+      {
+        "wort": "die Zahlung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پرداخت",
+          "en": "payment"
+        },
+        "id_ref": "nomen_zahlung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

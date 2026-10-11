@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_abgleiten",
+  "wort": "abgleiten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "لیز خوردن",
+      "سقوط کردن (به وضع بدتر)"
+    ],
+    "en": [
+      "to slip off",
+      "to slide (into)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Bewegung",
+    "Gesellschaft"
+  ],
+  "ipa": "ˈapˌɡlaɪ̯tn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Messer gleitet ab.",
+      "uebersetzung": {
+        "fa": "چاقو لیز می‌خورد.",
+        "en": "The knife slips."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Verlust seiner Arbeit ist er langsam in die Armut abgeglitten, ohne Hilfe zu suchen.",
+      "uebersetzung": {
+        "fa": "بعد از از دست دادن کارش کم‌کم به فقر سقوط کرد، بی‌آنکه دنبال کمک بگردد.",
+        "en": "After losing his job he slowly slid into poverty without looking for help."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abrutschen",
+      "uebersetzung": {
+        "fa": "لیز خوردن، سقوط کردن",
+        "en": "to slip"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند: پایین) + gleiten (سریدن)",
+    "en": "ab- (prefix: down) + gleiten (to glide)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in + Akk abgleiten",
+        "bedeutung": "langsam in einen schlechten Zustand geraten",
+        "beispiel": "Die Diskussion glitt ins Persönliche ab.",
+        "uebersetzung": {
+          "fa": "بحث به مسائل شخصی کشیده شد.",
+          "en": "The discussion slid into personal matters."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abgleiten",
+      "praeteritum": "glitt ab",
+      "partizip2": "abgeglitten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gleite ab",
+        "du": "gleitest ab",
+        "er_sie_es": "gleitet ab",
+        "wir": "gleiten ab",
+        "ihr": "gleitet ab",
+        "sie_Sie": "gleiten ab"
+      },
+      "praeteritum": {
+        "ich": "glitt ab",
+        "du": "glittest ab",
+        "er_sie_es": "glitt ab",
+        "wir": "glitten ab",
+        "ihr": "glittet ab",
+        "sie_Sie": "glitten ab"
+      },
+      "konjunktiv1": {
+        "ich": "gleite ab",
+        "du": "gleitest ab",
+        "er_sie_es": "gleite ab",
+        "wir": "gleiten ab",
+        "ihr": "gleitet ab",
+        "sie_Sie": "gleiten ab"
+      },
+      "konjunktiv2": {
+        "ich": "glitte ab",
+        "du": "glittest ab",
+        "er_sie_es": "glitte ab",
+        "wir": "glitten ab",
+        "ihr": "glittet ab",
+        "sie_Sie": "glitten ab"
+      },
+      "imperativ": {
+        "du": "Gleite ab!",
+        "ihr": "Gleitet ab!",
+        "Sie": "Gleiten Sie ab!"
+      }
+    },
+    "partizip1": "abgleitend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gleiten",
+    "woerter": [
+      {
+        "wort": "gleiten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سریدن",
+          "en": "to glide"
+        },
+        "id_ref": "verb_gleiten"
+      },
+      {
+        "wort": "rutschen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لیز خوردن",
+          "en": "to slip"
+        },
+        "id_ref": "verb_rutschen"
+      },
+      {
+        "wort": "abrutschen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لیز خوردن",
+          "en": "to slip"
+        },
+        "id_ref": "verb_abrutschen"
+      },
+      {
+        "wort": "die Armut",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فقر",
+          "en": "poverty"
+        },
+        "id_ref": "nomen_armut"
+      },
+      {
+        "wort": "sinken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پایین رفتن",
+          "en": "to sink"
+        },
+        "id_ref": "verb_sinken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

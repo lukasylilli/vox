@@ -1,0 +1,203 @@
+{
+  "schema": "3.0",
+  "id": "verb_abgeben",
+  "wort": "abgeben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تحویل دادن",
+      "سپردن",
+      "بخشیدن (بخشی از چیزی)"
+    ],
+    "en": [
+      "to hand in",
+      "to give (away)",
+      "to drop off"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Behörden"
+  ],
+  "ipa": "ˈapˌɡeːbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Bitte geben Sie das Formular hier ab.",
+      "uebersetzung": {
+        "fa": "لطفاً فرم را اینجا تحویل دهید.",
+        "en": "Please hand in the form here."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich habe meinen alten Fernseher kostenlos abgegeben, weil ich einen neuen gekauft habe.",
+      "uebersetzung": {
+        "fa": "تلویزیون قدیمی‌ام را مجانی دادم، چون یک تلویزیون نو خریدم.",
+        "en": "I gave my old TV away for free because I bought a new one."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einreichen",
+      "uebersetzung": {
+        "fa": "تحویل دادن (رسمی)",
+        "en": "to submit"
+      }
+    },
+    {
+      "wort": "überreichen",
+      "uebersetzung": {
+        "fa": "سپردن",
+        "en": "to hand over"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "annehmen",
+      "uebersetzung": {
+        "fa": "پذیرفتن",
+        "en": "to accept"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند: از خود جدا کردن) + geben (دادن)",
+    "en": "ab- (prefix: away) + geben (to give)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem etwas von + Dat abgeben",
+        "bedeutung": "mit jemandem teilen",
+        "beispiel": "Gibst du mir etwas von deiner Schokolade ab?",
+        "uebersetzung": {
+          "fa": "از شکلاتت کمی به من می‌دهی؟",
+          "en": "Will you give me some of your chocolate?"
+        }
+      },
+      {
+        "muster": "sich mit + Dat abgeben",
+        "bedeutung": "sich mit jemandem/etwas beschäftigen (oft abwertend)",
+        "beispiel": "Mit solchen Leuten gebe ich mich nicht ab.",
+        "uebersetzung": {
+          "fa": "با چنین آدم‌هایی سروکار ندارم.",
+          "en": "I don't associate with people like that."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abgeben",
+      "praeteritum": "gab ab",
+      "partizip2": "abgegeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gebe ab",
+        "du": "gibst ab",
+        "er_sie_es": "gibt ab",
+        "wir": "geben ab",
+        "ihr": "gebt ab",
+        "sie_Sie": "geben ab"
+      },
+      "praeteritum": {
+        "ich": "gab ab",
+        "du": "gabst ab",
+        "er_sie_es": "gab ab",
+        "wir": "gaben ab",
+        "ihr": "gabt ab",
+        "sie_Sie": "gaben ab"
+      },
+      "konjunktiv1": {
+        "ich": "gebe ab",
+        "du": "gebest ab",
+        "er_sie_es": "gebe ab",
+        "wir": "geben ab",
+        "ihr": "gebet ab",
+        "sie_Sie": "geben ab"
+      },
+      "konjunktiv2": {
+        "ich": "gäbe ab",
+        "du": "gäbest ab",
+        "er_sie_es": "gäbe ab",
+        "wir": "gäben ab",
+        "ihr": "gäbet ab",
+        "sie_Sie": "gäben ab"
+      },
+      "imperativ": {
+        "du": "Gib ab!",
+        "ihr": "Gebt ab!",
+        "Sie": "Geben Sie ab!"
+      }
+    },
+    "partizip1": "abgebend",
+    "nominalisierung": "die Abgabe"
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "die Abgabe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تحویل؛ عوارض",
+          "en": "submission; levy"
+        },
+        "id_ref": "nomen_abgabe"
+      },
+      {
+        "wort": "das Formular",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فرم",
+          "en": "form"
+        },
+        "id_ref": "nomen_formular"
+      },
+      {
+        "wort": "teilen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تقسیم کردن",
+          "en": "to share"
+        },
+        "id_ref": "verb_teilen"
+      },
+      {
+        "wort": "einreichen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تحویل دادن",
+          "en": "to submit"
+        },
+        "id_ref": "verb_einreichen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_abhauen",
+  "wort": "abhauen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "در رفتن، فرار کردن (عامیانه)",
+      "بریدن (با تبر)"
+    ],
+    "en": [
+      "to clear off",
+      "to run away",
+      "to chop off"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Umgangssprache"
+  ],
+  "ipa": "ˈapˌhaʊ̯ən",
+  "anmerkung": "Umgangssprachlich «weggehen, fliehen» (haute ab, ist abgehauen). In der Bedeutung «abschlagen» mit haben, Präteritum auch: hieb ab.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Hau ab!",
+      "uebersetzung": {
+        "fa": "برو گمشو!",
+        "en": "Get lost!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Dieb ist sofort abgehauen, als er die Polizei kommen sah.",
+      "uebersetzung": {
+        "fa": "دزد همین‌که دید پلیس می‌آید فوراً در رفت.",
+        "en": "The thief cleared off immediately when he saw the police coming."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "weglaufen",
+      "uebersetzung": {
+        "fa": "فرار کردن",
+        "en": "to run away"
+      }
+    },
+    {
+      "wort": "verschwinden",
+      "uebersetzung": {
+        "fa": "ناپدید شدن",
+        "en": "to disappear"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "bleiben",
+      "uebersetzung": {
+        "fa": "ماندن",
+        "en": "to stay"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند: دور شدن، جدا) + hauen (زدن)",
+    "en": "ab- (prefix: away, off) + hauen (to hit)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "abhauen",
+      "praeteritum": "haute ab",
+      "partizip2": "abgehauen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "haue ab",
+        "du": "haust ab",
+        "er_sie_es": "haut ab",
+        "wir": "hauen ab",
+        "ihr": "haut ab",
+        "sie_Sie": "hauen ab"
+      },
+      "praeteritum": {
+        "ich": "haute ab",
+        "du": "hautest ab",
+        "er_sie_es": "haute ab",
+        "wir": "hauten ab",
+        "ihr": "hautet ab",
+        "sie_Sie": "hauten ab"
+      },
+      "konjunktiv1": {
+        "ich": "haue ab",
+        "du": "hauest ab",
+        "er_sie_es": "haue ab",
+        "wir": "hauen ab",
+        "ihr": "hauet ab",
+        "sie_Sie": "hauen ab"
+      },
+      "konjunktiv2": {
+        "ich": "haute ab",
+        "du": "hautest ab",
+        "er_sie_es": "haute ab",
+        "wir": "hauten ab",
+        "ihr": "hautet ab",
+        "sie_Sie": "hauten ab"
+      },
+      "imperativ": {
+        "du": "Hau ab!",
+        "ihr": "Haut ab!",
+        "Sie": "Hauen Sie ab!"
+      }
+    },
+    "partizip1": "abhauend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "hauen",
+    "woerter": [
+      {
+        "wort": "hauen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زدن",
+          "en": "to hit"
+        },
+        "id_ref": "verb_hauen"
+      },
+      {
+        "wort": "weglaufen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فرار کردن",
+          "en": "to run away"
+        },
+        "id_ref": "verb_weglaufen"
+      },
+      {
+        "wort": "fliehen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گریختن",
+          "en": "to flee"
+        },
+        "id_ref": "verb_fliehen"
+      },
+      {
+        "wort": "verschwinden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ناپدید شدن",
+          "en": "to disappear"
+        },
+        "id_ref": "verb_verschwinden"
+      },
+      {
+        "wort": "der Dieb",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دزد",
+          "en": "thief"
+        },
+        "id_ref": "nomen_dieb"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

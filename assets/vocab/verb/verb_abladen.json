@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_abladen",
+  "wort": "abladen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خالی کردن (بار)",
+      "پیاده کردن (بار)"
+    ],
+    "en": [
+      "to unload"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Verkehr"
+  ],
+  "ipa": "ˈapˌlaːdn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir laden die Kisten ab.",
+      "uebersetzung": {
+        "fa": "جعبه‌ها را خالی می‌کنیم.",
+        "en": "We unload the boxes."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nachdem der Lastwagen die Möbel abgeladen hatte, trugen wir alles in die Wohnung.",
+      "uebersetzung": {
+        "fa": "بعد از اینکه کامیون مبل‌ها را خالی کرد، همه را به آپارتمان بردیم.",
+        "en": "After the lorry had unloaded the furniture, we carried everything into the flat."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "entladen",
+      "uebersetzung": {
+        "fa": "خالی کردن",
+        "en": "to unload"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "aufladen",
+      "uebersetzung": {
+        "fa": "بار زدن",
+        "en": "to load"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند: پایین آوردن) + laden (بار کردن)",
+    "en": "ab- (prefix: down) + laden (to load)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas bei + Dat abladen",
+        "bedeutung": "Sorgen oder Arbeit auf jemanden übertragen (übertragen)",
+        "beispiel": "Er lädt seinen Ärger immer bei mir ab.",
+        "uebersetzung": {
+          "fa": "او همیشه عصبانیتش را سر من خالی می‌کند.",
+          "en": "He always takes his anger out on me."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abladen",
+      "praeteritum": "lud ab",
+      "partizip2": "abgeladen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lade ab",
+        "du": "lädst ab",
+        "er_sie_es": "lädt ab",
+        "wir": "laden ab",
+        "ihr": "ladet ab",
+        "sie_Sie": "laden ab"
+      },
+      "praeteritum": {
+        "ich": "lud ab",
+        "du": "ludest ab",
+        "er_sie_es": "lud ab",
+        "wir": "luden ab",
+        "ihr": "ludet ab",
+        "sie_Sie": "luden ab"
+      },
+      "konjunktiv1": {
+        "ich": "lade ab",
+        "du": "ladest ab",
+        "er_sie_es": "lade ab",
+        "wir": "laden ab",
+        "ihr": "ladet ab",
+        "sie_Sie": "laden ab"
+      },
+      "konjunktiv2": {
+        "ich": "lüde ab",
+        "du": "lüdest ab",
+        "er_sie_es": "lüde ab",
+        "wir": "lüden ab",
+        "ihr": "lüdet ab",
+        "sie_Sie": "lüden ab"
+      },
+      "imperativ": {
+        "du": "Lad ab!",
+        "ihr": "Ladet ab!",
+        "Sie": "Laden Sie ab!"
+      }
+    },
+    "partizip1": "abladend",
+    "nominalisierung": "das Abladen"
+  },
+  "wortnetz": {
+    "grundwort": "laden",
+    "woerter": [
+      {
+        "wort": "laden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بار کردن",
+          "en": "to load"
+        },
+        "id_ref": "verb_laden"
+      },
+      {
+        "wort": "aufladen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بار زدن؛ شارژ کردن",
+          "en": "to load; to charge"
+        },
+        "id_ref": "verb_aufladen"
+      },
+      {
+        "wort": "der Lastwagen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کامیون",
+          "en": "lorry"
+        },
+        "id_ref": "nomen_lastwagen"
+      },
+      {
+        "wort": "die Kiste",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جعبه",
+          "en": "box"
+        },
+        "id_ref": "nomen_kiste"
+      },
+      {
+        "wort": "der Umzug",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اسباب‌کشی",
+          "en": "move"
+        },
+        "id_ref": "nomen_umzug"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

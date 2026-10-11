@@ -1,0 +1,169 @@
+{
+  "schema": "3.0",
+  "id": "verb_abhaengen",
+  "wort": "abhängen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بستگی داشتن",
+      "وابسته بودن"
+    ],
+    "en": [
+      "to depend",
+      "to rely"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Kommunikation"
+  ],
+  "ipa": "ˈapˌhɛŋən",
+  "anmerkung": "«abhängen von» (abhängig sein): hing ab, abgehangen. Transitiv «etwas abhängen» (abnehmen; jemanden hinter sich lassen; ugs. sich entspannen) wird schwach gebeugt: hängte ab, abgehängt.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Das hängt vom Wetter ab.",
+      "uebersetzung": {
+        "fa": "این به هوا بستگی دارد.",
+        "en": "That depends on the weather."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ob wir in den Urlaub fahren können, hängt davon ab, ob ich frei bekomme.",
+      "uebersetzung": {
+        "fa": "اینکه بتوانیم به تعطیلات برویم بستگی دارد به اینکه مرخصی بگیرم یا نه.",
+        "en": "Whether we can go on holiday depends on whether I get time off."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند) + hängen (آویزان بودن)",
+    "en": "ab- (prefix) + hängen (to hang)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "von + Dat abhängen",
+        "bedeutung": "durch etwas bestimmt sein",
+        "beispiel": "Viel hängt von deiner Entscheidung ab.",
+        "uebersetzung": {
+          "fa": "خیلی چیزها به تصمیم تو بستگی دارد.",
+          "en": "A lot depends on your decision."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abhängen",
+      "praeteritum": "hing ab",
+      "partizip2": "abgehangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "hänge ab",
+        "du": "hängst ab",
+        "er_sie_es": "hängt ab",
+        "wir": "hängen ab",
+        "ihr": "hängt ab",
+        "sie_Sie": "hängen ab"
+      },
+      "praeteritum": {
+        "ich": "hing ab",
+        "du": "hingst ab",
+        "er_sie_es": "hing ab",
+        "wir": "hingen ab",
+        "ihr": "hingt ab",
+        "sie_Sie": "hingen ab"
+      },
+      "konjunktiv1": {
+        "ich": "hänge ab",
+        "du": "hängest ab",
+        "er_sie_es": "hänge ab",
+        "wir": "hängen ab",
+        "ihr": "hänget ab",
+        "sie_Sie": "hängen ab"
+      },
+      "konjunktiv2": {
+        "ich": "hinge ab",
+        "du": "hingest ab",
+        "er_sie_es": "hinge ab",
+        "wir": "hingen ab",
+        "ihr": "hinget ab",
+        "sie_Sie": "hingen ab"
+      },
+      "imperativ": {
+        "du": "Häng ab!",
+        "ihr": "Hängt ab!",
+        "Sie": "Hängen Sie ab!"
+      }
+    },
+    "partizip1": "abhängend",
+    "nominalisierung": "die Abhängigkeit"
+  },
+  "wortnetz": {
+    "grundwort": "hängen",
+    "woerter": [
+      {
+        "wort": "hängen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آویزان بودن/کردن",
+          "en": "to hang"
+        },
+        "id_ref": "verb_haengen"
+      },
+      {
+        "wort": "abhängig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وابسته",
+          "en": "dependent"
+        },
+        "id_ref": "adjektiv_abhaengig"
+      },
+      {
+        "wort": "die Abhängigkeit",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "وابستگی",
+          "en": "dependence"
+        },
+        "id_ref": "nomen_abhaengigkeit"
+      },
+      {
+        "wort": "unabhängig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مستقل",
+          "en": "independent"
+        },
+        "id_ref": "adjektiv_unabhaengig"
+      },
+      {
+        "wort": "die Bedingung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شرط",
+          "en": "condition"
+        },
+        "id_ref": "nomen_bedingung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

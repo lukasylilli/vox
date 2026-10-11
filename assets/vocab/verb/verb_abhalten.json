@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_abhalten",
+  "wort": "abhalten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "برگزار کردن",
+      "بازداشتن، مانع شدن"
+    ],
+    "en": [
+      "to hold (an event)",
+      "to keep from"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Organisation",
+    "Alltag"
+  ],
+  "ipa": "ˈapˌhaltn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir halten morgen eine Sitzung ab.",
+      "uebersetzung": {
+        "fa": "فردا یک جلسه برگزار می‌کنیم.",
+        "en": "We are holding a meeting tomorrow."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Regen hat uns nicht davon abgehalten, einen langen Spaziergang zu machen.",
+      "uebersetzung": {
+        "fa": "باران ما را از یک پیاده‌روی طولانی بازنداشت.",
+        "en": "The rain didn't stop us from going for a long walk."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "veranstalten",
+      "uebersetzung": {
+        "fa": "برگزار کردن",
+        "en": "to organise"
+      }
+    },
+    {
+      "wort": "hindern",
+      "uebersetzung": {
+        "fa": "مانع شدن",
+        "en": "to prevent"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند: دور نگه داشتن) + halten (نگه داشتن)",
+    "en": "ab- (prefix: away) + halten (to hold)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden von + Dat abhalten",
+        "bedeutung": "jemanden daran hindern, etwas zu tun",
+        "beispiel": "Lass dich nicht von der Arbeit abhalten!",
+        "uebersetzung": {
+          "fa": "نگذار مانع کارت شوم (بگذار به کارت برسی)!",
+          "en": "Don't let me keep you from your work!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abhalten",
+      "praeteritum": "hielt ab",
+      "partizip2": "abgehalten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "halte ab",
+        "du": "hältst ab",
+        "er_sie_es": "hält ab",
+        "wir": "halten ab",
+        "ihr": "haltet ab",
+        "sie_Sie": "halten ab"
+      },
+      "praeteritum": {
+        "ich": "hielt ab",
+        "du": "hieltest ab",
+        "er_sie_es": "hielt ab",
+        "wir": "hielten ab",
+        "ihr": "hieltet ab",
+        "sie_Sie": "hielten ab"
+      },
+      "konjunktiv1": {
+        "ich": "halte ab",
+        "du": "haltest ab",
+        "er_sie_es": "halte ab",
+        "wir": "halten ab",
+        "ihr": "haltet ab",
+        "sie_Sie": "halten ab"
+      },
+      "konjunktiv2": {
+        "ich": "hielte ab",
+        "du": "hieltest ab",
+        "er_sie_es": "hielte ab",
+        "wir": "hielten ab",
+        "ihr": "hieltet ab",
+        "sie_Sie": "hielten ab"
+      },
+      "imperativ": {
+        "du": "Halt ab!",
+        "ihr": "Haltet ab!",
+        "Sie": "Halten Sie ab!"
+      }
+    },
+    "partizip1": "abhaltend",
+    "nominalisierung": "die Abhaltung"
+  },
+  "wortnetz": {
+    "grundwort": "halten",
+    "woerter": [
+      {
+        "wort": "halten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to hold"
+        },
+        "id_ref": "verb_halten"
+      },
+      {
+        "wort": "die Sitzung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جلسه",
+          "en": "meeting"
+        },
+        "id_ref": "nomen_sitzung"
+      },
+      {
+        "wort": "veranstalten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "برگزار کردن",
+          "en": "to organise"
+        },
+        "id_ref": "verb_veranstalten"
+      },
+      {
+        "wort": "hindern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مانع شدن",
+          "en": "to prevent"
+        },
+        "id_ref": "verb_hindern"
+      },
+      {
+        "wort": "die Wahl",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انتخابات",
+          "en": "election"
+        },
+        "id_ref": "nomen_wahl"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

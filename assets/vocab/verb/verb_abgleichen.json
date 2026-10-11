@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_abgleichen",
+  "wort": "abgleichen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تطبیق دادن",
+      "هماهنگ کردن (داده‌ها)"
+    ],
+    "en": [
+      "to compare",
+      "to synchronise",
+      "to match"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Arbeit"
+  ],
+  "ipa": "ˈapˌɡlaɪ̯çn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir gleichen die Listen ab.",
+      "uebersetzung": {
+        "fa": "فهرست‌ها را با هم تطبیق می‌دهیم.",
+        "en": "We compare the lists."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die App gleicht die Termine automatisch mit dem Kalender ab, damit nichts doppelt eingetragen wird.",
+      "uebersetzung": {
+        "fa": "اپ قرارها را خودکار با تقویم تطبیق می‌دهد تا چیزی دوبار ثبت نشود.",
+        "en": "The app automatically syncs the appointments with the calendar so that nothing is entered twice."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vergleichen",
+      "uebersetzung": {
+        "fa": "مقایسه کردن",
+        "en": "to compare"
+      }
+    },
+    {
+      "wort": "synchronisieren",
+      "uebersetzung": {
+        "fa": "همگام کردن",
+        "en": "to synchronise"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند) + gleichen (شبیه بودن)",
+    "en": "ab- (prefix) + gleichen (to resemble)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas mit + Dat abgleichen",
+        "bedeutung": "etwas mit etwas vergleichen und angleichen",
+        "beispiel": "Die Polizei gleicht die Fingerabdrücke mit der Datenbank ab.",
+        "uebersetzung": {
+          "fa": "پلیس اثر انگشت‌ها را با بانک اطلاعات تطبیق می‌دهد.",
+          "en": "The police match the fingerprints against the database."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abgleichen",
+      "praeteritum": "glich ab",
+      "partizip2": "abgeglichen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gleiche ab",
+        "du": "gleichst ab",
+        "er_sie_es": "gleicht ab",
+        "wir": "gleichen ab",
+        "ihr": "gleicht ab",
+        "sie_Sie": "gleichen ab"
+      },
+      "praeteritum": {
+        "ich": "glich ab",
+        "du": "glichst ab",
+        "er_sie_es": "glich ab",
+        "wir": "glichen ab",
+        "ihr": "glicht ab",
+        "sie_Sie": "glichen ab"
+      },
+      "konjunktiv1": {
+        "ich": "gleiche ab",
+        "du": "gleichest ab",
+        "er_sie_es": "gleiche ab",
+        "wir": "gleichen ab",
+        "ihr": "gleichet ab",
+        "sie_Sie": "gleichen ab"
+      },
+      "konjunktiv2": {
+        "ich": "gliche ab",
+        "du": "glichest ab",
+        "er_sie_es": "gliche ab",
+        "wir": "glichen ab",
+        "ihr": "glichet ab",
+        "sie_Sie": "glichen ab"
+      },
+      "imperativ": {
+        "du": "Gleich ab!",
+        "ihr": "Gleicht ab!",
+        "Sie": "Gleichen Sie ab!"
+      }
+    },
+    "partizip1": "abgleichend",
+    "nominalisierung": "der Abgleich"
+  },
+  "wortnetz": {
+    "grundwort": "gleich",
+    "woerter": [
+      {
+        "wort": "gleich",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "یکسان",
+          "en": "same"
+        },
+        "id_ref": "adjektiv_gleich"
+      },
+      {
+        "wort": "vergleichen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مقایسه کردن",
+          "en": "to compare"
+        },
+        "id_ref": "verb_vergleichen"
+      },
+      {
+        "wort": "der Abgleich",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تطبیق",
+          "en": "comparison"
+        },
+        "id_ref": "nomen_abgleich"
+      },
+      {
+        "wort": "die Daten",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "داده‌ها",
+          "en": "data"
+        },
+        "id_ref": "nomen_daten"
+      },
+      {
+        "wort": "die Liste",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فهرست",
+          "en": "list"
+        },
+        "id_ref": "nomen_liste"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

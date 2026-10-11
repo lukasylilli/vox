@@ -1,0 +1,169 @@
+{
+  "schema": "3.0",
+  "id": "verb_abgewinnen",
+  "wort": "abgewinnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "چیزی (خوب) در آن یافتن",
+      "گرفتن (از کسی در رقابت)"
+    ],
+    "en": [
+      "to see sth in",
+      "to win from"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle",
+    "Bewertung"
+  ],
+  "ipa": "ˈapɡəˌvɪnən",
+  "anmerkung": "Fast nur: «einer Sache etwas/nichts abgewinnen können»; Konjunktiv II auch: gewänne ab.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich kann dem Winter nichts abgewinnen.",
+      "uebersetzung": {
+        "fa": "از زمستان هیچ خوشم نمی‌آید (هیچ نکته‌ی خوبی در آن نمی‌بینم).",
+        "en": "I can't see anything good in winter."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Erst nach ein paar Wochen konnte sie der neuen Stadt etwas abgewinnen, weil sie dort Freunde fand.",
+      "uebersetzung": {
+        "fa": "تازه بعد از چند هفته توانست از شهر جدید خوشش بیاید، چون آنجا دوستانی پیدا کرد.",
+        "en": "Only after a few weeks could she see something good in the new city, because she found friends there."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند: گرفتن از) + gewinnen (بردن، به دست آوردن)",
+    "en": "ab- (prefix: from) + gewinnen (to win)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "einer Sache etwas abgewinnen",
+        "bedeutung": "an etwas Gutes finden",
+        "beispiel": "Er kann dem Joggen nichts abgewinnen.",
+        "uebersetzung": {
+          "fa": "از دویدن هیچ خوشش نمی‌آید.",
+          "en": "He can't see the appeal of jogging."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abgewinnen",
+      "praeteritum": "gewann ab",
+      "partizip2": "abgewonnen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gewinne ab",
+        "du": "gewinnst ab",
+        "er_sie_es": "gewinnt ab",
+        "wir": "gewinnen ab",
+        "ihr": "gewinnt ab",
+        "sie_Sie": "gewinnen ab"
+      },
+      "praeteritum": {
+        "ich": "gewann ab",
+        "du": "gewannst ab",
+        "er_sie_es": "gewann ab",
+        "wir": "gewannen ab",
+        "ihr": "gewannt ab",
+        "sie_Sie": "gewannen ab"
+      },
+      "konjunktiv1": {
+        "ich": "gewinne ab",
+        "du": "gewinnest ab",
+        "er_sie_es": "gewinne ab",
+        "wir": "gewinnen ab",
+        "ihr": "gewinnet ab",
+        "sie_Sie": "gewinnen ab"
+      },
+      "konjunktiv2": {
+        "ich": "gewönne ab",
+        "du": "gewönnest ab",
+        "er_sie_es": "gewönne ab",
+        "wir": "gewönnen ab",
+        "ihr": "gewönnet ab",
+        "sie_Sie": "gewönnen ab"
+      },
+      "imperativ": {
+        "du": "Gewinn ab!",
+        "ihr": "Gewinnt ab!",
+        "Sie": "Gewinnen Sie ab!"
+      }
+    },
+    "partizip1": "abgewinnend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gewinnen",
+    "woerter": [
+      {
+        "wort": "gewinnen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بردن",
+          "en": "to win"
+        },
+        "id_ref": "verb_gewinnen"
+      },
+      {
+        "wort": "mögen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دوست داشتن",
+          "en": "to like"
+        },
+        "id_ref": "verb_moegen"
+      },
+      {
+        "wort": "der Gefallen",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خوشایندی",
+          "en": "liking"
+        },
+        "id_ref": "nomen_gefallen"
+      },
+      {
+        "wort": "positiv",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مثبت",
+          "en": "positive"
+        },
+        "id_ref": "adjektiv_positiv"
+      },
+      {
+        "wort": "der Reiz",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "جذابیت",
+          "en": "appeal"
+        },
+        "id_ref": "nomen_reiz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

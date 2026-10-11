@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_abgehen",
+  "wort": "abgehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جدا شدن (دکمه و…)",
+      "منشعب شدن (راه)",
+      "رفتن، ترک کردن"
+    ],
+    "en": [
+      "to come off",
+      "to branch off",
+      "to leave"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Verkehr"
+  ],
+  "ipa": "ˈapˌɡeːən",
+  "anmerkung": "Umgangssprachlich: «Da geht was ab!» (es ist viel los); «Das geht mir ab» (ich vermisse es, österr./süddt.).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ein Knopf ist abgegangen.",
+      "uebersetzung": {
+        "fa": "یک دکمه کنده شده.",
+        "en": "A button has come off."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Hinter der Brücke geht ein schmaler Weg ab, der direkt zum See führt.",
+      "uebersetzung": {
+        "fa": "پشت پل یک راه باریک جدا می‌شود که مستقیم به دریاچه می‌رود.",
+        "en": "Behind the bridge a narrow path branches off that leads straight to the lake."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich lösen",
+      "uebersetzung": {
+        "fa": "جدا شدن",
+        "en": "to come loose"
+      }
+    },
+    {
+      "wort": "abzweigen",
+      "uebersetzung": {
+        "fa": "منشعب شدن",
+        "en": "to branch off"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند: جدا شدن) + gehen (رفتن)",
+    "en": "ab- (prefix: off, away) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "von + Dat abgehen",
+        "bedeutung": "eine Schule/einen Weg verlassen",
+        "beispiel": "Er ist mit sechzehn von der Schule abgegangen.",
+        "uebersetzung": {
+          "fa": "او در شانزده‌سالگی مدرسه را ترک کرد.",
+          "en": "He left school at sixteen."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abgehen",
+      "praeteritum": "ging ab",
+      "partizip2": "abgegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe ab",
+        "du": "gehst ab",
+        "er_sie_es": "geht ab",
+        "wir": "gehen ab",
+        "ihr": "geht ab",
+        "sie_Sie": "gehen ab"
+      },
+      "praeteritum": {
+        "ich": "ging ab",
+        "du": "gingst ab",
+        "er_sie_es": "ging ab",
+        "wir": "gingen ab",
+        "ihr": "gingt ab",
+        "sie_Sie": "gingen ab"
+      },
+      "konjunktiv1": {
+        "ich": "gehe ab",
+        "du": "gehest ab",
+        "er_sie_es": "gehe ab",
+        "wir": "gehen ab",
+        "ihr": "gehet ab",
+        "sie_Sie": "gehen ab"
+      },
+      "konjunktiv2": {
+        "ich": "ginge ab",
+        "du": "gingest ab",
+        "er_sie_es": "ginge ab",
+        "wir": "gingen ab",
+        "ihr": "ginget ab",
+        "sie_Sie": "gingen ab"
+      },
+      "imperativ": {
+        "du": "Geh ab!",
+        "ihr": "Geht ab!",
+        "Sie": "Gehen Sie ab!"
+      }
+    },
+    "partizip1": "abgehend",
+    "nominalisierung": "der Abgang"
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "der Knopf",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دکمه",
+          "en": "button"
+        },
+        "id_ref": "nomen_knopf"
+      },
+      {
+        "wort": "abzweigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "منشعب شدن",
+          "en": "to branch off"
+        },
+        "id_ref": "verb_abzweigen"
+      },
+      {
+        "wort": "der Weg",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "راه",
+          "en": "path"
+        },
+        "id_ref": "nomen_weg"
+      },
+      {
+        "wort": "verlassen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ترک کردن",
+          "en": "to leave"
+        },
+        "id_ref": "verb_verlassen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

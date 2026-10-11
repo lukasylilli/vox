@@ -1,0 +1,169 @@
+{
+  "schema": "3.0",
+  "id": "verb_abgraben",
+  "wort": "abgraben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کندن و برداشتن (خاک)",
+      "منبع کسی را از بین بردن (مجازی)"
+    ],
+    "en": [
+      "to dig away",
+      "to undermine"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Redewendung"
+  ],
+  "ipa": "ˈapˌɡʁaːbn̩",
+  "anmerkung": "Häufig in der Redewendung «jemandem das Wasser abgraben».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Bauarbeiter graben den Hügel ab.",
+      "uebersetzung": {
+        "fa": "کارگرها تپه را می‌کنند و برمی‌دارند.",
+        "en": "The workers dig away the hill."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der große Supermarkt hat den kleinen Läden im Dorf das Wasser abgegraben, sodass viele schließen mussten.",
+      "uebersetzung": {
+        "fa": "سوپرمارکت بزرگ نان مغازه‌های کوچک روستا را آجر کرد، طوری که خیلی‌هایشان مجبور شدند تعطیل کنند.",
+        "en": "The big supermarket cut the small shops in the village off from their livelihood, so that many had to close."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند: برداشتن) + graben (کندن)",
+    "en": "ab- (prefix: away) + graben (to dig)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem das Wasser abgraben",
+        "bedeutung": "jemandem die Existenzgrundlage nehmen (Redewendung)",
+        "beispiel": "Die Konkurrenz gräbt uns das Wasser ab.",
+        "uebersetzung": {
+          "fa": "رقیب نان ما را آجر می‌کند.",
+          "en": "The competition is cutting the ground from under our feet."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abgraben",
+      "praeteritum": "grub ab",
+      "partizip2": "abgegraben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "grabe ab",
+        "du": "gräbst ab",
+        "er_sie_es": "gräbt ab",
+        "wir": "graben ab",
+        "ihr": "grabt ab",
+        "sie_Sie": "graben ab"
+      },
+      "praeteritum": {
+        "ich": "grub ab",
+        "du": "grubst ab",
+        "er_sie_es": "grub ab",
+        "wir": "gruben ab",
+        "ihr": "grubt ab",
+        "sie_Sie": "gruben ab"
+      },
+      "konjunktiv1": {
+        "ich": "grabe ab",
+        "du": "grabest ab",
+        "er_sie_es": "grabe ab",
+        "wir": "graben ab",
+        "ihr": "grabet ab",
+        "sie_Sie": "graben ab"
+      },
+      "konjunktiv2": {
+        "ich": "grübe ab",
+        "du": "grübest ab",
+        "er_sie_es": "grübe ab",
+        "wir": "grüben ab",
+        "ihr": "grübet ab",
+        "sie_Sie": "grüben ab"
+      },
+      "imperativ": {
+        "du": "Grab ab!",
+        "ihr": "Grabt ab!",
+        "Sie": "Graben Sie ab!"
+      }
+    },
+    "partizip1": "abgrabend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "graben",
+    "woerter": [
+      {
+        "wort": "graben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کندن",
+          "en": "to dig"
+        },
+        "id_ref": "verb_graben"
+      },
+      {
+        "wort": "die Erde",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خاک",
+          "en": "earth"
+        },
+        "id_ref": "nomen_erde"
+      },
+      {
+        "wort": "der Graben",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گودال، خندق",
+          "en": "ditch"
+        },
+        "id_ref": "nomen_graben"
+      },
+      {
+        "wort": "der Hügel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تپه",
+          "en": "hill"
+        },
+        "id_ref": "nomen_huegel"
+      },
+      {
+        "wort": "die Konkurrenz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رقابت، رقیب",
+          "en": "competition"
+        },
+        "id_ref": "nomen_konkurrenz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

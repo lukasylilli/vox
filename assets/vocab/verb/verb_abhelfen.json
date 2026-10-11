@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_abhelfen",
+  "wort": "abhelfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "چاره کردن",
+      "برطرف کردن (مشکل)"
+    ],
+    "en": [
+      "to remedy",
+      "to redress"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Organisation"
+  ],
+  "ipa": "ˈapˌhɛlfn̩",
+  "anmerkung": "Gehoben; mit Dativ. Konjunktiv II auch: hälfe ab.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Dem Problem helfen wir ab.",
+      "uebersetzung": {
+        "fa": "این مشکل را برطرف می‌کنیم.",
+        "en": "We will remedy the problem."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Stadt will dem Mangel an Kitaplätzen abhelfen, indem sie zwei neue Kindergärten baut.",
+      "uebersetzung": {
+        "fa": "شهر می‌خواهد کمبود جا در مهدکودک‌ها را با ساختن دو مهدکودک جدید برطرف کند.",
+        "en": "The city wants to remedy the shortage of nursery places by building two new kindergartens."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beheben",
+      "uebersetzung": {
+        "fa": "برطرف کردن",
+        "en": "to fix"
+      }
+    },
+    {
+      "wort": "beseitigen",
+      "uebersetzung": {
+        "fa": "از بین بردن",
+        "en": "to eliminate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند) + helfen (کمک کردن)",
+    "en": "ab- (prefix) + helfen (to help)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "einer Sache abhelfen",
+        "bedeutung": "einen Missstand beseitigen (mit Dativ)",
+        "beispiel": "Dem Fehler lässt sich leicht abhelfen.",
+        "uebersetzung": {
+          "fa": "این خطا را به‌راحتی می‌شود برطرف کرد.",
+          "en": "The mistake is easy to remedy."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abhelfen",
+      "praeteritum": "half ab",
+      "partizip2": "abgeholfen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "helfe ab",
+        "du": "hilfst ab",
+        "er_sie_es": "hilft ab",
+        "wir": "helfen ab",
+        "ihr": "helft ab",
+        "sie_Sie": "helfen ab"
+      },
+      "praeteritum": {
+        "ich": "half ab",
+        "du": "halfst ab",
+        "er_sie_es": "half ab",
+        "wir": "halfen ab",
+        "ihr": "halft ab",
+        "sie_Sie": "halfen ab"
+      },
+      "konjunktiv1": {
+        "ich": "helfe ab",
+        "du": "helfest ab",
+        "er_sie_es": "helfe ab",
+        "wir": "helfen ab",
+        "ihr": "helfet ab",
+        "sie_Sie": "helfen ab"
+      },
+      "konjunktiv2": {
+        "ich": "hülfe ab",
+        "du": "hülfest ab",
+        "er_sie_es": "hülfe ab",
+        "wir": "hülfen ab",
+        "ihr": "hülfet ab",
+        "sie_Sie": "hülfen ab"
+      },
+      "imperativ": {
+        "du": "Hilf ab!",
+        "ihr": "Helft ab!",
+        "Sie": "Helfen Sie ab!"
+      }
+    },
+    "partizip1": "abhelfend",
+    "nominalisierung": "die Abhilfe"
+  },
+  "wortnetz": {
+    "grundwort": "helfen",
+    "woerter": [
+      {
+        "wort": "helfen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک کردن",
+          "en": "to help"
+        },
+        "id_ref": "verb_helfen"
+      },
+      {
+        "wort": "die Abhilfe",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "چاره",
+          "en": "remedy"
+        },
+        "id_ref": "nomen_abhilfe"
+      },
+      {
+        "wort": "beheben",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "برطرف کردن",
+          "en": "to fix"
+        },
+        "id_ref": "verb_beheben"
+      },
+      {
+        "wort": "der Mangel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کمبود",
+          "en": "shortage"
+        },
+        "id_ref": "nomen_mangel"
+      },
+      {
+        "wort": "das Problem",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مشکل",
+          "en": "problem"
+        },
+        "id_ref": "nomen_problem"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

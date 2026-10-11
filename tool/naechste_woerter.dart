@@ -845,6 +845,8 @@ const zurueckgestellt = <String>{
   'abbleichen', // zurückgestellt (Regel 14): selten, Bedeutung schwankend 2026-10-11
   'abdingen', // zurückgestellt (Regel 14): veraltet 2026-10-11
   'abdreschen', // zurückgestellt (Regel 14): selten (fast nur «abgedroschen») 2026-10-11
+  'abkneifen', // zurückgestellt (Regel 14): umgangssprachlich, selten («sich etwas abkneifen») 2026-10-11
+  'abkönnen', // zurückgestellt (Regel 14): regional umgangssprachlich («nicht abkönnen» = nicht ertragen), Bedeutung schwankend 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

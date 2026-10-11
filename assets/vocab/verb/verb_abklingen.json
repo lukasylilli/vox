@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_abklingen",
+  "wort": "abklingen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "فروکش کردن",
+      "کم شدن (درد، صدا)"
+    ],
+    "en": [
+      "to subside",
+      "to wear off",
+      "to die away"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Medizin"
+  ],
+  "ipa": "ˈapˌklɪŋən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Schmerzen klingen ab.",
+      "uebersetzung": {
+        "fa": "دردها فروکش می‌کنند.",
+        "en": "The pain is subsiding."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn das Fieber nach drei Tagen nicht abgeklungen ist, sollten Sie wieder zum Arzt gehen.",
+      "uebersetzung": {
+        "fa": "اگر تب بعد از سه روز فروکش نکرد، باید دوباره پیش پزشک بروید.",
+        "en": "If the fever hasn't subsided after three days, you should go back to the doctor."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nachlassen",
+      "uebersetzung": {
+        "fa": "کم شدن",
+        "en": "to ease"
+      }
+    },
+    {
+      "wort": "zurückgehen",
+      "uebersetzung": {
+        "fa": "کاهش یافتن",
+        "en": "to decline"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zunehmen",
+      "uebersetzung": {
+        "fa": "زیاد شدن",
+        "en": "to increase"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند: کم شدن) + klingen (صدا دادن)",
+    "en": "ab- (prefix: diminishing) + klingen (to sound)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "abklingen",
+      "praeteritum": "klang ab",
+      "partizip2": "abgeklungen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "klinge ab",
+        "du": "klingst ab",
+        "er_sie_es": "klingt ab",
+        "wir": "klingen ab",
+        "ihr": "klingt ab",
+        "sie_Sie": "klingen ab"
+      },
+      "praeteritum": {
+        "ich": "klang ab",
+        "du": "klangst ab",
+        "er_sie_es": "klang ab",
+        "wir": "klangen ab",
+        "ihr": "klangt ab",
+        "sie_Sie": "klangen ab"
+      },
+      "konjunktiv1": {
+        "ich": "klinge ab",
+        "du": "klingest ab",
+        "er_sie_es": "klinge ab",
+        "wir": "klingen ab",
+        "ihr": "klinget ab",
+        "sie_Sie": "klingen ab"
+      },
+      "konjunktiv2": {
+        "ich": "klänge ab",
+        "du": "klängest ab",
+        "er_sie_es": "klänge ab",
+        "wir": "klängen ab",
+        "ihr": "klänget ab",
+        "sie_Sie": "klängen ab"
+      },
+      "imperativ": {
+        "du": "Kling ab!",
+        "ihr": "Klingt ab!",
+        "Sie": "Klingen Sie ab!"
+      }
+    },
+    "partizip1": "abklingend",
+    "nominalisierung": "das Abklingen"
+  },
+  "wortnetz": {
+    "grundwort": "klingen",
+    "woerter": [
+      {
+        "wort": "klingen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صدا دادن",
+          "en": "to sound"
+        },
+        "id_ref": "verb_klingen"
+      },
+      {
+        "wort": "der Schmerz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "درد",
+          "en": "pain"
+        },
+        "id_ref": "nomen_schmerz"
+      },
+      {
+        "wort": "das Fieber",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تب",
+          "en": "fever"
+        },
+        "id_ref": "nomen_fieber"
+      },
+      {
+        "wort": "nachlassen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کم شدن",
+          "en": "to ease"
+        },
+        "id_ref": "verb_nachlassen"
+      },
+      {
+        "wort": "die Entzündung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "التهاب",
+          "en": "inflammation"
+        },
+        "id_ref": "nomen_entzuendung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
