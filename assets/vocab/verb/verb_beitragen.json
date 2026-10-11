@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_beitragen",
+  "wort": "beitragen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کمک کردن به، سهم داشتن در"
+    ],
+    "en": [
+      "to contribute"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gesellschaft",
+    "Arbeit"
+  ],
+  "ipa": "ˈbaɪ̯ˌtʁaːɡn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Jeder trägt etwas zum Fest bei.",
+      "uebersetzung": {
+        "fa": "هر کس چیزی برای جشن می‌آورد.",
+        "en": "Everyone contributes something to the party."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Regelmäßige Bewegung trägt dazu bei, dass man nachts besser schläft.",
+      "uebersetzung": {
+        "fa": "ورزش منظم کمک می‌کند که آدم شب بهتر بخوابد.",
+        "en": "Regular exercise helps you sleep better at night."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "mitwirken",
+      "uebersetzung": {
+        "fa": "همکاری کردن",
+        "en": "to participate"
+      }
+    },
+    {
+      "wort": "helfen",
+      "uebersetzung": {
+        "fa": "کمک کردن",
+        "en": "to help"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "bei- (پیشوند: کنار) + tragen (حمل کردن)",
+    "en": "bei- (prefix: alongside) + tragen (to carry)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zu etwas beitragen (zu + Dat)",
+        "bedeutung": "einen Teil zu etwas leisten",
+        "beispiel": "Jeder kann zum Umweltschutz beitragen.",
+        "uebersetzung": {
+          "fa": "هر کس می‌تواند به حفاظت از محیط زیست کمک کند.",
+          "en": "Everyone can contribute to protecting the environment."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beitragen",
+      "praeteritum": "trug bei",
+      "partizip2": "beigetragen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "trage bei",
+        "du": "trägst bei",
+        "er_sie_es": "trägt bei",
+        "wir": "tragen bei",
+        "ihr": "tragt bei",
+        "sie_Sie": "tragen bei"
+      },
+      "praeteritum": {
+        "ich": "trug bei",
+        "du": "trugst bei",
+        "er_sie_es": "trug bei",
+        "wir": "trugen bei",
+        "ihr": "trugt bei",
+        "sie_Sie": "trugen bei"
+      },
+      "konjunktiv1": {
+        "ich": "trage bei",
+        "du": "tragest bei",
+        "er_sie_es": "trage bei",
+        "wir": "tragen bei",
+        "ihr": "traget bei",
+        "sie_Sie": "tragen bei"
+      },
+      "konjunktiv2": {
+        "ich": "trüge bei",
+        "du": "trügest bei",
+        "er_sie_es": "trüge bei",
+        "wir": "trügen bei",
+        "ihr": "trüget bei",
+        "sie_Sie": "trügen bei"
+      },
+      "imperativ": {
+        "du": "Trag bei!",
+        "ihr": "Tragt bei!",
+        "Sie": "Tragen Sie bei!"
+      }
+    },
+    "partizip1": "beitragend",
+    "nominalisierung": "der Beitrag"
+  },
+  "wortnetz": {
+    "grundwort": "tragen",
+    "woerter": [
+      {
+        "wort": "tragen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حمل کردن",
+          "en": "to carry"
+        },
+        "id_ref": "verb_tragen"
+      },
+      {
+        "wort": "helfen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک کردن",
+          "en": "to help"
+        },
+        "id_ref": "verb_helfen"
+      },
+      {
+        "wort": "der Beitrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سهم، مقاله، حق عضویت",
+          "en": "contribution"
+        },
+        "id_ref": "nomen_beitrag"
+      },
+      {
+        "wort": "mitwirken",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "همکاری کردن",
+          "en": "to participate"
+        },
+        "id_ref": "verb_mitwirken"
+      },
+      {
+        "wort": "die Hilfe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کمک",
+          "en": "help"
+        },
+        "id_ref": "nomen_hilfe"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

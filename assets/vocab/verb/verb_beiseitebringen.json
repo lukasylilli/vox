@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_beiseitebringen",
+  "wort": "beiseitebringen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پنهانی برداشتن، کش رفتن",
+      "کنار گذاشتن، جای دیگری بردن"
+    ],
+    "en": [
+      "to spirit away",
+      "to embezzle",
+      "to put aside"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kriminalität",
+    "Geld"
+  ],
+  "ipa": "baɪ̯ˈzaɪ̯təˌbʁɪŋən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er bringt das Geld beiseite.",
+      "uebersetzung": {
+        "fa": "او پول را پنهانی برمی‌دارد.",
+        "en": "He spirits the money away."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Buchhalter hatte über Jahre hinweg Firmengelder beiseitegebracht, ohne dass es jemand merkte.",
+      "uebersetzung": {
+        "fa": "حسابدار سال‌ها پول شرکت را بالا کشیده بود، بی‌آن‌که کسی بفهمد.",
+        "en": "For years the accountant had siphoned off company money without anyone noticing."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "unterschlagen",
+      "uebersetzung": {
+        "fa": "اختلاس کردن",
+        "en": "to embezzle"
+      }
+    },
+    {
+      "wort": "verstecken",
+      "uebersetzung": {
+        "fa": "پنهان کردن",
+        "en": "to hide"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "beiseite (کنار) + bringen (بردن)",
+    "en": "beiseite (aside) + bringen (to bring)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas beiseitebringen",
+        "bedeutung": "etwas heimlich wegschaffen — mit Akkusativ",
+        "beispiel": "Die Diebe brachten die Beute schnell beiseite.",
+        "uebersetzung": {
+          "fa": "دزدها غنیمت را سریع جابه‌جا و پنهان کردند.",
+          "en": "The thieves quickly spirited the loot away."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beiseitebringen",
+      "praeteritum": "brachte beiseite",
+      "partizip2": "beiseitegebracht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bringe beiseite",
+        "du": "bringst beiseite",
+        "er_sie_es": "bringt beiseite",
+        "wir": "bringen beiseite",
+        "ihr": "bringt beiseite",
+        "sie_Sie": "bringen beiseite"
+      },
+      "praeteritum": {
+        "ich": "brachte beiseite",
+        "du": "brachtest beiseite",
+        "er_sie_es": "brachte beiseite",
+        "wir": "brachten beiseite",
+        "ihr": "brachtet beiseite",
+        "sie_Sie": "brachten beiseite"
+      },
+      "konjunktiv1": {
+        "ich": "bringe beiseite",
+        "du": "bringest beiseite",
+        "er_sie_es": "bringe beiseite",
+        "wir": "bringen beiseite",
+        "ihr": "bringet beiseite",
+        "sie_Sie": "bringen beiseite"
+      },
+      "konjunktiv2": {
+        "ich": "brächte beiseite",
+        "du": "brächtest beiseite",
+        "er_sie_es": "brächte beiseite",
+        "wir": "brächten beiseite",
+        "ihr": "brächtet beiseite",
+        "sie_Sie": "brächten beiseite"
+      },
+      "imperativ": {
+        "du": "Bring beiseite!",
+        "ihr": "Bringt beiseite!",
+        "Sie": "Bringen Sie beiseite!"
+      }
+    },
+    "partizip1": "beiseitebringend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bringen",
+    "woerter": [
+      {
+        "wort": "bringen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آوردن",
+          "en": "to bring"
+        },
+        "id_ref": "verb_bringen"
+      },
+      {
+        "wort": "das Geld",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پول",
+          "en": "money"
+        },
+        "id_ref": "nomen_geld"
+      },
+      {
+        "wort": "verstecken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پنهان کردن",
+          "en": "to hide"
+        },
+        "id_ref": "verb_verstecken"
+      },
+      {
+        "wort": "heimlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پنهانی",
+          "en": "secret"
+        },
+        "id_ref": "adjektiv_heimlich"
+      },
+      {
+        "wort": "unterschlagen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اختلاس کردن",
+          "en": "to embezzle"
+        },
+        "id_ref": "verb_unterschlagen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

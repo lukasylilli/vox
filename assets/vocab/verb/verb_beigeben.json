@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_beigeben",
+  "wort": "beigeben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "افزودن، ضمیمه کردن",
+      "(klein beigeben) کوتاه آمدن، تسلیم شدن"
+    ],
+    "en": [
+      "to add",
+      "to give in (klein beigeben)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kochen",
+    "Konflikte"
+  ],
+  "ipa": "ˈbaɪ̯ˌɡeːbn̩",
+  "anmerkung": "meist in der Wendung «klein beigeben»",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Am Ende gibt er klein bei.",
+      "uebersetzung": {
+        "fa": "آخرش کوتاه می‌آید.",
+        "en": "In the end he gives in."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Kurz bevor die Suppe fertig ist, gibt man etwas Sahne bei, damit sie cremiger wird.",
+      "uebersetzung": {
+        "fa": "کمی قبل از آماده شدن سوپ، مقداری خامه اضافه می‌کنند تا خامه‌ای‌تر شود.",
+        "en": "Shortly before the soup is ready, you add some cream to make it creamier."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hinzufügen",
+      "uebersetzung": {
+        "fa": "افزودن",
+        "en": "to add"
+      }
+    },
+    {
+      "wort": "nachgeben",
+      "uebersetzung": {
+        "fa": "کوتاه آمدن",
+        "en": "to give in"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "bei- (پیشوند: کنار) + geben (دادن)",
+    "en": "bei- (prefix: alongside) + geben (to give)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas einer Sache beigeben",
+        "bedeutung": "etwas hinzufügen — Akkusativ + Dativ",
+        "beispiel": "Dem Teig wird etwas Salz beigegeben.",
+        "uebersetzung": {
+          "fa": "کمی نمک به خمیر اضافه می‌شود.",
+          "en": "A little salt is added to the dough."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beigeben",
+      "praeteritum": "gab bei",
+      "partizip2": "beigegeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gebe bei",
+        "du": "gibst bei",
+        "er_sie_es": "gibt bei",
+        "wir": "geben bei",
+        "ihr": "gebt bei",
+        "sie_Sie": "geben bei"
+      },
+      "praeteritum": {
+        "ich": "gab bei",
+        "du": "gabst bei",
+        "er_sie_es": "gab bei",
+        "wir": "gaben bei",
+        "ihr": "gabt bei",
+        "sie_Sie": "gaben bei"
+      },
+      "konjunktiv1": {
+        "ich": "gebe bei",
+        "du": "gebest bei",
+        "er_sie_es": "gebe bei",
+        "wir": "geben bei",
+        "ihr": "gebet bei",
+        "sie_Sie": "geben bei"
+      },
+      "konjunktiv2": {
+        "ich": "gäbe bei",
+        "du": "gäbest bei",
+        "er_sie_es": "gäbe bei",
+        "wir": "gäben bei",
+        "ihr": "gäbet bei",
+        "sie_Sie": "gäben bei"
+      },
+      "imperativ": {
+        "du": "Gib bei!",
+        "ihr": "Gebt bei!",
+        "Sie": "Geben Sie bei!"
+      }
+    },
+    "partizip1": "beigebend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "hinzufügen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "افزودن",
+          "en": "to add"
+        },
+        "id_ref": "verb_hinzufuegen"
+      },
+      {
+        "wort": "nachgeben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کوتاه آمدن",
+          "en": "to give in"
+        },
+        "id_ref": "verb_nachgeben"
+      },
+      {
+        "wort": "die Zutat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مواد لازم",
+          "en": "ingredient"
+        },
+        "id_ref": "nomen_zutat"
+      },
+      {
+        "wort": "die Beilage",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مخلفات، ضمیمه",
+          "en": "side dish, supplement"
+        },
+        "id_ref": "nomen_beilage"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

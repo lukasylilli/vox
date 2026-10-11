@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_behelfen",
+  "wort": "behelfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(sich behelfen) سر کردن، با چیزی کار را راه انداختن"
+    ],
+    "en": [
+      "to make do",
+      "to manage"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "bəˈhɛlfn̩",
+  "anmerkung": "nur reflexiv: «sich (mit etwas) behelfen»",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir behelfen uns mit einer Kerze.",
+      "uebersetzung": {
+        "fa": "با یک شمع کارمان را راه می‌اندازیم.",
+        "en": "We make do with a candle."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil kein Werkzeug da war, musste er sich mit einem Messer behelfen, um die Schraube zu lösen.",
+      "uebersetzung": {
+        "fa": "چون ابزاری نبود، مجبور شد با یک چاقو پیچ را باز کند.",
+        "en": "Because there were no tools, he had to make do with a knife to loosen the screw."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "auskommen",
+      "uebersetzung": {
+        "fa": "سر کردن",
+        "en": "to manage"
+      }
+    },
+    {
+      "wort": "improvisieren",
+      "uebersetzung": {
+        "fa": "بداهه عمل کردن",
+        "en": "to improvise"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- (پیشوند) + helfen (کمک کردن)",
+    "en": "be- (prefix) + helfen (to help)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich mit etwas behelfen (mit + Dat)",
+        "bedeutung": "mangels Besserem etwas anderes benutzen",
+        "beispiel": "Ohne Tisch behalfen wir uns mit einer Kiste.",
+        "uebersetzung": {
+          "fa": "بدون میز، با یک جعبه سر کردیم.",
+          "en": "Without a table we made do with a box."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "behelfen",
+      "praeteritum": "behalf",
+      "partizip2": "beholfen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "behelfe",
+        "du": "behilfst",
+        "er_sie_es": "behilft",
+        "wir": "behelfen",
+        "ihr": "behelft",
+        "sie_Sie": "behelfen"
+      },
+      "praeteritum": {
+        "ich": "behalf",
+        "du": "behalfst",
+        "er_sie_es": "behalf",
+        "wir": "behalfen",
+        "ihr": "behalft",
+        "sie_Sie": "behalfen"
+      },
+      "konjunktiv1": {
+        "ich": "behelfe",
+        "du": "behelfest",
+        "er_sie_es": "behelfe",
+        "wir": "behelfen",
+        "ihr": "behelfet",
+        "sie_Sie": "behelfen"
+      },
+      "konjunktiv2": {
+        "ich": "behülfe",
+        "du": "behülfest",
+        "er_sie_es": "behülfe",
+        "wir": "behülfen",
+        "ihr": "behülfet",
+        "sie_Sie": "behülfen"
+      },
+      "imperativ": {
+        "du": "Behilf!",
+        "ihr": "Behelft!",
+        "Sie": "Behelfen Sie!"
+      }
+    },
+    "partizip1": "behelfend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "helfen",
+    "woerter": [
+      {
+        "wort": "helfen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک کردن",
+          "en": "to help"
+        },
+        "id_ref": "verb_helfen"
+      },
+      {
+        "wort": "die Hilfe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کمک",
+          "en": "help"
+        },
+        "id_ref": "nomen_hilfe"
+      },
+      {
+        "wort": "auskommen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سر کردن",
+          "en": "to manage"
+        },
+        "id_ref": "verb_auskommen"
+      },
+      {
+        "wort": "improvisieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بداهه کار کردن",
+          "en": "to improvise"
+        },
+        "id_ref": "verb_improvisieren"
+      },
+      {
+        "wort": "behelfsmäßig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "موقت، سرهم‌بندی‌شده",
+          "en": "makeshift"
+        },
+        "id_ref": "adjektiv_behelfsmaessig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_beissen",
+  "wort": "beißen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گاز گرفتن",
+      "(فلفل، دود) سوزاندن",
+      "(sich beißen، محاوره) با هم جور نبودن (رنگ‌ها)"
+    ],
+    "en": [
+      "to bite",
+      "to sting",
+      "to clash (colours)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Tiere",
+    "Essen"
+  ],
+  "ipa": "ˈbaɪ̯sn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hund beißt nicht.",
+      "uebersetzung": {
+        "fa": "سگ گاز نمی‌گیرد.",
+        "en": "The dog doesn't bite."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Als er in den Apfel biss, merkte er, dass ein Wurm darin war.",
+      "uebersetzung": {
+        "fa": "وقتی سیب را گاز زد، متوجه شد که یک کرم داخلش است.",
+        "en": "When he bit into the apple, he noticed there was a worm in it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "knabbern",
+      "uebersetzung": {
+        "fa": "گاز ریز زدن",
+        "en": "to nibble"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Erbwort (کلمه‌ی اصیل آلمانی)",
+    "en": "native Germanic word"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "in etwas beißen (in + Akk)",
+        "bedeutung": "mit den Zähnen in etwas hineindrücken",
+        "beispiel": "Sie biss in das Brot.",
+        "uebersetzung": {
+          "fa": "نان را گاز زد.",
+          "en": "She bit into the bread."
+        }
+      },
+      {
+        "muster": "jemanden in etwas beißen (in + Akk)",
+        "bedeutung": "jemanden an einer Körperstelle beißen",
+        "beispiel": "Die Katze hat mich in die Hand gebissen.",
+        "uebersetzung": {
+          "fa": "گربه دستم را گاز گرفت.",
+          "en": "The cat bit me on the hand."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beißen",
+      "praeteritum": "biss",
+      "partizip2": "gebissen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beiße",
+        "du": "beißt",
+        "er_sie_es": "beißt",
+        "wir": "beißen",
+        "ihr": "beißt",
+        "sie_Sie": "beißen"
+      },
+      "praeteritum": {
+        "ich": "biss",
+        "du": "bissest",
+        "er_sie_es": "biss",
+        "wir": "bissen",
+        "ihr": "bisst",
+        "sie_Sie": "bissen"
+      },
+      "konjunktiv1": {
+        "ich": "beiße",
+        "du": "beißest",
+        "er_sie_es": "beiße",
+        "wir": "beißen",
+        "ihr": "beißet",
+        "sie_Sie": "beißen"
+      },
+      "konjunktiv2": {
+        "ich": "bisse",
+        "du": "bissest",
+        "er_sie_es": "bisse",
+        "wir": "bissen",
+        "ihr": "bisset",
+        "sie_Sie": "bissen"
+      },
+      "imperativ": {
+        "du": "Beiß!",
+        "ihr": "Beißt!",
+        "Sie": "Beißen Sie!"
+      }
+    },
+    "partizip1": "beißend",
+    "nominalisierung": "der Biss"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Zahn",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دندان",
+          "en": "tooth"
+        },
+        "id_ref": "nomen_zahn"
+      },
+      {
+        "wort": "der Hund",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سگ",
+          "en": "dog"
+        },
+        "id_ref": "nomen_hund"
+      },
+      {
+        "wort": "kauen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جویدن",
+          "en": "to chew"
+        },
+        "id_ref": "verb_kauen"
+      },
+      {
+        "wort": "der Biss",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گاز، نیش",
+          "en": "bite"
+        },
+        "id_ref": "nomen_biss"
+      },
+      {
+        "wort": "bissig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گازگیر؛ نیش‌دار",
+          "en": "vicious, biting"
+        },
+        "id_ref": "adjektiv_bissig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
