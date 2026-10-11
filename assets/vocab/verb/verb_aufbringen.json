@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_aufbringen",
+  "wort": "aufbringen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "فراهم کردن (پول، نیرو)",
+      "عصبانی کردن",
+      "باب کردن (مد، شایعه)"
+    ],
+    "en": [
+      "to raise (money)",
+      "to muster",
+      "to anger"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Geld",
+    "Gefühle"
+  ],
+  "ipa": "ˈaʊ̯fˌbʁɪŋən",
+  "anmerkung": "Das Partizip «aufgebracht» (wütend) ist auch eigenes Adjektiv.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir bringen das Geld auf.",
+      "uebersetzung": {
+        "fa": "پول را فراهم می‌کنیم.",
+        "en": "We raise the money."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Familie konnte die hohen Kosten für die Behandlung kaum aufbringen, deshalb sammelten Freunde Spenden.",
+      "uebersetzung": {
+        "fa": "خانواده به‌سختی می‌توانست هزینه‌های سنگین درمان را فراهم کند، برای همین دوستان کمک مالی جمع کردند.",
+        "en": "The family could hardly raise the high cost of the treatment, so friends collected donations."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beschaffen",
+      "uebersetzung": {
+        "fa": "تهیه کردن",
+        "en": "to procure"
+      }
+    },
+    {
+      "wort": "verärgern",
+      "uebersetzung": {
+        "fa": "عصبانی کردن",
+        "en": "to annoy"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auf- (پیشوند: فراهم آوردن) + bringen (آوردن)",
+    "en": "auf- (prefix: raising) + bringen (to bring)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden gegen + Akk aufbringen",
+        "bedeutung": "jemanden gegen jemanden wütend machen",
+        "beispiel": "Er brachte die Kollegen gegen den Chef auf.",
+        "uebersetzung": {
+          "fa": "او همکاران را علیه رئیس شوراند.",
+          "en": "He turned his colleagues against the boss."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "aufbringen",
+      "praeteritum": "brachte auf",
+      "partizip2": "aufgebracht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bringe auf",
+        "du": "bringst auf",
+        "er_sie_es": "bringt auf",
+        "wir": "bringen auf",
+        "ihr": "bringt auf",
+        "sie_Sie": "bringen auf"
+      },
+      "praeteritum": {
+        "ich": "brachte auf",
+        "du": "brachtest auf",
+        "er_sie_es": "brachte auf",
+        "wir": "brachten auf",
+        "ihr": "brachtet auf",
+        "sie_Sie": "brachten auf"
+      },
+      "konjunktiv1": {
+        "ich": "bringe auf",
+        "du": "bringest auf",
+        "er_sie_es": "bringe auf",
+        "wir": "bringen auf",
+        "ihr": "bringet auf",
+        "sie_Sie": "bringen auf"
+      },
+      "konjunktiv2": {
+        "ich": "brächte auf",
+        "du": "brächtest auf",
+        "er_sie_es": "brächte auf",
+        "wir": "brächten auf",
+        "ihr": "brächtet auf",
+        "sie_Sie": "brächten auf"
+      },
+      "imperativ": {
+        "du": "Bring auf!",
+        "ihr": "Bringt auf!",
+        "Sie": "Bringen Sie auf!"
+      }
+    },
+    "partizip1": "aufbringend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bringen",
+    "woerter": [
+      {
+        "wort": "bringen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آوردن",
+          "en": "to bring"
+        },
+        "id_ref": "verb_bringen"
+      },
+      {
+        "wort": "das Geld",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پول",
+          "en": "money"
+        },
+        "id_ref": "nomen_geld"
+      },
+      {
+        "wort": "aufgebracht",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "برآشفته",
+          "en": "irate"
+        },
+        "id_ref": "adjektiv_aufgebracht"
+      },
+      {
+        "wort": "die Geduld",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صبر",
+          "en": "patience"
+        },
+        "id_ref": "nomen_geduld"
+      },
+      {
+        "wort": "beschaffen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تهیه کردن",
+          "en": "to procure"
+        },
+        "id_ref": "verb_beschaffen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,171 @@
+{
+  "schema": "3.0",
+  "id": "verb_auffahren",
+  "wort": "auffahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "از پشت زدن (تصادف)",
+      "از جا پریدن",
+      "سفره‌ی مفصل چیدن (عامیانه)"
+    ],
+    "en": [
+      "to rear-end",
+      "to start up",
+      "to serve up"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr",
+    "Gefühle"
+  ],
+  "ipa": "ˈaʊ̯fˌfaːʁən",
+  "anmerkung": "Intransitiv mit sein; «ein Buffet auffahren» (umgangssprachlich: reichlich servieren) mit haben.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ein Auto ist auf meins aufgefahren.",
+      "uebersetzung": {
+        "fa": "یک ماشین از پشت به ماشین من زد.",
+        "en": "A car drove into the back of mine."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei der Hochzeit wurde ein riesiges Buffet aufgefahren, das für doppelt so viele Gäste gereicht hätte.",
+      "uebersetzung": {
+        "fa": "در عروسی بوفه‌ی عظیمی چیده شد که برای دو برابر مهمان‌ها هم کافی بود.",
+        "en": "At the wedding a huge buffet was laid on that would have been enough for twice as many guests."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auf- (پیشوند: روی، بالا) + fahren (رفتن با وسیله)",
+    "en": "auf- (prefix: onto, up) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Akk auffahren",
+        "bedeutung": "von hinten gegen ein Fahrzeug fahren",
+        "beispiel": "Der Lkw fuhr auf den Bus auf.",
+        "uebersetzung": {
+          "fa": "کامیون از پشت به اتوبوس زد.",
+          "en": "The lorry drove into the back of the bus."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "auffahren",
+      "praeteritum": "fuhr auf",
+      "partizip2": "aufgefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre auf",
+        "du": "fährst auf",
+        "er_sie_es": "fährt auf",
+        "wir": "fahren auf",
+        "ihr": "fahrt auf",
+        "sie_Sie": "fahren auf"
+      },
+      "praeteritum": {
+        "ich": "fuhr auf",
+        "du": "fuhrst auf",
+        "er_sie_es": "fuhr auf",
+        "wir": "fuhren auf",
+        "ihr": "fuhrt auf",
+        "sie_Sie": "fuhren auf"
+      },
+      "konjunktiv1": {
+        "ich": "fahre auf",
+        "du": "fahrest auf",
+        "er_sie_es": "fahre auf",
+        "wir": "fahren auf",
+        "ihr": "fahret auf",
+        "sie_Sie": "fahren auf"
+      },
+      "konjunktiv2": {
+        "ich": "führe auf",
+        "du": "führest auf",
+        "er_sie_es": "führe auf",
+        "wir": "führen auf",
+        "ihr": "führet auf",
+        "sie_Sie": "führen auf"
+      },
+      "imperativ": {
+        "du": "Fahr auf!",
+        "ihr": "Fahrt auf!",
+        "Sie": "Fahren Sie auf!"
+      }
+    },
+    "partizip1": "auffahrend",
+    "nominalisierung": "die Auffahrt"
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "der Unfall",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تصادف",
+          "en": "accident"
+        },
+        "id_ref": "nomen_unfall"
+      },
+      {
+        "wort": "die Auffahrt",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ورودی (بزرگراه)",
+          "en": "slip road; driveway"
+        },
+        "id_ref": "nomen_auffahrt"
+      },
+      {
+        "wort": "der Abstand",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فاصله",
+          "en": "distance"
+        },
+        "id_ref": "nomen_abstand"
+      },
+      {
+        "wort": "erschrecken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ترسیدن",
+          "en": "to be startled"
+        },
+        "id_ref": "verb_erschrecken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

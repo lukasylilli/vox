@@ -859,6 +859,9 @@ const zurueckgestellt = <String>{
   'ankleiben', // zurückgestellt (Regel 14): kein Duden-Eintrag gefunden 2026-10-11
   'ankönnen', // zurückgestellt (Regel 14): umgangssprachlich («gegen jemanden nicht ankönnen»), Formen unsicher 2026-10-11
   'ankriechen', // zurückgestellt (Regel 14): selten (fast nur «angekrochen kommen») 2026-10-11
+  'aufbersten', // zurückgestellt (Regel 14): selten, gehoben 2026-10-11
+  'aufbrennen', // zurückgestellt (Regel 14): selten, Bedeutung schwankend 2026-10-11
+  'aufdringen', // zurückgestellt (Regel 14): veraltet (heute nur «aufdrängen», «aufdringlich») 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

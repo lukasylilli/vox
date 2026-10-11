@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_aufbrechen",
+  "wort": "aufbrechen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "راه افتادن",
+      "شکستن و باز کردن"
+    ],
+    "en": [
+      "to set off",
+      "to break open"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Reisen",
+    "Alltag"
+  ],
+  "ipa": "ˈaʊ̯fˌbʁɛçn̩",
+  "anmerkung": "Intransitiv (losgehen) mit sein; transitiv (etwas aufbrechen) mit haben.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir brechen früh auf.",
+      "uebersetzung": {
+        "fa": "زود راه می‌افتیم.",
+        "en": "We set off early."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Diebe hatten das Auto aufgebrochen und das Radio gestohlen, während wir im Kino waren.",
+      "uebersetzung": {
+        "fa": "دزدها ماشین را شکسته و باز کرده بودند و رادیو را دزدیده بودند، در حالی که ما سینما بودیم.",
+        "en": "The thieves had broken into the car and stolen the radio while we were at the cinema."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "losgehen",
+      "uebersetzung": {
+        "fa": "راه افتادن",
+        "en": "to set off"
+      }
+    },
+    {
+      "wort": "aufknacken",
+      "uebersetzung": {
+        "fa": "شکستن و باز کردن",
+        "en": "to crack open"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ankommen",
+      "uebersetzung": {
+        "fa": "رسیدن",
+        "en": "to arrive"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auf- (پیشوند: باز؛ آغاز) + brechen (شکستن)",
+    "en": "auf- (prefix: open; start) + brechen (to break)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "nach + Dat aufbrechen",
+        "bedeutung": "zu einem Ziel losgehen",
+        "beispiel": "Morgen brechen wir nach Italien auf.",
+        "uebersetzung": {
+          "fa": "فردا به سوی ایتالیا راه می‌افتیم.",
+          "en": "Tomorrow we set off for Italy."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "aufbrechen",
+      "praeteritum": "brach auf",
+      "partizip2": "aufgebrochen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "breche auf",
+        "du": "brichst auf",
+        "er_sie_es": "bricht auf",
+        "wir": "brechen auf",
+        "ihr": "brecht auf",
+        "sie_Sie": "brechen auf"
+      },
+      "praeteritum": {
+        "ich": "brach auf",
+        "du": "brachst auf",
+        "er_sie_es": "brach auf",
+        "wir": "brachen auf",
+        "ihr": "bracht auf",
+        "sie_Sie": "brachen auf"
+      },
+      "konjunktiv1": {
+        "ich": "breche auf",
+        "du": "brechest auf",
+        "er_sie_es": "breche auf",
+        "wir": "brechen auf",
+        "ihr": "brechet auf",
+        "sie_Sie": "brechen auf"
+      },
+      "konjunktiv2": {
+        "ich": "bräche auf",
+        "du": "brächest auf",
+        "er_sie_es": "bräche auf",
+        "wir": "brächen auf",
+        "ihr": "brächet auf",
+        "sie_Sie": "brächen auf"
+      },
+      "imperativ": {
+        "du": "Brich auf!",
+        "ihr": "Brecht auf!",
+        "Sie": "Brechen Sie auf!"
+      }
+    },
+    "partizip1": "aufbrechend",
+    "nominalisierung": "der Aufbruch"
+  },
+  "wortnetz": {
+    "grundwort": "brechen",
+    "woerter": [
+      {
+        "wort": "brechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شکستن",
+          "en": "to break"
+        },
+        "id_ref": "verb_brechen"
+      },
+      {
+        "wort": "der Aufbruch",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "حرکت، آغاز",
+          "en": "departure, new start"
+        },
+        "id_ref": "nomen_aufbruch"
+      },
+      {
+        "wort": "losfahren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "راه افتادن",
+          "en": "to set off"
+        },
+        "id_ref": "verb_losfahren"
+      },
+      {
+        "wort": "der Einbruch",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دزدی (با شکستن)",
+          "en": "burglary"
+        },
+        "id_ref": "nomen_einbruch"
+      },
+      {
+        "wort": "die Reise",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سفر",
+          "en": "trip"
+        },
+        "id_ref": "nomen_reise"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

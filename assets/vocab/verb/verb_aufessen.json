@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_aufessen",
+  "wort": "aufessen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تا ته خوردن",
+      "تمام کردن (غذا)"
+    ],
+    "en": [
+      "to eat up",
+      "to finish (eating)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Essen"
+  ],
+  "ipa": "ˈaʊ̯fˌʔɛsn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Iss bitte deinen Teller auf!",
+      "uebersetzung": {
+        "fa": "لطفاً بشقابت را تا ته بخور!",
+        "en": "Please finish your plate!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Kinder haben den ganzen Kuchen aufgegessen, bevor die Gäste überhaupt gekommen sind.",
+      "uebersetzung": {
+        "fa": "بچه‌ها کل کیک را خوردند، پیش از اینکه مهمان‌ها اصلاً برسند.",
+        "en": "The children ate up the whole cake before the guests had even arrived."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verspeisen",
+      "uebersetzung": {
+        "fa": "خوردن (ادبی)",
+        "en": "to consume"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "übrig lassen",
+      "uebersetzung": {
+        "fa": "باقی گذاشتن",
+        "en": "to leave over"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auf- (پیشوند: تمام کردن) + essen (خوردن)",
+    "en": "auf- (prefix: completely) + essen (to eat)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "aufessen",
+      "praeteritum": "aß auf",
+      "partizip2": "aufgegessen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "esse auf",
+        "du": "isst auf",
+        "er_sie_es": "isst auf",
+        "wir": "essen auf",
+        "ihr": "esst auf",
+        "sie_Sie": "essen auf"
+      },
+      "praeteritum": {
+        "ich": "aß auf",
+        "du": "aßest auf",
+        "er_sie_es": "aß auf",
+        "wir": "aßen auf",
+        "ihr": "aßt auf",
+        "sie_Sie": "aßen auf"
+      },
+      "konjunktiv1": {
+        "ich": "esse auf",
+        "du": "essest auf",
+        "er_sie_es": "esse auf",
+        "wir": "essen auf",
+        "ihr": "esset auf",
+        "sie_Sie": "essen auf"
+      },
+      "konjunktiv2": {
+        "ich": "äße auf",
+        "du": "äßest auf",
+        "er_sie_es": "äße auf",
+        "wir": "äßen auf",
+        "ihr": "äßet auf",
+        "sie_Sie": "äßen auf"
+      },
+      "imperativ": {
+        "du": "Iss auf!",
+        "ihr": "Esst auf!",
+        "Sie": "Essen Sie auf!"
+      }
+    },
+    "partizip1": "aufessend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "essen",
+    "woerter": [
+      {
+        "wort": "essen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوردن",
+          "en": "to eat"
+        },
+        "id_ref": "verb_essen"
+      },
+      {
+        "wort": "der Teller",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بشقاب",
+          "en": "plate"
+        },
+        "id_ref": "nomen_teller"
+      },
+      {
+        "wort": "satt",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سیر",
+          "en": "full"
+        },
+        "id_ref": "adjektiv_satt"
+      },
+      {
+        "wort": "der Rest",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "باقی‌مانده",
+          "en": "leftover"
+        },
+        "id_ref": "nomen_rest"
+      },
+      {
+        "wort": "austrinken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تا ته نوشیدن",
+          "en": "to drink up"
+        },
+        "id_ref": "verb_austrinken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

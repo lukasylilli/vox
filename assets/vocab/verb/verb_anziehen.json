@@ -1,0 +1,201 @@
+{
+  "schema": "3.0",
+  "id": "verb_anziehen",
+  "wort": "anziehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پوشیدن",
+      "جذب کردن",
+      "سفت کردن (پیچ)"
+    ],
+    "en": [
+      "to put on",
+      "to attract",
+      "to tighten"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Kleidung",
+    "Physik"
+  ],
+  "ipa": "ˈanˌtsiːən",
+  "anmerkung": "Das Nomen «der Anzug» (Kleidungsstück) hat eigene Bedeutung — eigene Karte.",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich ziehe meine Jacke an.",
+      "uebersetzung": {
+        "fa": "کاپشنم را می‌پوشم.",
+        "en": "I put on my jacket."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Altstadt zieht jedes Jahr Millionen Touristen an, weil sie so gut erhalten ist.",
+      "uebersetzung": {
+        "fa": "شهر قدیمی هر سال میلیون‌ها گردشگر را جذب می‌کند، چون خیلی خوب حفظ شده است.",
+        "en": "The old town attracts millions of tourists every year because it is so well preserved."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "überziehen",
+      "uebersetzung": {
+        "fa": "پوشیدن روی چیزی",
+        "en": "to put on over"
+      }
+    },
+    {
+      "wort": "anlocken",
+      "uebersetzung": {
+        "fa": "جذب کردن",
+        "en": "to lure"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ausziehen",
+      "uebersetzung": {
+        "fa": "درآوردن",
+        "en": "to take off"
+      }
+    },
+    {
+      "wort": "abstoßen",
+      "uebersetzung": {
+        "fa": "دفع کردن",
+        "en": "to repel"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (پیشوند: بر تن؛ به سوی) + ziehen (کشیدن)",
+    "en": "an- (prefix: on; towards) + ziehen (to pull)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich warm anziehen",
+        "bedeutung": "warme Kleidung tragen",
+        "beispiel": "Zieh dich warm an, es schneit!",
+        "uebersetzung": {
+          "fa": "لباس گرم بپوش، برف می‌آید!",
+          "en": "Wrap up warm, it's snowing!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "anziehen",
+      "praeteritum": "zog an",
+      "partizip2": "angezogen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ziehe an",
+        "du": "ziehst an",
+        "er_sie_es": "zieht an",
+        "wir": "ziehen an",
+        "ihr": "zieht an",
+        "sie_Sie": "ziehen an"
+      },
+      "praeteritum": {
+        "ich": "zog an",
+        "du": "zogst an",
+        "er_sie_es": "zog an",
+        "wir": "zogen an",
+        "ihr": "zogt an",
+        "sie_Sie": "zogen an"
+      },
+      "konjunktiv1": {
+        "ich": "ziehe an",
+        "du": "ziehest an",
+        "er_sie_es": "ziehe an",
+        "wir": "ziehen an",
+        "ihr": "ziehet an",
+        "sie_Sie": "ziehen an"
+      },
+      "konjunktiv2": {
+        "ich": "zöge an",
+        "du": "zögest an",
+        "er_sie_es": "zöge an",
+        "wir": "zögen an",
+        "ihr": "zöget an",
+        "sie_Sie": "zögen an"
+      },
+      "imperativ": {
+        "du": "Zieh an!",
+        "ihr": "Zieht an!",
+        "Sie": "Ziehen Sie an!"
+      }
+    },
+    "partizip1": "anziehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "ziehen",
+    "woerter": [
+      {
+        "wort": "ziehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کشیدن",
+          "en": "to pull"
+        },
+        "id_ref": "verb_ziehen"
+      },
+      {
+        "wort": "ausziehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "درآوردن",
+          "en": "to take off"
+        },
+        "id_ref": "verb_ausziehen"
+      },
+      {
+        "wort": "die Kleidung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "لباس",
+          "en": "clothing"
+        },
+        "id_ref": "nomen_kleidung"
+      },
+      {
+        "wort": "der Anzug",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کت‌وشلوار",
+          "en": "suit"
+        },
+        "id_ref": "nomen_anzug"
+      },
+      {
+        "wort": "die Anziehungskraft",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نیروی جاذبه",
+          "en": "attraction"
+        },
+        "id_ref": "nomen_anziehungskraft"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

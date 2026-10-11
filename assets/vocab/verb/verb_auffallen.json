@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_auffallen",
+  "wort": "auffallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به چشم آمدن",
+      "متوجه شدن (کسی)",
+      "جلب توجه کردن"
+    ],
+    "en": [
+      "to stand out",
+      "to be noticed",
+      "to strike"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Kommunikation",
+    "Wahrnehmung"
+  ],
+  "ipa": "ˈaʊ̯fˌfalən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mir fällt ein Fehler auf.",
+      "uebersetzung": {
+        "fa": "متوجه یک اشتباه می‌شوم.",
+        "en": "I notice a mistake."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ist dir aufgefallen, dass unser Nachbar seit Tagen nicht mehr aus dem Haus gekommen ist?",
+      "uebersetzung": {
+        "fa": "متوجه شده‌ای که همسایه‌مان چند روز است از خانه بیرون نیامده؟",
+        "en": "Have you noticed that our neighbour hasn't left the house for days?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bemerken",
+      "uebersetzung": {
+        "fa": "متوجه شدن",
+        "en": "to notice"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "übersehen",
+      "uebersetzung": {
+        "fa": "ندیده گرفتن",
+        "en": "to overlook"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auf- (پیشوند: بالا، آشکار) + fallen (افتادن)",
+    "en": "auf- (prefix: up, visible) + fallen (to fall)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem auffallen",
+        "bedeutung": "von jemandem bemerkt werden (mit Dativ)",
+        "beispiel": "Ihr neues Kleid fiel allen auf.",
+        "uebersetzung": {
+          "fa": "لباس تازه‌اش به چشم همه آمد.",
+          "en": "Everyone noticed her new dress."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "auffallen",
+      "praeteritum": "fiel auf",
+      "partizip2": "aufgefallen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "falle auf",
+        "du": "fällst auf",
+        "er_sie_es": "fällt auf",
+        "wir": "fallen auf",
+        "ihr": "fallt auf",
+        "sie_Sie": "fallen auf"
+      },
+      "praeteritum": {
+        "ich": "fiel auf",
+        "du": "fielst auf",
+        "er_sie_es": "fiel auf",
+        "wir": "fielen auf",
+        "ihr": "fielt auf",
+        "sie_Sie": "fielen auf"
+      },
+      "konjunktiv1": {
+        "ich": "falle auf",
+        "du": "fallest auf",
+        "er_sie_es": "falle auf",
+        "wir": "fallen auf",
+        "ihr": "fallet auf",
+        "sie_Sie": "fallen auf"
+      },
+      "konjunktiv2": {
+        "ich": "fiele auf",
+        "du": "fielest auf",
+        "er_sie_es": "fiele auf",
+        "wir": "fielen auf",
+        "ihr": "fielet auf",
+        "sie_Sie": "fielen auf"
+      },
+      "imperativ": {
+        "du": "Fall auf!",
+        "ihr": "Fallt auf!",
+        "Sie": "Fallen Sie auf!"
+      }
+    },
+    "partizip1": "auffallend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fallen",
+    "woerter": [
+      {
+        "wort": "fallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "افتادن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_fallen"
+      },
+      {
+        "wort": "auffällig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چشمگیر",
+          "en": "conspicuous"
+        },
+        "id_ref": "adjektiv_auffaellig"
+      },
+      {
+        "wort": "bemerken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "متوجه شدن",
+          "en": "to notice"
+        },
+        "id_ref": "verb_bemerken"
+      },
+      {
+        "wort": "unauffällig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نامحسوس",
+          "en": "inconspicuous"
+        },
+        "id_ref": "adjektiv_unauffaellig"
+      },
+      {
+        "wort": "der Unterschied",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تفاوت",
+          "en": "difference"
+        },
+        "id_ref": "nomen_unterschied"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
