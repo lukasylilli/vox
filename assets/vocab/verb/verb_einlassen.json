@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_einlassen",
+  "wort": "einlassen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(کسی را) راه دادن، اجازه‌ی ورود دادن",
+      "(آب را در وان) ریختن، پر کردن",
+      "(sich auf etwas einlassen) پذیرفتن، تن دادن به، درگیر (چیزی) شدن"
+    ],
+    "en": [
+      "to let in, to admit",
+      "to run (water, a bath)",
+      "(sich auf etwas) to get involved in, to agree to"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Beziehungen"
+  ],
+  "ipa": "ˈaɪ̯nˌlasn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Türsteher lässt uns nicht ein.",
+      "uebersetzung": {
+        "fa": "دربان ما را راه نمی‌دهد.",
+        "en": "The bouncer won't let us in."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ich habe mich auf das Angebot eingelassen, obwohl ich die Bedingungen nicht ganz verstanden hatte.",
+      "uebersetzung": {
+        "fa": "پیشنهاد را پذیرفتم، با اینکه شرایطش را کاملاً نفهمیده بودم.",
+        "en": "I agreed to the offer, although I hadn't fully understood the conditions."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hereinlassen",
+      "uebersetzung": {
+        "fa": "راه دادن",
+        "en": "to let in"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "aussperren",
+      "uebersetzung": {
+        "fa": "بیرون نگه داشتن",
+        "en": "to lock out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + lassen (گذاشتن، اجازه دادن)",
+    "en": "ein- (in, into) + lassen (to let)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich auf + Akk einlassen",
+        "bedeutung": "sich auf etwas Neues/Riskantes einstellen; zustimmen",
+        "beispiel": "Lass dich nicht auf so einen Streit ein!",
+        "uebersetzung": {
+          "fa": "خودت را درگیر چنین دعوایی نکن!",
+          "en": "Don't get involved in a quarrel like that!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "einlassen",
+      "praeteritum": "ließ ein",
+      "partizip2": "eingelassen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lasse ein",
+        "du": "lässt ein",
+        "er_sie_es": "lässt ein",
+        "wir": "lassen ein",
+        "ihr": "lasst ein",
+        "sie_Sie": "lassen ein"
+      },
+      "praeteritum": {
+        "ich": "ließ ein",
+        "du": "ließest ein",
+        "er_sie_es": "ließ ein",
+        "wir": "ließen ein",
+        "ihr": "ließt ein",
+        "sie_Sie": "ließen ein"
+      },
+      "konjunktiv1": {
+        "ich": "lasse ein",
+        "du": "lassest ein",
+        "er_sie_es": "lasse ein",
+        "wir": "lassen ein",
+        "ihr": "lasset ein",
+        "sie_Sie": "lassen ein"
+      },
+      "konjunktiv2": {
+        "ich": "ließe ein",
+        "du": "ließest ein",
+        "er_sie_es": "ließe ein",
+        "wir": "ließen ein",
+        "ihr": "ließet ein",
+        "sie_Sie": "ließen ein"
+      },
+      "imperativ": {
+        "du": "Lass ein!",
+        "ihr": "Lasst ein!",
+        "Sie": "Lassen Sie ein!"
+      }
+    },
+    "partizip1": "einlassend",
+    "nominalisierung": "der Einlass"
+  },
+  "wortnetz": {
+    "grundwort": "lassen",
+    "woerter": [
+      {
+        "wort": "lassen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اجازه دادن",
+          "en": "to let"
+        },
+        "id_ref": "verb_lassen"
+      },
+      {
+        "wort": "der Einlass",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ورود (اجازه‌ی ورود)",
+          "en": "admission"
+        },
+        "id_ref": "nomen_einlass"
+      },
+      {
+        "wort": "hereinlassen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "راه دادن",
+          "en": "to let in"
+        },
+        "id_ref": "verb_hereinlassen"
+      },
+      {
+        "wort": "akzeptieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پذیرفتن",
+          "en": "to accept"
+        },
+        "id_ref": "verb_akzeptieren"
+      },
+      {
+        "wort": "das Risiko",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ریسک",
+          "en": "risk"
+        },
+        "id_ref": "nomen_risiko"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

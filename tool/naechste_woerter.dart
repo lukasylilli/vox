@@ -1000,6 +1000,18 @@ const zurueckgestellt = <String>{
   'eindreschen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-11
   'einfressen', // zurückgestellt (Regel 14/16): selten 2026-10-11
   'eingebären', // zurückgestellt (Regel 14/16): veraltet, selten 2026-10-11
+  'einhängen', // zurückgestellt (Regel 14/16): transitiv schwach, intransitiv stark — Formen schwanken 2026-10-11
+  'einhauen', // zurückgestellt (Regel 14/16): umgangssprachlich; Präteritum schwankt (haute/hieb) 2026-10-11
+  'einhelfen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'einherfahren', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-11
+  'einiggehen', // zurückgestellt (Regel 14/16): Schreibung unsicher (einig gehen) 2026-10-11
+  'einkneifen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'einkommen', // zurückgestellt (Regel 14/16): amtssprachlich, selten 2026-10-11
+  'einwärtsgehen', // zurückgestellt (Regel 14/16): selten, keine feste Form 2026-10-11
+  'eislaufen', // zurückgestellt (Regel 14/16): Schreibung der getrennten Formen unsicher (läuft Eis) 2026-10-11
+  'emporfahren', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-11
+  'emporfliegen', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-11
+  'emporheben', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_einhergehen",
+  "wort": "einhergehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با چیزی) همراه بودن، همزمان رخ دادن"
+    ],
+    "en": [
+      "to go hand in hand with, to be accompanied by"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft",
+    "Gesundheit",
+    "Gesellschaft"
+  ],
+  "ipa": "aɪ̯nˈheːɐ̯ˌɡeːən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Fieber geht oft mit Kopfschmerzen einher.",
+      "uebersetzung": {
+        "fa": "تب اغلب با سردرد همراه است.",
+        "en": "Fever is often accompanied by headaches."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Digitalisierung geht mit großen Veränderungen in der Arbeitswelt einher, die viele Menschen verunsichern.",
+      "uebersetzung": {
+        "fa": "دیجیتالی شدن با تغییرات بزرگی در دنیای کار همراه است که بسیاری از مردم را نگران می‌کند.",
+        "en": "Digitalisation goes hand in hand with major changes in the world of work, which unsettle many people."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verbunden sein mit",
+      "uebersetzung": {
+        "fa": "همراه بودن با",
+        "en": "to be connected with"
+      }
+    },
+    {
+      "wort": "begleiten",
+      "uebersetzung": {
+        "fa": "همراهی کردن",
+        "en": "to accompany"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "einher- (همراه، در کنار) + gehen (رفتن)",
+    "en": "einher- (along) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit + Dat einhergehen",
+        "bedeutung": "gleichzeitig mit etwas auftreten",
+        "beispiel": "Die Krankheit geht mit starker Müdigkeit einher.",
+        "uebersetzung": {
+          "fa": "این بیماری با خستگی شدید همراه است.",
+          "en": "The illness is accompanied by severe tiredness."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "einhergehen",
+      "praeteritum": "ging einher",
+      "partizip2": "einhergegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe einher",
+        "du": "gehst einher",
+        "er_sie_es": "geht einher",
+        "wir": "gehen einher",
+        "ihr": "geht einher",
+        "sie_Sie": "gehen einher"
+      },
+      "praeteritum": {
+        "ich": "ging einher",
+        "du": "gingst einher",
+        "er_sie_es": "ging einher",
+        "wir": "gingen einher",
+        "ihr": "gingt einher",
+        "sie_Sie": "gingen einher"
+      },
+      "konjunktiv1": {
+        "ich": "gehe einher",
+        "du": "gehest einher",
+        "er_sie_es": "gehe einher",
+        "wir": "gehen einher",
+        "ihr": "gehet einher",
+        "sie_Sie": "gehen einher"
+      },
+      "konjunktiv2": {
+        "ich": "ginge einher",
+        "du": "gingest einher",
+        "er_sie_es": "ginge einher",
+        "wir": "gingen einher",
+        "ihr": "ginget einher",
+        "sie_Sie": "gingen einher"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "einhergehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "begleiten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "همراهی کردن",
+          "en": "to accompany"
+        },
+        "id_ref": "verb_begleiten"
+      },
+      {
+        "wort": "die Folge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیامد",
+          "en": "consequence"
+        },
+        "id_ref": "nomen_folge"
+      },
+      {
+        "wort": "das Symptom",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نشانه (بیماری)",
+          "en": "symptom"
+        },
+        "id_ref": "nomen_symptom"
+      },
+      {
+        "wort": "verbunden",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مرتبط",
+          "en": "connected"
+        },
+        "id_ref": "adjektiv_verbunden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

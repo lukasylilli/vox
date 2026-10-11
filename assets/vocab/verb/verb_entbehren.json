@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_entbehren",
+  "wort": "entbehren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(از چیزی) محروم بودن، بی‌بهره ماندن، نبودِ (چیزی را) تحمل کردن",
+      "(+ Genitiv) فاقد (چیزی) بودن"
+    ],
+    "en": [
+      "to do without, to spare",
+      "(+ genitive) to lack"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle",
+    "Sprache (gehoben)"
+  ],
+  "ipa": "ɛntˈbeːʁən",
+  "anmerkung": "In der Verbliste unter den unregelmäßigen Verben; konjugiert regelmäßig (entbehrte, entbehrt). Mit Genitiv gehoben: «Das entbehrt jeder Grundlage».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich kann das Auto nicht entbehren.",
+      "uebersetzung": {
+        "fa": "نمی‌توانم از ماشین چشم‌پوشی کنم.",
+        "en": "I can't do without the car."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als Kind musste er vieles entbehren, weil seine Eltern sehr wenig Geld hatten.",
+      "uebersetzung": {
+        "fa": "در کودکی ناچار بود از خیلی چیزها محروم باشد، چون پدر و مادرش پول خیلی کمی داشتند.",
+        "en": "As a child he had to do without a lot because his parents had very little money."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verzichten auf",
+      "uebersetzung": {
+        "fa": "صرف‌نظر کردن از",
+        "en": "to do without"
+      }
+    },
+    {
+      "wort": "vermissen",
+      "uebersetzung": {
+        "fa": "نبودِ چیزی را حس کردن",
+        "en": "to miss"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- (پیشوند جدایی) + behren ((ریشه‌ی قدیمی: نیاز داشتن))",
+    "en": "ent- (prefix: away) + behren ((old stem: to need))"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas entbehrt + Gen",
+        "bedeutung": "etwas fehlt einer Sache (gehoben)",
+        "beispiel": "Diese Behauptung entbehrt jeder Grundlage.",
+        "uebersetzung": {
+          "fa": "این ادعا هیچ پایه و اساسی ندارد.",
+          "en": "This claim is completely unfounded."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "entbehren",
+      "praeteritum": "entbehrte",
+      "partizip2": "entbehrt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entbehre",
+        "du": "entbehrst",
+        "er_sie_es": "entbehrt",
+        "wir": "entbehren",
+        "ihr": "entbehrt",
+        "sie_Sie": "entbehren"
+      },
+      "praeteritum": {
+        "ich": "entbehrte",
+        "du": "entbehrtest",
+        "er_sie_es": "entbehrte",
+        "wir": "entbehrten",
+        "ihr": "entbehrtet",
+        "sie_Sie": "entbehrten"
+      },
+      "konjunktiv1": {
+        "ich": "entbehre",
+        "du": "entbehrest",
+        "er_sie_es": "entbehre",
+        "wir": "entbehren",
+        "ihr": "entbehret",
+        "sie_Sie": "entbehren"
+      },
+      "konjunktiv2": {
+        "ich": "entbehrte",
+        "du": "entbehrtest",
+        "er_sie_es": "entbehrte",
+        "wir": "entbehrten",
+        "ihr": "entbehrtet",
+        "sie_Sie": "entbehrten"
+      },
+      "imperativ": {
+        "du": "Entbehre!",
+        "ihr": "Entbehrt!",
+        "Sie": "Entbehren Sie!"
+      }
+    },
+    "partizip1": "entbehrend",
+    "nominalisierung": "die Entbehrung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "verzichten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صرف‌نظر کردن",
+          "en": "to do without"
+        },
+        "id_ref": "verb_verzichten"
+      },
+      {
+        "wort": "vermissen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دلتنگ بودن",
+          "en": "to miss"
+        },
+        "id_ref": "verb_vermissen"
+      },
+      {
+        "wort": "die Entbehrung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "محرومیت",
+          "en": "privation"
+        },
+        "id_ref": "nomen_entbehrung"
+      },
+      {
+        "wort": "entbehrlich",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "غیرضروری",
+          "en": "dispensable"
+        },
+        "id_ref": "adjektiv_entbehrlich"
+      },
+      {
+        "wort": "der Mangel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کمبود",
+          "en": "lack"
+        },
+        "id_ref": "nomen_mangel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

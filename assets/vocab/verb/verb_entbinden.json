@@ -1,0 +1,193 @@
+{
+  "schema": "3.0",
+  "id": "verb_entbinden",
+  "wort": "entbinden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "زایمان کردن؛ (بچه را) به دنیا آوردن (در پزشکی)",
+      "(از وظیفه یا تعهدی) معاف کردن"
+    ],
+    "en": [
+      "to give birth; to deliver (a baby)",
+      "to release (from a duty)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Pflege",
+    "Recht"
+  ],
+  "ipa": "ɛntˈbɪndn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie hat gestern entbunden.",
+      "uebersetzung": {
+        "fa": "او دیروز زایمان کرد.",
+        "en": "She gave birth yesterday."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Arzt wurde vor Gericht von seiner Schweigepflicht entbunden, damit er aussagen konnte.",
+      "uebersetzung": {
+        "fa": "پزشک در دادگاه از تعهد رازداری‌اش معاف شد تا بتواند شهادت بدهد.",
+        "en": "The doctor was released from his duty of confidentiality in court so that he could testify."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gebären",
+      "uebersetzung": {
+        "fa": "زاییدن",
+        "en": "to give birth"
+      }
+    },
+    {
+      "wort": "befreien",
+      "uebersetzung": {
+        "fa": "آزاد کردن، معاف کردن",
+        "en": "to release"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verpflichten",
+      "uebersetzung": {
+        "fa": "متعهد کردن",
+        "en": "to oblige"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- (پیشوند جدایی) + binden (بستن)",
+    "en": "ent- (prefix: away, removal) + binden (to bind)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden von + Dat entbinden",
+        "bedeutung": "jemanden von einer Pflicht befreien",
+        "beispiel": "Man hat sie von ihren Aufgaben entbunden.",
+        "uebersetzung": {
+          "fa": "او را از وظایفش معاف کردند.",
+          "en": "She was relieved of her duties."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "entbinden",
+      "praeteritum": "entband",
+      "partizip2": "entbunden"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entbinde",
+        "du": "entbindest",
+        "er_sie_es": "entbindet",
+        "wir": "entbinden",
+        "ihr": "entbindet",
+        "sie_Sie": "entbinden"
+      },
+      "praeteritum": {
+        "ich": "entband",
+        "du": "entbandest",
+        "er_sie_es": "entband",
+        "wir": "entbanden",
+        "ihr": "entbandet",
+        "sie_Sie": "entbanden"
+      },
+      "konjunktiv1": {
+        "ich": "entbinde",
+        "du": "entbindest",
+        "er_sie_es": "entbinde",
+        "wir": "entbinden",
+        "ihr": "entbindet",
+        "sie_Sie": "entbinden"
+      },
+      "konjunktiv2": {
+        "ich": "entbände",
+        "du": "entbändest",
+        "er_sie_es": "entbände",
+        "wir": "entbänden",
+        "ihr": "entbändet",
+        "sie_Sie": "entbänden"
+      },
+      "imperativ": {
+        "du": "Entbinde!",
+        "ihr": "Entbindet!",
+        "Sie": "Entbinden Sie!"
+      }
+    },
+    "partizip1": "entbindend",
+    "nominalisierung": "die Entbindung"
+  },
+  "wortnetz": {
+    "grundwort": "binden",
+    "woerter": [
+      {
+        "wort": "die Geburt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تولد، زایمان",
+          "en": "birth"
+        },
+        "id_ref": "nomen_geburt"
+      },
+      {
+        "wort": "gebären",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "زاییدن",
+          "en": "to give birth"
+        },
+        "id_ref": "verb_gebaeren"
+      },
+      {
+        "wort": "die Hebamme",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ماما",
+          "en": "midwife"
+        },
+        "id_ref": "nomen_hebamme"
+      },
+      {
+        "wort": "schwanger",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "باردار",
+          "en": "pregnant"
+        },
+        "id_ref": "adjektiv_schwanger"
+      },
+      {
+        "wort": "die Entbindung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "زایمان",
+          "en": "delivery"
+        },
+        "id_ref": "nomen_entbindung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

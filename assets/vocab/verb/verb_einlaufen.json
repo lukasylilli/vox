@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_einlaufen",
+  "wort": "einlaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(کشتی یا قطار) وارد (بندر یا ایستگاه) شدن؛ (بازیکنان) وارد زمین شدن",
+      "(لباس پس از شستن) آب رفتن",
+      "(آب) جاری شدن و پر کردن"
+    ],
+    "en": [
+      "to come in, to enter (ship, train, players)",
+      "to shrink (clothes)",
+      "to run in (water)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Sport",
+    "Verkehr",
+    "Haushalt"
+  ],
+  "ipa": "ˈaɪ̯nˌlaʊ̯fn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mein Pullover ist beim Waschen eingelaufen.",
+      "uebersetzung": {
+        "fa": "پلیورم موقع شستن آب رفت.",
+        "en": "My jumper shrank in the wash."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Als die Spieler ins Stadion einliefen, begannen die Fans laut zu singen.",
+      "uebersetzung": {
+        "fa": "وقتی بازیکنان وارد ورزشگاه شدند، هواداران با صدای بلند شروع به خواندن کردند.",
+        "en": "When the players came out into the stadium, the fans began to sing loudly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schrumpfen",
+      "uebersetzung": {
+        "fa": "کوچک شدن، آب رفتن",
+        "en": "to shrink"
+      }
+    },
+    {
+      "wort": "einfahren",
+      "uebersetzung": {
+        "fa": "وارد شدن (وسیله‌ی نقلیه)",
+        "en": "to pull in"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + laufen (دویدن، راه رفتن)",
+    "en": "ein- (in, into) + laufen (to run)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in + Akk einlaufen",
+        "bedeutung": "in einen Ort hineinkommen (Schiff, Spieler)",
+        "beispiel": "Das Schiff läuft in den Hafen ein.",
+        "uebersetzung": {
+          "fa": "کشتی وارد بندر می‌شود.",
+          "en": "The ship is coming into the harbour."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "einlaufen",
+      "praeteritum": "lief ein",
+      "partizip2": "eingelaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laufe ein",
+        "du": "läufst ein",
+        "er_sie_es": "läuft ein",
+        "wir": "laufen ein",
+        "ihr": "lauft ein",
+        "sie_Sie": "laufen ein"
+      },
+      "praeteritum": {
+        "ich": "lief ein",
+        "du": "liefst ein",
+        "er_sie_es": "lief ein",
+        "wir": "liefen ein",
+        "ihr": "lieft ein",
+        "sie_Sie": "liefen ein"
+      },
+      "konjunktiv1": {
+        "ich": "laufe ein",
+        "du": "laufest ein",
+        "er_sie_es": "laufe ein",
+        "wir": "laufen ein",
+        "ihr": "laufet ein",
+        "sie_Sie": "laufen ein"
+      },
+      "konjunktiv2": {
+        "ich": "liefe ein",
+        "du": "liefest ein",
+        "er_sie_es": "liefe ein",
+        "wir": "liefen ein",
+        "ihr": "liefet ein",
+        "sie_Sie": "liefen ein"
+      },
+      "imperativ": {
+        "du": "Lauf ein!",
+        "ihr": "Lauft ein!",
+        "Sie": "Laufen Sie ein!"
+      }
+    },
+    "partizip1": "einlaufend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دویدن، راه رفتن",
+          "en": "to run, to walk"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "schrumpfen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آب رفتن، کوچک شدن",
+          "en": "to shrink"
+        },
+        "id_ref": "verb_schrumpfen"
+      },
+      {
+        "wort": "waschen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شستن",
+          "en": "to wash"
+        },
+        "id_ref": "verb_waschen"
+      },
+      {
+        "wort": "der Hafen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بندر",
+          "en": "harbour"
+        },
+        "id_ref": "nomen_hafen"
+      },
+      {
+        "wort": "das Stadion",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ورزشگاه",
+          "en": "stadium"
+        },
+        "id_ref": "nomen_stadion"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_einheben",
+  "wort": "einheben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(اتریش) (عوارض، مالیات یا پول را) دریافت کردن، وصول کردن",
+      "(در لولا یا جای خود) جا انداختن"
+    ],
+    "en": [
+      "(Austrian) to collect, to levy (fees, taxes)",
+      "to lift into place (e.g. a door onto its hinges)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Behörde",
+    "Finanzen",
+    "Österreich"
+  ],
+  "ipa": "ˈaɪ̯nˌheːbn̩",
+  "anmerkung": "In der Bedeutung «Geld einziehen» vor allem österreichisch und süddeutsch.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Gemeinde hebt eine Gebühr ein.",
+      "uebersetzung": {
+        "fa": "شهرداری عوارضی دریافت می‌کند.",
+        "en": "The municipality collects a fee."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Für die Benutzung der Autobahn wird in Österreich eine Maut eingehoben, die man mit der Vignette bezahlt.",
+      "uebersetzung": {
+        "fa": "در اتریش برای استفاده از بزرگراه عوارضی گرفته می‌شود که آن را با برچسب وینیت می‌پردازند.",
+        "en": "In Austria a toll is levied for using the motorway, which you pay with the vignette."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einziehen",
+      "uebersetzung": {
+        "fa": "وصول کردن",
+        "en": "to collect"
+      }
+    },
+    {
+      "wort": "erheben",
+      "uebersetzung": {
+        "fa": "(مالیات) وضع و دریافت کردن",
+        "en": "to levy"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + heben (بلند کردن)",
+    "en": "ein- (in, into) + heben (to lift)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "einheben",
+      "praeteritum": "hob ein",
+      "partizip2": "eingehoben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "hebe ein",
+        "du": "hebst ein",
+        "er_sie_es": "hebt ein",
+        "wir": "heben ein",
+        "ihr": "hebt ein",
+        "sie_Sie": "heben ein"
+      },
+      "praeteritum": {
+        "ich": "hob ein",
+        "du": "hobst ein",
+        "er_sie_es": "hob ein",
+        "wir": "hoben ein",
+        "ihr": "hobt ein",
+        "sie_Sie": "hoben ein"
+      },
+      "konjunktiv1": {
+        "ich": "hebe ein",
+        "du": "hebest ein",
+        "er_sie_es": "hebe ein",
+        "wir": "heben ein",
+        "ihr": "hebet ein",
+        "sie_Sie": "heben ein"
+      },
+      "konjunktiv2": {
+        "ich": "höbe ein",
+        "du": "höbest ein",
+        "er_sie_es": "höbe ein",
+        "wir": "höben ein",
+        "ihr": "höbet ein",
+        "sie_Sie": "höben ein"
+      },
+      "imperativ": {
+        "du": "Heb ein!",
+        "ihr": "Hebt ein!",
+        "Sie": "Heben Sie ein!"
+      }
+    },
+    "partizip1": "einhebend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "heben",
+    "woerter": [
+      {
+        "wort": "heben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بلند کردن",
+          "en": "to lift"
+        },
+        "id_ref": "verb_heben"
+      },
+      {
+        "wort": "die Gebühr",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "هزینه، عوارض",
+          "en": "fee"
+        },
+        "id_ref": "nomen_gebuehr"
+      },
+      {
+        "wort": "die Steuer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مالیات",
+          "en": "tax"
+        },
+        "id_ref": "nomen_steuer"
+      },
+      {
+        "wort": "erheben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "وضع کردن (مالیات)",
+          "en": "to levy"
+        },
+        "id_ref": "verb_erheben"
+      },
+      {
+        "wort": "bezahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_bezahlen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

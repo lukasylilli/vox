@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_empfangen",
+  "wort": "empfangen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(کسی را) پذیرایی کردن، به استقبال رفتن",
+      "(سیگنال، پیام یا هدیه را) دریافت کردن"
+    ],
+    "en": [
+      "to receive, to welcome (someone)",
+      "to receive (a signal, message, gift)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Kommunikation",
+    "Technik",
+    "Beruf"
+  ],
+  "ipa": "ɛmˈpfaŋən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir empfangen die Gäste an der Tür.",
+      "uebersetzung": {
+        "fa": "مهمان‌ها را دم در استقبال می‌کنیم.",
+        "en": "We welcome the guests at the door."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "In den Bergen konnten wir kein Signal empfangen, deshalb haben wir die Nachricht erst später gelesen.",
+      "uebersetzung": {
+        "fa": "در کوهستان نمی‌توانستیم آنتن (سیگنال) بگیریم، برای همین پیام را بعداً خواندیم.",
+        "en": "In the mountains we couldn't receive a signal, so we only read the message later."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erhalten",
+      "uebersetzung": {
+        "fa": "دریافت کردن",
+        "en": "to receive"
+      }
+    },
+    {
+      "wort": "begrüßen",
+      "uebersetzung": {
+        "fa": "خوشامد گفتن",
+        "en": "to greet"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "senden",
+      "uebersetzung": {
+        "fa": "فرستادن",
+        "en": "to send"
+      }
+    },
+    {
+      "wort": "verabschieden",
+      "uebersetzung": {
+        "fa": "بدرقه کردن",
+        "en": "to say goodbye to"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "emp- (پیشوند (= ent-)) + fangen (گرفتن)",
+    "en": "emp- (prefix (= ent-)) + fangen (to catch)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "empfangen",
+      "praeteritum": "empfing",
+      "partizip2": "empfangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "empfange",
+        "du": "empfängst",
+        "er_sie_es": "empfängt",
+        "wir": "empfangen",
+        "ihr": "empfangt",
+        "sie_Sie": "empfangen"
+      },
+      "praeteritum": {
+        "ich": "empfing",
+        "du": "empfingst",
+        "er_sie_es": "empfing",
+        "wir": "empfingen",
+        "ihr": "empfingt",
+        "sie_Sie": "empfingen"
+      },
+      "konjunktiv1": {
+        "ich": "empfange",
+        "du": "empfangest",
+        "er_sie_es": "empfange",
+        "wir": "empfangen",
+        "ihr": "empfanget",
+        "sie_Sie": "empfangen"
+      },
+      "konjunktiv2": {
+        "ich": "empfinge",
+        "du": "empfingest",
+        "er_sie_es": "empfinge",
+        "wir": "empfingen",
+        "ihr": "empfinget",
+        "sie_Sie": "empfingen"
+      },
+      "imperativ": {
+        "du": "Empfang!",
+        "ihr": "Empfangt!",
+        "Sie": "Empfangen Sie!"
+      }
+    },
+    "partizip1": "empfangend",
+    "nominalisierung": "der Empfang"
+  },
+  "wortnetz": {
+    "grundwort": "fangen",
+    "woerter": [
+      {
+        "wort": "der Empfang",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پذیرش؛ دریافت (سیگنال)",
+          "en": "reception"
+        },
+        "id_ref": "nomen_empfang"
+      },
+      {
+        "wort": "der Empfänger",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گیرنده",
+          "en": "recipient"
+        },
+        "id_ref": "nomen_empfaenger"
+      },
+      {
+        "wort": "erhalten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دریافت کردن",
+          "en": "to receive"
+        },
+        "id_ref": "verb_erhalten"
+      },
+      {
+        "wort": "begrüßen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خوشامد گفتن",
+          "en": "to greet"
+        },
+        "id_ref": "verb_begruessen"
+      },
+      {
+        "wort": "senden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فرستادن",
+          "en": "to send"
+        },
+        "id_ref": "verb_senden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

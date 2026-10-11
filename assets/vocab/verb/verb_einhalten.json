@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_einhalten",
+  "wort": "einhalten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(قانون، قول یا مهلتی را) رعایت کردن، پایبند بودن",
+      "(در کاری) مکث کردن، دست نگه داشتن"
+    ],
+    "en": [
+      "to keep to, to comply with (rules, deadlines)",
+      "to pause, to stop"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Recht",
+    "Alltag"
+  ],
+  "ipa": "ˈaɪ̯nˌhaltn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte halten Sie die Regeln ein.",
+      "uebersetzung": {
+        "fa": "لطفاً قوانین را رعایت کنید.",
+        "en": "Please follow the rules."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn wir den Termin nicht einhalten, müssen wir eine Strafe zahlen.",
+      "uebersetzung": {
+        "fa": "اگر مهلت را رعایت نکنیم، باید جریمه بپردازیم.",
+        "en": "If we don't meet the deadline, we have to pay a fine."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "befolgen",
+      "uebersetzung": {
+        "fa": "پیروی کردن",
+        "en": "to follow"
+      }
+    },
+    {
+      "wort": "beachten",
+      "uebersetzung": {
+        "fa": "رعایت کردن",
+        "en": "to observe"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "brechen",
+      "uebersetzung": {
+        "fa": "زیر پا گذاشتن (قول، قانون)",
+        "en": "to break"
+      }
+    },
+    {
+      "wort": "verletzen",
+      "uebersetzung": {
+        "fa": "نقض کردن",
+        "en": "to violate"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + halten (نگه داشتن)",
+    "en": "ein- (in, into) + halten (to hold)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "einhalten",
+      "praeteritum": "hielt ein",
+      "partizip2": "eingehalten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "halte ein",
+        "du": "hältst ein",
+        "er_sie_es": "hält ein",
+        "wir": "halten ein",
+        "ihr": "haltet ein",
+        "sie_Sie": "halten ein"
+      },
+      "praeteritum": {
+        "ich": "hielt ein",
+        "du": "hieltest ein",
+        "er_sie_es": "hielt ein",
+        "wir": "hielten ein",
+        "ihr": "hieltet ein",
+        "sie_Sie": "hielten ein"
+      },
+      "konjunktiv1": {
+        "ich": "halte ein",
+        "du": "haltest ein",
+        "er_sie_es": "halte ein",
+        "wir": "halten ein",
+        "ihr": "haltet ein",
+        "sie_Sie": "halten ein"
+      },
+      "konjunktiv2": {
+        "ich": "hielte ein",
+        "du": "hieltest ein",
+        "er_sie_es": "hielte ein",
+        "wir": "hielten ein",
+        "ihr": "hieltet ein",
+        "sie_Sie": "hielten ein"
+      },
+      "imperativ": {
+        "du": "Halt ein!",
+        "ihr": "Haltet ein!",
+        "Sie": "Halten Sie ein!"
+      }
+    },
+    "partizip1": "einhaltend",
+    "nominalisierung": "die Einhaltung"
+  },
+  "wortnetz": {
+    "grundwort": "halten",
+    "woerter": [
+      {
+        "wort": "halten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to hold"
+        },
+        "id_ref": "verb_halten"
+      },
+      {
+        "wort": "die Regel",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قانون، قاعده",
+          "en": "rule"
+        },
+        "id_ref": "nomen_regel"
+      },
+      {
+        "wort": "die Frist",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مهلت",
+          "en": "deadline"
+        },
+        "id_ref": "nomen_frist"
+      },
+      {
+        "wort": "beachten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رعایت کردن",
+          "en": "to observe"
+        },
+        "id_ref": "verb_beachten"
+      },
+      {
+        "wort": "das Versprechen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قول",
+          "en": "promise"
+        },
+        "id_ref": "nomen_versprechen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

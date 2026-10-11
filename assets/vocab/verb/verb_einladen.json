@@ -1,0 +1,195 @@
+{
+  "schema": "3.0",
+  "id": "verb_einladen",
+  "wort": "einladen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دعوت کردن",
+      "(کسی را) مهمان کردن، (پول چیزی را) حساب کردن",
+      "بار زدن (در ماشین و مانند آن)"
+    ],
+    "en": [
+      "to invite",
+      "to treat (someone)",
+      "to load (into)"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Freizeit",
+    "Feste"
+  ],
+  "ipa": "ˈaɪ̯nˌlaːdn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich lade dich zum Essen ein.",
+      "uebersetzung": {
+        "fa": "تو را به غذا دعوت می‌کنم (مهمان من).",
+        "en": "I'm inviting you to dinner (my treat)."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Sie hat alle Kollegen zu ihrer Geburtstagsparty eingeladen, obwohl ihre Wohnung sehr klein ist.",
+      "uebersetzung": {
+        "fa": "همه‌ی همکاران را به جشن تولدش دعوت کرد، با اینکه آپارتمانش خیلی کوچک است.",
+        "en": "She invited all her colleagues to her birthday party, although her flat is very small."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bitten zu",
+      "uebersetzung": {
+        "fa": "دعوت کردن به",
+        "en": "to ask to"
+      }
+    },
+    {
+      "wort": "beladen",
+      "uebersetzung": {
+        "fa": "بار زدن",
+        "en": "to load"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ausladen",
+      "uebersetzung": {
+        "fa": "دعوت را پس گرفتن؛ بار خالی کردن",
+        "en": "to uninvite; to unload"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + laden (بار کردن؛ (قدیمی) فراخواندن)",
+    "en": "ein- (in, into) + laden (to load; (old) to summon)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden zu + Dat einladen",
+        "bedeutung": "jemanden bitten zu kommen",
+        "beispiel": "Wir laden euch zu unserer Hochzeit ein.",
+        "uebersetzung": {
+          "fa": "شما را به عروسی‌مان دعوت می‌کنیم.",
+          "en": "We are inviting you to our wedding."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "einladen",
+      "praeteritum": "lud ein",
+      "partizip2": "eingeladen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lade ein",
+        "du": "lädst ein",
+        "er_sie_es": "lädt ein",
+        "wir": "laden ein",
+        "ihr": "ladet ein",
+        "sie_Sie": "laden ein"
+      },
+      "praeteritum": {
+        "ich": "lud ein",
+        "du": "ludest ein",
+        "er_sie_es": "lud ein",
+        "wir": "luden ein",
+        "ihr": "ludet ein",
+        "sie_Sie": "luden ein"
+      },
+      "konjunktiv1": {
+        "ich": "lade ein",
+        "du": "ladest ein",
+        "er_sie_es": "lade ein",
+        "wir": "laden ein",
+        "ihr": "ladet ein",
+        "sie_Sie": "laden ein"
+      },
+      "konjunktiv2": {
+        "ich": "lüde ein",
+        "du": "lüdest ein",
+        "er_sie_es": "lüde ein",
+        "wir": "lüden ein",
+        "ihr": "lüdet ein",
+        "sie_Sie": "lüden ein"
+      },
+      "imperativ": {
+        "du": "Lade ein!",
+        "ihr": "Ladet ein!",
+        "Sie": "Laden Sie ein!"
+      }
+    },
+    "partizip1": "einladend",
+    "nominalisierung": "die Einladung"
+  },
+  "wortnetz": {
+    "grundwort": "laden",
+    "woerter": [
+      {
+        "wort": "die Einladung",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دعوت‌نامه، دعوت",
+          "en": "invitation"
+        },
+        "id_ref": "nomen_einladung"
+      },
+      {
+        "wort": "der Gast",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مهمان",
+          "en": "guest"
+        },
+        "id_ref": "nomen_gast"
+      },
+      {
+        "wort": "die Party",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مهمانی",
+          "en": "party"
+        },
+        "id_ref": "nomen_party"
+      },
+      {
+        "wort": "feiern",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جشن گرفتن",
+          "en": "to celebrate"
+        },
+        "id_ref": "verb_feiern"
+      },
+      {
+        "wort": "ausladen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دعوت را لغو کردن؛ تخلیه کردن",
+          "en": "to uninvite; to unload"
+        },
+        "id_ref": "verb_ausladen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
