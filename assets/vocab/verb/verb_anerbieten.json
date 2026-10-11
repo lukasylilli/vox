@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_anerbieten",
+  "wort": "anerbieten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "داوطلب شدن، پیشنهاد دادن (کهنه/ادبی)"
+    ],
+    "en": [
+      "to offer (oneself)"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "ˈanʔɛɐ̯ˌbiːtn̩",
+  "anmerkung": "Gehoben, veraltend; fast nur reflexiv: «sich anerbieten». Auch untrennbar: «er anerbot sich».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er erbietet sich an zu helfen.",
+      "uebersetzung": {
+        "fa": "او داوطلب می‌شود کمک کند.",
+        "en": "He offers to help."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie hatte sich anerboten, die Gäste vom Bahnhof abzuholen, obwohl sie selbst wenig Zeit hatte.",
+      "uebersetzung": {
+        "fa": "او پیشنهاد داده بود مهمان‌ها را از ایستگاه بیاورد، با اینکه خودش وقت کمی داشت.",
+        "en": "She had offered to pick up the guests from the station, although she had little time herself."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anbieten",
+      "uebersetzung": {
+        "fa": "پیشنهاد دادن",
+        "en": "to offer"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (پیشوند) + erbieten (پیشنهاد کردن، کهنه)",
+    "en": "an- (prefix) + erbieten (to offer, archaic)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich anerbieten, etwas zu tun",
+        "bedeutung": "freiwillig anbieten, etwas zu tun (gehoben)",
+        "beispiel": "Er erbot sich an, den Brief zu schreiben.",
+        "uebersetzung": {
+          "fa": "او پیشنهاد کرد نامه را بنویسد.",
+          "en": "He offered to write the letter."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "anerbieten",
+      "praeteritum": "erbot an",
+      "partizip2": "anerboten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erbiete an",
+        "du": "erbietest an",
+        "er_sie_es": "erbietet an",
+        "wir": "erbieten an",
+        "ihr": "erbietet an",
+        "sie_Sie": "erbieten an"
+      },
+      "praeteritum": {
+        "ich": "erbot an",
+        "du": "erbotest an",
+        "er_sie_es": "erbot an",
+        "wir": "erboten an",
+        "ihr": "erbotet an",
+        "sie_Sie": "erboten an"
+      },
+      "konjunktiv1": {
+        "ich": "erbiete an",
+        "du": "erbietest an",
+        "er_sie_es": "erbiete an",
+        "wir": "erbieten an",
+        "ihr": "erbietet an",
+        "sie_Sie": "erbieten an"
+      },
+      "konjunktiv2": {
+        "ich": "erböte an",
+        "du": "erbötest an",
+        "er_sie_es": "erböte an",
+        "wir": "erböten an",
+        "ihr": "erbötet an",
+        "sie_Sie": "erböten an"
+      },
+      "imperativ": {
+        "du": "Erbiete an!",
+        "ihr": "Erbietet an!",
+        "Sie": "Erbieten Sie an!"
+      }
+    },
+    "partizip1": "anerbietend",
+    "nominalisierung": "das Anerbieten"
+  },
+  "wortnetz": {
+    "grundwort": "bieten",
+    "woerter": [
+      {
+        "wort": "bieten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ارائه کردن",
+          "en": "to offer"
+        },
+        "id_ref": "verb_bieten"
+      },
+      {
+        "wort": "anbieten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پیشنهاد دادن",
+          "en": "to offer"
+        },
+        "id_ref": "verb_anbieten"
+      },
+      {
+        "wort": "das Anerbieten",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "پیشنهاد",
+          "en": "offer"
+        },
+        "id_ref": "nomen_anerbieten"
+      },
+      {
+        "wort": "freiwillig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "داوطلبانه",
+          "en": "voluntary"
+        },
+        "id_ref": "adjektiv_freiwillig"
+      },
+      {
+        "wort": "helfen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک کردن",
+          "en": "to help"
+        },
+        "id_ref": "verb_helfen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

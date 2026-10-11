@@ -847,6 +847,11 @@ const zurueckgestellt = <String>{
   'abdreschen', // zurückgestellt (Regel 14): selten (fast nur «abgedroschen») 2026-10-11
   'abkneifen', // zurückgestellt (Regel 14): umgangssprachlich, selten («sich etwas abkneifen») 2026-10-11
   'abkönnen', // zurückgestellt (Regel 14): regional umgangssprachlich («nicht abkönnen» = nicht ertragen), Bedeutung schwankend 2026-10-11
+  'abliegen', // zurückgestellt (Regel 14): selten («weit abliegen»), fast nur Partizip «abgelegen» 2026-10-11
+  'abmelken', // zurückgestellt (Regel 14): Fachwort Landwirtschaft, selten 2026-10-11
+  'achthaben', // zurückgestellt (Regel 14): veraltend (= achtgeben) 2026-10-11
+  'andringen', // zurückgestellt (Regel 14): veraltet 2026-10-11
+  'anessen', // zurückgestellt (Regel 14): umgangssprachlich selten («sich einen Bauch anessen») 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
@@ -941,11 +946,12 @@ void abhaken() {
     for (var i = 0; i < zeilen.length; i++) {
       final roh = zeilen[i];
       if (roh.trimLeft().startsWith('✓')) continue;
-      final w = roh.trim();
-      if (w.isEmpty) continue;
+      final eintrag = roh.trim();
+      if (eintrag.isEmpty) continue;
+      final w = listenLemma(eintrag);
       final art = wortartKorrektur[w] ?? wortart;
       if (File('assets/vocab/$art/${vokabId(art, w)}.json').existsSync()) {
-        zeilen[i] = '✓ $w';
+        zeilen[i] = '✓ $eintrag';
         neu++;
       }
     }
@@ -953,6 +959,11 @@ void abhaken() {
     stdout.writeln('$liste: $neu neu abgehakt');
   }
 }
+
+/// Lemma eines Listeneintrags: alles vor dem ersten Komma. Zwei Einträge der
+/// Verbliste tragen Zusätze («anbacken, kleben» = Bedeutung, «sein, war,
+/// gewesen» = Stammformen) — die Karte heißt nach dem Lemma (2026-10-11).
+String listenLemma(String eintrag) => eintrag.split(',').first.trim();
 
 void main(List<String> args) {
   if (args.contains('--abhaken')) {
@@ -979,7 +990,7 @@ void main(List<String> args) {
     var fertig = 0;
     var offen = 0;
     for (final roh in datei.readAsLinesSync()) {
-      final w = roh.replaceFirst(RegExp(r'^\s*✓\s*'), '').trim();
+      final w = listenLemma(roh.replaceFirst(RegExp(r'^\s*✓\s*'), '').trim());
       if (w.isEmpty) continue;
       final art = wortartKorrektur[w] ?? wortart;
       if (File('assets/vocab/$art/${vokabId(art, w)}.json').existsSync()) {

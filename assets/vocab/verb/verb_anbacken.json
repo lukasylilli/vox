@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_anbacken",
+  "wort": "anbacken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ته گرفتن، چسبیدن (غذا به ظرف)",
+      "کمی پختن"
+    ],
+    "en": [
+      "to stick (to the pan)",
+      "to bake lightly"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kochen"
+  ],
+  "ipa": "ˈanˌbakn̩",
+  "anmerkung": "In der Liste mit der Bedeutung «kleben». Präsens auch: du backst an, er backt an. «kurz anbacken» (kurz backen) mit haben.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Reis backt im Topf an.",
+      "uebersetzung": {
+        "fa": "برنج ته قابلمه می‌چسبد.",
+        "en": "The rice is sticking to the pot."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn man den Kuchen nicht in eine gefettete Form gibt, ist er hinterher am Boden angebacken.",
+      "uebersetzung": {
+        "fa": "اگر کیک را در قالب چرب‌شده نریزی، بعداً به کف قالب می‌چسبد.",
+        "en": "If you don't put the cake in a greased tin, it ends up stuck to the bottom."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ankleben",
+      "uebersetzung": {
+        "fa": "چسبیدن",
+        "en": "to stick"
+      }
+    },
+    {
+      "wort": "anbrennen",
+      "uebersetzung": {
+        "fa": "ته گرفتن، سوختن",
+        "en": "to burn"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (پیشوند: چسبیدن به) + backen (پختن)",
+    "en": "an- (prefix: onto) + backen (to bake)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "an + Dat anbacken",
+        "bedeutung": "an etwas fest kleben bleiben",
+        "beispiel": "Die Kartoffeln sind an der Pfanne angebacken.",
+        "uebersetzung": {
+          "fa": "سیب‌زمینی‌ها به تابه چسبیدند.",
+          "en": "The potatoes have stuck to the pan."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "anbacken",
+      "praeteritum": "backte an",
+      "partizip2": "angebacken"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "backe an",
+        "du": "bäckst an",
+        "er_sie_es": "bäckt an",
+        "wir": "backen an",
+        "ihr": "backt an",
+        "sie_Sie": "backen an"
+      },
+      "praeteritum": {
+        "ich": "backte an",
+        "du": "backtest an",
+        "er_sie_es": "backte an",
+        "wir": "backten an",
+        "ihr": "backtet an",
+        "sie_Sie": "backten an"
+      },
+      "konjunktiv1": {
+        "ich": "backe an",
+        "du": "backest an",
+        "er_sie_es": "backe an",
+        "wir": "backen an",
+        "ihr": "backet an",
+        "sie_Sie": "backen an"
+      },
+      "konjunktiv2": {
+        "ich": "backte an",
+        "du": "backtest an",
+        "er_sie_es": "backte an",
+        "wir": "backten an",
+        "ihr": "backtet an",
+        "sie_Sie": "backten an"
+      },
+      "imperativ": {
+        "du": "Back an!",
+        "ihr": "Backt an!",
+        "Sie": "Backen Sie an!"
+      }
+    },
+    "partizip1": "anbackend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "backen",
+    "woerter": [
+      {
+        "wort": "backen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پختن (در فر)",
+          "en": "to bake"
+        },
+        "id_ref": "verb_backen"
+      },
+      {
+        "wort": "kleben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چسبیدن",
+          "en": "to stick"
+        },
+        "id_ref": "verb_kleben"
+      },
+      {
+        "wort": "die Pfanne",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تابه",
+          "en": "pan"
+        },
+        "id_ref": "nomen_pfanne"
+      },
+      {
+        "wort": "anbrennen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ته گرفتن",
+          "en": "to burn"
+        },
+        "id_ref": "verb_anbrennen"
+      },
+      {
+        "wort": "fetten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "چرب کردن",
+          "en": "to grease"
+        },
+        "id_ref": "verb_fetten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

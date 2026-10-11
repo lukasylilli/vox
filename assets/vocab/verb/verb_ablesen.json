@@ -1,0 +1,169 @@
+{
+  "schema": "3.0",
+  "id": "verb_ablesen",
+  "wort": "ablesen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خواندن (از روی چیزی)",
+      "خواندن (کنتور)"
+    ],
+    "en": [
+      "to read (off)",
+      "to read (a meter)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Technik",
+    "Lernen"
+  ],
+  "ipa": "ˈapˌleːzn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er liest die Rede vom Blatt ab.",
+      "uebersetzung": {
+        "fa": "او سخنرانی را از روی کاغذ می‌خواند.",
+        "en": "He reads the speech from the paper."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Einmal im Jahr kommt ein Techniker, der den Stromzähler abliest und den Verbrauch notiert.",
+      "uebersetzung": {
+        "fa": "سالی یک بار تکنسینی می‌آید که کنتور برق را می‌خواند و مصرف را یادداشت می‌کند.",
+        "en": "Once a year a technician comes who reads the electricity meter and notes the consumption."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند: از روی) + lesen (خواندن)",
+    "en": "ab- (prefix: off) + lesen (to read)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem etwas von den Augen ablesen",
+        "bedeutung": "erraten, was jemand sich wünscht",
+        "beispiel": "Er liest ihr jeden Wunsch von den Augen ab.",
+        "uebersetzung": {
+          "fa": "هر آرزویی را از چشمانش می‌خواند.",
+          "en": "He anticipates her every wish."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ablesen",
+      "praeteritum": "las ab",
+      "partizip2": "abgelesen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lese ab",
+        "du": "liest ab",
+        "er_sie_es": "liest ab",
+        "wir": "lesen ab",
+        "ihr": "lest ab",
+        "sie_Sie": "lesen ab"
+      },
+      "praeteritum": {
+        "ich": "las ab",
+        "du": "lasest ab",
+        "er_sie_es": "las ab",
+        "wir": "lasen ab",
+        "ihr": "last ab",
+        "sie_Sie": "lasen ab"
+      },
+      "konjunktiv1": {
+        "ich": "lese ab",
+        "du": "lesest ab",
+        "er_sie_es": "lese ab",
+        "wir": "lesen ab",
+        "ihr": "leset ab",
+        "sie_Sie": "lesen ab"
+      },
+      "konjunktiv2": {
+        "ich": "läse ab",
+        "du": "läsest ab",
+        "er_sie_es": "läse ab",
+        "wir": "läsen ab",
+        "ihr": "läset ab",
+        "sie_Sie": "läsen ab"
+      },
+      "imperativ": {
+        "du": "Lies ab!",
+        "ihr": "Lest ab!",
+        "Sie": "Lesen Sie ab!"
+      }
+    },
+    "partizip1": "ablesend",
+    "nominalisierung": "das Ablesen"
+  },
+  "wortnetz": {
+    "grundwort": "lesen",
+    "woerter": [
+      {
+        "wort": "lesen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خواندن",
+          "en": "to read"
+        },
+        "id_ref": "verb_lesen"
+      },
+      {
+        "wort": "der Zähler",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کنتور",
+          "en": "meter"
+        },
+        "id_ref": "nomen_zaehler"
+      },
+      {
+        "wort": "die Rede",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سخنرانی",
+          "en": "speech"
+        },
+        "id_ref": "nomen_rede"
+      },
+      {
+        "wort": "vorlesen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بلند خواندن",
+          "en": "to read aloud"
+        },
+        "id_ref": "verb_vorlesen"
+      },
+      {
+        "wort": "der Verbrauch",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مصرف",
+          "en": "consumption"
+        },
+        "id_ref": "nomen_verbrauch"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

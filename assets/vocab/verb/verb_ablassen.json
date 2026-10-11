@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_ablassen",
+  "wort": "ablassen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خالی کردن (آب، هوا)",
+      "دست کشیدن (از کسی/چیزی)"
+    ],
+    "en": [
+      "to drain",
+      "to let out",
+      "to leave off"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Gefühle"
+  ],
+  "ipa": "ˈapˌlasn̩",
+  "anmerkung": "Redewendung: «Dampf ablassen» (seinen Ärger loswerden).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich lasse das Wasser aus der Wanne ab.",
+      "uebersetzung": {
+        "fa": "آب وان را خالی می‌کنم.",
+        "en": "I let the water out of the bath."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Obwohl alle ihn warnten, ließ er nicht von seinem Plan ab, ein eigenes Café zu eröffnen.",
+      "uebersetzung": {
+        "fa": "با اینکه همه به او هشدار دادند، از نقشه‌اش برای باز کردن یک کافه دست نکشید.",
+        "en": "Although everyone warned him, he did not give up his plan to open his own café."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "entleeren",
+      "uebersetzung": {
+        "fa": "خالی کردن",
+        "en": "to empty"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "auffüllen",
+      "uebersetzung": {
+        "fa": "پر کردن",
+        "en": "to fill up"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند: خارج کردن) + lassen (گذاشتن، رها کردن)",
+    "en": "ab- (prefix: out, off) + lassen (to let)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "von + Dat ablassen",
+        "bedeutung": "mit etwas aufhören, etwas aufgeben (gehoben)",
+        "beispiel": "Sie ließ nicht von ihm ab.",
+        "uebersetzung": {
+          "fa": "او دست از سرش برنداشت.",
+          "en": "She wouldn't leave him alone."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ablassen",
+      "praeteritum": "ließ ab",
+      "partizip2": "abgelassen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lasse ab",
+        "du": "lässt ab",
+        "er_sie_es": "lässt ab",
+        "wir": "lassen ab",
+        "ihr": "lasst ab",
+        "sie_Sie": "lassen ab"
+      },
+      "praeteritum": {
+        "ich": "ließ ab",
+        "du": "ließest ab",
+        "er_sie_es": "ließ ab",
+        "wir": "ließen ab",
+        "ihr": "ließt ab",
+        "sie_Sie": "ließen ab"
+      },
+      "konjunktiv1": {
+        "ich": "lasse ab",
+        "du": "lassest ab",
+        "er_sie_es": "lasse ab",
+        "wir": "lassen ab",
+        "ihr": "lasset ab",
+        "sie_Sie": "lassen ab"
+      },
+      "konjunktiv2": {
+        "ich": "ließe ab",
+        "du": "ließest ab",
+        "er_sie_es": "ließe ab",
+        "wir": "ließen ab",
+        "ihr": "ließet ab",
+        "sie_Sie": "ließen ab"
+      },
+      "imperativ": {
+        "du": "Lass ab!",
+        "ihr": "Lasst ab!",
+        "Sie": "Lassen Sie ab!"
+      }
+    },
+    "partizip1": "ablassend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "lassen",
+    "woerter": [
+      {
+        "wort": "lassen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گذاشتن، اجازه دادن",
+          "en": "to let"
+        },
+        "id_ref": "verb_lassen"
+      },
+      {
+        "wort": "das Wasser",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب",
+          "en": "water"
+        },
+        "id_ref": "nomen_wasser"
+      },
+      {
+        "wort": "die Badewanne",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "وان",
+          "en": "bathtub"
+        },
+        "id_ref": "nomen_badewanne"
+      },
+      {
+        "wort": "aufgeben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دست کشیدن",
+          "en": "to give up"
+        },
+        "id_ref": "verb_aufgeben"
+      },
+      {
+        "wort": "der Dampf",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بخار",
+          "en": "steam"
+        },
+        "id_ref": "nomen_dampf"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

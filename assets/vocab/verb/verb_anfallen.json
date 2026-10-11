@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_anfallen",
+  "wort": "anfallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به وجود آمدن (هزینه، کار)",
+      "حمله کردن (حیوان)"
+    ],
+    "en": [
+      "to arise, to accrue",
+      "to attack"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Wirtschaft",
+    "Tiere"
+  ],
+  "ipa": "ˈanˌfalən",
+  "anmerkung": "«Kosten/Arbeit fallen an» mit sein; «jemanden anfallen» (angreifen) mit haben. Das Nomen «der Anfall» (z. B. Asthmaanfall) hat eigene Bedeutung — eigene Karte.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Es fallen keine Kosten an.",
+      "uebersetzung": {
+        "fa": "هیچ هزینه‌ای پیش نمی‌آید.",
+        "en": "There are no costs."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei der Reparatur sind höhere Kosten angefallen, als die Werkstatt zuerst geschätzt hatte.",
+      "uebersetzung": {
+        "fa": "در تعمیر هزینه‌های بیشتری پیش آمد از آنچه تعمیرگاه اول تخمین زده بود.",
+        "en": "The repair incurred higher costs than the garage had first estimated."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "entstehen",
+      "uebersetzung": {
+        "fa": "پدید آمدن",
+        "en": "to arise"
+      }
+    },
+    {
+      "wort": "angreifen",
+      "uebersetzung": {
+        "fa": "حمله کردن",
+        "en": "to attack"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (پیشوند: به سوی) + fallen (افتادن)",
+    "en": "an- (prefix: towards) + fallen (to fall)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "anfallen",
+      "praeteritum": "fiel an",
+      "partizip2": "angefallen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "falle an",
+        "du": "fällst an",
+        "er_sie_es": "fällt an",
+        "wir": "fallen an",
+        "ihr": "fallt an",
+        "sie_Sie": "fallen an"
+      },
+      "praeteritum": {
+        "ich": "fiel an",
+        "du": "fielst an",
+        "er_sie_es": "fiel an",
+        "wir": "fielen an",
+        "ihr": "fielt an",
+        "sie_Sie": "fielen an"
+      },
+      "konjunktiv1": {
+        "ich": "falle an",
+        "du": "fallest an",
+        "er_sie_es": "falle an",
+        "wir": "fallen an",
+        "ihr": "fallet an",
+        "sie_Sie": "fallen an"
+      },
+      "konjunktiv2": {
+        "ich": "fiele an",
+        "du": "fielest an",
+        "er_sie_es": "fiele an",
+        "wir": "fielen an",
+        "ihr": "fielet an",
+        "sie_Sie": "fielen an"
+      },
+      "imperativ": {
+        "du": "Fall an!",
+        "ihr": "Fallt an!",
+        "Sie": "Fallen Sie an!"
+      }
+    },
+    "partizip1": "anfallend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fallen",
+    "woerter": [
+      {
+        "wort": "fallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "افتادن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_fallen"
+      },
+      {
+        "wort": "die Kosten",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "هزینه‌ها",
+          "en": "costs"
+        },
+        "id_ref": "nomen_kosten"
+      },
+      {
+        "wort": "entstehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پدید آمدن",
+          "en": "to arise"
+        },
+        "id_ref": "verb_entstehen"
+      },
+      {
+        "wort": "der Anfall",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حمله (بیماری)",
+          "en": "attack, fit"
+        },
+        "id_ref": "nomen_anfall"
+      },
+      {
+        "wort": "angreifen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حمله کردن",
+          "en": "to attack"
+        },
+        "id_ref": "verb_angreifen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

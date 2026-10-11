@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_ablaufen",
+  "wort": "ablaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "منقضی شدن",
+      "تخلیه شدن (آب)",
+      "سپری شدن، روی دادن"
+    ],
+    "en": [
+      "to expire",
+      "to drain",
+      "to go (off), to proceed"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Zeit",
+    "Behörden",
+    "Organisation"
+  ],
+  "ipa": "ˈapˌlaʊ̯fn̩",
+  "anmerkung": "Transitiv «eine Strecke ablaufen» (abgehen) auch mit haben.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mein Pass läuft bald ab.",
+      "uebersetzung": {
+        "fa": "گذرنامه‌ام به‌زودی منقضی می‌شود.",
+        "en": "My passport expires soon."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Prüfung ist ganz ruhig abgelaufen, obwohl alle vorher sehr nervös waren.",
+      "uebersetzung": {
+        "fa": "امتحان کاملاً آرام برگزار شد، با اینکه همه قبلش خیلی مضطرب بودند.",
+        "en": "The exam went off very calmly, although everyone had been very nervous beforehand."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verfallen",
+      "uebersetzung": {
+        "fa": "باطل شدن",
+        "en": "to lapse"
+      }
+    },
+    {
+      "wort": "abfließen",
+      "uebersetzung": {
+        "fa": "تخلیه شدن",
+        "en": "to drain away"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (پیشوند: پایان، دور شدن) + laufen (دویدن، جریان داشتن)",
+    "en": "ab- (prefix: off, away) + laufen (to run)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "ablaufen",
+      "praeteritum": "lief ab",
+      "partizip2": "abgelaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laufe ab",
+        "du": "läufst ab",
+        "er_sie_es": "läuft ab",
+        "wir": "laufen ab",
+        "ihr": "lauft ab",
+        "sie_Sie": "laufen ab"
+      },
+      "praeteritum": {
+        "ich": "lief ab",
+        "du": "liefst ab",
+        "er_sie_es": "lief ab",
+        "wir": "liefen ab",
+        "ihr": "lieft ab",
+        "sie_Sie": "liefen ab"
+      },
+      "konjunktiv1": {
+        "ich": "laufe ab",
+        "du": "laufest ab",
+        "er_sie_es": "laufe ab",
+        "wir": "laufen ab",
+        "ihr": "laufet ab",
+        "sie_Sie": "laufen ab"
+      },
+      "konjunktiv2": {
+        "ich": "liefe ab",
+        "du": "liefest ab",
+        "er_sie_es": "liefe ab",
+        "wir": "liefen ab",
+        "ihr": "liefet ab",
+        "sie_Sie": "liefen ab"
+      },
+      "imperativ": {
+        "du": "Lauf ab!",
+        "ihr": "Lauft ab!",
+        "Sie": "Laufen Sie ab!"
+      }
+    },
+    "partizip1": "ablaufend",
+    "nominalisierung": "der Ablauf"
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دویدن، راه رفتن",
+          "en": "to run, to walk"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "der Ablauf",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "روند",
+          "en": "process"
+        },
+        "id_ref": "nomen_ablauf"
+      },
+      {
+        "wort": "der Pass",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گذرنامه",
+          "en": "passport"
+        },
+        "id_ref": "nomen_pass"
+      },
+      {
+        "wort": "gültig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "معتبر",
+          "en": "valid"
+        },
+        "id_ref": "adjektiv_gueltig"
+      },
+      {
+        "wort": "die Frist",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مهلت",
+          "en": "deadline"
+        },
+        "id_ref": "nomen_frist"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

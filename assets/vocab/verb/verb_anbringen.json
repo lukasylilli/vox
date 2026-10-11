@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_anbringen",
+  "wort": "anbringen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نصب کردن",
+      "مطرح کردن (انتقاد، پیشنهاد)"
+    ],
+    "en": [
+      "to fix, to attach",
+      "to put forward"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Handwerk",
+    "Kommunikation"
+  ],
+  "ipa": "ˈanˌbʁɪŋən",
+  "anmerkung": "Das Partizip «angebracht» (passend, sinnvoll) ist auch eigenes Adjektiv.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir bringen das Regal an der Wand an.",
+      "uebersetzung": {
+        "fa": "قفسه را به دیوار نصب می‌کنیم.",
+        "en": "We fix the shelf to the wall."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "In der Besprechung hat sie einige Kritikpunkte angebracht, die alle sehr ernst nahmen.",
+      "uebersetzung": {
+        "fa": "او در جلسه چند نکته‌ی انتقادی مطرح کرد که همه خیلی جدی گرفتند.",
+        "en": "In the meeting she raised some points of criticism that everyone took very seriously."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "befestigen",
+      "uebersetzung": {
+        "fa": "محکم کردن",
+        "en": "to fasten"
+      }
+    },
+    {
+      "wort": "montieren",
+      "uebersetzung": {
+        "fa": "نصب کردن",
+        "en": "to install"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "abnehmen",
+      "uebersetzung": {
+        "fa": "برداشتن",
+        "en": "to take down"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (پیشوند: به) + bringen (آوردن)",
+    "en": "an- (prefix: to) + bringen (to bring)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas an + Dat anbringen",
+        "bedeutung": "an einer Stelle befestigen",
+        "beispiel": "Er bringt die Lampe an der Decke an.",
+        "uebersetzung": {
+          "fa": "او چراغ را به سقف نصب می‌کند.",
+          "en": "He fixes the lamp to the ceiling."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "anbringen",
+      "praeteritum": "brachte an",
+      "partizip2": "angebracht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bringe an",
+        "du": "bringst an",
+        "er_sie_es": "bringt an",
+        "wir": "bringen an",
+        "ihr": "bringt an",
+        "sie_Sie": "bringen an"
+      },
+      "praeteritum": {
+        "ich": "brachte an",
+        "du": "brachtest an",
+        "er_sie_es": "brachte an",
+        "wir": "brachten an",
+        "ihr": "brachtet an",
+        "sie_Sie": "brachten an"
+      },
+      "konjunktiv1": {
+        "ich": "bringe an",
+        "du": "bringest an",
+        "er_sie_es": "bringe an",
+        "wir": "bringen an",
+        "ihr": "bringet an",
+        "sie_Sie": "bringen an"
+      },
+      "konjunktiv2": {
+        "ich": "brächte an",
+        "du": "brächtest an",
+        "er_sie_es": "brächte an",
+        "wir": "brächten an",
+        "ihr": "brächtet an",
+        "sie_Sie": "brächten an"
+      },
+      "imperativ": {
+        "du": "Bring an!",
+        "ihr": "Bringt an!",
+        "Sie": "Bringen Sie an!"
+      }
+    },
+    "partizip1": "anbringend",
+    "nominalisierung": "die Anbringung"
+  },
+  "wortnetz": {
+    "grundwort": "bringen",
+    "woerter": [
+      {
+        "wort": "bringen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آوردن",
+          "en": "to bring"
+        },
+        "id_ref": "verb_bringen"
+      },
+      {
+        "wort": "befestigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "محکم کردن",
+          "en": "to fasten"
+        },
+        "id_ref": "verb_befestigen"
+      },
+      {
+        "wort": "die Wand",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دیوار",
+          "en": "wall"
+        },
+        "id_ref": "nomen_wand"
+      },
+      {
+        "wort": "angebracht",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بجا، مناسب",
+          "en": "appropriate"
+        },
+        "id_ref": "adjektiv_angebracht"
+      },
+      {
+        "wort": "die Kritik",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انتقاد",
+          "en": "criticism"
+        },
+        "id_ref": "nomen_kritik"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

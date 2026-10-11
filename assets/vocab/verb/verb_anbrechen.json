@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_anbrechen",
+  "wort": "anbrechen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آغاز شدن (روز، دوره)",
+      "باز کردن (بسته، شروع به مصرف)",
+      "شکاف برداشتن"
+    ],
+    "en": [
+      "to dawn, to begin",
+      "to open (a pack)",
+      "to crack"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Zeit",
+    "Alltag"
+  ],
+  "ipa": "ˈanˌbʁɛçn̩",
+  "anmerkung": "Transitiv (eine Packung anbrechen) mit haben; intransitiv (der Tag bricht an, ist angebrochen) mit sein.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich breche eine neue Packung Milch an.",
+      "uebersetzung": {
+        "fa": "یک پاکت شیر تازه باز می‌کنم.",
+        "en": "I open a new carton of milk."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als der Morgen anbrach, machten sich die Wanderer auf den Weg zum Gipfel.",
+      "uebersetzung": {
+        "fa": "وقتی صبح دمید، کوهنوردان به سوی قله راه افتادند.",
+        "en": "When morning dawned, the hikers set off towards the summit."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beginnen",
+      "uebersetzung": {
+        "fa": "آغاز شدن",
+        "en": "to begin"
+      }
+    },
+    {
+      "wort": "öffnen",
+      "uebersetzung": {
+        "fa": "باز کردن",
+        "en": "to open"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (پیشوند: آغاز) + brechen (شکستن)",
+    "en": "an- (prefix: beginning) + brechen (to break)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "anbrechen",
+      "praeteritum": "brach an",
+      "partizip2": "angebrochen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "breche an",
+        "du": "brichst an",
+        "er_sie_es": "bricht an",
+        "wir": "brechen an",
+        "ihr": "brecht an",
+        "sie_Sie": "brechen an"
+      },
+      "praeteritum": {
+        "ich": "brach an",
+        "du": "brachst an",
+        "er_sie_es": "brach an",
+        "wir": "brachen an",
+        "ihr": "bracht an",
+        "sie_Sie": "brachen an"
+      },
+      "konjunktiv1": {
+        "ich": "breche an",
+        "du": "brechest an",
+        "er_sie_es": "breche an",
+        "wir": "brechen an",
+        "ihr": "brechet an",
+        "sie_Sie": "brechen an"
+      },
+      "konjunktiv2": {
+        "ich": "bräche an",
+        "du": "brächest an",
+        "er_sie_es": "bräche an",
+        "wir": "brächen an",
+        "ihr": "brächet an",
+        "sie_Sie": "brächen an"
+      },
+      "imperativ": {
+        "du": "Brich an!",
+        "ihr": "Brecht an!",
+        "Sie": "Brechen Sie an!"
+      }
+    },
+    "partizip1": "anbrechend",
+    "nominalisierung": "der Anbruch"
+  },
+  "wortnetz": {
+    "grundwort": "brechen",
+    "woerter": [
+      {
+        "wort": "brechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شکستن",
+          "en": "to break"
+        },
+        "id_ref": "verb_brechen"
+      },
+      {
+        "wort": "der Anbruch",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آغاز (روز)",
+          "en": "dawn, beginning"
+        },
+        "id_ref": "nomen_anbruch"
+      },
+      {
+        "wort": "der Morgen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "صبح",
+          "en": "morning"
+        },
+        "id_ref": "nomen_morgen"
+      },
+      {
+        "wort": "die Packung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بسته",
+          "en": "pack"
+        },
+        "id_ref": "nomen_packung"
+      },
+      {
+        "wort": "beginnen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شروع شدن",
+          "en": "to begin"
+        },
+        "id_ref": "verb_beginnen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

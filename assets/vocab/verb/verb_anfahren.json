@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_anfahren",
+  "wort": "anfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "زیر گرفتن (با ماشین)",
+      "سر کسی داد زدن",
+      "راه افتادن"
+    ],
+    "en": [
+      "to hit (with a vehicle)",
+      "to snap at",
+      "to start moving"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Verkehr",
+    "Kommunikation"
+  ],
+  "ipa": "ˈanˌfaːʁən",
+  "anmerkung": "Transitiv (jemanden anfahren) mit haben; intransitiv (der Zug fährt an, ist angefahren) mit sein.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Zug fährt langsam an.",
+      "uebersetzung": {
+        "fa": "قطار آهسته راه می‌افتد.",
+        "en": "The train slowly starts moving."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ein Auto hat gestern eine Radfahrerin angefahren, die zum Glück nur leicht verletzt wurde.",
+      "uebersetzung": {
+        "fa": "دیروز یک ماشین به یک دوچرخه‌سوار زد که خوشبختانه فقط کمی زخمی شد.",
+        "en": "Yesterday a car hit a cyclist, who fortunately was only slightly injured."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anschreien",
+      "uebersetzung": {
+        "fa": "سر کسی داد زدن",
+        "en": "to shout at"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "anhalten",
+      "uebersetzung": {
+        "fa": "ایستادن",
+        "en": "to stop"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (پیشوند: آغاز؛ به سوی) + fahren (رفتن با وسیله)",
+    "en": "an- (prefix: start; towards) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "anfahren",
+      "praeteritum": "fuhr an",
+      "partizip2": "angefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre an",
+        "du": "fährst an",
+        "er_sie_es": "fährt an",
+        "wir": "fahren an",
+        "ihr": "fahrt an",
+        "sie_Sie": "fahren an"
+      },
+      "praeteritum": {
+        "ich": "fuhr an",
+        "du": "fuhrst an",
+        "er_sie_es": "fuhr an",
+        "wir": "fuhren an",
+        "ihr": "fuhrt an",
+        "sie_Sie": "fuhren an"
+      },
+      "konjunktiv1": {
+        "ich": "fahre an",
+        "du": "fahrest an",
+        "er_sie_es": "fahre an",
+        "wir": "fahren an",
+        "ihr": "fahret an",
+        "sie_Sie": "fahren an"
+      },
+      "konjunktiv2": {
+        "ich": "führe an",
+        "du": "führest an",
+        "er_sie_es": "führe an",
+        "wir": "führen an",
+        "ihr": "führet an",
+        "sie_Sie": "führen an"
+      },
+      "imperativ": {
+        "du": "Fahr an!",
+        "ihr": "Fahrt an!",
+        "Sie": "Fahren Sie an!"
+      }
+    },
+    "partizip1": "anfahrend",
+    "nominalisierung": "die Anfahrt"
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "der Unfall",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تصادف",
+          "en": "accident"
+        },
+        "id_ref": "nomen_unfall"
+      },
+      {
+        "wort": "die Anfahrt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مسیر رسیدن",
+          "en": "journey there"
+        },
+        "id_ref": "nomen_anfahrt"
+      },
+      {
+        "wort": "verletzt",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زخمی",
+          "en": "injured"
+        },
+        "id_ref": "adjektiv_verletzt"
+      },
+      {
+        "wort": "anschreien",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "داد زدن",
+          "en": "to shout at"
+        },
+        "id_ref": "verb_anschreien"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
