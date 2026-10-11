@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_anheben",
+  "wort": "anheben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بالا بردن (قیمت، حقوق)",
+      "کمی بلند کردن"
+    ],
+    "en": [
+      "to raise",
+      "to lift slightly"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Wirtschaft",
+    "Alltag"
+  ],
+  "ipa": "ˈanˌheːbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte heb den Tisch kurz an.",
+      "uebersetzung": {
+        "fa": "لطفاً میز را کمی بلند کن.",
+        "en": "Please lift the table up a little."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Regierung will das Rentenalter anheben, weil die Menschen immer länger leben.",
+      "uebersetzung": {
+        "fa": "دولت می‌خواهد سن بازنشستگی را بالا ببرد، چون مردم هر روز عمر طولانی‌تری دارند.",
+        "en": "The government wants to raise the retirement age because people are living longer and longer."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erhöhen",
+      "uebersetzung": {
+        "fa": "افزایش دادن",
+        "en": "to increase"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "senken",
+      "uebersetzung": {
+        "fa": "کاهش دادن",
+        "en": "to lower"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (پیشوند) + heben (بلند کردن)",
+    "en": "an- (prefix) + heben (to lift)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas um + Akk anheben",
+        "bedeutung": "etwas um einen Betrag erhöhen",
+        "beispiel": "Die Miete wurde um fünf Prozent angehoben.",
+        "uebersetzung": {
+          "fa": "اجاره پنج درصد افزایش یافت.",
+          "en": "The rent was raised by five per cent."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "anheben",
+      "praeteritum": "hob an",
+      "partizip2": "angehoben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "hebe an",
+        "du": "hebst an",
+        "er_sie_es": "hebt an",
+        "wir": "heben an",
+        "ihr": "hebt an",
+        "sie_Sie": "heben an"
+      },
+      "praeteritum": {
+        "ich": "hob an",
+        "du": "hobst an",
+        "er_sie_es": "hob an",
+        "wir": "hoben an",
+        "ihr": "hobt an",
+        "sie_Sie": "hoben an"
+      },
+      "konjunktiv1": {
+        "ich": "hebe an",
+        "du": "hebest an",
+        "er_sie_es": "hebe an",
+        "wir": "heben an",
+        "ihr": "hebet an",
+        "sie_Sie": "heben an"
+      },
+      "konjunktiv2": {
+        "ich": "höbe an",
+        "du": "höbest an",
+        "er_sie_es": "höbe an",
+        "wir": "höben an",
+        "ihr": "höbet an",
+        "sie_Sie": "höben an"
+      },
+      "imperativ": {
+        "du": "Heb an!",
+        "ihr": "Hebt an!",
+        "Sie": "Heben Sie an!"
+      }
+    },
+    "partizip1": "anhebend",
+    "nominalisierung": "die Anhebung"
+  },
+  "wortnetz": {
+    "grundwort": "heben",
+    "woerter": [
+      {
+        "wort": "heben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بلند کردن",
+          "en": "to lift"
+        },
+        "id_ref": "verb_heben"
+      },
+      {
+        "wort": "erhöhen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "افزایش دادن",
+          "en": "to increase"
+        },
+        "id_ref": "verb_erhoehen"
+      },
+      {
+        "wort": "die Anhebung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "افزایش",
+          "en": "increase"
+        },
+        "id_ref": "nomen_anhebung"
+      },
+      {
+        "wort": "senken",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کاهش دادن",
+          "en": "to lower"
+        },
+        "id_ref": "verb_senken"
+      },
+      {
+        "wort": "der Preis",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قیمت",
+          "en": "price"
+        },
+        "id_ref": "nomen_preis"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

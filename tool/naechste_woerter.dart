@@ -852,6 +852,13 @@ const zurueckgestellt = <String>{
   'achthaben', // zurückgestellt (Regel 14): veraltend (= achtgeben) 2026-10-11
   'andringen', // zurückgestellt (Regel 14): veraltet 2026-10-11
   'anessen', // zurückgestellt (Regel 14): umgangssprachlich selten («sich einen Bauch anessen») 2026-10-11
+  'anfinden', // zurückgestellt (Regel 14): regional, selten («sich anfinden») 2026-10-11
+  'angedeihen', // zurückgestellt (Regel 14): nur in «jemandem etwas angedeihen lassen» — keine eigenen Formen 2026-10-11
+  'anheimgeben', // zurückgestellt (Regel 14): gehoben, sehr selten 2026-10-11
+  'ankeifen', // zurückgestellt (Regel 14): selten, umgangssprachlich 2026-10-11
+  'ankleiben', // zurückgestellt (Regel 14): kein Duden-Eintrag gefunden 2026-10-11
+  'ankönnen', // zurückgestellt (Regel 14): umgangssprachlich («gegen jemanden nicht ankönnen»), Formen unsicher 2026-10-11
+  'ankriechen', // zurückgestellt (Regel 14): selten (fast nur «angekrochen kommen») 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

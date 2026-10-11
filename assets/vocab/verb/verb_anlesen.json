@@ -1,0 +1,168 @@
+{
+  "schema": "3.0",
+  "id": "verb_anlesen",
+  "wort": "anlesen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "از راه خواندن یاد گرفتن",
+      "کمی خواندن"
+    ],
+    "en": [
+      "to acquire by reading",
+      "to start reading"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Lernen"
+  ],
+  "ipa": "ˈanˌleːzn̩",
+  "anmerkung": "Meist reflexiv mit Dativ: «sich etwas anlesen» (oft leicht abwertend: nur angelesenes Wissen).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich lese das Buch nur an.",
+      "uebersetzung": {
+        "fa": "کتاب را فقط کمی می‌خوانم.",
+        "en": "I am only starting to read the book."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sein ganzes Wissen über Medizin hat er sich aus Büchern angelesen, ohne je studiert zu haben.",
+      "uebersetzung": {
+        "fa": "او همه‌ی دانش پزشکی‌اش را از راه خواندن کتاب‌ها به دست آورده، بی‌آنکه هرگز تحصیل کرده باشد.",
+        "en": "He acquired all his medical knowledge from books without ever having studied."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (پیشوند: آغاز، کسب) + lesen (خواندن)",
+    "en": "an- (prefix: start, acquisition) + lesen (to read)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich etwas anlesen",
+        "bedeutung": "sich Wissen durch Lesen aneignen",
+        "beispiel": "Sie hat sich viel über Pflanzen angelesen.",
+        "uebersetzung": {
+          "fa": "او با خواندن چیزهای زیادی درباره‌ی گیاهان یاد گرفت.",
+          "en": "She has read up a lot about plants."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "anlesen",
+      "praeteritum": "las an",
+      "partizip2": "angelesen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lese an",
+        "du": "liest an",
+        "er_sie_es": "liest an",
+        "wir": "lesen an",
+        "ihr": "lest an",
+        "sie_Sie": "lesen an"
+      },
+      "praeteritum": {
+        "ich": "las an",
+        "du": "lasest an",
+        "er_sie_es": "las an",
+        "wir": "lasen an",
+        "ihr": "last an",
+        "sie_Sie": "lasen an"
+      },
+      "konjunktiv1": {
+        "ich": "lese an",
+        "du": "lesest an",
+        "er_sie_es": "lese an",
+        "wir": "lesen an",
+        "ihr": "leset an",
+        "sie_Sie": "lesen an"
+      },
+      "konjunktiv2": {
+        "ich": "läse an",
+        "du": "läsest an",
+        "er_sie_es": "läse an",
+        "wir": "läsen an",
+        "ihr": "läset an",
+        "sie_Sie": "läsen an"
+      },
+      "imperativ": {
+        "du": "Lies an!",
+        "ihr": "Lest an!",
+        "Sie": "Lesen Sie an!"
+      }
+    },
+    "partizip1": "anlesend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "lesen",
+    "woerter": [
+      {
+        "wort": "lesen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خواندن",
+          "en": "to read"
+        },
+        "id_ref": "verb_lesen"
+      },
+      {
+        "wort": "das Wissen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دانش",
+          "en": "knowledge"
+        },
+        "id_ref": "nomen_wissen"
+      },
+      {
+        "wort": "lernen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "یاد گرفتن",
+          "en": "to learn"
+        },
+        "id_ref": "verb_lernen"
+      },
+      {
+        "wort": "das Buch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کتاب",
+          "en": "book"
+        },
+        "id_ref": "nomen_buch"
+      },
+      {
+        "wort": "aneignen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کسب کردن",
+          "en": "to acquire"
+        },
+        "id_ref": "verb_aneignen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

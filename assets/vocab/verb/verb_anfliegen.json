@@ -1,0 +1,158 @@
+{
+  "schema": "3.0",
+  "id": "verb_anfliegen",
+  "wort": "anfliegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پرواز کردن به سوی (مقصد)"
+    ],
+    "en": [
+      "to fly to",
+      "to approach (by air)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Reisen",
+    "Verkehr"
+  ],
+  "ipa": "ˈanˌfliːɡn̩",
+  "anmerkung": "Transitiv mit haben; «angeflogen kommen» (herbeifliegen) mit sein.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Airline fliegt Wien an.",
+      "uebersetzung": {
+        "fa": "این شرکت هواپیمایی به وین پرواز دارد.",
+        "en": "The airline flies to Vienna."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wegen des Nebels konnte das Flugzeug den Flughafen nicht anfliegen und musste nach München ausweichen.",
+      "uebersetzung": {
+        "fa": "به‌خاطر مه، هواپیما نتوانست به فرودگاه نزدیک شود و مجبور شد به مونیخ برود.",
+        "en": "Because of the fog the plane could not approach the airport and had to divert to Munich."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (پیشوند: به سوی) + fliegen (پرواز کردن)",
+    "en": "an- (prefix: towards) + fliegen (to fly)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "anfliegen",
+      "praeteritum": "flog an",
+      "partizip2": "angeflogen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fliege an",
+        "du": "fliegst an",
+        "er_sie_es": "fliegt an",
+        "wir": "fliegen an",
+        "ihr": "fliegt an",
+        "sie_Sie": "fliegen an"
+      },
+      "praeteritum": {
+        "ich": "flog an",
+        "du": "flogst an",
+        "er_sie_es": "flog an",
+        "wir": "flogen an",
+        "ihr": "flogt an",
+        "sie_Sie": "flogen an"
+      },
+      "konjunktiv1": {
+        "ich": "fliege an",
+        "du": "fliegest an",
+        "er_sie_es": "fliege an",
+        "wir": "fliegen an",
+        "ihr": "flieget an",
+        "sie_Sie": "fliegen an"
+      },
+      "konjunktiv2": {
+        "ich": "flöge an",
+        "du": "flögest an",
+        "er_sie_es": "flöge an",
+        "wir": "flögen an",
+        "ihr": "flöget an",
+        "sie_Sie": "flögen an"
+      },
+      "imperativ": {
+        "du": "Flieg an!",
+        "ihr": "Fliegt an!",
+        "Sie": "Fliegen Sie an!"
+      }
+    },
+    "partizip1": "anfliegend",
+    "nominalisierung": "der Anflug"
+  },
+  "wortnetz": {
+    "grundwort": "fliegen",
+    "woerter": [
+      {
+        "wort": "fliegen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرواز کردن",
+          "en": "to fly"
+        },
+        "id_ref": "verb_fliegen"
+      },
+      {
+        "wort": "der Anflug",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نزدیک شدن (هواپیما)؛ ردّ کمرنگ",
+          "en": "approach; hint"
+        },
+        "id_ref": "nomen_anflug"
+      },
+      {
+        "wort": "der Flughafen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فرودگاه",
+          "en": "airport"
+        },
+        "id_ref": "nomen_flughafen"
+      },
+      {
+        "wort": "landen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فرود آمدن",
+          "en": "to land"
+        },
+        "id_ref": "verb_landen"
+      },
+      {
+        "wort": "die Fluggesellschaft",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شرکت هواپیمایی",
+          "en": "airline"
+        },
+        "id_ref": "nomen_fluggesellschaft"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_anhauen",
+  "wort": "anhauen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "چیزی درخواست کردن از کسی (عامیانه)",
+      "سر صحبت را باز کردن"
+    ],
+    "en": [
+      "to tap (sb) for",
+      "to accost"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Umgangssprache"
+  ],
+  "ipa": "ˈanˌhaʊ̯ən",
+  "anmerkung": "Umgangssprachlich, salopp.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er haut mich um Geld an.",
+      "uebersetzung": {
+        "fa": "او از من پول می‌خواهد.",
+        "en": "He is tapping me for money."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Auf dem Bahnhof hat mich ein Mann angehauen, ob ich ihm Kleingeld für ein Ticket geben kann.",
+      "uebersetzung": {
+        "fa": "در ایستگاه مردی سراغم آمد و پرسید می‌توانم برای بلیت پول خرد به او بدهم.",
+        "en": "At the station a man accosted me asking if I could give him change for a ticket."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anpumpen",
+      "uebersetzung": {
+        "fa": "قرض خواستن (عامیانه)",
+        "en": "to cadge"
+      }
+    },
+    {
+      "wort": "ansprechen",
+      "uebersetzung": {
+        "fa": "سر صحبت را باز کردن",
+        "en": "to approach"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (پیشوند: به سوی) + hauen (زدن)",
+    "en": "an- (prefix: towards) + hauen (to hit)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden um + Akk anhauen",
+        "bedeutung": "jemanden (dreist) um etwas bitten",
+        "beispiel": "Sie haute ihre Eltern um ein neues Handy an.",
+        "uebersetzung": {
+          "fa": "از پدر و مادرش گوشی نو خواست.",
+          "en": "She tapped her parents for a new phone."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "anhauen",
+      "praeteritum": "haute an",
+      "partizip2": "angehauen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "haue an",
+        "du": "haust an",
+        "er_sie_es": "haut an",
+        "wir": "hauen an",
+        "ihr": "haut an",
+        "sie_Sie": "hauen an"
+      },
+      "praeteritum": {
+        "ich": "haute an",
+        "du": "hautest an",
+        "er_sie_es": "haute an",
+        "wir": "hauten an",
+        "ihr": "hautet an",
+        "sie_Sie": "hauten an"
+      },
+      "konjunktiv1": {
+        "ich": "haue an",
+        "du": "hauest an",
+        "er_sie_es": "haue an",
+        "wir": "hauen an",
+        "ihr": "hauet an",
+        "sie_Sie": "hauen an"
+      },
+      "konjunktiv2": {
+        "ich": "haute an",
+        "du": "hautest an",
+        "er_sie_es": "haute an",
+        "wir": "hauten an",
+        "ihr": "hautet an",
+        "sie_Sie": "hauten an"
+      },
+      "imperativ": {
+        "du": "Hau an!",
+        "ihr": "Haut an!",
+        "Sie": "Hauen Sie an!"
+      }
+    },
+    "partizip1": "anhauend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "hauen",
+    "woerter": [
+      {
+        "wort": "hauen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زدن",
+          "en": "to hit"
+        },
+        "id_ref": "verb_hauen"
+      },
+      {
+        "wort": "bitten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خواهش کردن",
+          "en": "to ask"
+        },
+        "id_ref": "verb_bitten"
+      },
+      {
+        "wort": "ansprechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سر صحبت باز کردن",
+          "en": "to approach"
+        },
+        "id_ref": "verb_ansprechen"
+      },
+      {
+        "wort": "das Kleingeld",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پول خرد",
+          "en": "change"
+        },
+        "id_ref": "nomen_kleingeld"
+      },
+      {
+        "wort": "betteln",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گدایی کردن",
+          "en": "to beg"
+        },
+        "id_ref": "verb_betteln"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

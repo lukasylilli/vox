@@ -1,0 +1,193 @@
+{
+  "schema": "3.0",
+  "id": "verb_angeben",
+  "wort": "angeben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ذکر کردن، اعلام کردن",
+      "پز دادن، خودنمایی کردن"
+    ],
+    "en": [
+      "to state, to give",
+      "to show off, to boast"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Kommunikation",
+    "Behörden",
+    "Charakter"
+  ],
+  "ipa": "ˈanˌɡeːbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Bitte geben Sie Ihre Adresse an.",
+      "uebersetzung": {
+        "fa": "لطفاً نشانی‌تان را ذکر کنید.",
+        "en": "Please give your address."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Er gibt ständig mit seinem neuen Auto an, obwohl es niemanden wirklich interessiert.",
+      "uebersetzung": {
+        "fa": "او مدام با ماشین تازه‌اش پز می‌دهد، با اینکه برای کسی واقعاً مهم نیست.",
+        "en": "He constantly shows off his new car, although nobody is really interested."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nennen",
+      "uebersetzung": {
+        "fa": "نام بردن",
+        "en": "to name"
+      }
+    },
+    {
+      "wort": "prahlen",
+      "uebersetzung": {
+        "fa": "لاف زدن",
+        "en": "to brag"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verschweigen",
+      "uebersetzung": {
+        "fa": "پنهان کردن",
+        "en": "to conceal"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (پیشوند) + geben (دادن)",
+    "en": "an- (prefix) + geben (to give)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit + Dat angeben",
+        "bedeutung": "prahlen",
+        "beispiel": "Sie gibt mit ihren Noten an.",
+        "uebersetzung": {
+          "fa": "او با نمره‌هایش پز می‌دهد.",
+          "en": "She shows off about her grades."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "angeben",
+      "praeteritum": "gab an",
+      "partizip2": "angegeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gebe an",
+        "du": "gibst an",
+        "er_sie_es": "gibt an",
+        "wir": "geben an",
+        "ihr": "gebt an",
+        "sie_Sie": "geben an"
+      },
+      "praeteritum": {
+        "ich": "gab an",
+        "du": "gabst an",
+        "er_sie_es": "gab an",
+        "wir": "gaben an",
+        "ihr": "gabt an",
+        "sie_Sie": "gaben an"
+      },
+      "konjunktiv1": {
+        "ich": "gebe an",
+        "du": "gebest an",
+        "er_sie_es": "gebe an",
+        "wir": "geben an",
+        "ihr": "gebet an",
+        "sie_Sie": "geben an"
+      },
+      "konjunktiv2": {
+        "ich": "gäbe an",
+        "du": "gäbest an",
+        "er_sie_es": "gäbe an",
+        "wir": "gäben an",
+        "ihr": "gäbet an",
+        "sie_Sie": "gäben an"
+      },
+      "imperativ": {
+        "du": "Gib an!",
+        "ihr": "Gebt an!",
+        "Sie": "Geben Sie an!"
+      }
+    },
+    "partizip1": "angebend",
+    "nominalisierung": "die Angabe"
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "die Angabe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اطلاعات (ذکرشده)",
+          "en": "information, detail"
+        },
+        "id_ref": "nomen_angabe"
+      },
+      {
+        "wort": "der Angeber",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آدم پزدهنده",
+          "en": "show-off"
+        },
+        "id_ref": "nomen_angeber"
+      },
+      {
+        "wort": "prahlen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "لاف زدن",
+          "en": "to brag"
+        },
+        "id_ref": "verb_prahlen"
+      },
+      {
+        "wort": "das Formular",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فرم",
+          "en": "form"
+        },
+        "id_ref": "nomen_formular"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

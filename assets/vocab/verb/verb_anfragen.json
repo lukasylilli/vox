@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_anfragen",
+  "wort": "anfragen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "استعلام کردن",
+      "پرسیدن (رسمی)"
+    ],
+    "en": [
+      "to enquire",
+      "to ask"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Kommunikation",
+    "Arbeit"
+  ],
+  "ipa": "ˈanˌfʁaːɡn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich frage beim Hotel an.",
+      "uebersetzung": {
+        "fa": "از هتل استعلام می‌کنم.",
+        "en": "I enquire at the hotel."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wir haben bei mehreren Firmen angefragt, ob sie im Sommer Praktikumsplätze anbieten.",
+      "uebersetzung": {
+        "fa": "از چند شرکت پرسیدیم که آیا تابستان جای کارآموزی دارند یا نه.",
+        "en": "We asked several companies whether they offer internships in the summer."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nachfragen",
+      "uebersetzung": {
+        "fa": "پرس‌وجو کردن",
+        "en": "to enquire"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "antworten",
+      "uebersetzung": {
+        "fa": "جواب دادن",
+        "en": "to answer"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (پیشوند) + fragen (پرسیدن)",
+    "en": "an- (prefix) + fragen (to ask)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "bei + Dat anfragen",
+        "bedeutung": "sich mit einer Frage an jemanden wenden",
+        "beispiel": "Fragen Sie bitte bei der Gemeinde an.",
+        "uebersetzung": {
+          "fa": "لطفاً از شهرداری استعلام کنید.",
+          "en": "Please enquire at the municipality."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "anfragen",
+      "praeteritum": "fragte an",
+      "partizip2": "angefragt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "frage an",
+        "du": "fragst an",
+        "er_sie_es": "fragt an",
+        "wir": "fragen an",
+        "ihr": "fragt an",
+        "sie_Sie": "fragen an"
+      },
+      "praeteritum": {
+        "ich": "fragte an",
+        "du": "fragtest an",
+        "er_sie_es": "fragte an",
+        "wir": "fragten an",
+        "ihr": "fragtet an",
+        "sie_Sie": "fragten an"
+      },
+      "konjunktiv1": {
+        "ich": "frage an",
+        "du": "fragest an",
+        "er_sie_es": "frage an",
+        "wir": "fragen an",
+        "ihr": "fraget an",
+        "sie_Sie": "fragen an"
+      },
+      "konjunktiv2": {
+        "ich": "fragte an",
+        "du": "fragtest an",
+        "er_sie_es": "fragte an",
+        "wir": "fragten an",
+        "ihr": "fragtet an",
+        "sie_Sie": "fragten an"
+      },
+      "imperativ": {
+        "du": "Frag an!",
+        "ihr": "Fragt an!",
+        "Sie": "Fragen Sie an!"
+      }
+    },
+    "partizip1": "anfragend",
+    "nominalisierung": "die Anfrage"
+  },
+  "wortnetz": {
+    "grundwort": "fragen",
+    "woerter": [
+      {
+        "wort": "fragen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرسیدن",
+          "en": "to ask"
+        },
+        "id_ref": "verb_fragen"
+      },
+      {
+        "wort": "die Anfrage",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "استعلام",
+          "en": "enquiry"
+        },
+        "id_ref": "nomen_anfrage"
+      },
+      {
+        "wort": "nachfragen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پرس‌وجو کردن",
+          "en": "to enquire"
+        },
+        "id_ref": "verb_nachfragen"
+      },
+      {
+        "wort": "die Auskunft",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اطلاعات",
+          "en": "information"
+        },
+        "id_ref": "nomen_auskunft"
+      },
+      {
+        "wort": "das Angebot",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پیشنهاد",
+          "en": "offer"
+        },
+        "id_ref": "nomen_angebot"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

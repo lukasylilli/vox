@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_anlaufen",
+  "wort": "anlaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شروع شدن (پروژه، فیلم)",
+      "بخار گرفتن (شیشه)",
+      "تغییر رنگ دادن"
+    ],
+    "en": [
+      "to start (up)",
+      "to steam up",
+      "to tarnish"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Organisation",
+    "Alltag"
+  ],
+  "ipa": "ˈanˌlaʊ̯fn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Meine Brille läuft an.",
+      "uebersetzung": {
+        "fa": "عینکم بخار می‌گیرد.",
+        "en": "My glasses are steaming up."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der neue Film läuft nächste Woche in den Kinos an und wird schon jetzt sehr gelobt.",
+      "uebersetzung": {
+        "fa": "فیلم جدید هفته‌ی بعد روی پرده‌ی سینماها می‌رود و از همین حالا خیلی تحسین می‌شود.",
+        "en": "The new film opens in cinemas next week and is already being highly praised."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beginnen",
+      "uebersetzung": {
+        "fa": "شروع شدن",
+        "en": "to begin"
+      }
+    },
+    {
+      "wort": "beschlagen",
+      "uebersetzung": {
+        "fa": "بخار گرفتن",
+        "en": "to steam up"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "auslaufen",
+      "uebersetzung": {
+        "fa": "تمام شدن",
+        "en": "to run out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (پیشوند: آغاز) + laufen (دویدن، جریان داشتن)",
+    "en": "an- (prefix: start) + laufen (to run)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "anlaufen",
+      "praeteritum": "lief an",
+      "partizip2": "angelaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laufe an",
+        "du": "läufst an",
+        "er_sie_es": "läuft an",
+        "wir": "laufen an",
+        "ihr": "lauft an",
+        "sie_Sie": "laufen an"
+      },
+      "praeteritum": {
+        "ich": "lief an",
+        "du": "liefst an",
+        "er_sie_es": "lief an",
+        "wir": "liefen an",
+        "ihr": "lieft an",
+        "sie_Sie": "liefen an"
+      },
+      "konjunktiv1": {
+        "ich": "laufe an",
+        "du": "laufest an",
+        "er_sie_es": "laufe an",
+        "wir": "laufen an",
+        "ihr": "laufet an",
+        "sie_Sie": "laufen an"
+      },
+      "konjunktiv2": {
+        "ich": "liefe an",
+        "du": "liefest an",
+        "er_sie_es": "liefe an",
+        "wir": "liefen an",
+        "ihr": "liefet an",
+        "sie_Sie": "liefen an"
+      },
+      "imperativ": {
+        "du": "Lauf an!",
+        "ihr": "Lauft an!",
+        "Sie": "Laufen Sie an!"
+      }
+    },
+    "partizip1": "anlaufend",
+    "nominalisierung": "der Anlauf"
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دویدن",
+          "en": "to run"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "der Anlauf",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خیز؛ تلاش",
+          "en": "run-up; attempt"
+        },
+        "id_ref": "nomen_anlauf"
+      },
+      {
+        "wort": "beginnen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شروع شدن",
+          "en": "to begin"
+        },
+        "id_ref": "verb_beginnen"
+      },
+      {
+        "wort": "die Brille",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عینک",
+          "en": "glasses"
+        },
+        "id_ref": "nomen_brille"
+      },
+      {
+        "wort": "das Kino",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سینما",
+          "en": "cinema"
+        },
+        "id_ref": "nomen_kino"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

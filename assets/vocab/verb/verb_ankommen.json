@@ -1,0 +1,203 @@
+{
+  "schema": "3.0",
+  "id": "verb_ankommen",
+  "wort": "ankommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "رسیدن",
+      "مورد استقبال قرار گرفتن",
+      "بستگی داشتن"
+    ],
+    "en": [
+      "to arrive",
+      "to go down well",
+      "to depend"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Reisen",
+    "Alltag"
+  ],
+  "ipa": "ˈanˌkɔmən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Wann kommt der Zug an?",
+      "uebersetzung": {
+        "fa": "قطار کی می‌رسد؟",
+        "en": "When does the train arrive?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ob wir draußen feiern können, kommt darauf an, wie das Wetter am Samstag wird.",
+      "uebersetzung": {
+        "fa": "اینکه بتوانیم بیرون جشن بگیریم بستگی دارد به اینکه هوای شنبه چطور باشد.",
+        "en": "Whether we can celebrate outside depends on what the weather is like on Saturday."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "eintreffen",
+      "uebersetzung": {
+        "fa": "رسیدن (رسمی)",
+        "en": "to arrive"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "abfahren",
+      "uebersetzung": {
+        "fa": "حرکت کردن",
+        "en": "to depart"
+      }
+    },
+    {
+      "wort": "losfahren",
+      "uebersetzung": {
+        "fa": "راه افتادن",
+        "en": "to set off"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (پیشوند: به سوی) + kommen (آمدن)",
+    "en": "an- (prefix: towards) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Akk ankommen",
+        "bedeutung": "von etwas abhängen (unpersönlich: es)",
+        "beispiel": "Es kommt auf dich an.",
+        "uebersetzung": {
+          "fa": "بستگی به تو دارد.",
+          "en": "It depends on you."
+        }
+      },
+      {
+        "muster": "bei + Dat gut ankommen",
+        "bedeutung": "bei jemandem Gefallen finden",
+        "beispiel": "Der Film kam beim Publikum gut an.",
+        "uebersetzung": {
+          "fa": "فیلم مورد استقبال تماشاگران قرار گرفت.",
+          "en": "The film went down well with the audience."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ankommen",
+      "praeteritum": "kam an",
+      "partizip2": "angekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme an",
+        "du": "kommst an",
+        "er_sie_es": "kommt an",
+        "wir": "kommen an",
+        "ihr": "kommt an",
+        "sie_Sie": "kommen an"
+      },
+      "praeteritum": {
+        "ich": "kam an",
+        "du": "kamst an",
+        "er_sie_es": "kam an",
+        "wir": "kamen an",
+        "ihr": "kamt an",
+        "sie_Sie": "kamen an"
+      },
+      "konjunktiv1": {
+        "ich": "komme an",
+        "du": "kommest an",
+        "er_sie_es": "komme an",
+        "wir": "kommen an",
+        "ihr": "kommet an",
+        "sie_Sie": "kommen an"
+      },
+      "konjunktiv2": {
+        "ich": "käme an",
+        "du": "kämest an",
+        "er_sie_es": "käme an",
+        "wir": "kämen an",
+        "ihr": "kämet an",
+        "sie_Sie": "kämen an"
+      },
+      "imperativ": {
+        "du": "Komm an!",
+        "ihr": "Kommt an!",
+        "Sie": "Kommen Sie an!"
+      }
+    },
+    "partizip1": "ankommend",
+    "nominalisierung": "die Ankunft"
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "die Ankunft",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ورود، رسیدن",
+          "en": "arrival"
+        },
+        "id_ref": "nomen_ankunft"
+      },
+      {
+        "wort": "abfahren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حرکت کردن",
+          "en": "to depart"
+        },
+        "id_ref": "verb_abfahren"
+      },
+      {
+        "wort": "der Bahnhof",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ایستگاه قطار",
+          "en": "station"
+        },
+        "id_ref": "nomen_bahnhof"
+      },
+      {
+        "wort": "pünktlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سر وقت",
+          "en": "punctual"
+        },
+        "id_ref": "adjektiv_puenktlich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

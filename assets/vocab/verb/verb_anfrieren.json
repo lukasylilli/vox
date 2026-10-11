@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_anfrieren",
+  "wort": "anfrieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "یخ زدن و چسبیدن (به چیزی)"
+    ],
+    "en": [
+      "to freeze onto",
+      "to freeze slightly"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wetter"
+  ],
+  "ipa": "ˈanˌfʁiːʁən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Eis friert am Fenster an.",
+      "uebersetzung": {
+        "fa": "یخ روی پنجره می‌بندد و می‌چسبد.",
+        "en": "The ice freezes onto the window."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Über Nacht war die Wäsche an der Leine angefroren, sodass man sie kaum abnehmen konnte.",
+      "uebersetzung": {
+        "fa": "در طول شب لباس‌ها روی بند یخ زده و چسبیده بودند، طوری که به‌سختی برداشته می‌شدند.",
+        "en": "Overnight the washing had frozen onto the line, so that you could hardly take it down."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "festfrieren",
+      "uebersetzung": {
+        "fa": "یخ زدن و چسبیدن",
+        "en": "to freeze solid"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "auftauen",
+      "uebersetzung": {
+        "fa": "آب شدن یخ",
+        "en": "to thaw"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (پیشوند: چسبیدن به) + frieren (یخ زدن)",
+    "en": "an- (prefix: onto) + frieren (to freeze)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "an + Dat anfrieren",
+        "bedeutung": "durch Frost an etwas festkleben",
+        "beispiel": "Die Zunge ist am Metall angefroren.",
+        "uebersetzung": {
+          "fa": "زبان به فلز یخ زد و چسبید.",
+          "en": "The tongue froze to the metal."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "anfrieren",
+      "praeteritum": "fror an",
+      "partizip2": "angefroren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "friere an",
+        "du": "frierst an",
+        "er_sie_es": "friert an",
+        "wir": "frieren an",
+        "ihr": "friert an",
+        "sie_Sie": "frieren an"
+      },
+      "praeteritum": {
+        "ich": "fror an",
+        "du": "frorst an",
+        "er_sie_es": "fror an",
+        "wir": "froren an",
+        "ihr": "frort an",
+        "sie_Sie": "froren an"
+      },
+      "konjunktiv1": {
+        "ich": "friere an",
+        "du": "frierest an",
+        "er_sie_es": "friere an",
+        "wir": "frieren an",
+        "ihr": "frieret an",
+        "sie_Sie": "frieren an"
+      },
+      "konjunktiv2": {
+        "ich": "fröre an",
+        "du": "frörest an",
+        "er_sie_es": "fröre an",
+        "wir": "frören an",
+        "ihr": "fröret an",
+        "sie_Sie": "frören an"
+      },
+      "imperativ": {
+        "du": "Frier an!",
+        "ihr": "Friert an!",
+        "Sie": "Frieren Sie an!"
+      }
+    },
+    "partizip1": "anfrierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "frieren",
+    "woerter": [
+      {
+        "wort": "frieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "یخ زدن",
+          "en": "to freeze"
+        },
+        "id_ref": "verb_frieren"
+      },
+      {
+        "wort": "das Eis",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "یخ",
+          "en": "ice"
+        },
+        "id_ref": "nomen_eis"
+      },
+      {
+        "wort": "der Frost",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "یخبندان",
+          "en": "frost"
+        },
+        "id_ref": "nomen_frost"
+      },
+      {
+        "wort": "auftauen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آب شدن",
+          "en": "to thaw"
+        },
+        "id_ref": "verb_auftauen"
+      },
+      {
+        "wort": "kalt",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سرد",
+          "en": "cold"
+        },
+        "id_ref": "adjektiv_kalt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

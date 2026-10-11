@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_anhaben",
+  "wort": "anhaben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به تن داشتن، پوشیده بودن"
+    ],
+    "en": [
+      "to have on",
+      "to wear"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Kleidung"
+  ],
+  "ipa": "ˈanˌhaːbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Was hast du heute an?",
+      "uebersetzung": {
+        "fa": "امروز چه پوشیده‌ای؟",
+        "en": "What are you wearing today?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bei der Hochzeit hatte sie ein blaues Kleid an, das ihre Großmutter genäht hatte.",
+      "uebersetzung": {
+        "fa": "در عروسی لباسی آبی به تن داشت که مادربزرگش دوخته بود.",
+        "en": "At the wedding she wore a blue dress that her grandmother had sewn."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "tragen",
+      "uebersetzung": {
+        "fa": "پوشیدن",
+        "en": "to wear"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (پیشوند: بر تن) + haben (داشتن)",
+    "en": "an- (prefix: on) + haben (to have)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem nichts anhaben können",
+        "bedeutung": "jemandem nicht schaden können",
+        "beispiel": "Die Kälte kann ihm nichts anhaben.",
+        "uebersetzung": {
+          "fa": "سرما نمی‌تواند به او آسیبی بزند.",
+          "en": "The cold can't harm him."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "anhaben",
+      "praeteritum": "hatte an",
+      "partizip2": "angehabt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "habe an",
+        "du": "hast an",
+        "er_sie_es": "hat an",
+        "wir": "haben an",
+        "ihr": "habt an",
+        "sie_Sie": "haben an"
+      },
+      "praeteritum": {
+        "ich": "hatte an",
+        "du": "hattest an",
+        "er_sie_es": "hatte an",
+        "wir": "hatten an",
+        "ihr": "hattet an",
+        "sie_Sie": "hatten an"
+      },
+      "konjunktiv1": {
+        "ich": "habe an",
+        "du": "habest an",
+        "er_sie_es": "habe an",
+        "wir": "haben an",
+        "ihr": "habet an",
+        "sie_Sie": "haben an"
+      },
+      "konjunktiv2": {
+        "ich": "hätte an",
+        "du": "hättest an",
+        "er_sie_es": "hätte an",
+        "wir": "hätten an",
+        "ihr": "hättet an",
+        "sie_Sie": "hätten an"
+      },
+      "imperativ": {
+        "du": "Hab an!",
+        "ihr": "Habt an!",
+        "Sie": "Haben Sie an!"
+      }
+    },
+    "partizip1": "anhabend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "haben",
+    "woerter": [
+      {
+        "wort": "haben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "داشتن",
+          "en": "to have"
+        },
+        "id_ref": "verb_haben"
+      },
+      {
+        "wort": "tragen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پوشیدن، حمل کردن",
+          "en": "to wear, to carry"
+        },
+        "id_ref": "verb_tragen"
+      },
+      {
+        "wort": "anziehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پوشیدن",
+          "en": "to put on"
+        },
+        "id_ref": "verb_anziehen"
+      },
+      {
+        "wort": "das Kleid",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پیراهن زنانه",
+          "en": "dress"
+        },
+        "id_ref": "nomen_kleid"
+      },
+      {
+        "wort": "die Kleidung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "لباس",
+          "en": "clothing"
+        },
+        "id_ref": "nomen_kleidung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

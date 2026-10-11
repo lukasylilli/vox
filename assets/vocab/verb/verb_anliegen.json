@@ -1,0 +1,167 @@
+{
+  "schema": "3.0",
+  "id": "verb_anliegen",
+  "wort": "anliegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "چسبان بودن (لباس)",
+      "در دست بودن (کار)"
+    ],
+    "en": [
+      "to fit tightly",
+      "to be pending"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kleidung",
+    "Arbeit"
+  ],
+  "ipa": "ˈanˌliːɡn̩",
+  "anmerkung": "Umgangssprachlich «Was liegt an?» (Was ist zu tun?). Süddt./österr. Perfekt mit sein. Das Nomen «das Anliegen» (Bitte, Wunsch) hat eigene Bedeutung — eigene Karte.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Hose liegt eng an.",
+      "uebersetzung": {
+        "fa": "شلوار تنگ و چسبان است.",
+        "en": "The trousers are tight-fitting."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Heute liegt im Büro viel an, deshalb komme ich erst spät nach Hause.",
+      "uebersetzung": {
+        "fa": "امروز در دفتر کار زیادی در دست است، برای همین دیر به خانه می‌آیم.",
+        "en": "There is a lot on at the office today, so I won't get home until late."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anstehen",
+      "uebersetzung": {
+        "fa": "در پیش بودن",
+        "en": "to be pending"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (پیشوند: به) + liegen (قرار داشتن، خوابیدن)",
+    "en": "an- (prefix: against) + liegen (to lie)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "anliegen",
+      "praeteritum": "lag an",
+      "partizip2": "angelegen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "liege an",
+        "du": "liegst an",
+        "er_sie_es": "liegt an",
+        "wir": "liegen an",
+        "ihr": "liegt an",
+        "sie_Sie": "liegen an"
+      },
+      "praeteritum": {
+        "ich": "lag an",
+        "du": "lagst an",
+        "er_sie_es": "lag an",
+        "wir": "lagen an",
+        "ihr": "lagt an",
+        "sie_Sie": "lagen an"
+      },
+      "konjunktiv1": {
+        "ich": "liege an",
+        "du": "liegest an",
+        "er_sie_es": "liege an",
+        "wir": "liegen an",
+        "ihr": "lieget an",
+        "sie_Sie": "liegen an"
+      },
+      "konjunktiv2": {
+        "ich": "läge an",
+        "du": "lägest an",
+        "er_sie_es": "läge an",
+        "wir": "lägen an",
+        "ihr": "läget an",
+        "sie_Sie": "lägen an"
+      },
+      "imperativ": {
+        "du": "Lieg an!",
+        "ihr": "Liegt an!",
+        "Sie": "Liegen Sie an!"
+      }
+    },
+    "partizip1": "anliegend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "liegen",
+    "woerter": [
+      {
+        "wort": "liegen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قرار داشتن",
+          "en": "to lie"
+        },
+        "id_ref": "verb_liegen"
+      },
+      {
+        "wort": "das Anliegen",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "درخواست، دغدغه",
+          "en": "concern, request"
+        },
+        "id_ref": "nomen_anliegen"
+      },
+      {
+        "wort": "eng",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تنگ",
+          "en": "tight"
+        },
+        "id_ref": "adjektiv_eng"
+      },
+      {
+        "wort": "anstehen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "در پیش بودن",
+          "en": "to be pending"
+        },
+        "id_ref": "verb_anstehen"
+      },
+      {
+        "wort": "die Aufgabe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "وظیفه",
+          "en": "task"
+        },
+        "id_ref": "nomen_aufgabe"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

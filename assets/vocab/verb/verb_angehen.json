@@ -1,0 +1,194 @@
+{
+  "schema": "3.0",
+  "id": "verb_angehen",
+  "wort": "angehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "روشن شدن",
+      "مربوط بودن (به کسی)",
+      "پرداختن به (مشکل)"
+    ],
+    "en": [
+      "to come on (light)",
+      "to concern",
+      "to tackle"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Kommunikation"
+  ],
+  "ipa": "ˈanˌɡeːən",
+  "anmerkung": "«Das Licht ist angegangen» mit sein; «jemanden/etwas angehen» (betreffen, in Angriff nehmen) im Perfekt meist mit haben.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Licht geht automatisch an.",
+      "uebersetzung": {
+        "fa": "چراغ خودکار روشن می‌شود.",
+        "en": "The light comes on automatically."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Das geht dich nichts an, denn es ist eine Sache zwischen mir und meinem Bruder.",
+      "uebersetzung": {
+        "fa": "این به تو ربطی ندارد، چون موضوعی بین من و برادرم است.",
+        "en": "That's none of your business, because it is a matter between me and my brother."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "betreffen",
+      "uebersetzung": {
+        "fa": "مربوط بودن",
+        "en": "to concern"
+      }
+    },
+    {
+      "wort": "anpacken",
+      "uebersetzung": {
+        "fa": "دست به کار شدن",
+        "en": "to tackle"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ausgehen",
+      "uebersetzung": {
+        "fa": "خاموش شدن",
+        "en": "to go out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (پیشوند: آغاز؛ به سوی) + gehen (رفتن)",
+    "en": "an- (prefix: start; towards) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "gegen + Akk angehen",
+        "bedeutung": "gegen etwas kämpfen",
+        "beispiel": "Wir müssen gegen den Lärm angehen.",
+        "uebersetzung": {
+          "fa": "باید با این سروصدا مقابله کنیم.",
+          "en": "We have to fight against the noise."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "angehen",
+      "praeteritum": "ging an",
+      "partizip2": "angegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe an",
+        "du": "gehst an",
+        "er_sie_es": "geht an",
+        "wir": "gehen an",
+        "ihr": "geht an",
+        "sie_Sie": "gehen an"
+      },
+      "praeteritum": {
+        "ich": "ging an",
+        "du": "gingst an",
+        "er_sie_es": "ging an",
+        "wir": "gingen an",
+        "ihr": "gingt an",
+        "sie_Sie": "gingen an"
+      },
+      "konjunktiv1": {
+        "ich": "gehe an",
+        "du": "gehest an",
+        "er_sie_es": "gehe an",
+        "wir": "gehen an",
+        "ihr": "gehet an",
+        "sie_Sie": "gehen an"
+      },
+      "konjunktiv2": {
+        "ich": "ginge an",
+        "du": "gingest an",
+        "er_sie_es": "ginge an",
+        "wir": "gingen an",
+        "ihr": "ginget an",
+        "sie_Sie": "gingen an"
+      },
+      "imperativ": {
+        "du": "Geh an!",
+        "ihr": "Geht an!",
+        "Sie": "Gehen Sie an!"
+      }
+    },
+    "partizip1": "angehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "betreffen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مربوط بودن",
+          "en": "to concern"
+        },
+        "id_ref": "verb_betreffen"
+      },
+      {
+        "wort": "das Licht",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چراغ، نور",
+          "en": "light"
+        },
+        "id_ref": "nomen_licht"
+      },
+      {
+        "wort": "ausgehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خاموش شدن؛ بیرون رفتن",
+          "en": "to go out"
+        },
+        "id_ref": "verb_ausgehen"
+      },
+      {
+        "wort": "das Problem",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مشکل",
+          "en": "problem"
+        },
+        "id_ref": "nomen_problem"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,167 @@
+{
+  "schema": "3.0",
+  "id": "verb_anfressen",
+  "wort": "anfressen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جویدن و خراب کردن",
+      "خوردن تا چاق شدن (عامیانه)"
+    ],
+    "en": [
+      "to nibble at",
+      "to eat into"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Tiere",
+    "Umgangssprache"
+  ],
+  "ipa": "ˈanˌfʁɛsn̩",
+  "anmerkung": "Umgangssprachlich: «sich einen Bauch anfressen». Das Partizip «angefressen» (österr. ugs. = verärgert) ist auch eigenes Adjektiv.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Mäuse fressen das Brot an.",
+      "uebersetzung": {
+        "fa": "موش‌ها نان را می‌جوند.",
+        "en": "The mice nibble at the bread."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Rost hat das alte Metall so stark angefressen, dass das Geländer ersetzt werden muss.",
+      "uebersetzung": {
+        "fa": "زنگ فلز قدیمی را آن‌قدر خورده که نرده باید عوض شود.",
+        "en": "The rust has eaten into the old metal so badly that the railing has to be replaced."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "annagen",
+      "uebersetzung": {
+        "fa": "جویدن",
+        "en": "to gnaw at"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (پیشوند: آغاز، بخشی) + fressen (خوردن حیوان)",
+    "en": "an- (prefix: partly) + fressen (to eat, of animals)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "anfressen",
+      "praeteritum": "fraß an",
+      "partizip2": "angefressen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fresse an",
+        "du": "frisst an",
+        "er_sie_es": "frisst an",
+        "wir": "fressen an",
+        "ihr": "fresst an",
+        "sie_Sie": "fressen an"
+      },
+      "praeteritum": {
+        "ich": "fraß an",
+        "du": "fraßest an",
+        "er_sie_es": "fraß an",
+        "wir": "fraßen an",
+        "ihr": "fraßt an",
+        "sie_Sie": "fraßen an"
+      },
+      "konjunktiv1": {
+        "ich": "fresse an",
+        "du": "fressest an",
+        "er_sie_es": "fresse an",
+        "wir": "fressen an",
+        "ihr": "fresset an",
+        "sie_Sie": "fressen an"
+      },
+      "konjunktiv2": {
+        "ich": "fräße an",
+        "du": "fräßest an",
+        "er_sie_es": "fräße an",
+        "wir": "fräßen an",
+        "ihr": "fräßet an",
+        "sie_Sie": "fräßen an"
+      },
+      "imperativ": {
+        "du": "Friss an!",
+        "ihr": "Fresst an!",
+        "Sie": "Fressen Sie an!"
+      }
+    },
+    "partizip1": "anfressend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fressen",
+    "woerter": [
+      {
+        "wort": "fressen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خوردن (حیوان)",
+          "en": "to eat (animals)"
+        },
+        "id_ref": "verb_fressen"
+      },
+      {
+        "wort": "die Maus",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "موش",
+          "en": "mouse"
+        },
+        "id_ref": "nomen_maus"
+      },
+      {
+        "wort": "der Rost",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زنگ (آهن)",
+          "en": "rust"
+        },
+        "id_ref": "nomen_rost"
+      },
+      {
+        "wort": "angefressen",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دلخور (عامیانه، اتریش)",
+          "en": "annoyed (colloquial)"
+        },
+        "id_ref": "adjektiv_angefressen"
+      },
+      {
+        "wort": "nagen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "جویدن",
+          "en": "to gnaw"
+        },
+        "id_ref": "verb_nagen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

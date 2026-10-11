@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_angreifen",
+  "wort": "angreifen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "حمله کردن",
+      "آسیب زدن (به سلامتی)",
+      "دست زدن (اتریش)"
+    ],
+    "en": [
+      "to attack",
+      "to affect",
+      "to touch (Austrian)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Konflikt",
+    "Gesundheit",
+    "Sport"
+  ],
+  "ipa": "ˈanˌɡʁaɪ̯fn̩",
+  "anmerkung": "Österreichisch umgangssprachlich auch «anfassen, berühren»: «Nicht angreifen!»",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hund greift die Katze an.",
+      "uebersetzung": {
+        "fa": "سگ به گربه حمله می‌کند.",
+        "en": "The dog attacks the cat."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die lange Krankheit hat sein Herz angegriffen, deshalb muss er sich jetzt schonen.",
+      "uebersetzung": {
+        "fa": "بیماری طولانی به قلبش آسیب زده، برای همین حالا باید استراحت کند.",
+        "en": "The long illness has affected his heart, so he has to take it easy now."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "attackieren",
+      "uebersetzung": {
+        "fa": "حمله کردن",
+        "en": "to attack"
+      }
+    },
+    {
+      "wort": "schädigen",
+      "uebersetzung": {
+        "fa": "آسیب زدن",
+        "en": "to damage"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verteidigen",
+      "uebersetzung": {
+        "fa": "دفاع کردن",
+        "en": "to defend"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (پیشوند: به سوی) + greifen (چنگ زدن)",
+    "en": "an- (prefix: towards) + greifen (to grab)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "angreifen",
+      "praeteritum": "griff an",
+      "partizip2": "angegriffen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "greife an",
+        "du": "greifst an",
+        "er_sie_es": "greift an",
+        "wir": "greifen an",
+        "ihr": "greift an",
+        "sie_Sie": "greifen an"
+      },
+      "praeteritum": {
+        "ich": "griff an",
+        "du": "griffst an",
+        "er_sie_es": "griff an",
+        "wir": "griffen an",
+        "ihr": "grifft an",
+        "sie_Sie": "griffen an"
+      },
+      "konjunktiv1": {
+        "ich": "greife an",
+        "du": "greifest an",
+        "er_sie_es": "greife an",
+        "wir": "greifen an",
+        "ihr": "greifet an",
+        "sie_Sie": "greifen an"
+      },
+      "konjunktiv2": {
+        "ich": "griffe an",
+        "du": "griffest an",
+        "er_sie_es": "griffe an",
+        "wir": "griffen an",
+        "ihr": "griffet an",
+        "sie_Sie": "griffen an"
+      },
+      "imperativ": {
+        "du": "Greif an!",
+        "ihr": "Greift an!",
+        "Sie": "Greifen Sie an!"
+      }
+    },
+    "partizip1": "angreifend",
+    "nominalisierung": "der Angriff"
+  },
+  "wortnetz": {
+    "grundwort": "greifen",
+    "woerter": [
+      {
+        "wort": "greifen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چنگ زدن",
+          "en": "to grab"
+        },
+        "id_ref": "verb_greifen"
+      },
+      {
+        "wort": "der Angriff",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حمله",
+          "en": "attack"
+        },
+        "id_ref": "nomen_angriff"
+      },
+      {
+        "wort": "verteidigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دفاع کردن",
+          "en": "to defend"
+        },
+        "id_ref": "verb_verteidigen"
+      },
+      {
+        "wort": "die Gesundheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سلامتی",
+          "en": "health"
+        },
+        "id_ref": "nomen_gesundheit"
+      },
+      {
+        "wort": "angreifbar",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آسیب‌پذیر",
+          "en": "vulnerable"
+        },
+        "id_ref": "adjektiv_angreifbar"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

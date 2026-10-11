@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_anfechten",
+  "wort": "anfechten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اعتراض کردن (قانونی)",
+      "به چالش کشیدن"
+    ],
+    "en": [
+      "to contest",
+      "to challenge"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht"
+  ],
+  "ipa": "ˈanˌfɛçtn̩",
+  "anmerkung": "Rechtssprache; gehoben auch «Das ficht mich nicht an» (das stört mich nicht).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er ficht das Urteil an.",
+      "uebersetzung": {
+        "fa": "او به حکم اعتراض می‌کند.",
+        "en": "He is contesting the verdict."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Partei hat das Wahlergebnis angefochten, weil es angeblich Fehler bei der Auszählung gab.",
+      "uebersetzung": {
+        "fa": "حزب به نتیجه‌ی انتخابات اعتراض کرد، چون ظاهراً در شمارش آرا اشتباه شده بود.",
+        "en": "The party contested the election result because there were allegedly errors in the count."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anzweifeln",
+      "uebersetzung": {
+        "fa": "تردید کردن",
+        "en": "to question"
+      }
+    },
+    {
+      "wort": "Einspruch erheben",
+      "uebersetzung": {
+        "fa": "اعتراض کردن",
+        "en": "to object"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "anerkennen",
+      "uebersetzung": {
+        "fa": "پذیرفتن",
+        "en": "to accept"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (پیشوند: به سوی) + fechten (شمشیربازی کردن، جنگیدن)",
+    "en": "an- (prefix: against) + fechten (to fence, to fight)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "anfechten",
+      "praeteritum": "focht an",
+      "partizip2": "angefochten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fechte an",
+        "du": "fichtst an",
+        "er_sie_es": "ficht an",
+        "wir": "fechten an",
+        "ihr": "fechtet an",
+        "sie_Sie": "fechten an"
+      },
+      "praeteritum": {
+        "ich": "focht an",
+        "du": "fochtest an",
+        "er_sie_es": "focht an",
+        "wir": "fochten an",
+        "ihr": "fochtet an",
+        "sie_Sie": "fochten an"
+      },
+      "konjunktiv1": {
+        "ich": "fechte an",
+        "du": "fechtest an",
+        "er_sie_es": "fechte an",
+        "wir": "fechten an",
+        "ihr": "fechtet an",
+        "sie_Sie": "fechten an"
+      },
+      "konjunktiv2": {
+        "ich": "föchte an",
+        "du": "föchtest an",
+        "er_sie_es": "föchte an",
+        "wir": "föchten an",
+        "ihr": "föchtet an",
+        "sie_Sie": "föchten an"
+      },
+      "imperativ": {
+        "du": "Ficht an!",
+        "ihr": "Fechtet an!",
+        "Sie": "Fechten Sie an!"
+      }
+    },
+    "partizip1": "anfechtend",
+    "nominalisierung": "die Anfechtung"
+  },
+  "wortnetz": {
+    "grundwort": "fechten",
+    "woerter": [
+      {
+        "wort": "fechten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شمشیربازی کردن",
+          "en": "to fence"
+        },
+        "id_ref": "verb_fechten"
+      },
+      {
+        "wort": "das Urteil",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حکم",
+          "en": "verdict"
+        },
+        "id_ref": "nomen_urteil"
+      },
+      {
+        "wort": "der Einspruch",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اعتراض",
+          "en": "objection"
+        },
+        "id_ref": "nomen_einspruch"
+      },
+      {
+        "wort": "das Gericht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دادگاه",
+          "en": "court"
+        },
+        "id_ref": "nomen_gericht"
+      },
+      {
+        "wort": "die Anfechtung",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "اعتراض (حقوقی)",
+          "en": "challenge"
+        },
+        "id_ref": "nomen_anfechtung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
