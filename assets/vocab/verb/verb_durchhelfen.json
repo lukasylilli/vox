@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_durchhelfen",
+  "wort": "durchhelfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کمک کردن (به کسی) تا از (دوره یا وضع دشواری) بگذرد",
+      "(sich durchhelfen) گلیم خود را از آب بیرون کشیدن"
+    ],
+    "en": [
+      "to help (someone) through",
+      "(sich) to get by, to manage"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Gesellschaft"
+  ],
+  "ipa": "ˈdʊʁçˌhɛlfn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Meine Freunde helfen mir durch die schwere Zeit durch.",
+      "uebersetzung": {
+        "fa": "دوستانم کمکم می‌کنند از این دوره‌ی سخت بگذرم.",
+        "en": "My friends help me through this difficult time."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als Student hat er sich mit kleinen Jobs durchgeholfen, bis er eine feste Stelle fand.",
+      "uebersetzung": {
+        "fa": "در دوران دانشجویی با کارهای کوچک گلیم خودش را از آب بیرون کشید تا اینکه کار ثابتی پیدا کرد.",
+        "en": "As a student he got by with small jobs until he found a permanent position."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "unterstützen",
+      "uebersetzung": {
+        "fa": "حمایت کردن",
+        "en": "to support"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "im Stich lassen",
+      "uebersetzung": {
+        "fa": "تنها گذاشتن، رها کردن",
+        "en": "to leave in the lurch"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "durch- (از میان) + helfen (کمک کردن)",
+    "en": "durch- (through) + helfen (to help)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "jemandem durch + Akk durchhelfen",
+        "bedeutung": "jemanden unterstützen, damit er etwas Schwieriges schafft",
+        "beispiel": "Sie hat mir durch die Prüfung durchgeholfen.",
+        "uebersetzung": {
+          "fa": "او کمکم کرد امتحان را با موفقیت بگذرانم.",
+          "en": "She helped me get through the exam."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "durchhelfen",
+      "praeteritum": "half durch",
+      "partizip2": "durchgeholfen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "helfe durch",
+        "du": "hilfst durch",
+        "er_sie_es": "hilft durch",
+        "wir": "helfen durch",
+        "ihr": "helft durch",
+        "sie_Sie": "helfen durch"
+      },
+      "praeteritum": {
+        "ich": "half durch",
+        "du": "halfst durch",
+        "er_sie_es": "half durch",
+        "wir": "halfen durch",
+        "ihr": "halft durch",
+        "sie_Sie": "halfen durch"
+      },
+      "konjunktiv1": {
+        "ich": "helfe durch",
+        "du": "helfest durch",
+        "er_sie_es": "helfe durch",
+        "wir": "helfen durch",
+        "ihr": "helfet durch",
+        "sie_Sie": "helfen durch"
+      },
+      "konjunktiv2": {
+        "ich": "hülfe durch",
+        "du": "hülfest durch",
+        "er_sie_es": "hülfe durch",
+        "wir": "hülfen durch",
+        "ihr": "hülfet durch",
+        "sie_Sie": "hülfen durch"
+      },
+      "imperativ": {
+        "du": "Hilf durch!",
+        "ihr": "Helft durch!",
+        "Sie": "Helfen Sie durch!"
+      }
+    },
+    "partizip1": "durchhelfend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "helfen",
+    "woerter": [
+      {
+        "wort": "helfen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک کردن",
+          "en": "to help"
+        },
+        "id_ref": "verb_helfen"
+      },
+      {
+        "wort": "die Hilfe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک",
+          "en": "help"
+        },
+        "id_ref": "nomen_hilfe"
+      },
+      {
+        "wort": "unterstützen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حمایت کردن",
+          "en": "to support"
+        },
+        "id_ref": "verb_unterstuetzen"
+      },
+      {
+        "wort": "durchkommen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "از پس برآمدن",
+          "en": "to get through"
+        },
+        "id_ref": "verb_durchkommen"
+      },
+      {
+        "wort": "schwierig",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سخت",
+          "en": "difficult"
+        },
+        "id_ref": "adjektiv_schwierig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

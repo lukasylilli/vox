@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_durchgiessen",
+  "wort": "durchgießen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "از میان (صافی و مانند آن) ریختن، صاف کردن"
+    ],
+    "en": [
+      "to pour through (a sieve, filter)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Küche",
+    "Haushalt"
+  ],
+  "ipa": "ˈdʊʁçˌɡiːsn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie gießt die Suppe durch ein Sieb durch.",
+      "uebersetzung": {
+        "fa": "او سوپ را از صافی رد می‌کند.",
+        "en": "She pours the soup through a sieve."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem der Tee fünf Minuten gezogen hat, gießt man ihn durch einen Filter durch.",
+      "uebersetzung": {
+        "fa": "بعد از اینکه چای پنج دقیقه دم کشید، آن را از صافی رد می‌کنند.",
+        "en": "After the tea has steeped for five minutes, you pour it through a filter."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abseihen",
+      "uebersetzung": {
+        "fa": "صاف کردن (مایع)",
+        "en": "to strain"
+      }
+    },
+    {
+      "wort": "filtern",
+      "uebersetzung": {
+        "fa": "صاف کردن، فیلتر کردن",
+        "en": "to filter"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "durch- (از میان) + gießen (ریختن (مایع))",
+    "en": "durch- (through) + gießen (to pour)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas durch + Akk durchgießen",
+        "bedeutung": "eine Flüssigkeit durch ein Sieb o. Ä. laufen lassen",
+        "beispiel": "Gieß die Brühe durch das Tuch durch.",
+        "uebersetzung": {
+          "fa": "آب‌گوشت را از پارچه رد کن.",
+          "en": "Pour the broth through the cloth."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "durchgießen",
+      "praeteritum": "goss durch",
+      "partizip2": "durchgegossen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gieße durch",
+        "du": "gießt durch",
+        "er_sie_es": "gießt durch",
+        "wir": "gießen durch",
+        "ihr": "gießt durch",
+        "sie_Sie": "gießen durch"
+      },
+      "praeteritum": {
+        "ich": "goss durch",
+        "du": "gossest durch",
+        "er_sie_es": "goss durch",
+        "wir": "gossen durch",
+        "ihr": "gosst durch",
+        "sie_Sie": "gossen durch"
+      },
+      "konjunktiv1": {
+        "ich": "gieße durch",
+        "du": "gießest durch",
+        "er_sie_es": "gieße durch",
+        "wir": "gießen durch",
+        "ihr": "gießet durch",
+        "sie_Sie": "gießen durch"
+      },
+      "konjunktiv2": {
+        "ich": "gösse durch",
+        "du": "gössest durch",
+        "er_sie_es": "gösse durch",
+        "wir": "gössen durch",
+        "ihr": "gösset durch",
+        "sie_Sie": "gössen durch"
+      },
+      "imperativ": {
+        "du": "Gieß durch!",
+        "ihr": "Gießt durch!",
+        "Sie": "Gießen Sie durch!"
+      }
+    },
+    "partizip1": "durchgießend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gießen",
+    "woerter": [
+      {
+        "wort": "gießen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریختن (مایع)",
+          "en": "to pour"
+        },
+        "id_ref": "verb_giessen"
+      },
+      {
+        "wort": "das Sieb",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صافی، الک",
+          "en": "sieve"
+        },
+        "id_ref": "nomen_sieb"
+      },
+      {
+        "wort": "filtern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صاف کردن",
+          "en": "to filter"
+        },
+        "id_ref": "verb_filtern"
+      },
+      {
+        "wort": "abgießen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آبکش کردن",
+          "en": "to drain"
+        },
+        "id_ref": "verb_abgiessen"
+      },
+      {
+        "wort": "die Flüssigkeit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مایع",
+          "en": "liquid"
+        },
+        "id_ref": "nomen_fluessigkeit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

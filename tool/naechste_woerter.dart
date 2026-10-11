@@ -978,6 +978,14 @@ const zurueckgestellt = <String>{
   'durcheinanderlaufen', // zurückgestellt (Regel 14/16): selten 2026-10-12
   'durchessen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-12
   'durchfahren', // zurückgestellt (Regel 14/16): trennbar UND untrennbar mit verschiedener Bedeutung — Symbol nicht eindeutig 2026-10-12
+  'durchflechten', // zurückgestellt (Regel 14/16): trennbar UND untrennbar mit verschiedener Bedeutung — Symbol nicht eindeutig 2026-10-11
+  'durchfliegen', // zurückgestellt (Regel 14/16): trennbar UND untrennbar mit verschiedener Bedeutung — Symbol nicht eindeutig 2026-10-11
+  'durchfließen', // zurückgestellt (Regel 14/16): trennbar UND untrennbar mit verschiedener Bedeutung — Symbol nicht eindeutig 2026-10-11
+  'durchfressen', // zurückgestellt (Regel 14/16): trennbar UND untrennbar mit verschiedener Bedeutung — Symbol nicht eindeutig 2026-10-11
+  'durchfrieren', // zurückgestellt (Regel 14/16): trennbar UND untrennbar mit verschiedener Bedeutung — Symbol nicht eindeutig 2026-10-11
+  'durchgären', // zurückgestellt (Regel 14/16): selten (Fachsprache) 2026-10-11
+  'durchgraben', // zurückgestellt (Regel 14/16): trennbar UND untrennbar mit verschiedener Bedeutung — Symbol nicht eindeutig 2026-10-11
+  'durchhauen', // zurückgestellt (Regel 14/16): trennbar UND untrennbar; Präteritum schwankt (haute/hieb) 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

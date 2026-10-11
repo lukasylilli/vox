@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_durchgehen",
+  "wort": "durchgehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "از میان (چیزی) گذشتن، عبور کردن",
+      "(متن یا موضوعی را) مرور و بررسی کردن",
+      "قبول شدن، تصویب شدن؛ (اسب) رم کردن"
+    ],
+    "en": [
+      "to go through, to pass through",
+      "to go over, to check",
+      "to be passed/accepted; (horse) to bolt"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Arbeit",
+    "Lernen"
+  ],
+  "ipa": "ˈdʊʁçˌɡeːən",
+  "anmerkung": "In der Bedeutung «prüfen» meist transitiv: einen Text (mit jemandem) durchgehen.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte gehen Sie durch die Tür links durch.",
+      "uebersetzung": {
+        "fa": "لطفاً از در سمت چپ عبور کنید.",
+        "en": "Please go through the door on the left."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bevor wir den Vertrag unterschreiben, gehen wir ihn noch einmal genau durch.",
+      "uebersetzung": {
+        "fa": "قبل از اینکه قرارداد را امضا کنیم، یک بار دیگر آن را دقیق مرور می‌کنیم.",
+        "en": "Before we sign the contract, we will go through it carefully once more."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "überprüfen",
+      "uebersetzung": {
+        "fa": "بررسی کردن",
+        "en": "to check"
+      }
+    },
+    {
+      "wort": "passieren",
+      "uebersetzung": {
+        "fa": "عبور کردن",
+        "en": "to pass"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "durch- (از میان) + gehen (رفتن)",
+    "en": "durch- (through) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit + Dat durchgehen",
+        "bedeutung": "(Gefühle, Pferd) außer Kontrolle geraten",
+        "beispiel": "Manchmal gehen die Nerven mit ihm durch.",
+        "uebersetzung": {
+          "fa": "گاهی اعصابش از کنترلش خارج می‌شود.",
+          "en": "Sometimes he loses his temper."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "durchgehen",
+      "praeteritum": "ging durch",
+      "partizip2": "durchgegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe durch",
+        "du": "gehst durch",
+        "er_sie_es": "geht durch",
+        "wir": "gehen durch",
+        "ihr": "geht durch",
+        "sie_Sie": "gehen durch"
+      },
+      "praeteritum": {
+        "ich": "ging durch",
+        "du": "gingst durch",
+        "er_sie_es": "ging durch",
+        "wir": "gingen durch",
+        "ihr": "gingt durch",
+        "sie_Sie": "gingen durch"
+      },
+      "konjunktiv1": {
+        "ich": "gehe durch",
+        "du": "gehest durch",
+        "er_sie_es": "gehe durch",
+        "wir": "gehen durch",
+        "ihr": "gehet durch",
+        "sie_Sie": "gehen durch"
+      },
+      "konjunktiv2": {
+        "ich": "ginge durch",
+        "du": "gingest durch",
+        "er_sie_es": "ginge durch",
+        "wir": "gingen durch",
+        "ihr": "ginget durch",
+        "sie_Sie": "gingen durch"
+      },
+      "imperativ": {
+        "du": "Geh durch!",
+        "ihr": "Geht durch!",
+        "Sie": "Gehen Sie durch!"
+      }
+    },
+    "partizip1": "durchgehend",
+    "nominalisierung": "der Durchgang"
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "der Durchgang",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گذرگاه",
+          "en": "passage"
+        },
+        "id_ref": "nomen_durchgang"
+      },
+      {
+        "wort": "durchlesen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "از اول تا آخر خواندن",
+          "en": "to read through"
+        },
+        "id_ref": "verb_durchlesen"
+      },
+      {
+        "wort": "überprüfen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بررسی کردن",
+          "en": "to check"
+        },
+        "id_ref": "verb_ueberpruefen"
+      },
+      {
+        "wort": "durchgehend",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیوسته، بدون وقفه",
+          "en": "continuous"
+        },
+        "id_ref": "adjektiv_durchgehend"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
