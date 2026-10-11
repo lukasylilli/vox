@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_fangen",
+  "wort": "fangen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گرفتن (توپ یا چیزی در حال حرکت)",
+      "(حیوان یا آدم فراری را) به دام انداختن، دستگیر کردن"
+    ],
+    "en": [
+      "to catch",
+      "to capture, to trap"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Sport",
+    "Tiere",
+    "Alltag"
+  ],
+  "ipa": "ˈfaŋən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Fang den Ball!",
+      "uebersetzung": {
+        "fa": "توپ را بگیر!",
+        "en": "Catch the ball!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Katze hat eine Maus gefangen und sie stolz vor die Tür gelegt.",
+      "uebersetzung": {
+        "fa": "گربه موشی گرفت و با غرور آن را جلوی در گذاشت.",
+        "en": "The cat caught a mouse and proudly put it in front of the door."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erwischen",
+      "uebersetzung": {
+        "fa": "گیر انداختن",
+        "en": "to catch"
+      }
+    },
+    {
+      "wort": "fassen",
+      "uebersetzung": {
+        "fa": "گرفتن، دستگیر کردن",
+        "en": "to catch"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "freilassen",
+      "uebersetzung": {
+        "fa": "آزاد کردن",
+        "en": "to release"
+      }
+    },
+    {
+      "wort": "werfen",
+      "uebersetzung": {
+        "fa": "پرتاب کردن",
+        "en": "to throw"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "fangen",
+      "praeteritum": "fing",
+      "partizip2": "gefangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fange",
+        "du": "fängst",
+        "er_sie_es": "fängt",
+        "wir": "fangen",
+        "ihr": "fangt",
+        "sie_Sie": "fangen"
+      },
+      "praeteritum": {
+        "ich": "fing",
+        "du": "fingst",
+        "er_sie_es": "fing",
+        "wir": "fingen",
+        "ihr": "fingt",
+        "sie_Sie": "fingen"
+      },
+      "konjunktiv1": {
+        "ich": "fange",
+        "du": "fangest",
+        "er_sie_es": "fange",
+        "wir": "fangen",
+        "ihr": "fanget",
+        "sie_Sie": "fangen"
+      },
+      "konjunktiv2": {
+        "ich": "finge",
+        "du": "fingest",
+        "er_sie_es": "finge",
+        "wir": "fingen",
+        "ihr": "finget",
+        "sie_Sie": "fingen"
+      },
+      "imperativ": {
+        "du": "Fang!",
+        "ihr": "Fangt!",
+        "Sie": "Fangen Sie!"
+      }
+    },
+    "partizip1": "fangend",
+    "nominalisierung": "der Fang"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Fang",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "صید",
+          "en": "catch"
+        },
+        "id_ref": "nomen_fang"
+      },
+      {
+        "wort": "der Gefangene",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زندانی، اسیر",
+          "en": "prisoner"
+        },
+        "id_ref": "nomen_gefangene"
+      },
+      {
+        "wort": "werfen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پرتاب کردن",
+          "en": "to throw"
+        },
+        "id_ref": "verb_werfen"
+      },
+      {
+        "wort": "der Ball",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "توپ",
+          "en": "ball"
+        },
+        "id_ref": "nomen_ball"
+      },
+      {
+        "wort": "anfangen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شروع کردن",
+          "en": "to begin"
+        },
+        "id_ref": "verb_anfangen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

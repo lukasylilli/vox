@@ -1,0 +1,193 @@
+{
+  "schema": "3.0",
+  "id": "verb_fernhalten",
+  "wort": "fernhalten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(کسی یا چیزی را از جایی) دور نگه داشتن",
+      "(sich fernhalten) از (کسی یا چیزی) دوری کردن"
+    ],
+    "en": [
+      "to keep away",
+      "(sich) to keep away from, to avoid"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Beziehungen",
+    "Sicherheit"
+  ],
+  "ipa": "ˈfɛʁnˌhaltn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Halte dich von ihm fern!",
+      "uebersetzung": {
+        "fa": "از او دوری کن!",
+        "en": "Keep away from him!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Medikamente sollte man immer so aufbewahren, dass man sie von kleinen Kindern fernhält.",
+      "uebersetzung": {
+        "fa": "داروها را همیشه باید طوری نگه داشت که از دسترس بچه‌های کوچک دور باشند.",
+        "en": "Medicines should always be stored so that they are kept away from small children."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "meiden",
+      "uebersetzung": {
+        "fa": "دوری کردن",
+        "en": "to avoid"
+      }
+    },
+    {
+      "wort": "abhalten",
+      "uebersetzung": {
+        "fa": "دور نگه داشتن",
+        "en": "to keep off"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sich nähern",
+      "uebersetzung": {
+        "fa": "نزدیک شدن",
+        "en": "to approach"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "fern- (دور) + halten (نگه داشتن)",
+    "en": "fern- (far, away) + halten (to hold)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "jemanden/etwas von + Dat fernhalten",
+        "bedeutung": "etwas nicht an etwas herankommen lassen",
+        "beispiel": "Ein Zaun hält die Rehe vom Garten fern.",
+        "uebersetzung": {
+          "fa": "یک نرده آهوها را از باغ دور نگه می‌دارد.",
+          "en": "A fence keeps the deer away from the garden."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "fernhalten",
+      "praeteritum": "hielt fern",
+      "partizip2": "ferngehalten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "halte fern",
+        "du": "hältst fern",
+        "er_sie_es": "hält fern",
+        "wir": "halten fern",
+        "ihr": "haltet fern",
+        "sie_Sie": "halten fern"
+      },
+      "praeteritum": {
+        "ich": "hielt fern",
+        "du": "hieltest fern",
+        "er_sie_es": "hielt fern",
+        "wir": "hielten fern",
+        "ihr": "hieltet fern",
+        "sie_Sie": "hielten fern"
+      },
+      "konjunktiv1": {
+        "ich": "halte fern",
+        "du": "haltest fern",
+        "er_sie_es": "halte fern",
+        "wir": "halten fern",
+        "ihr": "haltet fern",
+        "sie_Sie": "halten fern"
+      },
+      "konjunktiv2": {
+        "ich": "hielte fern",
+        "du": "hieltest fern",
+        "er_sie_es": "hielte fern",
+        "wir": "hielten fern",
+        "ihr": "hieltet fern",
+        "sie_Sie": "hielten fern"
+      },
+      "imperativ": {
+        "du": "Halt fern!",
+        "ihr": "Haltet fern!",
+        "Sie": "Halten Sie fern!"
+      }
+    },
+    "partizip1": "fernhaltend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "halten",
+    "woerter": [
+      {
+        "wort": "halten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to hold"
+        },
+        "id_ref": "verb_halten"
+      },
+      {
+        "wort": "fern",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دور",
+          "en": "far"
+        },
+        "id_ref": "adjektiv_fern"
+      },
+      {
+        "wort": "meiden",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دوری کردن",
+          "en": "to avoid"
+        },
+        "id_ref": "verb_meiden"
+      },
+      {
+        "wort": "der Abstand",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فاصله",
+          "en": "distance"
+        },
+        "id_ref": "nomen_abstand"
+      },
+      {
+        "wort": "schützen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "محافظت کردن",
+          "en": "to protect"
+        },
+        "id_ref": "verb_schuetzen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

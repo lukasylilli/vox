@@ -1025,6 +1025,13 @@ const zurueckgestellt = <String>{
   'erlaufen', // zurückgestellt (Regel 14/16): selten 2026-10-11
   'erlesen', // zurückgestellt (Regel 14/16): als Verb gehoben; meist Adjektiv «erlesen» 2026-10-11
   'erlügen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'erschrecken', // zurückgestellt (Regel 14/16): intransitiv stark (erschrak), transitiv schwach (erschreckte) — ein Symbol nicht eindeutig 2026-10-11
+  'fahen', // zurückgestellt (Regel 14/16): veraltet, selten 2026-10-11
+  'fahrenlassen', // zurückgestellt (Regel 14/16): amtliche Schreibung «fahren lassen» (getrennt) 2026-10-11
+  'fallenlassen', // zurückgestellt (Regel 14/16): Schreibung schwankt (fallen lassen / fallenlassen) 2026-10-11
+  'feilbieten', // zurückgestellt (Regel 14/16): veraltend, selten 2026-10-11
+  'feilhalten', // zurückgestellt (Regel 14/16): veraltend, selten 2026-10-11
+  'feinmahlen', // zurückgestellt (Regel 14/16): amtliche Schreibung «fein mahlen» (getrennt) 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

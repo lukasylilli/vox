@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_fallen",
+  "wort": "fallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "افتادن، زمین خوردن",
+      "(قیمت یا دما) پایین آمدن، کاهش یافتن",
+      "(در جنگ) کشته شدن"
+    ],
+    "en": [
+      "to fall",
+      "to drop, to fall (prices, temperature)",
+      "to be killed (in war)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Wirtschaft",
+    "Wetter"
+  ],
+  "ipa": "ˈfalən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Kind ist vom Fahrrad gefallen.",
+      "uebersetzung": {
+        "fa": "بچه از دوچرخه افتاد.",
+        "en": "The child fell off the bike."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "In der Nacht ist die Temperatur so stark gefallen, dass die Straßen vereist waren.",
+      "uebersetzung": {
+        "fa": "شب دما آن‌قدر پایین آمد که خیابان‌ها یخ زده بودند.",
+        "en": "During the night the temperature fell so sharply that the roads were icy."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "stürzen",
+      "uebersetzung": {
+        "fa": "افتادن، زمین خوردن",
+        "en": "to fall"
+      }
+    },
+    {
+      "wort": "sinken",
+      "uebersetzung": {
+        "fa": "کاهش یافتن",
+        "en": "to sink"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "steigen",
+      "uebersetzung": {
+        "fa": "بالا رفتن",
+        "en": "to rise"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "fallen",
+      "praeteritum": "fiel",
+      "partizip2": "gefallen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "falle",
+        "du": "fällst",
+        "er_sie_es": "fällt",
+        "wir": "fallen",
+        "ihr": "fallt",
+        "sie_Sie": "fallen"
+      },
+      "praeteritum": {
+        "ich": "fiel",
+        "du": "fielst",
+        "er_sie_es": "fiel",
+        "wir": "fielen",
+        "ihr": "fielt",
+        "sie_Sie": "fielen"
+      },
+      "konjunktiv1": {
+        "ich": "falle",
+        "du": "fallest",
+        "er_sie_es": "falle",
+        "wir": "fallen",
+        "ihr": "fallet",
+        "sie_Sie": "fallen"
+      },
+      "konjunktiv2": {
+        "ich": "fiele",
+        "du": "fielest",
+        "er_sie_es": "fiele",
+        "wir": "fielen",
+        "ihr": "fielet",
+        "sie_Sie": "fielen"
+      },
+      "imperativ": {
+        "du": "Fall!",
+        "ihr": "Fallt!",
+        "Sie": "Fallen Sie!"
+      }
+    },
+    "partizip1": "fallend",
+    "nominalisierung": "der Fall"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Fall",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "افتادن؛ مورد",
+          "en": "fall; case"
+        },
+        "id_ref": "nomen_fall"
+      },
+      {
+        "wort": "stürzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زمین خوردن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_stuerzen"
+      },
+      {
+        "wort": "steigen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بالا رفتن",
+          "en": "to rise"
+        },
+        "id_ref": "verb_steigen"
+      },
+      {
+        "wort": "sinken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پایین آمدن",
+          "en": "to sink"
+        },
+        "id_ref": "verb_sinken"
+      },
+      {
+        "wort": "hinfallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زمین خوردن",
+          "en": "to fall down"
+        },
+        "id_ref": "verb_hinfallen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

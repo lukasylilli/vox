@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "verb_essen",
+  "wort": "essen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خوردن، غذا خوردن"
+    ],
+    "en": [
+      "to eat"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Essen",
+    "Alltag"
+  ],
+  "ipa": "ˈɛsn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich esse gern Reis.",
+      "uebersetzung": {
+        "fa": "برنج دوست دارم.",
+        "en": "I like eating rice."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nachdem wir den ganzen Tag gewandert waren, haben wir am Abend so viel gegessen wie nie.",
+      "uebersetzung": {
+        "fa": "بعد از اینکه تمام روز پیاده‌روی کرده بودیم، شب آن‌قدر غذا خوردیم که هرگز نخورده بودیم.",
+        "en": "After we had been hiking all day, in the evening we ate more than ever before."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "speisen",
+      "uebersetzung": {
+        "fa": "(رسمی) غذا خوردن",
+        "en": "to dine"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hungern",
+      "uebersetzung": {
+        "fa": "گرسنگی کشیدن",
+        "en": "to go hungry"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "essen",
+      "praeteritum": "aß",
+      "partizip2": "gegessen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "esse",
+        "du": "isst",
+        "er_sie_es": "isst",
+        "wir": "essen",
+        "ihr": "esst",
+        "sie_Sie": "essen"
+      },
+      "praeteritum": {
+        "ich": "aß",
+        "du": "aßest",
+        "er_sie_es": "aß",
+        "wir": "aßen",
+        "ihr": "aßt",
+        "sie_Sie": "aßen"
+      },
+      "konjunktiv1": {
+        "ich": "esse",
+        "du": "essest",
+        "er_sie_es": "esse",
+        "wir": "essen",
+        "ihr": "esset",
+        "sie_Sie": "essen"
+      },
+      "konjunktiv2": {
+        "ich": "äße",
+        "du": "äßest",
+        "er_sie_es": "äße",
+        "wir": "äßen",
+        "ihr": "äßet",
+        "sie_Sie": "äßen"
+      },
+      "imperativ": {
+        "du": "Iss!",
+        "ihr": "Esst!",
+        "Sie": "Essen Sie!"
+      }
+    },
+    "partizip1": "essend",
+    "nominalisierung": "das Essen"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Essen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "غذا",
+          "en": "food, meal"
+        },
+        "id_ref": "nomen_essen"
+      },
+      {
+        "wort": "trinken",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نوشیدن",
+          "en": "to drink"
+        },
+        "id_ref": "verb_trinken"
+      },
+      {
+        "wort": "der Hunger",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گرسنگی",
+          "en": "hunger"
+        },
+        "id_ref": "nomen_hunger"
+      },
+      {
+        "wort": "kochen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آشپزی کردن",
+          "en": "to cook"
+        },
+        "id_ref": "verb_kochen"
+      },
+      {
+        "wort": "das Frühstück",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "صبحانه",
+          "en": "breakfast"
+        },
+        "id_ref": "nomen_fruehstueck"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

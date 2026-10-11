@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_fechten",
+  "wort": "fechten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(ورزش) شمشیربازی کردن",
+      "(ادبی) جنگیدن، مبارزه کردن (برای چیزی)"
+    ],
+    "en": [
+      "to fence",
+      "(literary) to fight"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Sport",
+    "Geschichte"
+  ],
+  "ipa": "ˈfɛçtn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mein Bruder ficht im Verein.",
+      "uebersetzung": {
+        "fa": "برادرم در باشگاه شمشیربازی می‌کند.",
+        "en": "My brother fences at a club."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Schon im Mittelalter haben Ritter mit schweren Schwertern gefochten, um ihre Ehre zu verteidigen.",
+      "uebersetzung": {
+        "fa": "از همان قرون وسطی شوالیه‌ها با شمشیرهای سنگین می‌جنگیدند تا از آبرویشان دفاع کنند.",
+        "en": "Even in the Middle Ages knights fought with heavy swords to defend their honour."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kämpfen",
+      "uebersetzung": {
+        "fa": "جنگیدن",
+        "en": "to fight"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "für + Akk fechten",
+        "bedeutung": "(gehoben) sich für etwas einsetzen",
+        "beispiel": "Sie hat ihr Leben lang für die Rechte der Frauen gefochten.",
+        "uebersetzung": {
+          "fa": "او تمام عمرش برای حقوق زنان مبارزه کرد.",
+          "en": "She fought for women's rights all her life."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "fechten",
+      "praeteritum": "focht",
+      "partizip2": "gefochten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fechte",
+        "du": "fichtst",
+        "er_sie_es": "ficht",
+        "wir": "fechten",
+        "ihr": "fechtet",
+        "sie_Sie": "fechten"
+      },
+      "praeteritum": {
+        "ich": "focht",
+        "du": "fochtest",
+        "er_sie_es": "focht",
+        "wir": "fochten",
+        "ihr": "fochtet",
+        "sie_Sie": "fochten"
+      },
+      "konjunktiv1": {
+        "ich": "fechte",
+        "du": "fechtest",
+        "er_sie_es": "fechte",
+        "wir": "fechten",
+        "ihr": "fechtet",
+        "sie_Sie": "fechten"
+      },
+      "konjunktiv2": {
+        "ich": "föchte",
+        "du": "föchtest",
+        "er_sie_es": "föchte",
+        "wir": "föchten",
+        "ihr": "föchtet",
+        "sie_Sie": "föchten"
+      },
+      "imperativ": {
+        "du": "Ficht!",
+        "ihr": "Fechtet!",
+        "Sie": "Fechten Sie!"
+      }
+    },
+    "partizip1": "fechtend",
+    "nominalisierung": "das Fechten"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "kämpfen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جنگیدن",
+          "en": "to fight"
+        },
+        "id_ref": "verb_kaempfen"
+      },
+      {
+        "wort": "das Schwert",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شمشیر",
+          "en": "sword"
+        },
+        "id_ref": "nomen_schwert"
+      },
+      {
+        "wort": "der Sport",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ورزش",
+          "en": "sport"
+        },
+        "id_ref": "nomen_sport"
+      },
+      {
+        "wort": "der Ritter",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شوالیه",
+          "en": "knight"
+        },
+        "id_ref": "nomen_ritter"
+      },
+      {
+        "wort": "verteidigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دفاع کردن",
+          "en": "to defend"
+        },
+        "id_ref": "verb_verteidigen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

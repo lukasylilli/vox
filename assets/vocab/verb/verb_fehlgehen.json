@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_fehlgehen",
+  "wort": "fehlgehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(ادبی) راه را گم کردن",
+      "(در فرض یا حدسی) اشتباه کردن"
+    ],
+    "en": [
+      "(literary) to go astray",
+      "to be mistaken (in an assumption)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Denken",
+    "Sprache (gehoben)"
+  ],
+  "ipa": "ˈfeːlˌɡeːən",
+  "anmerkung": "Gehoben.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Hier gehst du fehl.",
+      "uebersetzung": {
+        "fa": "اینجا اشتباه می‌کنی.",
+        "en": "You are mistaken here."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Man geht wohl nicht fehl in der Annahme, dass die Preise im nächsten Jahr weiter steigen.",
+      "uebersetzung": {
+        "fa": "احتمالاً اشتباه نیست اگر فرض کنیم قیمت‌ها سال آینده باز هم بالا می‌روند.",
+        "en": "One is probably not mistaken in assuming that prices will continue to rise next year."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich irren",
+      "uebersetzung": {
+        "fa": "اشتباه کردن",
+        "en": "to be mistaken"
+      }
+    },
+    {
+      "wort": "falschliegen",
+      "uebersetzung": {
+        "fa": "در اشتباه بودن",
+        "en": "to be wrong"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "fehl- (نادرست، خطا) + gehen (رفتن)",
+    "en": "fehl- (wrong, mis-) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in + Dat fehlgehen",
+        "bedeutung": "sich in etwas irren",
+        "beispiel": "Sie ging in ihrer Einschätzung nicht fehl.",
+        "uebersetzung": {
+          "fa": "در ارزیابی‌اش اشتباه نکرد.",
+          "en": "She was not wrong in her assessment."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "fehlgehen",
+      "praeteritum": "ging fehl",
+      "partizip2": "fehlgegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe fehl",
+        "du": "gehst fehl",
+        "er_sie_es": "geht fehl",
+        "wir": "gehen fehl",
+        "ihr": "geht fehl",
+        "sie_Sie": "gehen fehl"
+      },
+      "praeteritum": {
+        "ich": "ging fehl",
+        "du": "gingst fehl",
+        "er_sie_es": "ging fehl",
+        "wir": "gingen fehl",
+        "ihr": "gingt fehl",
+        "sie_Sie": "gingen fehl"
+      },
+      "konjunktiv1": {
+        "ich": "gehe fehl",
+        "du": "gehest fehl",
+        "er_sie_es": "gehe fehl",
+        "wir": "gehen fehl",
+        "ihr": "gehet fehl",
+        "sie_Sie": "gehen fehl"
+      },
+      "konjunktiv2": {
+        "ich": "ginge fehl",
+        "du": "gingest fehl",
+        "er_sie_es": "ginge fehl",
+        "wir": "gingen fehl",
+        "ihr": "ginget fehl",
+        "sie_Sie": "gingen fehl"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "fehlgehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "der Fehler",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اشتباه",
+          "en": "mistake"
+        },
+        "id_ref": "nomen_fehler"
+      },
+      {
+        "wort": "sich irren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اشتباه کردن",
+          "en": "to be mistaken"
+        },
+        "id_ref": "verb_sich_irren"
+      },
+      {
+        "wort": "die Annahme",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فرض",
+          "en": "assumption"
+        },
+        "id_ref": "nomen_annahme"
+      },
+      {
+        "wort": "falschliegen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "در اشتباه بودن",
+          "en": "to be wrong"
+        },
+        "id_ref": "verb_falschliegen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
