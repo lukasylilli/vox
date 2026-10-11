@@ -70,6 +70,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -103,6 +104,22 @@
         "er_sie_es": "verzieh",
         "wir": "verziehen",
         "ihr": "verzieht",
+        "sie_Sie": "verziehen"
+      },
+      "konjunktiv1": {
+        "ich": "verzeihe",
+        "du": "verzeihest",
+        "er_sie_es": "verzeihe",
+        "wir": "verzeihen",
+        "ihr": "verzeihet",
+        "sie_Sie": "verzeihen"
+      },
+      "konjunktiv2": {
+        "ich": "verziehe",
+        "du": "verziehest",
+        "er_sie_es": "verziehe",
+        "wir": "verziehen",
+        "ihr": "verziehet",
         "sie_Sie": "verziehen"
       },
       "imperativ": {

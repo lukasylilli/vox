@@ -77,6 +77,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -111,6 +112,22 @@
         "wir": "empfahlen",
         "ihr": "empfahlt",
         "sie_Sie": "empfahlen"
+      },
+      "konjunktiv1": {
+        "ich": "empfehle",
+        "du": "empfehlest",
+        "er_sie_es": "empfehle",
+        "wir": "empfehlen",
+        "ihr": "empfehlet",
+        "sie_Sie": "empfehlen"
+      },
+      "konjunktiv2": {
+        "ich": "empföhle",
+        "du": "empföhlest",
+        "er_sie_es": "empföhle",
+        "wir": "empföhlen",
+        "ihr": "empföhlet",
+        "sie_Sie": "empföhlen"
       },
       "imperativ": {
         "du": "Empfiehl!",

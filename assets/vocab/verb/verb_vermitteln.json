@@ -64,6 +64,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -92,6 +93,22 @@
         "sie_Sie": "vermitteln"
       },
       "praeteritum": {
+        "ich": "vermittelte",
+        "du": "vermitteltest",
+        "er_sie_es": "vermittelte",
+        "wir": "vermittelten",
+        "ihr": "vermitteltet",
+        "sie_Sie": "vermittelten"
+      },
+      "konjunktiv1": {
+        "ich": "vermittele",
+        "du": "vermittelest",
+        "er_sie_es": "vermittele",
+        "wir": "vermitteln",
+        "ihr": "vermittelet",
+        "sie_Sie": "vermitteln"
+      },
+      "konjunktiv2": {
         "ich": "vermittelte",
         "du": "vermitteltest",
         "er_sie_es": "vermittelte",

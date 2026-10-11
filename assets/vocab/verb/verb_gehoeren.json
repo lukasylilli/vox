@@ -54,6 +54,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -82,6 +83,22 @@
         "sie_Sie": "gehören"
       },
       "praeteritum": {
+        "ich": "gehörte",
+        "du": "gehörtest",
+        "er_sie_es": "gehörte",
+        "wir": "gehörten",
+        "ihr": "gehörtet",
+        "sie_Sie": "gehörten"
+      },
+      "konjunktiv1": {
+        "ich": "gehöre",
+        "du": "gehörest",
+        "er_sie_es": "gehöre",
+        "wir": "gehören",
+        "ihr": "gehöret",
+        "sie_Sie": "gehören"
+      },
+      "konjunktiv2": {
         "ich": "gehörte",
         "du": "gehörtest",
         "er_sie_es": "gehörte",

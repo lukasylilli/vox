@@ -57,6 +57,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -91,6 +92,22 @@
         "wir": "brachten",
         "ihr": "brachtet",
         "sie_Sie": "brachten"
+      },
+      "konjunktiv1": {
+        "ich": "bringe",
+        "du": "bringest",
+        "er_sie_es": "bringe",
+        "wir": "bringen",
+        "ihr": "bringet",
+        "sie_Sie": "bringen"
+      },
+      "konjunktiv2": {
+        "ich": "brächte",
+        "du": "brächtest",
+        "er_sie_es": "brächte",
+        "wir": "brächten",
+        "ihr": "brächtet",
+        "sie_Sie": "brächten"
       },
       "imperativ": {
         "du": "Bring!",

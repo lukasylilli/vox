@@ -46,6 +46,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -74,6 +75,22 @@
         "sie_Sie": "verdanken"
       },
       "praeteritum": {
+        "ich": "verdankte",
+        "du": "verdanktest",
+        "er_sie_es": "verdankte",
+        "wir": "verdankten",
+        "ihr": "verdanktet",
+        "sie_Sie": "verdankten"
+      },
+      "konjunktiv1": {
+        "ich": "verdanke",
+        "du": "verdankest",
+        "er_sie_es": "verdanke",
+        "wir": "verdanken",
+        "ihr": "verdanket",
+        "sie_Sie": "verdanken"
+      },
+      "konjunktiv2": {
         "ich": "verdankte",
         "du": "verdanktest",
         "er_sie_es": "verdankte",

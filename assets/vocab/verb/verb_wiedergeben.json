@@ -71,6 +71,7 @@
   "details": {
     "trennbar": true,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -105,6 +106,22 @@
         "wir": "gaben wieder",
         "ihr": "gabt wieder",
         "sie_Sie": "gaben wieder"
+      },
+      "konjunktiv1": {
+        "ich": "gebe wieder",
+        "du": "gebest wieder",
+        "er_sie_es": "gebe wieder",
+        "wir": "geben wieder",
+        "ihr": "gebet wieder",
+        "sie_Sie": "geben wieder"
+      },
+      "konjunktiv2": {
+        "ich": "gäbe wieder",
+        "du": "gäbest wieder",
+        "er_sie_es": "gäbe wieder",
+        "wir": "gäben wieder",
+        "ihr": "gäbet wieder",
+        "sie_Sie": "gäben wieder"
       },
       "imperativ": {
         "du": "Gib wieder!",

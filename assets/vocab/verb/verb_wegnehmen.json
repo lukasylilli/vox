@@ -68,6 +68,7 @@
   "details": {
     "trennbar": true,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -102,6 +103,22 @@
         "wir": "nahmen weg",
         "ihr": "nahmt weg",
         "sie_Sie": "nahmen weg"
+      },
+      "konjunktiv1": {
+        "ich": "nehme weg",
+        "du": "nehmest weg",
+        "er_sie_es": "nehme weg",
+        "wir": "nehmen weg",
+        "ihr": "nehmet weg",
+        "sie_Sie": "nehmen weg"
+      },
+      "konjunktiv2": {
+        "ich": "nähme weg",
+        "du": "nähmest weg",
+        "er_sie_es": "nähme weg",
+        "wir": "nähmen weg",
+        "ihr": "nähmet weg",
+        "sie_Sie": "nähmen weg"
       },
       "imperativ": {
         "du": "Nimm weg!",

@@ -8,6 +8,9 @@
 //          (falsche id, gespeichertes Perfekt, box≠1) wird normalisiert + gewarnt.
 import 'dart:convert';
 
+import '../../../core/wort/wort_form.dart';
+import 'vokab_formen.dart';
+
 const vokabWortarten = {
   'nomen', 'verb', 'adjektiv', 'artikel', 'pronomen',
   'numerale', 'praeposition', 'konjunktion', 'adverb', 'partikel',
@@ -147,12 +150,34 @@ VokabPruefung vokabPruefeKarte(Map<String, dynamic> roh) {
     warnungen.add('[$label] ${beispiele.length} Beispiele statt 2');
   }
   final stamm = _lueckenStamm(wortart, wort);
+  // Verben: der Satz zeigt meist eine KONJUGIERTE Form («ging», «rief … an»)
+  // — gilt als erkennbar, wenn ein Wort des Satzes eine Form der Karte ist
+  // (dieselbe Formenliste wie die Suche, Regel 16).
+  final verbFormen = wortart == 'verb'
+      ? {...formenAusKarte(karte), wortSchluessel(wort)}
+      : const <String>{};
+  bool verbFormImSatz(String satz) {
+    final w = satz
+        .split(RegExp(r'\s+'))
+        .map(wortSchluessel)
+        .where((t) => t.isNotEmpty)
+        .toList();
+    for (final t in w) {
+      if (verbFormen.contains(t)) return true;
+      for (final p in w) {
+        if (p != t && verbFormen.contains('$p$t')) return true;
+      }
+    }
+    return false;
+  }
+
   for (final b in beispiele) {
     final satz = (b as Map)['satz'] as String? ?? '';
     if (satz.isEmpty) {
       warnungen.add('[$label] Beispiel ohne satz');
     } else if (stamm.length >= 3 &&
-        !satz.toLowerCase().contains(stamm)) {
+        !satz.toLowerCase().contains(stamm) &&
+        !(wortart == 'verb' && verbFormImSatz(satz))) {
       warnungen.add(
           '[$label] Zielwort nicht erkennbar im Beispiel: "$satz" (Lückentext!)');
     }

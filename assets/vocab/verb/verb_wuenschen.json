@@ -51,6 +51,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -79,6 +80,22 @@
         "sie_Sie": "wünschen"
       },
       "praeteritum": {
+        "ich": "wünschte",
+        "du": "wünschtest",
+        "er_sie_es": "wünschte",
+        "wir": "wünschten",
+        "ihr": "wünschtet",
+        "sie_Sie": "wünschten"
+      },
+      "konjunktiv1": {
+        "ich": "wünsche",
+        "du": "wünschest",
+        "er_sie_es": "wünsche",
+        "wir": "wünschen",
+        "ihr": "wünschet",
+        "sie_Sie": "wünschen"
+      },
+      "konjunktiv2": {
         "ich": "wünschte",
         "du": "wünschtest",
         "er_sie_es": "wünschte",

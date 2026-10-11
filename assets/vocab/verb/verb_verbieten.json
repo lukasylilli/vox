@@ -63,6 +63,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -97,6 +98,22 @@
         "wir": "verboten",
         "ihr": "verbotet",
         "sie_Sie": "verboten"
+      },
+      "konjunktiv1": {
+        "ich": "verbiete",
+        "du": "verbietest",
+        "er_sie_es": "verbiete",
+        "wir": "verbieten",
+        "ihr": "verbietet",
+        "sie_Sie": "verbieten"
+      },
+      "konjunktiv2": {
+        "ich": "verböte",
+        "du": "verbötest",
+        "er_sie_es": "verböte",
+        "wir": "verböten",
+        "ihr": "verbötet",
+        "sie_Sie": "verböten"
       },
       "imperativ": {
         "du": "Verbiete!",

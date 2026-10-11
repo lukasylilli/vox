@@ -67,6 +67,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -95,6 +96,22 @@
         "sie_Sie": "reservieren"
       },
       "praeteritum": {
+        "ich": "reservierte",
+        "du": "reserviertest",
+        "er_sie_es": "reservierte",
+        "wir": "reservierten",
+        "ihr": "reserviertet",
+        "sie_Sie": "reservierten"
+      },
+      "konjunktiv1": {
+        "ich": "reserviere",
+        "du": "reservierest",
+        "er_sie_es": "reserviere",
+        "wir": "reservieren",
+        "ihr": "reservieret",
+        "sie_Sie": "reservieren"
+      },
+      "konjunktiv2": {
         "ich": "reservierte",
         "du": "reserviertest",
         "er_sie_es": "reservierte",

@@ -69,6 +69,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -97,6 +98,22 @@
         "sie_Sie": "verheimlichen"
       },
       "praeteritum": {
+        "ich": "verheimlichte",
+        "du": "verheimlichtest",
+        "er_sie_es": "verheimlichte",
+        "wir": "verheimlichten",
+        "ihr": "verheimlichtet",
+        "sie_Sie": "verheimlichten"
+      },
+      "konjunktiv1": {
+        "ich": "verheimliche",
+        "du": "verheimlichest",
+        "er_sie_es": "verheimliche",
+        "wir": "verheimlichen",
+        "ihr": "verheimlichet",
+        "sie_Sie": "verheimlichen"
+      },
+      "konjunktiv2": {
         "ich": "verheimlichte",
         "du": "verheimlichtest",
         "er_sie_es": "verheimlichte",

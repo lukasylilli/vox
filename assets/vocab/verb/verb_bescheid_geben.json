@@ -62,6 +62,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -96,6 +97,22 @@
         "wir": "gaben Bescheid",
         "ihr": "gabt Bescheid",
         "sie_Sie": "gaben Bescheid"
+      },
+      "konjunktiv1": {
+        "ich": "gebe Bescheid",
+        "du": "gebest Bescheid",
+        "er_sie_es": "gebe Bescheid",
+        "wir": "geben Bescheid",
+        "ihr": "gebet Bescheid",
+        "sie_Sie": "geben Bescheid"
+      },
+      "konjunktiv2": {
+        "ich": "gäbe Bescheid",
+        "du": "gäbest Bescheid",
+        "er_sie_es": "gäbe Bescheid",
+        "wir": "gäben Bescheid",
+        "ihr": "gäbet Bescheid",
+        "sie_Sie": "gäben Bescheid"
       },
       "imperativ": {
         "du": "Gib Bescheid!",

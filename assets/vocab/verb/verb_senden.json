@@ -68,6 +68,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -102,6 +103,22 @@
         "wir": "sandten",
         "ihr": "sandtet",
         "sie_Sie": "sandten"
+      },
+      "konjunktiv1": {
+        "ich": "sende",
+        "du": "sendest",
+        "er_sie_es": "sende",
+        "wir": "senden",
+        "ihr": "sendet",
+        "sie_Sie": "senden"
+      },
+      "konjunktiv2": {
+        "ich": "sendete",
+        "du": "sendetest",
+        "er_sie_es": "sendete",
+        "wir": "sendeten",
+        "ihr": "sendetet",
+        "sie_Sie": "sendeten"
       },
       "imperativ": {
         "du": "Sende!",

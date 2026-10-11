@@ -59,6 +59,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -87,6 +88,22 @@
         "sie_Sie": "glauben"
       },
       "praeteritum": {
+        "ich": "glaubte",
+        "du": "glaubtest",
+        "er_sie_es": "glaubte",
+        "wir": "glaubten",
+        "ihr": "glaubtet",
+        "sie_Sie": "glaubten"
+      },
+      "konjunktiv1": {
+        "ich": "glaube",
+        "du": "glaubest",
+        "er_sie_es": "glaube",
+        "wir": "glauben",
+        "ihr": "glaubet",
+        "sie_Sie": "glauben"
+      },
+      "konjunktiv2": {
         "ich": "glaubte",
         "du": "glaubtest",
         "er_sie_es": "glaubte",

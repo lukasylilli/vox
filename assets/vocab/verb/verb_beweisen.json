@@ -68,6 +68,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -101,6 +102,22 @@
         "er_sie_es": "bewies",
         "wir": "bewiesen",
         "ihr": "bewiest",
+        "sie_Sie": "bewiesen"
+      },
+      "konjunktiv1": {
+        "ich": "beweise",
+        "du": "beweisest",
+        "er_sie_es": "beweise",
+        "wir": "beweisen",
+        "ihr": "beweiset",
+        "sie_Sie": "beweisen"
+      },
+      "konjunktiv2": {
+        "ich": "bewiese",
+        "du": "bewiesest",
+        "er_sie_es": "bewiese",
+        "wir": "bewiesen",
+        "ihr": "bewieset",
         "sie_Sie": "bewiesen"
       },
       "imperativ": {

@@ -65,6 +65,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -93,6 +94,22 @@
         "sie_Sie": "zeigen"
       },
       "praeteritum": {
+        "ich": "zeigte",
+        "du": "zeigtest",
+        "er_sie_es": "zeigte",
+        "wir": "zeigten",
+        "ihr": "zeigtet",
+        "sie_Sie": "zeigten"
+      },
+      "konjunktiv1": {
+        "ich": "zeige",
+        "du": "zeigest",
+        "er_sie_es": "zeige",
+        "wir": "zeigen",
+        "ihr": "zeiget",
+        "sie_Sie": "zeigen"
+      },
+      "konjunktiv2": {
         "ich": "zeigte",
         "du": "zeigtest",
         "er_sie_es": "zeigte",

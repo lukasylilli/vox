@@ -53,6 +53,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -86,6 +87,22 @@
         "er_sie_es": "verschrieb",
         "wir": "verschrieben",
         "ihr": "verschriebt",
+        "sie_Sie": "verschrieben"
+      },
+      "konjunktiv1": {
+        "ich": "verschreibe",
+        "du": "verschreibest",
+        "er_sie_es": "verschreibe",
+        "wir": "verschreiben",
+        "ihr": "verschreibet",
+        "sie_Sie": "verschreiben"
+      },
+      "konjunktiv2": {
+        "ich": "verschriebe",
+        "du": "verschriebest",
+        "er_sie_es": "verschriebe",
+        "wir": "verschrieben",
+        "ihr": "verschriebet",
         "sie_Sie": "verschrieben"
       },
       "imperativ": {

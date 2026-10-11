@@ -58,6 +58,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -86,6 +87,22 @@
         "sie_Sie": "kochen"
       },
       "praeteritum": {
+        "ich": "kochte",
+        "du": "kochtest",
+        "er_sie_es": "kochte",
+        "wir": "kochten",
+        "ihr": "kochtet",
+        "sie_Sie": "kochten"
+      },
+      "konjunktiv1": {
+        "ich": "koche",
+        "du": "kochest",
+        "er_sie_es": "koche",
+        "wir": "kochen",
+        "ihr": "kochet",
+        "sie_Sie": "kochen"
+      },
+      "konjunktiv2": {
         "ich": "kochte",
         "du": "kochtest",
         "er_sie_es": "kochte",

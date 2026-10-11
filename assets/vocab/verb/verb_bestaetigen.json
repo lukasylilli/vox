@@ -68,6 +68,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -96,6 +97,22 @@
         "sie_Sie": "bestätigen"
       },
       "praeteritum": {
+        "ich": "bestätigte",
+        "du": "bestätigtest",
+        "er_sie_es": "bestätigte",
+        "wir": "bestätigten",
+        "ihr": "bestätigtet",
+        "sie_Sie": "bestätigten"
+      },
+      "konjunktiv1": {
+        "ich": "bestätige",
+        "du": "bestätigest",
+        "er_sie_es": "bestätige",
+        "wir": "bestätigen",
+        "ihr": "bestätiget",
+        "sie_Sie": "bestätigen"
+      },
+      "konjunktiv2": {
         "ich": "bestätigte",
         "du": "bestätigtest",
         "er_sie_es": "bestätigte",

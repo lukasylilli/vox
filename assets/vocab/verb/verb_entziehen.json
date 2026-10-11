@@ -71,6 +71,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -105,6 +106,22 @@
         "wir": "entzogen",
         "ihr": "entzogt",
         "sie_Sie": "entzogen"
+      },
+      "konjunktiv1": {
+        "ich": "entziehe",
+        "du": "entziehest",
+        "er_sie_es": "entziehe",
+        "wir": "entziehen",
+        "ihr": "entziehet",
+        "sie_Sie": "entziehen"
+      },
+      "konjunktiv2": {
+        "ich": "entzöge",
+        "du": "entzögest",
+        "er_sie_es": "entzöge",
+        "wir": "entzögen",
+        "ihr": "entzöget",
+        "sie_Sie": "entzögen"
       },
       "imperativ": {
         "du": "Entziehe!",

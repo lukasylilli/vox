@@ -71,6 +71,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -99,6 +100,22 @@
         "sie_Sie": "ermöglichen"
       },
       "praeteritum": {
+        "ich": "ermöglichte",
+        "du": "ermöglichtest",
+        "er_sie_es": "ermöglichte",
+        "wir": "ermöglichten",
+        "ihr": "ermöglichtet",
+        "sie_Sie": "ermöglichten"
+      },
+      "konjunktiv1": {
+        "ich": "ermögliche",
+        "du": "ermöglichest",
+        "er_sie_es": "ermögliche",
+        "wir": "ermöglichen",
+        "ihr": "ermöglichet",
+        "sie_Sie": "ermöglichen"
+      },
+      "konjunktiv2": {
         "ich": "ermöglichte",
         "du": "ermöglichtest",
         "er_sie_es": "ermöglichte",

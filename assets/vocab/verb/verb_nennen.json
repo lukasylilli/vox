@@ -60,6 +60,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -94,6 +95,22 @@
         "wir": "nannten",
         "ihr": "nanntet",
         "sie_Sie": "nannten"
+      },
+      "konjunktiv1": {
+        "ich": "nenne",
+        "du": "nennest",
+        "er_sie_es": "nenne",
+        "wir": "nennen",
+        "ihr": "nennet",
+        "sie_Sie": "nennen"
+      },
+      "konjunktiv2": {
+        "ich": "nennte",
+        "du": "nenntest",
+        "er_sie_es": "nennte",
+        "wir": "nennten",
+        "ihr": "nenntet",
+        "sie_Sie": "nennten"
       },
       "imperativ": {
         "du": "Nenne!",

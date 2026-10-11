@@ -70,6 +70,7 @@
   "details": {
     "trennbar": true,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -104,6 +105,22 @@
         "wir": "boten an",
         "ihr": "botet an",
         "sie_Sie": "boten an"
+      },
+      "konjunktiv1": {
+        "ich": "biete an",
+        "du": "bietest an",
+        "er_sie_es": "biete an",
+        "wir": "bieten an",
+        "ihr": "bietet an",
+        "sie_Sie": "bieten an"
+      },
+      "konjunktiv2": {
+        "ich": "böte an",
+        "du": "bötest an",
+        "er_sie_es": "böte an",
+        "wir": "böten an",
+        "ihr": "bötet an",
+        "sie_Sie": "böten an"
       },
       "imperativ": {
         "du": "Biete an!",

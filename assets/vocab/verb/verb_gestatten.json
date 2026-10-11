@@ -69,6 +69,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -97,6 +98,22 @@
         "sie_Sie": "gestatten"
       },
       "praeteritum": {
+        "ich": "gestattete",
+        "du": "gestattetest",
+        "er_sie_es": "gestattete",
+        "wir": "gestatteten",
+        "ihr": "gestattetet",
+        "sie_Sie": "gestatteten"
+      },
+      "konjunktiv1": {
+        "ich": "gestatte",
+        "du": "gestattest",
+        "er_sie_es": "gestatte",
+        "wir": "gestatten",
+        "ihr": "gestattet",
+        "sie_Sie": "gestatten"
+      },
+      "konjunktiv2": {
         "ich": "gestattete",
         "du": "gestattetest",
         "er_sie_es": "gestattete",

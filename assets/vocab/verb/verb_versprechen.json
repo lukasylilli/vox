@@ -60,6 +60,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -94,6 +95,22 @@
         "wir": "versprachen",
         "ihr": "verspracht",
         "sie_Sie": "versprachen"
+      },
+      "konjunktiv1": {
+        "ich": "verspreche",
+        "du": "versprechest",
+        "er_sie_es": "verspreche",
+        "wir": "versprechen",
+        "ihr": "versprechet",
+        "sie_Sie": "versprechen"
+      },
+      "konjunktiv2": {
+        "ich": "verspräche",
+        "du": "versprächest",
+        "er_sie_es": "verspräche",
+        "wir": "versprächen",
+        "ihr": "versprächet",
+        "sie_Sie": "versprächen"
       },
       "imperativ": {
         "du": "Versprich!",

@@ -69,6 +69,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -97,6 +98,22 @@
         "sie_Sie": "erklären"
       },
       "praeteritum": {
+        "ich": "erklärte",
+        "du": "erklärtest",
+        "er_sie_es": "erklärte",
+        "wir": "erklärten",
+        "ihr": "erklärtet",
+        "sie_Sie": "erklärten"
+      },
+      "konjunktiv1": {
+        "ich": "erkläre",
+        "du": "erklärest",
+        "er_sie_es": "erkläre",
+        "wir": "erklären",
+        "ihr": "erkläret",
+        "sie_Sie": "erklären"
+      },
+      "konjunktiv2": {
         "ich": "erklärte",
         "du": "erklärtest",
         "er_sie_es": "erklärte",

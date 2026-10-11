@@ -62,6 +62,7 @@
   "details": {
     "trennbar": true,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -90,6 +91,22 @@
         "sie_Sie": "ordnen zu"
       },
       "praeteritum": {
+        "ich": "ordnete zu",
+        "du": "ordnetest zu",
+        "er_sie_es": "ordnete zu",
+        "wir": "ordneten zu",
+        "ihr": "ordnetet zu",
+        "sie_Sie": "ordneten zu"
+      },
+      "konjunktiv1": {
+        "ich": "ordne zu",
+        "du": "ordnest zu",
+        "er_sie_es": "ordne zu",
+        "wir": "ordnen zu",
+        "ihr": "ordnet zu",
+        "sie_Sie": "ordnen zu"
+      },
+      "konjunktiv2": {
         "ich": "ordnete zu",
         "du": "ordnetest zu",
         "er_sie_es": "ordnete zu",

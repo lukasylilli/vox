@@ -70,6 +70,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -103,6 +104,22 @@
         "er_sie_es": "überließ",
         "wir": "überließen",
         "ihr": "überließt",
+        "sie_Sie": "überließen"
+      },
+      "konjunktiv1": {
+        "ich": "überlasse",
+        "du": "überlassest",
+        "er_sie_es": "überlasse",
+        "wir": "überlassen",
+        "ihr": "überlasset",
+        "sie_Sie": "überlassen"
+      },
+      "konjunktiv2": {
+        "ich": "überließe",
+        "du": "überließest",
+        "er_sie_es": "überließe",
+        "wir": "überließen",
+        "ihr": "überließet",
         "sie_Sie": "überließen"
       },
       "imperativ": {

@@ -50,6 +50,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -78,6 +79,22 @@
         "sie_Sie": "gratulieren"
       },
       "praeteritum": {
+        "ich": "gratulierte",
+        "du": "gratuliertest",
+        "er_sie_es": "gratulierte",
+        "wir": "gratulierten",
+        "ihr": "gratuliertet",
+        "sie_Sie": "gratulierten"
+      },
+      "konjunktiv1": {
+        "ich": "gratuliere",
+        "du": "gratulierest",
+        "er_sie_es": "gratuliere",
+        "wir": "gratulieren",
+        "ihr": "gratulieret",
+        "sie_Sie": "gratulieren"
+      },
+      "konjunktiv2": {
         "ich": "gratulierte",
         "du": "gratuliertest",
         "er_sie_es": "gratulierte",

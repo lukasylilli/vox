@@ -61,6 +61,7 @@
   "details": {
     "trennbar": true,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -95,6 +96,22 @@
         "wir": "taten weh",
         "ihr": "tatet weh",
         "sie_Sie": "taten weh"
+      },
+      "konjunktiv1": {
+        "ich": "tue weh",
+        "du": "tuest weh",
+        "er_sie_es": "tue weh",
+        "wir": "tun weh",
+        "ihr": "tuet weh",
+        "sie_Sie": "tun weh"
+      },
+      "konjunktiv2": {
+        "ich": "täte weh",
+        "du": "tätest weh",
+        "er_sie_es": "täte weh",
+        "wir": "täten weh",
+        "ihr": "tätet weh",
+        "sie_Sie": "täten weh"
       },
       "imperativ": {
         "du": "Tu weh!",

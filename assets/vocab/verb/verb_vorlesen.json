@@ -53,6 +53,7 @@
   "details": {
     "trennbar": true,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -87,6 +88,22 @@
         "wir": "lasen vor",
         "ihr": "last vor",
         "sie_Sie": "lasen vor"
+      },
+      "konjunktiv1": {
+        "ich": "lese vor",
+        "du": "lesest vor",
+        "er_sie_es": "lese vor",
+        "wir": "lesen vor",
+        "ihr": "leset vor",
+        "sie_Sie": "lesen vor"
+      },
+      "konjunktiv2": {
+        "ich": "läse vor",
+        "du": "läsest vor",
+        "er_sie_es": "läse vor",
+        "wir": "läsen vor",
+        "ihr": "läset vor",
+        "sie_Sie": "läsen vor"
       },
       "imperativ": {
         "du": "Lies vor!",

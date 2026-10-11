@@ -52,6 +52,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -80,6 +81,22 @@
         "sie_Sie": "schmecken"
       },
       "praeteritum": {
+        "ich": "schmeckte",
+        "du": "schmecktest",
+        "er_sie_es": "schmeckte",
+        "wir": "schmeckten",
+        "ihr": "schmecktet",
+        "sie_Sie": "schmeckten"
+      },
+      "konjunktiv1": {
+        "ich": "schmecke",
+        "du": "schmeckest",
+        "er_sie_es": "schmecke",
+        "wir": "schmecken",
+        "ihr": "schmecket",
+        "sie_Sie": "schmecken"
+      },
+      "konjunktiv2": {
         "ich": "schmeckte",
         "du": "schmecktest",
         "er_sie_es": "schmeckte",

@@ -59,6 +59,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -87,6 +88,22 @@
         "sie_Sie": "liefern"
       },
       "praeteritum": {
+        "ich": "lieferte",
+        "du": "liefertest",
+        "er_sie_es": "lieferte",
+        "wir": "lieferten",
+        "ihr": "liefertet",
+        "sie_Sie": "lieferten"
+      },
+      "konjunktiv1": {
+        "ich": "liefere",
+        "du": "lieferest",
+        "er_sie_es": "liefere",
+        "wir": "liefern",
+        "ihr": "lieferet",
+        "sie_Sie": "liefern"
+      },
+      "konjunktiv2": {
         "ich": "lieferte",
         "du": "liefertest",
         "er_sie_es": "lieferte",

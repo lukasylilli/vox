@@ -63,6 +63,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -91,6 +92,22 @@
         "sie_Sie": "schaden"
       },
       "praeteritum": {
+        "ich": "schadete",
+        "du": "schadetest",
+        "er_sie_es": "schadete",
+        "wir": "schadeten",
+        "ihr": "schadetet",
+        "sie_Sie": "schadeten"
+      },
+      "konjunktiv1": {
+        "ich": "schade",
+        "du": "schadest",
+        "er_sie_es": "schade",
+        "wir": "schaden",
+        "ihr": "schadet",
+        "sie_Sie": "schaden"
+      },
+      "konjunktiv2": {
         "ich": "schadete",
         "du": "schadetest",
         "er_sie_es": "schadete",

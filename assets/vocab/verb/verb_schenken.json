@@ -62,6 +62,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -90,6 +91,22 @@
         "sie_Sie": "schenken"
       },
       "praeteritum": {
+        "ich": "schenkte",
+        "du": "schenktest",
+        "er_sie_es": "schenkte",
+        "wir": "schenkten",
+        "ihr": "schenktet",
+        "sie_Sie": "schenkten"
+      },
+      "konjunktiv1": {
+        "ich": "schenke",
+        "du": "schenkest",
+        "er_sie_es": "schenke",
+        "wir": "schenken",
+        "ihr": "schenket",
+        "sie_Sie": "schenken"
+      },
+      "konjunktiv2": {
         "ich": "schenkte",
         "du": "schenktest",
         "er_sie_es": "schenkte",

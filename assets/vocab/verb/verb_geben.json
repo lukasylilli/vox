@@ -65,6 +65,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -99,6 +100,22 @@
         "wir": "gaben",
         "ihr": "gabt",
         "sie_Sie": "gaben"
+      },
+      "konjunktiv1": {
+        "ich": "gebe",
+        "du": "gebest",
+        "er_sie_es": "gebe",
+        "wir": "geben",
+        "ihr": "gebet",
+        "sie_Sie": "geben"
+      },
+      "konjunktiv2": {
+        "ich": "gäbe",
+        "du": "gäbest",
+        "er_sie_es": "gäbe",
+        "wir": "gäben",
+        "ihr": "gäbet",
+        "sie_Sie": "gäben"
       },
       "imperativ": {
         "du": "Gib!",

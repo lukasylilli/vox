@@ -53,6 +53,7 @@
   "details": {
     "trennbar": true,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -87,6 +88,22 @@
         "wir": "brachten mit",
         "ihr": "brachtet mit",
         "sie_Sie": "brachten mit"
+      },
+      "konjunktiv1": {
+        "ich": "bringe mit",
+        "du": "bringest mit",
+        "er_sie_es": "bringe mit",
+        "wir": "bringen mit",
+        "ihr": "bringet mit",
+        "sie_Sie": "bringen mit"
+      },
+      "konjunktiv2": {
+        "ich": "brächte mit",
+        "du": "brächtest mit",
+        "er_sie_es": "brächte mit",
+        "wir": "brächten mit",
+        "ihr": "brächtet mit",
+        "sie_Sie": "brächten mit"
       },
       "imperativ": {
         "du": "Bring mit!",

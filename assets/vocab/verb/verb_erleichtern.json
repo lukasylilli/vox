@@ -63,6 +63,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -91,6 +92,22 @@
         "sie_Sie": "erleichtern"
       },
       "praeteritum": {
+        "ich": "erleichterte",
+        "du": "erleichtertest",
+        "er_sie_es": "erleichterte",
+        "wir": "erleichterten",
+        "ihr": "erleichtertet",
+        "sie_Sie": "erleichterten"
+      },
+      "konjunktiv1": {
+        "ich": "erleichtere",
+        "du": "erleichterest",
+        "er_sie_es": "erleichtere",
+        "wir": "erleichtern",
+        "ihr": "erleichteret",
+        "sie_Sie": "erleichtern"
+      },
+      "konjunktiv2": {
         "ich": "erleichterte",
         "du": "erleichtertest",
         "er_sie_es": "erleichterte",

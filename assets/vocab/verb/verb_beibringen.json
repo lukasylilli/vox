@@ -68,6 +68,7 @@
   "details": {
     "trennbar": true,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -102,6 +103,22 @@
         "wir": "brachten bei",
         "ihr": "brachtet bei",
         "sie_Sie": "brachten bei"
+      },
+      "konjunktiv1": {
+        "ich": "bringe bei",
+        "du": "bringest bei",
+        "er_sie_es": "bringe bei",
+        "wir": "bringen bei",
+        "ihr": "bringet bei",
+        "sie_Sie": "bringen bei"
+      },
+      "konjunktiv2": {
+        "ich": "brächte bei",
+        "du": "brächtest bei",
+        "er_sie_es": "brächte bei",
+        "wir": "brächten bei",
+        "ihr": "brächtet bei",
+        "sie_Sie": "brächten bei"
       },
       "imperativ": {
         "du": "Bring bei!",

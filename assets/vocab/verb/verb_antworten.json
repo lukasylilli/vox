@@ -70,6 +70,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -98,6 +99,22 @@
         "sie_Sie": "antworten"
       },
       "praeteritum": {
+        "ich": "antwortete",
+        "du": "antwortetest",
+        "er_sie_es": "antwortete",
+        "wir": "antworteten",
+        "ihr": "antwortetet",
+        "sie_Sie": "antworteten"
+      },
+      "konjunktiv1": {
+        "ich": "antworte",
+        "du": "antwortest",
+        "er_sie_es": "antworte",
+        "wir": "antworten",
+        "ihr": "antwortet",
+        "sie_Sie": "antworten"
+      },
+      "konjunktiv2": {
         "ich": "antwortete",
         "du": "antwortetest",
         "er_sie_es": "antwortete",

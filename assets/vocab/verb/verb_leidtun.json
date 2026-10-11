@@ -54,6 +54,7 @@
   "details": {
     "trennbar": true,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -88,6 +89,22 @@
         "wir": "taten leid",
         "ihr": "tatet leid",
         "sie_Sie": "taten leid"
+      },
+      "konjunktiv1": {
+        "ich": "tue leid",
+        "du": "tuest leid",
+        "er_sie_es": "tue leid",
+        "wir": "tun leid",
+        "ihr": "tuet leid",
+        "sie_Sie": "tun leid"
+      },
+      "konjunktiv2": {
+        "ich": "täte leid",
+        "du": "tätest leid",
+        "er_sie_es": "täte leid",
+        "wir": "täten leid",
+        "ihr": "tätet leid",
+        "sie_Sie": "täten leid"
       },
       "imperativ": {
         "du": "Tu leid!",

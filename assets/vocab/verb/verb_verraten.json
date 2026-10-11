@@ -71,6 +71,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -102,6 +103,22 @@
         "ich": "verriet",
         "du": "verrietest",
         "er_sie_es": "verriet",
+        "wir": "verrieten",
+        "ihr": "verrietet",
+        "sie_Sie": "verrieten"
+      },
+      "konjunktiv1": {
+        "ich": "verrate",
+        "du": "verratest",
+        "er_sie_es": "verrate",
+        "wir": "verraten",
+        "ihr": "verratet",
+        "sie_Sie": "verraten"
+      },
+      "konjunktiv2": {
+        "ich": "verriete",
+        "du": "verrietest",
+        "er_sie_es": "verriete",
         "wir": "verrieten",
         "ihr": "verrietet",
         "sie_Sie": "verrieten"

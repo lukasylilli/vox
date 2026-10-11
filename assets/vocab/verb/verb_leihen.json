@@ -66,6 +66,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -99,6 +100,22 @@
         "er_sie_es": "lieh",
         "wir": "liehen",
         "ihr": "lieht",
+        "sie_Sie": "liehen"
+      },
+      "konjunktiv1": {
+        "ich": "leihe",
+        "du": "leihest",
+        "er_sie_es": "leihe",
+        "wir": "leihen",
+        "ihr": "leihet",
+        "sie_Sie": "leihen"
+      },
+      "konjunktiv2": {
+        "ich": "liehe",
+        "du": "liehest",
+        "er_sie_es": "liehe",
+        "wir": "liehen",
+        "ihr": "liehet",
         "sie_Sie": "liehen"
       },
       "imperativ": {

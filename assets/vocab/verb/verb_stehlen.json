@@ -66,6 +66,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -100,6 +101,22 @@
         "wir": "stahlen",
         "ihr": "stahlt",
         "sie_Sie": "stahlen"
+      },
+      "konjunktiv1": {
+        "ich": "stehle",
+        "du": "stehlest",
+        "er_sie_es": "stehle",
+        "wir": "stehlen",
+        "ihr": "stehlet",
+        "sie_Sie": "stehlen"
+      },
+      "konjunktiv2": {
+        "ich": "stähle",
+        "du": "stählest",
+        "er_sie_es": "stähle",
+        "wir": "stählen",
+        "ihr": "stählet",
+        "sie_Sie": "stählen"
       },
       "imperativ": {
         "du": "Stiehl!",

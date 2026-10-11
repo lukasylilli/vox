@@ -59,6 +59,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -93,6 +94,22 @@
         "wir": "boten",
         "ihr": "botet",
         "sie_Sie": "boten"
+      },
+      "konjunktiv1": {
+        "ich": "biete",
+        "du": "bietest",
+        "er_sie_es": "biete",
+        "wir": "bieten",
+        "ihr": "bietet",
+        "sie_Sie": "bieten"
+      },
+      "konjunktiv2": {
+        "ich": "böte",
+        "du": "bötest",
+        "er_sie_es": "böte",
+        "wir": "böten",
+        "ihr": "bötet",
+        "sie_Sie": "böten"
       },
       "imperativ": {
         "du": "Biete!",

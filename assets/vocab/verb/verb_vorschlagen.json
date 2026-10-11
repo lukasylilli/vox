@@ -61,6 +61,7 @@
   "details": {
     "trennbar": true,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -95,6 +96,22 @@
         "wir": "schlugen vor",
         "ihr": "schlugt vor",
         "sie_Sie": "schlugen vor"
+      },
+      "konjunktiv1": {
+        "ich": "schlage vor",
+        "du": "schlagest vor",
+        "er_sie_es": "schlage vor",
+        "wir": "schlagen vor",
+        "ihr": "schlaget vor",
+        "sie_Sie": "schlagen vor"
+      },
+      "konjunktiv2": {
+        "ich": "schlüge vor",
+        "du": "schlügest vor",
+        "er_sie_es": "schlüge vor",
+        "wir": "schlügen vor",
+        "ihr": "schlüget vor",
+        "sie_Sie": "schlügen vor"
       },
       "imperativ": {
         "du": "Schlag vor!",

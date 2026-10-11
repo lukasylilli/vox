@@ -63,6 +63,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -91,6 +92,22 @@
         "sie_Sie": "vermieten"
       },
       "praeteritum": {
+        "ich": "vermietete",
+        "du": "vermietetest",
+        "er_sie_es": "vermietete",
+        "wir": "vermieteten",
+        "ihr": "vermietetet",
+        "sie_Sie": "vermieteten"
+      },
+      "konjunktiv1": {
+        "ich": "vermiete",
+        "du": "vermietest",
+        "er_sie_es": "vermiete",
+        "wir": "vermieten",
+        "ihr": "vermietet",
+        "sie_Sie": "vermieten"
+      },
+      "konjunktiv2": {
         "ich": "vermietete",
         "du": "vermietetest",
         "er_sie_es": "vermietete",

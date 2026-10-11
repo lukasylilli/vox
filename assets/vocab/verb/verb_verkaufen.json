@@ -69,6 +69,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -97,6 +98,22 @@
         "sie_Sie": "verkaufen"
       },
       "praeteritum": {
+        "ich": "verkaufte",
+        "du": "verkauftest",
+        "er_sie_es": "verkaufte",
+        "wir": "verkauften",
+        "ihr": "verkauftet",
+        "sie_Sie": "verkauften"
+      },
+      "konjunktiv1": {
+        "ich": "verkaufe",
+        "du": "verkaufest",
+        "er_sie_es": "verkaufe",
+        "wir": "verkaufen",
+        "ihr": "verkaufet",
+        "sie_Sie": "verkaufen"
+      },
+      "konjunktiv2": {
         "ich": "verkaufte",
         "du": "verkauftest",
         "er_sie_es": "verkaufte",

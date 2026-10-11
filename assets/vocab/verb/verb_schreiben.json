@@ -58,6 +58,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -91,6 +92,22 @@
         "er_sie_es": "schrieb",
         "wir": "schrieben",
         "ihr": "schriebt",
+        "sie_Sie": "schrieben"
+      },
+      "konjunktiv1": {
+        "ich": "schreibe",
+        "du": "schreibest",
+        "er_sie_es": "schreibe",
+        "wir": "schreiben",
+        "ihr": "schreibet",
+        "sie_Sie": "schreiben"
+      },
+      "konjunktiv2": {
+        "ich": "schriebe",
+        "du": "schriebest",
+        "er_sie_es": "schriebe",
+        "wir": "schrieben",
+        "ihr": "schriebet",
         "sie_Sie": "schrieben"
       },
       "imperativ": {

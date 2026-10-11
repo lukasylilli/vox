@@ -69,6 +69,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -97,6 +98,22 @@
         "sie_Sie": "erlauben"
       },
       "praeteritum": {
+        "ich": "erlaubte",
+        "du": "erlaubtest",
+        "er_sie_es": "erlaubte",
+        "wir": "erlaubten",
+        "ihr": "erlaubtet",
+        "sie_Sie": "erlaubten"
+      },
+      "konjunktiv1": {
+        "ich": "erlaube",
+        "du": "erlaubest",
+        "er_sie_es": "erlaube",
+        "wir": "erlauben",
+        "ihr": "erlaubet",
+        "sie_Sie": "erlauben"
+      },
+      "konjunktiv2": {
         "ich": "erlaubte",
         "du": "erlaubtest",
         "er_sie_es": "erlaubte",

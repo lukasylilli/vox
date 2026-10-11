@@ -52,6 +52,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -80,6 +81,22 @@
         "sie_Sie": "borgen"
       },
       "praeteritum": {
+        "ich": "borgte",
+        "du": "borgtest",
+        "er_sie_es": "borgte",
+        "wir": "borgten",
+        "ihr": "borgtet",
+        "sie_Sie": "borgten"
+      },
+      "konjunktiv1": {
+        "ich": "borge",
+        "du": "borgest",
+        "er_sie_es": "borge",
+        "wir": "borgen",
+        "ihr": "borget",
+        "sie_Sie": "borgen"
+      },
+      "konjunktiv2": {
         "ich": "borgte",
         "du": "borgtest",
         "er_sie_es": "borgte",

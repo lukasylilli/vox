@@ -53,6 +53,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -81,6 +82,22 @@
         "sie_Sie": "schulden"
       },
       "praeteritum": {
+        "ich": "schuldete",
+        "du": "schuldetest",
+        "er_sie_es": "schuldete",
+        "wir": "schuldeten",
+        "ihr": "schuldetet",
+        "sie_Sie": "schuldeten"
+      },
+      "konjunktiv1": {
+        "ich": "schulde",
+        "du": "schuldest",
+        "er_sie_es": "schulde",
+        "wir": "schulden",
+        "ihr": "schuldet",
+        "sie_Sie": "schulden"
+      },
+      "konjunktiv2": {
         "ich": "schuldete",
         "du": "schuldetest",
         "er_sie_es": "schuldete",

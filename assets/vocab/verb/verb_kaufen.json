@@ -73,6 +73,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -101,6 +102,22 @@
         "sie_Sie": "kaufen"
       },
       "praeteritum": {
+        "ich": "kaufte",
+        "du": "kauftest",
+        "er_sie_es": "kaufte",
+        "wir": "kauften",
+        "ihr": "kauftet",
+        "sie_Sie": "kauften"
+      },
+      "konjunktiv1": {
+        "ich": "kaufe",
+        "du": "kaufest",
+        "er_sie_es": "kaufe",
+        "wir": "kaufen",
+        "ihr": "kaufet",
+        "sie_Sie": "kaufen"
+      },
+      "konjunktiv2": {
         "ich": "kaufte",
         "du": "kauftest",
         "er_sie_es": "kaufte",

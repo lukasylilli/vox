@@ -66,6 +66,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -94,6 +95,22 @@
         "sie_Sie": "bestellen"
       },
       "praeteritum": {
+        "ich": "bestellte",
+        "du": "bestelltest",
+        "er_sie_es": "bestellte",
+        "wir": "bestellten",
+        "ihr": "bestelltet",
+        "sie_Sie": "bestellten"
+      },
+      "konjunktiv1": {
+        "ich": "bestelle",
+        "du": "bestellest",
+        "er_sie_es": "bestelle",
+        "wir": "bestellen",
+        "ihr": "bestellet",
+        "sie_Sie": "bestellen"
+      },
+      "konjunktiv2": {
         "ich": "bestellte",
         "du": "bestelltest",
         "er_sie_es": "bestellte",

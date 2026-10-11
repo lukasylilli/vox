@@ -52,6 +52,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -80,6 +81,22 @@
         "sie_Sie": "passen"
       },
       "praeteritum": {
+        "ich": "passte",
+        "du": "passtest",
+        "er_sie_es": "passte",
+        "wir": "passten",
+        "ihr": "passtet",
+        "sie_Sie": "passten"
+      },
+      "konjunktiv1": {
+        "ich": "passe",
+        "du": "passest",
+        "er_sie_es": "passe",
+        "wir": "passen",
+        "ihr": "passet",
+        "sie_Sie": "passen"
+      },
+      "konjunktiv2": {
         "ich": "passte",
         "du": "passtest",
         "er_sie_es": "passte",

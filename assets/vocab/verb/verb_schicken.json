@@ -67,6 +67,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -95,6 +96,22 @@
         "sie_Sie": "schicken"
       },
       "praeteritum": {
+        "ich": "schickte",
+        "du": "schicktest",
+        "er_sie_es": "schickte",
+        "wir": "schickten",
+        "ihr": "schicktet",
+        "sie_Sie": "schickten"
+      },
+      "konjunktiv1": {
+        "ich": "schicke",
+        "du": "schickest",
+        "er_sie_es": "schicke",
+        "wir": "schicken",
+        "ihr": "schicket",
+        "sie_Sie": "schicken"
+      },
+      "konjunktiv2": {
         "ich": "schickte",
         "du": "schicktest",
         "er_sie_es": "schickte",

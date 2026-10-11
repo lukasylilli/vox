@@ -69,6 +69,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -97,6 +98,22 @@
         "sie_Sie": "beantworten"
       },
       "praeteritum": {
+        "ich": "beantwortete",
+        "du": "beantwortetest",
+        "er_sie_es": "beantwortete",
+        "wir": "beantworteten",
+        "ihr": "beantwortetet",
+        "sie_Sie": "beantworteten"
+      },
+      "konjunktiv1": {
+        "ich": "beantworte",
+        "du": "beantwortest",
+        "er_sie_es": "beantworte",
+        "wir": "beantworten",
+        "ihr": "beantwortet",
+        "sie_Sie": "beantworten"
+      },
+      "konjunktiv2": {
         "ich": "beantwortete",
         "du": "beantwortetest",
         "er_sie_es": "beantwortete",

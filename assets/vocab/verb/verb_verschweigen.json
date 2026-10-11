@@ -69,6 +69,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -102,6 +103,22 @@
         "er_sie_es": "verschwieg",
         "wir": "verschwiegen",
         "ihr": "verschwiegt",
+        "sie_Sie": "verschwiegen"
+      },
+      "konjunktiv1": {
+        "ich": "verschweige",
+        "du": "verschweigest",
+        "er_sie_es": "verschweige",
+        "wir": "verschweigen",
+        "ihr": "verschweiget",
+        "sie_Sie": "verschweigen"
+      },
+      "konjunktiv2": {
+        "ich": "verschwiege",
+        "du": "verschwiegest",
+        "er_sie_es": "verschwiege",
+        "wir": "verschwiegen",
+        "ihr": "verschwieget",
         "sie_Sie": "verschwiegen"
       },
       "imperativ": {

@@ -63,6 +63,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -96,6 +97,22 @@
         "er_sie_es": "gefiel",
         "wir": "gefielen",
         "ihr": "gefielt",
+        "sie_Sie": "gefielen"
+      },
+      "konjunktiv1": {
+        "ich": "gefalle",
+        "du": "gefallest",
+        "er_sie_es": "gefalle",
+        "wir": "gefallen",
+        "ihr": "gefallet",
+        "sie_Sie": "gefallen"
+      },
+      "konjunktiv2": {
+        "ich": "gefiele",
+        "du": "gefielest",
+        "er_sie_es": "gefiele",
+        "wir": "gefielen",
+        "ihr": "gefielet",
         "sie_Sie": "gefielen"
       },
       "imperativ": {

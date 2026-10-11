@@ -59,6 +59,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -87,6 +88,22 @@
         "sie_Sie": "spenden"
       },
       "praeteritum": {
+        "ich": "spendete",
+        "du": "spendetest",
+        "er_sie_es": "spendete",
+        "wir": "spendeten",
+        "ihr": "spendetet",
+        "sie_Sie": "spendeten"
+      },
+      "konjunktiv1": {
+        "ich": "spende",
+        "du": "spendest",
+        "er_sie_es": "spende",
+        "wir": "spenden",
+        "ihr": "spendet",
+        "sie_Sie": "spenden"
+      },
+      "konjunktiv2": {
         "ich": "spendete",
         "du": "spendetest",
         "er_sie_es": "spendete",

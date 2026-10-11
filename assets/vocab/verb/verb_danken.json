@@ -53,6 +53,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -81,6 +82,22 @@
         "sie_Sie": "danken"
       },
       "praeteritum": {
+        "ich": "dankte",
+        "du": "danktest",
+        "er_sie_es": "dankte",
+        "wir": "dankten",
+        "ihr": "danktet",
+        "sie_Sie": "dankten"
+      },
+      "konjunktiv1": {
+        "ich": "danke",
+        "du": "dankest",
+        "er_sie_es": "danke",
+        "wir": "danken",
+        "ihr": "danket",
+        "sie_Sie": "danken"
+      },
+      "konjunktiv2": {
         "ich": "dankte",
         "du": "danktest",
         "er_sie_es": "dankte",

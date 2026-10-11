@@ -68,6 +68,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -96,6 +97,22 @@
         "sie_Sie": "vertrauen"
       },
       "praeteritum": {
+        "ich": "vertraute",
+        "du": "vertrautest",
+        "er_sie_es": "vertraute",
+        "wir": "vertrauten",
+        "ihr": "vertrautet",
+        "sie_Sie": "vertrauten"
+      },
+      "konjunktiv1": {
+        "ich": "vertraue",
+        "du": "vertrauest",
+        "er_sie_es": "vertraue",
+        "wir": "vertrauen",
+        "ihr": "vertrauet",
+        "sie_Sie": "vertrauen"
+      },
+      "konjunktiv2": {
         "ich": "vertraute",
         "du": "vertrautest",
         "er_sie_es": "vertraute",

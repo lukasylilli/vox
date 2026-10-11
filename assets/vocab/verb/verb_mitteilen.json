@@ -71,6 +71,7 @@
   "details": {
     "trennbar": true,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -99,6 +100,22 @@
         "sie_Sie": "teilen mit"
       },
       "praeteritum": {
+        "ich": "teilte mit",
+        "du": "teiltest mit",
+        "er_sie_es": "teilte mit",
+        "wir": "teilten mit",
+        "ihr": "teiltet mit",
+        "sie_Sie": "teilten mit"
+      },
+      "konjunktiv1": {
+        "ich": "teile mit",
+        "du": "teilest mit",
+        "er_sie_es": "teile mit",
+        "wir": "teilen mit",
+        "ihr": "teilet mit",
+        "sie_Sie": "teilen mit"
+      },
+      "konjunktiv2": {
         "ich": "teilte mit",
         "du": "teiltest mit",
         "er_sie_es": "teilte mit",

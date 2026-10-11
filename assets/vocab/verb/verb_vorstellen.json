@@ -54,6 +54,7 @@
   "details": {
     "trennbar": true,
     "regelmaessig": true,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "optional",
     "rektion": [
@@ -82,6 +83,22 @@
         "sie_Sie": "stellen vor"
       },
       "praeteritum": {
+        "ich": "stellte vor",
+        "du": "stelltest vor",
+        "er_sie_es": "stellte vor",
+        "wir": "stellten vor",
+        "ihr": "stelltet vor",
+        "sie_Sie": "stellten vor"
+      },
+      "konjunktiv1": {
+        "ich": "stelle vor",
+        "du": "stellest vor",
+        "er_sie_es": "stelle vor",
+        "wir": "stellen vor",
+        "ihr": "stellet vor",
+        "sie_Sie": "stellen vor"
+      },
+      "konjunktiv2": {
         "ich": "stellte vor",
         "du": "stelltest vor",
         "er_sie_es": "stellte vor",

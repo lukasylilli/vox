@@ -57,6 +57,7 @@
   "details": {
     "trennbar": false,
     "regelmaessig": false,
+    "modalverb": false,
     "hilfsverb": "haben",
     "reflexiv": "nein",
     "rektion": [
@@ -91,6 +92,22 @@
         "wir": "halfen",
         "ihr": "halft",
         "sie_Sie": "halfen"
+      },
+      "konjunktiv1": {
+        "ich": "helfe",
+        "du": "helfest",
+        "er_sie_es": "helfe",
+        "wir": "helfen",
+        "ihr": "helfet",
+        "sie_Sie": "helfen"
+      },
+      "konjunktiv2": {
+        "ich": "hülfe",
+        "du": "hülfest",
+        "er_sie_es": "hülfe",
+        "wir": "hülfen",
+        "ihr": "hülfet",
+        "sie_Sie": "hülfen"
       },
       "imperativ": {
         "du": "Hilf!",
