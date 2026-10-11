@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_befehlen",
+  "wort": "befehlen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دستور دادن، فرمان دادن"
+    ],
+    "en": [
+      "to order",
+      "to command"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Militär"
+  ],
+  "ipa": "bəˈfeːlən",
+  "anmerkung": "Konjunktiv II selten auch: befähle",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Chef befiehlt, und wir arbeiten.",
+      "uebersetzung": {
+        "fa": "رئیس دستور می‌دهد و ما کار می‌کنیم.",
+        "en": "The boss gives orders and we work."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Offizier befahl den Soldaten, sofort das Gebäude zu verlassen, weil Einsturzgefahr bestand.",
+      "uebersetzung": {
+        "fa": "افسر به سربازها دستور داد فوراً ساختمان را ترک کنند، چون خطر ریزش وجود داشت.",
+        "en": "The officer ordered the soldiers to leave the building immediately because there was a danger of collapse."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anordnen",
+      "uebersetzung": {
+        "fa": "دستور دادن",
+        "en": "to order"
+      }
+    },
+    {
+      "wort": "kommandieren",
+      "uebersetzung": {
+        "fa": "فرماندهی کردن",
+        "en": "to command"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "gehorchen",
+      "uebersetzung": {
+        "fa": "اطاعت کردن",
+        "en": "to obey"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- (پیشوند) + -fehlen (از ریشه‌ی کهن «سپردن»)",
+    "en": "be- (prefix) + -fehlen (old root «to entrust»)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem etwas befehlen",
+        "bedeutung": "jemandem eine Anordnung geben — Dativ + Akkusativ",
+        "beispiel": "Du hast mir gar nichts zu befehlen!",
+        "uebersetzung": {
+          "fa": "تو حق نداری به من دستور بدهی!",
+          "en": "You have no right to give me orders!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "befehlen",
+      "praeteritum": "befahl",
+      "partizip2": "befohlen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "befehle",
+        "du": "befiehlst",
+        "er_sie_es": "befiehlt",
+        "wir": "befehlen",
+        "ihr": "befehlt",
+        "sie_Sie": "befehlen"
+      },
+      "praeteritum": {
+        "ich": "befahl",
+        "du": "befahlst",
+        "er_sie_es": "befahl",
+        "wir": "befahlen",
+        "ihr": "befahlt",
+        "sie_Sie": "befahlen"
+      },
+      "konjunktiv1": {
+        "ich": "befehle",
+        "du": "befehlest",
+        "er_sie_es": "befehle",
+        "wir": "befehlen",
+        "ihr": "befehlet",
+        "sie_Sie": "befehlen"
+      },
+      "konjunktiv2": {
+        "ich": "beföhle",
+        "du": "beföhlest",
+        "er_sie_es": "beföhle",
+        "wir": "beföhlen",
+        "ihr": "beföhlet",
+        "sie_Sie": "beföhlen"
+      },
+      "imperativ": {
+        "du": "Befiehl!",
+        "ihr": "Befehlt!",
+        "Sie": "Befehlen Sie!"
+      }
+    },
+    "partizip1": "befehlend",
+    "nominalisierung": "der Befehl"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Befehl",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دستور، فرمان",
+          "en": "order"
+        },
+        "id_ref": "nomen_befehl"
+      },
+      {
+        "wort": "gehorchen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اطاعت کردن",
+          "en": "to obey"
+        },
+        "id_ref": "verb_gehorchen"
+      },
+      {
+        "wort": "anordnen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دستور دادن",
+          "en": "to order"
+        },
+        "id_ref": "verb_anordnen"
+      },
+      {
+        "wort": "der Chef",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رئیس",
+          "en": "boss"
+        },
+        "id_ref": "nomen_chef"
+      },
+      {
+        "wort": "der Soldat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرباز",
+          "en": "soldier"
+        },
+        "id_ref": "nomen_soldat"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

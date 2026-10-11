@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_befragen",
+  "wort": "befragen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پرسیدن از، سؤال کردن از (رسمی)",
+      "نظرسنجی کردن"
+    ],
+    "en": [
+      "to question",
+      "to interview",
+      "to survey"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kommunikation",
+    "Medien"
+  ],
+  "ipa": "bəˈfʁaːɡn̩",
+  "anmerkung": "steht in der Liste der unregelmäßigen Verben, wird aber regelmäßig konjugiert (Duden; veraltet: befrug)",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Polizei befragt die Zeugen.",
+      "uebersetzung": {
+        "fa": "پلیس از شاهدان سؤال می‌کند.",
+        "en": "The police are questioning the witnesses."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Für die Studie wurden über tausend Jugendliche befragt, wie viel Zeit sie am Handy verbringen.",
+      "uebersetzung": {
+        "fa": "برای این مطالعه از بیش از هزار نوجوان پرسیده شد که چقدر وقت با گوشی می‌گذرانند.",
+        "en": "For the study, over a thousand young people were asked how much time they spend on their phones."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fragen",
+      "uebersetzung": {
+        "fa": "پرسیدن",
+        "en": "to ask"
+      }
+    },
+    {
+      "wort": "interviewen",
+      "uebersetzung": {
+        "fa": "مصاحبه کردن",
+        "en": "to interview"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- (پیشوند) + fragen (پرسیدن)",
+    "en": "be- (prefix) + fragen (to ask)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden zu etwas befragen (zu + Dat)",
+        "bedeutung": "jemandem Fragen zu einem Thema stellen",
+        "beispiel": "Man hat ihn zu dem Unfall befragt.",
+        "uebersetzung": {
+          "fa": "درباره‌ی تصادف از او سؤال کردند.",
+          "en": "He was questioned about the accident."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "befragen",
+      "praeteritum": "befragte",
+      "partizip2": "befragt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "befrage",
+        "du": "befragst",
+        "er_sie_es": "befragt",
+        "wir": "befragen",
+        "ihr": "befragt",
+        "sie_Sie": "befragen"
+      },
+      "praeteritum": {
+        "ich": "befragte",
+        "du": "befragtest",
+        "er_sie_es": "befragte",
+        "wir": "befragten",
+        "ihr": "befragtet",
+        "sie_Sie": "befragten"
+      },
+      "konjunktiv1": {
+        "ich": "befrage",
+        "du": "befragest",
+        "er_sie_es": "befrage",
+        "wir": "befragen",
+        "ihr": "befraget",
+        "sie_Sie": "befragen"
+      },
+      "konjunktiv2": {
+        "ich": "befragte",
+        "du": "befragtest",
+        "er_sie_es": "befragte",
+        "wir": "befragten",
+        "ihr": "befragtet",
+        "sie_Sie": "befragten"
+      },
+      "imperativ": {
+        "du": "Befrage!",
+        "ihr": "Befragt!",
+        "Sie": "Befragen Sie!"
+      }
+    },
+    "partizip1": "befragend",
+    "nominalisierung": "die Befragung"
+  },
+  "wortnetz": {
+    "grundwort": "fragen",
+    "woerter": [
+      {
+        "wort": "fragen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرسیدن",
+          "en": "to ask"
+        },
+        "id_ref": "verb_fragen"
+      },
+      {
+        "wort": "die Frage",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سؤال",
+          "en": "question"
+        },
+        "id_ref": "nomen_frage"
+      },
+      {
+        "wort": "die Umfrage",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نظرسنجی",
+          "en": "survey"
+        },
+        "id_ref": "nomen_umfrage"
+      },
+      {
+        "wort": "der Zeuge",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شاهد",
+          "en": "witness"
+        },
+        "id_ref": "nomen_zeuge"
+      },
+      {
+        "wort": "die Befragung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پرسش، بازجویی",
+          "en": "questioning"
+        },
+        "id_ref": "nomen_befragung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

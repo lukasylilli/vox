@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_befinden",
+  "wort": "befinden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(sich befinden) قرار داشتن، بودن",
+      "(über etwas befinden) تصمیم گرفتن، داوری کردن (رسمی)"
+    ],
+    "en": [
+      "to be (located)",
+      "to decide (on)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Orientierung",
+    "Gesundheit"
+  ],
+  "ipa": "bəˈfɪndn̩",
+  "anmerkung": "meist reflexiv: «sich (irgendwo) befinden»; nicht reflexiv gehoben/amtlich: «über etwas befinden»",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Bad befindet sich im ersten Stock.",
+      "uebersetzung": {
+        "fa": "حمام در طبقه‌ی اول است.",
+        "en": "The bathroom is on the first floor."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Patient befindet sich auf dem Weg der Besserung, nachdem er die Operation gut überstanden hat.",
+      "uebersetzung": {
+        "fa": "بیمار پس از این‌که جراحی را خوب پشت سر گذاشت، رو به بهبود است.",
+        "en": "The patient is on the road to recovery after coming through the operation well."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "liegen",
+      "uebersetzung": {
+        "fa": "قرار داشتن",
+        "en": "to lie, to be situated"
+      }
+    },
+    {
+      "wort": "sein",
+      "uebersetzung": {
+        "fa": "بودن",
+        "en": "to be"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- (پیشوند) + finden (پیدا کردن)",
+    "en": "be- (prefix) + finden (to find)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "über etwas befinden (über + Akk)",
+        "bedeutung": "über etwas entscheiden (amtlich)",
+        "beispiel": "Das Gericht befindet über den Antrag.",
+        "uebersetzung": {
+          "fa": "دادگاه درباره‌ی درخواست تصمیم می‌گیرد.",
+          "en": "The court will decide on the application."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "befinden",
+      "praeteritum": "befand",
+      "partizip2": "befunden"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "befinde",
+        "du": "befindest",
+        "er_sie_es": "befindet",
+        "wir": "befinden",
+        "ihr": "befindet",
+        "sie_Sie": "befinden"
+      },
+      "praeteritum": {
+        "ich": "befand",
+        "du": "befandest",
+        "er_sie_es": "befand",
+        "wir": "befanden",
+        "ihr": "befandet",
+        "sie_Sie": "befanden"
+      },
+      "konjunktiv1": {
+        "ich": "befinde",
+        "du": "befindest",
+        "er_sie_es": "befinde",
+        "wir": "befinden",
+        "ihr": "befindet",
+        "sie_Sie": "befinden"
+      },
+      "konjunktiv2": {
+        "ich": "befände",
+        "du": "befändest",
+        "er_sie_es": "befände",
+        "wir": "befänden",
+        "ihr": "befändet",
+        "sie_Sie": "befänden"
+      },
+      "imperativ": {
+        "du": "Befinde!",
+        "ihr": "Befindet!",
+        "Sie": "Befinden Sie!"
+      }
+    },
+    "partizip1": "befindend",
+    "nominalisierung": "das Befinden"
+  },
+  "wortnetz": {
+    "grundwort": "finden",
+    "woerter": [
+      {
+        "wort": "sein",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بودن",
+          "en": "to be"
+        },
+        "id_ref": "verb_sein"
+      },
+      {
+        "wort": "liegen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قرار داشتن",
+          "en": "to lie"
+        },
+        "id_ref": "verb_liegen"
+      },
+      {
+        "wort": "der Ort",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مکان",
+          "en": "place"
+        },
+        "id_ref": "nomen_ort"
+      },
+      {
+        "wort": "das Befinden",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "حال (سلامتی)",
+          "en": "condition"
+        },
+        "id_ref": "nomen_befinden"
+      },
+      {
+        "wort": "der Befund",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نتیجه‌ی آزمایش",
+          "en": "findings"
+        },
+        "id_ref": "nomen_befund"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_befahren",
+  "wort": "befahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با وسیله) در جاده‌ای رفت‌وآمد کردن، از مسیری عبور کردن"
+    ],
+    "en": [
+      "to drive on",
+      "to use (a road)",
+      "to navigate"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr"
+  ],
+  "ipa": "bəˈfaːʁən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Diese Straße ist stark befahren.",
+      "uebersetzung": {
+        "fa": "این خیابان پرترافیک است.",
+        "en": "This road is very busy."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Winter darf die Passstraße nur mit Schneeketten befahren werden, weil sie oft vereist ist.",
+      "uebersetzung": {
+        "fa": "در زمستان فقط با زنجیر چرخ می‌شود از جاده‌ی گردنه رد شد، چون اغلب یخ‌زده است.",
+        "en": "In winter the pass road may only be driven on with snow chains because it is often icy."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "benutzen",
+      "uebersetzung": {
+        "fa": "استفاده کردن",
+        "en": "to use"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- (پیشوند) + fahren (رفتن با وسیله)",
+    "en": "be- (prefix) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas befahren",
+        "bedeutung": "auf einem Weg/Gewässer fahren — mit Akkusativ",
+        "beispiel": "Kleine Boote befahren den Fluss.",
+        "uebersetzung": {
+          "fa": "قایق‌های کوچک در رودخانه رفت‌وآمد می‌کنند.",
+          "en": "Small boats navigate the river."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "befahren",
+      "praeteritum": "befuhr",
+      "partizip2": "befahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "befahre",
+        "du": "befährst",
+        "er_sie_es": "befährt",
+        "wir": "befahren",
+        "ihr": "befahrt",
+        "sie_Sie": "befahren"
+      },
+      "praeteritum": {
+        "ich": "befuhr",
+        "du": "befuhrst",
+        "er_sie_es": "befuhr",
+        "wir": "befuhren",
+        "ihr": "befuhrt",
+        "sie_Sie": "befuhren"
+      },
+      "konjunktiv1": {
+        "ich": "befahre",
+        "du": "befahrest",
+        "er_sie_es": "befahre",
+        "wir": "befahren",
+        "ihr": "befahret",
+        "sie_Sie": "befahren"
+      },
+      "konjunktiv2": {
+        "ich": "beführe",
+        "du": "beführest",
+        "er_sie_es": "beführe",
+        "wir": "beführen",
+        "ihr": "beführet",
+        "sie_Sie": "beführen"
+      },
+      "imperativ": {
+        "du": "Befahre!",
+        "ihr": "Befahrt!",
+        "Sie": "Befahren Sie!"
+      }
+    },
+    "partizip1": "befahrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن با وسیله",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "die Straße",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خیابان",
+          "en": "street"
+        },
+        "id_ref": "nomen_strasse"
+      },
+      {
+        "wort": "der Verkehr",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترافیک",
+          "en": "traffic"
+        },
+        "id_ref": "nomen_verkehr"
+      },
+      {
+        "wort": "die Autobahn",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اتوبان",
+          "en": "motorway"
+        },
+        "id_ref": "nomen_autobahn"
+      },
+      {
+        "wort": "gesperrt",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بسته (راه)",
+          "en": "closed"
+        },
+        "id_ref": "adjektiv_gesperrt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

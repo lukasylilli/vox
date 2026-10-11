@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_befliegen",
+  "wort": "befliegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(شرکت هواپیمایی) روی مسیری پرواز داشتن"
+    ],
+    "en": [
+      "to fly (a route)",
+      "to serve (a route)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Reisen",
+    "Verkehr"
+  ],
+  "ipa": "bəˈfliːɡn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Airline befliegt diese Strecke täglich.",
+      "uebersetzung": {
+        "fa": "این شرکت هواپیمایی هر روز در این مسیر پرواز دارد.",
+        "en": "The airline flies this route daily."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Seit die Strecke nach Teheran wieder beflogen wird, besuchen viele ihre Familien öfter.",
+      "uebersetzung": {
+        "fa": "از وقتی دوباره به تهران پرواز هست، خیلی‌ها بیشتر به دیدن خانواده‌شان می‌روند.",
+        "en": "Since the route to Tehran has been flown again, many people visit their families more often."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anfliegen",
+      "uebersetzung": {
+        "fa": "به مقصدی پرواز داشتن",
+        "en": "to fly to"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- (پیشوند) + fliegen (پرواز کردن)",
+    "en": "be- (prefix) + fliegen (to fly)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas befliegen",
+        "bedeutung": "eine Strecke regelmäßig im Flugverkehr bedienen — mit Akkusativ",
+        "beispiel": "Die Linie befliegt mehrere Ziele in Asien.",
+        "uebersetzung": {
+          "fa": "این خط هوایی به چند مقصد در آسیا پرواز دارد.",
+          "en": "The airline flies to several destinations in Asia."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "befliegen",
+      "praeteritum": "beflog",
+      "partizip2": "beflogen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "befliege",
+        "du": "befliegst",
+        "er_sie_es": "befliegt",
+        "wir": "befliegen",
+        "ihr": "befliegt",
+        "sie_Sie": "befliegen"
+      },
+      "praeteritum": {
+        "ich": "beflog",
+        "du": "beflogst",
+        "er_sie_es": "beflog",
+        "wir": "beflogen",
+        "ihr": "beflogt",
+        "sie_Sie": "beflogen"
+      },
+      "konjunktiv1": {
+        "ich": "befliege",
+        "du": "befliegest",
+        "er_sie_es": "befliege",
+        "wir": "befliegen",
+        "ihr": "beflieget",
+        "sie_Sie": "befliegen"
+      },
+      "konjunktiv2": {
+        "ich": "beflöge",
+        "du": "beflögest",
+        "er_sie_es": "beflöge",
+        "wir": "beflögen",
+        "ihr": "beflöget",
+        "sie_Sie": "beflögen"
+      },
+      "imperativ": {
+        "du": "Befliege!",
+        "ihr": "Befliegt!",
+        "Sie": "Befliegen Sie!"
+      }
+    },
+    "partizip1": "befliegend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fliegen",
+    "woerter": [
+      {
+        "wort": "fliegen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرواز کردن",
+          "en": "to fly"
+        },
+        "id_ref": "verb_fliegen"
+      },
+      {
+        "wort": "der Flughafen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فرودگاه",
+          "en": "airport"
+        },
+        "id_ref": "nomen_flughafen"
+      },
+      {
+        "wort": "die Strecke",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مسیر",
+          "en": "route"
+        },
+        "id_ref": "nomen_strecke"
+      },
+      {
+        "wort": "die Fluggesellschaft",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شرکت هواپیمایی",
+          "en": "airline"
+        },
+        "id_ref": "nomen_fluggesellschaft"
+      },
+      {
+        "wort": "anfliegen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "به مقصدی پرواز کردن",
+          "en": "to fly to"
+        },
+        "id_ref": "verb_anfliegen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -893,6 +893,7 @@ const zurueckgestellt = <String>{
   'ausmelken', // zurückgestellt (Regel 14/16): selten — wie abmelken 2026-10-12
   'auswärtsgehen', // zurückgestellt (Regel 14/16): selten (mit nach außen gerichteten Füßen gehen) 2026-10-12
   'bedünken', // zurückgestellt (Regel 14/16): veraltet 2026-10-12
+  'bedürfen', // zurückgestellt (Regel 14/16): kein gebräuchlicher Imperativ (Präterito-Präsens wie dürfen) — Pflichtfeld imperativ nicht sicher füllbar 2026-10-12
   'befleißen', // zurückgestellt (Regel 14/16): veraltet (heute «sich befleißigen») 2026-10-12
   'beibiegen', // zurückgestellt (Regel 14/16): umgangssprachlich, Gebrauch unsicher 2026-10-12
   'beibleiben', // zurückgestellt (Regel 14/16): selten 2026-10-12

@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_befallen",
+  "wort": "befallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(ناگهان) گریبان‌گیر شدن (ترس، بیماری)",
+      "آلوده کردن (آفت، گیاه)"
+    ],
+    "en": [
+      "to befall",
+      "to seize",
+      "to infest"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gesundheit",
+    "Natur",
+    "Gefühle"
+  ],
+  "ipa": "bəˈfalən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Plötzlich befällt ihn die Angst.",
+      "uebersetzung": {
+        "fa": "ناگهان ترس سراغش می‌آید.",
+        "en": "Suddenly fear seizes him."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Rosen sind von Läusen befallen, deshalb müssen wir sie schnell behandeln.",
+      "uebersetzung": {
+        "fa": "گل‌های رز را شته گرفته، برای همین باید زود درمانشان کنیم.",
+        "en": "The roses are infested with aphids, so we have to treat them quickly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ergreifen",
+      "uebersetzung": {
+        "fa": "فرا گرفتن",
+        "en": "to seize"
+      }
+    },
+    {
+      "wort": "überkommen",
+      "uebersetzung": {
+        "fa": "سراغ کسی آمدن (احساس)",
+        "en": "to come over"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- (پیشوند) + fallen (افتادن)",
+    "en": "be- (prefix) + fallen (to fall)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden/etwas befallen",
+        "bedeutung": "plötzlich über jemanden kommen; Pflanzen/Tiere schädigen — mit Akkusativ",
+        "beispiel": "Eine schwere Krankheit hat ihn befallen.",
+        "uebersetzung": {
+          "fa": "بیماری سختی گریبانش را گرفت.",
+          "en": "A serious illness has struck him."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "befallen",
+      "praeteritum": "befiel",
+      "partizip2": "befallen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "befalle",
+        "du": "befällst",
+        "er_sie_es": "befällt",
+        "wir": "befallen",
+        "ihr": "befallt",
+        "sie_Sie": "befallen"
+      },
+      "praeteritum": {
+        "ich": "befiel",
+        "du": "befielst",
+        "er_sie_es": "befiel",
+        "wir": "befielen",
+        "ihr": "befielt",
+        "sie_Sie": "befielen"
+      },
+      "konjunktiv1": {
+        "ich": "befalle",
+        "du": "befallest",
+        "er_sie_es": "befalle",
+        "wir": "befallen",
+        "ihr": "befallet",
+        "sie_Sie": "befallen"
+      },
+      "konjunktiv2": {
+        "ich": "befiele",
+        "du": "befielest",
+        "er_sie_es": "befiele",
+        "wir": "befielen",
+        "ihr": "befielet",
+        "sie_Sie": "befielen"
+      },
+      "imperativ": {
+        "du": "Befalle!",
+        "ihr": "Befallt!",
+        "Sie": "Befallen Sie!"
+      }
+    },
+    "partizip1": "befallend",
+    "nominalisierung": "der Befall"
+  },
+  "wortnetz": {
+    "grundwort": "fallen",
+    "woerter": [
+      {
+        "wort": "die Angst",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترس",
+          "en": "fear"
+        },
+        "id_ref": "nomen_angst"
+      },
+      {
+        "wort": "die Krankheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیماری",
+          "en": "illness"
+        },
+        "id_ref": "nomen_krankheit"
+      },
+      {
+        "wort": "der Schädling",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آفت",
+          "en": "pest"
+        },
+        "id_ref": "nomen_schaedling"
+      },
+      {
+        "wort": "ergreifen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گرفتن، فرا گرفتن",
+          "en": "to seize"
+        },
+        "id_ref": "verb_ergreifen"
+      },
+      {
+        "wort": "der Befall",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آلودگی (به آفت)",
+          "en": "infestation"
+        },
+        "id_ref": "nomen_befall"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

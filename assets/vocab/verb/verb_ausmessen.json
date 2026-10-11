@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausmessen",
+  "wort": "ausmessen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اندازه گرفتن (دقیق و کامل)"
+    ],
+    "en": [
+      "to measure (out)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Wohnen",
+    "Bauen"
+  ],
+  "ipa": "ˈaʊ̯sˌmɛsn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir messen das Zimmer aus.",
+      "uebersetzung": {
+        "fa": "اتاق را اندازه می‌گیریم.",
+        "en": "We measure the room."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor wir den Schrank kaufen, sollten wir die Nische genau ausmessen, damit er auch passt.",
+      "uebersetzung": {
+        "fa": "قبل از خریدن کمد باید فرورفتگی دیوار را دقیق اندازه بگیریم تا جا شود.",
+        "en": "Before we buy the wardrobe, we should measure the alcove exactly so that it fits."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vermessen",
+      "uebersetzung": {
+        "fa": "اندازه‌گیری کردن",
+        "en": "to survey"
+      }
+    },
+    {
+      "wort": "abmessen",
+      "uebersetzung": {
+        "fa": "اندازه گرفتن",
+        "en": "to measure off"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند: کامل) + messen (اندازه گرفتن)",
+    "en": "aus- (prefix: completely) + messen (to measure)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas ausmessen",
+        "bedeutung": "die Maße von etwas genau bestimmen — mit Akkusativ",
+        "beispiel": "Der Handwerker hat die Fenster ausgemessen.",
+        "uebersetzung": {
+          "fa": "استادکار پنجره‌ها را اندازه گرفت.",
+          "en": "The tradesman measured the windows."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausmessen",
+      "praeteritum": "maß aus",
+      "partizip2": "ausgemessen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "messe aus",
+        "du": "misst aus",
+        "er_sie_es": "misst aus",
+        "wir": "messen aus",
+        "ihr": "messt aus",
+        "sie_Sie": "messen aus"
+      },
+      "praeteritum": {
+        "ich": "maß aus",
+        "du": "maßest aus",
+        "er_sie_es": "maß aus",
+        "wir": "maßen aus",
+        "ihr": "maßt aus",
+        "sie_Sie": "maßen aus"
+      },
+      "konjunktiv1": {
+        "ich": "messe aus",
+        "du": "messest aus",
+        "er_sie_es": "messe aus",
+        "wir": "messen aus",
+        "ihr": "messet aus",
+        "sie_Sie": "messen aus"
+      },
+      "konjunktiv2": {
+        "ich": "mäße aus",
+        "du": "mäßest aus",
+        "er_sie_es": "mäße aus",
+        "wir": "mäßen aus",
+        "ihr": "mäßet aus",
+        "sie_Sie": "mäßen aus"
+      },
+      "imperativ": {
+        "du": "Miss aus!",
+        "ihr": "Messt aus!",
+        "Sie": "Messen Sie aus!"
+      }
+    },
+    "partizip1": "ausmessend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "messen",
+    "woerter": [
+      {
+        "wort": "messen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اندازه گرفتن",
+          "en": "to measure"
+        },
+        "id_ref": "verb_messen"
+      },
+      {
+        "wort": "der Meter",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "متر",
+          "en": "metre"
+        },
+        "id_ref": "nomen_meter"
+      },
+      {
+        "wort": "das Zimmer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اتاق",
+          "en": "room"
+        },
+        "id_ref": "nomen_zimmer"
+      },
+      {
+        "wort": "die Größe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اندازه",
+          "en": "size"
+        },
+        "id_ref": "nomen_groesse"
+      },
+      {
+        "wort": "das Maßband",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "متر نواری",
+          "en": "tape measure"
+        },
+        "id_ref": "nomen_massband"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

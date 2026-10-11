@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_bedingen",
+  "wort": "bedingen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "موجب شدن، ایجاب کردن",
+      "مشروط کردن"
+    ],
+    "en": [
+      "to cause",
+      "to entail",
+      "to necessitate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft",
+    "Kommunikation"
+  ],
+  "ipa": "bəˈdɪŋən",
+  "anmerkung": "steht in der Liste der unregelmäßigen Verben; in der Bedeutung «verursachen» regelmäßig (bedingte, bedingt); veraltet «bedang, bedungen» nur in «ausbedingen»",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das eine bedingt das andere.",
+      "uebersetzung": {
+        "fa": "این یکی آن دیگری را ایجاب می‌کند.",
+        "en": "One thing entails the other."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Verspätung war durch einen technischen Defekt bedingt, den niemand vorhersehen konnte.",
+      "uebersetzung": {
+        "fa": "تأخیر به‌خاطر یک نقص فنی بود که کسی نمی‌توانست پیش‌بینی کند.",
+        "en": "The delay was caused by a technical fault that nobody could foresee."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verursachen",
+      "uebersetzung": {
+        "fa": "سبب شدن",
+        "en": "to cause"
+      }
+    },
+    {
+      "wort": "bewirken",
+      "uebersetzung": {
+        "fa": "موجب شدن",
+        "en": "to bring about"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- (پیشوند) + Ding (چیز)",
+    "en": "be- (prefix) + Ding (thing)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas bedingen",
+        "bedeutung": "etwas zur Folge haben — mit Akkusativ",
+        "beispiel": "Der Klimawandel bedingt häufigere Unwetter.",
+        "uebersetzung": {
+          "fa": "تغییر اقلیم توفان‌های بیشتری به دنبال دارد.",
+          "en": "Climate change causes more frequent storms."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bedingen",
+      "praeteritum": "bedingte",
+      "partizip2": "bedingt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bedinge",
+        "du": "bedingst",
+        "er_sie_es": "bedingt",
+        "wir": "bedingen",
+        "ihr": "bedingt",
+        "sie_Sie": "bedingen"
+      },
+      "praeteritum": {
+        "ich": "bedingte",
+        "du": "bedingtest",
+        "er_sie_es": "bedingte",
+        "wir": "bedingten",
+        "ihr": "bedingtet",
+        "sie_Sie": "bedingten"
+      },
+      "konjunktiv1": {
+        "ich": "bedinge",
+        "du": "bedingest",
+        "er_sie_es": "bedinge",
+        "wir": "bedingen",
+        "ihr": "bedinget",
+        "sie_Sie": "bedingen"
+      },
+      "konjunktiv2": {
+        "ich": "bedingte",
+        "du": "bedingtest",
+        "er_sie_es": "bedingte",
+        "wir": "bedingten",
+        "ihr": "bedingtet",
+        "sie_Sie": "bedingten"
+      },
+      "imperativ": {
+        "du": "Bedinge!",
+        "ihr": "Bedingt!",
+        "Sie": "Bedingen Sie!"
+      }
+    },
+    "partizip1": "bedingend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Grund",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دلیل",
+          "en": "reason"
+        },
+        "id_ref": "nomen_grund"
+      },
+      {
+        "wort": "die Folge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیامد",
+          "en": "consequence"
+        },
+        "id_ref": "nomen_folge"
+      },
+      {
+        "wort": "verursachen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سبب شدن",
+          "en": "to cause"
+        },
+        "id_ref": "verb_verursachen"
+      },
+      {
+        "wort": "die Bedingung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شرط",
+          "en": "condition"
+        },
+        "id_ref": "nomen_bedingung"
+      },
+      {
+        "wort": "bedingt",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مشروط، تا حدی",
+          "en": "conditional"
+        },
+        "id_ref": "adjektiv_bedingt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

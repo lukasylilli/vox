@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_bedenken",
+  "wort": "bedenken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "در نظر گرفتن، به چیزی فکر کردن",
+      "(jemanden mit etwas bedenken) به کسی چیزی دادن (ادبی)"
+    ],
+    "en": [
+      "to consider",
+      "to bear in mind"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kommunikation",
+    "Denken"
+  ],
+  "ipa": "bəˈdɛŋkn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bedenke die Folgen!",
+      "uebersetzung": {
+        "fa": "به عواقبش فکر کن!",
+        "en": "Consider the consequences!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Man muss bedenken, dass viele Menschen sich so eine teure Wohnung nicht leisten können.",
+      "uebersetzung": {
+        "fa": "باید در نظر گرفت که خیلی‌ها نمی‌توانند از عهده‌ی چنین آپارتمان گرانی بربیایند.",
+        "en": "One must bear in mind that many people cannot afford such an expensive flat."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "berücksichtigen",
+      "uebersetzung": {
+        "fa": "در نظر گرفتن",
+        "en": "to take into account"
+      }
+    },
+    {
+      "wort": "überlegen",
+      "uebersetzung": {
+        "fa": "فکر کردن",
+        "en": "to think over"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "übersehen",
+      "uebersetzung": {
+        "fa": "نادیده گرفتن",
+        "en": "to overlook"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- (پیشوند) + denken (فکر کردن)",
+    "en": "be- (prefix) + denken (to think)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas bedenken",
+        "bedeutung": "über etwas nachdenken, etwas berücksichtigen — mit Akkusativ",
+        "beispiel": "Hast du auch die Kosten bedacht?",
+        "uebersetzung": {
+          "fa": "هزینه‌ها را هم در نظر گرفته‌ای؟",
+          "en": "Have you considered the costs too?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bedenken",
+      "praeteritum": "bedachte",
+      "partizip2": "bedacht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bedenke",
+        "du": "bedenkst",
+        "er_sie_es": "bedenkt",
+        "wir": "bedenken",
+        "ihr": "bedenkt",
+        "sie_Sie": "bedenken"
+      },
+      "praeteritum": {
+        "ich": "bedachte",
+        "du": "bedachtest",
+        "er_sie_es": "bedachte",
+        "wir": "bedachten",
+        "ihr": "bedachtet",
+        "sie_Sie": "bedachten"
+      },
+      "konjunktiv1": {
+        "ich": "bedenke",
+        "du": "bedenkest",
+        "er_sie_es": "bedenke",
+        "wir": "bedenken",
+        "ihr": "bedenket",
+        "sie_Sie": "bedenken"
+      },
+      "konjunktiv2": {
+        "ich": "bedächte",
+        "du": "bedächtest",
+        "er_sie_es": "bedächte",
+        "wir": "bedächten",
+        "ihr": "bedächtet",
+        "sie_Sie": "bedächten"
+      },
+      "imperativ": {
+        "du": "Bedenke!",
+        "ihr": "Bedenkt!",
+        "Sie": "Bedenken Sie!"
+      }
+    },
+    "partizip1": "bedenkend",
+    "nominalisierung": "das Bedenken"
+  },
+  "wortnetz": {
+    "grundwort": "denken",
+    "woerter": [
+      {
+        "wort": "denken",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فکر کردن",
+          "en": "to think"
+        },
+        "id_ref": "verb_denken"
+      },
+      {
+        "wort": "überlegen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فکر کردن، سنجیدن",
+          "en": "to consider"
+        },
+        "id_ref": "verb_ueberlegen"
+      },
+      {
+        "wort": "die Bedenken",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تردیدها",
+          "en": "doubts"
+        },
+        "id_ref": "nomen_bedenken"
+      },
+      {
+        "wort": "berücksichtigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "در نظر گرفتن",
+          "en": "to take into account"
+        },
+        "id_ref": "verb_beruecksichtigen"
+      },
+      {
+        "wort": "bedenklich",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نگران‌کننده",
+          "en": "worrying"
+        },
+        "id_ref": "adjektiv_bedenklich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
