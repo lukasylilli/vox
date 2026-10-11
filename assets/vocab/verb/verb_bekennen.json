@@ -1,0 +1,194 @@
+{
+  "schema": "3.0",
+  "id": "verb_bekennen",
+  "wort": "bekennen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اعتراف کردن",
+      "(sich zu etwas bekennen) آشکارا پذیرفتن، مسئولیت را به عهده گرفتن"
+    ],
+    "en": [
+      "to confess",
+      "to admit",
+      "to profess (sich zu)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Religion",
+    "Gesellschaft"
+  ],
+  "ipa": "bəˈkɛnən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er bekennt seine Schuld.",
+      "uebersetzung": {
+        "fa": "او به گناهش اعتراف می‌کند.",
+        "en": "He confesses his guilt."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Eine unbekannte Gruppe hat sich zu dem Anschlag bekannt, doch die Polizei prüft die Angaben noch.",
+      "uebersetzung": {
+        "fa": "یک گروه ناشناس مسئولیت حمله را به عهده گرفت، اما پلیس هنوز ادعاها را بررسی می‌کند.",
+        "en": "An unknown group has claimed responsibility for the attack, but the police are still checking the claims."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gestehen",
+      "uebersetzung": {
+        "fa": "اعتراف کردن",
+        "en": "to confess"
+      }
+    },
+    {
+      "wort": "zugeben",
+      "uebersetzung": {
+        "fa": "پذیرفتن",
+        "en": "to admit"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "leugnen",
+      "uebersetzung": {
+        "fa": "انکار کردن",
+        "en": "to deny"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- (پیشوند) + kennen (شناختن)",
+    "en": "be- (prefix) + kennen (to know)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich zu etwas/jemandem bekennen (zu + Dat)",
+        "bedeutung": "offen zu etwas/jemandem stehen",
+        "beispiel": "Sie bekennt sich offen zu ihrem Glauben.",
+        "uebersetzung": {
+          "fa": "او آشکارا به ایمانش پایبند است.",
+          "en": "She openly professes her faith."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bekennen",
+      "praeteritum": "bekannte",
+      "partizip2": "bekannt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bekenne",
+        "du": "bekennst",
+        "er_sie_es": "bekennt",
+        "wir": "bekennen",
+        "ihr": "bekennt",
+        "sie_Sie": "bekennen"
+      },
+      "praeteritum": {
+        "ich": "bekannte",
+        "du": "bekanntest",
+        "er_sie_es": "bekannte",
+        "wir": "bekannten",
+        "ihr": "bekanntet",
+        "sie_Sie": "bekannten"
+      },
+      "konjunktiv1": {
+        "ich": "bekenne",
+        "du": "bekennest",
+        "er_sie_es": "bekenne",
+        "wir": "bekennen",
+        "ihr": "bekennet",
+        "sie_Sie": "bekennen"
+      },
+      "konjunktiv2": {
+        "ich": "bekennte",
+        "du": "bekenntest",
+        "er_sie_es": "bekennte",
+        "wir": "bekennten",
+        "ihr": "bekenntet",
+        "sie_Sie": "bekennten"
+      },
+      "imperativ": {
+        "du": "Bekenne!",
+        "ihr": "Bekennt!",
+        "Sie": "Bekennen Sie!"
+      }
+    },
+    "partizip1": "bekennend",
+    "nominalisierung": "das Bekenntnis"
+  },
+  "wortnetz": {
+    "grundwort": "kennen",
+    "woerter": [
+      {
+        "wort": "kennen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شناختن",
+          "en": "to know"
+        },
+        "id_ref": "verb_kennen"
+      },
+      {
+        "wort": "zugeben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پذیرفتن",
+          "en": "to admit"
+        },
+        "id_ref": "verb_zugeben"
+      },
+      {
+        "wort": "gestehen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اعتراف کردن",
+          "en": "to confess"
+        },
+        "id_ref": "verb_gestehen"
+      },
+      {
+        "wort": "die Schuld",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تقصیر، بدهی",
+          "en": "guilt, debt"
+        },
+        "id_ref": "nomen_schuld"
+      },
+      {
+        "wort": "das Bekenntnis",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اعتراف، اقرار",
+          "en": "confession"
+        },
+        "id_ref": "nomen_bekenntnis"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

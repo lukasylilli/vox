@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_beluegen",
+  "wort": "belügen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به کسی دروغ گفتن"
+    ],
+    "en": [
+      "to lie to"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Beziehungen",
+    "Gefühle"
+  ],
+  "ipa": "bəˈlyːɡn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Du belügst mich!",
+      "uebersetzung": {
+        "fa": "داری به من دروغ می‌گویی!",
+        "en": "You're lying to me!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie fühlte sich verletzt, weil ihr bester Freund sie monatelang belogen hatte.",
+      "uebersetzung": {
+        "fa": "احساس رنجش می‌کرد، چون بهترین دوستش ماه‌ها به او دروغ گفته بود.",
+        "en": "She felt hurt because her best friend had lied to her for months."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anlügen",
+      "uebersetzung": {
+        "fa": "به کسی دروغ گفتن",
+        "en": "to lie to"
+      }
+    },
+    {
+      "wort": "täuschen",
+      "uebersetzung": {
+        "fa": "فریب دادن",
+        "en": "to deceive"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- (پیشوند) + lügen (دروغ گفتن)",
+    "en": "be- (prefix) + lügen (to lie)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "jemanden belügen",
+        "bedeutung": "jemandem die Unwahrheit sagen — mit Akkusativ",
+        "beispiel": "Man sollte sich selbst nicht belügen.",
+        "uebersetzung": {
+          "fa": "آدم نباید به خودش دروغ بگوید.",
+          "en": "You shouldn't lie to yourself."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "belügen",
+      "praeteritum": "belog",
+      "partizip2": "belogen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "belüge",
+        "du": "belügst",
+        "er_sie_es": "belügt",
+        "wir": "belügen",
+        "ihr": "belügt",
+        "sie_Sie": "belügen"
+      },
+      "praeteritum": {
+        "ich": "belog",
+        "du": "belogst",
+        "er_sie_es": "belog",
+        "wir": "belogen",
+        "ihr": "belogt",
+        "sie_Sie": "belogen"
+      },
+      "konjunktiv1": {
+        "ich": "belüge",
+        "du": "belügest",
+        "er_sie_es": "belüge",
+        "wir": "belügen",
+        "ihr": "belüget",
+        "sie_Sie": "belügen"
+      },
+      "konjunktiv2": {
+        "ich": "belöge",
+        "du": "belögest",
+        "er_sie_es": "belöge",
+        "wir": "belögen",
+        "ihr": "belöget",
+        "sie_Sie": "belögen"
+      },
+      "imperativ": {
+        "du": "Belüg!",
+        "ihr": "Belügt!",
+        "Sie": "Belügen Sie!"
+      }
+    },
+    "partizip1": "belügend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "lügen",
+    "woerter": [
+      {
+        "wort": "lügen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دروغ گفتن",
+          "en": "to lie"
+        },
+        "id_ref": "verb_luegen"
+      },
+      {
+        "wort": "die Lüge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دروغ",
+          "en": "lie"
+        },
+        "id_ref": "nomen_luege"
+      },
+      {
+        "wort": "die Wahrheit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حقیقت",
+          "en": "truth"
+        },
+        "id_ref": "nomen_wahrheit"
+      },
+      {
+        "wort": "ehrlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صادق",
+          "en": "honest"
+        },
+        "id_ref": "adjektiv_ehrlich"
+      },
+      {
+        "wort": "täuschen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فریب دادن",
+          "en": "to deceive"
+        },
+        "id_ref": "verb_taeuschen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

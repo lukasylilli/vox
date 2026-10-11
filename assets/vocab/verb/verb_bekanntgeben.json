@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_bekanntgeben",
+  "wort": "bekanntgeben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اعلام کردن، اطلاع دادن (رسمی)"
+    ],
+    "en": [
+      "to announce",
+      "to make public"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Medien",
+    "Arbeit"
+  ],
+  "ipa": "bəˈkantˌɡeːbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Schule gibt die Termine bekannt.",
+      "uebersetzung": {
+        "fa": "مدرسه تاریخ‌ها را اعلام می‌کند.",
+        "en": "The school announces the dates."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Firma hat gestern bekanntgegeben, dass sie 200 neue Mitarbeiter einstellen wird.",
+      "uebersetzung": {
+        "fa": "شرکت دیروز اعلام کرد که ۲۰۰ کارمند جدید استخدام خواهد کرد.",
+        "en": "The company announced yesterday that it will hire 200 new employees."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "mitteilen",
+      "uebersetzung": {
+        "fa": "اطلاع دادن",
+        "en": "to inform"
+      }
+    },
+    {
+      "wort": "verkünden",
+      "uebersetzung": {
+        "fa": "اعلام کردن",
+        "en": "to proclaim"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verschweigen",
+      "uebersetzung": {
+        "fa": "پنهان کردن",
+        "en": "to keep secret"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "bekannt (آشنا، معروف) + geben (دادن)",
+    "en": "bekannt (known) + geben (to give)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas bekanntgeben",
+        "bedeutung": "etwas öffentlich mitteilen — mit Akkusativ",
+        "beispiel": "Das Ergebnis wird morgen bekanntgegeben.",
+        "uebersetzung": {
+          "fa": "نتیجه فردا اعلام می‌شود.",
+          "en": "The result will be announced tomorrow."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bekanntgeben",
+      "praeteritum": "gab bekannt",
+      "partizip2": "bekanntgegeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gebe bekannt",
+        "du": "gibst bekannt",
+        "er_sie_es": "gibt bekannt",
+        "wir": "geben bekannt",
+        "ihr": "gebt bekannt",
+        "sie_Sie": "geben bekannt"
+      },
+      "praeteritum": {
+        "ich": "gab bekannt",
+        "du": "gabst bekannt",
+        "er_sie_es": "gab bekannt",
+        "wir": "gaben bekannt",
+        "ihr": "gabt bekannt",
+        "sie_Sie": "gaben bekannt"
+      },
+      "konjunktiv1": {
+        "ich": "gebe bekannt",
+        "du": "gebest bekannt",
+        "er_sie_es": "gebe bekannt",
+        "wir": "geben bekannt",
+        "ihr": "gebet bekannt",
+        "sie_Sie": "geben bekannt"
+      },
+      "konjunktiv2": {
+        "ich": "gäbe bekannt",
+        "du": "gäbest bekannt",
+        "er_sie_es": "gäbe bekannt",
+        "wir": "gäben bekannt",
+        "ihr": "gäbet bekannt",
+        "sie_Sie": "gäben bekannt"
+      },
+      "imperativ": {
+        "du": "Gib bekannt!",
+        "ihr": "Gebt bekannt!",
+        "Sie": "Geben Sie bekannt!"
+      }
+    },
+    "partizip1": "bekanntgebend",
+    "nominalisierung": "die Bekanntgabe"
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "bekannt",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "معروف، آشنا",
+          "en": "known"
+        },
+        "id_ref": "adjektiv_bekannt"
+      },
+      {
+        "wort": "mitteilen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اطلاع دادن",
+          "en": "to inform"
+        },
+        "id_ref": "verb_mitteilen"
+      },
+      {
+        "wort": "die Nachricht",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خبر",
+          "en": "news"
+        },
+        "id_ref": "nomen_nachricht"
+      },
+      {
+        "wort": "die Ansage",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اطلاعیه (صوتی)",
+          "en": "announcement"
+        },
+        "id_ref": "nomen_ansage"
+      },
+      {
+        "wort": "veröffentlichen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "منتشر کردن",
+          "en": "to publish"
+        },
+        "id_ref": "verb_veroeffentlichen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

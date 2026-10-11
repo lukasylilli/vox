@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_belaufen",
+  "wort": "belaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(sich belaufen auf) بالغ شدن بر، رسیدن به (مبلغ)"
+    ],
+    "en": [
+      "to amount to",
+      "to come to"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Geld",
+    "Wirtschaft"
+  ],
+  "ipa": "bəˈlaʊ̯fn̩",
+  "anmerkung": "nur reflexiv, meist 3. Person: «sich auf … belaufen»",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kosten belaufen sich auf 100 Euro.",
+      "uebersetzung": {
+        "fa": "هزینه‌ها به ۱۰۰ یورو می‌رسد.",
+        "en": "The costs amount to 100 euros."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Schaden, den das Unwetter verursacht hat, beläuft sich nach ersten Schätzungen auf mehrere Millionen.",
+      "uebersetzung": {
+        "fa": "طبق اولین برآوردها، خسارتی که توفان به بار آورده به چند میلیون می‌رسد.",
+        "en": "According to first estimates, the damage caused by the storm amounts to several million."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "betragen",
+      "uebersetzung": {
+        "fa": "بالغ شدن بر",
+        "en": "to amount to"
+      }
+    },
+    {
+      "wort": "ausmachen",
+      "uebersetzung": {
+        "fa": "بالغ شدن بر",
+        "en": "to come to"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- (پیشوند) + laufen (دویدن)",
+    "en": "be- (prefix) + laufen (to run)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich auf etwas belaufen (auf + Akk)",
+        "bedeutung": "eine bestimmte Höhe erreichen",
+        "beispiel": "Die Rechnung belief sich auf 80 Euro.",
+        "uebersetzung": {
+          "fa": "صورت‌حساب ۸۰ یورو شد.",
+          "en": "The bill came to 80 euros."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "belaufen",
+      "praeteritum": "belief",
+      "partizip2": "belaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "belaufe",
+        "du": "beläufst",
+        "er_sie_es": "beläuft",
+        "wir": "belaufen",
+        "ihr": "belauft",
+        "sie_Sie": "belaufen"
+      },
+      "praeteritum": {
+        "ich": "belief",
+        "du": "beliefst",
+        "er_sie_es": "belief",
+        "wir": "beliefen",
+        "ihr": "belieft",
+        "sie_Sie": "beliefen"
+      },
+      "konjunktiv1": {
+        "ich": "belaufe",
+        "du": "belaufest",
+        "er_sie_es": "belaufe",
+        "wir": "belaufen",
+        "ihr": "belaufet",
+        "sie_Sie": "belaufen"
+      },
+      "konjunktiv2": {
+        "ich": "beliefe",
+        "du": "beliefest",
+        "er_sie_es": "beliefe",
+        "wir": "beliefen",
+        "ihr": "beliefet",
+        "sie_Sie": "beliefen"
+      },
+      "imperativ": {
+        "du": "Belauf!",
+        "ihr": "Belauft!",
+        "Sie": "Belaufen Sie!"
+      }
+    },
+    "partizip1": "belaufend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "kosten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قیمت داشتن",
+          "en": "to cost"
+        },
+        "id_ref": "verb_kosten"
+      },
+      {
+        "wort": "die Kosten",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "هزینه‌ها",
+          "en": "costs"
+        },
+        "id_ref": "nomen_kosten"
+      },
+      {
+        "wort": "betragen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بالغ شدن بر",
+          "en": "to amount to"
+        },
+        "id_ref": "verb_betragen"
+      },
+      {
+        "wort": "die Summe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جمع، مبلغ",
+          "en": "sum"
+        },
+        "id_ref": "nomen_summe"
+      },
+      {
+        "wort": "insgesamt",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "در مجموع",
+          "en": "in total"
+        },
+        "id_ref": "adverb_insgesamt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

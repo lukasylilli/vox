@@ -1,0 +1,210 @@
+{
+  "schema": "3.0",
+  "id": "verb_bekommen",
+  "wort": "bekommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گرفتن، دریافت کردن",
+      "(بیماری) گرفتن",
+      "(jemandem gut bekommen) به کسی ساختن (غذا)"
+    ],
+    "en": [
+      "to get",
+      "to receive",
+      "to agree with (food)"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Kommunikation"
+  ],
+  "ipa": "bəˈkɔmən",
+  "anmerkung": "in der Bedeutung «jemandem gut/schlecht bekommen» mit sein («Das Essen ist mir gut bekommen»)",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich bekomme einen Brief.",
+      "uebersetzung": {
+        "fa": "یک نامه دریافت می‌کنم.",
+        "en": "I'm getting a letter."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn du die Bewerbung heute abschickst, bekommst du vielleicht schon nächste Woche eine Antwort.",
+      "uebersetzung": {
+        "fa": "اگر امروز درخواستت را بفرستی، شاید همین هفته‌ی بعد جواب بگیری.",
+        "en": "If you send off the application today, you might get an answer as early as next week."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erhalten",
+      "uebersetzung": {
+        "fa": "دریافت کردن",
+        "en": "to receive"
+      }
+    },
+    {
+      "wort": "kriegen",
+      "uebersetzung": {
+        "fa": "گرفتن (محاوره)",
+        "en": "to get"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "geben",
+      "uebersetzung": {
+        "fa": "دادن",
+        "en": "to give"
+      }
+    },
+    {
+      "wort": "schicken",
+      "uebersetzung": {
+        "fa": "فرستادن",
+        "en": "to send"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- (پیشوند) + kommen (آمدن)",
+    "en": "be- (prefix) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas bekommen",
+        "bedeutung": "etwas erhalten — mit Akkusativ",
+        "beispiel": "Wir bekommen morgen Besuch.",
+        "uebersetzung": {
+          "fa": "فردا مهمان داریم.",
+          "en": "We're having visitors tomorrow."
+        }
+      },
+      {
+        "muster": "jemandem gut/schlecht bekommen (mit Dat, sein)",
+        "bedeutung": "für jemanden (un)verträglich sein",
+        "beispiel": "Fettes Essen bekommt mir nicht.",
+        "uebersetzung": {
+          "fa": "غذای چرب به من نمی‌سازد.",
+          "en": "Fatty food doesn't agree with me."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bekommen",
+      "praeteritum": "bekam",
+      "partizip2": "bekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bekomme",
+        "du": "bekommst",
+        "er_sie_es": "bekommt",
+        "wir": "bekommen",
+        "ihr": "bekommt",
+        "sie_Sie": "bekommen"
+      },
+      "praeteritum": {
+        "ich": "bekam",
+        "du": "bekamst",
+        "er_sie_es": "bekam",
+        "wir": "bekamen",
+        "ihr": "bekamt",
+        "sie_Sie": "bekamen"
+      },
+      "konjunktiv1": {
+        "ich": "bekomme",
+        "du": "bekommest",
+        "er_sie_es": "bekomme",
+        "wir": "bekommen",
+        "ihr": "bekommet",
+        "sie_Sie": "bekommen"
+      },
+      "konjunktiv2": {
+        "ich": "bekäme",
+        "du": "bekämest",
+        "er_sie_es": "bekäme",
+        "wir": "bekämen",
+        "ihr": "bekämet",
+        "sie_Sie": "bekämen"
+      },
+      "imperativ": {
+        "du": "Bekomm!",
+        "ihr": "Bekommt!",
+        "Sie": "Bekommen Sie!"
+      }
+    },
+    "partizip1": "bekommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "erhalten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دریافت کردن",
+          "en": "to receive"
+        },
+        "id_ref": "verb_erhalten"
+      },
+      {
+        "wort": "kriegen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گرفتن",
+          "en": "to get"
+        },
+        "id_ref": "verb_kriegen"
+      },
+      {
+        "wort": "das Geschenk",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "هدیه",
+          "en": "present"
+        },
+        "id_ref": "nomen_geschenk"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

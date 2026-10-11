@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_beleihen",
+  "wort": "beleihen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(چیزی را) گرو گذاشتن و وام گرفتن"
+    ],
+    "en": [
+      "to borrow against",
+      "to mortgage"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Geld",
+    "Wirtschaft"
+  ],
+  "ipa": "bəˈlaɪ̯ən",
+  "anmerkung": "Fachwort (Bank)",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er beleiht sein Haus.",
+      "uebersetzung": {
+        "fa": "او خانه‌اش را برای وام گرو می‌گذارد.",
+        "en": "He is borrowing against his house."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Um das Geschäft zu retten, mussten sie ihre Lebensversicherung beleihen.",
+      "uebersetzung": {
+        "fa": "برای نجات کسب‌وکار، مجبور شدند بیمه‌ی عمرشان را گرو بگذارند.",
+        "en": "To save the business, they had to borrow against their life insurance."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verpfänden",
+      "uebersetzung": {
+        "fa": "گرو گذاشتن",
+        "en": "to pawn"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- (پیشوند) + leihen (قرض دادن)",
+    "en": "be- (prefix) + leihen (to lend)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas beleihen",
+        "bedeutung": "auf etwas als Sicherheit einen Kredit geben/nehmen — mit Akkusativ",
+        "beispiel": "Die Bank beleiht Immobilien bis zu 80 Prozent.",
+        "uebersetzung": {
+          "fa": "بانک تا ۸۰ درصد ارزش ملک وام می‌دهد.",
+          "en": "The bank lends up to 80 percent against property."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beleihen",
+      "praeteritum": "belieh",
+      "partizip2": "beliehen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beleihe",
+        "du": "beleihst",
+        "er_sie_es": "beleiht",
+        "wir": "beleihen",
+        "ihr": "beleiht",
+        "sie_Sie": "beleihen"
+      },
+      "praeteritum": {
+        "ich": "belieh",
+        "du": "beliehst",
+        "er_sie_es": "belieh",
+        "wir": "beliehen",
+        "ihr": "belieht",
+        "sie_Sie": "beliehen"
+      },
+      "konjunktiv1": {
+        "ich": "beleihe",
+        "du": "beleihest",
+        "er_sie_es": "beleihe",
+        "wir": "beleihen",
+        "ihr": "beleihet",
+        "sie_Sie": "beleihen"
+      },
+      "konjunktiv2": {
+        "ich": "beliehe",
+        "du": "beliehest",
+        "er_sie_es": "beliehe",
+        "wir": "beliehen",
+        "ihr": "beliehet",
+        "sie_Sie": "beliehen"
+      },
+      "imperativ": {
+        "du": "Beleih!",
+        "ihr": "Beleiht!",
+        "Sie": "Beleihen Sie!"
+      }
+    },
+    "partizip1": "beleihend",
+    "nominalisierung": "die Beleihung"
+  },
+  "wortnetz": {
+    "grundwort": "leihen",
+    "woerter": [
+      {
+        "wort": "leihen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قرض دادن",
+          "en": "to lend"
+        },
+        "id_ref": "verb_leihen"
+      },
+      {
+        "wort": "die Bank",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بانک",
+          "en": "bank"
+        },
+        "id_ref": "nomen_bank"
+      },
+      {
+        "wort": "der Kredit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وام",
+          "en": "loan"
+        },
+        "id_ref": "nomen_kredit"
+      },
+      {
+        "wort": "die Hypothek",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رهن",
+          "en": "mortgage"
+        },
+        "id_ref": "nomen_hypothek"
+      },
+      {
+        "wort": "die Sicherheit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "امنیت، وثیقه",
+          "en": "security"
+        },
+        "id_ref": "nomen_sicherheit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_bemessen",
+  "wort": "bemessen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تعیین کردن، سنجیدن (مقدار، زمان)"
+    ],
+    "en": [
+      "to calculate",
+      "to allot",
+      "to measure out"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Recht"
+  ],
+  "ipa": "bəˈmɛsn̩",
+  "anmerkung": "häufig im Partizip: «knapp bemessen»",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Zeit ist knapp bemessen.",
+      "uebersetzung": {
+        "fa": "وقت تنگ است.",
+        "en": "Time is tight."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Höhe der Strafe wird danach bemessen, wie schwer der Verstoß war.",
+      "uebersetzung": {
+        "fa": "میزان جریمه بر اساس شدت تخلف تعیین می‌شود.",
+        "en": "The amount of the penalty is calculated according to how serious the violation was."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "festlegen",
+      "uebersetzung": {
+        "fa": "تعیین کردن",
+        "en": "to set"
+      }
+    },
+    {
+      "wort": "berechnen",
+      "uebersetzung": {
+        "fa": "محاسبه کردن",
+        "en": "to calculate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- (پیشوند) + messen (اندازه گرفتن)",
+    "en": "be- (prefix) + messen (to measure)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas nach etwas bemessen (nach + Dat)",
+        "bedeutung": "die Größe von etwas anhand eines Maßstabs festlegen",
+        "beispiel": "Der Lohn wird nach der Leistung bemessen.",
+        "uebersetzung": {
+          "fa": "دستمزد بر اساس عملکرد تعیین می‌شود.",
+          "en": "Pay is calculated according to performance."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bemessen",
+      "praeteritum": "bemaß",
+      "partizip2": "bemessen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bemesse",
+        "du": "bemisst",
+        "er_sie_es": "bemisst",
+        "wir": "bemessen",
+        "ihr": "bemesst",
+        "sie_Sie": "bemessen"
+      },
+      "praeteritum": {
+        "ich": "bemaß",
+        "du": "bemaßest",
+        "er_sie_es": "bemaß",
+        "wir": "bemaßen",
+        "ihr": "bemaßt",
+        "sie_Sie": "bemaßen"
+      },
+      "konjunktiv1": {
+        "ich": "bemesse",
+        "du": "bemessest",
+        "er_sie_es": "bemesse",
+        "wir": "bemessen",
+        "ihr": "bemesset",
+        "sie_Sie": "bemessen"
+      },
+      "konjunktiv2": {
+        "ich": "bemäße",
+        "du": "bemäßest",
+        "er_sie_es": "bemäße",
+        "wir": "bemäßen",
+        "ihr": "bemäßet",
+        "sie_Sie": "bemäßen"
+      },
+      "imperativ": {
+        "du": "Bemiss!",
+        "ihr": "Bemesst!",
+        "Sie": "Bemessen Sie!"
+      }
+    },
+    "partizip1": "bemessend",
+    "nominalisierung": "die Bemessung"
+  },
+  "wortnetz": {
+    "grundwort": "messen",
+    "woerter": [
+      {
+        "wort": "messen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اندازه گرفتن",
+          "en": "to measure"
+        },
+        "id_ref": "verb_messen"
+      },
+      {
+        "wort": "knapp",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کم، تنگ",
+          "en": "scarce, tight"
+        },
+        "id_ref": "adjektiv_knapp"
+      },
+      {
+        "wort": "berechnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "محاسبه کردن",
+          "en": "to calculate"
+        },
+        "id_ref": "verb_berechnen"
+      },
+      {
+        "wort": "festlegen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تعیین کردن",
+          "en": "to set"
+        },
+        "id_ref": "verb_festlegen"
+      },
+      {
+        "wort": "das Maß",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اندازه، معیار",
+          "en": "measure"
+        },
+        "id_ref": "nomen_mass"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

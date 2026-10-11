@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_beladen",
+  "wort": "beladen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بار زدن، بار کردن"
+    ],
+    "en": [
+      "to load"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Transport"
+  ],
+  "ipa": "bəˈlaːdn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir beladen das Auto.",
+      "uebersetzung": {
+        "fa": "ماشین را بار می‌زنیم.",
+        "en": "We're loading the car."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Lkw war so schwer beladen, dass er nur langsam den Berg hinauffahren konnte.",
+      "uebersetzung": {
+        "fa": "کامیون آن‌قدر سنگین بار شده بود که فقط آهسته می‌توانست از کوه بالا برود.",
+        "en": "The lorry was so heavily loaded that it could only drive slowly up the hill."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufladen",
+      "uebersetzung": {
+        "fa": "بار زدن",
+        "en": "to load"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "entladen",
+      "uebersetzung": {
+        "fa": "خالی کردن",
+        "en": "to unload"
+      }
+    },
+    {
+      "wort": "ausladen",
+      "uebersetzung": {
+        "fa": "بار خالی کردن",
+        "en": "to unload"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- (پیشوند) + laden (بار کردن)",
+    "en": "be- (prefix) + laden (to load)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas mit etwas beladen (mit + Dat)",
+        "bedeutung": "etwas mit einer Ladung füllen",
+        "beispiel": "Sie beluden den Wagen mit Kisten.",
+        "uebersetzung": {
+          "fa": "ماشین را با جعبه‌ها بار کردند.",
+          "en": "They loaded the van with boxes."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beladen",
+      "praeteritum": "belud",
+      "partizip2": "beladen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "belade",
+        "du": "belädst",
+        "er_sie_es": "belädt",
+        "wir": "beladen",
+        "ihr": "beladet",
+        "sie_Sie": "beladen"
+      },
+      "praeteritum": {
+        "ich": "belud",
+        "du": "beludest",
+        "er_sie_es": "belud",
+        "wir": "beluden",
+        "ihr": "beludet",
+        "sie_Sie": "beluden"
+      },
+      "konjunktiv1": {
+        "ich": "belade",
+        "du": "beladest",
+        "er_sie_es": "belade",
+        "wir": "beladen",
+        "ihr": "beladet",
+        "sie_Sie": "beladen"
+      },
+      "konjunktiv2": {
+        "ich": "belüde",
+        "du": "belüdest",
+        "er_sie_es": "belüde",
+        "wir": "belüden",
+        "ihr": "belüdet",
+        "sie_Sie": "belüden"
+      },
+      "imperativ": {
+        "du": "Belade!",
+        "ihr": "Beladet!",
+        "Sie": "Beladen Sie!"
+      }
+    },
+    "partizip1": "beladend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laden",
+    "woerter": [
+      {
+        "wort": "laden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بار کردن",
+          "en": "to load"
+        },
+        "id_ref": "verb_laden"
+      },
+      {
+        "wort": "der Lkw",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کامیون",
+          "en": "lorry"
+        },
+        "id_ref": "nomen_lkw"
+      },
+      {
+        "wort": "schwer",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سنگین",
+          "en": "heavy"
+        },
+        "id_ref": "adjektiv_schwer"
+      },
+      {
+        "wort": "die Ladung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بار",
+          "en": "load"
+        },
+        "id_ref": "nomen_ladung"
+      },
+      {
+        "wort": "ausladen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بار خالی کردن",
+          "en": "to unload"
+        },
+        "id_ref": "verb_ausladen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

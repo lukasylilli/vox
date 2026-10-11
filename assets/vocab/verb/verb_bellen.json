@@ -1,0 +1,156 @@
+{
+  "schema": "3.0",
+  "id": "verb_bellen",
+  "wort": "bellen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پارس کردن"
+    ],
+    "en": [
+      "to bark"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Tiere"
+  ],
+  "ipa": "ˈbɛlən",
+  "anmerkung": "steht in der Liste der unregelmäßigen Verben, wird aber regelmäßig konjugiert (Duden; veraltet: boll, gebollen)",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hund bellt laut.",
+      "uebersetzung": {
+        "fa": "سگ بلند پارس می‌کند.",
+        "en": "The dog barks loudly."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Jedes Mal, wenn der Postbote kommt, bellt der Hund der Nachbarn, bis er wieder weg ist.",
+      "uebersetzung": {
+        "fa": "هر بار که پستچی می‌آید، سگ همسایه پارس می‌کند تا او برود.",
+        "en": "Every time the postman comes, the neighbours' dog barks until he has gone."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Erbwort (کلمه‌ی اصیل آلمانی)",
+    "en": "native Germanic word"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "bellen",
+      "praeteritum": "bellte",
+      "partizip2": "gebellt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "belle",
+        "du": "bellst",
+        "er_sie_es": "bellt",
+        "wir": "bellen",
+        "ihr": "bellt",
+        "sie_Sie": "bellen"
+      },
+      "praeteritum": {
+        "ich": "bellte",
+        "du": "belltest",
+        "er_sie_es": "bellte",
+        "wir": "bellten",
+        "ihr": "belltet",
+        "sie_Sie": "bellten"
+      },
+      "konjunktiv1": {
+        "ich": "belle",
+        "du": "bellest",
+        "er_sie_es": "belle",
+        "wir": "bellen",
+        "ihr": "bellet",
+        "sie_Sie": "bellen"
+      },
+      "konjunktiv2": {
+        "ich": "bellte",
+        "du": "belltest",
+        "er_sie_es": "bellte",
+        "wir": "bellten",
+        "ihr": "belltet",
+        "sie_Sie": "bellten"
+      },
+      "imperativ": {
+        "du": "Bell!",
+        "ihr": "Bellt!",
+        "Sie": "Bellen Sie!"
+      }
+    },
+    "partizip1": "bellend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Hund",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سگ",
+          "en": "dog"
+        },
+        "id_ref": "nomen_hund"
+      },
+      {
+        "wort": "laut",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بلند",
+          "en": "loud"
+        },
+        "id_ref": "adjektiv_laut"
+      },
+      {
+        "wort": "die Katze",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گربه",
+          "en": "cat"
+        },
+        "id_ref": "nomen_katze"
+      },
+      {
+        "wort": "knurren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "غریدن",
+          "en": "to growl"
+        },
+        "id_ref": "verb_knurren"
+      },
+      {
+        "wort": "miauen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "میو کردن",
+          "en": "to miaow"
+        },
+        "id_ref": "verb_miauen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
