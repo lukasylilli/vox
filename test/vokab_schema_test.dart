@@ -24,7 +24,14 @@ Map<String, dynamic> gueltigesVerb() => {
         'hilfsverb': 'haben',
         'reflexiv': 'nein',
         'stammformen': {'infinitiv': 'lernen'},
-        'konjugation': {'praesens': {}},
+        'modalverb': false,
+        'konjugation': {
+          'praesens': {},
+          'praeteritum': {},
+          'konjunktiv1': {},
+          'konjunktiv2': {},
+          'imperativ': {},
+        },
       },
       'wortnetz': {
         'grundwort': 'lernen',

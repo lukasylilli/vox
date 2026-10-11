@@ -45,7 +45,7 @@ const listen = <(String, String)>[
 /// nie null Treffer). Offen (entscheidet Lukas): eigene Wortseite je Form
 /// oder alle Formen auf der Seite des Infinitivs. Erst wenn Lukas
 /// entschieden hat, wird dies auf `true` gesetzt (PLAN.md → «📚 روال …»).
-const verbenFreigegeben = false;
+const verbenFreigegeben = true; // Lukas 2026-10-11: Variante (b) — PLAN «✅ افعال»
 
 /// Wörter, die Claude nicht sicher beschreiben konnte (Regel 14 des
 /// Wort-Prompts: nie raten) — warten auf Lukas. Mit Datum/Grund in PLAN.md.

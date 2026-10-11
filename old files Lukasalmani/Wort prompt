@@ -62,6 +62,26 @@ TEIL 0 — GLOBALE REGELN
     + Akk) + 1 klarer Beispielsatz, der genau dieses Muster zeigt, mit
     Übersetzung { "fa": ..., "en": ... }. Nur wenn wirklich KEINE feste
     Präposition existiert: [] (leere Liste).
+16. VERBEN (Entscheidung Lukas, 2026-10-11):
+    · ALLE Formen eines Verbs stehen auf EINER Karte (Lemma = Infinitiv,
+      ohne «sich»); die App findet über die Suche jede Form (ging,
+      gegangen, ginge, anzurufen, rief … an …). Deshalb "konjugation"
+      VOLLSTÄNDIG füllen — auch "konjunktiv1" und "konjunktiv2" (TEIL 2).
+    · Jedes Verb mit Präfix oder Partikel ist ein EIGENES Verb mit eigener
+      Karte: rufen ≠ anrufen, scheiden ≠ entscheiden — nie zusammenlegen,
+      nie als Form des einfachen Verbs behandeln.
+    · Eine Form mit EIGENER Bedeutung bekommt eine eigene Karte (eigene
+      Wortart): Nomen wie «die Arbeit» (≠ arbeiten), lexikalisierte
+      Partizipien wie «bekannt», «spannend», «gelassen». Auf der Verbkarte
+      nur in "nominalisierung" bzw. im "wortnetz" darauf verweisen.
+    · Trennbare Verben: Formen MIT abgetrennter Partikel am Ende
+      («rufe an», «rief an», «Ruf an!» / «Rufe an!»), Partizip II
+      zusammen («angerufen»).
+    · Reflexive Verben: Formen OHNE Reflexivpronomen («wasche»), die
+      Reflexivität steht in "reflexiv".
+    · "trennbar", "regelmaessig", "modalverb": nur sicher (Duden) —
+      sie bestimmen das Symbol der Karte (Grammatikon). Gemischte Verben
+      (bringen, denken, kennen) ⇒ "regelmaessig": false.
 
 ========================================================================
 TEIL 1 — BASISOBJEKT (Feldreihenfolge beibehalten)
@@ -107,7 +127,8 @@ TEIL 2 — DETAILS je WORTART
 --- 2. VERB ---
 {
   "trennbar": <true | false>,
-  "regelmaessig": <true | false>,
+  "regelmaessig": <true | false — gemischte Verben (bringen, denken) ⇒ false>,
+  "modalverb": <true | false — true NUR bei dürfen, können, mögen, müssen, sollen, wollen>,
   "hilfsverb": "<haben | sein>",
   "reflexiv": "<nein | optional | obligatorisch>",
   "rektion": [ { "muster": "<Verb + Akk / + Dat / + Präposition + Kasus, z. B. warten auf + Akk — Regel 15: feste Präposition PFLICHT wenn vorhanden>", "bedeutung": "<...>", "beispiel": "<klarer Satz, der genau dieses Muster zeigt>", "uebersetzung": { "fa": "<ترجمه جمله نمونه>", "en": "<sentence translation>" } } ],
@@ -115,6 +136,8 @@ TEIL 2 — DETAILS je WORTART
   "konjugation": {
     "praesens":    { "ich": "", "du": "", "er_sie_es": "", "wir": "", "ihr": "", "sie_Sie": "" },
     "praeteritum": { "ich": "", "du": "", "er_sie_es": "", "wir": "", "ihr": "", "sie_Sie": "" },
+    "konjunktiv1": { "ich": "", "du": "", "er_sie_es": "", "wir": "", "ihr": "", "sie_Sie": "" },
+    "konjunktiv2": { "ich": "<eigene Form: ginge, käme, hätte, wäre; bei regelmäßigen Verben = Präteritum; NIE «würde …»>", "du": "", "er_sie_es": "", "wir": "", "ihr": "", "sie_Sie": "" },
     "imperativ":   { "du": "", "ihr": "", "Sie": "" }
   },
   "partizip1": "<...>",

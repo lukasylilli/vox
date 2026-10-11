@@ -17,7 +17,6 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../data/vokab_index.dart';
-import '../../../core/wort/wort_form.dart';
 import '../data/vokab_formen.dart';
 
 // vokabId (ID-Regel 5) lebt in vokab_schema.dart (reines Dart) — EINE
@@ -89,9 +88,12 @@ final vokabSucheProvider =
   final q = query.trim();
   if (q.isEmpty) return const [];
   final alle = await ref.watch(vokabIndexProvider.future);
-  final ueberForm = await ref.watch(vokabNachFormProvider(
-          wortSchluessel(q))
-      .future);
+  // Alle Schlüssel der Anfrage (ganze Anfrage, getrenntes Verb wieder
+  // zusammengesetzt, einzelne Wörter — vokabSuchSchluessel).
+  final ueberForm = <Map<String, dynamic>>[];
+  for (final s in vokabSuchSchluessel(q)) {
+    ueberForm.addAll(await ref.watch(vokabNachFormProvider(s).future));
+  }
   return vokabTrefferZusammen(
       ueberForm, [for (final k in alle) if (vokabKartePasst(k, q)) k]);
 });

@@ -11,11 +11,20 @@
 //          wären es sonst mehrere MB — so lädt ein Antippen nur ein Stück.
 //
 // QUELLEN — nur was die Karte selbst sagt, plus feste Grammatikregeln:
-//   · Verb:  details.konjugation (praesens / praeteritum / imperativ …) und
+//   · Verb (Entscheidung Lukas 2026-10-11: ALLE Formen eines Verbs stehen
+//            auf der Seite des Infinitivs und die Suche findet sie):
+//            details.konjugation (praesens, praeteritum, imperativ,
+//            konjunktiv1, konjunktiv2 — alles, was die Karte nennt) und
 //            details.stammformen (praeteritum, partizip2). Von jeder Form
-//            zählt nur das ERSTE Wort — «biete an» ⇒ «biete»; die Partikel
-//            «an» und Hilfsverben («hat angeboten») würden sonst auf jedes
-//            Verb zeigen.
+//            zählt das ERSTE Wort — «biete an» ⇒ «biete»; die Partikel «an»
+//            allein würde sonst auf jedes Verb zeigen. Bei trennbaren Verben
+//            zusätzlich Partikel + erstes Wort zusammen («bot an» ⇒ «anbot»):
+//            die Suche setzt «bot … an» genauso zusammen
+//            (vokabSuchSchluessel). Dazu feste Grammatikregeln, nie geraten:
+//            Partizip I und II mit den Adjektivendungen (angebotene …),
+//            zu-Infinitiv («anzubieten», «zu bieten») und Gerundiv
+//            («anzubietende»), Genitiv des nominalisierten Infinitivs
+//            («des Anbietens»).
 //   · Nomen: details.plural (ohne Artikel); dazu die festen Endungen
 //            Genitiv Singular -s/-es (der/das, deklinationstyp normal) und
 //            Dativ Plural -n (Plural nicht auf -n/-s).
@@ -66,18 +75,7 @@ Set<String> formenAusKarte(Map<String, dynamic> karte) {
 
   switch (wortart) {
     case 'verb':
-      void ersteWorte(Object? knoten) {
-        if (knoten is String) {
-          final teile = knoten.trim().split(RegExp(r'\s+'));
-          if (teile.isNotEmpty) form(teile.first);
-        } else if (knoten is Map) {
-          knoten.values.forEach(ersteWorte);
-        }
-      }
-      ersteWorte(details['konjugation']);
-      final stamm = (details['stammformen'] as Map?) ?? const {};
-      ersteWorte(stamm['praeteritum']);
-      ersteWorte(stamm['partizip2']);
+      formen.addAll(_verbFormen(grund, details, wortSchluessel));
 
     case 'nomen':
       final plural = _ohneArtikel(details['plural'] as String? ?? '');
@@ -120,6 +118,109 @@ Set<String> formenAusKarte(Map<String, dynamic> karte) {
   return formen;
 }
 
+/// Alle Formen eines Verbs (Schlüssel). Nur aus dem, was die Karte nennt, und
+/// festen Regeln — siehe Kopfkommentar.
+Set<String> _verbFormen(
+  String grund,
+  Map<String, dynamic> details,
+  String Function(String) schluessel,
+) {
+  final formen = <String>{};
+  void form(String? text) {
+    final k = schluessel(text ?? '');
+    if (k.isNotEmpty) formen.add(k);
+  }
+
+  List<String> woerter(String text) => wortBereinigt(text)
+      .split(RegExp(r'\s+'))
+      .map(wortBereinigt)
+      .where((t) => t.isNotEmpty)
+      .toList();
+
+  final stamm = (details['stammformen'] as Map?) ?? const {};
+  var infinitiv = (stamm['infinitiv'] as String?)?.trim() ?? '';
+  if (infinitiv.isEmpty) infinitiv = grund;
+  final infTeile = woerter(infinitiv);
+  // «sich waschen» ⇒ «waschen»
+  final inf = infTeile.isEmpty ? '' : infTeile.last;
+  final trennbar = details['trennbar'] == true;
+  final konj = (details['konjugation'] as Map?) ?? const {};
+
+  // Partikel eines trennbaren Verbs: letztes Wort von «rufe an», wenn der
+  // Infinitiv damit beginnt («anrufen»). Sonst null (kein Raten).
+  String? partikel;
+  if (trennbar) {
+    final ich = ((konj['praesens'] as Map?)?['ich'] as String?) ?? '';
+    final t = woerter(ich);
+    if (t.length >= 2) {
+      final p = t.last.toLowerCase();
+      if (p != t.first.toLowerCase() &&
+          inf.toLowerCase().startsWith(p) &&
+          inf.length > p.length) {
+        partikel = p;
+      }
+    }
+  }
+
+  void konjugierteForm(String text) {
+    final t = woerter(text);
+    if (t.isEmpty) return;
+    form(t.first);
+    if (partikel != null && t.length >= 2 && t.last.toLowerCase() == partikel) {
+      form('$partikel${t.first}');
+    }
+  }
+
+  void alle(Object? knoten) {
+    if (knoten is String) {
+      konjugierteForm(knoten);
+    } else if (knoten is Map) {
+      knoten.values.forEach(alle);
+    }
+  }
+
+  alle(konj);
+  alle(stamm['praeteritum']);
+
+  void mitEndungen(String stammForm) {
+    for (final e in _adjektivEndungen) {
+      form(
+        stammForm.endsWith('e') && e.startsWith('e')
+            ? '$stammForm${e.substring(1)}'
+            : '$stammForm$e',
+      );
+    }
+  }
+
+  // Partizip II: das LETZTE Wort («hat angeboten» ⇒ «angeboten»).
+  final p2Teile = woerter(stamm['partizip2'] as String? ?? '');
+  if (p2Teile.isNotEmpty) {
+    form(p2Teile.last);
+    mitEndungen(p2Teile.last);
+  }
+  // Partizip I («anbietend») + Endungen.
+  final p1Teile = woerter(details['partizip1'] as String? ?? '');
+  if (p1Teile.isNotEmpty) {
+    form(p1Teile.last);
+    mitEndungen(p1Teile.last);
+  }
+
+  if (inf.isNotEmpty) {
+    // zu-Infinitiv und Gerundiv.
+    if (partikel != null) {
+      final zu = '${partikel}zu${inf.substring(partikel.length)}';
+      form(zu);
+      mitEndungen('${zu}d');
+    } else {
+      form('zu $inf');
+      mitEndungen('zu ${inf}d');
+    }
+    // Genitiv des nominalisierten Infinitivs: «des Anbietens».
+    form('${inf}s');
+  }
+  return formen;
+}
+
 /// Stämme, an die die Deklinationsendung tritt.
 Set<String> _adjektivStaemme(String positiv) {
   final p = positiv.trim();
@@ -139,6 +240,36 @@ String _ohneArtikel(String text) {
     return teile.sublist(1).join(' ');
   }
   return text.trim();
+}
+
+/// Schlüssel, unter denen die Suche [anfrage] in der Formen-Tabelle sucht —
+/// in dieser Reihenfolge, ohne Doppelte (Entscheidung Lukas 2026-10-11:
+/// jede Form eines Verbs findet den Infinitiv):
+///   1. die ganze Anfrage («zu gehen», «aalartige»);
+///   2. bei mehreren Wörtern: letztes + erstes Wort zusammen — so steht ein
+///      getrenntes Verb in der Tabelle («rief an», «rufe mich an» ⇒ «anrief»,
+///      «anrufe»);
+///   3. jedes Wort einzeln («hat angerufen» ⇒ «angerufen», «ist gegangen» ⇒
+///      «gegangen»; das Hilfsverb findet dabei auch haben/sein — gewollt:
+///      die Suche zeigt alle passenden Karten).
+List<String> vokabSuchSchluessel(String anfrage) {
+  final schluessel = <String>[];
+  void dazu(String text) {
+    final k = wortSchluessel(text);
+    if (k.isNotEmpty && !schluessel.contains(k)) schluessel.add(k);
+  }
+
+  dazu(anfrage);
+  final woerter = wortBereinigt(anfrage)
+      .split(RegExp(r'\s+'))
+      .map(wortBereinigt)
+      .where((t) => t.isNotEmpty)
+      .toList();
+  if (woerter.length >= 2) {
+    dazu('${woerter.last}${woerter.first}');
+    woerter.forEach(dazu);
+  }
+  return schluessel;
 }
 
 /// Baut die Formen-Tabelle für alle Karten: Dateipfad → JSON-Text.

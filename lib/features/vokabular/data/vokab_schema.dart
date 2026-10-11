@@ -20,8 +20,8 @@ const _wortnetzOptional = {'artikel', 'pronomen', 'partikel'};
 /// Pflichtfelder in details je Wortart (TEIL 2) — fehlt eins → Warnung.
 const _detailPflicht = <String, Set<String>>{
   'nomen': {'genus', 'plural', 'deklinationstyp', 'zaehlbar'},
-  'verb': {'trennbar', 'regelmaessig', 'hilfsverb', 'reflexiv', 'stammformen',
-      'konjugation'},
+  'verb': {'trennbar', 'regelmaessig', 'modalverb', 'hilfsverb', 'reflexiv',
+      'stammformen', 'konjugation'},
   'adjektiv': {'steigerung', 'steigerung_regelmaessig', 'gebrauch'},
   'artikel': {'typ', 'deklination'},
   'pronomen': {'untertyp', 'deklination'},
@@ -169,6 +169,17 @@ VokabPruefung vokabPruefeKarte(Map<String, dynamic> roh) {
     if (konj is Map && konj.containsKey('perfekt')) {
       warnungen.add('[$label] konjugation.perfekt entfernt (App baut es)');
       konj.remove('perfekt');
+    }
+    // Regel 16 (Lukas 2026-10-11): alle Formen auf einer Karte — die Suche
+    // findet nur, was die Karte nennt (vokab_formen.dart).
+    if (konj is Map) {
+      for (final teil in const [
+        'praesens', 'praeteritum', 'konjunktiv1', 'konjunktiv2', 'imperativ',
+      ]) {
+        if (!konj.containsKey(teil)) {
+          warnungen.add('[$label] konjugation.$teil fehlt (Regel 16)');
+        }
+      }
     }
   }
   if (wortart == 'nomen' && details.containsKey('genitiv')) {

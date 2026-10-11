@@ -79,6 +79,10 @@ class DetailsRenderer extends StatelessWidget {
     final praesens = (konj?['praesens'] as Map?)?.cast<String, dynamic>();
     final praeteritum = (konj?['praeteritum'] as Map?)?.cast<String, dynamic>();
     final imperativ = (konj?['imperativ'] as Map?)?.cast<String, dynamic>();
+    final konjunktiv1 =
+        (konj?['konjunktiv1'] as Map?)?.cast<String, dynamic>();
+    final konjunktiv2 =
+        (konj?['konjunktiv2'] as Map?)?.cast<String, dynamic>();
     final hilfsverb = d['hilfsverb'] as String?;
     final partizip2 = stamm?['partizip2'] as String?;
 
@@ -89,6 +93,8 @@ class DetailsRenderer extends StatelessWidget {
       Sektion(titel: 'Grammatik', children: [
         Zeile(label: 'Trennbar', wert: _jaNein(d['trennbar'])),
         Zeile(label: 'Regelmäßig', wert: _jaNein(d['regelmaessig'])),
+        if (d['modalverb'] == true)
+          Zeile(label: 'Modalverb', wert: _jaNein(d['modalverb'])),
         Zeile(label: 'Hilfsverb', wert: hilfsverb),
         Zeile(label: 'Reflexiv', wert: d['reflexiv'] as String?),
         Zeile(label: 'Partizip I', wert: d['partizip1'] as String?),
@@ -119,6 +125,22 @@ class DetailsRenderer extends StatelessWidget {
                 ],
             ],
           ),
+          // Regel 16 (2026-10-11): Konjunktiv I/II — nur, wenn die Karte sie
+          // nennt (ältere Karten haben sie nicht).
+          if (konjunktiv1 != null || konjunktiv2 != null) ...[
+            const SizedBox(height: 10),
+            Tabelle(
+              kopf: const ['', 'Konjunktiv I', 'Konjunktiv II'],
+              zeilen: [
+                for (var i = 0; i < personen.length; i++)
+                  [
+                    labels[i],
+                    konjunktiv1?[personen[i]] as String?,
+                    konjunktiv2?[personen[i]] as String?,
+                  ],
+              ],
+            ),
+          ],
           if (imperativ != null) ...[
             const SizedBox(height: 10),
             Tabelle(kopf: const ['Imperativ', 'du', 'ihr', 'Sie'], zeilen: [
