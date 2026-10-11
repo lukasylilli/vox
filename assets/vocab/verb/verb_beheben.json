@@ -1,0 +1,194 @@
+{
+  "schema": "3.0",
+  "id": "verb_beheben",
+  "wort": "beheben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "رفع کردن (عیب، مشکل)",
+      "(اتریش) برداشت کردن (پول از حساب)"
+    ],
+    "en": [
+      "to fix",
+      "to remedy",
+      "(Austria) to withdraw (money)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Technik",
+    "Arbeit",
+    "Geld"
+  ],
+  "ipa": "bəˈheːbn̩",
+  "anmerkung": "österreichisch auch: Geld vom Konto abheben",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Techniker behebt den Fehler.",
+      "uebersetzung": {
+        "fa": "تکنسین ایراد را رفع می‌کند.",
+        "en": "The technician fixes the fault."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Problem mit der Heizung konnte erst behoben werden, nachdem das Ersatzteil geliefert worden war.",
+      "uebersetzung": {
+        "fa": "مشکل شوفاژ تازه وقتی رفع شد که قطعه‌ی یدکی رسید.",
+        "en": "The problem with the heating could only be fixed after the spare part had been delivered."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beseitigen",
+      "uebersetzung": {
+        "fa": "برطرف کردن",
+        "en": "to eliminate"
+      }
+    },
+    {
+      "wort": "reparieren",
+      "uebersetzung": {
+        "fa": "تعمیر کردن",
+        "en": "to repair"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verursachen",
+      "uebersetzung": {
+        "fa": "سبب شدن",
+        "en": "to cause"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- (پیشوند) + heben (بلند کردن)",
+    "en": "be- (prefix) + heben (to lift)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas beheben",
+        "bedeutung": "einen Mangel beseitigen — mit Akkusativ",
+        "beispiel": "Wir beheben den Schaden so schnell wie möglich.",
+        "uebersetzung": {
+          "fa": "خسارت را هر چه زودتر رفع می‌کنیم.",
+          "en": "We will repair the damage as quickly as possible."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beheben",
+      "praeteritum": "behob",
+      "partizip2": "behoben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "behebe",
+        "du": "behebst",
+        "er_sie_es": "behebt",
+        "wir": "beheben",
+        "ihr": "behebt",
+        "sie_Sie": "beheben"
+      },
+      "praeteritum": {
+        "ich": "behob",
+        "du": "behobst",
+        "er_sie_es": "behob",
+        "wir": "behoben",
+        "ihr": "behobt",
+        "sie_Sie": "behoben"
+      },
+      "konjunktiv1": {
+        "ich": "behebe",
+        "du": "behebest",
+        "er_sie_es": "behebe",
+        "wir": "beheben",
+        "ihr": "behebet",
+        "sie_Sie": "beheben"
+      },
+      "konjunktiv2": {
+        "ich": "behöbe",
+        "du": "behöbest",
+        "er_sie_es": "behöbe",
+        "wir": "behöben",
+        "ihr": "behöbet",
+        "sie_Sie": "behöben"
+      },
+      "imperativ": {
+        "du": "Behebe!",
+        "ihr": "Behebt!",
+        "Sie": "Beheben Sie!"
+      }
+    },
+    "partizip1": "behebend",
+    "nominalisierung": "die Behebung"
+  },
+  "wortnetz": {
+    "grundwort": "heben",
+    "woerter": [
+      {
+        "wort": "der Fehler",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اشتباه، ایراد",
+          "en": "fault"
+        },
+        "id_ref": "nomen_fehler"
+      },
+      {
+        "wort": "reparieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تعمیر کردن",
+          "en": "to repair"
+        },
+        "id_ref": "verb_reparieren"
+      },
+      {
+        "wort": "das Problem",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مشکل",
+          "en": "problem"
+        },
+        "id_ref": "nomen_problem"
+      },
+      {
+        "wort": "der Schaden",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خسارت",
+          "en": "damage"
+        },
+        "id_ref": "nomen_schaden"
+      },
+      {
+        "wort": "beseitigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "برطرف کردن",
+          "en": "to eliminate"
+        },
+        "id_ref": "verb_beseitigen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_begeben",
+  "wort": "begeben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(sich begeben) رفتن، رهسپار شدن (رسمی)",
+      "(sich in Gefahr begeben) خود را در خطر انداختن"
+    ],
+    "en": [
+      "to proceed",
+      "to go (formal)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Reisen",
+    "Kommunikation"
+  ],
+  "ipa": "bəˈɡeːbn̩",
+  "anmerkung": "gehoben; fast nur reflexiv",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte begeben Sie sich zum Ausgang.",
+      "uebersetzung": {
+        "fa": "لطفاً به طرف خروجی بروید.",
+        "en": "Please proceed to the exit."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach der Landung begaben sich die Passagiere zur Passkontrolle, wo sie lange warten mussten.",
+      "uebersetzung": {
+        "fa": "مسافران بعد از فرود به بخش کنترل گذرنامه رفتند، جایی که باید مدت زیادی صبر می‌کردند.",
+        "en": "After landing, the passengers proceeded to passport control, where they had to wait a long time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gehen",
+      "uebersetzung": {
+        "fa": "رفتن",
+        "en": "to go"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- (پیشوند) + geben (دادن)",
+    "en": "be- (prefix) + geben (to give)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich an/in/zu etwas begeben (an/in + Akk, zu + Dat)",
+        "bedeutung": "sich an einen Ort bewegen",
+        "beispiel": "Er begab sich an die Arbeit.",
+        "uebersetzung": {
+          "fa": "دست به کار شد.",
+          "en": "He set to work."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "begeben",
+      "praeteritum": "begab",
+      "partizip2": "begeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "begebe",
+        "du": "begibst",
+        "er_sie_es": "begibt",
+        "wir": "begeben",
+        "ihr": "begebt",
+        "sie_Sie": "begeben"
+      },
+      "praeteritum": {
+        "ich": "begab",
+        "du": "begabst",
+        "er_sie_es": "begab",
+        "wir": "begaben",
+        "ihr": "begabt",
+        "sie_Sie": "begaben"
+      },
+      "konjunktiv1": {
+        "ich": "begebe",
+        "du": "begebest",
+        "er_sie_es": "begebe",
+        "wir": "begeben",
+        "ihr": "begebet",
+        "sie_Sie": "begeben"
+      },
+      "konjunktiv2": {
+        "ich": "begäbe",
+        "du": "begäbest",
+        "er_sie_es": "begäbe",
+        "wir": "begäben",
+        "ihr": "begäbet",
+        "sie_Sie": "begäben"
+      },
+      "imperativ": {
+        "du": "Begib!",
+        "ihr": "Begebt!",
+        "Sie": "Begeben Sie!"
+      }
+    },
+    "partizip1": "begebend",
+    "nominalisierung": "die Begebenheit"
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "der Ausgang",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خروجی",
+          "en": "exit"
+        },
+        "id_ref": "nomen_ausgang"
+      },
+      {
+        "wort": "die Gefahr",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خطر",
+          "en": "danger"
+        },
+        "id_ref": "nomen_gefahr"
+      },
+      {
+        "wort": "die Begebenheit",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "رویداد",
+          "en": "occurrence"
+        },
+        "id_ref": "nomen_begebenheit"
+      },
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

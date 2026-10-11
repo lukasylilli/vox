@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_begleichen",
+  "wort": "begleichen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پرداختن، تسویه کردن (قبض، بدهی)"
+    ],
+    "en": [
+      "to settle",
+      "to pay (a bill, a debt)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Geld"
+  ],
+  "ipa": "bəˈɡlaɪ̯çn̩",
+  "anmerkung": "gehoben/amtlich",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich begleiche die Rechnung.",
+      "uebersetzung": {
+        "fa": "صورت‌حساب را تسویه می‌کنم.",
+        "en": "I'm settling the bill."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bitte begleichen Sie den offenen Betrag innerhalb von 14 Tagen, sonst fallen Mahngebühren an.",
+      "uebersetzung": {
+        "fa": "لطفاً مبلغ باقی‌مانده را ظرف ۱۴ روز بپردازید، وگرنه جریمه‌ی دیرکرد تعلق می‌گیرد.",
+        "en": "Please settle the outstanding amount within 14 days, otherwise reminder fees will be charged."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bezahlen",
+      "uebersetzung": {
+        "fa": "پرداختن",
+        "en": "to pay"
+      }
+    },
+    {
+      "wort": "tilgen",
+      "uebersetzung": {
+        "fa": "پرداخت کردن (بدهی)",
+        "en": "to repay"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- (پیشوند) + gleichen (برابر کردن)",
+    "en": "be- (prefix) + gleichen (to equal)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas begleichen",
+        "bedeutung": "eine Schuld bezahlen — mit Akkusativ",
+        "beispiel": "Er hat seine Schulden endlich beglichen.",
+        "uebersetzung": {
+          "fa": "بالاخره بدهی‌هایش را پرداخت.",
+          "en": "He finally settled his debts."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "begleichen",
+      "praeteritum": "beglich",
+      "partizip2": "beglichen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "begleiche",
+        "du": "begleichst",
+        "er_sie_es": "begleicht",
+        "wir": "begleichen",
+        "ihr": "begleicht",
+        "sie_Sie": "begleichen"
+      },
+      "praeteritum": {
+        "ich": "beglich",
+        "du": "beglichst",
+        "er_sie_es": "beglich",
+        "wir": "beglichen",
+        "ihr": "beglicht",
+        "sie_Sie": "beglichen"
+      },
+      "konjunktiv1": {
+        "ich": "begleiche",
+        "du": "begleichest",
+        "er_sie_es": "begleiche",
+        "wir": "begleichen",
+        "ihr": "begleichet",
+        "sie_Sie": "begleichen"
+      },
+      "konjunktiv2": {
+        "ich": "begliche",
+        "du": "beglichest",
+        "er_sie_es": "begliche",
+        "wir": "beglichen",
+        "ihr": "beglichet",
+        "sie_Sie": "beglichen"
+      },
+      "imperativ": {
+        "du": "Begleiche!",
+        "ihr": "Begleicht!",
+        "Sie": "Begleichen Sie!"
+      }
+    },
+    "partizip1": "begleichend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gleichen",
+    "woerter": [
+      {
+        "wort": "bezahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_bezahlen"
+      },
+      {
+        "wort": "die Rechnung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صورت‌حساب",
+          "en": "bill"
+        },
+        "id_ref": "nomen_rechnung"
+      },
+      {
+        "wort": "die Schulden",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بدهی",
+          "en": "debts"
+        },
+        "id_ref": "nomen_schulden"
+      },
+      {
+        "wort": "der Betrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مبلغ",
+          "en": "amount"
+        },
+        "id_ref": "nomen_betrag"
+      },
+      {
+        "wort": "überweisen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حواله کردن",
+          "en": "to transfer"
+        },
+        "id_ref": "verb_ueberweisen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

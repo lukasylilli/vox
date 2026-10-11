@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_begiessen",
+  "wort": "begießen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آب دادن، روی چیزی مایع ریختن",
+      "(محاوره) با نوشیدنی جشن گرفتن"
+    ],
+    "en": [
+      "to water",
+      "to baste",
+      "to celebrate with a drink"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Garten",
+    "Feste"
+  ],
+  "ipa": "bəˈɡiːsn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich begieße die Blumen.",
+      "uebersetzung": {
+        "fa": "به گل‌ها آب می‌دهم.",
+        "en": "I water the flowers."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem er die Prüfung bestanden hatte, haben wir den Erfolg mit Sekt begossen.",
+      "uebersetzung": {
+        "fa": "بعد از این‌که امتحان را قبول شد، موفقیتش را با شامپاین جشن گرفتیم.",
+        "en": "After he had passed the exam, we celebrated the success with sparkling wine."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gießen",
+      "uebersetzung": {
+        "fa": "آب دادن",
+        "en": "to water"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- (پیشوند) + gießen (ریختن)",
+    "en": "be- (prefix) + gießen (to pour)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas mit etwas begießen (mit + Dat)",
+        "bedeutung": "Flüssigkeit über etwas gießen / mit einem Getränk feiern",
+        "beispiel": "Den Braten mit Soße begießen.",
+        "uebersetzung": {
+          "fa": "گوشت را با سس رویش بریز.",
+          "en": "Baste the roast with gravy."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "begießen",
+      "praeteritum": "begoss",
+      "partizip2": "begossen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "begieße",
+        "du": "begießt",
+        "er_sie_es": "begießt",
+        "wir": "begießen",
+        "ihr": "begießt",
+        "sie_Sie": "begießen"
+      },
+      "praeteritum": {
+        "ich": "begoss",
+        "du": "begossest",
+        "er_sie_es": "begoss",
+        "wir": "begossen",
+        "ihr": "begosst",
+        "sie_Sie": "begossen"
+      },
+      "konjunktiv1": {
+        "ich": "begieße",
+        "du": "begießest",
+        "er_sie_es": "begieße",
+        "wir": "begießen",
+        "ihr": "begießet",
+        "sie_Sie": "begießen"
+      },
+      "konjunktiv2": {
+        "ich": "begösse",
+        "du": "begössest",
+        "er_sie_es": "begösse",
+        "wir": "begössen",
+        "ihr": "begösset",
+        "sie_Sie": "begössen"
+      },
+      "imperativ": {
+        "du": "Begieß!",
+        "ihr": "Begießt!",
+        "Sie": "Begießen Sie!"
+      }
+    },
+    "partizip1": "begießend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gießen",
+    "woerter": [
+      {
+        "wort": "gießen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آب دادن",
+          "en": "to water"
+        },
+        "id_ref": "verb_giessen"
+      },
+      {
+        "wort": "die Blume",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گل",
+          "en": "flower"
+        },
+        "id_ref": "nomen_blume"
+      },
+      {
+        "wort": "feiern",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جشن گرفتن",
+          "en": "to celebrate"
+        },
+        "id_ref": "verb_feiern"
+      },
+      {
+        "wort": "der Sekt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شامپاین",
+          "en": "sparkling wine"
+        },
+        "id_ref": "nomen_sekt"
+      },
+      {
+        "wort": "der Erfolg",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "موفقیت",
+          "en": "success"
+        },
+        "id_ref": "nomen_erfolg"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

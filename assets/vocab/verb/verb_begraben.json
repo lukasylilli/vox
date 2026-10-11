@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_begraben",
+  "wort": "begraben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به خاک سپردن، دفن کردن",
+      "(امید، نقشه را) کنار گذاشتن"
+    ],
+    "en": [
+      "to bury",
+      "to abandon (hopes, plans)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Tod",
+    "Gefühle"
+  ],
+  "ipa": "bəˈɡʁaːbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie begraben den alten Hund im Garten.",
+      "uebersetzung": {
+        "fa": "سگ پیر را در باغ دفن می‌کنند.",
+        "en": "They bury the old dog in the garden."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach der dritten Absage hat er die Hoffnung auf eine Stelle in Wien endgültig begraben.",
+      "uebersetzung": {
+        "fa": "بعد از سومین جواب رد، امیدش به کار در وین را برای همیشه کنار گذاشت.",
+        "en": "After the third rejection he finally gave up hope of a job in Vienna."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beerdigen",
+      "uebersetzung": {
+        "fa": "به خاک سپردن",
+        "en": "to bury"
+      }
+    },
+    {
+      "wort": "bestatten",
+      "uebersetzung": {
+        "fa": "دفن کردن (رسمی)",
+        "en": "to inter"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ausgraben",
+      "uebersetzung": {
+        "fa": "از خاک درآوردن",
+        "en": "to dig up"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- (پیشوند) + graben (کندن)",
+    "en": "be- (prefix) + graben (to dig)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden/etwas begraben",
+        "bedeutung": "jemanden beerdigen / etwas aufgeben — mit Akkusativ",
+        "beispiel": "Die Lawine hat drei Häuser unter sich begraben.",
+        "uebersetzung": {
+          "fa": "بهمن سه خانه را زیر خود دفن کرد.",
+          "en": "The avalanche buried three houses."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "begraben",
+      "praeteritum": "begrub",
+      "partizip2": "begraben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "begrabe",
+        "du": "begräbst",
+        "er_sie_es": "begräbt",
+        "wir": "begraben",
+        "ihr": "begrabt",
+        "sie_Sie": "begraben"
+      },
+      "praeteritum": {
+        "ich": "begrub",
+        "du": "begrubst",
+        "er_sie_es": "begrub",
+        "wir": "begruben",
+        "ihr": "begrubt",
+        "sie_Sie": "begruben"
+      },
+      "konjunktiv1": {
+        "ich": "begrabe",
+        "du": "begrabest",
+        "er_sie_es": "begrabe",
+        "wir": "begraben",
+        "ihr": "begrabet",
+        "sie_Sie": "begraben"
+      },
+      "konjunktiv2": {
+        "ich": "begrübe",
+        "du": "begrübest",
+        "er_sie_es": "begrübe",
+        "wir": "begrüben",
+        "ihr": "begrübet",
+        "sie_Sie": "begrüben"
+      },
+      "imperativ": {
+        "du": "Begrabe!",
+        "ihr": "Begrabt!",
+        "Sie": "Begraben Sie!"
+      }
+    },
+    "partizip1": "begrabend",
+    "nominalisierung": "das Begräbnis"
+  },
+  "wortnetz": {
+    "grundwort": "graben",
+    "woerter": [
+      {
+        "wort": "der Tod",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مرگ",
+          "en": "death"
+        },
+        "id_ref": "nomen_tod"
+      },
+      {
+        "wort": "der Friedhof",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قبرستان",
+          "en": "cemetery"
+        },
+        "id_ref": "nomen_friedhof"
+      },
+      {
+        "wort": "das Grab",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قبر",
+          "en": "grave"
+        },
+        "id_ref": "nomen_grab"
+      },
+      {
+        "wort": "beerdigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به خاک سپردن",
+          "en": "to bury"
+        },
+        "id_ref": "verb_beerdigen"
+      },
+      {
+        "wort": "das Begräbnis",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مراسم خاکسپاری",
+          "en": "funeral"
+        },
+        "id_ref": "nomen_begraebnis"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_behauen",
+  "wort": "behauen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تراشیدن (سنگ، چوب) با ضربه"
+    ],
+    "en": [
+      "to hew",
+      "to dress (stone)"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Handwerk",
+    "Bauen"
+  ],
+  "ipa": "bəˈhaʊ̯ən",
+  "anmerkung": "Fachwort (Steinmetz, Zimmerei)",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Steinmetz behaut den Stein.",
+      "uebersetzung": {
+        "fa": "سنگ‌تراش سنگ را می‌تراشد.",
+        "en": "The stonemason is dressing the stone."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Säulen wurden von Hand behauen, bevor man sie vor der Kirche aufstellte.",
+      "uebersetzung": {
+        "fa": "ستون‌ها پیش از آن‌که جلوی کلیسا برپا شوند، با دست تراشیده شدند.",
+        "en": "The columns were hewn by hand before they were set up in front of the church."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bearbeiten",
+      "uebersetzung": {
+        "fa": "روی چیزی کار کردن",
+        "en": "to work"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- (پیشوند) + hauen (ضربه زدن)",
+    "en": "be- (prefix) + hauen (to strike)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas behauen",
+        "bedeutung": "durch Schläge mit Werkzeug formen — mit Akkusativ",
+        "beispiel": "Er behaut den Balken mit der Axt.",
+        "uebersetzung": {
+          "fa": "تیر چوبی را با تبر می‌تراشد.",
+          "en": "He hews the beam with an axe."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "behauen",
+      "praeteritum": "behaute",
+      "partizip2": "behauen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "behaue",
+        "du": "behaust",
+        "er_sie_es": "behaut",
+        "wir": "behauen",
+        "ihr": "behaut",
+        "sie_Sie": "behauen"
+      },
+      "praeteritum": {
+        "ich": "behaute",
+        "du": "behautest",
+        "er_sie_es": "behaute",
+        "wir": "behauten",
+        "ihr": "behautet",
+        "sie_Sie": "behauten"
+      },
+      "konjunktiv1": {
+        "ich": "behaue",
+        "du": "behauest",
+        "er_sie_es": "behaue",
+        "wir": "behauen",
+        "ihr": "behauet",
+        "sie_Sie": "behauen"
+      },
+      "konjunktiv2": {
+        "ich": "behaute",
+        "du": "behautest",
+        "er_sie_es": "behaute",
+        "wir": "behauten",
+        "ihr": "behautet",
+        "sie_Sie": "behauten"
+      },
+      "imperativ": {
+        "du": "Behau!",
+        "ihr": "Behaut!",
+        "Sie": "Behauen Sie!"
+      }
+    },
+    "partizip1": "behauend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "hauen",
+    "woerter": [
+      {
+        "wort": "der Stein",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سنگ",
+          "en": "stone"
+        },
+        "id_ref": "nomen_stein"
+      },
+      {
+        "wort": "das Holz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چوب",
+          "en": "wood"
+        },
+        "id_ref": "nomen_holz"
+      },
+      {
+        "wort": "das Werkzeug",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ابزار",
+          "en": "tool"
+        },
+        "id_ref": "nomen_werkzeug"
+      },
+      {
+        "wort": "der Steinmetz",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سنگ‌تراش",
+          "en": "stonemason"
+        },
+        "id_ref": "nomen_steinmetz"
+      },
+      {
+        "wort": "hauen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زدن",
+          "en": "to hit"
+        },
+        "id_ref": "verb_hauen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

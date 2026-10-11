@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_befuerchten",
+  "wort": "befürchten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ترسیدن (از وقوع چیزی)، نگران بودن"
+    ],
+    "en": [
+      "to fear",
+      "to be afraid (that)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gefühle"
+  ],
+  "ipa": "bəˈfʏʁçtn̩",
+  "anmerkung": "steht in der Liste der unregelmäßigen Verben, wird aber regelmäßig konjugiert (Duden)",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich befürchte, es regnet morgen.",
+      "uebersetzung": {
+        "fa": "می‌ترسم فردا باران بیاید.",
+        "en": "I'm afraid it will rain tomorrow."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Ärzte befürchten, dass sich das Virus im Winter schneller ausbreiten wird.",
+      "uebersetzung": {
+        "fa": "پزشکان نگران‌اند که ویروس در زمستان سریع‌تر پخش شود.",
+        "en": "The doctors fear that the virus will spread faster in winter."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fürchten",
+      "uebersetzung": {
+        "fa": "ترسیدن",
+        "en": "to fear"
+      }
+    },
+    {
+      "wort": "sich Sorgen machen",
+      "uebersetzung": {
+        "fa": "نگران بودن",
+        "en": "to worry"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hoffen",
+      "uebersetzung": {
+        "fa": "امیدوار بودن",
+        "en": "to hope"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- (پیشوند) + fürchten (ترسیدن)",
+    "en": "be- (prefix) + fürchten (to fear)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas befürchten",
+        "bedeutung": "mit etwas Negativem rechnen — mit Akkusativ",
+        "beispiel": "Wir befürchten das Schlimmste.",
+        "uebersetzung": {
+          "fa": "از بدترین اتفاق می‌ترسیم.",
+          "en": "We fear the worst."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "befürchten",
+      "praeteritum": "befürchtete",
+      "partizip2": "befürchtet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "befürchte",
+        "du": "befürchtest",
+        "er_sie_es": "befürchtet",
+        "wir": "befürchten",
+        "ihr": "befürchtet",
+        "sie_Sie": "befürchten"
+      },
+      "praeteritum": {
+        "ich": "befürchtete",
+        "du": "befürchtetest",
+        "er_sie_es": "befürchtete",
+        "wir": "befürchteten",
+        "ihr": "befürchtetet",
+        "sie_Sie": "befürchteten"
+      },
+      "konjunktiv1": {
+        "ich": "befürchte",
+        "du": "befürchtest",
+        "er_sie_es": "befürchte",
+        "wir": "befürchten",
+        "ihr": "befürchtet",
+        "sie_Sie": "befürchten"
+      },
+      "konjunktiv2": {
+        "ich": "befürchtete",
+        "du": "befürchtetest",
+        "er_sie_es": "befürchtete",
+        "wir": "befürchteten",
+        "ihr": "befürchtetet",
+        "sie_Sie": "befürchteten"
+      },
+      "imperativ": {
+        "du": "Befürchte!",
+        "ihr": "Befürchtet!",
+        "Sie": "Befürchten Sie!"
+      }
+    },
+    "partizip1": "befürchtend",
+    "nominalisierung": "die Befürchtung"
+  },
+  "wortnetz": {
+    "grundwort": "fürchten",
+    "woerter": [
+      {
+        "wort": "die Angst",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترس",
+          "en": "fear"
+        },
+        "id_ref": "nomen_angst"
+      },
+      {
+        "wort": "die Sorge",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگرانی",
+          "en": "worry"
+        },
+        "id_ref": "nomen_sorge"
+      },
+      {
+        "wort": "fürchten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ترسیدن",
+          "en": "to fear"
+        },
+        "id_ref": "verb_fuerchten"
+      },
+      {
+        "wort": "hoffen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "امیدوار بودن",
+          "en": "to hope"
+        },
+        "id_ref": "verb_hoffen"
+      },
+      {
+        "wort": "die Befürchtung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بیم، نگرانی",
+          "en": "fear, apprehension"
+        },
+        "id_ref": "nomen_befuerchtung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

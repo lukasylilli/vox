@@ -1,0 +1,201 @@
+{
+  "schema": "3.0",
+  "id": "verb_behalten",
+  "wort": "behalten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نگه داشتن",
+      "به خاطر سپردن",
+      "(für sich behalten) پیش خود نگه داشتن (راز)"
+    ],
+    "en": [
+      "to keep",
+      "to remember",
+      "to keep to oneself"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Lernen"
+  ],
+  "ipa": "bəˈhaltn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Du kannst das Buch behalten.",
+      "uebersetzung": {
+        "fa": "می‌توانی کتاب را نگه داری.",
+        "en": "You can keep the book."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich kann mir Namen schlecht behalten, deshalb schreibe ich sie mir immer auf.",
+      "uebersetzung": {
+        "fa": "اسم‌ها را بد به خاطر می‌سپارم، برای همین همیشه یادداشتشان می‌کنم.",
+        "en": "I'm bad at remembering names, so I always write them down."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufbewahren",
+      "uebersetzung": {
+        "fa": "نگه داشتن",
+        "en": "to keep"
+      }
+    },
+    {
+      "wort": "sich merken",
+      "uebersetzung": {
+        "fa": "به خاطر سپردن",
+        "en": "to remember"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zurückgeben",
+      "uebersetzung": {
+        "fa": "پس دادن",
+        "en": "to give back"
+      }
+    },
+    {
+      "wort": "vergessen",
+      "uebersetzung": {
+        "fa": "فراموش کردن",
+        "en": "to forget"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- (پیشوند) + halten (نگه داشتن)",
+    "en": "be- (prefix) + halten (to hold)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas für sich behalten (für + Akk)",
+        "bedeutung": "etwas nicht weitererzählen",
+        "beispiel": "Kannst du das bitte für dich behalten?",
+        "uebersetzung": {
+          "fa": "می‌شود لطفاً این را پیش خودت نگه داری؟",
+          "en": "Can you please keep that to yourself?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "behalten",
+      "praeteritum": "behielt",
+      "partizip2": "behalten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "behalte",
+        "du": "behältst",
+        "er_sie_es": "behält",
+        "wir": "behalten",
+        "ihr": "behaltet",
+        "sie_Sie": "behalten"
+      },
+      "praeteritum": {
+        "ich": "behielt",
+        "du": "behieltest",
+        "er_sie_es": "behielt",
+        "wir": "behielten",
+        "ihr": "behieltet",
+        "sie_Sie": "behielten"
+      },
+      "konjunktiv1": {
+        "ich": "behalte",
+        "du": "behaltest",
+        "er_sie_es": "behalte",
+        "wir": "behalten",
+        "ihr": "behaltet",
+        "sie_Sie": "behalten"
+      },
+      "konjunktiv2": {
+        "ich": "behielte",
+        "du": "behieltest",
+        "er_sie_es": "behielte",
+        "wir": "behielten",
+        "ihr": "behieltet",
+        "sie_Sie": "behielten"
+      },
+      "imperativ": {
+        "du": "Behalte!",
+        "ihr": "Behaltet!",
+        "Sie": "Behalten Sie!"
+      }
+    },
+    "partizip1": "behaltend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "halten",
+    "woerter": [
+      {
+        "wort": "halten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to hold"
+        },
+        "id_ref": "verb_halten"
+      },
+      {
+        "wort": "merken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "به خاطر سپردن",
+          "en": "to remember"
+        },
+        "id_ref": "verb_merken"
+      },
+      {
+        "wort": "vergessen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فراموش کردن",
+          "en": "to forget"
+        },
+        "id_ref": "verb_vergessen"
+      },
+      {
+        "wort": "das Gedächtnis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حافظه",
+          "en": "memory"
+        },
+        "id_ref": "nomen_gedaechtnis"
+      },
+      {
+        "wort": "der Behälter",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ظرف، محفظه",
+          "en": "container"
+        },
+        "id_ref": "nomen_behaelter"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
