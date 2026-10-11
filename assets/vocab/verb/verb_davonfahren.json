@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_davonfahren",
+  "wort": "davonfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با وسیله) دور شدن، راه افتادن و رفتن",
+      "(jemandem davonfahren) جا گذاشتن (اتوبوس، قطار)"
+    ],
+    "en": [
+      "to drive off",
+      "to leave (someone) behind"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr"
+  ],
+  "ipa": "daˈfɔnˌfaːʁən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Auto fährt davon.",
+      "uebersetzung": {
+        "fa": "ماشین دور می‌شود.",
+        "en": "The car drives off."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ich bin gerannt, aber der Bus ist mir direkt vor der Nase davongefahren.",
+      "uebersetzung": {
+        "fa": "دویدم، اما اتوبوس درست جلوی چشمم رفت.",
+        "en": "I ran, but the bus drove off right in front of my nose."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wegfahren",
+      "uebersetzung": {
+        "fa": "با وسیله رفتن",
+        "en": "to drive away"
+      }
+    },
+    {
+      "wort": "abfahren",
+      "uebersetzung": {
+        "fa": "حرکت کردن",
+        "en": "to depart"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ankommen",
+      "uebersetzung": {
+        "fa": "رسیدن",
+        "en": "to arrive"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "davon (از آن‌جا) + fahren (رفتن با وسیله)",
+    "en": "davon (away) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem davonfahren (mit Dat)",
+        "bedeutung": "wegfahren, bevor jemand einsteigen oder folgen kann",
+        "beispiel": "Der Zug ist uns davongefahren.",
+        "uebersetzung": {
+          "fa": "قطار ما را جا گذاشت.",
+          "en": "The train left without us."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "davonfahren",
+      "praeteritum": "fuhr davon",
+      "partizip2": "davongefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre davon",
+        "du": "fährst davon",
+        "er_sie_es": "fährt davon",
+        "wir": "fahren davon",
+        "ihr": "fahrt davon",
+        "sie_Sie": "fahren davon"
+      },
+      "praeteritum": {
+        "ich": "fuhr davon",
+        "du": "fuhrst davon",
+        "er_sie_es": "fuhr davon",
+        "wir": "fuhren davon",
+        "ihr": "fuhrt davon",
+        "sie_Sie": "fuhren davon"
+      },
+      "konjunktiv1": {
+        "ich": "fahre davon",
+        "du": "fahrest davon",
+        "er_sie_es": "fahre davon",
+        "wir": "fahren davon",
+        "ihr": "fahret davon",
+        "sie_Sie": "fahren davon"
+      },
+      "konjunktiv2": {
+        "ich": "führe davon",
+        "du": "führest davon",
+        "er_sie_es": "führe davon",
+        "wir": "führen davon",
+        "ihr": "führet davon",
+        "sie_Sie": "führen davon"
+      },
+      "imperativ": {
+        "du": "Fahr davon!",
+        "ihr": "Fahrt davon!",
+        "Sie": "Fahren Sie davon!"
+      }
+    },
+    "partizip1": "davonfahrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن با وسیله",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "wegfahren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to drive away"
+        },
+        "id_ref": "verb_wegfahren"
+      },
+      {
+        "wort": "abfahren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حرکت کردن",
+          "en": "to depart"
+        },
+        "id_ref": "verb_abfahren"
+      },
+      {
+        "wort": "der Bus",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اتوبوس",
+          "en": "bus"
+        },
+        "id_ref": "nomen_bus"
+      },
+      {
+        "wort": "verpassen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "از دست دادن",
+          "en": "to miss"
+        },
+        "id_ref": "verb_verpassen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

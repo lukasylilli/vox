@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_darbieten",
+  "wort": "darbieten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اجرا کردن، ارائه کردن (برنامه، هنر)",
+      "(sich darbieten) نمایان شدن (منظره)"
+    ],
+    "en": [
+      "to perform",
+      "to present",
+      "to offer"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kultur",
+    "Kunst"
+  ],
+  "ipa": "ˈdaːɐ̯ˌbiːtn̩",
+  "anmerkung": "gehoben",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kinder bieten ein Lied dar.",
+      "uebersetzung": {
+        "fa": "بچه‌ها یک آهنگ اجرا می‌کنند.",
+        "en": "The children perform a song."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Vom Gipfel aus bot sich den Wanderern ein herrlicher Blick auf die Alpen dar.",
+      "uebersetzung": {
+        "fa": "از قله، منظره‌ی باشکوهی از آلپ پیش چشم کوهنوردان گسترده شد.",
+        "en": "From the summit a magnificent view of the Alps presented itself to the hikers."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufführen",
+      "uebersetzung": {
+        "fa": "اجرا کردن",
+        "en": "to perform"
+      }
+    },
+    {
+      "wort": "präsentieren",
+      "uebersetzung": {
+        "fa": "ارائه کردن",
+        "en": "to present"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "dar- (پیشوند: پیش رو) + bieten (عرضه کردن)",
+    "en": "dar- (prefix: forth) + bieten (to offer)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "jemandem etwas darbieten",
+        "bedeutung": "jemandem etwas vorführen oder anbieten — Dativ + Akkusativ",
+        "beispiel": "Den Gästen wurde ein Tanz dargeboten.",
+        "uebersetzung": {
+          "fa": "برای مهمان‌ها یک رقص اجرا شد.",
+          "en": "A dance was performed for the guests."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "darbieten",
+      "praeteritum": "bot dar",
+      "partizip2": "dargeboten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "biete dar",
+        "du": "bietest dar",
+        "er_sie_es": "bietet dar",
+        "wir": "bieten dar",
+        "ihr": "bietet dar",
+        "sie_Sie": "bieten dar"
+      },
+      "praeteritum": {
+        "ich": "bot dar",
+        "du": "botest dar",
+        "er_sie_es": "bot dar",
+        "wir": "boten dar",
+        "ihr": "botet dar",
+        "sie_Sie": "boten dar"
+      },
+      "konjunktiv1": {
+        "ich": "biete dar",
+        "du": "bietest dar",
+        "er_sie_es": "biete dar",
+        "wir": "bieten dar",
+        "ihr": "bietet dar",
+        "sie_Sie": "bieten dar"
+      },
+      "konjunktiv2": {
+        "ich": "böte dar",
+        "du": "bötest dar",
+        "er_sie_es": "böte dar",
+        "wir": "böten dar",
+        "ihr": "bötet dar",
+        "sie_Sie": "böten dar"
+      },
+      "imperativ": {
+        "du": "Biete dar!",
+        "ihr": "Bietet dar!",
+        "Sie": "Bieten Sie dar!"
+      }
+    },
+    "partizip1": "darbietend",
+    "nominalisierung": "die Darbietung"
+  },
+  "wortnetz": {
+    "grundwort": "bieten",
+    "woerter": [
+      {
+        "wort": "bieten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عرضه کردن",
+          "en": "to offer"
+        },
+        "id_ref": "verb_bieten"
+      },
+      {
+        "wort": "aufführen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اجرا کردن",
+          "en": "to perform"
+        },
+        "id_ref": "verb_auffuehren"
+      },
+      {
+        "wort": "die Bühne",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صحنه",
+          "en": "stage"
+        },
+        "id_ref": "nomen_buehne"
+      },
+      {
+        "wort": "das Publikum",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تماشاگران",
+          "en": "audience"
+        },
+        "id_ref": "nomen_publikum"
+      },
+      {
+        "wort": "die Darbietung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اجرا",
+          "en": "performance"
+        },
+        "id_ref": "nomen_darbietung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
