@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_durchbiegen",
+  "wort": "durchbiegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خم کردن (تا وسط)",
+      "(sich durchbiegen) زیر بار خم شدن، شکم دادن"
+    ],
+    "en": [
+      "to bend",
+      "to sag (sich)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Bauen"
+  ],
+  "ipa": "ˈdʊʁçˌbiːɡn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Regal biegt sich durch.",
+      "uebersetzung": {
+        "fa": "قفسه زیر بار خم می‌شود.",
+        "en": "The shelf is sagging."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil zu viele schwere Bücher darauf standen, hat sich das Brett in der Mitte durchgebogen.",
+      "uebersetzung": {
+        "fa": "چون کتاب‌های سنگین زیادی رویش بود، تخته از وسط شکم داد.",
+        "en": "Because too many heavy books were on it, the board sagged in the middle."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich biegen",
+      "uebersetzung": {
+        "fa": "خم شدن",
+        "en": "to bend"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "durch- (پیشوند: سرتاسر) + biegen (خم کردن)",
+    "en": "durch- (prefix: through) + biegen (to bend)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "etwas durchbiegen",
+        "bedeutung": "etwas so biegen, dass es sich in der Mitte senkt — mit Akkusativ",
+        "beispiel": "Das Gewicht biegt den Balken durch.",
+        "uebersetzung": {
+          "fa": "وزن، تیر را خم می‌کند.",
+          "en": "The weight bends the beam."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "durchbiegen",
+      "praeteritum": "bog durch",
+      "partizip2": "durchgebogen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "biege durch",
+        "du": "biegst durch",
+        "er_sie_es": "biegt durch",
+        "wir": "biegen durch",
+        "ihr": "biegt durch",
+        "sie_Sie": "biegen durch"
+      },
+      "praeteritum": {
+        "ich": "bog durch",
+        "du": "bogst durch",
+        "er_sie_es": "bog durch",
+        "wir": "bogen durch",
+        "ihr": "bogt durch",
+        "sie_Sie": "bogen durch"
+      },
+      "konjunktiv1": {
+        "ich": "biege durch",
+        "du": "biegest durch",
+        "er_sie_es": "biege durch",
+        "wir": "biegen durch",
+        "ihr": "bieget durch",
+        "sie_Sie": "biegen durch"
+      },
+      "konjunktiv2": {
+        "ich": "böge durch",
+        "du": "bögest durch",
+        "er_sie_es": "böge durch",
+        "wir": "bögen durch",
+        "ihr": "böget durch",
+        "sie_Sie": "bögen durch"
+      },
+      "imperativ": {
+        "du": "Bieg durch!",
+        "ihr": "Biegt durch!",
+        "Sie": "Biegen Sie durch!"
+      }
+    },
+    "partizip1": "durchbiegend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "biegen",
+    "woerter": [
+      {
+        "wort": "biegen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خم کردن",
+          "en": "to bend"
+        },
+        "id_ref": "verb_biegen"
+      },
+      {
+        "wort": "das Regal",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قفسه",
+          "en": "shelf"
+        },
+        "id_ref": "nomen_regal"
+      },
+      {
+        "wort": "schwer",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سنگین",
+          "en": "heavy"
+        },
+        "id_ref": "adjektiv_schwer"
+      },
+      {
+        "wort": "das Gewicht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وزن",
+          "en": "weight"
+        },
+        "id_ref": "nomen_gewicht"
+      },
+      {
+        "wort": "das Brett",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تخته",
+          "en": "board"
+        },
+        "id_ref": "nomen_brett"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

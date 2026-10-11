@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_durchbrennen",
+  "wort": "durchbrennen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(لامپ، فیوز) سوختن",
+      "(محاوره) فرار کردن، در رفتن (با کسی یا پولی)"
+    ],
+    "en": [
+      "to blow (a fuse, a bulb)",
+      "to run off (colloq.)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Technik",
+    "Beziehungen"
+  ],
+  "ipa": "ˈdʊʁçˌbʁɛnən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Glühbirne ist durchgebrannt.",
+      "uebersetzung": {
+        "fa": "لامپ سوخته است.",
+        "en": "The light bulb has blown."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Kassierer ist mit der Tageskasse durchgebrannt, und niemand weiß, wo er sich aufhält.",
+      "uebersetzung": {
+        "fa": "صندوق‌دار با پول صندوق آن روز فرار کرد و کسی نمی‌داند کجاست.",
+        "en": "The cashier ran off with the day's takings and nobody knows where he is."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abhauen",
+      "uebersetzung": {
+        "fa": "در رفتن (محاوره)",
+        "en": "to clear off"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "durch- (پیشوند: سرتاسر) + brennen (سوختن)",
+    "en": "durch- (prefix: through) + brennen (to burn)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit jemandem/etwas durchbrennen (mit + Dat)",
+        "bedeutung": "heimlich mit jemandem/etwas weglaufen",
+        "beispiel": "Sie ist mit ihrem Lehrer durchgebrannt.",
+        "uebersetzung": {
+          "fa": "با معلمش فرار کرد.",
+          "en": "She ran off with her teacher."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "durchbrennen",
+      "praeteritum": "brannte durch",
+      "partizip2": "durchgebrannt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "brenne durch",
+        "du": "brennst durch",
+        "er_sie_es": "brennt durch",
+        "wir": "brennen durch",
+        "ihr": "brennt durch",
+        "sie_Sie": "brennen durch"
+      },
+      "praeteritum": {
+        "ich": "brannte durch",
+        "du": "branntest durch",
+        "er_sie_es": "brannte durch",
+        "wir": "brannten durch",
+        "ihr": "branntet durch",
+        "sie_Sie": "brannten durch"
+      },
+      "konjunktiv1": {
+        "ich": "brenne durch",
+        "du": "brennest durch",
+        "er_sie_es": "brenne durch",
+        "wir": "brennen durch",
+        "ihr": "brennet durch",
+        "sie_Sie": "brennen durch"
+      },
+      "konjunktiv2": {
+        "ich": "brennte durch",
+        "du": "brenntest durch",
+        "er_sie_es": "brennte durch",
+        "wir": "brennten durch",
+        "ihr": "brenntet durch",
+        "sie_Sie": "brennten durch"
+      },
+      "imperativ": {
+        "du": "Brenn durch!",
+        "ihr": "Brennt durch!",
+        "Sie": "Brennen Sie durch!"
+      }
+    },
+    "partizip1": "durchbrennend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "brennen",
+    "woerter": [
+      {
+        "wort": "brennen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سوختن",
+          "en": "to burn"
+        },
+        "id_ref": "verb_brennen"
+      },
+      {
+        "wort": "die Glühbirne",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لامپ",
+          "en": "light bulb"
+        },
+        "id_ref": "nomen_gluehbirne"
+      },
+      {
+        "wort": "die Sicherung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فیوز",
+          "en": "fuse"
+        },
+        "id_ref": "nomen_sicherung"
+      },
+      {
+        "wort": "abhauen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "در رفتن",
+          "en": "to clear off"
+        },
+        "id_ref": "verb_abhauen"
+      },
+      {
+        "wort": "fliehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گریختن",
+          "en": "to flee"
+        },
+        "id_ref": "verb_fliehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

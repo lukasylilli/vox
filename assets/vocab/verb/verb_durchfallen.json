@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_durchfallen",
+  "wort": "durchfallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(در امتحان) رد شدن",
+      "(از سوراخ) افتادن",
+      "(نمایش، فیلم) شکست خوردن"
+    ],
+    "en": [
+      "to fail (an exam)",
+      "to fall through",
+      "to flop"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Schule",
+    "Lernen"
+  ],
+  "ipa": "ˈdʊʁçˌfalən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er ist durch die Prüfung gefallen.",
+      "uebersetzung": {
+        "fa": "او در امتحان رد شد.",
+        "en": "He failed the exam."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wer zweimal durch die Führerscheinprüfung durchfällt, muss zusätzliche Fahrstunden nehmen.",
+      "uebersetzung": {
+        "fa": "کسی که دو بار در امتحان گواهینامه رد شود، باید جلسه‌های رانندگی اضافی بگیرد.",
+        "en": "Anyone who fails the driving test twice has to take additional driving lessons."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "versagen",
+      "uebersetzung": {
+        "fa": "ناموفق بودن",
+        "en": "to fail"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "bestehen",
+      "uebersetzung": {
+        "fa": "قبول شدن",
+        "en": "to pass"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "durch- (پیشوند: از میان) + fallen (افتادن)",
+    "en": "durch- (prefix: through) + fallen (to fall)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in/bei etwas durchfallen (in/bei + Dat)",
+        "bedeutung": "eine Prüfung nicht bestehen",
+        "beispiel": "Sie ist in Mathe durchgefallen.",
+        "uebersetzung": {
+          "fa": "در ریاضی رد شد.",
+          "en": "She failed maths."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "durchfallen",
+      "praeteritum": "fiel durch",
+      "partizip2": "durchgefallen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "falle durch",
+        "du": "fällst durch",
+        "er_sie_es": "fällt durch",
+        "wir": "fallen durch",
+        "ihr": "fallt durch",
+        "sie_Sie": "fallen durch"
+      },
+      "praeteritum": {
+        "ich": "fiel durch",
+        "du": "fielst durch",
+        "er_sie_es": "fiel durch",
+        "wir": "fielen durch",
+        "ihr": "fielt durch",
+        "sie_Sie": "fielen durch"
+      },
+      "konjunktiv1": {
+        "ich": "falle durch",
+        "du": "fallest durch",
+        "er_sie_es": "falle durch",
+        "wir": "fallen durch",
+        "ihr": "fallet durch",
+        "sie_Sie": "fallen durch"
+      },
+      "konjunktiv2": {
+        "ich": "fiele durch",
+        "du": "fielest durch",
+        "er_sie_es": "fiele durch",
+        "wir": "fielen durch",
+        "ihr": "fielet durch",
+        "sie_Sie": "fielen durch"
+      },
+      "imperativ": {
+        "du": "Fall durch!",
+        "ihr": "Fallt durch!",
+        "Sie": "Fallen Sie durch!"
+      }
+    },
+    "partizip1": "durchfallend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fallen",
+    "woerter": [
+      {
+        "wort": "die Prüfung",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "امتحان",
+          "en": "exam"
+        },
+        "id_ref": "nomen_pruefung"
+      },
+      {
+        "wort": "bestehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قبول شدن",
+          "en": "to pass"
+        },
+        "id_ref": "verb_bestehen"
+      },
+      {
+        "wort": "fallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "افتادن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_fallen"
+      },
+      {
+        "wort": "die Note",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نمره",
+          "en": "mark"
+        },
+        "id_ref": "nomen_note"
+      },
+      {
+        "wort": "wiederholen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تکرار کردن",
+          "en": "to repeat"
+        },
+        "id_ref": "verb_wiederholen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

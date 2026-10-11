@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_durchbekommen",
+  "wort": "durchbekommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(محاوره) از میان چیزی رد کردن",
+      "(قانون، طرح را) تصویب کردن",
+      "از پس هزینه‌ی (کسی) برآمدن"
+    ],
+    "en": [
+      "to get through",
+      "to get passed",
+      "to support (someone)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag",
+    "Politik"
+  ],
+  "ipa": "ˈdʊʁçbəˌkɔmən",
+  "anmerkung": "umgangssprachlich",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich bekomme den Faden nicht durch.",
+      "uebersetzung": {
+        "fa": "نخ را نمی‌توانم رد کنم.",
+        "en": "I can't get the thread through."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Regierung hat das Gesetz trotz großer Kritik im Parlament durchbekommen.",
+      "uebersetzung": {
+        "fa": "دولت با وجود انتقادهای زیاد، قانون را در مجلس تصویب کرد.",
+        "en": "The government got the law through parliament despite heavy criticism."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "durchsetzen",
+      "uebersetzung": {
+        "fa": "به کرسی نشاندن",
+        "en": "to push through"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "durch- (پیشوند: از میان) + bekommen (گرفتن)",
+    "en": "durch- (prefix: through) + bekommen (to get)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas durchbekommen",
+        "bedeutung": "etwas durch eine Öffnung / durch eine Prüfung bringen — mit Akkusativ",
+        "beispiel": "Bekommst du den Schrank durch die Tür?",
+        "uebersetzung": {
+          "fa": "می‌توانی کمد را از در رد کنی؟",
+          "en": "Can you get the wardrobe through the door?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "durchbekommen",
+      "praeteritum": "bekam durch",
+      "partizip2": "durchbekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bekomme durch",
+        "du": "bekommst durch",
+        "er_sie_es": "bekommt durch",
+        "wir": "bekommen durch",
+        "ihr": "bekommt durch",
+        "sie_Sie": "bekommen durch"
+      },
+      "praeteritum": {
+        "ich": "bekam durch",
+        "du": "bekamst durch",
+        "er_sie_es": "bekam durch",
+        "wir": "bekamen durch",
+        "ihr": "bekamt durch",
+        "sie_Sie": "bekamen durch"
+      },
+      "konjunktiv1": {
+        "ich": "bekomme durch",
+        "du": "bekommest durch",
+        "er_sie_es": "bekomme durch",
+        "wir": "bekommen durch",
+        "ihr": "bekommet durch",
+        "sie_Sie": "bekommen durch"
+      },
+      "konjunktiv2": {
+        "ich": "bekäme durch",
+        "du": "bekämest durch",
+        "er_sie_es": "bekäme durch",
+        "wir": "bekämen durch",
+        "ihr": "bekämet durch",
+        "sie_Sie": "bekämen durch"
+      },
+      "imperativ": {
+        "du": "Bekomm durch!",
+        "ihr": "Bekommt durch!",
+        "Sie": "Bekommen Sie durch!"
+      }
+    },
+    "partizip1": "durchbekommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bekommen",
+    "woerter": [
+      {
+        "wort": "bekommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گرفتن",
+          "en": "to get"
+        },
+        "id_ref": "verb_bekommen"
+      },
+      {
+        "wort": "die Tür",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "در",
+          "en": "door"
+        },
+        "id_ref": "nomen_tuer"
+      },
+      {
+        "wort": "durchsetzen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به کرسی نشاندن",
+          "en": "to push through"
+        },
+        "id_ref": "verb_durchsetzen"
+      },
+      {
+        "wort": "das Gesetz",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قانون",
+          "en": "law"
+        },
+        "id_ref": "nomen_gesetz"
+      },
+      {
+        "wort": "schaffen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "از پس برآمدن",
+          "en": "to manage"
+        },
+        "id_ref": "verb_schaffen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
