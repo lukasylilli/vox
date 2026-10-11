@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_auslesen",
+  "wort": "auslesen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تا آخر خواندن (کتاب)",
+      "جدا کردن، گزینش کردن",
+      "(داده) خواندن (از دستگاه)"
+    ],
+    "en": [
+      "to finish (reading)",
+      "to sort out, to select",
+      "to read out (data)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Lesen",
+    "Technik"
+  ],
+  "ipa": "ˈaʊ̯sˌleːzn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich habe das Buch ausgelesen.",
+      "uebersetzung": {
+        "fa": "کتاب را تا آخر خواندم.",
+        "en": "I've finished the book."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor man die Linsen kocht, sollte man die kleinen Steine sorgfältig auslesen.",
+      "uebersetzung": {
+        "fa": "قبل از پختن عدس، باید سنگ‌ریزه‌ها را با دقت جدا کرد.",
+        "en": "Before cooking the lentils, you should carefully pick out the little stones."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aussortieren",
+      "uebersetzung": {
+        "fa": "جدا کردن",
+        "en": "to sort out"
+      }
+    },
+    {
+      "wort": "beenden",
+      "uebersetzung": {
+        "fa": "تمام کردن",
+        "en": "to finish"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند: تا آخر، بیرون) + lesen (خواندن؛ چیدن)",
+    "en": "aus- (prefix: to the end, out) + lesen (to read; to pick)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas auslesen",
+        "bedeutung": "etwas zu Ende lesen / heraussuchen — mit Akkusativ",
+        "beispiel": "Die Werkstatt hat den Fehlerspeicher ausgelesen.",
+        "uebersetzung": {
+          "fa": "تعمیرگاه حافظه‌ی خطا را خواند.",
+          "en": "The garage read out the fault memory."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "auslesen",
+      "praeteritum": "las aus",
+      "partizip2": "ausgelesen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lese aus",
+        "du": "liest aus",
+        "er_sie_es": "liest aus",
+        "wir": "lesen aus",
+        "ihr": "lest aus",
+        "sie_Sie": "lesen aus"
+      },
+      "praeteritum": {
+        "ich": "las aus",
+        "du": "lasest aus",
+        "er_sie_es": "las aus",
+        "wir": "lasen aus",
+        "ihr": "last aus",
+        "sie_Sie": "lasen aus"
+      },
+      "konjunktiv1": {
+        "ich": "lese aus",
+        "du": "lesest aus",
+        "er_sie_es": "lese aus",
+        "wir": "lesen aus",
+        "ihr": "leset aus",
+        "sie_Sie": "lesen aus"
+      },
+      "konjunktiv2": {
+        "ich": "läse aus",
+        "du": "läsest aus",
+        "er_sie_es": "läse aus",
+        "wir": "läsen aus",
+        "ihr": "läset aus",
+        "sie_Sie": "läsen aus"
+      },
+      "imperativ": {
+        "du": "Lies aus!",
+        "ihr": "Lest aus!",
+        "Sie": "Lesen Sie aus!"
+      }
+    },
+    "partizip1": "auslesend",
+    "nominalisierung": "die Auslese"
+  },
+  "wortnetz": {
+    "grundwort": "lesen",
+    "woerter": [
+      {
+        "wort": "lesen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خواندن",
+          "en": "to read"
+        },
+        "id_ref": "verb_lesen"
+      },
+      {
+        "wort": "das Buch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کتاب",
+          "en": "book"
+        },
+        "id_ref": "nomen_buch"
+      },
+      {
+        "wort": "aussortieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جدا کردن",
+          "en": "to sort out"
+        },
+        "id_ref": "verb_aussortieren"
+      },
+      {
+        "wort": "die Auslese",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "گزینش",
+          "en": "selection"
+        },
+        "id_ref": "nomen_auslese"
+      },
+      {
+        "wort": "auflesen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "از زمین جمع کردن",
+          "en": "to pick up"
+        },
+        "id_ref": "verb_auflesen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

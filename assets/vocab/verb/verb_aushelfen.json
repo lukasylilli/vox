@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_aushelfen",
+  "wort": "aushelfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کمک کردن (موقت)، جای کسی را پر کردن",
+      "قرض دادن (در موقع نیاز)"
+    ],
+    "en": [
+      "to help out",
+      "to fill in"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Alltag"
+  ],
+  "ipa": "ˈaʊ̯sˌhɛlfn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Kannst du mir mit zehn Euro aushelfen?",
+      "uebersetzung": {
+        "fa": "می‌توانی ده یورو بهم قرض بدهی؟",
+        "en": "Can you help me out with ten euros?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil zwei Kollegen krank sind, hilft er diese Woche im Lager aus.",
+      "uebersetzung": {
+        "fa": "چون دو همکار بیمارند، او این هفته در انبار کمک می‌کند.",
+        "en": "Because two colleagues are ill, he is helping out in the warehouse this week."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einspringen",
+      "uebersetzung": {
+        "fa": "جای کسی کار کردن",
+        "en": "to step in"
+      }
+    },
+    {
+      "wort": "helfen",
+      "uebersetzung": {
+        "fa": "کمک کردن",
+        "en": "to help"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند) + helfen (کمک کردن)",
+    "en": "aus- (prefix) + helfen (to help)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem (mit etwas) aushelfen (mit + Dat)",
+        "bedeutung": "jemandem vorübergehend helfen",
+        "beispiel": "Die Nachbarin hat uns mit Milch ausgeholfen.",
+        "uebersetzung": {
+          "fa": "همسایه با کمی شیر کارمان را راه انداخت.",
+          "en": "The neighbour helped us out with some milk."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "aushelfen",
+      "praeteritum": "half aus",
+      "partizip2": "ausgeholfen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "helfe aus",
+        "du": "hilfst aus",
+        "er_sie_es": "hilft aus",
+        "wir": "helfen aus",
+        "ihr": "helft aus",
+        "sie_Sie": "helfen aus"
+      },
+      "praeteritum": {
+        "ich": "half aus",
+        "du": "halfst aus",
+        "er_sie_es": "half aus",
+        "wir": "halfen aus",
+        "ihr": "halft aus",
+        "sie_Sie": "halfen aus"
+      },
+      "konjunktiv1": {
+        "ich": "helfe aus",
+        "du": "helfest aus",
+        "er_sie_es": "helfe aus",
+        "wir": "helfen aus",
+        "ihr": "helfet aus",
+        "sie_Sie": "helfen aus"
+      },
+      "konjunktiv2": {
+        "ich": "hülfe aus",
+        "du": "hülfest aus",
+        "er_sie_es": "hülfe aus",
+        "wir": "hülfen aus",
+        "ihr": "hülfet aus",
+        "sie_Sie": "hülfen aus"
+      },
+      "imperativ": {
+        "du": "Hilf aus!",
+        "ihr": "Helft aus!",
+        "Sie": "Helfen Sie aus!"
+      }
+    },
+    "partizip1": "aushelfend",
+    "nominalisierung": "die Aushilfe"
+  },
+  "wortnetz": {
+    "grundwort": "helfen",
+    "woerter": [
+      {
+        "wort": "helfen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک کردن",
+          "en": "to help"
+        },
+        "id_ref": "verb_helfen"
+      },
+      {
+        "wort": "die Hilfe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کمک",
+          "en": "help"
+        },
+        "id_ref": "nomen_hilfe"
+      },
+      {
+        "wort": "die Aushilfe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نیروی کمکی موقت",
+          "en": "temporary help"
+        },
+        "id_ref": "nomen_aushilfe"
+      },
+      {
+        "wort": "einspringen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جای کسی کار کردن",
+          "en": "to step in"
+        },
+        "id_ref": "verb_einspringen"
+      },
+      {
+        "wort": "leihen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قرض دادن",
+          "en": "to lend"
+        },
+        "id_ref": "verb_leihen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

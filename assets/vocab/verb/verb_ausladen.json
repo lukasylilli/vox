@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausladen",
+  "wort": "ausladen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بار خالی کردن، تخلیه کردن",
+      "دعوت (کسی را) پس گرفتن"
+    ],
+    "en": [
+      "to unload",
+      "to disinvite"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Transport",
+    "Feste"
+  ],
+  "ipa": "ˈaʊ̯sˌlaːdn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir laden die Koffer aus.",
+      "uebersetzung": {
+        "fa": "چمدان‌ها را خالی می‌کنیم.",
+        "en": "We unload the suitcases."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Streit hat sie ihren Cousin von der Hochzeit wieder ausgeladen.",
+      "uebersetzung": {
+        "fa": "بعد از دعوا، دعوت پسرعمویش به عروسی را پس گرفت.",
+        "en": "After the argument she disinvited her cousin from the wedding."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "entladen",
+      "uebersetzung": {
+        "fa": "خالی کردن بار",
+        "en": "to unload"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "einladen",
+      "uebersetzung": {
+        "fa": "بار زدن؛ دعوت کردن",
+        "en": "to load; to invite"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند: بیرون) + laden (بار کردن؛ دعوت کردن)",
+    "en": "aus- (prefix: out) + laden (to load; to invite)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas ausladen",
+        "bedeutung": "Ladung aus einem Fahrzeug nehmen — mit Akkusativ",
+        "beispiel": "Die Männer luden die Kisten aus dem Lkw aus.",
+        "uebersetzung": {
+          "fa": "مردها جعبه‌ها را از کامیون خالی کردند.",
+          "en": "The men unloaded the boxes from the lorry."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausladen",
+      "praeteritum": "lud aus",
+      "partizip2": "ausgeladen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lade aus",
+        "du": "lädst aus",
+        "er_sie_es": "lädt aus",
+        "wir": "laden aus",
+        "ihr": "ladet aus",
+        "sie_Sie": "laden aus"
+      },
+      "praeteritum": {
+        "ich": "lud aus",
+        "du": "ludest aus",
+        "er_sie_es": "lud aus",
+        "wir": "luden aus",
+        "ihr": "ludet aus",
+        "sie_Sie": "luden aus"
+      },
+      "konjunktiv1": {
+        "ich": "lade aus",
+        "du": "ladest aus",
+        "er_sie_es": "lade aus",
+        "wir": "laden aus",
+        "ihr": "ladet aus",
+        "sie_Sie": "laden aus"
+      },
+      "konjunktiv2": {
+        "ich": "lüde aus",
+        "du": "lüdest aus",
+        "er_sie_es": "lüde aus",
+        "wir": "lüden aus",
+        "ihr": "lüdet aus",
+        "sie_Sie": "lüden aus"
+      },
+      "imperativ": {
+        "du": "Lade aus!",
+        "ihr": "Ladet aus!",
+        "Sie": "Laden Sie aus!"
+      }
+    },
+    "partizip1": "ausladend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laden",
+    "woerter": [
+      {
+        "wort": "einladen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دعوت کردن",
+          "en": "to invite"
+        },
+        "id_ref": "verb_einladen"
+      },
+      {
+        "wort": "der Koffer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چمدان",
+          "en": "suitcase"
+        },
+        "id_ref": "nomen_koffer"
+      },
+      {
+        "wort": "laden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بار کردن، شارژ کردن",
+          "en": "to load, to charge"
+        },
+        "id_ref": "verb_laden"
+      },
+      {
+        "wort": "der Lkw",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کامیون",
+          "en": "lorry"
+        },
+        "id_ref": "nomen_lkw"
+      },
+      {
+        "wort": "die Einladung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دعوت",
+          "en": "invitation"
+        },
+        "id_ref": "nomen_einladung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

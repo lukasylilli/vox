@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_auskriechen",
+  "wort": "auskriechen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "از تخم بیرون آمدن"
+    ],
+    "en": [
+      "to hatch (out)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Tiere"
+  ],
+  "ipa": "ˈaʊ̯sˌkʁiːçn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Küken kriechen aus.",
+      "uebersetzung": {
+        "fa": "جوجه‌ها از تخم بیرون می‌آیند.",
+        "en": "The chicks are hatching."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als die kleinen Schildkröten ausgekrochen waren, liefen sie sofort zum Meer.",
+      "uebersetzung": {
+        "fa": "وقتی لاک‌پشت‌های کوچک از تخم بیرون آمدند، فوراً به طرف دریا دویدند.",
+        "en": "When the little turtles had hatched, they immediately ran to the sea."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schlüpfen",
+      "uebersetzung": {
+        "fa": "از تخم درآمدن",
+        "en": "to hatch"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند: بیرون) + kriechen (خزیدن)",
+    "en": "aus- (prefix: out) + kriechen (to crawl)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "aus etwas auskriechen (aus + Dat)",
+        "bedeutung": "aus dem Ei herauskommen",
+        "beispiel": "Die Raupe ist aus dem Ei ausgekrochen.",
+        "uebersetzung": {
+          "fa": "کرم از تخم بیرون آمد.",
+          "en": "The caterpillar has hatched from the egg."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "auskriechen",
+      "praeteritum": "kroch aus",
+      "partizip2": "ausgekrochen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "krieche aus",
+        "du": "kriechst aus",
+        "er_sie_es": "kriecht aus",
+        "wir": "kriechen aus",
+        "ihr": "kriecht aus",
+        "sie_Sie": "kriechen aus"
+      },
+      "praeteritum": {
+        "ich": "kroch aus",
+        "du": "krochst aus",
+        "er_sie_es": "kroch aus",
+        "wir": "krochen aus",
+        "ihr": "krocht aus",
+        "sie_Sie": "krochen aus"
+      },
+      "konjunktiv1": {
+        "ich": "krieche aus",
+        "du": "kriechest aus",
+        "er_sie_es": "krieche aus",
+        "wir": "kriechen aus",
+        "ihr": "kriechet aus",
+        "sie_Sie": "kriechen aus"
+      },
+      "konjunktiv2": {
+        "ich": "kröche aus",
+        "du": "kröchest aus",
+        "er_sie_es": "kröche aus",
+        "wir": "kröchen aus",
+        "ihr": "kröchet aus",
+        "sie_Sie": "kröchen aus"
+      },
+      "imperativ": {
+        "du": "Kriech aus!",
+        "ihr": "Kriecht aus!",
+        "Sie": "Kriechen Sie aus!"
+      }
+    },
+    "partizip1": "auskriechend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kriechen",
+    "woerter": [
+      {
+        "wort": "das Ei",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تخم",
+          "en": "egg"
+        },
+        "id_ref": "nomen_ei"
+      },
+      {
+        "wort": "das Küken",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جوجه",
+          "en": "chick"
+        },
+        "id_ref": "nomen_kueken"
+      },
+      {
+        "wort": "kriechen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خزیدن",
+          "en": "to crawl"
+        },
+        "id_ref": "verb_kriechen"
+      },
+      {
+        "wort": "schlüpfen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "از تخم درآمدن",
+          "en": "to hatch"
+        },
+        "id_ref": "verb_schluepfen"
+      },
+      {
+        "wort": "das Nest",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لانه",
+          "en": "nest"
+        },
+        "id_ref": "nomen_nest"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

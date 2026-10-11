@@ -886,6 +886,73 @@ const zurueckgestellt = <String>{
   'aushaben', // zurückgestellt (Regel 14): umgangssprachlich, Bedeutungen schwankend 2026-10-11
   'aushängen', // zurückgestellt (Regel 16): transitiv regelmäßig (hängte aus), intransitiv unregelmäßig (hing aus) ⇒ «regelmaessig» nicht eindeutig 2026-10-11
   'aushauen', // zurückgestellt (Regel 14/16): Präteritum schwankt (haute/hieb aus), selten — wie aufhauen 2026-10-11
+  'auskiesen', // zurückgestellt (Regel 14/16): veraltet (wie auserkiesen) 2026-10-12
+  'auskneifen', // zurückgestellt (Regel 14/16): umgangssprachlich (ausreißen), Gebrauch unsicher 2026-10-12
+  'ausliegen', // zurückgestellt (Regel 14/16): Hilfsverb schwankt (haben; südd./österr. sein) — wie aufliegen 2026-10-12
+  'ausmahlen', // zurückgestellt (Regel 14/16): selten/fachsprachlich; Formen gemischt (mahlte, gemahlen) 2026-10-12
+  'ausmelken', // zurückgestellt (Regel 14/16): selten — wie abmelken 2026-10-12
+  'auswärtsgehen', // zurückgestellt (Regel 14/16): selten (mit nach außen gerichteten Füßen gehen) 2026-10-12
+  'bedünken', // zurückgestellt (Regel 14/16): veraltet 2026-10-12
+  'befleißen', // zurückgestellt (Regel 14/16): veraltet (heute «sich befleißigen») 2026-10-12
+  'beibiegen', // zurückgestellt (Regel 14/16): umgangssprachlich, Gebrauch unsicher 2026-10-12
+  'beibleiben', // zurückgestellt (Regel 14/16): selten 2026-10-12
+  'beieinanderhaben', // zurückgestellt (Regel 14/16): umgangssprachlich, fast nur Redewendung 2026-10-12
+  'beieinanderhalten', // zurückgestellt (Regel 14/16): selten 2026-10-12
+  'beifallen', // zurückgestellt (Regel 14/16): veraltet 2026-10-12
+  'beigehen', // zurückgestellt (Regel 14/16): veraltet/landschaftlich 2026-10-12
+  'beihalten', // zurückgestellt (Regel 14/16): selten, Bedeutung unsicher 2026-10-12
+  'beiladen', // zurückgestellt (Regel 14/16): fachsprachlich (Recht/Transport), selten 2026-10-12
+  'beiliegen', // zurückgestellt (Regel 14/16): Hilfsverb schwankt (haben; südd./österr. sein) 2026-10-12
+  'beisammenhaben', // zurückgestellt (Regel 14/16): umgangssprachlich, fast nur Redewendung 2026-10-12
+  'beisammenhalten', // zurückgestellt (Regel 14/16): selten 2026-10-12
+  'bekleiben', // zurückgestellt (Regel 14/16): veraltet 2026-10-12
+  'belesen', // zurückgestellt (Regel 14/16): als Verb veraltet (heute nur Adjektiv «belesen») 2026-10-12
+  'bereitliegen', // zurückgestellt (Regel 14/16): Hilfsverb schwankt (haben; südd./österr. sein) 2026-10-12
+  'blickenlassen', // zurückgestellt (Regel 14/16): Schreibung: heute getrennt «sich blicken lassen» 2026-10-12
+  'blindfliegen', // zurückgestellt (Regel 14/16): selten; Hilfsverb schwankt 2026-10-12
+  'bloßliegen', // zurückgestellt (Regel 14/16): Hilfsverb schwankt (haben; südd./österr. sein) 2026-10-12
+  'brachliegen', // zurückgestellt (Regel 14/16): Hilfsverb schwankt (haben; südd./österr. sein) 2026-10-12
+  'dafürhalten', // zurückgestellt (Regel 14/16): gehoben, fast nur «nach meinem Dafürhalten» 2026-10-12
+  'dafürkönnen', // zurückgestellt (Regel 14/16): umgangssprachlich; kein Imperativ, Konjugation wie Modalverb 2026-10-12
+  'daherbringen', // zurückgestellt (Regel 14/16): landschaftlich, selten 2026-10-12
+  'daherfliegen', // zurückgestellt (Regel 14/16): selten 2026-10-12
+  'dahinfahren', // zurückgestellt (Regel 14/16): gehoben/veraltet (auch: sterben) 2026-10-12
+  'dahinfallen', // zurückgestellt (Regel 14/16): schweizerisch/selten 2026-10-12
+  'dahinfliegen', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-12
+  'dahinfließen', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-12
+  'dahingeben', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-12
+  'dahingehen', // zurückgestellt (Regel 14/16): gehoben (auch: sterben), Bedeutungen schwankend 2026-10-12
+  'dahingleiten', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-12
+  'daliegen', // zurückgestellt (Regel 14/16): Hilfsverb schwankt (haben; südd./österr. sein) 2026-10-12
+  'danebenfallen', // zurückgestellt (Regel 14/16): selten 2026-10-12
+  'danebengelingen', // zurückgestellt (Regel 14/16): Bildung/Gebrauch nicht belegt 2026-10-12
+  'danebenhalten', // zurückgestellt (Regel 14/16): selten 2026-10-12
+  'danebenhauen', // zurückgestellt (Regel 14/16): umgangssprachlich; Präteritum schwankt (haute/hieb) 2026-10-12
+  'danebenliegen', // zurückgestellt (Regel 14/16): umgangssprachlich; Hilfsverb schwankt 2026-10-12
+  'daniederliegen', // zurückgestellt (Regel 14/16): gehoben; Hilfsverb schwankt 2026-10-12
+  'darangeben', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-12
+  'darangehen', // zurückgestellt (Regel 14/16): selten; meist «an etwas gehen» 2026-10-12
+  'darbringen', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-12
+  'dareinfinden', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-12
+  'darleihen', // zurückgestellt (Regel 14/16): veraltet 2026-10-12
+  'darniederliegen', // zurückgestellt (Regel 14/16): gehoben; Hilfsverb schwankt 2026-10-12
+  'darüberfahren', // zurückgestellt (Regel 14/16): selten; meist getrennt geschrieben 2026-10-12
+  'darüberliegen', // zurückgestellt (Regel 14/16): Schreibung/Hilfsverb schwankend 2026-10-12
+  'darumbinden', // zurückgestellt (Regel 14/16): selten; meist getrennt geschrieben 2026-10-12
+  'darumkommen', // zurückgestellt (Regel 14/16): selten; meist getrennt geschrieben («darum kommen») 2026-10-12
+  'darunterbleiben', // zurückgestellt (Regel 14/16): selten; meist getrennt geschrieben 2026-10-12
+  'darunterfallen', // zurückgestellt (Regel 14/16): selten; meist getrennt geschrieben 2026-10-12
+  'daruntergehen', // zurückgestellt (Regel 14/16): selten 2026-10-12
+  'darunterheben', // zurückgestellt (Regel 14/16): selten, Bedeutung unsicher 2026-10-12
+  'darunterliegen', // zurückgestellt (Regel 14/16): Schreibung/Hilfsverb schwankend 2026-10-12
+  'davonbleiben', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-12
+  'davorhalten', // zurückgestellt (Regel 14/16): selten; meist getrennt geschrieben 2026-10-12
+  'davorliegen', // zurückgestellt (Regel 14/16): Hilfsverb schwankt; selten 2026-10-12
+  'dazuhalten', // zurückgestellt (Regel 14/16): landschaftlich (sich beeilen) 2026-10-12
+  'dazukönnen', // zurückgestellt (Regel 14/16): umgangssprachlich; kein Imperativ 2026-10-12
+  'dazwischenfragen', // zurückgestellt (Regel 14/16): selten 2026-10-12
+  'dazwischenhauen', // zurückgestellt (Regel 14/16): umgangssprachlich; Präteritum schwankt 2026-10-12
+  'dazwischenliegen', // zurückgestellt (Regel 14/16): Hilfsverb schwankt (haben; südd./österr. sein) 2026-10-12
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

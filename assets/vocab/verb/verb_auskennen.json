@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_auskennen",
+  "wort": "auskennen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(sich auskennen) آشنا بودن، وارد بودن"
+    ],
+    "en": [
+      "to know one's way around",
+      "to be knowledgeable"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Orientierung"
+  ],
+  "ipa": "ˈaʊ̯sˌkɛnən",
+  "anmerkung": "nur reflexiv: «sich auskennen»",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Kennst du dich in Wien aus?",
+      "uebersetzung": {
+        "fa": "وین را خوب می‌شناسی؟",
+        "en": "Do you know your way around Vienna?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Frag lieber Markus, weil er sich mit Computern viel besser auskennt als ich.",
+      "uebersetzung": {
+        "fa": "بهتر است از مارکوس بپرسی، چون او خیلی بهتر از من از کامپیوتر سر درمی‌آورد.",
+        "en": "Better ask Markus, because he knows much more about computers than I do."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "Bescheid wissen",
+      "uebersetzung": {
+        "fa": "باخبر بودن",
+        "en": "to know about"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند) + kennen (شناختن)",
+    "en": "aus- (prefix) + kennen (to know)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich mit etwas auskennen (mit + Dat)",
+        "bedeutung": "Fachwissen über etwas haben",
+        "beispiel": "Sie kennt sich mit Pflanzen gut aus.",
+        "uebersetzung": {
+          "fa": "او از گیاهان خوب سر درمی‌آورد.",
+          "en": "She knows a lot about plants."
+        }
+      },
+      {
+        "muster": "sich in etwas auskennen (in + Dat)",
+        "bedeutung": "einen Ort oder ein Gebiet gut kennen",
+        "beispiel": "Ich kenne mich in der Stadt nicht aus.",
+        "uebersetzung": {
+          "fa": "شهر را نمی‌شناسم.",
+          "en": "I don't know my way around the town."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "auskennen",
+      "praeteritum": "kannte aus",
+      "partizip2": "ausgekannt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kenne aus",
+        "du": "kennst aus",
+        "er_sie_es": "kennt aus",
+        "wir": "kennen aus",
+        "ihr": "kennt aus",
+        "sie_Sie": "kennen aus"
+      },
+      "praeteritum": {
+        "ich": "kannte aus",
+        "du": "kanntest aus",
+        "er_sie_es": "kannte aus",
+        "wir": "kannten aus",
+        "ihr": "kanntet aus",
+        "sie_Sie": "kannten aus"
+      },
+      "konjunktiv1": {
+        "ich": "kenne aus",
+        "du": "kennest aus",
+        "er_sie_es": "kenne aus",
+        "wir": "kennen aus",
+        "ihr": "kennet aus",
+        "sie_Sie": "kennen aus"
+      },
+      "konjunktiv2": {
+        "ich": "kennte aus",
+        "du": "kenntest aus",
+        "er_sie_es": "kennte aus",
+        "wir": "kennten aus",
+        "ihr": "kenntet aus",
+        "sie_Sie": "kennten aus"
+      },
+      "imperativ": {
+        "du": "Kenn aus!",
+        "ihr": "Kennt aus!",
+        "Sie": "Kennen Sie aus!"
+      }
+    },
+    "partizip1": "auskennend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kennen",
+    "woerter": [
+      {
+        "wort": "kennen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شناختن",
+          "en": "to know"
+        },
+        "id_ref": "verb_kennen"
+      },
+      {
+        "wort": "wissen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دانستن",
+          "en": "to know"
+        },
+        "id_ref": "verb_wissen"
+      },
+      {
+        "wort": "die Erfahrung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تجربه",
+          "en": "experience"
+        },
+        "id_ref": "nomen_erfahrung"
+      },
+      {
+        "wort": "der Experte",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کارشناس",
+          "en": "expert"
+        },
+        "id_ref": "nomen_experte"
+      },
+      {
+        "wort": "die Kenntnis",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آگاهی",
+          "en": "knowledge"
+        },
+        "id_ref": "nomen_kenntnis"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,201 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausleihen",
+  "wort": "ausleihen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "قرض دادن",
+      "(sich etwas ausleihen) قرض گرفتن، امانت گرفتن"
+    ],
+    "en": [
+      "to lend",
+      "to borrow (sich)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Bibliothek"
+  ],
+  "ipa": "ˈaʊ̯sˌlaɪ̯ən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich leihe mir ein Buch aus.",
+      "uebersetzung": {
+        "fa": "یک کتاب امانت می‌گیرم.",
+        "en": "I'm borrowing a book."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Kannst du mir dein Fahrrad ausleihen, weil meins gerade kaputt ist?",
+      "uebersetzung": {
+        "fa": "می‌توانی دوچرخه‌ات را بهم قرض بدهی، چون مال من الان خراب است؟",
+        "en": "Can you lend me your bike, because mine is broken right now?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "leihen",
+      "uebersetzung": {
+        "fa": "قرض دادن/گرفتن",
+        "en": "to lend, to borrow"
+      }
+    },
+    {
+      "wort": "borgen",
+      "uebersetzung": {
+        "fa": "قرض دادن/گرفتن",
+        "en": "to lend, to borrow"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zurückgeben",
+      "uebersetzung": {
+        "fa": "پس دادن",
+        "en": "to give back"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند: بیرون) + leihen (قرض دادن)",
+    "en": "aus- (prefix: out) + leihen (to lend)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "jemandem etwas ausleihen",
+        "bedeutung": "jemandem etwas für kurze Zeit geben — Dativ + Akkusativ",
+        "beispiel": "Ich leihe dir gern meinen Schirm aus.",
+        "uebersetzung": {
+          "fa": "با کمال میل چترم را بهت قرض می‌دهم.",
+          "en": "I'm happy to lend you my umbrella."
+        }
+      },
+      {
+        "muster": "sich (Dat) etwas bei/von jemandem ausleihen (bei/von + Dat)",
+        "bedeutung": "sich etwas für kurze Zeit geben lassen",
+        "beispiel": "Er hat sich bei mir Geld ausgeliehen.",
+        "uebersetzung": {
+          "fa": "از من پول قرض گرفت.",
+          "en": "He borrowed money from me."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausleihen",
+      "praeteritum": "lieh aus",
+      "partizip2": "ausgeliehen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "leihe aus",
+        "du": "leihst aus",
+        "er_sie_es": "leiht aus",
+        "wir": "leihen aus",
+        "ihr": "leiht aus",
+        "sie_Sie": "leihen aus"
+      },
+      "praeteritum": {
+        "ich": "lieh aus",
+        "du": "liehst aus",
+        "er_sie_es": "lieh aus",
+        "wir": "liehen aus",
+        "ihr": "lieht aus",
+        "sie_Sie": "liehen aus"
+      },
+      "konjunktiv1": {
+        "ich": "leihe aus",
+        "du": "leihest aus",
+        "er_sie_es": "leihe aus",
+        "wir": "leihen aus",
+        "ihr": "leihet aus",
+        "sie_Sie": "leihen aus"
+      },
+      "konjunktiv2": {
+        "ich": "liehe aus",
+        "du": "liehest aus",
+        "er_sie_es": "liehe aus",
+        "wir": "liehen aus",
+        "ihr": "liehet aus",
+        "sie_Sie": "liehen aus"
+      },
+      "imperativ": {
+        "du": "Leih aus!",
+        "ihr": "Leiht aus!",
+        "Sie": "Leihen Sie aus!"
+      }
+    },
+    "partizip1": "ausleihend",
+    "nominalisierung": "die Ausleihe"
+  },
+  "wortnetz": {
+    "grundwort": "leihen",
+    "woerter": [
+      {
+        "wort": "das Buch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کتاب",
+          "en": "book"
+        },
+        "id_ref": "nomen_buch"
+      },
+      {
+        "wort": "leihen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قرض دادن",
+          "en": "to lend"
+        },
+        "id_ref": "verb_leihen"
+      },
+      {
+        "wort": "die Bibliothek",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کتابخانه",
+          "en": "library"
+        },
+        "id_ref": "nomen_bibliothek"
+      },
+      {
+        "wort": "zurückgeben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پس دادن",
+          "en": "to give back"
+        },
+        "id_ref": "verb_zurueckgeben"
+      },
+      {
+        "wort": "borgen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرض گرفتن/دادن",
+          "en": "to borrow, to lend"
+        },
+        "id_ref": "verb_borgen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

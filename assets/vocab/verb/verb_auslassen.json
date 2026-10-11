@@ -1,0 +1,194 @@
+{
+  "schema": "3.0",
+  "id": "verb_auslassen",
+  "wort": "auslassen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جا انداختن، حذف کردن",
+      "(sich auslassen / an jemandem auslassen) خالی کردن (خشم)",
+      "از دست دادن (فرصت)"
+    ],
+    "en": [
+      "to leave out",
+      "to vent (on)",
+      "to miss"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kommunikation",
+    "Gefühle"
+  ],
+  "ipa": "ˈaʊ̯sˌlasn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Du hast ein Wort ausgelassen.",
+      "uebersetzung": {
+        "fa": "یک کلمه را جا انداختی.",
+        "en": "You have left out a word."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Er sollte seine schlechte Laune nicht an den Kindern auslassen, nur weil er Stress im Büro hat.",
+      "uebersetzung": {
+        "fa": "نباید بدخلقی‌اش را سر بچه‌ها خالی کند، فقط چون در اداره استرس دارد.",
+        "en": "He shouldn't take his bad mood out on the children just because he's stressed at the office."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "weglassen",
+      "uebersetzung": {
+        "fa": "حذف کردن",
+        "en": "to omit"
+      }
+    },
+    {
+      "wort": "überspringen",
+      "uebersetzung": {
+        "fa": "از قلم انداختن",
+        "en": "to skip"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "einfügen",
+      "uebersetzung": {
+        "fa": "افزودن",
+        "en": "to insert"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند: بیرون) + lassen (گذاشتن)",
+    "en": "aus- (prefix: out) + lassen (to let)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas an jemandem auslassen (an + Dat)",
+        "bedeutung": "seinen Ärger an jemandem abreagieren",
+        "beispiel": "Lass deine Wut nicht an mir aus!",
+        "uebersetzung": {
+          "fa": "عصبانیتت را سر من خالی نکن!",
+          "en": "Don't take your anger out on me!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "auslassen",
+      "praeteritum": "ließ aus",
+      "partizip2": "ausgelassen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lasse aus",
+        "du": "lässt aus",
+        "er_sie_es": "lässt aus",
+        "wir": "lassen aus",
+        "ihr": "lasst aus",
+        "sie_Sie": "lassen aus"
+      },
+      "praeteritum": {
+        "ich": "ließ aus",
+        "du": "ließest aus",
+        "er_sie_es": "ließ aus",
+        "wir": "ließen aus",
+        "ihr": "ließt aus",
+        "sie_Sie": "ließen aus"
+      },
+      "konjunktiv1": {
+        "ich": "lasse aus",
+        "du": "lassest aus",
+        "er_sie_es": "lasse aus",
+        "wir": "lassen aus",
+        "ihr": "lasset aus",
+        "sie_Sie": "lassen aus"
+      },
+      "konjunktiv2": {
+        "ich": "ließe aus",
+        "du": "ließest aus",
+        "er_sie_es": "ließe aus",
+        "wir": "ließen aus",
+        "ihr": "ließet aus",
+        "sie_Sie": "ließen aus"
+      },
+      "imperativ": {
+        "du": "Lass aus!",
+        "ihr": "Lasst aus!",
+        "Sie": "Lassen Sie aus!"
+      }
+    },
+    "partizip1": "auslassend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "lassen",
+    "woerter": [
+      {
+        "wort": "lassen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گذاشتن",
+          "en": "to let"
+        },
+        "id_ref": "verb_lassen"
+      },
+      {
+        "wort": "weglassen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حذف کردن",
+          "en": "to leave out"
+        },
+        "id_ref": "verb_weglassen"
+      },
+      {
+        "wort": "die Laune",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حال، خلق",
+          "en": "mood"
+        },
+        "id_ref": "nomen_laune"
+      },
+      {
+        "wort": "ausgelassen",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سرخوش",
+          "en": "exuberant"
+        },
+        "id_ref": "adjektiv_ausgelassen"
+      },
+      {
+        "wort": "die Chance",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فرصت",
+          "en": "chance"
+        },
+        "id_ref": "nomen_chance"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

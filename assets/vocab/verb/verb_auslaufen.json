@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_auslaufen",
+  "wort": "auslaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نشت کردن، بیرون ریختن",
+      "(کشتی) از بندر حرکت کردن",
+      "به پایان رسیدن (قرارداد، مدل)"
+    ],
+    "en": [
+      "to leak",
+      "to set sail",
+      "to expire, to be phased out"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Arbeit",
+    "Schifffahrt"
+  ],
+  "ipa": "ˈaʊ̯sˌlaʊ̯fn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Milch läuft aus.",
+      "uebersetzung": {
+        "fa": "شیر بیرون می‌ریزد.",
+        "en": "The milk is leaking."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sein Vertrag läuft Ende des Jahres aus, und er weiß noch nicht, ob er verlängert wird.",
+      "uebersetzung": {
+        "fa": "قراردادش آخر سال تمام می‌شود و هنوز نمی‌داند تمدید می‌شود یا نه.",
+        "en": "His contract expires at the end of the year and he doesn't know yet whether it will be extended."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ablaufen",
+      "uebersetzung": {
+        "fa": "سر آمدن (مهلت)",
+        "en": "to expire"
+      }
+    },
+    {
+      "wort": "lecken",
+      "uebersetzung": {
+        "fa": "نشت کردن",
+        "en": "to leak"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "einlaufen",
+      "uebersetzung": {
+        "fa": "وارد بندر شدن",
+        "en": "to come into port"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند: بیرون) + laufen (دویدن، جاری شدن)",
+    "en": "aus- (prefix: out) + laufen (to run)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "auslaufen",
+      "praeteritum": "lief aus",
+      "partizip2": "ausgelaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laufe aus",
+        "du": "läufst aus",
+        "er_sie_es": "läuft aus",
+        "wir": "laufen aus",
+        "ihr": "lauft aus",
+        "sie_Sie": "laufen aus"
+      },
+      "praeteritum": {
+        "ich": "lief aus",
+        "du": "liefst aus",
+        "er_sie_es": "lief aus",
+        "wir": "liefen aus",
+        "ihr": "lieft aus",
+        "sie_Sie": "liefen aus"
+      },
+      "konjunktiv1": {
+        "ich": "laufe aus",
+        "du": "laufest aus",
+        "er_sie_es": "laufe aus",
+        "wir": "laufen aus",
+        "ihr": "laufet aus",
+        "sie_Sie": "laufen aus"
+      },
+      "konjunktiv2": {
+        "ich": "liefe aus",
+        "du": "liefest aus",
+        "er_sie_es": "liefe aus",
+        "wir": "liefen aus",
+        "ihr": "liefet aus",
+        "sie_Sie": "liefen aus"
+      },
+      "imperativ": {
+        "du": "Lauf aus!",
+        "ihr": "Lauft aus!",
+        "Sie": "Laufen Sie aus!"
+      }
+    },
+    "partizip1": "auslaufend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دویدن",
+          "en": "to run"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "der Vertrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرارداد",
+          "en": "contract"
+        },
+        "id_ref": "nomen_vertrag"
+      },
+      {
+        "wort": "ablaufen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سر آمدن",
+          "en": "to expire"
+        },
+        "id_ref": "verb_ablaufen"
+      },
+      {
+        "wort": "das Schiff",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کشتی",
+          "en": "ship"
+        },
+        "id_ref": "nomen_schiff"
+      },
+      {
+        "wort": "der Hafen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بندر",
+          "en": "port"
+        },
+        "id_ref": "nomen_hafen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

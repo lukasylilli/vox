@@ -1,0 +1,201 @@
+{
+  "schema": "3.0",
+  "id": "verb_auskommen",
+  "wort": "auskommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با کسی) کنار آمدن",
+      "(با چیزی) سر کردن، گذران کردن"
+    ],
+    "en": [
+      "to get on (with)",
+      "to manage (with/without)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Beziehungen",
+    "Geld"
+  ],
+  "ipa": "ˈaʊ̯sˌkɔmən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich komme gut mit meiner Schwester aus.",
+      "uebersetzung": {
+        "fa": "با خواهرم خوب کنار می‌آیم.",
+        "en": "I get on well with my sister."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Seit er weniger verdient, muss die Familie mit sehr wenig Geld auskommen.",
+      "uebersetzung": {
+        "fa": "از وقتی او کمتر درآمد دارد، خانواده باید با پول خیلی کمی سر کند.",
+        "en": "Since he has been earning less, the family has to manage on very little money."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich verstehen",
+      "uebersetzung": {
+        "fa": "با هم کنار آمدن",
+        "en": "to get along"
+      }
+    },
+    {
+      "wort": "zurechtkommen",
+      "uebersetzung": {
+        "fa": "از پس برآمدن",
+        "en": "to cope"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sich streiten",
+      "uebersetzung": {
+        "fa": "دعوا کردن",
+        "en": "to quarrel"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند) + kommen (آمدن)",
+    "en": "aus- (prefix) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit jemandem auskommen (mit + Dat)",
+        "bedeutung": "sich mit jemandem vertragen",
+        "beispiel": "Er kommt mit seinem Chef nicht aus.",
+        "uebersetzung": {
+          "fa": "او با رئیسش کنار نمی‌آید.",
+          "en": "He doesn't get on with his boss."
+        }
+      },
+      {
+        "muster": "mit etwas / ohne etwas auskommen (mit + Dat / ohne + Akk)",
+        "bedeutung": "mit einer Menge genügend haben / auf etwas verzichten können",
+        "beispiel": "Ohne Auto kommen wir in der Stadt gut aus.",
+        "uebersetzung": {
+          "fa": "در شهر بدون ماشین خوب سر می‌کنیم.",
+          "en": "We manage fine without a car in the city."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "auskommen",
+      "praeteritum": "kam aus",
+      "partizip2": "ausgekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme aus",
+        "du": "kommst aus",
+        "er_sie_es": "kommt aus",
+        "wir": "kommen aus",
+        "ihr": "kommt aus",
+        "sie_Sie": "kommen aus"
+      },
+      "praeteritum": {
+        "ich": "kam aus",
+        "du": "kamst aus",
+        "er_sie_es": "kam aus",
+        "wir": "kamen aus",
+        "ihr": "kamt aus",
+        "sie_Sie": "kamen aus"
+      },
+      "konjunktiv1": {
+        "ich": "komme aus",
+        "du": "kommest aus",
+        "er_sie_es": "komme aus",
+        "wir": "kommen aus",
+        "ihr": "kommet aus",
+        "sie_Sie": "kommen aus"
+      },
+      "konjunktiv2": {
+        "ich": "käme aus",
+        "du": "kämest aus",
+        "er_sie_es": "käme aus",
+        "wir": "kämen aus",
+        "ihr": "kämet aus",
+        "sie_Sie": "kämen aus"
+      },
+      "imperativ": {
+        "du": "Komm aus!",
+        "ihr": "Kommt aus!",
+        "Sie": "Kommen Sie aus!"
+      }
+    },
+    "partizip1": "auskommend",
+    "nominalisierung": "das Auskommen"
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "zurechtkommen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "از پس برآمدن",
+          "en": "to cope"
+        },
+        "id_ref": "verb_zurechtkommen"
+      },
+      {
+        "wort": "verstehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کنار آمدن",
+          "en": "to get along"
+        },
+        "id_ref": "verb_verstehen"
+      },
+      {
+        "wort": "das Geld",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پول",
+          "en": "money"
+        },
+        "id_ref": "nomen_geld"
+      },
+      {
+        "wort": "das Auskommen",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "درآمد کافی برای زندگی",
+          "en": "livelihood"
+        },
+        "id_ref": "nomen_auskommen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
