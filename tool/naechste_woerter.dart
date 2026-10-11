@@ -1012,6 +1012,7 @@ const zurueckgestellt = <String>{
   'emporfahren', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-11
   'emporfliegen', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-11
   'emporheben', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-11
+  'entbieten', // zurückgestellt (Regel 14/16): gehoben, veraltet 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_entgegengehen",
+  "wort": "entgegengehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به استقبال (کسی) رفتن، به سوی (کسی) رفتن",
+      "(به پایان یا خطری) نزدیک شدن"
+    ],
+    "en": [
+      "to go to meet (someone)",
+      "to approach, to be heading for (an end, danger)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Zeit"
+  ],
+  "ipa": "ɛntˈɡeːɡn̩ˌɡeːən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Kind geht seiner Mutter entgegen.",
+      "uebersetzung": {
+        "fa": "بچه به سمت مادرش می‌رود.",
+        "en": "The child goes to meet its mother."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Sommer geht langsam seinem Ende entgegen, und die Tage werden schon kürzer.",
+      "uebersetzung": {
+        "fa": "تابستان کم‌کم به پایانش نزدیک می‌شود و روزها دیگر کوتاه‌تر می‌شوند.",
+        "en": "Summer is slowly drawing to a close, and the days are already getting shorter."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zugehen auf",
+      "uebersetzung": {
+        "fa": "به سمت کسی رفتن",
+        "en": "to walk towards"
+      }
+    },
+    {
+      "wort": "sich nähern",
+      "uebersetzung": {
+        "fa": "نزدیک شدن",
+        "en": "to approach"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "entgegen- (به سوی، رو به) + gehen (رفتن)",
+    "en": "entgegen- (towards) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem/etwas entgegengehen (+ Dat)",
+        "bedeutung": "auf jemanden zugehen; sich einer Sache nähern",
+        "beispiel": "Das Projekt geht seinem Abschluss entgegen.",
+        "uebersetzung": {
+          "fa": "پروژه به مرحله‌ی پایانی‌اش نزدیک می‌شود.",
+          "en": "The project is nearing completion."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "entgegengehen",
+      "praeteritum": "ging entgegen",
+      "partizip2": "entgegengegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe entgegen",
+        "du": "gehst entgegen",
+        "er_sie_es": "geht entgegen",
+        "wir": "gehen entgegen",
+        "ihr": "geht entgegen",
+        "sie_Sie": "gehen entgegen"
+      },
+      "praeteritum": {
+        "ich": "ging entgegen",
+        "du": "gingst entgegen",
+        "er_sie_es": "ging entgegen",
+        "wir": "gingen entgegen",
+        "ihr": "gingt entgegen",
+        "sie_Sie": "gingen entgegen"
+      },
+      "konjunktiv1": {
+        "ich": "gehe entgegen",
+        "du": "gehest entgegen",
+        "er_sie_es": "gehe entgegen",
+        "wir": "gehen entgegen",
+        "ihr": "gehet entgegen",
+        "sie_Sie": "gehen entgegen"
+      },
+      "konjunktiv2": {
+        "ich": "ginge entgegen",
+        "du": "gingest entgegen",
+        "er_sie_es": "ginge entgegen",
+        "wir": "gingen entgegen",
+        "ihr": "ginget entgegen",
+        "sie_Sie": "gingen entgegen"
+      },
+      "imperativ": {
+        "du": "Geh entgegen!",
+        "ihr": "Geht entgegen!",
+        "Sie": "Gehen Sie entgegen!"
+      }
+    },
+    "partizip1": "entgegengehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "entgegenkommen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به استقبال آمدن",
+          "en": "to come towards"
+        },
+        "id_ref": "verb_entgegenkommen"
+      },
+      {
+        "wort": "sich nähern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نزدیک شدن",
+          "en": "to approach"
+        },
+        "id_ref": "verb_sich_naehern"
+      },
+      {
+        "wort": "das Ende",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پایان",
+          "en": "end"
+        },
+        "id_ref": "nomen_ende"
+      },
+      {
+        "wort": "begegnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برخورد کردن، روبه‌رو شدن",
+          "en": "to meet"
+        },
+        "id_ref": "verb_begegnen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_entfahren",
+  "wort": "entfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(کلمه، فریاد یا آهی) ناخواسته از دهان (کسی) پریدن"
+    ],
+    "en": [
+      "to slip out, to escape (a word, a cry)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation",
+    "Gefühle"
+  ],
+  "ipa": "ɛntˈfaːʁən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ihm entfuhr ein Schrei.",
+      "uebersetzung": {
+        "fa": "فریادی ناخواسته از دهانش بیرون پرید.",
+        "en": "A cry escaped him."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als sie die Rechnung sah, ist ihr ein Fluch entfahren, den sie sofort bereute.",
+      "uebersetzung": {
+        "fa": "وقتی صورت‌حساب را دید، فحشی ناخواسته از دهانش پرید که فوراً پشیمانش شد.",
+        "en": "When she saw the bill, a curse slipped out which she immediately regretted."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "herausrutschen",
+      "uebersetzung": {
+        "fa": "(حرفی) از دهان پریدن",
+        "en": "to slip out"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- (پیشوند جدایی، دور شدن) + fahren (حرکت کردن)",
+    "en": "ent- (prefix: away, from) + fahren (to move, to go)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem entfahren (+ Dat)",
+        "bedeutung": "jemandem unabsichtlich über die Lippen kommen",
+        "beispiel": "Dem Lehrer entfuhr ein lautes Lachen.",
+        "uebersetzung": {
+          "fa": "خنده‌ی بلندی ناخواسته از معلم سر زد.",
+          "en": "A loud laugh escaped the teacher."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "entfahren",
+      "praeteritum": "entfuhr",
+      "partizip2": "entfahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entfahre",
+        "du": "entfährst",
+        "er_sie_es": "entfährt",
+        "wir": "entfahren",
+        "ihr": "entfahrt",
+        "sie_Sie": "entfahren"
+      },
+      "praeteritum": {
+        "ich": "entfuhr",
+        "du": "entfuhrst",
+        "er_sie_es": "entfuhr",
+        "wir": "entfuhren",
+        "ihr": "entfuhrt",
+        "sie_Sie": "entfuhren"
+      },
+      "konjunktiv1": {
+        "ich": "entfahre",
+        "du": "entfahrest",
+        "er_sie_es": "entfahre",
+        "wir": "entfahren",
+        "ihr": "entfahret",
+        "sie_Sie": "entfahren"
+      },
+      "konjunktiv2": {
+        "ich": "entführe",
+        "du": "entführest",
+        "er_sie_es": "entführe",
+        "wir": "entführen",
+        "ihr": "entführet",
+        "sie_Sie": "entführen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "entfahrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "der Schrei",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فریاد",
+          "en": "cry"
+        },
+        "id_ref": "nomen_schrei"
+      },
+      {
+        "wort": "der Seufzer",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آه",
+          "en": "sigh"
+        },
+        "id_ref": "nomen_seufzer"
+      },
+      {
+        "wort": "rufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "صدا زدن",
+          "en": "to call"
+        },
+        "id_ref": "verb_rufen"
+      },
+      {
+        "wort": "unabsichtlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ناخواسته",
+          "en": "unintentional"
+        },
+        "id_ref": "adjektiv_unabsichtlich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_entfliehen",
+  "wort": "entfliehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(از کسی یا چیزی) گریختن، فرار کردن",
+      "(از روزمرگی و مانند آن) دور شدن"
+    ],
+    "en": [
+      "to escape (from), to flee",
+      "to get away from (everyday life)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Freizeit",
+    "Gefühle"
+  ],
+  "ipa": "ɛntˈfliːən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er entflieht dem Lärm der Stadt.",
+      "uebersetzung": {
+        "fa": "او از سروصدای شهر می‌گریزد.",
+        "en": "He escapes the noise of the city."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Am Wochenende fahren wir oft in die Berge, um dem Stress des Alltags zu entfliehen.",
+      "uebersetzung": {
+        "fa": "آخر هفته‌ها اغلب به کوهستان می‌رویم تا از استرس زندگی روزمره فرار کنیم.",
+        "en": "At weekends we often go to the mountains to escape the stress of everyday life."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fliehen",
+      "uebersetzung": {
+        "fa": "فرار کردن",
+        "en": "to flee"
+      }
+    },
+    {
+      "wort": "entkommen",
+      "uebersetzung": {
+        "fa": "گریختن، جان به در بردن",
+        "en": "to escape"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- (پیشوند جدایی، دور شدن) + fliehen (فرار کردن)",
+    "en": "ent- (prefix: away, from) + fliehen (to flee)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem/etwas entfliehen (+ Dat)",
+        "bedeutung": "sich einer Sache entziehen, von ihr fliehen",
+        "beispiel": "Die Gefangenen entflohen dem Lager in der Nacht.",
+        "uebersetzung": {
+          "fa": "زندانیان شبانه از اردوگاه گریختند.",
+          "en": "The prisoners escaped from the camp during the night."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "entfliehen",
+      "praeteritum": "entfloh",
+      "partizip2": "entflohen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entfliehe",
+        "du": "entfliehst",
+        "er_sie_es": "entflieht",
+        "wir": "entfliehen",
+        "ihr": "entflieht",
+        "sie_Sie": "entfliehen"
+      },
+      "praeteritum": {
+        "ich": "entfloh",
+        "du": "entflohst",
+        "er_sie_es": "entfloh",
+        "wir": "entflohen",
+        "ihr": "entfloht",
+        "sie_Sie": "entflohen"
+      },
+      "konjunktiv1": {
+        "ich": "entfliehe",
+        "du": "entfliehest",
+        "er_sie_es": "entfliehe",
+        "wir": "entfliehen",
+        "ihr": "entfliehet",
+        "sie_Sie": "entfliehen"
+      },
+      "konjunktiv2": {
+        "ich": "entflöhe",
+        "du": "entflöhest",
+        "er_sie_es": "entflöhe",
+        "wir": "entflöhen",
+        "ihr": "entflöhet",
+        "sie_Sie": "entflöhen"
+      },
+      "imperativ": {
+        "du": "Entflieh!",
+        "ihr": "Entflieht!",
+        "Sie": "Entfliehen Sie!"
+      }
+    },
+    "partizip1": "entfliehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fliehen",
+    "woerter": [
+      {
+        "wort": "fliehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فرار کردن",
+          "en": "to flee"
+        },
+        "id_ref": "verb_fliehen"
+      },
+      {
+        "wort": "die Flucht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فرار",
+          "en": "escape"
+        },
+        "id_ref": "nomen_flucht"
+      },
+      {
+        "wort": "entkommen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گریختن",
+          "en": "to escape"
+        },
+        "id_ref": "verb_entkommen"
+      },
+      {
+        "wort": "der Alltag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زندگی روزمره",
+          "en": "everyday life"
+        },
+        "id_ref": "nomen_alltag"
+      },
+      {
+        "wort": "der Stress",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "استرس",
+          "en": "stress"
+        },
+        "id_ref": "nomen_stress"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

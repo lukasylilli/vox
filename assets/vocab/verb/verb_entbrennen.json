@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_entbrennen",
+  "wort": "entbrennen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(دعوا، جنگ یا بحثی) درگرفتن، شعله‌ور شدن",
+      "(ادبی، در عشق یا خشم) آتش گرفتن"
+    ],
+    "en": [
+      "(dispute, battle) to break out, to flare up",
+      "(literary) to be inflamed (with love, anger)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Politik",
+    "Gefühle"
+  ],
+  "ipa": "ɛntˈbʁɛnən",
+  "anmerkung": "Gemischtes Verb: entbrannte, ist entbrannt.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ein Streit entbrennt.",
+      "uebersetzung": {
+        "fa": "دعوایی درمی‌گیرد.",
+        "en": "A quarrel breaks out."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach der Entscheidung ist im Parlament eine heftige Diskussion über die Zukunft der Pflege entbrannt.",
+      "uebersetzung": {
+        "fa": "پس از این تصمیم، بحث داغی در پارلمان درباره‌ی آینده‌ی پرستاری درگرفت.",
+        "en": "After the decision a heated debate about the future of nursing flared up in parliament."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausbrechen",
+      "uebersetzung": {
+        "fa": "درگرفتن، شروع شدن",
+        "en": "to break out"
+      }
+    },
+    {
+      "wort": "aufflammen",
+      "uebersetzung": {
+        "fa": "شعله‌ور شدن",
+        "en": "to flare up"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- (پیشوند جدایی، دور شدن) + brennen (سوختن)",
+    "en": "ent- (prefix: away, from) + brennen (to burn)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "über + Akk / um + Akk entbrennen",
+        "bedeutung": "(Streit) wegen etwas ausbrechen",
+        "beispiel": "Um das Erbe entbrannte ein langer Streit.",
+        "uebersetzung": {
+          "fa": "بر سر ارث دعوای طولانی‌ای درگرفت.",
+          "en": "A long dispute broke out over the inheritance."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "entbrennen",
+      "praeteritum": "entbrannte",
+      "partizip2": "entbrannt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entbrenne",
+        "du": "entbrennst",
+        "er_sie_es": "entbrennt",
+        "wir": "entbrennen",
+        "ihr": "entbrennt",
+        "sie_Sie": "entbrennen"
+      },
+      "praeteritum": {
+        "ich": "entbrannte",
+        "du": "entbranntest",
+        "er_sie_es": "entbrannte",
+        "wir": "entbrannten",
+        "ihr": "entbranntet",
+        "sie_Sie": "entbrannten"
+      },
+      "konjunktiv1": {
+        "ich": "entbrenne",
+        "du": "entbrennest",
+        "er_sie_es": "entbrenne",
+        "wir": "entbrennen",
+        "ihr": "entbrennet",
+        "sie_Sie": "entbrennen"
+      },
+      "konjunktiv2": {
+        "ich": "entbrennte",
+        "du": "entbrenntest",
+        "er_sie_es": "entbrennte",
+        "wir": "entbrennten",
+        "ihr": "entbrenntet",
+        "sie_Sie": "entbrennten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "entbrennend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "brennen",
+    "woerter": [
+      {
+        "wort": "brennen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سوختن",
+          "en": "to burn"
+        },
+        "id_ref": "verb_brennen"
+      },
+      {
+        "wort": "ausbrechen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "درگرفتن، شیوع یافتن",
+          "en": "to break out"
+        },
+        "id_ref": "verb_ausbrechen"
+      },
+      {
+        "wort": "der Streit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دعوا",
+          "en": "quarrel"
+        },
+        "id_ref": "nomen_streit"
+      },
+      {
+        "wort": "die Diskussion",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بحث",
+          "en": "discussion"
+        },
+        "id_ref": "nomen_diskussion"
+      },
+      {
+        "wort": "heftig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شدید",
+          "en": "fierce"
+        },
+        "id_ref": "adjektiv_heftig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

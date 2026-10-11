@@ -1,0 +1,195 @@
+{
+  "schema": "3.0",
+  "id": "verb_entfallen",
+  "wort": "entfallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(برنامه یا کلاسی) لغو شدن، حذف شدن",
+      "از یاد (کسی) رفتن",
+      "(سهمی) تعلق گرفتن به"
+    ],
+    "en": [
+      "to be cancelled, to be dropped",
+      "to slip one's mind",
+      "to be allotted to"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit",
+    "Behörde",
+    "Schule"
+  ],
+  "ipa": "ɛntˈfalən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Stunde entfällt heute.",
+      "uebersetzung": {
+        "fa": "کلاس امروز تشکیل نمی‌شود.",
+        "en": "Today's lesson is cancelled."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ihr Name ist mir leider entfallen, obwohl wir uns schon zweimal getroffen haben.",
+      "uebersetzung": {
+        "fa": "متأسفانه اسمش یادم رفته، با اینکه تا حالا دو بار همدیگر را دیده‌ایم.",
+        "en": "Unfortunately her name has slipped my mind, although we have already met twice."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausfallen",
+      "uebersetzung": {
+        "fa": "لغو شدن",
+        "en": "to be cancelled"
+      }
+    },
+    {
+      "wort": "vergessen werden",
+      "uebersetzung": {
+        "fa": "فراموش شدن",
+        "en": "to be forgotten"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "stattfinden",
+      "uebersetzung": {
+        "fa": "برگزار شدن",
+        "en": "to take place"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- (پیشوند جدایی، دور شدن) + fallen (افتادن)",
+    "en": "ent- (prefix: away, from) + fallen (to fall)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Akk entfallen",
+        "bedeutung": "als Anteil zukommen",
+        "beispiel": "Auf jeden Mitarbeiter entfallen 200 Euro Prämie.",
+        "uebersetzung": {
+          "fa": "به هر کارمند ۲۰۰ یورو پاداش تعلق می‌گیرد.",
+          "en": "Each employee receives a 200-euro bonus."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "entfallen",
+      "praeteritum": "entfiel",
+      "partizip2": "entfallen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entfalle",
+        "du": "entfällst",
+        "er_sie_es": "entfällt",
+        "wir": "entfallen",
+        "ihr": "entfallt",
+        "sie_Sie": "entfallen"
+      },
+      "praeteritum": {
+        "ich": "entfiel",
+        "du": "entfielst",
+        "er_sie_es": "entfiel",
+        "wir": "entfielen",
+        "ihr": "entfielt",
+        "sie_Sie": "entfielen"
+      },
+      "konjunktiv1": {
+        "ich": "entfalle",
+        "du": "entfallest",
+        "er_sie_es": "entfalle",
+        "wir": "entfallen",
+        "ihr": "entfallet",
+        "sie_Sie": "entfallen"
+      },
+      "konjunktiv2": {
+        "ich": "entfiele",
+        "du": "entfielest",
+        "er_sie_es": "entfiele",
+        "wir": "entfielen",
+        "ihr": "entfielet",
+        "sie_Sie": "entfielen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "entfallend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fallen",
+    "woerter": [
+      {
+        "wort": "fallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "افتادن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_fallen"
+      },
+      {
+        "wort": "ausfallen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لغو شدن",
+          "en": "to be cancelled"
+        },
+        "id_ref": "verb_ausfallen"
+      },
+      {
+        "wort": "vergessen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فراموش کردن",
+          "en": "to forget"
+        },
+        "id_ref": "verb_vergessen"
+      },
+      {
+        "wort": "stattfinden",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برگزار شدن",
+          "en": "to take place"
+        },
+        "id_ref": "verb_stattfinden"
+      },
+      {
+        "wort": "der Anteil",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سهم",
+          "en": "share"
+        },
+        "id_ref": "nomen_anteil"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_entgegenfahren",
+  "wort": "entgegenfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با وسیله‌ی نقلیه) به استقبال (کسی) رفتن، به سوی (کسی/چیزی) راندن"
+    ],
+    "en": [
+      "to drive towards, to drive to meet (someone)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr",
+    "Reisen"
+  ],
+  "ipa": "ɛntˈɡeːɡn̩ˌfaːʁən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich fahre dir entgegen.",
+      "uebersetzung": {
+        "fa": "با ماشین به استقبالت می‌آیم.",
+        "en": "I'll drive to meet you."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Da der Zug Verspätung hatte, sind wir unseren Freunden mit dem Auto bis Salzburg entgegengefahren.",
+      "uebersetzung": {
+        "fa": "چون قطار تأخیر داشت، با ماشین تا زالتسبورگ به استقبال دوستانمان رفتیم.",
+        "en": "Since the train was late, we drove to meet our friends as far as Salzburg."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abholen",
+      "uebersetzung": {
+        "fa": "دنبال کسی رفتن",
+        "en": "to pick up"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "entgegen- (به سوی، رو به) + fahren (رفتن (با وسیله))",
+    "en": "entgegen- (towards) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem entgegenfahren (+ Dat)",
+        "bedeutung": "in Richtung auf jemanden zufahren",
+        "beispiel": "Ein Lastwagen fuhr uns auf der falschen Spur entgegen.",
+        "uebersetzung": {
+          "fa": "یک کامیون در لاین اشتباه به سمت ما می‌آمد.",
+          "en": "A lorry came towards us in the wrong lane."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "entgegenfahren",
+      "praeteritum": "fuhr entgegen",
+      "partizip2": "entgegengefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre entgegen",
+        "du": "fährst entgegen",
+        "er_sie_es": "fährt entgegen",
+        "wir": "fahren entgegen",
+        "ihr": "fahrt entgegen",
+        "sie_Sie": "fahren entgegen"
+      },
+      "praeteritum": {
+        "ich": "fuhr entgegen",
+        "du": "fuhrst entgegen",
+        "er_sie_es": "fuhr entgegen",
+        "wir": "fuhren entgegen",
+        "ihr": "fuhrt entgegen",
+        "sie_Sie": "fuhren entgegen"
+      },
+      "konjunktiv1": {
+        "ich": "fahre entgegen",
+        "du": "fahrest entgegen",
+        "er_sie_es": "fahre entgegen",
+        "wir": "fahren entgegen",
+        "ihr": "fahret entgegen",
+        "sie_Sie": "fahren entgegen"
+      },
+      "konjunktiv2": {
+        "ich": "führe entgegen",
+        "du": "führest entgegen",
+        "er_sie_es": "führe entgegen",
+        "wir": "führen entgegen",
+        "ihr": "führet entgegen",
+        "sie_Sie": "führen entgegen"
+      },
+      "imperativ": {
+        "du": "Fahr entgegen!",
+        "ihr": "Fahrt entgegen!",
+        "Sie": "Fahren Sie entgegen!"
+      }
+    },
+    "partizip1": "entgegenfahrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "entgegenkommen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به استقبال آمدن",
+          "en": "to come towards"
+        },
+        "id_ref": "verb_entgegenkommen"
+      },
+      {
+        "wort": "abholen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دنبال کسی رفتن",
+          "en": "to pick up"
+        },
+        "id_ref": "verb_abholen"
+      },
+      {
+        "wort": "die Richtung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جهت",
+          "en": "direction"
+        },
+        "id_ref": "nomen_richtung"
+      },
+      {
+        "wort": "der Gegenverkehr",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ترافیک روبه‌رو",
+          "en": "oncoming traffic"
+        },
+        "id_ref": "nomen_gegenverkehr"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

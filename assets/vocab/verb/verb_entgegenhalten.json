@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_entgegenhalten",
+  "wort": "entgegenhalten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(چیزی را) به سوی (کسی) گرفتن",
+      "(در بحث، در برابر نظری) استدلال مخالف آوردن"
+    ],
+    "en": [
+      "to hold out (towards someone)",
+      "to counter (with an argument), to object"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation",
+    "Diskussion"
+  ],
+  "ipa": "ɛntˈɡeːɡn̩ˌhaltn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er hält mir die Hand entgegen.",
+      "uebersetzung": {
+        "fa": "او دستش را به سمت من دراز می‌کند.",
+        "en": "He holds out his hand to me."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Den Kritikern hielt die Ministerin entgegen, dass die Reform langfristig Kosten spare.",
+      "uebersetzung": {
+        "fa": "وزیر در پاسخ به منتقدان استدلال کرد که این اصلاحات در بلندمدت هزینه‌ها را کاهش می‌دهد.",
+        "en": "The minister countered the critics by saying that the reform would save costs in the long term."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einwenden",
+      "uebersetzung": {
+        "fa": "اعتراض کردن، ایراد گرفتن",
+        "en": "to object"
+      }
+    },
+    {
+      "wort": "erwidern",
+      "uebersetzung": {
+        "fa": "پاسخ دادن",
+        "en": "to reply"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "entgegen- (به سوی، رو به) + halten (نگه داشتن)",
+    "en": "entgegen- (towards) + halten (to hold)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem etwas entgegenhalten (+ Dat + Akk)",
+        "bedeutung": "jemandem ein Gegenargument nennen",
+        "beispiel": "Dem kann man entgegenhalten, dass es auch Vorteile gibt.",
+        "uebersetzung": {
+          "fa": "در برابر این می‌توان گفت که مزایایی هم وجود دارد.",
+          "en": "One can counter that there are also advantages."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "entgegenhalten",
+      "praeteritum": "hielt entgegen",
+      "partizip2": "entgegengehalten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "halte entgegen",
+        "du": "hältst entgegen",
+        "er_sie_es": "hält entgegen",
+        "wir": "halten entgegen",
+        "ihr": "haltet entgegen",
+        "sie_Sie": "halten entgegen"
+      },
+      "praeteritum": {
+        "ich": "hielt entgegen",
+        "du": "hieltest entgegen",
+        "er_sie_es": "hielt entgegen",
+        "wir": "hielten entgegen",
+        "ihr": "hieltet entgegen",
+        "sie_Sie": "hielten entgegen"
+      },
+      "konjunktiv1": {
+        "ich": "halte entgegen",
+        "du": "haltest entgegen",
+        "er_sie_es": "halte entgegen",
+        "wir": "halten entgegen",
+        "ihr": "haltet entgegen",
+        "sie_Sie": "halten entgegen"
+      },
+      "konjunktiv2": {
+        "ich": "hielte entgegen",
+        "du": "hieltest entgegen",
+        "er_sie_es": "hielte entgegen",
+        "wir": "hielten entgegen",
+        "ihr": "hieltet entgegen",
+        "sie_Sie": "hielten entgegen"
+      },
+      "imperativ": {
+        "du": "Halt entgegen!",
+        "ihr": "Haltet entgegen!",
+        "Sie": "Halten Sie entgegen!"
+      }
+    },
+    "partizip1": "entgegenhaltend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "halten",
+    "woerter": [
+      {
+        "wort": "halten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to hold"
+        },
+        "id_ref": "verb_halten"
+      },
+      {
+        "wort": "einwenden",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ایراد گرفتن",
+          "en": "to object"
+        },
+        "id_ref": "verb_einwenden"
+      },
+      {
+        "wort": "das Argument",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "استدلال",
+          "en": "argument"
+        },
+        "id_ref": "nomen_argument"
+      },
+      {
+        "wort": "widersprechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مخالفت کردن",
+          "en": "to contradict"
+        },
+        "id_ref": "verb_widersprechen"
+      },
+      {
+        "wort": "die Kritik",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انتقاد",
+          "en": "criticism"
+        },
+        "id_ref": "nomen_kritik"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
