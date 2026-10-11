@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausfallen",
+  "wort": "ausfallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "لغو شدن، تشکیل نشدن (کلاس، قطار)",
+      "از کار افتادن، قطع شدن (برق، دستگاه)",
+      "ریختن (مو، دندان)",
+      "نتیجه دادن (خوب/بد)"
+    ],
+    "en": [
+      "to be cancelled",
+      "to fail, to break down",
+      "to fall out",
+      "to turn out"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Arbeit",
+    "Verkehr"
+  ],
+  "ipa": "ˈaʊ̯sˌfalən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Unterricht fällt heute aus.",
+      "uebersetzung": {
+        "fa": "کلاس امروز تشکیل نمی‌شود.",
+        "en": "There is no class today."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil der Strom ausgefallen war, konnten wir den ganzen Abend nicht kochen.",
+      "uebersetzung": {
+        "fa": "چون برق رفته بود، تمام شب نتوانستیم آشپزی کنیم.",
+        "en": "Because the power had gone off, we couldn't cook all evening."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "entfallen",
+      "uebersetzung": {
+        "fa": "لغو شدن",
+        "en": "to be cancelled"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "stattfinden",
+      "uebersetzung": {
+        "fa": "برگزار شدن",
+        "en": "to take place"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند: بیرون) + fallen (افتادن)",
+    "en": "aus- (prefix: out) + fallen (to fall)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem ausfallen (mit Dat)",
+        "bedeutung": "jemandem gehen Haare/Zähne verloren",
+        "beispiel": "Ihm fallen schon die Haare aus.",
+        "uebersetzung": {
+          "fa": "موهایش دیگر دارد می‌ریزد.",
+          "en": "His hair is already falling out."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausfallen",
+      "praeteritum": "fiel aus",
+      "partizip2": "ausgefallen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "falle aus",
+        "du": "fällst aus",
+        "er_sie_es": "fällt aus",
+        "wir": "fallen aus",
+        "ihr": "fallt aus",
+        "sie_Sie": "fallen aus"
+      },
+      "praeteritum": {
+        "ich": "fiel aus",
+        "du": "fielst aus",
+        "er_sie_es": "fiel aus",
+        "wir": "fielen aus",
+        "ihr": "fielt aus",
+        "sie_Sie": "fielen aus"
+      },
+      "konjunktiv1": {
+        "ich": "falle aus",
+        "du": "fallest aus",
+        "er_sie_es": "falle aus",
+        "wir": "fallen aus",
+        "ihr": "fallet aus",
+        "sie_Sie": "fallen aus"
+      },
+      "konjunktiv2": {
+        "ich": "fiele aus",
+        "du": "fielest aus",
+        "er_sie_es": "fiele aus",
+        "wir": "fielen aus",
+        "ihr": "fielet aus",
+        "sie_Sie": "fielen aus"
+      },
+      "imperativ": {
+        "du": "Fall aus!",
+        "ihr": "Fallt aus!",
+        "Sie": "Fallen Sie aus!"
+      }
+    },
+    "partizip1": "ausfallend",
+    "nominalisierung": "der Ausfall"
+  },
+  "wortnetz": {
+    "grundwort": "fallen",
+    "woerter": [
+      {
+        "wort": "fallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "افتادن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_fallen"
+      },
+      {
+        "wort": "der Strom",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برق",
+          "en": "electricity"
+        },
+        "id_ref": "nomen_strom"
+      },
+      {
+        "wort": "stattfinden",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برگزار شدن",
+          "en": "to take place"
+        },
+        "id_ref": "verb_stattfinden"
+      },
+      {
+        "wort": "der Ausfall",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قطعی، لغو",
+          "en": "failure, cancellation"
+        },
+        "id_ref": "nomen_ausfall"
+      },
+      {
+        "wort": "ausgefallen",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "غیرمعمول",
+          "en": "unusual"
+        },
+        "id_ref": "adjektiv_ausgefallen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

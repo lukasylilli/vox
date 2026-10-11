@@ -1,0 +1,194 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausfahren",
+  "wort": "ausfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "برای گردش بیرون رفتن (با ماشین)",
+      "پخش کردن، تحویل دادن (بسته، غذا)",
+      "بیرون آوردن (چرخ هواپیما، آنتن)"
+    ],
+    "en": [
+      "to go for a drive",
+      "to deliver",
+      "to extend (landing gear)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr",
+    "Arbeit"
+  ],
+  "ipa": "ˈaʊ̯sˌfaːʁən",
+  "anmerkung": "intransitiv («spazieren fahren») mit sein; transitiv («Pakete ausfahren», «das Fahrwerk ausfahren») mit haben",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Postbote fährt die Pakete aus.",
+      "uebersetzung": {
+        "fa": "پستچی بسته‌ها را پخش می‌کند.",
+        "en": "The postman delivers the parcels."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor das Flugzeug landen konnte, musste der Pilot das Fahrwerk ausfahren.",
+      "uebersetzung": {
+        "fa": "قبل از این‌که هواپیما بتواند فرود بیاید، خلبان باید چرخ‌ها را بیرون می‌آورد.",
+        "en": "Before the plane could land, the pilot had to extend the landing gear."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "liefern",
+      "uebersetzung": {
+        "fa": "تحویل دادن",
+        "en": "to deliver"
+      }
+    },
+    {
+      "wort": "zustellen",
+      "uebersetzung": {
+        "fa": "تحویل دادن (پست)",
+        "en": "to deliver (mail)"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "einfahren",
+      "uebersetzung": {
+        "fa": "وارد شدن؛ جمع کردن",
+        "en": "to retract"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند: بیرون) + fahren (رفتن با وسیله)",
+    "en": "aus- (prefix: out) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas ausfahren",
+        "bedeutung": "etwas mit dem Fahrzeug verteilen / herausfahren lassen (mit haben) — mit Akkusativ",
+        "beispiel": "Am Abend fährt er Pizza aus.",
+        "uebersetzung": {
+          "fa": "عصرها پیتزا پخش می‌کند.",
+          "en": "In the evening he delivers pizza."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausfahren",
+      "praeteritum": "fuhr aus",
+      "partizip2": "ausgefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre aus",
+        "du": "fährst aus",
+        "er_sie_es": "fährt aus",
+        "wir": "fahren aus",
+        "ihr": "fahrt aus",
+        "sie_Sie": "fahren aus"
+      },
+      "praeteritum": {
+        "ich": "fuhr aus",
+        "du": "fuhrst aus",
+        "er_sie_es": "fuhr aus",
+        "wir": "fuhren aus",
+        "ihr": "fuhrt aus",
+        "sie_Sie": "fuhren aus"
+      },
+      "konjunktiv1": {
+        "ich": "fahre aus",
+        "du": "fahrest aus",
+        "er_sie_es": "fahre aus",
+        "wir": "fahren aus",
+        "ihr": "fahret aus",
+        "sie_Sie": "fahren aus"
+      },
+      "konjunktiv2": {
+        "ich": "führe aus",
+        "du": "führest aus",
+        "er_sie_es": "führe aus",
+        "wir": "führen aus",
+        "ihr": "führet aus",
+        "sie_Sie": "führen aus"
+      },
+      "imperativ": {
+        "du": "Fahr aus!",
+        "ihr": "Fahrt aus!",
+        "Sie": "Fahren Sie aus!"
+      }
+    },
+    "partizip1": "ausfahrend",
+    "nominalisierung": "die Ausfahrt"
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن با وسیله",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "das Paket",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بسته",
+          "en": "parcel"
+        },
+        "id_ref": "nomen_paket"
+      },
+      {
+        "wort": "die Ausfahrt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خروجی (اتوبان، پارکینگ)",
+          "en": "exit"
+        },
+        "id_ref": "nomen_ausfahrt"
+      },
+      {
+        "wort": "liefern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تحویل دادن",
+          "en": "to deliver"
+        },
+        "id_ref": "verb_liefern"
+      },
+      {
+        "wort": "einfahren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "وارد شدن (قطار)",
+          "en": "to pull in"
+        },
+        "id_ref": "verb_einfahren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

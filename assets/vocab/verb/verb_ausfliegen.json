@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausfliegen",
+  "wort": "ausfliegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "از لانه پرواز کردن",
+      "(محاوره) برای گردش بیرون رفتن",
+      "با هواپیما خارج کردن (تخلیه)"
+    ],
+    "en": [
+      "to fly out (of the nest)",
+      "to go out (colloq.)",
+      "to evacuate by air"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Reisen"
+  ],
+  "ipa": "ˈaʊ̯sˌfliːɡn̩",
+  "anmerkung": "intransitiv mit sein; transitiv («Verletzte ausfliegen») mit haben",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die jungen Vögel fliegen aus.",
+      "uebersetzung": {
+        "fa": "جوجه‌پرنده‌ها از لانه پرواز می‌کنند.",
+        "en": "The young birds leave the nest."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als wir am Sonntag klingelten, war die ganze Familie ausgeflogen, und niemand öffnete.",
+      "uebersetzung": {
+        "fa": "یکشنبه که زنگ زدیم، کل خانواده بیرون رفته بودند و کسی در را باز نکرد.",
+        "en": "When we rang on Sunday, the whole family had gone out and nobody opened the door."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wegfliegen",
+      "uebersetzung": {
+        "fa": "پرواز کردن و رفتن",
+        "en": "to fly away"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند: بیرون) + fliegen (پرواز کردن)",
+    "en": "aus- (prefix: out) + fliegen (to fly)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden ausfliegen",
+        "bedeutung": "jemanden per Flugzeug aus einem Gebiet bringen (mit haben) — mit Akkusativ",
+        "beispiel": "Die Armee hat die Verletzten ausgeflogen.",
+        "uebersetzung": {
+          "fa": "ارتش مجروحان را با هواپیما خارج کرد.",
+          "en": "The army flew the injured out."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausfliegen",
+      "praeteritum": "flog aus",
+      "partizip2": "ausgeflogen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fliege aus",
+        "du": "fliegst aus",
+        "er_sie_es": "fliegt aus",
+        "wir": "fliegen aus",
+        "ihr": "fliegt aus",
+        "sie_Sie": "fliegen aus"
+      },
+      "praeteritum": {
+        "ich": "flog aus",
+        "du": "flogst aus",
+        "er_sie_es": "flog aus",
+        "wir": "flogen aus",
+        "ihr": "flogt aus",
+        "sie_Sie": "flogen aus"
+      },
+      "konjunktiv1": {
+        "ich": "fliege aus",
+        "du": "fliegest aus",
+        "er_sie_es": "fliege aus",
+        "wir": "fliegen aus",
+        "ihr": "flieget aus",
+        "sie_Sie": "fliegen aus"
+      },
+      "konjunktiv2": {
+        "ich": "flöge aus",
+        "du": "flögest aus",
+        "er_sie_es": "flöge aus",
+        "wir": "flögen aus",
+        "ihr": "flöget aus",
+        "sie_Sie": "flögen aus"
+      },
+      "imperativ": {
+        "du": "Flieg aus!",
+        "ihr": "Fliegt aus!",
+        "Sie": "Fliegen Sie aus!"
+      }
+    },
+    "partizip1": "ausfliegend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fliegen",
+    "woerter": [
+      {
+        "wort": "fliegen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرواز کردن",
+          "en": "to fly"
+        },
+        "id_ref": "verb_fliegen"
+      },
+      {
+        "wort": "der Vogel",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرنده",
+          "en": "bird"
+        },
+        "id_ref": "nomen_vogel"
+      },
+      {
+        "wort": "das Nest",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لانه",
+          "en": "nest"
+        },
+        "id_ref": "nomen_nest"
+      },
+      {
+        "wort": "der Ausflug",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گردش",
+          "en": "excursion"
+        },
+        "id_ref": "nomen_ausflug"
+      },
+      {
+        "wort": "evakuieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تخلیه کردن",
+          "en": "to evacuate"
+        },
+        "id_ref": "verb_evakuieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

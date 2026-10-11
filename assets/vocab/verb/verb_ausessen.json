@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausessen",
+  "wort": "ausessen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تا ته خوردن"
+    ],
+    "en": [
+      "to eat up",
+      "to finish (eating)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Essen"
+  ],
+  "ipa": "ˈaʊ̯sˌʔɛsn̩",
+  "anmerkung": "umgangssprachlich; übertragen: «etwas ausessen müssen» = die Folgen tragen",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Iss deinen Teller aus!",
+      "uebersetzung": {
+        "fa": "بشقابت را تا ته بخور!",
+        "en": "Finish your plate!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Was er sich eingebrockt hat, muss er jetzt auch selbst ausessen.",
+      "uebersetzung": {
+        "fa": "آشی را که خودش پخته، حالا باید خودش هم بخورد.",
+        "en": "He has made his bed, and now he has to lie in it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufessen",
+      "uebersetzung": {
+        "fa": "کامل خوردن",
+        "en": "to eat up"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند: تا آخر) + essen (خوردن)",
+    "en": "aus- (prefix: to the end) + essen (to eat)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas ausessen",
+        "bedeutung": "etwas leer essen / die Folgen tragen — mit Akkusativ",
+        "beispiel": "Die Kinder haben die Schüssel ganz ausgegessen.",
+        "uebersetzung": {
+          "fa": "بچه‌ها کاسه را کاملاً خالی کردند.",
+          "en": "The children ate the bowl completely empty."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausessen",
+      "praeteritum": "aß aus",
+      "partizip2": "ausgegessen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "esse aus",
+        "du": "isst aus",
+        "er_sie_es": "isst aus",
+        "wir": "essen aus",
+        "ihr": "esst aus",
+        "sie_Sie": "essen aus"
+      },
+      "praeteritum": {
+        "ich": "aß aus",
+        "du": "aßest aus",
+        "er_sie_es": "aß aus",
+        "wir": "aßen aus",
+        "ihr": "aßt aus",
+        "sie_Sie": "aßen aus"
+      },
+      "konjunktiv1": {
+        "ich": "esse aus",
+        "du": "essest aus",
+        "er_sie_es": "esse aus",
+        "wir": "essen aus",
+        "ihr": "esset aus",
+        "sie_Sie": "essen aus"
+      },
+      "konjunktiv2": {
+        "ich": "äße aus",
+        "du": "äßest aus",
+        "er_sie_es": "äße aus",
+        "wir": "äßen aus",
+        "ihr": "äßet aus",
+        "sie_Sie": "äßen aus"
+      },
+      "imperativ": {
+        "du": "Iss aus!",
+        "ihr": "Esst aus!",
+        "Sie": "Essen Sie aus!"
+      }
+    },
+    "partizip1": "ausessend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "essen",
+    "woerter": [
+      {
+        "wort": "essen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوردن",
+          "en": "to eat"
+        },
+        "id_ref": "verb_essen"
+      },
+      {
+        "wort": "der Teller",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بشقاب",
+          "en": "plate"
+        },
+        "id_ref": "nomen_teller"
+      },
+      {
+        "wort": "aufessen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کامل خوردن",
+          "en": "to eat up"
+        },
+        "id_ref": "verb_aufessen"
+      },
+      {
+        "wort": "satt",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سیر",
+          "en": "full"
+        },
+        "id_ref": "adjektiv_satt"
+      },
+      {
+        "wort": "die Folge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیامد",
+          "en": "consequence"
+        },
+        "id_ref": "nomen_folge"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

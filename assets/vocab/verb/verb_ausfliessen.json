@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausfliessen",
+  "wort": "ausfließen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بیرون ریختن، نشت کردن (مایع)"
+    ],
+    "en": [
+      "to flow out",
+      "to leak"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Natur"
+  ],
+  "ipa": "ˈaʊ̯sˌfliːsn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Aus dem Tank fließt Öl aus.",
+      "uebersetzung": {
+        "fa": "از مخزن روغن بیرون می‌ریزد.",
+        "en": "Oil is leaking out of the tank."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil das Fass ein Loch hatte, war über Nacht der ganze Wein ausgeflossen.",
+      "uebersetzung": {
+        "fa": "چون بشکه سوراخ بود، یک‌شبه همه‌ی شراب بیرون ریخته بود.",
+        "en": "Because the barrel had a hole, all the wine had leaked out overnight."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "auslaufen",
+      "uebersetzung": {
+        "fa": "بیرون ریختن، نشت کردن",
+        "en": "to leak out"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند: بیرون) + fließen (جاری شدن)",
+    "en": "aus- (prefix: out) + fließen (to flow)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "aus etwas ausfließen (aus + Dat)",
+        "bedeutung": "aus einem Behälter herausfließen",
+        "beispiel": "Aus der Wunde fließt Blut aus.",
+        "uebersetzung": {
+          "fa": "از زخم خون بیرون می‌آید.",
+          "en": "Blood is flowing out of the wound."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausfließen",
+      "praeteritum": "floss aus",
+      "partizip2": "ausgeflossen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fließe aus",
+        "du": "fließt aus",
+        "er_sie_es": "fließt aus",
+        "wir": "fließen aus",
+        "ihr": "fließt aus",
+        "sie_Sie": "fließen aus"
+      },
+      "praeteritum": {
+        "ich": "floss aus",
+        "du": "flossest aus",
+        "er_sie_es": "floss aus",
+        "wir": "flossen aus",
+        "ihr": "flosst aus",
+        "sie_Sie": "flossen aus"
+      },
+      "konjunktiv1": {
+        "ich": "fließe aus",
+        "du": "fließest aus",
+        "er_sie_es": "fließe aus",
+        "wir": "fließen aus",
+        "ihr": "fließet aus",
+        "sie_Sie": "fließen aus"
+      },
+      "konjunktiv2": {
+        "ich": "flösse aus",
+        "du": "flössest aus",
+        "er_sie_es": "flösse aus",
+        "wir": "flössen aus",
+        "ihr": "flösset aus",
+        "sie_Sie": "flössen aus"
+      },
+      "imperativ": {
+        "du": "Fließ aus!",
+        "ihr": "Fließt aus!",
+        "Sie": "Fließen Sie aus!"
+      }
+    },
+    "partizip1": "ausfließend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fließen",
+    "woerter": [
+      {
+        "wort": "das Wasser",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب",
+          "en": "water"
+        },
+        "id_ref": "nomen_wasser"
+      },
+      {
+        "wort": "fließen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جاری شدن",
+          "en": "to flow"
+        },
+        "id_ref": "verb_fliessen"
+      },
+      {
+        "wort": "das Loch",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سوراخ",
+          "en": "hole"
+        },
+        "id_ref": "nomen_loch"
+      },
+      {
+        "wort": "auslaufen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نشت کردن",
+          "en": "to leak out"
+        },
+        "id_ref": "verb_auslaufen"
+      },
+      {
+        "wort": "der Abfluss",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آبرو، فاضلاب",
+          "en": "drain"
+        },
+        "id_ref": "nomen_abfluss"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

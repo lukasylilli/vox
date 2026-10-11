@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausfechten",
+  "wort": "ausfechten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تا آخر جنگیدن، فیصله دادن (دعوا، اختلاف)"
+    ],
+    "en": [
+      "to fight out",
+      "to settle (a dispute)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Konflikte",
+    "Recht"
+  ],
+  "ipa": "ˈaʊ̯sˌfɛçtn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie fechten den Streit allein aus.",
+      "uebersetzung": {
+        "fa": "آن‌ها دعوا را خودشان فیصله می‌دهند.",
+        "en": "They fight out the quarrel themselves."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Konflikt wurde schließlich vor Gericht ausgefochten, weil sich keine Seite einigen wollte.",
+      "uebersetzung": {
+        "fa": "اختلاف سرانجام در دادگاه فیصله یافت، چون هیچ طرفی نمی‌خواست کوتاه بیاید.",
+        "en": "The conflict was eventually fought out in court because neither side wanted to compromise."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "austragen",
+      "uebersetzung": {
+        "fa": "فیصله دادن (دعوا)",
+        "en": "to settle"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند: تا آخر) + fechten (شمشیربازی کردن، جنگیدن)",
+    "en": "aus- (prefix: to the end) + fechten (to fence, to fight)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas mit jemandem ausfechten (mit + Dat)",
+        "bedeutung": "einen Streit mit jemandem bis zum Ende austragen",
+        "beispiel": "Das musst du mit deinem Bruder ausfechten.",
+        "uebersetzung": {
+          "fa": "این را باید با برادرت حل‌وفصل کنی.",
+          "en": "You have to fight that out with your brother."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausfechten",
+      "praeteritum": "focht aus",
+      "partizip2": "ausgefochten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fechte aus",
+        "du": "fichtst aus",
+        "er_sie_es": "ficht aus",
+        "wir": "fechten aus",
+        "ihr": "fechtet aus",
+        "sie_Sie": "fechten aus"
+      },
+      "praeteritum": {
+        "ich": "focht aus",
+        "du": "fochtest aus",
+        "er_sie_es": "focht aus",
+        "wir": "fochten aus",
+        "ihr": "fochtet aus",
+        "sie_Sie": "fochten aus"
+      },
+      "konjunktiv1": {
+        "ich": "fechte aus",
+        "du": "fechtest aus",
+        "er_sie_es": "fechte aus",
+        "wir": "fechten aus",
+        "ihr": "fechtet aus",
+        "sie_Sie": "fechten aus"
+      },
+      "konjunktiv2": {
+        "ich": "föchte aus",
+        "du": "föchtest aus",
+        "er_sie_es": "föchte aus",
+        "wir": "föchten aus",
+        "ihr": "föchtet aus",
+        "sie_Sie": "föchten aus"
+      },
+      "imperativ": {
+        "du": "Ficht aus!",
+        "ihr": "Fechtet aus!",
+        "Sie": "Fechten Sie aus!"
+      }
+    },
+    "partizip1": "ausfechtend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fechten",
+    "woerter": [
+      {
+        "wort": "der Streit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دعوا",
+          "en": "quarrel"
+        },
+        "id_ref": "nomen_streit"
+      },
+      {
+        "wort": "kämpfen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جنگیدن",
+          "en": "to fight"
+        },
+        "id_ref": "verb_kaempfen"
+      },
+      {
+        "wort": "der Konflikt",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اختلاف",
+          "en": "conflict"
+        },
+        "id_ref": "nomen_konflikt"
+      },
+      {
+        "wort": "das Gericht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دادگاه",
+          "en": "court"
+        },
+        "id_ref": "nomen_gericht"
+      },
+      {
+        "wort": "fechten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شمشیربازی کردن",
+          "en": "to fence"
+        },
+        "id_ref": "verb_fechten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
