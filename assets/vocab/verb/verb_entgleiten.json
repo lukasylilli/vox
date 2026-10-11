@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_entgleiten",
+  "wort": "entgleiten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(از دست کسی) لیز خوردن و افتادن",
+      "(کنترل وضعی) از دست (کسی) خارج شدن"
+    ],
+    "en": [
+      "to slip (from someone's hands)",
+      "to slip out of control"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag",
+    "Gefühle"
+  ],
+  "ipa": "ɛntˈɡlaɪ̯tn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Glas entgleitet ihr.",
+      "uebersetzung": {
+        "fa": "لیوان از دستش لیز می‌خورد.",
+        "en": "The glass slips from her hand."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Situation ist der Lehrerin völlig entglitten, als zwei Schüler anfingen, sich zu prügeln.",
+      "uebersetzung": {
+        "fa": "وقتی دو دانش‌آموز شروع به کتک‌کاری کردند، اوضاع کاملاً از کنترل معلم خارج شد.",
+        "en": "The situation slipped completely out of the teacher's control when two pupils started fighting."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "entrutschen",
+      "uebersetzung": {
+        "fa": "لیز خوردن (از دست)",
+        "en": "to slip"
+      }
+    },
+    {
+      "wort": "außer Kontrolle geraten",
+      "uebersetzung": {
+        "fa": "از کنترل خارج شدن",
+        "en": "to get out of control"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- (پیشوند جدایی، دور شدن) + gleiten (سُر خوردن)",
+    "en": "ent- (prefix: away, from) + gleiten (to glide)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem entgleiten (+ Dat)",
+        "bedeutung": "jemandem aus der Hand rutschen; außer Kontrolle geraten",
+        "beispiel": "Das Gespräch ist mir entglitten.",
+        "uebersetzung": {
+          "fa": "گفت‌وگو از کنترلم خارج شد.",
+          "en": "The conversation got away from me."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "entgleiten",
+      "praeteritum": "entglitt",
+      "partizip2": "entglitten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entgleite",
+        "du": "entgleitest",
+        "er_sie_es": "entgleitet",
+        "wir": "entgleiten",
+        "ihr": "entgleitet",
+        "sie_Sie": "entgleiten"
+      },
+      "praeteritum": {
+        "ich": "entglitt",
+        "du": "entglittest",
+        "er_sie_es": "entglitt",
+        "wir": "entglitten",
+        "ihr": "entglittet",
+        "sie_Sie": "entglitten"
+      },
+      "konjunktiv1": {
+        "ich": "entgleite",
+        "du": "entgleitest",
+        "er_sie_es": "entgleite",
+        "wir": "entgleiten",
+        "ihr": "entgleitet",
+        "sie_Sie": "entgleiten"
+      },
+      "konjunktiv2": {
+        "ich": "entglitte",
+        "du": "entglittest",
+        "er_sie_es": "entglitte",
+        "wir": "entglitten",
+        "ihr": "entglittet",
+        "sie_Sie": "entglitten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "entgleitend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gleiten",
+    "woerter": [
+      {
+        "wort": "gleiten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سُر خوردن",
+          "en": "to glide"
+        },
+        "id_ref": "verb_gleiten"
+      },
+      {
+        "wort": "rutschen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لیز خوردن",
+          "en": "to slip"
+        },
+        "id_ref": "verb_rutschen"
+      },
+      {
+        "wort": "fallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "افتادن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_fallen"
+      },
+      {
+        "wort": "die Kontrolle",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کنترل",
+          "en": "control"
+        },
+        "id_ref": "nomen_kontrolle"
+      },
+      {
+        "wort": "fallen lassen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انداختن",
+          "en": "to drop"
+        },
+        "id_ref": "verb_fallen_lassen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

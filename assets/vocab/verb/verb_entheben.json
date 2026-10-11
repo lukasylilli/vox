@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_entheben",
+  "wort": "entheben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(رسمی) (کسی را از مقام یا وظیفه‌ای) برکنار کردن، معاف کردن"
+    ],
+    "en": [
+      "(formal) to relieve (of an office or duty), to remove"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Politik",
+    "Recht",
+    "Arbeit"
+  ],
+  "ipa": "ɛntˈheːbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Man enthebt ihn seines Amtes.",
+      "uebersetzung": {
+        "fa": "او را از مقامش برکنار می‌کنند.",
+        "en": "He is being removed from office."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem der Skandal bekannt wurde, wurde der Direktor mit sofortiger Wirkung seines Postens enthoben.",
+      "uebersetzung": {
+        "fa": "پس از اینکه رسوایی علنی شد، مدیر بلافاصله از سمتش برکنار شد.",
+        "en": "After the scandal became known, the director was relieved of his post with immediate effect."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "absetzen",
+      "uebersetzung": {
+        "fa": "برکنار کردن",
+        "en": "to remove"
+      }
+    },
+    {
+      "wort": "entlassen",
+      "uebersetzung": {
+        "fa": "اخراج کردن",
+        "en": "to dismiss"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ernennen",
+      "uebersetzung": {
+        "fa": "منصوب کردن",
+        "en": "to appoint"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- (پیشوند جدایی، دور شدن) + heben (بلند کردن)",
+    "en": "ent- (prefix: away, from) + heben (to lift)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden + Gen entheben",
+        "bedeutung": "jemanden von einem Amt oder einer Pflicht befreien",
+        "beispiel": "Die Richterin wurde ihres Amtes enthoben.",
+        "uebersetzung": {
+          "fa": "قاضی از مقامش برکنار شد.",
+          "en": "The judge was removed from office."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "entheben",
+      "praeteritum": "enthob",
+      "partizip2": "enthoben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "enthebe",
+        "du": "enthebst",
+        "er_sie_es": "enthebt",
+        "wir": "entheben",
+        "ihr": "enthebt",
+        "sie_Sie": "entheben"
+      },
+      "praeteritum": {
+        "ich": "enthob",
+        "du": "enthobst",
+        "er_sie_es": "enthob",
+        "wir": "enthoben",
+        "ihr": "enthobt",
+        "sie_Sie": "enthoben"
+      },
+      "konjunktiv1": {
+        "ich": "enthebe",
+        "du": "enthebest",
+        "er_sie_es": "enthebe",
+        "wir": "entheben",
+        "ihr": "enthebet",
+        "sie_Sie": "entheben"
+      },
+      "konjunktiv2": {
+        "ich": "enthöbe",
+        "du": "enthöbest",
+        "er_sie_es": "enthöbe",
+        "wir": "enthöben",
+        "ihr": "enthöbet",
+        "sie_Sie": "enthöben"
+      },
+      "imperativ": {
+        "du": "Entheb!",
+        "ihr": "Enthebt!",
+        "Sie": "Entheben Sie!"
+      }
+    },
+    "partizip1": "enthebend",
+    "nominalisierung": "die Enthebung"
+  },
+  "wortnetz": {
+    "grundwort": "heben",
+    "woerter": [
+      {
+        "wort": "heben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بلند کردن",
+          "en": "to lift"
+        },
+        "id_ref": "verb_heben"
+      },
+      {
+        "wort": "das Amt",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مقام، اداره",
+          "en": "office"
+        },
+        "id_ref": "nomen_amt"
+      },
+      {
+        "wort": "absetzen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "برکنار کردن",
+          "en": "to remove"
+        },
+        "id_ref": "verb_absetzen"
+      },
+      {
+        "wort": "ernennen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "منصوب کردن",
+          "en": "to appoint"
+        },
+        "id_ref": "verb_ernennen"
+      },
+      {
+        "wort": "entlassen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اخراج کردن",
+          "en": "to dismiss"
+        },
+        "id_ref": "verb_entlassen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

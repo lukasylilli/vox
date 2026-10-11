@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_entlangfahren",
+  "wort": "entlangfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با وسیله‌ی نقلیه) در امتداد (چیزی) رفتن"
+    ],
+    "en": [
+      "to drive along"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Verkehr",
+    "Reisen",
+    "Orientierung"
+  ],
+  "ipa": "ɛntˈlaŋˌfaːʁən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir fahren die Küste entlang.",
+      "uebersetzung": {
+        "fa": "در امتداد ساحل رانندگی می‌کنیم.",
+        "en": "We are driving along the coast."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn Sie die Hauptstraße entlangfahren, sehen Sie das Krankenhaus auf der rechten Seite.",
+      "uebersetzung": {
+        "fa": "اگر در امتداد خیابان اصلی بروید، بیمارستان را در سمت راست می‌بینید.",
+        "en": "If you drive along the main road, you will see the hospital on the right-hand side."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fahren",
+      "uebersetzung": {
+        "fa": "رانندگی کردن",
+        "en": "to drive"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "entlang- (در امتداد) + fahren (رفتن (با وسیله))",
+    "en": "entlang- (along) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas (Akk) entlangfahren / an + Dat entlangfahren",
+        "bedeutung": "sich fahrend parallel zu etwas bewegen",
+        "beispiel": "Der Bus fährt am Fluss entlang.",
+        "uebersetzung": {
+          "fa": "اتوبوس در امتداد رودخانه حرکت می‌کند.",
+          "en": "The bus runs along the river."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "entlangfahren",
+      "praeteritum": "fuhr entlang",
+      "partizip2": "entlanggefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre entlang",
+        "du": "fährst entlang",
+        "er_sie_es": "fährt entlang",
+        "wir": "fahren entlang",
+        "ihr": "fahrt entlang",
+        "sie_Sie": "fahren entlang"
+      },
+      "praeteritum": {
+        "ich": "fuhr entlang",
+        "du": "fuhrst entlang",
+        "er_sie_es": "fuhr entlang",
+        "wir": "fuhren entlang",
+        "ihr": "fuhrt entlang",
+        "sie_Sie": "fuhren entlang"
+      },
+      "konjunktiv1": {
+        "ich": "fahre entlang",
+        "du": "fahrest entlang",
+        "er_sie_es": "fahre entlang",
+        "wir": "fahren entlang",
+        "ihr": "fahret entlang",
+        "sie_Sie": "fahren entlang"
+      },
+      "konjunktiv2": {
+        "ich": "führe entlang",
+        "du": "führest entlang",
+        "er_sie_es": "führe entlang",
+        "wir": "führen entlang",
+        "ihr": "führet entlang",
+        "sie_Sie": "führen entlang"
+      },
+      "imperativ": {
+        "du": "Fahr entlang!",
+        "ihr": "Fahrt entlang!",
+        "Sie": "Fahren Sie entlang!"
+      }
+    },
+    "partizip1": "entlangfahrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "entlang",
+        "wortart": "praeposition",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "در امتداد",
+          "en": "along"
+        },
+        "id_ref": "praeposition_entlang"
+      },
+      {
+        "wort": "entlanggehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "در امتداد چیزی راه رفتن",
+          "en": "to walk along"
+        },
+        "id_ref": "verb_entlanggehen"
+      },
+      {
+        "wort": "die Straße",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خیابان",
+          "en": "street"
+        },
+        "id_ref": "nomen_strasse"
+      },
+      {
+        "wort": "die Küste",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ساحل",
+          "en": "coast"
+        },
+        "id_ref": "nomen_kueste"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

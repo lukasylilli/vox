@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_entgehen",
+  "wort": "entgehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(از خطر یا مجازاتی) گریختن، رهایی یافتن",
+      "از چشم (کسی) پنهان ماندن، (فرصتی) از دست رفتن"
+    ],
+    "en": [
+      "to escape, to avoid",
+      "to escape (someone's notice), to miss out on"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Gefahr"
+  ],
+  "ipa": "ɛntˈɡeːən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ihm entgeht nichts.",
+      "uebersetzung": {
+        "fa": "هیچ چیز از چشمش پنهان نمی‌ماند.",
+        "en": "Nothing escapes him."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nur knapp ist der Fahrer einem schweren Unfall entgangen, weil er rechtzeitig gebremst hat.",
+      "uebersetzung": {
+        "fa": "راننده تنها با فاصله‌ی کمی از یک تصادف سخت جان به در برد، چون به‌موقع ترمز کرد.",
+        "en": "The driver only narrowly escaped a serious accident because he braked in time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "entkommen",
+      "uebersetzung": {
+        "fa": "گریختن",
+        "en": "to escape"
+      }
+    },
+    {
+      "wort": "verpassen",
+      "uebersetzung": {
+        "fa": "از دست دادن",
+        "en": "to miss"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- (پیشوند جدایی، دور شدن) + gehen (رفتن)",
+    "en": "ent- (prefix: away, from) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem/etwas entgehen (+ Dat)",
+        "bedeutung": "einer Sache ausweichen; von jemandem nicht bemerkt werden",
+        "beispiel": "Diese Chance darfst du dir nicht entgehen lassen.",
+        "uebersetzung": {
+          "fa": "نباید این فرصت را از دست بدهی.",
+          "en": "You mustn't miss this chance."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "entgehen",
+      "praeteritum": "entging",
+      "partizip2": "entgangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entgehe",
+        "du": "entgehst",
+        "er_sie_es": "entgeht",
+        "wir": "entgehen",
+        "ihr": "entgeht",
+        "sie_Sie": "entgehen"
+      },
+      "praeteritum": {
+        "ich": "entging",
+        "du": "entgingst",
+        "er_sie_es": "entging",
+        "wir": "entgingen",
+        "ihr": "entgingt",
+        "sie_Sie": "entgingen"
+      },
+      "konjunktiv1": {
+        "ich": "entgehe",
+        "du": "entgehest",
+        "er_sie_es": "entgehe",
+        "wir": "entgehen",
+        "ihr": "entgehet",
+        "sie_Sie": "entgehen"
+      },
+      "konjunktiv2": {
+        "ich": "entginge",
+        "du": "entgingest",
+        "er_sie_es": "entginge",
+        "wir": "entgingen",
+        "ihr": "entginget",
+        "sie_Sie": "entgingen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "entgehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "entkommen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گریختن",
+          "en": "to escape"
+        },
+        "id_ref": "verb_entkommen"
+      },
+      {
+        "wort": "verpassen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "از دست دادن",
+          "en": "to miss"
+        },
+        "id_ref": "verb_verpassen"
+      },
+      {
+        "wort": "die Gefahr",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خطر",
+          "en": "danger"
+        },
+        "id_ref": "nomen_gefahr"
+      },
+      {
+        "wort": "die Chance",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فرصت",
+          "en": "chance"
+        },
+        "id_ref": "nomen_chance"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

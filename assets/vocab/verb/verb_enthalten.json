@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_enthalten",
+  "wort": "enthalten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دربر داشتن، شامل بودن",
+      "(sich enthalten + Gen) خودداری کردن، (در رأی‌گیری) رأی ممتنع دادن"
+    ],
+    "en": [
+      "to contain, to include",
+      "(sich + gen.) to abstain from"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Essen",
+    "Gesundheit",
+    "Politik"
+  ],
+  "ipa": "ɛntˈhaltn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Flasche enthält einen Liter Wasser.",
+      "uebersetzung": {
+        "fa": "این بطری یک لیتر آب دارد.",
+        "en": "The bottle contains one litre of water."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Viele Fertiggerichte enthalten mehr Salz, als man denkt.",
+      "uebersetzung": {
+        "fa": "بسیاری از غذاهای آماده بیش از آنچه فکر می‌کنیم نمک دارند.",
+        "en": "Many ready meals contain more salt than you think."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beinhalten",
+      "uebersetzung": {
+        "fa": "شامل بودن",
+        "en": "to include"
+      }
+    },
+    {
+      "wort": "umfassen",
+      "uebersetzung": {
+        "fa": "دربر گرفتن",
+        "en": "to comprise"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- (پیشوند جدایی، دور شدن) + halten (نگه داشتن)",
+    "en": "ent- (prefix: away, from) + halten (to hold)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich + Gen enthalten",
+        "bedeutung": "auf etwas verzichten; (Wahl) nicht abstimmen",
+        "beispiel": "Drei Abgeordnete haben sich der Stimme enthalten.",
+        "uebersetzung": {
+          "fa": "سه نماینده رأی ممتنع دادند.",
+          "en": "Three MPs abstained from voting."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "enthalten",
+      "praeteritum": "enthielt",
+      "partizip2": "enthalten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "enthalte",
+        "du": "enthältst",
+        "er_sie_es": "enthält",
+        "wir": "enthalten",
+        "ihr": "enthaltet",
+        "sie_Sie": "enthalten"
+      },
+      "praeteritum": {
+        "ich": "enthielt",
+        "du": "enthieltest",
+        "er_sie_es": "enthielt",
+        "wir": "enthielten",
+        "ihr": "enthieltet",
+        "sie_Sie": "enthielten"
+      },
+      "konjunktiv1": {
+        "ich": "enthalte",
+        "du": "enthaltest",
+        "er_sie_es": "enthalte",
+        "wir": "enthalten",
+        "ihr": "enthaltet",
+        "sie_Sie": "enthalten"
+      },
+      "konjunktiv2": {
+        "ich": "enthielte",
+        "du": "enthieltest",
+        "er_sie_es": "enthielte",
+        "wir": "enthielten",
+        "ihr": "enthieltet",
+        "sie_Sie": "enthielten"
+      },
+      "imperativ": {
+        "du": "Enthalte!",
+        "ihr": "Enthaltet!",
+        "Sie": "Enthalten Sie!"
+      }
+    },
+    "partizip1": "enthaltend",
+    "nominalisierung": "die Enthaltung"
+  },
+  "wortnetz": {
+    "grundwort": "halten",
+    "woerter": [
+      {
+        "wort": "halten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to hold"
+        },
+        "id_ref": "verb_halten"
+      },
+      {
+        "wort": "der Inhalt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "محتوا",
+          "en": "content"
+        },
+        "id_ref": "nomen_inhalt"
+      },
+      {
+        "wort": "beinhalten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شامل بودن",
+          "en": "to include"
+        },
+        "id_ref": "verb_beinhalten"
+      },
+      {
+        "wort": "enthaltsam",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "پرهیزگار",
+          "en": "abstinent"
+        },
+        "id_ref": "adjektiv_enthaltsam"
+      },
+      {
+        "wort": "die Zutat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ماده‌ی تشکیل‌دهنده",
+          "en": "ingredient"
+        },
+        "id_ref": "nomen_zutat"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

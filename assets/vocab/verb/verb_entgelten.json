@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_entgelten",
+  "wort": "entgelten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(ادبی) جبران کردن، تلافی کردن",
+      "(رسمی) پاداش یا دستمزد دادن"
+    ],
+    "en": [
+      "(literary) to repay, to make up for",
+      "(formal) to remunerate"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Arbeit",
+    "Recht",
+    "Sprache (gehoben)"
+  ],
+  "ipa": "ɛntˈɡɛltn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wie kann ich das entgelten?",
+      "uebersetzung": {
+        "fa": "چطور می‌توانم این را جبران کنم؟",
+        "en": "How can I repay this?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die zusätzlichen Stunden werden den Mitarbeitern nach dem Tarifvertrag entgolten.",
+      "uebersetzung": {
+        "fa": "ساعت‌های اضافه طبق قرارداد جمعی کار به کارمندان پرداخت می‌شود.",
+        "en": "The additional hours are paid to employees according to the collective agreement."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vergüten",
+      "uebersetzung": {
+        "fa": "پرداخت کردن (دستمزد)",
+        "en": "to remunerate"
+      }
+    },
+    {
+      "wort": "belohnen",
+      "uebersetzung": {
+        "fa": "پاداش دادن",
+        "en": "to reward"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- (پیشوند جدایی، دور شدن) + gelten (ارزش داشتن، معتبر بودن)",
+    "en": "ent- (prefix: away, from) + gelten (to be worth)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "entgelten",
+      "praeteritum": "entgalt",
+      "partizip2": "entgolten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entgelte",
+        "du": "entgiltst",
+        "er_sie_es": "entgilt",
+        "wir": "entgelten",
+        "ihr": "entgeltet",
+        "sie_Sie": "entgelten"
+      },
+      "praeteritum": {
+        "ich": "entgalt",
+        "du": "entgaltest",
+        "er_sie_es": "entgalt",
+        "wir": "entgalten",
+        "ihr": "entgaltet",
+        "sie_Sie": "entgalten"
+      },
+      "konjunktiv1": {
+        "ich": "entgelte",
+        "du": "entgeltest",
+        "er_sie_es": "entgelte",
+        "wir": "entgelten",
+        "ihr": "entgeltet",
+        "sie_Sie": "entgelten"
+      },
+      "konjunktiv2": {
+        "ich": "entgälte",
+        "du": "entgältest",
+        "er_sie_es": "entgälte",
+        "wir": "entgälten",
+        "ihr": "entgältet",
+        "sie_Sie": "entgälten"
+      },
+      "imperativ": {
+        "du": "Entgilt!",
+        "ihr": "Entgeltet!",
+        "Sie": "Entgelten Sie!"
+      }
+    },
+    "partizip1": "entgeltend",
+    "nominalisierung": "das Entgelt"
+  },
+  "wortnetz": {
+    "grundwort": "gelten",
+    "woerter": [
+      {
+        "wort": "das Entgelt",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دستمزد، مبلغ",
+          "en": "remuneration"
+        },
+        "id_ref": "nomen_entgelt"
+      },
+      {
+        "wort": "bezahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_bezahlen"
+      },
+      {
+        "wort": "belohnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پاداش دادن",
+          "en": "to reward"
+        },
+        "id_ref": "verb_belohnen"
+      },
+      {
+        "wort": "der Lohn",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دستمزد",
+          "en": "wage"
+        },
+        "id_ref": "nomen_lohn"
+      },
+      {
+        "wort": "gelten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "معتبر بودن",
+          "en": "to be valid"
+        },
+        "id_ref": "verb_gelten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

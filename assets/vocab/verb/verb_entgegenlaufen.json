@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_entgegenlaufen",
+  "wort": "entgegenlaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به سوی (کسی) دویدن",
+      "(با چیزی) در تضاد بودن، مغایر بودن"
+    ],
+    "en": [
+      "to run towards",
+      "to run counter to"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Bewegung"
+  ],
+  "ipa": "ɛntˈɡeːɡn̩ˌlaʊ̯fn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hund läuft mir entgegen.",
+      "uebersetzung": {
+        "fa": "سگ به سمت من می‌دود.",
+        "en": "The dog runs towards me."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Diese Entscheidung läuft allem entgegen, was wir in den letzten Monaten besprochen haben.",
+      "uebersetzung": {
+        "fa": "این تصمیم با همه‌ی چیزهایی که در ماه‌های گذشته درباره‌اش صحبت کردیم در تضاد است.",
+        "en": "This decision runs counter to everything we have discussed in recent months."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zulaufen auf",
+      "uebersetzung": {
+        "fa": "به سمت کسی دویدن",
+        "en": "to run towards"
+      }
+    },
+    {
+      "wort": "widersprechen",
+      "uebersetzung": {
+        "fa": "مغایر بودن",
+        "en": "to contradict"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "entgegen- (به سوی، رو به) + laufen (دویدن)",
+    "en": "entgegen- (towards) + laufen (to run)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem/etwas entgegenlaufen (+ Dat)",
+        "bedeutung": "auf jemanden zulaufen; im Widerspruch zu etwas stehen",
+        "beispiel": "Die Kinder liefen dem Weihnachtsmann entgegen.",
+        "uebersetzung": {
+          "fa": "بچه‌ها به سمت بابانوئل دویدند.",
+          "en": "The children ran towards Father Christmas."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "entgegenlaufen",
+      "praeteritum": "lief entgegen",
+      "partizip2": "entgegengelaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laufe entgegen",
+        "du": "läufst entgegen",
+        "er_sie_es": "läuft entgegen",
+        "wir": "laufen entgegen",
+        "ihr": "lauft entgegen",
+        "sie_Sie": "laufen entgegen"
+      },
+      "praeteritum": {
+        "ich": "lief entgegen",
+        "du": "liefst entgegen",
+        "er_sie_es": "lief entgegen",
+        "wir": "liefen entgegen",
+        "ihr": "lieft entgegen",
+        "sie_Sie": "liefen entgegen"
+      },
+      "konjunktiv1": {
+        "ich": "laufe entgegen",
+        "du": "laufest entgegen",
+        "er_sie_es": "laufe entgegen",
+        "wir": "laufen entgegen",
+        "ihr": "laufet entgegen",
+        "sie_Sie": "laufen entgegen"
+      },
+      "konjunktiv2": {
+        "ich": "liefe entgegen",
+        "du": "liefest entgegen",
+        "er_sie_es": "liefe entgegen",
+        "wir": "liefen entgegen",
+        "ihr": "liefet entgegen",
+        "sie_Sie": "liefen entgegen"
+      },
+      "imperativ": {
+        "du": "Lauf entgegen!",
+        "ihr": "Lauft entgegen!",
+        "Sie": "Laufen Sie entgegen!"
+      }
+    },
+    "partizip1": "entgegenlaufend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دویدن",
+          "en": "to run"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "entgegenkommen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "از روبه‌رو آمدن",
+          "en": "to come towards"
+        },
+        "id_ref": "verb_entgegenkommen"
+      },
+      {
+        "wort": "widersprechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مغایر بودن",
+          "en": "to contradict"
+        },
+        "id_ref": "verb_widersprechen"
+      },
+      {
+        "wort": "rennen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دویدن",
+          "en": "to run"
+        },
+        "id_ref": "verb_rennen"
+      },
+      {
+        "wort": "der Gegensatz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تضاد",
+          "en": "contrast"
+        },
+        "id_ref": "nomen_gegensatz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
