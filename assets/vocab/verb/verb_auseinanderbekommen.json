@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_auseinanderbekommen",
+  "wort": "auseinanderbekommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(به‌زحمت) از هم جدا کردن"
+    ],
+    "en": [
+      "to get apart",
+      "to manage to separate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag",
+    "Technik"
+  ],
+  "ipa": "aʊ̯sʔaɪ̯ˈnandɐbəˌkɔmən",
+  "anmerkung": "umgangssprachlich",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich bekomme die Teile nicht auseinander.",
+      "uebersetzung": {
+        "fa": "نمی‌توانم قطعه‌ها را از هم جدا کنم.",
+        "en": "I can't get the parts apart."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die beiden Seiten klebten so fest, dass wir sie nur mit heißem Wasser auseinanderbekommen haben.",
+      "uebersetzung": {
+        "fa": "دو صفحه آن‌قدر محکم به هم چسبیده بودند که فقط با آب داغ توانستیم جدایشان کنیم.",
+        "en": "The two pages were stuck together so firmly that we only got them apart with hot water."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "trennen",
+      "uebersetzung": {
+        "fa": "جدا کردن",
+        "en": "to separate"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zusammenbekommen",
+      "uebersetzung": {
+        "fa": "(به‌زحمت) به هم وصل کردن",
+        "en": "to get together"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auseinander (از هم) + bekommen (به دست آوردن)",
+    "en": "auseinander (apart) + bekommen (to get)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas auseinanderbekommen",
+        "bedeutung": "etwas (mit Mühe) trennen können — mit Akkusativ",
+        "beispiel": "Bekommst du die zwei Becher auseinander?",
+        "uebersetzung": {
+          "fa": "می‌توانی این دو لیوان را از هم جدا کنی؟",
+          "en": "Can you get the two cups apart?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "auseinanderbekommen",
+      "praeteritum": "bekam auseinander",
+      "partizip2": "auseinanderbekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bekomme auseinander",
+        "du": "bekommst auseinander",
+        "er_sie_es": "bekommt auseinander",
+        "wir": "bekommen auseinander",
+        "ihr": "bekommt auseinander",
+        "sie_Sie": "bekommen auseinander"
+      },
+      "praeteritum": {
+        "ich": "bekam auseinander",
+        "du": "bekamst auseinander",
+        "er_sie_es": "bekam auseinander",
+        "wir": "bekamen auseinander",
+        "ihr": "bekamt auseinander",
+        "sie_Sie": "bekamen auseinander"
+      },
+      "konjunktiv1": {
+        "ich": "bekomme auseinander",
+        "du": "bekommest auseinander",
+        "er_sie_es": "bekomme auseinander",
+        "wir": "bekommen auseinander",
+        "ihr": "bekommet auseinander",
+        "sie_Sie": "bekommen auseinander"
+      },
+      "konjunktiv2": {
+        "ich": "bekäme auseinander",
+        "du": "bekämest auseinander",
+        "er_sie_es": "bekäme auseinander",
+        "wir": "bekämen auseinander",
+        "ihr": "bekämet auseinander",
+        "sie_Sie": "bekämen auseinander"
+      },
+      "imperativ": {
+        "du": "Bekomm auseinander!",
+        "ihr": "Bekommt auseinander!",
+        "Sie": "Bekommen Sie auseinander!"
+      }
+    },
+    "partizip1": "auseinanderbekommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bekommen",
+    "woerter": [
+      {
+        "wort": "bekommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گرفتن، به دست آوردن",
+          "en": "to get"
+        },
+        "id_ref": "verb_bekommen"
+      },
+      {
+        "wort": "das Teil",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قطعه",
+          "en": "part"
+        },
+        "id_ref": "nomen_teil"
+      },
+      {
+        "wort": "trennen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جدا کردن",
+          "en": "to separate"
+        },
+        "id_ref": "verb_trennen"
+      },
+      {
+        "wort": "kleben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چسباندن، چسبیدن",
+          "en": "to stick"
+        },
+        "id_ref": "verb_kleben"
+      },
+      {
+        "wort": "auseinandernehmen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "از هم باز کردن",
+          "en": "to take apart"
+        },
+        "id_ref": "verb_auseinandernehmen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

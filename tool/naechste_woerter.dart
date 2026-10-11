@@ -874,6 +874,9 @@ const zurueckgestellt = <String>{
   'ausbiegen', // zurückgestellt (Regel 14): Hauptbedeutung landschaftlich (ausweichen, sein) vs. geradebiegen (haben) — Gebrauch unsicher 2026-10-11
   'ausbieten', // zurückgestellt (Regel 14): selten (zum Verkauf anbieten) 2026-10-11
   'ausbinden', // zurückgestellt (Regel 14): selten/fachsprachlich, Bedeutung schwankend 2026-10-11
+  'ausbleichen', // zurückgestellt (Regel 14/16): Formen schwanken (blich/bleichte; ausgeblichen/ausgebleicht), Hilfsverb je nach Bedeutung — wie abbleichen 2026-10-11
+  'ausdreschen', // zurückgestellt (Regel 14): selten, fachsprachlich — wie abdreschen 2026-10-11
+  'auseinanderbersten', // zurückgestellt (Regel 14): selten, gehoben 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

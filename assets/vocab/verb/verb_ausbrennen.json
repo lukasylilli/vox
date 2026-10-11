@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausbrennen",
+  "wort": "ausbrennen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کاملاً سوختن (ساختمان، ماشین)",
+      "سوزاندن (زخم)"
+    ],
+    "en": [
+      "to burn out",
+      "to cauterize"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Unfall"
+  ],
+  "ipa": "ˈaʊ̯sˌbʁɛnən",
+  "anmerkung": "intransitiv («das Haus ist ausgebrannt») mit sein; transitiv («eine Wunde ausbrennen») mit haben; Partizip «ausgebrannt» auch: völlig erschöpft",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Auto ist völlig ausgebrannt.",
+      "uebersetzung": {
+        "fa": "ماشین کاملاً سوخت.",
+        "en": "The car burned out completely."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach jahrelanger Überarbeitung fühlte er sich so ausgebrannt, dass er eine Pause machen musste.",
+      "uebersetzung": {
+        "fa": "بعد از سال‌ها کار زیاد، آن‌قدر احساس فرسودگی می‌کرد که مجبور شد استراحت کند.",
+        "en": "After years of overwork he felt so burnt out that he had to take a break."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abbrennen",
+      "uebersetzung": {
+        "fa": "سوختن و از بین رفتن",
+        "en": "to burn down"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند: تا آخر) + brennen (سوختن)",
+    "en": "aus- (prefix: completely) + brennen (to burn)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas ausbrennen",
+        "bedeutung": "durch Hitze reinigen oder veröden (transitiv, mit haben) — mit Akkusativ",
+        "beispiel": "Früher hat man Wunden mit glühendem Eisen ausgebrannt.",
+        "uebersetzung": {
+          "fa": "قدیم زخم‌ها را با آهن گداخته می‌سوزاندند.",
+          "en": "In the past, wounds were cauterized with red-hot iron."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausbrennen",
+      "praeteritum": "brannte aus",
+      "partizip2": "ausgebrannt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "brenne aus",
+        "du": "brennst aus",
+        "er_sie_es": "brennt aus",
+        "wir": "brennen aus",
+        "ihr": "brennt aus",
+        "sie_Sie": "brennen aus"
+      },
+      "praeteritum": {
+        "ich": "brannte aus",
+        "du": "branntest aus",
+        "er_sie_es": "brannte aus",
+        "wir": "brannten aus",
+        "ihr": "branntet aus",
+        "sie_Sie": "brannten aus"
+      },
+      "konjunktiv1": {
+        "ich": "brenne aus",
+        "du": "brennest aus",
+        "er_sie_es": "brenne aus",
+        "wir": "brennen aus",
+        "ihr": "brennet aus",
+        "sie_Sie": "brennen aus"
+      },
+      "konjunktiv2": {
+        "ich": "brennte aus",
+        "du": "brenntest aus",
+        "er_sie_es": "brennte aus",
+        "wir": "brennten aus",
+        "ihr": "brenntet aus",
+        "sie_Sie": "brennten aus"
+      },
+      "imperativ": {
+        "du": "Brenn aus!",
+        "ihr": "Brennt aus!",
+        "Sie": "Brennen Sie aus!"
+      }
+    },
+    "partizip1": "ausbrennend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "brennen",
+    "woerter": [
+      {
+        "wort": "das Feuer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آتش",
+          "en": "fire"
+        },
+        "id_ref": "nomen_feuer"
+      },
+      {
+        "wort": "brennen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سوختن",
+          "en": "to burn"
+        },
+        "id_ref": "verb_brennen"
+      },
+      {
+        "wort": "die Feuerwehr",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آتش‌نشانی",
+          "en": "fire brigade"
+        },
+        "id_ref": "nomen_feuerwehr"
+      },
+      {
+        "wort": "erschöpft",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خسته و فرسوده",
+          "en": "exhausted"
+        },
+        "id_ref": "adjektiv_erschoepft"
+      },
+      {
+        "wort": "das Burn-out",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "فرسودگی شغلی",
+          "en": "burnout"
+        },
+        "id_ref": "nomen_burn-out"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

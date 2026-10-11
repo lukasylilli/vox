@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_aneinanderbinden",
+  "wort": "aneinanderbinden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به هم بستن"
+    ],
+    "en": [
+      "to tie together"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "anʔaɪ̯ˈnandɐˌbɪndn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir binden die Seile aneinander.",
+      "uebersetzung": {
+        "fa": "طناب‌ها را به هم می‌بندیم.",
+        "en": "We tie the ropes together."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Boote wurden aneinandergebunden, damit sie in der Nacht nicht abtreiben.",
+      "uebersetzung": {
+        "fa": "قایق‌ها را به هم بستند تا شب آب آن‌ها را نبرد.",
+        "en": "The boats were tied together so that they wouldn't drift away during the night."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verbinden",
+      "uebersetzung": {
+        "fa": "به هم وصل کردن",
+        "en": "to connect"
+      }
+    },
+    {
+      "wort": "zusammenbinden",
+      "uebersetzung": {
+        "fa": "به هم بستن",
+        "en": "to tie together"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "losbinden",
+      "uebersetzung": {
+        "fa": "باز کردن (گره، طناب)",
+        "en": "to untie"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aneinander (به هم) + binden (بستن)",
+    "en": "aneinander (to each other) + binden (to tie)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas aneinanderbinden",
+        "bedeutung": "Dinge miteinander verknüpfen — mit Akkusativ",
+        "beispiel": "Sie band die beiden Enden fest aneinander.",
+        "uebersetzung": {
+          "fa": "او دو سر را محکم به هم بست.",
+          "en": "She tied the two ends firmly together."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "aneinanderbinden",
+      "praeteritum": "band aneinander",
+      "partizip2": "aneinandergebunden"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "binde aneinander",
+        "du": "bindest aneinander",
+        "er_sie_es": "bindet aneinander",
+        "wir": "binden aneinander",
+        "ihr": "bindet aneinander",
+        "sie_Sie": "binden aneinander"
+      },
+      "praeteritum": {
+        "ich": "band aneinander",
+        "du": "bandest aneinander",
+        "er_sie_es": "band aneinander",
+        "wir": "banden aneinander",
+        "ihr": "bandet aneinander",
+        "sie_Sie": "banden aneinander"
+      },
+      "konjunktiv1": {
+        "ich": "binde aneinander",
+        "du": "bindest aneinander",
+        "er_sie_es": "binde aneinander",
+        "wir": "binden aneinander",
+        "ihr": "bindet aneinander",
+        "sie_Sie": "binden aneinander"
+      },
+      "konjunktiv2": {
+        "ich": "bände aneinander",
+        "du": "bändest aneinander",
+        "er_sie_es": "bände aneinander",
+        "wir": "bänden aneinander",
+        "ihr": "bändet aneinander",
+        "sie_Sie": "bänden aneinander"
+      },
+      "imperativ": {
+        "du": "Binde aneinander!",
+        "ihr": "Bindet aneinander!",
+        "Sie": "Binden Sie aneinander!"
+      }
+    },
+    "partizip1": "aneinanderbindend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "binden",
+    "woerter": [
+      {
+        "wort": "das Seil",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "طناب",
+          "en": "rope"
+        },
+        "id_ref": "nomen_seil"
+      },
+      {
+        "wort": "binden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بستن",
+          "en": "to tie"
+        },
+        "id_ref": "verb_binden"
+      },
+      {
+        "wort": "der Knoten",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گره",
+          "en": "knot"
+        },
+        "id_ref": "nomen_knoten"
+      },
+      {
+        "wort": "verbinden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وصل کردن",
+          "en": "to connect"
+        },
+        "id_ref": "verb_verbinden"
+      },
+      {
+        "wort": "losbinden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "باز کردن (طناب)",
+          "en": "to untie"
+        },
+        "id_ref": "verb_losbinden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

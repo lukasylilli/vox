@@ -1,0 +1,206 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausbrechen",
+  "wort": "ausbrechen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "فرار کردن (از زندان)",
+      "ناگهان شروع شدن (جنگ، آتش، بیماری)",
+      "فوران کردن (آتشفشان)",
+      "(in Tränen ausbrechen) زیر گریه زدن"
+    ],
+    "en": [
+      "to escape",
+      "to break out",
+      "to erupt",
+      "to burst (into tears)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Politik",
+    "Natur",
+    "Gesundheit"
+  ],
+  "ipa": "ˈaʊ̯sˌbʁɛçn̩",
+  "anmerkung": "intransitiv mit sein; transitiv («etwas ausbrechen» = herausbrechen) mit haben",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Vulkan bricht aus.",
+      "uebersetzung": {
+        "fa": "آتشفشان فوران می‌کند.",
+        "en": "The volcano erupts."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Zwei Gefangene sind ausgebrochen, als die Wächter abgelenkt waren.",
+      "uebersetzung": {
+        "fa": "دو زندانی فرار کردند، وقتی حواس نگهبان‌ها پرت بود.",
+        "en": "Two prisoners escaped while the guards were distracted."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fliehen",
+      "uebersetzung": {
+        "fa": "فرار کردن",
+        "en": "to flee"
+      }
+    },
+    {
+      "wort": "beginnen",
+      "uebersetzung": {
+        "fa": "شروع شدن",
+        "en": "to begin"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "enden",
+      "uebersetzung": {
+        "fa": "تمام شدن",
+        "en": "to end"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند: بیرون) + brechen (شکستن)",
+    "en": "aus- (prefix: out) + brechen (to break)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "aus etwas ausbrechen (aus + Dat)",
+        "bedeutung": "aus einem Ort fliehen",
+        "beispiel": "Der Tiger ist aus dem Zoo ausgebrochen.",
+        "uebersetzung": {
+          "fa": "ببر از باغ‌وحش فرار کرده است.",
+          "en": "The tiger has escaped from the zoo."
+        }
+      },
+      {
+        "muster": "in etwas ausbrechen (in + Akk)",
+        "bedeutung": "plötzlich mit etwas beginnen (Tränen, Jubel, Lachen)",
+        "beispiel": "Als sie die Nachricht hörte, brach sie in Tränen aus.",
+        "uebersetzung": {
+          "fa": "وقتی خبر را شنید، زیر گریه زد.",
+          "en": "When she heard the news, she burst into tears."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausbrechen",
+      "praeteritum": "brach aus",
+      "partizip2": "ausgebrochen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "breche aus",
+        "du": "brichst aus",
+        "er_sie_es": "bricht aus",
+        "wir": "brechen aus",
+        "ihr": "brecht aus",
+        "sie_Sie": "brechen aus"
+      },
+      "praeteritum": {
+        "ich": "brach aus",
+        "du": "brachst aus",
+        "er_sie_es": "brach aus",
+        "wir": "brachen aus",
+        "ihr": "bracht aus",
+        "sie_Sie": "brachen aus"
+      },
+      "konjunktiv1": {
+        "ich": "breche aus",
+        "du": "brechest aus",
+        "er_sie_es": "breche aus",
+        "wir": "brechen aus",
+        "ihr": "brechet aus",
+        "sie_Sie": "brechen aus"
+      },
+      "konjunktiv2": {
+        "ich": "bräche aus",
+        "du": "brächest aus",
+        "er_sie_es": "bräche aus",
+        "wir": "brächen aus",
+        "ihr": "brächet aus",
+        "sie_Sie": "brächen aus"
+      },
+      "imperativ": {
+        "du": "Brich aus!",
+        "ihr": "Brecht aus!",
+        "Sie": "Brechen Sie aus!"
+      }
+    },
+    "partizip1": "ausbrechend",
+    "nominalisierung": "der Ausbruch"
+  },
+  "wortnetz": {
+    "grundwort": "brechen",
+    "woerter": [
+      {
+        "wort": "der Krieg",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جنگ",
+          "en": "war"
+        },
+        "id_ref": "nomen_krieg"
+      },
+      {
+        "wort": "fliehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فرار کردن",
+          "en": "to flee"
+        },
+        "id_ref": "verb_fliehen"
+      },
+      {
+        "wort": "brechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شکستن",
+          "en": "to break"
+        },
+        "id_ref": "verb_brechen"
+      },
+      {
+        "wort": "der Ausbruch",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فوران، شیوع، فرار",
+          "en": "outbreak, eruption"
+        },
+        "id_ref": "nomen_ausbruch"
+      },
+      {
+        "wort": "der Vulkan",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آتشفشان",
+          "en": "volcano"
+        },
+        "id_ref": "nomen_vulkan"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

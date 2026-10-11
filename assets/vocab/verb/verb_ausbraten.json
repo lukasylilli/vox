@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausbraten",
+  "wort": "ausbraten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کامل سرخ کردن",
+      "چربی (چیزی را) با سرخ کردن گرفتن"
+    ],
+    "en": [
+      "to fry thoroughly",
+      "to render (fat)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Essen",
+    "Kochen"
+  ],
+  "ipa": "ˈaʊ̯sˌbʁaːtn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich brate den Speck aus.",
+      "uebersetzung": {
+        "fa": "بیکن را سرخ می‌کنم تا چربی‌اش آب شود.",
+        "en": "I fry the bacon until the fat runs out."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem sie das Fett ausgebraten hatte, gab sie die Zwiebeln in die Pfanne.",
+      "uebersetzung": {
+        "fa": "بعد از این‌که چربی را با سرخ کردن آب کرد، پیازها را در ماهیتابه ریخت.",
+        "en": "After she had rendered the fat, she put the onions into the pan."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "braten",
+      "uebersetzung": {
+        "fa": "سرخ کردن",
+        "en": "to fry"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند: تا آخر، بیرون) + braten (سرخ کردن)",
+    "en": "aus- (prefix: completely, out) + braten (to fry)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas ausbraten",
+        "bedeutung": "etwas durchbraten oder sein Fett auslassen — mit Akkusativ",
+        "beispiel": "Der Koch brät die Würfel aus Speck langsam aus.",
+        "uebersetzung": {
+          "fa": "آشپز تکه‌های بیکن را آرام سرخ می‌کند.",
+          "en": "The cook slowly renders the diced bacon."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausbraten",
+      "praeteritum": "briet aus",
+      "partizip2": "ausgebraten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "brate aus",
+        "du": "brätst aus",
+        "er_sie_es": "brät aus",
+        "wir": "braten aus",
+        "ihr": "bratet aus",
+        "sie_Sie": "braten aus"
+      },
+      "praeteritum": {
+        "ich": "briet aus",
+        "du": "brietest aus",
+        "er_sie_es": "briet aus",
+        "wir": "brieten aus",
+        "ihr": "brietet aus",
+        "sie_Sie": "brieten aus"
+      },
+      "konjunktiv1": {
+        "ich": "brate aus",
+        "du": "bratest aus",
+        "er_sie_es": "brate aus",
+        "wir": "braten aus",
+        "ihr": "bratet aus",
+        "sie_Sie": "braten aus"
+      },
+      "konjunktiv2": {
+        "ich": "briete aus",
+        "du": "brietest aus",
+        "er_sie_es": "briete aus",
+        "wir": "brieten aus",
+        "ihr": "brietet aus",
+        "sie_Sie": "brieten aus"
+      },
+      "imperativ": {
+        "du": "Brat aus!",
+        "ihr": "Bratet aus!",
+        "Sie": "Braten Sie aus!"
+      }
+    },
+    "partizip1": "ausbratend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "braten",
+    "woerter": [
+      {
+        "wort": "die Pfanne",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ماهیتابه",
+          "en": "pan"
+        },
+        "id_ref": "nomen_pfanne"
+      },
+      {
+        "wort": "das Fett",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چربی",
+          "en": "fat"
+        },
+        "id_ref": "nomen_fett"
+      },
+      {
+        "wort": "braten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرخ کردن",
+          "en": "to fry"
+        },
+        "id_ref": "verb_braten"
+      },
+      {
+        "wort": "der Speck",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیکن، دنبه",
+          "en": "bacon"
+        },
+        "id_ref": "nomen_speck"
+      },
+      {
+        "wort": "anbraten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تفت دادن",
+          "en": "to sear"
+        },
+        "id_ref": "verb_anbraten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

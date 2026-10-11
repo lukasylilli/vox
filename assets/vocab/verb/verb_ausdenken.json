@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausdenken",
+  "wort": "ausdenken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(sich etwas ausdenken) از خود درآوردن، ابداع کردن",
+      "تصور کردن"
+    ],
+    "en": [
+      "to think up",
+      "to make up",
+      "to imagine"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Kommunikation",
+    "Kreativität"
+  ],
+  "ipa": "ˈaʊ̯sˌdɛŋkn̩",
+  "anmerkung": "fast immer mit Dativ-Reflexivpronomen: «sich (Dat) etwas ausdenken»",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich denke mir eine Geschichte aus.",
+      "uebersetzung": {
+        "fa": "یک داستان از خودم درمی‌آورم.",
+        "en": "I make up a story."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Für ihren Geburtstag haben wir uns eine Überraschung ausgedacht, von der sie nichts weiß.",
+      "uebersetzung": {
+        "fa": "برای تولدش یک سورپرایز طراحی کرده‌ایم که از آن خبر ندارد.",
+        "en": "For her birthday we have thought up a surprise that she knows nothing about."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erfinden",
+      "uebersetzung": {
+        "fa": "اختراع کردن، از خود درآوردن",
+        "en": "to invent"
+      }
+    },
+    {
+      "wort": "sich vorstellen",
+      "uebersetzung": {
+        "fa": "تصور کردن",
+        "en": "to imagine"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند: تا آخر) + denken (فکر کردن)",
+    "en": "aus- (prefix: to the end) + denken (to think)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich (Dat) etwas ausdenken",
+        "bedeutung": "etwas erfinden, planen — Dativ (reflexiv) + Akkusativ",
+        "beispiel": "Das hast du dir doch nur ausgedacht!",
+        "uebersetzung": {
+          "fa": "این را که فقط از خودت درآورده‌ای!",
+          "en": "You just made that up!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausdenken",
+      "praeteritum": "dachte aus",
+      "partizip2": "ausgedacht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "denke aus",
+        "du": "denkst aus",
+        "er_sie_es": "denkt aus",
+        "wir": "denken aus",
+        "ihr": "denkt aus",
+        "sie_Sie": "denken aus"
+      },
+      "praeteritum": {
+        "ich": "dachte aus",
+        "du": "dachtest aus",
+        "er_sie_es": "dachte aus",
+        "wir": "dachten aus",
+        "ihr": "dachtet aus",
+        "sie_Sie": "dachten aus"
+      },
+      "konjunktiv1": {
+        "ich": "denke aus",
+        "du": "denkest aus",
+        "er_sie_es": "denke aus",
+        "wir": "denken aus",
+        "ihr": "denket aus",
+        "sie_Sie": "denken aus"
+      },
+      "konjunktiv2": {
+        "ich": "dächte aus",
+        "du": "dächtest aus",
+        "er_sie_es": "dächte aus",
+        "wir": "dächten aus",
+        "ihr": "dächtet aus",
+        "sie_Sie": "dächten aus"
+      },
+      "imperativ": {
+        "du": "Denk aus!",
+        "ihr": "Denkt aus!",
+        "Sie": "Denken Sie aus!"
+      }
+    },
+    "partizip1": "ausdenkend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "denken",
+    "woerter": [
+      {
+        "wort": "denken",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فکر کردن",
+          "en": "to think"
+        },
+        "id_ref": "verb_denken"
+      },
+      {
+        "wort": "die Geschichte",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "داستان",
+          "en": "story"
+        },
+        "id_ref": "nomen_geschichte"
+      },
+      {
+        "wort": "die Idee",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ایده",
+          "en": "idea"
+        },
+        "id_ref": "nomen_idee"
+      },
+      {
+        "wort": "erfinden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اختراع کردن",
+          "en": "to invent"
+        },
+        "id_ref": "verb_erfinden"
+      },
+      {
+        "wort": "die Fantasie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تخیل",
+          "en": "imagination"
+        },
+        "id_ref": "nomen_fantasie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
