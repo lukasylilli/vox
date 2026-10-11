@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_entlanglaufen",
+  "wort": "entlanglaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "در امتداد (چیزی) دویدن یا راه رفتن",
+      "(مسیر یا خطی) در امتداد (چیزی) کشیده شدن"
+    ],
+    "en": [
+      "to run along, to walk along",
+      "to run along (path, line)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Sport",
+    "Orientierung"
+  ],
+  "ipa": "ɛntˈlaŋˌlaʊ̯fn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich laufe jeden Morgen den Fluss entlang.",
+      "uebersetzung": {
+        "fa": "هر صبح در امتداد رودخانه می‌دوم.",
+        "en": "I run along the river every morning."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Wanderweg läuft direkt an der Grenze entlang, deshalb sieht man oft beide Länder.",
+      "uebersetzung": {
+        "fa": "مسیر پیاده‌روی درست در امتداد مرز کشیده شده، برای همین اغلب هر دو کشور دیده می‌شوند.",
+        "en": "The hiking trail runs right along the border, so you can often see both countries."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "joggen",
+      "uebersetzung": {
+        "fa": "آهسته دویدن",
+        "en": "to jog"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "entlang- (در امتداد) + laufen (دویدن، راه رفتن)",
+    "en": "entlang- (along) + laufen (to run, to walk)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas (Akk) entlanglaufen / an + Dat entlanglaufen",
+        "bedeutung": "sich laufend parallel zu etwas bewegen",
+        "beispiel": "Die Kinder laufen am Strand entlang.",
+        "uebersetzung": {
+          "fa": "بچه‌ها در امتداد ساحل می‌دوند.",
+          "en": "The children run along the beach."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "entlanglaufen",
+      "praeteritum": "lief entlang",
+      "partizip2": "entlanggelaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laufe entlang",
+        "du": "läufst entlang",
+        "er_sie_es": "läuft entlang",
+        "wir": "laufen entlang",
+        "ihr": "lauft entlang",
+        "sie_Sie": "laufen entlang"
+      },
+      "praeteritum": {
+        "ich": "lief entlang",
+        "du": "liefst entlang",
+        "er_sie_es": "lief entlang",
+        "wir": "liefen entlang",
+        "ihr": "lieft entlang",
+        "sie_Sie": "liefen entlang"
+      },
+      "konjunktiv1": {
+        "ich": "laufe entlang",
+        "du": "laufest entlang",
+        "er_sie_es": "laufe entlang",
+        "wir": "laufen entlang",
+        "ihr": "laufet entlang",
+        "sie_Sie": "laufen entlang"
+      },
+      "konjunktiv2": {
+        "ich": "liefe entlang",
+        "du": "liefest entlang",
+        "er_sie_es": "liefe entlang",
+        "wir": "liefen entlang",
+        "ihr": "liefet entlang",
+        "sie_Sie": "liefen entlang"
+      },
+      "imperativ": {
+        "du": "Lauf entlang!",
+        "ihr": "Lauft entlang!",
+        "Sie": "Laufen Sie entlang!"
+      }
+    },
+    "partizip1": "entlanglaufend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دویدن",
+          "en": "to run"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "entlang",
+        "wortart": "praeposition",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "در امتداد",
+          "en": "along"
+        },
+        "id_ref": "praeposition_entlang"
+      },
+      {
+        "wort": "joggen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آهسته دویدن",
+          "en": "to jog"
+        },
+        "id_ref": "verb_joggen"
+      },
+      {
+        "wort": "der Fluss",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رودخانه",
+          "en": "river"
+        },
+        "id_ref": "nomen_fluss"
+      },
+      {
+        "wort": "der Wanderweg",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مسیر پیاده‌روی",
+          "en": "hiking trail"
+        },
+        "id_ref": "nomen_wanderweg"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

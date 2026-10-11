@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_entlanggehen",
+  "wort": "entlanggehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "در امتداد (چیزی) راه رفتن، (مسیری را) پیمودن"
+    ],
+    "en": [
+      "to walk along, to go along"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Orientierung",
+    "Alltag",
+    "Reisen"
+  ],
+  "ipa": "ɛntˈlaŋˌɡeːən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Gehen Sie diese Straße entlang.",
+      "uebersetzung": {
+        "fa": "این خیابان را مستقیم بروید.",
+        "en": "Go along this street."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wir sind am Abend noch lange am Ufer entlanggegangen, weil das Wetter so schön war.",
+      "uebersetzung": {
+        "fa": "شب مدت زیادی در امتداد ساحل قدم زدیم، چون هوا خیلی خوب بود.",
+        "en": "In the evening we walked along the shore for a long time because the weather was so nice."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "spazieren",
+      "uebersetzung": {
+        "fa": "قدم زدن",
+        "en": "to stroll"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "entlang- (در امتداد) + gehen (رفتن)",
+    "en": "entlang- (along) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas (Akk) entlanggehen / an + Dat entlanggehen",
+        "bedeutung": "parallel zu etwas gehen",
+        "beispiel": "Geh einfach am Zaun entlang.",
+        "uebersetzung": {
+          "fa": "فقط در امتداد نرده برو.",
+          "en": "Just walk along the fence."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "entlanggehen",
+      "praeteritum": "ging entlang",
+      "partizip2": "entlanggegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe entlang",
+        "du": "gehst entlang",
+        "er_sie_es": "geht entlang",
+        "wir": "gehen entlang",
+        "ihr": "geht entlang",
+        "sie_Sie": "gehen entlang"
+      },
+      "praeteritum": {
+        "ich": "ging entlang",
+        "du": "gingst entlang",
+        "er_sie_es": "ging entlang",
+        "wir": "gingen entlang",
+        "ihr": "gingt entlang",
+        "sie_Sie": "gingen entlang"
+      },
+      "konjunktiv1": {
+        "ich": "gehe entlang",
+        "du": "gehest entlang",
+        "er_sie_es": "gehe entlang",
+        "wir": "gehen entlang",
+        "ihr": "gehet entlang",
+        "sie_Sie": "gehen entlang"
+      },
+      "konjunktiv2": {
+        "ich": "ginge entlang",
+        "du": "gingest entlang",
+        "er_sie_es": "ginge entlang",
+        "wir": "gingen entlang",
+        "ihr": "ginget entlang",
+        "sie_Sie": "gingen entlang"
+      },
+      "imperativ": {
+        "du": "Geh entlang!",
+        "ihr": "Geht entlang!",
+        "Sie": "Gehen Sie entlang!"
+      }
+    },
+    "partizip1": "entlanggehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "entlang",
+        "wortart": "praeposition",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "در امتداد",
+          "en": "along"
+        },
+        "id_ref": "praeposition_entlang"
+      },
+      {
+        "wort": "geradeaus",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مستقیم",
+          "en": "straight on"
+        },
+        "id_ref": "adverb_geradeaus"
+      },
+      {
+        "wort": "der Weg",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "راه",
+          "en": "way"
+        },
+        "id_ref": "nomen_weg"
+      },
+      {
+        "wort": "spazieren gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قدم زدن",
+          "en": "to go for a walk"
+        },
+        "id_ref": "verb_spazieren_gehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

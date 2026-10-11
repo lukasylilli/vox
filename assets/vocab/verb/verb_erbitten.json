@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_erbitten",
+  "wort": "erbitten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(رسمی) درخواست کردن، خواستار شدن"
+    ],
+    "en": [
+      "(formal) to request, to ask for"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Behörde",
+    "Kommunikation",
+    "Arbeit"
+  ],
+  "ipa": "ɛɐ̯ˈbɪtn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir erbitten eine Antwort.",
+      "uebersetzung": {
+        "fa": "خواهشمندیم پاسخ دهید.",
+        "en": "We request a reply."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Um Ihre Anmeldung bearbeiten zu können, erbitten wir eine Kopie Ihres Ausweises bis Freitag.",
+      "uebersetzung": {
+        "fa": "برای اینکه بتوانیم ثبت‌نام شما را بررسی کنیم، خواهشمندیم تا جمعه یک نسخه از کارت شناسایی‌تان را بفرستید.",
+        "en": "In order to process your registration, we request a copy of your ID by Friday."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bitten um",
+      "uebersetzung": {
+        "fa": "درخواست کردن",
+        "en": "to ask for"
+      }
+    },
+    {
+      "wort": "ersuchen",
+      "uebersetzung": {
+        "fa": "(رسمی) درخواست کردن",
+        "en": "to request"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (پیشوند (رسیدن به نتیجه)) + bitten (خواهش کردن)",
+    "en": "er- (prefix (achieving a result)) + bitten (to ask)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "sich (Dat) etwas von + Dat erbitten",
+        "bedeutung": "von jemandem etwas erbitten",
+        "beispiel": "Er erbat sich von seinem Chef einen Tag Bedenkzeit.",
+        "uebersetzung": {
+          "fa": "او از رئیسش یک روز مهلت فکر کردن خواست.",
+          "en": "He asked his boss for a day to think it over."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "erbitten",
+      "praeteritum": "erbat",
+      "partizip2": "erbeten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erbitte",
+        "du": "erbittest",
+        "er_sie_es": "erbittet",
+        "wir": "erbitten",
+        "ihr": "erbittet",
+        "sie_Sie": "erbitten"
+      },
+      "praeteritum": {
+        "ich": "erbat",
+        "du": "erbatest",
+        "er_sie_es": "erbat",
+        "wir": "erbaten",
+        "ihr": "erbatet",
+        "sie_Sie": "erbaten"
+      },
+      "konjunktiv1": {
+        "ich": "erbitte",
+        "du": "erbittest",
+        "er_sie_es": "erbitte",
+        "wir": "erbitten",
+        "ihr": "erbittet",
+        "sie_Sie": "erbitten"
+      },
+      "konjunktiv2": {
+        "ich": "erbäte",
+        "du": "erbätest",
+        "er_sie_es": "erbäte",
+        "wir": "erbäten",
+        "ihr": "erbätet",
+        "sie_Sie": "erbäten"
+      },
+      "imperativ": {
+        "du": "Erbitte!",
+        "ihr": "Erbittet!",
+        "Sie": "Erbitten Sie!"
+      }
+    },
+    "partizip1": "erbittend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bitten",
+    "woerter": [
+      {
+        "wort": "bitten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خواهش کردن",
+          "en": "to ask"
+        },
+        "id_ref": "verb_bitten"
+      },
+      {
+        "wort": "die Bitte",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خواهش",
+          "en": "request"
+        },
+        "id_ref": "nomen_bitte"
+      },
+      {
+        "wort": "der Antrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درخواست (رسمی)",
+          "en": "application"
+        },
+        "id_ref": "nomen_antrag"
+      },
+      {
+        "wort": "anfordern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "درخواست کردن",
+          "en": "to request"
+        },
+        "id_ref": "verb_anfordern"
+      },
+      {
+        "wort": "die Antwort",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پاسخ",
+          "en": "answer"
+        },
+        "id_ref": "nomen_antwort"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

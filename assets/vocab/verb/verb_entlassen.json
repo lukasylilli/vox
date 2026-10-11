@@ -1,0 +1,200 @@
+{
+  "schema": "3.0",
+  "id": "verb_entlassen",
+  "wort": "entlassen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(از کار) اخراج کردن",
+      "(از بیمارستان یا زندان) مرخص کردن، آزاد کردن"
+    ],
+    "en": [
+      "to dismiss, to fire, to lay off",
+      "to discharge, to release (from hospital, prison)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Gesundheit",
+    "Recht"
+  ],
+  "ipa": "ɛntˈlasn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Firma entlässt 50 Mitarbeiter.",
+      "uebersetzung": {
+        "fa": "شرکت ۵۰ کارمند را اخراج می‌کند.",
+        "en": "The company is laying off 50 employees."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn die Werte stabil bleiben, wird der Patient morgen aus dem Krankenhaus entlassen.",
+      "uebersetzung": {
+        "fa": "اگر مقادیر (آزمایش‌ها) ثابت بمانند، بیمار فردا از بیمارستان مرخص می‌شود.",
+        "en": "If the values remain stable, the patient will be discharged from hospital tomorrow."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kündigen",
+      "uebersetzung": {
+        "fa": "(قرارداد را) فسخ کردن، اخراج کردن",
+        "en": "to dismiss"
+      }
+    },
+    {
+      "wort": "freilassen",
+      "uebersetzung": {
+        "fa": "آزاد کردن",
+        "en": "to release"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "einstellen",
+      "uebersetzung": {
+        "fa": "استخدام کردن",
+        "en": "to hire"
+      }
+    },
+    {
+      "wort": "aufnehmen",
+      "uebersetzung": {
+        "fa": "پذیرش کردن، بستری کردن",
+        "en": "to admit"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- (پیشوند جدایی، دور شدن) + lassen (گذاشتن، رها کردن)",
+    "en": "ent- (prefix: away, from) + lassen (to let)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden aus + Dat entlassen",
+        "bedeutung": "jemanden aus einer Einrichtung gehen lassen",
+        "beispiel": "Sie wurde gestern aus der Haft entlassen.",
+        "uebersetzung": {
+          "fa": "او دیروز از بازداشت آزاد شد.",
+          "en": "She was released from custody yesterday."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "entlassen",
+      "praeteritum": "entließ",
+      "partizip2": "entlassen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entlasse",
+        "du": "entlässt",
+        "er_sie_es": "entlässt",
+        "wir": "entlassen",
+        "ihr": "entlasst",
+        "sie_Sie": "entlassen"
+      },
+      "praeteritum": {
+        "ich": "entließ",
+        "du": "entließest",
+        "er_sie_es": "entließ",
+        "wir": "entließen",
+        "ihr": "entließt",
+        "sie_Sie": "entließen"
+      },
+      "konjunktiv1": {
+        "ich": "entlasse",
+        "du": "entlassest",
+        "er_sie_es": "entlasse",
+        "wir": "entlassen",
+        "ihr": "entlasset",
+        "sie_Sie": "entlassen"
+      },
+      "konjunktiv2": {
+        "ich": "entließe",
+        "du": "entließest",
+        "er_sie_es": "entließe",
+        "wir": "entließen",
+        "ihr": "entließet",
+        "sie_Sie": "entließen"
+      },
+      "imperativ": {
+        "du": "Entlass!",
+        "ihr": "Entlasst!",
+        "Sie": "Entlassen Sie!"
+      }
+    },
+    "partizip1": "entlassend",
+    "nominalisierung": "die Entlassung"
+  },
+  "wortnetz": {
+    "grundwort": "lassen",
+    "woerter": [
+      {
+        "wort": "die Entlassung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اخراج؛ ترخیص",
+          "en": "dismissal; discharge"
+        },
+        "id_ref": "nomen_entlassung"
+      },
+      {
+        "wort": "kündigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فسخ کردن، استعفا دادن",
+          "en": "to give notice"
+        },
+        "id_ref": "verb_kuendigen"
+      },
+      {
+        "wort": "einstellen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "استخدام کردن",
+          "en": "to hire"
+        },
+        "id_ref": "verb_einstellen"
+      },
+      {
+        "wort": "arbeitslos",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیکار",
+          "en": "unemployed"
+        },
+        "id_ref": "adjektiv_arbeitslos"
+      },
+      {
+        "wort": "das Krankenhaus",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمارستان",
+          "en": "hospital"
+        },
+        "id_ref": "nomen_krankenhaus"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

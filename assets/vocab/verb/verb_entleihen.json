@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_entleihen",
+  "wort": "entleihen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(از کتابخانه و مانند آن) امانت گرفتن",
+      "(واژه یا اندیشه‌ای از جای دیگر) وام گرفتن"
+    ],
+    "en": [
+      "to borrow (from a library)",
+      "to borrow (a word, idea)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Bildung",
+    "Bibliothek",
+    "Sprache"
+  ],
+  "ipa": "ɛntˈlaɪ̯ən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich entleihe drei Bücher.",
+      "uebersetzung": {
+        "fa": "سه کتاب امانت می‌گیرم.",
+        "en": "I'm borrowing three books."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Viele Wörter im Deutschen sind aus dem Französischen entliehen, zum Beispiel «Restaurant».",
+      "uebersetzung": {
+        "fa": "بسیاری از واژه‌های آلمانی از فرانسوی وام گرفته شده‌اند، برای مثال «رستوران».",
+        "en": "Many German words are borrowed from French, for example «Restaurant»."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausleihen",
+      "uebersetzung": {
+        "fa": "امانت گرفتن",
+        "en": "to borrow"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zurückgeben",
+      "uebersetzung": {
+        "fa": "پس دادن",
+        "en": "to return"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- (پیشوند جدایی، دور شدن) + leihen (قرض دادن/گرفتن)",
+    "en": "ent- (prefix: away, from) + leihen (to lend, to borrow)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas aus + Dat / von + Dat entleihen",
+        "bedeutung": "etwas aus einer Bibliothek oder von jemandem leihen",
+        "beispiel": "Das Buch ist aus der Stadtbibliothek entliehen.",
+        "uebersetzung": {
+          "fa": "این کتاب از کتابخانه‌ی شهر امانت گرفته شده است.",
+          "en": "The book has been borrowed from the city library."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "entleihen",
+      "praeteritum": "entlieh",
+      "partizip2": "entliehen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entleihe",
+        "du": "entleihst",
+        "er_sie_es": "entleiht",
+        "wir": "entleihen",
+        "ihr": "entleiht",
+        "sie_Sie": "entleihen"
+      },
+      "praeteritum": {
+        "ich": "entlieh",
+        "du": "entliehst",
+        "er_sie_es": "entlieh",
+        "wir": "entliehen",
+        "ihr": "entlieht",
+        "sie_Sie": "entliehen"
+      },
+      "konjunktiv1": {
+        "ich": "entleihe",
+        "du": "entleihest",
+        "er_sie_es": "entleihe",
+        "wir": "entleihen",
+        "ihr": "entleihet",
+        "sie_Sie": "entleihen"
+      },
+      "konjunktiv2": {
+        "ich": "entliehe",
+        "du": "entliehest",
+        "er_sie_es": "entliehe",
+        "wir": "entliehen",
+        "ihr": "entliehet",
+        "sie_Sie": "entliehen"
+      },
+      "imperativ": {
+        "du": "Entleih!",
+        "ihr": "Entleiht!",
+        "Sie": "Entleihen Sie!"
+      }
+    },
+    "partizip1": "entleihend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "leihen",
+    "woerter": [
+      {
+        "wort": "leihen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قرض دادن/گرفتن",
+          "en": "to lend, to borrow"
+        },
+        "id_ref": "verb_leihen"
+      },
+      {
+        "wort": "ausleihen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "امانت گرفتن",
+          "en": "to borrow"
+        },
+        "id_ref": "verb_ausleihen"
+      },
+      {
+        "wort": "die Bibliothek",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کتابخانه",
+          "en": "library"
+        },
+        "id_ref": "nomen_bibliothek"
+      },
+      {
+        "wort": "das Lehnwort",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "واژه‌ی قرضی",
+          "en": "loanword"
+        },
+        "id_ref": "nomen_lehnwort"
+      },
+      {
+        "wort": "zurückgeben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پس دادن",
+          "en": "to give back"
+        },
+        "id_ref": "verb_zurueckgeben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

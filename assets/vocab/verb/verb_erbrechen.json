@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_erbrechen",
+  "wort": "erbrechen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "استفراغ کردن، بالا آوردن",
+      "(قدیمی) (قفل یا نامه‌ای را) به‌زور باز کردن"
+    ],
+    "en": [
+      "to vomit",
+      "(dated) to break open"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Medizin",
+    "Pflege"
+  ],
+  "ipa": "ɛɐ̯ˈbʁɛçn̩",
+  "anmerkung": "Im Sinn «sich übergeben» oft reflexiv: «sich erbrechen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Kind hat erbrochen.",
+      "uebersetzung": {
+        "fa": "بچه استفراغ کرد.",
+        "en": "The child vomited."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach der Narkose hat sich der Patient mehrmals erbrochen, deshalb bekam er ein Medikament gegen Übelkeit.",
+      "uebersetzung": {
+        "fa": "بیمار بعد از بیهوشی چند بار استفراغ کرد، برای همین دارویی ضد تهوع گرفت.",
+        "en": "After the anaesthetic the patient vomited several times, so he was given a medicine for nausea."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich übergeben",
+      "uebersetzung": {
+        "fa": "بالا آوردن",
+        "en": "to throw up"
+      }
+    },
+    {
+      "wort": "kotzen",
+      "uebersetzung": {
+        "fa": "(عامیانه) بالا آوردن",
+        "en": "to puke"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (پیشوند (رسیدن به نتیجه)) + brechen (شکستن)",
+    "en": "er- (prefix (achieving a result)) + brechen (to break)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "erbrechen",
+      "praeteritum": "erbrach",
+      "partizip2": "erbrochen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erbreche",
+        "du": "erbrichst",
+        "er_sie_es": "erbricht",
+        "wir": "erbrechen",
+        "ihr": "erbrecht",
+        "sie_Sie": "erbrechen"
+      },
+      "praeteritum": {
+        "ich": "erbrach",
+        "du": "erbrachst",
+        "er_sie_es": "erbrach",
+        "wir": "erbrachen",
+        "ihr": "erbracht",
+        "sie_Sie": "erbrachen"
+      },
+      "konjunktiv1": {
+        "ich": "erbreche",
+        "du": "erbrechest",
+        "er_sie_es": "erbreche",
+        "wir": "erbrechen",
+        "ihr": "erbrechet",
+        "sie_Sie": "erbrechen"
+      },
+      "konjunktiv2": {
+        "ich": "erbräche",
+        "du": "erbrächest",
+        "er_sie_es": "erbräche",
+        "wir": "erbrächen",
+        "ihr": "erbrächet",
+        "sie_Sie": "erbrächen"
+      },
+      "imperativ": {
+        "du": "Erbrich!",
+        "ihr": "Erbrecht!",
+        "Sie": "Erbrechen Sie!"
+      }
+    },
+    "partizip1": "erbrechend",
+    "nominalisierung": "das Erbrechen"
+  },
+  "wortnetz": {
+    "grundwort": "brechen",
+    "woerter": [
+      {
+        "wort": "die Übelkeit",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حالت تهوع",
+          "en": "nausea"
+        },
+        "id_ref": "nomen_uebelkeit"
+      },
+      {
+        "wort": "sich übergeben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بالا آوردن",
+          "en": "to throw up"
+        },
+        "id_ref": "verb_sich_uebergeben"
+      },
+      {
+        "wort": "der Magen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "معده",
+          "en": "stomach"
+        },
+        "id_ref": "nomen_magen"
+      },
+      {
+        "wort": "krank",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "ill"
+        },
+        "id_ref": "adjektiv_krank"
+      },
+      {
+        "wort": "brechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شکستن",
+          "en": "to break"
+        },
+        "id_ref": "verb_brechen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
