@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_ergehen",
+  "wort": "ergehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(es ergeht jemandem) حال و روز (کسی) بودن، بر (کسی) گذشتن",
+      "(رسمی) (حکم یا دستوری) صادر شدن",
+      "(sich ergehen in) زیاده‌روی کردن در (سخن)"
+    ],
+    "en": [
+      "(es ergeht jdm) to fare",
+      "(formal) to be issued (order, judgement)",
+      "(sich in etwas) to indulge in"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle",
+    "Recht"
+  ],
+  "ipa": "ɛɐ̯ˈɡeːən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wie ist es dir ergangen?",
+      "uebersetzung": {
+        "fa": "چه بر سرت آمد؟ (روزگارت چطور گذشت؟)",
+        "en": "How did you get on?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Gestern ist das Urteil ergangen, und der Angeklagte muss eine hohe Geldstrafe zahlen.",
+      "uebersetzung": {
+        "fa": "دیروز حکم صادر شد و متهم باید جریمه‌ی نقدی سنگینی بپردازد.",
+        "en": "Yesterday the judgement was issued, and the defendant has to pay a heavy fine."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gehen",
+      "uebersetzung": {
+        "fa": "(حال کسی) بودن",
+        "en": "to be (doing)"
+      }
+    },
+    {
+      "wort": "erlassen werden",
+      "uebersetzung": {
+        "fa": "صادر شدن",
+        "en": "to be issued"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (پیشوند (رسیدن به نتیجه)) + gehen (رفتن)",
+    "en": "er- (prefix (achieving a result)) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "es ergeht jemandem (+ Dat) gut/schlecht",
+        "bedeutung": "jemandem geht es in einer Lage gut/schlecht",
+        "beispiel": "Es ist ihm im Ausland nicht gut ergangen.",
+        "uebersetzung": {
+          "fa": "در خارج از کشور روزگار خوبی نداشت.",
+          "en": "He did not fare well abroad."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ergehen",
+      "praeteritum": "erging",
+      "partizip2": "ergangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ergehe",
+        "du": "ergehst",
+        "er_sie_es": "ergeht",
+        "wir": "ergehen",
+        "ihr": "ergeht",
+        "sie_Sie": "ergehen"
+      },
+      "praeteritum": {
+        "ich": "erging",
+        "du": "ergingst",
+        "er_sie_es": "erging",
+        "wir": "ergingen",
+        "ihr": "ergingt",
+        "sie_Sie": "ergingen"
+      },
+      "konjunktiv1": {
+        "ich": "ergehe",
+        "du": "ergehest",
+        "er_sie_es": "ergehe",
+        "wir": "ergehen",
+        "ihr": "ergehet",
+        "sie_Sie": "ergehen"
+      },
+      "konjunktiv2": {
+        "ich": "erginge",
+        "du": "ergingest",
+        "er_sie_es": "erginge",
+        "wir": "ergingen",
+        "ihr": "erginget",
+        "sie_Sie": "ergingen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "ergehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "das Urteil",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حکم",
+          "en": "judgement"
+        },
+        "id_ref": "nomen_urteil"
+      },
+      {
+        "wort": "erleben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تجربه کردن",
+          "en": "to experience"
+        },
+        "id_ref": "verb_erleben"
+      },
+      {
+        "wort": "das Schicksal",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سرنوشت",
+          "en": "fate"
+        },
+        "id_ref": "nomen_schicksal"
+      },
+      {
+        "wort": "erlassen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "صادر کردن",
+          "en": "to issue"
+        },
+        "id_ref": "verb_erlassen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

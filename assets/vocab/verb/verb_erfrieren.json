@@ -1,0 +1,168 @@
+{
+  "schema": "3.0",
+  "id": "verb_erfrieren",
+  "wort": "erfrieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "از سرما یخ زدن و مردن",
+      "(اندام یا گیاه) از سرما آسیب دیدن، سرمازده شدن"
+    ],
+    "en": [
+      "to freeze to death",
+      "to be frostbitten, to be killed by frost"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Wetter",
+    "Gesundheit",
+    "Natur"
+  ],
+  "ipa": "ɛɐ̯ˈfʁiːʁən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Blumen sind erfroren.",
+      "uebersetzung": {
+        "fa": "گل‌ها از سرما خشک شدند.",
+        "en": "The flowers were killed by the frost."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In der kalten Nacht ist ein Obdachloser erfroren, weil alle Notunterkünfte voll waren.",
+      "uebersetzung": {
+        "fa": "در آن شب سرد یک بی‌خانمان از سرما جان باخت، چون همه‌ی سرپناه‌های اضطراری پر بودند.",
+        "en": "On that cold night a homeless man froze to death because all the emergency shelters were full."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erstarren",
+      "uebersetzung": {
+        "fa": "از سرما خشک شدن",
+        "en": "to stiffen"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (پیشوند (رسیدن به نتیجه)) + frieren (سردش شدن، یخ زدن)",
+    "en": "er- (prefix (achieving a result)) + frieren (to freeze)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "erfrieren",
+      "praeteritum": "erfror",
+      "partizip2": "erfroren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erfriere",
+        "du": "erfrierst",
+        "er_sie_es": "erfriert",
+        "wir": "erfrieren",
+        "ihr": "erfriert",
+        "sie_Sie": "erfrieren"
+      },
+      "praeteritum": {
+        "ich": "erfror",
+        "du": "erfrorst",
+        "er_sie_es": "erfror",
+        "wir": "erfroren",
+        "ihr": "erfrort",
+        "sie_Sie": "erfroren"
+      },
+      "konjunktiv1": {
+        "ich": "erfriere",
+        "du": "erfrierest",
+        "er_sie_es": "erfriere",
+        "wir": "erfrieren",
+        "ihr": "erfrieret",
+        "sie_Sie": "erfrieren"
+      },
+      "konjunktiv2": {
+        "ich": "erfröre",
+        "du": "erfrörest",
+        "er_sie_es": "erfröre",
+        "wir": "erfrören",
+        "ihr": "erfröret",
+        "sie_Sie": "erfrören"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "erfrierend",
+    "nominalisierung": "die Erfrierung"
+  },
+  "wortnetz": {
+    "grundwort": "frieren",
+    "woerter": [
+      {
+        "wort": "frieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سردش شدن",
+          "en": "to be cold"
+        },
+        "id_ref": "verb_frieren"
+      },
+      {
+        "wort": "die Kälte",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرما",
+          "en": "cold"
+        },
+        "id_ref": "nomen_kaelte"
+      },
+      {
+        "wort": "die Erfrierung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سرمازدگی",
+          "en": "frostbite"
+        },
+        "id_ref": "nomen_erfrierung"
+      },
+      {
+        "wort": "kalt",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سرد",
+          "en": "cold"
+        },
+        "id_ref": "adjektiv_kalt"
+      },
+      {
+        "wort": "der Frost",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "یخبندان",
+          "en": "frost"
+        },
+        "id_ref": "nomen_frost"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

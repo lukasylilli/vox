@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_ergiessen",
+  "wort": "ergießen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(sich ergießen) (مایع) سرازیر شدن، جاری شدن",
+      "(ادبی) (سیلی از کلمات و مانند آن) فرو ریختن"
+    ],
+    "en": [
+      "(sich) to pour out, to flow (into)",
+      "(literary) to pour forth"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Literatur"
+  ],
+  "ipa": "ɛɐ̯ˈɡiːsn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Regen ergießt sich über die Stadt.",
+      "uebersetzung": {
+        "fa": "باران بر شهر فرو می‌ریزد.",
+        "en": "The rain pours down over the town."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Dammbruch ergossen sich riesige Wassermassen in das Tal und zerstörten mehrere Dörfer.",
+      "uebersetzung": {
+        "fa": "پس از شکستن سد، حجم عظیمی از آب به دره سرازیر شد و چند روستا را ویران کرد.",
+        "en": "After the dam burst, huge masses of water poured into the valley and destroyed several villages."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "strömen",
+      "uebersetzung": {
+        "fa": "جاری شدن",
+        "en": "to stream"
+      }
+    },
+    {
+      "wort": "fließen",
+      "uebersetzung": {
+        "fa": "جاری شدن",
+        "en": "to flow"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (پیشوند (رسیدن به نتیجه)) + gießen (ریختن (مایع))",
+    "en": "er- (prefix (achieving a result)) + gießen (to pour)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich in + Akk / über + Akk ergießen",
+        "bedeutung": "in großer Menge irgendwohin fließen",
+        "beispiel": "Der Fluss ergießt sich in den See.",
+        "uebersetzung": {
+          "fa": "رودخانه به دریاچه می‌ریزد.",
+          "en": "The river flows into the lake."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ergießen",
+      "praeteritum": "ergoss",
+      "partizip2": "ergossen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ergieße",
+        "du": "ergießt",
+        "er_sie_es": "ergießt",
+        "wir": "ergießen",
+        "ihr": "ergießt",
+        "sie_Sie": "ergießen"
+      },
+      "praeteritum": {
+        "ich": "ergoss",
+        "du": "ergossest",
+        "er_sie_es": "ergoss",
+        "wir": "ergossen",
+        "ihr": "ergosst",
+        "sie_Sie": "ergossen"
+      },
+      "konjunktiv1": {
+        "ich": "ergieße",
+        "du": "ergießest",
+        "er_sie_es": "ergieße",
+        "wir": "ergießen",
+        "ihr": "ergießet",
+        "sie_Sie": "ergießen"
+      },
+      "konjunktiv2": {
+        "ich": "ergösse",
+        "du": "ergössest",
+        "er_sie_es": "ergösse",
+        "wir": "ergössen",
+        "ihr": "ergösset",
+        "sie_Sie": "ergössen"
+      },
+      "imperativ": {
+        "du": "Ergieß!",
+        "ihr": "Ergießt!",
+        "Sie": "Ergießen Sie!"
+      }
+    },
+    "partizip1": "ergießend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gießen",
+    "woerter": [
+      {
+        "wort": "gießen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریختن (مایع)",
+          "en": "to pour"
+        },
+        "id_ref": "verb_giessen"
+      },
+      {
+        "wort": "fließen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جاری شدن",
+          "en": "to flow"
+        },
+        "id_ref": "verb_fliessen"
+      },
+      {
+        "wort": "strömen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جاری شدن",
+          "en": "to stream"
+        },
+        "id_ref": "verb_stroemen"
+      },
+      {
+        "wort": "der Fluss",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رودخانه",
+          "en": "river"
+        },
+        "id_ref": "nomen_fluss"
+      },
+      {
+        "wort": "der Guss",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ریزش، رگبار",
+          "en": "downpour"
+        },
+        "id_ref": "nomen_guss"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

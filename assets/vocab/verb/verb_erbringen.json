@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_erbringen",
+  "wort": "erbringen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(کار، خدمت یا نتیجه‌ای را) ارائه کردن، به انجام رساندن",
+      "(مدرک یا اثباتی را) ارائه دادن"
+    ],
+    "en": [
+      "to provide, to deliver, to achieve",
+      "to furnish (proof)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit",
+    "Recht",
+    "Wirtschaft"
+  ],
+  "ipa": "ɛɐ̯ˈbʁɪŋən",
+  "anmerkung": "Gemischtes Verb: erbrachte, erbracht.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er erbringt gute Leistungen.",
+      "uebersetzung": {
+        "fa": "او عملکرد خوبی دارد.",
+        "en": "He performs well."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Pflegekräfte erbringen täglich Leistungen, die in der Öffentlichkeit oft kaum gesehen werden.",
+      "uebersetzung": {
+        "fa": "پرستاران هر روز خدماتی ارائه می‌کنند که اغلب در جامعه به‌سختی دیده می‌شود.",
+        "en": "Nursing staff provide services every day that are often barely noticed by the public."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "leisten",
+      "uebersetzung": {
+        "fa": "انجام دادن، ارائه کردن",
+        "en": "to perform"
+      }
+    },
+    {
+      "wort": "liefern",
+      "uebersetzung": {
+        "fa": "ارائه دادن",
+        "en": "to deliver"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (پیشوند (رسیدن به نتیجه)) + bringen (آوردن)",
+    "en": "er- (prefix (achieving a result)) + bringen (to bring)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "erbringen",
+      "praeteritum": "erbrachte",
+      "partizip2": "erbracht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erbringe",
+        "du": "erbringst",
+        "er_sie_es": "erbringt",
+        "wir": "erbringen",
+        "ihr": "erbringt",
+        "sie_Sie": "erbringen"
+      },
+      "praeteritum": {
+        "ich": "erbrachte",
+        "du": "erbrachtest",
+        "er_sie_es": "erbrachte",
+        "wir": "erbrachten",
+        "ihr": "erbrachtet",
+        "sie_Sie": "erbrachten"
+      },
+      "konjunktiv1": {
+        "ich": "erbringe",
+        "du": "erbringest",
+        "er_sie_es": "erbringe",
+        "wir": "erbringen",
+        "ihr": "erbringet",
+        "sie_Sie": "erbringen"
+      },
+      "konjunktiv2": {
+        "ich": "erbrächte",
+        "du": "erbrächtest",
+        "er_sie_es": "erbrächte",
+        "wir": "erbrächten",
+        "ihr": "erbrächtet",
+        "sie_Sie": "erbrächten"
+      },
+      "imperativ": {
+        "du": "Erbring!",
+        "ihr": "Erbringt!",
+        "Sie": "Erbringen Sie!"
+      }
+    },
+    "partizip1": "erbringend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bringen",
+    "woerter": [
+      {
+        "wort": "bringen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آوردن",
+          "en": "to bring"
+        },
+        "id_ref": "verb_bringen"
+      },
+      {
+        "wort": "die Leistung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عملکرد، خدمت",
+          "en": "performance, service"
+        },
+        "id_ref": "nomen_leistung"
+      },
+      {
+        "wort": "leisten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انجام دادن",
+          "en": "to achieve"
+        },
+        "id_ref": "verb_leisten"
+      },
+      {
+        "wort": "der Beweis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مدرک، اثبات",
+          "en": "proof"
+        },
+        "id_ref": "nomen_beweis"
+      },
+      {
+        "wort": "das Ergebnis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نتیجه",
+          "en": "result"
+        },
+        "id_ref": "nomen_ergebnis"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_erfragen",
+  "wort": "erfragen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(اطلاعاتی را) با پرسیدن به دست آوردن، استعلام کردن"
+    ],
+    "en": [
+      "to ask for, to inquire about, to ascertain by asking"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kommunikation",
+    "Behörde"
+  ],
+  "ipa": "ɛɐ̯ˈfʁaːɡn̩",
+  "anmerkung": "In der Verbliste unter den unregelmäßigen Verben; konjugiert regelmäßig (erfragte, erfragt) wie fragen.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Preise können Sie telefonisch erfragen.",
+      "uebersetzung": {
+        "fa": "قیمت‌ها را می‌توانید تلفنی بپرسید.",
+        "en": "You can ask about the prices by phone."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor die Behandlung beginnt, erfragt die Ärztin genau, welche Medikamente der Patient einnimmt.",
+      "uebersetzung": {
+        "fa": "پیش از شروع درمان، پزشک دقیقاً می‌پرسد که بیمار چه داروهایی مصرف می‌کند.",
+        "en": "Before treatment begins, the doctor asks exactly which medicines the patient is taking."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nachfragen",
+      "uebersetzung": {
+        "fa": "جویا شدن",
+        "en": "to inquire"
+      }
+    },
+    {
+      "wort": "sich erkundigen",
+      "uebersetzung": {
+        "fa": "پرس‌وجو کردن",
+        "en": "to inquire"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (پیشوند (رسیدن به نتیجه)) + fragen (پرسیدن)",
+    "en": "er- (prefix (achieving a result)) + fragen (to ask)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "erfragen",
+      "praeteritum": "erfragte",
+      "partizip2": "erfragt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erfrage",
+        "du": "erfragst",
+        "er_sie_es": "erfragt",
+        "wir": "erfragen",
+        "ihr": "erfragt",
+        "sie_Sie": "erfragen"
+      },
+      "praeteritum": {
+        "ich": "erfragte",
+        "du": "erfragtest",
+        "er_sie_es": "erfragte",
+        "wir": "erfragten",
+        "ihr": "erfragtet",
+        "sie_Sie": "erfragten"
+      },
+      "konjunktiv1": {
+        "ich": "erfrage",
+        "du": "erfragest",
+        "er_sie_es": "erfrage",
+        "wir": "erfragen",
+        "ihr": "erfraget",
+        "sie_Sie": "erfragen"
+      },
+      "konjunktiv2": {
+        "ich": "erfragte",
+        "du": "erfragtest",
+        "er_sie_es": "erfragte",
+        "wir": "erfragten",
+        "ihr": "erfragtet",
+        "sie_Sie": "erfragten"
+      },
+      "imperativ": {
+        "du": "Erfrag!",
+        "ihr": "Erfragt!",
+        "Sie": "Erfragen Sie!"
+      }
+    },
+    "partizip1": "erfragend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fragen",
+    "woerter": [
+      {
+        "wort": "fragen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرسیدن",
+          "en": "to ask"
+        },
+        "id_ref": "verb_fragen"
+      },
+      {
+        "wort": "die Frage",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سؤال",
+          "en": "question"
+        },
+        "id_ref": "nomen_frage"
+      },
+      {
+        "wort": "sich erkundigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پرس‌وجو کردن",
+          "en": "to inquire"
+        },
+        "id_ref": "verb_sich_erkundigen"
+      },
+      {
+        "wort": "die Auskunft",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اطلاعات (پاسخ)",
+          "en": "information"
+        },
+        "id_ref": "nomen_auskunft"
+      },
+      {
+        "wort": "nachfragen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جویا شدن",
+          "en": "to inquire"
+        },
+        "id_ref": "verb_nachfragen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

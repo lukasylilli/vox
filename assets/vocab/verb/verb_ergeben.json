@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_ergeben",
+  "wort": "ergeben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(به عنوان نتیجه) به دست دادن، نشان دادن",
+      "(sich ergeben) نتیجه شدن، پیش آمدن؛ تسلیم شدن"
+    ],
+    "en": [
+      "to yield, to result in, to show",
+      "(sich) to arise, to result; to surrender"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Wissenschaft",
+    "Mathematik",
+    "Militär"
+  ],
+  "ipa": "ɛɐ̯ˈɡeːbn̩",
+  "anmerkung": "Das Partizip «ergeben» (= treu, demütig) ist auch ein eigenes Adjektiv.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Drei mal drei ergibt neun.",
+      "uebersetzung": {
+        "fa": "سه ضرب در سه می‌شود نه.",
+        "en": "Three times three makes nine."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Untersuchung hat ergeben, dass der Patient keine Allergie hat, sondern eine Infektion.",
+      "uebersetzung": {
+        "fa": "معاینه نشان داد که بیمار حساسیت ندارد، بلکه عفونت دارد.",
+        "en": "The examination showed that the patient does not have an allergy but an infection."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zeigen",
+      "uebersetzung": {
+        "fa": "نشان دادن",
+        "en": "to show"
+      }
+    },
+    {
+      "wort": "kapitulieren",
+      "uebersetzung": {
+        "fa": "تسلیم شدن",
+        "en": "to capitulate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (پیشوند (رسیدن به نتیجه)) + geben (دادن)",
+    "en": "er- (prefix (achieving a result)) + geben (to give)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich aus + Dat ergeben",
+        "bedeutung": "die Folge von etwas sein",
+        "beispiel": "Aus dieser Situation ergeben sich neue Möglichkeiten.",
+        "uebersetzung": {
+          "fa": "از این وضعیت امکانات تازه‌ای پدید می‌آید.",
+          "en": "New opportunities arise from this situation."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ergeben",
+      "praeteritum": "ergab",
+      "partizip2": "ergeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ergebe",
+        "du": "ergibst",
+        "er_sie_es": "ergibt",
+        "wir": "ergeben",
+        "ihr": "ergebt",
+        "sie_Sie": "ergeben"
+      },
+      "praeteritum": {
+        "ich": "ergab",
+        "du": "ergabst",
+        "er_sie_es": "ergab",
+        "wir": "ergaben",
+        "ihr": "ergabt",
+        "sie_Sie": "ergaben"
+      },
+      "konjunktiv1": {
+        "ich": "ergebe",
+        "du": "ergebest",
+        "er_sie_es": "ergebe",
+        "wir": "ergeben",
+        "ihr": "ergebet",
+        "sie_Sie": "ergeben"
+      },
+      "konjunktiv2": {
+        "ich": "ergäbe",
+        "du": "ergäbest",
+        "er_sie_es": "ergäbe",
+        "wir": "ergäben",
+        "ihr": "ergäbet",
+        "sie_Sie": "ergäben"
+      },
+      "imperativ": {
+        "du": "Ergib!",
+        "ihr": "Ergebt!",
+        "Sie": "Ergeben Sie!"
+      }
+    },
+    "partizip1": "ergebend",
+    "nominalisierung": "das Ergebnis"
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "das Ergebnis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نتیجه",
+          "en": "result"
+        },
+        "id_ref": "nomen_ergebnis"
+      },
+      {
+        "wort": "die Folge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیامد",
+          "en": "consequence"
+        },
+        "id_ref": "nomen_folge"
+      },
+      {
+        "wort": "sich ergeben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تسلیم شدن؛ پیش آمدن",
+          "en": "to surrender; to arise"
+        },
+        "id_ref": "verb_sich_ergeben"
+      },
+      {
+        "wort": "zeigen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نشان دادن",
+          "en": "to show"
+        },
+        "id_ref": "verb_zeigen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
