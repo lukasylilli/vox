@@ -1,0 +1,204 @@
+{
+  "schema": "3.0",
+  "id": "verb_aufhalten",
+  "wort": "aufhalten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "معطل کردن، نگه داشتن",
+      "باز نگه داشتن (در)",
+      "اقامت داشتن، ماندن (sich)"
+    ],
+    "en": [
+      "to hold up",
+      "to stop",
+      "to hold open",
+      "to stay (sich)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Reisen"
+  ],
+  "ipa": "ˈaʊ̯fˌhaltn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich will dich nicht lange aufhalten.",
+      "uebersetzung": {
+        "fa": "نمی‌خواهم زیاد معطلت کنم.",
+        "en": "I don't want to hold you up for long."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wie lange haben Sie sich in Deutschland aufgehalten, bevor Sie nach Österreich gezogen sind?",
+      "uebersetzung": {
+        "fa": "قبل از این‌که به اتریش بیایید، چه مدت در آلمان اقامت داشتید؟",
+        "en": "How long did you stay in Germany before you moved to Austria?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verzögern",
+      "uebersetzung": {
+        "fa": "به تأخیر انداختن",
+        "en": "to delay"
+      }
+    },
+    {
+      "wort": "bleiben",
+      "uebersetzung": {
+        "fa": "ماندن",
+        "en": "to stay"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "beschleunigen",
+      "uebersetzung": {
+        "fa": "سرعت دادن",
+        "en": "to speed up"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auf- (پیشوند) + halten (نگه داشتن)",
+    "en": "auf- (prefix) + halten (to hold)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "jemanden/etwas aufhalten",
+        "bedeutung": "jemanden/etwas stoppen oder verzögern — mit Akkusativ",
+        "beispiel": "Der Stau hat uns eine Stunde aufgehalten.",
+        "uebersetzung": {
+          "fa": "ترافیک یک ساعت ما را معطل کرد.",
+          "en": "The traffic jam held us up for an hour."
+        }
+      },
+      {
+        "muster": "sich mit etwas aufhalten (mit + Dat)",
+        "bedeutung": "zu viel Zeit für etwas verwenden",
+        "beispiel": "Wir sollten uns nicht mit Kleinigkeiten aufhalten.",
+        "uebersetzung": {
+          "fa": "نباید وقتمان را صرف جزئیات کنیم.",
+          "en": "We shouldn't waste time on trivial details."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "aufhalten",
+      "praeteritum": "hielt auf",
+      "partizip2": "aufgehalten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "halte auf",
+        "du": "hältst auf",
+        "er_sie_es": "hält auf",
+        "wir": "halten auf",
+        "ihr": "haltet auf",
+        "sie_Sie": "halten auf"
+      },
+      "praeteritum": {
+        "ich": "hielt auf",
+        "du": "hieltest auf",
+        "er_sie_es": "hielt auf",
+        "wir": "hielten auf",
+        "ihr": "hieltet auf",
+        "sie_Sie": "hielten auf"
+      },
+      "konjunktiv1": {
+        "ich": "halte auf",
+        "du": "haltest auf",
+        "er_sie_es": "halte auf",
+        "wir": "halten auf",
+        "ihr": "haltet auf",
+        "sie_Sie": "halten auf"
+      },
+      "konjunktiv2": {
+        "ich": "hielte auf",
+        "du": "hieltest auf",
+        "er_sie_es": "hielte auf",
+        "wir": "hielten auf",
+        "ihr": "hieltet auf",
+        "sie_Sie": "hielten auf"
+      },
+      "imperativ": {
+        "du": "Halt auf!",
+        "ihr": "Haltet auf!",
+        "Sie": "Halten Sie auf!"
+      }
+    },
+    "partizip1": "aufhaltend",
+    "nominalisierung": "der Aufenthalt"
+  },
+  "wortnetz": {
+    "grundwort": "halten",
+    "woerter": [
+      {
+        "wort": "halten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to hold"
+        },
+        "id_ref": "verb_halten"
+      },
+      {
+        "wort": "bleiben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ماندن",
+          "en": "to stay"
+        },
+        "id_ref": "verb_bleiben"
+      },
+      {
+        "wort": "der Aufenthalt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اقامت",
+          "en": "stay"
+        },
+        "id_ref": "nomen_aufenthalt"
+      },
+      {
+        "wort": "stoppen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "متوقف کردن",
+          "en": "to stop"
+        },
+        "id_ref": "verb_stoppen"
+      },
+      {
+        "wort": "verzögern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به تأخیر انداختن",
+          "en": "to delay"
+        },
+        "id_ref": "verb_verzoegern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,211 @@
+{
+  "schema": "3.0",
+  "id": "verb_aufheben",
+  "wort": "aufheben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "از زمین برداشتن",
+      "نگه داشتن، حفظ کردن",
+      "لغو کردن"
+    ],
+    "en": [
+      "to pick up",
+      "to keep",
+      "to abolish",
+      "to lift"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Recht"
+  ],
+  "ipa": "ˈaʊ̯fˌheːbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte heb das Papier vom Boden auf!",
+      "uebersetzung": {
+        "fa": "لطفاً کاغذ را از روی زمین بردار!",
+        "en": "Please pick the paper up off the floor!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich habe alle Briefe aufgehoben, die mir meine Großmutter geschrieben hat.",
+      "uebersetzung": {
+        "fa": "همه‌ی نامه‌هایی را که مادربزرگم برایم نوشته، نگه داشته‌ام.",
+        "en": "I have kept all the letters my grandmother wrote to me."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufbewahren",
+      "uebersetzung": {
+        "fa": "نگه داشتن",
+        "en": "to keep"
+      }
+    },
+    {
+      "wort": "abschaffen",
+      "uebersetzung": {
+        "fa": "لغو کردن",
+        "en": "to abolish"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "fallen lassen",
+      "uebersetzung": {
+        "fa": "انداختن",
+        "en": "to drop"
+      }
+    },
+    {
+      "wort": "wegwerfen",
+      "uebersetzung": {
+        "fa": "دور انداختن",
+        "en": "to throw away"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auf- (پیشوند: بالا) + heben (بلند کردن)",
+    "en": "auf- (prefix: up) + heben (to lift)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas aufheben",
+        "bedeutung": "etwas vom Boden nehmen / aufbewahren — mit Akkusativ",
+        "beispiel": "Sie hob den Schlüssel auf.",
+        "uebersetzung": {
+          "fa": "او کلید را از زمین برداشت.",
+          "en": "She picked up the key."
+        }
+      },
+      {
+        "muster": "etwas für jemanden aufheben (für + Akk)",
+        "bedeutung": "etwas für jemanden aufbewahren",
+        "beispiel": "Ich hebe dir ein Stück Kuchen auf.",
+        "uebersetzung": {
+          "fa": "یک تکه کیک برایت نگه می‌دارم.",
+          "en": "I'll save you a piece of cake."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "aufheben",
+      "praeteritum": "hob auf",
+      "partizip2": "aufgehoben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "hebe auf",
+        "du": "hebst auf",
+        "er_sie_es": "hebt auf",
+        "wir": "heben auf",
+        "ihr": "hebt auf",
+        "sie_Sie": "heben auf"
+      },
+      "praeteritum": {
+        "ich": "hob auf",
+        "du": "hobst auf",
+        "er_sie_es": "hob auf",
+        "wir": "hoben auf",
+        "ihr": "hobt auf",
+        "sie_Sie": "hoben auf"
+      },
+      "konjunktiv1": {
+        "ich": "hebe auf",
+        "du": "hebest auf",
+        "er_sie_es": "hebe auf",
+        "wir": "heben auf",
+        "ihr": "hebet auf",
+        "sie_Sie": "heben auf"
+      },
+      "konjunktiv2": {
+        "ich": "höbe auf",
+        "du": "höbest auf",
+        "er_sie_es": "höbe auf",
+        "wir": "höben auf",
+        "ihr": "höbet auf",
+        "sie_Sie": "höben auf"
+      },
+      "imperativ": {
+        "du": "Heb auf!",
+        "ihr": "Hebt auf!",
+        "Sie": "Heben Sie auf!"
+      }
+    },
+    "partizip1": "aufhebend",
+    "nominalisierung": "die Aufhebung"
+  },
+  "wortnetz": {
+    "grundwort": "heben",
+    "woerter": [
+      {
+        "wort": "heben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بلند کردن",
+          "en": "to lift"
+        },
+        "id_ref": "verb_heben"
+      },
+      {
+        "wort": "aufbewahren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to keep"
+        },
+        "id_ref": "verb_aufbewahren"
+      },
+      {
+        "wort": "der Boden",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زمین، کف",
+          "en": "floor"
+        },
+        "id_ref": "nomen_boden"
+      },
+      {
+        "wort": "wegwerfen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دور انداختن",
+          "en": "to throw away"
+        },
+        "id_ref": "verb_wegwerfen"
+      },
+      {
+        "wort": "abschaffen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لغو کردن",
+          "en": "to abolish"
+        },
+        "id_ref": "verb_abschaffen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

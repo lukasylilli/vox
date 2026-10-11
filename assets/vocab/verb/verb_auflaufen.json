@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_auflaufen",
+  "wort": "auflaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به گل نشستن (کشتی)",
+      "انباشته شدن (بدهی، سود)"
+    ],
+    "en": [
+      "to run aground",
+      "to accumulate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Schifffahrt",
+    "Geld"
+  ],
+  "ipa": "ˈaʊ̯fˌlaʊ̯fn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Schiff ist aufgelaufen.",
+      "uebersetzung": {
+        "fa": "کشتی به گل نشسته است.",
+        "en": "The ship has run aground."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil er die Rechnungen monatelang nicht bezahlt hatte, waren hohe Mahngebühren aufgelaufen.",
+      "uebersetzung": {
+        "fa": "چون ماه‌ها قبض‌ها را نپرداخته بود، جریمه‌ی دیرکرد زیادی جمع شده بود.",
+        "en": "Because he hadn't paid the bills for months, high reminder fees had built up."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich ansammeln",
+      "uebersetzung": {
+        "fa": "انباشته شدن",
+        "en": "to accumulate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auf- (پیشوند: روی) + laufen (دویدن، رفتن)",
+    "en": "auf- (prefix: onto) + laufen (to run)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf etwas auflaufen (auf + Akk)",
+        "bedeutung": "im Fahren/Laufen auf etwas stoßen",
+        "beispiel": "Das Boot lief auf eine Sandbank auf.",
+        "uebersetzung": {
+          "fa": "قایق روی یک تپه‌ی شنی به گل نشست.",
+          "en": "The boat ran aground on a sandbank."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "auflaufen",
+      "praeteritum": "lief auf",
+      "partizip2": "aufgelaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laufe auf",
+        "du": "läufst auf",
+        "er_sie_es": "läuft auf",
+        "wir": "laufen auf",
+        "ihr": "lauft auf",
+        "sie_Sie": "laufen auf"
+      },
+      "praeteritum": {
+        "ich": "lief auf",
+        "du": "liefst auf",
+        "er_sie_es": "lief auf",
+        "wir": "liefen auf",
+        "ihr": "lieft auf",
+        "sie_Sie": "liefen auf"
+      },
+      "konjunktiv1": {
+        "ich": "laufe auf",
+        "du": "laufest auf",
+        "er_sie_es": "laufe auf",
+        "wir": "laufen auf",
+        "ihr": "laufet auf",
+        "sie_Sie": "laufen auf"
+      },
+      "konjunktiv2": {
+        "ich": "liefe auf",
+        "du": "liefest auf",
+        "er_sie_es": "liefe auf",
+        "wir": "liefen auf",
+        "ihr": "liefet auf",
+        "sie_Sie": "liefen auf"
+      },
+      "imperativ": {
+        "du": "Lauf auf!",
+        "ihr": "Lauft auf!",
+        "Sie": "Laufen Sie auf!"
+      }
+    },
+    "partizip1": "auflaufend",
+    "nominalisierung": "der Auflauf"
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دویدن، راه رفتن",
+          "en": "to run, to walk"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "das Schiff",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کشتی",
+          "en": "ship"
+        },
+        "id_ref": "nomen_schiff"
+      },
+      {
+        "wort": "die Schulden",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بدهی",
+          "en": "debts"
+        },
+        "id_ref": "nomen_schulden"
+      },
+      {
+        "wort": "der Auflauf",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خوراک تنوری؛ ازدحام",
+          "en": "bake; crowd"
+        },
+        "id_ref": "nomen_auflauf"
+      },
+      {
+        "wort": "ansammeln",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "انباشته شدن",
+          "en": "to accumulate"
+        },
+        "id_ref": "verb_ansammeln"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

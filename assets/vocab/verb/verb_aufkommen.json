@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_aufkommen",
+  "wort": "aufkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پدید آمدن، به وجود آمدن (باد، شک)",
+      "پرداختن هزینه (für)"
+    ],
+    "en": [
+      "to arise",
+      "to come up",
+      "to pay (for)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Geld",
+    "Wetter"
+  ],
+  "ipa": "ˈaʊ̯fˌkɔmən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Am Abend kommt starker Wind auf.",
+      "uebersetzung": {
+        "fa": "عصر باد شدیدی می‌وزد.",
+        "en": "In the evening a strong wind gets up."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Versicherung kommt für den Schaden auf, weil der Unfall nicht deine Schuld war.",
+      "uebersetzung": {
+        "fa": "بیمه هزینه‌ی خسارت را می‌پردازد، چون تصادف تقصیر تو نبود.",
+        "en": "The insurance pays for the damage because the accident was not your fault."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "entstehen",
+      "uebersetzung": {
+        "fa": "به وجود آمدن",
+        "en": "to arise"
+      }
+    },
+    {
+      "wort": "bezahlen",
+      "uebersetzung": {
+        "fa": "پرداختن",
+        "en": "to pay"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auf- (پیشوند: بالا) + kommen (آمدن)",
+    "en": "auf- (prefix: up) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "für etwas/jemanden aufkommen (für + Akk)",
+        "bedeutung": "die Kosten tragen, haften",
+        "beispiel": "Die Eltern kommen für das Studium auf.",
+        "uebersetzung": {
+          "fa": "پدر و مادر هزینه‌ی تحصیل را می‌پردازند.",
+          "en": "The parents pay for the studies."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "aufkommen",
+      "praeteritum": "kam auf",
+      "partizip2": "aufgekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme auf",
+        "du": "kommst auf",
+        "er_sie_es": "kommt auf",
+        "wir": "kommen auf",
+        "ihr": "kommt auf",
+        "sie_Sie": "kommen auf"
+      },
+      "praeteritum": {
+        "ich": "kam auf",
+        "du": "kamst auf",
+        "er_sie_es": "kam auf",
+        "wir": "kamen auf",
+        "ihr": "kamt auf",
+        "sie_Sie": "kamen auf"
+      },
+      "konjunktiv1": {
+        "ich": "komme auf",
+        "du": "kommest auf",
+        "er_sie_es": "komme auf",
+        "wir": "kommen auf",
+        "ihr": "kommet auf",
+        "sie_Sie": "kommen auf"
+      },
+      "konjunktiv2": {
+        "ich": "käme auf",
+        "du": "kämest auf",
+        "er_sie_es": "käme auf",
+        "wir": "kämen auf",
+        "ihr": "kämet auf",
+        "sie_Sie": "kämen auf"
+      },
+      "imperativ": {
+        "du": "Komm auf!",
+        "ihr": "Kommt auf!",
+        "Sie": "Kommen Sie auf!"
+      }
+    },
+    "partizip1": "aufkommend",
+    "nominalisierung": "das Aufkommen"
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "bezahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_bezahlen"
+      },
+      {
+        "wort": "entstehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به وجود آمدن",
+          "en": "to arise"
+        },
+        "id_ref": "verb_entstehen"
+      },
+      {
+        "wort": "die Kosten",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "هزینه‌ها",
+          "en": "costs"
+        },
+        "id_ref": "nomen_kosten"
+      },
+      {
+        "wort": "die Versicherung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیمه",
+          "en": "insurance"
+        },
+        "id_ref": "nomen_versicherung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

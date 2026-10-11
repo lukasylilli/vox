@@ -1,0 +1,202 @@
+{
+  "schema": "3.0",
+  "id": "verb_aufladen",
+  "wort": "aufladen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شارژ کردن (باتری، کارت)",
+      "بار زدن"
+    ],
+    "en": [
+      "to charge",
+      "to top up",
+      "to load"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Technik",
+    "Transport"
+  ],
+  "ipa": "ˈaʊ̯fˌlaːdn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich muss mein Handy aufladen.",
+      "uebersetzung": {
+        "fa": "باید گوشی‌ام را شارژ کنم.",
+        "en": "I have to charge my phone."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nachdem wir alle Möbel auf den Lkw aufgeladen hatten, fuhren wir los.",
+      "uebersetzung": {
+        "fa": "بعد از این‌که همه‌ی وسایل را بار کامیون کردیم، راه افتادیم.",
+        "en": "After we had loaded all the furniture onto the lorry, we set off."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "laden",
+      "uebersetzung": {
+        "fa": "شارژ کردن، بار زدن",
+        "en": "to charge, to load"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "abladen",
+      "uebersetzung": {
+        "fa": "خالی کردن بار",
+        "en": "to unload"
+      }
+    },
+    {
+      "wort": "entladen",
+      "uebersetzung": {
+        "fa": "خالی کردن (بار، باتری)",
+        "en": "to discharge"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auf- (پیشوند: روی) + laden (بار کردن)",
+    "en": "auf- (prefix: onto) + laden (to load)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas aufladen",
+        "bedeutung": "etwas mit Energie/Guthaben füllen oder auf ein Fahrzeug laden — mit Akkusativ",
+        "beispiel": "Hast du die Fahrkarte schon aufgeladen?",
+        "uebersetzung": {
+          "fa": "کارت بلیت را شارژ کرده‌ای؟",
+          "en": "Have you topped up the travel card yet?"
+        }
+      },
+      {
+        "muster": "jemandem etwas aufladen",
+        "bedeutung": "jemandem eine Last/Arbeit übertragen — Dativ + Akkusativ",
+        "beispiel": "Der Chef hat mir noch mehr Arbeit aufgeladen.",
+        "uebersetzung": {
+          "fa": "رئیس باز هم کار بیشتری به گردنم انداخت.",
+          "en": "The boss has loaded even more work onto me."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "aufladen",
+      "praeteritum": "lud auf",
+      "partizip2": "aufgeladen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lade auf",
+        "du": "lädst auf",
+        "er_sie_es": "lädt auf",
+        "wir": "laden auf",
+        "ihr": "ladet auf",
+        "sie_Sie": "laden auf"
+      },
+      "praeteritum": {
+        "ich": "lud auf",
+        "du": "ludst auf",
+        "er_sie_es": "lud auf",
+        "wir": "luden auf",
+        "ihr": "ludet auf",
+        "sie_Sie": "luden auf"
+      },
+      "konjunktiv1": {
+        "ich": "lade auf",
+        "du": "ladest auf",
+        "er_sie_es": "lade auf",
+        "wir": "laden auf",
+        "ihr": "ladet auf",
+        "sie_Sie": "laden auf"
+      },
+      "konjunktiv2": {
+        "ich": "lüde auf",
+        "du": "lüdest auf",
+        "er_sie_es": "lüde auf",
+        "wir": "lüden auf",
+        "ihr": "lüdet auf",
+        "sie_Sie": "lüden auf"
+      },
+      "imperativ": {
+        "du": "Lade auf!",
+        "ihr": "Ladet auf!",
+        "Sie": "Laden Sie auf!"
+      }
+    },
+    "partizip1": "aufladend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laden",
+    "woerter": [
+      {
+        "wort": "das Handy",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تلفن همراه",
+          "en": "mobile phone"
+        },
+        "id_ref": "nomen_handy"
+      },
+      {
+        "wort": "der Akku",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "باتری (قابل شارژ)",
+          "en": "battery"
+        },
+        "id_ref": "nomen_akku"
+      },
+      {
+        "wort": "laden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شارژ کردن، بار زدن",
+          "en": "to charge, to load"
+        },
+        "id_ref": "verb_laden"
+      },
+      {
+        "wort": "abladen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خالی کردن بار",
+          "en": "to unload"
+        },
+        "id_ref": "verb_abladen"
+      },
+      {
+        "wort": "das Ladegerät",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شارژر",
+          "en": "charger"
+        },
+        "id_ref": "nomen_ladegeraet"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

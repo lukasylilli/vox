@@ -864,6 +864,12 @@ const zurueckgestellt = <String>{
   'aufdringen', // zurückgestellt (Regel 14): veraltet (heute nur «aufdrängen», «aufdringlich») 2026-10-11
   'aufgleiten', // zurückgestellt (Regel 14): selten, Bedeutung/Gebrauch nicht sicher belegt 2026-10-11
   'aufglimmen', // zurückgestellt (Regel 14/16): Stammformen schwanken (glomm/glimmte) ⇒ «regelmaessig» nicht sicher 2026-10-11
+  'aufhauen', // zurückgestellt (Regel 14/16): umgangssprachlich; Präteritum (haute/hieb) und Hilfsverb (haben/sein) je nach Bedeutung schwankend 2026-10-11
+  'aufkleiben', // zurückgestellt (Regel 14): veraltet/landschaftlich (heute «aufkleben»), Formen unsicher 2026-10-11
+  'aufklieben', // zurückgestellt (Regel 14): landschaftlich, Bedeutung/Formen nicht sicher belegt 2026-10-11
+  'aufklingen', // zurückgestellt (Regel 14): selten, gehoben 2026-10-11
+  'aufliegen', // zurückgestellt (Regel 16): Hilfsverb schwankt (haben; südd./österr./schweiz. sein) — wie abliegen 2026-10-11
+  'aufrechtbleiben', // zurückgestellt (Regel 14): Schreibung — nach heutiger Rechtschreibung meist getrennt «aufrecht bleiben» 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

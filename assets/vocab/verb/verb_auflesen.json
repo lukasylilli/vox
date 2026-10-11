@@ -1,0 +1,193 @@
+{
+  "schema": "3.0",
+  "id": "verb_auflesen",
+  "wort": "auflesen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "از زمین جمع کردن (یکی‌یکی)",
+      "با خود آوردن (کسی را، محاوره)"
+    ],
+    "en": [
+      "to pick up (from the ground)",
+      "to gather",
+      "to pick up (someone, colloq.)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag",
+    "Natur"
+  ],
+  "ipa": "ˈaʊ̯fˌleːzn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kinder lesen die Äpfel im Garten auf.",
+      "uebersetzung": {
+        "fa": "بچه‌ها سیب‌ها را در باغ از زمین جمع می‌کنند.",
+        "en": "The children pick up the apples in the garden."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wo hast du denn diesen Hund aufgelesen, der jetzt in unserer Küche sitzt?",
+      "uebersetzung": {
+        "fa": "این سگ را که حالا توی آشپزخانه‌مان نشسته، از کجا آورده‌ای؟",
+        "en": "Where on earth did you pick up this dog that is now sitting in our kitchen?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufheben",
+      "uebersetzung": {
+        "fa": "از زمین برداشتن",
+        "en": "to pick up"
+      }
+    },
+    {
+      "wort": "sammeln",
+      "uebersetzung": {
+        "fa": "جمع کردن",
+        "en": "to collect"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verstreuen",
+      "uebersetzung": {
+        "fa": "پخش کردن",
+        "en": "to scatter"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auf- (پیشوند: بالا) + lesen (چیدن، جمع کردن)",
+    "en": "auf- (prefix: up) + lesen (to gather)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas auflesen",
+        "bedeutung": "etwas einzeln vom Boden aufheben — mit Akkusativ",
+        "beispiel": "Sie las die Scherben vorsichtig auf.",
+        "uebersetzung": {
+          "fa": "او تکه‌شکسته‌ها را با احتیاط جمع کرد.",
+          "en": "She carefully picked up the broken pieces."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "auflesen",
+      "praeteritum": "las auf",
+      "partizip2": "aufgelesen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lese auf",
+        "du": "liest auf",
+        "er_sie_es": "liest auf",
+        "wir": "lesen auf",
+        "ihr": "lest auf",
+        "sie_Sie": "lesen auf"
+      },
+      "praeteritum": {
+        "ich": "las auf",
+        "du": "lasest auf",
+        "er_sie_es": "las auf",
+        "wir": "lasen auf",
+        "ihr": "last auf",
+        "sie_Sie": "lasen auf"
+      },
+      "konjunktiv1": {
+        "ich": "lese auf",
+        "du": "lesest auf",
+        "er_sie_es": "lese auf",
+        "wir": "lesen auf",
+        "ihr": "leset auf",
+        "sie_Sie": "lesen auf"
+      },
+      "konjunktiv2": {
+        "ich": "läse auf",
+        "du": "läsest auf",
+        "er_sie_es": "läse auf",
+        "wir": "läsen auf",
+        "ihr": "läset auf",
+        "sie_Sie": "läsen auf"
+      },
+      "imperativ": {
+        "du": "Lies auf!",
+        "ihr": "Lest auf!",
+        "Sie": "Lesen Sie auf!"
+      }
+    },
+    "partizip1": "auflesend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "lesen",
+    "woerter": [
+      {
+        "wort": "aufheben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "از زمین برداشتن",
+          "en": "to pick up"
+        },
+        "id_ref": "verb_aufheben"
+      },
+      {
+        "wort": "sammeln",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جمع کردن",
+          "en": "to collect"
+        },
+        "id_ref": "verb_sammeln"
+      },
+      {
+        "wort": "der Boden",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زمین، کف",
+          "en": "floor"
+        },
+        "id_ref": "nomen_boden"
+      },
+      {
+        "wort": "die Weinlese",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "انگورچینی",
+          "en": "grape harvest"
+        },
+        "id_ref": "nomen_weinlese"
+      },
+      {
+        "wort": "verstreuen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پخش کردن",
+          "en": "to scatter"
+        },
+        "id_ref": "verb_verstreuen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
