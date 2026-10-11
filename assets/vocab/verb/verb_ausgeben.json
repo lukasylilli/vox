@@ -1,0 +1,210 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausgeben",
+  "wort": "ausgeben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خرج کردن (پول)",
+      "پخش کردن، توزیع کردن",
+      "(sich als ... ausgeben) خود را جای کسی جا زدن"
+    ],
+    "en": [
+      "to spend",
+      "to hand out",
+      "to pass oneself off (as)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Geld",
+    "Einkaufen"
+  ],
+  "ipa": "ˈaʊ̯sˌɡeːbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich gebe viel Geld für Bücher aus.",
+      "uebersetzung": {
+        "fa": "پول زیادی خرج کتاب می‌کنم.",
+        "en": "I spend a lot of money on books."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Betrüger gab sich als Polizist aus, um in die Wohnung der alten Frau zu kommen.",
+      "uebersetzung": {
+        "fa": "کلاهبردار خود را پلیس جا زد تا وارد آپارتمان پیرزن شود.",
+        "en": "The fraudster passed himself off as a policeman to get into the old woman's flat."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bezahlen",
+      "uebersetzung": {
+        "fa": "پرداختن",
+        "en": "to pay"
+      }
+    },
+    {
+      "wort": "verteilen",
+      "uebersetzung": {
+        "fa": "پخش کردن",
+        "en": "to distribute"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sparen",
+      "uebersetzung": {
+        "fa": "پس‌انداز کردن",
+        "en": "to save"
+      }
+    },
+    {
+      "wort": "einnehmen",
+      "uebersetzung": {
+        "fa": "درآمد داشتن",
+        "en": "to take in"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند: بیرون) + geben (دادن)",
+    "en": "aus- (prefix: out) + geben (to give)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "Geld für etwas ausgeben (für + Akk)",
+        "bedeutung": "Geld für etwas bezahlen",
+        "beispiel": "Wie viel gibst du im Monat für Essen aus?",
+        "uebersetzung": {
+          "fa": "ماهی چقدر خرج غذا می‌کنی؟",
+          "en": "How much do you spend on food per month?"
+        }
+      },
+      {
+        "muster": "sich als jemand/etwas ausgeben (als + Nom)",
+        "bedeutung": "behaupten, jemand anderes zu sein",
+        "beispiel": "Er gab sich als Arzt aus.",
+        "uebersetzung": {
+          "fa": "خود را پزشک جا زد.",
+          "en": "He passed himself off as a doctor."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausgeben",
+      "praeteritum": "gab aus",
+      "partizip2": "ausgegeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gebe aus",
+        "du": "gibst aus",
+        "er_sie_es": "gibt aus",
+        "wir": "geben aus",
+        "ihr": "gebt aus",
+        "sie_Sie": "geben aus"
+      },
+      "praeteritum": {
+        "ich": "gab aus",
+        "du": "gabst aus",
+        "er_sie_es": "gab aus",
+        "wir": "gaben aus",
+        "ihr": "gabt aus",
+        "sie_Sie": "gaben aus"
+      },
+      "konjunktiv1": {
+        "ich": "gebe aus",
+        "du": "gebest aus",
+        "er_sie_es": "gebe aus",
+        "wir": "geben aus",
+        "ihr": "gebet aus",
+        "sie_Sie": "geben aus"
+      },
+      "konjunktiv2": {
+        "ich": "gäbe aus",
+        "du": "gäbest aus",
+        "er_sie_es": "gäbe aus",
+        "wir": "gäben aus",
+        "ihr": "gäbet aus",
+        "sie_Sie": "gäben aus"
+      },
+      "imperativ": {
+        "du": "Gib aus!",
+        "ihr": "Gebt aus!",
+        "Sie": "Geben Sie aus!"
+      }
+    },
+    "partizip1": "ausgebend",
+    "nominalisierung": "die Ausgabe"
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "das Geld",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پول",
+          "en": "money"
+        },
+        "id_ref": "nomen_geld"
+      },
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "sparen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پس‌انداز کردن",
+          "en": "to save"
+        },
+        "id_ref": "verb_sparen"
+      },
+      {
+        "wort": "die Ausgabe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "هزینه؛ نسخه، شماره",
+          "en": "expense; edition"
+        },
+        "id_ref": "nomen_ausgabe"
+      },
+      {
+        "wort": "teuer",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گران",
+          "en": "expensive"
+        },
+        "id_ref": "adjektiv_teuer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

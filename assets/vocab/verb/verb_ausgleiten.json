@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausgleiten",
+  "wort": "ausgleiten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "لیز خوردن"
+    ],
+    "en": [
+      "to slip"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag",
+    "Gesundheit"
+  ],
+  "ipa": "ˈaʊ̯sˌɡlaɪ̯tn̩",
+  "anmerkung": "gehoben; alltagssprachlich meist «ausrutschen»",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er gleitet auf dem Eis aus.",
+      "uebersetzung": {
+        "fa": "او روی یخ لیز می‌خورد.",
+        "en": "He slips on the ice."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie ist auf der nassen Treppe ausgeglitten und hat sich das Handgelenk verletzt.",
+      "uebersetzung": {
+        "fa": "روی پله‌های خیس لیز خورد و مچ دستش آسیب دید.",
+        "en": "She slipped on the wet stairs and injured her wrist."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausrutschen",
+      "uebersetzung": {
+        "fa": "لیز خوردن",
+        "en": "to slip"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند) + gleiten (سُر خوردن)",
+    "en": "aus- (prefix) + gleiten (to glide)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf etwas ausgleiten (auf + Dat)",
+        "bedeutung": "auf einer glatten Fläche den Halt verlieren",
+        "beispiel": "Der Mann glitt auf einer Bananenschale aus.",
+        "uebersetzung": {
+          "fa": "مرد روی پوست موز لیز خورد.",
+          "en": "The man slipped on a banana skin."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausgleiten",
+      "praeteritum": "glitt aus",
+      "partizip2": "ausgeglitten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gleite aus",
+        "du": "gleitest aus",
+        "er_sie_es": "gleitet aus",
+        "wir": "gleiten aus",
+        "ihr": "gleitet aus",
+        "sie_Sie": "gleiten aus"
+      },
+      "praeteritum": {
+        "ich": "glitt aus",
+        "du": "glittest aus",
+        "er_sie_es": "glitt aus",
+        "wir": "glitten aus",
+        "ihr": "glittet aus",
+        "sie_Sie": "glitten aus"
+      },
+      "konjunktiv1": {
+        "ich": "gleite aus",
+        "du": "gleitest aus",
+        "er_sie_es": "gleite aus",
+        "wir": "gleiten aus",
+        "ihr": "gleitet aus",
+        "sie_Sie": "gleiten aus"
+      },
+      "konjunktiv2": {
+        "ich": "glitte aus",
+        "du": "glittest aus",
+        "er_sie_es": "glitte aus",
+        "wir": "glitten aus",
+        "ihr": "glittet aus",
+        "sie_Sie": "glitten aus"
+      },
+      "imperativ": {
+        "du": "Gleite aus!",
+        "ihr": "Gleitet aus!",
+        "Sie": "Gleiten Sie aus!"
+      }
+    },
+    "partizip1": "ausgleitend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gleiten",
+    "woerter": [
+      {
+        "wort": "glatt",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لیز، صاف",
+          "en": "slippery, smooth"
+        },
+        "id_ref": "adjektiv_glatt"
+      },
+      {
+        "wort": "das Eis",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "یخ",
+          "en": "ice"
+        },
+        "id_ref": "nomen_eis"
+      },
+      {
+        "wort": "hinfallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زمین خوردن",
+          "en": "to fall down"
+        },
+        "id_ref": "verb_hinfallen"
+      },
+      {
+        "wort": "ausrutschen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لیز خوردن",
+          "en": "to slip"
+        },
+        "id_ref": "verb_ausrutschen"
+      },
+      {
+        "wort": "gleiten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سُر خوردن",
+          "en": "to glide"
+        },
+        "id_ref": "verb_gleiten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

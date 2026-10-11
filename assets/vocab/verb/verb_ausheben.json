@@ -1,0 +1,194 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausheben",
+  "wort": "ausheben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کندن (گودال، خندق)",
+      "از جا درآوردن (در، لولا)",
+      "متلاشی کردن (باند، مخفیگاه)"
+    ],
+    "en": [
+      "to dig (a trench)",
+      "to lift off (its hinges)",
+      "to bust (a gang)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Bauen",
+    "Polizei"
+  ],
+  "ipa": "ˈaʊ̯sˌheːbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Arbeiter heben ein Loch aus.",
+      "uebersetzung": {
+        "fa": "کارگرها یک گودال می‌کنند.",
+        "en": "The workers dig a hole."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Polizei hat einen Drogenring ausgehoben, nachdem sie die Bande monatelang beobachtet hatte.",
+      "uebersetzung": {
+        "fa": "پلیس یک شبکه‌ی مواد مخدر را متلاشی کرد، بعد از این‌که ماه‌ها آن باند را زیر نظر داشت.",
+        "en": "The police busted a drug ring after watching the gang for months."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "graben",
+      "uebersetzung": {
+        "fa": "کندن",
+        "en": "to dig"
+      }
+    },
+    {
+      "wort": "auffliegen lassen",
+      "uebersetzung": {
+        "fa": "لو دادن، متلاشی کردن",
+        "en": "to bust"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zuschütten",
+      "uebersetzung": {
+        "fa": "با خاک پر کردن",
+        "en": "to fill in"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند: بیرون) + heben (بلند کردن)",
+    "en": "aus- (prefix: out) + heben (to lift)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas ausheben",
+        "bedeutung": "etwas ausgraben / aus der Halterung heben / zerschlagen — mit Akkusativ",
+        "beispiel": "Wir müssen die Tür ausheben, sonst passt der Schrank nicht durch.",
+        "uebersetzung": {
+          "fa": "باید در را از لولا دربیاوریم، وگرنه کمد رد نمی‌شود.",
+          "en": "We have to lift the door off its hinges, otherwise the wardrobe won't fit through."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausheben",
+      "praeteritum": "hob aus",
+      "partizip2": "ausgehoben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "hebe aus",
+        "du": "hebst aus",
+        "er_sie_es": "hebt aus",
+        "wir": "heben aus",
+        "ihr": "hebt aus",
+        "sie_Sie": "heben aus"
+      },
+      "praeteritum": {
+        "ich": "hob aus",
+        "du": "hobst aus",
+        "er_sie_es": "hob aus",
+        "wir": "hoben aus",
+        "ihr": "hobt aus",
+        "sie_Sie": "hoben aus"
+      },
+      "konjunktiv1": {
+        "ich": "hebe aus",
+        "du": "hebest aus",
+        "er_sie_es": "hebe aus",
+        "wir": "heben aus",
+        "ihr": "hebet aus",
+        "sie_Sie": "heben aus"
+      },
+      "konjunktiv2": {
+        "ich": "höbe aus",
+        "du": "höbest aus",
+        "er_sie_es": "höbe aus",
+        "wir": "höben aus",
+        "ihr": "höbet aus",
+        "sie_Sie": "höben aus"
+      },
+      "imperativ": {
+        "du": "Heb aus!",
+        "ihr": "Hebt aus!",
+        "Sie": "Heben Sie aus!"
+      }
+    },
+    "partizip1": "aushebend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "heben",
+    "woerter": [
+      {
+        "wort": "das Loch",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گودال، سوراخ",
+          "en": "hole"
+        },
+        "id_ref": "nomen_loch"
+      },
+      {
+        "wort": "graben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کندن",
+          "en": "to dig"
+        },
+        "id_ref": "verb_graben"
+      },
+      {
+        "wort": "heben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بلند کردن",
+          "en": "to lift"
+        },
+        "id_ref": "verb_heben"
+      },
+      {
+        "wort": "die Polizei",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پلیس",
+          "en": "police"
+        },
+        "id_ref": "nomen_polizei"
+      },
+      {
+        "wort": "die Bande",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "باند، دار و دسته",
+          "en": "gang"
+        },
+        "id_ref": "nomen_bande"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

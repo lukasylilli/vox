@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausfressen",
+  "wort": "ausfressen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(etwas ausgefressen haben) کار خلافی کردن، دسته‌گل به آب دادن",
+      "تا ته خوردن (حیوان)"
+    ],
+    "en": [
+      "to be up to (mischief)",
+      "to eat up (animals)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag",
+    "Tiere"
+  ],
+  "ipa": "ˈaʊ̯sˌfʁɛsn̩",
+  "anmerkung": "umgangssprachlich; meist im Perfekt: «etwas ausgefressen haben»",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Katze frisst den Napf aus.",
+      "uebersetzung": {
+        "fa": "گربه کاسه‌اش را تا ته می‌خورد.",
+        "en": "The cat eats its bowl empty."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Er sieht so schuldbewusst aus, dass er bestimmt wieder etwas ausgefressen hat.",
+      "uebersetzung": {
+        "fa": "آن‌قدر گناهکار به نظر می‌رسد که حتماً باز دسته‌گلی به آب داده است.",
+        "en": "He looks so guilty that he has surely been up to something again."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anstellen",
+      "uebersetzung": {
+        "fa": "دسته‌گل به آب دادن",
+        "en": "to get up to"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند: تا آخر) + fressen (خوردن حیوان)",
+    "en": "aus- (prefix: completely) + fressen (to eat, of animals)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas ausfressen",
+        "bedeutung": "etwas Verbotenes tun (ugs.) — mit Akkusativ",
+        "beispiel": "Was habt ihr denn schon wieder ausgefressen?",
+        "uebersetzung": {
+          "fa": "باز چه دسته‌گلی به آب داده‌اید؟",
+          "en": "What have you been up to this time?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausfressen",
+      "praeteritum": "fraß aus",
+      "partizip2": "ausgefressen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fresse aus",
+        "du": "frisst aus",
+        "er_sie_es": "frisst aus",
+        "wir": "fressen aus",
+        "ihr": "fresst aus",
+        "sie_Sie": "fressen aus"
+      },
+      "praeteritum": {
+        "ich": "fraß aus",
+        "du": "fraßest aus",
+        "er_sie_es": "fraß aus",
+        "wir": "fraßen aus",
+        "ihr": "fraßt aus",
+        "sie_Sie": "fraßen aus"
+      },
+      "konjunktiv1": {
+        "ich": "fresse aus",
+        "du": "fressest aus",
+        "er_sie_es": "fresse aus",
+        "wir": "fressen aus",
+        "ihr": "fresset aus",
+        "sie_Sie": "fressen aus"
+      },
+      "konjunktiv2": {
+        "ich": "fräße aus",
+        "du": "fräßest aus",
+        "er_sie_es": "fräße aus",
+        "wir": "fräßen aus",
+        "ihr": "fräßet aus",
+        "sie_Sie": "fräßen aus"
+      },
+      "imperativ": {
+        "du": "Friss aus!",
+        "ihr": "Fresst aus!",
+        "Sie": "Fressen Sie aus!"
+      }
+    },
+    "partizip1": "ausfressend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fressen",
+    "woerter": [
+      {
+        "wort": "das Tier",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حیوان",
+          "en": "animal"
+        },
+        "id_ref": "nomen_tier"
+      },
+      {
+        "wort": "fressen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خوردن (حیوان)",
+          "en": "to eat (animals)"
+        },
+        "id_ref": "verb_fressen"
+      },
+      {
+        "wort": "anstellen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دسته‌گل به آب دادن",
+          "en": "to get up to"
+        },
+        "id_ref": "verb_anstellen"
+      },
+      {
+        "wort": "schuldig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مقصر",
+          "en": "guilty"
+        },
+        "id_ref": "adjektiv_schuldig"
+      },
+      {
+        "wort": "auffressen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کامل خوردن",
+          "en": "to eat up"
+        },
+        "id_ref": "verb_auffressen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

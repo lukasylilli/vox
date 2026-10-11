@@ -879,6 +879,13 @@ const zurueckgestellt = <String>{
   'auseinanderbersten', // zurückgestellt (Regel 14): selten, gehoben 2026-10-11
   'auserkiesen', // zurückgestellt (Regel 14): veraltet/gehoben (erkor aus, auserkoren), heute fast nur Partizip «auserkoren» 2026-10-11
   'ausfinden', // zurückgestellt (Regel 14): selten/landschaftlich («sich ausfinden»), Gebrauch unsicher 2026-10-11
+  'ausfrieren', // zurückgestellt (Regel 14/16): Bedeutung und Hilfsverb schwankend (durchfrieren ist / ausfrieren lassen hat) 2026-10-11
+  'ausgären', // zurückgestellt (Regel 14/16): Formen schwanken (gor/gärte aus) 2026-10-11
+  'ausgebären', // zurückgestellt (Regel 14): selten, gehoben 2026-10-11
+  'ausgreifen', // zurückgestellt (Regel 14): selten, gehoben (meist nur Partizip «weit ausgreifend») 2026-10-11
+  'aushaben', // zurückgestellt (Regel 14): umgangssprachlich, Bedeutungen schwankend 2026-10-11
+  'aushängen', // zurückgestellt (Regel 16): transitiv regelmäßig (hängte aus), intransitiv unregelmäßig (hing aus) ⇒ «regelmaessig» nicht eindeutig 2026-10-11
+  'aushauen', // zurückgestellt (Regel 14/16): Präteritum schwankt (haute/hieb aus), selten — wie aufhauen 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

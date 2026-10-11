@@ -1,0 +1,212 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausgehen",
+  "wort": "ausgehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(برای تفریح) بیرون رفتن",
+      "تمام شدن (پول، بنزین)",
+      "خاموش شدن (چراغ، آتش)",
+      "(von etwas ausgehen) فرض کردن"
+    ],
+    "en": [
+      "to go out",
+      "to run out",
+      "to go out (light)",
+      "to assume"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Freizeit",
+    "Alltag"
+  ],
+  "ipa": "ˈaʊ̯sˌɡeːən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Am Samstag gehen wir aus.",
+      "uebersetzung": {
+        "fa": "شنبه بیرون می‌رویم.",
+        "en": "On Saturday we're going out."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich gehe davon aus, dass alle pünktlich kommen, weil die Prüfung wichtig ist.",
+      "uebersetzung": {
+        "fa": "فرض را بر این می‌گذارم که همه سر وقت می‌آیند، چون امتحان مهم است.",
+        "en": "I assume that everyone will arrive on time because the exam is important."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "weggehen",
+      "uebersetzung": {
+        "fa": "بیرون رفتن",
+        "en": "to go out"
+      }
+    },
+    {
+      "wort": "annehmen",
+      "uebersetzung": {
+        "fa": "فرض کردن",
+        "en": "to assume"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zu Hause bleiben",
+      "uebersetzung": {
+        "fa": "خانه ماندن",
+        "en": "to stay at home"
+      }
+    },
+    {
+      "wort": "angehen",
+      "uebersetzung": {
+        "fa": "روشن شدن",
+        "en": "to come on"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند: بیرون) + gehen (رفتن)",
+    "en": "aus- (prefix: out) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "von etwas ausgehen (von + Dat)",
+        "bedeutung": "etwas annehmen, voraussetzen",
+        "beispiel": "Wir gehen von einem Erfolg aus.",
+        "uebersetzung": {
+          "fa": "ما فرض را بر موفقیت می‌گذاریم.",
+          "en": "We are assuming success."
+        }
+      },
+      {
+        "muster": "jemandem ausgehen (mit Dat)",
+        "bedeutung": "jemandem fehlt bald etwas (Geld, Geduld)",
+        "beispiel": "Langsam geht mir die Geduld aus.",
+        "uebersetzung": {
+          "fa": "کم‌کم صبرم دارد تمام می‌شود.",
+          "en": "I'm slowly running out of patience."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausgehen",
+      "praeteritum": "ging aus",
+      "partizip2": "ausgegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe aus",
+        "du": "gehst aus",
+        "er_sie_es": "geht aus",
+        "wir": "gehen aus",
+        "ihr": "geht aus",
+        "sie_Sie": "gehen aus"
+      },
+      "praeteritum": {
+        "ich": "ging aus",
+        "du": "gingst aus",
+        "er_sie_es": "ging aus",
+        "wir": "gingen aus",
+        "ihr": "gingt aus",
+        "sie_Sie": "gingen aus"
+      },
+      "konjunktiv1": {
+        "ich": "gehe aus",
+        "du": "gehest aus",
+        "er_sie_es": "gehe aus",
+        "wir": "gehen aus",
+        "ihr": "gehet aus",
+        "sie_Sie": "gehen aus"
+      },
+      "konjunktiv2": {
+        "ich": "ginge aus",
+        "du": "gingest aus",
+        "er_sie_es": "ginge aus",
+        "wir": "gingen aus",
+        "ihr": "ginget aus",
+        "sie_Sie": "gingen aus"
+      },
+      "imperativ": {
+        "du": "Geh aus!",
+        "ihr": "Geht aus!",
+        "Sie": "Gehen Sie aus!"
+      }
+    },
+    "partizip1": "ausgehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "der Abend",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عصر، شب",
+          "en": "evening"
+        },
+        "id_ref": "nomen_abend"
+      },
+      {
+        "wort": "das Licht",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چراغ، نور",
+          "en": "light"
+        },
+        "id_ref": "nomen_licht"
+      },
+      {
+        "wort": "annehmen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فرض کردن، پذیرفتن",
+          "en": "to assume, to accept"
+        },
+        "id_ref": "verb_annehmen"
+      },
+      {
+        "wort": "der Ausgang",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خروجی",
+          "en": "exit"
+        },
+        "id_ref": "nomen_ausgang"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

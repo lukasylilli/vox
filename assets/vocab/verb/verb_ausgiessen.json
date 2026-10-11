@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausgiessen",
+  "wort": "ausgießen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(مایع را) بیرون ریختن، خالی کردن"
+    ],
+    "en": [
+      "to pour out",
+      "to empty"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Haushalt"
+  ],
+  "ipa": "ˈaʊ̯sˌɡiːsn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich gieße den kalten Kaffee aus.",
+      "uebersetzung": {
+        "fa": "قهوه‌ی سرد را دور می‌ریزم.",
+        "en": "I pour the cold coffee away."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor man die Flaschen zum Container bringt, sollte man den Rest ausgießen.",
+      "uebersetzung": {
+        "fa": "قبل از این‌که بطری‌ها را به سطل بازیافت ببری، باید ته‌مانده را خالی کنی.",
+        "en": "Before taking the bottles to the container, you should pour out what's left."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausschütten",
+      "uebersetzung": {
+        "fa": "خالی کردن، بیرون ریختن",
+        "en": "to pour out"
+      }
+    },
+    {
+      "wort": "leeren",
+      "uebersetzung": {
+        "fa": "خالی کردن",
+        "en": "to empty"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "eingießen",
+      "uebersetzung": {
+        "fa": "ریختن (در لیوان)",
+        "en": "to pour in"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند: بیرون) + gießen (ریختن)",
+    "en": "aus- (prefix: out) + gießen (to pour)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas ausgießen",
+        "bedeutung": "eine Flüssigkeit aus einem Gefäß schütten — mit Akkusativ",
+        "beispiel": "Gieß bitte das Wasser aus der Vase aus!",
+        "uebersetzung": {
+          "fa": "لطفاً آب گلدان را خالی کن!",
+          "en": "Please pour the water out of the vase!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausgießen",
+      "praeteritum": "goss aus",
+      "partizip2": "ausgegossen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gieße aus",
+        "du": "gießt aus",
+        "er_sie_es": "gießt aus",
+        "wir": "gießen aus",
+        "ihr": "gießt aus",
+        "sie_Sie": "gießen aus"
+      },
+      "praeteritum": {
+        "ich": "goss aus",
+        "du": "gossest aus",
+        "er_sie_es": "goss aus",
+        "wir": "gossen aus",
+        "ihr": "gosst aus",
+        "sie_Sie": "gossen aus"
+      },
+      "konjunktiv1": {
+        "ich": "gieße aus",
+        "du": "gießest aus",
+        "er_sie_es": "gieße aus",
+        "wir": "gießen aus",
+        "ihr": "gießet aus",
+        "sie_Sie": "gießen aus"
+      },
+      "konjunktiv2": {
+        "ich": "gösse aus",
+        "du": "gössest aus",
+        "er_sie_es": "gösse aus",
+        "wir": "gössen aus",
+        "ihr": "gösset aus",
+        "sie_Sie": "gössen aus"
+      },
+      "imperativ": {
+        "du": "Gieß aus!",
+        "ihr": "Gießt aus!",
+        "Sie": "Gießen Sie aus!"
+      }
+    },
+    "partizip1": "ausgießend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gießen",
+    "woerter": [
+      {
+        "wort": "das Wasser",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب",
+          "en": "water"
+        },
+        "id_ref": "nomen_wasser"
+      },
+      {
+        "wort": "die Flasche",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بطری",
+          "en": "bottle"
+        },
+        "id_ref": "nomen_flasche"
+      },
+      {
+        "wort": "gießen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریختن، آب دادن",
+          "en": "to pour, to water"
+        },
+        "id_ref": "verb_giessen"
+      },
+      {
+        "wort": "leer",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خالی",
+          "en": "empty"
+        },
+        "id_ref": "adjektiv_leer"
+      },
+      {
+        "wort": "ausschütten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خالی کردن",
+          "en": "to pour out"
+        },
+        "id_ref": "verb_ausschuetten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausfragen",
+  "wort": "ausfragen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سؤال‌پیچ کردن، بازجویی کردن"
+    ],
+    "en": [
+      "to question",
+      "to quiz",
+      "to pump (for information)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "ˈaʊ̯sˌfʁaːɡn̩",
+  "anmerkung": "steht in der Liste der unregelmäßigen Verben, wird aber regelmäßig konjugiert (Duden; veraltet: frug)",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Meine Mutter fragt mich immer aus.",
+      "uebersetzung": {
+        "fa": "مادرم همیشه سؤال‌پیچم می‌کند.",
+        "en": "My mother always quizzes me."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Kaum war er nach Hause gekommen, wurde er von seinen Freunden über die Reise ausgefragt.",
+      "uebersetzung": {
+        "fa": "تازه به خانه رسیده بود که دوستانش او را درباره‌ی سفر سؤال‌پیچ کردند.",
+        "en": "He had hardly got home when his friends quizzed him about the trip."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verhören",
+      "uebersetzung": {
+        "fa": "بازجویی کردن",
+        "en": "to interrogate"
+      }
+    },
+    {
+      "wort": "befragen",
+      "uebersetzung": {
+        "fa": "پرسیدن از",
+        "en": "to question"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (پیشوند: تا آخر) + fragen (پرسیدن)",
+    "en": "aus- (prefix: thoroughly) + fragen (to ask)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden über etwas ausfragen (über + Akk)",
+        "bedeutung": "jemandem viele Fragen zu etwas stellen",
+        "beispiel": "Die Nachbarin fragte ihn über seine neue Freundin aus.",
+        "uebersetzung": {
+          "fa": "همسایه او را درباره‌ی دوست‌دختر تازه‌اش سؤال‌پیچ کرد.",
+          "en": "The neighbour quizzed him about his new girlfriend."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausfragen",
+      "praeteritum": "fragte aus",
+      "partizip2": "ausgefragt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "frage aus",
+        "du": "fragst aus",
+        "er_sie_es": "fragt aus",
+        "wir": "fragen aus",
+        "ihr": "fragt aus",
+        "sie_Sie": "fragen aus"
+      },
+      "praeteritum": {
+        "ich": "fragte aus",
+        "du": "fragtest aus",
+        "er_sie_es": "fragte aus",
+        "wir": "fragten aus",
+        "ihr": "fragtet aus",
+        "sie_Sie": "fragten aus"
+      },
+      "konjunktiv1": {
+        "ich": "frage aus",
+        "du": "fragest aus",
+        "er_sie_es": "frage aus",
+        "wir": "fragen aus",
+        "ihr": "fraget aus",
+        "sie_Sie": "fragen aus"
+      },
+      "konjunktiv2": {
+        "ich": "fragte aus",
+        "du": "fragtest aus",
+        "er_sie_es": "fragte aus",
+        "wir": "fragten aus",
+        "ihr": "fragtet aus",
+        "sie_Sie": "fragten aus"
+      },
+      "imperativ": {
+        "du": "Frag aus!",
+        "ihr": "Fragt aus!",
+        "Sie": "Fragen Sie aus!"
+      }
+    },
+    "partizip1": "ausfragend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fragen",
+    "woerter": [
+      {
+        "wort": "fragen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرسیدن",
+          "en": "to ask"
+        },
+        "id_ref": "verb_fragen"
+      },
+      {
+        "wort": "die Frage",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سؤال",
+          "en": "question"
+        },
+        "id_ref": "nomen_frage"
+      },
+      {
+        "wort": "neugierig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کنجکاو",
+          "en": "curious"
+        },
+        "id_ref": "adjektiv_neugierig"
+      },
+      {
+        "wort": "befragen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پرسیدن از",
+          "en": "to question"
+        },
+        "id_ref": "verb_befragen"
+      },
+      {
+        "wort": "verhören",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بازجویی کردن",
+          "en": "to interrogate"
+        },
+        "id_ref": "verb_verhoeren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
