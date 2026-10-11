@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_draufgehen",
+  "wort": "draufgehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(محاوره) خرج شدن، مصرف شدن (پول، وقت)",
+      "(عامیانه) مردن، خراب شدن"
+    ],
+    "en": [
+      "to be used up",
+      "to die (slang)",
+      "to get broken"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Geld",
+    "Alltag"
+  ],
+  "ipa": "ˈdʁaʊ̯fˌɡeːən",
+  "anmerkung": "umgangssprachlich; in der Bedeutung «sterben» salopp",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Viel Geld geht für Miete drauf.",
+      "uebersetzung": {
+        "fa": "پول زیادی خرج اجاره می‌شود.",
+        "en": "A lot of money goes on rent."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei dem Umzug ist leider die Hälfte unserer Gläser draufgegangen, weil sie schlecht verpackt waren.",
+      "uebersetzung": {
+        "fa": "در اسباب‌کشی متأسفانه نصف لیوان‌هایمان شکست، چون بد بسته‌بندی شده بودند.",
+        "en": "Unfortunately half our glasses got broken in the move because they were badly packed."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verbraucht werden",
+      "uebersetzung": {
+        "fa": "مصرف شدن",
+        "en": "to be used up"
+      }
+    },
+    {
+      "wort": "kaputtgehen",
+      "uebersetzung": {
+        "fa": "خراب شدن",
+        "en": "to break"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "drauf (= darauf، روی آن) + gehen (رفتن)",
+    "en": "drauf (= darauf, onto it) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "für etwas draufgehen (für + Akk)",
+        "bedeutung": "für etwas verbraucht werden",
+        "beispiel": "Das ganze Wochenende ist für die Steuer draufgegangen.",
+        "uebersetzung": {
+          "fa": "کل آخر هفته صرف کار مالیات شد.",
+          "en": "The whole weekend went on the tax return."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "draufgehen",
+      "praeteritum": "ging drauf",
+      "partizip2": "draufgegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe drauf",
+        "du": "gehst drauf",
+        "er_sie_es": "geht drauf",
+        "wir": "gehen drauf",
+        "ihr": "geht drauf",
+        "sie_Sie": "gehen drauf"
+      },
+      "praeteritum": {
+        "ich": "ging drauf",
+        "du": "gingst drauf",
+        "er_sie_es": "ging drauf",
+        "wir": "gingen drauf",
+        "ihr": "gingt drauf",
+        "sie_Sie": "gingen drauf"
+      },
+      "konjunktiv1": {
+        "ich": "gehe drauf",
+        "du": "gehest drauf",
+        "er_sie_es": "gehe drauf",
+        "wir": "gehen drauf",
+        "ihr": "gehet drauf",
+        "sie_Sie": "gehen drauf"
+      },
+      "konjunktiv2": {
+        "ich": "ginge drauf",
+        "du": "gingest drauf",
+        "er_sie_es": "ginge drauf",
+        "wir": "gingen drauf",
+        "ihr": "ginget drauf",
+        "sie_Sie": "gingen drauf"
+      },
+      "imperativ": {
+        "du": "Geh drauf!",
+        "ihr": "Geht drauf!",
+        "Sie": "Gehen Sie drauf!"
+      }
+    },
+    "partizip1": "draufgehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "ausgeben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خرج کردن",
+          "en": "to spend"
+        },
+        "id_ref": "verb_ausgeben"
+      },
+      {
+        "wort": "verbrauchen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مصرف کردن",
+          "en": "to consume"
+        },
+        "id_ref": "verb_verbrauchen"
+      },
+      {
+        "wort": "kaputtgehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خراب شدن",
+          "en": "to break"
+        },
+        "id_ref": "verb_kaputtgehen"
+      },
+      {
+        "wort": "die Kosten",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "هزینه‌ها",
+          "en": "costs"
+        },
+        "id_ref": "nomen_kosten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

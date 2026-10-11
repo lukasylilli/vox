@@ -1,0 +1,167 @@
+{
+  "schema": "3.0",
+  "id": "verb_drankommen",
+  "wort": "drankommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(محاوره) نوبت کسی شدن",
+      "(در امتحان) پرسیده شدن، آمدن"
+    ],
+    "en": [
+      "to have one's turn",
+      "to come up (in an exam)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Schule"
+  ],
+  "ipa": "ˈdʁanˌkɔmən",
+  "anmerkung": "umgangssprachlich",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wann komme ich dran?",
+      "uebersetzung": {
+        "fa": "کی نوبت من می‌شود؟",
+        "en": "When is it my turn?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich habe die ganze Nacht gelernt, aber genau das Thema, das ich ausgelassen hatte, ist in der Prüfung drangekommen.",
+      "uebersetzung": {
+        "fa": "تمام شب درس خواندم، اما درست همان مبحثی که جا انداخته بودم در امتحان آمد.",
+        "en": "I studied all night, but exactly the topic I had skipped came up in the exam."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "an der Reihe sein",
+      "uebersetzung": {
+        "fa": "نوبت کسی بودن",
+        "en": "to be someone's turn"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "dran (= daran، به آن) + kommen (آمدن)",
+    "en": "dran (= daran, at it) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "drankommen",
+      "praeteritum": "kam dran",
+      "partizip2": "drangekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme dran",
+        "du": "kommst dran",
+        "er_sie_es": "kommt dran",
+        "wir": "kommen dran",
+        "ihr": "kommt dran",
+        "sie_Sie": "kommen dran"
+      },
+      "praeteritum": {
+        "ich": "kam dran",
+        "du": "kamst dran",
+        "er_sie_es": "kam dran",
+        "wir": "kamen dran",
+        "ihr": "kamt dran",
+        "sie_Sie": "kamen dran"
+      },
+      "konjunktiv1": {
+        "ich": "komme dran",
+        "du": "kommest dran",
+        "er_sie_es": "komme dran",
+        "wir": "kommen dran",
+        "ihr": "kommet dran",
+        "sie_Sie": "kommen dran"
+      },
+      "konjunktiv2": {
+        "ich": "käme dran",
+        "du": "kämest dran",
+        "er_sie_es": "käme dran",
+        "wir": "kämen dran",
+        "ihr": "kämet dran",
+        "sie_Sie": "kämen dran"
+      },
+      "imperativ": {
+        "du": "Komm dran!",
+        "ihr": "Kommt dran!",
+        "Sie": "Kommen Sie dran!"
+      }
+    },
+    "partizip1": "drankommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "die Reihe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ردیف، نوبت",
+          "en": "row, turn"
+        },
+        "id_ref": "nomen_reihe"
+      },
+      {
+        "wort": "warten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "صبر کردن",
+          "en": "to wait"
+        },
+        "id_ref": "verb_warten"
+      },
+      {
+        "wort": "die Prüfung",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "امتحان",
+          "en": "exam"
+        },
+        "id_ref": "nomen_pruefung"
+      },
+      {
+        "wort": "das Wartezimmer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اتاق انتظار",
+          "en": "waiting room"
+        },
+        "id_ref": "nomen_wartezimmer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

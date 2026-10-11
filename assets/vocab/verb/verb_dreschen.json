@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_dreschen",
+  "wort": "dreschen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خرمن کوبیدن",
+      "(محاوره) محکم زدن، کوبیدن",
+      "(Phrasen dreschen) حرف توخالی زدن"
+    ],
+    "en": [
+      "to thresh",
+      "to thrash (colloq.)",
+      "to spout (empty phrases)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Landwirtschaft",
+    "Kommunikation"
+  ],
+  "ipa": "ˈdʁɛʃn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Bauern dreschen das Korn.",
+      "uebersetzung": {
+        "fa": "کشاورزها گندم را خرمن می‌کوبند.",
+        "en": "The farmers thresh the grain."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Statt konkrete Lösungen vorzuschlagen, hat der Politiker im Interview nur leere Phrasen gedroschen.",
+      "uebersetzung": {
+        "fa": "آن سیاستمدار به‌جای پیشنهاد راه‌حل مشخص، در مصاحبه فقط حرف‌های توخالی زد.",
+        "en": "Instead of proposing concrete solutions, the politician only spouted empty phrases in the interview."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schlagen",
+      "uebersetzung": {
+        "fa": "زدن",
+        "en": "to hit"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Erbwort (کلمه‌ی اصیل آلمانی)",
+    "en": "native Germanic word"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas dreschen",
+        "bedeutung": "Getreide ausschlagen / etwas kräftig schlagen — mit Akkusativ",
+        "beispiel": "Er drosch den Ball ins Tor.",
+        "uebersetzung": {
+          "fa": "توپ را محکم به دروازه کوبید.",
+          "en": "He blasted the ball into the goal."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "dreschen",
+      "praeteritum": "drosch",
+      "partizip2": "gedroschen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "dresche",
+        "du": "drischst",
+        "er_sie_es": "drischt",
+        "wir": "dreschen",
+        "ihr": "drescht",
+        "sie_Sie": "dreschen"
+      },
+      "praeteritum": {
+        "ich": "drosch",
+        "du": "droschst",
+        "er_sie_es": "drosch",
+        "wir": "droschen",
+        "ihr": "droscht",
+        "sie_Sie": "droschen"
+      },
+      "konjunktiv1": {
+        "ich": "dresche",
+        "du": "dreschest",
+        "er_sie_es": "dresche",
+        "wir": "dreschen",
+        "ihr": "dreschet",
+        "sie_Sie": "dreschen"
+      },
+      "konjunktiv2": {
+        "ich": "drösche",
+        "du": "dröschest",
+        "er_sie_es": "drösche",
+        "wir": "dröschen",
+        "ihr": "dröschet",
+        "sie_Sie": "dröschen"
+      },
+      "imperativ": {
+        "du": "Drisch!",
+        "ihr": "Drescht!",
+        "Sie": "Dreschen Sie!"
+      }
+    },
+    "partizip1": "dreschend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Getreide",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "غلات",
+          "en": "grain"
+        },
+        "id_ref": "nomen_getreide"
+      },
+      {
+        "wort": "der Bauer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کشاورز",
+          "en": "farmer"
+        },
+        "id_ref": "nomen_bauer"
+      },
+      {
+        "wort": "schlagen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زدن",
+          "en": "to hit"
+        },
+        "id_ref": "verb_schlagen"
+      },
+      {
+        "wort": "die Ernte",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "برداشت محصول",
+          "en": "harvest"
+        },
+        "id_ref": "nomen_ernte"
+      },
+      {
+        "wort": "die Phrase",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "عبارت قالبی",
+          "en": "phrase"
+        },
+        "id_ref": "nomen_phrase"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_draufkommen",
+  "wort": "draufkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(محاوره) فهمیدن، پی بردن",
+      "به یاد آوردن"
+    ],
+    "en": [
+      "to find out",
+      "to figure out",
+      "to remember"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Denken",
+    "Kommunikation"
+  ],
+  "ipa": "ˈdʁaʊ̯fˌkɔmən",
+  "anmerkung": "umgangssprachlich, besonders österreichisch",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich komme nicht drauf.",
+      "uebersetzung": {
+        "fa": "یادم نمی‌آید.",
+        "en": "I can't think of it."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Erst nach einer Stunde bin ich draufgekommen, dass der Stecker gar nicht in der Steckdose war.",
+      "uebersetzung": {
+        "fa": "تازه بعد از یک ساعت فهمیدم که دوشاخه اصلاً به پریز نبود.",
+        "en": "Only after an hour did I realise that the plug wasn't even in the socket."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "herausfinden",
+      "uebersetzung": {
+        "fa": "فهمیدن",
+        "en": "to find out"
+      }
+    },
+    {
+      "wort": "dahinterkommen",
+      "uebersetzung": {
+        "fa": "سر درآوردن",
+        "en": "to get to the bottom of"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "drauf (= darauf، به آن) + kommen (آمدن)",
+    "en": "drauf (= darauf, onto it) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf etwas draufkommen (auf + Akk)",
+        "bedeutung": "etwas herausfinden oder sich daran erinnern",
+        "beispiel": "Wie bist du denn auf die Idee draufgekommen?",
+        "uebersetzung": {
+          "fa": "آخر چطور به این فکر رسیدی؟",
+          "en": "How on earth did you come up with that idea?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "draufkommen",
+      "praeteritum": "kam drauf",
+      "partizip2": "draufgekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme drauf",
+        "du": "kommst drauf",
+        "er_sie_es": "kommt drauf",
+        "wir": "kommen drauf",
+        "ihr": "kommt drauf",
+        "sie_Sie": "kommen drauf"
+      },
+      "praeteritum": {
+        "ich": "kam drauf",
+        "du": "kamst drauf",
+        "er_sie_es": "kam drauf",
+        "wir": "kamen drauf",
+        "ihr": "kamt drauf",
+        "sie_Sie": "kamen drauf"
+      },
+      "konjunktiv1": {
+        "ich": "komme drauf",
+        "du": "kommest drauf",
+        "er_sie_es": "komme drauf",
+        "wir": "kommen drauf",
+        "ihr": "kommet drauf",
+        "sie_Sie": "kommen drauf"
+      },
+      "konjunktiv2": {
+        "ich": "käme drauf",
+        "du": "kämest drauf",
+        "er_sie_es": "käme drauf",
+        "wir": "kämen drauf",
+        "ihr": "kämet drauf",
+        "sie_Sie": "kämen drauf"
+      },
+      "imperativ": {
+        "du": "Komm drauf!",
+        "ihr": "Kommt drauf!",
+        "Sie": "Kommen Sie drauf!"
+      }
+    },
+    "partizip1": "draufkommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "herausfinden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فهمیدن",
+          "en": "to find out"
+        },
+        "id_ref": "verb_herausfinden"
+      },
+      {
+        "wort": "erinnern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "به یاد آوردن",
+          "en": "to remember"
+        },
+        "id_ref": "verb_erinnern"
+      },
+      {
+        "wort": "die Idee",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ایده",
+          "en": "idea"
+        },
+        "id_ref": "nomen_idee"
+      },
+      {
+        "wort": "dahinterkommen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سر درآوردن",
+          "en": "to get to the bottom of"
+        },
+        "id_ref": "verb_dahinterkommen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

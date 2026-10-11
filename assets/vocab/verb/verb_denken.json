@@ -1,0 +1,203 @@
+{
+  "schema": "3.0",
+  "id": "verb_denken",
+  "wort": "denken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "فکر کردن",
+      "(an etwas denken) به یاد چیزی بودن",
+      "(über etwas denken) نظری داشتن"
+    ],
+    "en": [
+      "to think",
+      "to remember (an)",
+      "to have an opinion (über)"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Denken",
+    "Kommunikation"
+  ],
+  "ipa": "ˈdɛŋkn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich denke, er kommt morgen.",
+      "uebersetzung": {
+        "fa": "فکر می‌کنم او فردا می‌آید.",
+        "en": "I think he's coming tomorrow."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Denk bitte daran, dass wir heute Abend bei meinen Eltern eingeladen sind.",
+      "uebersetzung": {
+        "fa": "لطفاً یادت باشد که امشب خانه‌ی پدر و مادرم دعوت داریم.",
+        "en": "Please remember that we're invited to my parents' this evening."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "meinen",
+      "uebersetzung": {
+        "fa": "نظر داشتن",
+        "en": "to think, to mean"
+      }
+    },
+    {
+      "wort": "glauben",
+      "uebersetzung": {
+        "fa": "گمان کردن",
+        "en": "to believe"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "vergessen",
+      "uebersetzung": {
+        "fa": "فراموش کردن",
+        "en": "to forget"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Erbwort (کلمه‌ی اصیل آلمانی)",
+    "en": "native Germanic word"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "an etwas/jemanden denken (an + Akk)",
+        "bedeutung": "sich an etwas/jemanden erinnern, etwas nicht vergessen",
+        "beispiel": "Ich denke oft an dich.",
+        "uebersetzung": {
+          "fa": "اغلب به تو فکر می‌کنم.",
+          "en": "I often think of you."
+        }
+      },
+      {
+        "muster": "über etwas/jemanden denken (über + Akk)",
+        "bedeutung": "eine Meinung zu etwas haben",
+        "beispiel": "Was denkst du über den Film?",
+        "uebersetzung": {
+          "fa": "نظرت درباره‌ی فیلم چیست؟",
+          "en": "What do you think of the film?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "denken",
+      "praeteritum": "dachte",
+      "partizip2": "gedacht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "denke",
+        "du": "denkst",
+        "er_sie_es": "denkt",
+        "wir": "denken",
+        "ihr": "denkt",
+        "sie_Sie": "denken"
+      },
+      "praeteritum": {
+        "ich": "dachte",
+        "du": "dachtest",
+        "er_sie_es": "dachte",
+        "wir": "dachten",
+        "ihr": "dachtet",
+        "sie_Sie": "dachten"
+      },
+      "konjunktiv1": {
+        "ich": "denke",
+        "du": "denkest",
+        "er_sie_es": "denke",
+        "wir": "denken",
+        "ihr": "denket",
+        "sie_Sie": "denken"
+      },
+      "konjunktiv2": {
+        "ich": "dächte",
+        "du": "dächtest",
+        "er_sie_es": "dächte",
+        "wir": "dächten",
+        "ihr": "dächtet",
+        "sie_Sie": "dächten"
+      },
+      "imperativ": {
+        "du": "Denk!",
+        "ihr": "Denkt!",
+        "Sie": "Denken Sie!"
+      }
+    },
+    "partizip1": "denkend",
+    "nominalisierung": "der Gedanke"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Gedanke",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فکر",
+          "en": "thought"
+        },
+        "id_ref": "nomen_gedanke"
+      },
+      {
+        "wort": "meinen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نظر داشتن",
+          "en": "to think"
+        },
+        "id_ref": "verb_meinen"
+      },
+      {
+        "wort": "glauben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گمان کردن",
+          "en": "to believe"
+        },
+        "id_ref": "verb_glauben"
+      },
+      {
+        "wort": "nachdenken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تأمل کردن",
+          "en": "to reflect"
+        },
+        "id_ref": "verb_nachdenken"
+      },
+      {
+        "wort": "das Denkmal",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بنای یادبود",
+          "en": "monument"
+        },
+        "id_ref": "nomen_denkmal"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
