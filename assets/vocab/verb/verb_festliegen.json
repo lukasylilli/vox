@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_festliegen",
+  "wort": "festliegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(تاریخ، قاعده یا برنامه‌ای) قطعی و تعیین‌شده بودن",
+      "(کشتی) به گل نشستن، گیر افتادن"
+    ],
+    "en": [
+      "to be fixed, to be set (date, rules)",
+      "to be stuck, to be aground"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Behörde",
+    "Verkehr"
+  ],
+  "ipa": "ˈfɛstˌliːɡn̩",
+  "anmerkung": "In Süddeutschland und Österreich auch mit «sein».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Termin liegt schon fest.",
+      "uebersetzung": {
+        "fa": "تاریخ (قرار) دیگر قطعی است.",
+        "en": "The date is already fixed."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wie hoch die Gebühren sind, liegt noch nicht fest, weil der Gemeinderat erst im Mai entscheidet.",
+      "uebersetzung": {
+        "fa": "هنوز قطعی نیست هزینه‌ها چقدر است، چون شورای شهر تازه در ماه مه تصمیم می‌گیرد.",
+        "en": "How high the fees are is not yet fixed because the town council will only decide in May."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "feststehen",
+      "uebersetzung": {
+        "fa": "قطعی بودن",
+        "en": "to be certain"
+      }
+    },
+    {
+      "wort": "bestimmt sein",
+      "uebersetzung": {
+        "fa": "تعیین شده بودن",
+        "en": "to be determined"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "offen sein",
+      "uebersetzung": {
+        "fa": "باز (نامعلوم) بودن",
+        "en": "to be open"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "fest- (محکم، ثابت) + liegen (قرار داشتن)",
+    "en": "fest- (firm, fixed) + liegen (to lie)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "festliegen",
+      "praeteritum": "lag fest",
+      "partizip2": "festgelegen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "liege fest",
+        "du": "liegst fest",
+        "er_sie_es": "liegt fest",
+        "wir": "liegen fest",
+        "ihr": "liegt fest",
+        "sie_Sie": "liegen fest"
+      },
+      "praeteritum": {
+        "ich": "lag fest",
+        "du": "lagst fest",
+        "er_sie_es": "lag fest",
+        "wir": "lagen fest",
+        "ihr": "lagt fest",
+        "sie_Sie": "lagen fest"
+      },
+      "konjunktiv1": {
+        "ich": "liege fest",
+        "du": "liegest fest",
+        "er_sie_es": "liege fest",
+        "wir": "liegen fest",
+        "ihr": "lieget fest",
+        "sie_Sie": "liegen fest"
+      },
+      "konjunktiv2": {
+        "ich": "läge fest",
+        "du": "lägest fest",
+        "er_sie_es": "läge fest",
+        "wir": "lägen fest",
+        "ihr": "läget fest",
+        "sie_Sie": "lägen fest"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "festliegend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "liegen",
+    "woerter": [
+      {
+        "wort": "liegen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قرار داشتن",
+          "en": "to lie"
+        },
+        "id_ref": "verb_liegen"
+      },
+      {
+        "wort": "feststehen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قطعی بودن",
+          "en": "to be certain"
+        },
+        "id_ref": "verb_feststehen"
+      },
+      {
+        "wort": "festlegen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تعیین کردن",
+          "en": "to fix"
+        },
+        "id_ref": "verb_festlegen"
+      },
+      {
+        "wort": "der Termin",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "وقت، تاریخ",
+          "en": "appointment, date"
+        },
+        "id_ref": "nomen_termin"
+      },
+      {
+        "wort": "die Regel",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قاعده",
+          "en": "rule"
+        },
+        "id_ref": "nomen_regel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

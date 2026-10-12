@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_finden",
+  "wort": "finden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پیدا کردن، یافتن",
+      "(نظری داشتن) به نظرِ (کسی) آمدن، فکر کردن",
+      "(sich finden) پیدا شدن"
+    ],
+    "en": [
+      "to find",
+      "to think, to find (opinion)",
+      "(sich) to turn up, to be found"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Meinung"
+  ],
+  "ipa": "ˈfɪndn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich finde meinen Schlüssel nicht.",
+      "uebersetzung": {
+        "fa": "کلیدم را پیدا نمی‌کنم.",
+        "en": "I can't find my key."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich finde es gut, dass die Stadt mehr Radwege baut, auch wenn das teuer ist.",
+      "uebersetzung": {
+        "fa": "به نظرم خوب است که شهر مسیرهای دوچرخه‌ی بیشتری می‌سازد، حتی اگر گران باشد.",
+        "en": "I think it's good that the city is building more cycle paths, even if it is expensive."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "entdecken",
+      "uebersetzung": {
+        "fa": "کشف کردن",
+        "en": "to discover"
+      }
+    },
+    {
+      "wort": "meinen",
+      "uebersetzung": {
+        "fa": "عقیده داشتن",
+        "en": "to think"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "suchen",
+      "uebersetzung": {
+        "fa": "گشتن",
+        "en": "to look for"
+      }
+    },
+    {
+      "wort": "verlieren",
+      "uebersetzung": {
+        "fa": "گم کردن",
+        "en": "to lose"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "finden",
+      "praeteritum": "fand",
+      "partizip2": "gefunden"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "finde",
+        "du": "findest",
+        "er_sie_es": "findet",
+        "wir": "finden",
+        "ihr": "findet",
+        "sie_Sie": "finden"
+      },
+      "praeteritum": {
+        "ich": "fand",
+        "du": "fandest",
+        "er_sie_es": "fand",
+        "wir": "fanden",
+        "ihr": "fandet",
+        "sie_Sie": "fanden"
+      },
+      "konjunktiv1": {
+        "ich": "finde",
+        "du": "findest",
+        "er_sie_es": "finde",
+        "wir": "finden",
+        "ihr": "findet",
+        "sie_Sie": "finden"
+      },
+      "konjunktiv2": {
+        "ich": "fände",
+        "du": "fändest",
+        "er_sie_es": "fände",
+        "wir": "fänden",
+        "ihr": "fändet",
+        "sie_Sie": "fänden"
+      },
+      "imperativ": {
+        "du": "Finde!",
+        "ihr": "Findet!",
+        "Sie": "Finden Sie!"
+      }
+    },
+    "partizip1": "findend",
+    "nominalisierung": "der Fund"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "suchen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گشتن",
+          "en": "to look for"
+        },
+        "id_ref": "verb_suchen"
+      },
+      {
+        "wort": "verlieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گم کردن",
+          "en": "to lose"
+        },
+        "id_ref": "verb_verlieren"
+      },
+      {
+        "wort": "der Fund",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "یافته",
+          "en": "find"
+        },
+        "id_ref": "nomen_fund"
+      },
+      {
+        "wort": "meinen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عقیده داشتن",
+          "en": "to think"
+        },
+        "id_ref": "verb_meinen"
+      },
+      {
+        "wort": "die Meinung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نظر",
+          "en": "opinion"
+        },
+        "id_ref": "nomen_meinung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

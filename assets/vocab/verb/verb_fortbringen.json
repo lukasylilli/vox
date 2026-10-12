@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_fortbringen",
+  "wort": "fortbringen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(کسی یا چیزی را) بردن، از جایی دور کردن"
+    ],
+    "en": [
+      "to take away, to remove"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Haushalt"
+  ],
+  "ipa": "ˈfɔʁtˌbʁɪŋən",
+  "anmerkung": "Gemischtes Verb: brachte fort, fortgebracht.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bring den Müll fort!",
+      "uebersetzung": {
+        "fa": "آشغال را ببر بیرون!",
+        "en": "Take the rubbish away!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Unfall wurde der Verletzte mit dem Hubschrauber fortgebracht.",
+      "uebersetzung": {
+        "fa": "بعد از تصادف، مجروح را با هلیکوپتر بردند.",
+        "en": "After the accident the injured man was taken away by helicopter."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wegbringen",
+      "uebersetzung": {
+        "fa": "بردن",
+        "en": "to take away"
+      }
+    },
+    {
+      "wort": "entfernen",
+      "uebersetzung": {
+        "fa": "برداشتن، دور کردن",
+        "en": "to remove"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "herbringen",
+      "uebersetzung": {
+        "fa": "آوردن",
+        "en": "to bring here"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "fort- (دور، به جای دیگر) + bringen (آوردن، بردن)",
+    "en": "fort- (away) + bringen (to bring)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "fortbringen",
+      "praeteritum": "brachte fort",
+      "partizip2": "fortgebracht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bringe fort",
+        "du": "bringst fort",
+        "er_sie_es": "bringt fort",
+        "wir": "bringen fort",
+        "ihr": "bringt fort",
+        "sie_Sie": "bringen fort"
+      },
+      "praeteritum": {
+        "ich": "brachte fort",
+        "du": "brachtest fort",
+        "er_sie_es": "brachte fort",
+        "wir": "brachten fort",
+        "ihr": "brachtet fort",
+        "sie_Sie": "brachten fort"
+      },
+      "konjunktiv1": {
+        "ich": "bringe fort",
+        "du": "bringest fort",
+        "er_sie_es": "bringe fort",
+        "wir": "bringen fort",
+        "ihr": "bringet fort",
+        "sie_Sie": "bringen fort"
+      },
+      "konjunktiv2": {
+        "ich": "brächte fort",
+        "du": "brächtest fort",
+        "er_sie_es": "brächte fort",
+        "wir": "brächten fort",
+        "ihr": "brächtet fort",
+        "sie_Sie": "brächten fort"
+      },
+      "imperativ": {
+        "du": "Bring fort!",
+        "ihr": "Bringt fort!",
+        "Sie": "Bringen Sie fort!"
+      }
+    },
+    "partizip1": "fortbringend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bringen",
+    "woerter": [
+      {
+        "wort": "bringen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آوردن",
+          "en": "to bring"
+        },
+        "id_ref": "verb_bringen"
+      },
+      {
+        "wort": "wegbringen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بردن",
+          "en": "to take away"
+        },
+        "id_ref": "verb_wegbringen"
+      },
+      {
+        "wort": "entfernen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دور کردن",
+          "en": "to remove"
+        },
+        "id_ref": "verb_entfernen"
+      },
+      {
+        "wort": "der Müll",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آشغال",
+          "en": "rubbish"
+        },
+        "id_ref": "nomen_muell"
+      },
+      {
+        "wort": "fort",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دور",
+          "en": "away"
+        },
+        "id_ref": "adverb_fort"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

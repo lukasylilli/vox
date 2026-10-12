@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_festlaufen",
+  "wort": "festlaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(sich festlaufen) (کار، مذاکره یا حمله‌ای) متوقف شدن، به بن‌بست خوردن"
+    ],
+    "en": [
+      "(sich) to come to a standstill, to get bogged down"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Politik",
+    "Arbeit",
+    "Sport"
+  ],
+  "ipa": "ˈfɛstˌlaʊ̯fn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Gespräch hat sich festgelaufen.",
+      "uebersetzung": {
+        "fa": "گفت‌وگو به بن‌بست رسید.",
+        "en": "The talks came to a standstill."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Angriff der Mannschaft lief sich immer wieder an der starken Abwehr fest.",
+      "uebersetzung": {
+        "fa": "حمله‌های تیم بارها و بارها پشت دفاع قوی حریف متوقف شد.",
+        "en": "The team's attack kept getting bogged down against the strong defence."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich festfahren",
+      "uebersetzung": {
+        "fa": "به بن‌بست رسیدن",
+        "en": "to reach deadlock"
+      }
+    },
+    {
+      "wort": "stocken",
+      "uebersetzung": {
+        "fa": "متوقف شدن",
+        "en": "to stall"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "fest- (محکم، ثابت) + laufen (دویدن، پیش رفتن)",
+    "en": "fest- (firm, fixed) + laufen (to run)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich an + Dat festlaufen",
+        "bedeutung": "an etwas scheitern, nicht weiterkommen",
+        "beispiel": "Die Reform hat sich am Widerstand der Länder festgelaufen.",
+        "uebersetzung": {
+          "fa": "اصلاحات در برابر مخالفت ایالت‌ها متوقف شد.",
+          "en": "The reform got bogged down by the states' resistance."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "festlaufen",
+      "praeteritum": "lief fest",
+      "partizip2": "festgelaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laufe fest",
+        "du": "läufst fest",
+        "er_sie_es": "läuft fest",
+        "wir": "laufen fest",
+        "ihr": "lauft fest",
+        "sie_Sie": "laufen fest"
+      },
+      "praeteritum": {
+        "ich": "lief fest",
+        "du": "liefst fest",
+        "er_sie_es": "lief fest",
+        "wir": "liefen fest",
+        "ihr": "lieft fest",
+        "sie_Sie": "liefen fest"
+      },
+      "konjunktiv1": {
+        "ich": "laufe fest",
+        "du": "laufest fest",
+        "er_sie_es": "laufe fest",
+        "wir": "laufen fest",
+        "ihr": "laufet fest",
+        "sie_Sie": "laufen fest"
+      },
+      "konjunktiv2": {
+        "ich": "liefe fest",
+        "du": "liefest fest",
+        "er_sie_es": "liefe fest",
+        "wir": "liefen fest",
+        "ihr": "liefet fest",
+        "sie_Sie": "liefen fest"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "festlaufend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دویدن",
+          "en": "to run"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "sich festfahren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "گیر کردن، به بن‌بست رسیدن",
+          "en": "to get stuck"
+        },
+        "id_ref": "verb_sich_festfahren"
+      },
+      {
+        "wort": "stocken",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "متوقف شدن",
+          "en": "to stall"
+        },
+        "id_ref": "verb_stocken"
+      },
+      {
+        "wort": "die Verhandlung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مذاکره",
+          "en": "negotiation"
+        },
+        "id_ref": "nomen_verhandlung"
+      },
+      {
+        "wort": "scheitern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شکست خوردن",
+          "en": "to fail"
+        },
+        "id_ref": "verb_scheitern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

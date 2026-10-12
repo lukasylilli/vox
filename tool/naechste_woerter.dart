@@ -1034,6 +1034,8 @@ const zurueckgestellt = <String>{
   'feinmahlen', // zurückgestellt (Regel 14/16): amtliche Schreibung «fein mahlen» (getrennt) 2026-10-11
   'fertiglesen', // zurückgestellt (Regel 14/16): amtliche Schreibung «fertig lesen» (getrennt) 2026-10-11
   'festbleiben', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'fortbegeben', // zurückgestellt (Regel 14/16): sich fortbegeben — gehoben, selten 2026-10-11
+  'fortblasen', // zurückgestellt (Regel 14/16): selten 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
