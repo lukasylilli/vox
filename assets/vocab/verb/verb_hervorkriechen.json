@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_hervorkriechen",
+  "wort": "hervorkriechen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(از زیر یا پشت چیزی) خزیده بیرون آمدن"
+    ],
+    "en": [
+      "to crawl out (from under/behind)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Tiere",
+    "Natur"
+  ],
+  "ipa": "hɛɐ̯ˈfoːɐ̯ˌkʁiːçn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Eine Maus kriecht hervor.",
+      "uebersetzung": {
+        "fa": "موشی خزیده بیرون می‌آید.",
+        "en": "A mouse crawls out."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Regen krochen überall Regenwürmer aus der Erde hervor.",
+      "uebersetzung": {
+        "fa": "بعد از باران همه‌جا کرم‌های خاکی از خاک بیرون خزیدند.",
+        "en": "After the rain earthworms crawled out of the soil everywhere."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "herauskriechen",
+      "uebersetzung": {
+        "fa": "بیرون خزیدن",
+        "en": "to crawl out"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sich verkriechen",
+      "uebersetzung": {
+        "fa": "پنهان شدن (با خزیدن)",
+        "en": "to crawl away and hide"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hervor- (به بیرون (از پشت چیزی)) + kriechen (خزیدن)",
+    "en": "hervor- (forth) + kriechen (to crawl)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "unter/hinter + Dat hervorkriechen",
+        "bedeutung": "kriechend aus einem Versteck kommen",
+        "beispiel": "Der Hund kroch unter dem Bett hervor.",
+        "uebersetzung": {
+          "fa": "سگ از زیر تخت خزیده بیرون آمد.",
+          "en": "The dog crawled out from under the bed."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hervorkriechen",
+      "praeteritum": "kroch hervor",
+      "partizip2": "hervorgekrochen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "krieche hervor",
+        "du": "kriechst hervor",
+        "er_sie_es": "kriecht hervor",
+        "wir": "kriechen hervor",
+        "ihr": "kriecht hervor",
+        "sie_Sie": "kriechen hervor"
+      },
+      "praeteritum": {
+        "ich": "kroch hervor",
+        "du": "krochst hervor",
+        "er_sie_es": "kroch hervor",
+        "wir": "krochen hervor",
+        "ihr": "krocht hervor",
+        "sie_Sie": "krochen hervor"
+      },
+      "konjunktiv1": {
+        "ich": "krieche hervor",
+        "du": "kriechest hervor",
+        "er_sie_es": "krieche hervor",
+        "wir": "kriechen hervor",
+        "ihr": "kriechet hervor",
+        "sie_Sie": "kriechen hervor"
+      },
+      "konjunktiv2": {
+        "ich": "kröche hervor",
+        "du": "kröchest hervor",
+        "er_sie_es": "kröche hervor",
+        "wir": "kröchen hervor",
+        "ihr": "kröchet hervor",
+        "sie_Sie": "kröchen hervor"
+      },
+      "imperativ": {
+        "du": "Kriech hervor!",
+        "ihr": "Kriecht hervor!",
+        "Sie": "Kriechen Sie hervor!"
+      }
+    },
+    "partizip1": "hervorkriechend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kriechen",
+    "woerter": [
+      {
+        "wort": "kriechen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خزیدن",
+          "en": "to crawl"
+        },
+        "id_ref": "verb_kriechen"
+      },
+      {
+        "wort": "herauskriechen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیرون خزیدن",
+          "en": "to crawl out"
+        },
+        "id_ref": "verb_herauskriechen"
+      },
+      {
+        "wort": "der Wurm",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کرم",
+          "en": "worm"
+        },
+        "id_ref": "nomen_wurm"
+      },
+      {
+        "wort": "das Versteck",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مخفیگاه",
+          "en": "hiding place"
+        },
+        "id_ref": "nomen_versteck"
+      },
+      {
+        "wort": "hervor",
+        "wortart": "adverb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "به بیرون",
+          "en": "forth"
+        },
+        "id_ref": "adverb_hervor"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

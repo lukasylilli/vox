@@ -1112,6 +1112,9 @@ const zurueckgestellt = <String>{
   'herunterkriechen', // zurückgestellt (Regel 14/16): selten 2026-10-11
   'heruntermüssen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
   'hervordringen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'herzukommen', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-11
+  'hinabfahren', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-11
+  'hinaufdürfen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
