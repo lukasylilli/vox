@@ -1,0 +1,193 @@
+{
+  "schema": "3.0",
+  "id": "verb_gedenken",
+  "wort": "gedenken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(+ Genitiv) یاد (کسی یا چیزی) را گرامی داشتن",
+      "(قصد داشتن) در نظر داشتن (کاری را کردن)"
+    ],
+    "en": [
+      "(+ genitive) to remember, to commemorate",
+      "to intend to"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Geschichte",
+    "Gesellschaft",
+    "Sprache (gehoben)"
+  ],
+  "ipa": "ɡəˈdɛŋkn̩",
+  "anmerkung": "Gemischtes Verb: gedachte, gedacht. Gehoben, mit Genitiv.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir gedenken der Toten.",
+      "uebersetzung": {
+        "fa": "یاد درگذشتگان را گرامی می‌داریم.",
+        "en": "We remember the dead."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Jedes Jahr am 8. Mai gedenken viele Menschen der Opfer des Zweiten Weltkriegs.",
+      "uebersetzung": {
+        "fa": "هر سال در ۸ مه بسیاری از مردم یاد قربانیان جنگ جهانی دوم را گرامی می‌دارند.",
+        "en": "Every year on 8 May many people commemorate the victims of the Second World War."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich erinnern an",
+      "uebersetzung": {
+        "fa": "به یاد آوردن",
+        "en": "to remember"
+      }
+    },
+    {
+      "wort": "ehren",
+      "uebersetzung": {
+        "fa": "گرامی داشتن",
+        "en": "to honour"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "vergessen",
+      "uebersetzung": {
+        "fa": "فراموش کردن",
+        "en": "to forget"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ge- (پیشوند) + denken (فکر کردن)",
+    "en": "ge- (prefix) + denken (to think)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandes/einer Sache (+ Gen) gedenken",
+        "bedeutung": "an jemanden/etwas ehrend erinnern",
+        "beispiel": "Die Stadt gedachte ihres berühmten Sohnes.",
+        "uebersetzung": {
+          "fa": "شهر یاد فرزند مشهورش را گرامی داشت.",
+          "en": "The town commemorated its famous son."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "gedenken",
+      "praeteritum": "gedachte",
+      "partizip2": "gedacht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gedenke",
+        "du": "gedenkst",
+        "er_sie_es": "gedenkt",
+        "wir": "gedenken",
+        "ihr": "gedenkt",
+        "sie_Sie": "gedenken"
+      },
+      "praeteritum": {
+        "ich": "gedachte",
+        "du": "gedachtest",
+        "er_sie_es": "gedachte",
+        "wir": "gedachten",
+        "ihr": "gedachtet",
+        "sie_Sie": "gedachten"
+      },
+      "konjunktiv1": {
+        "ich": "gedenke",
+        "du": "gedenkest",
+        "er_sie_es": "gedenke",
+        "wir": "gedenken",
+        "ihr": "gedenket",
+        "sie_Sie": "gedenken"
+      },
+      "konjunktiv2": {
+        "ich": "gedächte",
+        "du": "gedächtest",
+        "er_sie_es": "gedächte",
+        "wir": "gedächten",
+        "ihr": "gedächtet",
+        "sie_Sie": "gedächten"
+      },
+      "imperativ": {
+        "du": "Gedenk!",
+        "ihr": "Gedenkt!",
+        "Sie": "Gedenken Sie!"
+      }
+    },
+    "partizip1": "gedenkend",
+    "nominalisierung": "das Gedenken"
+  },
+  "wortnetz": {
+    "grundwort": "denken",
+    "woerter": [
+      {
+        "wort": "denken",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فکر کردن",
+          "en": "to think"
+        },
+        "id_ref": "verb_denken"
+      },
+      {
+        "wort": "das Gedenken",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "یادبود",
+          "en": "remembrance"
+        },
+        "id_ref": "nomen_gedenken"
+      },
+      {
+        "wort": "die Gedenkstätte",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "یادمان",
+          "en": "memorial"
+        },
+        "id_ref": "nomen_gedenkstaette"
+      },
+      {
+        "wort": "sich erinnern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "به یاد آوردن",
+          "en": "to remember"
+        },
+        "id_ref": "verb_sich_erinnern"
+      },
+      {
+        "wort": "das Opfer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قربانی",
+          "en": "victim"
+        },
+        "id_ref": "nomen_opfer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

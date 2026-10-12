@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_gefrieren",
+  "wort": "gefrieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "منجمد شدن، یخ بستن"
+    ],
+    "en": [
+      "to freeze"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Natur",
+    "Wetter",
+    "Wissenschaft"
+  ],
+  "ipa": "ɡəˈfʁiːʁən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wasser gefriert bei null Grad.",
+      "uebersetzung": {
+        "fa": "آب در صفر درجه یخ می‌بندد.",
+        "en": "Water freezes at zero degrees."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In der Nacht war der Boden so stark gefroren, dass die Bauarbeiter nicht graben konnten.",
+      "uebersetzung": {
+        "fa": "شب زمین آن‌قدر یخ زده بود که کارگران ساختمانی نمی‌توانستند حفاری کنند.",
+        "en": "During the night the ground had frozen so hard that the construction workers couldn't dig."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einfrieren",
+      "uebersetzung": {
+        "fa": "یخ زدن",
+        "en": "to freeze up"
+      }
+    },
+    {
+      "wort": "vereisen",
+      "uebersetzung": {
+        "fa": "یخ بستن",
+        "en": "to ice over"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "schmelzen",
+      "uebersetzung": {
+        "fa": "ذوب شدن",
+        "en": "to melt"
+      }
+    },
+    {
+      "wort": "auftauen",
+      "uebersetzung": {
+        "fa": "آب شدن (یخ)",
+        "en": "to thaw"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ge- (پیشوند) + frieren (یخ زدن)",
+    "en": "ge- (prefix) + frieren (to freeze)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "gefrieren",
+      "praeteritum": "gefror",
+      "partizip2": "gefroren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gefriere",
+        "du": "gefrierst",
+        "er_sie_es": "gefriert",
+        "wir": "gefrieren",
+        "ihr": "gefriert",
+        "sie_Sie": "gefrieren"
+      },
+      "praeteritum": {
+        "ich": "gefror",
+        "du": "gefrorst",
+        "er_sie_es": "gefror",
+        "wir": "gefroren",
+        "ihr": "gefrort",
+        "sie_Sie": "gefroren"
+      },
+      "konjunktiv1": {
+        "ich": "gefriere",
+        "du": "gefrierest",
+        "er_sie_es": "gefriere",
+        "wir": "gefrieren",
+        "ihr": "gefrieret",
+        "sie_Sie": "gefrieren"
+      },
+      "konjunktiv2": {
+        "ich": "gefröre",
+        "du": "gefrörest",
+        "er_sie_es": "gefröre",
+        "wir": "gefrören",
+        "ihr": "gefröret",
+        "sie_Sie": "gefrören"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "gefrierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "frieren",
+    "woerter": [
+      {
+        "wort": "frieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "یخ زدن",
+          "en": "to freeze"
+        },
+        "id_ref": "verb_frieren"
+      },
+      {
+        "wort": "der Gefrierpunkt",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نقطه‌ی انجماد",
+          "en": "freezing point"
+        },
+        "id_ref": "nomen_gefrierpunkt"
+      },
+      {
+        "wort": "das Eis",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "یخ",
+          "en": "ice"
+        },
+        "id_ref": "nomen_eis"
+      },
+      {
+        "wort": "schmelzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ذوب شدن",
+          "en": "to melt"
+        },
+        "id_ref": "verb_schmelzen"
+      },
+      {
+        "wort": "der Gefrierschrank",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فریزر",
+          "en": "freezer"
+        },
+        "id_ref": "nomen_gefrierschrank"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

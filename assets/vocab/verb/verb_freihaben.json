@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_freihaben",
+  "wort": "freihaben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تعطیل بودن، مرخصی بودن، سر کار نبودن"
+    ],
+    "en": [
+      "to have time off, to be off"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Freizeit"
+  ],
+  "ipa": "ˈfʁaɪ̯ˌhaːbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Morgen habe ich frei.",
+      "uebersetzung": {
+        "fa": "فردا تعطیلم (سر کار نیستم).",
+        "en": "I'm off tomorrow."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil ich am Wochenende arbeiten musste, habe ich dafür am Montag und Dienstag frei.",
+      "uebersetzung": {
+        "fa": "چون آخر هفته مجبور بودم کار کنم، در عوضش دوشنبه و سه‌شنبه تعطیلم.",
+        "en": "Because I had to work at the weekend, I have Monday and Tuesday off instead."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "Urlaub haben",
+      "uebersetzung": {
+        "fa": "مرخصی بودن",
+        "en": "to be on leave"
+      }
+    },
+    {
+      "wort": "dienstfrei sein",
+      "uebersetzung": {
+        "fa": "آف بودن",
+        "en": "to be off duty"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "arbeiten",
+      "uebersetzung": {
+        "fa": "کار کردن",
+        "en": "to work"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "frei (آزاد) + haben (داشتن)",
+    "en": "frei (free) + haben (to have)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "freihaben",
+      "praeteritum": "hatte frei",
+      "partizip2": "freigehabt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "habe frei",
+        "du": "hast frei",
+        "er_sie_es": "hat frei",
+        "wir": "haben frei",
+        "ihr": "habt frei",
+        "sie_Sie": "haben frei"
+      },
+      "praeteritum": {
+        "ich": "hatte frei",
+        "du": "hattest frei",
+        "er_sie_es": "hatte frei",
+        "wir": "hatten frei",
+        "ihr": "hattet frei",
+        "sie_Sie": "hatten frei"
+      },
+      "konjunktiv1": {
+        "ich": "habe frei",
+        "du": "habest frei",
+        "er_sie_es": "habe frei",
+        "wir": "haben frei",
+        "ihr": "habet frei",
+        "sie_Sie": "haben frei"
+      },
+      "konjunktiv2": {
+        "ich": "hätte frei",
+        "du": "hättest frei",
+        "er_sie_es": "hätte frei",
+        "wir": "hätten frei",
+        "ihr": "hättet frei",
+        "sie_Sie": "hätten frei"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "freihabend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "haben",
+    "woerter": [
+      {
+        "wort": "frei",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آزاد",
+          "en": "free"
+        },
+        "id_ref": "adjektiv_frei"
+      },
+      {
+        "wort": "der Urlaub",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مرخصی",
+          "en": "holiday, leave"
+        },
+        "id_ref": "nomen_urlaub"
+      },
+      {
+        "wort": "die Freizeit",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اوقات فراغت",
+          "en": "free time"
+        },
+        "id_ref": "nomen_freizeit"
+      },
+      {
+        "wort": "arbeiten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کار کردن",
+          "en": "to work"
+        },
+        "id_ref": "verb_arbeiten"
+      },
+      {
+        "wort": "der Dienst",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شیفت، خدمت",
+          "en": "duty, shift"
+        },
+        "id_ref": "nomen_dienst"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

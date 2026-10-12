@@ -1,0 +1,193 @@
+{
+  "schema": "3.0",
+  "id": "verb_freigeben",
+  "wort": "freigeben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(چیزی را) آزاد کردن، در اختیار گذاشتن، اجازه‌ی استفاده دادن",
+      "(به کسی) مرخصی دادن"
+    ],
+    "en": [
+      "to release, to clear, to open (for use)",
+      "to give (someone) time off"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Behörde",
+    "Technik",
+    "Arbeit"
+  ],
+  "ipa": "ˈfʁaɪ̯ˌɡeːbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Straße ist wieder freigegeben.",
+      "uebersetzung": {
+        "fa": "خیابان دوباره باز شد.",
+        "en": "The road has been reopened."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das neue Medikament wurde erst freigegeben, nachdem es jahrelang getestet worden war.",
+      "uebersetzung": {
+        "fa": "داروی جدید تازه بعد از سال‌ها آزمایش، مجوز مصرف گرفت.",
+        "en": "The new medicine was only approved after it had been tested for years."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "genehmigen",
+      "uebersetzung": {
+        "fa": "مجوز دادن",
+        "en": "to approve"
+      }
+    },
+    {
+      "wort": "öffnen",
+      "uebersetzung": {
+        "fa": "باز کردن",
+        "en": "to open"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sperren",
+      "uebersetzung": {
+        "fa": "مسدود کردن",
+        "en": "to block"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "frei (آزاد) + geben (دادن)",
+    "en": "frei (free) + geben (to give)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas für + Akk freigeben",
+        "bedeutung": "etwas zur Nutzung erlauben",
+        "beispiel": "Der Film ist ab zwölf Jahren freigegeben.",
+        "uebersetzung": {
+          "fa": "این فیلم برای دوازده سال به بالا مجاز است.",
+          "en": "The film is rated 12."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "freigeben",
+      "praeteritum": "gab frei",
+      "partizip2": "freigegeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gebe frei",
+        "du": "gibst frei",
+        "er_sie_es": "gibt frei",
+        "wir": "geben frei",
+        "ihr": "gebt frei",
+        "sie_Sie": "geben frei"
+      },
+      "praeteritum": {
+        "ich": "gab frei",
+        "du": "gabst frei",
+        "er_sie_es": "gab frei",
+        "wir": "gaben frei",
+        "ihr": "gabt frei",
+        "sie_Sie": "gaben frei"
+      },
+      "konjunktiv1": {
+        "ich": "gebe frei",
+        "du": "gebest frei",
+        "er_sie_es": "gebe frei",
+        "wir": "geben frei",
+        "ihr": "gebet frei",
+        "sie_Sie": "geben frei"
+      },
+      "konjunktiv2": {
+        "ich": "gäbe frei",
+        "du": "gäbest frei",
+        "er_sie_es": "gäbe frei",
+        "wir": "gäben frei",
+        "ihr": "gäbet frei",
+        "sie_Sie": "gäben frei"
+      },
+      "imperativ": {
+        "du": "Gib frei!",
+        "ihr": "Gebt frei!",
+        "Sie": "Geben Sie frei!"
+      }
+    },
+    "partizip1": "freigebend",
+    "nominalisierung": "die Freigabe"
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "frei",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آزاد",
+          "en": "free"
+        },
+        "id_ref": "adjektiv_frei"
+      },
+      {
+        "wort": "die Freigabe",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مجوز، آزادسازی",
+          "en": "release, approval"
+        },
+        "id_ref": "nomen_freigabe"
+      },
+      {
+        "wort": "genehmigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مجوز دادن",
+          "en": "to approve"
+        },
+        "id_ref": "verb_genehmigen"
+      },
+      {
+        "wort": "sperren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مسدود کردن",
+          "en": "to block"
+        },
+        "id_ref": "verb_sperren"
+      },
+      {
+        "wort": "erlauben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اجازه دادن",
+          "en": "to allow"
+        },
+        "id_ref": "verb_erlauben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

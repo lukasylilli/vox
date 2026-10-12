@@ -1043,6 +1043,10 @@ const zurueckgestellt = <String>{
   'fortkönnen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
   'fortkriechen', // zurückgestellt (Regel 14/16): selten 2026-10-11
   'fortmüssen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'freibleiben', // zurückgestellt (Regel 14/16): im Grundsinn amtlich getrennt («frei bleiben») 2026-10-11
+  'freilaufen', // zurückgestellt (Regel 14/16): sich freilaufen (Sport) — selten 2026-10-11
+  'gegeneinanderhalten', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'gegenfragen', // zurückgestellt (Regel 14/16): selten 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
