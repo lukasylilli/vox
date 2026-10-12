@@ -1,5 +1,6 @@
 # PROJECT MAP — VOX
 # نقشه کامل پروژه برای ناوبری سریع در هر session
+# آپدیت 2026-10-11 (دیروقت ۶) دور ۵۶۶–۵۶۸: ۳۰ کارت ⇒ assets/vocab/verb (herleihen … herunterhelfen) ⇒ آرشیو ۶۶۵۸ · zurueckgestellt += ۲۴ (#۱۰۳۴–۱۰۵۷). کد اپ دست نخورد.
 # آپدیت 2026-10-11 (دیروقت ۵) دور ۵۶۴–۵۶۵: ۲۰ کارت ⇒ assets/vocab/verb (hereinbekommen … herlaufen) ⇒ آرشیو ۶۶۲۸ · zurueckgestellt += ۸ (#۱۰۲۶–۱۰۳۳) · اصلاح fa در verb_herfallen. کد اپ دست نخورد.
 # آپدیت 2026-10-11 (دیروقت ۴) دور ۵۶۱–۵۶۳: ۳۰ کارت ⇒ assets/vocab/verb (heraufkommen … herbringen) ⇒ آرشیو ۶۶۰۸ · zurueckgestellt += ۱۳ (#۱۰۱۳–۱۰۲۵). کد اپ دست نخورد.
 # آپدیت 2026-10-11 (دیروقت ۳) دور ۵۵۸–۵۶۰: ۳۰ کارت ⇒ assets/vocab/verb (gegenlesen … herauffahren) ⇒ آرشیو ۶۵۷۸ · zurueckgestellt += ۱۶ (#۹۹۷–۱۰۱۲). کد اپ دست نخورد.
