@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_herumliegen",
+  "wort": "herumliegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(اشیا) بی‌نظم این طرف و آن طرف افتاده بودن",
+      "(محاوره) (آدم) بیکار دراز کشیدن"
+    ],
+    "en": [
+      "to lie around",
+      "(colloquial) to lie about, to laze around"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Haushalt",
+    "Alltag"
+  ],
+  "ipa": "hɛˈʁʊmˌliːɡn̩",
+  "anmerkung": "Umgangssprachlich oft «rum…». In Süddeutschland und Österreich auch mit «sein».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Hier liegen überall Socken herum.",
+      "uebersetzung": {
+        "fa": "اینجا همه‌جا جوراب افتاده است.",
+        "en": "There are socks lying around everywhere here."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Am Sonntag haben wir den ganzen Tag nur auf dem Sofa herumgelegen und Filme geschaut.",
+      "uebersetzung": {
+        "fa": "یکشنبه تمام روز فقط روی مبل دراز کشیدیم و فیلم دیدیم.",
+        "en": "On Sunday we just lay around on the sofa all day watching films."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rumliegen",
+      "uebersetzung": {
+        "fa": "(محاوره) افتاده بودن",
+        "en": "to lie around"
+      }
+    },
+    {
+      "wort": "faulenzen",
+      "uebersetzung": {
+        "fa": "تنبلی کردن",
+        "en": "to laze about"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "aufräumen",
+      "uebersetzung": {
+        "fa": "مرتب کردن",
+        "en": "to tidy up"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "herum- (دور، به این طرف و آن طرف) + liegen (دراز کشیدن، افتادن)",
+    "en": "herum- (around) + liegen (to lie)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "herumliegen",
+      "praeteritum": "lag herum",
+      "partizip2": "herumgelegen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "liege herum",
+        "du": "liegst herum",
+        "er_sie_es": "liegt herum",
+        "wir": "liegen herum",
+        "ihr": "liegt herum",
+        "sie_Sie": "liegen herum"
+      },
+      "praeteritum": {
+        "ich": "lag herum",
+        "du": "lagst herum",
+        "er_sie_es": "lag herum",
+        "wir": "lagen herum",
+        "ihr": "lagt herum",
+        "sie_Sie": "lagen herum"
+      },
+      "konjunktiv1": {
+        "ich": "liege herum",
+        "du": "liegest herum",
+        "er_sie_es": "liege herum",
+        "wir": "liegen herum",
+        "ihr": "lieget herum",
+        "sie_Sie": "liegen herum"
+      },
+      "konjunktiv2": {
+        "ich": "läge herum",
+        "du": "lägest herum",
+        "er_sie_es": "läge herum",
+        "wir": "lägen herum",
+        "ihr": "läget herum",
+        "sie_Sie": "lägen herum"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "herumliegend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "liegen",
+    "woerter": [
+      {
+        "wort": "liegen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دراز کشیدن",
+          "en": "to lie"
+        },
+        "id_ref": "verb_liegen"
+      },
+      {
+        "wort": "aufräumen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مرتب کردن",
+          "en": "to tidy up"
+        },
+        "id_ref": "verb_aufraeumen"
+      },
+      {
+        "wort": "die Unordnung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بی‌نظمی",
+          "en": "mess"
+        },
+        "id_ref": "nomen_unordnung"
+      },
+      {
+        "wort": "faulenzen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تنبلی کردن",
+          "en": "to laze about"
+        },
+        "id_ref": "verb_faulenzen"
+      },
+      {
+        "wort": "herum",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دور",
+          "en": "around"
+        },
+        "id_ref": "adverb_herum"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

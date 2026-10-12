@@ -1092,6 +1092,13 @@ const zurueckgestellt = <String>{
   'herüberfliegen', // zurückgestellt (Regel 14/16): selten 2026-10-11
   'herüberhängen', // zurückgestellt (Regel 14/16): transitiv schwach, intransitiv stark — Formen schwanken 2026-10-11
   'herüberkönnen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'herübermüssen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'herumbiegen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'herumbinden', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'herumgreifen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'herumhaben', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-11
+  'herumhängen', // zurückgestellt (Regel 14/16): transitiv schwach, intransitiv stark — Formen schwanken 2026-10-11
+  'herumkriechen', // zurückgestellt (Regel 14/16): selten 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

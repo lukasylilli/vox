@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_herumgehen",
+  "wort": "herumgehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "این طرف و آن طرف راه رفتن، قدم زدن",
+      "دور (چیزی) زدن",
+      "(خبر) دهان به دهان گشتن؛ (زمان) سپری شدن"
+    ],
+    "en": [
+      "to walk around",
+      "to go round (something)",
+      "(news) to go round; (time) to pass"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Bewegung"
+  ],
+  "ipa": "hɛˈʁʊmˌɡeːən",
+  "anmerkung": "Umgangssprachlich oft «rum…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er geht im Zimmer herum.",
+      "uebersetzung": {
+        "fa": "او در اتاق قدم می‌زند.",
+        "en": "He walks around the room."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Nachricht von ihrer Hochzeit ist schnell im ganzen Dorf herumgegangen.",
+      "uebersetzung": {
+        "fa": "خبر عروسی‌اش خیلی زود در کل روستا پیچید.",
+        "en": "The news of her wedding quickly went round the whole village."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "umhergehen",
+      "uebersetzung": {
+        "fa": "قدم زدن",
+        "en": "to walk about"
+      }
+    },
+    {
+      "wort": "sich herumsprechen",
+      "uebersetzung": {
+        "fa": "دهان به دهان گشتن",
+        "en": "to get around"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "herum- (دور، به این طرف و آن طرف) + gehen (رفتن)",
+    "en": "herum- (around) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "um + Akk herumgehen",
+        "bedeutung": "im Kreis um etwas gehen",
+        "beispiel": "Wir gingen einmal um den See herum.",
+        "uebersetzung": {
+          "fa": "یک دور دریاچه را قدم زدیم.",
+          "en": "We walked once round the lake."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herumgehen",
+      "praeteritum": "ging herum",
+      "partizip2": "herumgegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe herum",
+        "du": "gehst herum",
+        "er_sie_es": "geht herum",
+        "wir": "gehen herum",
+        "ihr": "geht herum",
+        "sie_Sie": "gehen herum"
+      },
+      "praeteritum": {
+        "ich": "ging herum",
+        "du": "gingst herum",
+        "er_sie_es": "ging herum",
+        "wir": "gingen herum",
+        "ihr": "gingt herum",
+        "sie_Sie": "gingen herum"
+      },
+      "konjunktiv1": {
+        "ich": "gehe herum",
+        "du": "gehest herum",
+        "er_sie_es": "gehe herum",
+        "wir": "gehen herum",
+        "ihr": "gehet herum",
+        "sie_Sie": "gehen herum"
+      },
+      "konjunktiv2": {
+        "ich": "ginge herum",
+        "du": "gingest herum",
+        "er_sie_es": "ginge herum",
+        "wir": "gingen herum",
+        "ihr": "ginget herum",
+        "sie_Sie": "gingen herum"
+      },
+      "imperativ": {
+        "du": "Geh herum!",
+        "ihr": "Geht herum!",
+        "Sie": "Gehen Sie herum!"
+      }
+    },
+    "partizip1": "herumgehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "spazieren gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قدم زدن",
+          "en": "to go for a walk"
+        },
+        "id_ref": "verb_spazieren_gehen"
+      },
+      {
+        "wort": "der Kreis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دایره",
+          "en": "circle"
+        },
+        "id_ref": "nomen_kreis"
+      },
+      {
+        "wort": "sich herumsprechen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دهان به دهان گشتن",
+          "en": "to get around"
+        },
+        "id_ref": "verb_sich_herumsprechen"
+      },
+      {
+        "wort": "herum",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دور",
+          "en": "around"
+        },
+        "id_ref": "adverb_herum"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

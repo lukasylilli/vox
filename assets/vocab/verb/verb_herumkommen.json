@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_herumkommen",
+  "wort": "herumkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(در دنیا) سفر زیاد کردن، جاهای زیادی دیدن",
+      "(um etwas herumkommen) از (کاری) معاف شدن، از زیر (کاری) در رفتن"
+    ],
+    "en": [
+      "to get around (travel a lot)",
+      "(um etw) to get out of, to avoid"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Reisen",
+    "Alltag"
+  ],
+  "ipa": "hɛˈʁʊmˌkɔmən",
+  "anmerkung": "Umgangssprachlich oft «rum…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie ist viel herumgekommen.",
+      "uebersetzung": {
+        "fa": "او جاهای زیادی را دیده است.",
+        "en": "She has been around a lot."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Um die Steuererklärung kommst du leider nicht herum, auch wenn du sie hasst.",
+      "uebersetzung": {
+        "fa": "متأسفانه از زیر اظهارنامه‌ی مالیاتی نمی‌توانی در بروی، حتی اگر از آن متنفر باشی.",
+        "en": "Unfortunately you can't get out of doing your tax return, even if you hate it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "reisen",
+      "uebersetzung": {
+        "fa": "سفر کردن",
+        "en": "to travel"
+      }
+    },
+    {
+      "wort": "vermeiden",
+      "uebersetzung": {
+        "fa": "اجتناب کردن",
+        "en": "to avoid"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "herum- (دور، به این طرف و آن طرف) + kommen (آمدن)",
+    "en": "herum- (around) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "um + Akk herumkommen",
+        "bedeutung": "etwas Unangenehmes vermeiden können",
+        "beispiel": "Um eine Operation kommt er nicht herum.",
+        "uebersetzung": {
+          "fa": "نمی‌تواند از عمل جراحی بگذرد (چاره‌ای جز عمل ندارد).",
+          "en": "He can't avoid an operation."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herumkommen",
+      "praeteritum": "kam herum",
+      "partizip2": "herumgekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme herum",
+        "du": "kommst herum",
+        "er_sie_es": "kommt herum",
+        "wir": "kommen herum",
+        "ihr": "kommt herum",
+        "sie_Sie": "kommen herum"
+      },
+      "praeteritum": {
+        "ich": "kam herum",
+        "du": "kamst herum",
+        "er_sie_es": "kam herum",
+        "wir": "kamen herum",
+        "ihr": "kamt herum",
+        "sie_Sie": "kamen herum"
+      },
+      "konjunktiv1": {
+        "ich": "komme herum",
+        "du": "kommest herum",
+        "er_sie_es": "komme herum",
+        "wir": "kommen herum",
+        "ihr": "kommet herum",
+        "sie_Sie": "kommen herum"
+      },
+      "konjunktiv2": {
+        "ich": "käme herum",
+        "du": "kämest herum",
+        "er_sie_es": "käme herum",
+        "wir": "kämen herum",
+        "ihr": "kämet herum",
+        "sie_Sie": "kämen herum"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "herumkommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "vermeiden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اجتناب کردن",
+          "en": "to avoid"
+        },
+        "id_ref": "verb_vermeiden"
+      },
+      {
+        "wort": "reisen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سفر کردن",
+          "en": "to travel"
+        },
+        "id_ref": "verb_reisen"
+      },
+      {
+        "wort": "die Welt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دنیا",
+          "en": "world"
+        },
+        "id_ref": "nomen_welt"
+      },
+      {
+        "wort": "herum",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دور",
+          "en": "around"
+        },
+        "id_ref": "adverb_herum"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_herumfahren",
+  "wort": "herumfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با وسیله‌ی نقلیه) این طرف و آن طرف رفتن، گشت زدن",
+      "(دور چیزی) راندن",
+      "ناگهان برگشتن (رو برگرداندن)"
+    ],
+    "en": [
+      "to drive around",
+      "to drive round (something)",
+      "to spin round"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr",
+    "Freizeit"
+  ],
+  "ipa": "hɛˈʁʊmˌfaːʁən",
+  "anmerkung": "Umgangssprachlich oft «rum…». Transitiv (jemanden herumfahren) mit «haben».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir fahren ein bisschen herum.",
+      "uebersetzung": {
+        "fa": "کمی با ماشین دور می‌زنیم.",
+        "en": "We're driving around a bit."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als hinter ihr jemand ihren Namen rief, fuhr sie erschrocken herum.",
+      "uebersetzung": {
+        "fa": "وقتی کسی پشت سرش اسمش را صدا زد، وحشت‌زده برگشت.",
+        "en": "When someone called her name behind her, she spun round in fright."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "umherfahren",
+      "uebersetzung": {
+        "fa": "گشت زدن",
+        "en": "to drive about"
+      }
+    },
+    {
+      "wort": "sich umdrehen",
+      "uebersetzung": {
+        "fa": "برگشتن",
+        "en": "to turn round"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "herum- (دور، به این طرف و آن طرف) + fahren (رفتن (با وسیله))",
+    "en": "herum- (around) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "um + Akk herumfahren",
+        "bedeutung": "um etwas im Kreis oder Bogen fahren",
+        "beispiel": "Wir mussten um die Baustelle herumfahren.",
+        "uebersetzung": {
+          "fa": "مجبور شدیم کارگاه ساختمانی را دور بزنیم.",
+          "en": "We had to drive round the building site."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herumfahren",
+      "praeteritum": "fuhr herum",
+      "partizip2": "herumgefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre herum",
+        "du": "fährst herum",
+        "er_sie_es": "fährt herum",
+        "wir": "fahren herum",
+        "ihr": "fahrt herum",
+        "sie_Sie": "fahren herum"
+      },
+      "praeteritum": {
+        "ich": "fuhr herum",
+        "du": "fuhrst herum",
+        "er_sie_es": "fuhr herum",
+        "wir": "fuhren herum",
+        "ihr": "fuhrt herum",
+        "sie_Sie": "fuhren herum"
+      },
+      "konjunktiv1": {
+        "ich": "fahre herum",
+        "du": "fahrest herum",
+        "er_sie_es": "fahre herum",
+        "wir": "fahren herum",
+        "ihr": "fahret herum",
+        "sie_Sie": "fahren herum"
+      },
+      "konjunktiv2": {
+        "ich": "führe herum",
+        "du": "führest herum",
+        "er_sie_es": "führe herum",
+        "wir": "führen herum",
+        "ihr": "führet herum",
+        "sie_Sie": "führen herum"
+      },
+      "imperativ": {
+        "du": "Fahr herum!",
+        "ihr": "Fahrt herum!",
+        "Sie": "Fahren Sie herum!"
+      }
+    },
+    "partizip1": "herumfahrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "umfahren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دور زدن",
+          "en": "to drive round"
+        },
+        "id_ref": "verb_umfahren"
+      },
+      {
+        "wort": "sich umdrehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برگشتن",
+          "en": "to turn round"
+        },
+        "id_ref": "verb_sich_umdrehen"
+      },
+      {
+        "wort": "die Rundfahrt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گشت (با وسیله)",
+          "en": "tour"
+        },
+        "id_ref": "nomen_rundfahrt"
+      },
+      {
+        "wort": "herum",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دور",
+          "en": "around"
+        },
+        "id_ref": "adverb_herum"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

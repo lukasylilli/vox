@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_herumlaufen",
+  "wort": "herumlaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "این طرف و آن طرف راه رفتن یا دویدن، پرسه زدن",
+      "(محاوره) (با ظاهری خاص) گشتن، ظاهر شدن"
+    ],
+    "en": [
+      "to run around, to walk around",
+      "(colloquial) to go around (dressed in a certain way)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Bewegung"
+  ],
+  "ipa": "hɛˈʁʊmˌlaʊ̯fn̩",
+  "anmerkung": "Umgangssprachlich oft «rum…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kinder laufen im Garten herum.",
+      "uebersetzung": {
+        "fa": "بچه‌ها در باغ این طرف و آن طرف می‌دوند.",
+        "en": "The children are running around in the garden."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Er läuft schon seit Tagen mit derselben Jacke herum, obwohl sie ganz schmutzig ist.",
+      "uebersetzung": {
+        "fa": "چند روز است که با همان کاپشن می‌گردد، با اینکه کاملاً کثیف است.",
+        "en": "He has been going around in the same jacket for days, although it is completely dirty."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "umherlaufen",
+      "uebersetzung": {
+        "fa": "پرسه زدن",
+        "en": "to wander about"
+      }
+    },
+    {
+      "wort": "rumlaufen",
+      "uebersetzung": {
+        "fa": "(محاوره) گشتن",
+        "en": "to run around"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "herum- (دور، به این طرف و آن طرف) + laufen (دویدن، راه رفتن)",
+    "en": "herum- (around) + laufen (to run, to walk)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "um + Akk herumlaufen",
+        "bedeutung": "im Kreis um etwas laufen",
+        "beispiel": "Der Hund lief um den Baum herum.",
+        "uebersetzung": {
+          "fa": "سگ دور درخت می‌دوید.",
+          "en": "The dog ran round the tree."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herumlaufen",
+      "praeteritum": "lief herum",
+      "partizip2": "herumgelaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laufe herum",
+        "du": "läufst herum",
+        "er_sie_es": "läuft herum",
+        "wir": "laufen herum",
+        "ihr": "lauft herum",
+        "sie_Sie": "laufen herum"
+      },
+      "praeteritum": {
+        "ich": "lief herum",
+        "du": "liefst herum",
+        "er_sie_es": "lief herum",
+        "wir": "liefen herum",
+        "ihr": "lieft herum",
+        "sie_Sie": "liefen herum"
+      },
+      "konjunktiv1": {
+        "ich": "laufe herum",
+        "du": "laufest herum",
+        "er_sie_es": "laufe herum",
+        "wir": "laufen herum",
+        "ihr": "laufet herum",
+        "sie_Sie": "laufen herum"
+      },
+      "konjunktiv2": {
+        "ich": "liefe herum",
+        "du": "liefest herum",
+        "er_sie_es": "liefe herum",
+        "wir": "liefen herum",
+        "ihr": "liefet herum",
+        "sie_Sie": "liefen herum"
+      },
+      "imperativ": {
+        "du": "Lauf herum!",
+        "ihr": "Lauft herum!",
+        "Sie": "Laufen Sie herum!"
+      }
+    },
+    "partizip1": "herumlaufend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دویدن، راه رفتن",
+          "en": "to run, to walk"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "spazieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قدم زدن",
+          "en": "to stroll"
+        },
+        "id_ref": "verb_spazieren"
+      },
+      {
+        "wort": "rennen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دویدن",
+          "en": "to run"
+        },
+        "id_ref": "verb_rennen"
+      },
+      {
+        "wort": "herumgehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قدم زدن",
+          "en": "to walk around"
+        },
+        "id_ref": "verb_herumgehen"
+      },
+      {
+        "wort": "herum",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دور",
+          "en": "around"
+        },
+        "id_ref": "adverb_herum"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
