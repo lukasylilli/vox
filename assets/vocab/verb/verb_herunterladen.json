@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_herunterladen",
+  "wort": "herunterladen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(از اینترنت) دانلود کردن، بارگیری کردن"
+    ],
+    "en": [
+      "to download"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Technik",
+    "Computer",
+    "Internet"
+  ],
+  "ipa": "hɛˈʁʊntɐˌlaːdn̩",
+  "anmerkung": "Umgangssprachlich oft «runter…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich lade die App herunter.",
+      "uebersetzung": {
+        "fa": "اپ را دانلود می‌کنم.",
+        "en": "I'm downloading the app."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bevor du das Programm herunterlädst, solltest du prüfen, ob die Seite sicher ist.",
+      "uebersetzung": {
+        "fa": "قبل از اینکه برنامه را دانلود کنی، باید بررسی کنی که سایت امن است یا نه.",
+        "en": "Before you download the program, you should check whether the site is safe."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "downloaden",
+      "uebersetzung": {
+        "fa": "دانلود کردن",
+        "en": "to download"
+      }
+    },
+    {
+      "wort": "runterladen",
+      "uebersetzung": {
+        "fa": "(محاوره) دانلود کردن",
+        "en": "to download"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hochladen",
+      "uebersetzung": {
+        "fa": "آپلود کردن",
+        "en": "to upload"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "herunter- (به پایین (به این سو)) + laden (بار کردن)",
+    "en": "herunter- (down (towards the speaker)) + laden (to load)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas aus + Dat / von + Dat herunterladen",
+        "bedeutung": "Daten aus dem Internet auf ein Gerät laden",
+        "beispiel": "Die Formulare kann man von der Webseite herunterladen.",
+        "uebersetzung": {
+          "fa": "فرم‌ها را می‌شود از سایت دانلود کرد.",
+          "en": "The forms can be downloaded from the website."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herunterladen",
+      "praeteritum": "lud herunter",
+      "partizip2": "heruntergeladen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lade herunter",
+        "du": "lädst herunter",
+        "er_sie_es": "lädt herunter",
+        "wir": "laden herunter",
+        "ihr": "ladet herunter",
+        "sie_Sie": "laden herunter"
+      },
+      "praeteritum": {
+        "ich": "lud herunter",
+        "du": "ludest herunter",
+        "er_sie_es": "lud herunter",
+        "wir": "luden herunter",
+        "ihr": "ludet herunter",
+        "sie_Sie": "luden herunter"
+      },
+      "konjunktiv1": {
+        "ich": "lade herunter",
+        "du": "ladest herunter",
+        "er_sie_es": "lade herunter",
+        "wir": "laden herunter",
+        "ihr": "ladet herunter",
+        "sie_Sie": "laden herunter"
+      },
+      "konjunktiv2": {
+        "ich": "lüde herunter",
+        "du": "lüdest herunter",
+        "er_sie_es": "lüde herunter",
+        "wir": "lüden herunter",
+        "ihr": "lüdet herunter",
+        "sie_Sie": "lüden herunter"
+      },
+      "imperativ": {
+        "du": "Lade herunter!",
+        "ihr": "Ladet herunter!",
+        "Sie": "Laden Sie herunter!"
+      }
+    },
+    "partizip1": "herunterladend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laden",
+    "woerter": [
+      {
+        "wort": "hochladen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آپلود کردن",
+          "en": "to upload"
+        },
+        "id_ref": "verb_hochladen"
+      },
+      {
+        "wort": "das Internet",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اینترنت",
+          "en": "internet"
+        },
+        "id_ref": "nomen_internet"
+      },
+      {
+        "wort": "die Datei",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فایل",
+          "en": "file"
+        },
+        "id_ref": "nomen_datei"
+      },
+      {
+        "wort": "die App",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اپ، برنامه",
+          "en": "app"
+        },
+        "id_ref": "nomen_app"
+      },
+      {
+        "wort": "der Download",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دانلود",
+          "en": "download"
+        },
+        "id_ref": "nomen_download"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

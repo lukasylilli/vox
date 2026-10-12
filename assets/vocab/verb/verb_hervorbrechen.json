@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_hervorbrechen",
+  "wort": "hervorbrechen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(ناگهان از جایی) بیرون زدن، پدیدار شدن",
+      "(احساسی) ناگهان بروز کردن"
+    ],
+    "en": [
+      "to burst out, to break through",
+      "to burst out (feeling)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Gefühle"
+  ],
+  "ipa": "hɛɐ̯ˈfoːɐ̯ˌbʁɛçn̩",
+  "anmerkung": "Gehoben.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Sonne bricht hervor.",
+      "uebersetzung": {
+        "fa": "خورشید از پشت ابرها بیرون می‌آید.",
+        "en": "The sun breaks through."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Plötzlich brach die ganze Wut, die sie jahrelang unterdrückt hatte, aus ihr hervor.",
+      "uebersetzung": {
+        "fa": "ناگهان همه‌ی خشمی که سال‌ها سرکوب کرده بود از او بیرون زد.",
+        "en": "Suddenly all the anger she had suppressed for years burst out of her."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausbrechen",
+      "uebersetzung": {
+        "fa": "فوران کردن",
+        "en": "to break out"
+      }
+    },
+    {
+      "wort": "hervorkommen",
+      "uebersetzung": {
+        "fa": "بیرون آمدن",
+        "en": "to come out"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hervor- (به بیرون، به جلو (از پشت چیزی)) + brechen (شکستن)",
+    "en": "hervor- (forth, out (from behind)) + brechen (to break)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "aus + Dat hervorbrechen",
+        "bedeutung": "plötzlich aus etwas herauskommen",
+        "beispiel": "Wasser brach aus dem Felsen hervor.",
+        "uebersetzung": {
+          "fa": "آب از دل صخره بیرون زد.",
+          "en": "Water burst out of the rock."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hervorbrechen",
+      "praeteritum": "brach hervor",
+      "partizip2": "hervorgebrochen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "breche hervor",
+        "du": "brichst hervor",
+        "er_sie_es": "bricht hervor",
+        "wir": "brechen hervor",
+        "ihr": "brecht hervor",
+        "sie_Sie": "brechen hervor"
+      },
+      "praeteritum": {
+        "ich": "brach hervor",
+        "du": "brachst hervor",
+        "er_sie_es": "brach hervor",
+        "wir": "brachen hervor",
+        "ihr": "bracht hervor",
+        "sie_Sie": "brachen hervor"
+      },
+      "konjunktiv1": {
+        "ich": "breche hervor",
+        "du": "brechest hervor",
+        "er_sie_es": "breche hervor",
+        "wir": "brechen hervor",
+        "ihr": "brechet hervor",
+        "sie_Sie": "brechen hervor"
+      },
+      "konjunktiv2": {
+        "ich": "bräche hervor",
+        "du": "brächest hervor",
+        "er_sie_es": "bräche hervor",
+        "wir": "brächen hervor",
+        "ihr": "brächet hervor",
+        "sie_Sie": "brächen hervor"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "hervorbrechend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "brechen",
+    "woerter": [
+      {
+        "wort": "brechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شکستن",
+          "en": "to break"
+        },
+        "id_ref": "verb_brechen"
+      },
+      {
+        "wort": "ausbrechen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فوران کردن",
+          "en": "to break out"
+        },
+        "id_ref": "verb_ausbrechen"
+      },
+      {
+        "wort": "plötzlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ناگهانی",
+          "en": "sudden"
+        },
+        "id_ref": "adjektiv_ploetzlich"
+      },
+      {
+        "wort": "die Wolke",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ابر",
+          "en": "cloud"
+        },
+        "id_ref": "nomen_wolke"
+      },
+      {
+        "wort": "hervor",
+        "wortart": "adverb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "به بیرون، به جلو",
+          "en": "forth"
+        },
+        "id_ref": "adverb_hervor"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

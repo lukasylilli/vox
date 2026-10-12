@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_hervorbringen",
+  "wort": "hervorbringen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پدید آوردن، به وجود آوردن، (هنرمند یا دانشمندی را) پرورش دادن",
+      "(صدا یا کلمه‌ای را) بیرون آوردن، بر زبان آوردن"
+    ],
+    "en": [
+      "to produce, to bring forth",
+      "to utter, to get out (a sound, word)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kultur",
+    "Natur",
+    "Wissenschaft"
+  ],
+  "ipa": "hɛɐ̯ˈfoːɐ̯ˌbʁɪŋən",
+  "anmerkung": "Gemischtes Verb: brachte hervor, hervorgebracht.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er bringt kein Wort hervor.",
+      "uebersetzung": {
+        "fa": "یک کلمه هم نمی‌تواند به زبان بیاورد.",
+        "en": "He can't get a word out."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Diese kleine Stadt hat erstaunlich viele berühmte Musiker hervorgebracht.",
+      "uebersetzung": {
+        "fa": "این شهر کوچک به‌طرز شگفت‌انگیزی موسیقی‌دانان مشهور زیادی پرورش داده است.",
+        "en": "This small town has produced an astonishing number of famous musicians."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erzeugen",
+      "uebersetzung": {
+        "fa": "تولید کردن",
+        "en": "to produce"
+      }
+    },
+    {
+      "wort": "schaffen",
+      "uebersetzung": {
+        "fa": "آفریدن",
+        "en": "to create"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hervor- (به بیرون، به جلو (از پشت چیزی)) + bringen (آوردن)",
+    "en": "hervor- (forth, out (from behind)) + bringen (to bring)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "hervorbringen",
+      "praeteritum": "brachte hervor",
+      "partizip2": "hervorgebracht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bringe hervor",
+        "du": "bringst hervor",
+        "er_sie_es": "bringt hervor",
+        "wir": "bringen hervor",
+        "ihr": "bringt hervor",
+        "sie_Sie": "bringen hervor"
+      },
+      "praeteritum": {
+        "ich": "brachte hervor",
+        "du": "brachtest hervor",
+        "er_sie_es": "brachte hervor",
+        "wir": "brachten hervor",
+        "ihr": "brachtet hervor",
+        "sie_Sie": "brachten hervor"
+      },
+      "konjunktiv1": {
+        "ich": "bringe hervor",
+        "du": "bringest hervor",
+        "er_sie_es": "bringe hervor",
+        "wir": "bringen hervor",
+        "ihr": "bringet hervor",
+        "sie_Sie": "bringen hervor"
+      },
+      "konjunktiv2": {
+        "ich": "brächte hervor",
+        "du": "brächtest hervor",
+        "er_sie_es": "brächte hervor",
+        "wir": "brächten hervor",
+        "ihr": "brächtet hervor",
+        "sie_Sie": "brächten hervor"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "hervorbringend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bringen",
+    "woerter": [
+      {
+        "wort": "bringen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آوردن",
+          "en": "to bring"
+        },
+        "id_ref": "verb_bringen"
+      },
+      {
+        "wort": "erzeugen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تولید کردن",
+          "en": "to produce"
+        },
+        "id_ref": "verb_erzeugen"
+      },
+      {
+        "wort": "schaffen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آفریدن",
+          "en": "to create"
+        },
+        "id_ref": "verb_schaffen"
+      },
+      {
+        "wort": "das Werk",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اثر",
+          "en": "work"
+        },
+        "id_ref": "nomen_werk"
+      },
+      {
+        "wort": "hervor",
+        "wortart": "adverb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "به بیرون",
+          "en": "forth"
+        },
+        "id_ref": "adverb_hervor"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_hervorkommen",
+  "wort": "hervorkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(از پشت یا زیر چیزی) بیرون آمدن، پیدا شدن"
+    ],
+    "en": [
+      "to come out (from behind/under)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Natur",
+    "Alltag"
+  ],
+  "ipa": "hɛɐ̯ˈfoːɐ̯ˌkɔmən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Komm hinter dem Baum hervor!",
+      "uebersetzung": {
+        "fa": "از پشت درخت بیا بیرون!",
+        "en": "Come out from behind the tree!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Erst als es ganz ruhig war, kam die scheue Katze unter dem Sofa hervor.",
+      "uebersetzung": {
+        "fa": "تازه وقتی همه‌جا کاملاً آرام شد، گربه‌ی خجالتی از زیر مبل بیرون آمد.",
+        "en": "Only when it was completely quiet did the shy cat come out from under the sofa."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "herauskommen",
+      "uebersetzung": {
+        "fa": "بیرون آمدن",
+        "en": "to come out"
+      }
+    },
+    {
+      "wort": "auftauchen",
+      "uebersetzung": {
+        "fa": "پیدا شدن",
+        "en": "to appear"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sich verstecken",
+      "uebersetzung": {
+        "fa": "پنهان شدن",
+        "en": "to hide"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hervor- (به بیرون، به جلو (از پشت چیزی)) + kommen (آمدن)",
+    "en": "hervor- (forth, out (from behind)) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "hinter/unter + Dat hervorkommen",
+        "bedeutung": "aus einem Versteck herauskommen",
+        "beispiel": "Die Sonne kam hinter den Wolken hervor.",
+        "uebersetzung": {
+          "fa": "خورشید از پشت ابرها بیرون آمد.",
+          "en": "The sun came out from behind the clouds."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hervorkommen",
+      "praeteritum": "kam hervor",
+      "partizip2": "hervorgekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme hervor",
+        "du": "kommst hervor",
+        "er_sie_es": "kommt hervor",
+        "wir": "kommen hervor",
+        "ihr": "kommt hervor",
+        "sie_Sie": "kommen hervor"
+      },
+      "praeteritum": {
+        "ich": "kam hervor",
+        "du": "kamst hervor",
+        "er_sie_es": "kam hervor",
+        "wir": "kamen hervor",
+        "ihr": "kamt hervor",
+        "sie_Sie": "kamen hervor"
+      },
+      "konjunktiv1": {
+        "ich": "komme hervor",
+        "du": "kommest hervor",
+        "er_sie_es": "komme hervor",
+        "wir": "kommen hervor",
+        "ihr": "kommet hervor",
+        "sie_Sie": "kommen hervor"
+      },
+      "konjunktiv2": {
+        "ich": "käme hervor",
+        "du": "kämest hervor",
+        "er_sie_es": "käme hervor",
+        "wir": "kämen hervor",
+        "ihr": "kämet hervor",
+        "sie_Sie": "kämen hervor"
+      },
+      "imperativ": {
+        "du": "Komm hervor!",
+        "ihr": "Kommt hervor!",
+        "Sie": "Kommen Sie hervor!"
+      }
+    },
+    "partizip1": "hervorkommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "herauskommen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیرون آمدن",
+          "en": "to come out"
+        },
+        "id_ref": "verb_herauskommen"
+      },
+      {
+        "wort": "sich verstecken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پنهان شدن",
+          "en": "to hide"
+        },
+        "id_ref": "verb_sich_verstecken"
+      },
+      {
+        "wort": "das Versteck",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مخفیگاه",
+          "en": "hiding place"
+        },
+        "id_ref": "nomen_versteck"
+      },
+      {
+        "wort": "hervor",
+        "wortart": "adverb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "به بیرون",
+          "en": "forth"
+        },
+        "id_ref": "adverb_hervor"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

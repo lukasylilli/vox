@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_hervorgehen",
+  "wort": "hervorgehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(از چیزی) معلوم شدن، برآمدن، نتیجه شدن",
+      "(از جایی یا وضعی) بیرون آمدن، (پیروز و مانند آن) به در آمدن"
+    ],
+    "en": [
+      "to emerge from, to be clear from",
+      "to come out of, to emerge (as winner)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft",
+    "Kommunikation"
+  ],
+  "ipa": "hɛɐ̯ˈfoːɐ̯ˌɡeːən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das geht aus dem Brief hervor.",
+      "uebersetzung": {
+        "fa": "این از نامه معلوم می‌شود.",
+        "en": "That is clear from the letter."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Aus der Studie geht hervor, dass Pflegekräfte in Nachtschicht häufiger Schlafprobleme haben.",
+      "uebersetzung": {
+        "fa": "از این مطالعه برمی‌آید که پرستارانِ شیفت شب بیشتر مشکل خواب دارند.",
+        "en": "The study shows that nurses on night shift more often have sleep problems."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich ergeben",
+      "uebersetzung": {
+        "fa": "نتیجه شدن",
+        "en": "to result"
+      }
+    },
+    {
+      "wort": "erkennbar sein",
+      "uebersetzung": {
+        "fa": "معلوم بودن",
+        "en": "to be evident"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hervor- (به بیرون، به جلو (از پشت چیزی)) + gehen (رفتن)",
+    "en": "hervor- (forth, out (from behind)) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "aus + Dat hervorgehen",
+        "bedeutung": "sich aus etwas ergeben; aus etwas entstehen",
+        "beispiel": "Sie ging als Siegerin aus dem Wettbewerb hervor.",
+        "uebersetzung": {
+          "fa": "او برنده‌ی مسابقه شد.",
+          "en": "She emerged as the winner of the competition."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hervorgehen",
+      "praeteritum": "ging hervor",
+      "partizip2": "hervorgegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe hervor",
+        "du": "gehst hervor",
+        "er_sie_es": "geht hervor",
+        "wir": "gehen hervor",
+        "ihr": "geht hervor",
+        "sie_Sie": "gehen hervor"
+      },
+      "praeteritum": {
+        "ich": "ging hervor",
+        "du": "gingst hervor",
+        "er_sie_es": "ging hervor",
+        "wir": "gingen hervor",
+        "ihr": "gingt hervor",
+        "sie_Sie": "gingen hervor"
+      },
+      "konjunktiv1": {
+        "ich": "gehe hervor",
+        "du": "gehest hervor",
+        "er_sie_es": "gehe hervor",
+        "wir": "gehen hervor",
+        "ihr": "gehet hervor",
+        "sie_Sie": "gehen hervor"
+      },
+      "konjunktiv2": {
+        "ich": "ginge hervor",
+        "du": "gingest hervor",
+        "er_sie_es": "ginge hervor",
+        "wir": "gingen hervor",
+        "ihr": "ginget hervor",
+        "sie_Sie": "gingen hervor"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "hervorgehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "sich ergeben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نتیجه شدن",
+          "en": "to result"
+        },
+        "id_ref": "verb_sich_ergeben"
+      },
+      {
+        "wort": "das Ergebnis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نتیجه",
+          "en": "result"
+        },
+        "id_ref": "nomen_ergebnis"
+      },
+      {
+        "wort": "die Studie",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مطالعه",
+          "en": "study"
+        },
+        "id_ref": "nomen_studie"
+      },
+      {
+        "wort": "hervor",
+        "wortart": "adverb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "به بیرون",
+          "en": "forth"
+        },
+        "id_ref": "adverb_hervor"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
