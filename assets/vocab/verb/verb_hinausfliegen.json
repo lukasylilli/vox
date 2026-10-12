@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_hinausfliegen",
+  "wort": "hinausfliegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(از جایی) پرواز کنان بیرون رفتن",
+      "(محاوره) اخراج شدن، بیرون انداخته شدن"
+    ],
+    "en": [
+      "to fly out",
+      "(colloquial) to be thrown out"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Tiere",
+    "Umgangssprache"
+  ],
+  "ipa": "hɪˈnaʊ̯sˌfliːɡn̩",
+  "anmerkung": "Umgangssprachlich oft «raus…». In der Bedeutung «hinausgeworfen werden» umgangssprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Vogel fliegt zum Fenster hinaus.",
+      "uebersetzung": {
+        "fa": "پرنده از پنجره بیرون پرواز می‌کند.",
+        "en": "The bird flies out of the window."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wer im Unterricht ständig stört, fliegt bei diesem Lehrer schnell hinaus.",
+      "uebersetzung": {
+        "fa": "هر کس مدام سر کلاس مزاحمت ایجاد کند، پیش این معلم زود از کلاس بیرون انداخته می‌شود.",
+        "en": "Anyone who keeps disrupting the lesson gets thrown out quickly by this teacher."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rausfliegen",
+      "uebersetzung": {
+        "fa": "(محاوره) اخراج شدن",
+        "en": "to get kicked out"
+      }
+    },
+    {
+      "wort": "herausfliegen",
+      "uebersetzung": {
+        "fa": "بیرون پریدن",
+        "en": "to fly out"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinaus- (به بیرون (دور از گوینده)) + fliegen (پرواز کردن)",
+    "en": "hinaus- (out (away from the speaker)) + fliegen (to fly)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "aus + Dat hinausfliegen",
+        "bedeutung": "aus etwas fliegen; aus etwas ausgeschlossen werden",
+        "beispiel": "Er ist aus der Mannschaft hinausgeflogen.",
+        "uebersetzung": {
+          "fa": "از تیم اخراج شد.",
+          "en": "He got kicked out of the team."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hinausfliegen",
+      "praeteritum": "flog hinaus",
+      "partizip2": "hinausgeflogen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fliege hinaus",
+        "du": "fliegst hinaus",
+        "er_sie_es": "fliegt hinaus",
+        "wir": "fliegen hinaus",
+        "ihr": "fliegt hinaus",
+        "sie_Sie": "fliegen hinaus"
+      },
+      "praeteritum": {
+        "ich": "flog hinaus",
+        "du": "flogst hinaus",
+        "er_sie_es": "flog hinaus",
+        "wir": "flogen hinaus",
+        "ihr": "flogt hinaus",
+        "sie_Sie": "flogen hinaus"
+      },
+      "konjunktiv1": {
+        "ich": "fliege hinaus",
+        "du": "fliegest hinaus",
+        "er_sie_es": "fliege hinaus",
+        "wir": "fliegen hinaus",
+        "ihr": "flieget hinaus",
+        "sie_Sie": "fliegen hinaus"
+      },
+      "konjunktiv2": {
+        "ich": "flöge hinaus",
+        "du": "flögest hinaus",
+        "er_sie_es": "flöge hinaus",
+        "wir": "flögen hinaus",
+        "ihr": "flöget hinaus",
+        "sie_Sie": "flögen hinaus"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "hinausfliegend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fliegen",
+    "woerter": [
+      {
+        "wort": "fliegen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرواز کردن",
+          "en": "to fly"
+        },
+        "id_ref": "verb_fliegen"
+      },
+      {
+        "wort": "herausfliegen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیرون پریدن؛ اخراج شدن",
+          "en": "to fly out; to get kicked out"
+        },
+        "id_ref": "verb_herausfliegen"
+      },
+      {
+        "wort": "rauswerfen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیرون انداختن",
+          "en": "to throw out"
+        },
+        "id_ref": "verb_rauswerfen"
+      },
+      {
+        "wort": "das Fenster",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پنجره",
+          "en": "window"
+        },
+        "id_ref": "nomen_fenster"
+      },
+      {
+        "wort": "hinaus",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به بیرون",
+          "en": "out"
+        },
+        "id_ref": "adverb_hinaus"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

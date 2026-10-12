@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_hindurchgehen",
+  "wort": "hindurchgehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "از میان (چیزی) گذشتن"
+    ],
+    "en": [
+      "to go through, to pass through"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Bewegung",
+    "Sprache (gehoben)"
+  ],
+  "ipa": "hɪnˈdʊʁçˌɡeːən",
+  "anmerkung": "Gehoben; alltagssprachlich meist «durchgehen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir gehen durch das Tor hindurch.",
+      "uebersetzung": {
+        "fa": "از دروازه رد می‌شویم.",
+        "en": "We go through the gate."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Licht geht durch das bunte Glas hindurch und färbt den ganzen Raum.",
+      "uebersetzung": {
+        "fa": "نور از شیشه‌ی رنگی عبور می‌کند و کل اتاق را رنگی می‌کند.",
+        "en": "The light passes through the coloured glass and colours the whole room."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "durchgehen",
+      "uebersetzung": {
+        "fa": "عبور کردن",
+        "en": "to go through"
+      }
+    },
+    {
+      "wort": "passieren",
+      "uebersetzung": {
+        "fa": "عبور کردن",
+        "en": "to pass"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hindurch- (از میان) + gehen (رفتن)",
+    "en": "hindurch- (through) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "durch + Akk hindurchgehen",
+        "bedeutung": "etwas durchqueren",
+        "beispiel": "Der Weg geht durch den Wald hindurch.",
+        "uebersetzung": {
+          "fa": "راه از میان جنگل می‌گذرد.",
+          "en": "The path goes through the forest."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hindurchgehen",
+      "praeteritum": "ging hindurch",
+      "partizip2": "hindurchgegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe hindurch",
+        "du": "gehst hindurch",
+        "er_sie_es": "geht hindurch",
+        "wir": "gehen hindurch",
+        "ihr": "geht hindurch",
+        "sie_Sie": "gehen hindurch"
+      },
+      "praeteritum": {
+        "ich": "ging hindurch",
+        "du": "gingst hindurch",
+        "er_sie_es": "ging hindurch",
+        "wir": "gingen hindurch",
+        "ihr": "gingt hindurch",
+        "sie_Sie": "gingen hindurch"
+      },
+      "konjunktiv1": {
+        "ich": "gehe hindurch",
+        "du": "gehest hindurch",
+        "er_sie_es": "gehe hindurch",
+        "wir": "gehen hindurch",
+        "ihr": "gehet hindurch",
+        "sie_Sie": "gehen hindurch"
+      },
+      "konjunktiv2": {
+        "ich": "ginge hindurch",
+        "du": "gingest hindurch",
+        "er_sie_es": "ginge hindurch",
+        "wir": "gingen hindurch",
+        "ihr": "ginget hindurch",
+        "sie_Sie": "gingen hindurch"
+      },
+      "imperativ": {
+        "du": "Geh hindurch!",
+        "ihr": "Geht hindurch!",
+        "Sie": "Gehen Sie hindurch!"
+      }
+    },
+    "partizip1": "hindurchgehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "durchgehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عبور کردن",
+          "en": "to go through"
+        },
+        "id_ref": "verb_durchgehen"
+      },
+      {
+        "wort": "das Tor",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دروازه",
+          "en": "gate"
+        },
+        "id_ref": "nomen_tor"
+      },
+      {
+        "wort": "der Tunnel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تونل",
+          "en": "tunnel"
+        },
+        "id_ref": "nomen_tunnel"
+      },
+      {
+        "wort": "hindurch",
+        "wortart": "adverb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "از میان",
+          "en": "through"
+        },
+        "id_ref": "adverb_hindurch"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

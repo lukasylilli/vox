@@ -1125,6 +1125,22 @@ const zurueckgestellt = <String>{
   'hinausdenken', // zurückgestellt (Regel 14/16): fast nur «über etwas hinausdenken»; selten 2026-10-11
   'hinausdringen', // zurückgestellt (Regel 14/16): selten 2026-10-11
   'hinausdürfen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'hinausgreifen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hinaushalten', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hinaushängen', // zurückgestellt (Regel 14/16): transitiv schwach, intransitiv stark — Formen schwanken 2026-10-11
+  'hinausheben', // zurückgestellt (Regel 14/16): fast nur «über etwas hinausheben»; selten 2026-10-11
+  'hinauskönnen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'hinausmüssen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'hinbegeben', // zurückgestellt (Regel 14/16): sich hinbegeben — gehoben, selten 2026-10-11
+  'hinbieten', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-11
+  'hindurchdringen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hindurchdürfen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'hindurchfließen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hindurchkönnen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'hindurchkriechen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hindurchmüssen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'hindürfen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'hineinbegeben', // zurückgestellt (Regel 14/16): sich hineinbegeben — gehoben, selten 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

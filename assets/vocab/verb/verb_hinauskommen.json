@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_hinauskommen",
+  "wort": "hinauskommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بیرون رفتن (توانستن)، بیرون آمدن",
+      "(über etwas hinauskommen) از (مرحله‌ای) جلوتر رفتن"
+    ],
+    "en": [
+      "to get out",
+      "(über etw) to get beyond"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Lernen"
+  ],
+  "ipa": "hɪˈnaʊ̯sˌkɔmən",
+  "anmerkung": "Umgangssprachlich oft «raus…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir kommen hier nicht hinaus.",
+      "uebersetzung": {
+        "fa": "از اینجا نمی‌توانیم بیرون برویم.",
+        "en": "We can't get out of here."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Mit seinem Deutsch ist er leider nie über das Niveau A2 hinausgekommen.",
+      "uebersetzung": {
+        "fa": "متأسفانه آلمانی‌اش هرگز از سطح A2 جلوتر نرفت.",
+        "en": "Unfortunately his German never got beyond level A2."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rauskommen",
+      "uebersetzung": {
+        "fa": "(محاوره) بیرون آمدن",
+        "en": "to get out"
+      }
+    },
+    {
+      "wort": "überwinden",
+      "uebersetzung": {
+        "fa": "پشت سر گذاشتن",
+        "en": "to overcome"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinaus- (به بیرون (دور از گوینده)) + kommen (آمدن)",
+    "en": "hinaus- (out (away from the speaker)) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "über + Akk hinauskommen",
+        "bedeutung": "eine Stufe überschreiten",
+        "beispiel": "Das Projekt kam nie über die Planung hinaus.",
+        "uebersetzung": {
+          "fa": "پروژه هرگز از مرحله‌ی برنامه‌ریزی جلوتر نرفت.",
+          "en": "The project never got beyond the planning stage."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hinauskommen",
+      "praeteritum": "kam hinaus",
+      "partizip2": "hinausgekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme hinaus",
+        "du": "kommst hinaus",
+        "er_sie_es": "kommt hinaus",
+        "wir": "kommen hinaus",
+        "ihr": "kommt hinaus",
+        "sie_Sie": "kommen hinaus"
+      },
+      "praeteritum": {
+        "ich": "kam hinaus",
+        "du": "kamst hinaus",
+        "er_sie_es": "kam hinaus",
+        "wir": "kamen hinaus",
+        "ihr": "kamt hinaus",
+        "sie_Sie": "kamen hinaus"
+      },
+      "konjunktiv1": {
+        "ich": "komme hinaus",
+        "du": "kommest hinaus",
+        "er_sie_es": "komme hinaus",
+        "wir": "kommen hinaus",
+        "ihr": "kommet hinaus",
+        "sie_Sie": "kommen hinaus"
+      },
+      "konjunktiv2": {
+        "ich": "käme hinaus",
+        "du": "kämest hinaus",
+        "er_sie_es": "käme hinaus",
+        "wir": "kämen hinaus",
+        "ihr": "kämet hinaus",
+        "sie_Sie": "kämen hinaus"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "hinauskommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "herauskommen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیرون آمدن",
+          "en": "to come out"
+        },
+        "id_ref": "verb_herauskommen"
+      },
+      {
+        "wort": "das Niveau",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سطح",
+          "en": "level"
+        },
+        "id_ref": "nomen_niveau"
+      },
+      {
+        "wort": "der Fortschritt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیشرفت",
+          "en": "progress"
+        },
+        "id_ref": "nomen_fortschritt"
+      },
+      {
+        "wort": "hinaus",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به بیرون",
+          "en": "out"
+        },
+        "id_ref": "adverb_hinaus"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
