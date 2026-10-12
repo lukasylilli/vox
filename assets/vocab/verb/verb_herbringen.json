@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_herbringen",
+  "wort": "herbringen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(کسی یا چیزی را) به اینجا آوردن"
+    ],
+    "en": [
+      "to bring (here)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈheːɐ̯ˌbʁɪŋən",
+  "anmerkung": "Gemischtes Verb: brachte her, hergebracht.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bring mir bitte das Buch her!",
+      "uebersetzung": {
+        "fa": "لطفاً کتاب را برایم بیاور اینجا!",
+        "en": "Please bring me the book!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wer hat die ganzen Kartons hergebracht? Hier ist doch gar kein Platz dafür.",
+      "uebersetzung": {
+        "fa": "چه کسی این همه کارتن را آورده اینجا؟ اینجا که اصلاً جا برایش نیست.",
+        "en": "Who brought all these boxes here? There's no room for them at all here."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bringen",
+      "uebersetzung": {
+        "fa": "آوردن",
+        "en": "to bring"
+      }
+    },
+    {
+      "wort": "herbeibringen",
+      "uebersetzung": {
+        "fa": "آوردن",
+        "en": "to fetch"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "wegbringen",
+      "uebersetzung": {
+        "fa": "بردن",
+        "en": "to take away"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "her- (به این سو (به سمت گوینده)) + bringen (آوردن)",
+    "en": "her- (here (towards the speaker)) + bringen (to bring)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "herbringen",
+      "praeteritum": "brachte her",
+      "partizip2": "hergebracht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bringe her",
+        "du": "bringst her",
+        "er_sie_es": "bringt her",
+        "wir": "bringen her",
+        "ihr": "bringt her",
+        "sie_Sie": "bringen her"
+      },
+      "praeteritum": {
+        "ich": "brachte her",
+        "du": "brachtest her",
+        "er_sie_es": "brachte her",
+        "wir": "brachten her",
+        "ihr": "brachtet her",
+        "sie_Sie": "brachten her"
+      },
+      "konjunktiv1": {
+        "ich": "bringe her",
+        "du": "bringest her",
+        "er_sie_es": "bringe her",
+        "wir": "bringen her",
+        "ihr": "bringet her",
+        "sie_Sie": "bringen her"
+      },
+      "konjunktiv2": {
+        "ich": "brächte her",
+        "du": "brächtest her",
+        "er_sie_es": "brächte her",
+        "wir": "brächten her",
+        "ihr": "brächtet her",
+        "sie_Sie": "brächten her"
+      },
+      "imperativ": {
+        "du": "Bring her!",
+        "ihr": "Bringt her!",
+        "Sie": "Bringen Sie her!"
+      }
+    },
+    "partizip1": "herbringend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bringen",
+    "woerter": [
+      {
+        "wort": "bringen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آوردن",
+          "en": "to bring"
+        },
+        "id_ref": "verb_bringen"
+      },
+      {
+        "wort": "wegbringen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بردن",
+          "en": "to take away"
+        },
+        "id_ref": "verb_wegbringen"
+      },
+      {
+        "wort": "holen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آوردن",
+          "en": "to fetch"
+        },
+        "id_ref": "verb_holen"
+      },
+      {
+        "wort": "her",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "به اینجا",
+          "en": "here"
+        },
+        "id_ref": "adverb_her"
+      },
+      {
+        "wort": "mitbringen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "با خود آوردن",
+          "en": "to bring along"
+        },
+        "id_ref": "verb_mitbringen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

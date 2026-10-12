@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_herausluegen",
+  "wort": "herauslügen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(sich herauslügen) با دروغ خود را (از وضع بدی) بیرون کشیدن"
+    ],
+    "en": [
+      "(sich) to lie one's way out (of)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Moral",
+    "Beziehungen"
+  ],
+  "ipa": "hɛˈʁaʊ̯sˌlyːɡn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er lügt sich immer heraus.",
+      "uebersetzung": {
+        "fa": "او همیشه با دروغ خودش را خلاص می‌کند.",
+        "en": "He always lies his way out."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als man ihn mit dem Fehler konfrontierte, versuchte er, sich mit einer erfundenen Geschichte herauszulügen.",
+      "uebersetzung": {
+        "fa": "وقتی با اشتباهش روبه‌رویش کردند، سعی کرد با یک داستان ساختگی خودش را خلاص کند.",
+        "en": "When he was confronted with the mistake, he tried to lie his way out of it with a made-up story."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich herausreden",
+      "uebersetzung": {
+        "fa": "با حرف خود را خلاص کردن",
+        "en": "to talk one's way out"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "gestehen",
+      "uebersetzung": {
+        "fa": "اعتراف کردن",
+        "en": "to confess"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "heraus- (به بیرون (به این سو)) + lügen (دروغ گفتن)",
+    "en": "heraus- (out (towards the speaker)) + lügen (to lie)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich aus + Dat herauslügen",
+        "bedeutung": "sich mit Lügen aus einer Situation befreien",
+        "beispiel": "Aus dieser Sache kannst du dich nicht herauslügen.",
+        "uebersetzung": {
+          "fa": "از این ماجرا نمی‌توانی با دروغ خودت را خلاص کنی.",
+          "en": "You can't lie your way out of this."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herauslügen",
+      "praeteritum": "log heraus",
+      "partizip2": "herausgelogen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lüge heraus",
+        "du": "lügst heraus",
+        "er_sie_es": "lügt heraus",
+        "wir": "lügen heraus",
+        "ihr": "lügt heraus",
+        "sie_Sie": "lügen heraus"
+      },
+      "praeteritum": {
+        "ich": "log heraus",
+        "du": "logst heraus",
+        "er_sie_es": "log heraus",
+        "wir": "logen heraus",
+        "ihr": "logt heraus",
+        "sie_Sie": "logen heraus"
+      },
+      "konjunktiv1": {
+        "ich": "lüge heraus",
+        "du": "lügest heraus",
+        "er_sie_es": "lüge heraus",
+        "wir": "lügen heraus",
+        "ihr": "lüget heraus",
+        "sie_Sie": "lügen heraus"
+      },
+      "konjunktiv2": {
+        "ich": "löge heraus",
+        "du": "lögest heraus",
+        "er_sie_es": "löge heraus",
+        "wir": "lögen heraus",
+        "ihr": "löget heraus",
+        "sie_Sie": "lögen heraus"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "herauslügend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "lügen",
+    "woerter": [
+      {
+        "wort": "lügen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دروغ گفتن",
+          "en": "to lie"
+        },
+        "id_ref": "verb_luegen"
+      },
+      {
+        "wort": "die Lüge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دروغ",
+          "en": "lie"
+        },
+        "id_ref": "nomen_luege"
+      },
+      {
+        "wort": "die Ausrede",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بهانه",
+          "en": "excuse"
+        },
+        "id_ref": "nomen_ausrede"
+      },
+      {
+        "wort": "gestehen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اعتراف کردن",
+          "en": "to confess"
+        },
+        "id_ref": "verb_gestehen"
+      },
+      {
+        "wort": "die Wahrheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حقیقت",
+          "en": "truth"
+        },
+        "id_ref": "nomen_wahrheit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

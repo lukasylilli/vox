@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_herauslesen",
+  "wort": "herauslesen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(از متن یا گفته‌ای، معنایی پنهان را) برداشت کردن، استنباط کردن"
+    ],
+    "en": [
+      "to read into, to gather from (a text)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation",
+    "Lesen"
+  ],
+  "ipa": "hɛˈʁaʊ̯sˌleːzn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Was liest du daraus heraus?",
+      "uebersetzung": {
+        "fa": "از این چه برداشتی می‌کنی؟",
+        "en": "What do you gather from that?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Aus ihrer kurzen Nachricht konnte ich herauslesen, dass sie noch immer verärgert war.",
+      "uebersetzung": {
+        "fa": "از پیام کوتاهش می‌توانستم بفهمم که هنوز هم دلخور است.",
+        "en": "From her short message I could gather that she was still annoyed."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "entnehmen",
+      "uebersetzung": {
+        "fa": "استنباط کردن",
+        "en": "to gather"
+      }
+    },
+    {
+      "wort": "schließen aus",
+      "uebersetzung": {
+        "fa": "نتیجه گرفتن از",
+        "en": "to conclude from"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "heraus- (به بیرون (به این سو)) + lesen (خواندن)",
+    "en": "heraus- (out (towards the speaker)) + lesen (to read)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas aus + Dat herauslesen",
+        "bedeutung": "etwas aus einem Text erschließen",
+        "beispiel": "Aus dem Brief lässt sich viel Angst herauslesen.",
+        "uebersetzung": {
+          "fa": "از نامه می‌شود ترس زیادی را حس کرد.",
+          "en": "A lot of fear can be read into the letter."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herauslesen",
+      "praeteritum": "las heraus",
+      "partizip2": "herausgelesen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lese heraus",
+        "du": "liest heraus",
+        "er_sie_es": "liest heraus",
+        "wir": "lesen heraus",
+        "ihr": "lest heraus",
+        "sie_Sie": "lesen heraus"
+      },
+      "praeteritum": {
+        "ich": "las heraus",
+        "du": "lasest heraus",
+        "er_sie_es": "las heraus",
+        "wir": "lasen heraus",
+        "ihr": "last heraus",
+        "sie_Sie": "lasen heraus"
+      },
+      "konjunktiv1": {
+        "ich": "lese heraus",
+        "du": "lesest heraus",
+        "er_sie_es": "lese heraus",
+        "wir": "lesen heraus",
+        "ihr": "leset heraus",
+        "sie_Sie": "lesen heraus"
+      },
+      "konjunktiv2": {
+        "ich": "läse heraus",
+        "du": "läsest heraus",
+        "er_sie_es": "läse heraus",
+        "wir": "läsen heraus",
+        "ihr": "läset heraus",
+        "sie_Sie": "läsen heraus"
+      },
+      "imperativ": {
+        "du": "Lies heraus!",
+        "ihr": "Lest heraus!",
+        "Sie": "Lesen Sie heraus!"
+      }
+    },
+    "partizip1": "herauslesend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "lesen",
+    "woerter": [
+      {
+        "wort": "lesen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خواندن",
+          "en": "to read"
+        },
+        "id_ref": "verb_lesen"
+      },
+      {
+        "wort": "entnehmen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "استنباط کردن",
+          "en": "to gather"
+        },
+        "id_ref": "verb_entnehmen"
+      },
+      {
+        "wort": "die Bedeutung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "معنی",
+          "en": "meaning"
+        },
+        "id_ref": "nomen_bedeutung"
+      },
+      {
+        "wort": "der Text",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "متن",
+          "en": "text"
+        },
+        "id_ref": "nomen_text"
+      },
+      {
+        "wort": "interpretieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تفسیر کردن",
+          "en": "to interpret"
+        },
+        "id_ref": "verb_interpretieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

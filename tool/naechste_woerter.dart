@@ -1072,6 +1072,10 @@ const zurueckgestellt = <String>{
   'heraushauen', // zurückgestellt (Regel 14/16): umgangssprachlich; Präteritum schwankt (haute/hieb) 2026-10-11
   'herausklingen', // zurückgestellt (Regel 14/16): selten 2026-10-11
   'herauskönnen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'herausmüssen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'herbeifahren', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'herbeifliegen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'herbeilassen', // zurückgestellt (Regel 14/16): sich herbeilassen — gehoben, selten 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
