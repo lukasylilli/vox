@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_herausfinden",
+  "wort": "herausfinden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "فهمیدن، کشف کردن، سر درآوردن",
+      "(از جایی) راه خروج را پیدا کردن"
+    ],
+    "en": [
+      "to find out, to discover",
+      "to find one's way out"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Denken",
+    "Alltag"
+  ],
+  "ipa": "hɛˈʁaʊ̯sˌfɪndn̩",
+  "anmerkung": "Umgangssprachlich oft «rauskommen», «rausfinden» usw.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich finde es heraus.",
+      "uebersetzung": {
+        "fa": "می‌فهممش (پیدایش می‌کنم).",
+        "en": "I'll find out."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Ärzte konnten lange nicht herausfinden, warum der Patient immer wieder Fieber bekam.",
+      "uebersetzung": {
+        "fa": "پزشکان مدت زیادی نمی‌توانستند بفهمند چرا بیمار مدام تب می‌کرد.",
+        "en": "For a long time the doctors couldn't find out why the patient kept getting a fever."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erfahren",
+      "uebersetzung": {
+        "fa": "فهمیدن",
+        "en": "to learn"
+      }
+    },
+    {
+      "wort": "entdecken",
+      "uebersetzung": {
+        "fa": "کشف کردن",
+        "en": "to discover"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "heraus- (به بیرون (به این سو)) + finden (پیدا کردن)",
+    "en": "heraus- (out (towards the speaker)) + finden (to find)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "aus + Dat herausfinden",
+        "bedeutung": "den Weg aus etwas finden",
+        "beispiel": "Wir haben kaum aus dem Wald herausgefunden.",
+        "uebersetzung": {
+          "fa": "به‌زحمت راه بیرون رفتن از جنگل را پیدا کردیم.",
+          "en": "We barely found our way out of the forest."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herausfinden",
+      "praeteritum": "fand heraus",
+      "partizip2": "herausgefunden"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "finde heraus",
+        "du": "findest heraus",
+        "er_sie_es": "findet heraus",
+        "wir": "finden heraus",
+        "ihr": "findet heraus",
+        "sie_Sie": "finden heraus"
+      },
+      "praeteritum": {
+        "ich": "fand heraus",
+        "du": "fandest heraus",
+        "er_sie_es": "fand heraus",
+        "wir": "fanden heraus",
+        "ihr": "fandet heraus",
+        "sie_Sie": "fanden heraus"
+      },
+      "konjunktiv1": {
+        "ich": "finde heraus",
+        "du": "findest heraus",
+        "er_sie_es": "finde heraus",
+        "wir": "finden heraus",
+        "ihr": "findet heraus",
+        "sie_Sie": "finden heraus"
+      },
+      "konjunktiv2": {
+        "ich": "fände heraus",
+        "du": "fändest heraus",
+        "er_sie_es": "fände heraus",
+        "wir": "fänden heraus",
+        "ihr": "fändet heraus",
+        "sie_Sie": "fänden heraus"
+      },
+      "imperativ": {
+        "du": "Finde heraus!",
+        "ihr": "Findet heraus!",
+        "Sie": "Finden Sie heraus!"
+      }
+    },
+    "partizip1": "herausfindend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "finden",
+    "woerter": [
+      {
+        "wort": "finden",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پیدا کردن",
+          "en": "to find"
+        },
+        "id_ref": "verb_finden"
+      },
+      {
+        "wort": "erfahren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فهمیدن",
+          "en": "to find out"
+        },
+        "id_ref": "verb_erfahren"
+      },
+      {
+        "wort": "entdecken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کشف کردن",
+          "en": "to discover"
+        },
+        "id_ref": "verb_entdecken"
+      },
+      {
+        "wort": "die Lösung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "راه‌حل",
+          "en": "solution"
+        },
+        "id_ref": "nomen_loesung"
+      },
+      {
+        "wort": "der Grund",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دلیل",
+          "en": "reason"
+        },
+        "id_ref": "nomen_grund"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

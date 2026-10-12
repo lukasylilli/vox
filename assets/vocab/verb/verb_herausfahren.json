@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_herausfahren",
+  "wort": "herausfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با وسیله‌ی نقلیه) بیرون آمدن",
+      "(ماشین را از جایی) بیرون آوردن"
+    ],
+    "en": [
+      "to drive out, to come out",
+      "to drive (a vehicle) out"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr"
+  ],
+  "ipa": "hɛˈʁaʊ̯sˌfaːʁən",
+  "anmerkung": "Umgangssprachlich oft «rauskommen», «rausfinden» usw. Transitiv (das Auto aus der Garage herausfahren) mit «haben».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Zug fährt aus dem Tunnel heraus.",
+      "uebersetzung": {
+        "fa": "قطار از تونل بیرون می‌آید.",
+        "en": "The train comes out of the tunnel."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ich habe das Auto aus der Garage herausgefahren, damit wir die Fahrräder einpacken können.",
+      "uebersetzung": {
+        "fa": "ماشین را از پارکینگ بیرون آوردم تا بتوانیم دوچرخه‌ها را بار بزنیم.",
+        "en": "I drove the car out of the garage so that we could load the bikes."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hinausfahren",
+      "uebersetzung": {
+        "fa": "بیرون رفتن (با وسیله)",
+        "en": "to drive out"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hineinfahren",
+      "uebersetzung": {
+        "fa": "داخل رفتن (با وسیله)",
+        "en": "to drive in"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "heraus- (به بیرون (به این سو)) + fahren (رفتن (با وسیله))",
+    "en": "heraus- (out (towards the speaker)) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "aus + Dat herausfahren",
+        "bedeutung": "fahrend etwas verlassen",
+        "beispiel": "Langsam fuhr das Schiff aus dem Hafen heraus.",
+        "uebersetzung": {
+          "fa": "کشتی آرام از بندر بیرون رفت.",
+          "en": "The ship slowly sailed out of the harbour."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herausfahren",
+      "praeteritum": "fuhr heraus",
+      "partizip2": "herausgefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre heraus",
+        "du": "fährst heraus",
+        "er_sie_es": "fährt heraus",
+        "wir": "fahren heraus",
+        "ihr": "fahrt heraus",
+        "sie_Sie": "fahren heraus"
+      },
+      "praeteritum": {
+        "ich": "fuhr heraus",
+        "du": "fuhrst heraus",
+        "er_sie_es": "fuhr heraus",
+        "wir": "fuhren heraus",
+        "ihr": "fuhrt heraus",
+        "sie_Sie": "fuhren heraus"
+      },
+      "konjunktiv1": {
+        "ich": "fahre heraus",
+        "du": "fahrest heraus",
+        "er_sie_es": "fahre heraus",
+        "wir": "fahren heraus",
+        "ihr": "fahret heraus",
+        "sie_Sie": "fahren heraus"
+      },
+      "konjunktiv2": {
+        "ich": "führe heraus",
+        "du": "führest heraus",
+        "er_sie_es": "führe heraus",
+        "wir": "führen heraus",
+        "ihr": "führet heraus",
+        "sie_Sie": "führen heraus"
+      },
+      "imperativ": {
+        "du": "Fahr heraus!",
+        "ihr": "Fahrt heraus!",
+        "Sie": "Fahren Sie heraus!"
+      }
+    },
+    "partizip1": "herausfahrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "die Ausfahrt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خروجی",
+          "en": "exit"
+        },
+        "id_ref": "nomen_ausfahrt"
+      },
+      {
+        "wort": "die Garage",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پارکینگ، گاراژ",
+          "en": "garage"
+        },
+        "id_ref": "nomen_garage"
+      },
+      {
+        "wort": "hineinfahren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "داخل رفتن",
+          "en": "to drive in"
+        },
+        "id_ref": "verb_hineinfahren"
+      },
+      {
+        "wort": "heraus",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیرون (به این سو)",
+          "en": "out"
+        },
+        "id_ref": "adverb_heraus"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_heraufkommen",
+  "wort": "heraufkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بالا آمدن (به این سو)",
+      "(طوفان یا خطری) نزدیک شدن"
+    ],
+    "en": [
+      "to come up",
+      "to approach, to come up (storm, danger)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Wetter"
+  ],
+  "ipa": "hɛˈʁaʊ̯fˌkɔmən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Komm doch herauf!",
+      "uebersetzung": {
+        "fa": "بیا بالا دیگر!",
+        "en": "Come on up!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Am Nachmittag kam ein schweres Gewitter herauf, und wir mussten schnell vom Berg absteigen.",
+      "uebersetzung": {
+        "fa": "بعدازظهر طوفان شدیدی از راه رسید و مجبور شدیم سریع از کوه پایین بیاییم.",
+        "en": "In the afternoon a heavy thunderstorm came up, and we had to get down the mountain quickly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hochkommen",
+      "uebersetzung": {
+        "fa": "بالا آمدن",
+        "en": "to come up"
+      }
+    },
+    {
+      "wort": "sich nähern",
+      "uebersetzung": {
+        "fa": "نزدیک شدن",
+        "en": "to approach"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hinuntergehen",
+      "uebersetzung": {
+        "fa": "پایین رفتن",
+        "en": "to go down"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "herauf- (به بالا (به این سو)) + kommen (آمدن)",
+    "en": "herauf- (up (towards the speaker)) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "heraufkommen",
+      "praeteritum": "kam herauf",
+      "partizip2": "heraufgekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme herauf",
+        "du": "kommst herauf",
+        "er_sie_es": "kommt herauf",
+        "wir": "kommen herauf",
+        "ihr": "kommt herauf",
+        "sie_Sie": "kommen herauf"
+      },
+      "praeteritum": {
+        "ich": "kam herauf",
+        "du": "kamst herauf",
+        "er_sie_es": "kam herauf",
+        "wir": "kamen herauf",
+        "ihr": "kamt herauf",
+        "sie_Sie": "kamen herauf"
+      },
+      "konjunktiv1": {
+        "ich": "komme herauf",
+        "du": "kommest herauf",
+        "er_sie_es": "komme herauf",
+        "wir": "kommen herauf",
+        "ihr": "kommet herauf",
+        "sie_Sie": "kommen herauf"
+      },
+      "konjunktiv2": {
+        "ich": "käme herauf",
+        "du": "kämest herauf",
+        "er_sie_es": "käme herauf",
+        "wir": "kämen herauf",
+        "ihr": "kämet herauf",
+        "sie_Sie": "kämen herauf"
+      },
+      "imperativ": {
+        "du": "Komm herauf!",
+        "ihr": "Kommt herauf!",
+        "Sie": "Kommen Sie herauf!"
+      }
+    },
+    "partizip1": "heraufkommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "hochkommen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بالا آمدن",
+          "en": "to come up"
+        },
+        "id_ref": "verb_hochkommen"
+      },
+      {
+        "wort": "die Treppe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پله",
+          "en": "stairs"
+        },
+        "id_ref": "nomen_treppe"
+      },
+      {
+        "wort": "das Gewitter",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "طوفان و رعد",
+          "en": "thunderstorm"
+        },
+        "id_ref": "nomen_gewitter"
+      },
+      {
+        "wort": "oben",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بالا",
+          "en": "up"
+        },
+        "id_ref": "adverb_oben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_herausfliegen",
+  "wort": "herausfliegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(از جایی) پرواز کردن و بیرون آمدن، بیرون پریدن",
+      "(محاوره) اخراج شدن، بیرون انداخته شدن"
+    ],
+    "en": [
+      "to fly out",
+      "(colloquial) to be kicked out"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Umgangssprache"
+  ],
+  "ipa": "hɛˈʁaʊ̯sˌfliːɡn̩",
+  "anmerkung": "Umgangssprachlich oft «rauskommen», «rausfinden» usw. In der Bedeutung «hinausgeworfen werden» umgangssprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ein Vogel fliegt aus dem Nest heraus.",
+      "uebersetzung": {
+        "fa": "پرنده‌ای از لانه بیرون می‌پرد.",
+        "en": "A bird flies out of the nest."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil er dreimal zu spät kam, ist er aus dem Kurs herausgeflogen.",
+      "uebersetzung": {
+        "fa": "چون سه بار دیر آمد، از دوره اخراج شد.",
+        "en": "Because he was late three times, he got kicked out of the course."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rausfliegen",
+      "uebersetzung": {
+        "fa": "(محاوره) اخراج شدن",
+        "en": "to get kicked out"
+      }
+    },
+    {
+      "wort": "hinausgeworfen werden",
+      "uebersetzung": {
+        "fa": "بیرون انداخته شدن",
+        "en": "to be thrown out"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "heraus- (به بیرون (به این سو)) + fliegen (پرواز کردن)",
+    "en": "heraus- (out (towards the speaker)) + fliegen (to fly)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "aus + Dat herausfliegen",
+        "bedeutung": "aus etwas fliegen; aus etwas ausgeschlossen werden",
+        "beispiel": "Er ist aus der Wohnung herausgeflogen.",
+        "uebersetzung": {
+          "fa": "از آپارتمان بیرونش انداختند.",
+          "en": "He got thrown out of the flat."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herausfliegen",
+      "praeteritum": "flog heraus",
+      "partizip2": "herausgeflogen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fliege heraus",
+        "du": "fliegst heraus",
+        "er_sie_es": "fliegt heraus",
+        "wir": "fliegen heraus",
+        "ihr": "fliegt heraus",
+        "sie_Sie": "fliegen heraus"
+      },
+      "praeteritum": {
+        "ich": "flog heraus",
+        "du": "flogst heraus",
+        "er_sie_es": "flog heraus",
+        "wir": "flogen heraus",
+        "ihr": "flogt heraus",
+        "sie_Sie": "flogen heraus"
+      },
+      "konjunktiv1": {
+        "ich": "fliege heraus",
+        "du": "fliegest heraus",
+        "er_sie_es": "fliege heraus",
+        "wir": "fliegen heraus",
+        "ihr": "flieget heraus",
+        "sie_Sie": "fliegen heraus"
+      },
+      "konjunktiv2": {
+        "ich": "flöge heraus",
+        "du": "flögest heraus",
+        "er_sie_es": "flöge heraus",
+        "wir": "flögen heraus",
+        "ihr": "flöget heraus",
+        "sie_Sie": "flögen heraus"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "herausfliegend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fliegen",
+    "woerter": [
+      {
+        "wort": "fliegen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرواز کردن",
+          "en": "to fly"
+        },
+        "id_ref": "verb_fliegen"
+      },
+      {
+        "wort": "rauswerfen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیرون انداختن",
+          "en": "to throw out"
+        },
+        "id_ref": "verb_rauswerfen"
+      },
+      {
+        "wort": "kündigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اخراج کردن، فسخ کردن",
+          "en": "to dismiss"
+        },
+        "id_ref": "verb_kuendigen"
+      },
+      {
+        "wort": "das Nest",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لانه",
+          "en": "nest"
+        },
+        "id_ref": "nomen_nest"
+      },
+      {
+        "wort": "heraus",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیرون",
+          "en": "out"
+        },
+        "id_ref": "adverb_heraus"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

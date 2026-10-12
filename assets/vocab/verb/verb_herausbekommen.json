@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_herausbekommen",
+  "wort": "herausbekommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(چیزی را از جایی) بیرون آوردن (با زحمت)",
+      "(رازی یا جوابی را) فهمیدن، کشف کردن",
+      "(پول خرد) پس گرفتن"
+    ],
+    "en": [
+      "to get out",
+      "to find out, to work out",
+      "to get back (as change)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Denken",
+    "Einkaufen"
+  ],
+  "ipa": "hɛˈʁaʊ̯sbəˌkɔmən",
+  "anmerkung": "Umgangssprachlich oft «rauskommen», «rausfinden» usw.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie bekommen zwei Euro heraus.",
+      "uebersetzung": {
+        "fa": "دو یورو پول خرد پس می‌گیرید.",
+        "en": "You get two euros change."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Polizei hat schnell herausbekommen, wer hinter dem Einbruch steckte.",
+      "uebersetzung": {
+        "fa": "پلیس خیلی زود فهمید چه کسی پشت آن دستبرد بود.",
+        "en": "The police quickly found out who was behind the burglary."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "herausfinden",
+      "uebersetzung": {
+        "fa": "فهمیدن، کشف کردن",
+        "en": "to find out"
+      }
+    },
+    {
+      "wort": "lösen",
+      "uebersetzung": {
+        "fa": "حل کردن",
+        "en": "to solve"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "heraus- (به بیرون (به این سو)) + bekommen (گرفتن)",
+    "en": "heraus- (out (towards the speaker)) + bekommen (to get)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas aus + Dat herausbekommen",
+        "bedeutung": "etwas aus etwas entfernen können",
+        "beispiel": "Ich bekomme den Fleck nicht aus der Bluse heraus.",
+        "uebersetzung": {
+          "fa": "لکه از بلوزم پاک نمی‌شود.",
+          "en": "I can't get the stain out of the blouse."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herausbekommen",
+      "praeteritum": "bekam heraus",
+      "partizip2": "herausbekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bekomme heraus",
+        "du": "bekommst heraus",
+        "er_sie_es": "bekommt heraus",
+        "wir": "bekommen heraus",
+        "ihr": "bekommt heraus",
+        "sie_Sie": "bekommen heraus"
+      },
+      "praeteritum": {
+        "ich": "bekam heraus",
+        "du": "bekamst heraus",
+        "er_sie_es": "bekam heraus",
+        "wir": "bekamen heraus",
+        "ihr": "bekamt heraus",
+        "sie_Sie": "bekamen heraus"
+      },
+      "konjunktiv1": {
+        "ich": "bekomme heraus",
+        "du": "bekommest heraus",
+        "er_sie_es": "bekomme heraus",
+        "wir": "bekommen heraus",
+        "ihr": "bekommet heraus",
+        "sie_Sie": "bekommen heraus"
+      },
+      "konjunktiv2": {
+        "ich": "bekäme heraus",
+        "du": "bekämest heraus",
+        "er_sie_es": "bekäme heraus",
+        "wir": "bekämen heraus",
+        "ihr": "bekämet heraus",
+        "sie_Sie": "bekämen heraus"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "herausbekommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bekommen",
+    "woerter": [
+      {
+        "wort": "bekommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گرفتن",
+          "en": "to get"
+        },
+        "id_ref": "verb_bekommen"
+      },
+      {
+        "wort": "herausfinden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فهمیدن",
+          "en": "to find out"
+        },
+        "id_ref": "verb_herausfinden"
+      },
+      {
+        "wort": "das Wechselgeld",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پول خرد (باقی)",
+          "en": "change"
+        },
+        "id_ref": "nomen_wechselgeld"
+      },
+      {
+        "wort": "das Rätsel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "معما",
+          "en": "puzzle"
+        },
+        "id_ref": "nomen_raetsel"
+      },
+      {
+        "wort": "der Fleck",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لکه",
+          "en": "stain"
+        },
+        "id_ref": "nomen_fleck"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

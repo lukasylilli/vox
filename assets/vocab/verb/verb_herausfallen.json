@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_herausfallen",
+  "wort": "herausfallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(از جایی) بیرون افتادن",
+      "(از گروه یا قاعده‌ای) خارج شدن، جا ماندن"
+    ],
+    "en": [
+      "to fall out",
+      "to drop out of, to not fit (a group, rule)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Arbeit"
+  ],
+  "ipa": "hɛˈʁaʊ̯sˌfalən",
+  "anmerkung": "Umgangssprachlich oft «rauskommen», «rausfinden» usw.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Handy ist aus der Tasche herausgefallen.",
+      "uebersetzung": {
+        "fa": "موبایل از جیب بیرون افتاد.",
+        "en": "The phone fell out of the pocket."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Viele Familien fallen durch die neuen Regeln aus der Förderung heraus, obwohl sie Hilfe brauchen.",
+      "uebersetzung": {
+        "fa": "با قوانین جدید، بسیاری از خانواده‌ها از دریافت کمک خارج می‌شوند، با اینکه به کمک نیاز دارند.",
+        "en": "Under the new rules many families drop out of the support scheme even though they need help."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hinausfallen",
+      "uebersetzung": {
+        "fa": "بیرون افتادن",
+        "en": "to fall out"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "heraus- (به بیرون (به این سو)) + fallen (افتادن)",
+    "en": "heraus- (out (towards the speaker)) + fallen (to fall)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "aus + Dat herausfallen",
+        "bedeutung": "aus etwas fallen; nicht mehr dazugehören",
+        "beispiel": "Der Brief ist aus dem Buch herausgefallen.",
+        "uebersetzung": {
+          "fa": "نامه از لای کتاب بیرون افتاد.",
+          "en": "The letter fell out of the book."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herausfallen",
+      "praeteritum": "fiel heraus",
+      "partizip2": "herausgefallen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "falle heraus",
+        "du": "fällst heraus",
+        "er_sie_es": "fällt heraus",
+        "wir": "fallen heraus",
+        "ihr": "fallt heraus",
+        "sie_Sie": "fallen heraus"
+      },
+      "praeteritum": {
+        "ich": "fiel heraus",
+        "du": "fielst heraus",
+        "er_sie_es": "fiel heraus",
+        "wir": "fielen heraus",
+        "ihr": "fielt heraus",
+        "sie_Sie": "fielen heraus"
+      },
+      "konjunktiv1": {
+        "ich": "falle heraus",
+        "du": "fallest heraus",
+        "er_sie_es": "falle heraus",
+        "wir": "fallen heraus",
+        "ihr": "fallet heraus",
+        "sie_Sie": "fallen heraus"
+      },
+      "konjunktiv2": {
+        "ich": "fiele heraus",
+        "du": "fielest heraus",
+        "er_sie_es": "fiele heraus",
+        "wir": "fielen heraus",
+        "ihr": "fielet heraus",
+        "sie_Sie": "fielen heraus"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "herausfallend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fallen",
+    "woerter": [
+      {
+        "wort": "fallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "افتادن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_fallen"
+      },
+      {
+        "wort": "verlieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گم کردن",
+          "en": "to lose"
+        },
+        "id_ref": "verb_verlieren"
+      },
+      {
+        "wort": "die Tasche",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کیف، جیب",
+          "en": "bag, pocket"
+        },
+        "id_ref": "nomen_tasche"
+      },
+      {
+        "wort": "heraus",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیرون",
+          "en": "out"
+        },
+        "id_ref": "adverb_heraus"
+      },
+      {
+        "wort": "herunterfallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پایین افتادن",
+          "en": "to fall down"
+        },
+        "id_ref": "verb_herunterfallen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

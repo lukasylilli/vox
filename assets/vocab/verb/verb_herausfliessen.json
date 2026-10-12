@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_herausfliessen",
+  "wort": "herausfließen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(مایع از جایی) بیرون جاری شدن، نشت کردن"
+    ],
+    "en": [
+      "to flow out, to leak out"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Technik"
+  ],
+  "ipa": "hɛˈʁaʊ̯sˌfliːsn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Öl fließt aus dem Motor heraus.",
+      "uebersetzung": {
+        "fa": "روغن از موتور بیرون می‌ریزد.",
+        "en": "Oil is leaking out of the engine."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Durch den Riss im Tank ist über Nacht das ganze Benzin herausgeflossen.",
+      "uebersetzung": {
+        "fa": "از ترک باک، تمام بنزین در طول شب بیرون ریخت.",
+        "en": "Through the crack in the tank all the petrol leaked out overnight."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "auslaufen",
+      "uebersetzung": {
+        "fa": "نشت کردن",
+        "en": "to leak"
+      }
+    },
+    {
+      "wort": "ausfließen",
+      "uebersetzung": {
+        "fa": "بیرون ریختن",
+        "en": "to flow out"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "heraus- (به بیرون (به این سو)) + fließen (جاری شدن)",
+    "en": "heraus- (out (towards the speaker)) + fließen (to flow)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "aus + Dat herausfließen",
+        "bedeutung": "aus etwas fließen",
+        "beispiel": "Blut floss aus der Wunde heraus.",
+        "uebersetzung": {
+          "fa": "خون از زخم بیرون می‌ریخت.",
+          "en": "Blood flowed out of the wound."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herausfließen",
+      "praeteritum": "floss heraus",
+      "partizip2": "herausgeflossen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fließe heraus",
+        "du": "fließt heraus",
+        "er_sie_es": "fließt heraus",
+        "wir": "fließen heraus",
+        "ihr": "fließt heraus",
+        "sie_Sie": "fließen heraus"
+      },
+      "praeteritum": {
+        "ich": "floss heraus",
+        "du": "flossest heraus",
+        "er_sie_es": "floss heraus",
+        "wir": "flossen heraus",
+        "ihr": "flosst heraus",
+        "sie_Sie": "flossen heraus"
+      },
+      "konjunktiv1": {
+        "ich": "fließe heraus",
+        "du": "fließest heraus",
+        "er_sie_es": "fließe heraus",
+        "wir": "fließen heraus",
+        "ihr": "fließet heraus",
+        "sie_Sie": "fließen heraus"
+      },
+      "konjunktiv2": {
+        "ich": "flösse heraus",
+        "du": "flössest heraus",
+        "er_sie_es": "flösse heraus",
+        "wir": "flössen heraus",
+        "ihr": "flösset heraus",
+        "sie_Sie": "flössen heraus"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "herausfließend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fließen",
+    "woerter": [
+      {
+        "wort": "fließen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جاری شدن",
+          "en": "to flow"
+        },
+        "id_ref": "verb_fliessen"
+      },
+      {
+        "wort": "auslaufen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نشت کردن",
+          "en": "to leak"
+        },
+        "id_ref": "verb_auslaufen"
+      },
+      {
+        "wort": "die Flüssigkeit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مایع",
+          "en": "liquid"
+        },
+        "id_ref": "nomen_fluessigkeit"
+      },
+      {
+        "wort": "der Riss",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ترک",
+          "en": "crack"
+        },
+        "id_ref": "nomen_riss"
+      },
+      {
+        "wort": "heraus",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیرون",
+          "en": "out"
+        },
+        "id_ref": "adverb_heraus"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
