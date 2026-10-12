@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_hinueberkommen",
+  "wort": "hinüberkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(توانستن) به آن طرف رفتن، عبور کردن"
+    ],
+    "en": [
+      "to get over, to get across"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr",
+    "Alltag"
+  ],
+  "ipa": "hɪˈnyːbɐˌkɔmən",
+  "anmerkung": "Umgangssprachlich oft «rüber…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wie kommen wir hinüber?",
+      "uebersetzung": {
+        "fa": "چطور به آن طرف برویم؟",
+        "en": "How do we get across?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wegen des Hochwassers sind wir nicht über den Fluss hinübergekommen und mussten umkehren.",
+      "uebersetzung": {
+        "fa": "به خاطر سیلاب نتوانستیم از رودخانه عبور کنیم و مجبور شدیم برگردیم.",
+        "en": "Because of the flood we couldn't get across the river and had to turn back."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rüberkommen",
+      "uebersetzung": {
+        "fa": "(محاوره) به آن طرف رسیدن",
+        "en": "to get over"
+      }
+    },
+    {
+      "wort": "überqueren",
+      "uebersetzung": {
+        "fa": "عبور کردن",
+        "en": "to cross"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinüber- (به آن طرف) + kommen (آمدن)",
+    "en": "hinüber- (over (to the other side)) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "über + Akk hinüberkommen",
+        "bedeutung": "etwas überqueren können",
+        "beispiel": "Über diese Mauer kommt niemand hinüber.",
+        "uebersetzung": {
+          "fa": "هیچ‌کس نمی‌تواند از این دیوار رد شود.",
+          "en": "Nobody can get over this wall."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hinüberkommen",
+      "praeteritum": "kam hinüber",
+      "partizip2": "hinübergekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme hinüber",
+        "du": "kommst hinüber",
+        "er_sie_es": "kommt hinüber",
+        "wir": "kommen hinüber",
+        "ihr": "kommt hinüber",
+        "sie_Sie": "kommen hinüber"
+      },
+      "praeteritum": {
+        "ich": "kam hinüber",
+        "du": "kamst hinüber",
+        "er_sie_es": "kam hinüber",
+        "wir": "kamen hinüber",
+        "ihr": "kamt hinüber",
+        "sie_Sie": "kamen hinüber"
+      },
+      "konjunktiv1": {
+        "ich": "komme hinüber",
+        "du": "kommest hinüber",
+        "er_sie_es": "komme hinüber",
+        "wir": "kommen hinüber",
+        "ihr": "kommet hinüber",
+        "sie_Sie": "kommen hinüber"
+      },
+      "konjunktiv2": {
+        "ich": "käme hinüber",
+        "du": "kämest hinüber",
+        "er_sie_es": "käme hinüber",
+        "wir": "kämen hinüber",
+        "ihr": "kämet hinüber",
+        "sie_Sie": "kämen hinüber"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "hinüberkommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "überqueren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عبور کردن",
+          "en": "to cross"
+        },
+        "id_ref": "verb_ueberqueren"
+      },
+      {
+        "wort": "die Mauer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دیوار",
+          "en": "wall"
+        },
+        "id_ref": "nomen_mauer"
+      },
+      {
+        "wort": "das Hochwasser",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سیلاب",
+          "en": "flood"
+        },
+        "id_ref": "nomen_hochwasser"
+      },
+      {
+        "wort": "hinüber",
+        "wortart": "adverb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به آن طرف",
+          "en": "over"
+        },
+        "id_ref": "adverb_hinueber"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

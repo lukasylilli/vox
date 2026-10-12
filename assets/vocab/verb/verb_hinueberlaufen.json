@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_hinueberlaufen",
+  "wort": "hinüberlaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(دوان یا پیاده) به آن طرف رفتن"
+    ],
+    "en": [
+      "to run over, to run across"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Bewegung",
+    "Verkehr"
+  ],
+  "ipa": "hɪˈnyːbɐˌlaʊ̯fn̩",
+  "anmerkung": "Umgangssprachlich oft «rüber…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Lauf schnell hinüber!",
+      "uebersetzung": {
+        "fa": "سریع بدو آن طرف!",
+        "en": "Run over quickly!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als sie ihren Bruder auf der anderen Straßenseite sah, lief sie sofort zu ihm hinüber.",
+      "uebersetzung": {
+        "fa": "وقتی برادرش را آن طرف خیابان دید، فوراً به سمتش دوید.",
+        "en": "When she saw her brother on the other side of the street, she immediately ran over to him."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rüberlaufen",
+      "uebersetzung": {
+        "fa": "(محاوره) به آن طرف دویدن",
+        "en": "to run over"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "herüberlaufen",
+      "uebersetzung": {
+        "fa": "به این طرف دویدن",
+        "en": "to run over (here)"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinüber- (به آن طرف) + laufen (دویدن)",
+    "en": "hinüber- (over (to the other side)) + laufen (to run)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zu + Dat hinüberlaufen",
+        "bedeutung": "zu jemandem auf die andere Seite laufen",
+        "beispiel": "Das Kind lief zu den anderen Kindern hinüber.",
+        "uebersetzung": {
+          "fa": "بچه به سمت بچه‌های دیگر دوید.",
+          "en": "The child ran over to the other children."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hinüberlaufen",
+      "praeteritum": "lief hinüber",
+      "partizip2": "hinübergelaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laufe hinüber",
+        "du": "läufst hinüber",
+        "er_sie_es": "läuft hinüber",
+        "wir": "laufen hinüber",
+        "ihr": "lauft hinüber",
+        "sie_Sie": "laufen hinüber"
+      },
+      "praeteritum": {
+        "ich": "lief hinüber",
+        "du": "liefst hinüber",
+        "er_sie_es": "lief hinüber",
+        "wir": "liefen hinüber",
+        "ihr": "lieft hinüber",
+        "sie_Sie": "liefen hinüber"
+      },
+      "konjunktiv1": {
+        "ich": "laufe hinüber",
+        "du": "laufest hinüber",
+        "er_sie_es": "laufe hinüber",
+        "wir": "laufen hinüber",
+        "ihr": "laufet hinüber",
+        "sie_Sie": "laufen hinüber"
+      },
+      "konjunktiv2": {
+        "ich": "liefe hinüber",
+        "du": "liefest hinüber",
+        "er_sie_es": "liefe hinüber",
+        "wir": "liefen hinüber",
+        "ihr": "liefet hinüber",
+        "sie_Sie": "liefen hinüber"
+      },
+      "imperativ": {
+        "du": "Lauf hinüber!",
+        "ihr": "Lauft hinüber!",
+        "Sie": "Laufen Sie hinüber!"
+      }
+    },
+    "partizip1": "hinüberlaufend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دویدن",
+          "en": "to run"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "herüberlaufen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به این طرف دویدن",
+          "en": "to run over"
+        },
+        "id_ref": "verb_herueberlaufen"
+      },
+      {
+        "wort": "die Straßenseite",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "طرف خیابان",
+          "en": "side of the street"
+        },
+        "id_ref": "nomen_strassenseite"
+      },
+      {
+        "wort": "rennen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دویدن",
+          "en": "to run"
+        },
+        "id_ref": "verb_rennen"
+      },
+      {
+        "wort": "hinüber",
+        "wortart": "adverb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به آن طرف",
+          "en": "over"
+        },
+        "id_ref": "adverb_hinueber"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1171,6 +1171,16 @@ const zurueckgestellt = <String>{
   'hintereinanderlaufen', // zurückgestellt (Regel 14/16): amtliche Schreibung getrennt («hintereinander …») 2026-10-11
   'hinteressen', // zurückgestellt (Regel 14/16): kein bekanntes Wort (vermutlich Listenfehler) 2026-10-11
   'hintergießen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-11
+  'hinterlaufen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hinüberbegeben', // zurückgestellt (Regel 14/16): sich hinüberbegeben — gehoben, selten 2026-10-11
+  'hinüberdürfen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'hinüberfliegen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hinübergleiten', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hinübergreifen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hinüberhängen', // zurückgestellt (Regel 14/16): transitiv schwach, intransitiv stark — Formen schwanken 2026-10-11
+  'hinüberkönnen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'hinüberlassen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hinunterdürfen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

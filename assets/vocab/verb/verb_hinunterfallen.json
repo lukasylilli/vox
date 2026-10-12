@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_hinunterfallen",
+  "wort": "hinunterfallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(از جایی) پایین افتادن"
+    ],
+    "en": [
+      "to fall down"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Sicherheit"
+  ],
+  "ipa": "hɪˈnʊntɐˌfalən",
+  "anmerkung": "Umgangssprachlich oft «runter…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Pass auf, dass du nicht hinunterfällst!",
+      "uebersetzung": {
+        "fa": "مواظب باش پایین نیفتی!",
+        "en": "Be careful you don't fall down!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Handwerker ist von der Leiter hinuntergefallen und hat sich das Bein gebrochen.",
+      "uebersetzung": {
+        "fa": "آن کارگر فنی از نردبان افتاد و پایش شکست.",
+        "en": "The tradesman fell off the ladder and broke his leg."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "herunterfallen",
+      "uebersetzung": {
+        "fa": "پایین افتادن",
+        "en": "to fall down"
+      }
+    },
+    {
+      "wort": "stürzen",
+      "uebersetzung": {
+        "fa": "زمین خوردن",
+        "en": "to fall"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinunter- (به پایین (دور از گوینده)) + fallen (افتادن)",
+    "en": "hinunter- (down (away from the speaker)) + fallen (to fall)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "von + Dat hinunterfallen",
+        "bedeutung": "von etwas nach unten fallen",
+        "beispiel": "Die Vase ist vom Balkon hinuntergefallen.",
+        "uebersetzung": {
+          "fa": "گلدان از بالکن پایین افتاد.",
+          "en": "The vase fell down from the balcony."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hinunterfallen",
+      "praeteritum": "fiel hinunter",
+      "partizip2": "hinuntergefallen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "falle hinunter",
+        "du": "fällst hinunter",
+        "er_sie_es": "fällt hinunter",
+        "wir": "fallen hinunter",
+        "ihr": "fallt hinunter",
+        "sie_Sie": "fallen hinunter"
+      },
+      "praeteritum": {
+        "ich": "fiel hinunter",
+        "du": "fielst hinunter",
+        "er_sie_es": "fiel hinunter",
+        "wir": "fielen hinunter",
+        "ihr": "fielt hinunter",
+        "sie_Sie": "fielen hinunter"
+      },
+      "konjunktiv1": {
+        "ich": "falle hinunter",
+        "du": "fallest hinunter",
+        "er_sie_es": "falle hinunter",
+        "wir": "fallen hinunter",
+        "ihr": "fallet hinunter",
+        "sie_Sie": "fallen hinunter"
+      },
+      "konjunktiv2": {
+        "ich": "fiele hinunter",
+        "du": "fielest hinunter",
+        "er_sie_es": "fiele hinunter",
+        "wir": "fielen hinunter",
+        "ihr": "fielet hinunter",
+        "sie_Sie": "fielen hinunter"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "hinunterfallend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fallen",
+    "woerter": [
+      {
+        "wort": "fallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "افتادن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_fallen"
+      },
+      {
+        "wort": "herunterfallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پایین افتادن",
+          "en": "to fall down"
+        },
+        "id_ref": "verb_herunterfallen"
+      },
+      {
+        "wort": "die Leiter",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نردبان",
+          "en": "ladder"
+        },
+        "id_ref": "nomen_leiter"
+      },
+      {
+        "wort": "stürzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زمین خوردن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_stuerzen"
+      },
+      {
+        "wort": "hinunter",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به پایین",
+          "en": "down"
+        },
+        "id_ref": "adverb_hinunter"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

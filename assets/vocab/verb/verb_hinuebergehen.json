@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_hinuebergehen",
+  "wort": "hinübergehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(پیاده) به آن طرف رفتن، عبور کردن"
+    ],
+    "en": [
+      "to go over, to go across"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Verkehr"
+  ],
+  "ipa": "hɪˈnyːbɐˌɡeːən",
+  "anmerkung": "Umgangssprachlich oft «rüber…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich gehe kurz zu Anna hinüber.",
+      "uebersetzung": {
+        "fa": "یک لحظه می‌روم پیش آنا (آن طرف).",
+        "en": "I'm just going over to Anna's."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wir sind über die Brücke hinübergegangen, weil es auf der anderen Seite einen Markt gab.",
+      "uebersetzung": {
+        "fa": "از روی پل به آن طرف رفتیم، چون آن طرف بازاری بود.",
+        "en": "We went over the bridge because there was a market on the other side."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rübergehen",
+      "uebersetzung": {
+        "fa": "(محاوره) به آن طرف رفتن",
+        "en": "to go over"
+      }
+    },
+    {
+      "wort": "überqueren",
+      "uebersetzung": {
+        "fa": "عبور کردن از",
+        "en": "to cross"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "herübergehen",
+      "uebersetzung": {
+        "fa": "به این طرف آمدن",
+        "en": "to come over"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinüber- (به آن طرف) + gehen (رفتن)",
+    "en": "hinüber- (over (to the other side)) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "über + Akk hinübergehen",
+        "bedeutung": "etwas überqueren",
+        "beispiel": "Geh nicht bei Rot über die Straße hinüber!",
+        "uebersetzung": {
+          "fa": "وقتی چراغ قرمز است از خیابان رد نشو!",
+          "en": "Don't cross the road when the light is red!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hinübergehen",
+      "praeteritum": "ging hinüber",
+      "partizip2": "hinübergegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe hinüber",
+        "du": "gehst hinüber",
+        "er_sie_es": "geht hinüber",
+        "wir": "gehen hinüber",
+        "ihr": "geht hinüber",
+        "sie_Sie": "gehen hinüber"
+      },
+      "praeteritum": {
+        "ich": "ging hinüber",
+        "du": "gingst hinüber",
+        "er_sie_es": "ging hinüber",
+        "wir": "gingen hinüber",
+        "ihr": "gingt hinüber",
+        "sie_Sie": "gingen hinüber"
+      },
+      "konjunktiv1": {
+        "ich": "gehe hinüber",
+        "du": "gehest hinüber",
+        "er_sie_es": "gehe hinüber",
+        "wir": "gehen hinüber",
+        "ihr": "gehet hinüber",
+        "sie_Sie": "gehen hinüber"
+      },
+      "konjunktiv2": {
+        "ich": "ginge hinüber",
+        "du": "gingest hinüber",
+        "er_sie_es": "ginge hinüber",
+        "wir": "gingen hinüber",
+        "ihr": "ginget hinüber",
+        "sie_Sie": "gingen hinüber"
+      },
+      "imperativ": {
+        "du": "Geh hinüber!",
+        "ihr": "Geht hinüber!",
+        "Sie": "Gehen Sie hinüber!"
+      }
+    },
+    "partizip1": "hinübergehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "überqueren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عبور کردن",
+          "en": "to cross"
+        },
+        "id_ref": "verb_ueberqueren"
+      },
+      {
+        "wort": "die Brücke",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پل",
+          "en": "bridge"
+        },
+        "id_ref": "nomen_bruecke"
+      },
+      {
+        "wort": "herübergehen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به این طرف آمدن",
+          "en": "to come over"
+        },
+        "id_ref": "verb_heruebergehen"
+      },
+      {
+        "wort": "hinüber",
+        "wortart": "adverb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به آن طرف",
+          "en": "over"
+        },
+        "id_ref": "adverb_hinueber"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
