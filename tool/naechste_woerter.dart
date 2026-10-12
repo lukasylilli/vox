@@ -1181,6 +1181,14 @@ const zurueckgestellt = <String>{
   'hinüberkönnen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
   'hinüberlassen', // zurückgestellt (Regel 14/16): selten 2026-10-11
   'hinunterdürfen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'hinunterfliegen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-11
+  'hinuntergießen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hinwegbegeben', // zurückgestellt (Regel 14/16): sich hinwegbegeben — gehoben, selten 2026-10-11
+  'hinwegbringen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hinweglesen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hinzubekommen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hinzudenken', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hinzuerfinden', // zurückgestellt (Regel 14/16): selten 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_hinweghelfen",
+  "wort": "hinweghelfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(به کسی) کمک کردن تا از (مشکل یا غمی) بگذرد"
+    ],
+    "en": [
+      "to help (someone) get over"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle",
+    "Hilfe"
+  ],
+  "ipa": "hɪnˈvɛkˌhɛlfn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Musik hilft mir über die Trauer hinweg.",
+      "uebersetzung": {
+        "fa": "موسیقی کمکم می‌کند از غم بگذرم.",
+        "en": "Music helps me get over my grief."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Unterstützung ihrer Familie hat ihr über die schwierigen ersten Monate in der neuen Stadt hinweggeholfen.",
+      "uebersetzung": {
+        "fa": "حمایت خانواده‌اش کمکش کرد ماه‌های اول سخت در شهر جدید را پشت سر بگذارد.",
+        "en": "Her family's support helped her get over the difficult first months in the new city."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "durchhelfen",
+      "uebersetzung": {
+        "fa": "کمک کردن تا از سختی بگذرد",
+        "en": "to help through"
+      }
+    },
+    {
+      "wort": "hinüberhelfen",
+      "uebersetzung": {
+        "fa": "کمک کردن به گذر",
+        "en": "to help over"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinweg- (از روی (چیزی)، فراتر از) + helfen (کمک کردن)",
+    "en": "hinweg- (over, away) + helfen (to help)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem über + Akk hinweghelfen",
+        "bedeutung": "jemandem helfen, etwas zu überwinden",
+        "beispiel": "Ein Witz half uns über die peinliche Situation hinweg.",
+        "uebersetzung": {
+          "fa": "یک شوخی کمکمان کرد از آن موقعیت خجالت‌آور بگذریم.",
+          "en": "A joke helped us get over the embarrassing situation."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hinweghelfen",
+      "praeteritum": "half hinweg",
+      "partizip2": "hinweggeholfen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "helfe hinweg",
+        "du": "hilfst hinweg",
+        "er_sie_es": "hilft hinweg",
+        "wir": "helfen hinweg",
+        "ihr": "helft hinweg",
+        "sie_Sie": "helfen hinweg"
+      },
+      "praeteritum": {
+        "ich": "half hinweg",
+        "du": "halfst hinweg",
+        "er_sie_es": "half hinweg",
+        "wir": "halfen hinweg",
+        "ihr": "halft hinweg",
+        "sie_Sie": "halfen hinweg"
+      },
+      "konjunktiv1": {
+        "ich": "helfe hinweg",
+        "du": "helfest hinweg",
+        "er_sie_es": "helfe hinweg",
+        "wir": "helfen hinweg",
+        "ihr": "helfet hinweg",
+        "sie_Sie": "helfen hinweg"
+      },
+      "konjunktiv2": {
+        "ich": "hülfe hinweg",
+        "du": "hülfest hinweg",
+        "er_sie_es": "hülfe hinweg",
+        "wir": "hülfen hinweg",
+        "ihr": "hülfet hinweg",
+        "sie_Sie": "hülfen hinweg"
+      },
+      "imperativ": {
+        "du": "Hilf hinweg!",
+        "ihr": "Helft hinweg!",
+        "Sie": "Helfen Sie hinweg!"
+      }
+    },
+    "partizip1": "hinweghelfend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "helfen",
+    "woerter": [
+      {
+        "wort": "helfen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک کردن",
+          "en": "to help"
+        },
+        "id_ref": "verb_helfen"
+      },
+      {
+        "wort": "überwinden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "غلبه کردن",
+          "en": "to overcome"
+        },
+        "id_ref": "verb_ueberwinden"
+      },
+      {
+        "wort": "die Trauer",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سوگ، غم",
+          "en": "grief"
+        },
+        "id_ref": "nomen_trauer"
+      },
+      {
+        "wort": "trösten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دلداری دادن",
+          "en": "to comfort"
+        },
+        "id_ref": "verb_troesten"
+      },
+      {
+        "wort": "hinweg",
+        "wortart": "adverb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "از روی، فراتر",
+          "en": "over, away"
+        },
+        "id_ref": "adverb_hinweg"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_hinzukommen",
+  "wort": "hinzukommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(به جمعی) پیوستن، از راه رسیدن",
+      "(به آنچه هست) اضافه شدن («hinzu kommt, dass …» = به این‌ها اضافه کن که …)"
+    ],
+    "en": [
+      "to join, to arrive",
+      "to be added («hinzu kommt, dass …» = on top of that …)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kommunikation",
+    "Alltag"
+  ],
+  "ipa": "hɪnˈt͡suːˌkɔmən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Später kommen noch zwei Gäste hinzu.",
+      "uebersetzung": {
+        "fa": "بعداً دو مهمان دیگر هم اضافه می‌شوند.",
+        "en": "Later two more guests will join."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Wohnung ist zu klein; hinzu kommt, dass die Miete viel zu hoch ist.",
+      "uebersetzung": {
+        "fa": "آپارتمان خیلی کوچک است؛ به این اضافه کن که اجاره‌اش هم خیلی بالاست.",
+        "en": "The flat is too small; on top of that, the rent is far too high."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "dazukommen",
+      "uebersetzung": {
+        "fa": "اضافه شدن، پیوستن",
+        "en": "to join"
+      }
+    },
+    {
+      "wort": "sich anschließen",
+      "uebersetzung": {
+        "fa": "پیوستن",
+        "en": "to join"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "wegfallen",
+      "uebersetzung": {
+        "fa": "حذف شدن",
+        "en": "to be dropped"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinzu- (افزون بر، به آن) + kommen (آمدن)",
+    "en": "hinzu- (in addition, to it) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zu + Dat hinzukommen",
+        "bedeutung": "sich einer Gruppe anschließen; zu etwas addiert werden",
+        "beispiel": "Zu den Kosten kommt noch die Steuer hinzu.",
+        "uebersetzung": {
+          "fa": "مالیات هم به هزینه‌ها اضافه می‌شود.",
+          "en": "Tax is added to the costs."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hinzukommen",
+      "praeteritum": "kam hinzu",
+      "partizip2": "hinzugekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme hinzu",
+        "du": "kommst hinzu",
+        "er_sie_es": "kommt hinzu",
+        "wir": "kommen hinzu",
+        "ihr": "kommt hinzu",
+        "sie_Sie": "kommen hinzu"
+      },
+      "praeteritum": {
+        "ich": "kam hinzu",
+        "du": "kamst hinzu",
+        "er_sie_es": "kam hinzu",
+        "wir": "kamen hinzu",
+        "ihr": "kamt hinzu",
+        "sie_Sie": "kamen hinzu"
+      },
+      "konjunktiv1": {
+        "ich": "komme hinzu",
+        "du": "kommest hinzu",
+        "er_sie_es": "komme hinzu",
+        "wir": "kommen hinzu",
+        "ihr": "kommet hinzu",
+        "sie_Sie": "kommen hinzu"
+      },
+      "konjunktiv2": {
+        "ich": "käme hinzu",
+        "du": "kämest hinzu",
+        "er_sie_es": "käme hinzu",
+        "wir": "kämen hinzu",
+        "ihr": "kämet hinzu",
+        "sie_Sie": "kämen hinzu"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "hinzukommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "dazukommen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اضافه شدن",
+          "en": "to join"
+        },
+        "id_ref": "verb_dazukommen"
+      },
+      {
+        "wort": "außerdem",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "علاوه بر این",
+          "en": "besides"
+        },
+        "id_ref": "adverb_ausserdem"
+      },
+      {
+        "wort": "zusätzlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اضافی",
+          "en": "additional"
+        },
+        "id_ref": "adjektiv_zusaetzlich"
+      },
+      {
+        "wort": "hinzu",
+        "wortart": "adverb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "افزون بر آن",
+          "en": "in addition"
+        },
+        "id_ref": "adverb_hinzu"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

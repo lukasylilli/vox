@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_hinzugeben",
+  "wort": "hinzugeben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(به چیزی) افزودن، اضافه کردن (به‌ویژه در آشپزی)"
+    ],
+    "en": [
+      "to add (especially in cooking)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Küche"
+  ],
+  "ipa": "hɪnˈt͡suːˌɡeːbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Geben Sie Zucker hinzu.",
+      "uebersetzung": {
+        "fa": "شکر اضافه کنید.",
+        "en": "Add sugar."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Zum Schluss gibt man die frischen Kräuter hinzu, damit sie ihr Aroma behalten.",
+      "uebersetzung": {
+        "fa": "در آخر سبزی‌های تازه را اضافه می‌کنند تا عطرشان را حفظ کنند.",
+        "en": "At the end you add the fresh herbs so that they keep their aroma."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hinzufügen",
+      "uebersetzung": {
+        "fa": "افزودن",
+        "en": "to add"
+      }
+    },
+    {
+      "wort": "dazugeben",
+      "uebersetzung": {
+        "fa": "اضافه کردن",
+        "en": "to add"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "weglassen",
+      "uebersetzung": {
+        "fa": "حذف کردن",
+        "en": "to leave out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinzu- (افزون بر، به آن) + geben (دادن)",
+    "en": "hinzu- (in addition, to it) + geben (to give)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "hinzugeben",
+      "praeteritum": "gab hinzu",
+      "partizip2": "hinzugegeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gebe hinzu",
+        "du": "gibst hinzu",
+        "er_sie_es": "gibt hinzu",
+        "wir": "geben hinzu",
+        "ihr": "gebt hinzu",
+        "sie_Sie": "geben hinzu"
+      },
+      "praeteritum": {
+        "ich": "gab hinzu",
+        "du": "gabst hinzu",
+        "er_sie_es": "gab hinzu",
+        "wir": "gaben hinzu",
+        "ihr": "gabt hinzu",
+        "sie_Sie": "gaben hinzu"
+      },
+      "konjunktiv1": {
+        "ich": "gebe hinzu",
+        "du": "gebest hinzu",
+        "er_sie_es": "gebe hinzu",
+        "wir": "geben hinzu",
+        "ihr": "gebet hinzu",
+        "sie_Sie": "geben hinzu"
+      },
+      "konjunktiv2": {
+        "ich": "gäbe hinzu",
+        "du": "gäbest hinzu",
+        "er_sie_es": "gäbe hinzu",
+        "wir": "gäben hinzu",
+        "ihr": "gäbet hinzu",
+        "sie_Sie": "gäben hinzu"
+      },
+      "imperativ": {
+        "du": "Gib hinzu!",
+        "ihr": "Gebt hinzu!",
+        "Sie": "Geben Sie hinzu!"
+      }
+    },
+    "partizip1": "hinzugebend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "hinzufügen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "افزودن",
+          "en": "to add"
+        },
+        "id_ref": "verb_hinzufuegen"
+      },
+      {
+        "wort": "das Rezept",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دستور پخت",
+          "en": "recipe"
+        },
+        "id_ref": "nomen_rezept"
+      },
+      {
+        "wort": "die Zutat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ماده‌ی اولیه",
+          "en": "ingredient"
+        },
+        "id_ref": "nomen_zutat"
+      },
+      {
+        "wort": "kochen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آشپزی کردن",
+          "en": "to cook"
+        },
+        "id_ref": "verb_kochen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

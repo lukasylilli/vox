@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_hinwegkommen",
+  "wort": "hinwegkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(über etwas hinwegkommen) بر (غم یا شکستی) غلبه کردن، (آن را) فراموش کردن"
+    ],
+    "en": [
+      "(über etw) to get over"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle"
+  ],
+  "ipa": "hɪnˈvɛkˌkɔmən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er kommt nicht darüber hinweg.",
+      "uebersetzung": {
+        "fa": "نمی‌تواند از آن بگذرد (فراموشش کند).",
+        "en": "He can't get over it."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Es hat Jahre gedauert, bis sie über den Tod ihres Vaters hinweggekommen ist.",
+      "uebersetzung": {
+        "fa": "سال‌ها طول کشید تا او مرگ پدرش را پشت سر گذاشت.",
+        "en": "It took years for her to get over her father's death."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verarbeiten",
+      "uebersetzung": {
+        "fa": "(از نظر روحی) کنار آمدن با",
+        "en": "to come to terms with"
+      }
+    },
+    {
+      "wort": "überwinden",
+      "uebersetzung": {
+        "fa": "غلبه کردن",
+        "en": "to overcome"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinweg- (از روی (چیزی)، فراتر از) + kommen (آمدن)",
+    "en": "hinweg- (over, away) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "über + Akk hinwegkommen",
+        "bedeutung": "etwas Schlimmes überwinden",
+        "beispiel": "Über die Trennung ist er schnell hinweggekommen.",
+        "uebersetzung": {
+          "fa": "خیلی زود جدایی را پشت سر گذاشت.",
+          "en": "He got over the separation quickly."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hinwegkommen",
+      "praeteritum": "kam hinweg",
+      "partizip2": "hinweggekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme hinweg",
+        "du": "kommst hinweg",
+        "er_sie_es": "kommt hinweg",
+        "wir": "kommen hinweg",
+        "ihr": "kommt hinweg",
+        "sie_Sie": "kommen hinweg"
+      },
+      "praeteritum": {
+        "ich": "kam hinweg",
+        "du": "kamst hinweg",
+        "er_sie_es": "kam hinweg",
+        "wir": "kamen hinweg",
+        "ihr": "kamt hinweg",
+        "sie_Sie": "kamen hinweg"
+      },
+      "konjunktiv1": {
+        "ich": "komme hinweg",
+        "du": "kommest hinweg",
+        "er_sie_es": "komme hinweg",
+        "wir": "kommen hinweg",
+        "ihr": "kommet hinweg",
+        "sie_Sie": "kommen hinweg"
+      },
+      "konjunktiv2": {
+        "ich": "käme hinweg",
+        "du": "kämest hinweg",
+        "er_sie_es": "käme hinweg",
+        "wir": "kämen hinweg",
+        "ihr": "kämet hinweg",
+        "sie_Sie": "kämen hinweg"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "hinwegkommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "überwinden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "غلبه کردن",
+          "en": "to overcome"
+        },
+        "id_ref": "verb_ueberwinden"
+      },
+      {
+        "wort": "verarbeiten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کنار آمدن (روحی)",
+          "en": "to process"
+        },
+        "id_ref": "verb_verarbeiten"
+      },
+      {
+        "wort": "der Verlust",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "از دست دادن",
+          "en": "loss"
+        },
+        "id_ref": "nomen_verlust"
+      },
+      {
+        "wort": "hinweg",
+        "wortart": "adverb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "از روی، فراتر",
+          "en": "over, away"
+        },
+        "id_ref": "adverb_hinweg"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
