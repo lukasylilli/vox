@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_hineinfahren",
+  "wort": "hineinfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با وسیله‌ی نقلیه) به داخل رفتن",
+      "(محاوره) (با ماشین) به (چیزی) زدن"
+    ],
+    "en": [
+      "to drive in(to)",
+      "(colloquial) to crash into"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr"
+  ],
+  "ipa": "hɪˈnaɪ̯nˌfaːʁən",
+  "anmerkung": "Umgangssprachlich oft «rein…». Transitiv (das Auto in die Garage hineinfahren) mit «haben».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir fahren in die Stadt hinein.",
+      "uebersetzung": {
+        "fa": "به داخل شهر می‌رویم.",
+        "en": "We're driving into town."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei Glatteis ist ein Lieferwagen in die Bushaltestelle hineingefahren, zum Glück wurde niemand verletzt.",
+      "uebersetzung": {
+        "fa": "در یخبندان یک ون حمل بار به ایستگاه اتوبوس زد؛ خوشبختانه کسی آسیب ندید.",
+        "en": "On black ice a delivery van crashed into the bus stop; fortunately nobody was hurt."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "reinfahren",
+      "uebersetzung": {
+        "fa": "(محاوره) داخل رفتن؛ زدن به",
+        "en": "to drive in; to crash into"
+      }
+    },
+    {
+      "wort": "einfahren",
+      "uebersetzung": {
+        "fa": "وارد شدن",
+        "en": "to pull in"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hinausfahren",
+      "uebersetzung": {
+        "fa": "بیرون رفتن (با وسیله)",
+        "en": "to drive out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinein- (به داخل (دور از گوینده)) + fahren (رفتن (با وسیله))",
+    "en": "hinein- (into (away from the speaker)) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in + Akk hineinfahren",
+        "bedeutung": "in etwas hinein fahren; gegen etwas prallen",
+        "beispiel": "Er ist mit dem Rad in eine Pfütze hineingefahren.",
+        "uebersetzung": {
+          "fa": "با دوچرخه به داخل چاله‌ی آب رفت.",
+          "en": "He rode his bike into a puddle."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hineinfahren",
+      "praeteritum": "fuhr hinein",
+      "partizip2": "hineingefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre hinein",
+        "du": "fährst hinein",
+        "er_sie_es": "fährt hinein",
+        "wir": "fahren hinein",
+        "ihr": "fahrt hinein",
+        "sie_Sie": "fahren hinein"
+      },
+      "praeteritum": {
+        "ich": "fuhr hinein",
+        "du": "fuhrst hinein",
+        "er_sie_es": "fuhr hinein",
+        "wir": "fuhren hinein",
+        "ihr": "fuhrt hinein",
+        "sie_Sie": "fuhren hinein"
+      },
+      "konjunktiv1": {
+        "ich": "fahre hinein",
+        "du": "fahrest hinein",
+        "er_sie_es": "fahre hinein",
+        "wir": "fahren hinein",
+        "ihr": "fahret hinein",
+        "sie_Sie": "fahren hinein"
+      },
+      "konjunktiv2": {
+        "ich": "führe hinein",
+        "du": "führest hinein",
+        "er_sie_es": "führe hinein",
+        "wir": "führen hinein",
+        "ihr": "führet hinein",
+        "sie_Sie": "führen hinein"
+      },
+      "imperativ": {
+        "du": "Fahr hinein!",
+        "ihr": "Fahrt hinein!",
+        "Sie": "Fahren Sie hinein!"
+      }
+    },
+    "partizip1": "hineinfahrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "hinausfahren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیرون رفتن",
+          "en": "to drive out"
+        },
+        "id_ref": "verb_hinausfahren"
+      },
+      {
+        "wort": "der Unfall",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تصادف",
+          "en": "accident"
+        },
+        "id_ref": "nomen_unfall"
+      },
+      {
+        "wort": "die Garage",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گاراژ",
+          "en": "garage"
+        },
+        "id_ref": "nomen_garage"
+      },
+      {
+        "wort": "hinein",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به داخل",
+          "en": "in"
+        },
+        "id_ref": "adverb_hinein"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

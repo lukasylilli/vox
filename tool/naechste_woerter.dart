@@ -1141,6 +1141,12 @@ const zurueckgestellt = <String>{
   'hindurchmüssen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
   'hindürfen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
   'hineinbegeben', // zurückgestellt (Regel 14/16): sich hineinbegeben — gehoben, selten 2026-10-11
+  'hineinblasen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hineinbrennen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hineindringen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hineindürfen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'hineinfliegen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hineinfressen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten (in sich hineinfressen) 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

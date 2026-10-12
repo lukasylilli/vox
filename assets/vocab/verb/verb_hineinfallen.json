@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_hineinfallen",
+  "wort": "hineinfallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(در چیزی) افتادن",
+      "(محاوره) گول خوردن، در دام افتادن"
+    ],
+    "en": [
+      "to fall in(to)",
+      "(colloquial) to fall for (a trick)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "hɪˈnaɪ̯nˌfalən",
+  "anmerkung": "Umgangssprachlich oft «rein…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Kind ist ins Wasser hineingefallen.",
+      "uebersetzung": {
+        "fa": "بچه در آب افتاد.",
+        "en": "The child fell into the water."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Auf so einen billigen Trick bin ich zum Glück nicht hineingefallen.",
+      "uebersetzung": {
+        "fa": "خوشبختانه گول چنین ترفند ارزانی را نخوردم.",
+        "en": "Fortunately I didn't fall for such a cheap trick."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hereinfallen",
+      "uebersetzung": {
+        "fa": "گول خوردن",
+        "en": "to fall for"
+      }
+    },
+    {
+      "wort": "reinfallen",
+      "uebersetzung": {
+        "fa": "(محاوره) افتادن؛ گول خوردن",
+        "en": "to fall in; to fall for"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinein- (به داخل (دور از گوینده)) + fallen (افتادن)",
+    "en": "hinein- (into (away from the speaker)) + fallen (to fall)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in + Akk hineinfallen",
+        "bedeutung": "in etwas fallen",
+        "beispiel": "Der Schlüssel ist in den Gully hineingefallen.",
+        "uebersetzung": {
+          "fa": "کلید در چاه فاضلاب افتاد.",
+          "en": "The key fell down the drain."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hineinfallen",
+      "praeteritum": "fiel hinein",
+      "partizip2": "hineingefallen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "falle hinein",
+        "du": "fällst hinein",
+        "er_sie_es": "fällt hinein",
+        "wir": "fallen hinein",
+        "ihr": "fallt hinein",
+        "sie_Sie": "fallen hinein"
+      },
+      "praeteritum": {
+        "ich": "fiel hinein",
+        "du": "fielst hinein",
+        "er_sie_es": "fiel hinein",
+        "wir": "fielen hinein",
+        "ihr": "fielt hinein",
+        "sie_Sie": "fielen hinein"
+      },
+      "konjunktiv1": {
+        "ich": "falle hinein",
+        "du": "fallest hinein",
+        "er_sie_es": "falle hinein",
+        "wir": "fallen hinein",
+        "ihr": "fallet hinein",
+        "sie_Sie": "fallen hinein"
+      },
+      "konjunktiv2": {
+        "ich": "fiele hinein",
+        "du": "fielest hinein",
+        "er_sie_es": "fiele hinein",
+        "wir": "fielen hinein",
+        "ihr": "fielet hinein",
+        "sie_Sie": "fielen hinein"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "hineinfallend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fallen",
+    "woerter": [
+      {
+        "wort": "fallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "افتادن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_fallen"
+      },
+      {
+        "wort": "hereinfallen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گول خوردن",
+          "en": "to fall for"
+        },
+        "id_ref": "verb_hereinfallen"
+      },
+      {
+        "wort": "das Loch",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چاله",
+          "en": "hole"
+        },
+        "id_ref": "nomen_loch"
+      },
+      {
+        "wort": "der Trick",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ترفند",
+          "en": "trick"
+        },
+        "id_ref": "nomen_trick"
+      },
+      {
+        "wort": "hinein",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به داخل",
+          "en": "in"
+        },
+        "id_ref": "adverb_hinein"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

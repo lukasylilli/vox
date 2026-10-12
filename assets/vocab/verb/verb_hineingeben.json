@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_hineingeben",
+  "wort": "hineingeben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(چیزی را در چیزی) ریختن، اضافه کردن (به‌ویژه در آشپزی)"
+    ],
+    "en": [
+      "to put in, to add (especially in cooking)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Küche",
+    "Essen"
+  ],
+  "ipa": "hɪˈnaɪ̯nˌɡeːbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Gib etwas Salz hinein!",
+      "uebersetzung": {
+        "fa": "کمی نمک اضافه کن!",
+        "en": "Add a little salt!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn die Zwiebeln goldbraun sind, gibt man den Reis hinein und rührt gut um.",
+      "uebersetzung": {
+        "fa": "وقتی پیازها طلایی شدند، برنج را اضافه می‌کنند و خوب هم می‌زنند.",
+        "en": "When the onions are golden brown, you add the rice and stir well."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hinzufügen",
+      "uebersetzung": {
+        "fa": "افزودن",
+        "en": "to add"
+      }
+    },
+    {
+      "wort": "dazugeben",
+      "uebersetzung": {
+        "fa": "اضافه کردن",
+        "en": "to add"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "herausnehmen",
+      "uebersetzung": {
+        "fa": "بیرون آوردن",
+        "en": "to take out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinein- (به داخل (دور از گوینده)) + geben (دادن)",
+    "en": "hinein- (into (away from the speaker)) + geben (to give)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas in + Akk hineingeben",
+        "bedeutung": "etwas in ein Gefäß geben",
+        "beispiel": "Gib die Eier in die Schüssel hinein.",
+        "uebersetzung": {
+          "fa": "تخم‌مرغ‌ها را در کاسه بریز.",
+          "en": "Put the eggs into the bowl."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hineingeben",
+      "praeteritum": "gab hinein",
+      "partizip2": "hineingegeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gebe hinein",
+        "du": "gibst hinein",
+        "er_sie_es": "gibt hinein",
+        "wir": "geben hinein",
+        "ihr": "gebt hinein",
+        "sie_Sie": "geben hinein"
+      },
+      "praeteritum": {
+        "ich": "gab hinein",
+        "du": "gabst hinein",
+        "er_sie_es": "gab hinein",
+        "wir": "gaben hinein",
+        "ihr": "gabt hinein",
+        "sie_Sie": "gaben hinein"
+      },
+      "konjunktiv1": {
+        "ich": "gebe hinein",
+        "du": "gebest hinein",
+        "er_sie_es": "gebe hinein",
+        "wir": "geben hinein",
+        "ihr": "gebet hinein",
+        "sie_Sie": "geben hinein"
+      },
+      "konjunktiv2": {
+        "ich": "gäbe hinein",
+        "du": "gäbest hinein",
+        "er_sie_es": "gäbe hinein",
+        "wir": "gäben hinein",
+        "ihr": "gäbet hinein",
+        "sie_Sie": "gäben hinein"
+      },
+      "imperativ": {
+        "du": "Gib hinein!",
+        "ihr": "Gebt hinein!",
+        "Sie": "Geben Sie hinein!"
+      }
+    },
+    "partizip1": "hineingebend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "hinzufügen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "افزودن",
+          "en": "to add"
+        },
+        "id_ref": "verb_hinzufuegen"
+      },
+      {
+        "wort": "die Schüssel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کاسه",
+          "en": "bowl"
+        },
+        "id_ref": "nomen_schuessel"
+      },
+      {
+        "wort": "kochen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آشپزی کردن",
+          "en": "to cook"
+        },
+        "id_ref": "verb_kochen"
+      },
+      {
+        "wort": "hinein",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به داخل",
+          "en": "in"
+        },
+        "id_ref": "adverb_hinein"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

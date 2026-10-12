@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_hineinfinden",
+  "wort": "hineinfinden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "راه ورود به (جایی) را پیدا کردن",
+      "(sich hineinfinden) با (وضع یا نقش تازه‌ای) خو گرفتن"
+    ],
+    "en": [
+      "to find one's way in",
+      "(sich) to get used to, to settle into"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Gefühle"
+  ],
+  "ipa": "hɪˈnaɪ̯nˌfɪndn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich finde nicht hinein.",
+      "uebersetzung": {
+        "fa": "راه ورود را پیدا نمی‌کنم.",
+        "en": "I can't find my way in."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Am Anfang war die neue Stelle schwer, aber inzwischen habe ich mich gut hineingefunden.",
+      "uebersetzung": {
+        "fa": "اوایل کار جدید سخت بود، اما حالا خوب با آن خو گرفته‌ام.",
+        "en": "At first the new job was hard, but by now I have settled into it well."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich einleben",
+      "uebersetzung": {
+        "fa": "جا افتادن",
+        "en": "to settle in"
+      }
+    },
+    {
+      "wort": "sich eingewöhnen",
+      "uebersetzung": {
+        "fa": "عادت کردن",
+        "en": "to get used to"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinein- (به داخل (دور از گوینده)) + finden (پیدا کردن)",
+    "en": "hinein- (into (away from the speaker)) + finden (to find)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich in + Akk hineinfinden",
+        "bedeutung": "sich an etwas gewöhnen",
+        "beispiel": "Sie hat sich schnell in ihre Rolle als Mutter hineingefunden.",
+        "uebersetzung": {
+          "fa": "خیلی زود با نقش مادری‌اش خو گرفت.",
+          "en": "She quickly settled into her role as a mother."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hineinfinden",
+      "praeteritum": "fand hinein",
+      "partizip2": "hineingefunden"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "finde hinein",
+        "du": "findest hinein",
+        "er_sie_es": "findet hinein",
+        "wir": "finden hinein",
+        "ihr": "findet hinein",
+        "sie_Sie": "finden hinein"
+      },
+      "praeteritum": {
+        "ich": "fand hinein",
+        "du": "fandest hinein",
+        "er_sie_es": "fand hinein",
+        "wir": "fanden hinein",
+        "ihr": "fandet hinein",
+        "sie_Sie": "fanden hinein"
+      },
+      "konjunktiv1": {
+        "ich": "finde hinein",
+        "du": "findest hinein",
+        "er_sie_es": "finde hinein",
+        "wir": "finden hinein",
+        "ihr": "findet hinein",
+        "sie_Sie": "finden hinein"
+      },
+      "konjunktiv2": {
+        "ich": "fände hinein",
+        "du": "fändest hinein",
+        "er_sie_es": "fände hinein",
+        "wir": "fänden hinein",
+        "ihr": "fändet hinein",
+        "sie_Sie": "fänden hinein"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "hineinfindend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "finden",
+    "woerter": [
+      {
+        "wort": "finden",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پیدا کردن",
+          "en": "to find"
+        },
+        "id_ref": "verb_finden"
+      },
+      {
+        "wort": "sich einleben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جا افتادن",
+          "en": "to settle in"
+        },
+        "id_ref": "verb_sich_einleben"
+      },
+      {
+        "wort": "sich gewöhnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عادت کردن",
+          "en": "to get used to"
+        },
+        "id_ref": "verb_sich_gewoehnen"
+      },
+      {
+        "wort": "die Rolle",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نقش",
+          "en": "role"
+        },
+        "id_ref": "nomen_rolle"
+      },
+      {
+        "wort": "hinein",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به داخل",
+          "en": "in"
+        },
+        "id_ref": "adverb_hinein"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

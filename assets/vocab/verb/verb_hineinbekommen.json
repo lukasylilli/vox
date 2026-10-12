@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_hineinbekommen",
+  "wort": "hineinbekommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(چیزی را با زحمت در جایی) جا دادن، داخل کردن"
+    ],
+    "en": [
+      "to get (something) in(to)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Haushalt"
+  ],
+  "ipa": "hɪˈnaɪ̯nbəˌkɔmən",
+  "anmerkung": "Umgangssprachlich oft «rein…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich bekomme den Schlüssel nicht hinein.",
+      "uebersetzung": {
+        "fa": "کلید را نمی‌توانم داخل (قفل) کنم.",
+        "en": "I can't get the key in."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wir haben alle Geschenke in den Kofferraum hineinbekommen, aber für die Koffer war kein Platz mehr.",
+      "uebersetzung": {
+        "fa": "همه‌ی هدیه‌ها را در صندوق عقب جا دادیم، اما برای چمدان‌ها دیگر جا نبود.",
+        "en": "We got all the presents into the boot, but there was no more room for the suitcases."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "reinkriegen",
+      "uebersetzung": {
+        "fa": "(محاوره) جا دادن",
+        "en": "to get in"
+      }
+    },
+    {
+      "wort": "unterbringen",
+      "uebersetzung": {
+        "fa": "جا دادن",
+        "en": "to fit in"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "herausbekommen",
+      "uebersetzung": {
+        "fa": "بیرون آوردن",
+        "en": "to get out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinein- (به داخل (دور از گوینده)) + bekommen (گرفتن)",
+    "en": "hinein- (into (away from the speaker)) + bekommen (to get)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas in + Akk hineinbekommen",
+        "bedeutung": "etwas in etwas unterbringen können",
+        "beispiel": "Ich bekomme den Fuß nicht in den Schuh hinein.",
+        "uebersetzung": {
+          "fa": "پایم در کفش نمی‌رود.",
+          "en": "I can't get my foot into the shoe."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hineinbekommen",
+      "praeteritum": "bekam hinein",
+      "partizip2": "hineinbekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bekomme hinein",
+        "du": "bekommst hinein",
+        "er_sie_es": "bekommt hinein",
+        "wir": "bekommen hinein",
+        "ihr": "bekommt hinein",
+        "sie_Sie": "bekommen hinein"
+      },
+      "praeteritum": {
+        "ich": "bekam hinein",
+        "du": "bekamst hinein",
+        "er_sie_es": "bekam hinein",
+        "wir": "bekamen hinein",
+        "ihr": "bekamt hinein",
+        "sie_Sie": "bekamen hinein"
+      },
+      "konjunktiv1": {
+        "ich": "bekomme hinein",
+        "du": "bekommest hinein",
+        "er_sie_es": "bekomme hinein",
+        "wir": "bekommen hinein",
+        "ihr": "bekommet hinein",
+        "sie_Sie": "bekommen hinein"
+      },
+      "konjunktiv2": {
+        "ich": "bekäme hinein",
+        "du": "bekämest hinein",
+        "er_sie_es": "bekäme hinein",
+        "wir": "bekämen hinein",
+        "ihr": "bekämet hinein",
+        "sie_Sie": "bekämen hinein"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "hineinbekommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bekommen",
+    "woerter": [
+      {
+        "wort": "bekommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گرفتن",
+          "en": "to get"
+        },
+        "id_ref": "verb_bekommen"
+      },
+      {
+        "wort": "herausbekommen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیرون آوردن",
+          "en": "to get out"
+        },
+        "id_ref": "verb_herausbekommen"
+      },
+      {
+        "wort": "passen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جا شدن، اندازه بودن",
+          "en": "to fit"
+        },
+        "id_ref": "verb_passen"
+      },
+      {
+        "wort": "der Platz",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جا",
+          "en": "space"
+        },
+        "id_ref": "nomen_platz"
+      },
+      {
+        "wort": "hinein",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به داخل",
+          "en": "in"
+        },
+        "id_ref": "adverb_hinein"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
