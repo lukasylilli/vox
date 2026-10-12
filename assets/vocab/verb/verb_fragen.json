@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_fragen",
+  "wort": "fragen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پرسیدن، سؤال کردن",
+      "(sich fragen) از خود پرسیدن"
+    ],
+    "en": [
+      "to ask",
+      "(sich) to wonder"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Kommunikation",
+    "Alltag"
+  ],
+  "ipa": "ˈfʁaːɡn̩",
+  "anmerkung": "In der Verbliste unter den unregelmäßigen Verben; heute regelmäßig (fragte, gefragt). Veraltet/regional: «frug».",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Darf ich Sie etwas fragen?",
+      "uebersetzung": {
+        "fa": "می‌توانم چیزی از شما بپرسم؟",
+        "en": "May I ask you something?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich frage mich, ob ich die richtige Entscheidung getroffen habe.",
+      "uebersetzung": {
+        "fa": "از خودم می‌پرسم آیا تصمیم درستی گرفته‌ام.",
+        "en": "I wonder whether I made the right decision."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich erkundigen",
+      "uebersetzung": {
+        "fa": "پرس‌وجو کردن",
+        "en": "to inquire"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "antworten",
+      "uebersetzung": {
+        "fa": "جواب دادن",
+        "en": "to answer"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "nach + Dat fragen",
+        "bedeutung": "sich nach etwas/jemandem erkundigen",
+        "beispiel": "Ein Mann hat nach dir gefragt.",
+        "uebersetzung": {
+          "fa": "مردی سراغ تو را گرفت.",
+          "en": "A man was asking for you."
+        }
+      },
+      {
+        "muster": "jemanden um + Akk fragen",
+        "bedeutung": "jemanden um etwas bitten",
+        "beispiel": "Ich frage meinen Chef um Rat.",
+        "uebersetzung": {
+          "fa": "از رئیسم مشورت می‌خواهم.",
+          "en": "I ask my boss for advice."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "fragen",
+      "praeteritum": "fragte",
+      "partizip2": "gefragt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "frage",
+        "du": "fragst",
+        "er_sie_es": "fragt",
+        "wir": "fragen",
+        "ihr": "fragt",
+        "sie_Sie": "fragen"
+      },
+      "praeteritum": {
+        "ich": "fragte",
+        "du": "fragtest",
+        "er_sie_es": "fragte",
+        "wir": "fragten",
+        "ihr": "fragtet",
+        "sie_Sie": "fragten"
+      },
+      "konjunktiv1": {
+        "ich": "frage",
+        "du": "fragest",
+        "er_sie_es": "frage",
+        "wir": "fragen",
+        "ihr": "fraget",
+        "sie_Sie": "fragen"
+      },
+      "konjunktiv2": {
+        "ich": "fragte",
+        "du": "fragtest",
+        "er_sie_es": "fragte",
+        "wir": "fragten",
+        "ihr": "fragtet",
+        "sie_Sie": "fragten"
+      },
+      "imperativ": {
+        "du": "Frag!",
+        "ihr": "Fragt!",
+        "Sie": "Fragen Sie!"
+      }
+    },
+    "partizip1": "fragend",
+    "nominalisierung": "die Frage"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Frage",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سؤال",
+          "en": "question"
+        },
+        "id_ref": "nomen_frage"
+      },
+      {
+        "wort": "antworten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جواب دادن",
+          "en": "to answer"
+        },
+        "id_ref": "verb_antworten"
+      },
+      {
+        "wort": "die Antwort",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جواب",
+          "en": "answer"
+        },
+        "id_ref": "nomen_antwort"
+      },
+      {
+        "wort": "sich erkundigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پرس‌وجو کردن",
+          "en": "to inquire"
+        },
+        "id_ref": "verb_sich_erkundigen"
+      },
+      {
+        "wort": "nachfragen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جویا شدن",
+          "en": "to inquire"
+        },
+        "id_ref": "verb_nachfragen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

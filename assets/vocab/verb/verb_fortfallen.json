@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_fortfallen",
+  "wort": "fortfallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "حذف شدن، از میان رفتن، دیگر وجود نداشتن"
+    ],
+    "en": [
+      "to be dropped, to cease to apply"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Behörde",
+    "Arbeit"
+  ],
+  "ipa": "ˈfɔʁtˌfalən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Diese Regel fällt fort.",
+      "uebersetzung": {
+        "fa": "این قانون حذف می‌شود.",
+        "en": "This rule is being dropped."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Durch die neue Software fallen viele Formulare fort, die man früher von Hand ausfüllen musste.",
+      "uebersetzung": {
+        "fa": "با نرم‌افزار جدید بسیاری از فرم‌هایی که قبلاً باید دستی پر می‌شد حذف می‌شوند.",
+        "en": "With the new software many forms that used to be filled in by hand are no longer needed."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wegfallen",
+      "uebersetzung": {
+        "fa": "حذف شدن",
+        "en": "to be dropped"
+      }
+    },
+    {
+      "wort": "entfallen",
+      "uebersetzung": {
+        "fa": "حذف شدن، لغو شدن",
+        "en": "to be cancelled"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "fort- (دور؛ به جلو، ادامه) + fallen (افتادن)",
+    "en": "fort- (away; onward) + fallen (to fall)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "fortfallen",
+      "praeteritum": "fiel fort",
+      "partizip2": "fortgefallen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "falle fort",
+        "du": "fällst fort",
+        "er_sie_es": "fällt fort",
+        "wir": "fallen fort",
+        "ihr": "fallt fort",
+        "sie_Sie": "fallen fort"
+      },
+      "praeteritum": {
+        "ich": "fiel fort",
+        "du": "fielst fort",
+        "er_sie_es": "fiel fort",
+        "wir": "fielen fort",
+        "ihr": "fielt fort",
+        "sie_Sie": "fielen fort"
+      },
+      "konjunktiv1": {
+        "ich": "falle fort",
+        "du": "fallest fort",
+        "er_sie_es": "falle fort",
+        "wir": "fallen fort",
+        "ihr": "fallet fort",
+        "sie_Sie": "fallen fort"
+      },
+      "konjunktiv2": {
+        "ich": "fiele fort",
+        "du": "fielest fort",
+        "er_sie_es": "fiele fort",
+        "wir": "fielen fort",
+        "ihr": "fielet fort",
+        "sie_Sie": "fielen fort"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "fortfallend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fallen",
+    "woerter": [
+      {
+        "wort": "fallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "افتادن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_fallen"
+      },
+      {
+        "wort": "wegfallen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حذف شدن",
+          "en": "to be dropped"
+        },
+        "id_ref": "verb_wegfallen"
+      },
+      {
+        "wort": "entfallen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لغو شدن",
+          "en": "to be cancelled"
+        },
+        "id_ref": "verb_entfallen"
+      },
+      {
+        "wort": "abschaffen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لغو کردن",
+          "en": "to abolish"
+        },
+        "id_ref": "verb_abschaffen"
+      },
+      {
+        "wort": "die Regel",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قانون",
+          "en": "rule"
+        },
+        "id_ref": "nomen_regel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

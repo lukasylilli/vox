@@ -1036,6 +1036,13 @@ const zurueckgestellt = <String>{
   'festbleiben', // zurückgestellt (Regel 14/16): selten 2026-10-11
   'fortbegeben', // zurückgestellt (Regel 14/16): sich fortbegeben — gehoben, selten 2026-10-11
   'fortblasen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'fortdenken', // zurückgestellt (Regel 14/16): sich etwas fortdenken — selten (üblich: wegdenken) 2026-10-11
+  'fortdürfen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'fortgießen', // zurückgestellt (Regel 14/16): selten (üblich: weggießen) 2026-10-11
+  'forthaben', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-11
+  'fortkönnen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'fortkriechen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'fortmüssen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
