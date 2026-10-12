@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_herfahren",
+  "wort": "herfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با وسیله‌ی نقلیه) به اینجا آمدن",
+      "(hinter jemandem herfahren) پشت سر (کسی) راندن"
+    ],
+    "en": [
+      "to drive here, to come here",
+      "(hinter jdm) to drive behind"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr"
+  ],
+  "ipa": "ˈheːɐ̯ˌfaːʁən",
+  "anmerkung": "Transitiv (jemanden herfahren) mit «haben».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wie lange fährst du her?",
+      "uebersetzung": {
+        "fa": "چقدر طول می‌کشد تا با ماشین بیایی اینجا؟",
+        "en": "How long does it take you to drive here?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wir sind extra aus Graz hergefahren, aber das Konzert wurde leider abgesagt.",
+      "uebersetzung": {
+        "fa": "ما مخصوصاً از گراتس تا اینجا آمدیم، اما متأسفانه کنسرت لغو شد.",
+        "en": "We drove all the way here from Graz, but unfortunately the concert was cancelled."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "herkommen",
+      "uebersetzung": {
+        "fa": "آمدن (به اینجا)",
+        "en": "to come here"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "wegfahren",
+      "uebersetzung": {
+        "fa": "رفتن (با وسیله)",
+        "en": "to drive away"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "her- (به این سو (به سمت گوینده)) + fahren (رفتن (با وسیله))",
+    "en": "her- (here (towards the speaker)) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "hinter + Dat herfahren",
+        "bedeutung": "jemandem fahrend folgen",
+        "beispiel": "Ein Polizeiauto fuhr lange hinter uns her.",
+        "uebersetzung": {
+          "fa": "یک ماشین پلیس مدت زیادی پشت سر ما می‌راند.",
+          "en": "A police car drove behind us for a long time."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herfahren",
+      "praeteritum": "fuhr her",
+      "partizip2": "hergefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre her",
+        "du": "fährst her",
+        "er_sie_es": "fährt her",
+        "wir": "fahren her",
+        "ihr": "fahrt her",
+        "sie_Sie": "fahren her"
+      },
+      "praeteritum": {
+        "ich": "fuhr her",
+        "du": "fuhrst her",
+        "er_sie_es": "fuhr her",
+        "wir": "fuhren her",
+        "ihr": "fuhrt her",
+        "sie_Sie": "fuhren her"
+      },
+      "konjunktiv1": {
+        "ich": "fahre her",
+        "du": "fahrest her",
+        "er_sie_es": "fahre her",
+        "wir": "fahren her",
+        "ihr": "fahret her",
+        "sie_Sie": "fahren her"
+      },
+      "konjunktiv2": {
+        "ich": "führe her",
+        "du": "führest her",
+        "er_sie_es": "führe her",
+        "wir": "führen her",
+        "ihr": "führet her",
+        "sie_Sie": "führen her"
+      },
+      "imperativ": {
+        "du": "Fahr her!",
+        "ihr": "Fahrt her!",
+        "Sie": "Fahren Sie her!"
+      }
+    },
+    "partizip1": "herfahrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "herkommen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come here"
+        },
+        "id_ref": "verb_herkommen"
+      },
+      {
+        "wort": "die Anreise",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سفر رسیدن",
+          "en": "journey there"
+        },
+        "id_ref": "nomen_anreise"
+      },
+      {
+        "wort": "folgen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دنبال کردن",
+          "en": "to follow"
+        },
+        "id_ref": "verb_folgen"
+      },
+      {
+        "wort": "her",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "به اینجا",
+          "en": "here"
+        },
+        "id_ref": "adverb_her"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

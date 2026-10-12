@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_hergehen",
+  "wort": "hergehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(neben/hinter jemandem hergehen) کنار یا پشت سر (کسی) راه رفتن",
+      "(es geht … her) (مهمانی یا جایی) شلوغ یا پرهیجان بودن"
+    ],
+    "en": [
+      "to walk along (beside/behind someone)",
+      "(es geht … her) things are lively, there is a lot going on"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Feste"
+  ],
+  "ipa": "ˈheːɐ̯ˌɡeːən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er geht hinter mir her.",
+      "uebersetzung": {
+        "fa": "او پشت سر من راه می‌رود.",
+        "en": "He walks behind me."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Auf der Hochzeit ging es so lustig her, dass wir bis zum Morgen getanzt haben.",
+      "uebersetzung": {
+        "fa": "در عروسی آن‌قدر خوش گذشت که تا صبح رقصیدیم.",
+        "en": "Things were so lively at the wedding that we danced until morning."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "begleiten",
+      "uebersetzung": {
+        "fa": "همراهی کردن",
+        "en": "to accompany"
+      }
+    },
+    {
+      "wort": "folgen",
+      "uebersetzung": {
+        "fa": "دنبال کردن",
+        "en": "to follow"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "her- (به این سو (به سمت گوینده)) + gehen (رفتن)",
+    "en": "her- (here (towards the speaker)) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "hinter/neben + Dat hergehen",
+        "bedeutung": "jemandem folgen; neben jemandem gehen",
+        "beispiel": "Der Hund ging brav neben ihr her.",
+        "uebersetzung": {
+          "fa": "سگ با آرامش کنارش راه می‌رفت.",
+          "en": "The dog walked obediently beside her."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hergehen",
+      "praeteritum": "ging her",
+      "partizip2": "hergegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe her",
+        "du": "gehst her",
+        "er_sie_es": "geht her",
+        "wir": "gehen her",
+        "ihr": "geht her",
+        "sie_Sie": "gehen her"
+      },
+      "praeteritum": {
+        "ich": "ging her",
+        "du": "gingst her",
+        "er_sie_es": "ging her",
+        "wir": "gingen her",
+        "ihr": "gingt her",
+        "sie_Sie": "gingen her"
+      },
+      "konjunktiv1": {
+        "ich": "gehe her",
+        "du": "gehest her",
+        "er_sie_es": "gehe her",
+        "wir": "gehen her",
+        "ihr": "gehet her",
+        "sie_Sie": "gehen her"
+      },
+      "konjunktiv2": {
+        "ich": "ginge her",
+        "du": "gingest her",
+        "er_sie_es": "ginge her",
+        "wir": "gingen her",
+        "ihr": "ginget her",
+        "sie_Sie": "gingen her"
+      },
+      "imperativ": {
+        "du": "Geh her!",
+        "ihr": "Geht her!",
+        "Sie": "Gehen Sie her!"
+      }
+    },
+    "partizip1": "hergehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "folgen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دنبال کردن",
+          "en": "to follow"
+        },
+        "id_ref": "verb_folgen"
+      },
+      {
+        "wort": "begleiten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "همراهی کردن",
+          "en": "to accompany"
+        },
+        "id_ref": "verb_begleiten"
+      },
+      {
+        "wort": "lustig",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بامزه، شاد",
+          "en": "fun, merry"
+        },
+        "id_ref": "adjektiv_lustig"
+      },
+      {
+        "wort": "her",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "به اینجا",
+          "en": "here"
+        },
+        "id_ref": "adverb_her"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

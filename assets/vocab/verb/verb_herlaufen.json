@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_herlaufen",
+  "wort": "herlaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(دوان یا پیاده) به اینجا آمدن",
+      "(hinter jemandem herlaufen) دنبال (کسی) دویدن؛ (محاوره) به (کسی) آویزان شدن"
+    ],
+    "en": [
+      "to run here, to come running",
+      "(hinter jdm) to run after; (colloquial) to chase after"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Bewegung",
+    "Beziehungen"
+  ],
+  "ipa": "ˈheːɐ̯ˌlaʊ̯fn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hund läuft hinter mir her.",
+      "uebersetzung": {
+        "fa": "سگ پشت سرم می‌دود.",
+        "en": "The dog runs after me."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Seit Wochen läuft er hinter ihr her, aber sie interessiert sich überhaupt nicht für ihn.",
+      "uebersetzung": {
+        "fa": "هفته‌هاست دنبالش افتاده، اما آن دختر اصلاً به او علاقه‌ای ندارد.",
+        "en": "For weeks he has been chasing after her, but she isn't interested in him at all."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nachlaufen",
+      "uebersetzung": {
+        "fa": "دنبال (کسی) دویدن",
+        "en": "to run after"
+      }
+    },
+    {
+      "wort": "folgen",
+      "uebersetzung": {
+        "fa": "دنبال کردن",
+        "en": "to follow"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "her- (به این سو (به سمت گوینده)) + laufen (دویدن)",
+    "en": "her- (here (towards the speaker)) + laufen (to run)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "hinter + Dat herlaufen",
+        "bedeutung": "jemandem laufend folgen",
+        "beispiel": "Die Kinder liefen hinter dem Eiswagen her.",
+        "uebersetzung": {
+          "fa": "بچه‌ها دنبال ماشین بستنی‌فروشی می‌دویدند.",
+          "en": "The children ran after the ice-cream van."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herlaufen",
+      "praeteritum": "lief her",
+      "partizip2": "hergelaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laufe her",
+        "du": "läufst her",
+        "er_sie_es": "läuft her",
+        "wir": "laufen her",
+        "ihr": "lauft her",
+        "sie_Sie": "laufen her"
+      },
+      "praeteritum": {
+        "ich": "lief her",
+        "du": "liefst her",
+        "er_sie_es": "lief her",
+        "wir": "liefen her",
+        "ihr": "lieft her",
+        "sie_Sie": "liefen her"
+      },
+      "konjunktiv1": {
+        "ich": "laufe her",
+        "du": "laufest her",
+        "er_sie_es": "laufe her",
+        "wir": "laufen her",
+        "ihr": "laufet her",
+        "sie_Sie": "laufen her"
+      },
+      "konjunktiv2": {
+        "ich": "liefe her",
+        "du": "liefest her",
+        "er_sie_es": "liefe her",
+        "wir": "liefen her",
+        "ihr": "liefet her",
+        "sie_Sie": "liefen her"
+      },
+      "imperativ": {
+        "du": "Lauf her!",
+        "ihr": "Lauft her!",
+        "Sie": "Laufen Sie her!"
+      }
+    },
+    "partizip1": "herlaufend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دویدن",
+          "en": "to run"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "nachlaufen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دنبال کسی دویدن",
+          "en": "to run after"
+        },
+        "id_ref": "verb_nachlaufen"
+      },
+      {
+        "wort": "folgen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دنبال کردن",
+          "en": "to follow"
+        },
+        "id_ref": "verb_folgen"
+      },
+      {
+        "wort": "verfolgen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تعقیب کردن",
+          "en": "to pursue"
+        },
+        "id_ref": "verb_verfolgen"
+      },
+      {
+        "wort": "her",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "به اینجا",
+          "en": "here"
+        },
+        "id_ref": "adverb_her"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

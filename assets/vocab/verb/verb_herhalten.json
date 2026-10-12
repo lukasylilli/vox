@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_herhalten",
+  "wort": "herhalten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(چیزی را) جلو آوردن و نگه داشتن",
+      "(als etwas herhalten müssen) مجبور بودن (برای کسی) قربانی یا بهانه شدن"
+    ],
+    "en": [
+      "to hold out",
+      "(als etwas herhalten müssen) to have to serve as, to be made to take the blame"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Beziehungen",
+    "Arbeit"
+  ],
+  "ipa": "ˈheːɐ̯ˌhaltn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Kannst du mal die Tasche herhalten?",
+      "uebersetzung": {
+        "fa": "می‌شود کیف را بیاوری جلو و نگه داری؟",
+        "en": "Can you hold the bag out?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei jedem Fehler im Team muss immer der Praktikant als Sündenbock herhalten.",
+      "uebersetzung": {
+        "fa": "برای هر اشتباهی در تیم، همیشه کارآموز باید سپر بلا شود.",
+        "en": "For every mistake in the team, the intern always has to serve as the scapegoat."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "dienen als",
+      "uebersetzung": {
+        "fa": "به‌عنوان (چیزی) به کار رفتن",
+        "en": "to serve as"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "her- (به این سو (به سمت گوینده)) + halten (نگه داشتن)",
+    "en": "her- (here (towards the speaker)) + halten (to hold)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "als + Nom herhalten (müssen)",
+        "bedeutung": "für etwas benutzt werden",
+        "beispiel": "Das Wetter muss oft als Ausrede herhalten.",
+        "uebersetzung": {
+          "fa": "هوا اغلب بهانه می‌شود.",
+          "en": "The weather often has to serve as an excuse."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herhalten",
+      "praeteritum": "hielt her",
+      "partizip2": "hergehalten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "halte her",
+        "du": "hältst her",
+        "er_sie_es": "hält her",
+        "wir": "halten her",
+        "ihr": "haltet her",
+        "sie_Sie": "halten her"
+      },
+      "praeteritum": {
+        "ich": "hielt her",
+        "du": "hieltest her",
+        "er_sie_es": "hielt her",
+        "wir": "hielten her",
+        "ihr": "hieltet her",
+        "sie_Sie": "hielten her"
+      },
+      "konjunktiv1": {
+        "ich": "halte her",
+        "du": "haltest her",
+        "er_sie_es": "halte her",
+        "wir": "halten her",
+        "ihr": "haltet her",
+        "sie_Sie": "halten her"
+      },
+      "konjunktiv2": {
+        "ich": "hielte her",
+        "du": "hieltest her",
+        "er_sie_es": "hielte her",
+        "wir": "hielten her",
+        "ihr": "hieltet her",
+        "sie_Sie": "hielten her"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "herhaltend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "halten",
+    "woerter": [
+      {
+        "wort": "halten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to hold"
+        },
+        "id_ref": "verb_halten"
+      },
+      {
+        "wort": "der Sündenbock",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سپر بلا",
+          "en": "scapegoat"
+        },
+        "id_ref": "nomen_suendenbock"
+      },
+      {
+        "wort": "die Ausrede",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بهانه",
+          "en": "excuse"
+        },
+        "id_ref": "nomen_ausrede"
+      },
+      {
+        "wort": "die Schuld",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تقصیر",
+          "en": "blame"
+        },
+        "id_ref": "nomen_schuld"
+      },
+      {
+        "wort": "her",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "به اینجا",
+          "en": "here"
+        },
+        "id_ref": "adverb_her"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

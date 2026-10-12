@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_herfallen",
+  "wort": "herfallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(über jemanden herfallen) به (کسی) حمله کردن، یورش بردن",
+      "(over food) با ولع به (غذا) هجوم بردن؛ (با انتقاد) به (کسی) تاختن"
+    ],
+    "en": [
+      "(über jdn) to attack, to fall upon",
+      "to fall upon (food); to lay into (criticism)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gewalt",
+    "Essen",
+    "Medien"
+  ],
+  "ipa": "ˈheːɐ̯ˌfalən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kinder fallen über den Kuchen her.",
+      "uebersetzung": {
+        "fa": "بچه‌ها به کیک هجوم می‌برند.",
+        "en": "The children fall upon the cake."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem schlechten Spiel sind die Zeitungen heftig über den Trainer hergefallen.",
+      "uebersetzung": {
+        "fa": "بعد از آن بازی بد، روزنامه‌ها به‌شدت به مربی تاختند.",
+        "en": "After the bad game the newspapers laid into the coach."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "angreifen",
+      "uebersetzung": {
+        "fa": "حمله کردن",
+        "en": "to attack"
+      }
+    },
+    {
+      "wort": "überfallen",
+      "uebersetzung": {
+        "fa": "یورش بردن",
+        "en": "to raid"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "her- (به این سو (به سمت گوینده)) + fallen (افتادن)",
+    "en": "her- (here (towards the speaker)) + fallen (to fall)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "über + Akk herfallen",
+        "bedeutung": "jemanden/etwas plötzlich angreifen oder gierig nehmen",
+        "beispiel": "Die Wölfe fielen über die Schafe her.",
+        "uebersetzung": {
+          "fa": "گرگ‌ها به گوسفندها حمله کردند.",
+          "en": "The wolves fell upon the sheep."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herfallen",
+      "praeteritum": "fiel her",
+      "partizip2": "hergefallen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "falle her",
+        "du": "fällst her",
+        "er_sie_es": "fällt her",
+        "wir": "fallen her",
+        "ihr": "fallt her",
+        "sie_Sie": "fallen her"
+      },
+      "praeteritum": {
+        "ich": "fiel her",
+        "du": "fielst her",
+        "er_sie_es": "fiel her",
+        "wir": "fielen her",
+        "ihr": "fielt her",
+        "sie_Sie": "fielen her"
+      },
+      "konjunktiv1": {
+        "ich": "falle her",
+        "du": "fallest her",
+        "er_sie_es": "falle her",
+        "wir": "fallen her",
+        "ihr": "fallet her",
+        "sie_Sie": "fallen her"
+      },
+      "konjunktiv2": {
+        "ich": "fiele her",
+        "du": "fielest her",
+        "er_sie_es": "fiele her",
+        "wir": "fielen her",
+        "ihr": "fielet her",
+        "sie_Sie": "fielen her"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "herfallend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fallen",
+    "woerter": [
+      {
+        "wort": "fallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "افتادن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_fallen"
+      },
+      {
+        "wort": "angreifen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حمله کردن",
+          "en": "to attack"
+        },
+        "id_ref": "verb_angreifen"
+      },
+      {
+        "wort": "der Angriff",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حمله",
+          "en": "attack"
+        },
+        "id_ref": "nomen_angriff"
+      },
+      {
+        "wort": "gierig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "حریص",
+          "en": "greedy"
+        },
+        "id_ref": "adjektiv_gierig"
+      },
+      {
+        "wort": "die Kritik",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انتقاد",
+          "en": "criticism"
+        },
+        "id_ref": "nomen_kritik"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

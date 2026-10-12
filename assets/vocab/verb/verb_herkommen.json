@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_herkommen",
+  "wort": "herkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(به اینجا) آمدن",
+      "(از جایی) آمدن، اهل (جایی) بودن، منشأ گرفتن"
+    ],
+    "en": [
+      "to come here",
+      "to come from, to originate"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Herkunft"
+  ],
+  "ipa": "ˈheːɐ̯ˌkɔmən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Komm mal her!",
+      "uebersetzung": {
+        "fa": "یک لحظه بیا اینجا!",
+        "en": "Come here a moment!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Niemand weiß genau, wo dieser alte Brauch eigentlich herkommt.",
+      "uebersetzung": {
+        "fa": "هیچ‌کس دقیقاً نمی‌داند این رسم قدیمی واقعاً از کجا آمده است.",
+        "en": "Nobody knows exactly where this old custom actually comes from."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kommen",
+      "uebersetzung": {
+        "fa": "آمدن",
+        "en": "to come"
+      }
+    },
+    {
+      "wort": "stammen",
+      "uebersetzung": {
+        "fa": "اهل جایی بودن",
+        "en": "to originate"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "weggehen",
+      "uebersetzung": {
+        "fa": "رفتن",
+        "en": "to go away"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "her- (به این سو (به سمت گوینده)) + kommen (آمدن)",
+    "en": "her- (here (towards the speaker)) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "von + Dat herkommen",
+        "bedeutung": "aus etwas stammen",
+        "beispiel": "Wo kommt der Lärm her?",
+        "uebersetzung": {
+          "fa": "این صدا از کجا می‌آید؟",
+          "en": "Where is that noise coming from?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herkommen",
+      "praeteritum": "kam her",
+      "partizip2": "hergekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme her",
+        "du": "kommst her",
+        "er_sie_es": "kommt her",
+        "wir": "kommen her",
+        "ihr": "kommt her",
+        "sie_Sie": "kommen her"
+      },
+      "praeteritum": {
+        "ich": "kam her",
+        "du": "kamst her",
+        "er_sie_es": "kam her",
+        "wir": "kamen her",
+        "ihr": "kamt her",
+        "sie_Sie": "kamen her"
+      },
+      "konjunktiv1": {
+        "ich": "komme her",
+        "du": "kommest her",
+        "er_sie_es": "komme her",
+        "wir": "kommen her",
+        "ihr": "kommet her",
+        "sie_Sie": "kommen her"
+      },
+      "konjunktiv2": {
+        "ich": "käme her",
+        "du": "kämest her",
+        "er_sie_es": "käme her",
+        "wir": "kämen her",
+        "ihr": "kämet her",
+        "sie_Sie": "kämen her"
+      },
+      "imperativ": {
+        "du": "Komm her!",
+        "ihr": "Kommt her!",
+        "Sie": "Kommen Sie her!"
+      }
+    },
+    "partizip1": "herkommend",
+    "nominalisierung": "die Herkunft"
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "die Herkunft",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اصل، تبار",
+          "en": "origin"
+        },
+        "id_ref": "nomen_herkunft"
+      },
+      {
+        "wort": "stammen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اهل بودن",
+          "en": "to come from"
+        },
+        "id_ref": "verb_stammen"
+      },
+      {
+        "wort": "woher",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "از کجا",
+          "en": "where from"
+        },
+        "id_ref": "adverb_woher"
+      },
+      {
+        "wort": "her",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "به اینجا",
+          "en": "here"
+        },
+        "id_ref": "adverb_her"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

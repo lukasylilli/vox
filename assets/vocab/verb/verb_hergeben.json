@@ -1,0 +1,194 @@
+{
+  "schema": "3.0",
+  "id": "verb_hergeben",
+  "wort": "hergeben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(چیزی را به کسی) دادن، واگذار کردن",
+      "(sich hergeben für) به (کار ناپسندی) تن دادن",
+      "(محاوره) (چیزی) ارزش یا فایده داشتن"
+    ],
+    "en": [
+      "to give (up), to hand over",
+      "(sich für) to lend oneself to",
+      "(colloquial) to be worth, to yield"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Moral"
+  ],
+  "ipa": "ˈheːɐ̯ˌɡeːbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Gib mir das Handy her!",
+      "uebersetzung": {
+        "fa": "موبایل را بده به من!",
+        "en": "Give me the phone!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Für so eine unehrliche Werbung würde ich mich niemals hergeben.",
+      "uebersetzung": {
+        "fa": "من هرگز به چنین تبلیغ نادرستی تن نمی‌دهم.",
+        "en": "I would never lend myself to such dishonest advertising."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "geben",
+      "uebersetzung": {
+        "fa": "دادن",
+        "en": "to give"
+      }
+    },
+    {
+      "wort": "abgeben",
+      "uebersetzung": {
+        "fa": "تحویل دادن",
+        "en": "to hand over"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "behalten",
+      "uebersetzung": {
+        "fa": "نگه داشتن",
+        "en": "to keep"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "her- (به این سو (به سمت گوینده)) + geben (دادن)",
+    "en": "her- (here (towards the speaker)) + geben (to give)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich für + Akk hergeben",
+        "bedeutung": "bei etwas Fragwürdigem mitmachen",
+        "beispiel": "Dafür gebe ich mich nicht her.",
+        "uebersetzung": {
+          "fa": "به این کار تن نمی‌دهم.",
+          "en": "I won't lend myself to that."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hergeben",
+      "praeteritum": "gab her",
+      "partizip2": "hergegeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gebe her",
+        "du": "gibst her",
+        "er_sie_es": "gibt her",
+        "wir": "geben her",
+        "ihr": "gebt her",
+        "sie_Sie": "geben her"
+      },
+      "praeteritum": {
+        "ich": "gab her",
+        "du": "gabst her",
+        "er_sie_es": "gab her",
+        "wir": "gaben her",
+        "ihr": "gabt her",
+        "sie_Sie": "gaben her"
+      },
+      "konjunktiv1": {
+        "ich": "gebe her",
+        "du": "gebest her",
+        "er_sie_es": "gebe her",
+        "wir": "geben her",
+        "ihr": "gebet her",
+        "sie_Sie": "geben her"
+      },
+      "konjunktiv2": {
+        "ich": "gäbe her",
+        "du": "gäbest her",
+        "er_sie_es": "gäbe her",
+        "wir": "gäben her",
+        "ihr": "gäbet her",
+        "sie_Sie": "gäben her"
+      },
+      "imperativ": {
+        "du": "Gib her!",
+        "ihr": "Gebt her!",
+        "Sie": "Geben Sie her!"
+      }
+    },
+    "partizip1": "hergebend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "abgeben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تحویل دادن",
+          "en": "to hand over"
+        },
+        "id_ref": "verb_abgeben"
+      },
+      {
+        "wort": "behalten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to keep"
+        },
+        "id_ref": "verb_behalten"
+      },
+      {
+        "wort": "teilen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تقسیم کردن",
+          "en": "to share"
+        },
+        "id_ref": "verb_teilen"
+      },
+      {
+        "wort": "her",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "به اینجا",
+          "en": "here"
+        },
+        "id_ref": "adverb_her"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

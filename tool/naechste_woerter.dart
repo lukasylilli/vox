@@ -1082,6 +1082,8 @@ const zurueckgestellt = <String>{
   'hereingeben', // zurückgestellt (Regel 14/16): selten 2026-10-11
   'hereinkönnen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
   'hereinkriechen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hereinmüssen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'herkönnen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
