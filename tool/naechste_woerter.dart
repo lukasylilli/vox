@@ -1047,6 +1047,9 @@ const zurueckgestellt = <String>{
   'freilaufen', // zurückgestellt (Regel 14/16): sich freilaufen (Sport) — selten 2026-10-11
   'gegeneinanderhalten', // zurückgestellt (Regel 14/16): selten 2026-10-11
   'gegenfragen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'geheißen', // zurückgestellt (Regel 14/16): kein Infinitiv, sondern Partizip II von heißen 2026-10-11
+  'gutgehen', // zurückgestellt (Regel 14/16): Schreibung schwankt (gut gehen / gutgehen) 2026-10-11
+  'heimbegeben', // zurückgestellt (Regel 14/16): sich heimbegeben — gehoben, selten 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

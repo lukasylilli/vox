@@ -1,0 +1,198 @@
+{
+  "schema": "3.0",
+  "id": "verb_gehen",
+  "wort": "gehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "رفتن، راه رفتن",
+      "(دستگاه) کار کردن؛ (کاری) ممکن بودن",
+      "(es geht um) موضوع (چیزی) بودن؛ (es geht jemandem gut) حال (کسی) خوب بودن"
+    ],
+    "en": [
+      "to go, to walk",
+      "to work (machine); to be possible",
+      "(es geht um) to be about; (es geht jdm gut) to be well"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Bewegung"
+  ],
+  "ipa": "ˈɡeːən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Wie geht es Ihnen?",
+      "uebersetzung": {
+        "fa": "حال‌تان چطور است؟",
+        "en": "How are you?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "In dem Film geht es um eine Familie, die nach Österreich auswandert und dort neu anfängt.",
+      "uebersetzung": {
+        "fa": "فیلم درباره‌ی خانواده‌ای است که به اتریش مهاجرت می‌کند و آنجا از نو شروع می‌کند.",
+        "en": "The film is about a family that emigrates to Austria and makes a new start there."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "laufen",
+      "uebersetzung": {
+        "fa": "راه رفتن",
+        "en": "to walk"
+      }
+    },
+    {
+      "wort": "funktionieren",
+      "uebersetzung": {
+        "fa": "کار کردن (دستگاه)",
+        "en": "to work"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "kommen",
+      "uebersetzung": {
+        "fa": "آمدن",
+        "en": "to come"
+      }
+    },
+    {
+      "wort": "stehen bleiben",
+      "uebersetzung": {
+        "fa": "ایستادن",
+        "en": "to stop"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "es geht um + Akk",
+        "bedeutung": "etwas ist das Thema",
+        "beispiel": "Worum geht es in dem Brief?",
+        "uebersetzung": {
+          "fa": "موضوع نامه چیست؟",
+          "en": "What is the letter about?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "gehen",
+      "praeteritum": "ging",
+      "partizip2": "gegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe",
+        "du": "gehst",
+        "er_sie_es": "geht",
+        "wir": "gehen",
+        "ihr": "geht",
+        "sie_Sie": "gehen"
+      },
+      "praeteritum": {
+        "ich": "ging",
+        "du": "gingst",
+        "er_sie_es": "ging",
+        "wir": "gingen",
+        "ihr": "gingt",
+        "sie_Sie": "gingen"
+      },
+      "konjunktiv1": {
+        "ich": "gehe",
+        "du": "gehest",
+        "er_sie_es": "gehe",
+        "wir": "gehen",
+        "ihr": "gehet",
+        "sie_Sie": "gehen"
+      },
+      "konjunktiv2": {
+        "ich": "ginge",
+        "du": "gingest",
+        "er_sie_es": "ginge",
+        "wir": "gingen",
+        "ihr": "ginget",
+        "sie_Sie": "gingen"
+      },
+      "imperativ": {
+        "du": "Geh!",
+        "ihr": "Geht!",
+        "Sie": "Gehen Sie!"
+      }
+    },
+    "partizip1": "gehend",
+    "nominalisierung": "der Gang"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "راه رفتن",
+          "en": "to walk"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "der Gang",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "راه رفتن؛ راهرو",
+          "en": "walk; corridor"
+        },
+        "id_ref": "nomen_gang"
+      },
+      {
+        "wort": "der Fußgänger",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عابر پیاده",
+          "en": "pedestrian"
+        },
+        "id_ref": "nomen_fussgaenger"
+      },
+      {
+        "wort": "spazieren gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قدم زدن",
+          "en": "to go for a walk"
+        },
+        "id_ref": "verb_spazieren_gehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

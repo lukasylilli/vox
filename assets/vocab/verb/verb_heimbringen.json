@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_heimbringen",
+  "wort": "heimbringen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(کسی یا چیزی را) به خانه رساندن، به خانه بردن"
+    ],
+    "en": [
+      "to bring home, to take home"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Familie"
+  ],
+  "ipa": "ˈhaɪ̯mˌbʁɪŋən",
+  "anmerkung": "Gemischtes Verb: brachte heim, heimgebracht. Vor allem süddeutsch/österreichisch; sonst eher «nach Hause bringen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich bringe dich heim.",
+      "uebersetzung": {
+        "fa": "می‌رسانمت خانه.",
+        "en": "I'll take you home."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nach der Feier hat mein Bruder alle Gäste mit dem Auto heimgebracht, weil kein Bus mehr fuhr.",
+      "uebersetzung": {
+        "fa": "بعد از جشن، برادرم همه‌ی مهمان‌ها را با ماشین به خانه رساند، چون دیگر اتوبوسی نبود.",
+        "en": "After the party my brother drove all the guests home because there were no more buses."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nach Hause bringen",
+      "uebersetzung": {
+        "fa": "به خانه رساندن",
+        "en": "to take home"
+      }
+    },
+    {
+      "wort": "heimfahren",
+      "uebersetzung": {
+        "fa": "(با ماشین) به خانه رساندن",
+        "en": "to drive home"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "abholen",
+      "uebersetzung": {
+        "fa": "دنبال کسی رفتن",
+        "en": "to pick up"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "heim (خانه) + bringen (آوردن)",
+    "en": "heim (home) + bringen (to bring)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "heimbringen",
+      "praeteritum": "brachte heim",
+      "partizip2": "heimgebracht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bringe heim",
+        "du": "bringst heim",
+        "er_sie_es": "bringt heim",
+        "wir": "bringen heim",
+        "ihr": "bringt heim",
+        "sie_Sie": "bringen heim"
+      },
+      "praeteritum": {
+        "ich": "brachte heim",
+        "du": "brachtest heim",
+        "er_sie_es": "brachte heim",
+        "wir": "brachten heim",
+        "ihr": "brachtet heim",
+        "sie_Sie": "brachten heim"
+      },
+      "konjunktiv1": {
+        "ich": "bringe heim",
+        "du": "bringest heim",
+        "er_sie_es": "bringe heim",
+        "wir": "bringen heim",
+        "ihr": "bringet heim",
+        "sie_Sie": "bringen heim"
+      },
+      "konjunktiv2": {
+        "ich": "brächte heim",
+        "du": "brächtest heim",
+        "er_sie_es": "brächte heim",
+        "wir": "brächten heim",
+        "ihr": "brächtet heim",
+        "sie_Sie": "brächten heim"
+      },
+      "imperativ": {
+        "du": "Bring heim!",
+        "ihr": "Bringt heim!",
+        "Sie": "Bringen Sie heim!"
+      }
+    },
+    "partizip1": "heimbringend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bringen",
+    "woerter": [
+      {
+        "wort": "bringen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آوردن",
+          "en": "to bring"
+        },
+        "id_ref": "verb_bringen"
+      },
+      {
+        "wort": "das Heim",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خانه، سرا",
+          "en": "home"
+        },
+        "id_ref": "nomen_heim"
+      },
+      {
+        "wort": "heimfahren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به خانه رفتن",
+          "en": "to drive home"
+        },
+        "id_ref": "verb_heimfahren"
+      },
+      {
+        "wort": "heimkommen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "به خانه آمدن",
+          "en": "to come home"
+        },
+        "id_ref": "verb_heimkommen"
+      },
+      {
+        "wort": "nach Hause",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "به خانه",
+          "en": "home"
+        },
+        "id_ref": "adverb_nach_hause"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

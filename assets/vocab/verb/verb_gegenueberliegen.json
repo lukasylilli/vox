@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_gegenueberliegen",
+  "wort": "gegenüberliegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "روبه‌روی (چیزی) قرار داشتن"
+    ],
+    "en": [
+      "to be opposite, to face"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Orientierung",
+    "Wohnen"
+  ],
+  "ipa": "ɡeːɡn̩ˈʔyːbɐˌliːɡn̩",
+  "anmerkung": "In Süddeutschland und Österreich auch mit «sein». Oft als Partizip: «die gegenüberliegende Seite».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Apotheke liegt dem Bahnhof gegenüber.",
+      "uebersetzung": {
+        "fa": "داروخانه روبه‌روی ایستگاه قطار است.",
+        "en": "The pharmacy is opposite the station."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Unsere Wohnung liegt genau dem Park gegenüber, deshalb hören wir morgens die Vögel.",
+      "uebersetzung": {
+        "fa": "آپارتمان ما درست روبه‌روی پارک است، برای همین صبح‌ها صدای پرنده‌ها را می‌شنویم.",
+        "en": "Our flat is right opposite the park, so in the mornings we hear the birds."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gegenüberstehen",
+      "uebersetzung": {
+        "fa": "روبه‌رو ایستادن",
+        "en": "to stand opposite"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "nebeneinanderliegen",
+      "uebersetzung": {
+        "fa": "کنار هم قرار داشتن",
+        "en": "to lie side by side"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "gegenüber (روبه‌روی) + liegen (قرار داشتن)",
+    "en": "gegenüber (opposite) + liegen (to lie)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "einer Sache (+ Dat) gegenüberliegen",
+        "bedeutung": "sich auf der anderen Seite von etwas befinden",
+        "beispiel": "Das Hotel liegt dem Strand direkt gegenüber.",
+        "uebersetzung": {
+          "fa": "هتل درست روبه‌روی ساحل است.",
+          "en": "The hotel is directly opposite the beach."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "gegenüberliegen",
+      "praeteritum": "lag gegenüber",
+      "partizip2": "gegenübergelegen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "liege gegenüber",
+        "du": "liegst gegenüber",
+        "er_sie_es": "liegt gegenüber",
+        "wir": "liegen gegenüber",
+        "ihr": "liegt gegenüber",
+        "sie_Sie": "liegen gegenüber"
+      },
+      "praeteritum": {
+        "ich": "lag gegenüber",
+        "du": "lagst gegenüber",
+        "er_sie_es": "lag gegenüber",
+        "wir": "lagen gegenüber",
+        "ihr": "lagt gegenüber",
+        "sie_Sie": "lagen gegenüber"
+      },
+      "konjunktiv1": {
+        "ich": "liege gegenüber",
+        "du": "liegest gegenüber",
+        "er_sie_es": "liege gegenüber",
+        "wir": "liegen gegenüber",
+        "ihr": "lieget gegenüber",
+        "sie_Sie": "liegen gegenüber"
+      },
+      "konjunktiv2": {
+        "ich": "läge gegenüber",
+        "du": "lägest gegenüber",
+        "er_sie_es": "läge gegenüber",
+        "wir": "lägen gegenüber",
+        "ihr": "läget gegenüber",
+        "sie_Sie": "lägen gegenüber"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "gegenüberliegend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "liegen",
+    "woerter": [
+      {
+        "wort": "gegenüber",
+        "wortart": "praeposition",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "روبه‌روی",
+          "en": "opposite"
+        },
+        "id_ref": "praeposition_gegenueber"
+      },
+      {
+        "wort": "liegen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قرار داشتن",
+          "en": "to lie"
+        },
+        "id_ref": "verb_liegen"
+      },
+      {
+        "wort": "die Seite",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "طرف، سمت",
+          "en": "side"
+        },
+        "id_ref": "nomen_seite"
+      },
+      {
+        "wort": "neben",
+        "wortart": "praeposition",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کنار",
+          "en": "next to"
+        },
+        "id_ref": "praeposition_neben"
+      },
+      {
+        "wort": "die Straße",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خیابان",
+          "en": "street"
+        },
+        "id_ref": "nomen_strasse"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_guthaben",
+  "wort": "guthaben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(از کسی) طلبکار بودن، (پولی) نزد (کسی) طلب داشتن"
+    ],
+    "en": [
+      "to have (something) owed to one, to be owed"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Finanzen",
+    "Alltag"
+  ],
+  "ipa": "ˈɡuːtˌhaːbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Du hast noch zehn Euro bei mir gut.",
+      "uebersetzung": {
+        "fa": "هنوز ده یورو از من طلب داری.",
+        "en": "I still owe you ten euros."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil er mir beim Umzug geholfen hat, hat er bei mir noch einen großen Gefallen gut.",
+      "uebersetzung": {
+        "fa": "چون موقع اسباب‌کشی کمکم کرد، هنوز یک لطف بزرگ از من طلب دارد.",
+        "en": "Because he helped me move, I still owe him a big favour."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zustehen",
+      "uebersetzung": {
+        "fa": "حق (کسی) بودن",
+        "en": "to be due to"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "schulden",
+      "uebersetzung": {
+        "fa": "بدهکار بودن",
+        "en": "to owe"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "gut (خوب؛ (در حساب) به نفع) + haben (داشتن)",
+    "en": "gut (good; credit) + haben (to have)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas bei + Dat guthaben",
+        "bedeutung": "von jemandem etwas zu bekommen haben",
+        "beispiel": "Sie hat bei der Firma noch Urlaubstage gut.",
+        "uebersetzung": {
+          "fa": "او هنوز چند روز مرخصی از شرکت طلب دارد.",
+          "en": "The company still owes her some days of leave."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "guthaben",
+      "praeteritum": "hatte gut",
+      "partizip2": "gutgehabt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "habe gut",
+        "du": "hast gut",
+        "er_sie_es": "hat gut",
+        "wir": "haben gut",
+        "ihr": "habt gut",
+        "sie_Sie": "haben gut"
+      },
+      "praeteritum": {
+        "ich": "hatte gut",
+        "du": "hattest gut",
+        "er_sie_es": "hatte gut",
+        "wir": "hatten gut",
+        "ihr": "hattet gut",
+        "sie_Sie": "hatten gut"
+      },
+      "konjunktiv1": {
+        "ich": "habe gut",
+        "du": "habest gut",
+        "er_sie_es": "habe gut",
+        "wir": "haben gut",
+        "ihr": "habet gut",
+        "sie_Sie": "haben gut"
+      },
+      "konjunktiv2": {
+        "ich": "hätte gut",
+        "du": "hättest gut",
+        "er_sie_es": "hätte gut",
+        "wir": "hätten gut",
+        "ihr": "hättet gut",
+        "sie_Sie": "hätten gut"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "guthabend",
+    "nominalisierung": "das Guthaben"
+  },
+  "wortnetz": {
+    "grundwort": "haben",
+    "woerter": [
+      {
+        "wort": "das Guthaben",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اعتبار، موجودی",
+          "en": "credit, balance"
+        },
+        "id_ref": "nomen_guthaben"
+      },
+      {
+        "wort": "schulden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بدهکار بودن",
+          "en": "to owe"
+        },
+        "id_ref": "verb_schulden"
+      },
+      {
+        "wort": "die Schulden",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بدهی",
+          "en": "debts"
+        },
+        "id_ref": "nomen_schulden"
+      },
+      {
+        "wort": "der Gefallen",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لطف",
+          "en": "favour"
+        },
+        "id_ref": "nomen_gefallen"
+      },
+      {
+        "wort": "das Konto",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حساب بانکی",
+          "en": "account"
+        },
+        "id_ref": "nomen_konto"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

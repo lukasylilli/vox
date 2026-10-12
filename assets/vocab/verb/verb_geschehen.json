@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_geschehen",
+  "wort": "geschehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اتفاق افتادن، رخ دادن",
+      "(به کسی) پیش آمدن، بر سر (کسی) آمدن"
+    ],
+    "en": [
+      "to happen, to occur",
+      "to happen to (someone)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Nachrichten"
+  ],
+  "ipa": "ɡəˈʃeːən",
+  "anmerkung": "Meist in der 3. Person.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Was ist geschehen?",
+      "uebersetzung": {
+        "fa": "چه اتفاقی افتاد؟",
+        "en": "What happened?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Niemand weiß genau, wie der Unfall geschehen ist, weil es keine Zeugen gab.",
+      "uebersetzung": {
+        "fa": "هیچ‌کس دقیق نمی‌داند تصادف چطور رخ داد، چون شاهدی نبود.",
+        "en": "Nobody knows exactly how the accident happened because there were no witnesses."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "passieren",
+      "uebersetzung": {
+        "fa": "اتفاق افتادن",
+        "en": "to happen"
+      }
+    },
+    {
+      "wort": "sich ereignen",
+      "uebersetzung": {
+        "fa": "رخ دادن",
+        "en": "to occur"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem geschehen (+ Dat)",
+        "bedeutung": "jemandem zustoßen",
+        "beispiel": "Keine Sorge, dir geschieht nichts.",
+        "uebersetzung": {
+          "fa": "نگران نباش، اتفاقی برایت نمی‌افتد.",
+          "en": "Don't worry, nothing will happen to you."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "geschehen",
+      "praeteritum": "geschah",
+      "partizip2": "geschehen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "geschehe",
+        "du": "geschiehst",
+        "er_sie_es": "geschieht",
+        "wir": "geschehen",
+        "ihr": "gescheht",
+        "sie_Sie": "geschehen"
+      },
+      "praeteritum": {
+        "ich": "geschah",
+        "du": "geschahst",
+        "er_sie_es": "geschah",
+        "wir": "geschahen",
+        "ihr": "geschaht",
+        "sie_Sie": "geschahen"
+      },
+      "konjunktiv1": {
+        "ich": "geschehe",
+        "du": "geschehest",
+        "er_sie_es": "geschehe",
+        "wir": "geschehen",
+        "ihr": "geschehet",
+        "sie_Sie": "geschehen"
+      },
+      "konjunktiv2": {
+        "ich": "geschähe",
+        "du": "geschähest",
+        "er_sie_es": "geschähe",
+        "wir": "geschähen",
+        "ihr": "geschähet",
+        "sie_Sie": "geschähen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "geschehend",
+    "nominalisierung": "das Geschehen"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "passieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اتفاق افتادن",
+          "en": "to happen"
+        },
+        "id_ref": "verb_passieren"
+      },
+      {
+        "wort": "das Ereignis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رویداد",
+          "en": "event"
+        },
+        "id_ref": "nomen_ereignis"
+      },
+      {
+        "wort": "die Geschichte",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "داستان، تاریخ",
+          "en": "story, history"
+        },
+        "id_ref": "nomen_geschichte"
+      },
+      {
+        "wort": "sich ereignen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رخ دادن",
+          "en": "to occur"
+        },
+        "id_ref": "verb_sich_ereignen"
+      },
+      {
+        "wort": "der Unfall",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تصادف",
+          "en": "accident"
+        },
+        "id_ref": "nomen_unfall"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
