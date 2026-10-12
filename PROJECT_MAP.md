@@ -1,5 +1,6 @@
 # PROJECT MAP — VOX
 # نقشه کامل پروژه برای ناوبری سریع در هر session
+# آپدیت 2026-10-11 (دیروقت ۳) دور ۵۵۸–۵۶۰: ۳۰ کارت ⇒ assets/vocab/verb (gegenlesen … herauffahren) ⇒ آرشیو ۶۵۷۸ · zurueckgestellt += ۱۶ (#۹۹۷–۱۰۱۲). کد اپ دست نخورد.
 # آپدیت 2026-10-11 (دیروقت ۲) دور ۵۵۵–۵۵۷: ۳۰ کارت ⇒ assets/vocab/verb (festlaufen … gegenhalten) ⇒ آرشیو ۶۵۴۸ · zurueckgestellt += ۱۳ (#۹۸۴–۹۹۶). کد اپ دست نخورد.
 # آپدیت 2026-10-11 (دیروقت) دور ۵۵۳–۵۵۴: ۲۰ کارت ⇒ assets/vocab/verb (erwägen … festhängen) ⇒ آرشیو ۶۵۱۸ · zurueckgestellt += ۹ (#۹۷۵–۹۸۳). کد اپ دست نخورد.
 # آپدیت 2026-10-11 (شب) دور ۵۴۳–۵۵۲: ۱۰۰ کارت ⇒ assets/vocab/verb (durchfinden … ermessen) ⇒ آرشیو ۶۴۹۸ · tool/naechste_woerter.dart: zurueckgestellt += ۴۷ (#۹۲۸–۹۷۴). کد اپ دست نخورد. GitHub Actions همه سبز.
