@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_herleihen",
+  "wort": "herleihen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(اتریش/جنوب آلمان) (چیزی را به کسی) قرض دادن"
+    ],
+    "en": [
+      "(Austrian/South German) to lend"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Österreich"
+  ],
+  "ipa": "ˈheːɐ̯ˌlaɪ̯ən",
+  "anmerkung": "Vor allem österreichisch und süddeutsch für «verleihen, ausleihen (an jemanden)».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Leihst du mir dein Rad her?",
+      "uebersetzung": {
+        "fa": "دوچرخه‌ات را به من قرض می‌دهی؟",
+        "en": "Will you lend me your bike?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Mein Nachbar hat mir seine Bohrmaschine hergeliehen, weil meine kaputtgegangen war.",
+      "uebersetzung": {
+        "fa": "همسایه‌ام دریلش را به من قرض داد، چون دریل خودم خراب شده بود.",
+        "en": "My neighbour lent me his drill because mine had broken."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verleihen",
+      "uebersetzung": {
+        "fa": "قرض دادن",
+        "en": "to lend"
+      }
+    },
+    {
+      "wort": "ausleihen",
+      "uebersetzung": {
+        "fa": "قرض دادن/گرفتن",
+        "en": "to lend, to borrow"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zurückgeben",
+      "uebersetzung": {
+        "fa": "پس دادن",
+        "en": "to give back"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "her- (به این سو) + leihen (قرض دادن)",
+    "en": "her- (here) + leihen (to lend)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem etwas herleihen (+ Dat + Akk)",
+        "bedeutung": "jemandem etwas leihen",
+        "beispiel": "Kannst du mir zehn Euro herleihen?",
+        "uebersetzung": {
+          "fa": "می‌توانی ده یورو به من قرض بدهی؟",
+          "en": "Can you lend me ten euros?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herleihen",
+      "praeteritum": "lieh her",
+      "partizip2": "hergeliehen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "leihe her",
+        "du": "leihst her",
+        "er_sie_es": "leiht her",
+        "wir": "leihen her",
+        "ihr": "leiht her",
+        "sie_Sie": "leihen her"
+      },
+      "praeteritum": {
+        "ich": "lieh her",
+        "du": "liehst her",
+        "er_sie_es": "lieh her",
+        "wir": "liehen her",
+        "ihr": "lieht her",
+        "sie_Sie": "liehen her"
+      },
+      "konjunktiv1": {
+        "ich": "leihe her",
+        "du": "leihest her",
+        "er_sie_es": "leihe her",
+        "wir": "leihen her",
+        "ihr": "leihet her",
+        "sie_Sie": "leihen her"
+      },
+      "konjunktiv2": {
+        "ich": "liehe her",
+        "du": "liehest her",
+        "er_sie_es": "liehe her",
+        "wir": "liehen her",
+        "ihr": "liehet her",
+        "sie_Sie": "liehen her"
+      },
+      "imperativ": {
+        "du": "Leih her!",
+        "ihr": "Leiht her!",
+        "Sie": "Leihen Sie her!"
+      }
+    },
+    "partizip1": "herleihend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "leihen",
+    "woerter": [
+      {
+        "wort": "leihen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قرض دادن",
+          "en": "to lend"
+        },
+        "id_ref": "verb_leihen"
+      },
+      {
+        "wort": "verleihen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قرض دادن",
+          "en": "to lend"
+        },
+        "id_ref": "verb_verleihen"
+      },
+      {
+        "wort": "ausleihen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "امانت گرفتن/دادن",
+          "en": "to borrow, to lend"
+        },
+        "id_ref": "verb_ausleihen"
+      },
+      {
+        "wort": "zurückgeben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پس دادن",
+          "en": "to give back"
+        },
+        "id_ref": "verb_zurueckgeben"
+      },
+      {
+        "wort": "borgen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرض دادن/گرفتن",
+          "en": "to lend, to borrow"
+        },
+        "id_ref": "verb_borgen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

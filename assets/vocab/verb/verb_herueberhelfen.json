@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_herueberhelfen",
+  "wort": "herüberhelfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کمک کردن (به کسی) تا از (مانعی) به این طرف بیاید"
+    ],
+    "en": [
+      "to help (someone) over/across"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag",
+    "Hilfe"
+  ],
+  "ipa": "hɛˈʁyːbɐˌhɛlfn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich helfe dir über den Zaun herüber.",
+      "uebersetzung": {
+        "fa": "کمکت می‌کنم از روی نرده بیایی این طرف.",
+        "en": "I'll help you over the fence."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ein junger Mann half der alten Dame über die stark befahrene Straße herüber.",
+      "uebersetzung": {
+        "fa": "مرد جوانی به آن خانم مسن کمک کرد از خیابان شلوغ عبور کند و به این طرف بیاید.",
+        "en": "A young man helped the elderly lady across the busy road."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "helfen",
+      "uebersetzung": {
+        "fa": "کمک کردن",
+        "en": "to help"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "herüber- (به این طرف (از آن سو)) + helfen (کمک کردن)",
+    "en": "herüber- (over (to this side)) + helfen (to help)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem über + Akk herüberhelfen",
+        "bedeutung": "jemandem helfen, ein Hindernis zu überwinden",
+        "beispiel": "Er half dem Kind über den Bach herüber.",
+        "uebersetzung": {
+          "fa": "به بچه کمک کرد از جویبار رد شود.",
+          "en": "He helped the child across the stream."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herüberhelfen",
+      "praeteritum": "half herüber",
+      "partizip2": "herübergeholfen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "helfe herüber",
+        "du": "hilfst herüber",
+        "er_sie_es": "hilft herüber",
+        "wir": "helfen herüber",
+        "ihr": "helft herüber",
+        "sie_Sie": "helfen herüber"
+      },
+      "praeteritum": {
+        "ich": "half herüber",
+        "du": "halfst herüber",
+        "er_sie_es": "half herüber",
+        "wir": "halfen herüber",
+        "ihr": "halft herüber",
+        "sie_Sie": "halfen herüber"
+      },
+      "konjunktiv1": {
+        "ich": "helfe herüber",
+        "du": "helfest herüber",
+        "er_sie_es": "helfe herüber",
+        "wir": "helfen herüber",
+        "ihr": "helfet herüber",
+        "sie_Sie": "helfen herüber"
+      },
+      "konjunktiv2": {
+        "ich": "hülfe herüber",
+        "du": "hülfest herüber",
+        "er_sie_es": "hülfe herüber",
+        "wir": "hülfen herüber",
+        "ihr": "hülfet herüber",
+        "sie_Sie": "hülfen herüber"
+      },
+      "imperativ": {
+        "du": "Hilf herüber!",
+        "ihr": "Helft herüber!",
+        "Sie": "Helfen Sie herüber!"
+      }
+    },
+    "partizip1": "herüberhelfend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "helfen",
+    "woerter": [
+      {
+        "wort": "helfen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک کردن",
+          "en": "to help"
+        },
+        "id_ref": "verb_helfen"
+      },
+      {
+        "wort": "die Hilfe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک",
+          "en": "help"
+        },
+        "id_ref": "nomen_hilfe"
+      },
+      {
+        "wort": "der Zaun",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نرده",
+          "en": "fence"
+        },
+        "id_ref": "nomen_zaun"
+      },
+      {
+        "wort": "das Hindernis",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مانع",
+          "en": "obstacle"
+        },
+        "id_ref": "nomen_hindernis"
+      },
+      {
+        "wort": "herüber",
+        "wortart": "adverb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به این طرف",
+          "en": "over here"
+        },
+        "id_ref": "adverb_herueber"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

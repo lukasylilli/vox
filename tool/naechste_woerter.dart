@@ -1084,6 +1084,14 @@ const zurueckgestellt = <String>{
   'hereinkriechen', // zurückgestellt (Regel 14/16): selten 2026-10-11
   'hereinmüssen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
   'herkönnen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'hermüssen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'herniederfallen', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-11
+  'herniedergehen', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-11
+  'herüberdringen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'herüberdürfen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'herüberfliegen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'herüberhängen', // zurückgestellt (Regel 14/16): transitiv schwach, intransitiv stark — Formen schwanken 2026-10-11
+  'herüberkönnen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
