@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_heimfliegen",
+  "wort": "heimfliegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "با هواپیما به خانه (یا وطن) برگشتن"
+    ],
+    "en": [
+      "to fly home"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Reisen",
+    "Verkehr"
+  ],
+  "ipa": "ˈhaɪ̯mˌfliːɡn̩",
+  "anmerkung": "Vor allem süddeutsch/österreichisch; sonst eher «nach Hause …».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Morgen fliege ich heim.",
+      "uebersetzung": {
+        "fa": "فردا با هواپیما به خانه برمی‌گردم.",
+        "en": "I'm flying home tomorrow."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil ihr Vater krank geworden war, ist sie früher als geplant heimgeflogen.",
+      "uebersetzung": {
+        "fa": "چون پدرش بیمار شده بود، زودتر از برنامه با هواپیما برگشت.",
+        "en": "Because her father had fallen ill, she flew home earlier than planned."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zurückfliegen",
+      "uebersetzung": {
+        "fa": "با هواپیما برگشتن",
+        "en": "to fly back"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "abfliegen",
+      "uebersetzung": {
+        "fa": "پرواز کردن (رفتن)",
+        "en": "to take off, to depart"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "heim (خانه) + fliegen (پرواز کردن)",
+    "en": "heim (home) + fliegen (to fly)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "heimfliegen",
+      "praeteritum": "flog heim",
+      "partizip2": "heimgeflogen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fliege heim",
+        "du": "fliegst heim",
+        "er_sie_es": "fliegt heim",
+        "wir": "fliegen heim",
+        "ihr": "fliegt heim",
+        "sie_Sie": "fliegen heim"
+      },
+      "praeteritum": {
+        "ich": "flog heim",
+        "du": "flogst heim",
+        "er_sie_es": "flog heim",
+        "wir": "flogen heim",
+        "ihr": "flogt heim",
+        "sie_Sie": "flogen heim"
+      },
+      "konjunktiv1": {
+        "ich": "fliege heim",
+        "du": "fliegest heim",
+        "er_sie_es": "fliege heim",
+        "wir": "fliegen heim",
+        "ihr": "flieget heim",
+        "sie_Sie": "fliegen heim"
+      },
+      "konjunktiv2": {
+        "ich": "flöge heim",
+        "du": "flögest heim",
+        "er_sie_es": "flöge heim",
+        "wir": "flögen heim",
+        "ihr": "flöget heim",
+        "sie_Sie": "flögen heim"
+      },
+      "imperativ": {
+        "du": "Flieg heim!",
+        "ihr": "Fliegt heim!",
+        "Sie": "Fliegen Sie heim!"
+      }
+    },
+    "partizip1": "heimfliegend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fliegen",
+    "woerter": [
+      {
+        "wort": "fliegen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرواز کردن",
+          "en": "to fly"
+        },
+        "id_ref": "verb_fliegen"
+      },
+      {
+        "wort": "der Flug",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرواز",
+          "en": "flight"
+        },
+        "id_ref": "nomen_flug"
+      },
+      {
+        "wort": "zurückfliegen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "با هواپیما برگشتن",
+          "en": "to fly back"
+        },
+        "id_ref": "verb_zurueckfliegen"
+      },
+      {
+        "wort": "der Flughafen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فرودگاه",
+          "en": "airport"
+        },
+        "id_ref": "nomen_flughafen"
+      },
+      {
+        "wort": "die Heimat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وطن",
+          "en": "homeland"
+        },
+        "id_ref": "nomen_heimat"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1050,6 +1050,12 @@ const zurueckgestellt = <String>{
   'geheißen', // zurückgestellt (Regel 14/16): kein Infinitiv, sondern Partizip II von heißen 2026-10-11
   'gutgehen', // zurückgestellt (Regel 14/16): Schreibung schwankt (gut gehen / gutgehen) 2026-10-11
   'heimbegeben', // zurückgestellt (Regel 14/16): sich heimbegeben — gehoben, selten 2026-10-11
+  'heimdürfen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'heimfallen', // zurückgestellt (Regel 14/16): Rechtssprache, selten 2026-10-11
+  'heimkönnen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'heimmüssen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'heischen', // zurückgestellt (Regel 14/16): gehoben, veraltet; Konjugation unsicher 2026-10-11
+  'herabfahren', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

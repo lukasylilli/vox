@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_heimfahren",
+  "wort": "heimfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با وسیله‌ی نقلیه) به خانه رفتن یا برگشتن",
+      "(کسی را با ماشین) به خانه رساندن"
+    ],
+    "en": [
+      "to drive/go home",
+      "to drive (someone) home"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Verkehr",
+    "Reisen"
+  ],
+  "ipa": "ˈhaɪ̯mˌfaːʁən",
+  "anmerkung": "Vor allem süddeutsch/österreichisch; sonst eher «nach Hause …». Transitiv (jemanden heimfahren) mit «haben».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir fahren jetzt heim.",
+      "uebersetzung": {
+        "fa": "حالا به خانه برمی‌گردیم.",
+        "en": "We're going home now."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Zu Weihnachten fahren viele Studenten heim, um die Feiertage mit ihren Familien zu verbringen.",
+      "uebersetzung": {
+        "fa": "در کریسمس بسیاری از دانشجوها به خانه برمی‌گردند تا تعطیلات را با خانواده‌شان بگذرانند.",
+        "en": "At Christmas many students go home to spend the holidays with their families."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nach Hause fahren",
+      "uebersetzung": {
+        "fa": "به خانه رفتن",
+        "en": "to go home"
+      }
+    },
+    {
+      "wort": "zurückfahren",
+      "uebersetzung": {
+        "fa": "برگشتن",
+        "en": "to go back"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "wegfahren",
+      "uebersetzung": {
+        "fa": "رفتن (از خانه)",
+        "en": "to go away"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "heim (خانه) + fahren (رفتن (با وسیله))",
+    "en": "heim (home) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "heimfahren",
+      "praeteritum": "fuhr heim",
+      "partizip2": "heimgefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre heim",
+        "du": "fährst heim",
+        "er_sie_es": "fährt heim",
+        "wir": "fahren heim",
+        "ihr": "fahrt heim",
+        "sie_Sie": "fahren heim"
+      },
+      "praeteritum": {
+        "ich": "fuhr heim",
+        "du": "fuhrst heim",
+        "er_sie_es": "fuhr heim",
+        "wir": "fuhren heim",
+        "ihr": "fuhrt heim",
+        "sie_Sie": "fuhren heim"
+      },
+      "konjunktiv1": {
+        "ich": "fahre heim",
+        "du": "fahrest heim",
+        "er_sie_es": "fahre heim",
+        "wir": "fahren heim",
+        "ihr": "fahret heim",
+        "sie_Sie": "fahren heim"
+      },
+      "konjunktiv2": {
+        "ich": "führe heim",
+        "du": "führest heim",
+        "er_sie_es": "führe heim",
+        "wir": "führen heim",
+        "ihr": "führet heim",
+        "sie_Sie": "führen heim"
+      },
+      "imperativ": {
+        "du": "Fahr heim!",
+        "ihr": "Fahrt heim!",
+        "Sie": "Fahren Sie heim!"
+      }
+    },
+    "partizip1": "heimfahrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "heimkommen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "به خانه آمدن",
+          "en": "to come home"
+        },
+        "id_ref": "verb_heimkommen"
+      },
+      {
+        "wort": "die Heimfahrt",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "راه برگشت به خانه",
+          "en": "journey home"
+        },
+        "id_ref": "nomen_heimfahrt"
+      },
+      {
+        "wort": "nach Hause",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "به خانه",
+          "en": "home"
+        },
+        "id_ref": "adverb_nach_hause"
+      },
+      {
+        "wort": "die Heimat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وطن",
+          "en": "homeland"
+        },
+        "id_ref": "nomen_heimat"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

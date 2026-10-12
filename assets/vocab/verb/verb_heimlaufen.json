@@ -1,0 +1,165 @@
+{
+  "schema": "3.0",
+  "id": "verb_heimlaufen",
+  "wort": "heimlaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پیاده یا دوان به خانه رفتن"
+    ],
+    "en": [
+      "to walk home, to run home"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Bewegung"
+  ],
+  "ipa": "ˈhaɪ̯mˌlaʊ̯fn̩",
+  "anmerkung": "Vor allem süddeutsch/österreichisch; sonst eher «nach Hause …».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Kind läuft schnell heim.",
+      "uebersetzung": {
+        "fa": "بچه با عجله به خانه می‌دود.",
+        "en": "The child runs home quickly."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil der letzte Bus schon weg war, mussten wir zu Fuß heimlaufen.",
+      "uebersetzung": {
+        "fa": "چون آخرین اتوبوس رفته بود، مجبور شدیم پیاده به خانه برگردیم.",
+        "en": "Because the last bus had already gone, we had to walk home."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nach Hause laufen",
+      "uebersetzung": {
+        "fa": "پیاده به خانه رفتن",
+        "en": "to walk home"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "heim (خانه) + laufen (دویدن، راه رفتن)",
+    "en": "heim (home) + laufen (to run, to walk)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "heimlaufen",
+      "praeteritum": "lief heim",
+      "partizip2": "heimgelaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laufe heim",
+        "du": "läufst heim",
+        "er_sie_es": "läuft heim",
+        "wir": "laufen heim",
+        "ihr": "lauft heim",
+        "sie_Sie": "laufen heim"
+      },
+      "praeteritum": {
+        "ich": "lief heim",
+        "du": "liefst heim",
+        "er_sie_es": "lief heim",
+        "wir": "liefen heim",
+        "ihr": "lieft heim",
+        "sie_Sie": "liefen heim"
+      },
+      "konjunktiv1": {
+        "ich": "laufe heim",
+        "du": "laufest heim",
+        "er_sie_es": "laufe heim",
+        "wir": "laufen heim",
+        "ihr": "laufet heim",
+        "sie_Sie": "laufen heim"
+      },
+      "konjunktiv2": {
+        "ich": "liefe heim",
+        "du": "liefest heim",
+        "er_sie_es": "liefe heim",
+        "wir": "liefen heim",
+        "ihr": "liefet heim",
+        "sie_Sie": "liefen heim"
+      },
+      "imperativ": {
+        "du": "Lauf heim!",
+        "ihr": "Lauft heim!",
+        "Sie": "Laufen Sie heim!"
+      }
+    },
+    "partizip1": "heimlaufend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دویدن، راه رفتن",
+          "en": "to run, to walk"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "zu Fuß",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پیاده",
+          "en": "on foot"
+        },
+        "id_ref": "adverb_zu_fuss"
+      },
+      {
+        "wort": "heimgehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به خانه رفتن",
+          "en": "to go home"
+        },
+        "id_ref": "verb_heimgehen"
+      },
+      {
+        "wort": "der Heimweg",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "راه خانه",
+          "en": "way home"
+        },
+        "id_ref": "nomen_heimweg"
+      },
+      {
+        "wort": "rennen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دویدن",
+          "en": "to run"
+        },
+        "id_ref": "verb_rennen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

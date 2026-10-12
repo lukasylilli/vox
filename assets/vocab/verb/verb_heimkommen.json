@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_heimkommen",
+  "wort": "heimkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به خانه آمدن، به خانه رسیدن"
+    ],
+    "en": [
+      "to come home, to get home"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Familie"
+  ],
+  "ipa": "ˈhaɪ̯mˌkɔmən",
+  "anmerkung": "Vor allem süddeutsch/österreichisch; sonst eher «nach Hause …».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wann kommst du heim?",
+      "uebersetzung": {
+        "fa": "کی می‌آیی خانه؟",
+        "en": "When are you coming home?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Als ich gestern heimgekommen bin, haben die Kinder schon geschlafen.",
+      "uebersetzung": {
+        "fa": "دیروز وقتی به خانه رسیدم، بچه‌ها دیگر خوابیده بودند.",
+        "en": "When I got home yesterday, the children were already asleep."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nach Hause kommen",
+      "uebersetzung": {
+        "fa": "به خانه آمدن",
+        "en": "to come home"
+      }
+    },
+    {
+      "wort": "zurückkommen",
+      "uebersetzung": {
+        "fa": "برگشتن",
+        "en": "to come back"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "weggehen",
+      "uebersetzung": {
+        "fa": "بیرون رفتن",
+        "en": "to go out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "heim (خانه) + kommen (آمدن)",
+    "en": "heim (home) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "heimkommen",
+      "praeteritum": "kam heim",
+      "partizip2": "heimgekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme heim",
+        "du": "kommst heim",
+        "er_sie_es": "kommt heim",
+        "wir": "kommen heim",
+        "ihr": "kommt heim",
+        "sie_Sie": "kommen heim"
+      },
+      "praeteritum": {
+        "ich": "kam heim",
+        "du": "kamst heim",
+        "er_sie_es": "kam heim",
+        "wir": "kamen heim",
+        "ihr": "kamt heim",
+        "sie_Sie": "kamen heim"
+      },
+      "konjunktiv1": {
+        "ich": "komme heim",
+        "du": "kommest heim",
+        "er_sie_es": "komme heim",
+        "wir": "kommen heim",
+        "ihr": "kommet heim",
+        "sie_Sie": "kommen heim"
+      },
+      "konjunktiv2": {
+        "ich": "käme heim",
+        "du": "kämest heim",
+        "er_sie_es": "käme heim",
+        "wir": "kämen heim",
+        "ihr": "kämet heim",
+        "sie_Sie": "kämen heim"
+      },
+      "imperativ": {
+        "du": "Komm heim!",
+        "ihr": "Kommt heim!",
+        "Sie": "Kommen Sie heim!"
+      }
+    },
+    "partizip1": "heimkommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "heimgehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به خانه رفتن",
+          "en": "to go home"
+        },
+        "id_ref": "verb_heimgehen"
+      },
+      {
+        "wort": "die Heimkehr",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بازگشت به خانه",
+          "en": "homecoming"
+        },
+        "id_ref": "nomen_heimkehr"
+      },
+      {
+        "wort": "nach Hause",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "به خانه",
+          "en": "home"
+        },
+        "id_ref": "adverb_nach_hause"
+      },
+      {
+        "wort": "ankommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رسیدن",
+          "en": "to arrive"
+        },
+        "id_ref": "verb_ankommen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

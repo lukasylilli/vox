@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_herabfliessen",
+  "wort": "herabfließen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(مایع) از بالا به پایین جاری شدن"
+    ],
+    "en": [
+      "to flow down, to run down"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur"
+  ],
+  "ipa": "hɛˈʁapˌfliːsn̩",
+  "anmerkung": "Gehoben.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wasser fließt den Berg herab.",
+      "uebersetzung": {
+        "fa": "آب از کوه پایین جاری می‌شود.",
+        "en": "Water flows down the mountain."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Gewitter floss das Regenwasser in Strömen die steilen Gassen herab.",
+      "uebersetzung": {
+        "fa": "بعد از طوفان، آب باران سیل‌آسا از کوچه‌های شیب‌دار پایین می‌ریخت.",
+        "en": "After the thunderstorm the rainwater poured down the steep lanes."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "herunterfließen",
+      "uebersetzung": {
+        "fa": "پایین جاری شدن",
+        "en": "to flow down"
+      }
+    },
+    {
+      "wort": "herabrinnen",
+      "uebersetzung": {
+        "fa": "چکه کردن، فرو ریختن",
+        "en": "to trickle down"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "herab- (از بالا به پایین) + fließen (جاری شدن)",
+    "en": "herab- (down (from above)) + fließen (to flow)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas (Akk) herabfließen / von + Dat herabfließen",
+        "bedeutung": "nach unten fließen",
+        "beispiel": "Tränen flossen ihr über die Wangen herab.",
+        "uebersetzung": {
+          "fa": "اشک از گونه‌هایش سرازیر شد.",
+          "en": "Tears ran down her cheeks."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herabfließen",
+      "praeteritum": "floss herab",
+      "partizip2": "herabgeflossen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fließe herab",
+        "du": "fließt herab",
+        "er_sie_es": "fließt herab",
+        "wir": "fließen herab",
+        "ihr": "fließt herab",
+        "sie_Sie": "fließen herab"
+      },
+      "praeteritum": {
+        "ich": "floss herab",
+        "du": "flossest herab",
+        "er_sie_es": "floss herab",
+        "wir": "flossen herab",
+        "ihr": "flosst herab",
+        "sie_Sie": "flossen herab"
+      },
+      "konjunktiv1": {
+        "ich": "fließe herab",
+        "du": "fließest herab",
+        "er_sie_es": "fließe herab",
+        "wir": "fließen herab",
+        "ihr": "fließet herab",
+        "sie_Sie": "fließen herab"
+      },
+      "konjunktiv2": {
+        "ich": "flösse herab",
+        "du": "flössest herab",
+        "er_sie_es": "flösse herab",
+        "wir": "flössen herab",
+        "ihr": "flösset herab",
+        "sie_Sie": "flössen herab"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "herabfließend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fließen",
+    "woerter": [
+      {
+        "wort": "fließen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جاری شدن",
+          "en": "to flow"
+        },
+        "id_ref": "verb_fliessen"
+      },
+      {
+        "wort": "das Wasser",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب",
+          "en": "water"
+        },
+        "id_ref": "nomen_wasser"
+      },
+      {
+        "wort": "der Bach",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جویبار",
+          "en": "stream"
+        },
+        "id_ref": "nomen_bach"
+      },
+      {
+        "wort": "die Träne",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اشک",
+          "en": "tear"
+        },
+        "id_ref": "nomen_traene"
+      },
+      {
+        "wort": "herab",
+        "wortart": "adverb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "به پایین",
+          "en": "down"
+        },
+        "id_ref": "adverb_herab"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
