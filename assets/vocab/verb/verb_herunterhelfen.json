@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_herunterhelfen",
+  "wort": "herunterhelfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کمک کردن (به کسی) تا پایین بیاید"
+    ],
+    "en": [
+      "to help (someone) down"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag",
+    "Pflege"
+  ],
+  "ipa": "hɛˈʁʊntɐˌhɛlfn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich helfe dir herunter.",
+      "uebersetzung": {
+        "fa": "کمکت می‌کنم پایین بیایی.",
+        "en": "I'll help you down."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Pfleger half dem Patienten vorsichtig von der Untersuchungsliege herunter.",
+      "uebersetzung": {
+        "fa": "پرستار با احتیاط به بیمار کمک کرد از تخت معاینه پایین بیاید.",
+        "en": "The nurse carefully helped the patient down from the examination couch."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "helfen",
+      "uebersetzung": {
+        "fa": "کمک کردن",
+        "en": "to help"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hinaufhelfen",
+      "uebersetzung": {
+        "fa": "کمک کردن به بالا رفتن",
+        "en": "to help up"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "herunter- (به پایین (به این سو)) + helfen (کمک کردن)",
+    "en": "herunter- (down (towards the speaker)) + helfen (to help)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem von + Dat herunterhelfen",
+        "bedeutung": "jemandem helfen, von etwas nach unten zu kommen",
+        "beispiel": "Er half ihr vom Fahrrad herunter.",
+        "uebersetzung": {
+          "fa": "کمکش کرد از دوچرخه پیاده شود.",
+          "en": "He helped her down from the bike."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herunterhelfen",
+      "praeteritum": "half herunter",
+      "partizip2": "heruntergeholfen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "helfe herunter",
+        "du": "hilfst herunter",
+        "er_sie_es": "hilft herunter",
+        "wir": "helfen herunter",
+        "ihr": "helft herunter",
+        "sie_Sie": "helfen herunter"
+      },
+      "praeteritum": {
+        "ich": "half herunter",
+        "du": "halfst herunter",
+        "er_sie_es": "half herunter",
+        "wir": "halfen herunter",
+        "ihr": "halft herunter",
+        "sie_Sie": "halfen herunter"
+      },
+      "konjunktiv1": {
+        "ich": "helfe herunter",
+        "du": "helfest herunter",
+        "er_sie_es": "helfe herunter",
+        "wir": "helfen herunter",
+        "ihr": "helfet herunter",
+        "sie_Sie": "helfen herunter"
+      },
+      "konjunktiv2": {
+        "ich": "hülfe herunter",
+        "du": "hülfest herunter",
+        "er_sie_es": "hülfe herunter",
+        "wir": "hülfen herunter",
+        "ihr": "hülfet herunter",
+        "sie_Sie": "hülfen herunter"
+      },
+      "imperativ": {
+        "du": "Hilf herunter!",
+        "ihr": "Helft herunter!",
+        "Sie": "Helfen Sie herunter!"
+      }
+    },
+    "partizip1": "herunterhelfend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "helfen",
+    "woerter": [
+      {
+        "wort": "helfen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک کردن",
+          "en": "to help"
+        },
+        "id_ref": "verb_helfen"
+      },
+      {
+        "wort": "die Hilfe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک",
+          "en": "help"
+        },
+        "id_ref": "nomen_hilfe"
+      },
+      {
+        "wort": "die Liege",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تخت (معاینه)",
+          "en": "couch"
+        },
+        "id_ref": "nomen_liege"
+      },
+      {
+        "wort": "vorsichtig",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "با احتیاط",
+          "en": "careful"
+        },
+        "id_ref": "adjektiv_vorsichtig"
+      },
+      {
+        "wort": "herunter",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پایین",
+          "en": "down"
+        },
+        "id_ref": "adverb_herunter"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

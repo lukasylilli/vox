@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_herunterfallen",
+  "wort": "herunterfallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(از جایی) پایین افتادن"
+    ],
+    "en": [
+      "to fall down, to fall off"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "hɛˈʁʊntɐˌfalən",
+  "anmerkung": "Umgangssprachlich oft «runter…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Glas ist heruntergefallen.",
+      "uebersetzung": {
+        "fa": "لیوان افتاد.",
+        "en": "The glass fell down."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Mir ist das Handy heruntergefallen, und jetzt ist der Bildschirm kaputt.",
+      "uebersetzung": {
+        "fa": "موبایلم از دستم افتاد و حالا صفحه‌اش شکسته است.",
+        "en": "I dropped my phone, and now the screen is broken."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "runterfallen",
+      "uebersetzung": {
+        "fa": "(محاوره) افتادن",
+        "en": "to fall down"
+      }
+    },
+    {
+      "wort": "herabfallen",
+      "uebersetzung": {
+        "fa": "فرو افتادن",
+        "en": "to fall down"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "herunter- (به پایین (به این سو)) + fallen (افتادن)",
+    "en": "herunter- (down (towards the speaker)) + fallen (to fall)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "von + Dat herunterfallen",
+        "bedeutung": "von etwas nach unten fallen",
+        "beispiel": "Das Buch ist vom Regal heruntergefallen.",
+        "uebersetzung": {
+          "fa": "کتاب از قفسه افتاد.",
+          "en": "The book fell off the shelf."
+        }
+      },
+      {
+        "muster": "jemandem herunterfallen (+ Dat)",
+        "bedeutung": "jemandem aus der Hand fallen",
+        "beispiel": "Ihm ist der Teller heruntergefallen.",
+        "uebersetzung": {
+          "fa": "بشقاب از دستش افتاد.",
+          "en": "He dropped the plate."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herunterfallen",
+      "praeteritum": "fiel herunter",
+      "partizip2": "heruntergefallen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "falle herunter",
+        "du": "fällst herunter",
+        "er_sie_es": "fällt herunter",
+        "wir": "fallen herunter",
+        "ihr": "fallt herunter",
+        "sie_Sie": "fallen herunter"
+      },
+      "praeteritum": {
+        "ich": "fiel herunter",
+        "du": "fielst herunter",
+        "er_sie_es": "fiel herunter",
+        "wir": "fielen herunter",
+        "ihr": "fielt herunter",
+        "sie_Sie": "fielen herunter"
+      },
+      "konjunktiv1": {
+        "ich": "falle herunter",
+        "du": "fallest herunter",
+        "er_sie_es": "falle herunter",
+        "wir": "fallen herunter",
+        "ihr": "fallet herunter",
+        "sie_Sie": "fallen herunter"
+      },
+      "konjunktiv2": {
+        "ich": "fiele herunter",
+        "du": "fielest herunter",
+        "er_sie_es": "fiele herunter",
+        "wir": "fielen herunter",
+        "ihr": "fielet herunter",
+        "sie_Sie": "fielen herunter"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "herunterfallend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fallen",
+    "woerter": [
+      {
+        "wort": "fallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "افتادن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_fallen"
+      },
+      {
+        "wort": "fallen lassen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انداختن",
+          "en": "to drop"
+        },
+        "id_ref": "verb_fallen_lassen"
+      },
+      {
+        "wort": "kaputt",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خراب",
+          "en": "broken"
+        },
+        "id_ref": "adjektiv_kaputt"
+      },
+      {
+        "wort": "der Boden",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زمین، کف",
+          "en": "floor"
+        },
+        "id_ref": "nomen_boden"
+      },
+      {
+        "wort": "herunter",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پایین",
+          "en": "down"
+        },
+        "id_ref": "adverb_herunter"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

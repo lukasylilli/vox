@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_herunterheben",
+  "wort": "herunterheben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(کسی یا چیزی را) بلند کردن و پایین گذاشتن"
+    ],
+    "en": [
+      "to lift down"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Pflege"
+  ],
+  "ipa": "hɛˈʁʊntɐˌheːbn̩",
+  "anmerkung": "Umgangssprachlich oft «runter…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich hebe das Kind vom Pferd herunter.",
+      "uebersetzung": {
+        "fa": "بچه را از اسب پایین می‌آورم.",
+        "en": "I'm lifting the child down from the horse."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Zu zweit haben wir den schweren Koffer vorsichtig von der Ablage heruntergehoben.",
+      "uebersetzung": {
+        "fa": "دونفری چمدان سنگین را با احتیاط از قفسه پایین آوردیم.",
+        "en": "The two of us carefully lifted the heavy suitcase down from the rack."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "herunternehmen",
+      "uebersetzung": {
+        "fa": "پایین آوردن",
+        "en": "to take down"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hinaufheben",
+      "uebersetzung": {
+        "fa": "بالا بردن",
+        "en": "to lift up"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "herunter- (به پایین (به این سو)) + heben (بلند کردن)",
+    "en": "herunter- (down (towards the speaker)) + heben (to lift)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas von + Dat herunterheben",
+        "bedeutung": "etwas von oben nach unten heben",
+        "beispiel": "Sie hob die Kiste vom Schrank herunter.",
+        "uebersetzung": {
+          "fa": "جعبه را از روی کمد پایین آورد.",
+          "en": "She lifted the box down from the wardrobe."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herunterheben",
+      "praeteritum": "hob herunter",
+      "partizip2": "heruntergehoben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "hebe herunter",
+        "du": "hebst herunter",
+        "er_sie_es": "hebt herunter",
+        "wir": "heben herunter",
+        "ihr": "hebt herunter",
+        "sie_Sie": "heben herunter"
+      },
+      "praeteritum": {
+        "ich": "hob herunter",
+        "du": "hobst herunter",
+        "er_sie_es": "hob herunter",
+        "wir": "hoben herunter",
+        "ihr": "hobt herunter",
+        "sie_Sie": "hoben herunter"
+      },
+      "konjunktiv1": {
+        "ich": "hebe herunter",
+        "du": "hebest herunter",
+        "er_sie_es": "hebe herunter",
+        "wir": "heben herunter",
+        "ihr": "hebet herunter",
+        "sie_Sie": "heben herunter"
+      },
+      "konjunktiv2": {
+        "ich": "höbe herunter",
+        "du": "höbest herunter",
+        "er_sie_es": "höbe herunter",
+        "wir": "höben herunter",
+        "ihr": "höbet herunter",
+        "sie_Sie": "höben herunter"
+      },
+      "imperativ": {
+        "du": "Heb herunter!",
+        "ihr": "Hebt herunter!",
+        "Sie": "Heben Sie herunter!"
+      }
+    },
+    "partizip1": "herunterhebend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "heben",
+    "woerter": [
+      {
+        "wort": "heben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بلند کردن",
+          "en": "to lift"
+        },
+        "id_ref": "verb_heben"
+      },
+      {
+        "wort": "tragen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حمل کردن",
+          "en": "to carry"
+        },
+        "id_ref": "verb_tragen"
+      },
+      {
+        "wort": "schwer",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سنگین",
+          "en": "heavy"
+        },
+        "id_ref": "adjektiv_schwer"
+      },
+      {
+        "wort": "der Koffer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چمدان",
+          "en": "suitcase"
+        },
+        "id_ref": "nomen_koffer"
+      },
+      {
+        "wort": "herunter",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پایین",
+          "en": "down"
+        },
+        "id_ref": "adverb_herunter"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

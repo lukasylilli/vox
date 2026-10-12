@@ -1099,6 +1099,15 @@ const zurueckgestellt = <String>{
   'herumhaben', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-11
   'herumhängen', // zurückgestellt (Regel 14/16): transitiv schwach, intransitiv stark — Formen schwanken 2026-10-11
   'herumkriechen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'herunterbiegen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'herunterbrechen', // zurückgestellt (Regel 14/16): transitiv mit haben, intransitiv mit sein — Hilfsverb nicht eindeutig 2026-10-11
+  'herunterbrennen', // zurückgestellt (Regel 14/16): transitiv mit haben, intransitiv mit sein — Hilfsverb nicht eindeutig 2026-10-11
+  'herunterdürfen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'herunterfliegen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-11
+  'heruntergießen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'heruntergleiten', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'herunterhängen', // zurückgestellt (Regel 14/16): transitiv schwach, intransitiv stark — Formen schwanken 2026-10-11
+  'herunterhauen', // zurückgestellt (Regel 14/16): umgangssprachlich; Präteritum schwankt (haute/hieb) 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

@@ -1,0 +1,200 @@
+{
+  "schema": "3.0",
+  "id": "verb_heruntergehen",
+  "wort": "heruntergehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پایین آمدن، پایین رفتن (از پله و مانند آن)",
+      "(قیمت، تب یا عددی) پایین آمدن، کاهش یافتن"
+    ],
+    "en": [
+      "to go down, to come down",
+      "to go down, to drop (price, fever)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Wirtschaft",
+    "Gesundheit"
+  ],
+  "ipa": "hɛˈʁʊntɐˌɡeːən",
+  "anmerkung": "Umgangssprachlich oft «runter…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich gehe die Treppe herunter.",
+      "uebersetzung": {
+        "fa": "از پله‌ها پایین می‌آیم.",
+        "en": "I'm going down the stairs."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nach der Tablette ist das Fieber endlich heruntergegangen.",
+      "uebersetzung": {
+        "fa": "بعد از قرص، تب بالاخره پایین آمد.",
+        "en": "After the tablet the fever finally went down."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sinken",
+      "uebersetzung": {
+        "fa": "کاهش یافتن",
+        "en": "to sink"
+      }
+    },
+    {
+      "wort": "hinuntergehen",
+      "uebersetzung": {
+        "fa": "پایین رفتن",
+        "en": "to go down"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hinaufgehen",
+      "uebersetzung": {
+        "fa": "بالا رفتن",
+        "en": "to go up"
+      }
+    },
+    {
+      "wort": "steigen",
+      "uebersetzung": {
+        "fa": "بالا رفتن",
+        "en": "to rise"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "herunter- (به پایین (به این سو)) + gehen (رفتن)",
+    "en": "herunter- (down (towards the speaker)) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit + Dat heruntergehen",
+        "bedeutung": "etwas senken (Preis, Tempo)",
+        "beispiel": "Der Händler ist mit dem Preis heruntergegangen.",
+        "uebersetzung": {
+          "fa": "فروشنده قیمت را پایین آورد.",
+          "en": "The dealer came down on the price."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "heruntergehen",
+      "praeteritum": "ging herunter",
+      "partizip2": "heruntergegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe herunter",
+        "du": "gehst herunter",
+        "er_sie_es": "geht herunter",
+        "wir": "gehen herunter",
+        "ihr": "geht herunter",
+        "sie_Sie": "gehen herunter"
+      },
+      "praeteritum": {
+        "ich": "ging herunter",
+        "du": "gingst herunter",
+        "er_sie_es": "ging herunter",
+        "wir": "gingen herunter",
+        "ihr": "gingt herunter",
+        "sie_Sie": "gingen herunter"
+      },
+      "konjunktiv1": {
+        "ich": "gehe herunter",
+        "du": "gehest herunter",
+        "er_sie_es": "gehe herunter",
+        "wir": "gehen herunter",
+        "ihr": "gehet herunter",
+        "sie_Sie": "gehen herunter"
+      },
+      "konjunktiv2": {
+        "ich": "ginge herunter",
+        "du": "gingest herunter",
+        "er_sie_es": "ginge herunter",
+        "wir": "gingen herunter",
+        "ihr": "ginget herunter",
+        "sie_Sie": "gingen herunter"
+      },
+      "imperativ": {
+        "du": "Geh herunter!",
+        "ihr": "Geht herunter!",
+        "Sie": "Gehen Sie herunter!"
+      }
+    },
+    "partizip1": "heruntergehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "sinken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کاهش یافتن",
+          "en": "to sink"
+        },
+        "id_ref": "verb_sinken"
+      },
+      {
+        "wort": "steigen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بالا رفتن",
+          "en": "to rise"
+        },
+        "id_ref": "verb_steigen"
+      },
+      {
+        "wort": "die Treppe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پله",
+          "en": "stairs"
+        },
+        "id_ref": "nomen_treppe"
+      },
+      {
+        "wort": "herunter",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پایین",
+          "en": "down"
+        },
+        "id_ref": "adverb_herunter"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

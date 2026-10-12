@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_herunterfahren",
+  "wort": "herunterfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با وسیله‌ی نقلیه) پایین آمدن",
+      "(رایانه را) خاموش کردن",
+      "(تولید یا هزینه‌ای را) کاهش دادن"
+    ],
+    "en": [
+      "to drive down, to come down",
+      "to shut down (a computer)",
+      "to cut back, to scale down"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Technik",
+    "Verkehr",
+    "Wirtschaft"
+  ],
+  "ipa": "hɛˈʁʊntɐˌfaːʁən",
+  "anmerkung": "Umgangssprachlich oft «runter…». Transitiv (den Computer herunterfahren, die Produktion herunterfahren) mit «haben».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Fahr den Computer herunter!",
+      "uebersetzung": {
+        "fa": "کامپیوتر را خاموش کن!",
+        "en": "Shut down the computer!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wegen der Krise hat die Firma die Produktion um die Hälfte heruntergefahren.",
+      "uebersetzung": {
+        "fa": "به خاطر بحران، شرکت تولید را نصف کرد.",
+        "en": "Because of the crisis the company cut production by half."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausschalten",
+      "uebersetzung": {
+        "fa": "خاموش کردن",
+        "en": "to switch off"
+      }
+    },
+    {
+      "wort": "reduzieren",
+      "uebersetzung": {
+        "fa": "کاهش دادن",
+        "en": "to reduce"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hochfahren",
+      "uebersetzung": {
+        "fa": "روشن کردن (رایانه)",
+        "en": "to boot up"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "herunter- (به پایین (به این سو)) + fahren (رفتن (با وسیله))",
+    "en": "herunter- (down (towards the speaker)) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "herunterfahren",
+      "praeteritum": "fuhr herunter",
+      "partizip2": "heruntergefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre herunter",
+        "du": "fährst herunter",
+        "er_sie_es": "fährt herunter",
+        "wir": "fahren herunter",
+        "ihr": "fahrt herunter",
+        "sie_Sie": "fahren herunter"
+      },
+      "praeteritum": {
+        "ich": "fuhr herunter",
+        "du": "fuhrst herunter",
+        "er_sie_es": "fuhr herunter",
+        "wir": "fuhren herunter",
+        "ihr": "fuhrt herunter",
+        "sie_Sie": "fuhren herunter"
+      },
+      "konjunktiv1": {
+        "ich": "fahre herunter",
+        "du": "fahrest herunter",
+        "er_sie_es": "fahre herunter",
+        "wir": "fahren herunter",
+        "ihr": "fahret herunter",
+        "sie_Sie": "fahren herunter"
+      },
+      "konjunktiv2": {
+        "ich": "führe herunter",
+        "du": "führest herunter",
+        "er_sie_es": "führe herunter",
+        "wir": "führen herunter",
+        "ihr": "führet herunter",
+        "sie_Sie": "führen herunter"
+      },
+      "imperativ": {
+        "du": "Fahr herunter!",
+        "ihr": "Fahrt herunter!",
+        "Sie": "Fahren Sie herunter!"
+      }
+    },
+    "partizip1": "herunterfahrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "hochfahren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "روشن کردن (رایانه)",
+          "en": "to boot up"
+        },
+        "id_ref": "verb_hochfahren"
+      },
+      {
+        "wort": "ausschalten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خاموش کردن",
+          "en": "to switch off"
+        },
+        "id_ref": "verb_ausschalten"
+      },
+      {
+        "wort": "der Computer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رایانه",
+          "en": "computer"
+        },
+        "id_ref": "nomen_computer"
+      },
+      {
+        "wort": "reduzieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کاهش دادن",
+          "en": "to reduce"
+        },
+        "id_ref": "verb_reduzieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
