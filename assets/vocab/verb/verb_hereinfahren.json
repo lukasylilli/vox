@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_hereinfahren",
+  "wort": "hereinfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با وسیله‌ی نقلیه) به داخل آمدن"
+    ],
+    "en": [
+      "to drive in, to come in (vehicle)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr"
+  ],
+  "ipa": "hɛˈʁaɪ̯nˌfaːʁən",
+  "anmerkung": "Umgangssprachlich oft «rein…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Bus fährt in den Hof herein.",
+      "uebersetzung": {
+        "fa": "اتوبوس وارد حیاط می‌شود.",
+        "en": "The bus drives into the yard."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Kurz nach Mitternacht ist der letzte Zug in den Bahnhof hereingefahren.",
+      "uebersetzung": {
+        "fa": "کمی بعد از نیمه‌شب آخرین قطار وارد ایستگاه شد.",
+        "en": "Shortly after midnight the last train pulled into the station."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einfahren",
+      "uebersetzung": {
+        "fa": "وارد شدن",
+        "en": "to pull in"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "herausfahren",
+      "uebersetzung": {
+        "fa": "بیرون آمدن (با وسیله)",
+        "en": "to drive out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "herein- (به داخل (به این سو)) + fahren (رفتن (با وسیله))",
+    "en": "herein- (in (towards the speaker)) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in + Akk hereinfahren",
+        "bedeutung": "in etwas hineinfahren (zum Sprecher hin)",
+        "beispiel": "Ein Auto fuhr in die Einfahrt herein.",
+        "uebersetzung": {
+          "fa": "ماشینی وارد راه ورودی شد.",
+          "en": "A car drove into the driveway."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hereinfahren",
+      "praeteritum": "fuhr herein",
+      "partizip2": "hereingefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre herein",
+        "du": "fährst herein",
+        "er_sie_es": "fährt herein",
+        "wir": "fahren herein",
+        "ihr": "fahrt herein",
+        "sie_Sie": "fahren herein"
+      },
+      "praeteritum": {
+        "ich": "fuhr herein",
+        "du": "fuhrst herein",
+        "er_sie_es": "fuhr herein",
+        "wir": "fuhren herein",
+        "ihr": "fuhrt herein",
+        "sie_Sie": "fuhren herein"
+      },
+      "konjunktiv1": {
+        "ich": "fahre herein",
+        "du": "fahrest herein",
+        "er_sie_es": "fahre herein",
+        "wir": "fahren herein",
+        "ihr": "fahret herein",
+        "sie_Sie": "fahren herein"
+      },
+      "konjunktiv2": {
+        "ich": "führe herein",
+        "du": "führest herein",
+        "er_sie_es": "führe herein",
+        "wir": "führen herein",
+        "ihr": "führet herein",
+        "sie_Sie": "führen herein"
+      },
+      "imperativ": {
+        "du": "Fahr herein!",
+        "ihr": "Fahrt herein!",
+        "Sie": "Fahren Sie herein!"
+      }
+    },
+    "partizip1": "hereinfahrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "einfahren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وارد شدن",
+          "en": "to pull in"
+        },
+        "id_ref": "verb_einfahren"
+      },
+      {
+        "wort": "die Einfahrt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ورودی",
+          "en": "entrance"
+        },
+        "id_ref": "nomen_einfahrt"
+      },
+      {
+        "wort": "herausfahren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیرون آمدن",
+          "en": "to drive out"
+        },
+        "id_ref": "verb_herausfahren"
+      },
+      {
+        "wort": "herein",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به داخل",
+          "en": "in"
+        },
+        "id_ref": "adverb_herein"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_hereinlassen",
+  "wort": "hereinlassen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(کسی یا چیزی را) به داخل راه دادن"
+    ],
+    "en": [
+      "to let in"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Wohnen"
+  ],
+  "ipa": "hɛˈʁaɪ̯nˌlasn̩",
+  "anmerkung": "Umgangssprachlich oft «rein…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Lass den Hund herein!",
+      "uebersetzung": {
+        "fa": "سگ را راه بده تو!",
+        "en": "Let the dog in!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bitte lassen Sie keine fremden Personen ins Haus herein, auch wenn sie freundlich wirken.",
+      "uebersetzung": {
+        "fa": "لطفاً هیچ غریبه‌ای را به خانه راه ندهید، حتی اگر مهربان به نظر برسند.",
+        "en": "Please don't let any strangers into the house, even if they seem friendly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einlassen",
+      "uebersetzung": {
+        "fa": "راه دادن",
+        "en": "to let in"
+      }
+    },
+    {
+      "wort": "reinlassen",
+      "uebersetzung": {
+        "fa": "(محاوره) راه دادن",
+        "en": "to let in"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "aussperren",
+      "uebersetzung": {
+        "fa": "پشت در نگه داشتن",
+        "en": "to lock out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "herein- (به داخل (به این سو)) + lassen (گذاشتن)",
+    "en": "herein- (in (towards the speaker)) + lassen (to let)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden in + Akk hereinlassen",
+        "bedeutung": "jemandem den Eintritt erlauben",
+        "beispiel": "Lass frische Luft ins Zimmer herein!",
+        "uebersetzung": {
+          "fa": "بگذار هوای تازه بیاید توی اتاق!",
+          "en": "Let some fresh air into the room!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hereinlassen",
+      "praeteritum": "ließ herein",
+      "partizip2": "hereingelassen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lasse herein",
+        "du": "lässt herein",
+        "er_sie_es": "lässt herein",
+        "wir": "lassen herein",
+        "ihr": "lasst herein",
+        "sie_Sie": "lassen herein"
+      },
+      "praeteritum": {
+        "ich": "ließ herein",
+        "du": "ließest herein",
+        "er_sie_es": "ließ herein",
+        "wir": "ließen herein",
+        "ihr": "ließt herein",
+        "sie_Sie": "ließen herein"
+      },
+      "konjunktiv1": {
+        "ich": "lasse herein",
+        "du": "lassest herein",
+        "er_sie_es": "lasse herein",
+        "wir": "lassen herein",
+        "ihr": "lasset herein",
+        "sie_Sie": "lassen herein"
+      },
+      "konjunktiv2": {
+        "ich": "ließe herein",
+        "du": "ließest herein",
+        "er_sie_es": "ließe herein",
+        "wir": "ließen herein",
+        "ihr": "ließet herein",
+        "sie_Sie": "ließen herein"
+      },
+      "imperativ": {
+        "du": "Lass herein!",
+        "ihr": "Lasst herein!",
+        "Sie": "Lassen Sie herein!"
+      }
+    },
+    "partizip1": "hereinlassend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "lassen",
+    "woerter": [
+      {
+        "wort": "lassen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گذاشتن",
+          "en": "to let"
+        },
+        "id_ref": "verb_lassen"
+      },
+      {
+        "wort": "einlassen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "راه دادن",
+          "en": "to let in"
+        },
+        "id_ref": "verb_einlassen"
+      },
+      {
+        "wort": "aussperren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بیرون نگه داشتن",
+          "en": "to lock out"
+        },
+        "id_ref": "verb_aussperren"
+      },
+      {
+        "wort": "fremd",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "غریبه",
+          "en": "strange"
+        },
+        "id_ref": "adjektiv_fremd"
+      },
+      {
+        "wort": "herein",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به داخل",
+          "en": "in"
+        },
+        "id_ref": "adverb_herein"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

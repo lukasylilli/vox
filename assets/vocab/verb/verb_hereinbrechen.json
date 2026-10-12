@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_hereinbrechen",
+  "wort": "hereinbrechen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(شب یا زمستان) فرا رسیدن",
+      "(بلا یا مصیبتی، ناگهان) بر سر (کسی) آوار شدن"
+    ],
+    "en": [
+      "(night, winter) to fall, to set in",
+      "(disaster) to befall, to descend on"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Zeit",
+    "Natur",
+    "Sprache (gehoben)"
+  ],
+  "ipa": "hɛˈʁaɪ̯nˌbʁɛçn̩",
+  "anmerkung": "Gehoben.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Nacht bricht herein.",
+      "uebersetzung": {
+        "fa": "شب فرا می‌رسد.",
+        "en": "Night is falling."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Unglück ist ganz plötzlich über die Familie hereingebrochen, niemand hatte damit gerechnet.",
+      "uebersetzung": {
+        "fa": "این مصیبت کاملاً ناگهانی بر سر خانواده آوار شد؛ هیچ‌کس انتظارش را نداشت.",
+        "en": "The disaster befell the family quite suddenly; nobody had expected it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anbrechen",
+      "uebersetzung": {
+        "fa": "فرا رسیدن",
+        "en": "to break, to dawn"
+      }
+    },
+    {
+      "wort": "heimsuchen",
+      "uebersetzung": {
+        "fa": "گرفتار کردن (مصیبت)",
+        "en": "to afflict"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "herein- (به داخل (به این سو)) + brechen (شکستن)",
+    "en": "herein- (in (towards the speaker)) + brechen (to break)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "über + Akk hereinbrechen",
+        "bedeutung": "plötzlich und mit Wucht jemanden treffen",
+        "beispiel": "Ein Sturm brach über die Küste herein.",
+        "uebersetzung": {
+          "fa": "طوفانی بر ساحل فرود آمد.",
+          "en": "A storm descended on the coast."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hereinbrechen",
+      "praeteritum": "brach herein",
+      "partizip2": "hereingebrochen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "breche herein",
+        "du": "brichst herein",
+        "er_sie_es": "bricht herein",
+        "wir": "brechen herein",
+        "ihr": "brecht herein",
+        "sie_Sie": "brechen herein"
+      },
+      "praeteritum": {
+        "ich": "brach herein",
+        "du": "brachst herein",
+        "er_sie_es": "brach herein",
+        "wir": "brachen herein",
+        "ihr": "bracht herein",
+        "sie_Sie": "brachen herein"
+      },
+      "konjunktiv1": {
+        "ich": "breche herein",
+        "du": "brechest herein",
+        "er_sie_es": "breche herein",
+        "wir": "brechen herein",
+        "ihr": "brechet herein",
+        "sie_Sie": "brechen herein"
+      },
+      "konjunktiv2": {
+        "ich": "bräche herein",
+        "du": "brächest herein",
+        "er_sie_es": "bräche herein",
+        "wir": "brächen herein",
+        "ihr": "brächet herein",
+        "sie_Sie": "brächen herein"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "hereinbrechend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "brechen",
+    "woerter": [
+      {
+        "wort": "brechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شکستن",
+          "en": "to break"
+        },
+        "id_ref": "verb_brechen"
+      },
+      {
+        "wort": "anbrechen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "فرا رسیدن",
+          "en": "to dawn"
+        },
+        "id_ref": "verb_anbrechen"
+      },
+      {
+        "wort": "das Unglück",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مصیبت",
+          "en": "misfortune"
+        },
+        "id_ref": "nomen_unglueck"
+      },
+      {
+        "wort": "die Dunkelheit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تاریکی",
+          "en": "darkness"
+        },
+        "id_ref": "nomen_dunkelheit"
+      },
+      {
+        "wort": "plötzlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ناگهانی",
+          "en": "sudden"
+        },
+        "id_ref": "adjektiv_ploetzlich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

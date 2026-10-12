@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_hereinlaufen",
+  "wort": "hereinlaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(دوان یا پیاده) به داخل آمدن",
+      "(آب) به داخل نفوذ کردن"
+    ],
+    "en": [
+      "to run in, to come in",
+      "to leak in (water)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Bewegung",
+    "Wohnen"
+  ],
+  "ipa": "hɛˈʁaɪ̯nˌlaʊ̯fn̩",
+  "anmerkung": "Umgangssprachlich oft «rein…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Katze läuft herein.",
+      "uebersetzung": {
+        "fa": "گربه می‌دود تو.",
+        "en": "The cat runs in."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei dem starken Regen ist Wasser durch die undichte Tür in den Keller hereingelaufen.",
+      "uebersetzung": {
+        "fa": "در باران شدید، آب از در نشتی به زیرزمین راه پیدا کرد.",
+        "en": "In the heavy rain water leaked into the cellar through the leaky door."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hineinlaufen",
+      "uebersetzung": {
+        "fa": "به داخل دویدن",
+        "en": "to run in"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "herauslaufen",
+      "uebersetzung": {
+        "fa": "بیرون دویدن",
+        "en": "to run out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "herein- (به داخل (به این سو)) + laufen (دویدن)",
+    "en": "herein- (in (towards the speaker)) + laufen (to run)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in + Akk hereinlaufen",
+        "bedeutung": "laufend in etwas hineinkommen",
+        "beispiel": "Die Kinder liefen nass ins Haus herein.",
+        "uebersetzung": {
+          "fa": "بچه‌ها خیس دویدند تو خانه.",
+          "en": "The children ran into the house soaking wet."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hereinlaufen",
+      "praeteritum": "lief herein",
+      "partizip2": "hereingelaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laufe herein",
+        "du": "läufst herein",
+        "er_sie_es": "läuft herein",
+        "wir": "laufen herein",
+        "ihr": "lauft herein",
+        "sie_Sie": "laufen herein"
+      },
+      "praeteritum": {
+        "ich": "lief herein",
+        "du": "liefst herein",
+        "er_sie_es": "lief herein",
+        "wir": "liefen herein",
+        "ihr": "lieft herein",
+        "sie_Sie": "liefen herein"
+      },
+      "konjunktiv1": {
+        "ich": "laufe herein",
+        "du": "laufest herein",
+        "er_sie_es": "laufe herein",
+        "wir": "laufen herein",
+        "ihr": "laufet herein",
+        "sie_Sie": "laufen herein"
+      },
+      "konjunktiv2": {
+        "ich": "liefe herein",
+        "du": "liefest herein",
+        "er_sie_es": "liefe herein",
+        "wir": "liefen herein",
+        "ihr": "liefet herein",
+        "sie_Sie": "liefen herein"
+      },
+      "imperativ": {
+        "du": "Lauf herein!",
+        "ihr": "Lauft herein!",
+        "Sie": "Laufen Sie herein!"
+      }
+    },
+    "partizip1": "hereinlaufend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دویدن",
+          "en": "to run"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "herauslaufen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیرون دویدن",
+          "en": "to run out"
+        },
+        "id_ref": "verb_herauslaufen"
+      },
+      {
+        "wort": "der Keller",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زیرزمین",
+          "en": "cellar"
+        },
+        "id_ref": "nomen_keller"
+      },
+      {
+        "wort": "undicht",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نشتی",
+          "en": "leaky"
+        },
+        "id_ref": "adjektiv_undicht"
+      },
+      {
+        "wort": "herein",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به داخل",
+          "en": "in"
+        },
+        "id_ref": "adverb_herein"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

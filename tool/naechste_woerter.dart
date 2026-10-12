@@ -1076,6 +1076,12 @@ const zurueckgestellt = <String>{
   'herbeifahren', // zurückgestellt (Regel 14/16): selten 2026-10-11
   'herbeifliegen', // zurückgestellt (Regel 14/16): selten 2026-10-11
   'herbeilassen', // zurückgestellt (Regel 14/16): sich herbeilassen — gehoben, selten 2026-10-11
+  'herdürfen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'hereindringen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hereindürfen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'hereingeben', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hereinkönnen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'hereinkriechen', // zurückgestellt (Regel 14/16): selten 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

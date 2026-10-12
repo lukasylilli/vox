@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_hereinfliegen",
+  "wort": "hereinfliegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(از جایی) پرواز کنان به داخل آمدن"
+    ],
+    "en": [
+      "to fly in"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Tiere",
+    "Alltag"
+  ],
+  "ipa": "hɛˈʁaɪ̯nˌfliːɡn̩",
+  "anmerkung": "Umgangssprachlich oft «rein…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Eine Biene fliegt herein.",
+      "uebersetzung": {
+        "fa": "زنبوری به داخل پرواز می‌کند.",
+        "en": "A bee flies in."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil das Fenster die ganze Nacht offen war, sind viele Mücken ins Zimmer hereingeflogen.",
+      "uebersetzung": {
+        "fa": "چون پنجره تمام شب باز بود، پشه‌های زیادی به داخل اتاق آمدند.",
+        "en": "Because the window was open all night, lots of mosquitoes flew into the room."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hineinfliegen",
+      "uebersetzung": {
+        "fa": "به داخل پرواز کردن",
+        "en": "to fly in"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hinausfliegen",
+      "uebersetzung": {
+        "fa": "بیرون پرواز کردن",
+        "en": "to fly out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "herein- (به داخل (به این سو)) + fliegen (پرواز کردن)",
+    "en": "herein- (in (towards the speaker)) + fliegen (to fly)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in + Akk hereinfliegen",
+        "bedeutung": "fliegend in etwas gelangen",
+        "beispiel": "Ein Vogel flog in die Küche herein.",
+        "uebersetzung": {
+          "fa": "پرنده‌ای به آشپزخانه پرواز کرد.",
+          "en": "A bird flew into the kitchen."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hereinfliegen",
+      "praeteritum": "flog herein",
+      "partizip2": "hereingeflogen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fliege herein",
+        "du": "fliegst herein",
+        "er_sie_es": "fliegt herein",
+        "wir": "fliegen herein",
+        "ihr": "fliegt herein",
+        "sie_Sie": "fliegen herein"
+      },
+      "praeteritum": {
+        "ich": "flog herein",
+        "du": "flogst herein",
+        "er_sie_es": "flog herein",
+        "wir": "flogen herein",
+        "ihr": "flogt herein",
+        "sie_Sie": "flogen herein"
+      },
+      "konjunktiv1": {
+        "ich": "fliege herein",
+        "du": "fliegest herein",
+        "er_sie_es": "fliege herein",
+        "wir": "fliegen herein",
+        "ihr": "flieget herein",
+        "sie_Sie": "fliegen herein"
+      },
+      "konjunktiv2": {
+        "ich": "flöge herein",
+        "du": "flögest herein",
+        "er_sie_es": "flöge herein",
+        "wir": "flögen herein",
+        "ihr": "flöget herein",
+        "sie_Sie": "flögen herein"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "hereinfliegend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fliegen",
+    "woerter": [
+      {
+        "wort": "fliegen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرواز کردن",
+          "en": "to fly"
+        },
+        "id_ref": "verb_fliegen"
+      },
+      {
+        "wort": "die Mücke",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پشه",
+          "en": "mosquito"
+        },
+        "id_ref": "nomen_muecke"
+      },
+      {
+        "wort": "das Fenster",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پنجره",
+          "en": "window"
+        },
+        "id_ref": "nomen_fenster"
+      },
+      {
+        "wort": "die Fliege",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مگس",
+          "en": "fly"
+        },
+        "id_ref": "nomen_fliege"
+      },
+      {
+        "wort": "herein",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به داخل",
+          "en": "in"
+        },
+        "id_ref": "adverb_herein"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

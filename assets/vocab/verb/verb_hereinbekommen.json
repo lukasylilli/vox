@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_hereinbekommen",
+  "wort": "hereinbekommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(چیزی را) به داخل آوردن یا جا دادن (با زحمت)",
+      "(کالا یا پولی) دریافت کردن، رسیدن",
+      "(ایستگاه رادیو و مانند آن را) گرفتن"
+    ],
+    "en": [
+      "to get (something) in",
+      "to receive (goods, money)",
+      "to pick up (a radio station)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Wirtschaft",
+    "Technik"
+  ],
+  "ipa": "hɛˈʁaɪ̯nbəˌkɔmən",
+  "anmerkung": "Umgangssprachlich oft «rein…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir bekommen das Sofa nicht herein.",
+      "uebersetzung": {
+        "fa": "نمی‌توانیم مبل را بیاوریم داخل.",
+        "en": "We can't get the sofa in."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Laden hat endlich die neuen Winterjacken hereinbekommen, die ich bestellt hatte.",
+      "uebersetzung": {
+        "fa": "مغازه بالاخره کاپشن‌های زمستانی جدیدی را که سفارش داده بودم دریافت کرد.",
+        "en": "The shop has finally got in the new winter jackets that I had ordered."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erhalten",
+      "uebersetzung": {
+        "fa": "دریافت کردن",
+        "en": "to receive"
+      }
+    },
+    {
+      "wort": "reinkriegen",
+      "uebersetzung": {
+        "fa": "(محاوره) داخل کردن",
+        "en": "to get in"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "herein- (به داخل (به این سو)) + bekommen (گرفتن)",
+    "en": "herein- (in (towards the speaker)) + bekommen (to get)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "hereinbekommen",
+      "praeteritum": "bekam herein",
+      "partizip2": "hereinbekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bekomme herein",
+        "du": "bekommst herein",
+        "er_sie_es": "bekommt herein",
+        "wir": "bekommen herein",
+        "ihr": "bekommt herein",
+        "sie_Sie": "bekommen herein"
+      },
+      "praeteritum": {
+        "ich": "bekam herein",
+        "du": "bekamst herein",
+        "er_sie_es": "bekam herein",
+        "wir": "bekamen herein",
+        "ihr": "bekamt herein",
+        "sie_Sie": "bekamen herein"
+      },
+      "konjunktiv1": {
+        "ich": "bekomme herein",
+        "du": "bekommest herein",
+        "er_sie_es": "bekomme herein",
+        "wir": "bekommen herein",
+        "ihr": "bekommet herein",
+        "sie_Sie": "bekommen herein"
+      },
+      "konjunktiv2": {
+        "ich": "bekäme herein",
+        "du": "bekämest herein",
+        "er_sie_es": "bekäme herein",
+        "wir": "bekämen herein",
+        "ihr": "bekämet herein",
+        "sie_Sie": "bekämen herein"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "hereinbekommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bekommen",
+    "woerter": [
+      {
+        "wort": "bekommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گرفتن",
+          "en": "to get"
+        },
+        "id_ref": "verb_bekommen"
+      },
+      {
+        "wort": "erhalten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دریافت کردن",
+          "en": "to receive"
+        },
+        "id_ref": "verb_erhalten"
+      },
+      {
+        "wort": "die Lieferung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تحویل کالا",
+          "en": "delivery"
+        },
+        "id_ref": "nomen_lieferung"
+      },
+      {
+        "wort": "die Tür",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "در",
+          "en": "door"
+        },
+        "id_ref": "nomen_tuer"
+      },
+      {
+        "wort": "herein",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به داخل",
+          "en": "in"
+        },
+        "id_ref": "adverb_herein"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_hereinfallen",
+  "wort": "hereinfallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(به داخل چیزی) افتادن",
+      "(auf jemanden/etwas hereinfallen) فریب خوردن، گول خوردن"
+    ],
+    "en": [
+      "to fall in",
+      "(auf jdn/etw) to be taken in, to fall for"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Betrug"
+  ],
+  "ipa": "hɛˈʁaɪ̯nˌfalən",
+  "anmerkung": "Umgangssprachlich oft «rein…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Licht fällt durch das Fenster herein.",
+      "uebersetzung": {
+        "fa": "نور از پنجره به داخل می‌تابد.",
+        "en": "Light falls in through the window."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Leider sind viele ältere Menschen auf den Trick mit dem falschen Polizisten hereingefallen.",
+      "uebersetzung": {
+        "fa": "متأسفانه بسیاری از سالمندان گول ترفند پلیس قلابی را خوردند.",
+        "en": "Unfortunately many elderly people fell for the fake police officer trick."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich täuschen lassen",
+      "uebersetzung": {
+        "fa": "فریب خوردن",
+        "en": "to be deceived"
+      }
+    },
+    {
+      "wort": "reinfallen",
+      "uebersetzung": {
+        "fa": "(محاوره) گول خوردن",
+        "en": "to fall for"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "herein- (به داخل (به این سو)) + fallen (افتادن)",
+    "en": "herein- (in (towards the speaker)) + fallen (to fall)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Akk hereinfallen",
+        "bedeutung": "sich täuschen lassen",
+        "beispiel": "Fall nicht auf seine Versprechen herein!",
+        "uebersetzung": {
+          "fa": "گول قول‌هایش را نخور!",
+          "en": "Don't fall for his promises!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hereinfallen",
+      "praeteritum": "fiel herein",
+      "partizip2": "hereingefallen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "falle herein",
+        "du": "fällst herein",
+        "er_sie_es": "fällt herein",
+        "wir": "fallen herein",
+        "ihr": "fallt herein",
+        "sie_Sie": "fallen herein"
+      },
+      "praeteritum": {
+        "ich": "fiel herein",
+        "du": "fielst herein",
+        "er_sie_es": "fiel herein",
+        "wir": "fielen herein",
+        "ihr": "fielt herein",
+        "sie_Sie": "fielen herein"
+      },
+      "konjunktiv1": {
+        "ich": "falle herein",
+        "du": "fallest herein",
+        "er_sie_es": "falle herein",
+        "wir": "fallen herein",
+        "ihr": "fallet herein",
+        "sie_Sie": "fallen herein"
+      },
+      "konjunktiv2": {
+        "ich": "fiele herein",
+        "du": "fielest herein",
+        "er_sie_es": "fiele herein",
+        "wir": "fielen herein",
+        "ihr": "fielet herein",
+        "sie_Sie": "fielen herein"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "hereinfallend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fallen",
+    "woerter": [
+      {
+        "wort": "fallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "افتادن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_fallen"
+      },
+      {
+        "wort": "der Betrug",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کلاهبرداری",
+          "en": "fraud"
+        },
+        "id_ref": "nomen_betrug"
+      },
+      {
+        "wort": "der Trick",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ترفند",
+          "en": "trick"
+        },
+        "id_ref": "nomen_trick"
+      },
+      {
+        "wort": "täuschen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فریب دادن",
+          "en": "to deceive"
+        },
+        "id_ref": "verb_taeuschen"
+      },
+      {
+        "wort": "herein",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به داخل",
+          "en": "in"
+        },
+        "id_ref": "adverb_herein"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

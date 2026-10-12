@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_hereinkommen",
+  "wort": "hereinkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "داخل آمدن، وارد شدن",
+      "(پول یا کالا) رسیدن، دریافت شدن"
+    ],
+    "en": [
+      "to come in",
+      "to come in (money, goods)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Höflichkeit"
+  ],
+  "ipa": "hɛˈʁaɪ̯nˌkɔmən",
+  "anmerkung": "Umgangssprachlich oft «rein…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Kommen Sie bitte herein!",
+      "uebersetzung": {
+        "fa": "لطفاً بفرمایید داخل!",
+        "en": "Please come in!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Als ich hereinkam, verstummten plötzlich alle Gespräche im Raum.",
+      "uebersetzung": {
+        "fa": "وقتی وارد شدم، ناگهان همه‌ی گفت‌وگوها در اتاق قطع شد.",
+        "en": "When I came in, all conversation in the room suddenly stopped."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "eintreten",
+      "uebersetzung": {
+        "fa": "وارد شدن",
+        "en": "to enter"
+      }
+    },
+    {
+      "wort": "reinkommen",
+      "uebersetzung": {
+        "fa": "(محاوره) داخل آمدن",
+        "en": "to come in"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hinausgehen",
+      "uebersetzung": {
+        "fa": "بیرون رفتن",
+        "en": "to go out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "herein- (به داخل (به این سو)) + kommen (آمدن)",
+    "en": "herein- (in (towards the speaker)) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in + Akk hereinkommen",
+        "bedeutung": "in einen Raum kommen",
+        "beispiel": "Der Hund darf nicht ins Schlafzimmer hereinkommen.",
+        "uebersetzung": {
+          "fa": "سگ اجازه ندارد وارد اتاق خواب شود.",
+          "en": "The dog isn't allowed into the bedroom."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hereinkommen",
+      "praeteritum": "kam herein",
+      "partizip2": "hereingekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme herein",
+        "du": "kommst herein",
+        "er_sie_es": "kommt herein",
+        "wir": "kommen herein",
+        "ihr": "kommt herein",
+        "sie_Sie": "kommen herein"
+      },
+      "praeteritum": {
+        "ich": "kam herein",
+        "du": "kamst herein",
+        "er_sie_es": "kam herein",
+        "wir": "kamen herein",
+        "ihr": "kamt herein",
+        "sie_Sie": "kamen herein"
+      },
+      "konjunktiv1": {
+        "ich": "komme herein",
+        "du": "kommest herein",
+        "er_sie_es": "komme herein",
+        "wir": "kommen herein",
+        "ihr": "kommet herein",
+        "sie_Sie": "kommen herein"
+      },
+      "konjunktiv2": {
+        "ich": "käme herein",
+        "du": "kämest herein",
+        "er_sie_es": "käme herein",
+        "wir": "kämen herein",
+        "ihr": "kämet herein",
+        "sie_Sie": "kämen herein"
+      },
+      "imperativ": {
+        "du": "Komm herein!",
+        "ihr": "Kommt herein!",
+        "Sie": "Kommen Sie herein!"
+      }
+    },
+    "partizip1": "hereinkommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "eintreten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وارد شدن",
+          "en": "to enter"
+        },
+        "id_ref": "verb_eintreten"
+      },
+      {
+        "wort": "der Eingang",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ورودی",
+          "en": "entrance"
+        },
+        "id_ref": "nomen_eingang"
+      },
+      {
+        "wort": "herein",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به داخل",
+          "en": "in"
+        },
+        "id_ref": "adverb_herein"
+      },
+      {
+        "wort": "die Tür",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "در",
+          "en": "door"
+        },
+        "id_ref": "nomen_tuer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
