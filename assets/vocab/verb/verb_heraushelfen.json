@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_heraushelfen",
+  "wort": "heraushelfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کمک کردن (به کسی) تا از (جایی یا وضع بدی) بیرون بیاید"
+    ],
+    "en": [
+      "to help (someone) out (of)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Hilfe"
+  ],
+  "ipa": "hɛˈʁaʊ̯sˌhɛlfn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich helfe dir aus dem Auto heraus.",
+      "uebersetzung": {
+        "fa": "کمکت می‌کنم از ماشین پیاده شوی.",
+        "en": "I'll help you out of the car."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ein Freund hat ihm aus der finanziellen Krise herausgeholfen, als er seine Arbeit verloren hatte.",
+      "uebersetzung": {
+        "fa": "وقتی کارش را از دست داده بود، یک دوست کمکش کرد از بحران مالی بیرون بیاید.",
+        "en": "A friend helped him out of the financial crisis when he had lost his job."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "helfen",
+      "uebersetzung": {
+        "fa": "کمک کردن",
+        "en": "to help"
+      }
+    },
+    {
+      "wort": "retten",
+      "uebersetzung": {
+        "fa": "نجات دادن",
+        "en": "to rescue"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "heraus- (به بیرون (به این سو)) + helfen (کمک کردن)",
+    "en": "heraus- (out (towards the speaker)) + helfen (to help)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem aus + Dat heraushelfen",
+        "bedeutung": "jemandem helfen, etwas zu verlassen",
+        "beispiel": "Die Pflegerin half der alten Frau aus dem Bett heraus.",
+        "uebersetzung": {
+          "fa": "پرستار به پیرزن کمک کرد از تخت بلند شود.",
+          "en": "The nurse helped the old woman out of bed."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "heraushelfen",
+      "praeteritum": "half heraus",
+      "partizip2": "herausgeholfen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "helfe heraus",
+        "du": "hilfst heraus",
+        "er_sie_es": "hilft heraus",
+        "wir": "helfen heraus",
+        "ihr": "helft heraus",
+        "sie_Sie": "helfen heraus"
+      },
+      "praeteritum": {
+        "ich": "half heraus",
+        "du": "halfst heraus",
+        "er_sie_es": "half heraus",
+        "wir": "halfen heraus",
+        "ihr": "halft heraus",
+        "sie_Sie": "halfen heraus"
+      },
+      "konjunktiv1": {
+        "ich": "helfe heraus",
+        "du": "helfest heraus",
+        "er_sie_es": "helfe heraus",
+        "wir": "helfen heraus",
+        "ihr": "helfet heraus",
+        "sie_Sie": "helfen heraus"
+      },
+      "konjunktiv2": {
+        "ich": "hülfe heraus",
+        "du": "hülfest heraus",
+        "er_sie_es": "hülfe heraus",
+        "wir": "hülfen heraus",
+        "ihr": "hülfet heraus",
+        "sie_Sie": "hülfen heraus"
+      },
+      "imperativ": {
+        "du": "Hilf heraus!",
+        "ihr": "Helft heraus!",
+        "Sie": "Helfen Sie heraus!"
+      }
+    },
+    "partizip1": "heraushelfend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "helfen",
+    "woerter": [
+      {
+        "wort": "helfen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک کردن",
+          "en": "to help"
+        },
+        "id_ref": "verb_helfen"
+      },
+      {
+        "wort": "die Hilfe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک",
+          "en": "help"
+        },
+        "id_ref": "nomen_hilfe"
+      },
+      {
+        "wort": "retten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نجات دادن",
+          "en": "to rescue"
+        },
+        "id_ref": "verb_retten"
+      },
+      {
+        "wort": "die Krise",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بحران",
+          "en": "crisis"
+        },
+        "id_ref": "nomen_krise"
+      },
+      {
+        "wort": "unterstützen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حمایت کردن",
+          "en": "to support"
+        },
+        "id_ref": "verb_unterstuetzen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_heraushalten",
+  "wort": "heraushalten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(چیزی را از جایی) بیرون نگه داشتن",
+      "(sich heraushalten) دخالت نکردن، خود را کنار کشیدن"
+    ],
+    "en": [
+      "to hold out, to keep out",
+      "(sich) to keep out of, to stay out of"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Beziehungen",
+    "Konflikt"
+  ],
+  "ipa": "hɛˈʁaʊ̯sˌhaltn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Halt dich da heraus!",
+      "uebersetzung": {
+        "fa": "خودت را قاطی نکن!",
+        "en": "Stay out of it!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei Streitigkeiten zwischen den Kollegen versucht er, sich so gut wie möglich herauszuhalten.",
+      "uebersetzung": {
+        "fa": "در دعواهای بین همکاران، او سعی می‌کند تا جای ممکن دخالت نکند.",
+        "en": "In disputes between colleagues he tries to stay out of it as much as possible."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich nicht einmischen",
+      "uebersetzung": {
+        "fa": "دخالت نکردن",
+        "en": "not to interfere"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sich einmischen",
+      "uebersetzung": {
+        "fa": "دخالت کردن",
+        "en": "to interfere"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "heraus- (به بیرون (به این سو)) + halten (نگه داشتن)",
+    "en": "heraus- (out (towards the speaker)) + halten (to hold)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich aus + Dat heraushalten",
+        "bedeutung": "sich nicht an etwas beteiligen",
+        "beispiel": "Ich halte mich aus der Politik heraus.",
+        "uebersetzung": {
+          "fa": "من خودم را از سیاست کنار می‌کشم.",
+          "en": "I keep out of politics."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "heraushalten",
+      "praeteritum": "hielt heraus",
+      "partizip2": "herausgehalten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "halte heraus",
+        "du": "hältst heraus",
+        "er_sie_es": "hält heraus",
+        "wir": "halten heraus",
+        "ihr": "haltet heraus",
+        "sie_Sie": "halten heraus"
+      },
+      "praeteritum": {
+        "ich": "hielt heraus",
+        "du": "hieltest heraus",
+        "er_sie_es": "hielt heraus",
+        "wir": "hielten heraus",
+        "ihr": "hieltet heraus",
+        "sie_Sie": "hielten heraus"
+      },
+      "konjunktiv1": {
+        "ich": "halte heraus",
+        "du": "haltest heraus",
+        "er_sie_es": "halte heraus",
+        "wir": "halten heraus",
+        "ihr": "haltet heraus",
+        "sie_Sie": "halten heraus"
+      },
+      "konjunktiv2": {
+        "ich": "hielte heraus",
+        "du": "hieltest heraus",
+        "er_sie_es": "hielte heraus",
+        "wir": "hielten heraus",
+        "ihr": "hieltet heraus",
+        "sie_Sie": "hielten heraus"
+      },
+      "imperativ": {
+        "du": "Halt heraus!",
+        "ihr": "Haltet heraus!",
+        "Sie": "Halten Sie heraus!"
+      }
+    },
+    "partizip1": "heraushaltend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "halten",
+    "woerter": [
+      {
+        "wort": "halten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to hold"
+        },
+        "id_ref": "verb_halten"
+      },
+      {
+        "wort": "sich einmischen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دخالت کردن",
+          "en": "to interfere"
+        },
+        "id_ref": "verb_sich_einmischen"
+      },
+      {
+        "wort": "neutral",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بی‌طرف",
+          "en": "neutral"
+        },
+        "id_ref": "adjektiv_neutral"
+      },
+      {
+        "wort": "der Streit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دعوا",
+          "en": "quarrel"
+        },
+        "id_ref": "nomen_streit"
+      },
+      {
+        "wort": "heraus",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیرون",
+          "en": "out"
+        },
+        "id_ref": "adverb_heraus"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

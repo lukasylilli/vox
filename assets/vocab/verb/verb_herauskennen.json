@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_herauskennen",
+  "wort": "herauskennen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(کسی یا چیزی را از میان دیگران) تشخیص دادن، بازشناختن"
+    ],
+    "en": [
+      "to recognise, to pick out (from others)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wahrnehmung"
+  ],
+  "ipa": "hɛˈʁaʊ̯sˌkɛnən",
+  "anmerkung": "Gemischtes Verb: kannte heraus, herausgekannt.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich kenne seine Stimme heraus.",
+      "uebersetzung": {
+        "fa": "صدای او را (از میان بقیه) تشخیص می‌دهم.",
+        "en": "I can pick out his voice."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Unter hundert Kindern auf dem Schulhof hat die Mutter ihren Sohn sofort herausgekannt.",
+      "uebersetzung": {
+        "fa": "مادر از میان صد بچه در حیاط مدرسه پسرش را فوراً تشخیص داد.",
+        "en": "Among a hundred children in the schoolyard the mother recognised her son immediately."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erkennen",
+      "uebersetzung": {
+        "fa": "شناختن",
+        "en": "to recognise"
+      }
+    },
+    {
+      "wort": "wiedererkennen",
+      "uebersetzung": {
+        "fa": "بازشناختن",
+        "en": "to recognise"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "heraus- (به بیرون (به این سو)) + kennen (شناختن)",
+    "en": "heraus- (out (towards the speaker)) + kennen (to know)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden/etwas aus + Dat herauskennen",
+        "bedeutung": "jemanden in einer Menge erkennen",
+        "beispiel": "Ich kenne ihre Handschrift aus allen anderen heraus.",
+        "uebersetzung": {
+          "fa": "دست‌خطش را از میان همه تشخیص می‌دهم.",
+          "en": "I can tell her handwriting from all the others."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herauskennen",
+      "praeteritum": "kannte heraus",
+      "partizip2": "herausgekannt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kenne heraus",
+        "du": "kennst heraus",
+        "er_sie_es": "kennt heraus",
+        "wir": "kennen heraus",
+        "ihr": "kennt heraus",
+        "sie_Sie": "kennen heraus"
+      },
+      "praeteritum": {
+        "ich": "kannte heraus",
+        "du": "kanntest heraus",
+        "er_sie_es": "kannte heraus",
+        "wir": "kannten heraus",
+        "ihr": "kanntet heraus",
+        "sie_Sie": "kannten heraus"
+      },
+      "konjunktiv1": {
+        "ich": "kenne heraus",
+        "du": "kennest heraus",
+        "er_sie_es": "kenne heraus",
+        "wir": "kennen heraus",
+        "ihr": "kennet heraus",
+        "sie_Sie": "kennen heraus"
+      },
+      "konjunktiv2": {
+        "ich": "kennte heraus",
+        "du": "kenntest heraus",
+        "er_sie_es": "kennte heraus",
+        "wir": "kennten heraus",
+        "ihr": "kenntet heraus",
+        "sie_Sie": "kennten heraus"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "herauskennend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kennen",
+    "woerter": [
+      {
+        "wort": "kennen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شناختن",
+          "en": "to know"
+        },
+        "id_ref": "verb_kennen"
+      },
+      {
+        "wort": "erkennen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شناختن",
+          "en": "to recognise"
+        },
+        "id_ref": "verb_erkennen"
+      },
+      {
+        "wort": "die Stimme",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صدا",
+          "en": "voice"
+        },
+        "id_ref": "nomen_stimme"
+      },
+      {
+        "wort": "die Menge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جمعیت",
+          "en": "crowd"
+        },
+        "id_ref": "nomen_menge"
+      },
+      {
+        "wort": "unterscheiden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تشخیص دادن",
+          "en": "to distinguish"
+        },
+        "id_ref": "verb_unterscheiden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

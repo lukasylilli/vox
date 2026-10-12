@@ -1,0 +1,203 @@
+{
+  "schema": "3.0",
+  "id": "verb_herauskommen",
+  "wort": "herauskommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بیرون آمدن",
+      "(کتاب یا محصولی) منتشر شدن، عرضه شدن",
+      "(رازی) فاش شدن؛ (نتیجه‌ای) حاصل شدن"
+    ],
+    "en": [
+      "to come out",
+      "to come out, to be published",
+      "to come out (secret); to result"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Medien"
+  ],
+  "ipa": "hɛˈʁaʊ̯sˌkɔmən",
+  "anmerkung": "Umgangssprachlich oft «raus…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Komm aus dem Wasser heraus!",
+      "uebersetzung": {
+        "fa": "از آب بیا بیرون!",
+        "en": "Come out of the water!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der neue Film kommt im Dezember heraus, aber die Karten kann man schon jetzt kaufen.",
+      "uebersetzung": {
+        "fa": "فیلم جدید در دسامبر اکران می‌شود، اما بلیت‌ها را از همین حالا می‌شود خرید.",
+        "en": "The new film comes out in December, but you can already buy tickets now."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erscheinen",
+      "uebersetzung": {
+        "fa": "منتشر شدن",
+        "en": "to appear"
+      }
+    },
+    {
+      "wort": "bekannt werden",
+      "uebersetzung": {
+        "fa": "فاش شدن",
+        "en": "to become known"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hineingehen",
+      "uebersetzung": {
+        "fa": "داخل رفتن",
+        "en": "to go in"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "heraus- (به بیرون (به این سو)) + kommen (آمدن)",
+    "en": "heraus- (out (towards the speaker)) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "aus + Dat herauskommen",
+        "bedeutung": "etwas verlassen",
+        "beispiel": "Sie kam lachend aus dem Büro heraus.",
+        "uebersetzung": {
+          "fa": "خندان از دفتر بیرون آمد.",
+          "en": "She came out of the office laughing."
+        }
+      },
+      {
+        "muster": "bei + Dat herauskommen",
+        "bedeutung": "das Ergebnis von etwas sein",
+        "beispiel": "Was ist bei dem Gespräch herausgekommen?",
+        "uebersetzung": {
+          "fa": "نتیجه‌ی گفت‌وگو چه شد؟",
+          "en": "What came out of the conversation?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herauskommen",
+      "praeteritum": "kam heraus",
+      "partizip2": "herausgekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme heraus",
+        "du": "kommst heraus",
+        "er_sie_es": "kommt heraus",
+        "wir": "kommen heraus",
+        "ihr": "kommt heraus",
+        "sie_Sie": "kommen heraus"
+      },
+      "praeteritum": {
+        "ich": "kam heraus",
+        "du": "kamst heraus",
+        "er_sie_es": "kam heraus",
+        "wir": "kamen heraus",
+        "ihr": "kamt heraus",
+        "sie_Sie": "kamen heraus"
+      },
+      "konjunktiv1": {
+        "ich": "komme heraus",
+        "du": "kommest heraus",
+        "er_sie_es": "komme heraus",
+        "wir": "kommen heraus",
+        "ihr": "kommet heraus",
+        "sie_Sie": "kommen heraus"
+      },
+      "konjunktiv2": {
+        "ich": "käme heraus",
+        "du": "kämest heraus",
+        "er_sie_es": "käme heraus",
+        "wir": "kämen heraus",
+        "ihr": "kämet heraus",
+        "sie_Sie": "kämen heraus"
+      },
+      "imperativ": {
+        "du": "Komm heraus!",
+        "ihr": "Kommt heraus!",
+        "Sie": "Kommen Sie heraus!"
+      }
+    },
+    "partizip1": "herauskommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "erscheinen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "منتشر شدن",
+          "en": "to appear"
+        },
+        "id_ref": "verb_erscheinen"
+      },
+      {
+        "wort": "das Ergebnis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نتیجه",
+          "en": "result"
+        },
+        "id_ref": "nomen_ergebnis"
+      },
+      {
+        "wort": "der Ausgang",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خروجی",
+          "en": "exit"
+        },
+        "id_ref": "nomen_ausgang"
+      },
+      {
+        "wort": "heraus",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیرون",
+          "en": "out"
+        },
+        "id_ref": "adverb_heraus"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

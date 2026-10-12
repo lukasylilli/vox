@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_herausgreifen",
+  "wort": "herausgreifen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(از میان چند چیز، یکی را) برگزیدن، جدا کردن و بررسی کردن"
+    ],
+    "en": [
+      "to pick out, to single out"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Diskussion",
+    "Arbeit"
+  ],
+  "ipa": "hɛˈʁaʊ̯sˌɡʁaɪ̯fn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich greife ein Beispiel heraus.",
+      "uebersetzung": {
+        "fa": "یک مثال را جدا می‌کنم.",
+        "en": "I'll pick out one example."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Aus den vielen Problemen möchte ich heute nur zwei herausgreifen, die besonders dringend sind.",
+      "uebersetzung": {
+        "fa": "از میان این همه مشکل، امروز فقط می‌خواهم دو تا را که خیلی فوری‌اند جدا کنم.",
+        "en": "From the many problems I would like to pick out just two today that are particularly urgent."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "auswählen",
+      "uebersetzung": {
+        "fa": "انتخاب کردن",
+        "en": "to select"
+      }
+    },
+    {
+      "wort": "hervorheben",
+      "uebersetzung": {
+        "fa": "برجسته کردن",
+        "en": "to highlight"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "heraus- (به بیرون (به این سو)) + greifen (گرفتن)",
+    "en": "heraus- (out (towards the speaker)) + greifen (to grab)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas aus + Dat herausgreifen",
+        "bedeutung": "etwas aus einer Menge auswählen",
+        "beispiel": "Sie griff einen Brief aus dem Stapel heraus.",
+        "uebersetzung": {
+          "fa": "نامه‌ای را از میان دسته بیرون کشید.",
+          "en": "She picked a letter out of the pile."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herausgreifen",
+      "praeteritum": "griff heraus",
+      "partizip2": "herausgegriffen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "greife heraus",
+        "du": "greifst heraus",
+        "er_sie_es": "greift heraus",
+        "wir": "greifen heraus",
+        "ihr": "greift heraus",
+        "sie_Sie": "greifen heraus"
+      },
+      "praeteritum": {
+        "ich": "griff heraus",
+        "du": "griffst heraus",
+        "er_sie_es": "griff heraus",
+        "wir": "griffen heraus",
+        "ihr": "grifft heraus",
+        "sie_Sie": "griffen heraus"
+      },
+      "konjunktiv1": {
+        "ich": "greife heraus",
+        "du": "greifest heraus",
+        "er_sie_es": "greife heraus",
+        "wir": "greifen heraus",
+        "ihr": "greifet heraus",
+        "sie_Sie": "greifen heraus"
+      },
+      "konjunktiv2": {
+        "ich": "griffe heraus",
+        "du": "griffest heraus",
+        "er_sie_es": "griffe heraus",
+        "wir": "griffen heraus",
+        "ihr": "griffet heraus",
+        "sie_Sie": "griffen heraus"
+      },
+      "imperativ": {
+        "du": "Greif heraus!",
+        "ihr": "Greift heraus!",
+        "Sie": "Greifen Sie heraus!"
+      }
+    },
+    "partizip1": "herausgreifend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "greifen",
+    "woerter": [
+      {
+        "wort": "greifen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گرفتن",
+          "en": "to grab"
+        },
+        "id_ref": "verb_greifen"
+      },
+      {
+        "wort": "auswählen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انتخاب کردن",
+          "en": "to select"
+        },
+        "id_ref": "verb_auswaehlen"
+      },
+      {
+        "wort": "das Beispiel",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مثال",
+          "en": "example"
+        },
+        "id_ref": "nomen_beispiel"
+      },
+      {
+        "wort": "hervorheben",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "برجسته کردن",
+          "en": "to highlight"
+        },
+        "id_ref": "verb_hervorheben"
+      },
+      {
+        "wort": "der Punkt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نکته",
+          "en": "point"
+        },
+        "id_ref": "nomen_punkt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

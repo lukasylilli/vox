@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_herausgehen",
+  "wort": "herausgehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(از جایی) بیرون آمدن",
+      "(لکه) پاک شدن"
+    ],
+    "en": [
+      "to go out, to come out",
+      "(stain) to come out"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Haushalt"
+  ],
+  "ipa": "hɛˈʁaʊ̯sˌɡeːən",
+  "anmerkung": "Umgangssprachlich oft «raus…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er geht aus dem Haus heraus.",
+      "uebersetzung": {
+        "fa": "او از خانه بیرون می‌آید.",
+        "en": "He comes out of the house."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Rotweinfleck ist trotz heißer Wäsche nicht aus dem Tischtuch herausgegangen.",
+      "uebersetzung": {
+        "fa": "لکه‌ی شراب قرمز با وجود شستن با آب داغ از رومیزی پاک نشد.",
+        "en": "The red wine stain didn't come out of the tablecloth despite a hot wash."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hinausgehen",
+      "uebersetzung": {
+        "fa": "بیرون رفتن",
+        "en": "to go out"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hineingehen",
+      "uebersetzung": {
+        "fa": "داخل رفتن",
+        "en": "to go in"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "heraus- (به بیرون (به این سو)) + gehen (رفتن)",
+    "en": "heraus- (out (towards the speaker)) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "aus + Dat herausgehen",
+        "bedeutung": "etwas verlassen; sich aus etwas entfernen lassen",
+        "beispiel": "Sie ging wütend aus dem Zimmer heraus.",
+        "uebersetzung": {
+          "fa": "او عصبانی از اتاق بیرون آمد.",
+          "en": "She came out of the room angrily."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herausgehen",
+      "praeteritum": "ging heraus",
+      "partizip2": "herausgegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe heraus",
+        "du": "gehst heraus",
+        "er_sie_es": "geht heraus",
+        "wir": "gehen heraus",
+        "ihr": "geht heraus",
+        "sie_Sie": "gehen heraus"
+      },
+      "praeteritum": {
+        "ich": "ging heraus",
+        "du": "gingst heraus",
+        "er_sie_es": "ging heraus",
+        "wir": "gingen heraus",
+        "ihr": "gingt heraus",
+        "sie_Sie": "gingen heraus"
+      },
+      "konjunktiv1": {
+        "ich": "gehe heraus",
+        "du": "gehest heraus",
+        "er_sie_es": "gehe heraus",
+        "wir": "gehen heraus",
+        "ihr": "gehet heraus",
+        "sie_Sie": "gehen heraus"
+      },
+      "konjunktiv2": {
+        "ich": "ginge heraus",
+        "du": "gingest heraus",
+        "er_sie_es": "ginge heraus",
+        "wir": "gingen heraus",
+        "ihr": "ginget heraus",
+        "sie_Sie": "gingen heraus"
+      },
+      "imperativ": {
+        "du": "Geh heraus!",
+        "ihr": "Geht heraus!",
+        "Sie": "Gehen Sie heraus!"
+      }
+    },
+    "partizip1": "herausgehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "der Ausgang",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خروجی",
+          "en": "exit"
+        },
+        "id_ref": "nomen_ausgang"
+      },
+      {
+        "wort": "hineingehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "داخل رفتن",
+          "en": "to go in"
+        },
+        "id_ref": "verb_hineingehen"
+      },
+      {
+        "wort": "der Fleck",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لکه",
+          "en": "stain"
+        },
+        "id_ref": "nomen_fleck"
+      },
+      {
+        "wort": "heraus",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیرون",
+          "en": "out"
+        },
+        "id_ref": "adverb_heraus"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_herauskriechen",
+  "wort": "herauskriechen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(از جایی) سینه‌خیز یا خزیده بیرون آمدن"
+    ],
+    "en": [
+      "to crawl out, to creep out"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Tiere",
+    "Natur"
+  ],
+  "ipa": "hɛˈʁaʊ̯sˌkʁiːçn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Eine Schnecke kriecht heraus.",
+      "uebersetzung": {
+        "fa": "حلزونی خزیده بیرون می‌آید.",
+        "en": "A snail crawls out."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem langen Winter kriechen die Igel wieder aus ihren Verstecken heraus.",
+      "uebersetzung": {
+        "fa": "بعد از زمستان طولانی، جوجه‌تیغی‌ها دوباره از پناهگاه‌هایشان بیرون می‌خزند.",
+        "en": "After the long winter the hedgehogs crawl out of their hiding places again."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hervorkriechen",
+      "uebersetzung": {
+        "fa": "بیرون خزیدن",
+        "en": "to creep out"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hineinkriechen",
+      "uebersetzung": {
+        "fa": "به داخل خزیدن",
+        "en": "to crawl in"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "heraus- (به بیرون (به این سو)) + kriechen (خزیدن)",
+    "en": "heraus- (out (towards the speaker)) + kriechen (to crawl)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "aus + Dat herauskriechen",
+        "bedeutung": "kriechend etwas verlassen",
+        "beispiel": "Das Kind kroch unter dem Tisch heraus.",
+        "uebersetzung": {
+          "fa": "بچه از زیر میز سینه‌خیز بیرون آمد.",
+          "en": "The child crawled out from under the table."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herauskriechen",
+      "praeteritum": "kroch heraus",
+      "partizip2": "herausgekrochen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "krieche heraus",
+        "du": "kriechst heraus",
+        "er_sie_es": "kriecht heraus",
+        "wir": "kriechen heraus",
+        "ihr": "kriecht heraus",
+        "sie_Sie": "kriechen heraus"
+      },
+      "praeteritum": {
+        "ich": "kroch heraus",
+        "du": "krochst heraus",
+        "er_sie_es": "kroch heraus",
+        "wir": "krochen heraus",
+        "ihr": "krocht heraus",
+        "sie_Sie": "krochen heraus"
+      },
+      "konjunktiv1": {
+        "ich": "krieche heraus",
+        "du": "kriechest heraus",
+        "er_sie_es": "krieche heraus",
+        "wir": "kriechen heraus",
+        "ihr": "kriechet heraus",
+        "sie_Sie": "kriechen heraus"
+      },
+      "konjunktiv2": {
+        "ich": "kröche heraus",
+        "du": "kröchest heraus",
+        "er_sie_es": "kröche heraus",
+        "wir": "kröchen heraus",
+        "ihr": "kröchet heraus",
+        "sie_Sie": "kröchen heraus"
+      },
+      "imperativ": {
+        "du": "Kriech heraus!",
+        "ihr": "Kriecht heraus!",
+        "Sie": "Kriechen Sie heraus!"
+      }
+    },
+    "partizip1": "herauskriechend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kriechen",
+    "woerter": [
+      {
+        "wort": "kriechen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خزیدن",
+          "en": "to crawl"
+        },
+        "id_ref": "verb_kriechen"
+      },
+      {
+        "wort": "das Versteck",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مخفیگاه",
+          "en": "hiding place"
+        },
+        "id_ref": "nomen_versteck"
+      },
+      {
+        "wort": "die Schnecke",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حلزون",
+          "en": "snail"
+        },
+        "id_ref": "nomen_schnecke"
+      },
+      {
+        "wort": "das Insekt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حشره",
+          "en": "insect"
+        },
+        "id_ref": "nomen_insekt"
+      },
+      {
+        "wort": "heraus",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیرون",
+          "en": "out"
+        },
+        "id_ref": "adverb_heraus"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

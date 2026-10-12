@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_herausgeben",
+  "wort": "herausgeben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(کتاب، مجله یا دستورالعملی را) منتشر کردن، صادر کردن",
+      "(چیزی را) تحویل دادن، پس دادن",
+      "(پول خرد) پس دادن"
+    ],
+    "en": [
+      "to publish, to issue",
+      "to hand over",
+      "to give change"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Medien",
+    "Behörde",
+    "Einkaufen"
+  ],
+  "ipa": "hɛˈʁaʊ̯sˌɡeːbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Können Sie auf 50 Euro herausgeben?",
+      "uebersetzung": {
+        "fa": "می‌توانید از ۵۰ یورو باقی‌اش را پس بدهید؟",
+        "en": "Can you give change for 50 euros?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Ministerium hat neue Richtlinien für die Hygiene in Krankenhäusern herausgegeben.",
+      "uebersetzung": {
+        "fa": "وزارتخانه دستورالعمل‌های جدیدی برای بهداشت در بیمارستان‌ها صادر کرده است.",
+        "en": "The ministry has issued new guidelines for hygiene in hospitals."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "veröffentlichen",
+      "uebersetzung": {
+        "fa": "منتشر کردن",
+        "en": "to publish"
+      }
+    },
+    {
+      "wort": "aushändigen",
+      "uebersetzung": {
+        "fa": "تحویل دادن",
+        "en": "to hand over"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "behalten",
+      "uebersetzung": {
+        "fa": "نگه داشتن",
+        "en": "to keep"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "heraus- (به بیرون (به این سو)) + geben (دادن)",
+    "en": "heraus- (out (towards the speaker)) + geben (to give)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "herausgeben",
+      "praeteritum": "gab heraus",
+      "partizip2": "herausgegeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gebe heraus",
+        "du": "gibst heraus",
+        "er_sie_es": "gibt heraus",
+        "wir": "geben heraus",
+        "ihr": "gebt heraus",
+        "sie_Sie": "geben heraus"
+      },
+      "praeteritum": {
+        "ich": "gab heraus",
+        "du": "gabst heraus",
+        "er_sie_es": "gab heraus",
+        "wir": "gaben heraus",
+        "ihr": "gabt heraus",
+        "sie_Sie": "gaben heraus"
+      },
+      "konjunktiv1": {
+        "ich": "gebe heraus",
+        "du": "gebest heraus",
+        "er_sie_es": "gebe heraus",
+        "wir": "geben heraus",
+        "ihr": "gebet heraus",
+        "sie_Sie": "geben heraus"
+      },
+      "konjunktiv2": {
+        "ich": "gäbe heraus",
+        "du": "gäbest heraus",
+        "er_sie_es": "gäbe heraus",
+        "wir": "gäben heraus",
+        "ihr": "gäbet heraus",
+        "sie_Sie": "gäben heraus"
+      },
+      "imperativ": {
+        "du": "Gib heraus!",
+        "ihr": "Gebt heraus!",
+        "Sie": "Geben Sie heraus!"
+      }
+    },
+    "partizip1": "herausgebend",
+    "nominalisierung": "die Herausgabe"
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "der Herausgeber",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ناشر، ویراستار",
+          "en": "editor, publisher"
+        },
+        "id_ref": "nomen_herausgeber"
+      },
+      {
+        "wort": "veröffentlichen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "منتشر کردن",
+          "en": "to publish"
+        },
+        "id_ref": "verb_veroeffentlichen"
+      },
+      {
+        "wort": "das Wechselgeld",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پول خرد",
+          "en": "change"
+        },
+        "id_ref": "nomen_wechselgeld"
+      },
+      {
+        "wort": "die Zeitschrift",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مجله",
+          "en": "magazine"
+        },
+        "id_ref": "nomen_zeitschrift"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
