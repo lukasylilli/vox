@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_heranbringen",
+  "wort": "heranbringen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(کسی یا چیزی را) نزدیک آوردن",
+      "(کسی را با موضوعی) آشنا کردن"
+    ],
+    "en": [
+      "to bring up (close), to bring near",
+      "to introduce (someone) to (a subject)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Bildung",
+    "Alltag"
+  ],
+  "ipa": "hɛˈʁanˌbʁɪŋən",
+  "anmerkung": "Gemischtes Verb: brachte heran, herangebracht.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bring den Stuhl heran!",
+      "uebersetzung": {
+        "fa": "صندلی را نزدیک بیاور!",
+        "en": "Bring the chair over!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Lehrerin versucht, die Schüler mit Spielen an die Mathematik heranzubringen.",
+      "uebersetzung": {
+        "fa": "معلم سعی می‌کند با بازی دانش‌آموزان را با ریاضی آشنا کند.",
+        "en": "The teacher tries to introduce the pupils to maths through games."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "näherbringen",
+      "uebersetzung": {
+        "fa": "آشنا کردن، نزدیک کردن",
+        "en": "to bring closer"
+      }
+    },
+    {
+      "wort": "herbringen",
+      "uebersetzung": {
+        "fa": "آوردن",
+        "en": "to bring here"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "wegbringen",
+      "uebersetzung": {
+        "fa": "بردن",
+        "en": "to take away"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "heran- (به این سو، نزدیک) + bringen (آوردن)",
+    "en": "heran- (up to, near) + bringen (to bring)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden an + Akk heranbringen",
+        "bedeutung": "jemanden mit etwas vertraut machen",
+        "beispiel": "Er hat mich an die klassische Musik herangebracht.",
+        "uebersetzung": {
+          "fa": "او مرا با موسیقی کلاسیک آشنا کرد.",
+          "en": "He introduced me to classical music."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "heranbringen",
+      "praeteritum": "brachte heran",
+      "partizip2": "herangebracht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bringe heran",
+        "du": "bringst heran",
+        "er_sie_es": "bringt heran",
+        "wir": "bringen heran",
+        "ihr": "bringt heran",
+        "sie_Sie": "bringen heran"
+      },
+      "praeteritum": {
+        "ich": "brachte heran",
+        "du": "brachtest heran",
+        "er_sie_es": "brachte heran",
+        "wir": "brachten heran",
+        "ihr": "brachtet heran",
+        "sie_Sie": "brachten heran"
+      },
+      "konjunktiv1": {
+        "ich": "bringe heran",
+        "du": "bringest heran",
+        "er_sie_es": "bringe heran",
+        "wir": "bringen heran",
+        "ihr": "bringet heran",
+        "sie_Sie": "bringen heran"
+      },
+      "konjunktiv2": {
+        "ich": "brächte heran",
+        "du": "brächtest heran",
+        "er_sie_es": "brächte heran",
+        "wir": "brächten heran",
+        "ihr": "brächtet heran",
+        "sie_Sie": "brächten heran"
+      },
+      "imperativ": {
+        "du": "Bring heran!",
+        "ihr": "Bringt heran!",
+        "Sie": "Bringen Sie heran!"
+      }
+    },
+    "partizip1": "heranbringend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bringen",
+    "woerter": [
+      {
+        "wort": "bringen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آوردن",
+          "en": "to bring"
+        },
+        "id_ref": "verb_bringen"
+      },
+      {
+        "wort": "näherbringen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آشنا کردن",
+          "en": "to bring closer"
+        },
+        "id_ref": "verb_naeherbringen"
+      },
+      {
+        "wort": "nah",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نزدیک",
+          "en": "near"
+        },
+        "id_ref": "adjektiv_nah"
+      },
+      {
+        "wort": "herankommen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نزدیک شدن",
+          "en": "to come near"
+        },
+        "id_ref": "verb_herankommen"
+      },
+      {
+        "wort": "vermitteln",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "انتقال دادن (دانش)",
+          "en": "to convey"
+        },
+        "id_ref": "verb_vermitteln"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

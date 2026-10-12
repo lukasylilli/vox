@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_herankommen",
+  "wort": "herankommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نزدیک آمدن، نزدیک شدن",
+      "(به چیزی) دسترسی پیدا کردن، به دست آوردن"
+    ],
+    "en": [
+      "to come near, to approach",
+      "to get at, to get hold of"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Zeit"
+  ],
+  "ipa": "hɛˈʁanˌkɔmən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hund kommt langsam heran.",
+      "uebersetzung": {
+        "fa": "سگ آرام نزدیک می‌آید.",
+        "en": "The dog is slowly coming closer."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "An die Akten kommt man nur mit einer besonderen Erlaubnis heran.",
+      "uebersetzung": {
+        "fa": "به پرونده‌ها فقط با مجوز ویژه می‌توان دسترسی داشت.",
+        "en": "You can only get at the files with special permission."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich nähern",
+      "uebersetzung": {
+        "fa": "نزدیک شدن",
+        "en": "to approach"
+      }
+    },
+    {
+      "wort": "erreichen",
+      "uebersetzung": {
+        "fa": "دست یافتن",
+        "en": "to reach"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sich entfernen",
+      "uebersetzung": {
+        "fa": "دور شدن",
+        "en": "to move away"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "heran- (به این سو، نزدیک) + kommen (آمدن)",
+    "en": "heran- (up to, near) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "an + Akk herankommen",
+        "bedeutung": "etwas erreichen, Zugang zu etwas bekommen",
+        "beispiel": "Das Kind kommt nicht an das obere Regal heran.",
+        "uebersetzung": {
+          "fa": "دست بچه به قفسه‌ی بالایی نمی‌رسد.",
+          "en": "The child can't reach the top shelf."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "herankommen",
+      "praeteritum": "kam heran",
+      "partizip2": "herangekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme heran",
+        "du": "kommst heran",
+        "er_sie_es": "kommt heran",
+        "wir": "kommen heran",
+        "ihr": "kommt heran",
+        "sie_Sie": "kommen heran"
+      },
+      "praeteritum": {
+        "ich": "kam heran",
+        "du": "kamst heran",
+        "er_sie_es": "kam heran",
+        "wir": "kamen heran",
+        "ihr": "kamt heran",
+        "sie_Sie": "kamen heran"
+      },
+      "konjunktiv1": {
+        "ich": "komme heran",
+        "du": "kommest heran",
+        "er_sie_es": "komme heran",
+        "wir": "kommen heran",
+        "ihr": "kommet heran",
+        "sie_Sie": "kommen heran"
+      },
+      "konjunktiv2": {
+        "ich": "käme heran",
+        "du": "kämest heran",
+        "er_sie_es": "käme heran",
+        "wir": "kämen heran",
+        "ihr": "kämet heran",
+        "sie_Sie": "kämen heran"
+      },
+      "imperativ": {
+        "du": "Komm heran!",
+        "ihr": "Kommt heran!",
+        "Sie": "Kommen Sie heran!"
+      }
+    },
+    "partizip1": "herankommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "sich nähern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نزدیک شدن",
+          "en": "to approach"
+        },
+        "id_ref": "verb_sich_naehern"
+      },
+      {
+        "wort": "erreichen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رسیدن به",
+          "en": "to reach"
+        },
+        "id_ref": "verb_erreichen"
+      },
+      {
+        "wort": "der Zugang",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دسترسی",
+          "en": "access"
+        },
+        "id_ref": "nomen_zugang"
+      },
+      {
+        "wort": "nah",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نزدیک",
+          "en": "near"
+        },
+        "id_ref": "adjektiv_nah"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

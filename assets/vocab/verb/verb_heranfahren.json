@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_heranfahren",
+  "wort": "heranfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با وسیله‌ی نقلیه) نزدیک شدن، به کنار (چیزی) راندن"
+    ],
+    "en": [
+      "to drive up (to), to pull up (to)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr"
+  ],
+  "ipa": "hɛˈʁanˌfaːʁən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Fahr näher heran!",
+      "uebersetzung": {
+        "fa": "نزدیک‌تر بران!",
+        "en": "Drive closer!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Krankenwagen ist direkt an den Eingang herangefahren, damit der Patient nicht laufen musste.",
+      "uebersetzung": {
+        "fa": "آمبولانس درست تا جلوی ورودی آمد تا بیمار مجبور نباشد راه برود.",
+        "en": "The ambulance drove right up to the entrance so that the patient didn't have to walk."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vorfahren",
+      "uebersetzung": {
+        "fa": "جلو آمدن (با ماشین)",
+        "en": "to drive up"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "wegfahren",
+      "uebersetzung": {
+        "fa": "دور شدن (با وسیله)",
+        "en": "to drive away"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "heran- (به این سو، نزدیک) + fahren (رفتن (با وسیله))",
+    "en": "heran- (up to, near) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "an + Akk heranfahren",
+        "bedeutung": "nahe an etwas fahren",
+        "beispiel": "Fahren Sie bitte rechts an den Straßenrand heran.",
+        "uebersetzung": {
+          "fa": "لطفاً سمت راست، کنار جاده بایستید.",
+          "en": "Please pull over to the right-hand side of the road."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "heranfahren",
+      "praeteritum": "fuhr heran",
+      "partizip2": "herangefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre heran",
+        "du": "fährst heran",
+        "er_sie_es": "fährt heran",
+        "wir": "fahren heran",
+        "ihr": "fahrt heran",
+        "sie_Sie": "fahren heran"
+      },
+      "praeteritum": {
+        "ich": "fuhr heran",
+        "du": "fuhrst heran",
+        "er_sie_es": "fuhr heran",
+        "wir": "fuhren heran",
+        "ihr": "fuhrt heran",
+        "sie_Sie": "fuhren heran"
+      },
+      "konjunktiv1": {
+        "ich": "fahre heran",
+        "du": "fahrest heran",
+        "er_sie_es": "fahre heran",
+        "wir": "fahren heran",
+        "ihr": "fahret heran",
+        "sie_Sie": "fahren heran"
+      },
+      "konjunktiv2": {
+        "ich": "führe heran",
+        "du": "führest heran",
+        "er_sie_es": "führe heran",
+        "wir": "führen heran",
+        "ihr": "führet heran",
+        "sie_Sie": "führen heran"
+      },
+      "imperativ": {
+        "du": "Fahr heran!",
+        "ihr": "Fahrt heran!",
+        "Sie": "Fahren Sie heran!"
+      }
+    },
+    "partizip1": "heranfahrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "anhalten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ایستادن",
+          "en": "to stop"
+        },
+        "id_ref": "verb_anhalten"
+      },
+      {
+        "wort": "der Straßenrand",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کنار جاده",
+          "en": "roadside"
+        },
+        "id_ref": "nomen_strassenrand"
+      },
+      {
+        "wort": "nah",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نزدیک",
+          "en": "near"
+        },
+        "id_ref": "adjektiv_nah"
+      },
+      {
+        "wort": "herankommen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نزدیک شدن",
+          "en": "to come near"
+        },
+        "id_ref": "verb_herankommen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

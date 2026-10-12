@@ -1056,6 +1056,13 @@ const zurueckgestellt = <String>{
   'heimmüssen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
   'heischen', // zurückgestellt (Regel 14/16): gehoben, veraltet; Konjugation unsicher 2026-10-11
   'herabfahren', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-11
+  'herabkommen', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-11
+  'heranbinden', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'herandürfen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'herankönnen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'heranmüssen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'heraufdringen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'heraufdürfen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
