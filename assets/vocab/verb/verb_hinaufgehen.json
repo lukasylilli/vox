@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_hinaufgehen",
+  "wort": "hinaufgehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(از پله یا کوه) بالا رفتن",
+      "(قیمت یا مقداری) بالا رفتن"
+    ],
+    "en": [
+      "to go up",
+      "to go up, to rise (price)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Wirtschaft"
+  ],
+  "ipa": "hɪˈnaʊ̯fˌɡeːən",
+  "anmerkung": "Umgangssprachlich oft «rauf…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich gehe die Treppe hinauf.",
+      "uebersetzung": {
+        "fa": "از پله‌ها بالا می‌روم.",
+        "en": "I'm going up the stairs."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Mieten sind in den letzten Jahren stark hinaufgegangen.",
+      "uebersetzung": {
+        "fa": "اجاره‌ها در سال‌های اخیر خیلی بالا رفته‌اند.",
+        "en": "Rents have gone up a lot in recent years."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hochgehen",
+      "uebersetzung": {
+        "fa": "بالا رفتن",
+        "en": "to go up"
+      }
+    },
+    {
+      "wort": "steigen",
+      "uebersetzung": {
+        "fa": "بالا رفتن",
+        "en": "to rise"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hinuntergehen",
+      "uebersetzung": {
+        "fa": "پایین رفتن",
+        "en": "to go down"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinauf- (به بالا (دور از گوینده)) + gehen (رفتن)",
+    "en": "hinauf- (up (away from the speaker)) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "hinaufgehen",
+      "praeteritum": "ging hinauf",
+      "partizip2": "hinaufgegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe hinauf",
+        "du": "gehst hinauf",
+        "er_sie_es": "geht hinauf",
+        "wir": "gehen hinauf",
+        "ihr": "geht hinauf",
+        "sie_Sie": "gehen hinauf"
+      },
+      "praeteritum": {
+        "ich": "ging hinauf",
+        "du": "gingst hinauf",
+        "er_sie_es": "ging hinauf",
+        "wir": "gingen hinauf",
+        "ihr": "gingt hinauf",
+        "sie_Sie": "gingen hinauf"
+      },
+      "konjunktiv1": {
+        "ich": "gehe hinauf",
+        "du": "gehest hinauf",
+        "er_sie_es": "gehe hinauf",
+        "wir": "gehen hinauf",
+        "ihr": "gehet hinauf",
+        "sie_Sie": "gehen hinauf"
+      },
+      "konjunktiv2": {
+        "ich": "ginge hinauf",
+        "du": "gingest hinauf",
+        "er_sie_es": "ginge hinauf",
+        "wir": "gingen hinauf",
+        "ihr": "ginget hinauf",
+        "sie_Sie": "gingen hinauf"
+      },
+      "imperativ": {
+        "du": "Geh hinauf!",
+        "ihr": "Geht hinauf!",
+        "Sie": "Gehen Sie hinauf!"
+      }
+    },
+    "partizip1": "hinaufgehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "steigen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بالا رفتن",
+          "en": "to rise"
+        },
+        "id_ref": "verb_steigen"
+      },
+      {
+        "wort": "hinuntergehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پایین رفتن",
+          "en": "to go down"
+        },
+        "id_ref": "verb_hinuntergehen"
+      },
+      {
+        "wort": "die Treppe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پله",
+          "en": "stairs"
+        },
+        "id_ref": "nomen_treppe"
+      },
+      {
+        "wort": "hinauf",
+        "wortart": "adverb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به بالا",
+          "en": "up"
+        },
+        "id_ref": "adverb_hinauf"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

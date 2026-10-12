@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_hinauflaufen",
+  "wort": "hinauflaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(دوان یا پیاده) بالا رفتن"
+    ],
+    "en": [
+      "to run up, to walk up"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Bewegung",
+    "Sport"
+  ],
+  "ipa": "hɪˈnaʊ̯fˌlaʊ̯fn̩",
+  "anmerkung": "Umgangssprachlich oft «rauf…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er läuft den Berg hinauf.",
+      "uebersetzung": {
+        "fa": "او از کوه بالا می‌دود.",
+        "en": "He runs up the mountain."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Jeden Morgen läuft sie zum Training die 300 Stufen zum Schloss hinauf.",
+      "uebersetzung": {
+        "fa": "هر صبح برای تمرین، ۳۰۰ پله‌ی کاخ را دوان بالا می‌رود.",
+        "en": "Every morning she runs up the 300 steps to the castle for training."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hochlaufen",
+      "uebersetzung": {
+        "fa": "بالا دویدن",
+        "en": "to run up"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hinunterlaufen",
+      "uebersetzung": {
+        "fa": "پایین دویدن",
+        "en": "to run down"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinauf- (به بالا (دور از گوینده)) + laufen (دویدن)",
+    "en": "hinauf- (up (away from the speaker)) + laufen (to run)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "hinauflaufen",
+      "praeteritum": "lief hinauf",
+      "partizip2": "hinaufgelaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laufe hinauf",
+        "du": "läufst hinauf",
+        "er_sie_es": "läuft hinauf",
+        "wir": "laufen hinauf",
+        "ihr": "lauft hinauf",
+        "sie_Sie": "laufen hinauf"
+      },
+      "praeteritum": {
+        "ich": "lief hinauf",
+        "du": "liefst hinauf",
+        "er_sie_es": "lief hinauf",
+        "wir": "liefen hinauf",
+        "ihr": "lieft hinauf",
+        "sie_Sie": "liefen hinauf"
+      },
+      "konjunktiv1": {
+        "ich": "laufe hinauf",
+        "du": "laufest hinauf",
+        "er_sie_es": "laufe hinauf",
+        "wir": "laufen hinauf",
+        "ihr": "laufet hinauf",
+        "sie_Sie": "laufen hinauf"
+      },
+      "konjunktiv2": {
+        "ich": "liefe hinauf",
+        "du": "liefest hinauf",
+        "er_sie_es": "liefe hinauf",
+        "wir": "liefen hinauf",
+        "ihr": "liefet hinauf",
+        "sie_Sie": "liefen hinauf"
+      },
+      "imperativ": {
+        "du": "Lauf hinauf!",
+        "ihr": "Lauft hinauf!",
+        "Sie": "Laufen Sie hinauf!"
+      }
+    },
+    "partizip1": "hinauflaufend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دویدن",
+          "en": "to run"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "hochlaufen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بالا دویدن",
+          "en": "to run up"
+        },
+        "id_ref": "verb_hochlaufen"
+      },
+      {
+        "wort": "die Stufe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پله",
+          "en": "step"
+        },
+        "id_ref": "nomen_stufe"
+      },
+      {
+        "wort": "das Training",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تمرین",
+          "en": "training"
+        },
+        "id_ref": "nomen_training"
+      },
+      {
+        "wort": "hinauf",
+        "wortart": "adverb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به بالا",
+          "en": "up"
+        },
+        "id_ref": "adverb_hinauf"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

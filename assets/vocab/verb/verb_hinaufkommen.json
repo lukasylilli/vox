@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_hinaufkommen",
+  "wort": "hinaufkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(به بالا) رسیدن، بالا رفتن (توانستن)"
+    ],
+    "en": [
+      "to get up, to come up"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Bewegung"
+  ],
+  "ipa": "hɪˈnaʊ̯fˌkɔmən",
+  "anmerkung": "Umgangssprachlich oft «rauf…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wie komme ich da hinauf?",
+      "uebersetzung": {
+        "fa": "چطور بروم آن بالا؟",
+        "en": "How do I get up there?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ohne Aufzug kommt meine Großmutter nicht mehr in ihre Wohnung im vierten Stock hinauf.",
+      "uebersetzung": {
+        "fa": "مادربزرگم بدون آسانسور دیگر نمی‌تواند به آپارتمانش در طبقه‌ی چهارم برود.",
+        "en": "Without a lift my grandmother can no longer get up to her flat on the fourth floor."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hochkommen",
+      "uebersetzung": {
+        "fa": "بالا آمدن",
+        "en": "to come up"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hinunterkommen",
+      "uebersetzung": {
+        "fa": "پایین آمدن",
+        "en": "to get down"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinauf- (به بالا (دور از گوینده)) + kommen (آمدن)",
+    "en": "hinauf- (up (away from the speaker)) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "hinaufkommen",
+      "praeteritum": "kam hinauf",
+      "partizip2": "hinaufgekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme hinauf",
+        "du": "kommst hinauf",
+        "er_sie_es": "kommt hinauf",
+        "wir": "kommen hinauf",
+        "ihr": "kommt hinauf",
+        "sie_Sie": "kommen hinauf"
+      },
+      "praeteritum": {
+        "ich": "kam hinauf",
+        "du": "kamst hinauf",
+        "er_sie_es": "kam hinauf",
+        "wir": "kamen hinauf",
+        "ihr": "kamt hinauf",
+        "sie_Sie": "kamen hinauf"
+      },
+      "konjunktiv1": {
+        "ich": "komme hinauf",
+        "du": "kommest hinauf",
+        "er_sie_es": "komme hinauf",
+        "wir": "kommen hinauf",
+        "ihr": "kommet hinauf",
+        "sie_Sie": "kommen hinauf"
+      },
+      "konjunktiv2": {
+        "ich": "käme hinauf",
+        "du": "kämest hinauf",
+        "er_sie_es": "käme hinauf",
+        "wir": "kämen hinauf",
+        "ihr": "kämet hinauf",
+        "sie_Sie": "kämen hinauf"
+      },
+      "imperativ": {
+        "du": "Komm hinauf!",
+        "ihr": "Kommt hinauf!",
+        "Sie": "Kommen Sie hinauf!"
+      }
+    },
+    "partizip1": "hinaufkommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "hochkommen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بالا آمدن",
+          "en": "to come up"
+        },
+        "id_ref": "verb_hochkommen"
+      },
+      {
+        "wort": "der Aufzug",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آسانسور",
+          "en": "lift"
+        },
+        "id_ref": "nomen_aufzug"
+      },
+      {
+        "wort": "der Stock",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "طبقه",
+          "en": "floor"
+        },
+        "id_ref": "nomen_stock"
+      },
+      {
+        "wort": "hinauf",
+        "wortart": "adverb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به بالا",
+          "en": "up"
+        },
+        "id_ref": "adverb_hinauf"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

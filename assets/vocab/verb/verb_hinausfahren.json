@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_hinausfahren",
+  "wort": "hinausfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با وسیله‌ی نقلیه) بیرون رفتن",
+      "(به حومه یا دریا) رفتن"
+    ],
+    "en": [
+      "to drive out",
+      "to go out (to the country, to sea)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr",
+    "Freizeit"
+  ],
+  "ipa": "hɪˈnaʊ̯sˌfaːʁən",
+  "anmerkung": "Umgangssprachlich oft «raus…». Transitiv (das Auto hinausfahren) mit «haben».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Am Sonntag fahren wir aufs Land hinaus.",
+      "uebersetzung": {
+        "fa": "یکشنبه به بیرون شهر می‌رویم.",
+        "en": "On Sunday we're driving out to the country."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Trotz des Sturms sind die Fischer am frühen Morgen aufs Meer hinausgefahren.",
+      "uebersetzung": {
+        "fa": "با وجود طوفان، ماهیگیرها صبح زود به دریا رفتند.",
+        "en": "Despite the storm the fishermen went out to sea early in the morning."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rausfahren",
+      "uebersetzung": {
+        "fa": "(محاوره) بیرون رفتن",
+        "en": "to drive out"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hereinfahren",
+      "uebersetzung": {
+        "fa": "به داخل آمدن (با وسیله)",
+        "en": "to drive in"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinaus- (به بیرون (دور از گوینده)) + fahren (رفتن (با وسیله))",
+    "en": "hinaus- (out (away from the speaker)) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "aus + Dat hinausfahren",
+        "bedeutung": "fahrend etwas verlassen",
+        "beispiel": "Der Zug fuhr langsam aus dem Bahnhof hinaus.",
+        "uebersetzung": {
+          "fa": "قطار آرام از ایستگاه بیرون رفت.",
+          "en": "The train slowly pulled out of the station."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hinausfahren",
+      "praeteritum": "fuhr hinaus",
+      "partizip2": "hinausgefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre hinaus",
+        "du": "fährst hinaus",
+        "er_sie_es": "fährt hinaus",
+        "wir": "fahren hinaus",
+        "ihr": "fahrt hinaus",
+        "sie_Sie": "fahren hinaus"
+      },
+      "praeteritum": {
+        "ich": "fuhr hinaus",
+        "du": "fuhrst hinaus",
+        "er_sie_es": "fuhr hinaus",
+        "wir": "fuhren hinaus",
+        "ihr": "fuhrt hinaus",
+        "sie_Sie": "fuhren hinaus"
+      },
+      "konjunktiv1": {
+        "ich": "fahre hinaus",
+        "du": "fahrest hinaus",
+        "er_sie_es": "fahre hinaus",
+        "wir": "fahren hinaus",
+        "ihr": "fahret hinaus",
+        "sie_Sie": "fahren hinaus"
+      },
+      "konjunktiv2": {
+        "ich": "führe hinaus",
+        "du": "führest hinaus",
+        "er_sie_es": "führe hinaus",
+        "wir": "führen hinaus",
+        "ihr": "führet hinaus",
+        "sie_Sie": "führen hinaus"
+      },
+      "imperativ": {
+        "du": "Fahr hinaus!",
+        "ihr": "Fahrt hinaus!",
+        "Sie": "Fahren Sie hinaus!"
+      }
+    },
+    "partizip1": "hinausfahrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "das Land",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "روستا، بیرون شهر",
+          "en": "country"
+        },
+        "id_ref": "nomen_land"
+      },
+      {
+        "wort": "das Meer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دریا",
+          "en": "sea"
+        },
+        "id_ref": "nomen_meer"
+      },
+      {
+        "wort": "hereinfahren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به داخل آمدن",
+          "en": "to drive in"
+        },
+        "id_ref": "verb_hereinfahren"
+      },
+      {
+        "wort": "hinaus",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به بیرون",
+          "en": "out"
+        },
+        "id_ref": "adverb_hinaus"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_hinaufhelfen",
+  "wort": "hinaufhelfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کمک کردن (به کسی) تا بالا برود"
+    ],
+    "en": [
+      "to help (someone) up"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag",
+    "Pflege"
+  ],
+  "ipa": "hɪˈnaʊ̯fˌhɛlfn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich helfe dir hinauf.",
+      "uebersetzung": {
+        "fa": "کمکت می‌کنم بالا بروی.",
+        "en": "I'll help you up."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Busfahrer half der Frau mit dem Kinderwagen in den Bus hinauf.",
+      "uebersetzung": {
+        "fa": "راننده‌ی اتوبوس به آن زن کمک کرد با کالسکه‌ی بچه سوار اتوبوس شود.",
+        "en": "The bus driver helped the woman with the pram up into the bus."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "helfen",
+      "uebersetzung": {
+        "fa": "کمک کردن",
+        "en": "to help"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "herunterhelfen",
+      "uebersetzung": {
+        "fa": "کمک کردن به پایین آمدن",
+        "en": "to help down"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinauf- (به بالا (دور از گوینده)) + helfen (کمک کردن)",
+    "en": "hinauf- (up (away from the speaker)) + helfen (to help)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem auf/in + Akk hinaufhelfen",
+        "bedeutung": "jemandem helfen, nach oben zu gelangen",
+        "beispiel": "Er half ihr auf das Pferd hinauf.",
+        "uebersetzung": {
+          "fa": "کمکش کرد سوار اسب شود.",
+          "en": "He helped her up onto the horse."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hinaufhelfen",
+      "praeteritum": "half hinauf",
+      "partizip2": "hinaufgeholfen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "helfe hinauf",
+        "du": "hilfst hinauf",
+        "er_sie_es": "hilft hinauf",
+        "wir": "helfen hinauf",
+        "ihr": "helft hinauf",
+        "sie_Sie": "helfen hinauf"
+      },
+      "praeteritum": {
+        "ich": "half hinauf",
+        "du": "halfst hinauf",
+        "er_sie_es": "half hinauf",
+        "wir": "halfen hinauf",
+        "ihr": "halft hinauf",
+        "sie_Sie": "halfen hinauf"
+      },
+      "konjunktiv1": {
+        "ich": "helfe hinauf",
+        "du": "helfest hinauf",
+        "er_sie_es": "helfe hinauf",
+        "wir": "helfen hinauf",
+        "ihr": "helfet hinauf",
+        "sie_Sie": "helfen hinauf"
+      },
+      "konjunktiv2": {
+        "ich": "hülfe hinauf",
+        "du": "hülfest hinauf",
+        "er_sie_es": "hülfe hinauf",
+        "wir": "hülfen hinauf",
+        "ihr": "hülfet hinauf",
+        "sie_Sie": "hülfen hinauf"
+      },
+      "imperativ": {
+        "du": "Hilf hinauf!",
+        "ihr": "Helft hinauf!",
+        "Sie": "Helfen Sie hinauf!"
+      }
+    },
+    "partizip1": "hinaufhelfend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "helfen",
+    "woerter": [
+      {
+        "wort": "helfen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک کردن",
+          "en": "to help"
+        },
+        "id_ref": "verb_helfen"
+      },
+      {
+        "wort": "herunterhelfen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کمک کردن به پایین آمدن",
+          "en": "to help down"
+        },
+        "id_ref": "verb_herunterhelfen"
+      },
+      {
+        "wort": "der Kinderwagen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کالسکه‌ی بچه",
+          "en": "pram"
+        },
+        "id_ref": "nomen_kinderwagen"
+      },
+      {
+        "wort": "die Stufe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پله",
+          "en": "step"
+        },
+        "id_ref": "nomen_stufe"
+      },
+      {
+        "wort": "hinauf",
+        "wortart": "adverb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به بالا",
+          "en": "up"
+        },
+        "id_ref": "adverb_hinauf"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

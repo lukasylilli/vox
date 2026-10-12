@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_hinausfallen",
+  "wort": "hinausfallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(از پنجره یا جایی) به بیرون افتادن"
+    ],
+    "en": [
+      "to fall out"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Sicherheit"
+  ],
+  "ipa": "hɪˈnaʊ̯sˌfalən",
+  "anmerkung": "Umgangssprachlich oft «raus…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Pass auf, dass nichts hinausfällt!",
+      "uebersetzung": {
+        "fa": "مواظب باش چیزی بیرون نیفتد!",
+        "en": "Be careful that nothing falls out!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Damit kein Kind aus dem Fenster hinausfallen kann, haben wir überall Sicherungen angebracht.",
+      "uebersetzung": {
+        "fa": "برای اینکه هیچ بچه‌ای نتواند از پنجره بیرون بیفتد، همه‌جا قفل ایمنی نصب کردیم.",
+        "en": "So that no child can fall out of the window, we have fitted safety locks everywhere."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "herausfallen",
+      "uebersetzung": {
+        "fa": "بیرون افتادن",
+        "en": "to fall out"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinaus- (به بیرون (دور از گوینده)) + fallen (افتادن)",
+    "en": "hinaus- (out (away from the speaker)) + fallen (to fall)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "aus + Dat hinausfallen",
+        "bedeutung": "aus etwas nach draußen fallen",
+        "beispiel": "Der Ball ist aus dem Fenster hinausgefallen.",
+        "uebersetzung": {
+          "fa": "توپ از پنجره بیرون افتاد.",
+          "en": "The ball fell out of the window."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hinausfallen",
+      "praeteritum": "fiel hinaus",
+      "partizip2": "hinausgefallen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "falle hinaus",
+        "du": "fällst hinaus",
+        "er_sie_es": "fällt hinaus",
+        "wir": "fallen hinaus",
+        "ihr": "fallt hinaus",
+        "sie_Sie": "fallen hinaus"
+      },
+      "praeteritum": {
+        "ich": "fiel hinaus",
+        "du": "fielst hinaus",
+        "er_sie_es": "fiel hinaus",
+        "wir": "fielen hinaus",
+        "ihr": "fielt hinaus",
+        "sie_Sie": "fielen hinaus"
+      },
+      "konjunktiv1": {
+        "ich": "falle hinaus",
+        "du": "fallest hinaus",
+        "er_sie_es": "falle hinaus",
+        "wir": "fallen hinaus",
+        "ihr": "fallet hinaus",
+        "sie_Sie": "fallen hinaus"
+      },
+      "konjunktiv2": {
+        "ich": "fiele hinaus",
+        "du": "fielest hinaus",
+        "er_sie_es": "fiele hinaus",
+        "wir": "fielen hinaus",
+        "ihr": "fielet hinaus",
+        "sie_Sie": "fielen hinaus"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "hinausfallend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fallen",
+    "woerter": [
+      {
+        "wort": "fallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "افتادن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_fallen"
+      },
+      {
+        "wort": "herausfallen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیرون افتادن",
+          "en": "to fall out"
+        },
+        "id_ref": "verb_herausfallen"
+      },
+      {
+        "wort": "das Fenster",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پنجره",
+          "en": "window"
+        },
+        "id_ref": "nomen_fenster"
+      },
+      {
+        "wort": "gefährlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خطرناک",
+          "en": "dangerous"
+        },
+        "id_ref": "adjektiv_gefaehrlich"
+      },
+      {
+        "wort": "hinaus",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به بیرون",
+          "en": "out"
+        },
+        "id_ref": "adverb_hinaus"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

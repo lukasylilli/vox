@@ -1115,6 +1115,16 @@ const zurueckgestellt = <String>{
   'herzukommen', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-11
   'hinabfahren', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-11
   'hinaufdürfen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'hinauffallen', // zurückgestellt (Regel 14/16): fast nur in der Wendung «die Treppe hinauffallen» 2026-10-11
+  'hinaufkönnen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'hinaufkriechen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hinauflassen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hinaufmüssen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'hinausbegeben', // zurückgestellt (Regel 14/16): sich hinausbegeben — gehoben, selten 2026-10-11
+  'hinausblasen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hinausdenken', // zurückgestellt (Regel 14/16): fast nur «über etwas hinausdenken»; selten 2026-10-11
+  'hinausdringen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hinausdürfen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
