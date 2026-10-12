@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_hineingiessen",
+  "wort": "hineingießen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(مایعی را در چیزی) ریختن"
+    ],
+    "en": [
+      "to pour in(to)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Küche",
+    "Alltag"
+  ],
+  "ipa": "hɪˈnaɪ̯nˌɡiːsn̩",
+  "anmerkung": "Umgangssprachlich oft «rein…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Gieß die Milch hinein!",
+      "uebersetzung": {
+        "fa": "شیر را بریز داخل!",
+        "en": "Pour the milk in!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie goss so viel Wasser in die Vase hinein, dass sie überlief.",
+      "uebersetzung": {
+        "fa": "آن‌قدر آب در گلدان ریخت که سرریز کرد.",
+        "en": "She poured so much water into the vase that it overflowed."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "eingießen",
+      "uebersetzung": {
+        "fa": "(نوشیدنی) ریختن",
+        "en": "to pour"
+      }
+    },
+    {
+      "wort": "einfüllen",
+      "uebersetzung": {
+        "fa": "پر کردن",
+        "en": "to fill"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinein- (به داخل (دور از گوینده)) + gießen (ریختن (مایع))",
+    "en": "hinein- (into (away from the speaker)) + gießen (to pour)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas in + Akk hineingießen",
+        "bedeutung": "eine Flüssigkeit in ein Gefäß gießen",
+        "beispiel": "Gieß die Soße in den Topf hinein.",
+        "uebersetzung": {
+          "fa": "سس را در قابلمه بریز.",
+          "en": "Pour the sauce into the pot."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hineingießen",
+      "praeteritum": "goss hinein",
+      "partizip2": "hineingegossen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gieße hinein",
+        "du": "gießt hinein",
+        "er_sie_es": "gießt hinein",
+        "wir": "gießen hinein",
+        "ihr": "gießt hinein",
+        "sie_Sie": "gießen hinein"
+      },
+      "praeteritum": {
+        "ich": "goss hinein",
+        "du": "gossest hinein",
+        "er_sie_es": "goss hinein",
+        "wir": "gossen hinein",
+        "ihr": "gosst hinein",
+        "sie_Sie": "gossen hinein"
+      },
+      "konjunktiv1": {
+        "ich": "gieße hinein",
+        "du": "gießest hinein",
+        "er_sie_es": "gieße hinein",
+        "wir": "gießen hinein",
+        "ihr": "gießet hinein",
+        "sie_Sie": "gießen hinein"
+      },
+      "konjunktiv2": {
+        "ich": "gösse hinein",
+        "du": "gössest hinein",
+        "er_sie_es": "gösse hinein",
+        "wir": "gössen hinein",
+        "ihr": "gösset hinein",
+        "sie_Sie": "gössen hinein"
+      },
+      "imperativ": {
+        "du": "Gieß hinein!",
+        "ihr": "Gießt hinein!",
+        "Sie": "Gießen Sie hinein!"
+      }
+    },
+    "partizip1": "hineingießend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gießen",
+    "woerter": [
+      {
+        "wort": "gießen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریختن (مایع)",
+          "en": "to pour"
+        },
+        "id_ref": "verb_giessen"
+      },
+      {
+        "wort": "eingießen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "(نوشیدنی) ریختن",
+          "en": "to pour"
+        },
+        "id_ref": "verb_eingiessen"
+      },
+      {
+        "wort": "der Topf",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قابلمه",
+          "en": "pot"
+        },
+        "id_ref": "nomen_topf"
+      },
+      {
+        "wort": "die Flüssigkeit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مایع",
+          "en": "liquid"
+        },
+        "id_ref": "nomen_fluessigkeit"
+      },
+      {
+        "wort": "hinein",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به داخل",
+          "en": "in"
+        },
+        "id_ref": "adverb_hinein"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

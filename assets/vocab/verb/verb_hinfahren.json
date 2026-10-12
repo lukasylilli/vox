@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_hinfahren",
+  "wort": "hinfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با وسیله‌ی نقلیه به جایی) رفتن",
+      "(کسی را با ماشین) به جایی رساندن"
+    ],
+    "en": [
+      "to go there, to drive there",
+      "to drive (someone) there"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Verkehr",
+    "Reisen"
+  ],
+  "ipa": "ˈhɪnˌfaːʁən",
+  "anmerkung": "Transitiv (jemanden hinfahren) mit «haben».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wann fährst du hin?",
+      "uebersetzung": {
+        "fa": "کی می‌روی آنجا؟",
+        "en": "When are you going there?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Das Konzert ist in Linz, und ich weiß noch nicht, wie wir hinfahren sollen.",
+      "uebersetzung": {
+        "fa": "کنسرت در لینتس است و هنوز نمی‌دانم چطور باید به آنجا برویم.",
+        "en": "The concert is in Linz, and I don't know yet how we're going to get there."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hinkommen",
+      "uebersetzung": {
+        "fa": "به آنجا رسیدن",
+        "en": "to get there"
+      }
+    },
+    {
+      "wort": "fahren",
+      "uebersetzung": {
+        "fa": "رفتن (با وسیله)",
+        "en": "to go"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "herfahren",
+      "uebersetzung": {
+        "fa": "به اینجا آمدن",
+        "en": "to drive here"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hin- (به آن سو (دور از گوینده)) + fahren (رفتن (با وسیله))",
+    "en": "hin- (there (away from the speaker)) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "hinfahren",
+      "praeteritum": "fuhr hin",
+      "partizip2": "hingefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre hin",
+        "du": "fährst hin",
+        "er_sie_es": "fährt hin",
+        "wir": "fahren hin",
+        "ihr": "fahrt hin",
+        "sie_Sie": "fahren hin"
+      },
+      "praeteritum": {
+        "ich": "fuhr hin",
+        "du": "fuhrst hin",
+        "er_sie_es": "fuhr hin",
+        "wir": "fuhren hin",
+        "ihr": "fuhrt hin",
+        "sie_Sie": "fuhren hin"
+      },
+      "konjunktiv1": {
+        "ich": "fahre hin",
+        "du": "fahrest hin",
+        "er_sie_es": "fahre hin",
+        "wir": "fahren hin",
+        "ihr": "fahret hin",
+        "sie_Sie": "fahren hin"
+      },
+      "konjunktiv2": {
+        "ich": "führe hin",
+        "du": "führest hin",
+        "er_sie_es": "führe hin",
+        "wir": "führen hin",
+        "ihr": "führet hin",
+        "sie_Sie": "führen hin"
+      },
+      "imperativ": {
+        "du": "Fahr hin!",
+        "ihr": "Fahrt hin!",
+        "Sie": "Fahren Sie hin!"
+      }
+    },
+    "partizip1": "hinfahrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "herfahren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به اینجا آمدن",
+          "en": "to drive here"
+        },
+        "id_ref": "verb_herfahren"
+      },
+      {
+        "wort": "die Hinfahrt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رفت (سفر)",
+          "en": "outward journey"
+        },
+        "id_ref": "nomen_hinfahrt"
+      },
+      {
+        "wort": "die Rückfahrt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برگشت",
+          "en": "return journey"
+        },
+        "id_ref": "nomen_rueckfahrt"
+      },
+      {
+        "wort": "hin",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به آنجا",
+          "en": "there"
+        },
+        "id_ref": "adverb_hin"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

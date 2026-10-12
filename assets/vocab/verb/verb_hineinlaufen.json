@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_hineinlaufen",
+  "wort": "hineinlaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(دوان یا پیاده) داخل رفتن",
+      "(در چیزی یا به کسی) ندانسته برخورد کردن، در (دامی) افتادن"
+    ],
+    "en": [
+      "to run in(to)",
+      "to run into, to walk into (a trap)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Bewegung",
+    "Alltag"
+  ],
+  "ipa": "hɪˈnaɪ̯nˌlaʊ̯fn̩",
+  "anmerkung": "Umgangssprachlich oft «rein…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Kind läuft ins Haus hinein.",
+      "uebersetzung": {
+        "fa": "بچه دوان وارد خانه می‌شود.",
+        "en": "The child runs into the house."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ohne es zu merken, ist er direkt in die Falle hineingelaufen.",
+      "uebersetzung": {
+        "fa": "بدون اینکه بفهمد، مستقیم در دام افتاد.",
+        "en": "Without noticing, he walked straight into the trap."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "reinlaufen",
+      "uebersetzung": {
+        "fa": "(محاوره) داخل دویدن",
+        "en": "to run in"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hinauslaufen",
+      "uebersetzung": {
+        "fa": "بیرون دویدن",
+        "en": "to run out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinein- (به داخل (دور از گوینده)) + laufen (دویدن)",
+    "en": "hinein- (into (away from the speaker)) + laufen (to run)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in + Akk hineinlaufen",
+        "bedeutung": "laufend in etwas gelangen; gegen etwas laufen",
+        "beispiel": "Er ist mit dem Kopf in die Glastür hineingelaufen.",
+        "uebersetzung": {
+          "fa": "با سر به در شیشه‌ای خورد.",
+          "en": "He walked head first into the glass door."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hineinlaufen",
+      "praeteritum": "lief hinein",
+      "partizip2": "hineingelaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laufe hinein",
+        "du": "läufst hinein",
+        "er_sie_es": "läuft hinein",
+        "wir": "laufen hinein",
+        "ihr": "lauft hinein",
+        "sie_Sie": "laufen hinein"
+      },
+      "praeteritum": {
+        "ich": "lief hinein",
+        "du": "liefst hinein",
+        "er_sie_es": "lief hinein",
+        "wir": "liefen hinein",
+        "ihr": "lieft hinein",
+        "sie_Sie": "liefen hinein"
+      },
+      "konjunktiv1": {
+        "ich": "laufe hinein",
+        "du": "laufest hinein",
+        "er_sie_es": "laufe hinein",
+        "wir": "laufen hinein",
+        "ihr": "laufet hinein",
+        "sie_Sie": "laufen hinein"
+      },
+      "konjunktiv2": {
+        "ich": "liefe hinein",
+        "du": "liefest hinein",
+        "er_sie_es": "liefe hinein",
+        "wir": "liefen hinein",
+        "ihr": "liefet hinein",
+        "sie_Sie": "liefen hinein"
+      },
+      "imperativ": {
+        "du": "Lauf hinein!",
+        "ihr": "Lauft hinein!",
+        "Sie": "Laufen Sie hinein!"
+      }
+    },
+    "partizip1": "hineinlaufend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دویدن",
+          "en": "to run"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "hinauslaufen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیرون دویدن",
+          "en": "to run out"
+        },
+        "id_ref": "verb_hinauslaufen"
+      },
+      {
+        "wort": "die Falle",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دام",
+          "en": "trap"
+        },
+        "id_ref": "nomen_falle"
+      },
+      {
+        "wort": "rennen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دویدن",
+          "en": "to run"
+        },
+        "id_ref": "verb_rennen"
+      },
+      {
+        "wort": "hinein",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به داخل",
+          "en": "in"
+        },
+        "id_ref": "adverb_hinein"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

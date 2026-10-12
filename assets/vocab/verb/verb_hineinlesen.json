@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_hineinlesen",
+  "wort": "hineinlesen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(در متنی) معنایی را که نیست برداشت کردن، تعبیر اضافه کردن",
+      "(sich hineinlesen) با خواندن با (موضوعی) آشنا شدن"
+    ],
+    "en": [
+      "to read into (a text)",
+      "(sich) to read up on, to get into (a subject) by reading"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Lesen",
+    "Kommunikation"
+  ],
+  "ipa": "hɪˈnaɪ̯nˌleːzn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Du liest zu viel hinein.",
+      "uebersetzung": {
+        "fa": "تو بیش از حد برداشت می‌کنی.",
+        "en": "You're reading too much into it."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor ich das Seminar halte, muss ich mich erst gründlich in das Thema hineinlesen.",
+      "uebersetzung": {
+        "fa": "قبل از اینکه سمینار را برگزار کنم، باید اول حسابی درباره‌ی موضوع مطالعه کنم.",
+        "en": "Before I give the seminar, I first have to read up thoroughly on the topic."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "überinterpretieren",
+      "uebersetzung": {
+        "fa": "بیش از حد تعبیر کردن",
+        "en": "to over-interpret"
+      }
+    },
+    {
+      "wort": "sich einlesen",
+      "uebersetzung": {
+        "fa": "با خواندن آشنا شدن",
+        "en": "to read up on"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinein- (به داخل (دور از گوینده)) + lesen (خواندن)",
+    "en": "hinein- (into (away from the speaker)) + lesen (to read)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "etwas in + Akk hineinlesen",
+        "bedeutung": "in einen Text eine Bedeutung legen, die nicht da ist",
+        "beispiel": "Man sollte nicht zu viel in seine Worte hineinlesen.",
+        "uebersetzung": {
+          "fa": "نباید از حرف‌هایش برداشت زیادی کرد.",
+          "en": "One shouldn't read too much into his words."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hineinlesen",
+      "praeteritum": "las hinein",
+      "partizip2": "hineingelesen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lese hinein",
+        "du": "liest hinein",
+        "er_sie_es": "liest hinein",
+        "wir": "lesen hinein",
+        "ihr": "lest hinein",
+        "sie_Sie": "lesen hinein"
+      },
+      "praeteritum": {
+        "ich": "las hinein",
+        "du": "lasest hinein",
+        "er_sie_es": "las hinein",
+        "wir": "lasen hinein",
+        "ihr": "last hinein",
+        "sie_Sie": "lasen hinein"
+      },
+      "konjunktiv1": {
+        "ich": "lese hinein",
+        "du": "lesest hinein",
+        "er_sie_es": "lese hinein",
+        "wir": "lesen hinein",
+        "ihr": "leset hinein",
+        "sie_Sie": "lesen hinein"
+      },
+      "konjunktiv2": {
+        "ich": "läse hinein",
+        "du": "läsest hinein",
+        "er_sie_es": "läse hinein",
+        "wir": "läsen hinein",
+        "ihr": "läset hinein",
+        "sie_Sie": "läsen hinein"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "hineinlesend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "lesen",
+    "woerter": [
+      {
+        "wort": "lesen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خواندن",
+          "en": "to read"
+        },
+        "id_ref": "verb_lesen"
+      },
+      {
+        "wort": "herauslesen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "استنباط کردن",
+          "en": "to gather from"
+        },
+        "id_ref": "verb_herauslesen"
+      },
+      {
+        "wort": "interpretieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تفسیر کردن",
+          "en": "to interpret"
+        },
+        "id_ref": "verb_interpretieren"
+      },
+      {
+        "wort": "die Bedeutung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "معنی",
+          "en": "meaning"
+        },
+        "id_ref": "nomen_bedeutung"
+      },
+      {
+        "wort": "hinein",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به داخل",
+          "en": "in"
+        },
+        "id_ref": "adverb_hinein"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

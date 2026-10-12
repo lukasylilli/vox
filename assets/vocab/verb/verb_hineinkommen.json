@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_hineinkommen",
+  "wort": "hineinkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(به داخل جایی) وارد شدن، داخل رفتن (توانستن)",
+      "(در کاری یا وضعی) گرفتار شدن، وارد شدن"
+    ],
+    "en": [
+      "to get in, to come in",
+      "to get into (a situation)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "hɪˈnaɪ̯nˌkɔmən",
+  "anmerkung": "Umgangssprachlich oft «rein…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wie kommen wir hinein?",
+      "uebersetzung": {
+        "fa": "چطور برویم داخل؟",
+        "en": "How do we get in?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ich weiß selbst nicht, wie ich in diese schwierige Situation hineingekommen bin.",
+      "uebersetzung": {
+        "fa": "خودم هم نمی‌دانم چطور در این وضعیت سخت گرفتار شدم.",
+        "en": "I don't know myself how I got into this difficult situation."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "reinkommen",
+      "uebersetzung": {
+        "fa": "(محاوره) وارد شدن",
+        "en": "to get in"
+      }
+    },
+    {
+      "wort": "hineingeraten",
+      "uebersetzung": {
+        "fa": "گرفتار شدن",
+        "en": "to get into"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hinauskommen",
+      "uebersetzung": {
+        "fa": "بیرون رفتن",
+        "en": "to get out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinein- (به داخل (دور از گوینده)) + kommen (آمدن)",
+    "en": "hinein- (into (away from the speaker)) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in + Akk hineinkommen",
+        "bedeutung": "in einen Raum gelangen; in eine Lage geraten",
+        "beispiel": "Ohne Ticket kommt man nicht ins Stadion hinein.",
+        "uebersetzung": {
+          "fa": "بدون بلیت نمی‌شود وارد ورزشگاه شد.",
+          "en": "You can't get into the stadium without a ticket."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hineinkommen",
+      "praeteritum": "kam hinein",
+      "partizip2": "hineingekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme hinein",
+        "du": "kommst hinein",
+        "er_sie_es": "kommt hinein",
+        "wir": "kommen hinein",
+        "ihr": "kommt hinein",
+        "sie_Sie": "kommen hinein"
+      },
+      "praeteritum": {
+        "ich": "kam hinein",
+        "du": "kamst hinein",
+        "er_sie_es": "kam hinein",
+        "wir": "kamen hinein",
+        "ihr": "kamt hinein",
+        "sie_Sie": "kamen hinein"
+      },
+      "konjunktiv1": {
+        "ich": "komme hinein",
+        "du": "kommest hinein",
+        "er_sie_es": "komme hinein",
+        "wir": "kommen hinein",
+        "ihr": "kommet hinein",
+        "sie_Sie": "kommen hinein"
+      },
+      "konjunktiv2": {
+        "ich": "käme hinein",
+        "du": "kämest hinein",
+        "er_sie_es": "käme hinein",
+        "wir": "kämen hinein",
+        "ihr": "kämet hinein",
+        "sie_Sie": "kämen hinein"
+      },
+      "imperativ": {
+        "du": "Komm hinein!",
+        "ihr": "Kommt hinein!",
+        "Sie": "Kommen Sie hinein!"
+      }
+    },
+    "partizip1": "hineinkommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "hinauskommen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیرون رفتن",
+          "en": "to get out"
+        },
+        "id_ref": "verb_hinauskommen"
+      },
+      {
+        "wort": "der Eintritt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ورود",
+          "en": "entry"
+        },
+        "id_ref": "nomen_eintritt"
+      },
+      {
+        "wort": "die Situation",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "وضعیت",
+          "en": "situation"
+        },
+        "id_ref": "nomen_situation"
+      },
+      {
+        "wort": "hinein",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به داخل",
+          "en": "in"
+        },
+        "id_ref": "adverb_hinein"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

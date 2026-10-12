@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_hingeben",
+  "wort": "hingeben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(ادبی) (چیزی را) فدا کردن، بخشیدن",
+      "(sich hingeben) خود را وقف (چیزی) کردن، غرق (احساسی) شدن"
+    ],
+    "en": [
+      "(literary) to give up, to sacrifice",
+      "(sich) to devote oneself to, to abandon oneself to"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle",
+    "Sprache (gehoben)"
+  ],
+  "ipa": "ˈhɪnˌɡeːbn̩",
+  "anmerkung": "Gehoben. Das Partizip «hingebungsvoll» / Nomen «Hingabe» (= Leidenschaft, Hingebung) sind häufig.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie gibt sich der Musik hin.",
+      "uebersetzung": {
+        "fa": "او غرق موسیقی می‌شود.",
+        "en": "She abandons herself to the music."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Man sollte sich nicht der Illusion hingeben, dass sich das Problem von selbst löst.",
+      "uebersetzung": {
+        "fa": "نباید دل به این خیال خوش کرد که مشکل خودبه‌خود حل می‌شود.",
+        "en": "One shouldn't be under the illusion that the problem will solve itself."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich widmen",
+      "uebersetzung": {
+        "fa": "خود را وقف کردن",
+        "en": "to devote oneself"
+      }
+    },
+    {
+      "wort": "opfern",
+      "uebersetzung": {
+        "fa": "فدا کردن",
+        "en": "to sacrifice"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hin- (به آن سو (دور از گوینده)) + geben (دادن)",
+    "en": "hin- (there (away from the speaker)) + geben (to give)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich einer Sache (+ Dat) hingeben",
+        "bedeutung": "sich ganz einer Sache überlassen",
+        "beispiel": "Er gab sich ganz seiner Arbeit hin.",
+        "uebersetzung": {
+          "fa": "او خود را کاملاً وقف کارش کرد.",
+          "en": "He devoted himself entirely to his work."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hingeben",
+      "praeteritum": "gab hin",
+      "partizip2": "hingegeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gebe hin",
+        "du": "gibst hin",
+        "er_sie_es": "gibt hin",
+        "wir": "geben hin",
+        "ihr": "gebt hin",
+        "sie_Sie": "geben hin"
+      },
+      "praeteritum": {
+        "ich": "gab hin",
+        "du": "gabst hin",
+        "er_sie_es": "gab hin",
+        "wir": "gaben hin",
+        "ihr": "gabt hin",
+        "sie_Sie": "gaben hin"
+      },
+      "konjunktiv1": {
+        "ich": "gebe hin",
+        "du": "gebest hin",
+        "er_sie_es": "gebe hin",
+        "wir": "geben hin",
+        "ihr": "gebet hin",
+        "sie_Sie": "geben hin"
+      },
+      "konjunktiv2": {
+        "ich": "gäbe hin",
+        "du": "gäbest hin",
+        "er_sie_es": "gäbe hin",
+        "wir": "gäben hin",
+        "ihr": "gäbet hin",
+        "sie_Sie": "gäben hin"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "hingebend",
+    "nominalisierung": "die Hingabe"
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "die Hingabe",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "از خودگذشتگی، شور",
+          "en": "devotion"
+        },
+        "id_ref": "nomen_hingabe"
+      },
+      {
+        "wort": "sich widmen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خود را وقف کردن",
+          "en": "to devote oneself"
+        },
+        "id_ref": "verb_sich_widmen"
+      },
+      {
+        "wort": "opfern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فدا کردن",
+          "en": "to sacrifice"
+        },
+        "id_ref": "verb_opfern"
+      },
+      {
+        "wort": "die Leidenschaft",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شور، عشق",
+          "en": "passion"
+        },
+        "id_ref": "nomen_leidenschaft"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

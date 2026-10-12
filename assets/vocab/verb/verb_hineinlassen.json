@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_hineinlassen",
+  "wort": "hineinlassen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(کسی یا چیزی را به داخل) راه دادن"
+    ],
+    "en": [
+      "to let in"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "hɪˈnaɪ̯nˌlasn̩",
+  "anmerkung": "Umgangssprachlich oft «rein…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Lass niemanden hinein!",
+      "uebersetzung": {
+        "fa": "به هیچ‌کس راه نده!",
+        "en": "Don't let anybody in!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Türsteher hat uns nicht in den Club hineingelassen, weil wir Turnschuhe trugen.",
+      "uebersetzung": {
+        "fa": "دربان ما را به کلاب راه نداد، چون کفش ورزشی پوشیده بودیم.",
+        "en": "The bouncer didn't let us into the club because we were wearing trainers."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "reinlassen",
+      "uebersetzung": {
+        "fa": "(محاوره) راه دادن",
+        "en": "to let in"
+      }
+    },
+    {
+      "wort": "einlassen",
+      "uebersetzung": {
+        "fa": "راه دادن",
+        "en": "to admit"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hinauslassen",
+      "uebersetzung": {
+        "fa": "بیرون فرستادن",
+        "en": "to let out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinein- (به داخل (دور از گوینده)) + lassen (گذاشتن)",
+    "en": "hinein- (into (away from the speaker)) + lassen (to let)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden in + Akk hineinlassen",
+        "bedeutung": "jemandem den Zutritt zu etwas erlauben",
+        "beispiel": "Sie ließen die Presse nicht in den Saal hinein.",
+        "uebersetzung": {
+          "fa": "خبرنگاران را به سالن راه ندادند.",
+          "en": "They didn't let the press into the hall."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hineinlassen",
+      "praeteritum": "ließ hinein",
+      "partizip2": "hineingelassen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lasse hinein",
+        "du": "lässt hinein",
+        "er_sie_es": "lässt hinein",
+        "wir": "lassen hinein",
+        "ihr": "lasst hinein",
+        "sie_Sie": "lassen hinein"
+      },
+      "praeteritum": {
+        "ich": "ließ hinein",
+        "du": "ließest hinein",
+        "er_sie_es": "ließ hinein",
+        "wir": "ließen hinein",
+        "ihr": "ließt hinein",
+        "sie_Sie": "ließen hinein"
+      },
+      "konjunktiv1": {
+        "ich": "lasse hinein",
+        "du": "lassest hinein",
+        "er_sie_es": "lasse hinein",
+        "wir": "lassen hinein",
+        "ihr": "lasset hinein",
+        "sie_Sie": "lassen hinein"
+      },
+      "konjunktiv2": {
+        "ich": "ließe hinein",
+        "du": "ließest hinein",
+        "er_sie_es": "ließe hinein",
+        "wir": "ließen hinein",
+        "ihr": "ließet hinein",
+        "sie_Sie": "ließen hinein"
+      },
+      "imperativ": {
+        "du": "Lass hinein!",
+        "ihr": "Lasst hinein!",
+        "Sie": "Lassen Sie hinein!"
+      }
+    },
+    "partizip1": "hineinlassend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "lassen",
+    "woerter": [
+      {
+        "wort": "lassen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گذاشتن",
+          "en": "to let"
+        },
+        "id_ref": "verb_lassen"
+      },
+      {
+        "wort": "hereinlassen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "راه دادن",
+          "en": "to let in"
+        },
+        "id_ref": "verb_hereinlassen"
+      },
+      {
+        "wort": "der Zutritt",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اجازه‌ی ورود",
+          "en": "access"
+        },
+        "id_ref": "nomen_zutritt"
+      },
+      {
+        "wort": "der Türsteher",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دربان",
+          "en": "bouncer"
+        },
+        "id_ref": "nomen_tuersteher"
+      },
+      {
+        "wort": "hinein",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به داخل",
+          "en": "in"
+        },
+        "id_ref": "adverb_hinein"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

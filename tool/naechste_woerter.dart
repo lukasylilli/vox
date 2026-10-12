@@ -1147,6 +1147,14 @@ const zurueckgestellt = <String>{
   'hineindürfen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
   'hineinfliegen', // zurückgestellt (Regel 14/16): selten 2026-10-11
   'hineinfressen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten (in sich hineinfressen) 2026-10-11
+  'hineingleiten', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hineingreifen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hineinhalten', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hineinhängen', // zurückgestellt (Regel 14/16): transitiv schwach, intransitiv stark — Formen schwanken 2026-10-11
+  'hineinkönnen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'hineinkriechen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hineinmüssen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'hinfließen', // zurückgestellt (Regel 14/16): selten 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
