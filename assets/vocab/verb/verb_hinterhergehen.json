@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_hinterhergehen",
+  "wort": "hinterhergehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پشت سر (کسی) راه رفتن، دنبال (کسی) رفتن"
+    ],
+    "en": [
+      "to walk behind, to follow"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Bewegung"
+  ],
+  "ipa": "hɪntɐˈheːɐ̯ˌɡeːən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich gehe dir hinterher.",
+      "uebersetzung": {
+        "fa": "پشت سرت می‌آیم.",
+        "en": "I'll follow you."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Touristen gingen dem Reiseleiter mit dem roten Schirm durch die Altstadt hinterher.",
+      "uebersetzung": {
+        "fa": "گردشگران پشت سر راهنمای تور با چتر قرمز در شهر قدیمی راه می‌رفتند.",
+        "en": "The tourists followed the guide with the red umbrella through the old town."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "folgen",
+      "uebersetzung": {
+        "fa": "دنبال کردن",
+        "en": "to follow"
+      }
+    },
+    {
+      "wort": "nachgehen",
+      "uebersetzung": {
+        "fa": "دنبال رفتن",
+        "en": "to follow"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "vorangehen",
+      "uebersetzung": {
+        "fa": "جلوتر رفتن",
+        "en": "to go ahead"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinterher- (از پشت، به دنبال) + gehen (رفتن)",
+    "en": "hinterher- (after, behind) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem hinterhergehen (+ Dat)",
+        "bedeutung": "hinter jemandem gehen",
+        "beispiel": "Der Hund ging seinem Herrchen hinterher.",
+        "uebersetzung": {
+          "fa": "سگ پشت سر صاحبش راه می‌رفت.",
+          "en": "The dog walked behind its owner."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hinterhergehen",
+      "praeteritum": "ging hinterher",
+      "partizip2": "hinterhergegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe hinterher",
+        "du": "gehst hinterher",
+        "er_sie_es": "geht hinterher",
+        "wir": "gehen hinterher",
+        "ihr": "geht hinterher",
+        "sie_Sie": "gehen hinterher"
+      },
+      "praeteritum": {
+        "ich": "ging hinterher",
+        "du": "gingst hinterher",
+        "er_sie_es": "ging hinterher",
+        "wir": "gingen hinterher",
+        "ihr": "gingt hinterher",
+        "sie_Sie": "gingen hinterher"
+      },
+      "konjunktiv1": {
+        "ich": "gehe hinterher",
+        "du": "gehest hinterher",
+        "er_sie_es": "gehe hinterher",
+        "wir": "gehen hinterher",
+        "ihr": "gehet hinterher",
+        "sie_Sie": "gehen hinterher"
+      },
+      "konjunktiv2": {
+        "ich": "ginge hinterher",
+        "du": "gingest hinterher",
+        "er_sie_es": "ginge hinterher",
+        "wir": "gingen hinterher",
+        "ihr": "ginget hinterher",
+        "sie_Sie": "gingen hinterher"
+      },
+      "imperativ": {
+        "du": "Geh hinterher!",
+        "ihr": "Geht hinterher!",
+        "Sie": "Gehen Sie hinterher!"
+      }
+    },
+    "partizip1": "hinterhergehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "folgen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دنبال کردن",
+          "en": "to follow"
+        },
+        "id_ref": "verb_folgen"
+      },
+      {
+        "wort": "vorangehen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جلوتر رفتن",
+          "en": "to go ahead"
+        },
+        "id_ref": "verb_vorangehen"
+      },
+      {
+        "wort": "der Reiseleiter",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "راهنمای تور",
+          "en": "tour guide"
+        },
+        "id_ref": "nomen_reiseleiter"
+      },
+      {
+        "wort": "hinterher",
+        "wortart": "adverb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پشت سر",
+          "en": "behind"
+        },
+        "id_ref": "adverb_hinterher"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

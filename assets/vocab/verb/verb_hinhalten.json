@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_hinhalten",
+  "wort": "hinhalten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(چیزی را به سوی کسی) دراز کردن، جلو گرفتن",
+      "(کسی را) معطل کردن، سر دواندن"
+    ],
+    "en": [
+      "to hold out",
+      "to put (someone) off, to keep (someone) waiting"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Beziehungen"
+  ],
+  "ipa": "ˈhɪnˌhaltn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er hält mir die Hand hin.",
+      "uebersetzung": {
+        "fa": "او دستش را به سمت من دراز می‌کند.",
+        "en": "He holds out his hand to me."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Vermieter hält uns seit Monaten hin und repariert die Heizung einfach nicht.",
+      "uebersetzung": {
+        "fa": "صاحب‌خانه ماه‌هاست ما را سر می‌دواند و بخاری را تعمیر نمی‌کند.",
+        "en": "The landlord has been putting us off for months and simply isn't repairing the heating."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vertrösten",
+      "uebersetzung": {
+        "fa": "با وعده سر دواندن",
+        "en": "to put off"
+      }
+    },
+    {
+      "wort": "reichen",
+      "uebersetzung": {
+        "fa": "دادن، رد کردن",
+        "en": "to hand"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hin- (به آن سو (دور از گوینده)) + halten (نگه داشتن)",
+    "en": "hin- (there (away from the speaker)) + halten (to hold)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden mit + Dat hinhalten",
+        "bedeutung": "jemanden mit Versprechen warten lassen",
+        "beispiel": "Er hält sie mit leeren Versprechungen hin.",
+        "uebersetzung": {
+          "fa": "او با وعده‌های توخالی سرش را گرم می‌کند.",
+          "en": "He keeps her waiting with empty promises."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hinhalten",
+      "praeteritum": "hielt hin",
+      "partizip2": "hingehalten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "halte hin",
+        "du": "hältst hin",
+        "er_sie_es": "hält hin",
+        "wir": "halten hin",
+        "ihr": "haltet hin",
+        "sie_Sie": "halten hin"
+      },
+      "praeteritum": {
+        "ich": "hielt hin",
+        "du": "hieltest hin",
+        "er_sie_es": "hielt hin",
+        "wir": "hielten hin",
+        "ihr": "hieltet hin",
+        "sie_Sie": "hielten hin"
+      },
+      "konjunktiv1": {
+        "ich": "halte hin",
+        "du": "haltest hin",
+        "er_sie_es": "halte hin",
+        "wir": "halten hin",
+        "ihr": "haltet hin",
+        "sie_Sie": "halten hin"
+      },
+      "konjunktiv2": {
+        "ich": "hielte hin",
+        "du": "hieltest hin",
+        "er_sie_es": "hielte hin",
+        "wir": "hielten hin",
+        "ihr": "hieltet hin",
+        "sie_Sie": "hielten hin"
+      },
+      "imperativ": {
+        "du": "Halt hin!",
+        "ihr": "Haltet hin!",
+        "Sie": "Halten Sie hin!"
+      }
+    },
+    "partizip1": "hinhaltend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "halten",
+    "woerter": [
+      {
+        "wort": "halten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to hold"
+        },
+        "id_ref": "verb_halten"
+      },
+      {
+        "wort": "vertrösten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "با وعده سر دواندن",
+          "en": "to put off"
+        },
+        "id_ref": "verb_vertroesten"
+      },
+      {
+        "wort": "warten lassen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "منتظر گذاشتن",
+          "en": "to keep waiting"
+        },
+        "id_ref": "verb_warten_lassen"
+      },
+      {
+        "wort": "das Versprechen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قول",
+          "en": "promise"
+        },
+        "id_ref": "nomen_versprechen"
+      },
+      {
+        "wort": "hin",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به آن سو",
+          "en": "there"
+        },
+        "id_ref": "adverb_hin"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

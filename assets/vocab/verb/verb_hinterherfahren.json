@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_hinterherfahren",
+  "wort": "hinterherfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با وسیله‌ی نقلیه) پشت سر (کسی) رفتن، دنبال کردن"
+    ],
+    "en": [
+      "to drive after, to follow (by vehicle)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr"
+  ],
+  "ipa": "hɪntɐˈheːɐ̯ˌfaːʁən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Fahr mir einfach hinterher!",
+      "uebersetzung": {
+        "fa": "فقط پشت سر من بیا (بران)!",
+        "en": "Just follow me!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil er den Weg nicht kannte, ist er dem Taxi bis zum Hotel hinterhergefahren.",
+      "uebersetzung": {
+        "fa": "چون راه را بلد نبود، تا هتل پشت سر تاکسی رفت.",
+        "en": "Because he didn't know the way, he followed the taxi to the hotel."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "folgen",
+      "uebersetzung": {
+        "fa": "دنبال کردن",
+        "en": "to follow"
+      }
+    },
+    {
+      "wort": "nachfahren",
+      "uebersetzung": {
+        "fa": "دنبال کردن (با وسیله)",
+        "en": "to follow"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "vorausfahren",
+      "uebersetzung": {
+        "fa": "جلوتر رفتن",
+        "en": "to drive ahead"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinterher- (از پشت، به دنبال) + fahren (رفتن (با وسیله))",
+    "en": "hinterher- (after, behind) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem hinterherfahren (+ Dat)",
+        "bedeutung": "jemandem fahrend folgen",
+        "beispiel": "Die Polizei fuhr dem Dieb hinterher.",
+        "uebersetzung": {
+          "fa": "پلیس دزد را تعقیب کرد.",
+          "en": "The police drove after the thief."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hinterherfahren",
+      "praeteritum": "fuhr hinterher",
+      "partizip2": "hinterhergefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre hinterher",
+        "du": "fährst hinterher",
+        "er_sie_es": "fährt hinterher",
+        "wir": "fahren hinterher",
+        "ihr": "fahrt hinterher",
+        "sie_Sie": "fahren hinterher"
+      },
+      "praeteritum": {
+        "ich": "fuhr hinterher",
+        "du": "fuhrst hinterher",
+        "er_sie_es": "fuhr hinterher",
+        "wir": "fuhren hinterher",
+        "ihr": "fuhrt hinterher",
+        "sie_Sie": "fuhren hinterher"
+      },
+      "konjunktiv1": {
+        "ich": "fahre hinterher",
+        "du": "fahrest hinterher",
+        "er_sie_es": "fahre hinterher",
+        "wir": "fahren hinterher",
+        "ihr": "fahret hinterher",
+        "sie_Sie": "fahren hinterher"
+      },
+      "konjunktiv2": {
+        "ich": "führe hinterher",
+        "du": "führest hinterher",
+        "er_sie_es": "führe hinterher",
+        "wir": "führen hinterher",
+        "ihr": "führet hinterher",
+        "sie_Sie": "führen hinterher"
+      },
+      "imperativ": {
+        "du": "Fahr hinterher!",
+        "ihr": "Fahrt hinterher!",
+        "Sie": "Fahren Sie hinterher!"
+      }
+    },
+    "partizip1": "hinterherfahrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "folgen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دنبال کردن",
+          "en": "to follow"
+        },
+        "id_ref": "verb_folgen"
+      },
+      {
+        "wort": "verfolgen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تعقیب کردن",
+          "en": "to pursue"
+        },
+        "id_ref": "verb_verfolgen"
+      },
+      {
+        "wort": "hinterherlaufen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دنبال دویدن",
+          "en": "to run after"
+        },
+        "id_ref": "verb_hinterherlaufen"
+      },
+      {
+        "wort": "hinterher",
+        "wortart": "adverb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پشت سر، بعداً",
+          "en": "behind, afterwards"
+        },
+        "id_ref": "adverb_hinterher"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

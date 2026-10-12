@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_hinkommen",
+  "wort": "hinkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(به جایی) رسیدن، آمدن",
+      "(محاوره) (چیزی) جای خودش را داشتن، گذاشته شدن",
+      "(محاوره) درست بودن، جور درآمدن؛ (با پول) سر کردن"
+    ],
+    "en": [
+      "to get there",
+      "(colloquial) to belong, to go (somewhere)",
+      "(colloquial) to be right; to manage (with money)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Umgangssprache"
+  ],
+  "ipa": "ˈhɪnˌkɔmən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wo kommt das Glas hin?",
+      "uebersetzung": {
+        "fa": "لیوان کجا گذاشته می‌شود؟",
+        "en": "Where does the glass go?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Mit 1.500 Euro im Monat komme ich gerade so hin, aber für Urlaub reicht es nicht.",
+      "uebersetzung": {
+        "fa": "با ماهی ۱۵۰۰ یورو به‌زور سر می‌کنم، اما برای مرخصی کافی نیست.",
+        "en": "I just about manage on 1,500 euros a month, but it isn't enough for a holiday."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ankommen",
+      "uebersetzung": {
+        "fa": "رسیدن",
+        "en": "to arrive"
+      }
+    },
+    {
+      "wort": "auskommen",
+      "uebersetzung": {
+        "fa": "سر کردن",
+        "en": "to get by"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hin- (به آن سو (دور از گوینده)) + kommen (آمدن)",
+    "en": "hin- (there (away from the speaker)) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit + Dat hinkommen",
+        "bedeutung": "mit etwas auskommen",
+        "beispiel": "Kommst du mit dem Geld hin?",
+        "uebersetzung": {
+          "fa": "با این پول سر می‌کنی؟",
+          "en": "Can you manage with that money?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hinkommen",
+      "praeteritum": "kam hin",
+      "partizip2": "hingekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme hin",
+        "du": "kommst hin",
+        "er_sie_es": "kommt hin",
+        "wir": "kommen hin",
+        "ihr": "kommt hin",
+        "sie_Sie": "kommen hin"
+      },
+      "praeteritum": {
+        "ich": "kam hin",
+        "du": "kamst hin",
+        "er_sie_es": "kam hin",
+        "wir": "kamen hin",
+        "ihr": "kamt hin",
+        "sie_Sie": "kamen hin"
+      },
+      "konjunktiv1": {
+        "ich": "komme hin",
+        "du": "kommest hin",
+        "er_sie_es": "komme hin",
+        "wir": "kommen hin",
+        "ihr": "kommet hin",
+        "sie_Sie": "kommen hin"
+      },
+      "konjunktiv2": {
+        "ich": "käme hin",
+        "du": "kämest hin",
+        "er_sie_es": "käme hin",
+        "wir": "kämen hin",
+        "ihr": "kämet hin",
+        "sie_Sie": "kämen hin"
+      },
+      "imperativ": {
+        "du": "Komm hin!",
+        "ihr": "Kommt hin!",
+        "Sie": "Kommen Sie hin!"
+      }
+    },
+    "partizip1": "hinkommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "ankommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رسیدن",
+          "en": "to arrive"
+        },
+        "id_ref": "verb_ankommen"
+      },
+      {
+        "wort": "auskommen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سر کردن",
+          "en": "to get by"
+        },
+        "id_ref": "verb_auskommen"
+      },
+      {
+        "wort": "stimmen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "درست بودن",
+          "en": "to be right"
+        },
+        "id_ref": "verb_stimmen"
+      },
+      {
+        "wort": "hin",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به آنجا",
+          "en": "there"
+        },
+        "id_ref": "adverb_hin"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

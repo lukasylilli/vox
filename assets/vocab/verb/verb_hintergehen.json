@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_hintergehen",
+  "wort": "hintergehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(به کسی) خیانت کردن، (کسی را) فریب دادن"
+    ],
+    "en": [
+      "to deceive, to betray, to go behind someone's back"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Beziehungen",
+    "Moral"
+  ],
+  "ipa": "hɪntɐˈɡeːən",
+  "anmerkung": "Untrennbar und transitiv: hinterging, hat hintergangen.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er hat mich hintergangen.",
+      "uebersetzung": {
+        "fa": "او به من نارو زد.",
+        "en": "He deceived me."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie fühlte sich von ihrer besten Freundin hintergangen, als sie die Wahrheit erfuhr.",
+      "uebersetzung": {
+        "fa": "وقتی حقیقت را فهمید، احساس کرد بهترین دوستش به او خیانت کرده است.",
+        "en": "She felt betrayed by her best friend when she learned the truth."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "betrügen",
+      "uebersetzung": {
+        "fa": "فریب دادن",
+        "en": "to cheat"
+      }
+    },
+    {
+      "wort": "täuschen",
+      "uebersetzung": {
+        "fa": "گول زدن",
+        "en": "to deceive"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "vertrauen",
+      "uebersetzung": {
+        "fa": "اعتماد کردن",
+        "en": "to trust"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinter- (پشت) + gehen (رفتن)",
+    "en": "hinter- (behind) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "hintergehen",
+      "praeteritum": "hinterging",
+      "partizip2": "hintergangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "hintergehe",
+        "du": "hintergehst",
+        "er_sie_es": "hintergeht",
+        "wir": "hintergehen",
+        "ihr": "hintergeht",
+        "sie_Sie": "hintergehen"
+      },
+      "praeteritum": {
+        "ich": "hinterging",
+        "du": "hintergingst",
+        "er_sie_es": "hinterging",
+        "wir": "hintergingen",
+        "ihr": "hintergingt",
+        "sie_Sie": "hintergingen"
+      },
+      "konjunktiv1": {
+        "ich": "hintergehe",
+        "du": "hintergehest",
+        "er_sie_es": "hintergehe",
+        "wir": "hintergehen",
+        "ihr": "hintergehet",
+        "sie_Sie": "hintergehen"
+      },
+      "konjunktiv2": {
+        "ich": "hinterginge",
+        "du": "hintergingest",
+        "er_sie_es": "hinterginge",
+        "wir": "hintergingen",
+        "ihr": "hinterginget",
+        "sie_Sie": "hintergingen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "hintergehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "betrügen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فریب دادن",
+          "en": "to cheat"
+        },
+        "id_ref": "verb_betruegen"
+      },
+      {
+        "wort": "täuschen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گول زدن",
+          "en": "to deceive"
+        },
+        "id_ref": "verb_taeuschen"
+      },
+      {
+        "wort": "das Vertrauen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اعتماد",
+          "en": "trust"
+        },
+        "id_ref": "nomen_vertrauen"
+      },
+      {
+        "wort": "der Verrat",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خیانت",
+          "en": "betrayal"
+        },
+        "id_ref": "nomen_verrat"
+      },
+      {
+        "wort": "ehrlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صادق",
+          "en": "honest"
+        },
+        "id_ref": "adjektiv_ehrlich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

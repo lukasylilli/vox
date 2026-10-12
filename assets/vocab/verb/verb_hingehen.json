@@ -1,0 +1,193 @@
+{
+  "schema": "3.0",
+  "id": "verb_hingehen",
+  "wort": "hingehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(به جایی) رفتن",
+      "(زمان) سپری شدن",
+      "(محاوره) قابل‌قبول بودن («das geht gerade noch hin»)"
+    ],
+    "en": [
+      "to go (there)",
+      "(time) to pass",
+      "(colloquial) to be acceptable, to pass"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈhɪnˌɡeːən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Gehst du morgen hin?",
+      "uebersetzung": {
+        "fa": "فردا می‌روی آنجا؟",
+        "en": "Are you going there tomorrow?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich war noch nie auf einem Opernball, aber dieses Jahr möchte ich unbedingt hingehen.",
+      "uebersetzung": {
+        "fa": "تا حالا هرگز به جشن اپرا نرفته‌ام، اما امسال حتماً می‌خواهم بروم.",
+        "en": "I have never been to an opera ball, but this year I definitely want to go."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "besuchen",
+      "uebersetzung": {
+        "fa": "رفتن به، دیدن کردن",
+        "en": "to attend, to visit"
+      }
+    },
+    {
+      "wort": "hinkommen",
+      "uebersetzung": {
+        "fa": "به آنجا رسیدن",
+        "en": "to get there"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "wegbleiben",
+      "uebersetzung": {
+        "fa": "نرفتن، غایب بودن",
+        "en": "to stay away"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hin- (به آن سو (دور از گوینده)) + gehen (رفتن)",
+    "en": "hin- (there (away from the speaker)) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zu + Dat hingehen",
+        "bedeutung": "jemanden/etwas aufsuchen",
+        "beispiel": "Geh doch zum Arzt hin!",
+        "uebersetzung": {
+          "fa": "خب برو پیش دکتر!",
+          "en": "Why don't you go to the doctor?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hingehen",
+      "praeteritum": "ging hin",
+      "partizip2": "hingegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe hin",
+        "du": "gehst hin",
+        "er_sie_es": "geht hin",
+        "wir": "gehen hin",
+        "ihr": "geht hin",
+        "sie_Sie": "gehen hin"
+      },
+      "praeteritum": {
+        "ich": "ging hin",
+        "du": "gingst hin",
+        "er_sie_es": "ging hin",
+        "wir": "gingen hin",
+        "ihr": "gingt hin",
+        "sie_Sie": "gingen hin"
+      },
+      "konjunktiv1": {
+        "ich": "gehe hin",
+        "du": "gehest hin",
+        "er_sie_es": "gehe hin",
+        "wir": "gehen hin",
+        "ihr": "gehet hin",
+        "sie_Sie": "gehen hin"
+      },
+      "konjunktiv2": {
+        "ich": "ginge hin",
+        "du": "gingest hin",
+        "er_sie_es": "ginge hin",
+        "wir": "gingen hin",
+        "ihr": "ginget hin",
+        "sie_Sie": "gingen hin"
+      },
+      "imperativ": {
+        "du": "Geh hin!",
+        "ihr": "Geht hin!",
+        "Sie": "Gehen Sie hin!"
+      }
+    },
+    "partizip1": "hingehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "besuchen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دیدن کردن",
+          "en": "to visit"
+        },
+        "id_ref": "verb_besuchen"
+      },
+      {
+        "wort": "hinkommen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به آنجا رسیدن",
+          "en": "to get there"
+        },
+        "id_ref": "verb_hinkommen"
+      },
+      {
+        "wort": "der Weg",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "راه",
+          "en": "way"
+        },
+        "id_ref": "nomen_weg"
+      },
+      {
+        "wort": "hin",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به آنجا",
+          "en": "there"
+        },
+        "id_ref": "adverb_hin"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_hinlaufen",
+  "wort": "hinlaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(دوان یا پیاده به جایی) رفتن"
+    ],
+    "en": [
+      "to run there, to walk there"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Bewegung",
+    "Alltag"
+  ],
+  "ipa": "ˈhɪnˌlaʊ̯fn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir laufen schnell hin.",
+      "uebersetzung": {
+        "fa": "سریع می‌دویم آنجا.",
+        "en": "We'll run there quickly."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Supermarkt ist so nah, dass wir zu Fuß hinlaufen können.",
+      "uebersetzung": {
+        "fa": "سوپرمارکت آن‌قدر نزدیک است که می‌توانیم پیاده برویم.",
+        "en": "The supermarket is so close that we can walk there."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hingehen",
+      "uebersetzung": {
+        "fa": "رفتن",
+        "en": "to go there"
+      }
+    },
+    {
+      "wort": "hinrennen",
+      "uebersetzung": {
+        "fa": "دویدن به آنجا",
+        "en": "to run there"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hin- (به آن سو (دور از گوینده)) + laufen (دویدن، راه رفتن)",
+    "en": "hin- (there (away from the speaker)) + laufen (to run, to walk)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zu + Dat hinlaufen",
+        "bedeutung": "zu jemandem/etwas laufen",
+        "beispiel": "Das Kind lief zu seiner Mutter hin.",
+        "uebersetzung": {
+          "fa": "بچه به سمت مادرش دوید.",
+          "en": "The child ran over to its mother."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hinlaufen",
+      "praeteritum": "lief hin",
+      "partizip2": "hingelaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laufe hin",
+        "du": "läufst hin",
+        "er_sie_es": "läuft hin",
+        "wir": "laufen hin",
+        "ihr": "lauft hin",
+        "sie_Sie": "laufen hin"
+      },
+      "praeteritum": {
+        "ich": "lief hin",
+        "du": "liefst hin",
+        "er_sie_es": "lief hin",
+        "wir": "liefen hin",
+        "ihr": "lieft hin",
+        "sie_Sie": "liefen hin"
+      },
+      "konjunktiv1": {
+        "ich": "laufe hin",
+        "du": "laufest hin",
+        "er_sie_es": "laufe hin",
+        "wir": "laufen hin",
+        "ihr": "laufet hin",
+        "sie_Sie": "laufen hin"
+      },
+      "konjunktiv2": {
+        "ich": "liefe hin",
+        "du": "liefest hin",
+        "er_sie_es": "liefe hin",
+        "wir": "liefen hin",
+        "ihr": "liefet hin",
+        "sie_Sie": "liefen hin"
+      },
+      "imperativ": {
+        "du": "Lauf hin!",
+        "ihr": "Lauft hin!",
+        "Sie": "Laufen Sie hin!"
+      }
+    },
+    "partizip1": "hinlaufend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دویدن، راه رفتن",
+          "en": "to run, to walk"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "zu Fuß",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پیاده",
+          "en": "on foot"
+        },
+        "id_ref": "adverb_zu_fuss"
+      },
+      {
+        "wort": "hingehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go there"
+        },
+        "id_ref": "verb_hingehen"
+      },
+      {
+        "wort": "nah",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نزدیک",
+          "en": "near"
+        },
+        "id_ref": "adjektiv_nah"
+      },
+      {
+        "wort": "hin",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به آنجا",
+          "en": "there"
+        },
+        "id_ref": "adverb_hin"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

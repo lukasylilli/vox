@@ -1155,6 +1155,22 @@ const zurueckgestellt = <String>{
   'hineinkriechen', // zurückgestellt (Regel 14/16): selten 2026-10-11
   'hineinmüssen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
   'hinfließen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hingießen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hingleiten', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hinhaben', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-11
+  'hinhängen', // zurückgestellt (Regel 14/16): transitiv schwach, intransitiv stark — Formen schwanken 2026-10-11
+  'hinhauen', // zurückgestellt (Regel 14/16): umgangssprachlich; Präteritum schwankt (haute/hieb) 2026-10-11
+  'hinkönnen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'hinmüssen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'hintanbleiben', // zurückgestellt (Regel 14/16): veraltet, selten 2026-10-11
+  'hintanhalten', // zurückgestellt (Regel 14/16): veraltet, selten 2026-10-11
+  'hintenüberfallen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hinterbringen', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-11
+  'hintereinanderfahren', // zurückgestellt (Regel 14/16): amtliche Schreibung getrennt («hintereinander …») 2026-10-11
+  'hintereinandergehen', // zurückgestellt (Regel 14/16): amtliche Schreibung getrennt («hintereinander …») 2026-10-11
+  'hintereinanderlaufen', // zurückgestellt (Regel 14/16): amtliche Schreibung getrennt («hintereinander …») 2026-10-11
+  'hinteressen', // zurückgestellt (Regel 14/16): kein bekanntes Wort (vermutlich Listenfehler) 2026-10-11
+  'hintergießen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
