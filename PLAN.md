@@ -2796,6 +2796,11 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۴۳۶ | zusammenhauen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | صرف نوسان‌دار haute/hieb — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۳۷ | zusammenklingen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۳۸ | zusammenkneifen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۳۹ | zusammenlassen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۴۰ | zusammenlesen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۴۱ | zusammenliegen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۴۲ | zusammenlügen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | محاوره‌ای، نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۴۳ | zurückbiegen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 

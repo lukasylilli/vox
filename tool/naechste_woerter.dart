@@ -1489,6 +1489,11 @@ const zurueckgestellt = <String>{
   'zusammenhauen', // zurückgestellt (Regel 14/16): haute/hieb (wie aufhauen) 2026-10-13
   'zusammenklingen', // zurückgestellt (Regel 14/16): selten (wie mitklingen) 2026-10-13
   'zusammenkneifen', // zurückgestellt (Regel 14/16): selten (wie einkneifen) 2026-10-13
+  'zusammenlassen', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'zusammenlesen', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'zusammenliegen', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'zusammenlügen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-13
+  'zurückbiegen', // zurückgestellt (Regel 14/16): selten (wie herumbiegen) 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

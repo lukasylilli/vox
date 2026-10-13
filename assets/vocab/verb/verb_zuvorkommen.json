@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_zuvorkommen",
+  "wort": "zuvorkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پیش‌دستی کردن، جلوتر از کسی عمل کردن",
+      "جلوی چیزی را گرفتن"
+    ],
+    "en": [
+      "to forestall",
+      "to beat someone to it",
+      "to anticipate"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Arbeit"
+  ],
+  "ipa": "t͡suˈfoːɐ̯ˌkɔmən",
+  "anmerkung": "Trennbar (kam zuvor, zuvorgekommen), Perfekt mit «sein». Partizip I «zuvorkommend» auch Adjektiv (= höflich, hilfsbereit).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie kommt mir immer zuvor.",
+      "uebersetzung": {
+        "fa": "او همیشه از من پیش‌دستی می‌کند.",
+        "en": "She always beats me to it."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wir müssen schnell handeln, damit uns die Konkurrenz nicht zuvorkommt.",
+      "uebersetzung": {
+        "fa": "باید سریع عمل کنیم تا رقبا از ما پیش‌دستی نکنند.",
+        "en": "We have to act quickly so that the competition doesn't beat us to it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vorgreifen",
+      "uebersetzung": {
+        "fa": "پیش‌دستی کردن",
+        "en": "to anticipate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zuvor (پیش‌تر) + kommen (آمدن)",
+    "en": "zuvor (before) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem / einer Sache zuvorkommen (+ Dat)",
+        "bedeutung": "schneller handeln als jemand; etwas verhindern",
+        "beispiel": "Er kam ihrer Frage zuvor.",
+        "uebersetzung": {
+          "fa": "او پیش از آنکه بپرسد جواب داد.",
+          "en": "He anticipated her question."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zuvorkommen",
+      "praeteritum": "kam zuvor",
+      "partizip2": "zuvorgekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme zuvor",
+        "du": "kommst zuvor",
+        "er_sie_es": "kommt zuvor",
+        "wir": "kommen zuvor",
+        "ihr": "kommt zuvor",
+        "sie_Sie": "kommen zuvor"
+      },
+      "praeteritum": {
+        "ich": "kam zuvor",
+        "du": "kamst zuvor",
+        "er_sie_es": "kam zuvor",
+        "wir": "kamen zuvor",
+        "ihr": "kamt zuvor",
+        "sie_Sie": "kamen zuvor"
+      },
+      "konjunktiv1": {
+        "ich": "komme zuvor",
+        "du": "kommest zuvor",
+        "er_sie_es": "komme zuvor",
+        "wir": "kommen zuvor",
+        "ihr": "kommet zuvor",
+        "sie_Sie": "kommen zuvor"
+      },
+      "konjunktiv2": {
+        "ich": "käme zuvor",
+        "du": "kämest zuvor",
+        "er_sie_es": "käme zuvor",
+        "wir": "kämen zuvor",
+        "ihr": "kämet zuvor",
+        "sie_Sie": "kämen zuvor"
+      },
+      "imperativ": {
+        "du": "Komm zuvor!",
+        "ihr": "Kommt zuvor!",
+        "Sie": "Kommen Sie zuvor!"
+      }
+    },
+    "partizip1": "zuvorkommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "zuvorkommend",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مؤدب و یاری‌رسان",
+          "en": "obliging"
+        },
+        "id_ref": "adjektiv_zuvorkommend"
+      },
+      {
+        "wort": "schnell",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سریع",
+          "en": "fast"
+        },
+        "id_ref": "adjektiv_schnell"
+      },
+      {
+        "wort": "verhindern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جلوگیری کردن",
+          "en": "to prevent"
+        },
+        "id_ref": "verb_verhindern"
+      },
+      {
+        "wort": "die Konkurrenz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رقابت؛ رقبا",
+          "en": "competition"
+        },
+        "id_ref": "nomen_konkurrenz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

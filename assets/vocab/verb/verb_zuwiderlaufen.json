@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_zuwiderlaufen",
+  "wort": "zuwiderlaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مغایر بودن، در تضاد بودن (با چیزی)"
+    ],
+    "en": [
+      "to run counter to",
+      "to contradict"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Gesellschaft"
+  ],
+  "ipa": "t͡suˈviːdɐˌlaʊ̯fn̩",
+  "anmerkung": "Trennbar (lief zuwider, zuwidergelaufen), Perfekt mit «sein». Gehoben, meist mit Dativ.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das läuft unserem Plan zuwider.",
+      "uebersetzung": {
+        "fa": "این با برنامه‌ی ما مغایر است.",
+        "en": "That runs counter to our plan."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die neue Regel läuft den Interessen der Mitarbeiter zuwider, deshalb protestieren viele.",
+      "uebersetzung": {
+        "fa": "قانون تازه با منافع کارکنان در تضاد است، برای همین خیلی‌ها اعتراض می‌کنند.",
+        "en": "The new rule runs counter to the employees' interests, which is why many are protesting."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "widersprechen",
+      "uebersetzung": {
+        "fa": "مغایر بودن",
+        "en": "to contradict"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "entsprechen",
+      "uebersetzung": {
+        "fa": "مطابق بودن",
+        "en": "to correspond to"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zuwider (برخلاف) + laufen (رفتن)",
+    "en": "zuwider (contrary) + laufen (to run)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "einer Sache zuwiderlaufen (+ Dat)",
+        "bedeutung": "im Widerspruch zu etwas stehen",
+        "beispiel": "Das Verhalten läuft den Regeln zuwider.",
+        "uebersetzung": {
+          "fa": "این رفتار مغایر قوانین است.",
+          "en": "The behaviour runs counter to the rules."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zuwiderlaufen",
+      "praeteritum": "lief zuwider",
+      "partizip2": "zuwidergelaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laufe zuwider",
+        "du": "läufst zuwider",
+        "er_sie_es": "läuft zuwider",
+        "wir": "laufen zuwider",
+        "ihr": "lauft zuwider",
+        "sie_Sie": "laufen zuwider"
+      },
+      "praeteritum": {
+        "ich": "lief zuwider",
+        "du": "liefst zuwider",
+        "er_sie_es": "lief zuwider",
+        "wir": "liefen zuwider",
+        "ihr": "lieft zuwider",
+        "sie_Sie": "liefen zuwider"
+      },
+      "konjunktiv1": {
+        "ich": "laufe zuwider",
+        "du": "laufest zuwider",
+        "er_sie_es": "laufe zuwider",
+        "wir": "laufen zuwider",
+        "ihr": "laufet zuwider",
+        "sie_Sie": "laufen zuwider"
+      },
+      "konjunktiv2": {
+        "ich": "liefe zuwider",
+        "du": "liefest zuwider",
+        "er_sie_es": "liefe zuwider",
+        "wir": "liefen zuwider",
+        "ihr": "liefet zuwider",
+        "sie_Sie": "liefen zuwider"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "zuwiderlaufend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "widersprechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مخالفت کردن؛ مغایر بودن",
+          "en": "to contradict"
+        },
+        "id_ref": "verb_widersprechen"
+      },
+      {
+        "wort": "der Widerspruch",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تناقض",
+          "en": "contradiction"
+        },
+        "id_ref": "nomen_widerspruch"
+      },
+      {
+        "wort": "entsprechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مطابق بودن",
+          "en": "to correspond"
+        },
+        "id_ref": "verb_entsprechen"
+      },
+      {
+        "wort": "die Regel",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قاعده",
+          "en": "rule"
+        },
+        "id_ref": "nomen_regel"
+      },
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دویدن؛ پیش رفتن",
+          "en": "to run"
+        },
+        "id_ref": "verb_laufen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
