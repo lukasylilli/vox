@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_winden",
+  "wort": "winden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پیچاندن، تابیدن (حلقه، تاج گل)",
+      "به خود پیچیدن، (راه) پیچ‌وتاب خوردن"
+    ],
+    "en": [
+      "to wind, to twist",
+      "(sich) to writhe, to wind"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur"
+  ],
+  "ipa": "ˈvɪndn̩",
+  "anmerkung": "Unregelmäßig (wand, gewunden). Meist reflexiv: «sich vor Schmerzen winden», «Der Weg windet sich durch das Tal». Partizip «gewunden» = kurvig.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Fluss windet sich durch das Tal.",
+      "uebersetzung": {
+        "fa": "رودخانه در دره پیچ‌وتاب می‌خورد.",
+        "en": "The river winds through the valley."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Patient wand sich vor Schmerzen, bis endlich der Arzt kam.",
+      "uebersetzung": {
+        "fa": "بیمار از درد به خود می‌پیچید تا اینکه بالاخره پزشک آمد.",
+        "en": "The patient writhed in pain until the doctor finally came."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "drehen",
+      "uebersetzung": {
+        "fa": "چرخاندن",
+        "en": "to turn"
+      }
+    },
+    {
+      "wort": "schlängeln",
+      "uebersetzung": {
+        "fa": "مارپیچ رفتن",
+        "en": "to meander"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich vor + Dat winden",
+        "bedeutung": "sich wegen Schmerz/Scham krümmen",
+        "beispiel": "Er wand sich vor Lachen.",
+        "uebersetzung": {
+          "fa": "از خنده به خود می‌پیچید.",
+          "en": "He was doubled up with laughter."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "winden",
+      "praeteritum": "wand",
+      "partizip2": "gewunden"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "winde",
+        "du": "windest",
+        "er_sie_es": "windet",
+        "wir": "winden",
+        "ihr": "windet",
+        "sie_Sie": "winden"
+      },
+      "praeteritum": {
+        "ich": "wand",
+        "du": "wandest",
+        "er_sie_es": "wand",
+        "wir": "wanden",
+        "ihr": "wandet",
+        "sie_Sie": "wanden"
+      },
+      "konjunktiv1": {
+        "ich": "winde",
+        "du": "windest",
+        "er_sie_es": "winde",
+        "wir": "winden",
+        "ihr": "windet",
+        "sie_Sie": "winden"
+      },
+      "konjunktiv2": {
+        "ich": "wände",
+        "du": "wändest",
+        "er_sie_es": "wände",
+        "wir": "wänden",
+        "ihr": "wändet",
+        "sie_Sie": "wänden"
+      },
+      "imperativ": {
+        "du": "Winde!",
+        "ihr": "Windet!",
+        "Sie": "Winden Sie!"
+      }
+    },
+    "partizip1": "windend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "drehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چرخاندن",
+          "en": "to turn"
+        },
+        "id_ref": "verb_drehen"
+      },
+      {
+        "wort": "der Kranz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تاج گل",
+          "en": "wreath"
+        },
+        "id_ref": "nomen_kranz"
+      },
+      {
+        "wort": "überwinden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "غلبه کردن",
+          "en": "to overcome"
+        },
+        "id_ref": "verb_ueberwinden"
+      },
+      {
+        "wort": "die Windung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پیچ، خم",
+          "en": "bend, coil"
+        },
+        "id_ref": "nomen_windung"
+      },
+      {
+        "wort": "verschwinden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ناپدید شدن",
+          "en": "to disappear"
+        },
+        "id_ref": "verb_verschwinden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

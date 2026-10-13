@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_wiedererkennen",
+  "wort": "wiedererkennen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(دوباره) شناختن، به جا آوردن"
+    ],
+    "en": [
+      "to recognise"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Beziehungen"
+  ],
+  "ipa": "ˈviːdɐʔɛɐ̯ˌkɛnən",
+  "anmerkung": "Trennbar, gemischtes Verb (erkannte wieder, wiedererkannt) — Partizip II ohne ge-.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich habe dich nicht wiedererkannt!",
+      "uebersetzung": {
+        "fa": "تو را به جا نیاوردم!",
+        "en": "I didn't recognise you!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nach zehn Jahren hat sie ihre Heimatstadt kaum wiedererkannt, weil so viel gebaut worden war.",
+      "uebersetzung": {
+        "fa": "بعد از ده سال شهر زادگاهش را به‌سختی شناخت، چون آن‌قدر ساخت‌وساز شده بود.",
+        "en": "After ten years she hardly recognised her home town because so much had been built."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erkennen",
+      "uebersetzung": {
+        "fa": "شناختن",
+        "en": "to recognise"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verwechseln",
+      "uebersetzung": {
+        "fa": "اشتباه گرفتن",
+        "en": "to mix up"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "wieder (دوباره) + erkennen (شناختن)",
+    "en": "wieder (again) + erkennen (to recognise)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "an + Dat wiedererkennen",
+        "bedeutung": "jemanden an einem Merkmal erkennen",
+        "beispiel": "Ich habe ihn an seiner Stimme wiedererkannt.",
+        "uebersetzung": {
+          "fa": "او را از صدایش شناختم.",
+          "en": "I recognised him by his voice."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "wiedererkennen",
+      "praeteritum": "erkannte wieder",
+      "partizip2": "wiedererkannt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erkenne wieder",
+        "du": "erkennst wieder",
+        "er_sie_es": "erkennt wieder",
+        "wir": "erkennen wieder",
+        "ihr": "erkennt wieder",
+        "sie_Sie": "erkennen wieder"
+      },
+      "praeteritum": {
+        "ich": "erkannte wieder",
+        "du": "erkanntest wieder",
+        "er_sie_es": "erkannte wieder",
+        "wir": "erkannten wieder",
+        "ihr": "erkanntet wieder",
+        "sie_Sie": "erkannten wieder"
+      },
+      "konjunktiv1": {
+        "ich": "erkenne wieder",
+        "du": "erkennest wieder",
+        "er_sie_es": "erkenne wieder",
+        "wir": "erkennen wieder",
+        "ihr": "erkennet wieder",
+        "sie_Sie": "erkennen wieder"
+      },
+      "konjunktiv2": {
+        "ich": "erkennte wieder",
+        "du": "erkenntest wieder",
+        "er_sie_es": "erkennte wieder",
+        "wir": "erkennten wieder",
+        "ihr": "erkenntet wieder",
+        "sie_Sie": "erkennten wieder"
+      },
+      "imperativ": {
+        "du": "Erkenn wieder!",
+        "ihr": "Erkennt wieder!",
+        "Sie": "Erkennen Sie wieder!"
+      }
+    },
+    "partizip1": "wiedererkennend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "erkennen",
+    "woerter": [
+      {
+        "wort": "kennen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شناختن",
+          "en": "to know"
+        },
+        "id_ref": "verb_kennen"
+      },
+      {
+        "wort": "erkennen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شناختن، تشخیص دادن",
+          "en": "to recognise"
+        },
+        "id_ref": "verb_erkennen"
+      },
+      {
+        "wort": "erinnern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "به یاد آوردن",
+          "en": "to remember"
+        },
+        "id_ref": "verb_erinnern"
+      },
+      {
+        "wort": "verwechseln",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اشتباه گرفتن",
+          "en": "to mix up"
+        },
+        "id_ref": "verb_verwechseln"
+      },
+      {
+        "wort": "wieder",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دوباره",
+          "en": "again"
+        },
+        "id_ref": "adverb_wieder"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

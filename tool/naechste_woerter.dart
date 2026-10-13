@@ -1444,6 +1444,13 @@ const zurueckgestellt = <String>{
   'werthalten', // zurückgestellt (Regel 14/16): veraltet, selten 2026-10-13
   'wettlaufen', // zurückgestellt (Regel 14/16): fast nur im Infinitiv 2026-10-13
   'widerklingen', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'wiedererhalten', // zurückgestellt (Regel 14/16): selten (meist zurückerhalten) 2026-10-13
+  'wiederhaben', // zurückgestellt (Regel 14/16): umgangssprachlich 2026-10-13
+  'wiederkennen', // zurückgestellt (Regel 14/16): selten/regional 2026-10-13
+  'wiegen', // zurückgestellt (Regel 14/16): zwei Verben (wog = Gewicht / wiegte = schaukeln), wie schaffen 2026-10-13
+  'wissenlassen', // zurückgestellt (Regel 14/16): Schreibung (wissen lassen) 2026-10-13
+  'wundliegen', // zurückgestellt (Regel 14/16): Schreibung schwankt (wund liegen) 2026-10-13
+  'zeihen', // zurückgestellt (Regel 14/16): veraltet 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

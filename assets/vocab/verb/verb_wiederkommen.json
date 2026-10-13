@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_wiederkommen",
+  "wort": "wiederkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "برگشتن، دوباره آمدن"
+    ],
+    "en": [
+      "to come back",
+      "to return"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈviːdɐˌkɔmən",
+  "anmerkung": "Trennbar (kam wieder, wiedergekommen).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich komme gleich wieder.",
+      "uebersetzung": {
+        "fa": "الان برمی‌گردم.",
+        "en": "I'll be right back."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn die Schmerzen wiederkommen, sollten Sie sofort zum Arzt gehen.",
+      "uebersetzung": {
+        "fa": "اگر درد دوباره برگشت، باید فوراً پیش پزشک بروید.",
+        "en": "If the pain comes back, you should see a doctor immediately."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zurückkommen",
+      "uebersetzung": {
+        "fa": "برگشتن",
+        "en": "to come back"
+      }
+    },
+    {
+      "wort": "zurückkehren",
+      "uebersetzung": {
+        "fa": "بازگشتن",
+        "en": "to return"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "weggehen",
+      "uebersetzung": {
+        "fa": "رفتن",
+        "en": "to go away"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "wieder (دوباره) + kommen (آمدن)",
+    "en": "wieder (again) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "wiederkommen",
+      "praeteritum": "kam wieder",
+      "partizip2": "wiedergekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme wieder",
+        "du": "kommst wieder",
+        "er_sie_es": "kommt wieder",
+        "wir": "kommen wieder",
+        "ihr": "kommt wieder",
+        "sie_Sie": "kommen wieder"
+      },
+      "praeteritum": {
+        "ich": "kam wieder",
+        "du": "kamst wieder",
+        "er_sie_es": "kam wieder",
+        "wir": "kamen wieder",
+        "ihr": "kamt wieder",
+        "sie_Sie": "kamen wieder"
+      },
+      "konjunktiv1": {
+        "ich": "komme wieder",
+        "du": "kommest wieder",
+        "er_sie_es": "komme wieder",
+        "wir": "kommen wieder",
+        "ihr": "kommet wieder",
+        "sie_Sie": "kommen wieder"
+      },
+      "konjunktiv2": {
+        "ich": "käme wieder",
+        "du": "kämest wieder",
+        "er_sie_es": "käme wieder",
+        "wir": "kämen wieder",
+        "ihr": "kämet wieder",
+        "sie_Sie": "kämen wieder"
+      },
+      "imperativ": {
+        "du": "Komm wieder!",
+        "ihr": "Kommt wieder!",
+        "Sie": "Kommen Sie wieder!"
+      }
+    },
+    "partizip1": "wiederkommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "zurückkommen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برگشتن",
+          "en": "to come back"
+        },
+        "id_ref": "verb_zurueckkommen"
+      },
+      {
+        "wort": "weggehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go away"
+        },
+        "id_ref": "verb_weggehen"
+      },
+      {
+        "wort": "die Rückkehr",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بازگشت",
+          "en": "return"
+        },
+        "id_ref": "nomen_rueckkehr"
+      },
+      {
+        "wort": "wieder",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دوباره",
+          "en": "again"
+        },
+        "id_ref": "adverb_wieder"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

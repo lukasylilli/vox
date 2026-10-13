@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_wissen",
+  "wort": "wissen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دانستن"
+    ],
+    "en": [
+      "to know (a fact)"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Lernen"
+  ],
+  "ipa": "ˈvɪsn̩",
+  "anmerkung": "Unregelmäßig (weiß, wusste, gewusst). «wissen» = Tatsachen kennen; «kennen» = Personen/Orte kennen. Kein Modalverb, wird aber im Präsens ähnlich konjugiert (ich/er weiß).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich weiß es nicht.",
+      "uebersetzung": {
+        "fa": "نمی‌دانم.",
+        "en": "I don't know."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weißt du, wann der Zug abfährt, oder muss ich nachsehen?",
+      "uebersetzung": {
+        "fa": "می‌دانی قطار کی حرکت می‌کند، یا باید نگاه کنم؟",
+        "en": "Do you know when the train leaves, or do I have to check?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kennen",
+      "uebersetzung": {
+        "fa": "شناختن",
+        "en": "to know (be familiar with)"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ahnen",
+      "uebersetzung": {
+        "fa": "حدس زدن",
+        "en": "to suspect"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "von + Dat wissen",
+        "bedeutung": "über etwas informiert sein",
+        "beispiel": "Davon habe ich nichts gewusst.",
+        "uebersetzung": {
+          "fa": "من از این خبر نداشتم.",
+          "en": "I didn't know anything about that."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "wissen",
+      "praeteritum": "wusste",
+      "partizip2": "gewusst"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "weiß",
+        "du": "weißt",
+        "er_sie_es": "weiß",
+        "wir": "wissen",
+        "ihr": "wisst",
+        "sie_Sie": "wissen"
+      },
+      "praeteritum": {
+        "ich": "wusste",
+        "du": "wusstest",
+        "er_sie_es": "wusste",
+        "wir": "wussten",
+        "ihr": "wusstet",
+        "sie_Sie": "wussten"
+      },
+      "konjunktiv1": {
+        "ich": "wisse",
+        "du": "wissest",
+        "er_sie_es": "wisse",
+        "wir": "wissen",
+        "ihr": "wisset",
+        "sie_Sie": "wissen"
+      },
+      "konjunktiv2": {
+        "ich": "wüsste",
+        "du": "wüsstest",
+        "er_sie_es": "wüsste",
+        "wir": "wüssten",
+        "ihr": "wüsstet",
+        "sie_Sie": "wüssten"
+      },
+      "imperativ": {
+        "du": "Wisse!",
+        "ihr": "Wisst!",
+        "Sie": "Wissen Sie!"
+      }
+    },
+    "partizip1": "wissend",
+    "nominalisierung": "das Wissen"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "kennen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شناختن",
+          "en": "to know"
+        },
+        "id_ref": "verb_kennen"
+      },
+      {
+        "wort": "das Wissen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دانش",
+          "en": "knowledge"
+        },
+        "id_ref": "nomen_wissen"
+      },
+      {
+        "wort": "die Wissenschaft",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "علم",
+          "en": "science"
+        },
+        "id_ref": "nomen_wissenschaft"
+      },
+      {
+        "wort": "bewusst",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آگاه، آگاهانه",
+          "en": "conscious"
+        },
+        "id_ref": "adjektiv_bewusst"
+      },
+      {
+        "wort": "unwissend",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ناآگاه",
+          "en": "ignorant"
+        },
+        "id_ref": "adjektiv_unwissend"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,171 @@
+{
+  "schema": "3.0",
+  "id": "verb_wollen",
+  "wort": "wollen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خواستن",
+      "قصد داشتن"
+    ],
+    "en": [
+      "to want",
+      "to intend"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Gefühle"
+  ],
+  "ipa": "ˈvɔlən",
+  "anmerkung": "Modalverb: kein Imperativ. Mit Infinitiv Ersatzinfinitiv («Ich habe nicht kommen wollen»); ohne Infinitiv Partizip «gewollt».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich will nach Hause.",
+      "uebersetzung": {
+        "fa": "می‌خواهم به خانه بروم.",
+        "en": "I want to go home."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Sie wollte Ärztin werden, aber sie hat keinen Studienplatz bekommen.",
+      "uebersetzung": {
+        "fa": "می‌خواست پزشک شود، اما پذیرش دانشگاه نگرفت.",
+        "en": "She wanted to become a doctor, but she didn't get a university place."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "mögen (möchte)",
+      "uebersetzung": {
+        "fa": "خواستن (مؤدبانه)",
+        "en": "would like"
+      }
+    },
+    {
+      "wort": "vorhaben",
+      "uebersetzung": {
+        "fa": "قصد داشتن",
+        "en": "to intend"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": true,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "wollen",
+      "praeteritum": "wollte",
+      "partizip2": "gewollt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "will",
+        "du": "willst",
+        "er_sie_es": "will",
+        "wir": "wollen",
+        "ihr": "wollt",
+        "sie_Sie": "wollen"
+      },
+      "praeteritum": {
+        "ich": "wollte",
+        "du": "wolltest",
+        "er_sie_es": "wollte",
+        "wir": "wollten",
+        "ihr": "wolltet",
+        "sie_Sie": "wollten"
+      },
+      "konjunktiv1": {
+        "ich": "wolle",
+        "du": "wollest",
+        "er_sie_es": "wolle",
+        "wir": "wollen",
+        "ihr": "wollet",
+        "sie_Sie": "wollen"
+      },
+      "konjunktiv2": {
+        "ich": "wollte",
+        "du": "wolltest",
+        "er_sie_es": "wollte",
+        "wir": "wollten",
+        "ihr": "wolltet",
+        "sie_Sie": "wollten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "wollend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "mögen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دوست داشتن",
+          "en": "to like"
+        },
+        "id_ref": "verb_moegen"
+      },
+      {
+        "wort": "können",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "توانستن",
+          "en": "can"
+        },
+        "id_ref": "verb_koennen"
+      },
+      {
+        "wort": "der Wunsch",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آرزو، خواسته",
+          "en": "wish"
+        },
+        "id_ref": "nomen_wunsch"
+      },
+      {
+        "wort": "der Wille",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اراده",
+          "en": "will"
+        },
+        "id_ref": "nomen_wille"
+      },
+      {
+        "wort": "freiwillig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "داوطلبانه",
+          "en": "voluntary"
+        },
+        "id_ref": "adjektiv_freiwillig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

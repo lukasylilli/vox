@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_wiederbringen",
+  "wort": "wiederbringen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پس آوردن، برگرداندن"
+    ],
+    "en": [
+      "to bring back",
+      "to return"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈviːdɐˌbʁɪŋən",
+  "anmerkung": "Trennbar, gemischtes Verb (brachte wieder, wiedergebracht).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich bringe dir das Buch morgen wieder.",
+      "uebersetzung": {
+        "fa": "فردا کتاب را برایت پس می‌آورم.",
+        "en": "I'll bring the book back to you tomorrow."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bitte bring die Leiter wieder, wenn du sie nicht mehr brauchst.",
+      "uebersetzung": {
+        "fa": "لطفاً وقتی دیگر لازمش نداشتی، نردبان را برگردان.",
+        "en": "Please bring the ladder back when you no longer need it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zurückbringen",
+      "uebersetzung": {
+        "fa": "برگرداندن",
+        "en": "to bring back"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ausleihen",
+      "uebersetzung": {
+        "fa": "قرض گرفتن",
+        "en": "to borrow"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "wieder (دوباره، پس) + bringen (آوردن)",
+    "en": "wieder (back) + bringen (to bring)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "wiederbringen",
+      "praeteritum": "brachte wieder",
+      "partizip2": "wiedergebracht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bringe wieder",
+        "du": "bringst wieder",
+        "er_sie_es": "bringt wieder",
+        "wir": "bringen wieder",
+        "ihr": "bringt wieder",
+        "sie_Sie": "bringen wieder"
+      },
+      "praeteritum": {
+        "ich": "brachte wieder",
+        "du": "brachtest wieder",
+        "er_sie_es": "brachte wieder",
+        "wir": "brachten wieder",
+        "ihr": "brachtet wieder",
+        "sie_Sie": "brachten wieder"
+      },
+      "konjunktiv1": {
+        "ich": "bringe wieder",
+        "du": "bringest wieder",
+        "er_sie_es": "bringe wieder",
+        "wir": "bringen wieder",
+        "ihr": "bringet wieder",
+        "sie_Sie": "bringen wieder"
+      },
+      "konjunktiv2": {
+        "ich": "brächte wieder",
+        "du": "brächtest wieder",
+        "er_sie_es": "brächte wieder",
+        "wir": "brächten wieder",
+        "ihr": "brächtet wieder",
+        "sie_Sie": "brächten wieder"
+      },
+      "imperativ": {
+        "du": "Bring wieder!",
+        "ihr": "Bringt wieder!",
+        "Sie": "Bringen Sie wieder!"
+      }
+    },
+    "partizip1": "wiederbringend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bringen",
+    "woerter": [
+      {
+        "wort": "bringen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آوردن",
+          "en": "to bring"
+        },
+        "id_ref": "verb_bringen"
+      },
+      {
+        "wort": "zurückgeben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پس دادن",
+          "en": "to give back"
+        },
+        "id_ref": "verb_zurueckgeben"
+      },
+      {
+        "wort": "ausleihen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قرض گرفتن",
+          "en": "to borrow"
+        },
+        "id_ref": "verb_ausleihen"
+      },
+      {
+        "wort": "zurückbringen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برگرداندن",
+          "en": "to bring back"
+        },
+        "id_ref": "verb_zurueckbringen"
+      },
+      {
+        "wort": "wieder",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دوباره",
+          "en": "again"
+        },
+        "id_ref": "adverb_wieder"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
