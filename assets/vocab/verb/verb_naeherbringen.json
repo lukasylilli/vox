@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_naeherbringen",
+  "wort": "näherbringen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(کسی را با چیزی) آشنا کردن و نزدیک کردن، (چیزی را) قابل‌فهم کردن",
+      "(دو نفر را به هم) نزدیک‌تر کردن"
+    ],
+    "en": [
+      "to introduce (someone) to, to bring (something) closer",
+      "to bring (people) closer together"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Bildung",
+    "Beziehungen"
+  ],
+  "ipa": "ˈnɛːɐˌbʁɪŋən",
+  "anmerkung": "Gemischtes Verb: brachte näher, nähergebracht.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Buch bringt uns Österreich näher.",
+      "uebersetzung": {
+        "fa": "این کتاب ما را با اتریش آشناتر می‌کند.",
+        "en": "The book brings Austria closer to us."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die schwere Zeit hat die beiden Geschwister einander wieder nähergebracht.",
+      "uebersetzung": {
+        "fa": "آن دوران سخت دو خواهر و برادر را دوباره به هم نزدیک کرد.",
+        "en": "The difficult time brought the two siblings closer together again."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nahebringen",
+      "uebersetzung": {
+        "fa": "آشنا کردن",
+        "en": "to introduce to"
+      }
+    },
+    {
+      "wort": "vermitteln",
+      "uebersetzung": {
+        "fa": "منتقل کردن",
+        "en": "to convey"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "näher (نزدیک‌تر) + bringen (آوردن)",
+    "en": "näher (closer) + bringen (to bring)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem etwas näherbringen (+ Dat + Akk)",
+        "bedeutung": "jemandem etwas vertraut machen",
+        "beispiel": "Er will den Kindern die Natur näherbringen.",
+        "uebersetzung": {
+          "fa": "می‌خواهد بچه‌ها را با طبیعت آشنا کند.",
+          "en": "He wants to bring nature closer to the children."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "näherbringen",
+      "praeteritum": "brachte näher",
+      "partizip2": "nähergebracht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bringe näher",
+        "du": "bringst näher",
+        "er_sie_es": "bringt näher",
+        "wir": "bringen näher",
+        "ihr": "bringt näher",
+        "sie_Sie": "bringen näher"
+      },
+      "praeteritum": {
+        "ich": "brachte näher",
+        "du": "brachtest näher",
+        "er_sie_es": "brachte näher",
+        "wir": "brachten näher",
+        "ihr": "brachtet näher",
+        "sie_Sie": "brachten näher"
+      },
+      "konjunktiv1": {
+        "ich": "bringe näher",
+        "du": "bringest näher",
+        "er_sie_es": "bringe näher",
+        "wir": "bringen näher",
+        "ihr": "bringet näher",
+        "sie_Sie": "bringen näher"
+      },
+      "konjunktiv2": {
+        "ich": "brächte näher",
+        "du": "brächtest näher",
+        "er_sie_es": "brächte näher",
+        "wir": "brächten näher",
+        "ihr": "brächtet näher",
+        "sie_Sie": "brächten näher"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "näherbringend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bringen",
+    "woerter": [
+      {
+        "wort": "bringen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آوردن",
+          "en": "to bring"
+        },
+        "id_ref": "verb_bringen"
+      },
+      {
+        "wort": "nahebringen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آشنا کردن",
+          "en": "to introduce to"
+        },
+        "id_ref": "verb_nahebringen"
+      },
+      {
+        "wort": "näherkommen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نزدیک‌تر شدن",
+          "en": "to get closer"
+        },
+        "id_ref": "verb_naeherkommen"
+      },
+      {
+        "wort": "vertraut",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آشنا",
+          "en": "familiar"
+        },
+        "id_ref": "adjektiv_vertraut"
+      },
+      {
+        "wort": "nah",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نزدیک",
+          "en": "near"
+        },
+        "id_ref": "adjektiv_nah"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

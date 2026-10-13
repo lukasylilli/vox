@@ -1,0 +1,194 @@
+{
+  "schema": "3.0",
+  "id": "verb_nahekommen",
+  "wort": "nahekommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(به کسی یا چیزی) نزدیک شدن",
+      "(به حقیقت یا هدفی) نزدیک بودن، شبیه بودن",
+      "(با کسی) صمیمی شدن"
+    ],
+    "en": [
+      "to come close to",
+      "to come close to (truth, a goal)",
+      "to get close to (someone)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Beziehungen",
+    "Denken"
+  ],
+  "ipa": "ˈnaːəˌkɔmən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir sind dem Ziel schon nahegekommen.",
+      "uebersetzung": {
+        "fa": "دیگر به هدف نزدیک شده‌ایم.",
+        "en": "We have already come close to the goal."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Seine Vermutung kommt der Wahrheit ziemlich nahe, auch wenn sie nicht ganz stimmt.",
+      "uebersetzung": {
+        "fa": "حدسش به حقیقت خیلی نزدیک است، حتی اگر کاملاً درست نباشد.",
+        "en": "His guess comes pretty close to the truth, even if it isn't quite right."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich nähern",
+      "uebersetzung": {
+        "fa": "نزدیک شدن",
+        "en": "to approach"
+      }
+    },
+    {
+      "wort": "ähneln",
+      "uebersetzung": {
+        "fa": "شبیه بودن",
+        "en": "to resemble"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sich entfernen",
+      "uebersetzung": {
+        "fa": "دور شدن",
+        "en": "to move away"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "nahe (نزدیک) + kommen (آمدن)",
+    "en": "nahe (near) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem/etwas nahekommen (+ Dat)",
+        "bedeutung": "sich jemandem/etwas nähern; etwas ähneln",
+        "beispiel": "Die beiden sind sich im Urlaub sehr nahegekommen.",
+        "uebersetzung": {
+          "fa": "آن دو در تعطیلات خیلی با هم صمیمی شدند.",
+          "en": "The two of them became very close on holiday."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "nahekommen",
+      "praeteritum": "kam nahe",
+      "partizip2": "nahegekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme nahe",
+        "du": "kommst nahe",
+        "er_sie_es": "kommt nahe",
+        "wir": "kommen nahe",
+        "ihr": "kommt nahe",
+        "sie_Sie": "kommen nahe"
+      },
+      "praeteritum": {
+        "ich": "kam nahe",
+        "du": "kamst nahe",
+        "er_sie_es": "kam nahe",
+        "wir": "kamen nahe",
+        "ihr": "kamt nahe",
+        "sie_Sie": "kamen nahe"
+      },
+      "konjunktiv1": {
+        "ich": "komme nahe",
+        "du": "kommest nahe",
+        "er_sie_es": "komme nahe",
+        "wir": "kommen nahe",
+        "ihr": "kommet nahe",
+        "sie_Sie": "kommen nahe"
+      },
+      "konjunktiv2": {
+        "ich": "käme nahe",
+        "du": "kämest nahe",
+        "er_sie_es": "käme nahe",
+        "wir": "kämen nahe",
+        "ihr": "kämet nahe",
+        "sie_Sie": "kämen nahe"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "nahekommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "sich nähern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نزدیک شدن",
+          "en": "to approach"
+        },
+        "id_ref": "verb_sich_naehern"
+      },
+      {
+        "wort": "näherkommen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نزدیک‌تر شدن",
+          "en": "to get closer"
+        },
+        "id_ref": "verb_naeherkommen"
+      },
+      {
+        "wort": "die Wahrheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حقیقت",
+          "en": "truth"
+        },
+        "id_ref": "nomen_wahrheit"
+      },
+      {
+        "wort": "nah",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نزدیک",
+          "en": "near"
+        },
+        "id_ref": "adjektiv_nah"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

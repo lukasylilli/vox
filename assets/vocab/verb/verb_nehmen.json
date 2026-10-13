@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_nehmen",
+  "wort": "nehmen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گرفتن، برداشتن",
+      "(وسیله‌ی نقلیه، دارو یا غذایی را) انتخاب کردن، مصرف کردن",
+      "(از کسی چیزی را) گرفتن، سلب کردن"
+    ],
+    "en": [
+      "to take",
+      "to take (transport, medicine), to have (food)",
+      "to take away"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Gesundheit",
+    "Verkehr"
+  ],
+  "ipa": "ˈneːmən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich nehme den Bus.",
+      "uebersetzung": {
+        "fa": "با اتوبوس می‌روم.",
+        "en": "I take the bus."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Sie müssen die Tabletten dreimal täglich nach dem Essen nehmen.",
+      "uebersetzung": {
+        "fa": "باید قرص‌ها را روزی سه بار بعد از غذا مصرف کنید.",
+        "en": "You must take the tablets three times a day after meals."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "greifen",
+      "uebersetzung": {
+        "fa": "گرفتن",
+        "en": "to grab"
+      }
+    },
+    {
+      "wort": "einnehmen",
+      "uebersetzung": {
+        "fa": "مصرف کردن (دارو)",
+        "en": "to take"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "geben",
+      "uebersetzung": {
+        "fa": "دادن",
+        "en": "to give"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem etwas nehmen (+ Dat + Akk)",
+        "bedeutung": "jemandem etwas wegnehmen",
+        "beispiel": "Die Krankheit hat ihm alle Kraft genommen.",
+        "uebersetzung": {
+          "fa": "بیماری همه‌ی توانش را گرفت.",
+          "en": "The illness took all his strength."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "nehmen",
+      "praeteritum": "nahm",
+      "partizip2": "genommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "nehme",
+        "du": "nimmst",
+        "er_sie_es": "nimmt",
+        "wir": "nehmen",
+        "ihr": "nehmt",
+        "sie_Sie": "nehmen"
+      },
+      "praeteritum": {
+        "ich": "nahm",
+        "du": "nahmst",
+        "er_sie_es": "nahm",
+        "wir": "nahmen",
+        "ihr": "nahmt",
+        "sie_Sie": "nahmen"
+      },
+      "konjunktiv1": {
+        "ich": "nehme",
+        "du": "nehmest",
+        "er_sie_es": "nehme",
+        "wir": "nehmen",
+        "ihr": "nehmet",
+        "sie_Sie": "nehmen"
+      },
+      "konjunktiv2": {
+        "ich": "nähme",
+        "du": "nähmest",
+        "er_sie_es": "nähme",
+        "wir": "nähmen",
+        "ihr": "nähmet",
+        "sie_Sie": "nähmen"
+      },
+      "imperativ": {
+        "du": "Nimm!",
+        "ihr": "Nehmt!",
+        "Sie": "Nehmen Sie!"
+      }
+    },
+    "partizip1": "nehmend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "mitnehmen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "با خود بردن",
+          "en": "to take along"
+        },
+        "id_ref": "verb_mitnehmen"
+      },
+      {
+        "wort": "abnehmen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "لاغر شدن؛ برداشتن",
+          "en": "to lose weight; to take off"
+        },
+        "id_ref": "verb_abnehmen"
+      },
+      {
+        "wort": "annehmen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پذیرفتن",
+          "en": "to accept"
+        },
+        "id_ref": "verb_annehmen"
+      },
+      {
+        "wort": "einnehmen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مصرف کردن (دارو)",
+          "en": "to take (medicine)"
+        },
+        "id_ref": "verb_einnehmen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

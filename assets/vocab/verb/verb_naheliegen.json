@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_naheliegen",
+  "wort": "naheliegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(فکر یا نتیجه‌ای) بدیهی بودن، به ذهن رسیدن"
+    ],
+    "en": [
+      "to be obvious, to suggest itself"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Denken"
+  ],
+  "ipa": "ˈnaːəˌliːɡn̩",
+  "anmerkung": "Oft als Partizip: «naheliegend» (= offensichtlich). In Süddeutschland und Österreich auch mit «sein».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Lösung liegt nahe.",
+      "uebersetzung": {
+        "fa": "راه‌حل بدیهی است.",
+        "en": "The solution is obvious."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Es liegt nahe, dass die Kopfschmerzen vom Schlafmangel kommen, aber wir sollten trotzdem untersuchen.",
+      "uebersetzung": {
+        "fa": "بدیهی به نظر می‌رسد که سردرد از کم‌خوابی باشد، اما با این حال باید معاینه کنیم.",
+        "en": "It seems obvious that the headaches come from lack of sleep, but we should still examine you."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "offensichtlich sein",
+      "uebersetzung": {
+        "fa": "آشکار بودن",
+        "en": "to be obvious"
+      }
+    },
+    {
+      "wort": "sich anbieten",
+      "uebersetzung": {
+        "fa": "به ذهن رسیدن",
+        "en": "to suggest itself"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "fernliegen",
+      "uebersetzung": {
+        "fa": "دور از ذهن بودن",
+        "en": "to be far-fetched"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "nahe (نزدیک) + liegen (قرار داشتن)",
+    "en": "nahe (near) + liegen (to lie)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "naheliegen",
+      "praeteritum": "lag nahe",
+      "partizip2": "nahegelegen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "liege nahe",
+        "du": "liegst nahe",
+        "er_sie_es": "liegt nahe",
+        "wir": "liegen nahe",
+        "ihr": "liegt nahe",
+        "sie_Sie": "liegen nahe"
+      },
+      "praeteritum": {
+        "ich": "lag nahe",
+        "du": "lagst nahe",
+        "er_sie_es": "lag nahe",
+        "wir": "lagen nahe",
+        "ihr": "lagt nahe",
+        "sie_Sie": "lagen nahe"
+      },
+      "konjunktiv1": {
+        "ich": "liege nahe",
+        "du": "liegest nahe",
+        "er_sie_es": "liege nahe",
+        "wir": "liegen nahe",
+        "ihr": "lieget nahe",
+        "sie_Sie": "liegen nahe"
+      },
+      "konjunktiv2": {
+        "ich": "läge nahe",
+        "du": "lägest nahe",
+        "er_sie_es": "läge nahe",
+        "wir": "lägen nahe",
+        "ihr": "läget nahe",
+        "sie_Sie": "lägen nahe"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "naheliegend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "liegen",
+    "woerter": [
+      {
+        "wort": "liegen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قرار داشتن",
+          "en": "to lie"
+        },
+        "id_ref": "verb_liegen"
+      },
+      {
+        "wort": "naheliegend",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بدیهی",
+          "en": "obvious"
+        },
+        "id_ref": "adjektiv_naheliegend"
+      },
+      {
+        "wort": "offensichtlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آشکار",
+          "en": "obvious"
+        },
+        "id_ref": "adjektiv_offensichtlich"
+      },
+      {
+        "wort": "fernliegen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دور از ذهن بودن",
+          "en": "to be far from"
+        },
+        "id_ref": "verb_fernliegen"
+      },
+      {
+        "wort": "nah",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نزدیک",
+          "en": "near"
+        },
+        "id_ref": "adjektiv_nah"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

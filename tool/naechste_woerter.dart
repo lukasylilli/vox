@@ -1226,6 +1226,14 @@ const zurueckgestellt = <String>{
   'nachhalten', // zurückgestellt (Regel 14/16): als Verb selten (üblich: Adjektiv «nachhaltig») 2026-10-11
   'nachkönnen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
   'nachmüssen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'näherliegen', // zurückgestellt (Regel 14/16): amtliche Schreibung getrennt bzw. schwankend 2026-10-11
+  'nebeneinanderhalten', // zurückgestellt (Regel 14/16): amtliche Schreibung getrennt bzw. schwankend 2026-10-11
+  'nebeneinanderliegen', // zurückgestellt (Regel 14/16): amtliche Schreibung getrennt bzw. schwankend 2026-10-11
+  'niederbrechen', // zurückgestellt (Regel 14/16): transitiv mit haben, intransitiv mit sein — Hilfsverb nicht eindeutig 2026-10-11
+  'niederbrennen', // zurückgestellt (Regel 14/16): transitiv mit haben, intransitiv mit sein — Hilfsverb nicht eindeutig 2026-10-11
+  'niederbringen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'niederdreschen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-11
+  'niederfahren', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
