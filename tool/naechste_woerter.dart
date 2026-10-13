@@ -1389,6 +1389,9 @@ const zurueckgestellt = <String>{
   'vollgießen', // zurückgestellt (Regel 14/16): Schreibung schwankt (voll gießen / vollgießen) 2026-10-13
   'vollladen', // zurückgestellt (Regel 14/16): Schreibung schwankt (voll laden / vollladen) 2026-10-13
   'volllaufen', // zurückgestellt (Regel 14/16): Schreibung schwankt (voll laufen / volllaufen) 2026-10-13
+  'voraufgehen', // zurückgestellt (Regel 14/16): veraltet/gehoben (= vorangehen) 2026-10-13
+  'vorausfliegen', // zurückgestellt (Regel 14/16): selten (wie herüberfliegen, hineinfliegen) 2026-10-13
+  'vorbeidürfen', // zurückgestellt (Regel 14/16): Modalverb-Verbindung (wie hindurchdürfen) 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

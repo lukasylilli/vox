@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_vorbehalten",
+  "wort": "vorbehalten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(حقی را) برای خود محفوظ نگه داشتن",
+      "مختص (کسی) بودن"
+    ],
+    "en": [
+      "to reserve (a right)",
+      "to be reserved for"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Arbeit"
+  ],
+  "ipa": "ˈfoːɐ̯bəˌhaltn̩",
+  "anmerkung": "Trennbar (behielt vor, vorbehalten) — Partizip II ohne ge-. Meist «sich (Dat) etwas vorbehalten» oder «jemandem vorbehalten sein». Kein üblicher Imperativ. Nomen: der Vorbehalt.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Änderungen sind vorbehalten.",
+      "uebersetzung": {
+        "fa": "حق تغییر محفوظ است.",
+        "en": "Subject to change."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Firma behält sich vor, den Vertrag zu kündigen, wenn die Miete nicht bezahlt wird.",
+      "uebersetzung": {
+        "fa": "شرکت این حق را برای خود محفوظ می‌دارد که اگر اجاره پرداخت نشود، قرارداد را فسخ کند.",
+        "en": "The company reserves the right to terminate the contract if the rent is not paid."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "reservieren",
+      "uebersetzung": {
+        "fa": "رزرو کردن، کنار گذاشتن",
+        "en": "to reserve"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "vor- (پیش) + behalten (نگه داشتن)",
+    "en": "vor- (in advance) + behalten (to keep)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich (Dat) etwas vorbehalten",
+        "bedeutung": "sich ein Recht ausdrücklich sichern",
+        "beispiel": "Ich behalte mir die endgültige Entscheidung vor.",
+        "uebersetzung": {
+          "fa": "تصمیم نهایی را برای خودم محفوظ نگه می‌دارم.",
+          "en": "I reserve the final decision for myself."
+        }
+      },
+      {
+        "muster": "jemandem (Dat) vorbehalten sein",
+        "bedeutung": "nur für jemanden bestimmt sein",
+        "beispiel": "Dieser Bereich ist den Mitarbeitern vorbehalten.",
+        "uebersetzung": {
+          "fa": "این بخش فقط مخصوص کارکنان است.",
+          "en": "This area is reserved for staff."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vorbehalten",
+      "praeteritum": "behielt vor",
+      "partizip2": "vorbehalten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "behalte vor",
+        "du": "behältst vor",
+        "er_sie_es": "behält vor",
+        "wir": "behalten vor",
+        "ihr": "behaltet vor",
+        "sie_Sie": "behalten vor"
+      },
+      "praeteritum": {
+        "ich": "behielt vor",
+        "du": "behieltest vor",
+        "er_sie_es": "behielt vor",
+        "wir": "behielten vor",
+        "ihr": "behieltet vor",
+        "sie_Sie": "behielten vor"
+      },
+      "konjunktiv1": {
+        "ich": "behalte vor",
+        "du": "behaltest vor",
+        "er_sie_es": "behalte vor",
+        "wir": "behalten vor",
+        "ihr": "behaltet vor",
+        "sie_Sie": "behalten vor"
+      },
+      "konjunktiv2": {
+        "ich": "behielte vor",
+        "du": "behieltest vor",
+        "er_sie_es": "behielte vor",
+        "wir": "behielten vor",
+        "ihr": "behieltet vor",
+        "sie_Sie": "behielten vor"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "vorbehaltend",
+    "nominalisierung": "der Vorbehalt"
+  },
+  "wortnetz": {
+    "grundwort": "behalten",
+    "woerter": [
+      {
+        "wort": "behalten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to keep"
+        },
+        "id_ref": "verb_behalten"
+      },
+      {
+        "wort": "reservieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رزرو کردن",
+          "en": "to reserve"
+        },
+        "id_ref": "verb_reservieren"
+      },
+      {
+        "wort": "der Vorbehalt",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "قید، شرط؛ تردید",
+          "en": "reservation"
+        },
+        "id_ref": "nomen_vorbehalt"
+      },
+      {
+        "wort": "vorbehaltlos",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بی‌قید و شرط",
+          "en": "unreserved"
+        },
+        "id_ref": "adjektiv_vorbehaltlos"
+      },
+      {
+        "wort": "vorbehaltlich",
+        "wortart": "praeposition",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "به شرطِ",
+          "en": "subject to"
+        },
+        "id_ref": "praeposition_vorbehaltlich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

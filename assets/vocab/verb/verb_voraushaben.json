@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_voraushaben",
+  "wort": "voraushaben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(در چیزی) از کسی جلوتر بودن، برتری داشتن"
+    ],
+    "en": [
+      "to have an advantage over",
+      "to be ahead of"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Beziehungen"
+  ],
+  "ipa": "foˈʁaʊ̯sˌhaːbn̩",
+  "anmerkung": "Trennbar (hatte voraus, vorausgehabt). Fast immer: «jemandem etwas voraushaben». Kein üblicher Imperativ.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er hat mir viel voraus.",
+      "uebersetzung": {
+        "fa": "او خیلی از من جلوتر است.",
+        "en": "He is far ahead of me."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie hat den anderen Bewerbern voraus, dass sie schon im Ausland gearbeitet hat.",
+      "uebersetzung": {
+        "fa": "برتری او بر متقاضیان دیگر این است که قبلاً در خارج کار کرده است.",
+        "en": "Her advantage over the other applicants is that she has already worked abroad."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "übertreffen",
+      "uebersetzung": {
+        "fa": "پیشی گرفتن",
+        "en": "to surpass"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "voraus (جلوتر) + haben (داشتن)",
+    "en": "voraus (ahead) + haben (to have)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem (Dat) etwas (Akk) voraushaben",
+        "bedeutung": "in etwas besser sein als jemand",
+        "beispiel": "Erfahrene Kollegen haben uns einiges voraus.",
+        "uebersetzung": {
+          "fa": "همکاران باتجربه از چند جهت از ما جلوترند.",
+          "en": "Experienced colleagues have quite an edge on us."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "voraushaben",
+      "praeteritum": "hatte voraus",
+      "partizip2": "vorausgehabt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "habe voraus",
+        "du": "hast voraus",
+        "er_sie_es": "hat voraus",
+        "wir": "haben voraus",
+        "ihr": "habt voraus",
+        "sie_Sie": "haben voraus"
+      },
+      "praeteritum": {
+        "ich": "hatte voraus",
+        "du": "hattest voraus",
+        "er_sie_es": "hatte voraus",
+        "wir": "hatten voraus",
+        "ihr": "hattet voraus",
+        "sie_Sie": "hatten voraus"
+      },
+      "konjunktiv1": {
+        "ich": "habe voraus",
+        "du": "habest voraus",
+        "er_sie_es": "habe voraus",
+        "wir": "haben voraus",
+        "ihr": "habet voraus",
+        "sie_Sie": "haben voraus"
+      },
+      "konjunktiv2": {
+        "ich": "hätte voraus",
+        "du": "hättest voraus",
+        "er_sie_es": "hätte voraus",
+        "wir": "hätten voraus",
+        "ihr": "hättet voraus",
+        "sie_Sie": "hätten voraus"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "voraushabend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "haben",
+    "woerter": [
+      {
+        "wort": "haben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "داشتن",
+          "en": "to have"
+        },
+        "id_ref": "verb_haben"
+      },
+      {
+        "wort": "der Vorteil",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مزیت",
+          "en": "advantage"
+        },
+        "id_ref": "nomen_vorteil"
+      },
+      {
+        "wort": "der Vorsprung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فاصله‌ی جلوتر، برتری",
+          "en": "lead"
+        },
+        "id_ref": "nomen_vorsprung"
+      },
+      {
+        "wort": "übertreffen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پیشی گرفتن",
+          "en": "to surpass"
+        },
+        "id_ref": "verb_uebertreffen"
+      },
+      {
+        "wort": "voraus",
+        "wortart": "adverb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جلوتر",
+          "en": "ahead"
+        },
+        "id_ref": "adverb_voraus"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

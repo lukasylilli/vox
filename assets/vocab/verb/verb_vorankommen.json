@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_vorankommen",
+  "wort": "vorankommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پیشرفت کردن",
+      "جلو رفتن (در راه)"
+    ],
+    "en": [
+      "to make progress",
+      "to get ahead"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Verkehr"
+  ],
+  "ipa": "foˈʁanˌkɔmən",
+  "anmerkung": "Trennbar (kam voran, vorangekommen). Kein sinnvoller Imperativ.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir kommen nur langsam voran.",
+      "uebersetzung": {
+        "fa": "فقط آهسته جلو می‌رویم.",
+        "en": "We are only making slow progress."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn wir so weitermachen, kommen wir mit dem Projekt nicht voran.",
+      "uebersetzung": {
+        "fa": "اگر همین‌طور ادامه بدهیم، پروژه پیش نمی‌رود.",
+        "en": "If we carry on like this, we won't make any progress with the project."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "weiterkommen",
+      "uebersetzung": {
+        "fa": "پیشرفت کردن",
+        "en": "to get on"
+      }
+    },
+    {
+      "wort": "vorwärtskommen",
+      "uebersetzung": {
+        "fa": "جلو رفتن",
+        "en": "to get ahead"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "feststecken",
+      "uebersetzung": {
+        "fa": "گیر افتادن",
+        "en": "to be stuck"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "voran (به جلو) + kommen (آمدن)",
+    "en": "voran (forward) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit + Dat vorankommen",
+        "bedeutung": "bei einer Sache Fortschritte machen",
+        "beispiel": "Mit meiner Arbeit komme ich gut voran.",
+        "uebersetzung": {
+          "fa": "کارم خوب پیش می‌رود.",
+          "en": "I am making good progress with my work."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vorankommen",
+      "praeteritum": "kam voran",
+      "partizip2": "vorangekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme voran",
+        "du": "kommst voran",
+        "er_sie_es": "kommt voran",
+        "wir": "kommen voran",
+        "ihr": "kommt voran",
+        "sie_Sie": "kommen voran"
+      },
+      "praeteritum": {
+        "ich": "kam voran",
+        "du": "kamst voran",
+        "er_sie_es": "kam voran",
+        "wir": "kamen voran",
+        "ihr": "kamt voran",
+        "sie_Sie": "kamen voran"
+      },
+      "konjunktiv1": {
+        "ich": "komme voran",
+        "du": "kommest voran",
+        "er_sie_es": "komme voran",
+        "wir": "kommen voran",
+        "ihr": "kommet voran",
+        "sie_Sie": "kommen voran"
+      },
+      "konjunktiv2": {
+        "ich": "käme voran",
+        "du": "kämest voran",
+        "er_sie_es": "käme voran",
+        "wir": "kämen voran",
+        "ihr": "kämet voran",
+        "sie_Sie": "kämen voran"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "vorankommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "weiterkommen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیشرفت کردن",
+          "en": "to get on"
+        },
+        "id_ref": "verb_weiterkommen"
+      },
+      {
+        "wort": "der Fortschritt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیشرفت",
+          "en": "progress"
+        },
+        "id_ref": "nomen_fortschritt"
+      },
+      {
+        "wort": "voranbringen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پیش بردن",
+          "en": "to advance"
+        },
+        "id_ref": "verb_voranbringen"
+      },
+      {
+        "wort": "vorangehen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پیش رفتن",
+          "en": "to progress"
+        },
+        "id_ref": "verb_vorangehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
