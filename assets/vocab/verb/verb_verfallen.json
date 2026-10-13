@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_verfallen",
+  "wort": "verfallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(بلیت/مهلت) باطل شدن، منقضی شدن",
+      "(ساختمان) فرسوده شدن، ویران شدن",
+      "(به چیزی) دچار شدن، معتاد شدن"
+    ],
+    "en": [
+      "to expire",
+      "to decay, to fall into ruin",
+      "to become addicted (to)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Verwaltung"
+  ],
+  "ipa": "fɛɐ̯ˈfalən",
+  "anmerkung": "Untrennbar (verfiel, verfallen).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Gutschein ist verfallen.",
+      "uebersetzung": {
+        "fa": "کارت هدیه باطل شده است.",
+        "en": "The voucher has expired."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil sich niemand um das Haus kümmerte, verfiel es mit den Jahren immer mehr.",
+      "uebersetzung": {
+        "fa": "چون کسی به خانه رسیدگی نمی‌کرد، با گذشت سال‌ها روزبه‌روز بیشتر ویران شد.",
+        "en": "Because nobody looked after the house, it fell more and more into ruin over the years."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ablaufen",
+      "uebersetzung": {
+        "fa": "منقضی شدن",
+        "en": "to expire"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (از بین رفتن) + fallen (افتادن)",
+    "en": "ver- (away) + fallen (to fall)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "verfallen in + Akk",
+        "bedeutung": "in einen Zustand geraten",
+        "beispiel": "Nach der Nachricht verfiel sie in tiefe Trauer.",
+        "uebersetzung": {
+          "fa": "پس از آن خبر، در اندوهی عمیق فرو رفت.",
+          "en": "After the news she sank into deep grief."
+        }
+      },
+      {
+        "muster": "jemandem/etwas (Dat) verfallen",
+        "bedeutung": "von etwas abhängig werden",
+        "beispiel": "Er ist dem Alkohol verfallen.",
+        "uebersetzung": {
+          "fa": "او به الکل معتاد شده است.",
+          "en": "He has become addicted to alcohol."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verfallen",
+      "praeteritum": "verfiel",
+      "partizip2": "verfallen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verfalle",
+        "du": "verfällst",
+        "er_sie_es": "verfällt",
+        "wir": "verfallen",
+        "ihr": "verfallt",
+        "sie_Sie": "verfallen"
+      },
+      "praeteritum": {
+        "ich": "verfiel",
+        "du": "verfielst",
+        "er_sie_es": "verfiel",
+        "wir": "verfielen",
+        "ihr": "verfielt",
+        "sie_Sie": "verfielen"
+      },
+      "konjunktiv1": {
+        "ich": "verfalle",
+        "du": "verfallest",
+        "er_sie_es": "verfalle",
+        "wir": "verfallen",
+        "ihr": "verfallet",
+        "sie_Sie": "verfallen"
+      },
+      "konjunktiv2": {
+        "ich": "verfiele",
+        "du": "verfielest",
+        "er_sie_es": "verfiele",
+        "wir": "verfielen",
+        "ihr": "verfielet",
+        "sie_Sie": "verfielen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "verfallend",
+    "nominalisierung": "der Verfall"
+  },
+  "wortnetz": {
+    "grundwort": "fallen",
+    "woerter": [
+      {
+        "wort": "fallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "افتادن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_fallen"
+      },
+      {
+        "wort": "ablaufen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "منقضی شدن",
+          "en": "to expire"
+        },
+        "id_ref": "verb_ablaufen"
+      },
+      {
+        "wort": "der Verfall",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "زوال، انقضا",
+          "en": "decay, expiry"
+        },
+        "id_ref": "nomen_verfall"
+      },
+      {
+        "wort": "das Verfallsdatum",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تاریخ انقضا",
+          "en": "expiry date"
+        },
+        "id_ref": "nomen_verfallsdatum"
+      },
+      {
+        "wort": "gültig",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "معتبر",
+          "en": "valid"
+        },
+        "id_ref": "adjektiv_gueltig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

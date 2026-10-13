@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_vergehen",
+  "wort": "vergehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(زمان) گذشتن",
+      "(درد/احساس) از بین رفتن"
+    ],
+    "en": [
+      "to pass (time)",
+      "to fade, to wear off"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Zeit",
+    "Gefühle"
+  ],
+  "ipa": "fɛɐ̯ˈɡeːən",
+  "anmerkung": "Untrennbar (verging, vergangen). Mit «sein»; «sich an jemandem/etwas vergehen» (= sich vergreifen, Gesetz verletzen) mit «haben».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Zeit vergeht schnell.",
+      "uebersetzung": {
+        "fa": "زمان زود می‌گذرد.",
+        "en": "Time passes quickly."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem ich die Tablette genommen hatte, verging der Kopfschmerz langsam.",
+      "uebersetzung": {
+        "fa": "بعد از این که قرص را خوردم، سردرد کم‌کم از بین رفت.",
+        "en": "After I had taken the tablet, the headache slowly wore off."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verstreichen",
+      "uebersetzung": {
+        "fa": "سپری شدن",
+        "en": "to elapse"
+      }
+    },
+    {
+      "wort": "aufhören",
+      "uebersetzung": {
+        "fa": "تمام شدن",
+        "en": "to stop"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "bleiben",
+      "uebersetzung": {
+        "fa": "ماندن",
+        "en": "to stay"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (گذر، از بین رفتن) + gehen (رفتن)",
+    "en": "ver- (away) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "vergehen vor + Dat",
+        "bedeutung": "ein Gefühl sehr stark empfinden",
+        "beispiel": "Ich vergehe vor Angst.",
+        "uebersetzung": {
+          "fa": "از ترس دارم می‌میرم.",
+          "en": "I'm dying of fear."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vergehen",
+      "praeteritum": "verging",
+      "partizip2": "vergangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "vergehe",
+        "du": "vergehst",
+        "er_sie_es": "vergeht",
+        "wir": "vergehen",
+        "ihr": "vergeht",
+        "sie_Sie": "vergehen"
+      },
+      "praeteritum": {
+        "ich": "verging",
+        "du": "vergingst",
+        "er_sie_es": "verging",
+        "wir": "vergingen",
+        "ihr": "vergingt",
+        "sie_Sie": "vergingen"
+      },
+      "konjunktiv1": {
+        "ich": "vergehe",
+        "du": "vergehest",
+        "er_sie_es": "vergehe",
+        "wir": "vergehen",
+        "ihr": "vergehet",
+        "sie_Sie": "vergehen"
+      },
+      "konjunktiv2": {
+        "ich": "verginge",
+        "du": "vergingest",
+        "er_sie_es": "verginge",
+        "wir": "vergingen",
+        "ihr": "verginget",
+        "sie_Sie": "vergingen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "vergehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "vergangen",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گذشته",
+          "en": "past"
+        },
+        "id_ref": "adjektiv_vergangen"
+      },
+      {
+        "wort": "die Vergangenheit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گذشته",
+          "en": "the past"
+        },
+        "id_ref": "nomen_vergangenheit"
+      },
+      {
+        "wort": "die Zeit",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زمان",
+          "en": "time"
+        },
+        "id_ref": "nomen_zeit"
+      },
+      {
+        "wort": "verfliegen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "از بین رفتن، به‌سرعت گذشتن",
+          "en": "to fade, to fly by"
+        },
+        "id_ref": "verb_verfliegen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

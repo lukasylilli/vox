@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_verfechten",
+  "wort": "verfechten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(از عقیده‌ای) با جدیت دفاع کردن، طرفداری کردن"
+    ],
+    "en": [
+      "to advocate",
+      "to champion (a view)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Politik",
+    "Gesellschaft"
+  ],
+  "ipa": "fɛɐ̯ˈfɛçtn̩",
+  "anmerkung": "Untrennbar (verfocht, verfochten). Gehoben; meist mit Meinung, These, Idee.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie verficht ihre Meinung.",
+      "uebersetzung": {
+        "fa": "او از نظرش با جدیت دفاع می‌کند.",
+        "en": "She champions her opinion."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Er hat jahrelang die Idee verfochten, dass alle Kinder kostenlos Musik lernen sollten.",
+      "uebersetzung": {
+        "fa": "او سال‌ها از این ایده دفاع کرد که همه‌ی بچه‌ها باید رایگان موسیقی یاد بگیرند.",
+        "en": "For years he advocated the idea that all children should learn music for free."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vertreten",
+      "uebersetzung": {
+        "fa": "نمایندگی کردن، دفاع کردن",
+        "en": "to represent, to hold"
+      }
+    },
+    {
+      "wort": "verteidigen",
+      "uebersetzung": {
+        "fa": "دفاع کردن",
+        "en": "to defend"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (پیشوند) + fechten (شمشیر زدن، جنگیدن)",
+    "en": "ver- (prefix) + fechten (to fence, to fight)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "verfechten",
+      "praeteritum": "verfocht",
+      "partizip2": "verfochten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verfechte",
+        "du": "verfichtst",
+        "er_sie_es": "verficht",
+        "wir": "verfechten",
+        "ihr": "verfechtet",
+        "sie_Sie": "verfechten"
+      },
+      "praeteritum": {
+        "ich": "verfocht",
+        "du": "verfochtest",
+        "er_sie_es": "verfocht",
+        "wir": "verfochten",
+        "ihr": "verfochtet",
+        "sie_Sie": "verfochten"
+      },
+      "konjunktiv1": {
+        "ich": "verfechte",
+        "du": "verfechtest",
+        "er_sie_es": "verfechte",
+        "wir": "verfechten",
+        "ihr": "verfechtet",
+        "sie_Sie": "verfechten"
+      },
+      "konjunktiv2": {
+        "ich": "verföchte",
+        "du": "verföchtest",
+        "er_sie_es": "verföchte",
+        "wir": "verföchten",
+        "ihr": "verföchtet",
+        "sie_Sie": "verföchten"
+      },
+      "imperativ": {
+        "du": "Verficht!",
+        "ihr": "Verfechtet!",
+        "Sie": "Verfechten Sie!"
+      }
+    },
+    "partizip1": "verfechtend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fechten",
+    "woerter": [
+      {
+        "wort": "verteidigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دفاع کردن",
+          "en": "to defend"
+        },
+        "id_ref": "verb_verteidigen"
+      },
+      {
+        "wort": "vertreten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دفاع کردن، نمایندگی کردن",
+          "en": "to represent"
+        },
+        "id_ref": "verb_vertreten"
+      },
+      {
+        "wort": "die Meinung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نظر",
+          "en": "opinion"
+        },
+        "id_ref": "nomen_meinung"
+      },
+      {
+        "wort": "der Verfechter",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "طرفدار، مدافع",
+          "en": "advocate"
+        },
+        "id_ref": "nomen_verfechter"
+      },
+      {
+        "wort": "fechten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شمشیربازی کردن",
+          "en": "to fence"
+        },
+        "id_ref": "verb_fechten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

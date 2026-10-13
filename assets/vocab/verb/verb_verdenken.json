@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_verdenken",
+  "wort": "verdenken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(فقط منفی) (کسی را به‌خاطر کاری) سرزنش نکردن، به (کسی) حق دادن"
+    ],
+    "en": [
+      "(only negated) not to blame (sb. for sth.)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation",
+    "Gefühle"
+  ],
+  "ipa": "fɛɐ̯ˈdɛŋkn̩",
+  "anmerkung": "Gemischtes Verb (verdachte, verdacht). Fast nur: «jemandem etwas nicht verdenken (können)».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich kann es ihr nicht verdenken.",
+      "uebersetzung": {
+        "fa": "نمی‌توانم او را سرزنش کنم.",
+        "en": "I can't blame her."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Niemand kann ihm verdenken, dass er nach so vielen Überstunden gekündigt hat.",
+      "uebersetzung": {
+        "fa": "هیچ‌کس نمی‌تواند او را سرزنش کند که بعد از این همه اضافه‌کاری استعفا داده است.",
+        "en": "Nobody can blame him for quitting after so much overtime."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "übel nehmen",
+      "uebersetzung": {
+        "fa": "به دل گرفتن",
+        "en": "to hold against"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (پیشوند) + denken (فکر کردن)",
+    "en": "ver- (prefix) + denken (to think)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem etwas nicht verdenken (können)",
+        "bedeutung": "jemandem etwas nicht übel nehmen",
+        "beispiel": "Das kann man dir wirklich nicht verdenken.",
+        "uebersetzung": {
+          "fa": "واقعاً نمی‌شود در این مورد سرزنشت کرد.",
+          "en": "You really can't be blamed for that."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verdenken",
+      "praeteritum": "verdachte",
+      "partizip2": "verdacht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verdenke",
+        "du": "verdenkst",
+        "er_sie_es": "verdenkt",
+        "wir": "verdenken",
+        "ihr": "verdenkt",
+        "sie_Sie": "verdenken"
+      },
+      "praeteritum": {
+        "ich": "verdachte",
+        "du": "verdachtest",
+        "er_sie_es": "verdachte",
+        "wir": "verdachten",
+        "ihr": "verdachtet",
+        "sie_Sie": "verdachten"
+      },
+      "konjunktiv1": {
+        "ich": "verdenke",
+        "du": "verdenkest",
+        "er_sie_es": "verdenke",
+        "wir": "verdenken",
+        "ihr": "verdenket",
+        "sie_Sie": "verdenken"
+      },
+      "konjunktiv2": {
+        "ich": "verdächte",
+        "du": "verdächtest",
+        "er_sie_es": "verdächte",
+        "wir": "verdächten",
+        "ihr": "verdächtet",
+        "sie_Sie": "verdächten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "verdenkend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "denken",
+    "woerter": [
+      {
+        "wort": "denken",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فکر کردن",
+          "en": "to think"
+        },
+        "id_ref": "verb_denken"
+      },
+      {
+        "wort": "verstehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فهمیدن",
+          "en": "to understand"
+        },
+        "id_ref": "verb_verstehen"
+      },
+      {
+        "wort": "vorwerfen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سرزنش کردن",
+          "en": "to reproach"
+        },
+        "id_ref": "verb_vorwerfen"
+      },
+      {
+        "wort": "übel nehmen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "به دل گرفتن",
+          "en": "to hold against"
+        },
+        "id_ref": "verb_uebel_nehmen"
+      },
+      {
+        "wort": "der Vorwurf",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سرزنش",
+          "en": "reproach"
+        },
+        "id_ref": "nomen_vorwurf"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

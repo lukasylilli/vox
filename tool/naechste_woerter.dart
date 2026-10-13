@@ -1370,6 +1370,10 @@ const zurueckgestellt = <String>{
   'verbacken', // zurückgestellt (Regel 14/16): Formen schwanken (verbäckt/verbackt, verbackte/verbuk) 2026-10-13
   'verblasen', // zurückgestellt (Regel 14/16): selten 2026-10-13
   'verbleichen', // zurückgestellt (Regel 14/16): Präteritum schwankt (verblich/verbleichte) 2026-10-13
+  'verdingen', // zurückgestellt (Regel 14/16): veraltet; Formen schwanken (verdingte/verdang, verdungen/verdingt) 2026-10-13
+  'verdreschen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten (dreschen-Komposita) 2026-10-13
+  'verdrießen', // zurückgestellt (Regel 14/16): gehoben, selten; fast nur unpersönlich 2026-10-13
+  'vergären', // zurückgestellt (Regel 14/16): Formen schwanken (vergor/vergärte) 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

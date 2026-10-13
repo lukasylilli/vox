@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_verfahren",
+  "wort": "verfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با ماشین) راه را گم کردن",
+      "(با کسی یا چیزی) رفتار کردن، عمل کردن"
+    ],
+    "en": [
+      "(sich) to get lost (driving)",
+      "to proceed, to deal (with)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr",
+    "Verwaltung"
+  ],
+  "ipa": "fɛɐ̯ˈfaːʁən",
+  "anmerkung": "Untrennbar (verfuhr, verfahren). «sich verfahren» = beim Fahren den Weg verlieren. Partizip «verfahren» auch Adjektiv: «eine verfahrene Situation».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir haben uns verfahren.",
+      "uebersetzung": {
+        "fa": "راه را گم کرده‌ایم.",
+        "en": "We have got lost."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wie wir mit den alten Akten verfahren sollen, entscheidet die Chefin.",
+      "uebersetzung": {
+        "fa": "این که با پرونده‌های قدیمی چه کنیم، رئیس تصمیم می‌گیرد.",
+        "en": "The boss decides how we should deal with the old files."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich verirren",
+      "uebersetzung": {
+        "fa": "گم شدن",
+        "en": "to get lost"
+      }
+    },
+    {
+      "wort": "vorgehen",
+      "uebersetzung": {
+        "fa": "اقدام کردن",
+        "en": "to proceed"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (نادرست) + fahren (رانندگی کردن)",
+    "en": "ver- (wrongly) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "mit + Dat verfahren",
+        "bedeutung": "mit jemandem/etwas auf bestimmte Weise umgehen",
+        "beispiel": "Wie wird mit den Beschwerden verfahren?",
+        "uebersetzung": {
+          "fa": "با شکایت‌ها چطور برخورد می‌شود؟",
+          "en": "How are the complaints dealt with?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verfahren",
+      "praeteritum": "verfuhr",
+      "partizip2": "verfahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verfahre",
+        "du": "verfährst",
+        "er_sie_es": "verfährt",
+        "wir": "verfahren",
+        "ihr": "verfahrt",
+        "sie_Sie": "verfahren"
+      },
+      "praeteritum": {
+        "ich": "verfuhr",
+        "du": "verfuhrst",
+        "er_sie_es": "verfuhr",
+        "wir": "verfuhren",
+        "ihr": "verfuhrt",
+        "sie_Sie": "verfuhren"
+      },
+      "konjunktiv1": {
+        "ich": "verfahre",
+        "du": "verfahrest",
+        "er_sie_es": "verfahre",
+        "wir": "verfahren",
+        "ihr": "verfahret",
+        "sie_Sie": "verfahren"
+      },
+      "konjunktiv2": {
+        "ich": "verführe",
+        "du": "verführest",
+        "er_sie_es": "verführe",
+        "wir": "verführen",
+        "ihr": "verführet",
+        "sie_Sie": "verführen"
+      },
+      "imperativ": {
+        "du": "Verfahr!",
+        "ihr": "Verfahrt!",
+        "Sie": "Verfahren Sie!"
+      }
+    },
+    "partizip1": "verfahrend",
+    "nominalisierung": "das Verfahren"
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رانندگی کردن",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "das Verfahren",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "روش، رسیدگی قضایی",
+          "en": "procedure, proceedings"
+        },
+        "id_ref": "nomen_verfahren"
+      },
+      {
+        "wort": "sich verirren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گم شدن",
+          "en": "to get lost"
+        },
+        "id_ref": "verb_sich_verirren"
+      },
+      {
+        "wort": "der Weg",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "راه",
+          "en": "way"
+        },
+        "id_ref": "nomen_weg"
+      },
+      {
+        "wort": "vorgehen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اقدام کردن",
+          "en": "to proceed"
+        },
+        "id_ref": "verb_vorgehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

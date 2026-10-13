@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_verfangen",
+  "wort": "verfangen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گیر افتادن (در چیزی)",
+      "(ترفند یا حرف) اثر کردن، کارگر افتادن"
+    ],
+    "en": [
+      "(sich) to get caught (in)",
+      "to have an effect, to work"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "fɛɐ̯ˈfaŋən",
+  "anmerkung": "Untrennbar (verfing, verfangen). Meist reflexiv: «sich in etwas (Dat) verfangen»; ohne «sich» oft verneint: «Das verfängt bei mir nicht.»",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Vogel hat sich im Netz verfangen.",
+      "uebersetzung": {
+        "fa": "پرنده در تور گیر افتاد.",
+        "en": "The bird got caught in the net."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Seine Ausreden verfangen bei mir nicht mehr, weil er mich schon zu oft angelogen hat.",
+      "uebersetzung": {
+        "fa": "بهانه‌هایش دیگر روی من اثر ندارد، چون بارها به من دروغ گفته است.",
+        "en": "His excuses no longer work on me because he has lied to me too often."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hängen bleiben",
+      "uebersetzung": {
+        "fa": "گیر کردن",
+        "en": "to get stuck"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (گیر) + fangen (گرفتن)",
+    "en": "ver- (caught) + fangen (to catch)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich in + Dat verfangen",
+        "bedeutung": "in etwas hängen bleiben",
+        "beispiel": "Ihr Schal hat sich in der Tür verfangen.",
+        "uebersetzung": {
+          "fa": "شالش لای در گیر کرد.",
+          "en": "Her scarf got caught in the door."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verfangen",
+      "praeteritum": "verfing",
+      "partizip2": "verfangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verfange",
+        "du": "verfängst",
+        "er_sie_es": "verfängt",
+        "wir": "verfangen",
+        "ihr": "verfangt",
+        "sie_Sie": "verfangen"
+      },
+      "praeteritum": {
+        "ich": "verfing",
+        "du": "verfingst",
+        "er_sie_es": "verfing",
+        "wir": "verfingen",
+        "ihr": "verfingt",
+        "sie_Sie": "verfingen"
+      },
+      "konjunktiv1": {
+        "ich": "verfange",
+        "du": "verfangest",
+        "er_sie_es": "verfange",
+        "wir": "verfangen",
+        "ihr": "verfanget",
+        "sie_Sie": "verfangen"
+      },
+      "konjunktiv2": {
+        "ich": "verfinge",
+        "du": "verfingest",
+        "er_sie_es": "verfinge",
+        "wir": "verfingen",
+        "ihr": "verfinget",
+        "sie_Sie": "verfingen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "verfangend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fangen",
+    "woerter": [
+      {
+        "wort": "fangen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گرفتن",
+          "en": "to catch"
+        },
+        "id_ref": "verb_fangen"
+      },
+      {
+        "wort": "das Netz",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تور",
+          "en": "net"
+        },
+        "id_ref": "nomen_netz"
+      },
+      {
+        "wort": "hängen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آویزان بودن",
+          "en": "to hang"
+        },
+        "id_ref": "verb_haengen"
+      },
+      {
+        "wort": "wirken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اثر کردن",
+          "en": "to have an effect"
+        },
+        "id_ref": "verb_wirken"
+      },
+      {
+        "wort": "die Falle",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تله",
+          "en": "trap"
+        },
+        "id_ref": "nomen_falle"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

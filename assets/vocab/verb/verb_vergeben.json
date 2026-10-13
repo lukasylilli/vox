@@ -1,0 +1,193 @@
+{
+  "schema": "3.0",
+  "id": "verb_vergeben",
+  "wort": "vergeben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بخشیدن، عفو کردن",
+      "(جایزه/شغل/وقت) واگذار کردن، دادن"
+    ],
+    "en": [
+      "to forgive",
+      "to award, to allocate"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gefühle",
+    "Arbeit"
+  ],
+  "ipa": "fɛɐ̯ˈɡeːbn̩",
+  "anmerkung": "Untrennbar (vergab, vergeben). «Der Platz ist schon vergeben» = besetzt.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich habe ihm vergeben.",
+      "uebersetzung": {
+        "fa": "او را بخشیده‌ام.",
+        "en": "I have forgiven him."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Stelle wurde schon vergeben, bevor ich meine Bewerbung abschicken konnte.",
+      "uebersetzung": {
+        "fa": "پیش از آن که بتوانم درخواستم را بفرستم، آن شغل به کس دیگری داده شده بود.",
+        "en": "The job had already been given away before I could send my application."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verzeihen",
+      "uebersetzung": {
+        "fa": "بخشیدن",
+        "en": "to forgive"
+      }
+    },
+    {
+      "wort": "zuteilen",
+      "uebersetzung": {
+        "fa": "تخصیص دادن",
+        "en": "to allocate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (پیشوند) + geben (دادن)",
+    "en": "ver- (prefix) + geben (to give)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem etwas vergeben",
+        "bedeutung": "jemandem etwas verzeihen",
+        "beispiel": "Sie hat ihm den Fehler vergeben.",
+        "uebersetzung": {
+          "fa": "او آن اشتباه را بر او بخشید.",
+          "en": "She forgave him the mistake."
+        }
+      },
+      {
+        "muster": "etwas an + Akk vergeben",
+        "bedeutung": "etwas jemandem zuteilen",
+        "beispiel": "Der Preis wurde an eine junge Autorin vergeben.",
+        "uebersetzung": {
+          "fa": "جایزه به یک نویسنده‌ی جوان داده شد.",
+          "en": "The prize was awarded to a young author."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vergeben",
+      "praeteritum": "vergab",
+      "partizip2": "vergeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "vergebe",
+        "du": "vergibst",
+        "er_sie_es": "vergibt",
+        "wir": "vergeben",
+        "ihr": "vergebt",
+        "sie_Sie": "vergeben"
+      },
+      "praeteritum": {
+        "ich": "vergab",
+        "du": "vergabst",
+        "er_sie_es": "vergab",
+        "wir": "vergaben",
+        "ihr": "vergabt",
+        "sie_Sie": "vergaben"
+      },
+      "konjunktiv1": {
+        "ich": "vergebe",
+        "du": "vergebest",
+        "er_sie_es": "vergebe",
+        "wir": "vergeben",
+        "ihr": "vergebet",
+        "sie_Sie": "vergeben"
+      },
+      "konjunktiv2": {
+        "ich": "vergäbe",
+        "du": "vergäbest",
+        "er_sie_es": "vergäbe",
+        "wir": "vergäben",
+        "ihr": "vergäbet",
+        "sie_Sie": "vergäben"
+      },
+      "imperativ": {
+        "du": "Vergib!",
+        "ihr": "Vergebt!",
+        "Sie": "Vergeben Sie!"
+      }
+    },
+    "partizip1": "vergebend",
+    "nominalisierung": "die Vergebung"
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "verzeihen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بخشیدن",
+          "en": "to forgive"
+        },
+        "id_ref": "verb_verzeihen"
+      },
+      {
+        "wort": "die Vergebung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بخشش",
+          "en": "forgiveness"
+        },
+        "id_ref": "nomen_vergebung"
+      },
+      {
+        "wort": "entschuldigen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عذر خواستن",
+          "en": "to excuse"
+        },
+        "id_ref": "verb_entschuldigen"
+      },
+      {
+        "wort": "besetzt",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اشغال",
+          "en": "occupied"
+        },
+        "id_ref": "adjektiv_besetzt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
