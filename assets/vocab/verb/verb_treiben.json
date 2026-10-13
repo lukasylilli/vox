@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_treiben",
+  "wort": "treiben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "راندن، به حرکت درآوردن",
+      "(روی آب) شناور بودن",
+      "(ورزش و…) انجام دادن"
+    ],
+    "en": [
+      "to drive",
+      "to drift",
+      "to do (sport)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Sport",
+    "Natur"
+  ],
+  "ipa": "ˈtʁaɪ̯bn̩",
+  "anmerkung": "Transitiv mit «haben» (Sport treiben); «auf dem Wasser treiben» mit «sein» bei Ortsveränderung (Das Boot ist ans Ufer getrieben).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er treibt viel Sport.",
+      "uebersetzung": {
+        "fa": "او زیاد ورزش می‌کند.",
+        "en": "He does a lot of sport."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Bauer hat die Kühe auf die Weide getrieben, bevor das Gewitter kam.",
+      "uebersetzung": {
+        "fa": "کشاورز گاوها را پیش از رسیدن طوفان به چراگاه راند.",
+        "en": "The farmer drove the cows to the pasture before the storm came."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "antreiben",
+      "uebersetzung": {
+        "fa": "به حرکت درآوردن",
+        "en": "to drive"
+      }
+    },
+    {
+      "wort": "machen",
+      "uebersetzung": {
+        "fa": "انجام دادن",
+        "en": "to do"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden zu + Dat treiben",
+        "bedeutung": "jemanden zu etwas bringen",
+        "beispiel": "Der Lärm treibt mich zur Verzweiflung.",
+        "uebersetzung": {
+          "fa": "این سروصدا مرا به ستوه آورده است.",
+          "en": "The noise is driving me to despair."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "treiben",
+      "praeteritum": "trieb",
+      "partizip2": "getrieben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "treibe",
+        "du": "treibst",
+        "er_sie_es": "treibt",
+        "wir": "treiben",
+        "ihr": "treibt",
+        "sie_Sie": "treiben"
+      },
+      "praeteritum": {
+        "ich": "trieb",
+        "du": "triebst",
+        "er_sie_es": "trieb",
+        "wir": "trieben",
+        "ihr": "triebt",
+        "sie_Sie": "trieben"
+      },
+      "konjunktiv1": {
+        "ich": "treibe",
+        "du": "treibest",
+        "er_sie_es": "treibe",
+        "wir": "treiben",
+        "ihr": "treibet",
+        "sie_Sie": "treiben"
+      },
+      "konjunktiv2": {
+        "ich": "triebe",
+        "du": "triebest",
+        "er_sie_es": "triebe",
+        "wir": "trieben",
+        "ihr": "triebet",
+        "sie_Sie": "trieben"
+      },
+      "imperativ": {
+        "du": "Treib!",
+        "ihr": "Treibt!",
+        "Sie": "Treiben Sie!"
+      }
+    },
+    "partizip1": "treibend",
+    "nominalisierung": "der Trieb"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Sport",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ورزش",
+          "en": "sport"
+        },
+        "id_ref": "nomen_sport"
+      },
+      {
+        "wort": "der Antrieb",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "موتور محرکه؛ انگیزه",
+          "en": "drive; motivation"
+        },
+        "id_ref": "nomen_antrieb"
+      },
+      {
+        "wort": "übertreiben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اغراق کردن",
+          "en": "to exaggerate"
+        },
+        "id_ref": "verb_uebertreiben"
+      },
+      {
+        "wort": "vertreiben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیرون راندن؛ فروختن",
+          "en": "to expel; to sell"
+        },
+        "id_ref": "verb_vertreiben"
+      },
+      {
+        "wort": "der Betrieb",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شرکت، کارگاه",
+          "en": "business, company"
+        },
+        "id_ref": "nomen_betrieb"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

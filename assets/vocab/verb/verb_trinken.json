@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_trinken",
+  "wort": "trinken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نوشیدن",
+      "(الکل) نوشیدن"
+    ],
+    "en": [
+      "to drink"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Essen",
+    "Alltag"
+  ],
+  "ipa": "ˈtʁɪŋkn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich trinke gern Tee.",
+      "uebersetzung": {
+        "fa": "من چای دوست دارم.",
+        "en": "I like drinking tea."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn man viel Sport macht, sollte man genug Wasser trinken.",
+      "uebersetzung": {
+        "fa": "وقتی آدم زیاد ورزش می‌کند، باید به اندازه‌ی کافی آب بنوشد.",
+        "en": "If you do a lot of sport, you should drink enough water."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "saufen",
+      "uebersetzung": {
+        "fa": "(برای حیوان) آب خوردن",
+        "en": "to drink (of animals)"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Akk trinken",
+        "bedeutung": "auf jemandes Wohl anstoßen",
+        "beispiel": "Wir trinken auf deine Gesundheit!",
+        "uebersetzung": {
+          "fa": "به سلامتی تو می‌نوشیم!",
+          "en": "Let's drink to your health!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "trinken",
+      "praeteritum": "trank",
+      "partizip2": "getrunken"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "trinke",
+        "du": "trinkst",
+        "er_sie_es": "trinkt",
+        "wir": "trinken",
+        "ihr": "trinkt",
+        "sie_Sie": "trinken"
+      },
+      "praeteritum": {
+        "ich": "trank",
+        "du": "trankst",
+        "er_sie_es": "trank",
+        "wir": "tranken",
+        "ihr": "trankt",
+        "sie_Sie": "tranken"
+      },
+      "konjunktiv1": {
+        "ich": "trinke",
+        "du": "trinkest",
+        "er_sie_es": "trinke",
+        "wir": "trinken",
+        "ihr": "trinket",
+        "sie_Sie": "trinken"
+      },
+      "konjunktiv2": {
+        "ich": "tränke",
+        "du": "tränkest",
+        "er_sie_es": "tränke",
+        "wir": "tränken",
+        "ihr": "tränket",
+        "sie_Sie": "tränken"
+      },
+      "imperativ": {
+        "du": "Trink!",
+        "ihr": "Trinkt!",
+        "Sie": "Trinken Sie!"
+      }
+    },
+    "partizip1": "trinkend",
+    "nominalisierung": "das Getränk"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Wasser",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب",
+          "en": "water"
+        },
+        "id_ref": "nomen_wasser"
+      },
+      {
+        "wort": "das Getränk",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نوشیدنی",
+          "en": "drink"
+        },
+        "id_ref": "nomen_getraenk"
+      },
+      {
+        "wort": "essen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوردن",
+          "en": "to eat"
+        },
+        "id_ref": "verb_essen"
+      },
+      {
+        "wort": "der Durst",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تشنگی",
+          "en": "thirst"
+        },
+        "id_ref": "nomen_durst"
+      },
+      {
+        "wort": "austrinken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تا ته نوشیدن",
+          "en": "to drink up"
+        },
+        "id_ref": "verb_austrinken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

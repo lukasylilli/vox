@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_treten",
+  "wort": "treten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "لگد زدن",
+      "(پا) گذاشتن، قدم گذاشتن",
+      "(در وضعیتی) وارد شدن"
+    ],
+    "en": [
+      "to kick",
+      "to step",
+      "to enter (into)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Sport"
+  ],
+  "ipa": "ˈtʁeːtn̩",
+  "anmerkung": "Mit «sein» bei Bewegung (Er ist ins Zimmer getreten); mit «haben» bei Akkusativobjekt (Er hat den Ball getreten).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er tritt gegen den Ball.",
+      "uebersetzung": {
+        "fa": "او به توپ لگد می‌زند.",
+        "en": "He kicks the ball."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als er auf den Balkon getreten ist, hat er gesehen, dass es schneit.",
+      "uebersetzung": {
+        "fa": "وقتی به بالکن قدم گذاشت، دید که برف می‌بارد.",
+        "en": "When he stepped onto the balcony, he saw that it was snowing."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kicken",
+      "uebersetzung": {
+        "fa": "(محاوره) شوت زدن",
+        "en": "to kick"
+      }
+    },
+    {
+      "wort": "gehen",
+      "uebersetzung": {
+        "fa": "رفتن",
+        "en": "to go"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Akk treten",
+        "bedeutung": "den Fuß auf etwas setzen",
+        "beispiel": "Ich bin auf eine Schnecke getreten.",
+        "uebersetzung": {
+          "fa": "پایم را روی یک حلزون گذاشتم.",
+          "en": "I stepped on a snail."
+        }
+      },
+      {
+        "muster": "in + Akk treten",
+        "bedeutung": "hineingehen; beginnen",
+        "beispiel": "Das Gesetz tritt morgen in Kraft.",
+        "uebersetzung": {
+          "fa": "این قانون از فردا اجرایی می‌شود.",
+          "en": "The law comes into force tomorrow."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "treten",
+      "praeteritum": "trat",
+      "partizip2": "getreten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "trete",
+        "du": "trittst",
+        "er_sie_es": "tritt",
+        "wir": "treten",
+        "ihr": "tretet",
+        "sie_Sie": "treten"
+      },
+      "praeteritum": {
+        "ich": "trat",
+        "du": "tratest",
+        "er_sie_es": "trat",
+        "wir": "traten",
+        "ihr": "tratet",
+        "sie_Sie": "traten"
+      },
+      "konjunktiv1": {
+        "ich": "trete",
+        "du": "tretest",
+        "er_sie_es": "trete",
+        "wir": "treten",
+        "ihr": "tretet",
+        "sie_Sie": "treten"
+      },
+      "konjunktiv2": {
+        "ich": "träte",
+        "du": "trätest",
+        "er_sie_es": "träte",
+        "wir": "träten",
+        "ihr": "trätet",
+        "sie_Sie": "träten"
+      },
+      "imperativ": {
+        "du": "Tritt!",
+        "ihr": "Tretet!",
+        "Sie": "Treten Sie!"
+      }
+    },
+    "partizip1": "tretend",
+    "nominalisierung": "der Tritt"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Schritt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قدم",
+          "en": "step"
+        },
+        "id_ref": "nomen_schritt"
+      },
+      {
+        "wort": "eintreten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وارد شدن",
+          "en": "to enter"
+        },
+        "id_ref": "verb_eintreten"
+      },
+      {
+        "wort": "auftreten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ظاهر شدن؛ رخ دادن",
+          "en": "to appear; to occur"
+        },
+        "id_ref": "verb_auftreten"
+      },
+      {
+        "wort": "vertreten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نمایندگی کردن؛ جایگزین شدن",
+          "en": "to represent; to stand in"
+        },
+        "id_ref": "verb_vertreten"
+      },
+      {
+        "wort": "der Tritt",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لگد؛ قدم",
+          "en": "kick; step"
+        },
+        "id_ref": "nomen_tritt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

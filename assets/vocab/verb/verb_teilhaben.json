@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_teilhaben",
+  "wort": "teilhaben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(در چیزی) سهیم بودن، شریک بودن"
+    ],
+    "en": [
+      "to share in",
+      "to participate in"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gesellschaft"
+  ],
+  "ipa": "ˈtaɪ̯lˌhaːbn̩",
+  "anmerkung": "Gehoben; meist «an + Dat teilhaben». Kein sinnvoller Imperativ.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Alle sollen am Erfolg teilhaben.",
+      "uebersetzung": {
+        "fa": "همه باید در موفقیت سهیم باشند.",
+        "en": "Everyone should share in the success."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Menschen mit Behinderung sollen am gesellschaftlichen Leben teilhaben, damit niemand ausgeschlossen wird.",
+      "uebersetzung": {
+        "fa": "افراد دارای معلولیت باید در زندگی اجتماعی مشارکت داشته باشند تا هیچ‌کس کنار گذاشته نشود.",
+        "en": "People with disabilities should take part in social life so that nobody is excluded."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "teilnehmen",
+      "uebersetzung": {
+        "fa": "شرکت کردن",
+        "en": "to take part"
+      }
+    },
+    {
+      "wort": "beteiligt sein",
+      "uebersetzung": {
+        "fa": "سهیم بودن",
+        "en": "to be involved"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "teil (بخش، سهم) + haben (داشتن)",
+    "en": "teil (part, share) + haben (to have)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "an + Dat teilhaben",
+        "bedeutung": "an etwas beteiligt sein",
+        "beispiel": "Er lässt uns an seinen Gedanken teilhaben.",
+        "uebersetzung": {
+          "fa": "او ما را در افکارش شریک می‌کند.",
+          "en": "He lets us share his thoughts."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "teilhaben",
+      "praeteritum": "hatte teil",
+      "partizip2": "teilgehabt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "habe teil",
+        "du": "hast teil",
+        "er_sie_es": "hat teil",
+        "wir": "haben teil",
+        "ihr": "habt teil",
+        "sie_Sie": "haben teil"
+      },
+      "praeteritum": {
+        "ich": "hatte teil",
+        "du": "hattest teil",
+        "er_sie_es": "hatte teil",
+        "wir": "hatten teil",
+        "ihr": "hattet teil",
+        "sie_Sie": "hatten teil"
+      },
+      "konjunktiv1": {
+        "ich": "habe teil",
+        "du": "habest teil",
+        "er_sie_es": "habe teil",
+        "wir": "haben teil",
+        "ihr": "habet teil",
+        "sie_Sie": "haben teil"
+      },
+      "konjunktiv2": {
+        "ich": "hätte teil",
+        "du": "hättest teil",
+        "er_sie_es": "hätte teil",
+        "wir": "hätten teil",
+        "ihr": "hättet teil",
+        "sie_Sie": "hätten teil"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "teilhabend",
+    "nominalisierung": "die Teilhabe"
+  },
+  "wortnetz": {
+    "grundwort": "haben",
+    "woerter": [
+      {
+        "wort": "der Teil",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بخش",
+          "en": "part"
+        },
+        "id_ref": "nomen_teil"
+      },
+      {
+        "wort": "teilen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تقسیم کردن، به اشتراک گذاشتن",
+          "en": "to share"
+        },
+        "id_ref": "verb_teilen"
+      },
+      {
+        "wort": "teilnehmen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شرکت کردن",
+          "en": "to take part"
+        },
+        "id_ref": "verb_teilnehmen"
+      },
+      {
+        "wort": "die Teilhabe",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مشارکت، سهیم بودن",
+          "en": "participation"
+        },
+        "id_ref": "nomen_teilhabe"
+      },
+      {
+        "wort": "beteiligen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "(sich) مشارکت کردن",
+          "en": "to participate"
+        },
+        "id_ref": "verb_beteiligen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

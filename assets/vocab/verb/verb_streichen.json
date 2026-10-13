@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_streichen",
+  "wort": "streichen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "رنگ کردن (با قلم‌مو)",
+      "خط زدن، حذف کردن",
+      "(روی نان) مالیدن"
+    ],
+    "en": [
+      "to paint",
+      "to cross out, to cancel",
+      "to spread"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Wohnen",
+    "Alltag"
+  ],
+  "ipa": "ˈʃtʁaɪ̯çn̩",
+  "anmerkung": "Transitiv mit «haben»; intransitiv im Sinn von «umherstreifen» mit «sein» (Er ist durch die Wälder gestrichen).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir streichen die Wand weiß.",
+      "uebersetzung": {
+        "fa": "دیوار را سفید رنگ می‌کنیم.",
+        "en": "We're painting the wall white."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil das Geld knapp war, hat die Stadt viele Projekte gestrichen.",
+      "uebersetzung": {
+        "fa": "چون پول کم بود، شهرداری پروژه‌های زیادی را حذف کرد.",
+        "en": "Because money was tight, the city cancelled many projects."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anmalen",
+      "uebersetzung": {
+        "fa": "رنگ کردن",
+        "en": "to paint"
+      }
+    },
+    {
+      "wort": "durchstreichen",
+      "uebersetzung": {
+        "fa": "خط زدن",
+        "en": "to cross out"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas auf + Akk streichen",
+        "bedeutung": "etwas auf etwas verteilen",
+        "beispiel": "Sie streicht Butter aufs Brot.",
+        "uebersetzung": {
+          "fa": "او کره روی نان می‌مالد.",
+          "en": "She spreads butter on the bread."
+        }
+      },
+      {
+        "muster": "über + Akk streichen",
+        "bedeutung": "sanft über etwas fahren",
+        "beispiel": "Er streicht dem Kind über den Kopf.",
+        "uebersetzung": {
+          "fa": "او دستی به سر بچه می‌کشد.",
+          "en": "He strokes the child's head."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "streichen",
+      "praeteritum": "strich",
+      "partizip2": "gestrichen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "streiche",
+        "du": "streichst",
+        "er_sie_es": "streicht",
+        "wir": "streichen",
+        "ihr": "streicht",
+        "sie_Sie": "streichen"
+      },
+      "praeteritum": {
+        "ich": "strich",
+        "du": "strichst",
+        "er_sie_es": "strich",
+        "wir": "strichen",
+        "ihr": "stricht",
+        "sie_Sie": "strichen"
+      },
+      "konjunktiv1": {
+        "ich": "streiche",
+        "du": "streichest",
+        "er_sie_es": "streiche",
+        "wir": "streichen",
+        "ihr": "streichet",
+        "sie_Sie": "streichen"
+      },
+      "konjunktiv2": {
+        "ich": "striche",
+        "du": "strichest",
+        "er_sie_es": "striche",
+        "wir": "strichen",
+        "ihr": "strichet",
+        "sie_Sie": "strichen"
+      },
+      "imperativ": {
+        "du": "Streich!",
+        "ihr": "Streicht!",
+        "Sie": "Streichen Sie!"
+      }
+    },
+    "partizip1": "streichend",
+    "nominalisierung": "der Strich"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Farbe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رنگ",
+          "en": "colour, paint"
+        },
+        "id_ref": "nomen_farbe"
+      },
+      {
+        "wort": "die Wand",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دیوار",
+          "en": "wall"
+        },
+        "id_ref": "nomen_wand"
+      },
+      {
+        "wort": "der Strich",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خط",
+          "en": "line"
+        },
+        "id_ref": "nomen_strich"
+      },
+      {
+        "wort": "der Streik",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اعتصاب",
+          "en": "strike"
+        },
+        "id_ref": "nomen_streik"
+      },
+      {
+        "wort": "unterstreichen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زیر چیزی خط کشیدن؛ تأکید کردن",
+          "en": "to underline"
+        },
+        "id_ref": "verb_unterstreichen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

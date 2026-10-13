@@ -1,0 +1,207 @@
+{
+  "schema": "3.0",
+  "id": "verb_streiten",
+  "wort": "streiten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دعوا کردن، بحث کردن",
+      "(sich streiten) با هم جر و بحث کردن"
+    ],
+    "en": [
+      "to argue",
+      "to quarrel"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Familie",
+    "Kommunikation"
+  ],
+  "ipa": "ˈʃtʁaɪ̯tn̩",
+  "anmerkung": "Meist reflexiv: «sich (mit jemandem) streiten».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Geschwister streiten oft.",
+      "uebersetzung": {
+        "fa": "خواهر و برادرها اغلب دعوا می‌کنند.",
+        "en": "The siblings often argue."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wir haben uns gestern gestritten, weil er schon wieder zu spät gekommen ist.",
+      "uebersetzung": {
+        "fa": "دیروز با هم دعوا کردیم، چون او باز هم دیر آمده بود.",
+        "en": "We argued yesterday because he was late again."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zanken",
+      "uebersetzung": {
+        "fa": "(sich) دعوا کردن",
+        "en": "to squabble"
+      }
+    },
+    {
+      "wort": "diskutieren",
+      "uebersetzung": {
+        "fa": "بحث کردن",
+        "en": "to discuss"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sich vertragen",
+      "uebersetzung": {
+        "fa": "با هم کنار آمدن",
+        "en": "to get along"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich mit + Dat streiten",
+        "bedeutung": "mit jemandem Streit haben",
+        "beispiel": "Er streitet sich oft mit seinem Bruder.",
+        "uebersetzung": {
+          "fa": "او اغلب با برادرش دعوا می‌کند.",
+          "en": "He often argues with his brother."
+        }
+      },
+      {
+        "muster": "sich über + Akk streiten",
+        "bedeutung": "über ein Thema Streit haben",
+        "beispiel": "Sie streiten sich über Geld.",
+        "uebersetzung": {
+          "fa": "آن‌ها سر پول دعوا می‌کنند.",
+          "en": "They argue about money."
+        }
+      },
+      {
+        "muster": "sich um + Akk streiten",
+        "bedeutung": "etwas haben wollen",
+        "beispiel": "Die Kinder streiten sich um das Spielzeug.",
+        "uebersetzung": {
+          "fa": "بچه‌ها سر اسباب‌بازی دعوا می‌کنند.",
+          "en": "The children fight over the toy."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "streiten",
+      "praeteritum": "stritt",
+      "partizip2": "gestritten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "streite",
+        "du": "streitest",
+        "er_sie_es": "streitet",
+        "wir": "streiten",
+        "ihr": "streitet",
+        "sie_Sie": "streiten"
+      },
+      "praeteritum": {
+        "ich": "stritt",
+        "du": "strittest",
+        "er_sie_es": "stritt",
+        "wir": "stritten",
+        "ihr": "strittet",
+        "sie_Sie": "stritten"
+      },
+      "konjunktiv1": {
+        "ich": "streite",
+        "du": "streitest",
+        "er_sie_es": "streite",
+        "wir": "streiten",
+        "ihr": "streitet",
+        "sie_Sie": "streiten"
+      },
+      "konjunktiv2": {
+        "ich": "stritte",
+        "du": "strittest",
+        "er_sie_es": "stritte",
+        "wir": "stritten",
+        "ihr": "strittet",
+        "sie_Sie": "stritten"
+      },
+      "imperativ": {
+        "du": "Streite!",
+        "ihr": "Streitet!",
+        "Sie": "Streiten Sie!"
+      }
+    },
+    "partizip1": "streitend",
+    "nominalisierung": "der Streit"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Streit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دعوا",
+          "en": "argument"
+        },
+        "id_ref": "nomen_streit"
+      },
+      {
+        "wort": "diskutieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بحث کردن",
+          "en": "to discuss"
+        },
+        "id_ref": "verb_diskutieren"
+      },
+      {
+        "wort": "der Konflikt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درگیری، اختلاف",
+          "en": "conflict"
+        },
+        "id_ref": "nomen_konflikt"
+      },
+      {
+        "wort": "vertragen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "(sich) با هم کنار آمدن",
+          "en": "to get along"
+        },
+        "id_ref": "verb_vertragen"
+      },
+      {
+        "wort": "bestreiten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "انکار کردن؛ تأمین کردن",
+          "en": "to deny; to finance"
+        },
+        "id_ref": "verb_bestreiten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

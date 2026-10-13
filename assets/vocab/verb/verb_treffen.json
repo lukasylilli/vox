@@ -1,0 +1,200 @@
+{
+  "schema": "3.0",
+  "id": "verb_treffen",
+  "wort": "treffen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دیدن، ملاقات کردن",
+      "(هدف را) زدن",
+      "(تصمیم) گرفتن"
+    ],
+    "en": [
+      "to meet",
+      "to hit",
+      "to make (a decision)"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Kommunikation"
+  ],
+  "ipa": "ˈtʁɛfn̩",
+  "anmerkung": "Feste Verbindung: «eine Entscheidung treffen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich treffe meine Freunde im Café.",
+      "uebersetzung": {
+        "fa": "دوستانم را در کافه می‌بینم.",
+        "en": "I'm meeting my friends at the café."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem wir lange diskutiert hatten, haben wir endlich eine Entscheidung getroffen.",
+      "uebersetzung": {
+        "fa": "بعد از آنکه مدت‌ها بحث کردیم، بالاخره تصمیم گرفتیم.",
+        "en": "After we had discussed it for a long time, we finally made a decision."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "begegnen",
+      "uebersetzung": {
+        "fa": "برخوردن به (کسی)",
+        "en": "to encounter"
+      }
+    },
+    {
+      "wort": "sehen",
+      "uebersetzung": {
+        "fa": "دیدن",
+        "en": "to see"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verfehlen",
+      "uebersetzung": {
+        "fa": "از دست دادن، به هدف نزدن",
+        "en": "to miss"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich mit + Dat treffen",
+        "bedeutung": "mit jemandem verabredet sein",
+        "beispiel": "Ich treffe mich heute mit Anna.",
+        "uebersetzung": {
+          "fa": "امروز با آنا قرار دارم.",
+          "en": "I'm meeting Anna today."
+        }
+      },
+      {
+        "muster": "auf + Akk treffen",
+        "bedeutung": "jemandem/etwas begegnen",
+        "beispiel": "Im Halbfinale treffen wir auf Spanien.",
+        "uebersetzung": {
+          "fa": "در نیمه‌نهایی با اسپانیا روبه‌رو می‌شویم.",
+          "en": "In the semi-final we'll face Spain."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "treffen",
+      "praeteritum": "traf",
+      "partizip2": "getroffen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "treffe",
+        "du": "triffst",
+        "er_sie_es": "trifft",
+        "wir": "treffen",
+        "ihr": "trefft",
+        "sie_Sie": "treffen"
+      },
+      "praeteritum": {
+        "ich": "traf",
+        "du": "trafst",
+        "er_sie_es": "traf",
+        "wir": "trafen",
+        "ihr": "traft",
+        "sie_Sie": "trafen"
+      },
+      "konjunktiv1": {
+        "ich": "treffe",
+        "du": "treffest",
+        "er_sie_es": "treffe",
+        "wir": "treffen",
+        "ihr": "treffet",
+        "sie_Sie": "treffen"
+      },
+      "konjunktiv2": {
+        "ich": "träfe",
+        "du": "träfest",
+        "er_sie_es": "träfe",
+        "wir": "träfen",
+        "ihr": "träfet",
+        "sie_Sie": "träfen"
+      },
+      "imperativ": {
+        "du": "Triff!",
+        "ihr": "Trefft!",
+        "Sie": "Treffen Sie!"
+      }
+    },
+    "partizip1": "treffend",
+    "nominalisierung": "das Treffen"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Treffen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دیدار، جلسه",
+          "en": "meeting"
+        },
+        "id_ref": "nomen_treffen"
+      },
+      {
+        "wort": "die Verabredung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قرار ملاقات",
+          "en": "appointment, date"
+        },
+        "id_ref": "nomen_verabredung"
+      },
+      {
+        "wort": "der Treffpunkt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "محل قرار",
+          "en": "meeting point"
+        },
+        "id_ref": "nomen_treffpunkt"
+      },
+      {
+        "wort": "betreffen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مربوط بودن به",
+          "en": "to concern"
+        },
+        "id_ref": "verb_betreffen"
+      },
+      {
+        "wort": "übertreffen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پیشی گرفتن",
+          "en": "to surpass"
+        },
+        "id_ref": "verb_uebertreffen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

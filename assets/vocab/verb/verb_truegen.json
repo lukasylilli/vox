@@ -1,0 +1,162 @@
+{
+  "schema": "3.0",
+  "id": "verb_truegen",
+  "wort": "trügen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(ظاهر) فریبنده بودن، گمراه کردن"
+    ],
+    "en": [
+      "to deceive",
+      "to be deceptive"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle"
+  ],
+  "ipa": "ˈtʁyːɡn̩",
+  "anmerkung": "Fast nur in festen Wendungen: «Der Schein trügt.», «Wenn mich nicht alles trügt, …». Kein sinnvoller Imperativ.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Schein trügt.",
+      "uebersetzung": {
+        "fa": "ظاهر فریبنده است.",
+        "en": "Appearances are deceptive."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn mich mein Gefühl nicht trügt, wird es heute noch regnen.",
+      "uebersetzung": {
+        "fa": "اگر حسم اشتباه نکند، امروز باران خواهد آمد.",
+        "en": "If my feeling doesn't deceive me, it will rain today."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "täuschen",
+      "uebersetzung": {
+        "fa": "فریب دادن",
+        "en": "to deceive"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "trügen",
+      "praeteritum": "trog",
+      "partizip2": "getrogen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "trüge",
+        "du": "trügst",
+        "er_sie_es": "trügt",
+        "wir": "trügen",
+        "ihr": "trügt",
+        "sie_Sie": "trügen"
+      },
+      "praeteritum": {
+        "ich": "trog",
+        "du": "trogst",
+        "er_sie_es": "trog",
+        "wir": "trogen",
+        "ihr": "trogt",
+        "sie_Sie": "trogen"
+      },
+      "konjunktiv1": {
+        "ich": "trüge",
+        "du": "trügest",
+        "er_sie_es": "trüge",
+        "wir": "trügen",
+        "ihr": "trüget",
+        "sie_Sie": "trügen"
+      },
+      "konjunktiv2": {
+        "ich": "tröge",
+        "du": "trögest",
+        "er_sie_es": "tröge",
+        "wir": "trögen",
+        "ihr": "tröget",
+        "sie_Sie": "trögen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "trügend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "täuschen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فریب دادن",
+          "en": "to deceive"
+        },
+        "id_ref": "verb_taeuschen"
+      },
+      {
+        "wort": "der Betrug",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کلاهبرداری",
+          "en": "fraud"
+        },
+        "id_ref": "nomen_betrug"
+      },
+      {
+        "wort": "betrügen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فریب دادن، کلاه گذاشتن",
+          "en": "to cheat"
+        },
+        "id_ref": "verb_betruegen"
+      },
+      {
+        "wort": "der Schein",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ظاهر",
+          "en": "appearance"
+        },
+        "id_ref": "nomen_schein"
+      },
+      {
+        "wort": "trügerisch",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "فریبنده",
+          "en": "deceptive"
+        },
+        "id_ref": "adjektiv_truegerisch"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
