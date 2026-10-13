@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_zugehen",
+  "wort": "zugehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به طرف کسی/چیزی رفتن",
+      "بسته شدن",
+      "(اوضاع) پیش رفتن"
+    ],
+    "en": [
+      "to approach",
+      "to close",
+      "to happen (in a certain way)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Beziehungen"
+  ],
+  "ipa": "ˈt͡suːˌɡeːən",
+  "anmerkung": "Trennbar (ging zu, zugegangen), Perfekt mit «sein». Unpersönlich: «Auf der Feier ging es lustig zu.» Amtssprache: «Der Brief geht Ihnen morgen zu.»",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Tür geht nicht zu.",
+      "uebersetzung": {
+        "fa": "در بسته نمی‌شود.",
+        "en": "The door won't close."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn du ein Problem mit ihm hast, musst du direkt auf ihn zugehen.",
+      "uebersetzung": {
+        "fa": "اگر با او مشکلی داری، باید مستقیم سراغش بروی.",
+        "en": "If you have a problem with him, you have to approach him directly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich nähern",
+      "uebersetzung": {
+        "fa": "نزدیک شدن",
+        "en": "to approach"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "aufgehen",
+      "uebersetzung": {
+        "fa": "باز شدن",
+        "en": "to open"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zu- (به‌سوی؛ بسته) + gehen (رفتن)",
+    "en": "zu- (towards; closed) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Akk zugehen",
+        "bedeutung": "sich jemandem nähern; Kontakt suchen",
+        "beispiel": "Sie geht offen auf andere Menschen zu.",
+        "uebersetzung": {
+          "fa": "او با روی باز به سراغ دیگران می‌رود.",
+          "en": "She approaches other people openly."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zugehen",
+      "praeteritum": "ging zu",
+      "partizip2": "zugegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe zu",
+        "du": "gehst zu",
+        "er_sie_es": "geht zu",
+        "wir": "gehen zu",
+        "ihr": "geht zu",
+        "sie_Sie": "gehen zu"
+      },
+      "praeteritum": {
+        "ich": "ging zu",
+        "du": "gingst zu",
+        "er_sie_es": "ging zu",
+        "wir": "gingen zu",
+        "ihr": "gingt zu",
+        "sie_Sie": "gingen zu"
+      },
+      "konjunktiv1": {
+        "ich": "gehe zu",
+        "du": "gehest zu",
+        "er_sie_es": "gehe zu",
+        "wir": "gehen zu",
+        "ihr": "gehet zu",
+        "sie_Sie": "gehen zu"
+      },
+      "konjunktiv2": {
+        "ich": "ginge zu",
+        "du": "gingest zu",
+        "er_sie_es": "ginge zu",
+        "wir": "gingen zu",
+        "ihr": "ginget zu",
+        "sie_Sie": "gingen zu"
+      },
+      "imperativ": {
+        "du": "Geh zu!",
+        "ihr": "Geht zu!",
+        "Sie": "Gehen Sie zu!"
+      }
+    },
+    "partizip1": "zugehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "sich nähern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نزدیک شدن",
+          "en": "to approach"
+        },
+        "id_ref": "verb_sich_naehern"
+      },
+      {
+        "wort": "zukommen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نزدیک شدن؛ پیش آمدن",
+          "en": "to approach; to be in store"
+        },
+        "id_ref": "verb_zukommen"
+      },
+      {
+        "wort": "der Zugang",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دسترسی؛ ورودی",
+          "en": "access"
+        },
+        "id_ref": "nomen_zugang"
+      },
+      {
+        "wort": "aufgehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "باز شدن",
+          "en": "to open"
+        },
+        "id_ref": "verb_aufgehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

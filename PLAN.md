@@ -2771,6 +2771,12 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۴۱۱ | zueinanderkönnen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | ترکیب با فعل وجهی — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۱۲ | zueinanderlassen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | املا نوسان دارد، نادر — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۱۳ | zuerkennen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | جداشدنی/جدانشدنی نوسان‌دار (erkannte zu / zuerkannte) ⇒ مثل vorenthalten — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۱۴ | zugewinnen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر (بیشتر hinzugewinnen) — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۱۵ | zuhaben | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | محاوره‌ای (مثل aushaben) — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۱۶ | zuhauen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | صرف نوسان‌دار haute/hieb — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۱۷ | zukneifen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر (مثل einkneifen) — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۱۸ | zukriechen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۱۹ | zuladen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر/تخصصی — قاعده‌ی ۱۴/۱۶ | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 

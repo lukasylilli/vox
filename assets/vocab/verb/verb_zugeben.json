@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_zugeben",
+  "wort": "zugeben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اعتراف کردن، پذیرفتن",
+      "اضافه کردن (آشپزی)"
+    ],
+    "en": [
+      "to admit",
+      "to add"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Kommunikation",
+    "Kochen"
+  ],
+  "ipa": "ˈt͡suːˌɡeːbn̩",
+  "anmerkung": "Trennbar (gab zu, zugegeben). «Zugegeben, …» als Einschub = «das muss ich einräumen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er gibt seinen Fehler zu.",
+      "uebersetzung": {
+        "fa": "او اشتباهش را می‌پذیرد.",
+        "en": "He admits his mistake."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Sie hat zugegeben, dass sie das Geld genommen hatte.",
+      "uebersetzung": {
+        "fa": "او اعتراف کرد که پول را برداشته بود.",
+        "en": "She admitted that she had taken the money."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gestehen",
+      "uebersetzung": {
+        "fa": "اعتراف کردن",
+        "en": "to confess"
+      }
+    },
+    {
+      "wort": "einräumen",
+      "uebersetzung": {
+        "fa": "پذیرفتن",
+        "en": "to concede"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "abstreiten",
+      "uebersetzung": {
+        "fa": "انکار کردن",
+        "en": "to deny"
+      }
+    },
+    {
+      "wort": "leugnen",
+      "uebersetzung": {
+        "fa": "انکار کردن",
+        "en": "to deny"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zu- (افزوده) + geben (دادن)",
+    "en": "zu- (in addition) + geben (to give)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "zugeben",
+      "praeteritum": "gab zu",
+      "partizip2": "zugegeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gebe zu",
+        "du": "gibst zu",
+        "er_sie_es": "gibt zu",
+        "wir": "geben zu",
+        "ihr": "gebt zu",
+        "sie_Sie": "geben zu"
+      },
+      "praeteritum": {
+        "ich": "gab zu",
+        "du": "gabst zu",
+        "er_sie_es": "gab zu",
+        "wir": "gaben zu",
+        "ihr": "gabt zu",
+        "sie_Sie": "gaben zu"
+      },
+      "konjunktiv1": {
+        "ich": "gebe zu",
+        "du": "gebest zu",
+        "er_sie_es": "gebe zu",
+        "wir": "geben zu",
+        "ihr": "gebet zu",
+        "sie_Sie": "geben zu"
+      },
+      "konjunktiv2": {
+        "ich": "gäbe zu",
+        "du": "gäbest zu",
+        "er_sie_es": "gäbe zu",
+        "wir": "gäben zu",
+        "ihr": "gäbet zu",
+        "sie_Sie": "gäben zu"
+      },
+      "imperativ": {
+        "du": "Gib zu!",
+        "ihr": "Gebt zu!",
+        "Sie": "Geben Sie zu!"
+      }
+    },
+    "partizip1": "zugebend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "gestehen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اعتراف کردن",
+          "en": "to confess"
+        },
+        "id_ref": "verb_gestehen"
+      },
+      {
+        "wort": "der Fehler",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اشتباه",
+          "en": "mistake"
+        },
+        "id_ref": "nomen_fehler"
+      },
+      {
+        "wort": "ehrlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صادق",
+          "en": "honest"
+        },
+        "id_ref": "adjektiv_ehrlich"
+      },
+      {
+        "wort": "zugegeben",
+        "wortart": "adverb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قبول دارم که…",
+          "en": "admittedly"
+        },
+        "id_ref": "adverb_zugegeben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_zuhalten",
+  "wort": "zuhalten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بسته نگه داشتن",
+      "(گوش، بینی) گرفتن"
+    ],
+    "en": [
+      "to keep shut",
+      "to cover (ears, nose)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈt͡suːˌhaltn̩",
+  "anmerkung": "Trennbar (hielt zu, zugehalten). «sich die Ohren zuhalten» (Dativ).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Halt die Tür zu!",
+      "uebersetzung": {
+        "fa": "در را بسته نگه دار!",
+        "en": "Keep the door shut!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil die Musik so laut war, hielt sich das Kind die Ohren zu.",
+      "uebersetzung": {
+        "fa": "چون موسیقی خیلی بلند بود، بچه گوش‌هایش را گرفت.",
+        "en": "Because the music was so loud, the child covered its ears."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verschließen",
+      "uebersetzung": {
+        "fa": "بستن",
+        "en": "to close"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "aufhalten",
+      "uebersetzung": {
+        "fa": "باز نگه داشتن",
+        "en": "to hold open"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zu (بسته) + halten (نگه داشتن)",
+    "en": "zu (closed) + halten (to hold)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Akk zuhalten",
+        "bedeutung": "direkt auf ein Ziel zusteuern",
+        "beispiel": "Das Schiff hält auf den Hafen zu.",
+        "uebersetzung": {
+          "fa": "کشتی مستقیم به طرف بندر می‌رود.",
+          "en": "The ship is heading for the harbour."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zuhalten",
+      "praeteritum": "hielt zu",
+      "partizip2": "zugehalten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "halte zu",
+        "du": "hältst zu",
+        "er_sie_es": "hält zu",
+        "wir": "halten zu",
+        "ihr": "haltet zu",
+        "sie_Sie": "halten zu"
+      },
+      "praeteritum": {
+        "ich": "hielt zu",
+        "du": "hieltest zu",
+        "er_sie_es": "hielt zu",
+        "wir": "hielten zu",
+        "ihr": "hieltet zu",
+        "sie_Sie": "hielten zu"
+      },
+      "konjunktiv1": {
+        "ich": "halte zu",
+        "du": "haltest zu",
+        "er_sie_es": "halte zu",
+        "wir": "halten zu",
+        "ihr": "haltet zu",
+        "sie_Sie": "halten zu"
+      },
+      "konjunktiv2": {
+        "ich": "hielte zu",
+        "du": "hieltest zu",
+        "er_sie_es": "hielte zu",
+        "wir": "hielten zu",
+        "ihr": "hieltet zu",
+        "sie_Sie": "hielten zu"
+      },
+      "imperativ": {
+        "du": "Halt zu!",
+        "ihr": "Haltet zu!",
+        "Sie": "Halten Sie zu!"
+      }
+    },
+    "partizip1": "zuhaltend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "halten",
+    "woerter": [
+      {
+        "wort": "halten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to hold"
+        },
+        "id_ref": "verb_halten"
+      },
+      {
+        "wort": "das Ohr",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گوش",
+          "en": "ear"
+        },
+        "id_ref": "nomen_ohr"
+      },
+      {
+        "wort": "die Nase",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بینی",
+          "en": "nose"
+        },
+        "id_ref": "nomen_nase"
+      },
+      {
+        "wort": "zumachen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بستن",
+          "en": "to close"
+        },
+        "id_ref": "verb_zumachen"
+      },
+      {
+        "wort": "laut",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بلند (صدا)",
+          "en": "loud"
+        },
+        "id_ref": "adjektiv_laut"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

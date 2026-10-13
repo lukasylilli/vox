@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_zufrieren",
+  "wort": "zufrieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "یخ بستن (سطح آب)"
+    ],
+    "en": [
+      "to freeze over"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Natur",
+    "Wetter"
+  ],
+  "ipa": "ˈt͡suːˌfʁiːʁən",
+  "anmerkung": "Trennbar (fror zu, zugefroren), Perfekt mit «sein».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Im Winter friert der See zu.",
+      "uebersetzung": {
+        "fa": "در زمستان دریاچه یخ می‌بندد.",
+        "en": "In winter the lake freezes over."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil der Teich zugefroren war, konnten die Kinder Schlittschuh laufen.",
+      "uebersetzung": {
+        "fa": "چون برکه یخ بسته بود، بچه‌ها توانستند اسکیت روی یخ کنند.",
+        "en": "Because the pond had frozen over, the children could go ice skating."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vereisen",
+      "uebersetzung": {
+        "fa": "یخ زدن",
+        "en": "to ice over"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "auftauen",
+      "uebersetzung": {
+        "fa": "آب شدن (یخ)",
+        "en": "to thaw"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zu (بسته) + frieren (یخ زدن)",
+    "en": "zu (closed) + frieren (to freeze)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "zufrieren",
+      "praeteritum": "fror zu",
+      "partizip2": "zugefroren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "friere zu",
+        "du": "frierst zu",
+        "er_sie_es": "friert zu",
+        "wir": "frieren zu",
+        "ihr": "friert zu",
+        "sie_Sie": "frieren zu"
+      },
+      "praeteritum": {
+        "ich": "fror zu",
+        "du": "frorst zu",
+        "er_sie_es": "fror zu",
+        "wir": "froren zu",
+        "ihr": "frort zu",
+        "sie_Sie": "froren zu"
+      },
+      "konjunktiv1": {
+        "ich": "friere zu",
+        "du": "frierest zu",
+        "er_sie_es": "friere zu",
+        "wir": "frieren zu",
+        "ihr": "frieret zu",
+        "sie_Sie": "frieren zu"
+      },
+      "konjunktiv2": {
+        "ich": "fröre zu",
+        "du": "frörest zu",
+        "er_sie_es": "fröre zu",
+        "wir": "frören zu",
+        "ihr": "fröret zu",
+        "sie_Sie": "frören zu"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "zufrierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "frieren",
+    "woerter": [
+      {
+        "wort": "frieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سردش شدن؛ یخ زدن",
+          "en": "to be cold; to freeze"
+        },
+        "id_ref": "verb_frieren"
+      },
+      {
+        "wort": "das Eis",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "یخ",
+          "en": "ice"
+        },
+        "id_ref": "nomen_eis"
+      },
+      {
+        "wort": "der See",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دریاچه",
+          "en": "lake"
+        },
+        "id_ref": "nomen_see"
+      },
+      {
+        "wort": "der Winter",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زمستان",
+          "en": "winter"
+        },
+        "id_ref": "nomen_winter"
+      },
+      {
+        "wort": "auftauen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آب شدن (یخ)",
+          "en": "to thaw"
+        },
+        "id_ref": "verb_auftauen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

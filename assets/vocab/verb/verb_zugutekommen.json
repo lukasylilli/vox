@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_zugutekommen",
+  "wort": "zugutekommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به سود کسی بودن، به کار کسی آمدن"
+    ],
+    "en": [
+      "to benefit",
+      "to be of use to"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Gesellschaft"
+  ],
+  "ipa": "t͡suˈɡuːtəˌkɔmən",
+  "anmerkung": "Trennbar (kam zugute, zugutegekommen), Perfekt mit «sein». Getrenntschreibung «zugute kommen» veraltet.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Geld kommt den Kindern zugute.",
+      "uebersetzung": {
+        "fa": "این پول به سود بچه‌ها است.",
+        "en": "The money benefits the children."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ihre Erfahrung als Krankenschwester ist ihr bei der neuen Arbeit sehr zugutegekommen.",
+      "uebersetzung": {
+        "fa": "تجربه‌اش به‌عنوان پرستار در کار تازه خیلی به کارش آمد.",
+        "en": "Her experience as a nurse was very useful to her in the new job."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nützen",
+      "uebersetzung": {
+        "fa": "سود رساندن",
+        "en": "to be of use"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "schaden",
+      "uebersetzung": {
+        "fa": "زیان رساندن",
+        "en": "to harm"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zugute (به سود) + kommen (آمدن)",
+    "en": "zugute (to the benefit) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem / etwas zugutekommen (+ Dat)",
+        "bedeutung": "jemandem nützen",
+        "beispiel": "Die neue Regel kommt vor allem den Patienten zugute.",
+        "uebersetzung": {
+          "fa": "قانون تازه بیش از همه به سود بیماران است.",
+          "en": "The new rule benefits the patients above all."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zugutekommen",
+      "praeteritum": "kam zugute",
+      "partizip2": "zugutegekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme zugute",
+        "du": "kommst zugute",
+        "er_sie_es": "kommt zugute",
+        "wir": "kommen zugute",
+        "ihr": "kommt zugute",
+        "sie_Sie": "kommen zugute"
+      },
+      "praeteritum": {
+        "ich": "kam zugute",
+        "du": "kamst zugute",
+        "er_sie_es": "kam zugute",
+        "wir": "kamen zugute",
+        "ihr": "kamt zugute",
+        "sie_Sie": "kamen zugute"
+      },
+      "konjunktiv1": {
+        "ich": "komme zugute",
+        "du": "kommest zugute",
+        "er_sie_es": "komme zugute",
+        "wir": "kommen zugute",
+        "ihr": "kommet zugute",
+        "sie_Sie": "kommen zugute"
+      },
+      "konjunktiv2": {
+        "ich": "käme zugute",
+        "du": "kämest zugute",
+        "er_sie_es": "käme zugute",
+        "wir": "kämen zugute",
+        "ihr": "kämet zugute",
+        "sie_Sie": "kämen zugute"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "zugutekommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "nützen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سود رساندن",
+          "en": "to be of use"
+        },
+        "id_ref": "verb_nuetzen"
+      },
+      {
+        "wort": "der Vorteil",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مزیت",
+          "en": "advantage"
+        },
+        "id_ref": "nomen_vorteil"
+      },
+      {
+        "wort": "profitieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سود بردن",
+          "en": "to profit"
+        },
+        "id_ref": "verb_profitieren"
+      },
+      {
+        "wort": "zugutehalten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "به نفع کسی در نظر گرفتن",
+          "en": "to give credit for"
+        },
+        "id_ref": "verb_zugutehalten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

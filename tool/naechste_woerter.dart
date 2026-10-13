@@ -1464,6 +1464,12 @@ const zurueckgestellt = <String>{
   'zueinanderkönnen', // zurückgestellt (Regel 14/16): Modalverb-Verbindung 2026-10-13
   'zueinanderlassen', // zurückgestellt (Regel 14/16): Schreibung schwankt, selten 2026-10-13
   'zuerkennen', // zurückgestellt (Regel 14/16): trennbar/untrennbar schwankt (erkannte zu / zuerkannte) 2026-10-13
+  'zugewinnen', // zurückgestellt (Regel 14/16): selten (meist hinzugewinnen/dazugewinnen) 2026-10-13
+  'zuhaben', // zurückgestellt (Regel 14/16): umgangssprachlich (wie aushaben, umhaben) 2026-10-13
+  'zuhauen', // zurückgestellt (Regel 14/16): haute/hieb (wie aufhauen) 2026-10-13
+  'zukneifen', // zurückgestellt (Regel 14/16): selten (wie auskneifen, einkneifen) 2026-10-13
+  'zukriechen', // zurückgestellt (Regel 14/16): selten (wie ankriechen) 2026-10-13
+  'zuladen', // zurückgestellt (Regel 14/16): selten/fachsprachlich (wie beiladen) 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

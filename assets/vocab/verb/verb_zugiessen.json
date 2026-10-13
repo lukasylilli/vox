@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_zugiessen",
+  "wort": "zugießen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(مایع) اضافه کردن، ریختن روی چیزی"
+    ],
+    "en": [
+      "to add (liquid)",
+      "to top up"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kochen"
+  ],
+  "ipa": "ˈt͡suːˌɡiːsn̩",
+  "anmerkung": "Trennbar (goss zu, zugegossen). Küchensprache.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Gieß noch etwas Wasser zu!",
+      "uebersetzung": {
+        "fa": "کمی دیگر آب اضافه کن!",
+        "en": "Add a little more water!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn die Soße zu dick wird, gießt man etwas Milch zu.",
+      "uebersetzung": {
+        "fa": "اگر سس خیلی غلیظ شد، کمی شیر اضافه می‌کنند.",
+        "en": "If the sauce gets too thick, you add a little milk."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nachgießen",
+      "uebersetzung": {
+        "fa": "دوباره ریختن",
+        "en": "to top up"
+      }
+    },
+    {
+      "wort": "hinzufügen",
+      "uebersetzung": {
+        "fa": "اضافه کردن",
+        "en": "to add"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zu- (افزوده) + gießen (ریختن)",
+    "en": "zu- (in addition) + gießen (to pour)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "zugießen",
+      "praeteritum": "goss zu",
+      "partizip2": "zugegossen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gieße zu",
+        "du": "gießt zu",
+        "er_sie_es": "gießt zu",
+        "wir": "gießen zu",
+        "ihr": "gießt zu",
+        "sie_Sie": "gießen zu"
+      },
+      "praeteritum": {
+        "ich": "goss zu",
+        "du": "gossest zu",
+        "er_sie_es": "goss zu",
+        "wir": "gossen zu",
+        "ihr": "gosst zu",
+        "sie_Sie": "gossen zu"
+      },
+      "konjunktiv1": {
+        "ich": "gieße zu",
+        "du": "gießest zu",
+        "er_sie_es": "gieße zu",
+        "wir": "gießen zu",
+        "ihr": "gießet zu",
+        "sie_Sie": "gießen zu"
+      },
+      "konjunktiv2": {
+        "ich": "gösse zu",
+        "du": "gössest zu",
+        "er_sie_es": "gösse zu",
+        "wir": "gössen zu",
+        "ihr": "gösset zu",
+        "sie_Sie": "gössen zu"
+      },
+      "imperativ": {
+        "du": "Gieß zu!",
+        "ihr": "Gießt zu!",
+        "Sie": "Gießen Sie zu!"
+      }
+    },
+    "partizip1": "zugießend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gießen",
+    "woerter": [
+      {
+        "wort": "gießen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریختن؛ آب دادن",
+          "en": "to pour; to water"
+        },
+        "id_ref": "verb_giessen"
+      },
+      {
+        "wort": "die Soße",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سس",
+          "en": "sauce"
+        },
+        "id_ref": "nomen_sosse"
+      },
+      {
+        "wort": "kochen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پختن",
+          "en": "to cook"
+        },
+        "id_ref": "verb_kochen"
+      },
+      {
+        "wort": "nachgießen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دوباره ریختن",
+          "en": "to top up"
+        },
+        "id_ref": "verb_nachgiessen"
+      },
+      {
+        "wort": "die Flüssigkeit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مایع",
+          "en": "liquid"
+        },
+        "id_ref": "nomen_fluessigkeit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

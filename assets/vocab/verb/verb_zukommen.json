@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_zukommen",
+  "wort": "zukommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نزدیک شدن، به طرف کسی آمدن",
+      "(برای کسی) پیش آمدن",
+      "به کسی رسیدن"
+    ],
+    "en": [
+      "to approach",
+      "to be in store for",
+      "to be due to"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Kommunikation"
+  ],
+  "ipa": "ˈt͡suːˌkɔmən",
+  "anmerkung": "Trennbar (kam zu, zugekommen), Perfekt mit «sein». Fest: «jemandem etwas zukommen lassen» (= schicken, geben).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ein Mann kommt auf uns zu.",
+      "uebersetzung": {
+        "fa": "مردی به طرف ما می‌آید.",
+        "en": "A man is coming towards us."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wir wissen noch nicht, welche Kosten auf uns zukommen, wenn wir umziehen.",
+      "uebersetzung": {
+        "fa": "هنوز نمی‌دانیم وقتی اسباب‌کشی کنیم چه هزینه‌هایی پیش رویمان است.",
+        "en": "We don't know yet what costs we will face when we move."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich nähern",
+      "uebersetzung": {
+        "fa": "نزدیک شدن",
+        "en": "to approach"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zu- (به‌سوی) + kommen (آمدن)",
+    "en": "zu- (towards) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Akk zukommen",
+        "bedeutung": "sich nähern; bevorstehen",
+        "beispiel": "Auf uns kommt viel Arbeit zu.",
+        "uebersetzung": {
+          "fa": "کار زیادی پیش روی ماست.",
+          "en": "A lot of work lies ahead of us."
+        }
+      },
+      {
+        "muster": "jemandem (Dat) zukommen",
+        "bedeutung": "jemandem gebühren, zustehen",
+        "beispiel": "Diese Entscheidung kommt dir nicht zu.",
+        "uebersetzung": {
+          "fa": "این تصمیم به تو مربوط نیست.",
+          "en": "This decision is not up to you."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zukommen",
+      "praeteritum": "kam zu",
+      "partizip2": "zugekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme zu",
+        "du": "kommst zu",
+        "er_sie_es": "kommt zu",
+        "wir": "kommen zu",
+        "ihr": "kommt zu",
+        "sie_Sie": "kommen zu"
+      },
+      "praeteritum": {
+        "ich": "kam zu",
+        "du": "kamst zu",
+        "er_sie_es": "kam zu",
+        "wir": "kamen zu",
+        "ihr": "kamt zu",
+        "sie_Sie": "kamen zu"
+      },
+      "konjunktiv1": {
+        "ich": "komme zu",
+        "du": "kommest zu",
+        "er_sie_es": "komme zu",
+        "wir": "kommen zu",
+        "ihr": "kommet zu",
+        "sie_Sie": "kommen zu"
+      },
+      "konjunktiv2": {
+        "ich": "käme zu",
+        "du": "kämest zu",
+        "er_sie_es": "käme zu",
+        "wir": "kämen zu",
+        "ihr": "kämet zu",
+        "sie_Sie": "kämen zu"
+      },
+      "imperativ": {
+        "du": "Komm zu!",
+        "ihr": "Kommt zu!",
+        "Sie": "Kommen Sie zu!"
+      }
+    },
+    "partizip1": "zukommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "die Zukunft",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آینده",
+          "en": "future"
+        },
+        "id_ref": "nomen_zukunft"
+      },
+      {
+        "wort": "zugehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به طرف کسی رفتن",
+          "en": "to approach"
+        },
+        "id_ref": "verb_zugehen"
+      },
+      {
+        "wort": "sich nähern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نزدیک شدن",
+          "en": "to approach"
+        },
+        "id_ref": "verb_sich_naehern"
+      },
+      {
+        "wort": "bevorstehen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "در پیش بودن",
+          "en": "to be imminent"
+        },
+        "id_ref": "verb_bevorstehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

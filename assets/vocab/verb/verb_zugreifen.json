@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_zugreifen",
+  "wort": "zugreifen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "برداشتن، دست دراز کردن",
+      "دسترسی داشتن (به داده)"
+    ],
+    "en": [
+      "to help oneself",
+      "to access"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Essen",
+    "Technik"
+  ],
+  "ipa": "ˈt͡suːˌɡʁaɪ̯fn̩",
+  "anmerkung": "Trennbar (griff zu, zugegriffen). Höflich beim Essen: «Greifen Sie zu!»",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte greifen Sie zu!",
+      "uebersetzung": {
+        "fa": "بفرمایید، از خودتان پذیرایی کنید!",
+        "en": "Please help yourself!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ohne Passwort kann man nicht auf die Daten zugreifen.",
+      "uebersetzung": {
+        "fa": "بدون رمز نمی‌توان به داده‌ها دسترسی داشت.",
+        "en": "You cannot access the data without a password."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich bedienen",
+      "uebersetzung": {
+        "fa": "از خود پذیرایی کردن",
+        "en": "to help oneself"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zu- (به‌سوی) + greifen (گرفتن)",
+    "en": "zu- (towards) + greifen (to grab)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Akk zugreifen",
+        "bedeutung": "etwas (z. B. Daten) benutzen, Zugang haben",
+        "beispiel": "Die App greift auf deine Kamera zu.",
+        "uebersetzung": {
+          "fa": "این برنامه به دوربینت دسترسی پیدا می‌کند.",
+          "en": "The app accesses your camera."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zugreifen",
+      "praeteritum": "griff zu",
+      "partizip2": "zugegriffen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "greife zu",
+        "du": "greifst zu",
+        "er_sie_es": "greift zu",
+        "wir": "greifen zu",
+        "ihr": "greift zu",
+        "sie_Sie": "greifen zu"
+      },
+      "praeteritum": {
+        "ich": "griff zu",
+        "du": "griffst zu",
+        "er_sie_es": "griff zu",
+        "wir": "griffen zu",
+        "ihr": "grifft zu",
+        "sie_Sie": "griffen zu"
+      },
+      "konjunktiv1": {
+        "ich": "greife zu",
+        "du": "greifest zu",
+        "er_sie_es": "greife zu",
+        "wir": "greifen zu",
+        "ihr": "greifet zu",
+        "sie_Sie": "greifen zu"
+      },
+      "konjunktiv2": {
+        "ich": "griffe zu",
+        "du": "griffest zu",
+        "er_sie_es": "griffe zu",
+        "wir": "griffen zu",
+        "ihr": "griffet zu",
+        "sie_Sie": "griffen zu"
+      },
+      "imperativ": {
+        "du": "Greif zu!",
+        "ihr": "Greift zu!",
+        "Sie": "Greifen Sie zu!"
+      }
+    },
+    "partizip1": "zugreifend",
+    "nominalisierung": "der Zugriff"
+  },
+  "wortnetz": {
+    "grundwort": "greifen",
+    "woerter": [
+      {
+        "wort": "greifen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گرفتن",
+          "en": "to grab"
+        },
+        "id_ref": "verb_greifen"
+      },
+      {
+        "wort": "der Zugriff",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دسترسی",
+          "en": "access"
+        },
+        "id_ref": "nomen_zugriff"
+      },
+      {
+        "wort": "die Daten",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "داده‌ها",
+          "en": "data"
+        },
+        "id_ref": "nomen_daten"
+      },
+      {
+        "wort": "das Passwort",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رمز عبور",
+          "en": "password"
+        },
+        "id_ref": "nomen_passwort"
+      },
+      {
+        "wort": "nehmen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "برداشتن",
+          "en": "to take"
+        },
+        "id_ref": "verb_nehmen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
