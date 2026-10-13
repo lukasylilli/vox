@@ -1,0 +1,196 @@
+{
+  "schema": "3.0",
+  "id": "verb_zulaufen",
+  "wort": "zulaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دوان‌دوان به طرف کسی رفتن",
+      "(حیوان) پناه آوردن به کسی",
+      "(شکل) باریک شدن به‌سوی"
+    ],
+    "en": [
+      "to run towards",
+      "to stray to someone (animal)",
+      "to taper"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Tiere"
+  ],
+  "ipa": "ˈt͡suːˌlaʊ̯fn̩",
+  "anmerkung": "Trennbar (lief zu, zugelaufen), Perfekt mit «sein». «Uns ist eine Katze zugelaufen.» Form: «spitz zulaufen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Kind läuft auf seine Mutter zu.",
+      "uebersetzung": {
+        "fa": "بچه به طرف مادرش می‌دود.",
+        "en": "The child runs towards its mother."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Katze, die uns letzten Winter zugelaufen ist, wohnt jetzt bei uns.",
+      "uebersetzung": {
+        "fa": "گربه‌ای که زمستان گذشته به ما پناه آورد، حالا پیش ما زندگی می‌کند.",
+        "en": "The cat that strayed to us last winter now lives with us."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zurennen",
+      "uebersetzung": {
+        "fa": "به طرف کسی دویدن",
+        "en": "to run towards"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "weglaufen",
+      "uebersetzung": {
+        "fa": "فرار کردن",
+        "en": "to run away"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zu- (به‌سوی) + laufen (دویدن)",
+    "en": "zu- (towards) + laufen (to run)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Akk zulaufen",
+        "bedeutung": "sich laufend auf jemanden zubewegen",
+        "beispiel": "Der Hund lief freudig auf mich zu.",
+        "uebersetzung": {
+          "fa": "سگ با خوشحالی به طرفم دوید.",
+          "en": "The dog ran happily towards me."
+        }
+      },
+      {
+        "muster": "jemandem zulaufen (+ Dat)",
+        "bedeutung": "(von Tieren) bei jemandem bleiben, ohne Besitzer",
+        "beispiel": "Ihr ist ein kleiner Hund zugelaufen.",
+        "uebersetzung": {
+          "fa": "سگ کوچکی به او پناه آورد.",
+          "en": "A little dog strayed to her."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zulaufen",
+      "praeteritum": "lief zu",
+      "partizip2": "zugelaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laufe zu",
+        "du": "läufst zu",
+        "er_sie_es": "läuft zu",
+        "wir": "laufen zu",
+        "ihr": "lauft zu",
+        "sie_Sie": "laufen zu"
+      },
+      "praeteritum": {
+        "ich": "lief zu",
+        "du": "liefst zu",
+        "er_sie_es": "lief zu",
+        "wir": "liefen zu",
+        "ihr": "lieft zu",
+        "sie_Sie": "liefen zu"
+      },
+      "konjunktiv1": {
+        "ich": "laufe zu",
+        "du": "laufest zu",
+        "er_sie_es": "laufe zu",
+        "wir": "laufen zu",
+        "ihr": "laufet zu",
+        "sie_Sie": "laufen zu"
+      },
+      "konjunktiv2": {
+        "ich": "liefe zu",
+        "du": "liefest zu",
+        "er_sie_es": "liefe zu",
+        "wir": "liefen zu",
+        "ihr": "liefet zu",
+        "sie_Sie": "liefen zu"
+      },
+      "imperativ": {
+        "du": "Lauf zu!",
+        "ihr": "Lauft zu!",
+        "Sie": "Laufen Sie zu!"
+      }
+    },
+    "partizip1": "zulaufend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دویدن؛ راه رفتن",
+          "en": "to run; to walk"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "weglaufen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فرار کردن",
+          "en": "to run away"
+        },
+        "id_ref": "verb_weglaufen"
+      },
+      {
+        "wort": "zugehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به طرف کسی رفتن",
+          "en": "to approach"
+        },
+        "id_ref": "verb_zugehen"
+      },
+      {
+        "wort": "die Katze",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گربه",
+          "en": "cat"
+        },
+        "id_ref": "nomen_katze"
+      },
+      {
+        "wort": "spitz",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نوک‌تیز",
+          "en": "pointed"
+        },
+        "id_ref": "adjektiv_spitz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

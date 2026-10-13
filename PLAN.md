@@ -2777,6 +2777,9 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۴۱۷ | zukneifen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر (مثل einkneifen) — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۱۸ | zukriechen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۱۹ | zuladen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر/تخصصی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۲۰ | zurechtbiegen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر (مثل herumbiegen) — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۲۱ | zurechtbringen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر/قدیمی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۲۲ | zurückbegeben | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | ادبی/نادر — قاعده‌ی ۱۴/۱۶ | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 

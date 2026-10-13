@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_zurueckbleiben",
+  "wort": "zurückbleiben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جا ماندن، عقب ماندن",
+      "باقی ماندن"
+    ],
+    "en": [
+      "to stay behind",
+      "to fall behind",
+      "to remain"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "t͡suˈʁʏkˌblaɪ̯bn̩",
+  "anmerkung": "Trennbar (blieb zurück, zurückgeblieben), Perfekt mit «sein». Partizip «zurückgeblieben» auch abwertendes Adjektiv.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte bleiben Sie hinter der Linie zurück!",
+      "uebersetzung": {
+        "fa": "لطفاً پشت خط بمانید!",
+        "en": "Please stay behind the line!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nachdem alle Gäste gegangen waren, blieb nur ein Glas auf dem Tisch zurück.",
+      "uebersetzung": {
+        "fa": "بعد از رفتن همه‌ی مهمان‌ها، فقط یک لیوان روی میز ماند.",
+        "en": "After all the guests had left, only one glass remained on the table."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "dableiben",
+      "uebersetzung": {
+        "fa": "ماندن",
+        "en": "to stay"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "vorangehen",
+      "uebersetzung": {
+        "fa": "جلو رفتن",
+        "en": "to go ahead"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zurück (عقب) + bleiben (ماندن)",
+    "en": "zurück (back) + bleiben (to stay)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "hinter + Dat zurückbleiben",
+        "bedeutung": "schlechter sein als erwartet",
+        "beispiel": "Die Ergebnisse blieben hinter den Erwartungen zurück.",
+        "uebersetzung": {
+          "fa": "نتایج کمتر از انتظار بود.",
+          "en": "The results fell short of expectations."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zurückbleiben",
+      "praeteritum": "blieb zurück",
+      "partizip2": "zurückgeblieben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bleibe zurück",
+        "du": "bleibst zurück",
+        "er_sie_es": "bleibt zurück",
+        "wir": "bleiben zurück",
+        "ihr": "bleibt zurück",
+        "sie_Sie": "bleiben zurück"
+      },
+      "praeteritum": {
+        "ich": "blieb zurück",
+        "du": "bliebst zurück",
+        "er_sie_es": "blieb zurück",
+        "wir": "blieben zurück",
+        "ihr": "bliebt zurück",
+        "sie_Sie": "blieben zurück"
+      },
+      "konjunktiv1": {
+        "ich": "bleibe zurück",
+        "du": "bleibest zurück",
+        "er_sie_es": "bleibe zurück",
+        "wir": "bleiben zurück",
+        "ihr": "bleibet zurück",
+        "sie_Sie": "bleiben zurück"
+      },
+      "konjunktiv2": {
+        "ich": "bliebe zurück",
+        "du": "bliebest zurück",
+        "er_sie_es": "bliebe zurück",
+        "wir": "blieben zurück",
+        "ihr": "bliebet zurück",
+        "sie_Sie": "blieben zurück"
+      },
+      "imperativ": {
+        "du": "Bleib zurück!",
+        "ihr": "Bleibt zurück!",
+        "Sie": "Bleiben Sie zurück!"
+      }
+    },
+    "partizip1": "zurückbleibend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bleiben",
+    "woerter": [
+      {
+        "wort": "bleiben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ماندن",
+          "en": "to stay"
+        },
+        "id_ref": "verb_bleiben"
+      },
+      {
+        "wort": "zurück",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عقب؛ برگشت",
+          "en": "back"
+        },
+        "id_ref": "adverb_zurueck"
+      },
+      {
+        "wort": "der Rest",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "باقی‌مانده",
+          "en": "rest"
+        },
+        "id_ref": "nomen_rest"
+      },
+      {
+        "wort": "dableiben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ماندن",
+          "en": "to stay"
+        },
+        "id_ref": "verb_dableiben"
+      },
+      {
+        "wort": "zurücklassen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جا گذاشتن",
+          "en": "to leave behind"
+        },
+        "id_ref": "verb_zuruecklassen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

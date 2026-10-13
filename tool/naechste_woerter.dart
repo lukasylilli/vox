@@ -1470,6 +1470,9 @@ const zurueckgestellt = <String>{
   'zukneifen', // zurückgestellt (Regel 14/16): selten (wie auskneifen, einkneifen) 2026-10-13
   'zukriechen', // zurückgestellt (Regel 14/16): selten (wie ankriechen) 2026-10-13
   'zuladen', // zurückgestellt (Regel 14/16): selten/fachsprachlich (wie beiladen) 2026-10-13
+  'zurechtbiegen', // zurückgestellt (Regel 14/16): selten (wie beibiegen, herumbiegen) 2026-10-13
+  'zurechtbringen', // zurückgestellt (Regel 14/16): selten/veraltet 2026-10-13
+  'zurückbegeben', // zurückgestellt (Regel 14/16): gehoben/selten (wie hinbegeben) 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_zurueckbehalten",
+  "wort": "zurückbehalten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نگه داشتن (و پس ندادن)",
+      "(اثر، آسیب) باقی ماندن"
+    ],
+    "en": [
+      "to keep back",
+      "to be left with"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Gesundheit"
+  ],
+  "ipa": "t͡suˈʁʏkbəˌhaltn̩",
+  "anmerkung": "Trennbar (behielt zurück, zurückbehalten) — Partizip II ohne ge-.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Vermieter behält die Kaution zurück.",
+      "uebersetzung": {
+        "fa": "صاحبخانه ودیعه را پس نمی‌دهد.",
+        "en": "The landlord keeps back the deposit."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Von dem Unfall hat er eine Narbe am Knie zurückbehalten.",
+      "uebersetzung": {
+        "fa": "از آن تصادف جای زخمی روی زانویش مانده است.",
+        "en": "He was left with a scar on his knee from the accident."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einbehalten",
+      "uebersetzung": {
+        "fa": "نگه داشتن، کسر کردن",
+        "en": "to withhold"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zurückgeben",
+      "uebersetzung": {
+        "fa": "پس دادن",
+        "en": "to give back"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zurück (عقب) + behalten (نگه داشتن)",
+    "en": "zurück (back) + behalten (to keep)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "zurückbehalten",
+      "praeteritum": "behielt zurück",
+      "partizip2": "zurückbehalten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "behalte zurück",
+        "du": "behältst zurück",
+        "er_sie_es": "behält zurück",
+        "wir": "behalten zurück",
+        "ihr": "behaltet zurück",
+        "sie_Sie": "behalten zurück"
+      },
+      "praeteritum": {
+        "ich": "behielt zurück",
+        "du": "behieltest zurück",
+        "er_sie_es": "behielt zurück",
+        "wir": "behielten zurück",
+        "ihr": "behieltet zurück",
+        "sie_Sie": "behielten zurück"
+      },
+      "konjunktiv1": {
+        "ich": "behalte zurück",
+        "du": "behaltest zurück",
+        "er_sie_es": "behalte zurück",
+        "wir": "behalten zurück",
+        "ihr": "behaltet zurück",
+        "sie_Sie": "behalten zurück"
+      },
+      "konjunktiv2": {
+        "ich": "behielte zurück",
+        "du": "behieltest zurück",
+        "er_sie_es": "behielte zurück",
+        "wir": "behielten zurück",
+        "ihr": "behieltet zurück",
+        "sie_Sie": "behielten zurück"
+      },
+      "imperativ": {
+        "du": "Behalte zurück!",
+        "ihr": "Behaltet zurück!",
+        "Sie": "Behalten Sie zurück!"
+      }
+    },
+    "partizip1": "zurückbehaltend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "behalten",
+    "woerter": [
+      {
+        "wort": "behalten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to keep"
+        },
+        "id_ref": "verb_behalten"
+      },
+      {
+        "wort": "zurückgeben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پس دادن",
+          "en": "to give back"
+        },
+        "id_ref": "verb_zurueckgeben"
+      },
+      {
+        "wort": "die Kaution",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ودیعه",
+          "en": "deposit"
+        },
+        "id_ref": "nomen_kaution"
+      },
+      {
+        "wort": "die Narbe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جای زخم",
+          "en": "scar"
+        },
+        "id_ref": "nomen_narbe"
+      },
+      {
+        "wort": "einbehalten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کسر کردن، نگه داشتن",
+          "en": "to withhold"
+        },
+        "id_ref": "verb_einbehalten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
