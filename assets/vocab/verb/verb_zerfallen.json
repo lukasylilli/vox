@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_zerfallen",
+  "wort": "zerfallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "از هم پاشیدن",
+      "فرو ریختن، تجزیه شدن"
+    ],
+    "en": [
+      "to disintegrate",
+      "to fall apart"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Natur",
+    "Geschichte"
+  ],
+  "ipa": "t͡sɛɐ̯ˈfalən",
+  "anmerkung": "Untrennbar (zerfiel, zerfallen), Perfekt mit «sein». Auch: «in etwas zerfallen» (sich gliedern).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das alte Haus zerfällt langsam.",
+      "uebersetzung": {
+        "fa": "خانه‌ی قدیمی کم‌کم فرو می‌ریزد.",
+        "en": "The old house is slowly falling apart."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem der Herrscher gestorben war, zerfiel das Reich in mehrere Staaten.",
+      "uebersetzung": {
+        "fa": "پس از مرگ فرمانروا، امپراتوری به چند کشور تجزیه شد.",
+        "en": "After the ruler had died, the empire broke up into several states."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verfallen",
+      "uebersetzung": {
+        "fa": "رو به ویرانی رفتن",
+        "en": "to decay"
+      }
+    },
+    {
+      "wort": "auseinanderfallen",
+      "uebersetzung": {
+        "fa": "از هم پاشیدن",
+        "en": "to fall apart"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zer- (از هم) + fallen (افتادن)",
+    "en": "zer- (apart) + fallen (to fall)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in + Akk zerfallen",
+        "bedeutung": "sich in Teile gliedern oder auflösen",
+        "beispiel": "Das Buch zerfällt in drei Teile.",
+        "uebersetzung": {
+          "fa": "کتاب به سه بخش تقسیم می‌شود.",
+          "en": "The book is divided into three parts."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zerfallen",
+      "praeteritum": "zerfiel",
+      "partizip2": "zerfallen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "zerfalle",
+        "du": "zerfällst",
+        "er_sie_es": "zerfällt",
+        "wir": "zerfallen",
+        "ihr": "zerfallt",
+        "sie_Sie": "zerfallen"
+      },
+      "praeteritum": {
+        "ich": "zerfiel",
+        "du": "zerfielst",
+        "er_sie_es": "zerfiel",
+        "wir": "zerfielen",
+        "ihr": "zerfielt",
+        "sie_Sie": "zerfielen"
+      },
+      "konjunktiv1": {
+        "ich": "zerfalle",
+        "du": "zerfallest",
+        "er_sie_es": "zerfalle",
+        "wir": "zerfallen",
+        "ihr": "zerfallet",
+        "sie_Sie": "zerfallen"
+      },
+      "konjunktiv2": {
+        "ich": "zerfiele",
+        "du": "zerfielest",
+        "er_sie_es": "zerfiele",
+        "wir": "zerfielen",
+        "ihr": "zerfielet",
+        "sie_Sie": "zerfielen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "zerfallend",
+    "nominalisierung": "der Zerfall"
+  },
+  "wortnetz": {
+    "grundwort": "fallen",
+    "woerter": [
+      {
+        "wort": "fallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "افتادن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_fallen"
+      },
+      {
+        "wort": "der Zerfall",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "فروپاشی، تجزیه",
+          "en": "decay"
+        },
+        "id_ref": "nomen_zerfall"
+      },
+      {
+        "wort": "verfallen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رو به ویرانی رفتن",
+          "en": "to decay"
+        },
+        "id_ref": "verb_verfallen"
+      },
+      {
+        "wort": "die Ruine",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ویرانه",
+          "en": "ruin"
+        },
+        "id_ref": "nomen_ruine"
+      },
+      {
+        "wort": "zusammenbrechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فرو ریختن",
+          "en": "to collapse"
+        },
+        "id_ref": "verb_zusammenbrechen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

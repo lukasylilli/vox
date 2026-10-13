@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_zerlaufen",
+  "wort": "zerlaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آب شدن و پخش شدن"
+    ],
+    "en": [
+      "to melt",
+      "to run"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Essen"
+  ],
+  "ipa": "t͡sɛɐ̯ˈlaʊ̯fn̩",
+  "anmerkung": "Untrennbar (zerlief, zerlaufen), Perfekt mit «sein».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Käse zerläuft auf der Pizza.",
+      "uebersetzung": {
+        "fa": "پنیر روی پیتزا آب می‌شود.",
+        "en": "The cheese melts on the pizza."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Da es draußen so heiß war, ist das Eis zerlaufen, bevor wir es essen konnten.",
+      "uebersetzung": {
+        "fa": "چون بیرون خیلی گرم بود، بستنی پیش از آنکه بتوانیم بخوریم آب شد.",
+        "en": "Because it was so hot outside, the ice cream melted before we could eat it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schmelzen",
+      "uebersetzung": {
+        "fa": "ذوب شدن",
+        "en": "to melt"
+      }
+    },
+    {
+      "wort": "zerfließen",
+      "uebersetzung": {
+        "fa": "آب شدن",
+        "en": "to melt away"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zer- (از هم) + laufen (روان شدن)",
+    "en": "zer- (apart) + laufen (to run)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "zerlaufen",
+      "praeteritum": "zerlief",
+      "partizip2": "zerlaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "zerlaufe",
+        "du": "zerläufst",
+        "er_sie_es": "zerläuft",
+        "wir": "zerlaufen",
+        "ihr": "zerlauft",
+        "sie_Sie": "zerlaufen"
+      },
+      "praeteritum": {
+        "ich": "zerlief",
+        "du": "zerliefst",
+        "er_sie_es": "zerlief",
+        "wir": "zerliefen",
+        "ihr": "zerlieft",
+        "sie_Sie": "zerliefen"
+      },
+      "konjunktiv1": {
+        "ich": "zerlaufe",
+        "du": "zerlaufest",
+        "er_sie_es": "zerlaufe",
+        "wir": "zerlaufen",
+        "ihr": "zerlaufet",
+        "sie_Sie": "zerlaufen"
+      },
+      "konjunktiv2": {
+        "ich": "zerliefe",
+        "du": "zerliefest",
+        "er_sie_es": "zerliefe",
+        "wir": "zerliefen",
+        "ihr": "zerliefet",
+        "sie_Sie": "zerliefen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "zerlaufend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "schmelzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ذوب شدن",
+          "en": "to melt"
+        },
+        "id_ref": "verb_schmelzen"
+      },
+      {
+        "wort": "der Käse",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پنیر",
+          "en": "cheese"
+        },
+        "id_ref": "nomen_kaese"
+      },
+      {
+        "wort": "heiß",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "داغ",
+          "en": "hot"
+        },
+        "id_ref": "adjektiv_heiss"
+      },
+      {
+        "wort": "zerfließen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آب شدن",
+          "en": "to melt away"
+        },
+        "id_ref": "verb_zerfliessen"
+      },
+      {
+        "wort": "zergehen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آب شدن",
+          "en": "to melt"
+        },
+        "id_ref": "verb_zergehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

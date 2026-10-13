@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_zergehen",
+  "wort": "zergehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آب شدن، حل شدن"
+    ],
+    "en": [
+      "to melt",
+      "to dissolve"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Essen"
+  ],
+  "ipa": "t͡sɛɐ̯ˈɡeːən",
+  "anmerkung": "Untrennbar (zerging, zergangen), Perfekt mit «sein». Fest: «auf der Zunge zergehen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Butter zergeht in der Pfanne.",
+      "uebersetzung": {
+        "fa": "کره در ماهیتابه آب می‌شود.",
+        "en": "The butter melts in the pan."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Schokolade ist so weich, dass sie auf der Zunge zergeht.",
+      "uebersetzung": {
+        "fa": "شکلات آن‌قدر نرم است که روی زبان آب می‌شود.",
+        "en": "The chocolate is so soft that it melts on your tongue."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schmelzen",
+      "uebersetzung": {
+        "fa": "ذوب شدن",
+        "en": "to melt"
+      }
+    },
+    {
+      "wort": "sich auflösen",
+      "uebersetzung": {
+        "fa": "حل شدن",
+        "en": "to dissolve"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zer- (از هم) + gehen (رفتن)",
+    "en": "zer- (apart) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "zergehen",
+      "praeteritum": "zerging",
+      "partizip2": "zergangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "zergehe",
+        "du": "zergehst",
+        "er_sie_es": "zergeht",
+        "wir": "zergehen",
+        "ihr": "zergeht",
+        "sie_Sie": "zergehen"
+      },
+      "praeteritum": {
+        "ich": "zerging",
+        "du": "zergingst",
+        "er_sie_es": "zerging",
+        "wir": "zergingen",
+        "ihr": "zergingt",
+        "sie_Sie": "zergingen"
+      },
+      "konjunktiv1": {
+        "ich": "zergehe",
+        "du": "zergehest",
+        "er_sie_es": "zergehe",
+        "wir": "zergehen",
+        "ihr": "zergehet",
+        "sie_Sie": "zergehen"
+      },
+      "konjunktiv2": {
+        "ich": "zerginge",
+        "du": "zergingest",
+        "er_sie_es": "zerginge",
+        "wir": "zergingen",
+        "ihr": "zerginget",
+        "sie_Sie": "zergingen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "zergehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "schmelzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ذوب شدن",
+          "en": "to melt"
+        },
+        "id_ref": "verb_schmelzen"
+      },
+      {
+        "wort": "auflösen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حل کردن",
+          "en": "to dissolve"
+        },
+        "id_ref": "verb_aufloesen"
+      },
+      {
+        "wort": "die Zunge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زبان (عضو)",
+          "en": "tongue"
+        },
+        "id_ref": "nomen_zunge"
+      },
+      {
+        "wort": "weich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نرم",
+          "en": "soft"
+        },
+        "id_ref": "adjektiv_weich"
+      },
+      {
+        "wort": "zerfließen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آب شدن",
+          "en": "to melt away"
+        },
+        "id_ref": "verb_zerfliessen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

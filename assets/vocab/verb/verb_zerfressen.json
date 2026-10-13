@@ -1,0 +1,167 @@
+{
+  "schema": "3.0",
+  "id": "verb_zerfressen",
+  "wort": "zerfressen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خوردن و سوراخ‌سوراخ کردن (حشره)",
+      "خوردگی ایجاد کردن، فرسودن"
+    ],
+    "en": [
+      "to eat away",
+      "to corrode"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Technik"
+  ],
+  "ipa": "t͡sɛɐ̯ˈfʁɛsn̩",
+  "anmerkung": "Untrennbar (zerfraß, zerfressen). Bildlich: «von Eifersucht zerfressen sein».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Motten haben den Pullover zerfressen.",
+      "uebersetzung": {
+        "fa": "بید پلیور را خورده و سوراخ کرده است.",
+        "en": "Moths have eaten holes in the sweater."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil das Auto jahrelang im Regen stand, hat der Rost das Blech zerfressen.",
+      "uebersetzung": {
+        "fa": "چون ماشین سال‌ها زیر باران ماند، زنگ بدنه را خورده است.",
+        "en": "Because the car stood in the rain for years, rust has eaten away the bodywork."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zersetzen",
+      "uebersetzung": {
+        "fa": "تجزیه کردن",
+        "en": "to decompose"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zer- (از هم) + fressen (خوردن حیوان)",
+    "en": "zer- (apart) + fressen (to eat, of animals)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "zerfressen",
+      "praeteritum": "zerfraß",
+      "partizip2": "zerfressen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "zerfresse",
+        "du": "zerfrisst",
+        "er_sie_es": "zerfrisst",
+        "wir": "zerfressen",
+        "ihr": "zerfresst",
+        "sie_Sie": "zerfressen"
+      },
+      "praeteritum": {
+        "ich": "zerfraß",
+        "du": "zerfraßest",
+        "er_sie_es": "zerfraß",
+        "wir": "zerfraßen",
+        "ihr": "zerfraßt",
+        "sie_Sie": "zerfraßen"
+      },
+      "konjunktiv1": {
+        "ich": "zerfresse",
+        "du": "zerfressest",
+        "er_sie_es": "zerfresse",
+        "wir": "zerfressen",
+        "ihr": "zerfresset",
+        "sie_Sie": "zerfressen"
+      },
+      "konjunktiv2": {
+        "ich": "zerfräße",
+        "du": "zerfräßest",
+        "er_sie_es": "zerfräße",
+        "wir": "zerfräßen",
+        "ihr": "zerfräßet",
+        "sie_Sie": "zerfräßen"
+      },
+      "imperativ": {
+        "du": "Zerfriss!",
+        "ihr": "Zerfresst!",
+        "Sie": "Zerfressen Sie!"
+      }
+    },
+    "partizip1": "zerfressend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fressen",
+    "woerter": [
+      {
+        "wort": "fressen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خوردن (حیوان)",
+          "en": "to eat (animals)"
+        },
+        "id_ref": "verb_fressen"
+      },
+      {
+        "wort": "der Rost",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زنگ‌زدگی",
+          "en": "rust"
+        },
+        "id_ref": "nomen_rost"
+      },
+      {
+        "wort": "die Motte",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بید",
+          "en": "moth"
+        },
+        "id_ref": "nomen_motte"
+      },
+      {
+        "wort": "kaputt",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خراب",
+          "en": "broken"
+        },
+        "id_ref": "adjektiv_kaputt"
+      },
+      {
+        "wort": "zerstören",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نابود کردن",
+          "en": "to destroy"
+        },
+        "id_ref": "verb_zerstoeren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

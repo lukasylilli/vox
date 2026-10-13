@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_zerfliessen",
+  "wort": "zerfließen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آب شدن، وا رفتن",
+      "پخش شدن (رنگ)"
+    ],
+    "en": [
+      "to melt away",
+      "to run (colours)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Essen"
+  ],
+  "ipa": "t͡sɛɐ̯ˈfliːsn̩",
+  "anmerkung": "Untrennbar (zerfloss, zerflossen), Perfekt mit «sein». Bildlich: «vor Mitleid zerfließen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Eis zerfließt in der Sonne.",
+      "uebersetzung": {
+        "fa": "بستنی زیر آفتاب آب می‌شود.",
+        "en": "The ice cream is melting in the sun."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil das Papier nass wurde, zerflossen die Farben auf dem Bild.",
+      "uebersetzung": {
+        "fa": "چون کاغذ خیس شد، رنگ‌های نقاشی پخش شدند.",
+        "en": "Because the paper got wet, the colours on the picture ran."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schmelzen",
+      "uebersetzung": {
+        "fa": "ذوب شدن",
+        "en": "to melt"
+      }
+    },
+    {
+      "wort": "zergehen",
+      "uebersetzung": {
+        "fa": "آب شدن",
+        "en": "to melt"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zer- (از هم) + fließen (جاری شدن)",
+    "en": "zer- (apart) + fließen (to flow)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "zerfließen",
+      "praeteritum": "zerfloss",
+      "partizip2": "zerflossen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "zerfließe",
+        "du": "zerfließt",
+        "er_sie_es": "zerfließt",
+        "wir": "zerfließen",
+        "ihr": "zerfließt",
+        "sie_Sie": "zerfließen"
+      },
+      "praeteritum": {
+        "ich": "zerfloss",
+        "du": "zerflossest",
+        "er_sie_es": "zerfloss",
+        "wir": "zerflossen",
+        "ihr": "zerflosst",
+        "sie_Sie": "zerflossen"
+      },
+      "konjunktiv1": {
+        "ich": "zerfließe",
+        "du": "zerfließest",
+        "er_sie_es": "zerfließe",
+        "wir": "zerfließen",
+        "ihr": "zerfließet",
+        "sie_Sie": "zerfließen"
+      },
+      "konjunktiv2": {
+        "ich": "zerflösse",
+        "du": "zerflössest",
+        "er_sie_es": "zerflösse",
+        "wir": "zerflössen",
+        "ihr": "zerflösset",
+        "sie_Sie": "zerflössen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "zerfließend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fließen",
+    "woerter": [
+      {
+        "wort": "fließen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جاری شدن",
+          "en": "to flow"
+        },
+        "id_ref": "verb_fliessen"
+      },
+      {
+        "wort": "schmelzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ذوب شدن",
+          "en": "to melt"
+        },
+        "id_ref": "verb_schmelzen"
+      },
+      {
+        "wort": "flüssig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مایع",
+          "en": "liquid"
+        },
+        "id_ref": "adjektiv_fluessig"
+      },
+      {
+        "wort": "zergehen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آب شدن",
+          "en": "to melt"
+        },
+        "id_ref": "verb_zergehen"
+      },
+      {
+        "wort": "die Farbe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رنگ",
+          "en": "colour"
+        },
+        "id_ref": "nomen_farbe"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

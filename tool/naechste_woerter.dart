@@ -1451,6 +1451,12 @@ const zurueckgestellt = <String>{
   'wissenlassen', // zurückgestellt (Regel 14/16): Schreibung (wissen lassen) 2026-10-13
   'wundliegen', // zurückgestellt (Regel 14/16): Schreibung schwankt (wund liegen) 2026-10-13
   'zeihen', // zurückgestellt (Regel 14/16): veraltet 2026-10-13
+  'zerbersten', // zurückgestellt (Regel 14/16): selten/gehoben (wie aufbersten, auseinanderbersten) 2026-10-13
+  'zerfahren', // zurückgestellt (Regel 14/16): als Verb selten (meist Adjektiv «zerfahren») 2026-10-13
+  'zerhauen', // zurückgestellt (Regel 14/16): haute/hieb (wie aufhauen) 2026-10-13
+  'zerklieben', // zurückgestellt (Regel 14/16): veraltet 2026-10-13
+  'zerlesen', // zurückgestellt (Regel 14/16): als Verb selten (meist Adjektiv «zerlesen») 2026-10-13
+  'zermahlen', // zurückgestellt (Regel 14/16): mahlte/gemahlen (wie ausmahlen, vermahlen) 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

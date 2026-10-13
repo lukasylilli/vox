@@ -1,0 +1,198 @@
+{
+  "schema": "3.0",
+  "id": "verb_ziehen",
+  "wort": "ziehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کشیدن",
+      "نقل مکان کردن، کوچ کردن"
+    ],
+    "en": [
+      "to pull",
+      "to move (house)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Wohnen"
+  ],
+  "ipa": "ˈt͡siːən",
+  "anmerkung": "Transitiv mit «haben» («Er hat an der Tür gezogen.»); in der Bedeutung «sich fortbewegen, umziehen» mit «sein»: «Wir sind nach Wien gezogen.» Unpersönlich: «Es zieht!» (Luftzug).",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Bitte ziehen Sie die Tür.",
+      "uebersetzung": {
+        "fa": "لطفاً در را بکشید.",
+        "en": "Please pull the door."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nachdem sie geheiratet hatten, sind sie in eine größere Wohnung gezogen.",
+      "uebersetzung": {
+        "fa": "بعد از ازدواج به آپارتمان بزرگ‌تری نقل مکان کردند.",
+        "en": "After they had got married, they moved into a bigger flat."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zerren",
+      "uebersetzung": {
+        "fa": "به زور کشیدن",
+        "en": "to tug"
+      }
+    },
+    {
+      "wort": "umziehen",
+      "uebersetzung": {
+        "fa": "اسباب‌کشی کردن",
+        "en": "to move house"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "drücken",
+      "uebersetzung": {
+        "fa": "فشار دادن، هل دادن",
+        "en": "to push"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "an + Dat ziehen",
+        "bedeutung": "kräftig an etwas zerren",
+        "beispiel": "Der Hund zieht an der Leine.",
+        "uebersetzung": {
+          "fa": "سگ قلاده را می‌کشد.",
+          "en": "The dog is pulling on the lead."
+        }
+      },
+      {
+        "muster": "in + Akk / nach + Dat ziehen",
+        "bedeutung": "den Wohnort wechseln (mit sein)",
+        "beispiel": "Wir sind nach Graz gezogen.",
+        "uebersetzung": {
+          "fa": "ما به گراتس نقل مکان کردیم.",
+          "en": "We moved to Graz."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ziehen",
+      "praeteritum": "zog",
+      "partizip2": "gezogen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ziehe",
+        "du": "ziehst",
+        "er_sie_es": "zieht",
+        "wir": "ziehen",
+        "ihr": "zieht",
+        "sie_Sie": "ziehen"
+      },
+      "praeteritum": {
+        "ich": "zog",
+        "du": "zogst",
+        "er_sie_es": "zog",
+        "wir": "zogen",
+        "ihr": "zogt",
+        "sie_Sie": "zogen"
+      },
+      "konjunktiv1": {
+        "ich": "ziehe",
+        "du": "ziehest",
+        "er_sie_es": "ziehe",
+        "wir": "ziehen",
+        "ihr": "ziehet",
+        "sie_Sie": "ziehen"
+      },
+      "konjunktiv2": {
+        "ich": "zöge",
+        "du": "zögest",
+        "er_sie_es": "zöge",
+        "wir": "zögen",
+        "ihr": "zöget",
+        "sie_Sie": "zögen"
+      },
+      "imperativ": {
+        "du": "Zieh!",
+        "ihr": "Zieht!",
+        "Sie": "Ziehen Sie!"
+      }
+    },
+    "partizip1": "ziehend",
+    "nominalisierung": "der Zug"
+  },
+  "wortnetz": {
+    "grundwort": "ziehen",
+    "woerter": [
+      {
+        "wort": "der Zug",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قطار؛ کشش",
+          "en": "train; pull"
+        },
+        "id_ref": "nomen_zug"
+      },
+      {
+        "wort": "umziehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اسباب‌کشی کردن",
+          "en": "to move house"
+        },
+        "id_ref": "verb_umziehen"
+      },
+      {
+        "wort": "anziehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پوشیدن",
+          "en": "to put on"
+        },
+        "id_ref": "verb_anziehen"
+      },
+      {
+        "wort": "ausziehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "درآوردن؛ اسباب‌کشی کردن",
+          "en": "to take off; to move out"
+        },
+        "id_ref": "verb_ausziehen"
+      },
+      {
+        "wort": "drücken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فشار دادن",
+          "en": "to push"
+        },
+        "id_ref": "verb_druecken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_zerbrechen",
+  "wort": "zerbrechen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شکستن",
+      "خرد شدن، تکه‌تکه شدن"
+    ],
+    "en": [
+      "to break",
+      "to shatter"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Haushalt"
+  ],
+  "ipa": "t͡sɛɐ̯ˈbʁɛçn̩",
+  "anmerkung": "Untrennbar (zerbrach, zerbrochen). Intransitiv mit «sein»: «Das Glas ist zerbrochen.»; transitiv mit «haben»: «Er hat die Tasse zerbrochen.» Auch: «an etwas zerbrechen» (seelisch).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Tasse ist zerbrochen.",
+      "uebersetzung": {
+        "fa": "فنجان شکست.",
+        "en": "The cup broke."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Als das Kind den Ball warf, zerbrach die Fensterscheibe.",
+      "uebersetzung": {
+        "fa": "وقتی بچه توپ را پرت کرد، شیشه‌ی پنجره شکست.",
+        "en": "When the child threw the ball, the windowpane shattered."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kaputtgehen",
+      "uebersetzung": {
+        "fa": "خراب شدن، شکستن",
+        "en": "to break"
+      }
+    },
+    {
+      "wort": "brechen",
+      "uebersetzung": {
+        "fa": "شکستن",
+        "en": "to break"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zer- (از هم) + brechen (شکستن)",
+    "en": "zer- (apart) + brechen (to break)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "an + Dat zerbrechen",
+        "bedeutung": "seelisch an etwas scheitern",
+        "beispiel": "Er ist an der Trennung fast zerbrochen.",
+        "uebersetzung": {
+          "fa": "او از جدایی تقریباً از پا درآمد.",
+          "en": "He was almost broken by the separation."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zerbrechen",
+      "praeteritum": "zerbrach",
+      "partizip2": "zerbrochen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "zerbreche",
+        "du": "zerbrichst",
+        "er_sie_es": "zerbricht",
+        "wir": "zerbrechen",
+        "ihr": "zerbrecht",
+        "sie_Sie": "zerbrechen"
+      },
+      "praeteritum": {
+        "ich": "zerbrach",
+        "du": "zerbrachst",
+        "er_sie_es": "zerbrach",
+        "wir": "zerbrachen",
+        "ihr": "zerbracht",
+        "sie_Sie": "zerbrachen"
+      },
+      "konjunktiv1": {
+        "ich": "zerbreche",
+        "du": "zerbrechest",
+        "er_sie_es": "zerbreche",
+        "wir": "zerbrechen",
+        "ihr": "zerbrechet",
+        "sie_Sie": "zerbrechen"
+      },
+      "konjunktiv2": {
+        "ich": "zerbräche",
+        "du": "zerbrächest",
+        "er_sie_es": "zerbräche",
+        "wir": "zerbrächen",
+        "ihr": "zerbrächet",
+        "sie_Sie": "zerbrächen"
+      },
+      "imperativ": {
+        "du": "Zerbrich!",
+        "ihr": "Zerbrecht!",
+        "Sie": "Zerbrechen Sie!"
+      }
+    },
+    "partizip1": "zerbrechend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "brechen",
+    "woerter": [
+      {
+        "wort": "kaputt",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خراب، شکسته",
+          "en": "broken"
+        },
+        "id_ref": "adjektiv_kaputt"
+      },
+      {
+        "wort": "das Glas",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "لیوان؛ شیشه",
+          "en": "glass"
+        },
+        "id_ref": "nomen_glas"
+      },
+      {
+        "wort": "brechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شکستن",
+          "en": "to break"
+        },
+        "id_ref": "verb_brechen"
+      },
+      {
+        "wort": "kaputtgehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خراب شدن",
+          "en": "to break"
+        },
+        "id_ref": "verb_kaputtgehen"
+      },
+      {
+        "wort": "zerbrechlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شکستنی",
+          "en": "fragile"
+        },
+        "id_ref": "adjektiv_zerbrechlich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

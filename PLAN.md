@@ -2758,6 +2758,12 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۳۹۸ | wissenlassen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | املا (wissen lassen) — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۳۹۹ | wundliegen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | املا نوسان دارد (wund liegen) — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۰۰ | zeihen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | قدیمی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۰۱ | zerbersten | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر/ادبی (مثل aufbersten) — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۰۲ | zerfahren | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | به‌عنوان فعل نادر (بیشتر صفت «zerfahren») — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۰۳ | zerhauen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | صرف نوسان‌دار haute/hieb (مثل aufhauen) — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۰۴ | zerklieben | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | قدیمی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۰۵ | zerlesen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | به‌عنوان فعل نادر (بیشتر صفت) — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۰۶ | zermahlen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | صرف مختلط mahlte/gemahlen (مثل ausmahlen) — قاعده‌ی ۱۴/۱۶ | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 
