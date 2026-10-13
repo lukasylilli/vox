@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_ueberbieten",
+  "wort": "überbieten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(در مزایده) قیمت بالاتر پیشنهاد دادن",
+      "پشت سر گذاشتن، بهتر از چیزی بودن"
+    ],
+    "en": [
+      "to outbid",
+      "to surpass, to beat"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wirtschaft",
+    "Sport"
+  ],
+  "ipa": "yːbɐˈbiːtn̩",
+  "anmerkung": "Untrennbar (überbot, überboten).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er überbietet alle anderen.",
+      "uebersetzung": {
+        "fa": "او از همه‌ی دیگران قیمت بالاتری می‌دهد.",
+        "en": "He outbids everyone else."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Läuferin hat ihren eigenen Rekord um zwei Sekunden überboten, obwohl es sehr heiß war.",
+      "uebersetzung": {
+        "fa": "دونده رکورد خودش را دو ثانیه بهتر کرد، با اینکه هوا خیلی گرم بود.",
+        "en": "The runner beat her own record by two seconds, although it was very hot."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "übertreffen",
+      "uebersetzung": {
+        "fa": "پیشی گرفتن",
+        "en": "to surpass"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "unterbieten",
+      "uebersetzung": {
+        "fa": "ارزان‌تر پیشنهاد دادن",
+        "en": "to undercut"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "über- (بالاتر، بیش از) + bieten (پیشنهاد دادن)",
+    "en": "über- (over, beyond) + bieten (to offer)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden/etwas um + Akk überbieten",
+        "bedeutung": "um einen Betrag mehr bieten/leisten",
+        "beispiel": "Sie überbot ihn um 100 Euro.",
+        "uebersetzung": {
+          "fa": "او صد یورو بیشتر از او پیشنهاد داد.",
+          "en": "She outbid him by 100 euros."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "überbieten",
+      "praeteritum": "überbot",
+      "partizip2": "überboten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "überbiete",
+        "du": "überbietest",
+        "er_sie_es": "überbietet",
+        "wir": "überbieten",
+        "ihr": "überbietet",
+        "sie_Sie": "überbieten"
+      },
+      "praeteritum": {
+        "ich": "überbot",
+        "du": "überbotest",
+        "er_sie_es": "überbot",
+        "wir": "überboten",
+        "ihr": "überbotet",
+        "sie_Sie": "überboten"
+      },
+      "konjunktiv1": {
+        "ich": "überbiete",
+        "du": "überbietest",
+        "er_sie_es": "überbiete",
+        "wir": "überbieten",
+        "ihr": "überbietet",
+        "sie_Sie": "überbieten"
+      },
+      "konjunktiv2": {
+        "ich": "überböte",
+        "du": "überbötest",
+        "er_sie_es": "überböte",
+        "wir": "überböten",
+        "ihr": "überbötet",
+        "sie_Sie": "überböten"
+      },
+      "imperativ": {
+        "du": "Überbiete!",
+        "ihr": "Überbietet!",
+        "Sie": "Überbieten Sie!"
+      }
+    },
+    "partizip1": "überbietend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bieten",
+    "woerter": [
+      {
+        "wort": "bieten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیشنهاد دادن، ارائه کردن",
+          "en": "to offer"
+        },
+        "id_ref": "verb_bieten"
+      },
+      {
+        "wort": "das Angebot",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پیشنهاد",
+          "en": "offer"
+        },
+        "id_ref": "nomen_angebot"
+      },
+      {
+        "wort": "der Rekord",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رکورد",
+          "en": "record"
+        },
+        "id_ref": "nomen_rekord"
+      },
+      {
+        "wort": "die Versteigerung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مزایده",
+          "en": "auction"
+        },
+        "id_ref": "nomen_versteigerung"
+      },
+      {
+        "wort": "übertreffen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پیشی گرفتن",
+          "en": "to surpass"
+        },
+        "id_ref": "verb_uebertreffen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

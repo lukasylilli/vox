@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_ueberbringen",
+  "wort": "überbringen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(پیام، خبر، چیزی را) رساندن، تحویل دادن"
+    ],
+    "en": [
+      "to deliver",
+      "to convey (a message)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "yːbɐˈbʁɪŋən",
+  "anmerkung": "Gehoben; untrennbar, gemischtes Verb (überbrachte, überbracht).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er überbringt die Nachricht.",
+      "uebersetzung": {
+        "fa": "او خبر را می‌رساند.",
+        "en": "He delivers the news."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Bote hat die Glückwünsche des Präsidenten überbracht, als die Feier begann.",
+      "uebersetzung": {
+        "fa": "وقتی جشن شروع شد، فرستاده تبریک‌های رئیس‌جمهور را رساند.",
+        "en": "The messenger conveyed the president's congratulations when the celebration began."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "übermitteln",
+      "uebersetzung": {
+        "fa": "رساندن، انتقال دادن",
+        "en": "to transmit"
+      }
+    },
+    {
+      "wort": "überreichen",
+      "uebersetzung": {
+        "fa": "تقدیم کردن",
+        "en": "to present"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "über- (به آن سو) + bringen (بردن)",
+    "en": "über- (across) + bringen (to bring)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem (Dat) etwas (Akk) überbringen",
+        "bedeutung": "jemandem etwas bringen",
+        "beispiel": "Sie überbrachte ihm die traurige Nachricht.",
+        "uebersetzung": {
+          "fa": "او خبر غم‌انگیز را به او رساند.",
+          "en": "She broke the sad news to him."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "überbringen",
+      "praeteritum": "überbrachte",
+      "partizip2": "überbracht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "überbringe",
+        "du": "überbringst",
+        "er_sie_es": "überbringt",
+        "wir": "überbringen",
+        "ihr": "überbringt",
+        "sie_Sie": "überbringen"
+      },
+      "praeteritum": {
+        "ich": "überbrachte",
+        "du": "überbrachtest",
+        "er_sie_es": "überbrachte",
+        "wir": "überbrachten",
+        "ihr": "überbrachtet",
+        "sie_Sie": "überbrachten"
+      },
+      "konjunktiv1": {
+        "ich": "überbringe",
+        "du": "überbringest",
+        "er_sie_es": "überbringe",
+        "wir": "überbringen",
+        "ihr": "überbringet",
+        "sie_Sie": "überbringen"
+      },
+      "konjunktiv2": {
+        "ich": "überbrächte",
+        "du": "überbrächtest",
+        "er_sie_es": "überbrächte",
+        "wir": "überbrächten",
+        "ihr": "überbrächtet",
+        "sie_Sie": "überbrächten"
+      },
+      "imperativ": {
+        "du": "Überbring!",
+        "ihr": "Überbringt!",
+        "Sie": "Überbringen Sie!"
+      }
+    },
+    "partizip1": "überbringend",
+    "nominalisierung": "die Überbringung"
+  },
+  "wortnetz": {
+    "grundwort": "bringen",
+    "woerter": [
+      {
+        "wort": "bringen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آوردن، بردن",
+          "en": "to bring"
+        },
+        "id_ref": "verb_bringen"
+      },
+      {
+        "wort": "die Nachricht",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خبر، پیام",
+          "en": "news, message"
+        },
+        "id_ref": "nomen_nachricht"
+      },
+      {
+        "wort": "der Bote",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پیک، فرستاده",
+          "en": "messenger"
+        },
+        "id_ref": "nomen_bote"
+      },
+      {
+        "wort": "überreichen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تقدیم کردن",
+          "en": "to present"
+        },
+        "id_ref": "verb_ueberreichen"
+      },
+      {
+        "wort": "übermitteln",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رساندن",
+          "en": "to transmit"
+        },
+        "id_ref": "verb_uebermitteln"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

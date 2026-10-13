@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_tun",
+  "wort": "tun",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "انجام دادن، کردن",
+      "(محاوره) گذاشتن"
+    ],
+    "en": [
+      "to do",
+      "(colloquial) to put"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "tuːn",
+  "anmerkung": "Imperativ Singular auch «Tue!». Umgangssprachlich «tun» = legen/stellen (Tu das in den Schrank!).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Was tust du heute?",
+      "uebersetzung": {
+        "fa": "امروز چه کار می‌کنی؟",
+        "en": "What are you doing today?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ich habe alles getan, was ich konnte, aber der Fehler war nicht zu finden.",
+      "uebersetzung": {
+        "fa": "هر کاری از دستم برمی‌آمد کردم، اما اشتباه پیدا نشد.",
+        "en": "I did everything I could, but the mistake couldn't be found."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "machen",
+      "uebersetzung": {
+        "fa": "انجام دادن، ساختن",
+        "en": "to do, to make"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "so tun, als ob + Nebensatz",
+        "bedeutung": "etwas vortäuschen",
+        "beispiel": "Er tut so, als ob er schläft.",
+        "uebersetzung": {
+          "fa": "وانمود می‌کند که خواب است.",
+          "en": "He's pretending to be asleep."
+        }
+      },
+      {
+        "muster": "mit + Dat zu tun haben",
+        "bedeutung": "mit etwas in Beziehung stehen",
+        "beispiel": "Das hat mit dir nichts zu tun.",
+        "uebersetzung": {
+          "fa": "این ربطی به تو ندارد.",
+          "en": "That has nothing to do with you."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "tun",
+      "praeteritum": "tat",
+      "partizip2": "getan"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "tue",
+        "du": "tust",
+        "er_sie_es": "tut",
+        "wir": "tun",
+        "ihr": "tut",
+        "sie_Sie": "tun"
+      },
+      "praeteritum": {
+        "ich": "tat",
+        "du": "tatest",
+        "er_sie_es": "tat",
+        "wir": "taten",
+        "ihr": "tatet",
+        "sie_Sie": "taten"
+      },
+      "konjunktiv1": {
+        "ich": "tue",
+        "du": "tuest",
+        "er_sie_es": "tue",
+        "wir": "tuen",
+        "ihr": "tuet",
+        "sie_Sie": "tuen"
+      },
+      "konjunktiv2": {
+        "ich": "täte",
+        "du": "tätest",
+        "er_sie_es": "täte",
+        "wir": "täten",
+        "ihr": "tätet",
+        "sie_Sie": "täten"
+      },
+      "imperativ": {
+        "du": "Tu!",
+        "ihr": "Tut!",
+        "Sie": "Tun Sie!"
+      }
+    },
+    "partizip1": "tund",
+    "nominalisierung": "die Tat"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "machen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "انجام دادن",
+          "en": "to do, to make"
+        },
+        "id_ref": "verb_machen"
+      },
+      {
+        "wort": "die Tat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کار، عمل",
+          "en": "deed"
+        },
+        "id_ref": "nomen_tat"
+      },
+      {
+        "wort": "wehtun",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "درد کردن",
+          "en": "to hurt"
+        },
+        "id_ref": "verb_wehtun"
+      },
+      {
+        "wort": "leidtun",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "متأسف بودن",
+          "en": "to be sorry"
+        },
+        "id_ref": "verb_leidtun"
+      },
+      {
+        "wort": "tätig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فعال، شاغل",
+          "en": "active, employed"
+        },
+        "id_ref": "adjektiv_taetig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

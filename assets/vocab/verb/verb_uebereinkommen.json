@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_uebereinkommen",
+  "wort": "übereinkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به توافق رسیدن"
+    ],
+    "en": [
+      "to agree",
+      "to come to an agreement"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Politik"
+  ],
+  "ipa": "yːbɐˈʔaɪ̯nˌkɔmən",
+  "anmerkung": "Gehoben; meist mit dass-Satz oder zu-Infinitiv. Kein sinnvoller Imperativ.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Partner kommen überein.",
+      "uebersetzung": {
+        "fa": "طرفین به توافق می‌رسند.",
+        "en": "The partners reach an agreement."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die beiden Firmen sind übereingekommen, dass sie das Projekt gemeinsam finanzieren.",
+      "uebersetzung": {
+        "fa": "دو شرکت توافق کردند که پروژه را مشترکاً تأمین مالی کنند.",
+        "en": "The two companies agreed to finance the project jointly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vereinbaren",
+      "uebersetzung": {
+        "fa": "توافق کردن، قرار گذاشتن",
+        "en": "to agree on"
+      }
+    },
+    {
+      "wort": "sich einigen",
+      "uebersetzung": {
+        "fa": "به توافق رسیدن",
+        "en": "to come to terms"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "überein (هم‌سو، یکسان) + kommen (آمدن)",
+    "en": "überein (in agreement) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit + Dat übereinkommen",
+        "bedeutung": "mit jemandem eine Vereinbarung treffen",
+        "beispiel": "Er kam mit dem Vermieter überein, die Miete zu senken.",
+        "uebersetzung": {
+          "fa": "او با صاحبخانه توافق کرد که اجاره کم شود.",
+          "en": "He agreed with the landlord to lower the rent."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "übereinkommen",
+      "praeteritum": "kam überein",
+      "partizip2": "übereingekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme überein",
+        "du": "kommst überein",
+        "er_sie_es": "kommt überein",
+        "wir": "kommen überein",
+        "ihr": "kommt überein",
+        "sie_Sie": "kommen überein"
+      },
+      "praeteritum": {
+        "ich": "kam überein",
+        "du": "kamst überein",
+        "er_sie_es": "kam überein",
+        "wir": "kamen überein",
+        "ihr": "kamt überein",
+        "sie_Sie": "kamen überein"
+      },
+      "konjunktiv1": {
+        "ich": "komme überein",
+        "du": "kommest überein",
+        "er_sie_es": "komme überein",
+        "wir": "kommen überein",
+        "ihr": "kommet überein",
+        "sie_Sie": "kommen überein"
+      },
+      "konjunktiv2": {
+        "ich": "käme überein",
+        "du": "kämest überein",
+        "er_sie_es": "käme überein",
+        "wir": "kämen überein",
+        "ihr": "kämet überein",
+        "sie_Sie": "kämen überein"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "übereinkommend",
+    "nominalisierung": "das Übereinkommen"
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "vereinbaren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "توافق کردن",
+          "en": "to agree on"
+        },
+        "id_ref": "verb_vereinbaren"
+      },
+      {
+        "wort": "einigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "(sich) به توافق رسیدن",
+          "en": "to agree"
+        },
+        "id_ref": "verb_einigen"
+      },
+      {
+        "wort": "übereinstimmen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مطابقت داشتن، هم‌نظر بودن",
+          "en": "to agree, to match"
+        },
+        "id_ref": "verb_uebereinstimmen"
+      },
+      {
+        "wort": "das Übereinkommen",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "توافق‌نامه",
+          "en": "agreement"
+        },
+        "id_ref": "nomen_uebereinkommen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

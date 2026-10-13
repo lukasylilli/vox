@@ -1295,6 +1295,53 @@ const zurueckgestellt = <String>{
   'spitzbekommen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-13
   'spitzhaben', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-13
   'spleißen', // zurückgestellt (Regel 14/16): Fachwort; Präteritum schwankt (spliss/spleißte) 2026-10-13
+  'statthaben', // zurückgestellt (Regel 14/16): veraltet/selten 2026-10-13
+  'steckenbleiben', // zurückgestellt (Regel 14/16): Schreibung schwankt (stecken bleiben / steckenbleiben) 2026-10-13
+  'steckenlassen', // zurückgestellt (Regel 14/16): Schreibung schwankt (stecken lassen / steckenlassen) 2026-10-13
+  'stehenbleiben', // zurückgestellt (Regel 14/16): Schreibung schwankt (stehen bleiben / stehenbleiben) 2026-10-13
+  'stehenlassen', // zurückgestellt (Regel 14/16): Schreibung schwankt (stehen lassen / stehenlassen) 2026-10-13
+  'steifhalten', // zurückgestellt (Regel 14/16): Schreibung schwankt (steif halten / steifhalten) 2026-10-13
+  'stieben', // zurückgestellt (Regel 14/16): selten; Präteritum schwankt (stob/stiebte) 2026-10-13
+  'stillbleiben', // zurückgestellt (Regel 14/16): Schreibung schwankt (still bleiben / stillbleiben) 2026-10-13
+  'stillhalten', // zurückgestellt (Regel 14/16): Schreibung schwankt (still halten / stillhalten) 2026-10-13
+  'stillliegen', // zurückgestellt (Regel 14/16): Schreibung schwankt; Hilfsverb regional schwankend 2026-10-13
+  'tiefgefrieren', // zurückgestellt (Regel 14/16): nur im Infinitiv/Partizip II gebräuchlich (defektiv) 2026-10-13
+  'totbeißen', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'totlaufen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten (sich totlaufen) 2026-10-13
+  'triefen', // zurückgestellt (Regel 14/16): Präteritum schwankt (troff/triefte) 2026-10-13
+  'trockenfallen', // zurückgestellt (Regel 14/16): selten (Fachwort); Schreibung schwankt 2026-10-13
+  'überbacken', // zurückgestellt (Regel 14/16): Präsens/Präteritum schwanken (überbäckt/überbackt, überbuk/überbackte) 2026-10-13
+  'überbekommen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-13
+  'überbinden', // zurückgestellt (Regel 14/16): regional (schweiz.), selten 2026-10-13
+  'überblasen', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'überbleiben', // zurückgestellt (Regel 14/16): umgangssprachlich (= übrig bleiben), selten 2026-10-13
+  'überbraten', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-13
+  'überbrennen', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'übereinanderliegen', // zurückgestellt (Regel 14/16): Schreibung schwankt (übereinander liegen) 2026-10-13
+  'überessen', // zurückgestellt (Regel 14/16): trennbar und untrennbar; Symbol nicht eindeutig 2026-10-13
+  'überfahren', // zurückgestellt (Regel 14/16): trennbar und untrennbar mit verschiedener Bedeutung; Symbol nicht eindeutig 2026-10-13
+  'überfallen', // zurückgestellt (Regel 14/16): trennbar/untrennbar nicht sicher geklärt; Symbol nicht eindeutig 2026-10-13
+  'überfangen', // zurückgestellt (Regel 14/16): selten (Fachwort) 2026-10-13
+  'überfliegen', // zurückgestellt (Regel 14/16): trennbar/untrennbar nicht sicher geklärt; Symbol nicht eindeutig 2026-10-13
+  'überfließen', // zurückgestellt (Regel 14/16): trennbar/untrennbar nicht sicher geklärt; Symbol nicht eindeutig 2026-10-13
+  'überfragen', // zurückgestellt (Regel 14/16): fast nur «überfragt sein» (defektiv) 2026-10-13
+  'überfressen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-13
+  'überfrieren', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'übergehen', // zurückgestellt (Regel 14/16): trennbar und untrennbar mit verschiedener Bedeutung; Symbol nicht eindeutig 2026-10-13
+  'übergießen', // zurückgestellt (Regel 14/16): trennbar und untrennbar; Symbol nicht eindeutig 2026-10-13
+  'überhaben', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-13
+  'überhängen', // zurückgestellt (Regel 14/16): hängen-Kompositum; trennbar/untrennbar 2026-10-13
+  'überheben', // zurückgestellt (Regel 14/16): trennbar und untrennbar; Symbol nicht eindeutig 2026-10-13
+  'überkommen', // zurückgestellt (Regel 14/16): trennbar und untrennbar; Symbol nicht eindeutig 2026-10-13
+  'überladen', // zurückgestellt (Regel 14/16): trennbar und untrennbar; Symbol nicht eindeutig 2026-10-13
+  'überlaufen', // zurückgestellt (Regel 14/16): trennbar und untrennbar mit verschiedener Bedeutung; Symbol nicht eindeutig 2026-10-13
+  'überlesen', // zurückgestellt (Regel 14/16): trennbar und untrennbar; Symbol nicht eindeutig 2026-10-13
+  'übrigbleiben', // zurückgestellt (Regel 14/16): Schreibung schwankt (übrig bleiben / übrigbleiben) 2026-10-13
+  'übrighaben', // zurückgestellt (Regel 14/16): Schreibung schwankt (übrig haben / übrighaben) 2026-10-13
+  'übriglassen', // zurückgestellt (Regel 14/16): Schreibung schwankt (übrig lassen / übriglassen) 2026-10-13
+  'umbehalten', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-13
+  'umbinden', // zurückgestellt (Regel 14/16): trennbar/untrennbar nicht sicher geklärt; Symbol nicht eindeutig 2026-10-13
+  'umbrechen', // zurückgestellt (Regel 14/16): trennbar und untrennbar mit verschiedener Bedeutung; Symbol nicht eindeutig 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

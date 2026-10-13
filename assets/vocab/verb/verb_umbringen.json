@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_umbringen",
+  "wort": "umbringen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کشتن، به قتل رساندن"
+    ],
+    "en": [
+      "to kill",
+      "to murder"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Recht",
+    "Gesellschaft"
+  ],
+  "ipa": "ˈʊmˌbʁɪŋən",
+  "anmerkung": "Gemischtes Verb (brachte um, umgebracht). Übertragen: «Das bringt mich noch um!» (= Das ist unerträglich).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er hat niemanden umgebracht.",
+      "uebersetzung": {
+        "fa": "او کسی را نکشته است.",
+        "en": "He hasn't killed anyone."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Polizei glaubt, dass der Täter das Opfer aus Eifersucht umgebracht hat.",
+      "uebersetzung": {
+        "fa": "پلیس فکر می‌کند که مجرم قربانی را از روی حسادت کشته است.",
+        "en": "The police believe that the perpetrator killed the victim out of jealousy."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "töten",
+      "uebersetzung": {
+        "fa": "کشتن",
+        "en": "to kill"
+      }
+    },
+    {
+      "wort": "ermorden",
+      "uebersetzung": {
+        "fa": "به قتل رساندن",
+        "en": "to murder"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "um (از میان بردن) + bringen (آوردن، بردن)",
+    "en": "um (away, to death) + bringen (to bring)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "umbringen",
+      "praeteritum": "brachte um",
+      "partizip2": "umgebracht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bringe um",
+        "du": "bringst um",
+        "er_sie_es": "bringt um",
+        "wir": "bringen um",
+        "ihr": "bringt um",
+        "sie_Sie": "bringen um"
+      },
+      "praeteritum": {
+        "ich": "brachte um",
+        "du": "brachtest um",
+        "er_sie_es": "brachte um",
+        "wir": "brachten um",
+        "ihr": "brachtet um",
+        "sie_Sie": "brachten um"
+      },
+      "konjunktiv1": {
+        "ich": "bringe um",
+        "du": "bringest um",
+        "er_sie_es": "bringe um",
+        "wir": "bringen um",
+        "ihr": "bringet um",
+        "sie_Sie": "bringen um"
+      },
+      "konjunktiv2": {
+        "ich": "brächte um",
+        "du": "brächtest um",
+        "er_sie_es": "brächte um",
+        "wir": "brächten um",
+        "ihr": "brächtet um",
+        "sie_Sie": "brächten um"
+      },
+      "imperativ": {
+        "du": "Bring um!",
+        "ihr": "Bringt um!",
+        "Sie": "Bringen Sie um!"
+      }
+    },
+    "partizip1": "umbringend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bringen",
+    "woerter": [
+      {
+        "wort": "töten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کشتن",
+          "en": "to kill"
+        },
+        "id_ref": "verb_toeten"
+      },
+      {
+        "wort": "der Mord",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قتل",
+          "en": "murder"
+        },
+        "id_ref": "nomen_mord"
+      },
+      {
+        "wort": "der Täter",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مجرم، عامل جرم",
+          "en": "perpetrator"
+        },
+        "id_ref": "nomen_taeter"
+      },
+      {
+        "wort": "das Opfer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قربانی",
+          "en": "victim"
+        },
+        "id_ref": "nomen_opfer"
+      },
+      {
+        "wort": "ermorden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به قتل رساندن",
+          "en": "to murder"
+        },
+        "id_ref": "verb_ermorden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

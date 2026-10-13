@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_uebergreifen",
+  "wort": "übergreifen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(آتش، بیماری) سرایت کردن، گسترش یافتن"
+    ],
+    "en": [
+      "to spread (to)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Gesundheit"
+  ],
+  "ipa": "ˈyːbɐˌɡʁaɪ̯fn̩",
+  "anmerkung": "Trennbar (griff über, übergegriffen); meist «auf + Akk übergreifen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Feuer greift auf das Dach über.",
+      "uebersetzung": {
+        "fa": "آتش به سقف سرایت می‌کند.",
+        "en": "The fire spreads to the roof."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Feuerwehr verhinderte, dass die Flammen auf die Nachbarhäuser übergriffen.",
+      "uebersetzung": {
+        "fa": "آتش‌نشانی جلوی سرایت شعله‌ها به خانه‌های همسایه را گرفت.",
+        "en": "The fire brigade prevented the flames from spreading to the neighbouring houses."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich ausbreiten",
+      "uebersetzung": {
+        "fa": "گسترش یافتن",
+        "en": "to spread"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "über (به آن سو) + greifen (چنگ زدن، گرفتن)",
+    "en": "über (over) + greifen (to grab)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Akk übergreifen",
+        "bedeutung": "sich auf etwas ausbreiten",
+        "beispiel": "Die Krankheit hat auf andere Organe übergegriffen.",
+        "uebersetzung": {
+          "fa": "بیماری به اندام‌های دیگر سرایت کرده است.",
+          "en": "The disease has spread to other organs."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "übergreifen",
+      "praeteritum": "griff über",
+      "partizip2": "übergegriffen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "greife über",
+        "du": "greifst über",
+        "er_sie_es": "greift über",
+        "wir": "greifen über",
+        "ihr": "greift über",
+        "sie_Sie": "greifen über"
+      },
+      "praeteritum": {
+        "ich": "griff über",
+        "du": "griffst über",
+        "er_sie_es": "griff über",
+        "wir": "griffen über",
+        "ihr": "grifft über",
+        "sie_Sie": "griffen über"
+      },
+      "konjunktiv1": {
+        "ich": "greife über",
+        "du": "greifest über",
+        "er_sie_es": "greife über",
+        "wir": "greifen über",
+        "ihr": "greifet über",
+        "sie_Sie": "greifen über"
+      },
+      "konjunktiv2": {
+        "ich": "griffe über",
+        "du": "griffest über",
+        "er_sie_es": "griffe über",
+        "wir": "griffen über",
+        "ihr": "griffet über",
+        "sie_Sie": "griffen über"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "übergreifend",
+    "nominalisierung": "der Übergriff"
+  },
+  "wortnetz": {
+    "grundwort": "greifen",
+    "woerter": [
+      {
+        "wort": "das Feuer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آتش",
+          "en": "fire"
+        },
+        "id_ref": "nomen_feuer"
+      },
+      {
+        "wort": "greifen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گرفتن، چنگ زدن",
+          "en": "to grab"
+        },
+        "id_ref": "verb_greifen"
+      },
+      {
+        "wort": "ausbreiten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "(sich) گسترش یافتن",
+          "en": "to spread"
+        },
+        "id_ref": "verb_ausbreiten"
+      },
+      {
+        "wort": "der Übergriff",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تعرض، تجاوز",
+          "en": "assault, encroachment"
+        },
+        "id_ref": "nomen_uebergriff"
+      },
+      {
+        "wort": "die Flamme",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شعله",
+          "en": "flame"
+        },
+        "id_ref": "nomen_flamme"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

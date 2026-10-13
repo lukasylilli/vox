@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_uebergeben",
+  "wort": "übergeben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تحویل دادن، سپردن",
+      "(sich übergeben) استفراغ کردن"
+    ],
+    "en": [
+      "to hand over",
+      "(sich übergeben) to vomit"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Gesundheit"
+  ],
+  "ipa": "yːbɐˈɡeːbn̩",
+  "anmerkung": "Untrennbar (übergab, übergeben). Reflexiv «sich übergeben» = erbrechen.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er übergibt mir den Schlüssel.",
+      "uebersetzung": {
+        "fa": "او کلید را به من تحویل می‌دهد.",
+        "en": "He hands me the key."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Dem Patienten war so schlecht, dass er sich mehrmals übergeben hat.",
+      "uebersetzung": {
+        "fa": "حال بیمار آن‌قدر بد بود که چند بار استفراغ کرد.",
+        "en": "The patient felt so sick that he vomited several times."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aushändigen",
+      "uebersetzung": {
+        "fa": "تحویل دادن",
+        "en": "to hand over"
+      }
+    },
+    {
+      "wort": "erbrechen",
+      "uebersetzung": {
+        "fa": "(sich) استفراغ کردن",
+        "en": "to vomit"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "übernehmen",
+      "uebersetzung": {
+        "fa": "تحویل گرفتن",
+        "en": "to take over"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "über- (به آن سو) + geben (دادن)",
+    "en": "über- (over) + geben (to give)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "etwas an + Akk übergeben",
+        "bedeutung": "etwas jemandem aushändigen",
+        "beispiel": "Der Verkäufer übergibt das Auto an den Käufer.",
+        "uebersetzung": {
+          "fa": "فروشنده ماشین را به خریدار تحویل می‌دهد.",
+          "en": "The seller hands the car over to the buyer."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "übergeben",
+      "praeteritum": "übergab",
+      "partizip2": "übergeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "übergebe",
+        "du": "übergibst",
+        "er_sie_es": "übergibt",
+        "wir": "übergeben",
+        "ihr": "übergebt",
+        "sie_Sie": "übergeben"
+      },
+      "praeteritum": {
+        "ich": "übergab",
+        "du": "übergabst",
+        "er_sie_es": "übergab",
+        "wir": "übergaben",
+        "ihr": "übergabt",
+        "sie_Sie": "übergaben"
+      },
+      "konjunktiv1": {
+        "ich": "übergebe",
+        "du": "übergebest",
+        "er_sie_es": "übergebe",
+        "wir": "übergeben",
+        "ihr": "übergebet",
+        "sie_Sie": "übergeben"
+      },
+      "konjunktiv2": {
+        "ich": "übergäbe",
+        "du": "übergäbest",
+        "er_sie_es": "übergäbe",
+        "wir": "übergäben",
+        "ihr": "übergäbet",
+        "sie_Sie": "übergäben"
+      },
+      "imperativ": {
+        "du": "Übergib!",
+        "ihr": "Übergebt!",
+        "Sie": "Übergeben Sie!"
+      }
+    },
+    "partizip1": "übergebend",
+    "nominalisierung": "die Übergabe"
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "die Übergabe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تحویل",
+          "en": "handover"
+        },
+        "id_ref": "nomen_uebergabe"
+      },
+      {
+        "wort": "übernehmen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تحویل گرفتن، بر عهده گرفتن",
+          "en": "to take over"
+        },
+        "id_ref": "verb_uebernehmen"
+      },
+      {
+        "wort": "erbrechen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "(sich) استفراغ کردن",
+          "en": "to vomit"
+        },
+        "id_ref": "verb_erbrechen"
+      },
+      {
+        "wort": "aushändigen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تحویل دادن",
+          "en": "to hand over"
+        },
+        "id_ref": "verb_aushaendigen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
