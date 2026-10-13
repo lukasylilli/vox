@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_wegkommen",
+  "wort": "wegkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "رفتن، دور شدن (توانستن)",
+      "گم شدن، ناپدید شدن",
+      "(در ماجرایی) نتیجه گرفتن (خوب/بد)"
+    ],
+    "en": [
+      "to get away",
+      "to go missing",
+      "to come off (well/badly)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈvɛkˌkɔmən",
+  "anmerkung": "Trennbar (kam weg, weggekommen). Umgangssprachlich: «Mein Fahrrad ist weggekommen» = gestohlen/verschwunden. «gut/schlecht wegkommen» = gut/schlecht abschneiden.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mach schnell, wir müssen hier wegkommen!",
+      "uebersetzung": {
+        "fa": "زود باش، باید از اینجا برویم!",
+        "en": "Hurry up, we need to get away from here!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Mein Geldbeutel ist weggekommen, als ich im Bus saß.",
+      "uebersetzung": {
+        "fa": "وقتی در اتوبوس نشسته بودم، کیف پولم گم شد.",
+        "en": "My wallet went missing while I was sitting on the bus."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verschwinden",
+      "uebersetzung": {
+        "fa": "ناپدید شدن",
+        "en": "to disappear"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "bleiben",
+      "uebersetzung": {
+        "fa": "ماندن",
+        "en": "to stay"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "weg (دور) + kommen (آمدن)",
+    "en": "weg (away) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "von + Dat wegkommen",
+        "bedeutung": "sich von etwas lösen",
+        "beispiel": "Er kommt nicht von den Zigaretten weg.",
+        "uebersetzung": {
+          "fa": "نمی‌تواند سیگار را کنار بگذارد.",
+          "en": "He can't get off cigarettes."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "wegkommen",
+      "praeteritum": "kam weg",
+      "partizip2": "weggekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme weg",
+        "du": "kommst weg",
+        "er_sie_es": "kommt weg",
+        "wir": "kommen weg",
+        "ihr": "kommt weg",
+        "sie_Sie": "kommen weg"
+      },
+      "praeteritum": {
+        "ich": "kam weg",
+        "du": "kamst weg",
+        "er_sie_es": "kam weg",
+        "wir": "kamen weg",
+        "ihr": "kamt weg",
+        "sie_Sie": "kamen weg"
+      },
+      "konjunktiv1": {
+        "ich": "komme weg",
+        "du": "kommest weg",
+        "er_sie_es": "komme weg",
+        "wir": "kommen weg",
+        "ihr": "kommet weg",
+        "sie_Sie": "kommen weg"
+      },
+      "konjunktiv2": {
+        "ich": "käme weg",
+        "du": "kämest weg",
+        "er_sie_es": "käme weg",
+        "wir": "kämen weg",
+        "ihr": "kämet weg",
+        "sie_Sie": "kämen weg"
+      },
+      "imperativ": {
+        "du": "Komm weg!",
+        "ihr": "Kommt weg!",
+        "Sie": "Kommen Sie weg!"
+      }
+    },
+    "partizip1": "wegkommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "weggehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go away"
+        },
+        "id_ref": "verb_weggehen"
+      },
+      {
+        "wort": "verlieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گم کردن",
+          "en": "to lose"
+        },
+        "id_ref": "verb_verlieren"
+      },
+      {
+        "wort": "verschwinden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ناپدید شدن",
+          "en": "to disappear"
+        },
+        "id_ref": "verb_verschwinden"
+      },
+      {
+        "wort": "weg",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دور، رفته",
+          "en": "away, gone"
+        },
+        "id_ref": "adverb_weg"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

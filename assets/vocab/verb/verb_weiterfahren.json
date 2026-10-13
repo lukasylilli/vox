@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_weiterfahren",
+  "wort": "weiterfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با وسیله) به راه ادامه دادن"
+    ],
+    "en": [
+      "to drive on, to continue (a journey)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Verkehr",
+    "Reisen"
+  ],
+  "ipa": "ˈvaɪ̯tɐˌfaːʁən",
+  "anmerkung": "Trennbar (fuhr weiter, weitergefahren). Nomen: die Weiterfahrt.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Nach der Pause fahren wir weiter.",
+      "uebersetzung": {
+        "fa": "بعد از استراحت به راه ادامه می‌دهیم.",
+        "en": "After the break we will drive on."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Zug konnte nicht weiterfahren, weil ein Baum auf den Gleisen lag.",
+      "uebersetzung": {
+        "fa": "قطار نتوانست ادامه دهد، چون درختی روی ریل افتاده بود.",
+        "en": "The train could not continue because a tree was lying on the tracks."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fortfahren",
+      "uebersetzung": {
+        "fa": "ادامه دادن",
+        "en": "to continue"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "anhalten",
+      "uebersetzung": {
+        "fa": "ایستادن",
+        "en": "to stop"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "weiter (ادامه) + fahren (رفتن با وسیله)",
+    "en": "weiter (on) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "nach + Dat weiterfahren",
+        "bedeutung": "die Fahrt zu einem Ort fortsetzen",
+        "beispiel": "Von Wien fahren wir nach Graz weiter.",
+        "uebersetzung": {
+          "fa": "از وین به سمت گراتس ادامه می‌دهیم.",
+          "en": "From Vienna we continue to Graz."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "weiterfahren",
+      "praeteritum": "fuhr weiter",
+      "partizip2": "weitergefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre weiter",
+        "du": "fährst weiter",
+        "er_sie_es": "fährt weiter",
+        "wir": "fahren weiter",
+        "ihr": "fahrt weiter",
+        "sie_Sie": "fahren weiter"
+      },
+      "praeteritum": {
+        "ich": "fuhr weiter",
+        "du": "fuhrst weiter",
+        "er_sie_es": "fuhr weiter",
+        "wir": "fuhren weiter",
+        "ihr": "fuhrt weiter",
+        "sie_Sie": "fuhren weiter"
+      },
+      "konjunktiv1": {
+        "ich": "fahre weiter",
+        "du": "fahrest weiter",
+        "er_sie_es": "fahre weiter",
+        "wir": "fahren weiter",
+        "ihr": "fahret weiter",
+        "sie_Sie": "fahren weiter"
+      },
+      "konjunktiv2": {
+        "ich": "führe weiter",
+        "du": "führest weiter",
+        "er_sie_es": "führe weiter",
+        "wir": "führen weiter",
+        "ihr": "führet weiter",
+        "sie_Sie": "führen weiter"
+      },
+      "imperativ": {
+        "du": "Fahr weiter!",
+        "ihr": "Fahrt weiter!",
+        "Sie": "Fahren Sie weiter!"
+      }
+    },
+    "partizip1": "weiterfahrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "anhalten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ایستادن",
+          "en": "to stop"
+        },
+        "id_ref": "verb_anhalten"
+      },
+      {
+        "wort": "die Fahrt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سفر، حرکت",
+          "en": "journey"
+        },
+        "id_ref": "nomen_fahrt"
+      },
+      {
+        "wort": "weitergehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ادامه یافتن",
+          "en": "to go on"
+        },
+        "id_ref": "verb_weitergehen"
+      },
+      {
+        "wort": "weiter",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ادامه، بیشتر",
+          "en": "further, on"
+        },
+        "id_ref": "adverb_weiter"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

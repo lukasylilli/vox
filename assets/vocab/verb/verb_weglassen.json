@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_weglassen",
+  "wort": "weglassen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "حذف کردن، کنار گذاشتن",
+      "اجازه‌ی رفتن دادن"
+    ],
+    "en": [
+      "to leave out, to omit",
+      "to let go"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Kommunikation"
+  ],
+  "ipa": "ˈvɛkˌlasn̩",
+  "anmerkung": "Trennbar (ließ weg, weggelassen).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Lass den Zucker weg!",
+      "uebersetzung": {
+        "fa": "شکر را نریز!",
+        "en": "Leave out the sugar!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn der Text zu lang ist, kannst du die Beispiele weglassen.",
+      "uebersetzung": {
+        "fa": "اگر متن خیلی بلند است، می‌توانی مثال‌ها را حذف کنی.",
+        "en": "If the text is too long, you can leave out the examples."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "auslassen",
+      "uebersetzung": {
+        "fa": "جا انداختن",
+        "en": "to omit"
+      }
+    },
+    {
+      "wort": "streichen",
+      "uebersetzung": {
+        "fa": "حذف کردن",
+        "en": "to delete"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hinzufügen",
+      "uebersetzung": {
+        "fa": "اضافه کردن",
+        "en": "to add"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "weg (دور) + lassen (گذاشتن)",
+    "en": "weg (away) + lassen (to leave)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "weglassen",
+      "praeteritum": "ließ weg",
+      "partizip2": "weggelassen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lasse weg",
+        "du": "lässt weg",
+        "er_sie_es": "lässt weg",
+        "wir": "lassen weg",
+        "ihr": "lasst weg",
+        "sie_Sie": "lassen weg"
+      },
+      "praeteritum": {
+        "ich": "ließ weg",
+        "du": "ließest weg",
+        "er_sie_es": "ließ weg",
+        "wir": "ließen weg",
+        "ihr": "ließt weg",
+        "sie_Sie": "ließen weg"
+      },
+      "konjunktiv1": {
+        "ich": "lasse weg",
+        "du": "lassest weg",
+        "er_sie_es": "lasse weg",
+        "wir": "lassen weg",
+        "ihr": "lasset weg",
+        "sie_Sie": "lassen weg"
+      },
+      "konjunktiv2": {
+        "ich": "ließe weg",
+        "du": "ließest weg",
+        "er_sie_es": "ließe weg",
+        "wir": "ließen weg",
+        "ihr": "ließet weg",
+        "sie_Sie": "ließen weg"
+      },
+      "imperativ": {
+        "du": "Lass weg!",
+        "ihr": "Lasst weg!",
+        "Sie": "Lassen Sie weg!"
+      }
+    },
+    "partizip1": "weglassend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "lassen",
+    "woerter": [
+      {
+        "wort": "lassen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گذاشتن",
+          "en": "to let"
+        },
+        "id_ref": "verb_lassen"
+      },
+      {
+        "wort": "hinzufügen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اضافه کردن",
+          "en": "to add"
+        },
+        "id_ref": "verb_hinzufuegen"
+      },
+      {
+        "wort": "auslassen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جا انداختن",
+          "en": "to omit"
+        },
+        "id_ref": "verb_auslassen"
+      },
+      {
+        "wort": "streichen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حذف کردن",
+          "en": "to delete"
+        },
+        "id_ref": "verb_streichen"
+      },
+      {
+        "wort": "weg",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دور، رفته",
+          "en": "away, gone"
+        },
+        "id_ref": "adverb_weg"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

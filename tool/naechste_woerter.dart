@@ -1427,6 +1427,14 @@ const zurueckgestellt = <String>{
   'wegfangen', // zurückgestellt (Regel 14/16): selten 2026-10-13
   'wegfließen', // zurückgestellt (Regel 14/16): selten 2026-10-13
   'wegfressen', // zurückgestellt (Regel 14/16): umgangssprachlich/derb (wie wegessen) 2026-10-13
+  'weghaben', // zurückgestellt (Regel 14/16): umgangssprachlich (wie herumhaben) 2026-10-13
+  'weghalten', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'weghauen', // zurückgestellt (Regel 14/16): Präteritum schwankt (haute/hieb) 2026-10-13
+  'weghelfen', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'wegkönnen', // zurückgestellt (Regel 14/16): Modalverb-Verbindung 2026-10-13
+  'wegkriechen', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'wegmüssen', // zurückgestellt (Regel 14/16): Modalverb-Verbindung 2026-10-13
+  'weiterdürfen', // zurückgestellt (Regel 14/16): Modalverb-Verbindung 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

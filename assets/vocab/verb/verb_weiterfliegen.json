@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_weiterfliegen",
+  "wort": "weiterfliegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با هواپیما) به پرواز ادامه دادن"
+    ],
+    "en": [
+      "to fly on",
+      "to continue flying"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Reisen"
+  ],
+  "ipa": "ˈvaɪ̯tɐˌfliːɡn̩",
+  "anmerkung": "Trennbar (flog weiter, weitergeflogen). Nomen: der Weiterflug.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Morgen fliegen wir weiter.",
+      "uebersetzung": {
+        "fa": "فردا به پرواز ادامه می‌دهیم.",
+        "en": "Tomorrow we fly on."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wir landen zuerst in Istanbul und fliegen dann nach Teheran weiter, wenn alles pünktlich ist.",
+      "uebersetzung": {
+        "fa": "اول در استانبول فرود می‌آییم و اگر همه‌چیز سر وقت باشد، بعد به تهران ادامه می‌دهیم.",
+        "en": "We land in Istanbul first and then fly on to Tehran if everything is on time."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "landen",
+      "uebersetzung": {
+        "fa": "فرود آمدن",
+        "en": "to land"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "weiter (ادامه) + fliegen (پرواز کردن)",
+    "en": "weiter (on) + fliegen (to fly)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "nach + Dat weiterfliegen",
+        "bedeutung": "den Flug zu einem Ort fortsetzen",
+        "beispiel": "In Dubai fliegen wir nach Bangkok weiter.",
+        "uebersetzung": {
+          "fa": "در دبی به سمت بانکوک ادامه می‌دهیم.",
+          "en": "In Dubai we fly on to Bangkok."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "weiterfliegen",
+      "praeteritum": "flog weiter",
+      "partizip2": "weitergeflogen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fliege weiter",
+        "du": "fliegst weiter",
+        "er_sie_es": "fliegt weiter",
+        "wir": "fliegen weiter",
+        "ihr": "fliegt weiter",
+        "sie_Sie": "fliegen weiter"
+      },
+      "praeteritum": {
+        "ich": "flog weiter",
+        "du": "flogst weiter",
+        "er_sie_es": "flog weiter",
+        "wir": "flogen weiter",
+        "ihr": "flogt weiter",
+        "sie_Sie": "flogen weiter"
+      },
+      "konjunktiv1": {
+        "ich": "fliege weiter",
+        "du": "fliegest weiter",
+        "er_sie_es": "fliege weiter",
+        "wir": "fliegen weiter",
+        "ihr": "flieget weiter",
+        "sie_Sie": "fliegen weiter"
+      },
+      "konjunktiv2": {
+        "ich": "flöge weiter",
+        "du": "flögest weiter",
+        "er_sie_es": "flöge weiter",
+        "wir": "flögen weiter",
+        "ihr": "flöget weiter",
+        "sie_Sie": "flögen weiter"
+      },
+      "imperativ": {
+        "du": "Flieg weiter!",
+        "ihr": "Fliegt weiter!",
+        "Sie": "Fliegen Sie weiter!"
+      }
+    },
+    "partizip1": "weiterfliegend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fliegen",
+    "woerter": [
+      {
+        "wort": "fliegen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرواز کردن",
+          "en": "to fly"
+        },
+        "id_ref": "verb_fliegen"
+      },
+      {
+        "wort": "der Flug",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پرواز",
+          "en": "flight"
+        },
+        "id_ref": "nomen_flug"
+      },
+      {
+        "wort": "umsteigen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عوض کردن (وسیله)",
+          "en": "to change (trains, planes)"
+        },
+        "id_ref": "verb_umsteigen"
+      },
+      {
+        "wort": "landen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فرود آمدن",
+          "en": "to land"
+        },
+        "id_ref": "verb_landen"
+      },
+      {
+        "wort": "weiter",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ادامه، بیشتر",
+          "en": "further, on"
+        },
+        "id_ref": "adverb_weiter"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

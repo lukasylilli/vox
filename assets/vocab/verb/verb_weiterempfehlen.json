@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_weiterempfehlen",
+  "wort": "weiterempfehlen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(به دیگران) توصیه کردن، معرفی کردن"
+    ],
+    "en": [
+      "to recommend (to others)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Einkaufen"
+  ],
+  "ipa": "ˈvaɪ̯tɐʔɛmˌpfeːlən",
+  "anmerkung": "Trennbar (empfahl weiter, weiterempfohlen) — Partizip II ohne ge-.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich empfehle das Hotel weiter.",
+      "uebersetzung": {
+        "fa": "این هتل را به دیگران توصیه می‌کنم.",
+        "en": "I recommend the hotel to others."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Arzt war so freundlich, dass ich ihn allen Freunden weiterempfohlen habe.",
+      "uebersetzung": {
+        "fa": "پزشک آن‌قدر مهربان بود که او را به همه‌ی دوستانم معرفی کرده‌ام.",
+        "en": "The doctor was so friendly that I have recommended him to all my friends."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "empfehlen",
+      "uebersetzung": {
+        "fa": "توصیه کردن",
+        "en": "to recommend"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "abraten",
+      "uebersetzung": {
+        "fa": "منصرف کردن",
+        "en": "to advise against"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "weiter (به دیگران) + empfehlen (توصیه کردن)",
+    "en": "weiter (on) + empfehlen (to recommend)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem (Dat) etwas (Akk) weiterempfehlen",
+        "bedeutung": "jemandem etwas als gut nennen",
+        "beispiel": "Kannst du mir einen Zahnarzt weiterempfehlen?",
+        "uebersetzung": {
+          "fa": "می‌توانی یک دندان‌پزشک به من معرفی کنی؟",
+          "en": "Can you recommend a dentist to me?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "weiterempfehlen",
+      "praeteritum": "empfahl weiter",
+      "partizip2": "weiterempfohlen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "empfehle weiter",
+        "du": "empfiehlst weiter",
+        "er_sie_es": "empfiehlt weiter",
+        "wir": "empfehlen weiter",
+        "ihr": "empfehlt weiter",
+        "sie_Sie": "empfehlen weiter"
+      },
+      "praeteritum": {
+        "ich": "empfahl weiter",
+        "du": "empfahlst weiter",
+        "er_sie_es": "empfahl weiter",
+        "wir": "empfahlen weiter",
+        "ihr": "empfahlt weiter",
+        "sie_Sie": "empfahlen weiter"
+      },
+      "konjunktiv1": {
+        "ich": "empfehle weiter",
+        "du": "empfehlest weiter",
+        "er_sie_es": "empfehle weiter",
+        "wir": "empfehlen weiter",
+        "ihr": "empfehlet weiter",
+        "sie_Sie": "empfehlen weiter"
+      },
+      "konjunktiv2": {
+        "ich": "empföhle weiter",
+        "du": "empföhlest weiter",
+        "er_sie_es": "empföhle weiter",
+        "wir": "empföhlen weiter",
+        "ihr": "empföhlet weiter",
+        "sie_Sie": "empföhlen weiter"
+      },
+      "imperativ": {
+        "du": "Empfiehl weiter!",
+        "ihr": "Empfehlt weiter!",
+        "Sie": "Empfehlen Sie weiter!"
+      }
+    },
+    "partizip1": "weiterempfehlend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "empfehlen",
+    "woerter": [
+      {
+        "wort": "empfehlen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "توصیه کردن",
+          "en": "to recommend"
+        },
+        "id_ref": "verb_empfehlen"
+      },
+      {
+        "wort": "die Empfehlung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "توصیه",
+          "en": "recommendation"
+        },
+        "id_ref": "nomen_empfehlung"
+      },
+      {
+        "wort": "zufrieden",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "راضی",
+          "en": "satisfied"
+        },
+        "id_ref": "adjektiv_zufrieden"
+      },
+      {
+        "wort": "abraten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "منصرف کردن",
+          "en": "to advise against"
+        },
+        "id_ref": "verb_abraten"
+      },
+      {
+        "wort": "weiter",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ادامه، بیشتر",
+          "en": "further, on"
+        },
+        "id_ref": "adverb_weiter"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
