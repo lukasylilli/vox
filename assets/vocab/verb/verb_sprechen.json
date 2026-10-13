@@ -1,0 +1,207 @@
+{
+  "schema": "3.0",
+  "id": "verb_sprechen",
+  "wort": "sprechen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "صحبت کردن، حرف زدن",
+      "(زبانی را) بلد بودن"
+    ],
+    "en": [
+      "to speak",
+      "to talk"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Kommunikation",
+    "Sprache"
+  ],
+  "ipa": "ˈʃpʁɛçn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sprichst du Deutsch?",
+      "uebersetzung": {
+        "fa": "آلمانی صحبت می‌کنی؟",
+        "en": "Do you speak German?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ich habe gestern mit meiner Chefin gesprochen, weil ich mehr Urlaub brauche.",
+      "uebersetzung": {
+        "fa": "دیروز با رئیسم صحبت کردم، چون به مرخصی بیشتری نیاز دارم.",
+        "en": "I spoke to my boss yesterday because I need more holiday."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "reden",
+      "uebersetzung": {
+        "fa": "حرف زدن",
+        "en": "to talk"
+      }
+    },
+    {
+      "wort": "sagen",
+      "uebersetzung": {
+        "fa": "گفتن",
+        "en": "to say"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "schweigen",
+      "uebersetzung": {
+        "fa": "ساکت ماندن",
+        "en": "to be silent"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit + Dat sprechen",
+        "bedeutung": "sich mit jemandem unterhalten",
+        "beispiel": "Ich muss mit dir sprechen.",
+        "uebersetzung": {
+          "fa": "باید با تو صحبت کنم.",
+          "en": "I need to talk to you."
+        }
+      },
+      {
+        "muster": "über + Akk sprechen",
+        "bedeutung": "ein Thema besprechen",
+        "beispiel": "Wir sprechen über das Wetter.",
+        "uebersetzung": {
+          "fa": "درباره‌ی هوا صحبت می‌کنیم.",
+          "en": "We are talking about the weather."
+        }
+      },
+      {
+        "muster": "von + Dat sprechen",
+        "bedeutung": "etwas erwähnen",
+        "beispiel": "Er spricht oft von seiner Heimat.",
+        "uebersetzung": {
+          "fa": "او اغلب از وطنش حرف می‌زند.",
+          "en": "He often talks about his homeland."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "sprechen",
+      "praeteritum": "sprach",
+      "partizip2": "gesprochen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "spreche",
+        "du": "sprichst",
+        "er_sie_es": "spricht",
+        "wir": "sprechen",
+        "ihr": "sprecht",
+        "sie_Sie": "sprechen"
+      },
+      "praeteritum": {
+        "ich": "sprach",
+        "du": "sprachst",
+        "er_sie_es": "sprach",
+        "wir": "sprachen",
+        "ihr": "spracht",
+        "sie_Sie": "sprachen"
+      },
+      "konjunktiv1": {
+        "ich": "spreche",
+        "du": "sprechest",
+        "er_sie_es": "spreche",
+        "wir": "sprechen",
+        "ihr": "sprechet",
+        "sie_Sie": "sprechen"
+      },
+      "konjunktiv2": {
+        "ich": "spräche",
+        "du": "sprächest",
+        "er_sie_es": "spräche",
+        "wir": "sprächen",
+        "ihr": "sprächet",
+        "sie_Sie": "sprächen"
+      },
+      "imperativ": {
+        "du": "Sprich!",
+        "ihr": "Sprecht!",
+        "Sie": "Sprechen Sie!"
+      }
+    },
+    "partizip1": "sprechend",
+    "nominalisierung": "die Sprache"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Sprache",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زبان",
+          "en": "language"
+        },
+        "id_ref": "nomen_sprache"
+      },
+      {
+        "wort": "das Gespräch",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گفت‌وگو",
+          "en": "conversation"
+        },
+        "id_ref": "nomen_gespraech"
+      },
+      {
+        "wort": "versprechen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قول دادن",
+          "en": "to promise"
+        },
+        "id_ref": "verb_versprechen"
+      },
+      {
+        "wort": "besprechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درباره‌ی چیزی بحث کردن",
+          "en": "to discuss"
+        },
+        "id_ref": "verb_besprechen"
+      },
+      {
+        "wort": "die Aussprache",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تلفظ",
+          "en": "pronunciation"
+        },
+        "id_ref": "nomen_aussprache"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

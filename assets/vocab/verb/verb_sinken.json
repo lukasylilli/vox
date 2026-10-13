@@ -1,0 +1,198 @@
+{
+  "schema": "3.0",
+  "id": "verb_sinken",
+  "wort": "sinken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "غرق شدن، فرو رفتن",
+      "پایین آمدن، کاهش یافتن"
+    ],
+    "en": [
+      "to sink",
+      "to fall, to drop"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Wirtschaft",
+    "Natur"
+  ],
+  "ipa": "ˈzɪŋkn̩",
+  "anmerkung": "Kein sinnvoller Imperativ. Transitiv: «senken» (regelmäßig).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Schiff sinkt.",
+      "uebersetzung": {
+        "fa": "کشتی غرق می‌شود.",
+        "en": "The ship is sinking."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Seit die neue Fabrik eröffnet wurde, ist die Arbeitslosigkeit in der Region deutlich gesunken.",
+      "uebersetzung": {
+        "fa": "از وقتی کارخانه‌ی جدید افتتاح شد، بیکاری در منطقه به‌طور محسوسی کاهش یافته است.",
+        "en": "Since the new factory opened, unemployment in the region has fallen significantly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fallen",
+      "uebersetzung": {
+        "fa": "افتادن، کاهش یافتن",
+        "en": "to fall"
+      }
+    },
+    {
+      "wort": "zurückgehen",
+      "uebersetzung": {
+        "fa": "کاهش یافتن",
+        "en": "to decline"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "steigen",
+      "uebersetzung": {
+        "fa": "بالا رفتن، افزایش یافتن",
+        "en": "to rise"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "um + Akk sinken",
+        "bedeutung": "um einen Betrag weniger werden",
+        "beispiel": "Die Preise sind um fünf Prozent gesunken.",
+        "uebersetzung": {
+          "fa": "قیمت‌ها پنج درصد پایین آمده‌اند.",
+          "en": "Prices have fallen by five per cent."
+        }
+      },
+      {
+        "muster": "auf + Akk sinken",
+        "bedeutung": "bis zu einem Wert fallen",
+        "beispiel": "Die Temperatur sinkt auf null Grad.",
+        "uebersetzung": {
+          "fa": "دما تا صفر درجه پایین می‌آید.",
+          "en": "The temperature drops to zero degrees."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "sinken",
+      "praeteritum": "sank",
+      "partizip2": "gesunken"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "sinke",
+        "du": "sinkst",
+        "er_sie_es": "sinkt",
+        "wir": "sinken",
+        "ihr": "sinkt",
+        "sie_Sie": "sinken"
+      },
+      "praeteritum": {
+        "ich": "sank",
+        "du": "sankst",
+        "er_sie_es": "sank",
+        "wir": "sanken",
+        "ihr": "sankt",
+        "sie_Sie": "sanken"
+      },
+      "konjunktiv1": {
+        "ich": "sinke",
+        "du": "sinkest",
+        "er_sie_es": "sinke",
+        "wir": "sinken",
+        "ihr": "sinket",
+        "sie_Sie": "sinken"
+      },
+      "konjunktiv2": {
+        "ich": "sänke",
+        "du": "sänkest",
+        "er_sie_es": "sänke",
+        "wir": "sänken",
+        "ihr": "sänket",
+        "sie_Sie": "sänken"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "sinkend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "fallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "افتادن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_fallen"
+      },
+      {
+        "wort": "steigen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بالا رفتن",
+          "en": "to rise"
+        },
+        "id_ref": "verb_steigen"
+      },
+      {
+        "wort": "senken",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پایین آوردن",
+          "en": "to lower"
+        },
+        "id_ref": "verb_senken"
+      },
+      {
+        "wort": "versinken",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "فرو رفتن",
+          "en": "to sink (into)"
+        },
+        "id_ref": "verb_versinken"
+      },
+      {
+        "wort": "untergehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "غرق شدن؛ غروب کردن",
+          "en": "to sink; to set"
+        },
+        "id_ref": "verb_untergehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

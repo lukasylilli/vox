@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_sitzen",
+  "wort": "sitzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نشستن، نشسته بودن",
+      "(لباس) اندازه بودن"
+    ],
+    "en": [
+      "to sit",
+      "to be seated",
+      "to fit (clothes)"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈzɪt͡sn̩",
+  "anmerkung": "In Süddeutschland und Österreich Perfekt meist mit «sein» (ich bin gesessen). Bewegung: «sich setzen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir sitzen im Garten.",
+      "uebersetzung": {
+        "fa": "ما در باغ نشسته‌ایم.",
+        "en": "We are sitting in the garden."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ich habe den ganzen Tag am Computer gesessen, deshalb tut mir der Rücken weh.",
+      "uebersetzung": {
+        "fa": "تمام روز پشت کامپیوتر نشسته‌ام، برای همین کمرم درد می‌کند.",
+        "en": "I've been sitting at the computer all day, so my back hurts."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "stehen",
+      "uebersetzung": {
+        "fa": "ایستادن",
+        "en": "to stand"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Dat sitzen",
+        "bedeutung": "sich auf etwas befinden",
+        "beispiel": "Die Katze sitzt auf dem Sofa.",
+        "uebersetzung": {
+          "fa": "گربه روی مبل نشسته است.",
+          "en": "The cat is sitting on the sofa."
+        }
+      },
+      {
+        "muster": "an + Dat sitzen",
+        "bedeutung": "mit etwas beschäftigt sein",
+        "beispiel": "Ich sitze gerade an meiner Hausarbeit.",
+        "uebersetzung": {
+          "fa": "الان مشغول تحقیق درسی‌ام هستم.",
+          "en": "I'm working on my essay right now."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "sitzen",
+      "praeteritum": "saß",
+      "partizip2": "gesessen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "sitze",
+        "du": "sitzt",
+        "er_sie_es": "sitzt",
+        "wir": "sitzen",
+        "ihr": "sitzt",
+        "sie_Sie": "sitzen"
+      },
+      "praeteritum": {
+        "ich": "saß",
+        "du": "saßest",
+        "er_sie_es": "saß",
+        "wir": "saßen",
+        "ihr": "saßt",
+        "sie_Sie": "saßen"
+      },
+      "konjunktiv1": {
+        "ich": "sitze",
+        "du": "sitzest",
+        "er_sie_es": "sitze",
+        "wir": "sitzen",
+        "ihr": "sitzet",
+        "sie_Sie": "sitzen"
+      },
+      "konjunktiv2": {
+        "ich": "säße",
+        "du": "säßest",
+        "er_sie_es": "säße",
+        "wir": "säßen",
+        "ihr": "säßet",
+        "sie_Sie": "säßen"
+      },
+      "imperativ": {
+        "du": "Sitz!",
+        "ihr": "Sitzt!",
+        "Sie": "Sitzen Sie!"
+      }
+    },
+    "partizip1": "sitzend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "setzen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "(sich) نشستن، گذاشتن",
+          "en": "to sit down; to put"
+        },
+        "id_ref": "verb_setzen"
+      },
+      {
+        "wort": "der Sitz",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صندلی، جا",
+          "en": "seat"
+        },
+        "id_ref": "nomen_sitz"
+      },
+      {
+        "wort": "der Stuhl",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "صندلی",
+          "en": "chair"
+        },
+        "id_ref": "nomen_stuhl"
+      },
+      {
+        "wort": "stehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ایستادن",
+          "en": "to stand"
+        },
+        "id_ref": "verb_stehen"
+      },
+      {
+        "wort": "liegen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دراز کشیدن، قرار داشتن",
+          "en": "to lie"
+        },
+        "id_ref": "verb_liegen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

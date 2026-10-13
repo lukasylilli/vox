@@ -1269,6 +1269,32 @@ const zurueckgestellt = <String>{
   'schiefliegen', // zurückgestellt (Regel 14/16): umgangssprachlich; Hilfsverb regional schwankend (haben/sein) 2026-10-13
   'schießenlassen', // zurückgestellt (Regel 14/16): Schreibung schwankt (schießen lassen / schießenlassen) 2026-10-13
   'schinden', // zurückgestellt (Regel 14/16): Präteritum schwankt (schindete/schund) 2026-10-13
+  'schlechtgehen', // zurückgestellt (Regel 14/16): unpersönlich (wie gutgehen); Schreibung schwankt 2026-10-13
+  'schleifen', // zurückgestellt (Regel 14/16): zwei Konjugationen je Bedeutung (schliff ↔ schleifte) 2026-10-13
+  'schleifenlassen', // zurückgestellt (Regel 14/16): Schreibung schwankt (schleifen lassen / schleifenlassen) 2026-10-13
+  'schleißen', // zurückgestellt (Regel 14/16): selten; Präteritum schwankt (schliss/schleißte) 2026-10-13
+  'schliefen', // zurückgestellt (Regel 14/16): Listenfehler: Präteritum von «schlafen», kein Infinitiv 2026-10-13
+  'schmalzen', // zurückgestellt (Regel 14/16): selten; Partizip schwankt (geschmalzt/geschmalzen) 2026-10-13
+  'schmorenlassen', // zurückgestellt (Regel 14/16): Schreibung schwankt (schmoren lassen / schmorenlassen) 2026-10-13
+  'schockgefrieren', // zurückgestellt (Regel 14/16): nur im Infinitiv/Partizip II gebräuchlich (defektiv) 2026-10-13
+  'schrecken', // zurückgestellt (Regel 14/16): zwei Konjugationen je Bedeutung (schrak ↔ schreckte) 2026-10-13
+  'schroten', // zurückgestellt (Regel 14/16): selten (Fachwort) 2026-10-13
+  'schwären', // zurückgestellt (Regel 14/16): veraltet; Präteritum schwankt (schwor/schwärte) 2026-10-13
+  'schwarzbrennen', // zurückgestellt (Regel 14/16): selten (Fachjargon) 2026-10-13
+  'schweifen', // zurückgestellt (Regel 14/16): gehoben/selten 2026-10-13
+  'schwellen', // zurückgestellt (Regel 14/16): zwei Konjugationen je Bedeutung (schwoll ↔ schwellte) 2026-10-13
+  'schwerhalten', // zurückgestellt (Regel 14/16): selten; Bedeutung/Schreibung unsicher 2026-10-13
+  'segelfliegen', // zurückgestellt (Regel 14/16): nur im Infinitiv gebräuchlich (defektiv) 2026-10-13
+  'seinlassen', // zurückgestellt (Regel 14/16): Schreibung schwankt (sein lassen / seinlassen) 2026-10-13
+  'setzenlassen', // zurückgestellt (Regel 14/16): Schreibung/Bedeutung unsicher (setzen lassen) 2026-10-13
+  'sieden', // zurückgestellt (Regel 14/16): Präteritum schwankt (sott/siedete) 2026-10-13
+  'sinnen', // zurückgestellt (Regel 14/16): gehoben/selten; Konjunktiv II schwankt (sänne/sönne) 2026-10-13
+  'sitzenbleiben', // zurückgestellt (Regel 14/16): Schreibung schwankt (sitzen bleiben / sitzenbleiben) 2026-10-13
+  'sitzenlassen', // zurückgestellt (Regel 14/16): Schreibung schwankt (sitzen lassen / sitzenlassen) 2026-10-13
+  'spalten', // zurückgestellt (Regel 14/16): Partizip II schwankt (gespalten/gespaltet) 2026-10-13
+  'spitzbekommen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-13
+  'spitzhaben', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-13
+  'spleißen', // zurückgestellt (Regel 14/16): Fachwort; Präteritum schwankt (spliss/spleißte) 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

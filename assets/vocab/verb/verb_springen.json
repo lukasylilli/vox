@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_springen",
+  "wort": "springen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پریدن",
+      "جهیدن، (شیشه) ترک خوردن"
+    ],
+    "en": [
+      "to jump",
+      "to leap",
+      "to crack"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Sport",
+    "Alltag"
+  ],
+  "ipa": "ˈʃpʁɪŋən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hund springt über den Zaun.",
+      "uebersetzung": {
+        "fa": "سگ از روی نرده می‌پرد.",
+        "en": "The dog jumps over the fence."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als das Telefon klingelte, ist sie sofort vom Sofa gesprungen.",
+      "uebersetzung": {
+        "fa": "وقتی تلفن زنگ زد، فوراً از روی مبل پرید.",
+        "en": "When the phone rang, she immediately jumped up from the sofa."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hüpfen",
+      "uebersetzung": {
+        "fa": "جست زدن",
+        "en": "to hop"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in + Akk springen",
+        "bedeutung": "mit einem Sprung hineingelangen",
+        "beispiel": "Die Kinder springen ins Wasser.",
+        "uebersetzung": {
+          "fa": "بچه‌ها به داخل آب می‌پرند.",
+          "en": "The children jump into the water."
+        }
+      },
+      {
+        "muster": "über + Akk springen",
+        "bedeutung": "über etwas hinwegspringen",
+        "beispiel": "Das Pferd springt über das Hindernis.",
+        "uebersetzung": {
+          "fa": "اسب از روی مانع می‌پرد.",
+          "en": "The horse jumps over the obstacle."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "springen",
+      "praeteritum": "sprang",
+      "partizip2": "gesprungen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "springe",
+        "du": "springst",
+        "er_sie_es": "springt",
+        "wir": "springen",
+        "ihr": "springt",
+        "sie_Sie": "springen"
+      },
+      "praeteritum": {
+        "ich": "sprang",
+        "du": "sprangst",
+        "er_sie_es": "sprang",
+        "wir": "sprangen",
+        "ihr": "sprangt",
+        "sie_Sie": "sprangen"
+      },
+      "konjunktiv1": {
+        "ich": "springe",
+        "du": "springest",
+        "er_sie_es": "springe",
+        "wir": "springen",
+        "ihr": "springet",
+        "sie_Sie": "springen"
+      },
+      "konjunktiv2": {
+        "ich": "spränge",
+        "du": "sprängest",
+        "er_sie_es": "spränge",
+        "wir": "sprängen",
+        "ihr": "spränget",
+        "sie_Sie": "sprängen"
+      },
+      "imperativ": {
+        "du": "Spring!",
+        "ihr": "Springt!",
+        "Sie": "Springen Sie!"
+      }
+    },
+    "partizip1": "springend",
+    "nominalisierung": "der Sprung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دویدن",
+          "en": "to run"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "hüpfen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جست زدن",
+          "en": "to hop"
+        },
+        "id_ref": "verb_huepfen"
+      },
+      {
+        "wort": "der Sprung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پرش",
+          "en": "jump"
+        },
+        "id_ref": "nomen_sprung"
+      },
+      {
+        "wort": "überspringen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جا انداختن، رد کردن",
+          "en": "to skip"
+        },
+        "id_ref": "verb_ueberspringen"
+      },
+      {
+        "wort": "einspringen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جایگزین کسی شدن",
+          "en": "to stand in"
+        },
+        "id_ref": "verb_einspringen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
