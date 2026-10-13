@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_vorfallen",
+  "wort": "vorfallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اتفاق افتادن (معمولاً ناخوشایند)",
+      "به جلو افتادن"
+    ],
+    "en": [
+      "to happen, to occur",
+      "to fall forward"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈfoːɐ̯ˌfalən",
+  "anmerkung": "Trennbar (fiel vor, vorgefallen). Meist 3. Person: «Was ist vorgefallen?». Kein üblicher Imperativ.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Was ist hier vorgefallen?",
+      "uebersetzung": {
+        "fa": "اینجا چه اتفاقی افتاده؟",
+        "en": "What happened here?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Lehrer wollte wissen, was in der Pause vorgefallen war, weil zwei Schüler weinten.",
+      "uebersetzung": {
+        "fa": "معلم می‌خواست بداند در زنگ تفریح چه اتفاقی افتاده، چون دو دانش‌آموز گریه می‌کردند.",
+        "en": "The teacher wanted to know what had happened during the break, because two pupils were crying."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "passieren",
+      "uebersetzung": {
+        "fa": "اتفاق افتادن",
+        "en": "to happen"
+      }
+    },
+    {
+      "wort": "geschehen",
+      "uebersetzung": {
+        "fa": "رخ دادن",
+        "en": "to occur"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "vor- (جلو) + fallen (افتادن)",
+    "en": "vor- (forward) + fallen (to fall)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "vorfallen",
+      "praeteritum": "fiel vor",
+      "partizip2": "vorgefallen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "falle vor",
+        "du": "fällst vor",
+        "er_sie_es": "fällt vor",
+        "wir": "fallen vor",
+        "ihr": "fallt vor",
+        "sie_Sie": "fallen vor"
+      },
+      "praeteritum": {
+        "ich": "fiel vor",
+        "du": "fielst vor",
+        "er_sie_es": "fiel vor",
+        "wir": "fielen vor",
+        "ihr": "fielt vor",
+        "sie_Sie": "fielen vor"
+      },
+      "konjunktiv1": {
+        "ich": "falle vor",
+        "du": "fallest vor",
+        "er_sie_es": "falle vor",
+        "wir": "fallen vor",
+        "ihr": "fallet vor",
+        "sie_Sie": "fallen vor"
+      },
+      "konjunktiv2": {
+        "ich": "fiele vor",
+        "du": "fielest vor",
+        "er_sie_es": "fiele vor",
+        "wir": "fielen vor",
+        "ihr": "fielet vor",
+        "sie_Sie": "fielen vor"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "vorfallend",
+    "nominalisierung": "der Vorfall"
+  },
+  "wortnetz": {
+    "grundwort": "fallen",
+    "woerter": [
+      {
+        "wort": "fallen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "افتادن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_fallen"
+      },
+      {
+        "wort": "passieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اتفاق افتادن",
+          "en": "to happen"
+        },
+        "id_ref": "verb_passieren"
+      },
+      {
+        "wort": "geschehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رخ دادن",
+          "en": "to occur"
+        },
+        "id_ref": "verb_geschehen"
+      },
+      {
+        "wort": "der Vorfall",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رویداد، حادثه",
+          "en": "incident"
+        },
+        "id_ref": "nomen_vorfall"
+      },
+      {
+        "wort": "der Zwischenfall",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "حادثه‌ی پیش‌بینی‌نشده",
+          "en": "incident"
+        },
+        "id_ref": "nomen_zwischenfall"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_vorgeben",
+  "wort": "vorgeben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "وانمود کردن، تظاهر کردن",
+      "(از پیش) تعیین کردن"
+    ],
+    "en": [
+      "to pretend",
+      "to specify, to set"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit",
+    "Alltag"
+  ],
+  "ipa": "ˈfoːɐ̯ˌɡeːbn̩",
+  "anmerkung": "Trennbar (gab vor, vorgegeben). «vorgeben, etwas zu sein/tun» = so tun, als ob. Nomen: die Vorgabe.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Lehrer gibt das Thema vor.",
+      "uebersetzung": {
+        "fa": "معلم موضوع را تعیین می‌کند.",
+        "en": "The teacher sets the topic."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Er gab vor, krank zu sein, weil er keine Lust auf die Arbeit hatte.",
+      "uebersetzung": {
+        "fa": "وانمود کرد بیمار است، چون حوصله‌ی کار نداشت.",
+        "en": "He pretended to be ill because he did not feel like working."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vortäuschen",
+      "uebersetzung": {
+        "fa": "وانمود کردن",
+        "en": "to feign"
+      }
+    },
+    {
+      "wort": "festlegen",
+      "uebersetzung": {
+        "fa": "تعیین کردن",
+        "en": "to set, to fix"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "vor- (از پیش) + geben (دادن)",
+    "en": "vor- (in advance) + geben (to give)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "vorgeben + zu-Infinitiv",
+        "bedeutung": "behaupten, etwas zu sein oder zu tun (oft nicht wahr)",
+        "beispiel": "Sie gab vor, nichts zu wissen.",
+        "uebersetzung": {
+          "fa": "وانمود کرد چیزی نمی‌داند.",
+          "en": "She pretended to know nothing."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vorgeben",
+      "praeteritum": "gab vor",
+      "partizip2": "vorgegeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gebe vor",
+        "du": "gibst vor",
+        "er_sie_es": "gibt vor",
+        "wir": "geben vor",
+        "ihr": "gebt vor",
+        "sie_Sie": "geben vor"
+      },
+      "praeteritum": {
+        "ich": "gab vor",
+        "du": "gabst vor",
+        "er_sie_es": "gab vor",
+        "wir": "gaben vor",
+        "ihr": "gabt vor",
+        "sie_Sie": "gaben vor"
+      },
+      "konjunktiv1": {
+        "ich": "gebe vor",
+        "du": "gebest vor",
+        "er_sie_es": "gebe vor",
+        "wir": "geben vor",
+        "ihr": "gebet vor",
+        "sie_Sie": "geben vor"
+      },
+      "konjunktiv2": {
+        "ich": "gäbe vor",
+        "du": "gäbest vor",
+        "er_sie_es": "gäbe vor",
+        "wir": "gäben vor",
+        "ihr": "gäbet vor",
+        "sie_Sie": "gäben vor"
+      },
+      "imperativ": {
+        "du": "Gib vor!",
+        "ihr": "Gebt vor!",
+        "Sie": "Geben Sie vor!"
+      }
+    },
+    "partizip1": "vorgebend",
+    "nominalisierung": "die Vorgabe"
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "behaupten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ادعا کردن",
+          "en": "to claim"
+        },
+        "id_ref": "verb_behaupten"
+      },
+      {
+        "wort": "festlegen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تعیین کردن",
+          "en": "to set"
+        },
+        "id_ref": "verb_festlegen"
+      },
+      {
+        "wort": "die Vorgabe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دستورالعمل، معیار تعیین‌شده",
+          "en": "guideline, specification"
+        },
+        "id_ref": "nomen_vorgabe"
+      },
+      {
+        "wort": "vortäuschen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "وانمود کردن",
+          "en": "to feign"
+        },
+        "id_ref": "verb_vortaeuschen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

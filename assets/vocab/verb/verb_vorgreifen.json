@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_vorgreifen",
+  "wort": "vorgreifen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پیش‌دستی کردن، جلو افتادن از (چیزی)",
+      "پیشاپیش پرداختن به"
+    ],
+    "en": [
+      "to anticipate",
+      "to pre-empt"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Kommunikation"
+  ],
+  "ipa": "ˈfoːɐ̯ˌɡʁaɪ̯fn̩",
+  "anmerkung": "Trennbar (griff vor, vorgegriffen). Mit Dativ: «einer Sache vorgreifen». Nomen: der Vorgriff.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich will nicht vorgreifen.",
+      "uebersetzung": {
+        "fa": "نمی‌خواهم پیش‌دستی کنم.",
+        "en": "I don't want to get ahead of things."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ich möchte der Entscheidung des Chefs nicht vorgreifen, solange er im Urlaub ist.",
+      "uebersetzung": {
+        "fa": "تا وقتی رئیس در مرخصی است، نمی‌خواهم پیش از تصمیم او کاری بکنم.",
+        "en": "I don't want to pre-empt the boss's decision while he is on holiday."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vorwegnehmen",
+      "uebersetzung": {
+        "fa": "پیشاپیش گفتن/انجام دادن",
+        "en": "to anticipate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "vor- (پیش) + greifen (گرفتن، دست بردن)",
+    "en": "vor- (ahead) + greifen (to grasp)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem/etwas (Dat) vorgreifen",
+        "bedeutung": "etwas tun oder sagen, bevor es an der Reihe ist",
+        "beispiel": "Greif dem Ende der Geschichte nicht vor!",
+        "uebersetzung": {
+          "fa": "پایان داستان را زودتر لو نده!",
+          "en": "Don't give away the end of the story!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vorgreifen",
+      "praeteritum": "griff vor",
+      "partizip2": "vorgegriffen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "greife vor",
+        "du": "greifst vor",
+        "er_sie_es": "greift vor",
+        "wir": "greifen vor",
+        "ihr": "greift vor",
+        "sie_Sie": "greifen vor"
+      },
+      "praeteritum": {
+        "ich": "griff vor",
+        "du": "griffst vor",
+        "er_sie_es": "griff vor",
+        "wir": "griffen vor",
+        "ihr": "grifft vor",
+        "sie_Sie": "griffen vor"
+      },
+      "konjunktiv1": {
+        "ich": "greife vor",
+        "du": "greifest vor",
+        "er_sie_es": "greife vor",
+        "wir": "greifen vor",
+        "ihr": "greifet vor",
+        "sie_Sie": "greifen vor"
+      },
+      "konjunktiv2": {
+        "ich": "griffe vor",
+        "du": "griffest vor",
+        "er_sie_es": "griffe vor",
+        "wir": "griffen vor",
+        "ihr": "griffet vor",
+        "sie_Sie": "griffen vor"
+      },
+      "imperativ": {
+        "du": "Greif vor!",
+        "ihr": "Greift vor!",
+        "Sie": "Greifen Sie vor!"
+      }
+    },
+    "partizip1": "vorgreifend",
+    "nominalisierung": "der Vorgriff"
+  },
+  "wortnetz": {
+    "grundwort": "greifen",
+    "woerter": [
+      {
+        "wort": "greifen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گرفتن، چنگ زدن",
+          "en": "to grab"
+        },
+        "id_ref": "verb_greifen"
+      },
+      {
+        "wort": "die Entscheidung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تصمیم",
+          "en": "decision"
+        },
+        "id_ref": "nomen_entscheidung"
+      },
+      {
+        "wort": "eingreifen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دخالت کردن",
+          "en": "to intervene"
+        },
+        "id_ref": "verb_eingreifen"
+      },
+      {
+        "wort": "vorwegnehmen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پیشاپیش گفتن/انجام دادن",
+          "en": "to anticipate"
+        },
+        "id_ref": "verb_vorwegnehmen"
+      },
+      {
+        "wort": "der Vorgriff",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "پیش‌دستی",
+          "en": "anticipation"
+        },
+        "id_ref": "nomen_vorgriff"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

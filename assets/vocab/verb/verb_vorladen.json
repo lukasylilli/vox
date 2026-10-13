@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_vorladen",
+  "wort": "vorladen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "احضار کردن (به دادگاه/پلیس)"
+    ],
+    "en": [
+      "to summon"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht"
+  ],
+  "ipa": "ˈfoːɐ̯ˌlaːdn̩",
+  "anmerkung": "Trennbar (lud vor, vorgeladen). Amtssprache. Nomen: die Vorladung.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Gericht lädt den Zeugen vor.",
+      "uebersetzung": {
+        "fa": "دادگاه شاهد را احضار می‌کند.",
+        "en": "The court summons the witness."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil er den Unfall gesehen hatte, wurde er als Zeuge vor Gericht vorgeladen.",
+      "uebersetzung": {
+        "fa": "چون تصادف را دیده بود، به‌عنوان شاهد به دادگاه احضار شد.",
+        "en": "Because he had seen the accident, he was summoned to court as a witness."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einbestellen",
+      "uebersetzung": {
+        "fa": "احضار کردن",
+        "en": "to summon"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "vor- (پیش) + laden (فراخواندن)",
+    "en": "vor- (before) + laden (to summon)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden zu + Dat vorladen",
+        "bedeutung": "jemanden amtlich zu einem Termin bestellen",
+        "beispiel": "Sie wurde zur Vernehmung vorgeladen.",
+        "uebersetzung": {
+          "fa": "او برای بازجویی احضار شد.",
+          "en": "She was summoned for questioning."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vorladen",
+      "praeteritum": "lud vor",
+      "partizip2": "vorgeladen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lade vor",
+        "du": "lädst vor",
+        "er_sie_es": "lädt vor",
+        "wir": "laden vor",
+        "ihr": "ladet vor",
+        "sie_Sie": "laden vor"
+      },
+      "praeteritum": {
+        "ich": "lud vor",
+        "du": "ludst vor",
+        "er_sie_es": "lud vor",
+        "wir": "luden vor",
+        "ihr": "ludet vor",
+        "sie_Sie": "luden vor"
+      },
+      "konjunktiv1": {
+        "ich": "lade vor",
+        "du": "ladest vor",
+        "er_sie_es": "lade vor",
+        "wir": "laden vor",
+        "ihr": "ladet vor",
+        "sie_Sie": "laden vor"
+      },
+      "konjunktiv2": {
+        "ich": "lüde vor",
+        "du": "lüdest vor",
+        "er_sie_es": "lüde vor",
+        "wir": "lüden vor",
+        "ihr": "lüdet vor",
+        "sie_Sie": "lüden vor"
+      },
+      "imperativ": {
+        "du": "Lad vor!",
+        "ihr": "Ladet vor!",
+        "Sie": "Laden Sie vor!"
+      }
+    },
+    "partizip1": "vorladend",
+    "nominalisierung": "die Vorladung"
+  },
+  "wortnetz": {
+    "grundwort": "laden",
+    "woerter": [
+      {
+        "wort": "einladen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دعوت کردن",
+          "en": "to invite"
+        },
+        "id_ref": "verb_einladen"
+      },
+      {
+        "wort": "das Gericht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دادگاه",
+          "en": "court"
+        },
+        "id_ref": "nomen_gericht"
+      },
+      {
+        "wort": "der Zeuge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شاهد",
+          "en": "witness"
+        },
+        "id_ref": "nomen_zeuge"
+      },
+      {
+        "wort": "laden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بار زدن؛ احضار کردن",
+          "en": "to load; to summon"
+        },
+        "id_ref": "verb_laden"
+      },
+      {
+        "wort": "die Vorladung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "احضاریه",
+          "en": "summons"
+        },
+        "id_ref": "nomen_vorladung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

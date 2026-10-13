@@ -1,0 +1,194 @@
+{
+  "schema": "3.0",
+  "id": "verb_vorkommen",
+  "wort": "vorkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اتفاق افتادن، پیش آمدن",
+      "وجود داشتن، یافت شدن",
+      "به نظر رسیدن"
+    ],
+    "en": [
+      "to happen",
+      "to occur, to be found",
+      "to seem"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈfoːɐ̯ˌkɔmən",
+  "anmerkung": "Trennbar (kam vor, vorgekommen). «Das kommt mir bekannt vor» = scheint mir bekannt. Nomen: das Vorkommen.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das kommt oft vor.",
+      "uebersetzung": {
+        "fa": "این زیاد پیش می‌آید.",
+        "en": "That happens often."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Es kommt mir so vor, als ob er mich nicht mag.",
+      "uebersetzung": {
+        "fa": "به نظرم می‌رسد که انگار از من خوشش نمی‌آید.",
+        "en": "It seems to me as if he doesn't like me."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "passieren",
+      "uebersetzung": {
+        "fa": "اتفاق افتادن",
+        "en": "to happen"
+      }
+    },
+    {
+      "wort": "scheinen",
+      "uebersetzung": {
+        "fa": "به نظر رسیدن",
+        "en": "to seem"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "vor- (جلو) + kommen (آمدن)",
+    "en": "vor- (forward) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem (Dat) + Adjektiv vorkommen",
+        "bedeutung": "jemandem so erscheinen",
+        "beispiel": "Die Aufgabe kommt mir schwer vor.",
+        "uebersetzung": {
+          "fa": "این تمرین به نظرم سخت می‌آید.",
+          "en": "The task seems difficult to me."
+        }
+      },
+      {
+        "muster": "in + Dat vorkommen",
+        "bedeutung": "in etwas enthalten sein",
+        "beispiel": "Dieses Wort kommt im Text dreimal vor.",
+        "uebersetzung": {
+          "fa": "این کلمه سه بار در متن آمده است.",
+          "en": "This word appears three times in the text."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vorkommen",
+      "praeteritum": "kam vor",
+      "partizip2": "vorgekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme vor",
+        "du": "kommst vor",
+        "er_sie_es": "kommt vor",
+        "wir": "kommen vor",
+        "ihr": "kommt vor",
+        "sie_Sie": "kommen vor"
+      },
+      "praeteritum": {
+        "ich": "kam vor",
+        "du": "kamst vor",
+        "er_sie_es": "kam vor",
+        "wir": "kamen vor",
+        "ihr": "kamt vor",
+        "sie_Sie": "kamen vor"
+      },
+      "konjunktiv1": {
+        "ich": "komme vor",
+        "du": "kommest vor",
+        "er_sie_es": "komme vor",
+        "wir": "kommen vor",
+        "ihr": "kommet vor",
+        "sie_Sie": "kommen vor"
+      },
+      "konjunktiv2": {
+        "ich": "käme vor",
+        "du": "kämest vor",
+        "er_sie_es": "käme vor",
+        "wir": "kämen vor",
+        "ihr": "kämet vor",
+        "sie_Sie": "kämen vor"
+      },
+      "imperativ": {
+        "du": "Komm vor!",
+        "ihr": "Kommt vor!",
+        "Sie": "Kommen Sie vor!"
+      }
+    },
+    "partizip1": "vorkommend",
+    "nominalisierung": "das Vorkommen"
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "passieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اتفاق افتادن",
+          "en": "to happen"
+        },
+        "id_ref": "verb_passieren"
+      },
+      {
+        "wort": "scheinen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به نظر رسیدن",
+          "en": "to seem"
+        },
+        "id_ref": "verb_scheinen"
+      },
+      {
+        "wort": "der Vorfall",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رویداد",
+          "en": "incident"
+        },
+        "id_ref": "nomen_vorfall"
+      },
+      {
+        "wort": "das Vorkommen",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "وجود، ذخیره (معدنی)",
+          "en": "occurrence, deposit"
+        },
+        "id_ref": "nomen_vorkommen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

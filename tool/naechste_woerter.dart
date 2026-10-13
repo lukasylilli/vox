@@ -1401,6 +1401,9 @@ const zurueckgestellt = <String>{
   'voreinanderliegen', // zurückgestellt (Regel 14/16): Schreibung/Gebrauch unsicher (wie nebeneinanderliegen) 2026-10-13
   'vorenthalten', // zurückgestellt (Regel 14/16): trennbar/untrennbar schwankend (enthielt vor / vorenthielt) 2026-10-13
   'voressen', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'vorfliegen', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'vorgebären', // zurückgestellt (Regel 14/16): kein gebräuchliches Wort 2026-10-13
+  'vorhängen', // zurückgestellt (Regel 14/16): hängen-Verbindung: transitiv/intransitiv schwankend (wie hinhängen) 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

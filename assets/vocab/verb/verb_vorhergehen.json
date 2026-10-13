@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_vorhergehen",
+  "wort": "vorhergehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پیش از (چیزی) آمدن، مقدم بودن"
+    ],
+    "en": [
+      "to precede"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Zeit"
+  ],
+  "ipa": "foːɐ̯ˈheːɐ̯ˌɡeːən",
+  "anmerkung": "Trennbar (ging vorher, vorhergegangen). Meist als Partizip: «am vorhergehenden Tag». Kein üblicher Imperativ.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Am vorhergehenden Tag hat es geregnet.",
+      "uebersetzung": {
+        "fa": "روز قبلش باران آمده بود.",
+        "en": "It rained on the previous day."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Entscheidung gingen lange Diskussionen vorher, die alle müde machten.",
+      "uebersetzung": {
+        "fa": "پیش از این تصمیم بحث‌های طولانی‌ای شده بود که همه را خسته کرد.",
+        "en": "The decision was preceded by long discussions that tired everyone out."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vorausgehen",
+      "uebersetzung": {
+        "fa": "پیش از چیزی آمدن",
+        "en": "to precede"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "folgen",
+      "uebersetzung": {
+        "fa": "پس از چیزی آمدن",
+        "en": "to follow"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "vorher (پیش‌تر) + gehen (رفتن)",
+    "en": "vorher (before) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "einer Sache (Dat) vorhergehen",
+        "bedeutung": "zeitlich vor etwas kommen",
+        "beispiel": "Dem Sturm ging eine große Stille vorher.",
+        "uebersetzung": {
+          "fa": "پیش از طوفان سکوتی عمیق برقرار بود.",
+          "en": "The storm was preceded by a great silence."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vorhergehen",
+      "praeteritum": "ging vorher",
+      "partizip2": "vorhergegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe vorher",
+        "du": "gehst vorher",
+        "er_sie_es": "geht vorher",
+        "wir": "gehen vorher",
+        "ihr": "geht vorher",
+        "sie_Sie": "gehen vorher"
+      },
+      "praeteritum": {
+        "ich": "ging vorher",
+        "du": "gingst vorher",
+        "er_sie_es": "ging vorher",
+        "wir": "gingen vorher",
+        "ihr": "gingt vorher",
+        "sie_Sie": "gingen vorher"
+      },
+      "konjunktiv1": {
+        "ich": "gehe vorher",
+        "du": "gehest vorher",
+        "er_sie_es": "gehe vorher",
+        "wir": "gehen vorher",
+        "ihr": "gehet vorher",
+        "sie_Sie": "gehen vorher"
+      },
+      "konjunktiv2": {
+        "ich": "ginge vorher",
+        "du": "gingest vorher",
+        "er_sie_es": "ginge vorher",
+        "wir": "gingen vorher",
+        "ihr": "ginget vorher",
+        "sie_Sie": "gingen vorher"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "vorhergehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "vorher",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قبلاً، پیش‌تر",
+          "en": "before"
+        },
+        "id_ref": "adverb_vorher"
+      },
+      {
+        "wort": "folgen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پس از چیزی آمدن",
+          "en": "to follow"
+        },
+        "id_ref": "verb_folgen"
+      },
+      {
+        "wort": "vorherig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قبلی",
+          "en": "previous"
+        },
+        "id_ref": "adjektiv_vorherig"
+      },
+      {
+        "wort": "vorausgehen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پیش از چیزی آمدن",
+          "en": "to precede"
+        },
+        "id_ref": "verb_vorausgehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

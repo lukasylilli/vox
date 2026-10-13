@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_vorhaben",
+  "wort": "vorhaben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "قصد داشتن، برنامه داشتن"
+    ],
+    "en": [
+      "to plan",
+      "to intend"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Freizeit"
+  ],
+  "ipa": "ˈfoːɐ̯ˌhaːbn̩",
+  "anmerkung": "Trennbar (hatte vor, vorgehabt). Oft «etwas vorhaben» oder «vorhaben, etwas zu tun». Kein üblicher Imperativ.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Was hast du am Wochenende vor?",
+      "uebersetzung": {
+        "fa": "آخر هفته چه برنامه‌ای داری؟",
+        "en": "What are you doing at the weekend?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich habe vor, nächstes Jahr in Wien zu studieren, wenn ich einen Platz bekomme.",
+      "uebersetzung": {
+        "fa": "قصد دارم سال آینده در وین درس بخوانم، اگر پذیرش بگیرم.",
+        "en": "I plan to study in Vienna next year if I get a place."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "planen",
+      "uebersetzung": {
+        "fa": "برنامه‌ریزی کردن",
+        "en": "to plan"
+      }
+    },
+    {
+      "wort": "beabsichtigen",
+      "uebersetzung": {
+        "fa": "قصد داشتن",
+        "en": "to intend"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "vor- (پیش رو) + haben (داشتن)",
+    "en": "vor- (ahead) + haben (to have)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "vorhaben + zu-Infinitiv",
+        "bedeutung": "die Absicht haben, etwas zu tun",
+        "beispiel": "Wir haben vor, ein Haus zu kaufen.",
+        "uebersetzung": {
+          "fa": "قصد داریم خانه‌ای بخریم.",
+          "en": "We intend to buy a house."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vorhaben",
+      "praeteritum": "hatte vor",
+      "partizip2": "vorgehabt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "habe vor",
+        "du": "hast vor",
+        "er_sie_es": "hat vor",
+        "wir": "haben vor",
+        "ihr": "habt vor",
+        "sie_Sie": "haben vor"
+      },
+      "praeteritum": {
+        "ich": "hatte vor",
+        "du": "hattest vor",
+        "er_sie_es": "hatte vor",
+        "wir": "hatten vor",
+        "ihr": "hattet vor",
+        "sie_Sie": "hatten vor"
+      },
+      "konjunktiv1": {
+        "ich": "habe vor",
+        "du": "habest vor",
+        "er_sie_es": "habe vor",
+        "wir": "haben vor",
+        "ihr": "habet vor",
+        "sie_Sie": "haben vor"
+      },
+      "konjunktiv2": {
+        "ich": "hätte vor",
+        "du": "hättest vor",
+        "er_sie_es": "hätte vor",
+        "wir": "hätten vor",
+        "ihr": "hättet vor",
+        "sie_Sie": "hätten vor"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "vorhabend",
+    "nominalisierung": "das Vorhaben"
+  },
+  "wortnetz": {
+    "grundwort": "haben",
+    "woerter": [
+      {
+        "wort": "haben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "داشتن",
+          "en": "to have"
+        },
+        "id_ref": "verb_haben"
+      },
+      {
+        "wort": "planen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برنامه‌ریزی کردن",
+          "en": "to plan"
+        },
+        "id_ref": "verb_planen"
+      },
+      {
+        "wort": "der Plan",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برنامه، نقشه",
+          "en": "plan"
+        },
+        "id_ref": "nomen_plan"
+      },
+      {
+        "wort": "das Vorhaben",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قصد، طرح",
+          "en": "plan, project"
+        },
+        "id_ref": "nomen_vorhaben"
+      },
+      {
+        "wort": "beabsichtigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قصد داشتن",
+          "en": "to intend"
+        },
+        "id_ref": "verb_beabsichtigen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

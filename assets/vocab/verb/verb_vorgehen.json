@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_vorgehen",
+  "wort": "vorgehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اقدام کردن، عمل کردن",
+      "(ساعت) جلو بودن",
+      "جلوتر رفتن",
+      "در جریان بودن، رخ دادن"
+    ],
+    "en": [
+      "to proceed, to act",
+      "(clock) to be fast",
+      "to go ahead",
+      "to go on, to happen"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Arbeit"
+  ],
+  "ipa": "ˈfoːɐ̯ˌɡeːən",
+  "anmerkung": "Trennbar (ging vor, vorgegangen). «Was geht hier vor?» = was passiert. «Sicherheit geht vor» = hat Vorrang. Nomen: das Vorgehen, der Vorgang.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Meine Uhr geht fünf Minuten vor.",
+      "uebersetzung": {
+        "fa": "ساعتم پنج دقیقه جلوست.",
+        "en": "My watch is five minutes fast."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wir müssen überlegen, wie wir vorgehen, bevor wir anfangen.",
+      "uebersetzung": {
+        "fa": "پیش از شروع باید فکر کنیم چطور عمل کنیم.",
+        "en": "We have to think about how we proceed before we start."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "handeln",
+      "uebersetzung": {
+        "fa": "اقدام کردن",
+        "en": "to act"
+      }
+    },
+    {
+      "wort": "verfahren",
+      "uebersetzung": {
+        "fa": "رفتار کردن، عمل کردن",
+        "en": "to proceed"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "vor- (جلو) + gehen (رفتن)",
+    "en": "vor- (forward) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "gegen + Akk vorgehen",
+        "bedeutung": "Maßnahmen gegen jemanden/etwas ergreifen",
+        "beispiel": "Die Polizei geht gegen zu schnelle Fahrer vor.",
+        "uebersetzung": {
+          "fa": "پلیس با رانندگانی که سرعت زیاد دارند برخورد می‌کند.",
+          "en": "The police are taking action against speeding drivers."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vorgehen",
+      "praeteritum": "ging vor",
+      "partizip2": "vorgegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe vor",
+        "du": "gehst vor",
+        "er_sie_es": "geht vor",
+        "wir": "gehen vor",
+        "ihr": "geht vor",
+        "sie_Sie": "gehen vor"
+      },
+      "praeteritum": {
+        "ich": "ging vor",
+        "du": "gingst vor",
+        "er_sie_es": "ging vor",
+        "wir": "gingen vor",
+        "ihr": "gingt vor",
+        "sie_Sie": "gingen vor"
+      },
+      "konjunktiv1": {
+        "ich": "gehe vor",
+        "du": "gehest vor",
+        "er_sie_es": "gehe vor",
+        "wir": "gehen vor",
+        "ihr": "gehet vor",
+        "sie_Sie": "gehen vor"
+      },
+      "konjunktiv2": {
+        "ich": "ginge vor",
+        "du": "gingest vor",
+        "er_sie_es": "ginge vor",
+        "wir": "gingen vor",
+        "ihr": "ginget vor",
+        "sie_Sie": "gingen vor"
+      },
+      "imperativ": {
+        "du": "Geh vor!",
+        "ihr": "Geht vor!",
+        "Sie": "Gehen Sie vor!"
+      }
+    },
+    "partizip1": "vorgehend",
+    "nominalisierung": "das Vorgehen"
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "handeln",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اقدام کردن",
+          "en": "to act"
+        },
+        "id_ref": "verb_handeln"
+      },
+      {
+        "wort": "der Vorgang",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "روند، فرایند",
+          "en": "process"
+        },
+        "id_ref": "nomen_vorgang"
+      },
+      {
+        "wort": "das Vorgehen",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شیوه‌ی عمل",
+          "en": "approach"
+        },
+        "id_ref": "nomen_vorgehen"
+      },
+      {
+        "wort": "die Vorgehensweise",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "روش کار",
+          "en": "procedure"
+        },
+        "id_ref": "nomen_vorgehensweise"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

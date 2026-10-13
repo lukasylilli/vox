@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_vorhalten",
+  "wort": "vorhalten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(به کسی) سرکوفت زدن، سرزنش کردن",
+      "جلوی (چیزی) گرفتن",
+      "دوام آوردن، کافی بودن"
+    ],
+    "en": [
+      "to reproach",
+      "to hold up in front",
+      "to last"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Beziehungen",
+    "Alltag"
+  ],
+  "ipa": "ˈfoːɐ̯ˌhaltn̩",
+  "anmerkung": "Trennbar (hielt vor, vorgehalten). «jemandem etwas vorhalten» = vorwerfen. Intransitiv: «Der Vorrat hält lange vor» = reicht.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Halt die Hand vor den Mund!",
+      "uebersetzung": {
+        "fa": "دستت را جلوی دهانت بگیر!",
+        "en": "Put your hand in front of your mouth!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie hielt ihm vor, dass er nie pünktlich sei, obwohl sie selbst oft zu spät kam.",
+      "uebersetzung": {
+        "fa": "به او سرکوفت زد که هیچ‌وقت سر وقت نیست، با اینکه خودش اغلب دیر می‌آمد.",
+        "en": "She reproached him for never being on time, although she herself was often late."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vorwerfen",
+      "uebersetzung": {
+        "fa": "سرزنش کردن",
+        "en": "to reproach"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "loben",
+      "uebersetzung": {
+        "fa": "تعریف کردن",
+        "en": "to praise"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "vor- (جلو) + halten (نگه داشتن)",
+    "en": "vor- (in front) + halten (to hold)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem (Dat) etwas (Akk) vorhalten",
+        "bedeutung": "jemandem etwas vorwerfen",
+        "beispiel": "Er hält mir meine Fehler immer wieder vor.",
+        "uebersetzung": {
+          "fa": "مدام اشتباه‌هایم را به رخم می‌کشد.",
+          "en": "He keeps throwing my mistakes back at me."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vorhalten",
+      "praeteritum": "hielt vor",
+      "partizip2": "vorgehalten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "halte vor",
+        "du": "hältst vor",
+        "er_sie_es": "hält vor",
+        "wir": "halten vor",
+        "ihr": "haltet vor",
+        "sie_Sie": "halten vor"
+      },
+      "praeteritum": {
+        "ich": "hielt vor",
+        "du": "hieltest vor",
+        "er_sie_es": "hielt vor",
+        "wir": "hielten vor",
+        "ihr": "hieltet vor",
+        "sie_Sie": "hielten vor"
+      },
+      "konjunktiv1": {
+        "ich": "halte vor",
+        "du": "haltest vor",
+        "er_sie_es": "halte vor",
+        "wir": "halten vor",
+        "ihr": "haltet vor",
+        "sie_Sie": "halten vor"
+      },
+      "konjunktiv2": {
+        "ich": "hielte vor",
+        "du": "hieltest vor",
+        "er_sie_es": "hielte vor",
+        "wir": "hielten vor",
+        "ihr": "hieltet vor",
+        "sie_Sie": "hielten vor"
+      },
+      "imperativ": {
+        "du": "Halt vor!",
+        "ihr": "Haltet vor!",
+        "Sie": "Halten Sie vor!"
+      }
+    },
+    "partizip1": "vorhaltend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "halten",
+    "woerter": [
+      {
+        "wort": "halten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to hold"
+        },
+        "id_ref": "verb_halten"
+      },
+      {
+        "wort": "kritisieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انتقاد کردن",
+          "en": "to criticise"
+        },
+        "id_ref": "verb_kritisieren"
+      },
+      {
+        "wort": "vorwerfen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سرزنش کردن",
+          "en": "to reproach"
+        },
+        "id_ref": "verb_vorwerfen"
+      },
+      {
+        "wort": "der Vorwurf",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سرزنش",
+          "en": "reproach"
+        },
+        "id_ref": "nomen_vorwurf"
+      },
+      {
+        "wort": "die Vorhaltung",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "سرزنش",
+          "en": "reproach"
+        },
+        "id_ref": "nomen_vorhaltung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
