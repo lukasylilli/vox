@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_widerfahren",
+  "wort": "widerfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(برای کسی) پیش آمدن، بر سر کسی آمدن"
+    ],
+    "en": [
+      "to happen to",
+      "to befall"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle",
+    "Alltag"
+  ],
+  "ipa": "viːdɐˈfaːʁən",
+  "anmerkung": "Untrennbar (widerfuhr, widerfahren) — Partizip II ohne ge-. Gehoben; mit Dativ. Kein üblicher Imperativ.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ihm ist Unrecht widerfahren.",
+      "uebersetzung": {
+        "fa": "در حق او بی‌عدالتی شده است.",
+        "en": "He has been wronged."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Was ihr in der Kindheit widerfahren ist, hat sie lange nicht erzählt, weil es zu schmerzhaft war.",
+      "uebersetzung": {
+        "fa": "آنچه در کودکی بر سرش آمده بود را مدت‌ها تعریف نکرد، چون خیلی دردناک بود.",
+        "en": "For a long time she did not talk about what had happened to her in childhood because it was too painful."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "geschehen",
+      "uebersetzung": {
+        "fa": "رخ دادن",
+        "en": "to happen"
+      }
+    },
+    {
+      "wort": "zustoßen",
+      "uebersetzung": {
+        "fa": "برای کسی پیش آمدن",
+        "en": "to befall"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "wider- (در برابر) + fahren (رفتن)",
+    "en": "wider- (against) + fahren (to go)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem (Dat) widerfahren",
+        "bedeutung": "jemandem passieren",
+        "beispiel": "Mir ist etwas Seltsames widerfahren.",
+        "uebersetzung": {
+          "fa": "اتفاق عجیبی برایم افتاده است.",
+          "en": "Something strange happened to me."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "widerfahren",
+      "praeteritum": "widerfuhr",
+      "partizip2": "widerfahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "widerfahre",
+        "du": "widerfährst",
+        "er_sie_es": "widerfährt",
+        "wir": "widerfahren",
+        "ihr": "widerfahrt",
+        "sie_Sie": "widerfahren"
+      },
+      "praeteritum": {
+        "ich": "widerfuhr",
+        "du": "widerfuhrst",
+        "er_sie_es": "widerfuhr",
+        "wir": "widerfuhren",
+        "ihr": "widerfuhrt",
+        "sie_Sie": "widerfuhren"
+      },
+      "konjunktiv1": {
+        "ich": "widerfahre",
+        "du": "widerfahrest",
+        "er_sie_es": "widerfahre",
+        "wir": "widerfahren",
+        "ihr": "widerfahret",
+        "sie_Sie": "widerfahren"
+      },
+      "konjunktiv2": {
+        "ich": "widerführe",
+        "du": "widerführest",
+        "er_sie_es": "widerführe",
+        "wir": "widerführen",
+        "ihr": "widerführet",
+        "sie_Sie": "widerführen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "widerfahrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "passieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اتفاق افتادن",
+          "en": "to happen"
+        },
+        "id_ref": "verb_passieren"
+      },
+      {
+        "wort": "geschehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رخ دادن",
+          "en": "to happen"
+        },
+        "id_ref": "verb_geschehen"
+      },
+      {
+        "wort": "erleben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تجربه کردن",
+          "en": "to experience"
+        },
+        "id_ref": "verb_erleben"
+      },
+      {
+        "wort": "das Unrecht",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بی‌عدالتی",
+          "en": "injustice"
+        },
+        "id_ref": "nomen_unrecht"
+      },
+      {
+        "wort": "zustoßen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "برای کسی پیش آمدن",
+          "en": "to befall"
+        },
+        "id_ref": "verb_zustossen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

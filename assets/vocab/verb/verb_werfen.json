@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_werfen",
+  "wort": "werfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "انداختن، پرتاب کردن"
+    ],
+    "en": [
+      "to throw"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Sport",
+    "Alltag"
+  ],
+  "ipa": "ˈvɛʁfn̩",
+  "anmerkung": "Unregelmäßig (wirft, warf, geworfen). Nomen: der Wurf.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wirf mir den Ball!",
+      "uebersetzung": {
+        "fa": "توپ را به من بینداز!",
+        "en": "Throw me the ball!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Er warf den Brief in den Briefkasten, bevor er zur Arbeit ging.",
+      "uebersetzung": {
+        "fa": "پیش از اینکه سر کار برود، نامه را در صندوق پست انداخت.",
+        "en": "He dropped the letter in the postbox before he went to work."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schmeißen",
+      "uebersetzung": {
+        "fa": "پرت کردن",
+        "en": "to chuck"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "fangen",
+      "uebersetzung": {
+        "fa": "گرفتن (چیز پرت‌شده)",
+        "en": "to catch"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit + Dat werfen",
+        "bedeutung": "etwas als Wurfgegenstand benutzen",
+        "beispiel": "Die Kinder werfen mit Schneebällen.",
+        "uebersetzung": {
+          "fa": "بچه‌ها گلوله‌برفی پرت می‌کنند.",
+          "en": "The children are throwing snowballs."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "werfen",
+      "praeteritum": "warf",
+      "partizip2": "geworfen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "werfe",
+        "du": "wirfst",
+        "er_sie_es": "wirft",
+        "wir": "werfen",
+        "ihr": "werft",
+        "sie_Sie": "werfen"
+      },
+      "praeteritum": {
+        "ich": "warf",
+        "du": "warfst",
+        "er_sie_es": "warf",
+        "wir": "warfen",
+        "ihr": "warft",
+        "sie_Sie": "warfen"
+      },
+      "konjunktiv1": {
+        "ich": "werfe",
+        "du": "werfest",
+        "er_sie_es": "werfe",
+        "wir": "werfen",
+        "ihr": "werfet",
+        "sie_Sie": "werfen"
+      },
+      "konjunktiv2": {
+        "ich": "würfe",
+        "du": "würfest",
+        "er_sie_es": "würfe",
+        "wir": "würfen",
+        "ihr": "würfet",
+        "sie_Sie": "würfen"
+      },
+      "imperativ": {
+        "du": "Wirf!",
+        "ihr": "Werft!",
+        "Sie": "Werfen Sie!"
+      }
+    },
+    "partizip1": "werfend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Ball",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "توپ",
+          "en": "ball"
+        },
+        "id_ref": "nomen_ball"
+      },
+      {
+        "wort": "wegwerfen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دور انداختن",
+          "en": "to throw away"
+        },
+        "id_ref": "verb_wegwerfen"
+      },
+      {
+        "wort": "fangen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گرفتن",
+          "en": "to catch"
+        },
+        "id_ref": "verb_fangen"
+      },
+      {
+        "wort": "der Wurf",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پرتاب",
+          "en": "throw"
+        },
+        "id_ref": "nomen_wurf"
+      },
+      {
+        "wort": "vorwerfen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سرزنش کردن",
+          "en": "to reproach"
+        },
+        "id_ref": "verb_vorwerfen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

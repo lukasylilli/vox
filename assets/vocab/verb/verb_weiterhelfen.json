@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_weiterhelfen",
+  "wort": "weiterhelfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(در مشکلی) کمک کردن، راه نشان دادن"
+    ],
+    "en": [
+      "to help (out)",
+      "to be of help"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Arbeit"
+  ],
+  "ipa": "ˈvaɪ̯tɐˌhɛlfn̩",
+  "anmerkung": "Trennbar (half weiter, weitergeholfen). Mit Dativ: «jemandem weiterhelfen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Können Sie mir weiterhelfen?",
+      "uebersetzung": {
+        "fa": "می‌توانید کمکم کنید؟",
+        "en": "Can you help me?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Leider kann ich Ihnen nicht weiterhelfen, weil ich hier auch fremd bin.",
+      "uebersetzung": {
+        "fa": "متأسفانه نمی‌توانم کمکتان کنم، چون من هم اینجا غریبه‌ام.",
+        "en": "Unfortunately I can't help you because I'm a stranger here too."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "helfen",
+      "uebersetzung": {
+        "fa": "کمک کردن",
+        "en": "to help"
+      }
+    },
+    {
+      "wort": "unterstützen",
+      "uebersetzung": {
+        "fa": "پشتیبانی کردن",
+        "en": "to support"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "weiter (جلوتر) + helfen (کمک کردن)",
+    "en": "weiter (on) + helfen (to help)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem (Dat) bei + Dat weiterhelfen",
+        "bedeutung": "jemandem bei einem Problem helfen",
+        "beispiel": "Kannst du mir bei der Aufgabe weiterhelfen?",
+        "uebersetzung": {
+          "fa": "می‌توانی در این تمرین کمکم کنی؟",
+          "en": "Can you help me with this task?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "weiterhelfen",
+      "praeteritum": "half weiter",
+      "partizip2": "weitergeholfen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "helfe weiter",
+        "du": "hilfst weiter",
+        "er_sie_es": "hilft weiter",
+        "wir": "helfen weiter",
+        "ihr": "helft weiter",
+        "sie_Sie": "helfen weiter"
+      },
+      "praeteritum": {
+        "ich": "half weiter",
+        "du": "halfst weiter",
+        "er_sie_es": "half weiter",
+        "wir": "halfen weiter",
+        "ihr": "halft weiter",
+        "sie_Sie": "halfen weiter"
+      },
+      "konjunktiv1": {
+        "ich": "helfe weiter",
+        "du": "helfest weiter",
+        "er_sie_es": "helfe weiter",
+        "wir": "helfen weiter",
+        "ihr": "helfet weiter",
+        "sie_Sie": "helfen weiter"
+      },
+      "konjunktiv2": {
+        "ich": "hülfe weiter",
+        "du": "hülfest weiter",
+        "er_sie_es": "hülfe weiter",
+        "wir": "hülfen weiter",
+        "ihr": "hülfet weiter",
+        "sie_Sie": "hülfen weiter"
+      },
+      "imperativ": {
+        "du": "Hilf weiter!",
+        "ihr": "Helft weiter!",
+        "Sie": "Helfen Sie weiter!"
+      }
+    },
+    "partizip1": "weiterhelfend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "helfen",
+    "woerter": [
+      {
+        "wort": "helfen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک کردن",
+          "en": "to help"
+        },
+        "id_ref": "verb_helfen"
+      },
+      {
+        "wort": "die Hilfe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک",
+          "en": "help"
+        },
+        "id_ref": "nomen_hilfe"
+      },
+      {
+        "wort": "weiterkommen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیشرفت کردن",
+          "en": "to get on"
+        },
+        "id_ref": "verb_weiterkommen"
+      },
+      {
+        "wort": "unterstützen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پشتیبانی کردن",
+          "en": "to support"
+        },
+        "id_ref": "verb_unterstuetzen"
+      },
+      {
+        "wort": "weiter",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ادامه، بیشتر",
+          "en": "further, on"
+        },
+        "id_ref": "adverb_weiter"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_weitergeben",
+  "wort": "weitergeben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(به نفر بعدی) دادن، رد کردن",
+      "(خبر، دانش) منتقل کردن"
+    ],
+    "en": [
+      "to pass on",
+      "to hand on"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Kommunikation"
+  ],
+  "ipa": "ˈvaɪ̯tɐˌɡeːbn̩",
+  "anmerkung": "Trennbar (gab weiter, weitergegeben).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Gib das Blatt bitte weiter!",
+      "uebersetzung": {
+        "fa": "لطفاً برگه را به نفر بعدی بده!",
+        "en": "Please pass the sheet on!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Großmutter hat ihr Wissen über Kräuter an ihre Enkelin weitergegeben.",
+      "uebersetzung": {
+        "fa": "مادربزرگ دانسته‌هایش درباره‌ی گیاهان دارویی را به نوه‌اش منتقل کرده است.",
+        "en": "The grandmother passed her knowledge of herbs on to her granddaughter."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "übergeben",
+      "uebersetzung": {
+        "fa": "تحویل دادن",
+        "en": "to hand over"
+      }
+    },
+    {
+      "wort": "vermitteln",
+      "uebersetzung": {
+        "fa": "منتقل کردن",
+        "en": "to convey"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "behalten",
+      "uebersetzung": {
+        "fa": "نگه داشتن",
+        "en": "to keep"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "weiter (به بعدی) + geben (دادن)",
+    "en": "weiter (on) + geben (to give)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas an + Akk weitergeben",
+        "bedeutung": "etwas jemand anderem geben/mitteilen",
+        "beispiel": "Ich gebe deine Nachricht an den Chef weiter.",
+        "uebersetzung": {
+          "fa": "پیامت را به رئیس می‌رسانم.",
+          "en": "I'll pass your message on to the boss."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "weitergeben",
+      "praeteritum": "gab weiter",
+      "partizip2": "weitergegeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gebe weiter",
+        "du": "gibst weiter",
+        "er_sie_es": "gibt weiter",
+        "wir": "geben weiter",
+        "ihr": "gebt weiter",
+        "sie_Sie": "geben weiter"
+      },
+      "praeteritum": {
+        "ich": "gab weiter",
+        "du": "gabst weiter",
+        "er_sie_es": "gab weiter",
+        "wir": "gaben weiter",
+        "ihr": "gabt weiter",
+        "sie_Sie": "gaben weiter"
+      },
+      "konjunktiv1": {
+        "ich": "gebe weiter",
+        "du": "gebest weiter",
+        "er_sie_es": "gebe weiter",
+        "wir": "geben weiter",
+        "ihr": "gebet weiter",
+        "sie_Sie": "geben weiter"
+      },
+      "konjunktiv2": {
+        "ich": "gäbe weiter",
+        "du": "gäbest weiter",
+        "er_sie_es": "gäbe weiter",
+        "wir": "gäben weiter",
+        "ihr": "gäbet weiter",
+        "sie_Sie": "gäben weiter"
+      },
+      "imperativ": {
+        "du": "Gib weiter!",
+        "ihr": "Gebt weiter!",
+        "Sie": "Geben Sie weiter!"
+      }
+    },
+    "partizip1": "weitergebend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "teilen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تقسیم کردن، به اشتراک گذاشتن",
+          "en": "to share"
+        },
+        "id_ref": "verb_teilen"
+      },
+      {
+        "wort": "behalten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to keep"
+        },
+        "id_ref": "verb_behalten"
+      },
+      {
+        "wort": "vermitteln",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "منتقل کردن",
+          "en": "to convey"
+        },
+        "id_ref": "verb_vermitteln"
+      },
+      {
+        "wort": "weiter",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ادامه، بیشتر",
+          "en": "further, on"
+        },
+        "id_ref": "adverb_weiter"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

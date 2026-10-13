@@ -1435,6 +1435,15 @@ const zurueckgestellt = <String>{
   'wegkriechen', // zurückgestellt (Regel 14/16): selten 2026-10-13
   'wegmüssen', // zurückgestellt (Regel 14/16): Modalverb-Verbindung 2026-10-13
   'weiterdürfen', // zurückgestellt (Regel 14/16): Modalverb-Verbindung 2026-10-13
+  'weiterfragen', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'weiterfressen', // zurückgestellt (Regel 14/16): umgangssprachlich/derb 2026-10-13
+  'weiterkönnen', // zurückgestellt (Regel 14/16): Modalverb-Verbindung 2026-10-13
+  'weiterkriechen', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'weitermüssen', // zurückgestellt (Regel 14/16): Modalverb-Verbindung 2026-10-13
+  'wenden', // zurückgestellt (Regel 14/16): zwei Konjugationen je nach Bedeutung (wandte/wendete, wie schaffen) 2026-10-13
+  'werthalten', // zurückgestellt (Regel 14/16): veraltet, selten 2026-10-13
+  'wettlaufen', // zurückgestellt (Regel 14/16): fast nur im Infinitiv 2026-10-13
+  'widerklingen', // zurückgestellt (Regel 14/16): selten 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

@@ -1,0 +1,168 @@
+{
+  "schema": "3.0",
+  "id": "verb_werden",
+  "wort": "werden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شدن",
+      "(فعل کمکی آینده) خواهم ...",
+      "(فعل کمکی مجهول)"
+    ],
+    "en": [
+      "to become",
+      "will (future auxiliary)",
+      "(passive auxiliary)"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Grammatik"
+  ],
+  "ipa": "ˈveːɐ̯dn̩",
+  "anmerkung": "Unregelmäßig (wird, wurde, ist geworden). Hilfsverb für Futur («ich werde fahren») und Passiv; im Passiv lautet das Partizip II «worden» («ist gefragt worden»). Konjunktiv II «würde» auch in der würde-Form.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Es wird kalt.",
+      "uebersetzung": {
+        "fa": "هوا سرد می‌شود.",
+        "en": "It is getting cold."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Als ich ein Kind war, wollte ich Arzt werden, weil ich Menschen helfen wollte.",
+      "uebersetzung": {
+        "fa": "وقتی بچه بودم، می‌خواستم پزشک شوم، چون می‌خواستم به مردم کمک کنم.",
+        "en": "When I was a child, I wanted to become a doctor because I wanted to help people."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zu + Dat werden",
+        "bedeutung": "sich in etwas verwandeln",
+        "beispiel": "Das Wasser ist zu Eis geworden.",
+        "uebersetzung": {
+          "fa": "آب یخ زده است.",
+          "en": "The water has turned to ice."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "werden",
+      "praeteritum": "wurde",
+      "partizip2": "geworden"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "werde",
+        "du": "wirst",
+        "er_sie_es": "wird",
+        "wir": "werden",
+        "ihr": "werdet",
+        "sie_Sie": "werden"
+      },
+      "praeteritum": {
+        "ich": "wurde",
+        "du": "wurdest",
+        "er_sie_es": "wurde",
+        "wir": "wurden",
+        "ihr": "wurdet",
+        "sie_Sie": "wurden"
+      },
+      "konjunktiv1": {
+        "ich": "werde",
+        "du": "werdest",
+        "er_sie_es": "werde",
+        "wir": "werden",
+        "ihr": "werdet",
+        "sie_Sie": "werden"
+      },
+      "konjunktiv2": {
+        "ich": "würde",
+        "du": "würdest",
+        "er_sie_es": "würde",
+        "wir": "würden",
+        "ihr": "würdet",
+        "sie_Sie": "würden"
+      },
+      "imperativ": {
+        "du": "Werde!",
+        "ihr": "Werdet!",
+        "Sie": "Werden Sie!"
+      }
+    },
+    "partizip1": "werdend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "sein",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بودن",
+          "en": "to be"
+        },
+        "id_ref": "verb_sein"
+      },
+      {
+        "wort": "bleiben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ماندن",
+          "en": "to stay"
+        },
+        "id_ref": "verb_bleiben"
+      },
+      {
+        "wort": "entstehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به وجود آمدن",
+          "en": "to arise"
+        },
+        "id_ref": "verb_entstehen"
+      },
+      {
+        "wort": "die Zukunft",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آینده",
+          "en": "future"
+        },
+        "id_ref": "nomen_zukunft"
+      },
+      {
+        "wort": "die Entwicklung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رشد، تحول",
+          "en": "development"
+        },
+        "id_ref": "nomen_entwicklung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

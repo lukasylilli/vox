@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_weiterkommen",
+  "wort": "weiterkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پیشرفت کردن",
+      "جلو رفتن، ادامه دادن"
+    ],
+    "en": [
+      "to get on, to make progress",
+      "to get further"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Lernen"
+  ],
+  "ipa": "ˈvaɪ̯tɐˌkɔmən",
+  "anmerkung": "Trennbar (kam weiter, weitergekommen). Nomen: das Weiterkommen. Kein üblicher Imperativ.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "So kommen wir nicht weiter.",
+      "uebersetzung": {
+        "fa": "این‌طوری جلو نمی‌رویم.",
+        "en": "We won't get anywhere like this."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn ich im Beruf weiterkommen will, muss ich besser Deutsch lernen.",
+      "uebersetzung": {
+        "fa": "اگر بخواهم در کارم پیشرفت کنم، باید آلمانی را بهتر یاد بگیرم.",
+        "en": "If I want to get on in my job, I have to learn German better."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vorankommen",
+      "uebersetzung": {
+        "fa": "پیشرفت کردن",
+        "en": "to make progress"
+      }
+    },
+    {
+      "wort": "vorwärtskommen",
+      "uebersetzung": {
+        "fa": "جلو رفتن",
+        "en": "to get ahead"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "feststecken",
+      "uebersetzung": {
+        "fa": "گیر افتادن",
+        "en": "to be stuck"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "weiter (جلوتر) + kommen (آمدن)",
+    "en": "weiter (further) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit + Dat weiterkommen",
+        "bedeutung": "bei etwas Fortschritte machen",
+        "beispiel": "Mit der Mathe-Aufgabe komme ich nicht weiter.",
+        "uebersetzung": {
+          "fa": "در این تمرین ریاضی گیر کرده‌ام.",
+          "en": "I'm stuck on this maths problem."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "weiterkommen",
+      "praeteritum": "kam weiter",
+      "partizip2": "weitergekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme weiter",
+        "du": "kommst weiter",
+        "er_sie_es": "kommt weiter",
+        "wir": "kommen weiter",
+        "ihr": "kommt weiter",
+        "sie_Sie": "kommen weiter"
+      },
+      "praeteritum": {
+        "ich": "kam weiter",
+        "du": "kamst weiter",
+        "er_sie_es": "kam weiter",
+        "wir": "kamen weiter",
+        "ihr": "kamt weiter",
+        "sie_Sie": "kamen weiter"
+      },
+      "konjunktiv1": {
+        "ich": "komme weiter",
+        "du": "kommest weiter",
+        "er_sie_es": "komme weiter",
+        "wir": "kommen weiter",
+        "ihr": "kommet weiter",
+        "sie_Sie": "kommen weiter"
+      },
+      "konjunktiv2": {
+        "ich": "käme weiter",
+        "du": "kämest weiter",
+        "er_sie_es": "käme weiter",
+        "wir": "kämen weiter",
+        "ihr": "kämet weiter",
+        "sie_Sie": "kämen weiter"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "weiterkommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "weiterhelfen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کمک کردن",
+          "en": "to help"
+        },
+        "id_ref": "verb_weiterhelfen"
+      },
+      {
+        "wort": "der Fortschritt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیشرفت",
+          "en": "progress"
+        },
+        "id_ref": "nomen_fortschritt"
+      },
+      {
+        "wort": "vorankommen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیشرفت کردن",
+          "en": "to make progress"
+        },
+        "id_ref": "verb_vorankommen"
+      },
+      {
+        "wort": "weiter",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ادامه، بیشتر",
+          "en": "further, on"
+        },
+        "id_ref": "adverb_weiter"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
