@@ -2788,6 +2788,14 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۴۲۸ | zurückkönnen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | ترکیب با فعل وجهی — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۲۹ | zurückmüssen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | ترکیب با فعل وجهی — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۳۰ | zusammenbiegen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۳۱ | zusammenflechten | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۳۲ | zusammengeben | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر/منطقه‌ای — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۳۳ | zusammengießen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۳۴ | zusammenhaben | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | محاوره‌ای — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۳۵ | zusammenhängen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | ⚠️ ترکیب hängen: hing (ناگذر) / hängte (گذرا) مثل بقیه‌ی ترکیب‌های hängen؛ پرکاربرد ⇒ تصمیم Lukas — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۳۶ | zusammenhauen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | صرف نوسان‌دار haute/hieb — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۳۷ | zusammenklingen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۳۸ | zusammenkneifen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 

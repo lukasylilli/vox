@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_zusammenfinden",
+  "wort": "zusammenfinden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گرد هم آمدن، به هم پیوستن"
+    ],
+    "en": [
+      "to come together",
+      "to gather"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gesellschaft"
+  ],
+  "ipa": "t͡suˈzamənˌfɪndn̩",
+  "anmerkung": "Trennbar, reflexiv (fand sich zusammen, hat sich zusammengefunden).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir finden uns am Abend zusammen.",
+      "uebersetzung": {
+        "fa": "عصر دور هم جمع می‌شویم.",
+        "en": "We get together in the evening."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Unglück fanden sich viele Helfer zusammen, um die Straßen zu räumen.",
+      "uebersetzung": {
+        "fa": "پس از این حادثه، امدادگران زیادی گرد هم آمدند تا خیابان‌ها را پاک کنند.",
+        "en": "After the disaster many helpers came together to clear the streets."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich versammeln",
+      "uebersetzung": {
+        "fa": "گرد آمدن",
+        "en": "to assemble"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "auseinandergehen",
+      "uebersetzung": {
+        "fa": "پراکنده شدن",
+        "en": "to disperse"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zusammen (با هم) + finden (یافتن)",
+    "en": "zusammen (together) + finden (to find)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich zu + Dat zusammenfinden",
+        "bedeutung": "sich zu einer Gruppe vereinigen",
+        "beispiel": "Sie haben sich zu einer Band zusammengefunden.",
+        "uebersetzung": {
+          "fa": "آن‌ها با هم یک گروه موسیقی تشکیل دادند.",
+          "en": "They came together to form a band."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zusammenfinden",
+      "praeteritum": "fand zusammen",
+      "partizip2": "zusammengefunden"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "finde zusammen",
+        "du": "findest zusammen",
+        "er_sie_es": "findet zusammen",
+        "wir": "finden zusammen",
+        "ihr": "findet zusammen",
+        "sie_Sie": "finden zusammen"
+      },
+      "praeteritum": {
+        "ich": "fand zusammen",
+        "du": "fandest zusammen",
+        "er_sie_es": "fand zusammen",
+        "wir": "fanden zusammen",
+        "ihr": "fandet zusammen",
+        "sie_Sie": "fanden zusammen"
+      },
+      "konjunktiv1": {
+        "ich": "finde zusammen",
+        "du": "findest zusammen",
+        "er_sie_es": "finde zusammen",
+        "wir": "finden zusammen",
+        "ihr": "findet zusammen",
+        "sie_Sie": "finden zusammen"
+      },
+      "konjunktiv2": {
+        "ich": "fände zusammen",
+        "du": "fändest zusammen",
+        "er_sie_es": "fände zusammen",
+        "wir": "fänden zusammen",
+        "ihr": "fändet zusammen",
+        "sie_Sie": "fänden zusammen"
+      },
+      "imperativ": {
+        "du": "Finde zusammen!",
+        "ihr": "Findet zusammen!",
+        "Sie": "Finden Sie zusammen!"
+      }
+    },
+    "partizip1": "zusammenfindend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "finden",
+    "woerter": [
+      {
+        "wort": "finden",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پیدا کردن",
+          "en": "to find"
+        },
+        "id_ref": "verb_finden"
+      },
+      {
+        "wort": "sich treffen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "همدیگر را دیدن",
+          "en": "to meet"
+        },
+        "id_ref": "verb_sich_treffen"
+      },
+      {
+        "wort": "sich versammeln",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گرد آمدن",
+          "en": "to assemble"
+        },
+        "id_ref": "verb_sich_versammeln"
+      },
+      {
+        "wort": "die Gruppe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گروه",
+          "en": "group"
+        },
+        "id_ref": "nomen_gruppe"
+      },
+      {
+        "wort": "zueinanderfinden",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "به هم رسیدن",
+          "en": "to find each other"
+        },
+        "id_ref": "verb_zueinanderfinden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

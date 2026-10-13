@@ -1,0 +1,166 @@
+{
+  "schema": "3.0",
+  "id": "verb_zusammenfliessen",
+  "wort": "zusammenfließen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به هم پیوستن (رودها)"
+    ],
+    "en": [
+      "to flow together",
+      "to merge"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Geografie"
+  ],
+  "ipa": "t͡suˈzamənˌfliːsn̩",
+  "anmerkung": "Trennbar (floss zusammen, zusammengeflossen), Perfekt mit «sein».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Hier fließen zwei Flüsse zusammen.",
+      "uebersetzung": {
+        "fa": "این‌جا دو رودخانه به هم می‌پیوندند.",
+        "en": "Two rivers flow together here."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In Passau, wo Donau, Inn und Ilz zusammenfließen, gibt es oft Hochwasser.",
+      "uebersetzung": {
+        "fa": "در پاساو، جایی که دانوب، این و ایلتس به هم می‌پیوندند، اغلب سیل می‌آید.",
+        "en": "In Passau, where the Danube, the Inn and the Ilz flow together, there are often floods."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich vereinigen",
+      "uebersetzung": {
+        "fa": "یکی شدن",
+        "en": "to unite"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zusammen (با هم) + fließen (جاری شدن)",
+    "en": "zusammen (together) + fließen (to flow)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "zusammenfließen",
+      "praeteritum": "floss zusammen",
+      "partizip2": "zusammengeflossen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fließe zusammen",
+        "du": "fließt zusammen",
+        "er_sie_es": "fließt zusammen",
+        "wir": "fließen zusammen",
+        "ihr": "fließt zusammen",
+        "sie_Sie": "fließen zusammen"
+      },
+      "praeteritum": {
+        "ich": "floss zusammen",
+        "du": "flossest zusammen",
+        "er_sie_es": "floss zusammen",
+        "wir": "flossen zusammen",
+        "ihr": "flosst zusammen",
+        "sie_Sie": "flossen zusammen"
+      },
+      "konjunktiv1": {
+        "ich": "fließe zusammen",
+        "du": "fließest zusammen",
+        "er_sie_es": "fließe zusammen",
+        "wir": "fließen zusammen",
+        "ihr": "fließet zusammen",
+        "sie_Sie": "fließen zusammen"
+      },
+      "konjunktiv2": {
+        "ich": "flösse zusammen",
+        "du": "flössest zusammen",
+        "er_sie_es": "flösse zusammen",
+        "wir": "flössen zusammen",
+        "ihr": "flösset zusammen",
+        "sie_Sie": "flössen zusammen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "zusammenfließend",
+    "nominalisierung": "der Zusammenfluss"
+  },
+  "wortnetz": {
+    "grundwort": "fließen",
+    "woerter": [
+      {
+        "wort": "fließen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جاری شدن",
+          "en": "to flow"
+        },
+        "id_ref": "verb_fliessen"
+      },
+      {
+        "wort": "der Fluss",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رودخانه",
+          "en": "river"
+        },
+        "id_ref": "nomen_fluss"
+      },
+      {
+        "wort": "der Zusammenfluss",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "محل پیوستن رودها",
+          "en": "confluence"
+        },
+        "id_ref": "nomen_zusammenfluss"
+      },
+      {
+        "wort": "das Hochwasser",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سیل",
+          "en": "flood"
+        },
+        "id_ref": "nomen_hochwasser"
+      },
+      {
+        "wort": "zufließen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "جاری شدن به‌سوی",
+          "en": "to flow into"
+        },
+        "id_ref": "verb_zufliessen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

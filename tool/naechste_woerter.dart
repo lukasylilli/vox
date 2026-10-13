@@ -1481,6 +1481,14 @@ const zurueckgestellt = <String>{
   'zurückkönnen', // zurückgestellt (Regel 14/16): Modalverb-Verbindung 2026-10-13
   'zurückmüssen', // zurückgestellt (Regel 14/16): Modalverb-Verbindung 2026-10-13
   'zusammenbiegen', // zurückgestellt (Regel 14/16): selten (wie herumbiegen) 2026-10-13
+  'zusammenflechten', // zurückgestellt (Regel 14/16): selten (wie durchflechten, umflechten) 2026-10-13
+  'zusammengeben', // zurückgestellt (Regel 14/16): selten/regional 2026-10-13
+  'zusammengießen', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'zusammenhaben', // zurückgestellt (Regel 14/16): umgangssprachlich (wie beisammenhaben) 2026-10-13
+  'zusammenhängen', // zurückgestellt (Regel 14/16): hängen-Verbindung: hing (intransitiv) / hängte (transitiv) — wie die übrigen hängen-Verbindungen; häufig ⇒ Entscheidung Lukas 2026-10-13
+  'zusammenhauen', // zurückgestellt (Regel 14/16): haute/hieb (wie aufhauen) 2026-10-13
+  'zusammenklingen', // zurückgestellt (Regel 14/16): selten (wie mitklingen) 2026-10-13
+  'zusammenkneifen', // zurückgestellt (Regel 14/16): selten (wie einkneifen) 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
