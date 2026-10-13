@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_schwingen",
+  "wort": "schwingen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تاب دادن، تکان دادن",
+      "تاب خوردن، نوسان کردن"
+    ],
+    "en": [
+      "to swing",
+      "to wave",
+      "to oscillate"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Sport",
+    "Alltag"
+  ],
+  "ipa": "ˈʃvɪŋən",
+  "anmerkung": "Transitiv mit «haben»; intransitiv bei Ortsveränderung mit «sein» (Er ist über den Zaun geschwungen).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er schwingt die Fahne.",
+      "uebersetzung": {
+        "fa": "او پرچم را تکان می‌دهد.",
+        "en": "He is waving the flag."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Pendel schwingt hin und her, solange die Uhr aufgezogen ist.",
+      "uebersetzung": {
+        "fa": "تا وقتی ساعت کوک است، آونگ به این طرف و آن طرف تاب می‌خورد.",
+        "en": "The pendulum swings back and forth as long as the clock is wound."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schwenken",
+      "uebersetzung": {
+        "fa": "تکان دادن",
+        "en": "to wave"
+      }
+    },
+    {
+      "wort": "schaukeln",
+      "uebersetzung": {
+        "fa": "تاب خوردن",
+        "en": "to rock"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich auf + Akk schwingen",
+        "bedeutung": "schwungvoll auf etwas springen",
+        "beispiel": "Sie schwingt sich auf ihr Fahrrad.",
+        "uebersetzung": {
+          "fa": "با یک جهش سوار دوچرخه‌اش می‌شود.",
+          "en": "She swings herself onto her bike."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schwingen",
+      "praeteritum": "schwang",
+      "partizip2": "geschwungen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schwinge",
+        "du": "schwingst",
+        "er_sie_es": "schwingt",
+        "wir": "schwingen",
+        "ihr": "schwingt",
+        "sie_Sie": "schwingen"
+      },
+      "praeteritum": {
+        "ich": "schwang",
+        "du": "schwangst",
+        "er_sie_es": "schwang",
+        "wir": "schwangen",
+        "ihr": "schwangt",
+        "sie_Sie": "schwangen"
+      },
+      "konjunktiv1": {
+        "ich": "schwinge",
+        "du": "schwingest",
+        "er_sie_es": "schwinge",
+        "wir": "schwingen",
+        "ihr": "schwinget",
+        "sie_Sie": "schwingen"
+      },
+      "konjunktiv2": {
+        "ich": "schwänge",
+        "du": "schwängest",
+        "er_sie_es": "schwänge",
+        "wir": "schwängen",
+        "ihr": "schwänget",
+        "sie_Sie": "schwängen"
+      },
+      "imperativ": {
+        "du": "Schwing!",
+        "ihr": "Schwingt!",
+        "Sie": "Schwingen Sie!"
+      }
+    },
+    "partizip1": "schwingend",
+    "nominalisierung": "der Schwung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Schaukel",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تاب",
+          "en": "swing"
+        },
+        "id_ref": "nomen_schaukel"
+      },
+      {
+        "wort": "schaukeln",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تاب خوردن",
+          "en": "to rock"
+        },
+        "id_ref": "verb_schaukeln"
+      },
+      {
+        "wort": "der Schwung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تکان؛ انرژی",
+          "en": "momentum; energy"
+        },
+        "id_ref": "nomen_schwung"
+      },
+      {
+        "wort": "schwenken",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تکان دادن",
+          "en": "to wave"
+        },
+        "id_ref": "verb_schwenken"
+      },
+      {
+        "wort": "die Schwingung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نوسان",
+          "en": "oscillation"
+        },
+        "id_ref": "nomen_schwingung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

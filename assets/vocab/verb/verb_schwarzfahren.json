@@ -1,0 +1,159 @@
+{
+  "schema": "3.0",
+  "id": "verb_schwarzfahren",
+  "wort": "schwarzfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بی‌بلیت سوار شدن (وسایل نقلیه‌ی عمومی)",
+      "بدون گواهی‌نامه رانندگی کردن"
+    ],
+    "en": [
+      "to ride without a ticket",
+      "to drive without a licence"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Verkehr",
+    "Recht"
+  ],
+  "ipa": "ˈʃvaʁt͡sˌfaːʁən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er fährt oft schwarz.",
+      "uebersetzung": {
+        "fa": "او اغلب بی‌بلیت سوار می‌شود.",
+        "en": "He often rides without a ticket."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wer in Wien schwarzfährt, muss mit einer hohen Strafe rechnen.",
+      "uebersetzung": {
+        "fa": "کسی که در وین بی‌بلیت سوار شود، باید منتظر جریمه‌ی سنگینی باشد.",
+        "en": "Anyone who rides without a ticket in Vienna must expect a heavy fine."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "schwarz (سیاه؛ غیرقانونی) + fahren (سوار شدن، رفتن)",
+    "en": "schwarz (black; illegal) + fahren (to ride)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "schwarzfahren",
+      "praeteritum": "fuhr schwarz",
+      "partizip2": "schwarzgefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre schwarz",
+        "du": "fährst schwarz",
+        "er_sie_es": "fährt schwarz",
+        "wir": "fahren schwarz",
+        "ihr": "fahrt schwarz",
+        "sie_Sie": "fahren schwarz"
+      },
+      "praeteritum": {
+        "ich": "fuhr schwarz",
+        "du": "fuhrst schwarz",
+        "er_sie_es": "fuhr schwarz",
+        "wir": "fuhren schwarz",
+        "ihr": "fuhrt schwarz",
+        "sie_Sie": "fuhren schwarz"
+      },
+      "konjunktiv1": {
+        "ich": "fahre schwarz",
+        "du": "fahrest schwarz",
+        "er_sie_es": "fahre schwarz",
+        "wir": "fahren schwarz",
+        "ihr": "fahret schwarz",
+        "sie_Sie": "fahren schwarz"
+      },
+      "konjunktiv2": {
+        "ich": "führe schwarz",
+        "du": "führest schwarz",
+        "er_sie_es": "führe schwarz",
+        "wir": "führen schwarz",
+        "ihr": "führet schwarz",
+        "sie_Sie": "führen schwarz"
+      },
+      "imperativ": {
+        "du": "Fahr schwarz!",
+        "ihr": "Fahrt schwarz!",
+        "Sie": "Fahren Sie schwarz!"
+      }
+    },
+    "partizip1": "schwarzfahrend",
+    "nominalisierung": "das Schwarzfahren"
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سوار شدن، رفتن",
+          "en": "to ride, to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "die Fahrkarte",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بلیت",
+          "en": "ticket"
+        },
+        "id_ref": "nomen_fahrkarte"
+      },
+      {
+        "wort": "die Strafe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جریمه، مجازات",
+          "en": "penalty, fine"
+        },
+        "id_ref": "nomen_strafe"
+      },
+      {
+        "wort": "der Kontrolleur",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مأمور کنترل بلیت",
+          "en": "ticket inspector"
+        },
+        "id_ref": "nomen_kontrolleur"
+      },
+      {
+        "wort": "der Schwarzfahrer",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مسافر بی‌بلیت",
+          "en": "fare dodger"
+        },
+        "id_ref": "nomen_schwarzfahrer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

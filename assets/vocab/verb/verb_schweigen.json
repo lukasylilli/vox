@@ -1,0 +1,198 @@
+{
+  "schema": "3.0",
+  "id": "verb_schweigen",
+  "wort": "schweigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ساکت ماندن، سکوت کردن",
+      "(درباره‌ی چیزی) حرف نزدن"
+    ],
+    "en": [
+      "to be silent",
+      "to keep quiet"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Kommunikation",
+    "Gefühle"
+  ],
+  "ipa": "ˈʃvaɪ̯ɡn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er schweigt den ganzen Abend.",
+      "uebersetzung": {
+        "fa": "او تمام شب ساکت است.",
+        "en": "He stays silent all evening."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Obwohl sie die Wahrheit kannte, hat sie lange geschwiegen.",
+      "uebersetzung": {
+        "fa": "با اینکه حقیقت را می‌دانست، مدت‌ها سکوت کرد.",
+        "en": "Although she knew the truth, she kept silent for a long time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "still sein",
+      "uebersetzung": {
+        "fa": "ساکت بودن",
+        "en": "to be quiet"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "reden",
+      "uebersetzung": {
+        "fa": "حرف زدن",
+        "en": "to talk"
+      }
+    },
+    {
+      "wort": "sprechen",
+      "uebersetzung": {
+        "fa": "صحبت کردن",
+        "en": "to speak"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zu + Dat schweigen",
+        "bedeutung": "auf etwas nicht reagieren",
+        "beispiel": "Zu diesen Vorwürfen schweigt der Minister.",
+        "uebersetzung": {
+          "fa": "وزیر درباره‌ی این اتهام‌ها سکوت می‌کند.",
+          "en": "The minister remains silent about these accusations."
+        }
+      },
+      {
+        "muster": "über + Akk schweigen",
+        "bedeutung": "über etwas nicht sprechen",
+        "beispiel": "Über ihre Vergangenheit schweigt sie.",
+        "uebersetzung": {
+          "fa": "او درباره‌ی گذشته‌اش حرفی نمی‌زند.",
+          "en": "She keeps quiet about her past."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schweigen",
+      "praeteritum": "schwieg",
+      "partizip2": "geschwiegen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schweige",
+        "du": "schweigst",
+        "er_sie_es": "schweigt",
+        "wir": "schweigen",
+        "ihr": "schweigt",
+        "sie_Sie": "schweigen"
+      },
+      "praeteritum": {
+        "ich": "schwieg",
+        "du": "schwiegst",
+        "er_sie_es": "schwieg",
+        "wir": "schwiegen",
+        "ihr": "schwiegt",
+        "sie_Sie": "schwiegen"
+      },
+      "konjunktiv1": {
+        "ich": "schweige",
+        "du": "schweigest",
+        "er_sie_es": "schweige",
+        "wir": "schweigen",
+        "ihr": "schweiget",
+        "sie_Sie": "schweigen"
+      },
+      "konjunktiv2": {
+        "ich": "schwiege",
+        "du": "schwiegest",
+        "er_sie_es": "schwiege",
+        "wir": "schwiegen",
+        "ihr": "schwieget",
+        "sie_Sie": "schwiegen"
+      },
+      "imperativ": {
+        "du": "Schweig!",
+        "ihr": "Schweigt!",
+        "Sie": "Schweigen Sie!"
+      }
+    },
+    "partizip1": "schweigend",
+    "nominalisierung": "das Schweigen"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "sprechen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "صحبت کردن",
+          "en": "to speak"
+        },
+        "id_ref": "verb_sprechen"
+      },
+      {
+        "wort": "still",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ساکت، آرام",
+          "en": "quiet"
+        },
+        "id_ref": "adjektiv_still"
+      },
+      {
+        "wort": "das Schweigen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سکوت",
+          "en": "silence"
+        },
+        "id_ref": "nomen_schweigen"
+      },
+      {
+        "wort": "die Schweigepflicht",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تعهد رازداری",
+          "en": "duty of confidentiality"
+        },
+        "id_ref": "nomen_schweigepflicht"
+      },
+      {
+        "wort": "verschweigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پنهان کردن (حرفی)",
+          "en": "to conceal"
+        },
+        "id_ref": "verb_verschweigen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

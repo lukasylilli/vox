@@ -1,0 +1,166 @@
+{
+  "schema": "3.0",
+  "id": "verb_sein",
+  "wort": "sein",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بودن",
+      "وجود داشتن",
+      "(فعل کمکی) برای ساختن زمان گذشته"
+    ],
+    "en": [
+      "to be",
+      "to exist",
+      "(auxiliary) to have (perfect tense)"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Grammatik"
+  ],
+  "ipa": "zaɪ̯n",
+  "anmerkung": "Hilfsverb für Perfekt/Plusquamperfekt vieler Verben (Ich bin gegangen). Nicht verwechseln mit dem Possessivpronomen «sein».",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich bin müde.",
+      "uebersetzung": {
+        "fa": "خسته‌ام.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn ich mehr Zeit hätte, wäre ich gern öfter bei meiner Familie.",
+      "uebersetzung": {
+        "fa": "اگر وقت بیشتری داشتم، دوست داشتم بیشتر پیش خانواده‌ام باشم.",
+        "en": "If I had more time, I would like to be with my family more often."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "existieren",
+      "uebersetzung": {
+        "fa": "وجود داشتن",
+        "en": "to exist"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "sein",
+      "praeteritum": "war",
+      "partizip2": "gewesen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bin",
+        "du": "bist",
+        "er_sie_es": "ist",
+        "wir": "sind",
+        "ihr": "seid",
+        "sie_Sie": "sind"
+      },
+      "praeteritum": {
+        "ich": "war",
+        "du": "warst",
+        "er_sie_es": "war",
+        "wir": "waren",
+        "ihr": "wart",
+        "sie_Sie": "waren"
+      },
+      "konjunktiv1": {
+        "ich": "sei",
+        "du": "seist",
+        "er_sie_es": "sei",
+        "wir": "seien",
+        "ihr": "seiet",
+        "sie_Sie": "seien"
+      },
+      "konjunktiv2": {
+        "ich": "wäre",
+        "du": "wärst",
+        "er_sie_es": "wäre",
+        "wir": "wären",
+        "ihr": "wärt",
+        "sie_Sie": "wären"
+      },
+      "imperativ": {
+        "du": "Sei!",
+        "ihr": "Seid!",
+        "Sie": "Seien Sie!"
+      }
+    },
+    "partizip1": "seiend",
+    "nominalisierung": "das Sein"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "haben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "داشتن",
+          "en": "to have"
+        },
+        "id_ref": "verb_haben"
+      },
+      {
+        "wort": "werden",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شدن",
+          "en": "to become"
+        },
+        "id_ref": "verb_werden"
+      },
+      {
+        "wort": "bleiben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ماندن",
+          "en": "to stay"
+        },
+        "id_ref": "verb_bleiben"
+      },
+      {
+        "wort": "das Dasein",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "هستی، زندگی",
+          "en": "existence"
+        },
+        "id_ref": "nomen_dasein"
+      },
+      {
+        "wort": "anwesend",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حاضر",
+          "en": "present"
+        },
+        "id_ref": "adjektiv_anwesend"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

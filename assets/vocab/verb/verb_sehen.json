@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_sehen",
+  "wort": "sehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دیدن",
+      "نگاه کردن"
+    ],
+    "en": [
+      "to see",
+      "to look",
+      "to watch"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Sinne"
+  ],
+  "ipa": "ˈzeːən",
+  "anmerkung": "Mit Infinitiv Ersatzinfinitiv möglich (Ich habe ihn kommen sehen).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich sehe einen Vogel.",
+      "uebersetzung": {
+        "fa": "یک پرنده می‌بینم.",
+        "en": "I see a bird."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wir haben uns lange nicht gesehen, weil ich im Ausland gearbeitet habe.",
+      "uebersetzung": {
+        "fa": "مدت‌ها همدیگر را ندیدیم، چون من خارج از کشور کار می‌کردم.",
+        "en": "We haven't seen each other for a long time because I was working abroad."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schauen",
+      "uebersetzung": {
+        "fa": "نگاه کردن",
+        "en": "to look"
+      }
+    },
+    {
+      "wort": "erblicken",
+      "uebersetzung": {
+        "fa": "دیدن، چشم افتادن به",
+        "en": "to catch sight of"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "nach + Dat sehen",
+        "bedeutung": "sich um jemanden/etwas kümmern",
+        "beispiel": "Kannst du nach den Kindern sehen?",
+        "uebersetzung": {
+          "fa": "می‌توانی سری به بچه‌ها بزنی؟",
+          "en": "Can you check on the children?"
+        }
+      },
+      {
+        "muster": "auf + Akk sehen",
+        "bedeutung": "in eine Richtung blicken",
+        "beispiel": "Er sieht auf die Uhr.",
+        "uebersetzung": {
+          "fa": "او به ساعت نگاه می‌کند.",
+          "en": "He looks at the clock."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "sehen",
+      "praeteritum": "sah",
+      "partizip2": "gesehen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "sehe",
+        "du": "siehst",
+        "er_sie_es": "sieht",
+        "wir": "sehen",
+        "ihr": "seht",
+        "sie_Sie": "sehen"
+      },
+      "praeteritum": {
+        "ich": "sah",
+        "du": "sahst",
+        "er_sie_es": "sah",
+        "wir": "sahen",
+        "ihr": "saht",
+        "sie_Sie": "sahen"
+      },
+      "konjunktiv1": {
+        "ich": "sehe",
+        "du": "sehest",
+        "er_sie_es": "sehe",
+        "wir": "sehen",
+        "ihr": "sehet",
+        "sie_Sie": "sehen"
+      },
+      "konjunktiv2": {
+        "ich": "sähe",
+        "du": "sähest",
+        "er_sie_es": "sähe",
+        "wir": "sähen",
+        "ihr": "sähet",
+        "sie_Sie": "sähen"
+      },
+      "imperativ": {
+        "du": "Sieh!",
+        "ihr": "Seht!",
+        "Sie": "Sehen Sie!"
+      }
+    },
+    "partizip1": "sehend",
+    "nominalisierung": "die Sicht"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Auge",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چشم",
+          "en": "eye"
+        },
+        "id_ref": "nomen_auge"
+      },
+      {
+        "wort": "fernsehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تلویزیون تماشا کردن",
+          "en": "to watch TV"
+        },
+        "id_ref": "verb_fernsehen"
+      },
+      {
+        "wort": "schauen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نگاه کردن",
+          "en": "to look"
+        },
+        "id_ref": "verb_schauen"
+      },
+      {
+        "wort": "aussehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "به نظر رسیدن (ظاهر)",
+          "en": "to look (like)"
+        },
+        "id_ref": "verb_aussehen"
+      },
+      {
+        "wort": "die Sicht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دید، دیدگاه",
+          "en": "view, visibility"
+        },
+        "id_ref": "nomen_sicht"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

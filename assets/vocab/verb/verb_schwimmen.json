@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_schwimmen",
+  "wort": "schwimmen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شنا کردن",
+      "(روی آب) شناور بودن"
+    ],
+    "en": [
+      "to swim",
+      "to float"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Sport",
+    "Freizeit"
+  ],
+  "ipa": "ˈʃvɪmən",
+  "anmerkung": "Meist mit «sein»; mit «haben», wenn die Tätigkeit selbst gemeint ist (Ich habe zwei Stunden geschwommen — bes. norddeutsch). Konjunktiv II auch «schwämme».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Im Sommer schwimme ich im See.",
+      "uebersetzung": {
+        "fa": "تابستان در دریاچه شنا می‌کنم.",
+        "en": "In summer I swim in the lake."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als Kind bin ich jeden Tag geschwommen, weil wir direkt am Meer gewohnt haben.",
+      "uebersetzung": {
+        "fa": "در کودکی هر روز شنا می‌کردم، چون درست کنار دریا زندگی می‌کردیم.",
+        "en": "As a child I swam every day because we lived right by the sea."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "baden",
+      "uebersetzung": {
+        "fa": "آب‌تنی کردن",
+        "en": "to bathe"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "untergehen",
+      "uebersetzung": {
+        "fa": "غرق شدن",
+        "en": "to sink"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "schwimmen",
+      "praeteritum": "schwamm",
+      "partizip2": "geschwommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schwimme",
+        "du": "schwimmst",
+        "er_sie_es": "schwimmt",
+        "wir": "schwimmen",
+        "ihr": "schwimmt",
+        "sie_Sie": "schwimmen"
+      },
+      "praeteritum": {
+        "ich": "schwamm",
+        "du": "schwammst",
+        "er_sie_es": "schwamm",
+        "wir": "schwammen",
+        "ihr": "schwammt",
+        "sie_Sie": "schwammen"
+      },
+      "konjunktiv1": {
+        "ich": "schwimme",
+        "du": "schwimmest",
+        "er_sie_es": "schwimme",
+        "wir": "schwimmen",
+        "ihr": "schwimmet",
+        "sie_Sie": "schwimmen"
+      },
+      "konjunktiv2": {
+        "ich": "schwömme",
+        "du": "schwömmest",
+        "er_sie_es": "schwömme",
+        "wir": "schwömmen",
+        "ihr": "schwömmet",
+        "sie_Sie": "schwömmen"
+      },
+      "imperativ": {
+        "du": "Schwimm!",
+        "ihr": "Schwimmt!",
+        "Sie": "Schwimmen Sie!"
+      }
+    },
+    "partizip1": "schwimmend",
+    "nominalisierung": "das Schwimmen"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Wasser",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب",
+          "en": "water"
+        },
+        "id_ref": "nomen_wasser"
+      },
+      {
+        "wort": "das Schwimmbad",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "استخر",
+          "en": "swimming pool"
+        },
+        "id_ref": "nomen_schwimmbad"
+      },
+      {
+        "wort": "baden",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب‌تنی کردن، حمام کردن",
+          "en": "to bathe"
+        },
+        "id_ref": "verb_baden"
+      },
+      {
+        "wort": "der Schwimmer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شناگر",
+          "en": "swimmer"
+        },
+        "id_ref": "nomen_schwimmer"
+      },
+      {
+        "wort": "tauchen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "غواصی کردن، زیر آب رفتن",
+          "en": "to dive"
+        },
+        "id_ref": "verb_tauchen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

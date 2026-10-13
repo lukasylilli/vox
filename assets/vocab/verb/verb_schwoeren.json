@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_schwoeren",
+  "wort": "schwören",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سوگند خوردن، قسم خوردن",
+      "(auf + Akk) به چیزی سخت اعتقاد داشتن"
+    ],
+    "en": [
+      "to swear",
+      "to swear by"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Recht",
+    "Kommunikation"
+  ],
+  "ipa": "ˈʃvøːʁən",
+  "anmerkung": "Konjunktiv II seltener «schwöre» (Duden: «schwüre»).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich schwöre, das ist wahr!",
+      "uebersetzung": {
+        "fa": "قسم می‌خورم، این راست است!",
+        "en": "I swear it's true!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Vor Gericht hat der Zeuge geschworen, dass er die Wahrheit sagt.",
+      "uebersetzung": {
+        "fa": "شاهد در دادگاه قسم خورد که حقیقت را می‌گوید.",
+        "en": "In court the witness swore that he was telling the truth."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "versprechen",
+      "uebersetzung": {
+        "fa": "قول دادن",
+        "en": "to promise"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Akk schwören",
+        "bedeutung": "von etwas fest überzeugt sein",
+        "beispiel": "Meine Oma schwört auf Kamillentee.",
+        "uebersetzung": {
+          "fa": "مادربزرگم به چای بابونه ایمان دارد.",
+          "en": "My grandma swears by camomile tea."
+        }
+      },
+      {
+        "muster": "bei + Dat schwören",
+        "bedeutung": "etwas zum Zeugen anrufen",
+        "beispiel": "Er schwört bei seiner Ehre.",
+        "uebersetzung": {
+          "fa": "او به شرفش قسم می‌خورد.",
+          "en": "He swears on his honour."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schwören",
+      "praeteritum": "schwor",
+      "partizip2": "geschworen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schwöre",
+        "du": "schwörst",
+        "er_sie_es": "schwört",
+        "wir": "schwören",
+        "ihr": "schwört",
+        "sie_Sie": "schwören"
+      },
+      "praeteritum": {
+        "ich": "schwor",
+        "du": "schworst",
+        "er_sie_es": "schwor",
+        "wir": "schworen",
+        "ihr": "schwort",
+        "sie_Sie": "schworen"
+      },
+      "konjunktiv1": {
+        "ich": "schwöre",
+        "du": "schwörest",
+        "er_sie_es": "schwöre",
+        "wir": "schwören",
+        "ihr": "schwöret",
+        "sie_Sie": "schwören"
+      },
+      "konjunktiv2": {
+        "ich": "schwüre",
+        "du": "schwürest",
+        "er_sie_es": "schwüre",
+        "wir": "schwüren",
+        "ihr": "schwüret",
+        "sie_Sie": "schwüren"
+      },
+      "imperativ": {
+        "du": "Schwör!",
+        "ihr": "Schwört!",
+        "Sie": "Schwören Sie!"
+      }
+    },
+    "partizip1": "schwörend",
+    "nominalisierung": "der Schwur"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "versprechen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قول دادن",
+          "en": "to promise"
+        },
+        "id_ref": "verb_versprechen"
+      },
+      {
+        "wort": "die Wahrheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حقیقت",
+          "en": "truth"
+        },
+        "id_ref": "nomen_wahrheit"
+      },
+      {
+        "wort": "das Gericht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دادگاه",
+          "en": "court"
+        },
+        "id_ref": "nomen_gericht"
+      },
+      {
+        "wort": "der Eid",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سوگند",
+          "en": "oath"
+        },
+        "id_ref": "nomen_eid"
+      },
+      {
+        "wort": "der Schwur",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سوگند",
+          "en": "oath, vow"
+        },
+        "id_ref": "nomen_schwur"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

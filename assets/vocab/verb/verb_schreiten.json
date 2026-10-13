@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_schreiten",
+  "wort": "schreiten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با گام‌های آرام و باوقار) قدم برداشتن",
+      "(zu + Dat) دست به کاری زدن"
+    ],
+    "en": [
+      "to stride",
+      "to proceed (to)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈʃʁaɪ̯tn̩",
+  "anmerkung": "Gehoben.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Braut schreitet zum Altar.",
+      "uebersetzung": {
+        "fa": "عروس با وقار به سمت محراب می‌رود.",
+        "en": "The bride walks solemnly to the altar."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem alle Argumente gehört worden waren, schritt man zur Abstimmung.",
+      "uebersetzung": {
+        "fa": "بعد از آنکه همه‌ی استدلال‌ها شنیده شد، به رأی‌گیری پرداختند.",
+        "en": "After all the arguments had been heard, they proceeded to the vote."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gehen",
+      "uebersetzung": {
+        "fa": "رفتن",
+        "en": "to go"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zu + Dat schreiten",
+        "bedeutung": "(gehoben) mit etwas beginnen",
+        "beispiel": "Die Polizei schritt zur Tat.",
+        "uebersetzung": {
+          "fa": "پلیس دست به کار شد.",
+          "en": "The police took action."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schreiten",
+      "praeteritum": "schritt",
+      "partizip2": "geschritten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schreite",
+        "du": "schreitest",
+        "er_sie_es": "schreitet",
+        "wir": "schreiten",
+        "ihr": "schreitet",
+        "sie_Sie": "schreiten"
+      },
+      "praeteritum": {
+        "ich": "schritt",
+        "du": "schrittest",
+        "er_sie_es": "schritt",
+        "wir": "schritten",
+        "ihr": "schrittet",
+        "sie_Sie": "schritten"
+      },
+      "konjunktiv1": {
+        "ich": "schreite",
+        "du": "schreitest",
+        "er_sie_es": "schreite",
+        "wir": "schreiten",
+        "ihr": "schreitet",
+        "sie_Sie": "schreiten"
+      },
+      "konjunktiv2": {
+        "ich": "schritte",
+        "du": "schrittest",
+        "er_sie_es": "schritte",
+        "wir": "schritten",
+        "ihr": "schrittet",
+        "sie_Sie": "schritten"
+      },
+      "imperativ": {
+        "du": "Schreite!",
+        "ihr": "Schreitet!",
+        "Sie": "Schreiten Sie!"
+      }
+    },
+    "partizip1": "schreitend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "der Schritt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قدم",
+          "en": "step"
+        },
+        "id_ref": "nomen_schritt"
+      },
+      {
+        "wort": "überschreiten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عبور کردن، تجاوز کردن (از حد)",
+          "en": "to exceed"
+        },
+        "id_ref": "verb_ueberschreiten"
+      },
+      {
+        "wort": "der Fortschritt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیشرفت",
+          "en": "progress"
+        },
+        "id_ref": "nomen_fortschritt"
+      },
+      {
+        "wort": "einschreiten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مداخله کردن",
+          "en": "to intervene"
+        },
+        "id_ref": "verb_einschreiten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
