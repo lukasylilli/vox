@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_rausfliegen",
+  "wort": "rausfliegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(محاوره) اخراج شدن، بیرون انداخته شدن",
+      "(محاوره) بیرون پریدن"
+    ],
+    "en": [
+      "(colloquial) to get kicked out",
+      "(colloquial) to fly out"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Umgangssprache",
+    "Arbeit",
+    "Schule"
+  ],
+  "ipa": "ˈʁaʊ̯sˌfliːɡn̩",
+  "anmerkung": "Umgangssprachlich; Standard: «hinausfliegen/herausfliegen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er ist rausgeflogen.",
+      "uebersetzung": {
+        "fa": "اخراج شد.",
+        "en": "He got kicked out."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn du noch einmal zu spät kommst, fliegst du aus dem Kurs raus.",
+      "uebersetzung": {
+        "fa": "اگر یک بار دیگر دیر بیایی، از دوره بیرونت می‌کنند.",
+        "en": "If you're late once more, you'll get kicked out of the course."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hinausfliegen",
+      "uebersetzung": {
+        "fa": "اخراج شدن",
+        "en": "to be thrown out"
+      }
+    },
+    {
+      "wort": "gekündigt werden",
+      "uebersetzung": {
+        "fa": "اخراج شدن",
+        "en": "to be dismissed"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "raus ((محاوره) بیرون (= heraus)) + fliegen (پرواز کردن)",
+    "en": "raus (out (= heraus)) + fliegen (to fly)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "aus + Dat rausfliegen",
+        "bedeutung": "(ugs.) aus etwas ausgeschlossen werden",
+        "beispiel": "Sie ist aus der Wohnung rausgeflogen.",
+        "uebersetzung": {
+          "fa": "از آپارتمان بیرونش کردند.",
+          "en": "She got thrown out of the flat."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "rausfliegen",
+      "praeteritum": "flog raus",
+      "partizip2": "rausgeflogen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fliege raus",
+        "du": "fliegst raus",
+        "er_sie_es": "fliegt raus",
+        "wir": "fliegen raus",
+        "ihr": "fliegt raus",
+        "sie_Sie": "fliegen raus"
+      },
+      "praeteritum": {
+        "ich": "flog raus",
+        "du": "flogst raus",
+        "er_sie_es": "flog raus",
+        "wir": "flogen raus",
+        "ihr": "flogt raus",
+        "sie_Sie": "flogen raus"
+      },
+      "konjunktiv1": {
+        "ich": "fliege raus",
+        "du": "fliegest raus",
+        "er_sie_es": "fliege raus",
+        "wir": "fliegen raus",
+        "ihr": "flieget raus",
+        "sie_Sie": "fliegen raus"
+      },
+      "konjunktiv2": {
+        "ich": "flöge raus",
+        "du": "flögest raus",
+        "er_sie_es": "flöge raus",
+        "wir": "flögen raus",
+        "ihr": "flöget raus",
+        "sie_Sie": "flögen raus"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "rausfliegend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fliegen",
+    "woerter": [
+      {
+        "wort": "hinausfliegen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اخراج شدن",
+          "en": "to be thrown out"
+        },
+        "id_ref": "verb_hinausfliegen"
+      },
+      {
+        "wort": "rauswerfen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیرون انداختن",
+          "en": "to throw out"
+        },
+        "id_ref": "verb_rauswerfen"
+      },
+      {
+        "wort": "kündigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اخراج کردن",
+          "en": "to dismiss"
+        },
+        "id_ref": "verb_kuendigen"
+      },
+      {
+        "wort": "fliegen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرواز کردن",
+          "en": "to fly"
+        },
+        "id_ref": "verb_fliegen"
+      },
+      {
+        "wort": "raus",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "(محاوره) بیرون",
+          "en": "out"
+        },
+        "id_ref": "adverb_raus"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_rauslaufen",
+  "wort": "rauslaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(محاوره) بیرون دویدن",
+      "(محاوره، مایع) بیرون ریختن"
+    ],
+    "en": [
+      "(colloquial) to run out",
+      "(colloquial, liquid) to run out, to leak"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Umgangssprache",
+    "Bewegung"
+  ],
+  "ipa": "ˈʁaʊ̯sˌlaʊ̯fn̩",
+  "anmerkung": "Umgangssprachlich; Standard: «herauslaufen/hinauslaufen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kinder laufen raus.",
+      "uebersetzung": {
+        "fa": "بچه‌ها بیرون می‌دوند.",
+        "en": "The children run out."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als der Feueralarm losging, sind alle so schnell wie möglich aus dem Gebäude rausgelaufen.",
+      "uebersetzung": {
+        "fa": "وقتی آژیر آتش به صدا درآمد، همه تا جایی که می‌توانستند سریع از ساختمان بیرون دویدند.",
+        "en": "When the fire alarm went off, everyone ran out of the building as fast as they could."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "herauslaufen",
+      "uebersetzung": {
+        "fa": "بیرون دویدن",
+        "en": "to run out"
+      }
+    },
+    {
+      "wort": "hinauslaufen",
+      "uebersetzung": {
+        "fa": "بیرون دویدن",
+        "en": "to run out"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "reinlaufen",
+      "uebersetzung": {
+        "fa": "داخل دویدن",
+        "en": "to run in"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "raus ((محاوره) بیرون (= heraus)) + laufen (دویدن)",
+    "en": "raus (out (= heraus)) + laufen (to run)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "rauslaufen",
+      "praeteritum": "lief raus",
+      "partizip2": "rausgelaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laufe raus",
+        "du": "läufst raus",
+        "er_sie_es": "läuft raus",
+        "wir": "laufen raus",
+        "ihr": "lauft raus",
+        "sie_Sie": "laufen raus"
+      },
+      "praeteritum": {
+        "ich": "lief raus",
+        "du": "liefst raus",
+        "er_sie_es": "lief raus",
+        "wir": "liefen raus",
+        "ihr": "lieft raus",
+        "sie_Sie": "liefen raus"
+      },
+      "konjunktiv1": {
+        "ich": "laufe raus",
+        "du": "laufest raus",
+        "er_sie_es": "laufe raus",
+        "wir": "laufen raus",
+        "ihr": "laufet raus",
+        "sie_Sie": "laufen raus"
+      },
+      "konjunktiv2": {
+        "ich": "liefe raus",
+        "du": "liefest raus",
+        "er_sie_es": "liefe raus",
+        "wir": "liefen raus",
+        "ihr": "liefet raus",
+        "sie_Sie": "liefen raus"
+      },
+      "imperativ": {
+        "du": "Lauf raus!",
+        "ihr": "Lauft raus!",
+        "Sie": "Laufen Sie raus!"
+      }
+    },
+    "partizip1": "rauslaufend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "herauslaufen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیرون دویدن",
+          "en": "to run out"
+        },
+        "id_ref": "verb_herauslaufen"
+      },
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دویدن",
+          "en": "to run"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "rennen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دویدن",
+          "en": "to run"
+        },
+        "id_ref": "verb_rennen"
+      },
+      {
+        "wort": "der Ausgang",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خروجی",
+          "en": "exit"
+        },
+        "id_ref": "nomen_ausgang"
+      },
+      {
+        "wort": "raus",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "(محاوره) بیرون",
+          "en": "out"
+        },
+        "id_ref": "adverb_raus"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
