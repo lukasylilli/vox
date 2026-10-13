@@ -1,0 +1,166 @@
+{
+  "schema": "3.0",
+  "id": "verb_umladen",
+  "wort": "umladen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(بار را) از یک وسیله به وسیله‌ی دیگر منتقل کردن"
+    ],
+    "en": [
+      "to reload",
+      "to transfer (cargo)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr",
+    "Arbeit"
+  ],
+  "ipa": "ˈʊmˌlaːdn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir laden die Kisten in ein anderes Auto um.",
+      "uebersetzung": {
+        "fa": "جعبه‌ها را در ماشین دیگری بار می‌زنیم.",
+        "en": "We load the boxes into another car."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Hafen wird die Ware vom Schiff auf Lastwagen umgeladen, bevor sie weitertransportiert wird.",
+      "uebersetzung": {
+        "fa": "در بندر، کالا پیش از ادامه‌ی حمل از کشتی به کامیون‌ها منتقل می‌شود.",
+        "en": "At the port the goods are transferred from the ship to lorries before they are transported further."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verladen",
+      "uebersetzung": {
+        "fa": "بار زدن",
+        "en": "to load, to ship"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "um- (جابه‌جا) + laden (بار زدن)",
+    "en": "um- (over, into another) + laden (to load)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "umladen",
+      "praeteritum": "lud um",
+      "partizip2": "umgeladen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lade um",
+        "du": "lädst um",
+        "er_sie_es": "lädt um",
+        "wir": "laden um",
+        "ihr": "ladet um",
+        "sie_Sie": "laden um"
+      },
+      "praeteritum": {
+        "ich": "lud um",
+        "du": "ludst um",
+        "er_sie_es": "lud um",
+        "wir": "luden um",
+        "ihr": "ludet um",
+        "sie_Sie": "luden um"
+      },
+      "konjunktiv1": {
+        "ich": "lade um",
+        "du": "ladest um",
+        "er_sie_es": "lade um",
+        "wir": "laden um",
+        "ihr": "ladet um",
+        "sie_Sie": "laden um"
+      },
+      "konjunktiv2": {
+        "ich": "lüde um",
+        "du": "lüdest um",
+        "er_sie_es": "lüde um",
+        "wir": "lüden um",
+        "ihr": "lüdet um",
+        "sie_Sie": "lüden um"
+      },
+      "imperativ": {
+        "du": "Lad um!",
+        "ihr": "Ladet um!",
+        "Sie": "Laden Sie um!"
+      }
+    },
+    "partizip1": "umladend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laden",
+    "woerter": [
+      {
+        "wort": "laden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بار زدن",
+          "en": "to load"
+        },
+        "id_ref": "verb_laden"
+      },
+      {
+        "wort": "die Ladung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بار، محموله",
+          "en": "load, cargo"
+        },
+        "id_ref": "nomen_ladung"
+      },
+      {
+        "wort": "der Lastwagen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کامیون",
+          "en": "lorry, truck"
+        },
+        "id_ref": "nomen_lastwagen"
+      },
+      {
+        "wort": "der Hafen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بندر",
+          "en": "port"
+        },
+        "id_ref": "nomen_hafen"
+      },
+      {
+        "wort": "transportieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حمل کردن",
+          "en": "to transport"
+        },
+        "id_ref": "verb_transportieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

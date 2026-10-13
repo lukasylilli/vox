@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_umkommen",
+  "wort": "umkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(در حادثه) جان باختن، کشته شدن",
+      "(محاوره) از (چیزی) هلاک شدن"
+    ],
+    "en": [
+      "to die, to be killed (in an accident)",
+      "(colloquial) to be dying (of sth.)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesellschaft",
+    "Nachrichten"
+  ],
+  "ipa": "ˈʊmˌkɔmən",
+  "anmerkung": "Für gewaltsamen oder plötzlichen Tod (Unfall, Katastrophe). Ugs. übertragen: «vor Hitze/Langeweile umkommen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bei dem Unfall ist niemand umgekommen.",
+      "uebersetzung": {
+        "fa": "در این تصادف کسی جان نباخت.",
+        "en": "Nobody was killed in the accident."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei dem Erdbeben, das die Region letzte Woche erschütterte, kamen mehr als hundert Menschen um.",
+      "uebersetzung": {
+        "fa": "در زلزله‌ای که هفته‌ی پیش منطقه را لرزاند، بیش از صد نفر جان باختند.",
+        "en": "More than a hundred people died in the earthquake that shook the region last week."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sterben",
+      "uebersetzung": {
+        "fa": "مُردن",
+        "en": "to die"
+      }
+    },
+    {
+      "wort": "ums Leben kommen",
+      "uebersetzung": {
+        "fa": "جان باختن",
+        "en": "to lose one's life"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "überleben",
+      "uebersetzung": {
+        "fa": "زنده ماندن",
+        "en": "to survive"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "um- (به پایان، نابودی) + kommen (آمدن)",
+    "en": "um- (to an end) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "umkommen vor + Dat",
+        "bedeutung": "(ugs.) etwas kaum aushalten",
+        "beispiel": "Ich komme vor Hitze fast um.",
+        "uebersetzung": {
+          "fa": "از گرما دارم هلاک می‌شوم.",
+          "en": "I'm dying of the heat."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "umkommen",
+      "praeteritum": "kam um",
+      "partizip2": "umgekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme um",
+        "du": "kommst um",
+        "er_sie_es": "kommt um",
+        "wir": "kommen um",
+        "ihr": "kommt um",
+        "sie_Sie": "kommen um"
+      },
+      "praeteritum": {
+        "ich": "kam um",
+        "du": "kamst um",
+        "er_sie_es": "kam um",
+        "wir": "kamen um",
+        "ihr": "kamt um",
+        "sie_Sie": "kamen um"
+      },
+      "konjunktiv1": {
+        "ich": "komme um",
+        "du": "kommest um",
+        "er_sie_es": "komme um",
+        "wir": "kommen um",
+        "ihr": "kommet um",
+        "sie_Sie": "kommen um"
+      },
+      "konjunktiv2": {
+        "ich": "käme um",
+        "du": "kämest um",
+        "er_sie_es": "käme um",
+        "wir": "kämen um",
+        "ihr": "kämet um",
+        "sie_Sie": "kämen um"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "umkommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "sterben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مُردن",
+          "en": "to die"
+        },
+        "id_ref": "verb_sterben"
+      },
+      {
+        "wort": "der Unfall",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تصادف، حادثه",
+          "en": "accident"
+        },
+        "id_ref": "nomen_unfall"
+      },
+      {
+        "wort": "überleben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زنده ماندن",
+          "en": "to survive"
+        },
+        "id_ref": "verb_ueberleben"
+      },
+      {
+        "wort": "das Opfer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قربانی",
+          "en": "victim"
+        },
+        "id_ref": "nomen_opfer"
+      },
+      {
+        "wort": "die Katastrophe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فاجعه",
+          "en": "disaster"
+        },
+        "id_ref": "nomen_katastrophe"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

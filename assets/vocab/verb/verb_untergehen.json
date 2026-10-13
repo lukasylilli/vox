@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_untergehen",
+  "wort": "untergehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(خورشید) غروب کردن",
+      "غرق شدن",
+      "از بین رفتن، نابود شدن"
+    ],
+    "en": [
+      "to set (sun)",
+      "to sink",
+      "to perish, to go under"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Natur",
+    "Geschichte"
+  ],
+  "ipa": "ˈʊntɐˌɡeːən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Sonne geht um acht Uhr unter.",
+      "uebersetzung": {
+        "fa": "خورشید ساعت هشت غروب می‌کند.",
+        "en": "The sun sets at eight o'clock."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Schiff ging unter, nachdem es einen Eisberg gerammt hatte.",
+      "uebersetzung": {
+        "fa": "کشتی بعد از برخورد با یک کوه یخ غرق شد.",
+        "en": "The ship sank after it had hit an iceberg."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sinken",
+      "uebersetzung": {
+        "fa": "غرق شدن، فرو رفتن",
+        "en": "to sink"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "aufgehen",
+      "uebersetzung": {
+        "fa": "(خورشید) طلوع کردن",
+        "en": "to rise"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "unter- (پایین، زیر) + gehen (رفتن)",
+    "en": "unter- (down, under) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "untergehen",
+      "praeteritum": "ging unter",
+      "partizip2": "untergegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe unter",
+        "du": "gehst unter",
+        "er_sie_es": "geht unter",
+        "wir": "gehen unter",
+        "ihr": "geht unter",
+        "sie_Sie": "gehen unter"
+      },
+      "praeteritum": {
+        "ich": "ging unter",
+        "du": "gingst unter",
+        "er_sie_es": "ging unter",
+        "wir": "gingen unter",
+        "ihr": "gingt unter",
+        "sie_Sie": "gingen unter"
+      },
+      "konjunktiv1": {
+        "ich": "gehe unter",
+        "du": "gehest unter",
+        "er_sie_es": "gehe unter",
+        "wir": "gehen unter",
+        "ihr": "gehet unter",
+        "sie_Sie": "gehen unter"
+      },
+      "konjunktiv2": {
+        "ich": "ginge unter",
+        "du": "gingest unter",
+        "er_sie_es": "ginge unter",
+        "wir": "gingen unter",
+        "ihr": "ginget unter",
+        "sie_Sie": "gingen unter"
+      },
+      "imperativ": {
+        "du": "Geh unter!",
+        "ihr": "Geht unter!",
+        "Sie": "Gehen Sie unter!"
+      }
+    },
+    "partizip1": "untergehend",
+    "nominalisierung": "der Untergang"
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "aufgehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "طلوع کردن",
+          "en": "to rise"
+        },
+        "id_ref": "verb_aufgehen"
+      },
+      {
+        "wort": "der Sonnenuntergang",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "غروب آفتاب",
+          "en": "sunset"
+        },
+        "id_ref": "nomen_sonnenuntergang"
+      },
+      {
+        "wort": "der Untergang",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "غرق شدن، سقوط",
+          "en": "sinking, downfall"
+        },
+        "id_ref": "nomen_untergang"
+      },
+      {
+        "wort": "sinken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "غرق شدن",
+          "en": "to sink"
+        },
+        "id_ref": "verb_sinken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

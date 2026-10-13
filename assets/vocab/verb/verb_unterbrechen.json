@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_unterbrechen",
+  "wort": "unterbrechen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "قطع کردن (حرف کسی)",
+      "(کاری را) موقتاً متوقف کردن"
+    ],
+    "en": [
+      "to interrupt",
+      "to suspend, to break off"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Kommunikation",
+    "Arbeit"
+  ],
+  "ipa": "ʊntɐˈbʁɛçn̩",
+  "anmerkung": "Untrennbar (unterbrach, unterbrochen).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte unterbrich mich nicht!",
+      "uebersetzung": {
+        "fa": "لطفاً حرفم را قطع نکن!",
+        "en": "Please don't interrupt me!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wir mussten die Sitzung unterbrechen, weil der Strom ausgefallen war.",
+      "uebersetzung": {
+        "fa": "مجبور شدیم جلسه را متوقف کنیم، چون برق رفته بود.",
+        "en": "We had to interrupt the meeting because the power had gone out."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "stören",
+      "uebersetzung": {
+        "fa": "مزاحم شدن",
+        "en": "to disturb"
+      }
+    },
+    {
+      "wort": "abbrechen",
+      "uebersetzung": {
+        "fa": "قطع کردن، نیمه‌کاره گذاشتن",
+        "en": "to break off"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "fortsetzen",
+      "uebersetzung": {
+        "fa": "ادامه دادن",
+        "en": "to continue"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "unter- (میان، وسط) + brechen (شکستن)",
+    "en": "unter- (in between) + brechen (to break)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "unterbrechen",
+      "praeteritum": "unterbrach",
+      "partizip2": "unterbrochen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "unterbreche",
+        "du": "unterbrichst",
+        "er_sie_es": "unterbricht",
+        "wir": "unterbrechen",
+        "ihr": "unterbrecht",
+        "sie_Sie": "unterbrechen"
+      },
+      "praeteritum": {
+        "ich": "unterbrach",
+        "du": "unterbrachst",
+        "er_sie_es": "unterbrach",
+        "wir": "unterbrachen",
+        "ihr": "unterbracht",
+        "sie_Sie": "unterbrachen"
+      },
+      "konjunktiv1": {
+        "ich": "unterbreche",
+        "du": "unterbrechest",
+        "er_sie_es": "unterbreche",
+        "wir": "unterbrechen",
+        "ihr": "unterbrechet",
+        "sie_Sie": "unterbrechen"
+      },
+      "konjunktiv2": {
+        "ich": "unterbräche",
+        "du": "unterbrächest",
+        "er_sie_es": "unterbräche",
+        "wir": "unterbrächen",
+        "ihr": "unterbrächet",
+        "sie_Sie": "unterbrächen"
+      },
+      "imperativ": {
+        "du": "Unterbrich!",
+        "ihr": "Unterbrecht!",
+        "Sie": "Unterbrechen Sie!"
+      }
+    },
+    "partizip1": "unterbrechend",
+    "nominalisierung": "die Unterbrechung"
+  },
+  "wortnetz": {
+    "grundwort": "brechen",
+    "woerter": [
+      {
+        "wort": "brechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شکستن",
+          "en": "to break"
+        },
+        "id_ref": "verb_brechen"
+      },
+      {
+        "wort": "die Unterbrechung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وقفه، قطع",
+          "en": "interruption"
+        },
+        "id_ref": "nomen_unterbrechung"
+      },
+      {
+        "wort": "die Pause",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "استراحت، وقفه",
+          "en": "break"
+        },
+        "id_ref": "nomen_pause"
+      },
+      {
+        "wort": "stören",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مزاحم شدن",
+          "en": "to disturb"
+        },
+        "id_ref": "verb_stoeren"
+      },
+      {
+        "wort": "fortsetzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ادامه دادن",
+          "en": "to continue"
+        },
+        "id_ref": "verb_fortsetzen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

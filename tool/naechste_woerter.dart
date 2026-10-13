@@ -1354,6 +1354,16 @@ const zurueckgestellt = <String>{
   'umhängen', // zurückgestellt (Regel 14/16): hängen-Kompositum; transitiv schwach, intransitiv stark — Formen schwanken 2026-10-13
   'umhauen', // zurückgestellt (Regel 14/16): umgangssprachlich; Präteritum schwankt (haute/hieb) 2026-10-13
   'umherkriechen', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'umhinkönnen', // zurückgestellt (Regel 14/16): Modalverb-Kombination (wie loskönnen); Lemma «umhinkommen» hat Karte 2026-10-13
+  'umlassen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-13
+  'umlaufen', // zurückgestellt (Regel 14/16): trennbar und untrennbar mit verschiedener Bedeutung; Symbol nicht eindeutig 2026-10-13
+  'unterbinden', // zurückgestellt (Regel 14/16): trennbar und untrennbar mit verschiedener Bedeutung; Symbol nicht eindeutig 2026-10-13
+  'untereinanderliegen', // zurückgestellt (Regel 14/16): Schreibung schwankt (untereinander liegen) 2026-10-13
+  'unterfahren', // zurückgestellt (Regel 14/16): selten; trennbar/untrennbar nicht sicher geklärt 2026-10-13
+  'unterfallen', // zurückgestellt (Regel 14/16): selten (Amtssprache) 2026-10-13
+  'unterfliegen', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'untergraben', // zurückgestellt (Regel 14/16): trennbar und untrennbar mit verschiedener Bedeutung; Symbol nicht eindeutig 2026-10-13
+  'unterhalten', // zurückgestellt (Regel 14/16): trennbar und untrennbar mit verschiedener Bedeutung; Symbol nicht eindeutig 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

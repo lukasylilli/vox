@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_unterbieten",
+  "wort": "unterbieten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(قیمت) کمتر از دیگری پیشنهاد دادن",
+      "(رکورد را) شکستن، (زمان را) کمتر کردن"
+    ],
+    "en": [
+      "to undercut, to underbid",
+      "to beat (a record time)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wirtschaft",
+    "Sport"
+  ],
+  "ipa": "ʊntɐˈbiːtn̩",
+  "anmerkung": "Untrennbar (unterbot, unterboten).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Laden unterbietet die Konkurrenz.",
+      "uebersetzung": {
+        "fa": "این مغازه ارزان‌تر از رقبا می‌فروشد.",
+        "en": "The shop undercuts the competition."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Läuferin hat den alten Rekord um zwei Sekunden unterboten, obwohl es stark regnete.",
+      "uebersetzung": {
+        "fa": "دونده با وجود باران شدید، رکورد قبلی را دو ثانیه بهتر کرد.",
+        "en": "The runner beat the old record by two seconds, although it was raining heavily."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "unterschreiten",
+      "uebersetzung": {
+        "fa": "کمتر بودن از",
+        "en": "to fall below"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "überbieten",
+      "uebersetzung": {
+        "fa": "بیشتر پیشنهاد دادن",
+        "en": "to outbid"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "unter- (پایین‌تر از) + bieten (پیشنهاد دادن)",
+    "en": "unter- (below) + bieten (to offer)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "unterbieten",
+      "praeteritum": "unterbot",
+      "partizip2": "unterboten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "unterbiete",
+        "du": "unterbietest",
+        "er_sie_es": "unterbietet",
+        "wir": "unterbieten",
+        "ihr": "unterbietet",
+        "sie_Sie": "unterbieten"
+      },
+      "praeteritum": {
+        "ich": "unterbot",
+        "du": "unterbotest",
+        "er_sie_es": "unterbot",
+        "wir": "unterboten",
+        "ihr": "unterbotet",
+        "sie_Sie": "unterboten"
+      },
+      "konjunktiv1": {
+        "ich": "unterbiete",
+        "du": "unterbietest",
+        "er_sie_es": "unterbiete",
+        "wir": "unterbieten",
+        "ihr": "unterbietet",
+        "sie_Sie": "unterbieten"
+      },
+      "konjunktiv2": {
+        "ich": "unterböte",
+        "du": "unterbötest",
+        "er_sie_es": "unterböte",
+        "wir": "unterböten",
+        "ihr": "unterbötet",
+        "sie_Sie": "unterböten"
+      },
+      "imperativ": {
+        "du": "Unterbiete!",
+        "ihr": "Unterbietet!",
+        "Sie": "Unterbieten Sie!"
+      }
+    },
+    "partizip1": "unterbietend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bieten",
+    "woerter": [
+      {
+        "wort": "bieten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیشنهاد دادن",
+          "en": "to offer"
+        },
+        "id_ref": "verb_bieten"
+      },
+      {
+        "wort": "überbieten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بیشتر پیشنهاد دادن",
+          "en": "to outbid"
+        },
+        "id_ref": "verb_ueberbieten"
+      },
+      {
+        "wort": "der Preis",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قیمت",
+          "en": "price"
+        },
+        "id_ref": "nomen_preis"
+      },
+      {
+        "wort": "die Konkurrenz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رقابت، رقبا",
+          "en": "competition"
+        },
+        "id_ref": "nomen_konkurrenz"
+      },
+      {
+        "wort": "der Rekord",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رکورد",
+          "en": "record"
+        },
+        "id_ref": "nomen_rekord"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

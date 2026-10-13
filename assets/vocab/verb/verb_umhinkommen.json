@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_umhinkommen",
+  "wort": "umhinkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(فقط منفی) ناچار شدن، چاره‌ای جز … نداشتن"
+    ],
+    "en": [
+      "(only negated) cannot help (doing sth.)",
+      "to have no choice but to"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "ʊmˈhɪnˌkɔmən",
+  "anmerkung": "Nur verneint gebräuchlich: «nicht umhinkommen, etwas zu tun». Bedeutungsgleich: «nicht umhinkönnen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich kam nicht umhin zu lachen.",
+      "uebersetzung": {
+        "fa": "نتوانستم جلوی خنده‌ام را بگیرم.",
+        "en": "I couldn't help laughing."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem schweren Fehler wird der Minister nicht umhinkommen, sich öffentlich zu entschuldigen.",
+      "uebersetzung": {
+        "fa": "پس از این اشتباه بزرگ، وزیر چاره‌ای جز این نخواهد داشت که علناً عذرخواهی کند.",
+        "en": "After the serious mistake, the minister will have no choice but to apologise publicly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "müssen",
+      "uebersetzung": {
+        "fa": "مجبور بودن",
+        "en": "to have to"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "umhin (از کنارش، دور زدن) + kommen (آمدن)",
+    "en": "umhin (around, past it) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "nicht umhinkommen + zu-Infinitiv",
+        "bedeutung": "etwas tun müssen, keine andere Wahl haben",
+        "beispiel": "Wir kommen nicht umhin, die Preise zu erhöhen.",
+        "uebersetzung": {
+          "fa": "چاره‌ای جز بالا بردن قیمت‌ها نداریم.",
+          "en": "We have no choice but to raise prices."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "umhinkommen",
+      "praeteritum": "kam umhin",
+      "partizip2": "umhingekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme umhin",
+        "du": "kommst umhin",
+        "er_sie_es": "kommt umhin",
+        "wir": "kommen umhin",
+        "ihr": "kommt umhin",
+        "sie_Sie": "kommen umhin"
+      },
+      "praeteritum": {
+        "ich": "kam umhin",
+        "du": "kamst umhin",
+        "er_sie_es": "kam umhin",
+        "wir": "kamen umhin",
+        "ihr": "kamt umhin",
+        "sie_Sie": "kamen umhin"
+      },
+      "konjunktiv1": {
+        "ich": "komme umhin",
+        "du": "kommest umhin",
+        "er_sie_es": "komme umhin",
+        "wir": "kommen umhin",
+        "ihr": "kommet umhin",
+        "sie_Sie": "kommen umhin"
+      },
+      "konjunktiv2": {
+        "ich": "käme umhin",
+        "du": "kämest umhin",
+        "er_sie_es": "käme umhin",
+        "wir": "kämen umhin",
+        "ihr": "kämet umhin",
+        "sie_Sie": "kämen umhin"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "umhinkommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "müssen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مجبور بودن، باید",
+          "en": "to have to"
+        },
+        "id_ref": "verb_muessen"
+      },
+      {
+        "wort": "vermeiden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اجتناب کردن",
+          "en": "to avoid"
+        },
+        "id_ref": "verb_vermeiden"
+      },
+      {
+        "wort": "die Wahl",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انتخاب",
+          "en": "choice"
+        },
+        "id_ref": "nomen_wahl"
+      },
+      {
+        "wort": "unvermeidlich",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اجتناب‌ناپذیر",
+          "en": "unavoidable"
+        },
+        "id_ref": "adjektiv_unvermeidlich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
