@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_zurueckkommen",
+  "wort": "zurückkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "برگشتن",
+      "(به موضوعی) برگشتن"
+    ],
+    "en": [
+      "to come back",
+      "to return to (a topic)"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Reisen"
+  ],
+  "ipa": "t͡suˈʁʏkˌkɔmən",
+  "anmerkung": "Trennbar (kam zurück, zurückgekommen), Perfekt mit «sein».",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Wann kommst du zurück?",
+      "uebersetzung": {
+        "fa": "کی برمی‌گردی؟",
+        "en": "When are you coming back?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich komme auf Ihre Frage zurück, sobald ich mehr Informationen habe.",
+      "uebersetzung": {
+        "fa": "به محض اینکه اطلاعات بیشتری داشته باشم، به پرسش شما برمی‌گردم.",
+        "en": "I will come back to your question as soon as I have more information."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zurückkehren",
+      "uebersetzung": {
+        "fa": "برگشتن",
+        "en": "to return"
+      }
+    },
+    {
+      "wort": "wiederkommen",
+      "uebersetzung": {
+        "fa": "دوباره آمدن",
+        "en": "to come again"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "weggehen",
+      "uebersetzung": {
+        "fa": "رفتن، ترک کردن",
+        "en": "to leave"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zurück (برگشت) + kommen (آمدن)",
+    "en": "zurück (back) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Akk zurückkommen",
+        "bedeutung": "ein Thema wieder aufgreifen",
+        "beispiel": "Darauf komme ich später zurück.",
+        "uebersetzung": {
+          "fa": "بعداً به این موضوع برمی‌گردم.",
+          "en": "I'll come back to that later."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zurückkommen",
+      "praeteritum": "kam zurück",
+      "partizip2": "zurückgekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme zurück",
+        "du": "kommst zurück",
+        "er_sie_es": "kommt zurück",
+        "wir": "kommen zurück",
+        "ihr": "kommt zurück",
+        "sie_Sie": "kommen zurück"
+      },
+      "praeteritum": {
+        "ich": "kam zurück",
+        "du": "kamst zurück",
+        "er_sie_es": "kam zurück",
+        "wir": "kamen zurück",
+        "ihr": "kamt zurück",
+        "sie_Sie": "kamen zurück"
+      },
+      "konjunktiv1": {
+        "ich": "komme zurück",
+        "du": "kommest zurück",
+        "er_sie_es": "komme zurück",
+        "wir": "kommen zurück",
+        "ihr": "kommet zurück",
+        "sie_Sie": "kommen zurück"
+      },
+      "konjunktiv2": {
+        "ich": "käme zurück",
+        "du": "kämest zurück",
+        "er_sie_es": "käme zurück",
+        "wir": "kämen zurück",
+        "ihr": "kämet zurück",
+        "sie_Sie": "kämen zurück"
+      },
+      "imperativ": {
+        "du": "Komm zurück!",
+        "ihr": "Kommt zurück!",
+        "Sie": "Kommen Sie zurück!"
+      }
+    },
+    "partizip1": "zurückkommend",
+    "nominalisierung": "die Rückkehr"
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "die Rückkehr",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بازگشت",
+          "en": "return"
+        },
+        "id_ref": "nomen_rueckkehr"
+      },
+      {
+        "wort": "wiederkommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دوباره آمدن",
+          "en": "to come again"
+        },
+        "id_ref": "verb_wiederkommen"
+      },
+      {
+        "wort": "zurückkehren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برگشتن",
+          "en": "to return"
+        },
+        "id_ref": "verb_zurueckkehren"
+      },
+      {
+        "wort": "weggehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to leave"
+        },
+        "id_ref": "verb_weggehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

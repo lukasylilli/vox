@@ -1474,6 +1474,13 @@ const zurueckgestellt = <String>{
   'zurechtbringen', // zurückgestellt (Regel 14/16): selten/veraltet 2026-10-13
   'zurückbegeben', // zurückgestellt (Regel 14/16): gehoben/selten (wie hinbegeben) 2026-10-13
   'zurückdürfen', // zurückgestellt (Regel 14/16): Modalverb-Verbindung 2026-10-13
+  'zurückgießen', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'zurückgleiten', // zurückgestellt (Regel 14/16): selten (wie hingleiten) 2026-10-13
+  'zurückhaben', // zurückgestellt (Regel 14/16): umgangssprachlich (wie wiederhaben) 2026-10-13
+  'zurückhauen', // zurückgestellt (Regel 14/16): haute/hieb (wie aufhauen) 2026-10-13
+  'zurückkönnen', // zurückgestellt (Regel 14/16): Modalverb-Verbindung 2026-10-13
+  'zurückmüssen', // zurückgestellt (Regel 14/16): Modalverb-Verbindung 2026-10-13
+  'zusammenbiegen', // zurückgestellt (Regel 14/16): selten (wie herumbiegen) 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

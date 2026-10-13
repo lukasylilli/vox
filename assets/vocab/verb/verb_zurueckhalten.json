@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_zurueckhalten",
+  "wort": "zurückhalten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نگه داشتن، مانع شدن",
+      "خودداری کردن"
+    ],
+    "en": [
+      "to hold back",
+      "to restrain oneself"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gefühle",
+    "Kommunikation"
+  ],
+  "ipa": "t͡suˈʁʏkˌhaltn̩",
+  "anmerkung": "Trennbar (hielt zurück, zurückgehalten). Reflexiv: «sich zurückhalten» (= sich beherrschen). Partizip I «zurückhaltend» auch Adjektiv.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie hält ihre Tränen zurück.",
+      "uebersetzung": {
+        "fa": "او اشک‌هایش را نگه می‌دارد.",
+        "en": "She holds back her tears."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Obwohl er sehr wütend war, hielt er sich in der Sitzung zurück.",
+      "uebersetzung": {
+        "fa": "با اینکه خیلی عصبانی بود، در جلسه خودش را کنترل کرد.",
+        "en": "Although he was very angry, he held back in the meeting."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich beherrschen",
+      "uebersetzung": {
+        "fa": "خودداری کردن",
+        "en": "to control oneself"
+      }
+    },
+    {
+      "wort": "aufhalten",
+      "uebersetzung": {
+        "fa": "نگه داشتن، مانع شدن",
+        "en": "to stop"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zurück (عقب) + halten (نگه داشتن)",
+    "en": "zurück (back) + halten (to hold)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich mit + Dat zurückhalten",
+        "bedeutung": "mit etwas sparsam oder vorsichtig sein",
+        "beispiel": "Halte dich mit deiner Kritik zurück!",
+        "uebersetzung": {
+          "fa": "در انتقاد کردن خودداری کن!",
+          "en": "Hold back with your criticism!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zurückhalten",
+      "praeteritum": "hielt zurück",
+      "partizip2": "zurückgehalten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "halte zurück",
+        "du": "hältst zurück",
+        "er_sie_es": "hält zurück",
+        "wir": "halten zurück",
+        "ihr": "haltet zurück",
+        "sie_Sie": "halten zurück"
+      },
+      "praeteritum": {
+        "ich": "hielt zurück",
+        "du": "hieltest zurück",
+        "er_sie_es": "hielt zurück",
+        "wir": "hielten zurück",
+        "ihr": "hieltet zurück",
+        "sie_Sie": "hielten zurück"
+      },
+      "konjunktiv1": {
+        "ich": "halte zurück",
+        "du": "haltest zurück",
+        "er_sie_es": "halte zurück",
+        "wir": "halten zurück",
+        "ihr": "haltet zurück",
+        "sie_Sie": "halten zurück"
+      },
+      "konjunktiv2": {
+        "ich": "hielte zurück",
+        "du": "hieltest zurück",
+        "er_sie_es": "hielte zurück",
+        "wir": "hielten zurück",
+        "ihr": "hieltet zurück",
+        "sie_Sie": "hielten zurück"
+      },
+      "imperativ": {
+        "du": "Halt zurück!",
+        "ihr": "Haltet zurück!",
+        "Sie": "Halten Sie zurück!"
+      }
+    },
+    "partizip1": "zurückhaltend",
+    "nominalisierung": "die Zurückhaltung"
+  },
+  "wortnetz": {
+    "grundwort": "halten",
+    "woerter": [
+      {
+        "wort": "halten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to hold"
+        },
+        "id_ref": "verb_halten"
+      },
+      {
+        "wort": "zurückhaltend",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خوددار، کم‌حرف",
+          "en": "reserved"
+        },
+        "id_ref": "adjektiv_zurueckhaltend"
+      },
+      {
+        "wort": "die Zurückhaltung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خودداری",
+          "en": "restraint"
+        },
+        "id_ref": "nomen_zurueckhaltung"
+      },
+      {
+        "wort": "sich beherrschen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خودداری کردن",
+          "en": "to control oneself"
+        },
+        "id_ref": "verb_sich_beherrschen"
+      },
+      {
+        "wort": "die Träne",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اشک",
+          "en": "tear"
+        },
+        "id_ref": "nomen_traene"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

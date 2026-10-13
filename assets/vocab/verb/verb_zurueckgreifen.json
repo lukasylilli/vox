@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_zurueckgreifen",
+  "wort": "zurückgreifen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(به چیزی) متوسل شدن، استفاده کردن از"
+    ],
+    "en": [
+      "to fall back on",
+      "to resort to"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Arbeit"
+  ],
+  "ipa": "t͡suˈʁʏkˌɡʁaɪ̯fn̩",
+  "anmerkung": "Trennbar (griff zurück, zurückgegriffen). Fast immer mit «auf + Akk».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir greifen auf alte Fotos zurück.",
+      "uebersetzung": {
+        "fa": "از عکس‌های قدیمی استفاده می‌کنیم.",
+        "en": "We fall back on old photos."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn das Geld knapp wird, müssen wir auf unsere Ersparnisse zurückgreifen.",
+      "uebersetzung": {
+        "fa": "اگر پول کم بیاید، باید سراغ پس‌اندازمان برویم.",
+        "en": "If money gets tight, we will have to fall back on our savings."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verwenden",
+      "uebersetzung": {
+        "fa": "به کار بردن",
+        "en": "to use"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zurück (به عقب) + greifen (گرفتن)",
+    "en": "zurück (back) + greifen (to grab)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Akk zurückgreifen",
+        "bedeutung": "etwas (Vorhandenes) nutzen",
+        "beispiel": "Die Ärztin greift auf ihre Erfahrung zurück.",
+        "uebersetzung": {
+          "fa": "پزشک از تجربه‌اش کمک می‌گیرد.",
+          "en": "The doctor draws on her experience."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zurückgreifen",
+      "praeteritum": "griff zurück",
+      "partizip2": "zurückgegriffen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "greife zurück",
+        "du": "greifst zurück",
+        "er_sie_es": "greift zurück",
+        "wir": "greifen zurück",
+        "ihr": "greift zurück",
+        "sie_Sie": "greifen zurück"
+      },
+      "praeteritum": {
+        "ich": "griff zurück",
+        "du": "griffst zurück",
+        "er_sie_es": "griff zurück",
+        "wir": "griffen zurück",
+        "ihr": "grifft zurück",
+        "sie_Sie": "griffen zurück"
+      },
+      "konjunktiv1": {
+        "ich": "greife zurück",
+        "du": "greifest zurück",
+        "er_sie_es": "greife zurück",
+        "wir": "greifen zurück",
+        "ihr": "greifet zurück",
+        "sie_Sie": "greifen zurück"
+      },
+      "konjunktiv2": {
+        "ich": "griffe zurück",
+        "du": "griffest zurück",
+        "er_sie_es": "griffe zurück",
+        "wir": "griffen zurück",
+        "ihr": "griffet zurück",
+        "sie_Sie": "griffen zurück"
+      },
+      "imperativ": {
+        "du": "Greif zurück!",
+        "ihr": "Greift zurück!",
+        "Sie": "Greifen Sie zurück!"
+      }
+    },
+    "partizip1": "zurückgreifend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "greifen",
+    "woerter": [
+      {
+        "wort": "greifen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گرفتن",
+          "en": "to grab"
+        },
+        "id_ref": "verb_greifen"
+      },
+      {
+        "wort": "benutzen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "استفاده کردن",
+          "en": "to use"
+        },
+        "id_ref": "verb_benutzen"
+      },
+      {
+        "wort": "die Erfahrung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تجربه",
+          "en": "experience"
+        },
+        "id_ref": "nomen_erfahrung"
+      },
+      {
+        "wort": "die Ersparnisse",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پس‌انداز",
+          "en": "savings"
+        },
+        "id_ref": "nomen_ersparnisse"
+      },
+      {
+        "wort": "der Rückgriff",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "توسل، بهره‌گیری",
+          "en": "recourse"
+        },
+        "id_ref": "nomen_rueckgriff"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

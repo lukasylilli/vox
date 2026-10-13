@@ -2781,6 +2781,13 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۴۲۱ | zurechtbringen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر/قدیمی — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۲۲ | zurückbegeben | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | ادبی/نادر — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۲۳ | zurückdürfen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | ترکیب با فعل وجهی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۲۴ | zurückgießen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۲۵ | zurückgleiten | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۲۶ | zurückhaben | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | محاوره‌ای (مثل wiederhaben) — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۲۷ | zurückhauen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | صرف نوسان‌دار haute/hieb — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۲۸ | zurückkönnen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | ترکیب با فعل وجهی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۲۹ | zurückmüssen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | ترکیب با فعل وجهی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۳۰ | zusammenbiegen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 
