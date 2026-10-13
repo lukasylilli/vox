@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_wegfallen",
+  "wort": "wegfallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "حذف شدن، از میان رفتن",
+      "(دیگر) لازم نبودن"
+    ],
+    "en": [
+      "to be dropped, to cease to apply",
+      "to no longer be needed"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit",
+    "Alltag"
+  ],
+  "ipa": "ˈvɛkˌfalən",
+  "anmerkung": "Trennbar (fiel weg, weggefallen). Kein üblicher Imperativ. Nomen: der Wegfall.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Gebühr fällt weg.",
+      "uebersetzung": {
+        "fa": "هزینه حذف می‌شود.",
+        "en": "The fee no longer applies."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn die Fabrik schließt, fallen in der Region viele Arbeitsplätze weg.",
+      "uebersetzung": {
+        "fa": "اگر کارخانه تعطیل شود، شغل‌های زیادی در منطقه از بین می‌رود.",
+        "en": "If the factory closes, many jobs in the region will be lost."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "entfallen",
+      "uebersetzung": {
+        "fa": "حذف شدن",
+        "en": "to be dropped"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hinzukommen",
+      "uebersetzung": {
+        "fa": "اضافه شدن",
+        "en": "to be added"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "weg (دور) + fallen (افتادن)",
+    "en": "weg (away) + fallen (to fall)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "wegfallen",
+      "praeteritum": "fiel weg",
+      "partizip2": "weggefallen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "falle weg",
+        "du": "fällst weg",
+        "er_sie_es": "fällt weg",
+        "wir": "fallen weg",
+        "ihr": "fallt weg",
+        "sie_Sie": "fallen weg"
+      },
+      "praeteritum": {
+        "ich": "fiel weg",
+        "du": "fielst weg",
+        "er_sie_es": "fiel weg",
+        "wir": "fielen weg",
+        "ihr": "fielt weg",
+        "sie_Sie": "fielen weg"
+      },
+      "konjunktiv1": {
+        "ich": "falle weg",
+        "du": "fallest weg",
+        "er_sie_es": "falle weg",
+        "wir": "fallen weg",
+        "ihr": "fallet weg",
+        "sie_Sie": "fallen weg"
+      },
+      "konjunktiv2": {
+        "ich": "fiele weg",
+        "du": "fielest weg",
+        "er_sie_es": "fiele weg",
+        "wir": "fielen weg",
+        "ihr": "fielet weg",
+        "sie_Sie": "fielen weg"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "wegfallend",
+    "nominalisierung": "der Wegfall"
+  },
+  "wortnetz": {
+    "grundwort": "fallen",
+    "woerter": [
+      {
+        "wort": "fallen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "افتادن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_fallen"
+      },
+      {
+        "wort": "streichen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حذف کردن، خط زدن",
+          "en": "to cancel, to delete"
+        },
+        "id_ref": "verb_streichen"
+      },
+      {
+        "wort": "entfallen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "حذف شدن",
+          "en": "to be dropped"
+        },
+        "id_ref": "verb_entfallen"
+      },
+      {
+        "wort": "hinzukommen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اضافه شدن",
+          "en": "to be added"
+        },
+        "id_ref": "verb_hinzukommen"
+      },
+      {
+        "wort": "der Wegfall",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "حذف، از میان رفتن",
+          "en": "abolition, loss"
+        },
+        "id_ref": "nomen_wegfall"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

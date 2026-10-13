@@ -1,0 +1,201 @@
+{
+  "schema": "3.0",
+  "id": "verb_weggehen",
+  "wort": "weggehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "رفتن، ترک کردن",
+      "(برای تفریح) بیرون رفتن",
+      "از بین رفتن (لکه، درد)"
+    ],
+    "en": [
+      "to go away, to leave",
+      "to go out",
+      "to come off, to go away (stain, pain)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Freizeit"
+  ],
+  "ipa": "ˈvɛkˌɡeːən",
+  "anmerkung": "Trennbar (ging weg, weggegangen).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Geh nicht weg!",
+      "uebersetzung": {
+        "fa": "نرو!",
+        "en": "Don't go away!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Am Samstag gehen wir abends weg, wenn die Kinder bei Oma schlafen.",
+      "uebersetzung": {
+        "fa": "شنبه شب برای تفریح بیرون می‌رویم، وقتی بچه‌ها خانه‌ی مادربزرگ می‌خوابند.",
+        "en": "On Saturday we are going out in the evening while the children sleep at Grandma’s."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gehen",
+      "uebersetzung": {
+        "fa": "رفتن",
+        "en": "to go"
+      }
+    },
+    {
+      "wort": "ausgehen",
+      "uebersetzung": {
+        "fa": "بیرون رفتن (تفریح)",
+        "en": "to go out"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "bleiben",
+      "uebersetzung": {
+        "fa": "ماندن",
+        "en": "to stay"
+      }
+    },
+    {
+      "wort": "kommen",
+      "uebersetzung": {
+        "fa": "آمدن",
+        "en": "to come"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "weg (دور) + gehen (رفتن)",
+    "en": "weg (away) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "von + Dat weggehen",
+        "bedeutung": "einen Ort/eine Person verlassen",
+        "beispiel": "Sie ist mit 18 von zu Hause weggegangen.",
+        "uebersetzung": {
+          "fa": "او در ۱۸ سالگی از خانه رفت.",
+          "en": "She left home at 18."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "weggehen",
+      "praeteritum": "ging weg",
+      "partizip2": "weggegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe weg",
+        "du": "gehst weg",
+        "er_sie_es": "geht weg",
+        "wir": "gehen weg",
+        "ihr": "geht weg",
+        "sie_Sie": "gehen weg"
+      },
+      "praeteritum": {
+        "ich": "ging weg",
+        "du": "gingst weg",
+        "er_sie_es": "ging weg",
+        "wir": "gingen weg",
+        "ihr": "gingt weg",
+        "sie_Sie": "gingen weg"
+      },
+      "konjunktiv1": {
+        "ich": "gehe weg",
+        "du": "gehest weg",
+        "er_sie_es": "gehe weg",
+        "wir": "gehen weg",
+        "ihr": "gehet weg",
+        "sie_Sie": "gehen weg"
+      },
+      "konjunktiv2": {
+        "ich": "ginge weg",
+        "du": "gingest weg",
+        "er_sie_es": "ginge weg",
+        "wir": "gingen weg",
+        "ihr": "ginget weg",
+        "sie_Sie": "gingen weg"
+      },
+      "imperativ": {
+        "du": "Geh weg!",
+        "ihr": "Geht weg!",
+        "Sie": "Gehen Sie weg!"
+      }
+    },
+    "partizip1": "weggehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "ausgehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیرون رفتن (تفریح)",
+          "en": "to go out"
+        },
+        "id_ref": "verb_ausgehen"
+      },
+      {
+        "wort": "verlassen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترک کردن",
+          "en": "to leave"
+        },
+        "id_ref": "verb_verlassen"
+      },
+      {
+        "wort": "wegfahren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to drive off"
+        },
+        "id_ref": "verb_wegfahren"
+      },
+      {
+        "wort": "weg",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دور، رفته",
+          "en": "away, gone"
+        },
+        "id_ref": "adverb_weg"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

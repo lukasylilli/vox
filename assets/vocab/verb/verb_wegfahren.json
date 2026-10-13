@@ -1,0 +1,194 @@
+{
+  "schema": "3.0",
+  "id": "verb_wegfahren",
+  "wort": "wegfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با وسیله) رفتن، ترک کردن",
+      "به سفر رفتن",
+      "(با وسیله) بردن"
+    ],
+    "en": [
+      "to drive off, to leave",
+      "to go away (on a trip)",
+      "to drive away (something)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Verkehr",
+    "Reisen"
+  ],
+  "ipa": "ˈvɛkˌfaːʁən",
+  "anmerkung": "Trennbar (fuhr weg, weggefahren). Intransitiv mit «sein»; transitiv (etwas wegfahren) mit «haben».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Am Wochenende fahren wir weg.",
+      "uebersetzung": {
+        "fa": "آخر هفته به سفر می‌رویم.",
+        "en": "We are going away at the weekend."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Als ich zur Haltestelle kam, war der Bus gerade weggefahren.",
+      "uebersetzung": {
+        "fa": "وقتی به ایستگاه رسیدم، اتوبوس تازه رفته بود.",
+        "en": "When I got to the stop, the bus had just left."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abfahren",
+      "uebersetzung": {
+        "fa": "حرکت کردن",
+        "en": "to depart"
+      }
+    },
+    {
+      "wort": "verreisen",
+      "uebersetzung": {
+        "fa": "به سفر رفتن",
+        "en": "to go on a trip"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ankommen",
+      "uebersetzung": {
+        "fa": "رسیدن",
+        "en": "to arrive"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "weg (دور) + fahren (رفتن با وسیله)",
+    "en": "weg (away) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "von + Dat wegfahren",
+        "bedeutung": "einen Ort mit einem Fahrzeug verlassen",
+        "beispiel": "Wir fahren um acht von zu Hause weg.",
+        "uebersetzung": {
+          "fa": "ساعت هشت از خانه راه می‌افتیم.",
+          "en": "We leave home at eight."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "wegfahren",
+      "praeteritum": "fuhr weg",
+      "partizip2": "weggefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre weg",
+        "du": "fährst weg",
+        "er_sie_es": "fährt weg",
+        "wir": "fahren weg",
+        "ihr": "fahrt weg",
+        "sie_Sie": "fahren weg"
+      },
+      "praeteritum": {
+        "ich": "fuhr weg",
+        "du": "fuhrst weg",
+        "er_sie_es": "fuhr weg",
+        "wir": "fuhren weg",
+        "ihr": "fuhrt weg",
+        "sie_Sie": "fuhren weg"
+      },
+      "konjunktiv1": {
+        "ich": "fahre weg",
+        "du": "fahrest weg",
+        "er_sie_es": "fahre weg",
+        "wir": "fahren weg",
+        "ihr": "fahret weg",
+        "sie_Sie": "fahren weg"
+      },
+      "konjunktiv2": {
+        "ich": "führe weg",
+        "du": "führest weg",
+        "er_sie_es": "führe weg",
+        "wir": "führen weg",
+        "ihr": "führet weg",
+        "sie_Sie": "führen weg"
+      },
+      "imperativ": {
+        "du": "Fahr weg!",
+        "ihr": "Fahrt weg!",
+        "Sie": "Fahren Sie weg!"
+      }
+    },
+    "partizip1": "wegfahrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to drive, to go"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "abfahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حرکت کردن",
+          "en": "to depart"
+        },
+        "id_ref": "verb_abfahren"
+      },
+      {
+        "wort": "ankommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رسیدن",
+          "en": "to arrive"
+        },
+        "id_ref": "verb_ankommen"
+      },
+      {
+        "wort": "verreisen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به سفر رفتن",
+          "en": "to go on a trip"
+        },
+        "id_ref": "verb_verreisen"
+      },
+      {
+        "wort": "weggehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go away"
+        },
+        "id_ref": "verb_weggehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

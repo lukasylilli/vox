@@ -1420,6 +1420,13 @@ const zurueckgestellt = <String>{
   'warmlaufen', // zurückgestellt (Regel 14/16): Schreibung schwankt (warm laufen / warmlaufen) 2026-10-13
   'wegbegeben', // zurückgestellt (Regel 14/16): selten 2026-10-13
   'wegbeißen', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'wegbinden', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'wegbrechen', // zurückgestellt (Regel 14/16): Hilfsverb nicht eindeutig (sein/haben, wie herausbrechen) 2026-10-13
+  'wegbrennen', // zurückgestellt (Regel 14/16): selten; Hilfsverb schwankt 2026-10-13
+  'wegdürfen', // zurückgestellt (Regel 14/16): Modalverb-Verbindung 2026-10-13
+  'wegfangen', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'wegfließen', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'wegfressen', // zurückgestellt (Regel 14/16): umgangssprachlich/derb (wie wegessen) 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

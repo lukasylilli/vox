@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_weggeben",
+  "wort": "weggeben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(به کسی) دادن، بخشیدن (چیزی که دیگر نمی‌خواهیم)",
+      "(برای تعمیر/نگهداری) سپردن"
+    ],
+    "en": [
+      "to give away",
+      "to hand over (for repair, care)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Haushalt"
+  ],
+  "ipa": "ˈvɛkˌɡeːbn̩",
+  "anmerkung": "Trennbar (gab weg, weggegeben).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich gebe meine alten Kleider weg.",
+      "uebersetzung": {
+        "fa": "لباس‌های کهنه‌ام را می‌بخشم.",
+        "en": "I am giving my old clothes away."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Schweren Herzens gaben sie den Hund weg, weil sie in eine kleine Wohnung ziehen mussten.",
+      "uebersetzung": {
+        "fa": "با دلی سنگین سگ را به کس دیگری دادند، چون مجبور بودند به آپارتمان کوچکی بروند.",
+        "en": "With a heavy heart they gave the dog away because they had to move into a small flat."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verschenken",
+      "uebersetzung": {
+        "fa": "هدیه دادن، بخشیدن",
+        "en": "to give away"
+      }
+    },
+    {
+      "wort": "abgeben",
+      "uebersetzung": {
+        "fa": "تحویل دادن",
+        "en": "to hand over"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "behalten",
+      "uebersetzung": {
+        "fa": "نگه داشتن",
+        "en": "to keep"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "weg (دور) + geben (دادن)",
+    "en": "weg (away) + geben (to give)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "weggeben",
+      "praeteritum": "gab weg",
+      "partizip2": "weggegeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gebe weg",
+        "du": "gibst weg",
+        "er_sie_es": "gibt weg",
+        "wir": "geben weg",
+        "ihr": "gebt weg",
+        "sie_Sie": "geben weg"
+      },
+      "praeteritum": {
+        "ich": "gab weg",
+        "du": "gabst weg",
+        "er_sie_es": "gab weg",
+        "wir": "gaben weg",
+        "ihr": "gabt weg",
+        "sie_Sie": "gaben weg"
+      },
+      "konjunktiv1": {
+        "ich": "gebe weg",
+        "du": "gebest weg",
+        "er_sie_es": "gebe weg",
+        "wir": "geben weg",
+        "ihr": "gebet weg",
+        "sie_Sie": "geben weg"
+      },
+      "konjunktiv2": {
+        "ich": "gäbe weg",
+        "du": "gäbest weg",
+        "er_sie_es": "gäbe weg",
+        "wir": "gäben weg",
+        "ihr": "gäbet weg",
+        "sie_Sie": "gäben weg"
+      },
+      "imperativ": {
+        "du": "Gib weg!",
+        "ihr": "Gebt weg!",
+        "Sie": "Geben Sie weg!"
+      }
+    },
+    "partizip1": "weggebend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "schenken",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "هدیه دادن",
+          "en": "to give (as a gift)"
+        },
+        "id_ref": "verb_schenken"
+      },
+      {
+        "wort": "abgeben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تحویل دادن",
+          "en": "to hand over"
+        },
+        "id_ref": "verb_abgeben"
+      },
+      {
+        "wort": "behalten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to keep"
+        },
+        "id_ref": "verb_behalten"
+      },
+      {
+        "wort": "verschenken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بخشیدن",
+          "en": "to give away"
+        },
+        "id_ref": "verb_verschenken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,193 @@
+{
+  "schema": "3.0",
+  "id": "verb_wegbleiben",
+  "wort": "wegbleiben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نیامدن، غایب بودن",
+      "(مدتی) بیرون ماندن",
+      "قطع شدن (برق، نفس)"
+    ],
+    "en": [
+      "to stay away",
+      "to stay out",
+      "to stop, to fail (e.g. power)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈvɛkˌblaɪ̯bn̩",
+  "anmerkung": "Trennbar (blieb weg, weggeblieben). «Mir bleibt die Luft weg» = ich bin sprachlos / bekomme keine Luft.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Heute bleibt er weg.",
+      "uebersetzung": {
+        "fa": "امروز نمی‌آید.",
+        "en": "He's staying away today."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn du so lange wegbleibst, mache ich mir Sorgen.",
+      "uebersetzung": {
+        "fa": "وقتی این‌قدر دیر بیرون می‌مانی، نگران می‌شوم.",
+        "en": "When you stay out so long, I worry."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fernbleiben",
+      "uebersetzung": {
+        "fa": "غیبت کردن",
+        "en": "to stay away"
+      }
+    },
+    {
+      "wort": "fehlen",
+      "uebersetzung": {
+        "fa": "غایب بودن",
+        "en": "to be absent"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "kommen",
+      "uebersetzung": {
+        "fa": "آمدن",
+        "en": "to come"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "weg (دور) + bleiben (ماندن)",
+    "en": "weg (away) + bleiben (to stay)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "von + Dat wegbleiben",
+        "bedeutung": "an etwas nicht teilnehmen",
+        "beispiel": "Er ist von der Sitzung weggeblieben.",
+        "uebersetzung": {
+          "fa": "او در جلسه حاضر نشد.",
+          "en": "He stayed away from the meeting."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "wegbleiben",
+      "praeteritum": "blieb weg",
+      "partizip2": "weggeblieben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bleibe weg",
+        "du": "bleibst weg",
+        "er_sie_es": "bleibt weg",
+        "wir": "bleiben weg",
+        "ihr": "bleibt weg",
+        "sie_Sie": "bleiben weg"
+      },
+      "praeteritum": {
+        "ich": "blieb weg",
+        "du": "bliebst weg",
+        "er_sie_es": "blieb weg",
+        "wir": "blieben weg",
+        "ihr": "bliebt weg",
+        "sie_Sie": "blieben weg"
+      },
+      "konjunktiv1": {
+        "ich": "bleibe weg",
+        "du": "bleibest weg",
+        "er_sie_es": "bleibe weg",
+        "wir": "bleiben weg",
+        "ihr": "bleibet weg",
+        "sie_Sie": "bleiben weg"
+      },
+      "konjunktiv2": {
+        "ich": "bliebe weg",
+        "du": "bliebest weg",
+        "er_sie_es": "bliebe weg",
+        "wir": "blieben weg",
+        "ihr": "bliebet weg",
+        "sie_Sie": "blieben weg"
+      },
+      "imperativ": {
+        "du": "Bleib weg!",
+        "ihr": "Bleibt weg!",
+        "Sie": "Bleiben Sie weg!"
+      }
+    },
+    "partizip1": "wegbleibend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bleiben",
+    "woerter": [
+      {
+        "wort": "bleiben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ماندن",
+          "en": "to stay"
+        },
+        "id_ref": "verb_bleiben"
+      },
+      {
+        "wort": "fehlen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "غایب بودن",
+          "en": "to be absent"
+        },
+        "id_ref": "verb_fehlen"
+      },
+      {
+        "wort": "abwesend",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "غایب",
+          "en": "absent"
+        },
+        "id_ref": "adjektiv_abwesend"
+      },
+      {
+        "wort": "fernbleiben",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "غیبت کردن",
+          "en": "to stay away"
+        },
+        "id_ref": "verb_fernbleiben"
+      },
+      {
+        "wort": "weg",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دور، رفته",
+          "en": "away, gone"
+        },
+        "id_ref": "adverb_weg"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

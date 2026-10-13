@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_wegessen",
+  "wort": "wegessen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(غذای کسی را) خوردن و تمام کردن"
+    ],
+    "en": [
+      "to eat (someone else's food)",
+      "to eat up"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Essen",
+    "Alltag"
+  ],
+  "ipa": "ˈvɛkˌʔɛsn̩",
+  "anmerkung": "Trennbar (aß weg, weggegessen). Umgangssprachlich; meist «jemandem etwas wegessen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Iss mir nicht alles weg!",
+      "uebersetzung": {
+        "fa": "همه‌اش را نخور، برای من هم بگذار!",
+        "en": "Don't eat it all on me!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Mein Bruder hat mir die letzte Pizza weggegessen, während ich telefoniert habe.",
+      "uebersetzung": {
+        "fa": "وقتی تلفن می‌زدم، برادرم آخرین تکه‌ی پیتزای مرا خورد.",
+        "en": "My brother ate my last pizza while I was on the phone."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufessen",
+      "uebersetzung": {
+        "fa": "تا ته خوردن",
+        "en": "to eat up"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "weg (دور، تمام) + essen (خوردن)",
+    "en": "weg (away) + essen (to eat)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem (Dat) etwas (Akk) wegessen",
+        "bedeutung": "etwas essen, das für jemand anderen war",
+        "beispiel": "Wer hat mir den Kuchen weggegessen?",
+        "uebersetzung": {
+          "fa": "کی کیک مرا خورده؟",
+          "en": "Who ate my cake?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "wegessen",
+      "praeteritum": "aß weg",
+      "partizip2": "weggegessen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "esse weg",
+        "du": "isst weg",
+        "er_sie_es": "isst weg",
+        "wir": "essen weg",
+        "ihr": "esst weg",
+        "sie_Sie": "essen weg"
+      },
+      "praeteritum": {
+        "ich": "aß weg",
+        "du": "aßest weg",
+        "er_sie_es": "aß weg",
+        "wir": "aßen weg",
+        "ihr": "aßt weg",
+        "sie_Sie": "aßen weg"
+      },
+      "konjunktiv1": {
+        "ich": "esse weg",
+        "du": "essest weg",
+        "er_sie_es": "esse weg",
+        "wir": "essen weg",
+        "ihr": "esset weg",
+        "sie_Sie": "essen weg"
+      },
+      "konjunktiv2": {
+        "ich": "äße weg",
+        "du": "äßest weg",
+        "er_sie_es": "äße weg",
+        "wir": "äßen weg",
+        "ihr": "äßet weg",
+        "sie_Sie": "äßen weg"
+      },
+      "imperativ": {
+        "du": "Iss weg!",
+        "ihr": "Esst weg!",
+        "Sie": "Essen Sie weg!"
+      }
+    },
+    "partizip1": "wegessend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "essen",
+    "woerter": [
+      {
+        "wort": "essen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوردن",
+          "en": "to eat"
+        },
+        "id_ref": "verb_essen"
+      },
+      {
+        "wort": "aufessen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تا ته خوردن",
+          "en": "to eat up"
+        },
+        "id_ref": "verb_aufessen"
+      },
+      {
+        "wort": "das Essen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "غذا",
+          "en": "food"
+        },
+        "id_ref": "nomen_essen"
+      },
+      {
+        "wort": "der Hunger",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گرسنگی",
+          "en": "hunger"
+        },
+        "id_ref": "nomen_hunger"
+      },
+      {
+        "wort": "weg",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دور، رفته",
+          "en": "away, gone"
+        },
+        "id_ref": "adverb_weg"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

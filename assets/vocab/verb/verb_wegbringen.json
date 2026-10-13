@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_wegbringen",
+  "wort": "wegbringen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(به جای دیگری) بردن",
+      "دور کردن"
+    ],
+    "en": [
+      "to take away",
+      "to take (somewhere)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Haushalt"
+  ],
+  "ipa": "ˈvɛkˌbʁɪŋən",
+  "anmerkung": "Trennbar, gemischtes Verb (brachte weg, weggebracht).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich bringe den Müll weg.",
+      "uebersetzung": {
+        "fa": "زباله را بیرون می‌برم.",
+        "en": "I'll take the rubbish out."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Kannst du die alten Flaschen wegbringen, wenn du zum Supermarkt gehst?",
+      "uebersetzung": {
+        "fa": "وقتی به سوپرمارکت می‌روی، می‌توانی بطری‌های کهنه را ببری؟",
+        "en": "Can you take the old bottles away when you go to the supermarket?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wegtragen",
+      "uebersetzung": {
+        "fa": "(با خود) بردن",
+        "en": "to carry away"
+      }
+    },
+    {
+      "wort": "abholen",
+      "uebersetzung": {
+        "fa": "بردن، گرفتن",
+        "en": "to collect"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "herbringen",
+      "uebersetzung": {
+        "fa": "آوردن",
+        "en": "to bring here"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "weg (دور) + bringen (بردن)",
+    "en": "weg (away) + bringen (to bring)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zu + Dat wegbringen",
+        "bedeutung": "etwas an einen bestimmten Ort bringen",
+        "beispiel": "Ich bringe das Auto zur Werkstatt weg.",
+        "uebersetzung": {
+          "fa": "ماشین را به تعمیرگاه می‌برم.",
+          "en": "I'm taking the car to the garage."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "wegbringen",
+      "praeteritum": "brachte weg",
+      "partizip2": "weggebracht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bringe weg",
+        "du": "bringst weg",
+        "er_sie_es": "bringt weg",
+        "wir": "bringen weg",
+        "ihr": "bringt weg",
+        "sie_Sie": "bringen weg"
+      },
+      "praeteritum": {
+        "ich": "brachte weg",
+        "du": "brachtest weg",
+        "er_sie_es": "brachte weg",
+        "wir": "brachten weg",
+        "ihr": "brachtet weg",
+        "sie_Sie": "brachten weg"
+      },
+      "konjunktiv1": {
+        "ich": "bringe weg",
+        "du": "bringest weg",
+        "er_sie_es": "bringe weg",
+        "wir": "bringen weg",
+        "ihr": "bringet weg",
+        "sie_Sie": "bringen weg"
+      },
+      "konjunktiv2": {
+        "ich": "brächte weg",
+        "du": "brächtest weg",
+        "er_sie_es": "brächte weg",
+        "wir": "brächten weg",
+        "ihr": "brächtet weg",
+        "sie_Sie": "brächten weg"
+      },
+      "imperativ": {
+        "du": "Bring weg!",
+        "ihr": "Bringt weg!",
+        "Sie": "Bringen Sie weg!"
+      }
+    },
+    "partizip1": "wegbringend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bringen",
+    "woerter": [
+      {
+        "wort": "bringen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آوردن، بردن",
+          "en": "to bring"
+        },
+        "id_ref": "verb_bringen"
+      },
+      {
+        "wort": "wegnehmen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برداشتن، گرفتن",
+          "en": "to take away"
+        },
+        "id_ref": "verb_wegnehmen"
+      },
+      {
+        "wort": "der Müll",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زباله",
+          "en": "rubbish"
+        },
+        "id_ref": "nomen_muell"
+      },
+      {
+        "wort": "wegwerfen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دور انداختن",
+          "en": "to throw away"
+        },
+        "id_ref": "verb_wegwerfen"
+      },
+      {
+        "wort": "weg",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دور، رفته",
+          "en": "away, gone"
+        },
+        "id_ref": "adverb_weg"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
