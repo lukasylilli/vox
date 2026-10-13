@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_rangehen",
+  "wort": "rangehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(محاوره) نزدیک رفتن",
+      "(محاوره) (کاری را) با جدیت شروع کردن",
+      "(محاوره، ans Telefon rangehen) گوشی را برداشتن"
+    ],
+    "en": [
+      "(colloquial) to go up close",
+      "(colloquial) to get stuck in, to tackle",
+      "(colloquial, ans Telefon) to answer the phone"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Umgangssprache",
+    "Arbeit"
+  ],
+  "ipa": "ˈʁanˌɡeːən",
+  "anmerkung": "Umgangssprachlich für «heran…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Geh doch mal ran!",
+      "uebersetzung": {
+        "fa": "خب گوشی را بردار!",
+        "en": "Go on, answer it!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie ist nicht ans Telefon rangegangen, obwohl ich fünfmal angerufen habe.",
+      "uebersetzung": {
+        "fa": "گوشی را برنداشت، با اینکه پنج بار زنگ زدم.",
+        "en": "She didn't answer the phone, although I called five times."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "herangehen",
+      "uebersetzung": {
+        "fa": "نزدیک رفتن؛ شروع کردن",
+        "en": "to approach"
+      }
+    },
+    {
+      "wort": "abnehmen",
+      "uebersetzung": {
+        "fa": "(گوشی را) برداشتن",
+        "en": "to pick up"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ran ((محاوره) نزدیک (= heran)) + gehen (رفتن)",
+    "en": "ran (up to (= heran)) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "an + Akk rangehen",
+        "bedeutung": "(ugs.) sich nähern; etwas anpacken",
+        "beispiel": "Wir müssen jetzt an die Arbeit rangehen.",
+        "uebersetzung": {
+          "fa": "حالا باید دست به کار شویم.",
+          "en": "We have to get down to work now."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "rangehen",
+      "praeteritum": "ging ran",
+      "partizip2": "rangegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe ran",
+        "du": "gehst ran",
+        "er_sie_es": "geht ran",
+        "wir": "gehen ran",
+        "ihr": "geht ran",
+        "sie_Sie": "gehen ran"
+      },
+      "praeteritum": {
+        "ich": "ging ran",
+        "du": "gingst ran",
+        "er_sie_es": "ging ran",
+        "wir": "gingen ran",
+        "ihr": "gingt ran",
+        "sie_Sie": "gingen ran"
+      },
+      "konjunktiv1": {
+        "ich": "gehe ran",
+        "du": "gehest ran",
+        "er_sie_es": "gehe ran",
+        "wir": "gehen ran",
+        "ihr": "gehet ran",
+        "sie_Sie": "gehen ran"
+      },
+      "konjunktiv2": {
+        "ich": "ginge ran",
+        "du": "gingest ran",
+        "er_sie_es": "ginge ran",
+        "wir": "gingen ran",
+        "ihr": "ginget ran",
+        "sie_Sie": "gingen ran"
+      },
+      "imperativ": {
+        "du": "Geh ran!",
+        "ihr": "Geht ran!",
+        "Sie": "Gehen Sie ran!"
+      }
+    },
+    "partizip1": "rangehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "herangehen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نزدیک رفتن",
+          "en": "to approach"
+        },
+        "id_ref": "verb_herangehen"
+      },
+      {
+        "wort": "das Telefon",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تلفن",
+          "en": "telephone"
+        },
+        "id_ref": "nomen_telefon"
+      },
+      {
+        "wort": "anrufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زنگ زدن",
+          "en": "to call"
+        },
+        "id_ref": "verb_anrufen"
+      },
+      {
+        "wort": "abnehmen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برداشتن (گوشی)",
+          "en": "to pick up"
+        },
+        "id_ref": "verb_abnehmen"
+      },
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

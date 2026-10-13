@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_raten",
+  "wort": "raten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "توصیه کردن، نصیحت کردن",
+      "حدس زدن"
+    ],
+    "en": [
+      "to advise",
+      "to guess"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Kommunikation",
+    "Alltag"
+  ],
+  "ipa": "ˈʁaːtn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Rate mal, wer kommt!",
+      "uebersetzung": {
+        "fa": "حدس بزن کی می‌آید!",
+        "en": "Guess who's coming!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Ärztin hat mir geraten, weniger Kaffee zu trinken und mehr zu schlafen.",
+      "uebersetzung": {
+        "fa": "پزشک به من توصیه کرد قهوه‌ی کمتری بخورم و بیشتر بخوابم.",
+        "en": "The doctor advised me to drink less coffee and sleep more."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "empfehlen",
+      "uebersetzung": {
+        "fa": "توصیه کردن",
+        "en": "to recommend"
+      }
+    },
+    {
+      "wort": "vermuten",
+      "uebersetzung": {
+        "fa": "حدس زدن",
+        "en": "to suspect"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "abraten",
+      "uebersetzung": {
+        "fa": "منصرف کردن",
+        "en": "to advise against"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem zu + Dat raten",
+        "bedeutung": "jemandem etwas empfehlen",
+        "beispiel": "Ich rate dir zu einer Pause.",
+        "uebersetzung": {
+          "fa": "توصیه می‌کنم استراحت کنی.",
+          "en": "I advise you to take a break."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "raten",
+      "praeteritum": "riet",
+      "partizip2": "geraten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "rate",
+        "du": "rätst",
+        "er_sie_es": "rät",
+        "wir": "raten",
+        "ihr": "ratet",
+        "sie_Sie": "raten"
+      },
+      "praeteritum": {
+        "ich": "riet",
+        "du": "rietest",
+        "er_sie_es": "riet",
+        "wir": "rieten",
+        "ihr": "rietet",
+        "sie_Sie": "rieten"
+      },
+      "konjunktiv1": {
+        "ich": "rate",
+        "du": "ratest",
+        "er_sie_es": "rate",
+        "wir": "raten",
+        "ihr": "ratet",
+        "sie_Sie": "raten"
+      },
+      "konjunktiv2": {
+        "ich": "riete",
+        "du": "rietest",
+        "er_sie_es": "riete",
+        "wir": "rieten",
+        "ihr": "rietet",
+        "sie_Sie": "rieten"
+      },
+      "imperativ": {
+        "du": "Rate!",
+        "ihr": "Ratet!",
+        "Sie": "Raten Sie!"
+      }
+    },
+    "partizip1": "ratend",
+    "nominalisierung": "der Rat"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Rat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "توصیه، نصیحت",
+          "en": "advice"
+        },
+        "id_ref": "nomen_rat"
+      },
+      {
+        "wort": "empfehlen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "توصیه کردن",
+          "en": "to recommend"
+        },
+        "id_ref": "verb_empfehlen"
+      },
+      {
+        "wort": "das Rätsel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "معما",
+          "en": "puzzle"
+        },
+        "id_ref": "nomen_raetsel"
+      },
+      {
+        "wort": "abraten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "منصرف کردن",
+          "en": "to advise against"
+        },
+        "id_ref": "verb_abraten"
+      },
+      {
+        "wort": "der Ratschlag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "توصیه",
+          "en": "piece of advice"
+        },
+        "id_ref": "nomen_ratschlag"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

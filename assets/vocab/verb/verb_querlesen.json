@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_querlesen",
+  "wort": "querlesen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(متنی را) سرسری و سریع خواندن، نگاه گذرا انداختن"
+    ],
+    "en": [
+      "to skim (a text)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Lesen",
+    "Arbeit"
+  ],
+  "ipa": "ˈkveːɐ̯ˌleːzn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich lese den Bericht nur quer.",
+      "uebersetzung": {
+        "fa": "گزارش را فقط سرسری می‌خوانم.",
+        "en": "I'm just skimming the report."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Vor der Besprechung habe ich die Unterlagen nur quergelesen, deshalb kannte ich die Details nicht.",
+      "uebersetzung": {
+        "fa": "قبل از جلسه مدارک را فقط سرسری خوانده بودم، برای همین جزئیات را نمی‌دانستم.",
+        "en": "Before the meeting I had only skimmed the documents, so I didn't know the details."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "überfliegen",
+      "uebersetzung": {
+        "fa": "سرسری خواندن",
+        "en": "to skim"
+      }
+    },
+    {
+      "wort": "durchblättern",
+      "uebersetzung": {
+        "fa": "ورق زدن",
+        "en": "to leaf through"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "gründlich lesen",
+      "uebersetzung": {
+        "fa": "دقیق خواندن",
+        "en": "to read carefully"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "quer (کج، عرضی) + lesen (خواندن)",
+    "en": "quer (across) + lesen (to read)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "querlesen",
+      "praeteritum": "las quer",
+      "partizip2": "quergelesen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lese quer",
+        "du": "liest quer",
+        "er_sie_es": "liest quer",
+        "wir": "lesen quer",
+        "ihr": "lest quer",
+        "sie_Sie": "lesen quer"
+      },
+      "praeteritum": {
+        "ich": "las quer",
+        "du": "lasest quer",
+        "er_sie_es": "las quer",
+        "wir": "lasen quer",
+        "ihr": "last quer",
+        "sie_Sie": "lasen quer"
+      },
+      "konjunktiv1": {
+        "ich": "lese quer",
+        "du": "lesest quer",
+        "er_sie_es": "lese quer",
+        "wir": "lesen quer",
+        "ihr": "leset quer",
+        "sie_Sie": "lesen quer"
+      },
+      "konjunktiv2": {
+        "ich": "läse quer",
+        "du": "läsest quer",
+        "er_sie_es": "läse quer",
+        "wir": "läsen quer",
+        "ihr": "läset quer",
+        "sie_Sie": "läsen quer"
+      },
+      "imperativ": {
+        "du": "Lies quer!",
+        "ihr": "Lest quer!",
+        "Sie": "Lesen Sie quer!"
+      }
+    },
+    "partizip1": "querlesend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "lesen",
+    "woerter": [
+      {
+        "wort": "lesen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خواندن",
+          "en": "to read"
+        },
+        "id_ref": "verb_lesen"
+      },
+      {
+        "wort": "überfliegen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سرسری خواندن",
+          "en": "to skim"
+        },
+        "id_ref": "verb_ueberfliegen"
+      },
+      {
+        "wort": "durchlesen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تا آخر خواندن",
+          "en": "to read through"
+        },
+        "id_ref": "verb_durchlesen"
+      },
+      {
+        "wort": "der Text",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "متن",
+          "en": "text"
+        },
+        "id_ref": "nomen_text"
+      },
+      {
+        "wort": "quer",
+        "wortart": "adverb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عرضی",
+          "en": "across"
+        },
+        "id_ref": "adverb_quer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

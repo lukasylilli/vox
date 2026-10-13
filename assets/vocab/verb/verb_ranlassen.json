@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_ranlassen",
+  "wort": "ranlassen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(محاوره، کسی را به چیزی) نزدیک کردن، اجازه دادن دست بزند"
+    ],
+    "en": [
+      "(colloquial) to let (someone) near/at"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Umgangssprache"
+  ],
+  "ipa": "ˈʁanˌlasn̩",
+  "anmerkung": "Umgangssprachlich für «heran…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er lässt keinen an sein Auto ran.",
+      "uebersetzung": {
+        "fa": "به هیچ‌کس اجازه نمی‌دهد به ماشینش دست بزند.",
+        "en": "He doesn't let anyone near his car."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Trainer hat den jungen Spieler endlich rangelassen, und er hat sofort ein Tor geschossen.",
+      "uebersetzung": {
+        "fa": "مربی بالاخره به بازیکن جوان فرصت داد و او فوراً گل زد.",
+        "en": "The coach finally let the young player on, and he scored immediately."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "heranlassen",
+      "uebersetzung": {
+        "fa": "اجازه‌ی نزدیک شدن دادن",
+        "en": "to let near"
+      }
+    },
+    {
+      "wort": "zulassen",
+      "uebersetzung": {
+        "fa": "اجازه دادن",
+        "en": "to allow"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ran ((محاوره) نزدیک (= heran)) + lassen (گذاشتن)",
+    "en": "ran (up to (= heran)) + lassen (to let)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden an + Akk ranlassen",
+        "bedeutung": "(ugs.) jemandem den Zugang zu etwas erlauben",
+        "beispiel": "Lass mich auch mal an den Computer ran!",
+        "uebersetzung": {
+          "fa": "بگذار من هم یک بار با کامپیوتر کار کنم!",
+          "en": "Let me have a go on the computer too!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ranlassen",
+      "praeteritum": "ließ ran",
+      "partizip2": "rangelassen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lasse ran",
+        "du": "lässt ran",
+        "er_sie_es": "lässt ran",
+        "wir": "lassen ran",
+        "ihr": "lasst ran",
+        "sie_Sie": "lassen ran"
+      },
+      "praeteritum": {
+        "ich": "ließ ran",
+        "du": "ließest ran",
+        "er_sie_es": "ließ ran",
+        "wir": "ließen ran",
+        "ihr": "ließt ran",
+        "sie_Sie": "ließen ran"
+      },
+      "konjunktiv1": {
+        "ich": "lasse ran",
+        "du": "lassest ran",
+        "er_sie_es": "lasse ran",
+        "wir": "lassen ran",
+        "ihr": "lasset ran",
+        "sie_Sie": "lassen ran"
+      },
+      "konjunktiv2": {
+        "ich": "ließe ran",
+        "du": "ließest ran",
+        "er_sie_es": "ließe ran",
+        "wir": "ließen ran",
+        "ihr": "ließet ran",
+        "sie_Sie": "ließen ran"
+      },
+      "imperativ": {
+        "du": "Lass ran!",
+        "ihr": "Lasst ran!",
+        "Sie": "Lassen Sie ran!"
+      }
+    },
+    "partizip1": "ranlassend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "lassen",
+    "woerter": [
+      {
+        "wort": "heranlassen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اجازه‌ی نزدیک شدن دادن",
+          "en": "to let near"
+        },
+        "id_ref": "verb_heranlassen"
+      },
+      {
+        "wort": "lassen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گذاشتن",
+          "en": "to let"
+        },
+        "id_ref": "verb_lassen"
+      },
+      {
+        "wort": "zulassen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اجازه دادن",
+          "en": "to allow"
+        },
+        "id_ref": "verb_zulassen"
+      },
+      {
+        "wort": "die Chance",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فرصت",
+          "en": "chance"
+        },
+        "id_ref": "nomen_chance"
+      },
+      {
+        "wort": "ran",
+        "wortart": "adverb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "(محاوره) نزدیک",
+          "en": "up to"
+        },
+        "id_ref": "adverb_ran"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

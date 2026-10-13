@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_preisgeben",
+  "wort": "preisgeben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(راز یا اطلاعاتی را) فاش کردن",
+      "(کسی یا چیزی را) رها کردن، تسلیم (خطری) کردن"
+    ],
+    "en": [
+      "to reveal, to disclose",
+      "to abandon, to expose (to)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation",
+    "Recht"
+  ],
+  "ipa": "ˈpʁaɪ̯sˌɡeːbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er gibt nichts preis.",
+      "uebersetzung": {
+        "fa": "او هیچ چیزی را فاش نمی‌کند.",
+        "en": "He doesn't reveal anything."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Man sollte im Internet nicht zu viele persönliche Daten preisgeben.",
+      "uebersetzung": {
+        "fa": "نباید در اینترنت اطلاعات شخصی زیادی را فاش کرد.",
+        "en": "You shouldn't give away too much personal data on the internet."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verraten",
+      "uebersetzung": {
+        "fa": "فاش کردن",
+        "en": "to give away"
+      }
+    },
+    {
+      "wort": "enthüllen",
+      "uebersetzung": {
+        "fa": "آشکار کردن",
+        "en": "to reveal"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verheimlichen",
+      "uebersetzung": {
+        "fa": "پنهان کردن",
+        "en": "to conceal"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "preis ((قدیمی) در معرض، رها) + geben (دادن)",
+    "en": "preis ((old) exposed) + geben (to give)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden/etwas einer Sache preisgeben (+ Dat)",
+        "bedeutung": "jemanden/etwas einer Gefahr aussetzen",
+        "beispiel": "Das Dorf war dem Sturm schutzlos preisgegeben.",
+        "uebersetzung": {
+          "fa": "روستا بی‌دفاع در برابر طوفان رها شده بود.",
+          "en": "The village was left defenceless against the storm."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "preisgeben",
+      "praeteritum": "gab preis",
+      "partizip2": "preisgegeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gebe preis",
+        "du": "gibst preis",
+        "er_sie_es": "gibt preis",
+        "wir": "geben preis",
+        "ihr": "gebt preis",
+        "sie_Sie": "geben preis"
+      },
+      "praeteritum": {
+        "ich": "gab preis",
+        "du": "gabst preis",
+        "er_sie_es": "gab preis",
+        "wir": "gaben preis",
+        "ihr": "gabt preis",
+        "sie_Sie": "gaben preis"
+      },
+      "konjunktiv1": {
+        "ich": "gebe preis",
+        "du": "gebest preis",
+        "er_sie_es": "gebe preis",
+        "wir": "geben preis",
+        "ihr": "gebet preis",
+        "sie_Sie": "geben preis"
+      },
+      "konjunktiv2": {
+        "ich": "gäbe preis",
+        "du": "gäbest preis",
+        "er_sie_es": "gäbe preis",
+        "wir": "gäben preis",
+        "ihr": "gäbet preis",
+        "sie_Sie": "gäben preis"
+      },
+      "imperativ": {
+        "du": "Gib preis!",
+        "ihr": "Gebt preis!",
+        "Sie": "Geben Sie preis!"
+      }
+    },
+    "partizip1": "preisgebend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "verraten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فاش کردن",
+          "en": "to give away"
+        },
+        "id_ref": "verb_verraten"
+      },
+      {
+        "wort": "das Geheimnis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "راز",
+          "en": "secret"
+        },
+        "id_ref": "nomen_geheimnis"
+      },
+      {
+        "wort": "die Daten",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "داده‌ها",
+          "en": "data"
+        },
+        "id_ref": "nomen_daten"
+      },
+      {
+        "wort": "verheimlichen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پنهان کردن",
+          "en": "to conceal"
+        },
+        "id_ref": "verb_verheimlichen"
+      },
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_rankommen",
+  "wort": "rankommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(محاوره) نزدیک آمدن",
+      "(محاوره، an etwas rankommen) به (چیزی) دسترسی پیدا کردن",
+      "(محاوره) نوبت (کسی) شدن"
+    ],
+    "en": [
+      "(colloquial) to come near",
+      "(colloquial, an etw) to get at, to reach",
+      "(colloquial) to have one's turn"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Umgangssprache",
+    "Alltag"
+  ],
+  "ipa": "ˈʁanˌkɔmən",
+  "anmerkung": "Umgangssprachlich für «heran…».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich komme nicht ans Regal ran.",
+      "uebersetzung": {
+        "fa": "دستم به قفسه نمی‌رسد.",
+        "en": "I can't reach the shelf."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "An gute Konzertkarten kommt man nur ran, wenn man sofort nach dem Verkaufsstart bucht.",
+      "uebersetzung": {
+        "fa": "بلیت‌های خوب کنسرت را فقط وقتی می‌شود گیر آورد که بلافاصله بعد از شروع فروش رزرو کنی.",
+        "en": "You can only get hold of good concert tickets if you book right after sales open."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "herankommen",
+      "uebersetzung": {
+        "fa": "دسترسی پیدا کردن",
+        "en": "to get at"
+      }
+    },
+    {
+      "wort": "drankommen",
+      "uebersetzung": {
+        "fa": "نوبت (کسی) شدن",
+        "en": "to have one's turn"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ran ((محاوره) نزدیک (= heran)) + kommen (آمدن)",
+    "en": "ran (up to (= heran)) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "an + Akk rankommen",
+        "bedeutung": "(ugs.) etwas erreichen oder bekommen",
+        "beispiel": "Wie kommst du an so viel Geld ran?",
+        "uebersetzung": {
+          "fa": "از کجا این همه پول گیر می‌آوری؟",
+          "en": "How do you get hold of so much money?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "rankommen",
+      "praeteritum": "kam ran",
+      "partizip2": "rangekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme ran",
+        "du": "kommst ran",
+        "er_sie_es": "kommt ran",
+        "wir": "kommen ran",
+        "ihr": "kommt ran",
+        "sie_Sie": "kommen ran"
+      },
+      "praeteritum": {
+        "ich": "kam ran",
+        "du": "kamst ran",
+        "er_sie_es": "kam ran",
+        "wir": "kamen ran",
+        "ihr": "kamt ran",
+        "sie_Sie": "kamen ran"
+      },
+      "konjunktiv1": {
+        "ich": "komme ran",
+        "du": "kommest ran",
+        "er_sie_es": "komme ran",
+        "wir": "kommen ran",
+        "ihr": "kommet ran",
+        "sie_Sie": "kommen ran"
+      },
+      "konjunktiv2": {
+        "ich": "käme ran",
+        "du": "kämest ran",
+        "er_sie_es": "käme ran",
+        "wir": "kämen ran",
+        "ihr": "kämet ran",
+        "sie_Sie": "kämen ran"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "rankommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "herankommen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نزدیک شدن",
+          "en": "to come near"
+        },
+        "id_ref": "verb_herankommen"
+      },
+      {
+        "wort": "erreichen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رسیدن به",
+          "en": "to reach"
+        },
+        "id_ref": "verb_erreichen"
+      },
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "drankommen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نوبت کسی شدن",
+          "en": "to have one's turn"
+        },
+        "id_ref": "verb_drankommen"
+      },
+      {
+        "wort": "der Zugang",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دسترسی",
+          "en": "access"
+        },
+        "id_ref": "nomen_zugang"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

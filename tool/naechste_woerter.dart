@@ -1238,6 +1238,12 @@ const zurueckgestellt = <String>{
   'obliegen', // zurückgestellt (Regel 14/16): trennbar (liegt ob) und untrennbar (obliegt) — Symbol nicht eindeutig 2026-10-11
   'offenliegen', // zurückgestellt (Regel 14/16): selten 2026-10-11
   'paarlaufen', // zurückgestellt (Regel 14/16): seltener Sportbegriff; getrennte Formen unsicher 2026-10-11
+  'platzenlassen', // zurückgestellt (Regel 14/16): Schreibung schwankt (platzen lassen / platzenlassen) 2026-10-11
+  'quellen', // zurückgestellt (Regel 14/16): intransitiv stark (quoll), transitiv schwach (quellte) — Formen schwanken 2026-10-11
+  'querkommen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-11
+  'ranbinden', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-11
+  'rankönnen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'ranmüssen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

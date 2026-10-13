@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_quergehen",
+  "wort": "quergehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(محاوره) (کاری) خراب شدن، بد پیش رفتن"
+    ],
+    "en": [
+      "(colloquial) to go wrong"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Umgangssprache"
+  ],
+  "ipa": "ˈkveːɐ̯ˌɡeːən",
+  "anmerkung": "Umgangssprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Heute geht alles quer.",
+      "uebersetzung": {
+        "fa": "امروز همه چیز خراب است.",
+        "en": "Everything is going wrong today."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei der Reise ist so ziemlich alles quergegangen, was quergehen konnte.",
+      "uebersetzung": {
+        "fa": "در این سفر تقریباً هر چیزی که می‌شد خراب شود، خراب شد.",
+        "en": "On the trip pretty much everything that could go wrong went wrong."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schiefgehen",
+      "uebersetzung": {
+        "fa": "خراب شدن",
+        "en": "to go wrong"
+      }
+    },
+    {
+      "wort": "misslingen",
+      "uebersetzung": {
+        "fa": "ناموفق بودن",
+        "en": "to fail"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "klappen",
+      "uebersetzung": {
+        "fa": "جور شدن",
+        "en": "to work out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "quer (کج، عرضی) + gehen (رفتن)",
+    "en": "quer (across, crosswise) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "quergehen",
+      "praeteritum": "ging quer",
+      "partizip2": "quergegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe quer",
+        "du": "gehst quer",
+        "er_sie_es": "geht quer",
+        "wir": "gehen quer",
+        "ihr": "geht quer",
+        "sie_Sie": "gehen quer"
+      },
+      "praeteritum": {
+        "ich": "ging quer",
+        "du": "gingst quer",
+        "er_sie_es": "ging quer",
+        "wir": "gingen quer",
+        "ihr": "gingt quer",
+        "sie_Sie": "gingen quer"
+      },
+      "konjunktiv1": {
+        "ich": "gehe quer",
+        "du": "gehest quer",
+        "er_sie_es": "gehe quer",
+        "wir": "gehen quer",
+        "ihr": "gehet quer",
+        "sie_Sie": "gehen quer"
+      },
+      "konjunktiv2": {
+        "ich": "ginge quer",
+        "du": "gingest quer",
+        "er_sie_es": "ginge quer",
+        "wir": "gingen quer",
+        "ihr": "ginget quer",
+        "sie_Sie": "gingen quer"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "quergehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "schiefgehen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خراب شدن",
+          "en": "to go wrong"
+        },
+        "id_ref": "verb_schiefgehen"
+      },
+      {
+        "wort": "misslingen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ناموفق بودن",
+          "en": "to fail"
+        },
+        "id_ref": "verb_misslingen"
+      },
+      {
+        "wort": "klappen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جور شدن",
+          "en": "to work out"
+        },
+        "id_ref": "verb_klappen"
+      },
+      {
+        "wort": "quer",
+        "wortart": "adverb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عرضی، کج",
+          "en": "across"
+        },
+        "id_ref": "adverb_quer"
+      },
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
