@@ -1,0 +1,193 @@
+{
+  "schema": "3.0",
+  "id": "verb_ringen",
+  "wort": "ringen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کشتی گرفتن",
+      "دست‌وپنجه نرم کردن",
+      "تقلا کردن"
+    ],
+    "en": [
+      "to wrestle",
+      "to struggle",
+      "to grapple"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Sport",
+    "Gefühle"
+  ],
+  "ipa": "ˈʁɪŋən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die zwei Jungen ringen im Gras.",
+      "uebersetzung": {
+        "fa": "آن دو پسر روی چمن کشتی می‌گیرند.",
+        "en": "The two boys are wrestling in the grass."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Unfall hat er tagelang mit dem Tod gerungen, bis es ihm endlich besser ging.",
+      "uebersetzung": {
+        "fa": "بعد از تصادف، روزها با مرگ دست‌وپنجه نرم کرد تا اینکه بالاخره حالش بهتر شد.",
+        "en": "After the accident he fought for his life for days until he finally got better."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kämpfen",
+      "uebersetzung": {
+        "fa": "جنگیدن، تلاش کردن",
+        "en": "to fight"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "aufgeben",
+      "uebersetzung": {
+        "fa": "تسلیم شدن",
+        "en": "to give up"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit + Dat ringen",
+        "bedeutung": "mit jemandem/etwas kämpfen",
+        "beispiel": "Sie ringt mit einer schweren Entscheidung.",
+        "uebersetzung": {
+          "fa": "او با یک تصمیم سخت درگیر است.",
+          "en": "She is wrestling with a difficult decision."
+        }
+      },
+      {
+        "muster": "um + Akk ringen",
+        "bedeutung": "sich heftig um etwas bemühen",
+        "beispiel": "Der Patient ringt um Luft.",
+        "uebersetzung": {
+          "fa": "بیمار برای نفس کشیدن تقلا می‌کند.",
+          "en": "The patient is gasping for air."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ringen",
+      "praeteritum": "rang",
+      "partizip2": "gerungen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ringe",
+        "du": "ringst",
+        "er_sie_es": "ringt",
+        "wir": "ringen",
+        "ihr": "ringt",
+        "sie_Sie": "ringen"
+      },
+      "praeteritum": {
+        "ich": "rang",
+        "du": "rangst",
+        "er_sie_es": "rang",
+        "wir": "rangen",
+        "ihr": "rangt",
+        "sie_Sie": "rangen"
+      },
+      "konjunktiv1": {
+        "ich": "ringe",
+        "du": "ringest",
+        "er_sie_es": "ringe",
+        "wir": "ringen",
+        "ihr": "ringet",
+        "sie_Sie": "ringen"
+      },
+      "konjunktiv2": {
+        "ich": "ränge",
+        "du": "rängest",
+        "er_sie_es": "ränge",
+        "wir": "rängen",
+        "ihr": "ränget",
+        "sie_Sie": "rängen"
+      },
+      "imperativ": {
+        "du": "Ring!",
+        "ihr": "Ringt!",
+        "Sie": "Ringen Sie!"
+      }
+    },
+    "partizip1": "ringend",
+    "nominalisierung": "das Ringen"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Luft",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "هوا",
+          "en": "air"
+        },
+        "id_ref": "nomen_luft"
+      },
+      {
+        "wort": "kämpfen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جنگیدن، تلاش کردن",
+          "en": "to fight"
+        },
+        "id_ref": "verb_kaempfen"
+      },
+      {
+        "wort": "der Kampf",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مبارزه، نبرد",
+          "en": "fight"
+        },
+        "id_ref": "nomen_kampf"
+      },
+      {
+        "wort": "bemühen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "(sich) تلاش کردن",
+          "en": "to try hard"
+        },
+        "id_ref": "verb_bemuehen"
+      },
+      {
+        "wort": "der Ringer",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کشتی‌گیر",
+          "en": "wrestler"
+        },
+        "id_ref": "nomen_ringer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

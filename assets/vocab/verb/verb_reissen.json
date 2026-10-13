@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_reissen",
+  "wort": "reißen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پاره کردن",
+      "پاره شدن",
+      "(با شدت) کشیدن، قاپیدن"
+    ],
+    "en": [
+      "to tear",
+      "to rip",
+      "to snatch"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈʁaɪ̯sn̩",
+  "anmerkung": "Transitiv mit «haben» (Er hat das Blatt in Stücke gerissen); intransitiv mit «sein» (Das Seil ist gerissen).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Papier reißt leicht.",
+      "uebersetzung": {
+        "fa": "این کاغذ راحت پاره می‌شود.",
+        "en": "This paper tears easily."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Dieb hat ihr die Tasche aus der Hand gerissen, als sie aus dem Bus stieg.",
+      "uebersetzung": {
+        "fa": "وقتی از اتوبوس پیاده می‌شد، دزد کیف را از دستش قاپید.",
+        "en": "The thief snatched the bag out of her hand as she got off the bus."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zerreißen",
+      "uebersetzung": {
+        "fa": "پاره کردن",
+        "en": "to tear apart"
+      }
+    },
+    {
+      "wort": "ziehen",
+      "uebersetzung": {
+        "fa": "کشیدن",
+        "en": "to pull"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich um + Akk reißen",
+        "bedeutung": "etwas unbedingt haben wollen",
+        "beispiel": "Die Fans reißen sich um die Tickets.",
+        "uebersetzung": {
+          "fa": "طرفداران برای بلیت‌ها سر و دست می‌شکنند.",
+          "en": "The fans are scrambling for the tickets."
+        }
+      },
+      {
+        "muster": "an + Dat reißen",
+        "bedeutung": "heftig an etwas ziehen",
+        "beispiel": "Der Hund reißt an der Leine.",
+        "uebersetzung": {
+          "fa": "سگ قلاده را محکم می‌کشد.",
+          "en": "The dog is tugging at the leash."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "reißen",
+      "praeteritum": "riss",
+      "partizip2": "gerissen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "reiße",
+        "du": "reißt",
+        "er_sie_es": "reißt",
+        "wir": "reißen",
+        "ihr": "reißt",
+        "sie_Sie": "reißen"
+      },
+      "praeteritum": {
+        "ich": "riss",
+        "du": "rissest",
+        "er_sie_es": "riss",
+        "wir": "rissen",
+        "ihr": "risst",
+        "sie_Sie": "rissen"
+      },
+      "konjunktiv1": {
+        "ich": "reiße",
+        "du": "reißest",
+        "er_sie_es": "reiße",
+        "wir": "reißen",
+        "ihr": "reißet",
+        "sie_Sie": "reißen"
+      },
+      "konjunktiv2": {
+        "ich": "risse",
+        "du": "rissest",
+        "er_sie_es": "risse",
+        "wir": "rissen",
+        "ihr": "risset",
+        "sie_Sie": "rissen"
+      },
+      "imperativ": {
+        "du": "Reiß!",
+        "ihr": "Reißt!",
+        "Sie": "Reißen Sie!"
+      }
+    },
+    "partizip1": "reißend",
+    "nominalisierung": "der Riss"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "ziehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کشیدن",
+          "en": "to pull"
+        },
+        "id_ref": "verb_ziehen"
+      },
+      {
+        "wort": "abreißen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کندن؛ خراب کردن (ساختمان)",
+          "en": "to tear off, to tear down"
+        },
+        "id_ref": "verb_abreissen"
+      },
+      {
+        "wort": "der Riss",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پارگی، ترک",
+          "en": "tear, crack"
+        },
+        "id_ref": "nomen_riss"
+      },
+      {
+        "wort": "aufreißen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "با شدت باز کردن",
+          "en": "to tear open"
+        },
+        "id_ref": "verb_aufreissen"
+      },
+      {
+        "wort": "zerreißen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پاره کردن",
+          "en": "to tear apart"
+        },
+        "id_ref": "verb_zerreissen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

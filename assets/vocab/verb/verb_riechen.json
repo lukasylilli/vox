@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_riechen",
+  "wort": "riechen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بو کردن",
+      "بو دادن"
+    ],
+    "en": [
+      "to smell"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Sinne",
+    "Alltag",
+    "Essen"
+  ],
+  "ipa": "ˈʁiːçn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Suppe riecht gut.",
+      "uebersetzung": {
+        "fa": "سوپ بوی خوبی می‌دهد.",
+        "en": "The soup smells good."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als ich die Tür öffnete, roch es im ganzen Haus nach frischem Brot.",
+      "uebersetzung": {
+        "fa": "وقتی در را باز کردم، تمام خانه بوی نان تازه می‌داد.",
+        "en": "When I opened the door, the whole house smelled of fresh bread."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "duften",
+      "uebersetzung": {
+        "fa": "بوی خوش دادن",
+        "en": "to smell nice"
+      }
+    },
+    {
+      "wort": "schnuppern",
+      "uebersetzung": {
+        "fa": "بو کشیدن",
+        "en": "to sniff"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "nach + Dat riechen",
+        "bedeutung": "einen bestimmten Geruch haben",
+        "beispiel": "Hier riecht es nach Kaffee.",
+        "uebersetzung": {
+          "fa": "اینجا بوی قهوه می‌آید.",
+          "en": "It smells of coffee here."
+        }
+      },
+      {
+        "muster": "an + Dat riechen",
+        "bedeutung": "den Geruch von etwas prüfen",
+        "beispiel": "Sie riecht an der Rose.",
+        "uebersetzung": {
+          "fa": "او گل رز را بو می‌کند.",
+          "en": "She smells the rose."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "riechen",
+      "praeteritum": "roch",
+      "partizip2": "gerochen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "rieche",
+        "du": "riechst",
+        "er_sie_es": "riecht",
+        "wir": "riechen",
+        "ihr": "riecht",
+        "sie_Sie": "riechen"
+      },
+      "praeteritum": {
+        "ich": "roch",
+        "du": "rochst",
+        "er_sie_es": "roch",
+        "wir": "rochen",
+        "ihr": "rocht",
+        "sie_Sie": "rochen"
+      },
+      "konjunktiv1": {
+        "ich": "rieche",
+        "du": "riechest",
+        "er_sie_es": "rieche",
+        "wir": "riechen",
+        "ihr": "riechet",
+        "sie_Sie": "riechen"
+      },
+      "konjunktiv2": {
+        "ich": "röche",
+        "du": "röchest",
+        "er_sie_es": "röche",
+        "wir": "röchen",
+        "ihr": "röchet",
+        "sie_Sie": "röchen"
+      },
+      "imperativ": {
+        "du": "Riech!",
+        "ihr": "Riecht!",
+        "Sie": "Riechen Sie!"
+      }
+    },
+    "partizip1": "riechend",
+    "nominalisierung": "der Geruch"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Nase",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بینی",
+          "en": "nose"
+        },
+        "id_ref": "nomen_nase"
+      },
+      {
+        "wort": "schmecken",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مزه دادن، خوشمزه بودن",
+          "en": "to taste"
+        },
+        "id_ref": "verb_schmecken"
+      },
+      {
+        "wort": "der Geruch",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بو",
+          "en": "smell"
+        },
+        "id_ref": "nomen_geruch"
+      },
+      {
+        "wort": "duften",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بوی خوش دادن",
+          "en": "to smell nice"
+        },
+        "id_ref": "verb_duften"
+      },
+      {
+        "wort": "stinken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بوی بد دادن",
+          "en": "to stink"
+        },
+        "id_ref": "verb_stinken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_reinfahren",
+  "wort": "reinfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(محاوره) با وسیله‌ی نقلیه داخل رفتن",
+      "(محاوره) وارد شدن (با ماشین/قطار)"
+    ],
+    "en": [
+      "(colloquial) to drive in",
+      "(colloquial) to go in (by vehicle)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Umgangssprache",
+    "Verkehr"
+  ],
+  "ipa": "ˈʁaɪ̯nˌfaːʁən",
+  "anmerkung": "Umgangssprachlich; Standard: «hineinfahren/hereinfahren».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir fahren in die Garage rein.",
+      "uebersetzung": {
+        "fa": "با ماشین داخل پارکینگ می‌رویم.",
+        "en": "We drive into the garage."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als wir in die Stadt reingefahren sind, war überall Stau.",
+      "uebersetzung": {
+        "fa": "وقتی وارد شهر شدیم، همه‌جا ترافیک بود.",
+        "en": "When we drove into the city, there were traffic jams everywhere."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hineinfahren",
+      "uebersetzung": {
+        "fa": "با وسیله‌ی نقلیه داخل رفتن",
+        "en": "to drive in"
+      }
+    },
+    {
+      "wort": "einfahren",
+      "uebersetzung": {
+        "fa": "وارد شدن (قطار/ماشین)",
+        "en": "to pull in"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "rausfahren",
+      "uebersetzung": {
+        "fa": "با وسیله‌ی نقلیه بیرون رفتن",
+        "en": "to drive out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "rein ((محاوره) داخل (= herein/hinein)) + fahren (با وسیله‌ی نقلیه رفتن)",
+    "en": "rein (in (= herein/hinein)) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in + Akk reinfahren",
+        "bedeutung": "(ugs.) in etwas hineinfahren",
+        "beispiel": "Fahr langsam in die Einfahrt rein!",
+        "uebersetzung": {
+          "fa": "آهسته وارد ورودی ماشین‌رو شو!",
+          "en": "Drive slowly into the driveway!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "reinfahren",
+      "praeteritum": "fuhr rein",
+      "partizip2": "reingefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre rein",
+        "du": "fährst rein",
+        "er_sie_es": "fährt rein",
+        "wir": "fahren rein",
+        "ihr": "fahrt rein",
+        "sie_Sie": "fahren rein"
+      },
+      "praeteritum": {
+        "ich": "fuhr rein",
+        "du": "fuhrst rein",
+        "er_sie_es": "fuhr rein",
+        "wir": "fuhren rein",
+        "ihr": "fuhrt rein",
+        "sie_Sie": "fuhren rein"
+      },
+      "konjunktiv1": {
+        "ich": "fahre rein",
+        "du": "fahrest rein",
+        "er_sie_es": "fahre rein",
+        "wir": "fahren rein",
+        "ihr": "fahret rein",
+        "sie_Sie": "fahren rein"
+      },
+      "konjunktiv2": {
+        "ich": "führe rein",
+        "du": "führest rein",
+        "er_sie_es": "führe rein",
+        "wir": "führen rein",
+        "ihr": "führet rein",
+        "sie_Sie": "führen rein"
+      },
+      "imperativ": {
+        "du": "Fahr rein!",
+        "ihr": "Fahrt rein!",
+        "Sie": "Fahren Sie rein!"
+      }
+    },
+    "partizip1": "reinfahrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "با وسیله‌ی نقلیه رفتن",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "rein",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "(محاوره) داخل",
+          "en": "in"
+        },
+        "id_ref": "adverb_rein"
+      },
+      {
+        "wort": "die Einfahrt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ورودی (ماشین‌رو)",
+          "en": "entrance, driveway"
+        },
+        "id_ref": "nomen_einfahrt"
+      },
+      {
+        "wort": "hineinfahren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "با وسیله‌ی نقلیه داخل رفتن",
+          "en": "to drive in"
+        },
+        "id_ref": "verb_hineinfahren"
+      },
+      {
+        "wort": "rausfahren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "با وسیله‌ی نقلیه بیرون رفتن",
+          "en": "to drive out"
+        },
+        "id_ref": "verb_rausfahren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

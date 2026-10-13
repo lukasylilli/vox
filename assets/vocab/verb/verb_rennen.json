@@ -1,0 +1,197 @@
+{
+  "schema": "3.0",
+  "id": "verb_rennen",
+  "wort": "rennen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(تند) دویدن",
+      "شتابان رفتن"
+    ],
+    "en": [
+      "to run",
+      "to race",
+      "to dash"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Sport",
+    "Alltag"
+  ],
+  "ipa": "ˈʁɛnən",
+  "anmerkung": "Gemischtes Verb (rannte, gerannt); Konjunktiv II: «rennte».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kinder rennen in den Garten.",
+      "uebersetzung": {
+        "fa": "بچه‌ها به باغ می‌دوند.",
+        "en": "The children run into the garden."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil ich verschlafen hatte, bin ich zum Bahnhof gerannt.",
+      "uebersetzung": {
+        "fa": "چون خواب مانده بودم، تا ایستگاه قطار دویدم.",
+        "en": "Because I had overslept, I ran to the station."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "laufen",
+      "uebersetzung": {
+        "fa": "دویدن",
+        "en": "to run"
+      }
+    },
+    {
+      "wort": "eilen",
+      "uebersetzung": {
+        "fa": "شتافتن، عجله کردن",
+        "en": "to hurry"
+      }
+    },
+    {
+      "wort": "sprinten",
+      "uebersetzung": {
+        "fa": "سریع دویدن",
+        "en": "to sprint"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "schlendern",
+      "uebersetzung": {
+        "fa": "آهسته قدم زدن",
+        "en": "to stroll"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "gegen + Akk rennen",
+        "bedeutung": "mit Wucht gegen etwas laufen",
+        "beispiel": "Er ist gegen die Glastür gerannt.",
+        "uebersetzung": {
+          "fa": "او محکم به در شیشه‌ای خورد.",
+          "en": "He ran into the glass door."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "rennen",
+      "praeteritum": "rannte",
+      "partizip2": "gerannt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "renne",
+        "du": "rennst",
+        "er_sie_es": "rennt",
+        "wir": "rennen",
+        "ihr": "rennt",
+        "sie_Sie": "rennen"
+      },
+      "praeteritum": {
+        "ich": "rannte",
+        "du": "ranntest",
+        "er_sie_es": "rannte",
+        "wir": "rannten",
+        "ihr": "ranntet",
+        "sie_Sie": "rannten"
+      },
+      "konjunktiv1": {
+        "ich": "renne",
+        "du": "rennest",
+        "er_sie_es": "renne",
+        "wir": "rennen",
+        "ihr": "rennet",
+        "sie_Sie": "rennen"
+      },
+      "konjunktiv2": {
+        "ich": "rennte",
+        "du": "renntest",
+        "er_sie_es": "rennte",
+        "wir": "rennten",
+        "ihr": "renntet",
+        "sie_Sie": "rennten"
+      },
+      "imperativ": {
+        "du": "Renn!",
+        "ihr": "Rennt!",
+        "Sie": "Rennen Sie!"
+      }
+    },
+    "partizip1": "rennend",
+    "nominalisierung": "das Rennen"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دویدن؛ پیاده رفتن",
+          "en": "to run, to walk"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "eilen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شتافتن",
+          "en": "to hurry"
+        },
+        "id_ref": "verb_eilen"
+      },
+      {
+        "wort": "das Rennen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مسابقه (دو/اتومبیل‌رانی)",
+          "en": "race"
+        },
+        "id_ref": "nomen_rennen"
+      },
+      {
+        "wort": "der Läufer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دونده",
+          "en": "runner"
+        },
+        "id_ref": "nomen_laeufer"
+      },
+      {
+        "wort": "wegrennen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فرار کردن، دویدن و رفتن",
+          "en": "to run away"
+        },
+        "id_ref": "verb_wegrennen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

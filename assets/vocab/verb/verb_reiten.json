@@ -1,0 +1,167 @@
+{
+  "schema": "3.0",
+  "id": "verb_reiten",
+  "wort": "reiten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سوارکاری کردن",
+      "(بر اسب) سوار شدن و رفتن"
+    ],
+    "en": [
+      "to ride (a horse)",
+      "to go riding"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Sport",
+    "Freizeit",
+    "Tiere"
+  ],
+  "ipa": "ˈʁaɪ̯tn̩",
+  "anmerkung": "Mit «sein», wenn die Bewegung im Vordergrund steht (Wir sind durch den Wald geritten); mit «haben» beim Akkusativobjekt (Sie hat das neue Pferd geritten).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Meine Tochter reitet jeden Samstag.",
+      "uebersetzung": {
+        "fa": "دخترم هر شنبه سوارکاری می‌کند.",
+        "en": "My daughter goes riding every Saturday."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Seit sie als Kind auf einem Pony geritten ist, liebt sie Pferde.",
+      "uebersetzung": {
+        "fa": "از وقتی که در کودکی سوار یک اسبچه شد، عاشق اسب‌هاست.",
+        "en": "Ever since she rode a pony as a child, she has loved horses."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Dat reiten",
+        "bedeutung": "auf einem Tier sitzend sich fortbewegen",
+        "beispiel": "Er reitet auf einem Esel.",
+        "uebersetzung": {
+          "fa": "او سوار بر الاغ می‌رود.",
+          "en": "He is riding on a donkey."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "reiten",
+      "praeteritum": "ritt",
+      "partizip2": "geritten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "reite",
+        "du": "reitest",
+        "er_sie_es": "reitet",
+        "wir": "reiten",
+        "ihr": "reitet",
+        "sie_Sie": "reiten"
+      },
+      "praeteritum": {
+        "ich": "ritt",
+        "du": "rittest",
+        "er_sie_es": "ritt",
+        "wir": "ritten",
+        "ihr": "rittet",
+        "sie_Sie": "ritten"
+      },
+      "konjunktiv1": {
+        "ich": "reite",
+        "du": "reitest",
+        "er_sie_es": "reite",
+        "wir": "reiten",
+        "ihr": "reitet",
+        "sie_Sie": "reiten"
+      },
+      "konjunktiv2": {
+        "ich": "ritte",
+        "du": "rittest",
+        "er_sie_es": "ritte",
+        "wir": "ritten",
+        "ihr": "rittet",
+        "sie_Sie": "ritten"
+      },
+      "imperativ": {
+        "du": "Reite!",
+        "ihr": "Reitet!",
+        "Sie": "Reiten Sie!"
+      }
+    },
+    "partizip1": "reitend",
+    "nominalisierung": "das Reiten"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Pferd",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اسب",
+          "en": "horse"
+        },
+        "id_ref": "nomen_pferd"
+      },
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "(با وسیله‌ی نقلیه) رفتن",
+          "en": "to ride, to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "der Reiter",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سوارکار",
+          "en": "rider"
+        },
+        "id_ref": "nomen_reiter"
+      },
+      {
+        "wort": "der Sattel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زین",
+          "en": "saddle"
+        },
+        "id_ref": "nomen_sattel"
+      },
+      {
+        "wort": "ausreiten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به سواری رفتن",
+          "en": "to go for a ride"
+        },
+        "id_ref": "verb_ausreiten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
