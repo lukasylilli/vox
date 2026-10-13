@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_mitfahren",
+  "wort": "mitfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با کسی در وسیله‌ی نقلیه) همراه رفتن، سوار شدن"
+    ],
+    "en": [
+      "to go with (someone), to get a lift"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Verkehr",
+    "Reisen"
+  ],
+  "ipa": "ˈmɪtˌfaːʁən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Darf ich mitfahren?",
+      "uebersetzung": {
+        "fa": "می‌توانم با شما بیایم (سوار شوم)؟",
+        "en": "Can I come with you?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich fahre jeden Morgen bei einer Kollegin mit, weil sie in meiner Nähe wohnt.",
+      "uebersetzung": {
+        "fa": "هر صبح با ماشین یکی از همکارانم می‌روم، چون نزدیک من زندگی می‌کند.",
+        "en": "I get a lift with a colleague every morning because she lives near me."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "mitkommen",
+      "uebersetzung": {
+        "fa": "همراه آمدن",
+        "en": "to come along"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mit- (همراه، با) + fahren (رفتن (با وسیله))",
+    "en": "mit- (along, with) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "bei/mit + Dat mitfahren",
+        "bedeutung": "im Fahrzeug von jemandem fahren",
+        "beispiel": "Du kannst mit uns mitfahren.",
+        "uebersetzung": {
+          "fa": "می‌توانی با ما بیایی.",
+          "en": "You can come with us."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "mitfahren",
+      "praeteritum": "fuhr mit",
+      "partizip2": "mitgefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre mit",
+        "du": "fährst mit",
+        "er_sie_es": "fährt mit",
+        "wir": "fahren mit",
+        "ihr": "fahrt mit",
+        "sie_Sie": "fahren mit"
+      },
+      "praeteritum": {
+        "ich": "fuhr mit",
+        "du": "fuhrst mit",
+        "er_sie_es": "fuhr mit",
+        "wir": "fuhren mit",
+        "ihr": "fuhrt mit",
+        "sie_Sie": "fuhren mit"
+      },
+      "konjunktiv1": {
+        "ich": "fahre mit",
+        "du": "fahrest mit",
+        "er_sie_es": "fahre mit",
+        "wir": "fahren mit",
+        "ihr": "fahret mit",
+        "sie_Sie": "fahren mit"
+      },
+      "konjunktiv2": {
+        "ich": "führe mit",
+        "du": "führest mit",
+        "er_sie_es": "führe mit",
+        "wir": "führen mit",
+        "ihr": "führet mit",
+        "sie_Sie": "führen mit"
+      },
+      "imperativ": {
+        "du": "Fahr mit!",
+        "ihr": "Fahrt mit!",
+        "Sie": "Fahren Sie mit!"
+      }
+    },
+    "partizip1": "mitfahrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "die Mitfahrgelegenheit",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "هم‌سفری با ماشین",
+          "en": "lift, ride share"
+        },
+        "id_ref": "nomen_mitfahrgelegenheit"
+      },
+      {
+        "wort": "mitkommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "همراه آمدن",
+          "en": "to come along"
+        },
+        "id_ref": "verb_mitkommen"
+      },
+      {
+        "wort": "das Auto",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ماشین",
+          "en": "car"
+        },
+        "id_ref": "nomen_auto"
+      },
+      {
+        "wort": "mit",
+        "wortart": "praeposition",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "با",
+          "en": "with"
+        },
+        "id_ref": "praeposition_mit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1210,6 +1210,11 @@ const zurueckgestellt = <String>{
   'losdürfen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
   'loshaben', // zurückgestellt (Regel 14/16): umgangssprachlich; Bedeutung schwankt 2026-10-11
   'loshalten', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'loskönnen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'losmüssen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'mitbieten', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'mitdürfen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'mitempfinden', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_missfallen",
+  "wort": "missfallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(چیزی به کسی) خوش نیامدن، ناخوشایند بودن"
+    ],
+    "en": [
+      "to displease"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle",
+    "Meinung"
+  ],
+  "ipa": "mɪsˈfalən",
+  "anmerkung": "Untrennbar: missfällt, missfiel, hat missfallen.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das missfällt mir.",
+      "uebersetzung": {
+        "fa": "این به من خوش نمی‌آید.",
+        "en": "That displeases me."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Dem Publikum hat die moderne Inszenierung des Theaterstücks deutlich missfallen.",
+      "uebersetzung": {
+        "fa": "اجرای مدرن این نمایش آشکارا به تماشاگران خوش نیامد.",
+        "en": "The modern production of the play clearly displeased the audience."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nicht gefallen",
+      "uebersetzung": {
+        "fa": "خوش نیامدن",
+        "en": "not to please"
+      }
+    },
+    {
+      "wort": "stören",
+      "uebersetzung": {
+        "fa": "آزار دادن",
+        "en": "to bother"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "gefallen",
+      "uebersetzung": {
+        "fa": "خوش آمدن",
+        "en": "to please"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "miss- (نادرست، بد) + fallen (افتادن)",
+    "en": "miss- (mis-, dis-) + fallen (to fall)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem missfallen (+ Dat)",
+        "bedeutung": "jemandem nicht gefallen",
+        "beispiel": "Sein Verhalten missfiel allen Gästen.",
+        "uebersetzung": {
+          "fa": "رفتارش به هیچ‌یک از مهمان‌ها خوش نیامد.",
+          "en": "His behaviour displeased all the guests."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "missfallen",
+      "praeteritum": "missfiel",
+      "partizip2": "missfallen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "missfalle",
+        "du": "missfällst",
+        "er_sie_es": "missfällt",
+        "wir": "missfallen",
+        "ihr": "missfallt",
+        "sie_Sie": "missfallen"
+      },
+      "praeteritum": {
+        "ich": "missfiel",
+        "du": "missfielst",
+        "er_sie_es": "missfiel",
+        "wir": "missfielen",
+        "ihr": "missfielt",
+        "sie_Sie": "missfielen"
+      },
+      "konjunktiv1": {
+        "ich": "missfalle",
+        "du": "missfallest",
+        "er_sie_es": "missfalle",
+        "wir": "missfallen",
+        "ihr": "missfallet",
+        "sie_Sie": "missfallen"
+      },
+      "konjunktiv2": {
+        "ich": "missfiele",
+        "du": "missfielest",
+        "er_sie_es": "missfiele",
+        "wir": "missfielen",
+        "ihr": "missfielet",
+        "sie_Sie": "missfielen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "missfallend",
+    "nominalisierung": "das Missfallen"
+  },
+  "wortnetz": {
+    "grundwort": "fallen",
+    "woerter": [
+      {
+        "wort": "gefallen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوش آمدن",
+          "en": "to please"
+        },
+        "id_ref": "verb_gefallen"
+      },
+      {
+        "wort": "das Missfallen",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نارضایتی",
+          "en": "displeasure"
+        },
+        "id_ref": "nomen_missfallen"
+      },
+      {
+        "wort": "stören",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آزار دادن",
+          "en": "to bother"
+        },
+        "id_ref": "verb_stoeren"
+      },
+      {
+        "wort": "ärgern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عصبانی کردن",
+          "en": "to annoy"
+        },
+        "id_ref": "verb_aergern"
+      },
+      {
+        "wort": "die Kritik",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انتقاد",
+          "en": "criticism"
+        },
+        "id_ref": "nomen_kritik"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

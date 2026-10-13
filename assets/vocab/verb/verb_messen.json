@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_messen",
+  "wort": "messen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اندازه گرفتن، سنجیدن",
+      "(اندازه‌ی مشخصی) داشتن",
+      "(sich mit jemandem messen) با (کسی) رقابت کردن"
+    ],
+    "en": [
+      "to measure",
+      "to measure (a certain size)",
+      "(sich mit jdm) to compete with"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gesundheit",
+    "Technik",
+    "Wissenschaft"
+  ],
+  "ipa": "ˈmɛsn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Pflegerin misst das Fieber.",
+      "uebersetzung": {
+        "fa": "پرستار تب را اندازه می‌گیرد.",
+        "en": "The nurse takes the temperature."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bevor wir die Möbel bestellen, sollten wir genau messen, wie groß das Zimmer ist.",
+      "uebersetzung": {
+        "fa": "قبل از سفارش مبلمان باید دقیق اندازه بگیریم که اتاق چقدر بزرگ است.",
+        "en": "Before we order the furniture, we should measure exactly how big the room is."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abmessen",
+      "uebersetzung": {
+        "fa": "اندازه گرفتن",
+        "en": "to measure off"
+      }
+    },
+    {
+      "wort": "vermessen",
+      "uebersetzung": {
+        "fa": "اندازه‌گیری کردن (زمین)",
+        "en": "to survey"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich mit + Dat messen",
+        "bedeutung": "sich mit jemandem vergleichen, gegen jemanden antreten",
+        "beispiel": "Mit ihm kann sich niemand messen.",
+        "uebersetzung": {
+          "fa": "هیچ‌کس به پای او نمی‌رسد.",
+          "en": "Nobody can compete with him."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "messen",
+      "praeteritum": "maß",
+      "partizip2": "gemessen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "messe",
+        "du": "misst",
+        "er_sie_es": "misst",
+        "wir": "messen",
+        "ihr": "messt",
+        "sie_Sie": "messen"
+      },
+      "praeteritum": {
+        "ich": "maß",
+        "du": "maßest",
+        "er_sie_es": "maß",
+        "wir": "maßen",
+        "ihr": "maßt",
+        "sie_Sie": "maßen"
+      },
+      "konjunktiv1": {
+        "ich": "messe",
+        "du": "messest",
+        "er_sie_es": "messe",
+        "wir": "messen",
+        "ihr": "messet",
+        "sie_Sie": "messen"
+      },
+      "konjunktiv2": {
+        "ich": "mäße",
+        "du": "mäßest",
+        "er_sie_es": "mäße",
+        "wir": "mäßen",
+        "ihr": "mäßet",
+        "sie_Sie": "mäßen"
+      },
+      "imperativ": {
+        "du": "Miss!",
+        "ihr": "Messt!",
+        "Sie": "Messen Sie!"
+      }
+    },
+    "partizip1": "messend",
+    "nominalisierung": "die Messung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Messung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اندازه‌گیری",
+          "en": "measurement"
+        },
+        "id_ref": "nomen_messung"
+      },
+      {
+        "wort": "das Maß",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اندازه",
+          "en": "measure"
+        },
+        "id_ref": "nomen_mass"
+      },
+      {
+        "wort": "der Blutdruck",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فشار خون",
+          "en": "blood pressure"
+        },
+        "id_ref": "nomen_blutdruck"
+      },
+      {
+        "wort": "das Fieberthermometer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دماسنج",
+          "en": "thermometer"
+        },
+        "id_ref": "nomen_fieberthermometer"
+      },
+      {
+        "wort": "der Meter",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "متر",
+          "en": "metre"
+        },
+        "id_ref": "nomen_meter"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

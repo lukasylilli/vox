@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_mitbekommen",
+  "wort": "mitbekommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(چیزی را) فهمیدن، متوجه شدن، شنیدن",
+      "(چیزی را برای همراه بردن) گرفتن"
+    ],
+    "en": [
+      "to notice, to catch, to get",
+      "to be given (to take along)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Kommunikation",
+    "Alltag"
+  ],
+  "ipa": "ˈmɪtbəˌkɔmən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Hast du das mitbekommen?",
+      "uebersetzung": {
+        "fa": "متوجه این شدی؟",
+        "en": "Did you catch that?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich war so müde, dass ich von dem Vortrag kaum etwas mitbekommen habe.",
+      "uebersetzung": {
+        "fa": "آن‌قدر خسته بودم که تقریباً چیزی از سخنرانی نفهمیدم.",
+        "en": "I was so tired that I hardly took in anything of the talk."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verstehen",
+      "uebersetzung": {
+        "fa": "فهمیدن",
+        "en": "to understand"
+      }
+    },
+    {
+      "wort": "bemerken",
+      "uebersetzung": {
+        "fa": "متوجه شدن",
+        "en": "to notice"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verpassen",
+      "uebersetzung": {
+        "fa": "از دست دادن",
+        "en": "to miss"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mit- (همراه، با) + bekommen (گرفتن)",
+    "en": "mit- (along, with) + bekommen (to get)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas von + Dat mitbekommen",
+        "bedeutung": "etwas von etwas wahrnehmen",
+        "beispiel": "Von dem Streit habe ich nichts mitbekommen.",
+        "uebersetzung": {
+          "fa": "از دعوا چیزی نفهمیدم.",
+          "en": "I didn't notice anything of the quarrel."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "mitbekommen",
+      "praeteritum": "bekam mit",
+      "partizip2": "mitbekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bekomme mit",
+        "du": "bekommst mit",
+        "er_sie_es": "bekommt mit",
+        "wir": "bekommen mit",
+        "ihr": "bekommt mit",
+        "sie_Sie": "bekommen mit"
+      },
+      "praeteritum": {
+        "ich": "bekam mit",
+        "du": "bekamst mit",
+        "er_sie_es": "bekam mit",
+        "wir": "bekamen mit",
+        "ihr": "bekamt mit",
+        "sie_Sie": "bekamen mit"
+      },
+      "konjunktiv1": {
+        "ich": "bekomme mit",
+        "du": "bekommest mit",
+        "er_sie_es": "bekomme mit",
+        "wir": "bekommen mit",
+        "ihr": "bekommet mit",
+        "sie_Sie": "bekommen mit"
+      },
+      "konjunktiv2": {
+        "ich": "bekäme mit",
+        "du": "bekämest mit",
+        "er_sie_es": "bekäme mit",
+        "wir": "bekämen mit",
+        "ihr": "bekämet mit",
+        "sie_Sie": "bekämen mit"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "mitbekommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bekommen",
+    "woerter": [
+      {
+        "wort": "bekommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گرفتن",
+          "en": "to get"
+        },
+        "id_ref": "verb_bekommen"
+      },
+      {
+        "wort": "bemerken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "متوجه شدن",
+          "en": "to notice"
+        },
+        "id_ref": "verb_bemerken"
+      },
+      {
+        "wort": "verstehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فهمیدن",
+          "en": "to understand"
+        },
+        "id_ref": "verb_verstehen"
+      },
+      {
+        "wort": "verpassen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "از دست دادن",
+          "en": "to miss"
+        },
+        "id_ref": "verb_verpassen"
+      },
+      {
+        "wort": "mit",
+        "wortart": "praeposition",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "با",
+          "en": "with"
+        },
+        "id_ref": "praeposition_mit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

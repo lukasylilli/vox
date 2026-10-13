@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_misslingen",
+  "wort": "misslingen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(کاری) ناموفق بودن، شکست خوردن، خراب شدن"
+    ],
+    "en": [
+      "to fail, to go wrong"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit",
+    "Alltag"
+  ],
+  "ipa": "mɪsˈlɪŋən",
+  "anmerkung": "Untrennbar: misslingt, misslang, ist misslungen. Meist 3. Person.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Kuchen ist misslungen.",
+      "uebersetzung": {
+        "fa": "کیک خراب شد.",
+        "en": "The cake didn't turn out well."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der erste Versuch ist leider misslungen, aber beim zweiten Mal hat alles geklappt.",
+      "uebersetzung": {
+        "fa": "تلاش اول متأسفانه ناموفق بود، اما بار دوم همه چیز درست پیش رفت.",
+        "en": "Unfortunately the first attempt failed, but the second time everything worked."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "scheitern",
+      "uebersetzung": {
+        "fa": "شکست خوردن",
+        "en": "to fail"
+      }
+    },
+    {
+      "wort": "schiefgehen",
+      "uebersetzung": {
+        "fa": "خراب شدن",
+        "en": "to go wrong"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "gelingen",
+      "uebersetzung": {
+        "fa": "موفق شدن",
+        "en": "to succeed"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "miss- (نادرست، بد) + gelingen (موفق شدن)",
+    "en": "miss- (mis-) + gelingen (to succeed)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem misslingen (+ Dat)",
+        "bedeutung": "jemandem nicht gelingen",
+        "beispiel": "Mir ist die Prüfung misslungen.",
+        "uebersetzung": {
+          "fa": "امتحانم خراب شد.",
+          "en": "My exam went badly."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "misslingen",
+      "praeteritum": "misslang",
+      "partizip2": "misslungen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "misslinge",
+        "du": "misslingst",
+        "er_sie_es": "misslingt",
+        "wir": "misslingen",
+        "ihr": "misslingt",
+        "sie_Sie": "misslingen"
+      },
+      "praeteritum": {
+        "ich": "misslang",
+        "du": "misslangst",
+        "er_sie_es": "misslang",
+        "wir": "misslangen",
+        "ihr": "misslangt",
+        "sie_Sie": "misslangen"
+      },
+      "konjunktiv1": {
+        "ich": "misslinge",
+        "du": "misslingest",
+        "er_sie_es": "misslinge",
+        "wir": "misslingen",
+        "ihr": "misslinget",
+        "sie_Sie": "misslingen"
+      },
+      "konjunktiv2": {
+        "ich": "misslänge",
+        "du": "misslängest",
+        "er_sie_es": "misslänge",
+        "wir": "misslängen",
+        "ihr": "misslänget",
+        "sie_Sie": "misslängen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "misslingend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gelingen",
+    "woerter": [
+      {
+        "wort": "gelingen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "موفق شدن",
+          "en": "to succeed"
+        },
+        "id_ref": "verb_gelingen"
+      },
+      {
+        "wort": "scheitern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شکست خوردن",
+          "en": "to fail"
+        },
+        "id_ref": "verb_scheitern"
+      },
+      {
+        "wort": "der Versuch",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تلاش",
+          "en": "attempt"
+        },
+        "id_ref": "nomen_versuch"
+      },
+      {
+        "wort": "der Misserfolg",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شکست",
+          "en": "failure"
+        },
+        "id_ref": "nomen_misserfolg"
+      },
+      {
+        "wort": "klappen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جور شدن",
+          "en": "to work out"
+        },
+        "id_ref": "verb_klappen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
