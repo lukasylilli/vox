@@ -1,0 +1,194 @@
+{
+  "schema": "3.0",
+  "id": "verb_nachgehen",
+  "wort": "nachgehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دنبال (کسی) رفتن",
+      "(موضوعی را) پیگیری کردن، بررسی کردن؛ (به کاری) پرداختن",
+      "(ساعت) عقب بودن"
+    ],
+    "en": [
+      "to follow",
+      "to look into, to pursue; to pursue (an activity)",
+      "(clock) to be slow"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Alltag"
+  ],
+  "ipa": "ˈnaːxˌɡeːən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Meine Uhr geht fünf Minuten nach.",
+      "uebersetzung": {
+        "fa": "ساعتم پنج دقیقه عقب است.",
+        "en": "My watch is five minutes slow."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Polizei geht jedem Hinweis nach, den sie aus der Bevölkerung bekommt.",
+      "uebersetzung": {
+        "fa": "پلیس هر سرنخی را که از مردم دریافت می‌کند پیگیری می‌کند.",
+        "en": "The police follow up every tip they receive from the public."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verfolgen",
+      "uebersetzung": {
+        "fa": "پیگیری کردن",
+        "en": "to pursue"
+      }
+    },
+    {
+      "wort": "folgen",
+      "uebersetzung": {
+        "fa": "دنبال کردن",
+        "en": "to follow"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "vorgehen",
+      "uebersetzung": {
+        "fa": "جلو بودن (ساعت)",
+        "en": "to be fast"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "nach- (پس از، به دنبال؛ دوباره) + gehen (رفتن)",
+    "en": "nach- (after; again) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "einer Sache nachgehen (+ Dat)",
+        "bedeutung": "etwas untersuchen; etwas ausüben",
+        "beispiel": "Er geht einer geregelten Arbeit nach.",
+        "uebersetzung": {
+          "fa": "او یک کار منظم دارد.",
+          "en": "He pursues a regular job."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "nachgehen",
+      "praeteritum": "ging nach",
+      "partizip2": "nachgegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe nach",
+        "du": "gehst nach",
+        "er_sie_es": "geht nach",
+        "wir": "gehen nach",
+        "ihr": "geht nach",
+        "sie_Sie": "gehen nach"
+      },
+      "praeteritum": {
+        "ich": "ging nach",
+        "du": "gingst nach",
+        "er_sie_es": "ging nach",
+        "wir": "gingen nach",
+        "ihr": "gingt nach",
+        "sie_Sie": "gingen nach"
+      },
+      "konjunktiv1": {
+        "ich": "gehe nach",
+        "du": "gehest nach",
+        "er_sie_es": "gehe nach",
+        "wir": "gehen nach",
+        "ihr": "gehet nach",
+        "sie_Sie": "gehen nach"
+      },
+      "konjunktiv2": {
+        "ich": "ginge nach",
+        "du": "gingest nach",
+        "er_sie_es": "ginge nach",
+        "wir": "gingen nach",
+        "ihr": "ginget nach",
+        "sie_Sie": "gingen nach"
+      },
+      "imperativ": {
+        "du": "Geh nach!",
+        "ihr": "Geht nach!",
+        "Sie": "Gehen Sie nach!"
+      }
+    },
+    "partizip1": "nachgehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "verfolgen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پیگیری کردن",
+          "en": "to pursue"
+        },
+        "id_ref": "verb_verfolgen"
+      },
+      {
+        "wort": "der Hinweis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرنخ، اشاره",
+          "en": "tip, hint"
+        },
+        "id_ref": "nomen_hinweis"
+      },
+      {
+        "wort": "die Uhr",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ساعت",
+          "en": "clock"
+        },
+        "id_ref": "nomen_uhr"
+      },
+      {
+        "wort": "nach",
+        "wortart": "praeposition",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بعد از",
+          "en": "after"
+        },
+        "id_ref": "praeposition_nach"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

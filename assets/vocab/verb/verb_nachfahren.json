@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_nachfahren",
+  "wort": "nachfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با وسیله‌ی نقلیه) دنبال (کسی) رفتن، بعداً رفتن"
+    ],
+    "en": [
+      "to follow (by vehicle), to drive after"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr",
+    "Reisen"
+  ],
+  "ipa": "ˈnaːxˌfaːʁən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich fahre euch später nach.",
+      "uebersetzung": {
+        "fa": "بعداً دنبالتان می‌آیم.",
+        "en": "I'll follow you later."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Kinder sind schon mit dem Zug vorausgefahren, und wir fahren am Abend mit dem Auto nach.",
+      "uebersetzung": {
+        "fa": "بچه‌ها با قطار جلوتر رفته‌اند و ما شب با ماشین دنبالشان می‌رویم.",
+        "en": "The children have already gone ahead by train, and we'll follow by car in the evening."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hinterherfahren",
+      "uebersetzung": {
+        "fa": "پشت سر رفتن",
+        "en": "to drive after"
+      }
+    },
+    {
+      "wort": "folgen",
+      "uebersetzung": {
+        "fa": "دنبال کردن",
+        "en": "to follow"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "vorausfahren",
+      "uebersetzung": {
+        "fa": "جلوتر رفتن",
+        "en": "to go ahead"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "nach- (پس از، به دنبال؛ دوباره) + fahren (رفتن (با وسیله))",
+    "en": "nach- (after; again) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem nachfahren (+ Dat)",
+        "bedeutung": "jemandem fahrend folgen",
+        "beispiel": "Fahr dem roten Auto nach!",
+        "uebersetzung": {
+          "fa": "دنبال آن ماشین قرمز برو!",
+          "en": "Follow the red car!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "nachfahren",
+      "praeteritum": "fuhr nach",
+      "partizip2": "nachgefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre nach",
+        "du": "fährst nach",
+        "er_sie_es": "fährt nach",
+        "wir": "fahren nach",
+        "ihr": "fahrt nach",
+        "sie_Sie": "fahren nach"
+      },
+      "praeteritum": {
+        "ich": "fuhr nach",
+        "du": "fuhrst nach",
+        "er_sie_es": "fuhr nach",
+        "wir": "fuhren nach",
+        "ihr": "fuhrt nach",
+        "sie_Sie": "fuhren nach"
+      },
+      "konjunktiv1": {
+        "ich": "fahre nach",
+        "du": "fahrest nach",
+        "er_sie_es": "fahre nach",
+        "wir": "fahren nach",
+        "ihr": "fahret nach",
+        "sie_Sie": "fahren nach"
+      },
+      "konjunktiv2": {
+        "ich": "führe nach",
+        "du": "führest nach",
+        "er_sie_es": "führe nach",
+        "wir": "führen nach",
+        "ihr": "führet nach",
+        "sie_Sie": "führen nach"
+      },
+      "imperativ": {
+        "du": "Fahr nach!",
+        "ihr": "Fahrt nach!",
+        "Sie": "Fahren Sie nach!"
+      }
+    },
+    "partizip1": "nachfahrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "folgen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دنبال کردن",
+          "en": "to follow"
+        },
+        "id_ref": "verb_folgen"
+      },
+      {
+        "wort": "hinterherfahren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پشت سر رفتن",
+          "en": "to drive after"
+        },
+        "id_ref": "verb_hinterherfahren"
+      },
+      {
+        "wort": "vorausfahren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "جلوتر رفتن",
+          "en": "to go ahead"
+        },
+        "id_ref": "verb_vorausfahren"
+      },
+      {
+        "wort": "nach",
+        "wortart": "praeposition",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بعد از",
+          "en": "after"
+        },
+        "id_ref": "praeposition_nach"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

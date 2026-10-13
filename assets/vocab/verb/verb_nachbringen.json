@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_nachbringen",
+  "wort": "nachbringen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(چیزی را) بعداً آوردن یا رساندن"
+    ],
+    "en": [
+      "to bring (something) later, to bring after"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Behörde"
+  ],
+  "ipa": "ˈnaːxˌbʁɪŋən",
+  "anmerkung": "Gemischtes Verb: brachte nach, nachgebracht.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich bringe das Formular nach.",
+      "uebersetzung": {
+        "fa": "فرم را بعداً می‌آورم.",
+        "en": "I'll bring the form later."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die fehlenden Unterlagen können Sie bis Ende des Monats nachbringen.",
+      "uebersetzung": {
+        "fa": "مدارک ناقص را می‌توانید تا آخر ماه بیاورید.",
+        "en": "You can bring the missing documents in by the end of the month."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nachreichen",
+      "uebersetzung": {
+        "fa": "بعداً تحویل دادن",
+        "en": "to submit later"
+      }
+    },
+    {
+      "wort": "nachliefern",
+      "uebersetzung": {
+        "fa": "بعداً تحویل دادن",
+        "en": "to deliver later"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "nach- (پس از، به دنبال؛ دوباره) + bringen (آوردن)",
+    "en": "nach- (after; again) + bringen (to bring)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem etwas nachbringen (+ Dat + Akk)",
+        "bedeutung": "jemandem etwas hinterherbringen",
+        "beispiel": "Sie hat mir den vergessenen Schlüssel nachgebracht.",
+        "uebersetzung": {
+          "fa": "کلیدی را که جا گذاشته بودم برایم آورد.",
+          "en": "She brought me the key I had forgotten."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "nachbringen",
+      "praeteritum": "brachte nach",
+      "partizip2": "nachgebracht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bringe nach",
+        "du": "bringst nach",
+        "er_sie_es": "bringt nach",
+        "wir": "bringen nach",
+        "ihr": "bringt nach",
+        "sie_Sie": "bringen nach"
+      },
+      "praeteritum": {
+        "ich": "brachte nach",
+        "du": "brachtest nach",
+        "er_sie_es": "brachte nach",
+        "wir": "brachten nach",
+        "ihr": "brachtet nach",
+        "sie_Sie": "brachten nach"
+      },
+      "konjunktiv1": {
+        "ich": "bringe nach",
+        "du": "bringest nach",
+        "er_sie_es": "bringe nach",
+        "wir": "bringen nach",
+        "ihr": "bringet nach",
+        "sie_Sie": "bringen nach"
+      },
+      "konjunktiv2": {
+        "ich": "brächte nach",
+        "du": "brächtest nach",
+        "er_sie_es": "brächte nach",
+        "wir": "brächten nach",
+        "ihr": "brächtet nach",
+        "sie_Sie": "brächten nach"
+      },
+      "imperativ": {
+        "du": "Bring nach!",
+        "ihr": "Bringt nach!",
+        "Sie": "Bringen Sie nach!"
+      }
+    },
+    "partizip1": "nachbringend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bringen",
+    "woerter": [
+      {
+        "wort": "bringen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آوردن",
+          "en": "to bring"
+        },
+        "id_ref": "verb_bringen"
+      },
+      {
+        "wort": "nachreichen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بعداً تحویل دادن",
+          "en": "to submit later"
+        },
+        "id_ref": "verb_nachreichen"
+      },
+      {
+        "wort": "die Unterlagen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مدارک",
+          "en": "documents"
+        },
+        "id_ref": "nomen_unterlagen"
+      },
+      {
+        "wort": "vergessen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فراموش کردن",
+          "en": "to forget"
+        },
+        "id_ref": "verb_vergessen"
+      },
+      {
+        "wort": "nach",
+        "wortart": "praeposition",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بعد از",
+          "en": "after"
+        },
+        "id_ref": "praeposition_nach"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

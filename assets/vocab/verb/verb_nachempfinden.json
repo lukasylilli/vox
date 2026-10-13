@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_nachempfinden",
+  "wort": "nachempfinden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(احساس کسی را) درک کردن، با (کسی) همدل بودن",
+      "(اثری را) از روی (اثری دیگر) ساختن"
+    ],
+    "en": [
+      "to empathise with, to understand (someone's feelings)",
+      "to model (something) on"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle",
+    "Kunst"
+  ],
+  "ipa": "ˈnaːxɛmpˌfɪndn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das kann ich gut nachempfinden.",
+      "uebersetzung": {
+        "fa": "این را خوب درک می‌کنم.",
+        "en": "I can understand that well."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wer selbst einmal ins Ausland gezogen ist, kann gut nachempfinden, wie einsam man sich am Anfang fühlt.",
+      "uebersetzung": {
+        "fa": "کسی که خودش یک بار به خارج رفته، خوب درک می‌کند آدم اوایل چقدر احساس تنهایی می‌کند.",
+        "en": "Anyone who has moved abroad themselves can well understand how lonely you feel at first."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nachfühlen",
+      "uebersetzung": {
+        "fa": "درک کردن (احساس)",
+        "en": "to empathise"
+      }
+    },
+    {
+      "wort": "verstehen",
+      "uebersetzung": {
+        "fa": "فهمیدن",
+        "en": "to understand"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "nach- (پس از، به دنبال؛ دوباره) + empfinden (حس کردن)",
+    "en": "nach- (after; again) + empfinden (to feel)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem etwas nachempfinden (+ Dat + Akk)",
+        "bedeutung": "jemandes Gefühl verstehen",
+        "beispiel": "Ich kann dir deine Wut gut nachempfinden.",
+        "uebersetzung": {
+          "fa": "خشمت را خوب درک می‌کنم.",
+          "en": "I can well understand your anger."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "nachempfinden",
+      "praeteritum": "empfand nach",
+      "partizip2": "nachempfunden"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "empfinde nach",
+        "du": "empfindest nach",
+        "er_sie_es": "empfindet nach",
+        "wir": "empfinden nach",
+        "ihr": "empfindet nach",
+        "sie_Sie": "empfinden nach"
+      },
+      "praeteritum": {
+        "ich": "empfand nach",
+        "du": "empfandest nach",
+        "er_sie_es": "empfand nach",
+        "wir": "empfanden nach",
+        "ihr": "empfandet nach",
+        "sie_Sie": "empfanden nach"
+      },
+      "konjunktiv1": {
+        "ich": "empfinde nach",
+        "du": "empfindest nach",
+        "er_sie_es": "empfinde nach",
+        "wir": "empfinden nach",
+        "ihr": "empfindet nach",
+        "sie_Sie": "empfinden nach"
+      },
+      "konjunktiv2": {
+        "ich": "empfände nach",
+        "du": "empfändest nach",
+        "er_sie_es": "empfände nach",
+        "wir": "empfänden nach",
+        "ihr": "empfändet nach",
+        "sie_Sie": "empfänden nach"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "nachempfindend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "empfinden",
+    "woerter": [
+      {
+        "wort": "empfinden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حس کردن",
+          "en": "to feel"
+        },
+        "id_ref": "verb_empfinden"
+      },
+      {
+        "wort": "nachfühlen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "درک کردن (احساس)",
+          "en": "to empathise"
+        },
+        "id_ref": "verb_nachfuehlen"
+      },
+      {
+        "wort": "die Empathie",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "همدلی",
+          "en": "empathy"
+        },
+        "id_ref": "nomen_empathie"
+      },
+      {
+        "wort": "das Gefühl",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "احساس",
+          "en": "feeling"
+        },
+        "id_ref": "nomen_gefuehl"
+      },
+      {
+        "wort": "verstehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فهمیدن",
+          "en": "to understand"
+        },
+        "id_ref": "verb_verstehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

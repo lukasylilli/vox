@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_nachfragen",
+  "wort": "nachfragen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دوباره پرسیدن، جویا شدن، پیگیری کردن"
+    ],
+    "en": [
+      "to ask (again), to inquire, to follow up"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Kommunikation",
+    "Behörde",
+    "Arbeit"
+  ],
+  "ipa": "ˈnaːxˌfʁaːɡn̩",
+  "anmerkung": "In der Verbliste unter den unregelmäßigen Verben; konjugiert regelmäßig (fragte nach, nachgefragt).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich frage morgen nach.",
+      "uebersetzung": {
+        "fa": "فردا پیگیری می‌کنم.",
+        "en": "I'll ask again tomorrow."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn Sie etwas nicht verstanden haben, fragen Sie bitte einfach nach.",
+      "uebersetzung": {
+        "fa": "اگر چیزی را متوجه نشدید، لطفاً راحت دوباره بپرسید.",
+        "en": "If you haven't understood something, please just ask."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich erkundigen",
+      "uebersetzung": {
+        "fa": "جویا شدن",
+        "en": "to inquire"
+      }
+    },
+    {
+      "wort": "erfragen",
+      "uebersetzung": {
+        "fa": "استعلام کردن",
+        "en": "to ask for"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "nach- (پس از، به دنبال؛ دوباره) + fragen (پرسیدن)",
+    "en": "nach- (after; again) + fragen (to ask)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "bei + Dat nachfragen",
+        "bedeutung": "sich bei jemandem erkundigen",
+        "beispiel": "Frag doch mal bei der Krankenkasse nach!",
+        "uebersetzung": {
+          "fa": "یک بار از بیمه‌ی درمانی پرس‌وجو کن!",
+          "en": "Why don't you ask the health insurance?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "nachfragen",
+      "praeteritum": "fragte nach",
+      "partizip2": "nachgefragt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "frage nach",
+        "du": "fragst nach",
+        "er_sie_es": "fragt nach",
+        "wir": "fragen nach",
+        "ihr": "fragt nach",
+        "sie_Sie": "fragen nach"
+      },
+      "praeteritum": {
+        "ich": "fragte nach",
+        "du": "fragtest nach",
+        "er_sie_es": "fragte nach",
+        "wir": "fragten nach",
+        "ihr": "fragtet nach",
+        "sie_Sie": "fragten nach"
+      },
+      "konjunktiv1": {
+        "ich": "frage nach",
+        "du": "fragest nach",
+        "er_sie_es": "frage nach",
+        "wir": "fragen nach",
+        "ihr": "fraget nach",
+        "sie_Sie": "fragen nach"
+      },
+      "konjunktiv2": {
+        "ich": "fragte nach",
+        "du": "fragtest nach",
+        "er_sie_es": "fragte nach",
+        "wir": "fragten nach",
+        "ihr": "fragtet nach",
+        "sie_Sie": "fragten nach"
+      },
+      "imperativ": {
+        "du": "Frag nach!",
+        "ihr": "Fragt nach!",
+        "Sie": "Fragen Sie nach!"
+      }
+    },
+    "partizip1": "nachfragend",
+    "nominalisierung": "die Nachfrage"
+  },
+  "wortnetz": {
+    "grundwort": "fragen",
+    "woerter": [
+      {
+        "wort": "fragen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرسیدن",
+          "en": "to ask"
+        },
+        "id_ref": "verb_fragen"
+      },
+      {
+        "wort": "die Nachfrage",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پرس‌وجو؛ تقاضا",
+          "en": "inquiry; demand"
+        },
+        "id_ref": "nomen_nachfrage"
+      },
+      {
+        "wort": "sich erkundigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جویا شدن",
+          "en": "to inquire"
+        },
+        "id_ref": "verb_sich_erkundigen"
+      },
+      {
+        "wort": "die Auskunft",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اطلاعات",
+          "en": "information"
+        },
+        "id_ref": "nomen_auskunft"
+      },
+      {
+        "wort": "nach",
+        "wortart": "praeposition",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بعد از",
+          "en": "after"
+        },
+        "id_ref": "praeposition_nach"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

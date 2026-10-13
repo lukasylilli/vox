@@ -1218,6 +1218,10 @@ const zurueckgestellt = <String>{
   'mitklingen', // zurückgestellt (Regel 14/16): selten 2026-10-11
   'mitkönnen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
   'mitlassen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'mitmüssen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'nachdürfen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'nachfallen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'nachgären', // zurückgestellt (Regel 14/16): selten 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

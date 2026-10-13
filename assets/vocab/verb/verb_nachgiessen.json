@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_nachgiessen",
+  "wort": "nachgießen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(نوشیدنی یا مایعی را) دوباره ریختن، پر کردن"
+    ],
+    "en": [
+      "to top up, to pour more"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Essen",
+    "Küche"
+  ],
+  "ipa": "ˈnaːxˌɡiːsn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Darf ich nachgießen?",
+      "uebersetzung": {
+        "fa": "اجازه هست دوباره بریزم؟",
+        "en": "May I top you up?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn die Suppe zu dick wird, gießt man einfach etwas Wasser nach.",
+      "uebersetzung": {
+        "fa": "اگر سوپ زیادی غلیظ شد، کمی آب اضافه می‌کنند.",
+        "en": "If the soup gets too thick, you just add a little more water."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nachschenken",
+      "uebersetzung": {
+        "fa": "دوباره (نوشیدنی) ریختن",
+        "en": "to top up"
+      }
+    },
+    {
+      "wort": "auffüllen",
+      "uebersetzung": {
+        "fa": "پر کردن",
+        "en": "to refill"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "nach- (پس از، به دنبال؛ دوباره) + gießen (ریختن (مایع))",
+    "en": "nach- (after; again) + gießen (to pour)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem etwas nachgießen (+ Dat + Akk)",
+        "bedeutung": "jemandem nochmals einschenken",
+        "beispiel": "Sie gießt ihrem Gast Tee nach.",
+        "uebersetzung": {
+          "fa": "برای مهمانش دوباره چای می‌ریزد.",
+          "en": "She tops up her guest's tea."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "nachgießen",
+      "praeteritum": "goss nach",
+      "partizip2": "nachgegossen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gieße nach",
+        "du": "gießt nach",
+        "er_sie_es": "gießt nach",
+        "wir": "gießen nach",
+        "ihr": "gießt nach",
+        "sie_Sie": "gießen nach"
+      },
+      "praeteritum": {
+        "ich": "goss nach",
+        "du": "gossest nach",
+        "er_sie_es": "goss nach",
+        "wir": "gossen nach",
+        "ihr": "gosst nach",
+        "sie_Sie": "gossen nach"
+      },
+      "konjunktiv1": {
+        "ich": "gieße nach",
+        "du": "gießest nach",
+        "er_sie_es": "gieße nach",
+        "wir": "gießen nach",
+        "ihr": "gießet nach",
+        "sie_Sie": "gießen nach"
+      },
+      "konjunktiv2": {
+        "ich": "gösse nach",
+        "du": "gössest nach",
+        "er_sie_es": "gösse nach",
+        "wir": "gössen nach",
+        "ihr": "gösset nach",
+        "sie_Sie": "gössen nach"
+      },
+      "imperativ": {
+        "du": "Gieß nach!",
+        "ihr": "Gießt nach!",
+        "Sie": "Gießen Sie nach!"
+      }
+    },
+    "partizip1": "nachgießend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gießen",
+    "woerter": [
+      {
+        "wort": "gießen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریختن (مایع)",
+          "en": "to pour"
+        },
+        "id_ref": "verb_giessen"
+      },
+      {
+        "wort": "nachschenken",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دوباره ریختن",
+          "en": "to top up"
+        },
+        "id_ref": "verb_nachschenken"
+      },
+      {
+        "wort": "das Glas",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "لیوان",
+          "en": "glass"
+        },
+        "id_ref": "nomen_glas"
+      },
+      {
+        "wort": "der Tee",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چای",
+          "en": "tea"
+        },
+        "id_ref": "nomen_tee"
+      },
+      {
+        "wort": "nach",
+        "wortart": "praeposition",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بعد از",
+          "en": "after"
+        },
+        "id_ref": "praeposition_nach"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
