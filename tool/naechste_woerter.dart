@@ -1342,6 +1342,18 @@ const zurueckgestellt = <String>{
   'umbehalten', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-13
   'umbinden', // zurückgestellt (Regel 14/16): trennbar/untrennbar nicht sicher geklärt; Symbol nicht eindeutig 2026-10-13
   'umbrechen', // zurückgestellt (Regel 14/16): trennbar und untrennbar mit verschiedener Bedeutung; Symbol nicht eindeutig 2026-10-13
+  'umfahren', // zurückgestellt (Regel 14/16): trennbar und untrennbar mit verschiedener Bedeutung; Symbol nicht eindeutig 2026-10-13
+  'umfangen', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-13
+  'umflechten', // zurückgestellt (Regel 14/16): selten (Fachwort) 2026-10-13
+  'umfliegen', // zurückgestellt (Regel 14/16): trennbar und untrennbar mit verschiedener Bedeutung; Symbol nicht eindeutig 2026-10-13
+  'umfragen', // zurückgestellt (Regel 14/16): selten, kaum konjugiert gebräuchlich 2026-10-13
+  'umgeben', // zurückgestellt (Regel 14/16): trennbar (ugs. umlegen) und untrennbar (umringen); Symbol nicht eindeutig 2026-10-13
+  'umgehen', // zurückgestellt (Regel 14/16): trennbar und untrennbar mit verschiedener Bedeutung; Symbol nicht eindeutig 2026-10-13
+  'umgreifen', // zurückgestellt (Regel 14/16): trennbar und untrennbar mit verschiedener Bedeutung; Symbol nicht eindeutig 2026-10-13
+  'umhaben', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-13
+  'umhängen', // zurückgestellt (Regel 14/16): hängen-Kompositum; transitiv schwach, intransitiv stark — Formen schwanken 2026-10-13
+  'umhauen', // zurückgestellt (Regel 14/16): umgangssprachlich; Präteritum schwankt (haute/hieb) 2026-10-13
+  'umherkriechen', // zurückgestellt (Regel 14/16): selten 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_umfliessen",
+  "wort": "umfließen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دور (چیزی) جاری بودن، (آب) احاطه کردن"
+    ],
+    "en": [
+      "to flow around",
+      "to surround (of water)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Geografie"
+  ],
+  "ipa": "ʊmˈfliːsn̩",
+  "anmerkung": "Untrennbar (umfloss, umflossen). Oft im Passiv: «von Wasser umflossen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ein Bach umfließt das Dorf.",
+      "uebersetzung": {
+        "fa": "جویباری دور روستا جاری است.",
+        "en": "A stream flows around the village."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Altstadt liegt auf einer Insel, die von zwei Flussarmen umflossen wird.",
+      "uebersetzung": {
+        "fa": "شهر قدیمی روی جزیره‌ای است که دو شاخه‌ی رود دورش جاری‌اند.",
+        "en": "The old town lies on an island that is surrounded by two arms of the river."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "umgeben",
+      "uebersetzung": {
+        "fa": "احاطه کردن",
+        "en": "to surround"
+      }
+    },
+    {
+      "wort": "umspülen",
+      "uebersetzung": {
+        "fa": "(آب) دور چیزی را شستن",
+        "en": "to wash around"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "um- (دور، پیرامون) + fließen (جاری شدن)",
+    "en": "um- (around) + fließen (to flow)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "umfließen",
+      "praeteritum": "umfloss",
+      "partizip2": "umflossen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "umfließe",
+        "du": "umfließt",
+        "er_sie_es": "umfließt",
+        "wir": "umfließen",
+        "ihr": "umfließt",
+        "sie_Sie": "umfließen"
+      },
+      "praeteritum": {
+        "ich": "umfloss",
+        "du": "umflossest",
+        "er_sie_es": "umfloss",
+        "wir": "umflossen",
+        "ihr": "umflosst",
+        "sie_Sie": "umflossen"
+      },
+      "konjunktiv1": {
+        "ich": "umfließe",
+        "du": "umfließest",
+        "er_sie_es": "umfließe",
+        "wir": "umfließen",
+        "ihr": "umfließet",
+        "sie_Sie": "umfließen"
+      },
+      "konjunktiv2": {
+        "ich": "umflösse",
+        "du": "umflössest",
+        "er_sie_es": "umflösse",
+        "wir": "umflössen",
+        "ihr": "umflösset",
+        "sie_Sie": "umflössen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "umfließend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fließen",
+    "woerter": [
+      {
+        "wort": "fließen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جاری شدن",
+          "en": "to flow"
+        },
+        "id_ref": "verb_fliessen"
+      },
+      {
+        "wort": "der Fluss",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رود",
+          "en": "river"
+        },
+        "id_ref": "nomen_fluss"
+      },
+      {
+        "wort": "die Insel",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جزیره",
+          "en": "island"
+        },
+        "id_ref": "nomen_insel"
+      },
+      {
+        "wort": "das Ufer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ساحل رود، کرانه",
+          "en": "bank, shore"
+        },
+        "id_ref": "nomen_ufer"
+      },
+      {
+        "wort": "umgeben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "احاطه کردن",
+          "en": "to surround"
+        },
+        "id_ref": "verb_umgeben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

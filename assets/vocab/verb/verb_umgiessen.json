@@ -1,0 +1,167 @@
+{
+  "schema": "3.0",
+  "id": "verb_umgiessen",
+  "wort": "umgießen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(مایع را) در ظرف دیگری ریختن",
+      "(فلز را) دوباره ریخته‌گری کردن"
+    ],
+    "en": [
+      "to pour (into another container)",
+      "to recast (metal)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Haushalt",
+    "Küche"
+  ],
+  "ipa": "ˈʊmˌɡiːsn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich gieße den Saft in eine Flasche um.",
+      "uebersetzung": {
+        "fa": "آبمیوه را در یک بطری می‌ریزم.",
+        "en": "I pour the juice into a bottle."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor der Wein serviert wird, gießt der Kellner ihn in eine Karaffe um.",
+      "uebersetzung": {
+        "fa": "پیش از آن که شراب سرو شود، پیشخدمت آن را در یک تُنگ می‌ریزد.",
+        "en": "Before the wine is served, the waiter pours it into a carafe."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "umfüllen",
+      "uebersetzung": {
+        "fa": "از ظرفی به ظرف دیگر ریختن",
+        "en": "to decant, to transfer"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "um- (جابه‌جا، به ظرف دیگر) + gießen (ریختن)",
+    "en": "um- (over, into another) + gießen (to pour)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "umgießen",
+      "praeteritum": "goss um",
+      "partizip2": "umgegossen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gieße um",
+        "du": "gießt um",
+        "er_sie_es": "gießt um",
+        "wir": "gießen um",
+        "ihr": "gießt um",
+        "sie_Sie": "gießen um"
+      },
+      "praeteritum": {
+        "ich": "goss um",
+        "du": "gossest um",
+        "er_sie_es": "goss um",
+        "wir": "gossen um",
+        "ihr": "gosst um",
+        "sie_Sie": "gossen um"
+      },
+      "konjunktiv1": {
+        "ich": "gieße um",
+        "du": "gießest um",
+        "er_sie_es": "gieße um",
+        "wir": "gießen um",
+        "ihr": "gießet um",
+        "sie_Sie": "gießen um"
+      },
+      "konjunktiv2": {
+        "ich": "gösse um",
+        "du": "gössest um",
+        "er_sie_es": "gösse um",
+        "wir": "gössen um",
+        "ihr": "gösset um",
+        "sie_Sie": "gössen um"
+      },
+      "imperativ": {
+        "du": "Gieß um!",
+        "ihr": "Gießt um!",
+        "Sie": "Gießen Sie um!"
+      }
+    },
+    "partizip1": "umgießend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gießen",
+    "woerter": [
+      {
+        "wort": "gießen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریختن، آب دادن",
+          "en": "to pour, to water"
+        },
+        "id_ref": "verb_giessen"
+      },
+      {
+        "wort": "die Flasche",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بطری",
+          "en": "bottle"
+        },
+        "id_ref": "nomen_flasche"
+      },
+      {
+        "wort": "das Glas",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "لیوان",
+          "en": "glass"
+        },
+        "id_ref": "nomen_glas"
+      },
+      {
+        "wort": "umfüllen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "از ظرفی به ظرف دیگر ریختن",
+          "en": "to decant"
+        },
+        "id_ref": "verb_umfuellen"
+      },
+      {
+        "wort": "die Karaffe",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تُنگ",
+          "en": "carafe"
+        },
+        "id_ref": "nomen_karaffe"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

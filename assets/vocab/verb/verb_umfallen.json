@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_umfallen",
+  "wort": "umfallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "افتادن، واژگون شدن",
+      "(محاوره) از حال رفتن، غش کردن",
+      "(محاوره) نظر خود را عوض کردن، کوتاه آمدن"
+    ],
+    "en": [
+      "to fall over",
+      "(colloquial) to collapse, to pass out",
+      "(colloquial) to cave in, to change one's mind"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈʊmˌfalən",
+  "anmerkung": "Übertragen (ugs.): «Er ist im letzten Moment umgefallen» = hat nachgegeben, seine Meinung geändert.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Vase ist umgefallen.",
+      "uebersetzung": {
+        "fa": "گلدان افتاد.",
+        "en": "The vase fell over."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als der Sturm stärker wurde, fiel der alte Baum vor unserem Haus um.",
+      "uebersetzung": {
+        "fa": "وقتی طوفان شدیدتر شد، درخت پیر جلوی خانه‌مان افتاد.",
+        "en": "When the storm got stronger, the old tree in front of our house fell over."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "umkippen",
+      "uebersetzung": {
+        "fa": "واژگون شدن",
+        "en": "to tip over"
+      }
+    },
+    {
+      "wort": "hinfallen",
+      "uebersetzung": {
+        "fa": "زمین خوردن",
+        "en": "to fall down"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "aufstehen",
+      "uebersetzung": {
+        "fa": "بلند شدن، برخاستن",
+        "en": "to get up"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "um- (به زمین، واژگون) + fallen (افتادن)",
+    "en": "um- (over) + fallen (to fall)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "umfallen",
+      "praeteritum": "fiel um",
+      "partizip2": "umgefallen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "falle um",
+        "du": "fällst um",
+        "er_sie_es": "fällt um",
+        "wir": "fallen um",
+        "ihr": "fallt um",
+        "sie_Sie": "fallen um"
+      },
+      "praeteritum": {
+        "ich": "fiel um",
+        "du": "fielst um",
+        "er_sie_es": "fiel um",
+        "wir": "fielen um",
+        "ihr": "fielt um",
+        "sie_Sie": "fielen um"
+      },
+      "konjunktiv1": {
+        "ich": "falle um",
+        "du": "fallest um",
+        "er_sie_es": "falle um",
+        "wir": "fallen um",
+        "ihr": "fallet um",
+        "sie_Sie": "fallen um"
+      },
+      "konjunktiv2": {
+        "ich": "fiele um",
+        "du": "fielest um",
+        "er_sie_es": "fiele um",
+        "wir": "fielen um",
+        "ihr": "fielet um",
+        "sie_Sie": "fielen um"
+      },
+      "imperativ": {
+        "du": "Fall um!",
+        "ihr": "Fallt um!",
+        "Sie": "Fallen Sie um!"
+      }
+    },
+    "partizip1": "umfallend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fallen",
+    "woerter": [
+      {
+        "wort": "fallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "افتادن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_fallen"
+      },
+      {
+        "wort": "hinfallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زمین خوردن",
+          "en": "to fall down"
+        },
+        "id_ref": "verb_hinfallen"
+      },
+      {
+        "wort": "umkippen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "واژگون شدن",
+          "en": "to tip over"
+        },
+        "id_ref": "verb_umkippen"
+      },
+      {
+        "wort": "der Sturm",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "طوفان",
+          "en": "storm"
+        },
+        "id_ref": "nomen_sturm"
+      },
+      {
+        "wort": "ohnmächtig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیهوش",
+          "en": "unconscious"
+        },
+        "id_ref": "adjektiv_ohnmaechtig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
