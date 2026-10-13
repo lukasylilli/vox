@@ -1,0 +1,171 @@
+{
+  "schema": "3.0",
+  "id": "verb_schmelzen",
+  "wort": "schmelzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ذوب شدن، آب شدن",
+      "ذوب کردن"
+    ],
+    "en": [
+      "to melt"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Natur",
+    "Wetter"
+  ],
+  "ipa": "ˈʃmɛlt͡sn̩",
+  "anmerkung": "Intransitiv mit «sein» (Der Schnee ist geschmolzen); transitiv mit «haben» (Wir haben die Butter geschmolzen).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Eis schmilzt in der Sonne.",
+      "uebersetzung": {
+        "fa": "بستنی زیر آفتاب آب می‌شود.",
+        "en": "The ice cream is melting in the sun."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil es plötzlich warm wurde, ist der ganze Schnee innerhalb eines Tages geschmolzen.",
+      "uebersetzung": {
+        "fa": "چون ناگهان هوا گرم شد، همه‌ی برف در یک روز آب شد.",
+        "en": "Because it suddenly got warm, all the snow melted within a day."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "tauen",
+      "uebersetzung": {
+        "fa": "آب شدن (برف و یخ)",
+        "en": "to thaw"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "gefrieren",
+      "uebersetzung": {
+        "fa": "یخ زدن",
+        "en": "to freeze"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "schmelzen",
+      "praeteritum": "schmolz",
+      "partizip2": "geschmolzen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schmelze",
+        "du": "schmilzt",
+        "er_sie_es": "schmilzt",
+        "wir": "schmelzen",
+        "ihr": "schmelzt",
+        "sie_Sie": "schmelzen"
+      },
+      "praeteritum": {
+        "ich": "schmolz",
+        "du": "schmolzest",
+        "er_sie_es": "schmolz",
+        "wir": "schmolzen",
+        "ihr": "schmolzt",
+        "sie_Sie": "schmolzen"
+      },
+      "konjunktiv1": {
+        "ich": "schmelze",
+        "du": "schmelzest",
+        "er_sie_es": "schmelze",
+        "wir": "schmelzen",
+        "ihr": "schmelzet",
+        "sie_Sie": "schmelzen"
+      },
+      "konjunktiv2": {
+        "ich": "schmölze",
+        "du": "schmölzest",
+        "er_sie_es": "schmölze",
+        "wir": "schmölzen",
+        "ihr": "schmölzet",
+        "sie_Sie": "schmölzen"
+      },
+      "imperativ": {
+        "du": "Schmilz!",
+        "ihr": "Schmelzt!",
+        "Sie": "Schmelzen Sie!"
+      }
+    },
+    "partizip1": "schmelzend",
+    "nominalisierung": "die Schmelze"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Eis",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "یخ؛ بستنی",
+          "en": "ice; ice cream"
+        },
+        "id_ref": "nomen_eis"
+      },
+      {
+        "wort": "der Schnee",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "برف",
+          "en": "snow"
+        },
+        "id_ref": "nomen_schnee"
+      },
+      {
+        "wort": "warm",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گرم",
+          "en": "warm"
+        },
+        "id_ref": "adjektiv_warm"
+      },
+      {
+        "wort": "tauen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آب شدن",
+          "en": "to thaw"
+        },
+        "id_ref": "verb_tauen"
+      },
+      {
+        "wort": "gefrieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "یخ زدن",
+          "en": "to freeze"
+        },
+        "id_ref": "verb_gefrieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

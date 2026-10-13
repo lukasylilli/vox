@@ -1,0 +1,200 @@
+{
+  "schema": "3.0",
+  "id": "verb_schlagen",
+  "wort": "schlagen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "زدن، کتک زدن",
+      "شکست دادن",
+      "(قلب) زدن، (ساعت) زنگ زدن"
+    ],
+    "en": [
+      "to hit",
+      "to beat",
+      "to strike"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Sport"
+  ],
+  "ipa": "ˈʃlaːɡn̩",
+  "anmerkung": "Intransitiv in der Bedeutung «heftig auftreffen» auch mit «sein» (Er ist mit dem Kopf auf den Boden geschlagen).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mein Herz schlägt schnell.",
+      "uebersetzung": {
+        "fa": "قلبم تند می‌زند.",
+        "en": "My heart is beating fast."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Obwohl wir gut gespielt haben, hat uns die andere Mannschaft 2:1 geschlagen.",
+      "uebersetzung": {
+        "fa": "با اینکه خوب بازی کردیم، تیم مقابل ما را ۲ بر ۱ شکست داد.",
+        "en": "Although we played well, the other team beat us 2–1."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hauen",
+      "uebersetzung": {
+        "fa": "(محاوره) زدن",
+        "en": "to hit"
+      }
+    },
+    {
+      "wort": "besiegen",
+      "uebersetzung": {
+        "fa": "شکست دادن",
+        "en": "to defeat"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verlieren",
+      "uebersetzung": {
+        "fa": "باختن",
+        "en": "to lose"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Akk schlagen",
+        "bedeutung": "heftig auf etwas treffen",
+        "beispiel": "Er schlägt mit der Faust auf den Tisch.",
+        "uebersetzung": {
+          "fa": "او با مشت روی میز می‌کوبد.",
+          "en": "He bangs his fist on the table."
+        }
+      },
+      {
+        "muster": "nach + Dat schlagen",
+        "bedeutung": "jemandem ähnlich werden",
+        "beispiel": "Der Junge schlägt nach seinem Vater.",
+        "uebersetzung": {
+          "fa": "این پسر به پدرش رفته است.",
+          "en": "The boy takes after his father."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schlagen",
+      "praeteritum": "schlug",
+      "partizip2": "geschlagen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schlage",
+        "du": "schlägst",
+        "er_sie_es": "schlägt",
+        "wir": "schlagen",
+        "ihr": "schlagt",
+        "sie_Sie": "schlagen"
+      },
+      "praeteritum": {
+        "ich": "schlug",
+        "du": "schlugst",
+        "er_sie_es": "schlug",
+        "wir": "schlugen",
+        "ihr": "schlugt",
+        "sie_Sie": "schlugen"
+      },
+      "konjunktiv1": {
+        "ich": "schlage",
+        "du": "schlagest",
+        "er_sie_es": "schlage",
+        "wir": "schlagen",
+        "ihr": "schlaget",
+        "sie_Sie": "schlagen"
+      },
+      "konjunktiv2": {
+        "ich": "schlüge",
+        "du": "schlügest",
+        "er_sie_es": "schlüge",
+        "wir": "schlügen",
+        "ihr": "schlüget",
+        "sie_Sie": "schlügen"
+      },
+      "imperativ": {
+        "du": "Schlag!",
+        "ihr": "Schlagt!",
+        "Sie": "Schlagen Sie!"
+      }
+    },
+    "partizip1": "schlagend",
+    "nominalisierung": "der Schlag"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Vorschlag",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پیشنهاد",
+          "en": "suggestion"
+        },
+        "id_ref": "nomen_vorschlag"
+      },
+      {
+        "wort": "vorschlagen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پیشنهاد دادن",
+          "en": "to suggest"
+        },
+        "id_ref": "verb_vorschlagen"
+      },
+      {
+        "wort": "der Schlag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ضربه",
+          "en": "blow, hit"
+        },
+        "id_ref": "nomen_schlag"
+      },
+      {
+        "wort": "besiegen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شکست دادن",
+          "en": "to defeat"
+        },
+        "id_ref": "verb_besiegen"
+      },
+      {
+        "wort": "die Schlägerei",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زد و خورد",
+          "en": "brawl"
+        },
+        "id_ref": "nomen_schlaegerei"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

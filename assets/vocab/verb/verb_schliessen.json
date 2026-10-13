@@ -1,0 +1,200 @@
+{
+  "schema": "3.0",
+  "id": "verb_schliessen",
+  "wort": "schließen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بستن",
+      "تعطیل کردن",
+      "(قرارداد، دوستی) بستن؛ نتیجه گرفتن"
+    ],
+    "en": [
+      "to close",
+      "to shut",
+      "to conclude"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Arbeit"
+  ],
+  "ipa": "ˈʃliːsn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte schließ die Tür!",
+      "uebersetzung": {
+        "fa": "لطفاً در را ببند!",
+        "en": "Please close the door!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil der Umsatz zu gering war, hat der Laden letzten Monat geschlossen.",
+      "uebersetzung": {
+        "fa": "چون فروش خیلی کم بود، مغازه ماه گذشته تعطیل شد.",
+        "en": "Because sales were too low, the shop closed last month."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zumachen",
+      "uebersetzung": {
+        "fa": "بستن",
+        "en": "to close"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "öffnen",
+      "uebersetzung": {
+        "fa": "باز کردن",
+        "en": "to open"
+      }
+    },
+    {
+      "wort": "aufmachen",
+      "uebersetzung": {
+        "fa": "باز کردن",
+        "en": "to open"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "aus + Dat schließen",
+        "bedeutung": "eine Folgerung ziehen",
+        "beispiel": "Aus seiner Antwort schließe ich, dass er keine Zeit hat.",
+        "uebersetzung": {
+          "fa": "از جوابش نتیجه می‌گیرم که وقت ندارد.",
+          "en": "From his answer I conclude that he has no time."
+        }
+      },
+      {
+        "muster": "von + Dat auf + Akk schließen",
+        "bedeutung": "von etwas auf etwas anderes folgern",
+        "beispiel": "Man sollte nicht von einer Person auf alle schließen.",
+        "uebersetzung": {
+          "fa": "نباید از یک نفر درباره‌ی همه نتیجه گرفت.",
+          "en": "You shouldn't judge everyone by one person."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schließen",
+      "praeteritum": "schloss",
+      "partizip2": "geschlossen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schließe",
+        "du": "schließt",
+        "er_sie_es": "schließt",
+        "wir": "schließen",
+        "ihr": "schließt",
+        "sie_Sie": "schließen"
+      },
+      "praeteritum": {
+        "ich": "schloss",
+        "du": "schlossest",
+        "er_sie_es": "schloss",
+        "wir": "schlossen",
+        "ihr": "schlosst",
+        "sie_Sie": "schlossen"
+      },
+      "konjunktiv1": {
+        "ich": "schließe",
+        "du": "schließest",
+        "er_sie_es": "schließe",
+        "wir": "schließen",
+        "ihr": "schließet",
+        "sie_Sie": "schließen"
+      },
+      "konjunktiv2": {
+        "ich": "schlösse",
+        "du": "schlössest",
+        "er_sie_es": "schlösse",
+        "wir": "schlössen",
+        "ihr": "schlösset",
+        "sie_Sie": "schlössen"
+      },
+      "imperativ": {
+        "du": "Schließ!",
+        "ihr": "Schließt!",
+        "Sie": "Schließen Sie!"
+      }
+    },
+    "partizip1": "schließend",
+    "nominalisierung": "die Schließung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "öffnen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باز کردن",
+          "en": "to open"
+        },
+        "id_ref": "verb_oeffnen"
+      },
+      {
+        "wort": "der Schlüssel",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کلید",
+          "en": "key"
+        },
+        "id_ref": "nomen_schluessel"
+      },
+      {
+        "wort": "geschlossen",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بسته، تعطیل",
+          "en": "closed"
+        },
+        "id_ref": "adjektiv_geschlossen"
+      },
+      {
+        "wort": "abschließen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قفل کردن؛ به پایان رساندن",
+          "en": "to lock; to complete"
+        },
+        "id_ref": "verb_abschliessen"
+      },
+      {
+        "wort": "der Schluss",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پایان؛ نتیجه",
+          "en": "end; conclusion"
+        },
+        "id_ref": "nomen_schluss"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

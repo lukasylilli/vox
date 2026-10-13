@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_schlingen",
+  "wort": "schlingen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پیچیدن، گره زدن (دور چیزی)",
+      "با عجله بلعیدن"
+    ],
+    "en": [
+      "to wrap, to loop",
+      "to gulp (down)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag",
+    "Essen"
+  ],
+  "ipa": "ˈʃlɪŋən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie schlingt den Schal um den Hals.",
+      "uebersetzung": {
+        "fa": "او شال را دور گردنش می‌پیچد.",
+        "en": "She wraps the scarf around her neck."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil er spät dran war, hat er sein Frühstück in zwei Minuten geschlungen.",
+      "uebersetzung": {
+        "fa": "چون دیرش شده بود، صبحانه‌اش را در دو دقیقه بلعید.",
+        "en": "Because he was running late, he wolfed down his breakfast in two minutes."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wickeln",
+      "uebersetzung": {
+        "fa": "پیچیدن",
+        "en": "to wrap"
+      }
+    },
+    {
+      "wort": "verschlingen",
+      "uebersetzung": {
+        "fa": "بلعیدن",
+        "en": "to devour"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas um + Akk schlingen",
+        "bedeutung": "etwas um etwas legen",
+        "beispiel": "Er schlingt das Seil um den Baum.",
+        "uebersetzung": {
+          "fa": "او طناب را دور درخت می‌پیچد.",
+          "en": "He loops the rope around the tree."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schlingen",
+      "praeteritum": "schlang",
+      "partizip2": "geschlungen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schlinge",
+        "du": "schlingst",
+        "er_sie_es": "schlingt",
+        "wir": "schlingen",
+        "ihr": "schlingt",
+        "sie_Sie": "schlingen"
+      },
+      "praeteritum": {
+        "ich": "schlang",
+        "du": "schlangst",
+        "er_sie_es": "schlang",
+        "wir": "schlangen",
+        "ihr": "schlangt",
+        "sie_Sie": "schlangen"
+      },
+      "konjunktiv1": {
+        "ich": "schlinge",
+        "du": "schlingest",
+        "er_sie_es": "schlinge",
+        "wir": "schlingen",
+        "ihr": "schlinget",
+        "sie_Sie": "schlingen"
+      },
+      "konjunktiv2": {
+        "ich": "schlänge",
+        "du": "schlängest",
+        "er_sie_es": "schlänge",
+        "wir": "schlängen",
+        "ihr": "schlänget",
+        "sie_Sie": "schlängen"
+      },
+      "imperativ": {
+        "du": "Schling!",
+        "ihr": "Schlingt!",
+        "Sie": "Schlingen Sie!"
+      }
+    },
+    "partizip1": "schlingend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "essen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوردن",
+          "en": "to eat"
+        },
+        "id_ref": "verb_essen"
+      },
+      {
+        "wort": "der Schal",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شال گردن",
+          "en": "scarf"
+        },
+        "id_ref": "nomen_schal"
+      },
+      {
+        "wort": "wickeln",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پیچیدن",
+          "en": "to wrap"
+        },
+        "id_ref": "verb_wickeln"
+      },
+      {
+        "wort": "die Schlinge",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "حلقه، کمند",
+          "en": "loop, noose"
+        },
+        "id_ref": "nomen_schlinge"
+      },
+      {
+        "wort": "verschlingen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بلعیدن",
+          "en": "to devour"
+        },
+        "id_ref": "verb_verschlingen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

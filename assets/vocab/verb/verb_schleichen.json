@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_schleichen",
+  "wort": "schleichen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "یواشکی رفتن، پاورچین رفتن",
+      "(sich schleichen) دزدکی رفتن"
+    ],
+    "en": [
+      "to creep",
+      "to sneak"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈʃlaɪ̯çn̩",
+  "anmerkung": "Mit «sein» (Er ist ins Zimmer geschlichen); reflexiv «sich schleichen» mit «haben» (Er hat sich aus dem Haus geschlichen).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Katze schleicht durch den Garten.",
+      "uebersetzung": {
+        "fa": "گربه پاورچین از باغ می‌گذرد.",
+        "en": "The cat is creeping through the garden."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Damit niemand aufwacht, ist er leise in die Küche geschlichen.",
+      "uebersetzung": {
+        "fa": "برای اینکه کسی بیدار نشود، آرام و پاورچین به آشپزخانه رفت.",
+        "en": "So that nobody would wake up, he crept quietly into the kitchen."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich anschleichen",
+      "uebersetzung": {
+        "fa": "پنهانی نزدیک شدن",
+        "en": "to sneak up"
+      }
+    },
+    {
+      "wort": "kriechen",
+      "uebersetzung": {
+        "fa": "خزیدن",
+        "en": "to crawl"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "rennen",
+      "uebersetzung": {
+        "fa": "دویدن",
+        "en": "to run"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich aus + Dat schleichen",
+        "bedeutung": "heimlich einen Ort verlassen",
+        "beispiel": "Sie hat sich aus der Party geschlichen.",
+        "uebersetzung": {
+          "fa": "او یواشکی از مهمانی بیرون رفت.",
+          "en": "She sneaked out of the party."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schleichen",
+      "praeteritum": "schlich",
+      "partizip2": "geschlichen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schleiche",
+        "du": "schleichst",
+        "er_sie_es": "schleicht",
+        "wir": "schleichen",
+        "ihr": "schleicht",
+        "sie_Sie": "schleichen"
+      },
+      "praeteritum": {
+        "ich": "schlich",
+        "du": "schlichst",
+        "er_sie_es": "schlich",
+        "wir": "schlichen",
+        "ihr": "schlicht",
+        "sie_Sie": "schlichen"
+      },
+      "konjunktiv1": {
+        "ich": "schleiche",
+        "du": "schleichest",
+        "er_sie_es": "schleiche",
+        "wir": "schleichen",
+        "ihr": "schleichet",
+        "sie_Sie": "schleichen"
+      },
+      "konjunktiv2": {
+        "ich": "schliche",
+        "du": "schlichest",
+        "er_sie_es": "schliche",
+        "wir": "schlichen",
+        "ihr": "schlichet",
+        "sie_Sie": "schlichen"
+      },
+      "imperativ": {
+        "du": "Schleich!",
+        "ihr": "Schleicht!",
+        "Sie": "Schleichen Sie!"
+      }
+    },
+    "partizip1": "schleichend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "leise",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آرام، بی‌صدا",
+          "en": "quiet"
+        },
+        "id_ref": "adjektiv_leise"
+      },
+      {
+        "wort": "heimlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پنهانی",
+          "en": "secret"
+        },
+        "id_ref": "adjektiv_heimlich"
+      },
+      {
+        "wort": "kriechen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خزیدن",
+          "en": "to crawl"
+        },
+        "id_ref": "verb_kriechen"
+      },
+      {
+        "wort": "die Schleichwerbung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تبلیغ پنهان",
+          "en": "covert advertising"
+        },
+        "id_ref": "nomen_schleichwerbung"
+      },
+      {
+        "wort": "anschleichen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "(sich) پنهانی نزدیک شدن",
+          "en": "to sneak up"
+        },
+        "id_ref": "verb_anschleichen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

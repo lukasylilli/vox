@@ -1,0 +1,199 @@
+{
+  "schema": "3.0",
+  "id": "verb_schreien",
+  "wort": "schreien",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "فریاد زدن",
+      "جیغ کشیدن"
+    ],
+    "en": [
+      "to scream",
+      "to shout",
+      "to yell"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Gefühle",
+    "Alltag"
+  ],
+  "ipa": "ˈʃʁaɪ̯ən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Baby schreit die ganze Nacht.",
+      "uebersetzung": {
+        "fa": "بچه تمام شب جیغ می‌کشد.",
+        "en": "The baby screams all night."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Er hat so laut geschrien, dass die Nachbarn die Polizei gerufen haben.",
+      "uebersetzung": {
+        "fa": "آن‌قدر بلند فریاد زد که همسایه‌ها پلیس را خبر کردند.",
+        "en": "He shouted so loudly that the neighbours called the police."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rufen",
+      "uebersetzung": {
+        "fa": "صدا زدن، فریاد زدن",
+        "en": "to call, to shout"
+      }
+    },
+    {
+      "wort": "brüllen",
+      "uebersetzung": {
+        "fa": "نعره زدن",
+        "en": "to roar"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "flüstern",
+      "uebersetzung": {
+        "fa": "پچ‌پچ کردن",
+        "en": "to whisper"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "nach + Dat schreien",
+        "bedeutung": "laut nach jemandem/etwas verlangen",
+        "beispiel": "Das Kind schreit nach seiner Mutter.",
+        "uebersetzung": {
+          "fa": "بچه با گریه مادرش را صدا می‌زند.",
+          "en": "The child is screaming for its mother."
+        }
+      },
+      {
+        "muster": "vor + Dat schreien",
+        "bedeutung": "wegen eines Gefühls schreien",
+        "beispiel": "Sie schrie vor Schmerz.",
+        "uebersetzung": {
+          "fa": "او از درد فریاد کشید.",
+          "en": "She screamed with pain."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schreien",
+      "praeteritum": "schrie",
+      "partizip2": "geschrien"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schreie",
+        "du": "schreist",
+        "er_sie_es": "schreit",
+        "wir": "schreien",
+        "ihr": "schreit",
+        "sie_Sie": "schreien"
+      },
+      "praeteritum": {
+        "ich": "schrie",
+        "du": "schriest",
+        "er_sie_es": "schrie",
+        "wir": "schrien",
+        "ihr": "schriet",
+        "sie_Sie": "schrien"
+      },
+      "konjunktiv1": {
+        "ich": "schreie",
+        "du": "schreiest",
+        "er_sie_es": "schreie",
+        "wir": "schreien",
+        "ihr": "schreiet",
+        "sie_Sie": "schreien"
+      },
+      "konjunktiv2": {
+        "ich": "schriee",
+        "du": "schrieest",
+        "er_sie_es": "schriee",
+        "wir": "schrieen",
+        "ihr": "schrieet",
+        "sie_Sie": "schrieen"
+      },
+      "imperativ": {
+        "du": "Schrei!",
+        "ihr": "Schreit!",
+        "Sie": "Schreien Sie!"
+      }
+    },
+    "partizip1": "schreiend",
+    "nominalisierung": "der Schrei"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "rufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "صدا زدن",
+          "en": "to call"
+        },
+        "id_ref": "verb_rufen"
+      },
+      {
+        "wort": "laut",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بلند (صدا)",
+          "en": "loud"
+        },
+        "id_ref": "adjektiv_laut"
+      },
+      {
+        "wort": "flüstern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پچ‌پچ کردن",
+          "en": "to whisper"
+        },
+        "id_ref": "verb_fluestern"
+      },
+      {
+        "wort": "der Schrei",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فریاد، جیغ",
+          "en": "scream"
+        },
+        "id_ref": "nomen_schrei"
+      },
+      {
+        "wort": "brüllen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نعره زدن",
+          "en": "to roar"
+        },
+        "id_ref": "verb_bruellen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

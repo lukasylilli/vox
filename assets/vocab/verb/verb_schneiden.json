@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_schneiden",
+  "wort": "schneiden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بریدن",
+      "کوتاه کردن (مو)",
+      "(در رانندگی) جلوی کسی پیچیدن"
+    ],
+    "en": [
+      "to cut",
+      "to trim",
+      "to cut in on (driving)"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Essen"
+  ],
+  "ipa": "ˈʃnaɪ̯dn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich schneide das Brot.",
+      "uebersetzung": {
+        "fa": "نان را می‌برم.",
+        "en": "I'm cutting the bread."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als ich die Zwiebeln geschnitten habe, habe ich mich in den Finger geschnitten.",
+      "uebersetzung": {
+        "fa": "وقتی پیازها را خرد می‌کردم، انگشتم را بریدم.",
+        "en": "When I was chopping the onions, I cut my finger."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abschneiden",
+      "uebersetzung": {
+        "fa": "بریدن، جدا کردن",
+        "en": "to cut off"
+      }
+    },
+    {
+      "wort": "kürzen",
+      "uebersetzung": {
+        "fa": "کوتاه کردن",
+        "en": "to shorten"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich in + Akk schneiden",
+        "bedeutung": "sich an etwas verletzen",
+        "beispiel": "Er hat sich in den Daumen geschnitten.",
+        "uebersetzung": {
+          "fa": "او شستش را برید.",
+          "en": "He cut his thumb."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schneiden",
+      "praeteritum": "schnitt",
+      "partizip2": "geschnitten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schneide",
+        "du": "schneidest",
+        "er_sie_es": "schneidet",
+        "wir": "schneiden",
+        "ihr": "schneidet",
+        "sie_Sie": "schneiden"
+      },
+      "praeteritum": {
+        "ich": "schnitt",
+        "du": "schnittest",
+        "er_sie_es": "schnitt",
+        "wir": "schnitten",
+        "ihr": "schnittet",
+        "sie_Sie": "schnitten"
+      },
+      "konjunktiv1": {
+        "ich": "schneide",
+        "du": "schneidest",
+        "er_sie_es": "schneide",
+        "wir": "schneiden",
+        "ihr": "schneidet",
+        "sie_Sie": "schneiden"
+      },
+      "konjunktiv2": {
+        "ich": "schnitte",
+        "du": "schnittest",
+        "er_sie_es": "schnitte",
+        "wir": "schnitten",
+        "ihr": "schnittet",
+        "sie_Sie": "schnitten"
+      },
+      "imperativ": {
+        "du": "Schneid!",
+        "ihr": "Schneidet!",
+        "Sie": "Schneiden Sie!"
+      }
+    },
+    "partizip1": "schneidend",
+    "nominalisierung": "der Schnitt"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Messer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چاقو",
+          "en": "knife"
+        },
+        "id_ref": "nomen_messer"
+      },
+      {
+        "wort": "die Schere",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قیچی",
+          "en": "scissors"
+        },
+        "id_ref": "nomen_schere"
+      },
+      {
+        "wort": "abschneiden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بریدن؛ (در امتحان) نتیجه گرفتن",
+          "en": "to cut off; to do (in a test)"
+        },
+        "id_ref": "verb_abschneiden"
+      },
+      {
+        "wort": "der Schnitt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برش؛ میانگین",
+          "en": "cut; average"
+        },
+        "id_ref": "nomen_schnitt"
+      },
+      {
+        "wort": "der Ausschnitt",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بخش برگزیده؛ یقه",
+          "en": "excerpt; neckline"
+        },
+        "id_ref": "nomen_ausschnitt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
