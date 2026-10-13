@@ -1404,6 +1404,22 @@ const zurueckgestellt = <String>{
   'vorfliegen', // zurückgestellt (Regel 14/16): selten 2026-10-13
   'vorgebären', // zurückgestellt (Regel 14/16): kein gebräuchliches Wort 2026-10-13
   'vorhängen', // zurückgestellt (Regel 14/16): hängen-Verbindung: transitiv/intransitiv schwankend (wie hinhängen) 2026-10-13
+  'vorlaufen', // zurückgestellt (Regel 14/16): selten; meist vorauslaufen 2026-10-13
+  'vornüberfallen', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'vorüberfahren', // zurückgestellt (Regel 14/16): gehoben, selten (= vorbeifahren) 2026-10-13
+  'vorüberfliegen', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-13
+  'vorübergleiten', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-13
+  'vorüberkommen', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-13
+  'vorüberlassen', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-13
+  'vorüberlaufen', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-13
+  'vorwärtslaufen', // zurückgestellt (Regel 14/16): Schreibung je nach Bedeutung (vorwärts laufen) 2026-10-13
+  'wachhalten', // zurückgestellt (Regel 14/16): Schreibung schwankt (wach halten / wachhalten) 2026-10-13
+  'wägen', // zurückgestellt (Regel 14/16): Formen schwanken (wog/wägte); gehoben 2026-10-13
+  'wahrhaben', // zurückgestellt (Regel 14/16): nur «nicht wahrhaben wollen» (defektiv) 2026-10-13
+  'warmhalten', // zurückgestellt (Regel 14/16): Schreibung schwankt (warm halten / warmhalten) 2026-10-13
+  'warmlaufen', // zurückgestellt (Regel 14/16): Schreibung schwankt (warm laufen / warmlaufen) 2026-10-13
+  'wegbegeben', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'wegbeißen', // zurückgestellt (Regel 14/16): selten 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

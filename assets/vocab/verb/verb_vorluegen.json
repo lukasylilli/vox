@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_vorluegen",
+  "wort": "vorlügen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(به کسی) دروغ گفتن، (چیزی را) به دروغ گفتن"
+    ],
+    "en": [
+      "to lie to someone",
+      "to tell lies"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Beziehungen",
+    "Gefühle"
+  ],
+  "ipa": "ˈfoːɐ̯ˌlyːɡn̩",
+  "anmerkung": "Trennbar (log vor, vorgelogen). Fast immer «jemandem etwas vorlügen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Lüg mir nichts vor!",
+      "uebersetzung": {
+        "fa": "به من دروغ نگو!",
+        "en": "Don't lie to me!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Er hat seinen Eltern vorgelogen, dass er bei einem Freund lernt, obwohl er auf einer Party war.",
+      "uebersetzung": {
+        "fa": "به پدر و مادرش دروغ گفت که پیش یک دوست درس می‌خواند، در حالی که به مهمانی رفته بود.",
+        "en": "He lied to his parents that he was studying at a friend's place, although he was at a party."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anlügen",
+      "uebersetzung": {
+        "fa": "به کسی دروغ گفتن",
+        "en": "to lie to"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "vor- (جلوی کسی) + lügen (دروغ گفتن)",
+    "en": "vor- (before someone) + lügen (to lie)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem (Dat) etwas (Akk) vorlügen",
+        "bedeutung": "jemandem bewusst etwas Falsches erzählen",
+        "beispiel": "Sie hat mir eine ganze Geschichte vorgelogen.",
+        "uebersetzung": {
+          "fa": "یک داستان کامل به دروغ برایم سر هم کرد.",
+          "en": "She told me a whole made-up story."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vorlügen",
+      "praeteritum": "log vor",
+      "partizip2": "vorgelogen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lüge vor",
+        "du": "lügst vor",
+        "er_sie_es": "lügt vor",
+        "wir": "lügen vor",
+        "ihr": "lügt vor",
+        "sie_Sie": "lügen vor"
+      },
+      "praeteritum": {
+        "ich": "log vor",
+        "du": "logst vor",
+        "er_sie_es": "log vor",
+        "wir": "logen vor",
+        "ihr": "logt vor",
+        "sie_Sie": "logen vor"
+      },
+      "konjunktiv1": {
+        "ich": "lüge vor",
+        "du": "lügest vor",
+        "er_sie_es": "lüge vor",
+        "wir": "lügen vor",
+        "ihr": "lüget vor",
+        "sie_Sie": "lügen vor"
+      },
+      "konjunktiv2": {
+        "ich": "löge vor",
+        "du": "lögest vor",
+        "er_sie_es": "löge vor",
+        "wir": "lögen vor",
+        "ihr": "löget vor",
+        "sie_Sie": "lögen vor"
+      },
+      "imperativ": {
+        "du": "Lüg vor!",
+        "ihr": "Lügt vor!",
+        "Sie": "Lügen Sie vor!"
+      }
+    },
+    "partizip1": "vorlügend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "lügen",
+    "woerter": [
+      {
+        "wort": "lügen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دروغ گفتن",
+          "en": "to lie"
+        },
+        "id_ref": "verb_luegen"
+      },
+      {
+        "wort": "die Lüge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دروغ",
+          "en": "lie"
+        },
+        "id_ref": "nomen_luege"
+      },
+      {
+        "wort": "ehrlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صادق",
+          "en": "honest"
+        },
+        "id_ref": "adjektiv_ehrlich"
+      },
+      {
+        "wort": "die Wahrheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حقیقت",
+          "en": "truth"
+        },
+        "id_ref": "nomen_wahrheit"
+      },
+      {
+        "wort": "anlügen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به کسی دروغ گفتن",
+          "en": "to lie to"
+        },
+        "id_ref": "verb_anluegen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_vorwaertsgehen",
+  "wort": "vorwärtsgehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پیش رفتن، بهتر شدن (کار، وضعیت)"
+    ],
+    "en": [
+      "to progress",
+      "to improve"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit",
+    "Alltag"
+  ],
+  "ipa": "ˈfɔʁvɛʁtsˌɡeːən",
+  "anmerkung": "Trennbar (ging vorwärts, vorwärtsgegangen). Meist unpersönlich: «es geht vorwärts». Zusammenschreibung in übertragener Bedeutung (= Fortschritte machen); räumlich getrennt («vorwärts gehen»). Kein üblicher Imperativ.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mit dem Bau geht es vorwärts.",
+      "uebersetzung": {
+        "fa": "کار ساختمان پیش می‌رود.",
+        "en": "The construction is making progress."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem wir einen neuen Plan gemacht hatten, ging es endlich vorwärts.",
+      "uebersetzung": {
+        "fa": "بعد از اینکه برنامه‌ی تازه‌ای ریختیم، بالاخره کارها پیش رفت.",
+        "en": "After we had made a new plan, things finally moved forward."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vorangehen",
+      "uebersetzung": {
+        "fa": "پیش رفتن",
+        "en": "to progress"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "stocken",
+      "uebersetzung": {
+        "fa": "متوقف شدن، گیر کردن",
+        "en": "to stall"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "vorwärts (به جلو) + gehen (رفتن)",
+    "en": "vorwärts (forward) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit + Dat vorwärtsgehen",
+        "bedeutung": "bei etwas Fortschritte geben (unpersönlich)",
+        "beispiel": "Mit meinem Deutsch geht es gut vorwärts.",
+        "uebersetzung": {
+          "fa": "آلمانی‌ام خوب پیش می‌رود.",
+          "en": "My German is coming along well."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vorwärtsgehen",
+      "praeteritum": "ging vorwärts",
+      "partizip2": "vorwärtsgegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe vorwärts",
+        "du": "gehst vorwärts",
+        "er_sie_es": "geht vorwärts",
+        "wir": "gehen vorwärts",
+        "ihr": "geht vorwärts",
+        "sie_Sie": "gehen vorwärts"
+      },
+      "praeteritum": {
+        "ich": "ging vorwärts",
+        "du": "gingst vorwärts",
+        "er_sie_es": "ging vorwärts",
+        "wir": "gingen vorwärts",
+        "ihr": "gingt vorwärts",
+        "sie_Sie": "gingen vorwärts"
+      },
+      "konjunktiv1": {
+        "ich": "gehe vorwärts",
+        "du": "gehest vorwärts",
+        "er_sie_es": "gehe vorwärts",
+        "wir": "gehen vorwärts",
+        "ihr": "gehet vorwärts",
+        "sie_Sie": "gehen vorwärts"
+      },
+      "konjunktiv2": {
+        "ich": "ginge vorwärts",
+        "du": "gingest vorwärts",
+        "er_sie_es": "ginge vorwärts",
+        "wir": "gingen vorwärts",
+        "ihr": "ginget vorwärts",
+        "sie_Sie": "gingen vorwärts"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "vorwärtsgehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "vorwärts",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "به جلو",
+          "en": "forward"
+        },
+        "id_ref": "adverb_vorwaerts"
+      },
+      {
+        "wort": "vorwärtskommen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیشرفت کردن",
+          "en": "to make progress"
+        },
+        "id_ref": "verb_vorwaertskommen"
+      },
+      {
+        "wort": "der Fortschritt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیشرفت",
+          "en": "progress"
+        },
+        "id_ref": "nomen_fortschritt"
+      },
+      {
+        "wort": "vorangehen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پیش رفتن",
+          "en": "to progress"
+        },
+        "id_ref": "verb_vorangehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

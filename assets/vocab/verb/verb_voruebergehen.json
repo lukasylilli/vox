@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_voruebergehen",
+  "wort": "vorübergehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گذشتن، تمام شدن",
+      "از کنار (چیزی) رد شدن"
+    ],
+    "en": [
+      "to pass, to be over",
+      "to walk past"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Zeit",
+    "Alltag"
+  ],
+  "ipa": "foˈʁyːbɐˌɡeːən",
+  "anmerkung": "Trennbar (ging vorüber, vorübergegangen). Etwas gehoben (= vorbeigehen). Partizip «vorübergehend» = zeitweilig. Kein üblicher Imperativ.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Schmerz geht vorüber.",
+      "uebersetzung": {
+        "fa": "درد می‌گذرد.",
+        "en": "The pain will pass."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Auch wenn die Krise schwer ist, wird sie irgendwann vorübergehen, wenn wir zusammenhalten.",
+      "uebersetzung": {
+        "fa": "هرچند بحران سخت است، اگر کنار هم بمانیم بالاخره روزی می‌گذرد.",
+        "en": "Even if the crisis is hard, it will pass at some point if we stick together."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vorbeigehen",
+      "uebersetzung": {
+        "fa": "گذشتن؛ از کنار رد شدن",
+        "en": "to pass"
+      }
+    },
+    {
+      "wort": "vergehen",
+      "uebersetzung": {
+        "fa": "گذشتن",
+        "en": "to pass"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "andauern",
+      "uebersetzung": {
+        "fa": "ادامه داشتن",
+        "en": "to continue"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "vorüber (گذشته، از کنار) + gehen (رفتن)",
+    "en": "vorüber (past) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "an + Dat vorübergehen",
+        "bedeutung": "an jemandem/etwas vorbeigehen",
+        "beispiel": "Sie ging an uns vorüber, ohne uns zu sehen.",
+        "uebersetzung": {
+          "fa": "بی‌آنکه ما را ببیند از کنارمان گذشت.",
+          "en": "She walked past us without seeing us."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vorübergehen",
+      "praeteritum": "ging vorüber",
+      "partizip2": "vorübergegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe vorüber",
+        "du": "gehst vorüber",
+        "er_sie_es": "geht vorüber",
+        "wir": "gehen vorüber",
+        "ihr": "geht vorüber",
+        "sie_Sie": "gehen vorüber"
+      },
+      "praeteritum": {
+        "ich": "ging vorüber",
+        "du": "gingst vorüber",
+        "er_sie_es": "ging vorüber",
+        "wir": "gingen vorüber",
+        "ihr": "gingt vorüber",
+        "sie_Sie": "gingen vorüber"
+      },
+      "konjunktiv1": {
+        "ich": "gehe vorüber",
+        "du": "gehest vorüber",
+        "er_sie_es": "gehe vorüber",
+        "wir": "gehen vorüber",
+        "ihr": "gehet vorüber",
+        "sie_Sie": "gehen vorüber"
+      },
+      "konjunktiv2": {
+        "ich": "ginge vorüber",
+        "du": "gingest vorüber",
+        "er_sie_es": "ginge vorüber",
+        "wir": "gingen vorüber",
+        "ihr": "ginget vorüber",
+        "sie_Sie": "gingen vorüber"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "vorübergehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "vorbeigehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گذشتن؛ از کنار رد شدن",
+          "en": "to pass"
+        },
+        "id_ref": "verb_vorbeigehen"
+      },
+      {
+        "wort": "vorübergehend",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "موقت",
+          "en": "temporary"
+        },
+        "id_ref": "adjektiv_voruebergehend"
+      },
+      {
+        "wort": "vergehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گذشتن",
+          "en": "to pass"
+        },
+        "id_ref": "verb_vergehen"
+      },
+      {
+        "wort": "vorüber",
+        "wortart": "adverb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گذشته، تمام",
+          "en": "over, past"
+        },
+        "id_ref": "adverb_vorueber"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

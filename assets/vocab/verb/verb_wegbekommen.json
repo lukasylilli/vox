@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_wegbekommen",
+  "wort": "wegbekommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "از بین بردن، پاک کردن (لکه و مانند آن)",
+      "(با زحمت) جابه‌جا کردن، دور کردن"
+    ],
+    "en": [
+      "to get rid of, to remove",
+      "to get away, to shift"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Haushalt"
+  ],
+  "ipa": "ˈvɛkbəˌkɔmən",
+  "anmerkung": "Trennbar (bekam weg, wegbekommen) — Partizip II ohne ge-. Umgangssprachlich. Kein üblicher Imperativ.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich bekomme den Fleck nicht weg.",
+      "uebersetzung": {
+        "fa": "نمی‌توانم این لکه را پاک کنم.",
+        "en": "I can't get the stain out."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Mit diesem Mittel haben wir den Rost endlich wegbekommen, nachdem nichts anderes geholfen hatte.",
+      "uebersetzung": {
+        "fa": "بعد از اینکه هیچ چیز دیگری فایده نداشت، با این ماده بالاخره زنگ‌زدگی را پاک کردیم.",
+        "en": "With this product we finally got rid of the rust after nothing else had worked."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "entfernen",
+      "uebersetzung": {
+        "fa": "برداشتن، پاک کردن",
+        "en": "to remove"
+      }
+    },
+    {
+      "wort": "wegkriegen",
+      "uebersetzung": {
+        "fa": "از بین بردن",
+        "en": "to get rid of"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "weg (دور) + bekommen (به دست آوردن)",
+    "en": "weg (away) + bekommen (to get)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "wegbekommen",
+      "praeteritum": "bekam weg",
+      "partizip2": "wegbekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bekomme weg",
+        "du": "bekommst weg",
+        "er_sie_es": "bekommt weg",
+        "wir": "bekommen weg",
+        "ihr": "bekommt weg",
+        "sie_Sie": "bekommen weg"
+      },
+      "praeteritum": {
+        "ich": "bekam weg",
+        "du": "bekamst weg",
+        "er_sie_es": "bekam weg",
+        "wir": "bekamen weg",
+        "ihr": "bekamt weg",
+        "sie_Sie": "bekamen weg"
+      },
+      "konjunktiv1": {
+        "ich": "bekomme weg",
+        "du": "bekommest weg",
+        "er_sie_es": "bekomme weg",
+        "wir": "bekommen weg",
+        "ihr": "bekommet weg",
+        "sie_Sie": "bekommen weg"
+      },
+      "konjunktiv2": {
+        "ich": "bekäme weg",
+        "du": "bekämest weg",
+        "er_sie_es": "bekäme weg",
+        "wir": "bekämen weg",
+        "ihr": "bekämet weg",
+        "sie_Sie": "bekämen weg"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "wegbekommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bekommen",
+    "woerter": [
+      {
+        "wort": "bekommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گرفتن، دریافت کردن",
+          "en": "to get"
+        },
+        "id_ref": "verb_bekommen"
+      },
+      {
+        "wort": "weg",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دور، رفته",
+          "en": "away, gone"
+        },
+        "id_ref": "adverb_weg"
+      },
+      {
+        "wort": "der Fleck",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لکه",
+          "en": "stain"
+        },
+        "id_ref": "nomen_fleck"
+      },
+      {
+        "wort": "entfernen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برداشتن، پاک کردن",
+          "en": "to remove"
+        },
+        "id_ref": "verb_entfernen"
+      },
+      {
+        "wort": "wegmachen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پاک کردن، برداشتن",
+          "en": "to remove"
+        },
+        "id_ref": "verb_wegmachen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_waehnen",
+  "wort": "wähnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(به‌اشتباه) پنداشتن، گمان کردن"
+    ],
+    "en": [
+      "to believe (wrongly)",
+      "to imagine"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Gefühle"
+  ],
+  "ipa": "ˈvɛːnən",
+  "anmerkung": "Regelmäßig (wähnte, gewähnt), obwohl in der Liste unregelmäßiger Verben. Gehoben; meist «sich + Adjektiv/Ort wähnen». Kein üblicher Imperativ.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er wähnte sich sicher.",
+      "uebersetzung": {
+        "fa": "خودش را در امان می‌پنداشت.",
+        "en": "He believed himself safe."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie wähnte sich allein im Haus, bis sie plötzlich Schritte hörte.",
+      "uebersetzung": {
+        "fa": "گمان می‌کرد در خانه تنهاست، تا اینکه ناگهان صدای پا شنید.",
+        "en": "She thought she was alone in the house until she suddenly heard footsteps."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "glauben",
+      "uebersetzung": {
+        "fa": "باور داشتن",
+        "en": "to believe"
+      }
+    },
+    {
+      "wort": "vermuten",
+      "uebersetzung": {
+        "fa": "گمان کردن",
+        "en": "to suppose"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "wissen",
+      "uebersetzung": {
+        "fa": "دانستن",
+        "en": "to know"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich + Adjektiv/Ort wähnen",
+        "bedeutung": "fälschlich glauben, man sei in einem Zustand/an einem Ort",
+        "beispiel": "Die Mannschaft wähnte sich schon am Ziel.",
+        "uebersetzung": {
+          "fa": "تیم خیال می‌کرد دیگر به هدف رسیده است.",
+          "en": "The team thought it had already reached its goal."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "wähnen",
+      "praeteritum": "wähnte",
+      "partizip2": "gewähnt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "wähne",
+        "du": "wähnst",
+        "er_sie_es": "wähnt",
+        "wir": "wähnen",
+        "ihr": "wähnt",
+        "sie_Sie": "wähnen"
+      },
+      "praeteritum": {
+        "ich": "wähnte",
+        "du": "wähntest",
+        "er_sie_es": "wähnte",
+        "wir": "wähnten",
+        "ihr": "wähntet",
+        "sie_Sie": "wähnten"
+      },
+      "konjunktiv1": {
+        "ich": "wähne",
+        "du": "wähnest",
+        "er_sie_es": "wähne",
+        "wir": "wähnen",
+        "ihr": "wähnet",
+        "sie_Sie": "wähnen"
+      },
+      "konjunktiv2": {
+        "ich": "wähnte",
+        "du": "wähntest",
+        "er_sie_es": "wähnte",
+        "wir": "wähnten",
+        "ihr": "wähntet",
+        "sie_Sie": "wähnten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "wähnend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "glauben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باور داشتن",
+          "en": "to believe"
+        },
+        "id_ref": "verb_glauben"
+      },
+      {
+        "wort": "meinen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عقیده داشتن",
+          "en": "to think"
+        },
+        "id_ref": "verb_meinen"
+      },
+      {
+        "wort": "vermuten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گمان کردن",
+          "en": "to suppose"
+        },
+        "id_ref": "verb_vermuten"
+      },
+      {
+        "wort": "wahnsinnig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دیوانه‌وار؛ خیلی",
+          "en": "insane; incredibly"
+        },
+        "id_ref": "adjektiv_wahnsinnig"
+      },
+      {
+        "wort": "der Wahn",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "توهم، جنون",
+          "en": "delusion"
+        },
+        "id_ref": "nomen_wahn"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_vorliegen",
+  "wort": "vorliegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "موجود بودن، در دست بودن",
+      "وجود داشتن (مثلاً خطا، دلیل)"
+    ],
+    "en": [
+      "to be available, to be at hand",
+      "to exist, to be the case"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit",
+    "Recht"
+  ],
+  "ipa": "ˈfoːɐ̯ˌliːɡn̩",
+  "anmerkung": "Trennbar (lag vor, vorgelegen). In Süddeutschland und Österreich Perfekt meist mit «sein» (ist vorgelegen). Partizip «vorliegend» = dieser, hier besprochen. Kein üblicher Imperativ.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Ergebnisse liegen jetzt vor.",
+      "uebersetzung": {
+        "fa": "نتیجه‌ها حالا آماده‌اند.",
+        "en": "The results are now available."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Solange keine Beweise vorliegen, kann man niemanden verurteilen.",
+      "uebersetzung": {
+        "fa": "تا وقتی مدرکی در دست نیست، نمی‌شود کسی را محکوم کرد.",
+        "en": "As long as there is no evidence, you cannot convict anyone."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vorhanden sein",
+      "uebersetzung": {
+        "fa": "موجود بودن",
+        "en": "to be available"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "fehlen",
+      "uebersetzung": {
+        "fa": "وجود نداشتن، کم بودن",
+        "en": "to be missing"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "vor- (پیش رو) + liegen (قرار داشتن)",
+    "en": "vor- (before one) + liegen (to lie)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem (Dat) vorliegen",
+        "bedeutung": "bei jemandem eingegangen sein",
+        "beispiel": "Ihr Antrag liegt uns seit Montag vor.",
+        "uebersetzung": {
+          "fa": "درخواست شما از دوشنبه به دست ما رسیده است.",
+          "en": "We have had your application since Monday."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vorliegen",
+      "praeteritum": "lag vor",
+      "partizip2": "vorgelegen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "liege vor",
+        "du": "liegst vor",
+        "er_sie_es": "liegt vor",
+        "wir": "liegen vor",
+        "ihr": "liegt vor",
+        "sie_Sie": "liegen vor"
+      },
+      "praeteritum": {
+        "ich": "lag vor",
+        "du": "lagst vor",
+        "er_sie_es": "lag vor",
+        "wir": "lagen vor",
+        "ihr": "lagt vor",
+        "sie_Sie": "lagen vor"
+      },
+      "konjunktiv1": {
+        "ich": "liege vor",
+        "du": "liegest vor",
+        "er_sie_es": "liege vor",
+        "wir": "liegen vor",
+        "ihr": "lieget vor",
+        "sie_Sie": "liegen vor"
+      },
+      "konjunktiv2": {
+        "ich": "läge vor",
+        "du": "lägest vor",
+        "er_sie_es": "läge vor",
+        "wir": "lägen vor",
+        "ihr": "läget vor",
+        "sie_Sie": "lägen vor"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "vorliegend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "liegen",
+    "woerter": [
+      {
+        "wort": "liegen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قرار داشتن، دراز کشیدن",
+          "en": "to lie"
+        },
+        "id_ref": "verb_liegen"
+      },
+      {
+        "wort": "fehlen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "غایب بودن، کم بودن",
+          "en": "to be missing"
+        },
+        "id_ref": "verb_fehlen"
+      },
+      {
+        "wort": "vorhanden",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "موجود",
+          "en": "available"
+        },
+        "id_ref": "adjektiv_vorhanden"
+      },
+      {
+        "wort": "vorlegen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ارائه دادن",
+          "en": "to present"
+        },
+        "id_ref": "verb_vorlegen"
+      },
+      {
+        "wort": "vorliegend",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "حاضر، موجود",
+          "en": "present, at hand"
+        },
+        "id_ref": "adjektiv_vorliegend"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
