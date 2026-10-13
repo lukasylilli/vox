@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_verhalten",
+  "wort": "verhalten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "رفتار کردن",
+      "(موضوعی) چنین بودن، از این قرار بودن"
+    ],
+    "en": [
+      "to behave",
+      "to be (the case)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Verhalten",
+    "Gesellschaft"
+  ],
+  "ipa": "fɛɐ̯ˈhaltn̩",
+  "anmerkung": "Untrennbar, reflexiv (verhielt sich, hat sich verhalten). «Die Sache verhält sich so: …». Partizip «verhalten» auch Adjektiv (= zurückhaltend).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Verhalte dich ruhig!",
+      "uebersetzung": {
+        "fa": "آرام رفتار کن!",
+        "en": "Behave calmly!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ich verstehe nicht, warum er sich gestern so unfreundlich verhalten hat.",
+      "uebersetzung": {
+        "fa": "نمی‌فهمم چرا دیروز آن‌قدر بی‌ادبانه رفتار کرد.",
+        "en": "I don't understand why he behaved so unkindly yesterday."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich benehmen",
+      "uebersetzung": {
+        "fa": "رفتار کردن",
+        "en": "to behave"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (پیشوند) + halten (نگه داشتن)",
+    "en": "ver- (prefix) + halten (to hold)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich zu + Dat verhalten",
+        "bedeutung": "in einem Verhältnis zu etwas stehen",
+        "beispiel": "A verhält sich zu B wie 2 zu 3.",
+        "uebersetzung": {
+          "fa": "نسبت A به B مانند ۲ به ۳ است.",
+          "en": "A is to B as 2 is to 3."
+        }
+      },
+      {
+        "muster": "sich gegenüber + Dat verhalten",
+        "bedeutung": "jemanden auf bestimmte Weise behandeln",
+        "beispiel": "Er verhält sich seinen Kollegen gegenüber sehr fair.",
+        "uebersetzung": {
+          "fa": "او با همکارانش خیلی منصفانه رفتار می‌کند.",
+          "en": "He behaves very fairly towards his colleagues."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verhalten",
+      "praeteritum": "verhielt",
+      "partizip2": "verhalten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verhalte",
+        "du": "verhältst",
+        "er_sie_es": "verhält",
+        "wir": "verhalten",
+        "ihr": "verhaltet",
+        "sie_Sie": "verhalten"
+      },
+      "praeteritum": {
+        "ich": "verhielt",
+        "du": "verhieltest",
+        "er_sie_es": "verhielt",
+        "wir": "verhielten",
+        "ihr": "verhieltet",
+        "sie_Sie": "verhielten"
+      },
+      "konjunktiv1": {
+        "ich": "verhalte",
+        "du": "verhaltest",
+        "er_sie_es": "verhalte",
+        "wir": "verhalten",
+        "ihr": "verhaltet",
+        "sie_Sie": "verhalten"
+      },
+      "konjunktiv2": {
+        "ich": "verhielte",
+        "du": "verhieltest",
+        "er_sie_es": "verhielte",
+        "wir": "verhielten",
+        "ihr": "verhieltet",
+        "sie_Sie": "verhielten"
+      },
+      "imperativ": {
+        "du": "Verhalte!",
+        "ihr": "Verhaltet!",
+        "Sie": "Verhalten Sie!"
+      }
+    },
+    "partizip1": "verhaltend",
+    "nominalisierung": "das Verhalten"
+  },
+  "wortnetz": {
+    "grundwort": "halten",
+    "woerter": [
+      {
+        "wort": "das Verhalten",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رفتار",
+          "en": "behaviour"
+        },
+        "id_ref": "nomen_verhalten"
+      },
+      {
+        "wort": "sich benehmen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رفتار کردن",
+          "en": "to behave"
+        },
+        "id_ref": "verb_sich_benehmen"
+      },
+      {
+        "wort": "das Verhältnis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رابطه، نسبت",
+          "en": "relationship, ratio"
+        },
+        "id_ref": "nomen_verhaeltnis"
+      },
+      {
+        "wort": "halten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to hold"
+        },
+        "id_ref": "verb_halten"
+      },
+      {
+        "wort": "höflich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مؤدب",
+          "en": "polite"
+        },
+        "id_ref": "adjektiv_hoeflich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

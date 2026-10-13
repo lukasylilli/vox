@@ -1,0 +1,167 @@
+{
+  "schema": "3.0",
+  "id": "verb_vergiessen",
+  "wort": "vergießen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(مایع را) ریختن (ناخواسته)",
+      "(اشک/خون) ریختن"
+    ],
+    "en": [
+      "to spill",
+      "to shed (tears, blood)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Gefühle"
+  ],
+  "ipa": "fɛɐ̯ˈɡiːsn̩",
+  "anmerkung": "Untrennbar (vergoss, vergossen).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er hat den Kaffee vergossen.",
+      "uebersetzung": {
+        "fa": "او قهوه را ریخت.",
+        "en": "He spilled the coffee."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei dem Abschied hat sie viele Tränen vergossen, obwohl sie sich bald wiedersehen.",
+      "uebersetzung": {
+        "fa": "موقع خداحافظی اشک زیادی ریخت، با این که به‌زودی دوباره همدیگر را می‌بینند.",
+        "en": "She shed many tears at the farewell, although they will see each other again soon."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verschütten",
+      "uebersetzung": {
+        "fa": "ریختن (ناخواسته)",
+        "en": "to spill"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (به هدر) + gießen (ریختن)",
+    "en": "ver- (wastefully) + gießen (to pour)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "vergießen",
+      "praeteritum": "vergoss",
+      "partizip2": "vergossen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "vergieße",
+        "du": "vergießt",
+        "er_sie_es": "vergießt",
+        "wir": "vergießen",
+        "ihr": "vergießt",
+        "sie_Sie": "vergießen"
+      },
+      "praeteritum": {
+        "ich": "vergoss",
+        "du": "vergossest",
+        "er_sie_es": "vergoss",
+        "wir": "vergossen",
+        "ihr": "vergosst",
+        "sie_Sie": "vergossen"
+      },
+      "konjunktiv1": {
+        "ich": "vergieße",
+        "du": "vergießest",
+        "er_sie_es": "vergieße",
+        "wir": "vergießen",
+        "ihr": "vergießet",
+        "sie_Sie": "vergießen"
+      },
+      "konjunktiv2": {
+        "ich": "vergösse",
+        "du": "vergössest",
+        "er_sie_es": "vergösse",
+        "wir": "vergössen",
+        "ihr": "vergösset",
+        "sie_Sie": "vergössen"
+      },
+      "imperativ": {
+        "du": "Vergieß!",
+        "ihr": "Vergießt!",
+        "Sie": "Vergießen Sie!"
+      }
+    },
+    "partizip1": "vergießend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gießen",
+    "woerter": [
+      {
+        "wort": "gießen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریختن، آب دادن",
+          "en": "to pour, to water"
+        },
+        "id_ref": "verb_giessen"
+      },
+      {
+        "wort": "verschütten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ریختن (ناخواسته)",
+          "en": "to spill"
+        },
+        "id_ref": "verb_verschuetten"
+      },
+      {
+        "wort": "die Träne",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اشک",
+          "en": "tear"
+        },
+        "id_ref": "nomen_traene"
+      },
+      {
+        "wort": "weinen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گریه کردن",
+          "en": "to cry"
+        },
+        "id_ref": "verb_weinen"
+      },
+      {
+        "wort": "das Blut",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خون",
+          "en": "blood"
+        },
+        "id_ref": "nomen_blut"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_vergreifen",
+  "wort": "vergreifen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(در انتخاب) اشتباه کردن",
+      "دست‌درازی کردن (به مال یا کسی)"
+    ],
+    "en": [
+      "to make a wrong choice (of words, tone)",
+      "to lay hands on, to misappropriate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Verhalten",
+    "Recht"
+  ],
+  "ipa": "fɛɐ̯ˈɡʁaɪ̯fn̩",
+  "anmerkung": "Untrennbar, reflexiv (vergriff sich, hat sich vergriffen). Partizip «vergriffen» auch Adjektiv: «Das Buch ist vergriffen» (= ausverkauft).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er hat sich im Ton vergriffen.",
+      "uebersetzung": {
+        "fa": "او لحن نامناسبی به کار برد.",
+        "en": "He struck the wrong tone."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Kassierer wurde entlassen, weil er sich an der Kasse vergriffen hatte.",
+      "uebersetzung": {
+        "fa": "صندوق‌دار اخراج شد، چون به پول صندوق دست‌درازی کرده بود.",
+        "en": "The cashier was dismissed because he had helped himself from the till."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "danebengreifen",
+      "uebersetzung": {
+        "fa": "اشتباه کردن (در انتخاب)",
+        "en": "to get it wrong"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (نادرست) + greifen (گرفتن)",
+    "en": "ver- (wrongly) + greifen (to grab)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich in + Dat vergreifen",
+        "bedeutung": "das Falsche wählen (Ton, Wort)",
+        "beispiel": "Sie hat sich im Wort vergriffen.",
+        "uebersetzung": {
+          "fa": "کلمه‌ی نامناسبی به کار برد.",
+          "en": "She used the wrong word."
+        }
+      },
+      {
+        "muster": "sich an + Dat vergreifen",
+        "bedeutung": "etwas stehlen; jemanden angreifen",
+        "beispiel": "Wer sich an fremdem Eigentum vergreift, wird bestraft.",
+        "uebersetzung": {
+          "fa": "هر کس به مال دیگران دست‌درازی کند، مجازات می‌شود.",
+          "en": "Anyone who lays hands on other people's property will be punished."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vergreifen",
+      "praeteritum": "vergriff",
+      "partizip2": "vergriffen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "vergreife",
+        "du": "vergreifst",
+        "er_sie_es": "vergreift",
+        "wir": "vergreifen",
+        "ihr": "vergreift",
+        "sie_Sie": "vergreifen"
+      },
+      "praeteritum": {
+        "ich": "vergriff",
+        "du": "vergriffst",
+        "er_sie_es": "vergriff",
+        "wir": "vergriffen",
+        "ihr": "vergrifft",
+        "sie_Sie": "vergriffen"
+      },
+      "konjunktiv1": {
+        "ich": "vergreife",
+        "du": "vergreifest",
+        "er_sie_es": "vergreife",
+        "wir": "vergreifen",
+        "ihr": "vergreifet",
+        "sie_Sie": "vergreifen"
+      },
+      "konjunktiv2": {
+        "ich": "vergriffe",
+        "du": "vergriffest",
+        "er_sie_es": "vergriffe",
+        "wir": "vergriffen",
+        "ihr": "vergriffet",
+        "sie_Sie": "vergriffen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "vergreifend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "greifen",
+    "woerter": [
+      {
+        "wort": "greifen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گرفتن",
+          "en": "to grab"
+        },
+        "id_ref": "verb_greifen"
+      },
+      {
+        "wort": "vergriffen",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نایاب، تمام‌شده",
+          "en": "out of print"
+        },
+        "id_ref": "adjektiv_vergriffen"
+      },
+      {
+        "wort": "der Ton",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لحن",
+          "en": "tone"
+        },
+        "id_ref": "nomen_ton"
+      },
+      {
+        "wort": "stehlen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دزدیدن",
+          "en": "to steal"
+        },
+        "id_ref": "verb_stehlen"
+      },
+      {
+        "wort": "der Fehler",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اشتباه",
+          "en": "mistake"
+        },
+        "id_ref": "nomen_fehler"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

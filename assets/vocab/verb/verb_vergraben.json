@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_vergraben",
+  "wort": "vergraben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(در خاک) دفن کردن، چال کردن",
+      "(خود را) غرق (کاری) کردن"
+    ],
+    "en": [
+      "to bury",
+      "(sich in) to bury oneself in"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Natur",
+    "Alltag"
+  ],
+  "ipa": "fɛɐ̯ˈɡʁaːbn̩",
+  "anmerkung": "Untrennbar (vergrub, vergraben). Übertragen: «sich in die Arbeit vergraben».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hund vergräbt einen Knochen.",
+      "uebersetzung": {
+        "fa": "سگ یک استخوان را چال می‌کند.",
+        "en": "The dog buries a bone."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach der Trennung hat er sich wochenlang in seine Arbeit vergraben, um nicht nachdenken zu müssen.",
+      "uebersetzung": {
+        "fa": "بعد از جدایی، هفته‌ها غرق کارش شد تا مجبور نباشد فکر کند.",
+        "en": "After the break-up he buried himself in his work for weeks so as not to have to think."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verbuddeln",
+      "uebersetzung": {
+        "fa": "(محاوره) چال کردن",
+        "en": "to bury (colloquial)"
+      }
+    },
+    {
+      "wort": "eingraben",
+      "uebersetzung": {
+        "fa": "در خاک فرو کردن",
+        "en": "to dig in"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ausgraben",
+      "uebersetzung": {
+        "fa": "از خاک درآوردن",
+        "en": "to dig up"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (پوشاندن) + graben (کندن)",
+    "en": "ver- (covering) + graben (to dig)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "vergraben",
+      "praeteritum": "vergrub",
+      "partizip2": "vergraben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "vergrabe",
+        "du": "vergräbst",
+        "er_sie_es": "vergräbt",
+        "wir": "vergraben",
+        "ihr": "vergrabt",
+        "sie_Sie": "vergraben"
+      },
+      "praeteritum": {
+        "ich": "vergrub",
+        "du": "vergrubst",
+        "er_sie_es": "vergrub",
+        "wir": "vergruben",
+        "ihr": "vergrubt",
+        "sie_Sie": "vergruben"
+      },
+      "konjunktiv1": {
+        "ich": "vergrabe",
+        "du": "vergrabest",
+        "er_sie_es": "vergrabe",
+        "wir": "vergraben",
+        "ihr": "vergrabet",
+        "sie_Sie": "vergraben"
+      },
+      "konjunktiv2": {
+        "ich": "vergrübe",
+        "du": "vergrübest",
+        "er_sie_es": "vergrübe",
+        "wir": "vergrüben",
+        "ihr": "vergrübet",
+        "sie_Sie": "vergrüben"
+      },
+      "imperativ": {
+        "du": "Vergrab!",
+        "ihr": "Vergrabt!",
+        "Sie": "Vergraben Sie!"
+      }
+    },
+    "partizip1": "vergrabend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "graben",
+    "woerter": [
+      {
+        "wort": "graben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کندن",
+          "en": "to dig"
+        },
+        "id_ref": "verb_graben"
+      },
+      {
+        "wort": "ausgraben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "از خاک درآوردن",
+          "en": "to dig up"
+        },
+        "id_ref": "verb_ausgraben"
+      },
+      {
+        "wort": "die Erde",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خاک، زمین",
+          "en": "soil, earth"
+        },
+        "id_ref": "nomen_erde"
+      },
+      {
+        "wort": "der Schatz",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گنج",
+          "en": "treasure"
+        },
+        "id_ref": "nomen_schatz"
+      },
+      {
+        "wort": "begraben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به خاک سپردن",
+          "en": "to bury"
+        },
+        "id_ref": "verb_begraben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

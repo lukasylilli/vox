@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_vergessen",
+  "wort": "vergessen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "فراموش کردن",
+      "(چیزی را) جا گذاشتن"
+    ],
+    "en": [
+      "to forget",
+      "to leave behind"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "fɛɐ̯ˈɡɛsn̩",
+  "anmerkung": "Untrennbar (vergaß, vergessen). Imperativ: «Vergiss es!».",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich habe meinen Schlüssel vergessen.",
+      "uebersetzung": {
+        "fa": "کلیدم را جا گذاشته‌ام.",
+        "en": "I have forgotten my key."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Vergiss nicht, dass wir morgen um acht Uhr losfahren!",
+      "uebersetzung": {
+        "fa": "یادت نرود که فردا ساعت هشت راه می‌افتیم!",
+        "en": "Don't forget that we are leaving at eight tomorrow!"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verlernen",
+      "uebersetzung": {
+        "fa": "از یاد بردن",
+        "en": "to unlearn"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sich erinnern",
+      "uebersetzung": {
+        "fa": "به یاد آوردن",
+        "en": "to remember"
+      }
+    },
+    {
+      "wort": "behalten",
+      "uebersetzung": {
+        "fa": "به خاطر سپردن",
+        "en": "to retain"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (از دست دادن) + essen (ریشه‌ی قدیمی، نامرتبط با «خوردن»)",
+    "en": "ver- (losing) + -gessen (old root, unrelated to «essen»)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "vergessen + zu-Infinitiv",
+        "bedeutung": "etwas nicht tun, weil man nicht daran gedacht hat",
+        "beispiel": "Ich habe vergessen, dich anzurufen.",
+        "uebersetzung": {
+          "fa": "یادم رفت به تو زنگ بزنم.",
+          "en": "I forgot to call you."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vergessen",
+      "praeteritum": "vergaß",
+      "partizip2": "vergessen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "vergesse",
+        "du": "vergisst",
+        "er_sie_es": "vergisst",
+        "wir": "vergessen",
+        "ihr": "vergesst",
+        "sie_Sie": "vergessen"
+      },
+      "praeteritum": {
+        "ich": "vergaß",
+        "du": "vergaßest",
+        "er_sie_es": "vergaß",
+        "wir": "vergaßen",
+        "ihr": "vergaßt",
+        "sie_Sie": "vergaßen"
+      },
+      "konjunktiv1": {
+        "ich": "vergesse",
+        "du": "vergessest",
+        "er_sie_es": "vergesse",
+        "wir": "vergessen",
+        "ihr": "vergesset",
+        "sie_Sie": "vergessen"
+      },
+      "konjunktiv2": {
+        "ich": "vergäße",
+        "du": "vergäßest",
+        "er_sie_es": "vergäße",
+        "wir": "vergäßen",
+        "ihr": "vergäßet",
+        "sie_Sie": "vergäßen"
+      },
+      "imperativ": {
+        "du": "Vergiss!",
+        "ihr": "Vergesst!",
+        "Sie": "Vergessen Sie!"
+      }
+    },
+    "partizip1": "vergessend",
+    "nominalisierung": "das Vergessen"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "sich erinnern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "به یاد آوردن",
+          "en": "to remember"
+        },
+        "id_ref": "verb_sich_erinnern"
+      },
+      {
+        "wort": "vergesslich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فراموشکار",
+          "en": "forgetful"
+        },
+        "id_ref": "adjektiv_vergesslich"
+      },
+      {
+        "wort": "das Gedächtnis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حافظه",
+          "en": "memory"
+        },
+        "id_ref": "nomen_gedaechtnis"
+      },
+      {
+        "wort": "denken",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فکر کردن",
+          "en": "to think"
+        },
+        "id_ref": "verb_denken"
+      },
+      {
+        "wort": "behalten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نگه داشتن، به خاطر سپردن",
+          "en": "to keep, to retain"
+        },
+        "id_ref": "verb_behalten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_vergleichen",
+  "wort": "vergleichen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مقایسه کردن"
+    ],
+    "en": [
+      "to compare"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Einkaufen"
+  ],
+  "ipa": "fɛɐ̯ˈɡlaɪ̯çn̩",
+  "anmerkung": "Untrennbar (verglich, verglichen). Juristisch «sich vergleichen» = einen Vergleich (Einigung) schließen.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich vergleiche die Preise.",
+      "uebersetzung": {
+        "fa": "قیمت‌ها را مقایسه می‌کنم.",
+        "en": "I compare the prices."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn man die beiden Angebote vergleicht, merkt man schnell, dass das zweite günstiger ist.",
+      "uebersetzung": {
+        "fa": "اگر دو پیشنهاد را مقایسه کنی، زود می‌فهمی که دومی ارزان‌تر است.",
+        "en": "If you compare the two offers, you quickly notice that the second one is cheaper."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gegenüberstellen",
+      "uebersetzung": {
+        "fa": "در برابر هم قرار دادن",
+        "en": "to contrast"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (پیشوند) + gleichen (شبیه بودن)",
+    "en": "ver- (prefix) + gleichen (to resemble)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "etwas mit + Dat vergleichen",
+        "bedeutung": "zwei Dinge gegenüberstellen",
+        "beispiel": "Vergleich dich nicht immer mit anderen!",
+        "uebersetzung": {
+          "fa": "همیشه خودت را با دیگران مقایسه نکن!",
+          "en": "Don't always compare yourself with others!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vergleichen",
+      "praeteritum": "verglich",
+      "partizip2": "verglichen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "vergleiche",
+        "du": "vergleichst",
+        "er_sie_es": "vergleicht",
+        "wir": "vergleichen",
+        "ihr": "vergleicht",
+        "sie_Sie": "vergleichen"
+      },
+      "praeteritum": {
+        "ich": "verglich",
+        "du": "verglichst",
+        "er_sie_es": "verglich",
+        "wir": "verglichen",
+        "ihr": "verglicht",
+        "sie_Sie": "verglichen"
+      },
+      "konjunktiv1": {
+        "ich": "vergleiche",
+        "du": "vergleichest",
+        "er_sie_es": "vergleiche",
+        "wir": "vergleichen",
+        "ihr": "vergleichet",
+        "sie_Sie": "vergleichen"
+      },
+      "konjunktiv2": {
+        "ich": "vergliche",
+        "du": "verglichest",
+        "er_sie_es": "vergliche",
+        "wir": "verglichen",
+        "ihr": "verglichet",
+        "sie_Sie": "verglichen"
+      },
+      "imperativ": {
+        "du": "Vergleich!",
+        "ihr": "Vergleicht!",
+        "Sie": "Vergleichen Sie!"
+      }
+    },
+    "partizip1": "vergleichend",
+    "nominalisierung": "der Vergleich"
+  },
+  "wortnetz": {
+    "grundwort": "gleichen",
+    "woerter": [
+      {
+        "wort": "gleich",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "یکسان",
+          "en": "same"
+        },
+        "id_ref": "adjektiv_gleich"
+      },
+      {
+        "wort": "der Vergleich",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مقایسه",
+          "en": "comparison"
+        },
+        "id_ref": "nomen_vergleich"
+      },
+      {
+        "wort": "der Unterschied",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تفاوت",
+          "en": "difference"
+        },
+        "id_ref": "nomen_unterschied"
+      },
+      {
+        "wort": "ähnlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شبیه",
+          "en": "similar"
+        },
+        "id_ref": "adjektiv_aehnlich"
+      },
+      {
+        "wort": "gleichen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شبیه بودن",
+          "en": "to resemble"
+        },
+        "id_ref": "verb_gleichen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
