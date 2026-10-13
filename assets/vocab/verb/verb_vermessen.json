@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_vermessen",
+  "wort": "vermessen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(دقیق) اندازه‌گیری کردن، نقشه‌برداری کردن",
+      "اشتباه اندازه گرفتن"
+    ],
+    "en": [
+      "to measure, to survey",
+      "(sich) to measure wrongly"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Wohnen"
+  ],
+  "ipa": "fɛɐ̯ˈmɛsn̩",
+  "anmerkung": "Untrennbar (vermaß, vermessen). «sich vermessen» = falsch messen; gehoben auch: sich anmaßen. Partizip «vermessen» auch Adjektiv (= anmaßend).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Mann vermisst das Grundstück.",
+      "uebersetzung": {
+        "fa": "مرد زمین را اندازه‌گیری می‌کند.",
+        "en": "The man surveys the plot of land."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor das Haus gebaut werden kann, muss das Grundstück genau vermessen werden.",
+      "uebersetzung": {
+        "fa": "پیش از آنکه خانه ساخته شود، زمین باید دقیق اندازه‌گیری شود.",
+        "en": "Before the house can be built, the plot has to be surveyed precisely."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "messen",
+      "uebersetzung": {
+        "fa": "اندازه گرفتن",
+        "en": "to measure"
+      }
+    },
+    {
+      "wort": "ausmessen",
+      "uebersetzung": {
+        "fa": "اندازه گرفتن (کامل)",
+        "en": "to measure out"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (پیشوند) + messen (اندازه گرفتن)",
+    "en": "ver- (prefix) + messen (to measure)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "vermessen",
+      "praeteritum": "vermaß",
+      "partizip2": "vermessen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "vermesse",
+        "du": "vermisst",
+        "er_sie_es": "vermisst",
+        "wir": "vermessen",
+        "ihr": "vermesst",
+        "sie_Sie": "vermessen"
+      },
+      "praeteritum": {
+        "ich": "vermaß",
+        "du": "vermaßest",
+        "er_sie_es": "vermaß",
+        "wir": "vermaßen",
+        "ihr": "vermaßt",
+        "sie_Sie": "vermaßen"
+      },
+      "konjunktiv1": {
+        "ich": "vermesse",
+        "du": "vermessest",
+        "er_sie_es": "vermesse",
+        "wir": "vermessen",
+        "ihr": "vermesset",
+        "sie_Sie": "vermessen"
+      },
+      "konjunktiv2": {
+        "ich": "vermäße",
+        "du": "vermäßest",
+        "er_sie_es": "vermäße",
+        "wir": "vermäßen",
+        "ihr": "vermäßet",
+        "sie_Sie": "vermäßen"
+      },
+      "imperativ": {
+        "du": "Vermiss!",
+        "ihr": "Vermesst!",
+        "Sie": "Vermessen Sie!"
+      }
+    },
+    "partizip1": "vermessend",
+    "nominalisierung": "die Vermessung"
+  },
+  "wortnetz": {
+    "grundwort": "messen",
+    "woerter": [
+      {
+        "wort": "messen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اندازه گرفتن",
+          "en": "to measure"
+        },
+        "id_ref": "verb_messen"
+      },
+      {
+        "wort": "ausmessen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اندازه گرفتن",
+          "en": "to measure out"
+        },
+        "id_ref": "verb_ausmessen"
+      },
+      {
+        "wort": "das Maß",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اندازه، معیار",
+          "en": "measure"
+        },
+        "id_ref": "nomen_mass"
+      },
+      {
+        "wort": "die Vermessung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اندازه‌گیری، نقشه‌برداری",
+          "en": "survey, measurement"
+        },
+        "id_ref": "nomen_vermessung"
+      },
+      {
+        "wort": "vermessen",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "گستاخانه، جسورانه",
+          "en": "presumptuous"
+        },
+        "id_ref": "adjektiv_vermessen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,203 @@
+{
+  "schema": "3.0",
+  "id": "verb_verleihen",
+  "wort": "verleihen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "قرض دادن",
+      "(جایزه/عنوان) اعطا کردن",
+      "بخشیدن (حالتی به چیزی)"
+    ],
+    "en": [
+      "to lend",
+      "to award",
+      "to give, to lend (a quality)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Kultur"
+  ],
+  "ipa": "fɛɐ̯ˈlaɪ̯ən",
+  "anmerkung": "Untrennbar (verlieh, verliehen). Bedeutung «leihen» = anderen geben; «sich etwas leihen» = nehmen.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich verleihe mein Fahrrad nicht gern.",
+      "uebersetzung": {
+        "fa": "دوست ندارم دوچرخه‌ام را قرض بدهم.",
+        "en": "I don't like lending my bike."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Preis wird jedes Jahr an eine Person verliehen, die sich für den Frieden einsetzt.",
+      "uebersetzung": {
+        "fa": "این جایزه هر سال به کسی اعطا می‌شود که برای صلح تلاش می‌کند.",
+        "en": "The prize is awarded every year to a person who works for peace."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "leihen",
+      "uebersetzung": {
+        "fa": "قرض دادن",
+        "en": "to lend"
+      }
+    },
+    {
+      "wort": "vergeben",
+      "uebersetzung": {
+        "fa": "اعطا کردن",
+        "en": "to award"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "entleihen",
+      "uebersetzung": {
+        "fa": "قرض گرفتن",
+        "en": "to borrow"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (پیشوند) + leihen (قرض دادن)",
+    "en": "ver- (prefix) + leihen (to lend)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas an + Akk verleihen",
+        "bedeutung": "jemandem etwas leihen",
+        "beispiel": "Ich verleihe meine Bücher nur an gute Freunde.",
+        "uebersetzung": {
+          "fa": "کتاب‌هایم را فقط به دوستان خوبم قرض می‌دهم.",
+          "en": "I only lend my books to good friends."
+        }
+      },
+      {
+        "muster": "jemandem (Dat) etwas (Akk) verleihen",
+        "bedeutung": "einen Preis, Titel o. Ä. offiziell geben",
+        "beispiel": "Die Universität verlieh ihr den Doktortitel.",
+        "uebersetzung": {
+          "fa": "دانشگاه به او عنوان دکترا اعطا کرد.",
+          "en": "The university awarded her a doctorate."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verleihen",
+      "praeteritum": "verlieh",
+      "partizip2": "verliehen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verleihe",
+        "du": "verleihst",
+        "er_sie_es": "verleiht",
+        "wir": "verleihen",
+        "ihr": "verleiht",
+        "sie_Sie": "verleihen"
+      },
+      "praeteritum": {
+        "ich": "verlieh",
+        "du": "verliehst",
+        "er_sie_es": "verlieh",
+        "wir": "verliehen",
+        "ihr": "verlieht",
+        "sie_Sie": "verliehen"
+      },
+      "konjunktiv1": {
+        "ich": "verleihe",
+        "du": "verleihest",
+        "er_sie_es": "verleihe",
+        "wir": "verleihen",
+        "ihr": "verleihet",
+        "sie_Sie": "verleihen"
+      },
+      "konjunktiv2": {
+        "ich": "verliehe",
+        "du": "verliehest",
+        "er_sie_es": "verliehe",
+        "wir": "verliehen",
+        "ihr": "verliehet",
+        "sie_Sie": "verliehen"
+      },
+      "imperativ": {
+        "du": "Verleih!",
+        "ihr": "Verleiht!",
+        "Sie": "Verleihen Sie!"
+      }
+    },
+    "partizip1": "verleihend",
+    "nominalisierung": "die Verleihung"
+  },
+  "wortnetz": {
+    "grundwort": "leihen",
+    "woerter": [
+      {
+        "wort": "leihen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قرض دادن",
+          "en": "to lend"
+        },
+        "id_ref": "verb_leihen"
+      },
+      {
+        "wort": "ausleihen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قرض گرفتن/دادن",
+          "en": "to borrow, to lend"
+        },
+        "id_ref": "verb_ausleihen"
+      },
+      {
+        "wort": "der Preis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جایزه؛ قیمت",
+          "en": "prize; price"
+        },
+        "id_ref": "nomen_preis"
+      },
+      {
+        "wort": "der Verleih",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کرایه‌دهی",
+          "en": "rental"
+        },
+        "id_ref": "nomen_verleih"
+      },
+      {
+        "wort": "die Verleihung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اعطا (جایزه)",
+          "en": "award ceremony, awarding"
+        },
+        "id_ref": "nomen_verleihung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

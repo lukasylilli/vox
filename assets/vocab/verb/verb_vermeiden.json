@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_vermeiden",
+  "wort": "vermeiden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دوری کردن از، پرهیز کردن",
+      "جلوگیری کردن"
+    ],
+    "en": [
+      "to avoid",
+      "to prevent"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Gesundheit"
+  ],
+  "ipa": "fɛɐ̯ˈmaɪ̯dn̩",
+  "anmerkung": "Untrennbar (vermied, vermieden).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich vermeide Zucker.",
+      "uebersetzung": {
+        "fa": "از شکر دوری می‌کنم.",
+        "en": "I avoid sugar."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wir sollten früh losfahren, damit wir den Stau vermeiden.",
+      "uebersetzung": {
+        "fa": "باید زود راه بیفتیم تا به ترافیک نخوریم.",
+        "en": "We should leave early so that we avoid the traffic jam."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "meiden",
+      "uebersetzung": {
+        "fa": "دوری کردن",
+        "en": "to avoid"
+      }
+    },
+    {
+      "wort": "verhindern",
+      "uebersetzung": {
+        "fa": "جلوگیری کردن",
+        "en": "to prevent"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (پیشوند) + meiden (دوری کردن)",
+    "en": "ver- (prefix) + meiden (to shun)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "vermeiden + zu-Infinitiv",
+        "bedeutung": "etwas absichtlich nicht tun",
+        "beispiel": "Er vermeidet es, über Geld zu sprechen.",
+        "uebersetzung": {
+          "fa": "او از حرف زدن درباره‌ی پول پرهیز می‌کند.",
+          "en": "He avoids talking about money."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vermeiden",
+      "praeteritum": "vermied",
+      "partizip2": "vermieden"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "vermeide",
+        "du": "vermeidest",
+        "er_sie_es": "vermeidet",
+        "wir": "vermeiden",
+        "ihr": "vermeidet",
+        "sie_Sie": "vermeiden"
+      },
+      "praeteritum": {
+        "ich": "vermied",
+        "du": "vermiedest",
+        "er_sie_es": "vermied",
+        "wir": "vermieden",
+        "ihr": "vermiedet",
+        "sie_Sie": "vermieden"
+      },
+      "konjunktiv1": {
+        "ich": "vermeide",
+        "du": "vermeidest",
+        "er_sie_es": "vermeide",
+        "wir": "vermeiden",
+        "ihr": "vermeidet",
+        "sie_Sie": "vermeiden"
+      },
+      "konjunktiv2": {
+        "ich": "vermiede",
+        "du": "vermiedest",
+        "er_sie_es": "vermiede",
+        "wir": "vermieden",
+        "ihr": "vermiedet",
+        "sie_Sie": "vermieden"
+      },
+      "imperativ": {
+        "du": "Vermeide!",
+        "ihr": "Vermeidet!",
+        "Sie": "Vermeiden Sie!"
+      }
+    },
+    "partizip1": "vermeidend",
+    "nominalisierung": "die Vermeidung"
+  },
+  "wortnetz": {
+    "grundwort": "meiden",
+    "woerter": [
+      {
+        "wort": "verhindern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جلوگیری کردن",
+          "en": "to prevent"
+        },
+        "id_ref": "verb_verhindern"
+      },
+      {
+        "wort": "meiden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دوری کردن",
+          "en": "to avoid"
+        },
+        "id_ref": "verb_meiden"
+      },
+      {
+        "wort": "unvermeidlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اجتناب‌ناپذیر",
+          "en": "unavoidable"
+        },
+        "id_ref": "adjektiv_unvermeidlich"
+      },
+      {
+        "wort": "vermeidbar",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "قابل‌اجتناب",
+          "en": "avoidable"
+        },
+        "id_ref": "adjektiv_vermeidbar"
+      },
+      {
+        "wort": "die Vermeidung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پرهیز، جلوگیری",
+          "en": "avoidance"
+        },
+        "id_ref": "nomen_vermeidung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

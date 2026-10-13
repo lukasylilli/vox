@@ -1378,6 +1378,17 @@ const zurueckgestellt = <String>{
   'verhauen', // zurückgestellt (Regel 14/16): umgangssprachlich; Präteritum schwankt (verhaute/verhieb) 2026-10-13
   'verkiesen', // zurückgestellt (Regel 14/16): veraltet (wie erkiesen, auskiesen) 2026-10-13
   'verkleiben', // zurückgestellt (Regel 14/16): veraltet, selten (wie ankleiben) 2026-10-13
+  'verleitgeben', // zurückgestellt (Regel 14/16): regional (bair./österr.), selten; Bedeutung unsicher 2026-10-13
+  'verlorengeben', // zurückgestellt (Regel 14/16): Schreibung schwankt (verloren geben / verlorengeben) 2026-10-13
+  'verlorengehen', // zurückgestellt (Regel 14/16): Schreibung schwankt (verloren gehen / verlorengehen) 2026-10-13
+  'vermahlen', // zurückgestellt (Regel 14/16): fachsprachlich; gemischte Konjugation (wie ausmahlen) 2026-10-13
+  'verquergehen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten; Schreibung unsicher 2026-10-13
+  'verschüttgehen', // zurückgestellt (Regel 14/16): umgangssprachlich; Schreibung schwankt (verschütt gehen) 2026-10-13
+  'vollessen', // zurückgestellt (Regel 14/16): Schreibung schwankt (sich voll essen / vollessen) 2026-10-13
+  'vollfressen', // zurückgestellt (Regel 14/16): Schreibung schwankt (sich voll fressen / vollfressen) 2026-10-13
+  'vollgießen', // zurückgestellt (Regel 14/16): Schreibung schwankt (voll gießen / vollgießen) 2026-10-13
+  'vollladen', // zurückgestellt (Regel 14/16): Schreibung schwankt (voll laden / vollladen) 2026-10-13
+  'volllaufen', // zurückgestellt (Regel 14/16): Schreibung schwankt (voll laufen / volllaufen) 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_verloeschen",
+  "wort": "verlöschen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خاموش شدن (چراغ، آتش)",
+      "محو شدن، از بین رفتن"
+    ],
+    "en": [
+      "to go out (light, fire)",
+      "to fade, to die out"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Alltag"
+  ],
+  "ipa": "fɛɐ̯ˈlœʃn̩",
+  "anmerkung": "Intransitiv und unregelmäßig (verlischt, verlosch, ist verloschen); gehoben. Veraltet auch transitiv und regelmäßig (verlöschte, hat verlöscht).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Licht verlosch plötzlich.",
+      "uebersetzung": {
+        "fa": "چراغ ناگهان خاموش شد.",
+        "en": "The light suddenly went out."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als der Wind stärker wurde, verlosch das Feuer, bevor wir kochen konnten.",
+      "uebersetzung": {
+        "fa": "وقتی باد شدیدتر شد، آتش پیش از آنکه بتوانیم آشپزی کنیم خاموش شد.",
+        "en": "When the wind grew stronger, the fire went out before we could cook."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erlöschen",
+      "uebersetzung": {
+        "fa": "خاموش شدن",
+        "en": "to go out"
+      }
+    },
+    {
+      "wort": "ausgehen",
+      "uebersetzung": {
+        "fa": "خاموش شدن",
+        "en": "to go out"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "aufleuchten",
+      "uebersetzung": {
+        "fa": "روشن شدن، درخشیدن",
+        "en": "to light up"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (پیشوند) + löschen (خاموش کردن)",
+    "en": "ver- (prefix) + löschen (to extinguish)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "verlöschen",
+      "praeteritum": "verlosch",
+      "partizip2": "verloschen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verlösche",
+        "du": "verlischst",
+        "er_sie_es": "verlischt",
+        "wir": "verlöschen",
+        "ihr": "verlöscht",
+        "sie_Sie": "verlöschen"
+      },
+      "praeteritum": {
+        "ich": "verlosch",
+        "du": "verloschest",
+        "er_sie_es": "verlosch",
+        "wir": "verloschen",
+        "ihr": "verloscht",
+        "sie_Sie": "verloschen"
+      },
+      "konjunktiv1": {
+        "ich": "verlösche",
+        "du": "verlöschest",
+        "er_sie_es": "verlösche",
+        "wir": "verlöschen",
+        "ihr": "verlöschet",
+        "sie_Sie": "verlöschen"
+      },
+      "konjunktiv2": {
+        "ich": "verlösche",
+        "du": "verlöschest",
+        "er_sie_es": "verlösche",
+        "wir": "verlöschen",
+        "ihr": "verlöschet",
+        "sie_Sie": "verlöschen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "verlöschend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "löschen",
+    "woerter": [
+      {
+        "wort": "das Feuer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آتش",
+          "en": "fire"
+        },
+        "id_ref": "nomen_feuer"
+      },
+      {
+        "wort": "die Kerze",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شمع",
+          "en": "candle"
+        },
+        "id_ref": "nomen_kerze"
+      },
+      {
+        "wort": "ausgehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خاموش شدن؛ بیرون رفتن",
+          "en": "to go out"
+        },
+        "id_ref": "verb_ausgehen"
+      },
+      {
+        "wort": "löschen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خاموش کردن؛ پاک کردن",
+          "en": "to extinguish; to delete"
+        },
+        "id_ref": "verb_loeschen"
+      },
+      {
+        "wort": "erlöschen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خاموش شدن",
+          "en": "to go out"
+        },
+        "id_ref": "verb_erloeschen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

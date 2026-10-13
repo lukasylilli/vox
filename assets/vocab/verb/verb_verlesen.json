@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_verlesen",
+  "wort": "verlesen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(رسماً) خواندن، قرائت کردن",
+      "اشتباه خواندن",
+      "پاک کردن و جدا کردن (حبوبات)"
+    ],
+    "en": [
+      "to read out",
+      "(sich) to misread",
+      "to sort (lentils etc.)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag",
+    "Recht"
+  ],
+  "ipa": "fɛɐ̯ˈleːzn̩",
+  "anmerkung": "Untrennbar (verlas, verlesen). «sich verlesen» = falsch lesen. Im Alltag sagt man meist «vorlesen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Lehrer verliest die Namen.",
+      "uebersetzung": {
+        "fa": "معلم اسم‌ها را می‌خواند.",
+        "en": "The teacher reads out the names."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ich habe mich verlesen, weil die Schrift so klein war.",
+      "uebersetzung": {
+        "fa": "اشتباه خواندم، چون خط خیلی ریز بود.",
+        "en": "I misread it because the writing was so small."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vorlesen",
+      "uebersetzung": {
+        "fa": "بلند خواندن",
+        "en": "to read aloud"
+      }
+    },
+    {
+      "wort": "vortragen",
+      "uebersetzung": {
+        "fa": "ارائه دادن، خواندن",
+        "en": "to present, to recite"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (پیشوند) + lesen (خواندن)",
+    "en": "ver- (prefix) + lesen (to read)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "verlesen",
+      "praeteritum": "verlas",
+      "partizip2": "verlesen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verlese",
+        "du": "verliest",
+        "er_sie_es": "verliest",
+        "wir": "verlesen",
+        "ihr": "verlest",
+        "sie_Sie": "verlesen"
+      },
+      "praeteritum": {
+        "ich": "verlas",
+        "du": "verlasest",
+        "er_sie_es": "verlas",
+        "wir": "verlasen",
+        "ihr": "verlast",
+        "sie_Sie": "verlasen"
+      },
+      "konjunktiv1": {
+        "ich": "verlese",
+        "du": "verlesest",
+        "er_sie_es": "verlese",
+        "wir": "verlesen",
+        "ihr": "verleset",
+        "sie_Sie": "verlesen"
+      },
+      "konjunktiv2": {
+        "ich": "verläse",
+        "du": "verläsest",
+        "er_sie_es": "verläse",
+        "wir": "verläsen",
+        "ihr": "verläset",
+        "sie_Sie": "verläsen"
+      },
+      "imperativ": {
+        "du": "Verlies!",
+        "ihr": "Verlest!",
+        "Sie": "Verlesen Sie!"
+      }
+    },
+    "partizip1": "verlesend",
+    "nominalisierung": "die Verlesung"
+  },
+  "wortnetz": {
+    "grundwort": "lesen",
+    "woerter": [
+      {
+        "wort": "lesen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خواندن",
+          "en": "to read"
+        },
+        "id_ref": "verb_lesen"
+      },
+      {
+        "wort": "vorlesen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بلند خواندن",
+          "en": "to read aloud"
+        },
+        "id_ref": "verb_vorlesen"
+      },
+      {
+        "wort": "ablesen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "از روی چیزی خواندن",
+          "en": "to read off"
+        },
+        "id_ref": "verb_ablesen"
+      },
+      {
+        "wort": "nachlesen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دوباره نگاه کردن، مراجعه کردن",
+          "en": "to look up"
+        },
+        "id_ref": "verb_nachlesen"
+      },
+      {
+        "wort": "die Verlesung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "قرائت (رسمی)",
+          "en": "reading out"
+        },
+        "id_ref": "nomen_verlesung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_vonstattengehen",
+  "wort": "vonstattengehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "انجام شدن، پیش رفتن",
+      "برگزار شدن"
+    ],
+    "en": [
+      "to take place",
+      "to proceed"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Alltag"
+  ],
+  "ipa": "fɔnˈʃtatn̩ˌɡeːən",
+  "anmerkung": "Fast nur in der 3. Person: «etwas geht (gut/zügig) vonstatten». Kein sinnvoller Imperativ.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Alles geht schnell vonstatten.",
+      "uebersetzung": {
+        "fa": "همه‌چیز سریع انجام می‌شود.",
+        "en": "Everything happens quickly."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Niemand weiß genau, wie der Umzug vonstattengehen soll, weil noch kein Termin feststeht.",
+      "uebersetzung": {
+        "fa": "هیچ‌کس دقیقاً نمی‌داند اسباب‌کشی چطور باید انجام شود، چون هنوز تاریخی معلوم نیست.",
+        "en": "Nobody knows exactly how the move is supposed to take place, because no date has been fixed yet."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "stattfinden",
+      "uebersetzung": {
+        "fa": "برگزار شدن",
+        "en": "to take place"
+      }
+    },
+    {
+      "wort": "ablaufen",
+      "uebersetzung": {
+        "fa": "پیش رفتن، اجرا شدن",
+        "en": "to proceed"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "vonstatten (به پیش) + gehen (رفتن)",
+    "en": "vonstatten (forward) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "vonstattengehen",
+      "praeteritum": "ging vonstatten",
+      "partizip2": "vonstattengegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe vonstatten",
+        "du": "gehst vonstatten",
+        "er_sie_es": "geht vonstatten",
+        "wir": "gehen vonstatten",
+        "ihr": "geht vonstatten",
+        "sie_Sie": "gehen vonstatten"
+      },
+      "praeteritum": {
+        "ich": "ging vonstatten",
+        "du": "gingst vonstatten",
+        "er_sie_es": "ging vonstatten",
+        "wir": "gingen vonstatten",
+        "ihr": "gingt vonstatten",
+        "sie_Sie": "gingen vonstatten"
+      },
+      "konjunktiv1": {
+        "ich": "gehe vonstatten",
+        "du": "gehest vonstatten",
+        "er_sie_es": "gehe vonstatten",
+        "wir": "gehen vonstatten",
+        "ihr": "gehet vonstatten",
+        "sie_Sie": "gehen vonstatten"
+      },
+      "konjunktiv2": {
+        "ich": "ginge vonstatten",
+        "du": "gingest vonstatten",
+        "er_sie_es": "ginge vonstatten",
+        "wir": "gingen vonstatten",
+        "ihr": "ginget vonstatten",
+        "sie_Sie": "gingen vonstatten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "vonstattengehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "stattfinden",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برگزار شدن",
+          "en": "to take place"
+        },
+        "id_ref": "verb_stattfinden"
+      },
+      {
+        "wort": "ablaufen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیش رفتن؛ منقضی شدن",
+          "en": "to proceed; to expire"
+        },
+        "id_ref": "verb_ablaufen"
+      },
+      {
+        "wort": "der Ablauf",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "روند",
+          "en": "process, course"
+        },
+        "id_ref": "nomen_ablauf"
+      },
+      {
+        "wort": "vorangehen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پیش رفتن",
+          "en": "to proceed"
+        },
+        "id_ref": "verb_vorangehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

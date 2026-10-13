@@ -1,0 +1,195 @@
+{
+  "schema": "3.0",
+  "id": "verb_verlieren",
+  "wort": "verlieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گم کردن",
+      "باختن",
+      "از دست دادن"
+    ],
+    "en": [
+      "to lose (an object)",
+      "to lose (a game)",
+      "to lose (e.g. time, weight)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Sport"
+  ],
+  "ipa": "fɛɐ̯ˈliːʁən",
+  "anmerkung": "Untrennbar (verlor, verloren). «sich verlieren» = sich verirren / ganz in etwas versinken. Partizip «verloren» auch Adjektiv.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich habe meinen Schlüssel verloren.",
+      "uebersetzung": {
+        "fa": "کلیدم را گم کرده‌ام.",
+        "en": "I have lost my key."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Obwohl die Mannschaft gut gespielt hat, hat sie das Spiel verloren.",
+      "uebersetzung": {
+        "fa": "با اینکه تیم خوب بازی کرد، بازی را باخت.",
+        "en": "Although the team played well, it lost the game."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "finden",
+      "uebersetzung": {
+        "fa": "پیدا کردن",
+        "en": "to find"
+      }
+    },
+    {
+      "wort": "gewinnen",
+      "uebersetzung": {
+        "fa": "بردن",
+        "en": "to win"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (پیشوند) + -lieren (ریشه‌ی کهن، به‌تنهایی به کار نمی‌رود)",
+    "en": "ver- (prefix) + -lieren (old root, not used alone)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "gegen + Akk verlieren",
+        "bedeutung": "in einem Spiel/Wettkampf unterliegen",
+        "beispiel": "Wir haben gegen die Gäste verloren.",
+        "uebersetzung": {
+          "fa": "ما به تیم مهمان باختیم.",
+          "en": "We lost to the visiting team."
+        }
+      },
+      {
+        "muster": "an + Dat verlieren",
+        "bedeutung": "weniger von einer Eigenschaft haben",
+        "beispiel": "Das Auto hat an Wert verloren.",
+        "uebersetzung": {
+          "fa": "ماشین ارزشش کم شده است.",
+          "en": "The car has lost value."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verlieren",
+      "praeteritum": "verlor",
+      "partizip2": "verloren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verliere",
+        "du": "verlierst",
+        "er_sie_es": "verliert",
+        "wir": "verlieren",
+        "ihr": "verliert",
+        "sie_Sie": "verlieren"
+      },
+      "praeteritum": {
+        "ich": "verlor",
+        "du": "verlorst",
+        "er_sie_es": "verlor",
+        "wir": "verloren",
+        "ihr": "verlort",
+        "sie_Sie": "verloren"
+      },
+      "konjunktiv1": {
+        "ich": "verliere",
+        "du": "verlierest",
+        "er_sie_es": "verliere",
+        "wir": "verlieren",
+        "ihr": "verlieret",
+        "sie_Sie": "verlieren"
+      },
+      "konjunktiv2": {
+        "ich": "verlöre",
+        "du": "verlörest",
+        "er_sie_es": "verlöre",
+        "wir": "verlören",
+        "ihr": "verlöret",
+        "sie_Sie": "verlören"
+      },
+      "imperativ": {
+        "du": "Verlier!",
+        "ihr": "Verliert!",
+        "Sie": "Verlieren Sie!"
+      }
+    },
+    "partizip1": "verlierend",
+    "nominalisierung": "der Verlust"
+  },
+  "wortnetz": {
+    "grundwort": "lieren",
+    "woerter": [
+      {
+        "wort": "finden",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پیدا کردن",
+          "en": "to find"
+        },
+        "id_ref": "verb_finden"
+      },
+      {
+        "wort": "gewinnen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بردن",
+          "en": "to win"
+        },
+        "id_ref": "verb_gewinnen"
+      },
+      {
+        "wort": "der Verlust",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "از دست دادن، ضرر",
+          "en": "loss"
+        },
+        "id_ref": "nomen_verlust"
+      },
+      {
+        "wort": "der Verlierer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بازنده",
+          "en": "loser"
+        },
+        "id_ref": "nomen_verlierer"
+      },
+      {
+        "wort": "verloren",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گمشده؛ ازدست‌رفته",
+          "en": "lost"
+        },
+        "id_ref": "adjektiv_verloren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
