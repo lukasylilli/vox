@@ -1203,6 +1203,13 @@ const zurueckgestellt = <String>{
   'laufenlassen', // zurückgestellt (Regel 14/16): Schreibung schwankt (laufen lassen / laufenlassen) 2026-10-11
   'leeressen', // zurückgestellt (Regel 14/16): amtliche Schreibung getrennt («leer essen») 2026-10-11
   'liebbehalten', // zurückgestellt (Regel 14/16): amtliche Schreibung getrennt («lieb behalten») 2026-10-11
+  'liegenbleiben', // zurückgestellt (Regel 14/16): Schreibung schwankt (getrennt/zusammen) 2026-10-11
+  'liegenlassen', // zurückgestellt (Regel 14/16): Schreibung schwankt (getrennt/zusammen) 2026-10-11
+  'losbrechen', // zurückgestellt (Regel 14/16): transitiv mit haben, intransitiv mit sein — Hilfsverb nicht eindeutig 2026-10-11
+  'losdreschen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-11
+  'losdürfen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'loshaben', // zurückgestellt (Regel 14/16): umgangssprachlich; Bedeutung schwankt 2026-10-11
+  'loshalten', // zurückgestellt (Regel 14/16): selten 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

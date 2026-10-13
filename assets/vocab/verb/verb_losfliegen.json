@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_losfliegen",
+  "wort": "losfliegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(پرنده یا هواپیما) پرواز را شروع کردن، به پرواز درآمدن"
+    ],
+    "en": [
+      "to take off, to fly off"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Tiere",
+    "Reisen"
+  ],
+  "ipa": "ˈloːsˌfliːɡn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Vögel fliegen los.",
+      "uebersetzung": {
+        "fa": "پرنده‌ها به پرواز درمی‌آیند.",
+        "en": "The birds fly off."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Flugzeug ist wegen des Nebels erst mit zwei Stunden Verspätung losgeflogen.",
+      "uebersetzung": {
+        "fa": "هواپیما به خاطر مه با دو ساعت تأخیر پرواز کرد.",
+        "en": "Because of the fog the plane only took off two hours late."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abfliegen",
+      "uebersetzung": {
+        "fa": "پرواز کردن (رفتن)",
+        "en": "to take off"
+      }
+    },
+    {
+      "wort": "starten",
+      "uebersetzung": {
+        "fa": "بلند شدن (هواپیما)",
+        "en": "to take off"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "landen",
+      "uebersetzung": {
+        "fa": "فرود آمدن",
+        "en": "to land"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "los (رها، آزاد؛ شروع) + fliegen (پرواز کردن)",
+    "en": "los (loose, off; start) + fliegen (to fly)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "losfliegen",
+      "praeteritum": "flog los",
+      "partizip2": "losgeflogen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fliege los",
+        "du": "fliegst los",
+        "er_sie_es": "fliegt los",
+        "wir": "fliegen los",
+        "ihr": "fliegt los",
+        "sie_Sie": "fliegen los"
+      },
+      "praeteritum": {
+        "ich": "flog los",
+        "du": "flogst los",
+        "er_sie_es": "flog los",
+        "wir": "flogen los",
+        "ihr": "flogt los",
+        "sie_Sie": "flogen los"
+      },
+      "konjunktiv1": {
+        "ich": "fliege los",
+        "du": "fliegest los",
+        "er_sie_es": "fliege los",
+        "wir": "fliegen los",
+        "ihr": "flieget los",
+        "sie_Sie": "fliegen los"
+      },
+      "konjunktiv2": {
+        "ich": "flöge los",
+        "du": "flögest los",
+        "er_sie_es": "flöge los",
+        "wir": "flögen los",
+        "ihr": "flöget los",
+        "sie_Sie": "flögen los"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "losfliegend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fliegen",
+    "woerter": [
+      {
+        "wort": "fliegen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرواز کردن",
+          "en": "to fly"
+        },
+        "id_ref": "verb_fliegen"
+      },
+      {
+        "wort": "abfliegen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پرواز کردن",
+          "en": "to take off"
+        },
+        "id_ref": "verb_abfliegen"
+      },
+      {
+        "wort": "landen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فرود آمدن",
+          "en": "to land"
+        },
+        "id_ref": "verb_landen"
+      },
+      {
+        "wort": "der Abflug",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پرواز (رفت)",
+          "en": "departure"
+        },
+        "id_ref": "nomen_abflug"
+      },
+      {
+        "wort": "los",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شروع",
+          "en": "off"
+        },
+        "id_ref": "adverb_los"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

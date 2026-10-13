@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_loeschen",
+  "wort": "löschen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(آتش یا چراغ را) خاموش کردن",
+      "(داده، فایل یا نوشته‌ای را) پاک کردن، حذف کردن",
+      "(تشنگی را) رفع کردن؛ (بار کشتی را) تخلیه کردن"
+    ],
+    "en": [
+      "to put out, to extinguish",
+      "to delete, to erase",
+      "to quench (thirst); to unload (a ship)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Technik",
+    "Computer",
+    "Sicherheit"
+  ],
+  "ipa": "ˈlœʃn̩",
+  "anmerkung": "Transitiv und regelmäßig (löschte, gelöscht). Das intransitive «erlöschen» (erlosch, erloschen) ist unregelmäßig.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich lösche die Datei.",
+      "uebersetzung": {
+        "fa": "فایل را پاک می‌کنم.",
+        "en": "I'm deleting the file."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Feuerwehr brauchte drei Stunden, um den Brand in der Fabrik zu löschen.",
+      "uebersetzung": {
+        "fa": "آتش‌نشانی سه ساعت وقت لازم داشت تا آتش‌سوزی کارخانه را خاموش کند.",
+        "en": "The fire brigade needed three hours to put out the fire in the factory."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausmachen",
+      "uebersetzung": {
+        "fa": "خاموش کردن",
+        "en": "to put out"
+      }
+    },
+    {
+      "wort": "entfernen",
+      "uebersetzung": {
+        "fa": "حذف کردن",
+        "en": "to remove"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "anzünden",
+      "uebersetzung": {
+        "fa": "روشن کردن (آتش)",
+        "en": "to light"
+      }
+    },
+    {
+      "wort": "speichern",
+      "uebersetzung": {
+        "fa": "ذخیره کردن",
+        "en": "to save"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "löschen",
+      "praeteritum": "löschte",
+      "partizip2": "gelöscht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lösche",
+        "du": "löschst",
+        "er_sie_es": "löscht",
+        "wir": "löschen",
+        "ihr": "löscht",
+        "sie_Sie": "löschen"
+      },
+      "praeteritum": {
+        "ich": "löschte",
+        "du": "löschtest",
+        "er_sie_es": "löschte",
+        "wir": "löschten",
+        "ihr": "löschtet",
+        "sie_Sie": "löschten"
+      },
+      "konjunktiv1": {
+        "ich": "lösche",
+        "du": "löschest",
+        "er_sie_es": "lösche",
+        "wir": "löschen",
+        "ihr": "löschet",
+        "sie_Sie": "löschen"
+      },
+      "konjunktiv2": {
+        "ich": "löschte",
+        "du": "löschtest",
+        "er_sie_es": "löschte",
+        "wir": "löschten",
+        "ihr": "löschtet",
+        "sie_Sie": "löschten"
+      },
+      "imperativ": {
+        "du": "Lösch!",
+        "ihr": "Löscht!",
+        "Sie": "Löschen Sie!"
+      }
+    },
+    "partizip1": "löschend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Feuerwehr",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آتش‌نشانی",
+          "en": "fire brigade"
+        },
+        "id_ref": "nomen_feuerwehr"
+      },
+      {
+        "wort": "das Feuer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آتش",
+          "en": "fire"
+        },
+        "id_ref": "nomen_feuer"
+      },
+      {
+        "wort": "speichern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ذخیره کردن",
+          "en": "to save"
+        },
+        "id_ref": "verb_speichern"
+      },
+      {
+        "wort": "die Datei",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فایل",
+          "en": "file"
+        },
+        "id_ref": "nomen_datei"
+      },
+      {
+        "wort": "erlöschen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خاموش شدن",
+          "en": "to go out"
+        },
+        "id_ref": "verb_erloeschen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

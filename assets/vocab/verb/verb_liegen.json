@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_liegen",
+  "wort": "liegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دراز کشیدن، خوابیده بودن",
+      "قرار داشتن، واقع بودن",
+      "(an etwas liegen) به (چیزی) بستگی داشتن؛ (jemandem liegen) به (کسی) سازگار بودن"
+    ],
+    "en": [
+      "to lie",
+      "to be situated, to be located",
+      "(an etw) to be due to; (jdm) to suit"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Orientierung"
+  ],
+  "ipa": "ˈliːɡn̩",
+  "anmerkung": "In Süddeutschland und Österreich Perfekt meist mit «sein» (ich bin gelegen).",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Das Buch liegt auf dem Tisch.",
+      "uebersetzung": {
+        "fa": "کتاب روی میز است.",
+        "en": "The book is on the table."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Dass ich die Prüfung nicht bestanden habe, lag vor allem an meiner Nervosität.",
+      "uebersetzung": {
+        "fa": "اینکه در امتحان قبول نشدم، بیشتر به خاطر اضطرابم بود.",
+        "en": "The fact that I didn't pass the exam was mainly due to my nerves."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich befinden",
+      "uebersetzung": {
+        "fa": "قرار داشتن",
+        "en": "to be located"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "stehen",
+      "uebersetzung": {
+        "fa": "ایستادن",
+        "en": "to stand"
+      }
+    },
+    {
+      "wort": "sitzen",
+      "uebersetzung": {
+        "fa": "نشستن",
+        "en": "to sit"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "an + Dat liegen",
+        "bedeutung": "der Grund für etwas sein",
+        "beispiel": "Woran liegt das?",
+        "uebersetzung": {
+          "fa": "علتش چیست؟",
+          "en": "What is the reason for that?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "liegen",
+      "praeteritum": "lag",
+      "partizip2": "gelegen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "liege",
+        "du": "liegst",
+        "er_sie_es": "liegt",
+        "wir": "liegen",
+        "ihr": "liegt",
+        "sie_Sie": "liegen"
+      },
+      "praeteritum": {
+        "ich": "lag",
+        "du": "lagst",
+        "er_sie_es": "lag",
+        "wir": "lagen",
+        "ihr": "lagt",
+        "sie_Sie": "lagen"
+      },
+      "konjunktiv1": {
+        "ich": "liege",
+        "du": "liegest",
+        "er_sie_es": "liege",
+        "wir": "liegen",
+        "ihr": "lieget",
+        "sie_Sie": "liegen"
+      },
+      "konjunktiv2": {
+        "ich": "läge",
+        "du": "lägest",
+        "er_sie_es": "läge",
+        "wir": "lägen",
+        "ihr": "läget",
+        "sie_Sie": "lägen"
+      },
+      "imperativ": {
+        "du": "Lieg!",
+        "ihr": "Liegt!",
+        "Sie": "Liegen Sie!"
+      }
+    },
+    "partizip1": "liegend",
+    "nominalisierung": "die Lage"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "legen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گذاشتن (به حالت خوابیده)",
+          "en": "to lay"
+        },
+        "id_ref": "verb_legen"
+      },
+      {
+        "wort": "die Lage",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "موقعیت",
+          "en": "location, situation"
+        },
+        "id_ref": "nomen_lage"
+      },
+      {
+        "wort": "stehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ایستادن",
+          "en": "to stand"
+        },
+        "id_ref": "verb_stehen"
+      },
+      {
+        "wort": "das Bett",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تخت",
+          "en": "bed"
+        },
+        "id_ref": "nomen_bett"
+      },
+      {
+        "wort": "sitzen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نشستن",
+          "en": "to sit"
+        },
+        "id_ref": "verb_sitzen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

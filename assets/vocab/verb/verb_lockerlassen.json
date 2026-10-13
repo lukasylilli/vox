@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_lockerlassen",
+  "wort": "lockerlassen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(محاوره، معمولاً منفی) کوتاه آمدن، ول کردن («nicht lockerlassen» = سمج بودن، دست برنداشتن)"
+    ],
+    "en": [
+      "(colloquial, usually negated) to give up, to let up"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Umgangssprache",
+    "Verhalten"
+  ],
+  "ipa": "ˈlɔkɐˌlasn̩",
+  "anmerkung": "Umgangssprachlich, meist verneint: «nicht lockerlassen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er lässt nicht locker.",
+      "uebersetzung": {
+        "fa": "دست برنمی‌دارد.",
+        "en": "He won't let up."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Journalistin hat nicht lockergelassen, bis der Minister endlich eine klare Antwort gab.",
+      "uebersetzung": {
+        "fa": "خبرنگار دست برنداشت تا اینکه وزیر بالاخره پاسخ روشنی داد.",
+        "en": "The journalist didn't let up until the minister finally gave a clear answer."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufgeben",
+      "uebersetzung": {
+        "fa": "تسلیم شدن",
+        "en": "to give up"
+      }
+    },
+    {
+      "wort": "nachgeben",
+      "uebersetzung": {
+        "fa": "کوتاه آمدن",
+        "en": "to give in"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "dranbleiben",
+      "uebersetzung": {
+        "fa": "پیگیر ماندن",
+        "en": "to keep at it"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "locker (شل) + lassen (گذاشتن)",
+    "en": "locker (loose) + lassen (to let)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "lockerlassen",
+      "praeteritum": "ließ locker",
+      "partizip2": "lockergelassen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lasse locker",
+        "du": "lässt locker",
+        "er_sie_es": "lässt locker",
+        "wir": "lassen locker",
+        "ihr": "lasst locker",
+        "sie_Sie": "lassen locker"
+      },
+      "praeteritum": {
+        "ich": "ließ locker",
+        "du": "ließest locker",
+        "er_sie_es": "ließ locker",
+        "wir": "ließen locker",
+        "ihr": "ließt locker",
+        "sie_Sie": "ließen locker"
+      },
+      "konjunktiv1": {
+        "ich": "lasse locker",
+        "du": "lassest locker",
+        "er_sie_es": "lasse locker",
+        "wir": "lassen locker",
+        "ihr": "lasset locker",
+        "sie_Sie": "lassen locker"
+      },
+      "konjunktiv2": {
+        "ich": "ließe locker",
+        "du": "ließest locker",
+        "er_sie_es": "ließe locker",
+        "wir": "ließen locker",
+        "ihr": "ließet locker",
+        "sie_Sie": "ließen locker"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "lockerlassend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "lassen",
+    "woerter": [
+      {
+        "wort": "lassen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گذاشتن",
+          "en": "to let"
+        },
+        "id_ref": "verb_lassen"
+      },
+      {
+        "wort": "locker",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شل؛ راحت",
+          "en": "loose; relaxed"
+        },
+        "id_ref": "adjektiv_locker"
+      },
+      {
+        "wort": "aufgeben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تسلیم شدن",
+          "en": "to give up"
+        },
+        "id_ref": "verb_aufgeben"
+      },
+      {
+        "wort": "hartnäckig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سمج",
+          "en": "persistent"
+        },
+        "id_ref": "adjektiv_hartnaeckig"
+      },
+      {
+        "wort": "nachgeben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کوتاه آمدن",
+          "en": "to give in"
+        },
+        "id_ref": "verb_nachgeben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

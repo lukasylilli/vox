@@ -1,0 +1,197 @@
+{
+  "schema": "3.0",
+  "id": "verb_losbinden",
+  "wort": "losbinden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(چیز بسته‌شده‌ای را) باز کردن، از بند رها کردن"
+    ],
+    "en": [
+      "to untie"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Tiere"
+  ],
+  "ipa": "ˈloːsˌbɪndn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Binde den Hund los!",
+      "uebersetzung": {
+        "fa": "سگ را باز کن!",
+        "en": "Untie the dog!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor das Boot ablegen konnte, musste der Kapitän es vom Steg losbinden.",
+      "uebersetzung": {
+        "fa": "پیش از اینکه قایق راه بیفتد، ناخدا باید آن را از اسکله باز می‌کرد.",
+        "en": "Before the boat could cast off, the captain had to untie it from the jetty."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "lösen",
+      "uebersetzung": {
+        "fa": "باز کردن",
+        "en": "to loosen"
+      }
+    },
+    {
+      "wort": "befreien",
+      "uebersetzung": {
+        "fa": "رها کردن",
+        "en": "to free"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "festbinden",
+      "uebersetzung": {
+        "fa": "محکم بستن",
+        "en": "to tie up"
+      }
+    },
+    {
+      "wort": "anbinden",
+      "uebersetzung": {
+        "fa": "بستن",
+        "en": "to tie"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "los (رها، آزاد؛ شروع) + binden (بستن)",
+    "en": "los (loose, off; start) + binden (to tie)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas von + Dat losbinden",
+        "bedeutung": "etwas von etwas lösen",
+        "beispiel": "Sie band das Pferd vom Zaun los.",
+        "uebersetzung": {
+          "fa": "اسب را از نرده باز کرد.",
+          "en": "She untied the horse from the fence."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "losbinden",
+      "praeteritum": "band los",
+      "partizip2": "losgebunden"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "binde los",
+        "du": "bindest los",
+        "er_sie_es": "bindet los",
+        "wir": "binden los",
+        "ihr": "bindet los",
+        "sie_Sie": "binden los"
+      },
+      "praeteritum": {
+        "ich": "band los",
+        "du": "bandest los",
+        "er_sie_es": "band los",
+        "wir": "banden los",
+        "ihr": "bandet los",
+        "sie_Sie": "banden los"
+      },
+      "konjunktiv1": {
+        "ich": "binde los",
+        "du": "bindest los",
+        "er_sie_es": "binde los",
+        "wir": "binden los",
+        "ihr": "bindet los",
+        "sie_Sie": "binden los"
+      },
+      "konjunktiv2": {
+        "ich": "bände los",
+        "du": "bändest los",
+        "er_sie_es": "bände los",
+        "wir": "bänden los",
+        "ihr": "bändet los",
+        "sie_Sie": "bänden los"
+      },
+      "imperativ": {
+        "du": "Binde los!",
+        "ihr": "Bindet los!",
+        "Sie": "Binden Sie los!"
+      }
+    },
+    "partizip1": "losbindend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "binden",
+    "woerter": [
+      {
+        "wort": "binden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بستن",
+          "en": "to tie"
+        },
+        "id_ref": "verb_binden"
+      },
+      {
+        "wort": "festbinden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "محکم بستن",
+          "en": "to tie up"
+        },
+        "id_ref": "verb_festbinden"
+      },
+      {
+        "wort": "der Knoten",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گره",
+          "en": "knot"
+        },
+        "id_ref": "nomen_knoten"
+      },
+      {
+        "wort": "das Seil",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "طناب",
+          "en": "rope"
+        },
+        "id_ref": "nomen_seil"
+      },
+      {
+        "wort": "los",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رها، جدا",
+          "en": "off, loose"
+        },
+        "id_ref": "adverb_los"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_loskommen",
+  "wort": "loskommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(توانستن) راه افتادن، از جایی رفتن",
+      "(von etwas loskommen) از (عادت، اعتیاد یا کسی) رها شدن"
+    ],
+    "en": [
+      "to get away, to get going",
+      "(von etw) to get away from, to break free of"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Gesundheit",
+    "Gefühle"
+  ],
+  "ipa": "ˈloːsˌkɔmən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir kommen heute nicht los.",
+      "uebersetzung": {
+        "fa": "امروز نمی‌توانیم راه بیفتیم.",
+        "en": "We can't get away today."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Es hat Jahre gedauert, bis er vom Rauchen endgültig losgekommen ist.",
+      "uebersetzung": {
+        "fa": "سال‌ها طول کشید تا او برای همیشه از سیگار کشیدن رها شد.",
+        "en": "It took years for him to finally get away from smoking."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich lösen",
+      "uebersetzung": {
+        "fa": "جدا شدن",
+        "en": "to break away"
+      }
+    },
+    {
+      "wort": "wegkommen",
+      "uebersetzung": {
+        "fa": "دور شدن",
+        "en": "to get away"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "los (رها، آزاد؛ شروع) + kommen (آمدن)",
+    "en": "los (loose, off; start) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "von + Dat loskommen",
+        "bedeutung": "sich von etwas/jemandem befreien",
+        "beispiel": "Sie kommt nicht von ihm los.",
+        "uebersetzung": {
+          "fa": "نمی‌تواند از او دل بکند.",
+          "en": "She can't break free of him."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "loskommen",
+      "praeteritum": "kam los",
+      "partizip2": "losgekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme los",
+        "du": "kommst los",
+        "er_sie_es": "kommt los",
+        "wir": "kommen los",
+        "ihr": "kommt los",
+        "sie_Sie": "kommen los"
+      },
+      "praeteritum": {
+        "ich": "kam los",
+        "du": "kamst los",
+        "er_sie_es": "kam los",
+        "wir": "kamen los",
+        "ihr": "kamt los",
+        "sie_Sie": "kamen los"
+      },
+      "konjunktiv1": {
+        "ich": "komme los",
+        "du": "kommest los",
+        "er_sie_es": "komme los",
+        "wir": "kommen los",
+        "ihr": "kommet los",
+        "sie_Sie": "kommen los"
+      },
+      "konjunktiv2": {
+        "ich": "käme los",
+        "du": "kämest los",
+        "er_sie_es": "käme los",
+        "wir": "kämen los",
+        "ihr": "kämet los",
+        "sie_Sie": "kämen los"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "loskommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "sich lösen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جدا شدن",
+          "en": "to break away"
+        },
+        "id_ref": "verb_sich_loesen"
+      },
+      {
+        "wort": "die Sucht",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اعتیاد",
+          "en": "addiction"
+        },
+        "id_ref": "nomen_sucht"
+      },
+      {
+        "wort": "die Gewohnheit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عادت",
+          "en": "habit"
+        },
+        "id_ref": "nomen_gewohnheit"
+      },
+      {
+        "wort": "los",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رها، جدا",
+          "en": "off, loose"
+        },
+        "id_ref": "adverb_los"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,201 @@
+{
+  "schema": "3.0",
+  "id": "verb_losgehen",
+  "wort": "losgehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "راه افتادن (پیاده)",
+      "(برنامه یا کاری) شروع شدن",
+      "(بمب یا سلاحی) منفجر شدن، شلیک شدن؛ (auf jemanden losgehen) به (کسی) حمله کردن"
+    ],
+    "en": [
+      "to set off (on foot)",
+      "to start, to begin",
+      "to go off (bomb, gun); (auf jdn) to go for someone"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Freizeit"
+  ],
+  "ipa": "ˈloːsˌɡeːən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wann geht der Film los?",
+      "uebersetzung": {
+        "fa": "فیلم کی شروع می‌شود؟",
+        "en": "When does the film start?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wir müssen jetzt losgehen, sonst verpassen wir den letzten Bus.",
+      "uebersetzung": {
+        "fa": "باید الان راه بیفتیم، وگرنه آخرین اتوبوس را از دست می‌دهیم.",
+        "en": "We have to set off now, otherwise we'll miss the last bus."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beginnen",
+      "uebersetzung": {
+        "fa": "شروع شدن",
+        "en": "to begin"
+      }
+    },
+    {
+      "wort": "aufbrechen",
+      "uebersetzung": {
+        "fa": "راه افتادن",
+        "en": "to set out"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "aufhören",
+      "uebersetzung": {
+        "fa": "تمام شدن",
+        "en": "to stop"
+      }
+    },
+    {
+      "wort": "ankommen",
+      "uebersetzung": {
+        "fa": "رسیدن",
+        "en": "to arrive"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "los (رها، آزاد؛ شروع) + gehen (رفتن)",
+    "en": "los (loose, off; start) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Akk losgehen",
+        "bedeutung": "jemanden angreifen",
+        "beispiel": "Der Betrunkene ging plötzlich auf den Kellner los.",
+        "uebersetzung": {
+          "fa": "مرد مست ناگهان به پیشخدمت حمله کرد.",
+          "en": "The drunk man suddenly went for the waiter."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "losgehen",
+      "praeteritum": "ging los",
+      "partizip2": "losgegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe los",
+        "du": "gehst los",
+        "er_sie_es": "geht los",
+        "wir": "gehen los",
+        "ihr": "geht los",
+        "sie_Sie": "gehen los"
+      },
+      "praeteritum": {
+        "ich": "ging los",
+        "du": "gingst los",
+        "er_sie_es": "ging los",
+        "wir": "gingen los",
+        "ihr": "gingt los",
+        "sie_Sie": "gingen los"
+      },
+      "konjunktiv1": {
+        "ich": "gehe los",
+        "du": "gehest los",
+        "er_sie_es": "gehe los",
+        "wir": "gehen los",
+        "ihr": "gehet los",
+        "sie_Sie": "gehen los"
+      },
+      "konjunktiv2": {
+        "ich": "ginge los",
+        "du": "gingest los",
+        "er_sie_es": "ginge los",
+        "wir": "gingen los",
+        "ihr": "ginget los",
+        "sie_Sie": "gingen los"
+      },
+      "imperativ": {
+        "du": "Geh los!",
+        "ihr": "Geht los!",
+        "Sie": "Gehen Sie los!"
+      }
+    },
+    "partizip1": "losgehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "beginnen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شروع شدن",
+          "en": "to begin"
+        },
+        "id_ref": "verb_beginnen"
+      },
+      {
+        "wort": "anfangen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شروع کردن",
+          "en": "to start"
+        },
+        "id_ref": "verb_anfangen"
+      },
+      {
+        "wort": "aufhören",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تمام شدن",
+          "en": "to stop"
+        },
+        "id_ref": "verb_aufhoeren"
+      },
+      {
+        "wort": "los",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شروع",
+          "en": "off"
+        },
+        "id_ref": "adverb_los"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

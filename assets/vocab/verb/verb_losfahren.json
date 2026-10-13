@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_losfahren",
+  "wort": "losfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با وسیله‌ی نقلیه) راه افتادن، حرکت کردن"
+    ],
+    "en": [
+      "to set off, to drive off, to leave"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Verkehr",
+    "Reisen"
+  ],
+  "ipa": "ˈloːsˌfaːʁən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wann fahren wir los?",
+      "uebersetzung": {
+        "fa": "کی راه می‌افتیم؟",
+        "en": "When are we setting off?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wir sind schon um fünf Uhr morgens losgefahren, um nicht im Stau zu stehen.",
+      "uebersetzung": {
+        "fa": "ساعت پنج صبح راه افتادیم تا در ترافیک گیر نکنیم.",
+        "en": "We set off at five in the morning so as not to get stuck in traffic."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abfahren",
+      "uebersetzung": {
+        "fa": "حرکت کردن",
+        "en": "to depart"
+      }
+    },
+    {
+      "wort": "aufbrechen",
+      "uebersetzung": {
+        "fa": "راه افتادن",
+        "en": "to set out"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ankommen",
+      "uebersetzung": {
+        "fa": "رسیدن",
+        "en": "to arrive"
+      }
+    },
+    {
+      "wort": "anhalten",
+      "uebersetzung": {
+        "fa": "ایستادن",
+        "en": "to stop"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "los (رها، آزاد؛ شروع) + fahren (رفتن (با وسیله))",
+    "en": "los (loose, off; start) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "losfahren",
+      "praeteritum": "fuhr los",
+      "partizip2": "losgefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre los",
+        "du": "fährst los",
+        "er_sie_es": "fährt los",
+        "wir": "fahren los",
+        "ihr": "fahrt los",
+        "sie_Sie": "fahren los"
+      },
+      "praeteritum": {
+        "ich": "fuhr los",
+        "du": "fuhrst los",
+        "er_sie_es": "fuhr los",
+        "wir": "fuhren los",
+        "ihr": "fuhrt los",
+        "sie_Sie": "fuhren los"
+      },
+      "konjunktiv1": {
+        "ich": "fahre los",
+        "du": "fahrest los",
+        "er_sie_es": "fahre los",
+        "wir": "fahren los",
+        "ihr": "fahret los",
+        "sie_Sie": "fahren los"
+      },
+      "konjunktiv2": {
+        "ich": "führe los",
+        "du": "führest los",
+        "er_sie_es": "führe los",
+        "wir": "führen los",
+        "ihr": "führet los",
+        "sie_Sie": "führen los"
+      },
+      "imperativ": {
+        "du": "Fahr los!",
+        "ihr": "Fahrt los!",
+        "Sie": "Fahren Sie los!"
+      }
+    },
+    "partizip1": "losfahrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "abfahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حرکت کردن",
+          "en": "to depart"
+        },
+        "id_ref": "verb_abfahren"
+      },
+      {
+        "wort": "ankommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رسیدن",
+          "en": "to arrive"
+        },
+        "id_ref": "verb_ankommen"
+      },
+      {
+        "wort": "die Abfahrt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حرکت",
+          "en": "departure"
+        },
+        "id_ref": "nomen_abfahrt"
+      },
+      {
+        "wort": "los",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "راه افتادن، شروع",
+          "en": "off"
+        },
+        "id_ref": "adverb_los"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
