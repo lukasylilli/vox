@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_leerlaufen",
+  "wort": "leerlaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(ظرف یا مخزنی) خالی شدن (از مایع)",
+      "(موتور) در جا کار کردن، خلاص کار کردن"
+    ],
+    "en": [
+      "to run dry, to empty",
+      "(engine) to idle"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Haushalt"
+  ],
+  "ipa": "ˈleːɐ̯ˌlaʊ̯fn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Badewanne läuft leer.",
+      "uebersetzung": {
+        "fa": "وان حمام خالی می‌شود.",
+        "en": "The bathtub is draining."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil der Tank ein Loch hatte, ist er über Nacht komplett leergelaufen.",
+      "uebersetzung": {
+        "fa": "چون باک سوراخ داشت، در طول شب کاملاً خالی شد.",
+        "en": "Because the tank had a hole, it ran completely dry overnight."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "auslaufen",
+      "uebersetzung": {
+        "fa": "خالی شدن، نشت کردن",
+        "en": "to run out"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "volllaufen",
+      "uebersetzung": {
+        "fa": "پر شدن",
+        "en": "to fill up"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "leer (خالی) + laufen (جاری شدن)",
+    "en": "leer (empty) + laufen (to run)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "leerlaufen",
+      "praeteritum": "lief leer",
+      "partizip2": "leergelaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laufe leer",
+        "du": "läufst leer",
+        "er_sie_es": "läuft leer",
+        "wir": "laufen leer",
+        "ihr": "lauft leer",
+        "sie_Sie": "laufen leer"
+      },
+      "praeteritum": {
+        "ich": "lief leer",
+        "du": "liefst leer",
+        "er_sie_es": "lief leer",
+        "wir": "liefen leer",
+        "ihr": "lieft leer",
+        "sie_Sie": "liefen leer"
+      },
+      "konjunktiv1": {
+        "ich": "laufe leer",
+        "du": "laufest leer",
+        "er_sie_es": "laufe leer",
+        "wir": "laufen leer",
+        "ihr": "laufet leer",
+        "sie_Sie": "laufen leer"
+      },
+      "konjunktiv2": {
+        "ich": "liefe leer",
+        "du": "liefest leer",
+        "er_sie_es": "liefe leer",
+        "wir": "liefen leer",
+        "ihr": "liefet leer",
+        "sie_Sie": "liefen leer"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "leerlaufend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جاری شدن، دویدن",
+          "en": "to run"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "leer",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خالی",
+          "en": "empty"
+        },
+        "id_ref": "adjektiv_leer"
+      },
+      {
+        "wort": "auslaufen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نشت کردن",
+          "en": "to leak"
+        },
+        "id_ref": "verb_auslaufen"
+      },
+      {
+        "wort": "der Leerlauf",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دنده‌خلاص؛ وقت تلف‌شده",
+          "en": "idling"
+        },
+        "id_ref": "nomen_leerlauf"
+      },
+      {
+        "wort": "der Tank",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "باک، مخزن",
+          "en": "tank"
+        },
+        "id_ref": "nomen_tank"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

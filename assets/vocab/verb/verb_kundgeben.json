@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_kundgeben",
+  "wort": "kundgeben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(رسمی، ادبی) اعلام کردن، آشکار کردن (نظر یا تصمیمی)"
+    ],
+    "en": [
+      "(formal) to announce, to make known"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation",
+    "Sprache (gehoben)"
+  ],
+  "ipa": "ˈkʊntˌɡeːbn̩",
+  "anmerkung": "Gehoben.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er gibt seine Meinung kund.",
+      "uebersetzung": {
+        "fa": "او نظرش را ابراز می‌کند.",
+        "en": "He makes his opinion known."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Bürgermeister hat seine Entscheidung erst nach langem Zögern öffentlich kundgegeben.",
+      "uebersetzung": {
+        "fa": "شهردار تنها پس از تردیدی طولانی تصمیمش را علنی اعلام کرد.",
+        "en": "The mayor only made his decision public after long hesitation."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bekannt geben",
+      "uebersetzung": {
+        "fa": "اعلام کردن",
+        "en": "to announce"
+      }
+    },
+    {
+      "wort": "äußern",
+      "uebersetzung": {
+        "fa": "ابراز کردن",
+        "en": "to express"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verschweigen",
+      "uebersetzung": {
+        "fa": "پنهان کردن",
+        "en": "to conceal"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "kund (آشکار، معلوم) + geben (دادن)",
+    "en": "kund (known) + geben (to give)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "kundgeben",
+      "praeteritum": "gab kund",
+      "partizip2": "kundgegeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gebe kund",
+        "du": "gibst kund",
+        "er_sie_es": "gibt kund",
+        "wir": "geben kund",
+        "ihr": "gebt kund",
+        "sie_Sie": "geben kund"
+      },
+      "praeteritum": {
+        "ich": "gab kund",
+        "du": "gabst kund",
+        "er_sie_es": "gab kund",
+        "wir": "gaben kund",
+        "ihr": "gabt kund",
+        "sie_Sie": "gaben kund"
+      },
+      "konjunktiv1": {
+        "ich": "gebe kund",
+        "du": "gebest kund",
+        "er_sie_es": "gebe kund",
+        "wir": "geben kund",
+        "ihr": "gebet kund",
+        "sie_Sie": "geben kund"
+      },
+      "konjunktiv2": {
+        "ich": "gäbe kund",
+        "du": "gäbest kund",
+        "er_sie_es": "gäbe kund",
+        "wir": "gäben kund",
+        "ihr": "gäbet kund",
+        "sie_Sie": "gäben kund"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "kundgebend",
+    "nominalisierung": "die Kundgebung"
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "die Kundgebung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تجمع اعتراضی",
+          "en": "rally"
+        },
+        "id_ref": "nomen_kundgebung"
+      },
+      {
+        "wort": "bekannt geben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اعلام کردن",
+          "en": "to announce"
+        },
+        "id_ref": "verb_bekannt_geben"
+      },
+      {
+        "wort": "äußern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ابراز کردن",
+          "en": "to express"
+        },
+        "id_ref": "verb_aeussern"
+      },
+      {
+        "wort": "die Meinung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نظر",
+          "en": "opinion"
+        },
+        "id_ref": "nomen_meinung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

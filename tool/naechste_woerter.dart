@@ -1198,6 +1198,11 @@ const zurueckgestellt = <String>{
   'hochmüssen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
   'hockenbleiben', // zurückgestellt (Regel 14/16): amtliche Schreibung getrennt («hocken bleiben») 2026-10-11
   'hofhalten', // zurückgestellt (Regel 14/16): gehoben/historisch; auch «Hof halten» geschrieben 2026-10-11
+  'küren', // zurückgestellt (Regel 14/16): Präteritum schwankt (kor/kürte) 2026-10-11
+  'langliegen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-11
+  'laufenlassen', // zurückgestellt (Regel 14/16): Schreibung schwankt (laufen lassen / laufenlassen) 2026-10-11
+  'leeressen', // zurückgestellt (Regel 14/16): amtliche Schreibung getrennt («leer essen») 2026-10-11
+  'liebbehalten', // zurückgestellt (Regel 14/16): amtliche Schreibung getrennt («lieb behalten») 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

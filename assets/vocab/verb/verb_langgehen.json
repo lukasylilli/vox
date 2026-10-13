@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_langgehen",
+  "wort": "langgehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(محاوره) (از مسیری) رفتن، در امتداد (چیزی) رفتن",
+      "(wissen, wo es langgeht) دانستن که اوضاع از چه قرار است، رئیس بودن"
+    ],
+    "en": [
+      "(colloquial) to go along",
+      "(wissen, wo es langgeht) to know what's what, to be in charge"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Orientierung",
+    "Umgangssprache"
+  ],
+  "ipa": "ˈlaŋˌɡeːən",
+  "anmerkung": "Umgangssprachlich für «entlanggehen». Redensart: «wissen, wo es langgeht».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wo geht es hier lang?",
+      "uebersetzung": {
+        "fa": "از کدام طرف باید رفت؟",
+        "en": "Which way is it?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In unserer Abteilung weiß jeder, wo es langgeht, seit die neue Chefin da ist.",
+      "uebersetzung": {
+        "fa": "از وقتی رئیس جدید آمده، در بخش ما همه می‌دانند اوضاع از چه قرار است.",
+        "en": "Since the new boss arrived, everyone in our department knows who's in charge."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "entlanggehen",
+      "uebersetzung": {
+        "fa": "در امتداد رفتن",
+        "en": "to walk along"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lang ((در امتداد)) + gehen (رفتن)",
+    "en": "lang (along) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas (Akk) langgehen / an + Dat langgehen",
+        "bedeutung": "(ugs.) entlanggehen",
+        "beispiel": "Wir gehen am Fluss lang.",
+        "uebersetzung": {
+          "fa": "در امتداد رودخانه می‌رویم.",
+          "en": "We're walking along the river."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "langgehen",
+      "praeteritum": "ging lang",
+      "partizip2": "langgegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe lang",
+        "du": "gehst lang",
+        "er_sie_es": "geht lang",
+        "wir": "gehen lang",
+        "ihr": "geht lang",
+        "sie_Sie": "gehen lang"
+      },
+      "praeteritum": {
+        "ich": "ging lang",
+        "du": "gingst lang",
+        "er_sie_es": "ging lang",
+        "wir": "gingen lang",
+        "ihr": "gingt lang",
+        "sie_Sie": "gingen lang"
+      },
+      "konjunktiv1": {
+        "ich": "gehe lang",
+        "du": "gehest lang",
+        "er_sie_es": "gehe lang",
+        "wir": "gehen lang",
+        "ihr": "gehet lang",
+        "sie_Sie": "gehen lang"
+      },
+      "konjunktiv2": {
+        "ich": "ginge lang",
+        "du": "gingest lang",
+        "er_sie_es": "ginge lang",
+        "wir": "gingen lang",
+        "ihr": "ginget lang",
+        "sie_Sie": "gingen lang"
+      },
+      "imperativ": {
+        "du": "Geh lang!",
+        "ihr": "Geht lang!",
+        "Sie": "Gehen Sie lang!"
+      }
+    },
+    "partizip1": "langgehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "entlanggehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "در امتداد رفتن",
+          "en": "to walk along"
+        },
+        "id_ref": "verb_entlanggehen"
+      },
+      {
+        "wort": "die Richtung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جهت",
+          "en": "direction"
+        },
+        "id_ref": "nomen_richtung"
+      },
+      {
+        "wort": "entlang",
+        "wortart": "praeposition",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "در امتداد",
+          "en": "along"
+        },
+        "id_ref": "praeposition_entlang"
+      },
+      {
+        "wort": "der Weg",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "راه",
+          "en": "way"
+        },
+        "id_ref": "nomen_weg"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

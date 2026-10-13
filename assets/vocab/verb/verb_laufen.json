@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_laufen",
+  "wort": "laufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دویدن؛ (در اتریش و جنوب آلمان) پیاده رفتن",
+      "(دستگاه یا برنامه‌ای) کار کردن، در جریان بودن",
+      "(فیلم) در حال نمایش بودن؛ (کاری) پیش رفتن"
+    ],
+    "en": [
+      "to run; (Austria, S. Germany) to walk",
+      "to run, to work (machine, program)",
+      "(film) to be showing; (things) to go"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Sport",
+    "Alltag",
+    "Technik"
+  ],
+  "ipa": "ˈlaʊ̯fn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich laufe jeden Morgen.",
+      "uebersetzung": {
+        "fa": "هر صبح می‌دوم.",
+        "en": "I run every morning."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wie ist das Vorstellungsgespräch gelaufen? Hast du die Stelle bekommen?",
+      "uebersetzung": {
+        "fa": "مصاحبه‌ی کاری چطور پیش رفت؟ کار را گرفتی؟",
+        "en": "How did the job interview go? Did you get the job?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rennen",
+      "uebersetzung": {
+        "fa": "دویدن",
+        "en": "to run"
+      }
+    },
+    {
+      "wort": "gehen",
+      "uebersetzung": {
+        "fa": "راه رفتن",
+        "en": "to walk"
+      }
+    },
+    {
+      "wort": "funktionieren",
+      "uebersetzung": {
+        "fa": "کار کردن",
+        "en": "to work"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "stehen",
+      "uebersetzung": {
+        "fa": "ایستادن",
+        "en": "to stand"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "laufen",
+      "praeteritum": "lief",
+      "partizip2": "gelaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laufe",
+        "du": "läufst",
+        "er_sie_es": "läuft",
+        "wir": "laufen",
+        "ihr": "lauft",
+        "sie_Sie": "laufen"
+      },
+      "praeteritum": {
+        "ich": "lief",
+        "du": "liefst",
+        "er_sie_es": "lief",
+        "wir": "liefen",
+        "ihr": "lieft",
+        "sie_Sie": "liefen"
+      },
+      "konjunktiv1": {
+        "ich": "laufe",
+        "du": "laufest",
+        "er_sie_es": "laufe",
+        "wir": "laufen",
+        "ihr": "laufet",
+        "sie_Sie": "laufen"
+      },
+      "konjunktiv2": {
+        "ich": "liefe",
+        "du": "liefest",
+        "er_sie_es": "liefe",
+        "wir": "liefen",
+        "ihr": "liefet",
+        "sie_Sie": "liefen"
+      },
+      "imperativ": {
+        "du": "Lauf!",
+        "ihr": "Lauft!",
+        "Sie": "Laufen Sie!"
+      }
+    },
+    "partizip1": "laufend",
+    "nominalisierung": "der Lauf"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "rennen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دویدن",
+          "en": "to run"
+        },
+        "id_ref": "verb_rennen"
+      },
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "der Läufer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دونده",
+          "en": "runner"
+        },
+        "id_ref": "nomen_laeufer"
+      },
+      {
+        "wort": "joggen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آهسته دویدن",
+          "en": "to jog"
+        },
+        "id_ref": "verb_joggen"
+      },
+      {
+        "wort": "der Lauf",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دویدن؛ جریان",
+          "en": "run; course"
+        },
+        "id_ref": "nomen_lauf"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_lesen",
+  "wort": "lesen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خواندن",
+      "(درس یا سخنرانی دانشگاهی) دادن (رسمی)"
+    ],
+    "en": [
+      "to read",
+      "(formal) to lecture"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Bildung",
+    "Freizeit"
+  ],
+  "ipa": "ˈleːzn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich lese gern Bücher.",
+      "uebersetzung": {
+        "fa": "کتاب خواندن را دوست دارم.",
+        "en": "I like reading books."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bevor du den Vertrag unterschreibst, solltest du ihn genau lesen.",
+      "uebersetzung": {
+        "fa": "قبل از امضای قرارداد، باید آن را دقیق بخوانی.",
+        "en": "Before you sign the contract, you should read it carefully."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "durchlesen",
+      "uebersetzung": {
+        "fa": "تا آخر خواندن",
+        "en": "to read through"
+      }
+    },
+    {
+      "wort": "vorlesen",
+      "uebersetzung": {
+        "fa": "بلند خواندن",
+        "en": "to read aloud"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "schreiben",
+      "uebersetzung": {
+        "fa": "نوشتن",
+        "en": "to write"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "lesen",
+      "praeteritum": "las",
+      "partizip2": "gelesen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lese",
+        "du": "liest",
+        "er_sie_es": "liest",
+        "wir": "lesen",
+        "ihr": "lest",
+        "sie_Sie": "lesen"
+      },
+      "praeteritum": {
+        "ich": "las",
+        "du": "lasest",
+        "er_sie_es": "las",
+        "wir": "lasen",
+        "ihr": "last",
+        "sie_Sie": "lasen"
+      },
+      "konjunktiv1": {
+        "ich": "lese",
+        "du": "lesest",
+        "er_sie_es": "lese",
+        "wir": "lesen",
+        "ihr": "leset",
+        "sie_Sie": "lesen"
+      },
+      "konjunktiv2": {
+        "ich": "läse",
+        "du": "läsest",
+        "er_sie_es": "läse",
+        "wir": "läsen",
+        "ihr": "läset",
+        "sie_Sie": "läsen"
+      },
+      "imperativ": {
+        "du": "Lies!",
+        "ihr": "Lest!",
+        "Sie": "Lesen Sie!"
+      }
+    },
+    "partizip1": "lesend",
+    "nominalisierung": "das Lesen"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Buch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کتاب",
+          "en": "book"
+        },
+        "id_ref": "nomen_buch"
+      },
+      {
+        "wort": "der Leser",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خواننده",
+          "en": "reader"
+        },
+        "id_ref": "nomen_leser"
+      },
+      {
+        "wort": "vorlesen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بلند خواندن",
+          "en": "to read aloud"
+        },
+        "id_ref": "verb_vorlesen"
+      },
+      {
+        "wort": "schreiben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نوشتن",
+          "en": "to write"
+        },
+        "id_ref": "verb_schreiben"
+      },
+      {
+        "wort": "die Zeitung",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "روزنامه",
+          "en": "newspaper"
+        },
+        "id_ref": "nomen_zeitung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

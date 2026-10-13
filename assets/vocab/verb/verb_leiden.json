@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_leiden",
+  "wort": "leiden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "رنج بردن، عذاب کشیدن",
+      "(an einer Krankheit leiden) به (بیماری) مبتلا بودن",
+      "(jemanden nicht leiden können) از (کسی) خوش نیامدن"
+    ],
+    "en": [
+      "to suffer",
+      "(an einer Krankheit) to suffer from",
+      "(jdn nicht leiden können) not to be able to stand someone"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gesundheit",
+    "Gefühle"
+  ],
+  "ipa": "ˈlaɪ̯dn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich kann ihn nicht leiden.",
+      "uebersetzung": {
+        "fa": "از او خوشم نمی‌آید.",
+        "en": "I can't stand him."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Viele Pflegekräfte leiden unter dem Stress und den unregelmäßigen Arbeitszeiten.",
+      "uebersetzung": {
+        "fa": "بسیاری از پرستاران از استرس و ساعت کاری نامنظم رنج می‌برند.",
+        "en": "Many nursing staff suffer from the stress and the irregular working hours."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erleiden",
+      "uebersetzung": {
+        "fa": "متحمل شدن",
+        "en": "to suffer"
+      }
+    },
+    {
+      "wort": "ertragen",
+      "uebersetzung": {
+        "fa": "تحمل کردن",
+        "en": "to endure"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "an + Dat leiden",
+        "bedeutung": "eine Krankheit haben",
+        "beispiel": "Er leidet an Diabetes.",
+        "uebersetzung": {
+          "fa": "او به دیابت مبتلاست.",
+          "en": "He suffers from diabetes."
+        }
+      },
+      {
+        "muster": "unter + Dat leiden",
+        "bedeutung": "durch etwas belastet sein",
+        "beispiel": "Die Kinder leiden unter der Trennung der Eltern.",
+        "uebersetzung": {
+          "fa": "بچه‌ها از جدایی پدر و مادر رنج می‌برند.",
+          "en": "The children are suffering from their parents' separation."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "leiden",
+      "praeteritum": "litt",
+      "partizip2": "gelitten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "leide",
+        "du": "leidest",
+        "er_sie_es": "leidet",
+        "wir": "leiden",
+        "ihr": "leidet",
+        "sie_Sie": "leiden"
+      },
+      "praeteritum": {
+        "ich": "litt",
+        "du": "littest",
+        "er_sie_es": "litt",
+        "wir": "litten",
+        "ihr": "littet",
+        "sie_Sie": "litten"
+      },
+      "konjunktiv1": {
+        "ich": "leide",
+        "du": "leidest",
+        "er_sie_es": "leide",
+        "wir": "leiden",
+        "ihr": "leidet",
+        "sie_Sie": "leiden"
+      },
+      "konjunktiv2": {
+        "ich": "litte",
+        "du": "littest",
+        "er_sie_es": "litte",
+        "wir": "litten",
+        "ihr": "littet",
+        "sie_Sie": "litten"
+      },
+      "imperativ": {
+        "du": "Leide!",
+        "ihr": "Leidet!",
+        "Sie": "Leiden Sie!"
+      }
+    },
+    "partizip1": "leidend",
+    "nominalisierung": "das Leiden"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Leid",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رنج",
+          "en": "suffering"
+        },
+        "id_ref": "nomen_leid"
+      },
+      {
+        "wort": "der Schmerz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "درد",
+          "en": "pain"
+        },
+        "id_ref": "nomen_schmerz"
+      },
+      {
+        "wort": "erleiden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "متحمل شدن",
+          "en": "to suffer"
+        },
+        "id_ref": "verb_erleiden"
+      },
+      {
+        "wort": "die Krankheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیماری",
+          "en": "illness"
+        },
+        "id_ref": "nomen_krankheit"
+      },
+      {
+        "wort": "ertragen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تحمل کردن",
+          "en": "to endure"
+        },
+        "id_ref": "verb_ertragen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

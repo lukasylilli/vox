@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_lassen",
+  "wort": "lassen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گذاشتن، اجازه دادن",
+      "(کاری را) ترک کردن، دست کشیدن از",
+      "(کاری را) سپردن، (کسی را وادار به کاری) کردن («Ich lasse mein Auto reparieren» = ماشینم را می‌دهم تعمیر کنند)"
+    ],
+    "en": [
+      "to let, to allow",
+      "to stop, to leave (doing something)",
+      "to have (something done)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Grammatik"
+  ],
+  "ipa": "ˈlasn̩",
+  "anmerkung": "Mit Infinitiv Ersatzinfinitiv statt Partizip II: «Ich habe das Auto reparieren lassen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Lass mich bitte in Ruhe!",
+      "uebersetzung": {
+        "fa": "لطفاً راحتم بگذار!",
+        "en": "Please leave me alone!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich lasse mir die Haare schneiden, bevor wir zur Hochzeit fahren.",
+      "uebersetzung": {
+        "fa": "قبل از اینکه به عروسی برویم، موهایم را کوتاه می‌کنم (می‌دهم کوتاه کنند).",
+        "en": "I'm going to have my hair cut before we go to the wedding."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erlauben",
+      "uebersetzung": {
+        "fa": "اجازه دادن",
+        "en": "to allow"
+      }
+    },
+    {
+      "wort": "aufhören",
+      "uebersetzung": {
+        "fa": "دست کشیدن",
+        "en": "to stop"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verbieten",
+      "uebersetzung": {
+        "fa": "ممنوع کردن",
+        "en": "to forbid"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "lassen",
+      "praeteritum": "ließ",
+      "partizip2": "gelassen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lasse",
+        "du": "lässt",
+        "er_sie_es": "lässt",
+        "wir": "lassen",
+        "ihr": "lasst",
+        "sie_Sie": "lassen"
+      },
+      "praeteritum": {
+        "ich": "ließ",
+        "du": "ließest",
+        "er_sie_es": "ließ",
+        "wir": "ließen",
+        "ihr": "ließt",
+        "sie_Sie": "ließen"
+      },
+      "konjunktiv1": {
+        "ich": "lasse",
+        "du": "lassest",
+        "er_sie_es": "lasse",
+        "wir": "lassen",
+        "ihr": "lasset",
+        "sie_Sie": "lassen"
+      },
+      "konjunktiv2": {
+        "ich": "ließe",
+        "du": "ließest",
+        "er_sie_es": "ließe",
+        "wir": "ließen",
+        "ihr": "ließet",
+        "sie_Sie": "ließen"
+      },
+      "imperativ": {
+        "du": "Lass!",
+        "ihr": "Lasst!",
+        "Sie": "Lassen Sie!"
+      }
+    },
+    "partizip1": "lassend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "erlauben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اجازه دادن",
+          "en": "to allow"
+        },
+        "id_ref": "verb_erlauben"
+      },
+      {
+        "wort": "verlassen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ترک کردن",
+          "en": "to leave"
+        },
+        "id_ref": "verb_verlassen"
+      },
+      {
+        "wort": "zulassen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اجازه دادن",
+          "en": "to permit"
+        },
+        "id_ref": "verb_zulassen"
+      },
+      {
+        "wort": "aufhören",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دست کشیدن",
+          "en": "to stop"
+        },
+        "id_ref": "verb_aufhoeren"
+      },
+      {
+        "wort": "die Erlaubnis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اجازه",
+          "en": "permission"
+        },
+        "id_ref": "nomen_erlaubnis"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_laden",
+  "wort": "laden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بار زدن، بار کردن",
+      "(باتری یا دستگاهی را) شارژ کردن؛ (برنامه یا صفحه‌ای) بارگیری شدن",
+      "(رسمی) (به دادگاه) احضار کردن"
+    ],
+    "en": [
+      "to load",
+      "to charge (a battery); to load (a page, program)",
+      "(formal) to summon"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Technik",
+    "Verkehr",
+    "Recht"
+  ],
+  "ipa": "ˈlaːdn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Seite lädt sehr langsam.",
+      "uebersetzung": {
+        "fa": "صفحه خیلی آهسته بالا می‌آید.",
+        "en": "The page is loading very slowly."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Arbeiter haben die Möbel auf den Lastwagen geladen, bevor es zu regnen begann.",
+      "uebersetzung": {
+        "fa": "کارگرها قبل از اینکه باران شروع شود مبلمان را بار کامیون کردند.",
+        "en": "The workers loaded the furniture onto the lorry before it started to rain."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufladen",
+      "uebersetzung": {
+        "fa": "شارژ کردن؛ بار زدن",
+        "en": "to charge; to load"
+      }
+    },
+    {
+      "wort": "beladen",
+      "uebersetzung": {
+        "fa": "بار زدن",
+        "en": "to load"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "entladen",
+      "uebersetzung": {
+        "fa": "خالی کردن",
+        "en": "to unload"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas auf/in + Akk laden",
+        "bedeutung": "etwas auf/in ein Fahrzeug bringen",
+        "beispiel": "Wir laden die Koffer ins Auto.",
+        "uebersetzung": {
+          "fa": "چمدان‌ها را در ماشین می‌گذاریم.",
+          "en": "We're loading the suitcases into the car."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "laden",
+      "praeteritum": "lud",
+      "partizip2": "geladen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lade",
+        "du": "lädst",
+        "er_sie_es": "lädt",
+        "wir": "laden",
+        "ihr": "ladet",
+        "sie_Sie": "laden"
+      },
+      "praeteritum": {
+        "ich": "lud",
+        "du": "ludest",
+        "er_sie_es": "lud",
+        "wir": "luden",
+        "ihr": "ludet",
+        "sie_Sie": "luden"
+      },
+      "konjunktiv1": {
+        "ich": "lade",
+        "du": "ladest",
+        "er_sie_es": "lade",
+        "wir": "laden",
+        "ihr": "ladet",
+        "sie_Sie": "laden"
+      },
+      "konjunktiv2": {
+        "ich": "lüde",
+        "du": "lüdest",
+        "er_sie_es": "lüde",
+        "wir": "lüden",
+        "ihr": "lüdet",
+        "sie_Sie": "lüden"
+      },
+      "imperativ": {
+        "du": "Lade!",
+        "ihr": "Ladet!",
+        "Sie": "Laden Sie!"
+      }
+    },
+    "partizip1": "ladend",
+    "nominalisierung": "die Ladung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "aufladen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شارژ کردن",
+          "en": "to charge"
+        },
+        "id_ref": "verb_aufladen"
+      },
+      {
+        "wort": "herunterladen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دانلود کردن",
+          "en": "to download"
+        },
+        "id_ref": "verb_herunterladen"
+      },
+      {
+        "wort": "das Ladegerät",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شارژر",
+          "en": "charger"
+        },
+        "id_ref": "nomen_ladegeraet"
+      },
+      {
+        "wort": "der Akku",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "باتری قابل شارژ",
+          "en": "rechargeable battery"
+        },
+        "id_ref": "nomen_akku"
+      },
+      {
+        "wort": "entladen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خالی کردن",
+          "en": "to unload"
+        },
+        "id_ref": "verb_entladen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
