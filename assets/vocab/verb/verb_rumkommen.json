@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_rumkommen",
+  "wort": "rumkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(محاوره) جاهای زیادی رفتن، زیاد سفر کردن",
+      "(محاوره) (از چیزی ناخوشایند) قسر در رفتن"
+    ],
+    "en": [
+      "(colloquial) to get around",
+      "(colloquial) to get out of (sth)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Umgangssprache",
+    "Reisen"
+  ],
+  "ipa": "ˈʁʊmˌkɔmən",
+  "anmerkung": "Umgangssprachlich; Standard: «herumkommen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Als Pilot kommt er viel rum.",
+      "uebersetzung": {
+        "fa": "او به‌عنوان خلبان جاهای زیادی می‌رود.",
+        "en": "As a pilot, he gets around a lot."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ich weiß, dass ich um die Prüfung nicht rumkomme, also lerne ich jetzt.",
+      "uebersetzung": {
+        "fa": "می‌دانم که از امتحان راه فراری ندارم، پس الان درس می‌خوانم.",
+        "en": "I know I can't get out of the exam, so I'm studying now."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "herumkommen",
+      "uebersetzung": {
+        "fa": "جاهای زیادی رفتن؛ قسر در رفتن",
+        "en": "to get around"
+      }
+    },
+    {
+      "wort": "vermeiden",
+      "uebersetzung": {
+        "fa": "اجتناب کردن",
+        "en": "to avoid"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "rum ((محاوره) دور، این‌طرف و آن‌طرف (= herum)) + kommen (آمدن)",
+    "en": "rum (around (= herum)) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "um + Akk rumkommen",
+        "bedeutung": "(ugs.) etwas Unangenehmes vermeiden können",
+        "beispiel": "Um eine Strafe kommst du nicht rum.",
+        "uebersetzung": {
+          "fa": "از جریمه قسر در نمی‌روی.",
+          "en": "You won't get out of a fine."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "rumkommen",
+      "praeteritum": "kam rum",
+      "partizip2": "rumgekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme rum",
+        "du": "kommst rum",
+        "er_sie_es": "kommt rum",
+        "wir": "kommen rum",
+        "ihr": "kommt rum",
+        "sie_Sie": "kommen rum"
+      },
+      "praeteritum": {
+        "ich": "kam rum",
+        "du": "kamst rum",
+        "er_sie_es": "kam rum",
+        "wir": "kamen rum",
+        "ihr": "kamt rum",
+        "sie_Sie": "kamen rum"
+      },
+      "konjunktiv1": {
+        "ich": "komme rum",
+        "du": "kommest rum",
+        "er_sie_es": "komme rum",
+        "wir": "kommen rum",
+        "ihr": "kommet rum",
+        "sie_Sie": "kommen rum"
+      },
+      "konjunktiv2": {
+        "ich": "käme rum",
+        "du": "kämest rum",
+        "er_sie_es": "käme rum",
+        "wir": "kämen rum",
+        "ihr": "kämet rum",
+        "sie_Sie": "kämen rum"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "rumkommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "reisen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سفر کردن",
+          "en": "to travel"
+        },
+        "id_ref": "verb_reisen"
+      },
+      {
+        "wort": "die Reise",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سفر",
+          "en": "trip"
+        },
+        "id_ref": "nomen_reise"
+      },
+      {
+        "wort": "vermeiden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اجتناب کردن",
+          "en": "to avoid"
+        },
+        "id_ref": "verb_vermeiden"
+      },
+      {
+        "wort": "herumkommen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جاهای زیادی رفتن؛ قسر در رفتن",
+          "en": "to get around; to get out of"
+        },
+        "id_ref": "verb_herumkommen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

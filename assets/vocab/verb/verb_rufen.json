@@ -1,0 +1,193 @@
+{
+  "schema": "3.0",
+  "id": "verb_rufen",
+  "wort": "rufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "صدا زدن",
+      "فریاد زدن",
+      "خبر کردن"
+    ],
+    "en": [
+      "to call",
+      "to shout",
+      "to summon"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Kommunikation"
+  ],
+  "ipa": "ˈʁuːfn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Mutter ruft die Kinder zum Essen.",
+      "uebersetzung": {
+        "fa": "مادر بچه‌ها را برای غذا صدا می‌زند.",
+        "en": "The mother calls the children to eat."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als der Mann plötzlich umfiel, haben wir sofort den Notarzt gerufen.",
+      "uebersetzung": {
+        "fa": "وقتی آن مرد ناگهان افتاد، فوراً پزشک اورژانس را خبر کردیم.",
+        "en": "When the man suddenly collapsed, we immediately called the emergency doctor."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schreien",
+      "uebersetzung": {
+        "fa": "فریاد زدن",
+        "en": "to shout"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "schweigen",
+      "uebersetzung": {
+        "fa": "ساکت ماندن",
+        "en": "to be silent"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "nach + Dat rufen",
+        "bedeutung": "laut nach jemandem/etwas verlangen",
+        "beispiel": "Das Baby ruft nach seiner Mama.",
+        "uebersetzung": {
+          "fa": "بچه مامانش را صدا می‌زند.",
+          "en": "The baby is calling for its mum."
+        }
+      },
+      {
+        "muster": "um + Akk rufen",
+        "bedeutung": "laut um etwas bitten",
+        "beispiel": "Er hat um Hilfe gerufen.",
+        "uebersetzung": {
+          "fa": "او فریاد زد و کمک خواست.",
+          "en": "He called for help."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "rufen",
+      "praeteritum": "rief",
+      "partizip2": "gerufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "rufe",
+        "du": "rufst",
+        "er_sie_es": "ruft",
+        "wir": "rufen",
+        "ihr": "ruft",
+        "sie_Sie": "rufen"
+      },
+      "praeteritum": {
+        "ich": "rief",
+        "du": "riefst",
+        "er_sie_es": "rief",
+        "wir": "riefen",
+        "ihr": "rieft",
+        "sie_Sie": "riefen"
+      },
+      "konjunktiv1": {
+        "ich": "rufe",
+        "du": "rufest",
+        "er_sie_es": "rufe",
+        "wir": "rufen",
+        "ihr": "rufet",
+        "sie_Sie": "rufen"
+      },
+      "konjunktiv2": {
+        "ich": "riefe",
+        "du": "riefest",
+        "er_sie_es": "riefe",
+        "wir": "riefen",
+        "ihr": "riefet",
+        "sie_Sie": "riefen"
+      },
+      "imperativ": {
+        "du": "Ruf!",
+        "ihr": "Ruft!",
+        "Sie": "Rufen Sie!"
+      }
+    },
+    "partizip1": "rufend",
+    "nominalisierung": "der Ruf"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "anrufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تلفن زدن",
+          "en": "to call (on the phone)"
+        },
+        "id_ref": "verb_anrufen"
+      },
+      {
+        "wort": "der Anruf",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تماس تلفنی",
+          "en": "phone call"
+        },
+        "id_ref": "nomen_anruf"
+      },
+      {
+        "wort": "schreien",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فریاد زدن",
+          "en": "to shout"
+        },
+        "id_ref": "verb_schreien"
+      },
+      {
+        "wort": "der Ruf",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ندا، صدا؛ شهرت",
+          "en": "call; reputation"
+        },
+        "id_ref": "nomen_ruf"
+      },
+      {
+        "wort": "aufrufen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "(نام کسی را) صدا زدن",
+          "en": "to call up"
+        },
+        "id_ref": "verb_aufrufen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

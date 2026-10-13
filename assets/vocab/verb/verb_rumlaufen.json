@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_rumlaufen",
+  "wort": "rumlaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(محاوره) این‌طرف و آن‌طرف رفتن، پرسه زدن",
+      "(محاوره) (با ظاهری خاص) گشتن"
+    ],
+    "en": [
+      "(colloquial) to walk around",
+      "(colloquial) to go around (dressed a certain way)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Umgangssprache",
+    "Alltag"
+  ],
+  "ipa": "ˈʁʊmˌlaʊ̯fn̩",
+  "anmerkung": "Umgangssprachlich; Standard: «herumlaufen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hund läuft im Garten rum.",
+      "uebersetzung": {
+        "fa": "سگ توی باغ این‌طرف و آن‌طرف می‌دود.",
+        "en": "The dog is running around in the garden."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ich verstehe nicht, warum er bei dieser Kälte nur im T-Shirt rumläuft.",
+      "uebersetzung": {
+        "fa": "نمی‌فهمم چرا توی این سرما فقط با تی‌شرت می‌گردد.",
+        "en": "I don't understand why he's walking around in just a T-shirt in this cold."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "herumlaufen",
+      "uebersetzung": {
+        "fa": "این‌طرف و آن‌طرف رفتن",
+        "en": "to walk around"
+      }
+    },
+    {
+      "wort": "bummeln",
+      "uebersetzung": {
+        "fa": "گشت زدن",
+        "en": "to stroll"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "rum ((محاوره) دور، این‌طرف و آن‌طرف (= herum)) + laufen (راه رفتن، دویدن)",
+    "en": "rum (around (= herum)) + laufen (to walk, to run)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "um + Akk rumlaufen",
+        "bedeutung": "(ugs.) um etwas herumgehen",
+        "beispiel": "Die Kinder laufen um den Tisch rum.",
+        "uebersetzung": {
+          "fa": "بچه‌ها دور میز می‌دوند.",
+          "en": "The children run around the table."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "rumlaufen",
+      "praeteritum": "lief rum",
+      "partizip2": "rumgelaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laufe rum",
+        "du": "läufst rum",
+        "er_sie_es": "läuft rum",
+        "wir": "laufen rum",
+        "ihr": "lauft rum",
+        "sie_Sie": "laufen rum"
+      },
+      "praeteritum": {
+        "ich": "lief rum",
+        "du": "liefst rum",
+        "er_sie_es": "lief rum",
+        "wir": "liefen rum",
+        "ihr": "lieft rum",
+        "sie_Sie": "liefen rum"
+      },
+      "konjunktiv1": {
+        "ich": "laufe rum",
+        "du": "laufest rum",
+        "er_sie_es": "laufe rum",
+        "wir": "laufen rum",
+        "ihr": "laufet rum",
+        "sie_Sie": "laufen rum"
+      },
+      "konjunktiv2": {
+        "ich": "liefe rum",
+        "du": "liefest rum",
+        "er_sie_es": "liefe rum",
+        "wir": "liefen rum",
+        "ihr": "liefet rum",
+        "sie_Sie": "liefen rum"
+      },
+      "imperativ": {
+        "du": "Lauf rum!",
+        "ihr": "Lauft rum!",
+        "Sie": "Laufen Sie rum!"
+      }
+    },
+    "partizip1": "rumlaufend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دویدن؛ پیاده رفتن",
+          "en": "to run, to walk"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "der Spaziergang",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پیاده‌روی",
+          "en": "walk"
+        },
+        "id_ref": "nomen_spaziergang"
+      },
+      {
+        "wort": "bummeln",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گشت زدن",
+          "en": "to stroll"
+        },
+        "id_ref": "verb_bummeln"
+      },
+      {
+        "wort": "herumlaufen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "این‌طرف و آن‌طرف رفتن",
+          "en": "to walk around"
+        },
+        "id_ref": "verb_herumlaufen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
