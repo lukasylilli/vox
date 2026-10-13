@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_zufahren",
+  "wort": "zufahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با وسیله) به‌سوی چیزی راندن"
+    ],
+    "en": [
+      "to drive towards",
+      "to head for"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr"
+  ],
+  "ipa": "ˈt͡suːˌfaːʁən",
+  "anmerkung": "Trennbar (fuhr zu, zugefahren), Perfekt mit «sein». Meist mit «auf + Akk». Umgangssprachlich auch: «Fahr zu!» (= Fahr weiter!).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Auto fährt auf uns zu.",
+      "uebersetzung": {
+        "fa": "ماشین به طرف ما می‌آید.",
+        "en": "The car is driving towards us."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil er abgelenkt war, fuhr der Fahrer direkt auf die Ampel zu.",
+      "uebersetzung": {
+        "fa": "چون حواسش پرت بود، راننده مستقیم به طرف چراغ راهنمایی راند.",
+        "en": "Because he was distracted, the driver drove straight towards the traffic light."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ansteuern",
+      "uebersetzung": {
+        "fa": "به سمت جایی رفتن",
+        "en": "to head for"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zu- (به‌سوی) + fahren (راندن)",
+    "en": "zu- (towards) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Akk zufahren",
+        "bedeutung": "sich fahrend auf etwas zubewegen",
+        "beispiel": "Der Bus fuhr langsam auf die Haltestelle zu.",
+        "uebersetzung": {
+          "fa": "اتوبوس آهسته به طرف ایستگاه رفت.",
+          "en": "The bus drove slowly towards the stop."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zufahren",
+      "praeteritum": "fuhr zu",
+      "partizip2": "zugefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre zu",
+        "du": "fährst zu",
+        "er_sie_es": "fährt zu",
+        "wir": "fahren zu",
+        "ihr": "fahrt zu",
+        "sie_Sie": "fahren zu"
+      },
+      "praeteritum": {
+        "ich": "fuhr zu",
+        "du": "fuhrst zu",
+        "er_sie_es": "fuhr zu",
+        "wir": "fuhren zu",
+        "ihr": "fuhrt zu",
+        "sie_Sie": "fuhren zu"
+      },
+      "konjunktiv1": {
+        "ich": "fahre zu",
+        "du": "fahrest zu",
+        "er_sie_es": "fahre zu",
+        "wir": "fahren zu",
+        "ihr": "fahret zu",
+        "sie_Sie": "fahren zu"
+      },
+      "konjunktiv2": {
+        "ich": "führe zu",
+        "du": "führest zu",
+        "er_sie_es": "führe zu",
+        "wir": "führen zu",
+        "ihr": "führet zu",
+        "sie_Sie": "führen zu"
+      },
+      "imperativ": {
+        "du": "Fahr zu!",
+        "ihr": "Fahrt zu!",
+        "Sie": "Fahren Sie zu!"
+      }
+    },
+    "partizip1": "zufahrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "راندن، رفتن (با وسیله)",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "das Auto",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ماشین",
+          "en": "car"
+        },
+        "id_ref": "nomen_auto"
+      },
+      {
+        "wort": "die Richtung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جهت",
+          "en": "direction"
+        },
+        "id_ref": "nomen_richtung"
+      },
+      {
+        "wort": "zugehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به طرف کسی رفتن",
+          "en": "to approach"
+        },
+        "id_ref": "verb_zugehen"
+      },
+      {
+        "wort": "zulaufen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به طرف کسی دویدن",
+          "en": "to run towards"
+        },
+        "id_ref": "verb_zulaufen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

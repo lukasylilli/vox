@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_zubringen",
+  "wort": "zubringen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(وقت) گذراندن"
+    ],
+    "en": [
+      "to spend (time)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Freizeit"
+  ],
+  "ipa": "ˈt͡suːˌbʁɪŋən",
+  "anmerkung": "Trennbar, gemischtes Verb (brachte zu, zugebracht).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er bringt viel Zeit im Garten zu.",
+      "uebersetzung": {
+        "fa": "او وقت زیادی را در باغ می‌گذراند.",
+        "en": "He spends a lot of time in the garden."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Nacht, die wir am Flughafen zugebracht haben, war sehr unbequem.",
+      "uebersetzung": {
+        "fa": "شبی که در فرودگاه گذراندیم خیلی ناراحت بود.",
+        "en": "The night we spent at the airport was very uncomfortable."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verbringen",
+      "uebersetzung": {
+        "fa": "گذراندن",
+        "en": "to spend"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zu- (افزوده) + bringen (آوردن)",
+    "en": "zu- (towards) + bringen (to bring)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas mit + Dat zubringen",
+        "bedeutung": "Zeit mit einer Tätigkeit verbringen",
+        "beispiel": "Sie bringt jeden Abend zwei Stunden mit Lesen zu.",
+        "uebersetzung": {
+          "fa": "او هر شب دو ساعت را با مطالعه می‌گذراند.",
+          "en": "She spends two hours reading every evening."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zubringen",
+      "praeteritum": "brachte zu",
+      "partizip2": "zugebracht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bringe zu",
+        "du": "bringst zu",
+        "er_sie_es": "bringt zu",
+        "wir": "bringen zu",
+        "ihr": "bringt zu",
+        "sie_Sie": "bringen zu"
+      },
+      "praeteritum": {
+        "ich": "brachte zu",
+        "du": "brachtest zu",
+        "er_sie_es": "brachte zu",
+        "wir": "brachten zu",
+        "ihr": "brachtet zu",
+        "sie_Sie": "brachten zu"
+      },
+      "konjunktiv1": {
+        "ich": "bringe zu",
+        "du": "bringest zu",
+        "er_sie_es": "bringe zu",
+        "wir": "bringen zu",
+        "ihr": "bringet zu",
+        "sie_Sie": "bringen zu"
+      },
+      "konjunktiv2": {
+        "ich": "brächte zu",
+        "du": "brächtest zu",
+        "er_sie_es": "brächte zu",
+        "wir": "brächten zu",
+        "ihr": "brächtet zu",
+        "sie_Sie": "brächten zu"
+      },
+      "imperativ": {
+        "du": "Bring zu!",
+        "ihr": "Bringt zu!",
+        "Sie": "Bringen Sie zu!"
+      }
+    },
+    "partizip1": "zubringend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bringen",
+    "woerter": [
+      {
+        "wort": "verbringen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گذراندن",
+          "en": "to spend"
+        },
+        "id_ref": "verb_verbringen"
+      },
+      {
+        "wort": "die Zeit",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زمان",
+          "en": "time"
+        },
+        "id_ref": "nomen_zeit"
+      },
+      {
+        "wort": "bringen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آوردن",
+          "en": "to bring"
+        },
+        "id_ref": "verb_bringen"
+      },
+      {
+        "wort": "die Nacht",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شب",
+          "en": "night"
+        },
+        "id_ref": "nomen_nacht"
+      },
+      {
+        "wort": "der Aufenthalt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اقامت",
+          "en": "stay"
+        },
+        "id_ref": "nomen_aufenthalt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

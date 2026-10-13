@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_zufliessen",
+  "wort": "zufließen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جاری شدن به‌سوی",
+      "(پول) به جایی رسیدن"
+    ],
+    "en": [
+      "to flow into",
+      "to go to (money)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Wirtschaft"
+  ],
+  "ipa": "ˈt͡suːˌfliːsn̩",
+  "anmerkung": "Trennbar (floss zu, zugeflossen), Perfekt mit «sein».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Wasser fließt dem See zu.",
+      "uebersetzung": {
+        "fa": "آب به‌سوی دریاچه جاری می‌شود.",
+        "en": "The water flows towards the lake."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das gesamte Geld aus dem Verkauf fließt einer Stiftung zu, die Kinder unterstützt.",
+      "uebersetzung": {
+        "fa": "تمام پول فروش به بنیادی می‌رسد که از کودکان حمایت می‌کند.",
+        "en": "All the money from the sale goes to a foundation that supports children."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "abfließen",
+      "uebersetzung": {
+        "fa": "خارج شدن، تخلیه شدن",
+        "en": "to drain away"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zu- (به‌سوی) + fließen (جاری شدن)",
+    "en": "zu- (towards) + fließen (to flow)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem / etwas zufließen (+ Dat)",
+        "bedeutung": "zu jemandem oder etwas hinfließen; jemandem zugutekommen",
+        "beispiel": "Die Spenden fließen einem Krankenhaus zu.",
+        "uebersetzung": {
+          "fa": "کمک‌ها به یک بیمارستان می‌رسد.",
+          "en": "The donations go to a hospital."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zufließen",
+      "praeteritum": "floss zu",
+      "partizip2": "zugeflossen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fließe zu",
+        "du": "fließt zu",
+        "er_sie_es": "fließt zu",
+        "wir": "fließen zu",
+        "ihr": "fließt zu",
+        "sie_Sie": "fließen zu"
+      },
+      "praeteritum": {
+        "ich": "floss zu",
+        "du": "flossest zu",
+        "er_sie_es": "floss zu",
+        "wir": "flossen zu",
+        "ihr": "flosst zu",
+        "sie_Sie": "flossen zu"
+      },
+      "konjunktiv1": {
+        "ich": "fließe zu",
+        "du": "fließest zu",
+        "er_sie_es": "fließe zu",
+        "wir": "fließen zu",
+        "ihr": "fließet zu",
+        "sie_Sie": "fließen zu"
+      },
+      "konjunktiv2": {
+        "ich": "flösse zu",
+        "du": "flössest zu",
+        "er_sie_es": "flösse zu",
+        "wir": "flössen zu",
+        "ihr": "flösset zu",
+        "sie_Sie": "flössen zu"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "zufließend",
+    "nominalisierung": "der Zufluss"
+  },
+  "wortnetz": {
+    "grundwort": "fließen",
+    "woerter": [
+      {
+        "wort": "fließen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جاری شدن",
+          "en": "to flow"
+        },
+        "id_ref": "verb_fliessen"
+      },
+      {
+        "wort": "der Fluss",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رودخانه",
+          "en": "river"
+        },
+        "id_ref": "nomen_fluss"
+      },
+      {
+        "wort": "der Zufluss",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شاخه‌ی ورودی رود",
+          "en": "tributary"
+        },
+        "id_ref": "nomen_zufluss"
+      },
+      {
+        "wort": "die Spende",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کمک مالی",
+          "en": "donation"
+        },
+        "id_ref": "nomen_spende"
+      },
+      {
+        "wort": "abfließen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خارج شدن (آب)",
+          "en": "to drain away"
+        },
+        "id_ref": "verb_abfliessen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

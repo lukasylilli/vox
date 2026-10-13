@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_zufliegen",
+  "wort": "zufliegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به‌سوی چیزی پرواز کردن",
+      "(خودبه‌خود) بسته شدن",
+      "بی‌زحمت به دست آمدن"
+    ],
+    "en": [
+      "to fly towards",
+      "to slam shut",
+      "to come easily"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Natur",
+    "Alltag"
+  ],
+  "ipa": "ˈt͡suːˌfliːɡn̩",
+  "anmerkung": "Trennbar (flog zu, zugeflogen), Perfekt mit «sein». «Ihm fliegt alles zu» (= er lernt mühelos).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ein Vogel fliegt auf das Fenster zu.",
+      "uebersetzung": {
+        "fa": "پرنده‌ای به طرف پنجره پرواز می‌کند.",
+        "en": "A bird is flying towards the window."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In der Schule ist ihr alles zugeflogen, obwohl sie kaum gelernt hat.",
+      "uebersetzung": {
+        "fa": "در مدرسه همه چیز بی‌زحمت برایش ممکن بود، با اینکه کم درس می‌خواند.",
+        "en": "At school everything came easily to her, although she hardly studied."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zu- (به‌سوی) + fliegen (پرواز کردن)",
+    "en": "zu- (towards) + fliegen (to fly)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Akk zufliegen",
+        "bedeutung": "sich fliegend auf etwas zubewegen",
+        "beispiel": "Der Ball flog direkt auf das Tor zu.",
+        "uebersetzung": {
+          "fa": "توپ مستقیم به طرف دروازه رفت.",
+          "en": "The ball flew straight towards the goal."
+        }
+      },
+      {
+        "muster": "jemandem zufliegen (+ Dat)",
+        "bedeutung": "jemandem mühelos gelingen",
+        "beispiel": "Fremdsprachen fliegen ihm einfach zu.",
+        "uebersetzung": {
+          "fa": "زبان‌های خارجی خیلی راحت به او می‌چسبد.",
+          "en": "Foreign languages just come easily to him."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zufliegen",
+      "praeteritum": "flog zu",
+      "partizip2": "zugeflogen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fliege zu",
+        "du": "fliegst zu",
+        "er_sie_es": "fliegt zu",
+        "wir": "fliegen zu",
+        "ihr": "fliegt zu",
+        "sie_Sie": "fliegen zu"
+      },
+      "praeteritum": {
+        "ich": "flog zu",
+        "du": "flogst zu",
+        "er_sie_es": "flog zu",
+        "wir": "flogen zu",
+        "ihr": "flogt zu",
+        "sie_Sie": "flogen zu"
+      },
+      "konjunktiv1": {
+        "ich": "fliege zu",
+        "du": "fliegest zu",
+        "er_sie_es": "fliege zu",
+        "wir": "fliegen zu",
+        "ihr": "flieget zu",
+        "sie_Sie": "fliegen zu"
+      },
+      "konjunktiv2": {
+        "ich": "flöge zu",
+        "du": "flögest zu",
+        "er_sie_es": "flöge zu",
+        "wir": "flögen zu",
+        "ihr": "flöget zu",
+        "sie_Sie": "flögen zu"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "zufliegend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fliegen",
+    "woerter": [
+      {
+        "wort": "fliegen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرواز کردن",
+          "en": "to fly"
+        },
+        "id_ref": "verb_fliegen"
+      },
+      {
+        "wort": "der Vogel",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرنده",
+          "en": "bird"
+        },
+        "id_ref": "nomen_vogel"
+      },
+      {
+        "wort": "leicht",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آسان",
+          "en": "easy"
+        },
+        "id_ref": "adjektiv_leicht"
+      },
+      {
+        "wort": "zufallen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بسته شدن؛ رسیدن",
+          "en": "to slam shut; to fall to"
+        },
+        "id_ref": "verb_zufallen"
+      },
+      {
+        "wort": "das Talent",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "استعداد",
+          "en": "talent"
+        },
+        "id_ref": "nomen_talent"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

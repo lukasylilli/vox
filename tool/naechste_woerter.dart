@@ -1457,6 +1457,13 @@ const zurueckgestellt = <String>{
   'zerklieben', // zurückgestellt (Regel 14/16): veraltet 2026-10-13
   'zerlesen', // zurückgestellt (Regel 14/16): als Verb selten (meist Adjektiv «zerlesen») 2026-10-13
   'zermahlen', // zurückgestellt (Regel 14/16): mahlte/gemahlen (wie ausmahlen, vermahlen) 2026-10-13
+  'zudenken', // zurückgestellt (Regel 14/16): fast nur im Partizip («zugedacht») 2026-10-13
+  'zueinanderdürfen', // zurückgestellt (Regel 14/16): Modalverb-Verbindung 2026-10-13
+  'zueinanderhalten', // zurückgestellt (Regel 14/16): Schreibung schwankt (zueinander halten) 2026-10-13
+  'zueinanderkommen', // zurückgestellt (Regel 14/16): Schreibung schwankt (zueinander kommen) 2026-10-13
+  'zueinanderkönnen', // zurückgestellt (Regel 14/16): Modalverb-Verbindung 2026-10-13
+  'zueinanderlassen', // zurückgestellt (Regel 14/16): Schreibung schwankt, selten 2026-10-13
+  'zuerkennen', // zurückgestellt (Regel 14/16): trennbar/untrennbar schwankt (erkannte zu / zuerkannte) 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

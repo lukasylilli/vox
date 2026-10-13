@@ -2764,6 +2764,13 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۴۰۴ | zerklieben | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | قدیمی — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۰۵ | zerlesen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | به‌عنوان فعل نادر (بیشتر صفت) — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۰۶ | zermahlen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | صرف مختلط mahlte/gemahlen (مثل ausmahlen) — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۰۷ | zudenken | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | تقریباً فقط به شکل صفت مفعولی (zugedacht) — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۰۸ | zueinanderdürfen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | ترکیب با فعل وجهی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۰۹ | zueinanderhalten | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | املا نوسان دارد — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۱۰ | zueinanderkommen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | املا نوسان دارد — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۱۱ | zueinanderkönnen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | ترکیب با فعل وجهی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۱۲ | zueinanderlassen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | املا نوسان دارد، نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۱۳ | zuerkennen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | جداشدنی/جدانشدنی نوسان‌دار (erkannte zu / zuerkannte) ⇒ مثل vorenthalten — قاعده‌ی ۱۴/۱۶ | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 
