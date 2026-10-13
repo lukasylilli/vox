@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_stechen",
+  "wort": "stechen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نیش زدن",
+      "(با چیز نوک‌تیز) فرو کردن، سوراخ کردن",
+      "(درد) تیر کشیدن"
+    ],
+    "en": [
+      "to sting",
+      "to prick, to stab",
+      "to have a stabbing pain"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Natur",
+    "Gesundheit"
+  ],
+  "ipa": "ˈʃtɛçn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Eine Biene hat mich gestochen.",
+      "uebersetzung": {
+        "fa": "یک زنبور نیشم زد.",
+        "en": "A bee stung me."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Seit ich gestern so viel gelaufen bin, sticht es mir in der Seite.",
+      "uebersetzung": {
+        "fa": "از وقتی دیروز آن‌قدر دویدم، پهلویم تیر می‌کشد.",
+        "en": "Since I ran so much yesterday, I've had a stabbing pain in my side."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "pieksen",
+      "uebersetzung": {
+        "fa": "(محاوره) سوزن زدن، سیخونک زدن",
+        "en": "to prick"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich an + Dat stechen",
+        "bedeutung": "sich an etwas Spitzem verletzen",
+        "beispiel": "Ich habe mich an der Rose gestochen.",
+        "uebersetzung": {
+          "fa": "دستم به خار گل رز خورد.",
+          "en": "I pricked myself on the rose."
+        }
+      },
+      {
+        "muster": "in + Akk stechen",
+        "bedeutung": "mit etwas Spitzem hineinstechen",
+        "beispiel": "Sie sticht mit der Gabel in die Kartoffel.",
+        "uebersetzung": {
+          "fa": "او چنگال را در سیب‌زمینی فرو می‌کند.",
+          "en": "She sticks her fork into the potato."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "stechen",
+      "praeteritum": "stach",
+      "partizip2": "gestochen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "steche",
+        "du": "stichst",
+        "er_sie_es": "sticht",
+        "wir": "stechen",
+        "ihr": "stecht",
+        "sie_Sie": "stechen"
+      },
+      "praeteritum": {
+        "ich": "stach",
+        "du": "stachst",
+        "er_sie_es": "stach",
+        "wir": "stachen",
+        "ihr": "stacht",
+        "sie_Sie": "stachen"
+      },
+      "konjunktiv1": {
+        "ich": "steche",
+        "du": "stechest",
+        "er_sie_es": "steche",
+        "wir": "stechen",
+        "ihr": "stechet",
+        "sie_Sie": "stechen"
+      },
+      "konjunktiv2": {
+        "ich": "stäche",
+        "du": "stächest",
+        "er_sie_es": "stäche",
+        "wir": "stächen",
+        "ihr": "stächet",
+        "sie_Sie": "stächen"
+      },
+      "imperativ": {
+        "du": "Stich!",
+        "ihr": "Stecht!",
+        "Sie": "Stechen Sie!"
+      }
+    },
+    "partizip1": "stechend",
+    "nominalisierung": "der Stich"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Biene",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زنبور عسل",
+          "en": "bee"
+        },
+        "id_ref": "nomen_biene"
+      },
+      {
+        "wort": "die Mücke",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پشه",
+          "en": "mosquito"
+        },
+        "id_ref": "nomen_muecke"
+      },
+      {
+        "wort": "spitz",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نوک‌تیز",
+          "en": "pointed"
+        },
+        "id_ref": "adjektiv_spitz"
+      },
+      {
+        "wort": "der Stich",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نیش؛ بخیه",
+          "en": "sting; stitch"
+        },
+        "id_ref": "nomen_stich"
+      },
+      {
+        "wort": "der Stachel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نیش، خار",
+          "en": "sting, thorn"
+        },
+        "id_ref": "nomen_stachel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

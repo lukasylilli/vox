@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_stattfinden",
+  "wort": "stattfinden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "برگزار شدن، انجام شدن"
+    ],
+    "en": [
+      "to take place",
+      "to happen"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Freizeit"
+  ],
+  "ipa": "ˈʃtatˌfɪndn̩",
+  "anmerkung": "Subjekt ist ein Ereignis (Konzert, Kurs, Treffen); kein sinnvoller Imperativ.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Kurs findet am Montag statt.",
+      "uebersetzung": {
+        "fa": "کلاس دوشنبه برگزار می‌شود.",
+        "en": "The course takes place on Monday."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil es so stark geregnet hat, hat das Konzert in der Halle stattgefunden.",
+      "uebersetzung": {
+        "fa": "چون باران خیلی شدید بود، کنسرت در سالن برگزار شد.",
+        "en": "Because it rained so heavily, the concert took place in the hall."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich ereignen",
+      "uebersetzung": {
+        "fa": "رخ دادن",
+        "en": "to occur"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ausfallen",
+      "uebersetzung": {
+        "fa": "لغو شدن",
+        "en": "to be cancelled"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "statt (جا، مکان) + finden (پیدا کردن)",
+    "en": "statt (place) + finden (to find)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "stattfinden",
+      "praeteritum": "fand statt",
+      "partizip2": "stattgefunden"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "finde statt",
+        "du": "findest statt",
+        "er_sie_es": "findet statt",
+        "wir": "finden statt",
+        "ihr": "findet statt",
+        "sie_Sie": "finden statt"
+      },
+      "praeteritum": {
+        "ich": "fand statt",
+        "du": "fandest statt",
+        "er_sie_es": "fand statt",
+        "wir": "fanden statt",
+        "ihr": "fandet statt",
+        "sie_Sie": "fanden statt"
+      },
+      "konjunktiv1": {
+        "ich": "finde statt",
+        "du": "findest statt",
+        "er_sie_es": "finde statt",
+        "wir": "finden statt",
+        "ihr": "findet statt",
+        "sie_Sie": "finden statt"
+      },
+      "konjunktiv2": {
+        "ich": "fände statt",
+        "du": "fändest statt",
+        "er_sie_es": "fände statt",
+        "wir": "fänden statt",
+        "ihr": "fändet statt",
+        "sie_Sie": "fänden statt"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "stattfindend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "finden",
+    "woerter": [
+      {
+        "wort": "der Termin",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "وقت، قرار",
+          "en": "appointment"
+        },
+        "id_ref": "nomen_termin"
+      },
+      {
+        "wort": "das Fest",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جشن",
+          "en": "party, festival"
+        },
+        "id_ref": "nomen_fest"
+      },
+      {
+        "wort": "die Veranstaltung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رویداد، مراسم",
+          "en": "event"
+        },
+        "id_ref": "nomen_veranstaltung"
+      },
+      {
+        "wort": "ausfallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "لغو شدن",
+          "en": "to be cancelled"
+        },
+        "id_ref": "verb_ausfallen"
+      },
+      {
+        "wort": "ereignen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "(sich) رخ دادن",
+          "en": "to occur"
+        },
+        "id_ref": "verb_ereignen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

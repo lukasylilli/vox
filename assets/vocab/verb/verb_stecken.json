@@ -1,0 +1,197 @@
+{
+  "schema": "3.0",
+  "id": "verb_stecken",
+  "wort": "stecken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(در جایی) گذاشتن، فرو کردن",
+      "(در جایی) بودن، گیر کردن"
+    ],
+    "en": [
+      "to put, to insert",
+      "to be (stuck)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈʃtɛkn̩",
+  "anmerkung": "Regelmäßig (steckte, gesteckt), obwohl in der Liste der unregelmäßigen Verben; intransitiv gehoben auch «stak».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Schlüssel steckt in der Tür.",
+      "uebersetzung": {
+        "fa": "کلید روی در است.",
+        "en": "The key is in the door."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Er hat das Geld in die Tasche gesteckt, bevor jemand es sehen konnte.",
+      "uebersetzung": {
+        "fa": "پول را در جیبش گذاشت، پیش از آنکه کسی بتواند آن را ببیند.",
+        "en": "He put the money in his pocket before anyone could see it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hineintun",
+      "uebersetzung": {
+        "fa": "داخل گذاشتن",
+        "en": "to put in"
+      }
+    },
+    {
+      "wort": "legen",
+      "uebersetzung": {
+        "fa": "گذاشتن",
+        "en": "to put"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "herausziehen",
+      "uebersetzung": {
+        "fa": "بیرون کشیدن",
+        "en": "to pull out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas in + Akk stecken",
+        "bedeutung": "etwas in etwas hineintun",
+        "beispiel": "Steck den Brief in den Umschlag!",
+        "uebersetzung": {
+          "fa": "نامه را در پاکت بگذار!",
+          "en": "Put the letter in the envelope!"
+        }
+      },
+      {
+        "muster": "in + Dat stecken",
+        "bedeutung": "sich in etwas befinden",
+        "beispiel": "Wir stecken im Stau.",
+        "uebersetzung": {
+          "fa": "در ترافیک گیر کرده‌ایم.",
+          "en": "We're stuck in traffic."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "stecken",
+      "praeteritum": "steckte",
+      "partizip2": "gesteckt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stecke",
+        "du": "steckst",
+        "er_sie_es": "steckt",
+        "wir": "stecken",
+        "ihr": "steckt",
+        "sie_Sie": "stecken"
+      },
+      "praeteritum": {
+        "ich": "steckte",
+        "du": "stecktest",
+        "er_sie_es": "steckte",
+        "wir": "steckten",
+        "ihr": "stecktet",
+        "sie_Sie": "steckten"
+      },
+      "konjunktiv1": {
+        "ich": "stecke",
+        "du": "steckest",
+        "er_sie_es": "stecke",
+        "wir": "stecken",
+        "ihr": "stecket",
+        "sie_Sie": "stecken"
+      },
+      "konjunktiv2": {
+        "ich": "steckte",
+        "du": "stecktest",
+        "er_sie_es": "steckte",
+        "wir": "steckten",
+        "ihr": "stecktet",
+        "sie_Sie": "steckten"
+      },
+      "imperativ": {
+        "du": "Steck!",
+        "ihr": "Steckt!",
+        "Sie": "Stecken Sie!"
+      }
+    },
+    "partizip1": "steckend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "legen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گذاشتن",
+          "en": "to put"
+        },
+        "id_ref": "verb_legen"
+      },
+      {
+        "wort": "die Tasche",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جیب؛ کیف",
+          "en": "pocket; bag"
+        },
+        "id_ref": "nomen_tasche"
+      },
+      {
+        "wort": "der Stecker",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دوشاخه",
+          "en": "plug"
+        },
+        "id_ref": "nomen_stecker"
+      },
+      {
+        "wort": "die Steckdose",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پریز",
+          "en": "socket"
+        },
+        "id_ref": "nomen_steckdose"
+      },
+      {
+        "wort": "anstecken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سنجاق کردن؛ مسری کردن",
+          "en": "to pin on; to infect"
+        },
+        "id_ref": "verb_anstecken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

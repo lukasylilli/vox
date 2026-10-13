@@ -1,0 +1,200 @@
+{
+  "schema": "3.0",
+  "id": "verb_steigen",
+  "wort": "steigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بالا رفتن",
+      "سوار/پیاده شدن (in/aus)",
+      "افزایش یافتن"
+    ],
+    "en": [
+      "to climb",
+      "to get on/off",
+      "to rise"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Verkehr",
+    "Wirtschaft"
+  ],
+  "ipa": "ˈʃtaɪ̯ɡn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Preise steigen.",
+      "uebersetzung": {
+        "fa": "قیمت‌ها بالا می‌روند.",
+        "en": "Prices are rising."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil der Bus so voll war, sind wir in ein Taxi gestiegen.",
+      "uebersetzung": {
+        "fa": "چون اتوبوس خیلی شلوغ بود، سوار تاکسی شدیم.",
+        "en": "Because the bus was so full, we got into a taxi."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "klettern",
+      "uebersetzung": {
+        "fa": "بالا رفتن (از چیزی)",
+        "en": "to climb"
+      }
+    },
+    {
+      "wort": "zunehmen",
+      "uebersetzung": {
+        "fa": "افزایش یافتن",
+        "en": "to increase"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sinken",
+      "uebersetzung": {
+        "fa": "پایین آمدن",
+        "en": "to fall"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in + Akk steigen",
+        "bedeutung": "in ein Fahrzeug einsteigen",
+        "beispiel": "Sie steigt in den Zug.",
+        "uebersetzung": {
+          "fa": "او سوار قطار می‌شود.",
+          "en": "She gets on the train."
+        }
+      },
+      {
+        "muster": "auf + Akk steigen",
+        "bedeutung": "auf etwas hinaufgehen",
+        "beispiel": "Wir steigen auf den Berg.",
+        "uebersetzung": {
+          "fa": "ما از کوه بالا می‌رویم.",
+          "en": "We climb up the mountain."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "steigen",
+      "praeteritum": "stieg",
+      "partizip2": "gestiegen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "steige",
+        "du": "steigst",
+        "er_sie_es": "steigt",
+        "wir": "steigen",
+        "ihr": "steigt",
+        "sie_Sie": "steigen"
+      },
+      "praeteritum": {
+        "ich": "stieg",
+        "du": "stiegst",
+        "er_sie_es": "stieg",
+        "wir": "stiegen",
+        "ihr": "stiegt",
+        "sie_Sie": "stiegen"
+      },
+      "konjunktiv1": {
+        "ich": "steige",
+        "du": "steigest",
+        "er_sie_es": "steige",
+        "wir": "steigen",
+        "ihr": "steiget",
+        "sie_Sie": "steigen"
+      },
+      "konjunktiv2": {
+        "ich": "stiege",
+        "du": "stiegest",
+        "er_sie_es": "stiege",
+        "wir": "stiegen",
+        "ihr": "stieget",
+        "sie_Sie": "stiegen"
+      },
+      "imperativ": {
+        "du": "Steig!",
+        "ihr": "Steigt!",
+        "Sie": "Steigen Sie!"
+      }
+    },
+    "partizip1": "steigend",
+    "nominalisierung": "der Anstieg"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "einsteigen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سوار شدن",
+          "en": "to get on"
+        },
+        "id_ref": "verb_einsteigen"
+      },
+      {
+        "wort": "aussteigen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پیاده شدن",
+          "en": "to get off"
+        },
+        "id_ref": "verb_aussteigen"
+      },
+      {
+        "wort": "umsteigen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "(وسیله‌ی نقلیه) عوض کردن",
+          "en": "to change (trains)"
+        },
+        "id_ref": "verb_umsteigen"
+      },
+      {
+        "wort": "sinken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پایین آمدن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_sinken"
+      },
+      {
+        "wort": "der Anstieg",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "افزایش",
+          "en": "rise"
+        },
+        "id_ref": "nomen_anstieg"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

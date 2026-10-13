@@ -1,0 +1,208 @@
+{
+  "schema": "3.0",
+  "id": "verb_stossen",
+  "wort": "stoßen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "هل دادن، ضربه زدن",
+      "(به چیزی) خوردن",
+      "(auf + Akk) برخوردن به"
+    ],
+    "en": [
+      "to push, to bump",
+      "to knock (against)",
+      "to come across"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈʃtoːsn̩",
+  "anmerkung": "Transitiv mit «haben» (Er hat mich gestoßen); bei Bewegung/Treffen mit «sein» (Wir sind auf ein Problem gestoßen).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er stößt mich mit dem Ellbogen.",
+      "uebersetzung": {
+        "fa": "او با آرنج به من ضربه می‌زند.",
+        "en": "He nudges me with his elbow."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ich habe mir den Kopf gestoßen, als ich aus dem Auto ausgestiegen bin.",
+      "uebersetzung": {
+        "fa": "وقتی از ماشین پیاده شدم، سرم به جایی خورد.",
+        "en": "I banged my head when I got out of the car."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schubsen",
+      "uebersetzung": {
+        "fa": "(محاوره) هل دادن",
+        "en": "to shove"
+      }
+    },
+    {
+      "wort": "schieben",
+      "uebersetzung": {
+        "fa": "هل دادن",
+        "en": "to push"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ziehen",
+      "uebersetzung": {
+        "fa": "کشیدن",
+        "en": "to pull"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "auf + Akk stoßen",
+        "bedeutung": "etwas zufällig finden",
+        "beispiel": "Bei der Recherche sind wir auf einen Fehler gestoßen.",
+        "uebersetzung": {
+          "fa": "در جست‌وجو به یک اشتباه برخوردیم.",
+          "en": "During the research we came across a mistake."
+        }
+      },
+      {
+        "muster": "gegen + Akk stoßen",
+        "bedeutung": "an etwas anprallen",
+        "beispiel": "Das Auto ist gegen einen Baum gestoßen.",
+        "uebersetzung": {
+          "fa": "ماشین به درختی خورد.",
+          "en": "The car hit a tree."
+        }
+      },
+      {
+        "muster": "sich an + Dat stoßen",
+        "bedeutung": "sich an etwas verletzen; etwas störend finden",
+        "beispiel": "Ich habe mich am Tisch gestoßen.",
+        "uebersetzung": {
+          "fa": "به میز خوردم.",
+          "en": "I bumped into the table."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "stoßen",
+      "praeteritum": "stieß",
+      "partizip2": "gestoßen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stoße",
+        "du": "stößt",
+        "er_sie_es": "stößt",
+        "wir": "stoßen",
+        "ihr": "stoßt",
+        "sie_Sie": "stoßen"
+      },
+      "praeteritum": {
+        "ich": "stieß",
+        "du": "stießest",
+        "er_sie_es": "stieß",
+        "wir": "stießen",
+        "ihr": "stießt",
+        "sie_Sie": "stießen"
+      },
+      "konjunktiv1": {
+        "ich": "stoße",
+        "du": "stoßest",
+        "er_sie_es": "stoße",
+        "wir": "stoßen",
+        "ihr": "stoßet",
+        "sie_Sie": "stoßen"
+      },
+      "konjunktiv2": {
+        "ich": "stieße",
+        "du": "stießest",
+        "er_sie_es": "stieße",
+        "wir": "stießen",
+        "ihr": "stießet",
+        "sie_Sie": "stießen"
+      },
+      "imperativ": {
+        "du": "Stoß!",
+        "ihr": "Stoßt!",
+        "Sie": "Stoßen Sie!"
+      }
+    },
+    "partizip1": "stoßend",
+    "nominalisierung": "der Stoß"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "schieben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "هل دادن",
+          "en": "to push"
+        },
+        "id_ref": "verb_schieben"
+      },
+      {
+        "wort": "treffen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ملاقات کردن؛ برخوردن",
+          "en": "to meet; to hit"
+        },
+        "id_ref": "verb_treffen"
+      },
+      {
+        "wort": "der Stoß",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ضربه، تکان",
+          "en": "push, blow"
+        },
+        "id_ref": "nomen_stoss"
+      },
+      {
+        "wort": "zusammenstoßen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تصادف کردن، برخورد کردن",
+          "en": "to collide"
+        },
+        "id_ref": "verb_zusammenstossen"
+      },
+      {
+        "wort": "der Anstoß",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "انگیزه؛ ضربه‌ی شروع",
+          "en": "impetus; kick-off"
+        },
+        "id_ref": "nomen_anstoss"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

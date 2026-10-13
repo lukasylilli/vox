@@ -1,0 +1,200 @@
+{
+  "schema": "3.0",
+  "id": "verb_stehen",
+  "wort": "stehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ایستادن، ایستاده بودن",
+      "(در جایی) قرار داشتن، نوشته شدن",
+      "(به کسی) آمدن (لباس)"
+    ],
+    "en": [
+      "to stand",
+      "to be (written/located)",
+      "to suit"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈʃteːən",
+  "anmerkung": "In Süddeutschland und Österreich Perfekt meist mit «sein» (ich bin gestanden). Konjunktiv II auch «stände».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir stehen an der Bushaltestelle.",
+      "uebersetzung": {
+        "fa": "ما در ایستگاه اتوبوس ایستاده‌ایم.",
+        "en": "We're standing at the bus stop."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In dem Brief steht, dass ich die Unterlagen bis Freitag schicken muss.",
+      "uebersetzung": {
+        "fa": "در نامه نوشته شده که باید مدارک را تا جمعه بفرستم.",
+        "en": "The letter says that I have to send the documents by Friday."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "sitzen",
+      "uebersetzung": {
+        "fa": "نشستن",
+        "en": "to sit"
+      }
+    },
+    {
+      "wort": "liegen",
+      "uebersetzung": {
+        "fa": "دراز کشیدن",
+        "en": "to lie"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem (Dat) stehen",
+        "bedeutung": "jemandem gut passen (Kleidung)",
+        "beispiel": "Das Kleid steht dir gut.",
+        "uebersetzung": {
+          "fa": "این لباس خیلی به تو می‌آید.",
+          "en": "The dress suits you."
+        }
+      },
+      {
+        "muster": "auf + Akk stehen",
+        "bedeutung": "(ugs.) etwas sehr mögen",
+        "beispiel": "Ich stehe auf italienisches Essen.",
+        "uebersetzung": {
+          "fa": "من عاشق غذای ایتالیایی‌ام.",
+          "en": "I'm really into Italian food."
+        }
+      },
+      {
+        "muster": "zu + Dat stehen",
+        "bedeutung": "jemanden/etwas unterstützen",
+        "beispiel": "Ich stehe zu meinem Wort.",
+        "uebersetzung": {
+          "fa": "پای حرفم می‌ایستم.",
+          "en": "I stand by my word."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "stehen",
+      "praeteritum": "stand",
+      "partizip2": "gestanden"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stehe",
+        "du": "stehst",
+        "er_sie_es": "steht",
+        "wir": "stehen",
+        "ihr": "steht",
+        "sie_Sie": "stehen"
+      },
+      "praeteritum": {
+        "ich": "stand",
+        "du": "standest",
+        "er_sie_es": "stand",
+        "wir": "standen",
+        "ihr": "standet",
+        "sie_Sie": "standen"
+      },
+      "konjunktiv1": {
+        "ich": "stehe",
+        "du": "stehest",
+        "er_sie_es": "stehe",
+        "wir": "stehen",
+        "ihr": "stehet",
+        "sie_Sie": "stehen"
+      },
+      "konjunktiv2": {
+        "ich": "stünde",
+        "du": "stündest",
+        "er_sie_es": "stünde",
+        "wir": "stünden",
+        "ihr": "stündet",
+        "sie_Sie": "stünden"
+      },
+      "imperativ": {
+        "du": "Steh!",
+        "ihr": "Steht!",
+        "Sie": "Stehen Sie!"
+      }
+    },
+    "partizip1": "stehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "aufstehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بلند شدن، از خواب برخاستن",
+          "en": "to get up"
+        },
+        "id_ref": "verb_aufstehen"
+      },
+      {
+        "wort": "verstehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فهمیدن",
+          "en": "to understand"
+        },
+        "id_ref": "verb_verstehen"
+      },
+      {
+        "wort": "sitzen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نشستن",
+          "en": "to sit"
+        },
+        "id_ref": "verb_sitzen"
+      },
+      {
+        "wort": "der Stand",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وضعیت؛ غرفه",
+          "en": "state; stand"
+        },
+        "id_ref": "nomen_stand"
+      },
+      {
+        "wort": "bestehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قبول شدن؛ وجود داشتن",
+          "en": "to pass; to exist"
+        },
+        "id_ref": "verb_bestehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

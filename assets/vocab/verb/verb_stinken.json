@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_stinken",
+  "wort": "stinken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بوی بد دادن"
+    ],
+    "en": [
+      "to stink",
+      "to smell bad"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Sinne",
+    "Alltag"
+  ],
+  "ipa": "ˈʃtɪŋkn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Müll stinkt.",
+      "uebersetzung": {
+        "fa": "زباله بوی بد می‌دهد.",
+        "en": "The rubbish stinks."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Es hat in der Küche so gestunken, dass wir alle Fenster öffnen mussten.",
+      "uebersetzung": {
+        "fa": "آشپزخانه آن‌قدر بوی بد می‌داد که مجبور شدیم همه‌ی پنجره‌ها را باز کنیم.",
+        "en": "The kitchen stank so much that we had to open all the windows."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "müffeln",
+      "uebersetzung": {
+        "fa": "(محاوره) بوی نا دادن",
+        "en": "to smell musty"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "duften",
+      "uebersetzung": {
+        "fa": "بوی خوش دادن",
+        "en": "to smell nice"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "nach + Dat stinken",
+        "bedeutung": "schlecht nach etwas riechen",
+        "beispiel": "Hier stinkt es nach Rauch.",
+        "uebersetzung": {
+          "fa": "اینجا بوی بد دود می‌آید.",
+          "en": "It reeks of smoke here."
+        }
+      },
+      {
+        "muster": "jemandem (Dat) stinken",
+        "bedeutung": "(ugs.) jemanden ärgern",
+        "beispiel": "Mir stinkt diese Arbeit!",
+        "uebersetzung": {
+          "fa": "از این کار حالم به هم می‌خورد!",
+          "en": "I'm fed up with this work!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "stinken",
+      "praeteritum": "stank",
+      "partizip2": "gestunken"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stinke",
+        "du": "stinkst",
+        "er_sie_es": "stinkt",
+        "wir": "stinken",
+        "ihr": "stinkt",
+        "sie_Sie": "stinken"
+      },
+      "praeteritum": {
+        "ich": "stank",
+        "du": "stankst",
+        "er_sie_es": "stank",
+        "wir": "stanken",
+        "ihr": "stankt",
+        "sie_Sie": "stanken"
+      },
+      "konjunktiv1": {
+        "ich": "stinke",
+        "du": "stinkest",
+        "er_sie_es": "stinke",
+        "wir": "stinken",
+        "ihr": "stinket",
+        "sie_Sie": "stinken"
+      },
+      "konjunktiv2": {
+        "ich": "stänke",
+        "du": "stänkest",
+        "er_sie_es": "stänke",
+        "wir": "stänken",
+        "ihr": "stänket",
+        "sie_Sie": "stänken"
+      },
+      "imperativ": {
+        "du": "Stink!",
+        "ihr": "Stinkt!",
+        "Sie": "Stinken Sie!"
+      }
+    },
+    "partizip1": "stinkend",
+    "nominalisierung": "der Gestank"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "riechen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بو کردن، بو دادن",
+          "en": "to smell"
+        },
+        "id_ref": "verb_riechen"
+      },
+      {
+        "wort": "der Geruch",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بو",
+          "en": "smell"
+        },
+        "id_ref": "nomen_geruch"
+      },
+      {
+        "wort": "duften",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بوی خوش دادن",
+          "en": "to smell nice"
+        },
+        "id_ref": "verb_duften"
+      },
+      {
+        "wort": "der Gestank",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بوی بد",
+          "en": "stench"
+        },
+        "id_ref": "nomen_gestank"
+      },
+      {
+        "wort": "stinkig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "(محاوره) بدبو؛ بداخلاق",
+          "en": "smelly; grumpy"
+        },
+        "id_ref": "adjektiv_stinkig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

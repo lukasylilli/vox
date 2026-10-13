@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_standhalten",
+  "wort": "standhalten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(در برابر چیزی) مقاومت کردن، تاب آوردن"
+    ],
+    "en": [
+      "to withstand",
+      "to hold out against"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Technik"
+  ],
+  "ipa": "ˈʃtantˌhaltn̩",
+  "anmerkung": "Mit Dativ: einem Druck / einer Belastung / einer Prüfung standhalten.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Brücke hält dem Sturm stand.",
+      "uebersetzung": {
+        "fa": "پل در برابر طوفان مقاومت می‌کند.",
+        "en": "The bridge withstands the storm."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ob seine Theorie einer genauen Prüfung standhält, ist noch unklar.",
+      "uebersetzung": {
+        "fa": "هنوز روشن نیست که نظریه‌اش در یک بررسی دقیق تاب بیاورد.",
+        "en": "It is still unclear whether his theory will stand up to close scrutiny."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aushalten",
+      "uebersetzung": {
+        "fa": "تحمل کردن",
+        "en": "to endure"
+      }
+    },
+    {
+      "wort": "widerstehen",
+      "uebersetzung": {
+        "fa": "مقاومت کردن",
+        "en": "to resist"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "nachgeben",
+      "uebersetzung": {
+        "fa": "کوتاه آمدن، تسلیم شدن",
+        "en": "to give in"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "stand (ایستادن، پایداری) + halten (نگه داشتن)",
+    "en": "stand (standing, firmness) + halten (to hold)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem/etwas (Dat) standhalten",
+        "bedeutung": "einer Belastung widerstehen",
+        "beispiel": "Er hielt dem Druck nicht mehr stand.",
+        "uebersetzung": {
+          "fa": "دیگر نتوانست زیر فشار دوام بیاورد.",
+          "en": "He could no longer withstand the pressure."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "standhalten",
+      "praeteritum": "hielt stand",
+      "partizip2": "standgehalten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "halte stand",
+        "du": "hältst stand",
+        "er_sie_es": "hält stand",
+        "wir": "halten stand",
+        "ihr": "haltet stand",
+        "sie_Sie": "halten stand"
+      },
+      "praeteritum": {
+        "ich": "hielt stand",
+        "du": "hieltest stand",
+        "er_sie_es": "hielt stand",
+        "wir": "hielten stand",
+        "ihr": "hieltet stand",
+        "sie_Sie": "hielten stand"
+      },
+      "konjunktiv1": {
+        "ich": "halte stand",
+        "du": "haltest stand",
+        "er_sie_es": "halte stand",
+        "wir": "halten stand",
+        "ihr": "haltet stand",
+        "sie_Sie": "halten stand"
+      },
+      "konjunktiv2": {
+        "ich": "hielte stand",
+        "du": "hieltest stand",
+        "er_sie_es": "hielte stand",
+        "wir": "hielten stand",
+        "ihr": "hieltet stand",
+        "sie_Sie": "hielten stand"
+      },
+      "imperativ": {
+        "du": "Halt stand!",
+        "ihr": "Haltet stand!",
+        "Sie": "Halten Sie stand!"
+      }
+    },
+    "partizip1": "standhaltend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "halten",
+    "woerter": [
+      {
+        "wort": "halten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to hold"
+        },
+        "id_ref": "verb_halten"
+      },
+      {
+        "wort": "aushalten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تحمل کردن",
+          "en": "to endure"
+        },
+        "id_ref": "verb_aushalten"
+      },
+      {
+        "wort": "der Druck",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فشار",
+          "en": "pressure"
+        },
+        "id_ref": "nomen_druck"
+      },
+      {
+        "wort": "widerstehen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مقاومت کردن",
+          "en": "to resist"
+        },
+        "id_ref": "verb_widerstehen"
+      },
+      {
+        "wort": "standhaft",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پایدار، استوار",
+          "en": "steadfast"
+        },
+        "id_ref": "adjektiv_standhaft"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

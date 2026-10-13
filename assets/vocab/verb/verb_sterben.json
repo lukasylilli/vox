@@ -1,0 +1,196 @@
+{
+  "schema": "3.0",
+  "id": "verb_sterben",
+  "wort": "sterben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مردن، درگذشتن"
+    ],
+    "en": [
+      "to die"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Gesundheit",
+    "Familie"
+  ],
+  "ipa": "ˈʃtɛʁbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mein Opa ist letztes Jahr gestorben.",
+      "uebersetzung": {
+        "fa": "پدربزرگم پارسال درگذشت.",
+        "en": "My grandpa died last year."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Obwohl die Ärzte alles versucht haben, ist der Patient in der Nacht gestorben.",
+      "uebersetzung": {
+        "fa": "با اینکه پزشکان همه‌ی تلاششان را کردند، بیمار در شب درگذشت.",
+        "en": "Although the doctors tried everything, the patient died during the night."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "umkommen",
+      "uebersetzung": {
+        "fa": "جان باختن",
+        "en": "to perish"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "leben",
+      "uebersetzung": {
+        "fa": "زندگی کردن، زنده بودن",
+        "en": "to live"
+      }
+    },
+    {
+      "wort": "geboren werden",
+      "uebersetzung": {
+        "fa": "به دنیا آمدن",
+        "en": "to be born"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "an + Dat sterben",
+        "bedeutung": "wegen einer Krankheit sterben",
+        "beispiel": "Er ist an Krebs gestorben.",
+        "uebersetzung": {
+          "fa": "او بر اثر سرطان درگذشت.",
+          "en": "He died of cancer."
+        }
+      },
+      {
+        "muster": "vor + Dat sterben",
+        "bedeutung": "(übertragen) etwas sehr stark empfinden",
+        "beispiel": "Ich sterbe vor Hunger!",
+        "uebersetzung": {
+          "fa": "از گرسنگی دارم می‌میرم!",
+          "en": "I'm dying of hunger!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "sterben",
+      "praeteritum": "starb",
+      "partizip2": "gestorben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "sterbe",
+        "du": "stirbst",
+        "er_sie_es": "stirbt",
+        "wir": "sterben",
+        "ihr": "sterbt",
+        "sie_Sie": "sterben"
+      },
+      "praeteritum": {
+        "ich": "starb",
+        "du": "starbst",
+        "er_sie_es": "starb",
+        "wir": "starben",
+        "ihr": "starbt",
+        "sie_Sie": "starben"
+      },
+      "konjunktiv1": {
+        "ich": "sterbe",
+        "du": "sterbest",
+        "er_sie_es": "sterbe",
+        "wir": "sterben",
+        "ihr": "sterbet",
+        "sie_Sie": "sterben"
+      },
+      "konjunktiv2": {
+        "ich": "stürbe",
+        "du": "stürbest",
+        "er_sie_es": "stürbe",
+        "wir": "stürben",
+        "ihr": "stürbet",
+        "sie_Sie": "stürben"
+      },
+      "imperativ": {
+        "du": "Stirb!",
+        "ihr": "Sterbt!",
+        "Sie": "Sterben Sie!"
+      }
+    },
+    "partizip1": "sterbend",
+    "nominalisierung": "das Sterben"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "leben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زندگی کردن",
+          "en": "to live"
+        },
+        "id_ref": "verb_leben"
+      },
+      {
+        "wort": "tot",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مرده",
+          "en": "dead"
+        },
+        "id_ref": "adjektiv_tot"
+      },
+      {
+        "wort": "der Tod",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مرگ",
+          "en": "death"
+        },
+        "id_ref": "nomen_tod"
+      },
+      {
+        "wort": "sterblich",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "فانی",
+          "en": "mortal"
+        },
+        "id_ref": "adjektiv_sterblich"
+      },
+      {
+        "wort": "aussterben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "منقرض شدن",
+          "en": "to die out"
+        },
+        "id_ref": "verb_aussterben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_stattgeben",
+  "wort": "stattgeben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(درخواستی را) پذیرفتن، با چیزی موافقت کردن (اداری/حقوقی)"
+    ],
+    "en": [
+      "to grant",
+      "to accept (a request)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Verwaltung"
+  ],
+  "ipa": "ˈʃtatˌɡeːbn̩",
+  "anmerkung": "Amts- und Rechtssprache, mit Dativ (einem Antrag stattgeben). Kein sinnvoller Imperativ.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Gericht gibt der Klage statt.",
+      "uebersetzung": {
+        "fa": "دادگاه شکایت را می‌پذیرد.",
+        "en": "The court upholds the complaint."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem alle Unterlagen geprüft worden waren, hat die Behörde meinem Antrag stattgegeben.",
+      "uebersetzung": {
+        "fa": "بعد از آنکه همه‌ی مدارک بررسی شد، اداره با درخواست من موافقت کرد.",
+        "en": "After all the documents had been checked, the authority granted my application."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bewilligen",
+      "uebersetzung": {
+        "fa": "تصویب کردن، موافقت کردن",
+        "en": "to approve"
+      }
+    },
+    {
+      "wort": "genehmigen",
+      "uebersetzung": {
+        "fa": "اجازه دادن",
+        "en": "to approve"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ablehnen",
+      "uebersetzung": {
+        "fa": "رد کردن",
+        "en": "to reject"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "statt (جا، مکان) + geben (دادن)",
+    "en": "statt (place) + geben (to give)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas (Dat) stattgeben",
+        "bedeutung": "einer Bitte/einem Antrag zustimmen",
+        "beispiel": "Der Richter gab dem Einspruch statt.",
+        "uebersetzung": {
+          "fa": "قاضی اعتراض را پذیرفت.",
+          "en": "The judge upheld the objection."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "stattgeben",
+      "praeteritum": "gab statt",
+      "partizip2": "stattgegeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gebe statt",
+        "du": "gibst statt",
+        "er_sie_es": "gibt statt",
+        "wir": "geben statt",
+        "ihr": "gebt statt",
+        "sie_Sie": "geben statt"
+      },
+      "praeteritum": {
+        "ich": "gab statt",
+        "du": "gabst statt",
+        "er_sie_es": "gab statt",
+        "wir": "gaben statt",
+        "ihr": "gabt statt",
+        "sie_Sie": "gaben statt"
+      },
+      "konjunktiv1": {
+        "ich": "gebe statt",
+        "du": "gebest statt",
+        "er_sie_es": "gebe statt",
+        "wir": "geben statt",
+        "ihr": "gebet statt",
+        "sie_Sie": "geben statt"
+      },
+      "konjunktiv2": {
+        "ich": "gäbe statt",
+        "du": "gäbest statt",
+        "er_sie_es": "gäbe statt",
+        "wir": "gäben statt",
+        "ihr": "gäbet statt",
+        "sie_Sie": "gäben statt"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "stattgebend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "der Antrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درخواست",
+          "en": "application"
+        },
+        "id_ref": "nomen_antrag"
+      },
+      {
+        "wort": "ablehnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رد کردن",
+          "en": "to reject"
+        },
+        "id_ref": "verb_ablehnen"
+      },
+      {
+        "wort": "genehmigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اجازه دادن",
+          "en": "to approve"
+        },
+        "id_ref": "verb_genehmigen"
+      },
+      {
+        "wort": "die Behörde",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اداره",
+          "en": "authority"
+        },
+        "id_ref": "nomen_behoerde"
+      },
+      {
+        "wort": "bewilligen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تصویب کردن",
+          "en": "to approve"
+        },
+        "id_ref": "verb_bewilligen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
