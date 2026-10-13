@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_mithalten",
+  "wort": "mithalten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با کسی یا چیزی) همپا بودن، عقب نماندن"
+    ],
+    "en": [
+      "to keep up (with)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Sport",
+    "Arbeit",
+    "Lernen"
+  ],
+  "ipa": "ˈmɪtˌhaltn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich kann nicht mithalten.",
+      "uebersetzung": {
+        "fa": "نمی‌توانم همپا باشم.",
+        "en": "I can't keep up."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Mit dem Tempo der jungen Kollegen konnte er am Anfang kaum mithalten.",
+      "uebersetzung": {
+        "fa": "اوایل به‌سختی می‌توانست با سرعت همکاران جوان همپا باشد.",
+        "en": "At first he could hardly keep up with the pace of the young colleagues."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "Schritt halten",
+      "uebersetzung": {
+        "fa": "همپا بودن",
+        "en": "to keep pace"
+      }
+    },
+    {
+      "wort": "mitkommen",
+      "uebersetzung": {
+        "fa": "عقب نماندن",
+        "en": "to keep up"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zurückfallen",
+      "uebersetzung": {
+        "fa": "عقب افتادن",
+        "en": "to fall behind"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mit- (همراه، با) + halten (نگه داشتن)",
+    "en": "mit- (along, with) + halten (to hold)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit + Dat mithalten",
+        "bedeutung": "genauso gut sein wie jemand",
+        "beispiel": "Mit ihm kann beim Schach niemand mithalten.",
+        "uebersetzung": {
+          "fa": "در شطرنج هیچ‌کس به پای او نمی‌رسد.",
+          "en": "Nobody can keep up with him at chess."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "mithalten",
+      "praeteritum": "hielt mit",
+      "partizip2": "mitgehalten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "halte mit",
+        "du": "hältst mit",
+        "er_sie_es": "hält mit",
+        "wir": "halten mit",
+        "ihr": "haltet mit",
+        "sie_Sie": "halten mit"
+      },
+      "praeteritum": {
+        "ich": "hielt mit",
+        "du": "hieltest mit",
+        "er_sie_es": "hielt mit",
+        "wir": "hielten mit",
+        "ihr": "hieltet mit",
+        "sie_Sie": "hielten mit"
+      },
+      "konjunktiv1": {
+        "ich": "halte mit",
+        "du": "haltest mit",
+        "er_sie_es": "halte mit",
+        "wir": "halten mit",
+        "ihr": "haltet mit",
+        "sie_Sie": "halten mit"
+      },
+      "konjunktiv2": {
+        "ich": "hielte mit",
+        "du": "hieltest mit",
+        "er_sie_es": "hielte mit",
+        "wir": "hielten mit",
+        "ihr": "hieltet mit",
+        "sie_Sie": "hielten mit"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "mithaltend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "halten",
+    "woerter": [
+      {
+        "wort": "halten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to hold"
+        },
+        "id_ref": "verb_halten"
+      },
+      {
+        "wort": "das Tempo",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرعت",
+          "en": "pace"
+        },
+        "id_ref": "nomen_tempo"
+      },
+      {
+        "wort": "mitkommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "همراه آمدن",
+          "en": "to come along"
+        },
+        "id_ref": "verb_mitkommen"
+      },
+      {
+        "wort": "der Wettbewerb",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رقابت",
+          "en": "competition"
+        },
+        "id_ref": "nomen_wettbewerb"
+      },
+      {
+        "wort": "mit",
+        "wortart": "praeposition",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "با",
+          "en": "with"
+        },
+        "id_ref": "praeposition_mit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

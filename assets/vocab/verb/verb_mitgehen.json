@@ -1,0 +1,194 @@
+{
+  "schema": "3.0",
+  "id": "verb_mitgehen",
+  "wort": "mitgehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با کسی) همراه رفتن",
+      "(با موسیقی یا سخنرانی) همراه شدن، به وجد آمدن",
+      "(محاوره، etwas mitgehen lassen) (چیزی را) کش رفتن"
+    ],
+    "en": [
+      "to go with (someone)",
+      "to respond enthusiastically (to music, a speech)",
+      "(colloquial, etw mitgehen lassen) to pinch"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Freizeit"
+  ],
+  "ipa": "ˈmɪtˌɡeːən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Gehst du mit ins Kino?",
+      "uebersetzung": {
+        "fa": "با ما سینما می‌آیی؟",
+        "en": "Are you coming to the cinema with us?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Publikum ist bei dem Konzert von Anfang an begeistert mitgegangen.",
+      "uebersetzung": {
+        "fa": "تماشاگران از همان اول کنسرت با هیجان همراهی کردند.",
+        "en": "The audience responded enthusiastically from the very start of the concert."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "mitkommen",
+      "uebersetzung": {
+        "fa": "همراه آمدن",
+        "en": "to come along"
+      }
+    },
+    {
+      "wort": "begleiten",
+      "uebersetzung": {
+        "fa": "همراهی کردن",
+        "en": "to accompany"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zurückbleiben",
+      "uebersetzung": {
+        "fa": "ماندن",
+        "en": "to stay behind"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mit- (همراه، با) + gehen (رفتن)",
+    "en": "mit- (along, with) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit + Dat mitgehen",
+        "bedeutung": "jemanden begleiten",
+        "beispiel": "Ich gehe mit dir zum Arzt mit.",
+        "uebersetzung": {
+          "fa": "با تو پیش دکتر می‌آیم.",
+          "en": "I'll go to the doctor with you."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "mitgehen",
+      "praeteritum": "ging mit",
+      "partizip2": "mitgegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe mit",
+        "du": "gehst mit",
+        "er_sie_es": "geht mit",
+        "wir": "gehen mit",
+        "ihr": "geht mit",
+        "sie_Sie": "gehen mit"
+      },
+      "praeteritum": {
+        "ich": "ging mit",
+        "du": "gingst mit",
+        "er_sie_es": "ging mit",
+        "wir": "gingen mit",
+        "ihr": "gingt mit",
+        "sie_Sie": "gingen mit"
+      },
+      "konjunktiv1": {
+        "ich": "gehe mit",
+        "du": "gehest mit",
+        "er_sie_es": "gehe mit",
+        "wir": "gehen mit",
+        "ihr": "gehet mit",
+        "sie_Sie": "gehen mit"
+      },
+      "konjunktiv2": {
+        "ich": "ginge mit",
+        "du": "gingest mit",
+        "er_sie_es": "ginge mit",
+        "wir": "gingen mit",
+        "ihr": "ginget mit",
+        "sie_Sie": "gingen mit"
+      },
+      "imperativ": {
+        "du": "Geh mit!",
+        "ihr": "Geht mit!",
+        "Sie": "Gehen Sie mit!"
+      }
+    },
+    "partizip1": "mitgehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "mitkommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "همراه آمدن",
+          "en": "to come along"
+        },
+        "id_ref": "verb_mitkommen"
+      },
+      {
+        "wort": "begleiten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "همراهی کردن",
+          "en": "to accompany"
+        },
+        "id_ref": "verb_begleiten"
+      },
+      {
+        "wort": "der Ausflug",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گردش",
+          "en": "trip"
+        },
+        "id_ref": "nomen_ausflug"
+      },
+      {
+        "wort": "mit",
+        "wortart": "praeposition",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "با",
+          "en": "with"
+        },
+        "id_ref": "praeposition_mit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

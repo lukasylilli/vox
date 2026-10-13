@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_mitleiden",
+  "wort": "mitleiden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با کسی) همدردی کردن، در رنج (کسی) شریک بودن"
+    ],
+    "en": [
+      "to suffer with, to sympathise with"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle"
+  ],
+  "ipa": "ˈmɪtˌlaɪ̯dn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir leiden mit ihr mit.",
+      "uebersetzung": {
+        "fa": "در رنجش با او شریکیم.",
+        "en": "We suffer with her."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei dem traurigen Film haben alle Zuschauer mit der Hauptfigur mitgelitten.",
+      "uebersetzung": {
+        "fa": "در آن فیلم غمگین، همه‌ی تماشاگران با شخصیت اصلی همدردی کردند.",
+        "en": "During the sad film all the viewers suffered along with the main character."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "mitfühlen",
+      "uebersetzung": {
+        "fa": "همدردی کردن",
+        "en": "to sympathise"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mit- (همراه، با) + leiden (رنج بردن)",
+    "en": "mit- (along, with) + leiden (to suffer)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit + Dat mitleiden",
+        "bedeutung": "mit jemandem leiden",
+        "beispiel": "Die Mutter leidet mit ihrem kranken Kind mit.",
+        "uebersetzung": {
+          "fa": "مادر با بچه‌ی بیمارش همدرد است.",
+          "en": "The mother suffers with her sick child."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "mitleiden",
+      "praeteritum": "litt mit",
+      "partizip2": "mitgelitten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "leide mit",
+        "du": "leidest mit",
+        "er_sie_es": "leidet mit",
+        "wir": "leiden mit",
+        "ihr": "leidet mit",
+        "sie_Sie": "leiden mit"
+      },
+      "praeteritum": {
+        "ich": "litt mit",
+        "du": "littest mit",
+        "er_sie_es": "litt mit",
+        "wir": "litten mit",
+        "ihr": "littet mit",
+        "sie_Sie": "litten mit"
+      },
+      "konjunktiv1": {
+        "ich": "leide mit",
+        "du": "leidest mit",
+        "er_sie_es": "leide mit",
+        "wir": "leiden mit",
+        "ihr": "leidet mit",
+        "sie_Sie": "leiden mit"
+      },
+      "konjunktiv2": {
+        "ich": "litte mit",
+        "du": "littest mit",
+        "er_sie_es": "litte mit",
+        "wir": "litten mit",
+        "ihr": "littet mit",
+        "sie_Sie": "litten mit"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "mitleidend",
+    "nominalisierung": "das Mitleid"
+  },
+  "wortnetz": {
+    "grundwort": "leiden",
+    "woerter": [
+      {
+        "wort": "leiden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رنج بردن",
+          "en": "to suffer"
+        },
+        "id_ref": "verb_leiden"
+      },
+      {
+        "wort": "das Mitleid",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دلسوزی",
+          "en": "pity"
+        },
+        "id_ref": "nomen_mitleid"
+      },
+      {
+        "wort": "mitfühlen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "همدردی کردن",
+          "en": "to sympathise"
+        },
+        "id_ref": "verb_mitfuehlen"
+      },
+      {
+        "wort": "die Empathie",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "همدلی",
+          "en": "empathy"
+        },
+        "id_ref": "nomen_empathie"
+      },
+      {
+        "wort": "trösten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دلداری دادن",
+          "en": "to comfort"
+        },
+        "id_ref": "verb_troesten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

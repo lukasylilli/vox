@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_mitkommen",
+  "wort": "mitkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با کسی) همراه آمدن",
+      "(در درس یا کاری) عقب نماندن، فهمیدن"
+    ],
+    "en": [
+      "to come along",
+      "to keep up, to follow"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Lernen"
+  ],
+  "ipa": "ˈmɪtˌkɔmən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Kommst du mit?",
+      "uebersetzung": {
+        "fa": "می‌آیی؟ (همراه ما)",
+        "en": "Are you coming along?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Lehrerin spricht so schnell, dass viele Schüler im Unterricht nicht mitkommen.",
+      "uebersetzung": {
+        "fa": "معلم آن‌قدر تند حرف می‌زند که بسیاری از دانش‌آموزان در کلاس عقب می‌مانند.",
+        "en": "The teacher speaks so fast that many pupils can't keep up in class."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "mitgehen",
+      "uebersetzung": {
+        "fa": "همراه رفتن",
+        "en": "to go along"
+      }
+    },
+    {
+      "wort": "folgen",
+      "uebersetzung": {
+        "fa": "دنبال کردن، فهمیدن",
+        "en": "to follow"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "dableiben",
+      "uebersetzung": {
+        "fa": "ماندن",
+        "en": "to stay"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mit- (همراه، با) + kommen (آمدن)",
+    "en": "mit- (along, with) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit + Dat mitkommen",
+        "bedeutung": "jemanden begleiten",
+        "beispiel": "Kommst du mit uns mit?",
+        "uebersetzung": {
+          "fa": "با ما می‌آیی؟",
+          "en": "Are you coming with us?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "mitkommen",
+      "praeteritum": "kam mit",
+      "partizip2": "mitgekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme mit",
+        "du": "kommst mit",
+        "er_sie_es": "kommt mit",
+        "wir": "kommen mit",
+        "ihr": "kommt mit",
+        "sie_Sie": "kommen mit"
+      },
+      "praeteritum": {
+        "ich": "kam mit",
+        "du": "kamst mit",
+        "er_sie_es": "kam mit",
+        "wir": "kamen mit",
+        "ihr": "kamt mit",
+        "sie_Sie": "kamen mit"
+      },
+      "konjunktiv1": {
+        "ich": "komme mit",
+        "du": "kommest mit",
+        "er_sie_es": "komme mit",
+        "wir": "kommen mit",
+        "ihr": "kommet mit",
+        "sie_Sie": "kommen mit"
+      },
+      "konjunktiv2": {
+        "ich": "käme mit",
+        "du": "kämest mit",
+        "er_sie_es": "käme mit",
+        "wir": "kämen mit",
+        "ihr": "kämet mit",
+        "sie_Sie": "kämen mit"
+      },
+      "imperativ": {
+        "du": "Komm mit!",
+        "ihr": "Kommt mit!",
+        "Sie": "Kommen Sie mit!"
+      }
+    },
+    "partizip1": "mitkommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "mitgehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "همراه رفتن",
+          "en": "to go along"
+        },
+        "id_ref": "verb_mitgehen"
+      },
+      {
+        "wort": "verstehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فهمیدن",
+          "en": "to understand"
+        },
+        "id_ref": "verb_verstehen"
+      },
+      {
+        "wort": "der Unterricht",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کلاس درس",
+          "en": "lesson"
+        },
+        "id_ref": "nomen_unterricht"
+      },
+      {
+        "wort": "mit",
+        "wortart": "praeposition",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "با",
+          "en": "with"
+        },
+        "id_ref": "praeposition_mit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

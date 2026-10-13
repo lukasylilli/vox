@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_mitgeben",
+  "wort": "mitgeben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(چیزی را به کسی برای بردن) دادن، همراهش کردن",
+      "(تجربه یا ارزشی را به کسی) منتقل کردن"
+    ],
+    "en": [
+      "to give (someone something to take along)",
+      "to pass on (values, advice)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Familie",
+    "Alltag"
+  ],
+  "ipa": "ˈmɪtˌɡeːbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich gebe dir ein Brot mit.",
+      "uebersetzung": {
+        "fa": "یک ساندویچ برایت می‌گذارم همراهت ببری.",
+        "en": "I'll give you a sandwich to take with you."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Meine Eltern haben mir mitgegeben, dass man immer ehrlich sein soll.",
+      "uebersetzung": {
+        "fa": "پدر و مادرم این را به من یاد دادند که آدم باید همیشه صادق باشد.",
+        "en": "My parents taught me that you should always be honest."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einpacken",
+      "uebersetzung": {
+        "fa": "بسته‌بندی کردن، گذاشتن (برای بردن)",
+        "en": "to pack"
+      }
+    },
+    {
+      "wort": "vermitteln",
+      "uebersetzung": {
+        "fa": "منتقل کردن",
+        "en": "to convey"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mit- (همراه، با) + geben (دادن)",
+    "en": "mit- (along, with) + geben (to give)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem etwas mitgeben (+ Dat + Akk)",
+        "bedeutung": "jemandem etwas zum Mitnehmen geben",
+        "beispiel": "Die Ärztin gab mir ein Rezept mit.",
+        "uebersetzung": {
+          "fa": "پزشک یک نسخه به من داد که همراه ببرم.",
+          "en": "The doctor gave me a prescription to take with me."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "mitgeben",
+      "praeteritum": "gab mit",
+      "partizip2": "mitgegeben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gebe mit",
+        "du": "gibst mit",
+        "er_sie_es": "gibt mit",
+        "wir": "geben mit",
+        "ihr": "gebt mit",
+        "sie_Sie": "geben mit"
+      },
+      "praeteritum": {
+        "ich": "gab mit",
+        "du": "gabst mit",
+        "er_sie_es": "gab mit",
+        "wir": "gaben mit",
+        "ihr": "gabt mit",
+        "sie_Sie": "gaben mit"
+      },
+      "konjunktiv1": {
+        "ich": "gebe mit",
+        "du": "gebest mit",
+        "er_sie_es": "gebe mit",
+        "wir": "geben mit",
+        "ihr": "gebet mit",
+        "sie_Sie": "geben mit"
+      },
+      "konjunktiv2": {
+        "ich": "gäbe mit",
+        "du": "gäbest mit",
+        "er_sie_es": "gäbe mit",
+        "wir": "gäben mit",
+        "ihr": "gäbet mit",
+        "sie_Sie": "gäben mit"
+      },
+      "imperativ": {
+        "du": "Gib mit!",
+        "ihr": "Gebt mit!",
+        "Sie": "Geben Sie mit!"
+      }
+    },
+    "partizip1": "mitgebend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "geben",
+    "woerter": [
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "mitnehmen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "با خود بردن",
+          "en": "to take along"
+        },
+        "id_ref": "verb_mitnehmen"
+      },
+      {
+        "wort": "einpacken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بسته‌بندی کردن",
+          "en": "to pack"
+        },
+        "id_ref": "verb_einpacken"
+      },
+      {
+        "wort": "der Rat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "توصیه",
+          "en": "advice"
+        },
+        "id_ref": "nomen_rat"
+      },
+      {
+        "wort": "mit",
+        "wortart": "praeposition",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "با",
+          "en": "with"
+        },
+        "id_ref": "praeposition_mit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

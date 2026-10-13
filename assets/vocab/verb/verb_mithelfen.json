@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_mithelfen",
+  "wort": "mithelfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(در کاری) کمک کردن، همکاری کردن"
+    ],
+    "en": [
+      "to help (with), to lend a hand"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Haushalt"
+  ],
+  "ipa": "ˈmɪtˌhɛlfn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Hilfst du beim Kochen mit?",
+      "uebersetzung": {
+        "fa": "در آشپزی کمک می‌کنی؟",
+        "en": "Will you help with the cooking?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Alle Nachbarn haben mitgeholfen, den Garten nach dem Sturm wieder aufzuräumen.",
+      "uebersetzung": {
+        "fa": "همه‌ی همسایه‌ها کمک کردند تا باغ را بعد از طوفان دوباره مرتب کنیم.",
+        "en": "All the neighbours helped tidy the garden again after the storm."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "helfen",
+      "uebersetzung": {
+        "fa": "کمک کردن",
+        "en": "to help"
+      }
+    },
+    {
+      "wort": "mitarbeiten",
+      "uebersetzung": {
+        "fa": "همکاری کردن",
+        "en": "to cooperate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mit- (همراه، با) + helfen (کمک کردن)",
+    "en": "mit- (along, with) + helfen (to help)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "bei + Dat mithelfen",
+        "bedeutung": "bei einer Arbeit helfen",
+        "beispiel": "Die Kinder helfen im Haushalt mit.",
+        "uebersetzung": {
+          "fa": "بچه‌ها در کارهای خانه کمک می‌کنند.",
+          "en": "The children help with the housework."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "mithelfen",
+      "praeteritum": "half mit",
+      "partizip2": "mitgeholfen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "helfe mit",
+        "du": "hilfst mit",
+        "er_sie_es": "hilft mit",
+        "wir": "helfen mit",
+        "ihr": "helft mit",
+        "sie_Sie": "helfen mit"
+      },
+      "praeteritum": {
+        "ich": "half mit",
+        "du": "halfst mit",
+        "er_sie_es": "half mit",
+        "wir": "halfen mit",
+        "ihr": "halft mit",
+        "sie_Sie": "halfen mit"
+      },
+      "konjunktiv1": {
+        "ich": "helfe mit",
+        "du": "helfest mit",
+        "er_sie_es": "helfe mit",
+        "wir": "helfen mit",
+        "ihr": "helfet mit",
+        "sie_Sie": "helfen mit"
+      },
+      "konjunktiv2": {
+        "ich": "hülfe mit",
+        "du": "hülfest mit",
+        "er_sie_es": "hülfe mit",
+        "wir": "hülfen mit",
+        "ihr": "hülfet mit",
+        "sie_Sie": "hülfen mit"
+      },
+      "imperativ": {
+        "du": "Hilf mit!",
+        "ihr": "Helft mit!",
+        "Sie": "Helfen Sie mit!"
+      }
+    },
+    "partizip1": "mithelfend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "helfen",
+    "woerter": [
+      {
+        "wort": "helfen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک کردن",
+          "en": "to help"
+        },
+        "id_ref": "verb_helfen"
+      },
+      {
+        "wort": "die Hilfe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک",
+          "en": "help"
+        },
+        "id_ref": "nomen_hilfe"
+      },
+      {
+        "wort": "mitarbeiten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "همکاری کردن",
+          "en": "to cooperate"
+        },
+        "id_ref": "verb_mitarbeiten"
+      },
+      {
+        "wort": "der Haushalt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کارهای خانه",
+          "en": "household"
+        },
+        "id_ref": "nomen_haushalt"
+      },
+      {
+        "wort": "mit",
+        "wortart": "praeposition",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "با",
+          "en": "with"
+        },
+        "id_ref": "praeposition_mit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
