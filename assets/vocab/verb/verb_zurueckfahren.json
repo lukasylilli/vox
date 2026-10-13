@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_zurueckfahren",
+  "wort": "zurückfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با وسیله) برگشتن",
+      "(با وسیله) برگرداندن",
+      "کاهش دادن (تولید)"
+    ],
+    "en": [
+      "to drive back",
+      "to take back (by car)",
+      "to cut back"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Verkehr",
+    "Reisen"
+  ],
+  "ipa": "t͡suˈʁʏkˌfaːʁən",
+  "anmerkung": "Trennbar (fuhr zurück, zurückgefahren). Intransitiv mit «sein»: «Wir sind nach Hause zurückgefahren.»; transitiv mit «haben»: «Er hat mich zurückgefahren.»",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Wir fahren morgen zurück.",
+      "uebersetzung": {
+        "fa": "ما فردا برمی‌گردیم.",
+        "en": "We are driving back tomorrow."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil es so stark schneite, sind wir früher nach Hause zurückgefahren.",
+      "uebersetzung": {
+        "fa": "چون برف خیلی شدید می‌بارید، زودتر به خانه برگشتیم.",
+        "en": "Because it was snowing so heavily, we drove back home earlier."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zurückkehren",
+      "uebersetzung": {
+        "fa": "برگشتن",
+        "en": "to return"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hinfahren",
+      "uebersetzung": {
+        "fa": "(به جایی) رفتن",
+        "en": "to drive there"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zurück (برگشت) + fahren (رفتن با وسیله)",
+    "en": "zurück (back) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "zurückfahren",
+      "praeteritum": "fuhr zurück",
+      "partizip2": "zurückgefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre zurück",
+        "du": "fährst zurück",
+        "er_sie_es": "fährt zurück",
+        "wir": "fahren zurück",
+        "ihr": "fahrt zurück",
+        "sie_Sie": "fahren zurück"
+      },
+      "praeteritum": {
+        "ich": "fuhr zurück",
+        "du": "fuhrst zurück",
+        "er_sie_es": "fuhr zurück",
+        "wir": "fuhren zurück",
+        "ihr": "fuhrt zurück",
+        "sie_Sie": "fuhren zurück"
+      },
+      "konjunktiv1": {
+        "ich": "fahre zurück",
+        "du": "fahrest zurück",
+        "er_sie_es": "fahre zurück",
+        "wir": "fahren zurück",
+        "ihr": "fahret zurück",
+        "sie_Sie": "fahren zurück"
+      },
+      "konjunktiv2": {
+        "ich": "führe zurück",
+        "du": "führest zurück",
+        "er_sie_es": "führe zurück",
+        "wir": "führen zurück",
+        "ihr": "führet zurück",
+        "sie_Sie": "führen zurück"
+      },
+      "imperativ": {
+        "du": "Fahr zurück!",
+        "ihr": "Fahrt zurück!",
+        "Sie": "Fahren Sie zurück!"
+      }
+    },
+    "partizip1": "zurückfahrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "die Rückfahrt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "راه برگشت",
+          "en": "return journey"
+        },
+        "id_ref": "nomen_rueckfahrt"
+      },
+      {
+        "wort": "zurückkommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "برگشتن",
+          "en": "to come back"
+        },
+        "id_ref": "verb_zurueckkommen"
+      },
+      {
+        "wort": "hinfahren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "(به جایی) رفتن",
+          "en": "to drive there"
+        },
+        "id_ref": "verb_hinfahren"
+      },
+      {
+        "wort": "zurückkehren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برگشتن",
+          "en": "to return"
+        },
+        "id_ref": "verb_zurueckkehren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

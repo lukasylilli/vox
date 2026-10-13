@@ -1,0 +1,201 @@
+{
+  "schema": "3.0",
+  "id": "verb_zurueckgehen",
+  "wort": "zurückgehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "برگشتن (پیاده)",
+      "کاهش یافتن",
+      "ریشه داشتن در"
+    ],
+    "en": [
+      "to go back",
+      "to decrease",
+      "to go back to (origin)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Wirtschaft"
+  ],
+  "ipa": "t͡suˈʁʏkˌɡeːən",
+  "anmerkung": "Trennbar (ging zurück, zurückgegangen), Perfekt mit «sein».",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Wir gehen jetzt zurück.",
+      "uebersetzung": {
+        "fa": "حالا برمی‌گردیم.",
+        "en": "We're going back now."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Seit die Preise gestiegen sind, ist die Zahl der Kunden stark zurückgegangen.",
+      "uebersetzung": {
+        "fa": "از وقتی قیمت‌ها بالا رفته، تعداد مشتری‌ها خیلی کم شده است.",
+        "en": "Since prices have risen, the number of customers has fallen sharply."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abnehmen",
+      "uebersetzung": {
+        "fa": "کم شدن",
+        "en": "to decrease"
+      }
+    },
+    {
+      "wort": "sinken",
+      "uebersetzung": {
+        "fa": "پایین آمدن",
+        "en": "to fall"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "steigen",
+      "uebersetzung": {
+        "fa": "بالا رفتن",
+        "en": "to rise"
+      }
+    },
+    {
+      "wort": "zunehmen",
+      "uebersetzung": {
+        "fa": "زیاد شدن",
+        "en": "to increase"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zurück (برگشت) + gehen (رفتن)",
+    "en": "zurück (back) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Akk zurückgehen",
+        "bedeutung": "seinen Ursprung in etwas haben",
+        "beispiel": "Der Brauch geht auf das Mittelalter zurück.",
+        "uebersetzung": {
+          "fa": "این رسم به قرون وسطی برمی‌گردد.",
+          "en": "The custom goes back to the Middle Ages."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zurückgehen",
+      "praeteritum": "ging zurück",
+      "partizip2": "zurückgegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe zurück",
+        "du": "gehst zurück",
+        "er_sie_es": "geht zurück",
+        "wir": "gehen zurück",
+        "ihr": "geht zurück",
+        "sie_Sie": "gehen zurück"
+      },
+      "praeteritum": {
+        "ich": "ging zurück",
+        "du": "gingst zurück",
+        "er_sie_es": "ging zurück",
+        "wir": "gingen zurück",
+        "ihr": "gingt zurück",
+        "sie_Sie": "gingen zurück"
+      },
+      "konjunktiv1": {
+        "ich": "gehe zurück",
+        "du": "gehest zurück",
+        "er_sie_es": "gehe zurück",
+        "wir": "gehen zurück",
+        "ihr": "gehet zurück",
+        "sie_Sie": "gehen zurück"
+      },
+      "konjunktiv2": {
+        "ich": "ginge zurück",
+        "du": "gingest zurück",
+        "er_sie_es": "ginge zurück",
+        "wir": "gingen zurück",
+        "ihr": "ginget zurück",
+        "sie_Sie": "gingen zurück"
+      },
+      "imperativ": {
+        "du": "Geh zurück!",
+        "ihr": "Geht zurück!",
+        "Sie": "Gehen Sie zurück!"
+      }
+    },
+    "partizip1": "zurückgehend",
+    "nominalisierung": "der Rückgang"
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "der Rückgang",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کاهش",
+          "en": "decline"
+        },
+        "id_ref": "nomen_rueckgang"
+      },
+      {
+        "wort": "sinken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پایین آمدن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_sinken"
+      },
+      {
+        "wort": "zurückkommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "برگشتن",
+          "en": "to come back"
+        },
+        "id_ref": "verb_zurueckkommen"
+      },
+      {
+        "wort": "steigen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بالا رفتن",
+          "en": "to rise"
+        },
+        "id_ref": "verb_steigen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

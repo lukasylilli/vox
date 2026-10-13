@@ -2780,6 +2780,7 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۴۲۰ | zurechtbiegen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر (مثل herumbiegen) — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۲۱ | zurechtbringen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر/قدیمی — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۲۲ | zurückbegeben | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | ادبی/نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۲۳ | zurückdürfen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | ترکیب با فعل وجهی — قاعده‌ی ۱۴/۱۶ | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 

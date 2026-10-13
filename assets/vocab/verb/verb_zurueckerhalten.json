@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_zurueckerhalten",
+  "wort": "zurückerhalten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پس گرفتن"
+    ],
+    "en": [
+      "to get back",
+      "to recover"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Behörden"
+  ],
+  "ipa": "t͡suˈʁʏkʔɛɐ̯ˌhaltn̩",
+  "anmerkung": "Trennbar (erhielt zurück, zurückerhalten) — Partizip II ohne ge-. Etwas förmlicher als «zurückbekommen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie erhält ihren Pass zurück.",
+      "uebersetzung": {
+        "fa": "او گذرنامه‌اش را پس می‌گیرد.",
+        "en": "She gets her passport back."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Unterlagen, die Sie eingereicht haben, erhalten Sie nach der Prüfung zurück.",
+      "uebersetzung": {
+        "fa": "مدارکی را که تحویل داده‌اید، پس از بررسی پس می‌گیرید.",
+        "en": "You will get back the documents you submitted after the review."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zurückbekommen",
+      "uebersetzung": {
+        "fa": "پس گرفتن",
+        "en": "to get back"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zurückgeben",
+      "uebersetzung": {
+        "fa": "پس دادن",
+        "en": "to give back"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zurück (پس) + erhalten (دریافت کردن)",
+    "en": "zurück (back) + erhalten (to receive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "zurückerhalten",
+      "praeteritum": "erhielt zurück",
+      "partizip2": "zurückerhalten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erhalte zurück",
+        "du": "erhältst zurück",
+        "er_sie_es": "erhält zurück",
+        "wir": "erhalten zurück",
+        "ihr": "erhaltet zurück",
+        "sie_Sie": "erhalten zurück"
+      },
+      "praeteritum": {
+        "ich": "erhielt zurück",
+        "du": "erhieltest zurück",
+        "er_sie_es": "erhielt zurück",
+        "wir": "erhielten zurück",
+        "ihr": "erhieltet zurück",
+        "sie_Sie": "erhielten zurück"
+      },
+      "konjunktiv1": {
+        "ich": "erhalte zurück",
+        "du": "erhaltest zurück",
+        "er_sie_es": "erhalte zurück",
+        "wir": "erhalten zurück",
+        "ihr": "erhaltet zurück",
+        "sie_Sie": "erhalten zurück"
+      },
+      "konjunktiv2": {
+        "ich": "erhielte zurück",
+        "du": "erhieltest zurück",
+        "er_sie_es": "erhielte zurück",
+        "wir": "erhielten zurück",
+        "ihr": "erhieltet zurück",
+        "sie_Sie": "erhielten zurück"
+      },
+      "imperativ": {
+        "du": "Erhalte zurück!",
+        "ihr": "Erhaltet zurück!",
+        "Sie": "Erhalten Sie zurück!"
+      }
+    },
+    "partizip1": "zurückerhaltend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "erhalten",
+    "woerter": [
+      {
+        "wort": "erhalten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دریافت کردن",
+          "en": "to receive"
+        },
+        "id_ref": "verb_erhalten"
+      },
+      {
+        "wort": "zurückbekommen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پس گرفتن",
+          "en": "to get back"
+        },
+        "id_ref": "verb_zurueckbekommen"
+      },
+      {
+        "wort": "zurückgeben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پس دادن",
+          "en": "to give back"
+        },
+        "id_ref": "verb_zurueckgeben"
+      },
+      {
+        "wort": "die Unterlagen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مدارک",
+          "en": "documents"
+        },
+        "id_ref": "nomen_unterlagen"
+      },
+      {
+        "wort": "die Rückgabe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بازپس‌دادن",
+          "en": "return"
+        },
+        "id_ref": "nomen_rueckgabe"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

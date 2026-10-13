@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_zurueckfragen",
+  "wort": "zurückfragen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "متقابلاً پرسیدن، دوباره پرسیدن (برای روشن شدن)"
+    ],
+    "en": [
+      "to ask back",
+      "to ask for clarification"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "t͡suˈʁʏkˌfʁaːɡn̩",
+  "anmerkung": "Trennbar (fragte zurück, zurückgefragt). steht in der Liste der unregelmäßigen Verben, wird aber regelmäßig konjugiert (Duden).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er fragt sofort zurück.",
+      "uebersetzung": {
+        "fa": "او فوراً متقابلاً می‌پرسد.",
+        "en": "He immediately asks back."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn du etwas nicht verstanden hast, solltest du lieber zurückfragen.",
+      "uebersetzung": {
+        "fa": "اگر چیزی را نفهمیدی، بهتر است دوباره بپرسی.",
+        "en": "If you haven't understood something, you'd better ask."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nachfragen",
+      "uebersetzung": {
+        "fa": "پرس‌وجو کردن",
+        "en": "to enquire"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "antworten",
+      "uebersetzung": {
+        "fa": "جواب دادن",
+        "en": "to answer"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zurück (متقابل) + fragen (پرسیدن)",
+    "en": "zurück (back) + fragen (to ask)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "zurückfragen",
+      "praeteritum": "fragte zurück",
+      "partizip2": "zurückgefragt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "frage zurück",
+        "du": "fragst zurück",
+        "er_sie_es": "fragt zurück",
+        "wir": "fragen zurück",
+        "ihr": "fragt zurück",
+        "sie_Sie": "fragen zurück"
+      },
+      "praeteritum": {
+        "ich": "fragte zurück",
+        "du": "fragtest zurück",
+        "er_sie_es": "fragte zurück",
+        "wir": "fragten zurück",
+        "ihr": "fragtet zurück",
+        "sie_Sie": "fragten zurück"
+      },
+      "konjunktiv1": {
+        "ich": "frage zurück",
+        "du": "fragest zurück",
+        "er_sie_es": "frage zurück",
+        "wir": "fragen zurück",
+        "ihr": "fraget zurück",
+        "sie_Sie": "fragen zurück"
+      },
+      "konjunktiv2": {
+        "ich": "fragte zurück",
+        "du": "fragtest zurück",
+        "er_sie_es": "fragte zurück",
+        "wir": "fragten zurück",
+        "ihr": "fragtet zurück",
+        "sie_Sie": "fragten zurück"
+      },
+      "imperativ": {
+        "du": "Frag zurück!",
+        "ihr": "Fragt zurück!",
+        "Sie": "Fragen Sie zurück!"
+      }
+    },
+    "partizip1": "zurückfragend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fragen",
+    "woerter": [
+      {
+        "wort": "fragen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرسیدن",
+          "en": "to ask"
+        },
+        "id_ref": "verb_fragen"
+      },
+      {
+        "wort": "die Rückfrage",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پرسش برای روشن شدن",
+          "en": "query"
+        },
+        "id_ref": "nomen_rueckfrage"
+      },
+      {
+        "wort": "nachfragen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پرس‌وجو کردن",
+          "en": "to enquire"
+        },
+        "id_ref": "verb_nachfragen"
+      },
+      {
+        "wort": "die Antwort",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جواب",
+          "en": "answer"
+        },
+        "id_ref": "nomen_antwort"
+      },
+      {
+        "wort": "verstehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فهمیدن",
+          "en": "to understand"
+        },
+        "id_ref": "verb_verstehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

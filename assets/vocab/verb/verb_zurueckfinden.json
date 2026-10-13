@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_zurueckfinden",
+  "wort": "zurückfinden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "راه برگشت را پیدا کردن"
+    ],
+    "en": [
+      "to find one's way back"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Reisen"
+  ],
+  "ipa": "t͡suˈʁʏkˌfɪndn̩",
+  "anmerkung": "Trennbar (fand zurück, zurückgefunden).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Findest du allein zurück?",
+      "uebersetzung": {
+        "fa": "تنهایی راه برگشت را پیدا می‌کنی؟",
+        "en": "Can you find your way back on your own?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach der langen Krankheit hat sie langsam in ihren Alltag zurückgefunden.",
+      "uebersetzung": {
+        "fa": "پس از بیماری طولانی، کم‌کم به زندگی روزمره‌اش برگشت.",
+        "en": "After the long illness she slowly found her way back into everyday life."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "sich verirren",
+      "uebersetzung": {
+        "fa": "گم شدن",
+        "en": "to get lost"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zurück (برگشت) + finden (یافتن)",
+    "en": "zurück (back) + finden (to find)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zu + Dat / in + Akk zurückfinden",
+        "bedeutung": "wieder zu etwas Früherem gelangen",
+        "beispiel": "Die Mannschaft fand zu ihrer alten Stärke zurück.",
+        "uebersetzung": {
+          "fa": "تیم دوباره به قدرت سابقش رسید.",
+          "en": "The team regained its old strength."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zurückfinden",
+      "praeteritum": "fand zurück",
+      "partizip2": "zurückgefunden"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "finde zurück",
+        "du": "findest zurück",
+        "er_sie_es": "findet zurück",
+        "wir": "finden zurück",
+        "ihr": "findet zurück",
+        "sie_Sie": "finden zurück"
+      },
+      "praeteritum": {
+        "ich": "fand zurück",
+        "du": "fandest zurück",
+        "er_sie_es": "fand zurück",
+        "wir": "fanden zurück",
+        "ihr": "fandet zurück",
+        "sie_Sie": "fanden zurück"
+      },
+      "konjunktiv1": {
+        "ich": "finde zurück",
+        "du": "findest zurück",
+        "er_sie_es": "finde zurück",
+        "wir": "finden zurück",
+        "ihr": "findet zurück",
+        "sie_Sie": "finden zurück"
+      },
+      "konjunktiv2": {
+        "ich": "fände zurück",
+        "du": "fändest zurück",
+        "er_sie_es": "fände zurück",
+        "wir": "fänden zurück",
+        "ihr": "fändet zurück",
+        "sie_Sie": "fänden zurück"
+      },
+      "imperativ": {
+        "du": "Finde zurück!",
+        "ihr": "Findet zurück!",
+        "Sie": "Finden Sie zurück!"
+      }
+    },
+    "partizip1": "zurückfindend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "finden",
+    "woerter": [
+      {
+        "wort": "finden",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پیدا کردن",
+          "en": "to find"
+        },
+        "id_ref": "verb_finden"
+      },
+      {
+        "wort": "der Weg",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "راه",
+          "en": "way"
+        },
+        "id_ref": "nomen_weg"
+      },
+      {
+        "wort": "zurückkommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "برگشتن",
+          "en": "to come back"
+        },
+        "id_ref": "verb_zurueckkommen"
+      },
+      {
+        "wort": "sich verirren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گم شدن",
+          "en": "to get lost"
+        },
+        "id_ref": "verb_sich_verirren"
+      },
+      {
+        "wort": "zurechtfinden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "راه خود را پیدا کردن",
+          "en": "to find one's way"
+        },
+        "id_ref": "verb_zurechtfinden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_zurueckfallen",
+  "wort": "zurückfallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به عقب افتادن",
+      "عقب ماندن",
+      "دوباره دچار شدن (عادت قدیمی)"
+    ],
+    "en": [
+      "to fall back",
+      "to fall behind",
+      "to relapse"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Sport",
+    "Alltag"
+  ],
+  "ipa": "t͡suˈʁʏkˌfalən",
+  "anmerkung": "Trennbar (fiel zurück, zurückgefallen), Perfekt mit «sein».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er fällt ins Bett zurück.",
+      "uebersetzung": {
+        "fa": "او دوباره روی تخت می‌افتد.",
+        "en": "He falls back onto the bed."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem der Läufer gestürzt war, fiel er auf den letzten Platz zurück.",
+      "uebersetzung": {
+        "fa": "پس از زمین خوردن، دونده به رتبه‌ی آخر عقب افتاد.",
+        "en": "After the runner had fallen, he dropped back to last place."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zurückbleiben",
+      "uebersetzung": {
+        "fa": "عقب ماندن",
+        "en": "to fall behind"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zurück (عقب) + fallen (افتادن)",
+    "en": "zurück (back) + fallen (to fall)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in + Akk zurückfallen",
+        "bedeutung": "wieder in einen früheren Zustand geraten",
+        "beispiel": "Er ist in alte Gewohnheiten zurückgefallen.",
+        "uebersetzung": {
+          "fa": "او دوباره به عادت‌های قدیمی برگشت.",
+          "en": "He fell back into old habits."
+        }
+      },
+      {
+        "muster": "auf + Akk zurückfallen",
+        "bedeutung": "(Folgen) jemanden selbst treffen",
+        "beispiel": "Sein Verhalten fällt auf ihn selbst zurück.",
+        "uebersetzung": {
+          "fa": "رفتارش به خودش برمی‌گردد.",
+          "en": "His behaviour reflects back on himself."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zurückfallen",
+      "praeteritum": "fiel zurück",
+      "partizip2": "zurückgefallen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "falle zurück",
+        "du": "fällst zurück",
+        "er_sie_es": "fällt zurück",
+        "wir": "fallen zurück",
+        "ihr": "fallt zurück",
+        "sie_Sie": "fallen zurück"
+      },
+      "praeteritum": {
+        "ich": "fiel zurück",
+        "du": "fielst zurück",
+        "er_sie_es": "fiel zurück",
+        "wir": "fielen zurück",
+        "ihr": "fielt zurück",
+        "sie_Sie": "fielen zurück"
+      },
+      "konjunktiv1": {
+        "ich": "falle zurück",
+        "du": "fallest zurück",
+        "er_sie_es": "falle zurück",
+        "wir": "fallen zurück",
+        "ihr": "fallet zurück",
+        "sie_Sie": "fallen zurück"
+      },
+      "konjunktiv2": {
+        "ich": "fiele zurück",
+        "du": "fielest zurück",
+        "er_sie_es": "fiele zurück",
+        "wir": "fielen zurück",
+        "ihr": "fielet zurück",
+        "sie_Sie": "fielen zurück"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "zurückfallend",
+    "nominalisierung": "der Rückfall"
+  },
+  "wortnetz": {
+    "grundwort": "fallen",
+    "woerter": [
+      {
+        "wort": "fallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "افتادن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_fallen"
+      },
+      {
+        "wort": "der Rückfall",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بازگشت (بیماری، عادت)",
+          "en": "relapse"
+        },
+        "id_ref": "nomen_rueckfall"
+      },
+      {
+        "wort": "zurückbleiben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عقب ماندن",
+          "en": "to fall behind"
+        },
+        "id_ref": "verb_zurueckbleiben"
+      },
+      {
+        "wort": "die Gewohnheit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عادت",
+          "en": "habit"
+        },
+        "id_ref": "nomen_gewohnheit"
+      },
+      {
+        "wort": "der Platz",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جا؛ رتبه",
+          "en": "place"
+        },
+        "id_ref": "nomen_platz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

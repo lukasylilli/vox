@@ -1473,6 +1473,7 @@ const zurueckgestellt = <String>{
   'zurechtbiegen', // zurückgestellt (Regel 14/16): selten (wie beibiegen, herumbiegen) 2026-10-13
   'zurechtbringen', // zurückgestellt (Regel 14/16): selten/veraltet 2026-10-13
   'zurückbegeben', // zurückgestellt (Regel 14/16): gehoben/selten (wie hinbegeben) 2026-10-13
+  'zurückdürfen', // zurückgestellt (Regel 14/16): Modalverb-Verbindung 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
