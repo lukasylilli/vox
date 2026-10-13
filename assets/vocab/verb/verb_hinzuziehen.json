@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_hinzuziehen",
+  "wort": "hinzuziehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(متخصص یا کسی را برای مشورت) فراخواندن، به کار گرفتن"
+    ],
+    "en": [
+      "to call in, to consult (an expert)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Arbeit",
+    "Recht"
+  ],
+  "ipa": "hɪnˈt͡suːˌt͡siːən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir ziehen einen Arzt hinzu.",
+      "uebersetzung": {
+        "fa": "یک پزشک را فرا می‌خوانیم.",
+        "en": "We're calling in a doctor."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei schwierigen Fällen wird immer ein zweiter Facharzt hinzugezogen.",
+      "uebersetzung": {
+        "fa": "در موارد دشوار همیشه یک متخصص دوم هم برای مشورت فرا خوانده می‌شود.",
+        "en": "In difficult cases a second specialist is always consulted."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "konsultieren",
+      "uebersetzung": {
+        "fa": "مشورت گرفتن",
+        "en": "to consult"
+      }
+    },
+    {
+      "wort": "heranziehen",
+      "uebersetzung": {
+        "fa": "به کار گرفتن",
+        "en": "to call in"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hinzu- (افزون بر، به آن) + ziehen (کشیدن)",
+    "en": "hinzu- (in addition) + ziehen (to pull)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden zu + Dat hinzuziehen",
+        "bedeutung": "jemanden für etwas zu Rate ziehen",
+        "beispiel": "Zur Übersetzung wurde ein Dolmetscher hinzugezogen.",
+        "uebersetzung": {
+          "fa": "برای ترجمه یک مترجم شفاهی فرا خوانده شد.",
+          "en": "An interpreter was called in to translate."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hinzuziehen",
+      "praeteritum": "zog hinzu",
+      "partizip2": "hinzugezogen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ziehe hinzu",
+        "du": "ziehst hinzu",
+        "er_sie_es": "zieht hinzu",
+        "wir": "ziehen hinzu",
+        "ihr": "zieht hinzu",
+        "sie_Sie": "ziehen hinzu"
+      },
+      "praeteritum": {
+        "ich": "zog hinzu",
+        "du": "zogst hinzu",
+        "er_sie_es": "zog hinzu",
+        "wir": "zogen hinzu",
+        "ihr": "zogt hinzu",
+        "sie_Sie": "zogen hinzu"
+      },
+      "konjunktiv1": {
+        "ich": "ziehe hinzu",
+        "du": "ziehest hinzu",
+        "er_sie_es": "ziehe hinzu",
+        "wir": "ziehen hinzu",
+        "ihr": "ziehet hinzu",
+        "sie_Sie": "ziehen hinzu"
+      },
+      "konjunktiv2": {
+        "ich": "zöge hinzu",
+        "du": "zögest hinzu",
+        "er_sie_es": "zöge hinzu",
+        "wir": "zögen hinzu",
+        "ihr": "zöget hinzu",
+        "sie_Sie": "zögen hinzu"
+      },
+      "imperativ": {
+        "du": "Zieh hinzu!",
+        "ihr": "Zieht hinzu!",
+        "Sie": "Ziehen Sie hinzu!"
+      }
+    },
+    "partizip1": "hinzuziehend",
+    "nominalisierung": "die Hinzuziehung"
+  },
+  "wortnetz": {
+    "grundwort": "ziehen",
+    "woerter": [
+      {
+        "wort": "ziehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کشیدن",
+          "en": "to pull"
+        },
+        "id_ref": "verb_ziehen"
+      },
+      {
+        "wort": "konsultieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مشورت گرفتن",
+          "en": "to consult"
+        },
+        "id_ref": "verb_konsultieren"
+      },
+      {
+        "wort": "der Experte",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کارشناس",
+          "en": "expert"
+        },
+        "id_ref": "nomen_experte"
+      },
+      {
+        "wort": "der Facharzt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پزشک متخصص",
+          "en": "specialist"
+        },
+        "id_ref": "nomen_facharzt"
+      },
+      {
+        "wort": "der Rat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "توصیه، مشورت",
+          "en": "advice"
+        },
+        "id_ref": "nomen_rat"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1189,6 +1189,15 @@ const zurueckgestellt = <String>{
   'hinzubekommen', // zurückgestellt (Regel 14/16): selten 2026-10-11
   'hinzudenken', // zurückgestellt (Regel 14/16): selten 2026-10-11
   'hinzuerfinden', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hinzulaufen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hochbiegen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hochbinden', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hochfliegen', // zurückgestellt (Regel 14/16): umgangssprachlich; Bedeutung schwankt (auffliegen/explodieren) 2026-10-11
+  'hochkönnen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'hochkriechen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'hochmüssen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'hockenbleiben', // zurückgestellt (Regel 14/16): amtliche Schreibung getrennt («hocken bleiben») 2026-10-11
+  'hofhalten', // zurückgestellt (Regel 14/16): gehoben/historisch; auch «Hof halten» geschrieben 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
