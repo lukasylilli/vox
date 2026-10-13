@@ -1364,6 +1364,12 @@ const zurueckgestellt = <String>{
   'unterfliegen', // zurückgestellt (Regel 14/16): selten 2026-10-13
   'untergraben', // zurückgestellt (Regel 14/16): trennbar und untrennbar mit verschiedener Bedeutung; Symbol nicht eindeutig 2026-10-13
   'unterhalten', // zurückgestellt (Regel 14/16): trennbar und untrennbar mit verschiedener Bedeutung; Symbol nicht eindeutig 2026-10-13
+  'unterkriechen', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'unterlaufen', // zurückgestellt (Regel 14/16): trennbar/untrennbar nicht sicher geklärt; Hilfsverb je nach Bedeutung (sein/haben) 2026-10-13
+  'unterliegen', // zurückgestellt (Regel 14/16): trennbar (landsch. darunterliegen) und untrennbar (besiegt werden); Symbol nicht eindeutig 2026-10-13
+  'verbacken', // zurückgestellt (Regel 14/16): Formen schwanken (verbäckt/verbackt, verbackte/verbuk) 2026-10-13
+  'verblasen', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'verbleichen', // zurückgestellt (Regel 14/16): Präteritum schwankt (verblich/verbleichte) 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

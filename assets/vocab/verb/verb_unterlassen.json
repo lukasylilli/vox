@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_unterlassen",
+  "wort": "unterlassen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "از (کاری) خودداری کردن، (کاری را) انجام ندادن"
+    ],
+    "en": [
+      "to refrain from",
+      "to omit, to fail to do"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Verhalten"
+  ],
+  "ipa": "ʊntɐˈlasn̩",
+  "anmerkung": "Untrennbar (unterließ, unterlassen). Juristisch: «unterlassene Hilfeleistung».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Unterlass bitte diese Witze!",
+      "uebersetzung": {
+        "fa": "لطفاً این شوخی‌ها را بس کن!",
+        "en": "Please stop making these jokes!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Er hat es unterlassen, seinen Chef rechtzeitig zu informieren.",
+      "uebersetzung": {
+        "fa": "او از اطلاع دادن به‌موقع به رئیسش کوتاهی کرد.",
+        "en": "He failed to inform his boss in time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "lassen",
+      "uebersetzung": {
+        "fa": "دست کشیدن، رها کردن",
+        "en": "to stop, to leave"
+      }
+    },
+    {
+      "wort": "versäumen",
+      "uebersetzung": {
+        "fa": "کوتاهی کردن",
+        "en": "to fail to do"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "tun",
+      "uebersetzung": {
+        "fa": "انجام دادن",
+        "en": "to do"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "unter- (زیر، کنار) + lassen (گذاشتن، رها کردن)",
+    "en": "unter- (under, aside) + lassen (to let, to leave)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "es unterlassen + zu-Infinitiv",
+        "bedeutung": "etwas nicht tun (obwohl man sollte)",
+        "beispiel": "Sie unterließ es, die Rechnung zu bezahlen.",
+        "uebersetzung": {
+          "fa": "او صورت‌حساب را نپرداخت.",
+          "en": "She failed to pay the bill."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "unterlassen",
+      "praeteritum": "unterließ",
+      "partizip2": "unterlassen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "unterlasse",
+        "du": "unterlässt",
+        "er_sie_es": "unterlässt",
+        "wir": "unterlassen",
+        "ihr": "unterlasst",
+        "sie_Sie": "unterlassen"
+      },
+      "praeteritum": {
+        "ich": "unterließ",
+        "du": "unterließest",
+        "er_sie_es": "unterließ",
+        "wir": "unterließen",
+        "ihr": "unterließt",
+        "sie_Sie": "unterließen"
+      },
+      "konjunktiv1": {
+        "ich": "unterlasse",
+        "du": "unterlassest",
+        "er_sie_es": "unterlasse",
+        "wir": "unterlassen",
+        "ihr": "unterlasset",
+        "sie_Sie": "unterlassen"
+      },
+      "konjunktiv2": {
+        "ich": "unterließe",
+        "du": "unterließest",
+        "er_sie_es": "unterließe",
+        "wir": "unterließen",
+        "ihr": "unterließet",
+        "sie_Sie": "unterließen"
+      },
+      "imperativ": {
+        "du": "Unterlass!",
+        "ihr": "Unterlasst!",
+        "Sie": "Unterlassen Sie!"
+      }
+    },
+    "partizip1": "unterlassend",
+    "nominalisierung": "die Unterlassung"
+  },
+  "wortnetz": {
+    "grundwort": "lassen",
+    "woerter": [
+      {
+        "wort": "lassen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گذاشتن، رها کردن",
+          "en": "to let, to leave"
+        },
+        "id_ref": "verb_lassen"
+      },
+      {
+        "wort": "versäumen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کوتاهی کردن",
+          "en": "to fail to do"
+        },
+        "id_ref": "verb_versaeumen"
+      },
+      {
+        "wort": "vermeiden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اجتناب کردن",
+          "en": "to avoid"
+        },
+        "id_ref": "verb_vermeiden"
+      },
+      {
+        "wort": "die Unterlassung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ترک فعل، کوتاهی",
+          "en": "omission"
+        },
+        "id_ref": "nomen_unterlassung"
+      },
+      {
+        "wort": "verzichten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صرف نظر کردن",
+          "en": "to do without"
+        },
+        "id_ref": "verb_verzichten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

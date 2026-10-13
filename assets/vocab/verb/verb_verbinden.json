@@ -1,0 +1,195 @@
+{
+  "schema": "3.0",
+  "id": "verb_verbinden",
+  "wort": "verbinden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "وصل کردن، به هم پیوند دادن",
+      "(زخم را) پانسمان کردن",
+      "(تلفن) وصل کردن"
+    ],
+    "en": [
+      "to connect, to join",
+      "to bandage",
+      "to put through (on the phone)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Technik",
+    "Gesundheit",
+    "Kommunikation"
+  ],
+  "ipa": "fɛɐ̯ˈbɪndn̩",
+  "anmerkung": "Untrennbar (verband, verbunden). Am Telefon: «Ich verbinde Sie.»",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Brücke verbindet die zwei Städte.",
+      "uebersetzung": {
+        "fa": "این پل دو شهر را به هم وصل می‌کند.",
+        "en": "The bridge connects the two towns."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Krankenschwester verband die Wunde, nachdem sie sie gründlich gereinigt hatte.",
+      "uebersetzung": {
+        "fa": "پرستار پس از این که زخم را کاملاً تمیز کرد، آن را پانسمان کرد.",
+        "en": "The nurse bandaged the wound after she had cleaned it thoroughly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verknüpfen",
+      "uebersetzung": {
+        "fa": "به هم گره زدن، پیوند دادن",
+        "en": "to link"
+      }
+    },
+    {
+      "wort": "anschließen",
+      "uebersetzung": {
+        "fa": "وصل کردن",
+        "en": "to connect"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "trennen",
+      "uebersetzung": {
+        "fa": "جدا کردن",
+        "en": "to separate"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (به هم) + binden (بستن)",
+    "en": "ver- (together) + binden (to tie)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "etwas mit + Dat verbinden",
+        "bedeutung": "etwas an etwas anschließen; etwas mit etwas kombinieren",
+        "beispiel": "Ich verbinde den Drucker mit dem Laptop.",
+        "uebersetzung": {
+          "fa": "پرینتر را به لپ‌تاپ وصل می‌کنم.",
+          "en": "I connect the printer to the laptop."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verbinden",
+      "praeteritum": "verband",
+      "partizip2": "verbunden"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verbinde",
+        "du": "verbindest",
+        "er_sie_es": "verbindet",
+        "wir": "verbinden",
+        "ihr": "verbindet",
+        "sie_Sie": "verbinden"
+      },
+      "praeteritum": {
+        "ich": "verband",
+        "du": "verbandest",
+        "er_sie_es": "verband",
+        "wir": "verbanden",
+        "ihr": "verbandet",
+        "sie_Sie": "verbanden"
+      },
+      "konjunktiv1": {
+        "ich": "verbinde",
+        "du": "verbindest",
+        "er_sie_es": "verbinde",
+        "wir": "verbinden",
+        "ihr": "verbindet",
+        "sie_Sie": "verbinden"
+      },
+      "konjunktiv2": {
+        "ich": "verbände",
+        "du": "verbändest",
+        "er_sie_es": "verbände",
+        "wir": "verbänden",
+        "ihr": "verbändet",
+        "sie_Sie": "verbänden"
+      },
+      "imperativ": {
+        "du": "Verbinde!",
+        "ihr": "Verbindet!",
+        "Sie": "Verbinden Sie!"
+      }
+    },
+    "partizip1": "verbindend",
+    "nominalisierung": "die Verbindung"
+  },
+  "wortnetz": {
+    "grundwort": "binden",
+    "woerter": [
+      {
+        "wort": "binden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بستن",
+          "en": "to tie"
+        },
+        "id_ref": "verb_binden"
+      },
+      {
+        "wort": "die Verbindung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ارتباط، اتصال",
+          "en": "connection"
+        },
+        "id_ref": "nomen_verbindung"
+      },
+      {
+        "wort": "der Verband",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "باند، پانسمان",
+          "en": "bandage"
+        },
+        "id_ref": "nomen_verband"
+      },
+      {
+        "wort": "trennen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جدا کردن",
+          "en": "to separate"
+        },
+        "id_ref": "verb_trennen"
+      },
+      {
+        "wort": "verbunden",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "وصل، مرتبط",
+          "en": "connected"
+        },
+        "id_ref": "adjektiv_verbunden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

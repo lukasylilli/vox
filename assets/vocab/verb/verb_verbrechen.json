@@ -1,0 +1,166 @@
+{
+  "schema": "3.0",
+  "id": "verb_verbrechen",
+  "wort": "verbrechen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(محاوره/طنز) خطا یا کار بدی کردن",
+      "(طنز) (چیزی بد) ساختن یا نوشتن"
+    ],
+    "en": [
+      "(colloquial, humorous) to do (something wrong)",
+      "(humorous) to perpetrate (a bad text etc.)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "fɛɐ̯ˈbʁɛçn̩",
+  "anmerkung": "Untrennbar (verbrach, verbrochen). Fast nur im Perfekt/Partizip: «Was hast du denn verbrochen?» Das Nomen «das Verbrechen» hat eine eigene Bedeutung (Straftat).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Was hast du denn verbrochen?",
+      "uebersetzung": {
+        "fa": "مگر چه کار بدی کرده‌ای؟",
+        "en": "What on earth have you done?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ich weiß nicht, was ich verbrochen habe, aber seit gestern redet sie nicht mehr mit mir.",
+      "uebersetzung": {
+        "fa": "نمی‌دانم چه خطایی کرده‌ام، ولی از دیروز دیگر با من حرف نمی‌زند.",
+        "en": "I don't know what I've done wrong, but since yesterday she hasn't been talking to me."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anstellen",
+      "uebersetzung": {
+        "fa": "(کار بد) کردن، دسته‌گل به آب دادن",
+        "en": "to get up to (mischief)"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (نادرست) + brechen (شکستن)",
+    "en": "ver- (wrongly) + brechen (to break)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "verbrechen",
+      "praeteritum": "verbrach",
+      "partizip2": "verbrochen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verbreche",
+        "du": "verbrichst",
+        "er_sie_es": "verbricht",
+        "wir": "verbrechen",
+        "ihr": "verbrecht",
+        "sie_Sie": "verbrechen"
+      },
+      "praeteritum": {
+        "ich": "verbrach",
+        "du": "verbrachst",
+        "er_sie_es": "verbrach",
+        "wir": "verbrachen",
+        "ihr": "verbracht",
+        "sie_Sie": "verbrachen"
+      },
+      "konjunktiv1": {
+        "ich": "verbreche",
+        "du": "verbrechest",
+        "er_sie_es": "verbreche",
+        "wir": "verbrechen",
+        "ihr": "verbrechet",
+        "sie_Sie": "verbrechen"
+      },
+      "konjunktiv2": {
+        "ich": "verbräche",
+        "du": "verbrächest",
+        "er_sie_es": "verbräche",
+        "wir": "verbrächen",
+        "ihr": "verbrächet",
+        "sie_Sie": "verbrächen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "verbrechend",
+    "nominalisierung": "das Verbrechen"
+  },
+  "wortnetz": {
+    "grundwort": "brechen",
+    "woerter": [
+      {
+        "wort": "das Verbrechen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جنایت",
+          "en": "crime"
+        },
+        "id_ref": "nomen_verbrechen"
+      },
+      {
+        "wort": "der Verbrecher",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جنایتکار",
+          "en": "criminal"
+        },
+        "id_ref": "nomen_verbrecher"
+      },
+      {
+        "wort": "brechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شکستن",
+          "en": "to break"
+        },
+        "id_ref": "verb_brechen"
+      },
+      {
+        "wort": "anstellen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دسته‌گل به آب دادن",
+          "en": "to get up to"
+        },
+        "id_ref": "verb_anstellen"
+      },
+      {
+        "wort": "der Fehler",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اشتباه",
+          "en": "mistake"
+        },
+        "id_ref": "nomen_fehler"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

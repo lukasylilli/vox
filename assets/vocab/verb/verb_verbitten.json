@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_verbitten",
+  "wort": "verbitten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اجازه‌ی (چیزی را) ندادن، (چیزی را) قاطعانه رد کردن"
+    ],
+    "en": [
+      "(sich etw.) not to tolerate sth.",
+      "to refuse to put up with"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation",
+    "Verhalten"
+  ],
+  "ipa": "fɛɐ̯ˈbɪtn̩",
+  "anmerkung": "Nur reflexiv mit Dativ: «sich (Dat) etwas verbitten». Nicht verwechseln mit «verbieten».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Diesen Ton verbitte ich mir!",
+      "uebersetzung": {
+        "fa": "اجازه نمی‌دهم با این لحن با من حرف بزنی!",
+        "en": "I won't tolerate that tone!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie verbat sich jede Einmischung, weil es um ihr privates Leben ging.",
+      "uebersetzung": {
+        "fa": "او هر دخالتی را قاطعانه رد کرد، چون موضوع زندگی خصوصی‌اش بود.",
+        "en": "She refused to tolerate any interference because it concerned her private life."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zurückweisen",
+      "uebersetzung": {
+        "fa": "رد کردن",
+        "en": "to reject"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (پیشوند) + bitten (خواهش کردن)",
+    "en": "ver- (prefix) + bitten (to ask)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich (Dat) etwas verbitten",
+        "bedeutung": "etwas entschieden ablehnen",
+        "beispiel": "Ich verbitte mir solche Bemerkungen.",
+        "uebersetzung": {
+          "fa": "چنین حرف‌هایی را از کسی قبول نمی‌کنم.",
+          "en": "I won't put up with such remarks."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verbitten",
+      "praeteritum": "verbat",
+      "partizip2": "verbeten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verbitte",
+        "du": "verbittest",
+        "er_sie_es": "verbittet",
+        "wir": "verbitten",
+        "ihr": "verbittet",
+        "sie_Sie": "verbitten"
+      },
+      "praeteritum": {
+        "ich": "verbat",
+        "du": "verbatest",
+        "er_sie_es": "verbat",
+        "wir": "verbaten",
+        "ihr": "verbatet",
+        "sie_Sie": "verbaten"
+      },
+      "konjunktiv1": {
+        "ich": "verbitte",
+        "du": "verbittest",
+        "er_sie_es": "verbitte",
+        "wir": "verbitten",
+        "ihr": "verbittet",
+        "sie_Sie": "verbitten"
+      },
+      "konjunktiv2": {
+        "ich": "verbäte",
+        "du": "verbätest",
+        "er_sie_es": "verbäte",
+        "wir": "verbäten",
+        "ihr": "verbätet",
+        "sie_Sie": "verbäten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "verbittend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bitten",
+    "woerter": [
+      {
+        "wort": "bitten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خواهش کردن",
+          "en": "to ask"
+        },
+        "id_ref": "verb_bitten"
+      },
+      {
+        "wort": "verbieten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ممنوع کردن",
+          "en": "to forbid"
+        },
+        "id_ref": "verb_verbieten"
+      },
+      {
+        "wort": "ablehnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رد کردن",
+          "en": "to refuse"
+        },
+        "id_ref": "verb_ablehnen"
+      },
+      {
+        "wort": "zurückweisen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رد کردن",
+          "en": "to reject"
+        },
+        "id_ref": "verb_zurueckweisen"
+      },
+      {
+        "wort": "die Frechheit",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گستاخی",
+          "en": "cheek, impudence"
+        },
+        "id_ref": "nomen_frechheit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_verbeissen",
+  "wort": "verbeißen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(خنده/درد را) فرو خوردن، جلوی (چیزی را) گرفتن",
+      "دندان فرو کردن و ول نکردن، سخت به (چیزی) چسبیدن"
+    ],
+    "en": [
+      "to suppress, to stifle (a laugh, pain)",
+      "(sich in) to sink one's teeth into, to become obsessed with"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle"
+  ],
+  "ipa": "fɛɐ̯ˈbaɪ̯sn̩",
+  "anmerkung": "Meist reflexiv: «sich (Dat) etwas verbeißen» (unterdrücken), «sich in etwas (Akk) verbeißen». Das Partizip «verbissen» ist auch Adjektiv (= hartnäckig).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie verbiss sich das Lachen.",
+      "uebersetzung": {
+        "fa": "جلوی خنده‌اش را گرفت.",
+        "en": "She stifled her laugh."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Obwohl das Problem kaum lösbar war, hat er sich tagelang darin verbissen.",
+      "uebersetzung": {
+        "fa": "با این که مسئله تقریباً حل‌نشدنی بود، او روزها سخت به آن چسبیده بود.",
+        "en": "Although the problem was hardly solvable, he stubbornly worked on it for days."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "unterdrücken",
+      "uebersetzung": {
+        "fa": "سرکوب کردن، فرو خوردن",
+        "en": "to suppress"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (پیشوند) + beißen (گاز گرفتن)",
+    "en": "ver- (prefix) + beißen (to bite)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich (Dat) etwas verbeißen",
+        "bedeutung": "ein Gefühl unterdrücken",
+        "beispiel": "Ich musste mir einen Kommentar verbeißen.",
+        "uebersetzung": {
+          "fa": "مجبور شدم حرفم را بخورم.",
+          "en": "I had to bite back a comment."
+        }
+      },
+      {
+        "muster": "sich in + Akk verbeißen",
+        "bedeutung": "sich hartnäckig mit etwas beschäftigen; sich festbeißen",
+        "beispiel": "Der Hund hat sich in den Ball verbissen.",
+        "uebersetzung": {
+          "fa": "سگ دندانش را در توپ فرو کرده و ولش نمی‌کند.",
+          "en": "The dog has sunk its teeth into the ball."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verbeißen",
+      "praeteritum": "verbiss",
+      "partizip2": "verbissen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verbeiße",
+        "du": "verbeißt",
+        "er_sie_es": "verbeißt",
+        "wir": "verbeißen",
+        "ihr": "verbeißt",
+        "sie_Sie": "verbeißen"
+      },
+      "praeteritum": {
+        "ich": "verbiss",
+        "du": "verbissest",
+        "er_sie_es": "verbiss",
+        "wir": "verbissen",
+        "ihr": "verbisst",
+        "sie_Sie": "verbissen"
+      },
+      "konjunktiv1": {
+        "ich": "verbeiße",
+        "du": "verbeißest",
+        "er_sie_es": "verbeiße",
+        "wir": "verbeißen",
+        "ihr": "verbeißet",
+        "sie_Sie": "verbeißen"
+      },
+      "konjunktiv2": {
+        "ich": "verbisse",
+        "du": "verbissest",
+        "er_sie_es": "verbisse",
+        "wir": "verbissen",
+        "ihr": "verbisset",
+        "sie_Sie": "verbissen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "verbeißend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "beißen",
+    "woerter": [
+      {
+        "wort": "beißen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گاز گرفتن",
+          "en": "to bite"
+        },
+        "id_ref": "verb_beissen"
+      },
+      {
+        "wort": "verbissen",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سرسخت، با سماجت",
+          "en": "dogged, grim"
+        },
+        "id_ref": "adjektiv_verbissen"
+      },
+      {
+        "wort": "unterdrücken",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سرکوب کردن",
+          "en": "to suppress"
+        },
+        "id_ref": "verb_unterdruecken"
+      },
+      {
+        "wort": "der Zahn",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دندان",
+          "en": "tooth"
+        },
+        "id_ref": "nomen_zahn"
+      },
+      {
+        "wort": "das Lachen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خنده",
+          "en": "laughter"
+        },
+        "id_ref": "nomen_lachen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

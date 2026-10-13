@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_verbraten",
+  "wort": "verbraten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(محاوره) (پول/وقت را) هدر دادن، به باد دادن",
+      "(غذا را) زیادی سرخ کردن"
+    ],
+    "en": [
+      "(colloquial) to blow, to waste (money, time)",
+      "to overfry"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Geld",
+    "Alltag"
+  ],
+  "ipa": "fɛɐ̯ˈbʁaːtn̩",
+  "anmerkung": "Untrennbar (verbriet, verbraten). Meist umgangssprachlich: «Geld verbraten».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er hat sein ganzes Geld verbraten.",
+      "uebersetzung": {
+        "fa": "او همه‌ی پولش را به باد داد.",
+        "en": "He has blown all his money."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Stadt hat Millionen verbraten, obwohl das Projekt nie fertig wurde.",
+      "uebersetzung": {
+        "fa": "شهر میلیون‌ها پول هدر داد، با این که پروژه هیچ‌وقت تمام نشد.",
+        "en": "The city blew millions, although the project was never finished."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verschwenden",
+      "uebersetzung": {
+        "fa": "هدر دادن",
+        "en": "to waste"
+      }
+    },
+    {
+      "wort": "verprassen",
+      "uebersetzung": {
+        "fa": "ولخرجی کردن",
+        "en": "to squander"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sparen",
+      "uebersetzung": {
+        "fa": "پس‌انداز کردن",
+        "en": "to save"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (مصرف، از بین بردن) + braten (سرخ کردن)",
+    "en": "ver- (using up) + braten (to fry)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "verbraten",
+      "praeteritum": "verbriet",
+      "partizip2": "verbraten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verbrate",
+        "du": "verbrätst",
+        "er_sie_es": "verbrät",
+        "wir": "verbraten",
+        "ihr": "verbratet",
+        "sie_Sie": "verbraten"
+      },
+      "praeteritum": {
+        "ich": "verbriet",
+        "du": "verbrietest",
+        "er_sie_es": "verbriet",
+        "wir": "verbrieten",
+        "ihr": "verbrietet",
+        "sie_Sie": "verbrieten"
+      },
+      "konjunktiv1": {
+        "ich": "verbrate",
+        "du": "verbratest",
+        "er_sie_es": "verbrate",
+        "wir": "verbraten",
+        "ihr": "verbratet",
+        "sie_Sie": "verbraten"
+      },
+      "konjunktiv2": {
+        "ich": "verbriete",
+        "du": "verbrietest",
+        "er_sie_es": "verbriete",
+        "wir": "verbrieten",
+        "ihr": "verbrietet",
+        "sie_Sie": "verbrieten"
+      },
+      "imperativ": {
+        "du": "Verbrat!",
+        "ihr": "Verbratet!",
+        "Sie": "Verbraten Sie!"
+      }
+    },
+    "partizip1": "verbratend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "braten",
+    "woerter": [
+      {
+        "wort": "braten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سرخ کردن",
+          "en": "to fry"
+        },
+        "id_ref": "verb_braten"
+      },
+      {
+        "wort": "verschwenden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "هدر دادن",
+          "en": "to waste"
+        },
+        "id_ref": "verb_verschwenden"
+      },
+      {
+        "wort": "ausgeben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خرج کردن",
+          "en": "to spend"
+        },
+        "id_ref": "verb_ausgeben"
+      },
+      {
+        "wort": "sparen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پس‌انداز کردن",
+          "en": "to save"
+        },
+        "id_ref": "verb_sparen"
+      },
+      {
+        "wort": "das Geld",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پول",
+          "en": "money"
+        },
+        "id_ref": "nomen_geld"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

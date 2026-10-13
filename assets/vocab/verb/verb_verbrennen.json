@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_verbrennen",
+  "wort": "verbrennen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سوزاندن",
+      "سوختن",
+      "(خود را) سوزاندن، دچار سوختگی شدن"
+    ],
+    "en": [
+      "to burn (sth.)",
+      "to burn (up), to be burnt",
+      "(sich) to burn oneself"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Umwelt",
+    "Gesundheit"
+  ],
+  "ipa": "fɛɐ̯ˈbʁɛnən",
+  "anmerkung": "Gemischtes Verb (verbrannte, verbrannt). Transitiv mit «haben»; intransitiv mit «sein»: «Das Holz ist verbrannt.»",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich habe mich am Herd verbrannt.",
+      "uebersetzung": {
+        "fa": "دستم با اجاق سوخت.",
+        "en": "I burnt myself on the stove."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil wir zu lange geredet haben, ist der Kuchen im Ofen verbrannt.",
+      "uebersetzung": {
+        "fa": "چون زیادی حرف زدیم، کیک در فر سوخت.",
+        "en": "Because we talked for too long, the cake burnt in the oven."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anbrennen",
+      "uebersetzung": {
+        "fa": "ته گرفتن، سوختن (غذا)",
+        "en": "to burn (food)"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "löschen",
+      "uebersetzung": {
+        "fa": "خاموش کردن",
+        "en": "to put out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (تا آخر) + brennen (سوختن)",
+    "en": "ver- (completely) + brennen (to burn)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich (Dat) etwas an + Dat verbrennen",
+        "bedeutung": "sich an einem Körperteil durch Hitze verletzen",
+        "beispiel": "Ich habe mir die Hand am Topf verbrannt.",
+        "uebersetzung": {
+          "fa": "دستم با قابلمه سوخت.",
+          "en": "I burnt my hand on the pot."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verbrennen",
+      "praeteritum": "verbrannte",
+      "partizip2": "verbrannt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verbrenne",
+        "du": "verbrennst",
+        "er_sie_es": "verbrennt",
+        "wir": "verbrennen",
+        "ihr": "verbrennt",
+        "sie_Sie": "verbrennen"
+      },
+      "praeteritum": {
+        "ich": "verbrannte",
+        "du": "verbranntest",
+        "er_sie_es": "verbrannte",
+        "wir": "verbrannten",
+        "ihr": "verbranntet",
+        "sie_Sie": "verbrannten"
+      },
+      "konjunktiv1": {
+        "ich": "verbrenne",
+        "du": "verbrennest",
+        "er_sie_es": "verbrenne",
+        "wir": "verbrennen",
+        "ihr": "verbrennet",
+        "sie_Sie": "verbrennen"
+      },
+      "konjunktiv2": {
+        "ich": "verbrennte",
+        "du": "verbrenntest",
+        "er_sie_es": "verbrennte",
+        "wir": "verbrennten",
+        "ihr": "verbrenntet",
+        "sie_Sie": "verbrennten"
+      },
+      "imperativ": {
+        "du": "Verbrenn!",
+        "ihr": "Verbrennt!",
+        "Sie": "Verbrennen Sie!"
+      }
+    },
+    "partizip1": "verbrennend",
+    "nominalisierung": "die Verbrennung"
+  },
+  "wortnetz": {
+    "grundwort": "brennen",
+    "woerter": [
+      {
+        "wort": "brennen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سوختن",
+          "en": "to burn"
+        },
+        "id_ref": "verb_brennen"
+      },
+      {
+        "wort": "das Feuer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آتش",
+          "en": "fire"
+        },
+        "id_ref": "nomen_feuer"
+      },
+      {
+        "wort": "die Verbrennung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سوختگی، احتراق",
+          "en": "burn, combustion"
+        },
+        "id_ref": "nomen_verbrennung"
+      },
+      {
+        "wort": "löschen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خاموش کردن",
+          "en": "to put out"
+        },
+        "id_ref": "verb_loeschen"
+      },
+      {
+        "wort": "heiß",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "داغ",
+          "en": "hot"
+        },
+        "id_ref": "adjektiv_heiss"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

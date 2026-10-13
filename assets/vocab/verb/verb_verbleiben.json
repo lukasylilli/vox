@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_verbleiben",
+  "wort": "verbleiben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(باقی) ماندن",
+      "(بر سر چیزی) توافق کردن، قرار گذاشتن"
+    ],
+    "en": [
+      "to remain",
+      "to agree, to leave it (that)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Kommunikation"
+  ],
+  "ipa": "fɛɐ̯ˈblaɪ̯bn̩",
+  "anmerkung": "Untrennbar (verblieb, verblieben). Im Brief: «Mit freundlichen Grüßen verbleibe ich …».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wie sind wir verblieben?",
+      "uebersetzung": {
+        "fa": "با هم به چه قراری رسیدیم؟",
+        "en": "What did we agree on?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wir sind so verblieben, dass jeder bis Freitag seinen Teil fertig macht.",
+      "uebersetzung": {
+        "fa": "قرار گذاشتیم که هر کس تا جمعه سهم خودش را تمام کند.",
+        "en": "We agreed that everyone would finish their part by Friday."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bleiben",
+      "uebersetzung": {
+        "fa": "ماندن",
+        "en": "to stay"
+      }
+    },
+    {
+      "wort": "vereinbaren",
+      "uebersetzung": {
+        "fa": "توافق کردن",
+        "en": "to agree"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (ادامه) + bleiben (ماندن)",
+    "en": "ver- (continuation) + bleiben (to stay)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit + Dat verbleiben",
+        "bedeutung": "mit jemandem etwas vereinbaren",
+        "beispiel": "Ich bin mit ihm so verblieben, dass er mich anruft.",
+        "uebersetzung": {
+          "fa": "با او قرار گذاشتم که به من زنگ بزند.",
+          "en": "I agreed with him that he would call me."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verbleiben",
+      "praeteritum": "verblieb",
+      "partizip2": "verblieben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verbleibe",
+        "du": "verbleibst",
+        "er_sie_es": "verbleibt",
+        "wir": "verbleiben",
+        "ihr": "verbleibt",
+        "sie_Sie": "verbleiben"
+      },
+      "praeteritum": {
+        "ich": "verblieb",
+        "du": "verbliebst",
+        "er_sie_es": "verblieb",
+        "wir": "verblieben",
+        "ihr": "verbliebt",
+        "sie_Sie": "verblieben"
+      },
+      "konjunktiv1": {
+        "ich": "verbleibe",
+        "du": "verbleibest",
+        "er_sie_es": "verbleibe",
+        "wir": "verbleiben",
+        "ihr": "verbleibet",
+        "sie_Sie": "verbleiben"
+      },
+      "konjunktiv2": {
+        "ich": "verbliebe",
+        "du": "verbliebest",
+        "er_sie_es": "verbliebe",
+        "wir": "verblieben",
+        "ihr": "verbliebet",
+        "sie_Sie": "verblieben"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "verbleibend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bleiben",
+    "woerter": [
+      {
+        "wort": "bleiben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ماندن",
+          "en": "to stay"
+        },
+        "id_ref": "verb_bleiben"
+      },
+      {
+        "wort": "vereinbaren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "توافق کردن",
+          "en": "to agree"
+        },
+        "id_ref": "verb_vereinbaren"
+      },
+      {
+        "wort": "übrig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "باقی‌مانده",
+          "en": "left over"
+        },
+        "id_ref": "adjektiv_uebrig"
+      },
+      {
+        "wort": "der Rest",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "باقی‌مانده",
+          "en": "rest"
+        },
+        "id_ref": "nomen_rest"
+      },
+      {
+        "wort": "die Vereinbarung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "توافق",
+          "en": "agreement"
+        },
+        "id_ref": "nomen_vereinbarung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

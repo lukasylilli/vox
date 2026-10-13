@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_verbergen",
+  "wort": "verbergen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پنهان کردن، مخفی کردن"
+    ],
+    "en": [
+      "to hide",
+      "to conceal"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gefühle",
+    "Kommunikation"
+  ],
+  "ipa": "fɛɐ̯ˈbɛʁɡn̩",
+  "anmerkung": "Untrennbar (verbarg, verborgen). Partizip «verborgen» auch als Adjektiv (= versteckt).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er verbirgt seine Angst.",
+      "uebersetzung": {
+        "fa": "او ترسش را پنهان می‌کند.",
+        "en": "He hides his fear."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie lächelte, damit niemand merkte, dass sie ihre Enttäuschung verbarg.",
+      "uebersetzung": {
+        "fa": "لبخند زد تا کسی متوجه نشود که ناامیدی‌اش را پنهان می‌کند.",
+        "en": "She smiled so that nobody noticed that she was hiding her disappointment."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verstecken",
+      "uebersetzung": {
+        "fa": "قایم کردن",
+        "en": "to hide"
+      }
+    },
+    {
+      "wort": "verheimlichen",
+      "uebersetzung": {
+        "fa": "پنهان نگه داشتن",
+        "en": "to keep secret"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zeigen",
+      "uebersetzung": {
+        "fa": "نشان دادن",
+        "en": "to show"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (پوشاندن) + bergen (در امان نگه داشتن)",
+    "en": "ver- (covering) + bergen (to shelter)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "etwas vor + Dat verbergen",
+        "bedeutung": "etwas vor jemandem geheim halten",
+        "beispiel": "Sie verbirgt die Wahrheit vor ihren Eltern.",
+        "uebersetzung": {
+          "fa": "او حقیقت را از پدر و مادرش پنهان می‌کند.",
+          "en": "She hides the truth from her parents."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verbergen",
+      "praeteritum": "verbarg",
+      "partizip2": "verborgen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verberge",
+        "du": "verbirgst",
+        "er_sie_es": "verbirgt",
+        "wir": "verbergen",
+        "ihr": "verbergt",
+        "sie_Sie": "verbergen"
+      },
+      "praeteritum": {
+        "ich": "verbarg",
+        "du": "verbargst",
+        "er_sie_es": "verbarg",
+        "wir": "verbargen",
+        "ihr": "verbargt",
+        "sie_Sie": "verbargen"
+      },
+      "konjunktiv1": {
+        "ich": "verberge",
+        "du": "verbergest",
+        "er_sie_es": "verberge",
+        "wir": "verbergen",
+        "ihr": "verberget",
+        "sie_Sie": "verbergen"
+      },
+      "konjunktiv2": {
+        "ich": "verbärge",
+        "du": "verbärgest",
+        "er_sie_es": "verbärge",
+        "wir": "verbärgen",
+        "ihr": "verbärget",
+        "sie_Sie": "verbärgen"
+      },
+      "imperativ": {
+        "du": "Verbirg!",
+        "ihr": "Verbergt!",
+        "Sie": "Verbergen Sie!"
+      }
+    },
+    "partizip1": "verbergend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bergen",
+    "woerter": [
+      {
+        "wort": "verstecken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قایم کردن",
+          "en": "to hide"
+        },
+        "id_ref": "verb_verstecken"
+      },
+      {
+        "wort": "verborgen",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پنهان",
+          "en": "hidden"
+        },
+        "id_ref": "adjektiv_verborgen"
+      },
+      {
+        "wort": "das Geheimnis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "راز",
+          "en": "secret"
+        },
+        "id_ref": "nomen_geheimnis"
+      },
+      {
+        "wort": "verheimlichen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پنهان نگه داشتن",
+          "en": "to keep secret"
+        },
+        "id_ref": "verb_verheimlichen"
+      },
+      {
+        "wort": "zeigen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نشان دادن",
+          "en": "to show"
+        },
+        "id_ref": "verb_zeigen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

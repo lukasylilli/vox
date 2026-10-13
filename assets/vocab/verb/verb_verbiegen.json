@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_verbiegen",
+  "wort": "verbiegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کج کردن، خم کردن (به‌طوری که شکلش خراب شود)"
+    ],
+    "en": [
+      "to bend (out of shape)",
+      "to twist"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Technik"
+  ],
+  "ipa": "fɛɐ̯ˈbiːɡn̩",
+  "anmerkung": "Untrennbar (verbog, verbogen). Reflexiv: «Das Blech hat sich verbogen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Schlüssel ist verbogen.",
+      "uebersetzung": {
+        "fa": "کلید کج شده است.",
+        "en": "The key is bent."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als das Fahrrad umfiel, hat sich das Vorderrad so verbogen, dass man nicht mehr fahren konnte.",
+      "uebersetzung": {
+        "fa": "وقتی دوچرخه افتاد، چرخ جلو آن‌قدر کج شد که دیگر نمی‌شد سوارش شد.",
+        "en": "When the bike fell over, the front wheel got so bent that you couldn't ride it any more."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "krümmen",
+      "uebersetzung": {
+        "fa": "خم کردن",
+        "en": "to bend, to curve"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "geradebiegen",
+      "uebersetzung": {
+        "fa": "صاف کردن",
+        "en": "to straighten"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (به حالت نادرست) + biegen (خم کردن)",
+    "en": "ver- (wrongly) + biegen (to bend)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "verbiegen",
+      "praeteritum": "verbog",
+      "partizip2": "verbogen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verbiege",
+        "du": "verbiegst",
+        "er_sie_es": "verbiegt",
+        "wir": "verbiegen",
+        "ihr": "verbiegt",
+        "sie_Sie": "verbiegen"
+      },
+      "praeteritum": {
+        "ich": "verbog",
+        "du": "verbogst",
+        "er_sie_es": "verbog",
+        "wir": "verbogen",
+        "ihr": "verbogt",
+        "sie_Sie": "verbogen"
+      },
+      "konjunktiv1": {
+        "ich": "verbiege",
+        "du": "verbiegest",
+        "er_sie_es": "verbiege",
+        "wir": "verbiegen",
+        "ihr": "verbieget",
+        "sie_Sie": "verbiegen"
+      },
+      "konjunktiv2": {
+        "ich": "verböge",
+        "du": "verbögest",
+        "er_sie_es": "verböge",
+        "wir": "verbögen",
+        "ihr": "verböget",
+        "sie_Sie": "verbögen"
+      },
+      "imperativ": {
+        "du": "Verbieg!",
+        "ihr": "Verbiegt!",
+        "Sie": "Verbiegen Sie!"
+      }
+    },
+    "partizip1": "verbiegend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "biegen",
+    "woerter": [
+      {
+        "wort": "biegen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خم کردن، پیچیدن",
+          "en": "to bend, to turn"
+        },
+        "id_ref": "verb_biegen"
+      },
+      {
+        "wort": "krumm",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کج",
+          "en": "crooked"
+        },
+        "id_ref": "adjektiv_krumm"
+      },
+      {
+        "wort": "gerade",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صاف، مستقیم",
+          "en": "straight"
+        },
+        "id_ref": "adjektiv_gerade"
+      },
+      {
+        "wort": "das Metall",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فلز",
+          "en": "metal"
+        },
+        "id_ref": "nomen_metall"
+      },
+      {
+        "wort": "kaputt",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خراب",
+          "en": "broken"
+        },
+        "id_ref": "adjektiv_kaputt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
