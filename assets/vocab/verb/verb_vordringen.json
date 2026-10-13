@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_vordringen",
+  "wort": "vordringen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پیش رفتن، نفوذ کردن (با زحمت)"
+    ],
+    "en": [
+      "to advance",
+      "to penetrate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Wissenschaft"
+  ],
+  "ipa": "ˈfoːɐ̯ˌdʁɪŋən",
+  "anmerkung": "Trennbar (drang vor, vorgedrungen).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Wasser dringt in den Keller vor.",
+      "uebersetzung": {
+        "fa": "آب تا زیرزمین پیش می‌آید.",
+        "en": "The water is getting into the cellar."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Forscher drangen so weit in die Höhle vor, dass sie kein Tageslicht mehr sahen.",
+      "uebersetzung": {
+        "fa": "پژوهشگران آن‌قدر در غار پیش رفتند که دیگر نور روز را نمی‌دیدند.",
+        "en": "The researchers advanced so far into the cave that they could no longer see daylight."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vorstoßen",
+      "uebersetzung": {
+        "fa": "پیش‌روی کردن",
+        "en": "to push forward"
+      }
+    },
+    {
+      "wort": "eindringen",
+      "uebersetzung": {
+        "fa": "نفوذ کردن",
+        "en": "to penetrate"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zurückweichen",
+      "uebersetzung": {
+        "fa": "عقب‌نشینی کردن",
+        "en": "to retreat"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "vor- (جلو) + dringen (رخنه کردن)",
+    "en": "vor- (forward) + dringen (to press, to penetrate)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in/bis + Akk vordringen",
+        "bedeutung": "sich mühsam bis zu einem Ort/Punkt bewegen",
+        "beispiel": "Bis zum Gipfel drangen nur wenige vor.",
+        "uebersetzung": {
+          "fa": "فقط عده‌ی کمی تا قله پیش رفتند.",
+          "en": "Only a few made it as far as the summit."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vordringen",
+      "praeteritum": "drang vor",
+      "partizip2": "vorgedrungen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "dringe vor",
+        "du": "dringst vor",
+        "er_sie_es": "dringt vor",
+        "wir": "dringen vor",
+        "ihr": "dringt vor",
+        "sie_Sie": "dringen vor"
+      },
+      "praeteritum": {
+        "ich": "drang vor",
+        "du": "drangst vor",
+        "er_sie_es": "drang vor",
+        "wir": "drangen vor",
+        "ihr": "drangt vor",
+        "sie_Sie": "drangen vor"
+      },
+      "konjunktiv1": {
+        "ich": "dringe vor",
+        "du": "dringest vor",
+        "er_sie_es": "dringe vor",
+        "wir": "dringen vor",
+        "ihr": "dringet vor",
+        "sie_Sie": "dringen vor"
+      },
+      "konjunktiv2": {
+        "ich": "dränge vor",
+        "du": "drängest vor",
+        "er_sie_es": "dränge vor",
+        "wir": "drängen vor",
+        "ihr": "dränget vor",
+        "sie_Sie": "drängen vor"
+      },
+      "imperativ": {
+        "du": "Dring vor!",
+        "ihr": "Dringt vor!",
+        "Sie": "Dringen Sie vor!"
+      }
+    },
+    "partizip1": "vordringend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "dringen",
+    "woerter": [
+      {
+        "wort": "dringen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رخنه کردن",
+          "en": "to penetrate"
+        },
+        "id_ref": "verb_dringen"
+      },
+      {
+        "wort": "eindringen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نفوذ کردن",
+          "en": "to penetrate"
+        },
+        "id_ref": "verb_eindringen"
+      },
+      {
+        "wort": "der Fortschritt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیشرفت",
+          "en": "progress"
+        },
+        "id_ref": "nomen_fortschritt"
+      },
+      {
+        "wort": "vorankommen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیشرفت کردن",
+          "en": "to make progress"
+        },
+        "id_ref": "verb_vorankommen"
+      },
+      {
+        "wort": "dringend",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فوری",
+          "en": "urgent"
+        },
+        "id_ref": "adjektiv_dringend"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

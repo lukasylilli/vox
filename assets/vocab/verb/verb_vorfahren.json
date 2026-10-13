@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_vorfahren",
+  "wort": "vorfahren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با ماشین) جلوی (جایی) ایستادن",
+      "کمی جلوتر رفتن (با وسیله)",
+      "جلوتر رفتن"
+    ],
+    "en": [
+      "to pull up",
+      "to move forward (a bit)",
+      "to drive ahead"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr"
+  ],
+  "ipa": "ˈfoːɐ̯ˌfaːʁən",
+  "anmerkung": "Trennbar (fuhr vor, vorgefahren).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte fahren Sie ein Stück vor!",
+      "uebersetzung": {
+        "fa": "لطفاً کمی جلوتر بروید!",
+        "en": "Please move forward a little!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Taxi fuhr vor dem Hotel vor, als wir gerade unsere Koffer gepackt hatten.",
+      "uebersetzung": {
+        "fa": "وقتی تازه چمدان‌هایمان را بسته بودیم، تاکسی جلوی هتل ایستاد.",
+        "en": "The taxi pulled up in front of the hotel just as we had packed our cases."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vorausfahren",
+      "uebersetzung": {
+        "fa": "جلوتر رفتن",
+        "en": "to drive ahead"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zurückfahren",
+      "uebersetzung": {
+        "fa": "عقب رفتن، برگشتن",
+        "en": "to drive back"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "vor- (جلو) + fahren (رفتن با وسیله)",
+    "en": "vor- (forward) + fahren (to drive)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "vor + Dat vorfahren",
+        "bedeutung": "vor einem Gebäude anhalten",
+        "beispiel": "Der Wagen fuhr vor dem Eingang vor.",
+        "uebersetzung": {
+          "fa": "ماشین جلوی ورودی ایستاد.",
+          "en": "The car pulled up in front of the entrance."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vorfahren",
+      "praeteritum": "fuhr vor",
+      "partizip2": "vorgefahren"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahre vor",
+        "du": "fährst vor",
+        "er_sie_es": "fährt vor",
+        "wir": "fahren vor",
+        "ihr": "fahrt vor",
+        "sie_Sie": "fahren vor"
+      },
+      "praeteritum": {
+        "ich": "fuhr vor",
+        "du": "fuhrst vor",
+        "er_sie_es": "fuhr vor",
+        "wir": "fuhren vor",
+        "ihr": "fuhrt vor",
+        "sie_Sie": "fuhren vor"
+      },
+      "konjunktiv1": {
+        "ich": "fahre vor",
+        "du": "fahrest vor",
+        "er_sie_es": "fahre vor",
+        "wir": "fahren vor",
+        "ihr": "fahret vor",
+        "sie_Sie": "fahren vor"
+      },
+      "konjunktiv2": {
+        "ich": "führe vor",
+        "du": "führest vor",
+        "er_sie_es": "führe vor",
+        "wir": "führen vor",
+        "ihr": "führet vor",
+        "sie_Sie": "führen vor"
+      },
+      "imperativ": {
+        "du": "Fahr vor!",
+        "ihr": "Fahrt vor!",
+        "Sie": "Fahren Sie vor!"
+      }
+    },
+    "partizip1": "vorfahrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to drive, to go"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "anhalten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "توقف کردن",
+          "en": "to stop"
+        },
+        "id_ref": "verb_anhalten"
+      },
+      {
+        "wort": "vorausfahren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جلوتر رفتن",
+          "en": "to drive ahead"
+        },
+        "id_ref": "verb_vorausfahren"
+      },
+      {
+        "wort": "die Vorfahrt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حق تقدم",
+          "en": "right of way"
+        },
+        "id_ref": "nomen_vorfahrt"
+      },
+      {
+        "wort": "zurückfahren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برگشتن",
+          "en": "to drive back"
+        },
+        "id_ref": "verb_zurueckfahren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

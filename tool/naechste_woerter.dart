@@ -1392,6 +1392,15 @@ const zurueckgestellt = <String>{
   'voraufgehen', // zurückgestellt (Regel 14/16): veraltet/gehoben (= vorangehen) 2026-10-13
   'vorausfliegen', // zurückgestellt (Regel 14/16): selten (wie herüberfliegen, hineinfliegen) 2026-10-13
   'vorbeidürfen', // zurückgestellt (Regel 14/16): Modalverb-Verbindung (wie hindurchdürfen) 2026-10-13
+  'vorbeifließen', // zurückgestellt (Regel 14/16): selten (wie hinfließen, dahinfließen) 2026-10-13
+  'vorbeigelingen', // zurückgestellt (Regel 14/16): kein gebräuchliches Wort (wie danebengelingen) 2026-10-13
+  'vorbeigleiten', // zurückgestellt (Regel 14/16): selten (wie hingleiten) 2026-10-13
+  'vorbeikönnen', // zurückgestellt (Regel 14/16): Modalverb-Verbindung 2026-10-13
+  'vorbeimüssen', // zurückgestellt (Regel 14/16): Modalverb-Verbindung 2026-10-13
+  'vorblasen', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'voreinanderliegen', // zurückgestellt (Regel 14/16): Schreibung/Gebrauch unsicher (wie nebeneinanderliegen) 2026-10-13
+  'vorenthalten', // zurückgestellt (Regel 14/16): trennbar/untrennbar schwankend (enthielt vor / vorenthielt) 2026-10-13
+  'voressen', // zurückgestellt (Regel 14/16): selten 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

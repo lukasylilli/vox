@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_vorbinden",
+  "wort": "vorbinden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(پیش‌بند و مانند آن) جلوی خود بستن"
+    ],
+    "en": [
+      "to tie on (in front)",
+      "to put on (an apron)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag",
+    "Kleidung"
+  ],
+  "ipa": "ˈfoːɐ̯ˌbɪndn̩",
+  "anmerkung": "Trennbar (band vor, vorgebunden). Meist «sich (Dat) etwas vorbinden» (Schürze, Lätzchen, Maske).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich binde mir eine Schürze vor.",
+      "uebersetzung": {
+        "fa": "پیش‌بندی جلوی خودم می‌بندم.",
+        "en": "I put on an apron."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor der Koch zu arbeiten begann, band er sich eine weiße Schürze vor.",
+      "uebersetzung": {
+        "fa": "آشپز پیش از آنکه کارش را شروع کند، پیش‌بند سفیدی جلوی خودش بست.",
+        "en": "Before the cook started work, he tied on a white apron."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "umbinden",
+      "uebersetzung": {
+        "fa": "بستن (دور چیزی)",
+        "en": "to tie on"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "abbinden",
+      "uebersetzung": {
+        "fa": "باز کردن، درآوردن",
+        "en": "to untie, to take off"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "vor- (جلو) + binden (بستن)",
+    "en": "vor- (in front) + binden (to tie)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich (Dat) etwas vorbinden",
+        "bedeutung": "sich etwas vor den Körper binden",
+        "beispiel": "Das Kind bekommt ein Lätzchen vorgebunden.",
+        "uebersetzung": {
+          "fa": "برای بچه پیش‌بند غذا می‌بندند.",
+          "en": "The child has a bib tied on."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vorbinden",
+      "praeteritum": "band vor",
+      "partizip2": "vorgebunden"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "binde vor",
+        "du": "bindest vor",
+        "er_sie_es": "bindet vor",
+        "wir": "binden vor",
+        "ihr": "bindet vor",
+        "sie_Sie": "binden vor"
+      },
+      "praeteritum": {
+        "ich": "band vor",
+        "du": "bandest vor",
+        "er_sie_es": "band vor",
+        "wir": "banden vor",
+        "ihr": "bandet vor",
+        "sie_Sie": "banden vor"
+      },
+      "konjunktiv1": {
+        "ich": "binde vor",
+        "du": "bindest vor",
+        "er_sie_es": "binde vor",
+        "wir": "binden vor",
+        "ihr": "bindet vor",
+        "sie_Sie": "binden vor"
+      },
+      "konjunktiv2": {
+        "ich": "bände vor",
+        "du": "bändest vor",
+        "er_sie_es": "bände vor",
+        "wir": "bänden vor",
+        "ihr": "bändet vor",
+        "sie_Sie": "bänden vor"
+      },
+      "imperativ": {
+        "du": "Bind vor!",
+        "ihr": "Bindet vor!",
+        "Sie": "Binden Sie vor!"
+      }
+    },
+    "partizip1": "vorbindend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "binden",
+    "woerter": [
+      {
+        "wort": "binden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بستن",
+          "en": "to tie"
+        },
+        "id_ref": "verb_binden"
+      },
+      {
+        "wort": "die Schürze",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پیش‌بند",
+          "en": "apron"
+        },
+        "id_ref": "nomen_schuerze"
+      },
+      {
+        "wort": "umbinden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بستن (دور چیزی)",
+          "en": "to tie on"
+        },
+        "id_ref": "verb_umbinden"
+      },
+      {
+        "wort": "anbinden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بستن (به چیزی)",
+          "en": "to tie up"
+        },
+        "id_ref": "verb_anbinden"
+      },
+      {
+        "wort": "abbinden",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "باز کردن (چیز بسته‌شده)",
+          "en": "to untie"
+        },
+        "id_ref": "verb_abbinden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

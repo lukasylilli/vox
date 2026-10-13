@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_vorbeilaufen",
+  "wort": "vorbeilaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(پیاده/دوان) از کنار (چیزی) رد شدن"
+    ],
+    "en": [
+      "to run past",
+      "to walk past"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Bewegung"
+  ],
+  "ipa": "foːɐ̯ˈbaɪ̯ˌlaʊ̯fn̩",
+  "anmerkung": "Trennbar (lief vorbei, vorbeigelaufen).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ein Hund läuft vorbei.",
+      "uebersetzung": {
+        "fa": "سگی از کنار می‌دود.",
+        "en": "A dog runs past."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Sie lief einfach an mir vorbei, weil sie mich nicht erkannt hatte.",
+      "uebersetzung": {
+        "fa": "او همین‌طور از کنارم رد شد، چون مرا نشناخته بود.",
+        "en": "She simply walked past me because she hadn't recognised me."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vorbeigehen",
+      "uebersetzung": {
+        "fa": "از کنار رد شدن",
+        "en": "to walk past"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "stehen bleiben",
+      "uebersetzung": {
+        "fa": "ایستادن",
+        "en": "to stop"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "vorbei (از کنار) + laufen (دویدن، راه رفتن)",
+    "en": "vorbei (past) + laufen (to run, to walk)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "an + Dat vorbeilaufen",
+        "bedeutung": "an etwas vorüberlaufen",
+        "beispiel": "Die Kinder liefen am Spielplatz vorbei.",
+        "uebersetzung": {
+          "fa": "بچه‌ها از کنار زمین بازی دویدند و رد شدند.",
+          "en": "The children ran past the playground."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vorbeilaufen",
+      "praeteritum": "lief vorbei",
+      "partizip2": "vorbeigelaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laufe vorbei",
+        "du": "läufst vorbei",
+        "er_sie_es": "läuft vorbei",
+        "wir": "laufen vorbei",
+        "ihr": "lauft vorbei",
+        "sie_Sie": "laufen vorbei"
+      },
+      "praeteritum": {
+        "ich": "lief vorbei",
+        "du": "liefst vorbei",
+        "er_sie_es": "lief vorbei",
+        "wir": "liefen vorbei",
+        "ihr": "lieft vorbei",
+        "sie_Sie": "liefen vorbei"
+      },
+      "konjunktiv1": {
+        "ich": "laufe vorbei",
+        "du": "laufest vorbei",
+        "er_sie_es": "laufe vorbei",
+        "wir": "laufen vorbei",
+        "ihr": "laufet vorbei",
+        "sie_Sie": "laufen vorbei"
+      },
+      "konjunktiv2": {
+        "ich": "liefe vorbei",
+        "du": "liefest vorbei",
+        "er_sie_es": "liefe vorbei",
+        "wir": "liefen vorbei",
+        "ihr": "liefet vorbei",
+        "sie_Sie": "liefen vorbei"
+      },
+      "imperativ": {
+        "du": "Lauf vorbei!",
+        "ihr": "Lauft vorbei!",
+        "Sie": "Laufen Sie vorbei!"
+      }
+    },
+    "partizip1": "vorbeilaufend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دویدن، پیاده رفتن",
+          "en": "to run, to walk"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "vorbeigehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "از کنار رد شدن",
+          "en": "to walk past"
+        },
+        "id_ref": "verb_vorbeigehen"
+      },
+      {
+        "wort": "vorbeikommen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سر زدن؛ از کنار رد شدن",
+          "en": "to drop by; to come past"
+        },
+        "id_ref": "verb_vorbeikommen"
+      },
+      {
+        "wort": "vorbeifahren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "از کنار رد شدن (با وسیله)",
+          "en": "to drive past"
+        },
+        "id_ref": "verb_vorbeifahren"
+      },
+      {
+        "wort": "vorbei",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "از کنار؛ تمام",
+          "en": "past, over"
+        },
+        "id_ref": "adverb_vorbei"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_vorbringen",
+  "wort": "vorbringen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(دلیل، اعتراض، خواسته) مطرح کردن، اظهار کردن"
+    ],
+    "en": [
+      "to put forward",
+      "to raise (an objection)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Recht"
+  ],
+  "ipa": "ˈfoːɐ̯ˌbʁɪŋən",
+  "anmerkung": "Trennbar, gemischtes Verb (brachte vor, vorgebracht).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er bringt einen Wunsch vor.",
+      "uebersetzung": {
+        "fa": "او خواسته‌ای را مطرح می‌کند.",
+        "en": "He puts forward a request."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn Sie Einwände vorbringen möchten, müssen Sie das bis Freitag schriftlich tun.",
+      "uebersetzung": {
+        "fa": "اگر می‌خواهید اعتراضی مطرح کنید، باید تا جمعه این کار را کتبی انجام دهید.",
+        "en": "If you want to raise objections, you must do so in writing by Friday."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "äußern",
+      "uebersetzung": {
+        "fa": "ابراز کردن",
+        "en": "to express"
+      }
+    },
+    {
+      "wort": "vortragen",
+      "uebersetzung": {
+        "fa": "ارائه دادن",
+        "en": "to present"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verschweigen",
+      "uebersetzung": {
+        "fa": "پنهان کردن، نگفتن",
+        "en": "to keep quiet about"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "vor- (جلو) + bringen (آوردن)",
+    "en": "vor- (forward) + bringen (to bring)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas gegen + Akk vorbringen",
+        "bedeutung": "Argumente gegen etwas nennen",
+        "beispiel": "Gegen den Plan wurden viele Bedenken vorgebracht.",
+        "uebersetzung": {
+          "fa": "نگرانی‌های زیادی علیه این طرح مطرح شد.",
+          "en": "Many concerns were raised against the plan."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vorbringen",
+      "praeteritum": "brachte vor",
+      "partizip2": "vorgebracht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bringe vor",
+        "du": "bringst vor",
+        "er_sie_es": "bringt vor",
+        "wir": "bringen vor",
+        "ihr": "bringt vor",
+        "sie_Sie": "bringen vor"
+      },
+      "praeteritum": {
+        "ich": "brachte vor",
+        "du": "brachtest vor",
+        "er_sie_es": "brachte vor",
+        "wir": "brachten vor",
+        "ihr": "brachtet vor",
+        "sie_Sie": "brachten vor"
+      },
+      "konjunktiv1": {
+        "ich": "bringe vor",
+        "du": "bringest vor",
+        "er_sie_es": "bringe vor",
+        "wir": "bringen vor",
+        "ihr": "bringet vor",
+        "sie_Sie": "bringen vor"
+      },
+      "konjunktiv2": {
+        "ich": "brächte vor",
+        "du": "brächtest vor",
+        "er_sie_es": "brächte vor",
+        "wir": "brächten vor",
+        "ihr": "brächtet vor",
+        "sie_Sie": "brächten vor"
+      },
+      "imperativ": {
+        "du": "Bring vor!",
+        "ihr": "Bringt vor!",
+        "Sie": "Bringen Sie vor!"
+      }
+    },
+    "partizip1": "vorbringend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bringen",
+    "woerter": [
+      {
+        "wort": "bringen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آوردن",
+          "en": "to bring"
+        },
+        "id_ref": "verb_bringen"
+      },
+      {
+        "wort": "äußern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ابراز کردن",
+          "en": "to express"
+        },
+        "id_ref": "verb_aeussern"
+      },
+      {
+        "wort": "der Einwand",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اعتراض",
+          "en": "objection"
+        },
+        "id_ref": "nomen_einwand"
+      },
+      {
+        "wort": "das Argument",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "استدلال، دلیل",
+          "en": "argument"
+        },
+        "id_ref": "nomen_argument"
+      },
+      {
+        "wort": "vortragen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ارائه دادن",
+          "en": "to present"
+        },
+        "id_ref": "verb_vortragen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

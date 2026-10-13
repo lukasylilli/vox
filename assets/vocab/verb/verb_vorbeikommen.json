@@ -1,0 +1,195 @@
+{
+  "schema": "3.0",
+  "id": "verb_vorbeikommen",
+  "wort": "vorbeikommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سر زدن، به دیدن کسی آمدن",
+      "از کنار (چیزی) رد شدن",
+      "(از مانع) عبور کردن"
+    ],
+    "en": [
+      "to drop by",
+      "to come past",
+      "to get past"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Freizeit"
+  ],
+  "ipa": "foːɐ̯ˈbaɪ̯ˌkɔmən",
+  "anmerkung": "Trennbar (kam vorbei, vorbeigekommen).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Komm doch morgen vorbei!",
+      "uebersetzung": {
+        "fa": "فردا یک سر بیا!",
+        "en": "Why not drop by tomorrow!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn du in der Stadt bist, kannst du gern bei uns vorbeikommen.",
+      "uebersetzung": {
+        "fa": "اگر در شهر بودی، خوشحال می‌شویم سری به ما بزنی.",
+        "en": "If you're in town, you're welcome to drop by."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "besuchen",
+      "uebersetzung": {
+        "fa": "دیدن کردن",
+        "en": "to visit"
+      }
+    },
+    {
+      "wort": "vorbeischauen",
+      "uebersetzung": {
+        "fa": "سر زدن",
+        "en": "to look in"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "vorbei (از کنار) + kommen (آمدن)",
+    "en": "vorbei (past) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "bei + Dat vorbeikommen",
+        "bedeutung": "jemanden kurz besuchen",
+        "beispiel": "Kommst du heute Abend bei mir vorbei?",
+        "uebersetzung": {
+          "fa": "امشب سری به من می‌زنی؟",
+          "en": "Will you drop by my place tonight?"
+        }
+      },
+      {
+        "muster": "an + Dat vorbeikommen",
+        "bedeutung": "an etwas vorbeigehen/-fahren; ein Hindernis überwinden",
+        "beispiel": "An dem Lkw kamen wir nicht vorbei.",
+        "uebersetzung": {
+          "fa": "نتوانستیم از کنار کامیون رد شویم.",
+          "en": "We couldn't get past the lorry."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vorbeikommen",
+      "praeteritum": "kam vorbei",
+      "partizip2": "vorbeigekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme vorbei",
+        "du": "kommst vorbei",
+        "er_sie_es": "kommt vorbei",
+        "wir": "kommen vorbei",
+        "ihr": "kommt vorbei",
+        "sie_Sie": "kommen vorbei"
+      },
+      "praeteritum": {
+        "ich": "kam vorbei",
+        "du": "kamst vorbei",
+        "er_sie_es": "kam vorbei",
+        "wir": "kamen vorbei",
+        "ihr": "kamt vorbei",
+        "sie_Sie": "kamen vorbei"
+      },
+      "konjunktiv1": {
+        "ich": "komme vorbei",
+        "du": "kommest vorbei",
+        "er_sie_es": "komme vorbei",
+        "wir": "kommen vorbei",
+        "ihr": "kommet vorbei",
+        "sie_Sie": "kommen vorbei"
+      },
+      "konjunktiv2": {
+        "ich": "käme vorbei",
+        "du": "kämest vorbei",
+        "er_sie_es": "käme vorbei",
+        "wir": "kämen vorbei",
+        "ihr": "kämet vorbei",
+        "sie_Sie": "kämen vorbei"
+      },
+      "imperativ": {
+        "du": "Komm vorbei!",
+        "ihr": "Kommt vorbei!",
+        "Sie": "Kommen Sie vorbei!"
+      }
+    },
+    "partizip1": "vorbeikommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "besuchen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دیدن کردن",
+          "en": "to visit"
+        },
+        "id_ref": "verb_besuchen"
+      },
+      {
+        "wort": "vorbeigehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "از کنار رد شدن",
+          "en": "to walk past"
+        },
+        "id_ref": "verb_vorbeigehen"
+      },
+      {
+        "wort": "der Besuch",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دیدار، مهمان",
+          "en": "visit"
+        },
+        "id_ref": "nomen_besuch"
+      },
+      {
+        "wort": "vorbei",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "از کنار؛ تمام",
+          "en": "past, over"
+        },
+        "id_ref": "adverb_vorbei"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
