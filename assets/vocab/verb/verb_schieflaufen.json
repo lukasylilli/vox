@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_schieflaufen",
+  "wort": "schieflaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(محاوره) بد پیش رفتن، خراب شدن"
+    ],
+    "en": [
+      "(colloquial) to go wrong"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Umgangssprache",
+    "Alltag"
+  ],
+  "ipa": "ˈʃiːfˌlaʊ̯fn̩",
+  "anmerkung": "Meist mit einer Sache als Subjekt; kein sinnvoller Imperativ.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Im Projekt läuft etwas schief.",
+      "uebersetzung": {
+        "fa": "در پروژه چیزی درست پیش نمی‌رود.",
+        "en": "Something is going wrong in the project."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn in einer Beziehung dauernd etwas schiefläuft, sollte man offen darüber sprechen.",
+      "uebersetzung": {
+        "fa": "اگر در یک رابطه مدام چیزی بد پیش می‌رود، باید رک درباره‌اش حرف زد.",
+        "en": "If something keeps going wrong in a relationship, you should talk about it openly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schiefgehen",
+      "uebersetzung": {
+        "fa": "خراب شدن، بد پیش رفتن",
+        "en": "to go wrong"
+      }
+    },
+    {
+      "wort": "misslingen",
+      "uebersetzung": {
+        "fa": "ناموفق بودن",
+        "en": "to fail"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "klappen",
+      "uebersetzung": {
+        "fa": "(محاوره) جور شدن، درست شدن",
+        "en": "to work out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "schief (کج) + laufen (پیش رفتن، دویدن)",
+    "en": "schief (crooked) + laufen (to run)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "schieflaufen",
+      "praeteritum": "lief schief",
+      "partizip2": "schiefgelaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laufe schief",
+        "du": "läufst schief",
+        "er_sie_es": "läuft schief",
+        "wir": "laufen schief",
+        "ihr": "lauft schief",
+        "sie_Sie": "laufen schief"
+      },
+      "praeteritum": {
+        "ich": "lief schief",
+        "du": "liefst schief",
+        "er_sie_es": "lief schief",
+        "wir": "liefen schief",
+        "ihr": "lieft schief",
+        "sie_Sie": "liefen schief"
+      },
+      "konjunktiv1": {
+        "ich": "laufe schief",
+        "du": "laufest schief",
+        "er_sie_es": "laufe schief",
+        "wir": "laufen schief",
+        "ihr": "laufet schief",
+        "sie_Sie": "laufen schief"
+      },
+      "konjunktiv2": {
+        "ich": "liefe schief",
+        "du": "liefest schief",
+        "er_sie_es": "liefe schief",
+        "wir": "liefen schief",
+        "ihr": "liefet schief",
+        "sie_Sie": "liefen schief"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "schieflaufend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دویدن؛ پیش رفتن",
+          "en": "to run; to go"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "der Fehler",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اشتباه",
+          "en": "mistake"
+        },
+        "id_ref": "nomen_fehler"
+      },
+      {
+        "wort": "klappen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "(محاوره) جور شدن، درست شدن",
+          "en": "to work out"
+        },
+        "id_ref": "verb_klappen"
+      },
+      {
+        "wort": "schief",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کج",
+          "en": "crooked"
+        },
+        "id_ref": "adjektiv_schief"
+      },
+      {
+        "wort": "schiefgehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "(محاوره) خراب شدن",
+          "en": "to go wrong"
+        },
+        "id_ref": "verb_schiefgehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

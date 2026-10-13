@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_schieben",
+  "wort": "schieben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "هل دادن",
+      "(تقصیر را) گردن کسی انداختن"
+    ],
+    "en": [
+      "to push",
+      "to shove",
+      "to shift (blame)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈʃiːbn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er schiebt den Kinderwagen.",
+      "uebersetzung": {
+        "fa": "او کالسکه‌ی بچه را هل می‌دهد.",
+        "en": "He is pushing the pram."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie hat die Schuld auf ihren Kollegen geschoben, obwohl sie den Fehler selbst gemacht hatte.",
+      "uebersetzung": {
+        "fa": "او تقصیر را گردن همکارش انداخت، با اینکه خودش اشتباه کرده بود.",
+        "en": "She shifted the blame onto her colleague, although she had made the mistake herself."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "drücken",
+      "uebersetzung": {
+        "fa": "فشار دادن",
+        "en": "to press"
+      }
+    },
+    {
+      "wort": "stoßen",
+      "uebersetzung": {
+        "fa": "هل دادن",
+        "en": "to push"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ziehen",
+      "uebersetzung": {
+        "fa": "کشیدن",
+        "en": "to pull"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas auf + Akk schieben",
+        "bedeutung": "die Verantwortung jemand/etwas anderem geben",
+        "beispiel": "Er schiebt alles auf das Wetter.",
+        "uebersetzung": {
+          "fa": "او همه‌چیز را گردن هوا می‌اندازد.",
+          "en": "He blames everything on the weather."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schieben",
+      "praeteritum": "schob",
+      "partizip2": "geschoben"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schiebe",
+        "du": "schiebst",
+        "er_sie_es": "schiebt",
+        "wir": "schieben",
+        "ihr": "schiebt",
+        "sie_Sie": "schieben"
+      },
+      "praeteritum": {
+        "ich": "schob",
+        "du": "schobst",
+        "er_sie_es": "schob",
+        "wir": "schoben",
+        "ihr": "schobt",
+        "sie_Sie": "schoben"
+      },
+      "konjunktiv1": {
+        "ich": "schiebe",
+        "du": "schiebest",
+        "er_sie_es": "schiebe",
+        "wir": "schieben",
+        "ihr": "schiebet",
+        "sie_Sie": "schieben"
+      },
+      "konjunktiv2": {
+        "ich": "schöbe",
+        "du": "schöbest",
+        "er_sie_es": "schöbe",
+        "wir": "schöben",
+        "ihr": "schöbet",
+        "sie_Sie": "schöben"
+      },
+      "imperativ": {
+        "du": "Schieb!",
+        "ihr": "Schiebt!",
+        "Sie": "Schieben Sie!"
+      }
+    },
+    "partizip1": "schiebend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "drücken",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فشار دادن",
+          "en": "to press"
+        },
+        "id_ref": "verb_druecken"
+      },
+      {
+        "wort": "ziehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کشیدن",
+          "en": "to pull"
+        },
+        "id_ref": "verb_ziehen"
+      },
+      {
+        "wort": "der Kinderwagen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کالسکه‌ی بچه",
+          "en": "pram"
+        },
+        "id_ref": "nomen_kinderwagen"
+      },
+      {
+        "wort": "verschieben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به تعویق انداختن؛ جابه‌جا کردن",
+          "en": "to postpone; to move"
+        },
+        "id_ref": "verb_verschieben"
+      },
+      {
+        "wort": "die Schublade",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کشو",
+          "en": "drawer"
+        },
+        "id_ref": "nomen_schublade"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

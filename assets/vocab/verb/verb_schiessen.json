@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_schiessen",
+  "wort": "schießen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شلیک کردن",
+      "(توپ را) شوت کردن",
+      "(با سرعت) جهیدن، (عکس) گرفتن"
+    ],
+    "en": [
+      "to shoot",
+      "to kick (a ball)",
+      "to shoot (move fast); to take (a photo)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Sport",
+    "Alltag"
+  ],
+  "ipa": "ˈʃiːsn̩",
+  "anmerkung": "Mit «haben» (Er hat ein Tor geschossen); mit «sein» bei schneller Bewegung (Das Auto ist um die Ecke geschossen).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er schießt den Ball ins Tor.",
+      "uebersetzung": {
+        "fa": "او توپ را به دروازه شوت می‌کند.",
+        "en": "He shoots the ball into the goal."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem der Fotograf das Foto geschossen hatte, durften wir uns wieder bewegen.",
+      "uebersetzung": {
+        "fa": "بعد از اینکه عکاس عکس را گرفت، اجازه داشتیم دوباره تکان بخوریم.",
+        "en": "After the photographer had taken the photo, we were allowed to move again."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "feuern",
+      "uebersetzung": {
+        "fa": "شلیک کردن",
+        "en": "to fire"
+      }
+    },
+    {
+      "wort": "kicken",
+      "uebersetzung": {
+        "fa": "(محاوره) شوت زدن",
+        "en": "to kick"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Akk schießen",
+        "bedeutung": "mit einer Waffe auf ein Ziel feuern",
+        "beispiel": "Der Jäger schießt auf die Zielscheibe.",
+        "uebersetzung": {
+          "fa": "شکارچی به سیبل شلیک می‌کند.",
+          "en": "The hunter shoots at the target."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schießen",
+      "praeteritum": "schoss",
+      "partizip2": "geschossen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schieße",
+        "du": "schießt",
+        "er_sie_es": "schießt",
+        "wir": "schießen",
+        "ihr": "schießt",
+        "sie_Sie": "schießen"
+      },
+      "praeteritum": {
+        "ich": "schoss",
+        "du": "schossest",
+        "er_sie_es": "schoss",
+        "wir": "schossen",
+        "ihr": "schosst",
+        "sie_Sie": "schossen"
+      },
+      "konjunktiv1": {
+        "ich": "schieße",
+        "du": "schießest",
+        "er_sie_es": "schieße",
+        "wir": "schießen",
+        "ihr": "schießet",
+        "sie_Sie": "schießen"
+      },
+      "konjunktiv2": {
+        "ich": "schösse",
+        "du": "schössest",
+        "er_sie_es": "schösse",
+        "wir": "schössen",
+        "ihr": "schösset",
+        "sie_Sie": "schössen"
+      },
+      "imperativ": {
+        "du": "Schieß!",
+        "ihr": "Schießt!",
+        "Sie": "Schießen Sie!"
+      }
+    },
+    "partizip1": "schießend",
+    "nominalisierung": "der Schuss"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Ball",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "توپ",
+          "en": "ball"
+        },
+        "id_ref": "nomen_ball"
+      },
+      {
+        "wort": "das Tor",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دروازه؛ گل",
+          "en": "goal"
+        },
+        "id_ref": "nomen_tor"
+      },
+      {
+        "wort": "der Schuss",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شلیک؛ شوت",
+          "en": "shot"
+        },
+        "id_ref": "nomen_schuss"
+      },
+      {
+        "wort": "die Waffe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سلاح",
+          "en": "weapon"
+        },
+        "id_ref": "nomen_waffe"
+      },
+      {
+        "wort": "erschießen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "با گلوله کشتن",
+          "en": "to shoot dead"
+        },
+        "id_ref": "verb_erschiessen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

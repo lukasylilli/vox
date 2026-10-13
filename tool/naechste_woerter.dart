@@ -1244,6 +1244,31 @@ const zurueckgestellt = <String>{
   'ranbinden', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-11
   'rankönnen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
   'ranmüssen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'reinfliegen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-13
+  'reinhauen', // zurückgestellt (Regel 14/16): umgangssprachlich; Präteritum schwankt (haute/hieb) 2026-10-13
+  'reinkönnen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-13
+  'reinmüssen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-13
+  'richtigliegen', // zurückgestellt (Regel 14/16): umgangssprachlich; Hilfsverb regional schwankend (haben/sein) 2026-10-13
+  'rinnen', // zurückgestellt (Regel 14/16): gehoben/selten; Konjunktiv II schwankt (ränne/rönne) 2026-10-13
+  'rückfragen', // zurückgestellt (Regel 14/16): nur im Infinitiv/Partizip II gebräuchlich (defektiv) 2026-10-13
+  'rückwärtsfahren', // zurückgestellt (Regel 14/16): Schreibung schwankt (rückwärts fahren / rückwärtsfahren) 2026-10-13
+  'rückwärtsgehen', // zurückgestellt (Regel 14/16): Schreibung/Bedeutung schwankt (rückwärts gehen / rückwärtsgehen = sich verschlechtern) 2026-10-13
+  'ruhenlassen', // zurückgestellt (Regel 14/16): Schreibung schwankt (ruhen lassen / ruhenlassen) 2026-10-13
+  'rumhaben', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-13
+  'rumhängen', // zurückgestellt (Regel 14/16): hängen-Kompositum (wie herumhängen) 2026-10-13
+  'rundfragen', // zurückgestellt (Regel 14/16): selten, kaum konjugiert gebräuchlich 2026-10-13
+  'runterfliegen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-13
+  'runterhauen', // zurückgestellt (Regel 14/16): umgangssprachlich; Präteritum schwankt (haute/hieb) 2026-10-13
+  'sattbekommen', // zurückgestellt (Regel 14/16): Schreibung schwankt (satt bekommen / sattbekommen) 2026-10-13
+  'satthaben', // zurückgestellt (Regel 14/16): Schreibung schwankt (satt haben / satthaben) 2026-10-13
+  'saugen', // zurückgestellt (Regel 14/16): Präteritum schwankt (sog/saugte) 2026-10-13
+  'sausenlasen', // zurückgestellt (Regel 14/16): Schreibfehler der Liste (sausenlassen); Schreibung schwankt 2026-10-13
+  'schaffen', // zurückgestellt (Regel 14/16): zwei Konjugationen je Bedeutung (schuf/geschaffen ↔ schaffte/geschafft) 2026-10-13
+  'schallen', // zurückgestellt (Regel 14/16): Präteritum schwankt (scholl/schallte) 2026-10-13
+  'scheren', // zurückgestellt (Regel 14/16): zwei Konjugationen je Bedeutung (schor ↔ scherte) 2026-10-13
+  'schiefliegen', // zurückgestellt (Regel 14/16): umgangssprachlich; Hilfsverb regional schwankend (haben/sein) 2026-10-13
+  'schießenlassen', // zurückgestellt (Regel 14/16): Schreibung schwankt (schießen lassen / schießenlassen) 2026-10-13
+  'schinden', // zurückgestellt (Regel 14/16): Präteritum schwankt (schindete/schund) 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

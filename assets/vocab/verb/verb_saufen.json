@@ -1,0 +1,164 @@
+{
+  "schema": "3.0",
+  "id": "verb_saufen",
+  "wort": "saufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(برای حیوان) آب خوردن",
+      "(عامیانه، تحقیرآمیز) زیاد مشروب خوردن"
+    ],
+    "en": [
+      "(of animals) to drink",
+      "(colloquial, derogatory) to booze"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Tiere",
+    "Umgangssprache"
+  ],
+  "ipa": "ˈzaʊ̯fn̩",
+  "anmerkung": "Bei Tieren neutral; bei Menschen umgangssprachlich und abwertend (viel Alkohol trinken).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Pferd säuft Wasser.",
+      "uebersetzung": {
+        "fa": "اسب آب می‌خورد.",
+        "en": "The horse is drinking water."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Er hat am Wochenende so viel gesoffen, dass er am Montag krank war.",
+      "uebersetzung": {
+        "fa": "آخر هفته آن‌قدر مشروب خورد که دوشنبه مریض بود.",
+        "en": "He drank so much at the weekend that he was ill on Monday."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "trinken",
+      "uebersetzung": {
+        "fa": "نوشیدن",
+        "en": "to drink"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "saufen",
+      "praeteritum": "soff",
+      "partizip2": "gesoffen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "saufe",
+        "du": "säufst",
+        "er_sie_es": "säuft",
+        "wir": "saufen",
+        "ihr": "sauft",
+        "sie_Sie": "saufen"
+      },
+      "praeteritum": {
+        "ich": "soff",
+        "du": "soffst",
+        "er_sie_es": "soff",
+        "wir": "soffen",
+        "ihr": "sofft",
+        "sie_Sie": "soffen"
+      },
+      "konjunktiv1": {
+        "ich": "saufe",
+        "du": "saufest",
+        "er_sie_es": "saufe",
+        "wir": "saufen",
+        "ihr": "saufet",
+        "sie_Sie": "saufen"
+      },
+      "konjunktiv2": {
+        "ich": "söffe",
+        "du": "söffest",
+        "er_sie_es": "söffe",
+        "wir": "söffen",
+        "ihr": "söffet",
+        "sie_Sie": "söffen"
+      },
+      "imperativ": {
+        "du": "Sauf!",
+        "ihr": "Sauft!",
+        "Sie": "Saufen Sie!"
+      }
+    },
+    "partizip1": "saufend",
+    "nominalisierung": "das Saufen"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "trinken",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نوشیدن",
+          "en": "to drink"
+        },
+        "id_ref": "verb_trinken"
+      },
+      {
+        "wort": "das Bier",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آبجو",
+          "en": "beer"
+        },
+        "id_ref": "nomen_bier"
+      },
+      {
+        "wort": "der Alkohol",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "الکل",
+          "en": "alcohol"
+        },
+        "id_ref": "nomen_alkohol"
+      },
+      {
+        "wort": "betrunken",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مست",
+          "en": "drunk"
+        },
+        "id_ref": "adjektiv_betrunken"
+      },
+      {
+        "wort": "der Säufer",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "(تحقیرآمیز) میخواره",
+          "en": "drunkard"
+        },
+        "id_ref": "nomen_saeufer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

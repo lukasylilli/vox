@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_schlafen",
+  "wort": "schlafen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خوابیدن"
+    ],
+    "en": [
+      "to sleep"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Gesundheit"
+  ],
+  "ipa": "ˈʃlaːfn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Baby schläft schon.",
+      "uebersetzung": {
+        "fa": "بچه دیگر خوابیده است.",
+        "en": "The baby is already asleep."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil die Nachbarn so laut waren, habe ich die ganze Nacht schlecht geschlafen.",
+      "uebersetzung": {
+        "fa": "چون همسایه‌ها خیلی سروصدا می‌کردند، تمام شب بد خوابیدم.",
+        "en": "Because the neighbours were so loud, I slept badly all night."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "pennen",
+      "uebersetzung": {
+        "fa": "(محاوره) خوابیدن",
+        "en": "to kip"
+      }
+    },
+    {
+      "wort": "schlummern",
+      "uebersetzung": {
+        "fa": "چرت زدن، آرام خوابیدن",
+        "en": "to slumber"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "wachen",
+      "uebersetzung": {
+        "fa": "بیدار بودن",
+        "en": "to be awake"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "schlafen",
+      "praeteritum": "schlief",
+      "partizip2": "geschlafen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schlafe",
+        "du": "schläfst",
+        "er_sie_es": "schläft",
+        "wir": "schlafen",
+        "ihr": "schlaft",
+        "sie_Sie": "schlafen"
+      },
+      "praeteritum": {
+        "ich": "schlief",
+        "du": "schliefst",
+        "er_sie_es": "schlief",
+        "wir": "schliefen",
+        "ihr": "schlieft",
+        "sie_Sie": "schliefen"
+      },
+      "konjunktiv1": {
+        "ich": "schlafe",
+        "du": "schlafest",
+        "er_sie_es": "schlafe",
+        "wir": "schlafen",
+        "ihr": "schlafet",
+        "sie_Sie": "schlafen"
+      },
+      "konjunktiv2": {
+        "ich": "schliefe",
+        "du": "schliefest",
+        "er_sie_es": "schliefe",
+        "wir": "schliefen",
+        "ihr": "schliefet",
+        "sie_Sie": "schliefen"
+      },
+      "imperativ": {
+        "du": "Schlaf!",
+        "ihr": "Schlaft!",
+        "Sie": "Schlafen Sie!"
+      }
+    },
+    "partizip1": "schlafend",
+    "nominalisierung": "der Schlaf"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Bett",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تخت",
+          "en": "bed"
+        },
+        "id_ref": "nomen_bett"
+      },
+      {
+        "wort": "müde",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خسته",
+          "en": "tired"
+        },
+        "id_ref": "adjektiv_muede"
+      },
+      {
+        "wort": "der Schlaf",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خواب",
+          "en": "sleep"
+        },
+        "id_ref": "nomen_schlaf"
+      },
+      {
+        "wort": "einschlafen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "به خواب رفتن",
+          "en": "to fall asleep"
+        },
+        "id_ref": "verb_einschlafen"
+      },
+      {
+        "wort": "ausschlafen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سیر خوابیدن",
+          "en": "to sleep in"
+        },
+        "id_ref": "verb_ausschlafen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

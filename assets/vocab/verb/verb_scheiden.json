@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_scheiden",
+  "wort": "scheiden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "طلاق دادن (sich scheiden lassen: طلاق گرفتن)",
+      "جدا کردن",
+      "(از کار/مقام) کناره گرفتن"
+    ],
+    "en": [
+      "to divorce",
+      "to separate",
+      "to leave (office)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Familie",
+    "Recht"
+  ],
+  "ipa": "ˈʃaɪ̯dn̩",
+  "anmerkung": "Meist «sich scheiden lassen». Mit «sein»: aus dem Amt/Dienst scheiden (= ausscheiden).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie lassen sich scheiden.",
+      "uebersetzung": {
+        "fa": "آن‌ها از هم طلاق می‌گیرند.",
+        "en": "They're getting divorced."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem sie zwanzig Jahre verheiratet waren, haben sie sich scheiden lassen.",
+      "uebersetzung": {
+        "fa": "بعد از بیست سال زندگی مشترک، از هم طلاق گرفتند.",
+        "en": "After being married for twenty years, they got divorced."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "trennen",
+      "uebersetzung": {
+        "fa": "جدا کردن",
+        "en": "to separate"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "heiraten",
+      "uebersetzung": {
+        "fa": "ازدواج کردن",
+        "en": "to marry"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich von + Dat scheiden lassen",
+        "bedeutung": "die Ehe mit jemandem auflösen",
+        "beispiel": "Er hat sich von seiner Frau scheiden lassen.",
+        "uebersetzung": {
+          "fa": "او از همسرش طلاق گرفت.",
+          "en": "He divorced his wife."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "scheiden",
+      "praeteritum": "schied",
+      "partizip2": "geschieden"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "scheide",
+        "du": "scheidest",
+        "er_sie_es": "scheidet",
+        "wir": "scheiden",
+        "ihr": "scheidet",
+        "sie_Sie": "scheiden"
+      },
+      "praeteritum": {
+        "ich": "schied",
+        "du": "schiedest",
+        "er_sie_es": "schied",
+        "wir": "schieden",
+        "ihr": "schiedet",
+        "sie_Sie": "schieden"
+      },
+      "konjunktiv1": {
+        "ich": "scheide",
+        "du": "scheidest",
+        "er_sie_es": "scheide",
+        "wir": "scheiden",
+        "ihr": "scheidet",
+        "sie_Sie": "scheiden"
+      },
+      "konjunktiv2": {
+        "ich": "schiede",
+        "du": "schiedest",
+        "er_sie_es": "schiede",
+        "wir": "schieden",
+        "ihr": "schiedet",
+        "sie_Sie": "schieden"
+      },
+      "imperativ": {
+        "du": "Scheide!",
+        "ihr": "Scheidet!",
+        "Sie": "Scheiden Sie!"
+      }
+    },
+    "partizip1": "scheidend",
+    "nominalisierung": "die Scheidung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "heiraten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ازدواج کردن",
+          "en": "to marry"
+        },
+        "id_ref": "verb_heiraten"
+      },
+      {
+        "wort": "geschieden",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "طلاق‌گرفته، مطلقه",
+          "en": "divorced"
+        },
+        "id_ref": "adjektiv_geschieden"
+      },
+      {
+        "wort": "die Scheidung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "طلاق",
+          "en": "divorce"
+        },
+        "id_ref": "nomen_scheidung"
+      },
+      {
+        "wort": "trennen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جدا کردن",
+          "en": "to separate"
+        },
+        "id_ref": "verb_trennen"
+      },
+      {
+        "wort": "entscheiden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تصمیم گرفتن",
+          "en": "to decide"
+        },
+        "id_ref": "verb_entscheiden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

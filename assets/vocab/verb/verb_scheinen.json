@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_scheinen",
+  "wort": "scheinen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تابیدن",
+      "به نظر رسیدن"
+    ],
+    "en": [
+      "to shine",
+      "to seem",
+      "to appear"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Wetter",
+    "Alltag"
+  ],
+  "ipa": "ˈʃaɪ̯nən",
+  "anmerkung": "«scheinen + zu + Infinitiv» = den Anschein haben (Er scheint müde zu sein).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Heute scheint die Sonne.",
+      "uebersetzung": {
+        "fa": "امروز آفتاب می‌تابد.",
+        "en": "The sun is shining today."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie scheint nicht zu wissen, dass das Treffen abgesagt wurde.",
+      "uebersetzung": {
+        "fa": "به نظر می‌رسد نمی‌داند که جلسه لغو شده است.",
+        "en": "She doesn't seem to know that the meeting has been cancelled."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "leuchten",
+      "uebersetzung": {
+        "fa": "درخشیدن",
+        "en": "to shine"
+      }
+    },
+    {
+      "wort": "wirken",
+      "uebersetzung": {
+        "fa": "به نظر رسیدن",
+        "en": "to seem"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem + Adjektiv scheinen",
+        "bedeutung": "jemandem so vorkommen",
+        "beispiel": "Die Idee scheint mir gut.",
+        "uebersetzung": {
+          "fa": "این ایده به نظرم خوب است.",
+          "en": "The idea seems good to me."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "scheinen",
+      "praeteritum": "schien",
+      "partizip2": "geschienen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "scheine",
+        "du": "scheinst",
+        "er_sie_es": "scheint",
+        "wir": "scheinen",
+        "ihr": "scheint",
+        "sie_Sie": "scheinen"
+      },
+      "praeteritum": {
+        "ich": "schien",
+        "du": "schienst",
+        "er_sie_es": "schien",
+        "wir": "schienen",
+        "ihr": "schient",
+        "sie_Sie": "schienen"
+      },
+      "konjunktiv1": {
+        "ich": "scheine",
+        "du": "scheinest",
+        "er_sie_es": "scheine",
+        "wir": "scheinen",
+        "ihr": "scheinet",
+        "sie_Sie": "scheinen"
+      },
+      "konjunktiv2": {
+        "ich": "schiene",
+        "du": "schienest",
+        "er_sie_es": "schiene",
+        "wir": "schienen",
+        "ihr": "schienet",
+        "sie_Sie": "schienen"
+      },
+      "imperativ": {
+        "du": "Schein!",
+        "ihr": "Scheint!",
+        "Sie": "Scheinen Sie!"
+      }
+    },
+    "partizip1": "scheinend",
+    "nominalisierung": "der Schein"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Sonne",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خورشید، آفتاب",
+          "en": "sun"
+        },
+        "id_ref": "nomen_sonne"
+      },
+      {
+        "wort": "wahrscheinlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "احتمالی؛ احتمالاً",
+          "en": "probable; probably"
+        },
+        "id_ref": "adjektiv_wahrscheinlich"
+      },
+      {
+        "wort": "erscheinen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ظاهر شدن؛ منتشر شدن",
+          "en": "to appear"
+        },
+        "id_ref": "verb_erscheinen"
+      },
+      {
+        "wort": "leuchten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درخشیدن",
+          "en": "to shine"
+        },
+        "id_ref": "verb_leuchten"
+      },
+      {
+        "wort": "der Schein",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ظاهر؛ روشنایی؛ اسکناس",
+          "en": "appearance; light; banknote"
+        },
+        "id_ref": "nomen_schein"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
