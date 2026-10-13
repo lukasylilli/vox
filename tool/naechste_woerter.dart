@@ -1222,6 +1222,10 @@ const zurueckgestellt = <String>{
   'nachdürfen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
   'nachfallen', // zurückgestellt (Regel 14/16): selten 2026-10-11
   'nachgären', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'nachgreifen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'nachhalten', // zurückgestellt (Regel 14/16): als Verb selten (üblich: Adjektiv «nachhaltig») 2026-10-11
+  'nachkönnen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
+  'nachmüssen', // zurückgestellt (Regel 14/16): Modalverb-Kompositum (umgangssprachlich), kein Imperativ 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

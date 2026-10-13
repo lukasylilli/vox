@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_nachlesen",
+  "wort": "nachlesen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(در کتاب یا منبعی) مراجعه کردن و خواندن، (چیزی را) چک کردن"
+    ],
+    "en": [
+      "to look up, to read up on"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Lernen",
+    "Bildung"
+  ],
+  "ipa": "ˈnaːxˌleːzn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das kannst du im Buch nachlesen.",
+      "uebersetzung": {
+        "fa": "این را می‌توانی در کتاب ببینی.",
+        "en": "You can look that up in the book."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich habe im Internet nachgelesen, welche Nebenwirkungen das Medikament haben kann.",
+      "uebersetzung": {
+        "fa": "در اینترنت خواندم که این دارو چه عوارض جانبی‌ای ممکن است داشته باشد.",
+        "en": "I looked up on the internet what side effects the medicine can have."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nachschlagen",
+      "uebersetzung": {
+        "fa": "(در فرهنگ لغت و مانند آن) جست‌وجو کردن",
+        "en": "to look up"
+      }
+    },
+    {
+      "wort": "recherchieren",
+      "uebersetzung": {
+        "fa": "تحقیق کردن",
+        "en": "to research"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "nach- (پس از، به دنبال؛ دوباره) + lesen (خواندن)",
+    "en": "nach- (after; again) + lesen (to read)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas in + Dat nachlesen",
+        "bedeutung": "etwas in einer Quelle lesen",
+        "beispiel": "Die Regeln kann man in der Hausordnung nachlesen.",
+        "uebersetzung": {
+          "fa": "قوانین را می‌شود در آیین‌نامه‌ی ساختمان خواند.",
+          "en": "You can read up on the rules in the house regulations."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "nachlesen",
+      "praeteritum": "las nach",
+      "partizip2": "nachgelesen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lese nach",
+        "du": "liest nach",
+        "er_sie_es": "liest nach",
+        "wir": "lesen nach",
+        "ihr": "lest nach",
+        "sie_Sie": "lesen nach"
+      },
+      "praeteritum": {
+        "ich": "las nach",
+        "du": "lasest nach",
+        "er_sie_es": "las nach",
+        "wir": "lasen nach",
+        "ihr": "last nach",
+        "sie_Sie": "lasen nach"
+      },
+      "konjunktiv1": {
+        "ich": "lese nach",
+        "du": "lesest nach",
+        "er_sie_es": "lese nach",
+        "wir": "lesen nach",
+        "ihr": "leset nach",
+        "sie_Sie": "lesen nach"
+      },
+      "konjunktiv2": {
+        "ich": "läse nach",
+        "du": "läsest nach",
+        "er_sie_es": "läse nach",
+        "wir": "läsen nach",
+        "ihr": "läset nach",
+        "sie_Sie": "läsen nach"
+      },
+      "imperativ": {
+        "du": "Lies nach!",
+        "ihr": "Lest nach!",
+        "Sie": "Lesen Sie nach!"
+      }
+    },
+    "partizip1": "nachlesend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "lesen",
+    "woerter": [
+      {
+        "wort": "lesen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خواندن",
+          "en": "to read"
+        },
+        "id_ref": "verb_lesen"
+      },
+      {
+        "wort": "nachschlagen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جست‌وجو کردن (در کتاب)",
+          "en": "to look up"
+        },
+        "id_ref": "verb_nachschlagen"
+      },
+      {
+        "wort": "das Wörterbuch",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فرهنگ لغت",
+          "en": "dictionary"
+        },
+        "id_ref": "nomen_woerterbuch"
+      },
+      {
+        "wort": "die Quelle",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "منبع",
+          "en": "source"
+        },
+        "id_ref": "nomen_quelle"
+      },
+      {
+        "wort": "nach",
+        "wortart": "praeposition",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بعد از",
+          "en": "after"
+        },
+        "id_ref": "praeposition_nach"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

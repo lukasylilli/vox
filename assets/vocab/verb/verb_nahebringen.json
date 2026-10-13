@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_nahebringen",
+  "wort": "nahebringen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(موضوعی را به کسی) فهماندن، (کسی را با چیزی) آشنا کردن و به آن علاقه‌مند کردن"
+    ],
+    "en": [
+      "to bring (something) home to someone, to introduce someone to"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Bildung",
+    "Kultur"
+  ],
+  "ipa": "ˈnaːəˌbʁɪŋən",
+  "anmerkung": "Gemischtes Verb: brachte nahe, nahegebracht.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie bringt uns die Kunst nahe.",
+      "uebersetzung": {
+        "fa": "او ما را با هنر آشنا می‌کند.",
+        "en": "She introduces us to art."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Lehrer hat es geschafft, uns die schwierige Geschichte des Landes verständlich nahezubringen.",
+      "uebersetzung": {
+        "fa": "معلم توانست تاریخ پیچیده‌ی این کشور را به‌روشنی برای ما قابل‌فهم کند.",
+        "en": "The teacher managed to explain the country's difficult history to us in an understandable way."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vermitteln",
+      "uebersetzung": {
+        "fa": "منتقل کردن",
+        "en": "to convey"
+      }
+    },
+    {
+      "wort": "näherbringen",
+      "uebersetzung": {
+        "fa": "آشنا کردن",
+        "en": "to bring closer"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "nahe (نزدیک) + bringen (آوردن)",
+    "en": "nahe (near) + bringen (to bring)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem etwas nahebringen (+ Dat + Akk)",
+        "bedeutung": "jemandem etwas verständlich machen",
+        "beispiel": "Sie hat mir die persische Küche nahegebracht.",
+        "uebersetzung": {
+          "fa": "او مرا با آشپزی ایرانی آشنا کرد.",
+          "en": "She introduced me to Persian cuisine."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "nahebringen",
+      "praeteritum": "brachte nahe",
+      "partizip2": "nahegebracht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bringe nahe",
+        "du": "bringst nahe",
+        "er_sie_es": "bringt nahe",
+        "wir": "bringen nahe",
+        "ihr": "bringt nahe",
+        "sie_Sie": "bringen nahe"
+      },
+      "praeteritum": {
+        "ich": "brachte nahe",
+        "du": "brachtest nahe",
+        "er_sie_es": "brachte nahe",
+        "wir": "brachten nahe",
+        "ihr": "brachtet nahe",
+        "sie_Sie": "brachten nahe"
+      },
+      "konjunktiv1": {
+        "ich": "bringe nahe",
+        "du": "bringest nahe",
+        "er_sie_es": "bringe nahe",
+        "wir": "bringen nahe",
+        "ihr": "bringet nahe",
+        "sie_Sie": "bringen nahe"
+      },
+      "konjunktiv2": {
+        "ich": "brächte nahe",
+        "du": "brächtest nahe",
+        "er_sie_es": "brächte nahe",
+        "wir": "brächten nahe",
+        "ihr": "brächtet nahe",
+        "sie_Sie": "brächten nahe"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "nahebringend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bringen",
+    "woerter": [
+      {
+        "wort": "bringen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آوردن",
+          "en": "to bring"
+        },
+        "id_ref": "verb_bringen"
+      },
+      {
+        "wort": "vermitteln",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "منتقل کردن",
+          "en": "to convey"
+        },
+        "id_ref": "verb_vermitteln"
+      },
+      {
+        "wort": "näherbringen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آشنا کردن",
+          "en": "to bring closer"
+        },
+        "id_ref": "verb_naeherbringen"
+      },
+      {
+        "wort": "nah",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نزدیک",
+          "en": "near"
+        },
+        "id_ref": "adjektiv_nah"
+      },
+      {
+        "wort": "erklären",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "توضیح دادن",
+          "en": "to explain"
+        },
+        "id_ref": "verb_erklaeren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

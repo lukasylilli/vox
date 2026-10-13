@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_nachhelfen",
+  "wort": "nachhelfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با کمک اضافی) کمک کردن، کار را جلو انداختن",
+      "(به کسی در درس) کمک کردن"
+    ],
+    "en": [
+      "to help along, to give a helping hand",
+      "to help (someone) with their studies"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Lernen",
+    "Alltag"
+  ],
+  "ipa": "ˈnaːxˌhɛlfn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich helfe ein bisschen nach.",
+      "uebersetzung": {
+        "fa": "کمی کمک می‌کنم.",
+        "en": "I'll help it along a bit."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil er in Mathe schlechte Noten hat, hilft ihm eine Studentin zweimal pro Woche nach.",
+      "uebersetzung": {
+        "fa": "چون در ریاضی نمره‌های بدی دارد، یک دانشجو هفته‌ای دو بار به او کمک درسی می‌کند.",
+        "en": "Because he has bad marks in maths, a student gives him extra help twice a week."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "unterstützen",
+      "uebersetzung": {
+        "fa": "حمایت کردن",
+        "en": "to support"
+      }
+    },
+    {
+      "wort": "Nachhilfe geben",
+      "uebersetzung": {
+        "fa": "تدریس خصوصی دادن",
+        "en": "to tutor"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "nach- (پس از، به دنبال؛ دوباره) + helfen (کمک کردن)",
+    "en": "nach- (after; again) + helfen (to help)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem bei/in + Dat nachhelfen",
+        "bedeutung": "jemandem zusätzlich helfen",
+        "beispiel": "Ich helfe meiner Schwester in Englisch nach.",
+        "uebersetzung": {
+          "fa": "در انگلیسی به خواهرم کمک می‌کنم.",
+          "en": "I help my sister with English."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "nachhelfen",
+      "praeteritum": "half nach",
+      "partizip2": "nachgeholfen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "helfe nach",
+        "du": "hilfst nach",
+        "er_sie_es": "hilft nach",
+        "wir": "helfen nach",
+        "ihr": "helft nach",
+        "sie_Sie": "helfen nach"
+      },
+      "praeteritum": {
+        "ich": "half nach",
+        "du": "halfst nach",
+        "er_sie_es": "half nach",
+        "wir": "halfen nach",
+        "ihr": "halft nach",
+        "sie_Sie": "halfen nach"
+      },
+      "konjunktiv1": {
+        "ich": "helfe nach",
+        "du": "helfest nach",
+        "er_sie_es": "helfe nach",
+        "wir": "helfen nach",
+        "ihr": "helfet nach",
+        "sie_Sie": "helfen nach"
+      },
+      "konjunktiv2": {
+        "ich": "hülfe nach",
+        "du": "hülfest nach",
+        "er_sie_es": "hülfe nach",
+        "wir": "hülfen nach",
+        "ihr": "hülfet nach",
+        "sie_Sie": "hülfen nach"
+      },
+      "imperativ": {
+        "du": "Hilf nach!",
+        "ihr": "Helft nach!",
+        "Sie": "Helfen Sie nach!"
+      }
+    },
+    "partizip1": "nachhelfend",
+    "nominalisierung": "die Nachhilfe"
+  },
+  "wortnetz": {
+    "grundwort": "helfen",
+    "woerter": [
+      {
+        "wort": "helfen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک کردن",
+          "en": "to help"
+        },
+        "id_ref": "verb_helfen"
+      },
+      {
+        "wort": "die Nachhilfe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تدریس خصوصی",
+          "en": "tutoring"
+        },
+        "id_ref": "nomen_nachhilfe"
+      },
+      {
+        "wort": "unterstützen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حمایت کردن",
+          "en": "to support"
+        },
+        "id_ref": "verb_unterstuetzen"
+      },
+      {
+        "wort": "die Note",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نمره",
+          "en": "mark"
+        },
+        "id_ref": "nomen_note"
+      },
+      {
+        "wort": "nach",
+        "wortart": "praeposition",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بعد از",
+          "en": "after"
+        },
+        "id_ref": "praeposition_nach"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

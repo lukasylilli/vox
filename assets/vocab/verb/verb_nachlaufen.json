@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_nachlaufen",
+  "wort": "nachlaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دنبال (کسی یا چیزی) دویدن",
+      "(محاوره) به (کسی) آویزان شدن، دنبال (کسی) افتادن"
+    ],
+    "en": [
+      "to run after",
+      "(colloquial) to chase after"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Bewegung",
+    "Beziehungen"
+  ],
+  "ipa": "ˈnaːxˌlaʊ̯fn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hund läuft mir nach.",
+      "uebersetzung": {
+        "fa": "سگ دنبالم می‌دود.",
+        "en": "The dog runs after me."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ich laufe keinem Mann nach, der sich nicht für mich interessiert.",
+      "uebersetzung": {
+        "fa": "دنبال هیچ مردی که به من علاقه ندارد نمی‌افتم.",
+        "en": "I don't chase after any man who isn't interested in me."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hinterherlaufen",
+      "uebersetzung": {
+        "fa": "دنبال دویدن",
+        "en": "to run after"
+      }
+    },
+    {
+      "wort": "verfolgen",
+      "uebersetzung": {
+        "fa": "تعقیب کردن",
+        "en": "to pursue"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "nach- (پس از، به دنبال؛ دوباره) + laufen (دویدن)",
+    "en": "nach- (after; again) + laufen (to run)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem nachlaufen (+ Dat)",
+        "bedeutung": "jemandem laufend folgen; sich um jemanden bemühen",
+        "beispiel": "Die Kinder liefen dem Ball nach.",
+        "uebersetzung": {
+          "fa": "بچه‌ها دنبال توپ دویدند.",
+          "en": "The children ran after the ball."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "nachlaufen",
+      "praeteritum": "lief nach",
+      "partizip2": "nachgelaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laufe nach",
+        "du": "läufst nach",
+        "er_sie_es": "läuft nach",
+        "wir": "laufen nach",
+        "ihr": "lauft nach",
+        "sie_Sie": "laufen nach"
+      },
+      "praeteritum": {
+        "ich": "lief nach",
+        "du": "liefst nach",
+        "er_sie_es": "lief nach",
+        "wir": "liefen nach",
+        "ihr": "lieft nach",
+        "sie_Sie": "liefen nach"
+      },
+      "konjunktiv1": {
+        "ich": "laufe nach",
+        "du": "laufest nach",
+        "er_sie_es": "laufe nach",
+        "wir": "laufen nach",
+        "ihr": "laufet nach",
+        "sie_Sie": "laufen nach"
+      },
+      "konjunktiv2": {
+        "ich": "liefe nach",
+        "du": "liefest nach",
+        "er_sie_es": "liefe nach",
+        "wir": "liefen nach",
+        "ihr": "liefet nach",
+        "sie_Sie": "liefen nach"
+      },
+      "imperativ": {
+        "du": "Lauf nach!",
+        "ihr": "Lauft nach!",
+        "Sie": "Laufen Sie nach!"
+      }
+    },
+    "partizip1": "nachlaufend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دویدن",
+          "en": "to run"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "hinterherlaufen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دنبال دویدن",
+          "en": "to run after"
+        },
+        "id_ref": "verb_hinterherlaufen"
+      },
+      {
+        "wort": "verfolgen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تعقیب کردن",
+          "en": "to pursue"
+        },
+        "id_ref": "verb_verfolgen"
+      },
+      {
+        "wort": "folgen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دنبال کردن",
+          "en": "to follow"
+        },
+        "id_ref": "verb_folgen"
+      },
+      {
+        "wort": "nach",
+        "wortart": "praeposition",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بعد از",
+          "en": "after"
+        },
+        "id_ref": "praeposition_nach"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

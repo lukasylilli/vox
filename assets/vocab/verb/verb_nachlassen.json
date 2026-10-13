@@ -1,0 +1,200 @@
+{
+  "schema": "3.0",
+  "id": "verb_nachlassen",
+  "wort": "nachlassen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(درد، باران یا نیرویی) کم شدن، فروکش کردن",
+      "(از قیمت) کم کردن، تخفیف دادن"
+    ],
+    "en": [
+      "to ease, to subside, to decline",
+      "to reduce (a price), to give a discount"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Wetter",
+    "Einkaufen"
+  ],
+  "ipa": "ˈnaːxˌlasn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Regen lässt nach.",
+      "uebersetzung": {
+        "fa": "باران کم می‌شود.",
+        "en": "The rain is easing off."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach der Spritze haben die Schmerzen schnell nachgelassen, und der Patient konnte schlafen.",
+      "uebersetzung": {
+        "fa": "بعد از آمپول، دردها سریع فروکش کرد و بیمار توانست بخوابد.",
+        "en": "After the injection the pain eased quickly and the patient was able to sleep."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abnehmen",
+      "uebersetzung": {
+        "fa": "کم شدن",
+        "en": "to decrease"
+      }
+    },
+    {
+      "wort": "abklingen",
+      "uebersetzung": {
+        "fa": "فروکش کردن",
+        "en": "to subside"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zunehmen",
+      "uebersetzung": {
+        "fa": "زیاد شدن",
+        "en": "to increase"
+      }
+    },
+    {
+      "wort": "steigen",
+      "uebersetzung": {
+        "fa": "بالا رفتن",
+        "en": "to rise"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "nach- (پس از، به دنبال؛ دوباره) + lassen (گذاشتن)",
+    "en": "nach- (after; again) + lassen (to let)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit + Dat nachlassen",
+        "bedeutung": "bei etwas weniger Einsatz zeigen",
+        "beispiel": "Er hat mit dem Training nachgelassen.",
+        "uebersetzung": {
+          "fa": "تمرینش را کم کرده است.",
+          "en": "He has slackened off with his training."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "nachlassen",
+      "praeteritum": "ließ nach",
+      "partizip2": "nachgelassen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lasse nach",
+        "du": "lässt nach",
+        "er_sie_es": "lässt nach",
+        "wir": "lassen nach",
+        "ihr": "lasst nach",
+        "sie_Sie": "lassen nach"
+      },
+      "praeteritum": {
+        "ich": "ließ nach",
+        "du": "ließest nach",
+        "er_sie_es": "ließ nach",
+        "wir": "ließen nach",
+        "ihr": "ließt nach",
+        "sie_Sie": "ließen nach"
+      },
+      "konjunktiv1": {
+        "ich": "lasse nach",
+        "du": "lassest nach",
+        "er_sie_es": "lasse nach",
+        "wir": "lassen nach",
+        "ihr": "lasset nach",
+        "sie_Sie": "lassen nach"
+      },
+      "konjunktiv2": {
+        "ich": "ließe nach",
+        "du": "ließest nach",
+        "er_sie_es": "ließe nach",
+        "wir": "ließen nach",
+        "ihr": "ließet nach",
+        "sie_Sie": "ließen nach"
+      },
+      "imperativ": {
+        "du": "Lass nach!",
+        "ihr": "Lasst nach!",
+        "Sie": "Lassen Sie nach!"
+      }
+    },
+    "partizip1": "nachlassend",
+    "nominalisierung": "der Nachlass"
+  },
+  "wortnetz": {
+    "grundwort": "lassen",
+    "woerter": [
+      {
+        "wort": "lassen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گذاشتن",
+          "en": "to let"
+        },
+        "id_ref": "verb_lassen"
+      },
+      {
+        "wort": "abnehmen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کم شدن",
+          "en": "to decrease"
+        },
+        "id_ref": "verb_abnehmen"
+      },
+      {
+        "wort": "der Schmerz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "درد",
+          "en": "pain"
+        },
+        "id_ref": "nomen_schmerz"
+      },
+      {
+        "wort": "der Nachlass",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تخفیف؛ ماترک",
+          "en": "discount; estate"
+        },
+        "id_ref": "nomen_nachlass"
+      },
+      {
+        "wort": "zunehmen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زیاد شدن",
+          "en": "to increase"
+        },
+        "id_ref": "verb_zunehmen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

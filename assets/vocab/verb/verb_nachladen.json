@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_nachladen",
+  "wort": "nachladen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(باتری یا اعتباری را) دوباره شارژ کردن",
+      "(سلاح یا داده‌ای را) دوباره پر یا بارگیری کردن"
+    ],
+    "en": [
+      "to recharge, to top up",
+      "to reload"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik"
+  ],
+  "ipa": "ˈnaːxˌlaːdn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich lade mein Guthaben nach.",
+      "uebersetzung": {
+        "fa": "اعتبار سیم‌کارتم را شارژ می‌کنم.",
+        "en": "I'm topping up my credit."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn die Seite nicht richtig angezeigt wird, sollten Sie sie einfach nachladen.",
+      "uebersetzung": {
+        "fa": "اگر صفحه درست نمایش داده نشد، بهتر است دوباره بارگذاری‌اش کنید.",
+        "en": "If the page isn't displayed properly, you should simply reload it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufladen",
+      "uebersetzung": {
+        "fa": "شارژ کردن",
+        "en": "to charge"
+      }
+    },
+    {
+      "wort": "neu laden",
+      "uebersetzung": {
+        "fa": "دوباره بارگذاری کردن",
+        "en": "to reload"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "nach- (پس از، به دنبال؛ دوباره) + laden (بار کردن)",
+    "en": "nach- (after; again) + laden (to load)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "nachladen",
+      "praeteritum": "lud nach",
+      "partizip2": "nachgeladen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lade nach",
+        "du": "lädst nach",
+        "er_sie_es": "lädt nach",
+        "wir": "laden nach",
+        "ihr": "ladet nach",
+        "sie_Sie": "laden nach"
+      },
+      "praeteritum": {
+        "ich": "lud nach",
+        "du": "ludest nach",
+        "er_sie_es": "lud nach",
+        "wir": "luden nach",
+        "ihr": "ludet nach",
+        "sie_Sie": "luden nach"
+      },
+      "konjunktiv1": {
+        "ich": "lade nach",
+        "du": "ladest nach",
+        "er_sie_es": "lade nach",
+        "wir": "laden nach",
+        "ihr": "ladet nach",
+        "sie_Sie": "laden nach"
+      },
+      "konjunktiv2": {
+        "ich": "lüde nach",
+        "du": "lüdest nach",
+        "er_sie_es": "lüde nach",
+        "wir": "lüden nach",
+        "ihr": "lüdet nach",
+        "sie_Sie": "lüden nach"
+      },
+      "imperativ": {
+        "du": "Lade nach!",
+        "ihr": "Ladet nach!",
+        "Sie": "Laden Sie nach!"
+      }
+    },
+    "partizip1": "nachladend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "laden",
+    "woerter": [
+      {
+        "wort": "laden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بار کردن، شارژ کردن",
+          "en": "to load, to charge"
+        },
+        "id_ref": "verb_laden"
+      },
+      {
+        "wort": "aufladen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شارژ کردن",
+          "en": "to charge"
+        },
+        "id_ref": "verb_aufladen"
+      },
+      {
+        "wort": "das Guthaben",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اعتبار",
+          "en": "credit"
+        },
+        "id_ref": "nomen_guthaben"
+      },
+      {
+        "wort": "der Akku",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "باتری",
+          "en": "battery"
+        },
+        "id_ref": "nomen_akku"
+      },
+      {
+        "wort": "nach",
+        "wortart": "praeposition",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بعد از",
+          "en": "after"
+        },
+        "id_ref": "praeposition_nach"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

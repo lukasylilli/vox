@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_nachhaengen",
+  "wort": "nachhängen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(در فکر یا خاطره‌ای) غرق بودن، (به گذشته) دل‌مشغول بودن",
+      "(در کار یا درس) عقب بودن"
+    ],
+    "en": [
+      "to dwell on, to be lost in (thoughts)",
+      "to lag behind"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle",
+    "Lernen"
+  ],
+  "ipa": "ˈnaːxˌhɛŋən",
+  "anmerkung": "Intransitiv: hing nach, nachgehangen; in Süddeutschland und Österreich auch mit «sein».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er hängt seinen Gedanken nach.",
+      "uebersetzung": {
+        "fa": "غرق افکارش است.",
+        "en": "He is lost in his thoughts."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie hängt immer noch der alten Beziehung nach, obwohl sie schon zwei Jahre vorbei ist.",
+      "uebersetzung": {
+        "fa": "هنوز دل‌مشغول آن رابطه‌ی قدیمی است، با اینکه دو سال از تمام شدنش گذشته.",
+        "en": "She is still dwelling on the old relationship, although it ended two years ago."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nachtrauern",
+      "uebersetzung": {
+        "fa": "حسرت خوردن",
+        "en": "to mourn"
+      }
+    },
+    {
+      "wort": "zurückliegen",
+      "uebersetzung": {
+        "fa": "عقب بودن",
+        "en": "to lag behind"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "nach- (پس از، به دنبال؛ دوباره) + hängen (آویزان بودن)",
+    "en": "nach- (after; again) + hängen (to hang)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "einer Sache nachhängen (+ Dat)",
+        "bedeutung": "sich gedanklich mit etwas beschäftigen",
+        "beispiel": "Er hängt seinen Erinnerungen nach.",
+        "uebersetzung": {
+          "fa": "غرق خاطراتش است.",
+          "en": "He is lost in his memories."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "nachhängen",
+      "praeteritum": "hing nach",
+      "partizip2": "nachgehangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "hänge nach",
+        "du": "hängst nach",
+        "er_sie_es": "hängt nach",
+        "wir": "hängen nach",
+        "ihr": "hängt nach",
+        "sie_Sie": "hängen nach"
+      },
+      "praeteritum": {
+        "ich": "hing nach",
+        "du": "hingst nach",
+        "er_sie_es": "hing nach",
+        "wir": "hingen nach",
+        "ihr": "hingt nach",
+        "sie_Sie": "hingen nach"
+      },
+      "konjunktiv1": {
+        "ich": "hänge nach",
+        "du": "hängest nach",
+        "er_sie_es": "hänge nach",
+        "wir": "hängen nach",
+        "ihr": "hänget nach",
+        "sie_Sie": "hängen nach"
+      },
+      "konjunktiv2": {
+        "ich": "hinge nach",
+        "du": "hingest nach",
+        "er_sie_es": "hinge nach",
+        "wir": "hingen nach",
+        "ihr": "hinget nach",
+        "sie_Sie": "hingen nach"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "nachhängend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "hängen",
+    "woerter": [
+      {
+        "wort": "hängen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آویزان بودن",
+          "en": "to hang"
+        },
+        "id_ref": "verb_haengen"
+      },
+      {
+        "wort": "nachtrauern",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "حسرت خوردن",
+          "en": "to mourn"
+        },
+        "id_ref": "verb_nachtrauern"
+      },
+      {
+        "wort": "der Gedanke",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فکر",
+          "en": "thought"
+        },
+        "id_ref": "nomen_gedanke"
+      },
+      {
+        "wort": "die Erinnerung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خاطره",
+          "en": "memory"
+        },
+        "id_ref": "nomen_erinnerung"
+      },
+      {
+        "wort": "nach",
+        "wortart": "praeposition",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بعد از",
+          "en": "after"
+        },
+        "id_ref": "praeposition_nach"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

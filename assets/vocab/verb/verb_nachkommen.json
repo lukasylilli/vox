@@ -1,0 +1,195 @@
+{
+  "schema": "3.0",
+  "id": "verb_nachkommen",
+  "wort": "nachkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بعداً آمدن، دنبال (کسی) آمدن",
+      "(einer Pflicht/Bitte nachkommen) (وظیفه یا درخواستی را) انجام دادن، به جا آوردن",
+      "(با کار) همپا بودن"
+    ],
+    "en": [
+      "to come later, to follow",
+      "to comply with, to fulfil (a duty, request)",
+      "to keep up (with work)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Behörde",
+    "Arbeit"
+  ],
+  "ipa": "ˈnaːxˌkɔmən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich komme später nach.",
+      "uebersetzung": {
+        "fa": "بعداً می‌آیم.",
+        "en": "I'll come later."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn Sie Ihrer Pflicht zur Zahlung nicht nachkommen, droht eine Mahnung.",
+      "uebersetzung": {
+        "fa": "اگر به تعهد پرداخت‌تان عمل نکنید، اخطاریه برایتان می‌آید.",
+        "en": "If you don't meet your obligation to pay, you will receive a reminder."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "folgen",
+      "uebersetzung": {
+        "fa": "دنبال کردن",
+        "en": "to follow"
+      }
+    },
+    {
+      "wort": "erfüllen",
+      "uebersetzung": {
+        "fa": "انجام دادن، برآوردن",
+        "en": "to fulfil"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "vorausgehen",
+      "uebersetzung": {
+        "fa": "جلوتر رفتن",
+        "en": "to go ahead"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "nach- (پس از، به دنبال؛ دوباره) + kommen (آمدن)",
+    "en": "nach- (after; again) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "einer Sache nachkommen (+ Dat)",
+        "bedeutung": "etwas erfüllen",
+        "beispiel": "Die Firma kam der Bitte sofort nach.",
+        "uebersetzung": {
+          "fa": "شرکت فوراً درخواست را انجام داد.",
+          "en": "The company complied with the request immediately."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "nachkommen",
+      "praeteritum": "kam nach",
+      "partizip2": "nachgekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme nach",
+        "du": "kommst nach",
+        "er_sie_es": "kommt nach",
+        "wir": "kommen nach",
+        "ihr": "kommt nach",
+        "sie_Sie": "kommen nach"
+      },
+      "praeteritum": {
+        "ich": "kam nach",
+        "du": "kamst nach",
+        "er_sie_es": "kam nach",
+        "wir": "kamen nach",
+        "ihr": "kamt nach",
+        "sie_Sie": "kamen nach"
+      },
+      "konjunktiv1": {
+        "ich": "komme nach",
+        "du": "kommest nach",
+        "er_sie_es": "komme nach",
+        "wir": "kommen nach",
+        "ihr": "kommet nach",
+        "sie_Sie": "kommen nach"
+      },
+      "konjunktiv2": {
+        "ich": "käme nach",
+        "du": "kämest nach",
+        "er_sie_es": "käme nach",
+        "wir": "kämen nach",
+        "ihr": "kämet nach",
+        "sie_Sie": "kämen nach"
+      },
+      "imperativ": {
+        "du": "Komm nach!",
+        "ihr": "Kommt nach!",
+        "Sie": "Kommen Sie nach!"
+      }
+    },
+    "partizip1": "nachkommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "erfüllen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "برآوردن",
+          "en": "to fulfil"
+        },
+        "id_ref": "verb_erfuellen"
+      },
+      {
+        "wort": "die Pflicht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وظیفه",
+          "en": "duty"
+        },
+        "id_ref": "nomen_pflicht"
+      },
+      {
+        "wort": "der Nachkomme",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نسل، فرزند",
+          "en": "descendant"
+        },
+        "id_ref": "nomen_nachkomme"
+      },
+      {
+        "wort": "nach",
+        "wortart": "praeposition",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بعد از",
+          "en": "after"
+        },
+        "id_ref": "praeposition_nach"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
