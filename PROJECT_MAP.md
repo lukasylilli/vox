@@ -1,5 +1,6 @@
 # PROJECT MAP — VOX
 # نقشه کامل پروژه برای ناوبری سریع در هر session
+# آپدیت 2026-10-11 (دیروقت ۱۰) دور ۵۷۸–۵۸۰: ۳۰ کارت ⇒ assets/vocab/verb (hinzuziehen … loskommen) ⇒ آرشیو ۶۷۷۸ · zurueckgestellt += ۲۱ (#۱۱۳۹–۱۱۵۹). کد اپ دست نخورد.
 # آپدیت 2026-10-11 (دیروقت ۹) دور ۵۷۵–۵۷۷: ۳۰ کارت ⇒ assets/vocab/verb (hingehen … hinzukommen) ⇒ آرشیو ۶۷۴۸ · zurueckgestellt += ۳۴ (#۱۱۰۵–۱۱۳۸). کد اپ دست نخورد.
 # آپدیت 2026-10-11 (دیروقت ۸) دور ۵۷۲–۵۷۴: ۳۰ کارت ⇒ assets/vocab/verb (hinausfliegen … hingeben) ⇒ آرشیو ۶۷۱۸ · zurueckgestellt += ۳۰ (#۱۰۷۵–۱۱۰۴). کد اپ دست نخورد.
 # آپدیت 2026-10-11 (دیروقت ۷) دور ۵۶۹–۵۷۱: ۳۰ کارت ⇒ assets/vocab/verb (herunterkommen … hinausfinden) ⇒ آرشیو ۶۶۸۸ · zurueckgestellt += ۱۷ (#۱۰۵۸–۱۰۷۴). کد اپ دست نخورد.
