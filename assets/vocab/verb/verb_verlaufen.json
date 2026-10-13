@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_verlaufen",
+  "wort": "verlaufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(کاری/رویدادی) پیش رفتن، برگزار شدن",
+      "(راه/مرز) امتداد داشتن",
+      "(خود را) گم کردن (پیاده)"
+    ],
+    "en": [
+      "to go, to proceed",
+      "to run (road, border)",
+      "(sich) to get lost (on foot)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Reisen"
+  ],
+  "ipa": "fɛɐ̯ˈlaʊ̯fn̩",
+  "anmerkung": "Untrennbar (verlief, verlaufen). Mit «sein»; «sich verlaufen» (= den Weg verlieren) mit «haben».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Prüfung ist gut verlaufen.",
+      "uebersetzung": {
+        "fa": "امتحان خوب پیش رفت.",
+        "en": "The exam went well."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wir haben uns im Wald verlaufen, weil das Handy keinen Empfang mehr hatte.",
+      "uebersetzung": {
+        "fa": "در جنگل گم شدیم، چون موبایل دیگر آنتن نداشت.",
+        "en": "We got lost in the forest because the mobile phone had no reception any more."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ablaufen",
+      "uebersetzung": {
+        "fa": "پیش رفتن، اتفاق افتادن",
+        "en": "to go, to proceed"
+      }
+    },
+    {
+      "wort": "sich verirren",
+      "uebersetzung": {
+        "fa": "گم شدن",
+        "en": "to get lost"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (پیشوند) + laufen (رفتن، دویدن)",
+    "en": "ver- (prefix) + laufen (to run, to go)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "verlaufen",
+      "praeteritum": "verlief",
+      "partizip2": "verlaufen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verlaufe",
+        "du": "verläufst",
+        "er_sie_es": "verläuft",
+        "wir": "verlaufen",
+        "ihr": "verlauft",
+        "sie_Sie": "verlaufen"
+      },
+      "praeteritum": {
+        "ich": "verlief",
+        "du": "verliefst",
+        "er_sie_es": "verlief",
+        "wir": "verliefen",
+        "ihr": "verlieft",
+        "sie_Sie": "verliefen"
+      },
+      "konjunktiv1": {
+        "ich": "verlaufe",
+        "du": "verlaufest",
+        "er_sie_es": "verlaufe",
+        "wir": "verlaufen",
+        "ihr": "verlaufet",
+        "sie_Sie": "verlaufen"
+      },
+      "konjunktiv2": {
+        "ich": "verliefe",
+        "du": "verliefest",
+        "er_sie_es": "verliefe",
+        "wir": "verliefen",
+        "ihr": "verliefet",
+        "sie_Sie": "verliefen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "verlaufend",
+    "nominalisierung": "der Verlauf"
+  },
+  "wortnetz": {
+    "grundwort": "laufen",
+    "woerter": [
+      {
+        "wort": "laufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دویدن، رفتن",
+          "en": "to run"
+        },
+        "id_ref": "verb_laufen"
+      },
+      {
+        "wort": "der Verlauf",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "روند",
+          "en": "course, progress"
+        },
+        "id_ref": "nomen_verlauf"
+      },
+      {
+        "wort": "sich verirren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گم شدن",
+          "en": "to get lost"
+        },
+        "id_ref": "verb_sich_verirren"
+      },
+      {
+        "wort": "verfahren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "(با ماشین) راه را گم کردن",
+          "en": "to get lost (driving)"
+        },
+        "id_ref": "verb_verfahren"
+      },
+      {
+        "wort": "der Weg",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "راه",
+          "en": "way"
+        },
+        "id_ref": "nomen_weg"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

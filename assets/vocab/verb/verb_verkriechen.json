@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_verkriechen",
+  "wort": "verkriechen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(در جایی) پنهان شدن، (به کنجی) خزیدن"
+    ],
+    "en": [
+      "to creep away, to hide"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle",
+    "Tiere"
+  ],
+  "ipa": "fɛɐ̯ˈkʁiːçn̩",
+  "anmerkung": "Untrennbar, reflexiv (verkroch sich, hat sich verkrochen).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Katze verkriecht sich unter dem Bett.",
+      "uebersetzung": {
+        "fa": "گربه زیر تخت قایم می‌شود.",
+        "en": "The cat hides under the bed."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Am liebsten hätte ich mich verkrochen, als alle merkten, dass ich mich geirrt hatte.",
+      "uebersetzung": {
+        "fa": "وقتی همه فهمیدند اشتباه کرده‌ام، دلم می‌خواست جایی قایم شوم.",
+        "en": "When everyone noticed that I had been wrong, I would have loved to crawl away and hide."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich verstecken",
+      "uebersetzung": {
+        "fa": "پنهان شدن",
+        "en": "to hide"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (دور شدن، پنهان) + kriechen (خزیدن)",
+    "en": "ver- (away, hidden) + kriechen (to crawl)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich in + Akk verkriechen",
+        "bedeutung": "sich an einen Ort zurückziehen",
+        "beispiel": "Bei Gewitter verkriecht sich der Hund in seine Hütte.",
+        "uebersetzung": {
+          "fa": "هنگام رعد و برق، سگ به لانه‌اش می‌خزد.",
+          "en": "During a thunderstorm the dog crawls into its kennel."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verkriechen",
+      "praeteritum": "verkroch",
+      "partizip2": "verkrochen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verkrieche",
+        "du": "verkriechst",
+        "er_sie_es": "verkriecht",
+        "wir": "verkriechen",
+        "ihr": "verkriecht",
+        "sie_Sie": "verkriechen"
+      },
+      "praeteritum": {
+        "ich": "verkroch",
+        "du": "verkrochst",
+        "er_sie_es": "verkroch",
+        "wir": "verkrochen",
+        "ihr": "verkrocht",
+        "sie_Sie": "verkrochen"
+      },
+      "konjunktiv1": {
+        "ich": "verkrieche",
+        "du": "verkriechest",
+        "er_sie_es": "verkrieche",
+        "wir": "verkriechen",
+        "ihr": "verkriechet",
+        "sie_Sie": "verkriechen"
+      },
+      "konjunktiv2": {
+        "ich": "verkröche",
+        "du": "verkröchest",
+        "er_sie_es": "verkröche",
+        "wir": "verkröchen",
+        "ihr": "verkröchet",
+        "sie_Sie": "verkröchen"
+      },
+      "imperativ": {
+        "du": "Verkriech!",
+        "ihr": "Verkriecht!",
+        "Sie": "Verkriechen Sie!"
+      }
+    },
+    "partizip1": "verkriechend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kriechen",
+    "woerter": [
+      {
+        "wort": "kriechen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خزیدن",
+          "en": "to crawl"
+        },
+        "id_ref": "verb_kriechen"
+      },
+      {
+        "wort": "sich verstecken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پنهان شدن",
+          "en": "to hide"
+        },
+        "id_ref": "verb_sich_verstecken"
+      },
+      {
+        "wort": "die Angst",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترس",
+          "en": "fear"
+        },
+        "id_ref": "nomen_angst"
+      },
+      {
+        "wort": "schüchtern",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خجالتی",
+          "en": "shy"
+        },
+        "id_ref": "adjektiv_schuechtern"
+      },
+      {
+        "wort": "das Versteck",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مخفیگاه",
+          "en": "hiding place"
+        },
+        "id_ref": "nomen_versteck"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

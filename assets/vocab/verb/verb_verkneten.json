@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_verkneten",
+  "wort": "verkneten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(مواد را) با ورز دادن مخلوط کردن"
+    ],
+    "en": [
+      "to knead together"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Küche"
+  ],
+  "ipa": "fɛɐ̯ˈkneːtn̩",
+  "anmerkung": "Regelmäßig (verknetete, verknetet), obwohl in der Liste der unregelmäßigen Verben. Fachwort beim Backen.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Verknete Mehl und Butter!",
+      "uebersetzung": {
+        "fa": "آرد و کره را ورز بده!",
+        "en": "Knead the flour and butter together!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Man verknetet alle Zutaten zu einem glatten Teig, bevor man ihn kühlt.",
+      "uebersetzung": {
+        "fa": "همه‌ی مواد را ورز می‌دهند تا خمیر صافی شود و بعد آن را خنک می‌کنند.",
+        "en": "You knead all the ingredients into a smooth dough before chilling it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kneten",
+      "uebersetzung": {
+        "fa": "ورز دادن",
+        "en": "to knead"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (در هم) + kneten (ورز دادن)",
+    "en": "ver- (together) + kneten (to knead)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas zu + Dat verkneten",
+        "bedeutung": "durch Kneten etwas herstellen",
+        "beispiel": "Alles zu einem Teig verkneten.",
+        "uebersetzung": {
+          "fa": "همه را ورز دهید تا خمیر شود.",
+          "en": "Knead everything into a dough."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verkneten",
+      "praeteritum": "verknetete",
+      "partizip2": "verknetet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verknete",
+        "du": "verknetest",
+        "er_sie_es": "verknetet",
+        "wir": "verkneten",
+        "ihr": "verknetet",
+        "sie_Sie": "verkneten"
+      },
+      "praeteritum": {
+        "ich": "verknetete",
+        "du": "verknetetest",
+        "er_sie_es": "verknetete",
+        "wir": "verkneteten",
+        "ihr": "verknetetet",
+        "sie_Sie": "verkneteten"
+      },
+      "konjunktiv1": {
+        "ich": "verknete",
+        "du": "verknetest",
+        "er_sie_es": "verknete",
+        "wir": "verkneten",
+        "ihr": "verknetet",
+        "sie_Sie": "verkneten"
+      },
+      "konjunktiv2": {
+        "ich": "verknetete",
+        "du": "verknetetest",
+        "er_sie_es": "verknetete",
+        "wir": "verkneteten",
+        "ihr": "verknetetet",
+        "sie_Sie": "verkneteten"
+      },
+      "imperativ": {
+        "du": "Verknete!",
+        "ihr": "Verknetet!",
+        "Sie": "Verkneten Sie!"
+      }
+    },
+    "partizip1": "verknetend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kneten",
+    "woerter": [
+      {
+        "wort": "kneten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ورز دادن",
+          "en": "to knead"
+        },
+        "id_ref": "verb_kneten"
+      },
+      {
+        "wort": "der Teig",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خمیر",
+          "en": "dough"
+        },
+        "id_ref": "nomen_teig"
+      },
+      {
+        "wort": "das Mehl",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آرد",
+          "en": "flour"
+        },
+        "id_ref": "nomen_mehl"
+      },
+      {
+        "wort": "backen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پختن (در فر)",
+          "en": "to bake"
+        },
+        "id_ref": "verb_backen"
+      },
+      {
+        "wort": "die Zutat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ماده‌ی اولیه",
+          "en": "ingredient"
+        },
+        "id_ref": "nomen_zutat"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

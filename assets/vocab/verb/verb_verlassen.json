@@ -1,0 +1,194 @@
+{
+  "schema": "3.0",
+  "id": "verb_verlassen",
+  "wort": "verlassen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ترک کردن، از (جایی) بیرون رفتن",
+      "(کسی را) ترک کردن، تنها گذاشتن",
+      "به (کسی/چیزی) اعتماد کردن"
+    ],
+    "en": [
+      "to leave",
+      "to abandon",
+      "(sich) to rely on"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Beziehungen"
+  ],
+  "ipa": "fɛɐ̯ˈlasn̩",
+  "anmerkung": "Untrennbar (verließ, verlassen). Reflexiv: «sich auf jemanden verlassen» (= vertrauen). Partizip «verlassen» auch Adjektiv (= leer, einsam).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich verlasse um acht Uhr das Haus.",
+      "uebersetzung": {
+        "fa": "ساعت هشت از خانه بیرون می‌روم.",
+        "en": "I leave the house at eight."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Du kannst dich darauf verlassen, dass ich dir helfe, wenn du Probleme hast.",
+      "uebersetzung": {
+        "fa": "می‌توانی مطمئن باشی که اگر مشکلی داشتی، کمکت می‌کنم.",
+        "en": "You can rely on me helping you if you have problems."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "weggehen",
+      "uebersetzung": {
+        "fa": "رفتن",
+        "en": "to go away"
+      }
+    },
+    {
+      "wort": "vertrauen",
+      "uebersetzung": {
+        "fa": "اعتماد کردن",
+        "en": "to trust"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "betreten",
+      "uebersetzung": {
+        "fa": "وارد شدن",
+        "en": "to enter"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (دور) + lassen (رها کردن)",
+    "en": "ver- (away) + lassen (to let, to leave)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich auf + Akk verlassen",
+        "bedeutung": "jemandem/etwas vertrauen",
+        "beispiel": "Auf meine Schwester kann ich mich immer verlassen.",
+        "uebersetzung": {
+          "fa": "همیشه می‌توانم به خواهرم تکیه کنم.",
+          "en": "I can always rely on my sister."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verlassen",
+      "praeteritum": "verließ",
+      "partizip2": "verlassen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verlasse",
+        "du": "verlässt",
+        "er_sie_es": "verlässt",
+        "wir": "verlassen",
+        "ihr": "verlasst",
+        "sie_Sie": "verlassen"
+      },
+      "praeteritum": {
+        "ich": "verließ",
+        "du": "verließest",
+        "er_sie_es": "verließ",
+        "wir": "verließen",
+        "ihr": "verließt",
+        "sie_Sie": "verließen"
+      },
+      "konjunktiv1": {
+        "ich": "verlasse",
+        "du": "verlassest",
+        "er_sie_es": "verlasse",
+        "wir": "verlassen",
+        "ihr": "verlasset",
+        "sie_Sie": "verlassen"
+      },
+      "konjunktiv2": {
+        "ich": "verließe",
+        "du": "verließest",
+        "er_sie_es": "verließe",
+        "wir": "verließen",
+        "ihr": "verließet",
+        "sie_Sie": "verließen"
+      },
+      "imperativ": {
+        "du": "Verlass!",
+        "ihr": "Verlasst!",
+        "Sie": "Verlassen Sie!"
+      }
+    },
+    "partizip1": "verlassend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "lassen",
+    "woerter": [
+      {
+        "wort": "lassen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گذاشتن، رها کردن",
+          "en": "to let"
+        },
+        "id_ref": "verb_lassen"
+      },
+      {
+        "wort": "verlassen",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "متروک، تنها",
+          "en": "deserted, abandoned"
+        },
+        "id_ref": "adjektiv_verlassen"
+      },
+      {
+        "wort": "vertrauen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اعتماد کردن",
+          "en": "to trust"
+        },
+        "id_ref": "verb_vertrauen"
+      },
+      {
+        "wort": "zuverlässig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قابل اعتماد",
+          "en": "reliable"
+        },
+        "id_ref": "adjektiv_zuverlaessig"
+      },
+      {
+        "wort": "weggehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go away"
+        },
+        "id_ref": "verb_weggehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

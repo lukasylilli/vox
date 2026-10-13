@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_verkneifen",
+  "wort": "verkneifen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(محاوره) جلوی (چیزی را) گرفتن، از (چیزی) خودداری کردن"
+    ],
+    "en": [
+      "(colloquial) to hold back, to refrain from"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gefühle",
+    "Verhalten"
+  ],
+  "ipa": "fɛɐ̯ˈknaɪ̯fn̩",
+  "anmerkung": "Untrennbar, reflexiv mit Dativ: «sich (Dat) etwas verkneifen» (verkniff sich, hat sich verkniffen). Umgangssprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich konnte mir das Lachen nicht verkneifen.",
+      "uebersetzung": {
+        "fa": "نتوانستم جلوی خنده‌ام را بگیرم.",
+        "en": "I couldn't hold back my laughter."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil ich abnehmen will, verkneife ich mir abends die Süßigkeiten.",
+      "uebersetzung": {
+        "fa": "چون می‌خواهم وزن کم کنم، شب‌ها از شیرینی خودداری می‌کنم.",
+        "en": "Because I want to lose weight, I deny myself sweets in the evening."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich verbeißen",
+      "uebersetzung": {
+        "fa": "فرو خوردن",
+        "en": "to stifle"
+      }
+    },
+    {
+      "wort": "verzichten",
+      "uebersetzung": {
+        "fa": "صرف نظر کردن",
+        "en": "to do without"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (پیشوند) + kneifen (نیشگون گرفتن)",
+    "en": "ver- (prefix) + kneifen (to pinch)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich (Dat) etwas verkneifen",
+        "bedeutung": "auf etwas verzichten; etwas nicht sagen/tun",
+        "beispiel": "Den Kommentar hättest du dir verkneifen können.",
+        "uebersetzung": {
+          "fa": "می‌توانستی این حرف را نزنی.",
+          "en": "You could have spared that comment."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verkneifen",
+      "praeteritum": "verkniff",
+      "partizip2": "verkniffen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verkneife",
+        "du": "verkneifst",
+        "er_sie_es": "verkneift",
+        "wir": "verkneifen",
+        "ihr": "verkneift",
+        "sie_Sie": "verkneifen"
+      },
+      "praeteritum": {
+        "ich": "verkniff",
+        "du": "verkniffst",
+        "er_sie_es": "verkniff",
+        "wir": "verkniffen",
+        "ihr": "verknifft",
+        "sie_Sie": "verkniffen"
+      },
+      "konjunktiv1": {
+        "ich": "verkneife",
+        "du": "verkneifest",
+        "er_sie_es": "verkneife",
+        "wir": "verkneifen",
+        "ihr": "verkneifet",
+        "sie_Sie": "verkneifen"
+      },
+      "konjunktiv2": {
+        "ich": "verkniffe",
+        "du": "verkniffest",
+        "er_sie_es": "verkniffe",
+        "wir": "verkniffen",
+        "ihr": "verkniffet",
+        "sie_Sie": "verkniffen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "verkneifend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kneifen",
+    "woerter": [
+      {
+        "wort": "verzichten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صرف نظر کردن",
+          "en": "to do without"
+        },
+        "id_ref": "verb_verzichten"
+      },
+      {
+        "wort": "verbeißen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "فرو خوردن",
+          "en": "to suppress"
+        },
+        "id_ref": "verb_verbeissen"
+      },
+      {
+        "wort": "unterdrücken",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سرکوب کردن",
+          "en": "to suppress"
+        },
+        "id_ref": "verb_unterdruecken"
+      },
+      {
+        "wort": "das Lachen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خنده",
+          "en": "laughter"
+        },
+        "id_ref": "nomen_lachen"
+      },
+      {
+        "wort": "kneifen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نیشگون گرفتن",
+          "en": "to pinch"
+        },
+        "id_ref": "verb_kneifen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

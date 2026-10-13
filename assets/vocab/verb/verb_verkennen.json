@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_verkennen",
+  "wort": "verkennen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(ارزش یا ماهیت کسی/چیزی را) درست نشناختن، دست کم گرفتن"
+    ],
+    "en": [
+      "to misjudge",
+      "to fail to recognize, to underrate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gesellschaft",
+    "Kunst"
+  ],
+  "ipa": "fɛɐ̯ˈkɛnən",
+  "anmerkung": "Gemischtes Verb (verkannte, verkannt). Oft: «ein verkanntes Genie»; «nicht zu verkennen sein» (= deutlich sein).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Viele verkennen die Gefahr.",
+      "uebersetzung": {
+        "fa": "خیلی‌ها خطر را دست کم می‌گیرند.",
+        "en": "Many people misjudge the danger."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Maler wurde zu Lebzeiten verkannt, obwohl seine Bilder heute Millionen kosten.",
+      "uebersetzung": {
+        "fa": "آن نقاش در زمان حیاتش قدر دیده نشد، با این که تابلوهایش امروز میلیون‌ها می‌ارزد.",
+        "en": "The painter was not appreciated during his lifetime, although his paintings cost millions today."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "unterschätzen",
+      "uebersetzung": {
+        "fa": "دست کم گرفتن",
+        "en": "to underestimate"
+      }
+    },
+    {
+      "wort": "falsch einschätzen",
+      "uebersetzung": {
+        "fa": "اشتباه ارزیابی کردن",
+        "en": "to misjudge"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "erkennen",
+      "uebersetzung": {
+        "fa": "تشخیص دادن",
+        "en": "to recognize"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (نادرست) + kennen (شناختن)",
+    "en": "ver- (wrongly) + kennen (to know)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "verkennen",
+      "praeteritum": "verkannte",
+      "partizip2": "verkannt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verkenne",
+        "du": "verkennst",
+        "er_sie_es": "verkennt",
+        "wir": "verkennen",
+        "ihr": "verkennt",
+        "sie_Sie": "verkennen"
+      },
+      "praeteritum": {
+        "ich": "verkannte",
+        "du": "verkanntest",
+        "er_sie_es": "verkannte",
+        "wir": "verkannten",
+        "ihr": "verkanntet",
+        "sie_Sie": "verkannten"
+      },
+      "konjunktiv1": {
+        "ich": "verkenne",
+        "du": "verkennest",
+        "er_sie_es": "verkenne",
+        "wir": "verkennen",
+        "ihr": "verkennet",
+        "sie_Sie": "verkennen"
+      },
+      "konjunktiv2": {
+        "ich": "verkennte",
+        "du": "verkenntest",
+        "er_sie_es": "verkennte",
+        "wir": "verkennten",
+        "ihr": "verkenntet",
+        "sie_Sie": "verkennten"
+      },
+      "imperativ": {
+        "du": "Verkenn!",
+        "ihr": "Verkennt!",
+        "Sie": "Verkennen Sie!"
+      }
+    },
+    "partizip1": "verkennend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kennen",
+    "woerter": [
+      {
+        "wort": "kennen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شناختن",
+          "en": "to know"
+        },
+        "id_ref": "verb_kennen"
+      },
+      {
+        "wort": "erkennen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تشخیص دادن",
+          "en": "to recognize"
+        },
+        "id_ref": "verb_erkennen"
+      },
+      {
+        "wort": "unterschätzen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دست کم گرفتن",
+          "en": "to underestimate"
+        },
+        "id_ref": "verb_unterschaetzen"
+      },
+      {
+        "wort": "das Genie",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نابغه",
+          "en": "genius"
+        },
+        "id_ref": "nomen_genie"
+      },
+      {
+        "wort": "der Irrtum",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اشتباه",
+          "en": "error"
+        },
+        "id_ref": "nomen_irrtum"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

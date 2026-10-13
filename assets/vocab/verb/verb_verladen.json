@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_verladen",
+  "wort": "verladen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(کالا را) بار زدن، بارگیری کردن",
+      "(محاوره) فریب دادن، سر (کسی) کلاه گذاشتن"
+    ],
+    "en": [
+      "to load, to ship (goods)",
+      "(colloquial) to con, to take for a ride"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Verkehr",
+    "Wirtschaft"
+  ],
+  "ipa": "fɛɐ̯ˈlaːdn̩",
+  "anmerkung": "Untrennbar (verlud, verladen). Ugs. «sich verladen fühlen» = sich betrogen fühlen.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kisten werden verladen.",
+      "uebersetzung": {
+        "fa": "جعبه‌ها بارگیری می‌شوند.",
+        "en": "The boxes are being loaded."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Hafen wird das Getreide auf Schiffe verladen, die es nach Afrika bringen.",
+      "uebersetzung": {
+        "fa": "در بندر، غلات روی کشتی‌هایی بار می‌شود که آن را به آفریقا می‌برند.",
+        "en": "At the port the grain is loaded onto ships that take it to Africa."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufladen",
+      "uebersetzung": {
+        "fa": "بار زدن",
+        "en": "to load up"
+      }
+    },
+    {
+      "wort": "einladen",
+      "uebersetzung": {
+        "fa": "بار کردن (داخل)",
+        "en": "to load in"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ausladen",
+      "uebersetzung": {
+        "fa": "تخلیه کردن",
+        "en": "to unload"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (پیشوند) + laden (بار زدن)",
+    "en": "ver- (prefix) + laden (to load)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas auf + Akk verladen",
+        "bedeutung": "etwas auf ein Fahrzeug laden",
+        "beispiel": "Die Autos werden auf einen Zug verladen.",
+        "uebersetzung": {
+          "fa": "ماشین‌ها روی قطار بار می‌شوند.",
+          "en": "The cars are loaded onto a train."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verladen",
+      "praeteritum": "verlud",
+      "partizip2": "verladen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verlade",
+        "du": "verlädst",
+        "er_sie_es": "verlädt",
+        "wir": "verladen",
+        "ihr": "verladet",
+        "sie_Sie": "verladen"
+      },
+      "praeteritum": {
+        "ich": "verlud",
+        "du": "verludst",
+        "er_sie_es": "verlud",
+        "wir": "verluden",
+        "ihr": "verludet",
+        "sie_Sie": "verluden"
+      },
+      "konjunktiv1": {
+        "ich": "verlade",
+        "du": "verladest",
+        "er_sie_es": "verlade",
+        "wir": "verladen",
+        "ihr": "verladet",
+        "sie_Sie": "verladen"
+      },
+      "konjunktiv2": {
+        "ich": "verlüde",
+        "du": "verlüdest",
+        "er_sie_es": "verlüde",
+        "wir": "verlüden",
+        "ihr": "verlüdet",
+        "sie_Sie": "verlüden"
+      },
+      "imperativ": {
+        "du": "Verlade!",
+        "ihr": "Verladet!",
+        "Sie": "Verladen Sie!"
+      }
+    },
+    "partizip1": "verladend",
+    "nominalisierung": "die Verladung"
+  },
+  "wortnetz": {
+    "grundwort": "laden",
+    "woerter": [
+      {
+        "wort": "laden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بار زدن",
+          "en": "to load"
+        },
+        "id_ref": "verb_laden"
+      },
+      {
+        "wort": "ausladen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تخلیه کردن",
+          "en": "to unload"
+        },
+        "id_ref": "verb_ausladen"
+      },
+      {
+        "wort": "die Ware",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کالا",
+          "en": "goods"
+        },
+        "id_ref": "nomen_ware"
+      },
+      {
+        "wort": "der Hafen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بندر",
+          "en": "port"
+        },
+        "id_ref": "nomen_hafen"
+      },
+      {
+        "wort": "umladen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "منتقل کردن (بار)",
+          "en": "to transfer (cargo)"
+        },
+        "id_ref": "verb_umladen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

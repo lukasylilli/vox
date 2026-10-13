@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_verklingen",
+  "wort": "verklingen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(صدا) کم‌کم خاموش شدن، محو شدن"
+    ],
+    "en": [
+      "to fade away (sound)",
+      "to die away"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Musik",
+    "Literatur"
+  ],
+  "ipa": "fɛɐ̯ˈklɪŋən",
+  "anmerkung": "Untrennbar (verklang, verklungen). Gehoben.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Musik verklingt langsam.",
+      "uebersetzung": {
+        "fa": "موسیقی آرام‌آرام محو می‌شود.",
+        "en": "The music slowly fades away."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als der letzte Ton verklungen war, begann das Publikum begeistert zu klatschen.",
+      "uebersetzung": {
+        "fa": "وقتی آخرین نُت خاموش شد، تماشاگران با شوق شروع به دست زدن کردند.",
+        "en": "When the last note had died away, the audience began to clap enthusiastically."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verhallen",
+      "uebersetzung": {
+        "fa": "(صدا) محو شدن",
+        "en": "to die away"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ertönen",
+      "uebersetzung": {
+        "fa": "طنین انداختن",
+        "en": "to sound"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (پایان) + klingen (صدا دادن)",
+    "en": "ver- (ending) + klingen (to sound)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "verklingen",
+      "praeteritum": "verklang",
+      "partizip2": "verklungen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verklinge",
+        "du": "verklingst",
+        "er_sie_es": "verklingt",
+        "wir": "verklingen",
+        "ihr": "verklingt",
+        "sie_Sie": "verklingen"
+      },
+      "praeteritum": {
+        "ich": "verklang",
+        "du": "verklangst",
+        "er_sie_es": "verklang",
+        "wir": "verklangen",
+        "ihr": "verklangt",
+        "sie_Sie": "verklangen"
+      },
+      "konjunktiv1": {
+        "ich": "verklinge",
+        "du": "verklingest",
+        "er_sie_es": "verklinge",
+        "wir": "verklingen",
+        "ihr": "verklinget",
+        "sie_Sie": "verklingen"
+      },
+      "konjunktiv2": {
+        "ich": "verklänge",
+        "du": "verklängest",
+        "er_sie_es": "verklänge",
+        "wir": "verklängen",
+        "ihr": "verklänget",
+        "sie_Sie": "verklängen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "verklingend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "klingen",
+    "woerter": [
+      {
+        "wort": "klingen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صدا دادن",
+          "en": "to sound"
+        },
+        "id_ref": "verb_klingen"
+      },
+      {
+        "wort": "der Klang",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "صدا، آوا",
+          "en": "sound"
+        },
+        "id_ref": "nomen_klang"
+      },
+      {
+        "wort": "leise",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آرام، کم‌صدا",
+          "en": "quiet"
+        },
+        "id_ref": "adjektiv_leise"
+      },
+      {
+        "wort": "der Ton",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صدا، نُت",
+          "en": "sound, note"
+        },
+        "id_ref": "nomen_ton"
+      },
+      {
+        "wort": "die Stille",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سکوت",
+          "en": "silence"
+        },
+        "id_ref": "nomen_stille"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

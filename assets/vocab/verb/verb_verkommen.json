@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_verkommen",
+  "wort": "verkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "رو به خرابی رفتن، فرسوده شدن",
+      "(اخلاقی) فاسد شدن، به انحطاط کشیده شدن",
+      "(غذا) خراب شدن"
+    ],
+    "en": [
+      "to go to ruin, to become run-down",
+      "to go to the bad",
+      "to go off (food)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gesellschaft",
+    "Wohnen"
+  ],
+  "ipa": "fɛɐ̯ˈkɔmən",
+  "anmerkung": "Untrennbar (verkam, verkommen). Partizip «verkommen» auch Adjektiv (= heruntergekommen).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das alte Haus verkommt.",
+      "uebersetzung": {
+        "fa": "خانه‌ی قدیمی دارد خراب می‌شود.",
+        "en": "The old house is falling into ruin."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil niemand den Park pflegte, ist er in wenigen Jahren völlig verkommen.",
+      "uebersetzung": {
+        "fa": "چون کسی به پارک رسیدگی نمی‌کرد، ظرف چند سال کاملاً از ریخت افتاد.",
+        "en": "Because nobody maintained the park, it became completely run-down within a few years."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verfallen",
+      "uebersetzung": {
+        "fa": "ویران شدن",
+        "en": "to decay"
+      }
+    },
+    {
+      "wort": "verwahrlosen",
+      "uebersetzung": {
+        "fa": "رها و نابسامان شدن",
+        "en": "to become neglected"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- (به بدی) + kommen (آمدن)",
+    "en": "ver- (badly) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zu + Dat verkommen",
+        "bedeutung": "zu etwas Schlechtem werden",
+        "beispiel": "Die Feier ist zu einer reinen Werbeveranstaltung verkommen.",
+        "uebersetzung": {
+          "fa": "آن جشن به یک برنامه‌ی تبلیغاتی محض تبدیل شده است.",
+          "en": "The celebration has degenerated into a pure advertising event."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verkommen",
+      "praeteritum": "verkam",
+      "partizip2": "verkommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verkomme",
+        "du": "verkommst",
+        "er_sie_es": "verkommt",
+        "wir": "verkommen",
+        "ihr": "verkommt",
+        "sie_Sie": "verkommen"
+      },
+      "praeteritum": {
+        "ich": "verkam",
+        "du": "verkamst",
+        "er_sie_es": "verkam",
+        "wir": "verkamen",
+        "ihr": "verkamt",
+        "sie_Sie": "verkamen"
+      },
+      "konjunktiv1": {
+        "ich": "verkomme",
+        "du": "verkommest",
+        "er_sie_es": "verkomme",
+        "wir": "verkommen",
+        "ihr": "verkommet",
+        "sie_Sie": "verkommen"
+      },
+      "konjunktiv2": {
+        "ich": "verkäme",
+        "du": "verkämest",
+        "er_sie_es": "verkäme",
+        "wir": "verkämen",
+        "ihr": "verkämet",
+        "sie_Sie": "verkämen"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "verkommend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "verfallen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ویران شدن",
+          "en": "to decay"
+        },
+        "id_ref": "verb_verfallen"
+      },
+      {
+        "wort": "heruntergekommen",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "فرسوده، مخروبه",
+          "en": "run-down"
+        },
+        "id_ref": "adjektiv_heruntergekommen"
+      },
+      {
+        "wort": "kaputt",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خراب",
+          "en": "broken"
+        },
+        "id_ref": "adjektiv_kaputt"
+      },
+      {
+        "wort": "pflegen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مراقبت کردن",
+          "en": "to look after"
+        },
+        "id_ref": "verb_pflegen"
+      },
+      {
+        "wort": "der Verfall",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "زوال",
+          "en": "decay"
+        },
+        "id_ref": "nomen_verfall"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
