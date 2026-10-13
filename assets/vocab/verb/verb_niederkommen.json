@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_niederkommen",
+  "wort": "niederkommen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(ادبی) زایمان کردن، فارغ شدن"
+    ],
+    "en": [
+      "(literary) to give birth"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Sprache (gehoben)"
+  ],
+  "ipa": "ˈniːdɐˌkɔmən",
+  "anmerkung": "Gehoben, veraltend.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie kam mit einem Sohn nieder.",
+      "uebersetzung": {
+        "fa": "پسری به دنیا آورد.",
+        "en": "She gave birth to a son."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Roman kommt die junge Frau mitten im Winter in einer einsamen Berghütte nieder.",
+      "uebersetzung": {
+        "fa": "در این رمان، زن جوان وسط زمستان در یک کلبه‌ی کوهستانی دورافتاده زایمان می‌کند.",
+        "en": "In the novel the young woman gives birth in the middle of winter in a lonely mountain hut."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gebären",
+      "uebersetzung": {
+        "fa": "زاییدن",
+        "en": "to give birth"
+      }
+    },
+    {
+      "wort": "entbinden",
+      "uebersetzung": {
+        "fa": "زایمان کردن",
+        "en": "to deliver"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "nieder- (پایین) + kommen (آمدن)",
+    "en": "nieder- (down) + kommen (to come)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit + Dat niederkommen",
+        "bedeutung": "ein Kind gebären",
+        "beispiel": "Sie ist mit Zwillingen niedergekommen.",
+        "uebersetzung": {
+          "fa": "دوقلو به دنیا آورد.",
+          "en": "She gave birth to twins."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "niederkommen",
+      "praeteritum": "kam nieder",
+      "partizip2": "niedergekommen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "komme nieder",
+        "du": "kommst nieder",
+        "er_sie_es": "kommt nieder",
+        "wir": "kommen nieder",
+        "ihr": "kommt nieder",
+        "sie_Sie": "kommen nieder"
+      },
+      "praeteritum": {
+        "ich": "kam nieder",
+        "du": "kamst nieder",
+        "er_sie_es": "kam nieder",
+        "wir": "kamen nieder",
+        "ihr": "kamt nieder",
+        "sie_Sie": "kamen nieder"
+      },
+      "konjunktiv1": {
+        "ich": "komme nieder",
+        "du": "kommest nieder",
+        "er_sie_es": "komme nieder",
+        "wir": "kommen nieder",
+        "ihr": "kommet nieder",
+        "sie_Sie": "kommen nieder"
+      },
+      "konjunktiv2": {
+        "ich": "käme nieder",
+        "du": "kämest nieder",
+        "er_sie_es": "käme nieder",
+        "wir": "kämen nieder",
+        "ihr": "kämet nieder",
+        "sie_Sie": "kämen nieder"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "niederkommend",
+    "nominalisierung": "die Niederkunft"
+  },
+  "wortnetz": {
+    "grundwort": "kommen",
+    "woerter": [
+      {
+        "wort": "gebären",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "زاییدن",
+          "en": "to give birth"
+        },
+        "id_ref": "verb_gebaeren"
+      },
+      {
+        "wort": "entbinden",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "زایمان کردن",
+          "en": "to deliver"
+        },
+        "id_ref": "verb_entbinden"
+      },
+      {
+        "wort": "die Geburt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تولد",
+          "en": "birth"
+        },
+        "id_ref": "nomen_geburt"
+      },
+      {
+        "wort": "die Hebamme",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ماما",
+          "en": "midwife"
+        },
+        "id_ref": "nomen_hebamme"
+      },
+      {
+        "wort": "nieder",
+        "wortart": "adverb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پایین",
+          "en": "down"
+        },
+        "id_ref": "adverb_nieder"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_offenhalten",
+  "wort": "offenhalten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(در یا مغازه‌ای را) باز نگه داشتن",
+      "(امکانی یا گزینه‌ای را) باز گذاشتن، حفظ کردن"
+    ],
+    "en": [
+      "to keep open",
+      "to keep (an option) open"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Entscheidung"
+  ],
+  "ipa": "ˈɔfn̩ˌhaltn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Halt mir bitte die Tür offen!",
+      "uebersetzung": {
+        "fa": "لطفاً در را برایم باز نگه دار!",
+        "en": "Please hold the door open for me!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ich möchte mir die Möglichkeit offenhalten, später noch ein Studium anzufangen.",
+      "uebersetzung": {
+        "fa": "می‌خواهم این امکان را برای خودم باز نگه دارم که بعداً تحصیل را شروع کنم.",
+        "en": "I want to keep open the option of starting a degree later."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bewahren",
+      "uebersetzung": {
+        "fa": "حفظ کردن",
+        "en": "to preserve"
+      }
+    },
+    {
+      "wort": "freihalten",
+      "uebersetzung": {
+        "fa": "آزاد نگه داشتن",
+        "en": "to keep free"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "schließen",
+      "uebersetzung": {
+        "fa": "بستن",
+        "en": "to close"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "offen (باز) + halten (نگه داشتن)",
+    "en": "offen (open) + halten (to hold)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "sich (Dat) etwas offenhalten",
+        "bedeutung": "sich eine Möglichkeit nicht verbauen",
+        "beispiel": "Er hält sich alle Wege offen.",
+        "uebersetzung": {
+          "fa": "همه‌ی راه‌ها را برای خودش باز نگه می‌دارد.",
+          "en": "He is keeping all his options open."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "offenhalten",
+      "praeteritum": "hielt offen",
+      "partizip2": "offengehalten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "halte offen",
+        "du": "hältst offen",
+        "er_sie_es": "hält offen",
+        "wir": "halten offen",
+        "ihr": "haltet offen",
+        "sie_Sie": "halten offen"
+      },
+      "praeteritum": {
+        "ich": "hielt offen",
+        "du": "hieltest offen",
+        "er_sie_es": "hielt offen",
+        "wir": "hielten offen",
+        "ihr": "hieltet offen",
+        "sie_Sie": "hielten offen"
+      },
+      "konjunktiv1": {
+        "ich": "halte offen",
+        "du": "haltest offen",
+        "er_sie_es": "halte offen",
+        "wir": "halten offen",
+        "ihr": "haltet offen",
+        "sie_Sie": "halten offen"
+      },
+      "konjunktiv2": {
+        "ich": "hielte offen",
+        "du": "hieltest offen",
+        "er_sie_es": "hielte offen",
+        "wir": "hielten offen",
+        "ihr": "hieltet offen",
+        "sie_Sie": "hielten offen"
+      },
+      "imperativ": {
+        "du": "Halt offen!",
+        "ihr": "Haltet offen!",
+        "Sie": "Halten Sie offen!"
+      }
+    },
+    "partizip1": "offenhaltend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "halten",
+    "woerter": [
+      {
+        "wort": "halten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to hold"
+        },
+        "id_ref": "verb_halten"
+      },
+      {
+        "wort": "offen",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باز",
+          "en": "open"
+        },
+        "id_ref": "adjektiv_offen"
+      },
+      {
+        "wort": "die Möglichkeit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "امکان",
+          "en": "possibility"
+        },
+        "id_ref": "nomen_moeglichkeit"
+      },
+      {
+        "wort": "offenlassen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "باز گذاشتن",
+          "en": "to leave open"
+        },
+        "id_ref": "verb_offenlassen"
+      },
+      {
+        "wort": "schließen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بستن",
+          "en": "to close"
+        },
+        "id_ref": "verb_schliessen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

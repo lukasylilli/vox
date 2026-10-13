@@ -1,0 +1,193 @@
+{
+  "schema": "3.0",
+  "id": "verb_niederlassen",
+  "wort": "niederlassen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(sich niederlassen) (در جایی) سکونت گزیدن، مستقر شدن",
+      "(پزشک یا وکیل) مطب یا دفتر دایر کردن؛ (ادبی) نشستن"
+    ],
+    "en": [
+      "(sich) to settle (somewhere)",
+      "(sich) to set up in practice; (literary) to sit down"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Wohnen",
+    "Beruf",
+    "Migration"
+  ],
+  "ipa": "ˈniːdɐˌlasn̩",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie lassen sich in Graz nieder.",
+      "uebersetzung": {
+        "fa": "در گراتس ساکن می‌شوند.",
+        "en": "They are settling in Graz."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach der Facharztausbildung hat sie sich als Hausärztin in einem kleinen Dorf niedergelassen.",
+      "uebersetzung": {
+        "fa": "بعد از دوره‌ی تخصص، به‌عنوان پزشک عمومی در یک روستای کوچک مطب باز کرد.",
+        "en": "After her specialist training she set up as a GP in a small village."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich ansiedeln",
+      "uebersetzung": {
+        "fa": "ساکن شدن",
+        "en": "to settle"
+      }
+    },
+    {
+      "wort": "sich setzen",
+      "uebersetzung": {
+        "fa": "نشستن",
+        "en": "to sit down"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "wegziehen",
+      "uebersetzung": {
+        "fa": "کوچ کردن",
+        "en": "to move away"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "nieder- (پایین) + lassen (گذاشتن)",
+    "en": "nieder- (down) + lassen (to let)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich in + Dat niederlassen",
+        "bedeutung": "sich irgendwo dauerhaft ansiedeln",
+        "beispiel": "Viele Einwanderer haben sich in Wien niedergelassen.",
+        "uebersetzung": {
+          "fa": "بسیاری از مهاجران در وین ساکن شدند.",
+          "en": "Many immigrants settled in Vienna."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "niederlassen",
+      "praeteritum": "ließ nieder",
+      "partizip2": "niedergelassen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lasse nieder",
+        "du": "lässt nieder",
+        "er_sie_es": "lässt nieder",
+        "wir": "lassen nieder",
+        "ihr": "lasst nieder",
+        "sie_Sie": "lassen nieder"
+      },
+      "praeteritum": {
+        "ich": "ließ nieder",
+        "du": "ließest nieder",
+        "er_sie_es": "ließ nieder",
+        "wir": "ließen nieder",
+        "ihr": "ließt nieder",
+        "sie_Sie": "ließen nieder"
+      },
+      "konjunktiv1": {
+        "ich": "lasse nieder",
+        "du": "lassest nieder",
+        "er_sie_es": "lasse nieder",
+        "wir": "lassen nieder",
+        "ihr": "lasset nieder",
+        "sie_Sie": "lassen nieder"
+      },
+      "konjunktiv2": {
+        "ich": "ließe nieder",
+        "du": "ließest nieder",
+        "er_sie_es": "ließe nieder",
+        "wir": "ließen nieder",
+        "ihr": "ließet nieder",
+        "sie_Sie": "ließen nieder"
+      },
+      "imperativ": {
+        "du": "Lass nieder!",
+        "ihr": "Lasst nieder!",
+        "Sie": "Lassen Sie nieder!"
+      }
+    },
+    "partizip1": "niederlassend",
+    "nominalisierung": "die Niederlassung"
+  },
+  "wortnetz": {
+    "grundwort": "lassen",
+    "woerter": [
+      {
+        "wort": "lassen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گذاشتن",
+          "en": "to let"
+        },
+        "id_ref": "verb_lassen"
+      },
+      {
+        "wort": "die Niederlassung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شعبه؛ سکونت",
+          "en": "branch; settlement"
+        },
+        "id_ref": "nomen_niederlassung"
+      },
+      {
+        "wort": "sich ansiedeln",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ساکن شدن",
+          "en": "to settle"
+        },
+        "id_ref": "verb_sich_ansiedeln"
+      },
+      {
+        "wort": "wohnen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زندگی کردن",
+          "en": "to live"
+        },
+        "id_ref": "verb_wohnen"
+      },
+      {
+        "wort": "die Praxis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مطب",
+          "en": "practice"
+        },
+        "id_ref": "nomen_praxis"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

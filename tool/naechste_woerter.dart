@@ -1234,6 +1234,10 @@ const zurueckgestellt = <String>{
   'niederbringen', // zurückgestellt (Regel 14/16): selten 2026-10-11
   'niederdreschen', // zurückgestellt (Regel 14/16): umgangssprachlich, selten 2026-10-11
   'niederfahren', // zurückgestellt (Regel 14/16): gehoben, selten 2026-10-11
+  'niederhauen', // zurückgestellt (Regel 14/16): umgangssprachlich; Präteritum schwankt (haute/hieb) 2026-10-11
+  'obliegen', // zurückgestellt (Regel 14/16): trennbar (liegt ob) und untrennbar (obliegt) — Symbol nicht eindeutig 2026-10-11
+  'offenliegen', // zurückgestellt (Regel 14/16): selten 2026-10-11
+  'paarlaufen', // zurückgestellt (Regel 14/16): seltener Sportbegriff; getrennte Formen unsicher 2026-10-11
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

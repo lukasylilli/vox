@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_niedergehen",
+  "wort": "niedergehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(باران یا تگرگ) باریدن، فرو ریختن",
+      "(هواپیما) فرود آمدن؛ (پرده یا بوکسوری) پایین آمدن/افتادن"
+    ],
+    "en": [
+      "(rain, hail) to come down",
+      "(plane) to come down; (curtain, boxer) to go down"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wetter",
+    "Verkehr"
+  ],
+  "ipa": "ˈniːdɐˌɡeːən",
+  "anmerkung": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ein Gewitter geht nieder.",
+      "uebersetzung": {
+        "fa": "طوفانی درمی‌گیرد (باران شدید می‌بارد).",
+        "en": "A thunderstorm comes down."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Am Nachmittag ging über dem Dorf ein heftiger Hagelschauer nieder und zerstörte die Ernte.",
+      "uebersetzung": {
+        "fa": "بعدازظهر تگرگ شدیدی بر روستا بارید و محصول را نابود کرد.",
+        "en": "In the afternoon a violent hailstorm came down over the village and destroyed the harvest."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "herabfallen",
+      "uebersetzung": {
+        "fa": "فرو ریختن",
+        "en": "to fall down"
+      }
+    },
+    {
+      "wort": "landen",
+      "uebersetzung": {
+        "fa": "فرود آمدن",
+        "en": "to land"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "nieder- (پایین) + gehen (رفتن)",
+    "en": "nieder- (down) + gehen (to go)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "niedergehen",
+      "praeteritum": "ging nieder",
+      "partizip2": "niedergegangen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehe nieder",
+        "du": "gehst nieder",
+        "er_sie_es": "geht nieder",
+        "wir": "gehen nieder",
+        "ihr": "geht nieder",
+        "sie_Sie": "gehen nieder"
+      },
+      "praeteritum": {
+        "ich": "ging nieder",
+        "du": "gingst nieder",
+        "er_sie_es": "ging nieder",
+        "wir": "gingen nieder",
+        "ihr": "gingt nieder",
+        "sie_Sie": "gingen nieder"
+      },
+      "konjunktiv1": {
+        "ich": "gehe nieder",
+        "du": "gehest nieder",
+        "er_sie_es": "gehe nieder",
+        "wir": "gehen nieder",
+        "ihr": "gehet nieder",
+        "sie_Sie": "gehen nieder"
+      },
+      "konjunktiv2": {
+        "ich": "ginge nieder",
+        "du": "gingest nieder",
+        "er_sie_es": "ginge nieder",
+        "wir": "gingen nieder",
+        "ihr": "ginget nieder",
+        "sie_Sie": "gingen nieder"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "niedergehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gehen",
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "der Regen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باران",
+          "en": "rain"
+        },
+        "id_ref": "nomen_regen"
+      },
+      {
+        "wort": "der Hagel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تگرگ",
+          "en": "hail"
+        },
+        "id_ref": "nomen_hagel"
+      },
+      {
+        "wort": "das Gewitter",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "طوفان و رعد",
+          "en": "thunderstorm"
+        },
+        "id_ref": "nomen_gewitter"
+      },
+      {
+        "wort": "nieder",
+        "wortart": "adverb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پایین",
+          "en": "down"
+        },
+        "id_ref": "adverb_nieder"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
