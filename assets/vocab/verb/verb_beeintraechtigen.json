@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_beeintraechtigen",
+  "wort": "beeinträchtigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آسیب زدن، مختل کردن، تأثیر منفی گذاشتن"
+    ],
+    "en": [
+      "to impair",
+      "to affect adversely"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gesundheit",
+    "Recht"
+  ],
+  "ipa": "bəˈʔaɪ̯ntʁɛçtɪɡn̩",
+  "anmerkung": "Untrennbar, regelmäßig (beeinträchtigte, beeinträchtigt).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Lärm beeinträchtigt den Schlaf.",
+      "uebersetzung": {
+        "fa": "سروصدا به خواب آسیب می‌زند.",
+        "en": "Noise impairs sleep."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Medikament kann die Fahrtüchtigkeit beeinträchtigen, deshalb sollte man danach nicht Auto fahren.",
+      "uebersetzung": {
+        "fa": "این دارو ممکن است توانایی رانندگی را کم کند، پس بعد از مصرف نباید رانندگی کرد.",
+        "en": "The medication can impair your ability to drive, so you shouldn't drive afterwards."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "stören",
+      "uebersetzung": {
+        "fa": "مختل کردن",
+        "en": "to disturb"
+      }
+    },
+    {
+      "wort": "schaden",
+      "uebersetzung": {
+        "fa": "آسیب زدن",
+        "en": "to harm"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "fördern",
+      "uebersetzung": {
+        "fa": "تقویت کردن",
+        "en": "to promote"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Eintrag (لطمه، در معنای کهن) + -tigen",
+    "en": "be- + Eintrag (old: damage) + -tigen"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "beeinträchtigen",
+      "praeteritum": "beeinträchtigte",
+      "partizip2": "beeinträchtigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beeinträchtige",
+        "du": "beeinträchtigst",
+        "er_sie_es": "beeinträchtigt",
+        "wir": "beeinträchtigen",
+        "ihr": "beeinträchtigt",
+        "sie_Sie": "beeinträchtigen"
+      },
+      "praeteritum": {
+        "ich": "beeinträchtigte",
+        "du": "beeinträchtigtest",
+        "er_sie_es": "beeinträchtigte",
+        "wir": "beeinträchtigten",
+        "ihr": "beeinträchtigtet",
+        "sie_Sie": "beeinträchtigten"
+      },
+      "konjunktiv1": {
+        "ich": "beeinträchtige",
+        "du": "beeinträchtigest",
+        "er_sie_es": "beeinträchtige",
+        "wir": "beeinträchtigen",
+        "ihr": "beeinträchtiget",
+        "sie_Sie": "beeinträchtigen"
+      },
+      "konjunktiv2": {
+        "ich": "beeinträchtigte",
+        "du": "beeinträchtigtest",
+        "er_sie_es": "beeinträchtigte",
+        "wir": "beeinträchtigten",
+        "ihr": "beeinträchtigtet",
+        "sie_Sie": "beeinträchtigten"
+      },
+      "imperativ": {
+        "du": "Beeinträchtige!",
+        "ihr": "Beeinträchtigt!",
+        "Sie": "Beeinträchtigen Sie!"
+      }
+    },
+    "partizip1": "beeinträchtigend",
+    "nominalisierung": "die Beeinträchtigung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "stören",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مزاحم شدن؛ مختل کردن",
+          "en": "to disturb"
+        },
+        "id_ref": "verb_stoeren"
+      },
+      {
+        "wort": "schaden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آسیب زدن",
+          "en": "to harm"
+        },
+        "id_ref": "verb_schaden"
+      },
+      {
+        "wort": "die Beeinträchtigung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آسیب، اختلال",
+          "en": "impairment"
+        },
+        "id_ref": "nomen_beeintraechtigung"
+      },
+      {
+        "wort": "die Nebenwirkung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عارضه‌ی جانبی",
+          "en": "side effect"
+        },
+        "id_ref": "nomen_nebenwirkung"
+      },
+      {
+        "wort": "die Gesundheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سلامت",
+          "en": "health"
+        },
+        "id_ref": "nomen_gesundheit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

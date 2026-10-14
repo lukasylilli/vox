@@ -1,0 +1,157 @@
+{
+  "schema": "3.0",
+  "id": "verb_beatmen",
+  "wort": "beatmen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تنفس مصنوعی دادن، به دستگاه تنفس وصل کردن"
+    ],
+    "en": [
+      "to ventilate",
+      "to give artificial respiration"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin"
+  ],
+  "ipa": "bəˈʔaːtmən",
+  "anmerkung": "Untrennbar, regelmäßig (beatmete, beatmet). Fachsprache Medizin/Pflege.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Patient wird beatmet.",
+      "uebersetzung": {
+        "fa": "بیمار با دستگاه تنفس می‌کند.",
+        "en": "The patient is being ventilated."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Auf der Intensivstation mussten mehrere Patienten künstlich beatmet werden, weil ihre Lunge versagte.",
+      "uebersetzung": {
+        "fa": "در بخش مراقبت‌های ویژه چند بیمار باید به دستگاه تنفس وصل می‌شدند، چون ریه‌شان از کار افتاده بود.",
+        "en": "In the intensive care unit several patients had to be artificially ventilated because their lungs were failing."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + atmen (نفس کشیدن)",
+    "en": "be- + atmen (to breathe)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "beatmen",
+      "praeteritum": "beatmete",
+      "partizip2": "beatmet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beatme",
+        "du": "beatmest",
+        "er_sie_es": "beatmet",
+        "wir": "beatmen",
+        "ihr": "beatmet",
+        "sie_Sie": "beatmen"
+      },
+      "praeteritum": {
+        "ich": "beatmete",
+        "du": "beatmetest",
+        "er_sie_es": "beatmete",
+        "wir": "beatmeten",
+        "ihr": "beatmetet",
+        "sie_Sie": "beatmeten"
+      },
+      "konjunktiv1": {
+        "ich": "beatme",
+        "du": "beatmest",
+        "er_sie_es": "beatme",
+        "wir": "beatmen",
+        "ihr": "beatmet",
+        "sie_Sie": "beatmen"
+      },
+      "konjunktiv2": {
+        "ich": "beatmete",
+        "du": "beatmetest",
+        "er_sie_es": "beatmete",
+        "wir": "beatmeten",
+        "ihr": "beatmetet",
+        "sie_Sie": "beatmeten"
+      },
+      "imperativ": {
+        "du": "Beatme!",
+        "ihr": "Beatmet!",
+        "Sie": "Beatmen Sie!"
+      }
+    },
+    "partizip1": "beatmend",
+    "nominalisierung": "die Beatmung"
+  },
+  "wortnetz": {
+    "grundwort": "atmen",
+    "woerter": [
+      {
+        "wort": "atmen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نفس کشیدن",
+          "en": "to breathe"
+        },
+        "id_ref": "verb_atmen"
+      },
+      {
+        "wort": "die Lunge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ریه",
+          "en": "lung"
+        },
+        "id_ref": "nomen_lunge"
+      },
+      {
+        "wort": "die Intensivstation",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بخش مراقبت‌های ویژه",
+          "en": "intensive care unit"
+        },
+        "id_ref": "nomen_intensivstation"
+      },
+      {
+        "wort": "die Beatmung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تهویه‌ی مصنوعی",
+          "en": "ventilation"
+        },
+        "id_ref": "nomen_beatmung"
+      },
+      {
+        "wort": "der Notfall",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "وضعیت اضطراری",
+          "en": "emergency"
+        },
+        "id_ref": "nomen_notfall"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

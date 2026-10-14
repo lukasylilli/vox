@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_beauftragen",
+  "wort": "beauftragen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مأمور کردن، سفارش دادن"
+    ],
+    "en": [
+      "to commission",
+      "to instruct",
+      "to hire"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit",
+    "Wirtschaft"
+  ],
+  "ipa": "bəˈʔaʊ̯fˌtʁaːɡn̩",
+  "anmerkung": "Untrennbar, regelmäßig (beauftragte, beauftragt).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir beauftragen einen Maler.",
+      "uebersetzung": {
+        "fa": "یک نقاش ساختمان را به کار می‌گیریم.",
+        "en": "We are hiring a painter."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Firma hat einen Anwalt beauftragt, den Vertrag noch einmal genau zu prüfen.",
+      "uebersetzung": {
+        "fa": "شرکت وکیلی را مأمور کرد که قرارداد را یک بار دیگر دقیق بررسی کند.",
+        "en": "The company has instructed a lawyer to check the contract carefully once more."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anweisen",
+      "uebersetzung": {
+        "fa": "دستور دادن",
+        "en": "to instruct"
+      }
+    },
+    {
+      "wort": "engagieren",
+      "uebersetzung": {
+        "fa": "استخدام کردن",
+        "en": "to engage"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Auftrag (سفارش، مأموریت)",
+    "en": "be- + Auftrag (order, task)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden mit + Dat beauftragen",
+        "bedeutung": "jemandem eine Aufgabe geben",
+        "beispiel": "Man beauftragte sie mit der Planung.",
+        "uebersetzung": {
+          "fa": "برنامه‌ریزی را به او سپردند.",
+          "en": "She was given the task of planning."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beauftragen",
+      "praeteritum": "beauftragte",
+      "partizip2": "beauftragt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beauftrage",
+        "du": "beauftragst",
+        "er_sie_es": "beauftragt",
+        "wir": "beauftragen",
+        "ihr": "beauftragt",
+        "sie_Sie": "beauftragen"
+      },
+      "praeteritum": {
+        "ich": "beauftragte",
+        "du": "beauftragtest",
+        "er_sie_es": "beauftragte",
+        "wir": "beauftragten",
+        "ihr": "beauftragtet",
+        "sie_Sie": "beauftragten"
+      },
+      "konjunktiv1": {
+        "ich": "beauftrage",
+        "du": "beauftragest",
+        "er_sie_es": "beauftrage",
+        "wir": "beauftragen",
+        "ihr": "beauftraget",
+        "sie_Sie": "beauftragen"
+      },
+      "konjunktiv2": {
+        "ich": "beauftragte",
+        "du": "beauftragtest",
+        "er_sie_es": "beauftragte",
+        "wir": "beauftragten",
+        "ihr": "beauftragtet",
+        "sie_Sie": "beauftragten"
+      },
+      "imperativ": {
+        "du": "Beauftrage!",
+        "ihr": "Beauftragt!",
+        "Sie": "Beauftragen Sie!"
+      }
+    },
+    "partizip1": "beauftragend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "der Auftrag",
+    "woerter": [
+      {
+        "wort": "der Auftrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سفارش، مأموریت",
+          "en": "order, task"
+        },
+        "id_ref": "nomen_auftrag"
+      },
+      {
+        "wort": "die Aufgabe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "وظیفه",
+          "en": "task"
+        },
+        "id_ref": "nomen_aufgabe"
+      },
+      {
+        "wort": "der Beauftragte",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نماینده، مأمور",
+          "en": "commissioner"
+        },
+        "id_ref": "nomen_beauftragte"
+      },
+      {
+        "wort": "anweisen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دستور دادن",
+          "en": "to instruct"
+        },
+        "id_ref": "verb_anweisen"
+      },
+      {
+        "wort": "der Kunde",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مشتری",
+          "en": "customer"
+        },
+        "id_ref": "nomen_kunde"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

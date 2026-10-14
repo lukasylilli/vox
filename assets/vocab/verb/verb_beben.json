@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_beben",
+  "wort": "beben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "لرزیدن"
+    ],
+    "en": [
+      "to shake",
+      "to tremble"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Natur",
+    "Gefühle"
+  ],
+  "ipa": "ˈbeːbn̩",
+  "anmerkung": "Regelmäßig (bebte, gebebt). Nicht untrennbar: «be-» ist hier kein Präfix.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Erde bebt.",
+      "uebersetzung": {
+        "fa": "زمین می‌لرزد.",
+        "en": "The earth is shaking."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ihre Stimme bebte vor Wut, als sie von der Ungerechtigkeit erzählte.",
+      "uebersetzung": {
+        "fa": "وقتی از آن بی‌عدالتی تعریف می‌کرد، صدایش از خشم می‌لرزید.",
+        "en": "Her voice trembled with anger as she told of the injustice."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zittern",
+      "uebersetzung": {
+        "fa": "لرزیدن",
+        "en": "to tremble"
+      }
+    },
+    {
+      "wort": "wackeln",
+      "uebersetzung": {
+        "fa": "لق بودن، تکان خوردن",
+        "en": "to wobble"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن bibēn (لرزیدن)",
+    "en": "from Old High German bibēn (to tremble)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "beben",
+      "praeteritum": "bebte",
+      "partizip2": "gebebt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bebe",
+        "du": "bebst",
+        "er_sie_es": "bebt",
+        "wir": "beben",
+        "ihr": "bebt",
+        "sie_Sie": "beben"
+      },
+      "praeteritum": {
+        "ich": "bebte",
+        "du": "bebtest",
+        "er_sie_es": "bebte",
+        "wir": "bebten",
+        "ihr": "bebtet",
+        "sie_Sie": "bebten"
+      },
+      "konjunktiv1": {
+        "ich": "bebe",
+        "du": "bebest",
+        "er_sie_es": "bebe",
+        "wir": "beben",
+        "ihr": "bebet",
+        "sie_Sie": "beben"
+      },
+      "konjunktiv2": {
+        "ich": "bebte",
+        "du": "bebtest",
+        "er_sie_es": "bebte",
+        "wir": "bebten",
+        "ihr": "bebtet",
+        "sie_Sie": "bebten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "bebend",
+    "nominalisierung": "das Beben"
+  },
+  "wortnetz": {
+    "grundwort": "das Erdbeben",
+    "woerter": [
+      {
+        "wort": "das Erdbeben",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زلزله",
+          "en": "earthquake"
+        },
+        "id_ref": "nomen_erdbeben"
+      },
+      {
+        "wort": "zittern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لرزیدن",
+          "en": "to tremble"
+        },
+        "id_ref": "verb_zittern"
+      },
+      {
+        "wort": "die Erde",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زمین",
+          "en": "earth"
+        },
+        "id_ref": "nomen_erde"
+      },
+      {
+        "wort": "die Wut",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خشم",
+          "en": "anger"
+        },
+        "id_ref": "nomen_wut"
+      },
+      {
+        "wort": "die Stimme",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صدا",
+          "en": "voice"
+        },
+        "id_ref": "nomen_stimme"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

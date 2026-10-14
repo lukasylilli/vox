@@ -2885,6 +2885,10 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۵۲۰ | barbieren | `Verben_regelmaesig.txt` | 2026-10-13 | قدیمی — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۵۲۱ | bäumen | `Verben_regelmaesig.txt` | 2026-10-13 | نادر (بیشتر sich aufbäumen) — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۵۲۲ | bauschen | `Verben_regelmaesig.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۲۳ | bechern | `Verben_regelmaesig.txt` | 2026-10-13 | محاوره‌ای — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۲۴ | beckmessern | `Verben_regelmaesig.txt` | 2026-10-13 | ادبی/نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۲۵ | beeiden | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی (حقوقی) — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۲۶ | beeidigen | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی (حقوقی) — قاعده‌ی ۱۴/۱۶ | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 
