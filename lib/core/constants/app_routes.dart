@@ -8,6 +8,7 @@ class AppRoutes {
   // Wortschatz
   static const wortschatz             = '/wortschatz';
   static const wortschatzList         = '/wortschatz/list';
+  static const wortschatzFilter       = '/wortschatz/filter'; // فاز F.2
   static const wortschatzBooks        = '/wortschatz/books';
   static const wortschatzBookWords    = '/wortschatz/books/:bookId';
   static const wortschatzLevel        = '/wortschatz/level';

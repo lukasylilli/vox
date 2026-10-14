@@ -54,6 +54,7 @@ import '../../features/wortschatz/screens/add_word_screen.dart';
 import '../../features/wortschatz/screens/book_list_screen.dart';
 import '../../features/wortschatz/screens/book_words_screen.dart';
 import '../../features/wortschatz/screens/level_words_screen.dart';
+import '../../features/wortschatz/screens/wortschatz_filter_screen.dart';
 import '../../features/wortschatz/screens/wortschatz_list_screen.dart';
 import '../../features/wortschatz/screens/type_words_screen.dart';
 import '../../features/wortschatz/screens/word_detail_screen.dart';
@@ -137,6 +138,12 @@ final appRouter = GoRouter(
           path   : 'list',
           builder: (ctx, state) => WortschatzListScreen(
             initialQuery: state.uri.queryParameters['suche'] ?? '',
+          ),
+        ),
+        GoRoute(
+          path   : 'filter', // فاز F.2 — Filterseite von «Alle Wörter»
+          builder: (ctx, state) => WortschatzFilterScreen(
+            query: state.uri.queryParameters['suche'] ?? '',
           ),
         ),
         GoRoute(

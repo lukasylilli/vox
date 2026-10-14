@@ -16,14 +16,25 @@
 import 'package:flutter/material.dart';
 import '../constants/app_sizes.dart';
 import '../l10n/app_l10n.dart';
+import '../utils/formatters.dart';
 
 // ─── data model ───────────────────────────────────────────────────────────────
 
 class FilterOption {
-  const FilterOption({required this.value, required this.label, this.icon});
+  const FilterOption({
+    required this.value,
+    required this.label,
+    this.icon,
+    this.anzahl,
+  });
   final String    value;
   final String    label;
   final IconData? icon;
+
+  /// Optional (فاز F.2b): wie viele Einträge dieser Knopf zeigen würde —
+  /// klein neben der Beschriftung. 0 und nicht gewählt ⇒ Knopf blass und
+  /// nicht antippbar (er würde eine leere Liste zeigen).
+  final int?      anzahl;
 }
 
 // ─── raster ───────────────────────────────────────────────────────────────────
@@ -192,8 +203,21 @@ class _FilterAccordionState extends State<FilterAccordion>
       textScaler   : MediaQuery.textScalerOf(context),
       maxLines     : 1,
     )..layout();
-    final breite = tp.width;
+    var breite = tp.width;
     tp.dispose();
+    if (opt.anzahl != null) {
+      final zp = TextPainter(
+        text: TextSpan(
+          text : Formatters.digits(opt.anzahl!),
+          style: _FilterChip.zahlStil,
+        ),
+        textDirection: Directionality.of(context),
+        textScaler   : MediaQuery.textScalerOf(context),
+        maxLines     : 1,
+      )..layout();
+      breite += _FilterChip.zahlAbstand + zp.width;
+      zp.dispose();
+    }
     return breite +
         _FilterChip.innenAbstand * 2 +
         (opt.icon != null ? _FilterChip.iconPlatz : 0) +
@@ -283,14 +307,20 @@ class _FilterChip extends StatelessWidget {
   static const textStil = TextStyle(fontSize: 13);
   static const innenAbstand = 12.0;
   static const iconPlatz = 18.0; // Icon 14 + Abstand 4
+  static const zahlStil = TextStyle(fontSize: 11, fontWeight: FontWeight.w600);
+  static const zahlAbstand = 6.0;
+
+  /// Würde eine leere Liste zeigen ⇒ blass, nicht antippbar (F.2b).
+  bool get _leer => option.anzahl == 0 && !active;
 
   @override
   Widget build(BuildContext context) {
     final cs = Theme.of(context).colorScheme;
-    return AnimatedContainer(
+    return AnimatedOpacity(
       duration: const Duration(milliseconds: 150),
+      opacity : _leer ? 0.4 : 1,
       child: InkWell(
-        onTap       : onTap,
+        onTap       : _leer ? null : onTap,
         borderRadius: BorderRadius.circular(100),
         child: Container(
           padding: const EdgeInsets.symmetric(
@@ -323,6 +353,18 @@ class _FilterChip extends StatelessWidget {
                   ),
                 ),
               ),
+              if (option.anzahl != null) ...[
+                const SizedBox(width: zahlAbstand),
+                Text(
+                  Formatters.digits(option.anzahl!),
+                  maxLines: 1,
+                  style: zahlStil.copyWith(
+                    color: active
+                        ? cs.onPrimary.withValues(alpha: 0.85)
+                        : cs.onSurfaceVariant,
+                  ),
+                ),
+              ],
             ],
           ),
         ),

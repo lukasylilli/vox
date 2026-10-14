@@ -9,6 +9,9 @@
 //          Grundregel (Lukas, 2026-09-24): JEDE Karte hat ihre eigene Zeile
 //          (→ eigene Seite), auch wenn es dasselbe Wort schon als alte Zeile
 //          gibt. Nichts wird ausgeblendet; Doppelte erst am Ende (L.4d).
+//          Filter (فاز F.2, 2026-10-14): eigene Filterseite
+//          (wortschatz_filter_screen.dart), hier nur Knopf mit Zahl + Chips
+//          der aktiven Filter. Filtern/Ordnen: data/wortschatz_filter.dart.
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -17,18 +20,18 @@ import '../../../core/constants/app_routes.dart';
 import '../../../core/grammatikon/wort_card.dart';
 import '../../../core/l10n/app_l10n.dart';
 import '../../../core/models/word_model.dart';
-import '../../../core/widgets/filter_accordion.dart';
 import '../../../core/widgets/filter_chip_bar.dart';
 import '../../../core/widgets/deutsch_text.dart';
 import '../../../core/widgets/vox_search_field.dart';
-import '../../../core/wort/altwort_formen.dart';
-import '../../../core/wort/wort_form.dart';
+import '../../../core/utils/formatters.dart';
 import '../../vokabular/controllers/vokabular_controller.dart';
 import '../../vokabular/widgets/wort_actions.dart';
 import '../controllers/word_controller.dart';
-import '../data/altwort_karte.dart';
+import '../controllers/wortschatz_filter_controller.dart';
 import '../data/such_rang.dart';
 import '../data/such_vorschlag.dart';
+import '../data/wortschatz_filter.dart';
+import 'wortschatz_filter_screen.dart';
 import '../widgets/word_list_item.dart';
 import '../../../core/widgets/vox_button.dart';
 
@@ -48,9 +51,6 @@ class _WortschatzListScreenState extends ConsumerState<WortschatzListScreen> {
   late final TextEditingController _searchCtrl;
   String _query = '';
 
-  Set<String> _selectedLevels = {};
-  Set<String> _selectedTypes  = {};
-
   @override
   void initState() {
     super.initState();
@@ -66,89 +66,44 @@ class _WortschatzListScreenState extends ConsumerState<WortschatzListScreen> {
     super.dispose();
   }
 
-  // ─── filter option lists ──────────────────────────────────────────────────
+  // ─── aktive Filter als Chips (Beschriftung → «bereich:wert») ──────────────
 
-  static const _cefrOptions = [
-    FilterOption(value: 'a1', label: 'A1'),
-    FilterOption(value: 'a2', label: 'A2'),
-    FilterOption(value: 'b1', label: 'B1'),
-    FilterOption(value: 'b2', label: 'B2'),
-    FilterOption(value: 'c1', label: 'C1'),
-    FilterOption(value: 'c2', label: 'C2'),
-  ];
+  Map<String, String> _aktiveChips(WortschatzFilter filter) => {
+        for (final b in FilterBereich.values)
+          for (final w in filter.werte(b))
+            WortschatzFilterScreen.beschriftung(b, w): '${b.name}:$w',
+      };
 
-  static final _typeOptions = WordType.values
-      .map((t) => FilterOption(value: t.name, label: t.label))
-      .toList();
-
-  // Wortart-Tabelle und Sortier-Lemma: EINE Quelle, ../data/altwort_karte.dart
-  // (altwortTypZuWortart, altwortLemma).
-
-  List<Map<String, dynamic>> _gefilterteKarten(
-      List<Map<String, dynamic>> karten) {
-    var liste = karten;
-    if (_selectedLevels.isNotEmpty) {
-      liste = liste
-          .where((k) => _selectedLevels
-              .contains((k['niveau'] as String? ?? '').toLowerCase()))
-          .toList();
-    }
-    if (_selectedTypes.isNotEmpty) {
-      final erlaubt = _selectedTypes
-          .expand((t) => altwortTypZuWortart[t] ?? const <String>{})
-          .toSet();
-      liste = liste.where((k) => erlaubt.contains(k['wortart'])).toList();
-    }
-    // Suche: die Liste kommt schon fertig aus [vokabSucheProvider]
-    // (Text-Treffer + gebeugte Formen), siehe build().
-    return liste;
+  void _chipEntfernen(String kodiert) {
+    final i = kodiert.indexOf(':');
+    final b = FilterBereich.values.firstWhere(
+        (x) => x.name == kodiert.substring(0, i),
+        orElse: () => FilterBereich.niveau);
+    ref
+        .read(wortschatzFilterProvider.notifier)
+        .entfernen(b, kodiert.substring(i + 1));
   }
 
-  // ─── active filter chip map ───────────────────────────────────────────────
-
-  Map<String, String> get _activeFilters {
-    final m = <String, String>{};
-    for (final lvl in _selectedLevels) {
-      m[lvl.toUpperCase()] = 'level:$lvl';
-    }
-    for (final t in _selectedTypes) {
-      final label = WordType.values
-          .firstWhere((wt) => wt.name == t,
-              orElse: () => WordType.sonstige)
-          .label;
-      m[label] = 'type:$t';
-    }
-    return m;
+  void _filterOeffnen() {
+    final suche = _query.isEmpty ? '' : '?suche=${Uri.encodeComponent(_query)}';
+    context.push('${AppRoutes.wortschatzFilter}$suche');
   }
-
-  void _removeFilter(String encoded) {
-    setState(() {
-      if (encoded.startsWith('level:')) {
-        _selectedLevels = {..._selectedLevels}..remove(encoded.substring(6));
-      } else if (encoded.startsWith('type:')) {
-        _selectedTypes = {..._selectedTypes}..remove(encoded.substring(5));
-      }
-    });
-  }
-
-  void _clearAll() => setState(() {
-        _selectedLevels = {};
-        _selectedTypes  = {};
-      });
 
   // ─── build ────────────────────────────────────────────────────────────────
 
   @override
   Widget build(BuildContext context) {
     final wordsAsync = ref.watch(allWordsProvider);
-    final kartenAsync = ref.watch(vokabIndexProvider);
     final sucheAsync =
         _query.isEmpty ? null : ref.watch(vokabSucheProvider(_query));
     // Karten, deren gebeugte Form gesucht wurde («ging» ⇒ gehen) — Rang
     // «Form» in such_rang.dart (فاز F.1).
     final formAsync =
         _query.isEmpty ? null : ref.watch(vokabFormTrefferProvider(_query));
-    final activeMap  = _activeFilters;
+    final filter = ref.watch(wortschatzFilterProvider);
+    final basis = wortschatzBasisLesen(ref, _query);
+    final chips = _aktiveChips(filter);
+    final cs = Theme.of(context).colorScheme;
 
     return Scaffold(
       appBar: AppBar(
@@ -164,248 +119,179 @@ class _WortschatzListScreenState extends ConsumerState<WortschatzListScreen> {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          // ── search bar ────────────────────────────────────────────────────
+          // ── search bar + Filterknopf ──────────────────────────────────────
           Padding(
             padding: const EdgeInsets.fromLTRB(16, 12, 16, 4),
-            child: VoxSearchField(
-              controller: _searchCtrl,
-              hint      : AppL10n.t(context, 'search_words'),
-              showClear : _query.isNotEmpty,
-            ),
-          ),
-
-          // ── filter accordions ─────────────────────────────────────────────
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 12),
-            child: Column(
+            child: Row(
               children: [
-                FilterAccordion(
-                  label   : 'Niveau',
-                  options : _cefrOptions,
-                  selected: _selectedLevels,
-                  onChanged: (v, _) => setState(() {
-                    final s = {..._selectedLevels};
-                    s.contains(v) ? s.remove(v) : s.add(v);
-                    _selectedLevels = s;
-                  }),
+                Expanded(
+                  child: VoxSearchField(
+                    controller: _searchCtrl,
+                    hint      : AppL10n.t(context, 'search_words'),
+                    showClear : _query.isNotEmpty,
+                  ),
                 ),
-                FilterAccordion(
-                  label   : 'Wortart',
-                  options : _typeOptions,
-                  selected: _selectedTypes,
-                  onChanged: (v, _) => setState(() {
-                    final s = {..._selectedTypes};
-                    s.contains(v) ? s.remove(v) : s.add(v);
-                    _selectedTypes = s;
-                  }),
+                const SizedBox(width: 8),
+                Badge(
+                  key: const ValueKey('filter_knopf'),
+                  isLabelVisible: !filter.istLeer,
+                  label: Text(Formatters.digits(filter.anzahlAktiv)),
+                  backgroundColor: cs.primary,
+                  textColor: cs.onPrimary,
+                  child: VoxIconButton(
+                    icon     : Icons.tune_rounded,
+                    variant  : filter.istLeer
+                        ? VoxIconVariant.outlined
+                        : VoxIconVariant.filled,
+                    tooltip  : AppL10n.t(context, 'filter_title'),
+                    onPressed: _filterOeffnen,
+                  ),
                 ),
               ],
             ),
           ),
 
           // ── active filter bar ─────────────────────────────────────────────
-          if (activeMap.isNotEmpty) ...[
+          if (chips.isNotEmpty) ...[
             const SizedBox(height: 4),
             FilterChipBar(
-              activeFilters: activeMap,
-              onRemove     : _removeFilter,
-              onClearAll   : _clearAll,
+              activeFilters: chips,
+              onRemove     : _chipEntfernen,
+              onClearAll   : () =>
+                  ref.read(wortschatzFilterProvider.notifier).allesLoeschen(),
             ),
           ],
 
           const Divider(height: 12),
 
           // ── results ───────────────────────────────────────────────────────
-          Expanded(
-            child: wordsAsync.when(
-              loading: () => const Center(child: CircularProgressIndicator()),
-              error  : (e, _) => Center(child: Text('$e')),
-              data   : (words) {
-                var list = words.map((w) => w.toModel()).toList();
-
-                if (_selectedLevels.isNotEmpty) {
-                  list = list.where((w) =>
-                      w.level != null &&
-                      _selectedLevels.contains(w.level!.name)).toList();
-                }
-                if (_selectedTypes.isNotEmpty) {
-                  list = list.where((w) =>
-                      _selectedTypes.contains(w.wordType.name)).toList();
-                }
-                // Auch gebeugte Formen («empfahl» ⇒ empfehlen) — 2026-09-30.
-                final formSchluessel =
-                    _query.isEmpty ? '' : wortSchluessel(_query);
-                bool altIstForm(WordModel w) =>
-                    formSchluessel.isNotEmpty &&
-                    altwortFormen(
-                      wortart: w.wordType.name,
-                      german: w.german,
-                      plural: w.plural,
-                      conjugationJson: w.conjugationJson,
-                    ).contains(formSchluessel);
-                // Stand vor der Suche (nur Niveau/Wortart) — Quelle für
-                // «Did you mean?» (فاز F.1c).
-                final listeOhneSuche = list;
-                if (_query.isNotEmpty) {
-                  list = list.where((w) =>
-                      w.german.toLowerCase().contains(_query) ||
-                      w.meaningFa.contains(_query) ||
-                      (w.meaningEn?.toLowerCase().contains(_query) ?? false) ||
-                      altIstForm(w))
-                      .toList();
-                }
-
-                // Vokabular-Karten (assets/vocab/) mit denselben Filtern.
-                // Mit Suche: Treffer inkl. gebeugter Formen («aalartige» ⇒
-                // aalartig) aus vokabSucheProvider — bis er geladen ist,
-                // die einfachen Text-Treffer.
-                final basis = _query.isEmpty
-                    ? (kartenAsync.valueOrNull ?? const <Map<String, dynamic>>[])
-                    : (sucheAsync?.valueOrNull ??
-                        [
-                          for (final k in kartenAsync.valueOrNull ??
-                              const <Map<String, dynamic>>[])
-                            if (vokabKartePasst(k, _query)) k,
-                        ]);
-                final karten = _gefilterteKarten(basis);
-
-                // Ohne Suche: beide Quellen alphabetisch gemischt (Artikel
-                // zählt nicht). Mit Suche (فاز F.1, Lukas 2026-10-14): nach
-                // Nähe zur Suche — das gesuchte Wort bzw. die Grundform einer
-                // gebeugten Form («ging» ⇒ gehen) ganz oben (such_rang.dart).
-                final formIds = <String>{
-                  for (final k in formAsync?.valueOrNull ??
-                      const <Map<String, dynamic>>[])
-                    k['id'] as String? ?? '',
-                };
-                String wortVon(Object e) => e is WordModel
-                    ? e.german
-                    : ((e as Map<String, dynamic>)['wort'] as String? ?? '');
-                final List<SuchTreffer<Object>> zeilen;
-                if (_query.isEmpty) {
-                  zeilen = [
-                    for (final e in <Object>[...list, ...karten])
-                      SuchTreffer<Object>(
-                        wert: e,
-                        lemma: altwortLemma(wortVon(e)),
-                        rang: SuchRang.genau,
-                      ),
-                  ]..sort((a, b) => a.lemma.compareTo(b.lemma));
-                } else {
-                  zeilen = suchTrefferOrdnen<Object>(
-                    <Object>[...list, ...karten],
-                    query: _query,
-                    wort: wortVon,
-                    istForm: (e) => e is WordModel
-                        ? altIstForm(e)
-                        : formIds.contains(
-                            (e as Map<String, dynamic>)['id'] as String? ?? ''),
-                  );
-                }
-                // Zeile «Gebeugte Form: ging» unter Treffern aus einer Form.
-                final suchText = _searchCtrl.text.trim();
-                Widget? hinweisFuer(SuchTreffer<Object> t) =>
-                    t.rang == SuchRang.form && suchText.isNotEmpty
-                        ? DeutschMitEtikett(
-                            etikett: AppL10n.t(context, 'such_form_etikett'),
-                            wert: suchText,
-                            style: Theme.of(context)
-                                .textTheme
-                                .bodySmall
-                                ?.copyWith(
-                                  color: Theme.of(context).colorScheme.primary,
-                                ),
-                          )
-                        : null;
-
-                if (zeilen.isEmpty) {
-                  // Tippfehler? Erst wenn die Suche fertig geladen ist —
-                  // sonst blitzen Vorschläge auf (فاز F.1c, such_vorschlag.dart).
-                  final vorschlaege = _query.isEmpty ||
-                          !(sucheAsync?.hasValue ?? false)
-                      ? const <String>[]
-                      : suchVorschlaege(_query, [
-                          for (final w in listeOhneSuche) w.german,
-                          for (final k in _gefilterteKarten(
-                              kartenAsync.valueOrNull ??
-                                  const <Map<String, dynamic>>[]))
-                            k['wort'] as String? ?? '',
-                        ]);
-                  return Center(
-                    child: Padding(
-                      padding: const EdgeInsets.all(24),
-                      child: Column(
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          Text(AppL10n.t(context, 'empty_filter'),
-                              textAlign: TextAlign.center),
-                          if (vorschlaege.isNotEmpty) ...[
-                            const SizedBox(height: 16),
-                            Text(
-                              AppL10n.t(context, 'such_meintest_du'),
-                              style: Theme.of(context)
-                                  .textTheme
-                                  .titleSmall
-                                  ?.copyWith(fontWeight: FontWeight.w700),
-                            ),
-                            const SizedBox(height: 8),
-                            Wrap(
-                              alignment: WrapAlignment.center,
-                              spacing: 8,
-                              runSpacing: 8,
-                              textDirection: TextDirection.ltr,
-                              children: [
-                                for (final v in vorschlaege)
-                                  VoxButton.tonal(
-                                    key: ValueKey('vorschlag_$v'),
-                                    label: v,
-                                    size: VoxButtonSize.small,
-                                    onPressed: () {
-                                      _searchCtrl.text = v;
-                                      _searchCtrl.selection =
-                                          TextSelection.collapsed(
-                                              offset: v.length);
-                                    },
-                                  ),
-                              ],
-                            ),
-                          ],
-                        ],
-                      ),
-                    ),
-                  );
-                }
-
-                return ListView.builder(
-                  padding    : const EdgeInsets.fromLTRB(0, 4, 0, 80),
-                  itemCount  : zeilen.length,
-                  itemBuilder: (_, i) {
-                    final eintrag = zeilen[i].wert;
-                    final hinweis = hinweisFuer(zeilen[i]);
-                    if (eintrag is WordModel) {
-                      return WordListItem(
-                        word : eintrag,
-                        hinweis: hinweis,
-                        onTap: () => context.push(
-                            AppRoutes.wortschatzWordDetail
-                                .replaceFirst(':wordId', '${eintrag.id}')),
-                      );
-                    }
-                    final karte = eintrag as Map<String, dynamic>;
-                    return WortCard(
-                      card    : karte,
-                      hinweis : hinweis,
-                      trailing: WortActions(card: karte, kompakt: true),
-                      onTap   : () => context.push(AppRoutes
-                          .vokabularWort(karte['id'] as String? ?? '')),
-                    );
-                  },
-                );
-              },
-            ),
-          ),
+          Expanded(child: _ergebnisse(
+              context, wordsAsync, sucheAsync, formAsync, filter, basis)),
         ],
       ),
+    );
+  }
+
+  Widget _ergebnisse(
+    BuildContext context,
+    AsyncValue<Object?> wordsAsync,
+    AsyncValue<List<Map<String, dynamic>>>? sucheAsync,
+    AsyncValue<List<Map<String, dynamic>>>? formAsync,
+    WortschatzFilter filter,
+    WortschatzBasis? basis,
+  ) {
+    if (wordsAsync.hasError) {
+      return Center(child: Text('${wordsAsync.error}'));
+    }
+    if (basis == null) {
+      return const Center(child: CircularProgressIndicator());
+    }
+    final formIds = <String>{
+      for (final k in formAsync?.valueOrNull ??
+          const <Map<String, dynamic>>[])
+        k['id'] as String? ?? '',
+    };
+    final zeilen = wortschatzZeilen(basis, filter, formIds: formIds);
+
+    if (zeilen.isEmpty) {
+      // Tippfehler? Erst wenn die Suche fertig geladen ist — sonst blitzen
+      // Vorschläge auf (فاز F.1c, such_vorschlag.dart). Quelle: alle Wörter
+      // mit den aktiven Filtern, aber ohne Suche.
+      final List<String> vorschlaege;
+      if (_query.isEmpty || !(sucheAsync?.hasValue ?? false)) {
+        vorschlaege = const [];
+      } else {
+        final ohneSuche = wortschatzBasisLesen(ref, '');
+        vorschlaege = ohneSuche == null
+            ? const []
+            : suchVorschlaege(_query, [
+                for (final z in wortschatzZeilen(ohneSuche, filter))
+                  z.wert is WordModel
+                      ? (z.wert as WordModel).german
+                      : ((z.wert as Map<String, dynamic>)['wort'] as String? ??
+                          ''),
+              ]);
+      }
+      return Center(
+        child: Padding(
+          padding: const EdgeInsets.all(24),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(AppL10n.t(context, 'empty_filter'),
+                  textAlign: TextAlign.center),
+              if (vorschlaege.isNotEmpty) ...[
+                const SizedBox(height: 16),
+                Text(
+                  AppL10n.t(context, 'such_meintest_du'),
+                  style: Theme.of(context)
+                      .textTheme
+                      .titleSmall
+                      ?.copyWith(fontWeight: FontWeight.w700),
+                ),
+                const SizedBox(height: 8),
+                Wrap(
+                  alignment: WrapAlignment.center,
+                  spacing: 8,
+                  runSpacing: 8,
+                  textDirection: TextDirection.ltr,
+                  children: [
+                    for (final v in vorschlaege)
+                      VoxButton.tonal(
+                        key: ValueKey('vorschlag_$v'),
+                        label: v,
+                        size: VoxButtonSize.small,
+                        onPressed: () {
+                          _searchCtrl.text = v;
+                          _searchCtrl.selection =
+                              TextSelection.collapsed(offset: v.length);
+                        },
+                      ),
+                  ],
+                ),
+              ],
+            ],
+          ),
+        ),
+      );
+    }
+
+    // Zeile «Gebeugte Form: ging» unter Treffern aus einer Form.
+    final suchText = _searchCtrl.text.trim();
+    Widget? hinweisFuer(SuchTreffer<Object> t) =>
+        t.rang == SuchRang.form && suchText.isNotEmpty
+            ? DeutschMitEtikett(
+                etikett: AppL10n.t(context, 'such_form_etikett'),
+                wert: suchText,
+                style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                      color: Theme.of(context).colorScheme.primary,
+                    ),
+              )
+            : null;
+
+    return ListView.builder(
+      padding    : const EdgeInsets.fromLTRB(0, 4, 0, 80),
+      itemCount  : zeilen.length,
+      itemBuilder: (_, i) {
+        final eintrag = zeilen[i].wert;
+        final hinweis = hinweisFuer(zeilen[i]);
+        if (eintrag is WordModel) {
+          return WordListItem(
+            word : eintrag,
+            hinweis: hinweis,
+            onTap: () => context.push(AppRoutes.wortschatzWordDetail
+                .replaceFirst(':wordId', '${eintrag.id}')),
+          );
+        }
+        final karte = eintrag as Map<String, dynamic>;
+        return WortCard(
+          card    : karte,
+          hinweis : hinweis,
+          trailing: WortActions(card: karte, kompakt: true),
+          onTap   : () => context
+              .push(AppRoutes.vokabularWort(karte['id'] as String? ?? '')),
+        );
+      },
     );
   }
 }

@@ -20,6 +20,11 @@ void main() {
     // فاز F.1b — Suche: Hinweis «gebeugte Form» (2026-10-14)
     'such_form_etikett',
     'such_meintest_du',
+    // فاز F.2 — Filterseite
+    'filter_title',
+    'filter_clear_all',
+    'filter_show',
+    'filter_show_n',
     // Pomodoro (2026-10-05) — Phasenende, Schalter
     'pomo_ended_focus',
     'pomo_ended_short_break',
