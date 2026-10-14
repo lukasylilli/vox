@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_basteln",
+  "wort": "basteln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کاردستی ساختن، سرهم کردن"
+    ],
+    "en": [
+      "to do handicrafts",
+      "to make",
+      "to tinker"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Freizeit"
+  ],
+  "ipa": "ˈbastl̩n",
+  "anmerkung": "Regelmäßig (bastelte, gebastelt).",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Die Kinder basteln Sterne.",
+      "uebersetzung": {
+        "fa": "بچه‌ها ستاره درست می‌کنند.",
+        "en": "The children are making stars."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Mein Vater bastelt seit Wochen an seinem alten Motorrad, damit es wieder fährt.",
+      "uebersetzung": {
+        "fa": "پدرم هفته‌هاست روی موتورسیکلت قدیمی‌اش کار می‌کند تا دوباره راه بیفتد.",
+        "en": "My father has been tinkering with his old motorbike for weeks so that it will run again."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bauen",
+      "uebersetzung": {
+        "fa": "ساختن",
+        "en": "to build"
+      }
+    },
+    {
+      "wort": "werkeln",
+      "uebersetzung": {
+        "fa": "ور رفتن",
+        "en": "to potter"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ریشه‌ی آن روشن نیست",
+    "en": "origin unclear"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "an + Dat basteln",
+        "bedeutung": "an etwas herumarbeiten",
+        "beispiel": "Er bastelt an seinem Fahrrad.",
+        "uebersetzung": {
+          "fa": "او روی دوچرخه‌اش کار می‌کند.",
+          "en": "He is tinkering with his bike."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "basteln",
+      "praeteritum": "bastelte",
+      "partizip2": "gebastelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bastle",
+        "du": "bastelst",
+        "er_sie_es": "bastelt",
+        "wir": "basteln",
+        "ihr": "bastelt",
+        "sie_Sie": "basteln"
+      },
+      "praeteritum": {
+        "ich": "bastelte",
+        "du": "basteltest",
+        "er_sie_es": "bastelte",
+        "wir": "bastelten",
+        "ihr": "basteltet",
+        "sie_Sie": "bastelten"
+      },
+      "konjunktiv1": {
+        "ich": "bastle",
+        "du": "bastlest",
+        "er_sie_es": "bastle",
+        "wir": "basteln",
+        "ihr": "bastlet",
+        "sie_Sie": "basteln"
+      },
+      "konjunktiv2": {
+        "ich": "bastelte",
+        "du": "basteltest",
+        "er_sie_es": "bastelte",
+        "wir": "bastelten",
+        "ihr": "basteltet",
+        "sie_Sie": "bastelten"
+      },
+      "imperativ": {
+        "du": "Bastle!",
+        "ihr": "Bastelt!",
+        "Sie": "Basteln Sie!"
+      }
+    },
+    "partizip1": "bastelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "bauen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ساختن",
+          "en": "to build"
+        },
+        "id_ref": "verb_bauen"
+      },
+      {
+        "wort": "das Papier",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کاغذ",
+          "en": "paper"
+        },
+        "id_ref": "nomen_papier"
+      },
+      {
+        "wort": "die Schere",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قیچی",
+          "en": "scissors"
+        },
+        "id_ref": "nomen_schere"
+      },
+      {
+        "wort": "kleben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چسباندن",
+          "en": "to glue"
+        },
+        "id_ref": "verb_kleben"
+      },
+      {
+        "wort": "das Hobby",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سرگرمی",
+          "en": "hobby"
+        },
+        "id_ref": "nomen_hobby"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

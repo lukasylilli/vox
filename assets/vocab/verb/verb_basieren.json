@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_basieren",
+  "wort": "basieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بر پایه‌ی چیزی بودن، مبتنی بودن"
+    ],
+    "en": [
+      "to be based on"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Wissenschaft"
+  ],
+  "ipa": "baˈziːʁən",
+  "anmerkung": "Regelmäßig (basierte, basiert). Fast immer «auf + Dat basieren».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Film basiert auf einem Buch.",
+      "uebersetzung": {
+        "fa": "این فیلم بر اساس یک کتاب است.",
+        "en": "The film is based on a book."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Therapie basiert auf neuen Erkenntnissen, die in einer großen Studie gewonnen wurden.",
+      "uebersetzung": {
+        "fa": "این درمان بر یافته‌های تازه‌ای استوار است که در یک پژوهش بزرگ به دست آمد.",
+        "en": "The therapy is based on new findings that were obtained in a large study."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beruhen",
+      "uebersetzung": {
+        "fa": "مبتنی بودن",
+        "en": "to be based"
+      }
+    },
+    {
+      "wort": "sich stützen",
+      "uebersetzung": {
+        "fa": "تکیه کردن",
+        "en": "to rely"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از die Basis (پایه) + -ieren",
+    "en": "from die Basis (base) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Dat basieren",
+        "bedeutung": "etwas als Grundlage haben",
+        "beispiel": "Das Urteil basiert auf Fakten.",
+        "uebersetzung": {
+          "fa": "این حکم بر واقعیت‌ها استوار است.",
+          "en": "The verdict is based on facts."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "basieren",
+      "praeteritum": "basierte",
+      "partizip2": "basiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "basiere",
+        "du": "basierst",
+        "er_sie_es": "basiert",
+        "wir": "basieren",
+        "ihr": "basiert",
+        "sie_Sie": "basieren"
+      },
+      "praeteritum": {
+        "ich": "basierte",
+        "du": "basiertest",
+        "er_sie_es": "basierte",
+        "wir": "basierten",
+        "ihr": "basiertet",
+        "sie_Sie": "basierten"
+      },
+      "konjunktiv1": {
+        "ich": "basiere",
+        "du": "basierest",
+        "er_sie_es": "basiere",
+        "wir": "basieren",
+        "ihr": "basieret",
+        "sie_Sie": "basieren"
+      },
+      "konjunktiv2": {
+        "ich": "basierte",
+        "du": "basiertest",
+        "er_sie_es": "basierte",
+        "wir": "basierten",
+        "ihr": "basiertet",
+        "sie_Sie": "basierten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "basierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "die Basis",
+    "woerter": [
+      {
+        "wort": "die Basis",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پایه",
+          "en": "basis"
+        },
+        "id_ref": "nomen_basis"
+      },
+      {
+        "wort": "beruhen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مبتنی بودن",
+          "en": "to be based"
+        },
+        "id_ref": "verb_beruhen"
+      },
+      {
+        "wort": "die Grundlage",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پایه، مبنا",
+          "en": "foundation"
+        },
+        "id_ref": "nomen_grundlage"
+      },
+      {
+        "wort": "die Studie",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پژوهش",
+          "en": "study"
+        },
+        "id_ref": "nomen_studie"
+      },
+      {
+        "wort": "die Tatsache",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "واقعیت",
+          "en": "fact"
+        },
+        "id_ref": "nomen_tatsache"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

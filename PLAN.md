@@ -2881,6 +2881,10 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۵۱۶ | balbieren | `Verben_regelmaesig.txt` | 2026-10-13 | قدیمی — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۵۱۷ | baldowern | `Verben_regelmaesig.txt` | 2026-10-13 | محاوره‌ای/نادر — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۵۱۸ | balsamieren | `Verben_regelmaesig.txt` | 2026-10-13 | تقریباً فقط einbalsamieren — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۱۹ | bändern | `Verben_regelmaesig.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۲۰ | barbieren | `Verben_regelmaesig.txt` | 2026-10-13 | قدیمی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۲۱ | bäumen | `Verben_regelmaesig.txt` | 2026-10-13 | نادر (بیشتر sich aufbäumen) — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۲۲ | bauschen | `Verben_regelmaesig.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 

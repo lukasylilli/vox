@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_bangen",
+  "wort": "bangen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سخت نگران بودن، دلهره داشتن"
+    ],
+    "en": [
+      "to fear",
+      "to be anxious"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle"
+  ],
+  "ipa": "ˈbaŋən",
+  "anmerkung": "Regelmäßig (bangte, gebangt). Gehoben; meist «um + Akk bangen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie bangt um ihr Kind.",
+      "uebersetzung": {
+        "fa": "او نگران جان بچه‌اش است.",
+        "en": "She fears for her child."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die ganze Familie hat tagelang um das Leben des Großvaters gebangt, bis er endlich aus dem Koma erwachte.",
+      "uebersetzung": {
+        "fa": "تمام خانواده روزها نگران جان پدربزرگ بودند تا اینکه بالاخره از کما بیدار شد.",
+        "en": "The whole family feared for grandfather's life for days until he finally woke from the coma."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich sorgen",
+      "uebersetzung": {
+        "fa": "نگران بودن",
+        "en": "to worry"
+      }
+    },
+    {
+      "wort": "fürchten",
+      "uebersetzung": {
+        "fa": "ترسیدن",
+        "en": "to fear"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hoffen",
+      "uebersetzung": {
+        "fa": "امید داشتن",
+        "en": "to hope"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از bange (نگران، ترسان)",
+    "en": "from bange (anxious)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "um + Akk bangen",
+        "bedeutung": "um jemanden/etwas fürchten",
+        "beispiel": "Viele bangen um ihren Arbeitsplatz.",
+        "uebersetzung": {
+          "fa": "خیلی‌ها نگران شغلشان‌اند.",
+          "en": "Many fear for their jobs."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bangen",
+      "praeteritum": "bangte",
+      "partizip2": "gebangt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bange",
+        "du": "bangst",
+        "er_sie_es": "bangt",
+        "wir": "bangen",
+        "ihr": "bangt",
+        "sie_Sie": "bangen"
+      },
+      "praeteritum": {
+        "ich": "bangte",
+        "du": "bangtest",
+        "er_sie_es": "bangte",
+        "wir": "bangten",
+        "ihr": "bangtet",
+        "sie_Sie": "bangten"
+      },
+      "konjunktiv1": {
+        "ich": "bange",
+        "du": "bangest",
+        "er_sie_es": "bange",
+        "wir": "bangen",
+        "ihr": "banget",
+        "sie_Sie": "bangen"
+      },
+      "konjunktiv2": {
+        "ich": "bangte",
+        "du": "bangtest",
+        "er_sie_es": "bangte",
+        "wir": "bangten",
+        "ihr": "bangtet",
+        "sie_Sie": "bangten"
+      },
+      "imperativ": {
+        "du": "Bange!",
+        "ihr": "Bangt!",
+        "Sie": "Bangen Sie!"
+      }
+    },
+    "partizip1": "bangend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "bange",
+    "woerter": [
+      {
+        "wort": "die Angst",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترس",
+          "en": "fear"
+        },
+        "id_ref": "nomen_angst"
+      },
+      {
+        "wort": "die Sorge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نگرانی",
+          "en": "worry"
+        },
+        "id_ref": "nomen_sorge"
+      },
+      {
+        "wort": "fürchten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ترسیدن",
+          "en": "to fear"
+        },
+        "id_ref": "verb_fuerchten"
+      },
+      {
+        "wort": "hoffen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "امید داشتن",
+          "en": "to hope"
+        },
+        "id_ref": "verb_hoffen"
+      },
+      {
+        "wort": "bange",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نگران",
+          "en": "anxious"
+        },
+        "id_ref": "adjektiv_bange"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

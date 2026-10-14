@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_bauen",
+  "wort": "bauen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ساختن"
+    ],
+    "en": [
+      "to build"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Wohnen",
+    "Arbeit"
+  ],
+  "ipa": "ˈbaʊ̯ən",
+  "anmerkung": "Regelmäßig (baute, gebaut). Fest: «auf + Akk bauen» (= sich verlassen).",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Wir bauen ein Haus.",
+      "uebersetzung": {
+        "fa": "ما خانه می‌سازیم.",
+        "en": "We are building a house."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Stadt baut eine neue Brücke, weil die alte zu schwach für den Verkehr ist.",
+      "uebersetzung": {
+        "fa": "شهر پل تازه‌ای می‌سازد، چون پل قدیمی برای ترافیک خیلی ضعیف است.",
+        "en": "The city is building a new bridge because the old one is too weak for the traffic."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "errichten",
+      "uebersetzung": {
+        "fa": "برپا کردن",
+        "en": "to erect"
+      }
+    },
+    {
+      "wort": "konstruieren",
+      "uebersetzung": {
+        "fa": "ساختن",
+        "en": "to construct"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "abreißen",
+      "uebersetzung": {
+        "fa": "خراب کردن",
+        "en": "to demolish"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Akk bauen",
+        "bedeutung": "sich auf jemanden verlassen",
+        "beispiel": "Auf dich kann ich immer bauen.",
+        "uebersetzung": {
+          "fa": "همیشه می‌توانم روی تو حساب کنم.",
+          "en": "I can always count on you."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bauen",
+      "praeteritum": "baute",
+      "partizip2": "gebaut"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "baue",
+        "du": "baust",
+        "er_sie_es": "baut",
+        "wir": "bauen",
+        "ihr": "baut",
+        "sie_Sie": "bauen"
+      },
+      "praeteritum": {
+        "ich": "baute",
+        "du": "bautest",
+        "er_sie_es": "baute",
+        "wir": "bauten",
+        "ihr": "bautet",
+        "sie_Sie": "bauten"
+      },
+      "konjunktiv1": {
+        "ich": "baue",
+        "du": "bauest",
+        "er_sie_es": "baue",
+        "wir": "bauen",
+        "ihr": "bauet",
+        "sie_Sie": "bauen"
+      },
+      "konjunktiv2": {
+        "ich": "baute",
+        "du": "bautest",
+        "er_sie_es": "baute",
+        "wir": "bauten",
+        "ihr": "bautet",
+        "sie_Sie": "bauten"
+      },
+      "imperativ": {
+        "du": "Baue!",
+        "ihr": "Baut!",
+        "Sie": "Bauen Sie!"
+      }
+    },
+    "partizip1": "bauend",
+    "nominalisierung": "der Bau"
+  },
+  "wortnetz": {
+    "grundwort": "der Bau",
+    "woerter": [
+      {
+        "wort": "der Bau",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ساختمان؛ ساخت",
+          "en": "building; construction"
+        },
+        "id_ref": "nomen_bau"
+      },
+      {
+        "wort": "das Gebäude",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ساختمان",
+          "en": "building"
+        },
+        "id_ref": "nomen_gebaeude"
+      },
+      {
+        "wort": "die Baustelle",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "محل ساخت‌وساز",
+          "en": "construction site"
+        },
+        "id_ref": "nomen_baustelle"
+      },
+      {
+        "wort": "der Architekt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "معمار",
+          "en": "architect"
+        },
+        "id_ref": "nomen_architekt"
+      },
+      {
+        "wort": "abreißen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خراب کردن",
+          "en": "to demolish"
+        },
+        "id_ref": "verb_abreissen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

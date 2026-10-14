@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_bearbeiten",
+  "wort": "bearbeiten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "روی چیزی کار کردن، رسیدگی کردن",
+      "ویرایش کردن"
+    ],
+    "en": [
+      "to process",
+      "to edit",
+      "to work on"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Behörden"
+  ],
+  "ipa": "bəˈʔaʁbaɪ̯tn̩",
+  "anmerkung": "Untrennbar, regelmäßig (bearbeitete, bearbeitet).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich bearbeite das Foto.",
+      "uebersetzung": {
+        "fa": "عکس را ویرایش می‌کنم.",
+        "en": "I am editing the photo."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ihr Antrag wird gerade bearbeitet, deshalb bekommen Sie erst nächste Woche eine Antwort.",
+      "uebersetzung": {
+        "fa": "درخواست شما در حال رسیدگی است، برای همین هفته‌ی بعد جواب می‌گیرید.",
+        "en": "Your application is being processed, so you will only get an answer next week."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erledigen",
+      "uebersetzung": {
+        "fa": "انجام دادن",
+        "en": "to deal with"
+      }
+    },
+    {
+      "wort": "überarbeiten",
+      "uebersetzung": {
+        "fa": "بازنویسی کردن",
+        "en": "to revise"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + arbeiten (کار کردن)",
+    "en": "be- + arbeiten (to work)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "bearbeiten",
+      "praeteritum": "bearbeitete",
+      "partizip2": "bearbeitet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bearbeite",
+        "du": "bearbeitest",
+        "er_sie_es": "bearbeitet",
+        "wir": "bearbeiten",
+        "ihr": "bearbeitet",
+        "sie_Sie": "bearbeiten"
+      },
+      "praeteritum": {
+        "ich": "bearbeitete",
+        "du": "bearbeitetest",
+        "er_sie_es": "bearbeitete",
+        "wir": "bearbeiteten",
+        "ihr": "bearbeitetet",
+        "sie_Sie": "bearbeiteten"
+      },
+      "konjunktiv1": {
+        "ich": "bearbeite",
+        "du": "bearbeitest",
+        "er_sie_es": "bearbeite",
+        "wir": "bearbeiten",
+        "ihr": "bearbeitet",
+        "sie_Sie": "bearbeiten"
+      },
+      "konjunktiv2": {
+        "ich": "bearbeitete",
+        "du": "bearbeitetest",
+        "er_sie_es": "bearbeitete",
+        "wir": "bearbeiteten",
+        "ihr": "bearbeitetet",
+        "sie_Sie": "bearbeiteten"
+      },
+      "imperativ": {
+        "du": "Bearbeite!",
+        "ihr": "Bearbeitet!",
+        "Sie": "Bearbeiten Sie!"
+      }
+    },
+    "partizip1": "bearbeitend",
+    "nominalisierung": "die Bearbeitung"
+  },
+  "wortnetz": {
+    "grundwort": "arbeiten",
+    "woerter": [
+      {
+        "wort": "arbeiten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کار کردن",
+          "en": "to work"
+        },
+        "id_ref": "verb_arbeiten"
+      },
+      {
+        "wort": "der Antrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درخواست",
+          "en": "application"
+        },
+        "id_ref": "nomen_antrag"
+      },
+      {
+        "wort": "erledigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انجام دادن",
+          "en": "to deal with"
+        },
+        "id_ref": "verb_erledigen"
+      },
+      {
+        "wort": "die Bearbeitung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رسیدگی؛ ویرایش",
+          "en": "processing"
+        },
+        "id_ref": "nomen_bearbeitung"
+      },
+      {
+        "wort": "das Formular",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فرم",
+          "en": "form"
+        },
+        "id_ref": "nomen_formular"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

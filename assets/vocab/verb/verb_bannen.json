@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_bannen",
+  "wort": "bannen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "طلسم کردن، مسحور کردن",
+      "دفع کردن (خطر)",
+      "ثبت کردن (روی عکس)"
+    ],
+    "en": [
+      "to captivate",
+      "to avert",
+      "to capture"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle",
+    "Medien"
+  ],
+  "ipa": "ˈbanən",
+  "anmerkung": "Regelmäßig (bannte, gebannt). «wie gebannt» (= fasziniert); «die Gefahr ist gebannt» (= abgewendet); «auf Film bannen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kinder schauen wie gebannt zu.",
+      "uebersetzung": {
+        "fa": "بچه‌ها مسحور تماشا می‌کنند.",
+        "en": "The children watch spellbound."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem der Damm repariert worden war, galt die Gefahr einer Überschwemmung als gebannt.",
+      "uebersetzung": {
+        "fa": "پس از تعمیر سد، خطر سیل برطرف‌شده به حساب آمد.",
+        "en": "After the dam had been repaired, the danger of flooding was considered averted."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fesseln",
+      "uebersetzung": {
+        "fa": "مجذوب کردن",
+        "en": "to captivate"
+      }
+    },
+    {
+      "wort": "abwenden",
+      "uebersetzung": {
+        "fa": "دفع کردن",
+        "en": "to avert"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از der Bann (طلسم؛ تکفیر)",
+    "en": "from der Bann (spell; ban)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "bannen",
+      "praeteritum": "bannte",
+      "partizip2": "gebannt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "banne",
+        "du": "bannst",
+        "er_sie_es": "bannt",
+        "wir": "bannen",
+        "ihr": "bannt",
+        "sie_Sie": "bannen"
+      },
+      "praeteritum": {
+        "ich": "bannte",
+        "du": "banntest",
+        "er_sie_es": "bannte",
+        "wir": "bannten",
+        "ihr": "banntet",
+        "sie_Sie": "bannten"
+      },
+      "konjunktiv1": {
+        "ich": "banne",
+        "du": "bannest",
+        "er_sie_es": "banne",
+        "wir": "bannen",
+        "ihr": "bannet",
+        "sie_Sie": "bannen"
+      },
+      "konjunktiv2": {
+        "ich": "bannte",
+        "du": "banntest",
+        "er_sie_es": "bannte",
+        "wir": "bannten",
+        "ihr": "banntet",
+        "sie_Sie": "bannten"
+      },
+      "imperativ": {
+        "du": "Banne!",
+        "ihr": "Bannt!",
+        "Sie": "Bannen Sie!"
+      }
+    },
+    "partizip1": "bannend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "der Bann",
+    "woerter": [
+      {
+        "wort": "der Bann",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "طلسم؛ تحریم",
+          "en": "spell; ban"
+        },
+        "id_ref": "nomen_bann"
+      },
+      {
+        "wort": "faszinieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مجذوب کردن",
+          "en": "to fascinate"
+        },
+        "id_ref": "verb_faszinieren"
+      },
+      {
+        "wort": "die Gefahr",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خطر",
+          "en": "danger"
+        },
+        "id_ref": "nomen_gefahr"
+      },
+      {
+        "wort": "fesseln",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مجذوب کردن",
+          "en": "to captivate"
+        },
+        "id_ref": "verb_fesseln"
+      },
+      {
+        "wort": "spannend",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "هیجان‌انگیز",
+          "en": "exciting"
+        },
+        "id_ref": "adjektiv_spannend"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
