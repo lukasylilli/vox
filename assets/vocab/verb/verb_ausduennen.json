@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausduennen",
+  "wort": "ausdünnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تُنُک کردن، کم کردن (تعداد)"
+    ],
+    "en": [
+      "to thin out"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Wirtschaft"
+  ],
+  "ipa": "ˈaʊ̯sˌdʏnən",
+  "anmerkung": "Trennbar (dünnte aus, ausgedünnt).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir dünnen die Pflanzen aus.",
+      "uebersetzung": {
+        "fa": "گیاهان را تُنُک می‌کنیم.",
+        "en": "We thin out the plants."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Auf dem Land wurde der Busverkehr so stark ausgedünnt, dass viele Menschen ein Auto brauchen.",
+      "uebersetzung": {
+        "fa": "در روستاها رفت‌وآمد اتوبوس آن‌قدر کم شده که خیلی‌ها به ماشین نیاز دارند.",
+        "en": "In rural areas bus services have been thinned out so much that many people need a car."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "reduzieren",
+      "uebersetzung": {
+        "fa": "کاهش دادن",
+        "en": "to reduce"
+      }
+    },
+    {
+      "wort": "verringern",
+      "uebersetzung": {
+        "fa": "کم کردن",
+        "en": "to decrease"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verdichten",
+      "uebersetzung": {
+        "fa": "متراکم کردن",
+        "en": "to condense"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- + dünnen (از dünn = نازک، کم‌پشت)",
+    "en": "aus- + dünnen (from dünn = thin)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "ausdünnen",
+      "praeteritum": "dünnte aus",
+      "partizip2": "ausgedünnt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "dünne aus",
+        "du": "dünnst aus",
+        "er_sie_es": "dünnt aus",
+        "wir": "dünnen aus",
+        "ihr": "dünnt aus",
+        "sie_Sie": "dünnen aus"
+      },
+      "praeteritum": {
+        "ich": "dünnte aus",
+        "du": "dünntest aus",
+        "er_sie_es": "dünnte aus",
+        "wir": "dünnten aus",
+        "ihr": "dünntet aus",
+        "sie_Sie": "dünnten aus"
+      },
+      "konjunktiv1": {
+        "ich": "dünne aus",
+        "du": "dünnest aus",
+        "er_sie_es": "dünne aus",
+        "wir": "dünnen aus",
+        "ihr": "dünnet aus",
+        "sie_Sie": "dünnen aus"
+      },
+      "konjunktiv2": {
+        "ich": "dünnte aus",
+        "du": "dünntest aus",
+        "er_sie_es": "dünnte aus",
+        "wir": "dünnten aus",
+        "ihr": "dünntet aus",
+        "sie_Sie": "dünnten aus"
+      },
+      "imperativ": {
+        "du": "Dünne aus!",
+        "ihr": "Dünnt aus!",
+        "Sie": "Dünnen Sie aus!"
+      }
+    },
+    "partizip1": "ausdünnend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "dünn",
+    "woerter": [
+      {
+        "wort": "dünn",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نازک، کم‌پشت",
+          "en": "thin"
+        },
+        "id_ref": "adjektiv_duenn"
+      },
+      {
+        "wort": "reduzieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کاهش دادن",
+          "en": "to reduce"
+        },
+        "id_ref": "verb_reduzieren"
+      },
+      {
+        "wort": "der Wald",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جنگل",
+          "en": "forest"
+        },
+        "id_ref": "nomen_wald"
+      },
+      {
+        "wort": "der Verkehr",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رفت‌وآمد",
+          "en": "traffic"
+        },
+        "id_ref": "nomen_verkehr"
+      },
+      {
+        "wort": "verringern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کم کردن",
+          "en": "to decrease"
+        },
+        "id_ref": "verb_verringern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

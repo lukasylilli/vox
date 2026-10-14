@@ -2859,6 +2859,9 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۴۹۴ | atzen | `Verben_regelmaesig.txt` | 2026-10-13 | اصطلاح شکارچیان/قدیمی — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۹۵ | aufächzen | `Verben_regelmaesig.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۹۶ | appretieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی (نساجی) — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۹۷ | äugeln | `Verben_regelmaesig.txt` | 2026-10-13 | قدیمی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۹۸ | äugen | `Verben_regelmaesig.txt` | 2026-10-13 | اصطلاح شکارچیان — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۹۹ | ausixen | `Verben_regelmaesig.txt` | 2026-10-13 | محاوره‌ای، املا نوسان‌دار — قاعده‌ی ۱۴/۱۶ | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 

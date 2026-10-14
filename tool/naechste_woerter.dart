@@ -1547,6 +1547,9 @@ const zurueckgestellt = <String>{
   'atzen', // zurückgestellt (Regel 14/16): Jägersprache/veraltet 2026-10-13
   'aufächzen', // zurückgestellt (Regel 14/16): selten 2026-10-13
   'appretieren', // zurückgestellt (Regel 14/16): fachsprachlich (Textil) 2026-10-13
+  'äugeln', // zurückgestellt (Regel 14/16): veraltet 2026-10-13
+  'äugen', // zurückgestellt (Regel 14/16): Jägersprache/gehoben 2026-10-13
+  'ausixen', // zurückgestellt (Regel 14/16): umgangssprachlich, Schreibung schwankt 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

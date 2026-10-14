@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_aushaendigen",
+  "wort": "aushändigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تحویل دادن (رسمی)"
+    ],
+    "en": [
+      "to hand over"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Behörden",
+    "Arbeit"
+  ],
+  "ipa": "ˈaʊ̯sˌhɛndɪɡn̩",
+  "anmerkung": "Trennbar (händigte aus, ausgehändigt). Förmlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir händigen Ihnen den Schlüssel aus.",
+      "uebersetzung": {
+        "fa": "کلید را به شما تحویل می‌دهیم.",
+        "en": "We hand you the key."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Zeugnis wird erst ausgehändigt, wenn alle Gebühren bezahlt sind.",
+      "uebersetzung": {
+        "fa": "گواهی‌نامه تنها وقتی تحویل داده می‌شود که همه‌ی هزینه‌ها پرداخت شده باشد.",
+        "en": "The certificate is only handed over once all fees have been paid."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "übergeben",
+      "uebersetzung": {
+        "fa": "تحویل دادن",
+        "en": "to hand over"
+      }
+    },
+    {
+      "wort": "überreichen",
+      "uebersetzung": {
+        "fa": "اهدا کردن",
+        "en": "to present"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "einbehalten",
+      "uebersetzung": {
+        "fa": "نگه داشتن",
+        "en": "to withhold"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- + händigen (از die Hand = دست)",
+    "en": "aus- + händigen (from die Hand = hand)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem (Dat) etwas (Akk) aushändigen",
+        "bedeutung": "jemandem etwas offiziell übergeben",
+        "beispiel": "Man händigte ihr die Dokumente aus.",
+        "uebersetzung": {
+          "fa": "مدارک را به او تحویل دادند.",
+          "en": "The documents were handed to her."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "aushändigen",
+      "praeteritum": "händigte aus",
+      "partizip2": "ausgehändigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "händige aus",
+        "du": "händigst aus",
+        "er_sie_es": "händigt aus",
+        "wir": "händigen aus",
+        "ihr": "händigt aus",
+        "sie_Sie": "händigen aus"
+      },
+      "praeteritum": {
+        "ich": "händigte aus",
+        "du": "händigtest aus",
+        "er_sie_es": "händigte aus",
+        "wir": "händigten aus",
+        "ihr": "händigtet aus",
+        "sie_Sie": "händigten aus"
+      },
+      "konjunktiv1": {
+        "ich": "händige aus",
+        "du": "händigest aus",
+        "er_sie_es": "händige aus",
+        "wir": "händigen aus",
+        "ihr": "händiget aus",
+        "sie_Sie": "händigen aus"
+      },
+      "konjunktiv2": {
+        "ich": "händigte aus",
+        "du": "händigtest aus",
+        "er_sie_es": "händigte aus",
+        "wir": "händigten aus",
+        "ihr": "händigtet aus",
+        "sie_Sie": "händigten aus"
+      },
+      "imperativ": {
+        "du": "Händige aus!",
+        "ihr": "Händigt aus!",
+        "Sie": "Händigen Sie aus!"
+      }
+    },
+    "partizip1": "aushändigend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "die Hand",
+    "woerter": [
+      {
+        "wort": "übergeben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تحویل دادن",
+          "en": "to hand over"
+        },
+        "id_ref": "verb_uebergeben"
+      },
+      {
+        "wort": "die Hand",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دست",
+          "en": "hand"
+        },
+        "id_ref": "nomen_hand"
+      },
+      {
+        "wort": "das Dokument",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سند",
+          "en": "document"
+        },
+        "id_ref": "nomen_dokument"
+      },
+      {
+        "wort": "der Schlüssel",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کلید",
+          "en": "key"
+        },
+        "id_ref": "nomen_schluessel"
+      },
+      {
+        "wort": "überreichen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اهدا کردن",
+          "en": "to present"
+        },
+        "id_ref": "verb_ueberreichen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

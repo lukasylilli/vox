@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausklinken",
+  "wort": "ausklinken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(قلاب، قفل) باز کردن",
+      "کنار کشیدن، خود را جدا کردن"
+    ],
+    "en": [
+      "to release",
+      "to opt out"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Alltag"
+  ],
+  "ipa": "ˈaʊ̯sˌklɪŋkn̩",
+  "anmerkung": "Trennbar (klinkte aus, ausgeklinkt). Reflexiv umgangssprachlich: «sich ausklinken» (= sich zurückziehen).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich klinke mich hier aus.",
+      "uebersetzung": {
+        "fa": "من از این ماجرا کنار می‌کشم.",
+        "en": "I'm opting out here."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach zwei Stunden Diskussion hat er sich ausgeklinkt und ist nach Hause gegangen.",
+      "uebersetzung": {
+        "fa": "پس از دو ساعت بحث، او کنار کشید و به خانه رفت.",
+        "en": "After two hours of discussion he opted out and went home."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich zurückziehen",
+      "uebersetzung": {
+        "fa": "کنار کشیدن",
+        "en": "to withdraw"
+      }
+    },
+    {
+      "wort": "lösen",
+      "uebersetzung": {
+        "fa": "باز کردن",
+        "en": "to release"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "einklinken",
+      "uebersetzung": {
+        "fa": "قلاب کردن، وصل کردن",
+        "en": "to latch"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- + klinken (از die Klinke = دستگیره، چفت)",
+    "en": "aus- + klinken (from die Klinke = latch, handle)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "ausklinken",
+      "praeteritum": "klinkte aus",
+      "partizip2": "ausgeklinkt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "klinke aus",
+        "du": "klinkst aus",
+        "er_sie_es": "klinkt aus",
+        "wir": "klinken aus",
+        "ihr": "klinkt aus",
+        "sie_Sie": "klinken aus"
+      },
+      "praeteritum": {
+        "ich": "klinkte aus",
+        "du": "klinktest aus",
+        "er_sie_es": "klinkte aus",
+        "wir": "klinkten aus",
+        "ihr": "klinktet aus",
+        "sie_Sie": "klinkten aus"
+      },
+      "konjunktiv1": {
+        "ich": "klinke aus",
+        "du": "klinkest aus",
+        "er_sie_es": "klinke aus",
+        "wir": "klinken aus",
+        "ihr": "klinket aus",
+        "sie_Sie": "klinken aus"
+      },
+      "konjunktiv2": {
+        "ich": "klinkte aus",
+        "du": "klinktest aus",
+        "er_sie_es": "klinkte aus",
+        "wir": "klinkten aus",
+        "ihr": "klinktet aus",
+        "sie_Sie": "klinkten aus"
+      },
+      "imperativ": {
+        "du": "Klinke aus!",
+        "ihr": "Klinkt aus!",
+        "Sie": "Klinken Sie aus!"
+      }
+    },
+    "partizip1": "ausklinkend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "die Klinke",
+    "woerter": [
+      {
+        "wort": "die Klinke",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دستگیره‌ی در",
+          "en": "door handle"
+        },
+        "id_ref": "nomen_klinke"
+      },
+      {
+        "wort": "lösen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "باز کردن؛ حل کردن",
+          "en": "to release; to solve"
+        },
+        "id_ref": "verb_loesen"
+      },
+      {
+        "wort": "sich zurückziehen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کنار کشیدن",
+          "en": "to withdraw"
+        },
+        "id_ref": "verb_sich_zurueckziehen"
+      },
+      {
+        "wort": "aussteigen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پیاده شدن؛ کنار کشیدن",
+          "en": "to get out"
+        },
+        "id_ref": "verb_aussteigen"
+      },
+      {
+        "wort": "verlassen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترک کردن",
+          "en": "to leave"
+        },
+        "id_ref": "verb_verlassen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

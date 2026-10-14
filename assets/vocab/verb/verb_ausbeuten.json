@@ -1,0 +1,166 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausbeuten",
+  "wort": "ausbeuten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "استثمار کردن، بهره‌کشی کردن",
+      "استخراج کردن (منابع)"
+    ],
+    "en": [
+      "to exploit"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Wirtschaft"
+  ],
+  "ipa": "ˈaʊ̯sˌbɔɪ̯tn̩",
+  "anmerkung": "Trennbar (beutete aus, ausgebeutet).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Firma beutet die Arbeiter aus.",
+      "uebersetzung": {
+        "fa": "شرکت از کارگران بهره‌کشی می‌کند.",
+        "en": "The company exploits the workers."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In vielen Ländern werden Kinder ausgebeutet, damit wir billige Kleidung kaufen können.",
+      "uebersetzung": {
+        "fa": "در بسیاری از کشورها کودکان استثمار می‌شوند تا ما بتوانیم لباس ارزان بخریم.",
+        "en": "In many countries children are exploited so that we can buy cheap clothes."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausnutzen",
+      "uebersetzung": {
+        "fa": "سوءاستفاده کردن",
+        "en": "to take advantage of"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- + beuten (از die Beute = غنیمت)",
+    "en": "aus- + beuten (from die Beute = loot)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "ausbeuten",
+      "praeteritum": "beutete aus",
+      "partizip2": "ausgebeutet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beute aus",
+        "du": "beutest aus",
+        "er_sie_es": "beutet aus",
+        "wir": "beuten aus",
+        "ihr": "beutet aus",
+        "sie_Sie": "beuten aus"
+      },
+      "praeteritum": {
+        "ich": "beutete aus",
+        "du": "beutetest aus",
+        "er_sie_es": "beutete aus",
+        "wir": "beuteten aus",
+        "ihr": "beutetet aus",
+        "sie_Sie": "beuteten aus"
+      },
+      "konjunktiv1": {
+        "ich": "beute aus",
+        "du": "beutest aus",
+        "er_sie_es": "beute aus",
+        "wir": "beuten aus",
+        "ihr": "beutet aus",
+        "sie_Sie": "beuten aus"
+      },
+      "konjunktiv2": {
+        "ich": "beutete aus",
+        "du": "beutetest aus",
+        "er_sie_es": "beutete aus",
+        "wir": "beuteten aus",
+        "ihr": "beutetet aus",
+        "sie_Sie": "beuteten aus"
+      },
+      "imperativ": {
+        "du": "Beute aus!",
+        "ihr": "Beutet aus!",
+        "Sie": "Beuten Sie aus!"
+      }
+    },
+    "partizip1": "ausbeutend",
+    "nominalisierung": "die Ausbeutung"
+  },
+  "wortnetz": {
+    "grundwort": "die Beute",
+    "woerter": [
+      {
+        "wort": "ausnutzen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سوءاستفاده کردن",
+          "en": "to exploit"
+        },
+        "id_ref": "verb_ausnutzen"
+      },
+      {
+        "wort": "die Ausbeutung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بهره‌کشی",
+          "en": "exploitation"
+        },
+        "id_ref": "nomen_ausbeutung"
+      },
+      {
+        "wort": "der Arbeiter",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کارگر",
+          "en": "worker"
+        },
+        "id_ref": "nomen_arbeiter"
+      },
+      {
+        "wort": "der Lohn",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دستمزد",
+          "en": "wage"
+        },
+        "id_ref": "nomen_lohn"
+      },
+      {
+        "wort": "ungerecht",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ناعادلانه",
+          "en": "unfair"
+        },
+        "id_ref": "adjektiv_ungerecht"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

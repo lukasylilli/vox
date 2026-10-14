@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausarten",
+  "wort": "ausarten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "از کنترل خارج شدن، به ... کشیده شدن"
+    ],
+    "en": [
+      "to degenerate",
+      "to get out of hand"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag",
+    "Gesellschaft"
+  ],
+  "ipa": "ˈaʊ̯sˌʔaːɐ̯tn̩",
+  "anmerkung": "Trennbar (artete aus, ausgeartet), Perfekt mit «sein». Meist «in + Akk ausarten».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Party artet aus.",
+      "uebersetzung": {
+        "fa": "مهمانی از کنترل خارج می‌شود.",
+        "en": "The party gets out of hand."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Diskussion ist schnell in einen lauten Streit ausgeartet, weil niemand zuhören wollte.",
+      "uebersetzung": {
+        "fa": "بحث زود به دعوای پرسروصدا کشید، چون هیچ‌کس نمی‌خواست گوش کند.",
+        "en": "The discussion quickly degenerated into a loud argument because no one wanted to listen."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "eskalieren",
+      "uebersetzung": {
+        "fa": "بالا گرفتن",
+        "en": "to escalate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- + arten (از die Art = نوع، روش)",
+    "en": "aus- + arten (from die Art = kind, manner)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in + Akk ausarten",
+        "bedeutung": "sich negativ zu etwas entwickeln",
+        "beispiel": "Der Spaß artete in Gewalt aus.",
+        "uebersetzung": {
+          "fa": "شوخی به خشونت کشید.",
+          "en": "The fun degenerated into violence."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausarten",
+      "praeteritum": "artete aus",
+      "partizip2": "ausgeartet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "arte aus",
+        "du": "artest aus",
+        "er_sie_es": "artet aus",
+        "wir": "arten aus",
+        "ihr": "artet aus",
+        "sie_Sie": "arten aus"
+      },
+      "praeteritum": {
+        "ich": "artete aus",
+        "du": "artetest aus",
+        "er_sie_es": "artete aus",
+        "wir": "arteten aus",
+        "ihr": "artetet aus",
+        "sie_Sie": "arteten aus"
+      },
+      "konjunktiv1": {
+        "ich": "arte aus",
+        "du": "artest aus",
+        "er_sie_es": "arte aus",
+        "wir": "arten aus",
+        "ihr": "artet aus",
+        "sie_Sie": "arten aus"
+      },
+      "konjunktiv2": {
+        "ich": "artete aus",
+        "du": "artetest aus",
+        "er_sie_es": "artete aus",
+        "wir": "arteten aus",
+        "ihr": "artetet aus",
+        "sie_Sie": "arteten aus"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "ausartend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "die Art",
+    "woerter": [
+      {
+        "wort": "eskalieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بالا گرفتن",
+          "en": "to escalate"
+        },
+        "id_ref": "verb_eskalieren"
+      },
+      {
+        "wort": "der Streit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دعوا",
+          "en": "argument"
+        },
+        "id_ref": "nomen_streit"
+      },
+      {
+        "wort": "die Kontrolle",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کنترل",
+          "en": "control"
+        },
+        "id_ref": "nomen_kontrolle"
+      },
+      {
+        "wort": "übertreiben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زیاده‌روی کردن",
+          "en": "to exaggerate"
+        },
+        "id_ref": "verb_uebertreiben"
+      },
+      {
+        "wort": "die Art",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نوع، روش",
+          "en": "kind"
+        },
+        "id_ref": "nomen_art"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

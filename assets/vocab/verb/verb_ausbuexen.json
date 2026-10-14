@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausbuexen",
+  "wort": "ausbüxen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جیم شدن، فرار کردن"
+    ],
+    "en": [
+      "to run away",
+      "to bolt"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈaʊ̯sˌbʏksn̩",
+  "anmerkung": "Trennbar (büxte aus, ausgebüxt), Perfekt mit «sein». Umgangssprachlich, meist von Kindern oder Tieren.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hund ist ausgebüxt.",
+      "uebersetzung": {
+        "fa": "سگ فرار کرده است.",
+        "en": "The dog has run away."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Kind war aus dem Kindergarten ausgebüxt, wurde aber schnell im Park gefunden.",
+      "uebersetzung": {
+        "fa": "بچه از مهدکودک جیم شده بود، اما زود در پارک پیدا شد.",
+        "en": "The child had slipped away from nursery but was quickly found in the park."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "weglaufen",
+      "uebersetzung": {
+        "fa": "فرار کردن",
+        "en": "to run away"
+      }
+    },
+    {
+      "wort": "abhauen",
+      "uebersetzung": {
+        "fa": "در رفتن",
+        "en": "to clear off"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- + büxen (از Büx = شلوار، در لهجه‌ی شمالی)",
+    "en": "aus- + büxen (from Low German Büx = trousers)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "ausbüxen",
+      "praeteritum": "büxte aus",
+      "partizip2": "ausgebüxt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "büxe aus",
+        "du": "büxt aus",
+        "er_sie_es": "büxt aus",
+        "wir": "büxen aus",
+        "ihr": "büxt aus",
+        "sie_Sie": "büxen aus"
+      },
+      "praeteritum": {
+        "ich": "büxte aus",
+        "du": "büxtest aus",
+        "er_sie_es": "büxte aus",
+        "wir": "büxten aus",
+        "ihr": "büxtet aus",
+        "sie_Sie": "büxten aus"
+      },
+      "konjunktiv1": {
+        "ich": "büxe aus",
+        "du": "büxest aus",
+        "er_sie_es": "büxe aus",
+        "wir": "büxen aus",
+        "ihr": "büxet aus",
+        "sie_Sie": "büxen aus"
+      },
+      "konjunktiv2": {
+        "ich": "büxte aus",
+        "du": "büxtest aus",
+        "er_sie_es": "büxte aus",
+        "wir": "büxten aus",
+        "ihr": "büxtet aus",
+        "sie_Sie": "büxten aus"
+      },
+      "imperativ": {
+        "du": "Büxe aus!",
+        "ihr": "Büxt aus!",
+        "Sie": "Büxen Sie aus!"
+      }
+    },
+    "partizip1": "ausbüxend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "weglaufen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فرار کردن",
+          "en": "to run away"
+        },
+        "id_ref": "verb_weglaufen"
+      },
+      {
+        "wort": "abhauen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "در رفتن",
+          "en": "to clear off"
+        },
+        "id_ref": "verb_abhauen"
+      },
+      {
+        "wort": "fliehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گریختن",
+          "en": "to flee"
+        },
+        "id_ref": "verb_fliehen"
+      },
+      {
+        "wort": "der Kindergarten",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مهدکودک",
+          "en": "nursery"
+        },
+        "id_ref": "nomen_kindergarten"
+      },
+      {
+        "wort": "suchen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گشتن",
+          "en": "to look for"
+        },
+        "id_ref": "verb_suchen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
