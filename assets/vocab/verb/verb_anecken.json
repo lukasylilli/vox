@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_anecken",
+  "wort": "anecken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با رفتار) دیگران را رنجاندن، مورد انتقاد قرار گرفتن"
+    ],
+    "en": [
+      "to rub people up the wrong way",
+      "to cause offence"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Beziehungen"
+  ],
+  "ipa": "ˈanˌʔɛkn̩",
+  "anmerkung": "Trennbar (eckte an, angeeckt), Perfekt mit «sein». Umgangssprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mit seiner Meinung eckt er oft an.",
+      "uebersetzung": {
+        "fa": "او با نظرش اغلب دیگران را می‌رنجاند.",
+        "en": "He often rubs people up the wrong way with his opinion."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil sie immer ehrlich sagt, was sie denkt, ist sie bei ihren Vorgesetzten schon oft angeeckt.",
+      "uebersetzung": {
+        "fa": "چون همیشه رک می‌گوید چه فکر می‌کند، بارها با مدیرانش به مشکل خورده است.",
+        "en": "Because she always says honestly what she thinks, she has often fallen foul of her superiors."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anstoßen",
+      "uebersetzung": {
+        "fa": "مایه‌ی رنجش شدن",
+        "en": "to give offence"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (به) + ecken (از die Ecke = گوشه)",
+    "en": "an- (against) + ecken (from die Ecke = corner)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "bei + Dat anecken",
+        "bedeutung": "bei jemandem Missfallen erregen",
+        "beispiel": "Er ist bei seinen Kollegen angeeckt.",
+        "uebersetzung": {
+          "fa": "او همکارانش را از خودش رنجاند.",
+          "en": "He fell foul of his colleagues."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "anecken",
+      "praeteritum": "eckte an",
+      "partizip2": "angeeckt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ecke an",
+        "du": "eckst an",
+        "er_sie_es": "eckt an",
+        "wir": "ecken an",
+        "ihr": "eckt an",
+        "sie_Sie": "ecken an"
+      },
+      "praeteritum": {
+        "ich": "eckte an",
+        "du": "ecktest an",
+        "er_sie_es": "eckte an",
+        "wir": "eckten an",
+        "ihr": "ecktet an",
+        "sie_Sie": "eckten an"
+      },
+      "konjunktiv1": {
+        "ich": "ecke an",
+        "du": "eckest an",
+        "er_sie_es": "ecke an",
+        "wir": "ecken an",
+        "ihr": "ecket an",
+        "sie_Sie": "ecken an"
+      },
+      "konjunktiv2": {
+        "ich": "eckte an",
+        "du": "ecktest an",
+        "er_sie_es": "eckte an",
+        "wir": "eckten an",
+        "ihr": "ecktet an",
+        "sie_Sie": "eckten an"
+      },
+      "imperativ": {
+        "du": "Ecke an!",
+        "ihr": "Eckt an!",
+        "Sie": "Ecken Sie an!"
+      }
+    },
+    "partizip1": "aneckend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "die Ecke",
+    "woerter": [
+      {
+        "wort": "die Ecke",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گوشه",
+          "en": "corner"
+        },
+        "id_ref": "nomen_ecke"
+      },
+      {
+        "wort": "kritisieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انتقاد کردن",
+          "en": "to criticise"
+        },
+        "id_ref": "verb_kritisieren"
+      },
+      {
+        "wort": "die Meinung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نظر",
+          "en": "opinion"
+        },
+        "id_ref": "nomen_meinung"
+      },
+      {
+        "wort": "direkt",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رک، مستقیم",
+          "en": "direct"
+        },
+        "id_ref": "adjektiv_direkt"
+      },
+      {
+        "wort": "der Konflikt",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "درگیری",
+          "en": "conflict"
+        },
+        "id_ref": "nomen_konflikt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

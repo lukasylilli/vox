@@ -1,0 +1,166 @@
+{
+  "schema": "3.0",
+  "id": "verb_anheimeln",
+  "wort": "anheimeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "احساس خانه و آرامش دادن"
+    ],
+    "en": [
+      "to feel homely",
+      "to appeal (cosily)"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wohnen",
+    "Gefühle"
+  ],
+  "ipa": "ˈanˌhaɪ̯ml̩n",
+  "anmerkung": "Trennbar (heimelte an, angeheimelt). Partizip I «anheimelnd» meist adjektivisch (= gemütlich).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Zimmer heimelt mich an.",
+      "uebersetzung": {
+        "fa": "این اتاق به من حس خانه می‌دهد.",
+        "en": "The room feels homely to me."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die kleine Hütte mit dem Kaminfeuer heimelte uns sofort an, obwohl draußen ein Sturm tobte.",
+      "uebersetzung": {
+        "fa": "کلبه‌ی کوچک با آتش شومینه فوراً به ما حس خانه داد، با اینکه بیرون طوفان بود.",
+        "en": "The little hut with the open fire felt instantly homely to us, although a storm was raging outside."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gemütlich wirken",
+      "uebersetzung": {
+        "fa": "دنج به نظر رسیدن",
+        "en": "to seem cosy"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- + heimeln (از das Heim = خانه)",
+    "en": "an- + heimeln (from das Heim = home)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "anheimeln",
+      "praeteritum": "heimelte an",
+      "partizip2": "angeheimelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "heimle an",
+        "du": "heimelst an",
+        "er_sie_es": "heimelt an",
+        "wir": "heimeln an",
+        "ihr": "heimelt an",
+        "sie_Sie": "heimeln an"
+      },
+      "praeteritum": {
+        "ich": "heimelte an",
+        "du": "heimeltest an",
+        "er_sie_es": "heimelte an",
+        "wir": "heimelten an",
+        "ihr": "heimeltet an",
+        "sie_Sie": "heimelten an"
+      },
+      "konjunktiv1": {
+        "ich": "heimle an",
+        "du": "heimlest an",
+        "er_sie_es": "heimle an",
+        "wir": "heimeln an",
+        "ihr": "heimlet an",
+        "sie_Sie": "heimeln an"
+      },
+      "konjunktiv2": {
+        "ich": "heimelte an",
+        "du": "heimeltest an",
+        "er_sie_es": "heimelte an",
+        "wir": "heimelten an",
+        "ihr": "heimeltet an",
+        "sie_Sie": "heimelten an"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "anheimelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "das Heim",
+    "woerter": [
+      {
+        "wort": "gemütlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دنج، راحت",
+          "en": "cosy"
+        },
+        "id_ref": "adjektiv_gemuetlich"
+      },
+      {
+        "wort": "das Heim",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خانه، آسایشگاه",
+          "en": "home"
+        },
+        "id_ref": "nomen_heim"
+      },
+      {
+        "wort": "heimisch",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بومی، خودمانی",
+          "en": "homely"
+        },
+        "id_ref": "adjektiv_heimisch"
+      },
+      {
+        "wort": "die Wärme",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گرما",
+          "en": "warmth"
+        },
+        "id_ref": "nomen_waerme"
+      },
+      {
+        "wort": "das Zuhause",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خانه",
+          "en": "home"
+        },
+        "id_ref": "nomen_zuhause"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

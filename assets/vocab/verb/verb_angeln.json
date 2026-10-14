@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_angeln",
+  "wort": "angeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ماهی گرفتن (با قلاب)"
+    ],
+    "en": [
+      "to fish",
+      "to angle"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Freizeit",
+    "Natur"
+  ],
+  "ipa": "ˈaŋl̩n",
+  "anmerkung": "Regelmäßig (angelte, geangelt). Nicht trennbar («an-» ist hier kein Präfix). Umgangssprachlich auch: «sich jemanden angeln» (= erobern).",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Mein Opa angelt gern.",
+      "uebersetzung": {
+        "fa": "پدربزرگم ماهی‌گیری را دوست دارد.",
+        "en": "My grandpa likes fishing."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Am Wochenende sind wir an den See gefahren, um zu angeln.",
+      "uebersetzung": {
+        "fa": "آخر هفته به دریاچه رفتیم تا ماهی بگیریم.",
+        "en": "At the weekend we went to the lake to go fishing."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fischen",
+      "uebersetzung": {
+        "fa": "ماهی گرفتن",
+        "en": "to fish"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از die Angel (قلاب ماهی‌گیری)",
+    "en": "from die Angel (fishing rod)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "nach + Dat angeln",
+        "bedeutung": "etwas zu fangen/greifen versuchen",
+        "beispiel": "Er angelt nach dem Schlüssel unter dem Sofa.",
+        "uebersetzung": {
+          "fa": "او زیر مبل دنبال کلید می‌گردد (دست دراز می‌کند).",
+          "en": "He is fishing for the key under the sofa."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "angeln",
+      "praeteritum": "angelte",
+      "partizip2": "geangelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "angle",
+        "du": "angelst",
+        "er_sie_es": "angelt",
+        "wir": "angeln",
+        "ihr": "angelt",
+        "sie_Sie": "angeln"
+      },
+      "praeteritum": {
+        "ich": "angelte",
+        "du": "angeltest",
+        "er_sie_es": "angelte",
+        "wir": "angelten",
+        "ihr": "angeltet",
+        "sie_Sie": "angelten"
+      },
+      "konjunktiv1": {
+        "ich": "angle",
+        "du": "anglest",
+        "er_sie_es": "angle",
+        "wir": "angeln",
+        "ihr": "anglet",
+        "sie_Sie": "angeln"
+      },
+      "konjunktiv2": {
+        "ich": "angelte",
+        "du": "angeltest",
+        "er_sie_es": "angelte",
+        "wir": "angelten",
+        "ihr": "angeltet",
+        "sie_Sie": "angelten"
+      },
+      "imperativ": {
+        "du": "Angle!",
+        "ihr": "Angelt!",
+        "Sie": "Angeln Sie!"
+      }
+    },
+    "partizip1": "angelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "die Angel",
+    "woerter": [
+      {
+        "wort": "der Fisch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ماهی",
+          "en": "fish"
+        },
+        "id_ref": "nomen_fisch"
+      },
+      {
+        "wort": "die Angel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قلاب ماهی‌گیری",
+          "en": "fishing rod"
+        },
+        "id_ref": "nomen_angel"
+      },
+      {
+        "wort": "der See",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دریاچه",
+          "en": "lake"
+        },
+        "id_ref": "nomen_see"
+      },
+      {
+        "wort": "fischen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ماهی گرفتن",
+          "en": "to fish"
+        },
+        "id_ref": "verb_fischen"
+      },
+      {
+        "wort": "das Hobby",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سرگرمی",
+          "en": "hobby"
+        },
+        "id_ref": "nomen_hobby"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

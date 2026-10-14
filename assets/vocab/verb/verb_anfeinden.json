@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_anfeinden",
+  "wort": "anfeinden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دشمنی کردن (با کسی)، خصمانه رفتار کردن"
+    ],
+    "en": [
+      "to be hostile to",
+      "to attack"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gesellschaft"
+  ],
+  "ipa": "ˈanˌfaɪ̯ndn̩",
+  "anmerkung": "Trennbar (feindete an, angefeindet). Meist im Passiv: «angefeindet werden».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er wird im Netz angefeindet.",
+      "uebersetzung": {
+        "fa": "در اینترنت با او خصمانه رفتار می‌شود.",
+        "en": "He is being attacked online."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil die Journalistin über Korruption berichtet hatte, wurde sie monatelang angefeindet.",
+      "uebersetzung": {
+        "fa": "چون آن روزنامه‌نگار درباره‌ی فساد گزارش داده بود، ماه‌ها با او دشمنی کردند.",
+        "en": "Because the journalist had reported on corruption, she was attacked for months."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "angreifen",
+      "uebersetzung": {
+        "fa": "حمله کردن",
+        "en": "to attack"
+      }
+    },
+    {
+      "wort": "anfechten",
+      "uebersetzung": {
+        "fa": "به چالش کشیدن",
+        "en": "to challenge"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "unterstützen",
+      "uebersetzung": {
+        "fa": "حمایت کردن",
+        "en": "to support"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- + feinden (از der Feind = دشمن)",
+    "en": "an- + feinden (from der Feind = enemy)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "anfeinden",
+      "praeteritum": "feindete an",
+      "partizip2": "angefeindet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "feinde an",
+        "du": "feindest an",
+        "er_sie_es": "feindet an",
+        "wir": "feinden an",
+        "ihr": "feindet an",
+        "sie_Sie": "feinden an"
+      },
+      "praeteritum": {
+        "ich": "feindete an",
+        "du": "feindetest an",
+        "er_sie_es": "feindete an",
+        "wir": "feindeten an",
+        "ihr": "feindetet an",
+        "sie_Sie": "feindeten an"
+      },
+      "konjunktiv1": {
+        "ich": "feinde an",
+        "du": "feindest an",
+        "er_sie_es": "feinde an",
+        "wir": "feinden an",
+        "ihr": "feindet an",
+        "sie_Sie": "feinden an"
+      },
+      "konjunktiv2": {
+        "ich": "feindete an",
+        "du": "feindetest an",
+        "er_sie_es": "feindete an",
+        "wir": "feindeten an",
+        "ihr": "feindetet an",
+        "sie_Sie": "feindeten an"
+      },
+      "imperativ": {
+        "du": "Feinde an!",
+        "ihr": "Feindet an!",
+        "Sie": "Feinden Sie an!"
+      }
+    },
+    "partizip1": "anfeindend",
+    "nominalisierung": "die Anfeindung"
+  },
+  "wortnetz": {
+    "grundwort": "der Feind",
+    "woerter": [
+      {
+        "wort": "der Feind",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دشمن",
+          "en": "enemy"
+        },
+        "id_ref": "nomen_feind"
+      },
+      {
+        "wort": "feindlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خصمانه",
+          "en": "hostile"
+        },
+        "id_ref": "adjektiv_feindlich"
+      },
+      {
+        "wort": "angreifen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حمله کردن",
+          "en": "to attack"
+        },
+        "id_ref": "verb_angreifen"
+      },
+      {
+        "wort": "die Anfeindung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دشمنی",
+          "en": "hostility"
+        },
+        "id_ref": "nomen_anfeindung"
+      },
+      {
+        "wort": "unterstützen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حمایت کردن",
+          "en": "to support"
+        },
+        "id_ref": "verb_unterstuetzen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

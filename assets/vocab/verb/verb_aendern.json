@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_aendern",
+  "wort": "ändern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تغییر دادن",
+      "(sich) تغییر کردن"
+    ],
+    "en": [
+      "to change",
+      "to alter"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈɛndɐn",
+  "anmerkung": "Regelmäßig (änderte, geändert). Reflexiv: «sich ändern» (= anders werden).",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Das Wetter ändert sich.",
+      "uebersetzung": {
+        "fa": "هوا تغییر می‌کند.",
+        "en": "The weather is changing."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wir mussten unsere Pläne ändern, weil der Flug gestrichen wurde.",
+      "uebersetzung": {
+        "fa": "مجبور شدیم برنامه‌هایمان را عوض کنیم، چون پرواز لغو شد.",
+        "en": "We had to change our plans because the flight was cancelled."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verändern",
+      "uebersetzung": {
+        "fa": "تغییر دادن",
+        "en": "to change"
+      }
+    },
+    {
+      "wort": "wechseln",
+      "uebersetzung": {
+        "fa": "عوض کردن",
+        "en": "to switch"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "beibehalten",
+      "uebersetzung": {
+        "fa": "حفظ کردن",
+        "en": "to keep"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از anders (طور دیگر)",
+    "en": "from anders (different)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "ändern",
+      "praeteritum": "änderte",
+      "partizip2": "geändert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ändere",
+        "du": "änderst",
+        "er_sie_es": "ändert",
+        "wir": "ändern",
+        "ihr": "ändert",
+        "sie_Sie": "ändern"
+      },
+      "praeteritum": {
+        "ich": "änderte",
+        "du": "ändertest",
+        "er_sie_es": "änderte",
+        "wir": "änderten",
+        "ihr": "ändertet",
+        "sie_Sie": "änderten"
+      },
+      "konjunktiv1": {
+        "ich": "ändere",
+        "du": "änderest",
+        "er_sie_es": "ändere",
+        "wir": "ändern",
+        "ihr": "änderet",
+        "sie_Sie": "ändern"
+      },
+      "konjunktiv2": {
+        "ich": "änderte",
+        "du": "ändertest",
+        "er_sie_es": "änderte",
+        "wir": "änderten",
+        "ihr": "ändertet",
+        "sie_Sie": "änderten"
+      },
+      "imperativ": {
+        "du": "Ändere!",
+        "ihr": "Ändert!",
+        "Sie": "Ändern Sie!"
+      }
+    },
+    "partizip1": "ändernd",
+    "nominalisierung": "die Änderung"
+  },
+  "wortnetz": {
+    "grundwort": "anders",
+    "woerter": [
+      {
+        "wort": "anders",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "طور دیگر",
+          "en": "differently"
+        },
+        "id_ref": "adverb_anders"
+      },
+      {
+        "wort": "die Änderung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تغییر",
+          "en": "change"
+        },
+        "id_ref": "nomen_aenderung"
+      },
+      {
+        "wort": "verändern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تغییر دادن",
+          "en": "to change"
+        },
+        "id_ref": "verb_veraendern"
+      },
+      {
+        "wort": "wechseln",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عوض کردن",
+          "en": "to change"
+        },
+        "id_ref": "verb_wechseln"
+      },
+      {
+        "wort": "der Plan",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برنامه",
+          "en": "plan"
+        },
+        "id_ref": "nomen_plan"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

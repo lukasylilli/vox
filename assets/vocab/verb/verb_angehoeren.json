@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_angehoeren",
+  "wort": "angehören",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "عضو بودن، تعلق داشتن"
+    ],
+    "en": [
+      "to belong to",
+      "to be a member of"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesellschaft",
+    "Arbeit"
+  ],
+  "ipa": "ˈanɡəˌhøːʁən",
+  "anmerkung": "Trennbar (gehörte an, angehört) — Partizip II ohne zusätzliches ge-. Mit Dativ. «der Vergangenheit angehören» (= vorbei sein).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie gehört dem Verein an.",
+      "uebersetzung": {
+        "fa": "او عضو باشگاه است.",
+        "en": "She is a member of the club."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Zeiten, in denen man für jede Überweisung zur Bank gehen musste, gehören der Vergangenheit an.",
+      "uebersetzung": {
+        "fa": "دورانی که برای هر انتقال پول باید به بانک می‌رفتی، دیگر گذشته است.",
+        "en": "The days when you had to go to the bank for every transfer are a thing of the past."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gehören zu",
+      "uebersetzung": {
+        "fa": "تعلق داشتن به",
+        "en": "to belong to"
+      }
+    },
+    {
+      "wort": "Mitglied sein",
+      "uebersetzung": {
+        "fa": "عضو بودن",
+        "en": "to be a member"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- + gehören (تعلق داشتن)",
+    "en": "an- + gehören (to belong)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "einer Sache (Dat) angehören",
+        "bedeutung": "Mitglied von etwas sein",
+        "beispiel": "Er gehört keiner Partei an.",
+        "uebersetzung": {
+          "fa": "او عضو هیچ حزبی نیست.",
+          "en": "He doesn't belong to any party."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "angehören",
+      "praeteritum": "gehörte an",
+      "partizip2": "angehört"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehöre an",
+        "du": "gehörst an",
+        "er_sie_es": "gehört an",
+        "wir": "gehören an",
+        "ihr": "gehört an",
+        "sie_Sie": "gehören an"
+      },
+      "praeteritum": {
+        "ich": "gehörte an",
+        "du": "gehörtest an",
+        "er_sie_es": "gehörte an",
+        "wir": "gehörten an",
+        "ihr": "gehörtet an",
+        "sie_Sie": "gehörten an"
+      },
+      "konjunktiv1": {
+        "ich": "gehöre an",
+        "du": "gehörest an",
+        "er_sie_es": "gehöre an",
+        "wir": "gehören an",
+        "ihr": "gehöret an",
+        "sie_Sie": "gehören an"
+      },
+      "konjunktiv2": {
+        "ich": "gehörte an",
+        "du": "gehörtest an",
+        "er_sie_es": "gehörte an",
+        "wir": "gehörten an",
+        "ihr": "gehörtet an",
+        "sie_Sie": "gehörten an"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "angehörend",
+    "nominalisierung": "der Angehörige"
+  },
+  "wortnetz": {
+    "grundwort": "gehören",
+    "woerter": [
+      {
+        "wort": "gehören",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تعلق داشتن",
+          "en": "to belong"
+        },
+        "id_ref": "verb_gehoeren"
+      },
+      {
+        "wort": "das Mitglied",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عضو",
+          "en": "member"
+        },
+        "id_ref": "nomen_mitglied"
+      },
+      {
+        "wort": "der Angehörige",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خویشاوند",
+          "en": "relative"
+        },
+        "id_ref": "nomen_angehoerige"
+      },
+      {
+        "wort": "der Verein",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "باشگاه، انجمن",
+          "en": "club"
+        },
+        "id_ref": "nomen_verein"
+      },
+      {
+        "wort": "die Zugehörigkeit",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تعلق، عضویت",
+          "en": "membership"
+        },
+        "id_ref": "nomen_zugehoerigkeit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
