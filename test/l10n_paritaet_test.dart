@@ -19,6 +19,7 @@ void main() {
   const schluessel = [
     // فاز F.1b — Suche: Hinweis «gebeugte Form» (2026-10-14)
     'such_form_etikett',
+    'such_meintest_du',
     // Pomodoro (2026-10-05) — Phasenende, Schalter
     'pomo_ended_focus',
     'pomo_ended_short_break',

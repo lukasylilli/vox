@@ -28,6 +28,7 @@ import '../../vokabular/widgets/wort_actions.dart';
 import '../controllers/word_controller.dart';
 import '../data/altwort_karte.dart';
 import '../data/such_rang.dart';
+import '../data/such_vorschlag.dart';
 import '../widgets/word_list_item.dart';
 import '../../../core/widgets/vox_button.dart';
 
@@ -242,6 +243,9 @@ class _WortschatzListScreenState extends ConsumerState<WortschatzListScreen> {
                       plural: w.plural,
                       conjugationJson: w.conjugationJson,
                     ).contains(formSchluessel);
+                // Stand vor der Suche (nur Niveau/Wortart) — Quelle für
+                // «Did you mean?» (فاز F.1c).
+                final listeOhneSuche = list;
                 if (_query.isNotEmpty) {
                   list = list.where((w) =>
                       w.german.toLowerCase().contains(_query) ||
@@ -315,8 +319,61 @@ class _WortschatzListScreenState extends ConsumerState<WortschatzListScreen> {
                         : null;
 
                 if (zeilen.isEmpty) {
+                  // Tippfehler? Erst wenn die Suche fertig geladen ist —
+                  // sonst blitzen Vorschläge auf (فاز F.1c, such_vorschlag.dart).
+                  final vorschlaege = _query.isEmpty ||
+                          !(sucheAsync?.hasValue ?? false)
+                      ? const <String>[]
+                      : suchVorschlaege(_query, [
+                          for (final w in listeOhneSuche) w.german,
+                          for (final k in _gefilterteKarten(
+                              kartenAsync.valueOrNull ??
+                                  const <Map<String, dynamic>>[]))
+                            k['wort'] as String? ?? '',
+                        ]);
                   return Center(
-                      child: Text(AppL10n.t(context, 'empty_filter')));
+                    child: Padding(
+                      padding: const EdgeInsets.all(24),
+                      child: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Text(AppL10n.t(context, 'empty_filter'),
+                              textAlign: TextAlign.center),
+                          if (vorschlaege.isNotEmpty) ...[
+                            const SizedBox(height: 16),
+                            Text(
+                              AppL10n.t(context, 'such_meintest_du'),
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .titleSmall
+                                  ?.copyWith(fontWeight: FontWeight.w700),
+                            ),
+                            const SizedBox(height: 8),
+                            Wrap(
+                              alignment: WrapAlignment.center,
+                              spacing: 8,
+                              runSpacing: 8,
+                              textDirection: TextDirection.ltr,
+                              children: [
+                                for (final v in vorschlaege)
+                                  VoxButton.tonal(
+                                    key: ValueKey('vorschlag_$v'),
+                                    label: v,
+                                    size: VoxButtonSize.small,
+                                    onPressed: () {
+                                      _searchCtrl.text = v;
+                                      _searchCtrl.selection =
+                                          TextSelection.collapsed(
+                                              offset: v.length);
+                                    },
+                                  ),
+                              ],
+                            ),
+                          ],
+                        ],
+                      ),
+                    ),
+                  );
                 }
 
                 return ListView.builder(

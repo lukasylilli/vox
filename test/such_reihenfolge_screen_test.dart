@@ -74,4 +74,46 @@ void main() {
     await tester.pumpWidget(const SizedBox());
     await db.close();
   });
+
+  testWidgets('Tippfehler «gehn» ⇒ «Did you mean?» gehen ⇒ Antippen sucht gehen',
+      (tester) async {
+    SharedPreferences.setMockInitialValues({});
+    final db = AppDatabase.forTesting(NativeDatabase.memory());
+    final index = [
+      _karte('verb_gehen', 'gehen', 'verb'),
+      _karte('nomen_tisch', 'der Tisch', 'nomen'),
+    ];
+    await tester.pumpWidget(ProviderScope(
+      overrides: [
+        databaseProvider.overrideWithValue(db),
+        allWordsProvider.overrideWith((ref) => Stream.value(<Word>[])),
+        vokabIndexProvider.overrideWith((ref) async => index),
+        vokabFormenStueckeProvider.overrideWith((ref) async => <String>{}),
+      ],
+      child: const MaterialApp(
+        locale: Locale('en'),
+        supportedLocales: [Locale('en'), Locale('fa')],
+        localizationsDelegates: [
+          GlobalMaterialLocalizations.delegate,
+          GlobalWidgetsLocalizations.delegate,
+          GlobalCupertinoLocalizations.delegate,
+        ],
+        home: WortschatzListScreen(initialQuery: 'gehn'),
+      ),
+    ));
+    for (var i = 0; i < 10; i++) {
+      await tester.pump(const Duration(milliseconds: 50));
+    }
+    expect(find.byType(WortCard), findsNothing);
+    expect(find.text('Did you mean?'), findsOneWidget);
+    await tester.tap(find.byKey(const ValueKey('vorschlag_gehen')));
+    for (var i = 0; i < 10; i++) {
+      await tester.pump(const Duration(milliseconds: 50));
+    }
+    final karten = tester.widgetList<WortCard>(find.byType(WortCard)).toList();
+    expect(karten.map((k) => k.card['id']).toList(), ['verb_gehen']);
+
+    await tester.pumpWidget(const SizedBox());
+    await db.close();
+  });
 }
