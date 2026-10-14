@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_attestieren",
+  "wort": "attestieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گواهی کردن، تأیید کردن (رسمی)"
+    ],
+    "en": [
+      "to certify",
+      "to attest"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Behörden"
+  ],
+  "ipa": "atɛsˈtiːʁən",
+  "anmerkung": "Regelmäßig (attestierte, attestiert). Mit Dativ der Person: «jemandem etwas attestieren».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Arzt attestiert die Krankheit.",
+      "uebersetzung": {
+        "fa": "پزشک بیماری را گواهی می‌کند.",
+        "en": "The doctor certifies the illness."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Lehrerin attestierte dem Schüler großes Talent, obwohl seine Noten schlecht waren.",
+      "uebersetzung": {
+        "fa": "معلم برای آن دانش‌آموز استعداد زیادی قائل شد، با اینکه نمره‌هایش بد بود.",
+        "en": "The teacher credited the pupil with great talent although his marks were bad."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bescheinigen",
+      "uebersetzung": {
+        "fa": "گواهی دادن",
+        "en": "to certify"
+      }
+    },
+    {
+      "wort": "bestätigen",
+      "uebersetzung": {
+        "fa": "تأیید کردن",
+        "en": "to confirm"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از das Attest (گواهی پزشکی) + -ieren",
+    "en": "from das Attest (medical certificate) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem (Dat) etwas (Akk) attestieren",
+        "bedeutung": "jemandem etwas offiziell bescheinigen",
+        "beispiel": "Man attestierte ihr Arbeitsunfähigkeit.",
+        "uebersetzung": {
+          "fa": "برای او گواهی ناتوانی از کار صادر شد.",
+          "en": "She was certified unfit for work."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "attestieren",
+      "praeteritum": "attestierte",
+      "partizip2": "attestiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "attestiere",
+        "du": "attestierst",
+        "er_sie_es": "attestiert",
+        "wir": "attestieren",
+        "ihr": "attestiert",
+        "sie_Sie": "attestieren"
+      },
+      "praeteritum": {
+        "ich": "attestierte",
+        "du": "attestiertest",
+        "er_sie_es": "attestierte",
+        "wir": "attestierten",
+        "ihr": "attestiertet",
+        "sie_Sie": "attestierten"
+      },
+      "konjunktiv1": {
+        "ich": "attestiere",
+        "du": "attestierest",
+        "er_sie_es": "attestiere",
+        "wir": "attestieren",
+        "ihr": "attestieret",
+        "sie_Sie": "attestieren"
+      },
+      "konjunktiv2": {
+        "ich": "attestierte",
+        "du": "attestiertest",
+        "er_sie_es": "attestierte",
+        "wir": "attestierten",
+        "ihr": "attestiertet",
+        "sie_Sie": "attestierten"
+      },
+      "imperativ": {
+        "du": "Attestiere!",
+        "ihr": "Attestiert!",
+        "Sie": "Attestieren Sie!"
+      }
+    },
+    "partizip1": "attestierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "das Attest",
+    "woerter": [
+      {
+        "wort": "das Attest",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گواهی پزشکی",
+          "en": "medical certificate"
+        },
+        "id_ref": "nomen_attest"
+      },
+      {
+        "wort": "bescheinigen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "گواهی دادن",
+          "en": "to certify"
+        },
+        "id_ref": "verb_bescheinigen"
+      },
+      {
+        "wort": "die Bescheinigung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گواهی",
+          "en": "certificate"
+        },
+        "id_ref": "nomen_bescheinigung"
+      },
+      {
+        "wort": "krankschreiben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گواهی بیماری دادن",
+          "en": "to sign off sick"
+        },
+        "id_ref": "verb_krankschreiben"
+      },
+      {
+        "wort": "bestätigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تأیید کردن",
+          "en": "to confirm"
+        },
+        "id_ref": "verb_bestaetigen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

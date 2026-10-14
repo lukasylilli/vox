@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_assistieren",
+  "wort": "assistieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دستیاری کردن، کمک کردن"
+    ],
+    "en": [
+      "to assist"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit",
+    "Medizin"
+  ],
+  "ipa": "asɪsˈtiːʁən",
+  "anmerkung": "Regelmäßig (assistierte, assistiert). Mit Dativ der Person.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie assistiert dem Arzt.",
+      "uebersetzung": {
+        "fa": "او به پزشک دستیاری می‌کند.",
+        "en": "She assists the doctor."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei der Operation hat eine erfahrene Pflegekraft dem Chirurgen assistiert.",
+      "uebersetzung": {
+        "fa": "در جراحی یک پرستار باتجربه به جراح کمک کرد.",
+        "en": "During the operation an experienced nurse assisted the surgeon."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "helfen",
+      "uebersetzung": {
+        "fa": "کمک کردن",
+        "en": "to help"
+      }
+    },
+    {
+      "wort": "unterstützen",
+      "uebersetzung": {
+        "fa": "پشتیبانی کردن",
+        "en": "to support"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. assistere (کنار کسی ایستادن)",
+    "en": "Latin assistere (to stand by)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem (Dat) bei + Dat assistieren",
+        "bedeutung": "jemandem bei einer Tätigkeit helfen",
+        "beispiel": "Er assistiert ihr bei der Forschung.",
+        "uebersetzung": {
+          "fa": "او در پژوهش به آن خانم کمک می‌کند.",
+          "en": "He assists her with the research."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "assistieren",
+      "praeteritum": "assistierte",
+      "partizip2": "assistiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "assistiere",
+        "du": "assistierst",
+        "er_sie_es": "assistiert",
+        "wir": "assistieren",
+        "ihr": "assistiert",
+        "sie_Sie": "assistieren"
+      },
+      "praeteritum": {
+        "ich": "assistierte",
+        "du": "assistiertest",
+        "er_sie_es": "assistierte",
+        "wir": "assistierten",
+        "ihr": "assistiertet",
+        "sie_Sie": "assistierten"
+      },
+      "konjunktiv1": {
+        "ich": "assistiere",
+        "du": "assistierest",
+        "er_sie_es": "assistiere",
+        "wir": "assistieren",
+        "ihr": "assistieret",
+        "sie_Sie": "assistieren"
+      },
+      "konjunktiv2": {
+        "ich": "assistierte",
+        "du": "assistiertest",
+        "er_sie_es": "assistierte",
+        "wir": "assistierten",
+        "ihr": "assistiertet",
+        "sie_Sie": "assistierten"
+      },
+      "imperativ": {
+        "du": "Assistiere!",
+        "ihr": "Assistiert!",
+        "Sie": "Assistieren Sie!"
+      }
+    },
+    "partizip1": "assistierend",
+    "nominalisierung": "die Assistenz"
+  },
+  "wortnetz": {
+    "grundwort": "der Assistent",
+    "woerter": [
+      {
+        "wort": "helfen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک کردن",
+          "en": "to help"
+        },
+        "id_ref": "verb_helfen"
+      },
+      {
+        "wort": "der Assistent",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دستیار",
+          "en": "assistant"
+        },
+        "id_ref": "nomen_assistent"
+      },
+      {
+        "wort": "unterstützen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پشتیبانی کردن",
+          "en": "to support"
+        },
+        "id_ref": "verb_unterstuetzen"
+      },
+      {
+        "wort": "die Operation",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جراحی",
+          "en": "operation"
+        },
+        "id_ref": "nomen_operation"
+      },
+      {
+        "wort": "die Hilfe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک",
+          "en": "help"
+        },
+        "id_ref": "nomen_hilfe"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

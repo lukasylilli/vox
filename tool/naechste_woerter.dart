@@ -1535,6 +1535,17 @@ const zurueckgestellt = <String>{
   'assekurieren', // zurückgestellt (Regel 14/16): veraltet 2026-10-13
   'assemblieren', // zurückgestellt (Regel 14/16): fachsprachlich 2026-10-13
   'asservieren', // zurückgestellt (Regel 14/16): fachsprachlich (Recht) 2026-10-13
+  'asten', // zurückgestellt (Regel 14/16): regional/umgangssprachlich 2026-10-13
+  'ästen', // zurückgestellt (Regel 14/16): fachsprachlich/selten 2026-10-13
+  'ästhetisieren', // zurückgestellt (Regel 14/16): gehoben/selten 2026-10-13
+  'äthern', // zurückgestellt (Regel 14/16): fachsprachlich/veraltet 2026-10-13
+  'atomisieren', // zurückgestellt (Regel 14/16): fachsprachlich/gehoben 2026-10-13
+  'atrophieren', // zurückgestellt (Regel 14/16): medizinischer Fachbegriff, selten als Verb 2026-10-13
+  'attachieren', // zurückgestellt (Regel 14/16): veraltet 2026-10-13
+  'attraktivieren', // zurückgestellt (Regel 14/16): selten/Modewort 2026-10-13
+  'attribuieren', // zurückgestellt (Regel 14/16): fachsprachlich 2026-10-13
+  'atzen', // zurückgestellt (Regel 14/16): Jägersprache/veraltet 2026-10-13
+  'aufächzen', // zurückgestellt (Regel 14/16): selten 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

@@ -1,0 +1,165 @@
+{
+  "schema": "3.0",
+  "id": "verb_atmen",
+  "wort": "atmen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نفس کشیدن"
+    ],
+    "en": [
+      "to breathe"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Körper",
+    "Gesundheit"
+  ],
+  "ipa": "ˈaːtmən",
+  "anmerkung": "Regelmäßig (atmete, geatmet).",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Bitte tief atmen!",
+      "uebersetzung": {
+        "fa": "لطفاً عمیق نفس بکشید!",
+        "en": "Please breathe deeply!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nach dem Lauf atmete er so schnell, dass er kaum sprechen konnte.",
+      "uebersetzung": {
+        "fa": "بعد از دویدن آن‌قدر تند نفس می‌کشید که به‌سختی می‌توانست حرف بزند.",
+        "en": "After the run he was breathing so fast that he could hardly speak."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "Luft holen",
+      "uebersetzung": {
+        "fa": "نفس کشیدن",
+        "en": "to take a breath"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از der Atem (نفس)",
+    "en": "from der Atem (breath)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "atmen",
+      "praeteritum": "atmete",
+      "partizip2": "geatmet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "atme",
+        "du": "atmest",
+        "er_sie_es": "atmet",
+        "wir": "atmen",
+        "ihr": "atmet",
+        "sie_Sie": "atmen"
+      },
+      "praeteritum": {
+        "ich": "atmete",
+        "du": "atmetest",
+        "er_sie_es": "atmete",
+        "wir": "atmeten",
+        "ihr": "atmetet",
+        "sie_Sie": "atmeten"
+      },
+      "konjunktiv1": {
+        "ich": "atme",
+        "du": "atmest",
+        "er_sie_es": "atme",
+        "wir": "atmen",
+        "ihr": "atmet",
+        "sie_Sie": "atmen"
+      },
+      "konjunktiv2": {
+        "ich": "atmete",
+        "du": "atmetest",
+        "er_sie_es": "atmete",
+        "wir": "atmeten",
+        "ihr": "atmetet",
+        "sie_Sie": "atmeten"
+      },
+      "imperativ": {
+        "du": "Atme!",
+        "ihr": "Atmet!",
+        "Sie": "Atmen Sie!"
+      }
+    },
+    "partizip1": "atmend",
+    "nominalisierung": "die Atmung"
+  },
+  "wortnetz": {
+    "grundwort": "der Atem",
+    "woerter": [
+      {
+        "wort": "der Atem",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نفس",
+          "en": "breath"
+        },
+        "id_ref": "nomen_atem"
+      },
+      {
+        "wort": "die Lunge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ریه",
+          "en": "lung"
+        },
+        "id_ref": "nomen_lunge"
+      },
+      {
+        "wort": "die Luft",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "هوا",
+          "en": "air"
+        },
+        "id_ref": "nomen_luft"
+      },
+      {
+        "wort": "die Atmung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تنفس",
+          "en": "breathing"
+        },
+        "id_ref": "nomen_atmung"
+      },
+      {
+        "wort": "einatmen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دم فرو بردن",
+          "en": "to breathe in"
+        },
+        "id_ref": "verb_einatmen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -2846,6 +2846,17 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۴۸۲ | assekurieren | `Verben_regelmaesig.txt` | 2026-10-13 | قدیمی — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۸۳ | assemblieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۸۴ | asservieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی (حقوقی) — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۸۵ | asten | `Verben_regelmaesig.txt` | 2026-10-13 | منطقه‌ای/محاوره‌ای — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۸۶ | ästen | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی/نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۸۷ | ästhetisieren | `Verben_regelmaesig.txt` | 2026-10-13 | ادبی/نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۸۸ | äthern | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی/قدیمی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۸۹ | atomisieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی/ادبی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۹۰ | atrophieren | `Verben_regelmaesig.txt` | 2026-10-13 | اصطلاح پزشکی، به‌ندرت فعل — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۹۱ | attachieren | `Verben_regelmaesig.txt` | 2026-10-13 | قدیمی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۹۲ | attraktivieren | `Verben_regelmaesig.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۹۳ | attribuieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۹۴ | atzen | `Verben_regelmaesig.txt` | 2026-10-13 | اصطلاح شکارچیان/قدیمی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۹۵ | aufächzen | `Verben_regelmaesig.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 

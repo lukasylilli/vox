@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_aufhalsen",
+  "wort": "aufhalsen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(کار، مسئولیت) به گردن کسی انداختن"
+    ],
+    "en": [
+      "to saddle with",
+      "to land with"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit"
+  ],
+  "ipa": "ˈaʊ̯fˌhalzn̩",
+  "anmerkung": "Trennbar (halste auf, aufgehalst). Umgangssprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er halst mir die Arbeit auf.",
+      "uebersetzung": {
+        "fa": "او کار را به گردن من می‌اندازد.",
+        "en": "He saddles me with the work."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ich habe mir zu viele Aufgaben aufgehalst und weiß jetzt nicht, wie ich das schaffen soll.",
+      "uebersetzung": {
+        "fa": "کارهای زیادی به گردن گرفته‌ام و حالا نمی‌دانم چطور از پسشان بربیایم.",
+        "en": "I have taken on too many tasks and now don't know how I'm supposed to manage."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufbürden",
+      "uebersetzung": {
+        "fa": "بار کردن (به دوش کسی)",
+        "en": "to burden"
+      }
+    },
+    {
+      "wort": "aufdrängen",
+      "uebersetzung": {
+        "fa": "تحمیل کردن",
+        "en": "to force on"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "abnehmen",
+      "uebersetzung": {
+        "fa": "از دوش برداشتن",
+        "en": "to take off someone's hands"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auf- (روی) + halsen (از der Hals = گردن)",
+    "en": "auf- (onto) + halsen (from der Hals = neck)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem (Dat) etwas (Akk) aufhalsen",
+        "bedeutung": "jemandem eine Last aufbürden",
+        "beispiel": "Sie halst ihm immer die Kinder auf.",
+        "uebersetzung": {
+          "fa": "او همیشه بچه‌ها را به او می‌سپارد.",
+          "en": "She always lands him with the kids."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "aufhalsen",
+      "praeteritum": "halste auf",
+      "partizip2": "aufgehalst"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "halse auf",
+        "du": "halst auf",
+        "er_sie_es": "halst auf",
+        "wir": "halsen auf",
+        "ihr": "halst auf",
+        "sie_Sie": "halsen auf"
+      },
+      "praeteritum": {
+        "ich": "halste auf",
+        "du": "halstest auf",
+        "er_sie_es": "halste auf",
+        "wir": "halsten auf",
+        "ihr": "halstet auf",
+        "sie_Sie": "halsten auf"
+      },
+      "konjunktiv1": {
+        "ich": "halse auf",
+        "du": "halsest auf",
+        "er_sie_es": "halse auf",
+        "wir": "halsen auf",
+        "ihr": "halset auf",
+        "sie_Sie": "halsen auf"
+      },
+      "konjunktiv2": {
+        "ich": "halste auf",
+        "du": "halstest auf",
+        "er_sie_es": "halste auf",
+        "wir": "halsten auf",
+        "ihr": "halstet auf",
+        "sie_Sie": "halsten auf"
+      },
+      "imperativ": {
+        "du": "Halse auf!",
+        "ihr": "Halst auf!",
+        "Sie": "Halsen Sie auf!"
+      }
+    },
+    "partizip1": "aufhalsend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "der Hals",
+    "woerter": [
+      {
+        "wort": "der Hals",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گردن",
+          "en": "neck"
+        },
+        "id_ref": "nomen_hals"
+      },
+      {
+        "wort": "die Aufgabe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "وظیفه",
+          "en": "task"
+        },
+        "id_ref": "nomen_aufgabe"
+      },
+      {
+        "wort": "die Last",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بار",
+          "en": "burden"
+        },
+        "id_ref": "nomen_last"
+      },
+      {
+        "wort": "aufbürden",
+        "wortart": "verb",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "به دوش کسی گذاشتن",
+          "en": "to burden"
+        },
+        "id_ref": "verb_aufbuerden"
+      },
+      {
+        "wort": "überlastet",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "زیر بار زیاد",
+          "en": "overloaded"
+        },
+        "id_ref": "adjektiv_ueberlastet"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

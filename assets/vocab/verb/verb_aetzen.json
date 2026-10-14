@@ -1,0 +1,167 @@
+{
+  "schema": "3.0",
+  "id": "verb_aetzen",
+  "wort": "ätzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خوردن، سوزاندن (اسید)",
+      "(محاوره) نیش زدن، گزنده بودن"
+    ],
+    "en": [
+      "to corrode",
+      "to etch",
+      "to be caustic"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Naturwissenschaft"
+  ],
+  "ipa": "ˈɛt͡sn̩",
+  "anmerkung": "Regelmäßig (ätzte, geätzt). Partizip I «ätzend» umgangssprachlich auch: sehr unangenehm.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Säure ätzt.",
+      "uebersetzung": {
+        "fa": "اسید می‌سوزاند.",
+        "en": "The acid corrodes."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil die Flüssigkeit stark ätzt, muss man im Labor immer Handschuhe tragen.",
+      "uebersetzung": {
+        "fa": "چون این مایع به‌شدت خورنده است، در آزمایشگاه همیشه باید دستکش پوشید.",
+        "en": "Because the liquid is highly corrosive, you always have to wear gloves in the lab."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zerfressen",
+      "uebersetzung": {
+        "fa": "خوردن، فرسودن",
+        "en": "to eat away"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن azzen (به خوردن دادن)",
+    "en": "from Old High German azzen (to feed)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "ätzen",
+      "praeteritum": "ätzte",
+      "partizip2": "geätzt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ätze",
+        "du": "ätzt",
+        "er_sie_es": "ätzt",
+        "wir": "ätzen",
+        "ihr": "ätzt",
+        "sie_Sie": "ätzen"
+      },
+      "praeteritum": {
+        "ich": "ätzte",
+        "du": "ätztest",
+        "er_sie_es": "ätzte",
+        "wir": "ätzten",
+        "ihr": "ätztet",
+        "sie_Sie": "ätzten"
+      },
+      "konjunktiv1": {
+        "ich": "ätze",
+        "du": "ätzest",
+        "er_sie_es": "ätze",
+        "wir": "ätzen",
+        "ihr": "ätzet",
+        "sie_Sie": "ätzen"
+      },
+      "konjunktiv2": {
+        "ich": "ätzte",
+        "du": "ätztest",
+        "er_sie_es": "ätzte",
+        "wir": "ätzten",
+        "ihr": "ätztet",
+        "sie_Sie": "ätzten"
+      },
+      "imperativ": {
+        "du": "Ätze!",
+        "ihr": "Ätzt!",
+        "Sie": "Ätzen Sie!"
+      }
+    },
+    "partizip1": "ätzend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Säure",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اسید",
+          "en": "acid"
+        },
+        "id_ref": "nomen_saeure"
+      },
+      {
+        "wort": "ätzend",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خورنده؛ مزخرف",
+          "en": "corrosive; awful"
+        },
+        "id_ref": "adjektiv_aetzend"
+      },
+      {
+        "wort": "das Labor",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آزمایشگاه",
+          "en": "lab"
+        },
+        "id_ref": "nomen_labor"
+      },
+      {
+        "wort": "der Handschuh",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دستکش",
+          "en": "glove"
+        },
+        "id_ref": "nomen_handschuh"
+      },
+      {
+        "wort": "gefährlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خطرناک",
+          "en": "dangerous"
+        },
+        "id_ref": "adjektiv_gefaehrlich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
