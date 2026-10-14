@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_abkoppeln",
+  "wort": "abkoppeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جدا کردن (واگن، تریلر)"
+    ],
+    "en": [
+      "to uncouple",
+      "to decouple"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Verkehr",
+    "Technik"
+  ],
+  "ipa": "ˈapˌkɔpl̩n",
+  "anmerkung": "Trennbar (koppelte ab, abgekoppelt). Bildlich: «sich von etwas abkoppeln» (sich lösen).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir koppeln den Anhänger ab.",
+      "uebersetzung": {
+        "fa": "تریلر را جدا می‌کنیم.",
+        "en": "We uncouple the trailer."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In Salzburg wird der hintere Teil des Zuges abgekoppelt und fährt nach Innsbruck weiter.",
+      "uebersetzung": {
+        "fa": "در سالزبورگ بخش عقب قطار جدا می‌شود و به اینسبروک ادامه می‌دهد.",
+        "en": "In Salzburg the rear part of the train is uncoupled and continues to Innsbruck."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abhängen",
+      "uebersetzung": {
+        "fa": "جدا کردن",
+        "en": "to unhitch"
+      }
+    },
+    {
+      "wort": "trennen",
+      "uebersetzung": {
+        "fa": "جدا کردن",
+        "en": "to separate"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ankoppeln",
+      "uebersetzung": {
+        "fa": "وصل کردن",
+        "en": "to couple"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (جدا) + koppeln (وصل کردن)",
+    "en": "ab- (off) + koppeln (to couple)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas von + Dat abkoppeln",
+        "bedeutung": "etwas von etwas trennen",
+        "beispiel": "Die Löhne wurden von der Inflation abgekoppelt.",
+        "uebersetzung": {
+          "fa": "دستمزدها از تورم جدا شدند.",
+          "en": "Wages were decoupled from inflation."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abkoppeln",
+      "praeteritum": "koppelte ab",
+      "partizip2": "abgekoppelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kopple ab",
+        "du": "koppelst ab",
+        "er_sie_es": "koppelt ab",
+        "wir": "koppeln ab",
+        "ihr": "koppelt ab",
+        "sie_Sie": "koppeln ab"
+      },
+      "praeteritum": {
+        "ich": "koppelte ab",
+        "du": "koppeltest ab",
+        "er_sie_es": "koppelte ab",
+        "wir": "koppelten ab",
+        "ihr": "koppeltet ab",
+        "sie_Sie": "koppelten ab"
+      },
+      "konjunktiv1": {
+        "ich": "kopple ab",
+        "du": "kopplest ab",
+        "er_sie_es": "kopple ab",
+        "wir": "koppeln ab",
+        "ihr": "kopplet ab",
+        "sie_Sie": "koppeln ab"
+      },
+      "konjunktiv2": {
+        "ich": "koppelte ab",
+        "du": "koppeltest ab",
+        "er_sie_es": "koppelte ab",
+        "wir": "koppelten ab",
+        "ihr": "koppeltet ab",
+        "sie_Sie": "koppelten ab"
+      },
+      "imperativ": {
+        "du": "Kopple ab!",
+        "ihr": "Koppelt ab!",
+        "Sie": "Koppeln Sie ab!"
+      }
+    },
+    "partizip1": "abkoppelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "koppeln",
+    "woerter": [
+      {
+        "wort": "der Zug",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قطار",
+          "en": "train"
+        },
+        "id_ref": "nomen_zug"
+      },
+      {
+        "wort": "der Anhänger",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تریلر، یدک",
+          "en": "trailer"
+        },
+        "id_ref": "nomen_anhaenger"
+      },
+      {
+        "wort": "trennen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جدا کردن",
+          "en": "to separate"
+        },
+        "id_ref": "verb_trennen"
+      },
+      {
+        "wort": "ankoppeln",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "وصل کردن",
+          "en": "to couple"
+        },
+        "id_ref": "verb_ankoppeln"
+      },
+      {
+        "wort": "verbinden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وصل کردن",
+          "en": "to connect"
+        },
+        "id_ref": "verb_verbinden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

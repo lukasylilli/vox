@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_abduzieren",
+  "wort": "abduzieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دور کردن (اندام از محور بدن)"
+    ],
+    "en": [
+      "to abduct (limb)"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Körper"
+  ],
+  "ipa": "apduˈt͡siːʁən",
+  "anmerkung": "Medizinischer Fachbegriff (abduzierte, abduziert) — nicht trennbar; «ab-» ist hier lateinisch. Gegenteil: adduzieren.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Patient abduziert den Arm.",
+      "uebersetzung": {
+        "fa": "بیمار بازویش را از بدن دور می‌کند.",
+        "en": "The patient abducts his arm."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach der Operation darf das Bein nur leicht abduziert werden, damit die Hüfte heilt.",
+      "uebersetzung": {
+        "fa": "پس از جراحی، پا فقط کمی باید از بدن دور شود تا لگن بهبود یابد.",
+        "en": "After the operation the leg may only be abducted slightly so that the hip heals."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abspreizen",
+      "uebersetzung": {
+        "fa": "از بدن دور کردن",
+        "en": "to splay"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "adduzieren",
+      "uebersetzung": {
+        "fa": "به بدن نزدیک کردن",
+        "en": "to adduct"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. abducere (دور کردن)",
+    "en": "Latin abducere (to lead away)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "abduzieren",
+      "praeteritum": "abduzierte",
+      "partizip2": "abduziert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "abduziere",
+        "du": "abduzierst",
+        "er_sie_es": "abduziert",
+        "wir": "abduzieren",
+        "ihr": "abduziert",
+        "sie_Sie": "abduzieren"
+      },
+      "praeteritum": {
+        "ich": "abduzierte",
+        "du": "abduziertest",
+        "er_sie_es": "abduzierte",
+        "wir": "abduzierten",
+        "ihr": "abduziertet",
+        "sie_Sie": "abduzierten"
+      },
+      "konjunktiv1": {
+        "ich": "abduziere",
+        "du": "abduzierest",
+        "er_sie_es": "abduziere",
+        "wir": "abduzieren",
+        "ihr": "abduzieret",
+        "sie_Sie": "abduzieren"
+      },
+      "konjunktiv2": {
+        "ich": "abduzierte",
+        "du": "abduziertest",
+        "er_sie_es": "abduzierte",
+        "wir": "abduzierten",
+        "ihr": "abduziertet",
+        "sie_Sie": "abduzierten"
+      },
+      "imperativ": {
+        "du": "Abduziere!",
+        "ihr": "Abduziert!",
+        "Sie": "Abduzieren Sie!"
+      }
+    },
+    "partizip1": "abduzierend",
+    "nominalisierung": "die Abduktion"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Arm",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بازو",
+          "en": "arm"
+        },
+        "id_ref": "nomen_arm"
+      },
+      {
+        "wort": "das Bein",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پا",
+          "en": "leg"
+        },
+        "id_ref": "nomen_bein"
+      },
+      {
+        "wort": "die Hüfte",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لگن، ران",
+          "en": "hip"
+        },
+        "id_ref": "nomen_huefte"
+      },
+      {
+        "wort": "der Muskel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ماهیچه",
+          "en": "muscle"
+        },
+        "id_ref": "nomen_muskel"
+      },
+      {
+        "wort": "die Abduktion",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "دورسازی (اندام)",
+          "en": "abduction"
+        },
+        "id_ref": "nomen_abduktion"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

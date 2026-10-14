@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_abfackeln",
+  "wort": "abfackeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به آتش کشیدن",
+      "(گاز اضافی را) سوزاندن"
+    ],
+    "en": [
+      "to torch",
+      "to flare (gas)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Umwelt"
+  ],
+  "ipa": "ˈapˌfakl̩n",
+  "anmerkung": "Trennbar (fackelte ab, abgefackelt). Umgangssprachlich auch «in Brand stecken».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Jemand hat das Auto abgefackelt.",
+      "uebersetzung": {
+        "fa": "کسی ماشین را به آتش کشیده است.",
+        "en": "Someone has torched the car."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In der Raffinerie wird überschüssiges Gas abgefackelt, weil man es nicht speichern kann.",
+      "uebersetzung": {
+        "fa": "در پالایشگاه گاز اضافی را می‌سوزانند، چون نمی‌شود آن را ذخیره کرد.",
+        "en": "In the refinery surplus gas is flared because it can't be stored."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anzünden",
+      "uebersetzung": {
+        "fa": "آتش زدن",
+        "en": "to set on fire"
+      }
+    },
+    {
+      "wort": "verbrennen",
+      "uebersetzung": {
+        "fa": "سوزاندن",
+        "en": "to burn"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "löschen",
+      "uebersetzung": {
+        "fa": "خاموش کردن",
+        "en": "to extinguish"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- + fackeln (شعله‌ور شدن؛ die Fackel = مشعل)",
+    "en": "ab- + fackeln (to flare; die Fackel = torch)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "abfackeln",
+      "praeteritum": "fackelte ab",
+      "partizip2": "abgefackelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fackle ab",
+        "du": "fackelst ab",
+        "er_sie_es": "fackelt ab",
+        "wir": "fackeln ab",
+        "ihr": "fackelt ab",
+        "sie_Sie": "fackeln ab"
+      },
+      "praeteritum": {
+        "ich": "fackelte ab",
+        "du": "fackeltest ab",
+        "er_sie_es": "fackelte ab",
+        "wir": "fackelten ab",
+        "ihr": "fackeltet ab",
+        "sie_Sie": "fackelten ab"
+      },
+      "konjunktiv1": {
+        "ich": "fackle ab",
+        "du": "facklest ab",
+        "er_sie_es": "fackle ab",
+        "wir": "fackeln ab",
+        "ihr": "facklet ab",
+        "sie_Sie": "fackeln ab"
+      },
+      "konjunktiv2": {
+        "ich": "fackelte ab",
+        "du": "fackeltest ab",
+        "er_sie_es": "fackelte ab",
+        "wir": "fackelten ab",
+        "ihr": "fackeltet ab",
+        "sie_Sie": "fackelten ab"
+      },
+      "imperativ": {
+        "du": "Fackle ab!",
+        "ihr": "Fackelt ab!",
+        "Sie": "Fackeln Sie ab!"
+      }
+    },
+    "partizip1": "abfackelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "die Fackel",
+    "woerter": [
+      {
+        "wort": "das Feuer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آتش",
+          "en": "fire"
+        },
+        "id_ref": "nomen_feuer"
+      },
+      {
+        "wort": "brennen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سوختن",
+          "en": "to burn"
+        },
+        "id_ref": "verb_brennen"
+      },
+      {
+        "wort": "anzünden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آتش زدن",
+          "en": "to set on fire"
+        },
+        "id_ref": "verb_anzuenden"
+      },
+      {
+        "wort": "die Fackel",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مشعل",
+          "en": "torch"
+        },
+        "id_ref": "nomen_fackel"
+      },
+      {
+        "wort": "löschen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خاموش کردن",
+          "en": "to extinguish"
+        },
+        "id_ref": "verb_loeschen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

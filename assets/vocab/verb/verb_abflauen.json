@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_abflauen",
+  "wort": "abflauen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "فروکش کردن، کاهش یافتن"
+    ],
+    "en": [
+      "to die down",
+      "to subside"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wetter",
+    "Wirtschaft"
+  ],
+  "ipa": "ˈapˌflaʊ̯ən",
+  "anmerkung": "Trennbar (flaute ab, abgeflaut), Perfekt mit «sein».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Wind flaut ab.",
+      "uebersetzung": {
+        "fa": "باد فروکش می‌کند.",
+        "en": "The wind is dying down."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem die Aufregung abgeflaut war, konnten wir endlich ruhig reden.",
+      "uebersetzung": {
+        "fa": "وقتی هیجان فروکش کرد، سرانجام توانستیم آرام صحبت کنیم.",
+        "en": "After the excitement had died down, we could finally talk calmly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nachlassen",
+      "uebersetzung": {
+        "fa": "کم شدن",
+        "en": "to ease off"
+      }
+    },
+    {
+      "wort": "abnehmen",
+      "uebersetzung": {
+        "fa": "کاهش یافتن",
+        "en": "to decrease"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zunehmen",
+      "uebersetzung": {
+        "fa": "افزایش یافتن",
+        "en": "to increase"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (کاهش) + flau (سست)",
+    "en": "ab- (down) + flau (slack)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "abflauen",
+      "praeteritum": "flaute ab",
+      "partizip2": "abgeflaut"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "flaue ab",
+        "du": "flaust ab",
+        "er_sie_es": "flaut ab",
+        "wir": "flauen ab",
+        "ihr": "flaut ab",
+        "sie_Sie": "flauen ab"
+      },
+      "praeteritum": {
+        "ich": "flaute ab",
+        "du": "flautest ab",
+        "er_sie_es": "flaute ab",
+        "wir": "flauten ab",
+        "ihr": "flautet ab",
+        "sie_Sie": "flauten ab"
+      },
+      "konjunktiv1": {
+        "ich": "flaue ab",
+        "du": "flauest ab",
+        "er_sie_es": "flaue ab",
+        "wir": "flauen ab",
+        "ihr": "flauet ab",
+        "sie_Sie": "flauen ab"
+      },
+      "konjunktiv2": {
+        "ich": "flaute ab",
+        "du": "flautest ab",
+        "er_sie_es": "flaute ab",
+        "wir": "flauten ab",
+        "ihr": "flautet ab",
+        "sie_Sie": "flauten ab"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "abflauend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "flau",
+    "woerter": [
+      {
+        "wort": "der Wind",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باد",
+          "en": "wind"
+        },
+        "id_ref": "nomen_wind"
+      },
+      {
+        "wort": "nachlassen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کم شدن",
+          "en": "to ease off"
+        },
+        "id_ref": "verb_nachlassen"
+      },
+      {
+        "wort": "flau",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سست؛ کساد",
+          "en": "slack"
+        },
+        "id_ref": "adjektiv_flau"
+      },
+      {
+        "wort": "ruhig",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آرام",
+          "en": "calm"
+        },
+        "id_ref": "adjektiv_ruhig"
+      },
+      {
+        "wort": "zunehmen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "افزایش یافتن",
+          "en": "to increase"
+        },
+        "id_ref": "verb_zunehmen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

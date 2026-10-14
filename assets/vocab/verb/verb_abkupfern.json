@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_abkupfern",
+  "wort": "abkupfern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "رونویسی کردن، تقلب کردن (کپی کردن)"
+    ],
+    "en": [
+      "to copy",
+      "to crib"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Schule",
+    "Arbeit"
+  ],
+  "ipa": "ˈapˌkʊpfɐn",
+  "anmerkung": "Trennbar (kupferte ab, abgekupfert). Umgangssprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er kupfert die Hausaufgaben ab.",
+      "uebersetzung": {
+        "fa": "او تکلیف‌ها را رونویسی می‌کند.",
+        "en": "He copies the homework."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Firma hat das Design einfach von der Konkurrenz abgekupfert, statt eigene Ideen zu entwickeln.",
+      "uebersetzung": {
+        "fa": "شرکت به‌جای پرورش ایده‌های خودش، طرح را به‌سادگی از رقیب کپی کرد.",
+        "en": "The company simply copied the design from the competition instead of developing its own ideas."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abschreiben",
+      "uebersetzung": {
+        "fa": "رونویسی کردن",
+        "en": "to copy"
+      }
+    },
+    {
+      "wort": "kopieren",
+      "uebersetzung": {
+        "fa": "کپی کردن",
+        "en": "to copy"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (از روی) + kupfern (از kupfern = حکاکی روی مس)",
+    "en": "ab- (from) + kupfern (from copper engraving)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas von + Dat abkupfern",
+        "bedeutung": "etwas von jemandem kopieren",
+        "beispiel": "Sie hat die Idee von ihrem Kollegen abgekupfert.",
+        "uebersetzung": {
+          "fa": "او ایده را از همکارش کپی کرد.",
+          "en": "She copied the idea from her colleague."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abkupfern",
+      "praeteritum": "kupferte ab",
+      "partizip2": "abgekupfert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kupfere ab",
+        "du": "kupferst ab",
+        "er_sie_es": "kupfert ab",
+        "wir": "kupfern ab",
+        "ihr": "kupfert ab",
+        "sie_Sie": "kupfern ab"
+      },
+      "praeteritum": {
+        "ich": "kupferte ab",
+        "du": "kupfertest ab",
+        "er_sie_es": "kupferte ab",
+        "wir": "kupferten ab",
+        "ihr": "kupfertet ab",
+        "sie_Sie": "kupferten ab"
+      },
+      "konjunktiv1": {
+        "ich": "kupfere ab",
+        "du": "kupferest ab",
+        "er_sie_es": "kupfere ab",
+        "wir": "kupfern ab",
+        "ihr": "kupferet ab",
+        "sie_Sie": "kupfern ab"
+      },
+      "konjunktiv2": {
+        "ich": "kupferte ab",
+        "du": "kupfertest ab",
+        "er_sie_es": "kupferte ab",
+        "wir": "kupferten ab",
+        "ihr": "kupfertet ab",
+        "sie_Sie": "kupferten ab"
+      },
+      "imperativ": {
+        "du": "Kupfere ab!",
+        "ihr": "Kupfert ab!",
+        "Sie": "Kupfern Sie ab!"
+      }
+    },
+    "partizip1": "abkupfernd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "das Kupfer",
+    "woerter": [
+      {
+        "wort": "abschreiben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رونویسی کردن",
+          "en": "to copy"
+        },
+        "id_ref": "verb_abschreiben"
+      },
+      {
+        "wort": "kopieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کپی کردن",
+          "en": "to copy"
+        },
+        "id_ref": "verb_kopieren"
+      },
+      {
+        "wort": "die Kopie",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کپی",
+          "en": "copy"
+        },
+        "id_ref": "nomen_kopie"
+      },
+      {
+        "wort": "das Original",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نسخه‌ی اصلی",
+          "en": "original"
+        },
+        "id_ref": "nomen_original"
+      },
+      {
+        "wort": "das Kupfer",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مس",
+          "en": "copper"
+        },
+        "id_ref": "nomen_kupfer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

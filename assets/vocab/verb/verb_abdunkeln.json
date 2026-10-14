@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_abdunkeln",
+  "wort": "abdunkeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تاریک کردن (اتاق، نور)"
+    ],
+    "en": [
+      "to darken",
+      "to dim"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Wohnen"
+  ],
+  "ipa": "ˈapˌdʊŋkl̩n",
+  "anmerkung": "Trennbar (dunkelte ab, abgedunkelt).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich dunkle das Zimmer ab.",
+      "uebersetzung": {
+        "fa": "اتاق را تاریک می‌کنم.",
+        "en": "I darken the room."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Damit der Patient schlafen kann, wurde das Zimmer mit Vorhängen abgedunkelt.",
+      "uebersetzung": {
+        "fa": "برای اینکه بیمار بتواند بخوابد، اتاق را با پرده تاریک کردند.",
+        "en": "So that the patient can sleep, the room was darkened with curtains."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verdunkeln",
+      "uebersetzung": {
+        "fa": "تاریک کردن",
+        "en": "to darken"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "aufhellen",
+      "uebersetzung": {
+        "fa": "روشن کردن",
+        "en": "to brighten"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (کاهش) + dunkeln (تاریک شدن)",
+    "en": "ab- (reduce) + dunkeln (to darken)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "abdunkeln",
+      "praeteritum": "dunkelte ab",
+      "partizip2": "abgedunkelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "dunkle ab",
+        "du": "dunkelst ab",
+        "er_sie_es": "dunkelt ab",
+        "wir": "dunkeln ab",
+        "ihr": "dunkelt ab",
+        "sie_Sie": "dunkeln ab"
+      },
+      "praeteritum": {
+        "ich": "dunkelte ab",
+        "du": "dunkeltest ab",
+        "er_sie_es": "dunkelte ab",
+        "wir": "dunkelten ab",
+        "ihr": "dunkeltet ab",
+        "sie_Sie": "dunkelten ab"
+      },
+      "konjunktiv1": {
+        "ich": "dunkle ab",
+        "du": "dunklest ab",
+        "er_sie_es": "dunkle ab",
+        "wir": "dunkeln ab",
+        "ihr": "dunklet ab",
+        "sie_Sie": "dunkeln ab"
+      },
+      "konjunktiv2": {
+        "ich": "dunkelte ab",
+        "du": "dunkeltest ab",
+        "er_sie_es": "dunkelte ab",
+        "wir": "dunkelten ab",
+        "ihr": "dunkeltet ab",
+        "sie_Sie": "dunkelten ab"
+      },
+      "imperativ": {
+        "du": "Dunkle ab!",
+        "ihr": "Dunkelt ab!",
+        "Sie": "Dunkeln Sie ab!"
+      }
+    },
+    "partizip1": "abdunkelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "dunkel",
+    "woerter": [
+      {
+        "wort": "dunkel",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تاریک",
+          "en": "dark"
+        },
+        "id_ref": "adjektiv_dunkel"
+      },
+      {
+        "wort": "der Vorhang",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پرده",
+          "en": "curtain"
+        },
+        "id_ref": "nomen_vorhang"
+      },
+      {
+        "wort": "das Licht",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نور",
+          "en": "light"
+        },
+        "id_ref": "nomen_licht"
+      },
+      {
+        "wort": "verdunkeln",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تاریک کردن",
+          "en": "to darken"
+        },
+        "id_ref": "verb_verdunkeln"
+      },
+      {
+        "wort": "hell",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "روشن",
+          "en": "bright"
+        },
+        "id_ref": "adjektiv_hell"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

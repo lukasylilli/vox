@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_abholzen",
+  "wort": "abholzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(درختان یک منطقه را) قطع کردن"
+    ],
+    "en": [
+      "to deforest",
+      "to clear-cut"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Umwelt",
+    "Natur"
+  ],
+  "ipa": "ˈapˌhɔlt͡sn̩",
+  "anmerkung": "Trennbar (holzte ab, abgeholzt).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Hier holzt man den Wald ab.",
+      "uebersetzung": {
+        "fa": "این‌جا جنگل را قطع می‌کنند.",
+        "en": "They are cutting down the forest here."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil jedes Jahr riesige Flächen Regenwald abgeholzt werden, sterben viele Tierarten aus.",
+      "uebersetzung": {
+        "fa": "چون هر سال سطح عظیمی از جنگل‌های بارانی قطع می‌شود، بسیاری از گونه‌های جانوری منقرض می‌شوند.",
+        "en": "Because huge areas of rainforest are cut down every year, many animal species are dying out."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "roden",
+      "uebersetzung": {
+        "fa": "پاک‌تراشی کردن (جنگل)",
+        "en": "to clear"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "aufforsten",
+      "uebersetzung": {
+        "fa": "جنگل‌کاری کردن",
+        "en": "to reforest"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (کندن) + holzen (چوب بریدن؛ das Holz = چوب)",
+    "en": "ab- (off) + holzen (to cut wood; das Holz = wood)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "abholzen",
+      "praeteritum": "holzte ab",
+      "partizip2": "abgeholzt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "holze ab",
+        "du": "holzt ab",
+        "er_sie_es": "holzt ab",
+        "wir": "holzen ab",
+        "ihr": "holzt ab",
+        "sie_Sie": "holzen ab"
+      },
+      "praeteritum": {
+        "ich": "holzte ab",
+        "du": "holztest ab",
+        "er_sie_es": "holzte ab",
+        "wir": "holzten ab",
+        "ihr": "holztet ab",
+        "sie_Sie": "holzten ab"
+      },
+      "konjunktiv1": {
+        "ich": "holze ab",
+        "du": "holzest ab",
+        "er_sie_es": "holze ab",
+        "wir": "holzen ab",
+        "ihr": "holzet ab",
+        "sie_Sie": "holzen ab"
+      },
+      "konjunktiv2": {
+        "ich": "holzte ab",
+        "du": "holztest ab",
+        "er_sie_es": "holzte ab",
+        "wir": "holzten ab",
+        "ihr": "holztet ab",
+        "sie_Sie": "holzten ab"
+      },
+      "imperativ": {
+        "du": "Holze ab!",
+        "ihr": "Holzt ab!",
+        "Sie": "Holzen Sie ab!"
+      }
+    },
+    "partizip1": "abholzend",
+    "nominalisierung": "die Abholzung"
+  },
+  "wortnetz": {
+    "grundwort": "das Holz",
+    "woerter": [
+      {
+        "wort": "der Wald",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جنگل",
+          "en": "forest"
+        },
+        "id_ref": "nomen_wald"
+      },
+      {
+        "wort": "der Baum",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "درخت",
+          "en": "tree"
+        },
+        "id_ref": "nomen_baum"
+      },
+      {
+        "wort": "das Holz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چوب",
+          "en": "wood"
+        },
+        "id_ref": "nomen_holz"
+      },
+      {
+        "wort": "die Umwelt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "محیط زیست",
+          "en": "environment"
+        },
+        "id_ref": "nomen_umwelt"
+      },
+      {
+        "wort": "die Abholzung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "جنگل‌زدایی",
+          "en": "deforestation"
+        },
+        "id_ref": "nomen_abholzung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
