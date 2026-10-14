@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_bevoelkern",
+  "wort": "bevölkern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پر کردن (از آدم)، ساکن شدن در"
+    ],
+    "en": [
+      "to populate",
+      "to crowd",
+      "to fill"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gesellschaft",
+    "Geografie"
+  ],
+  "ipa": "bəˈfœlkɐn",
+  "anmerkung": "Untrennbar, regelmäßig (bevölkerte, bevölkert). Häufig als Partizip: dicht bevölkert.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Touristen bevölkern die Stadt.",
+      "uebersetzung": {
+        "fa": "گردشگران شهر را پر کرده‌اند.",
+        "en": "Tourists crowd the city."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sobald die Sonne scheint, bevölkern Hunderte Menschen das Ufer des Sees.",
+      "uebersetzung": {
+        "fa": "به محض اینکه آفتاب می‌شود، صدها نفر ساحل دریاچه را پر می‌کنند.",
+        "en": "As soon as the sun shines, hundreds of people crowd the shore of the lake."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "besiedeln",
+      "uebersetzung": {
+        "fa": "ساکن شدن در",
+        "en": "to settle"
+      }
+    },
+    {
+      "wort": "füllen",
+      "uebersetzung": {
+        "fa": "پر کردن",
+        "en": "to fill"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Volk (مردم) + -ern",
+    "en": "be- + Volk (people) + -ern"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "bevölkern",
+      "praeteritum": "bevölkerte",
+      "partizip2": "bevölkert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bevölkere",
+        "du": "bevölkerst",
+        "er_sie_es": "bevölkert",
+        "wir": "bevölkern",
+        "ihr": "bevölkert",
+        "sie_Sie": "bevölkern"
+      },
+      "praeteritum": {
+        "ich": "bevölkerte",
+        "du": "bevölkertest",
+        "er_sie_es": "bevölkerte",
+        "wir": "bevölkerten",
+        "ihr": "bevölkertet",
+        "sie_Sie": "bevölkerten"
+      },
+      "konjunktiv1": {
+        "ich": "bevölkere",
+        "du": "bevölkerest",
+        "er_sie_es": "bevölkere",
+        "wir": "bevölkern",
+        "ihr": "bevölkeret",
+        "sie_Sie": "bevölkern"
+      },
+      "konjunktiv2": {
+        "ich": "bevölkerte",
+        "du": "bevölkertest",
+        "er_sie_es": "bevölkerte",
+        "wir": "bevölkerten",
+        "ihr": "bevölkertet",
+        "sie_Sie": "bevölkerten"
+      },
+      "imperativ": {
+        "du": "Bevölkere!",
+        "ihr": "Bevölkert!",
+        "Sie": "Bevölkern Sie!"
+      }
+    },
+    "partizip1": "bevölkernd",
+    "nominalisierung": "die Bevölkerung"
+  },
+  "wortnetz": {
+    "grundwort": "Volk",
+    "woerter": [
+      {
+        "wort": "das Volk",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ملت، مردم",
+          "en": "people"
+        },
+        "id_ref": "nomen_volk"
+      },
+      {
+        "wort": "die Bevölkerung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جمعیت",
+          "en": "population"
+        },
+        "id_ref": "nomen_bevoelkerung"
+      },
+      {
+        "wort": "besiedeln",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ساکن شدن در",
+          "en": "to settle"
+        },
+        "id_ref": "verb_besiedeln"
+      },
+      {
+        "wort": "der Einwohner",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ساکن",
+          "en": "inhabitant"
+        },
+        "id_ref": "nomen_einwohner"
+      },
+      {
+        "wort": "voll",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پر",
+          "en": "full"
+        },
+        "id_ref": "adjektiv_voll"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_bewaessern",
+  "wort": "bewässern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آبیاری کردن"
+    ],
+    "en": [
+      "to irrigate",
+      "to water"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Natur",
+    "Landwirtschaft"
+  ],
+  "ipa": "bəˈvɛsɐn",
+  "anmerkung": "Untrennbar, regelmäßig (bewässerte, bewässert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Bauer bewässert das Feld.",
+      "uebersetzung": {
+        "fa": "کشاورز مزرعه را آبیاری می‌کند.",
+        "en": "The farmer irrigates the field."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil es kaum regnet, müssen die Felder im Sommer täglich bewässert werden.",
+      "uebersetzung": {
+        "fa": "چون تقریباً باران نمی‌بارد، مزرعه‌ها باید در تابستان هر روز آبیاری شوند.",
+        "en": "Because it hardly rains, the fields have to be irrigated every day in summer."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gießen",
+      "uebersetzung": {
+        "fa": "آب دادن",
+        "en": "to water"
+      }
+    },
+    {
+      "wort": "wässern",
+      "uebersetzung": {
+        "fa": "آب دادن",
+        "en": "to water"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Wasser (آب) + -n",
+    "en": "be- + Wasser (water) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "bewässern",
+      "praeteritum": "bewässerte",
+      "partizip2": "bewässert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bewässere",
+        "du": "bewässerst",
+        "er_sie_es": "bewässert",
+        "wir": "bewässern",
+        "ihr": "bewässert",
+        "sie_Sie": "bewässern"
+      },
+      "praeteritum": {
+        "ich": "bewässerte",
+        "du": "bewässertest",
+        "er_sie_es": "bewässerte",
+        "wir": "bewässerten",
+        "ihr": "bewässertet",
+        "sie_Sie": "bewässerten"
+      },
+      "konjunktiv1": {
+        "ich": "bewässere",
+        "du": "bewässerest",
+        "er_sie_es": "bewässere",
+        "wir": "bewässern",
+        "ihr": "bewässeret",
+        "sie_Sie": "bewässern"
+      },
+      "konjunktiv2": {
+        "ich": "bewässerte",
+        "du": "bewässertest",
+        "er_sie_es": "bewässerte",
+        "wir": "bewässerten",
+        "ihr": "bewässertet",
+        "sie_Sie": "bewässerten"
+      },
+      "imperativ": {
+        "du": "Bewässere!",
+        "ihr": "Bewässert!",
+        "Sie": "Bewässern Sie!"
+      }
+    },
+    "partizip1": "bewässernd",
+    "nominalisierung": "die Bewässerung"
+  },
+  "wortnetz": {
+    "grundwort": "Wasser",
+    "woerter": [
+      {
+        "wort": "das Wasser",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب",
+          "en": "water"
+        },
+        "id_ref": "nomen_wasser"
+      },
+      {
+        "wort": "gießen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آب دادن",
+          "en": "to water"
+        },
+        "id_ref": "verb_giessen"
+      },
+      {
+        "wort": "das Feld",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مزرعه",
+          "en": "field"
+        },
+        "id_ref": "nomen_feld"
+      },
+      {
+        "wort": "die Bewässerung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آبیاری",
+          "en": "irrigation"
+        },
+        "id_ref": "nomen_bewaesserung"
+      },
+      {
+        "wort": "trocken",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خشک",
+          "en": "dry"
+        },
+        "id_ref": "adjektiv_trocken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

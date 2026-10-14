@@ -1593,6 +1593,9 @@ const zurueckgestellt = <String>{
   'betatschen', // zurückgestellt (Regel 14/16): umgangssprachlich, oft sexuell konnotiert (wie befummeln) — Entscheidung Lukas 2026-10-14
   'betonnen', // zurückgestellt (Regel 14/16): fachsprachlich (Seefahrt: mit Tonnen markieren) 2026-10-14
   'beulen', // zurückgestellt (Regel 14/16): selten (sich beulen) 2026-10-14
+  'beuteln', // zurückgestellt (Regel 14/16): umgangssprachlich/landschaftlich; Bedeutung nicht sicher 2026-10-14
+  'bewandern', // zurückgestellt (Regel 14/16): als Verb kaum gebräuchlich (meist Adjektiv bewandert) 2026-10-14
+  'bewegen', // zurückgestellt (Regel 14/16): zwei Konjugationen je nach Bedeutung (bewegte «in Bewegung setzen» ↔ bewog «veranlassen»), wie wenden — Entscheidung Lukas 2026-10-14
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

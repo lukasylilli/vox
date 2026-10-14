@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_bewaffnen",
+  "wort": "bewaffnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مسلح کردن"
+    ],
+    "en": [
+      "to arm"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Politik",
+    "Sicherheit"
+  ],
+  "ipa": "bəˈvafnən",
+  "anmerkung": "Untrennbar, regelmäßig (bewaffnete, bewaffnet). Scherzhaft: sich mit einem Regenschirm bewaffnen.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Polizei ist bewaffnet.",
+      "uebersetzung": {
+        "fa": "پلیس مسلح است.",
+        "en": "The police are armed."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Regierung lehnt es ab, die Bürger zu bewaffnen, weil das zu mehr Gewalt führen könnte.",
+      "uebersetzung": {
+        "fa": "دولت مسلح کردن شهروندان را رد می‌کند، چون می‌تواند به خشونت بیشتر بینجامد.",
+        "en": "The government refuses to arm the citizens because that could lead to more violence."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufrüsten",
+      "uebersetzung": {
+        "fa": "مسلح کردن",
+        "en": "to arm"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "entwaffnen",
+      "uebersetzung": {
+        "fa": "خلع سلاح کردن",
+        "en": "to disarm"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Waffe (سلاح) + -n",
+    "en": "be- + Waffe (weapon) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich mit + Dat bewaffnen",
+        "bedeutung": "sich mit etwas als Waffe oder Hilfsmittel ausrüsten",
+        "beispiel": "Er bewaffnete sich mit einem Stock.",
+        "uebersetzung": {
+          "fa": "او یک چوب دستش گرفت (تا از خود دفاع کند).",
+          "en": "He armed himself with a stick."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bewaffnen",
+      "praeteritum": "bewaffnete",
+      "partizip2": "bewaffnet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bewaffne",
+        "du": "bewaffnest",
+        "er_sie_es": "bewaffnet",
+        "wir": "bewaffnen",
+        "ihr": "bewaffnet",
+        "sie_Sie": "bewaffnen"
+      },
+      "praeteritum": {
+        "ich": "bewaffnete",
+        "du": "bewaffnetest",
+        "er_sie_es": "bewaffnete",
+        "wir": "bewaffneten",
+        "ihr": "bewaffnetet",
+        "sie_Sie": "bewaffneten"
+      },
+      "konjunktiv1": {
+        "ich": "bewaffne",
+        "du": "bewaffnest",
+        "er_sie_es": "bewaffne",
+        "wir": "bewaffnen",
+        "ihr": "bewaffnet",
+        "sie_Sie": "bewaffnen"
+      },
+      "konjunktiv2": {
+        "ich": "bewaffnete",
+        "du": "bewaffnetest",
+        "er_sie_es": "bewaffnete",
+        "wir": "bewaffneten",
+        "ihr": "bewaffnetet",
+        "sie_Sie": "bewaffneten"
+      },
+      "imperativ": {
+        "du": "Bewaffne!",
+        "ihr": "Bewaffnet!",
+        "Sie": "Bewaffnen Sie!"
+      }
+    },
+    "partizip1": "bewaffnend",
+    "nominalisierung": "die Bewaffnung"
+  },
+  "wortnetz": {
+    "grundwort": "Waffe",
+    "woerter": [
+      {
+        "wort": "die Waffe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سلاح",
+          "en": "weapon"
+        },
+        "id_ref": "nomen_waffe"
+      },
+      {
+        "wort": "bewaffnet",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مسلح",
+          "en": "armed"
+        },
+        "id_ref": "adjektiv_bewaffnet"
+      },
+      {
+        "wort": "entwaffnen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خلع سلاح کردن",
+          "en": "to disarm"
+        },
+        "id_ref": "verb_entwaffnen"
+      },
+      {
+        "wort": "der Soldat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرباز",
+          "en": "soldier"
+        },
+        "id_ref": "nomen_soldat"
+      },
+      {
+        "wort": "die Gewalt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خشونت",
+          "en": "violence"
+        },
+        "id_ref": "nomen_gewalt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

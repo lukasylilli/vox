@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_beweinen",
+  "wort": "beweinen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "در سوگ (کسی یا چیزی) گریستن"
+    ],
+    "en": [
+      "to mourn",
+      "to weep for"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle",
+    "Familie"
+  ],
+  "ipa": "bəˈvaɪ̯nən",
+  "anmerkung": "Untrennbar, regelmäßig (beweinte, beweint). Gehoben.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie beweint ihren Hund.",
+      "uebersetzung": {
+        "fa": "او در سوگ سگش گریه می‌کند.",
+        "en": "She is weeping for her dog."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das ganze Dorf beweinte den jungen Feuerwehrmann, der bei dem Brand gestorben war.",
+      "uebersetzung": {
+        "fa": "تمام روستا در سوگ آتش‌نشان جوانی که در آتش‌سوزی جان باخته بود گریست.",
+        "en": "The whole village mourned the young firefighter who had died in the fire."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "betrauern",
+      "uebersetzung": {
+        "fa": "سوگواری کردن",
+        "en": "to mourn"
+      }
+    },
+    {
+      "wort": "beklagen",
+      "uebersetzung": {
+        "fa": "سوگواری کردن، افسوس خوردن",
+        "en": "to lament"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + weinen (گریستن)",
+    "en": "be- + weinen (to cry)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "beweinen",
+      "praeteritum": "beweinte",
+      "partizip2": "beweint"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beweine",
+        "du": "beweinst",
+        "er_sie_es": "beweint",
+        "wir": "beweinen",
+        "ihr": "beweint",
+        "sie_Sie": "beweinen"
+      },
+      "praeteritum": {
+        "ich": "beweinte",
+        "du": "beweintest",
+        "er_sie_es": "beweinte",
+        "wir": "beweinten",
+        "ihr": "beweintet",
+        "sie_Sie": "beweinten"
+      },
+      "konjunktiv1": {
+        "ich": "beweine",
+        "du": "beweinest",
+        "er_sie_es": "beweine",
+        "wir": "beweinen",
+        "ihr": "beweinet",
+        "sie_Sie": "beweinen"
+      },
+      "konjunktiv2": {
+        "ich": "beweinte",
+        "du": "beweintest",
+        "er_sie_es": "beweinte",
+        "wir": "beweinten",
+        "ihr": "beweintet",
+        "sie_Sie": "beweinten"
+      },
+      "imperativ": {
+        "du": "Beweine!",
+        "ihr": "Beweint!",
+        "Sie": "Beweinen Sie!"
+      }
+    },
+    "partizip1": "beweinend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "weinen",
+    "woerter": [
+      {
+        "wort": "weinen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گریه کردن",
+          "en": "to cry"
+        },
+        "id_ref": "verb_weinen"
+      },
+      {
+        "wort": "die Träne",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اشک",
+          "en": "tear"
+        },
+        "id_ref": "nomen_traene"
+      },
+      {
+        "wort": "trauern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سوگواری کردن",
+          "en": "to mourn"
+        },
+        "id_ref": "verb_trauern"
+      },
+      {
+        "wort": "die Trauer",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سوگ",
+          "en": "grief"
+        },
+        "id_ref": "nomen_trauer"
+      },
+      {
+        "wort": "betrauern",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سوگواری کردن",
+          "en": "to mourn"
+        },
+        "id_ref": "verb_betrauern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
