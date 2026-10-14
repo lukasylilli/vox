@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_bespritzen",
+  "wort": "bespritzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(آب یا گل) پاشیدن روی"
+    ],
+    "en": [
+      "to splash",
+      "to spatter"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Natur"
+  ],
+  "ipa": "bəˈʃpʁɪt͡sn̩",
+  "anmerkung": "Untrennbar, regelmäßig (bespritzte, bespritzt).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Auto bespritzt mich.",
+      "uebersetzung": {
+        "fa": "ماشین رویم آب می‌پاشد.",
+        "en": "The car splashes me."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als der Bus durch die Pfütze fuhr, wurden alle Leute an der Haltestelle bespritzt.",
+      "uebersetzung": {
+        "fa": "وقتی اتوبوس از چاله‌ی آب رد شد، روی همه‌ی آدم‌های ایستگاه آب پاشید.",
+        "en": "When the bus drove through the puddle, everyone at the stop was splashed."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nass spritzen",
+      "uebersetzung": {
+        "fa": "خیس کردن با پاشیدن",
+        "en": "to splash wet"
+      }
+    },
+    {
+      "wort": "besprühen",
+      "uebersetzung": {
+        "fa": "افشاندن",
+        "en": "to spray"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + spritzen (پاشیدن)",
+    "en": "be- + spritzen (to splash)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden/etwas mit + Dat bespritzen",
+        "bedeutung": "jemanden/etwas mit einer Flüssigkeit spritzend nass machen",
+        "beispiel": "Die Kinder bespritzen sich mit Wasser.",
+        "uebersetzung": {
+          "fa": "بچه‌ها روی هم آب می‌پاشند.",
+          "en": "The children splash each other with water."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bespritzen",
+      "praeteritum": "bespritzte",
+      "partizip2": "bespritzt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bespritze",
+        "du": "bespritzt",
+        "er_sie_es": "bespritzt",
+        "wir": "bespritzen",
+        "ihr": "bespritzt",
+        "sie_Sie": "bespritzen"
+      },
+      "praeteritum": {
+        "ich": "bespritzte",
+        "du": "bespritztest",
+        "er_sie_es": "bespritzte",
+        "wir": "bespritzten",
+        "ihr": "bespritztet",
+        "sie_Sie": "bespritzten"
+      },
+      "konjunktiv1": {
+        "ich": "bespritze",
+        "du": "bespritzest",
+        "er_sie_es": "bespritze",
+        "wir": "bespritzen",
+        "ihr": "bespritzet",
+        "sie_Sie": "bespritzen"
+      },
+      "konjunktiv2": {
+        "ich": "bespritzte",
+        "du": "bespritztest",
+        "er_sie_es": "bespritzte",
+        "wir": "bespritzten",
+        "ihr": "bespritztet",
+        "sie_Sie": "bespritzten"
+      },
+      "imperativ": {
+        "du": "Bespritze!",
+        "ihr": "Bespritzt!",
+        "Sie": "Bespritzen Sie!"
+      }
+    },
+    "partizip1": "bespritzend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Spritzer",
+    "woerter": [
+      {
+        "wort": "spritzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پاشیدن",
+          "en": "to splash"
+        },
+        "id_ref": "verb_spritzen"
+      },
+      {
+        "wort": "das Wasser",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب",
+          "en": "water"
+        },
+        "id_ref": "nomen_wasser"
+      },
+      {
+        "wort": "die Pfütze",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "چاله‌ی آب",
+          "en": "puddle"
+        },
+        "id_ref": "nomen_pfuetze"
+      },
+      {
+        "wort": "nass",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خیس",
+          "en": "wet"
+        },
+        "id_ref": "adjektiv_nass"
+      },
+      {
+        "wort": "der Schlamm",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گل",
+          "en": "mud"
+        },
+        "id_ref": "nomen_schlamm"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

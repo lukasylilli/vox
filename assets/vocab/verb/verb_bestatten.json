@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_bestatten",
+  "wort": "bestatten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دفن کردن، به خاک سپردن"
+    ],
+    "en": [
+      "to bury",
+      "to lay to rest"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Familie",
+    "Religion"
+  ],
+  "ipa": "bəˈʃtatn̩",
+  "anmerkung": "Untrennbar, regelmäßig (bestattete, bestattet). Gehoben bzw. amtlich für beerdigen.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er wird morgen bestattet.",
+      "uebersetzung": {
+        "fa": "او فردا به خاک سپرده می‌شود.",
+        "en": "He will be buried tomorrow."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Großmutter wollte in ihrem Heimatdorf bestattet werden, wo auch ihr Mann liegt.",
+      "uebersetzung": {
+        "fa": "مادربزرگ می‌خواست در روستای زادگاهش دفن شود، جایی که شوهرش هم آرام گرفته است.",
+        "en": "Grandmother wanted to be buried in her home village, where her husband also lies."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beerdigen",
+      "uebersetzung": {
+        "fa": "دفن کردن",
+        "en": "to bury"
+      }
+    },
+    {
+      "wort": "begraben",
+      "uebersetzung": {
+        "fa": "به خاک سپردن",
+        "en": "to bury"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Statt (مکان، کهن) + -en",
+    "en": "be- + Statt (place, old) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "bestatten",
+      "praeteritum": "bestattete",
+      "partizip2": "bestattet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bestatte",
+        "du": "bestattest",
+        "er_sie_es": "bestattet",
+        "wir": "bestatten",
+        "ihr": "bestattet",
+        "sie_Sie": "bestatten"
+      },
+      "praeteritum": {
+        "ich": "bestattete",
+        "du": "bestattetest",
+        "er_sie_es": "bestattete",
+        "wir": "bestatteten",
+        "ihr": "bestattetet",
+        "sie_Sie": "bestatteten"
+      },
+      "konjunktiv1": {
+        "ich": "bestatte",
+        "du": "bestattest",
+        "er_sie_es": "bestatte",
+        "wir": "bestatten",
+        "ihr": "bestattet",
+        "sie_Sie": "bestatten"
+      },
+      "konjunktiv2": {
+        "ich": "bestattete",
+        "du": "bestattetest",
+        "er_sie_es": "bestattete",
+        "wir": "bestatteten",
+        "ihr": "bestattetet",
+        "sie_Sie": "bestatteten"
+      },
+      "imperativ": {
+        "du": "Bestatte!",
+        "ihr": "Bestattet!",
+        "Sie": "Bestatten Sie!"
+      }
+    },
+    "partizip1": "bestattend",
+    "nominalisierung": "die Bestattung"
+  },
+  "wortnetz": {
+    "grundwort": "Statt",
+    "woerter": [
+      {
+        "wort": "beerdigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دفن کردن",
+          "en": "to bury"
+        },
+        "id_ref": "verb_beerdigen"
+      },
+      {
+        "wort": "der Friedhof",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گورستان",
+          "en": "cemetery"
+        },
+        "id_ref": "nomen_friedhof"
+      },
+      {
+        "wort": "das Grab",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قبر",
+          "en": "grave"
+        },
+        "id_ref": "nomen_grab"
+      },
+      {
+        "wort": "die Beerdigung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مراسم خاکسپاری",
+          "en": "funeral"
+        },
+        "id_ref": "nomen_beerdigung"
+      },
+      {
+        "wort": "die Bestattung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تدفین",
+          "en": "burial"
+        },
+        "id_ref": "nomen_bestattung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

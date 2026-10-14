@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_bestuecken",
+  "wort": "bestücken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مجهز کردن، پر کردن (با قطعات یا کالا)"
+    ],
+    "en": [
+      "to equip",
+      "to stock",
+      "to fit"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Arbeit"
+  ],
+  "ipa": "bəˈʃtʏkn̩",
+  "anmerkung": "Untrennbar, regelmäßig (bestückte, bestückt).",
+  "berufe": [
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir bestücken das Regal.",
+      "uebersetzung": {
+        "fa": "قفسه را پر از کالا می‌کنیم.",
+        "en": "We are stocking the shelf."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Platine wird automatisch bestückt, bevor sie in das Gerät eingebaut wird.",
+      "uebersetzung": {
+        "fa": "بُرد مدار قبل از نصب در دستگاه به‌طور خودکار قطعه‌گذاری می‌شود.",
+        "en": "The circuit board is fitted automatically before it is installed in the device."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausstatten",
+      "uebersetzung": {
+        "fa": "مجهز کردن",
+        "en": "to equip"
+      }
+    },
+    {
+      "wort": "ausrüsten",
+      "uebersetzung": {
+        "fa": "تجهیز کردن",
+        "en": "to fit out"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Stück (قطعه) + -en",
+    "en": "be- + Stück (piece) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas mit + Dat bestücken",
+        "bedeutung": "etwas mit Teilen, Waren oder Waffen versehen",
+        "beispiel": "Der Automat ist mit Getränken bestückt.",
+        "uebersetzung": {
+          "fa": "این دستگاه پر از نوشیدنی است.",
+          "en": "The machine is stocked with drinks."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bestücken",
+      "praeteritum": "bestückte",
+      "partizip2": "bestückt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bestücke",
+        "du": "bestückst",
+        "er_sie_es": "bestückt",
+        "wir": "bestücken",
+        "ihr": "bestückt",
+        "sie_Sie": "bestücken"
+      },
+      "praeteritum": {
+        "ich": "bestückte",
+        "du": "bestücktest",
+        "er_sie_es": "bestückte",
+        "wir": "bestückten",
+        "ihr": "bestücktet",
+        "sie_Sie": "bestückten"
+      },
+      "konjunktiv1": {
+        "ich": "bestücke",
+        "du": "bestückest",
+        "er_sie_es": "bestücke",
+        "wir": "bestücken",
+        "ihr": "bestücket",
+        "sie_Sie": "bestücken"
+      },
+      "konjunktiv2": {
+        "ich": "bestückte",
+        "du": "bestücktest",
+        "er_sie_es": "bestückte",
+        "wir": "bestückten",
+        "ihr": "bestücktet",
+        "sie_Sie": "bestückten"
+      },
+      "imperativ": {
+        "du": "Bestücke!",
+        "ihr": "Bestückt!",
+        "Sie": "Bestücken Sie!"
+      }
+    },
+    "partizip1": "bestückend",
+    "nominalisierung": "die Bestückung"
+  },
+  "wortnetz": {
+    "grundwort": "Stück",
+    "woerter": [
+      {
+        "wort": "das Stück",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تکه، قطعه",
+          "en": "piece"
+        },
+        "id_ref": "nomen_stueck"
+      },
+      {
+        "wort": "ausstatten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مجهز کردن",
+          "en": "to equip"
+        },
+        "id_ref": "verb_ausstatten"
+      },
+      {
+        "wort": "ausrüsten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تجهیز کردن",
+          "en": "to fit out"
+        },
+        "id_ref": "verb_ausruesten"
+      },
+      {
+        "wort": "das Regal",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قفسه",
+          "en": "shelf"
+        },
+        "id_ref": "nomen_regal"
+      },
+      {
+        "wort": "das Bauteil",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "قطعه",
+          "en": "component"
+        },
+        "id_ref": "nomen_bauteil"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

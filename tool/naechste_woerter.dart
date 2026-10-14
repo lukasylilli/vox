@@ -1587,6 +1587,8 @@ const zurueckgestellt = <String>{
   'benedeien', // zurückgestellt (Regel 14/16): veraltet/kirchlich; Partizip II schwankt (benedeit/gebenedeit) 2026-10-14
   'beschälen', // zurückgestellt (Regel 14/16): fachsprachlich (Pferdezucht), selten 2026-10-14
   'beschranken', // zurückgestellt (Regel 14/16): selten, meist nur Partizip (beschrankter Bahnübergang) 2026-10-14
+  'bessemern', // zurückgestellt (Regel 14/16): fachsprachlich (Hüttenwesen, Bessemer-Verfahren) 2026-10-14
+  'bestallen', // zurückgestellt (Regel 14/16): Amtssprache, veraltend, selten 2026-10-14
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

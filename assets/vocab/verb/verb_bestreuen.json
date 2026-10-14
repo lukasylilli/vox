@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_bestreuen",
+  "wort": "bestreuen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پاشیدن (روی چیزی)"
+    ],
+    "en": [
+      "to sprinkle",
+      "to strew"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Essen",
+    "Alltag"
+  ],
+  "ipa": "bəˈʃtʁɔɪ̯ən",
+  "anmerkung": "Untrennbar, regelmäßig (bestreute, bestreut).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich bestreue den Kuchen mit Zucker.",
+      "uebersetzung": {
+        "fa": "روی کیک شکر می‌پاشم.",
+        "en": "I sprinkle the cake with sugar."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn es glatt ist, muss der Hausmeister den Gehweg mit Salz bestreuen.",
+      "uebersetzung": {
+        "fa": "وقتی زمین لیز است، سرایدار باید روی پیاده‌رو نمک بپاشد.",
+        "en": "When it is icy, the caretaker has to grit the pavement with salt."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "streuen",
+      "uebersetzung": {
+        "fa": "پاشیدن",
+        "en": "to scatter"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + streuen (پاشیدن)",
+    "en": "be- + streuen (to scatter)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas mit + Dat bestreuen",
+        "bedeutung": "etwas mit kleinen Teilen bedecken",
+        "beispiel": "Sie bestreut die Suppe mit Petersilie.",
+        "uebersetzung": {
+          "fa": "او روی سوپ جعفری می‌پاشد.",
+          "en": "She sprinkles the soup with parsley."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bestreuen",
+      "praeteritum": "bestreute",
+      "partizip2": "bestreut"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bestreue",
+        "du": "bestreust",
+        "er_sie_es": "bestreut",
+        "wir": "bestreuen",
+        "ihr": "bestreut",
+        "sie_Sie": "bestreuen"
+      },
+      "praeteritum": {
+        "ich": "bestreute",
+        "du": "bestreutest",
+        "er_sie_es": "bestreute",
+        "wir": "bestreuten",
+        "ihr": "bestreutet",
+        "sie_Sie": "bestreuten"
+      },
+      "konjunktiv1": {
+        "ich": "bestreue",
+        "du": "bestreuest",
+        "er_sie_es": "bestreue",
+        "wir": "bestreuen",
+        "ihr": "bestreuet",
+        "sie_Sie": "bestreuen"
+      },
+      "konjunktiv2": {
+        "ich": "bestreute",
+        "du": "bestreutest",
+        "er_sie_es": "bestreute",
+        "wir": "bestreuten",
+        "ihr": "bestreutet",
+        "sie_Sie": "bestreuten"
+      },
+      "imperativ": {
+        "du": "Bestreue!",
+        "ihr": "Bestreut!",
+        "Sie": "Bestreuen Sie!"
+      }
+    },
+    "partizip1": "bestreuend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "streuen",
+    "woerter": [
+      {
+        "wort": "streuen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پاشیدن",
+          "en": "to scatter"
+        },
+        "id_ref": "verb_streuen"
+      },
+      {
+        "wort": "das Salz",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نمک",
+          "en": "salt"
+        },
+        "id_ref": "nomen_salz"
+      },
+      {
+        "wort": "der Zucker",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شکر",
+          "en": "sugar"
+        },
+        "id_ref": "nomen_zucker"
+      },
+      {
+        "wort": "glatt",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لیز، صاف",
+          "en": "slippery, smooth"
+        },
+        "id_ref": "adjektiv_glatt"
+      },
+      {
+        "wort": "würzen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ادویه زدن",
+          "en": "to season"
+        },
+        "id_ref": "verb_wuerzen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

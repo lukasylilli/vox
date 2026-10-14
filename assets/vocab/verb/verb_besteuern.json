@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_besteuern",
+  "wort": "besteuern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مالیات بستن بر"
+    ],
+    "en": [
+      "to tax"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Finanzen",
+    "Politik"
+  ],
+  "ipa": "bəˈʃtɔɪ̯ɐn",
+  "anmerkung": "Untrennbar, regelmäßig (besteuerte, besteuert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Staat besteuert das Einkommen.",
+      "uebersetzung": {
+        "fa": "دولت بر درآمد مالیات می‌بندد.",
+        "en": "The state taxes income."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Viele fordern, dass große Vermögen stärker besteuert werden als kleine Einkommen.",
+      "uebersetzung": {
+        "fa": "خیلی‌ها خواستارند که بر ثروت‌های بزرگ مالیات بیشتری از درآمدهای کم بسته شود.",
+        "en": "Many demand that large fortunes be taxed more heavily than small incomes."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "versteuern",
+      "uebersetzung": {
+        "fa": "مالیات پرداختن بر",
+        "en": "to pay tax on"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Steuer (مالیات) + -n",
+    "en": "be- + Steuer (tax) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas mit + Dat besteuern",
+        "bedeutung": "auf etwas eine bestimmte Steuer erheben",
+        "beispiel": "Zigaretten werden mit einer hohen Abgabe besteuert.",
+        "uebersetzung": {
+          "fa": "بر سیگار مالیات سنگینی بسته می‌شود.",
+          "en": "Cigarettes are taxed with a high levy."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "besteuern",
+      "praeteritum": "besteuerte",
+      "partizip2": "besteuert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "besteuere",
+        "du": "besteuerst",
+        "er_sie_es": "besteuert",
+        "wir": "besteuern",
+        "ihr": "besteuert",
+        "sie_Sie": "besteuern"
+      },
+      "praeteritum": {
+        "ich": "besteuerte",
+        "du": "besteuertest",
+        "er_sie_es": "besteuerte",
+        "wir": "besteuerten",
+        "ihr": "besteuertet",
+        "sie_Sie": "besteuerten"
+      },
+      "konjunktiv1": {
+        "ich": "besteuere",
+        "du": "besteuerest",
+        "er_sie_es": "besteuere",
+        "wir": "besteuern",
+        "ihr": "besteueret",
+        "sie_Sie": "besteuern"
+      },
+      "konjunktiv2": {
+        "ich": "besteuerte",
+        "du": "besteuertest",
+        "er_sie_es": "besteuerte",
+        "wir": "besteuerten",
+        "ihr": "besteuertet",
+        "sie_Sie": "besteuerten"
+      },
+      "imperativ": {
+        "du": "Besteuere!",
+        "ihr": "Besteuert!",
+        "Sie": "Besteuern Sie!"
+      }
+    },
+    "partizip1": "besteuernd",
+    "nominalisierung": "die Besteuerung"
+  },
+  "wortnetz": {
+    "grundwort": "Steuer",
+    "woerter": [
+      {
+        "wort": "die Steuer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مالیات",
+          "en": "tax"
+        },
+        "id_ref": "nomen_steuer"
+      },
+      {
+        "wort": "das Finanzamt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اداره‌ی مالیات",
+          "en": "tax office"
+        },
+        "id_ref": "nomen_finanzamt"
+      },
+      {
+        "wort": "versteuern",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مالیات دادن بر",
+          "en": "to pay tax on"
+        },
+        "id_ref": "verb_versteuern"
+      },
+      {
+        "wort": "das Einkommen",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "درآمد",
+          "en": "income"
+        },
+        "id_ref": "nomen_einkommen"
+      },
+      {
+        "wort": "die Besteuerung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مالیات‌بندی",
+          "en": "taxation"
+        },
+        "id_ref": "nomen_besteuerung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

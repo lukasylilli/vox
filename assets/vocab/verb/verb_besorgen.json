@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_besorgen",
+  "wort": "besorgen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تهیه کردن، خریدن، فراهم کردن"
+    ],
+    "en": [
+      "to get",
+      "to buy",
+      "to obtain"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Einkaufen",
+    "Alltag"
+  ],
+  "ipa": "bəˈzɔʁɡn̩",
+  "anmerkung": "Untrennbar, regelmäßig (besorgte, besorgt). Adjektiv «besorgt» = beunruhigt.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich besorge noch Brot.",
+      "uebersetzung": {
+        "fa": "من هنوز نان می‌خرم.",
+        "en": "I'll get some bread."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Kannst du die Karten besorgen, bevor das Konzert ausverkauft ist?",
+      "uebersetzung": {
+        "fa": "می‌توانی بلیت‌ها را قبل از اینکه کنسرت پر شود، تهیه کنی؟",
+        "en": "Can you get the tickets before the concert is sold out?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kaufen",
+      "uebersetzung": {
+        "fa": "خریدن",
+        "en": "to buy"
+      }
+    },
+    {
+      "wort": "beschaffen",
+      "uebersetzung": {
+        "fa": "فراهم کردن",
+        "en": "to procure"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + sorgen (مراقبت کردن، فراهم کردن)",
+    "en": "be- + sorgen (to care, to provide)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem etwas besorgen",
+        "bedeutung": "für jemanden etwas kaufen oder holen",
+        "beispiel": "Ich besorge dir die Medikamente aus der Apotheke.",
+        "uebersetzung": {
+          "fa": "داروها را از داروخانه برایت می‌گیرم.",
+          "en": "I will get you the medicine from the pharmacy."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "besorgen",
+      "praeteritum": "besorgte",
+      "partizip2": "besorgt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "besorge",
+        "du": "besorgst",
+        "er_sie_es": "besorgt",
+        "wir": "besorgen",
+        "ihr": "besorgt",
+        "sie_Sie": "besorgen"
+      },
+      "praeteritum": {
+        "ich": "besorgte",
+        "du": "besorgtest",
+        "er_sie_es": "besorgte",
+        "wir": "besorgten",
+        "ihr": "besorgtet",
+        "sie_Sie": "besorgten"
+      },
+      "konjunktiv1": {
+        "ich": "besorge",
+        "du": "besorgest",
+        "er_sie_es": "besorge",
+        "wir": "besorgen",
+        "ihr": "besorget",
+        "sie_Sie": "besorgen"
+      },
+      "konjunktiv2": {
+        "ich": "besorgte",
+        "du": "besorgtest",
+        "er_sie_es": "besorgte",
+        "wir": "besorgten",
+        "ihr": "besorgtet",
+        "sie_Sie": "besorgten"
+      },
+      "imperativ": {
+        "du": "Besorge!",
+        "ihr": "Besorgt!",
+        "Sie": "Besorgen Sie!"
+      }
+    },
+    "partizip1": "besorgend",
+    "nominalisierung": "die Besorgung"
+  },
+  "wortnetz": {
+    "grundwort": "Sorge",
+    "woerter": [
+      {
+        "wort": "kaufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خریدن",
+          "en": "to buy"
+        },
+        "id_ref": "verb_kaufen"
+      },
+      {
+        "wort": "holen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آوردن",
+          "en": "to fetch"
+        },
+        "id_ref": "verb_holen"
+      },
+      {
+        "wort": "die Besorgung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خرید روزانه، کار بیرون",
+          "en": "errand"
+        },
+        "id_ref": "nomen_besorgung"
+      },
+      {
+        "wort": "besorgt",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نگران",
+          "en": "worried"
+        },
+        "id_ref": "adjektiv_besorgt"
+      },
+      {
+        "wort": "die Sorge",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگرانی",
+          "en": "worry"
+        },
+        "id_ref": "nomen_sorge"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
