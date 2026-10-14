@@ -19,13 +19,36 @@
 import '../../../core/models/word_model.dart';
 import '../../../core/wort/altwort_formen.dart';
 import '../../../core/wort/wort_form.dart';
+import '../../vokabular/data/vokab_schema.dart'
+    show vokabAnstoessigStufen, vokabBerufe, vokabZeitlichWerte;
 import 'altwort_karte.dart';
 import 'such_rang.dart';
 
 /// Die Drawer der Filterseite (Reihenfolge = Reihenfolge auf der Seite).
 /// buch/kategorie haben Werte, die erst zur Laufzeit feststehen
 /// ([WortschatzZugehoerigkeit]); niveau/wortart sind fest.
-enum FilterBereich { buch, wortart, niveau, kategorie }
+/// beruf/anstoessig/zeitlich (F.6) lesen die Einordnung der Karte (Prompt-
+/// Regel 17, vokab_schema.dart) — alte Wörter haben keine und fallen dort
+/// heraus.
+enum FilterBereich { buch, wortart, niveau, beruf, anstoessig, zeitlich, kategorie }
+
+/// Schlüssel im gespeicherten JSON je Bereich.
+const _jsonSchluessel = {
+  FilterBereich.buch: 'buecher',
+  FilterBereich.wortart: 'wortarten',
+  FilterBereich.niveau: 'niveaus',
+  FilterBereich.beruf: 'berufe',
+  FilterBereich.anstoessig: 'anstoessig',
+  FilterBereich.zeitlich: 'zeitlich',
+  FilterBereich.kategorie: 'kategorien',
+};
+
+/// Bereiche aus der Einordnung der Karte (F.6).
+const _einordnungsBereiche = {
+  FilterBereich.beruf,
+  FilterBereich.anstoessig,
+  FilterBereich.zeitlich,
+};
 
 /// Gültige Niveau-Werte (klein, wie `GermanLevel.name`).
 const wortschatzNiveaus = ['a1', 'a2', 'b1', 'b2', 'c1', 'c2'];
@@ -82,14 +105,20 @@ class WortschatzFilter {
     Set<String> wortarten = const {},
     Set<String> buecher = const {},
     Set<String> kategorien = const {},
+    Set<String> berufe = const {},
+    Set<String> anstoessig = const {},
+    Set<String> zeitlich = const {},
   }) : _werte = {
-          if (buecher.isNotEmpty) FilterBereich.buch: Set.unmodifiable(buecher),
-          if (wortarten.isNotEmpty)
-            FilterBereich.wortart: Set.unmodifiable(wortarten),
-          if (niveaus.isNotEmpty)
-            FilterBereich.niveau: Set.unmodifiable(niveaus),
-          if (kategorien.isNotEmpty)
-            FilterBereich.kategorie: Set.unmodifiable(kategorien),
+          for (final e in {
+            FilterBereich.buch: buecher,
+            FilterBereich.wortart: wortarten,
+            FilterBereich.niveau: niveaus,
+            FilterBereich.beruf: berufe,
+            FilterBereich.anstoessig: anstoessig,
+            FilterBereich.zeitlich: zeitlich,
+            FilterBereich.kategorie: kategorien,
+          }.entries)
+            if (e.value.isNotEmpty) e.key: Set.unmodifiable(e.value),
         };
 
   /// Nur nicht-leere Bereiche stehen drin.
@@ -102,6 +131,9 @@ class WortschatzFilter {
   Set<String> get wortarten => werte(FilterBereich.wortart);
   Set<String> get buecher => werte(FilterBereich.buch);
   Set<String> get kategorien => werte(FilterBereich.kategorie);
+  Set<String> get berufe => werte(FilterBereich.beruf);
+  Set<String> get anstoessig => werte(FilterBereich.anstoessig);
+  Set<String> get zeitlich => werte(FilterBereich.zeitlich);
 
   bool get istLeer => _werte.isEmpty;
   int get anzahlAktiv =>
@@ -141,10 +173,8 @@ class WortschatzFilter {
   }
 
   Map<String, dynamic> toJson() => {
-        'niveaus': niveaus.toList()..sort(),
-        'wortarten': wortarten.toList()..sort(),
-        'buecher': buecher.toList()..sort(),
-        'kategorien': kategorien.toList()..sort(),
+        for (final b in FilterBereich.values)
+          _jsonSchluessel[b]!: werte(b).toList()..sort(),
       };
 
   /// Unbekannte Niveaus/Wortarten (z. B. aus einer älteren App-Version)
@@ -160,6 +190,9 @@ class WortschatzFilter {
       wortarten: lies('wortarten', {for (final t in WordType.values) t.name}),
       buecher: lies('buecher'),
       kategorien: lies('kategorien'),
+      berufe: lies('berufe', vokabBerufe.toSet()),
+      anstoessig: lies('anstoessig', vokabAnstoessigStufen.toSet()),
+      zeitlich: lies('zeitlich', vokabZeitlichWerte.toSet()),
     );
   }
 
@@ -177,7 +210,11 @@ class WortschatzFilter {
     final buecherG = _gewaehlteGruppen(FilterBereich.buch, z);
     final katG = _gewaehlteGruppen(FilterBereich.kategorie, z);
     final niv = niveaus, art = wortarten;
+    // Alte Wörter haben keine Einordnung (Regel 17) ⇒ bei einem dieser
+    // Filter nie dabei.
+    final mitEinordnung = _einordnungsBereiche.any((b) => werte(b).isNotEmpty);
     return (w) =>
+        !mitEinordnung &&
         (niv.isEmpty || (w.level != null && niv.contains(w.level!.name))) &&
         (art.isEmpty || art.contains(w.wordType.name)) &&
         (buecherG.isEmpty || buecherG.any((g) => g.altWoerter.contains(w.id))) &&
@@ -201,6 +238,7 @@ class WortschatzFilter {
     };
     final mitBuch = buecher.isNotEmpty, mitKat = kategorien.isNotEmpty;
     final niv = niveaus, mitArt = wortarten.isNotEmpty;
+    final ber = berufe, ans = anstoessig, zeit = zeitlich;
     return (k) {
       if (niv.isNotEmpty &&
           !niv.contains((k['niveau'] as String? ?? '').toLowerCase())) {
@@ -210,6 +248,15 @@ class WortschatzFilter {
       final id = k['id'] as String? ?? '';
       if (mitBuch && !buchKarten.contains(id)) return false;
       if (mitKat && !katKarten.contains(id)) return false;
+      if (ber.isNotEmpty) {
+        final kb = k['berufe'];
+        if (kb is! List || !kb.any(ber.contains)) return false;
+      }
+      if (ans.isNotEmpty) {
+        final a = k['anstoessig'];
+        if (a is! Map || !ans.contains(a['stufe'])) return false;
+      }
+      if (zeit.isNotEmpty && !zeit.contains(k['zeitlich'])) return false;
       return true;
     };
   }

@@ -59,6 +59,11 @@ class WortschatzFilterNotifier extends StateNotifier<WortschatzFilter> {
       _setzen(state.mitBereich(b, {...state.werte(b)}..remove(wert)));
 
   Future<void> allesLoeschen() => _setzen(WortschatzFilter.leer);
+
+  /// Nur dieser eine Wert (Klick auf ein Etikett der Wort-Seite, F.6b):
+  /// alle anderen Filter weg, damit genau «alle Pflege-Wörter» erscheinen.
+  Future<void> nurDieser(FilterBereich b, String wert) =>
+      _setzen(WortschatzFilter.leer.mitBereich(b, {wert}));
 }
 
 final wortschatzFilterProvider =

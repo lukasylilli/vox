@@ -10,8 +10,8 @@
 //          Die Suche aus der Liste kommt mit (?suche=…), damit alle Zahlen
 //          genau zur Liste passen.
 //          Drawer-Raster: filter_accordion.dart (F.3). Drawer: Bücher (nur
-//          fertige VOX-Bücher), Wortart, Niveau, Meine Kategorien (F.4);
-//          Berufe/Respekt/Veraltet (F.6) kommen als weitere Drawer.
+//          fertige VOX-Bücher), Wortart, Niveau, Berufe, Respektlos,
+//          Veraltet (F.6, Einordnung der Karte), Meine Kategorien (F.4).
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -21,6 +21,9 @@ import '../../../core/models/word_model.dart';
 import '../../../core/utils/formatters.dart';
 import '../../../core/widgets/filter_accordion.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../vokabular/data/vokab_schema.dart'
+    show vokabAnstoessigStufen, vokabBerufe, vokabZeitlichWerte;
+import '../../vokabular/widgets/wort_einordnung.dart';
 import '../controllers/wortschatz_filter_controller.dart';
 import '../data/wortschatz_filter.dart';
 
@@ -32,15 +35,21 @@ class WortschatzFilterScreen extends ConsumerWidget {
 
   /// Beschriftung eines Werts — auch für die Chips über der Liste.
   /// Bücher/Kategorien: Name aus [z]; unbekannt ⇒ null (kein Chip).
-  static String? beschriftung(
-          FilterBereich b, String wert, WortschatzZugehoerigkeit z) =>
+  static String? beschriftung(BuildContext context, FilterBereich b,
+          String wert, WortschatzZugehoerigkeit z) =>
       switch (b) {
         FilterBereich.niveau => wert.toUpperCase(),
         FilterBereich.wortart => WordType.values
             .firstWhere((t) => t.name == wert,
                 orElse: () => WordType.sonstige)
             .label,
-        FilterBereich.buch || FilterBereich.kategorie => z.gruppe(b, wert)?.name,
+        FilterBereich.buch ||
+        FilterBereich.kategorie =>
+          z.gruppe(b, wert)?.name,
+        FilterBereich.beruf ||
+        FilterBereich.anstoessig ||
+        FilterBereich.zeitlich =>
+          einordnungText(context, b, wert),
       };
 
   /// Werte je Bereich, in fester Reihenfolge.
@@ -51,7 +60,14 @@ class WortschatzFilterScreen extends ConsumerWidget {
         FilterBereich.buch ||
         FilterBereich.kategorie =>
           [for (final g in z.gruppen(b)) g.id],
+        FilterBereich.beruf => vokabBerufe,
+        FilterBereich.anstoessig => vokabAnstoessigStufen,
+        FilterBereich.zeitlich => vokabZeitlichWerte,
       };
+
+  /// Icon eines Knopfs (nur Berufe, F.6) — aus dem Code, nie aus der Karte.
+  static IconData? icon(FilterBereich b, String wert) =>
+      b == FilterBereich.beruf ? berufIcon(wert) : null;
 
   /// Überschrift des Drawers — l10n-Schlüssel (Niveau/Wortart bleiben
   /// deutsch wie bisher: kein Schlüssel ⇒ AppL10n zeigt das Wort selbst).
@@ -59,6 +75,9 @@ class WortschatzFilterScreen extends ConsumerWidget {
         FilterBereich.buch => 'filter_buecher',
         FilterBereich.wortart => 'Wortart',
         FilterBereich.niveau => 'Niveau',
+        FilterBereich.beruf => 'filter_berufe',
+        FilterBereich.anstoessig => 'filter_anstoessig',
+        FilterBereich.zeitlich => 'filter_zeitlich',
         FilterBereich.kategorie => 'filter_meine_kategorien',
       };
 
@@ -89,7 +108,8 @@ class WortschatzFilterScreen extends ConsumerWidget {
                 for (final w in werte(b, z))
                   FilterOption(
                     value: w,
-                    label: beschriftung(b, w, z) ?? w,
+                    label: beschriftung(context, b, w, z) ?? w,
+                    icon: icon(b, w),
                     // Buchtitel und eigene Namen nie nachschlagen.
                     uebersetzen: false,
                     anzahl: basis == null

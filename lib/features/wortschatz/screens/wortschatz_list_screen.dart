@@ -73,7 +73,8 @@ class _WortschatzListScreenState extends ConsumerState<WortschatzListScreen> {
       {
         for (final b in FilterBereich.values)
           for (final w in filter.werte(b))
-            ?WortschatzFilterScreen.beschriftung(b, w, z): '${b.name}:$w',
+            ?WortschatzFilterScreen.beschriftung(context, b, w, z):
+                '${b.name}:$w',
       };
 
   void _chipEntfernen(String kodiert) {

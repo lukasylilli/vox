@@ -6,7 +6,7 @@
 //            · word_detail_screen.dart (altes App-Wort: seine Seite wird um die
 //              Karte ERWEITERT, nichts davon gelöscht — Regel L.4b, Lukas)
 //          [WortKarteKopf]       Symbol + Wort + IPA + Niveau → Übersetzung → Hinweis
-//          [WortKarteAbschnitte] Beispiele → Kasus im Beispiel → Details je
+//          [WortKarteAbschnitte] Einordnung (F.6) → Beispiele → Kasus im Beispiel → Details je
 //                                Wortart → Synonyme/Gegenteil/Komposita →
 //                                Wortbildung → Wortnetz (klickbar) → Meine Notiz
 //          Aussehen (Farbe/Form) nur aus core/grammatikon — nie aus der Karte.
@@ -24,6 +24,7 @@ import '../../../core/widgets/deutsch_text.dart';
 import '../controllers/vokabular_controller.dart';
 import 'details_renderer.dart';
 import 'kasus_beispiel_block.dart';
+import 'wort_einordnung.dart';
 import 'wort_notiz.dart';
 import 'wortseite_bausteine.dart';
 
@@ -138,6 +139,9 @@ class WortKarteAbschnitte extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
+        // ── Einordnung: Beruf / anstößig / veraltet + Ersatz (F.6) ──
+        WortEinordnung(card: card, byId: byId),
+
         // ── Beispiele ──
         _beispiele(context),
 

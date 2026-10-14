@@ -11,6 +11,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:vox/core/database/app_database.dart';
+import 'package:vox/core/models/word_model.dart';
 import 'package:vox/features/vokabular/controllers/vokabular_controller.dart';
 import 'package:vox/features/wortschatz/controllers/word_controller.dart';
 import 'package:vox/features/wortschatz/controllers/wortschatz_filter_controller.dart';
@@ -115,6 +116,68 @@ void main() {
     });
   });
 
+  group('Einordnung: Berufe / anstößig / veraltet (F.6)', () {
+    final idx = [
+      {..._karte('nomen_waschlappen', 'der Waschlappen', 'nomen', 'A2'),
+        'berufe': ['pflege_medizin', 'reinigung']},
+      {..._karte('verb_beatmen', 'beatmen', 'verb', 'B2'),
+        'berufe': ['pflege_medizin']},
+      {..._karte('nomen_fraeulein', 'das Fräulein', 'nomen', 'A2'),
+        'zeitlich': 'veraltet'},
+      {..._karte('adjektiv_doof', 'doof', 'adjektiv', 'A2'),
+        'anstoessig': {'stufe': 'abwertend'}},
+      _karte('verb_gehen', 'gehen', 'verb', 'A1'),
+    ];
+    final alt = WordModel(
+      id: 1,
+      german: 'pflegen',
+      meaningFa: 'مراقبت کردن',
+      wordType: WordType.verb,
+      level: GermanLevel.a1,
+    );
+    WortschatzBasis b() => wortschatzBasis(
+        alleWoerter: [alt], kartenTreffer: idx, query: '');
+
+    test('Beruf: jede Karte mit diesem Beruf; mehrere Berufe = oder', () {
+      expect(wortschatzAnzahl(b(), WortschatzFilter(berufe: {'pflege_medizin'})),
+          2);
+      expect(wortschatzAnzahl(b(), WortschatzFilter(berufe: {'reinigung'})), 1);
+      expect(
+          wortschatzAnzahl(
+              b(), WortschatzFilter(berufe: {'reinigung', 'it'})),
+          1);
+    });
+
+    test('anstößig / veraltet nach Stufe; alte Wörter fallen heraus', () {
+      expect(
+          wortschatzAnzahl(b(), WortschatzFilter(anstoessig: {'abwertend'})),
+          1);
+      expect(
+          wortschatzAnzahl(b(), WortschatzFilter(anstoessig: {'vulgaer'})),
+          0);
+      expect(
+          wortschatzAnzahl(b(), WortschatzFilter(zeitlich: {'veraltet'})), 1);
+      // ohne Einordnungs-Filter ist das alte Wort dabei, mit nicht
+      expect(wortschatzAnzahl(b(), WortschatzFilter(niveaus: {'a1'})), 2);
+      expect(
+          wortschatzAnzahl(b(),
+              WortschatzFilter(niveaus: {'a1'}, berufe: {'pflege_medizin'})),
+          0);
+    });
+
+    test('JSON: unbekannte Einordnungs-Werte fallen weg', () {
+      final f = WortschatzFilter.fromJson({
+        'berufe': ['it', 'astronaut'],
+        'anstoessig': ['vulgaer', 'frech'],
+        'zeitlich': ['veraltet', 'antik'],
+      });
+      expect(f.berufe, {'it'});
+      expect(f.anstoessig, {'vulgaer'});
+      expect(f.zeitlich, {'veraltet'});
+      expect(WortschatzFilter.fromJson(f.toJson()).toJson(), f.toJson());
+    });
+  });
+
   test('JSON: hin und zurück, Unbekanntes fällt weg', () {
     final f = WortschatzFilter(
         niveaus: {'b1'}, wortarten: {'nomen'}, buecher: {'konnektoren'});
@@ -160,7 +223,6 @@ void main() {
     // categories» leer ⇒ Hinweis.
     expect(find.text('Books'), findsOneWidget);
     expect(find.text('A1 Starten wir'), findsOneWidget);
-    expect(find.textContaining('No categories yet'), findsOneWidget);
     await tester.tap(find.text('A1 Starten wir'));
     await tester.pump(const Duration(milliseconds: 300));
     expect(find.text('Show 1 words'), findsOneWidget);
@@ -187,6 +249,13 @@ void main() {
     await tester.tap(find.byKey(const ValueKey('filter_alle_loeschen')));
     await tester.pump(const Duration(milliseconds: 300));
     expect(find.text('Show 5 words'), findsOneWidget);
+
+    // Ganz unten: «My categories» leer ⇒ Hinweis (F.4); dazwischen die
+    // Einordnungs-Drawer (F.6).
+    await tester.scrollUntilVisible(
+        find.textContaining('No categories yet'), 300);
+    expect(find.text('Professions'), findsOneWidget);
+    expect(find.textContaining('No categories yet'), findsOneWidget);
 
     await tester.pumpWidget(const SizedBox());
     container.dispose();
