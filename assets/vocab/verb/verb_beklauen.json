@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_beklauen",
+  "wort": "beklauen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(از کسی) دزدیدن، جیب (کسی را) زدن"
+    ],
+    "en": [
+      "to rob",
+      "to steal from"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Kriminalität"
+  ],
+  "ipa": "bəˈklaʊ̯ən",
+  "anmerkung": "Umgangssprachlich für «bestehlen». Untrennbar, regelmäßig (beklaute, beklaut). Objekt ist die Person, nicht die Sache.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Im Bus hat man mich beklaut.",
+      "uebersetzung": {
+        "fa": "توی اتوبوس از من دزدی کردند.",
+        "en": "Someone robbed me on the bus."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Er merkte erst zu Hause, dass ihn jemand am Bahnhof beklaut hatte.",
+      "uebersetzung": {
+        "fa": "او تازه در خانه فهمید که کسی در ایستگاه قطار از او دزدی کرده بود.",
+        "en": "He only noticed at home that someone had robbed him at the station."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bestehlen",
+      "uebersetzung": {
+        "fa": "دزدی کردن از (کسی)",
+        "en": "to steal from"
+      }
+    },
+    {
+      "wort": "ausrauben",
+      "uebersetzung": {
+        "fa": "غارت کردن، لخت کردن",
+        "en": "to rob"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + klauen (کش رفتن)",
+    "en": "be- + klauen (to nick)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden beklauen (+ Akk)",
+        "bedeutung": "jemandem etwas stehlen",
+        "beispiel": "Pass auf, dass dich niemand beklaut!",
+        "uebersetzung": {
+          "fa": "مواظب باش کسی از تو دزدی نکند!",
+          "en": "Be careful that nobody robs you!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beklauen",
+      "praeteritum": "beklaute",
+      "partizip2": "beklaut"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beklaue",
+        "du": "beklaust",
+        "er_sie_es": "beklaut",
+        "wir": "beklauen",
+        "ihr": "beklaut",
+        "sie_Sie": "beklauen"
+      },
+      "praeteritum": {
+        "ich": "beklaute",
+        "du": "beklautest",
+        "er_sie_es": "beklaute",
+        "wir": "beklauten",
+        "ihr": "beklautet",
+        "sie_Sie": "beklauten"
+      },
+      "konjunktiv1": {
+        "ich": "beklaue",
+        "du": "beklauest",
+        "er_sie_es": "beklaue",
+        "wir": "beklauen",
+        "ihr": "beklauet",
+        "sie_Sie": "beklauen"
+      },
+      "konjunktiv2": {
+        "ich": "beklaute",
+        "du": "beklautest",
+        "er_sie_es": "beklaute",
+        "wir": "beklauten",
+        "ihr": "beklautet",
+        "sie_Sie": "beklauten"
+      },
+      "imperativ": {
+        "du": "Beklaue!",
+        "ihr": "Beklaut!",
+        "Sie": "Beklauen Sie!"
+      }
+    },
+    "partizip1": "beklauend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "klauen",
+    "woerter": [
+      {
+        "wort": "klauen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کش رفتن، دزدیدن",
+          "en": "to nick"
+        },
+        "id_ref": "verb_klauen"
+      },
+      {
+        "wort": "stehlen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دزدیدن",
+          "en": "to steal"
+        },
+        "id_ref": "verb_stehlen"
+      },
+      {
+        "wort": "der Dieb",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دزد",
+          "en": "thief"
+        },
+        "id_ref": "nomen_dieb"
+      },
+      {
+        "wort": "der Taschendieb",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جیب‌بر",
+          "en": "pickpocket"
+        },
+        "id_ref": "nomen_taschendieb"
+      },
+      {
+        "wort": "bestehlen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دزدی کردن از (کسی)",
+          "en": "to steal from"
+        },
+        "id_ref": "verb_bestehlen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

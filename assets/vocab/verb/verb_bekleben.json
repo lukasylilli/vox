@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_bekleben",
+  "wort": "bekleben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(روی چیزی) چسباندن، با برچسب پوشاندن"
+    ],
+    "en": [
+      "to stick (onto)",
+      "to cover (with stickers)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Basteln"
+  ],
+  "ipa": "bəˈkleːbn̩",
+  "anmerkung": "Untrennbar, regelmäßig (beklebte, beklebt). Das Objekt ist die Fläche: «die Wand mit Postern bekleben».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Kind beklebt sein Heft mit Sternen.",
+      "uebersetzung": {
+        "fa": "بچه روی دفترش ستاره می‌چسباند.",
+        "en": "The child covers his notebook with star stickers."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor wir den Karton verschicken, bekleben wir ihn mit einem Etikett, damit er nicht verloren geht.",
+      "uebersetzung": {
+        "fa": "قبل از اینکه کارتن را بفرستیم، رویش برچسب می‌چسبانیم تا گم نشود.",
+        "en": "Before we send the box, we stick a label on it so it doesn't get lost."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verkleben",
+      "uebersetzung": {
+        "fa": "چسباندن",
+        "en": "to glue"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + kleben (چسباندن)",
+    "en": "be- + kleben (to stick)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas mit + Dat bekleben",
+        "bedeutung": "eine Fläche mit etwas überkleben",
+        "beispiel": "Er hat den Koffer mit Aufklebern beklebt.",
+        "uebersetzung": {
+          "fa": "او چمدان را با برچسب پوشانده است.",
+          "en": "He covered the suitcase with stickers."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bekleben",
+      "praeteritum": "beklebte",
+      "partizip2": "beklebt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beklebe",
+        "du": "beklebst",
+        "er_sie_es": "beklebt",
+        "wir": "bekleben",
+        "ihr": "beklebt",
+        "sie_Sie": "bekleben"
+      },
+      "praeteritum": {
+        "ich": "beklebte",
+        "du": "beklebtest",
+        "er_sie_es": "beklebte",
+        "wir": "beklebten",
+        "ihr": "beklebtet",
+        "sie_Sie": "beklebten"
+      },
+      "konjunktiv1": {
+        "ich": "beklebe",
+        "du": "beklebest",
+        "er_sie_es": "beklebe",
+        "wir": "bekleben",
+        "ihr": "beklebet",
+        "sie_Sie": "bekleben"
+      },
+      "konjunktiv2": {
+        "ich": "beklebte",
+        "du": "beklebtest",
+        "er_sie_es": "beklebte",
+        "wir": "beklebten",
+        "ihr": "beklebtet",
+        "sie_Sie": "beklebten"
+      },
+      "imperativ": {
+        "du": "Beklebe!",
+        "ihr": "Beklebt!",
+        "Sie": "Bekleben Sie!"
+      }
+    },
+    "partizip1": "beklebend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kleben",
+    "woerter": [
+      {
+        "wort": "kleben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چسباندن",
+          "en": "to stick"
+        },
+        "id_ref": "verb_kleben"
+      },
+      {
+        "wort": "der Aufkleber",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برچسب",
+          "en": "sticker"
+        },
+        "id_ref": "nomen_aufkleber"
+      },
+      {
+        "wort": "das Etikett",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "برچسب، اتیکت",
+          "en": "label"
+        },
+        "id_ref": "nomen_etikett"
+      },
+      {
+        "wort": "der Kleber",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چسب",
+          "en": "glue"
+        },
+        "id_ref": "nomen_kleber"
+      },
+      {
+        "wort": "aufkleben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چسباندن (روی چیزی)",
+          "en": "to stick on"
+        },
+        "id_ref": "verb_aufkleben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

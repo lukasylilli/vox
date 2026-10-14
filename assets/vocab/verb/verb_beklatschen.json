@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_beklatschen",
+  "wort": "beklatschen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "برای (کسی/چیزی) دست زدن، تشویق کردن"
+    ],
+    "en": [
+      "to applaud",
+      "to clap for"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kultur",
+    "Freizeit"
+  ],
+  "ipa": "bəˈklatʃn̩",
+  "anmerkung": "Untrennbar, regelmäßig (beklatschte, beklatscht). Oft im Passiv: «Sie wurde lange beklatscht.»",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Alle beklatschen die Sängerin.",
+      "uebersetzung": {
+        "fa": "همه برای خواننده دست می‌زنند.",
+        "en": "Everyone applauds the singer."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Obwohl das Stück sehr lang war, beklatschte das Publikum die Schauspieler mehrere Minuten.",
+      "uebersetzung": {
+        "fa": "با اینکه نمایش خیلی طولانی بود، تماشاگران چند دقیقه برای بازیگران دست زدند.",
+        "en": "Although the play was very long, the audience applauded the actors for several minutes."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "applaudieren",
+      "uebersetzung": {
+        "fa": "کف زدن، تشویق کردن",
+        "en": "to applaud"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "auspfeifen",
+      "uebersetzung": {
+        "fa": "هو کردن (با سوت)",
+        "en": "to boo"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + klatschen (دست زدن)",
+    "en": "be- + klatschen (to clap)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden/etwas beklatschen (+ Akk)",
+        "bedeutung": "jemandem durch Klatschen Beifall spenden",
+        "beispiel": "Die Zuschauer beklatschten den Sieger.",
+        "uebersetzung": {
+          "fa": "تماشاگران برای برنده دست زدند.",
+          "en": "The spectators applauded the winner."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beklatschen",
+      "praeteritum": "beklatschte",
+      "partizip2": "beklatscht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beklatsche",
+        "du": "beklatschst",
+        "er_sie_es": "beklatscht",
+        "wir": "beklatschen",
+        "ihr": "beklatscht",
+        "sie_Sie": "beklatschen"
+      },
+      "praeteritum": {
+        "ich": "beklatschte",
+        "du": "beklatschtest",
+        "er_sie_es": "beklatschte",
+        "wir": "beklatschten",
+        "ihr": "beklatschtet",
+        "sie_Sie": "beklatschten"
+      },
+      "konjunktiv1": {
+        "ich": "beklatsche",
+        "du": "beklatschest",
+        "er_sie_es": "beklatsche",
+        "wir": "beklatschen",
+        "ihr": "beklatschet",
+        "sie_Sie": "beklatschen"
+      },
+      "konjunktiv2": {
+        "ich": "beklatschte",
+        "du": "beklatschtest",
+        "er_sie_es": "beklatschte",
+        "wir": "beklatschten",
+        "ihr": "beklatschtet",
+        "sie_Sie": "beklatschten"
+      },
+      "imperativ": {
+        "du": "Beklatsche!",
+        "ihr": "Beklatscht!",
+        "Sie": "Beklatschen Sie!"
+      }
+    },
+    "partizip1": "beklatschend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "klatschen",
+    "woerter": [
+      {
+        "wort": "klatschen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دست زدن",
+          "en": "to clap"
+        },
+        "id_ref": "verb_klatschen"
+      },
+      {
+        "wort": "applaudieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تشویق کردن",
+          "en": "to applaud"
+        },
+        "id_ref": "verb_applaudieren"
+      },
+      {
+        "wort": "der Applaus",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تشویق، کف زدن",
+          "en": "applause"
+        },
+        "id_ref": "nomen_applaus"
+      },
+      {
+        "wort": "das Publikum",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تماشاگران",
+          "en": "audience"
+        },
+        "id_ref": "nomen_publikum"
+      },
+      {
+        "wort": "der Beifall",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تحسین، کف زدن",
+          "en": "applause"
+        },
+        "id_ref": "nomen_beifall"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_bekoestigen",
+  "wort": "beköstigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "غذا دادن (به کسی)، تأمین غذای (کسی) را کردن"
+    ],
+    "en": [
+      "to feed",
+      "to provide meals for"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Essen",
+    "Verwaltung"
+  ],
+  "ipa": "bəˈkœstɪɡn̩",
+  "anmerkung": "Eher formell/Amtssprache. Untrennbar, regelmäßig (beköstigte, beköstigt). Nomen: die Beköstigung.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Schule beköstigt die Kinder mittags.",
+      "uebersetzung": {
+        "fa": "مدرسه ظهرها به بچه‌ها غذا می‌دهد.",
+        "en": "The school provides the children with lunch."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Während der Konferenz werden die Teilnehmer im Hotel beköstigt, sodass sie sich um nichts kümmern müssen.",
+      "uebersetzung": {
+        "fa": "در طول کنفرانس، غذای شرکت‌کنندگان در هتل تأمین می‌شود، طوری که لازم نیست به چیزی فکر کنند.",
+        "en": "During the conference the participants are provided with meals at the hotel, so they don't have to worry about anything."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verpflegen",
+      "uebersetzung": {
+        "fa": "تغذیه کردن، غذا رساندن",
+        "en": "to cater for"
+      }
+    },
+    {
+      "wort": "versorgen",
+      "uebersetzung": {
+        "fa": "تأمین کردن",
+        "en": "to provide for"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Kost (غذا) + -ig + -en",
+    "en": "be- + Kost (food) + -ig + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "jemanden beköstigen (+ Akk)",
+        "bedeutung": "jemandem regelmäßig Essen geben",
+        "beispiel": "Das Heim beköstigt 80 Bewohner.",
+        "uebersetzung": {
+          "fa": "آسایشگاه به ۸۰ ساکن غذا می‌دهد.",
+          "en": "The home provides meals for 80 residents."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beköstigen",
+      "praeteritum": "beköstigte",
+      "partizip2": "beköstigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beköstige",
+        "du": "beköstigst",
+        "er_sie_es": "beköstigt",
+        "wir": "beköstigen",
+        "ihr": "beköstigt",
+        "sie_Sie": "beköstigen"
+      },
+      "praeteritum": {
+        "ich": "beköstigte",
+        "du": "beköstigtest",
+        "er_sie_es": "beköstigte",
+        "wir": "beköstigten",
+        "ihr": "beköstigtet",
+        "sie_Sie": "beköstigten"
+      },
+      "konjunktiv1": {
+        "ich": "beköstige",
+        "du": "beköstigest",
+        "er_sie_es": "beköstige",
+        "wir": "beköstigen",
+        "ihr": "beköstiget",
+        "sie_Sie": "beköstigen"
+      },
+      "konjunktiv2": {
+        "ich": "beköstigte",
+        "du": "beköstigtest",
+        "er_sie_es": "beköstigte",
+        "wir": "beköstigten",
+        "ihr": "beköstigtet",
+        "sie_Sie": "beköstigten"
+      },
+      "imperativ": {
+        "du": "Beköstige!",
+        "ihr": "Beköstigt!",
+        "Sie": "Beköstigen Sie!"
+      }
+    },
+    "partizip1": "beköstigend",
+    "nominalisierung": "die Beköstigung"
+  },
+  "wortnetz": {
+    "grundwort": "Kost",
+    "woerter": [
+      {
+        "wort": "die Kost",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "غذا، خوراک",
+          "en": "food, fare"
+        },
+        "id_ref": "nomen_kost"
+      },
+      {
+        "wort": "die Verpflegung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تغذیه، غذا",
+          "en": "catering, meals"
+        },
+        "id_ref": "nomen_verpflegung"
+      },
+      {
+        "wort": "verpflegen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "غذا رساندن",
+          "en": "to cater for"
+        },
+        "id_ref": "verb_verpflegen"
+      },
+      {
+        "wort": "die Mahlzeit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وعده‌ی غذا",
+          "en": "meal"
+        },
+        "id_ref": "nomen_mahlzeit"
+      },
+      {
+        "wort": "versorgen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تأمین کردن",
+          "en": "to provide for"
+        },
+        "id_ref": "verb_versorgen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

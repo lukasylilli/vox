@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_beklecksen",
+  "wort": "beklecksen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با جوهر یا رنگ) لک کردن، لکه‌دار کردن"
+    ],
+    "en": [
+      "to blot",
+      "to splotch"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Schule",
+    "Malen"
+  ],
+  "ipa": "bəˈklɛksn̩",
+  "anmerkung": "Untrennbar, regelmäßig (bekleckste, bekleckst). Meist mit Tinte oder Farbe.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Füller hat das Blatt bekleckst.",
+      "uebersetzung": {
+        "fa": "خودنویس برگه را لکه‌دار کرد.",
+        "en": "The fountain pen blotted the page."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Beim Streichen hat er nicht aufgepasst, sodass er den ganzen Boden mit Farbe bekleckst hat.",
+      "uebersetzung": {
+        "fa": "موقع رنگ زدن دقت نکرد، طوری که کل کف را با رنگ لک کرد.",
+        "en": "He wasn't careful while painting, so he splotched the whole floor with paint."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beschmieren",
+      "uebersetzung": {
+        "fa": "آلوده کردن، کثیف کردن",
+        "en": "to smear"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + klecksen (لکه انداختن)",
+    "en": "be- + klecksen (to blot)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "etwas mit + Dat beklecksen",
+        "bedeutung": "mit Klecksen schmutzig machen",
+        "beispiel": "Sie hat ihr Heft mit Tinte bekleckst.",
+        "uebersetzung": {
+          "fa": "او دفترش را با جوهر لک کرد.",
+          "en": "She blotted her notebook with ink."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beklecksen",
+      "praeteritum": "bekleckste",
+      "partizip2": "bekleckst"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bekleckse",
+        "du": "bekleckst",
+        "er_sie_es": "bekleckst",
+        "wir": "beklecksen",
+        "ihr": "bekleckst",
+        "sie_Sie": "beklecksen"
+      },
+      "praeteritum": {
+        "ich": "bekleckste",
+        "du": "bekleckstest",
+        "er_sie_es": "bekleckste",
+        "wir": "beklecksten",
+        "ihr": "bekleckstet",
+        "sie_Sie": "beklecksten"
+      },
+      "konjunktiv1": {
+        "ich": "bekleckse",
+        "du": "beklecksest",
+        "er_sie_es": "bekleckse",
+        "wir": "beklecksen",
+        "ihr": "bekleckset",
+        "sie_Sie": "beklecksen"
+      },
+      "konjunktiv2": {
+        "ich": "bekleckste",
+        "du": "bekleckstest",
+        "er_sie_es": "bekleckste",
+        "wir": "beklecksten",
+        "ihr": "bekleckstet",
+        "sie_Sie": "beklecksten"
+      },
+      "imperativ": {
+        "du": "Bekleckse!",
+        "ihr": "Bekleckst!",
+        "Sie": "Beklecksen Sie!"
+      }
+    },
+    "partizip1": "beklecksend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Klecks",
+    "woerter": [
+      {
+        "wort": "der Klecks",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لکه (جوهر/رنگ)",
+          "en": "blot"
+        },
+        "id_ref": "nomen_klecks"
+      },
+      {
+        "wort": "die Tinte",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جوهر",
+          "en": "ink"
+        },
+        "id_ref": "nomen_tinte"
+      },
+      {
+        "wort": "der Fleck",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "لکه",
+          "en": "stain"
+        },
+        "id_ref": "nomen_fleck"
+      },
+      {
+        "wort": "die Farbe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رنگ",
+          "en": "paint"
+        },
+        "id_ref": "nomen_farbe"
+      },
+      {
+        "wort": "bekleckern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لک کردن، کثیف کردن",
+          "en": "to spill on"
+        },
+        "id_ref": "verb_bekleckern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

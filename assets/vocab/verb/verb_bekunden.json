@@ -1,0 +1,195 @@
+{
+  "schema": "3.0",
+  "id": "verb_bekunden",
+  "wort": "bekunden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ابراز کردن، اعلام کردن (احساس یا قصد)"
+    ],
+    "en": [
+      "to express",
+      "to declare"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation",
+    "Gesellschaft"
+  ],
+  "ipa": "bəˈkʊndn̩",
+  "anmerkung": "Gehoben/formell. Untrennbar, regelmäßig (bekundete, bekundet). Häufig: Interesse, Beileid, Solidarität bekunden.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Viele Firmen bekunden Interesse.",
+      "uebersetzung": {
+        "fa": "شرکت‌های زیادی ابراز علاقه می‌کنند.",
+        "en": "Many companies express interest."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem sie von dem Unglück gehört hatten, bekundeten zahlreiche Menschen ihr Beileid.",
+      "uebersetzung": {
+        "fa": "بعد از اینکه از آن حادثه باخبر شدند، افراد زیادی تسلیت گفتند.",
+        "en": "After they had heard about the accident, many people expressed their condolences."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "äußern",
+      "uebersetzung": {
+        "fa": "ابراز کردن",
+        "en": "to express"
+      }
+    },
+    {
+      "wort": "zeigen",
+      "uebersetzung": {
+        "fa": "نشان دادن",
+        "en": "to show"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verbergen",
+      "uebersetzung": {
+        "fa": "پنهان کردن",
+        "en": "to hide"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Kunde (خبر، آگاهی) + -en",
+    "en": "be- + Kunde (news, knowledge) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "etwas bekunden (+ Akk)",
+        "bedeutung": "ein Gefühl oder eine Absicht deutlich zeigen",
+        "beispiel": "Der Minister bekundete seine Solidarität mit den Opfern.",
+        "uebersetzung": {
+          "fa": "وزیر همبستگی خود را با قربانیان اعلام کرد.",
+          "en": "The minister expressed his solidarity with the victims."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bekunden",
+      "praeteritum": "bekundete",
+      "partizip2": "bekundet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bekunde",
+        "du": "bekundest",
+        "er_sie_es": "bekundet",
+        "wir": "bekunden",
+        "ihr": "bekundet",
+        "sie_Sie": "bekunden"
+      },
+      "praeteritum": {
+        "ich": "bekundete",
+        "du": "bekundetest",
+        "er_sie_es": "bekundete",
+        "wir": "bekundeten",
+        "ihr": "bekundetet",
+        "sie_Sie": "bekundeten"
+      },
+      "konjunktiv1": {
+        "ich": "bekunde",
+        "du": "bekundest",
+        "er_sie_es": "bekunde",
+        "wir": "bekunden",
+        "ihr": "bekundet",
+        "sie_Sie": "bekunden"
+      },
+      "konjunktiv2": {
+        "ich": "bekundete",
+        "du": "bekundetest",
+        "er_sie_es": "bekundete",
+        "wir": "bekundeten",
+        "ihr": "bekundetet",
+        "sie_Sie": "bekundeten"
+      },
+      "imperativ": {
+        "du": "Bekunde!",
+        "ihr": "Bekundet!",
+        "Sie": "Bekunden Sie!"
+      }
+    },
+    "partizip1": "bekundend",
+    "nominalisierung": "die Bekundung"
+  },
+  "wortnetz": {
+    "grundwort": "Kunde",
+    "woerter": [
+      {
+        "wort": "äußern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ابراز کردن",
+          "en": "to express"
+        },
+        "id_ref": "verb_aeussern"
+      },
+      {
+        "wort": "das Interesse",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "علاقه",
+          "en": "interest"
+        },
+        "id_ref": "nomen_interesse"
+      },
+      {
+        "wort": "das Beileid",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تسلیت",
+          "en": "condolence"
+        },
+        "id_ref": "nomen_beileid"
+      },
+      {
+        "wort": "verkünden",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اعلام کردن",
+          "en": "to announce"
+        },
+        "id_ref": "verb_verkuenden"
+      },
+      {
+        "wort": "die Kundgebung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تجمع اعتراضی",
+          "en": "rally"
+        },
+        "id_ref": "nomen_kundgebung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

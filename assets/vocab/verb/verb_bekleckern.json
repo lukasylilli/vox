@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_bekleckern",
+  "wort": "bekleckern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با غذا یا مایع) لک کردن، کثیف کردن"
+    ],
+    "en": [
+      "to spill on",
+      "to stain"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Essen"
+  ],
+  "ipa": "bəˈklɛkɐn",
+  "anmerkung": "Umgangssprachlich. Untrennbar, regelmäßig (bekleckerte, bekleckert). Redewendung: «sich nicht mit Ruhm bekleckern» = keine gute Leistung zeigen.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich habe mein Hemd mit Soße bekleckert.",
+      "uebersetzung": {
+        "fa": "پیراهنم را با سس لک کردم.",
+        "en": "I spilled sauce on my shirt."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil der Kleine beim Essen immer alles bekleckert, bekommt er ein Lätzchen.",
+      "uebersetzung": {
+        "fa": "چون کوچولو موقع غذا خوردن همیشه همه‌چیز را کثیف می‌کند، پیش‌بند می‌گیرد.",
+        "en": "Because the little one always makes a mess when eating, he gets a bib."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beschmutzen",
+      "uebersetzung": {
+        "fa": "کثیف کردن",
+        "en": "to soil"
+      }
+    },
+    {
+      "wort": "beflecken",
+      "uebersetzung": {
+        "fa": "لکه‌دار کردن",
+        "en": "to stain"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + kleckern (ریختن، لک انداختن)",
+    "en": "be- + kleckern (to spill)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "jemanden/etwas/sich mit + Dat bekleckern",
+        "bedeutung": "mit Flüssigkeit oder Essen schmutzig machen",
+        "beispiel": "Sie hat sich mit Kaffee bekleckert.",
+        "uebersetzung": {
+          "fa": "او قهوه روی خودش ریخت.",
+          "en": "She spilled coffee on herself."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bekleckern",
+      "praeteritum": "bekleckerte",
+      "partizip2": "bekleckert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bekleckere",
+        "du": "bekleckerst",
+        "er_sie_es": "bekleckert",
+        "wir": "bekleckern",
+        "ihr": "bekleckert",
+        "sie_Sie": "bekleckern"
+      },
+      "praeteritum": {
+        "ich": "bekleckerte",
+        "du": "bekleckertest",
+        "er_sie_es": "bekleckerte",
+        "wir": "bekleckerten",
+        "ihr": "bekleckertet",
+        "sie_Sie": "bekleckerten"
+      },
+      "konjunktiv1": {
+        "ich": "bekleckere",
+        "du": "bekleckerest",
+        "er_sie_es": "bekleckere",
+        "wir": "bekleckern",
+        "ihr": "bekleckeret",
+        "sie_Sie": "bekleckern"
+      },
+      "konjunktiv2": {
+        "ich": "bekleckerte",
+        "du": "bekleckertest",
+        "er_sie_es": "bekleckerte",
+        "wir": "bekleckerten",
+        "ihr": "bekleckertet",
+        "sie_Sie": "bekleckerten"
+      },
+      "imperativ": {
+        "du": "Bekleckere!",
+        "ihr": "Bekleckert!",
+        "Sie": "Bekleckern Sie!"
+      }
+    },
+    "partizip1": "bekleckernd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "kleckern",
+    "woerter": [
+      {
+        "wort": "kleckern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ریختن، لک انداختن",
+          "en": "to spill"
+        },
+        "id_ref": "verb_kleckern"
+      },
+      {
+        "wort": "der Fleck",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "لکه",
+          "en": "stain"
+        },
+        "id_ref": "nomen_fleck"
+      },
+      {
+        "wort": "schmutzig",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کثیف",
+          "en": "dirty"
+        },
+        "id_ref": "adjektiv_schmutzig"
+      },
+      {
+        "wort": "das Lätzchen",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پیش‌بند بچه",
+          "en": "bib"
+        },
+        "id_ref": "nomen_laetzchen"
+      },
+      {
+        "wort": "beschmutzen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کثیف کردن",
+          "en": "to soil"
+        },
+        "id_ref": "verb_beschmutzen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
