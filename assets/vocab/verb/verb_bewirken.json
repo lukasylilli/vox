@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_bewirken",
+  "wort": "bewirken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "باعث شدن، موجب شدن"
+    ],
+    "en": [
+      "to cause",
+      "to bring about"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Wissenschaft",
+    "Gesellschaft"
+  ],
+  "ipa": "bəˈvɪʁkn̩",
+  "anmerkung": "Untrennbar, regelmäßig (bewirkte, bewirkt).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Medikament bewirkt nichts.",
+      "uebersetzung": {
+        "fa": "این دارو هیچ اثری ندارد.",
+        "en": "The medicine has no effect."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die neuen Regeln haben bewirkt, dass weniger Unfälle passieren.",
+      "uebersetzung": {
+        "fa": "قوانین جدید باعث شده‌اند تصادف‌های کمتری رخ دهد.",
+        "en": "The new rules have brought about fewer accidents."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verursachen",
+      "uebersetzung": {
+        "fa": "باعث شدن",
+        "en": "to cause"
+      }
+    },
+    {
+      "wort": "auslösen",
+      "uebersetzung": {
+        "fa": "برانگیختن",
+        "en": "to trigger"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + wirken (اثر داشتن)",
+    "en": "be- + wirken (to have an effect)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "bewirken",
+      "praeteritum": "bewirkte",
+      "partizip2": "bewirkt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bewirke",
+        "du": "bewirkst",
+        "er_sie_es": "bewirkt",
+        "wir": "bewirken",
+        "ihr": "bewirkt",
+        "sie_Sie": "bewirken"
+      },
+      "praeteritum": {
+        "ich": "bewirkte",
+        "du": "bewirktest",
+        "er_sie_es": "bewirkte",
+        "wir": "bewirkten",
+        "ihr": "bewirktet",
+        "sie_Sie": "bewirkten"
+      },
+      "konjunktiv1": {
+        "ich": "bewirke",
+        "du": "bewirkest",
+        "er_sie_es": "bewirke",
+        "wir": "bewirken",
+        "ihr": "bewirket",
+        "sie_Sie": "bewirken"
+      },
+      "konjunktiv2": {
+        "ich": "bewirkte",
+        "du": "bewirktest",
+        "er_sie_es": "bewirkte",
+        "wir": "bewirkten",
+        "ihr": "bewirktet",
+        "sie_Sie": "bewirkten"
+      },
+      "imperativ": {
+        "du": "Bewirke!",
+        "ihr": "Bewirkt!",
+        "Sie": "Bewirken Sie!"
+      }
+    },
+    "partizip1": "bewirkend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Wirkung",
+    "woerter": [
+      {
+        "wort": "wirken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اثر داشتن",
+          "en": "to have an effect"
+        },
+        "id_ref": "verb_wirken"
+      },
+      {
+        "wort": "die Wirkung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اثر",
+          "en": "effect"
+        },
+        "id_ref": "nomen_wirkung"
+      },
+      {
+        "wort": "verursachen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "باعث شدن",
+          "en": "to cause"
+        },
+        "id_ref": "verb_verursachen"
+      },
+      {
+        "wort": "die Folge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیامد",
+          "en": "consequence"
+        },
+        "id_ref": "nomen_folge"
+      },
+      {
+        "wort": "wirksam",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مؤثر",
+          "en": "effective"
+        },
+        "id_ref": "adjektiv_wirksam"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

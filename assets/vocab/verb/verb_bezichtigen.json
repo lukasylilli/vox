@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_bezichtigen",
+  "wort": "bezichtigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "متهم کردن"
+    ],
+    "en": [
+      "to accuse",
+      "to charge"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Gesellschaft"
+  ],
+  "ipa": "bəˈt͡sɪçtɪɡn̩",
+  "anmerkung": "Untrennbar, regelmäßig (bezichtigte, bezichtigt). Gehoben; mit Genitiv.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie bezichtigt ihn der Lüge.",
+      "uebersetzung": {
+        "fa": "او آن مرد را به دروغ‌گویی متهم می‌کند.",
+        "en": "She accuses him of lying."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Politiker wurde bezichtigt, Geld von einer Firma angenommen zu haben.",
+      "uebersetzung": {
+        "fa": "آن سیاستمدار متهم شد که از یک شرکت پول گرفته است.",
+        "en": "The politician was accused of having taken money from a company."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beschuldigen",
+      "uebersetzung": {
+        "fa": "متهم کردن",
+        "en": "to accuse"
+      }
+    },
+    {
+      "wort": "anklagen",
+      "uebersetzung": {
+        "fa": "متهم کردن (در دادگاه)",
+        "en": "to charge"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + zeihen (متهم کردن، کهن) + -igen",
+    "en": "be- + zeihen (to accuse, old) + -igen"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden + Gen bezichtigen",
+        "bedeutung": "jemandem eine Schuld vorwerfen",
+        "beispiel": "Man bezichtigte die Angestellte des Betrugs.",
+        "uebersetzung": {
+          "fa": "آن کارمند را به کلاهبرداری متهم کردند.",
+          "en": "The employee was accused of fraud."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bezichtigen",
+      "praeteritum": "bezichtigte",
+      "partizip2": "bezichtigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bezichtige",
+        "du": "bezichtigst",
+        "er_sie_es": "bezichtigt",
+        "wir": "bezichtigen",
+        "ihr": "bezichtigt",
+        "sie_Sie": "bezichtigen"
+      },
+      "praeteritum": {
+        "ich": "bezichtigte",
+        "du": "bezichtigtest",
+        "er_sie_es": "bezichtigte",
+        "wir": "bezichtigten",
+        "ihr": "bezichtigtet",
+        "sie_Sie": "bezichtigten"
+      },
+      "konjunktiv1": {
+        "ich": "bezichtige",
+        "du": "bezichtigest",
+        "er_sie_es": "bezichtige",
+        "wir": "bezichtigen",
+        "ihr": "bezichtiget",
+        "sie_Sie": "bezichtigen"
+      },
+      "konjunktiv2": {
+        "ich": "bezichtigte",
+        "du": "bezichtigtest",
+        "er_sie_es": "bezichtigte",
+        "wir": "bezichtigten",
+        "ihr": "bezichtigtet",
+        "sie_Sie": "bezichtigten"
+      },
+      "imperativ": {
+        "du": "Bezichtige!",
+        "ihr": "Bezichtigt!",
+        "Sie": "Bezichtigen Sie!"
+      }
+    },
+    "partizip1": "bezichtigend",
+    "nominalisierung": "die Bezichtigung"
+  },
+  "wortnetz": {
+    "grundwort": "Schuld",
+    "woerter": [
+      {
+        "wort": "beschuldigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "متهم کردن",
+          "en": "to accuse"
+        },
+        "id_ref": "verb_beschuldigen"
+      },
+      {
+        "wort": "der Vorwurf",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اتهام، سرزنش",
+          "en": "reproach"
+        },
+        "id_ref": "nomen_vorwurf"
+      },
+      {
+        "wort": "anklagen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "متهم کردن",
+          "en": "to charge"
+        },
+        "id_ref": "verb_anklagen"
+      },
+      {
+        "wort": "die Schuld",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تقصیر",
+          "en": "guilt"
+        },
+        "id_ref": "nomen_schuld"
+      },
+      {
+        "wort": "die Lüge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دروغ",
+          "en": "lie"
+        },
+        "id_ref": "nomen_luege"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

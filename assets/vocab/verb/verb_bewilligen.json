@@ -1,0 +1,197 @@
+{
+  "schema": "3.0",
+  "id": "verb_bewilligen",
+  "wort": "bewilligen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تصویب کردن، موافقت کردن با (درخواست)"
+    ],
+    "en": [
+      "to grant",
+      "to approve"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Behörden",
+    "Finanzen"
+  ],
+  "ipa": "bəˈvɪlɪɡn̩",
+  "anmerkung": "Untrennbar, regelmäßig (bewilligte, bewilligt). Meist von Behörden: einen Antrag bewilligen.",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Amt bewilligt den Antrag.",
+      "uebersetzung": {
+        "fa": "اداره درخواست را تصویب می‌کند.",
+        "en": "The office approves the application."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Erst nachdem die Krankenkasse die Kur bewilligt hatte, konnte er fahren.",
+      "uebersetzung": {
+        "fa": "فقط بعد از اینکه بیمه‌ی درمانی دوره‌ی درمان را تصویب کرد، توانست برود.",
+        "en": "Only after the health insurance had approved the cure could he go."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "genehmigen",
+      "uebersetzung": {
+        "fa": "اجازه دادن، تصویب کردن",
+        "en": "to approve"
+      }
+    },
+    {
+      "wort": "gewähren",
+      "uebersetzung": {
+        "fa": "اعطا کردن",
+        "en": "to grant"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ablehnen",
+      "uebersetzung": {
+        "fa": "رد کردن",
+        "en": "to reject"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + willig (مایل، راضی) + -en",
+    "en": "be- + willig (willing) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem etwas bewilligen",
+        "bedeutung": "jemandem etwas offiziell gewähren",
+        "beispiel": "Die Stadt hat dem Verein 5000 Euro bewilligt.",
+        "uebersetzung": {
+          "fa": "شهر پنج هزار یورو برای آن انجمن تصویب کرد.",
+          "en": "The city granted the club 5,000 euros."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bewilligen",
+      "praeteritum": "bewilligte",
+      "partizip2": "bewilligt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bewillige",
+        "du": "bewilligst",
+        "er_sie_es": "bewilligt",
+        "wir": "bewilligen",
+        "ihr": "bewilligt",
+        "sie_Sie": "bewilligen"
+      },
+      "praeteritum": {
+        "ich": "bewilligte",
+        "du": "bewilligtest",
+        "er_sie_es": "bewilligte",
+        "wir": "bewilligten",
+        "ihr": "bewilligtet",
+        "sie_Sie": "bewilligten"
+      },
+      "konjunktiv1": {
+        "ich": "bewillige",
+        "du": "bewilligest",
+        "er_sie_es": "bewillige",
+        "wir": "bewilligen",
+        "ihr": "bewilliget",
+        "sie_Sie": "bewilligen"
+      },
+      "konjunktiv2": {
+        "ich": "bewilligte",
+        "du": "bewilligtest",
+        "er_sie_es": "bewilligte",
+        "wir": "bewilligten",
+        "ihr": "bewilligtet",
+        "sie_Sie": "bewilligten"
+      },
+      "imperativ": {
+        "du": "Bewillige!",
+        "ihr": "Bewilligt!",
+        "Sie": "Bewilligen Sie!"
+      }
+    },
+    "partizip1": "bewilligend",
+    "nominalisierung": "die Bewilligung"
+  },
+  "wortnetz": {
+    "grundwort": "Wille",
+    "woerter": [
+      {
+        "wort": "genehmigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تصویب کردن",
+          "en": "to approve"
+        },
+        "id_ref": "verb_genehmigen"
+      },
+      {
+        "wort": "der Antrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درخواست",
+          "en": "application"
+        },
+        "id_ref": "nomen_antrag"
+      },
+      {
+        "wort": "ablehnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رد کردن",
+          "en": "to reject"
+        },
+        "id_ref": "verb_ablehnen"
+      },
+      {
+        "wort": "erlauben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اجازه دادن",
+          "en": "to allow"
+        },
+        "id_ref": "verb_erlauben"
+      },
+      {
+        "wort": "die Bewilligung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تصویب، مجوز",
+          "en": "approval"
+        },
+        "id_ref": "nomen_bewilligung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

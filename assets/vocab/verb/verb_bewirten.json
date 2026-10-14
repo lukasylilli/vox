@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_bewirten",
+  "wort": "bewirten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پذیرایی کردن از (مهمان)"
+    ],
+    "en": [
+      "to entertain",
+      "to serve (guests)",
+      "to cater for"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Essen",
+    "Gastronomie"
+  ],
+  "ipa": "bəˈvɪʁtn̩",
+  "anmerkung": "Untrennbar, regelmäßig (bewirtete, bewirtet).",
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir bewirten die Gäste.",
+      "uebersetzung": {
+        "fa": "از مهمان‌ها پذیرایی می‌کنیم.",
+        "en": "We are entertaining the guests."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Hotel bewirtet bis zu 200 Personen, wenn der große Saal geöffnet wird.",
+      "uebersetzung": {
+        "fa": "هتل وقتی سالن بزرگ باز شود، تا دویست نفر را پذیرایی می‌کند.",
+        "en": "The hotel can cater for up to 200 people when the large hall is opened."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verköstigen",
+      "uebersetzung": {
+        "fa": "غذا دادن",
+        "en": "to feed"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Wirt (صاحب مهمانخانه) + -en",
+    "en": "be- + Wirt (innkeeper) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden mit + Dat bewirten",
+        "bedeutung": "jemandem Essen und Getränke anbieten",
+        "beispiel": "Sie bewirtete uns mit Kaffee und Kuchen.",
+        "uebersetzung": {
+          "fa": "او با قهوه و کیک از ما پذیرایی کرد.",
+          "en": "She served us coffee and cake."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bewirten",
+      "praeteritum": "bewirtete",
+      "partizip2": "bewirtet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bewirte",
+        "du": "bewirtest",
+        "er_sie_es": "bewirtet",
+        "wir": "bewirten",
+        "ihr": "bewirtet",
+        "sie_Sie": "bewirten"
+      },
+      "praeteritum": {
+        "ich": "bewirtete",
+        "du": "bewirtetest",
+        "er_sie_es": "bewirtete",
+        "wir": "bewirteten",
+        "ihr": "bewirtetet",
+        "sie_Sie": "bewirteten"
+      },
+      "konjunktiv1": {
+        "ich": "bewirte",
+        "du": "bewirtest",
+        "er_sie_es": "bewirte",
+        "wir": "bewirten",
+        "ihr": "bewirtet",
+        "sie_Sie": "bewirten"
+      },
+      "konjunktiv2": {
+        "ich": "bewirtete",
+        "du": "bewirtetest",
+        "er_sie_es": "bewirtete",
+        "wir": "bewirteten",
+        "ihr": "bewirtetet",
+        "sie_Sie": "bewirteten"
+      },
+      "imperativ": {
+        "du": "Bewirte!",
+        "ihr": "Bewirtet!",
+        "Sie": "Bewirten Sie!"
+      }
+    },
+    "partizip1": "bewirtend",
+    "nominalisierung": "die Bewirtung"
+  },
+  "wortnetz": {
+    "grundwort": "Wirt",
+    "woerter": [
+      {
+        "wort": "der Wirt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صاحب رستوران",
+          "en": "landlord, innkeeper"
+        },
+        "id_ref": "nomen_wirt"
+      },
+      {
+        "wort": "der Gast",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مهمان",
+          "en": "guest"
+        },
+        "id_ref": "nomen_gast"
+      },
+      {
+        "wort": "die Gastfreundschaft",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مهمان‌نوازی",
+          "en": "hospitality"
+        },
+        "id_ref": "nomen_gastfreundschaft"
+      },
+      {
+        "wort": "servieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرو کردن",
+          "en": "to serve"
+        },
+        "id_ref": "verb_servieren"
+      },
+      {
+        "wort": "die Bewirtung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پذیرایی",
+          "en": "hospitality, catering"
+        },
+        "id_ref": "nomen_bewirtung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

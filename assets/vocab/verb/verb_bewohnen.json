@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_bewohnen",
+  "wort": "bewohnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ساکن بودن در، سکونت داشتن در"
+    ],
+    "en": [
+      "to inhabit",
+      "to live in",
+      "to occupy"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Wohnen"
+  ],
+  "ipa": "bəˈvoːnən",
+  "anmerkung": "Untrennbar, regelmäßig (bewohnte, bewohnt). Mit Akkusativ ohne Präposition (≠ wohnen in).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir bewohnen eine kleine Wohnung.",
+      "uebersetzung": {
+        "fa": "ما در یک آپارتمان کوچک ساکنیم.",
+        "en": "We live in a small flat."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Das alte Haus wird seit Jahren nicht mehr bewohnt, weil es zu teuer zu renovieren ist.",
+      "uebersetzung": {
+        "fa": "این خانه‌ی قدیمی سال‌هاست خالی از سکنه است، چون بازسازی‌اش خیلی گران است.",
+        "en": "The old house has not been lived in for years because it is too expensive to renovate."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wohnen in",
+      "uebersetzung": {
+        "fa": "زندگی کردن در",
+        "en": "to live in"
+      }
+    },
+    {
+      "wort": "besiedeln",
+      "uebersetzung": {
+        "fa": "ساکن شدن در",
+        "en": "to settle"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + wohnen (زندگی کردن)",
+    "en": "be- + wohnen (to live)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "bewohnen",
+      "praeteritum": "bewohnte",
+      "partizip2": "bewohnt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bewohne",
+        "du": "bewohnst",
+        "er_sie_es": "bewohnt",
+        "wir": "bewohnen",
+        "ihr": "bewohnt",
+        "sie_Sie": "bewohnen"
+      },
+      "praeteritum": {
+        "ich": "bewohnte",
+        "du": "bewohntest",
+        "er_sie_es": "bewohnte",
+        "wir": "bewohnten",
+        "ihr": "bewohntet",
+        "sie_Sie": "bewohnten"
+      },
+      "konjunktiv1": {
+        "ich": "bewohne",
+        "du": "bewohnest",
+        "er_sie_es": "bewohne",
+        "wir": "bewohnen",
+        "ihr": "bewohnet",
+        "sie_Sie": "bewohnen"
+      },
+      "konjunktiv2": {
+        "ich": "bewohnte",
+        "du": "bewohntest",
+        "er_sie_es": "bewohnte",
+        "wir": "bewohnten",
+        "ihr": "bewohntet",
+        "sie_Sie": "bewohnten"
+      },
+      "imperativ": {
+        "du": "Bewohne!",
+        "ihr": "Bewohnt!",
+        "Sie": "Bewohnen Sie!"
+      }
+    },
+    "partizip1": "bewohnend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Wohnung",
+    "woerter": [
+      {
+        "wort": "wohnen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زندگی کردن",
+          "en": "to live"
+        },
+        "id_ref": "verb_wohnen"
+      },
+      {
+        "wort": "die Wohnung",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آپارتمان",
+          "en": "flat"
+        },
+        "id_ref": "nomen_wohnung"
+      },
+      {
+        "wort": "der Bewohner",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ساکن",
+          "en": "resident"
+        },
+        "id_ref": "nomen_bewohner"
+      },
+      {
+        "wort": "bewohnt",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مسکونی",
+          "en": "inhabited"
+        },
+        "id_ref": "adjektiv_bewohnt"
+      },
+      {
+        "wort": "der Einwohner",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ساکن",
+          "en": "inhabitant"
+        },
+        "id_ref": "nomen_einwohner"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

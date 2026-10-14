@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_bewirtschaften",
+  "wort": "bewirtschaften",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اداره کردن (مزرعه، رستوران و غیره)؛ (منابع) جیره‌بندی کردن"
+    ],
+    "en": [
+      "to manage",
+      "to run",
+      "to farm"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wirtschaft",
+    "Landwirtschaft"
+  ],
+  "ipa": "bəˈvɪʁtʃaftn̩",
+  "anmerkung": "Untrennbar, regelmäßig (bewirtschaftete, bewirtschaftet). «Die Hütte ist bewirtschaftet» = dort gibt es Essen und Getränke.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Familie bewirtschaftet einen Hof.",
+      "uebersetzung": {
+        "fa": "این خانواده یک مزرعه را اداره می‌کند.",
+        "en": "The family runs a farm."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Berghütte wird nur im Sommer bewirtschaftet, weil der Weg im Winter gesperrt ist.",
+      "uebersetzung": {
+        "fa": "کلبه‌ی کوهستانی فقط تابستان‌ها دایر است، چون راه در زمستان بسته است.",
+        "en": "The mountain hut is only run in summer because the path is closed in winter."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "betreiben",
+      "uebersetzung": {
+        "fa": "اداره کردن",
+        "en": "to operate"
+      }
+    },
+    {
+      "wort": "bebauen",
+      "uebersetzung": {
+        "fa": "کشت کردن",
+        "en": "to cultivate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Wirtschaft (اقتصاد، مهمانخانه) + -en",
+    "en": "be- + Wirtschaft (economy, inn) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "bewirtschaften",
+      "praeteritum": "bewirtschaftete",
+      "partizip2": "bewirtschaftet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bewirtschafte",
+        "du": "bewirtschaftest",
+        "er_sie_es": "bewirtschaftet",
+        "wir": "bewirtschaften",
+        "ihr": "bewirtschaftet",
+        "sie_Sie": "bewirtschaften"
+      },
+      "praeteritum": {
+        "ich": "bewirtschaftete",
+        "du": "bewirtschaftetest",
+        "er_sie_es": "bewirtschaftete",
+        "wir": "bewirtschafteten",
+        "ihr": "bewirtschaftetet",
+        "sie_Sie": "bewirtschafteten"
+      },
+      "konjunktiv1": {
+        "ich": "bewirtschafte",
+        "du": "bewirtschaftest",
+        "er_sie_es": "bewirtschafte",
+        "wir": "bewirtschaften",
+        "ihr": "bewirtschaftet",
+        "sie_Sie": "bewirtschaften"
+      },
+      "konjunktiv2": {
+        "ich": "bewirtschaftete",
+        "du": "bewirtschaftetest",
+        "er_sie_es": "bewirtschaftete",
+        "wir": "bewirtschafteten",
+        "ihr": "bewirtschaftetet",
+        "sie_Sie": "bewirtschafteten"
+      },
+      "imperativ": {
+        "du": "Bewirtschafte!",
+        "ihr": "Bewirtschaftet!",
+        "Sie": "Bewirtschaften Sie!"
+      }
+    },
+    "partizip1": "bewirtschaftend",
+    "nominalisierung": "die Bewirtschaftung"
+  },
+  "wortnetz": {
+    "grundwort": "Wirtschaft",
+    "woerter": [
+      {
+        "wort": "die Wirtschaft",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اقتصاد",
+          "en": "economy"
+        },
+        "id_ref": "nomen_wirtschaft"
+      },
+      {
+        "wort": "der Bauernhof",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مزرعه",
+          "en": "farm"
+        },
+        "id_ref": "nomen_bauernhof"
+      },
+      {
+        "wort": "betreiben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اداره کردن",
+          "en": "to operate"
+        },
+        "id_ref": "verb_betreiben"
+      },
+      {
+        "wort": "die Landwirtschaft",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کشاورزی",
+          "en": "agriculture"
+        },
+        "id_ref": "nomen_landwirtschaft"
+      },
+      {
+        "wort": "die Hütte",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کلبه",
+          "en": "hut"
+        },
+        "id_ref": "nomen_huette"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

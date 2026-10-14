@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_bewoelken",
+  "wort": "bewölken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ابری شدن"
+    ],
+    "en": [
+      "to cloud over"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wetter"
+  ],
+  "ipa": "bəˈvœlkn̩",
+  "anmerkung": "Untrennbar, regelmäßig (bewölkte, bewölkt). Nur reflexiv: Der Himmel bewölkt sich. Häufiger als Adjektiv: bewölkt.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Himmel bewölkt sich.",
+      "uebersetzung": {
+        "fa": "آسمان ابری می‌شود.",
+        "en": "The sky is clouding over."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Am Nachmittag bewölkte es sich so stark, dass wir die Wanderung abbrechen mussten.",
+      "uebersetzung": {
+        "fa": "بعدازظهر هوا آن‌قدر ابری شد که مجبور شدیم کوه‌پیمایی را نیمه‌کاره رها کنیم.",
+        "en": "In the afternoon it clouded over so heavily that we had to break off the hike."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich zuziehen",
+      "uebersetzung": {
+        "fa": "ابری و گرفته شدن",
+        "en": "to cloud over"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "aufklaren",
+      "uebersetzung": {
+        "fa": "صاف شدن (آسمان)",
+        "en": "to clear up"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Wolke (ابر) + -en",
+    "en": "be- + Wolke (cloud) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "bewölken",
+      "praeteritum": "bewölkte",
+      "partizip2": "bewölkt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bewölke",
+        "du": "bewölkst",
+        "er_sie_es": "bewölkt",
+        "wir": "bewölken",
+        "ihr": "bewölkt",
+        "sie_Sie": "bewölken"
+      },
+      "praeteritum": {
+        "ich": "bewölkte",
+        "du": "bewölktest",
+        "er_sie_es": "bewölkte",
+        "wir": "bewölkten",
+        "ihr": "bewölktet",
+        "sie_Sie": "bewölkten"
+      },
+      "konjunktiv1": {
+        "ich": "bewölke",
+        "du": "bewölkest",
+        "er_sie_es": "bewölke",
+        "wir": "bewölken",
+        "ihr": "bewölket",
+        "sie_Sie": "bewölken"
+      },
+      "konjunktiv2": {
+        "ich": "bewölkte",
+        "du": "bewölktest",
+        "er_sie_es": "bewölkte",
+        "wir": "bewölkten",
+        "ihr": "bewölktet",
+        "sie_Sie": "bewölkten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "bewölkend",
+    "nominalisierung": "die Bewölkung"
+  },
+  "wortnetz": {
+    "grundwort": "Wolke",
+    "woerter": [
+      {
+        "wort": "die Wolke",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ابر",
+          "en": "cloud"
+        },
+        "id_ref": "nomen_wolke"
+      },
+      {
+        "wort": "bewölkt",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ابری",
+          "en": "cloudy"
+        },
+        "id_ref": "adjektiv_bewoelkt"
+      },
+      {
+        "wort": "das Wetter",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "هوا",
+          "en": "weather"
+        },
+        "id_ref": "nomen_wetter"
+      },
+      {
+        "wort": "der Regen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باران",
+          "en": "rain"
+        },
+        "id_ref": "nomen_regen"
+      },
+      {
+        "wort": "die Bewölkung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ابرناکی",
+          "en": "cloud cover"
+        },
+        "id_ref": "nomen_bewoelkung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

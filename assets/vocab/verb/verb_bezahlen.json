@@ -1,0 +1,196 @@
+{
+  "schema": "3.0",
+  "id": "verb_bezahlen",
+  "wort": "bezahlen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پرداختن، پول دادن"
+    ],
+    "en": [
+      "to pay",
+      "to pay for"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Einkaufen",
+    "Finanzen"
+  ],
+  "ipa": "bəˈt͡saːlən",
+  "anmerkung": "Untrennbar, regelmäßig (bezahlte, bezahlt). «Zahlen, bitte!» im Restaurant.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich möchte bitte bezahlen.",
+      "uebersetzung": {
+        "fa": "می‌خواهم لطفاً حساب کنم.",
+        "en": "I'd like to pay, please."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Kann ich mit Karte bezahlen, oder nehmen Sie nur Bargeld?",
+      "uebersetzung": {
+        "fa": "می‌توانم با کارت پرداخت کنم، یا فقط پول نقد قبول می‌کنید؟",
+        "en": "Can I pay by card, or do you only take cash?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zahlen",
+      "uebersetzung": {
+        "fa": "پرداختن",
+        "en": "to pay"
+      }
+    },
+    {
+      "wort": "begleichen",
+      "uebersetzung": {
+        "fa": "تسویه کردن",
+        "en": "to settle"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + zahlen (پرداختن)",
+    "en": "be- + zahlen (to pay)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "für + Akk bezahlen",
+        "bedeutung": "Geld für etwas geben",
+        "beispiel": "Wie viel hast du für die Schuhe bezahlt?",
+        "uebersetzung": {
+          "fa": "برای این کفش‌ها چقدر پول دادی؟",
+          "en": "How much did you pay for the shoes?"
+        }
+      },
+      {
+        "muster": "mit + Dat bezahlen",
+        "bedeutung": "ein Zahlungsmittel verwenden",
+        "beispiel": "Sie bezahlt immer mit dem Handy.",
+        "uebersetzung": {
+          "fa": "او همیشه با گوشی پرداخت می‌کند.",
+          "en": "She always pays with her phone."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bezahlen",
+      "praeteritum": "bezahlte",
+      "partizip2": "bezahlt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bezahle",
+        "du": "bezahlst",
+        "er_sie_es": "bezahlt",
+        "wir": "bezahlen",
+        "ihr": "bezahlt",
+        "sie_Sie": "bezahlen"
+      },
+      "praeteritum": {
+        "ich": "bezahlte",
+        "du": "bezahltest",
+        "er_sie_es": "bezahlte",
+        "wir": "bezahlten",
+        "ihr": "bezahltet",
+        "sie_Sie": "bezahlten"
+      },
+      "konjunktiv1": {
+        "ich": "bezahle",
+        "du": "bezahlest",
+        "er_sie_es": "bezahle",
+        "wir": "bezahlen",
+        "ihr": "bezahlet",
+        "sie_Sie": "bezahlen"
+      },
+      "konjunktiv2": {
+        "ich": "bezahlte",
+        "du": "bezahltest",
+        "er_sie_es": "bezahlte",
+        "wir": "bezahlten",
+        "ihr": "bezahltet",
+        "sie_Sie": "bezahlten"
+      },
+      "imperativ": {
+        "du": "Bezahle!",
+        "ihr": "Bezahlt!",
+        "Sie": "Bezahlen Sie!"
+      }
+    },
+    "partizip1": "bezahlend",
+    "nominalisierung": "die Bezahlung"
+  },
+  "wortnetz": {
+    "grundwort": "Zahl",
+    "woerter": [
+      {
+        "wort": "zahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_zahlen"
+      },
+      {
+        "wort": "das Geld",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پول",
+          "en": "money"
+        },
+        "id_ref": "nomen_geld"
+      },
+      {
+        "wort": "die Rechnung",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "صورت‌حساب",
+          "en": "bill"
+        },
+        "id_ref": "nomen_rechnung"
+      },
+      {
+        "wort": "kostenlos",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رایگان",
+          "en": "free of charge"
+        },
+        "id_ref": "adjektiv_kostenlos"
+      },
+      {
+        "wort": "die Bezahlung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پرداخت",
+          "en": "payment"
+        },
+        "id_ref": "nomen_bezahlung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
