@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_addieren",
+  "wort": "addieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جمع زدن، جمع کردن (ریاضی)"
+    ],
+    "en": [
+      "to add (up)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Mathematik"
+  ],
+  "ipa": "aˈdiːʁən",
+  "anmerkung": "Regelmäßig (addierte, addiert).",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Addiere drei und vier!",
+      "uebersetzung": {
+        "fa": "سه و چهار را جمع کن!",
+        "en": "Add three and four!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn man alle Kosten addiert, ist die Reise doch ziemlich teuer.",
+      "uebersetzung": {
+        "fa": "اگر همه‌ی هزینه‌ها را جمع بزنیم، سفر نسبتاً گران است.",
+        "en": "If you add up all the costs, the trip is quite expensive after all."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zusammenzählen",
+      "uebersetzung": {
+        "fa": "جمع زدن",
+        "en": "to add up"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "subtrahieren",
+      "uebersetzung": {
+        "fa": "تفریق کردن",
+        "en": "to subtract"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. addere (افزودن)",
+    "en": "Latin addere (to add)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "addieren",
+      "praeteritum": "addierte",
+      "partizip2": "addiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "addiere",
+        "du": "addierst",
+        "er_sie_es": "addiert",
+        "wir": "addieren",
+        "ihr": "addiert",
+        "sie_Sie": "addieren"
+      },
+      "praeteritum": {
+        "ich": "addierte",
+        "du": "addiertest",
+        "er_sie_es": "addierte",
+        "wir": "addierten",
+        "ihr": "addiertet",
+        "sie_Sie": "addierten"
+      },
+      "konjunktiv1": {
+        "ich": "addiere",
+        "du": "addierest",
+        "er_sie_es": "addiere",
+        "wir": "addieren",
+        "ihr": "addieret",
+        "sie_Sie": "addieren"
+      },
+      "konjunktiv2": {
+        "ich": "addierte",
+        "du": "addiertest",
+        "er_sie_es": "addierte",
+        "wir": "addierten",
+        "ihr": "addiertet",
+        "sie_Sie": "addierten"
+      },
+      "imperativ": {
+        "du": "Addiere!",
+        "ihr": "Addiert!",
+        "Sie": "Addieren Sie!"
+      }
+    },
+    "partizip1": "addierend",
+    "nominalisierung": "die Addition"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "rechnen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حساب کردن",
+          "en": "to calculate"
+        },
+        "id_ref": "verb_rechnen"
+      },
+      {
+        "wort": "plus",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "به‌علاوه",
+          "en": "plus"
+        },
+        "id_ref": "adverb_plus"
+      },
+      {
+        "wort": "die Summe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مجموع",
+          "en": "sum"
+        },
+        "id_ref": "nomen_summe"
+      },
+      {
+        "wort": "subtrahieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تفریق کردن",
+          "en": "to subtract"
+        },
+        "id_ref": "verb_subtrahieren"
+      },
+      {
+        "wort": "die Zahl",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عدد",
+          "en": "number"
+        },
+        "id_ref": "nomen_zahl"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

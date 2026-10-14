@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_adressieren",
+  "wort": "adressieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نشانی نوشتن (روی نامه)",
+      "خطاب کردن، مطرح کردن"
+    ],
+    "en": [
+      "to address"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kommunikation",
+    "Post"
+  ],
+  "ipa": "adʁɛˈsiːʁən",
+  "anmerkung": "Regelmäßig (adressierte, adressiert).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Brief ist an dich adressiert.",
+      "uebersetzung": {
+        "fa": "نامه به نشانی تو است.",
+        "en": "The letter is addressed to you."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Politikerin hat in ihrer Rede die Sorgen der jungen Leute direkt adressiert.",
+      "uebersetzung": {
+        "fa": "آن سیاستمدار در سخنرانی‌اش نگرانی‌های جوانان را مستقیم مطرح کرد.",
+        "en": "In her speech the politician directly addressed young people's concerns."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ansprechen",
+      "uebersetzung": {
+        "fa": "مطرح کردن، خطاب کردن",
+        "en": "to address"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از فرانسوی adresser (فرستادن)",
+    "en": "from French adresser (to direct)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas an + Akk adressieren",
+        "bedeutung": "etwas an jemanden richten",
+        "beispiel": "Das Paket ist an meine Nachbarin adressiert.",
+        "uebersetzung": {
+          "fa": "بسته به نشانی همسایه‌ام است.",
+          "en": "The parcel is addressed to my neighbour."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "adressieren",
+      "praeteritum": "adressierte",
+      "partizip2": "adressiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "adressiere",
+        "du": "adressierst",
+        "er_sie_es": "adressiert",
+        "wir": "adressieren",
+        "ihr": "adressiert",
+        "sie_Sie": "adressieren"
+      },
+      "praeteritum": {
+        "ich": "adressierte",
+        "du": "adressiertest",
+        "er_sie_es": "adressierte",
+        "wir": "adressierten",
+        "ihr": "adressiertet",
+        "sie_Sie": "adressierten"
+      },
+      "konjunktiv1": {
+        "ich": "adressiere",
+        "du": "adressierest",
+        "er_sie_es": "adressiere",
+        "wir": "adressieren",
+        "ihr": "adressieret",
+        "sie_Sie": "adressieren"
+      },
+      "konjunktiv2": {
+        "ich": "adressierte",
+        "du": "adressiertest",
+        "er_sie_es": "adressierte",
+        "wir": "adressierten",
+        "ihr": "adressiertet",
+        "sie_Sie": "adressierten"
+      },
+      "imperativ": {
+        "du": "Adressiere!",
+        "ihr": "Adressiert!",
+        "Sie": "Adressieren Sie!"
+      }
+    },
+    "partizip1": "adressierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "die Adresse",
+    "woerter": [
+      {
+        "wort": "die Adresse",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نشانی",
+          "en": "address"
+        },
+        "id_ref": "nomen_adresse"
+      },
+      {
+        "wort": "der Brief",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نامه",
+          "en": "letter"
+        },
+        "id_ref": "nomen_brief"
+      },
+      {
+        "wort": "der Empfänger",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گیرنده",
+          "en": "recipient"
+        },
+        "id_ref": "nomen_empfaenger"
+      },
+      {
+        "wort": "schicken",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فرستادن",
+          "en": "to send"
+        },
+        "id_ref": "verb_schicken"
+      },
+      {
+        "wort": "ansprechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مطرح کردن",
+          "en": "to address"
+        },
+        "id_ref": "verb_ansprechen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

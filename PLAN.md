@@ -2806,6 +2806,9 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۴۴۴ | aasen | `Verben_regelmaesig.txt` | 2026-10-13 | منطقه‌ای/محاوره‌ای — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۴۵ | abhausen | `Verben_regelmaesig.txt` | 2026-10-13 | منطقه‌ای، نادر — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۴۶ | abwägen | `Verben_regelmaesig.txt` | 2026-10-13 | صرف نوسان‌دار wog/wägte (مثل wägen) — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۴۷ | addizieren | `Verben_regelmaesig.txt` | 2026-10-13 | نادر/تخصصی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۴۸ | affirmieren | `Verben_regelmaesig.txt` | 2026-10-13 | ادبی/نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۴۹ | affizieren | `Verben_regelmaesig.txt` | 2026-10-13 | نادر/تخصصی — قاعده‌ی ۱۴/۱۶ | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 

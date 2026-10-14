@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_agitieren",
+  "wort": "agitieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تبلیغ سیاسی کردن، تحریک کردن"
+    ],
+    "en": [
+      "to agitate",
+      "to campaign"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Politik"
+  ],
+  "ipa": "aɡiˈtiːʁən",
+  "anmerkung": "Regelmäßig (agitierte, agitiert).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Partei agitiert auf der Straße.",
+      "uebersetzung": {
+        "fa": "حزب در خیابان تبلیغ می‌کند.",
+        "en": "The party is campaigning on the streets."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Gruppe agitierte jahrelang gegen die Regierung, bis sie verboten wurde.",
+      "uebersetzung": {
+        "fa": "آن گروه سال‌ها علیه دولت تبلیغ و تحریک می‌کرد تا اینکه ممنوع شد.",
+        "en": "The group agitated against the government for years until it was banned."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufwiegeln",
+      "uebersetzung": {
+        "fa": "تحریک کردن",
+        "en": "to stir up"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. agitare (به حرکت درآوردن)",
+    "en": "Latin agitare (to set in motion)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "gegen + Akk / für + Akk agitieren",
+        "bedeutung": "politisch gegen/für etwas werben",
+        "beispiel": "Sie agitierten gegen den Krieg.",
+        "uebersetzung": {
+          "fa": "آن‌ها علیه جنگ تبلیغ می‌کردند.",
+          "en": "They campaigned against the war."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "agitieren",
+      "praeteritum": "agitierte",
+      "partizip2": "agitiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "agitiere",
+        "du": "agitierst",
+        "er_sie_es": "agitiert",
+        "wir": "agitieren",
+        "ihr": "agitiert",
+        "sie_Sie": "agitieren"
+      },
+      "praeteritum": {
+        "ich": "agitierte",
+        "du": "agitiertest",
+        "er_sie_es": "agitierte",
+        "wir": "agitierten",
+        "ihr": "agitiertet",
+        "sie_Sie": "agitierten"
+      },
+      "konjunktiv1": {
+        "ich": "agitiere",
+        "du": "agitierest",
+        "er_sie_es": "agitiere",
+        "wir": "agitieren",
+        "ihr": "agitieret",
+        "sie_Sie": "agitieren"
+      },
+      "konjunktiv2": {
+        "ich": "agitierte",
+        "du": "agitiertest",
+        "er_sie_es": "agitierte",
+        "wir": "agitierten",
+        "ihr": "agitiertet",
+        "sie_Sie": "agitierten"
+      },
+      "imperativ": {
+        "du": "Agitiere!",
+        "ihr": "Agitiert!",
+        "Sie": "Agitieren Sie!"
+      }
+    },
+    "partizip1": "agitierend",
+    "nominalisierung": "die Agitation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Politik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سیاست",
+          "en": "politics"
+        },
+        "id_ref": "nomen_politik"
+      },
+      {
+        "wort": "die Propaganda",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تبلیغات سیاسی",
+          "en": "propaganda"
+        },
+        "id_ref": "nomen_propaganda"
+      },
+      {
+        "wort": "die Partei",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حزب",
+          "en": "party"
+        },
+        "id_ref": "nomen_partei"
+      },
+      {
+        "wort": "protestieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اعتراض کردن",
+          "en": "to protest"
+        },
+        "id_ref": "verb_protestieren"
+      },
+      {
+        "wort": "die Agitation",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "تبلیغ سیاسی",
+          "en": "agitation"
+        },
+        "id_ref": "nomen_agitation"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

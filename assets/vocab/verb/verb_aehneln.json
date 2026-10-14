@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_aehneln",
+  "wort": "ähneln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شبیه بودن"
+    ],
+    "en": [
+      "to resemble",
+      "to be similar"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Beziehungen"
+  ],
+  "ipa": "ˈɛːnl̩n",
+  "anmerkung": "Regelmäßig (ähnelte, geähnelt). Mit Dativ; auch reziprok: «sich ähneln».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er ähnelt seinem Vater.",
+      "uebersetzung": {
+        "fa": "او شبیه پدرش است.",
+        "en": "He resembles his father."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die beiden Schwestern ähneln sich so sehr, dass man sie oft verwechselt.",
+      "uebersetzung": {
+        "fa": "آن دو خواهر آن‌قدر شبیه هم‌اند که اغلب آن‌ها را با هم اشتباه می‌گیرند.",
+        "en": "The two sisters are so alike that people often mix them up."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gleichen",
+      "uebersetzung": {
+        "fa": "شبیه بودن",
+        "en": "to resemble"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sich unterscheiden",
+      "uebersetzung": {
+        "fa": "فرق داشتن",
+        "en": "to differ"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از ähnlich (شبیه)",
+    "en": "from ähnlich (similar)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "jemandem (Dat) ähneln",
+        "bedeutung": "jemandem ähnlich sein",
+        "beispiel": "Das Bild ähnelt einem Foto.",
+        "uebersetzung": {
+          "fa": "این نقاشی شبیه عکس است.",
+          "en": "The painting resembles a photo."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ähneln",
+      "praeteritum": "ähnelte",
+      "partizip2": "geähnelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ähnle",
+        "du": "ähnelst",
+        "er_sie_es": "ähnelt",
+        "wir": "ähneln",
+        "ihr": "ähnelt",
+        "sie_Sie": "ähneln"
+      },
+      "praeteritum": {
+        "ich": "ähnelte",
+        "du": "ähneltest",
+        "er_sie_es": "ähnelte",
+        "wir": "ähnelten",
+        "ihr": "ähneltet",
+        "sie_Sie": "ähnelten"
+      },
+      "konjunktiv1": {
+        "ich": "ähnle",
+        "du": "ähnlest",
+        "er_sie_es": "ähnle",
+        "wir": "ähneln",
+        "ihr": "ähnlet",
+        "sie_Sie": "ähneln"
+      },
+      "konjunktiv2": {
+        "ich": "ähnelte",
+        "du": "ähneltest",
+        "er_sie_es": "ähnelte",
+        "wir": "ähnelten",
+        "ihr": "ähneltet",
+        "sie_Sie": "ähnelten"
+      },
+      "imperativ": {
+        "du": "Ähnle!",
+        "ihr": "Ähnelt!",
+        "Sie": "Ähneln Sie!"
+      }
+    },
+    "partizip1": "ähnelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "ähnlich",
+    "woerter": [
+      {
+        "wort": "ähnlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شبیه",
+          "en": "similar"
+        },
+        "id_ref": "adjektiv_aehnlich"
+      },
+      {
+        "wort": "die Ähnlichkeit",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شباهت",
+          "en": "similarity"
+        },
+        "id_ref": "nomen_aehnlichkeit"
+      },
+      {
+        "wort": "gleichen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شبیه بودن",
+          "en": "to resemble"
+        },
+        "id_ref": "verb_gleichen"
+      },
+      {
+        "wort": "verwechseln",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اشتباه گرفتن",
+          "en": "to mix up"
+        },
+        "id_ref": "verb_verwechseln"
+      },
+      {
+        "wort": "der Unterschied",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تفاوت",
+          "en": "difference"
+        },
+        "id_ref": "nomen_unterschied"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

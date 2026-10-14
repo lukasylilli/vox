@@ -1,0 +1,167 @@
+{
+  "schema": "3.0",
+  "id": "verb_adeln",
+  "wort": "adeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به مقام اشرافی رساندن",
+      "ارج نهادن، شرافت بخشیدن"
+    ],
+    "en": [
+      "to ennoble",
+      "to dignify"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Geschichte",
+    "Gesellschaft"
+  ],
+  "ipa": "ˈaːdl̩n",
+  "anmerkung": "Regelmäßig (adelte, geadelt).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der König adelt den Ritter.",
+      "uebersetzung": {
+        "fa": "پادشاه شوالیه را اشرافی می‌کند.",
+        "en": "The king ennobles the knight."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Musiker wurde von der Queen geadelt, nachdem er viel Geld gespendet hatte.",
+      "uebersetzung": {
+        "fa": "نوازنده پس از اینکه پول زیادی بخشید، از سوی ملکه لقب اشرافی گرفت.",
+        "en": "The musician was knighted by the Queen after he had donated a lot of money."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ehren",
+      "uebersetzung": {
+        "fa": "ارج نهادن",
+        "en": "to honour"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از der Adel (اشراف)",
+    "en": "from der Adel (nobility)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "adeln",
+      "praeteritum": "adelte",
+      "partizip2": "geadelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "adle",
+        "du": "adelst",
+        "er_sie_es": "adelt",
+        "wir": "adeln",
+        "ihr": "adelt",
+        "sie_Sie": "adeln"
+      },
+      "praeteritum": {
+        "ich": "adelte",
+        "du": "adeltest",
+        "er_sie_es": "adelte",
+        "wir": "adelten",
+        "ihr": "adeltet",
+        "sie_Sie": "adelten"
+      },
+      "konjunktiv1": {
+        "ich": "adle",
+        "du": "adlest",
+        "er_sie_es": "adle",
+        "wir": "adeln",
+        "ihr": "adlet",
+        "sie_Sie": "adeln"
+      },
+      "konjunktiv2": {
+        "ich": "adelte",
+        "du": "adeltest",
+        "er_sie_es": "adelte",
+        "wir": "adelten",
+        "ihr": "adeltet",
+        "sie_Sie": "adelten"
+      },
+      "imperativ": {
+        "du": "Adle!",
+        "ihr": "Adelt!",
+        "Sie": "Adeln Sie!"
+      }
+    },
+    "partizip1": "adelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "der Adel",
+    "woerter": [
+      {
+        "wort": "der Adel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اشراف",
+          "en": "nobility"
+        },
+        "id_ref": "nomen_adel"
+      },
+      {
+        "wort": "der König",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پادشاه",
+          "en": "king"
+        },
+        "id_ref": "nomen_koenig"
+      },
+      {
+        "wort": "ehren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ارج نهادن",
+          "en": "to honour"
+        },
+        "id_ref": "verb_ehren"
+      },
+      {
+        "wort": "adlig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اشرافی",
+          "en": "noble"
+        },
+        "id_ref": "adjektiv_adlig"
+      },
+      {
+        "wort": "der Titel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عنوان، لقب",
+          "en": "title"
+        },
+        "id_ref": "nomen_titel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
