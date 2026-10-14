@@ -1508,6 +1508,11 @@ const zurueckgestellt = <String>{
   'altertümeln', // zurückgestellt (Regel 14/16): selten/gehoben 2026-10-13
   'altmachen', // zurückgestellt (Regel 14/16): Schreibung (alt machen) 2026-10-13
   'amalgamieren', // zurückgestellt (Regel 14/16): fachsprachlich, selten 2026-10-13
+  'antichambrieren', // zurückgestellt (Regel 14/16): veraltet/gehoben 2026-10-13
+  'apanagieren', // zurückgestellt (Regel 14/16): veraltet 2026-10-13
+  'apern', // zurückgestellt (Regel 14/16): regional (schneefrei werden) 2026-10-13
+  'äpfeln', // zurückgestellt (Regel 14/16): selten (vom Pferd: Kot absetzen) 2026-10-13
+  'apostrophieren', // zurückgestellt (Regel 14/16): gehoben/selten 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

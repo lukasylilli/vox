@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_anzetteln",
+  "wort": "anzetteln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(توطئه، دعوا) راه انداختن"
+    ],
+    "en": [
+      "to instigate",
+      "to stir up"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Politik",
+    "Alltag"
+  ],
+  "ipa": "ˈanˌt͡sɛtl̩n",
+  "anmerkung": "Trennbar (zettelte an, angezettelt). Abwertend.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wer hat den Streit angezettelt?",
+      "uebersetzung": {
+        "fa": "چه کسی دعوا را راه انداخت؟",
+        "en": "Who started the fight?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Offiziere hatten einen Putsch angezettelt, der aber schon nach wenigen Stunden scheiterte.",
+      "uebersetzung": {
+        "fa": "افسران کودتایی راه انداخته بودند که پس از چند ساعت شکست خورد.",
+        "en": "The officers had instigated a coup, which failed after only a few hours."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anstiften",
+      "uebersetzung": {
+        "fa": "تحریک کردن",
+        "en": "to instigate"
+      }
+    },
+    {
+      "wort": "vom Zaun brechen",
+      "uebersetzung": {
+        "fa": "بی‌دلیل شروع کردن",
+        "en": "to start without reason"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "schlichten",
+      "uebersetzung": {
+        "fa": "میانجی‌گری کردن",
+        "en": "to settle"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- + zetteln (چیدن تار در بافندگی)",
+    "en": "an- + zetteln (to lay the warp in weaving)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "anzetteln",
+      "praeteritum": "zettelte an",
+      "partizip2": "angezettelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "zettle an",
+        "du": "zettelst an",
+        "er_sie_es": "zettelt an",
+        "wir": "zetteln an",
+        "ihr": "zettelt an",
+        "sie_Sie": "zetteln an"
+      },
+      "praeteritum": {
+        "ich": "zettelte an",
+        "du": "zetteltest an",
+        "er_sie_es": "zettelte an",
+        "wir": "zettelten an",
+        "ihr": "zetteltet an",
+        "sie_Sie": "zettelten an"
+      },
+      "konjunktiv1": {
+        "ich": "zettle an",
+        "du": "zettlest an",
+        "er_sie_es": "zettle an",
+        "wir": "zetteln an",
+        "ihr": "zettlet an",
+        "sie_Sie": "zetteln an"
+      },
+      "konjunktiv2": {
+        "ich": "zettelte an",
+        "du": "zetteltest an",
+        "er_sie_es": "zettelte an",
+        "wir": "zettelten an",
+        "ihr": "zetteltet an",
+        "sie_Sie": "zettelten an"
+      },
+      "imperativ": {
+        "du": "Zettle an!",
+        "ihr": "Zettelt an!",
+        "Sie": "Zetteln Sie an!"
+      }
+    },
+    "partizip1": "anzettelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Streit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دعوا",
+          "en": "argument"
+        },
+        "id_ref": "nomen_streit"
+      },
+      {
+        "wort": "die Verschwörung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "توطئه",
+          "en": "conspiracy"
+        },
+        "id_ref": "nomen_verschwoerung"
+      },
+      {
+        "wort": "anstiften",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تحریک کردن",
+          "en": "to instigate"
+        },
+        "id_ref": "verb_anstiften"
+      },
+      {
+        "wort": "provozieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تحریک کردن",
+          "en": "to provoke"
+        },
+        "id_ref": "verb_provozieren"
+      },
+      {
+        "wort": "beginnen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شروع کردن",
+          "en": "to begin"
+        },
+        "id_ref": "verb_beginnen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

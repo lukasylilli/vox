@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_anstacheln",
+  "wort": "anstacheln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تحریک کردن، برانگیختن"
+    ],
+    "en": [
+      "to spur on",
+      "to incite"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle",
+    "Gesellschaft"
+  ],
+  "ipa": "ˈanˌʃtaxl̩n",
+  "anmerkung": "Trennbar (stachelte an, angestachelt).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Fans stacheln die Spieler an.",
+      "uebersetzung": {
+        "fa": "هواداران بازیکنان را تهییج می‌کنند.",
+        "en": "The fans spur the players on."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Erfolg ihrer Schwester hat ihren Ehrgeiz zusätzlich angestachelt.",
+      "uebersetzung": {
+        "fa": "موفقیت خواهرش جاه‌طلبی او را بیشتر برانگیخت.",
+        "en": "Her sister's success spurred her ambition on even more."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anspornen",
+      "uebersetzung": {
+        "fa": "تشویق کردن",
+        "en": "to spur on"
+      }
+    },
+    {
+      "wort": "aufhetzen",
+      "uebersetzung": {
+        "fa": "تحریک کردن",
+        "en": "to incite"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "bremsen",
+      "uebersetzung": {
+        "fa": "ترمز کردن، مهار کردن",
+        "en": "to curb"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- + stacheln (از der Stachel = خار، نیش)",
+    "en": "an- + stacheln (from der Stachel = sting)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden zu + Dat anstacheln",
+        "bedeutung": "jemanden zu etwas antreiben",
+        "beispiel": "Er stachelte die Menge zur Gewalt an.",
+        "uebersetzung": {
+          "fa": "او جمعیت را به خشونت تحریک کرد.",
+          "en": "He incited the crowd to violence."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "anstacheln",
+      "praeteritum": "stachelte an",
+      "partizip2": "angestachelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stachle an",
+        "du": "stachelst an",
+        "er_sie_es": "stachelt an",
+        "wir": "stacheln an",
+        "ihr": "stachelt an",
+        "sie_Sie": "stacheln an"
+      },
+      "praeteritum": {
+        "ich": "stachelte an",
+        "du": "stacheltest an",
+        "er_sie_es": "stachelte an",
+        "wir": "stachelten an",
+        "ihr": "stacheltet an",
+        "sie_Sie": "stachelten an"
+      },
+      "konjunktiv1": {
+        "ich": "stachle an",
+        "du": "stachlest an",
+        "er_sie_es": "stachle an",
+        "wir": "stacheln an",
+        "ihr": "stachlet an",
+        "sie_Sie": "stacheln an"
+      },
+      "konjunktiv2": {
+        "ich": "stachelte an",
+        "du": "stacheltest an",
+        "er_sie_es": "stachelte an",
+        "wir": "stachelten an",
+        "ihr": "stacheltet an",
+        "sie_Sie": "stachelten an"
+      },
+      "imperativ": {
+        "du": "Stachle an!",
+        "ihr": "Stachelt an!",
+        "Sie": "Stacheln Sie an!"
+      }
+    },
+    "partizip1": "anstachelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "der Stachel",
+    "woerter": [
+      {
+        "wort": "motivieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انگیزه دادن",
+          "en": "to motivate"
+        },
+        "id_ref": "verb_motivieren"
+      },
+      {
+        "wort": "anspornen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تشویق کردن",
+          "en": "to spur on"
+        },
+        "id_ref": "verb_anspornen"
+      },
+      {
+        "wort": "der Ehrgeiz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جاه‌طلبی",
+          "en": "ambition"
+        },
+        "id_ref": "nomen_ehrgeiz"
+      },
+      {
+        "wort": "der Stachel",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خار، نیش",
+          "en": "sting"
+        },
+        "id_ref": "nomen_stachel"
+      },
+      {
+        "wort": "provozieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تحریک کردن",
+          "en": "to provoke"
+        },
+        "id_ref": "verb_provozieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

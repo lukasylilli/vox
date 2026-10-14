@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_applizieren",
+  "wort": "applizieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(دارو) تجویز و تزریق کردن، به کار بردن"
+    ],
+    "en": [
+      "to administer (medication)",
+      "to apply"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin"
+  ],
+  "ipa": "apliˈt͡siːʁən",
+  "anmerkung": "Regelmäßig (applizierte, appliziert). Fachsprache Medizin/Pflege: «ein Medikament intravenös applizieren».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Pflegerin appliziert die Spritze.",
+      "uebersetzung": {
+        "fa": "پرستار آمپول را تزریق می‌کند.",
+        "en": "The nurse administers the injection."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Medikament wird intravenös appliziert, damit es schneller wirkt.",
+      "uebersetzung": {
+        "fa": "دارو را داخل رگ تزریق می‌کنند تا سریع‌تر اثر کند.",
+        "en": "The medication is administered intravenously so that it works faster."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verabreichen",
+      "uebersetzung": {
+        "fa": "(دارو) دادن",
+        "en": "to administer"
+      }
+    },
+    {
+      "wort": "anwenden",
+      "uebersetzung": {
+        "fa": "به کار بردن",
+        "en": "to apply"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. applicare (به کار بستن)",
+    "en": "Latin applicare (to apply)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "applizieren",
+      "praeteritum": "applizierte",
+      "partizip2": "appliziert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "appliziere",
+        "du": "applizierst",
+        "er_sie_es": "appliziert",
+        "wir": "applizieren",
+        "ihr": "appliziert",
+        "sie_Sie": "applizieren"
+      },
+      "praeteritum": {
+        "ich": "applizierte",
+        "du": "appliziertest",
+        "er_sie_es": "applizierte",
+        "wir": "applizierten",
+        "ihr": "appliziertet",
+        "sie_Sie": "applizierten"
+      },
+      "konjunktiv1": {
+        "ich": "appliziere",
+        "du": "applizierest",
+        "er_sie_es": "appliziere",
+        "wir": "applizieren",
+        "ihr": "applizieret",
+        "sie_Sie": "applizieren"
+      },
+      "konjunktiv2": {
+        "ich": "applizierte",
+        "du": "appliziertest",
+        "er_sie_es": "applizierte",
+        "wir": "applizierten",
+        "ihr": "appliziertet",
+        "sie_Sie": "applizierten"
+      },
+      "imperativ": {
+        "du": "Appliziere!",
+        "ihr": "Appliziert!",
+        "Sie": "Applizieren Sie!"
+      }
+    },
+    "partizip1": "applizierend",
+    "nominalisierung": "die Applikation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Medikament",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دارو",
+          "en": "medication"
+        },
+        "id_ref": "nomen_medikament"
+      },
+      {
+        "wort": "die Spritze",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آمپول، سرنگ",
+          "en": "syringe"
+        },
+        "id_ref": "nomen_spritze"
+      },
+      {
+        "wort": "verabreichen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "(دارو) دادن",
+          "en": "to administer"
+        },
+        "id_ref": "verb_verabreichen"
+      },
+      {
+        "wort": "die Infusion",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سرم، تزریق وریدی",
+          "en": "infusion"
+        },
+        "id_ref": "nomen_infusion"
+      },
+      {
+        "wort": "die Pflege",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پرستاری",
+          "en": "care"
+        },
+        "id_ref": "nomen_pflege"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

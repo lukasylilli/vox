@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_anseilen",
+  "wort": "anseilen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "با طناب به هم بستن (کوهنوردی)"
+    ],
+    "en": [
+      "to rope up"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Sport"
+  ],
+  "ipa": "ˈanˌzaɪ̯lən",
+  "anmerkung": "Trennbar (seilte an, angeseilt); meist reflexiv: «sich anseilen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Bergsteiger seilen sich an.",
+      "uebersetzung": {
+        "fa": "کوهنوردان خود را با طناب به هم می‌بندند.",
+        "en": "The climbers rope up."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Auf dem Gletscher muss man sich anseilen, weil man leicht in eine Spalte fallen kann.",
+      "uebersetzung": {
+        "fa": "روی یخچال باید خود را با طناب بست، چون آدم راحت در شکاف می‌افتد.",
+        "en": "On the glacier you have to rope up because you can easily fall into a crevasse."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sichern",
+      "uebersetzung": {
+        "fa": "ایمن کردن",
+        "en": "to secure"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "abseilen",
+      "uebersetzung": {
+        "fa": "با طناب پایین رفتن",
+        "en": "to abseil"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (به) + seilen (از das Seil = طناب)",
+    "en": "an- (to) + seilen (from das Seil = rope)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "anseilen",
+      "praeteritum": "seilte an",
+      "partizip2": "angeseilt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "seile an",
+        "du": "seilst an",
+        "er_sie_es": "seilt an",
+        "wir": "seilen an",
+        "ihr": "seilt an",
+        "sie_Sie": "seilen an"
+      },
+      "praeteritum": {
+        "ich": "seilte an",
+        "du": "seiltest an",
+        "er_sie_es": "seilte an",
+        "wir": "seilten an",
+        "ihr": "seiltet an",
+        "sie_Sie": "seilten an"
+      },
+      "konjunktiv1": {
+        "ich": "seile an",
+        "du": "seilest an",
+        "er_sie_es": "seile an",
+        "wir": "seilen an",
+        "ihr": "seilet an",
+        "sie_Sie": "seilen an"
+      },
+      "konjunktiv2": {
+        "ich": "seilte an",
+        "du": "seiltest an",
+        "er_sie_es": "seilte an",
+        "wir": "seilten an",
+        "ihr": "seiltet an",
+        "sie_Sie": "seilten an"
+      },
+      "imperativ": {
+        "du": "Seile an!",
+        "ihr": "Seilt an!",
+        "Sie": "Seilen Sie an!"
+      }
+    },
+    "partizip1": "anseilend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "das Seil",
+    "woerter": [
+      {
+        "wort": "das Seil",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "طناب",
+          "en": "rope"
+        },
+        "id_ref": "nomen_seil"
+      },
+      {
+        "wort": "klettern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بالا رفتن (صخره)",
+          "en": "to climb"
+        },
+        "id_ref": "verb_klettern"
+      },
+      {
+        "wort": "der Gletscher",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "یخچال طبیعی",
+          "en": "glacier"
+        },
+        "id_ref": "nomen_gletscher"
+      },
+      {
+        "wort": "abseilen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "با طناب پایین رفتن",
+          "en": "to abseil"
+        },
+        "id_ref": "verb_abseilen"
+      },
+      {
+        "wort": "sichern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ایمن کردن",
+          "en": "to secure"
+        },
+        "id_ref": "verb_sichern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

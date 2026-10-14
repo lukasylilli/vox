@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_appellieren",
+  "wort": "appellieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "درخواست کردن، متوسل شدن (به وجدان، عقل)"
+    ],
+    "en": [
+      "to appeal"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Politik",
+    "Kommunikation"
+  ],
+  "ipa": "apɛˈliːʁən",
+  "anmerkung": "Regelmäßig (appellierte, appelliert). Fast immer mit «an + Akk».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er appelliert an uns.",
+      "uebersetzung": {
+        "fa": "او از ما درخواست می‌کند.",
+        "en": "He appeals to us."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Ärztin appellierte an die Bevölkerung, sich gegen die Grippe impfen zu lassen.",
+      "uebersetzung": {
+        "fa": "پزشک از مردم خواست علیه آنفلوانزا واکسن بزنند.",
+        "en": "The doctor appealed to the population to get vaccinated against the flu."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufrufen",
+      "uebersetzung": {
+        "fa": "فراخواندن",
+        "en": "to call on"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. appellare (خطاب کردن)",
+    "en": "Latin appellare (to address)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "an + Akk appellieren",
+        "bedeutung": "sich mit einer Bitte an jemanden wenden",
+        "beispiel": "Ich appelliere an Ihre Vernunft.",
+        "uebersetzung": {
+          "fa": "به عقل شما متوسل می‌شوم.",
+          "en": "I appeal to your reason."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "appellieren",
+      "praeteritum": "appellierte",
+      "partizip2": "appelliert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "appelliere",
+        "du": "appellierst",
+        "er_sie_es": "appelliert",
+        "wir": "appellieren",
+        "ihr": "appelliert",
+        "sie_Sie": "appellieren"
+      },
+      "praeteritum": {
+        "ich": "appellierte",
+        "du": "appelliertest",
+        "er_sie_es": "appellierte",
+        "wir": "appellierten",
+        "ihr": "appelliertet",
+        "sie_Sie": "appellierten"
+      },
+      "konjunktiv1": {
+        "ich": "appelliere",
+        "du": "appellierest",
+        "er_sie_es": "appelliere",
+        "wir": "appellieren",
+        "ihr": "appellieret",
+        "sie_Sie": "appellieren"
+      },
+      "konjunktiv2": {
+        "ich": "appellierte",
+        "du": "appelliertest",
+        "er_sie_es": "appellierte",
+        "wir": "appellierten",
+        "ihr": "appelliertet",
+        "sie_Sie": "appellierten"
+      },
+      "imperativ": {
+        "du": "Appelliere!",
+        "ihr": "Appelliert!",
+        "Sie": "Appellieren Sie!"
+      }
+    },
+    "partizip1": "appellierend",
+    "nominalisierung": "der Appell"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Appell",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "فراخوان",
+          "en": "appeal"
+        },
+        "id_ref": "nomen_appell"
+      },
+      {
+        "wort": "bitten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خواهش کردن",
+          "en": "to ask"
+        },
+        "id_ref": "verb_bitten"
+      },
+      {
+        "wort": "aufrufen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فراخواندن",
+          "en": "to call on"
+        },
+        "id_ref": "verb_aufrufen"
+      },
+      {
+        "wort": "die Vernunft",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عقل",
+          "en": "reason"
+        },
+        "id_ref": "nomen_vernunft"
+      },
+      {
+        "wort": "auffordern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درخواست کردن",
+          "en": "to request"
+        },
+        "id_ref": "verb_auffordern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
