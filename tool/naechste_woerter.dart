@@ -1546,6 +1546,7 @@ const zurueckgestellt = <String>{
   'attribuieren', // zurückgestellt (Regel 14/16): fachsprachlich 2026-10-13
   'atzen', // zurückgestellt (Regel 14/16): Jägersprache/veraltet 2026-10-13
   'aufächzen', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'appretieren', // zurückgestellt (Regel 14/16): fachsprachlich (Textil) 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

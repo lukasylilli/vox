@@ -2858,6 +2858,7 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۴۹۳ | attribuieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۹۴ | atzen | `Verben_regelmaesig.txt` | 2026-10-13 | اصطلاح شکارچیان/قدیمی — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۹۵ | aufächzen | `Verben_regelmaesig.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۹۶ | appretieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی (نساجی) — قاعده‌ی ۱۴/۱۶ | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 
