@@ -1,5 +1,6 @@
 # PROJECT MAP — VOX
 # نقشه کامل پروژه برای ناوبری سریع در هر session
+# آپدیت 2026-10-14 فاز F (فیلتر/دسته‌بندی/ترتیب جست‌وجو، Lukas) ثبت شد — فقط سند. فایل‌های درگیر در قدم‌های بعد: features/wortschatz/screens/wortschatz_list_screen.dart (ترتیب + دکمه‌ی فیلتر) · صفحه‌ی تازه‌ی فیلتر · core/widgets/filter_accordion.dart (شبکه‌ی هم‌ردیف) · wortschatz_home_screen.dart (Bücher ⇒ فیلتر) · vokabular/widgets/wort_actions.dart (کتاب در شیت دسته‌بندی) · vokab_schema.dart + «old files Lukasalmani/Wort prompt» (berufe/register/gebrauch/ersatz) · wort_seite_screen.dart (برچسب). جزئیات: PLAN «🗂️ فاز F».
 # آپدیت 2026-10-13 (ادامه ۳) تصمیم Lukas: فعل‌های دوگانه‌ی جداشدنی/جدانشدنی ⇒ کنار تا بعد از همه‌ی افعال ⇒ پرامپت ویژه (کارت + شکل هندسی) ⇒ ثبت PLAN/MAP ⇒ ساخت. محل: PLAN.md «🏁 مرحله‌ی آخر» ⇒ «🔀» و «📚 روال ده کلمه جدید». فقط سند.
 # آپدیت 2026-10-13 (ادامه ۲) دور ۵۹۵–۵۹۷: ۳۰ کارت ⇒ assets/vocab/verb (standhalten … umbringen) ⇒ آرشیو ۶۹۴۸ · zurueckgestellt += ۴۷ (#۱۲۴۵–۱۲۹۱) در tool/naechste_woerter.dart؛ über-/um- دوگانه کنار می‌روند. کد اپ دست نخورد.
 # آپدیت 2026-10-13 (ادامه ۱) دور ۵۹۲–۵۹۴: ۳۰ کارت ⇒ assets/vocab/verb (schlagen … springen) ⇒ آرشیو ۶۹۱۸ · zurueckgestellt += ۲۶ (#۱۲۱۹–۱۲۴۴) در tool/naechste_woerter.dart. کد اپ دست نخورد.
