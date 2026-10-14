@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_beschwatzen",
+  "wort": "beschwatzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "با حرف زدن راضی کردن، زیر گوش کسی خواندن"
+    ],
+    "en": [
+      "to talk into",
+      "to sweet-talk"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "bəˈʃvat͡sn̩",
+  "anmerkung": "Untrennbar, regelmäßig (beschwatzte, beschwatzt). Umgangssprachlich. Landschaftlich auch: beschwätzen.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie hat mich beschwatzt.",
+      "uebersetzung": {
+        "fa": "او با حرف‌هایش راضی‌ام کرد.",
+        "en": "She talked me into it."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Verkäufer hat mich so lange beschwatzt, bis ich den teuren Fernseher gekauft habe.",
+      "uebersetzung": {
+        "fa": "فروشنده آن‌قدر زیر گوشم خواند تا آن تلویزیون گران را خریدم.",
+        "en": "The salesman sweet-talked me until I bought the expensive television."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "überreden",
+      "uebersetzung": {
+        "fa": "راضی کردن",
+        "en": "to persuade"
+      }
+    },
+    {
+      "wort": "bequatschen",
+      "uebersetzung": {
+        "fa": "با حرف راضی کردن",
+        "en": "to talk round"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + schwatzen (وراجی کردن)",
+    "en": "be- + schwatzen (to chatter)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden zu + Dat beschwatzen",
+        "bedeutung": "jemanden mit vielen Worten zu etwas bringen",
+        "beispiel": "Die Kinder beschwatzten den Vater zu einem Eis.",
+        "uebersetzung": {
+          "fa": "بچه‌ها پدرشان را راضی کردند که برایشان بستنی بخرد.",
+          "en": "The children talked their father into buying an ice cream."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beschwatzen",
+      "praeteritum": "beschwatzte",
+      "partizip2": "beschwatzt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beschwatze",
+        "du": "beschwatzt",
+        "er_sie_es": "beschwatzt",
+        "wir": "beschwatzen",
+        "ihr": "beschwatzt",
+        "sie_Sie": "beschwatzen"
+      },
+      "praeteritum": {
+        "ich": "beschwatzte",
+        "du": "beschwatztest",
+        "er_sie_es": "beschwatzte",
+        "wir": "beschwatzten",
+        "ihr": "beschwatztet",
+        "sie_Sie": "beschwatzten"
+      },
+      "konjunktiv1": {
+        "ich": "beschwatze",
+        "du": "beschwatzest",
+        "er_sie_es": "beschwatze",
+        "wir": "beschwatzen",
+        "ihr": "beschwatzet",
+        "sie_Sie": "beschwatzen"
+      },
+      "konjunktiv2": {
+        "ich": "beschwatzte",
+        "du": "beschwatztest",
+        "er_sie_es": "beschwatzte",
+        "wir": "beschwatzten",
+        "ihr": "beschwatztet",
+        "sie_Sie": "beschwatzten"
+      },
+      "imperativ": {
+        "du": "Beschwatze!",
+        "ihr": "Beschwatzt!",
+        "Sie": "Beschwatzen Sie!"
+      }
+    },
+    "partizip1": "beschwatzend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Schwatz",
+    "woerter": [
+      {
+        "wort": "reden",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حرف زدن",
+          "en": "to talk"
+        },
+        "id_ref": "verb_reden"
+      },
+      {
+        "wort": "überreden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "راضی کردن",
+          "en": "to persuade"
+        },
+        "id_ref": "verb_ueberreden"
+      },
+      {
+        "wort": "überzeugen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "متقاعد کردن",
+          "en": "to convince"
+        },
+        "id_ref": "verb_ueberzeugen"
+      },
+      {
+        "wort": "schwatzen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "وراجی کردن",
+          "en": "to chatter"
+        },
+        "id_ref": "verb_schwatzen"
+      },
+      {
+        "wort": "der Verkäufer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فروشنده",
+          "en": "salesperson"
+        },
+        "id_ref": "nomen_verkaeufer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

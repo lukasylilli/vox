@@ -1,0 +1,195 @@
+{
+  "schema": "3.0",
+  "id": "verb_beschuetzen",
+  "wort": "beschützen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "محافظت کردن، حمایت کردن"
+    ],
+    "en": [
+      "to protect",
+      "to guard"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Familie",
+    "Sicherheit"
+  ],
+  "ipa": "bəˈʃʏt͡sn̩",
+  "anmerkung": "Untrennbar, regelmäßig (beschützte, beschützt).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hund beschützt das Haus.",
+      "uebersetzung": {
+        "fa": "سگ از خانه محافظت می‌کند.",
+        "en": "The dog guards the house."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Eltern wollen ihre Kinder beschützen, auch wenn sie schon erwachsen sind.",
+      "uebersetzung": {
+        "fa": "پدر و مادرها می‌خواهند از بچه‌هایشان محافظت کنند، حتی وقتی بزرگ شده‌اند.",
+        "en": "Parents want to protect their children even when they are already grown up."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schützen",
+      "uebersetzung": {
+        "fa": "محافظت کردن",
+        "en": "to protect"
+      }
+    },
+    {
+      "wort": "verteidigen",
+      "uebersetzung": {
+        "fa": "دفاع کردن",
+        "en": "to defend"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "angreifen",
+      "uebersetzung": {
+        "fa": "حمله کردن",
+        "en": "to attack"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + schützen (محافظت کردن)",
+    "en": "be- + schützen (to protect)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden vor + Dat beschützen",
+        "bedeutung": "jemanden vor einer Gefahr bewahren",
+        "beispiel": "Die Mutter beschützt ihr Kind vor dem Regen.",
+        "uebersetzung": {
+          "fa": "مادر بچه‌اش را از باران حفظ می‌کند.",
+          "en": "The mother protects her child from the rain."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beschützen",
+      "praeteritum": "beschützte",
+      "partizip2": "beschützt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beschütze",
+        "du": "beschützt",
+        "er_sie_es": "beschützt",
+        "wir": "beschützen",
+        "ihr": "beschützt",
+        "sie_Sie": "beschützen"
+      },
+      "praeteritum": {
+        "ich": "beschützte",
+        "du": "beschütztest",
+        "er_sie_es": "beschützte",
+        "wir": "beschützten",
+        "ihr": "beschütztet",
+        "sie_Sie": "beschützten"
+      },
+      "konjunktiv1": {
+        "ich": "beschütze",
+        "du": "beschützest",
+        "er_sie_es": "beschütze",
+        "wir": "beschützen",
+        "ihr": "beschützet",
+        "sie_Sie": "beschützen"
+      },
+      "konjunktiv2": {
+        "ich": "beschützte",
+        "du": "beschütztest",
+        "er_sie_es": "beschützte",
+        "wir": "beschützten",
+        "ihr": "beschütztet",
+        "sie_Sie": "beschützten"
+      },
+      "imperativ": {
+        "du": "Beschütze!",
+        "ihr": "Beschützt!",
+        "Sie": "Beschützen Sie!"
+      }
+    },
+    "partizip1": "beschützend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Schutz",
+    "woerter": [
+      {
+        "wort": "schützen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "محافظت کردن",
+          "en": "to protect"
+        },
+        "id_ref": "verb_schuetzen"
+      },
+      {
+        "wort": "der Schutz",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "محافظت",
+          "en": "protection"
+        },
+        "id_ref": "nomen_schutz"
+      },
+      {
+        "wort": "sicher",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "امن",
+          "en": "safe"
+        },
+        "id_ref": "adjektiv_sicher"
+      },
+      {
+        "wort": "verteidigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دفاع کردن",
+          "en": "to defend"
+        },
+        "id_ref": "verb_verteidigen"
+      },
+      {
+        "wort": "die Gefahr",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خطر",
+          "en": "danger"
+        },
+        "id_ref": "nomen_gefahr"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

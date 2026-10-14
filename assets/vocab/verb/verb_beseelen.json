@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_beseelen",
+  "wort": "beseelen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جان بخشیدن، سرشار کردن (از احساس)"
+    ],
+    "en": [
+      "to inspire",
+      "to animate",
+      "to fill (with a feeling)"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Gefühle",
+    "Kultur"
+  ],
+  "ipa": "bəˈzeːlən",
+  "anmerkung": "Untrennbar, regelmäßig (beseelte, beseelt). Gehoben; meist als Partizip: von etwas beseelt sein.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Musik beseelt den Raum.",
+      "uebersetzung": {
+        "fa": "موسیقی به فضا جان می‌بخشد.",
+        "en": "The music fills the room with life."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Helfer waren von dem Wunsch beseelt, den Flüchtlingen schnell eine Unterkunft zu geben.",
+      "uebersetzung": {
+        "fa": "امدادگران سرشار از این آرزو بودند که هرچه زودتر به پناهندگان سرپناه بدهند.",
+        "en": "The helpers were inspired by the wish to give the refugees accommodation quickly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erfüllen",
+      "uebersetzung": {
+        "fa": "سرشار کردن",
+        "en": "to fill"
+      }
+    },
+    {
+      "wort": "beflügeln",
+      "uebersetzung": {
+        "fa": "به وجد آوردن، الهام دادن",
+        "en": "to inspire"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Seele (روح) + -n",
+    "en": "be- + Seele (soul) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "von + Dat beseelt sein",
+        "bedeutung": "von einem Gefühl oder Wunsch ganz erfüllt sein",
+        "beispiel": "Sie war von großer Hoffnung beseelt.",
+        "uebersetzung": {
+          "fa": "او سرشار از امید بزرگی بود.",
+          "en": "She was filled with great hope."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beseelen",
+      "praeteritum": "beseelte",
+      "partizip2": "beseelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beseele",
+        "du": "beseelst",
+        "er_sie_es": "beseelt",
+        "wir": "beseelen",
+        "ihr": "beseelt",
+        "sie_Sie": "beseelen"
+      },
+      "praeteritum": {
+        "ich": "beseelte",
+        "du": "beseeltest",
+        "er_sie_es": "beseelte",
+        "wir": "beseelten",
+        "ihr": "beseeltet",
+        "sie_Sie": "beseelten"
+      },
+      "konjunktiv1": {
+        "ich": "beseele",
+        "du": "beseelest",
+        "er_sie_es": "beseele",
+        "wir": "beseelen",
+        "ihr": "beseelet",
+        "sie_Sie": "beseelen"
+      },
+      "konjunktiv2": {
+        "ich": "beseelte",
+        "du": "beseeltest",
+        "er_sie_es": "beseelte",
+        "wir": "beseelten",
+        "ihr": "beseeltet",
+        "sie_Sie": "beseelten"
+      },
+      "imperativ": {
+        "du": "Beseele!",
+        "ihr": "Beseelt!",
+        "Sie": "Beseelen Sie!"
+      }
+    },
+    "partizip1": "beseelend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Seele",
+    "woerter": [
+      {
+        "wort": "die Seele",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "روح، روان",
+          "en": "soul"
+        },
+        "id_ref": "nomen_seele"
+      },
+      {
+        "wort": "erfüllen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برآوردن، سرشار کردن",
+          "en": "to fulfil, to fill"
+        },
+        "id_ref": "verb_erfuellen"
+      },
+      {
+        "wort": "die Begeisterung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شور و شوق",
+          "en": "enthusiasm"
+        },
+        "id_ref": "nomen_begeisterung"
+      },
+      {
+        "wort": "das Gefühl",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "احساس",
+          "en": "feeling"
+        },
+        "id_ref": "nomen_gefuehl"
+      },
+      {
+        "wort": "beflügeln",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "به وجد آوردن",
+          "en": "to inspire"
+        },
+        "id_ref": "verb_befluegeln"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

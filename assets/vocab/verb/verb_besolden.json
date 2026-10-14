@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_besolden",
+  "wort": "besolden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "حقوق دادن (به کارمند دولت یا سرباز)"
+    ],
+    "en": [
+      "to pay (a salary to)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Behörden"
+  ],
+  "ipa": "bəˈzɔldn̩",
+  "anmerkung": "Untrennbar, regelmäßig (besoldete, besoldet). Vor allem bei Beamten, Richtern und Soldaten.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Staat besoldet die Lehrer.",
+      "uebersetzung": {
+        "fa": "دولت به معلم‌ها حقوق می‌دهد.",
+        "en": "The state pays the teachers."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Richter werden nach einer festen Tabelle besoldet, die jedes Jahr angepasst wird.",
+      "uebersetzung": {
+        "fa": "قاضی‌ها طبق جدول ثابتی حقوق می‌گیرند که هر سال به‌روز می‌شود.",
+        "en": "Judges are paid according to a fixed table that is adjusted every year."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bezahlen",
+      "uebersetzung": {
+        "fa": "پرداختن",
+        "en": "to pay"
+      }
+    },
+    {
+      "wort": "entlohnen",
+      "uebersetzung": {
+        "fa": "مزد دادن",
+        "en": "to remunerate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Sold (جیره‌ی سرباز) + -en",
+    "en": "be- + Sold (soldier’s pay) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden nach + Dat besolden",
+        "bedeutung": "jemandem nach einer Gruppe oder Tabelle Gehalt zahlen",
+        "beispiel": "Sie wird nach der Gruppe A13 besoldet.",
+        "uebersetzung": {
+          "fa": "او طبق گروه آ-۱۳ حقوق می‌گیرد.",
+          "en": "She is paid according to grade A13."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "besolden",
+      "praeteritum": "besoldete",
+      "partizip2": "besoldet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "besolde",
+        "du": "besoldest",
+        "er_sie_es": "besoldet",
+        "wir": "besolden",
+        "ihr": "besoldet",
+        "sie_Sie": "besolden"
+      },
+      "praeteritum": {
+        "ich": "besoldete",
+        "du": "besoldetest",
+        "er_sie_es": "besoldete",
+        "wir": "besoldeten",
+        "ihr": "besoldetet",
+        "sie_Sie": "besoldeten"
+      },
+      "konjunktiv1": {
+        "ich": "besolde",
+        "du": "besoldest",
+        "er_sie_es": "besolde",
+        "wir": "besolden",
+        "ihr": "besoldet",
+        "sie_Sie": "besolden"
+      },
+      "konjunktiv2": {
+        "ich": "besoldete",
+        "du": "besoldetest",
+        "er_sie_es": "besoldete",
+        "wir": "besoldeten",
+        "ihr": "besoldetet",
+        "sie_Sie": "besoldeten"
+      },
+      "imperativ": {
+        "du": "Besolde!",
+        "ihr": "Besoldet!",
+        "Sie": "Besolden Sie!"
+      }
+    },
+    "partizip1": "besoldend",
+    "nominalisierung": "die Besoldung"
+  },
+  "wortnetz": {
+    "grundwort": "Sold",
+    "woerter": [
+      {
+        "wort": "das Gehalt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حقوق",
+          "en": "salary"
+        },
+        "id_ref": "nomen_gehalt"
+      },
+      {
+        "wort": "der Beamte",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کارمند دولت",
+          "en": "civil servant"
+        },
+        "id_ref": "nomen_beamte"
+      },
+      {
+        "wort": "der Lohn",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دستمزد",
+          "en": "wage"
+        },
+        "id_ref": "nomen_lohn"
+      },
+      {
+        "wort": "bezahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_bezahlen"
+      },
+      {
+        "wort": "die Besoldung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "حقوق (کارمند دولت)",
+          "en": "pay (of civil servants)"
+        },
+        "id_ref": "nomen_besoldung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,195 @@
+{
+  "schema": "3.0",
+  "id": "verb_beschuldigen",
+  "wort": "beschuldigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "متهم کردن"
+    ],
+    "en": [
+      "to accuse",
+      "to blame"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Recht",
+    "Gesellschaft"
+  ],
+  "ipa": "bəˈʃʊldɪɡn̩",
+  "anmerkung": "Untrennbar, regelmäßig (beschuldigte, beschuldigt). Mit Genitiv (gehoben) oder mit dass-Satz.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er beschuldigt seinen Bruder.",
+      "uebersetzung": {
+        "fa": "او برادرش را مقصر می‌داند.",
+        "en": "He blames his brother."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Nachbarin beschuldigte ihn, dass er ihr Auto beschädigt habe.",
+      "uebersetzung": {
+        "fa": "زن همسایه او را متهم کرد که ماشینش را خراب کرده است.",
+        "en": "The neighbour accused him of having damaged her car."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anklagen",
+      "uebersetzung": {
+        "fa": "متهم کردن (در دادگاه)",
+        "en": "to charge"
+      }
+    },
+    {
+      "wort": "bezichtigen",
+      "uebersetzung": {
+        "fa": "متهم کردن",
+        "en": "to accuse"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "entlasten",
+      "uebersetzung": {
+        "fa": "تبرئه کردن",
+        "en": "to exonerate"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Schuld (تقصیر) + -igen",
+    "en": "be- + Schuld (guilt) + -igen"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden + Gen beschuldigen",
+        "bedeutung": "jemandem eine Schuld oder Tat vorwerfen",
+        "beispiel": "Man beschuldigt ihn des Diebstahls.",
+        "uebersetzung": {
+          "fa": "او را به دزدی متهم می‌کنند.",
+          "en": "He is accused of theft."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beschuldigen",
+      "praeteritum": "beschuldigte",
+      "partizip2": "beschuldigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beschuldige",
+        "du": "beschuldigst",
+        "er_sie_es": "beschuldigt",
+        "wir": "beschuldigen",
+        "ihr": "beschuldigt",
+        "sie_Sie": "beschuldigen"
+      },
+      "praeteritum": {
+        "ich": "beschuldigte",
+        "du": "beschuldigtest",
+        "er_sie_es": "beschuldigte",
+        "wir": "beschuldigten",
+        "ihr": "beschuldigtet",
+        "sie_Sie": "beschuldigten"
+      },
+      "konjunktiv1": {
+        "ich": "beschuldige",
+        "du": "beschuldigest",
+        "er_sie_es": "beschuldige",
+        "wir": "beschuldigen",
+        "ihr": "beschuldiget",
+        "sie_Sie": "beschuldigen"
+      },
+      "konjunktiv2": {
+        "ich": "beschuldigte",
+        "du": "beschuldigtest",
+        "er_sie_es": "beschuldigte",
+        "wir": "beschuldigten",
+        "ihr": "beschuldigtet",
+        "sie_Sie": "beschuldigten"
+      },
+      "imperativ": {
+        "du": "Beschuldige!",
+        "ihr": "Beschuldigt!",
+        "Sie": "Beschuldigen Sie!"
+      }
+    },
+    "partizip1": "beschuldigend",
+    "nominalisierung": "die Beschuldigung"
+  },
+  "wortnetz": {
+    "grundwort": "Schuld",
+    "woerter": [
+      {
+        "wort": "die Schuld",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تقصیر",
+          "en": "guilt"
+        },
+        "id_ref": "nomen_schuld"
+      },
+      {
+        "wort": "schuldig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مقصر",
+          "en": "guilty"
+        },
+        "id_ref": "adjektiv_schuldig"
+      },
+      {
+        "wort": "der Vorwurf",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اتهام، سرزنش",
+          "en": "reproach"
+        },
+        "id_ref": "nomen_vorwurf"
+      },
+      {
+        "wort": "anklagen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "متهم کردن",
+          "en": "to charge"
+        },
+        "id_ref": "verb_anklagen"
+      },
+      {
+        "wort": "die Beschuldigung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اتهام",
+          "en": "accusation"
+        },
+        "id_ref": "nomen_beschuldigung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

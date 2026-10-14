@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_besichtigen",
+  "wort": "besichtigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بازدید کردن، دیدن (جاهای دیدنی)"
+    ],
+    "en": [
+      "to visit",
+      "to view",
+      "to see the sights"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Reisen",
+    "Wohnen"
+  ],
+  "ipa": "bəˈzɪçtɪɡn̩",
+  "anmerkung": "Untrennbar, regelmäßig (besichtigte, besichtigt).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Morgen besichtigen wir das Schloss.",
+      "uebersetzung": {
+        "fa": "فردا از قصر بازدید می‌کنیم.",
+        "en": "Tomorrow we are visiting the castle."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bevor wir den Mietvertrag unterschreiben, möchten wir die Wohnung noch einmal besichtigen.",
+      "uebersetzung": {
+        "fa": "قبل از اینکه قرارداد اجاره را امضا کنیم، می‌خواهیم آپارتمان را یک بار دیگر ببینیم.",
+        "en": "Before we sign the lease, we would like to view the flat once more."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anschauen",
+      "uebersetzung": {
+        "fa": "نگاه کردن، دیدن",
+        "en": "to look at"
+      }
+    },
+    {
+      "wort": "besuchen",
+      "uebersetzung": {
+        "fa": "بازدید کردن",
+        "en": "to visit"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Sicht (دید) + -igen",
+    "en": "be- + Sicht (view) + -igen"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "besichtigen",
+      "praeteritum": "besichtigte",
+      "partizip2": "besichtigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "besichtige",
+        "du": "besichtigst",
+        "er_sie_es": "besichtigt",
+        "wir": "besichtigen",
+        "ihr": "besichtigt",
+        "sie_Sie": "besichtigen"
+      },
+      "praeteritum": {
+        "ich": "besichtigte",
+        "du": "besichtigtest",
+        "er_sie_es": "besichtigte",
+        "wir": "besichtigten",
+        "ihr": "besichtigtet",
+        "sie_Sie": "besichtigten"
+      },
+      "konjunktiv1": {
+        "ich": "besichtige",
+        "du": "besichtigest",
+        "er_sie_es": "besichtige",
+        "wir": "besichtigen",
+        "ihr": "besichtiget",
+        "sie_Sie": "besichtigen"
+      },
+      "konjunktiv2": {
+        "ich": "besichtigte",
+        "du": "besichtigtest",
+        "er_sie_es": "besichtigte",
+        "wir": "besichtigten",
+        "ihr": "besichtigtet",
+        "sie_Sie": "besichtigten"
+      },
+      "imperativ": {
+        "du": "Besichtige!",
+        "ihr": "Besichtigt!",
+        "Sie": "Besichtigen Sie!"
+      }
+    },
+    "partizip1": "besichtigend",
+    "nominalisierung": "die Besichtigung"
+  },
+  "wortnetz": {
+    "grundwort": "Sicht",
+    "woerter": [
+      {
+        "wort": "die Sehenswürdigkeit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جای دیدنی",
+          "en": "sight"
+        },
+        "id_ref": "nomen_sehenswuerdigkeit"
+      },
+      {
+        "wort": "besuchen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دیدار کردن",
+          "en": "to visit"
+        },
+        "id_ref": "verb_besuchen"
+      },
+      {
+        "wort": "die Führung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تور با راهنما",
+          "en": "guided tour"
+        },
+        "id_ref": "nomen_fuehrung"
+      },
+      {
+        "wort": "das Museum",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "موزه",
+          "en": "museum"
+        },
+        "id_ref": "nomen_museum"
+      },
+      {
+        "wort": "die Besichtigung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بازدید",
+          "en": "tour, viewing"
+        },
+        "id_ref": "nomen_besichtigung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
