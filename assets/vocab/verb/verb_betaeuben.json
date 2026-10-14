@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_betaeuben",
+  "wort": "betäuben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بیهوش کردن، بی‌حس کردن؛ گیج کردن"
+    ],
+    "en": [
+      "to anaesthetize",
+      "to stun",
+      "to numb"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Medizin"
+  ],
+  "ipa": "bəˈtɔɪ̯bn̩",
+  "anmerkung": "Untrennbar, regelmäßig (betäubte, betäubt). Örtlich betäuben = lokal anästhesieren.",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Zahnarzt betäubt den Zahn.",
+      "uebersetzung": {
+        "fa": "دندان‌پزشک دندان را بی‌حس می‌کند.",
+        "en": "The dentist numbs the tooth."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Patient wird betäubt, bevor die Operation beginnt.",
+      "uebersetzung": {
+        "fa": "بیمار قبل از شروع عمل بیهوش می‌شود.",
+        "en": "The patient is anaesthetized before the operation begins."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "narkotisieren",
+      "uebersetzung": {
+        "fa": "بیهوش کردن",
+        "en": "to anaesthetize"
+      }
+    },
+    {
+      "wort": "anästhesieren",
+      "uebersetzung": {
+        "fa": "بیهوش کردن",
+        "en": "to anaesthetize"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + taub (کر، بی‌حس) + -en",
+    "en": "be- + taub (deaf, numb) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas/jemanden mit + Dat betäuben",
+        "bedeutung": "mit einem Mittel schmerzunempfindlich oder bewusstlos machen",
+        "beispiel": "Der Tierarzt betäubt den Hund mit einer Spritze.",
+        "uebersetzung": {
+          "fa": "دامپزشک سگ را با یک آمپول بیهوش می‌کند.",
+          "en": "The vet sedates the dog with an injection."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "betäuben",
+      "praeteritum": "betäubte",
+      "partizip2": "betäubt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "betäube",
+        "du": "betäubst",
+        "er_sie_es": "betäubt",
+        "wir": "betäuben",
+        "ihr": "betäubt",
+        "sie_Sie": "betäuben"
+      },
+      "praeteritum": {
+        "ich": "betäubte",
+        "du": "betäubtest",
+        "er_sie_es": "betäubte",
+        "wir": "betäubten",
+        "ihr": "betäubtet",
+        "sie_Sie": "betäubten"
+      },
+      "konjunktiv1": {
+        "ich": "betäube",
+        "du": "betäubest",
+        "er_sie_es": "betäube",
+        "wir": "betäuben",
+        "ihr": "betäubet",
+        "sie_Sie": "betäuben"
+      },
+      "konjunktiv2": {
+        "ich": "betäubte",
+        "du": "betäubtest",
+        "er_sie_es": "betäubte",
+        "wir": "betäubten",
+        "ihr": "betäubtet",
+        "sie_Sie": "betäubten"
+      },
+      "imperativ": {
+        "du": "Betäube!",
+        "ihr": "Betäubt!",
+        "Sie": "Betäuben Sie!"
+      }
+    },
+    "partizip1": "betäubend",
+    "nominalisierung": "die Betäubung"
+  },
+  "wortnetz": {
+    "grundwort": "taub",
+    "woerter": [
+      {
+        "wort": "die Narkose",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیهوشی",
+          "en": "anaesthesia"
+        },
+        "id_ref": "nomen_narkose"
+      },
+      {
+        "wort": "die Spritze",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آمپول",
+          "en": "injection"
+        },
+        "id_ref": "nomen_spritze"
+      },
+      {
+        "wort": "der Schmerz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "درد",
+          "en": "pain"
+        },
+        "id_ref": "nomen_schmerz"
+      },
+      {
+        "wort": "taub",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کر، بی‌حس",
+          "en": "deaf, numb"
+        },
+        "id_ref": "adjektiv_taub"
+      },
+      {
+        "wort": "die Betäubung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بیهوشی، بی‌حسی",
+          "en": "anaesthesia"
+        },
+        "id_ref": "nomen_betaeubung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_betasten",
+  "wort": "betasten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "لمس کردن، با دست وارسی کردن"
+    ],
+    "en": [
+      "to feel",
+      "to palpate",
+      "to touch"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Körper",
+    "Gesundheit"
+  ],
+  "ipa": "bəˈtastn̩",
+  "anmerkung": "Untrennbar, regelmäßig (betastete, betastet). Medizinisch: abtasten.",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Arzt betastet den Bauch.",
+      "uebersetzung": {
+        "fa": "پزشک شکم را با دست معاینه می‌کند.",
+        "en": "The doctor feels the abdomen."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Dunkeln betastete sie die Wand, bis sie den Lichtschalter gefunden hatte.",
+      "uebersetzung": {
+        "fa": "در تاریکی دیوار را لمس کرد تا کلید برق را پیدا کرد.",
+        "en": "In the dark she felt along the wall until she had found the light switch."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abtasten",
+      "uebersetzung": {
+        "fa": "با دست معاینه کردن",
+        "en": "to palpate"
+      }
+    },
+    {
+      "wort": "berühren",
+      "uebersetzung": {
+        "fa": "لمس کردن",
+        "en": "to touch"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + tasten (لمس کردن)",
+    "en": "be- + tasten (to feel)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "betasten",
+      "praeteritum": "betastete",
+      "partizip2": "betastet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "betaste",
+        "du": "betastest",
+        "er_sie_es": "betastet",
+        "wir": "betasten",
+        "ihr": "betastet",
+        "sie_Sie": "betasten"
+      },
+      "praeteritum": {
+        "ich": "betastete",
+        "du": "betastetest",
+        "er_sie_es": "betastete",
+        "wir": "betasteten",
+        "ihr": "betastetet",
+        "sie_Sie": "betasteten"
+      },
+      "konjunktiv1": {
+        "ich": "betaste",
+        "du": "betastest",
+        "er_sie_es": "betaste",
+        "wir": "betasten",
+        "ihr": "betastet",
+        "sie_Sie": "betasten"
+      },
+      "konjunktiv2": {
+        "ich": "betastete",
+        "du": "betastetest",
+        "er_sie_es": "betastete",
+        "wir": "betasteten",
+        "ihr": "betastetet",
+        "sie_Sie": "betasteten"
+      },
+      "imperativ": {
+        "du": "Betaste!",
+        "ihr": "Betastet!",
+        "Sie": "Betasten Sie!"
+      }
+    },
+    "partizip1": "betastend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Tasten",
+    "woerter": [
+      {
+        "wort": "berühren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لمس کردن",
+          "en": "to touch"
+        },
+        "id_ref": "verb_beruehren"
+      },
+      {
+        "wort": "tasten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کورمال گشتن",
+          "en": "to grope"
+        },
+        "id_ref": "verb_tasten"
+      },
+      {
+        "wort": "abtasten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "با دست معاینه کردن",
+          "en": "to palpate"
+        },
+        "id_ref": "verb_abtasten"
+      },
+      {
+        "wort": "die Hand",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دست",
+          "en": "hand"
+        },
+        "id_ref": "nomen_hand"
+      },
+      {
+        "wort": "der Tastsinn",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "حس لامسه",
+          "en": "sense of touch"
+        },
+        "id_ref": "nomen_tastsinn"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

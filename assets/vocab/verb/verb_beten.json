@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_beten",
+  "wort": "beten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دعا کردن، نماز خواندن"
+    ],
+    "en": [
+      "to pray"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Religion"
+  ],
+  "ipa": "ˈbeːtn̩",
+  "anmerkung": "Regelmäßig (betete, gebetet). «be-» gehört hier zum Stamm.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Oma betet jeden Abend.",
+      "uebersetzung": {
+        "fa": "مادربزرگ هر شب دعا می‌کند.",
+        "en": "Grandma prays every evening."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Sie betete, dass ihr Sohn die schwere Operation überlebt.",
+      "uebersetzung": {
+        "fa": "او دعا کرد که پسرش از آن عمل سخت جان سالم به در ببرد.",
+        "en": "She prayed that her son would survive the difficult operation."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ein Gebet sprechen",
+      "uebersetzung": {
+        "fa": "دعا خواندن",
+        "en": "to say a prayer"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "für + Akk beten",
+        "bedeutung": "Gott um Hilfe für jemanden bitten",
+        "beispiel": "Wir beten für die Opfer des Erdbebens.",
+        "uebersetzung": {
+          "fa": "برای قربانیان زلزله دعا می‌کنیم.",
+          "en": "We pray for the victims of the earthquake."
+        }
+      },
+      {
+        "muster": "zu + Dat beten",
+        "bedeutung": "sich im Gebet an Gott wenden",
+        "beispiel": "Er betet zu Gott.",
+        "uebersetzung": {
+          "fa": "او به درگاه خدا دعا می‌کند.",
+          "en": "He prays to God."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beten",
+      "praeteritum": "betete",
+      "partizip2": "gebetet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bete",
+        "du": "betest",
+        "er_sie_es": "betet",
+        "wir": "beten",
+        "ihr": "betet",
+        "sie_Sie": "beten"
+      },
+      "praeteritum": {
+        "ich": "betete",
+        "du": "betetest",
+        "er_sie_es": "betete",
+        "wir": "beteten",
+        "ihr": "betetet",
+        "sie_Sie": "beteten"
+      },
+      "konjunktiv1": {
+        "ich": "bete",
+        "du": "betest",
+        "er_sie_es": "bete",
+        "wir": "beten",
+        "ihr": "betet",
+        "sie_Sie": "beten"
+      },
+      "konjunktiv2": {
+        "ich": "betete",
+        "du": "betetest",
+        "er_sie_es": "betete",
+        "wir": "beteten",
+        "ihr": "betetet",
+        "sie_Sie": "beteten"
+      },
+      "imperativ": {
+        "du": "Bete!",
+        "ihr": "Betet!",
+        "Sie": "Beten Sie!"
+      }
+    },
+    "partizip1": "betend",
+    "nominalisierung": "das Beten"
+  },
+  "wortnetz": {
+    "grundwort": "Gebet",
+    "woerter": [
+      {
+        "wort": "das Gebet",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دعا، نماز",
+          "en": "prayer"
+        },
+        "id_ref": "nomen_gebet"
+      },
+      {
+        "wort": "die Kirche",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کلیسا",
+          "en": "church"
+        },
+        "id_ref": "nomen_kirche"
+      },
+      {
+        "wort": "die Moschee",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مسجد",
+          "en": "mosque"
+        },
+        "id_ref": "nomen_moschee"
+      },
+      {
+        "wort": "der Glaube",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ایمان",
+          "en": "faith"
+        },
+        "id_ref": "nomen_glaube"
+      },
+      {
+        "wort": "bitten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خواهش کردن",
+          "en": "to ask"
+        },
+        "id_ref": "verb_bitten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

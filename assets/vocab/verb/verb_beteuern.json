@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_beteuern",
+  "wort": "beteuern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "با تأکید اطمینان دادن، قسم خوردن (که)"
+    ],
+    "en": [
+      "to assert",
+      "to protest (one’s innocence)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation",
+    "Recht"
+  ],
+  "ipa": "bəˈtɔɪ̯ɐn",
+  "anmerkung": "Untrennbar, regelmäßig (beteuerte, beteuert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er beteuert seine Unschuld.",
+      "uebersetzung": {
+        "fa": "او با تأکید بر بی‌گناهی‌اش پافشاری می‌کند.",
+        "en": "He protests his innocence."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie beteuerte immer wieder, dass sie von dem Geld nichts gewusst habe.",
+      "uebersetzung": {
+        "fa": "او بارها با تأکید گفت که از آن پول چیزی نمی‌دانسته است.",
+        "en": "She asserted again and again that she had known nothing about the money."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "versichern",
+      "uebersetzung": {
+        "fa": "اطمینان دادن",
+        "en": "to assure"
+      }
+    },
+    {
+      "wort": "schwören",
+      "uebersetzung": {
+        "fa": "قسم خوردن",
+        "en": "to swear"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + teuer (عزیز، گران؛ کهن: ارزشمند) + -n",
+    "en": "be- + teuer (dear, old: valuable) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "beteuern",
+      "praeteritum": "beteuerte",
+      "partizip2": "beteuert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beteuere",
+        "du": "beteuerst",
+        "er_sie_es": "beteuert",
+        "wir": "beteuern",
+        "ihr": "beteuert",
+        "sie_Sie": "beteuern"
+      },
+      "praeteritum": {
+        "ich": "beteuerte",
+        "du": "beteuertest",
+        "er_sie_es": "beteuerte",
+        "wir": "beteuerten",
+        "ihr": "beteuertet",
+        "sie_Sie": "beteuerten"
+      },
+      "konjunktiv1": {
+        "ich": "beteuere",
+        "du": "beteuerest",
+        "er_sie_es": "beteuere",
+        "wir": "beteuern",
+        "ihr": "beteueret",
+        "sie_Sie": "beteuern"
+      },
+      "konjunktiv2": {
+        "ich": "beteuerte",
+        "du": "beteuertest",
+        "er_sie_es": "beteuerte",
+        "wir": "beteuerten",
+        "ihr": "beteuertet",
+        "sie_Sie": "beteuerten"
+      },
+      "imperativ": {
+        "du": "Beteuere!",
+        "ihr": "Beteuert!",
+        "Sie": "Beteuern Sie!"
+      }
+    },
+    "partizip1": "beteuernd",
+    "nominalisierung": "die Beteuerung"
+  },
+  "wortnetz": {
+    "grundwort": "teuer",
+    "woerter": [
+      {
+        "wort": "versichern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اطمینان دادن؛ بیمه کردن",
+          "en": "to assure; to insure"
+        },
+        "id_ref": "verb_versichern"
+      },
+      {
+        "wort": "schwören",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قسم خوردن",
+          "en": "to swear"
+        },
+        "id_ref": "verb_schwoeren"
+      },
+      {
+        "wort": "die Unschuld",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بی‌گناهی",
+          "en": "innocence"
+        },
+        "id_ref": "nomen_unschuld"
+      },
+      {
+        "wort": "behaupten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ادعا کردن",
+          "en": "to claim"
+        },
+        "id_ref": "verb_behaupten"
+      },
+      {
+        "wort": "die Beteuerung",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "تأکید، سوگند",
+          "en": "assurance"
+        },
+        "id_ref": "nomen_beteuerung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

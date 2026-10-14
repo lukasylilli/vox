@@ -1,0 +1,197 @@
+{
+  "schema": "3.0",
+  "id": "verb_beteiligen",
+  "wort": "beteiligen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شرکت دادن، سهیم کردن؛ (در چیزی) شرکت کردن"
+    ],
+    "en": [
+      "to involve",
+      "to give a share",
+      "to take part"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Gesellschaft"
+  ],
+  "ipa": "bəˈtaɪ̯lɪɡn̩",
+  "anmerkung": "Untrennbar, regelmäßig (beteiligte, beteiligt). Meist reflexiv: sich an etwas beteiligen.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Alle beteiligen sich am Spiel.",
+      "uebersetzung": {
+        "fa": "همه در بازی شرکت می‌کنند.",
+        "en": "Everyone takes part in the game."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Firma beteiligt ihre Mitarbeiter am Gewinn, wenn das Jahr gut gelaufen ist.",
+      "uebersetzung": {
+        "fa": "شرکت کارمندانش را در سود سهیم می‌کند، اگر سال خوبی بوده باشد.",
+        "en": "The company gives its employees a share of the profit if the year has gone well."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "teilnehmen",
+      "uebersetzung": {
+        "fa": "شرکت کردن",
+        "en": "to take part"
+      }
+    },
+    {
+      "wort": "mitmachen",
+      "uebersetzung": {
+        "fa": "همراهی کردن، شرکت کردن",
+        "en": "to join in"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Teil (بخش، سهم) + -igen",
+    "en": "be- + Teil (part, share) + -igen"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich an + Dat beteiligen",
+        "bedeutung": "bei etwas mitmachen",
+        "beispiel": "Viele Eltern haben sich an der Aktion beteiligt.",
+        "uebersetzung": {
+          "fa": "خیلی از والدین در این برنامه شرکت کردند.",
+          "en": "Many parents took part in the campaign."
+        }
+      },
+      {
+        "muster": "jemanden an + Dat beteiligen",
+        "bedeutung": "jemandem einen Anteil an etwas geben",
+        "beispiel": "Er beteiligt seinen Bruder an den Kosten.",
+        "uebersetzung": {
+          "fa": "او برادرش را در هزینه‌ها شریک می‌کند.",
+          "en": "He has his brother share the costs."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beteiligen",
+      "praeteritum": "beteiligte",
+      "partizip2": "beteiligt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beteilige",
+        "du": "beteiligst",
+        "er_sie_es": "beteiligt",
+        "wir": "beteiligen",
+        "ihr": "beteiligt",
+        "sie_Sie": "beteiligen"
+      },
+      "praeteritum": {
+        "ich": "beteiligte",
+        "du": "beteiligtest",
+        "er_sie_es": "beteiligte",
+        "wir": "beteiligten",
+        "ihr": "beteiligtet",
+        "sie_Sie": "beteiligten"
+      },
+      "konjunktiv1": {
+        "ich": "beteilige",
+        "du": "beteiligest",
+        "er_sie_es": "beteilige",
+        "wir": "beteiligen",
+        "ihr": "beteiliget",
+        "sie_Sie": "beteiligen"
+      },
+      "konjunktiv2": {
+        "ich": "beteiligte",
+        "du": "beteiligtest",
+        "er_sie_es": "beteiligte",
+        "wir": "beteiligten",
+        "ihr": "beteiligtet",
+        "sie_Sie": "beteiligten"
+      },
+      "imperativ": {
+        "du": "Beteilige!",
+        "ihr": "Beteiligt!",
+        "Sie": "Beteiligen Sie!"
+      }
+    },
+    "partizip1": "beteiligend",
+    "nominalisierung": "die Beteiligung"
+  },
+  "wortnetz": {
+    "grundwort": "Teil",
+    "woerter": [
+      {
+        "wort": "teilnehmen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شرکت کردن",
+          "en": "to take part"
+        },
+        "id_ref": "verb_teilnehmen"
+      },
+      {
+        "wort": "der Teil",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بخش",
+          "en": "part"
+        },
+        "id_ref": "nomen_teil"
+      },
+      {
+        "wort": "mitmachen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "همراهی کردن",
+          "en": "to join in"
+        },
+        "id_ref": "verb_mitmachen"
+      },
+      {
+        "wort": "beteiligt",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "درگیر، سهیم",
+          "en": "involved"
+        },
+        "id_ref": "adjektiv_beteiligt"
+      },
+      {
+        "wort": "die Beteiligung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مشارکت",
+          "en": "participation"
+        },
+        "id_ref": "nomen_beteiligung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

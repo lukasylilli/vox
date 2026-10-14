@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_betanken",
+  "wort": "betanken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سوخت زدن به، بنزین زدن"
+    ],
+    "en": [
+      "to refuel",
+      "to fill up"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr",
+    "Technik"
+  ],
+  "ipa": "bəˈtaŋkn̩",
+  "anmerkung": "Untrennbar, regelmäßig (betankte, betankt). Im Alltag meist: tanken.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir betanken das Auto.",
+      "uebersetzung": {
+        "fa": "به ماشین بنزین می‌زنیم.",
+        "en": "We are filling up the car."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Flugzeug wird betankt, während die Passagiere noch einsteigen.",
+      "uebersetzung": {
+        "fa": "هواپیما سوخت‌گیری می‌کند، در حالی که مسافران هنوز سوار می‌شوند.",
+        "en": "The plane is being refuelled while the passengers are still boarding."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "tanken",
+      "uebersetzung": {
+        "fa": "بنزین زدن",
+        "en": "to fill up"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Tank (مخزن) + -en",
+    "en": "be- + Tank (tank) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas mit + Dat betanken",
+        "bedeutung": "etwas mit einem bestimmten Kraftstoff füllen",
+        "beispiel": "Der Bus wird mit Wasserstoff betankt.",
+        "uebersetzung": {
+          "fa": "به اتوبوس سوخت هیدروژن زده می‌شود.",
+          "en": "The bus is refuelled with hydrogen."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "betanken",
+      "praeteritum": "betankte",
+      "partizip2": "betankt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "betanke",
+        "du": "betankst",
+        "er_sie_es": "betankt",
+        "wir": "betanken",
+        "ihr": "betankt",
+        "sie_Sie": "betanken"
+      },
+      "praeteritum": {
+        "ich": "betankte",
+        "du": "betanktest",
+        "er_sie_es": "betankte",
+        "wir": "betankten",
+        "ihr": "betanktet",
+        "sie_Sie": "betankten"
+      },
+      "konjunktiv1": {
+        "ich": "betanke",
+        "du": "betankest",
+        "er_sie_es": "betanke",
+        "wir": "betanken",
+        "ihr": "betanket",
+        "sie_Sie": "betanken"
+      },
+      "konjunktiv2": {
+        "ich": "betankte",
+        "du": "betanktest",
+        "er_sie_es": "betankte",
+        "wir": "betankten",
+        "ihr": "betanktet",
+        "sie_Sie": "betankten"
+      },
+      "imperativ": {
+        "du": "Betanke!",
+        "ihr": "Betankt!",
+        "Sie": "Betanken Sie!"
+      }
+    },
+    "partizip1": "betankend",
+    "nominalisierung": "die Betankung"
+  },
+  "wortnetz": {
+    "grundwort": "Tank",
+    "woerter": [
+      {
+        "wort": "tanken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بنزین زدن",
+          "en": "to fill up"
+        },
+        "id_ref": "verb_tanken"
+      },
+      {
+        "wort": "die Tankstelle",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پمپ بنزین",
+          "en": "petrol station"
+        },
+        "id_ref": "nomen_tankstelle"
+      },
+      {
+        "wort": "das Benzin",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بنزین",
+          "en": "petrol"
+        },
+        "id_ref": "nomen_benzin"
+      },
+      {
+        "wort": "der Tank",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "باک، مخزن",
+          "en": "tank"
+        },
+        "id_ref": "nomen_tank"
+      },
+      {
+        "wort": "der Diesel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گازوئیل",
+          "en": "diesel"
+        },
+        "id_ref": "nomen_diesel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

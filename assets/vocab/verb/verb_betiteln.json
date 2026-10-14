@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_betiteln",
+  "wort": "betiteln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "عنوان دادن، نامیدن (اغلب با لقبی)"
+    ],
+    "en": [
+      "to title",
+      "to call (someone something)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation",
+    "Medien"
+  ],
+  "ipa": "bəˈtiːtl̩n",
+  "anmerkung": "Untrennbar, regelmäßig (betitelte, betitelt).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wie betitelst du den Text?",
+      "uebersetzung": {
+        "fa": "برای متن چه عنوانی می‌گذاری؟",
+        "en": "What title are you giving the text?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Zeitung betitelte den Artikel so, dass jeder ihn sofort lesen wollte.",
+      "uebersetzung": {
+        "fa": "روزنامه طوری برای مقاله عنوان گذاشت که همه فوراً خواستند آن را بخوانند.",
+        "en": "The newspaper titled the article in such a way that everyone immediately wanted to read it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nennen",
+      "uebersetzung": {
+        "fa": "نامیدن",
+        "en": "to call"
+      }
+    },
+    {
+      "wort": "bezeichnen",
+      "uebersetzung": {
+        "fa": "نامیدن",
+        "en": "to designate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Titel (عنوان) + -n",
+    "en": "be- + Titel (title) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden als + Akk betiteln",
+        "bedeutung": "jemanden mit einer (oft abwertenden) Bezeichnung nennen",
+        "beispiel": "Er hat seinen Kollegen als Faulpelz betitelt.",
+        "uebersetzung": {
+          "fa": "او همکارش را تنبل خطاب کرد.",
+          "en": "He called his colleague a lazybones."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "betiteln",
+      "praeteritum": "betitelte",
+      "partizip2": "betitelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "betitle",
+        "du": "betitelst",
+        "er_sie_es": "betitelt",
+        "wir": "betiteln",
+        "ihr": "betitelt",
+        "sie_Sie": "betiteln"
+      },
+      "praeteritum": {
+        "ich": "betitelte",
+        "du": "betiteltest",
+        "er_sie_es": "betitelte",
+        "wir": "betitelten",
+        "ihr": "betiteltet",
+        "sie_Sie": "betitelten"
+      },
+      "konjunktiv1": {
+        "ich": "betitle",
+        "du": "betitlest",
+        "er_sie_es": "betitle",
+        "wir": "betiteln",
+        "ihr": "betitlet",
+        "sie_Sie": "betiteln"
+      },
+      "konjunktiv2": {
+        "ich": "betitelte",
+        "du": "betiteltest",
+        "er_sie_es": "betitelte",
+        "wir": "betitelten",
+        "ihr": "betiteltet",
+        "sie_Sie": "betitelten"
+      },
+      "imperativ": {
+        "du": "Betitle!",
+        "ihr": "Betitelt!",
+        "Sie": "Betiteln Sie!"
+      }
+    },
+    "partizip1": "betitelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Titel",
+    "woerter": [
+      {
+        "wort": "der Titel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عنوان",
+          "en": "title"
+        },
+        "id_ref": "nomen_titel"
+      },
+      {
+        "wort": "die Überschrift",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تیتر",
+          "en": "headline"
+        },
+        "id_ref": "nomen_ueberschrift"
+      },
+      {
+        "wort": "nennen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نامیدن",
+          "en": "to call"
+        },
+        "id_ref": "verb_nennen"
+      },
+      {
+        "wort": "bezeichnen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نامیدن",
+          "en": "to designate"
+        },
+        "id_ref": "verb_bezeichnen"
+      },
+      {
+        "wort": "der Artikel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مقاله",
+          "en": "article"
+        },
+        "id_ref": "nomen_artikel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

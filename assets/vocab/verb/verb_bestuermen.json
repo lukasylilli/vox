@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_bestuermen",
+  "wort": "bestürmen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با سؤال یا درخواست) محاصره کردن، هجوم آوردن به"
+    ],
+    "en": [
+      "to bombard",
+      "to storm"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "bəˈʃtʏʁmən",
+  "anmerkung": "Untrennbar, regelmäßig (bestürmte, bestürmt).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kinder bestürmen den Opa.",
+      "uebersetzung": {
+        "fa": "بچه‌ها دور پدربزرگ را می‌گیرند.",
+        "en": "The children besiege their grandpa."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Spiel bestürmten die Journalisten den Trainer, weil alle wissen wollten, warum er gehen muss.",
+      "uebersetzung": {
+        "fa": "بعد از بازی خبرنگاران به مربی هجوم آوردند، چون همه می‌خواستند بدانند چرا باید برود.",
+        "en": "After the match the journalists besieged the coach because everyone wanted to know why he has to leave."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bedrängen",
+      "uebersetzung": {
+        "fa": "تحت فشار گذاشتن",
+        "en": "to press"
+      }
+    },
+    {
+      "wort": "überhäufen",
+      "uebersetzung": {
+        "fa": "غرق کردن (در چیزی)",
+        "en": "to swamp"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + stürmen (هجوم بردن)",
+    "en": "be- + stürmen (to storm)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden mit + Dat bestürmen",
+        "bedeutung": "jemanden heftig mit Fragen oder Bitten bedrängen",
+        "beispiel": "Die Fans bestürmten die Sängerin mit Fragen.",
+        "uebersetzung": {
+          "fa": "هواداران خواننده را سؤال‌پیچ کردند.",
+          "en": "The fans bombarded the singer with questions."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bestürmen",
+      "praeteritum": "bestürmte",
+      "partizip2": "bestürmt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bestürme",
+        "du": "bestürmst",
+        "er_sie_es": "bestürmt",
+        "wir": "bestürmen",
+        "ihr": "bestürmt",
+        "sie_Sie": "bestürmen"
+      },
+      "praeteritum": {
+        "ich": "bestürmte",
+        "du": "bestürmtest",
+        "er_sie_es": "bestürmte",
+        "wir": "bestürmten",
+        "ihr": "bestürmtet",
+        "sie_Sie": "bestürmten"
+      },
+      "konjunktiv1": {
+        "ich": "bestürme",
+        "du": "bestürmest",
+        "er_sie_es": "bestürme",
+        "wir": "bestürmen",
+        "ihr": "bestürmet",
+        "sie_Sie": "bestürmen"
+      },
+      "konjunktiv2": {
+        "ich": "bestürmte",
+        "du": "bestürmtest",
+        "er_sie_es": "bestürmte",
+        "wir": "bestürmten",
+        "ihr": "bestürmtet",
+        "sie_Sie": "bestürmten"
+      },
+      "imperativ": {
+        "du": "Bestürme!",
+        "ihr": "Bestürmt!",
+        "Sie": "Bestürmen Sie!"
+      }
+    },
+    "partizip1": "bestürmend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Sturm",
+    "woerter": [
+      {
+        "wort": "der Sturm",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "طوفان",
+          "en": "storm"
+        },
+        "id_ref": "nomen_sturm"
+      },
+      {
+        "wort": "stürmen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "هجوم بردن",
+          "en": "to storm"
+        },
+        "id_ref": "verb_stuermen"
+      },
+      {
+        "wort": "bedrängen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تحت فشار گذاشتن",
+          "en": "to press"
+        },
+        "id_ref": "verb_bedraengen"
+      },
+      {
+        "wort": "die Frage",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سؤال",
+          "en": "question"
+        },
+        "id_ref": "nomen_frage"
+      },
+      {
+        "wort": "die Bitte",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خواهش",
+          "en": "request"
+        },
+        "id_ref": "nomen_bitte"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
