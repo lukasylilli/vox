@@ -378,6 +378,7 @@ class AppL10n {
       'search_verb_praep'   : 'جستجو در افعال با حرف اضافه...',
       'search_unregelm'     : 'جستجو در افعال نامنظم...',
       'search_words'        : 'جستجو در واژگان...',
+      'such_form_etikett'   : 'شکل صرف‌شده',
       // Feature screen titles
       'konnektoren_title'   : 'کانکتورهای آلمانی',
       'dativ_title'         : 'افعال Dativ / Akkusativ',
@@ -1108,6 +1109,7 @@ class AppL10n {
       'search_verb_praep'   : 'Search verbs with prepositions...',
       'search_unregelm'     : 'Search irregular verbs...',
       'search_words'        : 'Search vocabulary...',
+      'such_form_etikett'   : 'Inflected form',
       'konnektoren_title'   : 'German Connectors',
       'dativ_title'         : 'Dativ / Akkusativ Verbs',
       'nvv_title'           : 'Nomen-Verb-Verbindungen',

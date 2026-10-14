@@ -75,6 +75,22 @@ final vokabNachFormProvider =
   return [for (final id in ids) if (nachId[id] != null) nachId[id]!];
 });
 
+/// Karten, zu denen die Suche [query] als GEBEUGTE FORM gehört («ging» ⇒
+/// gehen) — über alle Schlüssel der Anfrage (vokabSuchSchluessel). Eigener
+/// Provider (فاز F.1, 2026-10-14), damit «Alle Wörter» diese Treffer im
+/// Rang «Form» ganz oben einsortieren kann (such_rang.dart).
+final vokabFormTrefferProvider =
+    FutureProvider.family<List<Map<String, dynamic>>, String>(
+        (ref, query) async {
+  final q = query.trim();
+  if (q.isEmpty) return const [];
+  final ueberForm = <Map<String, dynamic>>[];
+  for (final s in vokabSuchSchluessel(q)) {
+    ueberForm.addAll(await ref.watch(vokabNachFormProvider(s).future));
+  }
+  return ueberForm;
+});
+
 /// Archiv-Suche MIT gebeugten Formen (Entscheidung Lukas, 2026-09-30):
 /// Wer eine gebeugte Form sucht («aalartige», «Häuser», «ging»), findet die
 /// Karte — für jede Wortart, deren Formen die Formen-Tabelle kennt
@@ -90,10 +106,7 @@ final vokabSucheProvider =
   final alle = await ref.watch(vokabIndexProvider.future);
   // Alle Schlüssel der Anfrage (ganze Anfrage, getrenntes Verb wieder
   // zusammengesetzt, einzelne Wörter — vokabSuchSchluessel).
-  final ueberForm = <Map<String, dynamic>>[];
-  for (final s in vokabSuchSchluessel(q)) {
-    ueberForm.addAll(await ref.watch(vokabNachFormProvider(s).future));
-  }
+  final ueberForm = await ref.watch(vokabFormTrefferProvider(q).future);
   return vokabTrefferZusammen(
       ueberForm, [for (final k in alle) if (vokabKartePasst(k, q)) k]);
 });

@@ -26,10 +26,15 @@ class WordListItem extends StatelessWidget {
     super.key,
     required this.word,
     required this.onTap,
+    this.hinweis,
   });
 
   final WordModel    word;
   final VoidCallback onTap;
+
+  /// Optionale Zusatzzeile (z. B. «Gebeugte Form: ging» in der Suche,
+  /// فاز F.1b) — vom Screen gebaut.
+  final Widget?      hinweis;
 
   @override
   Widget build(BuildContext context) {
@@ -99,6 +104,10 @@ class WordListItem extends StatelessWidget {
                             wert   : word.plural!,
                             style: theme.textTheme.bodySmall,
                           ),
+                        ],
+                        if (hinweis != null) ...[
+                          const SizedBox(height: 2),
+                          hinweis!,
                         ],
                       ],
                     ),

@@ -19,6 +19,7 @@ import '../../../core/l10n/app_l10n.dart';
 import '../../../core/models/word_model.dart';
 import '../../../core/widgets/filter_accordion.dart';
 import '../../../core/widgets/filter_chip_bar.dart';
+import '../../../core/widgets/deutsch_text.dart';
 import '../../../core/widgets/vox_search_field.dart';
 import '../../../core/wort/altwort_formen.dart';
 import '../../../core/wort/wort_form.dart';
@@ -26,6 +27,7 @@ import '../../vokabular/controllers/vokabular_controller.dart';
 import '../../vokabular/widgets/wort_actions.dart';
 import '../controllers/word_controller.dart';
 import '../data/altwort_karte.dart';
+import '../data/such_rang.dart';
 import '../widgets/word_list_item.dart';
 import '../../../core/widgets/vox_button.dart';
 
@@ -141,6 +143,10 @@ class _WortschatzListScreenState extends ConsumerState<WortschatzListScreen> {
     final kartenAsync = ref.watch(vokabIndexProvider);
     final sucheAsync =
         _query.isEmpty ? null : ref.watch(vokabSucheProvider(_query));
+    // Karten, deren gebeugte Form gesucht wurde («ging» ⇒ gehen) — Rang
+    // «Form» in such_rang.dart (فاز F.1).
+    final formAsync =
+        _query.isEmpty ? null : ref.watch(vokabFormTrefferProvider(_query));
     final activeMap  = _activeFilters;
 
     return Scaffold(
@@ -225,19 +231,23 @@ class _WortschatzListScreenState extends ConsumerState<WortschatzListScreen> {
                   list = list.where((w) =>
                       _selectedTypes.contains(w.wordType.name)).toList();
                 }
+                // Auch gebeugte Formen («empfahl» ⇒ empfehlen) — 2026-09-30.
+                final formSchluessel =
+                    _query.isEmpty ? '' : wortSchluessel(_query);
+                bool altIstForm(WordModel w) =>
+                    formSchluessel.isNotEmpty &&
+                    altwortFormen(
+                      wortart: w.wordType.name,
+                      german: w.german,
+                      plural: w.plural,
+                      conjugationJson: w.conjugationJson,
+                    ).contains(formSchluessel);
                 if (_query.isNotEmpty) {
-                  // Auch gebeugte Formen («empfahl» ⇒ empfehlen) — 2026-09-30.
-                  final formSchluessel = wortSchluessel(_query);
                   list = list.where((w) =>
                       w.german.toLowerCase().contains(_query) ||
                       w.meaningFa.contains(_query) ||
                       (w.meaningEn?.toLowerCase().contains(_query) ?? false) ||
-                      altwortFormen(
-                        wortart: w.wordType.name,
-                        german: w.german,
-                        plural: w.plural,
-                        conjugationJson: w.conjugationJson,
-                      ).contains(formSchluessel))
+                      altIstForm(w))
                       .toList();
                 }
 
@@ -255,12 +265,54 @@ class _WortschatzListScreenState extends ConsumerState<WortschatzListScreen> {
                         ]);
                 final karten = _gefilterteKarten(basis);
 
-                // Beide Quellen alphabetisch gemischt (Artikel zählt nicht).
-                final zeilen = <MapEntry<String, Object>>[
-                  for (final w in list) MapEntry(altwortLemma(w.german), w),
-                  for (final k in karten)
-                    MapEntry(altwortLemma(k['wort'] as String? ?? ''), k),
-                ]..sort((a, b) => a.key.compareTo(b.key));
+                // Ohne Suche: beide Quellen alphabetisch gemischt (Artikel
+                // zählt nicht). Mit Suche (فاز F.1, Lukas 2026-10-14): nach
+                // Nähe zur Suche — das gesuchte Wort bzw. die Grundform einer
+                // gebeugten Form («ging» ⇒ gehen) ganz oben (such_rang.dart).
+                final formIds = <String>{
+                  for (final k in formAsync?.valueOrNull ??
+                      const <Map<String, dynamic>>[])
+                    k['id'] as String? ?? '',
+                };
+                String wortVon(Object e) => e is WordModel
+                    ? e.german
+                    : ((e as Map<String, dynamic>)['wort'] as String? ?? '');
+                final List<SuchTreffer<Object>> zeilen;
+                if (_query.isEmpty) {
+                  zeilen = [
+                    for (final e in <Object>[...list, ...karten])
+                      SuchTreffer<Object>(
+                        wert: e,
+                        lemma: altwortLemma(wortVon(e)),
+                        rang: SuchRang.genau,
+                      ),
+                  ]..sort((a, b) => a.lemma.compareTo(b.lemma));
+                } else {
+                  zeilen = suchTrefferOrdnen<Object>(
+                    <Object>[...list, ...karten],
+                    query: _query,
+                    wort: wortVon,
+                    istForm: (e) => e is WordModel
+                        ? altIstForm(e)
+                        : formIds.contains(
+                            (e as Map<String, dynamic>)['id'] as String? ?? ''),
+                  );
+                }
+                // Zeile «Gebeugte Form: ging» unter Treffern aus einer Form.
+                final suchText = _searchCtrl.text.trim();
+                Widget? hinweisFuer(SuchTreffer<Object> t) =>
+                    t.rang == SuchRang.form && suchText.isNotEmpty
+                        ? DeutschMitEtikett(
+                            etikett: AppL10n.t(context, 'such_form_etikett'),
+                            wert: suchText,
+                            style: Theme.of(context)
+                                .textTheme
+                                .bodySmall
+                                ?.copyWith(
+                                  color: Theme.of(context).colorScheme.primary,
+                                ),
+                          )
+                        : null;
 
                 if (zeilen.isEmpty) {
                   return Center(
@@ -271,10 +323,12 @@ class _WortschatzListScreenState extends ConsumerState<WortschatzListScreen> {
                   padding    : const EdgeInsets.fromLTRB(0, 4, 0, 80),
                   itemCount  : zeilen.length,
                   itemBuilder: (_, i) {
-                    final eintrag = zeilen[i].value;
+                    final eintrag = zeilen[i].wert;
+                    final hinweis = hinweisFuer(zeilen[i]);
                     if (eintrag is WordModel) {
                       return WordListItem(
                         word : eintrag,
+                        hinweis: hinweis,
                         onTap: () => context.push(
                             AppRoutes.wortschatzWordDetail
                                 .replaceFirst(':wordId', '${eintrag.id}')),
@@ -283,6 +337,7 @@ class _WortschatzListScreenState extends ConsumerState<WortschatzListScreen> {
                     final karte = eintrag as Map<String, dynamic>;
                     return WortCard(
                       card    : karte,
+                      hinweis : hinweis,
                       trailing: WortActions(card: karte, kompakt: true),
                       onTap   : () => context.push(AppRoutes
                           .vokabularWort(karte['id'] as String? ?? '')),

@@ -26,7 +26,12 @@ class WortCard extends StatelessWidget {
   /// bleibt provider-frei; kein onUpdate-Callback nötig (State fließt Riverpod).
   final Widget? trailing;
 
-  const WortCard({super.key, required this.card, this.onTap, this.trailing});
+  /// Optionale Zusatzzeile unter der Übersetzung (z. B. «Gebeugte Form: ging»
+  /// in der Suche, فاز F.1b) — vom Screen gebaut, die Card bleibt neutral.
+  final Widget? hinweis;
+
+  const WortCard(
+      {super.key, required this.card, this.onTap, this.trailing, this.hinweis});
 
   /// FA- oder EN-Übersetzungen — Sprache nur aus Settings, nie beide.
   String _uebersetzung(BuildContext context) {
@@ -72,6 +77,10 @@ class WortCard extends StatelessWidget {
                           color: theme.colorScheme.onSurfaceVariant,
                         ),
                       ),
+                    ],
+                    if (hinweis != null) ...[
+                      const SizedBox(height: 2),
+                      hinweis!,
                     ],
                   ],
                 ),
