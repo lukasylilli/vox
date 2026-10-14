@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_amnestieren",
+  "wort": "amnestieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "عفو کردن (عمومی)"
+    ],
+    "en": [
+      "to grant amnesty"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Recht",
+    "Politik"
+  ],
+  "ipa": "amnɛsˈtiːʁən",
+  "anmerkung": "Regelmäßig (amnestierte, amnestiert).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Staat amnestiert die Gefangenen.",
+      "uebersetzung": {
+        "fa": "دولت زندانیان را عفو می‌کند.",
+        "en": "The state grants the prisoners amnesty."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Regierungswechsel wurden alle politischen Gefangenen amnestiert und freigelassen.",
+      "uebersetzung": {
+        "fa": "پس از تغییر دولت، همه‌ی زندانیان سیاسی عفو و آزاد شدند.",
+        "en": "After the change of government, all political prisoners were granted amnesty and released."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "begnadigen",
+      "uebersetzung": {
+        "fa": "عفو کردن",
+        "en": "to pardon"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verurteilen",
+      "uebersetzung": {
+        "fa": "محکوم کردن",
+        "en": "to sentence"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از die Amnestie (عفو عمومی) + -ieren",
+    "en": "from die Amnestie (amnesty) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "amnestieren",
+      "praeteritum": "amnestierte",
+      "partizip2": "amnestiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "amnestiere",
+        "du": "amnestierst",
+        "er_sie_es": "amnestiert",
+        "wir": "amnestieren",
+        "ihr": "amnestiert",
+        "sie_Sie": "amnestieren"
+      },
+      "praeteritum": {
+        "ich": "amnestierte",
+        "du": "amnestiertest",
+        "er_sie_es": "amnestierte",
+        "wir": "amnestierten",
+        "ihr": "amnestiertet",
+        "sie_Sie": "amnestierten"
+      },
+      "konjunktiv1": {
+        "ich": "amnestiere",
+        "du": "amnestierest",
+        "er_sie_es": "amnestiere",
+        "wir": "amnestieren",
+        "ihr": "amnestieret",
+        "sie_Sie": "amnestieren"
+      },
+      "konjunktiv2": {
+        "ich": "amnestierte",
+        "du": "amnestiertest",
+        "er_sie_es": "amnestierte",
+        "wir": "amnestierten",
+        "ihr": "amnestiertet",
+        "sie_Sie": "amnestierten"
+      },
+      "imperativ": {
+        "du": "Amnestiere!",
+        "ihr": "Amnestiert!",
+        "Sie": "Amnestieren Sie!"
+      }
+    },
+    "partizip1": "amnestierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "die Amnestie",
+    "woerter": [
+      {
+        "wort": "die Amnestie",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "عفو عمومی",
+          "en": "amnesty"
+        },
+        "id_ref": "nomen_amnestie"
+      },
+      {
+        "wort": "begnadigen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "عفو کردن",
+          "en": "to pardon"
+        },
+        "id_ref": "verb_begnadigen"
+      },
+      {
+        "wort": "der Gefangene",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زندانی",
+          "en": "prisoner"
+        },
+        "id_ref": "nomen_gefangene"
+      },
+      {
+        "wort": "freilassen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آزاد کردن",
+          "en": "to release"
+        },
+        "id_ref": "verb_freilassen"
+      },
+      {
+        "wort": "das Gefängnis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زندان",
+          "en": "prison"
+        },
+        "id_ref": "nomen_gefaengnis"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

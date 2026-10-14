@@ -2812,6 +2812,11 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۴۵۰ | algorithmisieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی، نادر — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۵۱ | alimentieren | `Verben_regelmaesig.txt` | 2026-10-13 | ادبی/نادر — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۵۲ | allozieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی، نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۵۳ | älteln | `Verben_regelmaesig.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۵۴ | alterieren | `Verben_regelmaesig.txt` | 2026-10-13 | قدیمی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۵۵ | altertümeln | `Verben_regelmaesig.txt` | 2026-10-13 | نادر/ادبی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۵۶ | altmachen | `Verben_regelmaesig.txt` | 2026-10-13 | املا (alt machen جدا نوشته می‌شود) — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۵۷ | amalgamieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی، نادر — قاعده‌ی ۱۴/۱۶ | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 

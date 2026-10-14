@@ -1503,6 +1503,11 @@ const zurueckgestellt = <String>{
   'algorithmisieren', // zurückgestellt (Regel 14/16): fachsprachlich, selten 2026-10-13
   'alimentieren', // zurückgestellt (Regel 14/16): gehoben/selten 2026-10-13
   'allozieren', // zurückgestellt (Regel 14/16): fachsprachlich, selten 2026-10-13
+  'älteln', // zurückgestellt (Regel 14/16): selten (älter wirken) 2026-10-13
+  'alterieren', // zurückgestellt (Regel 14/16): veraltet («sich alterieren» = sich aufregen) 2026-10-13
+  'altertümeln', // zurückgestellt (Regel 14/16): selten/gehoben 2026-10-13
+  'altmachen', // zurückgestellt (Regel 14/16): Schreibung (alt machen) 2026-10-13
+  'amalgamieren', // zurückgestellt (Regel 14/16): fachsprachlich, selten 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
