@@ -25,6 +25,9 @@ void main() {
     'filter_clear_all',
     'filter_show',
     'filter_show_n',
+    'filter_buecher',
+    'filter_meine_kategorien',
+    'filter_keine_kategorien',
     // Pomodoro (2026-10-05) — Phasenende, Schalter
     'pomo_ended_focus',
     'pomo_ended_short_break',

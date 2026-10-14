@@ -1,0 +1,29 @@
+{
+  "_hinweis": "فاز F.4 (Lukas, 2026-10-14): NUR fertige VOX-Bücher — der Nutzer kann sie nicht löschen oder ändern; eigene Listen = «Meine Kategorien». Jedes Buch: id (fest, nie ändern — der gespeicherte Filter merkt sie), name, alt_buch (Name des mitgelieferten Decks in der alten Tabelle Books, dessen Wörter dazugehören, oder null), karten (ids aus assets/vocab/). Neue Bücher (z. B. «A1 Starten wir») trägt Claude aus den Wortlisten von Lukas ein. Prüfung: test/vox_buecher_test.dart (Format + jede Karten-id existiert).",
+  "buecher": [
+    {
+      "id": "dativ_akkusativ_verben",
+      "name": "Dativ und Akkusativ Verben",
+      "alt_buch": "Dativ und Akkusativ Verben",
+      "karten": []
+    },
+    {
+      "id": "konnektoren",
+      "name": "Konnektoren",
+      "alt_buch": "Konnektoren",
+      "karten": []
+    },
+    {
+      "id": "nomen_verb_verbindungen",
+      "name": "Nomen-Verb-Verbindungen",
+      "alt_buch": "Nomen-Verb-Verbindungen",
+      "karten": []
+    },
+    {
+      "id": "verben_mit_praepositionen",
+      "name": "Verben mit Präpositionen",
+      "alt_buch": "Verben mit Präpositionen",
+      "karten": []
+    }
+  ]
+}

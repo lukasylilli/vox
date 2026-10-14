@@ -10,8 +10,10 @@
 //              aus drift + Karten aus assets/vocab/), einmal berechnet.
 //            · [wortschatzZeilen] — gefiltert + geordnet (such_rang.dart).
 //            · [wortschatzAnzahl] / [wortschatzAnzahlMit] — nur zählen.
-//          Neue Bereiche (Bücher, Berufe, … — F.4/F.6) kommen als weiteres
-//          Feld + [FilterBereich] hinzu; die Logik bleibt hier.
+//          Bücher (nur fertige VOX-Bücher, assets/buecher/buecher.json) und
+//          eigene Kategorien des Nutzers (F.4) sind Gruppen mit Mitgliedschaft
+//          ([WortschatzZugehoerigkeit]). Neue Bereiche (Berufe, … — F.6)
+//          kommen als weiterer [FilterBereich] hinzu; die Logik bleibt hier.
 //
 // Rein (ohne Flutter) — test/wortschatz_filter_test.dart.
 import '../../../core/models/word_model.dart';
@@ -20,41 +22,101 @@ import '../../../core/wort/wort_form.dart';
 import 'altwort_karte.dart';
 import 'such_rang.dart';
 
-/// Die Drawer der Filterseite.
-enum FilterBereich { niveau, wortart }
+/// Die Drawer der Filterseite (Reihenfolge = Reihenfolge auf der Seite).
+/// buch/kategorie haben Werte, die erst zur Laufzeit feststehen
+/// ([WortschatzZugehoerigkeit]); niveau/wortart sind fest.
+enum FilterBereich { buch, wortart, niveau, kategorie }
 
 /// Gültige Niveau-Werte (klein, wie `GermanLevel.name`).
 const wortschatzNiveaus = ['a1', 'a2', 'b1', 'b2', 'c1', 'c2'];
 
-class WortschatzFilter {
-  const WortschatzFilter({
-    this.niveaus = const {},
-    this.wortarten = const {},
+/// Eine Gruppe mit fester Mitgliedschaft — ein VOX-Buch oder eine eigene
+/// Kategorie des Nutzers. [altWoerter] = ids alter Wörter (drift),
+/// [karten] = ids der Karten (assets/vocab/).
+class FilterGruppe {
+  const FilterGruppe({
+    required this.id,
+    required this.name,
+    this.altWoerter = const {},
+    this.karten = const {},
   });
+  final String id;
+  final String name;
+  final Set<int> altWoerter;
+  final Set<String> karten;
+}
 
-  /// 'a1' … 'c2'.
-  final Set<String> niveaus;
+/// Bücher und eigene Kategorien, wie sie gerade sind (F.4).
+class WortschatzZugehoerigkeit {
+  const WortschatzZugehoerigkeit({
+    this.buecher = const [],
+    this.kategorien = const [],
+  });
+  final List<FilterGruppe> buecher;
+  final List<FilterGruppe> kategorien;
 
-  /// Namen von [WordType] (z. B. 'nomen', 'praepositon').
-  final Set<String> wortarten;
+  static const leer = WortschatzZugehoerigkeit();
 
-  static const leer = WortschatzFilter();
-
-  bool get istLeer => niveaus.isEmpty && wortarten.isEmpty;
-  int get anzahlAktiv => niveaus.length + wortarten.length;
-
-  Set<String> werte(FilterBereich b) => switch (b) {
-        FilterBereich.niveau => niveaus,
-        FilterBereich.wortart => wortarten,
+  List<FilterGruppe> gruppen(FilterBereich b) => switch (b) {
+        FilterBereich.buch => buecher,
+        FilterBereich.kategorie => kategorien,
+        _ => const [],
       };
+
+  FilterGruppe? gruppe(FilterBereich b, String id) {
+    for (final g in gruppen(b)) {
+      if (g.id == id) return g;
+    }
+    return null;
+  }
+}
+
+/// Bereiche mit Gruppen (Mitgliedschaft statt Eigenschaft des Worts).
+const _gruppenBereiche = {FilterBereich.buch, FilterBereich.kategorie};
+
+class WortschatzFilter {
+  const WortschatzFilter._(this._werte);
+
+  WortschatzFilter({
+    Set<String> niveaus = const {},
+    Set<String> wortarten = const {},
+    Set<String> buecher = const {},
+    Set<String> kategorien = const {},
+  }) : _werte = {
+          if (buecher.isNotEmpty) FilterBereich.buch: Set.unmodifiable(buecher),
+          if (wortarten.isNotEmpty)
+            FilterBereich.wortart: Set.unmodifiable(wortarten),
+          if (niveaus.isNotEmpty)
+            FilterBereich.niveau: Set.unmodifiable(niveaus),
+          if (kategorien.isNotEmpty)
+            FilterBereich.kategorie: Set.unmodifiable(kategorien),
+        };
+
+  /// Nur nicht-leere Bereiche stehen drin.
+  final Map<FilterBereich, Set<String>> _werte;
+
+  static const leer = WortschatzFilter._({});
+
+  Set<String> werte(FilterBereich b) => _werte[b] ?? const {};
+  Set<String> get niveaus => werte(FilterBereich.niveau);
+  Set<String> get wortarten => werte(FilterBereich.wortart);
+  Set<String> get buecher => werte(FilterBereich.buch);
+  Set<String> get kategorien => werte(FilterBereich.kategorie);
+
+  bool get istLeer => _werte.isEmpty;
+  int get anzahlAktiv =>
+      _werte.values.fold(0, (summe, s) => summe + s.length);
 
   /// Kopie, in der Bereich [b] genau [neu] enthält.
-  WortschatzFilter mitBereich(FilterBereich b, Set<String> neu) => switch (b) {
-        FilterBereich.niveau =>
-          WortschatzFilter(niveaus: Set.unmodifiable(neu), wortarten: wortarten),
-        FilterBereich.wortart =>
-          WortschatzFilter(niveaus: niveaus, wortarten: Set.unmodifiable(neu)),
-      };
+  WortschatzFilter mitBereich(FilterBereich b, Set<String> neu) {
+    final m = {..._werte};
+    if (neu.isEmpty) {
+      m.remove(b);
+    } else {
+      m[b] = Set.unmodifiable(neu);
+    }
+    return WortschatzFilter._(m);
+  }
 
   /// Wert [wert] in Bereich [b] an/aus.
   WortschatzFilter umschalten(FilterBereich b, String wert) {
@@ -63,56 +125,108 @@ class WortschatzFilter {
     return mitBereich(b, s);
   }
 
+  /// Ohne Buch-/Kategorie-Werte, die es (nicht mehr) gibt — z. B. eine
+  /// gelöschte Kategorie. Gespeichert bleibt der Wert; er wirkt nur nicht
+  /// und erscheint nicht als Chip.
+  WortschatzFilter bereinigt(WortschatzZugehoerigkeit z) {
+    var f = this;
+    for (final b in _gruppenBereiche) {
+      final bekannt = {for (final g in z.gruppen(b)) g.id};
+      final w = werte(b);
+      if (w.any((x) => !bekannt.contains(x))) {
+        f = f.mitBereich(b, w.where(bekannt.contains).toSet());
+      }
+    }
+    return f;
+  }
+
   Map<String, dynamic> toJson() => {
         'niveaus': niveaus.toList()..sort(),
         'wortarten': wortarten.toList()..sort(),
+        'buecher': buecher.toList()..sort(),
+        'kategorien': kategorien.toList()..sort(),
       };
 
-  /// Unbekannte Werte (z. B. aus einer älteren App-Version) fallen weg.
+  /// Unbekannte Niveaus/Wortarten (z. B. aus einer älteren App-Version)
+  /// fallen weg; Bücher/Kategorien prüft erst [bereinigt].
   factory WortschatzFilter.fromJson(Map<String, dynamic> json) {
-    Set<String> lies(String k, Set<String> erlaubt) => {
+    Set<String> lies(String k, [Set<String>? erlaubt]) => {
           for (final v in (json[k] as List?) ?? const [])
-            if (v is String && erlaubt.contains(v)) v,
+            if (v is String && v.isNotEmpty && (erlaubt?.contains(v) ?? true))
+              v,
         };
     return WortschatzFilter(
       niveaus: lies('niveaus', wortschatzNiveaus.toSet()),
       wortarten: lies('wortarten', {for (final t in WordType.values) t.name}),
+      buecher: lies('buecher'),
+      kategorien: lies('kategorien'),
     );
   }
 
-  // ── Passt ein Eintrag? ───────────────────────────────────────────────────
+  // ── Passt ein Eintrag? ─── (Filter vorher mit [bereinigt] säubern) ───────
 
-  /// Altes Wort (drift).
-  bool wortPasst(WordModel w) =>
-      (niveaus.isEmpty || (w.level != null && niveaus.contains(w.level!.name))) &&
-      (wortarten.isEmpty || wortarten.contains(w.wordType.name));
+  /// Gruppen eines Bereichs, in denen ein Eintrag sein muss (eine genügt).
+  List<FilterGruppe> _gewaehlteGruppen(
+          FilterBereich b, WortschatzZugehoerigkeit z) =>
+      [
+        for (final id in werte(b)) ?z.gruppe(b, id),
+      ];
 
-  /// Karte bzw. Index-Eintrag (assets/vocab/). Wortart über dieselbe Tabelle
-  /// wie die Paarung (altwortTypZuWortart).
-  bool kartePasst(Map<String, dynamic> k) => kartenPruefer()(k);
+  /// Prüffunktion für alte Wörter (drift).
+  bool Function(WordModel) wortPruefer(WortschatzZugehoerigkeit z) {
+    final buecherG = _gewaehlteGruppen(FilterBereich.buch, z);
+    final katG = _gewaehlteGruppen(FilterBereich.kategorie, z);
+    final niv = niveaus, art = wortarten;
+    return (w) =>
+        (niv.isEmpty || (w.level != null && niv.contains(w.level!.name))) &&
+        (art.isEmpty || art.contains(w.wordType.name)) &&
+        (buecherG.isEmpty || buecherG.any((g) => g.altWoerter.contains(w.id))) &&
+        (katG.isEmpty || katG.any((g) => g.altWoerter.contains(w.id)));
+  }
 
-  /// Prüffunktion für viele Karten — die Wortart-Menge wird nur EINMAL
-  /// gebaut (Zählen über ~26.000 Karten auf der Filterseite).
-  bool Function(Map<String, dynamic>) kartenPruefer() {
+  /// Prüffunktion für Karten bzw. Index-Einträge (assets/vocab/). Wortart
+  /// über dieselbe Tabelle wie die Paarung (altwortTypZuWortart). Mengen
+  /// werden nur EINMAL gebaut (Zählen über ~26.000 Karten).
+  bool Function(Map<String, dynamic>) kartenPruefer(
+      [WortschatzZugehoerigkeit z = WortschatzZugehoerigkeit.leer]) {
     final erlaubt = {
       for (final t in wortarten) ...?altwortTypZuWortart[t],
     };
+    final buchKarten = {
+      for (final g in _gewaehlteGruppen(FilterBereich.buch, z)) ...g.karten,
+    };
+    final katKarten = {
+      for (final g in _gewaehlteGruppen(FilterBereich.kategorie, z))
+        ...g.karten,
+    };
+    final mitBuch = buecher.isNotEmpty, mitKat = kategorien.isNotEmpty;
+    final niv = niveaus, mitArt = wortarten.isNotEmpty;
     return (k) {
-      if (niveaus.isNotEmpty &&
-          !niveaus.contains((k['niveau'] as String? ?? '').toLowerCase())) {
+      if (niv.isNotEmpty &&
+          !niv.contains((k['niveau'] as String? ?? '').toLowerCase())) {
         return false;
       }
-      if (wortarten.isNotEmpty && !erlaubt.contains(k['wortart'])) {
-        return false;
-      }
+      if (mitArt && !erlaubt.contains(k['wortart'])) return false;
+      final id = k['id'] as String? ?? '';
+      if (mitBuch && !buchKarten.contains(id)) return false;
+      if (mitKat && !katKarten.contains(id)) return false;
       return true;
     };
   }
+
+  bool wortPasst(WordModel w,
+          [WortschatzZugehoerigkeit z = WortschatzZugehoerigkeit.leer]) =>
+      wortPruefer(z)(w);
+
+  bool kartePasst(Map<String, dynamic> k,
+          [WortschatzZugehoerigkeit z = WortschatzZugehoerigkeit.leer]) =>
+      kartenPruefer(z)(k);
 }
 
 /// Beide Quellen nach der Suche — einmal berechnen, oft filtern/zählen.
 class WortschatzBasis {
-  WortschatzBasis._(this.woerter, this.karten, this._altForm, this.query);
+  WortschatzBasis._(
+      this.woerter, this.karten, this._altForm, this.query, this.zugehoerigkeit);
 
   /// Alte Wörter, die zur Suche passen (alle, wenn keine Suche).
   final List<WordModel> woerter;
@@ -126,6 +240,9 @@ class WortschatzBasis {
   /// Suche (klein, getrimmt; leer = keine).
   final String query;
 
+  /// Bücher und eigene Kategorien (für die Drawer buch/kategorie).
+  final WortschatzZugehoerigkeit zugehoerigkeit;
+
   bool altIstForm(WordModel w) => _altForm.contains(w.id);
 }
 
@@ -136,10 +253,12 @@ WortschatzBasis wortschatzBasis({
   required List<WordModel> alleWoerter,
   required List<Map<String, dynamic>> kartenTreffer,
   required String query,
+  WortschatzZugehoerigkeit zugehoerigkeit = WortschatzZugehoerigkeit.leer,
 }) {
   final q = query.toLowerCase().trim();
   if (q.isEmpty) {
-    return WortschatzBasis._(alleWoerter, kartenTreffer, const {}, '');
+    return WortschatzBasis._(
+        alleWoerter, kartenTreffer, const {}, '', zugehoerigkeit);
   }
   final formSchluessel = wortSchluessel(q);
   final altForm = <int>{};
@@ -160,7 +279,7 @@ WortschatzBasis wortschatzBasis({
       woerter.add(w);
     }
   }
-  return WortschatzBasis._(woerter, kartenTreffer, altForm, q);
+  return WortschatzBasis._(woerter, kartenTreffer, altForm, q, zugehoerigkeit);
 }
 
 /// Zeilen von «Alle Wörter»: gefiltert; ohne Suche alphabetisch (Artikel
@@ -171,10 +290,13 @@ List<SuchTreffer<Object>> wortschatzZeilen(
   WortschatzFilter filter, {
   Set<String> formIds = const {},
 }) {
-  final passt = filter.kartenPruefer();
+  final z = basis.zugehoerigkeit;
+  final f = filter.bereinigt(z);
+  final passt = f.kartenPruefer(z);
+  final wortOk = f.wortPruefer(z);
   final eintraege = <Object>[
     for (final w in basis.woerter)
-      if (filter.wortPasst(w)) w,
+      if (wortOk(w)) w,
     for (final k in basis.karten)
       if (passt(k)) k,
   ];
@@ -200,11 +322,14 @@ List<SuchTreffer<Object>> wortschatzZeilen(
 
 /// Anzahl der Zeilen mit [filter] (ohne Ordnen).
 int wortschatzAnzahl(WortschatzBasis basis, WortschatzFilter filter) {
+  final z = basis.zugehoerigkeit;
+  final f = filter.bereinigt(z);
+  final wortOk = f.wortPruefer(z);
+  final passt = f.kartenPruefer(z);
   var n = 0;
   for (final w in basis.woerter) {
-    if (filter.wortPasst(w)) n++;
+    if (wortOk(w)) n++;
   }
-  final passt = filter.kartenPruefer();
   for (final k in basis.karten) {
     if (passt(k)) n++;
   }

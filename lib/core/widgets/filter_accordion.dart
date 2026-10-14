@@ -26,6 +26,7 @@ class FilterOption {
     required this.label,
     this.icon,
     this.anzahl,
+    this.uebersetzen = true,
   });
   final String    value;
   final String    label;
@@ -35,6 +36,13 @@ class FilterOption {
   /// klein neben der Beschriftung. 0 und nicht gewählt ⇒ Knopf blass und
   /// nicht antippbar (er würde eine leere Liste zeigen).
   final int?      anzahl;
+
+  /// false ⇒ [label] ist schon fertiger Text (Buchtitel, Name einer eigenen
+  /// Kategorie) und wird NICHT über AppL10n nachgeschlagen.
+  final bool      uebersetzen;
+
+  String text(BuildContext context) =>
+      uebersetzen ? AppL10n.t(context, label) : label;
 }
 
 // ─── raster ───────────────────────────────────────────────────────────────────
@@ -80,6 +88,7 @@ class FilterAccordion extends StatefulWidget {
     required this.selected,
     required this.onChanged,
     this.initiallyExpanded = false,
+    this.leerHinweis,
   });
 
   final String              label;
@@ -87,6 +96,10 @@ class FilterAccordion extends StatefulWidget {
   final Set<String>         selected;
   final void Function(String value, bool selected) onChanged;
   final bool                initiallyExpanded;
+
+  /// Text im aufgeklappten Drawer, wenn es (noch) keine Knöpfe gibt —
+  /// z. B. «Meine Kategorien» ohne eigene Kategorie (F.4).
+  final String? leerHinweis;
 
   @override
   State<FilterAccordion> createState() => _FilterAccordionState();
@@ -196,7 +209,7 @@ class _FilterAccordionState extends State<FilterAccordion>
   double _knopfBreite(BuildContext context, FilterOption opt) {
     final tp = TextPainter(
       text: TextSpan(
-        text : AppL10n.t(context, opt.label),
+        text : opt.text(context),
         style: _FilterChip.textStil.copyWith(fontWeight: FontWeight.w700),
       ),
       textDirection: Directionality.of(context),
@@ -215,7 +228,8 @@ class _FilterAccordionState extends State<FilterAccordion>
         textScaler   : MediaQuery.textScalerOf(context),
         maxLines     : 1,
       )..layout();
-      breite += _FilterChip.zahlAbstand + zp.width;
+      // Zahl steht UNTER der Beschriftung (Lukas, 2026-10-14).
+      if (zp.width > breite) breite = zp.width;
       zp.dispose();
     }
     return breite +
@@ -226,7 +240,19 @@ class _FilterAccordionState extends State<FilterAccordion>
 
   Widget _raster(BuildContext context, BoxConstraints constraints) {
     final optionen = widget.options;
-    if (optionen.isEmpty) return const SizedBox.shrink();
+    if (optionen.isEmpty) {
+      final h = widget.leerHinweis;
+      if (h == null) return const SizedBox.shrink();
+      return Padding(
+        padding: const EdgeInsets.symmetric(vertical: 4),
+        child: Text(
+          h,
+          style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                color: Theme.of(context).colorScheme.onSurfaceVariant,
+              ),
+        ),
+      );
+    }
     // Ohne feste Breite (z. B. waagerecht scrollend) gibt es kein Raster —
     // dann wie früher nebeneinander umbrechen.
     if (!constraints.hasBoundedWidth) {
@@ -308,7 +334,10 @@ class _FilterChip extends StatelessWidget {
   static const innenAbstand = 12.0;
   static const iconPlatz = 18.0; // Icon 14 + Abstand 4
   static const zahlStil = TextStyle(fontSize: 11, fontWeight: FontWeight.w600);
-  static const zahlAbstand = 6.0;
+  static const zahlAbstand = 2.0; // senkrecht: Beschriftung ↔ Zahl
+
+  /// Mit Zahl (zwei Zeilen) abgerundetes Rechteck, sonst Pille.
+  double get _radius => option.anzahl != null ? 14 : 100;
 
   /// Würde eine leere Liste zeigen ⇒ blass, nicht antippbar (F.2b).
   bool get _leer => option.anzahl == 0 && !active;
@@ -321,40 +350,48 @@ class _FilterChip extends StatelessWidget {
       opacity : _leer ? 0.4 : 1,
       child: InkWell(
         onTap       : _leer ? null : onTap,
-        borderRadius: BorderRadius.circular(100),
+        borderRadius: BorderRadius.circular(_radius),
         child: Container(
-          padding: const EdgeInsets.symmetric(
-              horizontal: innenAbstand, vertical: 8),
+          padding: EdgeInsets.symmetric(
+              horizontal: innenAbstand,
+              vertical: option.anzahl != null ? 10 : 8),
           alignment: Alignment.center,
           decoration: BoxDecoration(
             color : active ? cs.primary : cs.surfaceContainerHigh,
-            borderRadius: BorderRadius.circular(100),
+            borderRadius: BorderRadius.circular(_radius),
           ),
-          child: Row(
+          child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              if (option.icon != null) ...[
-                Icon(
-                  option.icon,
-                  size : 14,
-                  color: active ? cs.onPrimary : cs.onSurfaceVariant,
-                ),
-                const SizedBox(width: 4),
-              ],
-              Flexible(
-                child: Text(
-                  AppL10n.t(context, option.label),
-                  textAlign: TextAlign.center,
-                  maxLines : zweiZeilen ? 2 : 1,
-                  overflow : TextOverflow.ellipsis,
-                  style: textStil.copyWith(
-                    color     : active ? cs.onPrimary : cs.onSurface,
-                    fontWeight: active ? FontWeight.w700 : FontWeight.w400,
+              Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  if (option.icon != null) ...[
+                    Icon(
+                      option.icon,
+                      size : 14,
+                      color: active ? cs.onPrimary : cs.onSurfaceVariant,
+                    ),
+                    const SizedBox(width: 4),
+                  ],
+                  Flexible(
+                    child: Text(
+                      option.text(context),
+                      textAlign: TextAlign.center,
+                      maxLines : zweiZeilen ? 2 : 1,
+                      overflow : TextOverflow.ellipsis,
+                      style: textStil.copyWith(
+                        color     : active ? cs.onPrimary : cs.onSurface,
+                        fontWeight:
+                            active ? FontWeight.w700 : FontWeight.w400,
+                      ),
+                    ),
                   ),
-                ),
+                ],
               ),
+              // Zahl UNTER der Beschriftung (Lukas, 2026-10-14).
               if (option.anzahl != null) ...[
-                const SizedBox(width: zahlAbstand),
+                const SizedBox(height: zahlAbstand),
                 Text(
                   Formatters.digits(option.anzahl!),
                   maxLines: 1,

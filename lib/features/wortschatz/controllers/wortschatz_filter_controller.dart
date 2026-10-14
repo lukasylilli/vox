@@ -8,10 +8,15 @@
 //          localStorage auf lukasylilli.github.io, siehe PLAN 2026-09-26).
 import 'dart:convert';
 
+import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../../../core/database/app_database.dart';
+import '../../categories/controllers/category_controller.dart';
 import '../../vokabular/controllers/vokabular_controller.dart';
+import '../../vokabular/controllers/vokabular_user_state.dart';
+import '../data/vox_buecher.dart';
 import '../data/wortschatz_filter.dart';
 import 'word_controller.dart';
 
@@ -60,6 +65,72 @@ final wortschatzFilterProvider =
     StateNotifierProvider<WortschatzFilterNotifier, WortschatzFilter>(
         (_) => WortschatzFilterNotifier());
 
+// ─── Bücher und eigene Kategorien (فاز F.4) ──────────────────────────────────
+
+/// Die fertigen VOX-Bücher (assets/buecher/buecher.json).
+final voxBuecherProvider = FutureProvider<List<VoxBuch>>((ref) async =>
+    voxBuecherLesen(await rootBundle.loadString(voxBuecherAsset)));
+
+/// Alle Zuordnungen alter Wörter zu Büchern (drift WordBooks).
+final alleWortBuecherProvider = StreamProvider<List<WordBook>>(
+    (ref) => ref.watch(wordDaoProvider).watchAllWordBooks());
+
+/// Alle Zuordnungen alter Wörter zu eigenen Kategorien (drift CategoryWords).
+final alleKategorieWoerterProvider = StreamProvider<List<CategoryWord>>(
+    (ref) => ref.watch(categoryDaoProvider).watchAllZuordnungen());
+
+/// Bücher + eigene Kategorien, wie sie gerade sind. Was noch lädt, fehlt
+/// einfach (der Drawer füllt sich, sobald es da ist).
+///   · Bücher: Reihenfolge wie in buecher.json; alte Wörter über den Namen
+///     des Decks (`alt_buch`) in der Tabelle Books.
+///   · Kategorien: Kategorien der Karten (Wort-Aktion «Kategorien», id
+///     `archiv:<id>`) und der alten Wörter («Meine Kategorien», id = feste
+///     Listen-id `eigen:…`), alphabetisch.
+WortschatzZugehoerigkeit wortschatzZugehoerigkeitLesen(WidgetRef ref) {
+  final buecher = ref.watch(voxBuecherProvider).valueOrNull ?? const [];
+  final altBuecher = ref.watch(allBooksProvider).valueOrNull ?? const [];
+  final wortBuecher =
+      ref.watch(alleWortBuecherProvider).valueOrNull ?? const [];
+  final altBuchId = {for (final b in altBuecher) b.name: b.id};
+
+  final archivKat = ref.watch(vokabularUserProvider).kategorien;
+  final eigeneKat = ref.watch(allCategoriesProvider).valueOrNull ?? const [];
+  final katWoerter =
+      ref.watch(alleKategorieWoerterProvider).valueOrNull ?? const [];
+
+  final kategorien = <FilterGruppe>[
+    for (final k in archivKat)
+      FilterGruppe(
+          id: 'archiv:${k.id}', name: k.name, karten: k.wortIds.toSet()),
+    for (final k in eigeneKat)
+      FilterGruppe(
+        id: eigeneListenId(k),
+        name: k.name,
+        altWoerter: {
+          for (final z in katWoerter)
+            if (z.categoryId == k.id) z.wordId,
+        },
+      ),
+  ]..sort((a, b) => a.name.toLowerCase().compareTo(b.name.toLowerCase()));
+
+  return WortschatzZugehoerigkeit(
+    buecher: [
+      for (final b in buecher)
+        FilterGruppe(
+          id: b.id,
+          name: b.name,
+          karten: b.karten.toSet(),
+          altWoerter: {
+            if (b.altBuch != null && altBuchId[b.altBuch] != null)
+              for (final z in wortBuecher)
+                if (z.bookId == altBuchId[b.altBuch]) z.wordId,
+          },
+        ),
+    ],
+    kategorien: kategorien,
+  );
+}
+
 /// [WortschatzBasis] für Liste und Filterseite aus den Providern — `null`,
 /// solange die alten Wörter noch laden. Mit Suche kommen die Karten aus
 /// [vokabSucheProvider] (inkl. gebeugter Formen); bis der geladen ist, die
@@ -78,5 +149,6 @@ WortschatzBasis? wortschatzBasisLesen(WidgetRef ref, String query) {
     alleWoerter: [for (final w in woerter) w.toModel()],
     kartenTreffer: kartenTreffer,
     query: q,
+    zugehoerigkeit: wortschatzZugehoerigkeitLesen(ref),
   );
 }

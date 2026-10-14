@@ -34,12 +34,6 @@ class WortschatzHomeScreen extends ConsumerWidget {
           const SizedBox(height: AppSizes.md),
           // Sub-sections
           _MenuItem(
-            icon    : Icons.menu_book_rounded,
-            titleDe : 'Bücher',
-            titleFa : AppL10n.t(context, 'vocab_books'),
-            onTap   : () => context.push(AppRoutes.wortschatzBooks),
-          ),
-          _MenuItem(
             icon    : Icons.filter_list_rounded,
             titleDe : 'Alle Wörter',
             titleFa : AppL10n.t(context, 'all_words_sub'),

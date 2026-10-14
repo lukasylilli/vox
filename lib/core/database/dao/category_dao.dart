@@ -10,6 +10,10 @@ class CategoryDao {
   CategoryDao(this._db);
   final AppDatabase _db;
 
+  /// Alle Wort↔Kategorie-Zuordnungen (Filter «Meine Kategorien», فاز F.4).
+  Stream<List<CategoryWord>> watchAllZuordnungen() =>
+      _db.select(_db.categoryWords).watch();
+
   // ── UserCategories ─────────────────────────────────────────────────────────
 
   Stream<List<UserCategory>> watchAll() =>

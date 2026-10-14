@@ -68,10 +68,12 @@ class _WortschatzListScreenState extends ConsumerState<WortschatzListScreen> {
 
   // ─── aktive Filter als Chips (Beschriftung → «bereich:wert») ──────────────
 
-  Map<String, String> _aktiveChips(WortschatzFilter filter) => {
+  Map<String, String> _aktiveChips(
+          WortschatzFilter filter, WortschatzZugehoerigkeit z) =>
+      {
         for (final b in FilterBereich.values)
           for (final w in filter.werte(b))
-            WortschatzFilterScreen.beschriftung(b, w): '${b.name}:$w',
+            ?WortschatzFilterScreen.beschriftung(b, w, z): '${b.name}:$w',
       };
 
   void _chipEntfernen(String kodiert) {
@@ -100,9 +102,11 @@ class _WortschatzListScreenState extends ConsumerState<WortschatzListScreen> {
     // «Form» in such_rang.dart (فاز F.1).
     final formAsync =
         _query.isEmpty ? null : ref.watch(vokabFormTrefferProvider(_query));
-    final filter = ref.watch(wortschatzFilterProvider);
     final basis = wortschatzBasisLesen(ref, _query);
-    final chips = _aktiveChips(filter);
+    final z = basis?.zugehoerigkeit ?? WortschatzZugehoerigkeit.leer;
+    // Ohne gelöschte Kategorien u. Ä. (wirken nicht, kein Chip).
+    final filter = ref.watch(wortschatzFilterProvider).bereinigt(z);
+    final chips = _aktiveChips(filter, z);
     final cs = Theme.of(context).colorScheme;
 
     return Scaffold(

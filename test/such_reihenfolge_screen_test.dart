@@ -15,6 +15,8 @@ import 'package:vox/features/vokabular/data/vokab_formen.dart';
 import 'package:vox/features/wortschatz/controllers/word_controller.dart';
 import 'package:vox/features/wortschatz/screens/wortschatz_list_screen.dart';
 
+import 'helpers/wortschatz_overrides.dart';
+
 Map<String, dynamic> _karte(String id, String wort, String wortart) => {
       'id': id,
       'wort': wort,
@@ -42,6 +44,7 @@ void main() {
       overrides: [
         databaseProvider.overrideWithValue(db),
         allWordsProvider.overrideWith((ref) => Stream.value(<Word>[])),
+        ...wortschatzGruppenOverrides(),
         vokabIndexProvider.overrideWith((ref) async => index),
         vokabFormenStueckeProvider.overrideWith(
             (ref) async => {for (final f in formen.keys) vokabFormenDatei(f)}),
@@ -87,6 +90,7 @@ void main() {
       overrides: [
         databaseProvider.overrideWithValue(db),
         allWordsProvider.overrideWith((ref) => Stream.value(<Word>[])),
+        ...wortschatzGruppenOverrides(),
         vokabIndexProvider.overrideWith((ref) async => index),
         vokabFormenStueckeProvider.overrideWith((ref) async => <String>{}),
       ],

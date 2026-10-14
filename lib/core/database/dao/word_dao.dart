@@ -119,6 +119,10 @@ class WordDao {
         WordBooksCompanion.insert(wordId: wordId, bookId: bookId),
       );
 
+  /// Alle Wort↔Buch-Zuordnungen (Filter «Bücher», فاز F.4).
+  Stream<List<WordBook>> watchAllWordBooks() =>
+      _db.select(_db.wordBooks).watch();
+
   Future<void> removeFromBook(int wordId, int bookId) =>
       (_db.delete(_db.wordBooks)
         ..where((t) => t.wordId.equals(wordId) & t.bookId.equals(bookId)))
