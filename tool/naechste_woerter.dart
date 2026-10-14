@@ -1577,6 +1577,8 @@ const zurueckgestellt = <String>{
   'beckmessern', // zurückgestellt (Regel 14/16): gehoben/selten 2026-10-13
   'beeiden', // zurückgestellt (Regel 14/16): fachsprachlich (Recht) 2026-10-13
   'beeidigen', // zurückgestellt (Regel 14/16): fachsprachlich (Recht) 2026-10-13
+  'befleißigen', // zurückgestellt (Regel 14/16): gehoben/veraltet 2026-10-13
+  'befrachten', // zurückgestellt (Regel 14/16): fachsprachlich/selten 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

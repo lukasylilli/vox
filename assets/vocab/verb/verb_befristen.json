@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_befristen",
+  "wort": "befristen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "محدود به زمان کردن، مهلت تعیین کردن"
+    ],
+    "en": [
+      "to limit (in time)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Recht"
+  ],
+  "ipa": "bəˈfʁɪstn̩",
+  "anmerkung": "Untrennbar, regelmäßig (befristete, befristet). Meist Partizip: «ein befristeter Vertrag».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Vertrag ist befristet.",
+      "uebersetzung": {
+        "fa": "قرارداد مدت‌دار است.",
+        "en": "The contract is fixed-term."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ihre Stelle ist auf zwei Jahre befristet, danach muss sie sich neu bewerben.",
+      "uebersetzung": {
+        "fa": "شغلش دو ساله است و بعد از آن باید دوباره درخواست بدهد.",
+        "en": "Her position is limited to two years, after which she has to apply again."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "begrenzen",
+      "uebersetzung": {
+        "fa": "محدود کردن",
+        "en": "to limit"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "entfristen",
+      "uebersetzung": {
+        "fa": "نامحدود کردن",
+        "en": "to make permanent"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + fristen (از die Frist = مهلت)",
+    "en": "be- + fristen (from die Frist = deadline)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas auf + Akk befristen",
+        "bedeutung": "die Dauer von etwas begrenzen",
+        "beispiel": "Das Angebot ist auf eine Woche befristet.",
+        "uebersetzung": {
+          "fa": "این پیشنهاد فقط یک هفته اعتبار دارد.",
+          "en": "The offer is limited to one week."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "befristen",
+      "praeteritum": "befristete",
+      "partizip2": "befristet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "befriste",
+        "du": "befristest",
+        "er_sie_es": "befristet",
+        "wir": "befristen",
+        "ihr": "befristet",
+        "sie_Sie": "befristen"
+      },
+      "praeteritum": {
+        "ich": "befristete",
+        "du": "befristetest",
+        "er_sie_es": "befristete",
+        "wir": "befristeten",
+        "ihr": "befristetet",
+        "sie_Sie": "befristeten"
+      },
+      "konjunktiv1": {
+        "ich": "befriste",
+        "du": "befristest",
+        "er_sie_es": "befriste",
+        "wir": "befristen",
+        "ihr": "befristet",
+        "sie_Sie": "befristen"
+      },
+      "konjunktiv2": {
+        "ich": "befristete",
+        "du": "befristetest",
+        "er_sie_es": "befristete",
+        "wir": "befristeten",
+        "ihr": "befristetet",
+        "sie_Sie": "befristeten"
+      },
+      "imperativ": {
+        "du": "Befriste!",
+        "ihr": "Befristet!",
+        "Sie": "Befristen Sie!"
+      }
+    },
+    "partizip1": "befristend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "die Frist",
+    "woerter": [
+      {
+        "wort": "die Frist",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مهلت",
+          "en": "deadline"
+        },
+        "id_ref": "nomen_frist"
+      },
+      {
+        "wort": "der Vertrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرارداد",
+          "en": "contract"
+        },
+        "id_ref": "nomen_vertrag"
+      },
+      {
+        "wort": "unbefristet",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نامحدود (زمانی)",
+          "en": "permanent"
+        },
+        "id_ref": "adjektiv_unbefristet"
+      },
+      {
+        "wort": "begrenzen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "محدود کردن",
+          "en": "to limit"
+        },
+        "id_ref": "verb_begrenzen"
+      },
+      {
+        "wort": "die Stelle",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شغل",
+          "en": "job"
+        },
+        "id_ref": "nomen_stelle"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_befreunden",
+  "wort": "befreunden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دوست شدن",
+      "(با فکری) کنار آمدن"
+    ],
+    "en": [
+      "to make friends",
+      "to warm to"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Beziehungen"
+  ],
+  "ipa": "bəˈfʁɔɪ̯ndn̩",
+  "anmerkung": "Untrennbar, reflexiv (befreundete sich, hat sich befreundet). Partizip «befreundet» als Adjektiv: «Wir sind befreundet.»",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir sind seit Jahren befreundet.",
+      "uebersetzung": {
+        "fa": "سال‌هاست با هم دوستیم.",
+        "en": "We have been friends for years."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Umzug hat sich ihr Sohn schnell mit den Nachbarskindern befreundet.",
+      "uebersetzung": {
+        "fa": "پس از اسباب‌کشی، پسرش زود با بچه‌های همسایه دوست شد.",
+        "en": "After the move her son quickly made friends with the neighbours' children."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich anfreunden",
+      "uebersetzung": {
+        "fa": "دوست شدن",
+        "en": "to make friends"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sich verfeinden",
+      "uebersetzung": {
+        "fa": "دشمن شدن",
+        "en": "to become enemies"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + freunden (از der Freund = دوست)",
+    "en": "be- + freunden (from der Freund = friend)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich mit + Dat befreunden",
+        "bedeutung": "mit jemandem Freundschaft schließen; etwas akzeptieren",
+        "beispiel": "Mit dem Gedanken kann ich mich nicht befreunden.",
+        "uebersetzung": {
+          "fa": "نمی‌توانم با این فکر کنار بیایم.",
+          "en": "I can't warm to the idea."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "befreunden",
+      "praeteritum": "befreundete",
+      "partizip2": "befreundet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "befreunde",
+        "du": "befreundest",
+        "er_sie_es": "befreundet",
+        "wir": "befreunden",
+        "ihr": "befreundet",
+        "sie_Sie": "befreunden"
+      },
+      "praeteritum": {
+        "ich": "befreundete",
+        "du": "befreundetest",
+        "er_sie_es": "befreundete",
+        "wir": "befreundeten",
+        "ihr": "befreundetet",
+        "sie_Sie": "befreundeten"
+      },
+      "konjunktiv1": {
+        "ich": "befreunde",
+        "du": "befreundest",
+        "er_sie_es": "befreunde",
+        "wir": "befreunden",
+        "ihr": "befreundet",
+        "sie_Sie": "befreunden"
+      },
+      "konjunktiv2": {
+        "ich": "befreundete",
+        "du": "befreundetest",
+        "er_sie_es": "befreundete",
+        "wir": "befreundeten",
+        "ihr": "befreundetet",
+        "sie_Sie": "befreundeten"
+      },
+      "imperativ": {
+        "du": "Befreunde!",
+        "ihr": "Befreundet!",
+        "Sie": "Befreunden Sie!"
+      }
+    },
+    "partizip1": "befreundend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "der Freund",
+    "woerter": [
+      {
+        "wort": "der Freund",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دوست",
+          "en": "friend"
+        },
+        "id_ref": "nomen_freund"
+      },
+      {
+        "wort": "befreundet",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دوست (با هم)",
+          "en": "friends with"
+        },
+        "id_ref": "adjektiv_befreundet"
+      },
+      {
+        "wort": "anfreunden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دوست شدن",
+          "en": "to make friends"
+        },
+        "id_ref": "verb_anfreunden"
+      },
+      {
+        "wort": "die Freundschaft",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دوستی",
+          "en": "friendship"
+        },
+        "id_ref": "nomen_freundschaft"
+      },
+      {
+        "wort": "kennenlernen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آشنا شدن",
+          "en": "to get to know"
+        },
+        "id_ref": "verb_kennenlernen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

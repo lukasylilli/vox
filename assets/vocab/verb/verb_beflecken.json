@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_beflecken",
+  "wort": "beflecken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "لکه‌دار کردن",
+      "(آبرو) لکه‌دار کردن"
+    ],
+    "en": [
+      "to stain",
+      "to tarnish"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Haushalt",
+    "Gesellschaft"
+  ],
+  "ipa": "bəˈflɛkn̩",
+  "anmerkung": "Untrennbar, regelmäßig (befleckte, befleckt).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er befleckt das Hemd.",
+      "uebersetzung": {
+        "fa": "او پیراهن را لکه‌دار می‌کند.",
+        "en": "He stains the shirt."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Skandal hat den guten Ruf des Krankenhauses befleckt, obwohl nur eine Person schuld war.",
+      "uebersetzung": {
+        "fa": "این رسوایی آبروی بیمارستان را لکه‌دار کرد، با اینکه فقط یک نفر مقصر بود.",
+        "en": "The scandal tarnished the hospital's good reputation although only one person was to blame."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beschmutzen",
+      "uebersetzung": {
+        "fa": "کثیف کردن",
+        "en": "to soil"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "reinigen",
+      "uebersetzung": {
+        "fa": "تمیز کردن",
+        "en": "to clean"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + flecken (از der Fleck = لکه)",
+    "en": "be- + flecken (from der Fleck = stain)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "beflecken",
+      "praeteritum": "befleckte",
+      "partizip2": "befleckt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beflecke",
+        "du": "befleckst",
+        "er_sie_es": "befleckt",
+        "wir": "beflecken",
+        "ihr": "befleckt",
+        "sie_Sie": "beflecken"
+      },
+      "praeteritum": {
+        "ich": "befleckte",
+        "du": "beflecktest",
+        "er_sie_es": "befleckte",
+        "wir": "befleckten",
+        "ihr": "beflecktet",
+        "sie_Sie": "befleckten"
+      },
+      "konjunktiv1": {
+        "ich": "beflecke",
+        "du": "befleckest",
+        "er_sie_es": "beflecke",
+        "wir": "beflecken",
+        "ihr": "beflecket",
+        "sie_Sie": "beflecken"
+      },
+      "konjunktiv2": {
+        "ich": "befleckte",
+        "du": "beflecktest",
+        "er_sie_es": "befleckte",
+        "wir": "befleckten",
+        "ihr": "beflecktet",
+        "sie_Sie": "befleckten"
+      },
+      "imperativ": {
+        "du": "Beflecke!",
+        "ihr": "Befleckt!",
+        "Sie": "Beflecken Sie!"
+      }
+    },
+    "partizip1": "befleckend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "der Fleck",
+    "woerter": [
+      {
+        "wort": "der Fleck",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لکه",
+          "en": "stain"
+        },
+        "id_ref": "nomen_fleck"
+      },
+      {
+        "wort": "schmutzig",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کثیف",
+          "en": "dirty"
+        },
+        "id_ref": "adjektiv_schmutzig"
+      },
+      {
+        "wort": "der Ruf",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آبرو، شهرت",
+          "en": "reputation"
+        },
+        "id_ref": "nomen_ruf"
+      },
+      {
+        "wort": "beschmutzen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کثیف کردن",
+          "en": "to soil"
+        },
+        "id_ref": "verb_beschmutzen"
+      },
+      {
+        "wort": "sauber",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تمیز",
+          "en": "clean"
+        },
+        "id_ref": "adjektiv_sauber"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

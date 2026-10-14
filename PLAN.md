@@ -2889,6 +2889,8 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۵۲۴ | beckmessern | `Verben_regelmaesig.txt` | 2026-10-13 | ادبی/نادر — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۵۲۵ | beeiden | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی (حقوقی) — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۵۲۶ | beeidigen | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی (حقوقی) — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۲۷ | befleißigen | `Verben_regelmaesig.txt` | 2026-10-13 | ادبی/قدیمی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۲۸ | befrachten | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی/نادر — قاعده‌ی ۱۴/۱۶ | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 

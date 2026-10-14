@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_befluegeln",
+  "wort": "beflügeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بال و پر دادن، الهام بخشیدن"
+    ],
+    "en": [
+      "to inspire",
+      "to spur on"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle"
+  ],
+  "ipa": "bəˈflyːɡl̩n",
+  "anmerkung": "Untrennbar, regelmäßig (beflügelte, beflügelt). Gehoben.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Erfolg beflügelt ihn.",
+      "uebersetzung": {
+        "fa": "موفقیت به او بال و پر می‌دهد.",
+        "en": "Success spurs him on."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Lob ihrer Lehrerin hat sie so beflügelt, dass sie noch fleißiger gelernt hat.",
+      "uebersetzung": {
+        "fa": "تعریف معلمش آن‌قدر به او انگیزه داد که با پشتکار بیشتری درس خواند.",
+        "en": "Her teacher's praise inspired her so much that she studied even harder."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anspornen",
+      "uebersetzung": {
+        "fa": "تشویق کردن",
+        "en": "to spur on"
+      }
+    },
+    {
+      "wort": "motivieren",
+      "uebersetzung": {
+        "fa": "انگیزه دادن",
+        "en": "to motivate"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "lähmen",
+      "uebersetzung": {
+        "fa": "فلج کردن",
+        "en": "to paralyse"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + flügeln (از der Flügel = بال)",
+    "en": "be- + flügeln (from der Flügel = wing)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "beflügeln",
+      "praeteritum": "beflügelte",
+      "partizip2": "beflügelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beflügle",
+        "du": "beflügelst",
+        "er_sie_es": "beflügelt",
+        "wir": "beflügeln",
+        "ihr": "beflügelt",
+        "sie_Sie": "beflügeln"
+      },
+      "praeteritum": {
+        "ich": "beflügelte",
+        "du": "beflügeltest",
+        "er_sie_es": "beflügelte",
+        "wir": "beflügelten",
+        "ihr": "beflügeltet",
+        "sie_Sie": "beflügelten"
+      },
+      "konjunktiv1": {
+        "ich": "beflügle",
+        "du": "beflüglest",
+        "er_sie_es": "beflügle",
+        "wir": "beflügeln",
+        "ihr": "beflüglet",
+        "sie_Sie": "beflügeln"
+      },
+      "konjunktiv2": {
+        "ich": "beflügelte",
+        "du": "beflügeltest",
+        "er_sie_es": "beflügelte",
+        "wir": "beflügelten",
+        "ihr": "beflügeltet",
+        "sie_Sie": "beflügelten"
+      },
+      "imperativ": {
+        "du": "Beflügle!",
+        "ihr": "Beflügelt!",
+        "Sie": "Beflügeln Sie!"
+      }
+    },
+    "partizip1": "beflügelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "der Flügel",
+    "woerter": [
+      {
+        "wort": "der Flügel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بال",
+          "en": "wing"
+        },
+        "id_ref": "nomen_fluegel"
+      },
+      {
+        "wort": "motivieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انگیزه دادن",
+          "en": "to motivate"
+        },
+        "id_ref": "verb_motivieren"
+      },
+      {
+        "wort": "inspirieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "الهام بخشیدن",
+          "en": "to inspire"
+        },
+        "id_ref": "verb_inspirieren"
+      },
+      {
+        "wort": "der Erfolg",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "موفقیت",
+          "en": "success"
+        },
+        "id_ref": "nomen_erfolg"
+      },
+      {
+        "wort": "die Fantasie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تخیل",
+          "en": "imagination"
+        },
+        "id_ref": "nomen_fantasie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

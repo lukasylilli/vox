@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_befehligen",
+  "wort": "befehligen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "فرماندهی کردن"
+    ],
+    "en": [
+      "to command"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Politik",
+    "Geschichte"
+  ],
+  "ipa": "bəˈfeːlɪɡn̩",
+  "anmerkung": "Untrennbar, regelmäßig (befehligte, befehligt). Militärisch.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der General befehligt die Armee.",
+      "uebersetzung": {
+        "fa": "ژنرال فرمانده‌ی ارتش است.",
+        "en": "The general commands the army."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Schiff wurde von einer erfahrenen Kapitänin befehligt, die schon zwanzig Jahre zur See fuhr.",
+      "uebersetzung": {
+        "fa": "فرماندهی کشتی با ناخدای باتجربه‌ای بود که بیست سال دریانوردی کرده بود.",
+        "en": "The ship was commanded by an experienced captain who had been at sea for twenty years."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kommandieren",
+      "uebersetzung": {
+        "fa": "فرماندهی کردن",
+        "en": "to command"
+      }
+    },
+    {
+      "wort": "führen",
+      "uebersetzung": {
+        "fa": "رهبری کردن",
+        "en": "to lead"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "gehorchen",
+      "uebersetzung": {
+        "fa": "اطاعت کردن",
+        "en": "to obey"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Befehl (فرمان) + -igen",
+    "en": "be- + Befehl (command) + -igen"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "befehligen",
+      "praeteritum": "befehligte",
+      "partizip2": "befehligt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "befehlige",
+        "du": "befehligst",
+        "er_sie_es": "befehligt",
+        "wir": "befehligen",
+        "ihr": "befehligt",
+        "sie_Sie": "befehligen"
+      },
+      "praeteritum": {
+        "ich": "befehligte",
+        "du": "befehligtest",
+        "er_sie_es": "befehligte",
+        "wir": "befehligten",
+        "ihr": "befehligtet",
+        "sie_Sie": "befehligten"
+      },
+      "konjunktiv1": {
+        "ich": "befehlige",
+        "du": "befehligest",
+        "er_sie_es": "befehlige",
+        "wir": "befehligen",
+        "ihr": "befehliget",
+        "sie_Sie": "befehligen"
+      },
+      "konjunktiv2": {
+        "ich": "befehligte",
+        "du": "befehligtest",
+        "er_sie_es": "befehligte",
+        "wir": "befehligten",
+        "ihr": "befehligtet",
+        "sie_Sie": "befehligten"
+      },
+      "imperativ": {
+        "du": "Befehlige!",
+        "ihr": "Befehligt!",
+        "Sie": "Befehligen Sie!"
+      }
+    },
+    "partizip1": "befehligend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "der Befehl",
+    "woerter": [
+      {
+        "wort": "der Befehl",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فرمان",
+          "en": "order"
+        },
+        "id_ref": "nomen_befehl"
+      },
+      {
+        "wort": "befehlen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فرمان دادن",
+          "en": "to order"
+        },
+        "id_ref": "verb_befehlen"
+      },
+      {
+        "wort": "kommandieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "فرماندهی کردن",
+          "en": "to command"
+        },
+        "id_ref": "verb_kommandieren"
+      },
+      {
+        "wort": "die Armee",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ارتش",
+          "en": "army"
+        },
+        "id_ref": "nomen_armee"
+      },
+      {
+        "wort": "der Offizier",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "افسر",
+          "en": "officer"
+        },
+        "id_ref": "nomen_offizier"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
