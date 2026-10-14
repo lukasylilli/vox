@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_benutzen",
+  "wort": "benutzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "استفاده کردن از، به کار بردن"
+    ],
+    "en": [
+      "to use"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "bəˈnʊt͡sn̩",
+  "anmerkung": "Untrennbar, regelmäßig (benutzte, benutzt). Süddeutsch/österreichisch auch: benützen.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Darf ich dein Handy benutzen?",
+      "uebersetzung": {
+        "fa": "می‌توانم از گوشی‌ات استفاده کنم؟",
+        "en": "May I use your phone?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn du den Drucker benutzt hast, schalte ihn bitte wieder aus.",
+      "uebersetzung": {
+        "fa": "وقتی از چاپگر استفاده کردی، لطفاً دوباره خاموشش کن.",
+        "en": "When you have used the printer, please switch it off again."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verwenden",
+      "uebersetzung": {
+        "fa": "به کار بردن",
+        "en": "to use"
+      }
+    },
+    {
+      "wort": "gebrauchen",
+      "uebersetzung": {
+        "fa": "استفاده کردن",
+        "en": "to make use of"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + nutzen (سود بردن، استفاده کردن)",
+    "en": "be- + nutzen (to use)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas als + Akk benutzen",
+        "bedeutung": "etwas für einen bestimmten Zweck verwenden",
+        "beispiel": "Ich benutze den Karton als Tisch.",
+        "uebersetzung": {
+          "fa": "از این جعبه به‌عنوان میز استفاده می‌کنم.",
+          "en": "I use the box as a table."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "benutzen",
+      "praeteritum": "benutzte",
+      "partizip2": "benutzt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "benutze",
+        "du": "benutzt",
+        "er_sie_es": "benutzt",
+        "wir": "benutzen",
+        "ihr": "benutzt",
+        "sie_Sie": "benutzen"
+      },
+      "praeteritum": {
+        "ich": "benutzte",
+        "du": "benutztest",
+        "er_sie_es": "benutzte",
+        "wir": "benutzten",
+        "ihr": "benutztet",
+        "sie_Sie": "benutzten"
+      },
+      "konjunktiv1": {
+        "ich": "benutze",
+        "du": "benutzest",
+        "er_sie_es": "benutze",
+        "wir": "benutzen",
+        "ihr": "benutzet",
+        "sie_Sie": "benutzen"
+      },
+      "konjunktiv2": {
+        "ich": "benutzte",
+        "du": "benutztest",
+        "er_sie_es": "benutzte",
+        "wir": "benutzten",
+        "ihr": "benutztet",
+        "sie_Sie": "benutzten"
+      },
+      "imperativ": {
+        "du": "Benutze!",
+        "ihr": "Benutzt!",
+        "Sie": "Benutzen Sie!"
+      }
+    },
+    "partizip1": "benutzend",
+    "nominalisierung": "die Benutzung"
+  },
+  "wortnetz": {
+    "grundwort": "Nutzen",
+    "woerter": [
+      {
+        "wort": "nutzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "استفاده کردن",
+          "en": "to use"
+        },
+        "id_ref": "verb_nutzen"
+      },
+      {
+        "wort": "der Benutzer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کاربر",
+          "en": "user"
+        },
+        "id_ref": "nomen_benutzer"
+      },
+      {
+        "wort": "verwenden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به کار بردن",
+          "en": "to use"
+        },
+        "id_ref": "verb_verwenden"
+      },
+      {
+        "wort": "nützlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مفید",
+          "en": "useful"
+        },
+        "id_ref": "adjektiv_nuetzlich"
+      },
+      {
+        "wort": "die Benutzung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "استفاده",
+          "en": "use"
+        },
+        "id_ref": "nomen_benutzung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

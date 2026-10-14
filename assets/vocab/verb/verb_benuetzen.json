@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_benuetzen",
+  "wort": "benützen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "استفاده کردن از، به کار بردن"
+    ],
+    "en": [
+      "to use"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "bəˈnʏt͡sn̩",
+  "anmerkung": "Untrennbar, regelmäßig (benützte, benützt). Süddeutsch, österreichisch und schweizerisch für benutzen.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich benütze den Bus.",
+      "uebersetzung": {
+        "fa": "من از اتوبوس استفاده می‌کنم.",
+        "en": "I use the bus."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "In Wien benützen viele Leute die Straßenbahn, weil sie schnell und billig ist.",
+      "uebersetzung": {
+        "fa": "در وین خیلی‌ها از تراموا استفاده می‌کنند، چون سریع و ارزان است.",
+        "en": "In Vienna many people use the tram because it is fast and cheap."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "benutzen",
+      "uebersetzung": {
+        "fa": "استفاده کردن",
+        "en": "to use"
+      }
+    },
+    {
+      "wort": "verwenden",
+      "uebersetzung": {
+        "fa": "به کار بردن",
+        "en": "to use"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + nützen (فایده داشتن، استفاده کردن)",
+    "en": "be- + nützen (to be of use)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas als + Akk benützen",
+        "bedeutung": "etwas für einen bestimmten Zweck verwenden",
+        "beispiel": "Er benützt das alte Hemd als Putzlappen.",
+        "uebersetzung": {
+          "fa": "او از پیراهن کهنه به‌عنوان دستمال تمیزکاری استفاده می‌کند.",
+          "en": "He uses the old shirt as a cleaning rag."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "benützen",
+      "praeteritum": "benützte",
+      "partizip2": "benützt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "benütze",
+        "du": "benützt",
+        "er_sie_es": "benützt",
+        "wir": "benützen",
+        "ihr": "benützt",
+        "sie_Sie": "benützen"
+      },
+      "praeteritum": {
+        "ich": "benützte",
+        "du": "benütztest",
+        "er_sie_es": "benützte",
+        "wir": "benützten",
+        "ihr": "benütztet",
+        "sie_Sie": "benützten"
+      },
+      "konjunktiv1": {
+        "ich": "benütze",
+        "du": "benützest",
+        "er_sie_es": "benütze",
+        "wir": "benützen",
+        "ihr": "benützet",
+        "sie_Sie": "benützen"
+      },
+      "konjunktiv2": {
+        "ich": "benützte",
+        "du": "benütztest",
+        "er_sie_es": "benützte",
+        "wir": "benützten",
+        "ihr": "benütztet",
+        "sie_Sie": "benützten"
+      },
+      "imperativ": {
+        "du": "Benütze!",
+        "ihr": "Benützt!",
+        "Sie": "Benützen Sie!"
+      }
+    },
+    "partizip1": "benützend",
+    "nominalisierung": "die Benützung"
+  },
+  "wortnetz": {
+    "grundwort": "Nutzen",
+    "woerter": [
+      {
+        "wort": "benutzen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "استفاده کردن",
+          "en": "to use"
+        },
+        "id_ref": "verb_benutzen"
+      },
+      {
+        "wort": "nützen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فایده داشتن",
+          "en": "to be of use"
+        },
+        "id_ref": "verb_nuetzen"
+      },
+      {
+        "wort": "nützlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مفید",
+          "en": "useful"
+        },
+        "id_ref": "adjektiv_nuetzlich"
+      },
+      {
+        "wort": "verwenden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به کار بردن",
+          "en": "to use"
+        },
+        "id_ref": "verb_verwenden"
+      },
+      {
+        "wort": "der Nutzen",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فایده",
+          "en": "benefit"
+        },
+        "id_ref": "nomen_nutzen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

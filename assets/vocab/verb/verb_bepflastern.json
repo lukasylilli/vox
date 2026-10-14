@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_bepflastern",
+  "wort": "bepflastern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سنگ‌فرش کردن؛ (زخم را) چسب زدن"
+    ],
+    "en": [
+      "to pave",
+      "to put plasters on"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Bauen",
+    "Gesundheit"
+  ],
+  "ipa": "bəˈp͡flastɐn",
+  "anmerkung": "Untrennbar, regelmäßig (bepflasterte, bepflastert). Umgangssprachlich auch: etwas dicht mit etwas bekleben.",
+  "berufe": [
+    "bau"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Arbeiter bepflastern den Platz.",
+      "uebersetzung": {
+        "fa": "کارگرها میدان را سنگ‌فرش می‌کنند.",
+        "en": "The workers are paving the square."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem sie hingefallen war, bepflasterte ihr Vater die aufgeschürften Knie.",
+      "uebersetzung": {
+        "fa": "بعد از اینکه زمین خورد، پدرش روی زانوهای زخمی‌اش چسب زد.",
+        "en": "After she had fallen, her father put plasters on her grazed knees."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "pflastern",
+      "uebersetzung": {
+        "fa": "سنگ‌فرش کردن",
+        "en": "to pave"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Pflaster (سنگ‌فرش؛ چسب زخم) + -n",
+    "en": "be- + Pflaster (paving; plaster) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas mit + Dat bepflastern",
+        "bedeutung": "etwas mit Steinen oder Pflastern bedecken",
+        "beispiel": "Sie haben den Hof mit alten Steinen bepflastert.",
+        "uebersetzung": {
+          "fa": "حیاط را با سنگ‌های قدیمی سنگ‌فرش کردند.",
+          "en": "They paved the courtyard with old stones."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bepflastern",
+      "praeteritum": "bepflasterte",
+      "partizip2": "bepflastert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bepflastere",
+        "du": "bepflasterst",
+        "er_sie_es": "bepflastert",
+        "wir": "bepflastern",
+        "ihr": "bepflastert",
+        "sie_Sie": "bepflastern"
+      },
+      "praeteritum": {
+        "ich": "bepflasterte",
+        "du": "bepflastertest",
+        "er_sie_es": "bepflasterte",
+        "wir": "bepflasterten",
+        "ihr": "bepflastertet",
+        "sie_Sie": "bepflasterten"
+      },
+      "konjunktiv1": {
+        "ich": "bepflastere",
+        "du": "bepflasterest",
+        "er_sie_es": "bepflastere",
+        "wir": "bepflastern",
+        "ihr": "bepflasteret",
+        "sie_Sie": "bepflastern"
+      },
+      "konjunktiv2": {
+        "ich": "bepflasterte",
+        "du": "bepflastertest",
+        "er_sie_es": "bepflasterte",
+        "wir": "bepflasterten",
+        "ihr": "bepflastertet",
+        "sie_Sie": "bepflasterten"
+      },
+      "imperativ": {
+        "du": "Bepflastere!",
+        "ihr": "Bepflastert!",
+        "Sie": "Bepflastern Sie!"
+      }
+    },
+    "partizip1": "bepflasternd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Pflaster",
+    "woerter": [
+      {
+        "wort": "das Pflaster",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چسب زخم؛ سنگ‌فرش",
+          "en": "plaster; paving"
+        },
+        "id_ref": "nomen_pflaster"
+      },
+      {
+        "wort": "pflastern",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سنگ‌فرش کردن",
+          "en": "to pave"
+        },
+        "id_ref": "verb_pflastern"
+      },
+      {
+        "wort": "der Stein",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سنگ",
+          "en": "stone"
+        },
+        "id_ref": "nomen_stein"
+      },
+      {
+        "wort": "die Straße",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خیابان",
+          "en": "street"
+        },
+        "id_ref": "nomen_strasse"
+      },
+      {
+        "wort": "die Wunde",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زخم",
+          "en": "wound"
+        },
+        "id_ref": "nomen_wunde"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

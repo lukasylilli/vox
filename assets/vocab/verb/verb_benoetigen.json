@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_benoetigen",
+  "wort": "benötigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نیاز داشتن، لازم داشتن"
+    ],
+    "en": [
+      "to need",
+      "to require"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Arbeit"
+  ],
+  "ipa": "bəˈnøːtɪɡn̩",
+  "anmerkung": "Untrennbar, regelmäßig (benötigte, benötigt). Etwas formeller als brauchen.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich benötige einen Stift.",
+      "uebersetzung": {
+        "fa": "یک خودکار لازم دارم.",
+        "en": "I need a pen."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Für den Antrag benötigen Sie einen gültigen Pass und ein Foto.",
+      "uebersetzung": {
+        "fa": "برای درخواست به یک گذرنامه‌ی معتبر و یک عکس نیاز دارید.",
+        "en": "For the application you need a valid passport and a photo."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "brauchen",
+      "uebersetzung": {
+        "fa": "لازم داشتن",
+        "en": "to need"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + nötig (لازم) + -en",
+    "en": "be- + nötig (necessary) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas für + Akk benötigen",
+        "bedeutung": "etwas für einen Zweck brauchen",
+        "beispiel": "Wir benötigen das Geld für die Reparatur.",
+        "uebersetzung": {
+          "fa": "این پول را برای تعمیر لازم داریم.",
+          "en": "We need the money for the repair."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "benötigen",
+      "praeteritum": "benötigte",
+      "partizip2": "benötigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "benötige",
+        "du": "benötigst",
+        "er_sie_es": "benötigt",
+        "wir": "benötigen",
+        "ihr": "benötigt",
+        "sie_Sie": "benötigen"
+      },
+      "praeteritum": {
+        "ich": "benötigte",
+        "du": "benötigtest",
+        "er_sie_es": "benötigte",
+        "wir": "benötigten",
+        "ihr": "benötigtet",
+        "sie_Sie": "benötigten"
+      },
+      "konjunktiv1": {
+        "ich": "benötige",
+        "du": "benötigest",
+        "er_sie_es": "benötige",
+        "wir": "benötigen",
+        "ihr": "benötiget",
+        "sie_Sie": "benötigen"
+      },
+      "konjunktiv2": {
+        "ich": "benötigte",
+        "du": "benötigtest",
+        "er_sie_es": "benötigte",
+        "wir": "benötigten",
+        "ihr": "benötigtet",
+        "sie_Sie": "benötigten"
+      },
+      "imperativ": {
+        "du": "Benötige!",
+        "ihr": "Benötigt!",
+        "Sie": "Benötigen Sie!"
+      }
+    },
+    "partizip1": "benötigend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Not",
+    "woerter": [
+      {
+        "wort": "brauchen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "لازم داشتن",
+          "en": "to need"
+        },
+        "id_ref": "verb_brauchen"
+      },
+      {
+        "wort": "nötig",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "لازم",
+          "en": "necessary"
+        },
+        "id_ref": "adjektiv_noetig"
+      },
+      {
+        "wort": "notwendig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ضروری",
+          "en": "necessary"
+        },
+        "id_ref": "adjektiv_notwendig"
+      },
+      {
+        "wort": "der Bedarf",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نیاز",
+          "en": "demand, need"
+        },
+        "id_ref": "nomen_bedarf"
+      },
+      {
+        "wort": "erforderlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لازم",
+          "en": "required"
+        },
+        "id_ref": "adjektiv_erforderlich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

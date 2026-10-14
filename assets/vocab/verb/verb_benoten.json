@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_benoten",
+  "wort": "benoten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نمره دادن"
+    ],
+    "en": [
+      "to grade",
+      "to mark"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Schule",
+    "Bildung"
+  ],
+  "ipa": "bəˈnoːtn̩",
+  "anmerkung": "Untrennbar, regelmäßig (benotete, benotet).",
+  "berufe": [
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Lehrerin benotet die Tests.",
+      "uebersetzung": {
+        "fa": "معلم به امتحان‌ها نمره می‌دهد.",
+        "en": "The teacher grades the tests."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Arbeit wird erst benotet, wenn alle Schüler sie abgegeben haben.",
+      "uebersetzung": {
+        "fa": "به این کار وقتی نمره داده می‌شود که همه‌ی دانش‌آموزان آن را تحویل داده باشند.",
+        "en": "The work is only graded once all the pupils have handed it in."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bewerten",
+      "uebersetzung": {
+        "fa": "ارزیابی کردن",
+        "en": "to assess"
+      }
+    },
+    {
+      "wort": "zensieren",
+      "uebersetzung": {
+        "fa": "نمره دادن",
+        "en": "to mark"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Note (نمره) + -n",
+    "en": "be- + Note (grade) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas mit + Dat benoten",
+        "bedeutung": "einer Arbeit eine bestimmte Note geben",
+        "beispiel": "Der Lehrer hat meinen Aufsatz mit einer Zwei benotet.",
+        "uebersetzung": {
+          "fa": "معلم به انشای من نمره‌ی دو داد.",
+          "en": "The teacher gave my essay a two."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "benoten",
+      "praeteritum": "benotete",
+      "partizip2": "benotet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "benote",
+        "du": "benotest",
+        "er_sie_es": "benotet",
+        "wir": "benoten",
+        "ihr": "benotet",
+        "sie_Sie": "benoten"
+      },
+      "praeteritum": {
+        "ich": "benotete",
+        "du": "benotetest",
+        "er_sie_es": "benotete",
+        "wir": "benoteten",
+        "ihr": "benotetet",
+        "sie_Sie": "benoteten"
+      },
+      "konjunktiv1": {
+        "ich": "benote",
+        "du": "benotest",
+        "er_sie_es": "benote",
+        "wir": "benoten",
+        "ihr": "benotet",
+        "sie_Sie": "benoten"
+      },
+      "konjunktiv2": {
+        "ich": "benotete",
+        "du": "benotetest",
+        "er_sie_es": "benotete",
+        "wir": "benoteten",
+        "ihr": "benotetet",
+        "sie_Sie": "benoteten"
+      },
+      "imperativ": {
+        "du": "Benote!",
+        "ihr": "Benotet!",
+        "Sie": "Benoten Sie!"
+      }
+    },
+    "partizip1": "benotend",
+    "nominalisierung": "die Benotung"
+  },
+  "wortnetz": {
+    "grundwort": "Note",
+    "woerter": [
+      {
+        "wort": "die Note",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نمره",
+          "en": "grade"
+        },
+        "id_ref": "nomen_note"
+      },
+      {
+        "wort": "die Prüfung",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "امتحان",
+          "en": "exam"
+        },
+        "id_ref": "nomen_pruefung"
+      },
+      {
+        "wort": "bewerten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ارزیابی کردن",
+          "en": "to assess"
+        },
+        "id_ref": "verb_bewerten"
+      },
+      {
+        "wort": "das Zeugnis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کارنامه",
+          "en": "report card"
+        },
+        "id_ref": "nomen_zeugnis"
+      },
+      {
+        "wort": "die Benotung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نمره‌دهی",
+          "en": "grading"
+        },
+        "id_ref": "nomen_benotung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

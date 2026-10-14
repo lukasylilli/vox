@@ -1584,6 +1584,7 @@ const zurueckgestellt = <String>{
   'begnaden', // zurückgestellt (Regel 14/16): gehoben/veraltet (meist begnadet) 2026-10-13
   'bekiffen', // zurückgestellt (Regel 14/16): umgangssprachlich (Drogen), selten 2026-10-13
   'belämmern', // zurückgestellt (Regel 14/16): umgangssprachlich, selten; Bedeutung (belästigen/betrügen) nicht sicher 2026-10-14
+  'benedeien', // zurückgestellt (Regel 14/16): veraltet/kirchlich; Partizip II schwankt (benedeit/gebenedeit) 2026-10-14
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

@@ -1,0 +1,195 @@
+{
+  "schema": "3.0",
+  "id": "verb_benetzen",
+  "wort": "benetzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خیس کردن، نم زدن"
+    ],
+    "en": [
+      "to moisten",
+      "to wet"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Alltag"
+  ],
+  "ipa": "bəˈnɛt͡sn̩",
+  "anmerkung": "Untrennbar, regelmäßig (benetzte, benetzt). Gehoben.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Tau benetzt das Gras.",
+      "uebersetzung": {
+        "fa": "شبنم چمن را خیس می‌کند.",
+        "en": "The dew moistens the grass."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor man die Kontaktlinse einsetzt, sollte man sie mit der Lösung benetzen.",
+      "uebersetzung": {
+        "fa": "قبل از اینکه لنز را بگذاری، باید آن را با محلول خیس کنی.",
+        "en": "Before inserting the contact lens, you should wet it with the solution."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "befeuchten",
+      "uebersetzung": {
+        "fa": "مرطوب کردن",
+        "en": "to moisten"
+      }
+    },
+    {
+      "wort": "anfeuchten",
+      "uebersetzung": {
+        "fa": "نم زدن",
+        "en": "to dampen"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "trocknen",
+      "uebersetzung": {
+        "fa": "خشک کردن",
+        "en": "to dry"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + netzen (خیس کردن، کهن)",
+    "en": "be- + netzen (to wet, old)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas mit + Dat benetzen",
+        "bedeutung": "etwas mit einer Flüssigkeit leicht nass machen",
+        "beispiel": "Sie benetzte die Lippen mit etwas Wasser.",
+        "uebersetzung": {
+          "fa": "او لب‌هایش را با کمی آب خیس کرد.",
+          "en": "She moistened her lips with a little water."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "benetzen",
+      "praeteritum": "benetzte",
+      "partizip2": "benetzt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "benetze",
+        "du": "benetzt",
+        "er_sie_es": "benetzt",
+        "wir": "benetzen",
+        "ihr": "benetzt",
+        "sie_Sie": "benetzen"
+      },
+      "praeteritum": {
+        "ich": "benetzte",
+        "du": "benetztest",
+        "er_sie_es": "benetzte",
+        "wir": "benetzten",
+        "ihr": "benetztet",
+        "sie_Sie": "benetzten"
+      },
+      "konjunktiv1": {
+        "ich": "benetze",
+        "du": "benetzest",
+        "er_sie_es": "benetze",
+        "wir": "benetzen",
+        "ihr": "benetzet",
+        "sie_Sie": "benetzen"
+      },
+      "konjunktiv2": {
+        "ich": "benetzte",
+        "du": "benetztest",
+        "er_sie_es": "benetzte",
+        "wir": "benetzten",
+        "ihr": "benetztet",
+        "sie_Sie": "benetzten"
+      },
+      "imperativ": {
+        "du": "Benetze!",
+        "ihr": "Benetzt!",
+        "Sie": "Benetzen Sie!"
+      }
+    },
+    "partizip1": "benetzend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "nass",
+    "woerter": [
+      {
+        "wort": "nass",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خیس",
+          "en": "wet"
+        },
+        "id_ref": "adjektiv_nass"
+      },
+      {
+        "wort": "feucht",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مرطوب",
+          "en": "damp"
+        },
+        "id_ref": "adjektiv_feucht"
+      },
+      {
+        "wort": "befeuchten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مرطوب کردن",
+          "en": "to moisten"
+        },
+        "id_ref": "verb_befeuchten"
+      },
+      {
+        "wort": "der Tau",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شبنم",
+          "en": "dew"
+        },
+        "id_ref": "nomen_tau"
+      },
+      {
+        "wort": "trocknen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خشک کردن",
+          "en": "to dry"
+        },
+        "id_ref": "verb_trocknen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
