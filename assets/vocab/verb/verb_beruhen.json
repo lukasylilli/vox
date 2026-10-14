@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_beruhen",
+  "wort": "beruhen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مبتنی بودن بر، ناشی شدن از"
+    ],
+    "en": [
+      "to be based on",
+      "to rest on"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Wissenschaft",
+    "Kommunikation"
+  ],
+  "ipa": "bəˈʁuːən",
+  "anmerkung": "Untrennbar, regelmäßig (beruhte, beruht). Immer mit «auf + Dat». Wendung: Das beruht auf Gegenseitigkeit.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Film beruht auf einer wahren Geschichte.",
+      "uebersetzung": {
+        "fa": "این فیلم بر اساس یک داستان واقعی است.",
+        "en": "The film is based on a true story."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Seine Angst beruht darauf, dass er als Kind einen schweren Unfall hatte.",
+      "uebersetzung": {
+        "fa": "ترس او از این ناشی می‌شود که در کودکی تصادف سختی داشت.",
+        "en": "His fear stems from the fact that he had a serious accident as a child."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "basieren",
+      "uebersetzung": {
+        "fa": "مبتنی بودن",
+        "en": "to be based"
+      }
+    },
+    {
+      "wort": "sich gründen",
+      "uebersetzung": {
+        "fa": "استوار بودن",
+        "en": "to be founded"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + ruhen (آرام گرفتن، قرار داشتن)",
+    "en": "be- + ruhen (to rest)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Dat beruhen",
+        "bedeutung": "etwas als Grundlage haben",
+        "beispiel": "Die Entscheidung beruht auf neuen Zahlen.",
+        "uebersetzung": {
+          "fa": "این تصمیم بر پایه‌ی آمار جدید است.",
+          "en": "The decision is based on new figures."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beruhen",
+      "praeteritum": "beruhte",
+      "partizip2": "beruht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beruhe",
+        "du": "beruhst",
+        "er_sie_es": "beruht",
+        "wir": "beruhen",
+        "ihr": "beruht",
+        "sie_Sie": "beruhen"
+      },
+      "praeteritum": {
+        "ich": "beruhte",
+        "du": "beruhtest",
+        "er_sie_es": "beruhte",
+        "wir": "beruhten",
+        "ihr": "beruhtet",
+        "sie_Sie": "beruhten"
+      },
+      "konjunktiv1": {
+        "ich": "beruhe",
+        "du": "beruhest",
+        "er_sie_es": "beruhe",
+        "wir": "beruhen",
+        "ihr": "beruhet",
+        "sie_Sie": "beruhen"
+      },
+      "konjunktiv2": {
+        "ich": "beruhte",
+        "du": "beruhtest",
+        "er_sie_es": "beruhte",
+        "wir": "beruhten",
+        "ihr": "beruhtet",
+        "sie_Sie": "beruhten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "beruhend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Ruhe",
+    "woerter": [
+      {
+        "wort": "basieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مبتنی بودن",
+          "en": "to be based"
+        },
+        "id_ref": "verb_basieren"
+      },
+      {
+        "wort": "die Grundlage",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پایه، مبنا",
+          "en": "basis"
+        },
+        "id_ref": "nomen_grundlage"
+      },
+      {
+        "wort": "der Grund",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دلیل",
+          "en": "reason"
+        },
+        "id_ref": "nomen_grund"
+      },
+      {
+        "wort": "die Ursache",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "علت",
+          "en": "cause"
+        },
+        "id_ref": "nomen_ursache"
+      },
+      {
+        "wort": "ruhen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آرام گرفتن",
+          "en": "to rest"
+        },
+        "id_ref": "verb_ruhen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

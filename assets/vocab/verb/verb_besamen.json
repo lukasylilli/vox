@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "verb_besamen",
+  "wort": "besamen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بارور کردن، تلقیح کردن"
+    ],
+    "en": [
+      "to inseminate",
+      "to fertilize"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Biologie"
+  ],
+  "ipa": "bəˈzaːmən",
+  "anmerkung": "Untrennbar, regelmäßig (besamte, besamt). Vor allem Biologie und Tierzucht.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Tierarzt besamt die Kuh.",
+      "uebersetzung": {
+        "fa": "دامپزشک گاو را تلقیح می‌کند.",
+        "en": "The vet inseminates the cow."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei vielen Fischen werden die Eier erst besamt, nachdem das Weibchen sie abgelegt hat.",
+      "uebersetzung": {
+        "fa": "در بسیاری از ماهی‌ها تخم‌ها پس از آنکه ماده آن‌ها را گذاشت، بارور می‌شوند.",
+        "en": "In many fish the eggs are only fertilized after the female has laid them."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "befruchten",
+      "uebersetzung": {
+        "fa": "بارور کردن",
+        "en": "to fertilize"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Samen (دانه، نطفه) + -en",
+    "en": "be- + Samen (seed, semen) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "besamen",
+      "praeteritum": "besamte",
+      "partizip2": "besamt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "besame",
+        "du": "besamst",
+        "er_sie_es": "besamt",
+        "wir": "besamen",
+        "ihr": "besamt",
+        "sie_Sie": "besamen"
+      },
+      "praeteritum": {
+        "ich": "besamte",
+        "du": "besamtest",
+        "er_sie_es": "besamte",
+        "wir": "besamten",
+        "ihr": "besamtet",
+        "sie_Sie": "besamten"
+      },
+      "konjunktiv1": {
+        "ich": "besame",
+        "du": "besamest",
+        "er_sie_es": "besame",
+        "wir": "besamen",
+        "ihr": "besamet",
+        "sie_Sie": "besamen"
+      },
+      "konjunktiv2": {
+        "ich": "besamte",
+        "du": "besamtest",
+        "er_sie_es": "besamte",
+        "wir": "besamten",
+        "ihr": "besamtet",
+        "sie_Sie": "besamten"
+      },
+      "imperativ": {
+        "du": "Besame!",
+        "ihr": "Besamt!",
+        "Sie": "Besamen Sie!"
+      }
+    },
+    "partizip1": "besamend",
+    "nominalisierung": "die Besamung"
+  },
+  "wortnetz": {
+    "grundwort": "Samen",
+    "woerter": [
+      {
+        "wort": "der Samen",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دانه، بذر",
+          "en": "seed"
+        },
+        "id_ref": "nomen_samen"
+      },
+      {
+        "wort": "befruchten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بارور کردن",
+          "en": "to fertilize"
+        },
+        "id_ref": "verb_befruchten"
+      },
+      {
+        "wort": "die Befruchtung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "لقاح",
+          "en": "fertilization"
+        },
+        "id_ref": "nomen_befruchtung"
+      },
+      {
+        "wort": "das Ei",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تخم",
+          "en": "egg"
+        },
+        "id_ref": "nomen_ei"
+      },
+      {
+        "wort": "die Besamung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تلقیح",
+          "en": "insemination"
+        },
+        "id_ref": "nomen_besamung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_berauschen",
+  "wort": "berauschen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مست کردن، سرمست کردن"
+    ],
+    "en": [
+      "to intoxicate",
+      "to exhilarate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle",
+    "Gesundheit"
+  ],
+  "ipa": "bəˈʁaʊ̯ʃn̩",
+  "anmerkung": "Untrennbar, regelmäßig (berauschte, berauscht). Oft übertragen: von Glück berauscht.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Musik berauscht ihn.",
+      "uebersetzung": {
+        "fa": "موسیقی او را سرمست می‌کند.",
+        "en": "The music intoxicates him."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Zuschauer waren so berauscht vom Sieg, dass sie bis Mitternacht feierten.",
+      "uebersetzung": {
+        "fa": "تماشاگران آن‌قدر از پیروزی سرمست بودند که تا نیمه‌شب جشن گرفتند.",
+        "en": "The spectators were so exhilarated by the victory that they celebrated until midnight."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "begeistern",
+      "uebersetzung": {
+        "fa": "به شوق آوردن",
+        "en": "to thrill"
+      }
+    },
+    {
+      "wort": "betrunken machen",
+      "uebersetzung": {
+        "fa": "مست کردن",
+        "en": "to make drunk"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Rausch (مستی) + -en",
+    "en": "be- + Rausch (intoxication) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich an + Dat berauschen",
+        "bedeutung": "an etwas großen Genuss finden",
+        "beispiel": "Sie berauschten sich an der schönen Aussicht.",
+        "uebersetzung": {
+          "fa": "آن‌ها از منظره‌ی زیبا سرمست شدند.",
+          "en": "They revelled in the beautiful view."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "berauschen",
+      "praeteritum": "berauschte",
+      "partizip2": "berauscht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "berausche",
+        "du": "berauschst",
+        "er_sie_es": "berauscht",
+        "wir": "berauschen",
+        "ihr": "berauscht",
+        "sie_Sie": "berauschen"
+      },
+      "praeteritum": {
+        "ich": "berauschte",
+        "du": "berauschtest",
+        "er_sie_es": "berauschte",
+        "wir": "berauschten",
+        "ihr": "berauschtet",
+        "sie_Sie": "berauschten"
+      },
+      "konjunktiv1": {
+        "ich": "berausche",
+        "du": "berauschest",
+        "er_sie_es": "berausche",
+        "wir": "berauschen",
+        "ihr": "berauschet",
+        "sie_Sie": "berauschen"
+      },
+      "konjunktiv2": {
+        "ich": "berauschte",
+        "du": "berauschtest",
+        "er_sie_es": "berauschte",
+        "wir": "berauschten",
+        "ihr": "berauschtet",
+        "sie_Sie": "berauschten"
+      },
+      "imperativ": {
+        "du": "Berausche!",
+        "ihr": "Berauscht!",
+        "Sie": "Berauschen Sie!"
+      }
+    },
+    "partizip1": "berauschend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Rausch",
+    "woerter": [
+      {
+        "wort": "der Rausch",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مستی، سرمستی",
+          "en": "intoxication"
+        },
+        "id_ref": "nomen_rausch"
+      },
+      {
+        "wort": "das Rauschgift",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مواد مخدر",
+          "en": "drug"
+        },
+        "id_ref": "nomen_rauschgift"
+      },
+      {
+        "wort": "betrunken",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مست",
+          "en": "drunk"
+        },
+        "id_ref": "adjektiv_betrunken"
+      },
+      {
+        "wort": "begeistern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به شوق آوردن",
+          "en": "to thrill"
+        },
+        "id_ref": "verb_begeistern"
+      },
+      {
+        "wort": "nüchtern",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "هشیار",
+          "en": "sober"
+        },
+        "id_ref": "adjektiv_nuechtern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

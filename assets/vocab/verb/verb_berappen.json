@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_berappen",
+  "wort": "berappen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(پول) سلفیدن، پرداختن"
+    ],
+    "en": [
+      "to fork out",
+      "to cough up"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Finanzen",
+    "Alltag"
+  ],
+  "ipa": "bəˈʁapn̩",
+  "anmerkung": "Untrennbar, regelmäßig (berappte, berappt). Umgangssprachlich für (widerwillig) bezahlen.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir mussten viel Geld berappen.",
+      "uebersetzung": {
+        "fa": "مجبور شدیم پول زیادی بسلفیم.",
+        "en": "We had to fork out a lot of money."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wer zu schnell fährt, muss in der Schweiz ordentlich berappen.",
+      "uebersetzung": {
+        "fa": "هر کس در سوئیس تند براند، باید حسابی پول بسلفد.",
+        "en": "Anyone who speeds in Switzerland has to pay up big time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bezahlen",
+      "uebersetzung": {
+        "fa": "پرداختن",
+        "en": "to pay"
+      }
+    },
+    {
+      "wort": "blechen",
+      "uebersetzung": {
+        "fa": "سلفیدن",
+        "en": "to fork out"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Rappen (سکه‌ی کوچک سوئیسی) + -en",
+    "en": "be- + Rappen (small Swiss coin) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "für + Akk berappen",
+        "bedeutung": "für etwas bezahlen müssen",
+        "beispiel": "Für das Ticket musste er hundert Euro berappen.",
+        "uebersetzung": {
+          "fa": "برای بلیت مجبور شد صد یورو بسلفد.",
+          "en": "He had to fork out a hundred euros for the ticket."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "berappen",
+      "praeteritum": "berappte",
+      "partizip2": "berappt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "berappe",
+        "du": "berappst",
+        "er_sie_es": "berappt",
+        "wir": "berappen",
+        "ihr": "berappt",
+        "sie_Sie": "berappen"
+      },
+      "praeteritum": {
+        "ich": "berappte",
+        "du": "berapptest",
+        "er_sie_es": "berappte",
+        "wir": "berappten",
+        "ihr": "berapptet",
+        "sie_Sie": "berappten"
+      },
+      "konjunktiv1": {
+        "ich": "berappe",
+        "du": "berappest",
+        "er_sie_es": "berappe",
+        "wir": "berappen",
+        "ihr": "berappet",
+        "sie_Sie": "berappen"
+      },
+      "konjunktiv2": {
+        "ich": "berappte",
+        "du": "berapptest",
+        "er_sie_es": "berappte",
+        "wir": "berappten",
+        "ihr": "berapptet",
+        "sie_Sie": "berappten"
+      },
+      "imperativ": {
+        "du": "Berappe!",
+        "ihr": "Berappt!",
+        "Sie": "Berappen Sie!"
+      }
+    },
+    "partizip1": "berappend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Geld",
+    "woerter": [
+      {
+        "wort": "bezahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_bezahlen"
+      },
+      {
+        "wort": "das Geld",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پول",
+          "en": "money"
+        },
+        "id_ref": "nomen_geld"
+      },
+      {
+        "wort": "zahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_zahlen"
+      },
+      {
+        "wort": "blechen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سلفیدن",
+          "en": "to fork out"
+        },
+        "id_ref": "verb_blechen"
+      },
+      {
+        "wort": "teuer",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گران",
+          "en": "expensive"
+        },
+        "id_ref": "adjektiv_teuer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
