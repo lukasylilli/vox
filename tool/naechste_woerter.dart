@@ -1513,6 +1513,28 @@ const zurueckgestellt = <String>{
   'apern', // zurückgestellt (Regel 14/16): regional (schneefrei werden) 2026-10-13
   'äpfeln', // zurückgestellt (Regel 14/16): selten (vom Pferd: Kot absetzen) 2026-10-13
   'apostrophieren', // zurückgestellt (Regel 14/16): gehoben/selten 2026-10-13
+  'approximieren', // zurückgestellt (Regel 14/16): fachsprachlich 2026-10-13
+  'aptieren', // zurückgestellt (Regel 14/16): veraltet 2026-10-13
+  'aquarellieren', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'äquilibrieren', // zurückgestellt (Regel 14/16): fachsprachlich/selten 2026-10-13
+  'arabisieren', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'arbitrieren', // zurückgestellt (Regel 14/16): fachsprachlich 2026-10-13
+  'archaisieren', // zurückgestellt (Regel 14/16): gehoben/selten 2026-10-13
+  'arisieren', // zurückgestellt (Regel 14/16): historischer NS-Fachbegriff — Entscheidung Lukas 2026-10-13
+  'arkadieren', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'armieren', // zurückgestellt (Regel 14/16): fachsprachlich (Bautechnik) 2026-10-13
+  'armmachen', // zurückgestellt (Regel 14/16): Schreibung (arm machen) 2026-10-13
+  'arretieren', // zurückgestellt (Regel 14/16): fachsprachlich/veraltet 2026-10-13
+  'arrivieren', // zurückgestellt (Regel 14/16): gehoben/selten 2026-10-13
+  'arrodieren', // zurückgestellt (Regel 14/16): fachsprachlich 2026-10-13
+  'arrondieren', // zurückgestellt (Regel 14/16): fachsprachlich 2026-10-13
+  'arsenieren', // zurückgestellt (Regel 14/16): fachsprachlich 2026-10-13
+  'arten', // zurückgestellt (Regel 14/16): selten, Hilfsverb schwankt (ist geartet) 2026-10-13
+  'äsen', // zurückgestellt (Regel 14/16): Jägersprache 2026-10-13
+  'aspirieren', // zurückgestellt (Regel 14/16): fachsprachlich 2026-10-13
+  'assekurieren', // zurückgestellt (Regel 14/16): veraltet 2026-10-13
+  'assemblieren', // zurückgestellt (Regel 14/16): fachsprachlich 2026-10-13
+  'asservieren', // zurückgestellt (Regel 14/16): fachsprachlich (Recht) 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

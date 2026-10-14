@@ -2824,6 +2824,28 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۴۶۰ | apern | `Verben_regelmaesig.txt` | 2026-10-13 | منطقه‌ای — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۶۱ | äpfeln | `Verben_regelmaesig.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۶۲ | apostrophieren | `Verben_regelmaesig.txt` | 2026-10-13 | ادبی/نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۶۳ | approximieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۶۴ | aptieren | `Verben_regelmaesig.txt` | 2026-10-13 | قدیمی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۶۵ | aquarellieren | `Verben_regelmaesig.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۶۶ | äquilibrieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی/نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۶۷ | arabisieren | `Verben_regelmaesig.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۶۸ | arbitrieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۶۹ | archaisieren | `Verben_regelmaesig.txt` | 2026-10-13 | ادبی/نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۷۰ | arisieren | `Verben_regelmaesig.txt` | 2026-10-13 | اصطلاح تاریخی دوران نازی — تصمیم Lukas — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۷۱ | arkadieren | `Verben_regelmaesig.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۷۲ | armieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی (ساختمان) — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۷۳ | armmachen | `Verben_regelmaesig.txt` | 2026-10-13 | املا (arm machen) — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۷۴ | arretieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی/قدیمی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۷۵ | arrivieren | `Verben_regelmaesig.txt` | 2026-10-13 | ادبی/نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۷۶ | arrodieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۷۷ | arrondieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۷۸ | arsenieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۷۹ | arten | `Verben_regelmaesig.txt` | 2026-10-13 | نادر، فعل کمکی نامطمئن — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۸۰ | äsen | `Verben_regelmaesig.txt` | 2026-10-13 | اصطلاح شکارچیان — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۸۱ | aspirieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۸۲ | assekurieren | `Verben_regelmaesig.txt` | 2026-10-13 | قدیمی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۸۳ | assemblieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۸۴ | asservieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی (حقوقی) — قاعده‌ی ۱۴/۱۶ | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 

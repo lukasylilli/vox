@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_arrangieren",
+  "wort": "arrangieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ترتیب دادن، سازمان دادن",
+      "تنظیم کردن (موسیقی)",
+      "کنار آمدن"
+    ],
+    "en": [
+      "to arrange",
+      "to come to terms"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Musik"
+  ],
+  "ipa": "aʁɑ̃ˈʒiːʁən",
+  "anmerkung": "Regelmäßig (arrangierte, arrangiert). Reflexiv: «sich mit + Dat arrangieren» (= sich abfinden).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie arrangiert die Blumen.",
+      "uebersetzung": {
+        "fa": "او گل‌ها را می‌چیند.",
+        "en": "She arranges the flowers."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Mit der kleinen Wohnung haben wir uns arrangiert, bis wir etwas Größeres finden.",
+      "uebersetzung": {
+        "fa": "با آپارتمان کوچک کنار آمده‌ایم تا چیز بزرگ‌تری پیدا کنیم.",
+        "en": "We have come to terms with the small flat until we find something bigger."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "organisieren",
+      "uebersetzung": {
+        "fa": "سازمان دادن",
+        "en": "to organise"
+      }
+    },
+    {
+      "wort": "sich abfinden",
+      "uebersetzung": {
+        "fa": "کنار آمدن",
+        "en": "to put up with"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از فرانسوی arranger (مرتب کردن)",
+    "en": "from French arranger (to arrange)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich mit + Dat arrangieren",
+        "bedeutung": "sich mit einer Lage abfinden",
+        "beispiel": "Er hat sich mit seinem Chef arrangiert.",
+        "uebersetzung": {
+          "fa": "او با رئیسش کنار آمده است.",
+          "en": "He has come to an arrangement with his boss."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "arrangieren",
+      "praeteritum": "arrangierte",
+      "partizip2": "arrangiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "arrangiere",
+        "du": "arrangierst",
+        "er_sie_es": "arrangiert",
+        "wir": "arrangieren",
+        "ihr": "arrangiert",
+        "sie_Sie": "arrangieren"
+      },
+      "praeteritum": {
+        "ich": "arrangierte",
+        "du": "arrangiertest",
+        "er_sie_es": "arrangierte",
+        "wir": "arrangierten",
+        "ihr": "arrangiertet",
+        "sie_Sie": "arrangierten"
+      },
+      "konjunktiv1": {
+        "ich": "arrangiere",
+        "du": "arrangierest",
+        "er_sie_es": "arrangiere",
+        "wir": "arrangieren",
+        "ihr": "arrangieret",
+        "sie_Sie": "arrangieren"
+      },
+      "konjunktiv2": {
+        "ich": "arrangierte",
+        "du": "arrangiertest",
+        "er_sie_es": "arrangierte",
+        "wir": "arrangierten",
+        "ihr": "arrangiertet",
+        "sie_Sie": "arrangierten"
+      },
+      "imperativ": {
+        "du": "Arrangiere!",
+        "ihr": "Arrangiert!",
+        "Sie": "Arrangieren Sie!"
+      }
+    },
+    "partizip1": "arrangierend",
+    "nominalisierung": "das Arrangement"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "organisieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سازمان دادن",
+          "en": "to organise"
+        },
+        "id_ref": "verb_organisieren"
+      },
+      {
+        "wort": "vorbereiten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آماده کردن",
+          "en": "to prepare"
+        },
+        "id_ref": "verb_vorbereiten"
+      },
+      {
+        "wort": "das Arrangement",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تنظیم؛ توافق",
+          "en": "arrangement"
+        },
+        "id_ref": "nomen_arrangement"
+      },
+      {
+        "wort": "der Kompromiss",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سازش",
+          "en": "compromise"
+        },
+        "id_ref": "nomen_kompromiss"
+      },
+      {
+        "wort": "ordnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مرتب کردن",
+          "en": "to sort"
+        },
+        "id_ref": "verb_ordnen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

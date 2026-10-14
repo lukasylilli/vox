@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_archivieren",
+  "wort": "archivieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بایگانی کردن"
+    ],
+    "en": [
+      "to archive"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit",
+    "Technik"
+  ],
+  "ipa": "aʁçiˈviːʁən",
+  "anmerkung": "Regelmäßig (archivierte, archiviert).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir archivieren alte E-Mails.",
+      "uebersetzung": {
+        "fa": "ایمیل‌های قدیمی را بایگانی می‌کنیم.",
+        "en": "We archive old emails."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Rechnungen müssen zehn Jahre archiviert werden, damit man sie bei einer Prüfung vorzeigen kann.",
+      "uebersetzung": {
+        "fa": "صورت‌حساب‌ها باید ده سال بایگانی شوند تا بتوان در بازرسی نشانشان داد.",
+        "en": "Invoices must be archived for ten years so that they can be shown in an audit."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufbewahren",
+      "uebersetzung": {
+        "fa": "نگه داشتن",
+        "en": "to keep"
+      }
+    },
+    {
+      "wort": "ablegen",
+      "uebersetzung": {
+        "fa": "بایگانی کردن",
+        "en": "to file"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "löschen",
+      "uebersetzung": {
+        "fa": "پاک کردن",
+        "en": "to delete"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از das Archiv (بایگانی) + -ieren",
+    "en": "from das Archiv (archive) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "archivieren",
+      "praeteritum": "archivierte",
+      "partizip2": "archiviert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "archiviere",
+        "du": "archivierst",
+        "er_sie_es": "archiviert",
+        "wir": "archivieren",
+        "ihr": "archiviert",
+        "sie_Sie": "archivieren"
+      },
+      "praeteritum": {
+        "ich": "archivierte",
+        "du": "archiviertest",
+        "er_sie_es": "archivierte",
+        "wir": "archivierten",
+        "ihr": "archiviertet",
+        "sie_Sie": "archivierten"
+      },
+      "konjunktiv1": {
+        "ich": "archiviere",
+        "du": "archivierest",
+        "er_sie_es": "archiviere",
+        "wir": "archivieren",
+        "ihr": "archivieret",
+        "sie_Sie": "archivieren"
+      },
+      "konjunktiv2": {
+        "ich": "archivierte",
+        "du": "archiviertest",
+        "er_sie_es": "archivierte",
+        "wir": "archivierten",
+        "ihr": "archiviertet",
+        "sie_Sie": "archivierten"
+      },
+      "imperativ": {
+        "du": "Archiviere!",
+        "ihr": "Archiviert!",
+        "Sie": "Archivieren Sie!"
+      }
+    },
+    "partizip1": "archivierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "das Archiv",
+    "woerter": [
+      {
+        "wort": "das Archiv",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بایگانی",
+          "en": "archive"
+        },
+        "id_ref": "nomen_archiv"
+      },
+      {
+        "wort": "aufbewahren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to keep"
+        },
+        "id_ref": "verb_aufbewahren"
+      },
+      {
+        "wort": "der Ordner",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پوشه",
+          "en": "folder"
+        },
+        "id_ref": "nomen_ordner"
+      },
+      {
+        "wort": "die Akte",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پرونده",
+          "en": "file"
+        },
+        "id_ref": "nomen_akte"
+      },
+      {
+        "wort": "speichern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ذخیره کردن",
+          "en": "to save"
+        },
+        "id_ref": "verb_speichern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
