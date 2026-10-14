@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_bahnen",
+  "wort": "bahnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(راه) باز کردن"
+    ],
+    "en": [
+      "to clear (a way)",
+      "to pave the way"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈbaːnən",
+  "anmerkung": "Regelmäßig (bahnte, gebahnt). Meist: «sich (Dat) einen Weg bahnen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er bahnt sich einen Weg.",
+      "uebersetzung": {
+        "fa": "او برای خودش راه باز می‌کند.",
+        "en": "He clears a way for himself."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Sanitäter bahnten sich einen Weg durch die Menge, um zu dem Verletzten zu gelangen.",
+      "uebersetzung": {
+        "fa": "امدادگران از میان جمعیت راه باز کردند تا به مجروح برسند.",
+        "en": "The paramedics made their way through the crowd to reach the injured person."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "freimachen",
+      "uebersetzung": {
+        "fa": "باز کردن",
+        "en": "to clear"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "versperren",
+      "uebersetzung": {
+        "fa": "بستن (راه)",
+        "en": "to block"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از die Bahn (راه، مسیر)",
+    "en": "from die Bahn (path, track)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "sich (Dat) einen Weg durch + Akk bahnen",
+        "bedeutung": "sich mühsam vorwärtsbewegen",
+        "beispiel": "Wir bahnten uns einen Weg durch den Schnee.",
+        "uebersetzung": {
+          "fa": "در برف برای خودمان راه باز کردیم.",
+          "en": "We forced our way through the snow."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bahnen",
+      "praeteritum": "bahnte",
+      "partizip2": "gebahnt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bahne",
+        "du": "bahnst",
+        "er_sie_es": "bahnt",
+        "wir": "bahnen",
+        "ihr": "bahnt",
+        "sie_Sie": "bahnen"
+      },
+      "praeteritum": {
+        "ich": "bahnte",
+        "du": "bahntest",
+        "er_sie_es": "bahnte",
+        "wir": "bahnten",
+        "ihr": "bahntet",
+        "sie_Sie": "bahnten"
+      },
+      "konjunktiv1": {
+        "ich": "bahne",
+        "du": "bahnest",
+        "er_sie_es": "bahne",
+        "wir": "bahnen",
+        "ihr": "bahnet",
+        "sie_Sie": "bahnen"
+      },
+      "konjunktiv2": {
+        "ich": "bahnte",
+        "du": "bahntest",
+        "er_sie_es": "bahnte",
+        "wir": "bahnten",
+        "ihr": "bahntet",
+        "sie_Sie": "bahnten"
+      },
+      "imperativ": {
+        "du": "Bahne!",
+        "ihr": "Bahnt!",
+        "Sie": "Bahnen Sie!"
+      }
+    },
+    "partizip1": "bahnend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "die Bahn",
+    "woerter": [
+      {
+        "wort": "die Bahn",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قطار؛ مسیر",
+          "en": "railway; track"
+        },
+        "id_ref": "nomen_bahn"
+      },
+      {
+        "wort": "der Weg",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "راه",
+          "en": "way"
+        },
+        "id_ref": "nomen_weg"
+      },
+      {
+        "wort": "die Menge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جمعیت",
+          "en": "crowd"
+        },
+        "id_ref": "nomen_menge"
+      },
+      {
+        "wort": "anbahnen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "زمینه‌سازی کردن",
+          "en": "to initiate"
+        },
+        "id_ref": "verb_anbahnen"
+      },
+      {
+        "wort": "versperren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بستن",
+          "en": "to block"
+        },
+        "id_ref": "verb_versperren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

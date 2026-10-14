@@ -1566,6 +1566,9 @@ const zurueckgestellt = <String>{
   'avouieren', // zurückgestellt (Regel 14/16): veraltet 2026-10-13
   'axiomatisieren', // zurückgestellt (Regel 14/16): fachsprachlich 2026-10-13
   'azotieren', // zurückgestellt (Regel 14/16): fachsprachlich 2026-10-13
+  'balbieren', // zurückgestellt (Regel 14/16): veraltet 2026-10-13
+  'baldowern', // zurückgestellt (Regel 14/16): umgangssprachlich/selten (meist ausbaldowern) 2026-10-13
+  'balsamieren', // zurückgestellt (Regel 14/16): fast nur «einbalsamieren» 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

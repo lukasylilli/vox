@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_balgen",
+  "wort": "balgen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کشتی گرفتن (به شوخی)، با هم ورجه‌وورجه کردن"
+    ],
+    "en": [
+      "to romp",
+      "to scuffle"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Freizeit"
+  ],
+  "ipa": "ˈbalɡn̩",
+  "anmerkung": "Regelmäßig (balgte, gebalgt); meist reflexiv: «sich balgen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Hunde balgen sich.",
+      "uebersetzung": {
+        "fa": "سگ‌ها با هم ورجه‌وورجه می‌کنند.",
+        "en": "The dogs are romping about."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Kinder balgten sich auf dem Teppich, bis eines anfing zu weinen.",
+      "uebersetzung": {
+        "fa": "بچه‌ها روی فرش با هم کشتی می‌گرفتند تا اینکه یکی شروع به گریه کرد.",
+        "en": "The children were scuffling on the carpet until one started to cry."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "raufen",
+      "uebersetzung": {
+        "fa": "کشتی گرفتن",
+        "en": "to scrap"
+      }
+    },
+    {
+      "wort": "rangeln",
+      "uebersetzung": {
+        "fa": "زور آزمایی کردن",
+        "en": "to wrestle"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از der Balg (پوست حیوان؛ بچه‌ی شیطان)",
+    "en": "from der Balg (skin; brat)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich um + Akk balgen",
+        "bedeutung": "sich um etwas streiten (spielerisch)",
+        "beispiel": "Die Jungen balgen sich um den Ball.",
+        "uebersetzung": {
+          "fa": "پسرها سر توپ با هم کلنجار می‌روند.",
+          "en": "The boys scuffle over the ball."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "balgen",
+      "praeteritum": "balgte",
+      "partizip2": "gebalgt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "balge",
+        "du": "balgst",
+        "er_sie_es": "balgt",
+        "wir": "balgen",
+        "ihr": "balgt",
+        "sie_Sie": "balgen"
+      },
+      "praeteritum": {
+        "ich": "balgte",
+        "du": "balgtest",
+        "er_sie_es": "balgte",
+        "wir": "balgten",
+        "ihr": "balgtet",
+        "sie_Sie": "balgten"
+      },
+      "konjunktiv1": {
+        "ich": "balge",
+        "du": "balgest",
+        "er_sie_es": "balge",
+        "wir": "balgen",
+        "ihr": "balget",
+        "sie_Sie": "balgen"
+      },
+      "konjunktiv2": {
+        "ich": "balgte",
+        "du": "balgtest",
+        "er_sie_es": "balgte",
+        "wir": "balgten",
+        "ihr": "balgtet",
+        "sie_Sie": "balgten"
+      },
+      "imperativ": {
+        "du": "Balge!",
+        "ihr": "Balgt!",
+        "Sie": "Balgen Sie!"
+      }
+    },
+    "partizip1": "balgend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "raufen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کشتی گرفتن",
+          "en": "to scrap"
+        },
+        "id_ref": "verb_raufen"
+      },
+      {
+        "wort": "spielen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بازی کردن",
+          "en": "to play"
+        },
+        "id_ref": "verb_spielen"
+      },
+      {
+        "wort": "kämpfen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جنگیدن",
+          "en": "to fight"
+        },
+        "id_ref": "verb_kaempfen"
+      },
+      {
+        "wort": "das Kind",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کودک",
+          "en": "child"
+        },
+        "id_ref": "nomen_kind"
+      },
+      {
+        "wort": "der Hund",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سگ",
+          "en": "dog"
+        },
+        "id_ref": "nomen_hund"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

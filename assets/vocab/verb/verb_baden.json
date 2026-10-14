@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_baden",
+  "wort": "baden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "حمام کردن، شستن (در وان)",
+      "شنا کردن (در دریا، دریاچه)"
+    ],
+    "en": [
+      "to bathe",
+      "to have a bath",
+      "to swim"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Freizeit"
+  ],
+  "ipa": "ˈbaːdn̩",
+  "anmerkung": "Regelmäßig (badete, gebadet).",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich bade jeden Abend.",
+      "uebersetzung": {
+        "fa": "هر شب حمام می‌کنم.",
+        "en": "I have a bath every evening."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Im Sommer sind wir jeden Tag im See baden gegangen, weil es so heiß war.",
+      "uebersetzung": {
+        "fa": "تابستان هر روز برای شنا به دریاچه رفتیم، چون خیلی گرم بود.",
+        "en": "In summer we went swimming in the lake every day because it was so hot."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schwimmen",
+      "uebersetzung": {
+        "fa": "شنا کردن",
+        "en": "to swim"
+      }
+    },
+    {
+      "wort": "sich waschen",
+      "uebersetzung": {
+        "fa": "خود را شستن",
+        "en": "to wash"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از das Bad (حمام)",
+    "en": "from das Bad (bath)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "baden",
+      "praeteritum": "badete",
+      "partizip2": "gebadet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bade",
+        "du": "badest",
+        "er_sie_es": "badet",
+        "wir": "baden",
+        "ihr": "badet",
+        "sie_Sie": "baden"
+      },
+      "praeteritum": {
+        "ich": "badete",
+        "du": "badetest",
+        "er_sie_es": "badete",
+        "wir": "badeten",
+        "ihr": "badetet",
+        "sie_Sie": "badeten"
+      },
+      "konjunktiv1": {
+        "ich": "bade",
+        "du": "badest",
+        "er_sie_es": "bade",
+        "wir": "baden",
+        "ihr": "badet",
+        "sie_Sie": "baden"
+      },
+      "konjunktiv2": {
+        "ich": "badete",
+        "du": "badetest",
+        "er_sie_es": "badete",
+        "wir": "badeten",
+        "ihr": "badetet",
+        "sie_Sie": "badeten"
+      },
+      "imperativ": {
+        "du": "Bade!",
+        "ihr": "Badet!",
+        "Sie": "Baden Sie!"
+      }
+    },
+    "partizip1": "badend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "das Bad",
+    "woerter": [
+      {
+        "wort": "das Bad",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حمام",
+          "en": "bath"
+        },
+        "id_ref": "nomen_bad"
+      },
+      {
+        "wort": "die Badewanne",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "وان",
+          "en": "bathtub"
+        },
+        "id_ref": "nomen_badewanne"
+      },
+      {
+        "wort": "schwimmen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شنا کردن",
+          "en": "to swim"
+        },
+        "id_ref": "verb_schwimmen"
+      },
+      {
+        "wort": "duschen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دوش گرفتن",
+          "en": "to shower"
+        },
+        "id_ref": "verb_duschen"
+      },
+      {
+        "wort": "der Badeanzug",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "لباس شنا",
+          "en": "swimsuit"
+        },
+        "id_ref": "nomen_badeanzug"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -2878,6 +2878,9 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۵۱۳ | avouieren | `Verben_regelmaesig.txt` | 2026-10-13 | قدیمی — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۵۱۴ | axiomatisieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۵۱۵ | azotieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۱۶ | balbieren | `Verben_regelmaesig.txt` | 2026-10-13 | قدیمی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۱۷ | baldowern | `Verben_regelmaesig.txt` | 2026-10-13 | محاوره‌ای/نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۱۸ | balsamieren | `Verben_regelmaesig.txt` | 2026-10-13 | تقریباً فقط einbalsamieren — قاعده‌ی ۱۴/۱۶ | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 
