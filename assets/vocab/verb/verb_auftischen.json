@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_auftischen",
+  "wort": "auftischen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(غذا) سر میز آوردن",
+      "(دروغ) سر هم کردن"
+    ],
+    "en": [
+      "to serve up",
+      "to dish up (lies)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Essen",
+    "Kommunikation"
+  ],
+  "ipa": "ˈaʊ̯fˌtɪʃn̩",
+  "anmerkung": "Trennbar (tischte auf, aufgetischt). Bildlich: «jemandem eine Lüge auftischen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Oma tischt viel Essen auf.",
+      "uebersetzung": {
+        "fa": "مادربزرگ کلی غذا سر میز می‌آورد.",
+        "en": "Grandma serves up lots of food."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Er hat seinem Lehrer eine unglaubliche Geschichte aufgetischt, warum er die Hausaufgaben nicht gemacht hatte.",
+      "uebersetzung": {
+        "fa": "او داستان باورنکردنی‌ای سر هم کرد که چرا تکلیفش را انجام نداده بود.",
+        "en": "He dished up an incredible story to his teacher about why he hadn't done his homework."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "servieren",
+      "uebersetzung": {
+        "fa": "سرو کردن",
+        "en": "to serve"
+      }
+    },
+    {
+      "wort": "auftragen",
+      "uebersetzung": {
+        "fa": "سر میز آوردن",
+        "en": "to serve"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "abräumen",
+      "uebersetzung": {
+        "fa": "میز را جمع کردن",
+        "en": "to clear"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auf- (روی) + tischen (از der Tisch = میز)",
+    "en": "auf- (onto) + tischen (from der Tisch = table)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem (Dat) etwas (Akk) auftischen",
+        "bedeutung": "jemandem etwas servieren oder erzählen",
+        "beispiel": "Sie tischte uns eine Ausrede auf.",
+        "uebersetzung": {
+          "fa": "او بهانه‌ای برایمان سر هم کرد.",
+          "en": "She served us up an excuse."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "auftischen",
+      "praeteritum": "tischte auf",
+      "partizip2": "aufgetischt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "tische auf",
+        "du": "tischst auf",
+        "er_sie_es": "tischt auf",
+        "wir": "tischen auf",
+        "ihr": "tischt auf",
+        "sie_Sie": "tischen auf"
+      },
+      "praeteritum": {
+        "ich": "tischte auf",
+        "du": "tischtest auf",
+        "er_sie_es": "tischte auf",
+        "wir": "tischten auf",
+        "ihr": "tischtet auf",
+        "sie_Sie": "tischten auf"
+      },
+      "konjunktiv1": {
+        "ich": "tische auf",
+        "du": "tischest auf",
+        "er_sie_es": "tische auf",
+        "wir": "tischen auf",
+        "ihr": "tischet auf",
+        "sie_Sie": "tischen auf"
+      },
+      "konjunktiv2": {
+        "ich": "tischte auf",
+        "du": "tischtest auf",
+        "er_sie_es": "tischte auf",
+        "wir": "tischten auf",
+        "ihr": "tischtet auf",
+        "sie_Sie": "tischten auf"
+      },
+      "imperativ": {
+        "du": "Tische auf!",
+        "ihr": "Tischt auf!",
+        "Sie": "Tischen Sie auf!"
+      }
+    },
+    "partizip1": "auftischend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "der Tisch",
+    "woerter": [
+      {
+        "wort": "der Tisch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "میز",
+          "en": "table"
+        },
+        "id_ref": "nomen_tisch"
+      },
+      {
+        "wort": "servieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرو کردن",
+          "en": "to serve"
+        },
+        "id_ref": "verb_servieren"
+      },
+      {
+        "wort": "das Essen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "غذا",
+          "en": "food"
+        },
+        "id_ref": "nomen_essen"
+      },
+      {
+        "wort": "die Lüge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دروغ",
+          "en": "lie"
+        },
+        "id_ref": "nomen_luege"
+      },
+      {
+        "wort": "die Ausrede",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بهانه",
+          "en": "excuse"
+        },
+        "id_ref": "nomen_ausrede"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

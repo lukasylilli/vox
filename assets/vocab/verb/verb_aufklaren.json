@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_aufklaren",
+  "wort": "aufklaren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(آسمان) صاف شدن"
+    ],
+    "en": [
+      "to clear up"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wetter"
+  ],
+  "ipa": "ˈaʊ̯fˌklaːʁən",
+  "anmerkung": "Trennbar (klarte auf, aufgeklart). Vom Wetter, meist unpersönlich: «Es klart auf.»",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Am Abend klart es auf.",
+      "uebersetzung": {
+        "fa": "عصر هوا صاف می‌شود.",
+        "en": "It clears up in the evening."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Laut Wetterbericht soll es morgen aufklaren, sodass wir endlich wandern können.",
+      "uebersetzung": {
+        "fa": "طبق پیش‌بینی، فردا هوا صاف می‌شود و بالاخره می‌توانیم پیاده‌روی کنیم.",
+        "en": "According to the forecast it should clear up tomorrow so that we can finally go hiking."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich aufheitern",
+      "uebersetzung": {
+        "fa": "صاف شدن (هوا)",
+        "en": "to brighten up"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sich bewölken",
+      "uebersetzung": {
+        "fa": "ابری شدن",
+        "en": "to cloud over"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auf- + klaren (از klar = صاف)",
+    "en": "auf- + klaren (from klar = clear)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "aufklaren",
+      "praeteritum": "klarte auf",
+      "partizip2": "aufgeklart"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "klare auf",
+        "du": "klarst auf",
+        "er_sie_es": "klart auf",
+        "wir": "klaren auf",
+        "ihr": "klart auf",
+        "sie_Sie": "klaren auf"
+      },
+      "praeteritum": {
+        "ich": "klarte auf",
+        "du": "klartest auf",
+        "er_sie_es": "klarte auf",
+        "wir": "klarten auf",
+        "ihr": "klartet auf",
+        "sie_Sie": "klarten auf"
+      },
+      "konjunktiv1": {
+        "ich": "klare auf",
+        "du": "klarest auf",
+        "er_sie_es": "klare auf",
+        "wir": "klaren auf",
+        "ihr": "klaret auf",
+        "sie_Sie": "klaren auf"
+      },
+      "konjunktiv2": {
+        "ich": "klarte auf",
+        "du": "klartest auf",
+        "er_sie_es": "klarte auf",
+        "wir": "klarten auf",
+        "ihr": "klartet auf",
+        "sie_Sie": "klarten auf"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "aufklarend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "klar",
+    "woerter": [
+      {
+        "wort": "klar",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صاف، روشن",
+          "en": "clear"
+        },
+        "id_ref": "adjektiv_klar"
+      },
+      {
+        "wort": "das Wetter",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "هوا",
+          "en": "weather"
+        },
+        "id_ref": "nomen_wetter"
+      },
+      {
+        "wort": "die Wolke",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ابر",
+          "en": "cloud"
+        },
+        "id_ref": "nomen_wolke"
+      },
+      {
+        "wort": "sonnig",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آفتابی",
+          "en": "sunny"
+        },
+        "id_ref": "adjektiv_sonnig"
+      },
+      {
+        "wort": "der Wetterbericht",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پیش‌بینی هوا",
+          "en": "weather forecast"
+        },
+        "id_ref": "nomen_wetterbericht"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

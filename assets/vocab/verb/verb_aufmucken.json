@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_aufmucken",
+  "wort": "aufmucken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اعتراض کردن، سر به شورش برداشتن"
+    ],
+    "en": [
+      "to grumble",
+      "to rebel"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Gesellschaft"
+  ],
+  "ipa": "ˈaʊ̯fˌmʊkn̩",
+  "anmerkung": "Trennbar (muckte auf, aufgemuckt). Umgangssprachlich.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Niemand muckt auf.",
+      "uebersetzung": {
+        "fa": "هیچ‌کس اعتراض نمی‌کند.",
+        "en": "Nobody grumbles."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wer im Betrieb gegen den Chef aufmuckt, bekommt schnell Probleme.",
+      "uebersetzung": {
+        "fa": "هر کس در کارخانه علیه رئیس اعتراض کند، زود به دردسر می‌افتد.",
+        "en": "Anyone in the company who rebels against the boss quickly gets into trouble."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufbegehren",
+      "uebersetzung": {
+        "fa": "سر به شورش برداشتن",
+        "en": "to revolt"
+      }
+    },
+    {
+      "wort": "protestieren",
+      "uebersetzung": {
+        "fa": "اعتراض کردن",
+        "en": "to protest"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "gehorchen",
+      "uebersetzung": {
+        "fa": "اطاعت کردن",
+        "en": "to obey"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auf- + mucken (صدای اعتراض درآوردن)",
+    "en": "auf- + mucken (to make a sound of protest)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "gegen + Akk aufmucken",
+        "bedeutung": "sich gegen jemanden auflehnen",
+        "beispiel": "Die Schüler muckten gegen die Regel auf.",
+        "uebersetzung": {
+          "fa": "دانش‌آموزان علیه این قانون اعتراض کردند.",
+          "en": "The pupils rebelled against the rule."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "aufmucken",
+      "praeteritum": "muckte auf",
+      "partizip2": "aufgemuckt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "mucke auf",
+        "du": "muckst auf",
+        "er_sie_es": "muckt auf",
+        "wir": "mucken auf",
+        "ihr": "muckt auf",
+        "sie_Sie": "mucken auf"
+      },
+      "praeteritum": {
+        "ich": "muckte auf",
+        "du": "mucktest auf",
+        "er_sie_es": "muckte auf",
+        "wir": "muckten auf",
+        "ihr": "mucktet auf",
+        "sie_Sie": "muckten auf"
+      },
+      "konjunktiv1": {
+        "ich": "mucke auf",
+        "du": "muckest auf",
+        "er_sie_es": "mucke auf",
+        "wir": "mucken auf",
+        "ihr": "mucket auf",
+        "sie_Sie": "mucken auf"
+      },
+      "konjunktiv2": {
+        "ich": "muckte auf",
+        "du": "mucktest auf",
+        "er_sie_es": "muckte auf",
+        "wir": "muckten auf",
+        "ihr": "mucktet auf",
+        "sie_Sie": "muckten auf"
+      },
+      "imperativ": {
+        "du": "Mucke auf!",
+        "ihr": "Muckt auf!",
+        "Sie": "Mucken Sie auf!"
+      }
+    },
+    "partizip1": "aufmuckend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "protestieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اعتراض کردن",
+          "en": "to protest"
+        },
+        "id_ref": "verb_protestieren"
+      },
+      {
+        "wort": "sich wehren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "از خود دفاع کردن",
+          "en": "to resist"
+        },
+        "id_ref": "verb_sich_wehren"
+      },
+      {
+        "wort": "widersprechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مخالفت کردن",
+          "en": "to contradict"
+        },
+        "id_ref": "verb_widersprechen"
+      },
+      {
+        "wort": "gehorchen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اطاعت کردن",
+          "en": "to obey"
+        },
+        "id_ref": "verb_gehorchen"
+      },
+      {
+        "wort": "der Widerstand",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مقاومت",
+          "en": "resistance"
+        },
+        "id_ref": "nomen_widerstand"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

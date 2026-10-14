@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_aufhellen",
+  "wort": "aufhellen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "روشن کردن (رنگ، مو)",
+      "روشن شدن"
+    ],
+    "en": [
+      "to lighten",
+      "to brighten"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Körper",
+    "Wetter"
+  ],
+  "ipa": "ˈaʊ̯fˌhɛlən",
+  "anmerkung": "Trennbar (hellte auf, aufgehellt). Reflexiv: «Ihr Gesicht hellte sich auf.»",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie hellt ihre Haare auf.",
+      "uebersetzung": {
+        "fa": "او موهایش را روشن می‌کند.",
+        "en": "She lightens her hair."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als er die gute Nachricht hörte, hellte sich sein Gesicht sofort auf.",
+      "uebersetzung": {
+        "fa": "وقتی خبر خوب را شنید، چهره‌اش فوراً باز شد.",
+        "en": "When he heard the good news, his face immediately brightened."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "heller machen",
+      "uebersetzung": {
+        "fa": "روشن‌تر کردن",
+        "en": "to make lighter"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "abdunkeln",
+      "uebersetzung": {
+        "fa": "تاریک کردن",
+        "en": "to darken"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auf- + hellen (از hell = روشن)",
+    "en": "auf- + hellen (from hell = bright)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "aufhellen",
+      "praeteritum": "hellte auf",
+      "partizip2": "aufgehellt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "helle auf",
+        "du": "hellst auf",
+        "er_sie_es": "hellt auf",
+        "wir": "hellen auf",
+        "ihr": "hellt auf",
+        "sie_Sie": "hellen auf"
+      },
+      "praeteritum": {
+        "ich": "hellte auf",
+        "du": "helltest auf",
+        "er_sie_es": "hellte auf",
+        "wir": "hellten auf",
+        "ihr": "helltet auf",
+        "sie_Sie": "hellten auf"
+      },
+      "konjunktiv1": {
+        "ich": "helle auf",
+        "du": "hellest auf",
+        "er_sie_es": "helle auf",
+        "wir": "hellen auf",
+        "ihr": "hellet auf",
+        "sie_Sie": "hellen auf"
+      },
+      "konjunktiv2": {
+        "ich": "hellte auf",
+        "du": "helltest auf",
+        "er_sie_es": "hellte auf",
+        "wir": "hellten auf",
+        "ihr": "helltet auf",
+        "sie_Sie": "hellten auf"
+      },
+      "imperativ": {
+        "du": "Helle auf!",
+        "ihr": "Hellt auf!",
+        "Sie": "Hellen Sie auf!"
+      }
+    },
+    "partizip1": "aufhellend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "hell",
+    "woerter": [
+      {
+        "wort": "hell",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "روشن",
+          "en": "bright"
+        },
+        "id_ref": "adjektiv_hell"
+      },
+      {
+        "wort": "dunkel",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تاریک",
+          "en": "dark"
+        },
+        "id_ref": "adjektiv_dunkel"
+      },
+      {
+        "wort": "die Farbe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رنگ",
+          "en": "colour"
+        },
+        "id_ref": "nomen_farbe"
+      },
+      {
+        "wort": "abdunkeln",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تاریک کردن",
+          "en": "to darken"
+        },
+        "id_ref": "verb_abdunkeln"
+      },
+      {
+        "wort": "das Gesicht",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چهره",
+          "en": "face"
+        },
+        "id_ref": "nomen_gesicht"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
