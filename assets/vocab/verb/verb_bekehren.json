@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_bekehren",
+  "wort": "bekehren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(به دین یا عقیده‌ای) درآوردن، هدایت کردن"
+    ],
+    "en": [
+      "to convert"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Religion",
+    "Gesellschaft"
+  ],
+  "ipa": "bəˈkeːʁən",
+  "anmerkung": "Untrennbar, regelmäßig (bekehrte, bekehrt). Auch scherzhaft: «Sie hat mich zum Tee bekehrt.»",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er will alle bekehren.",
+      "uebersetzung": {
+        "fa": "او می‌خواهد همه را به عقیده‌ی خودش درآورد.",
+        "en": "He wants to convert everyone."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Früher trank ich nur Kaffee, aber meine Kollegin hat mich zum grünen Tee bekehrt.",
+      "uebersetzung": {
+        "fa": "قبلاً فقط قهوه می‌خوردم، اما همکارم مرا چای‌سبزخور کرد.",
+        "en": "I used to drink only coffee, but my colleague converted me to green tea."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "überzeugen",
+      "uebersetzung": {
+        "fa": "قانع کردن",
+        "en": "to convince"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + kehren (برگرداندن)",
+    "en": "be- + kehren (to turn)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "jemanden zu + Dat bekehren",
+        "bedeutung": "jemanden für eine Überzeugung gewinnen",
+        "beispiel": "Er wurde zum Christentum bekehrt.",
+        "uebersetzung": {
+          "fa": "او به مسیحیت گروید.",
+          "en": "He was converted to Christianity."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bekehren",
+      "praeteritum": "bekehrte",
+      "partizip2": "bekehrt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bekehre",
+        "du": "bekehrst",
+        "er_sie_es": "bekehrt",
+        "wir": "bekehren",
+        "ihr": "bekehrt",
+        "sie_Sie": "bekehren"
+      },
+      "praeteritum": {
+        "ich": "bekehrte",
+        "du": "bekehrtest",
+        "er_sie_es": "bekehrte",
+        "wir": "bekehrten",
+        "ihr": "bekehrtet",
+        "sie_Sie": "bekehrten"
+      },
+      "konjunktiv1": {
+        "ich": "bekehre",
+        "du": "bekehrest",
+        "er_sie_es": "bekehre",
+        "wir": "bekehren",
+        "ihr": "bekehret",
+        "sie_Sie": "bekehren"
+      },
+      "konjunktiv2": {
+        "ich": "bekehrte",
+        "du": "bekehrtest",
+        "er_sie_es": "bekehrte",
+        "wir": "bekehrten",
+        "ihr": "bekehrtet",
+        "sie_Sie": "bekehrten"
+      },
+      "imperativ": {
+        "du": "Bekehre!",
+        "ihr": "Bekehrt!",
+        "Sie": "Bekehren Sie!"
+      }
+    },
+    "partizip1": "bekehrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "überzeugen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قانع کردن",
+          "en": "to convince"
+        },
+        "id_ref": "verb_ueberzeugen"
+      },
+      {
+        "wort": "der Glaube",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ایمان",
+          "en": "faith"
+        },
+        "id_ref": "nomen_glaube"
+      },
+      {
+        "wort": "die Religion",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دین",
+          "en": "religion"
+        },
+        "id_ref": "nomen_religion"
+      },
+      {
+        "wort": "die Meinung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نظر",
+          "en": "opinion"
+        },
+        "id_ref": "nomen_meinung"
+      },
+      {
+        "wort": "missionieren",
+        "wortart": "verb",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "تبلیغ دینی کردن",
+          "en": "to proselytise"
+        },
+        "id_ref": "verb_missionieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

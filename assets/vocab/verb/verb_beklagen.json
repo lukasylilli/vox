@@ -1,0 +1,201 @@
+{
+  "schema": "3.0",
+  "id": "verb_beklagen",
+  "wort": "beklagen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "افسوس خوردن، سوگواری کردن",
+      "شکایت کردن"
+    ],
+    "en": [
+      "to lament",
+      "to complain"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gefühle",
+    "Kommunikation"
+  ],
+  "ipa": "bəˈklaːɡn̩",
+  "anmerkung": "Untrennbar, regelmäßig (beklagte, beklagt). Reflexiv: «sich über + Akk beklagen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er beklagt sich über das Essen.",
+      "uebersetzung": {
+        "fa": "او از غذا شکایت می‌کند.",
+        "en": "He complains about the food."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei dem Unfall waren zum Glück keine Todesopfer zu beklagen, nur einige Leichtverletzte.",
+      "uebersetzung": {
+        "fa": "خوشبختانه این حادثه هیچ کشته‌ای نداشت، فقط چند زخمی سطحی.",
+        "en": "Fortunately there were no fatalities in the accident, only a few people with minor injuries."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich beschweren",
+      "uebersetzung": {
+        "fa": "شکایت کردن",
+        "en": "to complain"
+      }
+    },
+    {
+      "wort": "bedauern",
+      "uebersetzung": {
+        "fa": "افسوس خوردن",
+        "en": "to regret"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "loben",
+      "uebersetzung": {
+        "fa": "ستودن",
+        "en": "to praise"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + klagen (نالیدن، شکایت کردن)",
+    "en": "be- + klagen (to lament)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich über + Akk beklagen",
+        "bedeutung": "sich über etwas beschweren",
+        "beispiel": "Die Patienten beklagen sich über die Wartezeit.",
+        "uebersetzung": {
+          "fa": "بیماران از زمان انتظار شکایت دارند.",
+          "en": "The patients complain about the waiting time."
+        }
+      },
+      {
+        "muster": "sich bei + Dat beklagen",
+        "bedeutung": "sich bei jemandem beschweren",
+        "beispiel": "Sie hat sich beim Chef beklagt.",
+        "uebersetzung": {
+          "fa": "او پیش رئیس شکایت کرد.",
+          "en": "She complained to the boss."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beklagen",
+      "praeteritum": "beklagte",
+      "partizip2": "beklagt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beklage",
+        "du": "beklagst",
+        "er_sie_es": "beklagt",
+        "wir": "beklagen",
+        "ihr": "beklagt",
+        "sie_Sie": "beklagen"
+      },
+      "praeteritum": {
+        "ich": "beklagte",
+        "du": "beklagtest",
+        "er_sie_es": "beklagte",
+        "wir": "beklagten",
+        "ihr": "beklagtet",
+        "sie_Sie": "beklagten"
+      },
+      "konjunktiv1": {
+        "ich": "beklage",
+        "du": "beklagest",
+        "er_sie_es": "beklage",
+        "wir": "beklagen",
+        "ihr": "beklaget",
+        "sie_Sie": "beklagen"
+      },
+      "konjunktiv2": {
+        "ich": "beklagte",
+        "du": "beklagtest",
+        "er_sie_es": "beklagte",
+        "wir": "beklagten",
+        "ihr": "beklagtet",
+        "sie_Sie": "beklagten"
+      },
+      "imperativ": {
+        "du": "Beklage!",
+        "ihr": "Beklagt!",
+        "Sie": "Beklagen Sie!"
+      }
+    },
+    "partizip1": "beklagend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "klagen",
+    "woerter": [
+      {
+        "wort": "klagen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نالیدن، شکایت کردن",
+          "en": "to complain"
+        },
+        "id_ref": "verb_klagen"
+      },
+      {
+        "wort": "sich beschweren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شکایت کردن",
+          "en": "to complain"
+        },
+        "id_ref": "verb_sich_beschweren"
+      },
+      {
+        "wort": "die Klage",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شکایت",
+          "en": "complaint"
+        },
+        "id_ref": "nomen_klage"
+      },
+      {
+        "wort": "bedauern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "افسوس خوردن",
+          "en": "to regret"
+        },
+        "id_ref": "verb_bedauern"
+      },
+      {
+        "wort": "zufrieden",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "راضی",
+          "en": "satisfied"
+        },
+        "id_ref": "adjektiv_zufrieden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

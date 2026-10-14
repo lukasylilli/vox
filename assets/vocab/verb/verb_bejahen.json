@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_bejahen",
+  "wort": "bejahen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پاسخ مثبت دادن",
+      "تأیید کردن، پذیرفتن"
+    ],
+    "en": [
+      "to answer in the affirmative",
+      "to approve"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "bəˈjaːən",
+  "anmerkung": "Untrennbar, regelmäßig (bejahte, bejaht).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er bejaht die Frage.",
+      "uebersetzung": {
+        "fa": "او به سؤال جواب مثبت می‌دهد.",
+        "en": "He answers the question with yes."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die meisten Befragten bejahten, dass sie mit der Versorgung im Krankenhaus zufrieden waren.",
+      "uebersetzung": {
+        "fa": "بیشتر پرسش‌شوندگان تأیید کردند که از مراقبت در بیمارستان راضی بودند.",
+        "en": "Most respondents affirmed that they were satisfied with the care in the hospital."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zustimmen",
+      "uebersetzung": {
+        "fa": "موافقت کردن",
+        "en": "to agree"
+      }
+    },
+    {
+      "wort": "befürworten",
+      "uebersetzung": {
+        "fa": "حمایت کردن",
+        "en": "to endorse"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verneinen",
+      "uebersetzung": {
+        "fa": "پاسخ منفی دادن",
+        "en": "to deny"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + jahen (از ja = بله)",
+    "en": "be- + jahen (from ja = yes)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "bejahen",
+      "praeteritum": "bejahte",
+      "partizip2": "bejaht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bejahe",
+        "du": "bejahst",
+        "er_sie_es": "bejaht",
+        "wir": "bejahen",
+        "ihr": "bejaht",
+        "sie_Sie": "bejahen"
+      },
+      "praeteritum": {
+        "ich": "bejahte",
+        "du": "bejahtest",
+        "er_sie_es": "bejahte",
+        "wir": "bejahten",
+        "ihr": "bejahtet",
+        "sie_Sie": "bejahten"
+      },
+      "konjunktiv1": {
+        "ich": "bejahe",
+        "du": "bejahest",
+        "er_sie_es": "bejahe",
+        "wir": "bejahen",
+        "ihr": "bejahet",
+        "sie_Sie": "bejahen"
+      },
+      "konjunktiv2": {
+        "ich": "bejahte",
+        "du": "bejahtest",
+        "er_sie_es": "bejahte",
+        "wir": "bejahten",
+        "ihr": "bejahtet",
+        "sie_Sie": "bejahten"
+      },
+      "imperativ": {
+        "du": "Bejahe!",
+        "ihr": "Bejaht!",
+        "Sie": "Bejahen Sie!"
+      }
+    },
+    "partizip1": "bejahend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "ja",
+    "woerter": [
+      {
+        "wort": "ja",
+        "wortart": "partikel",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بله",
+          "en": "yes"
+        },
+        "id_ref": "partikel_ja"
+      },
+      {
+        "wort": "verneinen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پاسخ منفی دادن",
+          "en": "to deny"
+        },
+        "id_ref": "verb_verneinen"
+      },
+      {
+        "wort": "zustimmen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "موافقت کردن",
+          "en": "to agree"
+        },
+        "id_ref": "verb_zustimmen"
+      },
+      {
+        "wort": "die Antwort",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جواب",
+          "en": "answer"
+        },
+        "id_ref": "nomen_antwort"
+      },
+      {
+        "wort": "positiv",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مثبت",
+          "en": "positive"
+        },
+        "id_ref": "adjektiv_positiv"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

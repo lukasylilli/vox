@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_beitreten",
+  "wort": "beitreten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "عضو شدن، پیوستن"
+    ],
+    "en": [
+      "to join"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesellschaft",
+    "Politik"
+  ],
+  "ipa": "ˈbaɪ̯ˌtʁeːtn̩",
+  "anmerkung": "Trennbar, unregelmäßig (trat bei, beigetreten), Perfekt mit «sein» — steht in der Liste der regelmäßigen Verben, wird aber unregelmäßig konjugiert (Duden). Mit Dativ.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich trete dem Verein bei.",
+      "uebersetzung": {
+        "fa": "عضو باشگاه می‌شوم.",
+        "en": "I'm joining the club."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Österreich ist der Europäischen Union im Jahr 1995 beigetreten.",
+      "uebersetzung": {
+        "fa": "اتریش در سال ۱۹۹۵ به اتحادیه‌ی اروپا پیوست.",
+        "en": "Austria joined the European Union in 1995."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "Mitglied werden",
+      "uebersetzung": {
+        "fa": "عضو شدن",
+        "en": "to become a member"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "austreten",
+      "uebersetzung": {
+        "fa": "خارج شدن (از عضویت)",
+        "en": "to leave"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "bei- (به) + treten (قدم گذاشتن)",
+    "en": "bei- (to) + treten (to step)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "einer Sache (Dat) beitreten",
+        "bedeutung": "Mitglied von etwas werden",
+        "beispiel": "Sie ist der Gewerkschaft beigetreten.",
+        "uebersetzung": {
+          "fa": "او به اتحادیه‌ی کارگری پیوست.",
+          "en": "She joined the trade union."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beitreten",
+      "praeteritum": "trat bei",
+      "partizip2": "beigetreten"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "trete bei",
+        "du": "trittst bei",
+        "er_sie_es": "tritt bei",
+        "wir": "treten bei",
+        "ihr": "tretet bei",
+        "sie_Sie": "treten bei"
+      },
+      "praeteritum": {
+        "ich": "trat bei",
+        "du": "tratest bei",
+        "er_sie_es": "trat bei",
+        "wir": "traten bei",
+        "ihr": "tratet bei",
+        "sie_Sie": "traten bei"
+      },
+      "konjunktiv1": {
+        "ich": "trete bei",
+        "du": "tretest bei",
+        "er_sie_es": "trete bei",
+        "wir": "treten bei",
+        "ihr": "tretet bei",
+        "sie_Sie": "treten bei"
+      },
+      "konjunktiv2": {
+        "ich": "träte bei",
+        "du": "trätest bei",
+        "er_sie_es": "träte bei",
+        "wir": "träten bei",
+        "ihr": "trätet bei",
+        "sie_Sie": "träten bei"
+      },
+      "imperativ": {
+        "du": "Tritt bei!",
+        "ihr": "Tretet bei!",
+        "Sie": "Treten Sie bei!"
+      }
+    },
+    "partizip1": "beitretend",
+    "nominalisierung": "der Beitritt"
+  },
+  "wortnetz": {
+    "grundwort": "treten",
+    "woerter": [
+      {
+        "wort": "das Mitglied",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عضو",
+          "en": "member"
+        },
+        "id_ref": "nomen_mitglied"
+      },
+      {
+        "wort": "der Verein",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "باشگاه",
+          "en": "club"
+        },
+        "id_ref": "nomen_verein"
+      },
+      {
+        "wort": "der Beitritt",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "عضویت، پیوستن",
+          "en": "accession"
+        },
+        "id_ref": "nomen_beitritt"
+      },
+      {
+        "wort": "austreten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خارج شدن",
+          "en": "to leave"
+        },
+        "id_ref": "verb_austreten"
+      },
+      {
+        "wort": "die Mitgliedschaft",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عضویت",
+          "en": "membership"
+        },
+        "id_ref": "nomen_mitgliedschaft"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

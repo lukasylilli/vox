@@ -2894,6 +2894,7 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۵۲۹ | befummeln | `Verben_regelmaesig.txt` | 2026-10-13 | محاوره‌ای، اغلب با بار جنسی — تصمیم Lukas — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۵۳۰ | beglotzen | `Verben_regelmaesig.txt` | 2026-10-13 | محاوره‌ای/زمخت — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۵۳۱ | begnaden | `Verben_regelmaesig.txt` | 2026-10-13 | ادبی/قدیمی (بیشتر begnadet) — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۳۲ | bekiffen | `Verben_regelmaesig.txt` | 2026-10-13 | محاوره‌ای (مواد مخدر)، نادر — قاعده‌ی ۱۴/۱۶ | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 

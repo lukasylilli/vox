@@ -1,0 +1,167 @@
+{
+  "schema": "3.0",
+  "id": "verb_beizen",
+  "wort": "beizen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "رنگ چوب زدن، با مواد شیمیایی عمل آوردن",
+      "(گوشت) خواباندن"
+    ],
+    "en": [
+      "to stain (wood)",
+      "to marinate"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Handwerk",
+    "Kochen"
+  ],
+  "ipa": "ˈbaɪ̯t͡sn̩",
+  "anmerkung": "Regelmäßig (beizte, gebeizt).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er beizt den Tisch.",
+      "uebersetzung": {
+        "fa": "او میز را رنگ چوب می‌زند.",
+        "en": "He is staining the table."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Fleisch wird zwei Tage in Rotwein gebeizt, damit es besonders zart wird.",
+      "uebersetzung": {
+        "fa": "گوشت را دو روز در شراب قرمز می‌خوابانند تا خیلی نرم شود.",
+        "en": "The meat is marinated in red wine for two days so that it becomes especially tender."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "marinieren",
+      "uebersetzung": {
+        "fa": "خواباندن (گوشت)",
+        "en": "to marinate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از die Beize (ماده‌ی رنگ‌کننده/خواباندن)",
+    "en": "from die Beize (stain, marinade)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "beizen",
+      "praeteritum": "beizte",
+      "partizip2": "gebeizt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beize",
+        "du": "beizt",
+        "er_sie_es": "beizt",
+        "wir": "beizen",
+        "ihr": "beizt",
+        "sie_Sie": "beizen"
+      },
+      "praeteritum": {
+        "ich": "beizte",
+        "du": "beiztest",
+        "er_sie_es": "beizte",
+        "wir": "beizten",
+        "ihr": "beiztet",
+        "sie_Sie": "beizten"
+      },
+      "konjunktiv1": {
+        "ich": "beize",
+        "du": "beizest",
+        "er_sie_es": "beize",
+        "wir": "beizen",
+        "ihr": "beizet",
+        "sie_Sie": "beizen"
+      },
+      "konjunktiv2": {
+        "ich": "beizte",
+        "du": "beiztest",
+        "er_sie_es": "beizte",
+        "wir": "beizten",
+        "ihr": "beiztet",
+        "sie_Sie": "beizten"
+      },
+      "imperativ": {
+        "du": "Beize!",
+        "ihr": "Beizt!",
+        "Sie": "Beizen Sie!"
+      }
+    },
+    "partizip1": "beizend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "die Beize",
+    "woerter": [
+      {
+        "wort": "das Holz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چوب",
+          "en": "wood"
+        },
+        "id_ref": "nomen_holz"
+      },
+      {
+        "wort": "marinieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خواباندن",
+          "en": "to marinate"
+        },
+        "id_ref": "verb_marinieren"
+      },
+      {
+        "wort": "das Fleisch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گوشت",
+          "en": "meat"
+        },
+        "id_ref": "nomen_fleisch"
+      },
+      {
+        "wort": "die Farbe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رنگ",
+          "en": "colour"
+        },
+        "id_ref": "nomen_farbe"
+      },
+      {
+        "wort": "der Tischler",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نجار",
+          "en": "carpenter"
+        },
+        "id_ref": "nomen_tischler"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

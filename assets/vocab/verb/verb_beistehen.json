@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_beistehen",
+  "wort": "beistehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "یاری کردن، کنار کسی بودن (در سختی)"
+    ],
+    "en": [
+      "to stand by",
+      "to support"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Beziehungen"
+  ],
+  "ipa": "ˈbaɪ̯ˌʃteːən",
+  "anmerkung": "Trennbar, unregelmäßig (stand bei, beigestanden) — steht in der Liste der regelmäßigen Verben, wird aber unregelmäßig konjugiert (Duden). Mit Dativ. Perfekt mit «haben»; in Süddeutschland, Österreich und der Schweiz mit «sein».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Freunde stehen dir bei.",
+      "uebersetzung": {
+        "fa": "دوستان کنارت هستند.",
+        "en": "Friends stand by you."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Während ihrer Krankheit hat ihr Mann ihr Tag und Nacht beigestanden.",
+      "uebersetzung": {
+        "fa": "در طول بیماری‌اش، همسرش شب و روز کنارش بود.",
+        "en": "During her illness her husband stood by her day and night."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "helfen",
+      "uebersetzung": {
+        "fa": "کمک کردن",
+        "en": "to help"
+      }
+    },
+    {
+      "wort": "unterstützen",
+      "uebersetzung": {
+        "fa": "حمایت کردن",
+        "en": "to support"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "im Stich lassen",
+      "uebersetzung": {
+        "fa": "تنها گذاشتن",
+        "en": "to abandon"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "bei- (کنار) + stehen (ایستادن)",
+    "en": "bei- (beside) + stehen (to stand)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem (Dat) beistehen",
+        "bedeutung": "jemandem in einer schwierigen Lage helfen",
+        "beispiel": "Sie stand ihrer Freundin in der Not bei.",
+        "uebersetzung": {
+          "fa": "در سختی کنار دوستش ماند.",
+          "en": "She stood by her friend in her hour of need."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beistehen",
+      "praeteritum": "stand bei",
+      "partizip2": "beigestanden"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stehe bei",
+        "du": "stehst bei",
+        "er_sie_es": "steht bei",
+        "wir": "stehen bei",
+        "ihr": "steht bei",
+        "sie_Sie": "stehen bei"
+      },
+      "praeteritum": {
+        "ich": "stand bei",
+        "du": "standest bei",
+        "er_sie_es": "stand bei",
+        "wir": "standen bei",
+        "ihr": "standet bei",
+        "sie_Sie": "standen bei"
+      },
+      "konjunktiv1": {
+        "ich": "stehe bei",
+        "du": "stehest bei",
+        "er_sie_es": "stehe bei",
+        "wir": "stehen bei",
+        "ihr": "stehet bei",
+        "sie_Sie": "stehen bei"
+      },
+      "konjunktiv2": {
+        "ich": "stünde bei",
+        "du": "stündest bei",
+        "er_sie_es": "stünde bei",
+        "wir": "stünden bei",
+        "ihr": "stündet bei",
+        "sie_Sie": "stünden bei"
+      },
+      "imperativ": {
+        "du": "Steh bei!",
+        "ihr": "Steht bei!",
+        "Sie": "Stehen Sie bei!"
+      }
+    },
+    "partizip1": "beistehend",
+    "nominalisierung": "der Beistand"
+  },
+  "wortnetz": {
+    "grundwort": "stehen",
+    "woerter": [
+      {
+        "wort": "helfen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک کردن",
+          "en": "to help"
+        },
+        "id_ref": "verb_helfen"
+      },
+      {
+        "wort": "unterstützen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حمایت کردن",
+          "en": "to support"
+        },
+        "id_ref": "verb_unterstuetzen"
+      },
+      {
+        "wort": "der Beistand",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "یاری، پشتیبانی",
+          "en": "support"
+        },
+        "id_ref": "nomen_beistand"
+      },
+      {
+        "wort": "trösten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دلداری دادن",
+          "en": "to comfort"
+        },
+        "id_ref": "verb_troesten"
+      },
+      {
+        "wort": "die Not",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سختی، نیاز",
+          "en": "need"
+        },
+        "id_ref": "nomen_not"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

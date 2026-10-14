@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_behelligen",
+  "wort": "behelligen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مزاحم شدن، آزار دادن"
+    ],
+    "en": [
+      "to bother",
+      "to pester"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "bəˈhɛlɪɡn̩",
+  "anmerkung": "Untrennbar, regelmäßig (behelligte, behelligt). Gehoben.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich will Sie nicht behelligen.",
+      "uebersetzung": {
+        "fa": "نمی‌خواهم مزاحمتان شوم.",
+        "en": "I don't want to bother you."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Passanten wurden von aufdringlichen Verkäufern behelligt, die ihnen Rosen andrehen wollten.",
+      "uebersetzung": {
+        "fa": "فروشنده‌های سمج که می‌خواستند گل رز به عابران بفروشند، مزاحمشان می‌شدند.",
+        "en": "The passers-by were pestered by pushy sellers who wanted to foist roses on them."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "belästigen",
+      "uebersetzung": {
+        "fa": "مزاحم شدن",
+        "en": "to harass"
+      }
+    },
+    {
+      "wort": "stören",
+      "uebersetzung": {
+        "fa": "مزاحم شدن",
+        "en": "to disturb"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "in Ruhe lassen",
+      "uebersetzung": {
+        "fa": "راحت گذاشتن",
+        "en": "to leave alone"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + helligen (از آلمانی کهن hellig = خسته)",
+    "en": "be- + helligen (from Middle High German hellec = weary)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden mit + Dat behelligen",
+        "bedeutung": "jemanden mit etwas belästigen",
+        "beispiel": "Er behelligt uns ständig mit Fragen.",
+        "uebersetzung": {
+          "fa": "مدام با سؤال‌هایش مزاحم ما می‌شود.",
+          "en": "He constantly pesters us with questions."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "behelligen",
+      "praeteritum": "behelligte",
+      "partizip2": "behelligt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "behellige",
+        "du": "behelligst",
+        "er_sie_es": "behelligt",
+        "wir": "behelligen",
+        "ihr": "behelligt",
+        "sie_Sie": "behelligen"
+      },
+      "praeteritum": {
+        "ich": "behelligte",
+        "du": "behelligtest",
+        "er_sie_es": "behelligte",
+        "wir": "behelligten",
+        "ihr": "behelligtet",
+        "sie_Sie": "behelligten"
+      },
+      "konjunktiv1": {
+        "ich": "behellige",
+        "du": "behelligest",
+        "er_sie_es": "behellige",
+        "wir": "behelligen",
+        "ihr": "behelliget",
+        "sie_Sie": "behelligen"
+      },
+      "konjunktiv2": {
+        "ich": "behelligte",
+        "du": "behelligtest",
+        "er_sie_es": "behelligte",
+        "wir": "behelligten",
+        "ihr": "behelligtet",
+        "sie_Sie": "behelligten"
+      },
+      "imperativ": {
+        "du": "Behellige!",
+        "ihr": "Behelligt!",
+        "Sie": "Behelligen Sie!"
+      }
+    },
+    "partizip1": "behelligend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "stören",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مزاحم شدن",
+          "en": "to disturb"
+        },
+        "id_ref": "verb_stoeren"
+      },
+      {
+        "wort": "belästigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مزاحم شدن",
+          "en": "to harass"
+        },
+        "id_ref": "verb_belaestigen"
+      },
+      {
+        "wort": "nerven",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کلافه کردن",
+          "en": "to annoy"
+        },
+        "id_ref": "verb_nerven"
+      },
+      {
+        "wort": "aufdringlich",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سمج",
+          "en": "pushy"
+        },
+        "id_ref": "adjektiv_aufdringlich"
+      },
+      {
+        "wort": "die Ruhe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آرامش",
+          "en": "peace"
+        },
+        "id_ref": "nomen_ruhe"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

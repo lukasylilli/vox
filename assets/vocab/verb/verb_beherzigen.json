@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_beherzigen",
+  "wort": "beherzigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(پند) به گوش گرفتن، رعایت کردن"
+    ],
+    "en": [
+      "to take to heart",
+      "to heed"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "bəˈhɛʁt͡sɪɡn̩",
+  "anmerkung": "Untrennbar, regelmäßig (beherzigte, beherzigt).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich beherzige deinen Rat.",
+      "uebersetzung": {
+        "fa": "نصیحتت را به گوش می‌گیرم.",
+        "en": "I'll take your advice to heart."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wer die Tipps des Arztes beherzigt, erholt sich nach der Operation meist schneller.",
+      "uebersetzung": {
+        "fa": "کسی که توصیه‌های پزشک را رعایت کند، معمولاً بعد از جراحی زودتر بهبود می‌یابد.",
+        "en": "Anyone who heeds the doctor's advice usually recovers faster after the operation."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "befolgen",
+      "uebersetzung": {
+        "fa": "پیروی کردن",
+        "en": "to follow"
+      }
+    },
+    {
+      "wort": "beachten",
+      "uebersetzung": {
+        "fa": "رعایت کردن",
+        "en": "to observe"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ignorieren",
+      "uebersetzung": {
+        "fa": "نادیده گرفتن",
+        "en": "to ignore"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + herzigen (از das Herz = دل)",
+    "en": "be- + herzigen (from das Herz = heart)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "beherzigen",
+      "praeteritum": "beherzigte",
+      "partizip2": "beherzigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beherzige",
+        "du": "beherzigst",
+        "er_sie_es": "beherzigt",
+        "wir": "beherzigen",
+        "ihr": "beherzigt",
+        "sie_Sie": "beherzigen"
+      },
+      "praeteritum": {
+        "ich": "beherzigte",
+        "du": "beherzigtest",
+        "er_sie_es": "beherzigte",
+        "wir": "beherzigten",
+        "ihr": "beherzigtet",
+        "sie_Sie": "beherzigten"
+      },
+      "konjunktiv1": {
+        "ich": "beherzige",
+        "du": "beherzigest",
+        "er_sie_es": "beherzige",
+        "wir": "beherzigen",
+        "ihr": "beherziget",
+        "sie_Sie": "beherzigen"
+      },
+      "konjunktiv2": {
+        "ich": "beherzigte",
+        "du": "beherzigtest",
+        "er_sie_es": "beherzigte",
+        "wir": "beherzigten",
+        "ihr": "beherzigtet",
+        "sie_Sie": "beherzigten"
+      },
+      "imperativ": {
+        "du": "Beherzige!",
+        "ihr": "Beherzigt!",
+        "Sie": "Beherzigen Sie!"
+      }
+    },
+    "partizip1": "beherzigend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "das Herz",
+    "woerter": [
+      {
+        "wort": "der Rat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نصیحت",
+          "en": "advice"
+        },
+        "id_ref": "nomen_rat"
+      },
+      {
+        "wort": "befolgen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پیروی کردن",
+          "en": "to follow"
+        },
+        "id_ref": "verb_befolgen"
+      },
+      {
+        "wort": "beachten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رعایت کردن",
+          "en": "to observe"
+        },
+        "id_ref": "verb_beachten"
+      },
+      {
+        "wort": "der Tipp",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "توصیه",
+          "en": "tip"
+        },
+        "id_ref": "nomen_tipp"
+      },
+      {
+        "wort": "das Herz",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قلب، دل",
+          "en": "heart"
+        },
+        "id_ref": "nomen_herz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
