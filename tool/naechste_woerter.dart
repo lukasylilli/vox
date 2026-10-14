@@ -1591,6 +1591,8 @@ const zurueckgestellt = <String>{
   'bestallen', // zurückgestellt (Regel 14/16): Amtssprache, veraltend, selten 2026-10-14
   'bestuhlen', // zurückgestellt (Regel 14/16): selten (fachsprachlich: Veranstaltungsraum mit Stühlen ausstatten) 2026-10-14
   'betatschen', // zurückgestellt (Regel 14/16): umgangssprachlich, oft sexuell konnotiert (wie befummeln) — Entscheidung Lukas 2026-10-14
+  'betonnen', // zurückgestellt (Regel 14/16): fachsprachlich (Seefahrt: mit Tonnen markieren) 2026-10-14
+  'beulen', // zurückgestellt (Regel 14/16): selten (sich beulen) 2026-10-14
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

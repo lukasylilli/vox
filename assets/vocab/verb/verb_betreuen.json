@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_betreuen",
+  "wort": "betreuen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مراقبت کردن از، سرپرستی کردن"
+    ],
+    "en": [
+      "to look after",
+      "to care for",
+      "to supervise"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Gesundheit",
+    "Familie"
+  ],
+  "ipa": "bəˈtʁɔɪ̯ən",
+  "anmerkung": "Untrennbar, regelmäßig (betreute, betreut). Betreutes Wohnen = Wohnform mit Unterstützung.",
+  "berufe": [
+    "pflege_medizin",
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie betreut zwei Kinder.",
+      "uebersetzung": {
+        "fa": "او از دو بچه مراقبت می‌کند.",
+        "en": "She looks after two children."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Pflegerin betreut alte Menschen, die nicht mehr allein leben können.",
+      "uebersetzung": {
+        "fa": "آن پرستار از سالمندانی مراقبت می‌کند که دیگر نمی‌توانند تنها زندگی کنند.",
+        "en": "The carer looks after old people who can no longer live alone."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "versorgen",
+      "uebersetzung": {
+        "fa": "رسیدگی کردن",
+        "en": "to provide for"
+      }
+    },
+    {
+      "wort": "sich kümmern um",
+      "uebersetzung": {
+        "fa": "رسیدگی کردن به",
+        "en": "to take care of"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + treu (وفادار) + -en",
+    "en": "be- + treu (loyal) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "betreuen",
+      "praeteritum": "betreute",
+      "partizip2": "betreut"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "betreue",
+        "du": "betreust",
+        "er_sie_es": "betreut",
+        "wir": "betreuen",
+        "ihr": "betreut",
+        "sie_Sie": "betreuen"
+      },
+      "praeteritum": {
+        "ich": "betreute",
+        "du": "betreutest",
+        "er_sie_es": "betreute",
+        "wir": "betreuten",
+        "ihr": "betreutet",
+        "sie_Sie": "betreuten"
+      },
+      "konjunktiv1": {
+        "ich": "betreue",
+        "du": "betreuest",
+        "er_sie_es": "betreue",
+        "wir": "betreuen",
+        "ihr": "betreuet",
+        "sie_Sie": "betreuen"
+      },
+      "konjunktiv2": {
+        "ich": "betreute",
+        "du": "betreutest",
+        "er_sie_es": "betreute",
+        "wir": "betreuten",
+        "ihr": "betreutet",
+        "sie_Sie": "betreuten"
+      },
+      "imperativ": {
+        "du": "Betreue!",
+        "ihr": "Betreut!",
+        "Sie": "Betreuen Sie!"
+      }
+    },
+    "partizip1": "betreuend",
+    "nominalisierung": "die Betreuung"
+  },
+  "wortnetz": {
+    "grundwort": "treu",
+    "woerter": [
+      {
+        "wort": "pflegen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پرستاری کردن",
+          "en": "to nurse"
+        },
+        "id_ref": "verb_pflegen"
+      },
+      {
+        "wort": "die Betreuung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مراقبت، سرپرستی",
+          "en": "care"
+        },
+        "id_ref": "nomen_betreuung"
+      },
+      {
+        "wort": "der Betreuer",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مراقب، سرپرست",
+          "en": "carer, supervisor"
+        },
+        "id_ref": "nomen_betreuer"
+      },
+      {
+        "wort": "versorgen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رسیدگی کردن",
+          "en": "to provide for"
+        },
+        "id_ref": "verb_versorgen"
+      },
+      {
+        "wort": "kümmern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رسیدگی کردن",
+          "en": "to take care"
+        },
+        "id_ref": "verb_kuemmern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

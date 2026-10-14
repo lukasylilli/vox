@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_beurkunden",
+  "wort": "beurkunden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به‌صورت رسمی ثبت کردن، سند کردن"
+    ],
+    "en": [
+      "to certify",
+      "to record officially"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Behörden",
+    "Recht"
+  ],
+  "ipa": "bəˈʔuːɐ̯kʊndn̩",
+  "anmerkung": "Untrennbar, regelmäßig (beurkundete, beurkundet). Amtssprache: z. B. beim Notar oder Standesamt.",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Notar beurkundet den Vertrag.",
+      "uebersetzung": {
+        "fa": "سردفتر قرارداد را رسمی ثبت می‌کند.",
+        "en": "The notary certifies the contract."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Geburt muss beim Standesamt beurkundet werden, bevor das Kind einen Pass bekommt.",
+      "uebersetzung": {
+        "fa": "تولد باید در اداره‌ی ثبت احوال ثبت شود، قبل از اینکه کودک گذرنامه بگیرد.",
+        "en": "The birth must be registered at the registry office before the child can get a passport."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bescheinigen",
+      "uebersetzung": {
+        "fa": "گواهی کردن",
+        "en": "to certify"
+      }
+    },
+    {
+      "wort": "beglaubigen",
+      "uebersetzung": {
+        "fa": "تصدیق کردن",
+        "en": "to authenticate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Urkunde (سند) + -n",
+    "en": "be- + Urkunde (document) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "beurkunden",
+      "praeteritum": "beurkundete",
+      "partizip2": "beurkundet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beurkunde",
+        "du": "beurkundest",
+        "er_sie_es": "beurkundet",
+        "wir": "beurkunden",
+        "ihr": "beurkundet",
+        "sie_Sie": "beurkunden"
+      },
+      "praeteritum": {
+        "ich": "beurkundete",
+        "du": "beurkundetest",
+        "er_sie_es": "beurkundete",
+        "wir": "beurkundeten",
+        "ihr": "beurkundetet",
+        "sie_Sie": "beurkundeten"
+      },
+      "konjunktiv1": {
+        "ich": "beurkunde",
+        "du": "beurkundest",
+        "er_sie_es": "beurkunde",
+        "wir": "beurkunden",
+        "ihr": "beurkundet",
+        "sie_Sie": "beurkunden"
+      },
+      "konjunktiv2": {
+        "ich": "beurkundete",
+        "du": "beurkundetest",
+        "er_sie_es": "beurkundete",
+        "wir": "beurkundeten",
+        "ihr": "beurkundetet",
+        "sie_Sie": "beurkundeten"
+      },
+      "imperativ": {
+        "du": "Beurkunde!",
+        "ihr": "Beurkundet!",
+        "Sie": "Beurkunden Sie!"
+      }
+    },
+    "partizip1": "beurkundend",
+    "nominalisierung": "die Beurkundung"
+  },
+  "wortnetz": {
+    "grundwort": "Urkunde",
+    "woerter": [
+      {
+        "wort": "die Urkunde",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سند، گواهی‌نامه",
+          "en": "certificate"
+        },
+        "id_ref": "nomen_urkunde"
+      },
+      {
+        "wort": "der Notar",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سردفتر اسناد رسمی",
+          "en": "notary"
+        },
+        "id_ref": "nomen_notar"
+      },
+      {
+        "wort": "das Standesamt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اداره‌ی ثبت احوال",
+          "en": "registry office"
+        },
+        "id_ref": "nomen_standesamt"
+      },
+      {
+        "wort": "beglaubigen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تصدیق کردن",
+          "en": "to authenticate"
+        },
+        "id_ref": "verb_beglaubigen"
+      },
+      {
+        "wort": "der Vertrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرارداد",
+          "en": "contract"
+        },
+        "id_ref": "nomen_vertrag"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

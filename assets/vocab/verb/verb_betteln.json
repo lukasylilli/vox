@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_betteln",
+  "wort": "betteln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گدایی کردن؛ التماس کردن"
+    ],
+    "en": [
+      "to beg"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gesellschaft",
+    "Alltag"
+  ],
+  "ipa": "ˈbɛtl̩n",
+  "anmerkung": "Regelmäßig (bettelte, gebettelt). «be-» gehört hier zum Stamm.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ein Mann bettelt vor dem Bahnhof.",
+      "uebersetzung": {
+        "fa": "مردی جلوی ایستگاه گدایی می‌کند.",
+        "en": "A man is begging in front of the station."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Hund bettelt jedes Mal, wenn wir am Tisch sitzen und essen.",
+      "uebersetzung": {
+        "fa": "سگ هر بار که سر میز نشسته‌ایم و غذا می‌خوریم، گدایی می‌کند.",
+        "en": "The dog begs every time we sit at the table and eat."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anbetteln",
+      "uebersetzung": {
+        "fa": "گدایی کردن از",
+        "en": "to beg from"
+      }
+    },
+    {
+      "wort": "flehen",
+      "uebersetzung": {
+        "fa": "التماس کردن",
+        "en": "to plead"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "um + Akk betteln",
+        "bedeutung": "dringend um etwas bitten",
+        "beispiel": "Die Kinder betteln um ein Eis.",
+        "uebersetzung": {
+          "fa": "بچه‌ها برای یک بستنی التماس می‌کنند.",
+          "en": "The children are begging for an ice cream."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "betteln",
+      "praeteritum": "bettelte",
+      "partizip2": "gebettelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bettle",
+        "du": "bettelst",
+        "er_sie_es": "bettelt",
+        "wir": "betteln",
+        "ihr": "bettelt",
+        "sie_Sie": "betteln"
+      },
+      "praeteritum": {
+        "ich": "bettelte",
+        "du": "betteltest",
+        "er_sie_es": "bettelte",
+        "wir": "bettelten",
+        "ihr": "betteltet",
+        "sie_Sie": "bettelten"
+      },
+      "konjunktiv1": {
+        "ich": "bettle",
+        "du": "bettlest",
+        "er_sie_es": "bettle",
+        "wir": "betteln",
+        "ihr": "bettlet",
+        "sie_Sie": "betteln"
+      },
+      "konjunktiv2": {
+        "ich": "bettelte",
+        "du": "betteltest",
+        "er_sie_es": "bettelte",
+        "wir": "bettelten",
+        "ihr": "betteltet",
+        "sie_Sie": "bettelten"
+      },
+      "imperativ": {
+        "du": "Bettle!",
+        "ihr": "Bettelt!",
+        "Sie": "Betteln Sie!"
+      }
+    },
+    "partizip1": "bettelnd",
+    "nominalisierung": "die Bettelei"
+  },
+  "wortnetz": {
+    "grundwort": "Bettel",
+    "woerter": [
+      {
+        "wort": "der Bettler",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گدا",
+          "en": "beggar"
+        },
+        "id_ref": "nomen_bettler"
+      },
+      {
+        "wort": "bitten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خواهش کردن",
+          "en": "to ask"
+        },
+        "id_ref": "verb_bitten"
+      },
+      {
+        "wort": "arm",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فقیر",
+          "en": "poor"
+        },
+        "id_ref": "adjektiv_arm"
+      },
+      {
+        "wort": "flehen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "التماس کردن",
+          "en": "to plead"
+        },
+        "id_ref": "verb_flehen"
+      },
+      {
+        "wort": "obdachlos",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بی‌خانمان",
+          "en": "homeless"
+        },
+        "id_ref": "adjektiv_obdachlos"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

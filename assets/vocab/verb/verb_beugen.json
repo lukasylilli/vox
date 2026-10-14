@@ -1,0 +1,202 @@
+{
+  "schema": "3.0",
+  "id": "verb_beugen",
+  "wort": "beugen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خم کردن؛ (فعل یا اسم را) صرف کردن؛ تسلیم شدن"
+    ],
+    "en": [
+      "to bend",
+      "to inflect",
+      "to bow to"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Körper",
+    "Sprache"
+  ],
+  "ipa": "ˈbɔɪ̯ɡn̩",
+  "anmerkung": "Regelmäßig (beugte, gebeugt). «be-» gehört hier zum Stamm. Grammatik: beugen = flektieren.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Beuge die Knie!",
+      "uebersetzung": {
+        "fa": "زانوهایت را خم کن!",
+        "en": "Bend your knees!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Am Ende beugte er sich dem Druck seiner Familie und gab die Stelle auf.",
+      "uebersetzung": {
+        "fa": "در آخر در برابر فشار خانواده‌اش تسلیم شد و آن شغل را رها کرد.",
+        "en": "In the end he gave in to the pressure from his family and gave up the job."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "biegen",
+      "uebersetzung": {
+        "fa": "خم کردن",
+        "en": "to bend"
+      }
+    },
+    {
+      "wort": "neigen",
+      "uebersetzung": {
+        "fa": "کج کردن، خم کردن",
+        "en": "to tilt"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "strecken",
+      "uebersetzung": {
+        "fa": "دراز کردن، صاف کردن",
+        "en": "to stretch"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich über + Akk beugen",
+        "bedeutung": "den Oberkörper über etwas neigen",
+        "beispiel": "Die Mutter beugt sich über das Bett.",
+        "uebersetzung": {
+          "fa": "مادر روی تخت خم می‌شود.",
+          "en": "The mother bends over the bed."
+        }
+      },
+      {
+        "muster": "sich + Dat beugen",
+        "bedeutung": "nachgeben, sich unterwerfen",
+        "beispiel": "Wir beugen uns nicht der Gewalt.",
+        "uebersetzung": {
+          "fa": "ما در برابر خشونت تسلیم نمی‌شویم.",
+          "en": "We will not bow to violence."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beugen",
+      "praeteritum": "beugte",
+      "partizip2": "gebeugt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beuge",
+        "du": "beugst",
+        "er_sie_es": "beugt",
+        "wir": "beugen",
+        "ihr": "beugt",
+        "sie_Sie": "beugen"
+      },
+      "praeteritum": {
+        "ich": "beugte",
+        "du": "beugtest",
+        "er_sie_es": "beugte",
+        "wir": "beugten",
+        "ihr": "beugtet",
+        "sie_Sie": "beugten"
+      },
+      "konjunktiv1": {
+        "ich": "beuge",
+        "du": "beugest",
+        "er_sie_es": "beuge",
+        "wir": "beugen",
+        "ihr": "beuget",
+        "sie_Sie": "beugen"
+      },
+      "konjunktiv2": {
+        "ich": "beugte",
+        "du": "beugtest",
+        "er_sie_es": "beugte",
+        "wir": "beugten",
+        "ihr": "beugtet",
+        "sie_Sie": "beugten"
+      },
+      "imperativ": {
+        "du": "Beuge!",
+        "ihr": "Beugt!",
+        "Sie": "Beugen Sie!"
+      }
+    },
+    "partizip1": "beugend",
+    "nominalisierung": "die Beugung"
+  },
+  "wortnetz": {
+    "grundwort": "Bogen",
+    "woerter": [
+      {
+        "wort": "biegen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خم کردن",
+          "en": "to bend"
+        },
+        "id_ref": "verb_biegen"
+      },
+      {
+        "wort": "das Knie",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زانو",
+          "en": "knee"
+        },
+        "id_ref": "nomen_knie"
+      },
+      {
+        "wort": "strecken",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دراز کردن",
+          "en": "to stretch"
+        },
+        "id_ref": "verb_strecken"
+      },
+      {
+        "wort": "vorbeugen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پیشگیری کردن",
+          "en": "to prevent"
+        },
+        "id_ref": "verb_vorbeugen"
+      },
+      {
+        "wort": "die Beugung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "صرف، خمش",
+          "en": "inflection, bending"
+        },
+        "id_ref": "nomen_beugung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

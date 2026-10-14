@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_betten",
+  "wort": "betten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خواباندن، (بیمار را) در بستر قرار دادن"
+    ],
+    "en": [
+      "to bed",
+      "to lay down",
+      "to position (a patient)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gesundheit",
+    "Pflege"
+  ],
+  "ipa": "ˈbɛtn̩",
+  "anmerkung": "Regelmäßig (bettete, gebettet). Gehoben; in der Pflege: einen Patienten betten (lagern).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir betten den Patienten.",
+      "uebersetzung": {
+        "fa": "بیمار را در تخت جابه‌جا می‌کنیم.",
+        "en": "We position the patient in bed."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Pflegekräfte betteten die alte Dame so, dass sie keine Schmerzen mehr hatte.",
+      "uebersetzung": {
+        "fa": "پرستاران آن خانم مسن را طوری خواباندند که دیگر درد نداشت.",
+        "en": "The nurses positioned the old lady so that she no longer had any pain."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "lagern",
+      "uebersetzung": {
+        "fa": "جابه‌جا کردن (بیمار)",
+        "en": "to position"
+      }
+    },
+    {
+      "wort": "hinlegen",
+      "uebersetzung": {
+        "fa": "خواباندن",
+        "en": "to lay down"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Bett (تخت) + -en",
+    "en": "Bett (bed) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "jemanden auf + Akk betten",
+        "bedeutung": "jemanden vorsichtig auf etwas legen",
+        "beispiel": "Sie betteten den Verletzten auf eine Decke.",
+        "uebersetzung": {
+          "fa": "آن‌ها آدم زخمی را روی یک پتو خواباندند.",
+          "en": "They laid the injured man on a blanket."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "betten",
+      "praeteritum": "bettete",
+      "partizip2": "gebettet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bette",
+        "du": "bettest",
+        "er_sie_es": "bettet",
+        "wir": "betten",
+        "ihr": "bettet",
+        "sie_Sie": "betten"
+      },
+      "praeteritum": {
+        "ich": "bettete",
+        "du": "bettetest",
+        "er_sie_es": "bettete",
+        "wir": "betteten",
+        "ihr": "bettetet",
+        "sie_Sie": "betteten"
+      },
+      "konjunktiv1": {
+        "ich": "bette",
+        "du": "bettest",
+        "er_sie_es": "bette",
+        "wir": "betten",
+        "ihr": "bettet",
+        "sie_Sie": "betten"
+      },
+      "konjunktiv2": {
+        "ich": "bettete",
+        "du": "bettetest",
+        "er_sie_es": "bettete",
+        "wir": "betteten",
+        "ihr": "bettetet",
+        "sie_Sie": "betteten"
+      },
+      "imperativ": {
+        "du": "Bette!",
+        "ihr": "Bettet!",
+        "Sie": "Betten Sie!"
+      }
+    },
+    "partizip1": "bettend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Bett",
+    "woerter": [
+      {
+        "wort": "das Bett",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تخت",
+          "en": "bed"
+        },
+        "id_ref": "nomen_bett"
+      },
+      {
+        "wort": "lagern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جابه‌جا کردن؛ انبار کردن",
+          "en": "to position; to store"
+        },
+        "id_ref": "verb_lagern"
+      },
+      {
+        "wort": "legen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گذاشتن، خواباندن",
+          "en": "to lay"
+        },
+        "id_ref": "verb_legen"
+      },
+      {
+        "wort": "die Pflege",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پرستاری",
+          "en": "care"
+        },
+        "id_ref": "nomen_pflege"
+      },
+      {
+        "wort": "das Kissen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بالش",
+          "en": "pillow"
+        },
+        "id_ref": "nomen_kissen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

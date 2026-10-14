@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_beurteilen",
+  "wort": "beurteilen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "قضاوت کردن، ارزیابی کردن"
+    ],
+    "en": [
+      "to judge",
+      "to assess"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Kommunikation"
+  ],
+  "ipa": "bəˈʔʊʁtaɪ̯lən",
+  "anmerkung": "Untrennbar, regelmäßig (beurteilte, beurteilt).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das kann ich nicht beurteilen.",
+      "uebersetzung": {
+        "fa": "درباره‌ی این نمی‌توانم قضاوت کنم.",
+        "en": "I cannot judge that."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Man sollte einen Menschen nicht beurteilen, bevor man ihn richtig kennt.",
+      "uebersetzung": {
+        "fa": "نباید درباره‌ی کسی قضاوت کرد، قبل از اینکه درست بشناسیمش.",
+        "en": "You should not judge a person before you really know them."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bewerten",
+      "uebersetzung": {
+        "fa": "ارزیابی کردن",
+        "en": "to evaluate"
+      }
+    },
+    {
+      "wort": "einschätzen",
+      "uebersetzung": {
+        "fa": "برآورد کردن",
+        "en": "to assess"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Urteil (حکم، قضاوت) + -en",
+    "en": "be- + Urteil (judgement) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden/etwas nach + Dat beurteilen",
+        "bedeutung": "jemanden/etwas nach einem Maßstab bewerten",
+        "beispiel": "Man sollte niemanden nach seinem Aussehen beurteilen.",
+        "uebersetzung": {
+          "fa": "نباید هیچ‌کس را از روی ظاهرش قضاوت کرد.",
+          "en": "You should not judge anyone by their appearance."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beurteilen",
+      "praeteritum": "beurteilte",
+      "partizip2": "beurteilt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beurteile",
+        "du": "beurteilst",
+        "er_sie_es": "beurteilt",
+        "wir": "beurteilen",
+        "ihr": "beurteilt",
+        "sie_Sie": "beurteilen"
+      },
+      "praeteritum": {
+        "ich": "beurteilte",
+        "du": "beurteiltest",
+        "er_sie_es": "beurteilte",
+        "wir": "beurteilten",
+        "ihr": "beurteiltet",
+        "sie_Sie": "beurteilten"
+      },
+      "konjunktiv1": {
+        "ich": "beurteile",
+        "du": "beurteilest",
+        "er_sie_es": "beurteile",
+        "wir": "beurteilen",
+        "ihr": "beurteilet",
+        "sie_Sie": "beurteilen"
+      },
+      "konjunktiv2": {
+        "ich": "beurteilte",
+        "du": "beurteiltest",
+        "er_sie_es": "beurteilte",
+        "wir": "beurteilten",
+        "ihr": "beurteiltet",
+        "sie_Sie": "beurteilten"
+      },
+      "imperativ": {
+        "du": "Beurteile!",
+        "ihr": "Beurteilt!",
+        "Sie": "Beurteilen Sie!"
+      }
+    },
+    "partizip1": "beurteilend",
+    "nominalisierung": "die Beurteilung"
+  },
+  "wortnetz": {
+    "grundwort": "Urteil",
+    "woerter": [
+      {
+        "wort": "das Urteil",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حکم، قضاوت",
+          "en": "judgement"
+        },
+        "id_ref": "nomen_urteil"
+      },
+      {
+        "wort": "bewerten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ارزیابی کردن",
+          "en": "to evaluate"
+        },
+        "id_ref": "verb_bewerten"
+      },
+      {
+        "wort": "einschätzen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "برآورد کردن",
+          "en": "to assess"
+        },
+        "id_ref": "verb_einschaetzen"
+      },
+      {
+        "wort": "die Meinung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نظر",
+          "en": "opinion"
+        },
+        "id_ref": "nomen_meinung"
+      },
+      {
+        "wort": "die Beurteilung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ارزیابی",
+          "en": "assessment"
+        },
+        "id_ref": "nomen_beurteilung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_betoeren",
+  "wort": "betören",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دل (کسی را) بردن، افسون کردن"
+    ],
+    "en": [
+      "to beguile",
+      "to bewitch",
+      "to captivate"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Gefühle",
+    "Liebe"
+  ],
+  "ipa": "bəˈtøːʁən",
+  "anmerkung": "Untrennbar, regelmäßig (betörte, betört). Gehoben.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ihr Lächeln betört ihn.",
+      "uebersetzung": {
+        "fa": "لبخندش دل او را می‌برد.",
+        "en": "Her smile captivates him."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Duft der Rosen war so betörend, dass wir lange im Garten blieben.",
+      "uebersetzung": {
+        "fa": "بوی گل‌های رز آن‌قدر مسحورکننده بود که مدت زیادی در باغ ماندیم.",
+        "en": "The scent of the roses was so bewitching that we stayed in the garden for a long time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bezaubern",
+      "uebersetzung": {
+        "fa": "مسحور کردن",
+        "en": "to enchant"
+      }
+    },
+    {
+      "wort": "verzaubern",
+      "uebersetzung": {
+        "fa": "افسون کردن",
+        "en": "to bewitch"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Tor (احمق، کهن) + -en",
+    "en": "be- + Tor (fool, old) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden mit + Dat betören",
+        "bedeutung": "jemanden mit etwas verzaubern",
+        "beispiel": "Sie betörte das Publikum mit ihrer Stimme.",
+        "uebersetzung": {
+          "fa": "او با صدایش دل تماشاگران را برد.",
+          "en": "She captivated the audience with her voice."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "betören",
+      "praeteritum": "betörte",
+      "partizip2": "betört"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "betöre",
+        "du": "betörst",
+        "er_sie_es": "betört",
+        "wir": "betören",
+        "ihr": "betört",
+        "sie_Sie": "betören"
+      },
+      "praeteritum": {
+        "ich": "betörte",
+        "du": "betörtest",
+        "er_sie_es": "betörte",
+        "wir": "betörten",
+        "ihr": "betörtet",
+        "sie_Sie": "betörten"
+      },
+      "konjunktiv1": {
+        "ich": "betöre",
+        "du": "betörest",
+        "er_sie_es": "betöre",
+        "wir": "betören",
+        "ihr": "betöret",
+        "sie_Sie": "betören"
+      },
+      "konjunktiv2": {
+        "ich": "betörte",
+        "du": "betörtest",
+        "er_sie_es": "betörte",
+        "wir": "betörten",
+        "ihr": "betörtet",
+        "sie_Sie": "betörten"
+      },
+      "imperativ": {
+        "du": "Betöre!",
+        "ihr": "Betört!",
+        "Sie": "Betören Sie!"
+      }
+    },
+    "partizip1": "betörend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Zauber",
+    "woerter": [
+      {
+        "wort": "bezaubern",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مسحور کردن",
+          "en": "to enchant"
+        },
+        "id_ref": "verb_bezaubern"
+      },
+      {
+        "wort": "verführen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "فریفتن",
+          "en": "to seduce"
+        },
+        "id_ref": "verb_verfuehren"
+      },
+      {
+        "wort": "der Duft",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بوی خوش",
+          "en": "scent"
+        },
+        "id_ref": "nomen_duft"
+      },
+      {
+        "wort": "betörend",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "مسحورکننده",
+          "en": "bewitching"
+        },
+        "id_ref": "adjektiv_betoerend"
+      },
+      {
+        "wort": "verliebt",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عاشق",
+          "en": "in love"
+        },
+        "id_ref": "adjektiv_verliebt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_beurlauben",
+  "wort": "beurlauben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مرخصی دادن؛ (موقتاً) از کار برکنار کردن"
+    ],
+    "en": [
+      "to give leave",
+      "to suspend"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit"
+  ],
+  "ipa": "bəˈʔuːɐ̯laʊ̯bn̩",
+  "anmerkung": "Untrennbar, regelmäßig (beurlaubte, beurlaubt). Auch: bis zur Klärung vom Dienst freistellen.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Chef beurlaubt ihn.",
+      "uebersetzung": {
+        "fa": "رئیس به او مرخصی می‌دهد.",
+        "en": "The boss gives him leave."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Lehrer wurde beurlaubt, bis die Vorwürfe gegen ihn geklärt sind.",
+      "uebersetzung": {
+        "fa": "آن معلم تا روشن شدن اتهام‌ها موقتاً از کار کنار گذاشته شد.",
+        "en": "The teacher was suspended until the accusations against him have been cleared up."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "freistellen",
+      "uebersetzung": {
+        "fa": "از کار معاف کردن",
+        "en": "to release from duty"
+      }
+    },
+    {
+      "wort": "suspendieren",
+      "uebersetzung": {
+        "fa": "موقتاً برکنار کردن",
+        "en": "to suspend"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Urlaub (مرخصی) + -en",
+    "en": "be- + Urlaub (leave) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden von + Dat beurlauben",
+        "bedeutung": "jemanden für eine Zeit von einer Pflicht befreien",
+        "beispiel": "Sie wurde vom Dienst beurlaubt.",
+        "uebersetzung": {
+          "fa": "او از خدمت مرخص شد.",
+          "en": "She was given leave from duty."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beurlauben",
+      "praeteritum": "beurlaubte",
+      "partizip2": "beurlaubt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beurlaube",
+        "du": "beurlaubst",
+        "er_sie_es": "beurlaubt",
+        "wir": "beurlauben",
+        "ihr": "beurlaubt",
+        "sie_Sie": "beurlauben"
+      },
+      "praeteritum": {
+        "ich": "beurlaubte",
+        "du": "beurlaubtest",
+        "er_sie_es": "beurlaubte",
+        "wir": "beurlaubten",
+        "ihr": "beurlaubtet",
+        "sie_Sie": "beurlaubten"
+      },
+      "konjunktiv1": {
+        "ich": "beurlaube",
+        "du": "beurlaubest",
+        "er_sie_es": "beurlaube",
+        "wir": "beurlauben",
+        "ihr": "beurlaubet",
+        "sie_Sie": "beurlauben"
+      },
+      "konjunktiv2": {
+        "ich": "beurlaubte",
+        "du": "beurlaubtest",
+        "er_sie_es": "beurlaubte",
+        "wir": "beurlaubten",
+        "ihr": "beurlaubtet",
+        "sie_Sie": "beurlaubten"
+      },
+      "imperativ": {
+        "du": "Beurlaube!",
+        "ihr": "Beurlaubt!",
+        "Sie": "Beurlauben Sie!"
+      }
+    },
+    "partizip1": "beurlaubend",
+    "nominalisierung": "die Beurlaubung"
+  },
+  "wortnetz": {
+    "grundwort": "Urlaub",
+    "woerter": [
+      {
+        "wort": "der Urlaub",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تعطیلات، مرخصی",
+          "en": "holiday, leave"
+        },
+        "id_ref": "nomen_urlaub"
+      },
+      {
+        "wort": "freistellen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "معاف کردن",
+          "en": "to release"
+        },
+        "id_ref": "verb_freistellen"
+      },
+      {
+        "wort": "suspendieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "موقتاً برکنار کردن",
+          "en": "to suspend"
+        },
+        "id_ref": "verb_suspendieren"
+      },
+      {
+        "wort": "der Dienst",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خدمت، کار",
+          "en": "service, duty"
+        },
+        "id_ref": "nomen_dienst"
+      },
+      {
+        "wort": "kündigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "استعفا دادن، اخراج کردن",
+          "en": "to quit, to dismiss"
+        },
+        "id_ref": "verb_kuendigen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
