@@ -1,0 +1,202 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausweichen",
+  "wort": "ausweichen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کنار کشیدن، جاخالی دادن",
+      "طفره رفتن"
+    ],
+    "en": [
+      "to avoid",
+      "to dodge",
+      "to evade"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Verkehr",
+    "Kommunikation"
+  ],
+  "ipa": "ˈaʊ̯sˌvaɪ̯çn̩",
+  "anmerkung": "Trennbar, unregelmäßig (wich aus, ausgewichen), Perfekt mit «sein» — steht in der Liste der regelmäßigen Verben, wird aber unregelmäßig konjugiert (Duden). Mit Dativ.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Auto weicht dem Hund aus.",
+      "uebersetzung": {
+        "fa": "ماشین از سگ جاخالی می‌دهد.",
+        "en": "The car swerves to avoid the dog."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Er ist meiner Frage ausgewichen, weil er die Wahrheit nicht sagen wollte.",
+      "uebersetzung": {
+        "fa": "او از جواب دادن به سؤالم طفره رفت، چون نمی‌خواست حقیقت را بگوید.",
+        "en": "He evaded my question because he didn't want to tell the truth."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vermeiden",
+      "uebersetzung": {
+        "fa": "پرهیز کردن",
+        "en": "to avoid"
+      }
+    },
+    {
+      "wort": "umgehen",
+      "uebersetzung": {
+        "fa": "دور زدن",
+        "en": "to bypass"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sich stellen",
+      "uebersetzung": {
+        "fa": "رو در رو شدن",
+        "en": "to face"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (کنار) + weichen (عقب کشیدن)",
+    "en": "aus- (aside) + weichen (to give way)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem / einer Sache (Dat) ausweichen",
+        "bedeutung": "etwas vermeiden, aus dem Weg gehen",
+        "beispiel": "Sie weicht jedem Konflikt aus.",
+        "uebersetzung": {
+          "fa": "او از هر درگیری طفره می‌رود.",
+          "en": "She avoids every conflict."
+        }
+      },
+      {
+        "muster": "auf + Akk ausweichen",
+        "bedeutung": "etwas als Ersatz nehmen",
+        "beispiel": "Wir weichen auf den Bus aus.",
+        "uebersetzung": {
+          "fa": "به‌جایش با اتوبوس می‌رویم.",
+          "en": "We'll use the bus instead."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausweichen",
+      "praeteritum": "wich aus",
+      "partizip2": "ausgewichen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "weiche aus",
+        "du": "weichst aus",
+        "er_sie_es": "weicht aus",
+        "wir": "weichen aus",
+        "ihr": "weicht aus",
+        "sie_Sie": "weichen aus"
+      },
+      "praeteritum": {
+        "ich": "wich aus",
+        "du": "wichst aus",
+        "er_sie_es": "wich aus",
+        "wir": "wichen aus",
+        "ihr": "wicht aus",
+        "sie_Sie": "wichen aus"
+      },
+      "konjunktiv1": {
+        "ich": "weiche aus",
+        "du": "weichest aus",
+        "er_sie_es": "weiche aus",
+        "wir": "weichen aus",
+        "ihr": "weichet aus",
+        "sie_Sie": "weichen aus"
+      },
+      "konjunktiv2": {
+        "ich": "wiche aus",
+        "du": "wichest aus",
+        "er_sie_es": "wiche aus",
+        "wir": "wichen aus",
+        "ihr": "wichet aus",
+        "sie_Sie": "wichen aus"
+      },
+      "imperativ": {
+        "du": "Weich aus!",
+        "ihr": "Weicht aus!",
+        "Sie": "Weichen Sie aus!"
+      }
+    },
+    "partizip1": "ausweichend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "weichen",
+    "woerter": [
+      {
+        "wort": "vermeiden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پرهیز کردن",
+          "en": "to avoid"
+        },
+        "id_ref": "verb_vermeiden"
+      },
+      {
+        "wort": "ausweichend",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "طفره‌آمیز",
+          "en": "evasive"
+        },
+        "id_ref": "adjektiv_ausweichend"
+      },
+      {
+        "wort": "die Ausweichmöglichkeit",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "راه جایگزین",
+          "en": "alternative"
+        },
+        "id_ref": "nomen_ausweichmoeglichkeit"
+      },
+      {
+        "wort": "der Konflikt",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "درگیری",
+          "en": "conflict"
+        },
+        "id_ref": "nomen_konflikt"
+      },
+      {
+        "wort": "bremsen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترمز کردن",
+          "en": "to brake"
+        },
+        "id_ref": "verb_bremsen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

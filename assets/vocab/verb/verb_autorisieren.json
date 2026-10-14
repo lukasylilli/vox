@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_autorisieren",
+  "wort": "autorisieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اجازه دادن، مجوز دادن"
+    ],
+    "en": [
+      "to authorise"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Behörden",
+    "Arbeit"
+  ],
+  "ipa": "aʊ̯toʁiˈziːʁən",
+  "anmerkung": "Regelmäßig (autorisierte, autorisiert).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wer hat das autorisiert?",
+      "uebersetzung": {
+        "fa": "چه کسی این را مجاز کرد؟",
+        "en": "Who authorised that?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nur autorisierte Mitarbeiter dürfen den Raum mit den Medikamenten betreten.",
+      "uebersetzung": {
+        "fa": "فقط کارکنان مجاز اجازه دارند وارد اتاق داروها شوند.",
+        "en": "Only authorised staff may enter the room with the medication."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "genehmigen",
+      "uebersetzung": {
+        "fa": "تأیید کردن، مجوز دادن",
+        "en": "to approve"
+      }
+    },
+    {
+      "wort": "bevollmächtigen",
+      "uebersetzung": {
+        "fa": "وکالت دادن",
+        "en": "to empower"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verbieten",
+      "uebersetzung": {
+        "fa": "ممنوع کردن",
+        "en": "to forbid"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از der Autor/die Autorität (اقتدار) + -isieren",
+    "en": "from Autorität (authority) + -isieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden zu + Dat autorisieren",
+        "bedeutung": "jemandem eine Befugnis geben",
+        "beispiel": "Er ist zur Unterschrift autorisiert.",
+        "uebersetzung": {
+          "fa": "او مجاز به امضاست.",
+          "en": "He is authorised to sign."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "autorisieren",
+      "praeteritum": "autorisierte",
+      "partizip2": "autorisiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "autorisiere",
+        "du": "autorisierst",
+        "er_sie_es": "autorisiert",
+        "wir": "autorisieren",
+        "ihr": "autorisiert",
+        "sie_Sie": "autorisieren"
+      },
+      "praeteritum": {
+        "ich": "autorisierte",
+        "du": "autorisiertest",
+        "er_sie_es": "autorisierte",
+        "wir": "autorisierten",
+        "ihr": "autorisiertet",
+        "sie_Sie": "autorisierten"
+      },
+      "konjunktiv1": {
+        "ich": "autorisiere",
+        "du": "autorisierest",
+        "er_sie_es": "autorisiere",
+        "wir": "autorisieren",
+        "ihr": "autorisieret",
+        "sie_Sie": "autorisieren"
+      },
+      "konjunktiv2": {
+        "ich": "autorisierte",
+        "du": "autorisiertest",
+        "er_sie_es": "autorisierte",
+        "wir": "autorisierten",
+        "ihr": "autorisiertet",
+        "sie_Sie": "autorisierten"
+      },
+      "imperativ": {
+        "du": "Autorisiere!",
+        "ihr": "Autorisiert!",
+        "Sie": "Autorisieren Sie!"
+      }
+    },
+    "partizip1": "autorisierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "erlauben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اجازه دادن",
+          "en": "to allow"
+        },
+        "id_ref": "verb_erlauben"
+      },
+      {
+        "wort": "genehmigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مجوز دادن",
+          "en": "to approve"
+        },
+        "id_ref": "verb_genehmigen"
+      },
+      {
+        "wort": "die Erlaubnis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اجازه",
+          "en": "permission"
+        },
+        "id_ref": "nomen_erlaubnis"
+      },
+      {
+        "wort": "die Autorität",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اقتدار",
+          "en": "authority"
+        },
+        "id_ref": "nomen_autoritaet"
+      },
+      {
+        "wort": "verbieten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ممنوع کردن",
+          "en": "to forbid"
+        },
+        "id_ref": "verb_verbieten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

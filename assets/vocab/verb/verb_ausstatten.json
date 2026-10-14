@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausstatten",
+  "wort": "ausstatten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تجهیز کردن، مجهز کردن"
+    ],
+    "en": [
+      "to equip",
+      "to furnish"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Wohnen",
+    "Arbeit"
+  ],
+  "ipa": "ˈaʊ̯sˌʃtatn̩",
+  "anmerkung": "Trennbar (stattete aus, ausgestattet).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Zimmer ist gut ausgestattet.",
+      "uebersetzung": {
+        "fa": "اتاق خوب مجهز است.",
+        "en": "The room is well equipped."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Alle Krankenwagen sind mit einem Defibrillator ausgestattet, damit man im Notfall sofort helfen kann.",
+      "uebersetzung": {
+        "fa": "همه‌ی آمبولانس‌ها به دستگاه شوک مجهزند تا در موقع اضطراری فوراً کمک شود.",
+        "en": "All ambulances are equipped with a defibrillator so that help can be given immediately in an emergency."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausrüsten",
+      "uebersetzung": {
+        "fa": "تجهیز کردن",
+        "en": "to equip"
+      }
+    },
+    {
+      "wort": "einrichten",
+      "uebersetzung": {
+        "fa": "چیدن",
+        "en": "to furnish"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- + statten (فراهم کردن)",
+    "en": "aus- + statten (to provide)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas / jemanden mit + Dat ausstatten",
+        "bedeutung": "etwas mit etwas versehen",
+        "beispiel": "Die Schule wurde mit neuen Computern ausgestattet.",
+        "uebersetzung": {
+          "fa": "مدرسه به رایانه‌های تازه مجهز شد.",
+          "en": "The school was equipped with new computers."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausstatten",
+      "praeteritum": "stattete aus",
+      "partizip2": "ausgestattet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "statte aus",
+        "du": "stattest aus",
+        "er_sie_es": "stattet aus",
+        "wir": "statten aus",
+        "ihr": "stattet aus",
+        "sie_Sie": "statten aus"
+      },
+      "praeteritum": {
+        "ich": "stattete aus",
+        "du": "stattetest aus",
+        "er_sie_es": "stattete aus",
+        "wir": "statteten aus",
+        "ihr": "stattetet aus",
+        "sie_Sie": "statteten aus"
+      },
+      "konjunktiv1": {
+        "ich": "statte aus",
+        "du": "stattest aus",
+        "er_sie_es": "statte aus",
+        "wir": "statten aus",
+        "ihr": "stattet aus",
+        "sie_Sie": "statten aus"
+      },
+      "konjunktiv2": {
+        "ich": "stattete aus",
+        "du": "stattetest aus",
+        "er_sie_es": "stattete aus",
+        "wir": "statteten aus",
+        "ihr": "stattetet aus",
+        "sie_Sie": "statteten aus"
+      },
+      "imperativ": {
+        "du": "Statte aus!",
+        "ihr": "Stattet aus!",
+        "Sie": "Statten Sie aus!"
+      }
+    },
+    "partizip1": "ausstattend",
+    "nominalisierung": "die Ausstattung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Ausstattung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تجهیزات",
+          "en": "equipment"
+        },
+        "id_ref": "nomen_ausstattung"
+      },
+      {
+        "wort": "ausrüsten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تجهیز کردن",
+          "en": "to equip"
+        },
+        "id_ref": "verb_ausruesten"
+      },
+      {
+        "wort": "einrichten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چیدن",
+          "en": "to furnish"
+        },
+        "id_ref": "verb_einrichten"
+      },
+      {
+        "wort": "das Gerät",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دستگاه",
+          "en": "device"
+        },
+        "id_ref": "nomen_geraet"
+      },
+      {
+        "wort": "modern",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مدرن",
+          "en": "modern"
+        },
+        "id_ref": "adjektiv_modern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

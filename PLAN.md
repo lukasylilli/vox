@@ -2863,6 +2863,21 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۴۹۸ | äugen | `Verben_regelmaesig.txt` | 2026-10-13 | اصطلاح شکارچیان — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۹۹ | ausixen | `Verben_regelmaesig.txt` | 2026-10-13 | محاوره‌ای، املا نوسان‌دار — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۵۰۰ | ausmergeln | `Verben_regelmaesig.txt` | 2026-10-13 | تقریباً فقط به شکل صفت (ausgemergelt) — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۰۱ | auszementieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۰۲ | auszieren | `Verben_regelmaesig.txt` | 2026-10-13 | قدیمی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۰۳ | auszirkeln | `Verben_regelmaesig.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۰۴ | authentisieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی (بیشتر authentifizieren) — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۰۵ | autographieren | `Verben_regelmaesig.txt` | 2026-10-13 | قدیمی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۰۶ | autoklavieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۰۷ | autonomisieren | `Verben_regelmaesig.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۰۸ | auxiliieren | `Verben_regelmaesig.txt` | 2026-10-13 | قدیمی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۰۹ | aversionieren | `Verben_regelmaesig.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۱۰ | avertieren | `Verben_regelmaesig.txt` | 2026-10-13 | قدیمی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۱۱ | avisieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی/نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۱۲ | avivieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۱۳ | avouieren | `Verben_regelmaesig.txt` | 2026-10-13 | قدیمی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۱۴ | axiomatisieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۱۵ | azotieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی — قاعده‌ی ۱۴/۱۶ | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 

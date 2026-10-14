@@ -1,0 +1,164 @@
+{
+  "schema": "3.0",
+  "id": "verb_authentifizieren",
+  "wort": "authentifizieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "احراز هویت کردن"
+    ],
+    "en": [
+      "to authenticate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik"
+  ],
+  "ipa": "aʊ̯tɛntifiˈt͡siːʁən",
+  "anmerkung": "Regelmäßig (authentifizierte, authentifiziert). Auch reflexiv.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte authentifizieren Sie sich!",
+      "uebersetzung": {
+        "fa": "لطفاً هویت خود را تأیید کنید!",
+        "en": "Please authenticate yourself!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Für das Online-Banking muss man sich mit einem Code authentifizieren, den man per SMS bekommt.",
+      "uebersetzung": {
+        "fa": "برای بانکداری اینترنتی باید با کدی که با پیامک می‌آید هویت خود را تأیید کرد.",
+        "en": "For online banking you have to authenticate yourself with a code that you receive by text."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verifizieren",
+      "uebersetzung": {
+        "fa": "تأیید کردن",
+        "en": "to verify"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از authentisch (اصیل) + -ifizieren",
+    "en": "from authentisch (authentic) + -ifizieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "authentifizieren",
+      "praeteritum": "authentifizierte",
+      "partizip2": "authentifiziert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "authentifiziere",
+        "du": "authentifizierst",
+        "er_sie_es": "authentifiziert",
+        "wir": "authentifizieren",
+        "ihr": "authentifiziert",
+        "sie_Sie": "authentifizieren"
+      },
+      "praeteritum": {
+        "ich": "authentifizierte",
+        "du": "authentifiziertest",
+        "er_sie_es": "authentifizierte",
+        "wir": "authentifizierten",
+        "ihr": "authentifiziertet",
+        "sie_Sie": "authentifizierten"
+      },
+      "konjunktiv1": {
+        "ich": "authentifiziere",
+        "du": "authentifizierest",
+        "er_sie_es": "authentifiziere",
+        "wir": "authentifizieren",
+        "ihr": "authentifizieret",
+        "sie_Sie": "authentifizieren"
+      },
+      "konjunktiv2": {
+        "ich": "authentifizierte",
+        "du": "authentifiziertest",
+        "er_sie_es": "authentifizierte",
+        "wir": "authentifizierten",
+        "ihr": "authentifiziertet",
+        "sie_Sie": "authentifizierten"
+      },
+      "imperativ": {
+        "du": "Authentifiziere!",
+        "ihr": "Authentifiziert!",
+        "Sie": "Authentifizieren Sie!"
+      }
+    },
+    "partizip1": "authentifizierend",
+    "nominalisierung": "die Authentifizierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Passwort",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رمز عبور",
+          "en": "password"
+        },
+        "id_ref": "nomen_passwort"
+      },
+      {
+        "wort": "einloggen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وارد حساب شدن",
+          "en": "to log in"
+        },
+        "id_ref": "verb_einloggen"
+      },
+      {
+        "wort": "der Code",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کد",
+          "en": "code"
+        },
+        "id_ref": "nomen_code"
+      },
+      {
+        "wort": "die Sicherheit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "امنیت",
+          "en": "security"
+        },
+        "id_ref": "nomen_sicherheit"
+      },
+      {
+        "wort": "authentisch",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اصیل",
+          "en": "authentic"
+        },
+        "id_ref": "adjektiv_authentisch"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1551,6 +1551,21 @@ const zurueckgestellt = <String>{
   'äugen', // zurückgestellt (Regel 14/16): Jägersprache/gehoben 2026-10-13
   'ausixen', // zurückgestellt (Regel 14/16): umgangssprachlich, Schreibung schwankt 2026-10-13
   'ausmergeln', // zurückgestellt (Regel 14/16): fast nur im Partizip («ausgemergelt») 2026-10-13
+  'auszementieren', // zurückgestellt (Regel 14/16): fachsprachlich 2026-10-13
+  'auszieren', // zurückgestellt (Regel 14/16): veraltet 2026-10-13
+  'auszirkeln', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'authentisieren', // zurückgestellt (Regel 14/16): fachsprachlich (meist authentifizieren) 2026-10-13
+  'autographieren', // zurückgestellt (Regel 14/16): veraltet 2026-10-13
+  'autoklavieren', // zurückgestellt (Regel 14/16): fachsprachlich 2026-10-13
+  'autonomisieren', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'auxiliieren', // zurückgestellt (Regel 14/16): veraltet 2026-10-13
+  'aversionieren', // zurückgestellt (Regel 14/16): selten 2026-10-13
+  'avertieren', // zurückgestellt (Regel 14/16): veraltet 2026-10-13
+  'avisieren', // zurückgestellt (Regel 14/16): fachsprachlich/österreichisch, selten 2026-10-13
+  'avivieren', // zurückgestellt (Regel 14/16): fachsprachlich 2026-10-13
+  'avouieren', // zurückgestellt (Regel 14/16): veraltet 2026-10-13
+  'axiomatisieren', // zurückgestellt (Regel 14/16): fachsprachlich 2026-10-13
+  'azotieren', // zurückgestellt (Regel 14/16): fachsprachlich 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

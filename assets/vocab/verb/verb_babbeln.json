@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_babbeln",
+  "wort": "babbeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "وراجی کردن، تاتی‌تاتی کردن"
+    ],
+    "en": [
+      "to babble",
+      "to chatter"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "ˈbabl̩n",
+  "anmerkung": "Regelmäßig (babbelte, gebabbelt). Umgangssprachlich/regional.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Baby babbelt.",
+      "uebersetzung": {
+        "fa": "نوزاد تاتی‌تاتی می‌کند.",
+        "en": "The baby is babbling."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Er hat den ganzen Abend nur Unsinn gebabbelt, sodass niemand mehr zugehört hat.",
+      "uebersetzung": {
+        "fa": "او تمام شب فقط چرت‌وپرت گفت، طوری که دیگر هیچ‌کس گوش نمی‌داد.",
+        "en": "He babbled nonsense all evening so that nobody listened any more."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "plappern",
+      "uebersetzung": {
+        "fa": "وراجی کردن",
+        "en": "to chatter"
+      }
+    },
+    {
+      "wort": "quasseln",
+      "uebersetzung": {
+        "fa": "پرحرفی کردن",
+        "en": "to blather"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "schweigen",
+      "uebersetzung": {
+        "fa": "ساکت ماندن",
+        "en": "to be silent"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "صداواژه (تکرار هجا)",
+    "en": "onomatopoeic (repeated syllables)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "babbeln",
+      "praeteritum": "babbelte",
+      "partizip2": "gebabbelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "babble",
+        "du": "babbelst",
+        "er_sie_es": "babbelt",
+        "wir": "babbeln",
+        "ihr": "babbelt",
+        "sie_Sie": "babbeln"
+      },
+      "praeteritum": {
+        "ich": "babbelte",
+        "du": "babbeltest",
+        "er_sie_es": "babbelte",
+        "wir": "babbelten",
+        "ihr": "babbeltet",
+        "sie_Sie": "babbelten"
+      },
+      "konjunktiv1": {
+        "ich": "babble",
+        "du": "babblest",
+        "er_sie_es": "babble",
+        "wir": "babbeln",
+        "ihr": "babblet",
+        "sie_Sie": "babbeln"
+      },
+      "konjunktiv2": {
+        "ich": "babbelte",
+        "du": "babbeltest",
+        "er_sie_es": "babbelte",
+        "wir": "babbelten",
+        "ihr": "babbeltet",
+        "sie_Sie": "babbelten"
+      },
+      "imperativ": {
+        "du": "Babble!",
+        "ihr": "Babbelt!",
+        "Sie": "Babbeln Sie!"
+      }
+    },
+    "partizip1": "babbelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "reden",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حرف زدن",
+          "en": "to talk"
+        },
+        "id_ref": "verb_reden"
+      },
+      {
+        "wort": "plappern",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "وراجی کردن",
+          "en": "to chatter"
+        },
+        "id_ref": "verb_plappern"
+      },
+      {
+        "wort": "das Baby",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نوزاد",
+          "en": "baby"
+        },
+        "id_ref": "nomen_baby"
+      },
+      {
+        "wort": "der Unsinn",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حرف بی‌معنی",
+          "en": "nonsense"
+        },
+        "id_ref": "nomen_unsinn"
+      },
+      {
+        "wort": "schweigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ساکت ماندن",
+          "en": "to be silent"
+        },
+        "id_ref": "verb_schweigen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
