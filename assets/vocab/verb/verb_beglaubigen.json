@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_beglaubigen",
+  "wort": "beglaubigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تأیید رسمی کردن، (کپی) برابر اصل کردن"
+    ],
+    "en": [
+      "to certify",
+      "to authenticate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Behörden",
+    "Recht"
+  ],
+  "ipa": "bəˈɡlaʊ̯bɪɡn̩",
+  "anmerkung": "Untrennbar, regelmäßig (beglaubigte, beglaubigt). Amtssprache: «eine beglaubigte Kopie».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich lasse das Zeugnis beglaubigen.",
+      "uebersetzung": {
+        "fa": "مدرکم را برابر اصل می‌کنم.",
+        "en": "I am having the certificate certified."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Für die Anerkennung Ihres Diploms brauchen Sie beglaubigte Übersetzungen aller Dokumente.",
+      "uebersetzung": {
+        "fa": "برای ارزشیابی مدرک‌تان به ترجمه‌های تأییدشده‌ی همه‌ی مدارک نیاز دارید.",
+        "en": "For the recognition of your diploma you need certified translations of all documents."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bestätigen",
+      "uebersetzung": {
+        "fa": "تأیید کردن",
+        "en": "to confirm"
+      }
+    },
+    {
+      "wort": "beurkunden",
+      "uebersetzung": {
+        "fa": "رسمی ثبت کردن",
+        "en": "to record officially"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + glaubigen (از glauben = باور کردن)",
+    "en": "be- + glaubigen (from glauben = to believe)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "beglaubigen",
+      "praeteritum": "beglaubigte",
+      "partizip2": "beglaubigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beglaubige",
+        "du": "beglaubigst",
+        "er_sie_es": "beglaubigt",
+        "wir": "beglaubigen",
+        "ihr": "beglaubigt",
+        "sie_Sie": "beglaubigen"
+      },
+      "praeteritum": {
+        "ich": "beglaubigte",
+        "du": "beglaubigtest",
+        "er_sie_es": "beglaubigte",
+        "wir": "beglaubigten",
+        "ihr": "beglaubigtet",
+        "sie_Sie": "beglaubigten"
+      },
+      "konjunktiv1": {
+        "ich": "beglaubige",
+        "du": "beglaubigest",
+        "er_sie_es": "beglaubige",
+        "wir": "beglaubigen",
+        "ihr": "beglaubiget",
+        "sie_Sie": "beglaubigen"
+      },
+      "konjunktiv2": {
+        "ich": "beglaubigte",
+        "du": "beglaubigtest",
+        "er_sie_es": "beglaubigte",
+        "wir": "beglaubigten",
+        "ihr": "beglaubigtet",
+        "sie_Sie": "beglaubigten"
+      },
+      "imperativ": {
+        "du": "Beglaubige!",
+        "ihr": "Beglaubigt!",
+        "Sie": "Beglaubigen Sie!"
+      }
+    },
+    "partizip1": "beglaubigend",
+    "nominalisierung": "die Beglaubigung"
+  },
+  "wortnetz": {
+    "grundwort": "glauben",
+    "woerter": [
+      {
+        "wort": "die Kopie",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کپی",
+          "en": "copy"
+        },
+        "id_ref": "nomen_kopie"
+      },
+      {
+        "wort": "das Dokument",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سند",
+          "en": "document"
+        },
+        "id_ref": "nomen_dokument"
+      },
+      {
+        "wort": "der Notar",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دفتر اسناد رسمی",
+          "en": "notary"
+        },
+        "id_ref": "nomen_notar"
+      },
+      {
+        "wort": "die Übersetzung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ترجمه",
+          "en": "translation"
+        },
+        "id_ref": "nomen_uebersetzung"
+      },
+      {
+        "wort": "das Amt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اداره",
+          "en": "office"
+        },
+        "id_ref": "nomen_amt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_begegnen",
+  "wort": "begegnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(اتفاقی) دیدن، برخوردن به",
+      "روبه‌رو شدن (با مشکل)"
+    ],
+    "en": [
+      "to meet",
+      "to encounter"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Beziehungen",
+    "Alltag"
+  ],
+  "ipa": "bəˈɡeːɡnən",
+  "anmerkung": "Untrennbar, regelmäßig (begegnete, begegnet), Perfekt mit «sein». Mit Dativ; reziprok: «sich begegnen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich bin ihm im Park begegnet.",
+      "uebersetzung": {
+        "fa": "در پارک به او برخوردم.",
+        "en": "I ran into him in the park."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wir müssen dem Problem mit neuen Ideen begegnen, sonst ändert sich nichts.",
+      "uebersetzung": {
+        "fa": "باید با ایده‌های تازه با این مشکل روبه‌رو شویم، وگرنه چیزی عوض نمی‌شود.",
+        "en": "We have to meet the problem with new ideas, otherwise nothing will change."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "treffen",
+      "uebersetzung": {
+        "fa": "دیدن، ملاقات کردن",
+        "en": "to meet"
+      }
+    },
+    {
+      "wort": "über den Weg laufen",
+      "uebersetzung": {
+        "fa": "به هم برخوردن",
+        "en": "to run into"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "meiden",
+      "uebersetzung": {
+        "fa": "دوری کردن",
+        "en": "to avoid"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از gegen (روبه‌رو) — be- + gegnen",
+    "en": "from gegen (against) — be- + gegnen"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "jemandem / einer Sache (Dat) begegnen",
+        "bedeutung": "jemanden zufällig treffen; auf etwas reagieren",
+        "beispiel": "Er begegnete der Kritik mit Humor.",
+        "uebersetzung": {
+          "fa": "او با شوخ‌طبعی به انتقاد پاسخ داد.",
+          "en": "He met the criticism with humour."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "begegnen",
+      "praeteritum": "begegnete",
+      "partizip2": "begegnet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "begegne",
+        "du": "begegnest",
+        "er_sie_es": "begegnet",
+        "wir": "begegnen",
+        "ihr": "begegnet",
+        "sie_Sie": "begegnen"
+      },
+      "praeteritum": {
+        "ich": "begegnete",
+        "du": "begegnetest",
+        "er_sie_es": "begegnete",
+        "wir": "begegneten",
+        "ihr": "begegnetet",
+        "sie_Sie": "begegneten"
+      },
+      "konjunktiv1": {
+        "ich": "begegne",
+        "du": "begegnest",
+        "er_sie_es": "begegne",
+        "wir": "begegnen",
+        "ihr": "begegnet",
+        "sie_Sie": "begegnen"
+      },
+      "konjunktiv2": {
+        "ich": "begegnete",
+        "du": "begegnetest",
+        "er_sie_es": "begegnete",
+        "wir": "begegneten",
+        "ihr": "begegnetet",
+        "sie_Sie": "begegneten"
+      },
+      "imperativ": {
+        "du": "Begegne!",
+        "ihr": "Begegnet!",
+        "Sie": "Begegnen Sie!"
+      }
+    },
+    "partizip1": "begegnend",
+    "nominalisierung": "die Begegnung"
+  },
+  "wortnetz": {
+    "grundwort": "gegen",
+    "woerter": [
+      {
+        "wort": "treffen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دیدن، ملاقات کردن",
+          "en": "to meet"
+        },
+        "id_ref": "verb_treffen"
+      },
+      {
+        "wort": "die Begegnung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دیدار، برخورد",
+          "en": "encounter"
+        },
+        "id_ref": "nomen_begegnung"
+      },
+      {
+        "wort": "zufällig",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اتفاقی",
+          "en": "by chance"
+        },
+        "id_ref": "adjektiv_zufaellig"
+      },
+      {
+        "wort": "der Gegner",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حریف",
+          "en": "opponent"
+        },
+        "id_ref": "nomen_gegner"
+      },
+      {
+        "wort": "kennenlernen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آشنا شدن",
+          "en": "to get to know"
+        },
+        "id_ref": "verb_kennenlernen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

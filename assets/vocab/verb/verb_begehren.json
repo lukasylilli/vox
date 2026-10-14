@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_begehren",
+  "wort": "begehren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آرزو کردن، خواستن (با اشتیاق)",
+      "میل داشتن"
+    ],
+    "en": [
+      "to desire",
+      "to covet"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle"
+  ],
+  "ipa": "bəˈɡeːʁən",
+  "anmerkung": "Untrennbar, regelmäßig (begehrte, begehrt). Gehoben. Partizip «begehrt» oft adjektivisch (= sehr gefragt).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Diese Stelle ist sehr begehrt.",
+      "uebersetzung": {
+        "fa": "این شغل خیلی خواهان دارد.",
+        "en": "This job is very sought-after."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Er begehrte nichts mehr, als von seiner Familie anerkannt zu werden.",
+      "uebersetzung": {
+        "fa": "او هیچ چیز را بیشتر از این آرزو نداشت که خانواده‌اش او را بپذیرند.",
+        "en": "He desired nothing more than to be recognised by his family."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wünschen",
+      "uebersetzung": {
+        "fa": "آرزو کردن",
+        "en": "to wish"
+      }
+    },
+    {
+      "wort": "ersehnen",
+      "uebersetzung": {
+        "fa": "آرزومند بودن",
+        "en": "to long for"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ablehnen",
+      "uebersetzung": {
+        "fa": "رد کردن",
+        "en": "to reject"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + gehren (خواستن، در آلمانی کهن)",
+    "en": "be- + gehren (to desire, Old High German)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "begehren",
+      "praeteritum": "begehrte",
+      "partizip2": "begehrt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "begehre",
+        "du": "begehrst",
+        "er_sie_es": "begehrt",
+        "wir": "begehren",
+        "ihr": "begehrt",
+        "sie_Sie": "begehren"
+      },
+      "praeteritum": {
+        "ich": "begehrte",
+        "du": "begehrtest",
+        "er_sie_es": "begehrte",
+        "wir": "begehrten",
+        "ihr": "begehrtet",
+        "sie_Sie": "begehrten"
+      },
+      "konjunktiv1": {
+        "ich": "begehre",
+        "du": "begehrest",
+        "er_sie_es": "begehre",
+        "wir": "begehren",
+        "ihr": "begehret",
+        "sie_Sie": "begehren"
+      },
+      "konjunktiv2": {
+        "ich": "begehrte",
+        "du": "begehrtest",
+        "er_sie_es": "begehrte",
+        "wir": "begehrten",
+        "ihr": "begehrtet",
+        "sie_Sie": "begehrten"
+      },
+      "imperativ": {
+        "du": "Begehre!",
+        "ihr": "Begehrt!",
+        "Sie": "Begehren Sie!"
+      }
+    },
+    "partizip1": "begehrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "wünschen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آرزو کردن",
+          "en": "to wish"
+        },
+        "id_ref": "verb_wuenschen"
+      },
+      {
+        "wort": "begehrt",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پرطرفدار",
+          "en": "sought-after"
+        },
+        "id_ref": "adjektiv_begehrt"
+      },
+      {
+        "wort": "die Sehnsucht",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اشتیاق",
+          "en": "longing"
+        },
+        "id_ref": "nomen_sehnsucht"
+      },
+      {
+        "wort": "die Begierde",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "میل شدید",
+          "en": "desire"
+        },
+        "id_ref": "nomen_begierde"
+      },
+      {
+        "wort": "wollen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خواستن",
+          "en": "to want"
+        },
+        "id_ref": "verb_wollen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

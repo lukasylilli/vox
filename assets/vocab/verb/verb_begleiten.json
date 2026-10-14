@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_begleiten",
+  "wort": "begleiten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "همراهی کردن"
+    ],
+    "en": [
+      "to accompany"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Beziehungen"
+  ],
+  "ipa": "bəˈɡlaɪ̯tn̩",
+  "anmerkung": "Untrennbar, regelmäßig (begleitete, begleitet). Musik: «am Klavier begleiten».",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich begleite dich nach Hause.",
+      "uebersetzung": {
+        "fa": "تو را تا خانه همراهی می‌کنم.",
+        "en": "I'll walk you home."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Kinder unter zwölf Jahren dürfen nur in Begleitung eines Erwachsenen ins Schwimmbad.",
+      "uebersetzung": {
+        "fa": "کودکان زیر دوازده سال فقط با همراه بزرگسال می‌توانند وارد استخر شوند.",
+        "en": "Children under twelve may only enter the swimming pool accompanied by an adult."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "mitgehen",
+      "uebersetzung": {
+        "fa": "همراه رفتن",
+        "en": "to go along"
+      }
+    },
+    {
+      "wort": "mitkommen",
+      "uebersetzung": {
+        "fa": "همراه آمدن",
+        "en": "to come along"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "allein lassen",
+      "uebersetzung": {
+        "fa": "تنها گذاشتن",
+        "en": "to leave alone"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + gleiten (از Geleit = همراهی)",
+    "en": "be- + gleiten (from Geleit = escort)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "begleiten",
+      "praeteritum": "begleitete",
+      "partizip2": "begleitet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "begleite",
+        "du": "begleitest",
+        "er_sie_es": "begleitet",
+        "wir": "begleiten",
+        "ihr": "begleitet",
+        "sie_Sie": "begleiten"
+      },
+      "praeteritum": {
+        "ich": "begleitete",
+        "du": "begleitetest",
+        "er_sie_es": "begleitete",
+        "wir": "begleiteten",
+        "ihr": "begleitetet",
+        "sie_Sie": "begleiteten"
+      },
+      "konjunktiv1": {
+        "ich": "begleite",
+        "du": "begleitest",
+        "er_sie_es": "begleite",
+        "wir": "begleiten",
+        "ihr": "begleitet",
+        "sie_Sie": "begleiten"
+      },
+      "konjunktiv2": {
+        "ich": "begleitete",
+        "du": "begleitetest",
+        "er_sie_es": "begleitete",
+        "wir": "begleiteten",
+        "ihr": "begleitetet",
+        "sie_Sie": "begleiteten"
+      },
+      "imperativ": {
+        "du": "Begleite!",
+        "ihr": "Begleitet!",
+        "Sie": "Begleiten Sie!"
+      }
+    },
+    "partizip1": "begleitend",
+    "nominalisierung": "die Begleitung"
+  },
+  "wortnetz": {
+    "grundwort": "die Begleitung",
+    "woerter": [
+      {
+        "wort": "die Begleitung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "همراهی؛ همراه",
+          "en": "company"
+        },
+        "id_ref": "nomen_begleitung"
+      },
+      {
+        "wort": "der Begleiter",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "همراه",
+          "en": "companion"
+        },
+        "id_ref": "nomen_begleiter"
+      },
+      {
+        "wort": "mitkommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "همراه آمدن",
+          "en": "to come along"
+        },
+        "id_ref": "verb_mitkommen"
+      },
+      {
+        "wort": "mitgehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "همراه رفتن",
+          "en": "to go along"
+        },
+        "id_ref": "verb_mitgehen"
+      },
+      {
+        "wort": "allein",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تنها",
+          "en": "alone"
+        },
+        "id_ref": "adjektiv_allein"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

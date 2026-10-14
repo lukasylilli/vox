@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_begnuegen",
+  "wort": "begnügen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "قناعت کردن، بسنده کردن"
+    ],
+    "en": [
+      "to make do with",
+      "to be content with"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "bəˈɡnyːɡn̩",
+  "anmerkung": "Untrennbar, reflexiv (begnügte sich, hat sich begnügt). Immer «sich mit + Dat begnügen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich begnüge mich mit Wasser.",
+      "uebersetzung": {
+        "fa": "به آب بسنده می‌کنم.",
+        "en": "I'll make do with water."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil das Geld knapp war, mussten wir uns mit einer kleinen Wohnung begnügen.",
+      "uebersetzung": {
+        "fa": "چون پول کم بود، مجبور شدیم به آپارتمان کوچکی قناعت کنیم.",
+        "en": "Because money was tight, we had to make do with a small flat."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich zufriedengeben",
+      "uebersetzung": {
+        "fa": "قانع شدن",
+        "en": "to be content"
+      }
+    },
+    {
+      "wort": "sich bescheiden",
+      "uebersetzung": {
+        "fa": "قناعت کردن",
+        "en": "to be modest"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "fordern",
+      "uebersetzung": {
+        "fa": "طلب کردن",
+        "en": "to demand"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + nügen (از genug = کافی)",
+    "en": "be- + nügen (from genug = enough)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich mit + Dat begnügen",
+        "bedeutung": "mit etwas zufrieden sein, nicht mehr verlangen",
+        "beispiel": "Sie begnügt sich mit wenig.",
+        "uebersetzung": {
+          "fa": "او به کم قانع است.",
+          "en": "She is content with little."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "begnügen",
+      "praeteritum": "begnügte",
+      "partizip2": "begnügt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "begnüge",
+        "du": "begnügst",
+        "er_sie_es": "begnügt",
+        "wir": "begnügen",
+        "ihr": "begnügt",
+        "sie_Sie": "begnügen"
+      },
+      "praeteritum": {
+        "ich": "begnügte",
+        "du": "begnügtest",
+        "er_sie_es": "begnügte",
+        "wir": "begnügten",
+        "ihr": "begnügtet",
+        "sie_Sie": "begnügten"
+      },
+      "konjunktiv1": {
+        "ich": "begnüge",
+        "du": "begnügest",
+        "er_sie_es": "begnüge",
+        "wir": "begnügen",
+        "ihr": "begnüget",
+        "sie_Sie": "begnügen"
+      },
+      "konjunktiv2": {
+        "ich": "begnügte",
+        "du": "begnügtest",
+        "er_sie_es": "begnügte",
+        "wir": "begnügten",
+        "ihr": "begnügtet",
+        "sie_Sie": "begnügten"
+      },
+      "imperativ": {
+        "du": "Begnüge!",
+        "ihr": "Begnügt!",
+        "Sie": "Begnügen Sie!"
+      }
+    },
+    "partizip1": "begnügend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "genug",
+    "woerter": [
+      {
+        "wort": "genug",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کافی",
+          "en": "enough"
+        },
+        "id_ref": "adverb_genug"
+      },
+      {
+        "wort": "zufriedengeben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قانع شدن",
+          "en": "to be content"
+        },
+        "id_ref": "verb_zufriedengeben"
+      },
+      {
+        "wort": "bescheiden",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فروتن، قانع",
+          "en": "modest"
+        },
+        "id_ref": "adjektiv_bescheiden"
+      },
+      {
+        "wort": "zufrieden",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "راضی",
+          "en": "satisfied"
+        },
+        "id_ref": "adjektiv_zufrieden"
+      },
+      {
+        "wort": "verlangen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خواستن",
+          "en": "to demand"
+        },
+        "id_ref": "verb_verlangen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
