@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_abstrahieren",
+  "wort": "abstrahieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "انتزاع کردن، تعمیم دادن"
+    ],
+    "en": [
+      "to abstract",
+      "to generalise"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wissenschaft"
+  ],
+  "ipa": "apstʁaˈhiːʁən",
+  "anmerkung": "Nicht trennbar (abstrahierte, abstrahiert) — Partizip II ohne ge- (-ieren).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Kinder lernen früh zu abstrahieren.",
+      "uebersetzung": {
+        "fa": "بچه‌ها زود انتزاع کردن را یاد می‌گیرند.",
+        "en": "Children learn to abstract early."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn man vom Einzelfall abstrahiert, erkennt man eine allgemeine Regel.",
+      "uebersetzung": {
+        "fa": "اگر از مورد خاص فراتر برویم، قاعده‌ای کلی می‌بینیم.",
+        "en": "If you abstract from the individual case, you recognise a general rule."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verallgemeinern",
+      "uebersetzung": {
+        "fa": "تعمیم دادن",
+        "en": "to generalise"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "konkretisieren",
+      "uebersetzung": {
+        "fa": "مشخص کردن",
+        "en": "to make concrete"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. abstrahere (جدا کردن)",
+    "en": "Latin abstrahere (to draw away)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "von + Dat abstrahieren",
+        "bedeutung": "etwas Besonderes beiseitelassen",
+        "beispiel": "Wir abstrahieren von den Details.",
+        "uebersetzung": {
+          "fa": "از جزئیات صرف‌نظر می‌کنیم.",
+          "en": "We abstract from the details."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abstrahieren",
+      "praeteritum": "abstrahierte",
+      "partizip2": "abstrahiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "abstrahiere",
+        "du": "abstrahierst",
+        "er_sie_es": "abstrahiert",
+        "wir": "abstrahieren",
+        "ihr": "abstrahiert",
+        "sie_Sie": "abstrahieren"
+      },
+      "praeteritum": {
+        "ich": "abstrahierte",
+        "du": "abstrahiertest",
+        "er_sie_es": "abstrahierte",
+        "wir": "abstrahierten",
+        "ihr": "abstrahiertet",
+        "sie_Sie": "abstrahierten"
+      },
+      "konjunktiv1": {
+        "ich": "abstrahiere",
+        "du": "abstrahierest",
+        "er_sie_es": "abstrahiere",
+        "wir": "abstrahieren",
+        "ihr": "abstrahieret",
+        "sie_Sie": "abstrahieren"
+      },
+      "konjunktiv2": {
+        "ich": "abstrahierte",
+        "du": "abstrahiertest",
+        "er_sie_es": "abstrahierte",
+        "wir": "abstrahierten",
+        "ihr": "abstrahiertet",
+        "sie_Sie": "abstrahierten"
+      },
+      "imperativ": {
+        "du": "Abstrahiere!",
+        "ihr": "Abstrahiert!",
+        "Sie": "Abstrahieren Sie!"
+      }
+    },
+    "partizip1": "abstrahierend",
+    "nominalisierung": "die Abstraktion"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "abstrakt",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "انتزاعی",
+          "en": "abstract"
+        },
+        "id_ref": "adjektiv_abstrakt"
+      },
+      {
+        "wort": "konkret",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مشخص، عینی",
+          "en": "concrete"
+        },
+        "id_ref": "adjektiv_konkret"
+      },
+      {
+        "wort": "allgemein",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کلی",
+          "en": "general"
+        },
+        "id_ref": "adjektiv_allgemein"
+      },
+      {
+        "wort": "die Abstraktion",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "انتزاع",
+          "en": "abstraction"
+        },
+        "id_ref": "nomen_abstraktion"
+      },
+      {
+        "wort": "verallgemeinern",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تعمیم دادن",
+          "en": "to generalise"
+        },
+        "id_ref": "verb_verallgemeinern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

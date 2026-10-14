@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_abstufen",
+  "wort": "abstufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "درجه‌بندی کردن، پله‌پله کردن"
+    ],
+    "en": [
+      "to grade",
+      "to stagger"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Wirtschaft"
+  ],
+  "ipa": "ˈapˌʃtuːfn̩",
+  "anmerkung": "Trennbar (stufte ab, abgestuft). Auch: «jemanden abstufen» (herabstufen).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Preise sind abgestuft.",
+      "uebersetzung": {
+        "fa": "قیمت‌ها پله‌پله‌اند.",
+        "en": "The prices are graded."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Gebühren werden nach dem Einkommen abgestuft, damit sie für alle bezahlbar sind.",
+      "uebersetzung": {
+        "fa": "هزینه‌ها بر اساس درآمد درجه‌بندی می‌شوند تا برای همه قابل پرداخت باشند.",
+        "en": "The fees are graded according to income so that everyone can afford them."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "staffeln",
+      "uebersetzung": {
+        "fa": "پلکانی کردن",
+        "en": "to stagger"
+      }
+    },
+    {
+      "wort": "herabstufen",
+      "uebersetzung": {
+        "fa": "تنزل رتبه دادن",
+        "en": "to downgrade"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- + stufen (از die Stufe = پله)",
+    "en": "ab- + stufen (from die Stufe = step)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas nach + Dat abstufen",
+        "bedeutung": "etwas nach einem Kriterium in Stufen einteilen",
+        "beispiel": "Die Strafen werden nach der Schwere abgestuft.",
+        "uebersetzung": {
+          "fa": "مجازات‌ها بر اساس شدت درجه‌بندی می‌شوند.",
+          "en": "The penalties are graded according to severity."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abstufen",
+      "praeteritum": "stufte ab",
+      "partizip2": "abgestuft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stufe ab",
+        "du": "stufst ab",
+        "er_sie_es": "stuft ab",
+        "wir": "stufen ab",
+        "ihr": "stuft ab",
+        "sie_Sie": "stufen ab"
+      },
+      "praeteritum": {
+        "ich": "stufte ab",
+        "du": "stuftest ab",
+        "er_sie_es": "stufte ab",
+        "wir": "stuften ab",
+        "ihr": "stuftet ab",
+        "sie_Sie": "stuften ab"
+      },
+      "konjunktiv1": {
+        "ich": "stufe ab",
+        "du": "stufest ab",
+        "er_sie_es": "stufe ab",
+        "wir": "stufen ab",
+        "ihr": "stufet ab",
+        "sie_Sie": "stufen ab"
+      },
+      "konjunktiv2": {
+        "ich": "stufte ab",
+        "du": "stuftest ab",
+        "er_sie_es": "stufte ab",
+        "wir": "stuften ab",
+        "ihr": "stuftet ab",
+        "sie_Sie": "stuften ab"
+      },
+      "imperativ": {
+        "du": "Stufe ab!",
+        "ihr": "Stuft ab!",
+        "Sie": "Stufen Sie ab!"
+      }
+    },
+    "partizip1": "abstufend",
+    "nominalisierung": "die Abstufung"
+  },
+  "wortnetz": {
+    "grundwort": "die Stufe",
+    "woerter": [
+      {
+        "wort": "die Stufe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پله؛ مرحله",
+          "en": "step; level"
+        },
+        "id_ref": "nomen_stufe"
+      },
+      {
+        "wort": "der Grad",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درجه",
+          "en": "degree"
+        },
+        "id_ref": "nomen_grad"
+      },
+      {
+        "wort": "die Abstufung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "درجه‌بندی",
+          "en": "gradation"
+        },
+        "id_ref": "nomen_abstufung"
+      },
+      {
+        "wort": "das Einkommen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درآمد",
+          "en": "income"
+        },
+        "id_ref": "nomen_einkommen"
+      },
+      {
+        "wort": "staffeln",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پلکانی کردن",
+          "en": "to stagger"
+        },
+        "id_ref": "verb_staffeln"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

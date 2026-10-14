@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_abstumpfen",
+  "wort": "abstumpfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کُند کردن",
+      "(احساسی) بی‌تفاوت شدن"
+    ],
+    "en": [
+      "to blunt",
+      "to become numb"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle"
+  ],
+  "ipa": "ˈapˌʃtʊmpfn̩",
+  "anmerkung": "Trennbar (stumpfte ab, abgestumpft). Transitiv mit «haben»; in der Bedeutung «gleichgültig werden» mit «sein»: «Er ist abgestumpft.»",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Messer sind abgestumpft.",
+      "uebersetzung": {
+        "fa": "چاقوها کُند شده‌اند.",
+        "en": "The knives have become blunt."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wer jeden Tag schlimme Nachrichten sieht, stumpft mit der Zeit ab.",
+      "uebersetzung": {
+        "fa": "کسی که هر روز خبرهای بد می‌بیند، با گذشت زمان بی‌تفاوت می‌شود.",
+        "en": "Anyone who sees bad news every day becomes desensitised over time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verrohen",
+      "uebersetzung": {
+        "fa": "بی‌رحم شدن",
+        "en": "to become brutalised"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "schärfen",
+      "uebersetzung": {
+        "fa": "تیز کردن",
+        "en": "to sharpen"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- + stumpfen (از stumpf = کُند)",
+    "en": "ab- + stumpfen (from stumpf = blunt)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "gegen + Akk abstumpfen",
+        "bedeutung": "gegenüber etwas gefühllos werden",
+        "beispiel": "Man stumpft gegen das Leid anderer ab.",
+        "uebersetzung": {
+          "fa": "آدم نسبت به رنج دیگران بی‌تفاوت می‌شود.",
+          "en": "One becomes numb to the suffering of others."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abstumpfen",
+      "praeteritum": "stumpfte ab",
+      "partizip2": "abgestumpft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stumpfe ab",
+        "du": "stumpfst ab",
+        "er_sie_es": "stumpft ab",
+        "wir": "stumpfen ab",
+        "ihr": "stumpft ab",
+        "sie_Sie": "stumpfen ab"
+      },
+      "praeteritum": {
+        "ich": "stumpfte ab",
+        "du": "stumpftest ab",
+        "er_sie_es": "stumpfte ab",
+        "wir": "stumpften ab",
+        "ihr": "stumpftet ab",
+        "sie_Sie": "stumpften ab"
+      },
+      "konjunktiv1": {
+        "ich": "stumpfe ab",
+        "du": "stumpfest ab",
+        "er_sie_es": "stumpfe ab",
+        "wir": "stumpfen ab",
+        "ihr": "stumpfet ab",
+        "sie_Sie": "stumpfen ab"
+      },
+      "konjunktiv2": {
+        "ich": "stumpfte ab",
+        "du": "stumpftest ab",
+        "er_sie_es": "stumpfte ab",
+        "wir": "stumpften ab",
+        "ihr": "stumpftet ab",
+        "sie_Sie": "stumpften ab"
+      },
+      "imperativ": {
+        "du": "Stumpfe ab!",
+        "ihr": "Stumpft ab!",
+        "Sie": "Stumpfen Sie ab!"
+      }
+    },
+    "partizip1": "abstumpfend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "stumpf",
+    "woerter": [
+      {
+        "wort": "stumpf",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کُند",
+          "en": "blunt"
+        },
+        "id_ref": "adjektiv_stumpf"
+      },
+      {
+        "wort": "scharf",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تیز؛ تند",
+          "en": "sharp"
+        },
+        "id_ref": "adjektiv_scharf"
+      },
+      {
+        "wort": "gleichgültig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بی‌تفاوت",
+          "en": "indifferent"
+        },
+        "id_ref": "adjektiv_gleichgueltig"
+      },
+      {
+        "wort": "das Gefühl",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "احساس",
+          "en": "feeling"
+        },
+        "id_ref": "nomen_gefuehl"
+      },
+      {
+        "wort": "schärfen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تیز کردن",
+          "en": "to sharpen"
+        },
+        "id_ref": "verb_schaerfen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

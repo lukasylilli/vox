@@ -1,0 +1,167 @@
+{
+  "schema": "3.0",
+  "id": "verb_abzweigen",
+  "wort": "abzweigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(راه) جدا شدن، انشعاب گرفتن",
+      "(پول) کنار گذاشتن، برداشتن"
+    ],
+    "en": [
+      "to branch off",
+      "to set aside"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr",
+    "Finanzen"
+  ],
+  "ipa": "ˈapˌt͡svaɪ̯ɡn̩",
+  "anmerkung": "Trennbar (zweigte ab, abgezweigt). Intransitiv (Weg) mit «sein»; transitiv («Geld abzweigen») mit «haben».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Hier zweigt ein Weg ab.",
+      "uebersetzung": {
+        "fa": "این‌جا راهی جدا می‌شود.",
+        "en": "A path branches off here."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Jeden Monat hat sie etwas Geld für den Urlaub abgezweigt, obwohl das Gehalt knapp war.",
+      "uebersetzung": {
+        "fa": "با اینکه حقوقش کم بود، هر ماه کمی پول برای تعطیلات کنار گذاشت.",
+        "en": "Every month she set aside some money for the holiday, although her salary was tight."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abbiegen",
+      "uebersetzung": {
+        "fa": "پیچیدن",
+        "en": "to turn off"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (جدا) + zweigen (از der Zweig = شاخه)",
+    "en": "ab- (off) + zweigen (from der Zweig = branch)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "abzweigen",
+      "praeteritum": "zweigte ab",
+      "partizip2": "abgezweigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "zweige ab",
+        "du": "zweigst ab",
+        "er_sie_es": "zweigt ab",
+        "wir": "zweigen ab",
+        "ihr": "zweigt ab",
+        "sie_Sie": "zweigen ab"
+      },
+      "praeteritum": {
+        "ich": "zweigte ab",
+        "du": "zweigtest ab",
+        "er_sie_es": "zweigte ab",
+        "wir": "zweigten ab",
+        "ihr": "zweigtet ab",
+        "sie_Sie": "zweigten ab"
+      },
+      "konjunktiv1": {
+        "ich": "zweige ab",
+        "du": "zweigest ab",
+        "er_sie_es": "zweige ab",
+        "wir": "zweigen ab",
+        "ihr": "zweiget ab",
+        "sie_Sie": "zweigen ab"
+      },
+      "konjunktiv2": {
+        "ich": "zweigte ab",
+        "du": "zweigtest ab",
+        "er_sie_es": "zweigte ab",
+        "wir": "zweigten ab",
+        "ihr": "zweigtet ab",
+        "sie_Sie": "zweigten ab"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "abzweigend",
+    "nominalisierung": "die Abzweigung"
+  },
+  "wortnetz": {
+    "grundwort": "der Zweig",
+    "woerter": [
+      {
+        "wort": "der Weg",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "راه",
+          "en": "path"
+        },
+        "id_ref": "nomen_weg"
+      },
+      {
+        "wort": "die Abzweigung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دوراهی، انشعاب",
+          "en": "turning"
+        },
+        "id_ref": "nomen_abzweigung"
+      },
+      {
+        "wort": "abbiegen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پیچیدن",
+          "en": "to turn off"
+        },
+        "id_ref": "verb_abbiegen"
+      },
+      {
+        "wort": "der Zweig",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شاخه",
+          "en": "branch"
+        },
+        "id_ref": "nomen_zweig"
+      },
+      {
+        "wort": "die Kreuzung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چهارراه",
+          "en": "crossroads"
+        },
+        "id_ref": "nomen_kreuzung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_aechzen",
+  "wort": "ächzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ناله کردن (از زحمت)",
+      "غژغژ کردن"
+    ],
+    "en": [
+      "to groan",
+      "to creak"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle"
+  ],
+  "ipa": "ˈɛçt͡sn̩",
+  "anmerkung": "Regelmäßig (ächzte, geächzt).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der alte Mann ächzt.",
+      "uebersetzung": {
+        "fa": "پیرمرد ناله می‌کند.",
+        "en": "The old man groans."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als er die schwere Kiste in den dritten Stock trug, ächzte er bei jeder Stufe.",
+      "uebersetzung": {
+        "fa": "وقتی صندوق سنگین را به طبقه‌ی سوم می‌برد، در هر پله ناله می‌کرد.",
+        "en": "When he carried the heavy box up to the third floor, he groaned at every step."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "stöhnen",
+      "uebersetzung": {
+        "fa": "ناله کردن",
+        "en": "to groan"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "صداواژه (آه کشیدن)",
+    "en": "onomatopoeic (sighing sound)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "unter + Dat ächzen",
+        "bedeutung": "unter einer Last leiden",
+        "beispiel": "Die Firma ächzt unter den hohen Kosten.",
+        "uebersetzung": {
+          "fa": "شرکت زیر بار هزینه‌های بالا می‌نالد.",
+          "en": "The company is groaning under the high costs."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ächzen",
+      "praeteritum": "ächzte",
+      "partizip2": "geächzt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ächze",
+        "du": "ächzt",
+        "er_sie_es": "ächzt",
+        "wir": "ächzen",
+        "ihr": "ächzt",
+        "sie_Sie": "ächzen"
+      },
+      "praeteritum": {
+        "ich": "ächzte",
+        "du": "ächztest",
+        "er_sie_es": "ächzte",
+        "wir": "ächzten",
+        "ihr": "ächztet",
+        "sie_Sie": "ächzten"
+      },
+      "konjunktiv1": {
+        "ich": "ächze",
+        "du": "ächzest",
+        "er_sie_es": "ächze",
+        "wir": "ächzen",
+        "ihr": "ächzet",
+        "sie_Sie": "ächzen"
+      },
+      "konjunktiv2": {
+        "ich": "ächzte",
+        "du": "ächztest",
+        "er_sie_es": "ächzte",
+        "wir": "ächzten",
+        "ihr": "ächztet",
+        "sie_Sie": "ächzten"
+      },
+      "imperativ": {
+        "du": "Ächze!",
+        "ihr": "Ächzt!",
+        "Sie": "Ächzen Sie!"
+      }
+    },
+    "partizip1": "ächzend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "stöhnen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ناله کردن",
+          "en": "to groan"
+        },
+        "id_ref": "verb_stoehnen"
+      },
+      {
+        "wort": "schwer",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سنگین؛ سخت",
+          "en": "heavy"
+        },
+        "id_ref": "adjektiv_schwer"
+      },
+      {
+        "wort": "die Last",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بار",
+          "en": "load"
+        },
+        "id_ref": "nomen_last"
+      },
+      {
+        "wort": "seufzen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آه کشیدن",
+          "en": "to sigh"
+        },
+        "id_ref": "verb_seufzen"
+      },
+      {
+        "wort": "anstrengend",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "طاقت‌فرسا",
+          "en": "exhausting"
+        },
+        "id_ref": "adjektiv_anstrengend"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

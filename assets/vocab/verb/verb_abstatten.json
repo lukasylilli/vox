@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_abstatten",
+  "wort": "abstatten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(دیدار، تشکر) به جا آوردن"
+    ],
+    "en": [
+      "to pay (a visit)",
+      "to express (thanks)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "ˈapˌʃtatn̩",
+  "anmerkung": "Trennbar (stattete ab, abgestattet). Nur in festen Verbindungen: «einen Besuch abstatten», «Dank abstatten» (gehoben).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir statten der Oma einen Besuch ab.",
+      "uebersetzung": {
+        "fa": "به مادربزرگ سر می‌زنیم.",
+        "en": "We pay Grandma a visit."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Minister stattete dem Krankenhaus einen Besuch ab, um sich bei den Pflegekräften zu bedanken.",
+      "uebersetzung": {
+        "fa": "وزیر از بیمارستان دیدن کرد تا از پرستاران تشکر کند.",
+        "en": "The minister paid the hospital a visit to thank the nursing staff."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "besuchen",
+      "uebersetzung": {
+        "fa": "دیدار کردن",
+        "en": "to visit"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- + statten (فراهم کردن)",
+    "en": "ab- + statten (to furnish)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem (Dat) einen Besuch abstatten",
+        "bedeutung": "jemanden (offiziell) besuchen",
+        "beispiel": "Sie stattete ihrem alten Lehrer einen Besuch ab.",
+        "uebersetzung": {
+          "fa": "او به دیدار معلم قدیمش رفت.",
+          "en": "She paid her old teacher a visit."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abstatten",
+      "praeteritum": "stattete ab",
+      "partizip2": "abgestattet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "statte ab",
+        "du": "stattest ab",
+        "er_sie_es": "stattet ab",
+        "wir": "statten ab",
+        "ihr": "stattet ab",
+        "sie_Sie": "statten ab"
+      },
+      "praeteritum": {
+        "ich": "stattete ab",
+        "du": "stattetest ab",
+        "er_sie_es": "stattete ab",
+        "wir": "statteten ab",
+        "ihr": "stattetet ab",
+        "sie_Sie": "statteten ab"
+      },
+      "konjunktiv1": {
+        "ich": "statte ab",
+        "du": "stattest ab",
+        "er_sie_es": "statte ab",
+        "wir": "statten ab",
+        "ihr": "stattet ab",
+        "sie_Sie": "statten ab"
+      },
+      "konjunktiv2": {
+        "ich": "stattete ab",
+        "du": "stattetest ab",
+        "er_sie_es": "stattete ab",
+        "wir": "statteten ab",
+        "ihr": "stattetet ab",
+        "sie_Sie": "statteten ab"
+      },
+      "imperativ": {
+        "du": "Statte ab!",
+        "ihr": "Stattet ab!",
+        "Sie": "Statten Sie ab!"
+      }
+    },
+    "partizip1": "abstattend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "besuchen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دیدار کردن",
+          "en": "to visit"
+        },
+        "id_ref": "verb_besuchen"
+      },
+      {
+        "wort": "der Besuch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دیدار، مهمانی",
+          "en": "visit"
+        },
+        "id_ref": "nomen_besuch"
+      },
+      {
+        "wort": "der Dank",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سپاس",
+          "en": "thanks"
+        },
+        "id_ref": "nomen_dank"
+      },
+      {
+        "wort": "offiziell",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رسمی",
+          "en": "official"
+        },
+        "id_ref": "adjektiv_offiziell"
+      },
+      {
+        "wort": "ausstatten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تجهیز کردن",
+          "en": "to equip"
+        },
+        "id_ref": "verb_ausstatten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

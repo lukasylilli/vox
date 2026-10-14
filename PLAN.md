@@ -2804,6 +2804,7 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۴۴۳ | zurückbiegen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-13 | نادر — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۴۴ | aasen | `Verben_regelmaesig.txt` | 2026-10-13 | منطقه‌ای/محاوره‌ای — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۴۵ | abhausen | `Verben_regelmaesig.txt` | 2026-10-13 | منطقه‌ای، نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۴۶ | abwägen | `Verben_regelmaesig.txt` | 2026-10-13 | صرف نوسان‌دار wog/wägte (مثل wägen) — قاعده‌ی ۱۴/۱۶ | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 

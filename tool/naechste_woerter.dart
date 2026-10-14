@@ -1496,6 +1496,7 @@ const zurueckgestellt = <String>{
   'zurückbiegen', // zurückgestellt (Regel 14/16): selten (wie herumbiegen) 2026-10-13
   'aasen', // zurückgestellt (Regel 14/16): landschaftlich/umgangssprachlich («mit etwas aasen») 2026-10-13
   'abhausen', // zurückgestellt (Regel 14/16): landschaftlich, selten 2026-10-13
+  'abwägen', // zurückgestellt (Regel 14/16): wog/wägte ab (wie wägen); steht in der Liste der regelmäßigen Verben 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
