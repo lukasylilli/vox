@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_absondern",
+  "wort": "absondern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جدا کردن، قرنطینه کردن",
+      "ترشح کردن"
+    ],
+    "en": [
+      "to isolate",
+      "to secrete"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Natur"
+  ],
+  "ipa": "ˈapˌzɔndɐn",
+  "anmerkung": "Trennbar (sonderte ab, abgesondert). Reflexiv: «sich absondern» (= sich zurückziehen).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Wunde sondert Flüssigkeit ab.",
+      "uebersetzung": {
+        "fa": "زخم مایع ترشح می‌کند.",
+        "en": "The wound is secreting fluid."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Kranke Tiere werden von der Herde abgesondert, damit sich die anderen nicht anstecken.",
+      "uebersetzung": {
+        "fa": "حیوانات بیمار را از گله جدا می‌کنند تا بقیه آلوده نشوند.",
+        "en": "Sick animals are separated from the herd so that the others don't become infected."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "isolieren",
+      "uebersetzung": {
+        "fa": "جدا کردن",
+        "en": "to isolate"
+      }
+    },
+    {
+      "wort": "ausscheiden",
+      "uebersetzung": {
+        "fa": "دفع کردن",
+        "en": "to excrete"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (جدا) + sondern (جدا کردن؛ از sonder = جدا)",
+    "en": "ab- (off) + sondern (to separate)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "jemanden von + Dat absondern",
+        "bedeutung": "jemanden von anderen trennen",
+        "beispiel": "Der Patient wurde von den anderen abgesondert.",
+        "uebersetzung": {
+          "fa": "بیمار را از دیگران جدا کردند.",
+          "en": "The patient was isolated from the others."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "absondern",
+      "praeteritum": "sonderte ab",
+      "partizip2": "abgesondert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "sondere ab",
+        "du": "sonderst ab",
+        "er_sie_es": "sondert ab",
+        "wir": "sondern ab",
+        "ihr": "sondert ab",
+        "sie_Sie": "sondern ab"
+      },
+      "praeteritum": {
+        "ich": "sonderte ab",
+        "du": "sondertest ab",
+        "er_sie_es": "sonderte ab",
+        "wir": "sonderten ab",
+        "ihr": "sondertet ab",
+        "sie_Sie": "sonderten ab"
+      },
+      "konjunktiv1": {
+        "ich": "sondere ab",
+        "du": "sonderest ab",
+        "er_sie_es": "sondere ab",
+        "wir": "sondern ab",
+        "ihr": "sonderet ab",
+        "sie_Sie": "sondern ab"
+      },
+      "konjunktiv2": {
+        "ich": "sonderte ab",
+        "du": "sondertest ab",
+        "er_sie_es": "sonderte ab",
+        "wir": "sonderten ab",
+        "ihr": "sondertet ab",
+        "sie_Sie": "sonderten ab"
+      },
+      "imperativ": {
+        "du": "Sondere ab!",
+        "ihr": "Sondert ab!",
+        "Sie": "Sondern Sie ab!"
+      }
+    },
+    "partizip1": "absondernd",
+    "nominalisierung": "die Absonderung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "trennen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جدا کردن",
+          "en": "to separate"
+        },
+        "id_ref": "verb_trennen"
+      },
+      {
+        "wort": "isolieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جدا کردن",
+          "en": "to isolate"
+        },
+        "id_ref": "verb_isolieren"
+      },
+      {
+        "wort": "die Wunde",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زخم",
+          "en": "wound"
+        },
+        "id_ref": "nomen_wunde"
+      },
+      {
+        "wort": "die Drüse",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "غده",
+          "en": "gland"
+        },
+        "id_ref": "nomen_druese"
+      },
+      {
+        "wort": "die Quarantäne",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قرنطینه",
+          "en": "quarantine"
+        },
+        "id_ref": "nomen_quarantaene"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

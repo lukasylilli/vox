@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_absolvieren",
+  "wort": "absolvieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(دوره، آزمون) با موفقیت گذراندن",
+      "انجام دادن"
+    ],
+    "en": [
+      "to complete",
+      "to pass",
+      "to do"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Ausbildung",
+    "Arbeit"
+  ],
+  "ipa": "apzɔlˈviːʁən",
+  "anmerkung": "Nicht trennbar (absolvierte, absolviert) — Partizip II ohne ge- (-ieren).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie absolviert eine Ausbildung.",
+      "uebersetzung": {
+        "fa": "او یک دوره‌ی آموزش حرفه‌ای را می‌گذراند.",
+        "en": "She is doing an apprenticeship."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem er das Studium erfolgreich absolviert hatte, fand er sofort eine Stelle.",
+      "uebersetzung": {
+        "fa": "پس از اینکه تحصیلاتش را با موفقیت تمام کرد، فوراً کار پیدا کرد.",
+        "en": "After he had successfully completed his studies, he found a job immediately."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abschließen",
+      "uebersetzung": {
+        "fa": "به پایان رساندن",
+        "en": "to complete"
+      }
+    },
+    {
+      "wort": "bestehen",
+      "uebersetzung": {
+        "fa": "قبول شدن",
+        "en": "to pass"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "abbrechen",
+      "uebersetzung": {
+        "fa": "نیمه‌کاره رها کردن",
+        "en": "to drop out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. absolvere (رها کردن، به پایان بردن)",
+    "en": "Latin absolvere (to complete)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "absolvieren",
+      "praeteritum": "absolvierte",
+      "partizip2": "absolviert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "absolviere",
+        "du": "absolvierst",
+        "er_sie_es": "absolviert",
+        "wir": "absolvieren",
+        "ihr": "absolviert",
+        "sie_Sie": "absolvieren"
+      },
+      "praeteritum": {
+        "ich": "absolvierte",
+        "du": "absolviertest",
+        "er_sie_es": "absolvierte",
+        "wir": "absolvierten",
+        "ihr": "absolviertet",
+        "sie_Sie": "absolvierten"
+      },
+      "konjunktiv1": {
+        "ich": "absolviere",
+        "du": "absolvierest",
+        "er_sie_es": "absolviere",
+        "wir": "absolvieren",
+        "ihr": "absolvieret",
+        "sie_Sie": "absolvieren"
+      },
+      "konjunktiv2": {
+        "ich": "absolvierte",
+        "du": "absolviertest",
+        "er_sie_es": "absolvierte",
+        "wir": "absolvierten",
+        "ihr": "absolviertet",
+        "sie_Sie": "absolvierten"
+      },
+      "imperativ": {
+        "du": "Absolviere!",
+        "ihr": "Absolviert!",
+        "Sie": "Absolvieren Sie!"
+      }
+    },
+    "partizip1": "absolvierend",
+    "nominalisierung": "der Absolvent"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Ausbildung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آموزش حرفه‌ای",
+          "en": "training"
+        },
+        "id_ref": "nomen_ausbildung"
+      },
+      {
+        "wort": "die Prüfung",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "امتحان",
+          "en": "exam"
+        },
+        "id_ref": "nomen_pruefung"
+      },
+      {
+        "wort": "bestehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قبول شدن",
+          "en": "to pass"
+        },
+        "id_ref": "verb_bestehen"
+      },
+      {
+        "wort": "der Absolvent",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "فارغ‌التحصیل",
+          "en": "graduate"
+        },
+        "id_ref": "nomen_absolvent"
+      },
+      {
+        "wort": "abschließen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به پایان رساندن",
+          "en": "to complete"
+        },
+        "id_ref": "verb_abschliessen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_abseifen",
+  "wort": "abseifen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "با صابون شستن"
+    ],
+    "en": [
+      "to soap down",
+      "to lather"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Körper",
+    "Haushalt"
+  ],
+  "ipa": "ˈapˌzaɪ̯fn̩",
+  "anmerkung": "Trennbar (seifte ab, abgeseift).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Mutter seift das Kind ab.",
+      "uebersetzung": {
+        "fa": "مادر بچه را صابون می‌زند.",
+        "en": "The mother soaps the child down."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor man das Auto poliert, muss man es gründlich abseifen und abspülen.",
+      "uebersetzung": {
+        "fa": "پیش از پولیش، باید ماشین را حسابی صابون زد و آب کشید.",
+        "en": "Before you polish the car, you have to soap it down and rinse it thoroughly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einseifen",
+      "uebersetzung": {
+        "fa": "صابون زدن",
+        "en": "to lather"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "abspülen",
+      "uebersetzung": {
+        "fa": "آب کشیدن",
+        "en": "to rinse"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- + seifen (از die Seife = صابون)",
+    "en": "ab- + seifen (from die Seife = soap)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "abseifen",
+      "praeteritum": "seifte ab",
+      "partizip2": "abgeseift"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "seife ab",
+        "du": "seifst ab",
+        "er_sie_es": "seift ab",
+        "wir": "seifen ab",
+        "ihr": "seift ab",
+        "sie_Sie": "seifen ab"
+      },
+      "praeteritum": {
+        "ich": "seifte ab",
+        "du": "seiftest ab",
+        "er_sie_es": "seifte ab",
+        "wir": "seiften ab",
+        "ihr": "seiftet ab",
+        "sie_Sie": "seiften ab"
+      },
+      "konjunktiv1": {
+        "ich": "seife ab",
+        "du": "seifest ab",
+        "er_sie_es": "seife ab",
+        "wir": "seifen ab",
+        "ihr": "seifet ab",
+        "sie_Sie": "seifen ab"
+      },
+      "konjunktiv2": {
+        "ich": "seifte ab",
+        "du": "seiftest ab",
+        "er_sie_es": "seifte ab",
+        "wir": "seiften ab",
+        "ihr": "seiftet ab",
+        "sie_Sie": "seiften ab"
+      },
+      "imperativ": {
+        "du": "Seife ab!",
+        "ihr": "Seift ab!",
+        "Sie": "Seifen Sie ab!"
+      }
+    },
+    "partizip1": "abseifend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "die Seife",
+    "woerter": [
+      {
+        "wort": "die Seife",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "صابون",
+          "en": "soap"
+        },
+        "id_ref": "nomen_seife"
+      },
+      {
+        "wort": "waschen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شستن",
+          "en": "to wash"
+        },
+        "id_ref": "verb_waschen"
+      },
+      {
+        "wort": "duschen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دوش گرفتن",
+          "en": "to shower"
+        },
+        "id_ref": "verb_duschen"
+      },
+      {
+        "wort": "einseifen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "صابون زدن",
+          "en": "to lather"
+        },
+        "id_ref": "verb_einseifen"
+      },
+      {
+        "wort": "abspülen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آب کشیدن",
+          "en": "to rinse"
+        },
+        "id_ref": "verb_abspuelen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

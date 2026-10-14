@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_abnabeln",
+  "wort": "abnabeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بند ناف را بریدن",
+      "(از خانواده) مستقل شدن"
+    ],
+    "en": [
+      "to cut the umbilical cord",
+      "to become independent"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Familie",
+    "Medizin"
+  ],
+  "ipa": "ˈapˌnaːbl̩n",
+  "anmerkung": "Trennbar (nabelte ab, abgenabelt). Bildlich reflexiv: «sich von den Eltern abnabeln».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Hebamme nabelt das Baby ab.",
+      "uebersetzung": {
+        "fa": "ماما بند ناف نوزاد را می‌برد.",
+        "en": "The midwife cuts the baby's umbilical cord."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Mit zwanzig wollte er sich endlich von seinen Eltern abnabeln und zog in eine eigene Wohnung.",
+      "uebersetzung": {
+        "fa": "در بیست‌سالگی می‌خواست بالاخره از پدر و مادرش مستقل شود و به آپارتمان خودش رفت.",
+        "en": "At twenty he finally wanted to cut the cord with his parents and moved into his own flat."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich lösen",
+      "uebersetzung": {
+        "fa": "جدا شدن",
+        "en": "to break free"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ab- (جدا) + nabeln (از der Nabel = ناف)",
+    "en": "ab- (off) + nabeln (from der Nabel = navel)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich von + Dat abnabeln",
+        "bedeutung": "sich von jemandem unabhängig machen",
+        "beispiel": "Sie hat sich früh von ihrer Familie abgenabelt.",
+        "uebersetzung": {
+          "fa": "او زود از خانواده‌اش مستقل شد.",
+          "en": "She became independent of her family early."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "abnabeln",
+      "praeteritum": "nabelte ab",
+      "partizip2": "abgenabelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "nable ab",
+        "du": "nabelst ab",
+        "er_sie_es": "nabelt ab",
+        "wir": "nabeln ab",
+        "ihr": "nabelt ab",
+        "sie_Sie": "nabeln ab"
+      },
+      "praeteritum": {
+        "ich": "nabelte ab",
+        "du": "nabeltest ab",
+        "er_sie_es": "nabelte ab",
+        "wir": "nabelten ab",
+        "ihr": "nabeltet ab",
+        "sie_Sie": "nabelten ab"
+      },
+      "konjunktiv1": {
+        "ich": "nable ab",
+        "du": "nablest ab",
+        "er_sie_es": "nable ab",
+        "wir": "nabeln ab",
+        "ihr": "nablet ab",
+        "sie_Sie": "nabeln ab"
+      },
+      "konjunktiv2": {
+        "ich": "nabelte ab",
+        "du": "nabeltest ab",
+        "er_sie_es": "nabelte ab",
+        "wir": "nabelten ab",
+        "ihr": "nabeltet ab",
+        "sie_Sie": "nabelten ab"
+      },
+      "imperativ": {
+        "du": "Nable ab!",
+        "ihr": "Nabelt ab!",
+        "Sie": "Nabeln Sie ab!"
+      }
+    },
+    "partizip1": "abnabelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "der Nabel",
+    "woerter": [
+      {
+        "wort": "der Nabel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ناف",
+          "en": "navel"
+        },
+        "id_ref": "nomen_nabel"
+      },
+      {
+        "wort": "die Hebamme",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ماما",
+          "en": "midwife"
+        },
+        "id_ref": "nomen_hebamme"
+      },
+      {
+        "wort": "die Geburt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تولد، زایمان",
+          "en": "birth"
+        },
+        "id_ref": "nomen_geburt"
+      },
+      {
+        "wort": "selbstständig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مستقل",
+          "en": "independent"
+        },
+        "id_ref": "adjektiv_selbststaendig"
+      },
+      {
+        "wort": "die Eltern",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "والدین",
+          "en": "parents"
+        },
+        "id_ref": "nomen_eltern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
