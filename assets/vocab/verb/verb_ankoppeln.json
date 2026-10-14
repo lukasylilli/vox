@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_ankoppeln",
+  "wort": "ankoppeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "وصل کردن (واگن، تریلر)"
+    ],
+    "en": [
+      "to couple",
+      "to hitch"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Verkehr",
+    "Technik"
+  ],
+  "ipa": "ˈanˌkɔpl̩n",
+  "anmerkung": "Trennbar (koppelte an, angekoppelt).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir koppeln den Wagen an.",
+      "uebersetzung": {
+        "fa": "واگن را وصل می‌کنیم.",
+        "en": "We couple the carriage."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem der Anhänger angekoppelt war, konnten wir endlich in den Urlaub fahren.",
+      "uebersetzung": {
+        "fa": "بعد از اینکه تریلر وصل شد، بالاخره توانستیم به تعطیلات برویم.",
+        "en": "After the trailer had been hitched, we could finally go on holiday."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anhängen",
+      "uebersetzung": {
+        "fa": "وصل کردن",
+        "en": "to hitch"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "abkoppeln",
+      "uebersetzung": {
+        "fa": "جدا کردن",
+        "en": "to uncouple"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (به) + koppeln (وصل کردن)",
+    "en": "an- (to) + koppeln (to couple)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas an + Akk ankoppeln",
+        "bedeutung": "etwas mit etwas verbinden",
+        "beispiel": "Die Kapsel wird an die Raumstation angekoppelt.",
+        "uebersetzung": {
+          "fa": "کپسول به ایستگاه فضایی وصل می‌شود.",
+          "en": "The capsule is docked to the space station."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ankoppeln",
+      "praeteritum": "koppelte an",
+      "partizip2": "angekoppelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kopple an",
+        "du": "koppelst an",
+        "er_sie_es": "koppelt an",
+        "wir": "koppeln an",
+        "ihr": "koppelt an",
+        "sie_Sie": "koppeln an"
+      },
+      "praeteritum": {
+        "ich": "koppelte an",
+        "du": "koppeltest an",
+        "er_sie_es": "koppelte an",
+        "wir": "koppelten an",
+        "ihr": "koppeltet an",
+        "sie_Sie": "koppelten an"
+      },
+      "konjunktiv1": {
+        "ich": "kopple an",
+        "du": "kopplest an",
+        "er_sie_es": "kopple an",
+        "wir": "koppeln an",
+        "ihr": "kopplet an",
+        "sie_Sie": "koppeln an"
+      },
+      "konjunktiv2": {
+        "ich": "koppelte an",
+        "du": "koppeltest an",
+        "er_sie_es": "koppelte an",
+        "wir": "koppelten an",
+        "ihr": "koppeltet an",
+        "sie_Sie": "koppelten an"
+      },
+      "imperativ": {
+        "du": "Kopple an!",
+        "ihr": "Koppelt an!",
+        "Sie": "Koppeln Sie an!"
+      }
+    },
+    "partizip1": "ankoppelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "koppeln",
+    "woerter": [
+      {
+        "wort": "abkoppeln",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "جدا کردن",
+          "en": "to uncouple"
+        },
+        "id_ref": "verb_abkoppeln"
+      },
+      {
+        "wort": "der Zug",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قطار",
+          "en": "train"
+        },
+        "id_ref": "nomen_zug"
+      },
+      {
+        "wort": "der Anhänger",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تریلر",
+          "en": "trailer"
+        },
+        "id_ref": "nomen_anhaenger"
+      },
+      {
+        "wort": "verbinden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وصل کردن",
+          "en": "to connect"
+        },
+        "id_ref": "verb_verbinden"
+      },
+      {
+        "wort": "anhängen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وصل کردن",
+          "en": "to attach"
+        },
+        "id_ref": "verb_anhaengen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

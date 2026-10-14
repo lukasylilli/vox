@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_anlasten",
+  "wort": "anlasten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(تقصیر، اتهام) به گردن کسی انداختن"
+    ],
+    "en": [
+      "to blame for",
+      "to attribute to"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Kommunikation"
+  ],
+  "ipa": "ˈanˌlastn̩",
+  "anmerkung": "Trennbar (lastete an, angelastet). Mit Dativ der Person.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Man lastet ihr den Unfall an.",
+      "uebersetzung": {
+        "fa": "تصادف را به گردن او می‌اندازند.",
+        "en": "They blame her for the accident."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Diebstahl wurde zunächst einem Mitarbeiter angelastet, bis die Kamera den wahren Täter zeigte.",
+      "uebersetzung": {
+        "fa": "دزدی ابتدا به گردن یکی از کارکنان افتاد، تا اینکه دوربین مجرم واقعی را نشان داد.",
+        "en": "The theft was initially blamed on an employee until the camera showed the real culprit."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zuschreiben",
+      "uebersetzung": {
+        "fa": "نسبت دادن",
+        "en": "to attribute"
+      }
+    },
+    {
+      "wort": "vorwerfen",
+      "uebersetzung": {
+        "fa": "سرزنش کردن",
+        "en": "to accuse"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- + lasten (از die Last = بار)",
+    "en": "an- + lasten (from die Last = burden)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem (Dat) etwas (Akk) anlasten",
+        "bedeutung": "jemandem die Schuld an etwas geben",
+        "beispiel": "Man kann ihm das nicht anlasten.",
+        "uebersetzung": {
+          "fa": "نمی‌شود این را به گردن او انداخت.",
+          "en": "You can't blame him for that."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "anlasten",
+      "praeteritum": "lastete an",
+      "partizip2": "angelastet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laste an",
+        "du": "lastest an",
+        "er_sie_es": "lastet an",
+        "wir": "lasten an",
+        "ihr": "lastet an",
+        "sie_Sie": "lasten an"
+      },
+      "praeteritum": {
+        "ich": "lastete an",
+        "du": "lastetest an",
+        "er_sie_es": "lastete an",
+        "wir": "lasteten an",
+        "ihr": "lastetet an",
+        "sie_Sie": "lasteten an"
+      },
+      "konjunktiv1": {
+        "ich": "laste an",
+        "du": "lastest an",
+        "er_sie_es": "laste an",
+        "wir": "lasten an",
+        "ihr": "lastet an",
+        "sie_Sie": "lasten an"
+      },
+      "konjunktiv2": {
+        "ich": "lastete an",
+        "du": "lastetest an",
+        "er_sie_es": "lastete an",
+        "wir": "lasteten an",
+        "ihr": "lastetet an",
+        "sie_Sie": "lasteten an"
+      },
+      "imperativ": {
+        "du": "Laste an!",
+        "ihr": "Lastet an!",
+        "Sie": "Lasten Sie an!"
+      }
+    },
+    "partizip1": "anlastend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "die Last",
+    "woerter": [
+      {
+        "wort": "die Last",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بار",
+          "en": "burden"
+        },
+        "id_ref": "nomen_last"
+      },
+      {
+        "wort": "die Schuld",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تقصیر",
+          "en": "fault"
+        },
+        "id_ref": "nomen_schuld"
+      },
+      {
+        "wort": "beschuldigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "متهم کردن",
+          "en": "to accuse"
+        },
+        "id_ref": "verb_beschuldigen"
+      },
+      {
+        "wort": "ankreiden",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "به گردن کسی انداختن",
+          "en": "to blame"
+        },
+        "id_ref": "verb_ankreiden"
+      },
+      {
+        "wort": "verantwortlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مسئول",
+          "en": "responsible"
+        },
+        "id_ref": "adjektiv_verantwortlich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

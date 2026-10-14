@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_anketten",
+  "wort": "anketten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "با زنجیر بستن"
+    ],
+    "en": [
+      "to chain (up)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈanˌkɛtn̩",
+  "anmerkung": "Trennbar (kettete an, angekettet).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich kette mein Fahrrad an.",
+      "uebersetzung": {
+        "fa": "دوچرخه‌ام را با زنجیر می‌بندم.",
+        "en": "I chain up my bike."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Demonstranten hatten sich am Zaun angekettet, damit die Polizei sie nicht wegtragen konnte.",
+      "uebersetzung": {
+        "fa": "معترضان خودشان را به نرده زنجیر کرده بودند تا پلیس نتواند آن‌ها را ببرد.",
+        "en": "The demonstrators had chained themselves to the fence so that the police couldn't carry them away."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "festbinden",
+      "uebersetzung": {
+        "fa": "محکم بستن",
+        "en": "to tie up"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "losmachen",
+      "uebersetzung": {
+        "fa": "باز کردن",
+        "en": "to untie"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (به) + ketten (از die Kette = زنجیر)",
+    "en": "an- (to) + ketten (from die Kette = chain)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas an + Dat/Akk anketten",
+        "bedeutung": "etwas mit einer Kette an etwas befestigen",
+        "beispiel": "Der Hund war an der Hütte angekettet.",
+        "uebersetzung": {
+          "fa": "سگ به لانه زنجیر شده بود.",
+          "en": "The dog was chained to the kennel."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "anketten",
+      "praeteritum": "kettete an",
+      "partizip2": "angekettet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kette an",
+        "du": "kettest an",
+        "er_sie_es": "kettet an",
+        "wir": "ketten an",
+        "ihr": "kettet an",
+        "sie_Sie": "ketten an"
+      },
+      "praeteritum": {
+        "ich": "kettete an",
+        "du": "kettetest an",
+        "er_sie_es": "kettete an",
+        "wir": "ketteten an",
+        "ihr": "kettetet an",
+        "sie_Sie": "ketteten an"
+      },
+      "konjunktiv1": {
+        "ich": "kette an",
+        "du": "kettest an",
+        "er_sie_es": "kette an",
+        "wir": "ketten an",
+        "ihr": "kettet an",
+        "sie_Sie": "ketten an"
+      },
+      "konjunktiv2": {
+        "ich": "kettete an",
+        "du": "kettetest an",
+        "er_sie_es": "kettete an",
+        "wir": "ketteten an",
+        "ihr": "kettetet an",
+        "sie_Sie": "ketteten an"
+      },
+      "imperativ": {
+        "du": "Kette an!",
+        "ihr": "Kettet an!",
+        "Sie": "Ketten Sie an!"
+      }
+    },
+    "partizip1": "ankettend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "die Kette",
+    "woerter": [
+      {
+        "wort": "die Kette",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زنجیر؛ گردنبند",
+          "en": "chain"
+        },
+        "id_ref": "nomen_kette"
+      },
+      {
+        "wort": "das Schloss",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قفل",
+          "en": "lock"
+        },
+        "id_ref": "nomen_schloss"
+      },
+      {
+        "wort": "das Fahrrad",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دوچرخه",
+          "en": "bike"
+        },
+        "id_ref": "nomen_fahrrad"
+      },
+      {
+        "wort": "abschließen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قفل کردن",
+          "en": "to lock"
+        },
+        "id_ref": "verb_abschliessen"
+      },
+      {
+        "wort": "festbinden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "محکم بستن",
+          "en": "to tie up"
+        },
+        "id_ref": "verb_festbinden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

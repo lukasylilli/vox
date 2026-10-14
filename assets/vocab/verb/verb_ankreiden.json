@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_ankreiden",
+  "wort": "ankreiden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(تقصیر را) به گردن کسی انداختن، سرزنش کردن"
+    ],
+    "en": [
+      "to blame for",
+      "to hold against"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "ˈanˌkʁaɪ̯dn̩",
+  "anmerkung": "Trennbar (kreidete an, angekreidet). Mit Dativ der Person: «jemandem etwas ankreiden».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Man kreidet ihm den Fehler an.",
+      "uebersetzung": {
+        "fa": "اشتباه را به گردن او می‌اندازند.",
+        "en": "They blame him for the mistake."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Opposition kreidet der Regierung an, dass sie zu spät auf die Krise reagiert hat.",
+      "uebersetzung": {
+        "fa": "مخالفان دولت را سرزنش می‌کنند که دیر به بحران واکنش نشان داد.",
+        "en": "The opposition holds it against the government that it reacted too late to the crisis."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vorwerfen",
+      "uebersetzung": {
+        "fa": "سرزنش کردن",
+        "en": "to reproach"
+      }
+    },
+    {
+      "wort": "anlasten",
+      "uebersetzung": {
+        "fa": "به گردن کسی انداختن",
+        "en": "to blame"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- + kreiden (از die Kreide = گچ؛ بدهی را با گچ می‌نوشتند)",
+    "en": "an- + kreiden (from die Kreide = chalk; debts were chalked up)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem (Dat) etwas (Akk) ankreiden",
+        "bedeutung": "jemandem etwas vorwerfen",
+        "beispiel": "Sie kreidet mir meine Verspätung an.",
+        "uebersetzung": {
+          "fa": "تأخیرم را به رخم می‌کشد.",
+          "en": "She holds my lateness against me."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ankreiden",
+      "praeteritum": "kreidete an",
+      "partizip2": "angekreidet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kreide an",
+        "du": "kreidest an",
+        "er_sie_es": "kreidet an",
+        "wir": "kreiden an",
+        "ihr": "kreidet an",
+        "sie_Sie": "kreiden an"
+      },
+      "praeteritum": {
+        "ich": "kreidete an",
+        "du": "kreidetest an",
+        "er_sie_es": "kreidete an",
+        "wir": "kreideten an",
+        "ihr": "kreidetet an",
+        "sie_Sie": "kreideten an"
+      },
+      "konjunktiv1": {
+        "ich": "kreide an",
+        "du": "kreidest an",
+        "er_sie_es": "kreide an",
+        "wir": "kreiden an",
+        "ihr": "kreidet an",
+        "sie_Sie": "kreiden an"
+      },
+      "konjunktiv2": {
+        "ich": "kreidete an",
+        "du": "kreidetest an",
+        "er_sie_es": "kreidete an",
+        "wir": "kreideten an",
+        "ihr": "kreidetet an",
+        "sie_Sie": "kreideten an"
+      },
+      "imperativ": {
+        "du": "Kreide an!",
+        "ihr": "Kreidet an!",
+        "Sie": "Kreiden Sie an!"
+      }
+    },
+    "partizip1": "ankreidend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "die Kreide",
+    "woerter": [
+      {
+        "wort": "vorwerfen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سرزنش کردن",
+          "en": "to reproach"
+        },
+        "id_ref": "verb_vorwerfen"
+      },
+      {
+        "wort": "der Vorwurf",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سرزنش",
+          "en": "reproach"
+        },
+        "id_ref": "nomen_vorwurf"
+      },
+      {
+        "wort": "die Schuld",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تقصیر",
+          "en": "fault"
+        },
+        "id_ref": "nomen_schuld"
+      },
+      {
+        "wort": "kritisieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انتقاد کردن",
+          "en": "to criticise"
+        },
+        "id_ref": "verb_kritisieren"
+      },
+      {
+        "wort": "anlasten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "به گردن کسی انداختن",
+          "en": "to blame"
+        },
+        "id_ref": "verb_anlasten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
