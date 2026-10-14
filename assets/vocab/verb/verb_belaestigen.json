@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_belaestigen",
+  "wort": "belästigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مزاحم (کسی) شدن، آزار دادن"
+    ],
+    "en": [
+      "to bother",
+      "to pester",
+      "to harass"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Gesellschaft"
+  ],
+  "ipa": "bəˈlɛstɪɡn̩",
+  "anmerkung": "Untrennbar, regelmäßig (belästigte, belästigt). Auch: jemanden sexuell belästigen (strafbar).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Mann belästigt uns.",
+      "uebersetzung": {
+        "fa": "آن مرد مزاحم ما می‌شود.",
+        "en": "The man is bothering us."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn dich jemand im Bus belästigt, sag es sofort dem Fahrer.",
+      "uebersetzung": {
+        "fa": "اگر کسی در اتوبوس مزاحمت شد، فوراً به راننده بگو.",
+        "en": "If someone harasses you on the bus, tell the driver immediately."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "stören",
+      "uebersetzung": {
+        "fa": "مزاحم شدن",
+        "en": "to disturb"
+      }
+    },
+    {
+      "wort": "nerven",
+      "uebersetzung": {
+        "fa": "اعصاب کسی را خرد کردن",
+        "en": "to annoy"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + lästig (مزاحم) + -en",
+    "en": "be- + lästig (annoying) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden mit + Dat belästigen",
+        "bedeutung": "jemanden mit etwas stören oder bedrängen",
+        "beispiel": "Er belästigt mich ständig mit Anrufen.",
+        "uebersetzung": {
+          "fa": "او مدام با تلفن‌هایش مزاحم من می‌شود.",
+          "en": "He keeps pestering me with phone calls."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "belästigen",
+      "praeteritum": "belästigte",
+      "partizip2": "belästigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "belästige",
+        "du": "belästigst",
+        "er_sie_es": "belästigt",
+        "wir": "belästigen",
+        "ihr": "belästigt",
+        "sie_Sie": "belästigen"
+      },
+      "praeteritum": {
+        "ich": "belästigte",
+        "du": "belästigtest",
+        "er_sie_es": "belästigte",
+        "wir": "belästigten",
+        "ihr": "belästigtet",
+        "sie_Sie": "belästigten"
+      },
+      "konjunktiv1": {
+        "ich": "belästige",
+        "du": "belästigest",
+        "er_sie_es": "belästige",
+        "wir": "belästigen",
+        "ihr": "belästiget",
+        "sie_Sie": "belästigen"
+      },
+      "konjunktiv2": {
+        "ich": "belästigte",
+        "du": "belästigtest",
+        "er_sie_es": "belästigte",
+        "wir": "belästigten",
+        "ihr": "belästigtet",
+        "sie_Sie": "belästigten"
+      },
+      "imperativ": {
+        "du": "Belästige!",
+        "ihr": "Belästigt!",
+        "Sie": "Belästigen Sie!"
+      }
+    },
+    "partizip1": "belästigend",
+    "nominalisierung": "die Belästigung"
+  },
+  "wortnetz": {
+    "grundwort": "lästig",
+    "woerter": [
+      {
+        "wort": "stören",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مزاحم شدن",
+          "en": "to disturb"
+        },
+        "id_ref": "verb_stoeren"
+      },
+      {
+        "wort": "lästig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مزاحم، آزاردهنده",
+          "en": "annoying"
+        },
+        "id_ref": "adjektiv_laestig"
+      },
+      {
+        "wort": "die Belästigung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مزاحمت، آزار",
+          "en": "harassment"
+        },
+        "id_ref": "nomen_belaestigung"
+      },
+      {
+        "wort": "nerven",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کلافه کردن",
+          "en": "to annoy"
+        },
+        "id_ref": "verb_nerven"
+      },
+      {
+        "wort": "die Last",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بار",
+          "en": "burden"
+        },
+        "id_ref": "nomen_last"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

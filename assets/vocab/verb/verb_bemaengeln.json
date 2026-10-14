@@ -1,0 +1,195 @@
+{
+  "schema": "3.0",
+  "id": "verb_bemaengeln",
+  "wort": "bemängeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ایراد گرفتن، انتقاد کردن"
+    ],
+    "en": [
+      "to criticize",
+      "to find fault with"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit",
+    "Kommunikation"
+  ],
+  "ipa": "bəˈmɛŋl̩n",
+  "anmerkung": "Untrennbar, regelmäßig (bemängelte, bemängelt).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Kunde bemängelt die Qualität.",
+      "uebersetzung": {
+        "fa": "مشتری از کیفیت ایراد می‌گیرد.",
+        "en": "The customer criticizes the quality."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Prüfer bemängelten, dass die Brandschutztüren nicht richtig schließen.",
+      "uebersetzung": {
+        "fa": "بازرسان ایراد گرفتند که درهای ضدحریق درست بسته نمی‌شوند.",
+        "en": "The inspectors criticized that the fire doors do not close properly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kritisieren",
+      "uebersetzung": {
+        "fa": "انتقاد کردن",
+        "en": "to criticize"
+      }
+    },
+    {
+      "wort": "beanstanden",
+      "uebersetzung": {
+        "fa": "اعتراض کردن، ایراد گرفتن",
+        "en": "to object to"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "loben",
+      "uebersetzung": {
+        "fa": "تعریف کردن",
+        "en": "to praise"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Mangel (نقص) + -n",
+    "en": "be- + Mangel (defect) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas an + Dat bemängeln",
+        "bedeutung": "an etwas einen Fehler kritisieren",
+        "beispiel": "Der Lehrer bemängelte an dem Aufsatz die vielen Fehler.",
+        "uebersetzung": {
+          "fa": "معلم از غلط‌های زیاد آن انشا ایراد گرفت.",
+          "en": "The teacher criticized the many mistakes in the essay."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bemängeln",
+      "praeteritum": "bemängelte",
+      "partizip2": "bemängelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bemängle",
+        "du": "bemängelst",
+        "er_sie_es": "bemängelt",
+        "wir": "bemängeln",
+        "ihr": "bemängelt",
+        "sie_Sie": "bemängeln"
+      },
+      "praeteritum": {
+        "ich": "bemängelte",
+        "du": "bemängeltest",
+        "er_sie_es": "bemängelte",
+        "wir": "bemängelten",
+        "ihr": "bemängeltet",
+        "sie_Sie": "bemängelten"
+      },
+      "konjunktiv1": {
+        "ich": "bemängle",
+        "du": "bemänglest",
+        "er_sie_es": "bemängle",
+        "wir": "bemängeln",
+        "ihr": "bemänglet",
+        "sie_Sie": "bemängeln"
+      },
+      "konjunktiv2": {
+        "ich": "bemängelte",
+        "du": "bemängeltest",
+        "er_sie_es": "bemängelte",
+        "wir": "bemängelten",
+        "ihr": "bemängeltet",
+        "sie_Sie": "bemängelten"
+      },
+      "imperativ": {
+        "du": "Bemängle!",
+        "ihr": "Bemängelt!",
+        "Sie": "Bemängeln Sie!"
+      }
+    },
+    "partizip1": "bemängelnd",
+    "nominalisierung": "die Bemängelung"
+  },
+  "wortnetz": {
+    "grundwort": "Mangel",
+    "woerter": [
+      {
+        "wort": "der Mangel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نقص، کمبود",
+          "en": "defect, lack"
+        },
+        "id_ref": "nomen_mangel"
+      },
+      {
+        "wort": "kritisieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انتقاد کردن",
+          "en": "to criticize"
+        },
+        "id_ref": "verb_kritisieren"
+      },
+      {
+        "wort": "die Kritik",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انتقاد",
+          "en": "criticism"
+        },
+        "id_ref": "nomen_kritik"
+      },
+      {
+        "wort": "mangelhaft",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ناقص",
+          "en": "defective"
+        },
+        "id_ref": "adjektiv_mangelhaft"
+      },
+      {
+        "wort": "beanstanden",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ایراد گرفتن",
+          "en": "to object to"
+        },
+        "id_ref": "verb_beanstanden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

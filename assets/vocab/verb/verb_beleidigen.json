@@ -1,0 +1,195 @@
+{
+  "schema": "3.0",
+  "id": "verb_beleidigen",
+  "wort": "beleidigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "توهین کردن، رنجاندن"
+    ],
+    "en": [
+      "to insult",
+      "to offend"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gefühle",
+    "Kommunikation"
+  ],
+  "ipa": "bəˈlaɪ̯dɪɡn̩",
+  "anmerkung": "Untrennbar, regelmäßig (beleidigte, beleidigt). «beleidigt sein» = gekränkt sein.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er hat mich beleidigt.",
+      "uebersetzung": {
+        "fa": "او به من توهین کرد.",
+        "en": "He insulted me."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich wollte dich nicht beleidigen, als ich das gesagt habe.",
+      "uebersetzung": {
+        "fa": "وقتی آن را گفتم، نمی‌خواستم تو را برنجانم.",
+        "en": "I did not want to offend you when I said that."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kränken",
+      "uebersetzung": {
+        "fa": "رنجاندن",
+        "en": "to hurt"
+      }
+    },
+    {
+      "wort": "verletzen",
+      "uebersetzung": {
+        "fa": "دل (کسی را) شکستن",
+        "en": "to hurt"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "loben",
+      "uebersetzung": {
+        "fa": "تعریف کردن",
+        "en": "to praise"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Leid (رنج) + -igen",
+    "en": "be- + Leid (suffering) + -igen"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden mit + Dat beleidigen",
+        "bedeutung": "jemanden durch Worte oder Taten kränken",
+        "beispiel": "Sie hat ihn mit ihrer Bemerkung beleidigt.",
+        "uebersetzung": {
+          "fa": "او با حرفش به آن مرد توهین کرد.",
+          "en": "She insulted him with her remark."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beleidigen",
+      "praeteritum": "beleidigte",
+      "partizip2": "beleidigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beleidige",
+        "du": "beleidigst",
+        "er_sie_es": "beleidigt",
+        "wir": "beleidigen",
+        "ihr": "beleidigt",
+        "sie_Sie": "beleidigen"
+      },
+      "praeteritum": {
+        "ich": "beleidigte",
+        "du": "beleidigtest",
+        "er_sie_es": "beleidigte",
+        "wir": "beleidigten",
+        "ihr": "beleidigtet",
+        "sie_Sie": "beleidigten"
+      },
+      "konjunktiv1": {
+        "ich": "beleidige",
+        "du": "beleidigest",
+        "er_sie_es": "beleidige",
+        "wir": "beleidigen",
+        "ihr": "beleidiget",
+        "sie_Sie": "beleidigen"
+      },
+      "konjunktiv2": {
+        "ich": "beleidigte",
+        "du": "beleidigtest",
+        "er_sie_es": "beleidigte",
+        "wir": "beleidigten",
+        "ihr": "beleidigtet",
+        "sie_Sie": "beleidigten"
+      },
+      "imperativ": {
+        "du": "Beleidige!",
+        "ihr": "Beleidigt!",
+        "Sie": "Beleidigen Sie!"
+      }
+    },
+    "partizip1": "beleidigend",
+    "nominalisierung": "die Beleidigung"
+  },
+  "wortnetz": {
+    "grundwort": "Leid",
+    "woerter": [
+      {
+        "wort": "beleidigt",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رنجیده",
+          "en": "offended"
+        },
+        "id_ref": "adjektiv_beleidigt"
+      },
+      {
+        "wort": "die Beleidigung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "توهین",
+          "en": "insult"
+        },
+        "id_ref": "nomen_beleidigung"
+      },
+      {
+        "wort": "kränken",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رنجاندن",
+          "en": "to hurt"
+        },
+        "id_ref": "verb_kraenken"
+      },
+      {
+        "wort": "verletzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آسیب زدن، رنجاندن",
+          "en": "to hurt"
+        },
+        "id_ref": "verb_verletzen"
+      },
+      {
+        "wort": "entschuldigen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عذرخواهی کردن",
+          "en": "to apologize"
+        },
+        "id_ref": "verb_entschuldigen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
