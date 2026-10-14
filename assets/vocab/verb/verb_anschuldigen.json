@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_anschuldigen",
+  "wort": "anschuldigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "متهم کردن"
+    ],
+    "en": [
+      "to accuse"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht"
+  ],
+  "ipa": "ˈanˌʃʊldɪɡn̩",
+  "anmerkung": "Trennbar (schuldigte an, angeschuldigt). Mit Genitiv der Sache (gehoben) oder «wegen + Gen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Man schuldigt ihn an.",
+      "uebersetzung": {
+        "fa": "او را متهم می‌کنند.",
+        "en": "They accuse him."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Mitarbeiter wurde angeschuldigt, Firmengeheimnisse an die Konkurrenz verkauft zu haben.",
+      "uebersetzung": {
+        "fa": "آن کارمند متهم شد که اسرار شرکت را به رقیب فروخته است.",
+        "en": "The employee was accused of having sold company secrets to the competition."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beschuldigen",
+      "uebersetzung": {
+        "fa": "متهم کردن",
+        "en": "to accuse"
+      }
+    },
+    {
+      "wort": "anklagen",
+      "uebersetzung": {
+        "fa": "متهم کردن (در دادگاه)",
+        "en": "to charge"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "entlasten",
+      "uebersetzung": {
+        "fa": "تبرئه کردن",
+        "en": "to exonerate"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- + schuldigen (از die Schuld = تقصیر)",
+    "en": "an- + schuldigen (from die Schuld = guilt)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden einer Sache (Gen) anschuldigen",
+        "bedeutung": "jemandem eine Tat vorwerfen",
+        "beispiel": "Er wurde des Diebstahls angeschuldigt.",
+        "uebersetzung": {
+          "fa": "او به دزدی متهم شد.",
+          "en": "He was accused of theft."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "anschuldigen",
+      "praeteritum": "schuldigte an",
+      "partizip2": "angeschuldigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schuldige an",
+        "du": "schuldigst an",
+        "er_sie_es": "schuldigt an",
+        "wir": "schuldigen an",
+        "ihr": "schuldigt an",
+        "sie_Sie": "schuldigen an"
+      },
+      "praeteritum": {
+        "ich": "schuldigte an",
+        "du": "schuldigtest an",
+        "er_sie_es": "schuldigte an",
+        "wir": "schuldigten an",
+        "ihr": "schuldigtet an",
+        "sie_Sie": "schuldigten an"
+      },
+      "konjunktiv1": {
+        "ich": "schuldige an",
+        "du": "schuldigest an",
+        "er_sie_es": "schuldige an",
+        "wir": "schuldigen an",
+        "ihr": "schuldiget an",
+        "sie_Sie": "schuldigen an"
+      },
+      "konjunktiv2": {
+        "ich": "schuldigte an",
+        "du": "schuldigtest an",
+        "er_sie_es": "schuldigte an",
+        "wir": "schuldigten an",
+        "ihr": "schuldigtet an",
+        "sie_Sie": "schuldigten an"
+      },
+      "imperativ": {
+        "du": "Schuldige an!",
+        "ihr": "Schuldigt an!",
+        "Sie": "Schuldigen Sie an!"
+      }
+    },
+    "partizip1": "anschuldigend",
+    "nominalisierung": "die Anschuldigung"
+  },
+  "wortnetz": {
+    "grundwort": "die Schuld",
+    "woerter": [
+      {
+        "wort": "die Schuld",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تقصیر",
+          "en": "guilt"
+        },
+        "id_ref": "nomen_schuld"
+      },
+      {
+        "wort": "beschuldigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "متهم کردن",
+          "en": "to accuse"
+        },
+        "id_ref": "verb_beschuldigen"
+      },
+      {
+        "wort": "die Anschuldigung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اتهام",
+          "en": "accusation"
+        },
+        "id_ref": "nomen_anschuldigung"
+      },
+      {
+        "wort": "unschuldig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بی‌گناه",
+          "en": "innocent"
+        },
+        "id_ref": "adjektiv_unschuldig"
+      },
+      {
+        "wort": "das Gericht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دادگاه",
+          "en": "court"
+        },
+        "id_ref": "nomen_gericht"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

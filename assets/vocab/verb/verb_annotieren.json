@@ -1,0 +1,165 @@
+{
+  "schema": "3.0",
+  "id": "verb_annotieren",
+  "wort": "annotieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "حاشیه‌نویسی کردن، یادداشت گذاشتن (روی متن)"
+    ],
+    "en": [
+      "to annotate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Bildung",
+    "Wissenschaft"
+  ],
+  "ipa": "anoˈtiːʁən",
+  "anmerkung": "Regelmäßig (annotierte, annotiert).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er annotiert den Text.",
+      "uebersetzung": {
+        "fa": "او روی متن یادداشت می‌گذارد.",
+        "en": "He annotates the text."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Damit die Schüler das Gedicht besser verstehen, wurde jede schwierige Stelle annotiert.",
+      "uebersetzung": {
+        "fa": "برای اینکه دانش‌آموزان شعر را بهتر بفهمند، کنار هر بخش دشوار توضیح نوشته شد.",
+        "en": "So that the pupils understand the poem better, every difficult passage was annotated."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kommentieren",
+      "uebersetzung": {
+        "fa": "شرح نوشتن",
+        "en": "to comment"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. annotare (یادداشت کردن)",
+    "en": "Latin annotare (to note down)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "annotieren",
+      "praeteritum": "annotierte",
+      "partizip2": "annotiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "annotiere",
+        "du": "annotierst",
+        "er_sie_es": "annotiert",
+        "wir": "annotieren",
+        "ihr": "annotiert",
+        "sie_Sie": "annotieren"
+      },
+      "praeteritum": {
+        "ich": "annotierte",
+        "du": "annotiertest",
+        "er_sie_es": "annotierte",
+        "wir": "annotierten",
+        "ihr": "annotiertet",
+        "sie_Sie": "annotierten"
+      },
+      "konjunktiv1": {
+        "ich": "annotiere",
+        "du": "annotierest",
+        "er_sie_es": "annotiere",
+        "wir": "annotieren",
+        "ihr": "annotieret",
+        "sie_Sie": "annotieren"
+      },
+      "konjunktiv2": {
+        "ich": "annotierte",
+        "du": "annotiertest",
+        "er_sie_es": "annotierte",
+        "wir": "annotierten",
+        "ihr": "annotiertet",
+        "sie_Sie": "annotierten"
+      },
+      "imperativ": {
+        "du": "Annotiere!",
+        "ihr": "Annotiert!",
+        "Sie": "Annotieren Sie!"
+      }
+    },
+    "partizip1": "annotierend",
+    "nominalisierung": "die Annotation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Notiz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "یادداشت",
+          "en": "note"
+        },
+        "id_ref": "nomen_notiz"
+      },
+      {
+        "wort": "der Text",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "متن",
+          "en": "text"
+        },
+        "id_ref": "nomen_text"
+      },
+      {
+        "wort": "kommentieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شرح نوشتن",
+          "en": "to comment"
+        },
+        "id_ref": "verb_kommentieren"
+      },
+      {
+        "wort": "markieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "علامت زدن",
+          "en": "to mark"
+        },
+        "id_ref": "verb_markieren"
+      },
+      {
+        "wort": "die Anmerkung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "توضیح، یادداشت",
+          "en": "note"
+        },
+        "id_ref": "nomen_anmerkung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

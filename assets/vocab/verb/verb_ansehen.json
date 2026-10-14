@@ -1,0 +1,203 @@
+{
+  "schema": "3.0",
+  "id": "verb_ansehen",
+  "wort": "ansehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نگاه کردن",
+      "تماشا کردن",
+      "دانستن، تلقی کردن"
+    ],
+    "en": [
+      "to look at",
+      "to watch",
+      "to regard"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Freizeit"
+  ],
+  "ipa": "ˈanˌzeːən",
+  "anmerkung": "Trennbar, unregelmäßig (sah an, angesehen) — steht in der Liste der regelmäßigen Verben, wird aber unregelmäßig konjugiert (Duden). Reflexiv: «sich etwas ansehen» (= betrachten). Partizip «angesehen» auch Adjektiv (= geachtet).",
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Sieh mich an!",
+      "uebersetzung": {
+        "fa": "به من نگاه کن!",
+        "en": "Look at me!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Am Wochenende haben wir uns einen alten Film angesehen, den meine Eltern sehr mögen.",
+      "uebersetzung": {
+        "fa": "آخر هفته فیلم قدیمی‌ای تماشا کردیم که پدر و مادرم خیلی دوستش دارند.",
+        "en": "At the weekend we watched an old film that my parents like very much."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anschauen",
+      "uebersetzung": {
+        "fa": "نگاه کردن",
+        "en": "to look at"
+      }
+    },
+    {
+      "wort": "betrachten",
+      "uebersetzung": {
+        "fa": "نظاره کردن",
+        "en": "to view"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "wegsehen",
+      "uebersetzung": {
+        "fa": "رو برگرداندن",
+        "en": "to look away"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- (به) + sehen (دیدن)",
+    "en": "an- (at) + sehen (to see)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": false,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "jemanden / etwas als + Akk ansehen",
+        "bedeutung": "jemanden/etwas für etwas halten",
+        "beispiel": "Ich sehe ihn als meinen Freund an.",
+        "uebersetzung": {
+          "fa": "من او را دوست خودم می‌دانم.",
+          "en": "I regard him as my friend."
+        }
+      },
+      {
+        "muster": "jemandem (Dat) etwas ansehen",
+        "bedeutung": "etwas an jemandes Aussehen erkennen",
+        "beispiel": "Man sieht ihr die Müdigkeit an.",
+        "uebersetzung": {
+          "fa": "خستگی از چهره‌اش پیداست.",
+          "en": "You can see she is tired."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ansehen",
+      "praeteritum": "sah an",
+      "partizip2": "angesehen"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "sehe an",
+        "du": "siehst an",
+        "er_sie_es": "sieht an",
+        "wir": "sehen an",
+        "ihr": "seht an",
+        "sie_Sie": "sehen an"
+      },
+      "praeteritum": {
+        "ich": "sah an",
+        "du": "sahst an",
+        "er_sie_es": "sah an",
+        "wir": "sahen an",
+        "ihr": "saht an",
+        "sie_Sie": "sahen an"
+      },
+      "konjunktiv1": {
+        "ich": "sehe an",
+        "du": "sehest an",
+        "er_sie_es": "sehe an",
+        "wir": "sehen an",
+        "ihr": "sehet an",
+        "sie_Sie": "sehen an"
+      },
+      "konjunktiv2": {
+        "ich": "sähe an",
+        "du": "sähest an",
+        "er_sie_es": "sähe an",
+        "wir": "sähen an",
+        "ihr": "sähet an",
+        "sie_Sie": "sähen an"
+      },
+      "imperativ": {
+        "du": "Sieh an!",
+        "ihr": "Seht an!",
+        "Sie": "Sehen Sie an!"
+      }
+    },
+    "partizip1": "ansehend",
+    "nominalisierung": "das Ansehen"
+  },
+  "wortnetz": {
+    "grundwort": "sehen",
+    "woerter": [
+      {
+        "wort": "sehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دیدن",
+          "en": "to see"
+        },
+        "id_ref": "verb_sehen"
+      },
+      {
+        "wort": "anschauen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نگاه کردن",
+          "en": "to look at"
+        },
+        "id_ref": "verb_anschauen"
+      },
+      {
+        "wort": "das Ansehen",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اعتبار، آبرو",
+          "en": "reputation"
+        },
+        "id_ref": "nomen_ansehen"
+      },
+      {
+        "wort": "angesehen",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "محترم",
+          "en": "respected"
+        },
+        "id_ref": "adjektiv_angesehen"
+      },
+      {
+        "wort": "betrachten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نظاره کردن",
+          "en": "to view"
+        },
+        "id_ref": "verb_betrachten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

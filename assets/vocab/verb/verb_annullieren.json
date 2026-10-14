@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_annullieren",
+  "wort": "annullieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "باطل کردن، لغو کردن"
+    ],
+    "en": [
+      "to annul",
+      "to cancel"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Behörden"
+  ],
+  "ipa": "anʊˈliːʁən",
+  "anmerkung": "Regelmäßig (annullierte, annulliert).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Gericht annulliert die Ehe.",
+      "uebersetzung": {
+        "fa": "دادگاه ازدواج را باطل می‌کند.",
+        "en": "The court annuls the marriage."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Wahl wurde annulliert, weil es bei der Auszählung schwere Fehler gegeben hatte.",
+      "uebersetzung": {
+        "fa": "انتخابات باطل شد، چون در شمارش آرا خطاهای جدی رخ داده بود.",
+        "en": "The election was annulled because there had been serious errors in the count."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufheben",
+      "uebersetzung": {
+        "fa": "لغو کردن",
+        "en": "to revoke"
+      }
+    },
+    {
+      "wort": "für ungültig erklären",
+      "uebersetzung": {
+        "fa": "باطل اعلام کردن",
+        "en": "to declare invalid"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "bestätigen",
+      "uebersetzung": {
+        "fa": "تأیید کردن",
+        "en": "to confirm"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. annullare (هیچ کردن؛ از nullus = هیچ)",
+    "en": "Latin annullare (to make null)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "annullieren",
+      "praeteritum": "annullierte",
+      "partizip2": "annulliert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "annulliere",
+        "du": "annullierst",
+        "er_sie_es": "annulliert",
+        "wir": "annullieren",
+        "ihr": "annulliert",
+        "sie_Sie": "annullieren"
+      },
+      "praeteritum": {
+        "ich": "annullierte",
+        "du": "annulliertest",
+        "er_sie_es": "annullierte",
+        "wir": "annullierten",
+        "ihr": "annulliertet",
+        "sie_Sie": "annullierten"
+      },
+      "konjunktiv1": {
+        "ich": "annulliere",
+        "du": "annullierest",
+        "er_sie_es": "annulliere",
+        "wir": "annullieren",
+        "ihr": "annullieret",
+        "sie_Sie": "annullieren"
+      },
+      "konjunktiv2": {
+        "ich": "annullierte",
+        "du": "annulliertest",
+        "er_sie_es": "annullierte",
+        "wir": "annullierten",
+        "ihr": "annulliertet",
+        "sie_Sie": "annullierten"
+      },
+      "imperativ": {
+        "du": "Annulliere!",
+        "ihr": "Annulliert!",
+        "Sie": "Annullieren Sie!"
+      }
+    },
+    "partizip1": "annullierend",
+    "nominalisierung": "die Annullierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "ungültig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نامعتبر",
+          "en": "invalid"
+        },
+        "id_ref": "adjektiv_ungueltig"
+      },
+      {
+        "wort": "stornieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لغو کردن",
+          "en": "to cancel"
+        },
+        "id_ref": "verb_stornieren"
+      },
+      {
+        "wort": "das Gericht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دادگاه",
+          "en": "court"
+        },
+        "id_ref": "nomen_gericht"
+      },
+      {
+        "wort": "der Vertrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرارداد",
+          "en": "contract"
+        },
+        "id_ref": "nomen_vertrag"
+      },
+      {
+        "wort": "aufheben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لغو کردن",
+          "en": "to revoke"
+        },
+        "id_ref": "verb_aufheben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

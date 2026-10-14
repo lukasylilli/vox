@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_anreichern",
+  "wort": "anreichern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "غنی کردن، افزودن"
+    ],
+    "en": [
+      "to enrich",
+      "to fortify"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft",
+    "Ernährung"
+  ],
+  "ipa": "ˈanˌʁaɪ̯çɐn",
+  "anmerkung": "Trennbar (reicherte an, angereichert). Auch reflexiv: «sich anreichern».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Man reichert das Salz mit Jod an.",
+      "uebersetzung": {
+        "fa": "نمک را با ید غنی می‌کنند.",
+        "en": "Salt is fortified with iodine."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Schadstoffe können sich im Körper anreichern, wenn man sie über lange Zeit aufnimmt.",
+      "uebersetzung": {
+        "fa": "مواد سمی اگر مدت طولانی وارد بدن شوند، می‌توانند در آن انباشته شوند.",
+        "en": "Pollutants can accumulate in the body if you take them in over a long period."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ergänzen",
+      "uebersetzung": {
+        "fa": "تکمیل کردن",
+        "en": "to supplement"
+      }
+    },
+    {
+      "wort": "anhäufen",
+      "uebersetzung": {
+        "fa": "انباشتن",
+        "en": "to accumulate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "an- + reichern (از reich = غنی)",
+    "en": "an- + reichern (from reich = rich)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "etwas mit + Dat anreichern",
+        "bedeutung": "einer Sache etwas hinzufügen",
+        "beispiel": "Der Saft ist mit Vitamin C angereichert.",
+        "uebersetzung": {
+          "fa": "این آبمیوه با ویتامین ث غنی شده است.",
+          "en": "The juice is fortified with vitamin C."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "anreichern",
+      "praeteritum": "reicherte an",
+      "partizip2": "angereichert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "reichere an",
+        "du": "reicherst an",
+        "er_sie_es": "reichert an",
+        "wir": "reichern an",
+        "ihr": "reichert an",
+        "sie_Sie": "reichern an"
+      },
+      "praeteritum": {
+        "ich": "reicherte an",
+        "du": "reichertest an",
+        "er_sie_es": "reicherte an",
+        "wir": "reicherten an",
+        "ihr": "reichertet an",
+        "sie_Sie": "reicherten an"
+      },
+      "konjunktiv1": {
+        "ich": "reichere an",
+        "du": "reicherest an",
+        "er_sie_es": "reichere an",
+        "wir": "reichern an",
+        "ihr": "reicheret an",
+        "sie_Sie": "reichern an"
+      },
+      "konjunktiv2": {
+        "ich": "reicherte an",
+        "du": "reichertest an",
+        "er_sie_es": "reicherte an",
+        "wir": "reicherten an",
+        "ihr": "reichertet an",
+        "sie_Sie": "reicherten an"
+      },
+      "imperativ": {
+        "du": "Reichere an!",
+        "ihr": "Reichert an!",
+        "Sie": "Reichern Sie an!"
+      }
+    },
+    "partizip1": "anreichernd",
+    "nominalisierung": "die Anreicherung"
+  },
+  "wortnetz": {
+    "grundwort": "reich",
+    "woerter": [
+      {
+        "wort": "reich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ثروتمند؛ غنی",
+          "en": "rich"
+        },
+        "id_ref": "adjektiv_reich"
+      },
+      {
+        "wort": "das Vitamin",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ویتامین",
+          "en": "vitamin"
+        },
+        "id_ref": "nomen_vitamin"
+      },
+      {
+        "wort": "ergänzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تکمیل کردن",
+          "en": "to supplement"
+        },
+        "id_ref": "verb_ergaenzen"
+      },
+      {
+        "wort": "die Ernährung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تغذیه",
+          "en": "nutrition"
+        },
+        "id_ref": "nomen_ernaehrung"
+      },
+      {
+        "wort": "das Uran",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اورانیوم",
+          "en": "uranium"
+        },
+        "id_ref": "nomen_uran"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
