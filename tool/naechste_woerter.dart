@@ -1585,6 +1585,8 @@ const zurueckgestellt = <String>{
   'bekiffen', // zurückgestellt (Regel 14/16): umgangssprachlich (Drogen), selten 2026-10-13
   'belämmern', // zurückgestellt (Regel 14/16): umgangssprachlich, selten; Bedeutung (belästigen/betrügen) nicht sicher 2026-10-14
   'benedeien', // zurückgestellt (Regel 14/16): veraltet/kirchlich; Partizip II schwankt (benedeit/gebenedeit) 2026-10-14
+  'beschälen', // zurückgestellt (Regel 14/16): fachsprachlich (Pferdezucht), selten 2026-10-14
+  'beschranken', // zurückgestellt (Regel 14/16): selten, meist nur Partizip (beschrankter Bahnübergang) 2026-10-14
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

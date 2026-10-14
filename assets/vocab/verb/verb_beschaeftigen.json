@@ -1,0 +1,197 @@
+{
+  "schema": "3.0",
+  "id": "verb_beschaeftigen",
+  "wort": "beschäftigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مشغول کردن؛ استخدام داشتن؛ (ذهن کسی را) درگیر کردن"
+    ],
+    "en": [
+      "to occupy",
+      "to employ",
+      "to preoccupy"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Freizeit"
+  ],
+  "ipa": "bəˈʃɛftɪɡn̩",
+  "anmerkung": "Untrennbar, regelmäßig (beschäftigte, beschäftigt). «beschäftigt sein» = viel zu tun haben.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Firma beschäftigt 50 Leute.",
+      "uebersetzung": {
+        "fa": "این شرکت پنجاه نفر کارمند دارد.",
+        "en": "The company employs 50 people."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Frage, ob ich die Stelle annehmen soll, beschäftigt mich schon seit Tagen.",
+      "uebersetzung": {
+        "fa": "این سؤال که آیا باید آن شغل را قبول کنم، چند روز است ذهنم را مشغول کرده.",
+        "en": "The question of whether I should accept the job has been on my mind for days."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anstellen",
+      "uebersetzung": {
+        "fa": "استخدام کردن",
+        "en": "to employ"
+      }
+    },
+    {
+      "wort": "befassen",
+      "uebersetzung": {
+        "fa": "سروکار داشتن",
+        "en": "to deal with"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + schaffen (کار کردن) + -igen",
+    "en": "be- + schaffen (to work) + -igen"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich mit + Dat beschäftigen",
+        "bedeutung": "sich mit etwas befassen, an etwas arbeiten",
+        "beispiel": "In meiner Freizeit beschäftige ich mich mit Fotografie.",
+        "uebersetzung": {
+          "fa": "در وقت آزادم به عکاسی می‌پردازم.",
+          "en": "In my free time I occupy myself with photography."
+        }
+      },
+      {
+        "muster": "jemanden als + Akk beschäftigen",
+        "bedeutung": "jemanden in einer bestimmten Funktion angestellt haben",
+        "beispiel": "Das Hotel beschäftigt ihn als Koch.",
+        "uebersetzung": {
+          "fa": "هتل او را به‌عنوان آشپز استخدام کرده است.",
+          "en": "The hotel employs him as a cook."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beschäftigen",
+      "praeteritum": "beschäftigte",
+      "partizip2": "beschäftigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beschäftige",
+        "du": "beschäftigst",
+        "er_sie_es": "beschäftigt",
+        "wir": "beschäftigen",
+        "ihr": "beschäftigt",
+        "sie_Sie": "beschäftigen"
+      },
+      "praeteritum": {
+        "ich": "beschäftigte",
+        "du": "beschäftigtest",
+        "er_sie_es": "beschäftigte",
+        "wir": "beschäftigten",
+        "ihr": "beschäftigtet",
+        "sie_Sie": "beschäftigten"
+      },
+      "konjunktiv1": {
+        "ich": "beschäftige",
+        "du": "beschäftigest",
+        "er_sie_es": "beschäftige",
+        "wir": "beschäftigen",
+        "ihr": "beschäftiget",
+        "sie_Sie": "beschäftigen"
+      },
+      "konjunktiv2": {
+        "ich": "beschäftigte",
+        "du": "beschäftigtest",
+        "er_sie_es": "beschäftigte",
+        "wir": "beschäftigten",
+        "ihr": "beschäftigtet",
+        "sie_Sie": "beschäftigten"
+      },
+      "imperativ": {
+        "du": "Beschäftige!",
+        "ihr": "Beschäftigt!",
+        "Sie": "Beschäftigen Sie!"
+      }
+    },
+    "partizip1": "beschäftigend",
+    "nominalisierung": "die Beschäftigung"
+  },
+  "wortnetz": {
+    "grundwort": "Beschäftigung",
+    "woerter": [
+      {
+        "wort": "beschäftigt",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مشغول",
+          "en": "busy"
+        },
+        "id_ref": "adjektiv_beschaeftigt"
+      },
+      {
+        "wort": "die Arbeit",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کار",
+          "en": "work"
+        },
+        "id_ref": "nomen_arbeit"
+      },
+      {
+        "wort": "die Beschäftigung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شغل، مشغولیت",
+          "en": "employment, activity"
+        },
+        "id_ref": "nomen_beschaeftigung"
+      },
+      {
+        "wort": "der Arbeitgeber",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کارفرما",
+          "en": "employer"
+        },
+        "id_ref": "nomen_arbeitgeber"
+      },
+      {
+        "wort": "befassen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پرداختن به",
+          "en": "to deal with"
+        },
+        "id_ref": "verb_befassen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

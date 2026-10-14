@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_beschriften",
+  "wort": "beschriften",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "برچسب زدن، (روی چیزی) نوشتن"
+    ],
+    "en": [
+      "to label",
+      "to inscribe"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Arbeit"
+  ],
+  "ipa": "bəˈʃʁɪftn̩",
+  "anmerkung": "Untrennbar, regelmäßig (beschriftete, beschriftet).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte beschrifte die Kisten.",
+      "uebersetzung": {
+        "fa": "لطفاً روی جعبه‌ها بنویس.",
+        "en": "Please label the boxes."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn du die Ordner gut beschriftest, findest du die Rechnungen später schneller.",
+      "uebersetzung": {
+        "fa": "اگر پوشه‌ها را خوب برچسب بزنی، بعداً قبض‌ها را سریع‌تر پیدا می‌کنی.",
+        "en": "If you label the folders well, you will find the bills more quickly later."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "etikettieren",
+      "uebersetzung": {
+        "fa": "برچسب زدن",
+        "en": "to label"
+      }
+    },
+    {
+      "wort": "kennzeichnen",
+      "uebersetzung": {
+        "fa": "علامت‌گذاری کردن",
+        "en": "to mark"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Schrift (نوشته) + -en",
+    "en": "be- + Schrift (writing) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas mit + Dat beschriften",
+        "bedeutung": "etwas mit einer Aufschrift versehen",
+        "beispiel": "Sie beschriftet die Gläser mit dem Datum.",
+        "uebersetzung": {
+          "fa": "او روی شیشه‌ها تاریخ را می‌نویسد.",
+          "en": "She labels the jars with the date."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beschriften",
+      "praeteritum": "beschriftete",
+      "partizip2": "beschriftet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beschrifte",
+        "du": "beschriftest",
+        "er_sie_es": "beschriftet",
+        "wir": "beschriften",
+        "ihr": "beschriftet",
+        "sie_Sie": "beschriften"
+      },
+      "praeteritum": {
+        "ich": "beschriftete",
+        "du": "beschriftetest",
+        "er_sie_es": "beschriftete",
+        "wir": "beschrifteten",
+        "ihr": "beschriftetet",
+        "sie_Sie": "beschrifteten"
+      },
+      "konjunktiv1": {
+        "ich": "beschrifte",
+        "du": "beschriftest",
+        "er_sie_es": "beschrifte",
+        "wir": "beschriften",
+        "ihr": "beschriftet",
+        "sie_Sie": "beschriften"
+      },
+      "konjunktiv2": {
+        "ich": "beschriftete",
+        "du": "beschriftetest",
+        "er_sie_es": "beschriftete",
+        "wir": "beschrifteten",
+        "ihr": "beschriftetet",
+        "sie_Sie": "beschrifteten"
+      },
+      "imperativ": {
+        "du": "Beschrifte!",
+        "ihr": "Beschriftet!",
+        "Sie": "Beschriften Sie!"
+      }
+    },
+    "partizip1": "beschriftend",
+    "nominalisierung": "die Beschriftung"
+  },
+  "wortnetz": {
+    "grundwort": "Schrift",
+    "woerter": [
+      {
+        "wort": "schreiben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نوشتن",
+          "en": "to write"
+        },
+        "id_ref": "verb_schreiben"
+      },
+      {
+        "wort": "die Schrift",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خط، نوشته",
+          "en": "writing"
+        },
+        "id_ref": "nomen_schrift"
+      },
+      {
+        "wort": "das Etikett",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "برچسب",
+          "en": "label"
+        },
+        "id_ref": "nomen_etikett"
+      },
+      {
+        "wort": "kennzeichnen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "علامت‌گذاری کردن",
+          "en": "to mark"
+        },
+        "id_ref": "verb_kennzeichnen"
+      },
+      {
+        "wort": "die Beschriftung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "برچسب، نوشته",
+          "en": "label, inscription"
+        },
+        "id_ref": "nomen_beschriftung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

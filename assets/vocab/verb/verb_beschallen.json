@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_beschallen",
+  "wort": "beschallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "با صدای بلند پر کردن، (با بلندگو) صدا پخش کردن"
+    ],
+    "en": [
+      "to fill with sound",
+      "to blast with sound"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Musik"
+  ],
+  "ipa": "bəˈʃalən",
+  "anmerkung": "Untrennbar, regelmäßig (beschallte, beschallt). Auch medizinisch: mit Ultraschall behandeln.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Boxen beschallen den Saal.",
+      "uebersetzung": {
+        "fa": "بلندگوها سالن را پر از صدا می‌کنند.",
+        "en": "The speakers fill the hall with sound."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Nachbarn beschallen uns jedes Wochenende mit lauter Musik, obwohl wir uns schon beschwert haben.",
+      "uebersetzung": {
+        "fa": "همسایه‌ها هر آخر هفته با موسیقی بلند ما را کر می‌کنند، با اینکه قبلاً شکایت کرده‌ایم.",
+        "en": "The neighbours blast us with loud music every weekend, although we have already complained."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "berieseln",
+      "uebersetzung": {
+        "fa": "مدام (با موسیقی) پر کردن",
+        "en": "to pipe music at"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Schall (صدا) + -en",
+    "en": "be- + Schall (sound) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden/etwas mit + Dat beschallen",
+        "bedeutung": "jemanden/etwas laut mit Tönen erfüllen",
+        "beispiel": "Der Supermarkt beschallt die Kunden mit Weihnachtsliedern.",
+        "uebersetzung": {
+          "fa": "سوپرمارکت مشتری‌ها را با سرودهای کریسمس پر می‌کند.",
+          "en": "The supermarket blasts customers with Christmas songs."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beschallen",
+      "praeteritum": "beschallte",
+      "partizip2": "beschallt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beschalle",
+        "du": "beschallst",
+        "er_sie_es": "beschallt",
+        "wir": "beschallen",
+        "ihr": "beschallt",
+        "sie_Sie": "beschallen"
+      },
+      "praeteritum": {
+        "ich": "beschallte",
+        "du": "beschalltest",
+        "er_sie_es": "beschallte",
+        "wir": "beschallten",
+        "ihr": "beschalltet",
+        "sie_Sie": "beschallten"
+      },
+      "konjunktiv1": {
+        "ich": "beschalle",
+        "du": "beschallest",
+        "er_sie_es": "beschalle",
+        "wir": "beschallen",
+        "ihr": "beschallet",
+        "sie_Sie": "beschallen"
+      },
+      "konjunktiv2": {
+        "ich": "beschallte",
+        "du": "beschalltest",
+        "er_sie_es": "beschallte",
+        "wir": "beschallten",
+        "ihr": "beschalltet",
+        "sie_Sie": "beschallten"
+      },
+      "imperativ": {
+        "du": "Beschalle!",
+        "ihr": "Beschallt!",
+        "Sie": "Beschallen Sie!"
+      }
+    },
+    "partizip1": "beschallend",
+    "nominalisierung": "die Beschallung"
+  },
+  "wortnetz": {
+    "grundwort": "Schall",
+    "woerter": [
+      {
+        "wort": "der Schall",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "صدا، صوت",
+          "en": "sound"
+        },
+        "id_ref": "nomen_schall"
+      },
+      {
+        "wort": "laut",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بلند (صدا)",
+          "en": "loud"
+        },
+        "id_ref": "adjektiv_laut"
+      },
+      {
+        "wort": "der Lautsprecher",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بلندگو",
+          "en": "loudspeaker"
+        },
+        "id_ref": "nomen_lautsprecher"
+      },
+      {
+        "wort": "der Ultraschall",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سونوگرافی، فراصوت",
+          "en": "ultrasound"
+        },
+        "id_ref": "nomen_ultraschall"
+      },
+      {
+        "wort": "der Lärm",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سروصدا",
+          "en": "noise"
+        },
+        "id_ref": "nomen_laerm"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

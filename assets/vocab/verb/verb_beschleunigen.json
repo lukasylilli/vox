@@ -1,0 +1,202 @@
+{
+  "schema": "3.0",
+  "id": "verb_beschleunigen",
+  "wort": "beschleunigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سرعت دادن، شتاب گرفتن، تسریع کردن"
+    ],
+    "en": [
+      "to accelerate",
+      "to speed up"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr",
+    "Technik"
+  ],
+  "ipa": "bəˈʃlɔɪ̯nɪɡn̩",
+  "anmerkung": "Untrennbar, regelmäßig (beschleunigte, beschleunigt). Gegenteil: verlangsamen, bremsen.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Auto beschleunigt schnell.",
+      "uebersetzung": {
+        "fa": "این ماشین سریع شتاب می‌گیرد.",
+        "en": "The car accelerates quickly."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn wir die Arbeit nicht beschleunigen, werden wir bis Freitag nicht fertig.",
+      "uebersetzung": {
+        "fa": "اگر کار را سریع‌تر نکنیم، تا جمعه تمام نمی‌شویم.",
+        "en": "If we do not speed up the work, we will not be finished by Friday."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schneller machen",
+      "uebersetzung": {
+        "fa": "سریع‌تر کردن",
+        "en": "to make faster"
+      }
+    },
+    {
+      "wort": "vorantreiben",
+      "uebersetzung": {
+        "fa": "جلو بردن",
+        "en": "to push forward"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verlangsamen",
+      "uebersetzung": {
+        "fa": "کند کردن",
+        "en": "to slow down"
+      }
+    },
+    {
+      "wort": "bremsen",
+      "uebersetzung": {
+        "fa": "ترمز کردن",
+        "en": "to brake"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + schleunig (سریع، کهن) + -en",
+    "en": "be- + schleunig (quick, old) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "auf + Akk beschleunigen",
+        "bedeutung": "die Geschwindigkeit bis zu einem Wert erhöhen",
+        "beispiel": "Der Zug beschleunigt auf 300 Kilometer pro Stunde.",
+        "uebersetzung": {
+          "fa": "قطار تا سیصد کیلومتر در ساعت شتاب می‌گیرد.",
+          "en": "The train accelerates to 300 kilometres per hour."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beschleunigen",
+      "praeteritum": "beschleunigte",
+      "partizip2": "beschleunigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beschleunige",
+        "du": "beschleunigst",
+        "er_sie_es": "beschleunigt",
+        "wir": "beschleunigen",
+        "ihr": "beschleunigt",
+        "sie_Sie": "beschleunigen"
+      },
+      "praeteritum": {
+        "ich": "beschleunigte",
+        "du": "beschleunigtest",
+        "er_sie_es": "beschleunigte",
+        "wir": "beschleunigten",
+        "ihr": "beschleunigtet",
+        "sie_Sie": "beschleunigten"
+      },
+      "konjunktiv1": {
+        "ich": "beschleunige",
+        "du": "beschleunigest",
+        "er_sie_es": "beschleunige",
+        "wir": "beschleunigen",
+        "ihr": "beschleuniget",
+        "sie_Sie": "beschleunigen"
+      },
+      "konjunktiv2": {
+        "ich": "beschleunigte",
+        "du": "beschleunigtest",
+        "er_sie_es": "beschleunigte",
+        "wir": "beschleunigten",
+        "ihr": "beschleunigtet",
+        "sie_Sie": "beschleunigten"
+      },
+      "imperativ": {
+        "du": "Beschleunige!",
+        "ihr": "Beschleunigt!",
+        "Sie": "Beschleunigen Sie!"
+      }
+    },
+    "partizip1": "beschleunigend",
+    "nominalisierung": "die Beschleunigung"
+  },
+  "wortnetz": {
+    "grundwort": "schnell",
+    "woerter": [
+      {
+        "wort": "schnell",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سریع",
+          "en": "fast"
+        },
+        "id_ref": "adjektiv_schnell"
+      },
+      {
+        "wort": "bremsen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ترمز کردن",
+          "en": "to brake"
+        },
+        "id_ref": "verb_bremsen"
+      },
+      {
+        "wort": "die Geschwindigkeit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرعت",
+          "en": "speed"
+        },
+        "id_ref": "nomen_geschwindigkeit"
+      },
+      {
+        "wort": "die Beschleunigung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شتاب",
+          "en": "acceleration"
+        },
+        "id_ref": "nomen_beschleunigung"
+      },
+      {
+        "wort": "verlangsamen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کند کردن",
+          "en": "to slow down"
+        },
+        "id_ref": "verb_verlangsamen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

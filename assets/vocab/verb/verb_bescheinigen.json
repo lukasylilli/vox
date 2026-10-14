@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_bescheinigen",
+  "wort": "bescheinigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گواهی کردن، تأیید کتبی دادن"
+    ],
+    "en": [
+      "to certify",
+      "to confirm in writing"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit",
+    "Behörden"
+  ],
+  "ipa": "bəˈʃaɪ̯nɪɡn̩",
+  "anmerkung": "Untrennbar, regelmäßig (bescheinigte, bescheinigt).",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Arzt bescheinigt die Krankheit.",
+      "uebersetzung": {
+        "fa": "پزشک بیماری را گواهی می‌کند.",
+        "en": "The doctor certifies the illness."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Schule bescheinigt, dass sie das ganze Jahr regelmäßig am Unterricht teilgenommen hat.",
+      "uebersetzung": {
+        "fa": "مدرسه گواهی می‌کند که او تمام سال مرتب سر کلاس حاضر بوده است.",
+        "en": "The school certifies that she attended lessons regularly all year."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bestätigen",
+      "uebersetzung": {
+        "fa": "تأیید کردن",
+        "en": "to confirm"
+      }
+    },
+    {
+      "wort": "attestieren",
+      "uebersetzung": {
+        "fa": "گواهی کردن",
+        "en": "to attest"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Schein (برگه، گواهی) + -igen",
+    "en": "be- + Schein (certificate) + -igen"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem etwas bescheinigen",
+        "bedeutung": "jemandem etwas schriftlich bestätigen",
+        "beispiel": "Der Arbeitgeber bescheinigt ihr gute Leistungen.",
+        "uebersetzung": {
+          "fa": "کارفرما عملکرد خوب او را تأیید می‌کند.",
+          "en": "The employer certifies her good performance."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bescheinigen",
+      "praeteritum": "bescheinigte",
+      "partizip2": "bescheinigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bescheinige",
+        "du": "bescheinigst",
+        "er_sie_es": "bescheinigt",
+        "wir": "bescheinigen",
+        "ihr": "bescheinigt",
+        "sie_Sie": "bescheinigen"
+      },
+      "praeteritum": {
+        "ich": "bescheinigte",
+        "du": "bescheinigtest",
+        "er_sie_es": "bescheinigte",
+        "wir": "bescheinigten",
+        "ihr": "bescheinigtet",
+        "sie_Sie": "bescheinigten"
+      },
+      "konjunktiv1": {
+        "ich": "bescheinige",
+        "du": "bescheinigest",
+        "er_sie_es": "bescheinige",
+        "wir": "bescheinigen",
+        "ihr": "bescheiniget",
+        "sie_Sie": "bescheinigen"
+      },
+      "konjunktiv2": {
+        "ich": "bescheinigte",
+        "du": "bescheinigtest",
+        "er_sie_es": "bescheinigte",
+        "wir": "bescheinigten",
+        "ihr": "bescheinigtet",
+        "sie_Sie": "bescheinigten"
+      },
+      "imperativ": {
+        "du": "Bescheinige!",
+        "ihr": "Bescheinigt!",
+        "Sie": "Bescheinigen Sie!"
+      }
+    },
+    "partizip1": "bescheinigend",
+    "nominalisierung": "die Bescheinigung"
+  },
+  "wortnetz": {
+    "grundwort": "Schein",
+    "woerter": [
+      {
+        "wort": "die Bescheinigung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گواهی",
+          "en": "certificate"
+        },
+        "id_ref": "nomen_bescheinigung"
+      },
+      {
+        "wort": "bestätigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تأیید کردن",
+          "en": "to confirm"
+        },
+        "id_ref": "verb_bestaetigen"
+      },
+      {
+        "wort": "das Attest",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گواهی پزشکی",
+          "en": "medical certificate"
+        },
+        "id_ref": "nomen_attest"
+      },
+      {
+        "wort": "das Formular",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فرم",
+          "en": "form"
+        },
+        "id_ref": "nomen_formular"
+      },
+      {
+        "wort": "der Schein",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برگه، گواهی",
+          "en": "certificate, note"
+        },
+        "id_ref": "nomen_schein"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

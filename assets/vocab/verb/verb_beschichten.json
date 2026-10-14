@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_beschichten",
+  "wort": "beschichten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "روکش کردن، لایه کشیدن"
+    ],
+    "en": [
+      "to coat",
+      "to laminate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Industrie"
+  ],
+  "ipa": "bəˈʃɪçtn̩",
+  "anmerkung": "Untrennbar, regelmäßig (beschichtete, beschichtet).",
+  "berufe": [
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Pfanne ist beschichtet.",
+      "uebersetzung": {
+        "fa": "این ماهیتابه روکش‌دار است.",
+        "en": "The pan is coated."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Bleche werden mit Zink beschichtet, damit sie nicht rosten.",
+      "uebersetzung": {
+        "fa": "ورق‌ها را با روی روکش می‌کنند تا زنگ نزنند.",
+        "en": "The metal sheets are coated with zinc so that they do not rust."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "überziehen",
+      "uebersetzung": {
+        "fa": "روکش کردن",
+        "en": "to cover"
+      }
+    },
+    {
+      "wort": "lackieren",
+      "uebersetzung": {
+        "fa": "لاک زدن، رنگ کردن",
+        "en": "to varnish"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Schicht (لایه) + -en",
+    "en": "be- + Schicht (layer) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas mit + Dat beschichten",
+        "bedeutung": "auf etwas eine dünne Schicht auftragen",
+        "beispiel": "Die Gläser sind mit einem Schutzfilm beschichtet.",
+        "uebersetzung": {
+          "fa": "شیشه‌ها با یک لایه‌ی محافظ روکش شده‌اند.",
+          "en": "The lenses are coated with a protective film."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beschichten",
+      "praeteritum": "beschichtete",
+      "partizip2": "beschichtet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beschichte",
+        "du": "beschichtest",
+        "er_sie_es": "beschichtet",
+        "wir": "beschichten",
+        "ihr": "beschichtet",
+        "sie_Sie": "beschichten"
+      },
+      "praeteritum": {
+        "ich": "beschichtete",
+        "du": "beschichtetest",
+        "er_sie_es": "beschichtete",
+        "wir": "beschichteten",
+        "ihr": "beschichtetet",
+        "sie_Sie": "beschichteten"
+      },
+      "konjunktiv1": {
+        "ich": "beschichte",
+        "du": "beschichtest",
+        "er_sie_es": "beschichte",
+        "wir": "beschichten",
+        "ihr": "beschichtet",
+        "sie_Sie": "beschichten"
+      },
+      "konjunktiv2": {
+        "ich": "beschichtete",
+        "du": "beschichtetest",
+        "er_sie_es": "beschichtete",
+        "wir": "beschichteten",
+        "ihr": "beschichtetet",
+        "sie_Sie": "beschichteten"
+      },
+      "imperativ": {
+        "du": "Beschichte!",
+        "ihr": "Beschichtet!",
+        "Sie": "Beschichten Sie!"
+      }
+    },
+    "partizip1": "beschichtend",
+    "nominalisierung": "die Beschichtung"
+  },
+  "wortnetz": {
+    "grundwort": "Schicht",
+    "woerter": [
+      {
+        "wort": "die Schicht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لایه؛ شیفت",
+          "en": "layer; shift"
+        },
+        "id_ref": "nomen_schicht"
+      },
+      {
+        "wort": "die Beschichtung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "روکش",
+          "en": "coating"
+        },
+        "id_ref": "nomen_beschichtung"
+      },
+      {
+        "wort": "lackieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رنگ کردن",
+          "en": "to varnish"
+        },
+        "id_ref": "verb_lackieren"
+      },
+      {
+        "wort": "rosten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زنگ زدن",
+          "en": "to rust"
+        },
+        "id_ref": "verb_rosten"
+      },
+      {
+        "wort": "die Oberfläche",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سطح",
+          "en": "surface"
+        },
+        "id_ref": "nomen_oberflaeche"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
