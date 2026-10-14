@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausmisten",
+  "wort": "ausmisten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(طویله) پاک کردن",
+      "(خانه) خرت‌وپرت‌ها را دور ریختن"
+    ],
+    "en": [
+      "to muck out",
+      "to clear out"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Haushalt"
+  ],
+  "ipa": "ˈaʊ̯sˌmɪstn̩",
+  "anmerkung": "Trennbar (mistete aus, ausgemistet). Umgangssprachlich: «den Kleiderschrank ausmisten».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich miste den Schrank aus.",
+      "uebersetzung": {
+        "fa": "کمد را از وسایل اضافی خالی می‌کنم.",
+        "en": "I'm clearing out the wardrobe."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor wir umziehen, sollten wir den Keller ausmisten, damit wir nicht so viel mitnehmen müssen.",
+      "uebersetzung": {
+        "fa": "پیش از اسباب‌کشی باید زیرزمین را خالی کنیم تا مجبور نباشیم این‌قدر وسیله ببریم.",
+        "en": "Before we move, we should clear out the cellar so that we don't have to take so much with us."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufräumen",
+      "uebersetzung": {
+        "fa": "مرتب کردن",
+        "en": "to tidy up"
+      }
+    },
+    {
+      "wort": "entrümpeln",
+      "uebersetzung": {
+        "fa": "خرت‌وپرت را دور ریختن",
+        "en": "to declutter"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- + misten (از der Mist = کود حیوانی)",
+    "en": "aus- + misten (from der Mist = manure)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "ausmisten",
+      "praeteritum": "mistete aus",
+      "partizip2": "ausgemistet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "miste aus",
+        "du": "mistest aus",
+        "er_sie_es": "mistet aus",
+        "wir": "misten aus",
+        "ihr": "mistet aus",
+        "sie_Sie": "misten aus"
+      },
+      "praeteritum": {
+        "ich": "mistete aus",
+        "du": "mistetest aus",
+        "er_sie_es": "mistete aus",
+        "wir": "misteten aus",
+        "ihr": "mistetet aus",
+        "sie_Sie": "misteten aus"
+      },
+      "konjunktiv1": {
+        "ich": "miste aus",
+        "du": "mistest aus",
+        "er_sie_es": "miste aus",
+        "wir": "misten aus",
+        "ihr": "mistet aus",
+        "sie_Sie": "misten aus"
+      },
+      "konjunktiv2": {
+        "ich": "mistete aus",
+        "du": "mistetest aus",
+        "er_sie_es": "mistete aus",
+        "wir": "misteten aus",
+        "ihr": "mistetet aus",
+        "sie_Sie": "misteten aus"
+      },
+      "imperativ": {
+        "du": "Miste aus!",
+        "ihr": "Mistet aus!",
+        "Sie": "Misten Sie aus!"
+      }
+    },
+    "partizip1": "ausmistend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "der Mist",
+    "woerter": [
+      {
+        "wort": "aufräumen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مرتب کردن",
+          "en": "to tidy up"
+        },
+        "id_ref": "verb_aufraeumen"
+      },
+      {
+        "wort": "wegwerfen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دور ریختن",
+          "en": "to throw away"
+        },
+        "id_ref": "verb_wegwerfen"
+      },
+      {
+        "wort": "der Keller",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زیرزمین",
+          "en": "cellar"
+        },
+        "id_ref": "nomen_keller"
+      },
+      {
+        "wort": "der Mist",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کود؛ مزخرف",
+          "en": "manure; rubbish"
+        },
+        "id_ref": "nomen_mist"
+      },
+      {
+        "wort": "der Stall",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "طویله",
+          "en": "stable"
+        },
+        "id_ref": "nomen_stall"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

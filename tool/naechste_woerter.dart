@@ -1550,6 +1550,7 @@ const zurueckgestellt = <String>{
   'äugeln', // zurückgestellt (Regel 14/16): veraltet 2026-10-13
   'äugen', // zurückgestellt (Regel 14/16): Jägersprache/gehoben 2026-10-13
   'ausixen', // zurückgestellt (Regel 14/16): umgangssprachlich, Schreibung schwankt 2026-10-13
+  'ausmergeln', // zurückgestellt (Regel 14/16): fast nur im Partizip («ausgemergelt») 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

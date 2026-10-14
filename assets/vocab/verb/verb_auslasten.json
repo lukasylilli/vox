@@ -1,0 +1,167 @@
+{
+  "schema": "3.0",
+  "id": "verb_auslasten",
+  "wort": "auslasten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "با تمام ظرفیت به کار گرفتن",
+      "(کسی را) کاملاً مشغول کردن"
+    ],
+    "en": [
+      "to use to capacity",
+      "to keep fully occupied"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Wirtschaft"
+  ],
+  "ipa": "ˈaʊ̯sˌlastn̩",
+  "anmerkung": "Trennbar (lastete aus, ausgelastet). Partizip «ausgelastet» oft adjektivisch.",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Hotel ist ausgelastet.",
+      "uebersetzung": {
+        "fa": "هتل پر است.",
+        "en": "The hotel is fully booked."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Station ist im Winter so stark ausgelastet, dass manche Patienten auf dem Flur liegen müssen.",
+      "uebersetzung": {
+        "fa": "بخش در زمستان آن‌قدر پر است که بعضی بیماران باید در راهرو بستری شوند.",
+        "en": "In winter the ward is so overloaded that some patients have to lie in the corridor."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausnutzen",
+      "uebersetzung": {
+        "fa": "استفاده‌ی کامل کردن",
+        "en": "to make full use of"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- + lasten (از die Last = بار)",
+    "en": "aus- + lasten (from die Last = load)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "auslasten",
+      "praeteritum": "lastete aus",
+      "partizip2": "ausgelastet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laste aus",
+        "du": "lastest aus",
+        "er_sie_es": "lastet aus",
+        "wir": "lasten aus",
+        "ihr": "lastet aus",
+        "sie_Sie": "lasten aus"
+      },
+      "praeteritum": {
+        "ich": "lastete aus",
+        "du": "lastetest aus",
+        "er_sie_es": "lastete aus",
+        "wir": "lasteten aus",
+        "ihr": "lastetet aus",
+        "sie_Sie": "lasteten aus"
+      },
+      "konjunktiv1": {
+        "ich": "laste aus",
+        "du": "lastest aus",
+        "er_sie_es": "laste aus",
+        "wir": "lasten aus",
+        "ihr": "lastet aus",
+        "sie_Sie": "lasten aus"
+      },
+      "konjunktiv2": {
+        "ich": "lastete aus",
+        "du": "lastetest aus",
+        "er_sie_es": "lastete aus",
+        "wir": "lasteten aus",
+        "ihr": "lastetet aus",
+        "sie_Sie": "lasteten aus"
+      },
+      "imperativ": {
+        "du": "Laste aus!",
+        "ihr": "Lastet aus!",
+        "Sie": "Lasten Sie aus!"
+      }
+    },
+    "partizip1": "auslastend",
+    "nominalisierung": "die Auslastung"
+  },
+  "wortnetz": {
+    "grundwort": "die Last",
+    "woerter": [
+      {
+        "wort": "die Kapazität",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ظرفیت",
+          "en": "capacity"
+        },
+        "id_ref": "nomen_kapazitaet"
+      },
+      {
+        "wort": "voll",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پر",
+          "en": "full"
+        },
+        "id_ref": "adjektiv_voll"
+      },
+      {
+        "wort": "die Auslastung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "میزان اشغال ظرفیت",
+          "en": "utilisation"
+        },
+        "id_ref": "nomen_auslastung"
+      },
+      {
+        "wort": "überlastet",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بیش از حد پر",
+          "en": "overloaded"
+        },
+        "id_ref": "adjektiv_ueberlastet"
+      },
+      {
+        "wort": "beschäftigt",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مشغول",
+          "en": "busy"
+        },
+        "id_ref": "adjektiv_beschaeftigt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

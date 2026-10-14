@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausrenken",
+  "wort": "ausrenken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(مفصل را) دررفتن، جابه‌جا شدن"
+    ],
+    "en": [
+      "to dislocate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Körper"
+  ],
+  "ipa": "ˈaʊ̯sˌʁɛŋkn̩",
+  "anmerkung": "Trennbar (renkte aus, ausgerenkt). Meist mit Dativ: «sich die Schulter ausrenken».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er hat sich die Schulter ausgerenkt.",
+      "uebersetzung": {
+        "fa": "شانه‌اش دررفته است.",
+        "en": "He has dislocated his shoulder."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Beim Sturz hat sie sich den Finger ausgerenkt, aber der Arzt konnte ihn sofort wieder einrenken.",
+      "uebersetzung": {
+        "fa": "موقع زمین خوردن انگشتش دررفت، ولی پزشک توانست فوراً جا بیندازد.",
+        "en": "When she fell, she dislocated her finger, but the doctor was able to put it back immediately."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "auskugeln",
+      "uebersetzung": {
+        "fa": "دررفتن (مفصل)",
+        "en": "to dislocate"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "einrenken",
+      "uebersetzung": {
+        "fa": "جا انداختن",
+        "en": "to set"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- + renken (پیچاندن)",
+    "en": "aus- + renken (to twist)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "sich (Dat) etwas (Akk) ausrenken",
+        "bedeutung": "sich ein Gelenk verletzen",
+        "beispiel": "Sie hat sich das Knie ausgerenkt.",
+        "uebersetzung": {
+          "fa": "زانویش دررفت.",
+          "en": "She dislocated her knee."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausrenken",
+      "praeteritum": "renkte aus",
+      "partizip2": "ausgerenkt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "renke aus",
+        "du": "renkst aus",
+        "er_sie_es": "renkt aus",
+        "wir": "renken aus",
+        "ihr": "renkt aus",
+        "sie_Sie": "renken aus"
+      },
+      "praeteritum": {
+        "ich": "renkte aus",
+        "du": "renktest aus",
+        "er_sie_es": "renkte aus",
+        "wir": "renkten aus",
+        "ihr": "renktet aus",
+        "sie_Sie": "renkten aus"
+      },
+      "konjunktiv1": {
+        "ich": "renke aus",
+        "du": "renkest aus",
+        "er_sie_es": "renke aus",
+        "wir": "renken aus",
+        "ihr": "renket aus",
+        "sie_Sie": "renken aus"
+      },
+      "konjunktiv2": {
+        "ich": "renkte aus",
+        "du": "renktest aus",
+        "er_sie_es": "renkte aus",
+        "wir": "renkten aus",
+        "ihr": "renktet aus",
+        "sie_Sie": "renkten aus"
+      },
+      "imperativ": {
+        "du": "Renke aus!",
+        "ihr": "Renkt aus!",
+        "Sie": "Renken Sie aus!"
+      }
+    },
+    "partizip1": "ausrenkend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Gelenk",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مفصل",
+          "en": "joint"
+        },
+        "id_ref": "nomen_gelenk"
+      },
+      {
+        "wort": "die Schulter",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شانه",
+          "en": "shoulder"
+        },
+        "id_ref": "nomen_schulter"
+      },
+      {
+        "wort": "einrenken",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "جا انداختن",
+          "en": "to set"
+        },
+        "id_ref": "verb_einrenken"
+      },
+      {
+        "wort": "verletzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آسیب زدن",
+          "en": "to injure"
+        },
+        "id_ref": "verb_verletzen"
+      },
+      {
+        "wort": "der Unfall",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حادثه",
+          "en": "accident"
+        },
+        "id_ref": "nomen_unfall"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

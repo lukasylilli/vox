@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_aeussern",
+  "wort": "äußern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بیان کردن، ابراز کردن",
+      "اظهار نظر کردن"
+    ],
+    "en": [
+      "to express",
+      "to comment"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "ˈɔɪ̯sɐn",
+  "anmerkung": "Regelmäßig (äußerte, geäußert). Reflexiv: «sich zu + Dat äußern» (= Stellung nehmen).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er äußert seine Meinung.",
+      "uebersetzung": {
+        "fa": "او نظرش را بیان می‌کند.",
+        "en": "He expresses his opinion."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Minister wollte sich zu den Vorwürfen nicht äußern, bevor die Untersuchung beendet ist.",
+      "uebersetzung": {
+        "fa": "وزیر نخواست پیش از پایان تحقیقات درباره‌ی اتهام‌ها اظهار نظر کند.",
+        "en": "The minister didn't want to comment on the accusations before the investigation is complete."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausdrücken",
+      "uebersetzung": {
+        "fa": "بیان کردن",
+        "en": "to express"
+      }
+    },
+    {
+      "wort": "sagen",
+      "uebersetzung": {
+        "fa": "گفتن",
+        "en": "to say"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verschweigen",
+      "uebersetzung": {
+        "fa": "پنهان کردن",
+        "en": "to keep quiet"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از außen (بیرون) — «بیرون آوردن» فکر",
+    "en": "from außen (outside) — bringing thoughts out"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich zu + Dat äußern",
+        "bedeutung": "zu etwas Stellung nehmen",
+        "beispiel": "Sie äußerte sich zu dem Thema.",
+        "uebersetzung": {
+          "fa": "او درباره‌ی این موضوع اظهار نظر کرد.",
+          "en": "She commented on the topic."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "äußern",
+      "praeteritum": "äußerte",
+      "partizip2": "geäußert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "äußere",
+        "du": "äußerst",
+        "er_sie_es": "äußert",
+        "wir": "äußern",
+        "ihr": "äußert",
+        "sie_Sie": "äußern"
+      },
+      "praeteritum": {
+        "ich": "äußerte",
+        "du": "äußertest",
+        "er_sie_es": "äußerte",
+        "wir": "äußerten",
+        "ihr": "äußertet",
+        "sie_Sie": "äußerten"
+      },
+      "konjunktiv1": {
+        "ich": "äußere",
+        "du": "äußerest",
+        "er_sie_es": "äußere",
+        "wir": "äußern",
+        "ihr": "äußeret",
+        "sie_Sie": "äußern"
+      },
+      "konjunktiv2": {
+        "ich": "äußerte",
+        "du": "äußertest",
+        "er_sie_es": "äußerte",
+        "wir": "äußerten",
+        "ihr": "äußertet",
+        "sie_Sie": "äußerten"
+      },
+      "imperativ": {
+        "du": "Äußere!",
+        "ihr": "Äußert!",
+        "Sie": "Äußern Sie!"
+      }
+    },
+    "partizip1": "äußernd",
+    "nominalisierung": "die Äußerung"
+  },
+  "wortnetz": {
+    "grundwort": "außen",
+    "woerter": [
+      {
+        "wort": "die Äußerung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اظهار، گفته",
+          "en": "statement"
+        },
+        "id_ref": "nomen_aeusserung"
+      },
+      {
+        "wort": "die Meinung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نظر",
+          "en": "opinion"
+        },
+        "id_ref": "nomen_meinung"
+      },
+      {
+        "wort": "ausdrücken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیان کردن",
+          "en": "to express"
+        },
+        "id_ref": "verb_ausdruecken"
+      },
+      {
+        "wort": "die Kritik",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انتقاد",
+          "en": "criticism"
+        },
+        "id_ref": "nomen_kritik"
+      },
+      {
+        "wort": "außen",
+        "wortart": "adverb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیرون",
+          "en": "outside"
+        },
+        "id_ref": "adverb_aussen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

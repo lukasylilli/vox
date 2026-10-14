@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_aussoehnen",
+  "wort": "aussöhnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آشتی دادن",
+      "آشتی کردن"
+    ],
+    "en": [
+      "to reconcile",
+      "to make up"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Beziehungen"
+  ],
+  "ipa": "ˈaʊ̯sˌzøːnən",
+  "anmerkung": "Trennbar (söhnte aus, ausgesöhnt); meist reflexiv: «sich mit + Dat aussöhnen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Brüder söhnen sich aus.",
+      "uebersetzung": {
+        "fa": "برادرها آشتی می‌کنند.",
+        "en": "The brothers make up."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Kurz vor ihrem Tod hat sie sich mit ihrer Tochter ausgesöhnt, mit der sie jahrelang nicht gesprochen hatte.",
+      "uebersetzung": {
+        "fa": "کمی پیش از مرگش با دخترش آشتی کرد، که سال‌ها با او حرف نزده بود.",
+        "en": "Shortly before her death she was reconciled with her daughter, to whom she hadn't spoken for years."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich versöhnen",
+      "uebersetzung": {
+        "fa": "آشتی کردن",
+        "en": "to make up"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sich zerstreiten",
+      "uebersetzung": {
+        "fa": "قهر کردن",
+        "en": "to fall out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- + söhnen (از die Sühne = کفاره، جبران)",
+    "en": "aus- + söhnen (from die Sühne = atonement)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich mit + Dat aussöhnen",
+        "bedeutung": "mit jemandem Frieden schließen",
+        "beispiel": "Er hat sich mit seinem Vater ausgesöhnt.",
+        "uebersetzung": {
+          "fa": "او با پدرش آشتی کرد.",
+          "en": "He was reconciled with his father."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "aussöhnen",
+      "praeteritum": "söhnte aus",
+      "partizip2": "ausgesöhnt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "söhne aus",
+        "du": "söhnst aus",
+        "er_sie_es": "söhnt aus",
+        "wir": "söhnen aus",
+        "ihr": "söhnt aus",
+        "sie_Sie": "söhnen aus"
+      },
+      "praeteritum": {
+        "ich": "söhnte aus",
+        "du": "söhntest aus",
+        "er_sie_es": "söhnte aus",
+        "wir": "söhnten aus",
+        "ihr": "söhntet aus",
+        "sie_Sie": "söhnten aus"
+      },
+      "konjunktiv1": {
+        "ich": "söhne aus",
+        "du": "söhnest aus",
+        "er_sie_es": "söhne aus",
+        "wir": "söhnen aus",
+        "ihr": "söhnet aus",
+        "sie_Sie": "söhnen aus"
+      },
+      "konjunktiv2": {
+        "ich": "söhnte aus",
+        "du": "söhntest aus",
+        "er_sie_es": "söhnte aus",
+        "wir": "söhnten aus",
+        "ihr": "söhntet aus",
+        "sie_Sie": "söhnten aus"
+      },
+      "imperativ": {
+        "du": "Söhne aus!",
+        "ihr": "Söhnt aus!",
+        "Sie": "Söhnen Sie aus!"
+      }
+    },
+    "partizip1": "aussöhnend",
+    "nominalisierung": "die Aussöhnung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "sich versöhnen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آشتی کردن",
+          "en": "to make up"
+        },
+        "id_ref": "verb_sich_versoehnen"
+      },
+      {
+        "wort": "der Streit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دعوا",
+          "en": "argument"
+        },
+        "id_ref": "nomen_streit"
+      },
+      {
+        "wort": "verzeihen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بخشیدن",
+          "en": "to forgive"
+        },
+        "id_ref": "verb_verzeihen"
+      },
+      {
+        "wort": "der Frieden",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صلح",
+          "en": "peace"
+        },
+        "id_ref": "nomen_frieden"
+      },
+      {
+        "wort": "die Versöhnung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آشتی",
+          "en": "reconciliation"
+        },
+        "id_ref": "nomen_versoehnung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

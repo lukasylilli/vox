@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausloggen",
+  "wort": "ausloggen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "از حساب خارج شدن (خروج)"
+    ],
+    "en": [
+      "to log out"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Technik"
+  ],
+  "ipa": "ˈaʊ̯sˌlɔɡn̩",
+  "anmerkung": "Trennbar (loggte aus, ausgeloggt); meist reflexiv: «sich ausloggen».",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Vergiss nicht, dich auszuloggen!",
+      "uebersetzung": {
+        "fa": "فراموش نکن از حسابت خارج شوی!",
+        "en": "Don't forget to log out!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn du einen fremden Computer benutzt, musst du dich danach immer ausloggen.",
+      "uebersetzung": {
+        "fa": "وقتی از رایانه‌ی دیگری استفاده می‌کنی، باید همیشه بعدش از حساب خارج شوی.",
+        "en": "When you use someone else's computer, you always have to log out afterwards."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abmelden",
+      "uebersetzung": {
+        "fa": "خارج شدن (از حساب)",
+        "en": "to sign out"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "einloggen",
+      "uebersetzung": {
+        "fa": "وارد حساب شدن",
+        "en": "to log in"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- + loggen (از انگلیسی to log)",
+    "en": "aus- + loggen (from English to log)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "ausloggen",
+      "praeteritum": "loggte aus",
+      "partizip2": "ausgeloggt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "logge aus",
+        "du": "loggst aus",
+        "er_sie_es": "loggt aus",
+        "wir": "loggen aus",
+        "ihr": "loggt aus",
+        "sie_Sie": "loggen aus"
+      },
+      "praeteritum": {
+        "ich": "loggte aus",
+        "du": "loggtest aus",
+        "er_sie_es": "loggte aus",
+        "wir": "loggten aus",
+        "ihr": "loggtet aus",
+        "sie_Sie": "loggten aus"
+      },
+      "konjunktiv1": {
+        "ich": "logge aus",
+        "du": "loggest aus",
+        "er_sie_es": "logge aus",
+        "wir": "loggen aus",
+        "ihr": "logget aus",
+        "sie_Sie": "loggen aus"
+      },
+      "konjunktiv2": {
+        "ich": "loggte aus",
+        "du": "loggtest aus",
+        "er_sie_es": "loggte aus",
+        "wir": "loggten aus",
+        "ihr": "loggtet aus",
+        "sie_Sie": "loggten aus"
+      },
+      "imperativ": {
+        "du": "Logge aus!",
+        "ihr": "Loggt aus!",
+        "Sie": "Loggen Sie aus!"
+      }
+    },
+    "partizip1": "ausloggend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "einloggen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وارد حساب شدن",
+          "en": "to log in"
+        },
+        "id_ref": "verb_einloggen"
+      },
+      {
+        "wort": "das Konto",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حساب",
+          "en": "account"
+        },
+        "id_ref": "nomen_konto"
+      },
+      {
+        "wort": "das Passwort",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رمز عبور",
+          "en": "password"
+        },
+        "id_ref": "nomen_passwort"
+      },
+      {
+        "wort": "abmelden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خارج شدن",
+          "en": "to sign out"
+        },
+        "id_ref": "verb_abmelden"
+      },
+      {
+        "wort": "der Computer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رایانه",
+          "en": "computer"
+        },
+        "id_ref": "nomen_computer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

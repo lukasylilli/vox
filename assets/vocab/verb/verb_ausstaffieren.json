@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_ausstaffieren",
+  "wort": "ausstaffieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با وسیله، لباس) آراستن، تجهیز کردن"
+    ],
+    "en": [
+      "to fit out",
+      "to rig out"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag",
+    "Mode"
+  ],
+  "ipa": "ˈaʊ̯sʃtaˌfiːʁən",
+  "anmerkung": "Trennbar (staffierte aus, ausstaffiert) — Partizip II ohne ge- (-ieren).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir staffieren das Zimmer aus.",
+      "uebersetzung": {
+        "fa": "اتاق را تجهیز می‌کنیم.",
+        "en": "We are fitting out the room."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Für die Expedition wurden alle Teilnehmer mit warmer Kleidung und Zelten ausstaffiert.",
+      "uebersetzung": {
+        "fa": "برای سفر اکتشافی، همه‌ی شرکت‌کنندگان با لباس گرم و چادر مجهز شدند.",
+        "en": "For the expedition all participants were fitted out with warm clothing and tents."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausstatten",
+      "uebersetzung": {
+        "fa": "تجهیز کردن",
+        "en": "to equip"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- + staffieren (از فرانسوی کهن estoffer = آراستن)",
+    "en": "aus- + staffieren (from Old French estoffer = to furnish)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden mit + Dat ausstaffieren",
+        "bedeutung": "jemanden mit etwas versehen",
+        "beispiel": "Sie staffierte die Kinder mit Kostümen aus.",
+        "uebersetzung": {
+          "fa": "او بچه‌ها را با لباس‌های مبدل آراست.",
+          "en": "She rigged the children out in costumes."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ausstaffieren",
+      "praeteritum": "staffierte aus",
+      "partizip2": "ausstaffiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "staffiere aus",
+        "du": "staffierst aus",
+        "er_sie_es": "staffiert aus",
+        "wir": "staffieren aus",
+        "ihr": "staffiert aus",
+        "sie_Sie": "staffieren aus"
+      },
+      "praeteritum": {
+        "ich": "staffierte aus",
+        "du": "staffiertest aus",
+        "er_sie_es": "staffierte aus",
+        "wir": "staffierten aus",
+        "ihr": "staffiertet aus",
+        "sie_Sie": "staffierten aus"
+      },
+      "konjunktiv1": {
+        "ich": "staffiere aus",
+        "du": "staffierest aus",
+        "er_sie_es": "staffiere aus",
+        "wir": "staffieren aus",
+        "ihr": "staffieret aus",
+        "sie_Sie": "staffieren aus"
+      },
+      "konjunktiv2": {
+        "ich": "staffierte aus",
+        "du": "staffiertest aus",
+        "er_sie_es": "staffierte aus",
+        "wir": "staffierten aus",
+        "ihr": "staffiertet aus",
+        "sie_Sie": "staffierten aus"
+      },
+      "imperativ": {
+        "du": "Staffiere aus!",
+        "ihr": "Staffiert aus!",
+        "Sie": "Staffieren Sie aus!"
+      }
+    },
+    "partizip1": "ausstaffierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "ausstatten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تجهیز کردن",
+          "en": "to equip"
+        },
+        "id_ref": "verb_ausstatten"
+      },
+      {
+        "wort": "die Ausrüstung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تجهیزات",
+          "en": "equipment"
+        },
+        "id_ref": "nomen_ausruestung"
+      },
+      {
+        "wort": "die Kleidung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "لباس",
+          "en": "clothing"
+        },
+        "id_ref": "nomen_kleidung"
+      },
+      {
+        "wort": "einrichten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چیدن (اثاث)",
+          "en": "to furnish"
+        },
+        "id_ref": "verb_einrichten"
+      },
+      {
+        "wort": "das Kostüm",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لباس مبدل",
+          "en": "costume"
+        },
+        "id_ref": "nomen_kostuem"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

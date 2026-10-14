@@ -2862,6 +2862,7 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۴۹۷ | äugeln | `Verben_regelmaesig.txt` | 2026-10-13 | قدیمی — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۹۸ | äugen | `Verben_regelmaesig.txt` | 2026-10-13 | اصطلاح شکارچیان — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۹۹ | ausixen | `Verben_regelmaesig.txt` | 2026-10-13 | محاوره‌ای، املا نوسان‌دار — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۵۰۰ | ausmergeln | `Verben_regelmaesig.txt` | 2026-10-13 | تقریباً فقط به شکل صفت (ausgemergelt) — قاعده‌ی ۱۴/۱۶ | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 
