@@ -4,6 +4,7 @@
 //          Reines Dart (kein Flutter-Import!), sonst kann das CLI-Tool es nicht laden.
 //          Aufgaben: ID-Regel 5 · Batch-Parsen (Array 1–10, tolerant gegen
 //          Code-Fences) · Validierung + Normalisierung mit Fehler/Warnung-Report.
+//          Einordnung (Regel 17, فاز F.5): berufe/anstoessig/zeitlich/ersatz.
 //          Prinzip: fatale Fehler → Karte wird NIE geschrieben; Reparierbares
 //          (falsche id, gespeichertes Perfekt, box≠1) wird normalisiert + gewarnt.
 import 'dart:convert';
@@ -16,6 +17,32 @@ const vokabWortarten = {
   'numerale', 'praeposition', 'konjunktion', 'adverb', 'partikel',
 };
 const vokabNiveaus = {'A1', 'A2', 'B1', 'B2', 'C1', 'C2'};
+
+// ── Einordnung (فاز F.5, Lukas 2026-10-14) — Filter «Berufe»,
+//    «Respektlos», «Veraltet» in «Alle Wörter». Prompt-Regel 17.
+//    Nur linguistische Angaben; Symbole/Farben der Filter rechnet die App.
+//    Unbekannte Werte sind FATAL (ein falsches Etikett ist schlimmer als
+//    keins). Fehlt ein Feld ganz, ist das erlaubt (ältere Karten bekommen es
+//    in F.7 nachgetragen) — dann steht die Karte einfach in keinem Filter.
+
+/// Berufsfelder (feste Reihenfolge = Reihenfolge im Filter).
+const vokabBerufe = [
+  'pflege_medizin', // پزشکی و پرستاری
+  'it', // IT
+  'technik', // برق، مکانیک و تأسیسات
+  'bau', // ساختمان
+  'gastro_hotel', // رستوران و هتل
+  'logistik', // حمل‌ونقل و انبار
+  'kinder_bildung', // مهدکودک و آموزش
+  'reinigung', // نظافت
+  'buero', // اداری
+];
+
+/// Stufen von «anstoessig» (Filter «بی‌احترامی»).
+const vokabAnstoessigStufen = ['vulgaer', 'abwertend', 'diskriminierend'];
+
+/// Werte von «zeitlich» (Filter «منسوخ»).
+const vokabZeitlichWerte = ['veraltend', 'veraltet'];
 
 /// Wortarten, bei denen wortnetz = null / < 5 Einträge erlaubt ist (Regel 13).
 const _wortnetzOptional = {'artikel', 'pronomen', 'partikel'};
@@ -117,6 +144,7 @@ VokabPruefung vokabPruefeKarte(Map<String, dynamic> roh) {
   if (details is! Map) {
     fehler.add('[$label] "details" fehlt oder ist kein Objekt');
   }
+  _pruefeEinordnung(karte, label, fehler, warnungen);
   if (fehler.isNotEmpty) return VokabPruefung(null, fehler, warnungen);
   wortart as String;
   wort as String;
@@ -249,6 +277,92 @@ VokabPruefung vokabPruefeKarte(Map<String, dynamic> roh) {
   }
 
   return VokabPruefung(karte, fehler, warnungen);
+}
+
+/// Regel 17 (فاز F.5): berufe · anstoessig · zeitlich · ersatz.
+/// Fehlt ein Feld ⇒ nichts. Unbekannter Wert ⇒ Fehler (fatal).
+/// Normalisiert: doppelte Berufe weg (Reihenfolge wie [vokabBerufe]),
+/// ersatz.id_ref nach ID-Regel 5.
+void _pruefeEinordnung(Map<String, dynamic> karte, String label,
+    List<String> fehler, List<String> warnungen) {
+  if (karte.containsKey('berufe')) {
+    final b = karte['berufe'];
+    if (b is! List) {
+      fehler.add('[$label] "berufe" muss eine Liste sein');
+    } else {
+      final unbekannt =
+          b.where((x) => x is! String || !vokabBerufe.contains(x)).toList();
+      if (unbekannt.isNotEmpty) {
+        fehler.add('[$label] "berufe" unbekannt: $unbekannt '
+            '(erlaubt: ${vokabBerufe.join(', ')})');
+      } else {
+        final sauber = [
+          for (final x in vokabBerufe)
+            if (b.contains(x)) x,
+        ];
+        if (sauber.length != b.length || !_gleich(sauber, b)) {
+          warnungen.add('[$label] berufe sortiert/entdoppelt: $sauber');
+          karte['berufe'] = sauber;
+        }
+      }
+    }
+  }
+
+  final a = karte['anstoessig'];
+  if (a != null) {
+    if (a is! Map || !vokabAnstoessigStufen.contains(a['stufe'])) {
+      fehler.add('[$label] "anstoessig" ungültig — null oder '
+          '{stufe: ${vokabAnstoessigStufen.join('|')}, erklaerung: {fa, en}}');
+    } else {
+      final e = a['erklaerung'];
+      if (e is! Map ||
+          e['fa'] is! String ||
+          (e['fa'] as String).trim().isEmpty ||
+          e['en'] is! String ||
+          (e['en'] as String).trim().isEmpty) {
+        warnungen.add('[$label] anstoessig.erklaerung braucht fa + en '
+            '(warum anstößig, was stattdessen)');
+      }
+    }
+  }
+
+  final z = karte['zeitlich'];
+  if (z != null && !vokabZeitlichWerte.contains(z)) {
+    fehler.add('[$label] "zeitlich" ungültig: $z '
+        '(null | ${vokabZeitlichWerte.join(' | ')})');
+  }
+
+  final ersatz = karte['ersatz'];
+  if (ersatz != null) {
+    if (ersatz is! Map ||
+        ersatz['wort'] is! String ||
+        (ersatz['wort'] as String).trim().isEmpty ||
+        !vokabWortarten.contains(ersatz['wortart'])) {
+      fehler.add('[$label] "ersatz" ungültig — null oder '
+          '{wort, wortart, uebersetzung: {fa, en}, id_ref}');
+    } else {
+      final ref = vokabId(ersatz['wortart'] as String, ersatz['wort'] as String);
+      if (ersatz['id_ref'] != ref) {
+        warnungen.add(
+            '[$label] ersatz.id_ref "${ersatz['id_ref']}" → "$ref"');
+        ersatz['id_ref'] = ref;
+      }
+      if (a == null && z == null) {
+        warnungen.add('[$label] ersatz ohne anstoessig/zeitlich — wozu?');
+      }
+    }
+  } else if (z == 'veraltet') {
+    warnungen.add('[$label] zeitlich = veraltet, aber kein ersatz '
+        '(heutiges Wort fehlt)');
+  }
+}
+
+bool _gleich(List<Object?> a, List<Object?> b) {
+  if (a.length != b.length) return false;
+  for (var i = 0; i < a.length; i++) {
+    if (a[i] != b[i]) return false;
+  }
+  return true;
 }
 
 /// Stamm fürs Zielwort-im-Satz-Matching: Artikel weg, bei Verben

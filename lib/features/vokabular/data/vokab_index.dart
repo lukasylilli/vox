@@ -25,7 +25,7 @@ import 'vokab_schema.dart' show vokabWortarten;
 
 /// Erhöhen, sobald sich die Form des Index ändert. Die App liest nur genau
 /// diese Fassung — Index und App entstehen im selben Bau, passen also immer.
-const int vokabIndexVersion = 1;
+const int vokabIndexVersion = 2; // 2: Einordnung (F.5)
 
 /// Asset-Pfad des Index (in pubspec.yaml eingetragen, in .gitignore ausgenommen).
 const String vokabIndexPfad = 'assets/vocab_index.json';
@@ -77,6 +77,14 @@ Map<String, dynamic> vokabIndexEintrag(Map<String, dynamic> karte) {
       for (final feld in vokabIndexDetailFelder)
         if (details[feld] != null) feld: details[feld],
     },
+    // Einordnung (فاز F.5) — für die Filter Berufe/Respektlos/Veraltet;
+    // nur wenn gesetzt, damit der Index klein bleibt. «anstoessig» nur mit
+    // der Stufe (die Erklärung zeigt die Wort-Seite aus der vollen Karte).
+    if ((karte['berufe'] as List?)?.isNotEmpty ?? false)
+      'berufe': karte['berufe'],
+    if (karte['anstoessig'] is Map)
+      'anstoessig': {'stufe': (karte['anstoessig'] as Map)['stufe']},
+    if (karte['zeitlich'] != null) 'zeitlich': karte['zeitlich'],
   };
 }
 

@@ -82,6 +82,41 @@ TEIL 0 — GLOBALE REGELN
     · "trennbar", "regelmaessig", "modalverb": nur sicher (Duden) —
       sie bestimmen das Symbol der Karte (Grammatikon). Gemischte Verben
       (bringen, denken, kennen) ⇒ "regelmaessig": false.
+17. EINORDNUNG (Entscheidung Lukas, 2026-10-14) — die App filtert damit
+    in «Alle Wörter» nach Beruf, Respektlosigkeit und Veraltung. NUR
+    sichere Angaben (Duden-Markierungen als Maßstab): lieber [] / null
+    als ein falsches Etikett. Keine Symbole/Farben — nur diese Werte.
+    · "berufe": Berufsfelder, in deren ARBEITSALLTAG man dieses Wort
+      braucht und lernen sollte — auch ein Alltagswort, wenn es dort
+      wichtig ist (z. B. der Waschlappen ⇒ pflege_medizin; beatmen,
+      die Beatmung, das Gebiss ⇒ pflege_medizin). Mehrere möglich.
+      Nur diese Werte, in dieser Reihenfolge:
+        pflege_medizin  (Medizin, Pflege, Krankenhaus, Altenpflege)
+        it              (Informatik, Programmierung, Netzwerk)
+        technik         (Elektro, Mechanik, Kfz, Sanitär/Heizung)
+        bau             (Baustelle, Handwerk am Bau)
+        gastro_hotel    (Küche, Service, Hotel)
+        logistik        (Transport, Lager, Lieferung)
+        kinder_bildung  (Kita, Schule, Erziehung)
+        reinigung       (Gebäude- und Haushaltsreinigung)
+        buero           (Büro, Verwaltung, Kundenkontakt)
+      Kein klarer Berufsbezug ⇒ [] (das ist der Normalfall).
+    · "anstoessig": null, ODER wenn das Wort beleidigt/verletzt:
+        { "stufe": "<vulgaer | abwertend | diskriminierend>",
+          "erklaerung": { "fa": "<...>", "en": "<...>" } }
+      vulgaer = derb/obszön (Schimpfwort); abwertend = herabsetzend
+      gegenüber Personen; diskriminierend = rassistisch, sexistisch o. ä.
+      gegen eine Gruppe. "erklaerung": 1–2 kurze Sätze — WIE verletzend
+      das Wort für Deutschsprachige ist (Lernende spüren das oft nicht)
+      und was man stattdessen sagt.
+    · "zeitlich": null | "veraltend" | "veraltet" (Duden-Markierung;
+      veraltend = wird seltener, ältere Leute nutzen es noch).
+    · "ersatz": das heutige bzw. respektvolle Wort — PFLICHT bei
+      "zeitlich": "veraltet" und bei "anstoessig" ≠ null, sofern es eines
+      gibt; sonst null:
+        { "wort": "<mit Artikel bei Nomen>", "wortart": "<...>",
+          "uebersetzung": { "fa": "<...>", "en": "<...>" },
+          "id_ref": "<wortart_lemma — ID-Regel 5>" }
 
 ========================================================================
 TEIL 1 — BASISOBJEKT (Feldreihenfolge beibehalten)
@@ -96,6 +131,10 @@ TEIL 1 — BASISOBJEKT (Feldreihenfolge beibehalten)
   "themen": ["<Thema, z. B. Alltag, Arbeit, Gefühle>"],
   "ipa": "<IPA-Transkription>",
   "anmerkung": "<Hinweis, NUR deutsch — keine FA/EN-Glossen | null>",
+  "berufe": ["<Regel 17: pflege_medizin | it | technik | bau | gastro_hotel | logistik | kinder_bildung | reinigung | buero — meist []>"],
+  "anstoessig": <Regel 17: null | { "stufe": "<vulgaer | abwertend | diskriminierend>", "erklaerung": { "fa": "<...>", "en": "<...>" } }>,
+  "zeitlich": "<Regel 17: veraltend | veraltet> | null",
+  "ersatz": <Regel 17: null | { "wort": "<...>", "wortart": "<...>", "uebersetzung": { "fa": "<...>", "en": "<...>" }, "id_ref": "<wortart_lemma>" }>,
   "beispiele": [
     { "niveau": "<A1|A2>", "satz": "<...>", "uebersetzung": { "fa": "<...>", "en": "<...>" } },
     { "niveau": "<B1|B2>", "satz": "<...>", "uebersetzung": { "fa": "<...>", "en": "<...>" } }
