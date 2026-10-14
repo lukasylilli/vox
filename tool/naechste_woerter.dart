@@ -1500,6 +1500,9 @@ const zurueckgestellt = <String>{
   'addizieren', // zurückgestellt (Regel 14/16): selten/fachsprachlich 2026-10-13
   'affirmieren', // zurückgestellt (Regel 14/16): gehoben/selten 2026-10-13
   'affizieren', // zurückgestellt (Regel 14/16): selten/fachsprachlich 2026-10-13
+  'algorithmisieren', // zurückgestellt (Regel 14/16): fachsprachlich, selten 2026-10-13
+  'alimentieren', // zurückgestellt (Regel 14/16): gehoben/selten 2026-10-13
+  'allozieren', // zurückgestellt (Regel 14/16): fachsprachlich, selten 2026-10-13
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_alarmieren",
+  "wort": "alarmieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خبر کردن (پلیس، آتش‌نشانی)",
+      "نگران کردن"
+    ],
+    "en": [
+      "to call (emergency services)",
+      "to alarm"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Notfall"
+  ],
+  "ipa": "alaʁˈmiːʁən",
+  "anmerkung": "Regelmäßig (alarmierte, alarmiert). Partizip «alarmierend» auch Adjektiv (= sehr besorgniserregend).",
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie alarmiert die Feuerwehr.",
+      "uebersetzung": {
+        "fa": "او آتش‌نشانی را خبر می‌کند.",
+        "en": "She calls the fire brigade."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Als die Nachbarn Rauch sahen, haben sie sofort die Polizei alarmiert.",
+      "uebersetzung": {
+        "fa": "وقتی همسایه‌ها دود دیدند، فوراً پلیس را خبر کردند.",
+        "en": "When the neighbours saw smoke, they immediately alerted the police."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verständigen",
+      "uebersetzung": {
+        "fa": "اطلاع دادن",
+        "en": "to notify"
+      }
+    },
+    {
+      "wort": "benachrichtigen",
+      "uebersetzung": {
+        "fa": "خبر دادن",
+        "en": "to inform"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "beruhigen",
+      "uebersetzung": {
+        "fa": "آرام کردن",
+        "en": "to calm"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از der Alarm (هشدار) + -ieren",
+    "en": "from der Alarm (alarm) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "alarmieren",
+      "praeteritum": "alarmierte",
+      "partizip2": "alarmiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "alarmiere",
+        "du": "alarmierst",
+        "er_sie_es": "alarmiert",
+        "wir": "alarmieren",
+        "ihr": "alarmiert",
+        "sie_Sie": "alarmieren"
+      },
+      "praeteritum": {
+        "ich": "alarmierte",
+        "du": "alarmiertest",
+        "er_sie_es": "alarmierte",
+        "wir": "alarmierten",
+        "ihr": "alarmiertet",
+        "sie_Sie": "alarmierten"
+      },
+      "konjunktiv1": {
+        "ich": "alarmiere",
+        "du": "alarmierest",
+        "er_sie_es": "alarmiere",
+        "wir": "alarmieren",
+        "ihr": "alarmieret",
+        "sie_Sie": "alarmieren"
+      },
+      "konjunktiv2": {
+        "ich": "alarmierte",
+        "du": "alarmiertest",
+        "er_sie_es": "alarmierte",
+        "wir": "alarmierten",
+        "ihr": "alarmiertet",
+        "sie_Sie": "alarmierten"
+      },
+      "imperativ": {
+        "du": "Alarmiere!",
+        "ihr": "Alarmiert!",
+        "Sie": "Alarmieren Sie!"
+      }
+    },
+    "partizip1": "alarmierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "der Alarm",
+    "woerter": [
+      {
+        "wort": "der Alarm",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "هشدار، آژیر",
+          "en": "alarm"
+        },
+        "id_ref": "nomen_alarm"
+      },
+      {
+        "wort": "die Feuerwehr",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آتش‌نشانی",
+          "en": "fire brigade"
+        },
+        "id_ref": "nomen_feuerwehr"
+      },
+      {
+        "wort": "der Notruf",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تماس اضطراری",
+          "en": "emergency call"
+        },
+        "id_ref": "nomen_notruf"
+      },
+      {
+        "wort": "der Notfall",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "وضعیت اضطراری",
+          "en": "emergency"
+        },
+        "id_ref": "nomen_notfall"
+      },
+      {
+        "wort": "warnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "هشدار دادن",
+          "en": "to warn"
+        },
+        "id_ref": "verb_warnen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -2809,6 +2809,9 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۴۴۷ | addizieren | `Verben_regelmaesig.txt` | 2026-10-13 | نادر/تخصصی — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۴۸ | affirmieren | `Verben_regelmaesig.txt` | 2026-10-13 | ادبی/نادر — قاعده‌ی ۱۴/۱۶ | — |
 | ۱۴۴۹ | affizieren | `Verben_regelmaesig.txt` | 2026-10-13 | نادر/تخصصی — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۵۰ | algorithmisieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی، نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۵۱ | alimentieren | `Verben_regelmaesig.txt` | 2026-10-13 | ادبی/نادر — قاعده‌ی ۱۴/۱۶ | — |
+| ۱۴۵۲ | allozieren | `Verben_regelmaesig.txt` | 2026-10-13 | تخصصی، نادر — قاعده‌ی ۱۴/۱۶ | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 
