@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_kaemmen",
+  "wort": "kämmen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شانه کردن"
+    ],
+    "en": [
+      "to comb"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Körper",
+    "Alltag"
+  ],
+  "ipa": "ˈkɛmən",
+  "anmerkung": "Regelmäßig (kämmte, gekämmt). Reflexiv: «sich kämmen» bzw. «sich (Dat) die Haare kämmen».",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich kämme meine Haare.",
+      "uebersetzung": {
+        "fa": "موهایم را شانه می‌کنم.",
+        "en": "I comb my hair."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nachdem die Pflegerin die Patientin gewaschen hatte, kämmte sie ihr vorsichtig die Haare.",
+      "uebersetzung": {
+        "fa": "پرستار بعد از شستن بیمار، با احتیاط موهایش را شانه کرد.",
+        "en": "After the carer had washed the patient, she carefully combed her hair."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "frisieren",
+      "uebersetzung": {
+        "fa": "آرایش مو کردن",
+        "en": "to style hair"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zerzausen",
+      "uebersetzung": {
+        "fa": "ژولیده کردن",
+        "en": "to tousle"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "der Kamm (شانه) + -en",
+    "en": "der Kamm (comb) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "kämmen",
+      "praeteritum": "kämmte",
+      "partizip2": "gekämmt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kämme",
+        "du": "kämmst",
+        "er_sie_es": "kämmt",
+        "wir": "kämmen",
+        "ihr": "kämmt",
+        "sie_Sie": "kämmen"
+      },
+      "praeteritum": {
+        "ich": "kämmte",
+        "du": "kämmtest",
+        "er_sie_es": "kämmte",
+        "wir": "kämmten",
+        "ihr": "kämmtet",
+        "sie_Sie": "kämmten"
+      },
+      "konjunktiv1": {
+        "ich": "kämme",
+        "du": "kämmest",
+        "er_sie_es": "kämme",
+        "wir": "kämmen",
+        "ihr": "kämmet",
+        "sie_Sie": "kämmen"
+      },
+      "konjunktiv2": {
+        "ich": "kämmte",
+        "du": "kämmtest",
+        "er_sie_es": "kämmte",
+        "wir": "kämmten",
+        "ihr": "kämmtet",
+        "sie_Sie": "kämmten"
+      },
+      "imperativ": {
+        "du": "Kämme!",
+        "ihr": "Kämmt!",
+        "Sie": "Kämmen Sie!"
+      }
+    },
+    "partizip1": "kämmend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Kamm",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شانه",
+          "en": "comb"
+        },
+        "id_ref": "nomen_kamm"
+      },
+      {
+        "wort": "das Haar",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مو",
+          "en": "hair"
+        },
+        "id_ref": "nomen_haar"
+      },
+      {
+        "wort": "die Bürste",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برس",
+          "en": "brush"
+        },
+        "id_ref": "nomen_buerste"
+      },
+      {
+        "wort": "bürsten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برس زدن",
+          "en": "to brush"
+        },
+        "id_ref": "verb_buersten"
+      },
+      {
+        "wort": "die Frisur",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مدل مو",
+          "en": "hairstyle"
+        },
+        "id_ref": "nomen_frisur"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
