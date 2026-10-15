@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_freuen",
+  "wort": "freuen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خوشحال شدن",
+      "خوشحال کردن"
+    ],
+    "en": [
+      "to be glad",
+      "to please"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Gefühle"
+  ],
+  "ipa": "ˈfʁɔɪ̯ən",
+  "anmerkung": "Regelmäßig (freute, gefreut). Meist reflexiv. Unpersönlich: «Es freut mich, dich zu sehen.»",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Das freut mich!",
+      "uebersetzung": {
+        "fa": "خوشحالم می‌کند!",
+        "en": "I’m glad to hear that!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wir haben uns sehr gefreut, als wir hörten, dass ihr ein Baby bekommt.",
+      "uebersetzung": {
+        "fa": "خیلی خوشحال شدیم وقتی شنیدیم که بچه‌دار می‌شوید.",
+        "en": "We were very happy when we heard that you are having a baby."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "ärgern",
+      "uebersetzung": {
+        "fa": "عصبانی کردن",
+        "en": "to annoy"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich auf + Akk freuen",
+        "bedeutung": "sich auf etwas Kommendes freuen",
+        "beispiel": "Ich freue mich auf das Wochenende.",
+        "uebersetzung": {
+          "fa": "منتظر آخر هفته‌ام و از آن خوشحالم.",
+          "en": "I’m looking forward to the weekend."
+        }
+      },
+      {
+        "muster": "sich über + Akk freuen",
+        "bedeutung": "über etwas Geschehenes froh sein",
+        "beispiel": "Sie freut sich über das Geschenk.",
+        "uebersetzung": {
+          "fa": "از هدیه خوشحال است.",
+          "en": "She is happy about the present."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "freuen",
+      "praeteritum": "freute",
+      "partizip2": "gefreut"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "freue",
+        "du": "freust",
+        "er_sie_es": "freut",
+        "wir": "freuen",
+        "ihr": "freut",
+        "sie_Sie": "freuen"
+      },
+      "praeteritum": {
+        "ich": "freute",
+        "du": "freutest",
+        "er_sie_es": "freute",
+        "wir": "freuten",
+        "ihr": "freutet",
+        "sie_Sie": "freuten"
+      },
+      "konjunktiv1": {
+        "ich": "freue",
+        "du": "freuest",
+        "er_sie_es": "freue",
+        "wir": "freuen",
+        "ihr": "freuet",
+        "sie_Sie": "freuen"
+      },
+      "konjunktiv2": {
+        "ich": "freute",
+        "du": "freutest",
+        "er_sie_es": "freute",
+        "wir": "freuten",
+        "ihr": "freutet",
+        "sie_Sie": "freuten"
+      },
+      "imperativ": {
+        "du": "Freue!",
+        "ihr": "Freut!",
+        "Sie": "Freuen Sie!"
+      }
+    },
+    "partizip1": "freuend",
+    "nominalisierung": "die Freude"
+  },
+  "wortnetz": {
+    "grundwort": "Freude",
+    "woerter": [
+      {
+        "wort": "froh",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شاد",
+          "en": "glad"
+        },
+        "id_ref": "adjektiv_froh"
+      },
+      {
+        "wort": "glücklich",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوشبخت، خوشحال",
+          "en": "happy"
+        },
+        "id_ref": "adjektiv_gluecklich"
+      },
+      {
+        "wort": "die Freude",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شادی",
+          "en": "joy"
+        },
+        "id_ref": "nomen_freude"
+      },
+      {
+        "wort": "fröhlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شاد",
+          "en": "cheerful"
+        },
+        "id_ref": "adjektiv_froehlich"
+      },
+      {
+        "wort": "erfreut",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خرسند",
+          "en": "pleased"
+        },
+        "id_ref": "adjektiv_erfreut"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

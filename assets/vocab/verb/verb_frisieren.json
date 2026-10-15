@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_frisieren",
+  "wort": "frisieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آرایش مو کردن",
+      "دستکاری کردن"
+    ],
+    "en": [
+      "to do (someone’s) hair",
+      "to doctor (figures)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Körperpflege",
+    "Wirtschaft"
+  ],
+  "ipa": "fʁiˈziːʁən",
+  "anmerkung": "Regelmäßig (frisierte, frisiert). Umgangssprachlich: «Zahlen, eine Bilanz frisieren» (beschönigend fälschen); «ein Mofa frisieren» (den Motor unerlaubt stärker machen).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Friseurin frisiert die Kundin.",
+      "uebersetzung": {
+        "fa": "آرایشگر موی مشتری را درست می‌کند.",
+        "en": "The hairdresser does the customer’s hair."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Manager hatte die Bilanz frisiert, damit die Firma besser dastand.",
+      "uebersetzung": {
+        "fa": "مدیر ترازنامه را دستکاری کرده بود تا شرکت وضع بهتری نشان دهد.",
+        "en": "The manager had doctored the balance sheet so that the company looked better."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kämmen",
+      "uebersetzung": {
+        "fa": "شانه کردن",
+        "en": "to comb"
+      }
+    },
+    {
+      "wort": "fälschen",
+      "uebersetzung": {
+        "fa": "جعل کردن",
+        "en": "to falsify"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "frz. friser (فر زدن) + -ieren",
+    "en": "frz. friser (to curl) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "frisieren",
+      "praeteritum": "frisierte",
+      "partizip2": "frisiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "frisiere",
+        "du": "frisierst",
+        "er_sie_es": "frisiert",
+        "wir": "frisieren",
+        "ihr": "frisiert",
+        "sie_Sie": "frisieren"
+      },
+      "praeteritum": {
+        "ich": "frisierte",
+        "du": "frisiertest",
+        "er_sie_es": "frisierte",
+        "wir": "frisierten",
+        "ihr": "frisiertet",
+        "sie_Sie": "frisierten"
+      },
+      "konjunktiv1": {
+        "ich": "frisiere",
+        "du": "frisierest",
+        "er_sie_es": "frisiere",
+        "wir": "frisieren",
+        "ihr": "frisieret",
+        "sie_Sie": "frisieren"
+      },
+      "konjunktiv2": {
+        "ich": "frisierte",
+        "du": "frisiertest",
+        "er_sie_es": "frisierte",
+        "wir": "frisierten",
+        "ihr": "frisiertet",
+        "sie_Sie": "frisierten"
+      },
+      "imperativ": {
+        "du": "Frisiere!",
+        "ihr": "Frisiert!",
+        "Sie": "Frisieren Sie!"
+      }
+    },
+    "partizip1": "frisierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Haar",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مو",
+          "en": "hair"
+        },
+        "id_ref": "nomen_haar"
+      },
+      {
+        "wort": "der Friseur",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آرایشگر",
+          "en": "hairdresser"
+        },
+        "id_ref": "nomen_friseur"
+      },
+      {
+        "wort": "die Frisur",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مدل مو",
+          "en": "hairstyle"
+        },
+        "id_ref": "nomen_frisur"
+      },
+      {
+        "wort": "kämmen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شانه کردن",
+          "en": "to comb"
+        },
+        "id_ref": "verb_kaemmen"
+      },
+      {
+        "wort": "fälschen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جعل کردن",
+          "en": "to falsify"
+        },
+        "id_ref": "verb_faelschen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

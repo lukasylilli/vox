@@ -1,0 +1,164 @@
+{
+  "schema": "3.0",
+  "id": "verb_frankieren",
+  "wort": "frankieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تمبر زدن"
+    ],
+    "en": [
+      "to stamp",
+      "to frank"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Post"
+  ],
+  "ipa": "fʁaŋˈkiːʁən",
+  "anmerkung": "Regelmäßig (frankierte, frankiert).",
+  "berufe": [
+    "logistik",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich frankiere den Brief.",
+      "uebersetzung": {
+        "fa": "روی نامه تمبر می‌زنم.",
+        "en": "I am putting a stamp on the letter."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn ein Brief nicht ausreichend frankiert ist, muss der Empfänger nachzahlen.",
+      "uebersetzung": {
+        "fa": "اگر روی نامه تمبر کافی نباشد، گیرنده باید بقیه را بپردازد.",
+        "en": "If a letter does not have enough postage, the recipient has to pay the difference."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ital. franco (بی‌هزینه) + -ieren",
+    "en": "ital. franco (free of charge) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "frankieren",
+      "praeteritum": "frankierte",
+      "partizip2": "frankiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "frankiere",
+        "du": "frankierst",
+        "er_sie_es": "frankiert",
+        "wir": "frankieren",
+        "ihr": "frankiert",
+        "sie_Sie": "frankieren"
+      },
+      "praeteritum": {
+        "ich": "frankierte",
+        "du": "frankiertest",
+        "er_sie_es": "frankierte",
+        "wir": "frankierten",
+        "ihr": "frankiertet",
+        "sie_Sie": "frankierten"
+      },
+      "konjunktiv1": {
+        "ich": "frankiere",
+        "du": "frankierest",
+        "er_sie_es": "frankiere",
+        "wir": "frankieren",
+        "ihr": "frankieret",
+        "sie_Sie": "frankieren"
+      },
+      "konjunktiv2": {
+        "ich": "frankierte",
+        "du": "frankiertest",
+        "er_sie_es": "frankierte",
+        "wir": "frankierten",
+        "ihr": "frankiertet",
+        "sie_Sie": "frankierten"
+      },
+      "imperativ": {
+        "du": "Frankiere!",
+        "ihr": "Frankiert!",
+        "Sie": "Frankieren Sie!"
+      }
+    },
+    "partizip1": "frankierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Brief",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نامه",
+          "en": "letter"
+        },
+        "id_ref": "nomen_brief"
+      },
+      {
+        "wort": "die Briefmarke",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تمبر",
+          "en": "stamp"
+        },
+        "id_ref": "nomen_briefmarke"
+      },
+      {
+        "wort": "die Post",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پست",
+          "en": "post"
+        },
+        "id_ref": "nomen_post"
+      },
+      {
+        "wort": "schicken",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فرستادن",
+          "en": "to send"
+        },
+        "id_ref": "verb_schicken"
+      },
+      {
+        "wort": "das Porto",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "هزینه‌ی پست",
+          "en": "postage"
+        },
+        "id_ref": "nomen_porto"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

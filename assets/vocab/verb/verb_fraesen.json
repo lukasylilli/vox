@@ -1,0 +1,161 @@
+{
+  "schema": "3.0",
+  "id": "verb_fraesen",
+  "wort": "fräsen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "فرز کردن"
+    ],
+    "en": [
+      "to mill",
+      "to rout"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Handwerk",
+    "Technik"
+  ],
+  "ipa": "ˈfʁɛːzn̩",
+  "anmerkung": "Regelmäßig (fräste, gefräst).",
+  "berufe": [
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Maschine fräst das Metall.",
+      "uebersetzung": {
+        "fa": "دستگاه فلز را فرز می‌کند.",
+        "en": "The machine mills the metal."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Damit die Teile genau zusammenpassen, werden die Kanten mit einer Maschine gefräst.",
+      "uebersetzung": {
+        "fa": "برای اینکه قطعه‌ها دقیق در هم جا بیفتند، لبه‌ها را با دستگاه فرز می‌کنند.",
+        "en": "So that the parts fit together exactly, the edges are milled by machine."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "fräsen",
+      "praeteritum": "fräste",
+      "partizip2": "gefräst"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fräse",
+        "du": "fräst",
+        "er_sie_es": "fräst",
+        "wir": "fräsen",
+        "ihr": "fräst",
+        "sie_Sie": "fräsen"
+      },
+      "praeteritum": {
+        "ich": "fräste",
+        "du": "frästest",
+        "er_sie_es": "fräste",
+        "wir": "frästen",
+        "ihr": "frästet",
+        "sie_Sie": "frästen"
+      },
+      "konjunktiv1": {
+        "ich": "fräse",
+        "du": "fräsest",
+        "er_sie_es": "fräse",
+        "wir": "fräsen",
+        "ihr": "fräset",
+        "sie_Sie": "fräsen"
+      },
+      "konjunktiv2": {
+        "ich": "fräste",
+        "du": "frästest",
+        "er_sie_es": "fräste",
+        "wir": "frästen",
+        "ihr": "frästet",
+        "sie_Sie": "frästen"
+      },
+      "imperativ": {
+        "du": "Fräse!",
+        "ihr": "Fräst!",
+        "Sie": "Fräsen Sie!"
+      }
+    },
+    "partizip1": "fräsend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Holz",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چوب",
+          "en": "wood"
+        },
+        "id_ref": "nomen_holz"
+      },
+      {
+        "wort": "die Maschine",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دستگاه",
+          "en": "machine"
+        },
+        "id_ref": "nomen_maschine"
+      },
+      {
+        "wort": "bohren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سوراخ کردن",
+          "en": "to drill"
+        },
+        "id_ref": "verb_bohren"
+      },
+      {
+        "wort": "das Metall",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فلز",
+          "en": "metal"
+        },
+        "id_ref": "nomen_metall"
+      },
+      {
+        "wort": "die Fräse",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دستگاه فرز",
+          "en": "milling machine"
+        },
+        "id_ref": "nomen_fraese"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
