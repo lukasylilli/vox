@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_erstatten",
+  "wort": "erstatten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بازپرداخت کردن",
+      "دادن (گزارش، شکایت)"
+    ],
+    "en": [
+      "to refund",
+      "to file (a report)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Geld",
+    "Recht"
+  ],
+  "ipa": "ɛɐ̯ˈʃtatn̩",
+  "anmerkung": "Regelmäßig (erstattete, erstattet). Untrennbar. Feste Verbindungen: «Anzeige erstatten», «Bericht erstatten».",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Firma erstattet die Kosten.",
+      "uebersetzung": {
+        "fa": "شرکت هزینه‌ها را بازپرداخت می‌کند.",
+        "en": "The company refunds the costs."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem man ihr Fahrrad gestohlen hatte, hat sie bei der Polizei Anzeige erstattet.",
+      "uebersetzung": {
+        "fa": "پس از آن‌که دوچرخه‌اش را دزدیدند، نزد پلیس شکایت کرد.",
+        "en": "After her bike had been stolen, she reported it to the police."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zurückzahlen",
+      "uebersetzung": {
+        "fa": "پس دادن (پول)",
+        "en": "to pay back"
+      }
+    },
+    {
+      "wort": "ersetzen",
+      "uebersetzung": {
+        "fa": "جبران کردن",
+        "en": "to reimburse"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- + statt (جا، کهن: جبران)",
+    "en": "er- + statt (place, archaic: compensation)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem etwas erstatten",
+        "bedeutung": "jemandem Geld zurückgeben",
+        "beispiel": "Die Krankenkasse erstattet mir die Brille.",
+        "uebersetzung": {
+          "fa": "بیمه‌ی درمانی پول عینکم را به من برمی‌گرداند.",
+          "en": "The health insurance refunds me for the glasses."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "erstatten",
+      "praeteritum": "erstattete",
+      "partizip2": "erstattet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erstatte",
+        "du": "erstattest",
+        "er_sie_es": "erstattet",
+        "wir": "erstatten",
+        "ihr": "erstattet",
+        "sie_Sie": "erstatten"
+      },
+      "praeteritum": {
+        "ich": "erstattete",
+        "du": "erstattetest",
+        "er_sie_es": "erstattete",
+        "wir": "erstatteten",
+        "ihr": "erstattetet",
+        "sie_Sie": "erstatteten"
+      },
+      "konjunktiv1": {
+        "ich": "erstatte",
+        "du": "erstattest",
+        "er_sie_es": "erstatte",
+        "wir": "erstatten",
+        "ihr": "erstattet",
+        "sie_Sie": "erstatten"
+      },
+      "konjunktiv2": {
+        "ich": "erstattete",
+        "du": "erstattetest",
+        "er_sie_es": "erstattete",
+        "wir": "erstatteten",
+        "ihr": "erstattetet",
+        "sie_Sie": "erstatteten"
+      },
+      "imperativ": {
+        "du": "Erstatte!",
+        "ihr": "Erstattet!",
+        "Sie": "Erstatten Sie!"
+      }
+    },
+    "partizip1": "erstattend",
+    "nominalisierung": "die Erstattung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "zurückzahlen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پس دادن",
+          "en": "to pay back"
+        },
+        "id_ref": "verb_zurueckzahlen"
+      },
+      {
+        "wort": "die Kosten",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "هزینه‌ها",
+          "en": "costs"
+        },
+        "id_ref": "nomen_kosten"
+      },
+      {
+        "wort": "die Anzeige",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شکایت، آگهی",
+          "en": "report, advertisement"
+        },
+        "id_ref": "nomen_anzeige"
+      },
+      {
+        "wort": "die Rechnung",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "صورت‌حساب",
+          "en": "bill"
+        },
+        "id_ref": "nomen_rechnung"
+      },
+      {
+        "wort": "die Krankenkasse",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیمه‌ی درمانی",
+          "en": "health insurance"
+        },
+        "id_ref": "nomen_krankenkasse"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

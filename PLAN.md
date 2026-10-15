@@ -2989,6 +2989,9 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۵۷۱ | erigieren | `Verben_regelmaesig.txt` | 2026-10-15 | ⚠️ معنای جنسی/پزشکی (نعوظ؛ مثل ejakulieren) ⇒ تصمیم Lukas | — |
 | ۱۵۷۲ | erkühnen | `Verben_regelmaesig.txt` | 2026-10-15 | «sich erkühnen» فاخر و کم‌کاربرد؛ برچسب سبکی مطمئن نیست — قاعده‌ی ۱۴/۱۷ | — |
 | ۱۵۷۳ | erotisieren | `Verben_regelmaesig.txt` | 2026-10-15 | ⚠️ موضوع جنسی (مثل ejakulieren) ⇒ تصمیم Lukas | — |
+| ۱۵۷۴ | ertauben | `Verben_regelmaesig.txt` | 2026-10-15 | کم‌کاربرد/تخصصی (ناشنوا شدن)؛ کاربرد مطمئن نیست — قاعده‌ی ۱۴ | — |
+| ۱۵۷۵ | ertüchtigen | `Verben_regelmaesig.txt` | 2026-10-15 | کم‌کاربرد و فاخر؛ کاربرد مطمئن نیست — قاعده‌ی ۱۴ | — |
+| ۱۵۷۶ | eskamotieren | `Verben_regelmaesig.txt` | 2026-10-15 | بسیار کم‌کاربرد (شعبده/پنهان کردن)؛ کاربرد مطمئن نیست — قاعده‌ی ۱۴ | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 

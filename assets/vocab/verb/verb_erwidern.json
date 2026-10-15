@@ -1,0 +1,195 @@
+{
+  "schema": "3.0",
+  "id": "verb_erwidern",
+  "wort": "erwidern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جواب دادن",
+      "متقابلاً انجام دادن"
+    ],
+    "en": [
+      "to reply",
+      "to return (a greeting)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "ɛɐ̯ˈviːdɐn",
+  "anmerkung": "Regelmäßig (erwiderte, erwidert). Untrennbar.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie erwidert seinen Gruß.",
+      "uebersetzung": {
+        "fa": "او جواب سلامش را می‌دهد.",
+        "en": "She returns his greeting."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Auf die Frage des Journalisten erwiderte der Minister nur, dass er dazu nichts sagen könne.",
+      "uebersetzung": {
+        "fa": "وزیر در پاسخ به سؤال روزنامه‌نگار فقط گفت که در این باره نمی‌تواند چیزی بگوید.",
+        "en": "In reply to the journalist's question the minister only said that he could not comment on it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "antworten",
+      "uebersetzung": {
+        "fa": "جواب دادن",
+        "en": "to answer"
+      }
+    },
+    {
+      "wort": "entgegnen",
+      "uebersetzung": {
+        "fa": "پاسخ دادن",
+        "en": "to retort"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "fragen",
+      "uebersetzung": {
+        "fa": "پرسیدن",
+        "en": "to ask"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- + wider (در برابر)",
+    "en": "er- + wider (against)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Akk erwidern",
+        "bedeutung": "auf etwas antworten",
+        "beispiel": "Was hat er auf deinen Vorwurf erwidert?",
+        "uebersetzung": {
+          "fa": "در جواب سرزنشت چه گفت؟",
+          "en": "What did he reply to your accusation?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "erwidern",
+      "praeteritum": "erwiderte",
+      "partizip2": "erwidert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erwidere",
+        "du": "erwiderst",
+        "er_sie_es": "erwidert",
+        "wir": "erwidern",
+        "ihr": "erwidert",
+        "sie_Sie": "erwidern"
+      },
+      "praeteritum": {
+        "ich": "erwiderte",
+        "du": "erwidertest",
+        "er_sie_es": "erwiderte",
+        "wir": "erwiderten",
+        "ihr": "erwidertet",
+        "sie_Sie": "erwiderten"
+      },
+      "konjunktiv1": {
+        "ich": "erwidere",
+        "du": "erwiderest",
+        "er_sie_es": "erwidere",
+        "wir": "erwidern",
+        "ihr": "erwideret",
+        "sie_Sie": "erwidern"
+      },
+      "konjunktiv2": {
+        "ich": "erwiderte",
+        "du": "erwidertest",
+        "er_sie_es": "erwiderte",
+        "wir": "erwiderten",
+        "ihr": "erwidertet",
+        "sie_Sie": "erwiderten"
+      },
+      "imperativ": {
+        "du": "Erwidere!",
+        "ihr": "Erwidert!",
+        "Sie": "Erwidern Sie!"
+      }
+    },
+    "partizip1": "erwidernd",
+    "nominalisierung": "die Erwiderung"
+  },
+  "wortnetz": {
+    "grundwort": "wider",
+    "woerter": [
+      {
+        "wort": "antworten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جواب دادن",
+          "en": "to answer"
+        },
+        "id_ref": "verb_antworten"
+      },
+      {
+        "wort": "die Antwort",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جواب",
+          "en": "answer"
+        },
+        "id_ref": "nomen_antwort"
+      },
+      {
+        "wort": "entgegnen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پاسخ دادن",
+          "en": "to retort"
+        },
+        "id_ref": "verb_entgegnen"
+      },
+      {
+        "wort": "der Gruß",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سلام",
+          "en": "greeting"
+        },
+        "id_ref": "nomen_gruss"
+      },
+      {
+        "wort": "reagieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "واکنش نشان دادن",
+          "en": "to react"
+        },
+        "id_ref": "verb_reagieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

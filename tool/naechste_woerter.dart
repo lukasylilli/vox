@@ -1624,6 +1624,9 @@ const zurueckgestellt = <String>{
   'erigieren', // zurückgestellt: sexueller Bezug (wie ejakulieren) — Entscheidung Lukas 2026-10-15
   'erkühnen', // zurückgestellt: «sich erkühnen» gehoben/selten; Stilmarkierung nicht sicher (Regel 14/17) 2026-10-15
   'erotisieren', // zurückgestellt: sexueller Bezug — Entscheidung Lukas 2026-10-15
+  'ertauben', // zurückgestellt: selten/fachsprachlich (taub werden); Gebrauch nicht sicher (Regel 14) 2026-10-15
+  'ertüchtigen', // zurückgestellt: selten/gehoben; Gebrauch nicht sicher (Regel 14) 2026-10-15
+  'eskamotieren', // zurückgestellt: sehr selten (wegzaubern); Gebrauch nicht sicher (Regel 14) 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

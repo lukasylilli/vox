@@ -1,0 +1,171 @@
+{
+  "schema": "3.0",
+  "id": "verb_evakuieren",
+  "wort": "evakuieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تخلیه کردن (مکان، افراد)"
+    ],
+    "en": [
+      "to evacuate"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Sicherheit",
+    "Natur"
+  ],
+  "ipa": "evakuˈiːʁən",
+  "anmerkung": "Regelmäßig (evakuierte, evakuiert).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Feuerwehr evakuiert das Haus.",
+      "uebersetzung": {
+        "fa": "آتش‌نشانی ساختمان را تخلیه می‌کند.",
+        "en": "The fire brigade evacuates the building."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wegen des Hochwassers mussten mehrere Dörfer evakuiert werden, bevor die Dämme brachen.",
+      "uebersetzung": {
+        "fa": "به‌خاطر سیل، چند روستا باید پیش از شکستن سدها تخلیه می‌شدند.",
+        "en": "Because of the flood several villages had to be evacuated before the dams broke."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "räumen",
+      "uebersetzung": {
+        "fa": "تخلیه کردن",
+        "en": "to clear"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. evacuare (خالی کردن) + -ieren",
+    "en": "Latin evacuare (to empty) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "evakuieren",
+      "praeteritum": "evakuierte",
+      "partizip2": "evakuiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "evakuiere",
+        "du": "evakuierst",
+        "er_sie_es": "evakuiert",
+        "wir": "evakuieren",
+        "ihr": "evakuiert",
+        "sie_Sie": "evakuieren"
+      },
+      "praeteritum": {
+        "ich": "evakuierte",
+        "du": "evakuiertest",
+        "er_sie_es": "evakuierte",
+        "wir": "evakuierten",
+        "ihr": "evakuiertet",
+        "sie_Sie": "evakuierten"
+      },
+      "konjunktiv1": {
+        "ich": "evakuiere",
+        "du": "evakuierest",
+        "er_sie_es": "evakuiere",
+        "wir": "evakuieren",
+        "ihr": "evakuieret",
+        "sie_Sie": "evakuieren"
+      },
+      "konjunktiv2": {
+        "ich": "evakuierte",
+        "du": "evakuiertest",
+        "er_sie_es": "evakuierte",
+        "wir": "evakuierten",
+        "ihr": "evakuiertet",
+        "sie_Sie": "evakuierten"
+      },
+      "imperativ": {
+        "du": "Evakuiere!",
+        "ihr": "Evakuiert!",
+        "Sie": "Evakuieren Sie!"
+      }
+    },
+    "partizip1": "evakuierend",
+    "nominalisierung": "die Evakuierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Feuerwehr",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آتش‌نشانی",
+          "en": "fire brigade"
+        },
+        "id_ref": "nomen_feuerwehr"
+      },
+      {
+        "wort": "die Gefahr",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خطر",
+          "en": "danger"
+        },
+        "id_ref": "nomen_gefahr"
+      },
+      {
+        "wort": "der Notfall",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وضعیت اضطراری",
+          "en": "emergency"
+        },
+        "id_ref": "nomen_notfall"
+      },
+      {
+        "wort": "räumen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تخلیه کردن",
+          "en": "to clear"
+        },
+        "id_ref": "verb_raeumen"
+      },
+      {
+        "wort": "der Notausgang",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خروجی اضطراری",
+          "en": "emergency exit"
+        },
+        "id_ref": "nomen_notausgang"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
