@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_heilen",
+  "wort": "heilen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "درمان کردن",
+      "بهبود یافتن"
+    ],
+    "en": [
+      "to heal",
+      "to cure"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gesundheit"
+  ],
+  "ipa": "ˈhaɪ̯lən",
+  "anmerkung": "Regelmäßig (heilte, geheilt). Intransitiv mit «sein»: «Die Wunde ist gut geheilt.»",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Wunde heilt gut.",
+      "uebersetzung": {
+        "fa": "زخم خوب جوش می‌خورد.",
+        "en": "The wound is healing well."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Arzt konnte die Krankheit zwar nicht heilen, aber er konnte die Schmerzen lindern.",
+      "uebersetzung": {
+        "fa": "پزشک نتوانست بیماری را درمان کند، ولی توانست دردها را کم کند.",
+        "en": "The doctor could not cure the illness, but he was able to ease the pain."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kurieren",
+      "uebersetzung": {
+        "fa": "درمان کردن",
+        "en": "to cure"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden von + Dat heilen",
+        "bedeutung": "jemanden von einer Krankheit befreien",
+        "beispiel": "Die Therapie hat sie von ihrer Angst geheilt.",
+        "uebersetzung": {
+          "fa": "درمان او را از ترسش رها کرد.",
+          "en": "The therapy cured her of her fear."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "heilen",
+      "praeteritum": "heilte",
+      "partizip2": "geheilt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "heile",
+        "du": "heilst",
+        "er_sie_es": "heilt",
+        "wir": "heilen",
+        "ihr": "heilt",
+        "sie_Sie": "heilen"
+      },
+      "praeteritum": {
+        "ich": "heilte",
+        "du": "heiltest",
+        "er_sie_es": "heilte",
+        "wir": "heilten",
+        "ihr": "heiltet",
+        "sie_Sie": "heilten"
+      },
+      "konjunktiv1": {
+        "ich": "heile",
+        "du": "heilest",
+        "er_sie_es": "heile",
+        "wir": "heilen",
+        "ihr": "heilet",
+        "sie_Sie": "heilen"
+      },
+      "konjunktiv2": {
+        "ich": "heilte",
+        "du": "heiltest",
+        "er_sie_es": "heilte",
+        "wir": "heilten",
+        "ihr": "heiltet",
+        "sie_Sie": "heilten"
+      },
+      "imperativ": {
+        "du": "Heile!",
+        "ihr": "Heilt!",
+        "Sie": "Heilen Sie!"
+      }
+    },
+    "partizip1": "heilend",
+    "nominalisierung": "die Heilung"
+  },
+  "wortnetz": {
+    "grundwort": "heil",
+    "woerter": [
+      {
+        "wort": "gesund",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سالم",
+          "en": "healthy"
+        },
+        "id_ref": "adjektiv_gesund"
+      },
+      {
+        "wort": "der Arzt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پزشک",
+          "en": "doctor"
+        },
+        "id_ref": "nomen_arzt"
+      },
+      {
+        "wort": "die Wunde",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زخم",
+          "en": "wound"
+        },
+        "id_ref": "nomen_wunde"
+      },
+      {
+        "wort": "die Heilung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بهبود",
+          "en": "healing"
+        },
+        "id_ref": "nomen_heilung"
+      },
+      {
+        "wort": "heilbar",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "درمان‌پذیر",
+          "en": "curable"
+        },
+        "id_ref": "adjektiv_heilbar"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

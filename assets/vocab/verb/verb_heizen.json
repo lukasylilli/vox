@@ -1,0 +1,168 @@
+{
+  "schema": "3.0",
+  "id": "verb_heizen",
+  "wort": "heizen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گرم کردن"
+    ],
+    "en": [
+      "to heat"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Wohnen",
+    "Energie"
+  ],
+  "ipa": "ˈhaɪ̯tsn̩",
+  "anmerkung": "Regelmäßig (heizte, geheizt).",
+  "berufe": [
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir heizen mit Gas.",
+      "uebersetzung": {
+        "fa": "با گاز گرم می‌کنیم.",
+        "en": "We heat with gas."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil die Energiepreise gestiegen sind, heizen viele Familien nur noch ein Zimmer.",
+      "uebersetzung": {
+        "fa": "چون قیمت انرژی بالا رفته، خیلی از خانواده‌ها فقط یک اتاق را گرم می‌کنند.",
+        "en": "Because energy prices have risen, many families only heat one room."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "kühlen",
+      "uebersetzung": {
+        "fa": "خنک کردن",
+        "en": "to cool"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "heizen",
+      "praeteritum": "heizte",
+      "partizip2": "geheizt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "heize",
+        "du": "heizt",
+        "er_sie_es": "heizt",
+        "wir": "heizen",
+        "ihr": "heizt",
+        "sie_Sie": "heizen"
+      },
+      "praeteritum": {
+        "ich": "heizte",
+        "du": "heiztest",
+        "er_sie_es": "heizte",
+        "wir": "heizten",
+        "ihr": "heiztet",
+        "sie_Sie": "heizten"
+      },
+      "konjunktiv1": {
+        "ich": "heize",
+        "du": "heizest",
+        "er_sie_es": "heize",
+        "wir": "heizen",
+        "ihr": "heizet",
+        "sie_Sie": "heizen"
+      },
+      "konjunktiv2": {
+        "ich": "heizte",
+        "du": "heiztest",
+        "er_sie_es": "heizte",
+        "wir": "heizten",
+        "ihr": "heiztet",
+        "sie_Sie": "heizten"
+      },
+      "imperativ": {
+        "du": "Heize!",
+        "ihr": "Heizt!",
+        "Sie": "Heizen Sie!"
+      }
+    },
+    "partizip1": "heizend",
+    "nominalisierung": "die Heizung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "kalt",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سرد",
+          "en": "cold"
+        },
+        "id_ref": "adjektiv_kalt"
+      },
+      {
+        "wort": "warm",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گرم",
+          "en": "warm"
+        },
+        "id_ref": "adjektiv_warm"
+      },
+      {
+        "wort": "die Heizung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شوفاژ، گرمایش",
+          "en": "heating"
+        },
+        "id_ref": "nomen_heizung"
+      },
+      {
+        "wort": "der Ofen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بخاری، فر",
+          "en": "stove"
+        },
+        "id_ref": "nomen_ofen"
+      },
+      {
+        "wort": "die Energie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انرژی",
+          "en": "energy"
+        },
+        "id_ref": "nomen_energie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

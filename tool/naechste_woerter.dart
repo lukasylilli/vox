@@ -1680,6 +1680,7 @@ const zurueckgestellt = <String>{
   'haschen', // zurückgestellt: mehrere Bedeutungen (nach etwas greifen / umgangssprachlich Haschisch rauchen); nicht sicher (Regel 14) 2026-10-15
   'haspeln', // zurückgestellt: mehrere Bedeutungen (Garn aufwickeln / hastig sprechen), selten (Regel 14) 2026-10-15
   'häufeln', // zurückgestellt: Fachwort Gartenbau (Erde anhäufeln), selten (Regel 14) 2026-10-15
+  'hehlen', // zurückgestellt: veraltend/selten (Diebesgut verbergen; heute «Hehlerei»); Gebrauch nicht sicher (Regel 14/17) 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
