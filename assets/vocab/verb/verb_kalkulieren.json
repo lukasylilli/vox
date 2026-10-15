@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_kalkulieren",
+  "wort": "kalkulieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "حساب کردن",
+      "برآورد کردن"
+    ],
+    "en": [
+      "to calculate",
+      "to estimate"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Wirtschaft",
+    "Arbeit"
+  ],
+  "ipa": "kalkuˈliːʁən",
+  "anmerkung": "Regelmäßig (kalkulierte, kalkuliert).",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir kalkulieren die Kosten.",
+      "uebersetzung": {
+        "fa": "ما هزینه‌ها را حساب می‌کنیم.",
+        "en": "We calculate the costs."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wir haben knapp kalkuliert, deshalb darf bei der Feier nichts Unvorhergesehenes passieren.",
+      "uebersetzung": {
+        "fa": "ما خیلی دقیق و کم حساب کرده‌ایم، برای همین در جشن نباید چیز پیش‌بینی‌نشده‌ای پیش بیاید.",
+        "en": "We calculated tightly, so nothing unforeseen may happen at the party."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "berechnen",
+      "uebersetzung": {
+        "fa": "محاسبه کردن",
+        "en": "to calculate"
+      }
+    },
+    {
+      "wort": "schätzen",
+      "uebersetzung": {
+        "fa": "تخمین زدن",
+        "en": "to estimate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. calculare (حساب کردن با سنگریزه) + -ieren",
+    "en": "lat. calculare (to reckon with pebbles) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit etwas (Dat) kalkulieren",
+        "bedeutung": "etwas einplanen",
+        "beispiel": "Wir kalkulieren mit hundert Gästen.",
+        "uebersetzung": {
+          "fa": "ما صد مهمان را در نظر گرفته‌ایم.",
+          "en": "We are planning for a hundred guests."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "kalkulieren",
+      "praeteritum": "kalkulierte",
+      "partizip2": "kalkuliert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kalkuliere",
+        "du": "kalkulierst",
+        "er_sie_es": "kalkuliert",
+        "wir": "kalkulieren",
+        "ihr": "kalkuliert",
+        "sie_Sie": "kalkulieren"
+      },
+      "praeteritum": {
+        "ich": "kalkulierte",
+        "du": "kalkuliertest",
+        "er_sie_es": "kalkulierte",
+        "wir": "kalkulierten",
+        "ihr": "kalkuliertet",
+        "sie_Sie": "kalkulierten"
+      },
+      "konjunktiv1": {
+        "ich": "kalkuliere",
+        "du": "kalkulierest",
+        "er_sie_es": "kalkuliere",
+        "wir": "kalkulieren",
+        "ihr": "kalkulieret",
+        "sie_Sie": "kalkulieren"
+      },
+      "konjunktiv2": {
+        "ich": "kalkulierte",
+        "du": "kalkuliertest",
+        "er_sie_es": "kalkulierte",
+        "wir": "kalkulierten",
+        "ihr": "kalkuliertet",
+        "sie_Sie": "kalkulierten"
+      },
+      "imperativ": {
+        "du": "Kalkuliere!",
+        "ihr": "Kalkuliert!",
+        "Sie": "Kalkulieren Sie!"
+      }
+    },
+    "partizip1": "kalkulierend",
+    "nominalisierung": "die Kalkulation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "rechnen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حساب کردن",
+          "en": "to calculate"
+        },
+        "id_ref": "verb_rechnen"
+      },
+      {
+        "wort": "die Kosten",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "هزینه‌ها",
+          "en": "costs"
+        },
+        "id_ref": "nomen_kosten"
+      },
+      {
+        "wort": "der Preis",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قیمت",
+          "en": "price"
+        },
+        "id_ref": "nomen_preis"
+      },
+      {
+        "wort": "die Kalkulation",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "برآورد هزینه",
+          "en": "calculation"
+        },
+        "id_ref": "nomen_kalkulation"
+      },
+      {
+        "wort": "das Budget",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بودجه",
+          "en": "budget"
+        },
+        "id_ref": "nomen_budget"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

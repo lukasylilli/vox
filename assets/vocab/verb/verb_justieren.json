@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_justieren",
+  "wort": "justieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تنظیم کردن (دقیق)",
+      "میزان کردن"
+    ],
+    "en": [
+      "to adjust",
+      "to calibrate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik"
+  ],
+  "ipa": "jʊsˈtiːʁən",
+  "anmerkung": "Regelmäßig (justierte, justiert).",
+  "berufe": [
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er justiert das Fernrohr.",
+      "uebersetzung": {
+        "fa": "او تلسکوپ را تنظیم می‌کند.",
+        "en": "He adjusts the telescope."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor wir messen können, muss die Waage genau justiert werden.",
+      "uebersetzung": {
+        "fa": "پیش از اینکه بتوانیم اندازه بگیریم، ترازو باید دقیق تنظیم شود.",
+        "en": "Before we can measure, the scale has to be adjusted precisely."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einstellen",
+      "uebersetzung": {
+        "fa": "تنظیم کردن",
+        "en": "to set"
+      }
+    },
+    {
+      "wort": "kalibrieren",
+      "uebersetzung": {
+        "fa": "کالیبره کردن",
+        "en": "to calibrate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. iustus (درست، دقیق) + -ieren",
+    "en": "lat. iustus (right, exact) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "justieren",
+      "praeteritum": "justierte",
+      "partizip2": "justiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "justiere",
+        "du": "justierst",
+        "er_sie_es": "justiert",
+        "wir": "justieren",
+        "ihr": "justiert",
+        "sie_Sie": "justieren"
+      },
+      "praeteritum": {
+        "ich": "justierte",
+        "du": "justiertest",
+        "er_sie_es": "justierte",
+        "wir": "justierten",
+        "ihr": "justiertet",
+        "sie_Sie": "justierten"
+      },
+      "konjunktiv1": {
+        "ich": "justiere",
+        "du": "justierest",
+        "er_sie_es": "justiere",
+        "wir": "justieren",
+        "ihr": "justieret",
+        "sie_Sie": "justieren"
+      },
+      "konjunktiv2": {
+        "ich": "justierte",
+        "du": "justiertest",
+        "er_sie_es": "justierte",
+        "wir": "justierten",
+        "ihr": "justiertet",
+        "sie_Sie": "justierten"
+      },
+      "imperativ": {
+        "du": "Justiere!",
+        "ihr": "Justiert!",
+        "Sie": "Justieren Sie!"
+      }
+    },
+    "partizip1": "justierend",
+    "nominalisierung": "die Justierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "einstellen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تنظیم کردن",
+          "en": "to set"
+        },
+        "id_ref": "verb_einstellen"
+      },
+      {
+        "wort": "kalibrieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کالیبره کردن",
+          "en": "to calibrate"
+        },
+        "id_ref": "verb_kalibrieren"
+      },
+      {
+        "wort": "genau",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دقیق",
+          "en": "exact"
+        },
+        "id_ref": "adjektiv_genau"
+      },
+      {
+        "wort": "das Gerät",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دستگاه",
+          "en": "device"
+        },
+        "id_ref": "nomen_geraet"
+      },
+      {
+        "wort": "die Justierung",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "تنظیم",
+          "en": "adjustment"
+        },
+        "id_ref": "nomen_justierung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

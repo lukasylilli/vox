@@ -1,0 +1,193 @@
+{
+  "schema": "3.0",
+  "id": "verb_kabbeln",
+  "wort": "kabbeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کل‌کل کردن",
+      "سر به سر هم گذاشتن"
+    ],
+    "en": [
+      "to bicker",
+      "to squabble"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Familie",
+    "Konflikt"
+  ],
+  "ipa": "ˈkabl̩n",
+  "anmerkung": "Regelmäßig (kabbelte, gekabbelt). Umgangssprachlich, norddeutsch; nur «sich kabbeln».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Geschwister kabbeln sich.",
+      "uebersetzung": {
+        "fa": "خواهر و برادرها با هم کل‌کل می‌کنند.",
+        "en": "The siblings are bickering."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die beiden kabbeln sich ständig, obwohl sie eigentlich beste Freunde sind.",
+      "uebersetzung": {
+        "fa": "آن دو مدام با هم کل‌کل می‌کنند، با اینکه در اصل بهترین دوستان هم‌اند.",
+        "en": "The two of them bicker constantly although they are actually best friends."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zanken",
+      "uebersetzung": {
+        "fa": "دعوا کردن",
+        "en": "to squabble"
+      }
+    },
+    {
+      "wort": "streiten",
+      "uebersetzung": {
+        "fa": "دعوا کردن",
+        "en": "to argue"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "vertragen",
+      "uebersetzung": {
+        "fa": "با هم کنار آمدن",
+        "en": "to get on"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich mit jemandem (Dat) kabbeln",
+        "bedeutung": "sich mit jemandem harmlos streiten",
+        "beispiel": "Er kabbelt sich gern mit seiner Schwester.",
+        "uebersetzung": {
+          "fa": "او دوست دارد با خواهرش کل‌کل کند.",
+          "en": "He likes to bicker with his sister."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "kabbeln",
+      "praeteritum": "kabbelte",
+      "partizip2": "gekabbelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kabble",
+        "du": "kabbelst",
+        "er_sie_es": "kabbelt",
+        "wir": "kabbeln",
+        "ihr": "kabbelt",
+        "sie_Sie": "kabbeln"
+      },
+      "praeteritum": {
+        "ich": "kabbelte",
+        "du": "kabbeltest",
+        "er_sie_es": "kabbelte",
+        "wir": "kabbelten",
+        "ihr": "kabbeltet",
+        "sie_Sie": "kabbelten"
+      },
+      "konjunktiv1": {
+        "ich": "kabble",
+        "du": "kabblest",
+        "er_sie_es": "kabble",
+        "wir": "kabbeln",
+        "ihr": "kabblet",
+        "sie_Sie": "kabbeln"
+      },
+      "konjunktiv2": {
+        "ich": "kabbelte",
+        "du": "kabbeltest",
+        "er_sie_es": "kabbelte",
+        "wir": "kabbelten",
+        "ihr": "kabbeltet",
+        "sie_Sie": "kabbelten"
+      },
+      "imperativ": {
+        "du": "Kabble!",
+        "ihr": "Kabbelt!",
+        "Sie": "Kabbeln Sie!"
+      }
+    },
+    "partizip1": "kabbelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "streiten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دعوا کردن",
+          "en": "to argue"
+        },
+        "id_ref": "verb_streiten"
+      },
+      {
+        "wort": "zanken",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دعوا کردن",
+          "en": "to squabble"
+        },
+        "id_ref": "verb_zanken"
+      },
+      {
+        "wort": "necken",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سربه‌سر گذاشتن",
+          "en": "to tease"
+        },
+        "id_ref": "verb_necken"
+      },
+      {
+        "wort": "die Geschwister",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خواهر و برادرها",
+          "en": "siblings"
+        },
+        "id_ref": "nomen_geschwister"
+      },
+      {
+        "wort": "der Streit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دعوا",
+          "en": "argument"
+        },
+        "id_ref": "nomen_streit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

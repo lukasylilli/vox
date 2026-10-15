@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_kalibrieren",
+  "wort": "kalibrieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کالیبره کردن",
+      "درجه‌بندی کردن"
+    ],
+    "en": [
+      "to calibrate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Wissenschaft"
+  ],
+  "ipa": "kaliˈbʁiːʁən",
+  "anmerkung": "Regelmäßig (kalibrierte, kalibriert).",
+  "berufe": [
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Techniker kalibriert das Gerät.",
+      "uebersetzung": {
+        "fa": "تکنسین دستگاه را کالیبره می‌کند.",
+        "en": "The technician calibrates the device."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Messgeräte müssen jedes Jahr kalibriert werden, damit die Werte zuverlässig bleiben.",
+      "uebersetzung": {
+        "fa": "دستگاه‌های اندازه‌گیری باید هر سال کالیبره شوند تا مقادیر قابل اعتماد بمانند.",
+        "en": "The measuring instruments have to be calibrated every year so that the values stay reliable."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "justieren",
+      "uebersetzung": {
+        "fa": "تنظیم کردن",
+        "en": "to adjust"
+      }
+    },
+    {
+      "wort": "eichen",
+      "uebersetzung": {
+        "fa": "درجه‌بندی کردن",
+        "en": "to gauge"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "frz. calibre (کالیبر، اندازه) + -ieren",
+    "en": "frz. calibre (gauge) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "kalibrieren",
+      "praeteritum": "kalibrierte",
+      "partizip2": "kalibriert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kalibriere",
+        "du": "kalibrierst",
+        "er_sie_es": "kalibriert",
+        "wir": "kalibrieren",
+        "ihr": "kalibriert",
+        "sie_Sie": "kalibrieren"
+      },
+      "praeteritum": {
+        "ich": "kalibrierte",
+        "du": "kalibriertest",
+        "er_sie_es": "kalibrierte",
+        "wir": "kalibrierten",
+        "ihr": "kalibriertet",
+        "sie_Sie": "kalibrierten"
+      },
+      "konjunktiv1": {
+        "ich": "kalibriere",
+        "du": "kalibrierest",
+        "er_sie_es": "kalibriere",
+        "wir": "kalibrieren",
+        "ihr": "kalibrieret",
+        "sie_Sie": "kalibrieren"
+      },
+      "konjunktiv2": {
+        "ich": "kalibrierte",
+        "du": "kalibriertest",
+        "er_sie_es": "kalibrierte",
+        "wir": "kalibrierten",
+        "ihr": "kalibriertet",
+        "sie_Sie": "kalibrierten"
+      },
+      "imperativ": {
+        "du": "Kalibriere!",
+        "ihr": "Kalibriert!",
+        "Sie": "Kalibrieren Sie!"
+      }
+    },
+    "partizip1": "kalibrierend",
+    "nominalisierung": "die Kalibrierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "messen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اندازه گرفتن",
+          "en": "to measure"
+        },
+        "id_ref": "verb_messen"
+      },
+      {
+        "wort": "justieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تنظیم کردن",
+          "en": "to adjust"
+        },
+        "id_ref": "verb_justieren"
+      },
+      {
+        "wort": "das Messgerät",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دستگاه اندازه‌گیری",
+          "en": "measuring instrument"
+        },
+        "id_ref": "nomen_messgeraet"
+      },
+      {
+        "wort": "genau",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دقیق",
+          "en": "exact"
+        },
+        "id_ref": "adjektiv_genau"
+      },
+      {
+        "wort": "die Kalibrierung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کالیبراسیون",
+          "en": "calibration"
+        },
+        "id_ref": "nomen_kalibrierung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

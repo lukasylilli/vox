@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_jucken",
+  "wort": "jucken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خاریدن",
+      "خارش داشتن"
+    ],
+    "en": [
+      "to itch"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Körper",
+    "Gesundheit"
+  ],
+  "ipa": "ˈjʊkn̩",
+  "anmerkung": "Regelmäßig (juckte, gejuckt). Umgangssprachlich: «Das juckt mich nicht» (das ist mir egal).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mein Arm juckt.",
+      "uebersetzung": {
+        "fa": "دستم می‌خارد.",
+        "en": "My arm itches."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Mückenstich hat die ganze Nacht gejuckt, sodass ich kaum schlafen konnte.",
+      "uebersetzung": {
+        "fa": "جای نیش پشه تمام شب خارید، طوری که به سختی خوابم برد.",
+        "en": "The mosquito bite itched all night so that I could hardly sleep."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kribbeln",
+      "uebersetzung": {
+        "fa": "مور مور شدن",
+        "en": "to tingle"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden (Akk) jucken",
+        "bedeutung": "bei jemandem einen Juckreiz verursachen",
+        "beispiel": "Der Wollpullover juckt mich am Hals.",
+        "uebersetzung": {
+          "fa": "پلیور پشمی گردنم را به خارش می‌اندازد.",
+          "en": "The wool jumper makes my neck itch."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "jucken",
+      "praeteritum": "juckte",
+      "partizip2": "gejuckt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "jucke",
+        "du": "juckst",
+        "er_sie_es": "juckt",
+        "wir": "jucken",
+        "ihr": "juckt",
+        "sie_Sie": "jucken"
+      },
+      "praeteritum": {
+        "ich": "juckte",
+        "du": "jucktest",
+        "er_sie_es": "juckte",
+        "wir": "juckten",
+        "ihr": "jucktet",
+        "sie_Sie": "juckten"
+      },
+      "konjunktiv1": {
+        "ich": "jucke",
+        "du": "juckest",
+        "er_sie_es": "jucke",
+        "wir": "jucken",
+        "ihr": "jucket",
+        "sie_Sie": "jucken"
+      },
+      "konjunktiv2": {
+        "ich": "juckte",
+        "du": "jucktest",
+        "er_sie_es": "juckte",
+        "wir": "juckten",
+        "ihr": "jucktet",
+        "sie_Sie": "juckten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "juckend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Juckreiz",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خارش",
+          "en": "itching"
+        },
+        "id_ref": "nomen_juckreiz"
+      },
+      {
+        "wort": "kratzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خاراندن",
+          "en": "to scratch"
+        },
+        "id_ref": "verb_kratzen"
+      },
+      {
+        "wort": "die Haut",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پوست",
+          "en": "skin"
+        },
+        "id_ref": "nomen_haut"
+      },
+      {
+        "wort": "der Mückenstich",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نیش پشه",
+          "en": "mosquito bite"
+        },
+        "id_ref": "nomen_mueckenstich"
+      },
+      {
+        "wort": "die Allergie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آلرژی",
+          "en": "allergy"
+        },
+        "id_ref": "nomen_allergie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
