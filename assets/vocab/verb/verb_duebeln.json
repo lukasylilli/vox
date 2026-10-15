@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_duebeln",
+  "wort": "dübeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "رول‌پلاک زدن"
+    ],
+    "en": [
+      "to fix with wall plugs",
+      "to dowel"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Handwerk",
+    "Wohnen"
+  ],
+  "ipa": "ˈdyːbl̩n",
+  "anmerkung": "Regelmäßig (dübelte, gedübelt).",
+  "berufe": [
+    "technik",
+    "bau"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er dübelt das Regal an die Wand.",
+      "uebersetzung": {
+        "fa": "قفسه را با رول‌پلاک به دیوار محکم می‌کند.",
+        "en": "He fixes the shelf to the wall with wall plugs."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Schwere Schränke muss man gut dübeln, damit sie nicht umfallen können.",
+      "uebersetzung": {
+        "fa": "کمدهای سنگین را باید خوب با رول‌پلاک محکم کرد تا نتوانند واژگون شوند.",
+        "en": "Heavy cupboards have to be fixed well with wall plugs so that they cannot fall over."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "befestigen",
+      "uebersetzung": {
+        "fa": "محکم کردن",
+        "en": "to fasten"
+      }
+    },
+    {
+      "wort": "anschrauben",
+      "uebersetzung": {
+        "fa": "پیچ کردن",
+        "en": "to screw on"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Dübel (رول‌پلاک) + -n",
+    "en": "Dübel (wall plug) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas an + Akk dübeln",
+        "bedeutung": "etwas mit Dübeln an einer Fläche befestigen",
+        "beispiel": "Sie dübelt den Spiegel an die Wand.",
+        "uebersetzung": {
+          "fa": "آینه را با رول‌پلاک به دیوار نصب می‌کند.",
+          "en": "She fixes the mirror to the wall with plugs."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "dübeln",
+      "praeteritum": "dübelte",
+      "partizip2": "gedübelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "düble",
+        "du": "dübelst",
+        "er_sie_es": "dübelt",
+        "wir": "dübeln",
+        "ihr": "dübelt",
+        "sie_Sie": "dübeln"
+      },
+      "praeteritum": {
+        "ich": "dübelte",
+        "du": "dübeltest",
+        "er_sie_es": "dübelte",
+        "wir": "dübelten",
+        "ihr": "dübeltet",
+        "sie_Sie": "dübelten"
+      },
+      "konjunktiv1": {
+        "ich": "düble",
+        "du": "düblest",
+        "er_sie_es": "düble",
+        "wir": "dübeln",
+        "ihr": "düblet",
+        "sie_Sie": "dübeln"
+      },
+      "konjunktiv2": {
+        "ich": "dübelte",
+        "du": "dübeltest",
+        "er_sie_es": "dübelte",
+        "wir": "dübelten",
+        "ihr": "dübeltet",
+        "sie_Sie": "dübelten"
+      },
+      "imperativ": {
+        "du": "Düble!",
+        "ihr": "Dübelt!",
+        "Sie": "Dübeln Sie!"
+      }
+    },
+    "partizip1": "dübelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Dübel",
+    "woerter": [
+      {
+        "wort": "die Wand",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دیوار",
+          "en": "wall"
+        },
+        "id_ref": "nomen_wand"
+      },
+      {
+        "wort": "bohren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سوراخ کردن",
+          "en": "to drill"
+        },
+        "id_ref": "verb_bohren"
+      },
+      {
+        "wort": "die Schraube",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیچ",
+          "en": "screw"
+        },
+        "id_ref": "nomen_schraube"
+      },
+      {
+        "wort": "der Dübel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رول‌پلاک",
+          "en": "wall plug"
+        },
+        "id_ref": "nomen_duebel"
+      },
+      {
+        "wort": "befestigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "محکم کردن",
+          "en": "to fasten"
+        },
+        "id_ref": "verb_befestigen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

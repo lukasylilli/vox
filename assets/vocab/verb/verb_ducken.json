@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_ducken",
+  "wort": "ducken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دولا شدن",
+      "سر خم کردن"
+    ],
+    "en": [
+      "to duck",
+      "to crouch"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Körper"
+  ],
+  "ipa": "ˈdʊkn̩",
+  "anmerkung": "Regelmäßig (duckte, geduckt). Meist reflexiv: sich ducken.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er duckt sich schnell.",
+      "uebersetzung": {
+        "fa": "به‌سرعت دولا می‌شود.",
+        "en": "He ducks quickly."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie duckte sich hinter das Auto, damit der Nachbar sie nicht sehen konnte.",
+      "uebersetzung": {
+        "fa": "پشت ماشین خم شد تا همسایه نتواند او را ببیند.",
+        "en": "She ducked behind the car so that the neighbour could not see her."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bücken",
+      "uebersetzung": {
+        "fa": "خم شدن",
+        "en": "to bend down"
+      }
+    },
+    {
+      "wort": "kauern",
+      "uebersetzung": {
+        "fa": "چمباتمه زدن",
+        "en": "to crouch"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich hinter + Akk ducken",
+        "bedeutung": "sich hinter etwas klein machen, um sich zu verstecken",
+        "beispiel": "Das Kind duckt sich hinter den Sessel.",
+        "uebersetzung": {
+          "fa": "بچه پشت مبل خم می‌شود.",
+          "en": "The child ducks behind the armchair."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ducken",
+      "praeteritum": "duckte",
+      "partizip2": "geduckt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ducke",
+        "du": "duckst",
+        "er_sie_es": "duckt",
+        "wir": "ducken",
+        "ihr": "duckt",
+        "sie_Sie": "ducken"
+      },
+      "praeteritum": {
+        "ich": "duckte",
+        "du": "ducktest",
+        "er_sie_es": "duckte",
+        "wir": "duckten",
+        "ihr": "ducktet",
+        "sie_Sie": "duckten"
+      },
+      "konjunktiv1": {
+        "ich": "ducke",
+        "du": "duckest",
+        "er_sie_es": "ducke",
+        "wir": "ducken",
+        "ihr": "ducket",
+        "sie_Sie": "ducken"
+      },
+      "konjunktiv2": {
+        "ich": "duckte",
+        "du": "ducktest",
+        "er_sie_es": "duckte",
+        "wir": "duckten",
+        "ihr": "ducktet",
+        "sie_Sie": "duckten"
+      },
+      "imperativ": {
+        "du": "Ducke!",
+        "ihr": "Duckt!",
+        "Sie": "Ducken Sie!"
+      }
+    },
+    "partizip1": "duckend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "ducken",
+    "woerter": [
+      {
+        "wort": "bücken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خم شدن",
+          "en": "to bend down"
+        },
+        "id_ref": "verb_buecken"
+      },
+      {
+        "wort": "verstecken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پنهان کردن",
+          "en": "to hide"
+        },
+        "id_ref": "verb_verstecken"
+      },
+      {
+        "wort": "der Kopf",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سر",
+          "en": "head"
+        },
+        "id_ref": "nomen_kopf"
+      },
+      {
+        "wort": "kauern",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "چمباتمه زدن",
+          "en": "to crouch"
+        },
+        "id_ref": "verb_kauern"
+      },
+      {
+        "wort": "ausweichen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جاخالی دادن",
+          "en": "to dodge"
+        },
+        "id_ref": "verb_ausweichen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

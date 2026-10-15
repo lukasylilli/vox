@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_duften",
+  "wort": "duften",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بوی خوش دادن"
+    ],
+    "en": [
+      "to smell (nice)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Sinne",
+    "Essen"
+  ],
+  "ipa": "ˈdʊftn̩",
+  "anmerkung": "Regelmäßig (duftete, geduftet). Ohne Imperativ.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Blumen duften.",
+      "uebersetzung": {
+        "fa": "گل‌ها بوی خوش می‌دهند.",
+        "en": "The flowers smell lovely."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Als ich die Küche betrat, duftete es nach frischem Brot und Kaffee.",
+      "uebersetzung": {
+        "fa": "وقتی وارد آشپزخانه شدم، بوی نان تازه و قهوه می‌آمد.",
+        "en": "When I entered the kitchen, it smelled of fresh bread and coffee."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "riechen",
+      "uebersetzung": {
+        "fa": "بو دادن",
+        "en": "to smell"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "stinken",
+      "uebersetzung": {
+        "fa": "بوی بد دادن",
+        "en": "to stink"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Duft (بوی خوش) + -en",
+    "en": "Duft (fragrance) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "nach + Dat duften",
+        "bedeutung": "einen angenehmen Geruch von etwas haben",
+        "beispiel": "Die Seife duftet nach Rosen.",
+        "uebersetzung": {
+          "fa": "صابون بوی گل رز می‌دهد.",
+          "en": "The soap smells of roses."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "duften",
+      "praeteritum": "duftete",
+      "partizip2": "geduftet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "dufte",
+        "du": "duftest",
+        "er_sie_es": "duftet",
+        "wir": "duften",
+        "ihr": "duftet",
+        "sie_Sie": "duften"
+      },
+      "praeteritum": {
+        "ich": "duftete",
+        "du": "duftetest",
+        "er_sie_es": "duftete",
+        "wir": "dufteten",
+        "ihr": "duftetet",
+        "sie_Sie": "dufteten"
+      },
+      "konjunktiv1": {
+        "ich": "dufte",
+        "du": "duftest",
+        "er_sie_es": "dufte",
+        "wir": "duften",
+        "ihr": "duftet",
+        "sie_Sie": "duften"
+      },
+      "konjunktiv2": {
+        "ich": "duftete",
+        "du": "duftetest",
+        "er_sie_es": "duftete",
+        "wir": "dufteten",
+        "ihr": "duftetet",
+        "sie_Sie": "dufteten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "duftend",
+    "nominalisierung": "der Duft"
+  },
+  "wortnetz": {
+    "grundwort": "Duft",
+    "woerter": [
+      {
+        "wort": "riechen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بو کردن، بو دادن",
+          "en": "to smell"
+        },
+        "id_ref": "verb_riechen"
+      },
+      {
+        "wort": "der Duft",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بوی خوش",
+          "en": "fragrance"
+        },
+        "id_ref": "nomen_duft"
+      },
+      {
+        "wort": "die Blume",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گل",
+          "en": "flower"
+        },
+        "id_ref": "nomen_blume"
+      },
+      {
+        "wort": "das Parfüm",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عطر",
+          "en": "perfume"
+        },
+        "id_ref": "nomen_parfuem"
+      },
+      {
+        "wort": "stinken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بوی بد دادن",
+          "en": "to stink"
+        },
+        "id_ref": "verb_stinken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

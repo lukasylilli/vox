@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_duellieren",
+  "wort": "duellieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دوئل کردن"
+    ],
+    "en": [
+      "to duel",
+      "to fight a duel"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Geschichte",
+    "Sport"
+  ],
+  "ipa": "duɛˈliːʁən",
+  "anmerkung": "Regelmäßig (duellierte, duelliert). Nur reflexiv: sich duellieren.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Männer duellieren sich.",
+      "uebersetzung": {
+        "fa": "مردها با هم دوئل می‌کنند.",
+        "en": "The men fight a duel."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Finale duellierten sich die beiden besten Tennisspielerinnen der Welt.",
+      "uebersetzung": {
+        "fa": "در فینال دو تنیس‌باز برتر جهان با هم رقابت کردند.",
+        "en": "In the final the two best tennis players in the world fought it out."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kämpfen",
+      "uebersetzung": {
+        "fa": "جنگیدن",
+        "en": "to fight"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Duell (دوئل) + -ieren",
+    "en": "Duell (duel) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich mit + Dat duellieren",
+        "bedeutung": "mit jemandem einen Zweikampf austragen",
+        "beispiel": "Er duelliert sich mit seinem Rivalen.",
+        "uebersetzung": {
+          "fa": "با رقیبش دوئل می‌کند.",
+          "en": "He fights a duel with his rival."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "duellieren",
+      "praeteritum": "duellierte",
+      "partizip2": "duelliert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "duelliere",
+        "du": "duellierst",
+        "er_sie_es": "duelliert",
+        "wir": "duellieren",
+        "ihr": "duelliert",
+        "sie_Sie": "duellieren"
+      },
+      "praeteritum": {
+        "ich": "duellierte",
+        "du": "duelliertest",
+        "er_sie_es": "duellierte",
+        "wir": "duellierten",
+        "ihr": "duelliertet",
+        "sie_Sie": "duellierten"
+      },
+      "konjunktiv1": {
+        "ich": "duelliere",
+        "du": "duellierest",
+        "er_sie_es": "duelliere",
+        "wir": "duellieren",
+        "ihr": "duellieret",
+        "sie_Sie": "duellieren"
+      },
+      "konjunktiv2": {
+        "ich": "duellierte",
+        "du": "duelliertest",
+        "er_sie_es": "duellierte",
+        "wir": "duellierten",
+        "ihr": "duelliertet",
+        "sie_Sie": "duellierten"
+      },
+      "imperativ": {
+        "du": "Duelliere!",
+        "ihr": "Duelliert!",
+        "Sie": "Duellieren Sie!"
+      }
+    },
+    "partizip1": "duellierend",
+    "nominalisierung": "das Duell"
+  },
+  "wortnetz": {
+    "grundwort": "Duell",
+    "woerter": [
+      {
+        "wort": "kämpfen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جنگیدن",
+          "en": "to fight"
+        },
+        "id_ref": "verb_kaempfen"
+      },
+      {
+        "wort": "das Duell",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دوئل",
+          "en": "duel"
+        },
+        "id_ref": "nomen_duell"
+      },
+      {
+        "wort": "der Gegner",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حریف",
+          "en": "opponent"
+        },
+        "id_ref": "nomen_gegner"
+      },
+      {
+        "wort": "der Kampf",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نبرد",
+          "en": "fight"
+        },
+        "id_ref": "nomen_kampf"
+      },
+      {
+        "wort": "der Rivale",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رقیب",
+          "en": "rival"
+        },
+        "id_ref": "nomen_rivale"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
