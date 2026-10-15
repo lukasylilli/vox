@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "verb_keltern",
+  "wort": "keltern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آب انگور گرفتن",
+      "فشردن (میوه)"
+    ],
+    "en": [
+      "to press (grapes)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Essen",
+    "Landwirtschaft"
+  ],
+  "ipa": "ˈkɛltɐn",
+  "anmerkung": "Regelmäßig (kelterte, gekeltert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Im Herbst keltern wir die Trauben.",
+      "uebersetzung": {
+        "fa": "پاییز انگورها را می‌فشاریم.",
+        "en": "In autumn we press the grapes."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Wein wird gekeltert, sobald die Trauben gelesen worden sind.",
+      "uebersetzung": {
+        "fa": "شراب به محض اینکه انگورها چیده شدند، فشرده می‌شود.",
+        "en": "The wine is pressed as soon as the grapes have been harvested."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "pressen",
+      "uebersetzung": {
+        "fa": "فشردن",
+        "en": "to press"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "die Kelter (دستگاه فشردن انگور) + -n",
+    "en": "die Kelter (wine press) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "keltern",
+      "praeteritum": "kelterte",
+      "partizip2": "gekeltert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "keltere",
+        "du": "kelterst",
+        "er_sie_es": "keltert",
+        "wir": "keltern",
+        "ihr": "keltert",
+        "sie_Sie": "keltern"
+      },
+      "praeteritum": {
+        "ich": "kelterte",
+        "du": "keltertest",
+        "er_sie_es": "kelterte",
+        "wir": "kelterten",
+        "ihr": "keltertet",
+        "sie_Sie": "kelterten"
+      },
+      "konjunktiv1": {
+        "ich": "keltere",
+        "du": "kelterest",
+        "er_sie_es": "keltere",
+        "wir": "keltern",
+        "ihr": "kelteret",
+        "sie_Sie": "keltern"
+      },
+      "konjunktiv2": {
+        "ich": "kelterte",
+        "du": "keltertest",
+        "er_sie_es": "kelterte",
+        "wir": "kelterten",
+        "ihr": "keltertet",
+        "sie_Sie": "kelterten"
+      },
+      "imperativ": {
+        "du": "Keltere!",
+        "ihr": "Keltert!",
+        "Sie": "Keltern Sie!"
+      }
+    },
+    "partizip1": "kelternd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Traube",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انگور",
+          "en": "grape"
+        },
+        "id_ref": "nomen_traube"
+      },
+      {
+        "wort": "der Wein",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شراب",
+          "en": "wine"
+        },
+        "id_ref": "nomen_wein"
+      },
+      {
+        "wort": "pressen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فشردن",
+          "en": "to press"
+        },
+        "id_ref": "verb_pressen"
+      },
+      {
+        "wort": "der Saft",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آبمیوه",
+          "en": "juice"
+        },
+        "id_ref": "nomen_saft"
+      },
+      {
+        "wort": "die Weinlese",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "انگورچینی",
+          "en": "grape harvest"
+        },
+        "id_ref": "nomen_weinlese"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

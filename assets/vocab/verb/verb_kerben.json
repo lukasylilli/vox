@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_kerben",
+  "wort": "kerben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شکاف انداختن",
+      "کنده‌کاری کردن (شیار)"
+    ],
+    "en": [
+      "to notch",
+      "to carve"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Handwerk"
+  ],
+  "ipa": "ˈkɛʁbn̩",
+  "anmerkung": "Regelmäßig (kerbte, gekerbt).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er kerbt ein Zeichen in den Baum.",
+      "uebersetzung": {
+        "fa": "او علامتی روی درخت شیار می‌اندازد.",
+        "en": "He notches a mark into the tree."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Früher kerbte man Striche in einen Stock, um Schulden festzuhalten.",
+      "uebersetzung": {
+        "fa": "قدیم روی چوب خط شیار می‌انداختند تا بدهی‌ها را ثبت کنند.",
+        "en": "In the past people notched lines into a stick to keep track of debts."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ritzen",
+      "uebersetzung": {
+        "fa": "خراش دادن",
+        "en": "to scratch"
+      }
+    },
+    {
+      "wort": "schnitzen",
+      "uebersetzung": {
+        "fa": "کنده‌کاری کردن",
+        "en": "to carve"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "die Kerbe (شکاف، شیار) + -n",
+    "en": "die Kerbe (notch) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "kerben",
+      "praeteritum": "kerbte",
+      "partizip2": "gekerbt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kerbe",
+        "du": "kerbst",
+        "er_sie_es": "kerbt",
+        "wir": "kerben",
+        "ihr": "kerbt",
+        "sie_Sie": "kerben"
+      },
+      "praeteritum": {
+        "ich": "kerbte",
+        "du": "kerbtest",
+        "er_sie_es": "kerbte",
+        "wir": "kerbten",
+        "ihr": "kerbtet",
+        "sie_Sie": "kerbten"
+      },
+      "konjunktiv1": {
+        "ich": "kerbe",
+        "du": "kerbest",
+        "er_sie_es": "kerbe",
+        "wir": "kerben",
+        "ihr": "kerbet",
+        "sie_Sie": "kerben"
+      },
+      "konjunktiv2": {
+        "ich": "kerbte",
+        "du": "kerbtest",
+        "er_sie_es": "kerbte",
+        "wir": "kerbten",
+        "ihr": "kerbtet",
+        "sie_Sie": "kerbten"
+      },
+      "imperativ": {
+        "du": "Kerbe!",
+        "ihr": "Kerbt!",
+        "Sie": "Kerben Sie!"
+      }
+    },
+    "partizip1": "kerbend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Kerbe",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شیار",
+          "en": "notch"
+        },
+        "id_ref": "nomen_kerbe"
+      },
+      {
+        "wort": "schnitzen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کنده‌کاری کردن",
+          "en": "to carve"
+        },
+        "id_ref": "verb_schnitzen"
+      },
+      {
+        "wort": "das Messer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چاقو",
+          "en": "knife"
+        },
+        "id_ref": "nomen_messer"
+      },
+      {
+        "wort": "das Holz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چوب",
+          "en": "wood"
+        },
+        "id_ref": "nomen_holz"
+      },
+      {
+        "wort": "ritzen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خراش دادن",
+          "en": "to scratch"
+        },
+        "id_ref": "verb_ritzen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

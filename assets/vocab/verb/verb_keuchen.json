@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_keuchen",
+  "wort": "keuchen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نفس‌نفس زدن",
+      "به سختی نفس کشیدن"
+    ],
+    "en": [
+      "to pant",
+      "to wheeze"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Körper",
+    "Gesundheit"
+  ],
+  "ipa": "ˈkɔɪ̯çn̩",
+  "anmerkung": "Regelmäßig (keuchte, gekeucht).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Läufer keucht.",
+      "uebersetzung": {
+        "fa": "دونده نفس‌نفس می‌زند.",
+        "en": "The runner is panting."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Patient keuchte bei jeder Bewegung, deshalb rief die Pflegerin den Arzt.",
+      "uebersetzung": {
+        "fa": "بیمار با هر حرکتی نفس‌نفس می‌زد، برای همین پرستار پزشک را صدا زد.",
+        "en": "The patient wheezed with every movement, so the nurse called the doctor."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "japsen",
+      "uebersetzung": {
+        "fa": "نفس‌نفس زدن",
+        "en": "to gasp"
+      }
+    },
+    {
+      "wort": "schnaufen",
+      "uebersetzung": {
+        "fa": "نفس‌نفس زدن",
+        "en": "to puff"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "keuchen",
+      "praeteritum": "keuchte",
+      "partizip2": "gekeucht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "keuche",
+        "du": "keuchst",
+        "er_sie_es": "keucht",
+        "wir": "keuchen",
+        "ihr": "keucht",
+        "sie_Sie": "keuchen"
+      },
+      "praeteritum": {
+        "ich": "keuchte",
+        "du": "keuchtest",
+        "er_sie_es": "keuchte",
+        "wir": "keuchten",
+        "ihr": "keuchtet",
+        "sie_Sie": "keuchten"
+      },
+      "konjunktiv1": {
+        "ich": "keuche",
+        "du": "keuchest",
+        "er_sie_es": "keuche",
+        "wir": "keuchen",
+        "ihr": "keuchet",
+        "sie_Sie": "keuchen"
+      },
+      "konjunktiv2": {
+        "ich": "keuchte",
+        "du": "keuchtest",
+        "er_sie_es": "keuchte",
+        "wir": "keuchten",
+        "ihr": "keuchtet",
+        "sie_Sie": "keuchten"
+      },
+      "imperativ": {
+        "du": "Keuche!",
+        "ihr": "Keucht!",
+        "Sie": "Keuchen Sie!"
+      }
+    },
+    "partizip1": "keuchend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "atmen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نفس کشیدن",
+          "en": "to breathe"
+        },
+        "id_ref": "verb_atmen"
+      },
+      {
+        "wort": "die Atemnot",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تنگی نفس",
+          "en": "shortness of breath"
+        },
+        "id_ref": "nomen_atemnot"
+      },
+      {
+        "wort": "husten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سرفه کردن",
+          "en": "to cough"
+        },
+        "id_ref": "verb_husten"
+      },
+      {
+        "wort": "japsen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نفس‌نفس زدن",
+          "en": "to gasp"
+        },
+        "id_ref": "verb_japsen"
+      },
+      {
+        "wort": "der Keuchhusten",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سیاه‌سرفه",
+          "en": "whooping cough"
+        },
+        "id_ref": "nomen_keuchhusten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

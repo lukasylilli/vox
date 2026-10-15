@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_kippeln",
+  "wort": "kippeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تاب خوردن (روی دو پایه‌ی صندلی)",
+      "لق بودن"
+    ],
+    "en": [
+      "to rock (on a chair)",
+      "to wobble"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Schule",
+    "Alltag"
+  ],
+  "ipa": "ˈkɪpl̩n",
+  "anmerkung": "Regelmäßig (kippelte, gekippelt).",
+  "berufe": [
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte nicht kippeln!",
+      "uebersetzung": {
+        "fa": "لطفاً با صندلی تاب نخور!",
+        "en": "Please do not rock on your chair!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil er ständig mit dem Stuhl kippelte, fiel er schließlich nach hinten.",
+      "uebersetzung": {
+        "fa": "چون مدام با صندلی تاب می‌خورد، سرانجام به عقب افتاد.",
+        "en": "Because he kept rocking on his chair, he finally fell backwards."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wackeln",
+      "uebersetzung": {
+        "fa": "لق خوردن",
+        "en": "to wobble"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "kippen (برگشتن) + -eln",
+    "en": "kippen (to tip) + -eln"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit etwas (Dat) kippeln",
+        "bedeutung": "mit einem Stuhl auf zwei Beinen schaukeln",
+        "beispiel": "Der Schüler kippelt immer mit seinem Stuhl.",
+        "uebersetzung": {
+          "fa": "آن دانش‌آموز همیشه با صندلی‌اش تاب می‌خورد.",
+          "en": "The pupil always rocks on his chair."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "kippeln",
+      "praeteritum": "kippelte",
+      "partizip2": "gekippelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kipple",
+        "du": "kippelst",
+        "er_sie_es": "kippelt",
+        "wir": "kippeln",
+        "ihr": "kippelt",
+        "sie_Sie": "kippeln"
+      },
+      "praeteritum": {
+        "ich": "kippelte",
+        "du": "kippeltest",
+        "er_sie_es": "kippelte",
+        "wir": "kippelten",
+        "ihr": "kippeltet",
+        "sie_Sie": "kippelten"
+      },
+      "konjunktiv1": {
+        "ich": "kipple",
+        "du": "kipplest",
+        "er_sie_es": "kipple",
+        "wir": "kippeln",
+        "ihr": "kipplet",
+        "sie_Sie": "kippeln"
+      },
+      "konjunktiv2": {
+        "ich": "kippelte",
+        "du": "kippeltest",
+        "er_sie_es": "kippelte",
+        "wir": "kippelten",
+        "ihr": "kippeltet",
+        "sie_Sie": "kippelten"
+      },
+      "imperativ": {
+        "du": "Kipple!",
+        "ihr": "Kippelt!",
+        "Sie": "Kippeln Sie!"
+      }
+    },
+    "partizip1": "kippelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "wackeln",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لق خوردن",
+          "en": "to wobble"
+        },
+        "id_ref": "verb_wackeln"
+      },
+      {
+        "wort": "der Stuhl",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "صندلی",
+          "en": "chair"
+        },
+        "id_ref": "nomen_stuhl"
+      },
+      {
+        "wort": "kippen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کج کردن، برگشتن",
+          "en": "to tip"
+        },
+        "id_ref": "verb_kippen"
+      },
+      {
+        "wort": "fallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "افتادن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_fallen"
+      },
+      {
+        "wort": "das Gleichgewicht",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تعادل",
+          "en": "balance"
+        },
+        "id_ref": "nomen_gleichgewicht"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
