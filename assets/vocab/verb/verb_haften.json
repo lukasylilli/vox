@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_haften",
+  "wort": "haften",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "چسبیدن",
+      "مسئول بودن"
+    ],
+    "en": [
+      "to stick",
+      "to be liable"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Recht",
+    "Alltag"
+  ],
+  "ipa": "ˈhaftn̩",
+  "anmerkung": "Regelmäßig (haftete, gehaftet).",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Etikett haftet gut.",
+      "uebersetzung": {
+        "fa": "برچسب خوب می‌چسبد.",
+        "en": "The label sticks well."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Eltern haften für ihre Kinder, wenn diese auf der Baustelle einen Schaden verursachen.",
+      "uebersetzung": {
+        "fa": "والدین مسئول بچه‌هایشان هستند اگر در کارگاه ساختمانی خسارتی بزنند.",
+        "en": "Parents are liable for their children if they cause damage on the building site."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kleben",
+      "uebersetzung": {
+        "fa": "چسبیدن",
+        "en": "to stick"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "für + Akk haften",
+        "bedeutung": "für einen Schaden verantwortlich sein",
+        "beispiel": "Wir haften nicht für verlorene Gegenstände.",
+        "uebersetzung": {
+          "fa": "ما مسئول وسایل گم‌شده نیستیم.",
+          "en": "We are not liable for lost items."
+        }
+      },
+      {
+        "muster": "an + Dat haften",
+        "bedeutung": "an etwas fest kleben",
+        "beispiel": "Der Schmutz haftet an den Schuhen.",
+        "uebersetzung": {
+          "fa": "گِل به کفش‌ها چسبیده است.",
+          "en": "The dirt is sticking to the shoes."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "haften",
+      "praeteritum": "haftete",
+      "partizip2": "gehaftet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "hafte",
+        "du": "haftest",
+        "er_sie_es": "haftet",
+        "wir": "haften",
+        "ihr": "haftet",
+        "sie_Sie": "haften"
+      },
+      "praeteritum": {
+        "ich": "haftete",
+        "du": "haftetest",
+        "er_sie_es": "haftete",
+        "wir": "hafteten",
+        "ihr": "haftetet",
+        "sie_Sie": "hafteten"
+      },
+      "konjunktiv1": {
+        "ich": "hafte",
+        "du": "haftest",
+        "er_sie_es": "hafte",
+        "wir": "haften",
+        "ihr": "haftet",
+        "sie_Sie": "haften"
+      },
+      "konjunktiv2": {
+        "ich": "haftete",
+        "du": "haftetest",
+        "er_sie_es": "haftete",
+        "wir": "hafteten",
+        "ihr": "haftetet",
+        "sie_Sie": "hafteten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "haftend",
+    "nominalisierung": "die Haftung"
+  },
+  "wortnetz": {
+    "grundwort": "Haftung",
+    "woerter": [
+      {
+        "wort": "kleben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چسبیدن",
+          "en": "to stick"
+        },
+        "id_ref": "verb_kleben"
+      },
+      {
+        "wort": "verantwortlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مسئول",
+          "en": "responsible"
+        },
+        "id_ref": "adjektiv_verantwortlich"
+      },
+      {
+        "wort": "der Schaden",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خسارت",
+          "en": "damage"
+        },
+        "id_ref": "nomen_schaden"
+      },
+      {
+        "wort": "die Versicherung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیمه",
+          "en": "insurance"
+        },
+        "id_ref": "nomen_versicherung"
+      },
+      {
+        "wort": "die Haftung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مسئولیت حقوقی",
+          "en": "liability"
+        },
+        "id_ref": "nomen_haftung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

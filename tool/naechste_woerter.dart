@@ -1671,6 +1671,8 @@ const zurueckgestellt = <String>{
   'grummeln', // zurückgestellt: umgangssprachlich mit mehreren Bedeutungen (murren, Magen, Donner); nicht sicher (Regel 14) 2026-10-15
   'gründeln', // zurückgestellt: Fachwort Zoologie (Enten, Fische: am Grund nach Nahrung suchen), selten (Regel 14) 2026-10-15
   'guillotinieren', // zurückgestellt: historisch/selten (mit der Guillotine hinrichten); Gebrauch nicht sicher (Regel 14) 2026-10-15
+  'gustieren', // zurückgestellt: regional (österreichisch: kosten, probieren); Gebrauch nicht sicher (Regel 14) 2026-10-15
+  'hakeln', // zurückgestellt: regional (bairisch/österreichisch: Fingerhakeln; Sport: Gegner mit dem Fuß zu Fall bringen), mehrere Bedeutungen; nicht sicher (Regel 14) 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

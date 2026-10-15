@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_hacken",
+  "wort": "hacken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خرد کردن",
+      "نوک زدن",
+      "هک کردن"
+    ],
+    "en": [
+      "to chop",
+      "to peck",
+      "to hack"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Kochen",
+    "Computer"
+  ],
+  "ipa": "ˈhakn̩",
+  "anmerkung": "Regelmäßig (hackte, gehackt). Auch: «Holz hacken» (spalten); «gehacktes Fleisch» (Hackfleisch).",
+  "berufe": [
+    "it",
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich hacke die Zwiebeln.",
+      "uebersetzung": {
+        "fa": "پیازها را خرد می‌کنم.",
+        "en": "I chop the onions."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Unbekannte haben das Computersystem der Stadt gehackt und Daten gestohlen.",
+      "uebersetzung": {
+        "fa": "افرادی ناشناس سیستم رایانه‌ای شهر را هک کردند و داده‌ها را دزدیدند.",
+        "en": "Unknown persons hacked the city’s computer system and stole data."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schneiden",
+      "uebersetzung": {
+        "fa": "بریدن",
+        "en": "to cut"
+      }
+    },
+    {
+      "wort": "zerkleinern",
+      "uebersetzung": {
+        "fa": "ریز کردن",
+        "en": "to chop up"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "nach + Dat hacken",
+        "bedeutung": "mit dem Schnabel nach etwas stoßen",
+        "beispiel": "Der Vogel hackt nach den Krümeln.",
+        "uebersetzung": {
+          "fa": "پرنده به خرده‌نان‌ها نوک می‌زند.",
+          "en": "The bird pecks at the crumbs."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hacken",
+      "praeteritum": "hackte",
+      "partizip2": "gehackt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "hacke",
+        "du": "hackst",
+        "er_sie_es": "hackt",
+        "wir": "hacken",
+        "ihr": "hackt",
+        "sie_Sie": "hacken"
+      },
+      "praeteritum": {
+        "ich": "hackte",
+        "du": "hacktest",
+        "er_sie_es": "hackte",
+        "wir": "hackten",
+        "ihr": "hacktet",
+        "sie_Sie": "hackten"
+      },
+      "konjunktiv1": {
+        "ich": "hacke",
+        "du": "hackest",
+        "er_sie_es": "hacke",
+        "wir": "hacken",
+        "ihr": "hacket",
+        "sie_Sie": "hacken"
+      },
+      "konjunktiv2": {
+        "ich": "hackte",
+        "du": "hacktest",
+        "er_sie_es": "hackte",
+        "wir": "hackten",
+        "ihr": "hacktet",
+        "sie_Sie": "hackten"
+      },
+      "imperativ": {
+        "du": "Hacke!",
+        "ihr": "Hackt!",
+        "Sie": "Hacken Sie!"
+      }
+    },
+    "partizip1": "hackend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "schneiden",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بریدن",
+          "en": "to cut"
+        },
+        "id_ref": "verb_schneiden"
+      },
+      {
+        "wort": "das Messer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چاقو",
+          "en": "knife"
+        },
+        "id_ref": "nomen_messer"
+      },
+      {
+        "wort": "das Hackfleisch",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گوشت چرخ‌کرده",
+          "en": "minced meat"
+        },
+        "id_ref": "nomen_hackfleisch"
+      },
+      {
+        "wort": "der Hacker",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "هکر",
+          "en": "hacker"
+        },
+        "id_ref": "nomen_hacker"
+      },
+      {
+        "wort": "die Axt",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تبر",
+          "en": "axe"
+        },
+        "id_ref": "nomen_axt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
