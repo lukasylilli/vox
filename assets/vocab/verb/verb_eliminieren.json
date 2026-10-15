@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_eliminieren",
+  "wort": "eliminieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "حذف کردن",
+      "از میان برداشتن"
+    ],
+    "en": [
+      "to eliminate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft",
+    "Sport"
+  ],
+  "ipa": "elimiˈniːʁən",
+  "anmerkung": "Regelmäßig (eliminierte, eliminiert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir eliminieren den Fehler.",
+      "uebersetzung": {
+        "fa": "خطا را حذف می‌کنیم.",
+        "en": "We eliminate the error."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Leber eliminiert Giftstoffe aus dem Blut, damit sie dem Körper nicht schaden.",
+      "uebersetzung": {
+        "fa": "کبد مواد سمی را از خون حذف می‌کند تا به بدن آسیب نزنند.",
+        "en": "The liver eliminates toxins from the blood so that they do not harm the body."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beseitigen",
+      "uebersetzung": {
+        "fa": "رفع کردن",
+        "en": "to remove"
+      }
+    },
+    {
+      "wort": "entfernen",
+      "uebersetzung": {
+        "fa": "برداشتن",
+        "en": "to remove"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. eliminare (بیرون راندن)",
+    "en": "Latin eliminare (to turn out of doors)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas aus + Dat eliminieren",
+        "bedeutung": "etwas aus einem Ganzen entfernen",
+        "beispiel": "Man eliminiert die Daten aus der Liste.",
+        "uebersetzung": {
+          "fa": "داده‌ها را از فهرست حذف می‌کنند.",
+          "en": "The data is eliminated from the list."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "eliminieren",
+      "praeteritum": "eliminierte",
+      "partizip2": "eliminiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "eliminiere",
+        "du": "eliminierst",
+        "er_sie_es": "eliminiert",
+        "wir": "eliminieren",
+        "ihr": "eliminiert",
+        "sie_Sie": "eliminieren"
+      },
+      "praeteritum": {
+        "ich": "eliminierte",
+        "du": "eliminiertest",
+        "er_sie_es": "eliminierte",
+        "wir": "eliminierten",
+        "ihr": "eliminiertet",
+        "sie_Sie": "eliminierten"
+      },
+      "konjunktiv1": {
+        "ich": "eliminiere",
+        "du": "eliminierest",
+        "er_sie_es": "eliminiere",
+        "wir": "eliminieren",
+        "ihr": "eliminieret",
+        "sie_Sie": "eliminieren"
+      },
+      "konjunktiv2": {
+        "ich": "eliminierte",
+        "du": "eliminiertest",
+        "er_sie_es": "eliminierte",
+        "wir": "eliminierten",
+        "ihr": "eliminiertet",
+        "sie_Sie": "eliminierten"
+      },
+      "imperativ": {
+        "du": "Eliminiere!",
+        "ihr": "Eliminiert!",
+        "Sie": "Eliminieren Sie!"
+      }
+    },
+    "partizip1": "eliminierend",
+    "nominalisierung": "die Eliminierung"
+  },
+  "wortnetz": {
+    "grundwort": "Elimination",
+    "woerter": [
+      {
+        "wort": "entfernen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برداشتن",
+          "en": "to remove"
+        },
+        "id_ref": "verb_entfernen"
+      },
+      {
+        "wort": "beseitigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رفع کردن",
+          "en": "to remove"
+        },
+        "id_ref": "verb_beseitigen"
+      },
+      {
+        "wort": "löschen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پاک کردن",
+          "en": "to delete"
+        },
+        "id_ref": "verb_loeschen"
+      },
+      {
+        "wort": "ausschließen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کنار گذاشتن",
+          "en": "to exclude"
+        },
+        "id_ref": "verb_ausschliessen"
+      },
+      {
+        "wort": "der Fehler",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اشتباه",
+          "en": "mistake"
+        },
+        "id_ref": "nomen_fehler"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

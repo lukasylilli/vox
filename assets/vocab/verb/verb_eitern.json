@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_eitern",
+  "wort": "eitern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "چرک کردن"
+    ],
+    "en": [
+      "to fester",
+      "to suppurate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Körper"
+  ],
+  "ipa": "ˈaɪ̯tɐn",
+  "anmerkung": "Regelmäßig (eiterte, geeitert). Ohne Imperativ.",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Wunde eitert.",
+      "uebersetzung": {
+        "fa": "زخم چرک کرده است.",
+        "en": "The wound is festering."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil die Wunde nicht richtig gereinigt wurde, hat sie nach ein paar Tagen angefangen zu eitern.",
+      "uebersetzung": {
+        "fa": "چون زخم درست تمیز نشده بود، بعد از چند روز شروع به چرک کردن کرد.",
+        "en": "Because the wound was not cleaned properly, it started to fester after a few days."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich entzünden",
+      "uebersetzung": {
+        "fa": "عفونت کردن",
+        "en": "to become inflamed"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Eiter (چرک) + -n",
+    "en": "Eiter (pus) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "eitern",
+      "praeteritum": "eiterte",
+      "partizip2": "geeitert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "eitere",
+        "du": "eiterst",
+        "er_sie_es": "eitert",
+        "wir": "eitern",
+        "ihr": "eitert",
+        "sie_Sie": "eitern"
+      },
+      "praeteritum": {
+        "ich": "eiterte",
+        "du": "eitertest",
+        "er_sie_es": "eiterte",
+        "wir": "eiterten",
+        "ihr": "eitertet",
+        "sie_Sie": "eiterten"
+      },
+      "konjunktiv1": {
+        "ich": "eitere",
+        "du": "eiterest",
+        "er_sie_es": "eitere",
+        "wir": "eitern",
+        "ihr": "eiteret",
+        "sie_Sie": "eitern"
+      },
+      "konjunktiv2": {
+        "ich": "eiterte",
+        "du": "eitertest",
+        "er_sie_es": "eiterte",
+        "wir": "eiterten",
+        "ihr": "eitertet",
+        "sie_Sie": "eiterten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "eiternd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Eiter",
+    "woerter": [
+      {
+        "wort": "die Wunde",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زخم",
+          "en": "wound"
+        },
+        "id_ref": "nomen_wunde"
+      },
+      {
+        "wort": "der Eiter",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "چرک",
+          "en": "pus"
+        },
+        "id_ref": "nomen_eiter"
+      },
+      {
+        "wort": "die Entzündung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "التهاب",
+          "en": "inflammation"
+        },
+        "id_ref": "nomen_entzuendung"
+      },
+      {
+        "wort": "die Infektion",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عفونت",
+          "en": "infection"
+        },
+        "id_ref": "nomen_infektion"
+      },
+      {
+        "wort": "entzünden",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ملتهب شدن",
+          "en": "to become inflamed"
+        },
+        "id_ref": "verb_entzuenden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

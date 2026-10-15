@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_emigrieren",
+  "wort": "emigrieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مهاجرت کردن (به خارج)"
+    ],
+    "en": [
+      "to emigrate"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Migration"
+  ],
+  "ipa": "emiˈɡʁiːʁən",
+  "anmerkung": "Regelmäßig (emigrierte, emigriert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Familie emigriert nach Kanada.",
+      "uebersetzung": {
+        "fa": "خانواده به کانادا مهاجرت می‌کند.",
+        "en": "The family is emigrating to Canada."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Viele Künstler sind in den Dreißigerjahren emigriert, weil sie in Deutschland verfolgt wurden.",
+      "uebersetzung": {
+        "fa": "بسیاری از هنرمندان در دهه‌ی سی مهاجرت کردند، چون در آلمان تحت تعقیب بودند.",
+        "en": "Many artists emigrated in the thirties because they were persecuted in Germany."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "auswandern",
+      "uebersetzung": {
+        "fa": "مهاجرت کردن",
+        "en": "to emigrate"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "immigrieren",
+      "uebersetzung": {
+        "fa": "به کشوری مهاجرت کردن",
+        "en": "to immigrate"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. emigrare (کوچ کردن)",
+    "en": "Latin emigrare (to move away)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "nach + Dat emigrieren",
+        "bedeutung": "in ein anderes Land auswandern",
+        "beispiel": "Er emigrierte nach Australien.",
+        "uebersetzung": {
+          "fa": "به استرالیا مهاجرت کرد.",
+          "en": "He emigrated to Australia."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "emigrieren",
+      "praeteritum": "emigrierte",
+      "partizip2": "emigriert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "emigriere",
+        "du": "emigrierst",
+        "er_sie_es": "emigriert",
+        "wir": "emigrieren",
+        "ihr": "emigriert",
+        "sie_Sie": "emigrieren"
+      },
+      "praeteritum": {
+        "ich": "emigrierte",
+        "du": "emigriertest",
+        "er_sie_es": "emigrierte",
+        "wir": "emigrierten",
+        "ihr": "emigriertet",
+        "sie_Sie": "emigrierten"
+      },
+      "konjunktiv1": {
+        "ich": "emigriere",
+        "du": "emigrierest",
+        "er_sie_es": "emigriere",
+        "wir": "emigrieren",
+        "ihr": "emigrieret",
+        "sie_Sie": "emigrieren"
+      },
+      "konjunktiv2": {
+        "ich": "emigrierte",
+        "du": "emigriertest",
+        "er_sie_es": "emigrierte",
+        "wir": "emigrierten",
+        "ihr": "emigriertet",
+        "sie_Sie": "emigrierten"
+      },
+      "imperativ": {
+        "du": "Emigriere!",
+        "ihr": "Emigriert!",
+        "Sie": "Emigrieren Sie!"
+      }
+    },
+    "partizip1": "emigrierend",
+    "nominalisierung": "die Emigration"
+  },
+  "wortnetz": {
+    "grundwort": "Emigration",
+    "woerter": [
+      {
+        "wort": "auswandern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مهاجرت کردن",
+          "en": "to emigrate"
+        },
+        "id_ref": "verb_auswandern"
+      },
+      {
+        "wort": "das Ausland",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خارج از کشور",
+          "en": "abroad"
+        },
+        "id_ref": "nomen_ausland"
+      },
+      {
+        "wort": "die Heimat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "میهن",
+          "en": "homeland"
+        },
+        "id_ref": "nomen_heimat"
+      },
+      {
+        "wort": "der Flüchtling",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پناهنده",
+          "en": "refugee"
+        },
+        "id_ref": "nomen_fluechtling"
+      },
+      {
+        "wort": "die Emigration",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مهاجرت",
+          "en": "emigration"
+        },
+        "id_ref": "nomen_emigration"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

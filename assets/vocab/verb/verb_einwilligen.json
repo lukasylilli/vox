@@ -1,0 +1,198 @@
+{
+  "schema": "3.0",
+  "id": "verb_einwilligen",
+  "wort": "einwilligen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "رضایت دادن",
+      "موافقت کردن"
+    ],
+    "en": [
+      "to consent",
+      "to agree"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Medizin"
+  ],
+  "ipa": "ˈaɪ̯nˌvɪlɪɡn̩",
+  "anmerkung": "Trennbar (willigte ein, eingewilligt).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Patient willigt ein.",
+      "uebersetzung": {
+        "fa": "بیمار رضایت می‌دهد.",
+        "en": "The patient consents."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Vor der Operation muss der Patient schriftlich in den Eingriff einwilligen.",
+      "uebersetzung": {
+        "fa": "پیش از عمل، بیمار باید کتبی با جراحی موافقت کند.",
+        "en": "Before the operation the patient has to consent to the procedure in writing."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zustimmen",
+      "uebersetzung": {
+        "fa": "موافقت کردن",
+        "en": "to agree"
+      }
+    },
+    {
+      "wort": "erlauben",
+      "uebersetzung": {
+        "fa": "اجازه دادن",
+        "en": "to allow"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ablehnen",
+      "uebersetzung": {
+        "fa": "رد کردن",
+        "en": "to refuse"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- + Wille (اراده)",
+    "en": "ein- + Wille (will)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in + Akk einwilligen",
+        "bedeutung": "einer Sache ausdrücklich zustimmen",
+        "beispiel": "Sie willigt in die Scheidung ein.",
+        "uebersetzung": {
+          "fa": "با طلاق موافقت می‌کند.",
+          "en": "She consents to the divorce."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "einwilligen",
+      "praeteritum": "willigte ein",
+      "partizip2": "eingewilligt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "willige ein",
+        "du": "willigst ein",
+        "er_sie_es": "willigt ein",
+        "wir": "willigen ein",
+        "ihr": "willigt ein",
+        "sie_Sie": "willigen ein"
+      },
+      "praeteritum": {
+        "ich": "willigte ein",
+        "du": "willigtest ein",
+        "er_sie_es": "willigte ein",
+        "wir": "willigten ein",
+        "ihr": "willigtet ein",
+        "sie_Sie": "willigten ein"
+      },
+      "konjunktiv1": {
+        "ich": "willige ein",
+        "du": "willigest ein",
+        "er_sie_es": "willige ein",
+        "wir": "willigen ein",
+        "ihr": "williget ein",
+        "sie_Sie": "willigen ein"
+      },
+      "konjunktiv2": {
+        "ich": "willigte ein",
+        "du": "willigtest ein",
+        "er_sie_es": "willigte ein",
+        "wir": "willigten ein",
+        "ihr": "willigtet ein",
+        "sie_Sie": "willigten ein"
+      },
+      "imperativ": {
+        "du": "Willige ein!",
+        "ihr": "Willigt ein!",
+        "Sie": "Willigen Sie ein!"
+      }
+    },
+    "partizip1": "einwilligend",
+    "nominalisierung": "die Einwilligung"
+  },
+  "wortnetz": {
+    "grundwort": "Wille",
+    "woerter": [
+      {
+        "wort": "zustimmen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "موافقت کردن",
+          "en": "to agree"
+        },
+        "id_ref": "verb_zustimmen"
+      },
+      {
+        "wort": "der Wille",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اراده",
+          "en": "will"
+        },
+        "id_ref": "nomen_wille"
+      },
+      {
+        "wort": "die Einwilligung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رضایت",
+          "en": "consent"
+        },
+        "id_ref": "nomen_einwilligung"
+      },
+      {
+        "wort": "erlauben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اجازه دادن",
+          "en": "to allow"
+        },
+        "id_ref": "verb_erlauben"
+      },
+      {
+        "wort": "ablehnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رد کردن",
+          "en": "to refuse"
+        },
+        "id_ref": "verb_ablehnen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
