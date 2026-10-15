@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_entlasten",
+  "wort": "entlasten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سبک کردن بار",
+      "تبرئه کردن"
+    ],
+    "en": [
+      "to relieve",
+      "to exonerate"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit",
+    "Recht"
+  ],
+  "ipa": "ɛntˈlastn̩",
+  "anmerkung": "Regelmäßig (entlastete, entlastet). Untrennbar.",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die neue Kollegin entlastet mich.",
+      "uebersetzung": {
+        "fa": "همکار جدید بار کارم را سبک می‌کند.",
+        "en": "The new colleague takes some work off me."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ein Zeuge entlastete den Angeklagten, weil er ihn zur Tatzeit im Kino gesehen hatte.",
+      "uebersetzung": {
+        "fa": "یک شاهد متهم را تبرئه کرد، چون او را در زمان جرم در سینما دیده بود.",
+        "en": "A witness exonerated the defendant because he had seen him at the cinema at the time of the crime."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erleichtern",
+      "uebersetzung": {
+        "fa": "آسان کردن",
+        "en": "to make easier"
+      }
+    },
+    {
+      "wort": "unterstützen",
+      "uebersetzung": {
+        "fa": "حمایت کردن",
+        "en": "to support"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "belasten",
+      "uebersetzung": {
+        "fa": "زیر بار گذاشتن",
+        "en": "to burden"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- (برداشتن) + Last (بار)",
+    "en": "ent- (removal) + Last (load)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "entlasten",
+      "praeteritum": "entlastete",
+      "partizip2": "entlastet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entlaste",
+        "du": "entlastest",
+        "er_sie_es": "entlastet",
+        "wir": "entlasten",
+        "ihr": "entlastet",
+        "sie_Sie": "entlasten"
+      },
+      "praeteritum": {
+        "ich": "entlastete",
+        "du": "entlastetest",
+        "er_sie_es": "entlastete",
+        "wir": "entlasteten",
+        "ihr": "entlastetet",
+        "sie_Sie": "entlasteten"
+      },
+      "konjunktiv1": {
+        "ich": "entlaste",
+        "du": "entlastest",
+        "er_sie_es": "entlaste",
+        "wir": "entlasten",
+        "ihr": "entlastet",
+        "sie_Sie": "entlasten"
+      },
+      "konjunktiv2": {
+        "ich": "entlastete",
+        "du": "entlastetest",
+        "er_sie_es": "entlastete",
+        "wir": "entlasteten",
+        "ihr": "entlastetet",
+        "sie_Sie": "entlasteten"
+      },
+      "imperativ": {
+        "du": "Entlaste!",
+        "ihr": "Entlastet!",
+        "Sie": "Entlasten Sie!"
+      }
+    },
+    "partizip1": "entlastend",
+    "nominalisierung": "die Entlastung"
+  },
+  "wortnetz": {
+    "grundwort": "Last",
+    "woerter": [
+      {
+        "wort": "die Last",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بار",
+          "en": "burden"
+        },
+        "id_ref": "nomen_last"
+      },
+      {
+        "wort": "belasten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زیر بار گذاشتن",
+          "en": "to burden"
+        },
+        "id_ref": "verb_belasten"
+      },
+      {
+        "wort": "helfen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک کردن",
+          "en": "to help"
+        },
+        "id_ref": "verb_helfen"
+      },
+      {
+        "wort": "erleichtern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آسان کردن",
+          "en": "to make easier"
+        },
+        "id_ref": "verb_erleichtern"
+      },
+      {
+        "wort": "der Stress",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "استرس",
+          "en": "stress"
+        },
+        "id_ref": "nomen_stress"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1615,6 +1615,9 @@ const zurueckgestellt = <String>{
   'einverleiben', // zurückgestellt (Regel 3/16): Präteritum/Partizip schwanken (verleibte ein / einverleibte; einverleibt) ⇒ trennbar nicht sicher, lieber kein Symbol als ein falsches 2026-10-15
   'ejakulieren', // zurückgestellt: sexueller Bezug (wie masturbatorisch, promisk) — Entscheidung Lukas 2026-10-15
   'entblöden', // zurückgestellt (Regel 14/16): nur in der festen Wendung «sich nicht entblöden, … zu …» (gehoben/veraltend); Gebrauch nicht sicher 2026-10-15
+  'entleiben', // zurückgestellt: «sich entleiben» = Selbsttötung (gehoben/veraltet), sensibles Thema — Entscheidung Lukas 2026-10-15
+  'entpersönlichen', // zurückgestellt: selten, Gebrauch nicht sicher (Regel 14) 2026-10-15
+  'entrinden', // zurückgestellt: Fachwort Forst, selten (Regel 14) 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

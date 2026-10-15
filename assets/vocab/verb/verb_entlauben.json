@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_entlauben",
+  "wort": "entlauben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "برگ‌های چیزی را ریختن",
+      "بی‌برگ کردن"
+    ],
+    "en": [
+      "to defoliate",
+      "to strip of leaves"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Natur",
+    "Jahreszeiten"
+  ],
+  "ipa": "ɛntˈlaʊ̯bn̩",
+  "anmerkung": "Regelmäßig (entlaubte, entlaubt). Untrennbar. Meist reflexiv: «sich entlauben» (Bäume im Herbst).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Im Herbst entlauben sich die Bäume.",
+      "uebersetzung": {
+        "fa": "در پاییز برگ درختان می‌ریزد.",
+        "en": "In autumn the trees lose their leaves."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Sturm hat die Bäume so stark entlaubt, dass sie schon im September kahl waren.",
+      "uebersetzung": {
+        "fa": "توفان چنان برگ درختان را ریخت که از شهریور لخت شده بودند.",
+        "en": "The storm stripped the trees of their leaves so badly that they were bare in September."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kahl werden",
+      "uebersetzung": {
+        "fa": "لخت شدن",
+        "en": "to become bare"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ausschlagen",
+      "uebersetzung": {
+        "fa": "جوانه زدن",
+        "en": "to come into leaf"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- (برداشتن) + Laub (برگ درختان)",
+    "en": "ent- (removal) + Laub (foliage)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "entlauben",
+      "praeteritum": "entlaubte",
+      "partizip2": "entlaubt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entlaube",
+        "du": "entlaubst",
+        "er_sie_es": "entlaubt",
+        "wir": "entlauben",
+        "ihr": "entlaubt",
+        "sie_Sie": "entlauben"
+      },
+      "praeteritum": {
+        "ich": "entlaubte",
+        "du": "entlaubtest",
+        "er_sie_es": "entlaubte",
+        "wir": "entlaubten",
+        "ihr": "entlaubtet",
+        "sie_Sie": "entlaubten"
+      },
+      "konjunktiv1": {
+        "ich": "entlaube",
+        "du": "entlaubest",
+        "er_sie_es": "entlaube",
+        "wir": "entlauben",
+        "ihr": "entlaubet",
+        "sie_Sie": "entlauben"
+      },
+      "konjunktiv2": {
+        "ich": "entlaubte",
+        "du": "entlaubtest",
+        "er_sie_es": "entlaubte",
+        "wir": "entlaubten",
+        "ihr": "entlaubtet",
+        "sie_Sie": "entlaubten"
+      },
+      "imperativ": {
+        "du": "Entlaube!",
+        "ihr": "Entlaubt!",
+        "Sie": "Entlauben Sie!"
+      }
+    },
+    "partizip1": "entlaubend",
+    "nominalisierung": "die Entlaubung"
+  },
+  "wortnetz": {
+    "grundwort": "Laub",
+    "woerter": [
+      {
+        "wort": "das Laub",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "برگ‌های درخت",
+          "en": "foliage"
+        },
+        "id_ref": "nomen_laub"
+      },
+      {
+        "wort": "das Blatt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برگ",
+          "en": "leaf"
+        },
+        "id_ref": "nomen_blatt"
+      },
+      {
+        "wort": "der Herbst",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پاییز",
+          "en": "autumn"
+        },
+        "id_ref": "nomen_herbst"
+      },
+      {
+        "wort": "der Baum",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "درخت",
+          "en": "tree"
+        },
+        "id_ref": "nomen_baum"
+      },
+      {
+        "wort": "kahl",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لخت، بی‌برگ",
+          "en": "bare"
+        },
+        "id_ref": "adjektiv_kahl"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

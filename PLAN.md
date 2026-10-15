@@ -2980,6 +2980,9 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۵۶۲ | einverleiben | `Verben_regelmaesig.txt` | 2026-10-15 | Präteritum/Partizip دوگانه (verleibte ein / einverleibte) ⇒ جداشدنی بودن مطمئن نیست ⇒ قاعده‌ی ۳ | — |
 | ۱۵۶۳ | ejakulieren | `Verben_regelmaesig.txt` | 2026-10-15 | ⚠️ موضوع جنسی (مثل masturbatorisch، promisk) ⇒ تصمیم Lukas | — |
 | ۱۵۶۴ | entblöden | `Verben_regelmaesig.txt` | 2026-10-15 | فقط در عبارت ثابت «sich nicht entblöden, … zu …» (فاخر/رو به منسوخ)؛ کاربرد مطمئن نیست — قاعده‌ی ۱۴ | — |
+| ۱۵۶۵ | entleiben | `Verben_regelmaesig.txt` | 2026-10-15 | ⚠️ «sich entleiben» = خودکشی کردن (فاخر/منسوخ)؛ موضوع حساس ⇒ تصمیم Lukas — قاعده‌ی ۱۴ | — |
+| ۱۵۶۶ | entpersönlichen | `Verben_regelmaesig.txt` | 2026-10-15 | کم‌کاربرد، معنا/کاربرد مطمئن نیست — قاعده‌ی ۱۴ | — |
+| ۱۵۶۷ | entrinden | `Verben_regelmaesig.txt` | 2026-10-15 | اصطلاح تخصصی جنگل‌داری، کم‌کاربرد — قاعده‌ی ۱۴ | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 
