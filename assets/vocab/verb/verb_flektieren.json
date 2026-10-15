@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_flektieren",
+  "wort": "flektieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "صرف کردن (دستور زبان)"
+    ],
+    "en": [
+      "to inflect"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Grammatik",
+    "Sprache"
+  ],
+  "ipa": "flɛkˈtiːʁən",
+  "anmerkung": "Regelmäßig (flektierte, flektiert).",
+  "berufe": [
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir flektieren das Verb.",
+      "uebersetzung": {
+        "fa": "فعل را صرف می‌کنیم.",
+        "en": "We inflect the verb."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Deutschen werden Adjektive flektiert, wenn sie vor einem Nomen stehen.",
+      "uebersetzung": {
+        "fa": "در آلمانی صفت‌ها وقتی پیش از اسم بیایند صرف می‌شوند.",
+        "en": "In German, adjectives are inflected when they come before a noun."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beugen",
+      "uebersetzung": {
+        "fa": "صرف کردن",
+        "en": "to inflect"
+      }
+    },
+    {
+      "wort": "konjugieren",
+      "uebersetzung": {
+        "fa": "صرف کردن فعل",
+        "en": "to conjugate"
+      }
+    },
+    {
+      "wort": "deklinieren",
+      "uebersetzung": {
+        "fa": "صرف کردن اسم",
+        "en": "to decline"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. flectere (خم کردن) + -ieren",
+    "en": "lat. flectere (to bend) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "flektieren",
+      "praeteritum": "flektierte",
+      "partizip2": "flektiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "flektiere",
+        "du": "flektierst",
+        "er_sie_es": "flektiert",
+        "wir": "flektieren",
+        "ihr": "flektiert",
+        "sie_Sie": "flektieren"
+      },
+      "praeteritum": {
+        "ich": "flektierte",
+        "du": "flektiertest",
+        "er_sie_es": "flektierte",
+        "wir": "flektierten",
+        "ihr": "flektiertet",
+        "sie_Sie": "flektierten"
+      },
+      "konjunktiv1": {
+        "ich": "flektiere",
+        "du": "flektierest",
+        "er_sie_es": "flektiere",
+        "wir": "flektieren",
+        "ihr": "flektieret",
+        "sie_Sie": "flektieren"
+      },
+      "konjunktiv2": {
+        "ich": "flektierte",
+        "du": "flektiertest",
+        "er_sie_es": "flektierte",
+        "wir": "flektierten",
+        "ihr": "flektiertet",
+        "sie_Sie": "flektierten"
+      },
+      "imperativ": {
+        "du": "Flektiere!",
+        "ihr": "Flektiert!",
+        "Sie": "Flektieren Sie!"
+      }
+    },
+    "partizip1": "flektierend",
+    "nominalisierung": "die Flexion"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Grammatik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دستور زبان",
+          "en": "grammar"
+        },
+        "id_ref": "nomen_grammatik"
+      },
+      {
+        "wort": "das Verb",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فعل",
+          "en": "verb"
+        },
+        "id_ref": "nomen_verb"
+      },
+      {
+        "wort": "deklinieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صرف کردن اسم",
+          "en": "to decline"
+        },
+        "id_ref": "verb_deklinieren"
+      },
+      {
+        "wort": "die Endung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پسوند",
+          "en": "ending"
+        },
+        "id_ref": "nomen_endung"
+      },
+      {
+        "wort": "konjugieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صرف کردن فعل",
+          "en": "to conjugate"
+        },
+        "id_ref": "verb_konjugieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

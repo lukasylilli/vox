@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_flehen",
+  "wort": "flehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "التماس کردن",
+      "عاجزانه خواستن"
+    ],
+    "en": [
+      "to plead",
+      "to beg"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gefühle",
+    "Kommunikation"
+  ],
+  "ipa": "ˈfleːən",
+  "anmerkung": "Regelmäßig (flehte, gefleht). Gehoben. Mit Akkusativ der Person: «jemanden anflehen» (eigenes Verb).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Kind fleht: „Bitte, nur noch fünf Minuten!“",
+      "uebersetzung": {
+        "fa": "بچه التماس می‌کند: «تو رو خدا، فقط پنج دقیقه‌ی دیگر!»",
+        "en": "The child pleads: “Please, just five more minutes!”"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Obwohl er auf Knien flehte, ließ man ihn nicht zu seiner Familie.",
+      "uebersetzung": {
+        "fa": "با اینکه به زانو افتاد و التماس کرد، نگذاشتند پیش خانواده‌اش برود.",
+        "en": "Although he begged on his knees, they did not let him see his family."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bitten",
+      "uebersetzung": {
+        "fa": "خواهش کردن",
+        "en": "to ask"
+      }
+    },
+    {
+      "wort": "betteln",
+      "uebersetzung": {
+        "fa": "گدایی کردن، التماس کردن",
+        "en": "to beg"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "um + Akk flehen",
+        "bedeutung": "sehr dringend um etwas bitten",
+        "beispiel": "Die Verletzten flehten um Hilfe.",
+        "uebersetzung": {
+          "fa": "زخمی‌ها التماس کمک می‌کردند.",
+          "en": "The injured pleaded for help."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "flehen",
+      "praeteritum": "flehte",
+      "partizip2": "gefleht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "flehe",
+        "du": "flehst",
+        "er_sie_es": "fleht",
+        "wir": "flehen",
+        "ihr": "fleht",
+        "sie_Sie": "flehen"
+      },
+      "praeteritum": {
+        "ich": "flehte",
+        "du": "flehtest",
+        "er_sie_es": "flehte",
+        "wir": "flehten",
+        "ihr": "flehtet",
+        "sie_Sie": "flehten"
+      },
+      "konjunktiv1": {
+        "ich": "flehe",
+        "du": "flehest",
+        "er_sie_es": "flehe",
+        "wir": "flehen",
+        "ihr": "flehet",
+        "sie_Sie": "flehen"
+      },
+      "konjunktiv2": {
+        "ich": "flehte",
+        "du": "flehtest",
+        "er_sie_es": "flehte",
+        "wir": "flehten",
+        "ihr": "flehtet",
+        "sie_Sie": "flehten"
+      },
+      "imperativ": {
+        "du": "Flehe!",
+        "ihr": "Fleht!",
+        "Sie": "Flehen Sie!"
+      }
+    },
+    "partizip1": "flehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "bitten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خواهش کردن",
+          "en": "to ask"
+        },
+        "id_ref": "verb_bitten"
+      },
+      {
+        "wort": "die Bitte",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خواهش",
+          "en": "request"
+        },
+        "id_ref": "nomen_bitte"
+      },
+      {
+        "wort": "betteln",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گدایی کردن",
+          "en": "to beg"
+        },
+        "id_ref": "verb_betteln"
+      },
+      {
+        "wort": "verzweifelt",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ناامید",
+          "en": "desperate"
+        },
+        "id_ref": "adjektiv_verzweifelt"
+      },
+      {
+        "wort": "anflehen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "التماس کردن",
+          "en": "to implore"
+        },
+        "id_ref": "verb_anflehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

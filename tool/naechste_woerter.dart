@@ -1638,6 +1638,10 @@ const zurueckgestellt = <String>{
   'fiedern', // zurückgestellt: selten (mit Federn versehen; Botanik: gefiedert); Gebrauch nicht sicher (Regel 14) 2026-10-15
   'fingern', // zurückgestellt: umgangssprachlich mit mehreren Bedeutungen (herumfingern / etwas geschickt erledigen); nicht sicher (Regel 14) 2026-10-15
   'fixen', // zurückgestellt: Jargon (Drogen spritzen / Börse); Gebrauch und Register nicht sicher (Regel 14/17) 2026-10-15
+  'flammen', // zurückgestellt: gehoben/selten (meist aufflammen, entflammen); Gebrauch nicht sicher (Regel 14) 2026-10-15
+  'fläzen', // zurückgestellt: umgangssprachlich, abwertend («sich fläzen»); Stilmarkierung nicht sicher (Regel 14/17) 2026-10-15
+  'fleddern', // zurückgestellt: selten (Leichen ausplündern); Gebrauch nicht sicher (Regel 14) 2026-10-15
+  'flennen', // zurückgestellt: umgangssprachlich abwertend (weinen); anstoessig-Stufe nicht sicher (Regel 17) 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
