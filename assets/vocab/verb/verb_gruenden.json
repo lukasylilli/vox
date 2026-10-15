@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_gruenden",
+  "wort": "gründen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تأسیس کردن",
+      "بنیاد نهادن"
+    ],
+    "en": [
+      "to found",
+      "to establish"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Wirtschaft",
+    "Gesellschaft"
+  ],
+  "ipa": "ˈɡʁʏndn̩",
+  "anmerkung": "Regelmäßig (gründete, gegründet).",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie gründet eine Firma.",
+      "uebersetzung": {
+        "fa": "او یک شرکت تأسیس می‌کند.",
+        "en": "She is founding a company."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nachdem sie ihr Studium beendet hatten, gründeten die drei Freunde ein kleines Café.",
+      "uebersetzung": {
+        "fa": "پس از پایان تحصیلات، سه دوست یک کافه‌ی کوچک راه انداختند.",
+        "en": "After finishing their studies, the three friends set up a small café."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "eröffnen",
+      "uebersetzung": {
+        "fa": "افتتاح کردن",
+        "en": "to open"
+      }
+    },
+    {
+      "wort": "errichten",
+      "uebersetzung": {
+        "fa": "برپا کردن",
+        "en": "to set up"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "der Grund (پایه) + -en",
+    "en": "der Grund (ground, basis) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich auf + Akk gründen",
+        "bedeutung": "auf etwas beruhen",
+        "beispiel": "Sein Verdacht gründet sich auf eine Beobachtung.",
+        "uebersetzung": {
+          "fa": "بدگمانی‌اش بر یک مشاهده استوار است.",
+          "en": "His suspicion is based on an observation."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "gründen",
+      "praeteritum": "gründete",
+      "partizip2": "gegründet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gründe",
+        "du": "gründest",
+        "er_sie_es": "gründet",
+        "wir": "gründen",
+        "ihr": "gründet",
+        "sie_Sie": "gründen"
+      },
+      "praeteritum": {
+        "ich": "gründete",
+        "du": "gründetest",
+        "er_sie_es": "gründete",
+        "wir": "gründeten",
+        "ihr": "gründetet",
+        "sie_Sie": "gründeten"
+      },
+      "konjunktiv1": {
+        "ich": "gründe",
+        "du": "gründest",
+        "er_sie_es": "gründe",
+        "wir": "gründen",
+        "ihr": "gründet",
+        "sie_Sie": "gründen"
+      },
+      "konjunktiv2": {
+        "ich": "gründete",
+        "du": "gründetest",
+        "er_sie_es": "gründete",
+        "wir": "gründeten",
+        "ihr": "gründetet",
+        "sie_Sie": "gründeten"
+      },
+      "imperativ": {
+        "du": "Gründe!",
+        "ihr": "Gründet!",
+        "Sie": "Gründen Sie!"
+      }
+    },
+    "partizip1": "gründend",
+    "nominalisierung": "die Gründung"
+  },
+  "wortnetz": {
+    "grundwort": "Grund",
+    "woerter": [
+      {
+        "wort": "die Firma",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شرکت",
+          "en": "company"
+        },
+        "id_ref": "nomen_firma"
+      },
+      {
+        "wort": "der Grund",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پایه، دلیل",
+          "en": "ground, reason"
+        },
+        "id_ref": "nomen_grund"
+      },
+      {
+        "wort": "die Gründung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تأسیس",
+          "en": "foundation"
+        },
+        "id_ref": "nomen_gruendung"
+      },
+      {
+        "wort": "der Gründer",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بنیان‌گذار",
+          "en": "founder"
+        },
+        "id_ref": "nomen_gruender"
+      },
+      {
+        "wort": "eröffnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "افتتاح کردن",
+          "en": "to open"
+        },
+        "id_ref": "verb_eroeffnen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

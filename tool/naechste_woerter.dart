@@ -1668,6 +1668,9 @@ const zurueckgestellt = <String>{
   'grausen', // zurückgestellt: unpersönlich/reflexiv («es graust mir», «sich grausen»), Kasus schwankend; nicht sicher (Regel 14) 2026-10-15
   'greinen', // zurückgestellt: umgangssprachlich abwertend (weinerlich klagen); Stilmarkierung nicht sicher (Regel 17) 2026-10-15
   'grienen', // zurückgestellt: regional (norddeutsch: grinsen), selten (Regel 14) 2026-10-15
+  'grummeln', // zurückgestellt: umgangssprachlich mit mehreren Bedeutungen (murren, Magen, Donner); nicht sicher (Regel 14) 2026-10-15
+  'gründeln', // zurückgestellt: Fachwort Zoologie (Enten, Fische: am Grund nach Nahrung suchen), selten (Regel 14) 2026-10-15
+  'guillotinieren', // zurückgestellt: historisch/selten (mit der Guillotine hinrichten); Gebrauch nicht sicher (Regel 14) 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

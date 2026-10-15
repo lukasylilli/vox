@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_gruseln",
+  "wort": "gruseln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ترسیدن (از چیز ترسناک)",
+      "مو بر تن کسی راست کردن"
+    ],
+    "en": [
+      "to be scared",
+      "to give the creeps"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gefühle"
+  ],
+  "ipa": "ˈɡʁuːzl̩n",
+  "anmerkung": "Regelmäßig (gruselte, gegruselt). Auch unpersönlich: «Es gruselt mich.»",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kinder gruseln sich.",
+      "uebersetzung": {
+        "fa": "بچه‌ها می‌ترسند.",
+        "en": "The children are scared."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In dem alten Schloss gruselte es ihn so sehr, dass er die Nacht kaum schlafen konnte.",
+      "uebersetzung": {
+        "fa": "آن قصر قدیمی آن‌قدر مو بر تنش راست می‌کرد که شب به‌زحمت خوابید.",
+        "en": "The old castle gave him the creeps so badly that he could hardly sleep that night."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fürchten",
+      "uebersetzung": {
+        "fa": "ترسیدن",
+        "en": "to fear"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "der Grusel (ترس، دلهره) + -n",
+    "en": "der Grusel (horror) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich vor + Dat gruseln",
+        "bedeutung": "vor etwas Unheimlichem Angst haben",
+        "beispiel": "Sie gruselt sich vor Spinnen.",
+        "uebersetzung": {
+          "fa": "از عنکبوت می‌ترسد.",
+          "en": "Spiders give her the creeps."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "gruseln",
+      "praeteritum": "gruselte",
+      "partizip2": "gegruselt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "grusle",
+        "du": "gruselst",
+        "er_sie_es": "gruselt",
+        "wir": "gruseln",
+        "ihr": "gruselt",
+        "sie_Sie": "gruseln"
+      },
+      "praeteritum": {
+        "ich": "gruselte",
+        "du": "gruseltest",
+        "er_sie_es": "gruselte",
+        "wir": "gruselten",
+        "ihr": "gruseltet",
+        "sie_Sie": "gruselten"
+      },
+      "konjunktiv1": {
+        "ich": "grusle",
+        "du": "gruslest",
+        "er_sie_es": "grusle",
+        "wir": "gruseln",
+        "ihr": "gruslet",
+        "sie_Sie": "gruseln"
+      },
+      "konjunktiv2": {
+        "ich": "gruselte",
+        "du": "gruseltest",
+        "er_sie_es": "gruselte",
+        "wir": "gruselten",
+        "ihr": "gruseltet",
+        "sie_Sie": "gruselten"
+      },
+      "imperativ": {
+        "du": "Grusle!",
+        "ihr": "Gruselt!",
+        "Sie": "Gruseln Sie!"
+      }
+    },
+    "partizip1": "gruselnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Angst",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترس",
+          "en": "fear"
+        },
+        "id_ref": "nomen_angst"
+      },
+      {
+        "wort": "unheimlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ترسناک، غریب",
+          "en": "eerie"
+        },
+        "id_ref": "adjektiv_unheimlich"
+      },
+      {
+        "wort": "das Gespenst",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شبح",
+          "en": "ghost"
+        },
+        "id_ref": "nomen_gespenst"
+      },
+      {
+        "wort": "gruselig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ترسناک",
+          "en": "creepy"
+        },
+        "id_ref": "adjektiv_gruselig"
+      },
+      {
+        "wort": "fürchten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ترسیدن",
+          "en": "to fear"
+        },
+        "id_ref": "verb_fuerchten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

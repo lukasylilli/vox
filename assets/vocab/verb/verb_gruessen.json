@@ -1,0 +1,168 @@
+{
+  "schema": "3.0",
+  "id": "verb_gruessen",
+  "wort": "grüßen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سلام کردن",
+      "درود فرستادن"
+    ],
+    "en": [
+      "to greet",
+      "to say hello"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Kommunikation",
+    "Höflichkeit"
+  ],
+  "ipa": "ˈɡʁyːsn̩",
+  "anmerkung": "Regelmäßig (grüßte, gegrüßt). In Österreich und Süddeutschland: «Grüß Gott!», «Grüß dich!».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich grüße meine Nachbarin.",
+      "uebersetzung": {
+        "fa": "به همسایه‌ام سلام می‌کنم.",
+        "en": "I say hello to my neighbour."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Grüßen Sie bitte Ihre Frau von mir, wenn Sie sie heute Abend sehen.",
+      "uebersetzung": {
+        "fa": "لطفاً اگر امشب همسرتان را دیدید، سلام مرا برسانید.",
+        "en": "Please give my regards to your wife when you see her this evening."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "begrüßen",
+      "uebersetzung": {
+        "fa": "خوشامد گفتن",
+        "en": "to welcome"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "grüßen",
+      "praeteritum": "grüßte",
+      "partizip2": "gegrüßt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "grüße",
+        "du": "grüßt",
+        "er_sie_es": "grüßt",
+        "wir": "grüßen",
+        "ihr": "grüßt",
+        "sie_Sie": "grüßen"
+      },
+      "praeteritum": {
+        "ich": "grüßte",
+        "du": "grüßtest",
+        "er_sie_es": "grüßte",
+        "wir": "grüßten",
+        "ihr": "grüßtet",
+        "sie_Sie": "grüßten"
+      },
+      "konjunktiv1": {
+        "ich": "grüße",
+        "du": "grüßest",
+        "er_sie_es": "grüße",
+        "wir": "grüßen",
+        "ihr": "grüßet",
+        "sie_Sie": "grüßen"
+      },
+      "konjunktiv2": {
+        "ich": "grüßte",
+        "du": "grüßtest",
+        "er_sie_es": "grüßte",
+        "wir": "grüßten",
+        "ihr": "grüßtet",
+        "sie_Sie": "grüßten"
+      },
+      "imperativ": {
+        "du": "Grüße!",
+        "ihr": "Grüßt!",
+        "Sie": "Grüßen Sie!"
+      }
+    },
+    "partizip1": "grüßend",
+    "nominalisierung": "der Gruß"
+  },
+  "wortnetz": {
+    "grundwort": "Gruß",
+    "woerter": [
+      {
+        "wort": "hallo",
+        "wortart": "partikel",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سلام",
+          "en": "hello"
+        },
+        "id_ref": "partikel_hallo"
+      },
+      {
+        "wort": "der Gruß",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سلام، درود",
+          "en": "greeting"
+        },
+        "id_ref": "nomen_gruss"
+      },
+      {
+        "wort": "begrüßen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خوشامد گفتن",
+          "en": "to welcome"
+        },
+        "id_ref": "verb_begruessen"
+      },
+      {
+        "wort": "höflich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مؤدب",
+          "en": "polite"
+        },
+        "id_ref": "adjektiv_hoeflich"
+      },
+      {
+        "wort": "verabschieden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خداحافظی کردن",
+          "en": "to say goodbye"
+        },
+        "id_ref": "verb_verabschieden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
