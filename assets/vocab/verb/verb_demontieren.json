@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_demontieren",
+  "wort": "demontieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پیاده کردن",
+      "باز کردن (قطعات)"
+    ],
+    "en": [
+      "to dismantle"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Technik"
+  ],
+  "ipa": "demɔnˈtiːʁən",
+  "anmerkung": "Regelmäßig (demontierte, demontiert).",
+  "berufe": [
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Mechaniker demontiert den Motor.",
+      "uebersetzung": {
+        "fa": "مکانیک موتور را پیاده می‌کند.",
+        "en": "The mechanic dismantles the engine."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor die Maschine transportiert werden kann, muss sie vollständig demontiert werden.",
+      "uebersetzung": {
+        "fa": "پیش از آنکه بشود دستگاه را حمل کرد، باید کامل پیاده شود.",
+        "en": "Before the machine can be transported, it has to be completely dismantled."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abbauen",
+      "uebersetzung": {
+        "fa": "پیاده کردن",
+        "en": "to take down"
+      }
+    },
+    {
+      "wort": "zerlegen",
+      "uebersetzung": {
+        "fa": "از هم باز کردن",
+        "en": "to take apart"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "montieren",
+      "uebersetzung": {
+        "fa": "سوار کردن",
+        "en": "to assemble"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "frz. démonter (پیاده کردن)",
+    "en": "French démonter (to dismantle)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "demontieren",
+      "praeteritum": "demontierte",
+      "partizip2": "demontiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "demontiere",
+        "du": "demontierst",
+        "er_sie_es": "demontiert",
+        "wir": "demontieren",
+        "ihr": "demontiert",
+        "sie_Sie": "demontieren"
+      },
+      "praeteritum": {
+        "ich": "demontierte",
+        "du": "demontiertest",
+        "er_sie_es": "demontierte",
+        "wir": "demontierten",
+        "ihr": "demontiertet",
+        "sie_Sie": "demontierten"
+      },
+      "konjunktiv1": {
+        "ich": "demontiere",
+        "du": "demontierest",
+        "er_sie_es": "demontiere",
+        "wir": "demontieren",
+        "ihr": "demontieret",
+        "sie_Sie": "demontieren"
+      },
+      "konjunktiv2": {
+        "ich": "demontierte",
+        "du": "demontiertest",
+        "er_sie_es": "demontierte",
+        "wir": "demontierten",
+        "ihr": "demontiertet",
+        "sie_Sie": "demontierten"
+      },
+      "imperativ": {
+        "du": "Demontiere!",
+        "ihr": "Demontiert!",
+        "Sie": "Demontieren Sie!"
+      }
+    },
+    "partizip1": "demontierend",
+    "nominalisierung": "die Demontage"
+  },
+  "wortnetz": {
+    "grundwort": "Montage",
+    "woerter": [
+      {
+        "wort": "montieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سوار کردن",
+          "en": "to assemble"
+        },
+        "id_ref": "verb_montieren"
+      },
+      {
+        "wort": "abbauen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیاده کردن",
+          "en": "to take down"
+        },
+        "id_ref": "verb_abbauen"
+      },
+      {
+        "wort": "die Maschine",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دستگاه",
+          "en": "machine"
+        },
+        "id_ref": "nomen_maschine"
+      },
+      {
+        "wort": "das Werkzeug",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ابزار",
+          "en": "tool"
+        },
+        "id_ref": "nomen_werkzeug"
+      },
+      {
+        "wort": "zerlegen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "از هم باز کردن",
+          "en": "to take apart"
+        },
+        "id_ref": "verb_zerlegen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

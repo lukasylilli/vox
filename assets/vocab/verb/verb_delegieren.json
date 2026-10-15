@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_delegieren",
+  "wort": "delegieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "واگذار کردن (کار)",
+      "نماینده فرستادن"
+    ],
+    "en": [
+      "to delegate"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit"
+  ],
+  "ipa": "deleˈɡiːʁən",
+  "anmerkung": "Regelmäßig (delegierte, delegiert).",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Chefin delegiert die Arbeit.",
+      "uebersetzung": {
+        "fa": "رئیس کار را واگذار می‌کند.",
+        "en": "The boss delegates the work."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wer zu viel zu tun hat, sollte lernen, Aufgaben an Kollegen zu delegieren.",
+      "uebersetzung": {
+        "fa": "کسی که کار زیادی دارد باید یاد بگیرد کارها را به همکاران واگذار کند.",
+        "en": "Anyone who has too much to do should learn to delegate tasks to colleagues."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "übertragen",
+      "uebersetzung": {
+        "fa": "واگذار کردن",
+        "en": "to transfer"
+      }
+    },
+    {
+      "wort": "abgeben",
+      "uebersetzung": {
+        "fa": "سپردن",
+        "en": "to hand over"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. delegare (فرستادن، سپردن)",
+    "en": "Latin delegare (to send, to entrust)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas an + Akk delegieren",
+        "bedeutung": "eine Aufgabe einer anderen Person übertragen",
+        "beispiel": "Er delegiert die Planung an sein Team.",
+        "uebersetzung": {
+          "fa": "برنامه‌ریزی را به تیمش واگذار می‌کند.",
+          "en": "He delegates the planning to his team."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "delegieren",
+      "praeteritum": "delegierte",
+      "partizip2": "delegiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "delegiere",
+        "du": "delegierst",
+        "er_sie_es": "delegiert",
+        "wir": "delegieren",
+        "ihr": "delegiert",
+        "sie_Sie": "delegieren"
+      },
+      "praeteritum": {
+        "ich": "delegierte",
+        "du": "delegiertest",
+        "er_sie_es": "delegierte",
+        "wir": "delegierten",
+        "ihr": "delegiertet",
+        "sie_Sie": "delegierten"
+      },
+      "konjunktiv1": {
+        "ich": "delegiere",
+        "du": "delegierest",
+        "er_sie_es": "delegiere",
+        "wir": "delegieren",
+        "ihr": "delegieret",
+        "sie_Sie": "delegieren"
+      },
+      "konjunktiv2": {
+        "ich": "delegierte",
+        "du": "delegiertest",
+        "er_sie_es": "delegierte",
+        "wir": "delegierten",
+        "ihr": "delegiertet",
+        "sie_Sie": "delegierten"
+      },
+      "imperativ": {
+        "du": "Delegiere!",
+        "ihr": "Delegiert!",
+        "Sie": "Delegieren Sie!"
+      }
+    },
+    "partizip1": "delegierend",
+    "nominalisierung": "die Delegation"
+  },
+  "wortnetz": {
+    "grundwort": "Delegation",
+    "woerter": [
+      {
+        "wort": "die Aufgabe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "وظیفه",
+          "en": "task"
+        },
+        "id_ref": "nomen_aufgabe"
+      },
+      {
+        "wort": "übertragen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "واگذار کردن",
+          "en": "to transfer"
+        },
+        "id_ref": "verb_uebertragen"
+      },
+      {
+        "wort": "die Verantwortung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مسئولیت",
+          "en": "responsibility"
+        },
+        "id_ref": "nomen_verantwortung"
+      },
+      {
+        "wort": "die Delegation",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "هیئت نمایندگی",
+          "en": "delegation"
+        },
+        "id_ref": "nomen_delegation"
+      },
+      {
+        "wort": "der Delegierte",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نماینده",
+          "en": "delegate"
+        },
+        "id_ref": "nomen_delegierte"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
