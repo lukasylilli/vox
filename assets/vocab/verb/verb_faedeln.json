@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_faedeln",
+  "wort": "fädeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نخ کردن (سوزن)",
+      "رد کردن (از سوراخ)"
+    ],
+    "en": [
+      "to thread"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Handarbeit",
+    "Alltag"
+  ],
+  "ipa": "ˈfɛːdl̩n",
+  "anmerkung": "Regelmäßig (fädelte, gefädelt). Häufiger mit Partikel: «einfädeln» (auch übertragen: etwas geschickt einfädeln).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Oma fädelt Perlen auf eine Schnur.",
+      "uebersetzung": {
+        "fa": "مادربزرگ مهره‌ها را به نخ می‌کشد.",
+        "en": "Grandma threads beads onto a string."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ohne Brille konnte er den Faden nicht durch das Nadelöhr fädeln, weil das Loch so klein war.",
+      "uebersetzung": {
+        "fa": "بدون عینک نمی‌توانست نخ را از سوراخ سوزن رد کند، چون سوراخ خیلی کوچک بود.",
+        "en": "Without glasses he could not thread the cotton through the eye of the needle because the hole was so small."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einfädeln",
+      "uebersetzung": {
+        "fa": "نخ کردن",
+        "en": "to thread"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Faden (نخ) + -eln",
+    "en": "Faden (thread) + -eln"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas durch + Akk fädeln",
+        "bedeutung": "einen Faden durch eine Öffnung ziehen",
+        "beispiel": "Sie fädelt das Band durch die Öse.",
+        "uebersetzung": {
+          "fa": "روبان را از حلقه رد می‌کند.",
+          "en": "She threads the ribbon through the eyelet."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "fädeln",
+      "praeteritum": "fädelte",
+      "partizip2": "gefädelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fädle",
+        "du": "fädelst",
+        "er_sie_es": "fädelt",
+        "wir": "fädeln",
+        "ihr": "fädelt",
+        "sie_Sie": "fädeln"
+      },
+      "praeteritum": {
+        "ich": "fädelte",
+        "du": "fädeltest",
+        "er_sie_es": "fädelte",
+        "wir": "fädelten",
+        "ihr": "fädeltet",
+        "sie_Sie": "fädelten"
+      },
+      "konjunktiv1": {
+        "ich": "fädle",
+        "du": "fädlest",
+        "er_sie_es": "fädle",
+        "wir": "fädeln",
+        "ihr": "fädlet",
+        "sie_Sie": "fädeln"
+      },
+      "konjunktiv2": {
+        "ich": "fädelte",
+        "du": "fädeltest",
+        "er_sie_es": "fädelte",
+        "wir": "fädelten",
+        "ihr": "fädeltet",
+        "sie_Sie": "fädelten"
+      },
+      "imperativ": {
+        "du": "Fädle!",
+        "ihr": "Fädelt!",
+        "Sie": "Fädeln Sie!"
+      }
+    },
+    "partizip1": "fädelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Faden",
+    "woerter": [
+      {
+        "wort": "der Faden",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نخ",
+          "en": "thread"
+        },
+        "id_ref": "nomen_faden"
+      },
+      {
+        "wort": "die Nadel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سوزن",
+          "en": "needle"
+        },
+        "id_ref": "nomen_nadel"
+      },
+      {
+        "wort": "nähen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دوختن",
+          "en": "to sew"
+        },
+        "id_ref": "verb_naehen"
+      },
+      {
+        "wort": "die Perle",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مروارید، مهره",
+          "en": "pearl, bead"
+        },
+        "id_ref": "nomen_perle"
+      },
+      {
+        "wort": "einfädeln",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نخ کردن",
+          "en": "to thread"
+        },
+        "id_ref": "verb_einfaedeln"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

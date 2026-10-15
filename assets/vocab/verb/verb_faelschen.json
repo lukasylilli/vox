@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_faelschen",
+  "wort": "fälschen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جعل کردن",
+      "تقلب کردن"
+    ],
+    "en": [
+      "to forge",
+      "to fake"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kriminalität",
+    "Recht"
+  ],
+  "ipa": "ˈfɛlʃn̩",
+  "anmerkung": "Regelmäßig (fälschte, gefälscht).",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er fälscht die Unterschrift.",
+      "uebersetzung": {
+        "fa": "امضا را جعل می‌کند.",
+        "en": "He forges the signature."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Student wurde exmatrikuliert, weil er sein Zeugnis gefälscht hatte.",
+      "uebersetzung": {
+        "fa": "دانشجو از دانشگاه اخراج شد، چون کارنامه‌اش را جعل کرده بود.",
+        "en": "The student was de-registered because he had forged his certificate."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nachmachen",
+      "uebersetzung": {
+        "fa": "تقلید کردن",
+        "en": "to copy"
+      }
+    },
+    {
+      "wort": "manipulieren",
+      "uebersetzung": {
+        "fa": "دستکاری کردن",
+        "en": "to manipulate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "falsch (نادرست) + -en",
+    "en": "falsch (false) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "fälschen",
+      "praeteritum": "fälschte",
+      "partizip2": "gefälscht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fälsche",
+        "du": "fälschst",
+        "er_sie_es": "fälscht",
+        "wir": "fälschen",
+        "ihr": "fälscht",
+        "sie_Sie": "fälschen"
+      },
+      "praeteritum": {
+        "ich": "fälschte",
+        "du": "fälschtest",
+        "er_sie_es": "fälschte",
+        "wir": "fälschten",
+        "ihr": "fälschtet",
+        "sie_Sie": "fälschten"
+      },
+      "konjunktiv1": {
+        "ich": "fälsche",
+        "du": "fälschest",
+        "er_sie_es": "fälsche",
+        "wir": "fälschen",
+        "ihr": "fälschet",
+        "sie_Sie": "fälschen"
+      },
+      "konjunktiv2": {
+        "ich": "fälschte",
+        "du": "fälschtest",
+        "er_sie_es": "fälschte",
+        "wir": "fälschten",
+        "ihr": "fälschtet",
+        "sie_Sie": "fälschten"
+      },
+      "imperativ": {
+        "du": "Fälsche!",
+        "ihr": "Fälscht!",
+        "Sie": "Fälschen Sie!"
+      }
+    },
+    "partizip1": "fälschend",
+    "nominalisierung": "die Fälschung"
+  },
+  "wortnetz": {
+    "grundwort": "falsch",
+    "woerter": [
+      {
+        "wort": "falsch",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "غلط",
+          "en": "wrong"
+        },
+        "id_ref": "adjektiv_falsch"
+      },
+      {
+        "wort": "die Fälschung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جعل، نسخه‌ی تقلبی",
+          "en": "forgery"
+        },
+        "id_ref": "nomen_faelschung"
+      },
+      {
+        "wort": "echt",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اصل، واقعی",
+          "en": "genuine"
+        },
+        "id_ref": "adjektiv_echt"
+      },
+      {
+        "wort": "die Unterschrift",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "امضا",
+          "en": "signature"
+        },
+        "id_ref": "nomen_unterschrift"
+      },
+      {
+        "wort": "der Betrug",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کلاه‌برداری",
+          "en": "fraud"
+        },
+        "id_ref": "nomen_betrug"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

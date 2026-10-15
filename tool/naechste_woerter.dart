@@ -1630,6 +1630,9 @@ const zurueckgestellt = <String>{
   'evangelisieren', // zurückgestellt: selten (missionieren); Gebrauch nicht sicher (Regel 14) 2026-10-15
   'exmittieren', // zurückgestellt: Amtssprache, selten (Zwangsräumung); Gebrauch nicht sicher (Regel 14) 2026-10-15
   'extemporieren', // zurückgestellt: sehr selten (improvisieren); Gebrauch nicht sicher (Regel 14) 2026-10-15
+  'fächern', // zurückgestellt: selten (meist «auffächern»); Gebrauch nicht sicher (Regel 14) 2026-10-15
+  'fälteln', // zurückgestellt: Fachwort Schneiderei, selten (Regel 14) 2026-10-15
+  'falzen', // zurückgestellt: Fachwort (Buchbinderei/Blech) mit mehreren Bedeutungen; nicht sicher (Regel 14) 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

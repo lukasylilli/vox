@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_fakturieren",
+  "wort": "fakturieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "صورت‌حساب صادر کردن"
+    ],
+    "en": [
+      "to invoice",
+      "to bill"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wirtschaft",
+    "Büro"
+  ],
+  "ipa": "faktuˈʁiːʁən",
+  "anmerkung": "Regelmäßig (fakturierte, fakturiert). Kaufmännisch.",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir fakturieren die Lieferung.",
+      "uebersetzung": {
+        "fa": "برای محموله صورت‌حساب صادر می‌کنیم.",
+        "en": "We invoice the delivery."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Alle Leistungen werden am Monatsende fakturiert, damit der Kunde nur eine Rechnung bekommt.",
+      "uebersetzung": {
+        "fa": "همه‌ی خدمات آخر ماه صورت‌حساب می‌شوند تا مشتری فقط یک صورت‌حساب دریافت کند.",
+        "en": "All services are invoiced at the end of the month so that the customer receives only one bill."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "in Rechnung stellen",
+      "uebersetzung": {
+        "fa": "صورت‌حساب کردن",
+        "en": "to charge"
+      }
+    },
+    {
+      "wort": "abrechnen",
+      "uebersetzung": {
+        "fa": "تسویه کردن",
+        "en": "to settle"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Faktura (صورت‌حساب) + -ieren",
+    "en": "Faktura (invoice) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "fakturieren",
+      "praeteritum": "fakturierte",
+      "partizip2": "fakturiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fakturiere",
+        "du": "fakturierst",
+        "er_sie_es": "fakturiert",
+        "wir": "fakturieren",
+        "ihr": "fakturiert",
+        "sie_Sie": "fakturieren"
+      },
+      "praeteritum": {
+        "ich": "fakturierte",
+        "du": "fakturiertest",
+        "er_sie_es": "fakturierte",
+        "wir": "fakturierten",
+        "ihr": "fakturiertet",
+        "sie_Sie": "fakturierten"
+      },
+      "konjunktiv1": {
+        "ich": "fakturiere",
+        "du": "fakturierest",
+        "er_sie_es": "fakturiere",
+        "wir": "fakturieren",
+        "ihr": "fakturieret",
+        "sie_Sie": "fakturieren"
+      },
+      "konjunktiv2": {
+        "ich": "fakturierte",
+        "du": "fakturiertest",
+        "er_sie_es": "fakturierte",
+        "wir": "fakturierten",
+        "ihr": "fakturiertet",
+        "sie_Sie": "fakturierten"
+      },
+      "imperativ": {
+        "du": "Fakturiere!",
+        "ihr": "Fakturiert!",
+        "Sie": "Fakturieren Sie!"
+      }
+    },
+    "partizip1": "fakturierend",
+    "nominalisierung": "die Fakturierung"
+  },
+  "wortnetz": {
+    "grundwort": "Faktura",
+    "woerter": [
+      {
+        "wort": "die Rechnung",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "صورت‌حساب",
+          "en": "bill"
+        },
+        "id_ref": "nomen_rechnung"
+      },
+      {
+        "wort": "die Buchhaltung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حسابداری",
+          "en": "accounting"
+        },
+        "id_ref": "nomen_buchhaltung"
+      },
+      {
+        "wort": "der Kunde",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مشتری",
+          "en": "customer"
+        },
+        "id_ref": "nomen_kunde"
+      },
+      {
+        "wort": "bezahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_bezahlen"
+      },
+      {
+        "wort": "abrechnen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تسویه کردن",
+          "en": "to settle"
+        },
+        "id_ref": "verb_abrechnen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

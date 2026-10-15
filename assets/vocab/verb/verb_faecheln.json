@@ -1,0 +1,171 @@
+{
+  "schema": "3.0",
+  "id": "verb_faecheln",
+  "wort": "fächeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "باد زدن (با بادبزن)"
+    ],
+    "en": [
+      "to fan"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag",
+    "Wetter"
+  ],
+  "ipa": "ˈfɛçl̩n",
+  "anmerkung": "Regelmäßig (fächelte, gefächelt).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie fächelt sich Luft zu.",
+      "uebersetzung": {
+        "fa": "با بادبزن به خودش باد می‌زند.",
+        "en": "She fans herself."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil es im Saal so heiß war, fächelten sich viele Zuschauer mit dem Programmheft Luft zu.",
+      "uebersetzung": {
+        "fa": "چون سالن خیلی گرم بود، بسیاری از تماشاگران با برنامه‌ی نمایش به خودشان باد می‌زدند.",
+        "en": "Because it was so hot in the hall, many spectators fanned themselves with the programme."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Fächer (بادبزن) + -eln",
+    "en": "Fächer (fan) + -eln"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "jemandem / sich Luft zufächeln",
+        "bedeutung": "mit einer Bewegung kühle Luft zu jemandem bringen",
+        "beispiel": "Er fächelt dem Kind Luft zu.",
+        "uebersetzung": {
+          "fa": "به بچه باد می‌زند.",
+          "en": "He fans the child."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "fächeln",
+      "praeteritum": "fächelte",
+      "partizip2": "gefächelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fächle",
+        "du": "fächelst",
+        "er_sie_es": "fächelt",
+        "wir": "fächeln",
+        "ihr": "fächelt",
+        "sie_Sie": "fächeln"
+      },
+      "praeteritum": {
+        "ich": "fächelte",
+        "du": "fächeltest",
+        "er_sie_es": "fächelte",
+        "wir": "fächelten",
+        "ihr": "fächeltet",
+        "sie_Sie": "fächelten"
+      },
+      "konjunktiv1": {
+        "ich": "fächle",
+        "du": "fächlest",
+        "er_sie_es": "fächle",
+        "wir": "fächeln",
+        "ihr": "fächlet",
+        "sie_Sie": "fächeln"
+      },
+      "konjunktiv2": {
+        "ich": "fächelte",
+        "du": "fächeltest",
+        "er_sie_es": "fächelte",
+        "wir": "fächelten",
+        "ihr": "fächeltet",
+        "sie_Sie": "fächelten"
+      },
+      "imperativ": {
+        "du": "Fächle!",
+        "ihr": "Fächelt!",
+        "Sie": "Fächeln Sie!"
+      }
+    },
+    "partizip1": "fächelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Fächer",
+    "woerter": [
+      {
+        "wort": "der Fächer",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بادبزن",
+          "en": "fan"
+        },
+        "id_ref": "nomen_faecher"
+      },
+      {
+        "wort": "die Luft",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "هوا",
+          "en": "air"
+        },
+        "id_ref": "nomen_luft"
+      },
+      {
+        "wort": "heiß",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "داغ",
+          "en": "hot"
+        },
+        "id_ref": "adjektiv_heiss"
+      },
+      {
+        "wort": "der Wind",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "باد",
+          "en": "wind"
+        },
+        "id_ref": "nomen_wind"
+      },
+      {
+        "wort": "der Ventilator",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پنکه",
+          "en": "fan (electric)"
+        },
+        "id_ref": "nomen_ventilator"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

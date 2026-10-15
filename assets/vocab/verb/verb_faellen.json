@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_faellen",
+  "wort": "fällen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بریدن و انداختن (درخت)",
+      "گرفتن (تصمیم)، صادر کردن (حکم)"
+    ],
+    "en": [
+      "to fell",
+      "to make (a decision)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Natur",
+    "Recht"
+  ],
+  "ipa": "ˈfɛlən",
+  "anmerkung": "Regelmäßig (fällte, gefällt). Transitiv — nicht verwechseln mit «fallen» (fiel, gefallen). Feste Verbindungen: «eine Entscheidung fällen», «ein Urteil fällen».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Männer fällen den Baum.",
+      "uebersetzung": {
+        "fa": "مردها درخت را می‌اندازند.",
+        "en": "The men are felling the tree."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Gericht hat noch kein Urteil gefällt, weil neue Beweise aufgetaucht sind.",
+      "uebersetzung": {
+        "fa": "دادگاه هنوز حکمی صادر نکرده، چون مدارک تازه‌ای پیدا شده است.",
+        "en": "The court has not yet passed judgement because new evidence has turned up."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "umhauen",
+      "uebersetzung": {
+        "fa": "انداختن (با تبر)",
+        "en": "to chop down"
+      }
+    },
+    {
+      "wort": "treffen",
+      "uebersetzung": {
+        "fa": "گرفتن (تصمیم)",
+        "en": "to make"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "fallen (افتادن) ⇒ fällen (انداختن)",
+    "en": "fallen (to fall) ⇒ fällen (to make fall)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "fällen",
+      "praeteritum": "fällte",
+      "partizip2": "gefällt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fälle",
+        "du": "fällst",
+        "er_sie_es": "fällt",
+        "wir": "fällen",
+        "ihr": "fällt",
+        "sie_Sie": "fällen"
+      },
+      "praeteritum": {
+        "ich": "fällte",
+        "du": "fälltest",
+        "er_sie_es": "fällte",
+        "wir": "fällten",
+        "ihr": "fälltet",
+        "sie_Sie": "fällten"
+      },
+      "konjunktiv1": {
+        "ich": "fälle",
+        "du": "fällest",
+        "er_sie_es": "fälle",
+        "wir": "fällen",
+        "ihr": "fället",
+        "sie_Sie": "fällen"
+      },
+      "konjunktiv2": {
+        "ich": "fällte",
+        "du": "fälltest",
+        "er_sie_es": "fällte",
+        "wir": "fällten",
+        "ihr": "fälltet",
+        "sie_Sie": "fällten"
+      },
+      "imperativ": {
+        "du": "Fälle!",
+        "ihr": "Fällt!",
+        "Sie": "Fällen Sie!"
+      }
+    },
+    "partizip1": "fällend",
+    "nominalisierung": "die Fällung"
+  },
+  "wortnetz": {
+    "grundwort": "fallen",
+    "woerter": [
+      {
+        "wort": "fallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "افتادن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_fallen"
+      },
+      {
+        "wort": "der Baum",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "درخت",
+          "en": "tree"
+        },
+        "id_ref": "nomen_baum"
+      },
+      {
+        "wort": "die Entscheidung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تصمیم",
+          "en": "decision"
+        },
+        "id_ref": "nomen_entscheidung"
+      },
+      {
+        "wort": "das Urteil",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حکم",
+          "en": "verdict"
+        },
+        "id_ref": "nomen_urteil"
+      },
+      {
+        "wort": "die Säge",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اره",
+          "en": "saw"
+        },
+        "id_ref": "nomen_saege"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

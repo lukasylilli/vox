@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_falten",
+  "wort": "falten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تا کردن",
+      "در هم قلاب کردن (دست‌ها)"
+    ],
+    "en": [
+      "to fold"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Haushalt"
+  ],
+  "ipa": "ˈfaltn̩",
+  "anmerkung": "Regelmäßig (faltete, gefaltet).",
+  "berufe": [
+    "reinigung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich falte die Wäsche.",
+      "uebersetzung": {
+        "fa": "لباس‌ها را تا می‌کنم.",
+        "en": "I am folding the laundry."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Falte den Brief zweimal, damit er in den Umschlag passt.",
+      "uebersetzung": {
+        "fa": "نامه را دو بار تا کن تا در پاکت جا شود.",
+        "en": "Fold the letter twice so that it fits into the envelope."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zusammenlegen",
+      "uebersetzung": {
+        "fa": "تا کردن، روی هم گذاشتن",
+        "en": "to fold up"
+      }
+    },
+    {
+      "wort": "knicken",
+      "uebersetzung": {
+        "fa": "تا زدن",
+        "en": "to crease"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "entfalten",
+      "uebersetzung": {
+        "fa": "باز کردن (تا)",
+        "en": "to unfold"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Falte (چین) ⇔ falten",
+    "en": "Falte (fold, crease) ⇔ falten"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "falten",
+      "praeteritum": "faltete",
+      "partizip2": "gefaltet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "falte",
+        "du": "faltest",
+        "er_sie_es": "faltet",
+        "wir": "falten",
+        "ihr": "faltet",
+        "sie_Sie": "falten"
+      },
+      "praeteritum": {
+        "ich": "faltete",
+        "du": "faltetest",
+        "er_sie_es": "faltete",
+        "wir": "falteten",
+        "ihr": "faltetet",
+        "sie_Sie": "falteten"
+      },
+      "konjunktiv1": {
+        "ich": "falte",
+        "du": "faltest",
+        "er_sie_es": "falte",
+        "wir": "falten",
+        "ihr": "faltet",
+        "sie_Sie": "falten"
+      },
+      "konjunktiv2": {
+        "ich": "faltete",
+        "du": "faltetest",
+        "er_sie_es": "faltete",
+        "wir": "falteten",
+        "ihr": "faltetet",
+        "sie_Sie": "falteten"
+      },
+      "imperativ": {
+        "du": "Falte!",
+        "ihr": "Faltet!",
+        "Sie": "Falten Sie!"
+      }
+    },
+    "partizip1": "faltend",
+    "nominalisierung": "die Faltung"
+  },
+  "wortnetz": {
+    "grundwort": "Falte",
+    "woerter": [
+      {
+        "wort": "die Falte",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چین، چروک",
+          "en": "fold, wrinkle"
+        },
+        "id_ref": "nomen_falte"
+      },
+      {
+        "wort": "das Papier",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کاغذ",
+          "en": "paper"
+        },
+        "id_ref": "nomen_papier"
+      },
+      {
+        "wort": "die Wäsche",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "لباس‌های شسته",
+          "en": "laundry"
+        },
+        "id_ref": "nomen_waesche"
+      },
+      {
+        "wort": "zusammenlegen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تا کردن",
+          "en": "to fold up"
+        },
+        "id_ref": "verb_zusammenlegen"
+      },
+      {
+        "wort": "entfalten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "باز کردن",
+          "en": "to unfold"
+        },
+        "id_ref": "verb_entfalten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

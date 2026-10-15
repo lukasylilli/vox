@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_falsifizieren",
+  "wort": "falsifizieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ابطال کردن (نظریه)",
+      "نادرستی را ثابت کردن"
+    ],
+    "en": [
+      "to falsify",
+      "to disprove"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wissenschaft"
+  ],
+  "ipa": "falzifiˈt͡siːʁən",
+  "anmerkung": "Regelmäßig (falsifizierte, falsifiziert). Wissenschaftstheorie: eine Hypothese durch Gegenbeweis widerlegen (nicht «fälschen»).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Experiment falsifiziert die These.",
+      "uebersetzung": {
+        "fa": "آزمایش نظریه را ابطال می‌کند.",
+        "en": "The experiment disproves the thesis."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Eine wissenschaftliche Theorie muss so formuliert sein, dass man sie falsifizieren kann.",
+      "uebersetzung": {
+        "fa": "یک نظریه‌ی علمی باید طوری بیان شود که بتوان آن را ابطال کرد.",
+        "en": "A scientific theory must be formulated in such a way that it can be falsified."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "widerlegen",
+      "uebersetzung": {
+        "fa": "رد کردن",
+        "en": "to refute"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verifizieren",
+      "uebersetzung": {
+        "fa": "تأیید کردن، اثبات کردن",
+        "en": "to verify"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. falsus (نادرست) + -fizieren (کردن)",
+    "en": "Latin falsus (false) + -fizieren (to make)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "falsifizieren",
+      "praeteritum": "falsifizierte",
+      "partizip2": "falsifiziert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "falsifiziere",
+        "du": "falsifizierst",
+        "er_sie_es": "falsifiziert",
+        "wir": "falsifizieren",
+        "ihr": "falsifiziert",
+        "sie_Sie": "falsifizieren"
+      },
+      "praeteritum": {
+        "ich": "falsifizierte",
+        "du": "falsifiziertest",
+        "er_sie_es": "falsifizierte",
+        "wir": "falsifizierten",
+        "ihr": "falsifiziertet",
+        "sie_Sie": "falsifizierten"
+      },
+      "konjunktiv1": {
+        "ich": "falsifiziere",
+        "du": "falsifizierest",
+        "er_sie_es": "falsifiziere",
+        "wir": "falsifizieren",
+        "ihr": "falsifizieret",
+        "sie_Sie": "falsifizieren"
+      },
+      "konjunktiv2": {
+        "ich": "falsifizierte",
+        "du": "falsifiziertest",
+        "er_sie_es": "falsifizierte",
+        "wir": "falsifizierten",
+        "ihr": "falsifiziertet",
+        "sie_Sie": "falsifizierten"
+      },
+      "imperativ": {
+        "du": "Falsifiziere!",
+        "ihr": "Falsifiziert!",
+        "Sie": "Falsifizieren Sie!"
+      }
+    },
+    "partizip1": "falsifizierend",
+    "nominalisierung": "die Falsifikation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "widerlegen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رد کردن",
+          "en": "to refute"
+        },
+        "id_ref": "verb_widerlegen"
+      },
+      {
+        "wort": "beweisen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ثابت کردن",
+          "en": "to prove"
+        },
+        "id_ref": "verb_beweisen"
+      },
+      {
+        "wort": "die Theorie",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نظریه",
+          "en": "theory"
+        },
+        "id_ref": "nomen_theorie"
+      },
+      {
+        "wort": "die Hypothese",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "فرضیه",
+          "en": "hypothesis"
+        },
+        "id_ref": "nomen_hypothese"
+      },
+      {
+        "wort": "verifizieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تأیید کردن",
+          "en": "to verify"
+        },
+        "id_ref": "verb_verifizieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

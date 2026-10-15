@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_fahnden",
+  "wort": "fahnden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تحت تعقیب قرار دادن",
+      "جست‌وجو کردن (پلیس)"
+    ],
+    "en": [
+      "to search for",
+      "to hunt for"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kriminalität",
+    "Recht"
+  ],
+  "ipa": "ˈfaːndn̩",
+  "anmerkung": "Regelmäßig (fahndete, gefahndet).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Polizei fahndet nach dem Täter.",
+      "uebersetzung": {
+        "fa": "پلیس در جست‌وجوی مجرم است.",
+        "en": "The police are searching for the culprit."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Seit Tagen wird nach dem Mann gefahndet, der aus dem Gefängnis geflohen ist.",
+      "uebersetzung": {
+        "fa": "چند روز است که مردی که از زندان فرار کرده تحت تعقیب است.",
+        "en": "For days the police have been hunting for the man who escaped from prison."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "suchen",
+      "uebersetzung": {
+        "fa": "جست‌وجو کردن",
+        "en": "to search"
+      }
+    },
+    {
+      "wort": "verfolgen",
+      "uebersetzung": {
+        "fa": "تعقیب کردن",
+        "en": "to pursue"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "nach + Dat fahnden",
+        "bedeutung": "polizeilich nach jemandem oder etwas suchen",
+        "beispiel": "Man fahndet nach dem gestohlenen Auto.",
+        "uebersetzung": {
+          "fa": "دنبال خودروی دزدیده‌شده می‌گردند.",
+          "en": "They are searching for the stolen car."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "fahnden",
+      "praeteritum": "fahndete",
+      "partizip2": "gefahndet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fahnde",
+        "du": "fahndest",
+        "er_sie_es": "fahndet",
+        "wir": "fahnden",
+        "ihr": "fahndet",
+        "sie_Sie": "fahnden"
+      },
+      "praeteritum": {
+        "ich": "fahndete",
+        "du": "fahndetest",
+        "er_sie_es": "fahndete",
+        "wir": "fahndeten",
+        "ihr": "fahndetet",
+        "sie_Sie": "fahndeten"
+      },
+      "konjunktiv1": {
+        "ich": "fahnde",
+        "du": "fahndest",
+        "er_sie_es": "fahnde",
+        "wir": "fahnden",
+        "ihr": "fahndet",
+        "sie_Sie": "fahnden"
+      },
+      "konjunktiv2": {
+        "ich": "fahndete",
+        "du": "fahndetest",
+        "er_sie_es": "fahndete",
+        "wir": "fahndeten",
+        "ihr": "fahndetet",
+        "sie_Sie": "fahndeten"
+      },
+      "imperativ": {
+        "du": "Fahnde!",
+        "ihr": "Fahndet!",
+        "Sie": "Fahnden Sie!"
+      }
+    },
+    "partizip1": "fahndend",
+    "nominalisierung": "die Fahndung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "suchen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جست‌وجو کردن",
+          "en": "to search"
+        },
+        "id_ref": "verb_suchen"
+      },
+      {
+        "wort": "die Fahndung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "جست‌وجوی پلیس",
+          "en": "manhunt"
+        },
+        "id_ref": "nomen_fahndung"
+      },
+      {
+        "wort": "die Polizei",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پلیس",
+          "en": "police"
+        },
+        "id_ref": "nomen_polizei"
+      },
+      {
+        "wort": "der Täter",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مجرم",
+          "en": "culprit"
+        },
+        "id_ref": "nomen_taeter"
+      },
+      {
+        "wort": "verfolgen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تعقیب کردن",
+          "en": "to pursue"
+        },
+        "id_ref": "verb_verfolgen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
