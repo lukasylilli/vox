@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_gesunden",
+  "wort": "gesunden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بهبود یافتن",
+      "سلامتی را بازیافتن"
+    ],
+    "en": [
+      "to recover",
+      "to get well"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gesundheit",
+    "Wirtschaft"
+  ],
+  "ipa": "ɡəˈzʊndn̩",
+  "anmerkung": "Regelmäßig (gesundete, gesundet). Gehoben.",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Patient gesundet langsam.",
+      "uebersetzung": {
+        "fa": "بیمار کم‌کم بهبود می‌یابد.",
+        "en": "The patient is slowly recovering."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach der schweren Krise ist die Wirtschaft des Landes erst nach Jahren wieder gesundet.",
+      "uebersetzung": {
+        "fa": "پس از بحران سخت، اقتصاد کشور تنها پس از سال‌ها دوباره بهبود یافت.",
+        "en": "After the severe crisis the country’s economy only recovered years later."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "genesen",
+      "uebersetzung": {
+        "fa": "شفا یافتن",
+        "en": "to convalesce"
+      }
+    },
+    {
+      "wort": "sich erholen",
+      "uebersetzung": {
+        "fa": "بهبود یافتن",
+        "en": "to recover"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "gesund (سالم) + -en",
+    "en": "gesund (healthy) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "gesunden",
+      "praeteritum": "gesundete",
+      "partizip2": "gesundet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gesunde",
+        "du": "gesundest",
+        "er_sie_es": "gesundet",
+        "wir": "gesunden",
+        "ihr": "gesundet",
+        "sie_Sie": "gesunden"
+      },
+      "praeteritum": {
+        "ich": "gesundete",
+        "du": "gesundetest",
+        "er_sie_es": "gesundete",
+        "wir": "gesundeten",
+        "ihr": "gesundetet",
+        "sie_Sie": "gesundeten"
+      },
+      "konjunktiv1": {
+        "ich": "gesunde",
+        "du": "gesundest",
+        "er_sie_es": "gesunde",
+        "wir": "gesunden",
+        "ihr": "gesundet",
+        "sie_Sie": "gesunden"
+      },
+      "konjunktiv2": {
+        "ich": "gesundete",
+        "du": "gesundetest",
+        "er_sie_es": "gesundete",
+        "wir": "gesundeten",
+        "ihr": "gesundetet",
+        "sie_Sie": "gesundeten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "gesundend",
+    "nominalisierung": "die Gesundung"
+  },
+  "wortnetz": {
+    "grundwort": "gesund",
+    "woerter": [
+      {
+        "wort": "gesund",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سالم",
+          "en": "healthy"
+        },
+        "id_ref": "adjektiv_gesund"
+      },
+      {
+        "wort": "krank",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "ill"
+        },
+        "id_ref": "adjektiv_krank"
+      },
+      {
+        "wort": "die Gesundheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سلامتی",
+          "en": "health"
+        },
+        "id_ref": "nomen_gesundheit"
+      },
+      {
+        "wort": "erholen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بهبود یافتن",
+          "en": "to recover"
+        },
+        "id_ref": "verb_erholen"
+      },
+      {
+        "wort": "genesen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شفا یافتن",
+          "en": "to convalesce"
+        },
+        "id_ref": "verb_genesen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
