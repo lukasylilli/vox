@@ -1,0 +1,168 @@
+{
+  "schema": "3.0",
+  "id": "verb_exmatrikulieren",
+  "wort": "exmatrikulieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "از دانشگاه خارج کردن (لغو ثبت‌نام)"
+    ],
+    "en": [
+      "to de-register (from university)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Studium"
+  ],
+  "ipa": "ɛksmatʁikuˈliːʁən",
+  "anmerkung": "Regelmäßig (exmatrikulierte, exmatrikuliert). Auch reflexiv: «sich exmatrikulieren» (sich selbst abmelden).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich exmatrikuliere mich im März.",
+      "uebersetzung": {
+        "fa": "در ماه مارس ثبت‌نامم را در دانشگاه لغو می‌کنم.",
+        "en": "I am de-registering from university in March."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wer die Gebühren nicht bezahlt, wird automatisch exmatrikuliert und verliert seinen Studienplatz.",
+      "uebersetzung": {
+        "fa": "کسی که شهریه را نپردازد، خودکار از دانشگاه خارج می‌شود و جای تحصیلش را از دست می‌دهد.",
+        "en": "Anyone who does not pay the fees is automatically de-registered and loses their place."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "immatrikulieren",
+      "uebersetzung": {
+        "fa": "ثبت‌نام کردن در دانشگاه",
+        "en": "to enrol"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ex- (بیرون) + Matrikel (فهرست دانشجویان) + -ieren",
+    "en": "ex- (out) + Matrikel (student register) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "exmatrikulieren",
+      "praeteritum": "exmatrikulierte",
+      "partizip2": "exmatrikuliert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "exmatrikuliere",
+        "du": "exmatrikulierst",
+        "er_sie_es": "exmatrikuliert",
+        "wir": "exmatrikulieren",
+        "ihr": "exmatrikuliert",
+        "sie_Sie": "exmatrikulieren"
+      },
+      "praeteritum": {
+        "ich": "exmatrikulierte",
+        "du": "exmatrikuliertest",
+        "er_sie_es": "exmatrikulierte",
+        "wir": "exmatrikulierten",
+        "ihr": "exmatrikuliertet",
+        "sie_Sie": "exmatrikulierten"
+      },
+      "konjunktiv1": {
+        "ich": "exmatrikuliere",
+        "du": "exmatrikulierest",
+        "er_sie_es": "exmatrikuliere",
+        "wir": "exmatrikulieren",
+        "ihr": "exmatrikulieret",
+        "sie_Sie": "exmatrikulieren"
+      },
+      "konjunktiv2": {
+        "ich": "exmatrikulierte",
+        "du": "exmatrikuliertest",
+        "er_sie_es": "exmatrikulierte",
+        "wir": "exmatrikulierten",
+        "ihr": "exmatrikuliertet",
+        "sie_Sie": "exmatrikulierten"
+      },
+      "imperativ": {
+        "du": "Exmatrikuliere!",
+        "ihr": "Exmatrikuliert!",
+        "Sie": "Exmatrikulieren Sie!"
+      }
+    },
+    "partizip1": "exmatrikulierend",
+    "nominalisierung": "die Exmatrikulation"
+  },
+  "wortnetz": {
+    "grundwort": "Matrikel",
+    "woerter": [
+      {
+        "wort": "die Universität",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دانشگاه",
+          "en": "university"
+        },
+        "id_ref": "nomen_universitaet"
+      },
+      {
+        "wort": "studieren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تحصیل کردن",
+          "en": "to study"
+        },
+        "id_ref": "verb_studieren"
+      },
+      {
+        "wort": "immatrikulieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ثبت‌نام کردن در دانشگاه",
+          "en": "to enrol"
+        },
+        "id_ref": "verb_immatrikulieren"
+      },
+      {
+        "wort": "das Studium",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تحصیل",
+          "en": "studies"
+        },
+        "id_ref": "nomen_studium"
+      },
+      {
+        "wort": "abmelden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لغو ثبت‌نام کردن",
+          "en": "to deregister"
+        },
+        "id_ref": "verb_abmelden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

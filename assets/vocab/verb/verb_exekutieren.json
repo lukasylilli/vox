@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_exekutieren",
+  "wort": "exekutieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اعدام کردن",
+      "اجرا کردن (حکم)"
+    ],
+    "en": [
+      "to execute"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Politik"
+  ],
+  "ipa": "ɛksekuˈtiːʁən",
+  "anmerkung": "Regelmäßig (exekutierte, exekutiert). Österreichisch auch: pfänden (der Exekutor = Gerichtsvollzieher).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Man exekutiert den Gefangenen.",
+      "uebersetzung": {
+        "fa": "زندانی را اعدام می‌کنند.",
+        "en": "They execute the prisoner."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Regierung will den Plan schnell exekutieren, bevor die Opposition ihn verhindern kann.",
+      "uebersetzung": {
+        "fa": "دولت می‌خواهد نقشه را سریع اجرا کند، پیش از آن‌که مخالفان بتوانند جلویش را بگیرند.",
+        "en": "The government wants to execute the plan quickly before the opposition can stop it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hinrichten",
+      "uebersetzung": {
+        "fa": "اعدام کردن",
+        "en": "to execute"
+      }
+    },
+    {
+      "wort": "ausführen",
+      "uebersetzung": {
+        "fa": "اجرا کردن",
+        "en": "to carry out"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. exsequi (اجرا کردن) + -ieren",
+    "en": "Latin exsequi (to carry out) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "exekutieren",
+      "praeteritum": "exekutierte",
+      "partizip2": "exekutiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "exekutiere",
+        "du": "exekutierst",
+        "er_sie_es": "exekutiert",
+        "wir": "exekutieren",
+        "ihr": "exekutiert",
+        "sie_Sie": "exekutieren"
+      },
+      "praeteritum": {
+        "ich": "exekutierte",
+        "du": "exekutiertest",
+        "er_sie_es": "exekutierte",
+        "wir": "exekutierten",
+        "ihr": "exekutiertet",
+        "sie_Sie": "exekutierten"
+      },
+      "konjunktiv1": {
+        "ich": "exekutiere",
+        "du": "exekutierest",
+        "er_sie_es": "exekutiere",
+        "wir": "exekutieren",
+        "ihr": "exekutieret",
+        "sie_Sie": "exekutieren"
+      },
+      "konjunktiv2": {
+        "ich": "exekutierte",
+        "du": "exekutiertest",
+        "er_sie_es": "exekutierte",
+        "wir": "exekutierten",
+        "ihr": "exekutiertet",
+        "sie_Sie": "exekutierten"
+      },
+      "imperativ": {
+        "du": "Exekutiere!",
+        "ihr": "Exekutiert!",
+        "Sie": "Exekutieren Sie!"
+      }
+    },
+    "partizip1": "exekutierend",
+    "nominalisierung": "die Exekution"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "hinrichten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اعدام کردن",
+          "en": "to execute"
+        },
+        "id_ref": "verb_hinrichten"
+      },
+      {
+        "wort": "die Todesstrafe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مجازات اعدام",
+          "en": "death penalty"
+        },
+        "id_ref": "nomen_todesstrafe"
+      },
+      {
+        "wort": "ausführen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اجرا کردن",
+          "en": "to carry out"
+        },
+        "id_ref": "verb_ausfuehren"
+      },
+      {
+        "wort": "das Urteil",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حکم",
+          "en": "verdict"
+        },
+        "id_ref": "nomen_urteil"
+      },
+      {
+        "wort": "die Exekutive",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "قوه‌ی مجریه",
+          "en": "executive"
+        },
+        "id_ref": "nomen_exekutive"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

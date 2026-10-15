@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_existieren",
+  "wort": "existieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "وجود داشتن",
+      "زندگی کردن (با حداقل)"
+    ],
+    "en": [
+      "to exist"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Denken",
+    "Alltag"
+  ],
+  "ipa": "ɛksɪsˈtiːʁən",
+  "anmerkung": "Regelmäßig (existierte, existiert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Diese Firma existiert nicht mehr.",
+      "uebersetzung": {
+        "fa": "این شرکت دیگر وجود ندارد.",
+        "en": "This company no longer exists."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Viele glauben, dass Leben auf anderen Planeten existiert, aber bewiesen ist es nicht.",
+      "uebersetzung": {
+        "fa": "خیلی‌ها معتقدند روی سیاره‌های دیگر حیات وجود دارد، اما ثابت نشده است.",
+        "en": "Many people believe that life exists on other planets, but it has not been proved."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bestehen",
+      "uebersetzung": {
+        "fa": "وجود داشتن",
+        "en": "to exist"
+      }
+    },
+    {
+      "wort": "es gibt",
+      "uebersetzung": {
+        "fa": "وجود دارد",
+        "en": "there is"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. existere (پدید آمدن) + -ieren",
+    "en": "Latin existere (to emerge) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "von + Dat existieren",
+        "bedeutung": "von etwas leben",
+        "beispiel": "Von diesem Gehalt kann man kaum existieren.",
+        "uebersetzung": {
+          "fa": "با این حقوق به‌سختی می‌شود زندگی کرد.",
+          "en": "You can hardly live on this salary."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "existieren",
+      "praeteritum": "existierte",
+      "partizip2": "existiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "existiere",
+        "du": "existierst",
+        "er_sie_es": "existiert",
+        "wir": "existieren",
+        "ihr": "existiert",
+        "sie_Sie": "existieren"
+      },
+      "praeteritum": {
+        "ich": "existierte",
+        "du": "existiertest",
+        "er_sie_es": "existierte",
+        "wir": "existierten",
+        "ihr": "existiertet",
+        "sie_Sie": "existierten"
+      },
+      "konjunktiv1": {
+        "ich": "existiere",
+        "du": "existierest",
+        "er_sie_es": "existiere",
+        "wir": "existieren",
+        "ihr": "existieret",
+        "sie_Sie": "existieren"
+      },
+      "konjunktiv2": {
+        "ich": "existierte",
+        "du": "existiertest",
+        "er_sie_es": "existierte",
+        "wir": "existierten",
+        "ihr": "existiertet",
+        "sie_Sie": "existierten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "existierend",
+    "nominalisierung": "die Existenz"
+  },
+  "wortnetz": {
+    "grundwort": "Existenz",
+    "woerter": [
+      {
+        "wort": "die Existenz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "هستی، معاش",
+          "en": "existence"
+        },
+        "id_ref": "nomen_existenz"
+      },
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "bestehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وجود داشتن، قبول شدن",
+          "en": "to exist, to pass"
+        },
+        "id_ref": "verb_bestehen"
+      },
+      {
+        "wort": "leben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زندگی کردن",
+          "en": "to live"
+        },
+        "id_ref": "verb_leben"
+      },
+      {
+        "wort": "real",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "واقعی",
+          "en": "real"
+        },
+        "id_ref": "adjektiv_real"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

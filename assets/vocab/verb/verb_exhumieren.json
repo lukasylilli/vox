@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_exhumieren",
+  "wort": "exhumieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نبش قبر کردن",
+      "جسد را از گور بیرون آوردن"
+    ],
+    "en": [
+      "to exhume"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Recht",
+    "Medizin"
+  ],
+  "ipa": "ɛkshuˈmiːʁən",
+  "anmerkung": "Regelmäßig (exhumierte, exhumiert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Man exhumiert die Leiche.",
+      "uebersetzung": {
+        "fa": "جسد را از گور بیرون می‌آورند.",
+        "en": "The body is being exhumed."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Leiche wurde exhumiert, weil die Polizei die Todesursache noch einmal prüfen wollte.",
+      "uebersetzung": {
+        "fa": "جسد نبش قبر شد، چون پلیس می‌خواست علت مرگ را دوباره بررسی کند.",
+        "en": "The body was exhumed because the police wanted to check the cause of death again."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausgraben",
+      "uebersetzung": {
+        "fa": "بیرون آوردن از خاک",
+        "en": "to dig up"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "beerdigen",
+      "uebersetzung": {
+        "fa": "دفن کردن",
+        "en": "to bury"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. ex (بیرون) + humus (خاک) + -ieren",
+    "en": "Latin ex (out) + humus (earth) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "exhumieren",
+      "praeteritum": "exhumierte",
+      "partizip2": "exhumiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "exhumiere",
+        "du": "exhumierst",
+        "er_sie_es": "exhumiert",
+        "wir": "exhumieren",
+        "ihr": "exhumiert",
+        "sie_Sie": "exhumieren"
+      },
+      "praeteritum": {
+        "ich": "exhumierte",
+        "du": "exhumiertest",
+        "er_sie_es": "exhumierte",
+        "wir": "exhumierten",
+        "ihr": "exhumiertet",
+        "sie_Sie": "exhumierten"
+      },
+      "konjunktiv1": {
+        "ich": "exhumiere",
+        "du": "exhumierest",
+        "er_sie_es": "exhumiere",
+        "wir": "exhumieren",
+        "ihr": "exhumieret",
+        "sie_Sie": "exhumieren"
+      },
+      "konjunktiv2": {
+        "ich": "exhumierte",
+        "du": "exhumiertest",
+        "er_sie_es": "exhumierte",
+        "wir": "exhumierten",
+        "ihr": "exhumiertet",
+        "sie_Sie": "exhumierten"
+      },
+      "imperativ": {
+        "du": "Exhumiere!",
+        "ihr": "Exhumiert!",
+        "Sie": "Exhumieren Sie!"
+      }
+    },
+    "partizip1": "exhumierend",
+    "nominalisierung": "die Exhumierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Grab",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گور",
+          "en": "grave"
+        },
+        "id_ref": "nomen_grab"
+      },
+      {
+        "wort": "die Leiche",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جسد",
+          "en": "corpse"
+        },
+        "id_ref": "nomen_leiche"
+      },
+      {
+        "wort": "beerdigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دفن کردن",
+          "en": "to bury"
+        },
+        "id_ref": "verb_beerdigen"
+      },
+      {
+        "wort": "ausgraben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیرون آوردن از خاک",
+          "en": "to dig up"
+        },
+        "id_ref": "verb_ausgraben"
+      },
+      {
+        "wort": "der Friedhof",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گورستان",
+          "en": "cemetery"
+        },
+        "id_ref": "nomen_friedhof"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

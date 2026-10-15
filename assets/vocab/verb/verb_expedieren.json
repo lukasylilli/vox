@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_expedieren",
+  "wort": "expedieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ارسال کردن (کالا)",
+      "روانه کردن"
+    ],
+    "en": [
+      "to dispatch",
+      "to ship"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Arbeit",
+    "Handel"
+  ],
+  "ipa": "ɛkspeˈdiːʁən",
+  "anmerkung": "Regelmäßig (expedierte, expediert). Kaufmännisch; umgangssprachlich auch scherzhaft: «jemanden nach draußen expedieren».",
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir expedieren die Ware heute.",
+      "uebersetzung": {
+        "fa": "کالا را امروز ارسال می‌کنیم.",
+        "en": "We are dispatching the goods today."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Bestellungen werden noch am selben Tag expediert, wenn sie vor 14 Uhr eingehen.",
+      "uebersetzung": {
+        "fa": "سفارش‌ها اگر پیش از ساعت ۱۴ برسند، همان روز ارسال می‌شوند.",
+        "en": "Orders are dispatched the same day if they arrive before 2 p.m."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "versenden",
+      "uebersetzung": {
+        "fa": "فرستادن",
+        "en": "to send"
+      }
+    },
+    {
+      "wort": "verschicken",
+      "uebersetzung": {
+        "fa": "فرستادن",
+        "en": "to ship"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. expedire (آزاد کردن، روانه کردن) + -ieren",
+    "en": "Latin expedire (to set free, to send off) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "expedieren",
+      "praeteritum": "expedierte",
+      "partizip2": "expediert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "expediere",
+        "du": "expedierst",
+        "er_sie_es": "expediert",
+        "wir": "expedieren",
+        "ihr": "expediert",
+        "sie_Sie": "expedieren"
+      },
+      "praeteritum": {
+        "ich": "expedierte",
+        "du": "expediertest",
+        "er_sie_es": "expedierte",
+        "wir": "expedierten",
+        "ihr": "expediertet",
+        "sie_Sie": "expedierten"
+      },
+      "konjunktiv1": {
+        "ich": "expediere",
+        "du": "expedierest",
+        "er_sie_es": "expediere",
+        "wir": "expedieren",
+        "ihr": "expedieret",
+        "sie_Sie": "expedieren"
+      },
+      "konjunktiv2": {
+        "ich": "expedierte",
+        "du": "expediertest",
+        "er_sie_es": "expedierte",
+        "wir": "expedierten",
+        "ihr": "expediertet",
+        "sie_Sie": "expedierten"
+      },
+      "imperativ": {
+        "du": "Expediere!",
+        "ihr": "Expediert!",
+        "Sie": "Expedieren Sie!"
+      }
+    },
+    "partizip1": "expedierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "schicken",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فرستادن",
+          "en": "to send"
+        },
+        "id_ref": "verb_schicken"
+      },
+      {
+        "wort": "versenden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فرستادن",
+          "en": "to send"
+        },
+        "id_ref": "verb_versenden"
+      },
+      {
+        "wort": "die Lieferung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تحویل، محموله",
+          "en": "delivery"
+        },
+        "id_ref": "nomen_lieferung"
+      },
+      {
+        "wort": "die Ware",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کالا",
+          "en": "goods"
+        },
+        "id_ref": "nomen_ware"
+      },
+      {
+        "wort": "der Versand",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ارسال",
+          "en": "shipping"
+        },
+        "id_ref": "nomen_versand"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

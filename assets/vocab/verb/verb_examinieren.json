@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_examinieren",
+  "wort": "examinieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "امتحان گرفتن",
+      "بررسی دقیق کردن"
+    ],
+    "en": [
+      "to examine",
+      "to question"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Lernen",
+    "Gesundheit"
+  ],
+  "ipa": "ɛksamiˈniːʁən",
+  "anmerkung": "Regelmäßig (examinierte, examiniert). Partizip «examiniert» auch adjektivisch: «examinierte Pflegekraft» (mit staatlichem Abschluss).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Professor examiniert die Studenten.",
+      "uebersetzung": {
+        "fa": "استاد از دانشجویان امتحان می‌گیرد.",
+        "en": "The professor examines the students."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Für diese Station suchen wir eine examinierte Pflegekraft, die auch Nachtdienste übernimmt.",
+      "uebersetzung": {
+        "fa": "برای این بخش یک پرستار دارای مدرک رسمی می‌خواهیم که شیفت شب هم بپذیرد.",
+        "en": "For this ward we are looking for a qualified nurse who will also do night shifts."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "prüfen",
+      "uebersetzung": {
+        "fa": "امتحان کردن",
+        "en": "to test"
+      }
+    },
+    {
+      "wort": "untersuchen",
+      "uebersetzung": {
+        "fa": "معاینه کردن",
+        "en": "to examine"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Examen (امتحان) + -ieren",
+    "en": "Examen (exam) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "examinieren",
+      "praeteritum": "examinierte",
+      "partizip2": "examiniert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "examiniere",
+        "du": "examinierst",
+        "er_sie_es": "examiniert",
+        "wir": "examinieren",
+        "ihr": "examiniert",
+        "sie_Sie": "examinieren"
+      },
+      "praeteritum": {
+        "ich": "examinierte",
+        "du": "examiniertest",
+        "er_sie_es": "examinierte",
+        "wir": "examinierten",
+        "ihr": "examiniertet",
+        "sie_Sie": "examinierten"
+      },
+      "konjunktiv1": {
+        "ich": "examiniere",
+        "du": "examinierest",
+        "er_sie_es": "examiniere",
+        "wir": "examinieren",
+        "ihr": "examinieret",
+        "sie_Sie": "examinieren"
+      },
+      "konjunktiv2": {
+        "ich": "examinierte",
+        "du": "examiniertest",
+        "er_sie_es": "examinierte",
+        "wir": "examinierten",
+        "ihr": "examiniertet",
+        "sie_Sie": "examinierten"
+      },
+      "imperativ": {
+        "du": "Examiniere!",
+        "ihr": "Examiniert!",
+        "Sie": "Examinieren Sie!"
+      }
+    },
+    "partizip1": "examinierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Examen",
+    "woerter": [
+      {
+        "wort": "das Examen",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "امتحان نهایی",
+          "en": "exam"
+        },
+        "id_ref": "nomen_examen"
+      },
+      {
+        "wort": "die Prüfung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "امتحان",
+          "en": "test"
+        },
+        "id_ref": "nomen_pruefung"
+      },
+      {
+        "wort": "prüfen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "امتحان کردن",
+          "en": "to test"
+        },
+        "id_ref": "verb_pruefen"
+      },
+      {
+        "wort": "die Pflegekraft",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نیروی پرستاری",
+          "en": "nurse"
+        },
+        "id_ref": "nomen_pflegekraft"
+      },
+      {
+        "wort": "der Abschluss",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مدرک پایانی",
+          "en": "qualification"
+        },
+        "id_ref": "nomen_abschluss"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
