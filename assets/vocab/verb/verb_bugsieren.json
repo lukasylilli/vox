@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_bugsieren",
+  "wort": "bugsieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "با زحمت هدایت کردن",
+      "جابه‌جا کردن (با دقت)"
+    ],
+    "en": [
+      "to manoeuvre",
+      "to steer",
+      "to shepherd"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag",
+    "Verkehr"
+  ],
+  "ipa": "bʊˈksiːʁən",
+  "anmerkung": "Regelmäßig (bugsierte, bugsiert). Umgangssprachlich; ursprünglich Seemannssprache (Schiff schleppen).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er bugsiert das Sofa durch die Tür.",
+      "uebersetzung": {
+        "fa": "مبل را با زحمت از در رد می‌کند.",
+        "en": "He manoeuvres the sofa through the door."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Lehrerin bugsierte die aufgeregten Kinder in den Bus, bevor es zu regnen begann.",
+      "uebersetzung": {
+        "fa": "معلم بچه‌های هیجان‌زده را قبل از شروع باران به‌زحمت سوار اتوبوس کرد.",
+        "en": "The teacher steered the excited children onto the bus before it started to rain."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "manövrieren",
+      "uebersetzung": {
+        "fa": "مانور دادن",
+        "en": "to manoeuvre"
+      }
+    },
+    {
+      "wort": "lotsen",
+      "uebersetzung": {
+        "fa": "راهنمایی کردن",
+        "en": "to guide"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "niederländisch boegseren (یدک کشیدن کشتی)",
+    "en": "Dutch boegseren (to tow a ship)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden/etwas in + Akk bugsieren",
+        "bedeutung": "mit Mühe an einen Ort bringen",
+        "beispiel": "Wir bugsierten den Kranken ins Auto.",
+        "uebersetzung": {
+          "fa": "بیمار را به‌زحمت سوار ماشین کردیم.",
+          "en": "We manoeuvred the patient into the car."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bugsieren",
+      "praeteritum": "bugsierte",
+      "partizip2": "bugsiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bugsiere",
+        "du": "bugsierst",
+        "er_sie_es": "bugsiert",
+        "wir": "bugsieren",
+        "ihr": "bugsiert",
+        "sie_Sie": "bugsieren"
+      },
+      "praeteritum": {
+        "ich": "bugsierte",
+        "du": "bugsiertest",
+        "er_sie_es": "bugsierte",
+        "wir": "bugsierten",
+        "ihr": "bugsiertet",
+        "sie_Sie": "bugsierten"
+      },
+      "konjunktiv1": {
+        "ich": "bugsiere",
+        "du": "bugsierest",
+        "er_sie_es": "bugsiere",
+        "wir": "bugsieren",
+        "ihr": "bugsieret",
+        "sie_Sie": "bugsieren"
+      },
+      "konjunktiv2": {
+        "ich": "bugsierte",
+        "du": "bugsiertest",
+        "er_sie_es": "bugsierte",
+        "wir": "bugsierten",
+        "ihr": "bugsiertet",
+        "sie_Sie": "bugsierten"
+      },
+      "imperativ": {
+        "du": "Bugsiere!",
+        "ihr": "Bugsiert!",
+        "Sie": "Bugsieren Sie!"
+      }
+    },
+    "partizip1": "bugsierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "schieben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "هل دادن",
+          "en": "to push"
+        },
+        "id_ref": "verb_schieben"
+      },
+      {
+        "wort": "lenken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "هدایت کردن",
+          "en": "to steer"
+        },
+        "id_ref": "verb_lenken"
+      },
+      {
+        "wort": "das Schiff",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کشتی",
+          "en": "ship"
+        },
+        "id_ref": "nomen_schiff"
+      },
+      {
+        "wort": "transportieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حمل کردن",
+          "en": "to transport"
+        },
+        "id_ref": "verb_transportieren"
+      },
+      {
+        "wort": "vorsichtig",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "با احتیاط",
+          "en": "careful"
+        },
+        "id_ref": "adjektiv_vorsichtig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

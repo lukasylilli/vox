@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_buckeln",
+  "wort": "buckeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "قوز کردن",
+      "دولا راست شدن (چاپلوسی)"
+    ],
+    "en": [
+      "to hunch",
+      "to bow and scrape",
+      "to kowtow"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Charakter",
+    "Arbeit"
+  ],
+  "ipa": "ˈbʊkl̩n",
+  "anmerkung": "Regelmäßig (buckelte, gebuckelt). Abwertend in der Bedeutung «sich unterwürfig zeigen».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Katze buckelt.",
+      "uebersetzung": {
+        "fa": "گربه قوز می‌کند.",
+        "en": "The cat arches its back."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Er buckelt vor dem Chef und tritt gleichzeitig nach unten, deshalb mag ihn im Team niemand.",
+      "uebersetzung": {
+        "fa": "جلوی رئیس دولا راست می‌شود و در عین حال به زیردست‌ها زور می‌گوید، برای همین هیچ‌کس در تیم دوستش ندارد.",
+        "en": "He kowtows to the boss and kicks down at the same time, so nobody in the team likes him."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "katzbuckeln",
+      "uebersetzung": {
+        "fa": "چاپلوسی کردن",
+        "en": "to kowtow"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Buckel (قوز) + -n",
+    "en": "Buckel (hump) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "vor + Dat buckeln",
+        "bedeutung": "sich jemandem unterwürfig zeigen",
+        "beispiel": "Sie buckelt vor ihrem Vorgesetzten.",
+        "uebersetzung": {
+          "fa": "جلوی مافوقش چاپلوسی می‌کند.",
+          "en": "She bows and scrapes before her superior."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "buckeln",
+      "praeteritum": "buckelte",
+      "partizip2": "gebuckelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "buckle",
+        "du": "buckelst",
+        "er_sie_es": "buckelt",
+        "wir": "buckeln",
+        "ihr": "buckelt",
+        "sie_Sie": "buckeln"
+      },
+      "praeteritum": {
+        "ich": "buckelte",
+        "du": "buckeltest",
+        "er_sie_es": "buckelte",
+        "wir": "buckelten",
+        "ihr": "buckeltet",
+        "sie_Sie": "buckelten"
+      },
+      "konjunktiv1": {
+        "ich": "buckle",
+        "du": "bucklest",
+        "er_sie_es": "buckle",
+        "wir": "buckeln",
+        "ihr": "bucklet",
+        "sie_Sie": "buckeln"
+      },
+      "konjunktiv2": {
+        "ich": "buckelte",
+        "du": "buckeltest",
+        "er_sie_es": "buckelte",
+        "wir": "buckelten",
+        "ihr": "buckeltet",
+        "sie_Sie": "buckelten"
+      },
+      "imperativ": {
+        "du": "Buckle!",
+        "ihr": "Buckelt!",
+        "Sie": "Buckeln Sie!"
+      }
+    },
+    "partizip1": "buckelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Buckel",
+    "woerter": [
+      {
+        "wort": "der Buckel",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "قوز",
+          "en": "hump"
+        },
+        "id_ref": "nomen_buckel"
+      },
+      {
+        "wort": "der Rücken",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پشت",
+          "en": "back"
+        },
+        "id_ref": "nomen_ruecken"
+      },
+      {
+        "wort": "schleimen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "چاپلوسی کردن",
+          "en": "to suck up"
+        },
+        "id_ref": "verb_schleimen"
+      },
+      {
+        "wort": "der Chef",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رئیس",
+          "en": "boss"
+        },
+        "id_ref": "nomen_chef"
+      },
+      {
+        "wort": "unterwürfig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مطیع، چاپلوس",
+          "en": "servile"
+        },
+        "id_ref": "adjektiv_unterwuerfig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

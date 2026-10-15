@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_buecken",
+  "wort": "bücken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خم شدن"
+    ],
+    "en": [
+      "to bend down",
+      "to stoop"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Körper",
+    "Alltag"
+  ],
+  "ipa": "ˈbʏkn̩",
+  "anmerkung": "Regelmäßig (bückte, gebückt). Nur reflexiv: sich bücken.",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich bücke mich.",
+      "uebersetzung": {
+        "fa": "خم می‌شوم.",
+        "en": "I bend down."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Sie bückte sich, um den Schlüssel aufzuheben, der ihr aus der Tasche gefallen war.",
+      "uebersetzung": {
+        "fa": "خم شد تا کلیدی را که از کیفش افتاده بود بردارد.",
+        "en": "She bent down to pick up the key that had fallen out of her bag."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beugen",
+      "uebersetzung": {
+        "fa": "خم شدن",
+        "en": "to bend"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "aufrichten",
+      "uebersetzung": {
+        "fa": "صاف ایستادن",
+        "en": "to straighten up"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich nach + Dat bücken",
+        "bedeutung": "sich hinunterbeugen, um etwas zu nehmen",
+        "beispiel": "Er bückt sich nach dem Ball.",
+        "uebersetzung": {
+          "fa": "خم می‌شود تا توپ را بردارد.",
+          "en": "He bends down for the ball."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bücken",
+      "praeteritum": "bückte",
+      "partizip2": "gebückt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bücke",
+        "du": "bückst",
+        "er_sie_es": "bückt",
+        "wir": "bücken",
+        "ihr": "bückt",
+        "sie_Sie": "bücken"
+      },
+      "praeteritum": {
+        "ich": "bückte",
+        "du": "bücktest",
+        "er_sie_es": "bückte",
+        "wir": "bückten",
+        "ihr": "bücktet",
+        "sie_Sie": "bückten"
+      },
+      "konjunktiv1": {
+        "ich": "bücke",
+        "du": "bückest",
+        "er_sie_es": "bücke",
+        "wir": "bücken",
+        "ihr": "bücket",
+        "sie_Sie": "bücken"
+      },
+      "konjunktiv2": {
+        "ich": "bückte",
+        "du": "bücktest",
+        "er_sie_es": "bückte",
+        "wir": "bückten",
+        "ihr": "bücktet",
+        "sie_Sie": "bückten"
+      },
+      "imperativ": {
+        "du": "Bücke!",
+        "ihr": "Bückt!",
+        "Sie": "Bücken Sie!"
+      }
+    },
+    "partizip1": "bückend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Rücken",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پشت",
+          "en": "back"
+        },
+        "id_ref": "nomen_ruecken"
+      },
+      {
+        "wort": "aufheben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برداشتن",
+          "en": "to pick up"
+        },
+        "id_ref": "verb_aufheben"
+      },
+      {
+        "wort": "beugen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خم کردن",
+          "en": "to bend"
+        },
+        "id_ref": "verb_beugen"
+      },
+      {
+        "wort": "knien",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زانو زدن",
+          "en": "to kneel"
+        },
+        "id_ref": "verb_knien"
+      },
+      {
+        "wort": "aufrichten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "صاف کردن",
+          "en": "to straighten"
+        },
+        "id_ref": "verb_aufrichten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
