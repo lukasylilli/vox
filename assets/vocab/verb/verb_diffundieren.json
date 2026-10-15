@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_diffundieren",
+  "wort": "diffundieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پخش شدن (مولکول‌ها)",
+      "نفوذ کردن"
+    ],
+    "en": [
+      "to diffuse"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Chemie",
+    "Physik"
+  ],
+  "ipa": "dɪfʊnˈdiːʁən",
+  "anmerkung": "Regelmäßig (diffundierte, diffundiert). Perfekt meist mit «sein» (Bewegung); fachsprachlich auch mit «haben». Ohne Imperativ.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Gas diffundiert in die Luft.",
+      "uebersetzung": {
+        "fa": "گاز در هوا پخش می‌شود.",
+        "en": "The gas diffuses into the air."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Sauerstoff ist durch die dünne Wand der Lungenbläschen ins Blut diffundiert.",
+      "uebersetzung": {
+        "fa": "اکسیژن از دیواره‌ی نازک کیسه‌های هوایی ریه به خون نفوذ کرد.",
+        "en": "The oxygen diffused through the thin wall of the alveoli into the blood."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich ausbreiten",
+      "uebersetzung": {
+        "fa": "پخش شدن",
+        "en": "to spread"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. diffundere (پخش کردن)",
+    "en": "Latin diffundere (to pour out)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in + Akk diffundieren",
+        "bedeutung": "sich in einen Stoff hinein verteilen",
+        "beispiel": "Die Tinte diffundiert ins Wasser.",
+        "uebersetzung": {
+          "fa": "جوهر در آب پخش می‌شود.",
+          "en": "The ink diffuses into the water."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "diffundieren",
+      "praeteritum": "diffundierte",
+      "partizip2": "diffundiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "diffundiere",
+        "du": "diffundierst",
+        "er_sie_es": "diffundiert",
+        "wir": "diffundieren",
+        "ihr": "diffundiert",
+        "sie_Sie": "diffundieren"
+      },
+      "praeteritum": {
+        "ich": "diffundierte",
+        "du": "diffundiertest",
+        "er_sie_es": "diffundierte",
+        "wir": "diffundierten",
+        "ihr": "diffundiertet",
+        "sie_Sie": "diffundierten"
+      },
+      "konjunktiv1": {
+        "ich": "diffundiere",
+        "du": "diffundierest",
+        "er_sie_es": "diffundiere",
+        "wir": "diffundieren",
+        "ihr": "diffundieret",
+        "sie_Sie": "diffundieren"
+      },
+      "konjunktiv2": {
+        "ich": "diffundierte",
+        "du": "diffundiertest",
+        "er_sie_es": "diffundierte",
+        "wir": "diffundierten",
+        "ihr": "diffundiertet",
+        "sie_Sie": "diffundierten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "diffundierend",
+    "nominalisierung": "die Diffusion"
+  },
+  "wortnetz": {
+    "grundwort": "Diffusion",
+    "woerter": [
+      {
+        "wort": "das Gas",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گاز",
+          "en": "gas"
+        },
+        "id_ref": "nomen_gas"
+      },
+      {
+        "wort": "ausbreiten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پخش کردن",
+          "en": "to spread"
+        },
+        "id_ref": "verb_ausbreiten"
+      },
+      {
+        "wort": "die Diffusion",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "پخش، نفوذ",
+          "en": "diffusion"
+        },
+        "id_ref": "nomen_diffusion"
+      },
+      {
+        "wort": "der Sauerstoff",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اکسیژن",
+          "en": "oxygen"
+        },
+        "id_ref": "nomen_sauerstoff"
+      },
+      {
+        "wort": "die Zelle",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سلول",
+          "en": "cell"
+        },
+        "id_ref": "nomen_zelle"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

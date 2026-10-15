@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_dichten",
+  "wort": "dichten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شعر سرودن",
+      "درزگیری کردن"
+    ],
+    "en": [
+      "to write poetry",
+      "to seal"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Literatur",
+    "Handwerk"
+  ],
+  "ipa": "ˈdɪçtn̩",
+  "anmerkung": "Regelmäßig (dichtete, gedichtet). Zwei Bedeutungen: Verse schreiben; etwas dicht machen (meist «abdichten»).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er dichtet gern.",
+      "uebersetzung": {
+        "fa": "او دوست دارد شعر بگوید.",
+        "en": "He likes writing poetry."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Goethe hat schon als junger Mann Gedichte gedichtet, die heute noch in der Schule gelesen werden.",
+      "uebersetzung": {
+        "fa": "گوته از جوانی شعرهایی سرود که امروز هم در مدرسه خوانده می‌شوند.",
+        "en": "Even as a young man Goethe wrote poems that are still read at school today."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "reimen",
+      "uebersetzung": {
+        "fa": "قافیه ساختن",
+        "en": "to rhyme"
+      }
+    },
+    {
+      "wort": "abdichten",
+      "uebersetzung": {
+        "fa": "درزگیری کردن",
+        "en": "to seal"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. dictare (گفتن، املا کردن)",
+    "en": "Latin dictare (to say, to dictate)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "dichten",
+      "praeteritum": "dichtete",
+      "partizip2": "gedichtet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "dichte",
+        "du": "dichtest",
+        "er_sie_es": "dichtet",
+        "wir": "dichten",
+        "ihr": "dichtet",
+        "sie_Sie": "dichten"
+      },
+      "praeteritum": {
+        "ich": "dichtete",
+        "du": "dichtetest",
+        "er_sie_es": "dichtete",
+        "wir": "dichteten",
+        "ihr": "dichtetet",
+        "sie_Sie": "dichteten"
+      },
+      "konjunktiv1": {
+        "ich": "dichte",
+        "du": "dichtest",
+        "er_sie_es": "dichte",
+        "wir": "dichten",
+        "ihr": "dichtet",
+        "sie_Sie": "dichten"
+      },
+      "konjunktiv2": {
+        "ich": "dichtete",
+        "du": "dichtetest",
+        "er_sie_es": "dichtete",
+        "wir": "dichteten",
+        "ihr": "dichtetet",
+        "sie_Sie": "dichteten"
+      },
+      "imperativ": {
+        "du": "Dichte!",
+        "ihr": "Dichtet!",
+        "Sie": "Dichten Sie!"
+      }
+    },
+    "partizip1": "dichtend",
+    "nominalisierung": "die Dichtung"
+  },
+  "wortnetz": {
+    "grundwort": "Dichter",
+    "woerter": [
+      {
+        "wort": "das Gedicht",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شعر",
+          "en": "poem"
+        },
+        "id_ref": "nomen_gedicht"
+      },
+      {
+        "wort": "der Dichter",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شاعر",
+          "en": "poet"
+        },
+        "id_ref": "nomen_dichter"
+      },
+      {
+        "wort": "dicht",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فشرده، نفوذناپذیر",
+          "en": "dense, tight"
+        },
+        "id_ref": "adjektiv_dicht"
+      },
+      {
+        "wort": "die Dichtung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شعر، درزگیر",
+          "en": "poetry, seal"
+        },
+        "id_ref": "nomen_dichtung"
+      },
+      {
+        "wort": "der Reim",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قافیه",
+          "en": "rhyme"
+        },
+        "id_ref": "nomen_reim"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

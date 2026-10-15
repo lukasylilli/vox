@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_diagnostizieren",
+  "wort": "diagnostizieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تشخیص دادن (بیماری)"
+    ],
+    "en": [
+      "to diagnose"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Medizin"
+  ],
+  "ipa": "di̯aɡnɔstiˈtsiːʁən",
+  "anmerkung": "Regelmäßig (diagnostizierte, diagnostiziert).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Ärztin diagnostiziert eine Grippe.",
+      "uebersetzung": {
+        "fa": "پزشک آنفولانزا تشخیص می‌دهد.",
+        "en": "The doctor diagnoses flu."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem man bei ihm Diabetes diagnostiziert hatte, musste er seine Ernährung umstellen.",
+      "uebersetzung": {
+        "fa": "پس از آنکه برایش دیابت تشخیص دادند، مجبور شد رژیم غذایی‌اش را تغییر دهد.",
+        "en": "After he had been diagnosed with diabetes, he had to change his diet."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "feststellen",
+      "uebersetzung": {
+        "fa": "تشخیص دادن",
+        "en": "to determine"
+      }
+    },
+    {
+      "wort": "erkennen",
+      "uebersetzung": {
+        "fa": "تشخیص دادن",
+        "en": "to recognize"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "griech. diagnosis (تشخیص)",
+    "en": "Greek diagnosis (discernment)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas bei + Dat diagnostizieren",
+        "bedeutung": "bei einer Person eine Krankheit feststellen",
+        "beispiel": "Der Arzt diagnostizierte bei ihr eine Allergie.",
+        "uebersetzung": {
+          "fa": "پزشک برای او آلرژی تشخیص داد.",
+          "en": "The doctor diagnosed her with an allergy."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "diagnostizieren",
+      "praeteritum": "diagnostizierte",
+      "partizip2": "diagnostiziert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "diagnostiziere",
+        "du": "diagnostizierst",
+        "er_sie_es": "diagnostiziert",
+        "wir": "diagnostizieren",
+        "ihr": "diagnostiziert",
+        "sie_Sie": "diagnostizieren"
+      },
+      "praeteritum": {
+        "ich": "diagnostizierte",
+        "du": "diagnostiziertest",
+        "er_sie_es": "diagnostizierte",
+        "wir": "diagnostizierten",
+        "ihr": "diagnostiziertet",
+        "sie_Sie": "diagnostizierten"
+      },
+      "konjunktiv1": {
+        "ich": "diagnostiziere",
+        "du": "diagnostizierest",
+        "er_sie_es": "diagnostiziere",
+        "wir": "diagnostizieren",
+        "ihr": "diagnostizieret",
+        "sie_Sie": "diagnostizieren"
+      },
+      "konjunktiv2": {
+        "ich": "diagnostizierte",
+        "du": "diagnostiziertest",
+        "er_sie_es": "diagnostizierte",
+        "wir": "diagnostizierten",
+        "ihr": "diagnostiziertet",
+        "sie_Sie": "diagnostizierten"
+      },
+      "imperativ": {
+        "du": "Diagnostiziere!",
+        "ihr": "Diagnostiziert!",
+        "Sie": "Diagnostizieren Sie!"
+      }
+    },
+    "partizip1": "diagnostizierend",
+    "nominalisierung": "die Diagnose"
+  },
+  "wortnetz": {
+    "grundwort": "Diagnose",
+    "woerter": [
+      {
+        "wort": "der Arzt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پزشک",
+          "en": "doctor"
+        },
+        "id_ref": "nomen_arzt"
+      },
+      {
+        "wort": "die Krankheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیماری",
+          "en": "illness"
+        },
+        "id_ref": "nomen_krankheit"
+      },
+      {
+        "wort": "die Diagnose",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تشخیص",
+          "en": "diagnosis"
+        },
+        "id_ref": "nomen_diagnose"
+      },
+      {
+        "wort": "untersuchen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "معاینه کردن",
+          "en": "to examine"
+        },
+        "id_ref": "verb_untersuchen"
+      },
+      {
+        "wort": "die Therapie",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "درمان",
+          "en": "therapy"
+        },
+        "id_ref": "nomen_therapie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,202 @@
+{
+  "schema": "3.0",
+  "id": "verb_dienen",
+  "wort": "dienen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خدمت کردن",
+      "به کار آمدن"
+    ],
+    "en": [
+      "to serve"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Alltag"
+  ],
+  "ipa": "ˈdiːnən",
+  "anmerkung": "Regelmäßig (diente, gedient).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Raum dient als Büro.",
+      "uebersetzung": {
+        "fa": "آن اتاق به‌عنوان دفتر به کار می‌رود.",
+        "en": "The room serves as an office."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Diese Regeln dienen dazu, dass alle sicher arbeiten können.",
+      "uebersetzung": {
+        "fa": "این قوانین برای این است که همه بتوانند ایمن کار کنند.",
+        "en": "These rules serve to ensure that everyone can work safely."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nützen",
+      "uebersetzung": {
+        "fa": "سودمند بودن",
+        "en": "to be of use"
+      }
+    },
+    {
+      "wort": "helfen",
+      "uebersetzung": {
+        "fa": "کمک کردن",
+        "en": "to help"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "+ Dat dienen",
+        "bedeutung": "für jemanden arbeiten, jemandem nützen",
+        "beispiel": "Er hat dem König lange gedient.",
+        "uebersetzung": {
+          "fa": "مدت‌ها به پادشاه خدمت کرد.",
+          "en": "He served the king for a long time."
+        }
+      },
+      {
+        "muster": "zu + Dat dienen",
+        "bedeutung": "einen bestimmten Zweck haben",
+        "beispiel": "Das Messer dient zum Schneiden.",
+        "uebersetzung": {
+          "fa": "این چاقو برای بریدن است.",
+          "en": "The knife is used for cutting."
+        }
+      },
+      {
+        "muster": "als + Nom dienen",
+        "bedeutung": "eine bestimmte Funktion haben",
+        "beispiel": "Die Kiste dient als Tisch.",
+        "uebersetzung": {
+          "fa": "جعبه به‌عنوان میز به کار می‌رود.",
+          "en": "The box serves as a table."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "dienen",
+      "praeteritum": "diente",
+      "partizip2": "gedient"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "diene",
+        "du": "dienst",
+        "er_sie_es": "dient",
+        "wir": "dienen",
+        "ihr": "dient",
+        "sie_Sie": "dienen"
+      },
+      "praeteritum": {
+        "ich": "diente",
+        "du": "dientest",
+        "er_sie_es": "diente",
+        "wir": "dienten",
+        "ihr": "dientet",
+        "sie_Sie": "dienten"
+      },
+      "konjunktiv1": {
+        "ich": "diene",
+        "du": "dienest",
+        "er_sie_es": "diene",
+        "wir": "dienen",
+        "ihr": "dienet",
+        "sie_Sie": "dienen"
+      },
+      "konjunktiv2": {
+        "ich": "diente",
+        "du": "dientest",
+        "er_sie_es": "diente",
+        "wir": "dienten",
+        "ihr": "dientet",
+        "sie_Sie": "dienten"
+      },
+      "imperativ": {
+        "du": "Diene!",
+        "ihr": "Dient!",
+        "Sie": "Dienen Sie!"
+      }
+    },
+    "partizip1": "dienend",
+    "nominalisierung": "der Dienst"
+  },
+  "wortnetz": {
+    "grundwort": "Dienst",
+    "woerter": [
+      {
+        "wort": "der Dienst",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خدمت، شیفت",
+          "en": "service, shift"
+        },
+        "id_ref": "nomen_dienst"
+      },
+      {
+        "wort": "die Dienstleistung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خدمات",
+          "en": "service"
+        },
+        "id_ref": "nomen_dienstleistung"
+      },
+      {
+        "wort": "nützen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سودمند بودن",
+          "en": "to be of use"
+        },
+        "id_ref": "verb_nuetzen"
+      },
+      {
+        "wort": "verdienen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "درآمد داشتن",
+          "en": "to earn"
+        },
+        "id_ref": "verb_verdienen"
+      },
+      {
+        "wort": "der Diener",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خدمتکار",
+          "en": "servant"
+        },
+        "id_ref": "nomen_diener"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

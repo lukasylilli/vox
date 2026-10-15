@@ -1,0 +1,196 @@
+{
+  "schema": "3.0",
+  "id": "verb_differieren",
+  "wort": "differieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "متفاوت بودن",
+      "اختلاف داشتن"
+    ],
+    "en": [
+      "to differ"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wissenschaft"
+  ],
+  "ipa": "dɪfəˈʁiːʁən",
+  "anmerkung": "Regelmäßig (differierte, differiert). Ohne Imperativ; bildungssprachlich für «sich unterscheiden».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Preise differieren stark.",
+      "uebersetzung": {
+        "fa": "قیمت‌ها خیلی با هم فرق دارند.",
+        "en": "The prices differ greatly."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Ergebnisse der beiden Studien differieren, weil unterschiedliche Methoden benutzt wurden.",
+      "uebersetzung": {
+        "fa": "نتایج دو پژوهش با هم فرق دارند، چون روش‌های متفاوتی به کار رفته است.",
+        "en": "The results of the two studies differ because different methods were used."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abweichen",
+      "uebersetzung": {
+        "fa": "انحراف داشتن",
+        "en": "to deviate"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "übereinstimmen",
+      "uebersetzung": {
+        "fa": "مطابقت داشتن",
+        "en": "to agree"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. differre (متفاوت بودن)",
+    "en": "Latin differre (to differ)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "um + Akk differieren",
+        "bedeutung": "sich um einen bestimmten Betrag unterscheiden",
+        "beispiel": "Die Angebote differieren um zehn Euro.",
+        "uebersetzung": {
+          "fa": "پیشنهادها ده یورو با هم فرق دارند.",
+          "en": "The offers differ by ten euros."
+        }
+      },
+      {
+        "muster": "in + Dat differieren",
+        "bedeutung": "sich in einem Punkt unterscheiden",
+        "beispiel": "Die Modelle differieren in der Größe.",
+        "uebersetzung": {
+          "fa": "مدل‌ها در اندازه با هم فرق دارند.",
+          "en": "The models differ in size."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "differieren",
+      "praeteritum": "differierte",
+      "partizip2": "differiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "differiere",
+        "du": "differierst",
+        "er_sie_es": "differiert",
+        "wir": "differieren",
+        "ihr": "differiert",
+        "sie_Sie": "differieren"
+      },
+      "praeteritum": {
+        "ich": "differierte",
+        "du": "differiertest",
+        "er_sie_es": "differierte",
+        "wir": "differierten",
+        "ihr": "differiertet",
+        "sie_Sie": "differierten"
+      },
+      "konjunktiv1": {
+        "ich": "differiere",
+        "du": "differierest",
+        "er_sie_es": "differiere",
+        "wir": "differieren",
+        "ihr": "differieret",
+        "sie_Sie": "differieren"
+      },
+      "konjunktiv2": {
+        "ich": "differierte",
+        "du": "differiertest",
+        "er_sie_es": "differierte",
+        "wir": "differierten",
+        "ihr": "differiertet",
+        "sie_Sie": "differierten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "differierend",
+    "nominalisierung": "die Differenz"
+  },
+  "wortnetz": {
+    "grundwort": "Differenz",
+    "woerter": [
+      {
+        "wort": "der Unterschied",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تفاوت",
+          "en": "difference"
+        },
+        "id_ref": "nomen_unterschied"
+      },
+      {
+        "wort": "abweichen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "انحراف داشتن",
+          "en": "to deviate"
+        },
+        "id_ref": "verb_abweichen"
+      },
+      {
+        "wort": "verschieden",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گوناگون",
+          "en": "different"
+        },
+        "id_ref": "adjektiv_verschieden"
+      },
+      {
+        "wort": "die Differenz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اختلاف",
+          "en": "difference"
+        },
+        "id_ref": "nomen_differenz"
+      },
+      {
+        "wort": "übereinstimmen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مطابقت داشتن",
+          "en": "to agree"
+        },
+        "id_ref": "verb_uebereinstimmen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
