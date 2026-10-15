@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "verb_internieren",
+  "wort": "internieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "در اردوگاه زندانی کردن",
+      "قرنطینه کردن"
+    ],
+    "en": [
+      "to intern"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Geschichte",
+    "Politik"
+  ],
+  "ipa": "ɪntɐˈniːʁən",
+  "anmerkung": "Regelmäßig (internierte, interniert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Man interniert die Gefangenen.",
+      "uebersetzung": {
+        "fa": "زندانیان را در اردوگاه نگه می‌دارند.",
+        "en": "The prisoners are interned."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Während des Krieges wurden viele Ausländer in Lagern interniert, obwohl sie nichts verbrochen hatten.",
+      "uebersetzung": {
+        "fa": "در زمان جنگ بسیاری از خارجی‌ها در اردوگاه‌ها زندانی شدند، با اینکه جرمی نکرده بودند.",
+        "en": "During the war many foreigners were interned in camps although they had committed no crime."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einsperren",
+      "uebersetzung": {
+        "fa": "حبس کردن",
+        "en": "to lock up"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "frz. interner (در درون نگه داشتن) + -ieren",
+    "en": "frz. interner (to confine) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "internieren",
+      "praeteritum": "internierte",
+      "partizip2": "interniert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "interniere",
+        "du": "internierst",
+        "er_sie_es": "interniert",
+        "wir": "internieren",
+        "ihr": "interniert",
+        "sie_Sie": "internieren"
+      },
+      "praeteritum": {
+        "ich": "internierte",
+        "du": "interniertest",
+        "er_sie_es": "internierte",
+        "wir": "internierten",
+        "ihr": "interniertet",
+        "sie_Sie": "internierten"
+      },
+      "konjunktiv1": {
+        "ich": "interniere",
+        "du": "internierest",
+        "er_sie_es": "interniere",
+        "wir": "internieren",
+        "ihr": "internieret",
+        "sie_Sie": "internieren"
+      },
+      "konjunktiv2": {
+        "ich": "internierte",
+        "du": "interniertest",
+        "er_sie_es": "internierte",
+        "wir": "internierten",
+        "ihr": "interniertet",
+        "sie_Sie": "internierten"
+      },
+      "imperativ": {
+        "du": "Interniere!",
+        "ihr": "Interniert!",
+        "Sie": "Internieren Sie!"
+      }
+    },
+    "partizip1": "internierend",
+    "nominalisierung": "die Internierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Krieg",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جنگ",
+          "en": "war"
+        },
+        "id_ref": "nomen_krieg"
+      },
+      {
+        "wort": "das Lager",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اردوگاه",
+          "en": "camp"
+        },
+        "id_ref": "nomen_lager"
+      },
+      {
+        "wort": "einsperren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حبس کردن",
+          "en": "to lock up"
+        },
+        "id_ref": "verb_einsperren"
+      },
+      {
+        "wort": "der Gefangene",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زندانی",
+          "en": "prisoner"
+        },
+        "id_ref": "nomen_gefangene"
+      },
+      {
+        "wort": "die Internierung",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "بازداشت در اردوگاه",
+          "en": "internment"
+        },
+        "id_ref": "nomen_internierung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

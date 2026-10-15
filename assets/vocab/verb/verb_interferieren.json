@@ -1,0 +1,171 @@
+{
+  "schema": "3.0",
+  "id": "verb_interferieren",
+  "wort": "interferieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تداخل کردن"
+    ],
+    "en": [
+      "to interfere"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wissenschaft",
+    "Sprache"
+  ],
+  "ipa": "ɪntɐfeˈʁiːʁən",
+  "anmerkung": "Regelmäßig (interferierte, interferiert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Wellen interferieren.",
+      "uebersetzung": {
+        "fa": "امواج با هم تداخل می‌کنند.",
+        "en": "The waves interfere."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Beim Sprachenlernen interferiert die Muttersprache oft mit der neuen Sprache, besonders bei der Aussprache.",
+      "uebersetzung": {
+        "fa": "در یادگیری زبان، زبان مادری اغلب با زبان تازه تداخل می‌کند، به‌ویژه در تلفظ.",
+        "en": "When learning languages, the mother tongue often interferes with the new language, especially in pronunciation."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. inter (میان) + ferire (زدن) + -ieren",
+    "en": "lat. inter (between) + ferire (to strike) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit + Dat interferieren",
+        "bedeutung": "sich gegenseitig stören oder überlagern",
+        "beispiel": "Das Signal interferiert mit dem Funknetz.",
+        "uebersetzung": {
+          "fa": "این سیگنال با شبکه‌ی بی‌سیم تداخل دارد.",
+          "en": "The signal interferes with the radio network."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "interferieren",
+      "praeteritum": "interferierte",
+      "partizip2": "interferiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "interferiere",
+        "du": "interferierst",
+        "er_sie_es": "interferiert",
+        "wir": "interferieren",
+        "ihr": "interferiert",
+        "sie_Sie": "interferieren"
+      },
+      "praeteritum": {
+        "ich": "interferierte",
+        "du": "interferiertest",
+        "er_sie_es": "interferierte",
+        "wir": "interferierten",
+        "ihr": "interferiertet",
+        "sie_Sie": "interferierten"
+      },
+      "konjunktiv1": {
+        "ich": "interferiere",
+        "du": "interferierest",
+        "er_sie_es": "interferiere",
+        "wir": "interferieren",
+        "ihr": "interferieret",
+        "sie_Sie": "interferieren"
+      },
+      "konjunktiv2": {
+        "ich": "interferierte",
+        "du": "interferiertest",
+        "er_sie_es": "interferierte",
+        "wir": "interferierten",
+        "ihr": "interferiertet",
+        "sie_Sie": "interferierten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "interferierend",
+    "nominalisierung": "die Interferenz"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "stören",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مزاحم شدن",
+          "en": "to disturb"
+        },
+        "id_ref": "verb_stoeren"
+      },
+      {
+        "wort": "die Welle",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "موج",
+          "en": "wave"
+        },
+        "id_ref": "nomen_welle"
+      },
+      {
+        "wort": "das Signal",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سیگنال",
+          "en": "signal"
+        },
+        "id_ref": "nomen_signal"
+      },
+      {
+        "wort": "überlagern",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "روی هم افتادن",
+          "en": "to overlap"
+        },
+        "id_ref": "verb_ueberlagern"
+      },
+      {
+        "wort": "die Interferenz",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "تداخل",
+          "en": "interference"
+        },
+        "id_ref": "nomen_interferenz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

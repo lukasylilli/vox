@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_interagieren",
+  "wort": "interagieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کنش متقابل داشتن",
+      "تعامل کردن"
+    ],
+    "en": [
+      "to interact"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation",
+    "Wissenschaft"
+  ],
+  "ipa": "ɪntɐʔaˈɡiːʁən",
+  "anmerkung": "Regelmäßig (interagierte, interagiert).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kinder interagieren miteinander.",
+      "uebersetzung": {
+        "fa": "بچه‌ها با هم تعامل دارند.",
+        "en": "The children interact with each other."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Manche Medikamente interagieren miteinander, deshalb sollte man den Arzt immer informieren.",
+      "uebersetzung": {
+        "fa": "برخی داروها با هم تداخل دارند، برای همین همیشه باید پزشک را مطلع کرد.",
+        "en": "Some medicines interact with each other, which is why you should always inform the doctor."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. inter (میان) + agieren (عمل کردن)",
+    "en": "lat. inter (between) + agieren (to act)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit + Dat interagieren",
+        "bedeutung": "sich gegenseitig beeinflussen oder aufeinander reagieren",
+        "beispiel": "Der Roboter kann mit Menschen interagieren.",
+        "uebersetzung": {
+          "fa": "این ربات می‌تواند با انسان‌ها تعامل کند.",
+          "en": "The robot can interact with people."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "interagieren",
+      "praeteritum": "interagierte",
+      "partizip2": "interagiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "interagiere",
+        "du": "interagierst",
+        "er_sie_es": "interagiert",
+        "wir": "interagieren",
+        "ihr": "interagiert",
+        "sie_Sie": "interagieren"
+      },
+      "praeteritum": {
+        "ich": "interagierte",
+        "du": "interagiertest",
+        "er_sie_es": "interagierte",
+        "wir": "interagierten",
+        "ihr": "interagiertet",
+        "sie_Sie": "interagierten"
+      },
+      "konjunktiv1": {
+        "ich": "interagiere",
+        "du": "interagierest",
+        "er_sie_es": "interagiere",
+        "wir": "interagieren",
+        "ihr": "interagieret",
+        "sie_Sie": "interagieren"
+      },
+      "konjunktiv2": {
+        "ich": "interagierte",
+        "du": "interagiertest",
+        "er_sie_es": "interagierte",
+        "wir": "interagierten",
+        "ihr": "interagiertet",
+        "sie_Sie": "interagierten"
+      },
+      "imperativ": {
+        "du": "Interagiere!",
+        "ihr": "Interagiert!",
+        "Sie": "Interagieren Sie!"
+      }
+    },
+    "partizip1": "interagierend",
+    "nominalisierung": "die Interaktion"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "sprechen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حرف زدن",
+          "en": "to speak"
+        },
+        "id_ref": "verb_sprechen"
+      },
+      {
+        "wort": "reagieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "واکنش نشان دادن",
+          "en": "to react"
+        },
+        "id_ref": "verb_reagieren"
+      },
+      {
+        "wort": "der Kontakt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ارتباط",
+          "en": "contact"
+        },
+        "id_ref": "nomen_kontakt"
+      },
+      {
+        "wort": "kommunizieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ارتباط برقرار کردن",
+          "en": "to communicate"
+        },
+        "id_ref": "verb_kommunizieren"
+      },
+      {
+        "wort": "die Wechselwirkung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اثر متقابل",
+          "en": "interaction"
+        },
+        "id_ref": "nomen_wechselwirkung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
