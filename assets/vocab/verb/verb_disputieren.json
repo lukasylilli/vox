@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_disputieren",
+  "wort": "disputieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مباحثه کردن",
+      "مجادله کردن"
+    ],
+    "en": [
+      "to dispute",
+      "to debate"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wissenschaft",
+    "Kommunikation"
+  ],
+  "ipa": "dɪspuˈtiːʁən",
+  "anmerkung": "Regelmäßig (disputierte, disputiert). Bildungssprachlich.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Studenten disputieren lange.",
+      "uebersetzung": {
+        "fa": "دانشجوها مدت زیادی مباحثه می‌کنند.",
+        "en": "The students debate for a long time."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Gelehrten disputierten stundenlang, ohne dass einer den anderen überzeugen konnte.",
+      "uebersetzung": {
+        "fa": "دانشمندان ساعت‌ها مباحثه کردند، بی‌آنکه یکی بتواند دیگری را قانع کند.",
+        "en": "The scholars debated for hours without either being able to convince the other."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "streiten",
+      "uebersetzung": {
+        "fa": "مشاجره کردن",
+        "en": "to argue"
+      }
+    },
+    {
+      "wort": "debattieren",
+      "uebersetzung": {
+        "fa": "مناظره کردن",
+        "en": "to debate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. disputare (بحث کردن)",
+    "en": "Latin disputare (to discuss)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "über + Akk disputieren",
+        "bedeutung": "gelehrt über ein Thema streiten",
+        "beispiel": "Sie disputieren über Philosophie.",
+        "uebersetzung": {
+          "fa": "درباره‌ی فلسفه مباحثه می‌کنند.",
+          "en": "They debate philosophy."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "disputieren",
+      "praeteritum": "disputierte",
+      "partizip2": "disputiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "disputiere",
+        "du": "disputierst",
+        "er_sie_es": "disputiert",
+        "wir": "disputieren",
+        "ihr": "disputiert",
+        "sie_Sie": "disputieren"
+      },
+      "praeteritum": {
+        "ich": "disputierte",
+        "du": "disputiertest",
+        "er_sie_es": "disputierte",
+        "wir": "disputierten",
+        "ihr": "disputiertet",
+        "sie_Sie": "disputierten"
+      },
+      "konjunktiv1": {
+        "ich": "disputiere",
+        "du": "disputierest",
+        "er_sie_es": "disputiere",
+        "wir": "disputieren",
+        "ihr": "disputieret",
+        "sie_Sie": "disputieren"
+      },
+      "konjunktiv2": {
+        "ich": "disputierte",
+        "du": "disputiertest",
+        "er_sie_es": "disputierte",
+        "wir": "disputierten",
+        "ihr": "disputiertet",
+        "sie_Sie": "disputierten"
+      },
+      "imperativ": {
+        "du": "Disputiere!",
+        "ihr": "Disputiert!",
+        "Sie": "Disputieren Sie!"
+      }
+    },
+    "partizip1": "disputierend",
+    "nominalisierung": "die Disputation"
+  },
+  "wortnetz": {
+    "grundwort": "Disput",
+    "woerter": [
+      {
+        "wort": "diskutieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بحث کردن",
+          "en": "to discuss"
+        },
+        "id_ref": "verb_diskutieren"
+      },
+      {
+        "wort": "streiten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مشاجره کردن",
+          "en": "to argue"
+        },
+        "id_ref": "verb_streiten"
+      },
+      {
+        "wort": "die Debatte",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مناظره",
+          "en": "debate"
+        },
+        "id_ref": "nomen_debatte"
+      },
+      {
+        "wort": "das Argument",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "استدلال",
+          "en": "argument"
+        },
+        "id_ref": "nomen_argument"
+      },
+      {
+        "wort": "der Disput",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "مجادله",
+          "en": "dispute"
+        },
+        "id_ref": "nomen_disput"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

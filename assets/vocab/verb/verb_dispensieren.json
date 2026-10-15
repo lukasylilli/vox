@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_dispensieren",
+  "wort": "dispensieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "معاف کردن"
+    ],
+    "en": [
+      "to exempt",
+      "to excuse"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Schule",
+    "Recht"
+  ],
+  "ipa": "dɪspɛnˈziːʁən",
+  "anmerkung": "Regelmäßig (dispensierte, dispensiert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Lehrer dispensiert ihn vom Sport.",
+      "uebersetzung": {
+        "fa": "معلم او را از ورزش معاف می‌کند.",
+        "en": "The teacher excuses him from sport."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wegen ihrer Verletzung wurde sie für den Rest des Semesters vom Sportunterricht dispensiert.",
+      "uebersetzung": {
+        "fa": "به خاطر آسیب‌دیدگی‌اش برای بقیه‌ی ترم از درس ورزش معاف شد.",
+        "en": "Because of her injury she was excused from PE for the rest of the term."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "befreien",
+      "uebersetzung": {
+        "fa": "معاف کردن",
+        "en": "to exempt"
+      }
+    },
+    {
+      "wort": "freistellen",
+      "uebersetzung": {
+        "fa": "معاف کردن",
+        "en": "to release"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. dispensare (توزیع کردن، بخشودن)",
+    "en": "Latin dispensare (to distribute, to dispense)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden von + Dat dispensieren",
+        "bedeutung": "jemanden von einer Pflicht befreien",
+        "beispiel": "Er wurde vom Dienst dispensiert.",
+        "uebersetzung": {
+          "fa": "از خدمت معاف شد.",
+          "en": "He was exempted from duty."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "dispensieren",
+      "praeteritum": "dispensierte",
+      "partizip2": "dispensiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "dispensiere",
+        "du": "dispensierst",
+        "er_sie_es": "dispensiert",
+        "wir": "dispensieren",
+        "ihr": "dispensiert",
+        "sie_Sie": "dispensieren"
+      },
+      "praeteritum": {
+        "ich": "dispensierte",
+        "du": "dispensiertest",
+        "er_sie_es": "dispensierte",
+        "wir": "dispensierten",
+        "ihr": "dispensiertet",
+        "sie_Sie": "dispensierten"
+      },
+      "konjunktiv1": {
+        "ich": "dispensiere",
+        "du": "dispensierest",
+        "er_sie_es": "dispensiere",
+        "wir": "dispensieren",
+        "ihr": "dispensieret",
+        "sie_Sie": "dispensieren"
+      },
+      "konjunktiv2": {
+        "ich": "dispensierte",
+        "du": "dispensiertest",
+        "er_sie_es": "dispensierte",
+        "wir": "dispensierten",
+        "ihr": "dispensiertet",
+        "sie_Sie": "dispensierten"
+      },
+      "imperativ": {
+        "du": "Dispensiere!",
+        "ihr": "Dispensiert!",
+        "Sie": "Dispensieren Sie!"
+      }
+    },
+    "partizip1": "dispensierend",
+    "nominalisierung": "die Dispensierung"
+  },
+  "wortnetz": {
+    "grundwort": "Dispens",
+    "woerter": [
+      {
+        "wort": "befreien",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "معاف کردن، آزاد کردن",
+          "en": "to free"
+        },
+        "id_ref": "verb_befreien"
+      },
+      {
+        "wort": "die Pflicht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وظیفه",
+          "en": "duty"
+        },
+        "id_ref": "nomen_pflicht"
+      },
+      {
+        "wort": "die Schule",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مدرسه",
+          "en": "school"
+        },
+        "id_ref": "nomen_schule"
+      },
+      {
+        "wort": "freistellen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "معاف کردن",
+          "en": "to release"
+        },
+        "id_ref": "verb_freistellen"
+      },
+      {
+        "wort": "die Ausnahme",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "استثنا",
+          "en": "exception"
+        },
+        "id_ref": "nomen_ausnahme"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

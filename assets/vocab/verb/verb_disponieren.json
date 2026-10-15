@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_disponieren",
+  "wort": "disponieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "برنامه‌ریزی کردن",
+      "تخصیص دادن"
+    ],
+    "en": [
+      "to plan",
+      "to dispose (of)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Logistik"
+  ],
+  "ipa": "dɪspoˈniːʁən",
+  "anmerkung": "Regelmäßig (disponierte, disponiert).",
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er disponiert die Lkw.",
+      "uebersetzung": {
+        "fa": "او کامیون‌ها را برنامه‌ریزی می‌کند.",
+        "en": "He schedules the lorries."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wer im Lager arbeitet, muss die Lieferungen so disponieren, dass keine Ware fehlt.",
+      "uebersetzung": {
+        "fa": "کسی که در انبار کار می‌کند باید تحویل‌ها را طوری برنامه‌ریزی کند که هیچ کالایی کم نیاید.",
+        "en": "Anyone who works in the warehouse has to plan deliveries so that no goods are missing."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "planen",
+      "uebersetzung": {
+        "fa": "برنامه‌ریزی کردن",
+        "en": "to plan"
+      }
+    },
+    {
+      "wort": "einteilen",
+      "uebersetzung": {
+        "fa": "تقسیم کردن",
+        "en": "to allocate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. disponere (چیدن، مرتب کردن)",
+    "en": "Latin disponere (to arrange)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "über + Akk disponieren",
+        "bedeutung": "über etwas frei verfügen",
+        "beispiel": "Sie kann über das Geld frei disponieren.",
+        "uebersetzung": {
+          "fa": "می‌تواند آزادانه از آن پول استفاده کند.",
+          "en": "She can dispose of the money freely."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "disponieren",
+      "praeteritum": "disponierte",
+      "partizip2": "disponiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "disponiere",
+        "du": "disponierst",
+        "er_sie_es": "disponiert",
+        "wir": "disponieren",
+        "ihr": "disponiert",
+        "sie_Sie": "disponieren"
+      },
+      "praeteritum": {
+        "ich": "disponierte",
+        "du": "disponiertest",
+        "er_sie_es": "disponierte",
+        "wir": "disponierten",
+        "ihr": "disponiertet",
+        "sie_Sie": "disponierten"
+      },
+      "konjunktiv1": {
+        "ich": "disponiere",
+        "du": "disponierest",
+        "er_sie_es": "disponiere",
+        "wir": "disponieren",
+        "ihr": "disponieret",
+        "sie_Sie": "disponieren"
+      },
+      "konjunktiv2": {
+        "ich": "disponierte",
+        "du": "disponiertest",
+        "er_sie_es": "disponierte",
+        "wir": "disponierten",
+        "ihr": "disponiertet",
+        "sie_Sie": "disponierten"
+      },
+      "imperativ": {
+        "du": "Disponiere!",
+        "ihr": "Disponiert!",
+        "Sie": "Disponieren Sie!"
+      }
+    },
+    "partizip1": "disponierend",
+    "nominalisierung": "die Disposition"
+  },
+  "wortnetz": {
+    "grundwort": "Disposition",
+    "woerter": [
+      {
+        "wort": "planen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برنامه‌ریزی کردن",
+          "en": "to plan"
+        },
+        "id_ref": "verb_planen"
+      },
+      {
+        "wort": "die Lieferung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تحویل",
+          "en": "delivery"
+        },
+        "id_ref": "nomen_lieferung"
+      },
+      {
+        "wort": "das Lager",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انبار",
+          "en": "warehouse"
+        },
+        "id_ref": "nomen_lager"
+      },
+      {
+        "wort": "verfügen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "در اختیار داشتن",
+          "en": "to have at one's disposal"
+        },
+        "id_ref": "verb_verfuegen"
+      },
+      {
+        "wort": "der Disponent",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "برنامه‌ریز (لجستیک)",
+          "en": "dispatcher"
+        },
+        "id_ref": "nomen_disponent"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
