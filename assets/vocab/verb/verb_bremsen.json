@@ -1,0 +1,196 @@
+{
+  "schema": "3.0",
+  "id": "verb_bremsen",
+  "wort": "bremsen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ترمز کردن",
+      "کند کردن"
+    ],
+    "en": [
+      "to brake",
+      "to slow down",
+      "to curb"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Verkehr",
+    "Auto"
+  ],
+  "ipa": "ˈbʁɛmzn̩",
+  "anmerkung": "Regelmäßig (bremste, gebremst). Reflexiv umgangssprachlich: sich bremsen (sich zurückhalten).",
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Fahrer bremst.",
+      "uebersetzung": {
+        "fa": "راننده ترمز می‌کند.",
+        "en": "The driver brakes."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich musste plötzlich bremsen, weil ein Kind auf die Straße lief.",
+      "uebersetzung": {
+        "fa": "ناگهان مجبور شدم ترمز کنم، چون بچه‌ای به خیابان دوید.",
+        "en": "I suddenly had to brake because a child ran into the road."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abbremsen",
+      "uebersetzung": {
+        "fa": "ترمز گرفتن",
+        "en": "to slow down"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "beschleunigen",
+      "uebersetzung": {
+        "fa": "شتاب دادن",
+        "en": "to accelerate"
+      }
+    },
+    {
+      "wort": "Gas geben",
+      "uebersetzung": {
+        "fa": "گاز دادن",
+        "en": "to accelerate"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "für + Akk bremsen",
+        "bedeutung": "wegen jemandem oder etwas anhalten",
+        "beispiel": "Ich bremse auch für Tiere.",
+        "uebersetzung": {
+          "fa": "برای حیوانات هم ترمز می‌کنم.",
+          "en": "I also brake for animals."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bremsen",
+      "praeteritum": "bremste",
+      "partizip2": "gebremst"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bremse",
+        "du": "bremst",
+        "er_sie_es": "bremst",
+        "wir": "bremsen",
+        "ihr": "bremst",
+        "sie_Sie": "bremsen"
+      },
+      "praeteritum": {
+        "ich": "bremste",
+        "du": "bremstest",
+        "er_sie_es": "bremste",
+        "wir": "bremsten",
+        "ihr": "bremstet",
+        "sie_Sie": "bremsten"
+      },
+      "konjunktiv1": {
+        "ich": "bremse",
+        "du": "bremsest",
+        "er_sie_es": "bremse",
+        "wir": "bremsen",
+        "ihr": "bremset",
+        "sie_Sie": "bremsen"
+      },
+      "konjunktiv2": {
+        "ich": "bremste",
+        "du": "bremstest",
+        "er_sie_es": "bremste",
+        "wir": "bremsten",
+        "ihr": "bremstet",
+        "sie_Sie": "bremsten"
+      },
+      "imperativ": {
+        "du": "Bremse!",
+        "ihr": "Bremst!",
+        "Sie": "Bremsen Sie!"
+      }
+    },
+    "partizip1": "bremsend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Bremse",
+    "woerter": [
+      {
+        "wort": "die Bremse",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترمز",
+          "en": "brake"
+        },
+        "id_ref": "nomen_bremse"
+      },
+      {
+        "wort": "halten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ایستادن",
+          "en": "to stop"
+        },
+        "id_ref": "verb_halten"
+      },
+      {
+        "wort": "langsam",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آهسته",
+          "en": "slow"
+        },
+        "id_ref": "adjektiv_langsam"
+      },
+      {
+        "wort": "beschleunigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شتاب دادن",
+          "en": "to accelerate"
+        },
+        "id_ref": "verb_beschleunigen"
+      },
+      {
+        "wort": "stoppen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "متوقف کردن",
+          "en": "to stop"
+        },
+        "id_ref": "verb_stoppen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

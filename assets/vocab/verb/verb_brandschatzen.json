@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_brandschatzen",
+  "wort": "brandschatzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "غارت کردن و به آتش کشیدن"
+    ],
+    "en": [
+      "to pillage and burn",
+      "to plunder"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Geschichte",
+    "Krieg"
+  ],
+  "ipa": "ˈbʁantʃat͡sn̩",
+  "anmerkung": "Regelmäßig (brandschatzte, gebrandschatzt). Historisch, meist in Texten über Krieg im Mittelalter. Untrennbar trotz zwei Teilen (brandschatzte, gebrandschatzt).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Soldaten brandschatzten das Dorf.",
+      "uebersetzung": {
+        "fa": "سربازان روستا را غارت کردند و آتش زدند.",
+        "en": "The soldiers pillaged and burned the village."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Mittelalter zogen Söldner durch das Land und brandschatzten die Städte, die nicht zahlen konnten.",
+      "uebersetzung": {
+        "fa": "در قرون وسطی مزدوران در سرزمین می‌گشتند و شهرهایی را که نمی‌توانستند پول بدهند غارت می‌کردند و می‌سوزاندند.",
+        "en": "In the Middle Ages mercenaries roamed the land and pillaged the towns that could not pay."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "plündern",
+      "uebersetzung": {
+        "fa": "غارت کردن",
+        "en": "to loot"
+      }
+    },
+    {
+      "wort": "verwüsten",
+      "uebersetzung": {
+        "fa": "ویران کردن",
+        "en": "to devastate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Brand (آتش) + Schatz (مالیات، خراج — معنای قدیم) + -en",
+    "en": "Brand (fire) + Schatz (levy — old meaning) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "brandschatzen",
+      "praeteritum": "brandschatzte",
+      "partizip2": "gebrandschatzt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "brandschatze",
+        "du": "brandschatzt",
+        "er_sie_es": "brandschatzt",
+        "wir": "brandschatzen",
+        "ihr": "brandschatzt",
+        "sie_Sie": "brandschatzen"
+      },
+      "praeteritum": {
+        "ich": "brandschatzte",
+        "du": "brandschatztest",
+        "er_sie_es": "brandschatzte",
+        "wir": "brandschatzten",
+        "ihr": "brandschatztet",
+        "sie_Sie": "brandschatzten"
+      },
+      "konjunktiv1": {
+        "ich": "brandschatze",
+        "du": "brandschatzest",
+        "er_sie_es": "brandschatze",
+        "wir": "brandschatzen",
+        "ihr": "brandschatzet",
+        "sie_Sie": "brandschatzen"
+      },
+      "konjunktiv2": {
+        "ich": "brandschatzte",
+        "du": "brandschatztest",
+        "er_sie_es": "brandschatzte",
+        "wir": "brandschatzten",
+        "ihr": "brandschatztet",
+        "sie_Sie": "brandschatzten"
+      },
+      "imperativ": {
+        "du": "Brandschatze!",
+        "ihr": "Brandschatzt!",
+        "Sie": "Brandschatzen Sie!"
+      }
+    },
+    "partizip1": "brandschatzend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Brand",
+    "woerter": [
+      {
+        "wort": "der Brand",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آتش‌سوزی",
+          "en": "fire"
+        },
+        "id_ref": "nomen_brand"
+      },
+      {
+        "wort": "plündern",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "غارت کردن",
+          "en": "to loot"
+        },
+        "id_ref": "verb_pluendern"
+      },
+      {
+        "wort": "der Krieg",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جنگ",
+          "en": "war"
+        },
+        "id_ref": "nomen_krieg"
+      },
+      {
+        "wort": "zerstören",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ویران کردن",
+          "en": "to destroy"
+        },
+        "id_ref": "verb_zerstoeren"
+      },
+      {
+        "wort": "verbrennen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سوزاندن",
+          "en": "to burn"
+        },
+        "id_ref": "verb_verbrennen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

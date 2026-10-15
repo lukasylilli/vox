@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_boxen",
+  "wort": "boxen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بوکس بازی کردن",
+      "مشت زدن"
+    ],
+    "en": [
+      "to box",
+      "to punch"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Sport"
+  ],
+  "ipa": "ˈbɔksn̩",
+  "anmerkung": "Regelmäßig (boxte, geboxt). Umgangssprachlich: sich durchboxen (sich durchsetzen).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mein Bruder boxt im Verein.",
+      "uebersetzung": {
+        "fa": "برادرم در باشگاه بوکس کار می‌کند.",
+        "en": "My brother boxes at a club."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Er hat seinem Freund aus Spaß in die Seite geboxt, aber es tat trotzdem weh.",
+      "uebersetzung": {
+        "fa": "برای شوخی به پهلوی دوستش مشت زد، ولی باز هم درد گرفت.",
+        "en": "He punched his friend in the side for fun, but it still hurt."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schlagen",
+      "uebersetzung": {
+        "fa": "زدن",
+        "en": "to hit"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "gegen + Akk boxen",
+        "bedeutung": "in einem Boxkampf gegen jemanden antreten",
+        "beispiel": "Morgen boxt er gegen den Weltmeister.",
+        "uebersetzung": {
+          "fa": "فردا با قهرمان جهان بوکس می‌کند.",
+          "en": "Tomorrow he boxes against the world champion."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "boxen",
+      "praeteritum": "boxte",
+      "partizip2": "geboxt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "boxe",
+        "du": "boxt",
+        "er_sie_es": "boxt",
+        "wir": "boxen",
+        "ihr": "boxt",
+        "sie_Sie": "boxen"
+      },
+      "praeteritum": {
+        "ich": "boxte",
+        "du": "boxtest",
+        "er_sie_es": "boxte",
+        "wir": "boxten",
+        "ihr": "boxtet",
+        "sie_Sie": "boxten"
+      },
+      "konjunktiv1": {
+        "ich": "boxe",
+        "du": "boxest",
+        "er_sie_es": "boxe",
+        "wir": "boxen",
+        "ihr": "boxet",
+        "sie_Sie": "boxen"
+      },
+      "konjunktiv2": {
+        "ich": "boxte",
+        "du": "boxtest",
+        "er_sie_es": "boxte",
+        "wir": "boxten",
+        "ihr": "boxtet",
+        "sie_Sie": "boxten"
+      },
+      "imperativ": {
+        "du": "Boxe!",
+        "ihr": "Boxt!",
+        "Sie": "Boxen Sie!"
+      }
+    },
+    "partizip1": "boxend",
+    "nominalisierung": "das Boxen"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Boxer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بوکسور",
+          "en": "boxer"
+        },
+        "id_ref": "nomen_boxer"
+      },
+      {
+        "wort": "der Sport",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ورزش",
+          "en": "sport"
+        },
+        "id_ref": "nomen_sport"
+      },
+      {
+        "wort": "kämpfen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جنگیدن",
+          "en": "to fight"
+        },
+        "id_ref": "verb_kaempfen"
+      },
+      {
+        "wort": "schlagen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زدن",
+          "en": "to hit"
+        },
+        "id_ref": "verb_schlagen"
+      },
+      {
+        "wort": "die Faust",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مشت",
+          "en": "fist"
+        },
+        "id_ref": "nomen_faust"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
