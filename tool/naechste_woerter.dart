@@ -1596,6 +1596,10 @@ const zurueckgestellt = <String>{
   'beuteln', // zurückgestellt (Regel 14/16): umgangssprachlich/landschaftlich; Bedeutung nicht sicher 2026-10-14
   'bewandern', // zurückgestellt (Regel 14/16): als Verb kaum gebräuchlich (meist Adjektiv bewandert) 2026-10-14
   'bewegen', // zurückgestellt (Regel 14/16): zwei Konjugationen je nach Bedeutung (bewegte «in Bewegung setzen» ↔ bewog «veranlassen»), wie wenden — Entscheidung Lukas 2026-10-14
+  'bimsen', // zurückgestellt (Regel 14/16): zwei Bedeutungen (mit Bimsstein glätten ↔ umgangssprachlich pauken); Bedeutung/Gebrauch nicht sicher 2026-10-15
+  'bläuen', // zurückgestellt (Regel 14/16): selten; Verwechslung mit «bleuen» (schlagen) 2026-10-15
+  'blessieren', // zurückgestellt (Regel 14/16): veraltet, sehr selten (verwunden) 2026-10-15
+  'blinkern', // zurückgestellt (Regel 14/16): landschaftlich/selten 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

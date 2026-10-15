@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_blinken",
+  "wort": "blinken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "چشمک زدن (نور)",
+      "راهنما زدن"
+    ],
+    "en": [
+      "to flash",
+      "to blink",
+      "to indicate (car)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Verkehr",
+    "Licht"
+  ],
+  "ipa": "ˈblɪŋkn̩",
+  "anmerkung": "Regelmäßig (blinkte, geblinkt). Nicht verwechseln mit «blinzeln» (Augen).",
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Vor dem Abbiegen musst du blinken.",
+      "uebersetzung": {
+        "fa": "قبل از پیچیدن باید راهنما بزنی.",
+        "en": "You have to indicate before turning."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Auf dem Display blinkt ein rotes Licht, wenn der Akku fast leer ist.",
+      "uebersetzung": {
+        "fa": "وقتی باتری تقریباً خالی است، یک چراغ قرمز روی صفحه چشمک می‌زند.",
+        "en": "A red light flashes on the display when the battery is almost empty."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufleuchten",
+      "uebersetzung": {
+        "fa": "روشن شدن (نور)",
+        "en": "to light up"
+      }
+    },
+    {
+      "wort": "funkeln",
+      "uebersetzung": {
+        "fa": "درخشیدن",
+        "en": "to sparkle"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "nach links blinken",
+        "bedeutung": "den Blinker für eine Richtung einschalten",
+        "beispiel": "Der Fahrer blinkt nach links.",
+        "uebersetzung": {
+          "fa": "راننده راهنمای چپ را می‌زند.",
+          "en": "The driver indicates left."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "blinken",
+      "praeteritum": "blinkte",
+      "partizip2": "geblinkt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "blinke",
+        "du": "blinkst",
+        "er_sie_es": "blinkt",
+        "wir": "blinken",
+        "ihr": "blinkt",
+        "sie_Sie": "blinken"
+      },
+      "praeteritum": {
+        "ich": "blinkte",
+        "du": "blinktest",
+        "er_sie_es": "blinkte",
+        "wir": "blinkten",
+        "ihr": "blinktet",
+        "sie_Sie": "blinkten"
+      },
+      "konjunktiv1": {
+        "ich": "blinke",
+        "du": "blinkest",
+        "er_sie_es": "blinke",
+        "wir": "blinken",
+        "ihr": "blinket",
+        "sie_Sie": "blinken"
+      },
+      "konjunktiv2": {
+        "ich": "blinkte",
+        "du": "blinktest",
+        "er_sie_es": "blinkte",
+        "wir": "blinkten",
+        "ihr": "blinktet",
+        "sie_Sie": "blinkten"
+      },
+      "imperativ": {
+        "du": "Blinke!",
+        "ihr": "Blinkt!",
+        "Sie": "Blinken Sie!"
+      }
+    },
+    "partizip1": "blinkend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Blinker",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "راهنما (ماشین)",
+          "en": "indicator"
+        },
+        "id_ref": "nomen_blinker"
+      },
+      {
+        "wort": "das Licht",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نور",
+          "en": "light"
+        },
+        "id_ref": "nomen_licht"
+      },
+      {
+        "wort": "abbiegen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پیچیدن",
+          "en": "to turn"
+        },
+        "id_ref": "verb_abbiegen"
+      },
+      {
+        "wort": "leuchten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درخشیدن",
+          "en": "to shine"
+        },
+        "id_ref": "verb_leuchten"
+      },
+      {
+        "wort": "das Auto",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ماشین",
+          "en": "car"
+        },
+        "id_ref": "nomen_auto"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_blechen",
+  "wort": "blechen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سلفیدن (پول دادن)",
+      "پول زیادی دادن"
+    ],
+    "en": [
+      "to cough up",
+      "to fork out"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Geld",
+    "Alltag"
+  ],
+  "ipa": "ˈblɛçn̩",
+  "anmerkung": "Regelmäßig (blechte, geblecht). Umgangssprachlich; von «Blech» (Münzen).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich musste 50 Euro blechen.",
+      "uebersetzung": {
+        "fa": "مجبور شدم پنجاه یورو بسلفم.",
+        "en": "I had to cough up 50 euros."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wer falsch parkt, muss am Ende ordentlich blechen.",
+      "uebersetzung": {
+        "fa": "کسی که غلط پارک کند، آخرش باید حسابی پول بدهد.",
+        "en": "Anyone who parks illegally ends up having to fork out a lot."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bezahlen",
+      "uebersetzung": {
+        "fa": "پرداختن",
+        "en": "to pay"
+      }
+    },
+    {
+      "wort": "zahlen",
+      "uebersetzung": {
+        "fa": "پول دادن",
+        "en": "to pay"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "für + Akk blechen",
+        "bedeutung": "für etwas (viel) Geld bezahlen müssen",
+        "beispiel": "Für die Reparatur mussten wir kräftig blechen.",
+        "uebersetzung": {
+          "fa": "برای تعمیر مجبور شدیم کلی پول بدهیم.",
+          "en": "We had to pay a lot for the repair."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "blechen",
+      "praeteritum": "blechte",
+      "partizip2": "geblecht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bleche",
+        "du": "blechst",
+        "er_sie_es": "blecht",
+        "wir": "blechen",
+        "ihr": "blecht",
+        "sie_Sie": "blechen"
+      },
+      "praeteritum": {
+        "ich": "blechte",
+        "du": "blechtest",
+        "er_sie_es": "blechte",
+        "wir": "blechten",
+        "ihr": "blechtet",
+        "sie_Sie": "blechten"
+      },
+      "konjunktiv1": {
+        "ich": "bleche",
+        "du": "blechest",
+        "er_sie_es": "bleche",
+        "wir": "blechen",
+        "ihr": "blechet",
+        "sie_Sie": "blechen"
+      },
+      "konjunktiv2": {
+        "ich": "blechte",
+        "du": "blechtest",
+        "er_sie_es": "blechte",
+        "wir": "blechten",
+        "ihr": "blechtet",
+        "sie_Sie": "blechten"
+      },
+      "imperativ": {
+        "du": "Bleche!",
+        "ihr": "Blecht!",
+        "Sie": "Blechen Sie!"
+      }
+    },
+    "partizip1": "blechend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "bezahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_bezahlen"
+      },
+      {
+        "wort": "zahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پول دادن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_zahlen"
+      },
+      {
+        "wort": "das Geld",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پول",
+          "en": "money"
+        },
+        "id_ref": "nomen_geld"
+      },
+      {
+        "wort": "teuer",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گران",
+          "en": "expensive"
+        },
+        "id_ref": "adjektiv_teuer"
+      },
+      {
+        "wort": "die Strafe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جریمه",
+          "en": "fine"
+        },
+        "id_ref": "nomen_strafe"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

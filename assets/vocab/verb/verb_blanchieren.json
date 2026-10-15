@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_blanchieren",
+  "wort": "blanchieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آب‌پز کوتاه کردن (سبزی)",
+      "بلانچ کردن"
+    ],
+    "en": [
+      "to blanch"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kochen",
+    "Essen"
+  ],
+  "ipa": "blɑ̃ˈʃiːʁən",
+  "anmerkung": "Regelmäßig (blanchierte, blanchiert).",
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich blanchiere den Spinat.",
+      "uebersetzung": {
+        "fa": "اسفناج را کمی در آب جوش می‌گذارم.",
+        "en": "I blanch the spinach."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Man sollte das Gemüse kurz blanchieren, bevor man es einfriert.",
+      "uebersetzung": {
+        "fa": "بهتر است سبزی را قبل از فریز کردن کوتاه در آب جوش بگذاری.",
+        "en": "You should blanch the vegetables briefly before freezing them."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "überbrühen",
+      "uebersetzung": {
+        "fa": "آب جوش ریختن روی",
+        "en": "to scald"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "französisch blanchir (سفید کردن) + -ieren",
+    "en": "French blanchir (to whiten) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "blanchieren",
+      "praeteritum": "blanchierte",
+      "partizip2": "blanchiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "blanchiere",
+        "du": "blanchierst",
+        "er_sie_es": "blanchiert",
+        "wir": "blanchieren",
+        "ihr": "blanchiert",
+        "sie_Sie": "blanchieren"
+      },
+      "praeteritum": {
+        "ich": "blanchierte",
+        "du": "blanchiertest",
+        "er_sie_es": "blanchierte",
+        "wir": "blanchierten",
+        "ihr": "blanchiertet",
+        "sie_Sie": "blanchierten"
+      },
+      "konjunktiv1": {
+        "ich": "blanchiere",
+        "du": "blanchierest",
+        "er_sie_es": "blanchiere",
+        "wir": "blanchieren",
+        "ihr": "blanchieret",
+        "sie_Sie": "blanchieren"
+      },
+      "konjunktiv2": {
+        "ich": "blanchierte",
+        "du": "blanchiertest",
+        "er_sie_es": "blanchierte",
+        "wir": "blanchierten",
+        "ihr": "blanchiertet",
+        "sie_Sie": "blanchierten"
+      },
+      "imperativ": {
+        "du": "Blanchiere!",
+        "ihr": "Blanchiert!",
+        "Sie": "Blanchieren Sie!"
+      }
+    },
+    "partizip1": "blanchierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "kochen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پختن، جوشاندن",
+          "en": "to cook"
+        },
+        "id_ref": "verb_kochen"
+      },
+      {
+        "wort": "das Gemüse",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سبزی",
+          "en": "vegetables"
+        },
+        "id_ref": "nomen_gemuese"
+      },
+      {
+        "wort": "einfrieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فریز کردن",
+          "en": "to freeze"
+        },
+        "id_ref": "verb_einfrieren"
+      },
+      {
+        "wort": "dünsten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بخارپز کردن",
+          "en": "to steam"
+        },
+        "id_ref": "verb_duensten"
+      },
+      {
+        "wort": "abschrecken",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "با آب سرد خنک کردن",
+          "en": "to rinse in cold water"
+        },
+        "id_ref": "verb_abschrecken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
