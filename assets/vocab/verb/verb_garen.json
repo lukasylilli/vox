@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_garen",
+  "wort": "garen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پختن (آرام)"
+    ],
+    "en": [
+      "to cook",
+      "to simmer"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kochen"
+  ],
+  "ipa": "ˈɡaːʁən",
+  "anmerkung": "Regelmäßig (garte, gegart).",
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Gemüse gart im Topf.",
+      "uebersetzung": {
+        "fa": "سبزی در قابلمه می‌پزد.",
+        "en": "The vegetables are cooking in the pot."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Den Fisch lässt man bei niedriger Hitze etwa zehn Minuten garen, damit er saftig bleibt.",
+      "uebersetzung": {
+        "fa": "ماهی را با حرارت کم حدود ده دقیقه می‌گذارند بپزد تا آبدار بماند.",
+        "en": "You let the fish cook over a low heat for about ten minutes so that it stays juicy."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kochen",
+      "uebersetzung": {
+        "fa": "پختن",
+        "en": "to cook"
+      }
+    },
+    {
+      "wort": "dünsten",
+      "uebersetzung": {
+        "fa": "بخارپز کردن",
+        "en": "to steam"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "gar (پخته) + -en",
+    "en": "gar (cooked) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "garen",
+      "praeteritum": "garte",
+      "partizip2": "gegart"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gare",
+        "du": "garst",
+        "er_sie_es": "gart",
+        "wir": "garen",
+        "ihr": "gart",
+        "sie_Sie": "garen"
+      },
+      "praeteritum": {
+        "ich": "garte",
+        "du": "gartest",
+        "er_sie_es": "garte",
+        "wir": "garten",
+        "ihr": "gartet",
+        "sie_Sie": "garten"
+      },
+      "konjunktiv1": {
+        "ich": "gare",
+        "du": "garest",
+        "er_sie_es": "gare",
+        "wir": "garen",
+        "ihr": "garet",
+        "sie_Sie": "garen"
+      },
+      "konjunktiv2": {
+        "ich": "garte",
+        "du": "gartest",
+        "er_sie_es": "garte",
+        "wir": "garten",
+        "ihr": "gartet",
+        "sie_Sie": "garten"
+      },
+      "imperativ": {
+        "du": "Gare!",
+        "ihr": "Gart!",
+        "Sie": "Garen Sie!"
+      }
+    },
+    "partizip1": "garend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "gar",
+    "woerter": [
+      {
+        "wort": "kochen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پختن",
+          "en": "to cook"
+        },
+        "id_ref": "verb_kochen"
+      },
+      {
+        "wort": "der Topf",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قابلمه",
+          "en": "pot"
+        },
+        "id_ref": "nomen_topf"
+      },
+      {
+        "wort": "braten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سرخ کردن",
+          "en": "to fry"
+        },
+        "id_ref": "verb_braten"
+      },
+      {
+        "wort": "gar",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پخته",
+          "en": "done, cooked"
+        },
+        "id_ref": "adjektiv_gar"
+      },
+      {
+        "wort": "dünsten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بخارپز کردن",
+          "en": "to steam"
+        },
+        "id_ref": "verb_duensten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

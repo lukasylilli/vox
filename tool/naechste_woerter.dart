@@ -1651,6 +1651,11 @@ const zurueckgestellt = <String>{
   'fummeln', // zurückgestellt: umgangssprachlich; eine Bedeutung mit sexuellem Bezug (wie befummeln) — Entscheidung Lukas 2026-10-15
   'furzen', // zurückgestellt: derb/vulgär — Entscheidung Lukas (Regel 17) 2026-10-15
   'füßeln', // zurückgestellt: umgangssprachlich (unter dem Tisch mit den Füßen berühren, oft flirtend); Gebrauch nicht sicher (Regel 14) 2026-10-15
+  'gasen', // zurückgestellt: mehrere Bedeutungen (Gas geben, Gas ausströmen; Nähe zu «vergasen»); nicht sicher (Regel 14) 2026-10-15
+  'gaukeln', // zurückgestellt: gehoben/selten (flatternd schweben; vorgaukeln); Gebrauch nicht sicher (Regel 14) 2026-10-15
+  'gebaren', // zurückgestellt: veraltend/selten («sich gebaren»); Stilmarkierung nicht sicher (Regel 17) 2026-10-15
+  'gedeihen', // zurückgestellt: in der regelmäßigen Liste, aber unregelmäßig (gedieh, gediehen); keine Grundkarte für die Formen — nicht sicher (Regel 14) 2026-10-15
+  'geifern', // zurückgestellt: gehoben/abwertend (geifern gegen); Stilmarkierung nicht sicher (Regel 17) 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_garnieren",
+  "wort": "garnieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تزیین کردن (غذا)"
+    ],
+    "en": [
+      "to garnish",
+      "to decorate"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kochen"
+  ],
+  "ipa": "ɡaʁˈniːʁən",
+  "anmerkung": "Regelmäßig (garnierte, garniert).",
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie garniert die Suppe mit Petersilie.",
+      "uebersetzung": {
+        "fa": "سوپ را با جعفری تزیین می‌کند.",
+        "en": "She garnishes the soup with parsley."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor der Kuchen serviert wird, garniert der Konditor ihn mit frischen Beeren und Sahne.",
+      "uebersetzung": {
+        "fa": "پیش از سرو کیک، شیرینی‌پز آن را با توت تازه و خامه تزیین می‌کند.",
+        "en": "Before the cake is served, the confectioner decorates it with fresh berries and cream."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verzieren",
+      "uebersetzung": {
+        "fa": "تزیین کردن",
+        "en": "to decorate"
+      }
+    },
+    {
+      "wort": "dekorieren",
+      "uebersetzung": {
+        "fa": "آراستن",
+        "en": "to decorate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "frz. garnir (آراستن) + -ieren",
+    "en": "frz. garnir (to adorn) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas mit + Dat garnieren",
+        "bedeutung": "etwas mit etwas schmücken",
+        "beispiel": "Der Koch garniert den Teller mit Zitronenscheiben.",
+        "uebersetzung": {
+          "fa": "آشپز بشقاب را با برش‌های لیمو تزیین می‌کند.",
+          "en": "The chef garnishes the plate with lemon slices."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "garnieren",
+      "praeteritum": "garnierte",
+      "partizip2": "garniert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "garniere",
+        "du": "garnierst",
+        "er_sie_es": "garniert",
+        "wir": "garnieren",
+        "ihr": "garniert",
+        "sie_Sie": "garnieren"
+      },
+      "praeteritum": {
+        "ich": "garnierte",
+        "du": "garniertest",
+        "er_sie_es": "garnierte",
+        "wir": "garnierten",
+        "ihr": "garniertet",
+        "sie_Sie": "garnierten"
+      },
+      "konjunktiv1": {
+        "ich": "garniere",
+        "du": "garnierest",
+        "er_sie_es": "garniere",
+        "wir": "garnieren",
+        "ihr": "garnieret",
+        "sie_Sie": "garnieren"
+      },
+      "konjunktiv2": {
+        "ich": "garnierte",
+        "du": "garniertest",
+        "er_sie_es": "garnierte",
+        "wir": "garnierten",
+        "ihr": "garniertet",
+        "sie_Sie": "garnierten"
+      },
+      "imperativ": {
+        "du": "Garniere!",
+        "ihr": "Garniert!",
+        "Sie": "Garnieren Sie!"
+      }
+    },
+    "partizip1": "garnierend",
+    "nominalisierung": "die Garnierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Teller",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بشقاب",
+          "en": "plate"
+        },
+        "id_ref": "nomen_teller"
+      },
+      {
+        "wort": "schön",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زیبا",
+          "en": "beautiful"
+        },
+        "id_ref": "adjektiv_schoen"
+      },
+      {
+        "wort": "dekorieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آراستن",
+          "en": "to decorate"
+        },
+        "id_ref": "verb_dekorieren"
+      },
+      {
+        "wort": "die Sahne",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خامه",
+          "en": "cream"
+        },
+        "id_ref": "nomen_sahne"
+      },
+      {
+        "wort": "verzieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تزیین کردن",
+          "en": "to decorate"
+        },
+        "id_ref": "verb_verzieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

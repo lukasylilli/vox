@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_gehorchen",
+  "wort": "gehorchen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اطاعت کردن",
+      "فرمان بردن"
+    ],
+    "en": [
+      "to obey"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Familie",
+    "Erziehung"
+  ],
+  "ipa": "ɡəˈhɔʁçn̩",
+  "anmerkung": "Regelmäßig (gehorchte, gehorcht).",
+  "berufe": [
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hund gehorcht mir.",
+      "uebersetzung": {
+        "fa": "سگ از من اطاعت می‌کند.",
+        "en": "The dog obeys me."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn die Kinder nicht gehorchen, dürfen sie am Abend nicht fernsehen.",
+      "uebersetzung": {
+        "fa": "اگر بچه‌ها حرف گوش نکنند، شب اجازه‌ی تلویزیون دیدن ندارند.",
+        "en": "If the children don’t obey, they’re not allowed to watch TV in the evening."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "folgen",
+      "uebersetzung": {
+        "fa": "حرف گوش دادن",
+        "en": "to obey"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ge- + horchen (گوش دادن)",
+    "en": "ge- + horchen (to listen)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "+ Dat gehorchen",
+        "bedeutung": "tun, was jemand befiehlt",
+        "beispiel": "Die Soldaten gehorchen dem Befehl.",
+        "uebersetzung": {
+          "fa": "سربازها از فرمان اطاعت می‌کنند.",
+          "en": "The soldiers obey the order."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "gehorchen",
+      "praeteritum": "gehorchte",
+      "partizip2": "gehorcht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gehorche",
+        "du": "gehorchst",
+        "er_sie_es": "gehorcht",
+        "wir": "gehorchen",
+        "ihr": "gehorcht",
+        "sie_Sie": "gehorchen"
+      },
+      "praeteritum": {
+        "ich": "gehorchte",
+        "du": "gehorchtest",
+        "er_sie_es": "gehorchte",
+        "wir": "gehorchten",
+        "ihr": "gehorchtet",
+        "sie_Sie": "gehorchten"
+      },
+      "konjunktiv1": {
+        "ich": "gehorche",
+        "du": "gehorchest",
+        "er_sie_es": "gehorche",
+        "wir": "gehorchen",
+        "ihr": "gehorchet",
+        "sie_Sie": "gehorchen"
+      },
+      "konjunktiv2": {
+        "ich": "gehorchte",
+        "du": "gehorchtest",
+        "er_sie_es": "gehorchte",
+        "wir": "gehorchten",
+        "ihr": "gehorchtet",
+        "sie_Sie": "gehorchten"
+      },
+      "imperativ": {
+        "du": "Gehorche!",
+        "ihr": "Gehorcht!",
+        "Sie": "Gehorchen Sie!"
+      }
+    },
+    "partizip1": "gehorchend",
+    "nominalisierung": "der Gehorsam"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "hören",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شنیدن",
+          "en": "to hear"
+        },
+        "id_ref": "verb_hoeren"
+      },
+      {
+        "wort": "folgen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پیروی کردن",
+          "en": "to follow"
+        },
+        "id_ref": "verb_folgen"
+      },
+      {
+        "wort": "brav",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حرف‌گوش‌کن",
+          "en": "well-behaved"
+        },
+        "id_ref": "adjektiv_brav"
+      },
+      {
+        "wort": "der Befehl",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فرمان",
+          "en": "order"
+        },
+        "id_ref": "nomen_befehl"
+      },
+      {
+        "wort": "der Gehorsam",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "فرمان‌برداری",
+          "en": "obedience"
+        },
+        "id_ref": "nomen_gehorsam"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
