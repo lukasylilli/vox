@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_daempfen",
+  "wort": "dämpfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بخارپز کردن",
+      "کم کردن (صدا، نور)",
+      "فرونشاندن"
+    ],
+    "en": [
+      "to steam",
+      "to muffle",
+      "to dampen"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kochen",
+    "Technik"
+  ],
+  "ipa": "ˈdɛmpfn̩",
+  "anmerkung": "Regelmäßig (dämpfte, gedämpft). Nicht verwechseln mit «dampfen» (Dampf abgeben).",
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich dämpfe das Gemüse.",
+      "uebersetzung": {
+        "fa": "سبزی را بخارپز می‌کنم.",
+        "en": "I steam the vegetables."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Teppich dämpft die Schritte, sodass die Nachbarn unten nichts hören.",
+      "uebersetzung": {
+        "fa": "فرش صدای قدم‌ها را کم می‌کند، طوری که همسایه‌های طبقه‌ی پایین چیزی نمی‌شنوند.",
+        "en": "The carpet muffles the footsteps so that the neighbours below don't hear anything."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "dünsten",
+      "uebersetzung": {
+        "fa": "بخارپز کردن",
+        "en": "to steam"
+      }
+    },
+    {
+      "wort": "abschwächen",
+      "uebersetzung": {
+        "fa": "ضعیف کردن",
+        "en": "to weaken"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verstärken",
+      "uebersetzung": {
+        "fa": "تقویت کردن",
+        "en": "to amplify"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Dampf (بخار) + -en",
+    "en": "Dampf (steam) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "dämpfen",
+      "praeteritum": "dämpfte",
+      "partizip2": "gedämpft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "dämpfe",
+        "du": "dämpfst",
+        "er_sie_es": "dämpft",
+        "wir": "dämpfen",
+        "ihr": "dämpft",
+        "sie_Sie": "dämpfen"
+      },
+      "praeteritum": {
+        "ich": "dämpfte",
+        "du": "dämpftest",
+        "er_sie_es": "dämpfte",
+        "wir": "dämpften",
+        "ihr": "dämpftet",
+        "sie_Sie": "dämpften"
+      },
+      "konjunktiv1": {
+        "ich": "dämpfe",
+        "du": "dämpfest",
+        "er_sie_es": "dämpfe",
+        "wir": "dämpfen",
+        "ihr": "dämpfet",
+        "sie_Sie": "dämpfen"
+      },
+      "konjunktiv2": {
+        "ich": "dämpfte",
+        "du": "dämpftest",
+        "er_sie_es": "dämpfte",
+        "wir": "dämpften",
+        "ihr": "dämpftet",
+        "sie_Sie": "dämpften"
+      },
+      "imperativ": {
+        "du": "Dämpfe!",
+        "ihr": "Dämpft!",
+        "Sie": "Dämpfen Sie!"
+      }
+    },
+    "partizip1": "dämpfend",
+    "nominalisierung": "die Dämpfung"
+  },
+  "wortnetz": {
+    "grundwort": "Dampf",
+    "woerter": [
+      {
+        "wort": "der Dampf",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بخار",
+          "en": "steam"
+        },
+        "id_ref": "nomen_dampf"
+      },
+      {
+        "wort": "der Dämpfer",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ضربه‌گیر، تذکر",
+          "en": "damper"
+        },
+        "id_ref": "nomen_daempfer"
+      },
+      {
+        "wort": "dünsten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بخارپز کردن",
+          "en": "to steam"
+        },
+        "id_ref": "verb_duensten"
+      },
+      {
+        "wort": "leise",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آهسته",
+          "en": "quiet"
+        },
+        "id_ref": "adjektiv_leise"
+      },
+      {
+        "wort": "senken",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پایین آوردن",
+          "en": "to lower"
+        },
+        "id_ref": "verb_senken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

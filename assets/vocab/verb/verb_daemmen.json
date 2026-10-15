@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_daemmen",
+  "wort": "dämmen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "عایق‌بندی کردن",
+      "سد بستن",
+      "مهار کردن"
+    ],
+    "en": [
+      "to insulate",
+      "to dam",
+      "to curb"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Bau",
+    "Umwelt"
+  ],
+  "ipa": "ˈdɛmən",
+  "anmerkung": "Regelmäßig (dämmte, gedämmt).",
+  "berufe": [
+    "bau"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir dämmen das Dach.",
+      "uebersetzung": {
+        "fa": "سقف را عایق‌بندی می‌کنیم.",
+        "en": "We are insulating the roof."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn man die Wände gut dämmt, spart man im Winter viel Heizkosten.",
+      "uebersetzung": {
+        "fa": "اگر دیوارها را خوب عایق‌بندی کنی، در زمستان کلی در هزینه‌ی گرمایش صرفه‌جویی می‌کنی.",
+        "en": "If you insulate the walls well, you save a lot on heating costs in winter."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "isolieren",
+      "uebersetzung": {
+        "fa": "عایق کردن",
+        "en": "to insulate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Damm (سد) + -en",
+    "en": "Damm (dam) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "dämmen",
+      "praeteritum": "dämmte",
+      "partizip2": "gedämmt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "dämme",
+        "du": "dämmst",
+        "er_sie_es": "dämmt",
+        "wir": "dämmen",
+        "ihr": "dämmt",
+        "sie_Sie": "dämmen"
+      },
+      "praeteritum": {
+        "ich": "dämmte",
+        "du": "dämmtest",
+        "er_sie_es": "dämmte",
+        "wir": "dämmten",
+        "ihr": "dämmtet",
+        "sie_Sie": "dämmten"
+      },
+      "konjunktiv1": {
+        "ich": "dämme",
+        "du": "dämmest",
+        "er_sie_es": "dämme",
+        "wir": "dämmen",
+        "ihr": "dämmet",
+        "sie_Sie": "dämmen"
+      },
+      "konjunktiv2": {
+        "ich": "dämmte",
+        "du": "dämmtest",
+        "er_sie_es": "dämmte",
+        "wir": "dämmten",
+        "ihr": "dämmtet",
+        "sie_Sie": "dämmten"
+      },
+      "imperativ": {
+        "du": "Dämme!",
+        "ihr": "Dämmt!",
+        "Sie": "Dämmen Sie!"
+      }
+    },
+    "partizip1": "dämmend",
+    "nominalisierung": "die Dämmung"
+  },
+  "wortnetz": {
+    "grundwort": "Damm",
+    "woerter": [
+      {
+        "wort": "der Damm",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سد، خاکریز",
+          "en": "dam"
+        },
+        "id_ref": "nomen_damm"
+      },
+      {
+        "wort": "die Dämmung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "عایق‌بندی",
+          "en": "insulation"
+        },
+        "id_ref": "nomen_daemmung"
+      },
+      {
+        "wort": "isolieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عایق کردن",
+          "en": "to insulate"
+        },
+        "id_ref": "verb_isolieren"
+      },
+      {
+        "wort": "die Wand",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دیوار",
+          "en": "wall"
+        },
+        "id_ref": "nomen_wand"
+      },
+      {
+        "wort": "eindämmen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مهار کردن",
+          "en": "to contain"
+        },
+        "id_ref": "verb_eindaemmen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

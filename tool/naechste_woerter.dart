@@ -1604,6 +1604,7 @@ const zurueckgestellt = <String>{
   'bosseln', // zurückgestellt (Regel 14/16): umgangssprachlich/landschaftlich (basteln) und Spiel «Bosseln»; Bedeutung nicht eindeutig 2026-10-15
   'bummern', // zurückgestellt (Regel 14/16): landschaftlich (laut klopfen); selten 2026-10-15
   'bumsen', // zurückgestellt (Regel 14/16): umgangssprachlich/vulgär, sexuelle Bedeutung (wie befummeln) — Entscheidung Lukas 2026-10-15
+  'chargieren', // zurückgestellt (Regel 14/16): mehrere fachsprachliche Bedeutungen (Theater: übertreiben; Militär; Hüttenwesen); Gebrauch nicht sicher 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

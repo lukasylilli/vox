@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_chiffrieren",
+  "wort": "chiffrieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "رمزگذاری کردن"
+    ],
+    "en": [
+      "to encrypt",
+      "to encode"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Kommunikation"
+  ],
+  "ipa": "ʃɪˈfʁiːʁən",
+  "anmerkung": "Regelmäßig (chiffrierte, chiffriert).",
+  "berufe": [
+    "it"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Nachricht ist chiffriert.",
+      "uebersetzung": {
+        "fa": "پیام رمزگذاری شده است.",
+        "en": "The message is encrypted."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Krieg chiffrierte man wichtige Nachrichten, damit der Feind sie nicht lesen konnte.",
+      "uebersetzung": {
+        "fa": "در جنگ پیام‌های مهم را رمزگذاری می‌کردند تا دشمن نتواند آن‌ها را بخواند.",
+        "en": "In the war important messages were encrypted so that the enemy could not read them."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verschlüsseln",
+      "uebersetzung": {
+        "fa": "رمزگذاری کردن",
+        "en": "to encrypt"
+      }
+    },
+    {
+      "wort": "codieren",
+      "uebersetzung": {
+        "fa": "کدگذاری کردن",
+        "en": "to encode"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "dechiffrieren",
+      "uebersetzung": {
+        "fa": "رمزگشایی کردن",
+        "en": "to decipher"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Chiffre (رمز) + -ieren",
+    "en": "Chiffre (cipher) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "chiffrieren",
+      "praeteritum": "chiffrierte",
+      "partizip2": "chiffriert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "chiffriere",
+        "du": "chiffrierst",
+        "er_sie_es": "chiffriert",
+        "wir": "chiffrieren",
+        "ihr": "chiffriert",
+        "sie_Sie": "chiffrieren"
+      },
+      "praeteritum": {
+        "ich": "chiffrierte",
+        "du": "chiffriertest",
+        "er_sie_es": "chiffrierte",
+        "wir": "chiffrierten",
+        "ihr": "chiffriertet",
+        "sie_Sie": "chiffrierten"
+      },
+      "konjunktiv1": {
+        "ich": "chiffriere",
+        "du": "chiffrierest",
+        "er_sie_es": "chiffriere",
+        "wir": "chiffrieren",
+        "ihr": "chiffrieret",
+        "sie_Sie": "chiffrieren"
+      },
+      "konjunktiv2": {
+        "ich": "chiffrierte",
+        "du": "chiffriertest",
+        "er_sie_es": "chiffrierte",
+        "wir": "chiffrierten",
+        "ihr": "chiffriertet",
+        "sie_Sie": "chiffrierten"
+      },
+      "imperativ": {
+        "du": "Chiffriere!",
+        "ihr": "Chiffriert!",
+        "Sie": "Chiffrieren Sie!"
+      }
+    },
+    "partizip1": "chiffrierend",
+    "nominalisierung": "die Chiffrierung"
+  },
+  "wortnetz": {
+    "grundwort": "Chiffre",
+    "woerter": [
+      {
+        "wort": "der Code",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کد، رمز",
+          "en": "code"
+        },
+        "id_ref": "nomen_code"
+      },
+      {
+        "wort": "verschlüsseln",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رمزگذاری کردن",
+          "en": "to encrypt"
+        },
+        "id_ref": "verb_verschluesseln"
+      },
+      {
+        "wort": "die Chiffre",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "رمز، کد",
+          "en": "cipher"
+        },
+        "id_ref": "nomen_chiffre"
+      },
+      {
+        "wort": "geheim",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مخفی",
+          "en": "secret"
+        },
+        "id_ref": "adjektiv_geheim"
+      },
+      {
+        "wort": "entschlüsseln",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رمزگشایی کردن",
+          "en": "to decrypt"
+        },
+        "id_ref": "verb_entschluesseln"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

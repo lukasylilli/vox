@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_daemmern",
+  "wort": "dämmern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سپیده زدن",
+      "غروب شدن",
+      "کم‌کم فهمیدن"
+    ],
+    "en": [
+      "to dawn",
+      "to grow dark",
+      "to dawn on"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Zeit",
+    "Natur"
+  ],
+  "ipa": "ˈdɛmɐn",
+  "anmerkung": "Regelmäßig (dämmerte, gedämmert). Meist unpersönlich: es dämmert (morgens oder abends).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Es dämmert schon.",
+      "uebersetzung": {
+        "fa": "هوا دارد گرگ‌ومیش می‌شود.",
+        "en": "It is already getting light (or dark)."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Erst später dämmerte ihm, dass er einen großen Fehler gemacht hatte.",
+      "uebersetzung": {
+        "fa": "تازه بعدها کم‌کم فهمید که اشتباه بزرگی کرده بود.",
+        "en": "Only later did it dawn on him that he had made a big mistake."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "tagen",
+      "uebersetzung": {
+        "fa": "روز شدن",
+        "en": "to dawn"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem dämmern",
+        "bedeutung": "jemandem langsam klar werden",
+        "beispiel": "Langsam dämmerte mir, was passiert war.",
+        "uebersetzung": {
+          "fa": "کم‌کم فهمیدم چه اتفاقی افتاده بود.",
+          "en": "Slowly it dawned on me what had happened."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "dämmern",
+      "praeteritum": "dämmerte",
+      "partizip2": "gedämmert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "dämmere",
+        "du": "dämmerst",
+        "er_sie_es": "dämmert",
+        "wir": "dämmern",
+        "ihr": "dämmert",
+        "sie_Sie": "dämmern"
+      },
+      "praeteritum": {
+        "ich": "dämmerte",
+        "du": "dämmertest",
+        "er_sie_es": "dämmerte",
+        "wir": "dämmerten",
+        "ihr": "dämmertet",
+        "sie_Sie": "dämmerten"
+      },
+      "konjunktiv1": {
+        "ich": "dämmere",
+        "du": "dämmerest",
+        "er_sie_es": "dämmere",
+        "wir": "dämmern",
+        "ihr": "dämmeret",
+        "sie_Sie": "dämmern"
+      },
+      "konjunktiv2": {
+        "ich": "dämmerte",
+        "du": "dämmertest",
+        "er_sie_es": "dämmerte",
+        "wir": "dämmerten",
+        "ihr": "dämmertet",
+        "sie_Sie": "dämmerten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "dämmernd",
+    "nominalisierung": "die Dämmerung"
+  },
+  "wortnetz": {
+    "grundwort": "Dämmerung",
+    "woerter": [
+      {
+        "wort": "die Dämmerung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گرگ‌ومیش",
+          "en": "twilight"
+        },
+        "id_ref": "nomen_daemmerung"
+      },
+      {
+        "wort": "der Morgen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "صبح",
+          "en": "morning"
+        },
+        "id_ref": "nomen_morgen"
+      },
+      {
+        "wort": "der Abend",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عصر، شب",
+          "en": "evening"
+        },
+        "id_ref": "nomen_abend"
+      },
+      {
+        "wort": "dunkel",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تاریک",
+          "en": "dark"
+        },
+        "id_ref": "adjektiv_dunkel"
+      },
+      {
+        "wort": "hell",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "روشن",
+          "en": "light"
+        },
+        "id_ref": "adjektiv_hell"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
