@@ -1683,6 +1683,9 @@ const zurueckgestellt = <String>{
   'hehlen', // zurückgestellt: veraltend/selten (Diebesgut verbergen; heute «Hehlerei»); Gebrauch nicht sicher (Regel 14/17) 2026-10-15
   'heuen', // zurückgestellt: regional (süddeutsch/österreichisch: Heu machen), selten (Regel 14) 2026-10-15
   'heuern', // zurückgestellt: Seemannssprache, selten (meist «anheuern»); Gebrauch nicht sicher (Regel 14) 2026-10-15
+  'historisieren', // zurückgestellt: bildungssprachlich, selten; Bedeutung nicht sicher (Regel 14) 2026-10-15
+  'höhnen', // zurückgestellt: gehoben, selten (verhöhnen); Gebrauch nicht sicher (Regel 14) 2026-10-15
+  'hökern', // zurückgestellt: veraltend/regional (Kleinhandel treiben), selten (Regel 14/17) 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
