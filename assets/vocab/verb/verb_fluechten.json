@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_fluechten",
+  "wort": "flüchten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "فرار کردن",
+      "پناه بردن"
+    ],
+    "en": [
+      "to flee",
+      "to escape"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Politik",
+    "Gesellschaft"
+  ],
+  "ipa": "ˈflʏçtn̩",
+  "anmerkung": "Regelmäßig (flüchtete, geflüchtet). Reflexiv mit «haben»: «Sie hat sich ins Haus geflüchtet.»",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Dieb flüchtet.",
+      "uebersetzung": {
+        "fa": "دزد فرار می‌کند.",
+        "en": "The thief flees."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Viele Menschen mussten aus ihrer Heimat flüchten, weil dort Krieg herrschte.",
+      "uebersetzung": {
+        "fa": "خیلی‌ها مجبور شدند از وطنشان فرار کنند، چون آنجا جنگ بود.",
+        "en": "Many people had to flee their homeland because there was war there."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fliehen",
+      "uebersetzung": {
+        "fa": "گریختن",
+        "en": "to flee"
+      }
+    },
+    {
+      "wort": "entkommen",
+      "uebersetzung": {
+        "fa": "گریختن",
+        "en": "to escape"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "die Flucht (فرار) + -en",
+    "en": "die Flucht (escape) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "vor + Dat flüchten",
+        "bedeutung": "sich vor einer Gefahr in Sicherheit bringen",
+        "beispiel": "Die Familie flüchtete vor dem Krieg.",
+        "uebersetzung": {
+          "fa": "خانواده از جنگ گریخت.",
+          "en": "The family fled from the war."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "flüchten",
+      "praeteritum": "flüchtete",
+      "partizip2": "geflüchtet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "flüchte",
+        "du": "flüchtest",
+        "er_sie_es": "flüchtet",
+        "wir": "flüchten",
+        "ihr": "flüchtet",
+        "sie_Sie": "flüchten"
+      },
+      "praeteritum": {
+        "ich": "flüchtete",
+        "du": "flüchtetest",
+        "er_sie_es": "flüchtete",
+        "wir": "flüchteten",
+        "ihr": "flüchtetet",
+        "sie_Sie": "flüchteten"
+      },
+      "konjunktiv1": {
+        "ich": "flüchte",
+        "du": "flüchtest",
+        "er_sie_es": "flüchte",
+        "wir": "flüchten",
+        "ihr": "flüchtet",
+        "sie_Sie": "flüchten"
+      },
+      "konjunktiv2": {
+        "ich": "flüchtete",
+        "du": "flüchtetest",
+        "er_sie_es": "flüchtete",
+        "wir": "flüchteten",
+        "ihr": "flüchtetet",
+        "sie_Sie": "flüchteten"
+      },
+      "imperativ": {
+        "du": "Flüchte!",
+        "ihr": "Flüchtet!",
+        "Sie": "Flüchten Sie!"
+      }
+    },
+    "partizip1": "flüchtend",
+    "nominalisierung": "die Flucht"
+  },
+  "wortnetz": {
+    "grundwort": "Flucht",
+    "woerter": [
+      {
+        "wort": "der Krieg",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جنگ",
+          "en": "war"
+        },
+        "id_ref": "nomen_krieg"
+      },
+      {
+        "wort": "die Flucht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فرار",
+          "en": "escape"
+        },
+        "id_ref": "nomen_flucht"
+      },
+      {
+        "wort": "der Flüchtling",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پناهنده",
+          "en": "refugee"
+        },
+        "id_ref": "nomen_fluechtling"
+      },
+      {
+        "wort": "die Heimat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وطن",
+          "en": "homeland"
+        },
+        "id_ref": "nomen_heimat"
+      },
+      {
+        "wort": "fliehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گریختن",
+          "en": "to flee"
+        },
+        "id_ref": "verb_fliehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

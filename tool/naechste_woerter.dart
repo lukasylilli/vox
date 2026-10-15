@@ -1642,6 +1642,7 @@ const zurueckgestellt = <String>{
   'fläzen', // zurückgestellt: umgangssprachlich, abwertend («sich fläzen»); Stilmarkierung nicht sicher (Regel 14/17) 2026-10-15
   'fleddern', // zurückgestellt: selten (Leichen ausplündern); Gebrauch nicht sicher (Regel 14) 2026-10-15
   'flennen', // zurückgestellt: umgangssprachlich abwertend (weinen); anstoessig-Stufe nicht sicher (Regel 17) 2026-10-15
+  'flirren', // zurückgestellt: gehoben/selten (flimmern, schwirren); Gebrauch nicht sicher (Regel 14) 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

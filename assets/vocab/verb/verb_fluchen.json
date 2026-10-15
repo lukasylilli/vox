@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_fluchen",
+  "wort": "fluchen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "فحش دادن",
+      "ناسزا گفتن"
+    ],
+    "en": [
+      "to swear",
+      "to curse"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gefühle",
+    "Kommunikation"
+  ],
+  "ipa": "ˈfluːxn̩",
+  "anmerkung": "Regelmäßig (fluchte, geflucht).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mein Vater flucht beim Autofahren.",
+      "uebersetzung": {
+        "fa": "پدرم موقع رانندگی فحش می‌دهد.",
+        "en": "My father swears when he drives."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Als er merkte, dass er den Schlüssel vergessen hatte, fluchte er laut.",
+      "uebersetzung": {
+        "fa": "وقتی فهمید کلید را جا گذاشته، بلند ناسزا گفت.",
+        "en": "When he realised he had forgotten the key, he swore loudly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schimpfen",
+      "uebersetzung": {
+        "fa": "غر زدن، بد و بیراه گفتن",
+        "en": "to rant"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "über + Akk fluchen",
+        "bedeutung": "sich schimpfend über etwas aufregen",
+        "beispiel": "Alle fluchen über das schlechte Wetter.",
+        "uebersetzung": {
+          "fa": "همه از هوای بد بد و بیراه می‌گویند.",
+          "en": "Everyone is cursing the bad weather."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "fluchen",
+      "praeteritum": "fluchte",
+      "partizip2": "geflucht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fluche",
+        "du": "fluchst",
+        "er_sie_es": "flucht",
+        "wir": "fluchen",
+        "ihr": "flucht",
+        "sie_Sie": "fluchen"
+      },
+      "praeteritum": {
+        "ich": "fluchte",
+        "du": "fluchtest",
+        "er_sie_es": "fluchte",
+        "wir": "fluchten",
+        "ihr": "fluchtet",
+        "sie_Sie": "fluchten"
+      },
+      "konjunktiv1": {
+        "ich": "fluche",
+        "du": "fluchest",
+        "er_sie_es": "fluche",
+        "wir": "fluchen",
+        "ihr": "fluchet",
+        "sie_Sie": "fluchen"
+      },
+      "konjunktiv2": {
+        "ich": "fluchte",
+        "du": "fluchtest",
+        "er_sie_es": "fluchte",
+        "wir": "fluchten",
+        "ihr": "fluchtet",
+        "sie_Sie": "fluchten"
+      },
+      "imperativ": {
+        "du": "Fluche!",
+        "ihr": "Flucht!",
+        "Sie": "Fluchen Sie!"
+      }
+    },
+    "partizip1": "fluchend",
+    "nominalisierung": "der Fluch"
+  },
+  "wortnetz": {
+    "grundwort": "Fluch",
+    "woerter": [
+      {
+        "wort": "ärgern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عصبانی کردن",
+          "en": "to annoy"
+        },
+        "id_ref": "verb_aergern"
+      },
+      {
+        "wort": "schimpfen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بد و بیراه گفتن",
+          "en": "to rant"
+        },
+        "id_ref": "verb_schimpfen"
+      },
+      {
+        "wort": "wütend",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عصبانی",
+          "en": "angry"
+        },
+        "id_ref": "adjektiv_wuetend"
+      },
+      {
+        "wort": "der Fluch",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ناسزا، نفرین",
+          "en": "curse"
+        },
+        "id_ref": "nomen_fluch"
+      },
+      {
+        "wort": "das Schimpfwort",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فحش",
+          "en": "swear word"
+        },
+        "id_ref": "nomen_schimpfwort"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
