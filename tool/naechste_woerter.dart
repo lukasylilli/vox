@@ -1605,6 +1605,12 @@ const zurueckgestellt = <String>{
   'bummern', // zurückgestellt (Regel 14/16): landschaftlich (laut klopfen); selten 2026-10-15
   'bumsen', // zurückgestellt (Regel 14/16): umgangssprachlich/vulgär, sexuelle Bedeutung (wie befummeln) — Entscheidung Lukas 2026-10-15
   'chargieren', // zurückgestellt (Regel 14/16): mehrere fachsprachliche Bedeutungen (Theater: übertreiben; Militär; Hüttenwesen); Gebrauch nicht sicher 2026-10-15
+  'deputieren', // zurückgestellt (Regel 14/16): selten (abordnen); Stilmarkierung (veraltet?) nicht sicher 2026-10-15
+  'distinguieren', // zurückgestellt (Regel 14/16): heute fast nur Partizip «distinguiert» (eigene Adjektivkarte); Verb veraltet, Gebrauch nicht sicher 2026-10-15
+  'doktern', // zurückgestellt (Regel 14/16): umgangssprachlich, meist «herumdoktern»; Bedeutung/Gebrauch nicht sicher 2026-10-15
+  'downloaden', // zurückgestellt (Regel 3/16): Partizip II schwankt (downgeloadet/gedownloadet), trennbar nicht sicher ⇒ lieber kein Symbol als ein falsches 2026-10-15
+  'dräuen', // zurückgestellt (Regel 14/16): dichterisch/veraltet (drohen); Gebrauch nicht sicher 2026-10-15
+  'dröseln', // zurückgestellt (Regel 14/16): landschaftlich, meist «aufdröseln»; Bedeutung nicht sicher 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

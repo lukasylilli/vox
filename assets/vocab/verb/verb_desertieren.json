@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_desertieren",
+  "wort": "desertieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "از ارتش فرار کردن"
+    ],
+    "en": [
+      "to desert"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Militär"
+  ],
+  "ipa": "dezɛʁˈtiːʁən",
+  "anmerkung": "Regelmäßig (desertierte, desertiert). Perfekt meist mit «sein», selten mit «haben».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Soldat desertiert.",
+      "uebersetzung": {
+        "fa": "سرباز از ارتش فرار می‌کند.",
+        "en": "The soldier deserts."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil er nicht auf Menschen schießen wollte, ist er aus der Armee desertiert.",
+      "uebersetzung": {
+        "fa": "چون نمی‌خواست به آدم‌ها شلیک کند، از ارتش فرار کرد.",
+        "en": "Because he did not want to shoot at people, he deserted from the army."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fliehen",
+      "uebersetzung": {
+        "fa": "فرار کردن",
+        "en": "to flee"
+      }
+    },
+    {
+      "wort": "überlaufen",
+      "uebersetzung": {
+        "fa": "به طرف مقابل پیوستن",
+        "en": "to defect"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "frz. déserter (ترک کردن)",
+    "en": "French déserter (to abandon)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "aus + Dat desertieren",
+        "bedeutung": "die Truppe ohne Erlaubnis verlassen",
+        "beispiel": "Er desertierte aus der Armee.",
+        "uebersetzung": {
+          "fa": "از ارتش فرار کرد.",
+          "en": "He deserted from the army."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "desertieren",
+      "praeteritum": "desertierte",
+      "partizip2": "desertiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "desertiere",
+        "du": "desertierst",
+        "er_sie_es": "desertiert",
+        "wir": "desertieren",
+        "ihr": "desertiert",
+        "sie_Sie": "desertieren"
+      },
+      "praeteritum": {
+        "ich": "desertierte",
+        "du": "desertiertest",
+        "er_sie_es": "desertierte",
+        "wir": "desertierten",
+        "ihr": "desertiertet",
+        "sie_Sie": "desertierten"
+      },
+      "konjunktiv1": {
+        "ich": "desertiere",
+        "du": "desertierest",
+        "er_sie_es": "desertiere",
+        "wir": "desertieren",
+        "ihr": "desertieret",
+        "sie_Sie": "desertieren"
+      },
+      "konjunktiv2": {
+        "ich": "desertierte",
+        "du": "desertiertest",
+        "er_sie_es": "desertierte",
+        "wir": "desertierten",
+        "ihr": "desertiertet",
+        "sie_Sie": "desertierten"
+      },
+      "imperativ": {
+        "du": "Desertiere!",
+        "ihr": "Desertiert!",
+        "Sie": "Desertieren Sie!"
+      }
+    },
+    "partizip1": "desertierend",
+    "nominalisierung": "die Desertion"
+  },
+  "wortnetz": {
+    "grundwort": "Deserteur",
+    "woerter": [
+      {
+        "wort": "der Soldat",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سرباز",
+          "en": "soldier"
+        },
+        "id_ref": "nomen_soldat"
+      },
+      {
+        "wort": "fliehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فرار کردن",
+          "en": "to flee"
+        },
+        "id_ref": "verb_fliehen"
+      },
+      {
+        "wort": "die Armee",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ارتش",
+          "en": "army"
+        },
+        "id_ref": "nomen_armee"
+      },
+      {
+        "wort": "der Deserteur",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "فراری از ارتش",
+          "en": "deserter"
+        },
+        "id_ref": "nomen_deserteur"
+      },
+      {
+        "wort": "die Flucht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فرار",
+          "en": "escape"
+        },
+        "id_ref": "nomen_flucht"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

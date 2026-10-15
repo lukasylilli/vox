@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_denunzieren",
+  "wort": "denunzieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "لو دادن",
+      "گزارش دادن (کسی به مقامات)"
+    ],
+    "en": [
+      "to denounce",
+      "to inform on"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Politik",
+    "Recht"
+  ],
+  "ipa": "denʊnˈtsiːʁən",
+  "anmerkung": "Regelmäßig (denunzierte, denunziert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Nachbar denunziert ihn.",
+      "uebersetzung": {
+        "fa": "همسایه او را لو می‌دهد.",
+        "en": "The neighbour informs on him."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In der Diktatur denunzierten manche Menschen sogar ihre Freunde, um selbst sicher zu sein.",
+      "uebersetzung": {
+        "fa": "در دوران دیکتاتوری بعضی آدم‌ها حتی دوستانشان را لو می‌دادند تا خودشان در امان باشند.",
+        "en": "Under the dictatorship some people even informed on their friends in order to be safe themselves."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anzeigen",
+      "uebersetzung": {
+        "fa": "گزارش دادن",
+        "en": "to report"
+      }
+    },
+    {
+      "wort": "verraten",
+      "uebersetzung": {
+        "fa": "لو دادن",
+        "en": "to betray"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. denuntiare (اعلام کردن)",
+    "en": "Latin denuntiare (to announce)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden bei + Dat denunzieren",
+        "bedeutung": "jemanden bei einer Behörde anzeigen, meist aus niedrigen Motiven",
+        "beispiel": "Sie hat ihren Chef bei der Polizei denunziert.",
+        "uebersetzung": {
+          "fa": "رئیسش را پیش پلیس لو داد.",
+          "en": "She informed on her boss to the police."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "denunzieren",
+      "praeteritum": "denunzierte",
+      "partizip2": "denunziert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "denunziere",
+        "du": "denunzierst",
+        "er_sie_es": "denunziert",
+        "wir": "denunzieren",
+        "ihr": "denunziert",
+        "sie_Sie": "denunzieren"
+      },
+      "praeteritum": {
+        "ich": "denunzierte",
+        "du": "denunziertest",
+        "er_sie_es": "denunzierte",
+        "wir": "denunzierten",
+        "ihr": "denunziertet",
+        "sie_Sie": "denunzierten"
+      },
+      "konjunktiv1": {
+        "ich": "denunziere",
+        "du": "denunzierest",
+        "er_sie_es": "denunziere",
+        "wir": "denunzieren",
+        "ihr": "denunzieret",
+        "sie_Sie": "denunzieren"
+      },
+      "konjunktiv2": {
+        "ich": "denunzierte",
+        "du": "denunziertest",
+        "er_sie_es": "denunzierte",
+        "wir": "denunzierten",
+        "ihr": "denunziertet",
+        "sie_Sie": "denunzierten"
+      },
+      "imperativ": {
+        "du": "Denunziere!",
+        "ihr": "Denunziert!",
+        "Sie": "Denunzieren Sie!"
+      }
+    },
+    "partizip1": "denunzierend",
+    "nominalisierung": "die Denunziation"
+  },
+  "wortnetz": {
+    "grundwort": "Denunziation",
+    "woerter": [
+      {
+        "wort": "verraten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لو دادن",
+          "en": "to betray"
+        },
+        "id_ref": "verb_verraten"
+      },
+      {
+        "wort": "anzeigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گزارش دادن",
+          "en": "to report"
+        },
+        "id_ref": "verb_anzeigen"
+      },
+      {
+        "wort": "die Polizei",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پلیس",
+          "en": "police"
+        },
+        "id_ref": "nomen_polizei"
+      },
+      {
+        "wort": "die Diktatur",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دیکتاتوری",
+          "en": "dictatorship"
+        },
+        "id_ref": "nomen_diktatur"
+      },
+      {
+        "wort": "der Denunziant",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "خبرچین",
+          "en": "informer"
+        },
+        "id_ref": "nomen_denunziant"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

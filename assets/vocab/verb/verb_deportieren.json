@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_deportieren",
+  "wort": "deportieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تبعید کردن",
+      "به زور جابه‌جا کردن"
+    ],
+    "en": [
+      "to deport"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Geschichte",
+    "Politik"
+  ],
+  "ipa": "depɔʁˈtiːʁən",
+  "anmerkung": "Regelmäßig (deportierte, deportiert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Soldaten deportieren die Familie.",
+      "uebersetzung": {
+        "fa": "سربازها خانواده را تبعید می‌کنند.",
+        "en": "The soldiers deport the family."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Krieg wurden Millionen Menschen deportiert, ohne dass sie wussten, wohin man sie brachte.",
+      "uebersetzung": {
+        "fa": "در جنگ میلیون‌ها نفر تبعید شدند، بی‌آنکه بدانند آن‌ها را کجا می‌برند.",
+        "en": "In the war millions of people were deported without knowing where they were being taken."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verschleppen",
+      "uebersetzung": {
+        "fa": "به زور بردن",
+        "en": "to abduct"
+      }
+    },
+    {
+      "wort": "ausweisen",
+      "uebersetzung": {
+        "fa": "اخراج کردن",
+        "en": "to expel"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. deportare (دور بردن)",
+    "en": "Latin deportare (to carry away)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden in + Akk deportieren",
+        "bedeutung": "jemanden zwangsweise an einen Ort bringen",
+        "beispiel": "Viele wurden in Lager deportiert.",
+        "uebersetzung": {
+          "fa": "خیلی‌ها به اردوگاه‌ها تبعید شدند.",
+          "en": "Many were deported to camps."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "deportieren",
+      "praeteritum": "deportierte",
+      "partizip2": "deportiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "deportiere",
+        "du": "deportierst",
+        "er_sie_es": "deportiert",
+        "wir": "deportieren",
+        "ihr": "deportiert",
+        "sie_Sie": "deportieren"
+      },
+      "praeteritum": {
+        "ich": "deportierte",
+        "du": "deportiertest",
+        "er_sie_es": "deportierte",
+        "wir": "deportierten",
+        "ihr": "deportiertet",
+        "sie_Sie": "deportierten"
+      },
+      "konjunktiv1": {
+        "ich": "deportiere",
+        "du": "deportierest",
+        "er_sie_es": "deportiere",
+        "wir": "deportieren",
+        "ihr": "deportieret",
+        "sie_Sie": "deportieren"
+      },
+      "konjunktiv2": {
+        "ich": "deportierte",
+        "du": "deportiertest",
+        "er_sie_es": "deportierte",
+        "wir": "deportierten",
+        "ihr": "deportiertet",
+        "sie_Sie": "deportierten"
+      },
+      "imperativ": {
+        "du": "Deportiere!",
+        "ihr": "Deportiert!",
+        "Sie": "Deportieren Sie!"
+      }
+    },
+    "partizip1": "deportierend",
+    "nominalisierung": "die Deportation"
+  },
+  "wortnetz": {
+    "grundwort": "Deportation",
+    "woerter": [
+      {
+        "wort": "der Krieg",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جنگ",
+          "en": "war"
+        },
+        "id_ref": "nomen_krieg"
+      },
+      {
+        "wort": "abschieben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دیپورت کردن",
+          "en": "to deport"
+        },
+        "id_ref": "verb_abschieben"
+      },
+      {
+        "wort": "die Grenze",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مرز",
+          "en": "border"
+        },
+        "id_ref": "nomen_grenze"
+      },
+      {
+        "wort": "verschleppen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "به زور بردن",
+          "en": "to abduct"
+        },
+        "id_ref": "verb_verschleppen"
+      },
+      {
+        "wort": "die Deportation",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تبعید اجباری",
+          "en": "deportation"
+        },
+        "id_ref": "nomen_deportation"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

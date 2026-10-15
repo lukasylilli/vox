@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_deponieren",
+  "wort": "deponieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به امانت گذاشتن",
+      "سپردن"
+    ],
+    "en": [
+      "to deposit",
+      "to leave (in safekeeping)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Geld",
+    "Alltag"
+  ],
+  "ipa": "depoˈniːʁən",
+  "anmerkung": "Regelmäßig (deponierte, deponiert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich deponiere den Schlüssel beim Nachbarn.",
+      "uebersetzung": {
+        "fa": "کلید را پیش همسایه می‌گذارم.",
+        "en": "I leave the key with the neighbour."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor er in den Urlaub fuhr, deponierte er seinen Schmuck im Safe der Bank.",
+      "uebersetzung": {
+        "fa": "پیش از رفتن به تعطیلات، جواهراتش را در گاوصندوق بانک به امانت گذاشت.",
+        "en": "Before he went on holiday, he deposited his jewellery in the bank safe."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hinterlegen",
+      "uebersetzung": {
+        "fa": "به امانت سپردن",
+        "en": "to deposit"
+      }
+    },
+    {
+      "wort": "aufbewahren",
+      "uebersetzung": {
+        "fa": "نگه داشتن",
+        "en": "to keep"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. deponere (کنار گذاشتن)",
+    "en": "Latin deponere (to put down)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas bei + Dat deponieren",
+        "bedeutung": "etwas bei jemandem zur Aufbewahrung lassen",
+        "beispiel": "Sie deponiert den Koffer bei der Rezeption.",
+        "uebersetzung": {
+          "fa": "چمدان را پیش پذیرش به امانت می‌گذارد.",
+          "en": "She leaves the suitcase at the reception."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "deponieren",
+      "praeteritum": "deponierte",
+      "partizip2": "deponiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "deponiere",
+        "du": "deponierst",
+        "er_sie_es": "deponiert",
+        "wir": "deponieren",
+        "ihr": "deponiert",
+        "sie_Sie": "deponieren"
+      },
+      "praeteritum": {
+        "ich": "deponierte",
+        "du": "deponiertest",
+        "er_sie_es": "deponierte",
+        "wir": "deponierten",
+        "ihr": "deponiertet",
+        "sie_Sie": "deponierten"
+      },
+      "konjunktiv1": {
+        "ich": "deponiere",
+        "du": "deponierest",
+        "er_sie_es": "deponiere",
+        "wir": "deponieren",
+        "ihr": "deponieret",
+        "sie_Sie": "deponieren"
+      },
+      "konjunktiv2": {
+        "ich": "deponierte",
+        "du": "deponiertest",
+        "er_sie_es": "deponierte",
+        "wir": "deponierten",
+        "ihr": "deponiertet",
+        "sie_Sie": "deponierten"
+      },
+      "imperativ": {
+        "du": "Deponiere!",
+        "ihr": "Deponiert!",
+        "Sie": "Deponieren Sie!"
+      }
+    },
+    "partizip1": "deponierend",
+    "nominalisierung": "die Deponierung"
+  },
+  "wortnetz": {
+    "grundwort": "Depot",
+    "woerter": [
+      {
+        "wort": "der Schlüssel",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کلید",
+          "en": "key"
+        },
+        "id_ref": "nomen_schluessel"
+      },
+      {
+        "wort": "aufbewahren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to keep"
+        },
+        "id_ref": "verb_aufbewahren"
+      },
+      {
+        "wort": "der Safe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گاوصندوق",
+          "en": "safe"
+        },
+        "id_ref": "nomen_safe"
+      },
+      {
+        "wort": "hinterlegen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "به امانت سپردن",
+          "en": "to deposit"
+        },
+        "id_ref": "verb_hinterlegen"
+      },
+      {
+        "wort": "die Deponie",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "محل دفن زباله",
+          "en": "landfill"
+        },
+        "id_ref": "nomen_deponie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
