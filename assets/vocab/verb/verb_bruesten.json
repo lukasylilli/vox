@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_bruesten",
+  "wort": "brüsten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به خود بالیدن",
+      "لاف زدن"
+    ],
+    "en": [
+      "to boast",
+      "to brag"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle",
+    "Charakter"
+  ],
+  "ipa": "ˈbʁʏstn̩",
+  "anmerkung": "Regelmäßig (brüstete, gebrüstet). Nur reflexiv: sich brüsten.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er brüstet sich gern.",
+      "uebersetzung": {
+        "fa": "او دوست دارد به خودش ببالد.",
+        "en": "He likes to boast."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie brüstet sich damit, dass sie noch nie einen Fehler gemacht hat.",
+      "uebersetzung": {
+        "fa": "به خودش می‌بالد که هیچ‌وقت اشتباه نکرده است.",
+        "en": "She boasts that she has never made a mistake."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "prahlen",
+      "uebersetzung": {
+        "fa": "لاف زدن",
+        "en": "to brag"
+      }
+    },
+    {
+      "wort": "angeben",
+      "uebersetzung": {
+        "fa": "پز دادن",
+        "en": "to show off"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Brust (سینه) + -en (سینه سپر کردن)",
+    "en": "Brust (chest) + -en (to puff out one's chest)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich mit + Dat brüsten",
+        "bedeutung": "mit etwas angeben",
+        "beispiel": "Er brüstet sich mit seinem neuen Auto.",
+        "uebersetzung": {
+          "fa": "با ماشین جدیدش پز می‌دهد.",
+          "en": "He boasts about his new car."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "brüsten",
+      "praeteritum": "brüstete",
+      "partizip2": "gebrüstet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "brüste",
+        "du": "brüstest",
+        "er_sie_es": "brüstet",
+        "wir": "brüsten",
+        "ihr": "brüstet",
+        "sie_Sie": "brüsten"
+      },
+      "praeteritum": {
+        "ich": "brüstete",
+        "du": "brüstetest",
+        "er_sie_es": "brüstete",
+        "wir": "brüsteten",
+        "ihr": "brüstetet",
+        "sie_Sie": "brüsteten"
+      },
+      "konjunktiv1": {
+        "ich": "brüste",
+        "du": "brüstest",
+        "er_sie_es": "brüste",
+        "wir": "brüsten",
+        "ihr": "brüstet",
+        "sie_Sie": "brüsten"
+      },
+      "konjunktiv2": {
+        "ich": "brüstete",
+        "du": "brüstetest",
+        "er_sie_es": "brüstete",
+        "wir": "brüsteten",
+        "ihr": "brüstetet",
+        "sie_Sie": "brüsteten"
+      },
+      "imperativ": {
+        "du": "Brüste!",
+        "ihr": "Brüstet!",
+        "Sie": "Brüsten Sie!"
+      }
+    },
+    "partizip1": "brüstend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Brust",
+    "woerter": [
+      {
+        "wort": "die Brust",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سینه",
+          "en": "chest"
+        },
+        "id_ref": "nomen_brust"
+      },
+      {
+        "wort": "angeben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پز دادن",
+          "en": "to show off"
+        },
+        "id_ref": "verb_angeben"
+      },
+      {
+        "wort": "prahlen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "لاف زدن",
+          "en": "to brag"
+        },
+        "id_ref": "verb_prahlen"
+      },
+      {
+        "wort": "stolz",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مغرور، سربلند",
+          "en": "proud"
+        },
+        "id_ref": "adjektiv_stolz"
+      },
+      {
+        "wort": "bescheiden",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فروتن",
+          "en": "modest"
+        },
+        "id_ref": "adjektiv_bescheiden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

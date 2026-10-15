@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_broschieren",
+  "wort": "broschieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "صحافی کردن (جلد نرم)"
+    ],
+    "en": [
+      "to bind (paperback)",
+      "to stitch"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Druck",
+    "Bücher"
+  ],
+  "ipa": "bʁɔˈʃiːʁən",
+  "anmerkung": "Regelmäßig (broschierte, broschiert). Fachsprachlich (Buchbinderei). Häufig als Partizip: broschiert.",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Druckerei broschiert die Hefte.",
+      "uebersetzung": {
+        "fa": "چاپخانه دفترچه‌ها را صحافی می‌کند.",
+        "en": "The print shop binds the booklets."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Diplomarbeit wurde nicht gebunden, sondern nur broschiert, weil das billiger war.",
+      "uebersetzung": {
+        "fa": "پایان‌نامه با جلد سخت صحافی نشد، بلکه فقط جلد نرم خورد، چون ارزان‌تر بود.",
+        "en": "The thesis was not hardbound but only paperbound because that was cheaper."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "heften",
+      "uebersetzung": {
+        "fa": "منگنه کردن، دوختن",
+        "en": "to staple"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "französisch brocher (دوختن) + -ieren",
+    "en": "French brocher (to stitch) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "broschieren",
+      "praeteritum": "broschierte",
+      "partizip2": "broschiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "broschiere",
+        "du": "broschierst",
+        "er_sie_es": "broschiert",
+        "wir": "broschieren",
+        "ihr": "broschiert",
+        "sie_Sie": "broschieren"
+      },
+      "praeteritum": {
+        "ich": "broschierte",
+        "du": "broschiertest",
+        "er_sie_es": "broschierte",
+        "wir": "broschierten",
+        "ihr": "broschiertet",
+        "sie_Sie": "broschierten"
+      },
+      "konjunktiv1": {
+        "ich": "broschiere",
+        "du": "broschierest",
+        "er_sie_es": "broschiere",
+        "wir": "broschieren",
+        "ihr": "broschieret",
+        "sie_Sie": "broschieren"
+      },
+      "konjunktiv2": {
+        "ich": "broschierte",
+        "du": "broschiertest",
+        "er_sie_es": "broschierte",
+        "wir": "broschierten",
+        "ihr": "broschiertet",
+        "sie_Sie": "broschierten"
+      },
+      "imperativ": {
+        "du": "Broschiere!",
+        "ihr": "Broschiert!",
+        "Sie": "Broschieren Sie!"
+      }
+    },
+    "partizip1": "broschierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Broschüre",
+    "woerter": [
+      {
+        "wort": "die Broschüre",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بروشور",
+          "en": "brochure"
+        },
+        "id_ref": "nomen_broschuere"
+      },
+      {
+        "wort": "binden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بستن، صحافی کردن",
+          "en": "to bind"
+        },
+        "id_ref": "verb_binden"
+      },
+      {
+        "wort": "drucken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چاپ کردن",
+          "en": "to print"
+        },
+        "id_ref": "verb_drucken"
+      },
+      {
+        "wort": "das Heft",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دفترچه",
+          "en": "booklet"
+        },
+        "id_ref": "nomen_heft"
+      },
+      {
+        "wort": "das Buch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کتاب",
+          "en": "book"
+        },
+        "id_ref": "nomen_buch"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
