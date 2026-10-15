@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_einaeschern",
+  "wort": "einäschern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سوزاندن (جسد)",
+      "خاکستر کردن"
+    ],
+    "en": [
+      "to cremate",
+      "to burn to ashes"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Tod",
+    "Religion"
+  ],
+  "ipa": "ˈaɪ̯nʔɛʃɐn",
+  "anmerkung": "Trennbar (äscherte ein, eingeäschert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Man äschert den Toten ein.",
+      "uebersetzung": {
+        "fa": "جسد مرده را می‌سوزانند.",
+        "en": "The dead man is cremated."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ihre Großmutter wollte eingeäschert werden, damit ihre Asche im Meer verstreut werden kann.",
+      "uebersetzung": {
+        "fa": "مادربزرگش می‌خواست جسدش سوزانده شود تا خاکسترش در دریا پاشیده شود.",
+        "en": "Her grandmother wanted to be cremated so that her ashes could be scattered in the sea."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verbrennen",
+      "uebersetzung": {
+        "fa": "سوزاندن",
+        "en": "to burn"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "beerdigen",
+      "uebersetzung": {
+        "fa": "دفن کردن",
+        "en": "to bury"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + Asche (خاکستر)",
+    "en": "ein- (into) + Asche (ash)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "einäschern",
+      "praeteritum": "äscherte ein",
+      "partizip2": "eingeäschert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "äschere ein",
+        "du": "äscherst ein",
+        "er_sie_es": "äschert ein",
+        "wir": "äschern ein",
+        "ihr": "äschert ein",
+        "sie_Sie": "äschern ein"
+      },
+      "praeteritum": {
+        "ich": "äscherte ein",
+        "du": "äschertest ein",
+        "er_sie_es": "äscherte ein",
+        "wir": "äscherten ein",
+        "ihr": "äschertet ein",
+        "sie_Sie": "äscherten ein"
+      },
+      "konjunktiv1": {
+        "ich": "äschere ein",
+        "du": "äscherest ein",
+        "er_sie_es": "äschere ein",
+        "wir": "äschern ein",
+        "ihr": "äscheret ein",
+        "sie_Sie": "äschern ein"
+      },
+      "konjunktiv2": {
+        "ich": "äscherte ein",
+        "du": "äschertest ein",
+        "er_sie_es": "äscherte ein",
+        "wir": "äscherten ein",
+        "ihr": "äschertet ein",
+        "sie_Sie": "äscherten ein"
+      },
+      "imperativ": {
+        "du": "Äschere ein!",
+        "ihr": "Äschert ein!",
+        "Sie": "Äschern Sie ein!"
+      }
+    },
+    "partizip1": "einäschernd",
+    "nominalisierung": "die Einäscherung"
+  },
+  "wortnetz": {
+    "grundwort": "Asche",
+    "woerter": [
+      {
+        "wort": "die Asche",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خاکستر",
+          "en": "ash"
+        },
+        "id_ref": "nomen_asche"
+      },
+      {
+        "wort": "verbrennen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سوزاندن",
+          "en": "to burn"
+        },
+        "id_ref": "verb_verbrennen"
+      },
+      {
+        "wort": "beerdigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دفن کردن",
+          "en": "to bury"
+        },
+        "id_ref": "verb_beerdigen"
+      },
+      {
+        "wort": "der Friedhof",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گورستان",
+          "en": "cemetery"
+        },
+        "id_ref": "nomen_friedhof"
+      },
+      {
+        "wort": "die Urne",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ظرف خاکستر",
+          "en": "urn"
+        },
+        "id_ref": "nomen_urne"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

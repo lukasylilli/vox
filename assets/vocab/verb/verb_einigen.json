@@ -1,0 +1,198 @@
+{
+  "schema": "3.0",
+  "id": "verb_einigen",
+  "wort": "einigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به توافق رسیدن",
+      "متحد کردن"
+    ],
+    "en": [
+      "to agree",
+      "to unite"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Kommunikation",
+    "Politik"
+  ],
+  "ipa": "ˈaɪ̯nɪɡn̩",
+  "anmerkung": "Regelmäßig (einigte, geeinigt). Meist reflexiv: sich einigen.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir einigen uns schnell.",
+      "uebersetzung": {
+        "fa": "زود به توافق می‌رسیم.",
+        "en": "We agree quickly."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nach langen Gesprächen haben sich die beiden Firmen auf einen Preis geeinigt.",
+      "uebersetzung": {
+        "fa": "پس از گفت‌وگوهای طولانی دو شرکت بر سر یک قیمت به توافق رسیدند.",
+        "en": "After long talks the two companies agreed on a price."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich verständigen",
+      "uebersetzung": {
+        "fa": "به تفاهم رسیدن",
+        "en": "to come to an understanding"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "streiten",
+      "uebersetzung": {
+        "fa": "دعوا کردن",
+        "en": "to argue"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "einig (هم‌نظر) + -en",
+    "en": "einig (in agreement) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich auf + Akk einigen",
+        "bedeutung": "gemeinsam eine Lösung festlegen",
+        "beispiel": "Wir einigen uns auf Freitag.",
+        "uebersetzung": {
+          "fa": "روی جمعه توافق می‌کنیم.",
+          "en": "We agree on Friday."
+        }
+      },
+      {
+        "muster": "sich mit + Dat einigen",
+        "bedeutung": "mit jemandem zu einer Übereinstimmung kommen",
+        "beispiel": "Er hat sich mit dem Vermieter geeinigt.",
+        "uebersetzung": {
+          "fa": "با صاحب‌خانه به توافق رسید.",
+          "en": "He reached an agreement with the landlord."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "einigen",
+      "praeteritum": "einigte",
+      "partizip2": "geeinigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "einige",
+        "du": "einigst",
+        "er_sie_es": "einigt",
+        "wir": "einigen",
+        "ihr": "einigt",
+        "sie_Sie": "einigen"
+      },
+      "praeteritum": {
+        "ich": "einigte",
+        "du": "einigtest",
+        "er_sie_es": "einigte",
+        "wir": "einigten",
+        "ihr": "einigtet",
+        "sie_Sie": "einigten"
+      },
+      "konjunktiv1": {
+        "ich": "einige",
+        "du": "einigest",
+        "er_sie_es": "einige",
+        "wir": "einigen",
+        "ihr": "einiget",
+        "sie_Sie": "einigen"
+      },
+      "konjunktiv2": {
+        "ich": "einigte",
+        "du": "einigtest",
+        "er_sie_es": "einigte",
+        "wir": "einigten",
+        "ihr": "einigtet",
+        "sie_Sie": "einigten"
+      },
+      "imperativ": {
+        "du": "Einige!",
+        "ihr": "Einigt!",
+        "Sie": "Einigen Sie!"
+      }
+    },
+    "partizip1": "einigend",
+    "nominalisierung": "die Einigung"
+  },
+  "wortnetz": {
+    "grundwort": "einig",
+    "woerter": [
+      {
+        "wort": "einig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "هم‌نظر",
+          "en": "agreed"
+        },
+        "id_ref": "adjektiv_einig"
+      },
+      {
+        "wort": "die Einigung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "توافق",
+          "en": "agreement"
+        },
+        "id_ref": "nomen_einigung"
+      },
+      {
+        "wort": "der Kompromiss",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سازش",
+          "en": "compromise"
+        },
+        "id_ref": "nomen_kompromiss"
+      },
+      {
+        "wort": "vereinbaren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرار گذاشتن",
+          "en": "to arrange"
+        },
+        "id_ref": "verb_vereinbaren"
+      },
+      {
+        "wort": "streiten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دعوا کردن",
+          "en": "to argue"
+        },
+        "id_ref": "verb_streiten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

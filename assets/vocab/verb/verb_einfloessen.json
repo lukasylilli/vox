@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_einfloessen",
+  "wort": "einflößen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "قطره‌قطره خوراندن",
+      "القا کردن (احساس)"
+    ],
+    "en": [
+      "to give (to drink)",
+      "to instil"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Gefühle"
+  ],
+  "ipa": "ˈaɪ̯nˌfløːsn̩",
+  "anmerkung": "Trennbar (flößte ein, eingeflößt).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Pflegerin flößt ihm Tee ein.",
+      "uebersetzung": {
+        "fa": "پرستار به او قطره‌قطره چای می‌خوراند.",
+        "en": "The nurse gives him tea to drink."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der große Hund flößte den Kindern solche Angst ein, dass sie nicht mehr in den Garten gingen.",
+      "uebersetzung": {
+        "fa": "سگ بزرگ چنان ترسی در دل بچه‌ها انداخت که دیگر به باغ نرفتند.",
+        "en": "The big dog instilled such fear in the children that they no longer went into the garden."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verabreichen",
+      "uebersetzung": {
+        "fa": "دادن (دارو)",
+        "en": "to administer"
+      }
+    },
+    {
+      "wort": "einjagen",
+      "uebersetzung": {
+        "fa": "انداختن (ترس)",
+        "en": "to strike (fear)"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + flößen (روان کردن)",
+    "en": "ein- (into) + flößen (to float in)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "+ Dat etwas einflößen",
+        "bedeutung": "jemandem langsam etwas zu trinken geben; ein Gefühl in jemandem wecken",
+        "beispiel": "Er flößt ihr Vertrauen ein.",
+        "uebersetzung": {
+          "fa": "در او احساس اعتماد ایجاد می‌کند.",
+          "en": "He inspires her with confidence."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "einflößen",
+      "praeteritum": "flößte ein",
+      "partizip2": "eingeflößt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "flöße ein",
+        "du": "flößt ein",
+        "er_sie_es": "flößt ein",
+        "wir": "flößen ein",
+        "ihr": "flößt ein",
+        "sie_Sie": "flößen ein"
+      },
+      "praeteritum": {
+        "ich": "flößte ein",
+        "du": "flößtest ein",
+        "er_sie_es": "flößte ein",
+        "wir": "flößten ein",
+        "ihr": "flößtet ein",
+        "sie_Sie": "flößten ein"
+      },
+      "konjunktiv1": {
+        "ich": "flöße ein",
+        "du": "flößest ein",
+        "er_sie_es": "flöße ein",
+        "wir": "flößen ein",
+        "ihr": "flößet ein",
+        "sie_Sie": "flößen ein"
+      },
+      "konjunktiv2": {
+        "ich": "flößte ein",
+        "du": "flößtest ein",
+        "er_sie_es": "flößte ein",
+        "wir": "flößten ein",
+        "ihr": "flößtet ein",
+        "sie_Sie": "flößten ein"
+      },
+      "imperativ": {
+        "du": "Flöße ein!",
+        "ihr": "Flößt ein!",
+        "Sie": "Flößen Sie ein!"
+      }
+    },
+    "partizip1": "einflößend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "einflößen",
+    "woerter": [
+      {
+        "wort": "trinken",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نوشیدن",
+          "en": "to drink"
+        },
+        "id_ref": "verb_trinken"
+      },
+      {
+        "wort": "die Angst",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترس",
+          "en": "fear"
+        },
+        "id_ref": "nomen_angst"
+      },
+      {
+        "wort": "das Vertrauen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اعتماد",
+          "en": "trust"
+        },
+        "id_ref": "nomen_vertrauen"
+      },
+      {
+        "wort": "der Respekt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "احترام",
+          "en": "respect"
+        },
+        "id_ref": "nomen_respekt"
+      },
+      {
+        "wort": "verabreichen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دادن (دارو)",
+          "en": "to administer"
+        },
+        "id_ref": "verb_verabreichen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
