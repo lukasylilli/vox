@@ -1660,6 +1660,7 @@ const zurueckgestellt = <String>{
   'gerieren', // zurückgestellt: bildungssprachlich, selten («sich gerieren als»); Gebrauch nicht sicher (Regel 14) 2026-10-15
   'gieren', // zurückgestellt: gehoben/abwertend («nach etwas gieren»); Stilmarkierung nicht sicher (Regel 17) 2026-10-15
   'girren', // zurückgestellt: selten/gehoben (Tauben: gurren); Gebrauch nicht sicher (Regel 14) 2026-10-15
+  'gleißen', // zurückgestellt: gehoben/selten (grell glänzen; Präteritum gleißte/gliss schwankend); nicht sicher (Regel 14) 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

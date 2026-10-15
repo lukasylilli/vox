@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_gliedern",
+  "wort": "gliedern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بخش‌بندی کردن",
+      "سازمان دادن"
+    ],
+    "en": [
+      "to structure",
+      "to divide"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Schreiben",
+    "Lernen"
+  ],
+  "ipa": "ˈɡliːdɐn",
+  "anmerkung": "Regelmäßig (gliederte, gegliedert).",
+  "berufe": [
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich gliedere den Text in drei Teile.",
+      "uebersetzung": {
+        "fa": "متن را به سه بخش تقسیم می‌کنم.",
+        "en": "I divide the text into three parts."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn du deinen Aufsatz klar gliederst, kann der Leser deinen Gedanken leichter folgen.",
+      "uebersetzung": {
+        "fa": "اگر انشایت را روشن بخش‌بندی کنی، خواننده راحت‌تر افکارت را دنبال می‌کند.",
+        "en": "If you structure your essay clearly, the reader can follow your ideas more easily."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ordnen",
+      "uebersetzung": {
+        "fa": "مرتب کردن",
+        "en": "to arrange"
+      }
+    },
+    {
+      "wort": "einteilen",
+      "uebersetzung": {
+        "fa": "تقسیم کردن",
+        "en": "to divide up"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "das Glied (عضو، بخش) + -ern",
+    "en": "das Glied (limb, member) + -ern"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "etwas in + Akk gliedern",
+        "bedeutung": "etwas in Abschnitte aufteilen",
+        "beispiel": "Das Buch ist in zwölf Kapitel gegliedert.",
+        "uebersetzung": {
+          "fa": "کتاب به دوازده فصل تقسیم شده است.",
+          "en": "The book is divided into twelve chapters."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "gliedern",
+      "praeteritum": "gliederte",
+      "partizip2": "gegliedert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "gliedere",
+        "du": "gliederst",
+        "er_sie_es": "gliedert",
+        "wir": "gliedern",
+        "ihr": "gliedert",
+        "sie_Sie": "gliedern"
+      },
+      "praeteritum": {
+        "ich": "gliederte",
+        "du": "gliedertest",
+        "er_sie_es": "gliederte",
+        "wir": "gliederten",
+        "ihr": "gliedertet",
+        "sie_Sie": "gliederten"
+      },
+      "konjunktiv1": {
+        "ich": "gliedere",
+        "du": "gliederest",
+        "er_sie_es": "gliedere",
+        "wir": "gliedern",
+        "ihr": "gliederet",
+        "sie_Sie": "gliedern"
+      },
+      "konjunktiv2": {
+        "ich": "gliederte",
+        "du": "gliedertest",
+        "er_sie_es": "gliederte",
+        "wir": "gliederten",
+        "ihr": "gliedertet",
+        "sie_Sie": "gliederten"
+      },
+      "imperativ": {
+        "du": "Gliedere!",
+        "ihr": "Gliedert!",
+        "Sie": "Gliedern Sie!"
+      }
+    },
+    "partizip1": "gliedernd",
+    "nominalisierung": "die Gliederung"
+  },
+  "wortnetz": {
+    "grundwort": "Glied",
+    "woerter": [
+      {
+        "wort": "der Teil",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بخش",
+          "en": "part"
+        },
+        "id_ref": "nomen_teil"
+      },
+      {
+        "wort": "ordnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مرتب کردن",
+          "en": "to arrange"
+        },
+        "id_ref": "verb_ordnen"
+      },
+      {
+        "wort": "die Struktur",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ساختار",
+          "en": "structure"
+        },
+        "id_ref": "nomen_struktur"
+      },
+      {
+        "wort": "die Gliederung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ساختار، فهرست مطالب",
+          "en": "outline"
+        },
+        "id_ref": "nomen_gliederung"
+      },
+      {
+        "wort": "das Kapitel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فصل",
+          "en": "chapter"
+        },
+        "id_ref": "nomen_kapitel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
