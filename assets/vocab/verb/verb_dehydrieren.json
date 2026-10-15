@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_dehydrieren",
+  "wort": "dehydrieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آب از دست دادن (بدن)",
+      "آب‌زدایی کردن"
+    ],
+    "en": [
+      "to dehydrate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Chemie"
+  ],
+  "ipa": "dehyˈdʁiːʁən",
+  "anmerkung": "Regelmäßig (dehydrierte, dehydriert). Medizinisch meist ohne Objekt (der Patient dehydriert); chemisch: einer Verbindung Wasserstoff entziehen.",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bei Hitze dehydriert man schnell.",
+      "uebersetzung": {
+        "fa": "در گرما آدم زود بدنش کم‌آب می‌شود.",
+        "en": "In the heat you dehydrate quickly."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ältere Patienten dehydrieren leicht, weil sie oft zu wenig Durst haben.",
+      "uebersetzung": {
+        "fa": "بیماران سالمند زود کم‌آب می‌شوند، چون اغلب تشنگی کمی دارند.",
+        "en": "Elderly patients dehydrate easily because they often feel too little thirst."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "austrocknen",
+      "uebersetzung": {
+        "fa": "خشک شدن",
+        "en": "to dry out"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "de- (برداشتن) + gr. hydor (آب) + -ieren",
+    "en": "de- (removal) + Greek hydor (water) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "dehydrieren",
+      "praeteritum": "dehydrierte",
+      "partizip2": "dehydriert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "dehydriere",
+        "du": "dehydrierst",
+        "er_sie_es": "dehydriert",
+        "wir": "dehydrieren",
+        "ihr": "dehydriert",
+        "sie_Sie": "dehydrieren"
+      },
+      "praeteritum": {
+        "ich": "dehydrierte",
+        "du": "dehydriertest",
+        "er_sie_es": "dehydrierte",
+        "wir": "dehydrierten",
+        "ihr": "dehydriertet",
+        "sie_Sie": "dehydrierten"
+      },
+      "konjunktiv1": {
+        "ich": "dehydriere",
+        "du": "dehydrierest",
+        "er_sie_es": "dehydriere",
+        "wir": "dehydrieren",
+        "ihr": "dehydrieret",
+        "sie_Sie": "dehydrieren"
+      },
+      "konjunktiv2": {
+        "ich": "dehydrierte",
+        "du": "dehydriertest",
+        "er_sie_es": "dehydrierte",
+        "wir": "dehydrierten",
+        "ihr": "dehydriertet",
+        "sie_Sie": "dehydrierten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "dehydrierend",
+    "nominalisierung": "die Dehydrierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Wasser",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب",
+          "en": "water"
+        },
+        "id_ref": "nomen_wasser"
+      },
+      {
+        "wort": "trinken",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نوشیدن",
+          "en": "to drink"
+        },
+        "id_ref": "verb_trinken"
+      },
+      {
+        "wort": "der Durst",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تشنگی",
+          "en": "thirst"
+        },
+        "id_ref": "nomen_durst"
+      },
+      {
+        "wort": "die Dehydration",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کم‌آبی بدن",
+          "en": "dehydration"
+        },
+        "id_ref": "nomen_dehydration"
+      },
+      {
+        "wort": "austrocknen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خشک شدن",
+          "en": "to dry out"
+        },
+        "id_ref": "verb_austrocknen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

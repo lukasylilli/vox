@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_dekorieren",
+  "wort": "dekorieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تزیین کردن"
+    ],
+    "en": [
+      "to decorate"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Wohnen",
+    "Feste"
+  ],
+  "ipa": "dekoˈʁiːʁən",
+  "anmerkung": "Regelmäßig (dekorierte, dekoriert).",
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir dekorieren den Raum.",
+      "uebersetzung": {
+        "fa": "اتاق را تزیین می‌کنیم.",
+        "en": "We are decorating the room."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Für den Geburtstag haben die Kinder den Tisch mit Luftballons und Blumen dekoriert.",
+      "uebersetzung": {
+        "fa": "بچه‌ها برای جشن تولد میز را با بادکنک و گل تزیین کردند.",
+        "en": "For the birthday the children decorated the table with balloons and flowers."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schmücken",
+      "uebersetzung": {
+        "fa": "آراستن",
+        "en": "to adorn"
+      }
+    },
+    {
+      "wort": "verzieren",
+      "uebersetzung": {
+        "fa": "تزیین کردن",
+        "en": "to ornament"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. decorare (آراستن)",
+    "en": "Latin decorare (to adorn)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas mit + Dat dekorieren",
+        "bedeutung": "etwas mit Schmuck verschönern",
+        "beispiel": "Sie dekoriert die Torte mit Erdbeeren.",
+        "uebersetzung": {
+          "fa": "کیک را با توت‌فرنگی تزیین می‌کند.",
+          "en": "She decorates the cake with strawberries."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "dekorieren",
+      "praeteritum": "dekorierte",
+      "partizip2": "dekoriert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "dekoriere",
+        "du": "dekorierst",
+        "er_sie_es": "dekoriert",
+        "wir": "dekorieren",
+        "ihr": "dekoriert",
+        "sie_Sie": "dekorieren"
+      },
+      "praeteritum": {
+        "ich": "dekorierte",
+        "du": "dekoriertest",
+        "er_sie_es": "dekorierte",
+        "wir": "dekorierten",
+        "ihr": "dekoriertet",
+        "sie_Sie": "dekorierten"
+      },
+      "konjunktiv1": {
+        "ich": "dekoriere",
+        "du": "dekorierest",
+        "er_sie_es": "dekoriere",
+        "wir": "dekorieren",
+        "ihr": "dekorieret",
+        "sie_Sie": "dekorieren"
+      },
+      "konjunktiv2": {
+        "ich": "dekorierte",
+        "du": "dekoriertest",
+        "er_sie_es": "dekorierte",
+        "wir": "dekorierten",
+        "ihr": "dekoriertet",
+        "sie_Sie": "dekorierten"
+      },
+      "imperativ": {
+        "du": "Dekoriere!",
+        "ihr": "Dekoriert!",
+        "Sie": "Dekorieren Sie!"
+      }
+    },
+    "partizip1": "dekorierend",
+    "nominalisierung": "die Dekoration"
+  },
+  "wortnetz": {
+    "grundwort": "Dekoration",
+    "woerter": [
+      {
+        "wort": "die Dekoration",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تزیینات",
+          "en": "decoration"
+        },
+        "id_ref": "nomen_dekoration"
+      },
+      {
+        "wort": "schmücken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آراستن",
+          "en": "to adorn"
+        },
+        "id_ref": "verb_schmuecken"
+      },
+      {
+        "wort": "schön",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زیبا",
+          "en": "beautiful"
+        },
+        "id_ref": "adjektiv_schoen"
+      },
+      {
+        "wort": "das Fest",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جشن",
+          "en": "party"
+        },
+        "id_ref": "nomen_fest"
+      },
+      {
+        "wort": "die Blume",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گل",
+          "en": "flower"
+        },
+        "id_ref": "nomen_blume"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

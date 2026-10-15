@@ -1,0 +1,196 @@
+{
+  "schema": "3.0",
+  "id": "verb_degradieren",
+  "wort": "degradieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تنزل درجه دادن",
+      "خوار کردن"
+    ],
+    "en": [
+      "to demote",
+      "to degrade"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Militär"
+  ],
+  "ipa": "deɡʁaˈdiːʁən",
+  "anmerkung": "Regelmäßig (degradierte, degradiert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Offizier wurde degradiert.",
+      "uebersetzung": {
+        "fa": "درجه‌ی افسر را پایین آوردند.",
+        "en": "The officer was demoted."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie fühlte sich zur Sekretärin degradiert, weil man ihr nur noch Kaffee kochen ließ.",
+      "uebersetzung": {
+        "fa": "احساس می‌کرد تا حد منشی پایین آورده شده، چون فقط می‌گذاشتند قهوه درست کند.",
+        "en": "She felt degraded to a secretary because they only let her make coffee."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "herabsetzen",
+      "uebersetzung": {
+        "fa": "پایین آوردن",
+        "en": "to downgrade"
+      }
+    },
+    {
+      "wort": "zurückstufen",
+      "uebersetzung": {
+        "fa": "تنزل رتبه دادن",
+        "en": "to demote"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "befördern",
+      "uebersetzung": {
+        "fa": "ترفیع دادن",
+        "en": "to promote"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. degradare (پایین آوردن درجه)",
+    "en": "Latin degradare (to reduce in rank)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden zu + Dat degradieren",
+        "bedeutung": "jemanden auf eine niedrigere Stufe setzen",
+        "beispiel": "Man degradierte ihn zum einfachen Soldaten.",
+        "uebersetzung": {
+          "fa": "او را تا سرباز ساده تنزل دادند.",
+          "en": "He was demoted to private."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "degradieren",
+      "praeteritum": "degradierte",
+      "partizip2": "degradiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "degradiere",
+        "du": "degradierst",
+        "er_sie_es": "degradiert",
+        "wir": "degradieren",
+        "ihr": "degradiert",
+        "sie_Sie": "degradieren"
+      },
+      "praeteritum": {
+        "ich": "degradierte",
+        "du": "degradiertest",
+        "er_sie_es": "degradierte",
+        "wir": "degradierten",
+        "ihr": "degradiertet",
+        "sie_Sie": "degradierten"
+      },
+      "konjunktiv1": {
+        "ich": "degradiere",
+        "du": "degradierest",
+        "er_sie_es": "degradiere",
+        "wir": "degradieren",
+        "ihr": "degradieret",
+        "sie_Sie": "degradieren"
+      },
+      "konjunktiv2": {
+        "ich": "degradierte",
+        "du": "degradiertest",
+        "er_sie_es": "degradierte",
+        "wir": "degradierten",
+        "ihr": "degradiertet",
+        "sie_Sie": "degradierten"
+      },
+      "imperativ": {
+        "du": "Degradiere!",
+        "ihr": "Degradiert!",
+        "Sie": "Degradieren Sie!"
+      }
+    },
+    "partizip1": "degradierend",
+    "nominalisierung": "die Degradierung"
+  },
+  "wortnetz": {
+    "grundwort": "Grad",
+    "woerter": [
+      {
+        "wort": "der Grad",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درجه",
+          "en": "degree"
+        },
+        "id_ref": "nomen_grad"
+      },
+      {
+        "wort": "der Rang",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رتبه",
+          "en": "rank"
+        },
+        "id_ref": "nomen_rang"
+      },
+      {
+        "wort": "befördern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ترفیع دادن",
+          "en": "to promote"
+        },
+        "id_ref": "verb_befoerdern"
+      },
+      {
+        "wort": "erniedrigen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تحقیر کردن",
+          "en": "to humiliate"
+        },
+        "id_ref": "verb_erniedrigen"
+      },
+      {
+        "wort": "die Strafe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مجازات",
+          "en": "punishment"
+        },
+        "id_ref": "nomen_strafe"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

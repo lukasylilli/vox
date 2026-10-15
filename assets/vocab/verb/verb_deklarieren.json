@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_deklarieren",
+  "wort": "deklarieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اظهار کردن (در گمرک)",
+      "اعلام کردن"
+    ],
+    "en": [
+      "to declare"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Reise",
+    "Recht"
+  ],
+  "ipa": "deklaˈʁiːʁən",
+  "anmerkung": "Regelmäßig (deklarierte, deklariert).",
+  "berufe": [
+    "logistik",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Haben Sie etwas zu deklarieren?",
+      "uebersetzung": {
+        "fa": "چیزی برای اظهار کردن دارید؟",
+        "en": "Do you have anything to declare?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wer mehr als 10.000 Euro Bargeld dabei hat, muss das Geld beim Zoll deklarieren.",
+      "uebersetzung": {
+        "fa": "کسی که بیش از ده هزار یورو پول نقد همراه دارد، باید آن را در گمرک اظهار کند.",
+        "en": "Anyone carrying more than 10,000 euros in cash must declare the money at customs."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "angeben",
+      "uebersetzung": {
+        "fa": "اعلام کردن",
+        "en": "to state"
+      }
+    },
+    {
+      "wort": "erklären",
+      "uebersetzung": {
+        "fa": "اعلام کردن",
+        "en": "to declare"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. declarare (روشن کردن)",
+    "en": "Latin declarare (to make clear)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas als + Akk deklarieren",
+        "bedeutung": "etwas offiziell als etwas bezeichnen",
+        "beispiel": "Das Paket wurde als Geschenk deklariert.",
+        "uebersetzung": {
+          "fa": "بسته به‌عنوان هدیه اظهار شد.",
+          "en": "The parcel was declared as a gift."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "deklarieren",
+      "praeteritum": "deklarierte",
+      "partizip2": "deklariert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "deklariere",
+        "du": "deklarierst",
+        "er_sie_es": "deklariert",
+        "wir": "deklarieren",
+        "ihr": "deklariert",
+        "sie_Sie": "deklarieren"
+      },
+      "praeteritum": {
+        "ich": "deklarierte",
+        "du": "deklariertest",
+        "er_sie_es": "deklarierte",
+        "wir": "deklarierten",
+        "ihr": "deklariertet",
+        "sie_Sie": "deklarierten"
+      },
+      "konjunktiv1": {
+        "ich": "deklariere",
+        "du": "deklarierest",
+        "er_sie_es": "deklariere",
+        "wir": "deklarieren",
+        "ihr": "deklarieret",
+        "sie_Sie": "deklarieren"
+      },
+      "konjunktiv2": {
+        "ich": "deklarierte",
+        "du": "deklariertest",
+        "er_sie_es": "deklarierte",
+        "wir": "deklarierten",
+        "ihr": "deklariertet",
+        "sie_Sie": "deklarierten"
+      },
+      "imperativ": {
+        "du": "Deklariere!",
+        "ihr": "Deklariert!",
+        "Sie": "Deklarieren Sie!"
+      }
+    },
+    "partizip1": "deklarierend",
+    "nominalisierung": "die Deklaration"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Zoll",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گمرک",
+          "en": "customs"
+        },
+        "id_ref": "nomen_zoll"
+      },
+      {
+        "wort": "die Erklärung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اظهارنامه، توضیح",
+          "en": "declaration"
+        },
+        "id_ref": "nomen_erklaerung"
+      },
+      {
+        "wort": "angeben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اعلام کردن",
+          "en": "to state"
+        },
+        "id_ref": "verb_angeben"
+      },
+      {
+        "wort": "erklären",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اعلام کردن، توضیح دادن",
+          "en": "to declare"
+        },
+        "id_ref": "verb_erklaeren"
+      },
+      {
+        "wort": "die Ware",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کالا",
+          "en": "goods"
+        },
+        "id_ref": "nomen_ware"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

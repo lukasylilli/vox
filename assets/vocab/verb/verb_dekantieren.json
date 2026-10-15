@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_dekantieren",
+  "wort": "dekantieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "از ته‌نشین جدا کردن (شراب)",
+      "دکانته کردن"
+    ],
+    "en": [
+      "to decant"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Getränke",
+    "Gastronomie"
+  ],
+  "ipa": "dekanˈtiːʁən",
+  "anmerkung": "Regelmäßig (dekantierte, dekantiert). Fachsprache (Gastronomie, Chemie).",
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Kellner dekantiert den Wein.",
+      "uebersetzung": {
+        "fa": "پیشخدمت شراب را در ظرف دیگری می‌ریزد تا ته‌نشینش جدا شود.",
+        "en": "The waiter decants the wine."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Alten Rotwein sollte man dekantieren, damit der Bodensatz in der Flasche bleibt.",
+      "uebersetzung": {
+        "fa": "شراب قرمز کهنه را بهتر است دکانته کرد تا ته‌نشینش در بطری بماند.",
+        "en": "Old red wine should be decanted so that the sediment stays in the bottle."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "umfüllen",
+      "uebersetzung": {
+        "fa": "به ظرف دیگر ریختن",
+        "en": "to transfer"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "frz. décanter (دکانته کردن) + -ieren",
+    "en": "French décanter (to decant) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "dekantieren",
+      "praeteritum": "dekantierte",
+      "partizip2": "dekantiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "dekantiere",
+        "du": "dekantierst",
+        "er_sie_es": "dekantiert",
+        "wir": "dekantieren",
+        "ihr": "dekantiert",
+        "sie_Sie": "dekantieren"
+      },
+      "praeteritum": {
+        "ich": "dekantierte",
+        "du": "dekantiertest",
+        "er_sie_es": "dekantierte",
+        "wir": "dekantierten",
+        "ihr": "dekantiertet",
+        "sie_Sie": "dekantierten"
+      },
+      "konjunktiv1": {
+        "ich": "dekantiere",
+        "du": "dekantierest",
+        "er_sie_es": "dekantiere",
+        "wir": "dekantieren",
+        "ihr": "dekantieret",
+        "sie_Sie": "dekantieren"
+      },
+      "konjunktiv2": {
+        "ich": "dekantierte",
+        "du": "dekantiertest",
+        "er_sie_es": "dekantierte",
+        "wir": "dekantierten",
+        "ihr": "dekantiertet",
+        "sie_Sie": "dekantierten"
+      },
+      "imperativ": {
+        "du": "Dekantiere!",
+        "ihr": "Dekantiert!",
+        "Sie": "Dekantieren Sie!"
+      }
+    },
+    "partizip1": "dekantierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Wein",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شراب",
+          "en": "wine"
+        },
+        "id_ref": "nomen_wein"
+      },
+      {
+        "wort": "die Karaffe",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تنگ",
+          "en": "carafe"
+        },
+        "id_ref": "nomen_karaffe"
+      },
+      {
+        "wort": "gießen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ریختن",
+          "en": "to pour"
+        },
+        "id_ref": "verb_giessen"
+      },
+      {
+        "wort": "die Flasche",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بطری",
+          "en": "bottle"
+        },
+        "id_ref": "nomen_flasche"
+      },
+      {
+        "wort": "der Kellner",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پیشخدمت",
+          "en": "waiter"
+        },
+        "id_ref": "nomen_kellner"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

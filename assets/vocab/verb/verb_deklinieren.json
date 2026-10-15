@@ -1,0 +1,171 @@
+{
+  "schema": "3.0",
+  "id": "verb_deklinieren",
+  "wort": "deklinieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "صرف کردن (اسم، صفت)"
+    ],
+    "en": [
+      "to decline (grammar)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Sprache",
+    "Grammatik"
+  ],
+  "ipa": "dekliˈniːʁən",
+  "anmerkung": "Regelmäßig (deklinierte, dekliniert).",
+  "berufe": [
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir deklinieren das Adjektiv.",
+      "uebersetzung": {
+        "fa": "صفت را صرف می‌کنیم.",
+        "en": "We decline the adjective."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Im Deutschen dekliniert man Nomen, Artikel und Adjektive, während man Verben konjugiert.",
+      "uebersetzung": {
+        "fa": "در آلمانی اسم، حرف تعریف و صفت را صرف حالت می‌کنند، در حالی که فعل را صرف شخص می‌کنند.",
+        "en": "In German you decline nouns, articles and adjectives, whereas you conjugate verbs."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beugen",
+      "uebersetzung": {
+        "fa": "صرف کردن",
+        "en": "to inflect"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. declinare (منحرف کردن، صرف کردن)",
+    "en": "Latin declinare (to bend aside, to inflect)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "deklinieren",
+      "praeteritum": "deklinierte",
+      "partizip2": "dekliniert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "dekliniere",
+        "du": "deklinierst",
+        "er_sie_es": "dekliniert",
+        "wir": "deklinieren",
+        "ihr": "dekliniert",
+        "sie_Sie": "deklinieren"
+      },
+      "praeteritum": {
+        "ich": "deklinierte",
+        "du": "dekliniertest",
+        "er_sie_es": "deklinierte",
+        "wir": "deklinierten",
+        "ihr": "dekliniertet",
+        "sie_Sie": "deklinierten"
+      },
+      "konjunktiv1": {
+        "ich": "dekliniere",
+        "du": "deklinierest",
+        "er_sie_es": "dekliniere",
+        "wir": "deklinieren",
+        "ihr": "deklinieret",
+        "sie_Sie": "deklinieren"
+      },
+      "konjunktiv2": {
+        "ich": "deklinierte",
+        "du": "dekliniertest",
+        "er_sie_es": "deklinierte",
+        "wir": "deklinierten",
+        "ihr": "dekliniertet",
+        "sie_Sie": "deklinierten"
+      },
+      "imperativ": {
+        "du": "Dekliniere!",
+        "ihr": "Dekliniert!",
+        "Sie": "Deklinieren Sie!"
+      }
+    },
+    "partizip1": "deklinierend",
+    "nominalisierung": "die Deklination"
+  },
+  "wortnetz": {
+    "grundwort": "Deklination",
+    "woerter": [
+      {
+        "wort": "die Deklination",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صرف اسم",
+          "en": "declension"
+        },
+        "id_ref": "nomen_deklination"
+      },
+      {
+        "wort": "konjugieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صرف کردن (فعل)",
+          "en": "to conjugate"
+        },
+        "id_ref": "verb_konjugieren"
+      },
+      {
+        "wort": "der Kasus",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حالت دستوری",
+          "en": "case"
+        },
+        "id_ref": "nomen_kasus"
+      },
+      {
+        "wort": "die Grammatik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دستور زبان",
+          "en": "grammar"
+        },
+        "id_ref": "nomen_grammatik"
+      },
+      {
+        "wort": "das Adjektiv",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صفت",
+          "en": "adjective"
+        },
+        "id_ref": "nomen_adjektiv"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
