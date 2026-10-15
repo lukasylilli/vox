@@ -1646,6 +1646,8 @@ const zurueckgestellt = <String>{
   'fraktionieren', // zurückgestellt: Fachwort (Chemie: destillieren; Medizin: Bestrahlung aufteilen), mehrere Bedeutungen; nicht sicher (Regel 14) 2026-10-15
   'freveln', // zurückgestellt: gehoben/veraltend (Unrecht tun); Stilmarkierung nicht sicher (Regel 14/17) 2026-10-15
   'frikassieren', // zurückgestellt: selten, zwei Bedeutungen (Frikassee machen / umgangssprachlich verprügeln); nicht sicher (Regel 14) 2026-10-15
+  'frömmeln', // zurückgestellt: abwertend, selten (übertriebene Frömmigkeit zeigen); Stilmarkierung nicht sicher (Regel 14/17) 2026-10-15
+  'frommen', // zurückgestellt: veraltet (nützen); zeitlich/ersatz nicht sicher (Regel 17) 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

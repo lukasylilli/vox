@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_fuehlen",
+  "wort": "fühlen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "احساس کردن",
+      "لمس کردن"
+    ],
+    "en": [
+      "to feel"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Gefühle",
+    "Körper"
+  ],
+  "ipa": "ˈfyːlən",
+  "anmerkung": "Regelmäßig (fühlte, gefühlt). Häufig reflexiv: «sich wohl/krank fühlen». In der Pflege: «den Puls fühlen».",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich fühle mich gut.",
+      "uebersetzung": {
+        "fa": "حالم خوب است.",
+        "en": "I feel good."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Seit sie in der neuen Stadt wohnt, fühlt sie sich manchmal ein bisschen einsam.",
+      "uebersetzung": {
+        "fa": "از وقتی در شهر تازه زندگی می‌کند، گاهی کمی احساس تنهایی می‌کند.",
+        "en": "Since she has been living in the new city, she sometimes feels a little lonely."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "spüren",
+      "uebersetzung": {
+        "fa": "حس کردن",
+        "en": "to sense"
+      }
+    },
+    {
+      "wort": "empfinden",
+      "uebersetzung": {
+        "fa": "حس کردن",
+        "en": "to feel"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "nach + Dat fühlen",
+        "bedeutung": "tastend nach etwas suchen",
+        "beispiel": "Er fühlte im Dunkeln nach dem Lichtschalter.",
+        "uebersetzung": {
+          "fa": "در تاریکی دنبال کلید برق دست کشید.",
+          "en": "He felt for the light switch in the dark."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "fühlen",
+      "praeteritum": "fühlte",
+      "partizip2": "gefühlt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fühle",
+        "du": "fühlst",
+        "er_sie_es": "fühlt",
+        "wir": "fühlen",
+        "ihr": "fühlt",
+        "sie_Sie": "fühlen"
+      },
+      "praeteritum": {
+        "ich": "fühlte",
+        "du": "fühltest",
+        "er_sie_es": "fühlte",
+        "wir": "fühlten",
+        "ihr": "fühltet",
+        "sie_Sie": "fühlten"
+      },
+      "konjunktiv1": {
+        "ich": "fühle",
+        "du": "fühlest",
+        "er_sie_es": "fühle",
+        "wir": "fühlen",
+        "ihr": "fühlet",
+        "sie_Sie": "fühlen"
+      },
+      "konjunktiv2": {
+        "ich": "fühlte",
+        "du": "fühltest",
+        "er_sie_es": "fühlte",
+        "wir": "fühlten",
+        "ihr": "fühltet",
+        "sie_Sie": "fühlten"
+      },
+      "imperativ": {
+        "du": "Fühle!",
+        "ihr": "Fühlt!",
+        "Sie": "Fühlen Sie!"
+      }
+    },
+    "partizip1": "fühlend",
+    "nominalisierung": "das Gefühl"
+  },
+  "wortnetz": {
+    "grundwort": "Gefühl",
+    "woerter": [
+      {
+        "wort": "das Gefühl",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "احساس",
+          "en": "feeling"
+        },
+        "id_ref": "nomen_gefuehl"
+      },
+      {
+        "wort": "merken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "متوجه شدن",
+          "en": "to notice"
+        },
+        "id_ref": "verb_merken"
+      },
+      {
+        "wort": "spüren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حس کردن",
+          "en": "to sense"
+        },
+        "id_ref": "verb_spueren"
+      },
+      {
+        "wort": "empfinden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حس کردن",
+          "en": "to feel"
+        },
+        "id_ref": "verb_empfinden"
+      },
+      {
+        "wort": "mitfühlen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "همدردی کردن",
+          "en": "to sympathize"
+        },
+        "id_ref": "verb_mitfuehlen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

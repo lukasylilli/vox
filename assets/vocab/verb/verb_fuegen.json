@@ -1,0 +1,194 @@
+{
+  "schema": "3.0",
+  "id": "verb_fuegen",
+  "wort": "fügen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جفت کردن",
+      "تن دادن"
+    ],
+    "en": [
+      "to join",
+      "to submit"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Handwerk",
+    "Verhalten"
+  ],
+  "ipa": "ˈfyːɡn̩",
+  "anmerkung": "Regelmäßig (fügte, gefügt).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er fügt Stein an Stein.",
+      "uebersetzung": {
+        "fa": "سنگ را کنار سنگ می‌گذارد.",
+        "en": "He joins stone to stone."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Am Ende fügte sich alles so, dass alle zufrieden waren.",
+      "uebersetzung": {
+        "fa": "در پایان همه‌چیز طوری جور شد که همه راضی بودند.",
+        "en": "In the end everything worked out so that everyone was satisfied."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verbinden",
+      "uebersetzung": {
+        "fa": "به هم پیوستن",
+        "en": "to connect"
+      }
+    },
+    {
+      "wort": "gehorchen",
+      "uebersetzung": {
+        "fa": "اطاعت کردن",
+        "en": "to obey"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich in + Akk fügen",
+        "bedeutung": "etwas Unabänderliches hinnehmen",
+        "beispiel": "Er fügte sich in sein Schicksal.",
+        "uebersetzung": {
+          "fa": "به سرنوشتش تن داد.",
+          "en": "He resigned himself to his fate."
+        }
+      },
+      {
+        "muster": "sich + Dat fügen",
+        "bedeutung": "sich jemandem oder etwas unterordnen",
+        "beispiel": "Die Kinder fügten sich den neuen Regeln.",
+        "uebersetzung": {
+          "fa": "بچه‌ها به قوانین تازه تن دادند.",
+          "en": "The children submitted to the new rules."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "fügen",
+      "praeteritum": "fügte",
+      "partizip2": "gefügt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "füge",
+        "du": "fügst",
+        "er_sie_es": "fügt",
+        "wir": "fügen",
+        "ihr": "fügt",
+        "sie_Sie": "fügen"
+      },
+      "praeteritum": {
+        "ich": "fügte",
+        "du": "fügtest",
+        "er_sie_es": "fügte",
+        "wir": "fügten",
+        "ihr": "fügtet",
+        "sie_Sie": "fügten"
+      },
+      "konjunktiv1": {
+        "ich": "füge",
+        "du": "fügest",
+        "er_sie_es": "füge",
+        "wir": "fügen",
+        "ihr": "füget",
+        "sie_Sie": "fügen"
+      },
+      "konjunktiv2": {
+        "ich": "fügte",
+        "du": "fügtest",
+        "er_sie_es": "fügte",
+        "wir": "fügten",
+        "ihr": "fügtet",
+        "sie_Sie": "fügten"
+      },
+      "imperativ": {
+        "du": "Füge!",
+        "ihr": "Fügt!",
+        "Sie": "Fügen Sie!"
+      }
+    },
+    "partizip1": "fügend",
+    "nominalisierung": "die Fügung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "einfügen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درج کردن",
+          "en": "to insert"
+        },
+        "id_ref": "verb_einfuegen"
+      },
+      {
+        "wort": "gehorchen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اطاعت کردن",
+          "en": "to obey"
+        },
+        "id_ref": "verb_gehorchen"
+      },
+      {
+        "wort": "hinzufügen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "افزودن",
+          "en": "to add"
+        },
+        "id_ref": "verb_hinzufuegen"
+      },
+      {
+        "wort": "zusammenfügen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به هم پیوستن",
+          "en": "to join together"
+        },
+        "id_ref": "verb_zusammenfuegen"
+      },
+      {
+        "wort": "die Fügung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تقدیر",
+          "en": "twist of fate"
+        },
+        "id_ref": "nomen_fuegung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_frottieren",
+  "wort": "frottieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "با حوله مالش دادن"
+    ],
+    "en": [
+      "to rub down (with a towel)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Körperpflege",
+    "Pflege"
+  ],
+  "ipa": "fʁɔˈtiːʁən",
+  "anmerkung": "Regelmäßig (frottierte, frottiert).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Mutter frottiert das Kind.",
+      "uebersetzung": {
+        "fa": "مادر بچه را با حوله خشک می‌کند.",
+        "en": "The mother rubs the child dry with a towel."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Baden wird der Säugling vorsichtig frottiert, damit er nicht auskühlt.",
+      "uebersetzung": {
+        "fa": "بعد از حمام، نوزاد را با احتیاط با حوله خشک می‌کنند تا سرما نخورد.",
+        "en": "After bathing, the infant is carefully rubbed dry so that it does not get cold."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abtrocknen",
+      "uebersetzung": {
+        "fa": "خشک کردن",
+        "en": "to dry"
+      }
+    },
+    {
+      "wort": "abreiben",
+      "uebersetzung": {
+        "fa": "مالیدن",
+        "en": "to rub down"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "frz. frotter (مالیدن) + -ieren",
+    "en": "frz. frotter (to rub) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "frottieren",
+      "praeteritum": "frottierte",
+      "partizip2": "frottiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "frottiere",
+        "du": "frottierst",
+        "er_sie_es": "frottiert",
+        "wir": "frottieren",
+        "ihr": "frottiert",
+        "sie_Sie": "frottieren"
+      },
+      "praeteritum": {
+        "ich": "frottierte",
+        "du": "frottiertest",
+        "er_sie_es": "frottierte",
+        "wir": "frottierten",
+        "ihr": "frottiertet",
+        "sie_Sie": "frottierten"
+      },
+      "konjunktiv1": {
+        "ich": "frottiere",
+        "du": "frottierest",
+        "er_sie_es": "frottiere",
+        "wir": "frottieren",
+        "ihr": "frottieret",
+        "sie_Sie": "frottieren"
+      },
+      "konjunktiv2": {
+        "ich": "frottierte",
+        "du": "frottiertest",
+        "er_sie_es": "frottierte",
+        "wir": "frottierten",
+        "ihr": "frottiertet",
+        "sie_Sie": "frottierten"
+      },
+      "imperativ": {
+        "du": "Frottiere!",
+        "ihr": "Frottiert!",
+        "Sie": "Frottieren Sie!"
+      }
+    },
+    "partizip1": "frottierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Handtuch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حوله",
+          "en": "towel"
+        },
+        "id_ref": "nomen_handtuch"
+      },
+      {
+        "wort": "abtrocknen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خشک کردن",
+          "en": "to dry"
+        },
+        "id_ref": "verb_abtrocknen"
+      },
+      {
+        "wort": "trocken",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خشک",
+          "en": "dry"
+        },
+        "id_ref": "adjektiv_trocken"
+      },
+      {
+        "wort": "das Badetuch",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حوله‌ی حمام",
+          "en": "bath towel"
+        },
+        "id_ref": "nomen_badetuch"
+      },
+      {
+        "wort": "reiben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مالیدن",
+          "en": "to rub"
+        },
+        "id_ref": "verb_reiben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
