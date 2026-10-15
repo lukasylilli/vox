@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "verb_fluten",
+  "wort": "fluten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "زیر آب بردن",
+      "سرازیر شدن"
+    ],
+    "en": [
+      "to flood"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Technik"
+  ],
+  "ipa": "ˈfluːtn̩",
+  "anmerkung": "Regelmäßig (flutete, geflutet). Intransitiv (strömen) mit «sein»: «Das Wasser ist in den Keller geflutet.»",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Licht flutet ins Zimmer.",
+      "uebersetzung": {
+        "fa": "نور به اتاق سرازیر می‌شود.",
+        "en": "Light floods into the room."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Ende der Arbeiten wurde das alte Bergwerk geflutet.",
+      "uebersetzung": {
+        "fa": "پس از پایان کار، معدن قدیمی را زیر آب بردند.",
+        "en": "After work had ended, the old mine was flooded."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "überschwemmen",
+      "uebersetzung": {
+        "fa": "سیل‌زده کردن",
+        "en": "to inundate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "die Flut (سیل، مد) + -en",
+    "en": "die Flut (flood, tide) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "fluten",
+      "praeteritum": "flutete",
+      "partizip2": "geflutet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "flute",
+        "du": "flutest",
+        "er_sie_es": "flutet",
+        "wir": "fluten",
+        "ihr": "flutet",
+        "sie_Sie": "fluten"
+      },
+      "praeteritum": {
+        "ich": "flutete",
+        "du": "flutetest",
+        "er_sie_es": "flutete",
+        "wir": "fluteten",
+        "ihr": "flutetet",
+        "sie_Sie": "fluteten"
+      },
+      "konjunktiv1": {
+        "ich": "flute",
+        "du": "flutest",
+        "er_sie_es": "flute",
+        "wir": "fluten",
+        "ihr": "flutet",
+        "sie_Sie": "fluten"
+      },
+      "konjunktiv2": {
+        "ich": "flutete",
+        "du": "flutetest",
+        "er_sie_es": "flutete",
+        "wir": "fluteten",
+        "ihr": "flutetet",
+        "sie_Sie": "fluteten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "flutend",
+    "nominalisierung": "die Flutung"
+  },
+  "wortnetz": {
+    "grundwort": "Flut",
+    "woerter": [
+      {
+        "wort": "das Wasser",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب",
+          "en": "water"
+        },
+        "id_ref": "nomen_wasser"
+      },
+      {
+        "wort": "die Flut",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سیل، مد",
+          "en": "flood, tide"
+        },
+        "id_ref": "nomen_flut"
+      },
+      {
+        "wort": "das Hochwasser",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سیلاب",
+          "en": "flood"
+        },
+        "id_ref": "nomen_hochwasser"
+      },
+      {
+        "wort": "strömen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جاری شدن",
+          "en": "to stream"
+        },
+        "id_ref": "verb_stroemen"
+      },
+      {
+        "wort": "überschwemmen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سیل‌زده کردن",
+          "en": "to inundate"
+        },
+        "id_ref": "verb_ueberschwemmen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

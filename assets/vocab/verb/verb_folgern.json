@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_folgern",
+  "wort": "folgern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نتیجه گرفتن"
+    ],
+    "en": [
+      "to conclude",
+      "to infer"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Denken",
+    "Wissenschaft"
+  ],
+  "ipa": "ˈfɔlɡɐn",
+  "anmerkung": "Regelmäßig (folgerte, gefolgert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er folgert, dass sie krank ist.",
+      "uebersetzung": {
+        "fa": "نتیجه می‌گیرد که او بیمار است.",
+        "en": "He concludes that she is ill."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil niemand ans Telefon ging, folgerte sie, dass die Familie schon in den Urlaub gefahren war.",
+      "uebersetzung": {
+        "fa": "چون کسی تلفن را جواب نداد، نتیجه گرفت که خانواده به تعطیلات رفته‌اند.",
+        "en": "Because nobody answered the phone, she concluded that the family had already gone on holiday."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schließen",
+      "uebersetzung": {
+        "fa": "نتیجه گرفتن",
+        "en": "to conclude"
+      }
+    },
+    {
+      "wort": "ableiten",
+      "uebersetzung": {
+        "fa": "استنتاج کردن",
+        "en": "to deduce"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "folgen (پی آمدن) + -ern",
+    "en": "folgen (to follow) + -ern"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "aus + Dat folgern",
+        "bedeutung": "aus etwas einen Schluss ziehen",
+        "beispiel": "Aus den Daten folgern die Forscher, dass das Klima wärmer wird.",
+        "uebersetzung": {
+          "fa": "پژوهشگران از داده‌ها نتیجه می‌گیرند که آب‌وهوا گرم‌تر می‌شود.",
+          "en": "From the data the researchers conclude that the climate is getting warmer."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "folgern",
+      "praeteritum": "folgerte",
+      "partizip2": "gefolgert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "folgere",
+        "du": "folgerst",
+        "er_sie_es": "folgert",
+        "wir": "folgern",
+        "ihr": "folgert",
+        "sie_Sie": "folgern"
+      },
+      "praeteritum": {
+        "ich": "folgerte",
+        "du": "folgertest",
+        "er_sie_es": "folgerte",
+        "wir": "folgerten",
+        "ihr": "folgertet",
+        "sie_Sie": "folgerten"
+      },
+      "konjunktiv1": {
+        "ich": "folgere",
+        "du": "folgerest",
+        "er_sie_es": "folgere",
+        "wir": "folgern",
+        "ihr": "folgeret",
+        "sie_Sie": "folgern"
+      },
+      "konjunktiv2": {
+        "ich": "folgerte",
+        "du": "folgertest",
+        "er_sie_es": "folgerte",
+        "wir": "folgerten",
+        "ihr": "folgertet",
+        "sie_Sie": "folgerten"
+      },
+      "imperativ": {
+        "du": "Folgere!",
+        "ihr": "Folgert!",
+        "Sie": "Folgern Sie!"
+      }
+    },
+    "partizip1": "folgernd",
+    "nominalisierung": "die Folgerung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "schließen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بستن، نتیجه گرفتن",
+          "en": "to close, to conclude"
+        },
+        "id_ref": "verb_schliessen"
+      },
+      {
+        "wort": "logisch",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "منطقی",
+          "en": "logical"
+        },
+        "id_ref": "adjektiv_logisch"
+      },
+      {
+        "wort": "der Schluss",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پایان، نتیجه",
+          "en": "end, conclusion"
+        },
+        "id_ref": "nomen_schluss"
+      },
+      {
+        "wort": "ableiten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "استنتاج کردن",
+          "en": "to deduce"
+        },
+        "id_ref": "verb_ableiten"
+      },
+      {
+        "wort": "die Folgerung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نتیجه‌گیری",
+          "en": "conclusion"
+        },
+        "id_ref": "nomen_folgerung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
