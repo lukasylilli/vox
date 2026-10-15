@@ -1,0 +1,205 @@
+{
+  "schema": "3.0",
+  "id": "verb_enden",
+  "wort": "enden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تمام شدن",
+      "پایان یافتن"
+    ],
+    "en": [
+      "to end",
+      "to finish"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Zeit",
+    "Alltag"
+  ],
+  "ipa": "ˈɛndn̩",
+  "anmerkung": "Regelmäßig (endete, geendet). Ohne Imperativ.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Film endet um zehn.",
+      "uebersetzung": {
+        "fa": "فیلم ساعت ده تمام می‌شود.",
+        "en": "The film ends at ten."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Geschichte endete anders, als alle erwartet hatten.",
+      "uebersetzung": {
+        "fa": "داستان طور دیگری تمام شد که هیچ‌کس انتظارش را نداشت.",
+        "en": "The story ended differently from how everyone had expected."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufhören",
+      "uebersetzung": {
+        "fa": "تمام شدن",
+        "en": "to stop"
+      }
+    },
+    {
+      "wort": "schließen",
+      "uebersetzung": {
+        "fa": "تمام شدن، بستن",
+        "en": "to close"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "beginnen",
+      "uebersetzung": {
+        "fa": "شروع شدن",
+        "en": "to begin"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Ende (پایان) + -n",
+    "en": "Ende (end) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit + Dat enden",
+        "bedeutung": "mit einem bestimmten Ergebnis aufhören",
+        "beispiel": "Der Streit endete mit einer Versöhnung.",
+        "uebersetzung": {
+          "fa": "دعوا با آشتی تمام شد.",
+          "en": "The quarrel ended in reconciliation."
+        }
+      },
+      {
+        "muster": "auf + Akk enden",
+        "bedeutung": "als letzten Laut/Buchstaben haben",
+        "beispiel": "Das Wort endet auf -ung.",
+        "uebersetzung": {
+          "fa": "این کلمه به -ung ختم می‌شود.",
+          "en": "The word ends in -ung."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "enden",
+      "praeteritum": "endete",
+      "partizip2": "geendet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ende",
+        "du": "endest",
+        "er_sie_es": "endet",
+        "wir": "enden",
+        "ihr": "endet",
+        "sie_Sie": "enden"
+      },
+      "praeteritum": {
+        "ich": "endete",
+        "du": "endetest",
+        "er_sie_es": "endete",
+        "wir": "endeten",
+        "ihr": "endetet",
+        "sie_Sie": "endeten"
+      },
+      "konjunktiv1": {
+        "ich": "ende",
+        "du": "endest",
+        "er_sie_es": "ende",
+        "wir": "enden",
+        "ihr": "endet",
+        "sie_Sie": "enden"
+      },
+      "konjunktiv2": {
+        "ich": "endete",
+        "du": "endetest",
+        "er_sie_es": "endete",
+        "wir": "endeten",
+        "ihr": "endetet",
+        "sie_Sie": "endeten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "endend",
+    "nominalisierung": "das Ende"
+  },
+  "wortnetz": {
+    "grundwort": "Ende",
+    "woerter": [
+      {
+        "wort": "das Ende",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پایان",
+          "en": "end"
+        },
+        "id_ref": "nomen_ende"
+      },
+      {
+        "wort": "aufhören",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دست کشیدن، تمام شدن",
+          "en": "to stop"
+        },
+        "id_ref": "verb_aufhoeren"
+      },
+      {
+        "wort": "beginnen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شروع کردن",
+          "en": "to begin"
+        },
+        "id_ref": "verb_beginnen"
+      },
+      {
+        "wort": "beenden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به پایان رساندن",
+          "en": "to finish"
+        },
+        "id_ref": "verb_beenden"
+      },
+      {
+        "wort": "endlich",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بالاخره",
+          "en": "finally"
+        },
+        "id_ref": "adverb_endlich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

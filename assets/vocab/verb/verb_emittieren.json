@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_emittieren",
+  "wort": "emittieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "منتشر کردن (آلاینده، اوراق)"
+    ],
+    "en": [
+      "to emit",
+      "to issue"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Umwelt",
+    "Wirtschaft"
+  ],
+  "ipa": "emɪˈtiːʁən",
+  "anmerkung": "Regelmäßig (emittierte, emittiert). Fachsprachlich: Schadstoffe abgeben (Umwelt) oder Wertpapiere ausgeben (Wirtschaft). Ohne Imperativ.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Fabrik emittiert viel CO₂.",
+      "uebersetzung": {
+        "fa": "کارخانه مقدار زیادی دی‌اکسید کربن منتشر می‌کند.",
+        "en": "The factory emits a lot of CO₂."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ein Auto mit Elektromotor emittiert während der Fahrt keine Abgase, wohl aber bei der Herstellung.",
+      "uebersetzung": {
+        "fa": "خودرو با موتور برقی هنگام رانندگی گاز خروجی منتشر نمی‌کند، ولی هنگام تولید چرا.",
+        "en": "A car with an electric motor emits no exhaust while driving, though it does during production."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausstoßen",
+      "uebersetzung": {
+        "fa": "بیرون دادن",
+        "en": "to emit"
+      }
+    },
+    {
+      "wort": "abgeben",
+      "uebersetzung": {
+        "fa": "پس دادن، منتشر کردن",
+        "en": "to give off"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. emittere (بیرون فرستادن)",
+    "en": "Latin emittere (to send out)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "emittieren",
+      "praeteritum": "emittierte",
+      "partizip2": "emittiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "emittiere",
+        "du": "emittierst",
+        "er_sie_es": "emittiert",
+        "wir": "emittieren",
+        "ihr": "emittiert",
+        "sie_Sie": "emittieren"
+      },
+      "praeteritum": {
+        "ich": "emittierte",
+        "du": "emittiertest",
+        "er_sie_es": "emittierte",
+        "wir": "emittierten",
+        "ihr": "emittiertet",
+        "sie_Sie": "emittierten"
+      },
+      "konjunktiv1": {
+        "ich": "emittiere",
+        "du": "emittierest",
+        "er_sie_es": "emittiere",
+        "wir": "emittieren",
+        "ihr": "emittieret",
+        "sie_Sie": "emittieren"
+      },
+      "konjunktiv2": {
+        "ich": "emittierte",
+        "du": "emittiertest",
+        "er_sie_es": "emittierte",
+        "wir": "emittierten",
+        "ihr": "emittiertet",
+        "sie_Sie": "emittierten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "emittierend",
+    "nominalisierung": "die Emission"
+  },
+  "wortnetz": {
+    "grundwort": "Emission",
+    "woerter": [
+      {
+        "wort": "die Umwelt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "محیط زیست",
+          "en": "environment"
+        },
+        "id_ref": "nomen_umwelt"
+      },
+      {
+        "wort": "die Emission",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "انتشار آلاینده",
+          "en": "emission"
+        },
+        "id_ref": "nomen_emission"
+      },
+      {
+        "wort": "das Abgas",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گاز خروجی",
+          "en": "exhaust gas"
+        },
+        "id_ref": "nomen_abgas"
+      },
+      {
+        "wort": "ausstoßen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بیرون دادن",
+          "en": "to emit"
+        },
+        "id_ref": "verb_ausstossen"
+      },
+      {
+        "wort": "der Klimawandel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تغییر اقلیم",
+          "en": "climate change"
+        },
+        "id_ref": "nomen_klimawandel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

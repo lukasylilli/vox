@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_entern",
+  "wort": "entern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به کشتی هجوم بردن"
+    ],
+    "en": [
+      "to board (by force)"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Schifffahrt",
+    "Geschichte"
+  ],
+  "ipa": "ˈɛntɐn",
+  "anmerkung": "Regelmäßig (enterte, geentert). Umgangssprachlich auch: etwas erobern, hineinstürmen (die Bühne entern).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Piraten entern das Schiff.",
+      "uebersetzung": {
+        "fa": "دزدان دریایی به کشتی هجوم می‌برند.",
+        "en": "The pirates board the ship."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Kaum war das Konzert vorbei, enterten die Fans die Bühne, um ihrem Star nahe zu sein.",
+      "uebersetzung": {
+        "fa": "هنوز کنسرت تمام نشده بود که هواداران به صحنه هجوم بردند تا به ستاره‌شان نزدیک شوند.",
+        "en": "The concert was hardly over when the fans stormed the stage to be close to their star."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erobern",
+      "uebersetzung": {
+        "fa": "تسخیر کردن",
+        "en": "to conquer"
+      }
+    },
+    {
+      "wort": "stürmen",
+      "uebersetzung": {
+        "fa": "یورش بردن",
+        "en": "to storm"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "niederl. enteren (سوار کشتی شدن)",
+    "en": "Dutch enteren (to board)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "entern",
+      "praeteritum": "enterte",
+      "partizip2": "geentert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entere",
+        "du": "enterst",
+        "er_sie_es": "entert",
+        "wir": "entern",
+        "ihr": "entert",
+        "sie_Sie": "entern"
+      },
+      "praeteritum": {
+        "ich": "enterte",
+        "du": "entertest",
+        "er_sie_es": "enterte",
+        "wir": "enterten",
+        "ihr": "entertet",
+        "sie_Sie": "enterten"
+      },
+      "konjunktiv1": {
+        "ich": "entere",
+        "du": "enterest",
+        "er_sie_es": "entere",
+        "wir": "entern",
+        "ihr": "enteret",
+        "sie_Sie": "entern"
+      },
+      "konjunktiv2": {
+        "ich": "enterte",
+        "du": "entertest",
+        "er_sie_es": "enterte",
+        "wir": "enterten",
+        "ihr": "entertet",
+        "sie_Sie": "enterten"
+      },
+      "imperativ": {
+        "du": "Entere!",
+        "ihr": "Entert!",
+        "Sie": "Entern Sie!"
+      }
+    },
+    "partizip1": "enternd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Pirat",
+    "woerter": [
+      {
+        "wort": "das Schiff",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کشتی",
+          "en": "ship"
+        },
+        "id_ref": "nomen_schiff"
+      },
+      {
+        "wort": "der Pirat",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دزد دریایی",
+          "en": "pirate"
+        },
+        "id_ref": "nomen_pirat"
+      },
+      {
+        "wort": "erobern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تسخیر کردن",
+          "en": "to conquer"
+        },
+        "id_ref": "verb_erobern"
+      },
+      {
+        "wort": "stürmen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "یورش بردن",
+          "en": "to storm"
+        },
+        "id_ref": "verb_stuermen"
+      },
+      {
+        "wort": "das Meer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دریا",
+          "en": "sea"
+        },
+        "id_ref": "nomen_meer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

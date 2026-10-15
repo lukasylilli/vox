@@ -1,0 +1,197 @@
+{
+  "schema": "3.0",
+  "id": "verb_engagieren",
+  "wort": "engagieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "متعهد شدن، فعالیت کردن",
+      "استخدام کردن"
+    ],
+    "en": [
+      "to commit oneself",
+      "to hire"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesellschaft",
+    "Arbeit"
+  ],
+  "ipa": "ɑ̃ɡaˈʒiːʁən",
+  "anmerkung": "Regelmäßig (engagierte, engagiert). Reflexiv: sich engagieren (sich einsetzen); transitiv: jemanden engagieren (anstellen, z. B. einen Künstler).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie engagiert sich im Verein.",
+      "uebersetzung": {
+        "fa": "او در انجمن فعالیت می‌کند.",
+        "en": "She is active in the club."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Für die Hochzeit haben wir eine Band engagiert, die bis spät in die Nacht gespielt hat.",
+      "uebersetzung": {
+        "fa": "برای عروسی یک گروه موسیقی استخدام کردیم که تا دیروقت شب نواخت.",
+        "en": "For the wedding we hired a band that played until late at night."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich einsetzen",
+      "uebersetzung": {
+        "fa": "تلاش کردن (برای چیزی)",
+        "en": "to stand up for"
+      }
+    },
+    {
+      "wort": "anstellen",
+      "uebersetzung": {
+        "fa": "استخدام کردن",
+        "en": "to employ"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "frz. engager (متعهد کردن، استخدام کردن)",
+    "en": "French engager (to commit, to hire)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich für + Akk engagieren",
+        "bedeutung": "sich aktiv für etwas einsetzen",
+        "beispiel": "Er engagiert sich für Flüchtlinge.",
+        "uebersetzung": {
+          "fa": "برای پناهندگان فعالیت می‌کند.",
+          "en": "He is committed to helping refugees."
+        }
+      },
+      {
+        "muster": "sich in + Dat engagieren",
+        "bedeutung": "in einer Gruppe aktiv mitarbeiten",
+        "beispiel": "Sie engagiert sich in der Gewerkschaft.",
+        "uebersetzung": {
+          "fa": "در اتحادیه فعال است.",
+          "en": "She is active in the union."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "engagieren",
+      "praeteritum": "engagierte",
+      "partizip2": "engagiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "engagiere",
+        "du": "engagierst",
+        "er_sie_es": "engagiert",
+        "wir": "engagieren",
+        "ihr": "engagiert",
+        "sie_Sie": "engagieren"
+      },
+      "praeteritum": {
+        "ich": "engagierte",
+        "du": "engagiertest",
+        "er_sie_es": "engagierte",
+        "wir": "engagierten",
+        "ihr": "engagiertet",
+        "sie_Sie": "engagierten"
+      },
+      "konjunktiv1": {
+        "ich": "engagiere",
+        "du": "engagierest",
+        "er_sie_es": "engagiere",
+        "wir": "engagieren",
+        "ihr": "engagieret",
+        "sie_Sie": "engagieren"
+      },
+      "konjunktiv2": {
+        "ich": "engagierte",
+        "du": "engagiertest",
+        "er_sie_es": "engagierte",
+        "wir": "engagierten",
+        "ihr": "engagiertet",
+        "sie_Sie": "engagierten"
+      },
+      "imperativ": {
+        "du": "Engagiere!",
+        "ihr": "Engagiert!",
+        "Sie": "Engagieren Sie!"
+      }
+    },
+    "partizip1": "engagierend",
+    "nominalisierung": "das Engagement"
+  },
+  "wortnetz": {
+    "grundwort": "Engagement",
+    "woerter": [
+      {
+        "wort": "das Engagement",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تعهد، فعالیت",
+          "en": "commitment"
+        },
+        "id_ref": "nomen_engagement"
+      },
+      {
+        "wort": "engagiert",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "متعهد، فعال",
+          "en": "committed"
+        },
+        "id_ref": "adjektiv_engagiert"
+      },
+      {
+        "wort": "helfen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک کردن",
+          "en": "to help"
+        },
+        "id_ref": "verb_helfen"
+      },
+      {
+        "wort": "der Verein",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انجمن",
+          "en": "club"
+        },
+        "id_ref": "nomen_verein"
+      },
+      {
+        "wort": "das Ehrenamt",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کار داوطلبانه",
+          "en": "voluntary work"
+        },
+        "id_ref": "nomen_ehrenamt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
