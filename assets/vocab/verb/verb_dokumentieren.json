@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_dokumentieren",
+  "wort": "dokumentieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مستند کردن",
+      "ثبت کردن"
+    ],
+    "en": [
+      "to document",
+      "to record"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit",
+    "Medizin"
+  ],
+  "ipa": "dokumɛnˈtiːʁən",
+  "anmerkung": "Regelmäßig (dokumentierte, dokumentiert).",
+  "berufe": [
+    "pflege_medizin",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Pflegerin dokumentiert den Blutdruck.",
+      "uebersetzung": {
+        "fa": "پرستار فشار خون را ثبت می‌کند.",
+        "en": "The nurse records the blood pressure."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Jede Medikamentengabe muss sofort dokumentiert werden, damit die nächste Schicht Bescheid weiß.",
+      "uebersetzung": {
+        "fa": "هر دارودادن باید بی‌درنگ ثبت شود تا شیفت بعدی در جریان باشد.",
+        "en": "Every administration of medication must be documented immediately so that the next shift knows about it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "festhalten",
+      "uebersetzung": {
+        "fa": "ثبت کردن",
+        "en": "to record"
+      }
+    },
+    {
+      "wort": "aufzeichnen",
+      "uebersetzung": {
+        "fa": "ثبت کردن",
+        "en": "to record"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. documentum (سند)",
+    "en": "Latin documentum (proof, document)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "dokumentieren",
+      "praeteritum": "dokumentierte",
+      "partizip2": "dokumentiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "dokumentiere",
+        "du": "dokumentierst",
+        "er_sie_es": "dokumentiert",
+        "wir": "dokumentieren",
+        "ihr": "dokumentiert",
+        "sie_Sie": "dokumentieren"
+      },
+      "praeteritum": {
+        "ich": "dokumentierte",
+        "du": "dokumentiertest",
+        "er_sie_es": "dokumentierte",
+        "wir": "dokumentierten",
+        "ihr": "dokumentiertet",
+        "sie_Sie": "dokumentierten"
+      },
+      "konjunktiv1": {
+        "ich": "dokumentiere",
+        "du": "dokumentierest",
+        "er_sie_es": "dokumentiere",
+        "wir": "dokumentieren",
+        "ihr": "dokumentieret",
+        "sie_Sie": "dokumentieren"
+      },
+      "konjunktiv2": {
+        "ich": "dokumentierte",
+        "du": "dokumentiertest",
+        "er_sie_es": "dokumentierte",
+        "wir": "dokumentierten",
+        "ihr": "dokumentiertet",
+        "sie_Sie": "dokumentierten"
+      },
+      "imperativ": {
+        "du": "Dokumentiere!",
+        "ihr": "Dokumentiert!",
+        "Sie": "Dokumentieren Sie!"
+      }
+    },
+    "partizip1": "dokumentierend",
+    "nominalisierung": "die Dokumentation"
+  },
+  "wortnetz": {
+    "grundwort": "Dokument",
+    "woerter": [
+      {
+        "wort": "das Dokument",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سند",
+          "en": "document"
+        },
+        "id_ref": "nomen_dokument"
+      },
+      {
+        "wort": "aufschreiben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "یادداشت کردن",
+          "en": "to write down"
+        },
+        "id_ref": "verb_aufschreiben"
+      },
+      {
+        "wort": "die Dokumentation",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مستندسازی",
+          "en": "documentation"
+        },
+        "id_ref": "nomen_dokumentation"
+      },
+      {
+        "wort": "der Bericht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گزارش",
+          "en": "report"
+        },
+        "id_ref": "nomen_bericht"
+      },
+      {
+        "wort": "festhalten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ثبت کردن",
+          "en": "to record"
+        },
+        "id_ref": "verb_festhalten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

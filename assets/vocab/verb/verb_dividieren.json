@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_dividieren",
+  "wort": "dividieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تقسیم کردن (ریاضی)"
+    ],
+    "en": [
+      "to divide"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Mathematik",
+    "Schule"
+  ],
+  "ipa": "diviˈdiːʁən",
+  "anmerkung": "Regelmäßig (dividierte, dividiert).",
+  "berufe": [
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir dividieren zehn durch zwei.",
+      "uebersetzung": {
+        "fa": "ده را بر دو تقسیم می‌کنیم.",
+        "en": "We divide ten by two."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn man 100 durch 4 dividiert, bekommt man 25.",
+      "uebersetzung": {
+        "fa": "اگر ۱۰۰ را بر ۴ تقسیم کنیم، ۲۵ به دست می‌آید.",
+        "en": "If you divide 100 by 4, you get 25."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "teilen",
+      "uebersetzung": {
+        "fa": "تقسیم کردن",
+        "en": "to divide"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "multiplizieren",
+      "uebersetzung": {
+        "fa": "ضرب کردن",
+        "en": "to multiply"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. dividere (تقسیم کردن)",
+    "en": "Latin dividere (to divide)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas durch + Akk dividieren",
+        "bedeutung": "eine Zahl durch eine andere teilen",
+        "beispiel": "Dividiere die Summe durch drei!",
+        "uebersetzung": {
+          "fa": "مجموع را بر سه تقسیم کن!",
+          "en": "Divide the sum by three!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "dividieren",
+      "praeteritum": "dividierte",
+      "partizip2": "dividiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "dividiere",
+        "du": "dividierst",
+        "er_sie_es": "dividiert",
+        "wir": "dividieren",
+        "ihr": "dividiert",
+        "sie_Sie": "dividieren"
+      },
+      "praeteritum": {
+        "ich": "dividierte",
+        "du": "dividiertest",
+        "er_sie_es": "dividierte",
+        "wir": "dividierten",
+        "ihr": "dividiertet",
+        "sie_Sie": "dividierten"
+      },
+      "konjunktiv1": {
+        "ich": "dividiere",
+        "du": "dividierest",
+        "er_sie_es": "dividiere",
+        "wir": "dividieren",
+        "ihr": "dividieret",
+        "sie_Sie": "dividieren"
+      },
+      "konjunktiv2": {
+        "ich": "dividierte",
+        "du": "dividiertest",
+        "er_sie_es": "dividierte",
+        "wir": "dividierten",
+        "ihr": "dividiertet",
+        "sie_Sie": "dividierten"
+      },
+      "imperativ": {
+        "du": "Dividiere!",
+        "ihr": "Dividiert!",
+        "Sie": "Dividieren Sie!"
+      }
+    },
+    "partizip1": "dividierend",
+    "nominalisierung": "die Division"
+  },
+  "wortnetz": {
+    "grundwort": "Division",
+    "woerter": [
+      {
+        "wort": "die Zahl",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عدد",
+          "en": "number"
+        },
+        "id_ref": "nomen_zahl"
+      },
+      {
+        "wort": "teilen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تقسیم کردن",
+          "en": "to divide"
+        },
+        "id_ref": "verb_teilen"
+      },
+      {
+        "wort": "rechnen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حساب کردن",
+          "en": "to calculate"
+        },
+        "id_ref": "verb_rechnen"
+      },
+      {
+        "wort": "multiplizieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ضرب کردن",
+          "en": "to multiply"
+        },
+        "id_ref": "verb_multiplizieren"
+      },
+      {
+        "wort": "die Division",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تقسیم",
+          "en": "division"
+        },
+        "id_ref": "nomen_division"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

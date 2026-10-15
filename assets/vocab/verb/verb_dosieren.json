@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_dosieren",
+  "wort": "dosieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دوز تعیین کردن",
+      "به اندازه دادن"
+    ],
+    "en": [
+      "to dose",
+      "to measure out"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Medizin",
+    "Gesundheit"
+  ],
+  "ipa": "doˈziːʁən",
+  "anmerkung": "Regelmäßig (dosierte, dosiert).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Ärztin dosiert das Medikament.",
+      "uebersetzung": {
+        "fa": "پزشک دوز دارو را تعیین می‌کند.",
+        "en": "The doctor doses the medication."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei Kindern muss man Schmerzmittel vorsichtig dosieren, weil sie viel empfindlicher reagieren.",
+      "uebersetzung": {
+        "fa": "برای کودکان باید دوز مسکن را با احتیاط تعیین کرد، چون خیلی حساس‌تر واکنش نشان می‌دهند.",
+        "en": "With children you have to dose painkillers carefully because they react much more sensitively."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abmessen",
+      "uebersetzung": {
+        "fa": "اندازه گرفتن",
+        "en": "to measure out"
+      }
+    },
+    {
+      "wort": "zuteilen",
+      "uebersetzung": {
+        "fa": "سهم دادن",
+        "en": "to allot"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "griech. dosis (مقدار داده‌شده)",
+    "en": "Greek dosis (a giving)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "dosieren",
+      "praeteritum": "dosierte",
+      "partizip2": "dosiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "dosiere",
+        "du": "dosierst",
+        "er_sie_es": "dosiert",
+        "wir": "dosieren",
+        "ihr": "dosiert",
+        "sie_Sie": "dosieren"
+      },
+      "praeteritum": {
+        "ich": "dosierte",
+        "du": "dosiertest",
+        "er_sie_es": "dosierte",
+        "wir": "dosierten",
+        "ihr": "dosiertet",
+        "sie_Sie": "dosierten"
+      },
+      "konjunktiv1": {
+        "ich": "dosiere",
+        "du": "dosierest",
+        "er_sie_es": "dosiere",
+        "wir": "dosieren",
+        "ihr": "dosieret",
+        "sie_Sie": "dosieren"
+      },
+      "konjunktiv2": {
+        "ich": "dosierte",
+        "du": "dosiertest",
+        "er_sie_es": "dosierte",
+        "wir": "dosierten",
+        "ihr": "dosiertet",
+        "sie_Sie": "dosierten"
+      },
+      "imperativ": {
+        "du": "Dosiere!",
+        "ihr": "Dosiert!",
+        "Sie": "Dosieren Sie!"
+      }
+    },
+    "partizip1": "dosierend",
+    "nominalisierung": "die Dosierung"
+  },
+  "wortnetz": {
+    "grundwort": "Dosis",
+    "woerter": [
+      {
+        "wort": "das Medikament",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دارو",
+          "en": "medicine"
+        },
+        "id_ref": "nomen_medikament"
+      },
+      {
+        "wort": "die Dosis",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دوز",
+          "en": "dose"
+        },
+        "id_ref": "nomen_dosis"
+      },
+      {
+        "wort": "die Tablette",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قرص",
+          "en": "tablet"
+        },
+        "id_ref": "nomen_tablette"
+      },
+      {
+        "wort": "die Menge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مقدار",
+          "en": "amount"
+        },
+        "id_ref": "nomen_menge"
+      },
+      {
+        "wort": "die Dosierung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دوزبندی",
+          "en": "dosage"
+        },
+        "id_ref": "nomen_dosierung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

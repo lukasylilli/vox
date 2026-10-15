@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_dolmetschen",
+  "wort": "dolmetschen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ترجمه‌ی شفاهی کردن"
+    ],
+    "en": [
+      "to interpret"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Sprache",
+    "Arbeit"
+  ],
+  "ipa": "ˈdɔlmɛtʃn̩",
+  "anmerkung": "Regelmäßig (dolmetschte, gedolmetscht).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Meine Tochter dolmetscht beim Arzt.",
+      "uebersetzung": {
+        "fa": "دخترم پیش پزشک ترجمه‌ی شفاهی می‌کند.",
+        "en": "My daughter interprets at the doctor's."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Auf der Konferenz wurde alles gleichzeitig ins Englische gedolmetscht.",
+      "uebersetzung": {
+        "fa": "در کنفرانس همه‌چیز هم‌زمان به انگلیسی ترجمه‌ی شفاهی شد.",
+        "en": "At the conference everything was interpreted simultaneously into English."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "übersetzen",
+      "uebersetzung": {
+        "fa": "ترجمه کردن",
+        "en": "to translate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Dolmetscher (مترجم شفاهی) ← ungar./türk. tolmács",
+    "en": "Dolmetscher (interpreter) ← Hungarian/Turkish tolmács"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "aus + Dat in + Akk dolmetschen",
+        "bedeutung": "mündlich von einer Sprache in eine andere übertragen",
+        "beispiel": "Er dolmetscht aus dem Persischen ins Deutsche.",
+        "uebersetzung": {
+          "fa": "از فارسی به آلمانی ترجمه‌ی شفاهی می‌کند.",
+          "en": "He interprets from Persian into German."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "dolmetschen",
+      "praeteritum": "dolmetschte",
+      "partizip2": "gedolmetscht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "dolmetsche",
+        "du": "dolmetschst",
+        "er_sie_es": "dolmetscht",
+        "wir": "dolmetschen",
+        "ihr": "dolmetscht",
+        "sie_Sie": "dolmetschen"
+      },
+      "praeteritum": {
+        "ich": "dolmetschte",
+        "du": "dolmetschtest",
+        "er_sie_es": "dolmetschte",
+        "wir": "dolmetschten",
+        "ihr": "dolmetschtet",
+        "sie_Sie": "dolmetschten"
+      },
+      "konjunktiv1": {
+        "ich": "dolmetsche",
+        "du": "dolmetschest",
+        "er_sie_es": "dolmetsche",
+        "wir": "dolmetschen",
+        "ihr": "dolmetschet",
+        "sie_Sie": "dolmetschen"
+      },
+      "konjunktiv2": {
+        "ich": "dolmetschte",
+        "du": "dolmetschtest",
+        "er_sie_es": "dolmetschte",
+        "wir": "dolmetschten",
+        "ihr": "dolmetschtet",
+        "sie_Sie": "dolmetschten"
+      },
+      "imperativ": {
+        "du": "Dolmetsche!",
+        "ihr": "Dolmetscht!",
+        "Sie": "Dolmetschen Sie!"
+      }
+    },
+    "partizip1": "dolmetschend",
+    "nominalisierung": "der Dolmetscher"
+  },
+  "wortnetz": {
+    "grundwort": "Dolmetscher",
+    "woerter": [
+      {
+        "wort": "übersetzen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترجمه کردن",
+          "en": "to translate"
+        },
+        "id_ref": "verb_uebersetzen"
+      },
+      {
+        "wort": "die Sprache",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زبان",
+          "en": "language"
+        },
+        "id_ref": "nomen_sprache"
+      },
+      {
+        "wort": "der Dolmetscher",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مترجم شفاهی",
+          "en": "interpreter"
+        },
+        "id_ref": "nomen_dolmetscher"
+      },
+      {
+        "wort": "die Übersetzung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ترجمه",
+          "en": "translation"
+        },
+        "id_ref": "nomen_uebersetzung"
+      },
+      {
+        "wort": "verstehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فهمیدن",
+          "en": "to understand"
+        },
+        "id_ref": "verb_verstehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

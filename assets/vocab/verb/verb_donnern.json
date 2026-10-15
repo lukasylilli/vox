@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_donnern",
+  "wort": "donnern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "غرّیدن (رعد)",
+      "با صدای بلند کوبیدن"
+    ],
+    "en": [
+      "to thunder",
+      "to bang"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Wetter"
+  ],
+  "ipa": "ˈdɔnɐn",
+  "anmerkung": "Regelmäßig (donnerte, gedonnert). Unpersönlich: «es donnert». Bei Bewegung mit «sein» (Der Zug ist über die Brücke gedonnert). Ohne Imperativ.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Es blitzt und donnert.",
+      "uebersetzung": {
+        "fa": "برق می‌زند و رعد می‌غرّد.",
+        "en": "There is lightning and thunder."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Er war so wütend, dass er mit der Faust gegen die Tür donnerte.",
+      "uebersetzung": {
+        "fa": "آن‌قدر عصبانی بود که با مشت به در کوبید.",
+        "en": "He was so angry that he banged his fist against the door."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "dröhnen",
+      "uebersetzung": {
+        "fa": "غرّیدن",
+        "en": "to roar"
+      }
+    },
+    {
+      "wort": "krachen",
+      "uebersetzung": {
+        "fa": "تق صدا دادن",
+        "en": "to crash"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Donner (رعد) + -n",
+    "en": "Donner (thunder) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "gegen + Akk donnern",
+        "bedeutung": "heftig gegen etwas schlagen",
+        "beispiel": "Die Wellen donnern gegen die Felsen.",
+        "uebersetzung": {
+          "fa": "موج‌ها با غرّش به صخره‌ها می‌کوبند.",
+          "en": "The waves crash against the rocks."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "donnern",
+      "praeteritum": "donnerte",
+      "partizip2": "gedonnert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "donnere",
+        "du": "donnerst",
+        "er_sie_es": "donnert",
+        "wir": "donnern",
+        "ihr": "donnert",
+        "sie_Sie": "donnern"
+      },
+      "praeteritum": {
+        "ich": "donnerte",
+        "du": "donnertest",
+        "er_sie_es": "donnerte",
+        "wir": "donnerten",
+        "ihr": "donnertet",
+        "sie_Sie": "donnerten"
+      },
+      "konjunktiv1": {
+        "ich": "donnere",
+        "du": "donnerest",
+        "er_sie_es": "donnere",
+        "wir": "donnern",
+        "ihr": "donneret",
+        "sie_Sie": "donnern"
+      },
+      "konjunktiv2": {
+        "ich": "donnerte",
+        "du": "donnertest",
+        "er_sie_es": "donnerte",
+        "wir": "donnerten",
+        "ihr": "donnertet",
+        "sie_Sie": "donnerten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "donnernd",
+    "nominalisierung": "der Donner"
+  },
+  "wortnetz": {
+    "grundwort": "Donner",
+    "woerter": [
+      {
+        "wort": "das Gewitter",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رعد و برق",
+          "en": "thunderstorm"
+        },
+        "id_ref": "nomen_gewitter"
+      },
+      {
+        "wort": "der Blitz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آذرخش",
+          "en": "lightning"
+        },
+        "id_ref": "nomen_blitz"
+      },
+      {
+        "wort": "der Donner",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رعد",
+          "en": "thunder"
+        },
+        "id_ref": "nomen_donner"
+      },
+      {
+        "wort": "blitzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برق زدن",
+          "en": "to flash"
+        },
+        "id_ref": "verb_blitzen"
+      },
+      {
+        "wort": "laut",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بلند (صدا)",
+          "en": "loud"
+        },
+        "id_ref": "adjektiv_laut"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
