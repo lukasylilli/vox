@@ -1621,6 +1621,8 @@ const zurueckgestellt = <String>{
   'entwanzen', // zurückgestellt: zwei seltene Bedeutungen (Ungeziefer / Abhörgeräte), Gebrauch nicht sicher (Regel 14) 2026-10-15
   'erbittern', // zurückgestellt: selten, heute meist Partizip «erbittert» bzw. «verbittern»; Gebrauch nicht sicher (Regel 14) 2026-10-15
   'erfrechen', // zurückgestellt: «sich erfrechen» veraltend/selten; Stilmarkierung nicht sicher (Regel 14/17) 2026-10-15
+  'erigieren', // zurückgestellt: sexueller Bezug (wie ejakulieren) — Entscheidung Lukas 2026-10-15
+  'erkühnen', // zurückgestellt: «sich erkühnen» gehoben/selten; Stilmarkierung nicht sicher (Regel 14/17) 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

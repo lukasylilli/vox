@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_erkranken",
+  "wort": "erkranken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بیمار شدن",
+      "مبتلا شدن"
+    ],
+    "en": [
+      "to fall ill",
+      "to contract (an illness)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit"
+  ],
+  "ipa": "ɛɐ̯ˈkʁaŋkn̩",
+  "anmerkung": "Regelmäßig (erkrankte, erkrankt). Untrennbar.",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Viele Kinder erkranken im Winter.",
+      "uebersetzung": {
+        "fa": "بسیاری از بچه‌ها در زمستان بیمار می‌شوند.",
+        "en": "Many children fall ill in winter."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wer an Grippe erkrankt ist, sollte zu Hause bleiben, damit er niemanden ansteckt.",
+      "uebersetzung": {
+        "fa": "کسی که به آنفولانزا مبتلا شده، باید در خانه بماند تا کسی را آلوده نکند.",
+        "en": "Anyone who has caught the flu should stay at home so as not to infect anyone."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "krank werden",
+      "uebersetzung": {
+        "fa": "بیمار شدن",
+        "en": "to become ill"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "genesen",
+      "uebersetzung": {
+        "fa": "بهبود یافتن",
+        "en": "to recover"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (شدن) + krank (بیمار)",
+    "en": "er- (becoming) + krank (ill)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "an + Dat erkranken",
+        "bedeutung": "eine bestimmte Krankheit bekommen",
+        "beispiel": "Sie ist an Krebs erkrankt.",
+        "uebersetzung": {
+          "fa": "او به سرطان مبتلا شده است.",
+          "en": "She has fallen ill with cancer."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "erkranken",
+      "praeteritum": "erkrankte",
+      "partizip2": "erkrankt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erkranke",
+        "du": "erkrankst",
+        "er_sie_es": "erkrankt",
+        "wir": "erkranken",
+        "ihr": "erkrankt",
+        "sie_Sie": "erkranken"
+      },
+      "praeteritum": {
+        "ich": "erkrankte",
+        "du": "erkranktest",
+        "er_sie_es": "erkrankte",
+        "wir": "erkrankten",
+        "ihr": "erkranktet",
+        "sie_Sie": "erkrankten"
+      },
+      "konjunktiv1": {
+        "ich": "erkranke",
+        "du": "erkrankest",
+        "er_sie_es": "erkranke",
+        "wir": "erkranken",
+        "ihr": "erkranket",
+        "sie_Sie": "erkranken"
+      },
+      "konjunktiv2": {
+        "ich": "erkrankte",
+        "du": "erkranktest",
+        "er_sie_es": "erkrankte",
+        "wir": "erkrankten",
+        "ihr": "erkranktet",
+        "sie_Sie": "erkrankten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "erkrankend",
+    "nominalisierung": "die Erkrankung"
+  },
+  "wortnetz": {
+    "grundwort": "krank",
+    "woerter": [
+      {
+        "wort": "krank",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "ill"
+        },
+        "id_ref": "adjektiv_krank"
+      },
+      {
+        "wort": "die Krankheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیماری",
+          "en": "illness"
+        },
+        "id_ref": "nomen_krankheit"
+      },
+      {
+        "wort": "die Erkrankung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیماری",
+          "en": "disease"
+        },
+        "id_ref": "nomen_erkrankung"
+      },
+      {
+        "wort": "anstecken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرایت دادن",
+          "en": "to infect"
+        },
+        "id_ref": "verb_anstecken"
+      },
+      {
+        "wort": "gesund",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سالم",
+          "en": "healthy"
+        },
+        "id_ref": "adjektiv_gesund"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

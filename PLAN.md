@@ -2986,6 +2986,8 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۵۶۸ | entwanzen | `Verben_regelmaesig.txt` | 2026-10-15 | دو معنای کم‌کاربرد (حشره‌زدایی / برداشتن شنود)؛ کاربرد مطمئن نیست — قاعده‌ی ۱۴ | — |
 | ۱۵۶۹ | erbittern | `Verben_regelmaesig.txt` | 2026-10-15 | کم‌کاربرد؛ امروز بیشتر Partizip «erbittert» (کارت صفت) یا «verbittern»؛ کاربرد مطمئن نیست — قاعده‌ی ۱۴ | — |
 | ۱۵۷۰ | erfrechen | `Verben_regelmaesig.txt` | 2026-10-15 | «sich erfrechen» رو به منسوخ و کم‌کاربرد؛ برچسب سبکی مطمئن نیست — قاعده‌ی ۱۴/۱۷ | — |
+| ۱۵۷۱ | erigieren | `Verben_regelmaesig.txt` | 2026-10-15 | ⚠️ معنای جنسی/پزشکی (نعوظ؛ مثل ejakulieren) ⇒ تصمیم Lukas | — |
+| ۱۵۷۲ | erkühnen | `Verben_regelmaesig.txt` | 2026-10-15 | «sich erkühnen» فاخر و کم‌کاربرد؛ برچسب سبکی مطمئن نیست — قاعده‌ی ۱۴/۱۷ | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 

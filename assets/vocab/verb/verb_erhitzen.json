@@ -1,0 +1,199 @@
+{
+  "schema": "3.0",
+  "id": "verb_erhitzen",
+  "wort": "erhitzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گرم کردن",
+      "داغ کردن"
+    ],
+    "en": [
+      "to heat",
+      "to heat up"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Küche",
+    "Technik"
+  ],
+  "ipa": "ɛɐ̯ˈhɪt͡sn̩",
+  "anmerkung": "Regelmäßig (erhitzte, erhitzt). Untrennbar. Auch reflexiv: «sich erhitzen» (heiß werden; übertragen: sich aufregen).",
+  "berufe": [
+    "technik",
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich erhitze die Milch.",
+      "uebersetzung": {
+        "fa": "شیر را گرم می‌کنم.",
+        "en": "I am heating the milk."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Erhitzen Sie das Öl in der Pfanne, bevor Sie das Gemüse hineingeben.",
+      "uebersetzung": {
+        "fa": "پیش از ریختن سبزیجات، روغن را در ماهیتابه داغ کنید.",
+        "en": "Heat the oil in the pan before you add the vegetables."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erwärmen",
+      "uebersetzung": {
+        "fa": "گرم کردن",
+        "en": "to warm"
+      }
+    },
+    {
+      "wort": "heiß machen",
+      "uebersetzung": {
+        "fa": "داغ کردن",
+        "en": "to make hot"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "abkühlen",
+      "uebersetzung": {
+        "fa": "سرد کردن",
+        "en": "to cool down"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (کردن) + Hitze (گرما)",
+    "en": "er- (making) + Hitze (heat)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "etwas auf + Akk erhitzen",
+        "bedeutung": "etwas bis zu einer bestimmten Temperatur heiß machen",
+        "beispiel": "Das Wasser wird auf 100 Grad erhitzt.",
+        "uebersetzung": {
+          "fa": "آب تا ۱۰۰ درجه گرم می‌شود.",
+          "en": "The water is heated to 100 degrees."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "erhitzen",
+      "praeteritum": "erhitzte",
+      "partizip2": "erhitzt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erhitze",
+        "du": "erhitzt",
+        "er_sie_es": "erhitzt",
+        "wir": "erhitzen",
+        "ihr": "erhitzt",
+        "sie_Sie": "erhitzen"
+      },
+      "praeteritum": {
+        "ich": "erhitzte",
+        "du": "erhitztest",
+        "er_sie_es": "erhitzte",
+        "wir": "erhitzten",
+        "ihr": "erhitztet",
+        "sie_Sie": "erhitzten"
+      },
+      "konjunktiv1": {
+        "ich": "erhitze",
+        "du": "erhitzest",
+        "er_sie_es": "erhitze",
+        "wir": "erhitzen",
+        "ihr": "erhitzet",
+        "sie_Sie": "erhitzen"
+      },
+      "konjunktiv2": {
+        "ich": "erhitzte",
+        "du": "erhitztest",
+        "er_sie_es": "erhitzte",
+        "wir": "erhitzten",
+        "ihr": "erhitztet",
+        "sie_Sie": "erhitzten"
+      },
+      "imperativ": {
+        "du": "Erhitze!",
+        "ihr": "Erhitzt!",
+        "Sie": "Erhitzen Sie!"
+      }
+    },
+    "partizip1": "erhitzend",
+    "nominalisierung": "die Erhitzung"
+  },
+  "wortnetz": {
+    "grundwort": "Hitze",
+    "woerter": [
+      {
+        "wort": "heiß",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "داغ",
+          "en": "hot"
+        },
+        "id_ref": "adjektiv_heiss"
+      },
+      {
+        "wort": "die Hitze",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گرما",
+          "en": "heat"
+        },
+        "id_ref": "nomen_hitze"
+      },
+      {
+        "wort": "kochen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پختن، جوشاندن",
+          "en": "to cook, to boil"
+        },
+        "id_ref": "verb_kochen"
+      },
+      {
+        "wort": "erwärmen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گرم کردن",
+          "en": "to warm"
+        },
+        "id_ref": "verb_erwaermen"
+      },
+      {
+        "wort": "abkühlen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سرد کردن",
+          "en": "to cool down"
+        },
+        "id_ref": "verb_abkuehlen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_erkunden",
+  "wort": "erkunden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کاوش کردن",
+      "شناسایی کردن",
+      "گشت زدن"
+    ],
+    "en": [
+      "to explore",
+      "to scout"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Reisen",
+    "Freizeit"
+  ],
+  "ipa": "ɛɐ̯ˈkʊndn̩",
+  "anmerkung": "Regelmäßig (erkundete, erkundet). Untrennbar.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir erkunden die Stadt zu Fuß.",
+      "uebersetzung": {
+        "fa": "شهر را پیاده می‌گردیم.",
+        "en": "We are exploring the city on foot."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor wir in die neue Gegend zogen, haben wir die Umgebung mit dem Fahrrad erkundet.",
+      "uebersetzung": {
+        "fa": "پیش از این‌که به محله‌ی جدید برویم، اطراف را با دوچرخه گشتیم.",
+        "en": "Before we moved to the new area we explored the surroundings by bike."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erforschen",
+      "uebersetzung": {
+        "fa": "پژوهیدن، کاوش کردن",
+        "en": "to explore"
+      }
+    },
+    {
+      "wort": "besichtigen",
+      "uebersetzung": {
+        "fa": "بازدید کردن",
+        "en": "to visit"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (به دست آوردن) + kund (آگاه، کهن)",
+    "en": "er- (obtaining) + kund (known, archaic)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "erkunden",
+      "praeteritum": "erkundete",
+      "partizip2": "erkundet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erkunde",
+        "du": "erkundest",
+        "er_sie_es": "erkundet",
+        "wir": "erkunden",
+        "ihr": "erkundet",
+        "sie_Sie": "erkunden"
+      },
+      "praeteritum": {
+        "ich": "erkundete",
+        "du": "erkundetest",
+        "er_sie_es": "erkundete",
+        "wir": "erkundeten",
+        "ihr": "erkundetet",
+        "sie_Sie": "erkundeten"
+      },
+      "konjunktiv1": {
+        "ich": "erkunde",
+        "du": "erkundest",
+        "er_sie_es": "erkunde",
+        "wir": "erkunden",
+        "ihr": "erkundet",
+        "sie_Sie": "erkunden"
+      },
+      "konjunktiv2": {
+        "ich": "erkundete",
+        "du": "erkundetest",
+        "er_sie_es": "erkundete",
+        "wir": "erkundeten",
+        "ihr": "erkundetet",
+        "sie_Sie": "erkundeten"
+      },
+      "imperativ": {
+        "du": "Erkunde!",
+        "ihr": "Erkundet!",
+        "Sie": "Erkunden Sie!"
+      }
+    },
+    "partizip1": "erkundend",
+    "nominalisierung": "die Erkundung"
+  },
+  "wortnetz": {
+    "grundwort": "kund",
+    "woerter": [
+      {
+        "wort": "entdecken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کشف کردن",
+          "en": "to discover"
+        },
+        "id_ref": "verb_entdecken"
+      },
+      {
+        "wort": "die Umgebung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اطراف",
+          "en": "surroundings"
+        },
+        "id_ref": "nomen_umgebung"
+      },
+      {
+        "wort": "erforschen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پژوهیدن",
+          "en": "to explore"
+        },
+        "id_ref": "verb_erforschen"
+      },
+      {
+        "wort": "die Reise",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سفر",
+          "en": "trip"
+        },
+        "id_ref": "nomen_reise"
+      },
+      {
+        "wort": "erkundigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پرس‌وجو کردن",
+          "en": "to inquire"
+        },
+        "id_ref": "verb_erkundigen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

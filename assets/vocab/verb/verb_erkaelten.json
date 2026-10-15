@@ -1,0 +1,163 @@
+{
+  "schema": "3.0",
+  "id": "verb_erkaelten",
+  "wort": "erkälten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سرما خوردن"
+    ],
+    "en": [
+      "to catch a cold"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Gesundheit",
+    "Körper"
+  ],
+  "ipa": "ɛɐ̯ˈkɛltn̩",
+  "anmerkung": "Regelmäßig (erkältete, erkältet). Untrennbar. Immer reflexiv: «sich erkälten». Partizip «erkältet sein» (eine Erkältung haben).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich habe mich erkältet.",
+      "uebersetzung": {
+        "fa": "سرما خورده‌ام.",
+        "en": "I have caught a cold."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Zieh eine Jacke an, damit du dich nicht erkältest.",
+      "uebersetzung": {
+        "fa": "یک کت بپوش تا سرما نخوری.",
+        "en": "Put on a jacket so that you don't catch a cold."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (شدن) + kalt (سرد)",
+    "en": "er- (becoming) + kalt (cold)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "erkälten",
+      "praeteritum": "erkältete",
+      "partizip2": "erkältet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erkälte",
+        "du": "erkältest",
+        "er_sie_es": "erkältet",
+        "wir": "erkälten",
+        "ihr": "erkältet",
+        "sie_Sie": "erkälten"
+      },
+      "praeteritum": {
+        "ich": "erkältete",
+        "du": "erkältetest",
+        "er_sie_es": "erkältete",
+        "wir": "erkälteten",
+        "ihr": "erkältetet",
+        "sie_Sie": "erkälteten"
+      },
+      "konjunktiv1": {
+        "ich": "erkälte",
+        "du": "erkältest",
+        "er_sie_es": "erkälte",
+        "wir": "erkälten",
+        "ihr": "erkältet",
+        "sie_Sie": "erkälten"
+      },
+      "konjunktiv2": {
+        "ich": "erkältete",
+        "du": "erkältetest",
+        "er_sie_es": "erkältete",
+        "wir": "erkälteten",
+        "ihr": "erkältetet",
+        "sie_Sie": "erkälteten"
+      },
+      "imperativ": {
+        "du": "Erkälte!",
+        "ihr": "Erkältet!",
+        "Sie": "Erkälten Sie!"
+      }
+    },
+    "partizip1": "erkältend",
+    "nominalisierung": "die Erkältung"
+  },
+  "wortnetz": {
+    "grundwort": "kalt",
+    "woerter": [
+      {
+        "wort": "die Erkältung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سرماخوردگی",
+          "en": "cold"
+        },
+        "id_ref": "nomen_erkaeltung"
+      },
+      {
+        "wort": "krank",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "ill"
+        },
+        "id_ref": "adjektiv_krank"
+      },
+      {
+        "wort": "der Husten",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سرفه",
+          "en": "cough"
+        },
+        "id_ref": "nomen_husten"
+      },
+      {
+        "wort": "das Fieber",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تب",
+          "en": "fever"
+        },
+        "id_ref": "nomen_fieber"
+      },
+      {
+        "wort": "der Schnupfen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آبریزش بینی",
+          "en": "runny nose"
+        },
+        "id_ref": "nomen_schnupfen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

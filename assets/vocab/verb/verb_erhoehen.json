@@ -1,0 +1,214 @@
+{
+  "schema": "3.0",
+  "id": "verb_erhoehen",
+  "wort": "erhöhen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بالا بردن",
+      "افزایش دادن"
+    ],
+    "en": [
+      "to raise",
+      "to increase"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Wirtschaft",
+    "Arbeit"
+  ],
+  "ipa": "ɛɐ̯ˈhøːən",
+  "anmerkung": "Regelmäßig (erhöhte, erhöht). Untrennbar. Auch reflexiv: «sich erhöhen» (steigen).",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Vermieter erhöht die Miete.",
+      "uebersetzung": {
+        "fa": "صاحب‌خانه اجاره را بالا می‌برد.",
+        "en": "The landlord is raising the rent."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Firma hat die Löhne erhöht, weil alles teurer geworden ist.",
+      "uebersetzung": {
+        "fa": "شرکت دستمزدها را افزایش داد، چون همه‌چیز گران‌تر شده است.",
+        "en": "The company raised wages because everything has become more expensive."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "steigern",
+      "uebersetzung": {
+        "fa": "افزایش دادن",
+        "en": "to increase"
+      }
+    },
+    {
+      "wort": "anheben",
+      "uebersetzung": {
+        "fa": "بالا بردن",
+        "en": "to raise"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "senken",
+      "uebersetzung": {
+        "fa": "پایین آوردن",
+        "en": "to lower"
+      }
+    },
+    {
+      "wort": "reduzieren",
+      "uebersetzung": {
+        "fa": "کاهش دادن",
+        "en": "to reduce"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (کردن) + hoch (بلند)",
+    "en": "er- (making) + hoch (high)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "etwas um + Akk erhöhen",
+        "bedeutung": "etwas um einen Betrag größer machen",
+        "beispiel": "Der Preis wurde um zehn Prozent erhöht.",
+        "uebersetzung": {
+          "fa": "قیمت ده درصد بالا رفت.",
+          "en": "The price was increased by ten per cent."
+        }
+      },
+      {
+        "muster": "etwas auf + Akk erhöhen",
+        "bedeutung": "etwas bis zu einem Wert größer machen",
+        "beispiel": "Die Gebühr wird auf 20 Euro erhöht.",
+        "uebersetzung": {
+          "fa": "هزینه به ۲۰ یورو افزایش می‌یابد.",
+          "en": "The fee is being raised to 20 euros."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "erhöhen",
+      "praeteritum": "erhöhte",
+      "partizip2": "erhöht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erhöhe",
+        "du": "erhöhst",
+        "er_sie_es": "erhöht",
+        "wir": "erhöhen",
+        "ihr": "erhöht",
+        "sie_Sie": "erhöhen"
+      },
+      "praeteritum": {
+        "ich": "erhöhte",
+        "du": "erhöhtest",
+        "er_sie_es": "erhöhte",
+        "wir": "erhöhten",
+        "ihr": "erhöhtet",
+        "sie_Sie": "erhöhten"
+      },
+      "konjunktiv1": {
+        "ich": "erhöhe",
+        "du": "erhöhest",
+        "er_sie_es": "erhöhe",
+        "wir": "erhöhen",
+        "ihr": "erhöhet",
+        "sie_Sie": "erhöhen"
+      },
+      "konjunktiv2": {
+        "ich": "erhöhte",
+        "du": "erhöhtest",
+        "er_sie_es": "erhöhte",
+        "wir": "erhöhten",
+        "ihr": "erhöhtet",
+        "sie_Sie": "erhöhten"
+      },
+      "imperativ": {
+        "du": "Erhöhe!",
+        "ihr": "Erhöht!",
+        "Sie": "Erhöhen Sie!"
+      }
+    },
+    "partizip1": "erhöhend",
+    "nominalisierung": "die Erhöhung"
+  },
+  "wortnetz": {
+    "grundwort": "hoch",
+    "woerter": [
+      {
+        "wort": "hoch",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بلند، بالا",
+          "en": "high"
+        },
+        "id_ref": "adjektiv_hoch"
+      },
+      {
+        "wort": "steigen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بالا رفتن",
+          "en": "to rise"
+        },
+        "id_ref": "verb_steigen"
+      },
+      {
+        "wort": "der Preis",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قیمت",
+          "en": "price"
+        },
+        "id_ref": "nomen_preis"
+      },
+      {
+        "wort": "die Erhöhung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "افزایش",
+          "en": "increase"
+        },
+        "id_ref": "nomen_erhoehung"
+      },
+      {
+        "wort": "senken",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پایین آوردن",
+          "en": "to lower"
+        },
+        "id_ref": "verb_senken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
