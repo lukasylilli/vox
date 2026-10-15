@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_duplizieren",
+  "wort": "duplizieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نسخه‌ی دوم ساختن",
+      "دوبرابر کردن"
+    ],
+    "en": [
+      "to duplicate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik"
+  ],
+  "ipa": "dupliˈtsiːʁən",
+  "anmerkung": "Regelmäßig (duplizierte, dupliziert).",
+  "berufe": [
+    "it"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich dupliziere die Datei.",
+      "uebersetzung": {
+        "fa": "از فایل یک نسخه‌ی دیگر می‌سازم.",
+        "en": "I duplicate the file."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor du das Dokument änderst, solltest du es duplizieren, damit das Original erhalten bleibt.",
+      "uebersetzung": {
+        "fa": "پیش از تغییر سند بهتر است از آن نسخه‌ی دوم بسازی تا اصلش بماند.",
+        "en": "Before you change the document, you should duplicate it so that the original is kept."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kopieren",
+      "uebersetzung": {
+        "fa": "کپی کردن",
+        "en": "to copy"
+      }
+    },
+    {
+      "wort": "verdoppeln",
+      "uebersetzung": {
+        "fa": "دوبرابر کردن",
+        "en": "to double"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. duplicare (دوتا کردن)",
+    "en": "Latin duplicare (to double)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "duplizieren",
+      "praeteritum": "duplizierte",
+      "partizip2": "dupliziert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "dupliziere",
+        "du": "duplizierst",
+        "er_sie_es": "dupliziert",
+        "wir": "duplizieren",
+        "ihr": "dupliziert",
+        "sie_Sie": "duplizieren"
+      },
+      "praeteritum": {
+        "ich": "duplizierte",
+        "du": "dupliziertest",
+        "er_sie_es": "duplizierte",
+        "wir": "duplizierten",
+        "ihr": "dupliziertet",
+        "sie_Sie": "duplizierten"
+      },
+      "konjunktiv1": {
+        "ich": "dupliziere",
+        "du": "duplizierest",
+        "er_sie_es": "dupliziere",
+        "wir": "duplizieren",
+        "ihr": "duplizieret",
+        "sie_Sie": "duplizieren"
+      },
+      "konjunktiv2": {
+        "ich": "duplizierte",
+        "du": "dupliziertest",
+        "er_sie_es": "duplizierte",
+        "wir": "duplizierten",
+        "ihr": "dupliziertet",
+        "sie_Sie": "duplizierten"
+      },
+      "imperativ": {
+        "du": "Dupliziere!",
+        "ihr": "Dupliziert!",
+        "Sie": "Duplizieren Sie!"
+      }
+    },
+    "partizip1": "duplizierend",
+    "nominalisierung": "die Duplizierung"
+  },
+  "wortnetz": {
+    "grundwort": "Duplikat",
+    "woerter": [
+      {
+        "wort": "kopieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کپی کردن",
+          "en": "to copy"
+        },
+        "id_ref": "verb_kopieren"
+      },
+      {
+        "wort": "die Kopie",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کپی",
+          "en": "copy"
+        },
+        "id_ref": "nomen_kopie"
+      },
+      {
+        "wort": "die Datei",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فایل",
+          "en": "file"
+        },
+        "id_ref": "nomen_datei"
+      },
+      {
+        "wort": "verdoppeln",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دوبرابر کردن",
+          "en": "to double"
+        },
+        "id_ref": "verb_verdoppeln"
+      },
+      {
+        "wort": "das Duplikat",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نسخه‌ی دوم",
+          "en": "duplicate"
+        },
+        "id_ref": "nomen_duplikat"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

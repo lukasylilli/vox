@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_duschen",
+  "wort": "duschen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دوش گرفتن",
+      "دوش دادن"
+    ],
+    "en": [
+      "to shower"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Körper"
+  ],
+  "ipa": "ˈduːʃn̩",
+  "anmerkung": "Regelmäßig (duschte, geduscht). Auch reflexiv: sich duschen.",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich dusche jeden Morgen.",
+      "uebersetzung": {
+        "fa": "هر صبح دوش می‌گیرم.",
+        "en": "I shower every morning."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Pflegerin duscht die alte Dame, weil sie es allein nicht mehr schafft.",
+      "uebersetzung": {
+        "fa": "پرستار خانم سالخورده را دوش می‌دهد، چون دیگر خودش از پسش برنمی‌آید.",
+        "en": "The carer showers the old lady because she can no longer manage on her own."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich waschen",
+      "uebersetzung": {
+        "fa": "خود را شستن",
+        "en": "to wash oneself"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Dusche (دوش) + -n",
+    "en": "Dusche (shower) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "duschen",
+      "praeteritum": "duschte",
+      "partizip2": "geduscht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "dusche",
+        "du": "duschst",
+        "er_sie_es": "duscht",
+        "wir": "duschen",
+        "ihr": "duscht",
+        "sie_Sie": "duschen"
+      },
+      "praeteritum": {
+        "ich": "duschte",
+        "du": "duschtest",
+        "er_sie_es": "duschte",
+        "wir": "duschten",
+        "ihr": "duschtet",
+        "sie_Sie": "duschten"
+      },
+      "konjunktiv1": {
+        "ich": "dusche",
+        "du": "duschest",
+        "er_sie_es": "dusche",
+        "wir": "duschen",
+        "ihr": "duschet",
+        "sie_Sie": "duschen"
+      },
+      "konjunktiv2": {
+        "ich": "duschte",
+        "du": "duschtest",
+        "er_sie_es": "duschte",
+        "wir": "duschten",
+        "ihr": "duschtet",
+        "sie_Sie": "duschten"
+      },
+      "imperativ": {
+        "du": "Dusche!",
+        "ihr": "Duscht!",
+        "Sie": "Duschen Sie!"
+      }
+    },
+    "partizip1": "duschend",
+    "nominalisierung": "die Dusche"
+  },
+  "wortnetz": {
+    "grundwort": "Dusche",
+    "woerter": [
+      {
+        "wort": "die Dusche",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دوش",
+          "en": "shower"
+        },
+        "id_ref": "nomen_dusche"
+      },
+      {
+        "wort": "waschen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شستن",
+          "en": "to wash"
+        },
+        "id_ref": "verb_waschen"
+      },
+      {
+        "wort": "das Badezimmer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حمام",
+          "en": "bathroom"
+        },
+        "id_ref": "nomen_badezimmer"
+      },
+      {
+        "wort": "das Handtuch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حوله",
+          "en": "towel"
+        },
+        "id_ref": "nomen_handtuch"
+      },
+      {
+        "wort": "baden",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حمام کردن",
+          "en": "to bathe"
+        },
+        "id_ref": "verb_baden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

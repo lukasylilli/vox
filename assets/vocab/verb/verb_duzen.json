@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_duzen",
+  "wort": "duzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "«تو» خطاب کردن"
+    ],
+    "en": [
+      "to address as «du»"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Kommunikation",
+    "Höflichkeit"
+  ],
+  "ipa": "ˈduːtsn̩",
+  "anmerkung": "Regelmäßig (duzte, geduzt). Auch reziprok: sich duzen.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir duzen uns.",
+      "uebersetzung": {
+        "fa": "ما همدیگر را «تو» خطاب می‌کنیم.",
+        "en": "We call each other «du»."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "In vielen Firmen duzen sich die Kollegen, auch wenn sie sich kaum kennen.",
+      "uebersetzung": {
+        "fa": "در خیلی از شرکت‌ها همکاران همدیگر را «تو» صدا می‌زنند، حتی اگر همدیگر را به‌زحمت بشناسند.",
+        "en": "In many companies colleagues call each other «du» even if they hardly know each other."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "siezen",
+      "uebersetzung": {
+        "fa": "«شما» خطاب کردن",
+        "en": "to address as «Sie»"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "du (تو) + -zen",
+    "en": "du (you, informal) + -zen"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich mit + Dat duzen",
+        "bedeutung": "mit jemandem «du» zueinander sagen",
+        "beispiel": "Ich duze mich mit meiner Chefin.",
+        "uebersetzung": {
+          "fa": "من و رئیسم همدیگر را «تو» خطاب می‌کنیم.",
+          "en": "My boss and I call each other «du»."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "duzen",
+      "praeteritum": "duzte",
+      "partizip2": "geduzt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "duze",
+        "du": "duzt",
+        "er_sie_es": "duzt",
+        "wir": "duzen",
+        "ihr": "duzt",
+        "sie_Sie": "duzen"
+      },
+      "praeteritum": {
+        "ich": "duzte",
+        "du": "duztest",
+        "er_sie_es": "duzte",
+        "wir": "duzten",
+        "ihr": "duztet",
+        "sie_Sie": "duzten"
+      },
+      "konjunktiv1": {
+        "ich": "duze",
+        "du": "duzest",
+        "er_sie_es": "duze",
+        "wir": "duzen",
+        "ihr": "duzet",
+        "sie_Sie": "duzen"
+      },
+      "konjunktiv2": {
+        "ich": "duzte",
+        "du": "duztest",
+        "er_sie_es": "duzte",
+        "wir": "duzten",
+        "ihr": "duztet",
+        "sie_Sie": "duzten"
+      },
+      "imperativ": {
+        "du": "Duze!",
+        "ihr": "Duzt!",
+        "Sie": "Duzen Sie!"
+      }
+    },
+    "partizip1": "duzend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "du",
+    "woerter": [
+      {
+        "wort": "du",
+        "wortart": "pronomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تو",
+          "en": "you (informal)"
+        },
+        "id_ref": "pronomen_du"
+      },
+      {
+        "wort": "Sie",
+        "wortart": "pronomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شما (رسمی)",
+          "en": "you (formal)"
+        },
+        "id_ref": "pronomen_sie"
+      },
+      {
+        "wort": "siezen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "«شما» خطاب کردن",
+          "en": "to address as «Sie»"
+        },
+        "id_ref": "verb_siezen"
+      },
+      {
+        "wort": "höflich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مؤدب",
+          "en": "polite"
+        },
+        "id_ref": "adjektiv_hoeflich"
+      },
+      {
+        "wort": "die Anrede",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خطاب",
+          "en": "form of address"
+        },
+        "id_ref": "nomen_anrede"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

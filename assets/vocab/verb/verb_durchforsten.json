@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_durchforsten",
+  "wort": "durchforsten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "زیر و رو کردن (برای یافتن)",
+      "تنک کردن جنگل"
+    ],
+    "en": [
+      "to comb through",
+      "to thin out (a forest)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Natur"
+  ],
+  "ipa": "dʊʁçˈfɔʁstn̩",
+  "anmerkung": "Regelmäßig (durchforstete, durchforstet). Untrennbar.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie durchforstet die Akten.",
+      "uebersetzung": {
+        "fa": "پرونده‌ها را زیر و رو می‌کند.",
+        "en": "She combs through the files."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Polizei hat das gesamte Archiv durchforstet, bis sie den alten Bericht endlich fand.",
+      "uebersetzung": {
+        "fa": "پلیس کل بایگانی را زیر و رو کرد تا بالاخره گزارش قدیمی را پیدا کرد.",
+        "en": "The police combed through the entire archive until they finally found the old report."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "durchsuchen",
+      "uebersetzung": {
+        "fa": "جست‌وجو کردن",
+        "en": "to search"
+      }
+    },
+    {
+      "wort": "durchkämmen",
+      "uebersetzung": {
+        "fa": "موبه‌مو گشتن",
+        "en": "to comb"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "durch- (سراسر) + Forst (جنگل)",
+    "en": "durch- (through) + Forst (forest)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas nach + Dat durchforsten",
+        "bedeutung": "etwas gründlich nach etwas durchsuchen",
+        "beispiel": "Er durchforstet das Internet nach günstigen Flügen.",
+        "uebersetzung": {
+          "fa": "اینترنت را برای پروازهای ارزان زیر و رو می‌کند.",
+          "en": "He combs the internet for cheap flights."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "durchforsten",
+      "praeteritum": "durchforstete",
+      "partizip2": "durchforstet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "durchforste",
+        "du": "durchforstest",
+        "er_sie_es": "durchforstet",
+        "wir": "durchforsten",
+        "ihr": "durchforstet",
+        "sie_Sie": "durchforsten"
+      },
+      "praeteritum": {
+        "ich": "durchforstete",
+        "du": "durchforstetest",
+        "er_sie_es": "durchforstete",
+        "wir": "durchforsteten",
+        "ihr": "durchforstetet",
+        "sie_Sie": "durchforsteten"
+      },
+      "konjunktiv1": {
+        "ich": "durchforste",
+        "du": "durchforstest",
+        "er_sie_es": "durchforste",
+        "wir": "durchforsten",
+        "ihr": "durchforstet",
+        "sie_Sie": "durchforsten"
+      },
+      "konjunktiv2": {
+        "ich": "durchforstete",
+        "du": "durchforstetest",
+        "er_sie_es": "durchforstete",
+        "wir": "durchforsteten",
+        "ihr": "durchforstetet",
+        "sie_Sie": "durchforsteten"
+      },
+      "imperativ": {
+        "du": "Durchforste!",
+        "ihr": "Durchforstet!",
+        "Sie": "Durchforsten Sie!"
+      }
+    },
+    "partizip1": "durchforstend",
+    "nominalisierung": "die Durchforstung"
+  },
+  "wortnetz": {
+    "grundwort": "Forst",
+    "woerter": [
+      {
+        "wort": "suchen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جست‌وجو کردن",
+          "en": "to search"
+        },
+        "id_ref": "verb_suchen"
+      },
+      {
+        "wort": "durchsuchen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بازرسی کردن",
+          "en": "to search"
+        },
+        "id_ref": "verb_durchsuchen"
+      },
+      {
+        "wort": "die Akte",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پرونده",
+          "en": "file"
+        },
+        "id_ref": "nomen_akte"
+      },
+      {
+        "wort": "der Wald",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جنگل",
+          "en": "forest"
+        },
+        "id_ref": "nomen_wald"
+      },
+      {
+        "wort": "der Forst",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "جنگل (مدیریت‌شده)",
+          "en": "forest"
+        },
+        "id_ref": "nomen_forst"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
