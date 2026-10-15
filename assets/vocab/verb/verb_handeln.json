@@ -1,0 +1,205 @@
+{
+  "schema": "3.0",
+  "id": "verb_handeln",
+  "wort": "handeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "عمل کردن",
+      "تجارت کردن",
+      "چانه زدن"
+    ],
+    "en": [
+      "to act",
+      "to trade",
+      "to bargain"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Wirtschaft",
+    "Verhalten"
+  ],
+  "ipa": "ˈhandl̩n",
+  "anmerkung": "Regelmäßig (handelte, gehandelt).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir müssen schnell handeln.",
+      "uebersetzung": {
+        "fa": "باید سریع اقدام کنیم.",
+        "en": "We must act quickly."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Film handelt von einer Familie, die nach Kanada auswandert.",
+      "uebersetzung": {
+        "fa": "فیلم درباره‌ی خانواده‌ای است که به کانادا مهاجرت می‌کند.",
+        "en": "The film is about a family that emigrates to Canada."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "tun",
+      "uebersetzung": {
+        "fa": "انجام دادن",
+        "en": "to do"
+      }
+    },
+    {
+      "wort": "feilschen",
+      "uebersetzung": {
+        "fa": "چانه زدن",
+        "en": "to haggle"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "mit + Dat handeln",
+        "bedeutung": "mit einer Ware Geschäfte machen",
+        "beispiel": "Die Firma handelt mit Gebrauchtwagen.",
+        "uebersetzung": {
+          "fa": "شرکت خرید و فروش ماشین دست‌دوم می‌کند.",
+          "en": "The company deals in used cars."
+        }
+      },
+      {
+        "muster": "von + Dat handeln",
+        "bedeutung": "ein bestimmtes Thema haben",
+        "beispiel": "Das Buch handelt von Freundschaft.",
+        "uebersetzung": {
+          "fa": "کتاب درباره‌ی دوستی است.",
+          "en": "The book is about friendship."
+        }
+      },
+      {
+        "muster": "es handelt sich um + Akk",
+        "bedeutung": "es geht um etwas",
+        "beispiel": "Es handelt sich um ein Missverständnis.",
+        "uebersetzung": {
+          "fa": "موضوع یک سوءتفاهم است.",
+          "en": "It is a misunderstanding."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "handeln",
+      "praeteritum": "handelte",
+      "partizip2": "gehandelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "handle",
+        "du": "handelst",
+        "er_sie_es": "handelt",
+        "wir": "handeln",
+        "ihr": "handelt",
+        "sie_Sie": "handeln"
+      },
+      "praeteritum": {
+        "ich": "handelte",
+        "du": "handeltest",
+        "er_sie_es": "handelte",
+        "wir": "handelten",
+        "ihr": "handeltet",
+        "sie_Sie": "handelten"
+      },
+      "konjunktiv1": {
+        "ich": "handle",
+        "du": "handlest",
+        "er_sie_es": "handle",
+        "wir": "handeln",
+        "ihr": "handlet",
+        "sie_Sie": "handeln"
+      },
+      "konjunktiv2": {
+        "ich": "handelte",
+        "du": "handeltest",
+        "er_sie_es": "handelte",
+        "wir": "handelten",
+        "ihr": "handeltet",
+        "sie_Sie": "handelten"
+      },
+      "imperativ": {
+        "du": "Handle!",
+        "ihr": "Handelt!",
+        "Sie": "Handeln Sie!"
+      }
+    },
+    "partizip1": "handelnd",
+    "nominalisierung": "die Handlung"
+  },
+  "wortnetz": {
+    "grundwort": "Handel",
+    "woerter": [
+      {
+        "wort": "kaufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خریدن",
+          "en": "to buy"
+        },
+        "id_ref": "verb_kaufen"
+      },
+      {
+        "wort": "der Handel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تجارت",
+          "en": "trade"
+        },
+        "id_ref": "nomen_handel"
+      },
+      {
+        "wort": "der Händler",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فروشنده",
+          "en": "trader"
+        },
+        "id_ref": "nomen_haendler"
+      },
+      {
+        "wort": "die Handlung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عمل، داستان",
+          "en": "action, plot"
+        },
+        "id_ref": "nomen_handlung"
+      },
+      {
+        "wort": "verhandeln",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مذاکره کردن",
+          "en": "to negotiate"
+        },
+        "id_ref": "verb_verhandeln"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

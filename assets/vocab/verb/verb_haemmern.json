@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_haemmern",
+  "wort": "hämmern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "چکش زدن",
+      "کوبیدن"
+    ],
+    "en": [
+      "to hammer",
+      "to pound"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Handwerk"
+  ],
+  "ipa": "ˈhɛmɐn",
+  "anmerkung": "Regelmäßig (hämmerte, gehämmert). Übertragen: «Das Herz hämmert» (schlägt heftig).",
+  "berufe": [
+    "technik",
+    "bau"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Nachbar hämmert schon wieder.",
+      "uebersetzung": {
+        "fa": "همسایه باز دارد چکش می‌زند.",
+        "en": "The neighbour is hammering again."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil niemand die Tür öffnete, hämmerte er so lange dagegen, bis jemand kam.",
+      "uebersetzung": {
+        "fa": "چون کسی در را باز نکرد، آن‌قدر به آن کوبید تا کسی آمد.",
+        "en": "Because nobody opened the door, he hammered on it until someone came."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "klopfen",
+      "uebersetzung": {
+        "fa": "در زدن، کوبیدن",
+        "en": "to knock"
+      }
+    },
+    {
+      "wort": "schlagen",
+      "uebersetzung": {
+        "fa": "زدن",
+        "en": "to hit"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "der Hammer (چکش) + -n",
+    "en": "der Hammer (hammer) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "hämmern",
+      "praeteritum": "hämmerte",
+      "partizip2": "gehämmert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "hämmere",
+        "du": "hämmerst",
+        "er_sie_es": "hämmert",
+        "wir": "hämmern",
+        "ihr": "hämmert",
+        "sie_Sie": "hämmern"
+      },
+      "praeteritum": {
+        "ich": "hämmerte",
+        "du": "hämmertest",
+        "er_sie_es": "hämmerte",
+        "wir": "hämmerten",
+        "ihr": "hämmertet",
+        "sie_Sie": "hämmerten"
+      },
+      "konjunktiv1": {
+        "ich": "hämmere",
+        "du": "hämmerest",
+        "er_sie_es": "hämmere",
+        "wir": "hämmern",
+        "ihr": "hämmeret",
+        "sie_Sie": "hämmern"
+      },
+      "konjunktiv2": {
+        "ich": "hämmerte",
+        "du": "hämmertest",
+        "er_sie_es": "hämmerte",
+        "wir": "hämmerten",
+        "ihr": "hämmertet",
+        "sie_Sie": "hämmerten"
+      },
+      "imperativ": {
+        "du": "Hämmere!",
+        "ihr": "Hämmert!",
+        "Sie": "Hämmern Sie!"
+      }
+    },
+    "partizip1": "hämmernd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Hammer",
+    "woerter": [
+      {
+        "wort": "klopfen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "در زدن، کوبیدن",
+          "en": "to knock"
+        },
+        "id_ref": "verb_klopfen"
+      },
+      {
+        "wort": "der Hammer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چکش",
+          "en": "hammer"
+        },
+        "id_ref": "nomen_hammer"
+      },
+      {
+        "wort": "der Nagel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "میخ",
+          "en": "nail"
+        },
+        "id_ref": "nomen_nagel"
+      },
+      {
+        "wort": "schlagen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زدن",
+          "en": "to hit"
+        },
+        "id_ref": "verb_schlagen"
+      },
+      {
+        "wort": "das Werkzeug",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ابزار",
+          "en": "tool"
+        },
+        "id_ref": "nomen_werkzeug"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

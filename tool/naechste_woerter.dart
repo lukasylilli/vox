@@ -1673,6 +1673,9 @@ const zurueckgestellt = <String>{
   'guillotinieren', // zurückgestellt: historisch/selten (mit der Guillotine hinrichten); Gebrauch nicht sicher (Regel 14) 2026-10-15
   'gustieren', // zurückgestellt: regional (österreichisch: kosten, probieren); Gebrauch nicht sicher (Regel 14) 2026-10-15
   'hakeln', // zurückgestellt: regional (bairisch/österreichisch: Fingerhakeln; Sport: Gegner mit dem Fuß zu Fall bringen), mehrere Bedeutungen; nicht sicher (Regel 14) 2026-10-15
+  'hampeln', // zurückgestellt: umgangssprachlich (zappeln; meist «herumhampeln»); Gebrauch nicht sicher (Regel 14) 2026-10-15
+  'hängen', // zurückgestellt: zwei Konjugationen je nach Bedeutung (hing/gehangen ↔ hängte/gehängt) — wie die anderen hängen-Verben zurückgestellt; Entscheidung Lukas 2026-10-15
+  'härmen', // zurückgestellt: gehoben/veraltend («sich härmen»); Stilmarkierung nicht sicher (Regel 17) 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

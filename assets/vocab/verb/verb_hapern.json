@@ -1,0 +1,169 @@
+{
+  "schema": "3.0",
+  "id": "verb_hapern",
+  "wort": "hapern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "لنگیدن",
+      "کم بودن"
+    ],
+    "en": [
+      "to be lacking",
+      "to be a problem"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Probleme"
+  ],
+  "ipa": "ˈhaːpɐn",
+  "anmerkung": "Regelmäßig (haperte, gehapert). Unpersönlich: «es hapert an/mit/bei etwas».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Es hapert an Geld.",
+      "uebersetzung": {
+        "fa": "پول کم است.",
+        "en": "Money is short."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Mit dem Wortschatz klappt es schon gut, aber bei der Aussprache hapert es noch.",
+      "uebersetzung": {
+        "fa": "واژگان دیگر خوب پیش می‌رود، ولی تلفظ هنوز می‌لنگد.",
+        "en": "The vocabulary is already going well, but the pronunciation is still shaky."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "es hapert an + Dat",
+        "bedeutung": "etwas fehlt",
+        "beispiel": "In der Klinik hapert es an Personal.",
+        "uebersetzung": {
+          "fa": "در کلینیک کمبود کارکنان هست.",
+          "en": "The clinic is short of staff."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hapern",
+      "praeteritum": "haperte",
+      "partizip2": "gehapert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "hapere",
+        "du": "haperst",
+        "er_sie_es": "hapert",
+        "wir": "hapern",
+        "ihr": "hapert",
+        "sie_Sie": "hapern"
+      },
+      "praeteritum": {
+        "ich": "haperte",
+        "du": "hapertest",
+        "er_sie_es": "haperte",
+        "wir": "haperten",
+        "ihr": "hapertet",
+        "sie_Sie": "haperten"
+      },
+      "konjunktiv1": {
+        "ich": "hapere",
+        "du": "haperest",
+        "er_sie_es": "hapere",
+        "wir": "hapern",
+        "ihr": "haperet",
+        "sie_Sie": "hapern"
+      },
+      "konjunktiv2": {
+        "ich": "haperte",
+        "du": "hapertest",
+        "er_sie_es": "haperte",
+        "wir": "haperten",
+        "ihr": "hapertet",
+        "sie_Sie": "haperten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "hapernd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "fehlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کم بودن",
+          "en": "to be missing"
+        },
+        "id_ref": "verb_fehlen"
+      },
+      {
+        "wort": "das Problem",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مشکل",
+          "en": "problem"
+        },
+        "id_ref": "nomen_problem"
+      },
+      {
+        "wort": "klappen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جور شدن",
+          "en": "to work out"
+        },
+        "id_ref": "verb_klappen"
+      },
+      {
+        "wort": "der Mangel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کمبود",
+          "en": "shortage"
+        },
+        "id_ref": "nomen_mangel"
+      },
+      {
+        "wort": "die Schwierigkeit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دشواری",
+          "en": "difficulty"
+        },
+        "id_ref": "nomen_schwierigkeit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
