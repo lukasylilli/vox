@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_erbarmen",
+  "wort": "erbarmen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دل سوزاندن",
+      "رحم کردن"
+    ],
+    "en": [
+      "to take pity on",
+      "to have mercy on"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle",
+    "Religion"
+  ],
+  "ipa": "ɛɐ̯ˈbaʁmən",
+  "anmerkung": "Regelmäßig (erbarmte, erbarmt). Untrennbar. Reflexiv mit Genitiv (gehoben): «sich jemandes erbarmen»; Gebet: «Herr, erbarme dich!».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Niemand erbarmt sich des Hundes.",
+      "uebersetzung": {
+        "fa": "هیچ‌کس دلش برای سگ نمی‌سوزد.",
+        "en": "Nobody takes pity on the dog."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Schließlich erbarmte sich ein Nachbar und brachte der alten Frau etwas zu essen.",
+      "uebersetzung": {
+        "fa": "سرانجام یکی از همسایه‌ها دلش سوخت و برای پیرزن چیزی برای خوردن آورد.",
+        "en": "Finally a neighbour took pity and brought the old woman something to eat."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bemitleiden",
+      "uebersetzung": {
+        "fa": "دلسوزی کردن",
+        "en": "to pity"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- + barmen (دل سوزاندن، کهن)",
+    "en": "er- + barmen (to pity, archaic)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich + Gen erbarmen",
+        "bedeutung": "mit jemandem Mitleid haben und ihm helfen",
+        "beispiel": "Sie erbarmte sich des kleinen Kätzchens.",
+        "uebersetzung": {
+          "fa": "دلش برای بچه‌گربه سوخت.",
+          "en": "She took pity on the little kitten."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "erbarmen",
+      "praeteritum": "erbarmte",
+      "partizip2": "erbarmt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erbarme",
+        "du": "erbarmst",
+        "er_sie_es": "erbarmt",
+        "wir": "erbarmen",
+        "ihr": "erbarmt",
+        "sie_Sie": "erbarmen"
+      },
+      "praeteritum": {
+        "ich": "erbarmte",
+        "du": "erbarmtest",
+        "er_sie_es": "erbarmte",
+        "wir": "erbarmten",
+        "ihr": "erbarmtet",
+        "sie_Sie": "erbarmten"
+      },
+      "konjunktiv1": {
+        "ich": "erbarme",
+        "du": "erbarmest",
+        "er_sie_es": "erbarme",
+        "wir": "erbarmen",
+        "ihr": "erbarmet",
+        "sie_Sie": "erbarmen"
+      },
+      "konjunktiv2": {
+        "ich": "erbarmte",
+        "du": "erbarmtest",
+        "er_sie_es": "erbarmte",
+        "wir": "erbarmten",
+        "ihr": "erbarmtet",
+        "sie_Sie": "erbarmten"
+      },
+      "imperativ": {
+        "du": "Erbarme!",
+        "ihr": "Erbarmt!",
+        "Sie": "Erbarmen Sie!"
+      }
+    },
+    "partizip1": "erbarmend",
+    "nominalisierung": "das Erbarmen"
+  },
+  "wortnetz": {
+    "grundwort": "barmherzig",
+    "woerter": [
+      {
+        "wort": "das Mitleid",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ترحم",
+          "en": "pity"
+        },
+        "id_ref": "nomen_mitleid"
+      },
+      {
+        "wort": "barmherzig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مهربان، رحیم",
+          "en": "merciful"
+        },
+        "id_ref": "adjektiv_barmherzig"
+      },
+      {
+        "wort": "helfen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک کردن",
+          "en": "to help"
+        },
+        "id_ref": "verb_helfen"
+      },
+      {
+        "wort": "die Gnade",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رحمت",
+          "en": "mercy"
+        },
+        "id_ref": "nomen_gnade"
+      },
+      {
+        "wort": "bemitleiden",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دلسوزی کردن",
+          "en": "to pity"
+        },
+        "id_ref": "verb_bemitleiden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_entwirren",
+  "wort": "entwirren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "باز کردن (گره، کلاف)",
+      "روشن کردن (موضوع پیچیده)"
+    ],
+    "en": [
+      "to untangle",
+      "to unravel"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag",
+    "Denken"
+  ],
+  "ipa": "ɛntˈvɪʁən",
+  "anmerkung": "Regelmäßig (entwirrte, entwirrt). Untrennbar.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie entwirrt das Kabel.",
+      "uebersetzung": {
+        "fa": "او کابل گره‌خورده را باز می‌کند.",
+        "en": "She untangles the cable."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Detektiv brauchte Wochen, um den komplizierten Fall zu entwirren.",
+      "uebersetzung": {
+        "fa": "کارآگاه هفته‌ها وقت لازم داشت تا پرونده‌ی پیچیده را روشن کند.",
+        "en": "The detective needed weeks to unravel the complicated case."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "lösen",
+      "uebersetzung": {
+        "fa": "حل کردن",
+        "en": "to solve"
+      }
+    },
+    {
+      "wort": "ordnen",
+      "uebersetzung": {
+        "fa": "مرتب کردن",
+        "en": "to sort out"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verwirren",
+      "uebersetzung": {
+        "fa": "گیج کردن، درهم کردن",
+        "en": "to confuse, to tangle"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- (باز کردن) + wirr (درهم)",
+    "en": "ent- (undoing) + wirr (tangled)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "entwirren",
+      "praeteritum": "entwirrte",
+      "partizip2": "entwirrt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entwirre",
+        "du": "entwirrst",
+        "er_sie_es": "entwirrt",
+        "wir": "entwirren",
+        "ihr": "entwirrt",
+        "sie_Sie": "entwirren"
+      },
+      "praeteritum": {
+        "ich": "entwirrte",
+        "du": "entwirrtest",
+        "er_sie_es": "entwirrte",
+        "wir": "entwirrten",
+        "ihr": "entwirrtet",
+        "sie_Sie": "entwirrten"
+      },
+      "konjunktiv1": {
+        "ich": "entwirre",
+        "du": "entwirrest",
+        "er_sie_es": "entwirre",
+        "wir": "entwirren",
+        "ihr": "entwirret",
+        "sie_Sie": "entwirren"
+      },
+      "konjunktiv2": {
+        "ich": "entwirrte",
+        "du": "entwirrtest",
+        "er_sie_es": "entwirrte",
+        "wir": "entwirrten",
+        "ihr": "entwirrtet",
+        "sie_Sie": "entwirrten"
+      },
+      "imperativ": {
+        "du": "Entwirre!",
+        "ihr": "Entwirrt!",
+        "Sie": "Entwirren Sie!"
+      }
+    },
+    "partizip1": "entwirrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "wirr",
+    "woerter": [
+      {
+        "wort": "wirr",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "درهم",
+          "en": "tangled"
+        },
+        "id_ref": "adjektiv_wirr"
+      },
+      {
+        "wort": "verwirren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گیج کردن",
+          "en": "to confuse"
+        },
+        "id_ref": "verb_verwirren"
+      },
+      {
+        "wort": "der Knoten",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گره",
+          "en": "knot"
+        },
+        "id_ref": "nomen_knoten"
+      },
+      {
+        "wort": "lösen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حل کردن",
+          "en": "to solve"
+        },
+        "id_ref": "verb_loesen"
+      },
+      {
+        "wort": "kompliziert",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پیچیده",
+          "en": "complicated"
+        },
+        "id_ref": "adjektiv_kompliziert"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

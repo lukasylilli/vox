@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_entsaften",
+  "wort": "entsaften",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آب (میوه) را گرفتن"
+    ],
+    "en": [
+      "to extract juice from",
+      "to juice"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Essen",
+    "Küche"
+  ],
+  "ipa": "ɛntˈzaftn̩",
+  "anmerkung": "Regelmäßig (entsaftete, entsaftet). Untrennbar.",
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Oma entsaftet die Johannisbeeren.",
+      "uebersetzung": {
+        "fa": "مادربزرگ آب انگور فرنگی را می‌گیرد.",
+        "en": "Grandma extracts the juice from the currants."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn man die Äpfel entsaftet, bevor sie schlecht werden, kann man den Saft lange aufbewahren.",
+      "uebersetzung": {
+        "fa": "اگر آب سیب‌ها را پیش از خراب شدن بگیری، می‌توانی آبمیوه را مدت زیادی نگه داری.",
+        "en": "If you juice the apples before they go bad, you can keep the juice for a long time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "auspressen",
+      "uebersetzung": {
+        "fa": "فشردن و آب گرفتن",
+        "en": "to squeeze out"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- (بیرون کشیدن) + Saft (آبمیوه)",
+    "en": "ent- (extraction) + Saft (juice)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "entsaften",
+      "praeteritum": "entsaftete",
+      "partizip2": "entsaftet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entsafte",
+        "du": "entsaftest",
+        "er_sie_es": "entsaftet",
+        "wir": "entsaften",
+        "ihr": "entsaftet",
+        "sie_Sie": "entsaften"
+      },
+      "praeteritum": {
+        "ich": "entsaftete",
+        "du": "entsaftetest",
+        "er_sie_es": "entsaftete",
+        "wir": "entsafteten",
+        "ihr": "entsaftetet",
+        "sie_Sie": "entsafteten"
+      },
+      "konjunktiv1": {
+        "ich": "entsafte",
+        "du": "entsaftest",
+        "er_sie_es": "entsafte",
+        "wir": "entsaften",
+        "ihr": "entsaftet",
+        "sie_Sie": "entsaften"
+      },
+      "konjunktiv2": {
+        "ich": "entsaftete",
+        "du": "entsaftetest",
+        "er_sie_es": "entsaftete",
+        "wir": "entsafteten",
+        "ihr": "entsaftetet",
+        "sie_Sie": "entsafteten"
+      },
+      "imperativ": {
+        "du": "Entsafte!",
+        "ihr": "Entsaftet!",
+        "Sie": "Entsaften Sie!"
+      }
+    },
+    "partizip1": "entsaftend",
+    "nominalisierung": "die Entsaftung"
+  },
+  "wortnetz": {
+    "grundwort": "Saft",
+    "woerter": [
+      {
+        "wort": "der Saft",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آبمیوه",
+          "en": "juice"
+        },
+        "id_ref": "nomen_saft"
+      },
+      {
+        "wort": "das Obst",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "میوه",
+          "en": "fruit"
+        },
+        "id_ref": "nomen_obst"
+      },
+      {
+        "wort": "auspressen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فشردن",
+          "en": "to squeeze out"
+        },
+        "id_ref": "verb_auspressen"
+      },
+      {
+        "wort": "der Entsafter",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آبمیوه‌گیری",
+          "en": "juicer"
+        },
+        "id_ref": "nomen_entsafter"
+      },
+      {
+        "wort": "saftig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آبدار",
+          "en": "juicy"
+        },
+        "id_ref": "adjektiv_saftig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

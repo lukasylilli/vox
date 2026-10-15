@@ -1,0 +1,209 @@
+{
+  "schema": "3.0",
+  "id": "verb_entschuldigen",
+  "wort": "entschuldigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "عذرخواهی کردن",
+      "بخشیدن",
+      "موجه دانستن (غیبت)"
+    ],
+    "en": [
+      "to apologize",
+      "to excuse"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Kommunikation",
+    "Alltag"
+  ],
+  "ipa": "ɛntˈʃʊldɪɡn̩",
+  "anmerkung": "Regelmäßig (entschuldigte, entschuldigt). Untrennbar. Meist reflexiv: «sich entschuldigen». Höflich: «Entschuldigen Sie bitte!» / «Entschuldigung!».",
+  "berufe": [
+    "kinder_bildung",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Entschuldigen Sie, wo ist der Bahnhof?",
+      "uebersetzung": {
+        "fa": "ببخشید، ایستگاه قطار کجاست؟",
+        "en": "Excuse me, where is the station?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich möchte mich entschuldigen, weil ich gestern so unfreundlich war.",
+      "uebersetzung": {
+        "fa": "می‌خواهم عذرخواهی کنم، چون دیروز خیلی بی‌ادب بودم.",
+        "en": "I would like to apologize because I was so unfriendly yesterday."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verzeihen",
+      "uebersetzung": {
+        "fa": "بخشیدن",
+        "en": "to forgive"
+      }
+    },
+    {
+      "wort": "um Verzeihung bitten",
+      "uebersetzung": {
+        "fa": "طلب بخشش کردن",
+        "en": "to ask for forgiveness"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "beschuldigen",
+      "uebersetzung": {
+        "fa": "متهم کردن",
+        "en": "to accuse"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- (برداشتن) + Schuld (تقصیر)",
+    "en": "ent- (removal) + Schuld (guilt)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich bei + Dat für + Akk entschuldigen",
+        "bedeutung": "jemanden um Verzeihung für etwas bitten",
+        "beispiel": "Er entschuldigt sich bei seiner Frau für die Verspätung.",
+        "uebersetzung": {
+          "fa": "او به‌خاطر دیر آمدن از همسرش عذرخواهی می‌کند.",
+          "en": "He apologizes to his wife for being late."
+        }
+      },
+      {
+        "muster": "jemanden entschuldigen",
+        "bedeutung": "das Fehlen von jemandem erklären",
+        "beispiel": "Die Mutter entschuldigt ihr Kind beim Lehrer.",
+        "uebersetzung": {
+          "fa": "مادر نزد معلم برای غیبت بچه‌اش عذر می‌آورد.",
+          "en": "The mother excuses her child to the teacher."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "entschuldigen",
+      "praeteritum": "entschuldigte",
+      "partizip2": "entschuldigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entschuldige",
+        "du": "entschuldigst",
+        "er_sie_es": "entschuldigt",
+        "wir": "entschuldigen",
+        "ihr": "entschuldigt",
+        "sie_Sie": "entschuldigen"
+      },
+      "praeteritum": {
+        "ich": "entschuldigte",
+        "du": "entschuldigtest",
+        "er_sie_es": "entschuldigte",
+        "wir": "entschuldigten",
+        "ihr": "entschuldigtet",
+        "sie_Sie": "entschuldigten"
+      },
+      "konjunktiv1": {
+        "ich": "entschuldige",
+        "du": "entschuldigest",
+        "er_sie_es": "entschuldige",
+        "wir": "entschuldigen",
+        "ihr": "entschuldiget",
+        "sie_Sie": "entschuldigen"
+      },
+      "konjunktiv2": {
+        "ich": "entschuldigte",
+        "du": "entschuldigtest",
+        "er_sie_es": "entschuldigte",
+        "wir": "entschuldigten",
+        "ihr": "entschuldigtet",
+        "sie_Sie": "entschuldigten"
+      },
+      "imperativ": {
+        "du": "Entschuldige!",
+        "ihr": "Entschuldigt!",
+        "Sie": "Entschuldigen Sie!"
+      }
+    },
+    "partizip1": "entschuldigend",
+    "nominalisierung": "die Entschuldigung"
+  },
+  "wortnetz": {
+    "grundwort": "Schuld",
+    "woerter": [
+      {
+        "wort": "die Entschuldigung",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عذرخواهی، ببخشید",
+          "en": "apology, excuse me"
+        },
+        "id_ref": "nomen_entschuldigung"
+      },
+      {
+        "wort": "die Schuld",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تقصیر",
+          "en": "guilt"
+        },
+        "id_ref": "nomen_schuld"
+      },
+      {
+        "wort": "verzeihen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بخشیدن",
+          "en": "to forgive"
+        },
+        "id_ref": "verb_verzeihen"
+      },
+      {
+        "wort": "leidtun",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "متأسف بودن",
+          "en": "to be sorry"
+        },
+        "id_ref": "verb_leidtun"
+      },
+      {
+        "wort": "beschuldigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "متهم کردن",
+          "en": "to accuse"
+        },
+        "id_ref": "verb_beschuldigen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

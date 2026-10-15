@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_erben",
+  "wort": "erben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ارث بردن"
+    ],
+    "en": [
+      "to inherit"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Familie",
+    "Geld"
+  ],
+  "ipa": "ˈɛʁbn̩",
+  "anmerkung": "Regelmäßig (erbte, geerbt). «er» gehört zum Stamm (kein Präfix) ⇒ Partizip II mit ge-: geerbt.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er erbt das Haus von seinem Vater.",
+      "uebersetzung": {
+        "fa": "او خانه را از پدرش ارث می‌برد.",
+        "en": "He inherits the house from his father."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die blauen Augen hat sie von ihrer Großmutter geerbt, die auch so helle Augen hatte.",
+      "uebersetzung": {
+        "fa": "چشم‌های آبی را از مادربزرگش به ارث برده که او هم چشم‌های روشنی داشت.",
+        "en": "She inherited her blue eyes from her grandmother, who also had such light eyes."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "übernehmen",
+      "uebersetzung": {
+        "fa": "به عهده گرفتن",
+        "en": "to take over"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "vererben",
+      "uebersetzung": {
+        "fa": "به ارث گذاشتن",
+        "en": "to bequeath"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Erbe (میراث) + -en",
+    "en": "Erbe (inheritance) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas von + Dat erben",
+        "bedeutung": "etwas nach dem Tod von jemandem bekommen",
+        "beispiel": "Sie hat den Schmuck von ihrer Tante geerbt.",
+        "uebersetzung": {
+          "fa": "جواهرات را از خاله‌اش به ارث برده است.",
+          "en": "She inherited the jewellery from her aunt."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "erben",
+      "praeteritum": "erbte",
+      "partizip2": "geerbt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erbe",
+        "du": "erbst",
+        "er_sie_es": "erbt",
+        "wir": "erben",
+        "ihr": "erbt",
+        "sie_Sie": "erben"
+      },
+      "praeteritum": {
+        "ich": "erbte",
+        "du": "erbtest",
+        "er_sie_es": "erbte",
+        "wir": "erbten",
+        "ihr": "erbtet",
+        "sie_Sie": "erbten"
+      },
+      "konjunktiv1": {
+        "ich": "erbe",
+        "du": "erbest",
+        "er_sie_es": "erbe",
+        "wir": "erben",
+        "ihr": "erbet",
+        "sie_Sie": "erben"
+      },
+      "konjunktiv2": {
+        "ich": "erbte",
+        "du": "erbtest",
+        "er_sie_es": "erbte",
+        "wir": "erbten",
+        "ihr": "erbtet",
+        "sie_Sie": "erbten"
+      },
+      "imperativ": {
+        "du": "Erbe!",
+        "ihr": "Erbt!",
+        "Sie": "Erben Sie!"
+      }
+    },
+    "partizip1": "erbend",
+    "nominalisierung": "die Erbschaft"
+  },
+  "wortnetz": {
+    "grundwort": "Erbe",
+    "woerter": [
+      {
+        "wort": "das Erbe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "میراث",
+          "en": "inheritance"
+        },
+        "id_ref": "nomen_erbe"
+      },
+      {
+        "wort": "der Erbe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "وارث",
+          "en": "heir"
+        },
+        "id_ref": "nomen_erbe"
+      },
+      {
+        "wort": "vererben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به ارث گذاشتن",
+          "en": "to bequeath"
+        },
+        "id_ref": "verb_vererben"
+      },
+      {
+        "wort": "das Testament",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "وصیت‌نامه",
+          "en": "will"
+        },
+        "id_ref": "nomen_testament"
+      },
+      {
+        "wort": "die Familie",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خانواده",
+          "en": "family"
+        },
+        "id_ref": "nomen_familie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

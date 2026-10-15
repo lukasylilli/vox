@@ -1,0 +1,169 @@
+{
+  "schema": "3.0",
+  "id": "verb_entwaffnen",
+  "wort": "entwaffnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خلع سلاح کردن"
+    ],
+    "en": [
+      "to disarm"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Politik",
+    "Militär"
+  ],
+  "ipa": "ɛntˈvafnən",
+  "anmerkung": "Regelmäßig (entwaffnete, entwaffnet). Untrennbar. Übertragen: «ein entwaffnendes Lächeln» (das jeden Widerstand nimmt).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Polizist entwaffnet den Mann.",
+      "uebersetzung": {
+        "fa": "پلیس مرد را خلع سلاح می‌کند.",
+        "en": "The police officer disarms the man."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem die Soldaten entwaffnet worden waren, durften sie nach Hause zurückkehren.",
+      "uebersetzung": {
+        "fa": "پس از آن‌که سربازان خلع سلاح شدند، اجازه یافتند به خانه برگردند.",
+        "en": "After the soldiers had been disarmed, they were allowed to return home."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "bewaffnen",
+      "uebersetzung": {
+        "fa": "مسلح کردن",
+        "en": "to arm"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- (گرفتن) + Waffe (سلاح)",
+    "en": "ent- (removal) + Waffe (weapon)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "entwaffnen",
+      "praeteritum": "entwaffnete",
+      "partizip2": "entwaffnet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entwaffne",
+        "du": "entwaffnest",
+        "er_sie_es": "entwaffnet",
+        "wir": "entwaffnen",
+        "ihr": "entwaffnet",
+        "sie_Sie": "entwaffnen"
+      },
+      "praeteritum": {
+        "ich": "entwaffnete",
+        "du": "entwaffnetest",
+        "er_sie_es": "entwaffnete",
+        "wir": "entwaffneten",
+        "ihr": "entwaffnetet",
+        "sie_Sie": "entwaffneten"
+      },
+      "konjunktiv1": {
+        "ich": "entwaffne",
+        "du": "entwaffnest",
+        "er_sie_es": "entwaffne",
+        "wir": "entwaffnen",
+        "ihr": "entwaffnet",
+        "sie_Sie": "entwaffnen"
+      },
+      "konjunktiv2": {
+        "ich": "entwaffnete",
+        "du": "entwaffnetest",
+        "er_sie_es": "entwaffnete",
+        "wir": "entwaffneten",
+        "ihr": "entwaffnetet",
+        "sie_Sie": "entwaffneten"
+      },
+      "imperativ": {
+        "du": "Entwaffne!",
+        "ihr": "Entwaffnet!",
+        "Sie": "Entwaffnen Sie!"
+      }
+    },
+    "partizip1": "entwaffnend",
+    "nominalisierung": "die Entwaffnung"
+  },
+  "wortnetz": {
+    "grundwort": "Waffe",
+    "woerter": [
+      {
+        "wort": "die Waffe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سلاح",
+          "en": "weapon"
+        },
+        "id_ref": "nomen_waffe"
+      },
+      {
+        "wort": "bewaffnen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مسلح کردن",
+          "en": "to arm"
+        },
+        "id_ref": "verb_bewaffnen"
+      },
+      {
+        "wort": "der Soldat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرباز",
+          "en": "soldier"
+        },
+        "id_ref": "nomen_soldat"
+      },
+      {
+        "wort": "der Frieden",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صلح",
+          "en": "peace"
+        },
+        "id_ref": "nomen_frieden"
+      },
+      {
+        "wort": "die Polizei",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پلیس",
+          "en": "police"
+        },
+        "id_ref": "nomen_polizei"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

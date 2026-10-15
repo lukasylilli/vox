@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_entwoehnen",
+  "wort": "entwöhnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "از شیر گرفتن",
+      "ترک دادن (عادت، اعتیاد)"
+    ],
+    "en": [
+      "to wean",
+      "to break of a habit"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gesundheit",
+    "Familie"
+  ],
+  "ipa": "ɛntˈvøːnən",
+  "anmerkung": "Regelmäßig (entwöhnte, entwöhnt). Untrennbar.",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Mutter entwöhnt das Baby.",
+      "uebersetzung": {
+        "fa": "مادر بچه را از شیر می‌گیرد.",
+        "en": "The mother weans the baby."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Patient wird langsam von der Beatmung entwöhnt, bis er wieder selbst atmen kann.",
+      "uebersetzung": {
+        "fa": "بیمار کم‌کم از دستگاه تنفس جدا می‌شود تا دوباره خودش بتواند نفس بکشد.",
+        "en": "The patient is slowly weaned off the ventilator until he can breathe on his own again."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abgewöhnen",
+      "uebersetzung": {
+        "fa": "ترک دادن",
+        "en": "to break of a habit"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "gewöhnen",
+      "uebersetzung": {
+        "fa": "عادت دادن",
+        "en": "to accustom"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- (جدا کردن) + gewöhnen (عادت دادن)",
+    "en": "ent- (away) + gewöhnen (to accustom)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden von + Dat entwöhnen",
+        "bedeutung": "jemanden langsam von etwas unabhängig machen",
+        "beispiel": "Man muss ihn vom Alkohol entwöhnen.",
+        "uebersetzung": {
+          "fa": "باید او را از الکل ترک داد.",
+          "en": "He has to be weaned off alcohol."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "entwöhnen",
+      "praeteritum": "entwöhnte",
+      "partizip2": "entwöhnt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entwöhne",
+        "du": "entwöhnst",
+        "er_sie_es": "entwöhnt",
+        "wir": "entwöhnen",
+        "ihr": "entwöhnt",
+        "sie_Sie": "entwöhnen"
+      },
+      "praeteritum": {
+        "ich": "entwöhnte",
+        "du": "entwöhntest",
+        "er_sie_es": "entwöhnte",
+        "wir": "entwöhnten",
+        "ihr": "entwöhntet",
+        "sie_Sie": "entwöhnten"
+      },
+      "konjunktiv1": {
+        "ich": "entwöhne",
+        "du": "entwöhnest",
+        "er_sie_es": "entwöhne",
+        "wir": "entwöhnen",
+        "ihr": "entwöhnet",
+        "sie_Sie": "entwöhnen"
+      },
+      "konjunktiv2": {
+        "ich": "entwöhnte",
+        "du": "entwöhntest",
+        "er_sie_es": "entwöhnte",
+        "wir": "entwöhnten",
+        "ihr": "entwöhntet",
+        "sie_Sie": "entwöhnten"
+      },
+      "imperativ": {
+        "du": "Entwöhne!",
+        "ihr": "Entwöhnt!",
+        "Sie": "Entwöhnen Sie!"
+      }
+    },
+    "partizip1": "entwöhnend",
+    "nominalisierung": "die Entwöhnung"
+  },
+  "wortnetz": {
+    "grundwort": "gewöhnen",
+    "woerter": [
+      {
+        "wort": "gewöhnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عادت دادن",
+          "en": "to accustom"
+        },
+        "id_ref": "verb_gewoehnen"
+      },
+      {
+        "wort": "die Gewohnheit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عادت",
+          "en": "habit"
+        },
+        "id_ref": "nomen_gewohnheit"
+      },
+      {
+        "wort": "abgewöhnen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ترک کردن (عادت)",
+          "en": "to give up (a habit)"
+        },
+        "id_ref": "verb_abgewoehnen"
+      },
+      {
+        "wort": "die Sucht",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اعتیاد",
+          "en": "addiction"
+        },
+        "id_ref": "nomen_sucht"
+      },
+      {
+        "wort": "das Baby",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نوزاد",
+          "en": "baby"
+        },
+        "id_ref": "nomen_baby"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

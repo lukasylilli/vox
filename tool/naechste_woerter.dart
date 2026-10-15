@@ -1618,6 +1618,7 @@ const zurueckgestellt = <String>{
   'entleiben', // zurückgestellt: «sich entleiben» = Selbsttötung (gehoben/veraltet), sensibles Thema — Entscheidung Lukas 2026-10-15
   'entpersönlichen', // zurückgestellt: selten, Gebrauch nicht sicher (Regel 14) 2026-10-15
   'entrinden', // zurückgestellt: Fachwort Forst, selten (Regel 14) 2026-10-15
+  'entwanzen', // zurückgestellt: zwei seltene Bedeutungen (Ungeziefer / Abhörgeräte), Gebrauch nicht sicher (Regel 14) 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
