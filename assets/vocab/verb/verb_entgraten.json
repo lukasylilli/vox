@@ -1,0 +1,171 @@
+{
+  "schema": "3.0",
+  "id": "verb_entgraten",
+  "wort": "entgraten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پلیسه گرفتن (فلز)"
+    ],
+    "en": [
+      "to deburr"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Technik",
+    "Handwerk"
+  ],
+  "ipa": "ɛntˈɡʁaːtn̩",
+  "anmerkung": "Regelmäßig (entgratete, entgratet). Untrennbar; Fachwort der Metallbearbeitung. Nicht verwechseln mit «entgräten» (Fisch).",
+  "berufe": [
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er entgratet das Rohr.",
+      "uebersetzung": {
+        "fa": "پلیسه‌ی لوله را می‌گیرد.",
+        "en": "He deburrs the pipe."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Sägen muss die Kante entgratet werden, damit sich niemand daran schneidet.",
+      "uebersetzung": {
+        "fa": "پس از اره‌کاری باید پلیسه‌ی لبه گرفته شود تا کسی دستش را نبرد.",
+        "en": "After sawing the edge has to be deburred so that nobody cuts themselves on it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "glätten",
+      "uebersetzung": {
+        "fa": "صاف کردن",
+        "en": "to smooth"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- (جدا) + Grat (لبه‌ی تیز)",
+    "en": "ent- (away) + Grat (burr)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "entgraten",
+      "praeteritum": "entgratete",
+      "partizip2": "entgratet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entgrate",
+        "du": "entgratest",
+        "er_sie_es": "entgratet",
+        "wir": "entgraten",
+        "ihr": "entgratet",
+        "sie_Sie": "entgraten"
+      },
+      "praeteritum": {
+        "ich": "entgratete",
+        "du": "entgratetest",
+        "er_sie_es": "entgratete",
+        "wir": "entgrateten",
+        "ihr": "entgratetet",
+        "sie_Sie": "entgrateten"
+      },
+      "konjunktiv1": {
+        "ich": "entgrate",
+        "du": "entgratest",
+        "er_sie_es": "entgrate",
+        "wir": "entgraten",
+        "ihr": "entgratet",
+        "sie_Sie": "entgraten"
+      },
+      "konjunktiv2": {
+        "ich": "entgratete",
+        "du": "entgratetest",
+        "er_sie_es": "entgratete",
+        "wir": "entgrateten",
+        "ihr": "entgratetet",
+        "sie_Sie": "entgrateten"
+      },
+      "imperativ": {
+        "du": "Entgrate!",
+        "ihr": "Entgratet!",
+        "Sie": "Entgraten Sie!"
+      }
+    },
+    "partizip1": "entgratend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Grat",
+    "woerter": [
+      {
+        "wort": "das Metall",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فلز",
+          "en": "metal"
+        },
+        "id_ref": "nomen_metall"
+      },
+      {
+        "wort": "die Kante",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لبه",
+          "en": "edge"
+        },
+        "id_ref": "nomen_kante"
+      },
+      {
+        "wort": "scharf",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تیز",
+          "en": "sharp"
+        },
+        "id_ref": "adjektiv_scharf"
+      },
+      {
+        "wort": "glätten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "صاف کردن",
+          "en": "to smooth"
+        },
+        "id_ref": "verb_glaetten"
+      },
+      {
+        "wort": "feilen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سوهان زدن",
+          "en": "to file"
+        },
+        "id_ref": "verb_feilen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_entkernen",
+  "wort": "entkernen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "هسته درآوردن",
+      "تخلیه‌ی داخل ساختمان"
+    ],
+    "en": [
+      "to stone",
+      "to core",
+      "to gut (a building)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Essen",
+    "Bau"
+  ],
+  "ipa": "ɛntˈkɛʁnən",
+  "anmerkung": "Regelmäßig (entkernte, entkernt). Untrennbar.",
+  "berufe": [
+    "bau",
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich entkerne die Kirschen.",
+      "uebersetzung": {
+        "fa": "هسته‌ی گیلاس‌ها را درمی‌آورم.",
+        "en": "I am stoning the cherries."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das alte Haus wurde komplett entkernt, sodass nur noch die Außenmauern stehen.",
+      "uebersetzung": {
+        "fa": "خانه‌ی قدیمی کاملاً از داخل تخلیه شد، طوری که فقط دیوارهای بیرونی مانده‌اند.",
+        "en": "The old house was completely gutted so that only the outer walls are still standing."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "auskernen",
+      "uebersetzung": {
+        "fa": "هسته درآوردن",
+        "en": "to stone"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- (جدا) + Kern (هسته)",
+    "en": "ent- (away) + Kern (core, stone)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "entkernen",
+      "praeteritum": "entkernte",
+      "partizip2": "entkernt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entkerne",
+        "du": "entkernst",
+        "er_sie_es": "entkernt",
+        "wir": "entkernen",
+        "ihr": "entkernt",
+        "sie_Sie": "entkernen"
+      },
+      "praeteritum": {
+        "ich": "entkernte",
+        "du": "entkerntest",
+        "er_sie_es": "entkernte",
+        "wir": "entkernten",
+        "ihr": "entkerntet",
+        "sie_Sie": "entkernten"
+      },
+      "konjunktiv1": {
+        "ich": "entkerne",
+        "du": "entkernest",
+        "er_sie_es": "entkerne",
+        "wir": "entkernen",
+        "ihr": "entkernet",
+        "sie_Sie": "entkernen"
+      },
+      "konjunktiv2": {
+        "ich": "entkernte",
+        "du": "entkerntest",
+        "er_sie_es": "entkernte",
+        "wir": "entkernten",
+        "ihr": "entkerntet",
+        "sie_Sie": "entkernten"
+      },
+      "imperativ": {
+        "du": "Entkerne!",
+        "ihr": "Entkernt!",
+        "Sie": "Entkernen Sie!"
+      }
+    },
+    "partizip1": "entkernend",
+    "nominalisierung": "die Entkernung"
+  },
+  "wortnetz": {
+    "grundwort": "Kern",
+    "woerter": [
+      {
+        "wort": "der Kern",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "هسته",
+          "en": "core, stone"
+        },
+        "id_ref": "nomen_kern"
+      },
+      {
+        "wort": "das Obst",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "میوه",
+          "en": "fruit"
+        },
+        "id_ref": "nomen_obst"
+      },
+      {
+        "wort": "die Kirsche",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گیلاس",
+          "en": "cherry"
+        },
+        "id_ref": "nomen_kirsche"
+      },
+      {
+        "wort": "renovieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نوسازی کردن",
+          "en": "to renovate"
+        },
+        "id_ref": "verb_renovieren"
+      },
+      {
+        "wort": "das Gebäude",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ساختمان",
+          "en": "building"
+        },
+        "id_ref": "nomen_gebaeude"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

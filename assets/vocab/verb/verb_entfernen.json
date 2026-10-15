@@ -1,0 +1,201 @@
+{
+  "schema": "3.0",
+  "id": "verb_entfernen",
+  "wort": "entfernen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "برداشتن",
+      "دور کردن",
+      "دور شدن"
+    ],
+    "en": [
+      "to remove",
+      "to move away"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Medizin"
+  ],
+  "ipa": "ɛntˈfɛʁnən",
+  "anmerkung": "Regelmäßig (entfernte, entfernt). Untrennbar; reflexiv: sich entfernen (weggehen).",
+  "berufe": [
+    "pflege_medizin",
+    "reinigung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte entfernen Sie das Etikett.",
+      "uebersetzung": {
+        "fa": "لطفاً برچسب را بردارید.",
+        "en": "Please remove the label."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nach zehn Tagen hat die Ärztin die Fäden entfernt, weil die Wunde gut verheilt war.",
+      "uebersetzung": {
+        "fa": "پس از ده روز پزشک بخیه‌ها را کشید، چون زخم خوب جوش خورده بود.",
+        "en": "After ten days the doctor removed the stitches because the wound had healed well."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beseitigen",
+      "uebersetzung": {
+        "fa": "رفع کردن",
+        "en": "to remove"
+      }
+    },
+    {
+      "wort": "wegmachen",
+      "uebersetzung": {
+        "fa": "پاک کردن، برداشتن",
+        "en": "to get rid of"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- (جدا) + fern (دور)",
+    "en": "ent- (away) + fern (far)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "etwas aus + Dat entfernen",
+        "bedeutung": "etwas aus etwas herausnehmen",
+        "beispiel": "Er entfernt den Splitter aus dem Finger.",
+        "uebersetzung": {
+          "fa": "تراشه را از انگشت بیرون می‌آورد.",
+          "en": "He removes the splinter from the finger."
+        }
+      },
+      {
+        "muster": "sich von + Dat entfernen",
+        "bedeutung": "von einem Ort weggehen",
+        "beispiel": "Das Kind entfernt sich vom Spielplatz.",
+        "uebersetzung": {
+          "fa": "بچه از زمین بازی دور می‌شود.",
+          "en": "The child moves away from the playground."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "entfernen",
+      "praeteritum": "entfernte",
+      "partizip2": "entfernt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entferne",
+        "du": "entfernst",
+        "er_sie_es": "entfernt",
+        "wir": "entfernen",
+        "ihr": "entfernt",
+        "sie_Sie": "entfernen"
+      },
+      "praeteritum": {
+        "ich": "entfernte",
+        "du": "entferntest",
+        "er_sie_es": "entfernte",
+        "wir": "entfernten",
+        "ihr": "entferntet",
+        "sie_Sie": "entfernten"
+      },
+      "konjunktiv1": {
+        "ich": "entferne",
+        "du": "entfernest",
+        "er_sie_es": "entferne",
+        "wir": "entfernen",
+        "ihr": "entfernet",
+        "sie_Sie": "entfernen"
+      },
+      "konjunktiv2": {
+        "ich": "entfernte",
+        "du": "entferntest",
+        "er_sie_es": "entfernte",
+        "wir": "entfernten",
+        "ihr": "entferntet",
+        "sie_Sie": "entfernten"
+      },
+      "imperativ": {
+        "du": "Entferne!",
+        "ihr": "Entfernt!",
+        "Sie": "Entfernen Sie!"
+      }
+    },
+    "partizip1": "entfernend",
+    "nominalisierung": "die Entfernung"
+  },
+  "wortnetz": {
+    "grundwort": "fern",
+    "woerter": [
+      {
+        "wort": "fern",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دور",
+          "en": "far"
+        },
+        "id_ref": "adjektiv_fern"
+      },
+      {
+        "wort": "die Entfernung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فاصله",
+          "en": "distance"
+        },
+        "id_ref": "nomen_entfernung"
+      },
+      {
+        "wort": "weg",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دور، رفته",
+          "en": "away"
+        },
+        "id_ref": "adverb_weg"
+      },
+      {
+        "wort": "beseitigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رفع کردن",
+          "en": "to remove"
+        },
+        "id_ref": "verb_beseitigen"
+      },
+      {
+        "wort": "entfernt",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دوردست",
+          "en": "remote"
+        },
+        "id_ref": "adjektiv_entfernt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

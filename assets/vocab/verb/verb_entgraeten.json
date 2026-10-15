@@ -1,0 +1,171 @@
+{
+  "schema": "3.0",
+  "id": "verb_entgraeten",
+  "wort": "entgräten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تیغ ماهی را گرفتن"
+    ],
+    "en": [
+      "to bone (fish)"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Essen",
+    "Küche"
+  ],
+  "ipa": "ɛntˈɡʁɛːtn̩",
+  "anmerkung": "Regelmäßig (entgrätete, entgrätet). Untrennbar.",
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Koch entgrätet den Fisch.",
+      "uebersetzung": {
+        "fa": "آشپز تیغ ماهی را می‌گیرد.",
+        "en": "The cook bones the fish."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Für Kinder sollte man den Fisch sorgfältig entgräten, weil sie sich sonst verschlucken können.",
+      "uebersetzung": {
+        "fa": "برای بچه‌ها باید تیغ ماهی را با دقت گرفت، چون وگرنه ممکن است در گلویشان گیر کند.",
+        "en": "For children the fish should be boned carefully, otherwise they can choke."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "filetieren",
+      "uebersetzung": {
+        "fa": "فیله کردن",
+        "en": "to fillet"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- (جدا) + Gräte (تیغ ماهی)",
+    "en": "ent- (away) + Gräte (fish bone)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "entgräten",
+      "praeteritum": "entgrätete",
+      "partizip2": "entgrätet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entgräte",
+        "du": "entgrätest",
+        "er_sie_es": "entgrätet",
+        "wir": "entgräten",
+        "ihr": "entgrätet",
+        "sie_Sie": "entgräten"
+      },
+      "praeteritum": {
+        "ich": "entgrätete",
+        "du": "entgrätetest",
+        "er_sie_es": "entgrätete",
+        "wir": "entgräteten",
+        "ihr": "entgrätetet",
+        "sie_Sie": "entgräteten"
+      },
+      "konjunktiv1": {
+        "ich": "entgräte",
+        "du": "entgrätest",
+        "er_sie_es": "entgräte",
+        "wir": "entgräten",
+        "ihr": "entgrätet",
+        "sie_Sie": "entgräten"
+      },
+      "konjunktiv2": {
+        "ich": "entgrätete",
+        "du": "entgrätetest",
+        "er_sie_es": "entgrätete",
+        "wir": "entgräteten",
+        "ihr": "entgrätetet",
+        "sie_Sie": "entgräteten"
+      },
+      "imperativ": {
+        "du": "Entgräte!",
+        "ihr": "Entgrätet!",
+        "Sie": "Entgräten Sie!"
+      }
+    },
+    "partizip1": "entgrätend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Gräte",
+    "woerter": [
+      {
+        "wort": "der Fisch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ماهی",
+          "en": "fish"
+        },
+        "id_ref": "nomen_fisch"
+      },
+      {
+        "wort": "die Gräte",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تیغ ماهی",
+          "en": "fish bone"
+        },
+        "id_ref": "nomen_graete"
+      },
+      {
+        "wort": "kochen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پختن",
+          "en": "to cook"
+        },
+        "id_ref": "verb_kochen"
+      },
+      {
+        "wort": "das Filet",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فیله",
+          "en": "fillet"
+        },
+        "id_ref": "nomen_filet"
+      },
+      {
+        "wort": "die Küche",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آشپزخانه",
+          "en": "kitchen"
+        },
+        "id_ref": "nomen_kueche"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

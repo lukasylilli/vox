@@ -1,0 +1,196 @@
+{
+  "schema": "3.0",
+  "id": "verb_entgegnen",
+  "wort": "entgegnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پاسخ دادن",
+      "در جواب گفتن"
+    ],
+    "en": [
+      "to reply",
+      "to retort"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "ɛntˈɡeːɡnən",
+  "anmerkung": "Regelmäßig (entgegnete, entgegnet). Untrennbar.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "«Nein», entgegnet sie.",
+      "uebersetzung": {
+        "fa": "«نه»، در جواب می‌گوید.",
+        "en": "«No», she replies."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Auf die Kritik entgegnete der Trainer, dass die Mannschaft noch Zeit brauche.",
+      "uebersetzung": {
+        "fa": "مربی در پاسخ به انتقاد گفت که تیم هنوز به زمان نیاز دارد.",
+        "en": "In response to the criticism the coach replied that the team still needed time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "antworten",
+      "uebersetzung": {
+        "fa": "جواب دادن",
+        "en": "to answer"
+      }
+    },
+    {
+      "wort": "erwidern",
+      "uebersetzung": {
+        "fa": "پاسخ دادن",
+        "en": "to reply"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "entgegen (در برابر) + -en",
+    "en": "entgegen (towards, against) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "+ Dat etwas entgegnen",
+        "bedeutung": "jemandem etwas als Antwort sagen",
+        "beispiel": "Er entgegnete ihr nichts.",
+        "uebersetzung": {
+          "fa": "هیچ جوابی به او نداد.",
+          "en": "He said nothing in reply to her."
+        }
+      },
+      {
+        "muster": "auf + Akk entgegnen",
+        "bedeutung": "auf eine Äußerung antworten",
+        "beispiel": "Was entgegnest du auf diesen Vorwurf?",
+        "uebersetzung": {
+          "fa": "در جواب این اتهام چه می‌گویی؟",
+          "en": "What do you say in reply to this accusation?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "entgegnen",
+      "praeteritum": "entgegnete",
+      "partizip2": "entgegnet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entgegne",
+        "du": "entgegnest",
+        "er_sie_es": "entgegnet",
+        "wir": "entgegnen",
+        "ihr": "entgegnet",
+        "sie_Sie": "entgegnen"
+      },
+      "praeteritum": {
+        "ich": "entgegnete",
+        "du": "entgegnetest",
+        "er_sie_es": "entgegnete",
+        "wir": "entgegneten",
+        "ihr": "entgegnetet",
+        "sie_Sie": "entgegneten"
+      },
+      "konjunktiv1": {
+        "ich": "entgegne",
+        "du": "entgegnest",
+        "er_sie_es": "entgegne",
+        "wir": "entgegnen",
+        "ihr": "entgegnet",
+        "sie_Sie": "entgegnen"
+      },
+      "konjunktiv2": {
+        "ich": "entgegnete",
+        "du": "entgegnetest",
+        "er_sie_es": "entgegnete",
+        "wir": "entgegneten",
+        "ihr": "entgegnetet",
+        "sie_Sie": "entgegneten"
+      },
+      "imperativ": {
+        "du": "Entgegne!",
+        "ihr": "Entgegnet!",
+        "Sie": "Entgegnen Sie!"
+      }
+    },
+    "partizip1": "entgegnend",
+    "nominalisierung": "die Entgegnung"
+  },
+  "wortnetz": {
+    "grundwort": "Antwort",
+    "woerter": [
+      {
+        "wort": "antworten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جواب دادن",
+          "en": "to answer"
+        },
+        "id_ref": "verb_antworten"
+      },
+      {
+        "wort": "die Antwort",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جواب",
+          "en": "answer"
+        },
+        "id_ref": "nomen_antwort"
+      },
+      {
+        "wort": "erwidern",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پاسخ دادن",
+          "en": "to reply"
+        },
+        "id_ref": "verb_erwidern"
+      },
+      {
+        "wort": "widersprechen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مخالفت کردن",
+          "en": "to contradict"
+        },
+        "id_ref": "verb_widersprechen"
+      },
+      {
+        "wort": "der Einwand",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ایراد",
+          "en": "objection"
+        },
+        "id_ref": "nomen_einwand"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

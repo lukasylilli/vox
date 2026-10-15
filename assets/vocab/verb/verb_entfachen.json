@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_entfachen",
+  "wort": "entfachen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شعله‌ور کردن",
+      "برانگیختن"
+    ],
+    "en": [
+      "to kindle",
+      "to spark"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle",
+    "Natur"
+  ],
+  "ipa": "ɛntˈfaxn̩",
+  "anmerkung": "Regelmäßig (entfachte, entfacht). Untrennbar.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er entfacht ein Feuer.",
+      "uebersetzung": {
+        "fa": "آتشی روشن می‌کند.",
+        "en": "He kindles a fire."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Aussage des Ministers hat eine heftige Diskussion entfacht, die wochenlang andauerte.",
+      "uebersetzung": {
+        "fa": "سخن وزیر بحث تندی را برانگیخت که هفته‌ها ادامه داشت.",
+        "en": "The minister's statement sparked a heated debate that lasted for weeks."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anzünden",
+      "uebersetzung": {
+        "fa": "روشن کردن (آتش)",
+        "en": "to light"
+      }
+    },
+    {
+      "wort": "auslösen",
+      "uebersetzung": {
+        "fa": "باعث شدن",
+        "en": "to trigger"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "löschen",
+      "uebersetzung": {
+        "fa": "خاموش کردن",
+        "en": "to extinguish"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- + fachen (دمیدن در آتش)",
+    "en": "ent- + fachen (to fan)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "entfachen",
+      "praeteritum": "entfachte",
+      "partizip2": "entfacht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entfache",
+        "du": "entfachst",
+        "er_sie_es": "entfacht",
+        "wir": "entfachen",
+        "ihr": "entfacht",
+        "sie_Sie": "entfachen"
+      },
+      "praeteritum": {
+        "ich": "entfachte",
+        "du": "entfachtest",
+        "er_sie_es": "entfachte",
+        "wir": "entfachten",
+        "ihr": "entfachtet",
+        "sie_Sie": "entfachten"
+      },
+      "konjunktiv1": {
+        "ich": "entfache",
+        "du": "entfachest",
+        "er_sie_es": "entfache",
+        "wir": "entfachen",
+        "ihr": "entfachet",
+        "sie_Sie": "entfachen"
+      },
+      "konjunktiv2": {
+        "ich": "entfachte",
+        "du": "entfachtest",
+        "er_sie_es": "entfachte",
+        "wir": "entfachten",
+        "ihr": "entfachtet",
+        "sie_Sie": "entfachten"
+      },
+      "imperativ": {
+        "du": "Entfache!",
+        "ihr": "Entfacht!",
+        "Sie": "Entfachen Sie!"
+      }
+    },
+    "partizip1": "entfachend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Feuer",
+    "woerter": [
+      {
+        "wort": "das Feuer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آتش",
+          "en": "fire"
+        },
+        "id_ref": "nomen_feuer"
+      },
+      {
+        "wort": "anzünden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "روشن کردن",
+          "en": "to light"
+        },
+        "id_ref": "verb_anzuenden"
+      },
+      {
+        "wort": "die Leidenschaft",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شور",
+          "en": "passion"
+        },
+        "id_ref": "nomen_leidenschaft"
+      },
+      {
+        "wort": "auslösen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "باعث شدن",
+          "en": "to trigger"
+        },
+        "id_ref": "verb_ausloesen"
+      },
+      {
+        "wort": "löschen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خاموش کردن، پاک کردن",
+          "en": "to extinguish, to delete"
+        },
+        "id_ref": "verb_loeschen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

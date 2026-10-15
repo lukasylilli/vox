@@ -1,0 +1,197 @@
+{
+  "schema": "3.0",
+  "id": "verb_entkoppeln",
+  "wort": "entkoppeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جدا کردن (از هم)",
+      "جداسازی"
+    ],
+    "en": [
+      "to decouple"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Technik",
+    "Wirtschaft"
+  ],
+  "ipa": "ɛntˈkɔpl̩n",
+  "anmerkung": "Regelmäßig (entkoppelte, entkoppelt). Untrennbar.",
+  "berufe": [
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Man entkoppelt die Wagen.",
+      "uebersetzung": {
+        "fa": "واگن‌ها را از هم جدا می‌کنند.",
+        "en": "The wagons are uncoupled."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ziel ist es, das Wirtschaftswachstum vom Energieverbrauch zu entkoppeln.",
+      "uebersetzung": {
+        "fa": "هدف این است که رشد اقتصادی از مصرف انرژی جدا شود.",
+        "en": "The aim is to decouple economic growth from energy consumption."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "trennen",
+      "uebersetzung": {
+        "fa": "جدا کردن",
+        "en": "to separate"
+      }
+    },
+    {
+      "wort": "abkoppeln",
+      "uebersetzung": {
+        "fa": "جدا کردن",
+        "en": "to uncouple"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "koppeln",
+      "uebersetzung": {
+        "fa": "به هم وصل کردن",
+        "en": "to couple"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- (جدا) + koppeln (وصل کردن)",
+    "en": "ent- (apart) + koppeln (to couple)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas von + Dat entkoppeln",
+        "bedeutung": "die Verbindung zwischen zwei Dingen lösen",
+        "beispiel": "Die Löhne wurden von den Preisen entkoppelt.",
+        "uebersetzung": {
+          "fa": "دستمزدها از قیمت‌ها جدا شدند.",
+          "en": "Wages were decoupled from prices."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "entkoppeln",
+      "praeteritum": "entkoppelte",
+      "partizip2": "entkoppelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entkopple",
+        "du": "entkoppelst",
+        "er_sie_es": "entkoppelt",
+        "wir": "entkoppeln",
+        "ihr": "entkoppelt",
+        "sie_Sie": "entkoppeln"
+      },
+      "praeteritum": {
+        "ich": "entkoppelte",
+        "du": "entkoppeltest",
+        "er_sie_es": "entkoppelte",
+        "wir": "entkoppelten",
+        "ihr": "entkoppeltet",
+        "sie_Sie": "entkoppelten"
+      },
+      "konjunktiv1": {
+        "ich": "entkopple",
+        "du": "entkopplest",
+        "er_sie_es": "entkopple",
+        "wir": "entkoppeln",
+        "ihr": "entkopplet",
+        "sie_Sie": "entkoppeln"
+      },
+      "konjunktiv2": {
+        "ich": "entkoppelte",
+        "du": "entkoppeltest",
+        "er_sie_es": "entkoppelte",
+        "wir": "entkoppelten",
+        "ihr": "entkoppeltet",
+        "sie_Sie": "entkoppelten"
+      },
+      "imperativ": {
+        "du": "Entkopple!",
+        "ihr": "Entkoppelt!",
+        "Sie": "Entkoppeln Sie!"
+      }
+    },
+    "partizip1": "entkoppelnd",
+    "nominalisierung": "die Entkopplung"
+  },
+  "wortnetz": {
+    "grundwort": "koppeln",
+    "woerter": [
+      {
+        "wort": "trennen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جدا کردن",
+          "en": "to separate"
+        },
+        "id_ref": "verb_trennen"
+      },
+      {
+        "wort": "verbinden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وصل کردن",
+          "en": "to connect"
+        },
+        "id_ref": "verb_verbinden"
+      },
+      {
+        "wort": "koppeln",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "به هم وصل کردن",
+          "en": "to couple"
+        },
+        "id_ref": "verb_koppeln"
+      },
+      {
+        "wort": "die Verbindung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اتصال",
+          "en": "connection"
+        },
+        "id_ref": "nomen_verbindung"
+      },
+      {
+        "wort": "unabhängig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مستقل",
+          "en": "independent"
+        },
+        "id_ref": "adjektiv_unabhaengig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

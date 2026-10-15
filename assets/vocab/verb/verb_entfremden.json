@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_entfremden",
+  "wort": "entfremden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "از هم بیگانه کردن",
+      "بیگانه شدن"
+    ],
+    "en": [
+      "to alienate",
+      "to estrange"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Beziehung",
+    "Gesellschaft"
+  ],
+  "ipa": "ɛntˈfʁɛmdn̩",
+  "anmerkung": "Regelmäßig (entfremdete, entfremdet). Untrennbar; meist reflexiv: sich entfremden.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Arbeit entfremdet ihn von der Familie.",
+      "uebersetzung": {
+        "fa": "کار او را از خانواده‌اش دور می‌کند.",
+        "en": "The job estranges him from his family."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Umzug haben sich die beiden Freunde langsam entfremdet, weil sie kaum noch Kontakt hatten.",
+      "uebersetzung": {
+        "fa": "پس از اسباب‌کشی دو دوست کم‌کم با هم غریبه شدند، چون دیگر تقریباً ارتباطی نداشتند.",
+        "en": "After the move the two friends slowly drifted apart because they hardly had any contact any more."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich auseinanderleben",
+      "uebersetzung": {
+        "fa": "از هم دور شدن",
+        "en": "to drift apart"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ent- + fremd (بیگانه)",
+    "en": "ent- + fremd (foreign)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich von + Dat entfremden",
+        "bedeutung": "jemandem oder etwas innerlich fremd werden",
+        "beispiel": "Er hat sich von seiner Heimat entfremdet.",
+        "uebersetzung": {
+          "fa": "با زادگاهش غریبه شده است.",
+          "en": "He has become estranged from his homeland."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "entfremden",
+      "praeteritum": "entfremdete",
+      "partizip2": "entfremdet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "entfremde",
+        "du": "entfremdest",
+        "er_sie_es": "entfremdet",
+        "wir": "entfremden",
+        "ihr": "entfremdet",
+        "sie_Sie": "entfremden"
+      },
+      "praeteritum": {
+        "ich": "entfremdete",
+        "du": "entfremdetest",
+        "er_sie_es": "entfremdete",
+        "wir": "entfremdeten",
+        "ihr": "entfremdetet",
+        "sie_Sie": "entfremdeten"
+      },
+      "konjunktiv1": {
+        "ich": "entfremde",
+        "du": "entfremdest",
+        "er_sie_es": "entfremde",
+        "wir": "entfremden",
+        "ihr": "entfremdet",
+        "sie_Sie": "entfremden"
+      },
+      "konjunktiv2": {
+        "ich": "entfremdete",
+        "du": "entfremdetest",
+        "er_sie_es": "entfremdete",
+        "wir": "entfremdeten",
+        "ihr": "entfremdetet",
+        "sie_Sie": "entfremdeten"
+      },
+      "imperativ": {
+        "du": "Entfremde!",
+        "ihr": "Entfremdet!",
+        "Sie": "Entfremden Sie!"
+      }
+    },
+    "partizip1": "entfremdend",
+    "nominalisierung": "die Entfremdung"
+  },
+  "wortnetz": {
+    "grundwort": "fremd",
+    "woerter": [
+      {
+        "wort": "fremd",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیگانه",
+          "en": "strange"
+        },
+        "id_ref": "adjektiv_fremd"
+      },
+      {
+        "wort": "die Beziehung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رابطه",
+          "en": "relationship"
+        },
+        "id_ref": "nomen_beziehung"
+      },
+      {
+        "wort": "die Distanz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فاصله",
+          "en": "distance"
+        },
+        "id_ref": "nomen_distanz"
+      },
+      {
+        "wort": "einsam",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تنها",
+          "en": "lonely"
+        },
+        "id_ref": "adjektiv_einsam"
+      },
+      {
+        "wort": "die Entfremdung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بیگانگی",
+          "en": "alienation"
+        },
+        "id_ref": "nomen_entfremdung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
