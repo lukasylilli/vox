@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_ernten",
+  "wort": "ernten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "برداشت کردن (محصول)",
+      "به دست آوردن (نتیجه)"
+    ],
+    "en": [
+      "to harvest",
+      "to reap"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Natur",
+    "Landwirtschaft"
+  ],
+  "ipa": "ˈɛʁntn̩",
+  "anmerkung": "Regelmäßig (erntete, geerntet). «er» gehört zum Stamm (Ernte) ⇒ Partizip II mit ge-: geerntet. Übertragen: «Lob/Kritik ernten».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Im Herbst ernten wir Äpfel.",
+      "uebersetzung": {
+        "fa": "در پاییز سیب می‌چینیم.",
+        "en": "In autumn we harvest apples."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Für seine Idee hat er viel Lob geerntet, obwohl sie am Anfang niemand verstand.",
+      "uebersetzung": {
+        "fa": "برای ایده‌اش تعریف زیادی شنید، با این‌که اول هیچ‌کس آن را نمی‌فهمید.",
+        "en": "He reaped a lot of praise for his idea although nobody understood it at first."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "pflücken",
+      "uebersetzung": {
+        "fa": "چیدن",
+        "en": "to pick"
+      }
+    },
+    {
+      "wort": "einbringen",
+      "uebersetzung": {
+        "fa": "جمع کردن (محصول)",
+        "en": "to bring in"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "säen",
+      "uebersetzung": {
+        "fa": "کاشتن (بذر)",
+        "en": "to sow"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Ernte (برداشت محصول) + -en",
+    "en": "Ernte (harvest) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "ernten",
+      "praeteritum": "erntete",
+      "partizip2": "geerntet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ernte",
+        "du": "erntest",
+        "er_sie_es": "erntet",
+        "wir": "ernten",
+        "ihr": "erntet",
+        "sie_Sie": "ernten"
+      },
+      "praeteritum": {
+        "ich": "erntete",
+        "du": "erntetest",
+        "er_sie_es": "erntete",
+        "wir": "ernteten",
+        "ihr": "erntetet",
+        "sie_Sie": "ernteten"
+      },
+      "konjunktiv1": {
+        "ich": "ernte",
+        "du": "erntest",
+        "er_sie_es": "ernte",
+        "wir": "ernten",
+        "ihr": "erntet",
+        "sie_Sie": "ernten"
+      },
+      "konjunktiv2": {
+        "ich": "erntete",
+        "du": "erntetest",
+        "er_sie_es": "erntete",
+        "wir": "ernteten",
+        "ihr": "erntetet",
+        "sie_Sie": "ernteten"
+      },
+      "imperativ": {
+        "du": "Ernte!",
+        "ihr": "Erntet!",
+        "Sie": "Ernten Sie!"
+      }
+    },
+    "partizip1": "erntend",
+    "nominalisierung": "die Ernte"
+  },
+  "wortnetz": {
+    "grundwort": "Ernte",
+    "woerter": [
+      {
+        "wort": "die Ernte",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برداشت محصول",
+          "en": "harvest"
+        },
+        "id_ref": "nomen_ernte"
+      },
+      {
+        "wort": "der Bauer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کشاورز",
+          "en": "farmer"
+        },
+        "id_ref": "nomen_bauer"
+      },
+      {
+        "wort": "das Feld",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مزرعه",
+          "en": "field"
+        },
+        "id_ref": "nomen_feld"
+      },
+      {
+        "wort": "pflücken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چیدن",
+          "en": "to pick"
+        },
+        "id_ref": "verb_pfluecken"
+      },
+      {
+        "wort": "säen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کاشتن",
+          "en": "to sow"
+        },
+        "id_ref": "verb_saeen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_ermatten",
+  "wort": "ermatten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بی‌رمق شدن",
+      "خسته و ناتوان شدن"
+    ],
+    "en": [
+      "to tire",
+      "to grow weary"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Körper",
+    "Gefühle"
+  ],
+  "ipa": "ɛɐ̯ˈmatn̩",
+  "anmerkung": "Regelmäßig (ermattete, ermattet). Untrennbar. Gehoben. Meist im Partizip: «ermattet». Selten transitiv mit haben (jemanden müde machen).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "In der Hitze ermatten die Tiere.",
+      "uebersetzung": {
+        "fa": "در گرما حیوانات بی‌رمق می‌شوند.",
+        "en": "The animals grow weary in the heat."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem langen Marsch waren die Soldaten völlig ermattet und schliefen sofort ein.",
+      "uebersetzung": {
+        "fa": "پس از راهپیمایی طولانی، سربازان کاملاً بی‌رمق شده بودند و فوراً خوابشان برد.",
+        "en": "After the long march the soldiers were completely exhausted and fell asleep at once."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ermüden",
+      "uebersetzung": {
+        "fa": "خسته شدن",
+        "en": "to tire"
+      }
+    },
+    {
+      "wort": "erschlaffen",
+      "uebersetzung": {
+        "fa": "سست شدن",
+        "en": "to go slack"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (شدن) + matt (بی‌حال)",
+    "en": "er- (becoming) + matt (weak)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "ermatten",
+      "praeteritum": "ermattete",
+      "partizip2": "ermattet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ermatte",
+        "du": "ermattest",
+        "er_sie_es": "ermattet",
+        "wir": "ermatten",
+        "ihr": "ermattet",
+        "sie_Sie": "ermatten"
+      },
+      "praeteritum": {
+        "ich": "ermattete",
+        "du": "ermattetest",
+        "er_sie_es": "ermattete",
+        "wir": "ermatteten",
+        "ihr": "ermattetet",
+        "sie_Sie": "ermatteten"
+      },
+      "konjunktiv1": {
+        "ich": "ermatte",
+        "du": "ermattest",
+        "er_sie_es": "ermatte",
+        "wir": "ermatten",
+        "ihr": "ermattet",
+        "sie_Sie": "ermatten"
+      },
+      "konjunktiv2": {
+        "ich": "ermattete",
+        "du": "ermattetest",
+        "er_sie_es": "ermattete",
+        "wir": "ermatteten",
+        "ihr": "ermattetet",
+        "sie_Sie": "ermatteten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "ermattend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "matt",
+    "woerter": [
+      {
+        "wort": "matt",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بی‌حال، مات",
+          "en": "weak, dull"
+        },
+        "id_ref": "adjektiv_matt"
+      },
+      {
+        "wort": "müde",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خسته",
+          "en": "tired"
+        },
+        "id_ref": "adjektiv_muede"
+      },
+      {
+        "wort": "erschöpft",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خسته و فرسوده",
+          "en": "exhausted"
+        },
+        "id_ref": "adjektiv_erschoepft"
+      },
+      {
+        "wort": "die Kraft",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نیرو",
+          "en": "strength"
+        },
+        "id_ref": "nomen_kraft"
+      },
+      {
+        "wort": "ermüden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خسته شدن",
+          "en": "to tire"
+        },
+        "id_ref": "verb_ermueden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,199 @@
+{
+  "schema": "3.0",
+  "id": "verb_erkundigen",
+  "wort": "erkundigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پرس‌وجو کردن",
+      "جویا شدن"
+    ],
+    "en": [
+      "to inquire",
+      "to ask about"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Kommunikation",
+    "Alltag"
+  ],
+  "ipa": "ɛɐ̯ˈkʊndɪɡn̩",
+  "anmerkung": "Regelmäßig (erkundigte, erkundigt). Untrennbar. Immer reflexiv: «sich erkundigen».",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich erkundige mich am Bahnhof.",
+      "uebersetzung": {
+        "fa": "در ایستگاه پرس‌وجو می‌کنم.",
+        "en": "I am asking at the station."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Sie hat sich beim Arzt erkundigt, ob sie das Medikament mit Alkohol nehmen darf.",
+      "uebersetzung": {
+        "fa": "از پزشک پرسید که آیا می‌تواند دارو را با الکل مصرف کند.",
+        "en": "She asked the doctor whether she may take the medicine with alcohol."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fragen",
+      "uebersetzung": {
+        "fa": "پرسیدن",
+        "en": "to ask"
+      }
+    },
+    {
+      "wort": "sich informieren",
+      "uebersetzung": {
+        "fa": "اطلاعات گرفتن",
+        "en": "to get information"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (به دست آوردن) + kund (آگاه، کهن)",
+    "en": "er- (obtaining) + kund (known, archaic)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich nach + Dat erkundigen",
+        "bedeutung": "nach etwas oder jemandem fragen",
+        "beispiel": "Er erkundigt sich nach dem Weg.",
+        "uebersetzung": {
+          "fa": "او راه را می‌پرسد.",
+          "en": "He asks the way."
+        }
+      },
+      {
+        "muster": "sich bei + Dat erkundigen",
+        "bedeutung": "jemanden um Auskunft bitten",
+        "beispiel": "Erkundigen Sie sich bei der Information!",
+        "uebersetzung": {
+          "fa": "از باجه‌ی اطلاعات بپرسید!",
+          "en": "Ask at the information desk!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "erkundigen",
+      "praeteritum": "erkundigte",
+      "partizip2": "erkundigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erkundige",
+        "du": "erkundigst",
+        "er_sie_es": "erkundigt",
+        "wir": "erkundigen",
+        "ihr": "erkundigt",
+        "sie_Sie": "erkundigen"
+      },
+      "praeteritum": {
+        "ich": "erkundigte",
+        "du": "erkundigtest",
+        "er_sie_es": "erkundigte",
+        "wir": "erkundigten",
+        "ihr": "erkundigtet",
+        "sie_Sie": "erkundigten"
+      },
+      "konjunktiv1": {
+        "ich": "erkundige",
+        "du": "erkundigest",
+        "er_sie_es": "erkundige",
+        "wir": "erkundigen",
+        "ihr": "erkundiget",
+        "sie_Sie": "erkundigen"
+      },
+      "konjunktiv2": {
+        "ich": "erkundigte",
+        "du": "erkundigtest",
+        "er_sie_es": "erkundigte",
+        "wir": "erkundigten",
+        "ihr": "erkundigtet",
+        "sie_Sie": "erkundigten"
+      },
+      "imperativ": {
+        "du": "Erkundige!",
+        "ihr": "Erkundigt!",
+        "Sie": "Erkundigen Sie!"
+      }
+    },
+    "partizip1": "erkundigend",
+    "nominalisierung": "die Erkundigung"
+  },
+  "wortnetz": {
+    "grundwort": "kund",
+    "woerter": [
+      {
+        "wort": "fragen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرسیدن",
+          "en": "to ask"
+        },
+        "id_ref": "verb_fragen"
+      },
+      {
+        "wort": "die Auskunft",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اطلاعات، راهنمایی",
+          "en": "information"
+        },
+        "id_ref": "nomen_auskunft"
+      },
+      {
+        "wort": "die Information",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اطلاعات",
+          "en": "information"
+        },
+        "id_ref": "nomen_information"
+      },
+      {
+        "wort": "informieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آگاه کردن",
+          "en": "to inform"
+        },
+        "id_ref": "verb_informieren"
+      },
+      {
+        "wort": "erkunden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کاوش کردن",
+          "en": "to explore"
+        },
+        "id_ref": "verb_erkunden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

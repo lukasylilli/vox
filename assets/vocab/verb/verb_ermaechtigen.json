@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_ermaechtigen",
+  "wort": "ermächtigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اختیار دادن",
+      "مجاز کردن"
+    ],
+    "en": [
+      "to authorize",
+      "to empower"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Arbeit"
+  ],
+  "ipa": "ɛɐ̯ˈmɛçtɪɡn̩",
+  "anmerkung": "Regelmäßig (ermächtigte, ermächtigt). Untrennbar.",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Chef ermächtigt sie.",
+      "uebersetzung": {
+        "fa": "رئیس به او اختیار می‌دهد.",
+        "en": "The boss authorizes her."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ich ermächtige meinen Bruder, das Paket für mich abzuholen, weil ich verreist bin.",
+      "uebersetzung": {
+        "fa": "به برادرم اختیار می‌دهم بسته را برایم تحویل بگیرد، چون در سفرم.",
+        "en": "I authorize my brother to collect the parcel for me because I am away."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bevollmächtigen",
+      "uebersetzung": {
+        "fa": "وکالت دادن",
+        "en": "to give power of attorney"
+      }
+    },
+    {
+      "wort": "berechtigen",
+      "uebersetzung": {
+        "fa": "حق دادن",
+        "en": "to entitle"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (کردن) + mächtig (توانا)",
+    "en": "er- (making) + mächtig (powerful)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden zu + Dat ermächtigen",
+        "bedeutung": "jemandem das Recht zu etwas geben",
+        "beispiel": "Das Gesetz ermächtigt die Polizei zu Kontrollen.",
+        "uebersetzung": {
+          "fa": "قانون به پلیس اجازه‌ی بازرسی می‌دهد.",
+          "en": "The law authorizes the police to carry out checks."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ermächtigen",
+      "praeteritum": "ermächtigte",
+      "partizip2": "ermächtigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ermächtige",
+        "du": "ermächtigst",
+        "er_sie_es": "ermächtigt",
+        "wir": "ermächtigen",
+        "ihr": "ermächtigt",
+        "sie_Sie": "ermächtigen"
+      },
+      "praeteritum": {
+        "ich": "ermächtigte",
+        "du": "ermächtigtest",
+        "er_sie_es": "ermächtigte",
+        "wir": "ermächtigten",
+        "ihr": "ermächtigtet",
+        "sie_Sie": "ermächtigten"
+      },
+      "konjunktiv1": {
+        "ich": "ermächtige",
+        "du": "ermächtigest",
+        "er_sie_es": "ermächtige",
+        "wir": "ermächtigen",
+        "ihr": "ermächtiget",
+        "sie_Sie": "ermächtigen"
+      },
+      "konjunktiv2": {
+        "ich": "ermächtigte",
+        "du": "ermächtigtest",
+        "er_sie_es": "ermächtigte",
+        "wir": "ermächtigten",
+        "ihr": "ermächtigtet",
+        "sie_Sie": "ermächtigten"
+      },
+      "imperativ": {
+        "du": "Ermächtige!",
+        "ihr": "Ermächtigt!",
+        "Sie": "Ermächtigen Sie!"
+      }
+    },
+    "partizip1": "ermächtigend",
+    "nominalisierung": "die Ermächtigung"
+  },
+  "wortnetz": {
+    "grundwort": "Macht",
+    "woerter": [
+      {
+        "wort": "die Macht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قدرت",
+          "en": "power"
+        },
+        "id_ref": "nomen_macht"
+      },
+      {
+        "wort": "die Vollmacht",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "وکالت‌نامه",
+          "en": "power of attorney"
+        },
+        "id_ref": "nomen_vollmacht"
+      },
+      {
+        "wort": "erlauben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اجازه دادن",
+          "en": "to allow"
+        },
+        "id_ref": "verb_erlauben"
+      },
+      {
+        "wort": "das Recht",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حق",
+          "en": "right"
+        },
+        "id_ref": "nomen_recht"
+      },
+      {
+        "wort": "bevollmächtigen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "وکالت دادن",
+          "en": "to give power of attorney"
+        },
+        "id_ref": "verb_bevollmaechtigen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

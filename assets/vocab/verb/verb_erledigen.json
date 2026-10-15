@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_erledigen",
+  "wort": "erledigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "انجام دادن",
+      "سر و سامان دادن (کار)"
+    ],
+    "en": [
+      "to take care of",
+      "to get done"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Arbeit",
+    "Alltag"
+  ],
+  "ipa": "ɛɐ̯ˈleːdɪɡn̩",
+  "anmerkung": "Regelmäßig (erledigte, erledigt). Untrennbar. Reflexiv: «Das hat sich erledigt» (ist nicht mehr nötig). Partizip «erledigt» auch adjektivisch (= sehr müde).",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich muss heute viel erledigen.",
+      "uebersetzung": {
+        "fa": "امروز باید کارهای زیادی انجام بدهم.",
+        "en": "I have a lot to get done today."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn ich die Hausaufgaben erledigt habe, darf ich nach draußen gehen.",
+      "uebersetzung": {
+        "fa": "وقتی تکالیفم را انجام دادم، اجازه دارم بیرون بروم.",
+        "en": "When I have done my homework, I am allowed to go outside."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "machen",
+      "uebersetzung": {
+        "fa": "انجام دادن",
+        "en": "to do"
+      }
+    },
+    {
+      "wort": "ausführen",
+      "uebersetzung": {
+        "fa": "اجرا کردن",
+        "en": "to carry out"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- + ledig (آزاد، خالی)",
+    "en": "er- + ledig (free, empty)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "erledigen",
+      "praeteritum": "erledigte",
+      "partizip2": "erledigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erledige",
+        "du": "erledigst",
+        "er_sie_es": "erledigt",
+        "wir": "erledigen",
+        "ihr": "erledigt",
+        "sie_Sie": "erledigen"
+      },
+      "praeteritum": {
+        "ich": "erledigte",
+        "du": "erledigtest",
+        "er_sie_es": "erledigte",
+        "wir": "erledigten",
+        "ihr": "erledigtet",
+        "sie_Sie": "erledigten"
+      },
+      "konjunktiv1": {
+        "ich": "erledige",
+        "du": "erledigest",
+        "er_sie_es": "erledige",
+        "wir": "erledigen",
+        "ihr": "erlediget",
+        "sie_Sie": "erledigen"
+      },
+      "konjunktiv2": {
+        "ich": "erledigte",
+        "du": "erledigtest",
+        "er_sie_es": "erledigte",
+        "wir": "erledigten",
+        "ihr": "erledigtet",
+        "sie_Sie": "erledigten"
+      },
+      "imperativ": {
+        "du": "Erledige!",
+        "ihr": "Erledigt!",
+        "Sie": "Erledigen Sie!"
+      }
+    },
+    "partizip1": "erledigend",
+    "nominalisierung": "die Erledigung"
+  },
+  "wortnetz": {
+    "grundwort": "ledig",
+    "woerter": [
+      {
+        "wort": "machen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "انجام دادن",
+          "en": "to do"
+        },
+        "id_ref": "verb_machen"
+      },
+      {
+        "wort": "die Aufgabe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تکلیف، وظیفه",
+          "en": "task"
+        },
+        "id_ref": "nomen_aufgabe"
+      },
+      {
+        "wort": "fertig",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تمام، آماده",
+          "en": "finished"
+        },
+        "id_ref": "adjektiv_fertig"
+      },
+      {
+        "wort": "der Einkauf",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خرید",
+          "en": "shopping"
+        },
+        "id_ref": "nomen_einkauf"
+      },
+      {
+        "wort": "erledigt",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انجام‌شده، خسته",
+          "en": "done, exhausted"
+        },
+        "id_ref": "adjektiv_erledigt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
