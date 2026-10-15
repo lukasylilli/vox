@@ -1,5 +1,6 @@
 # PROJECT MAP — VOX
 # نقشه کامل پروژه برای ناوبری سریع در هر session
+# 🚫 قاعده‌ی ثابت (Lukas، 2026-10-15): کار روی VOX (به‌ویژه وارد کردن کلمه‌ها) هیچ ربطی به Root-in ندارد — فایل‌ها و کد Root-in نه خوانده، نه بررسی، نه تغییر داده می‌شوند. تنها ارتباط: یک دکمه در VOX به اپ Root-in (`lib/core/constants/app_links.dart` → `rootInUrl`). جزئیات: PLAN.md بالا.
 # آپدیت 2026-10-14 F.7 به تعویق (Lukas): پر کردن کارت‌های موجود بعد از تمام شدن کل اپ و قبل از تست‌ها، همراه دسته‌های احتمالی تازه (دیالکت، umgangssprachlich). فقط سند.
 # آپدیت 2026-10-14 F.6: تازه `features/vokabular/widgets/wort_einordnung.dart` (WortEinordnung، berufIcon، einordnungText — تنها منبع متن/آیکون Einordnung) · `wort_karte_inhalt.dart` (WortEinordnung اول Abschnitte) · `wortschatz_filter.dart`: FilterBereich += beruf/anstoessig/zeitlich · `wortschatz_filter_screen.dart` (beschriftung با context، icon) · `wortschatz_filter_controller.dart` += nurDieser · l10n beruf_*/anstoessig_*/zeitlich_*/wort_ersatz_* · تست `wort_einordnung_test.dart`.
 # آپدیت 2026-10-14 F.5: «old files Lukasalmani/Wort prompt» += Regel 17 + فیلدهای berufe/anstoessig/zeitlich/ersatz در TEIL 1 · `vokabular/data/vokab_schema.dart` += vokabBerufe، vokabAnstoessigStufen، vokabZeitlichWerte، _pruefeEinordnung · `vokabular/data/vokab_index.dart` نسخه‌ی ۲ (+ berufe/anstoessig.stufe/zeitlich) · تست `vokab_einordnung_test.dart`.

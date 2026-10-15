@@ -1,5 +1,10 @@
 # PLAN — VOX
 
+> 🚫 **قاعده‌ی ثابت — جدایی کامل VOX از Root-in (Lukas، 2026-10-15) — این بخش را حذف نکن.**
+> هر کاری که به VOX مربوط است — به‌ویژه **وارد کردن کلمه‌ها** — **هیچ ربطی به Root-in ندارد**: در این کارها فایل‌های Root-in (`Root-in/PLAN.md`، `Root-in/MAP.md`، کد) **نه خوانده می‌شوند، نه بررسی، نه تغییر داده می‌شوند.**
+> تنها ارتباط دو اپ: **یک دکمه** در VOX که کاربر را به اپ Root-in می‌برد (`lib/core/constants/app_links.dart` → `rootInUrl`) — فقط همین.
+> این قاعده بر قدم ۱ پایین مقدم است: برای کار VOX فقط `vox/PLAN.md` و `vox/PROJECT_MAP.md` خوانده می‌شوند؛ Root-in فقط وقتی Lukas صریحاً کاری روی خود Root-in بخواهد.
+>
 > 🧭 **قاعده‌ی ثابت برای هر چت جدید (Lukas، 2026-09-18) — این بخش را حذف نکن.**
 > Claude بین چت‌ها حافظه ندارد؛ **این چهار فایل تنها حافظه‌ی پروژه‌اند:**
 > `vox/PLAN.md` · `vox/PROJECT_MAP.md` · `Root-in/PLAN.md` · `Root-in/MAP.md`.
@@ -306,7 +311,7 @@
 - مقصد: `assets/vocab/<wortart>/<id>.json` (یک کارت = یک فایل، fa+en در همان فایل). ظاهر (رنگ/نماد) فقط در کد — برای کلمه‌ی تازه هیچ فایل ظاهری عوض نمی‌شود.
 
 **مراحل (به همین ترتیب):**
-1. هر چهار فایل PLAN/MAP (vox + Root-in) و **پرامپت کلمه** را تازه بخوان.
+1. `vox/PLAN.md`، `vox/PROJECT_MAP.md` و **پرامپت کلمه** را تازه بخوان. ⛔ Root-in را نه بخوان نه تغییر بده (🚫 قاعده‌ی جدایی، Lukas 2026-10-15).
 2. Flutter: `curl -sL https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.44.6-stable.tar.xz | tar xJ` ⇒ `export PATH=$PWD/flutter/bin:$PATH` ⇒ در ریپو `flutter pub get`.
 3. `dart run tool/naechste_woerter.dart` ⇒ ۱۰ کلمه‌ی بعدی (کارت موجود و «کنار گذاشته» را خودش رد می‌کند).
 4. برای همان ۱۰ کلمه طبق پرامپت یک **JSON-Array** در `/tmp/batch.json` بساز (همه‌ی TEIL 0 — به‌ویژه ۱۴: «مطمئن نیستی ⇒ null، حدس نزن»؛ ۱۵: حرف اضافه‌ی ثابت اجباری). از قبل بودن کلمه در اپ **مهم نیست** (⭐ اصل اول). کلمه‌ی نامطمئن ⇒ 🔒 بالا.
