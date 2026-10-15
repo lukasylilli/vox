@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_hemmen",
+  "wort": "hemmen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مانع شدن",
+      "کند کردن"
+    ],
+    "en": [
+      "to inhibit",
+      "to hamper"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Psychologie",
+    "Wirtschaft"
+  ],
+  "ipa": "ˈhɛmən",
+  "anmerkung": "Regelmäßig (hemmte, gehemmt).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Angst hemmt mich.",
+      "uebersetzung": {
+        "fa": "ترس جلویم را می‌گیرد.",
+        "en": "Fear holds me back."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach Meinung vieler Experten hemmen hohe Steuern das Wachstum kleiner Firmen.",
+      "uebersetzung": {
+        "fa": "به نظر بسیاری از کارشناسان، مالیات‌های بالا رشد شرکت‌های کوچک را کند می‌کند.",
+        "en": "In the opinion of many experts, high taxes inhibit the growth of small companies."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bremsen",
+      "uebersetzung": {
+        "fa": "ترمز کردن، کند کردن",
+        "en": "to slow down"
+      }
+    },
+    {
+      "wort": "behindern",
+      "uebersetzung": {
+        "fa": "مانع شدن",
+        "en": "to hinder"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "fördern",
+      "uebersetzung": {
+        "fa": "پیش بردن",
+        "en": "to promote"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "hemmen",
+      "praeteritum": "hemmte",
+      "partizip2": "gehemmt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "hemme",
+        "du": "hemmst",
+        "er_sie_es": "hemmt",
+        "wir": "hemmen",
+        "ihr": "hemmt",
+        "sie_Sie": "hemmen"
+      },
+      "praeteritum": {
+        "ich": "hemmte",
+        "du": "hemmtest",
+        "er_sie_es": "hemmte",
+        "wir": "hemmten",
+        "ihr": "hemmtet",
+        "sie_Sie": "hemmten"
+      },
+      "konjunktiv1": {
+        "ich": "hemme",
+        "du": "hemmest",
+        "er_sie_es": "hemme",
+        "wir": "hemmen",
+        "ihr": "hemmet",
+        "sie_Sie": "hemmen"
+      },
+      "konjunktiv2": {
+        "ich": "hemmte",
+        "du": "hemmtest",
+        "er_sie_es": "hemmte",
+        "wir": "hemmten",
+        "ihr": "hemmtet",
+        "sie_Sie": "hemmten"
+      },
+      "imperativ": {
+        "du": "Hemme!",
+        "ihr": "Hemmt!",
+        "Sie": "Hemmen Sie!"
+      }
+    },
+    "partizip1": "hemmend",
+    "nominalisierung": "die Hemmung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "bremsen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ترمز کردن",
+          "en": "to brake"
+        },
+        "id_ref": "verb_bremsen"
+      },
+      {
+        "wort": "fördern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیش بردن",
+          "en": "to promote"
+        },
+        "id_ref": "verb_foerdern"
+      },
+      {
+        "wort": "behindern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مانع شدن",
+          "en": "to hinder"
+        },
+        "id_ref": "verb_behindern"
+      },
+      {
+        "wort": "gehemmt",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خجول، مهارشده",
+          "en": "inhibited"
+        },
+        "id_ref": "adjektiv_gehemmt"
+      },
+      {
+        "wort": "die Hemmung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ترس و خجالت، مانع",
+          "en": "inhibition"
+        },
+        "id_ref": "nomen_hemmung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

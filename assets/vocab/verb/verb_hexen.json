@@ -1,0 +1,169 @@
+{
+  "schema": "3.0",
+  "id": "verb_hexen",
+  "wort": "hexen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جادو کردن"
+    ],
+    "en": [
+      "to do magic",
+      "to work miracles"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Fantasie"
+  ],
+  "ipa": "ˈhɛksn̩",
+  "anmerkung": "Regelmäßig (hexte, gehext). Meist in «Ich kann doch nicht hexen!» (So schnell geht es nicht).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich kann doch nicht hexen!",
+      "uebersetzung": {
+        "fa": "من که جادوگر نیستم!",
+        "en": "I can’t work miracles!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn du alles bis morgen fertig haben willst, müsste ich schon hexen können.",
+      "uebersetzung": {
+        "fa": "اگر می‌خواهی همه‌چیز تا فردا آماده باشد، باید جادو بلد باشم.",
+        "en": "If you want everything finished by tomorrow, I would have to be able to work magic."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zaubern",
+      "uebersetzung": {
+        "fa": "جادو کردن",
+        "en": "to do magic"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "die Hexe (جادوگر) + -n",
+    "en": "die Hexe (witch) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "hexen",
+      "praeteritum": "hexte",
+      "partizip2": "gehext"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "hexe",
+        "du": "hext",
+        "er_sie_es": "hext",
+        "wir": "hexen",
+        "ihr": "hext",
+        "sie_Sie": "hexen"
+      },
+      "praeteritum": {
+        "ich": "hexte",
+        "du": "hextest",
+        "er_sie_es": "hexte",
+        "wir": "hexten",
+        "ihr": "hextet",
+        "sie_Sie": "hexten"
+      },
+      "konjunktiv1": {
+        "ich": "hexe",
+        "du": "hexest",
+        "er_sie_es": "hexe",
+        "wir": "hexen",
+        "ihr": "hexet",
+        "sie_Sie": "hexen"
+      },
+      "konjunktiv2": {
+        "ich": "hexte",
+        "du": "hextest",
+        "er_sie_es": "hexte",
+        "wir": "hexten",
+        "ihr": "hextet",
+        "sie_Sie": "hexten"
+      },
+      "imperativ": {
+        "du": "Hexe!",
+        "ihr": "Hext!",
+        "Sie": "Hexen Sie!"
+      }
+    },
+    "partizip1": "hexend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Hexe",
+    "woerter": [
+      {
+        "wort": "das Märchen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قصه‌ی پریان",
+          "en": "fairy tale"
+        },
+        "id_ref": "nomen_maerchen"
+      },
+      {
+        "wort": "die Hexe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جادوگر",
+          "en": "witch"
+        },
+        "id_ref": "nomen_hexe"
+      },
+      {
+        "wort": "zaubern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جادو کردن",
+          "en": "to do magic"
+        },
+        "id_ref": "verb_zaubern"
+      },
+      {
+        "wort": "magisch",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جادویی",
+          "en": "magic"
+        },
+        "id_ref": "adjektiv_magisch"
+      },
+      {
+        "wort": "der Zauberer",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جادوگر",
+          "en": "wizard"
+        },
+        "id_ref": "nomen_zauberer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

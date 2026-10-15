@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_hindern",
+  "wort": "hindern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مانع شدن",
+      "باز داشتن"
+    ],
+    "en": [
+      "to prevent",
+      "to hinder"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈhɪndɐn",
+  "anmerkung": "Regelmäßig (hinderte, gehindert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Gips hindert ihn beim Laufen.",
+      "uebersetzung": {
+        "fa": "گچ پا مانع راه رفتنش می‌شود.",
+        "en": "The plaster cast hinders him when walking."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Niemand kann dich daran hindern, deine Meinung zu sagen.",
+      "uebersetzung": {
+        "fa": "هیچ‌کس نمی‌تواند تو را از گفتن نظرت باز دارد.",
+        "en": "Nobody can prevent you from saying what you think."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "behindern",
+      "uebersetzung": {
+        "fa": "مانع شدن",
+        "en": "to hinder"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden an + Dat hindern",
+        "bedeutung": "verhindern, dass jemand etwas tut",
+        "beispiel": "Der Regen hinderte uns am Spazierengehen.",
+        "uebersetzung": {
+          "fa": "باران نگذاشت قدم بزنیم.",
+          "en": "The rain prevented us from going for a walk."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hindern",
+      "praeteritum": "hinderte",
+      "partizip2": "gehindert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "hindere",
+        "du": "hinderst",
+        "er_sie_es": "hindert",
+        "wir": "hindern",
+        "ihr": "hindert",
+        "sie_Sie": "hindern"
+      },
+      "praeteritum": {
+        "ich": "hinderte",
+        "du": "hindertest",
+        "er_sie_es": "hinderte",
+        "wir": "hinderten",
+        "ihr": "hindertet",
+        "sie_Sie": "hinderten"
+      },
+      "konjunktiv1": {
+        "ich": "hindere",
+        "du": "hinderest",
+        "er_sie_es": "hindere",
+        "wir": "hindern",
+        "ihr": "hinderet",
+        "sie_Sie": "hindern"
+      },
+      "konjunktiv2": {
+        "ich": "hinderte",
+        "du": "hindertest",
+        "er_sie_es": "hinderte",
+        "wir": "hinderten",
+        "ihr": "hindertet",
+        "sie_Sie": "hinderten"
+      },
+      "imperativ": {
+        "du": "Hindere!",
+        "ihr": "Hindert!",
+        "Sie": "Hindern Sie!"
+      }
+    },
+    "partizip1": "hindernd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "stören",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مزاحم شدن",
+          "en": "to disturb"
+        },
+        "id_ref": "verb_stoeren"
+      },
+      {
+        "wort": "stoppen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "متوقف کردن",
+          "en": "to stop"
+        },
+        "id_ref": "verb_stoppen"
+      },
+      {
+        "wort": "verhindern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جلوگیری کردن",
+          "en": "to prevent"
+        },
+        "id_ref": "verb_verhindern"
+      },
+      {
+        "wort": "behindern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مانع شدن",
+          "en": "to hinder"
+        },
+        "id_ref": "verb_behindern"
+      },
+      {
+        "wort": "das Hindernis",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مانع",
+          "en": "obstacle"
+        },
+        "id_ref": "nomen_hindernis"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
