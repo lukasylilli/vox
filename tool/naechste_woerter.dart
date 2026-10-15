@@ -1689,6 +1689,7 @@ const zurueckgestellt = <String>{
   'huren', // zurückgestellt: vulgär/veraltet (Prostitution, Geschlechtsverkehr) — Entscheidung Lukas (Regel 17) 2026-10-15
   'hutzeln', // zurückgestellt: regional/selten (Obst dörren, schrumpfen); Gebrauch nicht sicher (Regel 14) 2026-10-15
   'hygienisieren', // zurückgestellt: sehr selten, Fachjargon; Gebrauch nicht sicher (Regel 14) 2026-10-15
+  'indignieren', // zurückgestellt: bildungssprachlich, selten (meist Partizip «indigniert»); Gebrauch nicht sicher (Regel 14) 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

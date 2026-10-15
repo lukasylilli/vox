@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_implizieren",
+  "wort": "implizieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "در بر داشتن",
+      "به‌طور ضمنی رساندن"
+    ],
+    "en": [
+      "to imply"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Denken",
+    "Sprache"
+  ],
+  "ipa": "ɪmpliˈtsiːʁən",
+  "anmerkung": "Regelmäßig (implizierte, impliziert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das impliziert ein Risiko.",
+      "uebersetzung": {
+        "fa": "این یک خطر را در بر دارد.",
+        "en": "That implies a risk."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Seine Frage implizierte, dass er mir die Arbeit nicht zutraute.",
+      "uebersetzung": {
+        "fa": "پرسشش به‌طور ضمنی می‌رساند که مرا برای این کار توانا نمی‌داند.",
+        "en": "His question implied that he didn’t think I was up to the job."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bedeuten",
+      "uebersetzung": {
+        "fa": "معنی دادن",
+        "en": "to mean"
+      }
+    },
+    {
+      "wort": "einschließen",
+      "uebersetzung": {
+        "fa": "شامل شدن",
+        "en": "to include"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. implicare (در هم پیچیدن) + -ieren",
+    "en": "lat. implicare (to entwine) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "implizieren",
+      "praeteritum": "implizierte",
+      "partizip2": "impliziert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "impliziere",
+        "du": "implizierst",
+        "er_sie_es": "impliziert",
+        "wir": "implizieren",
+        "ihr": "impliziert",
+        "sie_Sie": "implizieren"
+      },
+      "praeteritum": {
+        "ich": "implizierte",
+        "du": "impliziertest",
+        "er_sie_es": "implizierte",
+        "wir": "implizierten",
+        "ihr": "impliziertet",
+        "sie_Sie": "implizierten"
+      },
+      "konjunktiv1": {
+        "ich": "impliziere",
+        "du": "implizierest",
+        "er_sie_es": "impliziere",
+        "wir": "implizieren",
+        "ihr": "implizieret",
+        "sie_Sie": "implizieren"
+      },
+      "konjunktiv2": {
+        "ich": "implizierte",
+        "du": "impliziertest",
+        "er_sie_es": "implizierte",
+        "wir": "implizierten",
+        "ihr": "impliziertet",
+        "sie_Sie": "implizierten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "implizierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "bedeuten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "معنی دادن",
+          "en": "to mean"
+        },
+        "id_ref": "verb_bedeuten"
+      },
+      {
+        "wort": "die Folge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیامد",
+          "en": "consequence"
+        },
+        "id_ref": "nomen_folge"
+      },
+      {
+        "wort": "einschließen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شامل شدن",
+          "en": "to include"
+        },
+        "id_ref": "verb_einschliessen"
+      },
+      {
+        "wort": "andeuten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اشاره‌ی ضمنی کردن",
+          "en": "to hint"
+        },
+        "id_ref": "verb_andeuten"
+      },
+      {
+        "wort": "implizit",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "ضمنی",
+          "en": "implicit"
+        },
+        "id_ref": "adjektiv_implizit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

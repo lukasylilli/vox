@@ -1,0 +1,167 @@
+{
+  "schema": "3.0",
+  "id": "verb_indizieren",
+  "wort": "indizieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اندیس‌دار کردن",
+      "نشان دادن",
+      "ممنوع اعلام کردن"
+    ],
+    "en": [
+      "to index",
+      "to indicate",
+      "to put on the index"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Recht"
+  ],
+  "ipa": "ɪndiˈtsiːʁən",
+  "anmerkung": "Regelmäßig (indizierte, indiziert). Medizin: «indiziert sein» (angezeigt, notwendig sein). Auch: Medien auf den Index setzen (verbieten).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Fieber indiziert eine Infektion.",
+      "uebersetzung": {
+        "fa": "تب نشانه‌ی عفونت است.",
+        "en": "The fever indicates an infection."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei diesen Beschwerden ist eine sofortige Operation indiziert, sonst drohen ernste Folgen.",
+      "uebersetzung": {
+        "fa": "با این علائم، عمل جراحی فوری لازم است، وگرنه عواقب جدی دارد.",
+        "en": "With these symptoms an immediate operation is indicated, otherwise serious consequences threaten."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. indicare (نشان دادن) + -ieren",
+    "en": "lat. indicare (to indicate) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "indizieren",
+      "praeteritum": "indizierte",
+      "partizip2": "indiziert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "indiziere",
+        "du": "indizierst",
+        "er_sie_es": "indiziert",
+        "wir": "indizieren",
+        "ihr": "indiziert",
+        "sie_Sie": "indizieren"
+      },
+      "praeteritum": {
+        "ich": "indizierte",
+        "du": "indiziertest",
+        "er_sie_es": "indizierte",
+        "wir": "indizierten",
+        "ihr": "indiziertet",
+        "sie_Sie": "indizierten"
+      },
+      "konjunktiv1": {
+        "ich": "indiziere",
+        "du": "indizierest",
+        "er_sie_es": "indiziere",
+        "wir": "indizieren",
+        "ihr": "indizieret",
+        "sie_Sie": "indizieren"
+      },
+      "konjunktiv2": {
+        "ich": "indizierte",
+        "du": "indiziertest",
+        "er_sie_es": "indizierte",
+        "wir": "indizierten",
+        "ihr": "indiziertet",
+        "sie_Sie": "indizierten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "indizierend",
+    "nominalisierung": "die Indikation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "zeigen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نشان دادن",
+          "en": "to show"
+        },
+        "id_ref": "verb_zeigen"
+      },
+      {
+        "wort": "das Zeichen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نشانه",
+          "en": "sign"
+        },
+        "id_ref": "nomen_zeichen"
+      },
+      {
+        "wort": "das Symptom",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نشانه‌ی بیماری",
+          "en": "symptom"
+        },
+        "id_ref": "nomen_symptom"
+      },
+      {
+        "wort": "die Indikation",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "اندیکاسیون پزشکی",
+          "en": "indication"
+        },
+        "id_ref": "nomen_indikation"
+      },
+      {
+        "wort": "der Index",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نمایه، فهرست ممنوعه",
+          "en": "index"
+        },
+        "id_ref": "nomen_index"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

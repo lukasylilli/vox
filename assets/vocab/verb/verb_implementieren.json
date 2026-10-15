@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_implementieren",
+  "wort": "implementieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پیاده‌سازی کردن",
+      "اجرا کردن"
+    ],
+    "en": [
+      "to implement"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Computer",
+    "Arbeit"
+  ],
+  "ipa": "ɪmplemɛnˈtiːʁən",
+  "anmerkung": "Regelmäßig (implementierte, implementiert).",
+  "berufe": [
+    "it"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir implementieren eine neue Funktion.",
+      "uebersetzung": {
+        "fa": "یک قابلیت تازه پیاده‌سازی می‌کنیم.",
+        "en": "We are implementing a new feature."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor das neue System im ganzen Krankenhaus implementiert wird, testet man es auf einer Station.",
+      "uebersetzung": {
+        "fa": "پیش از اینکه سیستم تازه در کل بیمارستان اجرا شود، آن را در یک بخش آزمایش می‌کنند.",
+        "en": "Before the new system is implemented throughout the hospital, it is tested on one ward."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "umsetzen",
+      "uebersetzung": {
+        "fa": "اجرا کردن",
+        "en": "to put into practice"
+      }
+    },
+    {
+      "wort": "einführen",
+      "uebersetzung": {
+        "fa": "راه‌اندازی کردن",
+        "en": "to introduce"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "engl. to implement (اجرا کردن) + -ieren",
+    "en": "engl. to implement + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "implementieren",
+      "praeteritum": "implementierte",
+      "partizip2": "implementiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "implementiere",
+        "du": "implementierst",
+        "er_sie_es": "implementiert",
+        "wir": "implementieren",
+        "ihr": "implementiert",
+        "sie_Sie": "implementieren"
+      },
+      "praeteritum": {
+        "ich": "implementierte",
+        "du": "implementiertest",
+        "er_sie_es": "implementierte",
+        "wir": "implementierten",
+        "ihr": "implementiertet",
+        "sie_Sie": "implementierten"
+      },
+      "konjunktiv1": {
+        "ich": "implementiere",
+        "du": "implementierest",
+        "er_sie_es": "implementiere",
+        "wir": "implementieren",
+        "ihr": "implementieret",
+        "sie_Sie": "implementieren"
+      },
+      "konjunktiv2": {
+        "ich": "implementierte",
+        "du": "implementiertest",
+        "er_sie_es": "implementierte",
+        "wir": "implementierten",
+        "ihr": "implementiertet",
+        "sie_Sie": "implementierten"
+      },
+      "imperativ": {
+        "du": "Implementiere!",
+        "ihr": "Implementiert!",
+        "Sie": "Implementieren Sie!"
+      }
+    },
+    "partizip1": "implementierend",
+    "nominalisierung": "die Implementierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Programm",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برنامه",
+          "en": "program"
+        },
+        "id_ref": "nomen_programm"
+      },
+      {
+        "wort": "einführen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "راه‌اندازی کردن",
+          "en": "to introduce"
+        },
+        "id_ref": "verb_einfuehren"
+      },
+      {
+        "wort": "die Software",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نرم‌افزار",
+          "en": "software"
+        },
+        "id_ref": "nomen_software"
+      },
+      {
+        "wort": "umsetzen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اجرا کردن",
+          "en": "to put into practice"
+        },
+        "id_ref": "verb_umsetzen"
+      },
+      {
+        "wort": "die Implementierung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پیاده‌سازی",
+          "en": "implementation"
+        },
+        "id_ref": "nomen_implementierung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

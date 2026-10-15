@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_importieren",
+  "wort": "importieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "وارد کردن (کالا، داده)"
+    ],
+    "en": [
+      "to import"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Wirtschaft",
+    "Computer"
+  ],
+  "ipa": "ɪmpɔʁˈtiːʁən",
+  "anmerkung": "Regelmäßig (importierte, importiert).",
+  "berufe": [
+    "it",
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Österreich importiert Bananen.",
+      "uebersetzung": {
+        "fa": "اتریش موز وارد می‌کند.",
+        "en": "Austria imports bananas."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bevor du die Kontakte importierst, solltest du die alte Liste als Datei speichern.",
+      "uebersetzung": {
+        "fa": "پیش از وارد کردن مخاطب‌ها، بهتر است فهرست قدیمی را به‌صورت فایل ذخیره کنی.",
+        "en": "Before you import the contacts, you should save the old list as a file."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "exportieren",
+      "uebersetzung": {
+        "fa": "صادر کردن",
+        "en": "to export"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. importare (به درون آوردن) + -ieren",
+    "en": "lat. importare (to bring in) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "aus + Dat importieren",
+        "bedeutung": "Waren aus einem anderen Land einführen",
+        "beispiel": "Viel Kaffee wird aus Brasilien importiert.",
+        "uebersetzung": {
+          "fa": "قهوه‌ی زیادی از برزیل وارد می‌شود.",
+          "en": "A lot of coffee is imported from Brazil."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "importieren",
+      "praeteritum": "importierte",
+      "partizip2": "importiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "importiere",
+        "du": "importierst",
+        "er_sie_es": "importiert",
+        "wir": "importieren",
+        "ihr": "importiert",
+        "sie_Sie": "importieren"
+      },
+      "praeteritum": {
+        "ich": "importierte",
+        "du": "importiertest",
+        "er_sie_es": "importierte",
+        "wir": "importierten",
+        "ihr": "importiertet",
+        "sie_Sie": "importierten"
+      },
+      "konjunktiv1": {
+        "ich": "importiere",
+        "du": "importierest",
+        "er_sie_es": "importiere",
+        "wir": "importieren",
+        "ihr": "importieret",
+        "sie_Sie": "importieren"
+      },
+      "konjunktiv2": {
+        "ich": "importierte",
+        "du": "importiertest",
+        "er_sie_es": "importierte",
+        "wir": "importierten",
+        "ihr": "importiertet",
+        "sie_Sie": "importierten"
+      },
+      "imperativ": {
+        "du": "Importiere!",
+        "ihr": "Importiert!",
+        "Sie": "Importieren Sie!"
+      }
+    },
+    "partizip1": "importierend",
+    "nominalisierung": "der Import"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "kaufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خریدن",
+          "en": "to buy"
+        },
+        "id_ref": "verb_kaufen"
+      },
+      {
+        "wort": "das Ausland",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خارج",
+          "en": "abroad"
+        },
+        "id_ref": "nomen_ausland"
+      },
+      {
+        "wort": "der Import",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "واردات",
+          "en": "import"
+        },
+        "id_ref": "nomen_import"
+      },
+      {
+        "wort": "der Handel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تجارت",
+          "en": "trade"
+        },
+        "id_ref": "nomen_handel"
+      },
+      {
+        "wort": "exportieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صادر کردن",
+          "en": "to export"
+        },
+        "id_ref": "verb_exportieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
