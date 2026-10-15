@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "verb_extrapolieren",
+  "wort": "extrapolieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "برون‌یابی کردن",
+      "از داده‌های موجود نتیجه گرفتن"
+    ],
+    "en": [
+      "to extrapolate"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wissenschaft",
+    "Mathematik"
+  ],
+  "ipa": "ɛkstʁapoˈliːʁən",
+  "anmerkung": "Regelmäßig (extrapolierte, extrapoliert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir extrapolieren die Zahlen.",
+      "uebersetzung": {
+        "fa": "اعداد را برون‌یابی می‌کنیم.",
+        "en": "We extrapolate the figures."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn man die bisherigen Daten extrapoliert, wird die Bevölkerung bis 2050 deutlich wachsen.",
+      "uebersetzung": {
+        "fa": "اگر داده‌های تاکنون را برون‌یابی کنیم، جمعیت تا ۲۰۵۰ به‌طور چشمگیری رشد خواهد کرد.",
+        "en": "If you extrapolate the data so far, the population will grow significantly by 2050."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hochrechnen",
+      "uebersetzung": {
+        "fa": "برآورد کردن",
+        "en": "to project"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "extra (بیرون) + interpolieren (درون‌یابی کردن)",
+    "en": "extra (outside) + interpolieren (to interpolate)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "extrapolieren",
+      "praeteritum": "extrapolierte",
+      "partizip2": "extrapoliert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "extrapoliere",
+        "du": "extrapolierst",
+        "er_sie_es": "extrapoliert",
+        "wir": "extrapolieren",
+        "ihr": "extrapoliert",
+        "sie_Sie": "extrapolieren"
+      },
+      "praeteritum": {
+        "ich": "extrapolierte",
+        "du": "extrapoliertest",
+        "er_sie_es": "extrapolierte",
+        "wir": "extrapolierten",
+        "ihr": "extrapoliertet",
+        "sie_Sie": "extrapolierten"
+      },
+      "konjunktiv1": {
+        "ich": "extrapoliere",
+        "du": "extrapolierest",
+        "er_sie_es": "extrapoliere",
+        "wir": "extrapolieren",
+        "ihr": "extrapolieret",
+        "sie_Sie": "extrapolieren"
+      },
+      "konjunktiv2": {
+        "ich": "extrapolierte",
+        "du": "extrapoliertest",
+        "er_sie_es": "extrapolierte",
+        "wir": "extrapolierten",
+        "ihr": "extrapoliertet",
+        "sie_Sie": "extrapolierten"
+      },
+      "imperativ": {
+        "du": "Extrapoliere!",
+        "ihr": "Extrapoliert!",
+        "Sie": "Extrapolieren Sie!"
+      }
+    },
+    "partizip1": "extrapolierend",
+    "nominalisierung": "die Extrapolation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "hochrechnen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "برآورد کردن",
+          "en": "to project"
+        },
+        "id_ref": "verb_hochrechnen"
+      },
+      {
+        "wort": "die Prognose",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پیش‌بینی",
+          "en": "forecast"
+        },
+        "id_ref": "nomen_prognose"
+      },
+      {
+        "wort": "die Daten",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "داده‌ها",
+          "en": "data"
+        },
+        "id_ref": "nomen_daten"
+      },
+      {
+        "wort": "die Statistik",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آمار",
+          "en": "statistics"
+        },
+        "id_ref": "nomen_statistik"
+      },
+      {
+        "wort": "schätzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تخمین زدن",
+          "en": "to estimate"
+        },
+        "id_ref": "verb_schaetzen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

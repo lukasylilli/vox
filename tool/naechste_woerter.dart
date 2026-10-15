@@ -1629,6 +1629,7 @@ const zurueckgestellt = <String>{
   'eskamotieren', // zurückgestellt: sehr selten (wegzaubern); Gebrauch nicht sicher (Regel 14) 2026-10-15
   'evangelisieren', // zurückgestellt: selten (missionieren); Gebrauch nicht sicher (Regel 14) 2026-10-15
   'exmittieren', // zurückgestellt: Amtssprache, selten (Zwangsräumung); Gebrauch nicht sicher (Regel 14) 2026-10-15
+  'extemporieren', // zurückgestellt: sehr selten (improvisieren); Gebrauch nicht sicher (Regel 14) 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

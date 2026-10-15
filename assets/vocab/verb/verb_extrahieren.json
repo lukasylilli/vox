@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_extrahieren",
+  "wort": "extrahieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "استخراج کردن",
+      "کشیدن (دندان)"
+    ],
+    "en": [
+      "to extract"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft",
+    "Medizin"
+  ],
+  "ipa": "ɛkstʁaˈhiːʁən",
+  "anmerkung": "Regelmäßig (extrahierte, extrahiert).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Zahnarzt extrahiert den Zahn.",
+      "uebersetzung": {
+        "fa": "دندان‌پزشک دندان را می‌کشد.",
+        "en": "The dentist extracts the tooth."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Aus den Blättern der Pflanze wird ein Öl extrahiert, das in vielen Cremes verwendet wird.",
+      "uebersetzung": {
+        "fa": "از برگ‌های این گیاه روغنی استخراج می‌شود که در بسیاری از کرم‌ها به کار می‌رود.",
+        "en": "An oil is extracted from the leaves of the plant which is used in many creams."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "herausziehen",
+      "uebersetzung": {
+        "fa": "بیرون کشیدن",
+        "en": "to pull out"
+      }
+    },
+    {
+      "wort": "gewinnen",
+      "uebersetzung": {
+        "fa": "به دست آوردن",
+        "en": "to obtain"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. extrahere (بیرون کشیدن) + -ieren",
+    "en": "Latin extrahere (to draw out) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "extrahieren",
+      "praeteritum": "extrahierte",
+      "partizip2": "extrahiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "extrahiere",
+        "du": "extrahierst",
+        "er_sie_es": "extrahiert",
+        "wir": "extrahieren",
+        "ihr": "extrahiert",
+        "sie_Sie": "extrahieren"
+      },
+      "praeteritum": {
+        "ich": "extrahierte",
+        "du": "extrahiertest",
+        "er_sie_es": "extrahierte",
+        "wir": "extrahierten",
+        "ihr": "extrahiertet",
+        "sie_Sie": "extrahierten"
+      },
+      "konjunktiv1": {
+        "ich": "extrahiere",
+        "du": "extrahierest",
+        "er_sie_es": "extrahiere",
+        "wir": "extrahieren",
+        "ihr": "extrahieret",
+        "sie_Sie": "extrahieren"
+      },
+      "konjunktiv2": {
+        "ich": "extrahierte",
+        "du": "extrahiertest",
+        "er_sie_es": "extrahierte",
+        "wir": "extrahierten",
+        "ihr": "extrahiertet",
+        "sie_Sie": "extrahierten"
+      },
+      "imperativ": {
+        "du": "Extrahiere!",
+        "ihr": "Extrahiert!",
+        "Sie": "Extrahieren Sie!"
+      }
+    },
+    "partizip1": "extrahierend",
+    "nominalisierung": "die Extraktion"
+  },
+  "wortnetz": {
+    "grundwort": "Extrakt",
+    "woerter": [
+      {
+        "wort": "der Extrakt",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "عصاره",
+          "en": "extract"
+        },
+        "id_ref": "nomen_extrakt"
+      },
+      {
+        "wort": "der Zahn",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دندان",
+          "en": "tooth"
+        },
+        "id_ref": "nomen_zahn"
+      },
+      {
+        "wort": "ziehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کشیدن",
+          "en": "to pull"
+        },
+        "id_ref": "verb_ziehen"
+      },
+      {
+        "wort": "herausziehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیرون کشیدن",
+          "en": "to pull out"
+        },
+        "id_ref": "verb_herausziehen"
+      },
+      {
+        "wort": "das Öl",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "روغن",
+          "en": "oil"
+        },
+        "id_ref": "nomen_oel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

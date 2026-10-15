@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_exportieren",
+  "wort": "exportieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "صادر کردن",
+      "خروجی گرفتن (داده)"
+    ],
+    "en": [
+      "to export"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Wirtschaft",
+    "Computer"
+  ],
+  "ipa": "ɛkspɔʁˈtiːʁən",
+  "anmerkung": "Regelmäßig (exportierte, exportiert).",
+  "berufe": [
+    "it",
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Deutschland exportiert viele Autos.",
+      "uebersetzung": {
+        "fa": "آلمان خودروهای زیادی صادر می‌کند.",
+        "en": "Germany exports a lot of cars."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Du kannst die Tabelle als PDF exportieren, wenn du sie per E-Mail schicken willst.",
+      "uebersetzung": {
+        "fa": "اگر می‌خواهی جدول را با ایمیل بفرستی، می‌توانی از آن خروجی پی‌دی‌اف بگیری.",
+        "en": "You can export the table as a PDF if you want to send it by e-mail."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausführen",
+      "uebersetzung": {
+        "fa": "صادر کردن",
+        "en": "to export"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "importieren",
+      "uebersetzung": {
+        "fa": "وارد کردن",
+        "en": "to import"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. exportare (بیرون بردن) + -ieren",
+    "en": "Latin exportare (to carry out) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas in + Akk / nach + Dat exportieren",
+        "bedeutung": "Waren in ein anderes Land verkaufen",
+        "beispiel": "Die Firma exportiert Maschinen nach China.",
+        "uebersetzung": {
+          "fa": "شرکت ماشین‌آلات به چین صادر می‌کند.",
+          "en": "The company exports machines to China."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "exportieren",
+      "praeteritum": "exportierte",
+      "partizip2": "exportiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "exportiere",
+        "du": "exportierst",
+        "er_sie_es": "exportiert",
+        "wir": "exportieren",
+        "ihr": "exportiert",
+        "sie_Sie": "exportieren"
+      },
+      "praeteritum": {
+        "ich": "exportierte",
+        "du": "exportiertest",
+        "er_sie_es": "exportierte",
+        "wir": "exportierten",
+        "ihr": "exportiertet",
+        "sie_Sie": "exportierten"
+      },
+      "konjunktiv1": {
+        "ich": "exportiere",
+        "du": "exportierest",
+        "er_sie_es": "exportiere",
+        "wir": "exportieren",
+        "ihr": "exportieret",
+        "sie_Sie": "exportieren"
+      },
+      "konjunktiv2": {
+        "ich": "exportierte",
+        "du": "exportiertest",
+        "er_sie_es": "exportierte",
+        "wir": "exportierten",
+        "ihr": "exportiertet",
+        "sie_Sie": "exportierten"
+      },
+      "imperativ": {
+        "du": "Exportiere!",
+        "ihr": "Exportiert!",
+        "Sie": "Exportieren Sie!"
+      }
+    },
+    "partizip1": "exportierend",
+    "nominalisierung": "der Export"
+  },
+  "wortnetz": {
+    "grundwort": "Export",
+    "woerter": [
+      {
+        "wort": "der Export",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "صادرات",
+          "en": "export"
+        },
+        "id_ref": "nomen_export"
+      },
+      {
+        "wort": "importieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وارد کردن",
+          "en": "to import"
+        },
+        "id_ref": "verb_importieren"
+      },
+      {
+        "wort": "die Ware",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کالا",
+          "en": "goods"
+        },
+        "id_ref": "nomen_ware"
+      },
+      {
+        "wort": "der Handel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تجارت",
+          "en": "trade"
+        },
+        "id_ref": "nomen_handel"
+      },
+      {
+        "wort": "die Datei",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فایل",
+          "en": "file"
+        },
+        "id_ref": "nomen_datei"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

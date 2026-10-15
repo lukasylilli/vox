@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_fabulieren",
+  "wort": "fabulieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خیال‌بافی کردن",
+      "داستان‌سرایی کردن"
+    ],
+    "en": [
+      "to fabulate",
+      "to spin tales"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Literatur",
+    "Kommunikation"
+  ],
+  "ipa": "fabuˈliːʁən",
+  "anmerkung": "Regelmäßig (fabulierte, fabuliert). Gehoben; oft abwertend (unglaubwürdig erzählen).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Opa fabuliert gern.",
+      "uebersetzung": {
+        "fa": "پدربزرگ دوست دارد داستان‌سرایی کند.",
+        "en": "Grandpa likes to spin tales."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Politiker fabulierte von goldenen Zeiten, obwohl die Zahlen etwas ganz anderes zeigten.",
+      "uebersetzung": {
+        "fa": "سیاستمدار از دوران طلایی خیال‌بافی می‌کرد، با این‌که ارقام چیز کاملاً دیگری نشان می‌داد.",
+        "en": "The politician spun tales of golden times although the figures showed something quite different."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erzählen",
+      "uebersetzung": {
+        "fa": "تعریف کردن",
+        "en": "to tell"
+      }
+    },
+    {
+      "wort": "fantasieren",
+      "uebersetzung": {
+        "fa": "خیال‌پردازی کردن",
+        "en": "to fantasize"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. fabula (قصه) + -ieren",
+    "en": "Latin fabula (story) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "von + Dat fabulieren",
+        "bedeutung": "fantasievoll und wenig glaubwürdig von etwas erzählen",
+        "beispiel": "Er fabuliert von seinen Abenteuern.",
+        "uebersetzung": {
+          "fa": "از ماجراجویی‌هایش داستان‌سرایی می‌کند.",
+          "en": "He spins tales about his adventures."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "fabulieren",
+      "praeteritum": "fabulierte",
+      "partizip2": "fabuliert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fabuliere",
+        "du": "fabulierst",
+        "er_sie_es": "fabuliert",
+        "wir": "fabulieren",
+        "ihr": "fabuliert",
+        "sie_Sie": "fabulieren"
+      },
+      "praeteritum": {
+        "ich": "fabulierte",
+        "du": "fabuliertest",
+        "er_sie_es": "fabulierte",
+        "wir": "fabulierten",
+        "ihr": "fabuliertet",
+        "sie_Sie": "fabulierten"
+      },
+      "konjunktiv1": {
+        "ich": "fabuliere",
+        "du": "fabulierest",
+        "er_sie_es": "fabuliere",
+        "wir": "fabulieren",
+        "ihr": "fabulieret",
+        "sie_Sie": "fabulieren"
+      },
+      "konjunktiv2": {
+        "ich": "fabulierte",
+        "du": "fabuliertest",
+        "er_sie_es": "fabulierte",
+        "wir": "fabulierten",
+        "ihr": "fabuliertet",
+        "sie_Sie": "fabulierten"
+      },
+      "imperativ": {
+        "du": "Fabuliere!",
+        "ihr": "Fabuliert!",
+        "Sie": "Fabulieren Sie!"
+      }
+    },
+    "partizip1": "fabulierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Fabel",
+    "woerter": [
+      {
+        "wort": "die Fabel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "افسانه‌ی حیوانات",
+          "en": "fable"
+        },
+        "id_ref": "nomen_fabel"
+      },
+      {
+        "wort": "erzählen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تعریف کردن",
+          "en": "to tell"
+        },
+        "id_ref": "verb_erzaehlen"
+      },
+      {
+        "wort": "die Geschichte",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "داستان",
+          "en": "story"
+        },
+        "id_ref": "nomen_geschichte"
+      },
+      {
+        "wort": "fantasieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خیال‌پردازی کردن",
+          "en": "to fantasize"
+        },
+        "id_ref": "verb_fantasieren"
+      },
+      {
+        "wort": "lügen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دروغ گفتن",
+          "en": "to lie"
+        },
+        "id_ref": "verb_luegen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
