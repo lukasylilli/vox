@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_hospitieren",
+  "wort": "hospitieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "در کلاس یا کار مهمان بودن",
+      "مشاهده‌ی آموزشی کردن"
+    ],
+    "en": [
+      "to sit in",
+      "to observe (for training)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Bildung",
+    "Arbeit"
+  ],
+  "ipa": "hɔspiˈtiːʁən",
+  "anmerkung": "Regelmäßig (hospitierte, hospitiert).",
+  "berufe": [
+    "pflege_medizin",
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Heute hospitiere ich in einer Schule.",
+      "uebersetzung": {
+        "fa": "امروز در یک مدرسه به‌عنوان ناظر حضور دارم.",
+        "en": "Today I am sitting in on lessons at a school."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor er die Stelle annahm, durfte er eine Woche auf der Station hospitieren, um das Team kennenzulernen.",
+      "uebersetzung": {
+        "fa": "پیش از قبول کار، اجازه داشت یک هفته در بخش حضور داشته باشد تا با گروه آشنا شود.",
+        "en": "Before accepting the job he was allowed to spend a week observing on the ward to get to know the team."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. hospes (مهمان) + -ieren",
+    "en": "lat. hospes (guest) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "bei + Dat hospitieren",
+        "bedeutung": "jemandem bei der Arbeit zuschauen, um zu lernen",
+        "beispiel": "Die Studentin hospitiert bei einer erfahrenen Lehrerin.",
+        "uebersetzung": {
+          "fa": "دانشجو در کلاس یک معلم باتجربه حضور می‌یابد.",
+          "en": "The student is sitting in on an experienced teacher’s lessons."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hospitieren",
+      "praeteritum": "hospitierte",
+      "partizip2": "hospitiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "hospitiere",
+        "du": "hospitierst",
+        "er_sie_es": "hospitiert",
+        "wir": "hospitieren",
+        "ihr": "hospitiert",
+        "sie_Sie": "hospitieren"
+      },
+      "praeteritum": {
+        "ich": "hospitierte",
+        "du": "hospitiertest",
+        "er_sie_es": "hospitierte",
+        "wir": "hospitierten",
+        "ihr": "hospitiertet",
+        "sie_Sie": "hospitierten"
+      },
+      "konjunktiv1": {
+        "ich": "hospitiere",
+        "du": "hospitierest",
+        "er_sie_es": "hospitiere",
+        "wir": "hospitieren",
+        "ihr": "hospitieret",
+        "sie_Sie": "hospitieren"
+      },
+      "konjunktiv2": {
+        "ich": "hospitierte",
+        "du": "hospitiertest",
+        "er_sie_es": "hospitierte",
+        "wir": "hospitierten",
+        "ihr": "hospitiertet",
+        "sie_Sie": "hospitierten"
+      },
+      "imperativ": {
+        "du": "Hospitiere!",
+        "ihr": "Hospitiert!",
+        "Sie": "Hospitieren Sie!"
+      }
+    },
+    "partizip1": "hospitierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Gast",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مهمان",
+          "en": "guest"
+        },
+        "id_ref": "nomen_gast"
+      },
+      {
+        "wort": "lernen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "یاد گرفتن",
+          "en": "to learn"
+        },
+        "id_ref": "verb_lernen"
+      },
+      {
+        "wort": "der Unterricht",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "درس، کلاس",
+          "en": "lessons"
+        },
+        "id_ref": "nomen_unterricht"
+      },
+      {
+        "wort": "beobachten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مشاهده کردن",
+          "en": "to observe"
+        },
+        "id_ref": "verb_beobachten"
+      },
+      {
+        "wort": "das Praktikum",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کارآموزی",
+          "en": "internship"
+        },
+        "id_ref": "nomen_praktikum"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

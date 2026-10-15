@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "verb_hospitalisieren",
+  "wort": "hospitalisieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "در بیمارستان بستری کردن"
+    ],
+    "en": [
+      "to hospitalize"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin"
+  ],
+  "ipa": "hɔspitaliˈziːʁən",
+  "anmerkung": "Regelmäßig (hospitalisierte, hospitalisiert). Fachsprachlich; allgemein: «ins Krankenhaus einweisen».",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Man hospitalisiert den Patienten.",
+      "uebersetzung": {
+        "fa": "بیمار را بستری می‌کنند.",
+        "en": "The patient is being hospitalized."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wegen der starken Atemnot musste die ältere Frau sofort hospitalisiert werden.",
+      "uebersetzung": {
+        "fa": "زن مسن به‌خاطر تنگی نفس شدید باید فوراً بستری می‌شد.",
+        "en": "Because of severe shortness of breath the elderly woman had to be hospitalized immediately."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einweisen",
+      "uebersetzung": {
+        "fa": "بستری کردن",
+        "en": "to admit"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. hospitalis (مهمان‌نواز) + -isieren",
+    "en": "lat. hospitalis (hospitable) + -isieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "hospitalisieren",
+      "praeteritum": "hospitalisierte",
+      "partizip2": "hospitalisiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "hospitalisiere",
+        "du": "hospitalisierst",
+        "er_sie_es": "hospitalisiert",
+        "wir": "hospitalisieren",
+        "ihr": "hospitalisiert",
+        "sie_Sie": "hospitalisieren"
+      },
+      "praeteritum": {
+        "ich": "hospitalisierte",
+        "du": "hospitalisiertest",
+        "er_sie_es": "hospitalisierte",
+        "wir": "hospitalisierten",
+        "ihr": "hospitalisiertet",
+        "sie_Sie": "hospitalisierten"
+      },
+      "konjunktiv1": {
+        "ich": "hospitalisiere",
+        "du": "hospitalisierest",
+        "er_sie_es": "hospitalisiere",
+        "wir": "hospitalisieren",
+        "ihr": "hospitalisieret",
+        "sie_Sie": "hospitalisieren"
+      },
+      "konjunktiv2": {
+        "ich": "hospitalisierte",
+        "du": "hospitalisiertest",
+        "er_sie_es": "hospitalisierte",
+        "wir": "hospitalisierten",
+        "ihr": "hospitalisiertet",
+        "sie_Sie": "hospitalisierten"
+      },
+      "imperativ": {
+        "du": "Hospitalisiere!",
+        "ihr": "Hospitalisiert!",
+        "Sie": "Hospitalisieren Sie!"
+      }
+    },
+    "partizip1": "hospitalisierend",
+    "nominalisierung": "die Hospitalisierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Krankenhaus",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمارستان",
+          "en": "hospital"
+        },
+        "id_ref": "nomen_krankenhaus"
+      },
+      {
+        "wort": "der Patient",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "patient"
+        },
+        "id_ref": "nomen_patient"
+      },
+      {
+        "wort": "die Klinik",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کلینیک",
+          "en": "clinic"
+        },
+        "id_ref": "nomen_klinik"
+      },
+      {
+        "wort": "einweisen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بستری کردن",
+          "en": "to admit"
+        },
+        "id_ref": "verb_einweisen"
+      },
+      {
+        "wort": "stationär",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بستری",
+          "en": "inpatient"
+        },
+        "id_ref": "adjektiv_stationaer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_hoeren",
+  "wort": "hören",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شنیدن",
+      "گوش دادن"
+    ],
+    "en": [
+      "to hear",
+      "to listen"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Wahrnehmung",
+    "Alltag"
+  ],
+  "ipa": "ˈhøːʁən",
+  "anmerkung": "Regelmäßig (hörte, gehört). zuhören, anhören und aufhören sind eigene Verben.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich höre Musik.",
+      "uebersetzung": {
+        "fa": "موسیقی گوش می‌دهم.",
+        "en": "I listen to music."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Hast du gehört, dass unser Nachbar bald nach Spanien zieht?",
+      "uebersetzung": {
+        "fa": "شنیدی که همسایه‌مان به‌زودی به اسپانیا می‌رود؟",
+        "en": "Have you heard that our neighbour is moving to Spain soon?"
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Akk hören",
+        "bedeutung": "jemandes Rat befolgen",
+        "beispiel": "Du solltest auf deinen Arzt hören.",
+        "uebersetzung": {
+          "fa": "باید به حرف پزشکت گوش کنی.",
+          "en": "You should listen to your doctor."
+        }
+      },
+      {
+        "muster": "von + Dat hören",
+        "bedeutung": "eine Nachricht von jemandem bekommen",
+        "beispiel": "Ich habe lange nichts von ihr gehört.",
+        "uebersetzung": {
+          "fa": "مدت‌هاست از او خبری ندارم.",
+          "en": "I haven’t heard from her for a long time."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hören",
+      "praeteritum": "hörte",
+      "partizip2": "gehört"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "höre",
+        "du": "hörst",
+        "er_sie_es": "hört",
+        "wir": "hören",
+        "ihr": "hört",
+        "sie_Sie": "hören"
+      },
+      "praeteritum": {
+        "ich": "hörte",
+        "du": "hörtest",
+        "er_sie_es": "hörte",
+        "wir": "hörten",
+        "ihr": "hörtet",
+        "sie_Sie": "hörten"
+      },
+      "konjunktiv1": {
+        "ich": "höre",
+        "du": "hörest",
+        "er_sie_es": "höre",
+        "wir": "hören",
+        "ihr": "höret",
+        "sie_Sie": "hören"
+      },
+      "konjunktiv2": {
+        "ich": "hörte",
+        "du": "hörtest",
+        "er_sie_es": "hörte",
+        "wir": "hörten",
+        "ihr": "hörtet",
+        "sie_Sie": "hörten"
+      },
+      "imperativ": {
+        "du": "Höre!",
+        "ihr": "Hört!",
+        "Sie": "Hören Sie!"
+      }
+    },
+    "partizip1": "hörend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Ohr",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گوش",
+          "en": "ear"
+        },
+        "id_ref": "nomen_ohr"
+      },
+      {
+        "wort": "laut",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بلند",
+          "en": "loud"
+        },
+        "id_ref": "adjektiv_laut"
+      },
+      {
+        "wort": "anhören",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گوش دادن به",
+          "en": "to listen to"
+        },
+        "id_ref": "verb_anhoeren"
+      },
+      {
+        "wort": "zuhören",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گوش دادن",
+          "en": "to listen"
+        },
+        "id_ref": "verb_zuhoeren"
+      },
+      {
+        "wort": "das Gehör",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شنوایی",
+          "en": "hearing"
+        },
+        "id_ref": "nomen_gehoer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

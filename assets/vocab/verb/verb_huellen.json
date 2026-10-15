@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_huellen",
+  "wort": "hüllen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پیچیدن",
+      "پوشاندن"
+    ],
+    "en": [
+      "to wrap",
+      "to envelop"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kleidung"
+  ],
+  "ipa": "ˈhʏlən",
+  "anmerkung": "Regelmäßig (hüllte, gehüllt). Redewendung: «sich in Schweigen hüllen» (nichts sagen). einhüllen ist ein eigenes Verb.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie hüllt sich in einen Mantel.",
+      "uebersetzung": {
+        "fa": "خودش را در پالتویی می‌پیچد.",
+        "en": "She wraps herself in a coat."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Zu den Vorwürfen hüllte sich der Minister in Schweigen und gab keinen Kommentar ab.",
+      "uebersetzung": {
+        "fa": "وزیر درباره‌ی اتهام‌ها سکوت کرد و هیچ اظهارنظری نکرد.",
+        "en": "The minister remained silent about the accusations and made no comment."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wickeln",
+      "uebersetzung": {
+        "fa": "پیچیدن",
+        "en": "to wrap"
+      }
+    },
+    {
+      "wort": "bedecken",
+      "uebersetzung": {
+        "fa": "پوشاندن",
+        "en": "to cover"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "in + Akk hüllen",
+        "bedeutung": "etwas mit etwas umgeben",
+        "beispiel": "Sie hüllt das Baby in eine warme Decke.",
+        "uebersetzung": {
+          "fa": "بچه را در پتویی گرم می‌پیچد.",
+          "en": "She wraps the baby in a warm blanket."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hüllen",
+      "praeteritum": "hüllte",
+      "partizip2": "gehüllt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "hülle",
+        "du": "hüllst",
+        "er_sie_es": "hüllt",
+        "wir": "hüllen",
+        "ihr": "hüllt",
+        "sie_Sie": "hüllen"
+      },
+      "praeteritum": {
+        "ich": "hüllte",
+        "du": "hülltest",
+        "er_sie_es": "hüllte",
+        "wir": "hüllten",
+        "ihr": "hülltet",
+        "sie_Sie": "hüllten"
+      },
+      "konjunktiv1": {
+        "ich": "hülle",
+        "du": "hüllest",
+        "er_sie_es": "hülle",
+        "wir": "hüllen",
+        "ihr": "hüllet",
+        "sie_Sie": "hüllen"
+      },
+      "konjunktiv2": {
+        "ich": "hüllte",
+        "du": "hülltest",
+        "er_sie_es": "hüllte",
+        "wir": "hüllten",
+        "ihr": "hülltet",
+        "sie_Sie": "hüllten"
+      },
+      "imperativ": {
+        "du": "Hülle!",
+        "ihr": "Hüllt!",
+        "Sie": "Hüllen Sie!"
+      }
+    },
+    "partizip1": "hüllend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Hülle",
+    "woerter": [
+      {
+        "wort": "der Mantel",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پالتو",
+          "en": "coat"
+        },
+        "id_ref": "nomen_mantel"
+      },
+      {
+        "wort": "die Decke",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پتو",
+          "en": "blanket"
+        },
+        "id_ref": "nomen_decke"
+      },
+      {
+        "wort": "bedecken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پوشاندن",
+          "en": "to cover"
+        },
+        "id_ref": "verb_bedecken"
+      },
+      {
+        "wort": "wickeln",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیچیدن",
+          "en": "to wrap"
+        },
+        "id_ref": "verb_wickeln"
+      },
+      {
+        "wort": "die Hülle",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پوشش، جلد",
+          "en": "cover"
+        },
+        "id_ref": "nomen_huelle"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
