@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "verb_impfen",
+  "wort": "impfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "واکسن زدن"
+    ],
+    "en": [
+      "to vaccinate"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gesundheit",
+    "Medizin"
+  ],
+  "ipa": "ˈɪmpfn̩",
+  "anmerkung": "Regelmäßig (impfte, geimpft).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Arzt impft das Baby.",
+      "uebersetzung": {
+        "fa": "پزشک به نوزاد واکسن می‌زند.",
+        "en": "The doctor vaccinates the baby."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bevor du in die Tropen reist, solltest du dich beim Hausarzt beraten und impfen lassen.",
+      "uebersetzung": {
+        "fa": "پیش از سفر به مناطق گرمسیری، بهتر است با پزشک خانواده مشورت کنی و واکسن بزنی.",
+        "en": "Before you travel to the tropics, you should get advice from your GP and get vaccinated."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "gegen + Akk impfen",
+        "bedeutung": "vor einer Krankheit schützen",
+        "beispiel": "Die Kinder werden gegen Masern geimpft.",
+        "uebersetzung": {
+          "fa": "بچه‌ها را در برابر سرخک واکسن می‌زنند.",
+          "en": "The children are vaccinated against measles."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "impfen",
+      "praeteritum": "impfte",
+      "partizip2": "geimpft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "impfe",
+        "du": "impfst",
+        "er_sie_es": "impft",
+        "wir": "impfen",
+        "ihr": "impft",
+        "sie_Sie": "impfen"
+      },
+      "praeteritum": {
+        "ich": "impfte",
+        "du": "impftest",
+        "er_sie_es": "impfte",
+        "wir": "impften",
+        "ihr": "impftet",
+        "sie_Sie": "impften"
+      },
+      "konjunktiv1": {
+        "ich": "impfe",
+        "du": "impfest",
+        "er_sie_es": "impfe",
+        "wir": "impfen",
+        "ihr": "impfet",
+        "sie_Sie": "impfen"
+      },
+      "konjunktiv2": {
+        "ich": "impfte",
+        "du": "impftest",
+        "er_sie_es": "impfte",
+        "wir": "impften",
+        "ihr": "impftet",
+        "sie_Sie": "impften"
+      },
+      "imperativ": {
+        "du": "Impfe!",
+        "ihr": "Impft!",
+        "Sie": "Impfen Sie!"
+      }
+    },
+    "partizip1": "impfend",
+    "nominalisierung": "die Impfung"
+  },
+  "wortnetz": {
+    "grundwort": "Impfung",
+    "woerter": [
+      {
+        "wort": "der Arzt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پزشک",
+          "en": "doctor"
+        },
+        "id_ref": "nomen_arzt"
+      },
+      {
+        "wort": "die Impfung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "واکسیناسیون",
+          "en": "vaccination"
+        },
+        "id_ref": "nomen_impfung"
+      },
+      {
+        "wort": "die Spritze",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آمپول، سرنگ",
+          "en": "injection"
+        },
+        "id_ref": "nomen_spritze"
+      },
+      {
+        "wort": "immun",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ایمن",
+          "en": "immune"
+        },
+        "id_ref": "adjektiv_immun"
+      },
+      {
+        "wort": "der Impfstoff",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "واکسن",
+          "en": "vaccine"
+        },
+        "id_ref": "nomen_impfstoff"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_identifizieren",
+  "wort": "identifizieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شناسایی کردن"
+    ],
+    "en": [
+      "to identify"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Polizei",
+    "Gesellschaft"
+  ],
+  "ipa": "identifiˈtsiːʁən",
+  "anmerkung": "Regelmäßig (identifizierte, identifiziert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Polizei identifiziert den Täter.",
+      "uebersetzung": {
+        "fa": "پلیس مجرم را شناسایی می‌کند.",
+        "en": "The police identify the offender."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Mithilfe von Videoaufnahmen konnte der Dieb schon nach wenigen Stunden identifiziert werden.",
+      "uebersetzung": {
+        "fa": "دزد با کمک فیلم‌ها پس از چند ساعت شناسایی شد.",
+        "en": "With the help of video footage the thief was identified after just a few hours."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erkennen",
+      "uebersetzung": {
+        "fa": "شناختن",
+        "en": "to recognize"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "die Identität (هویت) + -fizieren",
+    "en": "die Identität (identity) + -fizieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich mit + Dat identifizieren",
+        "bedeutung": "sich einer Sache oder Person sehr verbunden fühlen",
+        "beispiel": "Viele Mitarbeiter identifizieren sich mit ihrer Firma.",
+        "uebersetzung": {
+          "fa": "بسیاری از کارکنان خود را با شرکتشان یکی می‌دانند.",
+          "en": "Many employees identify with their company."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "identifizieren",
+      "praeteritum": "identifizierte",
+      "partizip2": "identifiziert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "identifiziere",
+        "du": "identifizierst",
+        "er_sie_es": "identifiziert",
+        "wir": "identifizieren",
+        "ihr": "identifiziert",
+        "sie_Sie": "identifizieren"
+      },
+      "praeteritum": {
+        "ich": "identifizierte",
+        "du": "identifiziertest",
+        "er_sie_es": "identifizierte",
+        "wir": "identifizierten",
+        "ihr": "identifiziertet",
+        "sie_Sie": "identifizierten"
+      },
+      "konjunktiv1": {
+        "ich": "identifiziere",
+        "du": "identifizierest",
+        "er_sie_es": "identifiziere",
+        "wir": "identifizieren",
+        "ihr": "identifizieret",
+        "sie_Sie": "identifizieren"
+      },
+      "konjunktiv2": {
+        "ich": "identifizierte",
+        "du": "identifiziertest",
+        "er_sie_es": "identifizierte",
+        "wir": "identifizierten",
+        "ihr": "identifiziertet",
+        "sie_Sie": "identifizierten"
+      },
+      "imperativ": {
+        "du": "Identifiziere!",
+        "ihr": "Identifiziert!",
+        "Sie": "Identifizieren Sie!"
+      }
+    },
+    "partizip1": "identifizierend",
+    "nominalisierung": "die Identifizierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Ausweis",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کارت شناسایی",
+          "en": "ID card"
+        },
+        "id_ref": "nomen_ausweis"
+      },
+      {
+        "wort": "erkennen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شناختن",
+          "en": "to recognize"
+        },
+        "id_ref": "verb_erkennen"
+      },
+      {
+        "wort": "feststellen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تشخیص دادن",
+          "en": "to establish"
+        },
+        "id_ref": "verb_feststellen"
+      },
+      {
+        "wort": "die Identität",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "هویت",
+          "en": "identity"
+        },
+        "id_ref": "nomen_identitaet"
+      },
+      {
+        "wort": "die Identifikation",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شناسایی",
+          "en": "identification"
+        },
+        "id_ref": "nomen_identifikation"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

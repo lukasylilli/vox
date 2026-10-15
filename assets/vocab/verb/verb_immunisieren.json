@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_immunisieren",
+  "wort": "immunisieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ایمن کردن"
+    ],
+    "en": [
+      "to immunize"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin"
+  ],
+  "ipa": "imuniˈziːʁən",
+  "anmerkung": "Regelmäßig (immunisierte, immunisiert).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Impfung immunisiert das Kind.",
+      "uebersetzung": {
+        "fa": "واکسن بچه را ایمن می‌کند.",
+        "en": "The vaccination immunizes the child."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wer gegen Masern immunisiert ist, kann sich und andere nicht mehr anstecken.",
+      "uebersetzung": {
+        "fa": "کسی که در برابر سرخک ایمن شده، دیگر خودش و دیگران را مبتلا نمی‌کند.",
+        "en": "Anyone who is immunized against measles can no longer infect themselves or others."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "immun (ایمن) + -isieren",
+    "en": "immun (immune) + -isieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "gegen + Akk immunisieren",
+        "bedeutung": "unempfindlich gegen eine Krankheit machen",
+        "beispiel": "Der Impfstoff immunisiert gegen Grippe.",
+        "uebersetzung": {
+          "fa": "این واکسن در برابر آنفولانزا ایمنی می‌دهد.",
+          "en": "The vaccine immunizes against flu."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "immunisieren",
+      "praeteritum": "immunisierte",
+      "partizip2": "immunisiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "immunisiere",
+        "du": "immunisierst",
+        "er_sie_es": "immunisiert",
+        "wir": "immunisieren",
+        "ihr": "immunisiert",
+        "sie_Sie": "immunisieren"
+      },
+      "praeteritum": {
+        "ich": "immunisierte",
+        "du": "immunisiertest",
+        "er_sie_es": "immunisierte",
+        "wir": "immunisierten",
+        "ihr": "immunisiertet",
+        "sie_Sie": "immunisierten"
+      },
+      "konjunktiv1": {
+        "ich": "immunisiere",
+        "du": "immunisierest",
+        "er_sie_es": "immunisiere",
+        "wir": "immunisieren",
+        "ihr": "immunisieret",
+        "sie_Sie": "immunisieren"
+      },
+      "konjunktiv2": {
+        "ich": "immunisierte",
+        "du": "immunisiertest",
+        "er_sie_es": "immunisierte",
+        "wir": "immunisierten",
+        "ihr": "immunisiertet",
+        "sie_Sie": "immunisierten"
+      },
+      "imperativ": {
+        "du": "Immunisiere!",
+        "ihr": "Immunisiert!",
+        "Sie": "Immunisieren Sie!"
+      }
+    },
+    "partizip1": "immunisierend",
+    "nominalisierung": "die Immunisierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "krank",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "ill"
+        },
+        "id_ref": "adjektiv_krank"
+      },
+      {
+        "wort": "impfen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "واکسن زدن",
+          "en": "to vaccinate"
+        },
+        "id_ref": "verb_impfen"
+      },
+      {
+        "wort": "die Impfung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "واکسیناسیون",
+          "en": "vaccination"
+        },
+        "id_ref": "nomen_impfung"
+      },
+      {
+        "wort": "immun",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ایمن",
+          "en": "immune"
+        },
+        "id_ref": "adjektiv_immun"
+      },
+      {
+        "wort": "das Immunsystem",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دستگاه ایمنی",
+          "en": "immune system"
+        },
+        "id_ref": "nomen_immunsystem"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
