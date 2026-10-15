@@ -1,0 +1,193 @@
+{
+  "schema": "3.0",
+  "id": "verb_forschen",
+  "wort": "forschen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پژوهش کردن",
+      "تحقیق کردن"
+    ],
+    "en": [
+      "to research",
+      "to investigate"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Wissenschaft"
+  ],
+  "ipa": "ˈfɔʁʃn̩",
+  "anmerkung": "Regelmäßig (forschte, geforscht).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mein Onkel forscht an der Universität.",
+      "uebersetzung": {
+        "fa": "عمویم در دانشگاه پژوهش می‌کند.",
+        "en": "My uncle does research at the university."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil sie wissen wollte, woher ihre Familie kommt, forschte sie in alten Kirchenbüchern.",
+      "uebersetzung": {
+        "fa": "چون می‌خواست بداند خانواده‌اش از کجا آمده، در دفترهای قدیمی کلیسا جست‌وجو کرد.",
+        "en": "Because she wanted to know where her family came from, she searched old church registers."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "untersuchen",
+      "uebersetzung": {
+        "fa": "بررسی کردن",
+        "en": "to examine"
+      }
+    },
+    {
+      "wort": "erforschen",
+      "uebersetzung": {
+        "fa": "کاویدن",
+        "en": "to explore"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "an + Dat forschen",
+        "bedeutung": "wissenschaftlich an einem Thema arbeiten",
+        "beispiel": "Wissenschaftler forschen an einem neuen Impfstoff.",
+        "uebersetzung": {
+          "fa": "دانشمندان روی واکسنی تازه پژوهش می‌کنند.",
+          "en": "Scientists are researching a new vaccine."
+        }
+      },
+      {
+        "muster": "nach + Dat forschen",
+        "bedeutung": "etwas gründlich suchen",
+        "beispiel": "Die Polizei forscht nach der Ursache des Brandes.",
+        "uebersetzung": {
+          "fa": "پلیس دنبال علت آتش‌سوزی است.",
+          "en": "The police are investigating the cause of the fire."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "forschen",
+      "praeteritum": "forschte",
+      "partizip2": "geforscht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "forsche",
+        "du": "forschst",
+        "er_sie_es": "forscht",
+        "wir": "forschen",
+        "ihr": "forscht",
+        "sie_Sie": "forschen"
+      },
+      "praeteritum": {
+        "ich": "forschte",
+        "du": "forschtest",
+        "er_sie_es": "forschte",
+        "wir": "forschten",
+        "ihr": "forschtet",
+        "sie_Sie": "forschten"
+      },
+      "konjunktiv1": {
+        "ich": "forsche",
+        "du": "forschest",
+        "er_sie_es": "forsche",
+        "wir": "forschen",
+        "ihr": "forschet",
+        "sie_Sie": "forschen"
+      },
+      "konjunktiv2": {
+        "ich": "forschte",
+        "du": "forschtest",
+        "er_sie_es": "forschte",
+        "wir": "forschten",
+        "ihr": "forschtet",
+        "sie_Sie": "forschten"
+      },
+      "imperativ": {
+        "du": "Forsche!",
+        "ihr": "Forscht!",
+        "Sie": "Forschen Sie!"
+      }
+    },
+    "partizip1": "forschend",
+    "nominalisierung": "die Forschung"
+  },
+  "wortnetz": {
+    "grundwort": "Forschung",
+    "woerter": [
+      {
+        "wort": "der Forscher",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پژوهشگر",
+          "en": "researcher"
+        },
+        "id_ref": "nomen_forscher"
+      },
+      {
+        "wort": "die Forschung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پژوهش",
+          "en": "research"
+        },
+        "id_ref": "nomen_forschung"
+      },
+      {
+        "wort": "untersuchen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بررسی کردن",
+          "en": "to examine"
+        },
+        "id_ref": "verb_untersuchen"
+      },
+      {
+        "wort": "die Wissenschaft",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "علم",
+          "en": "science"
+        },
+        "id_ref": "nomen_wissenschaft"
+      },
+      {
+        "wort": "erforschen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کاویدن",
+          "en": "to explore"
+        },
+        "id_ref": "verb_erforschen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
