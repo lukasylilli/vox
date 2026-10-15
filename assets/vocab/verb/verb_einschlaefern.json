@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_einschlaefern",
+  "wort": "einschläfern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خواب کردن",
+      "با تزریق کشتن (حیوان)"
+    ],
+    "en": [
+      "to put to sleep",
+      "to euthanize (an animal)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Tiere"
+  ],
+  "ipa": "ˈaɪ̯nˌʃlɛːfɐn",
+  "anmerkung": "Trennbar (schläferte ein, eingeschläfert).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Musik schläfert mich ein.",
+      "uebersetzung": {
+        "fa": "موسیقی مرا خواب می‌کند.",
+        "en": "The music sends me to sleep."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der alte Hund war so krank, dass ihn die Tierärztin einschläfern musste.",
+      "uebersetzung": {
+        "fa": "سگ پیر آن‌قدر بیمار بود که دامپزشک مجبور شد او را با تزریق بکشد.",
+        "en": "The old dog was so ill that the vet had to put him to sleep."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "betäuben",
+      "uebersetzung": {
+        "fa": "بیهوش کردن",
+        "en": "to anaesthetize"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "aufwecken",
+      "uebersetzung": {
+        "fa": "بیدار کردن",
+        "en": "to wake up"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + schlafen (خوابیدن)",
+    "en": "ein- (into) + schlafen (to sleep)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "einschläfern",
+      "praeteritum": "schläferte ein",
+      "partizip2": "eingeschläfert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schläfere ein",
+        "du": "schläferst ein",
+        "er_sie_es": "schläfert ein",
+        "wir": "schläfern ein",
+        "ihr": "schläfert ein",
+        "sie_Sie": "schläfern ein"
+      },
+      "praeteritum": {
+        "ich": "schläferte ein",
+        "du": "schläfertest ein",
+        "er_sie_es": "schläferte ein",
+        "wir": "schläferten ein",
+        "ihr": "schläfertet ein",
+        "sie_Sie": "schläferten ein"
+      },
+      "konjunktiv1": {
+        "ich": "schläfere ein",
+        "du": "schläferest ein",
+        "er_sie_es": "schläfere ein",
+        "wir": "schläfern ein",
+        "ihr": "schläferet ein",
+        "sie_Sie": "schläfern ein"
+      },
+      "konjunktiv2": {
+        "ich": "schläferte ein",
+        "du": "schläfertest ein",
+        "er_sie_es": "schläferte ein",
+        "wir": "schläferten ein",
+        "ihr": "schläfertet ein",
+        "sie_Sie": "schläferten ein"
+      },
+      "imperativ": {
+        "du": "Schläfere ein!",
+        "ihr": "Schläfert ein!",
+        "Sie": "Schläfern Sie ein!"
+      }
+    },
+    "partizip1": "einschläfernd",
+    "nominalisierung": "die Einschläferung"
+  },
+  "wortnetz": {
+    "grundwort": "Schlaf",
+    "woerter": [
+      {
+        "wort": "schlafen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوابیدن",
+          "en": "to sleep"
+        },
+        "id_ref": "verb_schlafen"
+      },
+      {
+        "wort": "einschlafen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "به خواب رفتن",
+          "en": "to fall asleep"
+        },
+        "id_ref": "verb_einschlafen"
+      },
+      {
+        "wort": "müde",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خسته",
+          "en": "tired"
+        },
+        "id_ref": "adjektiv_muede"
+      },
+      {
+        "wort": "der Tierarzt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دامپزشک",
+          "en": "vet"
+        },
+        "id_ref": "nomen_tierarzt"
+      },
+      {
+        "wort": "die Narkose",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بیهوشی",
+          "en": "anaesthesia"
+        },
+        "id_ref": "nomen_narkose"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

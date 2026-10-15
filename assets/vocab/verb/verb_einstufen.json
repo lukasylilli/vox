@@ -1,0 +1,198 @@
+{
+  "schema": "3.0",
+  "id": "verb_einstufen",
+  "wort": "einstufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "رده‌بندی کردن",
+      "ارزیابی کردن"
+    ],
+    "en": [
+      "to classify",
+      "to grade",
+      "to rate"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit",
+    "Schule"
+  ],
+  "ipa": "ˈaɪ̯nˌʃtuːfn̩",
+  "anmerkung": "Trennbar (stufte ein, eingestuft).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Test stuft mich ein.",
+      "uebersetzung": {
+        "fa": "آزمون سطح مرا تعیین می‌کند.",
+        "en": "The test places me at a level."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Polizei hat den Unfall als schwer eingestuft, weil mehrere Menschen verletzt wurden.",
+      "uebersetzung": {
+        "fa": "پلیس تصادف را شدید ارزیابی کرد، چون چند نفر زخمی شدند.",
+        "en": "The police classified the accident as serious because several people were injured."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einordnen",
+      "uebersetzung": {
+        "fa": "دسته‌بندی کردن",
+        "en": "to classify"
+      }
+    },
+    {
+      "wort": "bewerten",
+      "uebersetzung": {
+        "fa": "ارزیابی کردن",
+        "en": "to assess"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + Stufe (پله، سطح)",
+    "en": "ein- (into) + Stufe (level)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden in + Akk einstufen",
+        "bedeutung": "jemanden einer Stufe zuordnen",
+        "beispiel": "Sie wurde in Niveau B1 eingestuft.",
+        "uebersetzung": {
+          "fa": "سطح او B1 تعیین شد.",
+          "en": "She was placed at level B1."
+        }
+      },
+      {
+        "muster": "etwas als + Akk einstufen",
+        "bedeutung": "etwas in bestimmter Weise bewerten",
+        "beispiel": "Man stuft das Risiko als gering ein.",
+        "uebersetzung": {
+          "fa": "خطر را کم ارزیابی می‌کنند.",
+          "en": "The risk is rated as low."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "einstufen",
+      "praeteritum": "stufte ein",
+      "partizip2": "eingestuft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stufe ein",
+        "du": "stufst ein",
+        "er_sie_es": "stuft ein",
+        "wir": "stufen ein",
+        "ihr": "stuft ein",
+        "sie_Sie": "stufen ein"
+      },
+      "praeteritum": {
+        "ich": "stufte ein",
+        "du": "stuftest ein",
+        "er_sie_es": "stufte ein",
+        "wir": "stuften ein",
+        "ihr": "stuftet ein",
+        "sie_Sie": "stuften ein"
+      },
+      "konjunktiv1": {
+        "ich": "stufe ein",
+        "du": "stufest ein",
+        "er_sie_es": "stufe ein",
+        "wir": "stufen ein",
+        "ihr": "stufet ein",
+        "sie_Sie": "stufen ein"
+      },
+      "konjunktiv2": {
+        "ich": "stufte ein",
+        "du": "stuftest ein",
+        "er_sie_es": "stufte ein",
+        "wir": "stuften ein",
+        "ihr": "stuftet ein",
+        "sie_Sie": "stuften ein"
+      },
+      "imperativ": {
+        "du": "Stufe ein!",
+        "ihr": "Stuft ein!",
+        "Sie": "Stufen Sie ein!"
+      }
+    },
+    "partizip1": "einstufend",
+    "nominalisierung": "die Einstufung"
+  },
+  "wortnetz": {
+    "grundwort": "Stufe",
+    "woerter": [
+      {
+        "wort": "die Stufe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پله، سطح",
+          "en": "step, level"
+        },
+        "id_ref": "nomen_stufe"
+      },
+      {
+        "wort": "das Niveau",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سطح",
+          "en": "level"
+        },
+        "id_ref": "nomen_niveau"
+      },
+      {
+        "wort": "bewerten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ارزیابی کردن",
+          "en": "to assess"
+        },
+        "id_ref": "verb_bewerten"
+      },
+      {
+        "wort": "der Test",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آزمون",
+          "en": "test"
+        },
+        "id_ref": "nomen_test"
+      },
+      {
+        "wort": "die Einstufung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تعیین سطح",
+          "en": "classification"
+        },
+        "id_ref": "nomen_einstufung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

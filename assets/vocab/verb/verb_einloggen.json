@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_einloggen",
+  "wort": "einloggen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "وارد حساب شدن (لاگین کردن)"
+    ],
+    "en": [
+      "to log in"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Technik",
+    "Internet"
+  ],
+  "ipa": "ˈaɪ̯nˌlɔɡn̩",
+  "anmerkung": "Trennbar (loggte ein, eingeloggt). Meist reflexiv: sich einloggen.",
+  "berufe": [
+    "it"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich logge mich ein.",
+      "uebersetzung": {
+        "fa": "وارد حسابم می‌شوم.",
+        "en": "I log in."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Um die Rechnung zu sehen, musst du dich zuerst mit deinem Passwort einloggen.",
+      "uebersetzung": {
+        "fa": "برای دیدن صورت‌حساب اول باید با رمزت وارد حساب شوی.",
+        "en": "To see the bill, you first have to log in with your password."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anmelden",
+      "uebersetzung": {
+        "fa": "وارد شدن، ثبت‌نام کردن",
+        "en": "to sign in"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ausloggen",
+      "uebersetzung": {
+        "fa": "از حساب خارج شدن",
+        "en": "to log out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + engl. to log (ثبت کردن)",
+    "en": "ein- (in) + English to log"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich in + Akk einloggen",
+        "bedeutung": "sich bei einem System oder Konto anmelden",
+        "beispiel": "Sie loggt sich ins Netzwerk ein.",
+        "uebersetzung": {
+          "fa": "وارد شبکه می‌شود.",
+          "en": "She logs into the network."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "einloggen",
+      "praeteritum": "loggte ein",
+      "partizip2": "eingeloggt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "logge ein",
+        "du": "loggst ein",
+        "er_sie_es": "loggt ein",
+        "wir": "loggen ein",
+        "ihr": "loggt ein",
+        "sie_Sie": "loggen ein"
+      },
+      "praeteritum": {
+        "ich": "loggte ein",
+        "du": "loggtest ein",
+        "er_sie_es": "loggte ein",
+        "wir": "loggten ein",
+        "ihr": "loggtet ein",
+        "sie_Sie": "loggten ein"
+      },
+      "konjunktiv1": {
+        "ich": "logge ein",
+        "du": "loggest ein",
+        "er_sie_es": "logge ein",
+        "wir": "loggen ein",
+        "ihr": "logget ein",
+        "sie_Sie": "loggen ein"
+      },
+      "konjunktiv2": {
+        "ich": "loggte ein",
+        "du": "loggtest ein",
+        "er_sie_es": "loggte ein",
+        "wir": "loggten ein",
+        "ihr": "loggtet ein",
+        "sie_Sie": "loggten ein"
+      },
+      "imperativ": {
+        "du": "Logge ein!",
+        "ihr": "Loggt ein!",
+        "Sie": "Loggen Sie ein!"
+      }
+    },
+    "partizip1": "einloggend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Login",
+    "woerter": [
+      {
+        "wort": "das Passwort",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رمز عبور",
+          "en": "password"
+        },
+        "id_ref": "nomen_passwort"
+      },
+      {
+        "wort": "anmelden",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ثبت‌نام کردن، وارد شدن",
+          "en": "to sign in"
+        },
+        "id_ref": "verb_anmelden"
+      },
+      {
+        "wort": "ausloggen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "از حساب خارج شدن",
+          "en": "to log out"
+        },
+        "id_ref": "verb_ausloggen"
+      },
+      {
+        "wort": "das Konto",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حساب",
+          "en": "account"
+        },
+        "id_ref": "nomen_konto"
+      },
+      {
+        "wort": "das Internet",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اینترنت",
+          "en": "internet"
+        },
+        "id_ref": "nomen_internet"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

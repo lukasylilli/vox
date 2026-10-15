@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_einkerkern",
+  "wort": "einkerkern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به زندان انداختن"
+    ],
+    "en": [
+      "to imprison",
+      "to incarcerate"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Recht",
+    "Geschichte"
+  ],
+  "ipa": "ˈaɪ̯nˌkɛʁkɐn",
+  "anmerkung": "Trennbar (kerkerte ein, eingekerkert). Gehoben.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der König kerkert ihn ein.",
+      "uebersetzung": {
+        "fa": "پادشاه او را به زندان می‌اندازد.",
+        "en": "The king imprisons him."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Viele Oppositionelle wurden eingekerkert, nur weil sie die Regierung kritisiert hatten.",
+      "uebersetzung": {
+        "fa": "بسیاری از مخالفان فقط به این دلیل زندانی شدند که از دولت انتقاد کرده بودند.",
+        "en": "Many opposition members were imprisoned just because they had criticized the government."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einsperren",
+      "uebersetzung": {
+        "fa": "حبس کردن",
+        "en": "to lock up"
+      }
+    },
+    {
+      "wort": "inhaftieren",
+      "uebersetzung": {
+        "fa": "بازداشت کردن",
+        "en": "to detain"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "befreien",
+      "uebersetzung": {
+        "fa": "آزاد کردن",
+        "en": "to free"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + Kerker (سیاه‌چال)",
+    "en": "ein- (into) + Kerker (dungeon)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "einkerkern",
+      "praeteritum": "kerkerte ein",
+      "partizip2": "eingekerkert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kerkere ein",
+        "du": "kerkerst ein",
+        "er_sie_es": "kerkert ein",
+        "wir": "kerkern ein",
+        "ihr": "kerkert ein",
+        "sie_Sie": "kerkern ein"
+      },
+      "praeteritum": {
+        "ich": "kerkerte ein",
+        "du": "kerkertest ein",
+        "er_sie_es": "kerkerte ein",
+        "wir": "kerkerten ein",
+        "ihr": "kerkertet ein",
+        "sie_Sie": "kerkerten ein"
+      },
+      "konjunktiv1": {
+        "ich": "kerkere ein",
+        "du": "kerkerest ein",
+        "er_sie_es": "kerkere ein",
+        "wir": "kerkern ein",
+        "ihr": "kerkeret ein",
+        "sie_Sie": "kerkern ein"
+      },
+      "konjunktiv2": {
+        "ich": "kerkerte ein",
+        "du": "kerkertest ein",
+        "er_sie_es": "kerkerte ein",
+        "wir": "kerkerten ein",
+        "ihr": "kerkertet ein",
+        "sie_Sie": "kerkerten ein"
+      },
+      "imperativ": {
+        "du": "Kerkere ein!",
+        "ihr": "Kerkert ein!",
+        "Sie": "Kerkern Sie ein!"
+      }
+    },
+    "partizip1": "einkerkernd",
+    "nominalisierung": "die Einkerkerung"
+  },
+  "wortnetz": {
+    "grundwort": "Kerker",
+    "woerter": [
+      {
+        "wort": "das Gefängnis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زندان",
+          "en": "prison"
+        },
+        "id_ref": "nomen_gefaengnis"
+      },
+      {
+        "wort": "einsperren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حبس کردن",
+          "en": "to lock up"
+        },
+        "id_ref": "verb_einsperren"
+      },
+      {
+        "wort": "befreien",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آزاد کردن",
+          "en": "to free"
+        },
+        "id_ref": "verb_befreien"
+      },
+      {
+        "wort": "der Gefangene",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زندانی",
+          "en": "prisoner"
+        },
+        "id_ref": "nomen_gefangene"
+      },
+      {
+        "wort": "der Kerker",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "سیاه‌چال",
+          "en": "dungeon"
+        },
+        "id_ref": "nomen_kerker"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

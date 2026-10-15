@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_einschiffen",
+  "wort": "einschiffen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سوار کشتی کردن",
+      "سوار کشتی شدن"
+    ],
+    "en": [
+      "to embark",
+      "to ship"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Reisen",
+    "Schifffahrt"
+  ],
+  "ipa": "ˈaɪ̯nˌʃɪfn̩",
+  "anmerkung": "Trennbar (schiffte ein, eingeschifft). Reflexiv: sich einschiffen (an Bord gehen).",
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Passagiere schiffen sich ein.",
+      "uebersetzung": {
+        "fa": "مسافران سوار کشتی می‌شوند.",
+        "en": "The passengers embark."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Waren wurden in Hamburg eingeschifft und erreichten zwei Wochen später New York.",
+      "uebersetzung": {
+        "fa": "کالاها در هامبورگ بار کشتی شدند و دو هفته بعد به نیویورک رسیدند.",
+        "en": "The goods were shipped in Hamburg and reached New York two weeks later."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verladen",
+      "uebersetzung": {
+        "fa": "بار زدن",
+        "en": "to load"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ausschiffen",
+      "uebersetzung": {
+        "fa": "از کشتی پیاده کردن",
+        "en": "to disembark"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + Schiff (کشتی)",
+    "en": "ein- (into) + Schiff (ship)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich nach + Dat einschiffen",
+        "bedeutung": "mit dem Schiff an einen Ort abreisen",
+        "beispiel": "Sie schiffte sich nach Amerika ein.",
+        "uebersetzung": {
+          "fa": "با کشتی راهی آمریکا شد.",
+          "en": "She embarked for America."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "einschiffen",
+      "praeteritum": "schiffte ein",
+      "partizip2": "eingeschifft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schiffe ein",
+        "du": "schiffst ein",
+        "er_sie_es": "schifft ein",
+        "wir": "schiffen ein",
+        "ihr": "schifft ein",
+        "sie_Sie": "schiffen ein"
+      },
+      "praeteritum": {
+        "ich": "schiffte ein",
+        "du": "schifftest ein",
+        "er_sie_es": "schiffte ein",
+        "wir": "schifften ein",
+        "ihr": "schifftet ein",
+        "sie_Sie": "schifften ein"
+      },
+      "konjunktiv1": {
+        "ich": "schiffe ein",
+        "du": "schiffest ein",
+        "er_sie_es": "schiffe ein",
+        "wir": "schiffen ein",
+        "ihr": "schiffet ein",
+        "sie_Sie": "schiffen ein"
+      },
+      "konjunktiv2": {
+        "ich": "schiffte ein",
+        "du": "schifftest ein",
+        "er_sie_es": "schiffte ein",
+        "wir": "schifften ein",
+        "ihr": "schifftet ein",
+        "sie_Sie": "schifften ein"
+      },
+      "imperativ": {
+        "du": "Schiffe ein!",
+        "ihr": "Schifft ein!",
+        "Sie": "Schiffen Sie ein!"
+      }
+    },
+    "partizip1": "einschiffend",
+    "nominalisierung": "die Einschiffung"
+  },
+  "wortnetz": {
+    "grundwort": "Schiff",
+    "woerter": [
+      {
+        "wort": "das Schiff",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کشتی",
+          "en": "ship"
+        },
+        "id_ref": "nomen_schiff"
+      },
+      {
+        "wort": "der Hafen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بندر",
+          "en": "harbour"
+        },
+        "id_ref": "nomen_hafen"
+      },
+      {
+        "wort": "der Passagier",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مسافر",
+          "en": "passenger"
+        },
+        "id_ref": "nomen_passagier"
+      },
+      {
+        "wort": "verladen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بار زدن",
+          "en": "to load"
+        },
+        "id_ref": "verb_verladen"
+      },
+      {
+        "wort": "ausschiffen",
+        "wortart": "verb",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "از کشتی پیاده کردن",
+          "en": "to disembark"
+        },
+        "id_ref": "verb_ausschiffen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

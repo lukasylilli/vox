@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_einrenken",
+  "wort": "einrenken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جا انداختن (مفصل)",
+      "درست کردن (رابطه)"
+    ],
+    "en": [
+      "to set (a joint)",
+      "to sort out"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Beziehung"
+  ],
+  "ipa": "ˈaɪ̯nˌʁɛŋkn̩",
+  "anmerkung": "Trennbar (renkte ein, eingerenkt). Übertragen auch reflexiv: Das renkt sich wieder ein (Das kommt wieder in Ordnung).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Arzt renkt die Schulter ein.",
+      "uebersetzung": {
+        "fa": "پزشک شانه را جا می‌اندازد.",
+        "en": "The doctor puts the shoulder back in."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Streit hat es eine Weile gedauert, bis sich die Beziehung wieder eingerenkt hat.",
+      "uebersetzung": {
+        "fa": "بعد از دعوا مدتی طول کشید تا رابطه دوباره درست شد.",
+        "en": "After the argument it took a while until the relationship got back on track."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "richten",
+      "uebersetzung": {
+        "fa": "جا انداختن",
+        "en": "to set"
+      }
+    },
+    {
+      "wort": "in Ordnung bringen",
+      "uebersetzung": {
+        "fa": "درست کردن",
+        "en": "to put right"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ausrenken",
+      "uebersetzung": {
+        "fa": "دررفتن (مفصل)",
+        "en": "to dislocate"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + renken (پیچاندن)",
+    "en": "ein- (in) + renken (to twist)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "einrenken",
+      "praeteritum": "renkte ein",
+      "partizip2": "eingerenkt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "renke ein",
+        "du": "renkst ein",
+        "er_sie_es": "renkt ein",
+        "wir": "renken ein",
+        "ihr": "renkt ein",
+        "sie_Sie": "renken ein"
+      },
+      "praeteritum": {
+        "ich": "renkte ein",
+        "du": "renktest ein",
+        "er_sie_es": "renkte ein",
+        "wir": "renkten ein",
+        "ihr": "renktet ein",
+        "sie_Sie": "renkten ein"
+      },
+      "konjunktiv1": {
+        "ich": "renke ein",
+        "du": "renkest ein",
+        "er_sie_es": "renke ein",
+        "wir": "renken ein",
+        "ihr": "renket ein",
+        "sie_Sie": "renken ein"
+      },
+      "konjunktiv2": {
+        "ich": "renkte ein",
+        "du": "renktest ein",
+        "er_sie_es": "renkte ein",
+        "wir": "renkten ein",
+        "ihr": "renktet ein",
+        "sie_Sie": "renkten ein"
+      },
+      "imperativ": {
+        "du": "Renke ein!",
+        "ihr": "Renkt ein!",
+        "Sie": "Renken Sie ein!"
+      }
+    },
+    "partizip1": "einrenkend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "ausrenken",
+    "woerter": [
+      {
+        "wort": "das Gelenk",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مفصل",
+          "en": "joint"
+        },
+        "id_ref": "nomen_gelenk"
+      },
+      {
+        "wort": "die Schulter",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شانه",
+          "en": "shoulder"
+        },
+        "id_ref": "nomen_schulter"
+      },
+      {
+        "wort": "ausrenken",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دررفتن (مفصل)",
+          "en": "to dislocate"
+        },
+        "id_ref": "verb_ausrenken"
+      },
+      {
+        "wort": "der Arzt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پزشک",
+          "en": "doctor"
+        },
+        "id_ref": "nomen_arzt"
+      },
+      {
+        "wort": "die Verletzung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آسیب",
+          "en": "injury"
+        },
+        "id_ref": "nomen_verletzung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
