@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_kassieren",
+  "wort": "kassieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "حساب گرفتن",
+      "وصول کردن",
+      "دریافت کردن (چیز ناخوشایند)"
+    ],
+    "en": [
+      "to collect (money)",
+      "to cash in",
+      "to receive"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Geld",
+    "Einkaufen"
+  ],
+  "ipa": "kaˈsiːʁən",
+  "anmerkung": "Regelmäßig (kassierte, kassiert). Umgangssprachlich auch: eine Strafe/Niederlage hinnehmen müssen; jemandem etwas wegnehmen.",
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Darf ich bei Ihnen kassieren?",
+      "uebersetzung": {
+        "fa": "اجازه هست حساب را بگیرم؟",
+        "en": "May I take your payment?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Mannschaft hat schon wieder eine Niederlage kassiert, weil der Torwart verletzt war.",
+      "uebersetzung": {
+        "fa": "تیم باز هم شکست خورد، چون دروازه‌بان مصدوم بود.",
+        "en": "The team suffered another defeat because the goalkeeper was injured."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einnehmen",
+      "uebersetzung": {
+        "fa": "دریافت کردن",
+        "en": "to take in"
+      }
+    },
+    {
+      "wort": "abrechnen",
+      "uebersetzung": {
+        "fa": "تسویه کردن",
+        "en": "to settle up"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "bezahlen",
+      "uebersetzung": {
+        "fa": "پرداختن",
+        "en": "to pay"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ital. cassa (صندوق) + -ieren",
+    "en": "ital. cassa (cash box) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "kassieren",
+      "praeteritum": "kassierte",
+      "partizip2": "kassiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kassiere",
+        "du": "kassierst",
+        "er_sie_es": "kassiert",
+        "wir": "kassieren",
+        "ihr": "kassiert",
+        "sie_Sie": "kassieren"
+      },
+      "praeteritum": {
+        "ich": "kassierte",
+        "du": "kassiertest",
+        "er_sie_es": "kassierte",
+        "wir": "kassierten",
+        "ihr": "kassiertet",
+        "sie_Sie": "kassierten"
+      },
+      "konjunktiv1": {
+        "ich": "kassiere",
+        "du": "kassierest",
+        "er_sie_es": "kassiere",
+        "wir": "kassieren",
+        "ihr": "kassieret",
+        "sie_Sie": "kassieren"
+      },
+      "konjunktiv2": {
+        "ich": "kassierte",
+        "du": "kassiertest",
+        "er_sie_es": "kassierte",
+        "wir": "kassierten",
+        "ihr": "kassiertet",
+        "sie_Sie": "kassierten"
+      },
+      "imperativ": {
+        "du": "Kassiere!",
+        "ihr": "Kassiert!",
+        "Sie": "Kassieren Sie!"
+      }
+    },
+    "partizip1": "kassierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Kasse",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "صندوق",
+          "en": "till"
+        },
+        "id_ref": "nomen_kasse"
+      },
+      {
+        "wort": "bezahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_bezahlen"
+      },
+      {
+        "wort": "die Rechnung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صورت‌حساب",
+          "en": "bill"
+        },
+        "id_ref": "nomen_rechnung"
+      },
+      {
+        "wort": "das Trinkgeld",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انعام",
+          "en": "tip"
+        },
+        "id_ref": "nomen_trinkgeld"
+      },
+      {
+        "wort": "der Kassierer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صندوق‌دار",
+          "en": "cashier"
+        },
+        "id_ref": "nomen_kassierer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

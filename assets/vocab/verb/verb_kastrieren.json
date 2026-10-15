@@ -1,0 +1,171 @@
+{
+  "schema": "3.0",
+  "id": "verb_kastrieren",
+  "wort": "kastrieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اخته کردن",
+      "عقیم کردن"
+    ],
+    "en": [
+      "to castrate",
+      "to neuter"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Tiere",
+    "Gesundheit"
+  ],
+  "ipa": "kasˈtʁiːʁən",
+  "anmerkung": "Regelmäßig (kastrierte, kastriert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Tierarzt kastriert den Kater.",
+      "uebersetzung": {
+        "fa": "دامپزشک گربه‌ی نر را عقیم می‌کند.",
+        "en": "The vet neuters the tomcat."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Viele Tierheime lassen Katzen kastrieren, bevor sie vermittelt werden.",
+      "uebersetzung": {
+        "fa": "بسیاری از پناهگاه‌های حیوانات گربه‌ها را پیش از واگذاری عقیم می‌کنند.",
+        "en": "Many animal shelters have cats neutered before they are rehomed."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sterilisieren",
+      "uebersetzung": {
+        "fa": "عقیم کردن",
+        "en": "to sterilize"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. castrare (اخته کردن) + -ieren",
+    "en": "lat. castrare (to castrate) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "kastrieren",
+      "praeteritum": "kastrierte",
+      "partizip2": "kastriert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kastriere",
+        "du": "kastrierst",
+        "er_sie_es": "kastriert",
+        "wir": "kastrieren",
+        "ihr": "kastriert",
+        "sie_Sie": "kastrieren"
+      },
+      "praeteritum": {
+        "ich": "kastrierte",
+        "du": "kastriertest",
+        "er_sie_es": "kastrierte",
+        "wir": "kastrierten",
+        "ihr": "kastriertet",
+        "sie_Sie": "kastrierten"
+      },
+      "konjunktiv1": {
+        "ich": "kastriere",
+        "du": "kastrierest",
+        "er_sie_es": "kastriere",
+        "wir": "kastrieren",
+        "ihr": "kastrieret",
+        "sie_Sie": "kastrieren"
+      },
+      "konjunktiv2": {
+        "ich": "kastrierte",
+        "du": "kastriertest",
+        "er_sie_es": "kastrierte",
+        "wir": "kastrierten",
+        "ihr": "kastriertet",
+        "sie_Sie": "kastrierten"
+      },
+      "imperativ": {
+        "du": "Kastriere!",
+        "ihr": "Kastriert!",
+        "Sie": "Kastrieren Sie!"
+      }
+    },
+    "partizip1": "kastrierend",
+    "nominalisierung": "die Kastration"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Tierarzt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دامپزشک",
+          "en": "vet"
+        },
+        "id_ref": "nomen_tierarzt"
+      },
+      {
+        "wort": "sterilisieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "عقیم کردن",
+          "en": "to sterilize"
+        },
+        "id_ref": "verb_sterilisieren"
+      },
+      {
+        "wort": "die Katze",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گربه",
+          "en": "cat"
+        },
+        "id_ref": "nomen_katze"
+      },
+      {
+        "wort": "die Operation",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عمل جراحی",
+          "en": "operation"
+        },
+        "id_ref": "nomen_operation"
+      },
+      {
+        "wort": "die Kastration",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اخته‌سازی",
+          "en": "castration"
+        },
+        "id_ref": "nomen_kastration"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

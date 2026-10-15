@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "verb_kartieren",
+  "wort": "kartieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نقشه‌برداری کردن",
+      "روی نقشه آوردن"
+    ],
+    "en": [
+      "to map"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Wissenschaft"
+  ],
+  "ipa": "kaʁˈtiːʁən",
+  "anmerkung": "Regelmäßig (kartierte, kartiert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie kartieren den Wald.",
+      "uebersetzung": {
+        "fa": "آن‌ها از جنگل نقشه‌برداری می‌کنند.",
+        "en": "They are mapping the forest."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor die Straße gebaut wird, kartieren Biologen alle seltenen Pflanzen in der Gegend.",
+      "uebersetzung": {
+        "fa": "پیش از ساخت جاده، زیست‌شناسان همه‌ی گیاهان کمیاب منطقه را روی نقشه ثبت می‌کنند.",
+        "en": "Before the road is built, biologists map all rare plants in the area."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vermessen",
+      "uebersetzung": {
+        "fa": "نقشه‌برداری کردن",
+        "en": "to survey"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "die Karte (نقشه) + -ieren",
+    "en": "die Karte (map) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "kartieren",
+      "praeteritum": "kartierte",
+      "partizip2": "kartiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kartiere",
+        "du": "kartierst",
+        "er_sie_es": "kartiert",
+        "wir": "kartieren",
+        "ihr": "kartiert",
+        "sie_Sie": "kartieren"
+      },
+      "praeteritum": {
+        "ich": "kartierte",
+        "du": "kartiertest",
+        "er_sie_es": "kartierte",
+        "wir": "kartierten",
+        "ihr": "kartiertet",
+        "sie_Sie": "kartierten"
+      },
+      "konjunktiv1": {
+        "ich": "kartiere",
+        "du": "kartierest",
+        "er_sie_es": "kartiere",
+        "wir": "kartieren",
+        "ihr": "kartieret",
+        "sie_Sie": "kartieren"
+      },
+      "konjunktiv2": {
+        "ich": "kartierte",
+        "du": "kartiertest",
+        "er_sie_es": "kartierte",
+        "wir": "kartierten",
+        "ihr": "kartiertet",
+        "sie_Sie": "kartierten"
+      },
+      "imperativ": {
+        "du": "Kartiere!",
+        "ihr": "Kartiert!",
+        "Sie": "Kartieren Sie!"
+      }
+    },
+    "partizip1": "kartierend",
+    "nominalisierung": "die Kartierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Karte",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نقشه",
+          "en": "map"
+        },
+        "id_ref": "nomen_karte"
+      },
+      {
+        "wort": "die Landkarte",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نقشه‌ی جغرافیایی",
+          "en": "map"
+        },
+        "id_ref": "nomen_landkarte"
+      },
+      {
+        "wort": "vermessen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نقشه‌برداری کردن",
+          "en": "to survey"
+        },
+        "id_ref": "verb_vermessen"
+      },
+      {
+        "wort": "das Gebiet",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "منطقه",
+          "en": "area"
+        },
+        "id_ref": "nomen_gebiet"
+      },
+      {
+        "wort": "die Kartierung",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "نقشه‌برداری",
+          "en": "mapping"
+        },
+        "id_ref": "nomen_kartierung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
