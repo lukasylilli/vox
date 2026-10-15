@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_deuteln",
+  "wort": "deuteln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "موشکافی کردن",
+      "تفسیر دلبخواهی کردن"
+    ],
+    "en": [
+      "to quibble",
+      "to split hairs"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "ˈdɔɪ̯tl̩n",
+  "anmerkung": "Regelmäßig (deutelte, gedeutelt). Meist verneint: «Daran gibt es nichts zu deuteln».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er deutelt an jedem Wort.",
+      "uebersetzung": {
+        "fa": "سر هر کلمه موشکافی می‌کند.",
+        "en": "He quibbles over every word."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Ergebnis ist eindeutig, daran gibt es nichts zu deuteln.",
+      "uebersetzung": {
+        "fa": "نتیجه روشن است و جای هیچ چون‌وچرایی نیست.",
+        "en": "The result is clear; there is nothing to quibble about."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "herumdeuten",
+      "uebersetzung": {
+        "fa": "تفسیرتراشی کردن",
+        "en": "to over-interpret"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "deuten (تعبیر کردن) + -eln",
+    "en": "deuten (to interpret) + -eln"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "an + Dat deuteln",
+        "bedeutung": "etwas spitzfindig auslegen",
+        "beispiel": "Am Vertrag gibt es nichts zu deuteln.",
+        "uebersetzung": {
+          "fa": "در قرارداد جای چون‌وچرا نیست.",
+          "en": "There is nothing to quibble about in the contract."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "deuteln",
+      "praeteritum": "deutelte",
+      "partizip2": "gedeutelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "deutle",
+        "du": "deutelst",
+        "er_sie_es": "deutelt",
+        "wir": "deuteln",
+        "ihr": "deutelt",
+        "sie_Sie": "deuteln"
+      },
+      "praeteritum": {
+        "ich": "deutelte",
+        "du": "deuteltest",
+        "er_sie_es": "deutelte",
+        "wir": "deutelten",
+        "ihr": "deuteltet",
+        "sie_Sie": "deutelten"
+      },
+      "konjunktiv1": {
+        "ich": "deutle",
+        "du": "deutlest",
+        "er_sie_es": "deutle",
+        "wir": "deuteln",
+        "ihr": "deutlet",
+        "sie_Sie": "deuteln"
+      },
+      "konjunktiv2": {
+        "ich": "deutelte",
+        "du": "deuteltest",
+        "er_sie_es": "deutelte",
+        "wir": "deutelten",
+        "ihr": "deuteltet",
+        "sie_Sie": "deutelten"
+      },
+      "imperativ": {
+        "du": "Deutle!",
+        "ihr": "Deutelt!",
+        "Sie": "Deuteln Sie!"
+      }
+    },
+    "partizip1": "deutelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "deuten",
+    "woerter": [
+      {
+        "wort": "deuten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تعبیر کردن",
+          "en": "to interpret"
+        },
+        "id_ref": "verb_deuten"
+      },
+      {
+        "wort": "eindeutig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "روشن، بی‌ابهام",
+          "en": "clear"
+        },
+        "id_ref": "adjektiv_eindeutig"
+      },
+      {
+        "wort": "die Deutung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تعبیر",
+          "en": "interpretation"
+        },
+        "id_ref": "nomen_deutung"
+      },
+      {
+        "wort": "auslegen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تفسیر کردن",
+          "en": "to construe"
+        },
+        "id_ref": "verb_auslegen"
+      },
+      {
+        "wort": "die Bedeutung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "معنا",
+          "en": "meaning"
+        },
+        "id_ref": "nomen_bedeutung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

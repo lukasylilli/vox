@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_detektieren",
+  "wort": "detektieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ردیابی کردن",
+      "شناسایی کردن"
+    ],
+    "en": [
+      "to detect"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Technik",
+    "Wissenschaft"
+  ],
+  "ipa": "detɛkˈtiːʁən",
+  "anmerkung": "Regelmäßig (detektierte, detektiert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Sensor detektiert Rauch.",
+      "uebersetzung": {
+        "fa": "حسگر دود را تشخیص می‌دهد.",
+        "en": "The sensor detects smoke."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das neue Gerät kann kleinste Mengen Gas detektieren, bevor sie gefährlich werden.",
+      "uebersetzung": {
+        "fa": "دستگاه تازه می‌تواند کوچک‌ترین مقدار گاز را پیش از آنکه خطرناک شود ردیابی کند.",
+        "en": "The new device can detect the smallest amounts of gas before they become dangerous."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erkennen",
+      "uebersetzung": {
+        "fa": "تشخیص دادن",
+        "en": "to recognize"
+      }
+    },
+    {
+      "wort": "nachweisen",
+      "uebersetzung": {
+        "fa": "اثبات کردن، یافتن",
+        "en": "to detect"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. detegere (آشکار کردن)",
+    "en": "Latin detegere (to uncover)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "detektieren",
+      "praeteritum": "detektierte",
+      "partizip2": "detektiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "detektiere",
+        "du": "detektierst",
+        "er_sie_es": "detektiert",
+        "wir": "detektieren",
+        "ihr": "detektiert",
+        "sie_Sie": "detektieren"
+      },
+      "praeteritum": {
+        "ich": "detektierte",
+        "du": "detektiertest",
+        "er_sie_es": "detektierte",
+        "wir": "detektierten",
+        "ihr": "detektiertet",
+        "sie_Sie": "detektierten"
+      },
+      "konjunktiv1": {
+        "ich": "detektiere",
+        "du": "detektierest",
+        "er_sie_es": "detektiere",
+        "wir": "detektieren",
+        "ihr": "detektieret",
+        "sie_Sie": "detektieren"
+      },
+      "konjunktiv2": {
+        "ich": "detektierte",
+        "du": "detektiertest",
+        "er_sie_es": "detektierte",
+        "wir": "detektierten",
+        "ihr": "detektiertet",
+        "sie_Sie": "detektierten"
+      },
+      "imperativ": {
+        "du": "Detektiere!",
+        "ihr": "Detektiert!",
+        "Sie": "Detektieren Sie!"
+      }
+    },
+    "partizip1": "detektierend",
+    "nominalisierung": "die Detektion"
+  },
+  "wortnetz": {
+    "grundwort": "Detektor",
+    "woerter": [
+      {
+        "wort": "erkennen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تشخیص دادن",
+          "en": "to recognize"
+        },
+        "id_ref": "verb_erkennen"
+      },
+      {
+        "wort": "der Sensor",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حسگر",
+          "en": "sensor"
+        },
+        "id_ref": "nomen_sensor"
+      },
+      {
+        "wort": "das Gerät",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دستگاه",
+          "en": "device"
+        },
+        "id_ref": "nomen_geraet"
+      },
+      {
+        "wort": "nachweisen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "یافتن، اثبات کردن",
+          "en": "to detect"
+        },
+        "id_ref": "verb_nachweisen"
+      },
+      {
+        "wort": "der Detektor",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آشکارساز",
+          "en": "detector"
+        },
+        "id_ref": "nomen_detektor"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

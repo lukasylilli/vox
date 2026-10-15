@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_deuten",
+  "wort": "deuten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اشاره کردن",
+      "تعبیر کردن"
+    ],
+    "en": [
+      "to point",
+      "to interpret"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "ˈdɔɪ̯tn̩",
+  "anmerkung": "Regelmäßig (deutete, gedeutet).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er deutet auf das Haus.",
+      "uebersetzung": {
+        "fa": "به خانه اشاره می‌کند.",
+        "en": "He points at the house."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wie soll ich es deuten, dass sie mir seit Tagen nicht antwortet?",
+      "uebersetzung": {
+        "fa": "اینکه چند روز است جوابم را نمی‌دهد چطور تعبیر کنم؟",
+        "en": "How should I interpret the fact that she has not answered me for days?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zeigen",
+      "uebersetzung": {
+        "fa": "اشاره کردن",
+        "en": "to point"
+      }
+    },
+    {
+      "wort": "interpretieren",
+      "uebersetzung": {
+        "fa": "تفسیر کردن",
+        "en": "to interpret"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Akk deuten",
+        "bedeutung": "mit dem Finger auf etwas zeigen; ein Zeichen für etwas sein",
+        "beispiel": "Alles deutet auf einen Unfall.",
+        "uebersetzung": {
+          "fa": "همه‌چیز نشان از یک تصادف دارد.",
+          "en": "Everything points to an accident."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "deuten",
+      "praeteritum": "deutete",
+      "partizip2": "gedeutet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "deute",
+        "du": "deutest",
+        "er_sie_es": "deutet",
+        "wir": "deuten",
+        "ihr": "deutet",
+        "sie_Sie": "deuten"
+      },
+      "praeteritum": {
+        "ich": "deutete",
+        "du": "deutetest",
+        "er_sie_es": "deutete",
+        "wir": "deuteten",
+        "ihr": "deutetet",
+        "sie_Sie": "deuteten"
+      },
+      "konjunktiv1": {
+        "ich": "deute",
+        "du": "deutest",
+        "er_sie_es": "deute",
+        "wir": "deuten",
+        "ihr": "deutet",
+        "sie_Sie": "deuten"
+      },
+      "konjunktiv2": {
+        "ich": "deutete",
+        "du": "deutetest",
+        "er_sie_es": "deutete",
+        "wir": "deuteten",
+        "ihr": "deutetet",
+        "sie_Sie": "deuteten"
+      },
+      "imperativ": {
+        "du": "Deute!",
+        "ihr": "Deutet!",
+        "Sie": "Deuten Sie!"
+      }
+    },
+    "partizip1": "deutend",
+    "nominalisierung": "die Deutung"
+  },
+  "wortnetz": {
+    "grundwort": "Deutung",
+    "woerter": [
+      {
+        "wort": "zeigen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نشان دادن",
+          "en": "to show"
+        },
+        "id_ref": "verb_zeigen"
+      },
+      {
+        "wort": "die Bedeutung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "معنا",
+          "en": "meaning"
+        },
+        "id_ref": "nomen_bedeutung"
+      },
+      {
+        "wort": "bedeuten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "معنا دادن",
+          "en": "to mean"
+        },
+        "id_ref": "verb_bedeuten"
+      },
+      {
+        "wort": "interpretieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تفسیر کردن",
+          "en": "to interpret"
+        },
+        "id_ref": "verb_interpretieren"
+      },
+      {
+        "wort": "die Deutung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تعبیر",
+          "en": "interpretation"
+        },
+        "id_ref": "nomen_deutung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

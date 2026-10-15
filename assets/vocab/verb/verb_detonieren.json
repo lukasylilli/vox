@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "verb_detonieren",
+  "wort": "detonieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "منفجر شدن"
+    ],
+    "en": [
+      "to detonate",
+      "to explode"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Militär",
+    "Technik"
+  ],
+  "ipa": "detoˈniːʁən",
+  "anmerkung": "Regelmäßig (detonierte, detoniert). Ohne Imperativ, Subjekt ist meist ein Sprengkörper.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Bombe detoniert.",
+      "uebersetzung": {
+        "fa": "بمب منفجر می‌شود.",
+        "en": "The bomb detonates."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die alte Fliegerbombe ist detoniert, bevor die Experten sie entschärfen konnten.",
+      "uebersetzung": {
+        "fa": "بمب هوایی قدیمی پیش از آنکه کارشناسان بتوانند خنثی‌اش کنند منفجر شد.",
+        "en": "The old aerial bomb detonated before the experts could defuse it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "explodieren",
+      "uebersetzung": {
+        "fa": "منفجر شدن",
+        "en": "to explode"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "frz. détoner (منفجر شدن)",
+    "en": "French détoner (to detonate)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "detonieren",
+      "praeteritum": "detonierte",
+      "partizip2": "detoniert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "detoniere",
+        "du": "detonierst",
+        "er_sie_es": "detoniert",
+        "wir": "detonieren",
+        "ihr": "detoniert",
+        "sie_Sie": "detonieren"
+      },
+      "praeteritum": {
+        "ich": "detonierte",
+        "du": "detoniertest",
+        "er_sie_es": "detonierte",
+        "wir": "detonierten",
+        "ihr": "detoniertet",
+        "sie_Sie": "detonierten"
+      },
+      "konjunktiv1": {
+        "ich": "detoniere",
+        "du": "detonierest",
+        "er_sie_es": "detoniere",
+        "wir": "detonieren",
+        "ihr": "detonieret",
+        "sie_Sie": "detonieren"
+      },
+      "konjunktiv2": {
+        "ich": "detonierte",
+        "du": "detoniertest",
+        "er_sie_es": "detonierte",
+        "wir": "detonierten",
+        "ihr": "detoniertet",
+        "sie_Sie": "detonierten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "detonierend",
+    "nominalisierung": "die Detonation"
+  },
+  "wortnetz": {
+    "grundwort": "Detonation",
+    "woerter": [
+      {
+        "wort": "die Bombe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بمب",
+          "en": "bomb"
+        },
+        "id_ref": "nomen_bombe"
+      },
+      {
+        "wort": "explodieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "منفجر شدن",
+          "en": "to explode"
+        },
+        "id_ref": "verb_explodieren"
+      },
+      {
+        "wort": "die Explosion",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انفجار",
+          "en": "explosion"
+        },
+        "id_ref": "nomen_explosion"
+      },
+      {
+        "wort": "der Knall",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "صدای انفجار",
+          "en": "bang"
+        },
+        "id_ref": "nomen_knall"
+      },
+      {
+        "wort": "die Detonation",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "انفجار",
+          "en": "detonation"
+        },
+        "id_ref": "nomen_detonation"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

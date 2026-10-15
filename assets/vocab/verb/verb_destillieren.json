@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_destillieren",
+  "wort": "destillieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تقطیر کردن"
+    ],
+    "en": [
+      "to distil"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Chemie",
+    "Essen"
+  ],
+  "ipa": "dɛstɪˈliːʁən",
+  "anmerkung": "Regelmäßig (destillierte, destilliert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er destilliert Wasser.",
+      "uebersetzung": {
+        "fa": "آب را تقطیر می‌کند.",
+        "en": "He distils water."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Aus vergorenen Früchten wird Schnaps destilliert, indem man die Flüssigkeit erhitzt.",
+      "uebersetzung": {
+        "fa": "عرق را از میوه‌های تخمیرشده با گرم کردن مایع تقطیر می‌کنند.",
+        "en": "Schnapps is distilled from fermented fruit by heating the liquid."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "brennen",
+      "uebersetzung": {
+        "fa": "تقطیر کردن (عرق)",
+        "en": "to distil (spirits)"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. destillare (قطره‌قطره چکیدن)",
+    "en": "Latin destillare (to drip down)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas aus + Dat destillieren",
+        "bedeutung": "etwas durch Verdampfen aus einem Stoff gewinnen",
+        "beispiel": "Man destilliert Öl aus Lavendel.",
+        "uebersetzung": {
+          "fa": "از اسطوخودوس روغن تقطیر می‌کنند.",
+          "en": "Oil is distilled from lavender."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "destillieren",
+      "praeteritum": "destillierte",
+      "partizip2": "destilliert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "destilliere",
+        "du": "destillierst",
+        "er_sie_es": "destilliert",
+        "wir": "destillieren",
+        "ihr": "destilliert",
+        "sie_Sie": "destillieren"
+      },
+      "praeteritum": {
+        "ich": "destillierte",
+        "du": "destilliertest",
+        "er_sie_es": "destillierte",
+        "wir": "destillierten",
+        "ihr": "destilliertet",
+        "sie_Sie": "destillierten"
+      },
+      "konjunktiv1": {
+        "ich": "destilliere",
+        "du": "destillierest",
+        "er_sie_es": "destilliere",
+        "wir": "destillieren",
+        "ihr": "destillieret",
+        "sie_Sie": "destillieren"
+      },
+      "konjunktiv2": {
+        "ich": "destillierte",
+        "du": "destilliertest",
+        "er_sie_es": "destillierte",
+        "wir": "destillierten",
+        "ihr": "destilliertet",
+        "sie_Sie": "destillierten"
+      },
+      "imperativ": {
+        "du": "Destilliere!",
+        "ihr": "Destilliert!",
+        "Sie": "Destillieren Sie!"
+      }
+    },
+    "partizip1": "destillierend",
+    "nominalisierung": "die Destillation"
+  },
+  "wortnetz": {
+    "grundwort": "Destillation",
+    "woerter": [
+      {
+        "wort": "das Wasser",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب",
+          "en": "water"
+        },
+        "id_ref": "nomen_wasser"
+      },
+      {
+        "wort": "erhitzen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گرم کردن",
+          "en": "to heat"
+        },
+        "id_ref": "verb_erhitzen"
+      },
+      {
+        "wort": "verdampfen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بخار شدن",
+          "en": "to evaporate"
+        },
+        "id_ref": "verb_verdampfen"
+      },
+      {
+        "wort": "der Alkohol",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "الکل",
+          "en": "alcohol"
+        },
+        "id_ref": "nomen_alkohol"
+      },
+      {
+        "wort": "die Destillation",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تقطیر",
+          "en": "distillation"
+        },
+        "id_ref": "nomen_destillation"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
