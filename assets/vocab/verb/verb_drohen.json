@@ -1,0 +1,193 @@
+{
+  "schema": "3.0",
+  "id": "verb_drohen",
+  "wort": "drohen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تهدید کردن",
+      "در خطر چیزی بودن"
+    ],
+    "en": [
+      "to threaten"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Kommunikation",
+    "Gefahr"
+  ],
+  "ipa": "ˈdʁoːən",
+  "anmerkung": "Regelmäßig (drohte, gedroht).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Mann droht dem Kind.",
+      "uebersetzung": {
+        "fa": "مرد بچه را تهدید می‌کند.",
+        "en": "The man threatens the child."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn es weiter so stark regnet, droht der Fluss über die Ufer zu treten.",
+      "uebersetzung": {
+        "fa": "اگر باران همین‌طور شدید ببارد، خطر طغیان رودخانه هست.",
+        "en": "If it keeps raining so hard, the river threatens to burst its banks."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bedrohen",
+      "uebersetzung": {
+        "fa": "تهدید کردن",
+        "en": "to threaten"
+      }
+    },
+    {
+      "wort": "einschüchtern",
+      "uebersetzung": {
+        "fa": "ترساندن",
+        "en": "to intimidate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "+ Dat drohen",
+        "bedeutung": "jemandem Gefahr ankündigen",
+        "beispiel": "Ihm droht eine hohe Strafe.",
+        "uebersetzung": {
+          "fa": "جریمه‌ی سنگینی در انتظار اوست.",
+          "en": "He faces a heavy penalty."
+        }
+      },
+      {
+        "muster": "jemandem mit + Dat drohen",
+        "bedeutung": "jemanden mit etwas einschüchtern",
+        "beispiel": "Der Vermieter droht mit der Kündigung.",
+        "uebersetzung": {
+          "fa": "صاحب‌خانه تهدید به فسخ قرارداد می‌کند.",
+          "en": "The landlord threatens to terminate the lease."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "drohen",
+      "praeteritum": "drohte",
+      "partizip2": "gedroht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "drohe",
+        "du": "drohst",
+        "er_sie_es": "droht",
+        "wir": "drohen",
+        "ihr": "droht",
+        "sie_Sie": "drohen"
+      },
+      "praeteritum": {
+        "ich": "drohte",
+        "du": "drohtest",
+        "er_sie_es": "drohte",
+        "wir": "drohten",
+        "ihr": "drohtet",
+        "sie_Sie": "drohten"
+      },
+      "konjunktiv1": {
+        "ich": "drohe",
+        "du": "drohest",
+        "er_sie_es": "drohe",
+        "wir": "drohen",
+        "ihr": "drohet",
+        "sie_Sie": "drohen"
+      },
+      "konjunktiv2": {
+        "ich": "drohte",
+        "du": "drohtest",
+        "er_sie_es": "drohte",
+        "wir": "drohten",
+        "ihr": "drohtet",
+        "sie_Sie": "drohten"
+      },
+      "imperativ": {
+        "du": "Drohe!",
+        "ihr": "Droht!",
+        "Sie": "Drohen Sie!"
+      }
+    },
+    "partizip1": "drohend",
+    "nominalisierung": "die Drohung"
+  },
+  "wortnetz": {
+    "grundwort": "Drohung",
+    "woerter": [
+      {
+        "wort": "die Gefahr",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خطر",
+          "en": "danger"
+        },
+        "id_ref": "nomen_gefahr"
+      },
+      {
+        "wort": "die Drohung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تهدید",
+          "en": "threat"
+        },
+        "id_ref": "nomen_drohung"
+      },
+      {
+        "wort": "bedrohen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تهدید کردن",
+          "en": "to threaten"
+        },
+        "id_ref": "verb_bedrohen"
+      },
+      {
+        "wort": "die Angst",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترس",
+          "en": "fear"
+        },
+        "id_ref": "nomen_angst"
+      },
+      {
+        "wort": "warnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "هشدار دادن",
+          "en": "to warn"
+        },
+        "id_ref": "verb_warnen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

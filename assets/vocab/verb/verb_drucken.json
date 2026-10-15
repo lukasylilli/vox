@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_drucken",
+  "wort": "drucken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "چاپ کردن"
+    ],
+    "en": [
+      "to print"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Büro",
+    "Technik"
+  ],
+  "ipa": "ˈdʁʊkn̩",
+  "anmerkung": "Regelmäßig (druckte, gedruckt).",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich drucke das Ticket.",
+      "uebersetzung": {
+        "fa": "بلیت را چاپ می‌کنم.",
+        "en": "I am printing the ticket."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Das Buch wurde in einer kleinen Auflage gedruckt, deshalb ist es heute schwer zu bekommen.",
+      "uebersetzung": {
+        "fa": "این کتاب با تیراژ کمی چاپ شد، به همین دلیل امروز به‌سختی پیدا می‌شود.",
+        "en": "The book was printed in a small edition, which is why it is hard to get today."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausdrucken",
+      "uebersetzung": {
+        "fa": "پرینت گرفتن",
+        "en": "to print out"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas auf + Akk drucken",
+        "bedeutung": "Schrift oder Bilder auf eine Fläche bringen",
+        "beispiel": "Wir drucken das Logo auf T-Shirts.",
+        "uebersetzung": {
+          "fa": "لوگو را روی تی‌شرت‌ها چاپ می‌کنیم.",
+          "en": "We print the logo on T-shirts."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "drucken",
+      "praeteritum": "druckte",
+      "partizip2": "gedruckt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "drucke",
+        "du": "druckst",
+        "er_sie_es": "druckt",
+        "wir": "drucken",
+        "ihr": "druckt",
+        "sie_Sie": "drucken"
+      },
+      "praeteritum": {
+        "ich": "druckte",
+        "du": "drucktest",
+        "er_sie_es": "druckte",
+        "wir": "druckten",
+        "ihr": "drucktet",
+        "sie_Sie": "druckten"
+      },
+      "konjunktiv1": {
+        "ich": "drucke",
+        "du": "druckest",
+        "er_sie_es": "drucke",
+        "wir": "drucken",
+        "ihr": "drucket",
+        "sie_Sie": "drucken"
+      },
+      "konjunktiv2": {
+        "ich": "druckte",
+        "du": "drucktest",
+        "er_sie_es": "druckte",
+        "wir": "druckten",
+        "ihr": "drucktet",
+        "sie_Sie": "druckten"
+      },
+      "imperativ": {
+        "du": "Drucke!",
+        "ihr": "Druckt!",
+        "Sie": "Drucken Sie!"
+      }
+    },
+    "partizip1": "druckend",
+    "nominalisierung": "der Druck"
+  },
+  "wortnetz": {
+    "grundwort": "Druck",
+    "woerter": [
+      {
+        "wort": "der Drucker",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چاپگر",
+          "en": "printer"
+        },
+        "id_ref": "nomen_drucker"
+      },
+      {
+        "wort": "ausdrucken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پرینت گرفتن",
+          "en": "to print out"
+        },
+        "id_ref": "verb_ausdrucken"
+      },
+      {
+        "wort": "das Papier",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کاغذ",
+          "en": "paper"
+        },
+        "id_ref": "nomen_papier"
+      },
+      {
+        "wort": "die Zeitung",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "روزنامه",
+          "en": "newspaper"
+        },
+        "id_ref": "nomen_zeitung"
+      },
+      {
+        "wort": "der Druck",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چاپ، فشار",
+          "en": "print, pressure"
+        },
+        "id_ref": "nomen_druck"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

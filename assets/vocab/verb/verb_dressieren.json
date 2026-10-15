@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_dressieren",
+  "wort": "dressieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تربیت کردن (حیوان)"
+    ],
+    "en": [
+      "to train (an animal)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Tiere"
+  ],
+  "ipa": "dʁɛˈsiːʁən",
+  "anmerkung": "Regelmäßig (dressierte, dressiert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er dressiert seinen Hund.",
+      "uebersetzung": {
+        "fa": "سگش را تربیت می‌کند.",
+        "en": "He trains his dog."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Zirkus werden Pferde dressiert, damit sie auf ein Zeichen hin Kunststücke vorführen.",
+      "uebersetzung": {
+        "fa": "در سیرک اسب‌ها را تربیت می‌کنند تا با یک اشاره کارهای نمایشی انجام دهند.",
+        "en": "In the circus horses are trained to perform tricks on a signal."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abrichten",
+      "uebersetzung": {
+        "fa": "آموزش دادن (حیوان)",
+        "en": "to train"
+      }
+    },
+    {
+      "wort": "trainieren",
+      "uebersetzung": {
+        "fa": "تمرین دادن",
+        "en": "to train"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "frz. dresser (راست کردن، تربیت کردن)",
+    "en": "French dresser (to set up, to train)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "ein Tier auf + Akk dressieren",
+        "bedeutung": "einem Tier ein bestimmtes Verhalten beibringen",
+        "beispiel": "Der Hund ist auf Drogen dressiert.",
+        "uebersetzung": {
+          "fa": "سگ برای پیدا کردن مواد مخدر تربیت شده است.",
+          "en": "The dog is trained to find drugs."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "dressieren",
+      "praeteritum": "dressierte",
+      "partizip2": "dressiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "dressiere",
+        "du": "dressierst",
+        "er_sie_es": "dressiert",
+        "wir": "dressieren",
+        "ihr": "dressiert",
+        "sie_Sie": "dressieren"
+      },
+      "praeteritum": {
+        "ich": "dressierte",
+        "du": "dressiertest",
+        "er_sie_es": "dressierte",
+        "wir": "dressierten",
+        "ihr": "dressiertet",
+        "sie_Sie": "dressierten"
+      },
+      "konjunktiv1": {
+        "ich": "dressiere",
+        "du": "dressierest",
+        "er_sie_es": "dressiere",
+        "wir": "dressieren",
+        "ihr": "dressieret",
+        "sie_Sie": "dressieren"
+      },
+      "konjunktiv2": {
+        "ich": "dressierte",
+        "du": "dressiertest",
+        "er_sie_es": "dressierte",
+        "wir": "dressierten",
+        "ihr": "dressiertet",
+        "sie_Sie": "dressierten"
+      },
+      "imperativ": {
+        "du": "Dressiere!",
+        "ihr": "Dressiert!",
+        "Sie": "Dressieren Sie!"
+      }
+    },
+    "partizip1": "dressierend",
+    "nominalisierung": "die Dressur"
+  },
+  "wortnetz": {
+    "grundwort": "Dressur",
+    "woerter": [
+      {
+        "wort": "das Tier",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جانور",
+          "en": "animal"
+        },
+        "id_ref": "nomen_tier"
+      },
+      {
+        "wort": "der Hund",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سگ",
+          "en": "dog"
+        },
+        "id_ref": "nomen_hund"
+      },
+      {
+        "wort": "trainieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تمرین کردن",
+          "en": "to train"
+        },
+        "id_ref": "verb_trainieren"
+      },
+      {
+        "wort": "der Zirkus",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سیرک",
+          "en": "circus"
+        },
+        "id_ref": "nomen_zirkus"
+      },
+      {
+        "wort": "die Dressur",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تربیت حیوان",
+          "en": "training"
+        },
+        "id_ref": "nomen_dressur"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,202 @@
+{
+  "schema": "3.0",
+  "id": "verb_druecken",
+  "wort": "drücken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "فشار دادن",
+      "زدن (دکمه)"
+    ],
+    "en": [
+      "to press",
+      "to push",
+      "to squeeze"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈdʁʏkn̩",
+  "anmerkung": "Regelmäßig (drückte, gedrückt). Auch reflexiv (umgangssprachlich): sich vor etwas drücken = einer Pflicht ausweichen.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Drück bitte auf den Knopf!",
+      "uebersetzung": {
+        "fa": "لطفاً دکمه را فشار بده!",
+        "en": "Please press the button!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die neuen Schuhe drücken so sehr, dass ich kaum noch laufen kann.",
+      "uebersetzung": {
+        "fa": "کفش‌های تازه آن‌قدر پا را فشار می‌دهند که به‌زحمت می‌توانم راه بروم.",
+        "en": "The new shoes pinch so much that I can hardly walk any more."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "pressen",
+      "uebersetzung": {
+        "fa": "فشردن",
+        "en": "to press"
+      }
+    },
+    {
+      "wort": "schieben",
+      "uebersetzung": {
+        "fa": "هل دادن",
+        "en": "to push"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ziehen",
+      "uebersetzung": {
+        "fa": "کشیدن",
+        "en": "to pull"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "auf + Akk drücken",
+        "bedeutung": "Druck auf etwas ausüben",
+        "beispiel": "Er drückt auf die Klingel.",
+        "uebersetzung": {
+          "fa": "زنگ را می‌زند.",
+          "en": "He presses the doorbell."
+        }
+      },
+      {
+        "muster": "sich vor + Dat drücken",
+        "bedeutung": "einer unangenehmen Aufgabe ausweichen",
+        "beispiel": "Sie drückt sich vor dem Abwasch.",
+        "uebersetzung": {
+          "fa": "از ظرف شستن شانه خالی می‌کند.",
+          "en": "She dodges the washing-up."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "drücken",
+      "praeteritum": "drückte",
+      "partizip2": "gedrückt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "drücke",
+        "du": "drückst",
+        "er_sie_es": "drückt",
+        "wir": "drücken",
+        "ihr": "drückt",
+        "sie_Sie": "drücken"
+      },
+      "praeteritum": {
+        "ich": "drückte",
+        "du": "drücktest",
+        "er_sie_es": "drückte",
+        "wir": "drückten",
+        "ihr": "drücktet",
+        "sie_Sie": "drückten"
+      },
+      "konjunktiv1": {
+        "ich": "drücke",
+        "du": "drückest",
+        "er_sie_es": "drücke",
+        "wir": "drücken",
+        "ihr": "drücket",
+        "sie_Sie": "drücken"
+      },
+      "konjunktiv2": {
+        "ich": "drückte",
+        "du": "drücktest",
+        "er_sie_es": "drückte",
+        "wir": "drückten",
+        "ihr": "drücktet",
+        "sie_Sie": "drückten"
+      },
+      "imperativ": {
+        "du": "Drücke!",
+        "ihr": "Drückt!",
+        "Sie": "Drücken Sie!"
+      }
+    },
+    "partizip1": "drückend",
+    "nominalisierung": "der Druck"
+  },
+  "wortnetz": {
+    "grundwort": "Druck",
+    "woerter": [
+      {
+        "wort": "der Knopf",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دکمه",
+          "en": "button"
+        },
+        "id_ref": "nomen_knopf"
+      },
+      {
+        "wort": "der Druck",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فشار",
+          "en": "pressure"
+        },
+        "id_ref": "nomen_druck"
+      },
+      {
+        "wort": "ziehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کشیدن",
+          "en": "to pull"
+        },
+        "id_ref": "verb_ziehen"
+      },
+      {
+        "wort": "umarmen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بغل کردن",
+          "en": "to hug"
+        },
+        "id_ref": "verb_umarmen"
+      },
+      {
+        "wort": "pressen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فشردن",
+          "en": "to press"
+        },
+        "id_ref": "verb_pressen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_drehen",
+  "wort": "drehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "چرخاندن",
+      "چرخیدن",
+      "فیلم گرفتن"
+    ],
+    "en": [
+      "to turn",
+      "to rotate",
+      "to film"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Film"
+  ],
+  "ipa": "ˈdʁeːən",
+  "anmerkung": "Regelmäßig (drehte, gedreht). Auch reflexiv: sich drehen. Umgangssprachlich: einen Film drehen.",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Dreh den Schlüssel nach rechts!",
+      "uebersetzung": {
+        "fa": "کلید را به راست بچرخان!",
+        "en": "Turn the key to the right!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Patient muss alle zwei Stunden gedreht werden, damit er sich nicht wund liegt.",
+      "uebersetzung": {
+        "fa": "بیمار را باید هر دو ساعت چرخاند تا زخم بستر نگیرد.",
+        "en": "The patient has to be turned every two hours so that he does not get bedsores."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wenden",
+      "uebersetzung": {
+        "fa": "برگرداندن",
+        "en": "to turn"
+      }
+    },
+    {
+      "wort": "rotieren",
+      "uebersetzung": {
+        "fa": "چرخیدن",
+        "en": "to rotate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich um + Akk drehen",
+        "bedeutung": "das Thema von etwas sein",
+        "beispiel": "Das Gespräch dreht sich um Geld.",
+        "uebersetzung": {
+          "fa": "صحبت درباره‌ی پول است.",
+          "en": "The conversation is about money."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "drehen",
+      "praeteritum": "drehte",
+      "partizip2": "gedreht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "drehe",
+        "du": "drehst",
+        "er_sie_es": "dreht",
+        "wir": "drehen",
+        "ihr": "dreht",
+        "sie_Sie": "drehen"
+      },
+      "praeteritum": {
+        "ich": "drehte",
+        "du": "drehtest",
+        "er_sie_es": "drehte",
+        "wir": "drehten",
+        "ihr": "drehtet",
+        "sie_Sie": "drehten"
+      },
+      "konjunktiv1": {
+        "ich": "drehe",
+        "du": "drehest",
+        "er_sie_es": "drehe",
+        "wir": "drehen",
+        "ihr": "drehet",
+        "sie_Sie": "drehen"
+      },
+      "konjunktiv2": {
+        "ich": "drehte",
+        "du": "drehtest",
+        "er_sie_es": "drehte",
+        "wir": "drehten",
+        "ihr": "drehtet",
+        "sie_Sie": "drehten"
+      },
+      "imperativ": {
+        "du": "Drehe!",
+        "ihr": "Dreht!",
+        "Sie": "Drehen Sie!"
+      }
+    },
+    "partizip1": "drehend",
+    "nominalisierung": "die Drehung"
+  },
+  "wortnetz": {
+    "grundwort": "Drehung",
+    "woerter": [
+      {
+        "wort": "die Drehung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "چرخش",
+          "en": "rotation"
+        },
+        "id_ref": "nomen_drehung"
+      },
+      {
+        "wort": "umdrehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برگرداندن",
+          "en": "to turn round"
+        },
+        "id_ref": "verb_umdrehen"
+      },
+      {
+        "wort": "der Film",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فیلم",
+          "en": "film"
+        },
+        "id_ref": "nomen_film"
+      },
+      {
+        "wort": "das Rad",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چرخ، دوچرخه",
+          "en": "wheel, bike"
+        },
+        "id_ref": "nomen_rad"
+      },
+      {
+        "wort": "wenden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برگرداندن",
+          "en": "to turn"
+        },
+        "id_ref": "verb_wenden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
