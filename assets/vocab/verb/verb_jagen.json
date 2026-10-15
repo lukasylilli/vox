@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_jagen",
+  "wort": "jagen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شکار کردن",
+      "تعقیب کردن",
+      "دواندن"
+    ],
+    "en": [
+      "to hunt",
+      "to chase"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Natur",
+    "Tiere"
+  ],
+  "ipa": "ˈjaːɡn̩",
+  "anmerkung": "Regelmäßig (jagte, gejagt). In der Bedeutung «sich sehr schnell bewegen» mit sein: «Er ist über die Straße gejagt.»",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Katze jagt eine Maus.",
+      "uebersetzung": {
+        "fa": "گربه یک موش را دنبال می‌کند.",
+        "en": "The cat is chasing a mouse."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Früher haben die Menschen Tiere gejagt, weil sie sonst nichts zu essen hatten.",
+      "uebersetzung": {
+        "fa": "قدیم‌ها مردم حیوانات را شکار می‌کردند، چون غیر از آن چیزی برای خوردن نداشتند.",
+        "en": "In the past people hunted animals because otherwise they had nothing to eat."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verfolgen",
+      "uebersetzung": {
+        "fa": "تعقیب کردن",
+        "en": "to pursue"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "fliehen",
+      "uebersetzung": {
+        "fa": "فرار کردن",
+        "en": "to flee"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "nach etwas (Dat) jagen",
+        "bedeutung": "gierig etwas zu bekommen versuchen",
+        "beispiel": "Viele jagen nur nach Geld und Erfolg.",
+        "uebersetzung": {
+          "fa": "خیلی‌ها فقط دنبال پول و موفقیت می‌دوند.",
+          "en": "Many people only chase after money and success."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "jagen",
+      "praeteritum": "jagte",
+      "partizip2": "gejagt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "jage",
+        "du": "jagst",
+        "er_sie_es": "jagt",
+        "wir": "jagen",
+        "ihr": "jagt",
+        "sie_Sie": "jagen"
+      },
+      "praeteritum": {
+        "ich": "jagte",
+        "du": "jagtest",
+        "er_sie_es": "jagte",
+        "wir": "jagten",
+        "ihr": "jagtet",
+        "sie_Sie": "jagten"
+      },
+      "konjunktiv1": {
+        "ich": "jage",
+        "du": "jagest",
+        "er_sie_es": "jage",
+        "wir": "jagen",
+        "ihr": "jaget",
+        "sie_Sie": "jagen"
+      },
+      "konjunktiv2": {
+        "ich": "jagte",
+        "du": "jagtest",
+        "er_sie_es": "jagte",
+        "wir": "jagten",
+        "ihr": "jagtet",
+        "sie_Sie": "jagten"
+      },
+      "imperativ": {
+        "du": "Jage!",
+        "ihr": "Jagt!",
+        "Sie": "Jagen Sie!"
+      }
+    },
+    "partizip1": "jagend",
+    "nominalisierung": "die Jagd"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Jagd",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شکار",
+          "en": "hunt"
+        },
+        "id_ref": "nomen_jagd"
+      },
+      {
+        "wort": "der Jäger",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شکارچی",
+          "en": "hunter"
+        },
+        "id_ref": "nomen_jaeger"
+      },
+      {
+        "wort": "verfolgen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تعقیب کردن",
+          "en": "to pursue"
+        },
+        "id_ref": "verb_verfolgen"
+      },
+      {
+        "wort": "das Tier",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حیوان",
+          "en": "animal"
+        },
+        "id_ref": "nomen_tier"
+      },
+      {
+        "wort": "fangen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گرفتن",
+          "en": "to catch"
+        },
+        "id_ref": "verb_fangen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

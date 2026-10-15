@@ -1,0 +1,171 @@
+{
+  "schema": "3.0",
+  "id": "verb_iterieren",
+  "wort": "iterieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تکرار کردن (در محاسبه/برنامه)"
+    ],
+    "en": [
+      "to iterate"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wissenschaft",
+    "Computer"
+  ],
+  "ipa": "iteˈʁiːʁən",
+  "anmerkung": "Regelmäßig (iterierte, iteriert).",
+  "berufe": [
+    "it"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Schleife iteriert über die Liste.",
+      "uebersetzung": {
+        "fa": "حلقه روی فهرست تکرار می‌شود.",
+        "en": "The loop iterates over the list."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Verfahren wird so lange iteriert, bis das Ergebnis genau genug ist.",
+      "uebersetzung": {
+        "fa": "این روش آن‌قدر تکرار می‌شود تا نتیجه به اندازه‌ی کافی دقیق باشد.",
+        "en": "The procedure is iterated until the result is accurate enough."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wiederholen",
+      "uebersetzung": {
+        "fa": "تکرار کردن",
+        "en": "to repeat"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. iterare (تکرار کردن) + -ieren",
+    "en": "lat. iterare (to repeat) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "iterieren",
+      "praeteritum": "iterierte",
+      "partizip2": "iteriert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "iteriere",
+        "du": "iterierst",
+        "er_sie_es": "iteriert",
+        "wir": "iterieren",
+        "ihr": "iteriert",
+        "sie_Sie": "iterieren"
+      },
+      "praeteritum": {
+        "ich": "iterierte",
+        "du": "iteriertest",
+        "er_sie_es": "iterierte",
+        "wir": "iterierten",
+        "ihr": "iteriertet",
+        "sie_Sie": "iterierten"
+      },
+      "konjunktiv1": {
+        "ich": "iteriere",
+        "du": "iterierest",
+        "er_sie_es": "iteriere",
+        "wir": "iterieren",
+        "ihr": "iterieret",
+        "sie_Sie": "iterieren"
+      },
+      "konjunktiv2": {
+        "ich": "iterierte",
+        "du": "iteriertest",
+        "er_sie_es": "iterierte",
+        "wir": "iterierten",
+        "ihr": "iteriertet",
+        "sie_Sie": "iterierten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "iterierend",
+    "nominalisierung": "die Iteration"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "wiederholen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تکرار کردن",
+          "en": "to repeat"
+        },
+        "id_ref": "verb_wiederholen"
+      },
+      {
+        "wort": "die Schleife",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حلقه",
+          "en": "loop"
+        },
+        "id_ref": "nomen_schleife"
+      },
+      {
+        "wort": "die Iteration",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "تکرار",
+          "en": "iteration"
+        },
+        "id_ref": "nomen_iteration"
+      },
+      {
+        "wort": "berechnen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "محاسبه کردن",
+          "en": "to calculate"
+        },
+        "id_ref": "verb_berechnen"
+      },
+      {
+        "wort": "das Verfahren",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "روش",
+          "en": "procedure"
+        },
+        "id_ref": "nomen_verfahren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

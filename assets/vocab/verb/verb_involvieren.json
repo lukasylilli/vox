@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_involvieren",
+  "wort": "involvieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "درگیر کردن",
+      "دخیل کردن"
+    ],
+    "en": [
+      "to involve"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "ɪnvɔlˈviːʁən",
+  "anmerkung": "Regelmäßig (involvierte, involviert). Meist im Passiv/Zustand: «in etwas involviert sein».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Projekt involviert viele Leute.",
+      "uebersetzung": {
+        "fa": "این پروژه آدم‌های زیادی را درگیر می‌کند.",
+        "en": "The project involves many people."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ich möchte nicht in diesen Streit involviert werden, weil er mich nichts angeht.",
+      "uebersetzung": {
+        "fa": "نمی‌خواهم در این دعوا درگیر شوم، چون به من ربطی ندارد.",
+        "en": "I do not want to be involved in this argument because it is none of my business."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einbeziehen",
+      "uebersetzung": {
+        "fa": "دخیل کردن",
+        "en": "to include"
+      }
+    },
+    {
+      "wort": "verwickeln",
+      "uebersetzung": {
+        "fa": "گرفتار کردن",
+        "en": "to entangle"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. involvere (پیچاندن، در خود گرفتن) + -ieren",
+    "en": "lat. involvere (to wrap up) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden (Akk) in etwas (Akk) involvieren",
+        "bedeutung": "jemanden in eine Sache hineinziehen",
+        "beispiel": "Er hat seine Familie in die Affäre involviert.",
+        "uebersetzung": {
+          "fa": "او خانواده‌اش را در این ماجرا درگیر کرد.",
+          "en": "He involved his family in the affair."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "involvieren",
+      "praeteritum": "involvierte",
+      "partizip2": "involviert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "involviere",
+        "du": "involvierst",
+        "er_sie_es": "involviert",
+        "wir": "involvieren",
+        "ihr": "involviert",
+        "sie_Sie": "involvieren"
+      },
+      "praeteritum": {
+        "ich": "involvierte",
+        "du": "involviertest",
+        "er_sie_es": "involvierte",
+        "wir": "involvierten",
+        "ihr": "involviertet",
+        "sie_Sie": "involvierten"
+      },
+      "konjunktiv1": {
+        "ich": "involviere",
+        "du": "involvierest",
+        "er_sie_es": "involviere",
+        "wir": "involvieren",
+        "ihr": "involvieret",
+        "sie_Sie": "involvieren"
+      },
+      "konjunktiv2": {
+        "ich": "involvierte",
+        "du": "involviertest",
+        "er_sie_es": "involvierte",
+        "wir": "involvierten",
+        "ihr": "involviertet",
+        "sie_Sie": "involvierten"
+      },
+      "imperativ": {
+        "du": "Involviere!",
+        "ihr": "Involviert!",
+        "Sie": "Involvieren Sie!"
+      }
+    },
+    "partizip1": "involvierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "einbeziehen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دخیل کردن",
+          "en": "to include"
+        },
+        "id_ref": "verb_einbeziehen"
+      },
+      {
+        "wort": "beteiligen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شریک کردن",
+          "en": "to involve"
+        },
+        "id_ref": "verb_beteiligen"
+      },
+      {
+        "wort": "verwickeln",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "گرفتار کردن",
+          "en": "to entangle"
+        },
+        "id_ref": "verb_verwickeln"
+      },
+      {
+        "wort": "die Beteiligung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مشارکت",
+          "en": "participation"
+        },
+        "id_ref": "nomen_beteiligung"
+      },
+      {
+        "wort": "betreffen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مربوط بودن به",
+          "en": "to concern"
+        },
+        "id_ref": "verb_betreffen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

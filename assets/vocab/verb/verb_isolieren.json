@@ -1,0 +1,211 @@
+{
+  "schema": "3.0",
+  "id": "verb_isolieren",
+  "wort": "isolieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جدا کردن",
+      "عایق‌بندی کردن",
+      "قرنطینه کردن"
+    ],
+    "en": [
+      "to isolate",
+      "to insulate"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gesundheit",
+    "Technik",
+    "Wohnen"
+  ],
+  "ipa": "izoˈliːʁən",
+  "anmerkung": "Regelmäßig (isolierte, isoliert). Reflexiv «sich isolieren»: sich von anderen zurückziehen.",
+  "berufe": [
+    "pflege_medizin",
+    "technik",
+    "bau"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir isolieren das Dach.",
+      "uebersetzung": {
+        "fa": "ما سقف را عایق‌بندی می‌کنیم.",
+        "en": "We are insulating the roof."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Patient wurde isoliert, weil er eine ansteckende Krankheit hatte.",
+      "uebersetzung": {
+        "fa": "بیمار جدا نگه داشته شد، چون بیماری واگیردار داشت.",
+        "en": "The patient was isolated because he had a contagious disease."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "absondern",
+      "uebersetzung": {
+        "fa": "جدا کردن",
+        "en": "to separate"
+      }
+    },
+    {
+      "wort": "dämmen",
+      "uebersetzung": {
+        "fa": "عایق کردن",
+        "en": "to insulate"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verbinden",
+      "uebersetzung": {
+        "fa": "وصل کردن",
+        "en": "to connect"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ital. isolare (جزیره کردن، جدا کردن) + -ieren",
+    "en": "ital. isolare (to make an island, to separate) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "jemanden/etwas (Akk) von jemandem/etwas (Dat) isolieren",
+        "bedeutung": "trennen, absondern",
+        "beispiel": "Die kranken Tiere werden von der Herde isoliert.",
+        "uebersetzung": {
+          "fa": "دام‌های بیمار از گله جدا می‌شوند.",
+          "en": "The sick animals are isolated from the herd."
+        }
+      },
+      {
+        "muster": "etwas (Akk) gegen etwas (Akk) isolieren",
+        "bedeutung": "gegen Kälte, Lärm oder Strom schützen",
+        "beispiel": "Wir haben die Wände gegen Kälte isoliert.",
+        "uebersetzung": {
+          "fa": "دیوارها را در برابر سرما عایق کردیم.",
+          "en": "We insulated the walls against the cold."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "isolieren",
+      "praeteritum": "isolierte",
+      "partizip2": "isoliert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "isoliere",
+        "du": "isolierst",
+        "er_sie_es": "isoliert",
+        "wir": "isolieren",
+        "ihr": "isoliert",
+        "sie_Sie": "isolieren"
+      },
+      "praeteritum": {
+        "ich": "isolierte",
+        "du": "isoliertest",
+        "er_sie_es": "isolierte",
+        "wir": "isolierten",
+        "ihr": "isoliertet",
+        "sie_Sie": "isolierten"
+      },
+      "konjunktiv1": {
+        "ich": "isoliere",
+        "du": "isolierest",
+        "er_sie_es": "isoliere",
+        "wir": "isolieren",
+        "ihr": "isolieret",
+        "sie_Sie": "isolieren"
+      },
+      "konjunktiv2": {
+        "ich": "isolierte",
+        "du": "isoliertest",
+        "er_sie_es": "isolierte",
+        "wir": "isolierten",
+        "ihr": "isoliertet",
+        "sie_Sie": "isolierten"
+      },
+      "imperativ": {
+        "du": "Isoliere!",
+        "ihr": "Isoliert!",
+        "Sie": "Isolieren Sie!"
+      }
+    },
+    "partizip1": "isolierend",
+    "nominalisierung": "die Isolierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Isolation",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "انزوا، جداسازی",
+          "en": "isolation"
+        },
+        "id_ref": "nomen_isolation"
+      },
+      {
+        "wort": "die Quarantäne",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قرنطینه",
+          "en": "quarantine"
+        },
+        "id_ref": "nomen_quarantaene"
+      },
+      {
+        "wort": "allein",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تنها",
+          "en": "alone"
+        },
+        "id_ref": "adjektiv_allein"
+      },
+      {
+        "wort": "das Kabel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کابل",
+          "en": "cable"
+        },
+        "id_ref": "nomen_kabel"
+      },
+      {
+        "wort": "die Dämmung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "عایق",
+          "en": "insulation"
+        },
+        "id_ref": "nomen_daemmung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

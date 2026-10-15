@@ -1,0 +1,207 @@
+{
+  "schema": "3.0",
+  "id": "verb_jammern",
+  "wort": "jammern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ناله کردن",
+      "شکوه کردن",
+      "غر زدن"
+    ],
+    "en": [
+      "to moan",
+      "to whine",
+      "to complain"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gefühle",
+    "Kommunikation"
+  ],
+  "ipa": "ˈjamɐn",
+  "anmerkung": "Regelmäßig (jammerte, gejammert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Hör auf zu jammern!",
+      "uebersetzung": {
+        "fa": "دست از غر زدن بردار!",
+        "en": "Stop whining!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Er jammert ständig über das Wetter, obwohl er nichts daran ändern kann.",
+      "uebersetzung": {
+        "fa": "او مدام از هوا می‌نالد، با اینکه نمی‌تواند چیزی را عوض کند.",
+        "en": "He constantly moans about the weather although he cannot change anything about it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "klagen",
+      "uebersetzung": {
+        "fa": "شکایت کردن",
+        "en": "to complain"
+      }
+    },
+    {
+      "wort": "nörgeln",
+      "uebersetzung": {
+        "fa": "غر زدن",
+        "en": "to grumble"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sich freuen",
+      "uebersetzung": {
+        "fa": "خوشحال شدن",
+        "en": "to be happy"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "der Jammer (درد، ناله) + -n",
+    "en": "der Jammer (misery, wailing) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "über etwas (Akk) jammern",
+        "bedeutung": "über etwas klagen",
+        "beispiel": "Die Kinder jammern über die vielen Hausaufgaben.",
+        "uebersetzung": {
+          "fa": "بچه‌ها از تکالیف زیاد شکایت می‌کنند.",
+          "en": "The children moan about all the homework."
+        }
+      },
+      {
+        "muster": "nach jemandem/etwas (Dat) jammern",
+        "bedeutung": "klagend nach etwas verlangen",
+        "beispiel": "Das kranke Kind jammerte nach seiner Mutter.",
+        "uebersetzung": {
+          "fa": "بچه‌ی بیمار با ناله مادرش را صدا می‌زد.",
+          "en": "The sick child whimpered for its mother."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "jammern",
+      "praeteritum": "jammerte",
+      "partizip2": "gejammert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "jammere",
+        "du": "jammerst",
+        "er_sie_es": "jammert",
+        "wir": "jammern",
+        "ihr": "jammert",
+        "sie_Sie": "jammern"
+      },
+      "praeteritum": {
+        "ich": "jammerte",
+        "du": "jammertest",
+        "er_sie_es": "jammerte",
+        "wir": "jammerten",
+        "ihr": "jammertet",
+        "sie_Sie": "jammerten"
+      },
+      "konjunktiv1": {
+        "ich": "jammere",
+        "du": "jammerest",
+        "er_sie_es": "jammere",
+        "wir": "jammern",
+        "ihr": "jammeret",
+        "sie_Sie": "jammern"
+      },
+      "konjunktiv2": {
+        "ich": "jammerte",
+        "du": "jammertest",
+        "er_sie_es": "jammerte",
+        "wir": "jammerten",
+        "ihr": "jammertet",
+        "sie_Sie": "jammerten"
+      },
+      "imperativ": {
+        "du": "Jammere!",
+        "ihr": "Jammert!",
+        "Sie": "Jammern Sie!"
+      }
+    },
+    "partizip1": "jammernd",
+    "nominalisierung": "das Jammern"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "klagen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شکایت کردن",
+          "en": "to complain"
+        },
+        "id_ref": "verb_klagen"
+      },
+      {
+        "wort": "beschweren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شکایت کردن",
+          "en": "to complain"
+        },
+        "id_ref": "verb_beschweren"
+      },
+      {
+        "wort": "der Jammer",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ناله، بدبختی",
+          "en": "misery"
+        },
+        "id_ref": "nomen_jammer"
+      },
+      {
+        "wort": "weinen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گریه کردن",
+          "en": "to cry"
+        },
+        "id_ref": "verb_weinen"
+      },
+      {
+        "wort": "nörgeln",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "غر زدن",
+          "en": "to grumble"
+        },
+        "id_ref": "verb_noergeln"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
