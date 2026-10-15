@@ -1661,6 +1661,13 @@ const zurueckgestellt = <String>{
   'gieren', // zurückgestellt: gehoben/abwertend («nach etwas gieren»); Stilmarkierung nicht sicher (Regel 17) 2026-10-15
   'girren', // zurückgestellt: selten/gehoben (Tauben: gurren); Gebrauch nicht sicher (Regel 14) 2026-10-15
   'gleißen', // zurückgestellt: gehoben/selten (grell glänzen; Präteritum gleißte/gliss schwankend); nicht sicher (Regel 14) 2026-10-15
+  'grabbeln', // zurückgestellt: regional (norddeutsch: herumtasten), selten (Regel 14) 2026-10-15
+  'grämen', // zurückgestellt: gehoben («sich grämen»); Stilmarkierung nicht sicher (Regel 17) 2026-10-15
+  'granteln', // zurückgestellt: regional (bairisch/österreichisch umgangssprachlich: schlecht gelaunt sein); nicht sicher (Regel 14) 2026-10-15
+  'grapschen', // zurückgestellt: umgangssprachlich; eine Bedeutung mit sexuellem Bezug (begrapschen) — Entscheidung Lukas 2026-10-15
+  'grausen', // zurückgestellt: unpersönlich/reflexiv («es graust mir», «sich grausen»), Kasus schwankend; nicht sicher (Regel 14) 2026-10-15
+  'greinen', // zurückgestellt: umgangssprachlich abwertend (weinerlich klagen); Stilmarkierung nicht sicher (Regel 17) 2026-10-15
+  'grienen', // zurückgestellt: regional (norddeutsch: grinsen), selten (Regel 14) 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

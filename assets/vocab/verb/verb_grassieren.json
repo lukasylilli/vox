@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_grassieren",
+  "wort": "grassieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شیوع داشتن"
+    ],
+    "en": [
+      "to be rife",
+      "to rage"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gesundheit",
+    "Gesellschaft"
+  ],
+  "ipa": "ɡʁaˈsiːʁən",
+  "anmerkung": "Regelmäßig (grassierte, grassiert).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Grippe grassiert.",
+      "uebersetzung": {
+        "fa": "آنفولانزا شیوع دارد.",
+        "en": "Flu is going around."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In der Region grassiert seit Monaten eine Krankheit, gegen die es noch keinen Impfstoff gibt.",
+      "uebersetzung": {
+        "fa": "ماه‌هاست در این منطقه بیماری‌ای شیوع دارد که هنوز واکسنی برایش نیست.",
+        "en": "For months a disease has been raging in the region for which there is still no vaccine."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich ausbreiten",
+      "uebersetzung": {
+        "fa": "گسترش یافتن",
+        "en": "to spread"
+      }
+    },
+    {
+      "wort": "wüten",
+      "uebersetzung": {
+        "fa": "بیداد کردن",
+        "en": "to rage"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. grassari (پرسه زدن، بیداد کردن) + -ieren",
+    "en": "lat. grassari (to rage) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "grassieren",
+      "praeteritum": "grassierte",
+      "partizip2": "grassiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "grassiere",
+        "du": "grassierst",
+        "er_sie_es": "grassiert",
+        "wir": "grassieren",
+        "ihr": "grassiert",
+        "sie_Sie": "grassieren"
+      },
+      "praeteritum": {
+        "ich": "grassierte",
+        "du": "grassiertest",
+        "er_sie_es": "grassierte",
+        "wir": "grassierten",
+        "ihr": "grassiertet",
+        "sie_Sie": "grassierten"
+      },
+      "konjunktiv1": {
+        "ich": "grassiere",
+        "du": "grassierest",
+        "er_sie_es": "grassiere",
+        "wir": "grassieren",
+        "ihr": "grassieret",
+        "sie_Sie": "grassieren"
+      },
+      "konjunktiv2": {
+        "ich": "grassierte",
+        "du": "grassiertest",
+        "er_sie_es": "grassierte",
+        "wir": "grassierten",
+        "ihr": "grassiertet",
+        "sie_Sie": "grassierten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "grassierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Krankheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیماری",
+          "en": "illness"
+        },
+        "id_ref": "nomen_krankheit"
+      },
+      {
+        "wort": "die Grippe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آنفولانزا",
+          "en": "flu"
+        },
+        "id_ref": "nomen_grippe"
+      },
+      {
+        "wort": "ansteckend",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "واگیردار",
+          "en": "contagious"
+        },
+        "id_ref": "adjektiv_ansteckend"
+      },
+      {
+        "wort": "die Epidemie",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "همه‌گیری",
+          "en": "epidemic"
+        },
+        "id_ref": "nomen_epidemie"
+      },
+      {
+        "wort": "ausbreiten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گسترش یافتن",
+          "en": "to spread"
+        },
+        "id_ref": "verb_ausbreiten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
