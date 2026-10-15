@@ -1676,6 +1676,10 @@ const zurueckgestellt = <String>{
   'hampeln', // zurückgestellt: umgangssprachlich (zappeln; meist «herumhampeln»); Gebrauch nicht sicher (Regel 14) 2026-10-15
   'hängen', // zurückgestellt: zwei Konjugationen je nach Bedeutung (hing/gehangen ↔ hängte/gehängt) — wie die anderen hängen-Verben zurückgestellt; Entscheidung Lukas 2026-10-15
   'härmen', // zurückgestellt: gehoben/veraltend («sich härmen»); Stilmarkierung nicht sicher (Regel 17) 2026-10-15
+  'harren', // zurückgestellt: gehoben/veraltend (warten, «einer Sache harren»); Stilmarkierung nicht sicher (Regel 17) 2026-10-15
+  'haschen', // zurückgestellt: mehrere Bedeutungen (nach etwas greifen / umgangssprachlich Haschisch rauchen); nicht sicher (Regel 14) 2026-10-15
+  'haspeln', // zurückgestellt: mehrere Bedeutungen (Garn aufwickeln / hastig sprechen), selten (Regel 14) 2026-10-15
+  'häufeln', // zurückgestellt: Fachwort Gartenbau (Erde anhäufeln), selten (Regel 14) 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

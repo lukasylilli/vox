@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_hauchen",
+  "wort": "hauchen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ها کردن",
+      "آهسته گفتن"
+    ],
+    "en": [
+      "to breathe",
+      "to whisper"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Körper",
+    "Kommunikation"
+  ],
+  "ipa": "ˈhaʊ̯xn̩",
+  "anmerkung": "Regelmäßig (hauchte, gehaucht).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er haucht gegen die Scheibe.",
+      "uebersetzung": {
+        "fa": "روی شیشه ها می‌کند.",
+        "en": "He breathes on the window pane."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "„Ich liebe dich“, hauchte sie ihm ins Ohr, bevor der Zug abfuhr.",
+      "uebersetzung": {
+        "fa": "پیش از حرکت قطار در گوشش آهسته گفت: «دوستت دارم.»",
+        "en": "“I love you,” she breathed in his ear before the train left."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "flüstern",
+      "uebersetzung": {
+        "fa": "نجوا کردن",
+        "en": "to whisper"
+      }
+    },
+    {
+      "wort": "pusten",
+      "uebersetzung": {
+        "fa": "فوت کردن",
+        "en": "to blow"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "der Hauch (دم، نفس) + -en",
+    "en": "der Hauch (breath) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "hauchen",
+      "praeteritum": "hauchte",
+      "partizip2": "gehaucht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "hauche",
+        "du": "hauchst",
+        "er_sie_es": "haucht",
+        "wir": "hauchen",
+        "ihr": "haucht",
+        "sie_Sie": "hauchen"
+      },
+      "praeteritum": {
+        "ich": "hauchte",
+        "du": "hauchtest",
+        "er_sie_es": "hauchte",
+        "wir": "hauchten",
+        "ihr": "hauchtet",
+        "sie_Sie": "hauchten"
+      },
+      "konjunktiv1": {
+        "ich": "hauche",
+        "du": "hauchest",
+        "er_sie_es": "hauche",
+        "wir": "hauchen",
+        "ihr": "hauchet",
+        "sie_Sie": "hauchen"
+      },
+      "konjunktiv2": {
+        "ich": "hauchte",
+        "du": "hauchtest",
+        "er_sie_es": "hauchte",
+        "wir": "hauchten",
+        "ihr": "hauchtet",
+        "sie_Sie": "hauchten"
+      },
+      "imperativ": {
+        "du": "Hauche!",
+        "ihr": "Haucht!",
+        "Sie": "Hauchen Sie!"
+      }
+    },
+    "partizip1": "hauchend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Hauch",
+    "woerter": [
+      {
+        "wort": "atmen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نفس کشیدن",
+          "en": "to breathe"
+        },
+        "id_ref": "verb_atmen"
+      },
+      {
+        "wort": "leise",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آهسته",
+          "en": "quiet"
+        },
+        "id_ref": "adjektiv_leise"
+      },
+      {
+        "wort": "flüstern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نجوا کردن",
+          "en": "to whisper"
+        },
+        "id_ref": "verb_fluestern"
+      },
+      {
+        "wort": "der Atem",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نفس",
+          "en": "breath"
+        },
+        "id_ref": "nomen_atem"
+      },
+      {
+        "wort": "der Hauch",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دم، اندکی",
+          "en": "breath, hint"
+        },
+        "id_ref": "nomen_hauch"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
