@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_hueten",
+  "wort": "hüten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مراقبت کردن",
+      "چوپانی کردن"
+    ],
+    "en": [
+      "to look after",
+      "to guard",
+      "to watch over"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Familie",
+    "Tiere"
+  ],
+  "ipa": "ˈhyːtn̩",
+  "anmerkung": "Regelmäßig (hütete, gehütet). Redewendungen: «das Bett hüten» (krank im Bett bleiben), «ein Geheimnis hüten».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hirte hütet die Schafe.",
+      "uebersetzung": {
+        "fa": "چوپان گوسفندها را می‌چراند.",
+        "en": "The shepherd tends the sheep."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil sie hohes Fieber hatte, musste sie eine Woche lang das Bett hüten.",
+      "uebersetzung": {
+        "fa": "چون تب بالا داشت، مجبور شد یک هفته در بستر بماند.",
+        "en": "Because she had a high fever, she had to stay in bed for a week."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufpassen",
+      "uebersetzung": {
+        "fa": "مراقب بودن",
+        "en": "to look after"
+      }
+    },
+    {
+      "wort": "bewachen",
+      "uebersetzung": {
+        "fa": "نگهبانی دادن",
+        "en": "to guard"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich vor + Dat hüten",
+        "bedeutung": "vor etwas vorsichtig sein",
+        "beispiel": "Hüte dich vor falschen Versprechen!",
+        "uebersetzung": {
+          "fa": "از وعده‌های دروغ بر حذر باش!",
+          "en": "Beware of false promises!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "hüten",
+      "praeteritum": "hütete",
+      "partizip2": "gehütet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "hüte",
+        "du": "hütest",
+        "er_sie_es": "hütet",
+        "wir": "hüten",
+        "ihr": "hütet",
+        "sie_Sie": "hüten"
+      },
+      "praeteritum": {
+        "ich": "hütete",
+        "du": "hütetest",
+        "er_sie_es": "hütete",
+        "wir": "hüteten",
+        "ihr": "hütetet",
+        "sie_Sie": "hüteten"
+      },
+      "konjunktiv1": {
+        "ich": "hüte",
+        "du": "hütest",
+        "er_sie_es": "hüte",
+        "wir": "hüten",
+        "ihr": "hütet",
+        "sie_Sie": "hüten"
+      },
+      "konjunktiv2": {
+        "ich": "hütete",
+        "du": "hütetest",
+        "er_sie_es": "hütete",
+        "wir": "hüteten",
+        "ihr": "hütetet",
+        "sie_Sie": "hüteten"
+      },
+      "imperativ": {
+        "du": "Hüte!",
+        "ihr": "Hütet!",
+        "Sie": "Hüten Sie!"
+      }
+    },
+    "partizip1": "hütend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "aufpassen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مراقب بودن",
+          "en": "to look after"
+        },
+        "id_ref": "verb_aufpassen"
+      },
+      {
+        "wort": "das Schaf",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گوسفند",
+          "en": "sheep"
+        },
+        "id_ref": "nomen_schaf"
+      },
+      {
+        "wort": "schützen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "محافظت کردن",
+          "en": "to protect"
+        },
+        "id_ref": "verb_schuetzen"
+      },
+      {
+        "wort": "bewachen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نگهبانی دادن",
+          "en": "to guard"
+        },
+        "id_ref": "verb_bewachen"
+      },
+      {
+        "wort": "der Hirte",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "چوپان",
+          "en": "shepherd"
+        },
+        "id_ref": "nomen_hirte"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
