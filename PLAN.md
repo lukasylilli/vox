@@ -2988,6 +2988,7 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۵۷۰ | erfrechen | `Verben_regelmaesig.txt` | 2026-10-15 | «sich erfrechen» رو به منسوخ و کم‌کاربرد؛ برچسب سبکی مطمئن نیست — قاعده‌ی ۱۴/۱۷ | — |
 | ۱۵۷۱ | erigieren | `Verben_regelmaesig.txt` | 2026-10-15 | ⚠️ معنای جنسی/پزشکی (نعوظ؛ مثل ejakulieren) ⇒ تصمیم Lukas | — |
 | ۱۵۷۲ | erkühnen | `Verben_regelmaesig.txt` | 2026-10-15 | «sich erkühnen» فاخر و کم‌کاربرد؛ برچسب سبکی مطمئن نیست — قاعده‌ی ۱۴/۱۷ | — |
+| ۱۵۷۳ | erotisieren | `Verben_regelmaesig.txt` | 2026-10-15 | ⚠️ موضوع جنسی (مثل ejakulieren) ⇒ تصمیم Lukas | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 

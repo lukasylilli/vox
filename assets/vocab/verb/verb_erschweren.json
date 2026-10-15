@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_erschweren",
+  "wort": "erschweren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دشوار کردن",
+      "سخت‌تر کردن"
+    ],
+    "en": [
+      "to make more difficult",
+      "to hamper"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit",
+    "Alltag"
+  ],
+  "ipa": "ɛɐ̯ˈʃveːʁən",
+  "anmerkung": "Regelmäßig (erschwerte, erschwert). Untrennbar. Juristisch: «erschwerende Umstände».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Schnee erschwert die Fahrt.",
+      "uebersetzung": {
+        "fa": "برف رانندگی را سخت می‌کند.",
+        "en": "The snow makes the journey harder."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die neuen Regeln erschweren es kleinen Firmen, Aufträge vom Staat zu bekommen.",
+      "uebersetzung": {
+        "fa": "قوانین تازه گرفتن سفارش از دولت را برای شرکت‌های کوچک دشوارتر می‌کند.",
+        "en": "The new rules make it harder for small companies to get contracts from the state."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "behindern",
+      "uebersetzung": {
+        "fa": "مانع شدن",
+        "en": "to hinder"
+      }
+    },
+    {
+      "wort": "komplizieren",
+      "uebersetzung": {
+        "fa": "پیچیده کردن",
+        "en": "to complicate"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "erleichtern",
+      "uebersetzung": {
+        "fa": "آسان کردن",
+        "en": "to make easier"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (کردن) + schwer (سخت)",
+    "en": "er- (making) + schwer (difficult)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "erschweren",
+      "praeteritum": "erschwerte",
+      "partizip2": "erschwert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erschwere",
+        "du": "erschwerst",
+        "er_sie_es": "erschwert",
+        "wir": "erschweren",
+        "ihr": "erschwert",
+        "sie_Sie": "erschweren"
+      },
+      "praeteritum": {
+        "ich": "erschwerte",
+        "du": "erschwertest",
+        "er_sie_es": "erschwerte",
+        "wir": "erschwerten",
+        "ihr": "erschwertet",
+        "sie_Sie": "erschwerten"
+      },
+      "konjunktiv1": {
+        "ich": "erschwere",
+        "du": "erschwerest",
+        "er_sie_es": "erschwere",
+        "wir": "erschweren",
+        "ihr": "erschweret",
+        "sie_Sie": "erschweren"
+      },
+      "konjunktiv2": {
+        "ich": "erschwerte",
+        "du": "erschwertest",
+        "er_sie_es": "erschwerte",
+        "wir": "erschwerten",
+        "ihr": "erschwertet",
+        "sie_Sie": "erschwerten"
+      },
+      "imperativ": {
+        "du": "Erschwere!",
+        "ihr": "Erschwert!",
+        "Sie": "Erschweren Sie!"
+      }
+    },
+    "partizip1": "erschwerend",
+    "nominalisierung": "die Erschwerung"
+  },
+  "wortnetz": {
+    "grundwort": "schwer",
+    "woerter": [
+      {
+        "wort": "schwer",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سخت، سنگین",
+          "en": "difficult, heavy"
+        },
+        "id_ref": "adjektiv_schwer"
+      },
+      {
+        "wort": "schwierig",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دشوار",
+          "en": "difficult"
+        },
+        "id_ref": "adjektiv_schwierig"
+      },
+      {
+        "wort": "erleichtern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آسان کردن",
+          "en": "to make easier"
+        },
+        "id_ref": "verb_erleichtern"
+      },
+      {
+        "wort": "das Hindernis",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مانع",
+          "en": "obstacle"
+        },
+        "id_ref": "nomen_hindernis"
+      },
+      {
+        "wort": "behindern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مانع شدن",
+          "en": "to hinder"
+        },
+        "id_ref": "verb_behindern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

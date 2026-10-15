@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "verb_ersaeufen",
+  "wort": "ersäufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "غرق کردن",
+      "در (الکل) غرق کردن"
+    ],
+    "en": [
+      "to drown",
+      "to drown (one's sorrows)"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Gefühle"
+  ],
+  "ipa": "ɛɐ̯ˈzɔɪ̯fn̩",
+  "anmerkung": "Regelmäßig (ersäufte, ersäuft). Untrennbar. Umgangssprachlich für «ertränken» (transitiv, regelmäßig). Nicht verwechseln mit «ersaufen» (= ertrinken; ersoff, ersoffen). Bekannt: «seinen Kummer im Alkohol ersäufen».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er ersäuft seinen Kummer in Bier.",
+      "uebersetzung": {
+        "fa": "غمش را در آبجو غرق می‌کند.",
+        "en": "He drowns his sorrows in beer."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach der Trennung versuchte sie, ihren Schmerz im Wein zu ersäufen, aber es half nicht.",
+      "uebersetzung": {
+        "fa": "پس از جدایی سعی کرد دردش را در شراب غرق کند، اما فایده‌ای نداشت.",
+        "en": "After the break-up she tried to drown her pain in wine, but it did not help."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ertränken",
+      "uebersetzung": {
+        "fa": "غرق کردن",
+        "en": "to drown"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- + saufen (نوشیدن حیوان، عامیانه)",
+    "en": "er- + saufen (to booze, colloquial)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "ersäufen",
+      "praeteritum": "ersäufte",
+      "partizip2": "ersäuft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ersäufe",
+        "du": "ersäufst",
+        "er_sie_es": "ersäuft",
+        "wir": "ersäufen",
+        "ihr": "ersäuft",
+        "sie_Sie": "ersäufen"
+      },
+      "praeteritum": {
+        "ich": "ersäufte",
+        "du": "ersäuftest",
+        "er_sie_es": "ersäufte",
+        "wir": "ersäuften",
+        "ihr": "ersäuftet",
+        "sie_Sie": "ersäuften"
+      },
+      "konjunktiv1": {
+        "ich": "ersäufe",
+        "du": "ersäufest",
+        "er_sie_es": "ersäufe",
+        "wir": "ersäufen",
+        "ihr": "ersäufet",
+        "sie_Sie": "ersäufen"
+      },
+      "konjunktiv2": {
+        "ich": "ersäufte",
+        "du": "ersäuftest",
+        "er_sie_es": "ersäufte",
+        "wir": "ersäuften",
+        "ihr": "ersäuftet",
+        "sie_Sie": "ersäuften"
+      },
+      "imperativ": {
+        "du": "Ersäufe!",
+        "ihr": "Ersäuft!",
+        "Sie": "Ersäufen Sie!"
+      }
+    },
+    "partizip1": "ersäufend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "saufen",
+    "woerter": [
+      {
+        "wort": "ertränken",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "غرق کردن",
+          "en": "to drown"
+        },
+        "id_ref": "verb_ertraenken"
+      },
+      {
+        "wort": "ertrinken",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "غرق شدن",
+          "en": "to drown"
+        },
+        "id_ref": "verb_ertrinken"
+      },
+      {
+        "wort": "der Kummer",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "غم",
+          "en": "sorrow"
+        },
+        "id_ref": "nomen_kummer"
+      },
+      {
+        "wort": "der Alkohol",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "الکل",
+          "en": "alcohol"
+        },
+        "id_ref": "nomen_alkohol"
+      },
+      {
+        "wort": "saufen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "زیاد نوشیدن",
+          "en": "to booze"
+        },
+        "id_ref": "verb_saufen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

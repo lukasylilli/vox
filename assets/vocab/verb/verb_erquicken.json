@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_erquicken",
+  "wort": "erquicken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جان تازه دادن",
+      "نیرو بخشیدن"
+    ],
+    "en": [
+      "to refresh",
+      "to revive"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Gefühle",
+    "Körper"
+  ],
+  "ipa": "ɛɐ̯ˈkvɪkn̩",
+  "anmerkung": "Regelmäßig (erquickte, erquickt). Untrennbar. Gehoben. Partizip I «erquickend» häufiger als das Verb.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Schlaf erquickt mich.",
+      "uebersetzung": {
+        "fa": "خواب به من جان تازه می‌دهد.",
+        "en": "Sleep refreshes me."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Wanderer erquickten sich an dem klaren Wasser der Quelle, bevor sie weitergingen.",
+      "uebersetzung": {
+        "fa": "کوهنوردان پیش از ادامه‌ی راه با آب زلال چشمه جانی تازه گرفتند.",
+        "en": "The hikers refreshed themselves with the clear spring water before walking on."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erfrischen",
+      "uebersetzung": {
+        "fa": "سرحال کردن",
+        "en": "to refresh"
+      }
+    },
+    {
+      "wort": "stärken",
+      "uebersetzung": {
+        "fa": "تقویت کردن",
+        "en": "to strengthen"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (کردن) + quick (کهن: زنده)",
+    "en": "er- (making) + quick (archaic: alive)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich an + Dat erquicken",
+        "bedeutung": "durch etwas neue Kraft bekommen",
+        "beispiel": "Sie erquickte sich an einem kühlen Getränk.",
+        "uebersetzung": {
+          "fa": "با یک نوشیدنی خنک جانی تازه گرفت.",
+          "en": "She refreshed herself with a cool drink."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "erquicken",
+      "praeteritum": "erquickte",
+      "partizip2": "erquickt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erquicke",
+        "du": "erquickst",
+        "er_sie_es": "erquickt",
+        "wir": "erquicken",
+        "ihr": "erquickt",
+        "sie_Sie": "erquicken"
+      },
+      "praeteritum": {
+        "ich": "erquickte",
+        "du": "erquicktest",
+        "er_sie_es": "erquickte",
+        "wir": "erquickten",
+        "ihr": "erquicktet",
+        "sie_Sie": "erquickten"
+      },
+      "konjunktiv1": {
+        "ich": "erquicke",
+        "du": "erquickest",
+        "er_sie_es": "erquicke",
+        "wir": "erquicken",
+        "ihr": "erquicket",
+        "sie_Sie": "erquicken"
+      },
+      "konjunktiv2": {
+        "ich": "erquickte",
+        "du": "erquicktest",
+        "er_sie_es": "erquickte",
+        "wir": "erquickten",
+        "ihr": "erquicktet",
+        "sie_Sie": "erquickten"
+      },
+      "imperativ": {
+        "du": "Erquicke!",
+        "ihr": "Erquickt!",
+        "Sie": "Erquicken Sie!"
+      }
+    },
+    "partizip1": "erquickend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "erfrischen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سرحال کردن",
+          "en": "to refresh"
+        },
+        "id_ref": "verb_erfrischen"
+      },
+      {
+        "wort": "frisch",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تازه",
+          "en": "fresh"
+        },
+        "id_ref": "adjektiv_frisch"
+      },
+      {
+        "wort": "die Kraft",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نیرو",
+          "en": "strength"
+        },
+        "id_ref": "nomen_kraft"
+      },
+      {
+        "wort": "erholen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "استراحت کردن",
+          "en": "to recover"
+        },
+        "id_ref": "verb_erholen"
+      },
+      {
+        "wort": "lebendig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زنده، سرزنده",
+          "en": "alive"
+        },
+        "id_ref": "adjektiv_lebendig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

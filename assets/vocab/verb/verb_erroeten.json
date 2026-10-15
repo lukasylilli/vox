@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_erroeten",
+  "wort": "erröten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سرخ شدن (از خجالت)"
+    ],
+    "en": [
+      "to blush"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle",
+    "Körper"
+  ],
+  "ipa": "ɛɐ̯ˈʁøːtn̩",
+  "anmerkung": "Regelmäßig (errötete, errötet). Untrennbar.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie errötet vor Freude.",
+      "uebersetzung": {
+        "fa": "از خوشحالی سرخ می‌شود.",
+        "en": "She blushes with joy."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als der Lehrer ihn lobte, ist der Junge vor Verlegenheit errötet.",
+      "uebersetzung": {
+        "fa": "وقتی معلم از پسر تعریف کرد، او از خجالت سرخ شد.",
+        "en": "When the teacher praised him, the boy blushed with embarrassment."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rot werden",
+      "uebersetzung": {
+        "fa": "سرخ شدن",
+        "en": "to go red"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "erblassen",
+      "uebersetzung": {
+        "fa": "رنگ پریدن",
+        "en": "to turn pale"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (شدن) + rot (سرخ)",
+    "en": "er- (becoming) + rot (red)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "vor + Dat erröten",
+        "bedeutung": "wegen eines Gefühls rot werden",
+        "beispiel": "Er errötete vor Scham.",
+        "uebersetzung": {
+          "fa": "از شرم سرخ شد.",
+          "en": "He blushed with shame."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "erröten",
+      "praeteritum": "errötete",
+      "partizip2": "errötet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erröte",
+        "du": "errötest",
+        "er_sie_es": "errötet",
+        "wir": "erröten",
+        "ihr": "errötet",
+        "sie_Sie": "erröten"
+      },
+      "praeteritum": {
+        "ich": "errötete",
+        "du": "errötetest",
+        "er_sie_es": "errötete",
+        "wir": "erröteten",
+        "ihr": "errötetet",
+        "sie_Sie": "erröteten"
+      },
+      "konjunktiv1": {
+        "ich": "erröte",
+        "du": "errötest",
+        "er_sie_es": "erröte",
+        "wir": "erröten",
+        "ihr": "errötet",
+        "sie_Sie": "erröten"
+      },
+      "konjunktiv2": {
+        "ich": "errötete",
+        "du": "errötetest",
+        "er_sie_es": "errötete",
+        "wir": "erröteten",
+        "ihr": "errötetet",
+        "sie_Sie": "erröteten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "errötend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "rot",
+    "woerter": [
+      {
+        "wort": "rot",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قرمز",
+          "en": "red"
+        },
+        "id_ref": "adjektiv_rot"
+      },
+      {
+        "wort": "peinlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خجالت‌آور",
+          "en": "embarrassing"
+        },
+        "id_ref": "adjektiv_peinlich"
+      },
+      {
+        "wort": "die Scham",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شرم",
+          "en": "shame"
+        },
+        "id_ref": "nomen_scham"
+      },
+      {
+        "wort": "schüchtern",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خجالتی",
+          "en": "shy"
+        },
+        "id_ref": "adjektiv_schuechtern"
+      },
+      {
+        "wort": "erblassen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رنگ پریدن",
+          "en": "to turn pale"
+        },
+        "id_ref": "verb_erblassen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

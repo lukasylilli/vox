@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_eroertern",
+  "wort": "erörtern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بحث و بررسی کردن",
+      "به تفصیل بحث کردن"
+    ],
+    "en": [
+      "to discuss",
+      "to debate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation",
+    "Lernen"
+  ],
+  "ipa": "ɛɐ̯ˈʔœʁtɐn",
+  "anmerkung": "Regelmäßig (erörterte, erörtert). Untrennbar. In der Schule: «die Erörterung» (Aufsatzform mit Pro und Contra).",
+  "berufe": [
+    "kinder_bildung",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir erörtern das Problem.",
+      "uebersetzung": {
+        "fa": "مسئله را بررسی می‌کنیم.",
+        "en": "We are discussing the problem."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In der Sitzung wurde ausführlich erörtert, ob die Firma einen neuen Standort braucht.",
+      "uebersetzung": {
+        "fa": "در جلسه به تفصیل بحث شد که آیا شرکت به محل جدیدی نیاز دارد یا نه.",
+        "en": "The meeting discussed in detail whether the company needs a new location."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "besprechen",
+      "uebersetzung": {
+        "fa": "بحث کردن",
+        "en": "to discuss"
+      }
+    },
+    {
+      "wort": "diskutieren",
+      "uebersetzung": {
+        "fa": "گفت‌وگو کردن",
+        "en": "to debate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- + Ort (جا، کهن: نقطه)",
+    "en": "er- + Ort (place, archaic: point)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas mit + Dat erörtern",
+        "bedeutung": "mit jemandem gründlich über etwas sprechen",
+        "beispiel": "Er erörterte den Plan mit seinem Anwalt.",
+        "uebersetzung": {
+          "fa": "نقشه را با وکیلش بررسی کرد.",
+          "en": "He discussed the plan with his lawyer."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "erörtern",
+      "praeteritum": "erörterte",
+      "partizip2": "erörtert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erörtere",
+        "du": "erörterst",
+        "er_sie_es": "erörtert",
+        "wir": "erörtern",
+        "ihr": "erörtert",
+        "sie_Sie": "erörtern"
+      },
+      "praeteritum": {
+        "ich": "erörterte",
+        "du": "erörtertest",
+        "er_sie_es": "erörterte",
+        "wir": "erörterten",
+        "ihr": "erörtertet",
+        "sie_Sie": "erörterten"
+      },
+      "konjunktiv1": {
+        "ich": "erörtere",
+        "du": "erörterest",
+        "er_sie_es": "erörtere",
+        "wir": "erörtern",
+        "ihr": "erörteret",
+        "sie_Sie": "erörtern"
+      },
+      "konjunktiv2": {
+        "ich": "erörterte",
+        "du": "erörtertest",
+        "er_sie_es": "erörterte",
+        "wir": "erörterten",
+        "ihr": "erörtertet",
+        "sie_Sie": "erörterten"
+      },
+      "imperativ": {
+        "du": "Erörtere!",
+        "ihr": "Erörtert!",
+        "Sie": "Erörtern Sie!"
+      }
+    },
+    "partizip1": "erörternd",
+    "nominalisierung": "die Erörterung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "besprechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بحث کردن",
+          "en": "to discuss"
+        },
+        "id_ref": "verb_besprechen"
+      },
+      {
+        "wort": "diskutieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گفت‌وگو کردن",
+          "en": "to debate"
+        },
+        "id_ref": "verb_diskutieren"
+      },
+      {
+        "wort": "das Argument",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "استدلال",
+          "en": "argument"
+        },
+        "id_ref": "nomen_argument"
+      },
+      {
+        "wort": "die Frage",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سؤال",
+          "en": "question"
+        },
+        "id_ref": "nomen_frage"
+      },
+      {
+        "wort": "die Sitzung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جلسه",
+          "en": "meeting"
+        },
+        "id_ref": "nomen_sitzung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
