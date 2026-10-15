@@ -1,0 +1,196 @@
+{
+  "schema": "3.0",
+  "id": "verb_fuehren",
+  "wort": "führen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "هدایت کردن",
+      "رهبری کردن",
+      "منجر شدن"
+    ],
+    "en": [
+      "to lead",
+      "to guide",
+      "to run"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Arbeit",
+    "Alltag"
+  ],
+  "ipa": "ˈfyːʁən",
+  "anmerkung": "Regelmäßig (führte, geführt). Häufig: «ein Gespräch führen», «ein Tagebuch führen».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Weg führt zum See.",
+      "uebersetzung": {
+        "fa": "این راه به دریاچه می‌رسد.",
+        "en": "The path leads to the lake."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Seit ihr Vater krank ist, führt sie das Familiengeschäft allein.",
+      "uebersetzung": {
+        "fa": "از وقتی پدرش بیمار است، مغازه‌ی خانوادگی را تنها اداره می‌کند.",
+        "en": "Since her father has been ill, she has been running the family business alone."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "leiten",
+      "uebersetzung": {
+        "fa": "اداره کردن",
+        "en": "to manage"
+      }
+    },
+    {
+      "wort": "lenken",
+      "uebersetzung": {
+        "fa": "هدایت کردن",
+        "en": "to steer"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zu + Dat führen",
+        "bedeutung": "etwas zur Folge haben",
+        "beispiel": "Der Streit führte zu einer Trennung.",
+        "uebersetzung": {
+          "fa": "دعوا به جدایی انجامید.",
+          "en": "The argument led to a separation."
+        }
+      },
+      {
+        "muster": "durch + Akk führen",
+        "bedeutung": "jemandem etwas zeigen und erklären",
+        "beispiel": "Die Lehrerin führt die Gäste durch die Schule.",
+        "uebersetzung": {
+          "fa": "معلم مهمان‌ها را در مدرسه می‌گرداند.",
+          "en": "The teacher shows the guests around the school."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "führen",
+      "praeteritum": "führte",
+      "partizip2": "geführt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "führe",
+        "du": "führst",
+        "er_sie_es": "führt",
+        "wir": "führen",
+        "ihr": "führt",
+        "sie_Sie": "führen"
+      },
+      "praeteritum": {
+        "ich": "führte",
+        "du": "führtest",
+        "er_sie_es": "führte",
+        "wir": "führten",
+        "ihr": "führtet",
+        "sie_Sie": "führten"
+      },
+      "konjunktiv1": {
+        "ich": "führe",
+        "du": "führest",
+        "er_sie_es": "führe",
+        "wir": "führen",
+        "ihr": "führet",
+        "sie_Sie": "führen"
+      },
+      "konjunktiv2": {
+        "ich": "führte",
+        "du": "führtest",
+        "er_sie_es": "führte",
+        "wir": "führten",
+        "ihr": "führtet",
+        "sie_Sie": "führten"
+      },
+      "imperativ": {
+        "du": "Führe!",
+        "ihr": "Führt!",
+        "Sie": "Führen Sie!"
+      }
+    },
+    "partizip1": "führend",
+    "nominalisierung": "die Führung"
+  },
+  "wortnetz": {
+    "grundwort": "Führung",
+    "woerter": [
+      {
+        "wort": "der Führerschein",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گواهینامه‌ی رانندگی",
+          "en": "driving licence"
+        },
+        "id_ref": "nomen_fuehrerschein"
+      },
+      {
+        "wort": "ausführen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اجرا کردن",
+          "en": "to carry out"
+        },
+        "id_ref": "verb_ausfuehren"
+      },
+      {
+        "wort": "einführen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "معرفی کردن، وارد کردن",
+          "en": "to introduce"
+        },
+        "id_ref": "verb_einfuehren"
+      },
+      {
+        "wort": "die Führung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رهبری، تور راهنما",
+          "en": "leadership, guided tour"
+        },
+        "id_ref": "nomen_fuehrung"
+      },
+      {
+        "wort": "leiten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اداره کردن",
+          "en": "to manage"
+        },
+        "id_ref": "verb_leiten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
