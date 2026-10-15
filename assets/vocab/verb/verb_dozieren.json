@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_dozieren",
+  "wort": "dozieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "درس دادن (در دانشگاه)",
+      "با لحن استادانه حرف زدن"
+    ],
+    "en": [
+      "to lecture"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Universität"
+  ],
+  "ipa": "doˈtsiːʁən",
+  "anmerkung": "Regelmäßig (dozierte, doziert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie doziert an der Universität.",
+      "uebersetzung": {
+        "fa": "او در دانشگاه تدریس می‌کند.",
+        "en": "She lectures at the university."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Er dozierte beim Abendessen so lange über Wein, dass sich die anderen Gäste langweilten.",
+      "uebersetzung": {
+        "fa": "سر شام آن‌قدر درباره‌ی شراب سخنرانی کرد که مهمان‌های دیگر حوصله‌شان سر رفت.",
+        "en": "At dinner he lectured on wine for so long that the other guests got bored."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "lehren",
+      "uebersetzung": {
+        "fa": "تدریس کردن",
+        "en": "to teach"
+      }
+    },
+    {
+      "wort": "unterrichten",
+      "uebersetzung": {
+        "fa": "درس دادن",
+        "en": "to teach"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. docere (آموختن)",
+    "en": "Latin docere (to teach)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "über + Akk dozieren",
+        "bedeutung": "ausführlich und belehrend über ein Thema sprechen",
+        "beispiel": "Der Professor doziert über Geschichte.",
+        "uebersetzung": {
+          "fa": "استاد درباره‌ی تاریخ درس می‌دهد.",
+          "en": "The professor lectures on history."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "dozieren",
+      "praeteritum": "dozierte",
+      "partizip2": "doziert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "doziere",
+        "du": "dozierst",
+        "er_sie_es": "doziert",
+        "wir": "dozieren",
+        "ihr": "doziert",
+        "sie_Sie": "dozieren"
+      },
+      "praeteritum": {
+        "ich": "dozierte",
+        "du": "doziertest",
+        "er_sie_es": "dozierte",
+        "wir": "dozierten",
+        "ihr": "doziertet",
+        "sie_Sie": "dozierten"
+      },
+      "konjunktiv1": {
+        "ich": "doziere",
+        "du": "dozierest",
+        "er_sie_es": "doziere",
+        "wir": "dozieren",
+        "ihr": "dozieret",
+        "sie_Sie": "dozieren"
+      },
+      "konjunktiv2": {
+        "ich": "dozierte",
+        "du": "doziertest",
+        "er_sie_es": "dozierte",
+        "wir": "dozierten",
+        "ihr": "doziertet",
+        "sie_Sie": "dozierten"
+      },
+      "imperativ": {
+        "du": "Doziere!",
+        "ihr": "Doziert!",
+        "Sie": "Dozieren Sie!"
+      }
+    },
+    "partizip1": "dozierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Dozent",
+    "woerter": [
+      {
+        "wort": "lehren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تدریس کردن",
+          "en": "to teach"
+        },
+        "id_ref": "verb_lehren"
+      },
+      {
+        "wort": "die Universität",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دانشگاه",
+          "en": "university"
+        },
+        "id_ref": "nomen_universitaet"
+      },
+      {
+        "wort": "der Dozent",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مدرس دانشگاه",
+          "en": "lecturer"
+        },
+        "id_ref": "nomen_dozent"
+      },
+      {
+        "wort": "die Vorlesung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کلاس درس دانشگاه",
+          "en": "lecture"
+        },
+        "id_ref": "nomen_vorlesung"
+      },
+      {
+        "wort": "der Professor",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "استاد",
+          "en": "professor"
+        },
+        "id_ref": "nomen_professor"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

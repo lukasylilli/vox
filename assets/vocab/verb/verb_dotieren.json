@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_dotieren",
+  "wort": "dotieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جایزه یا حقوق تعیین کردن"
+    ],
+    "en": [
+      "to endow",
+      "to remunerate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Geld"
+  ],
+  "ipa": "doˈtiːʁən",
+  "anmerkung": "Regelmäßig (dotierte, dotiert). Meist im Passiv/Partizip: «Der Preis ist mit … Euro dotiert».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Stiftung dotiert den Preis.",
+      "uebersetzung": {
+        "fa": "بنیاد مبلغ جایزه را تأمین می‌کند.",
+        "en": "The foundation endows the prize."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Stelle ist gut dotiert, deshalb haben sich über hundert Menschen beworben.",
+      "uebersetzung": {
+        "fa": "حقوق این شغل خوب است، به همین دلیل بیش از صد نفر درخواست دادند.",
+        "en": "The position is well paid, which is why over a hundred people applied."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausstatten",
+      "uebersetzung": {
+        "fa": "تجهیز کردن",
+        "en": "to equip"
+      }
+    },
+    {
+      "wort": "vergüten",
+      "uebersetzung": {
+        "fa": "دستمزد دادن",
+        "en": "to remunerate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. dotare (جهیزیه دادن)",
+    "en": "Latin dotare (to endow)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas mit + Dat dotieren",
+        "bedeutung": "etwas mit einer Geldsumme ausstatten",
+        "beispiel": "Der Wettbewerb ist mit 5000 Euro dotiert.",
+        "uebersetzung": {
+          "fa": "جایزه‌ی این مسابقه ۵۰۰۰ یورو است.",
+          "en": "The competition carries a prize of 5,000 euros."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "dotieren",
+      "praeteritum": "dotierte",
+      "partizip2": "dotiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "dotiere",
+        "du": "dotierst",
+        "er_sie_es": "dotiert",
+        "wir": "dotieren",
+        "ihr": "dotiert",
+        "sie_Sie": "dotieren"
+      },
+      "praeteritum": {
+        "ich": "dotierte",
+        "du": "dotiertest",
+        "er_sie_es": "dotierte",
+        "wir": "dotierten",
+        "ihr": "dotiertet",
+        "sie_Sie": "dotierten"
+      },
+      "konjunktiv1": {
+        "ich": "dotiere",
+        "du": "dotierest",
+        "er_sie_es": "dotiere",
+        "wir": "dotieren",
+        "ihr": "dotieret",
+        "sie_Sie": "dotieren"
+      },
+      "konjunktiv2": {
+        "ich": "dotierte",
+        "du": "dotiertest",
+        "er_sie_es": "dotierte",
+        "wir": "dotierten",
+        "ihr": "dotiertet",
+        "sie_Sie": "dotierten"
+      },
+      "imperativ": {
+        "du": "Dotiere!",
+        "ihr": "Dotiert!",
+        "Sie": "Dotieren Sie!"
+      }
+    },
+    "partizip1": "dotierend",
+    "nominalisierung": "die Dotierung"
+  },
+  "wortnetz": {
+    "grundwort": "Dotierung",
+    "woerter": [
+      {
+        "wort": "der Preis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جایزه، قیمت",
+          "en": "prize, price"
+        },
+        "id_ref": "nomen_preis"
+      },
+      {
+        "wort": "das Gehalt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حقوق",
+          "en": "salary"
+        },
+        "id_ref": "nomen_gehalt"
+      },
+      {
+        "wort": "die Stelle",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شغل، جایگاه",
+          "en": "position"
+        },
+        "id_ref": "nomen_stelle"
+      },
+      {
+        "wort": "vergüten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دستمزد دادن",
+          "en": "to remunerate"
+        },
+        "id_ref": "verb_vergueten"
+      },
+      {
+        "wort": "die Stiftung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بنیاد",
+          "en": "foundation"
+        },
+        "id_ref": "nomen_stiftung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

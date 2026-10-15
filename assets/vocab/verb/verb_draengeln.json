@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_draengeln",
+  "wort": "drängeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "هل دادن (در شلوغی)",
+      "اصرار کردن"
+    ],
+    "en": [
+      "to push",
+      "to jostle",
+      "to pester"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈdʁɛŋl̩n",
+  "anmerkung": "Regelmäßig (drängelte, gedrängelt). Auch reflexiv: sich nach vorn drängeln.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte nicht drängeln!",
+      "uebersetzung": {
+        "fa": "لطفاً هل ندهید!",
+        "en": "Please don't push!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "An der Kasse drängelte sich ein Mann nach vorn, obwohl alle anderen schon lange warteten.",
+      "uebersetzung": {
+        "fa": "دم صندوق مردی خودش را به جلو هل داد، با اینکه بقیه مدت‌ها منتظر بودند.",
+        "en": "At the checkout a man pushed his way to the front although everyone else had been waiting for a long time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schubsen",
+      "uebersetzung": {
+        "fa": "هل دادن",
+        "en": "to shove"
+      }
+    },
+    {
+      "wort": "drängen",
+      "uebersetzung": {
+        "fa": "فشار آوردن",
+        "en": "to press"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "drängen (فشار آوردن) + -eln",
+    "en": "drängen (to press) + -eln"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich vor + Akk drängeln",
+        "bedeutung": "sich ungeduldig vor andere schieben",
+        "beispiel": "Er drängelt sich vor die anderen.",
+        "uebersetzung": {
+          "fa": "خودش را جلوی بقیه می‌اندازد.",
+          "en": "He pushes in front of the others."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "drängeln",
+      "praeteritum": "drängelte",
+      "partizip2": "gedrängelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "drängle",
+        "du": "drängelst",
+        "er_sie_es": "drängelt",
+        "wir": "drängeln",
+        "ihr": "drängelt",
+        "sie_Sie": "drängeln"
+      },
+      "praeteritum": {
+        "ich": "drängelte",
+        "du": "drängeltest",
+        "er_sie_es": "drängelte",
+        "wir": "drängelten",
+        "ihr": "drängeltet",
+        "sie_Sie": "drängelten"
+      },
+      "konjunktiv1": {
+        "ich": "drängle",
+        "du": "dränglest",
+        "er_sie_es": "drängle",
+        "wir": "drängeln",
+        "ihr": "dränglet",
+        "sie_Sie": "drängeln"
+      },
+      "konjunktiv2": {
+        "ich": "drängelte",
+        "du": "drängeltest",
+        "er_sie_es": "drängelte",
+        "wir": "drängelten",
+        "ihr": "drängeltet",
+        "sie_Sie": "drängelten"
+      },
+      "imperativ": {
+        "du": "Drängle!",
+        "ihr": "Drängelt!",
+        "Sie": "Drängeln Sie!"
+      }
+    },
+    "partizip1": "drängelnd",
+    "nominalisierung": "die Drängelei"
+  },
+  "wortnetz": {
+    "grundwort": "Gedränge",
+    "woerter": [
+      {
+        "wort": "drängen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فشار آوردن",
+          "en": "to press"
+        },
+        "id_ref": "verb_draengen"
+      },
+      {
+        "wort": "warten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "منتظر ماندن",
+          "en": "to wait"
+        },
+        "id_ref": "verb_warten"
+      },
+      {
+        "wort": "die Schlange",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صف",
+          "en": "queue"
+        },
+        "id_ref": "nomen_schlange"
+      },
+      {
+        "wort": "schubsen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "هل دادن",
+          "en": "to shove"
+        },
+        "id_ref": "verb_schubsen"
+      },
+      {
+        "wort": "ungeduldig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بی‌صبر",
+          "en": "impatient"
+        },
+        "id_ref": "adjektiv_ungeduldig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

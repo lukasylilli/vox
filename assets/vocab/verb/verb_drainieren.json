@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_drainieren",
+  "wort": "drainieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "زهکشی کردن",
+      "تخلیه کردن (مایع از زخم)"
+    ],
+    "en": [
+      "to drain"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Bau"
+  ],
+  "ipa": "dʁɛˈniːʁən",
+  "anmerkung": "Regelmäßig (drainierte, drainiert). Auch «dränieren» geschrieben.",
+  "berufe": [
+    "pflege_medizin",
+    "bau"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Arzt drainiert die Wunde.",
+      "uebersetzung": {
+        "fa": "پزشک ترشح زخم را تخلیه می‌کند.",
+        "en": "The doctor drains the wound."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor das Haus gebaut wurde, musste man den nassen Boden drainieren, damit kein Wasser in den Keller läuft.",
+      "uebersetzung": {
+        "fa": "پیش از ساختن خانه باید زمین خیس را زهکشی می‌کردند تا آب به زیرزمین نرود.",
+        "en": "Before the house was built, the wet ground had to be drained so that no water would run into the cellar."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "entwässern",
+      "uebersetzung": {
+        "fa": "زهکشی کردن",
+        "en": "to drain"
+      }
+    },
+    {
+      "wort": "ableiten",
+      "uebersetzung": {
+        "fa": "منحرف کردن (آب)",
+        "en": "to divert"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "frz. drainer ← engl. to drain (زهکشی کردن)",
+    "en": "French drainer ← English to drain"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "drainieren",
+      "praeteritum": "drainierte",
+      "partizip2": "drainiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "drainiere",
+        "du": "drainierst",
+        "er_sie_es": "drainiert",
+        "wir": "drainieren",
+        "ihr": "drainiert",
+        "sie_Sie": "drainieren"
+      },
+      "praeteritum": {
+        "ich": "drainierte",
+        "du": "drainiertest",
+        "er_sie_es": "drainierte",
+        "wir": "drainierten",
+        "ihr": "drainiertet",
+        "sie_Sie": "drainierten"
+      },
+      "konjunktiv1": {
+        "ich": "drainiere",
+        "du": "drainierest",
+        "er_sie_es": "drainiere",
+        "wir": "drainieren",
+        "ihr": "drainieret",
+        "sie_Sie": "drainieren"
+      },
+      "konjunktiv2": {
+        "ich": "drainierte",
+        "du": "drainiertest",
+        "er_sie_es": "drainierte",
+        "wir": "drainierten",
+        "ihr": "drainiertet",
+        "sie_Sie": "drainierten"
+      },
+      "imperativ": {
+        "du": "Drainiere!",
+        "ihr": "Drainiert!",
+        "Sie": "Drainieren Sie!"
+      }
+    },
+    "partizip1": "drainierend",
+    "nominalisierung": "die Drainage"
+  },
+  "wortnetz": {
+    "grundwort": "Drainage",
+    "woerter": [
+      {
+        "wort": "das Wasser",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب",
+          "en": "water"
+        },
+        "id_ref": "nomen_wasser"
+      },
+      {
+        "wort": "die Wunde",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زخم",
+          "en": "wound"
+        },
+        "id_ref": "nomen_wunde"
+      },
+      {
+        "wort": "ableiten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "منحرف کردن",
+          "en": "to divert"
+        },
+        "id_ref": "verb_ableiten"
+      },
+      {
+        "wort": "entwässern",
+        "wortart": "verb",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "زهکشی کردن",
+          "en": "to drain"
+        },
+        "id_ref": "verb_entwaessern"
+      },
+      {
+        "wort": "die Drainage",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "زهکش",
+          "en": "drainage"
+        },
+        "id_ref": "nomen_drainage"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
