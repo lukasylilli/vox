@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_jaeten",
+  "wort": "jäten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "وجین کردن",
+      "علف هرز کندن"
+    ],
+    "en": [
+      "to weed"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Garten",
+    "Natur"
+  ],
+  "ipa": "ˈjɛːtn̩",
+  "anmerkung": "Regelmäßig (jätete, gejätet).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Oma jätet im Garten.",
+      "uebersetzung": {
+        "fa": "مادربزرگ در باغچه علف هرز می‌کند.",
+        "en": "Grandma is weeding in the garden."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wer im Sommer nicht regelmäßig Unkraut jätet, hat bald keine Gemüsebeete mehr.",
+      "uebersetzung": {
+        "fa": "کسی که تابستان مرتب علف هرز نکند، به زودی دیگر کرت سبزی ندارد.",
+        "en": "Anyone who does not weed regularly in summer will soon have no vegetable beds left."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausreißen",
+      "uebersetzung": {
+        "fa": "کندن",
+        "en": "to pull out"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "pflanzen",
+      "uebersetzung": {
+        "fa": "کاشتن",
+        "en": "to plant"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "Unkraut (Akk) jäten",
+        "bedeutung": "unerwünschte Pflanzen entfernen",
+        "beispiel": "Am Samstag jäten wir das Unkraut zwischen den Rosen.",
+        "uebersetzung": {
+          "fa": "شنبه علف‌های هرز بین گل‌های رز را می‌کنیم.",
+          "en": "On Saturday we weed between the roses."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "jäten",
+      "praeteritum": "jätete",
+      "partizip2": "gejätet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "jäte",
+        "du": "jätest",
+        "er_sie_es": "jätet",
+        "wir": "jäten",
+        "ihr": "jätet",
+        "sie_Sie": "jäten"
+      },
+      "praeteritum": {
+        "ich": "jätete",
+        "du": "jätetest",
+        "er_sie_es": "jätete",
+        "wir": "jäteten",
+        "ihr": "jätetet",
+        "sie_Sie": "jäteten"
+      },
+      "konjunktiv1": {
+        "ich": "jäte",
+        "du": "jätest",
+        "er_sie_es": "jäte",
+        "wir": "jäten",
+        "ihr": "jätet",
+        "sie_Sie": "jäten"
+      },
+      "konjunktiv2": {
+        "ich": "jätete",
+        "du": "jätetest",
+        "er_sie_es": "jätete",
+        "wir": "jäteten",
+        "ihr": "jätetet",
+        "sie_Sie": "jäteten"
+      },
+      "imperativ": {
+        "du": "Jäte!",
+        "ihr": "Jätet!",
+        "Sie": "Jäten Sie!"
+      }
+    },
+    "partizip1": "jätend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Unkraut",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "علف هرز",
+          "en": "weed"
+        },
+        "id_ref": "nomen_unkraut"
+      },
+      {
+        "wort": "der Garten",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باغچه",
+          "en": "garden"
+        },
+        "id_ref": "nomen_garten"
+      },
+      {
+        "wort": "das Beet",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کرت",
+          "en": "flower bed"
+        },
+        "id_ref": "nomen_beet"
+      },
+      {
+        "wort": "pflanzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کاشتن",
+          "en": "to plant"
+        },
+        "id_ref": "verb_pflanzen"
+      },
+      {
+        "wort": "gießen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آب دادن",
+          "en": "to water"
+        },
+        "id_ref": "verb_giessen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

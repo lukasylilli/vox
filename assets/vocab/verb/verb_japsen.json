@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_japsen",
+  "wort": "japsen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نفس‌نفس زدن",
+      "به سختی نفس کشیدن"
+    ],
+    "en": [
+      "to gasp",
+      "to pant"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Körper",
+    "Gesundheit"
+  ],
+  "ipa": "ˈjapsn̩",
+  "anmerkung": "Regelmäßig (japste, gejapst). Umgangssprachlich, besonders norddeutsch.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Nach dem Lauf japst er.",
+      "uebersetzung": {
+        "fa": "بعد از دویدن نفس‌نفس می‌زند.",
+        "en": "After the run he is gasping."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als sie oben im fünften Stock ankam, japste sie nach Luft, weil der Aufzug kaputt war.",
+      "uebersetzung": {
+        "fa": "وقتی به طبقه‌ی پنجم رسید، نفس‌نفس می‌زد، چون آسانسور خراب بود.",
+        "en": "When she reached the fifth floor she was gasping for air because the lift was broken."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "keuchen",
+      "uebersetzung": {
+        "fa": "نفس‌نفس زدن",
+        "en": "to pant"
+      }
+    },
+    {
+      "wort": "schnaufen",
+      "uebersetzung": {
+        "fa": "نفس‌نفس زدن",
+        "en": "to puff"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "nach Luft (Dat) japsen",
+        "bedeutung": "mühsam versuchen, Luft zu bekommen",
+        "beispiel": "Der Schwimmer tauchte auf und japste nach Luft.",
+        "uebersetzung": {
+          "fa": "شناگر بالا آمد و برای هوا نفس‌نفس زد.",
+          "en": "The swimmer surfaced and gasped for air."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "japsen",
+      "praeteritum": "japste",
+      "partizip2": "gejapst"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "japse",
+        "du": "japst",
+        "er_sie_es": "japst",
+        "wir": "japsen",
+        "ihr": "japst",
+        "sie_Sie": "japsen"
+      },
+      "praeteritum": {
+        "ich": "japste",
+        "du": "japstest",
+        "er_sie_es": "japste",
+        "wir": "japsten",
+        "ihr": "japstet",
+        "sie_Sie": "japsten"
+      },
+      "konjunktiv1": {
+        "ich": "japse",
+        "du": "japsest",
+        "er_sie_es": "japse",
+        "wir": "japsen",
+        "ihr": "japset",
+        "sie_Sie": "japsen"
+      },
+      "konjunktiv2": {
+        "ich": "japste",
+        "du": "japstest",
+        "er_sie_es": "japste",
+        "wir": "japsten",
+        "ihr": "japstet",
+        "sie_Sie": "japsten"
+      },
+      "imperativ": {
+        "du": "Japse!",
+        "ihr": "Japst!",
+        "Sie": "Japsen Sie!"
+      }
+    },
+    "partizip1": "japsend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "keuchen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نفس‌نفس زدن",
+          "en": "to pant"
+        },
+        "id_ref": "verb_keuchen"
+      },
+      {
+        "wort": "atmen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نفس کشیدن",
+          "en": "to breathe"
+        },
+        "id_ref": "verb_atmen"
+      },
+      {
+        "wort": "die Luft",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "هوا",
+          "en": "air"
+        },
+        "id_ref": "nomen_luft"
+      },
+      {
+        "wort": "der Atem",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نفس",
+          "en": "breath"
+        },
+        "id_ref": "nomen_atem"
+      },
+      {
+        "wort": "schnaufen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نفس‌نفس زدن",
+          "en": "to puff"
+        },
+        "id_ref": "verb_schnaufen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
