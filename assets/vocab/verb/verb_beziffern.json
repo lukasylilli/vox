@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_beziffern",
+  "wort": "beziffern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "برآورد کردن (به عدد)",
+      "شماره‌گذاری کردن"
+    ],
+    "en": [
+      "to estimate",
+      "to put a figure on",
+      "to number"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wirtschaft",
+    "Zahlen"
+  ],
+  "ipa": "bəˈt͡sɪfɐn",
+  "anmerkung": "Untrennbar, regelmäßig (bezifferte, beziffert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Schaden ist schwer zu beziffern.",
+      "uebersetzung": {
+        "fa": "میزان خسارت را سخت می‌شود به عدد گفت.",
+        "en": "The damage is hard to put a figure on."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Firma beziffert ihre Verluste auf zwei Millionen Euro, weil viele Kunden abgesprungen sind.",
+      "uebersetzung": {
+        "fa": "شرکت ضررهایش را دو میلیون یورو برآورد می‌کند، چون مشتری‌های زیادی رفته‌اند.",
+        "en": "The company puts its losses at two million euros because many customers have left."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schätzen",
+      "uebersetzung": {
+        "fa": "تخمین زدن",
+        "en": "to estimate"
+      }
+    },
+    {
+      "wort": "angeben",
+      "uebersetzung": {
+        "fa": "اعلام کردن",
+        "en": "to state"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Ziffer (رقم) + -n",
+    "en": "be- + Ziffer (digit) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas auf + Akk beziffern",
+        "bedeutung": "den Wert oder die Menge von etwas in einer Zahl angeben",
+        "beispiel": "Die Polizei beziffert den Schaden auf 10.000 Euro.",
+        "uebersetzung": {
+          "fa": "پلیس خسارت را ده هزار یورو برآورد می‌کند.",
+          "en": "The police put the damage at 10,000 euros."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "beziffern",
+      "praeteritum": "bezifferte",
+      "partizip2": "beziffert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "beziffere",
+        "du": "bezifferst",
+        "er_sie_es": "beziffert",
+        "wir": "beziffern",
+        "ihr": "beziffert",
+        "sie_Sie": "beziffern"
+      },
+      "praeteritum": {
+        "ich": "bezifferte",
+        "du": "beziffertest",
+        "er_sie_es": "bezifferte",
+        "wir": "bezifferten",
+        "ihr": "beziffertet",
+        "sie_Sie": "bezifferten"
+      },
+      "konjunktiv1": {
+        "ich": "beziffere",
+        "du": "bezifferest",
+        "er_sie_es": "beziffere",
+        "wir": "beziffern",
+        "ihr": "bezifferet",
+        "sie_Sie": "beziffern"
+      },
+      "konjunktiv2": {
+        "ich": "bezifferte",
+        "du": "beziffertest",
+        "er_sie_es": "bezifferte",
+        "wir": "bezifferten",
+        "ihr": "beziffertet",
+        "sie_Sie": "bezifferten"
+      },
+      "imperativ": {
+        "du": "Beziffere!",
+        "ihr": "Beziffert!",
+        "Sie": "Beziffern Sie!"
+      }
+    },
+    "partizip1": "beziffernd",
+    "nominalisierung": "die Bezifferung"
+  },
+  "wortnetz": {
+    "grundwort": "Ziffer",
+    "woerter": [
+      {
+        "wort": "die Zahl",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عدد",
+          "en": "number"
+        },
+        "id_ref": "nomen_zahl"
+      },
+      {
+        "wort": "schätzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تخمین زدن",
+          "en": "to estimate"
+        },
+        "id_ref": "verb_schaetzen"
+      },
+      {
+        "wort": "berechnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "محاسبه کردن",
+          "en": "to calculate"
+        },
+        "id_ref": "verb_berechnen"
+      },
+      {
+        "wort": "der Schaden",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خسارت",
+          "en": "damage"
+        },
+        "id_ref": "nomen_schaden"
+      },
+      {
+        "wort": "der Betrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مبلغ",
+          "en": "amount"
+        },
+        "id_ref": "nomen_betrag"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

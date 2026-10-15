@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_bezwecken",
+  "wort": "bezwecken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "هدف داشتن",
+      "قصد داشتن"
+    ],
+    "en": [
+      "to aim at",
+      "to intend"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Planung",
+    "Kommunikation"
+  ],
+  "ipa": "bəˈt͡svɛkn̩",
+  "anmerkung": "Untrennbar, regelmäßig (bezweckte, bezweckt).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Was bezweckst du damit?",
+      "uebersetzung": {
+        "fa": "از این کار چه قصدی داری؟",
+        "en": "What are you trying to achieve with that?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Mit der neuen Regel bezweckt die Schule, dass die Kinder weniger Zeit am Handy verbringen.",
+      "uebersetzung": {
+        "fa": "مدرسه با این قانون جدید هدفش این است که بچه‌ها وقت کمتری با گوشی بگذرانند.",
+        "en": "With the new rule, the school aims for the children to spend less time on their phones."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beabsichtigen",
+      "uebersetzung": {
+        "fa": "قصد داشتن",
+        "en": "to intend"
+      }
+    },
+    {
+      "wort": "anstreben",
+      "uebersetzung": {
+        "fa": "در پی چیزی بودن",
+        "en": "to strive for"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "be- + Zweck (هدف) + -en",
+    "en": "be- + Zweck (purpose) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas mit + Dat bezwecken",
+        "bedeutung": "mit einer Handlung ein bestimmtes Ziel verfolgen",
+        "beispiel": "Was bezweckt er mit diesem Brief?",
+        "uebersetzung": {
+          "fa": "او با این نامه چه هدفی دارد؟",
+          "en": "What is he trying to achieve with this letter?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bezwecken",
+      "praeteritum": "bezweckte",
+      "partizip2": "bezweckt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bezwecke",
+        "du": "bezweckst",
+        "er_sie_es": "bezweckt",
+        "wir": "bezwecken",
+        "ihr": "bezweckt",
+        "sie_Sie": "bezwecken"
+      },
+      "praeteritum": {
+        "ich": "bezweckte",
+        "du": "bezwecktest",
+        "er_sie_es": "bezweckte",
+        "wir": "bezweckten",
+        "ihr": "bezwecktet",
+        "sie_Sie": "bezweckten"
+      },
+      "konjunktiv1": {
+        "ich": "bezwecke",
+        "du": "bezweckest",
+        "er_sie_es": "bezwecke",
+        "wir": "bezwecken",
+        "ihr": "bezwecket",
+        "sie_Sie": "bezwecken"
+      },
+      "konjunktiv2": {
+        "ich": "bezweckte",
+        "du": "bezwecktest",
+        "er_sie_es": "bezweckte",
+        "wir": "bezweckten",
+        "ihr": "bezwecktet",
+        "sie_Sie": "bezweckten"
+      },
+      "imperativ": {
+        "du": "Bezwecke!",
+        "ihr": "Bezweckt!",
+        "Sie": "Bezwecken Sie!"
+      }
+    },
+    "partizip1": "bezweckend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Zweck",
+    "woerter": [
+      {
+        "wort": "der Zweck",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "هدف، منظور",
+          "en": "purpose"
+        },
+        "id_ref": "nomen_zweck"
+      },
+      {
+        "wort": "das Ziel",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "هدف",
+          "en": "goal"
+        },
+        "id_ref": "nomen_ziel"
+      },
+      {
+        "wort": "erreichen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رسیدن به",
+          "en": "to achieve"
+        },
+        "id_ref": "verb_erreichen"
+      },
+      {
+        "wort": "beabsichtigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قصد داشتن",
+          "en": "to intend"
+        },
+        "id_ref": "verb_beabsichtigen"
+      },
+      {
+        "wort": "planen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برنامه‌ریزی کردن",
+          "en": "to plan"
+        },
+        "id_ref": "verb_planen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
