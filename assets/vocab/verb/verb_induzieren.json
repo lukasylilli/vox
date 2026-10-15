@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_induzieren",
+  "wort": "induzieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "القا کردن",
+      "موجب شدن"
+    ],
+    "en": [
+      "to induce"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wissenschaft",
+    "Medizin"
+  ],
+  "ipa": "ɪnduˈtsiːʁən",
+  "anmerkung": "Regelmäßig (induzierte, induziert).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Magnet induziert Strom.",
+      "uebersetzung": {
+        "fa": "آهنربا جریان برق القا می‌کند.",
+        "en": "The magnet induces a current."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn die Geburt nicht von selbst beginnt, wird sie im Krankenhaus mit Medikamenten induziert.",
+      "uebersetzung": {
+        "fa": "اگر زایمان خودبه‌خود شروع نشود، در بیمارستان با دارو القا می‌شود.",
+        "en": "If labour doesn’t start by itself, it is induced in hospital with medication."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "auslösen",
+      "uebersetzung": {
+        "fa": "موجب شدن",
+        "en": "to trigger"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. inducere (وارد کردن) + -ieren",
+    "en": "lat. inducere (to lead in) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "induzieren",
+      "praeteritum": "induzierte",
+      "partizip2": "induziert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "induziere",
+        "du": "induzierst",
+        "er_sie_es": "induziert",
+        "wir": "induzieren",
+        "ihr": "induziert",
+        "sie_Sie": "induzieren"
+      },
+      "praeteritum": {
+        "ich": "induzierte",
+        "du": "induziertest",
+        "er_sie_es": "induzierte",
+        "wir": "induzierten",
+        "ihr": "induziertet",
+        "sie_Sie": "induzierten"
+      },
+      "konjunktiv1": {
+        "ich": "induziere",
+        "du": "induzierest",
+        "er_sie_es": "induziere",
+        "wir": "induzieren",
+        "ihr": "induzieret",
+        "sie_Sie": "induzieren"
+      },
+      "konjunktiv2": {
+        "ich": "induzierte",
+        "du": "induziertest",
+        "er_sie_es": "induzierte",
+        "wir": "induzierten",
+        "ihr": "induziertet",
+        "sie_Sie": "induzierten"
+      },
+      "imperativ": {
+        "du": "Induziere!",
+        "ihr": "Induziert!",
+        "Sie": "Induzieren Sie!"
+      }
+    },
+    "partizip1": "induzierend",
+    "nominalisierung": "die Induktion"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Strom",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جریان برق",
+          "en": "current"
+        },
+        "id_ref": "nomen_strom"
+      },
+      {
+        "wort": "die Ursache",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "علت",
+          "en": "cause"
+        },
+        "id_ref": "nomen_ursache"
+      },
+      {
+        "wort": "auslösen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "موجب شدن",
+          "en": "to trigger"
+        },
+        "id_ref": "verb_ausloesen"
+      },
+      {
+        "wort": "der Magnet",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آهنربا",
+          "en": "magnet"
+        },
+        "id_ref": "nomen_magnet"
+      },
+      {
+        "wort": "die Induktion",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "القا",
+          "en": "induction"
+        },
+        "id_ref": "nomen_induktion"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

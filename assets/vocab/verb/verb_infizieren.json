@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_infizieren",
+  "wort": "infizieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آلوده کردن",
+      "مبتلا کردن"
+    ],
+    "en": [
+      "to infect"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Computer"
+  ],
+  "ipa": "ɪnfiˈtsiːʁən",
+  "anmerkung": "Regelmäßig (infizierte, infiziert).",
+  "berufe": [
+    "pflege_medizin",
+    "it"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Virus infiziert die Zellen.",
+      "uebersetzung": {
+        "fa": "ویروس سلول‌ها را آلوده می‌کند.",
+        "en": "The virus infects the cells."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ohne es zu merken, hatte sie sich auf der Reise mit einem gefährlichen Erreger infiziert.",
+      "uebersetzung": {
+        "fa": "بی‌آنکه بفهمد، در سفر به یک عامل بیماری‌زای خطرناک مبتلا شده بود.",
+        "en": "Without realizing it, she had been infected with a dangerous pathogen on the journey."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anstecken",
+      "uebersetzung": {
+        "fa": "مبتلا کردن",
+        "en": "to infect"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. inficere (آغشتن، آلوده کردن) + -ieren",
+    "en": "lat. inficere (to taint) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich mit + Dat infizieren",
+        "bedeutung": "von einem Krankheitserreger befallen werden",
+        "beispiel": "Er hat sich mit Grippe infiziert.",
+        "uebersetzung": {
+          "fa": "به آنفولانزا مبتلا شده است.",
+          "en": "He has caught the flu."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "infizieren",
+      "praeteritum": "infizierte",
+      "partizip2": "infiziert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "infiziere",
+        "du": "infizierst",
+        "er_sie_es": "infiziert",
+        "wir": "infizieren",
+        "ihr": "infiziert",
+        "sie_Sie": "infizieren"
+      },
+      "praeteritum": {
+        "ich": "infizierte",
+        "du": "infiziertest",
+        "er_sie_es": "infizierte",
+        "wir": "infizierten",
+        "ihr": "infiziertet",
+        "sie_Sie": "infizierten"
+      },
+      "konjunktiv1": {
+        "ich": "infiziere",
+        "du": "infizierest",
+        "er_sie_es": "infiziere",
+        "wir": "infizieren",
+        "ihr": "infizieret",
+        "sie_Sie": "infizieren"
+      },
+      "konjunktiv2": {
+        "ich": "infizierte",
+        "du": "infiziertest",
+        "er_sie_es": "infizierte",
+        "wir": "infizierten",
+        "ihr": "infiziertet",
+        "sie_Sie": "infizierten"
+      },
+      "imperativ": {
+        "du": "Infiziere!",
+        "ihr": "Infiziert!",
+        "Sie": "Infizieren Sie!"
+      }
+    },
+    "partizip1": "infizierend",
+    "nominalisierung": "die Infektion"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "krank",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "ill"
+        },
+        "id_ref": "adjektiv_krank"
+      },
+      {
+        "wort": "anstecken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مبتلا کردن",
+          "en": "to infect"
+        },
+        "id_ref": "verb_anstecken"
+      },
+      {
+        "wort": "das Virus",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ویروس",
+          "en": "virus"
+        },
+        "id_ref": "nomen_virus"
+      },
+      {
+        "wort": "die Infektion",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عفونت",
+          "en": "infection"
+        },
+        "id_ref": "nomen_infektion"
+      },
+      {
+        "wort": "der Erreger",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "عامل بیماری",
+          "en": "pathogen"
+        },
+        "id_ref": "nomen_erreger"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_inhalieren",
+  "wort": "inhalieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "استنشاق کردن",
+      "بخور دادن"
+    ],
+    "en": [
+      "to inhale"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit"
+  ],
+  "ipa": "ɪnhaˈliːʁən",
+  "anmerkung": "Regelmäßig (inhalierte, inhaliert).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bei Schnupfen inhaliere ich.",
+      "uebersetzung": {
+        "fa": "وقتی آبریزش بینی دارم، بخور می‌دهم.",
+        "en": "When I have a cold I do inhalations."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Arzt riet ihr, zweimal täglich mit Salzwasser zu inhalieren, damit sich der Schleim löst.",
+      "uebersetzung": {
+        "fa": "پزشک به او توصیه کرد روزی دو بار بخور آب‌نمک بدهد تا خلط باز شود.",
+        "en": "The doctor advised her to inhale salt water twice a day to loosen the mucus."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einatmen",
+      "uebersetzung": {
+        "fa": "دم فرو بردن",
+        "en": "to breathe in"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ausatmen",
+      "uebersetzung": {
+        "fa": "بازدم کردن",
+        "en": "to breathe out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. inhalare (دمیدن به) + -ieren",
+    "en": "lat. inhalare (to breathe upon) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "inhalieren",
+      "praeteritum": "inhalierte",
+      "partizip2": "inhaliert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "inhaliere",
+        "du": "inhalierst",
+        "er_sie_es": "inhaliert",
+        "wir": "inhalieren",
+        "ihr": "inhaliert",
+        "sie_Sie": "inhalieren"
+      },
+      "praeteritum": {
+        "ich": "inhalierte",
+        "du": "inhaliertest",
+        "er_sie_es": "inhalierte",
+        "wir": "inhalierten",
+        "ihr": "inhaliertet",
+        "sie_Sie": "inhalierten"
+      },
+      "konjunktiv1": {
+        "ich": "inhaliere",
+        "du": "inhalierest",
+        "er_sie_es": "inhaliere",
+        "wir": "inhalieren",
+        "ihr": "inhalieret",
+        "sie_Sie": "inhalieren"
+      },
+      "konjunktiv2": {
+        "ich": "inhalierte",
+        "du": "inhaliertest",
+        "er_sie_es": "inhalierte",
+        "wir": "inhalierten",
+        "ihr": "inhaliertet",
+        "sie_Sie": "inhalierten"
+      },
+      "imperativ": {
+        "du": "Inhaliere!",
+        "ihr": "Inhaliert!",
+        "Sie": "Inhalieren Sie!"
+      }
+    },
+    "partizip1": "inhalierend",
+    "nominalisierung": "die Inhalation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "atmen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نفس کشیدن",
+          "en": "to breathe"
+        },
+        "id_ref": "verb_atmen"
+      },
+      {
+        "wort": "der Schnupfen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آبریزش بینی",
+          "en": "cold"
+        },
+        "id_ref": "nomen_schnupfen"
+      },
+      {
+        "wort": "einatmen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دم فرو بردن",
+          "en": "to breathe in"
+        },
+        "id_ref": "verb_einatmen"
+      },
+      {
+        "wort": "die Lunge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ریه",
+          "en": "lung"
+        },
+        "id_ref": "nomen_lunge"
+      },
+      {
+        "wort": "der Dampf",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بخار",
+          "en": "steam"
+        },
+        "id_ref": "nomen_dampf"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

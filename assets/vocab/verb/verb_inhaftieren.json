@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_inhaftieren",
+  "wort": "inhaftieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "زندانی کردن",
+      "بازداشت کردن"
+    ],
+    "en": [
+      "to imprison",
+      "to detain"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Politik"
+  ],
+  "ipa": "ɪnhafˈtiːʁən",
+  "anmerkung": "Regelmäßig (inhaftierte, inhaftiert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Polizei inhaftiert den Mann.",
+      "uebersetzung": {
+        "fa": "پلیس مرد را بازداشت می‌کند.",
+        "en": "The police detain the man."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Journalist wurde ohne Prozess inhaftiert, was international große Kritik auslöste.",
+      "uebersetzung": {
+        "fa": "روزنامه‌نگار بدون دادگاه زندانی شد و این در سطح بین‌المللی انتقاد زیادی برانگیخت.",
+        "en": "The journalist was imprisoned without trial, which caused great international criticism."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verhaften",
+      "uebersetzung": {
+        "fa": "دستگیر کردن",
+        "en": "to arrest"
+      }
+    },
+    {
+      "wort": "festnehmen",
+      "uebersetzung": {
+        "fa": "بازداشت کردن",
+        "en": "to detain"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "freilassen",
+      "uebersetzung": {
+        "fa": "آزاد کردن",
+        "en": "to release"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "die Haft (حبس) + in- + -ieren",
+    "en": "die Haft (custody) + in- + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "inhaftieren",
+      "praeteritum": "inhaftierte",
+      "partizip2": "inhaftiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "inhaftiere",
+        "du": "inhaftierst",
+        "er_sie_es": "inhaftiert",
+        "wir": "inhaftieren",
+        "ihr": "inhaftiert",
+        "sie_Sie": "inhaftieren"
+      },
+      "praeteritum": {
+        "ich": "inhaftierte",
+        "du": "inhaftiertest",
+        "er_sie_es": "inhaftierte",
+        "wir": "inhaftierten",
+        "ihr": "inhaftiertet",
+        "sie_Sie": "inhaftierten"
+      },
+      "konjunktiv1": {
+        "ich": "inhaftiere",
+        "du": "inhaftierest",
+        "er_sie_es": "inhaftiere",
+        "wir": "inhaftieren",
+        "ihr": "inhaftieret",
+        "sie_Sie": "inhaftieren"
+      },
+      "konjunktiv2": {
+        "ich": "inhaftierte",
+        "du": "inhaftiertest",
+        "er_sie_es": "inhaftierte",
+        "wir": "inhaftierten",
+        "ihr": "inhaftiertet",
+        "sie_Sie": "inhaftierten"
+      },
+      "imperativ": {
+        "du": "Inhaftiere!",
+        "ihr": "Inhaftiert!",
+        "Sie": "Inhaftieren Sie!"
+      }
+    },
+    "partizip1": "inhaftierend",
+    "nominalisierung": "die Inhaftierung"
+  },
+  "wortnetz": {
+    "grundwort": "Haft",
+    "woerter": [
+      {
+        "wort": "die Polizei",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پلیس",
+          "en": "police"
+        },
+        "id_ref": "nomen_polizei"
+      },
+      {
+        "wort": "das Gefängnis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زندان",
+          "en": "prison"
+        },
+        "id_ref": "nomen_gefaengnis"
+      },
+      {
+        "wort": "verhaften",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دستگیر کردن",
+          "en": "to arrest"
+        },
+        "id_ref": "verb_verhaften"
+      },
+      {
+        "wort": "festnehmen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بازداشت کردن",
+          "en": "to detain"
+        },
+        "id_ref": "verb_festnehmen"
+      },
+      {
+        "wort": "die Haft",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "حبس",
+          "en": "custody"
+        },
+        "id_ref": "nomen_haft"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
