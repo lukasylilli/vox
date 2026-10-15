@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_faulen",
+  "wort": "faulen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پوسیدن",
+      "گندیدن"
+    ],
+    "en": [
+      "to rot",
+      "to decay"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Natur",
+    "Lebensmittel"
+  ],
+  "ipa": "ˈfaʊ̯lən",
+  "anmerkung": "Regelmäßig (faulte, gefault). Perfekt auch mit «haben».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Obst fault schnell.",
+      "uebersetzung": {
+        "fa": "میوه زود می‌گندد.",
+        "en": "The fruit rots quickly."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil die Äpfel zu lange im Keller lagen, sind sie gefault.",
+      "uebersetzung": {
+        "fa": "چون سیب‌ها خیلی زیاد در زیرزمین مانده بودند، گندیدند.",
+        "en": "Because the apples lay in the cellar too long, they rotted."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verfaulen",
+      "uebersetzung": {
+        "fa": "پوسیدن",
+        "en": "to rot"
+      }
+    },
+    {
+      "wort": "verderben",
+      "uebersetzung": {
+        "fa": "فاسد شدن",
+        "en": "to go bad"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "faul (گندیده) + -en",
+    "en": "faul (rotten) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "faulen",
+      "praeteritum": "faulte",
+      "partizip2": "gefault"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "faule",
+        "du": "faulst",
+        "er_sie_es": "fault",
+        "wir": "faulen",
+        "ihr": "fault",
+        "sie_Sie": "faulen"
+      },
+      "praeteritum": {
+        "ich": "faulte",
+        "du": "faultest",
+        "er_sie_es": "faulte",
+        "wir": "faulten",
+        "ihr": "faultet",
+        "sie_Sie": "faulten"
+      },
+      "konjunktiv1": {
+        "ich": "faule",
+        "du": "faulest",
+        "er_sie_es": "faule",
+        "wir": "faulen",
+        "ihr": "faulet",
+        "sie_Sie": "faulen"
+      },
+      "konjunktiv2": {
+        "ich": "faulte",
+        "du": "faultest",
+        "er_sie_es": "faulte",
+        "wir": "faulten",
+        "ihr": "faultet",
+        "sie_Sie": "faulten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "faulend",
+    "nominalisierung": "die Fäulnis"
+  },
+  "wortnetz": {
+    "grundwort": "faul",
+    "woerter": [
+      {
+        "wort": "faul",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گندیده، تنبل",
+          "en": "rotten, lazy"
+        },
+        "id_ref": "adjektiv_faul"
+      },
+      {
+        "wort": "der Schimmel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کپک",
+          "en": "mould"
+        },
+        "id_ref": "nomen_schimmel"
+      },
+      {
+        "wort": "verderben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فاسد شدن",
+          "en": "to go bad"
+        },
+        "id_ref": "verb_verderben"
+      },
+      {
+        "wort": "verfaulen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پوسیدن",
+          "en": "to rot"
+        },
+        "id_ref": "verb_verfaulen"
+      },
+      {
+        "wort": "die Fäulnis",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پوسیدگی",
+          "en": "decay"
+        },
+        "id_ref": "nomen_faeulnis"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
