@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_geizen",
+  "wort": "geizen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خسیس بودن",
+      "دریغ کردن"
+    ],
+    "en": [
+      "to be stingy",
+      "to skimp"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Geld",
+    "Charakter"
+  ],
+  "ipa": "ˈɡaɪ̯tsn̩",
+  "anmerkung": "Regelmäßig (geizte, gegeizt).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er geizt mit jedem Cent.",
+      "uebersetzung": {
+        "fa": "سر هر سنت خساست می‌کند.",
+        "en": "He is stingy with every cent."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Kritiker geizten nicht mit Lob, als der junge Regisseur seinen ersten Film zeigte.",
+      "uebersetzung": {
+        "fa": "وقتی کارگردان جوان اولین فیلمش را نشان داد، منتقدان از تعریف دریغ نکردند.",
+        "en": "The critics were not sparing with their praise when the young director showed his first film."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sparen",
+      "uebersetzung": {
+        "fa": "پس‌انداز کردن",
+        "en": "to save"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verschwenden",
+      "uebersetzung": {
+        "fa": "هدر دادن",
+        "en": "to waste"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "der Geiz (خساست) + -en",
+    "en": "der Geiz (stinginess) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit + Dat geizen",
+        "bedeutung": "etwas nur sehr sparsam geben",
+        "beispiel": "Sie geizt mit ihrer Zeit.",
+        "uebersetzung": {
+          "fa": "با وقتش خساست می‌کند.",
+          "en": "She is stingy with her time."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "geizen",
+      "praeteritum": "geizte",
+      "partizip2": "gegeizt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "geize",
+        "du": "geizt",
+        "er_sie_es": "geizt",
+        "wir": "geizen",
+        "ihr": "geizt",
+        "sie_Sie": "geizen"
+      },
+      "praeteritum": {
+        "ich": "geizte",
+        "du": "geiztest",
+        "er_sie_es": "geizte",
+        "wir": "geizten",
+        "ihr": "geiztet",
+        "sie_Sie": "geizten"
+      },
+      "konjunktiv1": {
+        "ich": "geize",
+        "du": "geizest",
+        "er_sie_es": "geize",
+        "wir": "geizen",
+        "ihr": "geizet",
+        "sie_Sie": "geizen"
+      },
+      "konjunktiv2": {
+        "ich": "geizte",
+        "du": "geiztest",
+        "er_sie_es": "geizte",
+        "wir": "geizten",
+        "ihr": "geiztet",
+        "sie_Sie": "geizten"
+      },
+      "imperativ": {
+        "du": "Geize!",
+        "ihr": "Geizt!",
+        "Sie": "Geizen Sie!"
+      }
+    },
+    "partizip1": "geizend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Geiz",
+    "woerter": [
+      {
+        "wort": "das Geld",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پول",
+          "en": "money"
+        },
+        "id_ref": "nomen_geld"
+      },
+      {
+        "wort": "sparen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پس‌انداز کردن",
+          "en": "to save"
+        },
+        "id_ref": "verb_sparen"
+      },
+      {
+        "wort": "geizig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خسیس",
+          "en": "stingy"
+        },
+        "id_ref": "adjektiv_geizig"
+      },
+      {
+        "wort": "der Geiz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خساست",
+          "en": "stinginess"
+        },
+        "id_ref": "nomen_geiz"
+      },
+      {
+        "wort": "verschwenden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "هدر دادن",
+          "en": "to waste"
+        },
+        "id_ref": "verb_verschwenden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

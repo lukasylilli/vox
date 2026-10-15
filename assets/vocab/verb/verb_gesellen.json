@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_gesellen",
+  "wort": "gesellen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پیوستن"
+    ],
+    "en": [
+      "to join"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Beziehungen"
+  ],
+  "ipa": "ɡəˈzɛlən",
+  "anmerkung": "Regelmäßig (gesellte, gesellt).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er gesellt sich zu uns.",
+      "uebersetzung": {
+        "fa": "به جمع ما می‌پیوندد.",
+        "en": "He joins us."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Zu den finanziellen Sorgen gesellten sich bald auch gesundheitliche Probleme.",
+      "uebersetzung": {
+        "fa": "به نگرانی‌های مالی به‌زودی مشکلات سلامتی هم اضافه شد.",
+        "en": "Health problems soon joined the financial worries."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anschließen",
+      "uebersetzung": {
+        "fa": "پیوستن",
+        "en": "to join"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "der Geselle (همراه) + -n",
+    "en": "der Geselle (companion) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich zu + Dat gesellen",
+        "bedeutung": "sich jemandem anschließen; zu etwas hinzukommen",
+        "beispiel": "Nach dem Essen gesellte sie sich zu den anderen Gästen.",
+        "uebersetzung": {
+          "fa": "بعد از غذا به مهمان‌های دیگر پیوست.",
+          "en": "After the meal she joined the other guests."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "gesellen",
+      "praeteritum": "gesellte",
+      "partizip2": "gesellt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "geselle",
+        "du": "gesellst",
+        "er_sie_es": "gesellt",
+        "wir": "gesellen",
+        "ihr": "gesellt",
+        "sie_Sie": "gesellen"
+      },
+      "praeteritum": {
+        "ich": "gesellte",
+        "du": "geselltest",
+        "er_sie_es": "gesellte",
+        "wir": "gesellten",
+        "ihr": "geselltet",
+        "sie_Sie": "gesellten"
+      },
+      "konjunktiv1": {
+        "ich": "geselle",
+        "du": "gesellest",
+        "er_sie_es": "geselle",
+        "wir": "gesellen",
+        "ihr": "gesellet",
+        "sie_Sie": "gesellen"
+      },
+      "konjunktiv2": {
+        "ich": "gesellte",
+        "du": "geselltest",
+        "er_sie_es": "gesellte",
+        "wir": "gesellten",
+        "ihr": "geselltet",
+        "sie_Sie": "gesellten"
+      },
+      "imperativ": {
+        "du": "Geselle!",
+        "ihr": "Gesellt!",
+        "Sie": "Gesellen Sie!"
+      }
+    },
+    "partizip1": "gesellend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Gruppe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گروه",
+          "en": "group"
+        },
+        "id_ref": "nomen_gruppe"
+      },
+      {
+        "wort": "die Gesellschaft",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جامعه، همنشینی",
+          "en": "society, company"
+        },
+        "id_ref": "nomen_gesellschaft"
+      },
+      {
+        "wort": "anschließen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیوستن",
+          "en": "to join"
+        },
+        "id_ref": "verb_anschliessen"
+      },
+      {
+        "wort": "gesellig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اجتماعی",
+          "en": "sociable"
+        },
+        "id_ref": "adjektiv_gesellig"
+      },
+      {
+        "wort": "der Geselle",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شاگرد کاردان",
+          "en": "journeyman"
+        },
+        "id_ref": "nomen_geselle"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

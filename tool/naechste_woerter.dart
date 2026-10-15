@@ -1656,6 +1656,8 @@ const zurueckgestellt = <String>{
   'gebaren', // zurückgestellt: veraltend/selten («sich gebaren»); Stilmarkierung nicht sicher (Regel 17) 2026-10-15
   'gedeihen', // zurückgestellt: in der regelmäßigen Liste, aber unregelmäßig (gedieh, gediehen); keine Grundkarte für die Formen — nicht sicher (Regel 14) 2026-10-15
   'geifern', // zurückgestellt: gehoben/abwertend (geifern gegen); Stilmarkierung nicht sicher (Regel 17) 2026-10-15
+  'gelüsten', // zurückgestellt: gehoben, unpersönlich («es gelüstet mich nach»); Gebrauch nicht sicher (Regel 14) 2026-10-15
+  'gerieren', // zurückgestellt: bildungssprachlich, selten («sich gerieren als»); Gebrauch nicht sicher (Regel 14) 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_genuegen",
+  "wort": "genügen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کافی بودن"
+    ],
+    "en": [
+      "to be enough",
+      "to suffice"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ɡəˈnyːɡn̩",
+  "anmerkung": "Regelmäßig (genügte, genügt).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das genügt mir.",
+      "uebersetzung": {
+        "fa": "این برایم کافی است.",
+        "en": "That is enough for me."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ein kurzer Anruf genügt, wenn du den Termin absagen möchtest.",
+      "uebersetzung": {
+        "fa": "اگر بخواهی وقت را لغو کنی، یک تماس کوتاه کافی است.",
+        "en": "A short call is enough if you want to cancel the appointment."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "reichen",
+      "uebersetzung": {
+        "fa": "کافی بودن",
+        "en": "to suffice"
+      }
+    },
+    {
+      "wort": "ausreichen",
+      "uebersetzung": {
+        "fa": "کفایت کردن",
+        "en": "to be sufficient"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "genug (کافی) + -en",
+    "en": "genug (enough) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "+ Dat genügen",
+        "bedeutung": "jemandes Anforderungen entsprechen",
+        "beispiel": "Die Arbeit genügt den Anforderungen nicht.",
+        "uebersetzung": {
+          "fa": "این کار با الزامات جور نیست.",
+          "en": "The work does not meet the requirements."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "genügen",
+      "praeteritum": "genügte",
+      "partizip2": "genügt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "genüge",
+        "du": "genügst",
+        "er_sie_es": "genügt",
+        "wir": "genügen",
+        "ihr": "genügt",
+        "sie_Sie": "genügen"
+      },
+      "praeteritum": {
+        "ich": "genügte",
+        "du": "genügtest",
+        "er_sie_es": "genügte",
+        "wir": "genügten",
+        "ihr": "genügtet",
+        "sie_Sie": "genügten"
+      },
+      "konjunktiv1": {
+        "ich": "genüge",
+        "du": "genügest",
+        "er_sie_es": "genüge",
+        "wir": "genügen",
+        "ihr": "genüget",
+        "sie_Sie": "genügen"
+      },
+      "konjunktiv2": {
+        "ich": "genügte",
+        "du": "genügtest",
+        "er_sie_es": "genügte",
+        "wir": "genügten",
+        "ihr": "genügtet",
+        "sie_Sie": "genügten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "genügend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "genug",
+    "woerter": [
+      {
+        "wort": "genug",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کافی",
+          "en": "enough"
+        },
+        "id_ref": "adverb_genug"
+      },
+      {
+        "wort": "reichen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کافی بودن",
+          "en": "to suffice"
+        },
+        "id_ref": "verb_reichen"
+      },
+      {
+        "wort": "ausreichend",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کافی",
+          "en": "sufficient"
+        },
+        "id_ref": "adjektiv_ausreichend"
+      },
+      {
+        "wort": "zufrieden",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "راضی",
+          "en": "satisfied"
+        },
+        "id_ref": "adjektiv_zufrieden"
+      },
+      {
+        "wort": "ausreichen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کفایت کردن",
+          "en": "to be sufficient"
+        },
+        "id_ref": "verb_ausreichen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
