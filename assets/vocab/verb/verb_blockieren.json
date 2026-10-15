@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_blockieren",
+  "wort": "blockieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مسدود کردن",
+      "بلوکه کردن"
+    ],
+    "en": [
+      "to block",
+      "to obstruct",
+      "to jam"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Verkehr",
+    "Technik"
+  ],
+  "ipa": "blɔˈkiːʁən",
+  "anmerkung": "Regelmäßig (blockierte, blockiert). Auch ohne Objekt: Die Räder blockieren.",
+  "berufe": [
+    "it",
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ein Lkw blockiert die Straße.",
+      "uebersetzung": {
+        "fa": "یک کامیون خیابان را بسته است.",
+        "en": "A truck is blocking the road."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Bank hat meine Karte blockiert, weil ich dreimal die falsche PIN eingegeben habe.",
+      "uebersetzung": {
+        "fa": "بانک کارتم را مسدود کرد، چون سه بار رمز را اشتباه وارد کردم.",
+        "en": "The bank blocked my card because I entered the wrong PIN three times."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sperren",
+      "uebersetzung": {
+        "fa": "مسدود کردن",
+        "en": "to block"
+      }
+    },
+    {
+      "wort": "versperren",
+      "uebersetzung": {
+        "fa": "راه را بستن",
+        "en": "to obstruct"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "freigeben",
+      "uebersetzung": {
+        "fa": "آزاد کردن",
+        "en": "to release"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Block (مانع) + -ieren",
+    "en": "Block (obstacle) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "blockieren",
+      "praeteritum": "blockierte",
+      "partizip2": "blockiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "blockiere",
+        "du": "blockierst",
+        "er_sie_es": "blockiert",
+        "wir": "blockieren",
+        "ihr": "blockiert",
+        "sie_Sie": "blockieren"
+      },
+      "praeteritum": {
+        "ich": "blockierte",
+        "du": "blockiertest",
+        "er_sie_es": "blockierte",
+        "wir": "blockierten",
+        "ihr": "blockiertet",
+        "sie_Sie": "blockierten"
+      },
+      "konjunktiv1": {
+        "ich": "blockiere",
+        "du": "blockierest",
+        "er_sie_es": "blockiere",
+        "wir": "blockieren",
+        "ihr": "blockieret",
+        "sie_Sie": "blockieren"
+      },
+      "konjunktiv2": {
+        "ich": "blockierte",
+        "du": "blockiertest",
+        "er_sie_es": "blockierte",
+        "wir": "blockierten",
+        "ihr": "blockiertet",
+        "sie_Sie": "blockierten"
+      },
+      "imperativ": {
+        "du": "Blockiere!",
+        "ihr": "Blockiert!",
+        "Sie": "Blockieren Sie!"
+      }
+    },
+    "partizip1": "blockierend",
+    "nominalisierung": "die Blockierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Block",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بلوک، تکه",
+          "en": "block"
+        },
+        "id_ref": "nomen_block"
+      },
+      {
+        "wort": "sperren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بستن، مسدود کردن",
+          "en": "to block"
+        },
+        "id_ref": "verb_sperren"
+      },
+      {
+        "wort": "die Blockade",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "محاصره، انسداد",
+          "en": "blockade"
+        },
+        "id_ref": "nomen_blockade"
+      },
+      {
+        "wort": "verhindern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جلوگیری کردن",
+          "en": "to prevent"
+        },
+        "id_ref": "verb_verhindern"
+      },
+      {
+        "wort": "der Stau",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترافیک",
+          "en": "traffic jam"
+        },
+        "id_ref": "nomen_stau"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

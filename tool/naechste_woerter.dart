@@ -1600,6 +1600,7 @@ const zurueckgestellt = <String>{
   'bläuen', // zurückgestellt (Regel 14/16): selten; Verwechslung mit «bleuen» (schlagen) 2026-10-15
   'blessieren', // zurückgestellt (Regel 14/16): veraltet, sehr selten (verwunden) 2026-10-15
   'blinkern', // zurückgestellt (Regel 14/16): landschaftlich/selten 2026-10-15
+  'bollern', // zurückgestellt (Regel 14/16): landschaftlich (poltern, dröhnen); Gebrauch nicht sicher 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

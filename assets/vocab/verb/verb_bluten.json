@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_bluten",
+  "wort": "bluten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خون آمدن",
+      "خونریزی کردن"
+    ],
+    "en": [
+      "to bleed"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Gesundheit",
+    "Körper"
+  ],
+  "ipa": "ˈbluːtn̩",
+  "anmerkung": "Regelmäßig (blutete, geblutet).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Meine Nase blutet.",
+      "uebersetzung": {
+        "fa": "دماغم خون می‌آید.",
+        "en": "My nose is bleeding."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Wunde hat stark geblutet, deshalb hat die Pflegerin sofort einen Verband angelegt.",
+      "uebersetzung": {
+        "fa": "زخم شدید خونریزی کرد، برای همین پرستار فوراً پانسمان کرد.",
+        "en": "The wound bled heavily, so the nurse put on a bandage straight away."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Blut (خون) + -en",
+    "en": "Blut (blood) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "aus + Dat bluten",
+        "bedeutung": "aus einer Körperstelle Blut verlieren",
+        "beispiel": "Er blutet aus dem Mund.",
+        "uebersetzung": {
+          "fa": "از دهانش خون می‌آید.",
+          "en": "He is bleeding from the mouth."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bluten",
+      "praeteritum": "blutete",
+      "partizip2": "geblutet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "blute",
+        "du": "blutest",
+        "er_sie_es": "blutet",
+        "wir": "bluten",
+        "ihr": "blutet",
+        "sie_Sie": "bluten"
+      },
+      "praeteritum": {
+        "ich": "blutete",
+        "du": "blutetest",
+        "er_sie_es": "blutete",
+        "wir": "bluteten",
+        "ihr": "blutetet",
+        "sie_Sie": "bluteten"
+      },
+      "konjunktiv1": {
+        "ich": "blute",
+        "du": "blutest",
+        "er_sie_es": "blute",
+        "wir": "bluten",
+        "ihr": "blutet",
+        "sie_Sie": "bluten"
+      },
+      "konjunktiv2": {
+        "ich": "blutete",
+        "du": "blutetest",
+        "er_sie_es": "blutete",
+        "wir": "bluteten",
+        "ihr": "blutetet",
+        "sie_Sie": "bluteten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "blutend",
+    "nominalisierung": "die Blutung"
+  },
+  "wortnetz": {
+    "grundwort": "Blut",
+    "woerter": [
+      {
+        "wort": "das Blut",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خون",
+          "en": "blood"
+        },
+        "id_ref": "nomen_blut"
+      },
+      {
+        "wort": "die Wunde",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زخم",
+          "en": "wound"
+        },
+        "id_ref": "nomen_wunde"
+      },
+      {
+        "wort": "die Blutung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خونریزی",
+          "en": "bleeding"
+        },
+        "id_ref": "nomen_blutung"
+      },
+      {
+        "wort": "verletzen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زخمی کردن",
+          "en": "to injure"
+        },
+        "id_ref": "verb_verletzen"
+      },
+      {
+        "wort": "der Verband",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "باند، پانسمان",
+          "en": "bandage"
+        },
+        "id_ref": "nomen_verband"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,193 @@
+{
+  "schema": "3.0",
+  "id": "verb_bohren",
+  "wort": "bohren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سوراخ کردن (با مته)",
+      "حفر کردن",
+      "اصرار کردن"
+    ],
+    "en": [
+      "to drill",
+      "to bore",
+      "to keep asking"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Handwerk",
+    "Technik"
+  ],
+  "ipa": "ˈboːʁən",
+  "anmerkung": "Regelmäßig (bohrte, gebohrt).",
+  "berufe": [
+    "pflege_medizin",
+    "technik",
+    "bau"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich bohre ein Loch in die Wand.",
+      "uebersetzung": {
+        "fa": "یک سوراخ در دیوار می‌زنم.",
+        "en": "I am drilling a hole in the wall."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Zahnarzt musste bohren, weil ich ein Loch im Zahn hatte.",
+      "uebersetzung": {
+        "fa": "دندانپزشک مجبور شد دریل بزند، چون دندانم سوراخ بود.",
+        "en": "The dentist had to drill because I had a cavity."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "durchbohren",
+      "uebersetzung": {
+        "fa": "سوراخ کردن",
+        "en": "to pierce"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "nach + Dat bohren",
+        "bedeutung": "durch Bohren etwas im Boden suchen",
+        "beispiel": "Die Firma bohrt nach Öl.",
+        "uebersetzung": {
+          "fa": "شرکت برای نفت حفاری می‌کند.",
+          "en": "The company is drilling for oil."
+        }
+      },
+      {
+        "muster": "in + Dat bohren",
+        "bedeutung": "mit dem Finger oder Werkzeug in etwas drehen",
+        "beispiel": "Das Kind bohrt in der Nase.",
+        "uebersetzung": {
+          "fa": "بچه دماغش را می‌کند.",
+          "en": "The child is picking its nose."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bohren",
+      "praeteritum": "bohrte",
+      "partizip2": "gebohrt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bohre",
+        "du": "bohrst",
+        "er_sie_es": "bohrt",
+        "wir": "bohren",
+        "ihr": "bohrt",
+        "sie_Sie": "bohren"
+      },
+      "praeteritum": {
+        "ich": "bohrte",
+        "du": "bohrtest",
+        "er_sie_es": "bohrte",
+        "wir": "bohrten",
+        "ihr": "bohrtet",
+        "sie_Sie": "bohrten"
+      },
+      "konjunktiv1": {
+        "ich": "bohre",
+        "du": "bohrest",
+        "er_sie_es": "bohre",
+        "wir": "bohren",
+        "ihr": "bohret",
+        "sie_Sie": "bohren"
+      },
+      "konjunktiv2": {
+        "ich": "bohrte",
+        "du": "bohrtest",
+        "er_sie_es": "bohrte",
+        "wir": "bohrten",
+        "ihr": "bohrtet",
+        "sie_Sie": "bohrten"
+      },
+      "imperativ": {
+        "du": "Bohre!",
+        "ihr": "Bohrt!",
+        "Sie": "Bohren Sie!"
+      }
+    },
+    "partizip1": "bohrend",
+    "nominalisierung": "die Bohrung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Bohrer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مته",
+          "en": "drill"
+        },
+        "id_ref": "nomen_bohrer"
+      },
+      {
+        "wort": "das Loch",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سوراخ",
+          "en": "hole"
+        },
+        "id_ref": "nomen_loch"
+      },
+      {
+        "wort": "die Wand",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دیوار",
+          "en": "wall"
+        },
+        "id_ref": "nomen_wand"
+      },
+      {
+        "wort": "schrauben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیچ کردن",
+          "en": "to screw"
+        },
+        "id_ref": "verb_schrauben"
+      },
+      {
+        "wort": "nachbohren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پاپی شدن، باز پرسیدن",
+          "en": "to probe"
+        },
+        "id_ref": "verb_nachbohren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
