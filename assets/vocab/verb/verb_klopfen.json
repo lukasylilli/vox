@@ -1,0 +1,196 @@
+{
+  "schema": "3.0",
+  "id": "verb_klopfen",
+  "wort": "klopfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "در زدن",
+      "ضربه زدن، کوبیدن",
+      "تپیدن (قلب)"
+    ],
+    "en": [
+      "to knock",
+      "to tap, to beat",
+      "to pound (heart)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Wohnen"
+  ],
+  "ipa": "ˈklɔpfn̩",
+  "anmerkung": "Unpersönlich: «Es klopft.» (Jemand ist an der Tür.)",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte klopf an die Tür!",
+      "uebersetzung": {
+        "fa": "لطفاً در بزن!",
+        "en": "Please knock on the door!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Mein Herz klopfte laut, als ich auf die Bühne ging.",
+      "uebersetzung": {
+        "fa": "وقتی روی صحنه رفتم، قلبم تند می‌زد.",
+        "en": "My heart was pounding when I went on stage."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "pochen",
+      "uebersetzung": {
+        "fa": "تپیدن؛ کوبیدن",
+        "en": "to throb, to knock"
+      }
+    },
+    {
+      "wort": "schlagen",
+      "uebersetzung": {
+        "fa": "زدن",
+        "en": "to beat"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "klopfen an + Akk",
+        "bedeutung": "mit der Hand mehrmals gegen etwas schlagen",
+        "beispiel": "Er klopft ans Fenster.",
+        "uebersetzung": {
+          "fa": "به پنجره ضربه می‌زند.",
+          "en": "He knocks on the window."
+        }
+      },
+      {
+        "muster": "jdm. auf die Schulter klopfen",
+        "bedeutung": "jemanden loben/ermutigen",
+        "beispiel": "Der Trainer klopfte ihm auf die Schulter.",
+        "uebersetzung": {
+          "fa": "مربی به شانه‌اش زد.",
+          "en": "The coach patted him on the shoulder."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "klopfen",
+      "praeteritum": "klopfte",
+      "partizip2": "geklopft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "klopfe",
+        "du": "klopfst",
+        "er_sie_es": "klopft",
+        "wir": "klopfen",
+        "ihr": "klopft",
+        "sie_Sie": "klopfen"
+      },
+      "praeteritum": {
+        "ich": "klopfte",
+        "du": "klopftest",
+        "er_sie_es": "klopfte",
+        "wir": "klopften",
+        "ihr": "klopftet",
+        "sie_Sie": "klopften"
+      },
+      "konjunktiv1": {
+        "ich": "klopfe",
+        "du": "klopfest",
+        "er_sie_es": "klopfe",
+        "wir": "klopfen",
+        "ihr": "klopfet",
+        "sie_Sie": "klopfen"
+      },
+      "konjunktiv2": {
+        "ich": "klopfte",
+        "du": "klopftest",
+        "er_sie_es": "klopfte",
+        "wir": "klopften",
+        "ihr": "klopftet",
+        "sie_Sie": "klopften"
+      },
+      "imperativ": {
+        "du": "Klopf!",
+        "ihr": "Klopft!",
+        "Sie": "Klopfen Sie!"
+      }
+    },
+    "partizip1": "klopfend",
+    "nominalisierung": "das Klopfen"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Tür",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "در",
+          "en": "door"
+        },
+        "id_ref": "nomen_tuer"
+      },
+      {
+        "wort": "anklopfen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "در زدن",
+          "en": "to knock"
+        },
+        "id_ref": "verb_anklopfen"
+      },
+      {
+        "wort": "das Herz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قلب",
+          "en": "heart"
+        },
+        "id_ref": "nomen_herz"
+      },
+      {
+        "wort": "schlagen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زدن",
+          "en": "to hit"
+        },
+        "id_ref": "verb_schlagen"
+      },
+      {
+        "wort": "pochen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تپیدن",
+          "en": "to throb"
+        },
+        "id_ref": "verb_pochen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

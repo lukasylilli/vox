@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_klonen",
+  "wort": "klonen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شبیه‌سازی کردن (ژنتیکی)",
+      "کپی دقیق گرفتن"
+    ],
+    "en": [
+      "to clone"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft",
+    "Technik"
+  ],
+  "ipa": "ˈkloːnən",
+  "anmerkung": null,
+  "berufe": [
+    "it"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Man kann Schafe klonen.",
+      "uebersetzung": {
+        "fa": "می‌شود گوسفند را شبیه‌سازی کرد.",
+        "en": "Sheep can be cloned."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor du etwas änderst, solltest du das Projekt klonen, damit das Original sicher bleibt.",
+      "uebersetzung": {
+        "fa": "قبل از این‌که چیزی را تغییر بدهی، بهتر است از پروژه یک کپی (clone) بگیری تا نسخه‌ی اصلی امن بماند.",
+        "en": "Before you change anything, you should clone the project so the original stays safe."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kopieren",
+      "uebersetzung": {
+        "fa": "کپی کردن",
+        "en": "to copy"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "der Klon (شبیه‌سازه، کلون) + -en",
+    "en": "der Klon (clone) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "klonen",
+      "praeteritum": "klonte",
+      "partizip2": "geklont"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "klone",
+        "du": "klonst",
+        "er_sie_es": "klont",
+        "wir": "klonen",
+        "ihr": "klont",
+        "sie_Sie": "klonen"
+      },
+      "praeteritum": {
+        "ich": "klonte",
+        "du": "klontest",
+        "er_sie_es": "klonte",
+        "wir": "klonten",
+        "ihr": "klontet",
+        "sie_Sie": "klonten"
+      },
+      "konjunktiv1": {
+        "ich": "klone",
+        "du": "klonest",
+        "er_sie_es": "klone",
+        "wir": "klonen",
+        "ihr": "klonet",
+        "sie_Sie": "klonen"
+      },
+      "konjunktiv2": {
+        "ich": "klonte",
+        "du": "klontest",
+        "er_sie_es": "klonte",
+        "wir": "klonten",
+        "ihr": "klontet",
+        "sie_Sie": "klonten"
+      },
+      "imperativ": {
+        "du": "Klon!",
+        "ihr": "Klont!",
+        "Sie": "Klonen Sie!"
+      }
+    },
+    "partizip1": "klonend",
+    "nominalisierung": "das Klonen"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Klon",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کلون، شبیه‌سازه",
+          "en": "clone"
+        },
+        "id_ref": "nomen_klon"
+      },
+      {
+        "wort": "kopieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کپی کردن",
+          "en": "to copy"
+        },
+        "id_ref": "verb_kopieren"
+      },
+      {
+        "wort": "die Kopie",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کپی",
+          "en": "copy"
+        },
+        "id_ref": "nomen_kopie"
+      },
+      {
+        "wort": "die Gentechnik",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مهندسی ژنتیک",
+          "en": "genetic engineering"
+        },
+        "id_ref": "nomen_gentechnik"
+      },
+      {
+        "wort": "das Original",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نسخه‌ی اصلی",
+          "en": "original"
+        },
+        "id_ref": "nomen_original"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

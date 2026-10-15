@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_kollidieren",
+  "wort": "kollidieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تصادف کردن، برخورد کردن",
+      "تداخل داشتن (زمان، منافع)"
+    ],
+    "en": [
+      "to collide",
+      "to clash"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Verkehr",
+    "Arbeit"
+  ],
+  "ipa": "kɔliˈdiːʁən",
+  "anmerkung": "Perfekt mit «sein» (Fahrzeuge: sind kollidiert); im Sinn «sich überschneiden» auch mit «haben».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Zwei Autos sind kollidiert.",
+      "uebersetzung": {
+        "fa": "دو ماشین با هم تصادف کردند.",
+        "en": "Two cars collided."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Termin kollidiert leider mit meiner Prüfung, deshalb kann ich nicht kommen.",
+      "uebersetzung": {
+        "fa": "متأسفانه این قرار با امتحانم هم‌زمان است، برای همین نمی‌توانم بیایم.",
+        "en": "Unfortunately the appointment clashes with my exam, so I cannot come."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zusammenstoßen",
+      "uebersetzung": {
+        "fa": "به هم خوردن، تصادف کردن",
+        "en": "to collide"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "kollidieren mit + Dat",
+        "bedeutung": "mit etwas zusammenstoßen oder sich überschneiden",
+        "beispiel": "Das Schiff kollidierte mit einem Eisberg.",
+        "uebersetzung": {
+          "fa": "کشتی با یک کوه یخ برخورد کرد.",
+          "en": "The ship collided with an iceberg."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "kollidieren",
+      "praeteritum": "kollidierte",
+      "partizip2": "kollidiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kollidiere",
+        "du": "kollidierst",
+        "er_sie_es": "kollidiert",
+        "wir": "kollidieren",
+        "ihr": "kollidiert",
+        "sie_Sie": "kollidieren"
+      },
+      "praeteritum": {
+        "ich": "kollidierte",
+        "du": "kollidiertest",
+        "er_sie_es": "kollidierte",
+        "wir": "kollidierten",
+        "ihr": "kollidiertet",
+        "sie_Sie": "kollidierten"
+      },
+      "konjunktiv1": {
+        "ich": "kollidiere",
+        "du": "kollidierest",
+        "er_sie_es": "kollidiere",
+        "wir": "kollidieren",
+        "ihr": "kollidieret",
+        "sie_Sie": "kollidieren"
+      },
+      "konjunktiv2": {
+        "ich": "kollidierte",
+        "du": "kollidiertest",
+        "er_sie_es": "kollidierte",
+        "wir": "kollidierten",
+        "ihr": "kollidiertet",
+        "sie_Sie": "kollidierten"
+      },
+      "imperativ": {
+        "du": "Kollidiere!",
+        "ihr": "Kollidiert!",
+        "Sie": "Kollidieren Sie!"
+      }
+    },
+    "partizip1": "kollidierend",
+    "nominalisierung": "die Kollision"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Kollision",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "برخورد",
+          "en": "collision"
+        },
+        "id_ref": "nomen_kollision"
+      },
+      {
+        "wort": "zusammenstoßen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به هم خوردن",
+          "en": "to collide"
+        },
+        "id_ref": "verb_zusammenstossen"
+      },
+      {
+        "wort": "der Unfall",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تصادف",
+          "en": "accident"
+        },
+        "id_ref": "nomen_unfall"
+      },
+      {
+        "wort": "der Termin",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قرار، وقت ملاقات",
+          "en": "appointment"
+        },
+        "id_ref": "nomen_termin"
+      },
+      {
+        "wort": "überschneiden",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "هم‌پوشانی داشتن",
+          "en": "to overlap"
+        },
+        "id_ref": "verb_ueberschneiden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,195 @@
+{
+  "schema": "3.0",
+  "id": "verb_konvertieren",
+  "wort": "konvertieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تغییر دین دادن",
+      "تبدیل کردن (فایل، ارز)"
+    ],
+    "en": [
+      "to convert"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Religion",
+    "Computer"
+  ],
+  "ipa": "kɔnvɛʁˈtiːʁən",
+  "anmerkung": "Perfekt mit «haben» (Daten: hat konvertiert); beim Religionswechsel «haben» oder «sein».",
+  "berufe": [
+    "it"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er konvertiert die Datei.",
+      "uebersetzung": {
+        "fa": "فایل را تبدیل می‌کند.",
+        "en": "He converts the file."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie hat zum Islam konvertiert, nachdem sie lange in Marokko gelebt hatte.",
+      "uebersetzung": {
+        "fa": "او بعد از این‌که مدت زیادی در مراکش زندگی کرده بود، مسلمان شد.",
+        "en": "She converted to Islam after she had lived in Morocco for a long time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "umwandeln",
+      "uebersetzung": {
+        "fa": "تبدیل کردن",
+        "en": "to convert"
+      }
+    },
+    {
+      "wort": "übertreten",
+      "uebersetzung": {
+        "fa": "به دین دیگری گرویدن",
+        "en": "to convert (religion)"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "konvertieren zu + Dat",
+        "bedeutung": "zu einer anderen Religion übertreten",
+        "beispiel": "Er ist zum Christentum konvertiert.",
+        "uebersetzung": {
+          "fa": "او مسیحی شد.",
+          "en": "He converted to Christianity."
+        }
+      },
+      {
+        "muster": "etwas konvertieren in + Akk",
+        "bedeutung": "etwas in ein anderes Format umwandeln",
+        "beispiel": "Konvertiere das Dokument in ein PDF!",
+        "uebersetzung": {
+          "fa": "سند را به PDF تبدیل کن!",
+          "en": "Convert the document into a PDF!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "konvertieren",
+      "praeteritum": "konvertierte",
+      "partizip2": "konvertiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "konvertiere",
+        "du": "konvertierst",
+        "er_sie_es": "konvertiert",
+        "wir": "konvertieren",
+        "ihr": "konvertiert",
+        "sie_Sie": "konvertieren"
+      },
+      "praeteritum": {
+        "ich": "konvertierte",
+        "du": "konvertiertest",
+        "er_sie_es": "konvertierte",
+        "wir": "konvertierten",
+        "ihr": "konvertiertet",
+        "sie_Sie": "konvertierten"
+      },
+      "konjunktiv1": {
+        "ich": "konvertiere",
+        "du": "konvertierest",
+        "er_sie_es": "konvertiere",
+        "wir": "konvertieren",
+        "ihr": "konvertieret",
+        "sie_Sie": "konvertieren"
+      },
+      "konjunktiv2": {
+        "ich": "konvertierte",
+        "du": "konvertiertest",
+        "er_sie_es": "konvertierte",
+        "wir": "konvertierten",
+        "ihr": "konvertiertet",
+        "sie_Sie": "konvertierten"
+      },
+      "imperativ": {
+        "du": "Konvertiere!",
+        "ihr": "Konvertiert!",
+        "Sie": "Konvertieren Sie!"
+      }
+    },
+    "partizip1": "konvertierend",
+    "nominalisierung": "die Konvertierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "umwandeln",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تبدیل کردن",
+          "en": "to convert"
+        },
+        "id_ref": "verb_umwandeln"
+      },
+      {
+        "wort": "die Religion",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دین",
+          "en": "religion"
+        },
+        "id_ref": "nomen_religion"
+      },
+      {
+        "wort": "das Format",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قالب",
+          "en": "format"
+        },
+        "id_ref": "nomen_format"
+      },
+      {
+        "wort": "die Datei",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فایل",
+          "en": "file"
+        },
+        "id_ref": "nomen_datei"
+      },
+      {
+        "wort": "der Konvertit",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "نوکیش",
+          "en": "convert"
+        },
+        "id_ref": "nomen_konvertit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

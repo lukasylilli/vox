@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_koedern",
+  "wort": "ködern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "طعمه گذاشتن، با طعمه گرفتن",
+      "وسوسه کردن، به دام انداختن"
+    ],
+    "en": [
+      "to bait",
+      "to lure"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Wirtschaft"
+  ],
+  "ipa": "ˈkøːdɐn",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er ködert die Fische.",
+      "uebersetzung": {
+        "fa": "با طعمه ماهی‌ها را می‌گیرد.",
+        "en": "He baits the fish."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Mit billigen Angeboten versucht der Laden, neue Kunden zu ködern.",
+      "uebersetzung": {
+        "fa": "فروشگاه با پیشنهادهای ارزان سعی می‌کند مشتری‌های تازه را به دام بیندازد.",
+        "en": "The shop tries to lure new customers with cheap offers."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "locken",
+      "uebersetzung": {
+        "fa": "جلب کردن، وسوسه کردن",
+        "en": "to lure"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "abschrecken",
+      "uebersetzung": {
+        "fa": "رماندن",
+        "en": "to deter"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "der Köder (طعمه) + -n",
+    "en": "der Köder (bait) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jdn. ködern mit + Dat",
+        "bedeutung": "jemanden mit etwas anlocken",
+        "beispiel": "Sie köderten ihn mit einem hohen Gehalt.",
+        "uebersetzung": {
+          "fa": "با حقوق بالا او را وسوسه کردند.",
+          "en": "They lured him with a high salary."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ködern",
+      "praeteritum": "köderte",
+      "partizip2": "geködert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ködere",
+        "du": "köderst",
+        "er_sie_es": "ködert",
+        "wir": "ködern",
+        "ihr": "ködert",
+        "sie_Sie": "ködern"
+      },
+      "praeteritum": {
+        "ich": "köderte",
+        "du": "ködertest",
+        "er_sie_es": "köderte",
+        "wir": "köderten",
+        "ihr": "ködertet",
+        "sie_Sie": "köderten"
+      },
+      "konjunktiv1": {
+        "ich": "ködere",
+        "du": "köderest",
+        "er_sie_es": "ködere",
+        "wir": "ködern",
+        "ihr": "köderet",
+        "sie_Sie": "ködern"
+      },
+      "konjunktiv2": {
+        "ich": "köderte",
+        "du": "ködertest",
+        "er_sie_es": "köderte",
+        "wir": "köderten",
+        "ihr": "ködertet",
+        "sie_Sie": "köderten"
+      },
+      "imperativ": {
+        "du": "Ködere!",
+        "ihr": "Ködert!",
+        "Sie": "Ködern Sie!"
+      }
+    },
+    "partizip1": "ködernd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Köder",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "طعمه",
+          "en": "bait"
+        },
+        "id_ref": "nomen_koeder"
+      },
+      {
+        "wort": "locken",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جلب کردن",
+          "en": "to lure"
+        },
+        "id_ref": "verb_locken"
+      },
+      {
+        "wort": "angeln",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ماهی‌گیری کردن",
+          "en": "to fish"
+        },
+        "id_ref": "verb_angeln"
+      },
+      {
+        "wort": "der Fisch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ماهی",
+          "en": "fish"
+        },
+        "id_ref": "nomen_fisch"
+      },
+      {
+        "wort": "das Angebot",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پیشنهاد، حراج",
+          "en": "offer"
+        },
+        "id_ref": "nomen_angebot"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

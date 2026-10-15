@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_klemmen",
+  "wort": "klemmen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گیر کردن",
+      "لای چیزی گذاشتن / فشردن"
+    ],
+    "en": [
+      "to jam, to stick",
+      "to clamp, to tuck"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Haushalt"
+  ],
+  "ipa": "ˈklɛmən",
+  "anmerkung": "Intransitiv: «Die Tür klemmt.» Transitiv: «etwas unter den Arm klemmen». Reflexiv ugs.: «sich hinter etwas klemmen» (sich anstrengen).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Tür klemmt.",
+      "uebersetzung": {
+        "fa": "در گیر می‌کند.",
+        "en": "The door is stuck."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Sie klemmte die Zeitung unter den Arm, weil sie die Hände frei haben wollte.",
+      "uebersetzung": {
+        "fa": "روزنامه را زیر بغلش زد، چون می‌خواست دست‌هایش آزاد باشد.",
+        "en": "She tucked the newspaper under her arm because she wanted her hands free."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "stecken",
+      "uebersetzung": {
+        "fa": "گیر کردن",
+        "en": "to be stuck"
+      }
+    },
+    {
+      "wort": "einklemmen",
+      "uebersetzung": {
+        "fa": "لای چیزی گیر انداختن",
+        "en": "to pinch, to trap"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "die Klemme (گیره) ⇐ klemmen",
+    "en": "die Klemme (clamp) ⇐ klemmen"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich klemmen hinter + Akk",
+        "bedeutung": "(ugs.) sich intensiv um etwas kümmern",
+        "beispiel": "Ich klemme mich jetzt hinter die Arbeit.",
+        "uebersetzung": {
+          "fa": "حالا جدی می‌چسبم به کار.",
+          "en": "Now I am going to buckle down to the work."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "klemmen",
+      "praeteritum": "klemmte",
+      "partizip2": "geklemmt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "klemme",
+        "du": "klemmst",
+        "er_sie_es": "klemmt",
+        "wir": "klemmen",
+        "ihr": "klemmt",
+        "sie_Sie": "klemmen"
+      },
+      "praeteritum": {
+        "ich": "klemmte",
+        "du": "klemmtest",
+        "er_sie_es": "klemmte",
+        "wir": "klemmten",
+        "ihr": "klemmtet",
+        "sie_Sie": "klemmten"
+      },
+      "konjunktiv1": {
+        "ich": "klemme",
+        "du": "klemmest",
+        "er_sie_es": "klemme",
+        "wir": "klemmen",
+        "ihr": "klemmet",
+        "sie_Sie": "klemmen"
+      },
+      "konjunktiv2": {
+        "ich": "klemmte",
+        "du": "klemmtest",
+        "er_sie_es": "klemmte",
+        "wir": "klemmten",
+        "ihr": "klemmtet",
+        "sie_Sie": "klemmten"
+      },
+      "imperativ": {
+        "du": "Klemm!",
+        "ihr": "Klemmt!",
+        "Sie": "Klemmen Sie!"
+      }
+    },
+    "partizip1": "klemmend",
+    "nominalisierung": "das Klemmen"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Klemme",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گیره",
+          "en": "clamp"
+        },
+        "id_ref": "nomen_klemme"
+      },
+      {
+        "wort": "einklemmen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لای چیزی گیر انداختن",
+          "en": "to trap, to pinch"
+        },
+        "id_ref": "verb_einklemmen"
+      },
+      {
+        "wort": "stecken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گیر کردن؛ فرو کردن",
+          "en": "to be stuck; to put"
+        },
+        "id_ref": "verb_stecken"
+      },
+      {
+        "wort": "festsitzen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گیر افتادن",
+          "en": "to be stuck"
+        },
+        "id_ref": "verb_festsitzen"
+      },
+      {
+        "wort": "die Tür",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "در",
+          "en": "door"
+        },
+        "id_ref": "nomen_tuer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

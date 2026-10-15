@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_knacken",
+  "wort": "knacken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شکستن (پوسته، گردو)",
+      "قرچ‌قرچ صدا دادن",
+      "رمز (چیزی) را شکستن"
+    ],
+    "en": [
+      "to crack",
+      "to creak",
+      "to crack (a code)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Technik"
+  ],
+  "ipa": "ˈknakn̩",
+  "anmerkung": "Umgangssprachlich auch: ein Auto/Schloss knacken (aufbrechen).",
+  "berufe": [
+    "it"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich knacke Nüsse.",
+      "uebersetzung": {
+        "fa": "گردو می‌شکنم.",
+        "en": "I am cracking nuts."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Hacker haben das Passwort geknackt, weil es zu einfach war.",
+      "uebersetzung": {
+        "fa": "هکرها رمز را شکستند، چون خیلی ساده بود.",
+        "en": "The hackers cracked the password because it was too simple."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufbrechen",
+      "uebersetzung": {
+        "fa": "شکستن، به زور باز کردن",
+        "en": "to break open"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "knacken",
+      "praeteritum": "knackte",
+      "partizip2": "geknackt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "knacke",
+        "du": "knackst",
+        "er_sie_es": "knackt",
+        "wir": "knacken",
+        "ihr": "knackt",
+        "sie_Sie": "knacken"
+      },
+      "praeteritum": {
+        "ich": "knackte",
+        "du": "knacktest",
+        "er_sie_es": "knackte",
+        "wir": "knackten",
+        "ihr": "knacktet",
+        "sie_Sie": "knackten"
+      },
+      "konjunktiv1": {
+        "ich": "knacke",
+        "du": "knackest",
+        "er_sie_es": "knacke",
+        "wir": "knacken",
+        "ihr": "knacket",
+        "sie_Sie": "knacken"
+      },
+      "konjunktiv2": {
+        "ich": "knackte",
+        "du": "knacktest",
+        "er_sie_es": "knackte",
+        "wir": "knackten",
+        "ihr": "knacktet",
+        "sie_Sie": "knackten"
+      },
+      "imperativ": {
+        "du": "Knack!",
+        "ihr": "Knackt!",
+        "Sie": "Knacken Sie!"
+      }
+    },
+    "partizip1": "knackend",
+    "nominalisierung": "das Knacken"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Nuss",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گردو، آجیل",
+          "en": "nut"
+        },
+        "id_ref": "nomen_nuss"
+      },
+      {
+        "wort": "das Passwort",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رمز عبور",
+          "en": "password"
+        },
+        "id_ref": "nomen_passwort"
+      },
+      {
+        "wort": "aufbrechen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به زور باز کردن",
+          "en": "to break open"
+        },
+        "id_ref": "verb_aufbrechen"
+      },
+      {
+        "wort": "brechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شکستن",
+          "en": "to break"
+        },
+        "id_ref": "verb_brechen"
+      },
+      {
+        "wort": "der Code",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کد، رمز",
+          "en": "code"
+        },
+        "id_ref": "nomen_code"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

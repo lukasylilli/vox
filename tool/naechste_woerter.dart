@@ -1700,6 +1700,14 @@ const zurueckgestellt = <String>{
   'karessieren', // zurückgestellt: veraltet (liebkosen, schmeicheln); zeitlich/ersatz nicht sicher (Regel 17) 2026-10-15
   'ketzern', // zurückgestellt: selten/veraltet, Gebrauch und Bedeutung nicht sicher (Regel 14) 2026-10-15
   'klamüsern', // zurückgestellt: regional/umgangssprachlich (meist «auseinanderklamüsern»); Gebrauch nicht sicher (Regel 14) 2026-10-15
+  'klimmen', // zurückgestellt: Doppelformen (klomm/geklommen und klimmte/geklimmt) — regelmäßig/unregelmäßig nicht eindeutig (Regel 16) 2026-10-15
+  'klittern', // zurückgestellt: selten, meist «zusammenklittern»; Gebrauch nicht sicher (Regel 14) 2026-10-15
+  'knäueln', // zurückgestellt: sehr selten (meist «sich knäueln»/«zusammenknäueln»); Gebrauch nicht sicher (Regel 14) 2026-10-15
+  'kohlen', // zurückgestellt: zwei Bedeutungen (verkohlen/schwelen; ugs. flunkern) — Hauptbedeutung nicht sicher (Regel 14) 2026-10-15
+  'koksen', // zurückgestellt: mehrere Bedeutungen (Koks herstellen; ugs. Kokain nehmen; ugs. schlafen) — nicht sicher (Regel 14) 2026-10-15
+  'kollern', // zurückgestellt: zwei Bedeutungen/Hilfsverben (kullern = sein; Truthahn-Laut = haben) — nicht sicher (Regel 14) 2026-10-15
+  'kontakten', // zurückgestellt: Fachjargon Werbung/Vertrieb, selten; Gebrauch nicht sicher (Regel 14) 2026-10-15
+  'kontrahieren', // zurückgestellt: mehrere Fachbedeutungen (Medizin: sich zusammenziehen; Recht: Vertrag schließen; Fechten) — nicht sicher (Regel 14) 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

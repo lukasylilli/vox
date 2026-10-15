@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_kodieren",
+  "wort": "kodieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "رمزگذاری کردن، کدگذاری کردن"
+    ],
+    "en": [
+      "to encode"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Computer"
+  ],
+  "ipa": "koˈdiːʁən",
+  "anmerkung": "Auch «codieren» geschrieben.",
+  "berufe": [
+    "it"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Computer kodiert die Daten.",
+      "uebersetzung": {
+        "fa": "کامپیوتر داده‌ها را کدگذاری می‌کند.",
+        "en": "The computer encodes the data."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor die Nachricht verschickt wird, muss sie kodiert werden, damit Fremde sie nicht lesen können.",
+      "uebersetzung": {
+        "fa": "پیش از ارسال پیام باید آن را رمزگذاری کرد تا غریبه‌ها نتوانند آن را بخوانند.",
+        "en": "Before the message is sent, it has to be encoded so that strangers cannot read it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verschlüsseln",
+      "uebersetzung": {
+        "fa": "رمزگذاری کردن",
+        "en": "to encrypt"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "dekodieren",
+      "uebersetzung": {
+        "fa": "رمزگشایی کردن",
+        "en": "to decode"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "der Code (کد) + -ieren",
+    "en": "der Code (code) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "kodieren",
+      "praeteritum": "kodierte",
+      "partizip2": "kodiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kodiere",
+        "du": "kodierst",
+        "er_sie_es": "kodiert",
+        "wir": "kodieren",
+        "ihr": "kodiert",
+        "sie_Sie": "kodieren"
+      },
+      "praeteritum": {
+        "ich": "kodierte",
+        "du": "kodiertest",
+        "er_sie_es": "kodierte",
+        "wir": "kodierten",
+        "ihr": "kodiertet",
+        "sie_Sie": "kodierten"
+      },
+      "konjunktiv1": {
+        "ich": "kodiere",
+        "du": "kodierest",
+        "er_sie_es": "kodiere",
+        "wir": "kodieren",
+        "ihr": "kodieret",
+        "sie_Sie": "kodieren"
+      },
+      "konjunktiv2": {
+        "ich": "kodierte",
+        "du": "kodiertest",
+        "er_sie_es": "kodierte",
+        "wir": "kodierten",
+        "ihr": "kodiertet",
+        "sie_Sie": "kodierten"
+      },
+      "imperativ": {
+        "du": "Kodiere!",
+        "ihr": "Kodiert!",
+        "Sie": "Kodieren Sie!"
+      }
+    },
+    "partizip1": "kodierend",
+    "nominalisierung": "die Kodierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Code",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کد",
+          "en": "code"
+        },
+        "id_ref": "nomen_code"
+      },
+      {
+        "wort": "verschlüsseln",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رمزگذاری کردن",
+          "en": "to encrypt"
+        },
+        "id_ref": "verb_verschluesseln"
+      },
+      {
+        "wort": "dekodieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رمزگشایی کردن",
+          "en": "to decode"
+        },
+        "id_ref": "verb_dekodieren"
+      },
+      {
+        "wort": "die Daten",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "داده‌ها",
+          "en": "data"
+        },
+        "id_ref": "nomen_daten"
+      },
+      {
+        "wort": "programmieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برنامه‌نویسی کردن",
+          "en": "to program"
+        },
+        "id_ref": "verb_programmieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

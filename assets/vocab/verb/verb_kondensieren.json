@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_kondensieren",
+  "wort": "kondensieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "میعان شدن (بخار به مایع)",
+      "غلیظ کردن"
+    ],
+    "en": [
+      "to condense"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft",
+    "Technik"
+  ],
+  "ipa": "kɔndɛnˈziːʁən",
+  "anmerkung": "Perfekt mit «haben» (transitiv); intransitiv auch mit «sein»: «Der Dampf ist kondensiert.»",
+  "berufe": [
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Dampf kondensiert am Fenster.",
+      "uebersetzung": {
+        "fa": "بخار روی پنجره قطره می‌شود.",
+        "en": "The steam condenses on the window."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn warme Luft auf eine kalte Fläche trifft, kondensiert das Wasser darin.",
+      "uebersetzung": {
+        "fa": "وقتی هوای گرم به سطح سرد برخورد می‌کند، آبِ داخل آن میعان می‌شود.",
+        "en": "When warm air meets a cold surface, the water in it condenses."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verdichten",
+      "uebersetzung": {
+        "fa": "متراکم کردن",
+        "en": "to compress"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verdampfen",
+      "uebersetzung": {
+        "fa": "تبخیر شدن",
+        "en": "to evaporate"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Kondensmilch",
+      "uebersetzung": {
+        "fa": "شیر غلیظ‌شده",
+        "en": "condensed milk"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "kondensieren",
+      "praeteritum": "kondensierte",
+      "partizip2": "kondensiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kondensiere",
+        "du": "kondensierst",
+        "er_sie_es": "kondensiert",
+        "wir": "kondensieren",
+        "ihr": "kondensiert",
+        "sie_Sie": "kondensieren"
+      },
+      "praeteritum": {
+        "ich": "kondensierte",
+        "du": "kondensiertest",
+        "er_sie_es": "kondensierte",
+        "wir": "kondensierten",
+        "ihr": "kondensiertet",
+        "sie_Sie": "kondensierten"
+      },
+      "konjunktiv1": {
+        "ich": "kondensiere",
+        "du": "kondensierest",
+        "er_sie_es": "kondensiere",
+        "wir": "kondensieren",
+        "ihr": "kondensieret",
+        "sie_Sie": "kondensieren"
+      },
+      "konjunktiv2": {
+        "ich": "kondensierte",
+        "du": "kondensiertest",
+        "er_sie_es": "kondensierte",
+        "wir": "kondensierten",
+        "ihr": "kondensiertet",
+        "sie_Sie": "kondensierten"
+      },
+      "imperativ": {
+        "du": "Kondensiere!",
+        "ihr": "Kondensiert!",
+        "Sie": "Kondensieren Sie!"
+      }
+    },
+    "partizip1": "kondensierend",
+    "nominalisierung": "die Kondensation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Dampf",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بخار",
+          "en": "steam"
+        },
+        "id_ref": "nomen_dampf"
+      },
+      {
+        "wort": "verdampfen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تبخیر شدن",
+          "en": "to evaporate"
+        },
+        "id_ref": "verb_verdampfen"
+      },
+      {
+        "wort": "das Wasser",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب",
+          "en": "water"
+        },
+        "id_ref": "nomen_wasser"
+      },
+      {
+        "wort": "die Feuchtigkeit",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رطوبت",
+          "en": "humidity"
+        },
+        "id_ref": "nomen_feuchtigkeit"
+      },
+      {
+        "wort": "die Kondensation",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "میعان",
+          "en": "condensation"
+        },
+        "id_ref": "nomen_kondensation"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

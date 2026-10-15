@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_klicken",
+  "wort": "klicken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کلیک کردن",
+      "تق‌تق صدا دادن"
+    ],
+    "en": [
+      "to click"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Computer",
+    "Technik"
+  ],
+  "ipa": "ˈklɪkn̩",
+  "anmerkung": null,
+  "berufe": [
+    "it",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Klick hier!",
+      "uebersetzung": {
+        "fa": "این‌جا کلیک کن!",
+        "en": "Click here!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn du auf den Link klickst, öffnet sich ein neues Fenster.",
+      "uebersetzung": {
+        "fa": "وقتی روی لینک کلیک کنی، یک پنجره‌ی تازه باز می‌شود.",
+        "en": "When you click on the link, a new window opens."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anklicken",
+      "uebersetzung": {
+        "fa": "روی چیزی کلیک کردن",
+        "en": "to click on"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "klicken auf + Akk",
+        "bedeutung": "mit der Maus etwas auswählen",
+        "beispiel": "Klicken Sie auf «Speichern».",
+        "uebersetzung": {
+          "fa": "روی «ذخیره» کلیک کنید.",
+          "en": "Click on \"Save\"."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "klicken",
+      "praeteritum": "klickte",
+      "partizip2": "geklickt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "klicke",
+        "du": "klickst",
+        "er_sie_es": "klickt",
+        "wir": "klicken",
+        "ihr": "klickt",
+        "sie_Sie": "klicken"
+      },
+      "praeteritum": {
+        "ich": "klickte",
+        "du": "klicktest",
+        "er_sie_es": "klickte",
+        "wir": "klickten",
+        "ihr": "klicktet",
+        "sie_Sie": "klickten"
+      },
+      "konjunktiv1": {
+        "ich": "klicke",
+        "du": "klickest",
+        "er_sie_es": "klicke",
+        "wir": "klicken",
+        "ihr": "klicket",
+        "sie_Sie": "klicken"
+      },
+      "konjunktiv2": {
+        "ich": "klickte",
+        "du": "klicktest",
+        "er_sie_es": "klickte",
+        "wir": "klickten",
+        "ihr": "klicktet",
+        "sie_Sie": "klickten"
+      },
+      "imperativ": {
+        "du": "Klick!",
+        "ihr": "Klickt!",
+        "Sie": "Klicken Sie!"
+      }
+    },
+    "partizip1": "klickend",
+    "nominalisierung": "der Klick"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Klick",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کلیک",
+          "en": "click"
+        },
+        "id_ref": "nomen_klick"
+      },
+      {
+        "wort": "anklicken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "روی چیزی کلیک کردن",
+          "en": "to click on"
+        },
+        "id_ref": "verb_anklicken"
+      },
+      {
+        "wort": "die Maus",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ماوس",
+          "en": "mouse"
+        },
+        "id_ref": "nomen_maus"
+      },
+      {
+        "wort": "der Link",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "لینک",
+          "en": "link"
+        },
+        "id_ref": "nomen_link"
+      },
+      {
+        "wort": "der Bildschirm",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صفحه‌ی نمایش",
+          "en": "screen"
+        },
+        "id_ref": "nomen_bildschirm"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

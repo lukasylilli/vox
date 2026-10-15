@@ -1,0 +1,195 @@
+{
+  "schema": "3.0",
+  "id": "verb_knuepfen",
+  "wort": "knüpfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گره زدن، بافتن (فرش)",
+      "برقرار کردن (رابطه)",
+      "منوط کردن به"
+    ],
+    "en": [
+      "to knot, to tie",
+      "to establish (contacts)",
+      "to attach (conditions)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kommunikation",
+    "Handwerk"
+  ],
+  "ipa": "ˈknʏpfn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie knüpft einen Teppich.",
+      "uebersetzung": {
+        "fa": "او فرش می‌بافد.",
+        "en": "She is knotting a carpet."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Auf der Messe konnte er viele neue Kontakte knüpfen, die ihm später halfen.",
+      "uebersetzung": {
+        "fa": "در نمایشگاه توانست ارتباط‌های تازه‌ی زیادی برقرار کند که بعدها به او کمک کردند.",
+        "en": "At the trade fair he was able to make many new contacts that helped him later."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "binden",
+      "uebersetzung": {
+        "fa": "بستن",
+        "en": "to tie"
+      }
+    },
+    {
+      "wort": "herstellen",
+      "uebersetzung": {
+        "fa": "برقرار کردن",
+        "en": "to establish"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "lösen",
+      "uebersetzung": {
+        "fa": "باز کردن",
+        "en": "to untie"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas knüpfen an + Akk",
+        "bedeutung": "etwas von einer Bedingung abhängig machen",
+        "beispiel": "Die Bank knüpft den Kredit an strenge Bedingungen.",
+        "uebersetzung": {
+          "fa": "بانک وام را به شرایط سختی منوط می‌کند.",
+          "en": "The bank attaches strict conditions to the loan."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "knüpfen",
+      "praeteritum": "knüpfte",
+      "partizip2": "geknüpft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "knüpfe",
+        "du": "knüpfst",
+        "er_sie_es": "knüpft",
+        "wir": "knüpfen",
+        "ihr": "knüpft",
+        "sie_Sie": "knüpfen"
+      },
+      "praeteritum": {
+        "ich": "knüpfte",
+        "du": "knüpftest",
+        "er_sie_es": "knüpfte",
+        "wir": "knüpften",
+        "ihr": "knüpftet",
+        "sie_Sie": "knüpften"
+      },
+      "konjunktiv1": {
+        "ich": "knüpfe",
+        "du": "knüpfest",
+        "er_sie_es": "knüpfe",
+        "wir": "knüpfen",
+        "ihr": "knüpfet",
+        "sie_Sie": "knüpfen"
+      },
+      "konjunktiv2": {
+        "ich": "knüpfte",
+        "du": "knüpftest",
+        "er_sie_es": "knüpfte",
+        "wir": "knüpften",
+        "ihr": "knüpftet",
+        "sie_Sie": "knüpften"
+      },
+      "imperativ": {
+        "du": "Knüpfe!",
+        "ihr": "Knüpft!",
+        "Sie": "Knüpfen Sie!"
+      }
+    },
+    "partizip1": "knüpfend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Knoten",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گره",
+          "en": "knot"
+        },
+        "id_ref": "nomen_knoten"
+      },
+      {
+        "wort": "der Kontakt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ارتباط",
+          "en": "contact"
+        },
+        "id_ref": "nomen_kontakt"
+      },
+      {
+        "wort": "der Teppich",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فرش",
+          "en": "carpet"
+        },
+        "id_ref": "nomen_teppich"
+      },
+      {
+        "wort": "die Bedingung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شرط",
+          "en": "condition"
+        },
+        "id_ref": "nomen_bedingung"
+      },
+      {
+        "wort": "verknüpfen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پیوند دادن",
+          "en": "to link"
+        },
+        "id_ref": "verb_verknuepfen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

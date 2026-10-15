@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_kontingentieren",
+  "wort": "kontingentieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سهمیه‌بندی کردن"
+    ],
+    "en": [
+      "to impose a quota on, to ration"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wirtschaft",
+    "Politik"
+  ],
+  "ipa": "kɔntɪŋɡɛnˈtiːʁən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Staat kontingentiert den Import.",
+      "uebersetzung": {
+        "fa": "دولت واردات را سهمیه‌بندی می‌کند.",
+        "en": "The state imposes quotas on imports."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil das Medikament knapp war, wurde es kontingentiert, sodass jede Apotheke nur wenige Packungen bekam.",
+      "uebersetzung": {
+        "fa": "چون دارو کمیاب بود، سهمیه‌بندی شد و هر داروخانه فقط چند بسته گرفت.",
+        "en": "Because the medicine was scarce, it was rationed, so every pharmacy got only a few packs."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rationieren",
+      "uebersetzung": {
+        "fa": "جیره‌بندی کردن",
+        "en": "to ration"
+      }
+    },
+    {
+      "wort": "begrenzen",
+      "uebersetzung": {
+        "fa": "محدود کردن",
+        "en": "to limit"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "freigeben",
+      "uebersetzung": {
+        "fa": "آزاد کردن",
+        "en": "to release"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "das Kontingent (سهمیه) + -ieren",
+    "en": "das Kontingent (quota) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "kontingentieren",
+      "praeteritum": "kontingentierte",
+      "partizip2": "kontingentiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kontingentiere",
+        "du": "kontingentierst",
+        "er_sie_es": "kontingentiert",
+        "wir": "kontingentieren",
+        "ihr": "kontingentiert",
+        "sie_Sie": "kontingentieren"
+      },
+      "praeteritum": {
+        "ich": "kontingentierte",
+        "du": "kontingentiertest",
+        "er_sie_es": "kontingentierte",
+        "wir": "kontingentierten",
+        "ihr": "kontingentiertet",
+        "sie_Sie": "kontingentierten"
+      },
+      "konjunktiv1": {
+        "ich": "kontingentiere",
+        "du": "kontingentierest",
+        "er_sie_es": "kontingentiere",
+        "wir": "kontingentieren",
+        "ihr": "kontingentieret",
+        "sie_Sie": "kontingentieren"
+      },
+      "konjunktiv2": {
+        "ich": "kontingentierte",
+        "du": "kontingentiertest",
+        "er_sie_es": "kontingentierte",
+        "wir": "kontingentierten",
+        "ihr": "kontingentiertet",
+        "sie_Sie": "kontingentierten"
+      },
+      "imperativ": {
+        "du": "Kontingentiere!",
+        "ihr": "Kontingentiert!",
+        "Sie": "Kontingentieren Sie!"
+      }
+    },
+    "partizip1": "kontingentierend",
+    "nominalisierung": "die Kontingentierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Kontingent",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سهمیه",
+          "en": "quota"
+        },
+        "id_ref": "nomen_kontingent"
+      },
+      {
+        "wort": "rationieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "جیره‌بندی کردن",
+          "en": "to ration"
+        },
+        "id_ref": "verb_rationieren"
+      },
+      {
+        "wort": "begrenzen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "محدود کردن",
+          "en": "to limit"
+        },
+        "id_ref": "verb_begrenzen"
+      },
+      {
+        "wort": "die Menge",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مقدار",
+          "en": "quantity"
+        },
+        "id_ref": "nomen_menge"
+      },
+      {
+        "wort": "der Import",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "واردات",
+          "en": "import"
+        },
+        "id_ref": "nomen_import"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

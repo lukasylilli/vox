@@ -1,0 +1,194 @@
+{
+  "schema": "3.0",
+  "id": "verb_klettern",
+  "wort": "klettern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بالا رفتن",
+      "صخره‌نوردی کردن"
+    ],
+    "en": [
+      "to climb",
+      "to go climbing"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Sport",
+    "Freizeit"
+  ],
+  "ipa": "ˈklɛtɐn",
+  "anmerkung": "Perfekt mit «sein» (Bewegung: ist geklettert); als Sportart auch «hat geklettert».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kinder klettern auf den Baum.",
+      "uebersetzung": {
+        "fa": "بچه‌ها از درخت بالا می‌روند.",
+        "en": "The children are climbing the tree."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wir sind auf den Berg geklettert, obwohl das Wetter schlecht war.",
+      "uebersetzung": {
+        "fa": "از کوه بالا رفتیم، با این‌که هوا بد بود.",
+        "en": "We climbed the mountain although the weather was bad."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "steigen",
+      "uebersetzung": {
+        "fa": "بالا رفتن",
+        "en": "to climb, to rise"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "hinabsteigen",
+      "uebersetzung": {
+        "fa": "پایین رفتن",
+        "en": "to climb down"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Kletterwand",
+      "uebersetzung": {
+        "fa": "دیوار صخره‌نوردی",
+        "en": "climbing wall"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "klettern auf + Akk",
+        "bedeutung": "nach oben auf etwas steigen",
+        "beispiel": "Die Katze klettert auf das Dach.",
+        "uebersetzung": {
+          "fa": "گربه روی پشت‌بام می‌رود.",
+          "en": "The cat climbs onto the roof."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "klettern",
+      "praeteritum": "kletterte",
+      "partizip2": "geklettert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "klettere",
+        "du": "kletterst",
+        "er_sie_es": "klettert",
+        "wir": "klettern",
+        "ihr": "klettert",
+        "sie_Sie": "klettern"
+      },
+      "praeteritum": {
+        "ich": "kletterte",
+        "du": "klettertest",
+        "er_sie_es": "kletterte",
+        "wir": "kletterten",
+        "ihr": "klettertet",
+        "sie_Sie": "kletterten"
+      },
+      "konjunktiv1": {
+        "ich": "klettere",
+        "du": "kletterest",
+        "er_sie_es": "klettere",
+        "wir": "klettern",
+        "ihr": "kletteret",
+        "sie_Sie": "klettern"
+      },
+      "konjunktiv2": {
+        "ich": "kletterte",
+        "du": "klettertest",
+        "er_sie_es": "kletterte",
+        "wir": "kletterten",
+        "ihr": "klettertet",
+        "sie_Sie": "kletterten"
+      },
+      "imperativ": {
+        "du": "Klettere!",
+        "ihr": "Klettert!",
+        "Sie": "Klettern Sie!"
+      }
+    },
+    "partizip1": "kletternd",
+    "nominalisierung": "das Klettern"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "steigen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بالا رفتن",
+          "en": "to climb"
+        },
+        "id_ref": "verb_steigen"
+      },
+      {
+        "wort": "der Berg",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کوه",
+          "en": "mountain"
+        },
+        "id_ref": "nomen_berg"
+      },
+      {
+        "wort": "der Baum",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "درخت",
+          "en": "tree"
+        },
+        "id_ref": "nomen_baum"
+      },
+      {
+        "wort": "der Kletterer",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "صخره‌نورد",
+          "en": "climber"
+        },
+        "id_ref": "nomen_kletterer"
+      },
+      {
+        "wort": "die Leiter",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نردبان",
+          "en": "ladder"
+        },
+        "id_ref": "nomen_leiter"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

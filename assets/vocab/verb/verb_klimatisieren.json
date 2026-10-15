@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_klimatisieren",
+  "wort": "klimatisieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تهویه‌ی مطبوع کردن",
+      "مجهز به کولر کردن"
+    ],
+    "en": [
+      "to air-condition"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Wohnen"
+  ],
+  "ipa": "klimatiˈziːʁən",
+  "anmerkung": "Meist im Partizip II: «ein klimatisierter Raum».",
+  "berufe": [
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Büro ist klimatisiert.",
+      "uebersetzung": {
+        "fa": "دفتر کولر دارد.",
+        "en": "The office is air-conditioned."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil es im Sommer sehr heiß wird, will die Firma alle Räume klimatisieren.",
+      "uebersetzung": {
+        "fa": "چون تابستان خیلی گرم می‌شود، شرکت می‌خواهد همه‌ی اتاق‌ها را به کولر مجهز کند.",
+        "en": "Because it gets very hot in summer, the company wants to air-condition all rooms."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kühlen",
+      "uebersetzung": {
+        "fa": "خنک کردن",
+        "en": "to cool"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "heizen",
+      "uebersetzung": {
+        "fa": "گرم کردن",
+        "en": "to heat"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "das Klima (آب‌وهوا) + -isieren",
+    "en": "das Klima (climate) + -isieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "klimatisieren",
+      "praeteritum": "klimatisierte",
+      "partizip2": "klimatisiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "klimatisiere",
+        "du": "klimatisierst",
+        "er_sie_es": "klimatisiert",
+        "wir": "klimatisieren",
+        "ihr": "klimatisiert",
+        "sie_Sie": "klimatisieren"
+      },
+      "praeteritum": {
+        "ich": "klimatisierte",
+        "du": "klimatisiertest",
+        "er_sie_es": "klimatisierte",
+        "wir": "klimatisierten",
+        "ihr": "klimatisiertet",
+        "sie_Sie": "klimatisierten"
+      },
+      "konjunktiv1": {
+        "ich": "klimatisiere",
+        "du": "klimatisierest",
+        "er_sie_es": "klimatisiere",
+        "wir": "klimatisieren",
+        "ihr": "klimatisieret",
+        "sie_Sie": "klimatisieren"
+      },
+      "konjunktiv2": {
+        "ich": "klimatisierte",
+        "du": "klimatisiertest",
+        "er_sie_es": "klimatisierte",
+        "wir": "klimatisierten",
+        "ihr": "klimatisiertet",
+        "sie_Sie": "klimatisierten"
+      },
+      "imperativ": {
+        "du": "Klimatisiere!",
+        "ihr": "Klimatisiert!",
+        "Sie": "Klimatisieren Sie!"
+      }
+    },
+    "partizip1": "klimatisierend",
+    "nominalisierung": "die Klimatisierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Klima",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آب‌وهوا",
+          "en": "climate"
+        },
+        "id_ref": "nomen_klima"
+      },
+      {
+        "wort": "die Klimaanlage",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کولر، دستگاه تهویه",
+          "en": "air conditioning"
+        },
+        "id_ref": "nomen_klimaanlage"
+      },
+      {
+        "wort": "kühlen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خنک کردن",
+          "en": "to cool"
+        },
+        "id_ref": "verb_kuehlen"
+      },
+      {
+        "wort": "die Temperatur",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دما",
+          "en": "temperature"
+        },
+        "id_ref": "nomen_temperatur"
+      },
+      {
+        "wort": "heizen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گرم کردن",
+          "en": "to heat"
+        },
+        "id_ref": "verb_heizen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

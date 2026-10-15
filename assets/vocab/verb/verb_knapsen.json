@@ -1,0 +1,194 @@
+{
+  "schema": "3.0",
+  "id": "verb_knapsen",
+  "wort": "knapsen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "صرفه‌جویی کردن (از سر ناچاری)"
+    ],
+    "en": [
+      "to scrimp, to be short of"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Geld",
+    "Alltag"
+  ],
+  "ipa": "ˈknapsn̩",
+  "anmerkung": "Umgangssprachlich.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir müssen knapsen.",
+      "uebersetzung": {
+        "fa": "باید صرفه‌جویی کنیم.",
+        "en": "We have to scrimp."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Seit er arbeitslos ist, muss die Familie mit jedem Euro knapsen.",
+      "uebersetzung": {
+        "fa": "از وقتی بیکار شده، خانواده باید سر هر یورو صرفه‌جویی کند.",
+        "en": "Since he became unemployed, the family has to scrimp on every euro."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sparen",
+      "uebersetzung": {
+        "fa": "پس‌انداز کردن، صرفه‌جویی کردن",
+        "en": "to save"
+      }
+    },
+    {
+      "wort": "knausern",
+      "uebersetzung": {
+        "fa": "خسیسی کردن",
+        "en": "to skimp"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verschwenden",
+      "uebersetzung": {
+        "fa": "هدر دادن",
+        "en": "to waste"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "knapp (کم، تنگ) + -sen",
+    "en": "knapp (scarce, tight) + -sen"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "knapsen mit + Dat",
+        "bedeutung": "mit etwas sehr sparsam sein müssen",
+        "beispiel": "Am Monatsende knapsen wir mit dem Geld.",
+        "uebersetzung": {
+          "fa": "آخر ماه سر پول تنگنا داریم.",
+          "en": "At the end of the month we are short of money."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "knapsen",
+      "praeteritum": "knapste",
+      "partizip2": "geknapst"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "knapse",
+        "du": "knapst",
+        "er_sie_es": "knapst",
+        "wir": "knapsen",
+        "ihr": "knapst",
+        "sie_Sie": "knapsen"
+      },
+      "praeteritum": {
+        "ich": "knapste",
+        "du": "knapstest",
+        "er_sie_es": "knapste",
+        "wir": "knapsten",
+        "ihr": "knapstet",
+        "sie_Sie": "knapsten"
+      },
+      "konjunktiv1": {
+        "ich": "knapse",
+        "du": "knapsest",
+        "er_sie_es": "knapse",
+        "wir": "knapsen",
+        "ihr": "knapset",
+        "sie_Sie": "knapsen"
+      },
+      "konjunktiv2": {
+        "ich": "knapste",
+        "du": "knapstest",
+        "er_sie_es": "knapste",
+        "wir": "knapsten",
+        "ihr": "knapstet",
+        "sie_Sie": "knapsten"
+      },
+      "imperativ": {
+        "du": "Knapse!",
+        "ihr": "Knapst!",
+        "Sie": "Knapsen Sie!"
+      }
+    },
+    "partizip1": "knapsend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "knapp",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کم، تنگ",
+          "en": "scarce, tight"
+        },
+        "id_ref": "adjektiv_knapp"
+      },
+      {
+        "wort": "sparen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پس‌انداز کردن",
+          "en": "to save"
+        },
+        "id_ref": "verb_sparen"
+      },
+      {
+        "wort": "knausern",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خسیسی کردن",
+          "en": "to skimp"
+        },
+        "id_ref": "verb_knausern"
+      },
+      {
+        "wort": "das Geld",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پول",
+          "en": "money"
+        },
+        "id_ref": "nomen_geld"
+      },
+      {
+        "wort": "sparsam",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صرفه‌جو",
+          "en": "thrifty"
+        },
+        "id_ref": "adjektiv_sparsam"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

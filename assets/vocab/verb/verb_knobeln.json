@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_knobeln",
+  "wort": "knobeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "معما حل کردن، کلنجار رفتن (با مسئله)",
+      "تاس انداختن (برای قرعه)"
+    ],
+    "en": [
+      "to puzzle over",
+      "to play dice (to decide)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Freizeit",
+    "Spiele"
+  ],
+  "ipa": "ˈknoːbl̩n",
+  "anmerkung": "Umgangssprachlich.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir knobeln, wer anfängt.",
+      "uebersetzung": {
+        "fa": "قرعه (تاس) می‌اندازیم که چه کسی شروع کند.",
+        "en": "We throw dice to see who starts."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Er hat stundenlang an der Matheaufgabe geknobelt, bis er die Lösung gefunden hat.",
+      "uebersetzung": {
+        "fa": "ساعت‌ها با مسئله‌ی ریاضی کلنجار رفت تا جوابش را پیدا کرد.",
+        "en": "He puzzled over the maths problem for hours until he found the solution."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "tüfteln",
+      "uebersetzung": {
+        "fa": "با حوصله روی چیزی کار کردن",
+        "en": "to tinker"
+      }
+    },
+    {
+      "wort": "würfeln",
+      "uebersetzung": {
+        "fa": "تاس انداختن",
+        "en": "to throw dice"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "knobeln an + Dat",
+        "bedeutung": "lange über eine schwierige Aufgabe nachdenken",
+        "beispiel": "Sie knobelt an einem Rätsel.",
+        "uebersetzung": {
+          "fa": "دارد با یک معما کلنجار می‌رود.",
+          "en": "She is puzzling over a riddle."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "knobeln",
+      "praeteritum": "knobelte",
+      "partizip2": "geknobelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "knoble",
+        "du": "knobelst",
+        "er_sie_es": "knobelt",
+        "wir": "knobeln",
+        "ihr": "knobelt",
+        "sie_Sie": "knobeln"
+      },
+      "praeteritum": {
+        "ich": "knobelte",
+        "du": "knobeltest",
+        "er_sie_es": "knobelte",
+        "wir": "knobelten",
+        "ihr": "knobeltet",
+        "sie_Sie": "knobelten"
+      },
+      "konjunktiv1": {
+        "ich": "knoble",
+        "du": "knoblest",
+        "er_sie_es": "knoble",
+        "wir": "knobeln",
+        "ihr": "knoblet",
+        "sie_Sie": "knobeln"
+      },
+      "konjunktiv2": {
+        "ich": "knobelte",
+        "du": "knobeltest",
+        "er_sie_es": "knobelte",
+        "wir": "knobelten",
+        "ihr": "knobeltet",
+        "sie_Sie": "knobelten"
+      },
+      "imperativ": {
+        "du": "Knoble!",
+        "ihr": "Knobelt!",
+        "Sie": "Knobeln Sie!"
+      }
+    },
+    "partizip1": "knobelnd",
+    "nominalisierung": "die Knobelei"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Rätsel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "معما",
+          "en": "riddle"
+        },
+        "id_ref": "nomen_raetsel"
+      },
+      {
+        "wort": "tüfteln",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "با حوصله ور رفتن",
+          "en": "to tinker"
+        },
+        "id_ref": "verb_tuefteln"
+      },
+      {
+        "wort": "würfeln",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تاس انداختن",
+          "en": "to throw dice"
+        },
+        "id_ref": "verb_wuerfeln"
+      },
+      {
+        "wort": "die Lösung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "راه‌حل",
+          "en": "solution"
+        },
+        "id_ref": "nomen_loesung"
+      },
+      {
+        "wort": "nachdenken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فکر کردن",
+          "en": "to think about"
+        },
+        "id_ref": "verb_nachdenken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

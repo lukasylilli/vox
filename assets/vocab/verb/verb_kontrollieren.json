@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_kontrollieren",
+  "wort": "kontrollieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کنترل کردن، بازرسی کردن",
+      "تسلط داشتن بر"
+    ],
+    "en": [
+      "to check, to inspect",
+      "to control"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Arbeit"
+  ],
+  "ipa": "kɔntʁɔˈliːʁən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Schaffner kontrolliert die Fahrkarten.",
+      "uebersetzung": {
+        "fa": "مأمور قطار بلیت‌ها را کنترل می‌کند.",
+        "en": "The conductor checks the tickets."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bevor du den Text abgibst, solltest du ihn noch einmal auf Fehler kontrollieren.",
+      "uebersetzung": {
+        "fa": "قبل از این‌که متن را تحویل بدهی، بهتر است یک بار دیگر آن را از نظر غلط بررسی کنی.",
+        "en": "Before you hand in the text, you should check it for mistakes once again."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "prüfen",
+      "uebersetzung": {
+        "fa": "بررسی کردن",
+        "en": "to check"
+      }
+    },
+    {
+      "wort": "überprüfen",
+      "uebersetzung": {
+        "fa": "وارسی کردن",
+        "en": "to verify"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas kontrollieren auf + Akk",
+        "bedeutung": "etwas daraufhin prüfen, ob etwas vorhanden ist",
+        "beispiel": "Der Zoll kontrolliert das Gepäck auf Drogen.",
+        "uebersetzung": {
+          "fa": "گمرک چمدان‌ها را برای مواد مخدر بازرسی می‌کند.",
+          "en": "Customs check the luggage for drugs."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "kontrollieren",
+      "praeteritum": "kontrollierte",
+      "partizip2": "kontrolliert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kontrolliere",
+        "du": "kontrollierst",
+        "er_sie_es": "kontrolliert",
+        "wir": "kontrollieren",
+        "ihr": "kontrolliert",
+        "sie_Sie": "kontrollieren"
+      },
+      "praeteritum": {
+        "ich": "kontrollierte",
+        "du": "kontrolliertest",
+        "er_sie_es": "kontrollierte",
+        "wir": "kontrollierten",
+        "ihr": "kontrolliertet",
+        "sie_Sie": "kontrollierten"
+      },
+      "konjunktiv1": {
+        "ich": "kontrolliere",
+        "du": "kontrollierest",
+        "er_sie_es": "kontrolliere",
+        "wir": "kontrollieren",
+        "ihr": "kontrollieret",
+        "sie_Sie": "kontrollieren"
+      },
+      "konjunktiv2": {
+        "ich": "kontrollierte",
+        "du": "kontrolliertest",
+        "er_sie_es": "kontrollierte",
+        "wir": "kontrollierten",
+        "ihr": "kontrolliertet",
+        "sie_Sie": "kontrollierten"
+      },
+      "imperativ": {
+        "du": "Kontrolliere!",
+        "ihr": "Kontrolliert!",
+        "Sie": "Kontrollieren Sie!"
+      }
+    },
+    "partizip1": "kontrollierend",
+    "nominalisierung": "die Kontrolle"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Kontrolle",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کنترل، بازرسی",
+          "en": "check, control"
+        },
+        "id_ref": "nomen_kontrolle"
+      },
+      {
+        "wort": "prüfen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بررسی کردن",
+          "en": "to check"
+        },
+        "id_ref": "verb_pruefen"
+      },
+      {
+        "wort": "überprüfen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وارسی کردن",
+          "en": "to verify"
+        },
+        "id_ref": "verb_ueberpruefen"
+      },
+      {
+        "wort": "der Kontrolleur",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بازرس، مأمور کنترل",
+          "en": "inspector"
+        },
+        "id_ref": "nomen_kontrolleur"
+      },
+      {
+        "wort": "die Fahrkarte",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بلیت",
+          "en": "ticket"
+        },
+        "id_ref": "nomen_fahrkarte"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

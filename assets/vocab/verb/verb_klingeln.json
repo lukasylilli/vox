@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_klingeln",
+  "wort": "klingeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "زنگ زدن",
+      "زنگ (در) را زدن"
+    ],
+    "en": [
+      "to ring",
+      "to ring the bell"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Wohnen"
+  ],
+  "ipa": "ˈklɪŋl̩n",
+  "anmerkung": "Unpersönlich: «Es klingelt.» (Jemand ist an der Tür.)",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Das Telefon klingelt.",
+      "uebersetzung": {
+        "fa": "تلفن زنگ می‌زند.",
+        "en": "The phone is ringing."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Als es an der Tür klingelte, lag ich noch im Bett.",
+      "uebersetzung": {
+        "fa": "وقتی زنگ در را زدند، هنوز در رختخواب بودم.",
+        "en": "When the doorbell rang, I was still in bed."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "läuten",
+      "uebersetzung": {
+        "fa": "زنگ زدن",
+        "en": "to ring"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "klingeln bei + Dat",
+        "bedeutung": "an jemandes Tür die Klingel drücken",
+        "beispiel": "Ich klingle bei den Nachbarn.",
+        "uebersetzung": {
+          "fa": "زنگ خانه‌ی همسایه‌ها را می‌زنم.",
+          "en": "I ring at the neighbours' door."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "klingeln",
+      "praeteritum": "klingelte",
+      "partizip2": "geklingelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "klingle",
+        "du": "klingelst",
+        "er_sie_es": "klingelt",
+        "wir": "klingeln",
+        "ihr": "klingelt",
+        "sie_Sie": "klingeln"
+      },
+      "praeteritum": {
+        "ich": "klingelte",
+        "du": "klingeltest",
+        "er_sie_es": "klingelte",
+        "wir": "klingelten",
+        "ihr": "klingeltet",
+        "sie_Sie": "klingelten"
+      },
+      "konjunktiv1": {
+        "ich": "klingle",
+        "du": "klinglest",
+        "er_sie_es": "klingle",
+        "wir": "klingeln",
+        "ihr": "klinglet",
+        "sie_Sie": "klingeln"
+      },
+      "konjunktiv2": {
+        "ich": "klingelte",
+        "du": "klingeltest",
+        "er_sie_es": "klingelte",
+        "wir": "klingelten",
+        "ihr": "klingeltet",
+        "sie_Sie": "klingelten"
+      },
+      "imperativ": {
+        "du": "Klingle!",
+        "ihr": "Klingelt!",
+        "Sie": "Klingeln Sie!"
+      }
+    },
+    "partizip1": "klingelnd",
+    "nominalisierung": "das Klingeln"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Klingel",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زنگ",
+          "en": "bell"
+        },
+        "id_ref": "nomen_klingel"
+      },
+      {
+        "wort": "läuten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زنگ زدن",
+          "en": "to ring"
+        },
+        "id_ref": "verb_laeuten"
+      },
+      {
+        "wort": "das Telefon",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تلفن",
+          "en": "telephone"
+        },
+        "id_ref": "nomen_telefon"
+      },
+      {
+        "wort": "der Wecker",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ساعت زنگ‌دار",
+          "en": "alarm clock"
+        },
+        "id_ref": "nomen_wecker"
+      },
+      {
+        "wort": "die Tür",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "در",
+          "en": "door"
+        },
+        "id_ref": "nomen_tuer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
