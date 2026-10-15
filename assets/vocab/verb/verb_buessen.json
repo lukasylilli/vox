@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_buessen",
+  "wort": "büßen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تاوان دادن",
+      "جبران کردن (گناه)"
+    ],
+    "en": [
+      "to atone",
+      "to pay (for)",
+      "to suffer for"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Moral",
+    "Religion"
+  ],
+  "ipa": "ˈbyːsn̩",
+  "anmerkung": "Regelmäßig (büßte, gebüßt). Schweizerisch und österreichisch auch: mit einer Geldstrafe belegen.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er muss dafür büßen.",
+      "uebersetzung": {
+        "fa": "باید تاوانش را بدهد.",
+        "en": "He will have to pay for that."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie büßt jetzt für ihren Leichtsinn, weil sie ohne Versicherung gereist ist.",
+      "uebersetzung": {
+        "fa": "حالا دارد تاوان بی‌احتیاطی‌اش را می‌دهد، چون بدون بیمه سفر کرد.",
+        "en": "She is now paying for her carelessness because she travelled without insurance."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sühnen",
+      "uebersetzung": {
+        "fa": "کفاره دادن",
+        "en": "to atone"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "für + Akk büßen",
+        "bedeutung": "die Folgen einer Schuld tragen",
+        "beispiel": "Er büßt für seine Fehler.",
+        "uebersetzung": {
+          "fa": "تاوان اشتباه‌هایش را می‌دهد.",
+          "en": "He is paying for his mistakes."
+        }
+      },
+      {
+        "muster": "etwas mit + Dat büßen",
+        "bedeutung": "etwas mit einem Verlust bezahlen",
+        "beispiel": "Er büßte seinen Mut mit dem Leben.",
+        "uebersetzung": {
+          "fa": "شجاعتش را با جانش پرداخت.",
+          "en": "He paid for his courage with his life."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "büßen",
+      "praeteritum": "büßte",
+      "partizip2": "gebüßt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "büße",
+        "du": "büßt",
+        "er_sie_es": "büßt",
+        "wir": "büßen",
+        "ihr": "büßt",
+        "sie_Sie": "büßen"
+      },
+      "praeteritum": {
+        "ich": "büßte",
+        "du": "büßtest",
+        "er_sie_es": "büßte",
+        "wir": "büßten",
+        "ihr": "büßtet",
+        "sie_Sie": "büßten"
+      },
+      "konjunktiv1": {
+        "ich": "büße",
+        "du": "büßest",
+        "er_sie_es": "büße",
+        "wir": "büßen",
+        "ihr": "büßet",
+        "sie_Sie": "büßen"
+      },
+      "konjunktiv2": {
+        "ich": "büßte",
+        "du": "büßtest",
+        "er_sie_es": "büßte",
+        "wir": "büßten",
+        "ihr": "büßtet",
+        "sie_Sie": "büßten"
+      },
+      "imperativ": {
+        "du": "Büße!",
+        "ihr": "Büßt!",
+        "Sie": "Büßen Sie!"
+      }
+    },
+    "partizip1": "büßend",
+    "nominalisierung": "die Buße"
+  },
+  "wortnetz": {
+    "grundwort": "Buße",
+    "woerter": [
+      {
+        "wort": "die Buße",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "توبه، جریمه",
+          "en": "penance"
+        },
+        "id_ref": "nomen_busse"
+      },
+      {
+        "wort": "die Strafe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مجازات",
+          "en": "punishment"
+        },
+        "id_ref": "nomen_strafe"
+      },
+      {
+        "wort": "bereuen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پشیمان شدن",
+          "en": "to regret"
+        },
+        "id_ref": "verb_bereuen"
+      },
+      {
+        "wort": "die Schuld",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تقصیر",
+          "en": "guilt"
+        },
+        "id_ref": "nomen_schuld"
+      },
+      {
+        "wort": "bezahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_bezahlen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

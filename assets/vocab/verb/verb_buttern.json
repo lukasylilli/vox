@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_buttern",
+  "wort": "buttern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کره زدن",
+      "کره مالیدن",
+      "پول زیادی گذاشتن (در چیزی)"
+    ],
+    "en": [
+      "to butter",
+      "to churn",
+      "to pour (money) into"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Essen",
+    "Geld"
+  ],
+  "ipa": "ˈbʊtɐn",
+  "anmerkung": "Regelmäßig (butterte, gebuttert). Bedeutung «Geld hineinstecken» umgangssprachlich.",
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie buttert das Brot.",
+      "uebersetzung": {
+        "fa": "روی نان کره می‌مالد.",
+        "en": "She butters the bread."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Stadt hat Millionen in das Stadion gebuttert, aber kaum jemand geht hin.",
+      "uebersetzung": {
+        "fa": "شهر میلیون‌ها پول در ورزشگاه ریخت، ولی تقریباً هیچ‌کس آن‌جا نمی‌رود.",
+        "en": "The city poured millions into the stadium, but hardly anyone goes there."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bestreichen",
+      "uebersetzung": {
+        "fa": "مالیدن (روی چیزی)",
+        "en": "to spread"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Butter (کره) + -n",
+    "en": "Butter (butter) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas in + Akk buttern",
+        "bedeutung": "viel Geld in etwas stecken",
+        "beispiel": "Er hat sein ganzes Erspartes in die Firma gebuttert.",
+        "uebersetzung": {
+          "fa": "همه‌ی پس‌اندازش را در شرکت ریخت.",
+          "en": "He poured all his savings into the company."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "buttern",
+      "praeteritum": "butterte",
+      "partizip2": "gebuttert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "buttere",
+        "du": "butterst",
+        "er_sie_es": "buttert",
+        "wir": "buttern",
+        "ihr": "buttert",
+        "sie_Sie": "buttern"
+      },
+      "praeteritum": {
+        "ich": "butterte",
+        "du": "buttertest",
+        "er_sie_es": "butterte",
+        "wir": "butterten",
+        "ihr": "buttertet",
+        "sie_Sie": "butterten"
+      },
+      "konjunktiv1": {
+        "ich": "buttere",
+        "du": "butterest",
+        "er_sie_es": "buttere",
+        "wir": "buttern",
+        "ihr": "butteret",
+        "sie_Sie": "buttern"
+      },
+      "konjunktiv2": {
+        "ich": "butterte",
+        "du": "buttertest",
+        "er_sie_es": "butterte",
+        "wir": "butterten",
+        "ihr": "buttertet",
+        "sie_Sie": "butterten"
+      },
+      "imperativ": {
+        "du": "Buttere!",
+        "ihr": "Buttert!",
+        "Sie": "Buttern Sie!"
+      }
+    },
+    "partizip1": "butternd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Butter",
+    "woerter": [
+      {
+        "wort": "die Butter",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کره",
+          "en": "butter"
+        },
+        "id_ref": "nomen_butter"
+      },
+      {
+        "wort": "das Brot",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نان",
+          "en": "bread"
+        },
+        "id_ref": "nomen_brot"
+      },
+      {
+        "wort": "streichen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مالیدن",
+          "en": "to spread"
+        },
+        "id_ref": "verb_streichen"
+      },
+      {
+        "wort": "die Milch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شیر",
+          "en": "milk"
+        },
+        "id_ref": "nomen_milch"
+      },
+      {
+        "wort": "investieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سرمایه‌گذاری کردن",
+          "en": "to invest"
+        },
+        "id_ref": "verb_investieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

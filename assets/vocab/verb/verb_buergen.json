@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_buergen",
+  "wort": "bürgen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ضمانت کردن",
+      "ضامن شدن"
+    ],
+    "en": [
+      "to vouch",
+      "to guarantee",
+      "to stand surety"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Recht",
+    "Geld"
+  ],
+  "ipa": "ˈbʏʁɡn̩",
+  "anmerkung": "Regelmäßig (bürgte, gebürgt).",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich bürge für ihn.",
+      "uebersetzung": {
+        "fa": "من ضامن او می‌شوم.",
+        "en": "I will vouch for him."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Eltern bürgen für den Kredit, weil ihr Sohn noch kein festes Einkommen hat.",
+      "uebersetzung": {
+        "fa": "والدین برای وام ضمانت می‌کنند، چون پسرشان هنوز درآمد ثابتی ندارد.",
+        "en": "The parents are guarantors for the loan because their son has no fixed income yet."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "garantieren",
+      "uebersetzung": {
+        "fa": "تضمین کردن",
+        "en": "to guarantee"
+      }
+    },
+    {
+      "wort": "haften",
+      "uebersetzung": {
+        "fa": "مسئول بودن",
+        "en": "to be liable"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "für + Akk bürgen",
+        "bedeutung": "die Verantwortung oder Garantie für jemanden/etwas übernehmen",
+        "beispiel": "Der Name bürgt für Qualität.",
+        "uebersetzung": {
+          "fa": "این نام ضامن کیفیت است.",
+          "en": "The name guarantees quality."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "bürgen",
+      "praeteritum": "bürgte",
+      "partizip2": "gebürgt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bürge",
+        "du": "bürgst",
+        "er_sie_es": "bürgt",
+        "wir": "bürgen",
+        "ihr": "bürgt",
+        "sie_Sie": "bürgen"
+      },
+      "praeteritum": {
+        "ich": "bürgte",
+        "du": "bürgtest",
+        "er_sie_es": "bürgte",
+        "wir": "bürgten",
+        "ihr": "bürgtet",
+        "sie_Sie": "bürgten"
+      },
+      "konjunktiv1": {
+        "ich": "bürge",
+        "du": "bürgest",
+        "er_sie_es": "bürge",
+        "wir": "bürgen",
+        "ihr": "bürget",
+        "sie_Sie": "bürgen"
+      },
+      "konjunktiv2": {
+        "ich": "bürgte",
+        "du": "bürgtest",
+        "er_sie_es": "bürgte",
+        "wir": "bürgten",
+        "ihr": "bürgtet",
+        "sie_Sie": "bürgten"
+      },
+      "imperativ": {
+        "du": "Bürge!",
+        "ihr": "Bürgt!",
+        "Sie": "Bürgen Sie!"
+      }
+    },
+    "partizip1": "bürgend",
+    "nominalisierung": "die Bürgschaft"
+  },
+  "wortnetz": {
+    "grundwort": "Bürge",
+    "woerter": [
+      {
+        "wort": "der Bürge",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ضامن",
+          "en": "guarantor"
+        },
+        "id_ref": "nomen_buerge"
+      },
+      {
+        "wort": "die Bürgschaft",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ضمانت‌نامه",
+          "en": "guarantee"
+        },
+        "id_ref": "nomen_buergschaft"
+      },
+      {
+        "wort": "garantieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تضمین کردن",
+          "en": "to guarantee"
+        },
+        "id_ref": "verb_garantieren"
+      },
+      {
+        "wort": "der Kredit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وام",
+          "en": "loan"
+        },
+        "id_ref": "nomen_kredit"
+      },
+      {
+        "wort": "das Vertrauen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اعتماد",
+          "en": "trust"
+        },
+        "id_ref": "nomen_vertrauen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_buersten",
+  "wort": "bürsten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "برس زدن",
+      "برس کشیدن"
+    ],
+    "en": [
+      "to brush"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Körper",
+    "Haushalt"
+  ],
+  "ipa": "ˈbʏʁstn̩",
+  "anmerkung": "Regelmäßig (bürstete, gebürstet).",
+  "berufe": [
+    "pflege_medizin",
+    "reinigung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie bürstet ihre Haare.",
+      "uebersetzung": {
+        "fa": "موهایش را برس می‌کشد.",
+        "en": "She is brushing her hair."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bevor du die Jacke in den Schrank hängst, solltest du sie gründlich bürsten.",
+      "uebersetzung": {
+        "fa": "قبل از این‌که کاپشن را در کمد آویزان کنی، بهتر است خوب برسش بزنی.",
+        "en": "Before you hang the jacket in the wardrobe, you should brush it thoroughly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kämmen",
+      "uebersetzung": {
+        "fa": "شانه کردن",
+        "en": "to comb"
+      }
+    },
+    {
+      "wort": "schrubben",
+      "uebersetzung": {
+        "fa": "ساییدن",
+        "en": "to scrub"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Bürste (برس) + -n",
+    "en": "Bürste (brush) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "bürsten",
+      "praeteritum": "bürstete",
+      "partizip2": "gebürstet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "bürste",
+        "du": "bürstest",
+        "er_sie_es": "bürstet",
+        "wir": "bürsten",
+        "ihr": "bürstet",
+        "sie_Sie": "bürsten"
+      },
+      "praeteritum": {
+        "ich": "bürstete",
+        "du": "bürstetest",
+        "er_sie_es": "bürstete",
+        "wir": "bürsteten",
+        "ihr": "bürstetet",
+        "sie_Sie": "bürsteten"
+      },
+      "konjunktiv1": {
+        "ich": "bürste",
+        "du": "bürstest",
+        "er_sie_es": "bürste",
+        "wir": "bürsten",
+        "ihr": "bürstet",
+        "sie_Sie": "bürsten"
+      },
+      "konjunktiv2": {
+        "ich": "bürstete",
+        "du": "bürstetest",
+        "er_sie_es": "bürstete",
+        "wir": "bürsteten",
+        "ihr": "bürstetet",
+        "sie_Sie": "bürsteten"
+      },
+      "imperativ": {
+        "du": "Bürste!",
+        "ihr": "Bürstet!",
+        "Sie": "Bürsten Sie!"
+      }
+    },
+    "partizip1": "bürstend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Bürste",
+    "woerter": [
+      {
+        "wort": "die Bürste",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برس",
+          "en": "brush"
+        },
+        "id_ref": "nomen_buerste"
+      },
+      {
+        "wort": "kämmen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شانه کردن",
+          "en": "to comb"
+        },
+        "id_ref": "verb_kaemmen"
+      },
+      {
+        "wort": "die Haare",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "موها",
+          "en": "hair"
+        },
+        "id_ref": "nomen_haare"
+      },
+      {
+        "wort": "putzen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تمیز کردن",
+          "en": "to clean"
+        },
+        "id_ref": "verb_putzen"
+      },
+      {
+        "wort": "die Zahnbürste",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مسواک",
+          "en": "toothbrush"
+        },
+        "id_ref": "nomen_zahnbuerste"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
