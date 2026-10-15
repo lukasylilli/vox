@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "verb_inkrementieren",
+  "wort": "inkrementieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "یکی افزودن (مقدار)"
+    ],
+    "en": [
+      "to increment"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Computer"
+  ],
+  "ipa": "ɪnkʁemɛnˈtiːʁən",
+  "anmerkung": "Regelmäßig (inkrementierte, inkrementiert).",
+  "berufe": [
+    "it"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Programm inkrementiert den Zähler.",
+      "uebersetzung": {
+        "fa": "برنامه شمارنده را یکی بالا می‌برد.",
+        "en": "The program increments the counter."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei jedem Durchlauf der Schleife wird die Variable um eins inkrementiert.",
+      "uebersetzung": {
+        "fa": "در هر دور حلقه، متغیر یک واحد افزایش می‌یابد.",
+        "en": "On each pass of the loop the variable is incremented by one."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "dekrementieren",
+      "uebersetzung": {
+        "fa": "یکی کم کردن",
+        "en": "to decrement"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. incrementum (افزایش) + -ieren",
+    "en": "lat. incrementum (increase) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "inkrementieren",
+      "praeteritum": "inkrementierte",
+      "partizip2": "inkrementiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "inkrementiere",
+        "du": "inkrementierst",
+        "er_sie_es": "inkrementiert",
+        "wir": "inkrementieren",
+        "ihr": "inkrementiert",
+        "sie_Sie": "inkrementieren"
+      },
+      "praeteritum": {
+        "ich": "inkrementierte",
+        "du": "inkrementiertest",
+        "er_sie_es": "inkrementierte",
+        "wir": "inkrementierten",
+        "ihr": "inkrementiertet",
+        "sie_Sie": "inkrementierten"
+      },
+      "konjunktiv1": {
+        "ich": "inkrementiere",
+        "du": "inkrementierest",
+        "er_sie_es": "inkrementiere",
+        "wir": "inkrementieren",
+        "ihr": "inkrementieret",
+        "sie_Sie": "inkrementieren"
+      },
+      "konjunktiv2": {
+        "ich": "inkrementierte",
+        "du": "inkrementiertest",
+        "er_sie_es": "inkrementierte",
+        "wir": "inkrementierten",
+        "ihr": "inkrementiertet",
+        "sie_Sie": "inkrementierten"
+      },
+      "imperativ": {
+        "du": "Inkrementiere!",
+        "ihr": "Inkrementiert!",
+        "Sie": "Inkrementieren Sie!"
+      }
+    },
+    "partizip1": "inkrementierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Zahl",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عدد",
+          "en": "number"
+        },
+        "id_ref": "nomen_zahl"
+      },
+      {
+        "wort": "erhöhen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "افزایش دادن",
+          "en": "to increase"
+        },
+        "id_ref": "verb_erhoehen"
+      },
+      {
+        "wort": "der Zähler",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شمارنده",
+          "en": "counter"
+        },
+        "id_ref": "nomen_zaehler"
+      },
+      {
+        "wort": "die Variable",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "متغیر",
+          "en": "variable"
+        },
+        "id_ref": "nomen_variable"
+      },
+      {
+        "wort": "die Schleife",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حلقه",
+          "en": "loop"
+        },
+        "id_ref": "nomen_schleife"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

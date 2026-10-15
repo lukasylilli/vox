@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_inspizieren",
+  "wort": "inspizieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بازرسی کردن"
+    ],
+    "en": [
+      "to inspect"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Sicherheit"
+  ],
+  "ipa": "ɪnspiˈtsiːʁən",
+  "anmerkung": "Regelmäßig (inspizierte, inspiziert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Chef inspiziert die Küche.",
+      "uebersetzung": {
+        "fa": "رئیس آشپزخانه را بازرسی می‌کند.",
+        "en": "The boss inspects the kitchen."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Sturm wurden alle Brücken der Region von Ingenieuren gründlich inspiziert.",
+      "uebersetzung": {
+        "fa": "پس از طوفان، مهندسان همه‌ی پل‌های منطقه را با دقت بازرسی کردند.",
+        "en": "After the storm all the bridges in the region were thoroughly inspected by engineers."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kontrollieren",
+      "uebersetzung": {
+        "fa": "کنترل کردن",
+        "en": "to check"
+      }
+    },
+    {
+      "wort": "prüfen",
+      "uebersetzung": {
+        "fa": "بررسی کردن",
+        "en": "to examine"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. inspicere (نگاه کردن به) + -ieren",
+    "en": "lat. inspicere (to look into) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "inspizieren",
+      "praeteritum": "inspizierte",
+      "partizip2": "inspiziert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "inspiziere",
+        "du": "inspizierst",
+        "er_sie_es": "inspiziert",
+        "wir": "inspizieren",
+        "ihr": "inspiziert",
+        "sie_Sie": "inspizieren"
+      },
+      "praeteritum": {
+        "ich": "inspizierte",
+        "du": "inspiziertest",
+        "er_sie_es": "inspizierte",
+        "wir": "inspizierten",
+        "ihr": "inspiziertet",
+        "sie_Sie": "inspizierten"
+      },
+      "konjunktiv1": {
+        "ich": "inspiziere",
+        "du": "inspizierest",
+        "er_sie_es": "inspiziere",
+        "wir": "inspizieren",
+        "ihr": "inspizieret",
+        "sie_Sie": "inspizieren"
+      },
+      "konjunktiv2": {
+        "ich": "inspizierte",
+        "du": "inspiziertest",
+        "er_sie_es": "inspizierte",
+        "wir": "inspizierten",
+        "ihr": "inspiziertet",
+        "sie_Sie": "inspizierten"
+      },
+      "imperativ": {
+        "du": "Inspiziere!",
+        "ihr": "Inspiziert!",
+        "Sie": "Inspizieren Sie!"
+      }
+    },
+    "partizip1": "inspizierend",
+    "nominalisierung": "die Inspektion"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "kontrollieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کنترل کردن",
+          "en": "to check"
+        },
+        "id_ref": "verb_kontrollieren"
+      },
+      {
+        "wort": "prüfen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بررسی کردن",
+          "en": "to examine"
+        },
+        "id_ref": "verb_pruefen"
+      },
+      {
+        "wort": "überprüfen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وارسی کردن",
+          "en": "to check"
+        },
+        "id_ref": "verb_ueberpruefen"
+      },
+      {
+        "wort": "die Inspektion",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بازرسی",
+          "en": "inspection"
+        },
+        "id_ref": "nomen_inspektion"
+      },
+      {
+        "wort": "der Inspektor",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بازرس",
+          "en": "inspector"
+        },
+        "id_ref": "nomen_inspektor"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

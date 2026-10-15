@@ -1691,6 +1691,8 @@ const zurueckgestellt = <String>{
   'hygienisieren', // zurückgestellt: sehr selten, Fachjargon; Gebrauch nicht sicher (Regel 14) 2026-10-15
   'indignieren', // zurückgestellt: bildungssprachlich, selten (meist Partizip «indigniert»); Gebrauch nicht sicher (Regel 14) 2026-10-15
   'indossieren', // zurückgestellt: Fachwort Bankwesen (Wechsel übertragen), selten (Regel 14) 2026-10-15
+  'inkommodieren', // zurückgestellt: veraltet/bildungssprachlich (belästigen); zeitlich/ersatz nicht sicher (Regel 17) 2026-10-15
+  'innovieren', // zurückgestellt: sehr selten, Fachjargon; Gebrauch nicht sicher (Regel 14) 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

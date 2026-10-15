@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_installieren",
+  "wort": "installieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نصب کردن"
+    ],
+    "en": [
+      "to install"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Computer",
+    "Technik"
+  ],
+  "ipa": "ɪnstaˈliːʁən",
+  "anmerkung": "Regelmäßig (installierte, installiert).",
+  "berufe": [
+    "it",
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich installiere eine App.",
+      "uebersetzung": {
+        "fa": "یک برنامه نصب می‌کنم.",
+        "en": "I am installing an app."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bevor du das neue Programm installierst, solltest du alle anderen Fenster schließen.",
+      "uebersetzung": {
+        "fa": "پیش از نصب برنامه‌ی تازه، بهتر است همه‌ی پنجره‌های دیگر را ببندی.",
+        "en": "Before you install the new program, you should close all other windows."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einrichten",
+      "uebersetzung": {
+        "fa": "راه‌اندازی کردن",
+        "en": "to set up"
+      }
+    },
+    {
+      "wort": "einbauen",
+      "uebersetzung": {
+        "fa": "کار گذاشتن",
+        "en": "to fit"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "deinstallieren",
+      "uebersetzung": {
+        "fa": "حذف کردن (برنامه)",
+        "en": "to uninstall"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "frz. installer (جای دادن) + -ieren",
+    "en": "frz. installer (to install) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "installieren",
+      "praeteritum": "installierte",
+      "partizip2": "installiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "installiere",
+        "du": "installierst",
+        "er_sie_es": "installiert",
+        "wir": "installieren",
+        "ihr": "installiert",
+        "sie_Sie": "installieren"
+      },
+      "praeteritum": {
+        "ich": "installierte",
+        "du": "installiertest",
+        "er_sie_es": "installierte",
+        "wir": "installierten",
+        "ihr": "installiertet",
+        "sie_Sie": "installierten"
+      },
+      "konjunktiv1": {
+        "ich": "installiere",
+        "du": "installierest",
+        "er_sie_es": "installiere",
+        "wir": "installieren",
+        "ihr": "installieret",
+        "sie_Sie": "installieren"
+      },
+      "konjunktiv2": {
+        "ich": "installierte",
+        "du": "installiertest",
+        "er_sie_es": "installierte",
+        "wir": "installierten",
+        "ihr": "installiertet",
+        "sie_Sie": "installierten"
+      },
+      "imperativ": {
+        "du": "Installiere!",
+        "ihr": "Installiert!",
+        "Sie": "Installieren Sie!"
+      }
+    },
+    "partizip1": "installierend",
+    "nominalisierung": "die Installation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Computer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رایانه",
+          "en": "computer"
+        },
+        "id_ref": "nomen_computer"
+      },
+      {
+        "wort": "die App",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برنامه‌ی موبایل",
+          "en": "app"
+        },
+        "id_ref": "nomen_app"
+      },
+      {
+        "wort": "das Programm",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برنامه",
+          "en": "program"
+        },
+        "id_ref": "nomen_programm"
+      },
+      {
+        "wort": "einrichten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "راه‌اندازی کردن",
+          "en": "to set up"
+        },
+        "id_ref": "verb_einrichten"
+      },
+      {
+        "wort": "die Installation",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نصب",
+          "en": "installation"
+        },
+        "id_ref": "nomen_installation"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

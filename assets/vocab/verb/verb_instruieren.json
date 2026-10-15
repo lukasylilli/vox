@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_instruieren",
+  "wort": "instruieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آموزش دادن",
+      "دستور دادن"
+    ],
+    "en": [
+      "to instruct",
+      "to brief"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit"
+  ],
+  "ipa": "ɪnstʁuˈiːʁən",
+  "anmerkung": "Regelmäßig (instruierte, instruiert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Chef instruiert das Team.",
+      "uebersetzung": {
+        "fa": "رئیس به گروه دستورالعمل می‌دهد.",
+        "en": "The boss briefs the team."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Vor dem Einsatz wurden alle Helfer genau instruiert, wie sie sich im Notfall verhalten sollen.",
+      "uebersetzung": {
+        "fa": "پیش از عملیات، به همه‌ی امدادگران دقیق آموزش دادند که در وضعیت اضطراری چه کنند.",
+        "en": "Before the operation all helpers were given precise instructions on how to behave in an emergency."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anweisen",
+      "uebersetzung": {
+        "fa": "دستور دادن",
+        "en": "to direct"
+      }
+    },
+    {
+      "wort": "unterweisen",
+      "uebersetzung": {
+        "fa": "آموزش دادن",
+        "en": "to instruct"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. instruere (آماده کردن، آموختن) + -ieren",
+    "en": "lat. instruere (to prepare, to teach) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "instruieren",
+      "praeteritum": "instruierte",
+      "partizip2": "instruiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "instruiere",
+        "du": "instruierst",
+        "er_sie_es": "instruiert",
+        "wir": "instruieren",
+        "ihr": "instruiert",
+        "sie_Sie": "instruieren"
+      },
+      "praeteritum": {
+        "ich": "instruierte",
+        "du": "instruiertest",
+        "er_sie_es": "instruierte",
+        "wir": "instruierten",
+        "ihr": "instruiertet",
+        "sie_Sie": "instruierten"
+      },
+      "konjunktiv1": {
+        "ich": "instruiere",
+        "du": "instruierest",
+        "er_sie_es": "instruiere",
+        "wir": "instruieren",
+        "ihr": "instruieret",
+        "sie_Sie": "instruieren"
+      },
+      "konjunktiv2": {
+        "ich": "instruierte",
+        "du": "instruiertest",
+        "er_sie_es": "instruierte",
+        "wir": "instruierten",
+        "ihr": "instruiertet",
+        "sie_Sie": "instruierten"
+      },
+      "imperativ": {
+        "du": "Instruiere!",
+        "ihr": "Instruiert!",
+        "Sie": "Instruieren Sie!"
+      }
+    },
+    "partizip1": "instruierend",
+    "nominalisierung": "die Instruktion"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "erklären",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "توضیح دادن",
+          "en": "to explain"
+        },
+        "id_ref": "verb_erklaeren"
+      },
+      {
+        "wort": "die Anleitung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "راهنما",
+          "en": "instructions"
+        },
+        "id_ref": "nomen_anleitung"
+      },
+      {
+        "wort": "anweisen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دستور دادن",
+          "en": "to direct"
+        },
+        "id_ref": "verb_anweisen"
+      },
+      {
+        "wort": "die Anweisung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دستورالعمل",
+          "en": "instruction"
+        },
+        "id_ref": "nomen_anweisung"
+      },
+      {
+        "wort": "die Instruktion",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دستورالعمل",
+          "en": "instruction"
+        },
+        "id_ref": "nomen_instruktion"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
