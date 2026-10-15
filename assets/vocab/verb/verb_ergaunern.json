@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_ergaunern",
+  "wort": "ergaunern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "با کلاه‌برداری به دست آوردن"
+    ],
+    "en": [
+      "to obtain by fraud",
+      "to swindle"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Kriminalität",
+    "Geld"
+  ],
+  "ipa": "ɛɐ̯ˈɡaʊ̯nɐn",
+  "anmerkung": "Regelmäßig (ergaunerte, ergaunert). Untrennbar. Umgangssprachlich; abgeleitet von «der Gauner» (Betrüger).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er hat das Geld ergaunert.",
+      "uebersetzung": {
+        "fa": "او پول را با کلاه‌برداری به دست آورده است.",
+        "en": "He got the money by fraud."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Mann ergaunerte sich das Vertrauen der alten Dame, um an ihr Erspartes zu kommen.",
+      "uebersetzung": {
+        "fa": "مرد با فریب اعتماد خانم سالخورده را به دست آورد تا به پس‌اندازش برسد.",
+        "en": "The man swindled his way into the old lady's trust in order to get at her savings."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erschwindeln",
+      "uebersetzung": {
+        "fa": "با حقه گرفتن",
+        "en": "to obtain by trickery"
+      }
+    },
+    {
+      "wort": "betrügen",
+      "uebersetzung": {
+        "fa": "کلاه گذاشتن",
+        "en": "to cheat"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (به دست آوردن) + Gauner (کلاه‌بردار)",
+    "en": "er- (obtaining) + Gauner (crook)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "ergaunern",
+      "praeteritum": "ergaunerte",
+      "partizip2": "ergaunert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ergaunere",
+        "du": "ergaunerst",
+        "er_sie_es": "ergaunert",
+        "wir": "ergaunern",
+        "ihr": "ergaunert",
+        "sie_Sie": "ergaunern"
+      },
+      "praeteritum": {
+        "ich": "ergaunerte",
+        "du": "ergaunertest",
+        "er_sie_es": "ergaunerte",
+        "wir": "ergaunerten",
+        "ihr": "ergaunertet",
+        "sie_Sie": "ergaunerten"
+      },
+      "konjunktiv1": {
+        "ich": "ergaunere",
+        "du": "ergaunerest",
+        "er_sie_es": "ergaunere",
+        "wir": "ergaunern",
+        "ihr": "ergauneret",
+        "sie_Sie": "ergaunern"
+      },
+      "konjunktiv2": {
+        "ich": "ergaunerte",
+        "du": "ergaunertest",
+        "er_sie_es": "ergaunerte",
+        "wir": "ergaunerten",
+        "ihr": "ergaunertet",
+        "sie_Sie": "ergaunerten"
+      },
+      "imperativ": {
+        "du": "Ergaunere!",
+        "ihr": "Ergaunert!",
+        "Sie": "Ergaunern Sie!"
+      }
+    },
+    "partizip1": "ergaunernd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Gauner",
+    "woerter": [
+      {
+        "wort": "der Gauner",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کلاه‌بردار",
+          "en": "crook"
+        },
+        "id_ref": "nomen_gauner"
+      },
+      {
+        "wort": "betrügen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کلاه گذاشتن",
+          "en": "to cheat"
+        },
+        "id_ref": "verb_betruegen"
+      },
+      {
+        "wort": "der Betrug",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کلاه‌برداری",
+          "en": "fraud"
+        },
+        "id_ref": "nomen_betrug"
+      },
+      {
+        "wort": "stehlen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دزدیدن",
+          "en": "to steal"
+        },
+        "id_ref": "verb_stehlen"
+      },
+      {
+        "wort": "das Vertrauen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اعتماد",
+          "en": "trust"
+        },
+        "id_ref": "nomen_vertrauen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

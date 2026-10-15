@@ -2984,6 +2984,8 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | ۱۵۶۶ | entpersönlichen | `Verben_regelmaesig.txt` | 2026-10-15 | کم‌کاربرد، معنا/کاربرد مطمئن نیست — قاعده‌ی ۱۴ | — |
 | ۱۵۶۷ | entrinden | `Verben_regelmaesig.txt` | 2026-10-15 | اصطلاح تخصصی جنگل‌داری، کم‌کاربرد — قاعده‌ی ۱۴ | — |
 | ۱۵۶۸ | entwanzen | `Verben_regelmaesig.txt` | 2026-10-15 | دو معنای کم‌کاربرد (حشره‌زدایی / برداشتن شنود)؛ کاربرد مطمئن نیست — قاعده‌ی ۱۴ | — |
+| ۱۵۶۹ | erbittern | `Verben_regelmaesig.txt` | 2026-10-15 | کم‌کاربرد؛ امروز بیشتر Partizip «erbittert» (کارت صفت) یا «verbittern»؛ کاربرد مطمئن نیست — قاعده‌ی ۱۴ | — |
+| ۱۵۷۰ | erfrechen | `Verben_regelmaesig.txt` | 2026-10-15 | «sich erfrechen» رو به منسوخ و کم‌کاربرد؛ برچسب سبکی مطمئن نیست — قاعده‌ی ۱۴/۱۷ | — |
 
 ## 🔁 مرحله‌ی آخر (۲) — کلمه‌های تکراری/چندنسخه‌ای (L.4d)
 

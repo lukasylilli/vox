@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_erbeuten",
+  "wort": "erbeuten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به غنیمت گرفتن",
+      "به سرقت بردن"
+    ],
+    "en": [
+      "to capture",
+      "to steal (as loot)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kriminalität",
+    "Krieg"
+  ],
+  "ipa": "ɛɐ̯ˈbɔɪ̯tn̩",
+  "anmerkung": "Regelmäßig (erbeutete, erbeutet). Untrennbar.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Diebe erbeuten viel Geld.",
+      "uebersetzung": {
+        "fa": "دزدها پول زیادی به سرقت می‌برند.",
+        "en": "The thieves get away with a lot of money."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei dem Überfall auf die Bank erbeuteten die Täter rund 50.000 Euro, bevor sie flohen.",
+      "uebersetzung": {
+        "fa": "سارقان در سرقت از بانک پیش از فرار حدود ۵۰ هزار یورو به سرقت بردند.",
+        "en": "In the bank robbery the perpetrators got away with about 50,000 euros before they fled."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "stehlen",
+      "uebersetzung": {
+        "fa": "دزدیدن",
+        "en": "to steal"
+      }
+    },
+    {
+      "wort": "rauben",
+      "uebersetzung": {
+        "fa": "به زور دزدیدن",
+        "en": "to rob"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (به دست آوردن) + Beute (غنیمت)",
+    "en": "er- (obtaining) + Beute (loot)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "erbeuten",
+      "praeteritum": "erbeutete",
+      "partizip2": "erbeutet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erbeute",
+        "du": "erbeutest",
+        "er_sie_es": "erbeutet",
+        "wir": "erbeuten",
+        "ihr": "erbeutet",
+        "sie_Sie": "erbeuten"
+      },
+      "praeteritum": {
+        "ich": "erbeutete",
+        "du": "erbeutetest",
+        "er_sie_es": "erbeutete",
+        "wir": "erbeuteten",
+        "ihr": "erbeutetet",
+        "sie_Sie": "erbeuteten"
+      },
+      "konjunktiv1": {
+        "ich": "erbeute",
+        "du": "erbeutest",
+        "er_sie_es": "erbeute",
+        "wir": "erbeuten",
+        "ihr": "erbeutet",
+        "sie_Sie": "erbeuten"
+      },
+      "konjunktiv2": {
+        "ich": "erbeutete",
+        "du": "erbeutetest",
+        "er_sie_es": "erbeutete",
+        "wir": "erbeuteten",
+        "ihr": "erbeutetet",
+        "sie_Sie": "erbeuteten"
+      },
+      "imperativ": {
+        "du": "Erbeute!",
+        "ihr": "Erbeutet!",
+        "Sie": "Erbeuten Sie!"
+      }
+    },
+    "partizip1": "erbeutend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Beute",
+    "woerter": [
+      {
+        "wort": "die Beute",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "غنیمت، طعمه",
+          "en": "loot, prey"
+        },
+        "id_ref": "nomen_beute"
+      },
+      {
+        "wort": "stehlen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دزدیدن",
+          "en": "to steal"
+        },
+        "id_ref": "verb_stehlen"
+      },
+      {
+        "wort": "der Dieb",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دزد",
+          "en": "thief"
+        },
+        "id_ref": "nomen_dieb"
+      },
+      {
+        "wort": "der Überfall",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حمله، سرقت مسلحانه",
+          "en": "robbery"
+        },
+        "id_ref": "nomen_ueberfall"
+      },
+      {
+        "wort": "rauben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به زور دزدیدن",
+          "en": "to rob"
+        },
+        "id_ref": "verb_rauben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

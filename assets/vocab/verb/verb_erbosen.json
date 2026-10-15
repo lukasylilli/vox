@@ -1,0 +1,195 @@
+{
+  "schema": "3.0",
+  "id": "verb_erbosen",
+  "wort": "erbosen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خشمگین کردن",
+      "عصبانی شدن"
+    ],
+    "en": [
+      "to anger",
+      "to become angry"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Gefühle"
+  ],
+  "ipa": "ɛɐ̯ˈboːzn̩",
+  "anmerkung": "Regelmäßig (erboste, erbost). Untrennbar. Gehoben. Meist im Partizip: «erbost sein».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Antwort erbost den Chef.",
+      "uebersetzung": {
+        "fa": "این جواب رئیس را خشمگین می‌کند.",
+        "en": "The answer angers the boss."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Anwohner erbosten sich darüber, dass die Straße schon wieder gesperrt wurde.",
+      "uebersetzung": {
+        "fa": "ساکنان از این‌که خیابان دوباره بسته شد، عصبانی شدند.",
+        "en": "The residents got angry that the road had been closed again."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ärgern",
+      "uebersetzung": {
+        "fa": "عصبانی کردن",
+        "en": "to annoy"
+      }
+    },
+    {
+      "wort": "empören",
+      "uebersetzung": {
+        "fa": "خشمگین کردن",
+        "en": "to outrage"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "beruhigen",
+      "uebersetzung": {
+        "fa": "آرام کردن",
+        "en": "to calm"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (برانگیختن) + böse (بد، عصبانی)",
+    "en": "er- (causing) + böse (angry)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich über + Akk erbosen",
+        "bedeutung": "über etwas wütend werden",
+        "beispiel": "Er erboste sich über die hohen Preise.",
+        "uebersetzung": {
+          "fa": "از قیمت‌های بالا خشمگین شد.",
+          "en": "He got angry about the high prices."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "erbosen",
+      "praeteritum": "erboste",
+      "partizip2": "erbost"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erbose",
+        "du": "erbost",
+        "er_sie_es": "erbost",
+        "wir": "erbosen",
+        "ihr": "erbost",
+        "sie_Sie": "erbosen"
+      },
+      "praeteritum": {
+        "ich": "erboste",
+        "du": "erbostest",
+        "er_sie_es": "erboste",
+        "wir": "erbosten",
+        "ihr": "erbostet",
+        "sie_Sie": "erbosten"
+      },
+      "konjunktiv1": {
+        "ich": "erbose",
+        "du": "erbosest",
+        "er_sie_es": "erbose",
+        "wir": "erbosen",
+        "ihr": "erboset",
+        "sie_Sie": "erbosen"
+      },
+      "konjunktiv2": {
+        "ich": "erboste",
+        "du": "erbostest",
+        "er_sie_es": "erboste",
+        "wir": "erbosten",
+        "ihr": "erbostet",
+        "sie_Sie": "erbosten"
+      },
+      "imperativ": {
+        "du": "Erbose!",
+        "ihr": "Erbost!",
+        "Sie": "Erbosen Sie!"
+      }
+    },
+    "partizip1": "erbosend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "böse",
+    "woerter": [
+      {
+        "wort": "böse",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بد، عصبانی",
+          "en": "angry"
+        },
+        "id_ref": "adjektiv_boese"
+      },
+      {
+        "wort": "ärgern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عصبانی کردن",
+          "en": "to annoy"
+        },
+        "id_ref": "verb_aergern"
+      },
+      {
+        "wort": "wütend",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خشمگین",
+          "en": "furious"
+        },
+        "id_ref": "adjektiv_wuetend"
+      },
+      {
+        "wort": "die Wut",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خشم",
+          "en": "rage"
+        },
+        "id_ref": "nomen_wut"
+      },
+      {
+        "wort": "empören",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خشمگین کردن",
+          "en": "to outrage"
+        },
+        "id_ref": "verb_empoeren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

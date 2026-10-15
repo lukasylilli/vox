@@ -1,0 +1,201 @@
+{
+  "schema": "3.0",
+  "id": "verb_ergaenzen",
+  "wort": "ergänzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کامل کردن",
+      "تکمیل کردن",
+      "اضافه کردن"
+    ],
+    "en": [
+      "to complete",
+      "to supplement",
+      "to add"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Lernen",
+    "Arbeit"
+  ],
+  "ipa": "ɛɐ̯ˈɡɛnt͡sn̩",
+  "anmerkung": "Regelmäßig (ergänzte, ergänzt). Untrennbar. Reziprok: «sich ergänzen» (gut zusammenpassen). Typische Aufgabe: «Ergänzen Sie die Sätze.»",
+  "berufe": [
+    "kinder_bildung",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ergänzen Sie die Sätze.",
+      "uebersetzung": {
+        "fa": "جمله‌ها را کامل کنید.",
+        "en": "Complete the sentences."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Mein Mann und ich ergänzen uns gut, weil jeder andere Stärken hat.",
+      "uebersetzung": {
+        "fa": "من و همسرم مکمل همدیگریم، چون هر کدام نقطه‌قوت‌های متفاوتی داریم.",
+        "en": "My husband and I complement each other well because each of us has different strengths."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vervollständigen",
+      "uebersetzung": {
+        "fa": "کامل کردن",
+        "en": "to complete"
+      }
+    },
+    {
+      "wort": "hinzufügen",
+      "uebersetzung": {
+        "fa": "اضافه کردن",
+        "en": "to add"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "kürzen",
+      "uebersetzung": {
+        "fa": "کوتاه کردن",
+        "en": "to shorten"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (کردن) + ganz (کامل)",
+    "en": "er- (making) + ganz (whole)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "etwas um + Akk ergänzen",
+        "bedeutung": "etwas Fehlendes hinzufügen",
+        "beispiel": "Wir ergänzen die Liste um zwei Namen.",
+        "uebersetzung": {
+          "fa": "دو اسم به فهرست اضافه می‌کنیم.",
+          "en": "We are adding two names to the list."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ergänzen",
+      "praeteritum": "ergänzte",
+      "partizip2": "ergänzt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ergänze",
+        "du": "ergänzt",
+        "er_sie_es": "ergänzt",
+        "wir": "ergänzen",
+        "ihr": "ergänzt",
+        "sie_Sie": "ergänzen"
+      },
+      "praeteritum": {
+        "ich": "ergänzte",
+        "du": "ergänztest",
+        "er_sie_es": "ergänzte",
+        "wir": "ergänzten",
+        "ihr": "ergänztet",
+        "sie_Sie": "ergänzten"
+      },
+      "konjunktiv1": {
+        "ich": "ergänze",
+        "du": "ergänzest",
+        "er_sie_es": "ergänze",
+        "wir": "ergänzen",
+        "ihr": "ergänzet",
+        "sie_Sie": "ergänzen"
+      },
+      "konjunktiv2": {
+        "ich": "ergänzte",
+        "du": "ergänztest",
+        "er_sie_es": "ergänzte",
+        "wir": "ergänzten",
+        "ihr": "ergänztet",
+        "sie_Sie": "ergänzten"
+      },
+      "imperativ": {
+        "du": "Ergänze!",
+        "ihr": "Ergänzt!",
+        "Sie": "Ergänzen Sie!"
+      }
+    },
+    "partizip1": "ergänzend",
+    "nominalisierung": "die Ergänzung"
+  },
+  "wortnetz": {
+    "grundwort": "ganz",
+    "woerter": [
+      {
+        "wort": "ganz",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کامل",
+          "en": "whole"
+        },
+        "id_ref": "adjektiv_ganz"
+      },
+      {
+        "wort": "die Ergänzung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تکمیل، مکمل",
+          "en": "addition"
+        },
+        "id_ref": "nomen_ergaenzung"
+      },
+      {
+        "wort": "vollständig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کامل",
+          "en": "complete"
+        },
+        "id_ref": "adjektiv_vollstaendig"
+      },
+      {
+        "wort": "hinzufügen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اضافه کردن",
+          "en": "to add"
+        },
+        "id_ref": "verb_hinzufuegen"
+      },
+      {
+        "wort": "fehlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کم بودن",
+          "en": "to be missing"
+        },
+        "id_ref": "verb_fehlen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

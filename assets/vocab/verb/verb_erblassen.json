@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_erblassen",
+  "wort": "erblassen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "رنگ پریدن",
+      "رنگ باختن"
+    ],
+    "en": [
+      "to turn pale"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle",
+    "Körper"
+  ],
+  "ipa": "ɛɐ̯ˈblasn̩",
+  "anmerkung": "Regelmäßig (erblasste, erblasst). Untrennbar. Gehoben. Bildlich: «vor Neid erblassen».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er erblasst vor Angst.",
+      "uebersetzung": {
+        "fa": "از ترس رنگش می‌پرد.",
+        "en": "He turns pale with fear."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als sie die Rechnung sah, ist sie plötzlich erblasst, weil sie mit so viel nicht gerechnet hatte.",
+      "uebersetzung": {
+        "fa": "وقتی صورت‌حساب را دید، ناگهان رنگش پرید، چون انتظار این‌همه را نداشت.",
+        "en": "When she saw the bill she suddenly turned pale because she had not expected so much."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erbleichen",
+      "uebersetzung": {
+        "fa": "رنگ پریدن",
+        "en": "to blanch"
+      }
+    },
+    {
+      "wort": "blass werden",
+      "uebersetzung": {
+        "fa": "رنگ‌پریده شدن",
+        "en": "to go pale"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "erröten",
+      "uebersetzung": {
+        "fa": "سرخ شدن",
+        "en": "to blush"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "er- (شدن) + blass (رنگ‌پریده)",
+    "en": "er- (becoming) + blass (pale)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "erblassen",
+      "praeteritum": "erblasste",
+      "partizip2": "erblasst"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "erblasse",
+        "du": "erblasst",
+        "er_sie_es": "erblasst",
+        "wir": "erblassen",
+        "ihr": "erblasst",
+        "sie_Sie": "erblassen"
+      },
+      "praeteritum": {
+        "ich": "erblasste",
+        "du": "erblasstest",
+        "er_sie_es": "erblasste",
+        "wir": "erblassten",
+        "ihr": "erblasstet",
+        "sie_Sie": "erblassten"
+      },
+      "konjunktiv1": {
+        "ich": "erblasse",
+        "du": "erblassest",
+        "er_sie_es": "erblasse",
+        "wir": "erblassen",
+        "ihr": "erblasset",
+        "sie_Sie": "erblassen"
+      },
+      "konjunktiv2": {
+        "ich": "erblasste",
+        "du": "erblasstest",
+        "er_sie_es": "erblasste",
+        "wir": "erblassten",
+        "ihr": "erblasstet",
+        "sie_Sie": "erblassten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "erblassend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "blass",
+    "woerter": [
+      {
+        "wort": "blass",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رنگ‌پریده",
+          "en": "pale"
+        },
+        "id_ref": "adjektiv_blass"
+      },
+      {
+        "wort": "die Angst",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترس",
+          "en": "fear"
+        },
+        "id_ref": "nomen_angst"
+      },
+      {
+        "wort": "der Schreck",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "وحشت",
+          "en": "fright"
+        },
+        "id_ref": "nomen_schreck"
+      },
+      {
+        "wort": "erröten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سرخ شدن",
+          "en": "to blush"
+        },
+        "id_ref": "verb_erroeten"
+      },
+      {
+        "wort": "das Gesicht",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "صورت",
+          "en": "face"
+        },
+        "id_ref": "nomen_gesicht"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

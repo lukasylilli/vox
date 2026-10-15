@@ -1619,6 +1619,8 @@ const zurueckgestellt = <String>{
   'entpersönlichen', // zurückgestellt: selten, Gebrauch nicht sicher (Regel 14) 2026-10-15
   'entrinden', // zurückgestellt: Fachwort Forst, selten (Regel 14) 2026-10-15
   'entwanzen', // zurückgestellt: zwei seltene Bedeutungen (Ungeziefer / Abhörgeräte), Gebrauch nicht sicher (Regel 14) 2026-10-15
+  'erbittern', // zurückgestellt: selten, heute meist Partizip «erbittert» bzw. «verbittern»; Gebrauch nicht sicher (Regel 14) 2026-10-15
+  'erfrechen', // zurückgestellt: «sich erfrechen» veraltend/selten; Stilmarkierung nicht sicher (Regel 14/17) 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
