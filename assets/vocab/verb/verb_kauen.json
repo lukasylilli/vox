@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_kauen",
+  "wort": "kauen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جویدن"
+    ],
+    "en": [
+      "to chew"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Essen",
+    "Körper"
+  ],
+  "ipa": "ˈkaʊ̯ən",
+  "anmerkung": "Regelmäßig (kaute, gekaut). Imperativ du auch kurz: «Kau!»",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Kau bitte langsam!",
+      "uebersetzung": {
+        "fa": "لطفاً آهسته بجو!",
+        "en": "Please chew slowly!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Seit sie die neue Zahnprothese hat, kann sie wieder richtig kauen.",
+      "uebersetzung": {
+        "fa": "از وقتی دندان مصنوعی جدید دارد، دوباره می‌تواند درست بجود.",
+        "en": "Since she got her new dentures she can chew properly again."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beißen",
+      "uebersetzung": {
+        "fa": "گاز زدن",
+        "en": "to bite"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "schlucken",
+      "uebersetzung": {
+        "fa": "قورت دادن",
+        "en": "to swallow"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "an etwas (Dat) kauen",
+        "bedeutung": "auf etwas herumbeißen; lange über etwas nachdenken",
+        "beispiel": "Er kaut seit Tagen an diesem Problem.",
+        "uebersetzung": {
+          "fa": "او چند روز است با این مشکل کلنجار می‌رود.",
+          "en": "He has been chewing on this problem for days."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "kauen",
+      "praeteritum": "kaute",
+      "partizip2": "gekaut"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kaue",
+        "du": "kaust",
+        "er_sie_es": "kaut",
+        "wir": "kauen",
+        "ihr": "kaut",
+        "sie_Sie": "kauen"
+      },
+      "praeteritum": {
+        "ich": "kaute",
+        "du": "kautest",
+        "er_sie_es": "kaute",
+        "wir": "kauten",
+        "ihr": "kautet",
+        "sie_Sie": "kauten"
+      },
+      "konjunktiv1": {
+        "ich": "kaue",
+        "du": "kauest",
+        "er_sie_es": "kaue",
+        "wir": "kauen",
+        "ihr": "kauet",
+        "sie_Sie": "kauen"
+      },
+      "konjunktiv2": {
+        "ich": "kaute",
+        "du": "kautest",
+        "er_sie_es": "kaute",
+        "wir": "kauten",
+        "ihr": "kautet",
+        "sie_Sie": "kauten"
+      },
+      "imperativ": {
+        "du": "Kaue!",
+        "ihr": "Kaut!",
+        "Sie": "Kauen Sie!"
+      }
+    },
+    "partizip1": "kauend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Kaugummi",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آدامس",
+          "en": "chewing gum"
+        },
+        "id_ref": "nomen_kaugummi"
+      },
+      {
+        "wort": "beißen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گاز زدن",
+          "en": "to bite"
+        },
+        "id_ref": "verb_beissen"
+      },
+      {
+        "wort": "schlucken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قورت دادن",
+          "en": "to swallow"
+        },
+        "id_ref": "verb_schlucken"
+      },
+      {
+        "wort": "der Zahn",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دندان",
+          "en": "tooth"
+        },
+        "id_ref": "nomen_zahn"
+      },
+      {
+        "wort": "essen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوردن",
+          "en": "to eat"
+        },
+        "id_ref": "verb_essen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

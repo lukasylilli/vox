@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_kauern",
+  "wort": "kauern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "چمباتمه زدن",
+      "کز کردن"
+    ],
+    "en": [
+      "to crouch",
+      "to cower"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Körper"
+  ],
+  "ipa": "ˈkaʊ̯ɐn",
+  "anmerkung": "Regelmäßig (kauerte, gekauert). Auch reflexiv: «sich kauern» (sich in eine kauernde Haltung bringen).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Kind kauert in der Ecke.",
+      "uebersetzung": {
+        "fa": "بچه در گوشه کز کرده است.",
+        "en": "The child is crouching in the corner."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Während des Gewitters kauerte sich der Hund unter den Tisch, weil er große Angst hatte.",
+      "uebersetzung": {
+        "fa": "در طول طوفان، سگ زیر میز کز کرد، چون خیلی ترسیده بود.",
+        "en": "During the thunderstorm the dog cowered under the table because it was very scared."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hocken",
+      "uebersetzung": {
+        "fa": "چمباتمه زدن",
+        "en": "to squat"
+      }
+    },
+    {
+      "wort": "sich ducken",
+      "uebersetzung": {
+        "fa": "خم شدن",
+        "en": "to duck"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "aufstehen",
+      "uebersetzung": {
+        "fa": "بلند شدن",
+        "en": "to stand up"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "kauern",
+      "praeteritum": "kauerte",
+      "partizip2": "gekauert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kauere",
+        "du": "kauerst",
+        "er_sie_es": "kauert",
+        "wir": "kauern",
+        "ihr": "kauert",
+        "sie_Sie": "kauern"
+      },
+      "praeteritum": {
+        "ich": "kauerte",
+        "du": "kauertest",
+        "er_sie_es": "kauerte",
+        "wir": "kauerten",
+        "ihr": "kauertet",
+        "sie_Sie": "kauerten"
+      },
+      "konjunktiv1": {
+        "ich": "kauere",
+        "du": "kauerest",
+        "er_sie_es": "kauere",
+        "wir": "kauern",
+        "ihr": "kaueret",
+        "sie_Sie": "kauern"
+      },
+      "konjunktiv2": {
+        "ich": "kauerte",
+        "du": "kauertest",
+        "er_sie_es": "kauerte",
+        "wir": "kauerten",
+        "ihr": "kauertet",
+        "sie_Sie": "kauerten"
+      },
+      "imperativ": {
+        "du": "Kauere!",
+        "ihr": "Kauert!",
+        "Sie": "Kauern Sie!"
+      }
+    },
+    "partizip1": "kauernd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "hocken",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "چمباتمه زدن",
+          "en": "to squat"
+        },
+        "id_ref": "verb_hocken"
+      },
+      {
+        "wort": "sitzen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نشستن",
+          "en": "to sit"
+        },
+        "id_ref": "verb_sitzen"
+      },
+      {
+        "wort": "die Ecke",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گوشه",
+          "en": "corner"
+        },
+        "id_ref": "nomen_ecke"
+      },
+      {
+        "wort": "die Angst",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترس",
+          "en": "fear"
+        },
+        "id_ref": "nomen_angst"
+      },
+      {
+        "wort": "ducken",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خم شدن",
+          "en": "to duck"
+        },
+        "id_ref": "verb_ducken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
