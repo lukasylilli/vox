@@ -1,0 +1,196 @@
+{
+  "schema": "3.0",
+  "id": "verb_intervenieren",
+  "wort": "intervenieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مداخله کردن",
+      "پادرمیانی کردن"
+    ],
+    "en": [
+      "to intervene"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Politik",
+    "Konflikt"
+  ],
+  "ipa": "ɪntɐveˈniːʁən",
+  "anmerkung": "Regelmäßig (intervenierte, interveniert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Lehrerin interveniert im Streit.",
+      "uebersetzung": {
+        "fa": "معلم در دعوا مداخله می‌کند.",
+        "en": "The teacher intervenes in the argument."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als die Verhandlungen zu scheitern drohten, intervenierte der Bürgermeister persönlich.",
+      "uebersetzung": {
+        "fa": "وقتی مذاکرات در خطر شکست بود، شهردار شخصاً مداخله کرد.",
+        "en": "When the negotiations threatened to fail, the mayor intervened personally."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "eingreifen",
+      "uebersetzung": {
+        "fa": "دخالت کردن",
+        "en": "to step in"
+      }
+    },
+    {
+      "wort": "sich einmischen",
+      "uebersetzung": {
+        "fa": "دخالت کردن",
+        "en": "to interfere"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. intervenire (در میان آمدن) + -ieren",
+    "en": "lat. intervenire (to come between) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "bei jemandem (Dat) intervenieren",
+        "bedeutung": "sich bei einer zuständigen Stelle für etwas einsetzen",
+        "beispiel": "Der Anwalt intervenierte bei der Behörde.",
+        "uebersetzung": {
+          "fa": "وکیل نزد اداره پادرمیانی کرد.",
+          "en": "The lawyer intervened with the authority."
+        }
+      },
+      {
+        "muster": "gegen etwas (Akk) intervenieren",
+        "bedeutung": "gegen etwas einschreiten",
+        "beispiel": "Mehrere Staaten intervenierten gegen den Beschluss.",
+        "uebersetzung": {
+          "fa": "چند کشور علیه این تصمیم مداخله کردند.",
+          "en": "Several states intervened against the decision."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "intervenieren",
+      "praeteritum": "intervenierte",
+      "partizip2": "interveniert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "interveniere",
+        "du": "intervenierst",
+        "er_sie_es": "interveniert",
+        "wir": "intervenieren",
+        "ihr": "interveniert",
+        "sie_Sie": "intervenieren"
+      },
+      "praeteritum": {
+        "ich": "intervenierte",
+        "du": "interveniertest",
+        "er_sie_es": "intervenierte",
+        "wir": "intervenierten",
+        "ihr": "interveniertet",
+        "sie_Sie": "intervenierten"
+      },
+      "konjunktiv1": {
+        "ich": "interveniere",
+        "du": "intervenierest",
+        "er_sie_es": "interveniere",
+        "wir": "intervenieren",
+        "ihr": "intervenieret",
+        "sie_Sie": "intervenieren"
+      },
+      "konjunktiv2": {
+        "ich": "intervenierte",
+        "du": "interveniertest",
+        "er_sie_es": "intervenierte",
+        "wir": "intervenierten",
+        "ihr": "interveniertet",
+        "sie_Sie": "intervenierten"
+      },
+      "imperativ": {
+        "du": "Interveniere!",
+        "ihr": "Interveniert!",
+        "Sie": "Intervenieren Sie!"
+      }
+    },
+    "partizip1": "intervenierend",
+    "nominalisierung": "die Intervention"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "eingreifen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دخالت کردن",
+          "en": "to step in"
+        },
+        "id_ref": "verb_eingreifen"
+      },
+      {
+        "wort": "der Konflikt",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "درگیری",
+          "en": "conflict"
+        },
+        "id_ref": "nomen_konflikt"
+      },
+      {
+        "wort": "vermitteln",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "میانجی‌گری کردن",
+          "en": "to mediate"
+        },
+        "id_ref": "verb_vermitteln"
+      },
+      {
+        "wort": "die Intervention",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مداخله",
+          "en": "intervention"
+        },
+        "id_ref": "nomen_intervention"
+      },
+      {
+        "wort": "die Diplomatie",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دیپلماسی",
+          "en": "diplomacy"
+        },
+        "id_ref": "nomen_diplomatie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

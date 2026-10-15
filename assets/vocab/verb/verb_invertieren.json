@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "verb_invertieren",
+  "wort": "invertieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "معکوس کردن",
+      "وارونه کردن"
+    ],
+    "en": [
+      "to invert"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft",
+    "Technik"
+  ],
+  "ipa": "ɪnvɛʁˈtiːʁən",
+  "anmerkung": "Regelmäßig (invertierte, invertiert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Programm invertiert die Farben.",
+      "uebersetzung": {
+        "fa": "برنامه رنگ‌ها را معکوس می‌کند.",
+        "en": "The program inverts the colours."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn man die Matrix invertiert, kann man das Gleichungssystem schnell lösen.",
+      "uebersetzung": {
+        "fa": "اگر ماتریس را معکوس کنیم، می‌توانیم دستگاه معادلات را سریع حل کنیم.",
+        "en": "If you invert the matrix, you can solve the system of equations quickly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "umkehren",
+      "uebersetzung": {
+        "fa": "برعکس کردن",
+        "en": "to reverse"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. invertere (وارونه کردن) + -ieren",
+    "en": "lat. invertere (to turn upside down) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "invertieren",
+      "praeteritum": "invertierte",
+      "partizip2": "invertiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "invertiere",
+        "du": "invertierst",
+        "er_sie_es": "invertiert",
+        "wir": "invertieren",
+        "ihr": "invertiert",
+        "sie_Sie": "invertieren"
+      },
+      "praeteritum": {
+        "ich": "invertierte",
+        "du": "invertiertest",
+        "er_sie_es": "invertierte",
+        "wir": "invertierten",
+        "ihr": "invertiertet",
+        "sie_Sie": "invertierten"
+      },
+      "konjunktiv1": {
+        "ich": "invertiere",
+        "du": "invertierest",
+        "er_sie_es": "invertiere",
+        "wir": "invertieren",
+        "ihr": "invertieret",
+        "sie_Sie": "invertieren"
+      },
+      "konjunktiv2": {
+        "ich": "invertierte",
+        "du": "invertiertest",
+        "er_sie_es": "invertierte",
+        "wir": "invertierten",
+        "ihr": "invertiertet",
+        "sie_Sie": "invertierten"
+      },
+      "imperativ": {
+        "du": "Invertiere!",
+        "ihr": "Invertiert!",
+        "Sie": "Invertieren Sie!"
+      }
+    },
+    "partizip1": "invertierend",
+    "nominalisierung": "die Inversion"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "umkehren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "برعکس کردن",
+          "en": "to reverse"
+        },
+        "id_ref": "verb_umkehren"
+      },
+      {
+        "wort": "das Gegenteil",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عکس، ضد",
+          "en": "opposite"
+        },
+        "id_ref": "nomen_gegenteil"
+      },
+      {
+        "wort": "die Farbe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رنگ",
+          "en": "colour"
+        },
+        "id_ref": "nomen_farbe"
+      },
+      {
+        "wort": "die Mathematik",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ریاضی",
+          "en": "mathematics"
+        },
+        "id_ref": "nomen_mathematik"
+      },
+      {
+        "wort": "die Inversion",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "وارونگی",
+          "en": "inversion"
+        },
+        "id_ref": "nomen_inversion"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

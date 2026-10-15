@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_interpretieren",
+  "wort": "interpretieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تفسیر کردن",
+      "برداشت کردن",
+      "اجرا کردن (موسیقی)"
+    ],
+    "en": [
+      "to interpret",
+      "to perform (music)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Kommunikation",
+    "Kunst"
+  ],
+  "ipa": "ɪntɐpʁeˈtiːʁən",
+  "anmerkung": "Regelmäßig (interpretierte, interpretiert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wie interpretierst du das Bild?",
+      "uebersetzung": {
+        "fa": "این نقاشی را چطور تفسیر می‌کنی؟",
+        "en": "How do you interpret the picture?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ich habe sein Schweigen als Zustimmung interpretiert, aber offenbar war er dagegen.",
+      "uebersetzung": {
+        "fa": "من سکوتش را به معنای موافقت برداشت کردم، اما ظاهراً مخالف بود.",
+        "en": "I interpreted his silence as agreement, but apparently he was against it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "deuten",
+      "uebersetzung": {
+        "fa": "تعبیر کردن",
+        "en": "to interpret"
+      }
+    },
+    {
+      "wort": "auslegen",
+      "uebersetzung": {
+        "fa": "تفسیر کردن",
+        "en": "to construe"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. interpretari (توضیح دادن، تفسیر کردن) + -ieren",
+    "en": "lat. interpretari (to explain, to interpret) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas (Akk) als etwas (Akk) interpretieren",
+        "bedeutung": "etwas in einem bestimmten Sinn verstehen",
+        "beispiel": "Sie interpretierte seine Antwort als Kritik.",
+        "uebersetzung": {
+          "fa": "او جوابش را انتقاد برداشت کرد.",
+          "en": "She interpreted his answer as criticism."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "interpretieren",
+      "praeteritum": "interpretierte",
+      "partizip2": "interpretiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "interpretiere",
+        "du": "interpretierst",
+        "er_sie_es": "interpretiert",
+        "wir": "interpretieren",
+        "ihr": "interpretiert",
+        "sie_Sie": "interpretieren"
+      },
+      "praeteritum": {
+        "ich": "interpretierte",
+        "du": "interpretiertest",
+        "er_sie_es": "interpretierte",
+        "wir": "interpretierten",
+        "ihr": "interpretiertet",
+        "sie_Sie": "interpretierten"
+      },
+      "konjunktiv1": {
+        "ich": "interpretiere",
+        "du": "interpretierest",
+        "er_sie_es": "interpretiere",
+        "wir": "interpretieren",
+        "ihr": "interpretieret",
+        "sie_Sie": "interpretieren"
+      },
+      "konjunktiv2": {
+        "ich": "interpretierte",
+        "du": "interpretiertest",
+        "er_sie_es": "interpretierte",
+        "wir": "interpretierten",
+        "ihr": "interpretiertet",
+        "sie_Sie": "interpretierten"
+      },
+      "imperativ": {
+        "du": "Interpretiere!",
+        "ihr": "Interpretiert!",
+        "Sie": "Interpretieren Sie!"
+      }
+    },
+    "partizip1": "interpretierend",
+    "nominalisierung": "die Interpretation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "deuten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تعبیر کردن",
+          "en": "to interpret"
+        },
+        "id_ref": "verb_deuten"
+      },
+      {
+        "wort": "verstehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فهمیدن",
+          "en": "to understand"
+        },
+        "id_ref": "verb_verstehen"
+      },
+      {
+        "wort": "die Bedeutung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "معنا",
+          "en": "meaning"
+        },
+        "id_ref": "nomen_bedeutung"
+      },
+      {
+        "wort": "die Interpretation",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تفسیر",
+          "en": "interpretation"
+        },
+        "id_ref": "nomen_interpretation"
+      },
+      {
+        "wort": "missverstehen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بد فهمیدن",
+          "en": "to misunderstand"
+        },
+        "id_ref": "verb_missverstehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

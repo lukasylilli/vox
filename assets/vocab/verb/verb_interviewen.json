@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_interviewen",
+  "wort": "interviewen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مصاحبه کردن با",
+      "گفت‌وگو کردن با"
+    ],
+    "en": [
+      "to interview"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Medien",
+    "Arbeit"
+  ],
+  "ipa": "ɪntɐˈvjuːən",
+  "anmerkung": "Regelmäßig (interviewte, interviewt). Partizip II ohne ge-: «hat interviewt».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Journalistin interviewt den Trainer.",
+      "uebersetzung": {
+        "fa": "خبرنگار با مربی مصاحبه می‌کند.",
+        "en": "The journalist interviews the coach."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nachdem wir zwanzig Passanten interviewt hatten, war das Ergebnis eindeutig.",
+      "uebersetzung": {
+        "fa": "بعد از اینکه با بیست رهگذر مصاحبه کرده بودیم، نتیجه روشن بود.",
+        "en": "After we had interviewed twenty passers-by, the result was clear."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "befragen",
+      "uebersetzung": {
+        "fa": "پرسش کردن از",
+        "en": "to question"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "engl. to interview (مصاحبه کردن) + -en",
+    "en": "engl. to interview + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden (Akk) zu etwas (Dat) interviewen",
+        "bedeutung": "jemanden über ein Thema befragen",
+        "beispiel": "Das Radio interviewte die Ärztin zur Grippewelle.",
+        "uebersetzung": {
+          "fa": "رادیو درباره‌ی موج آنفلوانزا با پزشک مصاحبه کرد.",
+          "en": "The radio interviewed the doctor about the flu wave."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "interviewen",
+      "praeteritum": "interviewte",
+      "partizip2": "interviewt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "interviewe",
+        "du": "interviewst",
+        "er_sie_es": "interviewt",
+        "wir": "interviewen",
+        "ihr": "interviewt",
+        "sie_Sie": "interviewen"
+      },
+      "praeteritum": {
+        "ich": "interviewte",
+        "du": "interviewtest",
+        "er_sie_es": "interviewte",
+        "wir": "interviewten",
+        "ihr": "interviewtet",
+        "sie_Sie": "interviewten"
+      },
+      "konjunktiv1": {
+        "ich": "interviewe",
+        "du": "interviewest",
+        "er_sie_es": "interviewe",
+        "wir": "interviewen",
+        "ihr": "interviewet",
+        "sie_Sie": "interviewen"
+      },
+      "konjunktiv2": {
+        "ich": "interviewte",
+        "du": "interviewtest",
+        "er_sie_es": "interviewte",
+        "wir": "interviewten",
+        "ihr": "interviewtet",
+        "sie_Sie": "interviewten"
+      },
+      "imperativ": {
+        "du": "Interviewe!",
+        "ihr": "Interviewt!",
+        "Sie": "Interviewen Sie!"
+      }
+    },
+    "partizip1": "interviewend",
+    "nominalisierung": "das Interview"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Interview",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مصاحبه",
+          "en": "interview"
+        },
+        "id_ref": "nomen_interview"
+      },
+      {
+        "wort": "befragen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پرسش کردن از",
+          "en": "to question"
+        },
+        "id_ref": "verb_befragen"
+      },
+      {
+        "wort": "die Frage",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرسش",
+          "en": "question"
+        },
+        "id_ref": "nomen_frage"
+      },
+      {
+        "wort": "der Journalist",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خبرنگار",
+          "en": "journalist"
+        },
+        "id_ref": "nomen_journalist"
+      },
+      {
+        "wort": "die Umfrage",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نظرسنجی",
+          "en": "survey"
+        },
+        "id_ref": "nomen_umfrage"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

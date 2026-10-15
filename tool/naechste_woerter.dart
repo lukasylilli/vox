@@ -1694,6 +1694,12 @@ const zurueckgestellt = <String>{
   'inkommodieren', // zurückgestellt: veraltet/bildungssprachlich (belästigen); zeitlich/ersatz nicht sicher (Regel 17) 2026-10-15
   'innovieren', // zurückgestellt: sehr selten, Fachjargon; Gebrauch nicht sicher (Regel 14) 2026-10-15
   'insultieren', // zurückgestellt: bildungssprachlich/veraltet, österreichisch auch «beleidigen»; Stilmarkierung nicht sicher (Regel 17) 2026-10-15
+  'judizieren', // zurückgestellt: veraltet (urteilen, richten); zeitlich/ersatz nicht sicher (Regel 17) 2026-10-15
+  'kacken', // zurückgestellt: derb/vulgär (Kot ausscheiden) — Entscheidung Lukas (Regel 17) 2026-10-15
+  'kannelieren', // zurückgestellt: Fachwort Architektur (Säulen mit Rillen versehen), sehr selten (Regel 14) 2026-10-15
+  'karessieren', // zurückgestellt: veraltet (liebkosen, schmeicheln); zeitlich/ersatz nicht sicher (Regel 17) 2026-10-15
+  'ketzern', // zurückgestellt: selten/veraltet, Gebrauch und Bedeutung nicht sicher (Regel 14) 2026-10-15
+  'klamüsern', // zurückgestellt: regional/umgangssprachlich (meist «auseinanderklamüsern»); Gebrauch nicht sicher (Regel 14) 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

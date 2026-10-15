@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_interpellieren",
+  "wort": "interpellieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "استیضاح کردن",
+      "از دولت توضیح خواستن"
+    ],
+    "en": [
+      "to interpellate",
+      "to question the government"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Politik"
+  ],
+  "ipa": "ɪntɐpɛˈliːʁən",
+  "anmerkung": "Regelmäßig (interpellierte, interpelliert). Vor allem in der Schweiz und in Österreich gebräuchlich (parlamentarische Anfrage).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Opposition interpelliert die Regierung.",
+      "uebersetzung": {
+        "fa": "اپوزیسیون از دولت توضیح می‌خواهد.",
+        "en": "The opposition questions the government."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil der Skandal immer größer wurde, interpellierten mehrere Abgeordnete den Minister im Parlament.",
+      "uebersetzung": {
+        "fa": "چون رسوایی هر روز بزرگ‌تر می‌شد، چند نماینده وزیر را در مجلس استیضاح کردند.",
+        "en": "Because the scandal kept growing, several MPs interpellated the minister in parliament."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anfragen",
+      "uebersetzung": {
+        "fa": "استعلام کردن",
+        "en": "to inquire"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. interpellare (سخن کسی را قطع کردن) + -ieren",
+    "en": "lat. interpellare (to interrupt someone) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden (Akk) interpellieren",
+        "bedeutung": "an jemanden eine förmliche Anfrage richten",
+        "beispiel": "Die Fraktion interpellierte die Ministerin zur Gesundheitsreform.",
+        "uebersetzung": {
+          "fa": "فراکسیون درباره‌ی اصلاحات بهداشتی از وزیر توضیح خواست.",
+          "en": "The parliamentary group interpellated the minister on the health reform."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "interpellieren",
+      "praeteritum": "interpellierte",
+      "partizip2": "interpelliert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "interpelliere",
+        "du": "interpellierst",
+        "er_sie_es": "interpelliert",
+        "wir": "interpellieren",
+        "ihr": "interpelliert",
+        "sie_Sie": "interpellieren"
+      },
+      "praeteritum": {
+        "ich": "interpellierte",
+        "du": "interpelliertest",
+        "er_sie_es": "interpellierte",
+        "wir": "interpellierten",
+        "ihr": "interpelliertet",
+        "sie_Sie": "interpellierten"
+      },
+      "konjunktiv1": {
+        "ich": "interpelliere",
+        "du": "interpellierest",
+        "er_sie_es": "interpelliere",
+        "wir": "interpellieren",
+        "ihr": "interpellieret",
+        "sie_Sie": "interpellieren"
+      },
+      "konjunktiv2": {
+        "ich": "interpellierte",
+        "du": "interpelliertest",
+        "er_sie_es": "interpellierte",
+        "wir": "interpellierten",
+        "ihr": "interpelliertet",
+        "sie_Sie": "interpellierten"
+      },
+      "imperativ": {
+        "du": "Interpelliere!",
+        "ihr": "Interpelliert!",
+        "Sie": "Interpellieren Sie!"
+      }
+    },
+    "partizip1": "interpellierend",
+    "nominalisierung": "die Interpellation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Regierung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دولت",
+          "en": "government"
+        },
+        "id_ref": "nomen_regierung"
+      },
+      {
+        "wort": "das Parlament",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مجلس",
+          "en": "parliament"
+        },
+        "id_ref": "nomen_parlament"
+      },
+      {
+        "wort": "der Abgeordnete",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نماینده‌ی مجلس",
+          "en": "member of parliament"
+        },
+        "id_ref": "nomen_abgeordnete"
+      },
+      {
+        "wort": "die Anfrage",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "استعلام، پرسش رسمی",
+          "en": "inquiry"
+        },
+        "id_ref": "nomen_anfrage"
+      },
+      {
+        "wort": "die Interpellation",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "استیضاح",
+          "en": "interpellation"
+        },
+        "id_ref": "nomen_interpellation"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

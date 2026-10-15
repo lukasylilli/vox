@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_inventarisieren",
+  "wort": "inventarisieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سیاهه‌برداری کردن",
+      "انبارگردانی کردن"
+    ],
+    "en": [
+      "to take inventory of",
+      "to inventory"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Wirtschaft"
+  ],
+  "ipa": "ɪnvɛntaʁiˈziːʁən",
+  "anmerkung": "Regelmäßig (inventarisierte, inventarisiert).",
+  "berufe": [
+    "logistik",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir inventarisieren das Lager.",
+      "uebersetzung": {
+        "fa": "ما انبار را انبارگردانی می‌کنیم.",
+        "en": "We are taking inventory of the warehouse."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor das Museum umziehen konnte, mussten alle Objekte genau inventarisiert werden.",
+      "uebersetzung": {
+        "fa": "پیش از اینکه موزه بتواند جابه‌جا شود، باید همه‌ی اشیا دقیق سیاهه‌برداری می‌شدند.",
+        "en": "Before the museum could move, all objects had to be inventoried precisely."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erfassen",
+      "uebersetzung": {
+        "fa": "ثبت کردن",
+        "en": "to record"
+      }
+    },
+    {
+      "wort": "auflisten",
+      "uebersetzung": {
+        "fa": "فهرست کردن",
+        "en": "to list"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "das Inventar (موجودی) + -isieren",
+    "en": "das Inventar (inventory) + -isieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "inventarisieren",
+      "praeteritum": "inventarisierte",
+      "partizip2": "inventarisiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "inventarisiere",
+        "du": "inventarisierst",
+        "er_sie_es": "inventarisiert",
+        "wir": "inventarisieren",
+        "ihr": "inventarisiert",
+        "sie_Sie": "inventarisieren"
+      },
+      "praeteritum": {
+        "ich": "inventarisierte",
+        "du": "inventarisiertest",
+        "er_sie_es": "inventarisierte",
+        "wir": "inventarisierten",
+        "ihr": "inventarisiertet",
+        "sie_Sie": "inventarisierten"
+      },
+      "konjunktiv1": {
+        "ich": "inventarisiere",
+        "du": "inventarisierest",
+        "er_sie_es": "inventarisiere",
+        "wir": "inventarisieren",
+        "ihr": "inventarisieret",
+        "sie_Sie": "inventarisieren"
+      },
+      "konjunktiv2": {
+        "ich": "inventarisierte",
+        "du": "inventarisiertest",
+        "er_sie_es": "inventarisierte",
+        "wir": "inventarisierten",
+        "ihr": "inventarisiertet",
+        "sie_Sie": "inventarisierten"
+      },
+      "imperativ": {
+        "du": "Inventarisiere!",
+        "ihr": "Inventarisiert!",
+        "Sie": "Inventarisieren Sie!"
+      }
+    },
+    "partizip1": "inventarisierend",
+    "nominalisierung": "die Inventarisierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Inventar",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "موجودی، سیاهه",
+          "en": "inventory"
+        },
+        "id_ref": "nomen_inventar"
+      },
+      {
+        "wort": "das Lager",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انبار",
+          "en": "warehouse"
+        },
+        "id_ref": "nomen_lager"
+      },
+      {
+        "wort": "zählen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شمردن",
+          "en": "to count"
+        },
+        "id_ref": "verb_zaehlen"
+      },
+      {
+        "wort": "die Liste",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فهرست",
+          "en": "list"
+        },
+        "id_ref": "nomen_liste"
+      },
+      {
+        "wort": "die Inventur",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "انبارگردانی",
+          "en": "stocktaking"
+        },
+        "id_ref": "nomen_inventur"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
