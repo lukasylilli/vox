@@ -1650,6 +1650,7 @@ const zurueckgestellt = <String>{
   'frommen', // zurückgestellt: veraltet (nützen); zeitlich/ersatz nicht sicher (Regel 17) 2026-10-15
   'fummeln', // zurückgestellt: umgangssprachlich; eine Bedeutung mit sexuellem Bezug (wie befummeln) — Entscheidung Lukas 2026-10-15
   'furzen', // zurückgestellt: derb/vulgär — Entscheidung Lukas (Regel 17) 2026-10-15
+  'füßeln', // zurückgestellt: umgangssprachlich (unter dem Tisch mit den Füßen berühren, oft flirtend); Gebrauch nicht sicher (Regel 14) 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

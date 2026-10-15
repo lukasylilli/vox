@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_fussen",
+  "wort": "fußen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "متکی بودن",
+      "بر پایه‌ی ... بودن"
+    ],
+    "en": [
+      "to be based on",
+      "to rest on"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft"
+  ],
+  "ipa": "ˈfuːsn̩",
+  "anmerkung": "Regelmäßig (fußte, gefußt).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Plan fußt auf Fakten.",
+      "uebersetzung": {
+        "fa": "این برنامه بر پایه‌ی واقعیت‌هاست.",
+        "en": "The plan is based on facts."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Entscheidung fußt auf einer Studie, die über zehn Jahre lang durchgeführt wurde.",
+      "uebersetzung": {
+        "fa": "این تصمیم بر پژوهشی تکیه دارد که بیش از ده سال انجام شده است.",
+        "en": "The decision is based on a study that was carried out over ten years."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beruhen",
+      "uebersetzung": {
+        "fa": "مبتنی بودن",
+        "en": "to be based"
+      }
+    },
+    {
+      "wort": "basieren",
+      "uebersetzung": {
+        "fa": "بر پایه بودن",
+        "en": "to be based"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "der Fuß (پا) + -en",
+    "en": "der Fuß (foot) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Dat fußen",
+        "bedeutung": "etwas als Grundlage haben",
+        "beispiel": "Seine Theorie fußt auf alten Beobachtungen.",
+        "uebersetzung": {
+          "fa": "نظریه‌اش بر مشاهده‌های قدیمی استوار است.",
+          "en": "His theory rests on old observations."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "fußen",
+      "praeteritum": "fußte",
+      "partizip2": "gefußt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fuße",
+        "du": "fußt",
+        "er_sie_es": "fußt",
+        "wir": "fußen",
+        "ihr": "fußt",
+        "sie_Sie": "fußen"
+      },
+      "praeteritum": {
+        "ich": "fußte",
+        "du": "fußtest",
+        "er_sie_es": "fußte",
+        "wir": "fußten",
+        "ihr": "fußtet",
+        "sie_Sie": "fußten"
+      },
+      "konjunktiv1": {
+        "ich": "fuße",
+        "du": "fußest",
+        "er_sie_es": "fuße",
+        "wir": "fußen",
+        "ihr": "fußet",
+        "sie_Sie": "fußen"
+      },
+      "konjunktiv2": {
+        "ich": "fußte",
+        "du": "fußtest",
+        "er_sie_es": "fußte",
+        "wir": "fußten",
+        "ihr": "fußtet",
+        "sie_Sie": "fußten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "fußend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Fuß",
+    "woerter": [
+      {
+        "wort": "der Fuß",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پا",
+          "en": "foot"
+        },
+        "id_ref": "nomen_fuss"
+      },
+      {
+        "wort": "der Grund",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پایه، دلیل",
+          "en": "basis"
+        },
+        "id_ref": "nomen_grund"
+      },
+      {
+        "wort": "basieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بر پایه بودن",
+          "en": "to be based"
+        },
+        "id_ref": "verb_basieren"
+      },
+      {
+        "wort": "beruhen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مبتنی بودن",
+          "en": "to be based"
+        },
+        "id_ref": "verb_beruhen"
+      },
+      {
+        "wort": "die Grundlage",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پایه",
+          "en": "basis"
+        },
+        "id_ref": "nomen_grundlage"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
