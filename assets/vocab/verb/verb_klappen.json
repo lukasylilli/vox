@@ -1,0 +1,198 @@
+{
+  "schema": "3.0",
+  "id": "verb_klappen",
+  "wort": "klappen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جور شدن",
+      "نتیجه دادن",
+      "تا کردن / باز و بسته کردن"
+    ],
+    "en": [
+      "to work out",
+      "to fold",
+      "to flip"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Kommunikation"
+  ],
+  "ipa": "ˈklapn̩",
+  "anmerkung": "Regelmäßig (klappte, geklappt). «Es klappt» (umgangssprachlich: es gelingt) — sehr häufig.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Hat alles geklappt?",
+      "uebersetzung": {
+        "fa": "همه‌چیز جور شد؟",
+        "en": "Did everything work out?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn es mit dem Termin nicht klappt, rufen Sie uns bitte an.",
+      "uebersetzung": {
+        "fa": "اگر وقت ملاقات جور نشد، لطفاً با ما تماس بگیرید.",
+        "en": "If the appointment does not work out, please give us a call."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "funktionieren",
+      "uebersetzung": {
+        "fa": "کار کردن",
+        "en": "to work"
+      }
+    },
+    {
+      "wort": "gelingen",
+      "uebersetzung": {
+        "fa": "موفق شدن",
+        "en": "to succeed"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "scheitern",
+      "uebersetzung": {
+        "fa": "شکست خوردن",
+        "en": "to fail"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "die Klappe (دریچه) + -n",
+    "en": "die Klappe (flap) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mit etwas (Dat) klappen",
+        "bedeutung": "mit etwas gelingen, wie geplant laufen",
+        "beispiel": "Mit der Wohnung hat es leider nicht geklappt.",
+        "uebersetzung": {
+          "fa": "متأسفانه موضوع آپارتمان جور نشد.",
+          "en": "Unfortunately it did not work out with the flat."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "klappen",
+      "praeteritum": "klappte",
+      "partizip2": "geklappt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "klappe",
+        "du": "klappst",
+        "er_sie_es": "klappt",
+        "wir": "klappen",
+        "ihr": "klappt",
+        "sie_Sie": "klappen"
+      },
+      "praeteritum": {
+        "ich": "klappte",
+        "du": "klapptest",
+        "er_sie_es": "klappte",
+        "wir": "klappten",
+        "ihr": "klapptet",
+        "sie_Sie": "klappten"
+      },
+      "konjunktiv1": {
+        "ich": "klappe",
+        "du": "klappest",
+        "er_sie_es": "klappe",
+        "wir": "klappen",
+        "ihr": "klappet",
+        "sie_Sie": "klappen"
+      },
+      "konjunktiv2": {
+        "ich": "klappte",
+        "du": "klapptest",
+        "er_sie_es": "klappte",
+        "wir": "klappten",
+        "ihr": "klapptet",
+        "sie_Sie": "klappten"
+      },
+      "imperativ": {
+        "du": "Klappe!",
+        "ihr": "Klappt!",
+        "Sie": "Klappen Sie!"
+      }
+    },
+    "partizip1": "klappend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "funktionieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کار کردن",
+          "en": "to work"
+        },
+        "id_ref": "verb_funktionieren"
+      },
+      {
+        "wort": "gelingen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "موفق شدن",
+          "en": "to succeed"
+        },
+        "id_ref": "verb_gelingen"
+      },
+      {
+        "wort": "die Klappe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دریچه",
+          "en": "flap"
+        },
+        "id_ref": "nomen_klappe"
+      },
+      {
+        "wort": "aufklappen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "باز کردن (تاشو)",
+          "en": "to flip open"
+        },
+        "id_ref": "verb_aufklappen"
+      },
+      {
+        "wort": "der Erfolg",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "موفقیت",
+          "en": "success"
+        },
+        "id_ref": "nomen_erfolg"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

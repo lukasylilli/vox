@@ -1,0 +1,202 @@
+{
+  "schema": "3.0",
+  "id": "verb_klammern",
+  "wort": "klammern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "با گیره بستن",
+      "منگنه کردن",
+      "چسبیدن (به چیزی)"
+    ],
+    "en": [
+      "to clip",
+      "to staple",
+      "to cling"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Büro",
+    "Gesundheit",
+    "Gefühle"
+  ],
+  "ipa": "ˈklamɐn",
+  "anmerkung": "Regelmäßig (klammerte, geklammert). Medizinisch: eine Wunde klammern (mit Klammern verschließen).",
+  "berufe": [
+    "pflege_medizin",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich klammere die Blätter zusammen.",
+      "uebersetzung": {
+        "fa": "برگه‌ها را با گیره به هم می‌بندم.",
+        "en": "I clip the sheets together."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das ängstliche Kind klammerte sich an die Hand seiner Mutter, als es zum ersten Mal in den Kindergarten kam.",
+      "uebersetzung": {
+        "fa": "بچه‌ی ترسیده وقتی برای اولین بار به مهدکودک آمد، به دست مادرش چسبید.",
+        "en": "The anxious child clung to its mother’s hand when it came to kindergarten for the first time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "heften",
+      "uebersetzung": {
+        "fa": "منگنه کردن",
+        "en": "to staple"
+      }
+    },
+    {
+      "wort": "festhalten",
+      "uebersetzung": {
+        "fa": "محکم گرفتن",
+        "en": "to hold on"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "loslassen",
+      "uebersetzung": {
+        "fa": "رها کردن",
+        "en": "to let go"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "die Klammer (گیره) + -n",
+    "en": "die Klammer (clip) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich an jemanden/etwas (Akk) klammern",
+        "bedeutung": "sich krampfhaft an jemandem/etwas festhalten",
+        "beispiel": "Er klammert sich an die Hoffnung, dass alles gut wird.",
+        "uebersetzung": {
+          "fa": "او به این امید چسبیده که همه‌چیز درست می‌شود.",
+          "en": "He clings to the hope that everything will be fine."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "klammern",
+      "praeteritum": "klammerte",
+      "partizip2": "geklammert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "klammere",
+        "du": "klammerst",
+        "er_sie_es": "klammert",
+        "wir": "klammern",
+        "ihr": "klammert",
+        "sie_Sie": "klammern"
+      },
+      "praeteritum": {
+        "ich": "klammerte",
+        "du": "klammertest",
+        "er_sie_es": "klammerte",
+        "wir": "klammerten",
+        "ihr": "klammertet",
+        "sie_Sie": "klammerten"
+      },
+      "konjunktiv1": {
+        "ich": "klammere",
+        "du": "klammerest",
+        "er_sie_es": "klammere",
+        "wir": "klammern",
+        "ihr": "klammeret",
+        "sie_Sie": "klammern"
+      },
+      "konjunktiv2": {
+        "ich": "klammerte",
+        "du": "klammertest",
+        "er_sie_es": "klammerte",
+        "wir": "klammerten",
+        "ihr": "klammertet",
+        "sie_Sie": "klammerten"
+      },
+      "imperativ": {
+        "du": "Klammere!",
+        "ihr": "Klammert!",
+        "Sie": "Klammern Sie!"
+      }
+    },
+    "partizip1": "klammernd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Klammer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گیره",
+          "en": "clip"
+        },
+        "id_ref": "nomen_klammer"
+      },
+      {
+        "wort": "festhalten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "محکم گرفتن",
+          "en": "to hold on"
+        },
+        "id_ref": "verb_festhalten"
+      },
+      {
+        "wort": "heften",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "منگنه کردن",
+          "en": "to staple"
+        },
+        "id_ref": "verb_heften"
+      },
+      {
+        "wort": "die Wunde",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زخم",
+          "en": "wound"
+        },
+        "id_ref": "nomen_wunde"
+      },
+      {
+        "wort": "loslassen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رها کردن",
+          "en": "to let go"
+        },
+        "id_ref": "verb_loslassen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
