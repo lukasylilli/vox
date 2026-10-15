@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_klauen",
+  "wort": "klauen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کش رفتن",
+      "دزدیدن"
+    ],
+    "en": [
+      "to nick",
+      "to pinch",
+      "to steal"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Kriminalität",
+    "Alltag"
+  ],
+  "ipa": "ˈklaʊ̯ən",
+  "anmerkung": "Regelmäßig (klaute, geklaut). Umgangssprachlich für «stehlen»; auch: Ideen/Texte abschreiben.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Jemand hat mein Fahrrad geklaut!",
+      "uebersetzung": {
+        "fa": "یکی دوچرخه‌ام را دزدید!",
+        "en": "Somebody has nicked my bike!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "In der vollen U-Bahn klaute ihm ein Taschendieb das Handy, ohne dass er es merkte.",
+      "uebersetzung": {
+        "fa": "در مترو‌ی شلوغ یک جیب‌بر گوشی‌اش را کش رفت، بی‌آنکه متوجه شود.",
+        "en": "In the crowded underground a pickpocket pinched his mobile without him noticing."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "stehlen",
+      "uebersetzung": {
+        "fa": "دزدیدن",
+        "en": "to steal"
+      }
+    },
+    {
+      "wort": "mitgehen lassen",
+      "uebersetzung": {
+        "fa": "با خود بردن (دزدیدن)",
+        "en": "to walk off with"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zurückgeben",
+      "uebersetzung": {
+        "fa": "پس دادن",
+        "en": "to give back"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "klauen",
+      "praeteritum": "klaute",
+      "partizip2": "geklaut"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "klaue",
+        "du": "klaust",
+        "er_sie_es": "klaut",
+        "wir": "klauen",
+        "ihr": "klaut",
+        "sie_Sie": "klauen"
+      },
+      "praeteritum": {
+        "ich": "klaute",
+        "du": "klautest",
+        "er_sie_es": "klaute",
+        "wir": "klauten",
+        "ihr": "klautet",
+        "sie_Sie": "klauten"
+      },
+      "konjunktiv1": {
+        "ich": "klaue",
+        "du": "klauest",
+        "er_sie_es": "klaue",
+        "wir": "klauen",
+        "ihr": "klauet",
+        "sie_Sie": "klauen"
+      },
+      "konjunktiv2": {
+        "ich": "klaute",
+        "du": "klautest",
+        "er_sie_es": "klaute",
+        "wir": "klauten",
+        "ihr": "klautet",
+        "sie_Sie": "klauten"
+      },
+      "imperativ": {
+        "du": "Klaue!",
+        "ihr": "Klaut!",
+        "Sie": "Klauen Sie!"
+      }
+    },
+    "partizip1": "klauend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "stehlen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دزدیدن",
+          "en": "to steal"
+        },
+        "id_ref": "verb_stehlen"
+      },
+      {
+        "wort": "der Dieb",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دزد",
+          "en": "thief"
+        },
+        "id_ref": "nomen_dieb"
+      },
+      {
+        "wort": "der Diebstahl",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دزدی",
+          "en": "theft"
+        },
+        "id_ref": "nomen_diebstahl"
+      },
+      {
+        "wort": "die Polizei",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پلیس",
+          "en": "police"
+        },
+        "id_ref": "nomen_polizei"
+      },
+      {
+        "wort": "das Fahrrad",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دوچرخه",
+          "en": "bicycle"
+        },
+        "id_ref": "nomen_fahrrad"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_klassifizieren",
+  "wort": "klassifizieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "طبقه‌بندی کردن",
+      "رده‌بندی کردن"
+    ],
+    "en": [
+      "to classify"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Wissenschaft",
+    "Lernen"
+  ],
+  "ipa": "klasifiˈt͡siːʁən",
+  "anmerkung": "Regelmäßig (klassifizierte, klassifiziert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir klassifizieren die Pflanzen.",
+      "uebersetzung": {
+        "fa": "ما گیاهان را طبقه‌بندی می‌کنیم.",
+        "en": "We classify the plants."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Dokumente wurden als geheim klassifiziert, sodass nur wenige sie lesen durften.",
+      "uebersetzung": {
+        "fa": "این اسناد محرمانه طبقه‌بندی شدند، طوری که فقط چند نفر اجازه داشتند آن‌ها را بخوانند.",
+        "en": "The documents were classified as secret so that only a few were allowed to read them."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einteilen",
+      "uebersetzung": {
+        "fa": "تقسیم کردن",
+        "en": "to divide"
+      }
+    },
+    {
+      "wort": "kategorisieren",
+      "uebersetzung": {
+        "fa": "دسته‌بندی کردن",
+        "en": "to categorize"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "die Klasse (رده) + -ifizieren",
+    "en": "die Klasse (class) + -ifizieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas (Akk) nach etwas (Dat) klassifizieren",
+        "bedeutung": "nach einem Merkmal einteilen",
+        "beispiel": "Die Hotels werden nach Sternen klassifiziert.",
+        "uebersetzung": {
+          "fa": "هتل‌ها بر اساس ستاره رده‌بندی می‌شوند.",
+          "en": "Hotels are classified by stars."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "klassifizieren",
+      "praeteritum": "klassifizierte",
+      "partizip2": "klassifiziert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "klassifiziere",
+        "du": "klassifizierst",
+        "er_sie_es": "klassifiziert",
+        "wir": "klassifizieren",
+        "ihr": "klassifiziert",
+        "sie_Sie": "klassifizieren"
+      },
+      "praeteritum": {
+        "ich": "klassifizierte",
+        "du": "klassifiziertest",
+        "er_sie_es": "klassifizierte",
+        "wir": "klassifizierten",
+        "ihr": "klassifiziertet",
+        "sie_Sie": "klassifizierten"
+      },
+      "konjunktiv1": {
+        "ich": "klassifiziere",
+        "du": "klassifizierest",
+        "er_sie_es": "klassifiziere",
+        "wir": "klassifizieren",
+        "ihr": "klassifizieret",
+        "sie_Sie": "klassifizieren"
+      },
+      "konjunktiv2": {
+        "ich": "klassifizierte",
+        "du": "klassifiziertest",
+        "er_sie_es": "klassifizierte",
+        "wir": "klassifizierten",
+        "ihr": "klassifiziertet",
+        "sie_Sie": "klassifizierten"
+      },
+      "imperativ": {
+        "du": "Klassifiziere!",
+        "ihr": "Klassifiziert!",
+        "Sie": "Klassifizieren Sie!"
+      }
+    },
+    "partizip1": "klassifizierend",
+    "nominalisierung": "die Klassifizierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Klasse",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رده، کلاس",
+          "en": "class"
+        },
+        "id_ref": "nomen_klasse"
+      },
+      {
+        "wort": "kategorisieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دسته‌بندی کردن",
+          "en": "to categorize"
+        },
+        "id_ref": "verb_kategorisieren"
+      },
+      {
+        "wort": "ordnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مرتب کردن",
+          "en": "to arrange"
+        },
+        "id_ref": "verb_ordnen"
+      },
+      {
+        "wort": "die Gruppe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گروه",
+          "en": "group"
+        },
+        "id_ref": "nomen_gruppe"
+      },
+      {
+        "wort": "die Klassifikation",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "طبقه‌بندی",
+          "en": "classification"
+        },
+        "id_ref": "nomen_klassifikation"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

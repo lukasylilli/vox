@@ -1,0 +1,202 @@
+{
+  "schema": "3.0",
+  "id": "verb_kleben",
+  "wort": "kleben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "چسباندن",
+      "چسبیدن"
+    ],
+    "en": [
+      "to glue",
+      "to stick"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Schule"
+  ],
+  "ipa": "ˈkleːbn̩",
+  "anmerkung": "Regelmäßig (klebte, geklebt).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich klebe ein Foto ins Heft.",
+      "uebersetzung": {
+        "fa": "یک عکس در دفتر می‌چسبانم.",
+        "en": "I stick a photo into the exercise book."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil das Pflaster nicht mehr klebte, musste die Krankenschwester ein neues holen.",
+      "uebersetzung": {
+        "fa": "چون چسب زخم دیگر نمی‌چسبید، پرستار مجبور شد یکی دیگر بیاورد.",
+        "en": "Because the plaster no longer stuck, the nurse had to fetch a new one."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "leimen",
+      "uebersetzung": {
+        "fa": "چسب زدن",
+        "en": "to glue"
+      }
+    },
+    {
+      "wort": "haften",
+      "uebersetzung": {
+        "fa": "چسبیدن",
+        "en": "to adhere"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "lösen",
+      "uebersetzung": {
+        "fa": "جدا کردن",
+        "en": "to detach"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas (Akk) an/auf etwas (Akk) kleben",
+        "bedeutung": "etwas mit Klebstoff irgendwo befestigen",
+        "beispiel": "Er klebt einen Zettel an die Tür.",
+        "uebersetzung": {
+          "fa": "او یک یادداشت روی در می‌چسباند.",
+          "en": "He sticks a note on the door."
+        }
+      },
+      {
+        "muster": "an etwas (Dat) kleben",
+        "bedeutung": "an etwas haften",
+        "beispiel": "Der Kaugummi klebt an meinem Schuh.",
+        "uebersetzung": {
+          "fa": "آدامس به کفشم چسبیده است.",
+          "en": "The chewing gum is stuck to my shoe."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "kleben",
+      "praeteritum": "klebte",
+      "partizip2": "geklebt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "klebe",
+        "du": "klebst",
+        "er_sie_es": "klebt",
+        "wir": "kleben",
+        "ihr": "klebt",
+        "sie_Sie": "kleben"
+      },
+      "praeteritum": {
+        "ich": "klebte",
+        "du": "klebtest",
+        "er_sie_es": "klebte",
+        "wir": "klebten",
+        "ihr": "klebtet",
+        "sie_Sie": "klebten"
+      },
+      "konjunktiv1": {
+        "ich": "klebe",
+        "du": "klebest",
+        "er_sie_es": "klebe",
+        "wir": "kleben",
+        "ihr": "klebet",
+        "sie_Sie": "kleben"
+      },
+      "konjunktiv2": {
+        "ich": "klebte",
+        "du": "klebtest",
+        "er_sie_es": "klebte",
+        "wir": "klebten",
+        "ihr": "klebtet",
+        "sie_Sie": "klebten"
+      },
+      "imperativ": {
+        "du": "Klebe!",
+        "ihr": "Klebt!",
+        "Sie": "Kleben Sie!"
+      }
+    },
+    "partizip1": "klebend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Kleber",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چسب",
+          "en": "glue"
+        },
+        "id_ref": "nomen_kleber"
+      },
+      {
+        "wort": "der Klebstoff",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "چسب",
+          "en": "adhesive"
+        },
+        "id_ref": "nomen_klebstoff"
+      },
+      {
+        "wort": "das Pflaster",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چسب زخم",
+          "en": "plaster"
+        },
+        "id_ref": "nomen_pflaster"
+      },
+      {
+        "wort": "klebrig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "چسبناک",
+          "en": "sticky"
+        },
+        "id_ref": "adjektiv_klebrig"
+      },
+      {
+        "wort": "die Schere",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قیچی",
+          "en": "scissors"
+        },
+        "id_ref": "nomen_schere"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

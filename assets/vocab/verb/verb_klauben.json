@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_klauben",
+  "wort": "klauben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دانه‌دانه چیدن",
+      "برداشتن (با انگشت)"
+    ],
+    "en": [
+      "to pick",
+      "to pick out"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈklaʊ̯bn̩",
+  "anmerkung": "Regelmäßig (klaubte, geklaubt). Besonders süddeutsch/österreichisch (z. B. «Erdäpfel klauben»).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er klaubt die Krümel vom Tisch.",
+      "uebersetzung": {
+        "fa": "او خرده‌نان‌ها را دانه‌دانه از روی میز برمی‌دارد.",
+        "en": "He picks the crumbs off the table."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Herbst klauben die Kinder Kastanien auf, um damit zu basteln.",
+      "uebersetzung": {
+        "fa": "پاییز بچه‌ها شاه‌بلوط‌ها را از زمین جمع می‌کنند تا با آن‌ها کاردستی بسازند.",
+        "en": "In autumn the children pick up chestnuts to make crafts with."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sammeln",
+      "uebersetzung": {
+        "fa": "جمع کردن",
+        "en": "to collect"
+      }
+    },
+    {
+      "wort": "aufheben",
+      "uebersetzung": {
+        "fa": "برداشتن",
+        "en": "to pick up"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas (Akk) aus etwas (Dat) klauben",
+        "bedeutung": "etwas mühsam aus etwas herausholen",
+        "beispiel": "Sie klaubte die Rosinen aus dem Kuchen.",
+        "uebersetzung": {
+          "fa": "او کشمش‌ها را دانه‌دانه از کیک بیرون آورد.",
+          "en": "She picked the raisins out of the cake."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "klauben",
+      "praeteritum": "klaubte",
+      "partizip2": "geklaubt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "klaube",
+        "du": "klaubst",
+        "er_sie_es": "klaubt",
+        "wir": "klauben",
+        "ihr": "klaubt",
+        "sie_Sie": "klauben"
+      },
+      "praeteritum": {
+        "ich": "klaubte",
+        "du": "klaubtest",
+        "er_sie_es": "klaubte",
+        "wir": "klaubten",
+        "ihr": "klaubtet",
+        "sie_Sie": "klaubten"
+      },
+      "konjunktiv1": {
+        "ich": "klaube",
+        "du": "klaubest",
+        "er_sie_es": "klaube",
+        "wir": "klauben",
+        "ihr": "klaubet",
+        "sie_Sie": "klauben"
+      },
+      "konjunktiv2": {
+        "ich": "klaubte",
+        "du": "klaubtest",
+        "er_sie_es": "klaubte",
+        "wir": "klaubten",
+        "ihr": "klaubtet",
+        "sie_Sie": "klaubten"
+      },
+      "imperativ": {
+        "du": "Klaube!",
+        "ihr": "Klaubt!",
+        "Sie": "Klauben Sie!"
+      }
+    },
+    "partizip1": "klaubend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "sammeln",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جمع کردن",
+          "en": "to collect"
+        },
+        "id_ref": "verb_sammeln"
+      },
+      {
+        "wort": "aufheben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برداشتن",
+          "en": "to pick up"
+        },
+        "id_ref": "verb_aufheben"
+      },
+      {
+        "wort": "pflücken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چیدن",
+          "en": "to pick"
+        },
+        "id_ref": "verb_pfluecken"
+      },
+      {
+        "wort": "der Finger",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "انگشت",
+          "en": "finger"
+        },
+        "id_ref": "nomen_finger"
+      },
+      {
+        "wort": "der Krümel",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خرده",
+          "en": "crumb"
+        },
+        "id_ref": "nomen_kruemel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

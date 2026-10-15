@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_klaeren",
+  "wort": "klären",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "روشن کردن",
+      "حل و فصل کردن",
+      "تصفیه کردن"
+    ],
+    "en": [
+      "to clarify",
+      "to settle",
+      "to purify"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Kommunikation",
+    "Arbeit"
+  ],
+  "ipa": "ˈklɛːʁən",
+  "anmerkung": "Regelmäßig (klärte, geklärt). Reflexiv: «Die Lage hat sich geklärt» (ist klar geworden).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das klären wir morgen.",
+      "uebersetzung": {
+        "fa": "این را فردا روشن می‌کنیم.",
+        "en": "We will sort that out tomorrow."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bevor wir den Vertrag unterschreiben, müssen noch ein paar Fragen geklärt werden.",
+      "uebersetzung": {
+        "fa": "پیش از امضای قرارداد، هنوز باید چند پرسش روشن شود.",
+        "en": "Before we sign the contract a few questions still have to be clarified."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufklären",
+      "uebersetzung": {
+        "fa": "روشن کردن",
+        "en": "to clear up"
+      }
+    },
+    {
+      "wort": "lösen",
+      "uebersetzung": {
+        "fa": "حل کردن",
+        "en": "to solve"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verwirren",
+      "uebersetzung": {
+        "fa": "گیج کردن",
+        "en": "to confuse"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "klar (روشن) + -en",
+    "en": "klar (clear) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "klären",
+      "praeteritum": "klärte",
+      "partizip2": "geklärt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kläre",
+        "du": "klärst",
+        "er_sie_es": "klärt",
+        "wir": "klären",
+        "ihr": "klärt",
+        "sie_Sie": "klären"
+      },
+      "praeteritum": {
+        "ich": "klärte",
+        "du": "klärtest",
+        "er_sie_es": "klärte",
+        "wir": "klärten",
+        "ihr": "klärtet",
+        "sie_Sie": "klärten"
+      },
+      "konjunktiv1": {
+        "ich": "kläre",
+        "du": "klärest",
+        "er_sie_es": "kläre",
+        "wir": "klären",
+        "ihr": "kläret",
+        "sie_Sie": "klären"
+      },
+      "konjunktiv2": {
+        "ich": "klärte",
+        "du": "klärtest",
+        "er_sie_es": "klärte",
+        "wir": "klärten",
+        "ihr": "klärtet",
+        "sie_Sie": "klärten"
+      },
+      "imperativ": {
+        "du": "Kläre!",
+        "ihr": "Klärt!",
+        "Sie": "Klären Sie!"
+      }
+    },
+    "partizip1": "klärend",
+    "nominalisierung": "die Klärung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "klar",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "روشن",
+          "en": "clear"
+        },
+        "id_ref": "adjektiv_klar"
+      },
+      {
+        "wort": "die Klärung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "روشن‌سازی",
+          "en": "clarification"
+        },
+        "id_ref": "nomen_klaerung"
+      },
+      {
+        "wort": "lösen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حل کردن",
+          "en": "to solve"
+        },
+        "id_ref": "verb_loesen"
+      },
+      {
+        "wort": "die Frage",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرسش",
+          "en": "question"
+        },
+        "id_ref": "nomen_frage"
+      },
+      {
+        "wort": "die Kläranlage",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تصفیه‌خانه",
+          "en": "sewage plant"
+        },
+        "id_ref": "nomen_klaeranlage"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
