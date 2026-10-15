@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_feilen",
+  "wort": "feilen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سوهان زدن",
+      "صیقل دادن"
+    ],
+    "en": [
+      "to file",
+      "to polish"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Handwerk",
+    "Körperpflege"
+  ],
+  "ipa": "ˈfaɪ̯lən",
+  "anmerkung": "Regelmäßig (feilte, gefeilt).",
+  "berufe": [
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie feilt ihre Nägel.",
+      "uebersetzung": {
+        "fa": "ناخن‌هایش را سوهان می‌زند.",
+        "en": "She files her nails."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Schlosser feilte so lange an dem Schlüssel, bis er perfekt ins Schloss passte.",
+      "uebersetzung": {
+        "fa": "قفل‌ساز آن‌قدر کلید را سوهان زد تا کاملاً در قفل جا افتاد.",
+        "en": "The locksmith filed the key until it fitted the lock perfectly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schleifen",
+      "uebersetzung": {
+        "fa": "ساییدن",
+        "en": "to grind"
+      }
+    },
+    {
+      "wort": "polieren",
+      "uebersetzung": {
+        "fa": "صیقل دادن",
+        "en": "to polish"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "die Feile (سوهان) + -n",
+    "en": "die Feile (file) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "an + Dat feilen",
+        "bedeutung": "etwas sorgfältig verbessern",
+        "beispiel": "Sie feilt noch an ihrer Rede für die Hochzeit.",
+        "uebersetzung": {
+          "fa": "هنوز دارد روی سخنرانی‌اش برای عروسی کار می‌کند.",
+          "en": "She is still polishing her speech for the wedding."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "feilen",
+      "praeteritum": "feilte",
+      "partizip2": "gefeilt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "feile",
+        "du": "feilst",
+        "er_sie_es": "feilt",
+        "wir": "feilen",
+        "ihr": "feilt",
+        "sie_Sie": "feilen"
+      },
+      "praeteritum": {
+        "ich": "feilte",
+        "du": "feiltest",
+        "er_sie_es": "feilte",
+        "wir": "feilten",
+        "ihr": "feiltet",
+        "sie_Sie": "feilten"
+      },
+      "konjunktiv1": {
+        "ich": "feile",
+        "du": "feilest",
+        "er_sie_es": "feile",
+        "wir": "feilen",
+        "ihr": "feilet",
+        "sie_Sie": "feilen"
+      },
+      "konjunktiv2": {
+        "ich": "feilte",
+        "du": "feiltest",
+        "er_sie_es": "feilte",
+        "wir": "feilten",
+        "ihr": "feiltet",
+        "sie_Sie": "feilten"
+      },
+      "imperativ": {
+        "du": "Feile!",
+        "ihr": "Feilt!",
+        "Sie": "Feilen Sie!"
+      }
+    },
+    "partizip1": "feilend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Feile",
+    "woerter": [
+      {
+        "wort": "glatt",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صاف",
+          "en": "smooth"
+        },
+        "id_ref": "adjektiv_glatt"
+      },
+      {
+        "wort": "der Nagel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ناخن، میخ",
+          "en": "nail"
+        },
+        "id_ref": "nomen_nagel"
+      },
+      {
+        "wort": "verbessern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بهتر کردن",
+          "en": "to improve"
+        },
+        "id_ref": "verb_verbessern"
+      },
+      {
+        "wort": "polieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "صیقل دادن",
+          "en": "to polish"
+        },
+        "id_ref": "verb_polieren"
+      },
+      {
+        "wort": "die Feile",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سوهان",
+          "en": "file"
+        },
+        "id_ref": "nomen_feile"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_feuern",
+  "wort": "feuern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شلیک کردن",
+      "اخراج کردن"
+    ],
+    "en": [
+      "to fire",
+      "to sack"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Militär"
+  ],
+  "ipa": "ˈfɔɪ̯ɐn",
+  "anmerkung": "Regelmäßig (feuerte, gefeuert). «jemanden feuern» = jemanden entlassen (umgangssprachlich).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Chef hat ihn gefeuert.",
+      "uebersetzung": {
+        "fa": "رئیس او را اخراج کرد.",
+        "en": "The boss fired him."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Soldat feuerte in die Luft, um die Menschen zu warnen.",
+      "uebersetzung": {
+        "fa": "سرباز برای هشدار دادن به مردم هوایی شلیک کرد.",
+        "en": "The soldier fired into the air to warn the people."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "entlassen",
+      "uebersetzung": {
+        "fa": "اخراج کردن",
+        "en": "to dismiss"
+      }
+    },
+    {
+      "wort": "schießen",
+      "uebersetzung": {
+        "fa": "شلیک کردن",
+        "en": "to shoot"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "das Feuer (آتش) + -n",
+    "en": "das Feuer (fire) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "auf + Akk feuern",
+        "bedeutung": "auf jemanden oder etwas schießen",
+        "beispiel": "Die Polizei feuerte auf die Reifen des Autos.",
+        "uebersetzung": {
+          "fa": "پلیس به لاستیک‌های ماشین شلیک کرد.",
+          "en": "The police fired at the car’s tyres."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "feuern",
+      "praeteritum": "feuerte",
+      "partizip2": "gefeuert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "feuere",
+        "du": "feuerst",
+        "er_sie_es": "feuert",
+        "wir": "feuern",
+        "ihr": "feuert",
+        "sie_Sie": "feuern"
+      },
+      "praeteritum": {
+        "ich": "feuerte",
+        "du": "feuertest",
+        "er_sie_es": "feuerte",
+        "wir": "feuerten",
+        "ihr": "feuertet",
+        "sie_Sie": "feuerten"
+      },
+      "konjunktiv1": {
+        "ich": "feuere",
+        "du": "feuerest",
+        "er_sie_es": "feuere",
+        "wir": "feuern",
+        "ihr": "feueret",
+        "sie_Sie": "feuern"
+      },
+      "konjunktiv2": {
+        "ich": "feuerte",
+        "du": "feuertest",
+        "er_sie_es": "feuerte",
+        "wir": "feuerten",
+        "ihr": "feuertet",
+        "sie_Sie": "feuerten"
+      },
+      "imperativ": {
+        "du": "Feuere!",
+        "ihr": "Feuert!",
+        "Sie": "Feuern Sie!"
+      }
+    },
+    "partizip1": "feuernd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Feuer",
+    "woerter": [
+      {
+        "wort": "das Feuer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آتش",
+          "en": "fire"
+        },
+        "id_ref": "nomen_feuer"
+      },
+      {
+        "wort": "heizen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گرم کردن",
+          "en": "to heat"
+        },
+        "id_ref": "verb_heizen"
+      },
+      {
+        "wort": "entlassen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اخراج کردن",
+          "en": "to dismiss"
+        },
+        "id_ref": "verb_entlassen"
+      },
+      {
+        "wort": "schießen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شلیک کردن",
+          "en": "to shoot"
+        },
+        "id_ref": "verb_schiessen"
+      },
+      {
+        "wort": "die Kündigung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فسخ قرارداد کار",
+          "en": "dismissal"
+        },
+        "id_ref": "nomen_kuendigung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

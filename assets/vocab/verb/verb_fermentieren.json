@@ -1,0 +1,171 @@
+{
+  "schema": "3.0",
+  "id": "verb_fermentieren",
+  "wort": "fermentieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تخمیر کردن"
+    ],
+    "en": [
+      "to ferment"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Lebensmittel",
+    "Kochen"
+  ],
+  "ipa": "fɛʁmɛnˈtiːʁən",
+  "anmerkung": "Regelmäßig (fermentierte, fermentiert).",
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir fermentieren Kohl.",
+      "uebersetzung": {
+        "fa": "کلم را تخمیر می‌کنیم.",
+        "en": "We ferment cabbage."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn man Gemüse fermentiert, bleibt es lange haltbar und schmeckt leicht säuerlich.",
+      "uebersetzung": {
+        "fa": "وقتی سبزی را تخمیر می‌کنند، مدت زیادی سالم می‌ماند و کمی ترش‌مزه می‌شود.",
+        "en": "When you ferment vegetables, they keep for a long time and taste slightly sour."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gären",
+      "uebersetzung": {
+        "fa": "تخمیر شدن",
+        "en": "to ferment"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. fermentum (مایه‌ی تخمیر) + -ieren",
+    "en": "lat. fermentum (leaven) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "fermentieren",
+      "praeteritum": "fermentierte",
+      "partizip2": "fermentiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fermentiere",
+        "du": "fermentierst",
+        "er_sie_es": "fermentiert",
+        "wir": "fermentieren",
+        "ihr": "fermentiert",
+        "sie_Sie": "fermentieren"
+      },
+      "praeteritum": {
+        "ich": "fermentierte",
+        "du": "fermentiertest",
+        "er_sie_es": "fermentierte",
+        "wir": "fermentierten",
+        "ihr": "fermentiertet",
+        "sie_Sie": "fermentierten"
+      },
+      "konjunktiv1": {
+        "ich": "fermentiere",
+        "du": "fermentierest",
+        "er_sie_es": "fermentiere",
+        "wir": "fermentieren",
+        "ihr": "fermentieret",
+        "sie_Sie": "fermentieren"
+      },
+      "konjunktiv2": {
+        "ich": "fermentierte",
+        "du": "fermentiertest",
+        "er_sie_es": "fermentierte",
+        "wir": "fermentierten",
+        "ihr": "fermentiertet",
+        "sie_Sie": "fermentierten"
+      },
+      "imperativ": {
+        "du": "Fermentiere!",
+        "ihr": "Fermentiert!",
+        "Sie": "Fermentieren Sie!"
+      }
+    },
+    "partizip1": "fermentierend",
+    "nominalisierung": "die Fermentation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Gemüse",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سبزی",
+          "en": "vegetables"
+        },
+        "id_ref": "nomen_gemuese"
+      },
+      {
+        "wort": "sauer",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترش",
+          "en": "sour"
+        },
+        "id_ref": "adjektiv_sauer"
+      },
+      {
+        "wort": "haltbar",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ماندگار",
+          "en": "durable, keeping"
+        },
+        "id_ref": "adjektiv_haltbar"
+      },
+      {
+        "wort": "gären",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تخمیر شدن",
+          "en": "to ferment"
+        },
+        "id_ref": "verb_gaeren"
+      },
+      {
+        "wort": "die Fermentation",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تخمیر",
+          "en": "fermentation"
+        },
+        "id_ref": "nomen_fermentation"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

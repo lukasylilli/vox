@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_fertigen",
+  "wort": "fertigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ساختن",
+      "تولید کردن"
+    ],
+    "en": [
+      "to make",
+      "to manufacture"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit",
+    "Industrie"
+  ],
+  "ipa": "ˈfɛʁtɪɡn̩",
+  "anmerkung": "Regelmäßig (fertigte, gefertigt).",
+  "berufe": [
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Tischler fertigt einen Tisch.",
+      "uebersetzung": {
+        "fa": "نجار یک میز می‌سازد.",
+        "en": "The carpenter makes a table."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Teile werden in einer Fabrik gefertigt, die seit Jahrzehnten für ihre Qualität bekannt ist.",
+      "uebersetzung": {
+        "fa": "قطعه‌ها در کارخانه‌ای ساخته می‌شوند که ده‌ها سال است به کیفیتش معروف است.",
+        "en": "The parts are manufactured in a factory that has been known for its quality for decades."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "herstellen",
+      "uebersetzung": {
+        "fa": "تولید کردن",
+        "en": "to produce"
+      }
+    },
+    {
+      "wort": "produzieren",
+      "uebersetzung": {
+        "fa": "تولید کردن",
+        "en": "to produce"
+      }
+    },
+    {
+      "wort": "anfertigen",
+      "uebersetzung": {
+        "fa": "ساختن",
+        "en": "to make"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "fertig (آماده) + -en",
+    "en": "fertig (finished) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "fertigen",
+      "praeteritum": "fertigte",
+      "partizip2": "gefertigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fertige",
+        "du": "fertigst",
+        "er_sie_es": "fertigt",
+        "wir": "fertigen",
+        "ihr": "fertigt",
+        "sie_Sie": "fertigen"
+      },
+      "praeteritum": {
+        "ich": "fertigte",
+        "du": "fertigtest",
+        "er_sie_es": "fertigte",
+        "wir": "fertigten",
+        "ihr": "fertigtet",
+        "sie_Sie": "fertigten"
+      },
+      "konjunktiv1": {
+        "ich": "fertige",
+        "du": "fertigest",
+        "er_sie_es": "fertige",
+        "wir": "fertigen",
+        "ihr": "fertiget",
+        "sie_Sie": "fertigen"
+      },
+      "konjunktiv2": {
+        "ich": "fertigte",
+        "du": "fertigtest",
+        "er_sie_es": "fertigte",
+        "wir": "fertigten",
+        "ihr": "fertigtet",
+        "sie_Sie": "fertigten"
+      },
+      "imperativ": {
+        "du": "Fertige!",
+        "ihr": "Fertigt!",
+        "Sie": "Fertigen Sie!"
+      }
+    },
+    "partizip1": "fertigend",
+    "nominalisierung": "die Fertigung"
+  },
+  "wortnetz": {
+    "grundwort": "fertig",
+    "woerter": [
+      {
+        "wort": "fertig",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آماده، تمام",
+          "en": "ready, finished"
+        },
+        "id_ref": "adjektiv_fertig"
+      },
+      {
+        "wort": "herstellen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تولید کردن",
+          "en": "to produce"
+        },
+        "id_ref": "verb_herstellen"
+      },
+      {
+        "wort": "produzieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تولید کردن",
+          "en": "to produce"
+        },
+        "id_ref": "verb_produzieren"
+      },
+      {
+        "wort": "anfertigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ساختن",
+          "en": "to make"
+        },
+        "id_ref": "verb_anfertigen"
+      },
+      {
+        "wort": "die Fertigung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تولید",
+          "en": "manufacturing"
+        },
+        "id_ref": "nomen_fertigung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
