@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_fixieren",
+  "wort": "fixieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ثابت کردن",
+      "خیره نگاه کردن"
+    ],
+    "en": [
+      "to fix",
+      "to stare at"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Technik",
+    "Medizin"
+  ],
+  "ipa": "fɪˈksiːʁən",
+  "anmerkung": "Regelmäßig (fixierte, fixiert). In der Pflege: einen Patienten fixieren = am Bett festbinden (nur mit Genehmigung). Auch: jemanden fixieren = starr ansehen.",
+  "berufe": [
+    "pflege_medizin",
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er fixiert das Bild an der Wand.",
+      "uebersetzung": {
+        "fa": "او عکس را روی دیوار محکم می‌کند.",
+        "en": "He fixes the picture to the wall."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ein unruhiger Patient darf nur in Ausnahmefällen und mit Genehmigung fixiert werden.",
+      "uebersetzung": {
+        "fa": "بیمار بی‌قرار را فقط در موارد استثنایی و با مجوز می‌شود به تخت بست.",
+        "en": "A restless patient may only be restrained in exceptional cases and with permission."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "befestigen",
+      "uebersetzung": {
+        "fa": "محکم کردن",
+        "en": "to fasten"
+      }
+    },
+    {
+      "wort": "festmachen",
+      "uebersetzung": {
+        "fa": "محکم کردن",
+        "en": "to fasten"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. fixus (ثابت) + -ieren",
+    "en": "lat. fixus (fixed) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "fixieren",
+      "praeteritum": "fixierte",
+      "partizip2": "fixiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fixiere",
+        "du": "fixierst",
+        "er_sie_es": "fixiert",
+        "wir": "fixieren",
+        "ihr": "fixiert",
+        "sie_Sie": "fixieren"
+      },
+      "praeteritum": {
+        "ich": "fixierte",
+        "du": "fixiertest",
+        "er_sie_es": "fixierte",
+        "wir": "fixierten",
+        "ihr": "fixiertet",
+        "sie_Sie": "fixierten"
+      },
+      "konjunktiv1": {
+        "ich": "fixiere",
+        "du": "fixierest",
+        "er_sie_es": "fixiere",
+        "wir": "fixieren",
+        "ihr": "fixieret",
+        "sie_Sie": "fixieren"
+      },
+      "konjunktiv2": {
+        "ich": "fixierte",
+        "du": "fixiertest",
+        "er_sie_es": "fixierte",
+        "wir": "fixierten",
+        "ihr": "fixiertet",
+        "sie_Sie": "fixierten"
+      },
+      "imperativ": {
+        "du": "Fixiere!",
+        "ihr": "Fixiert!",
+        "Sie": "Fixieren Sie!"
+      }
+    },
+    "partizip1": "fixierend",
+    "nominalisierung": "die Fixierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "fest",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "محکم",
+          "en": "firm"
+        },
+        "id_ref": "adjektiv_fest"
+      },
+      {
+        "wort": "befestigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "محکم کردن",
+          "en": "to fasten"
+        },
+        "id_ref": "verb_befestigen"
+      },
+      {
+        "wort": "der Patient",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "patient"
+        },
+        "id_ref": "nomen_patient"
+      },
+      {
+        "wort": "starren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خیره شدن",
+          "en": "to stare"
+        },
+        "id_ref": "verb_starren"
+      },
+      {
+        "wort": "die Fixierung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مهار بیمار، تثبیت",
+          "en": "restraint, fixation"
+        },
+        "id_ref": "nomen_fixierung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

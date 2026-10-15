@@ -1,0 +1,169 @@
+{
+  "schema": "3.0",
+  "id": "verb_fischen",
+  "wort": "fischen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ماهی گرفتن"
+    ],
+    "en": [
+      "to fish"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Natur",
+    "Freizeit"
+  ],
+  "ipa": "ˈfɪʃn̩",
+  "anmerkung": "Regelmäßig (fischte, gefischt). Übertragen: «im Trüben fischen» (aus einer unklaren Lage Vorteil ziehen).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mein Opa fischt am See.",
+      "uebersetzung": {
+        "fa": "پدربزرگم کنار دریاچه ماهی می‌گیرد.",
+        "en": "My grandpa fishes at the lake."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil der Fluss stark verschmutzt ist, darf man dort zurzeit nicht fischen.",
+      "uebersetzung": {
+        "fa": "چون رودخانه خیلی آلوده است، فعلاً نمی‌شود آنجا ماهی گرفت.",
+        "en": "Because the river is badly polluted, fishing there is currently not allowed."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "angeln",
+      "uebersetzung": {
+        "fa": "ماهیگیری کردن",
+        "en": "to angle"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "der Fisch (ماهی) + -en",
+    "en": "der Fisch (fish) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "fischen",
+      "praeteritum": "fischte",
+      "partizip2": "gefischt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "fische",
+        "du": "fischst",
+        "er_sie_es": "fischt",
+        "wir": "fischen",
+        "ihr": "fischt",
+        "sie_Sie": "fischen"
+      },
+      "praeteritum": {
+        "ich": "fischte",
+        "du": "fischtest",
+        "er_sie_es": "fischte",
+        "wir": "fischten",
+        "ihr": "fischtet",
+        "sie_Sie": "fischten"
+      },
+      "konjunktiv1": {
+        "ich": "fische",
+        "du": "fischest",
+        "er_sie_es": "fische",
+        "wir": "fischen",
+        "ihr": "fischet",
+        "sie_Sie": "fischen"
+      },
+      "konjunktiv2": {
+        "ich": "fischte",
+        "du": "fischtest",
+        "er_sie_es": "fischte",
+        "wir": "fischten",
+        "ihr": "fischtet",
+        "sie_Sie": "fischten"
+      },
+      "imperativ": {
+        "du": "Fische!",
+        "ihr": "Fischt!",
+        "Sie": "Fischen Sie!"
+      }
+    },
+    "partizip1": "fischend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Fisch",
+    "woerter": [
+      {
+        "wort": "der Fisch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ماهی",
+          "en": "fish"
+        },
+        "id_ref": "nomen_fisch"
+      },
+      {
+        "wort": "das Meer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دریا",
+          "en": "sea"
+        },
+        "id_ref": "nomen_meer"
+      },
+      {
+        "wort": "der See",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دریاچه",
+          "en": "lake"
+        },
+        "id_ref": "nomen_see"
+      },
+      {
+        "wort": "angeln",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ماهیگیری کردن",
+          "en": "to angle"
+        },
+        "id_ref": "verb_angeln"
+      },
+      {
+        "wort": "der Fischer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ماهیگیر",
+          "en": "fisherman"
+        },
+        "id_ref": "nomen_fischer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
