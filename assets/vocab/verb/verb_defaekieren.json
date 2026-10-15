@@ -1,0 +1,171 @@
+{
+  "schema": "3.0",
+  "id": "verb_defaekieren",
+  "wort": "defäkieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مدفوع دفع کردن"
+    ],
+    "en": [
+      "to defecate"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Körper"
+  ],
+  "ipa": "defɛˈkiːʁən",
+  "anmerkung": "Regelmäßig (defäkierte, defäkiert). Fachsprache (Medizin, Pflege). Im Alltag: Stuhlgang haben, auf die Toilette gehen.",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Patient hat defäkiert.",
+      "uebersetzung": {
+        "fa": "بیمار مدفوع دفع کرده است.",
+        "en": "The patient has defecated."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Pflegekraft dokumentiert, wann der Patient zuletzt defäkiert hat, weil er Verstopfung hat.",
+      "uebersetzung": {
+        "fa": "پرستار ثبت می‌کند بیمار آخرین بار کی مدفوع دفع کرده، چون یبوست دارد.",
+        "en": "The nurse documents when the patient last defecated because he is constipated."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "Stuhlgang haben",
+      "uebersetzung": {
+        "fa": "اجابت مزاج داشتن",
+        "en": "to have a bowel movement"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. defaecare (پاک کردن از رسوب)",
+    "en": "Latin defaecare (to cleanse of dregs)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "defäkieren",
+      "praeteritum": "defäkierte",
+      "partizip2": "defäkiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "defäkiere",
+        "du": "defäkierst",
+        "er_sie_es": "defäkiert",
+        "wir": "defäkieren",
+        "ihr": "defäkiert",
+        "sie_Sie": "defäkieren"
+      },
+      "praeteritum": {
+        "ich": "defäkierte",
+        "du": "defäkiertest",
+        "er_sie_es": "defäkierte",
+        "wir": "defäkierten",
+        "ihr": "defäkiertet",
+        "sie_Sie": "defäkierten"
+      },
+      "konjunktiv1": {
+        "ich": "defäkiere",
+        "du": "defäkierest",
+        "er_sie_es": "defäkiere",
+        "wir": "defäkieren",
+        "ihr": "defäkieret",
+        "sie_Sie": "defäkieren"
+      },
+      "konjunktiv2": {
+        "ich": "defäkierte",
+        "du": "defäkiertest",
+        "er_sie_es": "defäkierte",
+        "wir": "defäkierten",
+        "ihr": "defäkiertet",
+        "sie_Sie": "defäkierten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "defäkierend",
+    "nominalisierung": "die Defäkation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Stuhlgang",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اجابت مزاج",
+          "en": "bowel movement"
+        },
+        "id_ref": "nomen_stuhlgang"
+      },
+      {
+        "wort": "die Verdauung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گوارش",
+          "en": "digestion"
+        },
+        "id_ref": "nomen_verdauung"
+      },
+      {
+        "wort": "die Verstopfung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "یبوست",
+          "en": "constipation"
+        },
+        "id_ref": "nomen_verstopfung"
+      },
+      {
+        "wort": "der Durchfall",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اسهال",
+          "en": "diarrhoea"
+        },
+        "id_ref": "nomen_durchfall"
+      },
+      {
+        "wort": "die Toilette",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "توالت",
+          "en": "toilet"
+        },
+        "id_ref": "nomen_toilette"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

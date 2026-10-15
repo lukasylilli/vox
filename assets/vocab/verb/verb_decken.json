@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_decken",
+  "wort": "decken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پوشاندن",
+      "چیدن (میز)",
+      "تأمین کردن"
+    ],
+    "en": [
+      "to cover",
+      "to set (the table)",
+      "to meet (a need)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Haushalt",
+    "Alltag"
+  ],
+  "ipa": "ˈdɛkn̩",
+  "anmerkung": "Regelmäßig (deckte, gedeckt). Reflexiv: sich decken = übereinstimmen (Die Aussagen decken sich).",
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Kannst du bitte den Tisch decken?",
+      "uebersetzung": {
+        "fa": "می‌توانی لطفاً میز را بچینی؟",
+        "en": "Can you set the table, please?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Versicherung deckt den Schaden nur, wenn man den Unfall sofort meldet.",
+      "uebersetzung": {
+        "fa": "بیمه خسارت را فقط وقتی پوشش می‌دهد که تصادف را فوراً گزارش کنی.",
+        "en": "The insurance only covers the damage if you report the accident immediately."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bedecken",
+      "uebersetzung": {
+        "fa": "پوشاندن",
+        "en": "to cover"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "etwas mit + Dat decken",
+        "bedeutung": "etwas mit einem Material bedecken",
+        "beispiel": "Sie decken das Dach mit Ziegeln.",
+        "uebersetzung": {
+          "fa": "سقف را با سفال می‌پوشانند.",
+          "en": "They cover the roof with tiles."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "decken",
+      "praeteritum": "deckte",
+      "partizip2": "gedeckt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "decke",
+        "du": "deckst",
+        "er_sie_es": "deckt",
+        "wir": "decken",
+        "ihr": "deckt",
+        "sie_Sie": "decken"
+      },
+      "praeteritum": {
+        "ich": "deckte",
+        "du": "decktest",
+        "er_sie_es": "deckte",
+        "wir": "deckten",
+        "ihr": "decktet",
+        "sie_Sie": "deckten"
+      },
+      "konjunktiv1": {
+        "ich": "decke",
+        "du": "deckest",
+        "er_sie_es": "decke",
+        "wir": "decken",
+        "ihr": "decket",
+        "sie_Sie": "decken"
+      },
+      "konjunktiv2": {
+        "ich": "deckte",
+        "du": "decktest",
+        "er_sie_es": "deckte",
+        "wir": "deckten",
+        "ihr": "decktet",
+        "sie_Sie": "deckten"
+      },
+      "imperativ": {
+        "du": "Decke!",
+        "ihr": "Deckt!",
+        "Sie": "Decken Sie!"
+      }
+    },
+    "partizip1": "deckend",
+    "nominalisierung": "die Deckung"
+  },
+  "wortnetz": {
+    "grundwort": "Decke",
+    "woerter": [
+      {
+        "wort": "die Decke",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پتو، سقف",
+          "en": "blanket, ceiling"
+        },
+        "id_ref": "nomen_decke"
+      },
+      {
+        "wort": "der Deckel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "در (قابلمه)",
+          "en": "lid"
+        },
+        "id_ref": "nomen_deckel"
+      },
+      {
+        "wort": "bedecken",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پوشاندن",
+          "en": "to cover"
+        },
+        "id_ref": "verb_bedecken"
+      },
+      {
+        "wort": "zudecken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رویش را پوشاندن",
+          "en": "to cover up"
+        },
+        "id_ref": "verb_zudecken"
+      },
+      {
+        "wort": "der Tisch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "میز",
+          "en": "table"
+        },
+        "id_ref": "nomen_tisch"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_datieren",
+  "wort": "datieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تاریخ گذاشتن",
+      "تاریخ‌گذاری کردن",
+      "مربوط بودن به (زمانی)"
+    ],
+    "en": [
+      "to date"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Zeit",
+    "Geschichte"
+  ],
+  "ipa": "daˈtiːʁən",
+  "anmerkung": "Regelmäßig (datierte, datiert).",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Brief ist nicht datiert.",
+      "uebersetzung": {
+        "fa": "نامه تاریخ ندارد.",
+        "en": "The letter is not dated."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Forscher datieren die Funde auf das dritte Jahrhundert, weil sie die Münzen genau untersucht haben.",
+      "uebersetzung": {
+        "fa": "پژوهشگران یافته‌ها را مربوط به قرن سوم می‌دانند، چون سکه‌ها را دقیق بررسی کرده‌اند.",
+        "en": "The researchers date the finds to the third century because they examined the coins carefully."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Datum (تاریخ) + -ieren",
+    "en": "Datum (date) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "aus + Dat datieren",
+        "bedeutung": "aus einer bestimmten Zeit stammen",
+        "beispiel": "Die Kirche datiert aus dem 12. Jahrhundert.",
+        "uebersetzung": {
+          "fa": "کلیسا مربوط به قرن دوازدهم است.",
+          "en": "The church dates from the 12th century."
+        }
+      },
+      {
+        "muster": "etwas auf + Akk datieren",
+        "bedeutung": "die Entstehungszeit von etwas bestimmen",
+        "beispiel": "Man datiert das Bild auf 1520.",
+        "uebersetzung": {
+          "fa": "تاریخ این نقاشی را ۱۵۲۰ تعیین می‌کنند.",
+          "en": "The painting is dated to 1520."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "datieren",
+      "praeteritum": "datierte",
+      "partizip2": "datiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "datiere",
+        "du": "datierst",
+        "er_sie_es": "datiert",
+        "wir": "datieren",
+        "ihr": "datiert",
+        "sie_Sie": "datieren"
+      },
+      "praeteritum": {
+        "ich": "datierte",
+        "du": "datiertest",
+        "er_sie_es": "datierte",
+        "wir": "datierten",
+        "ihr": "datiertet",
+        "sie_Sie": "datierten"
+      },
+      "konjunktiv1": {
+        "ich": "datiere",
+        "du": "datierest",
+        "er_sie_es": "datiere",
+        "wir": "datieren",
+        "ihr": "datieret",
+        "sie_Sie": "datieren"
+      },
+      "konjunktiv2": {
+        "ich": "datierte",
+        "du": "datiertest",
+        "er_sie_es": "datierte",
+        "wir": "datierten",
+        "ihr": "datiertet",
+        "sie_Sie": "datierten"
+      },
+      "imperativ": {
+        "du": "Datiere!",
+        "ihr": "Datiert!",
+        "Sie": "Datieren Sie!"
+      }
+    },
+    "partizip1": "datierend",
+    "nominalisierung": "die Datierung"
+  },
+  "wortnetz": {
+    "grundwort": "Datum",
+    "woerter": [
+      {
+        "wort": "das Datum",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تاریخ (روز)",
+          "en": "date"
+        },
+        "id_ref": "nomen_datum"
+      },
+      {
+        "wort": "die Zeit",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زمان",
+          "en": "time"
+        },
+        "id_ref": "nomen_zeit"
+      },
+      {
+        "wort": "das Jahrhundert",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرن",
+          "en": "century"
+        },
+        "id_ref": "nomen_jahrhundert"
+      },
+      {
+        "wort": "stammen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ناشی شدن، تعلق داشتن",
+          "en": "to come from"
+        },
+        "id_ref": "verb_stammen"
+      },
+      {
+        "wort": "alt",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قدیمی",
+          "en": "old"
+        },
+        "id_ref": "adjektiv_alt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

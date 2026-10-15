@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_defilieren",
+  "wort": "defilieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "رژه رفتن",
+      "از جلوی کسی رد شدن (رسمی)"
+    ],
+    "en": [
+      "to parade",
+      "to file past"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Militär",
+    "Feste"
+  ],
+  "ipa": "defiˈliːʁən",
+  "anmerkung": "Regelmäßig (defilierte, defiliert). Perfekt mit «haben» oder «sein» (Duden); hier «haben».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Soldaten defilieren.",
+      "uebersetzung": {
+        "fa": "سربازها رژه می‌روند.",
+        "en": "The soldiers are parading."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei der Modenschau defilierten die Models langsam an den Zuschauern vorbei.",
+      "uebersetzung": {
+        "fa": "در نمایش مد، مدل‌ها آهسته از جلوی تماشاگران گذشتند.",
+        "en": "At the fashion show the models filed slowly past the spectators."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vorbeimarschieren",
+      "uebersetzung": {
+        "fa": "رژه‌روان رد شدن",
+        "en": "to march past"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "frz. défiler (به صف رد شدن) + -ieren",
+    "en": "French défiler (to file past) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "an + Dat vorbei defilieren",
+        "bedeutung": "in einer Reihe feierlich an jemandem vorbeigehen",
+        "beispiel": "Die Truppen defilierten an dem Präsidenten vorbei.",
+        "uebersetzung": {
+          "fa": "نیروها از جلوی رئیس‌جمهور رژه رفتند.",
+          "en": "The troops filed past the president."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "defilieren",
+      "praeteritum": "defilierte",
+      "partizip2": "defiliert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "defiliere",
+        "du": "defilierst",
+        "er_sie_es": "defiliert",
+        "wir": "defilieren",
+        "ihr": "defiliert",
+        "sie_Sie": "defilieren"
+      },
+      "praeteritum": {
+        "ich": "defilierte",
+        "du": "defiliertest",
+        "er_sie_es": "defilierte",
+        "wir": "defilierten",
+        "ihr": "defiliertet",
+        "sie_Sie": "defilierten"
+      },
+      "konjunktiv1": {
+        "ich": "defiliere",
+        "du": "defilierest",
+        "er_sie_es": "defiliere",
+        "wir": "defilieren",
+        "ihr": "defilieret",
+        "sie_Sie": "defilieren"
+      },
+      "konjunktiv2": {
+        "ich": "defilierte",
+        "du": "defiliertest",
+        "er_sie_es": "defilierte",
+        "wir": "defilierten",
+        "ihr": "defiliertet",
+        "sie_Sie": "defilierten"
+      },
+      "imperativ": {
+        "du": "Defiliere!",
+        "ihr": "Defiliert!",
+        "Sie": "Defilieren Sie!"
+      }
+    },
+    "partizip1": "defilierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Parade",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رژه",
+          "en": "parade"
+        },
+        "id_ref": "nomen_parade"
+      },
+      {
+        "wort": "marschieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رژه رفتن",
+          "en": "to march"
+        },
+        "id_ref": "verb_marschieren"
+      },
+      {
+        "wort": "der Soldat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرباز",
+          "en": "soldier"
+        },
+        "id_ref": "nomen_soldat"
+      },
+      {
+        "wort": "vorbeigehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رد شدن",
+          "en": "to go past"
+        },
+        "id_ref": "verb_vorbeigehen"
+      },
+      {
+        "wort": "feierlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "باشکوه",
+          "en": "ceremonial"
+        },
+        "id_ref": "adjektiv_feierlich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

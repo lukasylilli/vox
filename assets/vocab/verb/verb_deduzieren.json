@@ -1,0 +1,195 @@
+{
+  "schema": "3.0",
+  "id": "verb_deduzieren",
+  "wort": "deduzieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "استنتاج کردن",
+      "قیاس کردن"
+    ],
+    "en": [
+      "to deduce"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wissenschaft",
+    "Denken"
+  ],
+  "ipa": "deduˈt͡siːʁən",
+  "anmerkung": "Regelmäßig (deduzierte, deduziert). Bildungssprachlich, Fachsprache der Philosophie und Logik.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Detektiv deduziert.",
+      "uebersetzung": {
+        "fa": "کارآگاه استنتاج می‌کند.",
+        "en": "The detective deduces."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Aus den Daten lässt sich deduzieren, dass die Methode in den meisten Fällen funktioniert.",
+      "uebersetzung": {
+        "fa": "از داده‌ها می‌توان استنتاج کرد که این روش در بیشتر موارد جواب می‌دهد.",
+        "en": "From the data it can be deduced that the method works in most cases."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ableiten",
+      "uebersetzung": {
+        "fa": "استنتاج کردن",
+        "en": "to derive"
+      }
+    },
+    {
+      "wort": "folgern",
+      "uebersetzung": {
+        "fa": "نتیجه گرفتن",
+        "en": "to infer"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "induzieren",
+      "uebersetzung": {
+        "fa": "استقرا کردن",
+        "en": "to induce"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. deducere (بیرون کشیدن)",
+    "en": "Latin deducere (to lead away)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas aus + Dat deduzieren",
+        "bedeutung": "etwas logisch aus etwas Allgemeinem ableiten",
+        "beispiel": "Er deduziert die Regel aus dem Gesetz.",
+        "uebersetzung": {
+          "fa": "قاعده را از قانون استنتاج می‌کند.",
+          "en": "He deduces the rule from the law."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "deduzieren",
+      "praeteritum": "deduzierte",
+      "partizip2": "deduziert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "deduziere",
+        "du": "deduzierst",
+        "er_sie_es": "deduziert",
+        "wir": "deduzieren",
+        "ihr": "deduziert",
+        "sie_Sie": "deduzieren"
+      },
+      "praeteritum": {
+        "ich": "deduzierte",
+        "du": "deduziertest",
+        "er_sie_es": "deduzierte",
+        "wir": "deduzierten",
+        "ihr": "deduziertet",
+        "sie_Sie": "deduzierten"
+      },
+      "konjunktiv1": {
+        "ich": "deduziere",
+        "du": "deduzierest",
+        "er_sie_es": "deduziere",
+        "wir": "deduzieren",
+        "ihr": "deduzieret",
+        "sie_Sie": "deduzieren"
+      },
+      "konjunktiv2": {
+        "ich": "deduzierte",
+        "du": "deduziertest",
+        "er_sie_es": "deduzierte",
+        "wir": "deduzierten",
+        "ihr": "deduziertet",
+        "sie_Sie": "deduzierten"
+      },
+      "imperativ": {
+        "du": "Deduziere!",
+        "ihr": "Deduziert!",
+        "Sie": "Deduzieren Sie!"
+      }
+    },
+    "partizip1": "deduzierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Deduktion",
+    "woerter": [
+      {
+        "wort": "die Deduktion",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "استنتاج",
+          "en": "deduction"
+        },
+        "id_ref": "nomen_deduktion"
+      },
+      {
+        "wort": "ableiten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "استنتاج کردن",
+          "en": "to derive"
+        },
+        "id_ref": "verb_ableiten"
+      },
+      {
+        "wort": "schließen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نتیجه گرفتن",
+          "en": "to conclude"
+        },
+        "id_ref": "verb_schliessen"
+      },
+      {
+        "wort": "die Logik",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "منطق",
+          "en": "logic"
+        },
+        "id_ref": "nomen_logik"
+      },
+      {
+        "wort": "folgern",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نتیجه گرفتن",
+          "en": "to infer"
+        },
+        "id_ref": "verb_folgern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
