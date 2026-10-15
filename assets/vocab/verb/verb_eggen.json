@@ -1,0 +1,160 @@
+{
+  "schema": "3.0",
+  "id": "verb_eggen",
+  "wort": "eggen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شانه زدن خاک (با ابزار کشاورزی)"
+    ],
+    "en": [
+      "to harrow"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Landwirtschaft"
+  ],
+  "ipa": "ˈɛɡn̩",
+  "anmerkung": "Regelmäßig (eggte, geeggt).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Bauer eggt das Feld.",
+      "uebersetzung": {
+        "fa": "کشاورز زمین را شانه می‌زند.",
+        "en": "The farmer harrows the field."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem der Acker gepflügt worden war, wurde er geeggt, damit die Erde fein und locker ist.",
+      "uebersetzung": {
+        "fa": "پس از شخم زدن، زمین را شانه زدند تا خاک نرم و پوک شود.",
+        "en": "After the field had been ploughed, it was harrowed so that the soil is fine and loose."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Egge (ابزار شانه‌زنی) + -n",
+    "en": "Egge (harrow) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "eggen",
+      "praeteritum": "eggte",
+      "partizip2": "geeggt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "egge",
+        "du": "eggst",
+        "er_sie_es": "eggt",
+        "wir": "eggen",
+        "ihr": "eggt",
+        "sie_Sie": "eggen"
+      },
+      "praeteritum": {
+        "ich": "eggte",
+        "du": "eggtest",
+        "er_sie_es": "eggte",
+        "wir": "eggten",
+        "ihr": "eggtet",
+        "sie_Sie": "eggten"
+      },
+      "konjunktiv1": {
+        "ich": "egge",
+        "du": "eggest",
+        "er_sie_es": "egge",
+        "wir": "eggen",
+        "ihr": "egget",
+        "sie_Sie": "eggen"
+      },
+      "konjunktiv2": {
+        "ich": "eggte",
+        "du": "eggtest",
+        "er_sie_es": "eggte",
+        "wir": "eggten",
+        "ihr": "eggtet",
+        "sie_Sie": "eggten"
+      },
+      "imperativ": {
+        "du": "Egge!",
+        "ihr": "Eggt!",
+        "Sie": "Eggen Sie!"
+      }
+    },
+    "partizip1": "eggend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Egge",
+    "woerter": [
+      {
+        "wort": "das Feld",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مزرعه",
+          "en": "field"
+        },
+        "id_ref": "nomen_feld"
+      },
+      {
+        "wort": "der Bauer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کشاورز",
+          "en": "farmer"
+        },
+        "id_ref": "nomen_bauer"
+      },
+      {
+        "wort": "pflügen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شخم زدن",
+          "en": "to plough"
+        },
+        "id_ref": "verb_pfluegen"
+      },
+      {
+        "wort": "der Acker",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زمین کشاورزی",
+          "en": "field"
+        },
+        "id_ref": "nomen_acker"
+      },
+      {
+        "wort": "die Egge",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "شانه‌ی کشاورزی",
+          "en": "harrow"
+        },
+        "id_ref": "nomen_egge"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

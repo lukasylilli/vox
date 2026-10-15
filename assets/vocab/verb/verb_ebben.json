@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_ebben",
+  "wort": "ebben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "فروکش کردن (جزر شدن)"
+    ],
+    "en": [
+      "to ebb"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Natur",
+    "Meer"
+  ],
+  "ipa": "ˈɛbn̩",
+  "anmerkung": "Regelmäßig (ebbte, geebbt). Meist unpersönlich: «es ebbt». Häufiger: «abebben» (nachlassen). Ohne Imperativ.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Am Nachmittag ebbt es.",
+      "uebersetzung": {
+        "fa": "بعدازظهر آب دریا فروکش می‌کند.",
+        "en": "In the afternoon the tide goes out."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als es zu ebben begann, konnten die Kinder am Strand nach Muscheln suchen.",
+      "uebersetzung": {
+        "fa": "وقتی جزر شروع شد، بچه‌ها توانستند در ساحل دنبال صدف بگردند.",
+        "en": "When the tide began to go out, the children could look for shells on the beach."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zurückgehen",
+      "uebersetzung": {
+        "fa": "پس رفتن",
+        "en": "to recede"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "fluten",
+      "uebersetzung": {
+        "fa": "مد شدن",
+        "en": "to flood"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Ebbe (جزر) + -n",
+    "en": "Ebbe (low tide) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "ebben",
+      "praeteritum": "ebbte",
+      "partizip2": "geebbt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ebbe",
+        "du": "ebbst",
+        "er_sie_es": "ebbt",
+        "wir": "ebben",
+        "ihr": "ebbt",
+        "sie_Sie": "ebben"
+      },
+      "praeteritum": {
+        "ich": "ebbte",
+        "du": "ebbtest",
+        "er_sie_es": "ebbte",
+        "wir": "ebbten",
+        "ihr": "ebbtet",
+        "sie_Sie": "ebbten"
+      },
+      "konjunktiv1": {
+        "ich": "ebbe",
+        "du": "ebbest",
+        "er_sie_es": "ebbe",
+        "wir": "ebben",
+        "ihr": "ebbet",
+        "sie_Sie": "ebben"
+      },
+      "konjunktiv2": {
+        "ich": "ebbte",
+        "du": "ebbtest",
+        "er_sie_es": "ebbte",
+        "wir": "ebbten",
+        "ihr": "ebbtet",
+        "sie_Sie": "ebbten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "ebbend",
+    "nominalisierung": "die Ebbe"
+  },
+  "wortnetz": {
+    "grundwort": "Ebbe",
+    "woerter": [
+      {
+        "wort": "das Meer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دریا",
+          "en": "sea"
+        },
+        "id_ref": "nomen_meer"
+      },
+      {
+        "wort": "die Ebbe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جزر",
+          "en": "low tide"
+        },
+        "id_ref": "nomen_ebbe"
+      },
+      {
+        "wort": "die Flut",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مد، سیل",
+          "en": "high tide, flood"
+        },
+        "id_ref": "nomen_flut"
+      },
+      {
+        "wort": "abebben",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "فروکش کردن",
+          "en": "to subside"
+        },
+        "id_ref": "verb_abebben"
+      },
+      {
+        "wort": "der Strand",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ساحل",
+          "en": "beach"
+        },
+        "id_ref": "nomen_strand"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

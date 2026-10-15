@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_ebnen",
+  "wort": "ebnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "هموار کردن"
+    ],
+    "en": [
+      "to level",
+      "to smooth"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Bau",
+    "Erfolg"
+  ],
+  "ipa": "ˈeːbnən",
+  "anmerkung": "Regelmäßig (ebnete, geebnet).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Arbeiter ebnen den Boden.",
+      "uebersetzung": {
+        "fa": "کارگرها زمین را هموار می‌کنند.",
+        "en": "The workers level the ground."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ihr gutes Abitur hat ihr den Weg zum Medizinstudium geebnet.",
+      "uebersetzung": {
+        "fa": "دیپلم خوبش راه تحصیل پزشکی را برایش هموار کرد.",
+        "en": "Her good A-level results paved the way for her to study medicine."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "glätten",
+      "uebersetzung": {
+        "fa": "صاف کردن",
+        "en": "to smooth"
+      }
+    },
+    {
+      "wort": "planieren",
+      "uebersetzung": {
+        "fa": "تسطیح کردن",
+        "en": "to level"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "eben (هموار) + -en",
+    "en": "eben (flat) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "+ Dat den Weg ebnen",
+        "bedeutung": "jemandem etwas leichter machen",
+        "beispiel": "Die Reform ebnet den Firmen den Weg.",
+        "uebersetzung": {
+          "fa": "این اصلاحات راه را برای شرکت‌ها هموار می‌کند.",
+          "en": "The reform paves the way for companies."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ebnen",
+      "praeteritum": "ebnete",
+      "partizip2": "geebnet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ebne",
+        "du": "ebnest",
+        "er_sie_es": "ebnet",
+        "wir": "ebnen",
+        "ihr": "ebnet",
+        "sie_Sie": "ebnen"
+      },
+      "praeteritum": {
+        "ich": "ebnete",
+        "du": "ebnetest",
+        "er_sie_es": "ebnete",
+        "wir": "ebneten",
+        "ihr": "ebnetet",
+        "sie_Sie": "ebneten"
+      },
+      "konjunktiv1": {
+        "ich": "ebne",
+        "du": "ebnest",
+        "er_sie_es": "ebne",
+        "wir": "ebnen",
+        "ihr": "ebnet",
+        "sie_Sie": "ebnen"
+      },
+      "konjunktiv2": {
+        "ich": "ebnete",
+        "du": "ebnetest",
+        "er_sie_es": "ebnete",
+        "wir": "ebneten",
+        "ihr": "ebnetet",
+        "sie_Sie": "ebneten"
+      },
+      "imperativ": {
+        "du": "Ebne!",
+        "ihr": "Ebnet!",
+        "Sie": "Ebnen Sie!"
+      }
+    },
+    "partizip1": "ebnend",
+    "nominalisierung": "die Ebnung"
+  },
+  "wortnetz": {
+    "grundwort": "eben",
+    "woerter": [
+      {
+        "wort": "eben",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "هموار",
+          "en": "flat"
+        },
+        "id_ref": "adjektiv_eben"
+      },
+      {
+        "wort": "die Ebene",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دشت، سطح",
+          "en": "plain, level"
+        },
+        "id_ref": "nomen_ebene"
+      },
+      {
+        "wort": "der Weg",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "راه",
+          "en": "way"
+        },
+        "id_ref": "nomen_weg"
+      },
+      {
+        "wort": "glätten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "صاف کردن",
+          "en": "to smooth"
+        },
+        "id_ref": "verb_glaetten"
+      },
+      {
+        "wort": "der Boden",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زمین، کف",
+          "en": "ground, floor"
+        },
+        "id_ref": "nomen_boden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

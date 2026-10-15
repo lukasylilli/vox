@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_eiern",
+  "wort": "eiern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "لق زدن",
+      "تلوتلو خوردن"
+    ],
+    "en": [
+      "to wobble"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈaɪ̯ɐn",
+  "anmerkung": "Regelmäßig (eierte, geeiert). Umgangssprachlich. Bei Fortbewegung mit «sein» (Er ist über das Eis geeiert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Rad eiert.",
+      "uebersetzung": {
+        "fa": "چرخ لق می‌زند.",
+        "en": "The wheel wobbles."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Seit dem Unfall eiert das Vorderrad, deshalb muss ich das Fahrrad in die Werkstatt bringen.",
+      "uebersetzung": {
+        "fa": "از زمان تصادف چرخ جلو لق می‌زند، برای همین باید دوچرخه را به تعمیرگاه ببرم.",
+        "en": "Since the accident the front wheel has been wobbling, so I have to take the bike to the workshop."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wackeln",
+      "uebersetzung": {
+        "fa": "لق بودن",
+        "en": "to wobble"
+      }
+    },
+    {
+      "wort": "schwanken",
+      "uebersetzung": {
+        "fa": "تلوتلو خوردن",
+        "en": "to sway"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Ei (تخم‌مرغ) + -ern (حرکت مثل تخم‌مرغ)",
+    "en": "Ei (egg) + -ern (to move like an egg)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "eiern",
+      "praeteritum": "eierte",
+      "partizip2": "geeiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "eiere",
+        "du": "eierst",
+        "er_sie_es": "eiert",
+        "wir": "eiern",
+        "ihr": "eiert",
+        "sie_Sie": "eiern"
+      },
+      "praeteritum": {
+        "ich": "eierte",
+        "du": "eiertest",
+        "er_sie_es": "eierte",
+        "wir": "eierten",
+        "ihr": "eiertet",
+        "sie_Sie": "eierten"
+      },
+      "konjunktiv1": {
+        "ich": "eiere",
+        "du": "eierest",
+        "er_sie_es": "eiere",
+        "wir": "eiern",
+        "ihr": "eieret",
+        "sie_Sie": "eiern"
+      },
+      "konjunktiv2": {
+        "ich": "eierte",
+        "du": "eiertest",
+        "er_sie_es": "eierte",
+        "wir": "eierten",
+        "ihr": "eiertet",
+        "sie_Sie": "eierten"
+      },
+      "imperativ": {
+        "du": "Eiere!",
+        "ihr": "Eiert!",
+        "Sie": "Eiern Sie!"
+      }
+    },
+    "partizip1": "eiernd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "wackeln",
+    "woerter": [
+      {
+        "wort": "das Rad",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چرخ، دوچرخه",
+          "en": "wheel, bike"
+        },
+        "id_ref": "nomen_rad"
+      },
+      {
+        "wort": "wackeln",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لق بودن",
+          "en": "to wobble"
+        },
+        "id_ref": "verb_wackeln"
+      },
+      {
+        "wort": "schwanken",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نوسان داشتن",
+          "en": "to sway"
+        },
+        "id_ref": "verb_schwanken"
+      },
+      {
+        "wort": "rund",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گرد",
+          "en": "round"
+        },
+        "id_ref": "adjektiv_rund"
+      },
+      {
+        "wort": "das Ei",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تخم‌مرغ",
+          "en": "egg"
+        },
+        "id_ref": "nomen_ei"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

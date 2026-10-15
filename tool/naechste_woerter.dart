@@ -1611,6 +1611,7 @@ const zurueckgestellt = <String>{
   'downloaden', // zurückgestellt (Regel 3/16): Partizip II schwankt (downgeloadet/gedownloadet), trennbar nicht sicher ⇒ lieber kein Symbol als ein falsches 2026-10-15
   'dräuen', // zurückgestellt (Regel 14/16): dichterisch/veraltet (drohen); Gebrauch nicht sicher 2026-10-15
   'dröseln', // zurückgestellt (Regel 14/16): landschaftlich, meist «aufdröseln»; Bedeutung nicht sicher 2026-10-15
+  'eifern', // zurückgestellt (Regel 14/16): gehoben, heute meist «nacheifern»/«ereifern»; Gebrauch/Stilmarkierung nicht sicher 2026-10-15
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

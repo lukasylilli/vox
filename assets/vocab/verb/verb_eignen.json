@@ -1,0 +1,201 @@
+{
+  "schema": "3.0",
+  "id": "verb_eignen",
+  "wort": "eignen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مناسب بودن"
+    ],
+    "en": [
+      "to be suitable"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Alltag"
+  ],
+  "ipa": "ˈaɪ̯ɡnən",
+  "anmerkung": "Regelmäßig (eignete, geeignet). Nur reflexiv: sich eignen.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Buch eignet sich für Anfänger.",
+      "uebersetzung": {
+        "fa": "این کتاب برای مبتدی‌ها مناسب است.",
+        "en": "The book is suitable for beginners."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Er eignet sich gut als Teamleiter, weil er ruhig bleibt und gut zuhören kann.",
+      "uebersetzung": {
+        "fa": "برای سرپرستی تیم مناسب است، چون آرام می‌ماند و خوب گوش می‌دهد.",
+        "en": "He is well suited as a team leader because he stays calm and listens well."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "passen",
+      "uebersetzung": {
+        "fa": "مناسب بودن",
+        "en": "to fit"
+      }
+    },
+    {
+      "wort": "taugen",
+      "uebersetzung": {
+        "fa": "به درد خوردن",
+        "en": "to be good for"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich für + Akk eignen",
+        "bedeutung": "für einen Zweck oder eine Person passend sein",
+        "beispiel": "Der Film eignet sich nicht für Kinder.",
+        "uebersetzung": {
+          "fa": "این فیلم برای بچه‌ها مناسب نیست.",
+          "en": "The film is not suitable for children."
+        }
+      },
+      {
+        "muster": "sich zu + Dat eignen",
+        "bedeutung": "die Fähigkeit zu etwas haben",
+        "beispiel": "Sie eignet sich zur Lehrerin.",
+        "uebersetzung": {
+          "fa": "او برای معلمی مناسب است.",
+          "en": "She is suited to being a teacher."
+        }
+      },
+      {
+        "muster": "sich als + Nom eignen",
+        "bedeutung": "in einer Rolle passend sein",
+        "beispiel": "Der Raum eignet sich als Büro.",
+        "uebersetzung": {
+          "fa": "این اتاق برای دفتر مناسب است.",
+          "en": "The room is suitable as an office."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "eignen",
+      "praeteritum": "eignete",
+      "partizip2": "geeignet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "eigne",
+        "du": "eignest",
+        "er_sie_es": "eignet",
+        "wir": "eignen",
+        "ihr": "eignet",
+        "sie_Sie": "eignen"
+      },
+      "praeteritum": {
+        "ich": "eignete",
+        "du": "eignetest",
+        "er_sie_es": "eignete",
+        "wir": "eigneten",
+        "ihr": "eignetet",
+        "sie_Sie": "eigneten"
+      },
+      "konjunktiv1": {
+        "ich": "eigne",
+        "du": "eignest",
+        "er_sie_es": "eigne",
+        "wir": "eignen",
+        "ihr": "eignet",
+        "sie_Sie": "eignen"
+      },
+      "konjunktiv2": {
+        "ich": "eignete",
+        "du": "eignetest",
+        "er_sie_es": "eignete",
+        "wir": "eigneten",
+        "ihr": "eignetet",
+        "sie_Sie": "eigneten"
+      },
+      "imperativ": {
+        "du": "Eigne!",
+        "ihr": "Eignet!",
+        "Sie": "Eignen Sie!"
+      }
+    },
+    "partizip1": "eignend",
+    "nominalisierung": "die Eignung"
+  },
+  "wortnetz": {
+    "grundwort": "geeignet",
+    "woerter": [
+      {
+        "wort": "geeignet",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مناسب",
+          "en": "suitable"
+        },
+        "id_ref": "adjektiv_geeignet"
+      },
+      {
+        "wort": "passen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مناسب بودن",
+          "en": "to fit"
+        },
+        "id_ref": "verb_passen"
+      },
+      {
+        "wort": "die Eignung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "صلاحیت",
+          "en": "suitability"
+        },
+        "id_ref": "nomen_eignung"
+      },
+      {
+        "wort": "passend",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مناسب",
+          "en": "fitting"
+        },
+        "id_ref": "adjektiv_passend"
+      },
+      {
+        "wort": "die Fähigkeit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "توانایی",
+          "en": "ability"
+        },
+        "id_ref": "nomen_faehigkeit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

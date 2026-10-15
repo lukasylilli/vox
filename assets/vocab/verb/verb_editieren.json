@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_editieren",
+  "wort": "editieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ویرایش کردن"
+    ],
+    "en": [
+      "to edit"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Medien"
+  ],
+  "ipa": "ediˈtiːʁən",
+  "anmerkung": "Regelmäßig (editierte, editiert).",
+  "berufe": [
+    "it"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich editiere den Text.",
+      "uebersetzung": {
+        "fa": "متن را ویرایش می‌کنم.",
+        "en": "I am editing the text."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor das Video online geht, wird es noch editiert, damit die Fehler herausgeschnitten werden.",
+      "uebersetzung": {
+        "fa": "پیش از آنکه ویدیو آنلاین شود، هنوز ویرایش می‌شود تا اشتباه‌ها بریده شوند.",
+        "en": "Before the video goes online it is edited so that the mistakes are cut out."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bearbeiten",
+      "uebersetzung": {
+        "fa": "ویرایش کردن",
+        "en": "to edit"
+      }
+    },
+    {
+      "wort": "ändern",
+      "uebersetzung": {
+        "fa": "تغییر دادن",
+        "en": "to change"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "engl. to edit ← lat. edere (منتشر کردن)",
+    "en": "English to edit ← Latin edere (to publish)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "editieren",
+      "praeteritum": "editierte",
+      "partizip2": "editiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "editiere",
+        "du": "editierst",
+        "er_sie_es": "editiert",
+        "wir": "editieren",
+        "ihr": "editiert",
+        "sie_Sie": "editieren"
+      },
+      "praeteritum": {
+        "ich": "editierte",
+        "du": "editiertest",
+        "er_sie_es": "editierte",
+        "wir": "editierten",
+        "ihr": "editiertet",
+        "sie_Sie": "editierten"
+      },
+      "konjunktiv1": {
+        "ich": "editiere",
+        "du": "editierest",
+        "er_sie_es": "editiere",
+        "wir": "editieren",
+        "ihr": "editieret",
+        "sie_Sie": "editieren"
+      },
+      "konjunktiv2": {
+        "ich": "editierte",
+        "du": "editiertest",
+        "er_sie_es": "editierte",
+        "wir": "editierten",
+        "ihr": "editiertet",
+        "sie_Sie": "editierten"
+      },
+      "imperativ": {
+        "du": "Editiere!",
+        "ihr": "Editiert!",
+        "Sie": "Editieren Sie!"
+      }
+    },
+    "partizip1": "editierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Editor",
+    "woerter": [
+      {
+        "wort": "ändern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تغییر دادن",
+          "en": "to change"
+        },
+        "id_ref": "verb_aendern"
+      },
+      {
+        "wort": "bearbeiten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ویرایش کردن",
+          "en": "to edit"
+        },
+        "id_ref": "verb_bearbeiten"
+      },
+      {
+        "wort": "der Text",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "متن",
+          "en": "text"
+        },
+        "id_ref": "nomen_text"
+      },
+      {
+        "wort": "die Datei",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فایل",
+          "en": "file"
+        },
+        "id_ref": "nomen_datei"
+      },
+      {
+        "wort": "der Editor",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ویرایشگر",
+          "en": "editor"
+        },
+        "id_ref": "nomen_editor"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
