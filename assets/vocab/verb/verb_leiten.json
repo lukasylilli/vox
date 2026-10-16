@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_leiten",
+  "wort": "leiten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اداره کردن، رهبری کردن",
+      "هدایت کردن، رساندن (آب، برق، گرما)"
+    ],
+    "en": [
+      "to lead, to manage",
+      "to conduct, to channel"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Technik"
+  ],
+  "ipa": "ˈlaɪ̯tn̩",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie leitet die Firma.",
+      "uebersetzung": {
+        "fa": "او شرکت را اداره می‌کند.",
+        "en": "She runs the company."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Kupfer leitet Strom sehr gut, deshalb verwendet man es für Kabel.",
+      "uebersetzung": {
+        "fa": "مس جریان برق را خیلی خوب هدایت می‌کند، برای همین آن را در کابل‌ها به کار می‌برند.",
+        "en": "Copper conducts electricity very well, which is why it is used for cables."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "führen",
+      "uebersetzung": {
+        "fa": "رهبری کردن",
+        "en": "to lead"
+      }
+    },
+    {
+      "wort": "lenken",
+      "uebersetzung": {
+        "fa": "هدایت کردن",
+        "en": "to steer"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "sich leiten lassen von + Dat",
+        "bedeutung": "sich von etwas bestimmen lassen",
+        "beispiel": "Er lässt sich von seinen Gefühlen leiten.",
+        "uebersetzung": {
+          "fa": "اجازه می‌دهد احساساتش او را هدایت کنند.",
+          "en": "He lets himself be guided by his feelings."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "leiten",
+      "praeteritum": "leitete",
+      "partizip2": "geleitet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "leite",
+        "du": "leitest",
+        "er_sie_es": "leitet",
+        "wir": "leiten",
+        "ihr": "leitet",
+        "sie_Sie": "leiten"
+      },
+      "praeteritum": {
+        "ich": "leitete",
+        "du": "leitetest",
+        "er_sie_es": "leitete",
+        "wir": "leiteten",
+        "ihr": "leitetet",
+        "sie_Sie": "leiteten"
+      },
+      "konjunktiv1": {
+        "ich": "leite",
+        "du": "leitest",
+        "er_sie_es": "leite",
+        "wir": "leiten",
+        "ihr": "leitet",
+        "sie_Sie": "leiten"
+      },
+      "konjunktiv2": {
+        "ich": "leitete",
+        "du": "leitetest",
+        "er_sie_es": "leitete",
+        "wir": "leiteten",
+        "ihr": "leitetet",
+        "sie_Sie": "leiteten"
+      },
+      "imperativ": {
+        "du": "Leite!",
+        "ihr": "Leitet!",
+        "Sie": "Leiten Sie!"
+      }
+    },
+    "partizip1": "leitend",
+    "nominalisierung": "die Leitung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Leitung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مدیریت؛ خط (لوله، برق، تلفن)",
+          "en": "management; line, pipe"
+        },
+        "id_ref": "nomen_leitung"
+      },
+      {
+        "wort": "der Leiter",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مدیر",
+          "en": "head, manager"
+        },
+        "id_ref": "nomen_leiter"
+      },
+      {
+        "wort": "führen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رهبری کردن",
+          "en": "to lead"
+        },
+        "id_ref": "verb_fuehren"
+      },
+      {
+        "wort": "lenken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "هدایت کردن",
+          "en": "to steer"
+        },
+        "id_ref": "verb_lenken"
+      },
+      {
+        "wort": "der Strom",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برق؛ جریان",
+          "en": "electricity; current"
+        },
+        "id_ref": "nomen_strom"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

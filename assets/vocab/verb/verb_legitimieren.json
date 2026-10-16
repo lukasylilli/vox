@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_legitimieren",
+  "wort": "legitimieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مشروعیت دادن، توجیه کردن",
+      "هویت خود را ثابت کردن"
+    ],
+    "en": [
+      "to legitimize, to justify",
+      "to prove one's identity (sich)"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Politik",
+    "Recht"
+  ],
+  "ipa": "leɡitiˈmiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte legitimieren Sie sich!",
+      "uebersetzung": {
+        "fa": "لطفاً هویت خود را نشان دهید!",
+        "en": "Please show your identification!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Regierung versucht, die neuen Steuern damit zu legitimieren, dass Schulen gebaut werden.",
+      "uebersetzung": {
+        "fa": "دولت سعی می‌کند مالیات‌های تازه را با ساختن مدرسه توجیه کند.",
+        "en": "The government is trying to justify the new taxes by saying that schools will be built."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rechtfertigen",
+      "uebersetzung": {
+        "fa": "توجیه کردن",
+        "en": "to justify"
+      }
+    },
+    {
+      "wort": "ausweisen",
+      "uebersetzung": {
+        "fa": "هویت خود را نشان دادن",
+        "en": "to identify"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich legitimieren durch + Akk",
+        "bedeutung": "seine Identität/Berechtigung mit etwas nachweisen",
+        "beispiel": "Er legitimierte sich durch seinen Pass.",
+        "uebersetzung": {
+          "fa": "با گذرنامه‌اش هویتش را ثابت کرد.",
+          "en": "He proved his identity with his passport."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "legitimieren",
+      "praeteritum": "legitimierte",
+      "partizip2": "legitimiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "legitimiere",
+        "du": "legitimierst",
+        "er_sie_es": "legitimiert",
+        "wir": "legitimieren",
+        "ihr": "legitimiert",
+        "sie_Sie": "legitimieren"
+      },
+      "praeteritum": {
+        "ich": "legitimierte",
+        "du": "legitimiertest",
+        "er_sie_es": "legitimierte",
+        "wir": "legitimierten",
+        "ihr": "legitimiertet",
+        "sie_Sie": "legitimierten"
+      },
+      "konjunktiv1": {
+        "ich": "legitimiere",
+        "du": "legitimierest",
+        "er_sie_es": "legitimiere",
+        "wir": "legitimieren",
+        "ihr": "legitimieret",
+        "sie_Sie": "legitimieren"
+      },
+      "konjunktiv2": {
+        "ich": "legitimierte",
+        "du": "legitimiertest",
+        "er_sie_es": "legitimierte",
+        "wir": "legitimierten",
+        "ihr": "legitimiertet",
+        "sie_Sie": "legitimierten"
+      },
+      "imperativ": {
+        "du": "Legitimiere!",
+        "ihr": "Legitimiert!",
+        "Sie": "Legitimieren Sie!"
+      }
+    },
+    "partizip1": "legitimierend",
+    "nominalisierung": "die Legitimation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "legitim",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مشروع",
+          "en": "legitimate"
+        },
+        "id_ref": "adjektiv_legitim"
+      },
+      {
+        "wort": "rechtfertigen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "توجیه کردن",
+          "en": "to justify"
+        },
+        "id_ref": "verb_rechtfertigen"
+      },
+      {
+        "wort": "ausweisen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "هویت نشان دادن؛ اخراج کردن",
+          "en": "to identify; to expel"
+        },
+        "id_ref": "verb_ausweisen"
+      },
+      {
+        "wort": "der Ausweis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کارت شناسایی",
+          "en": "ID card"
+        },
+        "id_ref": "nomen_ausweis"
+      },
+      {
+        "wort": "das Recht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حق، حقوق",
+          "en": "right, law"
+        },
+        "id_ref": "nomen_recht"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

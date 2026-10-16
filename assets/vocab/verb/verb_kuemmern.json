@@ -1,0 +1,196 @@
+{
+  "schema": "3.0",
+  "id": "verb_kuemmern",
+  "wort": "kümmern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مراقبت کردن، رسیدگی کردن به",
+      "اهمیت داشتن برای کسی"
+    ],
+    "en": [
+      "to take care of, to look after",
+      "to concern"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Familie",
+    "Alltag"
+  ],
+  "ipa": "ˈkʏmɐn",
+  "anmerkung": "Meist reflexiv: «sich um etwas/jemanden kümmern». Nicht reflexiv: «Das kümmert mich nicht.» (ist mir egal).",
+  "berufe": [
+    "pflege_medizin",
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich kümmere mich um das Essen.",
+      "uebersetzung": {
+        "fa": "غذا با من.",
+        "en": "I will take care of the food."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Seit ihre Mutter krank ist, kümmert sie sich jeden Tag um sie.",
+      "uebersetzung": {
+        "fa": "از وقتی مادرش بیمار شده، هر روز از او مراقبت می‌کند.",
+        "en": "Since her mother has been ill, she has been looking after her every day."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sorgen für",
+      "uebersetzung": {
+        "fa": "مراقبت کردن از",
+        "en": "to look after"
+      }
+    },
+    {
+      "wort": "pflegen",
+      "uebersetzung": {
+        "fa": "پرستاری کردن",
+        "en": "to care for"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "vernachlässigen",
+      "uebersetzung": {
+        "fa": "غفلت کردن",
+        "en": "to neglect"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich kümmern um + Akk",
+        "bedeutung": "für jemanden/etwas sorgen",
+        "beispiel": "Wer kümmert sich um den Hund?",
+        "uebersetzung": {
+          "fa": "چه کسی به سگ رسیدگی می‌کند؟",
+          "en": "Who is looking after the dog?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "kümmern",
+      "praeteritum": "kümmerte",
+      "partizip2": "gekümmert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kümmere",
+        "du": "kümmerst",
+        "er_sie_es": "kümmert",
+        "wir": "kümmern",
+        "ihr": "kümmert",
+        "sie_Sie": "kümmern"
+      },
+      "praeteritum": {
+        "ich": "kümmerte",
+        "du": "kümmertest",
+        "er_sie_es": "kümmerte",
+        "wir": "kümmerten",
+        "ihr": "kümmertet",
+        "sie_Sie": "kümmerten"
+      },
+      "konjunktiv1": {
+        "ich": "kümmere",
+        "du": "kümmerest",
+        "er_sie_es": "kümmere",
+        "wir": "kümmern",
+        "ihr": "kümmeret",
+        "sie_Sie": "kümmern"
+      },
+      "konjunktiv2": {
+        "ich": "kümmerte",
+        "du": "kümmertest",
+        "er_sie_es": "kümmerte",
+        "wir": "kümmerten",
+        "ihr": "kümmertet",
+        "sie_Sie": "kümmerten"
+      },
+      "imperativ": {
+        "du": "Kümmere!",
+        "ihr": "Kümmert!",
+        "Sie": "Kümmern Sie!"
+      }
+    },
+    "partizip1": "kümmernd",
+    "nominalisierung": "der Kummer"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "sorgen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مراقبت کردن؛ نگران بودن",
+          "en": "to look after; to worry"
+        },
+        "id_ref": "verb_sorgen"
+      },
+      {
+        "wort": "pflegen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پرستاری کردن",
+          "en": "to care for"
+        },
+        "id_ref": "verb_pflegen"
+      },
+      {
+        "wort": "die Sorge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نگرانی؛ مراقبت",
+          "en": "worry; care"
+        },
+        "id_ref": "nomen_sorge"
+      },
+      {
+        "wort": "der Kummer",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "غم، غصه",
+          "en": "grief, sorrow"
+        },
+        "id_ref": "nomen_kummer"
+      },
+      {
+        "wort": "erledigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انجام دادن، رسیدگی کردن",
+          "en": "to deal with"
+        },
+        "id_ref": "verb_erledigen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

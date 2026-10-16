@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_kostuemieren",
+  "wort": "kostümieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "لباس مبدل پوشاندن",
+      "لباس مبدل پوشیدن"
+    ],
+    "en": [
+      "to dress up (in costume)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Feste",
+    "Freizeit"
+  ],
+  "ipa": "kɔstyˈmiːʁən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kinder kostümieren sich.",
+      "uebersetzung": {
+        "fa": "بچه‌ها لباس مبدل می‌پوشند.",
+        "en": "The children are dressing up."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Zum Fasching hat er sich als Pirat kostümiert, damit ihn niemand erkennt.",
+      "uebersetzung": {
+        "fa": "برای کارناوال خودش را شکل دزد دریایی درآورد تا کسی نشناسدش.",
+        "en": "For carnival he dressed up as a pirate so that nobody would recognize him."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verkleiden",
+      "uebersetzung": {
+        "fa": "لباس مبدل پوشاندن",
+        "en": "to disguise"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "das Kostüm (لباس نمایش) + -ieren",
+    "en": "das Kostüm (costume) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich kostümieren als + Nom",
+        "bedeutung": "sich als jemand/etwas verkleiden",
+        "beispiel": "Sie kostümiert sich als Hexe.",
+        "uebersetzung": {
+          "fa": "لباس جادوگر می‌پوشد.",
+          "en": "She dresses up as a witch."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "kostümieren",
+      "praeteritum": "kostümierte",
+      "partizip2": "kostümiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kostümiere",
+        "du": "kostümierst",
+        "er_sie_es": "kostümiert",
+        "wir": "kostümieren",
+        "ihr": "kostümiert",
+        "sie_Sie": "kostümieren"
+      },
+      "praeteritum": {
+        "ich": "kostümierte",
+        "du": "kostümiertest",
+        "er_sie_es": "kostümierte",
+        "wir": "kostümierten",
+        "ihr": "kostümiertet",
+        "sie_Sie": "kostümierten"
+      },
+      "konjunktiv1": {
+        "ich": "kostümiere",
+        "du": "kostümierest",
+        "er_sie_es": "kostümiere",
+        "wir": "kostümieren",
+        "ihr": "kostümieret",
+        "sie_Sie": "kostümieren"
+      },
+      "konjunktiv2": {
+        "ich": "kostümierte",
+        "du": "kostümiertest",
+        "er_sie_es": "kostümierte",
+        "wir": "kostümierten",
+        "ihr": "kostümiertet",
+        "sie_Sie": "kostümierten"
+      },
+      "imperativ": {
+        "du": "Kostümiere!",
+        "ihr": "Kostümiert!",
+        "Sie": "Kostümieren Sie!"
+      }
+    },
+    "partizip1": "kostümierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Kostüm",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لباس مبدل؛ کت‌ودامن",
+          "en": "costume; suit"
+        },
+        "id_ref": "nomen_kostuem"
+      },
+      {
+        "wort": "verkleiden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لباس مبدل پوشاندن",
+          "en": "to disguise"
+        },
+        "id_ref": "verb_verkleiden"
+      },
+      {
+        "wort": "der Fasching",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کارناوال",
+          "en": "carnival"
+        },
+        "id_ref": "nomen_fasching"
+      },
+      {
+        "wort": "die Maske",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ماسک",
+          "en": "mask"
+        },
+        "id_ref": "nomen_maske"
+      },
+      {
+        "wort": "das Fest",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جشن",
+          "en": "party, festival"
+        },
+        "id_ref": "nomen_fest"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

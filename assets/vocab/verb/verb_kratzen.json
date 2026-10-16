@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_kratzen",
+  "wort": "kratzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خاراندن",
+      "خراش دادن، خط انداختن"
+    ],
+    "en": [
+      "to scratch"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Körper",
+    "Alltag"
+  ],
+  "ipa": "ˈkʁat͡sn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Katze kratzt.",
+      "uebersetzung": {
+        "fa": "گربه چنگ می‌زند.",
+        "en": "The cat scratches."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Du sollst dich nicht kratzen, auch wenn der Mückenstich juckt.",
+      "uebersetzung": {
+        "fa": "نباید خودت را بخارانی، حتی اگر جای نیش پشه بخارد.",
+        "en": "You should not scratch yourself, even if the mosquito bite itches."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schaben",
+      "uebersetzung": {
+        "fa": "تراشیدن",
+        "en": "to scrape"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich kratzen an + Dat",
+        "bedeutung": "eine Körperstelle kratzen",
+        "beispiel": "Er kratzt sich am Kopf.",
+        "uebersetzung": {
+          "fa": "سرش را می‌خاراند.",
+          "en": "He scratches his head."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "kratzen",
+      "praeteritum": "kratzte",
+      "partizip2": "gekratzt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kratze",
+        "du": "kratzt",
+        "er_sie_es": "kratzt",
+        "wir": "kratzen",
+        "ihr": "kratzt",
+        "sie_Sie": "kratzen"
+      },
+      "praeteritum": {
+        "ich": "kratzte",
+        "du": "kratztest",
+        "er_sie_es": "kratzte",
+        "wir": "kratzten",
+        "ihr": "kratztet",
+        "sie_Sie": "kratzten"
+      },
+      "konjunktiv1": {
+        "ich": "kratze",
+        "du": "kratzest",
+        "er_sie_es": "kratze",
+        "wir": "kratzen",
+        "ihr": "kratzet",
+        "sie_Sie": "kratzen"
+      },
+      "konjunktiv2": {
+        "ich": "kratzte",
+        "du": "kratztest",
+        "er_sie_es": "kratzte",
+        "wir": "kratzten",
+        "ihr": "kratztet",
+        "sie_Sie": "kratzten"
+      },
+      "imperativ": {
+        "du": "Kratz!",
+        "ihr": "Kratzt!",
+        "Sie": "Kratzen Sie!"
+      }
+    },
+    "partizip1": "kratzend",
+    "nominalisierung": "der Kratzer"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Kratzer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خراش",
+          "en": "scratch"
+        },
+        "id_ref": "nomen_kratzer"
+      },
+      {
+        "wort": "jucken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خارش داشتن",
+          "en": "to itch"
+        },
+        "id_ref": "verb_jucken"
+      },
+      {
+        "wort": "die Haut",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پوست",
+          "en": "skin"
+        },
+        "id_ref": "nomen_haut"
+      },
+      {
+        "wort": "kraulen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آرام خاراندن",
+          "en": "to scratch gently"
+        },
+        "id_ref": "verb_kraulen"
+      },
+      {
+        "wort": "die Katze",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گربه",
+          "en": "cat"
+        },
+        "id_ref": "nomen_katze"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

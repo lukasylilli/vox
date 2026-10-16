@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_kugeln",
+  "wort": "kugeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "غلتیدن، قل خوردن",
+      "از خنده غش کردن"
+    ],
+    "en": [
+      "to roll",
+      "to roll about (laughing)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Bewegung",
+    "Spiele"
+  ],
+  "ipa": "ˈkuːɡl̩n",
+  "anmerkung": "Perfekt mit «sein» (ist gekugelt); transitiv (rollen lassen) und reflexiv mit «haben». Ugs.: «Das ist zum Kugeln!» (sehr lustig).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Ball kugelt unter das Auto.",
+      "uebersetzung": {
+        "fa": "توپ زیر ماشین قل می‌خورد.",
+        "en": "The ball rolls under the car."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Kinder haben sich vor Lachen auf dem Boden gekugelt, als der Clown hinfiel.",
+      "uebersetzung": {
+        "fa": "وقتی دلقک زمین خورد، بچه‌ها از خنده روی زمین غلت می‌زدند.",
+        "en": "The children rolled about on the floor laughing when the clown fell over."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rollen",
+      "uebersetzung": {
+        "fa": "غلتیدن",
+        "en": "to roll"
+      }
+    },
+    {
+      "wort": "kullern",
+      "uebersetzung": {
+        "fa": "قل خوردن",
+        "en": "to roll"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "die Kugel (گوی، توپ) + -n",
+    "en": "die Kugel (ball, sphere) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich kugeln vor + Dat",
+        "bedeutung": "sich vor Lachen wälzen",
+        "beispiel": "Wir kugelten uns vor Lachen.",
+        "uebersetzung": {
+          "fa": "از خنده غش کردیم.",
+          "en": "We were rolling about with laughter."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "kugeln",
+      "praeteritum": "kugelte",
+      "partizip2": "gekugelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kugle",
+        "du": "kugelst",
+        "er_sie_es": "kugelt",
+        "wir": "kugeln",
+        "ihr": "kugelt",
+        "sie_Sie": "kugeln"
+      },
+      "praeteritum": {
+        "ich": "kugelte",
+        "du": "kugeltest",
+        "er_sie_es": "kugelte",
+        "wir": "kugelten",
+        "ihr": "kugeltet",
+        "sie_Sie": "kugelten"
+      },
+      "konjunktiv1": {
+        "ich": "kugle",
+        "du": "kuglest",
+        "er_sie_es": "kugle",
+        "wir": "kugeln",
+        "ihr": "kuglet",
+        "sie_Sie": "kugeln"
+      },
+      "konjunktiv2": {
+        "ich": "kugelte",
+        "du": "kugeltest",
+        "er_sie_es": "kugelte",
+        "wir": "kugelten",
+        "ihr": "kugeltet",
+        "sie_Sie": "kugelten"
+      },
+      "imperativ": {
+        "du": "Kugle!",
+        "ihr": "Kugelt!",
+        "Sie": "Kugeln Sie!"
+      }
+    },
+    "partizip1": "kugelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Kugel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گوی؛ گلوله",
+          "en": "ball; bullet"
+        },
+        "id_ref": "nomen_kugel"
+      },
+      {
+        "wort": "rollen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "غلتیدن",
+          "en": "to roll"
+        },
+        "id_ref": "verb_rollen"
+      },
+      {
+        "wort": "kullern",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "قل خوردن",
+          "en": "to roll"
+        },
+        "id_ref": "verb_kullern"
+      },
+      {
+        "wort": "rund",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گرد",
+          "en": "round"
+        },
+        "id_ref": "adjektiv_rund"
+      },
+      {
+        "wort": "der Ball",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "توپ",
+          "en": "ball"
+        },
+        "id_ref": "nomen_ball"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,204 @@
+{
+  "schema": "3.0",
+  "id": "verb_kuendigen",
+  "wort": "kündigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "استعفا دادن، قرارداد را فسخ کردن",
+      "اخراج کردن (به کسی اطلاع فسخ دادن)"
+    ],
+    "en": [
+      "to quit, to cancel (a contract)",
+      "to give notice, to dismiss"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Wohnen"
+  ],
+  "ipa": "ˈkʏndɪɡn̩",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich kündige meinen Vertrag.",
+      "uebersetzung": {
+        "fa": "قراردادم را فسخ می‌کنم.",
+        "en": "I am cancelling my contract."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil die Firma Geld sparen muss, wurde ihm zum Monatsende gekündigt.",
+      "uebersetzung": {
+        "fa": "چون شرکت باید صرفه‌جویی کند، برای آخر ماه اخراجش کردند.",
+        "en": "Because the company has to save money, he was given notice for the end of the month."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "entlassen",
+      "uebersetzung": {
+        "fa": "اخراج کردن",
+        "en": "to dismiss"
+      }
+    },
+    {
+      "wort": "aufhören",
+      "uebersetzung": {
+        "fa": "دست کشیدن",
+        "en": "to stop"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "einstellen",
+      "uebersetzung": {
+        "fa": "استخدام کردن",
+        "en": "to hire"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jdm. kündigen",
+        "bedeutung": "jemandem das Arbeits-/Mietverhältnis beenden",
+        "beispiel": "Der Vermieter hat uns gekündigt.",
+        "uebersetzung": {
+          "fa": "صاحبخانه قرارداد اجاره را با ما فسخ کرد.",
+          "en": "The landlord has given us notice."
+        }
+      },
+      {
+        "muster": "kündigen bei + Dat",
+        "bedeutung": "eine Stelle bei jemandem aufgeben",
+        "beispiel": "Sie hat bei ihrer Firma gekündigt.",
+        "uebersetzung": {
+          "fa": "او از شرکتش استعفا داد.",
+          "en": "She has quit her job at the company."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "kündigen",
+      "praeteritum": "kündigte",
+      "partizip2": "gekündigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kündige",
+        "du": "kündigst",
+        "er_sie_es": "kündigt",
+        "wir": "kündigen",
+        "ihr": "kündigt",
+        "sie_Sie": "kündigen"
+      },
+      "praeteritum": {
+        "ich": "kündigte",
+        "du": "kündigtest",
+        "er_sie_es": "kündigte",
+        "wir": "kündigten",
+        "ihr": "kündigtet",
+        "sie_Sie": "kündigten"
+      },
+      "konjunktiv1": {
+        "ich": "kündige",
+        "du": "kündigest",
+        "er_sie_es": "kündige",
+        "wir": "kündigen",
+        "ihr": "kündiget",
+        "sie_Sie": "kündigen"
+      },
+      "konjunktiv2": {
+        "ich": "kündigte",
+        "du": "kündigtest",
+        "er_sie_es": "kündigte",
+        "wir": "kündigten",
+        "ihr": "kündigtet",
+        "sie_Sie": "kündigten"
+      },
+      "imperativ": {
+        "du": "Kündige!",
+        "ihr": "Kündigt!",
+        "Sie": "Kündigen Sie!"
+      }
+    },
+    "partizip1": "kündigend",
+    "nominalisierung": "die Kündigung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Kündigung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فسخ؛ استعفا؛ اخراج",
+          "en": "notice, termination"
+        },
+        "id_ref": "nomen_kuendigung"
+      },
+      {
+        "wort": "der Vertrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرارداد",
+          "en": "contract"
+        },
+        "id_ref": "nomen_vertrag"
+      },
+      {
+        "wort": "entlassen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اخراج کردن",
+          "en": "to dismiss"
+        },
+        "id_ref": "verb_entlassen"
+      },
+      {
+        "wort": "die Frist",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مهلت",
+          "en": "deadline"
+        },
+        "id_ref": "nomen_frist"
+      },
+      {
+        "wort": "einstellen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "استخدام کردن؛ تنظیم کردن",
+          "en": "to hire; to adjust"
+        },
+        "id_ref": "verb_einstellen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

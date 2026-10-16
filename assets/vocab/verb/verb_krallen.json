@@ -1,0 +1,196 @@
+{
+  "schema": "3.0",
+  "id": "verb_krallen",
+  "wort": "krallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "چنگ زدن، چنگ انداختن",
+      "(محاوره) قاپیدن"
+    ],
+    "en": [
+      "to clutch, to dig one's claws into",
+      "to grab"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Tiere",
+    "Alltag"
+  ],
+  "ipa": "ˈkʁalən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Katze krallt sich fest.",
+      "uebersetzung": {
+        "fa": "گربه چنگ می‌اندازد و محکم می‌گیرد.",
+        "en": "The cat digs its claws in."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Vor Angst krallte sie sich an seinen Arm, als das Flugzeug wackelte.",
+      "uebersetzung": {
+        "fa": "وقتی هواپیما تکان خورد، از ترس به بازوی او چنگ زد.",
+        "en": "Out of fear she clutched his arm when the plane shook."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "festhalten",
+      "uebersetzung": {
+        "fa": "محکم گرفتن",
+        "en": "to hold on"
+      }
+    },
+    {
+      "wort": "packen",
+      "uebersetzung": {
+        "fa": "گرفتن، چنگ زدن",
+        "en": "to grab"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "loslassen",
+      "uebersetzung": {
+        "fa": "رها کردن",
+        "en": "to let go"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "die Kralle (چنگال) + -n",
+    "en": "die Kralle (claw) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich krallen an + Akk",
+        "bedeutung": "sich mit den Fingern/Krallen an etwas festhalten",
+        "beispiel": "Das Kind krallt sich an die Mutter.",
+        "uebersetzung": {
+          "fa": "بچه به مادرش چنگ می‌زند.",
+          "en": "The child clings to its mother."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "krallen",
+      "praeteritum": "krallte",
+      "partizip2": "gekrallt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kralle",
+        "du": "krallst",
+        "er_sie_es": "krallt",
+        "wir": "krallen",
+        "ihr": "krallt",
+        "sie_Sie": "krallen"
+      },
+      "praeteritum": {
+        "ich": "krallte",
+        "du": "kralltest",
+        "er_sie_es": "krallte",
+        "wir": "krallten",
+        "ihr": "kralltet",
+        "sie_Sie": "krallten"
+      },
+      "konjunktiv1": {
+        "ich": "kralle",
+        "du": "krallest",
+        "er_sie_es": "kralle",
+        "wir": "krallen",
+        "ihr": "krallet",
+        "sie_Sie": "krallen"
+      },
+      "konjunktiv2": {
+        "ich": "krallte",
+        "du": "kralltest",
+        "er_sie_es": "krallte",
+        "wir": "krallten",
+        "ihr": "kralltet",
+        "sie_Sie": "krallten"
+      },
+      "imperativ": {
+        "du": "Krall!",
+        "ihr": "Krallt!",
+        "Sie": "Krallen Sie!"
+      }
+    },
+    "partizip1": "krallend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Kralle",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "چنگال",
+          "en": "claw"
+        },
+        "id_ref": "nomen_kralle"
+      },
+      {
+        "wort": "festhalten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "محکم گرفتن",
+          "en": "to hold on"
+        },
+        "id_ref": "verb_festhalten"
+      },
+      {
+        "wort": "packen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گرفتن؛ بستن چمدان",
+          "en": "to grab; to pack"
+        },
+        "id_ref": "verb_packen"
+      },
+      {
+        "wort": "die Katze",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گربه",
+          "en": "cat"
+        },
+        "id_ref": "nomen_katze"
+      },
+      {
+        "wort": "loslassen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رها کردن",
+          "en": "to let go"
+        },
+        "id_ref": "verb_loslassen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_kredenzen",
+  "wort": "kredenzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(با احترام) پیشکش کردن، سرو کردن (نوشیدنی)"
+    ],
+    "en": [
+      "to serve, to proffer"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Essen",
+    "Höflichkeit"
+  ],
+  "ipa": "kʁeˈdɛnt͡sn̩",
+  "anmerkung": "Gehoben, oft scherzhaft.",
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er kredenzt den Wein.",
+      "uebersetzung": {
+        "fa": "شراب را با احترام سرو می‌کند.",
+        "en": "He serves the wine."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Zum Dessert kredenzte der Gastgeber einen alten Portwein, den er lange aufbewahrt hatte.",
+      "uebersetzung": {
+        "fa": "میزبان برای دسر یک شراب پورت کهنه سرو کرد که مدت‌ها نگهش داشته بود.",
+        "en": "For dessert the host served an old port that he had been keeping for a long time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "servieren",
+      "uebersetzung": {
+        "fa": "سرو کردن",
+        "en": "to serve"
+      }
+    },
+    {
+      "wort": "anbieten",
+      "uebersetzung": {
+        "fa": "تعارف کردن",
+        "en": "to offer"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "kredenzen",
+      "praeteritum": "kredenzte",
+      "partizip2": "gekredenzt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kredenze",
+        "du": "kredenzt",
+        "er_sie_es": "kredenzt",
+        "wir": "kredenzen",
+        "ihr": "kredenzt",
+        "sie_Sie": "kredenzen"
+      },
+      "praeteritum": {
+        "ich": "kredenzte",
+        "du": "kredenztest",
+        "er_sie_es": "kredenzte",
+        "wir": "kredenzten",
+        "ihr": "kredenztet",
+        "sie_Sie": "kredenzten"
+      },
+      "konjunktiv1": {
+        "ich": "kredenze",
+        "du": "kredenzest",
+        "er_sie_es": "kredenze",
+        "wir": "kredenzen",
+        "ihr": "kredenzet",
+        "sie_Sie": "kredenzen"
+      },
+      "konjunktiv2": {
+        "ich": "kredenzte",
+        "du": "kredenztest",
+        "er_sie_es": "kredenzte",
+        "wir": "kredenzten",
+        "ihr": "kredenztet",
+        "sie_Sie": "kredenzten"
+      },
+      "imperativ": {
+        "du": "Kredenze!",
+        "ihr": "Kredenzt!",
+        "Sie": "Kredenzen Sie!"
+      }
+    },
+    "partizip1": "kredenzend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "servieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرو کردن",
+          "en": "to serve"
+        },
+        "id_ref": "verb_servieren"
+      },
+      {
+        "wort": "anbieten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تعارف کردن، پیشنهاد دادن",
+          "en": "to offer"
+        },
+        "id_ref": "verb_anbieten"
+      },
+      {
+        "wort": "der Gastgeber",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "میزبان",
+          "en": "host"
+        },
+        "id_ref": "nomen_gastgeber"
+      },
+      {
+        "wort": "das Getränk",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نوشیدنی",
+          "en": "drink"
+        },
+        "id_ref": "nomen_getraenk"
+      },
+      {
+        "wort": "der Wein",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شراب",
+          "en": "wine"
+        },
+        "id_ref": "nomen_wein"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_laben",
+  "wort": "laben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جان تازه دادن، سیر و سیراب کردن",
+      "از چیزی لذت بردن و خوردن"
+    ],
+    "en": [
+      "to refresh",
+      "to feast on"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Essen",
+    "Literatur"
+  ],
+  "ipa": "ˈlaːbn̩",
+  "anmerkung": "Gehoben.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir laben uns am Wasser.",
+      "uebersetzung": {
+        "fa": "با آب تازه می‌شویم.",
+        "en": "We refresh ourselves with the water."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach der langen Wanderung labten sich die Gäste an Brot, Käse und kühlem Most.",
+      "uebersetzung": {
+        "fa": "بعد از پیاده‌روی طولانی، مهمان‌ها با نان و پنیر و آب‌سیب خنک جانی تازه کردند.",
+        "en": "After the long hike the guests refreshed themselves with bread, cheese and cool cider."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erfrischen",
+      "uebersetzung": {
+        "fa": "تازه کردن",
+        "en": "to refresh"
+      }
+    },
+    {
+      "wort": "stärken",
+      "uebersetzung": {
+        "fa": "تقویت کردن",
+        "en": "to fortify"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich laben an + Dat",
+        "bedeutung": "etwas mit Genuss essen/trinken",
+        "beispiel": "Die Vögel laben sich an den Beeren.",
+        "uebersetzung": {
+          "fa": "پرنده‌ها از توت‌ها می‌خورند و لذت می‌برند.",
+          "en": "The birds are feasting on the berries."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "laben",
+      "praeteritum": "labte",
+      "partizip2": "gelabt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "labe",
+        "du": "labst",
+        "er_sie_es": "labt",
+        "wir": "laben",
+        "ihr": "labt",
+        "sie_Sie": "laben"
+      },
+      "praeteritum": {
+        "ich": "labte",
+        "du": "labtest",
+        "er_sie_es": "labte",
+        "wir": "labten",
+        "ihr": "labtet",
+        "sie_Sie": "labten"
+      },
+      "konjunktiv1": {
+        "ich": "labe",
+        "du": "labest",
+        "er_sie_es": "labe",
+        "wir": "laben",
+        "ihr": "labet",
+        "sie_Sie": "laben"
+      },
+      "konjunktiv2": {
+        "ich": "labte",
+        "du": "labtest",
+        "er_sie_es": "labte",
+        "wir": "labten",
+        "ihr": "labtet",
+        "sie_Sie": "labten"
+      },
+      "imperativ": {
+        "du": "Labe!",
+        "ihr": "Labt!",
+        "Sie": "Laben Sie!"
+      }
+    },
+    "partizip1": "labend",
+    "nominalisierung": "die Labung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "erfrischen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تازه کردن",
+          "en": "to refresh"
+        },
+        "id_ref": "verb_erfrischen"
+      },
+      {
+        "wort": "genießen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لذت بردن",
+          "en": "to enjoy"
+        },
+        "id_ref": "verb_geniessen"
+      },
+      {
+        "wort": "der Durst",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تشنگی",
+          "en": "thirst"
+        },
+        "id_ref": "nomen_durst"
+      },
+      {
+        "wort": "stärken",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تقویت کردن",
+          "en": "to strengthen"
+        },
+        "id_ref": "verb_staerken"
+      },
+      {
+        "wort": "das Getränk",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نوشیدنی",
+          "en": "drink"
+        },
+        "id_ref": "nomen_getraenk"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

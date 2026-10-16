@@ -1,0 +1,204 @@
+{
+  "schema": "3.0",
+  "id": "verb_legen",
+  "wort": "legen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گذاشتن (به حالت خوابیده)",
+      "دراز کشیدن",
+      "تخم گذاشتن"
+    ],
+    "en": [
+      "to lay, to put",
+      "to lie down (sich)",
+      "to lay (eggs)"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Haushalt"
+  ],
+  "ipa": "ˈleːɡn̩",
+  "anmerkung": "Wechselpräposition mit Akkusativ (wohin?): «Ich lege das Buch auf den Tisch.» — Ergebnis: «Das Buch liegt auf dem Tisch» (Dativ).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich lege das Handy auf den Tisch.",
+      "uebersetzung": {
+        "fa": "گوشی را روی میز می‌گذارم.",
+        "en": "I put the phone on the table."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil sie Kopfschmerzen hatte, legte sie sich nach dem Essen eine Stunde hin.",
+      "uebersetzung": {
+        "fa": "چون سردرد داشت، بعد از غذا یک ساعت دراز کشید.",
+        "en": "Because she had a headache, she lay down for an hour after lunch."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "stellen",
+      "uebersetzung": {
+        "fa": "گذاشتن (ایستاده)",
+        "en": "to put (upright)"
+      }
+    },
+    {
+      "wort": "setzen",
+      "uebersetzung": {
+        "fa": "نشاندن، گذاشتن",
+        "en": "to set"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "nehmen",
+      "uebersetzung": {
+        "fa": "برداشتن",
+        "en": "to take"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "etwas legen auf/in + Akk",
+        "bedeutung": "etwas flach an einen Ort bringen (wohin?)",
+        "beispiel": "Leg die Wäsche in den Schrank!",
+        "uebersetzung": {
+          "fa": "لباس‌ها را در کمد بگذار!",
+          "en": "Put the laundry in the cupboard!"
+        }
+      },
+      {
+        "muster": "Wert legen auf + Akk",
+        "bedeutung": "etwas für wichtig halten",
+        "beispiel": "Er legt großen Wert auf Pünktlichkeit.",
+        "uebersetzung": {
+          "fa": "او برای وقت‌شناسی اهمیت زیادی قائل است.",
+          "en": "He attaches great importance to punctuality."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "legen",
+      "praeteritum": "legte",
+      "partizip2": "gelegt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lege",
+        "du": "legst",
+        "er_sie_es": "legt",
+        "wir": "legen",
+        "ihr": "legt",
+        "sie_Sie": "legen"
+      },
+      "praeteritum": {
+        "ich": "legte",
+        "du": "legtest",
+        "er_sie_es": "legte",
+        "wir": "legten",
+        "ihr": "legtet",
+        "sie_Sie": "legten"
+      },
+      "konjunktiv1": {
+        "ich": "lege",
+        "du": "legest",
+        "er_sie_es": "lege",
+        "wir": "legen",
+        "ihr": "leget",
+        "sie_Sie": "legen"
+      },
+      "konjunktiv2": {
+        "ich": "legte",
+        "du": "legtest",
+        "er_sie_es": "legte",
+        "wir": "legten",
+        "ihr": "legtet",
+        "sie_Sie": "legten"
+      },
+      "imperativ": {
+        "du": "Leg!",
+        "ihr": "Legt!",
+        "Sie": "Legen Sie!"
+      }
+    },
+    "partizip1": "legend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "liegen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوابیده بودن، قرار داشتن",
+          "en": "to lie"
+        },
+        "id_ref": "verb_liegen"
+      },
+      {
+        "wort": "stellen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گذاشتن (ایستاده)",
+          "en": "to put"
+        },
+        "id_ref": "verb_stellen"
+      },
+      {
+        "wort": "hinlegen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دراز کشیدن؛ زمین گذاشتن",
+          "en": "to lie down; to put down"
+        },
+        "id_ref": "verb_hinlegen"
+      },
+      {
+        "wort": "die Lage",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وضعیت، موقعیت",
+          "en": "situation"
+        },
+        "id_ref": "nomen_lage"
+      },
+      {
+        "wort": "das Ei",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تخم",
+          "en": "egg"
+        },
+        "id_ref": "nomen_ei"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

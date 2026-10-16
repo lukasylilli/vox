@@ -1,0 +1,193 @@
+{
+  "schema": "3.0",
+  "id": "verb_kuschen",
+  "wort": "kuschen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سر به زیر انداختن و اطاعت کردن",
+      "خوابیدن و ساکت شدن (سگ)"
+    ],
+    "en": [
+      "to knuckle under",
+      "to lie down (dog)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gesellschaft",
+    "Charakter"
+  ],
+  "ipa": "ˈkʊʃn̩",
+  "anmerkung": "Umgangssprachlich, abwertend (für Menschen).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hund kuscht.",
+      "uebersetzung": {
+        "fa": "سگ ساکت می‌شود و می‌خوابد.",
+        "en": "The dog lies down quietly."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Viele Mitarbeiter kuschen vor dem Chef, weil sie Angst um ihre Stelle haben.",
+      "uebersetzung": {
+        "fa": "خیلی از کارمندان جلوی رئیس سر به زیر می‌اندازند، چون نگران کارشان هستند.",
+        "en": "Many employees knuckle under to the boss because they are afraid for their jobs."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich fügen",
+      "uebersetzung": {
+        "fa": "گردن نهادن",
+        "en": "to submit"
+      }
+    },
+    {
+      "wort": "gehorchen",
+      "uebersetzung": {
+        "fa": "اطاعت کردن",
+        "en": "to obey"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sich wehren",
+      "uebersetzung": {
+        "fa": "از خود دفاع کردن",
+        "en": "to resist"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "kuschen vor + Dat",
+        "bedeutung": "sich jemandem ängstlich unterordnen",
+        "beispiel": "Er kuscht vor seinem Vater.",
+        "uebersetzung": {
+          "fa": "جلوی پدرش جیک نمی‌زند.",
+          "en": "He knuckles under to his father."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "kuschen",
+      "praeteritum": "kuschte",
+      "partizip2": "gekuscht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kusche",
+        "du": "kuschst",
+        "er_sie_es": "kuscht",
+        "wir": "kuschen",
+        "ihr": "kuscht",
+        "sie_Sie": "kuschen"
+      },
+      "praeteritum": {
+        "ich": "kuschte",
+        "du": "kuschtest",
+        "er_sie_es": "kuschte",
+        "wir": "kuschten",
+        "ihr": "kuschtet",
+        "sie_Sie": "kuschten"
+      },
+      "konjunktiv1": {
+        "ich": "kusche",
+        "du": "kuschest",
+        "er_sie_es": "kusche",
+        "wir": "kuschen",
+        "ihr": "kuschet",
+        "sie_Sie": "kuschen"
+      },
+      "konjunktiv2": {
+        "ich": "kuschte",
+        "du": "kuschtest",
+        "er_sie_es": "kuschte",
+        "wir": "kuschten",
+        "ihr": "kuschtet",
+        "sie_Sie": "kuschten"
+      },
+      "imperativ": {
+        "du": "Kusch!",
+        "ihr": "Kuscht!",
+        "Sie": "Kuschen Sie!"
+      }
+    },
+    "partizip1": "kuschend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "gehorchen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اطاعت کردن",
+          "en": "to obey"
+        },
+        "id_ref": "verb_gehorchen"
+      },
+      {
+        "wort": "fügen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "گردن نهادن؛ افزودن",
+          "en": "to submit; to add"
+        },
+        "id_ref": "verb_fuegen"
+      },
+      {
+        "wort": "die Angst",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترس",
+          "en": "fear"
+        },
+        "id_ref": "nomen_angst"
+      },
+      {
+        "wort": "wehren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دفاع کردن",
+          "en": "to resist"
+        },
+        "id_ref": "verb_wehren"
+      },
+      {
+        "wort": "der Hund",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سگ",
+          "en": "dog"
+        },
+        "id_ref": "nomen_hund"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

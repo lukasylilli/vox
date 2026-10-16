@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_kuppeln",
+  "wort": "kuppeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کلاچ گرفتن",
+      "وصل کردن (واگن، تریلر)"
+    ],
+    "en": [
+      "to operate the clutch",
+      "to couple"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Verkehr",
+    "Technik"
+  ],
+  "ipa": "ˈkʊpl̩n",
+  "anmerkung": null,
+  "berufe": [
+    "technik",
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Du musst kuppeln.",
+      "uebersetzung": {
+        "fa": "باید کلاچ بگیری.",
+        "en": "You have to press the clutch."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor man in den nächsten Gang schaltet, muss man bei diesem Auto kräftig kuppeln.",
+      "uebersetzung": {
+        "fa": "پیش از عوض کردن دنده، در این ماشین باید کلاچ را محکم گرفت.",
+        "en": "Before you change into the next gear, you have to press the clutch hard in this car."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verbinden",
+      "uebersetzung": {
+        "fa": "وصل کردن",
+        "en": "to connect"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "abkuppeln",
+      "uebersetzung": {
+        "fa": "جدا کردن (واگن)",
+        "en": "to uncouple"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas kuppeln an + Akk",
+        "bedeutung": "etwas mit einer Kupplung an etwas befestigen",
+        "beispiel": "Er kuppelt den Anhänger an das Auto.",
+        "uebersetzung": {
+          "fa": "تریلر را به ماشین وصل می‌کند.",
+          "en": "He couples the trailer to the car."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "kuppeln",
+      "praeteritum": "kuppelte",
+      "partizip2": "gekuppelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kupple",
+        "du": "kuppelst",
+        "er_sie_es": "kuppelt",
+        "wir": "kuppeln",
+        "ihr": "kuppelt",
+        "sie_Sie": "kuppeln"
+      },
+      "praeteritum": {
+        "ich": "kuppelte",
+        "du": "kuppeltest",
+        "er_sie_es": "kuppelte",
+        "wir": "kuppelten",
+        "ihr": "kuppeltet",
+        "sie_Sie": "kuppelten"
+      },
+      "konjunktiv1": {
+        "ich": "kupple",
+        "du": "kupplest",
+        "er_sie_es": "kupple",
+        "wir": "kuppeln",
+        "ihr": "kupplet",
+        "sie_Sie": "kuppeln"
+      },
+      "konjunktiv2": {
+        "ich": "kuppelte",
+        "du": "kuppeltest",
+        "er_sie_es": "kuppelte",
+        "wir": "kuppelten",
+        "ihr": "kuppeltet",
+        "sie_Sie": "kuppelten"
+      },
+      "imperativ": {
+        "du": "Kupple!",
+        "ihr": "Kuppelt!",
+        "Sie": "Kuppeln Sie!"
+      }
+    },
+    "partizip1": "kuppelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Kupplung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کلاچ؛ اتصال",
+          "en": "clutch; coupling"
+        },
+        "id_ref": "nomen_kupplung"
+      },
+      {
+        "wort": "schalten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دنده عوض کردن؛ کلید زدن",
+          "en": "to change gear; to switch"
+        },
+        "id_ref": "verb_schalten"
+      },
+      {
+        "wort": "der Gang",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دنده؛ راهرو",
+          "en": "gear; corridor"
+        },
+        "id_ref": "nomen_gang"
+      },
+      {
+        "wort": "der Anhänger",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تریلر؛ آویز",
+          "en": "trailer; pendant"
+        },
+        "id_ref": "nomen_anhaenger"
+      },
+      {
+        "wort": "bremsen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترمز کردن",
+          "en": "to brake"
+        },
+        "id_ref": "verb_bremsen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

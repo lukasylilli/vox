@@ -1,0 +1,195 @@
+{
+  "schema": "3.0",
+  "id": "verb_leeren",
+  "wort": "leeren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خالی کردن",
+      "خالی شدن"
+    ],
+    "en": [
+      "to empty",
+      "to empty (out)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Haushalt",
+    "Alltag"
+  ],
+  "ipa": "ˈleːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "reinigung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte leere den Mülleimer!",
+      "uebersetzung": {
+        "fa": "لطفاً سطل زباله را خالی کن!",
+        "en": "Please empty the bin!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nach dem Konzert leerte sich der Saal so schnell, dass wir kaum Zeit zum Gehen hatten.",
+      "uebersetzung": {
+        "fa": "بعد از کنسرت سالن آن‌قدر زود خالی شد که ما به‌زحمت فرصت رفتن داشتیم.",
+        "en": "After the concert the hall emptied so quickly that we hardly had time to leave."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausleeren",
+      "uebersetzung": {
+        "fa": "خالی کردن",
+        "en": "to empty out"
+      }
+    },
+    {
+      "wort": "räumen",
+      "uebersetzung": {
+        "fa": "تخلیه کردن",
+        "en": "to clear"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "füllen",
+      "uebersetzung": {
+        "fa": "پر کردن",
+        "en": "to fill"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich leeren",
+        "bedeutung": "leer werden",
+        "beispiel": "Langsam leert sich der Platz.",
+        "uebersetzung": {
+          "fa": "میدان کم‌کم خالی می‌شود.",
+          "en": "The square is slowly emptying."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "leeren",
+      "praeteritum": "leerte",
+      "partizip2": "geleert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "leere",
+        "du": "leerst",
+        "er_sie_es": "leert",
+        "wir": "leeren",
+        "ihr": "leert",
+        "sie_Sie": "leeren"
+      },
+      "praeteritum": {
+        "ich": "leerte",
+        "du": "leertest",
+        "er_sie_es": "leerte",
+        "wir": "leerten",
+        "ihr": "leertet",
+        "sie_Sie": "leerten"
+      },
+      "konjunktiv1": {
+        "ich": "leere",
+        "du": "leerest",
+        "er_sie_es": "leere",
+        "wir": "leeren",
+        "ihr": "leeret",
+        "sie_Sie": "leeren"
+      },
+      "konjunktiv2": {
+        "ich": "leerte",
+        "du": "leertest",
+        "er_sie_es": "leerte",
+        "wir": "leerten",
+        "ihr": "leertet",
+        "sie_Sie": "leerten"
+      },
+      "imperativ": {
+        "du": "Leer!",
+        "ihr": "Leert!",
+        "Sie": "Leeren Sie!"
+      }
+    },
+    "partizip1": "leerend",
+    "nominalisierung": "die Leerung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "leer",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خالی",
+          "en": "empty"
+        },
+        "id_ref": "adjektiv_leer"
+      },
+      {
+        "wort": "füllen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پر کردن",
+          "en": "to fill"
+        },
+        "id_ref": "verb_fuellen"
+      },
+      {
+        "wort": "der Mülleimer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سطل زباله",
+          "en": "bin"
+        },
+        "id_ref": "nomen_muelleimer"
+      },
+      {
+        "wort": "ausleeren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خالی کردن",
+          "en": "to empty out"
+        },
+        "id_ref": "verb_ausleeren"
+      },
+      {
+        "wort": "der Briefkasten",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صندوق پست",
+          "en": "letterbox"
+        },
+        "id_ref": "nomen_briefkasten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

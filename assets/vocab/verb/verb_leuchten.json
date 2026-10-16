@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_leuchten",
+  "wort": "leuchten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نور دادن، درخشیدن",
+      "نور انداختن (با چراغ‌قوه)"
+    ],
+    "en": [
+      "to shine, to glow",
+      "to shine (a light)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Natur",
+    "Alltag"
+  ],
+  "ipa": "ˈlɔɪ̯çtn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Sterne leuchten.",
+      "uebersetzung": {
+        "fa": "ستاره‌ها می‌درخشند.",
+        "en": "The stars are shining."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ihre Augen leuchteten, als sie das Geschenk sah.",
+      "uebersetzung": {
+        "fa": "وقتی هدیه را دید، چشم‌هایش برق زد.",
+        "en": "Her eyes lit up when she saw the present."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "scheinen",
+      "uebersetzung": {
+        "fa": "تابیدن",
+        "en": "to shine"
+      }
+    },
+    {
+      "wort": "strahlen",
+      "uebersetzung": {
+        "fa": "درخشیدن",
+        "en": "to beam"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "leuchten mit + Dat … in + Akk",
+        "bedeutung": "mit einer Lampe irgendwohin Licht richten",
+        "beispiel": "Er leuchtet mit der Taschenlampe in den Keller.",
+        "uebersetzung": {
+          "fa": "با چراغ‌قوه به زیرزمین نور می‌اندازد.",
+          "en": "He shines the torch into the cellar."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "leuchten",
+      "praeteritum": "leuchtete",
+      "partizip2": "geleuchtet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "leuchte",
+        "du": "leuchtest",
+        "er_sie_es": "leuchtet",
+        "wir": "leuchten",
+        "ihr": "leuchtet",
+        "sie_Sie": "leuchten"
+      },
+      "praeteritum": {
+        "ich": "leuchtete",
+        "du": "leuchtetest",
+        "er_sie_es": "leuchtete",
+        "wir": "leuchteten",
+        "ihr": "leuchtetet",
+        "sie_Sie": "leuchteten"
+      },
+      "konjunktiv1": {
+        "ich": "leuchte",
+        "du": "leuchtest",
+        "er_sie_es": "leuchte",
+        "wir": "leuchten",
+        "ihr": "leuchtet",
+        "sie_Sie": "leuchten"
+      },
+      "konjunktiv2": {
+        "ich": "leuchtete",
+        "du": "leuchtetest",
+        "er_sie_es": "leuchtete",
+        "wir": "leuchteten",
+        "ihr": "leuchtetet",
+        "sie_Sie": "leuchteten"
+      },
+      "imperativ": {
+        "du": "Leuchte!",
+        "ihr": "Leuchtet!",
+        "Sie": "Leuchten Sie!"
+      }
+    },
+    "partizip1": "leuchtend",
+    "nominalisierung": "die Leuchte"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Licht",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نور",
+          "en": "light"
+        },
+        "id_ref": "nomen_licht"
+      },
+      {
+        "wort": "hell",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "روشن",
+          "en": "bright"
+        },
+        "id_ref": "adjektiv_hell"
+      },
+      {
+        "wort": "scheinen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تابیدن؛ به نظر رسیدن",
+          "en": "to shine; to seem"
+        },
+        "id_ref": "verb_scheinen"
+      },
+      {
+        "wort": "die Taschenlampe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چراغ‌قوه",
+          "en": "torch"
+        },
+        "id_ref": "nomen_taschenlampe"
+      },
+      {
+        "wort": "strahlen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "درخشیدن",
+          "en": "to beam"
+        },
+        "id_ref": "verb_strahlen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

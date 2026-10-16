@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_kopieren",
+  "wort": "kopieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کپی کردن، رونوشت گرفتن",
+      "تقلید کردن"
+    ],
+    "en": [
+      "to copy",
+      "to imitate"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Büro",
+    "Computer"
+  ],
+  "ipa": "koˈpiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "it",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Kannst du das Blatt kopieren?",
+      "uebersetzung": {
+        "fa": "می‌توانی از این برگه کپی بگیری؟",
+        "en": "Can you copy this sheet?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Er hat die Hausaufgaben von seinem Freund kopiert, weil er keine Zeit hatte.",
+      "uebersetzung": {
+        "fa": "تکلیفش را از دوستش کپی کرد، چون وقت نداشت.",
+        "en": "He copied his homework from his friend because he had no time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vervielfältigen",
+      "uebersetzung": {
+        "fa": "تکثیر کردن",
+        "en": "to duplicate"
+      }
+    },
+    {
+      "wort": "nachahmen",
+      "uebersetzung": {
+        "fa": "تقلید کردن",
+        "en": "to imitate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas kopieren in + Akk",
+        "bedeutung": "etwas als Kopie an eine Stelle einfügen",
+        "beispiel": "Kopiere den Text in eine neue Datei!",
+        "uebersetzung": {
+          "fa": "متن را در یک فایل تازه کپی کن!",
+          "en": "Copy the text into a new file!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "kopieren",
+      "praeteritum": "kopierte",
+      "partizip2": "kopiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kopiere",
+        "du": "kopierst",
+        "er_sie_es": "kopiert",
+        "wir": "kopieren",
+        "ihr": "kopiert",
+        "sie_Sie": "kopieren"
+      },
+      "praeteritum": {
+        "ich": "kopierte",
+        "du": "kopiertest",
+        "er_sie_es": "kopierte",
+        "wir": "kopierten",
+        "ihr": "kopiertet",
+        "sie_Sie": "kopierten"
+      },
+      "konjunktiv1": {
+        "ich": "kopiere",
+        "du": "kopierest",
+        "er_sie_es": "kopiere",
+        "wir": "kopieren",
+        "ihr": "kopieret",
+        "sie_Sie": "kopieren"
+      },
+      "konjunktiv2": {
+        "ich": "kopierte",
+        "du": "kopiertest",
+        "er_sie_es": "kopierte",
+        "wir": "kopierten",
+        "ihr": "kopiertet",
+        "sie_Sie": "kopierten"
+      },
+      "imperativ": {
+        "du": "Kopiere!",
+        "ihr": "Kopiert!",
+        "Sie": "Kopieren Sie!"
+      }
+    },
+    "partizip1": "kopierend",
+    "nominalisierung": "die Kopie"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Kopie",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کپی، رونوشت",
+          "en": "copy"
+        },
+        "id_ref": "nomen_kopie"
+      },
+      {
+        "wort": "der Kopierer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دستگاه فتوکپی",
+          "en": "photocopier"
+        },
+        "id_ref": "nomen_kopierer"
+      },
+      {
+        "wort": "einfügen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جای‌گذاری کردن",
+          "en": "to paste"
+        },
+        "id_ref": "verb_einfuegen"
+      },
+      {
+        "wort": "ausdrucken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چاپ کردن",
+          "en": "to print out"
+        },
+        "id_ref": "verb_ausdrucken"
+      },
+      {
+        "wort": "das Original",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نسخه‌ی اصلی",
+          "en": "original"
+        },
+        "id_ref": "nomen_original"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

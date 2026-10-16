@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_kreisen",
+  "wort": "kreisen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دور زدن، چرخیدن (دور چیزی)",
+      "دست‌به‌دست گشتن"
+    ],
+    "en": [
+      "to circle, to orbit",
+      "to be passed around"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Natur",
+    "Wissenschaft"
+  ],
+  "ipa": "ˈkʁaɪ̯zn̩",
+  "anmerkung": "Perfekt mit «haben» oder «sein» (Duden: hat/ist gekreist).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ein Vogel kreist über uns.",
+      "uebersetzung": {
+        "fa": "پرنده‌ای بالای سرمان دور می‌زند.",
+        "en": "A bird is circling above us."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Erde kreist um die Sonne, während sie sich zugleich um sich selbst dreht.",
+      "uebersetzung": {
+        "fa": "زمین دور خورشید می‌چرخد و هم‌زمان دور خودش هم می‌چرخد.",
+        "en": "The earth orbits the sun while at the same time rotating on its own axis."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "umkreisen",
+      "uebersetzung": {
+        "fa": "دور چیزی چرخیدن",
+        "en": "to orbit"
+      }
+    },
+    {
+      "wort": "sich drehen",
+      "uebersetzung": {
+        "fa": "چرخیدن",
+        "en": "to turn"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "kreisen um + Akk",
+        "bedeutung": "sich im Kreis um etwas bewegen; sich gedanklich um etwas drehen",
+        "beispiel": "Seine Gedanken kreisen nur um die Prüfung.",
+        "uebersetzung": {
+          "fa": "همه‌ی فکرش حول امتحان می‌چرخد.",
+          "en": "His thoughts revolve only around the exam."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "kreisen",
+      "praeteritum": "kreiste",
+      "partizip2": "gekreist"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kreise",
+        "du": "kreist",
+        "er_sie_es": "kreist",
+        "wir": "kreisen",
+        "ihr": "kreist",
+        "sie_Sie": "kreisen"
+      },
+      "praeteritum": {
+        "ich": "kreiste",
+        "du": "kreistest",
+        "er_sie_es": "kreiste",
+        "wir": "kreisten",
+        "ihr": "kreistet",
+        "sie_Sie": "kreisten"
+      },
+      "konjunktiv1": {
+        "ich": "kreise",
+        "du": "kreisest",
+        "er_sie_es": "kreise",
+        "wir": "kreisen",
+        "ihr": "kreiset",
+        "sie_Sie": "kreisen"
+      },
+      "konjunktiv2": {
+        "ich": "kreiste",
+        "du": "kreistest",
+        "er_sie_es": "kreiste",
+        "wir": "kreisten",
+        "ihr": "kreistet",
+        "sie_Sie": "kreisten"
+      },
+      "imperativ": {
+        "du": "Kreis!",
+        "ihr": "Kreist!",
+        "Sie": "Kreisen Sie!"
+      }
+    },
+    "partizip1": "kreisend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Kreis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دایره",
+          "en": "circle"
+        },
+        "id_ref": "nomen_kreis"
+      },
+      {
+        "wort": "umkreisen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دور چیزی چرخیدن",
+          "en": "to orbit"
+        },
+        "id_ref": "verb_umkreisen"
+      },
+      {
+        "wort": "drehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چرخاندن",
+          "en": "to turn"
+        },
+        "id_ref": "verb_drehen"
+      },
+      {
+        "wort": "die Umlaufbahn",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مدار",
+          "en": "orbit"
+        },
+        "id_ref": "nomen_umlaufbahn"
+      },
+      {
+        "wort": "die Sonne",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خورشید",
+          "en": "sun"
+        },
+        "id_ref": "nomen_sonne"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

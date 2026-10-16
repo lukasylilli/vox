@@ -1,0 +1,202 @@
+{
+  "schema": "3.0",
+  "id": "verb_leben",
+  "wort": "leben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "زندگی کردن",
+      "زنده بودن"
+    ],
+    "en": [
+      "to live",
+      "to be alive"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Familie"
+  ],
+  "ipa": "ˈleːbn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich lebe in Wien.",
+      "uebersetzung": {
+        "fa": "من در وین زندگی می‌کنم.",
+        "en": "I live in Vienna."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Seit er in Rente ist, lebt er auf dem Land, weil er die Ruhe liebt.",
+      "uebersetzung": {
+        "fa": "از وقتی بازنشسته شده، در روستا زندگی می‌کند، چون آرامش را دوست دارد.",
+        "en": "Since he retired he has been living in the country because he loves the peace and quiet."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wohnen",
+      "uebersetzung": {
+        "fa": "سکونت داشتن",
+        "en": "to live, to reside"
+      }
+    },
+    {
+      "wort": "existieren",
+      "uebersetzung": {
+        "fa": "وجود داشتن",
+        "en": "to exist"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sterben",
+      "uebersetzung": {
+        "fa": "مردن",
+        "en": "to die"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "leben von + Dat",
+        "bedeutung": "seinen Lebensunterhalt mit etwas verdienen; sich von etwas ernähren",
+        "beispiel": "Sie lebt von ihrer Musik.",
+        "uebersetzung": {
+          "fa": "او از راه موسیقی‌اش زندگی می‌کند.",
+          "en": "She lives off her music."
+        }
+      },
+      {
+        "muster": "leben für + Akk",
+        "bedeutung": "sich ganz einer Sache widmen",
+        "beispiel": "Er lebt für seine Familie.",
+        "uebersetzung": {
+          "fa": "او برای خانواده‌اش زندگی می‌کند.",
+          "en": "He lives for his family."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "leben",
+      "praeteritum": "lebte",
+      "partizip2": "gelebt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lebe",
+        "du": "lebst",
+        "er_sie_es": "lebt",
+        "wir": "leben",
+        "ihr": "lebt",
+        "sie_Sie": "leben"
+      },
+      "praeteritum": {
+        "ich": "lebte",
+        "du": "lebtest",
+        "er_sie_es": "lebte",
+        "wir": "lebten",
+        "ihr": "lebtet",
+        "sie_Sie": "lebten"
+      },
+      "konjunktiv1": {
+        "ich": "lebe",
+        "du": "lebest",
+        "er_sie_es": "lebe",
+        "wir": "leben",
+        "ihr": "lebet",
+        "sie_Sie": "leben"
+      },
+      "konjunktiv2": {
+        "ich": "lebte",
+        "du": "lebtest",
+        "er_sie_es": "lebte",
+        "wir": "lebten",
+        "ihr": "lebtet",
+        "sie_Sie": "lebten"
+      },
+      "imperativ": {
+        "du": "Leb!",
+        "ihr": "Lebt!",
+        "Sie": "Leben Sie!"
+      }
+    },
+    "partizip1": "lebend",
+    "nominalisierung": "das Leben"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Leben",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زندگی",
+          "en": "life"
+        },
+        "id_ref": "nomen_leben"
+      },
+      {
+        "wort": "lebendig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زنده، سرزنده",
+          "en": "alive, lively"
+        },
+        "id_ref": "adjektiv_lebendig"
+      },
+      {
+        "wort": "wohnen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سکونت داشتن",
+          "en": "to live"
+        },
+        "id_ref": "verb_wohnen"
+      },
+      {
+        "wort": "erleben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تجربه کردن",
+          "en": "to experience"
+        },
+        "id_ref": "verb_erleben"
+      },
+      {
+        "wort": "sterben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مردن",
+          "en": "to die"
+        },
+        "id_ref": "verb_sterben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

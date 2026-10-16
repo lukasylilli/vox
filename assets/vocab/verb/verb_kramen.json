@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_kramen",
+  "wort": "kramen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گشتن و زیر و رو کردن (در کیف/کشو)"
+    ],
+    "en": [
+      "to rummage"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈkʁaːmən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie kramt in ihrer Tasche.",
+      "uebersetzung": {
+        "fa": "دارد کیفش را زیر و رو می‌کند.",
+        "en": "She is rummaging in her bag."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Er kramte lange in der Schublade, bis er endlich den Schlüssel fand.",
+      "uebersetzung": {
+        "fa": "مدت زیادی کشو را زیر و رو کرد تا بالاخره کلید را پیدا کرد.",
+        "en": "He rummaged in the drawer for a long time until he finally found the key."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wühlen",
+      "uebersetzung": {
+        "fa": "زیر و رو کردن",
+        "en": "to rummage"
+      }
+    },
+    {
+      "wort": "suchen",
+      "uebersetzung": {
+        "fa": "گشتن",
+        "en": "to search"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "kramen in + Dat",
+        "bedeutung": "in einem Behälter suchend herumwühlen",
+        "beispiel": "Ich krame im Keller nach alten Fotos.",
+        "uebersetzung": {
+          "fa": "در زیرزمین دنبال عکس‌های قدیمی می‌گردم.",
+          "en": "I am rummaging in the cellar for old photos."
+        }
+      },
+      {
+        "muster": "kramen nach + Dat",
+        "bedeutung": "etwas suchen",
+        "beispiel": "Er kramt nach seinem Ausweis.",
+        "uebersetzung": {
+          "fa": "دنبال کارت شناسایی‌اش می‌گردد.",
+          "en": "He is rummaging for his ID card."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "kramen",
+      "praeteritum": "kramte",
+      "partizip2": "gekramt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "krame",
+        "du": "kramst",
+        "er_sie_es": "kramt",
+        "wir": "kramen",
+        "ihr": "kramt",
+        "sie_Sie": "kramen"
+      },
+      "praeteritum": {
+        "ich": "kramte",
+        "du": "kramtest",
+        "er_sie_es": "kramte",
+        "wir": "kramten",
+        "ihr": "kramtet",
+        "sie_Sie": "kramten"
+      },
+      "konjunktiv1": {
+        "ich": "krame",
+        "du": "kramest",
+        "er_sie_es": "krame",
+        "wir": "kramen",
+        "ihr": "kramet",
+        "sie_Sie": "kramen"
+      },
+      "konjunktiv2": {
+        "ich": "kramte",
+        "du": "kramtest",
+        "er_sie_es": "kramte",
+        "wir": "kramten",
+        "ihr": "kramtet",
+        "sie_Sie": "kramten"
+      },
+      "imperativ": {
+        "du": "Kram!",
+        "ihr": "Kramt!",
+        "Sie": "Kramen Sie!"
+      }
+    },
+    "partizip1": "kramend",
+    "nominalisierung": "der Kram"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Kram",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خرت‌وپرت",
+          "en": "stuff"
+        },
+        "id_ref": "nomen_kram"
+      },
+      {
+        "wort": "wühlen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زیر و رو کردن",
+          "en": "to rummage"
+        },
+        "id_ref": "verb_wuehlen"
+      },
+      {
+        "wort": "suchen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گشتن",
+          "en": "to search"
+        },
+        "id_ref": "verb_suchen"
+      },
+      {
+        "wort": "die Schublade",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کشو",
+          "en": "drawer"
+        },
+        "id_ref": "nomen_schublade"
+      },
+      {
+        "wort": "die Tasche",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کیف؛ جیب",
+          "en": "bag; pocket"
+        },
+        "id_ref": "nomen_tasche"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

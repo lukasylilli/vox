@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_lauern",
+  "wort": "lauern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "در کمین بودن",
+      "بی‌صبرانه منتظر بودن"
+    ],
+    "en": [
+      "to lurk, to lie in wait",
+      "to wait eagerly"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Tiere",
+    "Gefahr"
+  ],
+  "ipa": "ˈlaʊ̯ɐn",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Katze lauert vor dem Loch.",
+      "uebersetzung": {
+        "fa": "گربه جلوی سوراخ کمین کرده است.",
+        "en": "The cat is lying in wait in front of the hole."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Internet lauern viele Gefahren, deshalb sollten Kinder nicht allein surfen.",
+      "uebersetzung": {
+        "fa": "در اینترنت خطرهای زیادی در کمین است، برای همین بچه‌ها نباید تنها در آن بگردند.",
+        "en": "Many dangers lurk on the internet, so children should not surf alone."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "auflauern",
+      "uebersetzung": {
+        "fa": "کمین کردن",
+        "en": "to waylay"
+      }
+    },
+    {
+      "wort": "warten",
+      "uebersetzung": {
+        "fa": "منتظر بودن",
+        "en": "to wait"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "lauern auf + Akk",
+        "bedeutung": "auf jemanden/etwas heimlich oder ungeduldig warten",
+        "beispiel": "Der Fuchs lauert auf seine Beute.",
+        "uebersetzung": {
+          "fa": "روباه در کمین شکارش است.",
+          "en": "The fox is lying in wait for its prey."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "lauern",
+      "praeteritum": "lauerte",
+      "partizip2": "gelauert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lauere",
+        "du": "lauerst",
+        "er_sie_es": "lauert",
+        "wir": "lauern",
+        "ihr": "lauert",
+        "sie_Sie": "lauern"
+      },
+      "praeteritum": {
+        "ich": "lauerte",
+        "du": "lauertest",
+        "er_sie_es": "lauerte",
+        "wir": "lauerten",
+        "ihr": "lauertet",
+        "sie_Sie": "lauerten"
+      },
+      "konjunktiv1": {
+        "ich": "lauere",
+        "du": "lauerest",
+        "er_sie_es": "lauere",
+        "wir": "lauern",
+        "ihr": "laueret",
+        "sie_Sie": "lauern"
+      },
+      "konjunktiv2": {
+        "ich": "lauerte",
+        "du": "lauertest",
+        "er_sie_es": "lauerte",
+        "wir": "lauerten",
+        "ihr": "lauertet",
+        "sie_Sie": "lauerten"
+      },
+      "imperativ": {
+        "du": "Lauere!",
+        "ihr": "Lauert!",
+        "Sie": "Lauern Sie!"
+      }
+    },
+    "partizip1": "lauernd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "auflauern",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کمین کردن",
+          "en": "to waylay"
+        },
+        "id_ref": "verb_auflauern"
+      },
+      {
+        "wort": "die Gefahr",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خطر",
+          "en": "danger"
+        },
+        "id_ref": "nomen_gefahr"
+      },
+      {
+        "wort": "warten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "منتظر ماندن",
+          "en": "to wait"
+        },
+        "id_ref": "verb_warten"
+      },
+      {
+        "wort": "die Beute",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شکار، غنیمت",
+          "en": "prey"
+        },
+        "id_ref": "nomen_beute"
+      },
+      {
+        "wort": "verstecken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پنهان کردن",
+          "en": "to hide"
+        },
+        "id_ref": "verb_verstecken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

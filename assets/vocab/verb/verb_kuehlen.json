@@ -1,0 +1,199 @@
+{
+  "schema": "3.0",
+  "id": "verb_kuehlen",
+  "wort": "kühlen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خنک کردن"
+    ],
+    "en": [
+      "to cool, to chill"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Essen",
+    "Haushalt"
+  ],
+  "ipa": "ˈkyːlən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich kühle die Getränke.",
+      "uebersetzung": {
+        "fa": "نوشیدنی‌ها را خنک می‌کنم.",
+        "en": "I am chilling the drinks."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nach dem Sturz sollte man das Knie kühlen, damit es nicht so stark anschwillt.",
+      "uebersetzung": {
+        "fa": "بعد از زمین خوردن بهتر است زانو را خنک کرد تا زیاد ورم نکند.",
+        "en": "After the fall you should cool the knee so that it does not swell up so much."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abkühlen",
+      "uebersetzung": {
+        "fa": "سرد کردن",
+        "en": "to cool down"
+      }
+    },
+    {
+      "wort": "kalt stellen",
+      "uebersetzung": {
+        "fa": "در یخچال گذاشتن",
+        "en": "to put somewhere cold"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "wärmen",
+      "uebersetzung": {
+        "fa": "گرم کردن",
+        "en": "to warm"
+      }
+    },
+    {
+      "wort": "heizen",
+      "uebersetzung": {
+        "fa": "گرم کردن",
+        "en": "to heat"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "der Kühlschrank",
+      "uebersetzung": {
+        "fa": "یخچال",
+        "en": "fridge"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "kühlen",
+      "praeteritum": "kühlte",
+      "partizip2": "gekühlt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kühle",
+        "du": "kühlst",
+        "er_sie_es": "kühlt",
+        "wir": "kühlen",
+        "ihr": "kühlt",
+        "sie_Sie": "kühlen"
+      },
+      "praeteritum": {
+        "ich": "kühlte",
+        "du": "kühltest",
+        "er_sie_es": "kühlte",
+        "wir": "kühlten",
+        "ihr": "kühltet",
+        "sie_Sie": "kühlten"
+      },
+      "konjunktiv1": {
+        "ich": "kühle",
+        "du": "kühlest",
+        "er_sie_es": "kühle",
+        "wir": "kühlen",
+        "ihr": "kühlet",
+        "sie_Sie": "kühlen"
+      },
+      "konjunktiv2": {
+        "ich": "kühlte",
+        "du": "kühltest",
+        "er_sie_es": "kühlte",
+        "wir": "kühlten",
+        "ihr": "kühltet",
+        "sie_Sie": "kühlten"
+      },
+      "imperativ": {
+        "du": "Kühl!",
+        "ihr": "Kühlt!",
+        "Sie": "Kühlen Sie!"
+      }
+    },
+    "partizip1": "kühlend",
+    "nominalisierung": "die Kühlung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "kühl",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خنک",
+          "en": "cool"
+        },
+        "id_ref": "adjektiv_kuehl"
+      },
+      {
+        "wort": "der Kühlschrank",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "یخچال",
+          "en": "fridge"
+        },
+        "id_ref": "nomen_kuehlschrank"
+      },
+      {
+        "wort": "abkühlen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرد کردن",
+          "en": "to cool down"
+        },
+        "id_ref": "verb_abkuehlen"
+      },
+      {
+        "wort": "kalt",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سرد",
+          "en": "cold"
+        },
+        "id_ref": "adjektiv_kalt"
+      },
+      {
+        "wort": "wärmen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گرم کردن",
+          "en": "to warm"
+        },
+        "id_ref": "verb_waermen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

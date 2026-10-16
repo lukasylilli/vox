@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_lehnen",
+  "wort": "lehnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تکیه دادن",
+      "تکیه کردن"
+    ],
+    "en": [
+      "to lean"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Körper"
+  ],
+  "ipa": "ˈleːnən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Fahrrad lehnt an der Wand.",
+      "uebersetzung": {
+        "fa": "دوچرخه به دیوار تکیه داده شده است.",
+        "en": "The bicycle is leaning against the wall."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bitte lehnen Sie sich nicht aus dem Fenster, während der Zug fährt.",
+      "uebersetzung": {
+        "fa": "لطفاً وقتی قطار در حرکت است، از پنجره بیرون خم نشوید.",
+        "en": "Please do not lean out of the window while the train is moving."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "stützen",
+      "uebersetzung": {
+        "fa": "تکیه دادن، حمایت کردن",
+        "en": "to support"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "etwas lehnen an/gegen + Akk",
+        "bedeutung": "etwas schräg an etwas stellen (wohin?)",
+        "beispiel": "Er lehnt die Leiter an den Baum.",
+        "uebersetzung": {
+          "fa": "نردبان را به درخت تکیه می‌دهد.",
+          "en": "He leans the ladder against the tree."
+        }
+      },
+      {
+        "muster": "lehnen an + Dat",
+        "bedeutung": "schräg an etwas stehen (wo?)",
+        "beispiel": "Sie lehnt an der Tür.",
+        "uebersetzung": {
+          "fa": "به در تکیه داده است.",
+          "en": "She is leaning against the door."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "lehnen",
+      "praeteritum": "lehnte",
+      "partizip2": "gelehnt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lehne",
+        "du": "lehnst",
+        "er_sie_es": "lehnt",
+        "wir": "lehnen",
+        "ihr": "lehnt",
+        "sie_Sie": "lehnen"
+      },
+      "praeteritum": {
+        "ich": "lehnte",
+        "du": "lehntest",
+        "er_sie_es": "lehnte",
+        "wir": "lehnten",
+        "ihr": "lehntet",
+        "sie_Sie": "lehnten"
+      },
+      "konjunktiv1": {
+        "ich": "lehne",
+        "du": "lehnest",
+        "er_sie_es": "lehne",
+        "wir": "lehnen",
+        "ihr": "lehnet",
+        "sie_Sie": "lehnen"
+      },
+      "konjunktiv2": {
+        "ich": "lehnte",
+        "du": "lehntest",
+        "er_sie_es": "lehnte",
+        "wir": "lehnten",
+        "ihr": "lehntet",
+        "sie_Sie": "lehnten"
+      },
+      "imperativ": {
+        "du": "Lehne!",
+        "ihr": "Lehnt!",
+        "Sie": "Lehnen Sie!"
+      }
+    },
+    "partizip1": "lehnend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Lehne",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پشتی (صندلی)",
+          "en": "backrest"
+        },
+        "id_ref": "nomen_lehne"
+      },
+      {
+        "wort": "ablehnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رد کردن",
+          "en": "to refuse"
+        },
+        "id_ref": "verb_ablehnen"
+      },
+      {
+        "wort": "anlehnen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تکیه دادن؛ نیمه‌باز گذاشتن",
+          "en": "to lean; to leave ajar"
+        },
+        "id_ref": "verb_anlehnen"
+      },
+      {
+        "wort": "stützen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تکیه دادن",
+          "en": "to support"
+        },
+        "id_ref": "verb_stuetzen"
+      },
+      {
+        "wort": "die Wand",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دیوار",
+          "en": "wall"
+        },
+        "id_ref": "nomen_wand"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

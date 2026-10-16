@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_lagern",
+  "wort": "lagern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "انبار کردن، نگه‌داری کردن",
+      "اردو زدن، استراحت کردن (در جایی)"
+    ],
+    "en": [
+      "to store",
+      "to camp, to rest"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Haushalt"
+  ],
+  "ipa": "ˈlaːɡɐn",
+  "anmerkung": "In der Pflege: einen Patienten lagern (in eine bestimmte Liegeposition bringen).",
+  "berufe": [
+    "pflege_medizin",
+    "gastro_hotel",
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir lagern die Kartoffeln im Keller.",
+      "uebersetzung": {
+        "fa": "سیب‌زمینی‌ها را در زیرزمین نگه می‌داریم.",
+        "en": "We store the potatoes in the cellar."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Medikamente sollte man kühl und trocken lagern, damit sie lange wirken.",
+      "uebersetzung": {
+        "fa": "داروها را باید در جای خنک و خشک نگه داشت تا مدت زیادی اثر کنند.",
+        "en": "Medicines should be stored in a cool, dry place so that they stay effective for a long time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufbewahren",
+      "uebersetzung": {
+        "fa": "نگه داشتن",
+        "en": "to keep"
+      }
+    },
+    {
+      "wort": "speichern",
+      "uebersetzung": {
+        "fa": "ذخیره کردن",
+        "en": "to store"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "jdn. lagern auf + Dat",
+        "bedeutung": "(Pflege) einen Patienten in eine Position bringen",
+        "beispiel": "Wir lagern den Patienten auf der Seite.",
+        "uebersetzung": {
+          "fa": "بیمار را به پهلو می‌خوابانیم.",
+          "en": "We position the patient on his side."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "lagern",
+      "praeteritum": "lagerte",
+      "partizip2": "gelagert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lagere",
+        "du": "lagerst",
+        "er_sie_es": "lagert",
+        "wir": "lagern",
+        "ihr": "lagert",
+        "sie_Sie": "lagern"
+      },
+      "praeteritum": {
+        "ich": "lagerte",
+        "du": "lagertest",
+        "er_sie_es": "lagerte",
+        "wir": "lagerten",
+        "ihr": "lagertet",
+        "sie_Sie": "lagerten"
+      },
+      "konjunktiv1": {
+        "ich": "lagere",
+        "du": "lagerest",
+        "er_sie_es": "lagere",
+        "wir": "lagern",
+        "ihr": "lageret",
+        "sie_Sie": "lagern"
+      },
+      "konjunktiv2": {
+        "ich": "lagerte",
+        "du": "lagertest",
+        "er_sie_es": "lagerte",
+        "wir": "lagerten",
+        "ihr": "lagertet",
+        "sie_Sie": "lagerten"
+      },
+      "imperativ": {
+        "du": "Lagere!",
+        "ihr": "Lagert!",
+        "Sie": "Lagern Sie!"
+      }
+    },
+    "partizip1": "lagernd",
+    "nominalisierung": "die Lagerung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Lager",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انبار؛ اردوگاه",
+          "en": "warehouse; camp"
+        },
+        "id_ref": "nomen_lager"
+      },
+      {
+        "wort": "aufbewahren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to keep"
+        },
+        "id_ref": "verb_aufbewahren"
+      },
+      {
+        "wort": "die Lagerung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "انبارداری؛ وضعیت قرارگیری",
+          "en": "storage; positioning"
+        },
+        "id_ref": "nomen_lagerung"
+      },
+      {
+        "wort": "der Keller",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زیرزمین",
+          "en": "cellar"
+        },
+        "id_ref": "nomen_keller"
+      },
+      {
+        "wort": "speichern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ذخیره کردن",
+          "en": "to save, to store"
+        },
+        "id_ref": "verb_speichern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

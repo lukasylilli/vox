@@ -1,0 +1,194 @@
+{
+  "schema": "3.0",
+  "id": "verb_lenken",
+  "wort": "lenken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "هدایت کردن، راندن (وسیله‌ی نقلیه)",
+      "جلب کردن، متوجه کردن (توجه)"
+    ],
+    "en": [
+      "to steer, to drive",
+      "to direct (attention)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Verkehr"
+  ],
+  "ipa": "ˈlɛŋkn̩",
+  "anmerkung": null,
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er lenkt das Auto.",
+      "uebersetzung": {
+        "fa": "او ماشین را هدایت می‌کند.",
+        "en": "He is steering the car."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Lehrerin versuchte, die Aufmerksamkeit der Klasse wieder auf das Thema zu lenken.",
+      "uebersetzung": {
+        "fa": "معلم سعی کرد توجه کلاس را دوباره به موضوع برگرداند.",
+        "en": "The teacher tried to direct the class's attention back to the topic."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "steuern",
+      "uebersetzung": {
+        "fa": "هدایت کردن",
+        "en": "to steer"
+      }
+    },
+    {
+      "wort": "leiten",
+      "uebersetzung": {
+        "fa": "هدایت کردن",
+        "en": "to guide"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ablenken",
+      "uebersetzung": {
+        "fa": "حواس پرت کردن",
+        "en": "to distract"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas lenken auf + Akk",
+        "bedeutung": "etwas in eine Richtung bringen",
+        "beispiel": "Er lenkte das Gespräch auf ein anderes Thema.",
+        "uebersetzung": {
+          "fa": "گفت‌وگو را به موضوع دیگری کشاند.",
+          "en": "He steered the conversation to another topic."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "lenken",
+      "praeteritum": "lenkte",
+      "partizip2": "gelenkt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lenke",
+        "du": "lenkst",
+        "er_sie_es": "lenkt",
+        "wir": "lenken",
+        "ihr": "lenkt",
+        "sie_Sie": "lenken"
+      },
+      "praeteritum": {
+        "ich": "lenkte",
+        "du": "lenktest",
+        "er_sie_es": "lenkte",
+        "wir": "lenkten",
+        "ihr": "lenktet",
+        "sie_Sie": "lenkten"
+      },
+      "konjunktiv1": {
+        "ich": "lenke",
+        "du": "lenkest",
+        "er_sie_es": "lenke",
+        "wir": "lenken",
+        "ihr": "lenket",
+        "sie_Sie": "lenken"
+      },
+      "konjunktiv2": {
+        "ich": "lenkte",
+        "du": "lenktest",
+        "er_sie_es": "lenkte",
+        "wir": "lenkten",
+        "ihr": "lenktet",
+        "sie_Sie": "lenkten"
+      },
+      "imperativ": {
+        "du": "Lenk!",
+        "ihr": "Lenkt!",
+        "Sie": "Lenken Sie!"
+      }
+    },
+    "partizip1": "lenkend",
+    "nominalisierung": "die Lenkung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Lenkrad",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فرمان (ماشین)",
+          "en": "steering wheel"
+        },
+        "id_ref": "nomen_lenkrad"
+      },
+      {
+        "wort": "steuern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "هدایت کردن",
+          "en": "to steer"
+        },
+        "id_ref": "verb_steuern"
+      },
+      {
+        "wort": "ablenken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حواس پرت کردن",
+          "en": "to distract"
+        },
+        "id_ref": "verb_ablenken"
+      },
+      {
+        "wort": "der Lenker",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فرمان (دوچرخه)؛ راننده",
+          "en": "handlebars; driver"
+        },
+        "id_ref": "nomen_lenker"
+      },
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "راندن",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

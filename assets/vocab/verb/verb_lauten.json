@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "verb_lauten",
+  "wort": "lauten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بودن (متن، مضمون)، چنین بودن (پاسخ، نام)"
+    ],
+    "en": [
+      "to be, to read, to go"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Kommunikation",
+    "Büro"
+  ],
+  "ipa": "ˈlaʊ̯tn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wie lautet deine Adresse?",
+      "uebersetzung": {
+        "fa": "آدرست چیست؟",
+        "en": "What is your address?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Antwort auf diese Frage lautet eindeutig «nein», auch wenn das einigen nicht gefällt.",
+      "uebersetzung": {
+        "fa": "جواب این سؤال به‌روشنی «نه» است، حتی اگر به مذاق بعضی خوش نیاید.",
+        "en": "The answer to this question is clearly \"no\", even if some people do not like it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "heißen",
+      "uebersetzung": {
+        "fa": "نام داشتن؛ معنا دادن",
+        "en": "to be called; to mean"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "lauten auf + Akk",
+        "bedeutung": "auf einen Namen/Betrag ausgestellt sein",
+        "beispiel": "Das Ticket lautet auf meinen Namen.",
+        "uebersetzung": {
+          "fa": "بلیت به نام من صادر شده است.",
+          "en": "The ticket is in my name."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "lauten",
+      "praeteritum": "lautete",
+      "partizip2": "gelautet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "laute",
+        "du": "lautest",
+        "er_sie_es": "lautet",
+        "wir": "lauten",
+        "ihr": "lautet",
+        "sie_Sie": "lauten"
+      },
+      "praeteritum": {
+        "ich": "lautete",
+        "du": "lautetest",
+        "er_sie_es": "lautete",
+        "wir": "lauteten",
+        "ihr": "lautetet",
+        "sie_Sie": "lauteten"
+      },
+      "konjunktiv1": {
+        "ich": "laute",
+        "du": "lautest",
+        "er_sie_es": "laute",
+        "wir": "lauten",
+        "ihr": "lautet",
+        "sie_Sie": "lauten"
+      },
+      "konjunktiv2": {
+        "ich": "lautete",
+        "du": "lautetest",
+        "er_sie_es": "lautete",
+        "wir": "lauteten",
+        "ihr": "lautetet",
+        "sie_Sie": "lauteten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "lautend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Laut",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "صوت، آوا",
+          "en": "sound"
+        },
+        "id_ref": "nomen_laut"
+      },
+      {
+        "wort": "der Wortlaut",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "متن دقیق",
+          "en": "wording"
+        },
+        "id_ref": "nomen_wortlaut"
+      },
+      {
+        "wort": "heißen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نام داشتن",
+          "en": "to be called"
+        },
+        "id_ref": "verb_heissen"
+      },
+      {
+        "wort": "die Antwort",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جواب",
+          "en": "answer"
+        },
+        "id_ref": "nomen_antwort"
+      },
+      {
+        "wort": "die Adresse",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آدرس",
+          "en": "address"
+        },
+        "id_ref": "nomen_adresse"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

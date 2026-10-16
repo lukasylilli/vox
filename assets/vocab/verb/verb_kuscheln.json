@@ -1,0 +1,194 @@
+{
+  "schema": "3.0",
+  "id": "verb_kuscheln",
+  "wort": "kuscheln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بغل کردن و به هم چسبیدن، نوازش کردن",
+      "خود را جمع کردن (در پتو)"
+    ],
+    "en": [
+      "to cuddle",
+      "to snuggle"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Familie",
+    "Gefühle"
+  ],
+  "ipa": "ˈkʊʃl̩n",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kinder kuscheln mit der Katze.",
+      "uebersetzung": {
+        "fa": "بچه‌ها گربه را بغل کرده‌اند و نوازشش می‌کنند.",
+        "en": "The children are cuddling the cat."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Am Abend kuschelte sie sich in ihre Decke, weil es draußen so kalt war.",
+      "uebersetzung": {
+        "fa": "عصر خودش را توی پتویش جمع کرد، چون بیرون خیلی سرد بود.",
+        "en": "In the evening she snuggled up in her blanket because it was so cold outside."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schmusen",
+      "uebersetzung": {
+        "fa": "نوازش کردن",
+        "en": "to cuddle"
+      }
+    },
+    {
+      "wort": "knuddeln",
+      "uebersetzung": {
+        "fa": "بغل کردن",
+        "en": "to hug"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "kuscheln mit + Dat",
+        "bedeutung": "zärtlich mit jemandem eng beieinander sein",
+        "beispiel": "Das Kind kuschelt mit seinem Teddy.",
+        "uebersetzung": {
+          "fa": "بچه خرسش را بغل کرده است.",
+          "en": "The child is cuddling its teddy."
+        }
+      },
+      {
+        "muster": "sich kuscheln an + Akk",
+        "bedeutung": "sich eng an jemanden schmiegen",
+        "beispiel": "Der Hund kuschelt sich an mich.",
+        "uebersetzung": {
+          "fa": "سگ خودش را به من می‌چسباند.",
+          "en": "The dog snuggles up to me."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "kuscheln",
+      "praeteritum": "kuschelte",
+      "partizip2": "gekuschelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kuschle",
+        "du": "kuschelst",
+        "er_sie_es": "kuschelt",
+        "wir": "kuscheln",
+        "ihr": "kuschelt",
+        "sie_Sie": "kuscheln"
+      },
+      "praeteritum": {
+        "ich": "kuschelte",
+        "du": "kuscheltest",
+        "er_sie_es": "kuschelte",
+        "wir": "kuschelten",
+        "ihr": "kuscheltet",
+        "sie_Sie": "kuschelten"
+      },
+      "konjunktiv1": {
+        "ich": "kuschle",
+        "du": "kuschlest",
+        "er_sie_es": "kuschle",
+        "wir": "kuscheln",
+        "ihr": "kuschlet",
+        "sie_Sie": "kuscheln"
+      },
+      "konjunktiv2": {
+        "ich": "kuschelte",
+        "du": "kuscheltest",
+        "er_sie_es": "kuschelte",
+        "wir": "kuschelten",
+        "ihr": "kuscheltet",
+        "sie_Sie": "kuschelten"
+      },
+      "imperativ": {
+        "du": "Kuschle!",
+        "ihr": "Kuschelt!",
+        "Sie": "Kuscheln Sie!"
+      }
+    },
+    "partizip1": "kuschelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "kuschelig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نرم و گرم، دنج",
+          "en": "cosy"
+        },
+        "id_ref": "adjektiv_kuschelig"
+      },
+      {
+        "wort": "umarmen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "در آغوش گرفتن",
+          "en": "to hug"
+        },
+        "id_ref": "verb_umarmen"
+      },
+      {
+        "wort": "knuddeln",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بغل کردن",
+          "en": "to cuddle"
+        },
+        "id_ref": "verb_knuddeln"
+      },
+      {
+        "wort": "die Decke",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پتو؛ سقف",
+          "en": "blanket; ceiling"
+        },
+        "id_ref": "nomen_decke"
+      },
+      {
+        "wort": "zärtlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مهربان، لطیف",
+          "en": "tender"
+        },
+        "id_ref": "adjektiv_zaertlich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

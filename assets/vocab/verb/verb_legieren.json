@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_legieren",
+  "wort": "legieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آلیاژ ساختن (فلز)",
+      "غلیظ کردن (سس، سوپ با زرده یا خامه)"
+    ],
+    "en": [
+      "to alloy",
+      "to thicken (a sauce)"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Technik",
+    "Kochen"
+  ],
+  "ipa": "leˈɡiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "technik",
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Man legiert Kupfer mit Zinn.",
+      "uebersetzung": {
+        "fa": "مس را با قلع آلیاژ می‌کنند.",
+        "en": "Copper is alloyed with tin."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Zum Schluss legiert der Koch die Suppe mit Eigelb und Sahne, damit sie cremiger wird.",
+      "uebersetzung": {
+        "fa": "در آخر آشپز سوپ را با زرده‌ی تخم‌مرغ و خامه غلیظ می‌کند تا خامه‌ای‌تر شود.",
+        "en": "Finally the chef thickens the soup with egg yolk and cream so that it becomes creamier."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "mischen",
+      "uebersetzung": {
+        "fa": "مخلوط کردن",
+        "en": "to mix"
+      }
+    },
+    {
+      "wort": "binden",
+      "uebersetzung": {
+        "fa": "غلیظ کردن (سس)",
+        "en": "to thicken"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas legieren mit + Dat",
+        "bedeutung": "etwas mit einem Stoff mischen/binden",
+        "beispiel": "Die Soße wird mit Butter legiert.",
+        "uebersetzung": {
+          "fa": "سس را با کره غلیظ می‌کنند.",
+          "en": "The sauce is thickened with butter."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "legieren",
+      "praeteritum": "legierte",
+      "partizip2": "legiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "legiere",
+        "du": "legierst",
+        "er_sie_es": "legiert",
+        "wir": "legieren",
+        "ihr": "legiert",
+        "sie_Sie": "legieren"
+      },
+      "praeteritum": {
+        "ich": "legierte",
+        "du": "legiertest",
+        "er_sie_es": "legierte",
+        "wir": "legierten",
+        "ihr": "legiertet",
+        "sie_Sie": "legierten"
+      },
+      "konjunktiv1": {
+        "ich": "legiere",
+        "du": "legierest",
+        "er_sie_es": "legiere",
+        "wir": "legieren",
+        "ihr": "legieret",
+        "sie_Sie": "legieren"
+      },
+      "konjunktiv2": {
+        "ich": "legierte",
+        "du": "legiertest",
+        "er_sie_es": "legierte",
+        "wir": "legierten",
+        "ihr": "legiertet",
+        "sie_Sie": "legierten"
+      },
+      "imperativ": {
+        "du": "Legiere!",
+        "ihr": "Legiert!",
+        "Sie": "Legieren Sie!"
+      }
+    },
+    "partizip1": "legierend",
+    "nominalisierung": "die Legierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Legierung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آلیاژ",
+          "en": "alloy"
+        },
+        "id_ref": "nomen_legierung"
+      },
+      {
+        "wort": "das Metall",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فلز",
+          "en": "metal"
+        },
+        "id_ref": "nomen_metall"
+      },
+      {
+        "wort": "mischen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مخلوط کردن",
+          "en": "to mix"
+        },
+        "id_ref": "verb_mischen"
+      },
+      {
+        "wort": "die Soße",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سس",
+          "en": "sauce"
+        },
+        "id_ref": "nomen_sosse"
+      },
+      {
+        "wort": "das Eigelb",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زرده‌ی تخم‌مرغ",
+          "en": "egg yolk"
+        },
+        "id_ref": "nomen_eigelb"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

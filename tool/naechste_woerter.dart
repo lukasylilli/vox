@@ -1708,6 +1708,20 @@ const zurueckgestellt = <String>{
   'kollern', // zurückgestellt: zwei Bedeutungen/Hilfsverben (kullern = sein; Truthahn-Laut = haben) — nicht sicher (Regel 14) 2026-10-15
   'kontakten', // zurückgestellt: Fachjargon Werbung/Vertrieb, selten; Gebrauch nicht sicher (Regel 14) 2026-10-15
   'kontrahieren', // zurückgestellt: mehrere Fachbedeutungen (Medizin: sich zusammenziehen; Recht: Vertrag schließen; Fechten) — nicht sicher (Regel 14) 2026-10-15
+  'kopulieren', // zurückgestellt: sexueller Bezug (Biologie: sich paaren) — sensibel, Entscheidung Lukas (wie ejakulieren) 2026-10-16
+  'kosen', // zurückgestellt: gehoben/veraltend (liebkosen); zeitlich/ersatz nicht sicher (Regel 17) 2026-10-16
+  'kotzen', // zurückgestellt: derb/vulgär (sich übergeben) — Entscheidung Lukas (wie kacken), Regel 17 2026-10-16
+  'krampfen', // zurückgestellt: selten (meist «sich verkrampfen»/«sich krampfen um»); Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'kränzen', // zurückgestellt: veraltet/gehoben (bekränzen); zeitlich/ersatz nicht sicher (Regel 17) 2026-10-16
+  'kreditieren', // zurückgestellt: Fachwort Buchhaltung (gutschreiben), selten; Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'kreißen', // zurückgestellt: veraltet (in den Wehen liegen); zeitlich/ersatz nicht sicher (Regel 17) 2026-10-16
+  'krepieren', // zurückgestellt: salopp/derb (sterben; Granate explodieren) — Einordnung anstoessig nicht sicher, Entscheidung Lukas 2026-10-16
+  'krickeln', // zurückgestellt: regional/umgangssprachlich, selten; Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'kujonieren', // zurückgestellt: veraltend (schikanieren); zeitlich/ersatz nicht sicher (Regel 17) 2026-10-16
+  'kümmeln', // zurückgestellt: umgangssprachlich (Alkohol trinken) und Küche (mit Kümmel würzen) — Bedeutung nicht sicher (Regel 14) 2026-10-16
+  'kupieren', // zurückgestellt: mehrere Fachbedeutungen (Schwanz/Ohren kürzen; Medizin: Anfall unterdrücken; Karten abheben) — nicht sicher (Regel 14) 2026-10-16
+  'laugen', // zurückgestellt: Fachwort (mit Lauge behandeln), selten; Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'lecken', // zurückgestellt: Homograph (lecken = mit der Zunge; lecken = undicht sein) mit gleicher id — wie der See/die See, Entscheidung Lukas 2026-10-16
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

@@ -1,0 +1,195 @@
+{
+  "schema": "3.0",
+  "id": "verb_kruemmen",
+  "wort": "krümmen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خم کردن",
+      "از درد به خود پیچیدن"
+    ],
+    "en": [
+      "to bend",
+      "to double up (with pain)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Körper",
+    "Formen"
+  ],
+  "ipa": "ˈkʁʏmən",
+  "anmerkung": "Redewendung: «jemandem kein Haar krümmen» (jemandem nichts tun).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er krümmt den Finger.",
+      "uebersetzung": {
+        "fa": "انگشتش را خم می‌کند.",
+        "en": "He bends his finger."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Patient krümmte sich vor Schmerzen, deshalb rief die Pflegerin sofort den Arzt.",
+      "uebersetzung": {
+        "fa": "بیمار از درد به خود می‌پیچید، برای همین پرستار فوراً پزشک را صدا کرد.",
+        "en": "The patient was doubled up with pain, so the nurse called the doctor straight away."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "biegen",
+      "uebersetzung": {
+        "fa": "خم کردن",
+        "en": "to bend"
+      }
+    },
+    {
+      "wort": "beugen",
+      "uebersetzung": {
+        "fa": "خم کردن",
+        "en": "to bend"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "strecken",
+      "uebersetzung": {
+        "fa": "صاف کردن، دراز کردن",
+        "en": "to stretch"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich krümmen vor + Dat",
+        "bedeutung": "sich wegen Schmerzen/Lachen zusammenbiegen",
+        "beispiel": "Sie krümmte sich vor Lachen.",
+        "uebersetzung": {
+          "fa": "از خنده دولا شد.",
+          "en": "She doubled up with laughter."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "krümmen",
+      "praeteritum": "krümmte",
+      "partizip2": "gekrümmt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "krümme",
+        "du": "krümmst",
+        "er_sie_es": "krümmt",
+        "wir": "krümmen",
+        "ihr": "krümmt",
+        "sie_Sie": "krümmen"
+      },
+      "praeteritum": {
+        "ich": "krümmte",
+        "du": "krümmtest",
+        "er_sie_es": "krümmte",
+        "wir": "krümmten",
+        "ihr": "krümmtet",
+        "sie_Sie": "krümmten"
+      },
+      "konjunktiv1": {
+        "ich": "krümme",
+        "du": "krümmest",
+        "er_sie_es": "krümme",
+        "wir": "krümmen",
+        "ihr": "krümmet",
+        "sie_Sie": "krümmen"
+      },
+      "konjunktiv2": {
+        "ich": "krümmte",
+        "du": "krümmtest",
+        "er_sie_es": "krümmte",
+        "wir": "krümmten",
+        "ihr": "krümmtet",
+        "sie_Sie": "krümmten"
+      },
+      "imperativ": {
+        "du": "Krümm!",
+        "ihr": "Krümmt!",
+        "Sie": "Krümmen Sie!"
+      }
+    },
+    "partizip1": "krümmend",
+    "nominalisierung": "die Krümmung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "krumm",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کج، خمیده",
+          "en": "crooked"
+        },
+        "id_ref": "adjektiv_krumm"
+      },
+      {
+        "wort": "die Krümmung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "انحنا",
+          "en": "curvature"
+        },
+        "id_ref": "nomen_kruemmung"
+      },
+      {
+        "wort": "biegen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خم کردن",
+          "en": "to bend"
+        },
+        "id_ref": "verb_biegen"
+      },
+      {
+        "wort": "der Schmerz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "درد",
+          "en": "pain"
+        },
+        "id_ref": "nomen_schmerz"
+      },
+      {
+        "wort": "strecken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دراز کردن",
+          "en": "to stretch"
+        },
+        "id_ref": "verb_strecken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

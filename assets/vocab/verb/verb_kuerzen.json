@@ -1,0 +1,195 @@
+{
+  "schema": "3.0",
+  "id": "verb_kuerzen",
+  "wort": "kürzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کوتاه کردن",
+      "کم کردن، کاهش دادن (بودجه، حقوق)",
+      "ساده کردن (کسر)"
+    ],
+    "en": [
+      "to shorten",
+      "to cut, to reduce",
+      "to cancel (a fraction)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Kleidung"
+  ],
+  "ipa": "ˈkʏʁt͡sn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Kannst du die Hose kürzen?",
+      "uebersetzung": {
+        "fa": "می‌توانی شلوار را کوتاه کنی؟",
+        "en": "Can you shorten the trousers?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil die Stadt sparen muss, werden die Mittel für Kultur um zehn Prozent gekürzt.",
+      "uebersetzung": {
+        "fa": "چون شهر باید صرفه‌جویی کند، بودجه‌ی فرهنگ ده درصد کم می‌شود.",
+        "en": "Because the city has to save money, funding for culture is being cut by ten per cent."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verkürzen",
+      "uebersetzung": {
+        "fa": "کوتاه کردن",
+        "en": "to shorten"
+      }
+    },
+    {
+      "wort": "reduzieren",
+      "uebersetzung": {
+        "fa": "کاهش دادن",
+        "en": "to reduce"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verlängern",
+      "uebersetzung": {
+        "fa": "دراز کردن، تمدید کردن",
+        "en": "to lengthen"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas kürzen um + Akk",
+        "bedeutung": "etwas um einen Betrag verringern",
+        "beispiel": "Man hat sein Gehalt um 200 Euro gekürzt.",
+        "uebersetzung": {
+          "fa": "حقوقش را ۲۰۰ یورو کم کردند.",
+          "en": "His salary was cut by 200 euros."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "kürzen",
+      "praeteritum": "kürzte",
+      "partizip2": "gekürzt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kürze",
+        "du": "kürzt",
+        "er_sie_es": "kürzt",
+        "wir": "kürzen",
+        "ihr": "kürzt",
+        "sie_Sie": "kürzen"
+      },
+      "praeteritum": {
+        "ich": "kürzte",
+        "du": "kürztest",
+        "er_sie_es": "kürzte",
+        "wir": "kürzten",
+        "ihr": "kürztet",
+        "sie_Sie": "kürzten"
+      },
+      "konjunktiv1": {
+        "ich": "kürze",
+        "du": "kürzest",
+        "er_sie_es": "kürze",
+        "wir": "kürzen",
+        "ihr": "kürzet",
+        "sie_Sie": "kürzen"
+      },
+      "konjunktiv2": {
+        "ich": "kürzte",
+        "du": "kürztest",
+        "er_sie_es": "kürzte",
+        "wir": "kürzten",
+        "ihr": "kürztet",
+        "sie_Sie": "kürzten"
+      },
+      "imperativ": {
+        "du": "Kürz!",
+        "ihr": "Kürzt!",
+        "Sie": "Kürzen Sie!"
+      }
+    },
+    "partizip1": "kürzend",
+    "nominalisierung": "die Kürzung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "kurz",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کوتاه",
+          "en": "short"
+        },
+        "id_ref": "adjektiv_kurz"
+      },
+      {
+        "wort": "die Kürzung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کاهش",
+          "en": "cut"
+        },
+        "id_ref": "nomen_kuerzung"
+      },
+      {
+        "wort": "die Abkürzung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اختصار؛ میانبر",
+          "en": "abbreviation; short cut"
+        },
+        "id_ref": "nomen_abkuerzung"
+      },
+      {
+        "wort": "reduzieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کاهش دادن",
+          "en": "to reduce"
+        },
+        "id_ref": "verb_reduzieren"
+      },
+      {
+        "wort": "verlängern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تمدید کردن",
+          "en": "to extend"
+        },
+        "id_ref": "verb_verlaengern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

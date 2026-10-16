@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_landen",
+  "wort": "landen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "فرود آمدن، نشستن (هواپیما)",
+      "سر درآوردن، رسیدن (به جایی)"
+    ],
+    "en": [
+      "to land",
+      "to end up"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Reisen",
+    "Verkehr"
+  ],
+  "ipa": "ˈlandn̩",
+  "anmerkung": "Perfekt mit «sein» (ist gelandet); transitiv («Der Pilot hat das Flugzeug sicher gelandet») mit «haben».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Flugzeug landet um acht Uhr.",
+      "uebersetzung": {
+        "fa": "هواپیما ساعت هشت فرود می‌آید.",
+        "en": "The plane lands at eight o'clock."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil wir den falschen Weg genommen hatten, sind wir in einem kleinen Dorf gelandet.",
+      "uebersetzung": {
+        "fa": "چون راه را اشتباه رفته بودیم، از یک روستای کوچک سر درآوردیم.",
+        "en": "Because we had taken the wrong road, we ended up in a small village."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufsetzen",
+      "uebersetzung": {
+        "fa": "نشستن (هواپیما)",
+        "en": "to touch down"
+      }
+    },
+    {
+      "wort": "ankommen",
+      "uebersetzung": {
+        "fa": "رسیدن",
+        "en": "to arrive"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "starten",
+      "uebersetzung": {
+        "fa": "بلند شدن (هواپیما)",
+        "en": "to take off"
+      }
+    },
+    {
+      "wort": "abfliegen",
+      "uebersetzung": {
+        "fa": "پرواز کردن (رفتن)",
+        "en": "to depart"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "landen",
+      "praeteritum": "landete",
+      "partizip2": "gelandet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lande",
+        "du": "landest",
+        "er_sie_es": "landet",
+        "wir": "landen",
+        "ihr": "landet",
+        "sie_Sie": "landen"
+      },
+      "praeteritum": {
+        "ich": "landete",
+        "du": "landetest",
+        "er_sie_es": "landete",
+        "wir": "landeten",
+        "ihr": "landetet",
+        "sie_Sie": "landeten"
+      },
+      "konjunktiv1": {
+        "ich": "lande",
+        "du": "landest",
+        "er_sie_es": "lande",
+        "wir": "landen",
+        "ihr": "landet",
+        "sie_Sie": "landen"
+      },
+      "konjunktiv2": {
+        "ich": "landete",
+        "du": "landetest",
+        "er_sie_es": "landete",
+        "wir": "landeten",
+        "ihr": "landetet",
+        "sie_Sie": "landeten"
+      },
+      "imperativ": {
+        "du": "Lande!",
+        "ihr": "Landet!",
+        "Sie": "Landen Sie!"
+      }
+    },
+    "partizip1": "landend",
+    "nominalisierung": "die Landung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Landung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فرود",
+          "en": "landing"
+        },
+        "id_ref": "nomen_landung"
+      },
+      {
+        "wort": "das Flugzeug",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "هواپیما",
+          "en": "plane"
+        },
+        "id_ref": "nomen_flugzeug"
+      },
+      {
+        "wort": "der Flughafen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فرودگاه",
+          "en": "airport"
+        },
+        "id_ref": "nomen_flughafen"
+      },
+      {
+        "wort": "starten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بلند شدن؛ شروع کردن",
+          "en": "to take off; to start"
+        },
+        "id_ref": "verb_starten"
+      },
+      {
+        "wort": "ankommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رسیدن",
+          "en": "to arrive"
+        },
+        "id_ref": "verb_ankommen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

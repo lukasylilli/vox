@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_kreuzen",
+  "wort": "kreuzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "قطع کردن، از عرض (چیزی) گذشتن",
+      "ضربدری گذاشتن، روی هم انداختن",
+      "دورگه کردن (گیاه/حیوان)"
+    ],
+    "en": [
+      "to cross"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr",
+    "Natur"
+  ],
+  "ipa": "ˈkʁɔɪ̯t͡sn̩",
+  "anmerkung": "Transitiv mit «haben»; intransitiv (Schiff, hin und her fahren) mit «haben» oder «sein».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er kreuzt die Arme.",
+      "uebersetzung": {
+        "fa": "دست‌هایش را روی هم می‌گذارد.",
+        "en": "He crosses his arms."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Hier kreuzt die Bahnlinie die Autobahn, deshalb gibt es eine Brücke.",
+      "uebersetzung": {
+        "fa": "این‌جا خط آهن از عرض بزرگراه می‌گذرد، برای همین یک پل هست.",
+        "en": "Here the railway line crosses the motorway, which is why there is a bridge."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "überqueren",
+      "uebersetzung": {
+        "fa": "از عرض گذشتن",
+        "en": "to cross"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich kreuzen",
+        "bedeutung": "sich schneiden, sich begegnen",
+        "beispiel": "Unsere Wege haben sich zufällig gekreuzt.",
+        "uebersetzung": {
+          "fa": "راه‌هایمان اتفاقی به هم خورد.",
+          "en": "Our paths crossed by chance."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "kreuzen",
+      "praeteritum": "kreuzte",
+      "partizip2": "gekreuzt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "kreuze",
+        "du": "kreuzt",
+        "er_sie_es": "kreuzt",
+        "wir": "kreuzen",
+        "ihr": "kreuzt",
+        "sie_Sie": "kreuzen"
+      },
+      "praeteritum": {
+        "ich": "kreuzte",
+        "du": "kreuztest",
+        "er_sie_es": "kreuzte",
+        "wir": "kreuzten",
+        "ihr": "kreuztet",
+        "sie_Sie": "kreuzten"
+      },
+      "konjunktiv1": {
+        "ich": "kreuze",
+        "du": "kreuzest",
+        "er_sie_es": "kreuze",
+        "wir": "kreuzen",
+        "ihr": "kreuzet",
+        "sie_Sie": "kreuzen"
+      },
+      "konjunktiv2": {
+        "ich": "kreuzte",
+        "du": "kreuztest",
+        "er_sie_es": "kreuzte",
+        "wir": "kreuzten",
+        "ihr": "kreuztet",
+        "sie_Sie": "kreuzten"
+      },
+      "imperativ": {
+        "du": "Kreuz!",
+        "ihr": "Kreuzt!",
+        "Sie": "Kreuzen Sie!"
+      }
+    },
+    "partizip1": "kreuzend",
+    "nominalisierung": "die Kreuzung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Kreuz",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صلیب؛ ضربدر",
+          "en": "cross"
+        },
+        "id_ref": "nomen_kreuz"
+      },
+      {
+        "wort": "die Kreuzung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چهارراه",
+          "en": "crossroads"
+        },
+        "id_ref": "nomen_kreuzung"
+      },
+      {
+        "wort": "überqueren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "از عرض گذشتن",
+          "en": "to cross"
+        },
+        "id_ref": "verb_ueberqueren"
+      },
+      {
+        "wort": "ankreuzen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "علامت زدن",
+          "en": "to tick"
+        },
+        "id_ref": "verb_ankreuzen"
+      },
+      {
+        "wort": "die Kreuzfahrt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سفر دریایی",
+          "en": "cruise"
+        },
+        "id_ref": "nomen_kreuzfahrt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
