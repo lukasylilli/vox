@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_liquidieren",
+  "wort": "liquidieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "منحل کردن، تصفیه کردن (شرکت)",
+      "از میان برداشتن، کشتن"
+    ],
+    "en": [
+      "to liquidate, to wind up",
+      "to eliminate, to kill"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wirtschaft",
+    "Recht"
+  ],
+  "ipa": "likviˈdiːʁən",
+  "anmerkung": "Zweite Bedeutung (verhüllend, besonders in Geschichte und Politik): jemanden töten lassen.",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Firma wird liquidiert.",
+      "uebersetzung": {
+        "fa": "شرکت منحل می‌شود.",
+        "en": "The company is being liquidated."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem der Betrieb pleitegegangen war, liquidierte ein Anwalt das restliche Vermögen.",
+      "uebersetzung": {
+        "fa": "بعد از ورشکستگی کارخانه، یک وکیل دارایی باقی‌مانده را تصفیه کرد.",
+        "en": "After the business had gone bankrupt, a lawyer liquidated the remaining assets."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "auflösen",
+      "uebersetzung": {
+        "fa": "منحل کردن",
+        "en": "to dissolve"
+      }
+    },
+    {
+      "wort": "abwickeln",
+      "uebersetzung": {
+        "fa": "تسویه کردن",
+        "en": "to wind up"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "gründen",
+      "uebersetzung": {
+        "fa": "تأسیس کردن",
+        "en": "to found"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین liquidus (روان، مایع)",
+    "en": "from Latin liquidus (liquid)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "liquidieren",
+      "praeteritum": "liquidierte",
+      "partizip2": "liquidiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "liquidiere",
+        "du": "liquidierst",
+        "er_sie_es": "liquidiert",
+        "wir": "liquidieren",
+        "ihr": "liquidiert",
+        "sie_Sie": "liquidieren"
+      },
+      "praeteritum": {
+        "ich": "liquidierte",
+        "du": "liquidiertest",
+        "er_sie_es": "liquidierte",
+        "wir": "liquidierten",
+        "ihr": "liquidiertet",
+        "sie_Sie": "liquidierten"
+      },
+      "konjunktiv1": {
+        "ich": "liquidiere",
+        "du": "liquidierest",
+        "er_sie_es": "liquidiere",
+        "wir": "liquidieren",
+        "ihr": "liquidieret",
+        "sie_Sie": "liquidieren"
+      },
+      "konjunktiv2": {
+        "ich": "liquidierte",
+        "du": "liquidiertest",
+        "er_sie_es": "liquidierte",
+        "wir": "liquidierten",
+        "ihr": "liquidiertet",
+        "sie_Sie": "liquidierten"
+      },
+      "imperativ": {
+        "du": "Liquidiere!",
+        "ihr": "Liquidiert!",
+        "Sie": "Liquidieren Sie!"
+      }
+    },
+    "partizip1": "liquidierend",
+    "nominalisierung": "die Liquidation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Firma",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شرکت",
+          "en": "company"
+        },
+        "id_ref": "nomen_firma"
+      },
+      {
+        "wort": "schließen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بستن",
+          "en": "to close"
+        },
+        "id_ref": "verb_schliessen"
+      },
+      {
+        "wort": "auflösen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "منحل کردن",
+          "en": "to dissolve"
+        },
+        "id_ref": "verb_aufloesen"
+      },
+      {
+        "wort": "die Insolvenz",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ورشکستگی",
+          "en": "insolvency"
+        },
+        "id_ref": "nomen_insolvenz"
+      },
+      {
+        "wort": "die Liquidation",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تصفیه، انحلال",
+          "en": "liquidation"
+        },
+        "id_ref": "nomen_liquidation"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

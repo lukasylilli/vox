@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_malen",
+  "wort": "malen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نقاشی کردن",
+      "رنگ زدن"
+    ],
+    "en": [
+      "to paint",
+      "to draw (with colours)"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Freizeit",
+    "Kunst"
+  ],
+  "ipa": "ˈmaːlən",
+  "anmerkung": null,
+  "berufe": [
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Das Kind malt ein Haus.",
+      "uebersetzung": {
+        "fa": "بچه یک خانه نقاشی می‌کند.",
+        "en": "The child is painting a house."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Seit sie in Rente ist, malt sie Bilder, die sie auf dem Markt verkauft.",
+      "uebersetzung": {
+        "fa": "از وقتی بازنشسته شده، تابلوهایی می‌کشد که در بازار می‌فروشد.",
+        "en": "Since she retired, she has been painting pictures which she sells at the market."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zeichnen",
+      "uebersetzung": {
+        "fa": "طراحی کردن",
+        "en": "to draw"
+      }
+    },
+    {
+      "wort": "streichen",
+      "uebersetzung": {
+        "fa": "رنگ زدن (دیوار)",
+        "en": "to paint (a wall)"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas malen mit + Dat",
+        "bedeutung": "mit einem Material malen",
+        "beispiel": "Sie malt mit Wasserfarben.",
+        "uebersetzung": {
+          "fa": "او با آبرنگ نقاشی می‌کند.",
+          "en": "She paints with watercolours."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "malen",
+      "praeteritum": "malte",
+      "partizip2": "gemalt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "male",
+        "du": "malst",
+        "er_sie_es": "malt",
+        "wir": "malen",
+        "ihr": "malt",
+        "sie_Sie": "malen"
+      },
+      "praeteritum": {
+        "ich": "malte",
+        "du": "maltest",
+        "er_sie_es": "malte",
+        "wir": "malten",
+        "ihr": "maltet",
+        "sie_Sie": "malten"
+      },
+      "konjunktiv1": {
+        "ich": "male",
+        "du": "malest",
+        "er_sie_es": "male",
+        "wir": "malen",
+        "ihr": "malet",
+        "sie_Sie": "malen"
+      },
+      "konjunktiv2": {
+        "ich": "malte",
+        "du": "maltest",
+        "er_sie_es": "malte",
+        "wir": "malten",
+        "ihr": "maltet",
+        "sie_Sie": "malten"
+      },
+      "imperativ": {
+        "du": "Mal!",
+        "ihr": "Malt!",
+        "Sie": "Malen Sie!"
+      }
+    },
+    "partizip1": "malend",
+    "nominalisierung": "die Malerei"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Bild",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تصویر، تابلو",
+          "en": "picture"
+        },
+        "id_ref": "nomen_bild"
+      },
+      {
+        "wort": "die Farbe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رنگ",
+          "en": "colour"
+        },
+        "id_ref": "nomen_farbe"
+      },
+      {
+        "wort": "zeichnen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "طراحی کردن",
+          "en": "to draw"
+        },
+        "id_ref": "verb_zeichnen"
+      },
+      {
+        "wort": "der Maler",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نقاش",
+          "en": "painter"
+        },
+        "id_ref": "nomen_maler"
+      },
+      {
+        "wort": "die Malerei",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نقاشی (هنر)",
+          "en": "painting"
+        },
+        "id_ref": "nomen_malerei"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

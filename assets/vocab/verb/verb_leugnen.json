@@ -1,0 +1,199 @@
+{
+  "schema": "3.0",
+  "id": "verb_leugnen",
+  "wort": "leugnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "انکار کردن",
+      "حاشا کردن"
+    ],
+    "en": [
+      "to deny"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Recht",
+    "Kommunikation"
+  ],
+  "ipa": "ˈlɔɪ̯ɡnən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er leugnet alles.",
+      "uebersetzung": {
+        "fa": "او همه چیز را انکار می‌کند.",
+        "en": "He denies everything."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Obwohl es Zeugen gab, leugnete der Angeklagte die Tat.",
+      "uebersetzung": {
+        "fa": "با اینکه شاهد وجود داشت، متهم جرم را انکار کرد.",
+        "en": "Although there were witnesses, the accused denied the crime."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bestreiten",
+      "uebersetzung": {
+        "fa": "انکار کردن",
+        "en": "to dispute"
+      }
+    },
+    {
+      "wort": "abstreiten",
+      "uebersetzung": {
+        "fa": "زیر بار نرفتن",
+        "en": "to deny"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "gestehen",
+      "uebersetzung": {
+        "fa": "اعتراف کردن",
+        "en": "to confess"
+      }
+    },
+    {
+      "wort": "zugeben",
+      "uebersetzung": {
+        "fa": "پذیرفتن",
+        "en": "to admit"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas leugnen + Akk",
+        "bedeutung": "etwas als unwahr bezeichnen",
+        "beispiel": "Sie leugnet jede Schuld.",
+        "uebersetzung": {
+          "fa": "او هر گونه تقصیری را انکار می‌کند.",
+          "en": "She denies any guilt."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "leugnen",
+      "praeteritum": "leugnete",
+      "partizip2": "geleugnet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "leugne",
+        "du": "leugnest",
+        "er_sie_es": "leugnet",
+        "wir": "leugnen",
+        "ihr": "leugnet",
+        "sie_Sie": "leugnen"
+      },
+      "praeteritum": {
+        "ich": "leugnete",
+        "du": "leugnetest",
+        "er_sie_es": "leugnete",
+        "wir": "leugneten",
+        "ihr": "leugnetet",
+        "sie_Sie": "leugneten"
+      },
+      "konjunktiv1": {
+        "ich": "leugne",
+        "du": "leugnest",
+        "er_sie_es": "leugne",
+        "wir": "leugnen",
+        "ihr": "leugnet",
+        "sie_Sie": "leugnen"
+      },
+      "konjunktiv2": {
+        "ich": "leugnete",
+        "du": "leugnetest",
+        "er_sie_es": "leugnete",
+        "wir": "leugneten",
+        "ihr": "leugnetet",
+        "sie_Sie": "leugneten"
+      },
+      "imperativ": {
+        "du": "Leugne!",
+        "ihr": "Leugnet!",
+        "Sie": "Leugnen Sie!"
+      }
+    },
+    "partizip1": "leugnend",
+    "nominalisierung": "die Leugnung"
+  },
+  "wortnetz": {
+    "grundwort": "Lüge",
+    "woerter": [
+      {
+        "wort": "die Lüge",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دروغ",
+          "en": "lie"
+        },
+        "id_ref": "nomen_luege"
+      },
+      {
+        "wort": "lügen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دروغ گفتن",
+          "en": "to lie"
+        },
+        "id_ref": "verb_luegen"
+      },
+      {
+        "wort": "zugeben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اعتراف کردن، پذیرفتن",
+          "en": "to admit"
+        },
+        "id_ref": "verb_zugeben"
+      },
+      {
+        "wort": "bestreiten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "انکار کردن، رد کردن",
+          "en": "to dispute"
+        },
+        "id_ref": "verb_bestreiten"
+      },
+      {
+        "wort": "gestehen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اعتراف کردن",
+          "en": "to confess"
+        },
+        "id_ref": "verb_gestehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

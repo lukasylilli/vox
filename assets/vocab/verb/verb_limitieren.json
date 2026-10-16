@@ -1,0 +1,196 @@
+{
+  "schema": "3.0",
+  "id": "verb_limitieren",
+  "wort": "limitieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "محدود کردن",
+      "سقف گذاشتن"
+    ],
+    "en": [
+      "to limit",
+      "to cap"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wirtschaft",
+    "Alltag"
+  ],
+  "ipa": "limiˈtiːʁən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Firma limitiert das Angebot.",
+      "uebersetzung": {
+        "fa": "شرکت پیشنهاد را محدود می‌کند.",
+        "en": "The company limits the offer."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil die Plätze limitiert sind, sollten Sie sich schnell anmelden.",
+      "uebersetzung": {
+        "fa": "چون جاها محدود است، بهتر است زود ثبت‌نام کنید.",
+        "en": "Since places are limited, you should register quickly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "begrenzen",
+      "uebersetzung": {
+        "fa": "محدود کردن",
+        "en": "to limit"
+      }
+    },
+    {
+      "wort": "beschränken",
+      "uebersetzung": {
+        "fa": "محدود کردن",
+        "en": "to restrict"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "erweitern",
+      "uebersetzung": {
+        "fa": "گسترش دادن",
+        "en": "to expand"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین limitare (مرز گذاشتن)",
+    "en": "from Latin limitare (to set a boundary)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas limitieren auf + Akk",
+        "bedeutung": "eine Höchstzahl festlegen",
+        "beispiel": "Der Verkauf ist auf zwei Stück pro Person limitiert.",
+        "uebersetzung": {
+          "fa": "فروش به دو عدد برای هر نفر محدود شده است.",
+          "en": "Sales are limited to two per person."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "limitieren",
+      "praeteritum": "limitierte",
+      "partizip2": "limitiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "limitiere",
+        "du": "limitierst",
+        "er_sie_es": "limitiert",
+        "wir": "limitieren",
+        "ihr": "limitiert",
+        "sie_Sie": "limitieren"
+      },
+      "praeteritum": {
+        "ich": "limitierte",
+        "du": "limitiertest",
+        "er_sie_es": "limitierte",
+        "wir": "limitierten",
+        "ihr": "limitiertet",
+        "sie_Sie": "limitierten"
+      },
+      "konjunktiv1": {
+        "ich": "limitiere",
+        "du": "limitierest",
+        "er_sie_es": "limitiere",
+        "wir": "limitieren",
+        "ihr": "limitieret",
+        "sie_Sie": "limitieren"
+      },
+      "konjunktiv2": {
+        "ich": "limitierte",
+        "du": "limitiertest",
+        "er_sie_es": "limitierte",
+        "wir": "limitierten",
+        "ihr": "limitiertet",
+        "sie_Sie": "limitierten"
+      },
+      "imperativ": {
+        "du": "Limitiere!",
+        "ihr": "Limitiert!",
+        "Sie": "Limitieren Sie!"
+      }
+    },
+    "partizip1": "limitierend",
+    "nominalisierung": "die Limitierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Limit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حد، سقف",
+          "en": "limit"
+        },
+        "id_ref": "nomen_limit"
+      },
+      {
+        "wort": "die Grenze",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مرز، حد",
+          "en": "border, limit"
+        },
+        "id_ref": "nomen_grenze"
+      },
+      {
+        "wort": "begrenzen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "محدود کردن",
+          "en": "to limit"
+        },
+        "id_ref": "verb_begrenzen"
+      },
+      {
+        "wort": "beschränken",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "محدود کردن",
+          "en": "to restrict"
+        },
+        "id_ref": "verb_beschraenken"
+      },
+      {
+        "wort": "die Limitierung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "محدودسازی",
+          "en": "limitation"
+        },
+        "id_ref": "nomen_limitierung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

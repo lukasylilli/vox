@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_lokalisieren",
+  "wort": "lokalisieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مکان‌یابی کردن، پیدا کردن جای چیزی",
+      "بومی‌سازی کردن (نرم‌افزار)"
+    ],
+    "en": [
+      "to locate",
+      "to localize"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Medizin"
+  ],
+  "ipa": "lokaliˈziːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "it"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Handy lokalisiert den Fahrer.",
+      "uebersetzung": {
+        "fa": "گوشی جای راننده را پیدا می‌کند.",
+        "en": "The phone locates the driver."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Arzt konnte den Schmerz nicht lokalisieren, obwohl er lange untersuchte.",
+      "uebersetzung": {
+        "fa": "پزشک با وجود معاینه‌ی طولانی نتوانست جای درد را پیدا کند.",
+        "en": "The doctor could not locate the pain although he examined for a long time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "orten",
+      "uebersetzung": {
+        "fa": "ردیابی کردن",
+        "en": "to locate"
+      }
+    },
+    {
+      "wort": "bestimmen",
+      "uebersetzung": {
+        "fa": "تعیین کردن",
+        "en": "to determine"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lokal (محلی) + -isieren (پسوند فعل‌ساز)",
+    "en": "lokal (local) + -isieren (verb suffix)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "lokalisieren",
+      "praeteritum": "lokalisierte",
+      "partizip2": "lokalisiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lokalisiere",
+        "du": "lokalisierst",
+        "er_sie_es": "lokalisiert",
+        "wir": "lokalisieren",
+        "ihr": "lokalisiert",
+        "sie_Sie": "lokalisieren"
+      },
+      "praeteritum": {
+        "ich": "lokalisierte",
+        "du": "lokalisiertest",
+        "er_sie_es": "lokalisierte",
+        "wir": "lokalisierten",
+        "ihr": "lokalisiertet",
+        "sie_Sie": "lokalisierten"
+      },
+      "konjunktiv1": {
+        "ich": "lokalisiere",
+        "du": "lokalisierest",
+        "er_sie_es": "lokalisiere",
+        "wir": "lokalisieren",
+        "ihr": "lokalisieret",
+        "sie_Sie": "lokalisieren"
+      },
+      "konjunktiv2": {
+        "ich": "lokalisierte",
+        "du": "lokalisiertest",
+        "er_sie_es": "lokalisierte",
+        "wir": "lokalisierten",
+        "ihr": "lokalisiertet",
+        "sie_Sie": "lokalisierten"
+      },
+      "imperativ": {
+        "du": "Lokalisiere!",
+        "ihr": "Lokalisiert!",
+        "Sie": "Lokalisieren Sie!"
+      }
+    },
+    "partizip1": "lokalisierend",
+    "nominalisierung": "die Lokalisierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Ort",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مکان",
+          "en": "place"
+        },
+        "id_ref": "nomen_ort"
+      },
+      {
+        "wort": "finden",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پیدا کردن",
+          "en": "to find"
+        },
+        "id_ref": "verb_finden"
+      },
+      {
+        "wort": "lokal",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "محلی",
+          "en": "local"
+        },
+        "id_ref": "adjektiv_lokal"
+      },
+      {
+        "wort": "orten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ردیابی کردن",
+          "en": "to locate"
+        },
+        "id_ref": "verb_orten"
+      },
+      {
+        "wort": "die Lokalisierung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مکان‌یابی",
+          "en": "localization"
+        },
+        "id_ref": "nomen_lokalisierung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

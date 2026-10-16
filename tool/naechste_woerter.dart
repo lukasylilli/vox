@@ -1722,6 +1722,28 @@ const zurueckgestellt = <String>{
   'kupieren', // zurückgestellt: mehrere Fachbedeutungen (Schwanz/Ohren kürzen; Medizin: Anfall unterdrücken; Karten abheben) — nicht sicher (Regel 14) 2026-10-16
   'laugen', // zurückgestellt: Fachwort (mit Lauge behandeln), selten; Gebrauch nicht sicher (Regel 14) 2026-10-16
   'lecken', // zurückgestellt: Homograph (lecken = mit der Zunge; lecken = undicht sein) mit gleicher id — wie der See/die See, Entscheidung Lukas 2026-10-16
+  'lithographieren', // zurückgestellt: ältere Schreibung (heute lithografieren), Fachwort Druck — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'löcken', // zurückgestellt: nur in der Wendung «wider den Stachel löcken», veraltet — zeitlich/ersatz nicht sicher (Regel 17) 2026-10-16
+  'luchsen', // zurückgestellt: umgangssprachlich/regional, selten (meist «abluchsen») — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'lullen', // zurückgestellt: selten, meist «einlullen» — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'mäandern', // zurückgestellt: Hilfsverb schwankt (hat/ist gemäandert) — nicht eindeutig (Regel 16) 2026-10-16
+  'mahlen', // zurückgestellt: gemischt: mahlte, aber Partizip II gemahlen — wie ausmahlen/vermahlen (Regel 16) 2026-10-16
+  'majorisieren', // zurückgestellt: Fachwort, selten — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'malmen', // zurückgestellt: veraltet/gehoben (meist «zermalmen») — zeitlich nicht sicher (Regel 17) 2026-10-16
+  'marodieren', // zurückgestellt: selten, meist als Partizip «marodierend» — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'masturbieren', // zurückgestellt: sexuelle Bedeutung — Entscheidung Lukas (wie ejakulieren, erigieren) 2026-10-16
+  'maunzen', // zurückgestellt: regional/umgangssprachlich (Katze), selten — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'mauscheln', // zurückgestellt: umgangssprachlich abwertend, Herkunft antisemitisch («Mauschel») — anstoessig-Stufe nicht sicher, Entscheidung Lukas 2026-10-16
+  'mausen', // zurückgestellt: umgangssprachlich/veraltend (stehlen; Mäuse fangen) — zeitlich nicht sicher (Regel 17) 2026-10-16
+  'melieren', // zurückgestellt: selten, meist Adjektiv «meliert» — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'mendeln', // zurückgestellt: Fachwort Biologie, selten — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'mengen', // zurückgestellt: veraltend/landschaftlich (mischen) — zeitlich nicht sicher (Regel 17) 2026-10-16
+  'menscheln', // zurückgestellt: umgangssprachlich, meist unpersönlich («es menschelt») — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'metzeln', // zurückgestellt: veraltet/regional (meist «niedermetzeln») — zeitlich nicht sicher (Regel 17) 2026-10-16
+  'miefen', // zurückgestellt: umgangssprachlich, selten — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'möchten', // zurückgestellt: kein eigener Infinitiv (Konjunktiv-II-Form von mögen; Karte mögen vorhanden) — Listenfehler, Entscheidung Lukas 2026-10-16
+  'modeln', // zurückgestellt: selten, zwei Bedeutungen (formen; als Model arbeiten) — nicht sicher (Regel 14) 2026-10-16
+  'modern', // zurückgestellt: Hilfsverb schwankt (hat/ist gemodert) und Homograph mit Adjektiv modern — nicht eindeutig (Regel 16) 2026-10-16
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
@@ -1830,10 +1852,12 @@ void abhaken() {
   }
 }
 
-/// Lemma eines Listeneintrags: alles vor dem ersten Komma. Zwei Einträge der
-/// Verbliste tragen Zusätze («anbacken, kleben» = Bedeutung, «sein, war,
-/// gewesen» = Stammformen) — die Karte heißt nach dem Lemma (2026-10-11).
-String listenLemma(String eintrag) => eintrag.split(',').first.trim();
+/// Lemma eines Listeneintrags: alles vor dem ersten Komma bzw. vor der ersten
+/// Klammer. Einträge der Verbliste tragen Zusätze («anbacken, kleben» =
+/// Bedeutung, «sein, war, gewesen» = Stammformen, 2026-10-11; «miauen
+/// (Partizip II: miaut)» = Hinweis, 2026-10-16) — die Karte heißt nach dem Lemma.
+String listenLemma(String eintrag) =>
+    eintrag.split(',').first.split('(').first.trim();
 
 void main(List<String> args) {
   if (args.contains('--abhaken')) {

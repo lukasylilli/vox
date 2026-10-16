@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_loten",
+  "wort": "loten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ژرفا سنجیدن (با شاقول)",
+      "شاقول کردن، عمود سنجیدن"
+    ],
+    "en": [
+      "to plumb",
+      "to sound (depth)"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Technik",
+    "Bauen"
+  ],
+  "ipa": "ˈloːtn̩",
+  "anmerkung": "Nicht verwechseln mit «löten» (Metall verbinden).",
+  "berufe": [
+    "bau"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Maurer lotet die Wand.",
+      "uebersetzung": {
+        "fa": "بنا دیوار را با شاقول می‌سنجد.",
+        "en": "The bricklayer plumbs the wall."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor das Schiff einlief, lotete die Mannschaft die Tiefe des Hafens.",
+      "uebersetzung": {
+        "fa": "پیش از ورود کشتی، خدمه عمق بندر را سنجیدند.",
+        "en": "Before the ship came in, the crew sounded the depth of the harbour."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "messen",
+      "uebersetzung": {
+        "fa": "اندازه گرفتن",
+        "en": "to measure"
+      }
+    },
+    {
+      "wort": "ausloten",
+      "uebersetzung": {
+        "fa": "سنجیدن",
+        "en": "to sound out"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Lot (شاقول) + -en",
+    "en": "Lot (plumb line) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "loten",
+      "praeteritum": "lotete",
+      "partizip2": "gelotet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lote",
+        "du": "lotest",
+        "er_sie_es": "lotet",
+        "wir": "loten",
+        "ihr": "lotet",
+        "sie_Sie": "loten"
+      },
+      "praeteritum": {
+        "ich": "lotete",
+        "du": "lotetest",
+        "er_sie_es": "lotete",
+        "wir": "loteten",
+        "ihr": "lotetet",
+        "sie_Sie": "loteten"
+      },
+      "konjunktiv1": {
+        "ich": "lote",
+        "du": "lotest",
+        "er_sie_es": "lote",
+        "wir": "loten",
+        "ihr": "lotet",
+        "sie_Sie": "loten"
+      },
+      "konjunktiv2": {
+        "ich": "lotete",
+        "du": "lotetest",
+        "er_sie_es": "lotete",
+        "wir": "loteten",
+        "ihr": "lotetet",
+        "sie_Sie": "loteten"
+      },
+      "imperativ": {
+        "du": "Lote!",
+        "ihr": "Lotet!",
+        "Sie": "Loten Sie!"
+      }
+    },
+    "partizip1": "lotend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "tief",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عمیق",
+          "en": "deep"
+        },
+        "id_ref": "adjektiv_tief"
+      },
+      {
+        "wort": "messen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اندازه گرفتن",
+          "en": "to measure"
+        },
+        "id_ref": "verb_messen"
+      },
+      {
+        "wort": "senkrecht",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عمودی",
+          "en": "vertical"
+        },
+        "id_ref": "adjektiv_senkrecht"
+      },
+      {
+        "wort": "das Lot",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شاقول",
+          "en": "plumb line"
+        },
+        "id_ref": "nomen_lot"
+      },
+      {
+        "wort": "ausloten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کاویدن، سنجیدن",
+          "en": "to sound out"
+        },
+        "id_ref": "verb_ausloten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_lueften",
+  "wort": "lüften",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "هوا دادن، تهویه کردن",
+      "فاش کردن (راز)"
+    ],
+    "en": [
+      "to air, to ventilate",
+      "to reveal (a secret)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Wohnen",
+    "Gesundheit"
+  ],
+  "ipa": "ˈlʏftn̩",
+  "anmerkung": "Übertragen: ein Geheimnis lüften (= verraten).",
+  "berufe": [
+    "pflege_medizin",
+    "reinigung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte lüfte das Zimmer!",
+      "uebersetzung": {
+        "fa": "لطفاً به اتاق هوا بده!",
+        "en": "Please air the room!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wir lüften jeden Morgen, damit die Luft in der Wohnung frisch bleibt.",
+      "uebersetzung": {
+        "fa": "هر صبح پنجره‌ها را باز می‌کنیم تا هوای خانه تازه بماند.",
+        "en": "We air the flat every morning so that the air stays fresh."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "belüften",
+      "uebersetzung": {
+        "fa": "تهویه کردن",
+        "en": "to ventilate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Luft (هوا) + -en",
+    "en": "Luft (air) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "lüften",
+      "praeteritum": "lüftete",
+      "partizip2": "gelüftet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lüfte",
+        "du": "lüftest",
+        "er_sie_es": "lüftet",
+        "wir": "lüften",
+        "ihr": "lüftet",
+        "sie_Sie": "lüften"
+      },
+      "praeteritum": {
+        "ich": "lüftete",
+        "du": "lüftetest",
+        "er_sie_es": "lüftete",
+        "wir": "lüfteten",
+        "ihr": "lüftetet",
+        "sie_Sie": "lüfteten"
+      },
+      "konjunktiv1": {
+        "ich": "lüfte",
+        "du": "lüftest",
+        "er_sie_es": "lüfte",
+        "wir": "lüften",
+        "ihr": "lüftet",
+        "sie_Sie": "lüften"
+      },
+      "konjunktiv2": {
+        "ich": "lüftete",
+        "du": "lüftetest",
+        "er_sie_es": "lüftete",
+        "wir": "lüfteten",
+        "ihr": "lüftetet",
+        "sie_Sie": "lüfteten"
+      },
+      "imperativ": {
+        "du": "Lüfte!",
+        "ihr": "Lüftet!",
+        "Sie": "Lüften Sie!"
+      }
+    },
+    "partizip1": "lüftend",
+    "nominalisierung": "die Lüftung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Luft",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "هوا",
+          "en": "air"
+        },
+        "id_ref": "nomen_luft"
+      },
+      {
+        "wort": "das Fenster",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پنجره",
+          "en": "window"
+        },
+        "id_ref": "nomen_fenster"
+      },
+      {
+        "wort": "frisch",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تازه",
+          "en": "fresh"
+        },
+        "id_ref": "adjektiv_frisch"
+      },
+      {
+        "wort": "die Lüftung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تهویه",
+          "en": "ventilation"
+        },
+        "id_ref": "nomen_lueftung"
+      },
+      {
+        "wort": "verraten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فاش کردن",
+          "en": "to reveal"
+        },
+        "id_ref": "verb_verraten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

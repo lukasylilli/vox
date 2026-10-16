@@ -1,0 +1,207 @@
+{
+  "schema": "3.0",
+  "id": "verb_loesen",
+  "wort": "lösen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "حل کردن",
+      "باز کردن، شل کردن",
+      "حل شدن (در مایع)"
+    ],
+    "en": [
+      "to solve",
+      "to loosen, to undo",
+      "to dissolve"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Schule",
+    "Alltag"
+  ],
+  "ipa": "ˈløːzn̩",
+  "anmerkung": "Auch: eine Fahrkarte lösen (= kaufen). Reflexiv: «Der Knoten löst sich.»",
+  "berufe": [
+    "pflege_medizin",
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie löst die Aufgabe schnell.",
+      "uebersetzung": {
+        "fa": "او تمرین را سریع حل می‌کند.",
+        "en": "She solves the task quickly."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn du die Tablette in Wasser löst, kannst du sie leichter schlucken.",
+      "uebersetzung": {
+        "fa": "اگر قرص را در آب حل کنی، راحت‌تر می‌توانی قورتش بدهی.",
+        "en": "If you dissolve the tablet in water, you can swallow it more easily."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "lockern",
+      "uebersetzung": {
+        "fa": "شل کردن",
+        "en": "to loosen"
+      }
+    },
+    {
+      "wort": "klären",
+      "uebersetzung": {
+        "fa": "روشن کردن",
+        "en": "to clarify"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "festziehen",
+      "uebersetzung": {
+        "fa": "سفت کردن",
+        "en": "to tighten"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "etwas lösen in + Dat",
+        "bedeutung": "etwas in einer Flüssigkeit auflösen",
+        "beispiel": "Löse das Salz in warmem Wasser.",
+        "uebersetzung": {
+          "fa": "نمک را در آب گرم حل کن.",
+          "en": "Dissolve the salt in warm water."
+        }
+      },
+      {
+        "muster": "sich lösen von + Dat",
+        "bedeutung": "sich von etwas/jemandem trennen",
+        "beispiel": "Es fällt ihm schwer, sich von der Vergangenheit zu lösen.",
+        "uebersetzung": {
+          "fa": "برایش سخت است از گذشته جدا شود.",
+          "en": "He finds it hard to break away from the past."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "lösen",
+      "praeteritum": "löste",
+      "partizip2": "gelöst"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "löse",
+        "du": "löst",
+        "er_sie_es": "löst",
+        "wir": "lösen",
+        "ihr": "löst",
+        "sie_Sie": "lösen"
+      },
+      "praeteritum": {
+        "ich": "löste",
+        "du": "löstest",
+        "er_sie_es": "löste",
+        "wir": "lösten",
+        "ihr": "löstet",
+        "sie_Sie": "lösten"
+      },
+      "konjunktiv1": {
+        "ich": "löse",
+        "du": "lösest",
+        "er_sie_es": "löse",
+        "wir": "lösen",
+        "ihr": "löset",
+        "sie_Sie": "lösen"
+      },
+      "konjunktiv2": {
+        "ich": "löste",
+        "du": "löstest",
+        "er_sie_es": "löste",
+        "wir": "lösten",
+        "ihr": "löstet",
+        "sie_Sie": "lösten"
+      },
+      "imperativ": {
+        "du": "Löse!",
+        "ihr": "Löst!",
+        "Sie": "Lösen Sie!"
+      }
+    },
+    "partizip1": "lösend",
+    "nominalisierung": "die Lösung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Lösung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "راه‌حل، محلول",
+          "en": "solution"
+        },
+        "id_ref": "nomen_loesung"
+      },
+      {
+        "wort": "das Problem",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مشکل",
+          "en": "problem"
+        },
+        "id_ref": "nomen_problem"
+      },
+      {
+        "wort": "die Aufgabe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تمرین، وظیفه",
+          "en": "task"
+        },
+        "id_ref": "nomen_aufgabe"
+      },
+      {
+        "wort": "lockern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شل کردن",
+          "en": "to loosen"
+        },
+        "id_ref": "verb_lockern"
+      },
+      {
+        "wort": "auflösen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حل کردن، منحل کردن",
+          "en": "to dissolve"
+        },
+        "id_ref": "verb_aufloesen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

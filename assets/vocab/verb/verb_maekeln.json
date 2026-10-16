@@ -1,0 +1,193 @@
+{
+  "schema": "3.0",
+  "id": "verb_maekeln",
+  "wort": "mäkeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ایراد گرفتن، غر زدن",
+      "نق زدن"
+    ],
+    "en": [
+      "to carp, to find fault",
+      "to nitpick"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation",
+    "Essen"
+  ],
+  "ipa": "ˈmɛːkl̩n",
+  "anmerkung": "Abwertend. Nicht verwechseln mit «makeln» (als Makler vermitteln).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er mäkelt immer am Essen.",
+      "uebersetzung": {
+        "fa": "او همیشه از غذا ایراد می‌گیرد.",
+        "en": "He always finds fault with the food."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Statt zu helfen, mäkelte sie an jeder Kleinigkeit, die wir vorbereitet hatten.",
+      "uebersetzung": {
+        "fa": "به جای کمک، به هر جزئیاتی که آماده کرده بودیم ایراد می‌گرفت.",
+        "en": "Instead of helping, she carped about every little thing we had prepared."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nörgeln",
+      "uebersetzung": {
+        "fa": "نق زدن",
+        "en": "to nag"
+      }
+    },
+    {
+      "wort": "meckern",
+      "uebersetzung": {
+        "fa": "غر زدن",
+        "en": "to grumble"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "loben",
+      "uebersetzung": {
+        "fa": "تعریف کردن",
+        "en": "to praise"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "mäkeln an + Dat",
+        "bedeutung": "an etwas kleinlich Kritik üben",
+        "beispiel": "Sie mäkelt an seiner Kleidung.",
+        "uebersetzung": {
+          "fa": "او از لباس‌هایش ایراد می‌گیرد.",
+          "en": "She finds fault with his clothes."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "mäkeln",
+      "praeteritum": "mäkelte",
+      "partizip2": "gemäkelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "mäkle",
+        "du": "mäkelst",
+        "er_sie_es": "mäkelt",
+        "wir": "mäkeln",
+        "ihr": "mäkelt",
+        "sie_Sie": "mäkeln"
+      },
+      "praeteritum": {
+        "ich": "mäkelte",
+        "du": "mäkeltest",
+        "er_sie_es": "mäkelte",
+        "wir": "mäkelten",
+        "ihr": "mäkeltet",
+        "sie_Sie": "mäkelten"
+      },
+      "konjunktiv1": {
+        "ich": "mäkle",
+        "du": "mäklest",
+        "er_sie_es": "mäkle",
+        "wir": "mäkeln",
+        "ihr": "mäklet",
+        "sie_Sie": "mäkeln"
+      },
+      "konjunktiv2": {
+        "ich": "mäkelte",
+        "du": "mäkeltest",
+        "er_sie_es": "mäkelte",
+        "wir": "mäkelten",
+        "ihr": "mäkeltet",
+        "sie_Sie": "mäkelten"
+      },
+      "imperativ": {
+        "du": "Mäkle!",
+        "ihr": "Mäkelt!",
+        "Sie": "Mäkeln Sie!"
+      }
+    },
+    "partizip1": "mäkelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "kritisieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انتقاد کردن",
+          "en": "to criticize"
+        },
+        "id_ref": "verb_kritisieren"
+      },
+      {
+        "wort": "meckern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "غر زدن",
+          "en": "to grumble"
+        },
+        "id_ref": "verb_meckern"
+      },
+      {
+        "wort": "der Fehler",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اشتباه، ایراد",
+          "en": "mistake"
+        },
+        "id_ref": "nomen_fehler"
+      },
+      {
+        "wort": "nörgeln",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نق زدن",
+          "en": "to nag"
+        },
+        "id_ref": "verb_noergeln"
+      },
+      {
+        "wort": "der Makel",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "عیب",
+          "en": "flaw"
+        },
+        "id_ref": "nomen_makel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

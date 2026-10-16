@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_lindern",
+  "wort": "lindern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تسکین دادن",
+      "کاهش دادن (درد، رنج)"
+    ],
+    "en": [
+      "to relieve",
+      "to ease, to alleviate"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Medizin"
+  ],
+  "ipa": "ˈlɪndɐn",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Tablette lindert den Schmerz.",
+      "uebersetzung": {
+        "fa": "قرص درد را تسکین می‌دهد.",
+        "en": "The tablet relieves the pain."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Kalte Umschläge können das Fieber lindern, bis der Arzt kommt.",
+      "uebersetzung": {
+        "fa": "کمپرس سرد می‌تواند تا آمدن پزشک تب را کم کند.",
+        "en": "Cold compresses can ease the fever until the doctor arrives."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "mildern",
+      "uebersetzung": {
+        "fa": "کاستن",
+        "en": "to mitigate"
+      }
+    },
+    {
+      "wort": "erleichtern",
+      "uebersetzung": {
+        "fa": "سبک کردن",
+        "en": "to ease"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verschlimmern",
+      "uebersetzung": {
+        "fa": "بدتر کردن",
+        "en": "to make worse"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lind (نرم، ملایم) + -ern",
+    "en": "lind (soft, mild) + -ern"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "lindern",
+      "praeteritum": "linderte",
+      "partizip2": "gelindert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lindere",
+        "du": "linderst",
+        "er_sie_es": "lindert",
+        "wir": "lindern",
+        "ihr": "lindert",
+        "sie_Sie": "lindern"
+      },
+      "praeteritum": {
+        "ich": "linderte",
+        "du": "lindertest",
+        "er_sie_es": "linderte",
+        "wir": "linderten",
+        "ihr": "lindertet",
+        "sie_Sie": "linderten"
+      },
+      "konjunktiv1": {
+        "ich": "lindere",
+        "du": "linderest",
+        "er_sie_es": "lindere",
+        "wir": "lindern",
+        "ihr": "linderet",
+        "sie_Sie": "lindern"
+      },
+      "konjunktiv2": {
+        "ich": "linderte",
+        "du": "lindertest",
+        "er_sie_es": "linderte",
+        "wir": "linderten",
+        "ihr": "lindertet",
+        "sie_Sie": "linderten"
+      },
+      "imperativ": {
+        "du": "Lindere!",
+        "ihr": "Lindert!",
+        "Sie": "Lindern Sie!"
+      }
+    },
+    "partizip1": "lindernd",
+    "nominalisierung": "die Linderung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Schmerz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "درد",
+          "en": "pain"
+        },
+        "id_ref": "nomen_schmerz"
+      },
+      {
+        "wort": "helfen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک کردن",
+          "en": "to help"
+        },
+        "id_ref": "verb_helfen"
+      },
+      {
+        "wort": "mild",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ملایم",
+          "en": "mild"
+        },
+        "id_ref": "adjektiv_mild"
+      },
+      {
+        "wort": "beruhigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آرام کردن",
+          "en": "to calm"
+        },
+        "id_ref": "verb_beruhigen"
+      },
+      {
+        "wort": "die Linderung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تسکین",
+          "en": "relief"
+        },
+        "id_ref": "nomen_linderung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

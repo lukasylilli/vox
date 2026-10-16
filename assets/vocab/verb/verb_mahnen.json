@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_mahnen",
+  "wort": "mahnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تذکر دادن، هشدار دادن",
+      "اخطار پرداخت فرستادن"
+    ],
+    "en": [
+      "to warn, to urge",
+      "to send a reminder (for payment)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Büro",
+    "Finanzen"
+  ],
+  "ipa": "ˈmaːnən",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Firma mahnt den Kunden.",
+      "uebersetzung": {
+        "fa": "شرکت برای مشتری اخطار پرداخت می‌فرستد.",
+        "en": "The company sends the customer a reminder."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Arzt mahnte ihn, endlich mit dem Rauchen aufzuhören.",
+      "uebersetzung": {
+        "fa": "پزشک به او هشدار داد که بالاخره سیگار را ترک کند.",
+        "en": "The doctor urged him to finally stop smoking."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ermahnen",
+      "uebersetzung": {
+        "fa": "تذکر دادن",
+        "en": "to admonish"
+      }
+    },
+    {
+      "wort": "warnen",
+      "uebersetzung": {
+        "fa": "هشدار دادن",
+        "en": "to warn"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jdn. mahnen zu + Dat",
+        "bedeutung": "jemanden dringend zu etwas auffordern",
+        "beispiel": "Die Lehrerin mahnt die Klasse zur Ruhe.",
+        "uebersetzung": {
+          "fa": "معلم کلاس را به آرامش دعوت می‌کند.",
+          "en": "The teacher urges the class to be quiet."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "mahnen",
+      "praeteritum": "mahnte",
+      "partizip2": "gemahnt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "mahne",
+        "du": "mahnst",
+        "er_sie_es": "mahnt",
+        "wir": "mahnen",
+        "ihr": "mahnt",
+        "sie_Sie": "mahnen"
+      },
+      "praeteritum": {
+        "ich": "mahnte",
+        "du": "mahntest",
+        "er_sie_es": "mahnte",
+        "wir": "mahnten",
+        "ihr": "mahntet",
+        "sie_Sie": "mahnten"
+      },
+      "konjunktiv1": {
+        "ich": "mahne",
+        "du": "mahnest",
+        "er_sie_es": "mahne",
+        "wir": "mahnen",
+        "ihr": "mahnet",
+        "sie_Sie": "mahnen"
+      },
+      "konjunktiv2": {
+        "ich": "mahnte",
+        "du": "mahntest",
+        "er_sie_es": "mahnte",
+        "wir": "mahnten",
+        "ihr": "mahntet",
+        "sie_Sie": "mahnten"
+      },
+      "imperativ": {
+        "du": "Mahne!",
+        "ihr": "Mahnt!",
+        "Sie": "Mahnen Sie!"
+      }
+    },
+    "partizip1": "mahnend",
+    "nominalisierung": "die Mahnung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "warnen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "هشدار دادن",
+          "en": "to warn"
+        },
+        "id_ref": "verb_warnen"
+      },
+      {
+        "wort": "die Rechnung",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "صورت‌حساب",
+          "en": "bill"
+        },
+        "id_ref": "nomen_rechnung"
+      },
+      {
+        "wort": "erinnern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "یادآوری کردن",
+          "en": "to remind"
+        },
+        "id_ref": "verb_erinnern"
+      },
+      {
+        "wort": "die Mahnung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اخطار پرداخت، تذکر",
+          "en": "reminder"
+        },
+        "id_ref": "nomen_mahnung"
+      },
+      {
+        "wort": "ermahnen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تذکر دادن",
+          "en": "to admonish"
+        },
+        "id_ref": "verb_ermahnen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

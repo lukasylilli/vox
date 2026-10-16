@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_meisseln",
+  "wort": "meißeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "قلم زدن، حکاکی کردن (روی سنگ)",
+      "تراشیدن با قلم"
+    ],
+    "en": [
+      "to chisel",
+      "to carve"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kunst",
+    "Handwerk"
+  ],
+  "ipa": "ˈmaɪ̯sl̩n",
+  "anmerkung": null,
+  "berufe": [
+    "bau"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Künstler meißelt eine Figur.",
+      "uebersetzung": {
+        "fa": "هنرمند یک مجسمه را با قلم می‌تراشد.",
+        "en": "The artist is chiselling a figure."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Namen der Opfer wurden in den Stein gemeißelt, damit niemand sie vergisst.",
+      "uebersetzung": {
+        "fa": "نام قربانیان روی سنگ حک شد تا کسی فراموششان نکند.",
+        "en": "The names of the victims were carved into the stone so that nobody forgets them."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schnitzen",
+      "uebersetzung": {
+        "fa": "کنده‌کاری کردن",
+        "en": "to carve"
+      }
+    },
+    {
+      "wort": "hauen",
+      "uebersetzung": {
+        "fa": "تراشیدن",
+        "en": "to hew"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Meißel (قلم) + -n",
+    "en": "Meißel (chisel) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas meißeln in/aus + Akk/Dat",
+        "bedeutung": "etwas mit dem Meißel formen",
+        "beispiel": "Er meißelt eine Inschrift in den Marmor.",
+        "uebersetzung": {
+          "fa": "او نوشته‌ای را روی مرمر حک می‌کند.",
+          "en": "He chisels an inscription into the marble."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "meißeln",
+      "praeteritum": "meißelte",
+      "partizip2": "gemeißelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "meißle",
+        "du": "meißelst",
+        "er_sie_es": "meißelt",
+        "wir": "meißeln",
+        "ihr": "meißelt",
+        "sie_Sie": "meißeln"
+      },
+      "praeteritum": {
+        "ich": "meißelte",
+        "du": "meißeltest",
+        "er_sie_es": "meißelte",
+        "wir": "meißelten",
+        "ihr": "meißeltet",
+        "sie_Sie": "meißelten"
+      },
+      "konjunktiv1": {
+        "ich": "meißle",
+        "du": "meißlest",
+        "er_sie_es": "meißle",
+        "wir": "meißeln",
+        "ihr": "meißlet",
+        "sie_Sie": "meißeln"
+      },
+      "konjunktiv2": {
+        "ich": "meißelte",
+        "du": "meißeltest",
+        "er_sie_es": "meißelte",
+        "wir": "meißelten",
+        "ihr": "meißeltet",
+        "sie_Sie": "meißelten"
+      },
+      "imperativ": {
+        "du": "Meißle!",
+        "ihr": "Meißelt!",
+        "Sie": "Meißeln Sie!"
+      }
+    },
+    "partizip1": "meißelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Stein",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سنگ",
+          "en": "stone"
+        },
+        "id_ref": "nomen_stein"
+      },
+      {
+        "wort": "der Künstler",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "هنرمند",
+          "en": "artist"
+        },
+        "id_ref": "nomen_kuenstler"
+      },
+      {
+        "wort": "der Hammer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چکش",
+          "en": "hammer"
+        },
+        "id_ref": "nomen_hammer"
+      },
+      {
+        "wort": "der Meißel",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "قلم (حکاکی)",
+          "en": "chisel"
+        },
+        "id_ref": "nomen_meissel"
+      },
+      {
+        "wort": "die Skulptur",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مجسمه",
+          "en": "sculpture"
+        },
+        "id_ref": "nomen_skulptur"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

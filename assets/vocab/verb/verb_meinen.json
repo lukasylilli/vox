@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_meinen",
+  "wort": "meinen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "فکر کردن، عقیده داشتن",
+      "منظور داشتن"
+    ],
+    "en": [
+      "to think, to believe",
+      "to mean"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Kommunikation",
+    "Alltag"
+  ],
+  "ipa": "ˈmaɪ̯nən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Was meinst du?",
+      "uebersetzung": {
+        "fa": "نظرت چیست؟",
+        "en": "What do you think?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich habe es nicht böse gemeint, als ich das über deine Frisur gesagt habe.",
+      "uebersetzung": {
+        "fa": "وقتی آن حرف را درباره‌ی مدل موهایت زدم، منظور بدی نداشتم.",
+        "en": "I didn't mean it badly when I said that about your hairstyle."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "denken",
+      "uebersetzung": {
+        "fa": "فکر کردن",
+        "en": "to think"
+      }
+    },
+    {
+      "wort": "glauben",
+      "uebersetzung": {
+        "fa": "باور داشتن",
+        "en": "to believe"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "meinen zu + Dat",
+        "bedeutung": "eine Meinung über etwas haben",
+        "beispiel": "Was meinst du zu meinem Vorschlag?",
+        "uebersetzung": {
+          "fa": "نظرت درباره‌ی پیشنهادم چیست؟",
+          "en": "What do you think of my suggestion?"
+        }
+      },
+      {
+        "muster": "jdn./etwas meinen mit + Dat",
+        "bedeutung": "mit einer Aussage jemanden/etwas bezeichnen",
+        "beispiel": "Wen meinst du mit «er»?",
+        "uebersetzung": {
+          "fa": "منظورت از «او» کیست؟",
+          "en": "Who do you mean by \"he\"?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "meinen",
+      "praeteritum": "meinte",
+      "partizip2": "gemeint"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "meine",
+        "du": "meinst",
+        "er_sie_es": "meint",
+        "wir": "meinen",
+        "ihr": "meint",
+        "sie_Sie": "meinen"
+      },
+      "praeteritum": {
+        "ich": "meinte",
+        "du": "meintest",
+        "er_sie_es": "meinte",
+        "wir": "meinten",
+        "ihr": "meintet",
+        "sie_Sie": "meinten"
+      },
+      "konjunktiv1": {
+        "ich": "meine",
+        "du": "meinest",
+        "er_sie_es": "meine",
+        "wir": "meinen",
+        "ihr": "meinet",
+        "sie_Sie": "meinen"
+      },
+      "konjunktiv2": {
+        "ich": "meinte",
+        "du": "meintest",
+        "er_sie_es": "meinte",
+        "wir": "meinten",
+        "ihr": "meintet",
+        "sie_Sie": "meinten"
+      },
+      "imperativ": null
+    },
+    "partizip1": "meinend",
+    "nominalisierung": "die Meinung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "denken",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فکر کردن",
+          "en": "to think"
+        },
+        "id_ref": "verb_denken"
+      },
+      {
+        "wort": "glauben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باور داشتن",
+          "en": "to believe"
+        },
+        "id_ref": "verb_glauben"
+      },
+      {
+        "wort": "die Meinung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نظر، عقیده",
+          "en": "opinion"
+        },
+        "id_ref": "nomen_meinung"
+      },
+      {
+        "wort": "finden",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "به نظر کسی آمدن",
+          "en": "to find"
+        },
+        "id_ref": "verb_finden"
+      },
+      {
+        "wort": "behaupten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ادعا کردن",
+          "en": "to claim"
+        },
+        "id_ref": "verb_behaupten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

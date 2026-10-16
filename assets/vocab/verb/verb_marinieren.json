@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_marinieren",
+  "wort": "marinieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "در سس خواباندن (گوشت)",
+      "مرینیت کردن"
+    ],
+    "en": [
+      "to marinate"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Essen",
+    "Küche"
+  ],
+  "ipa": "maʁiˈniːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich mariniere das Fleisch.",
+      "uebersetzung": {
+        "fa": "گوشت را در سس می‌خوابانم.",
+        "en": "I am marinating the meat."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn man das Hähnchen über Nacht mariniert, wird es besonders zart.",
+      "uebersetzung": {
+        "fa": "اگر مرغ را یک شب در سس بخوابانی، خیلی نرم می‌شود.",
+        "en": "If you marinate the chicken overnight, it becomes especially tender."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einlegen",
+      "uebersetzung": {
+        "fa": "خواباندن (در مایع)",
+        "en": "to pickle, to steep"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از فرانسوی mariner (در آب‌نمک گذاشتن)",
+    "en": "from French mariner (to pickle in brine)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas marinieren in + Dat",
+        "bedeutung": "etwas in eine Würzflüssigkeit legen",
+        "beispiel": "Sie mariniert den Fisch in Zitronensaft.",
+        "uebersetzung": {
+          "fa": "او ماهی را در آب‌لیمو می‌خواباند.",
+          "en": "She marinates the fish in lemon juice."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "marinieren",
+      "praeteritum": "marinierte",
+      "partizip2": "mariniert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "mariniere",
+        "du": "marinierst",
+        "er_sie_es": "mariniert",
+        "wir": "marinieren",
+        "ihr": "mariniert",
+        "sie_Sie": "marinieren"
+      },
+      "praeteritum": {
+        "ich": "marinierte",
+        "du": "mariniertest",
+        "er_sie_es": "marinierte",
+        "wir": "marinierten",
+        "ihr": "mariniertet",
+        "sie_Sie": "marinierten"
+      },
+      "konjunktiv1": {
+        "ich": "mariniere",
+        "du": "marinierest",
+        "er_sie_es": "mariniere",
+        "wir": "marinieren",
+        "ihr": "marinieret",
+        "sie_Sie": "marinieren"
+      },
+      "konjunktiv2": {
+        "ich": "marinierte",
+        "du": "mariniertest",
+        "er_sie_es": "marinierte",
+        "wir": "marinierten",
+        "ihr": "mariniertet",
+        "sie_Sie": "marinierten"
+      },
+      "imperativ": {
+        "du": "Mariniere!",
+        "ihr": "Mariniert!",
+        "Sie": "Marinieren Sie!"
+      }
+    },
+    "partizip1": "marinierend",
+    "nominalisierung": "die Marinade"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Fleisch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گوشت",
+          "en": "meat"
+        },
+        "id_ref": "nomen_fleisch"
+      },
+      {
+        "wort": "kochen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پختن",
+          "en": "to cook"
+        },
+        "id_ref": "verb_kochen"
+      },
+      {
+        "wort": "würzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ادویه زدن",
+          "en": "to season"
+        },
+        "id_ref": "verb_wuerzen"
+      },
+      {
+        "wort": "grillen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کباب کردن",
+          "en": "to grill"
+        },
+        "id_ref": "verb_grillen"
+      },
+      {
+        "wort": "die Marinade",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سس خواباندن",
+          "en": "marinade"
+        },
+        "id_ref": "nomen_marinade"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

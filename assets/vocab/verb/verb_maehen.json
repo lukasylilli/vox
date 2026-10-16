@@ -1,0 +1,168 @@
+{
+  "schema": "3.0",
+  "id": "verb_maehen",
+  "wort": "mähen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "چمن زدن",
+      "دروکردن"
+    ],
+    "en": [
+      "to mow",
+      "to cut (grass, grain)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Garten",
+    "Natur"
+  ],
+  "ipa": "ˈmɛːən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Papa mäht den Rasen.",
+      "uebersetzung": {
+        "fa": "بابا چمن را می‌زند.",
+        "en": "Dad is mowing the lawn."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Am Samstag darf man den Rasen erst ab acht Uhr mähen, weil es sonst zu laut ist.",
+      "uebersetzung": {
+        "fa": "شنبه‌ها فقط از ساعت هشت به بعد می‌شود چمن زد، چون وگرنه خیلی سروصدا دارد.",
+        "en": "On Saturdays you may only mow the lawn from eight o'clock because otherwise it is too loud."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schneiden",
+      "uebersetzung": {
+        "fa": "بریدن",
+        "en": "to cut"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "mähen",
+      "praeteritum": "mähte",
+      "partizip2": "gemäht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "mähe",
+        "du": "mähst",
+        "er_sie_es": "mäht",
+        "wir": "mähen",
+        "ihr": "mäht",
+        "sie_Sie": "mähen"
+      },
+      "praeteritum": {
+        "ich": "mähte",
+        "du": "mähtest",
+        "er_sie_es": "mähte",
+        "wir": "mähten",
+        "ihr": "mähtet",
+        "sie_Sie": "mähten"
+      },
+      "konjunktiv1": {
+        "ich": "mähe",
+        "du": "mähest",
+        "er_sie_es": "mähe",
+        "wir": "mähen",
+        "ihr": "mähet",
+        "sie_Sie": "mähen"
+      },
+      "konjunktiv2": {
+        "ich": "mähte",
+        "du": "mähtest",
+        "er_sie_es": "mähte",
+        "wir": "mähten",
+        "ihr": "mähtet",
+        "sie_Sie": "mähten"
+      },
+      "imperativ": {
+        "du": "Mähe!",
+        "ihr": "Mäht!",
+        "Sie": "Mähen Sie!"
+      }
+    },
+    "partizip1": "mähend",
+    "nominalisierung": "die Mahd"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Garten",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باغچه",
+          "en": "garden"
+        },
+        "id_ref": "nomen_garten"
+      },
+      {
+        "wort": "das Gras",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "علف",
+          "en": "grass"
+        },
+        "id_ref": "nomen_gras"
+      },
+      {
+        "wort": "der Rasen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چمن",
+          "en": "lawn"
+        },
+        "id_ref": "nomen_rasen"
+      },
+      {
+        "wort": "der Rasenmäher",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ماشین چمن‌زنی",
+          "en": "lawnmower"
+        },
+        "id_ref": "nomen_rasenmaeher"
+      },
+      {
+        "wort": "ernten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برداشت کردن",
+          "en": "to harvest"
+        },
+        "id_ref": "verb_ernten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_losen",
+  "wort": "losen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "قرعه کشیدن",
+      "با قرعه تعیین کردن"
+    ],
+    "en": [
+      "to draw lots"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Freizeit",
+    "Spiele"
+  ],
+  "ipa": "ˈloːzn̩",
+  "anmerkung": "Nicht verwechseln mit «lösen» (eine Aufgabe lösen).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir losen, wer anfängt.",
+      "uebersetzung": {
+        "fa": "قرعه می‌کشیم که چه کسی شروع کند.",
+        "en": "We draw lots to see who starts."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Da beide Teams gleich viele Punkte hatten, wurde um den Sieg gelost.",
+      "uebersetzung": {
+        "fa": "چون هر دو تیم امتیاز برابر داشتند، برای برنده قرعه کشیده شد.",
+        "en": "Since both teams had the same number of points, lots were drawn for the win."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "auslosen",
+      "uebersetzung": {
+        "fa": "قرعه‌کشی کردن",
+        "en": "to draw by lot"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "losen um + Akk",
+        "bedeutung": "durch das Los entscheiden, wer etwas bekommt",
+        "beispiel": "Die Kinder losen um das letzte Stück Kuchen.",
+        "uebersetzung": {
+          "fa": "بچه‌ها برای آخرین تکه‌ی کیک قرعه می‌کشند.",
+          "en": "The children draw lots for the last piece of cake."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "losen",
+      "praeteritum": "loste",
+      "partizip2": "gelost"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lose",
+        "du": "lost",
+        "er_sie_es": "lost",
+        "wir": "losen",
+        "ihr": "lost",
+        "sie_Sie": "losen"
+      },
+      "praeteritum": {
+        "ich": "loste",
+        "du": "lostest",
+        "er_sie_es": "loste",
+        "wir": "losten",
+        "ihr": "lostet",
+        "sie_Sie": "losten"
+      },
+      "konjunktiv1": {
+        "ich": "lose",
+        "du": "losest",
+        "er_sie_es": "lose",
+        "wir": "losen",
+        "ihr": "loset",
+        "sie_Sie": "losen"
+      },
+      "konjunktiv2": {
+        "ich": "loste",
+        "du": "lostest",
+        "er_sie_es": "loste",
+        "wir": "losten",
+        "ihr": "lostet",
+        "sie_Sie": "losten"
+      },
+      "imperativ": {
+        "du": "Lose!",
+        "ihr": "Lost!",
+        "Sie": "Losen Sie!"
+      }
+    },
+    "partizip1": "losend",
+    "nominalisierung": "die Auslosung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Los",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بلیت قرعه، قرعه",
+          "en": "lot, ticket"
+        },
+        "id_ref": "nomen_los"
+      },
+      {
+        "wort": "das Spiel",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بازی",
+          "en": "game"
+        },
+        "id_ref": "nomen_spiel"
+      },
+      {
+        "wort": "der Zufall",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تصادف، اتفاق",
+          "en": "chance"
+        },
+        "id_ref": "nomen_zufall"
+      },
+      {
+        "wort": "die Lotterie",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بخت‌آزمایی",
+          "en": "lottery"
+        },
+        "id_ref": "nomen_lotterie"
+      },
+      {
+        "wort": "auslosen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قرعه‌کشی کردن",
+          "en": "to draw by lot"
+        },
+        "id_ref": "verb_auslosen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

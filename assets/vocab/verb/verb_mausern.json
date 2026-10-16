@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_mausern",
+  "wort": "mausern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پر ریختن (پرنده)",
+      "تبدیل شدن، پیشرفت کردن"
+    ],
+    "en": [
+      "to moult",
+      "to blossom (into)"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Natur",
+    "Entwicklung"
+  ],
+  "ipa": "ˈmaʊ̯zɐn",
+  "anmerkung": "Übertragen (umgangssprachlich): sich zu etwas mausern = sich positiv entwickeln.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Vogel mausert sich.",
+      "uebersetzung": {
+        "fa": "پرنده پر می‌ریزد.",
+        "en": "The bird is moulting."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das kleine Café hat sich zu einem beliebten Treffpunkt gemausert, seit der neue Besitzer da ist.",
+      "uebersetzung": {
+        "fa": "کافه‌ی کوچک از وقتی صاحب جدید آمده، به یک پاتوق محبوب تبدیل شده است.",
+        "en": "The little café has blossomed into a popular meeting place since the new owner arrived."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "entwickeln",
+      "uebersetzung": {
+        "fa": "پیشرفت کردن",
+        "en": "to develop"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich mausern zu + Dat",
+        "bedeutung": "sich (positiv) zu etwas entwickeln",
+        "beispiel": "Er hat sich zu einem guten Spieler gemausert.",
+        "uebersetzung": {
+          "fa": "او به یک بازیکن خوب تبدیل شده است.",
+          "en": "He has blossomed into a good player."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "mausern",
+      "praeteritum": "mauserte",
+      "partizip2": "gemausert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "mausere",
+        "du": "mauserst",
+        "er_sie_es": "mausert",
+        "wir": "mausern",
+        "ihr": "mausert",
+        "sie_Sie": "mausern"
+      },
+      "praeteritum": {
+        "ich": "mauserte",
+        "du": "mausertest",
+        "er_sie_es": "mauserte",
+        "wir": "mauserten",
+        "ihr": "mausertet",
+        "sie_Sie": "mauserten"
+      },
+      "konjunktiv1": {
+        "ich": "mausere",
+        "du": "mauserest",
+        "er_sie_es": "mausere",
+        "wir": "mausern",
+        "ihr": "mauseret",
+        "sie_Sie": "mausern"
+      },
+      "konjunktiv2": {
+        "ich": "mauserte",
+        "du": "mausertest",
+        "er_sie_es": "mauserte",
+        "wir": "mauserten",
+        "ihr": "mausertet",
+        "sie_Sie": "mauserten"
+      },
+      "imperativ": null
+    },
+    "partizip1": "mausernd",
+    "nominalisierung": "die Mauser"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Vogel",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرنده",
+          "en": "bird"
+        },
+        "id_ref": "nomen_vogel"
+      },
+      {
+        "wort": "wachsen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رشد کردن",
+          "en": "to grow"
+        },
+        "id_ref": "verb_wachsen"
+      },
+      {
+        "wort": "entwickeln",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیشرفت کردن",
+          "en": "to develop"
+        },
+        "id_ref": "verb_entwickeln"
+      },
+      {
+        "wort": "die Feder",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پر",
+          "en": "feather"
+        },
+        "id_ref": "nomen_feder"
+      },
+      {
+        "wort": "die Mauser",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "پرریزی",
+          "en": "moult"
+        },
+        "id_ref": "nomen_mauser"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

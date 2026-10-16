@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_marschieren",
+  "wort": "marschieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "رژه رفتن",
+      "با گام‌های بلند راه رفتن"
+    ],
+    "en": [
+      "to march",
+      "to walk briskly"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Freizeit",
+    "Politik"
+  ],
+  "ipa": "maʁˈʃiːʁən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Soldaten marschieren.",
+      "uebersetzung": {
+        "fa": "سربازها رژه می‌روند.",
+        "en": "The soldiers are marching."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wir sind drei Stunden durch den Wald marschiert, bis wir endlich eine Hütte fanden.",
+      "uebersetzung": {
+        "fa": "سه ساعت در جنگل راه رفتیم تا بالاخره کلبه‌ای پیدا کردیم.",
+        "en": "We marched through the forest for three hours until we finally found a hut."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wandern",
+      "uebersetzung": {
+        "fa": "پیاده‌روی کردن",
+        "en": "to hike"
+      }
+    },
+    {
+      "wort": "laufen",
+      "uebersetzung": {
+        "fa": "راه رفتن",
+        "en": "to walk"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Marsch (راهپیمایی) + -ieren (پسوند فعل‌ساز)",
+    "en": "Marsch (march) + -ieren (verb suffix)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "marschieren durch/in + Akk",
+        "bedeutung": "in gleichmäßigem Schritt irgendwohin gehen",
+        "beispiel": "Die Demonstranten marschieren durch die Innenstadt.",
+        "uebersetzung": {
+          "fa": "تظاهرکنندگان در مرکز شهر راهپیمایی می‌کنند.",
+          "en": "The demonstrators march through the city centre."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "marschieren",
+      "praeteritum": "marschierte",
+      "partizip2": "marschiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "marschiere",
+        "du": "marschierst",
+        "er_sie_es": "marschiert",
+        "wir": "marschieren",
+        "ihr": "marschiert",
+        "sie_Sie": "marschieren"
+      },
+      "praeteritum": {
+        "ich": "marschierte",
+        "du": "marschiertest",
+        "er_sie_es": "marschierte",
+        "wir": "marschierten",
+        "ihr": "marschiertet",
+        "sie_Sie": "marschierten"
+      },
+      "konjunktiv1": {
+        "ich": "marschiere",
+        "du": "marschierest",
+        "er_sie_es": "marschiere",
+        "wir": "marschieren",
+        "ihr": "marschieret",
+        "sie_Sie": "marschieren"
+      },
+      "konjunktiv2": {
+        "ich": "marschierte",
+        "du": "marschiertest",
+        "er_sie_es": "marschierte",
+        "wir": "marschierten",
+        "ihr": "marschiertet",
+        "sie_Sie": "marschierten"
+      },
+      "imperativ": {
+        "du": "Marschiere!",
+        "ihr": "Marschiert!",
+        "Sie": "Marschieren Sie!"
+      }
+    },
+    "partizip1": "marschierend",
+    "nominalisierung": "der Marsch"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "wandern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پیاده‌روی کردن",
+          "en": "to hike"
+        },
+        "id_ref": "verb_wandern"
+      },
+      {
+        "wort": "der Soldat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرباز",
+          "en": "soldier"
+        },
+        "id_ref": "nomen_soldat"
+      },
+      {
+        "wort": "die Demonstration",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تظاهرات",
+          "en": "demonstration"
+        },
+        "id_ref": "nomen_demonstration"
+      },
+      {
+        "wort": "der Marsch",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "راهپیمایی، مارش",
+          "en": "march"
+        },
+        "id_ref": "nomen_marsch"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

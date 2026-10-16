@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_manifestieren",
+  "wort": "manifestieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نمایان شدن، بروز کردن",
+      "آشکار کردن"
+    ],
+    "en": [
+      "to manifest (itself)",
+      "to demonstrate"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wissenschaft",
+    "Medizin"
+  ],
+  "ipa": "manifɛsˈtiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Krankheit manifestiert sich früh.",
+      "uebersetzung": {
+        "fa": "بیماری زود بروز می‌کند.",
+        "en": "The disease manifests itself early."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Stress manifestierte sich bei ihr in Kopfschmerzen, die nicht weggingen.",
+      "uebersetzung": {
+        "fa": "استرس در او به شکل سردردهایی بروز کرد که از بین نمی‌رفتند.",
+        "en": "In her case the stress manifested itself in headaches that would not go away."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zeigen",
+      "uebersetzung": {
+        "fa": "نشان دادن",
+        "en": "to show"
+      }
+    },
+    {
+      "wort": "äußern",
+      "uebersetzung": {
+        "fa": "بروز دادن",
+        "en": "to express"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین manifestare (آشکار کردن)",
+    "en": "from Latin manifestare (to make clear)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich manifestieren in + Dat",
+        "bedeutung": "in einer bestimmten Form sichtbar werden",
+        "beispiel": "Die Angst manifestiert sich in Schlafstörungen.",
+        "uebersetzung": {
+          "fa": "اضطراب به شکل بی‌خوابی بروز می‌کند.",
+          "en": "The anxiety manifests itself in sleep problems."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "manifestieren",
+      "praeteritum": "manifestierte",
+      "partizip2": "manifestiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "manifestiere",
+        "du": "manifestierst",
+        "er_sie_es": "manifestiert",
+        "wir": "manifestieren",
+        "ihr": "manifestiert",
+        "sie_Sie": "manifestieren"
+      },
+      "praeteritum": {
+        "ich": "manifestierte",
+        "du": "manifestiertest",
+        "er_sie_es": "manifestierte",
+        "wir": "manifestierten",
+        "ihr": "manifestiertet",
+        "sie_Sie": "manifestierten"
+      },
+      "konjunktiv1": {
+        "ich": "manifestiere",
+        "du": "manifestierest",
+        "er_sie_es": "manifestiere",
+        "wir": "manifestieren",
+        "ihr": "manifestieret",
+        "sie_Sie": "manifestieren"
+      },
+      "konjunktiv2": {
+        "ich": "manifestierte",
+        "du": "manifestiertest",
+        "er_sie_es": "manifestierte",
+        "wir": "manifestierten",
+        "ihr": "manifestiertet",
+        "sie_Sie": "manifestierten"
+      },
+      "imperativ": null
+    },
+    "partizip1": "manifestierend",
+    "nominalisierung": "die Manifestation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "zeigen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نشان دادن",
+          "en": "to show"
+        },
+        "id_ref": "verb_zeigen"
+      },
+      {
+        "wort": "deutlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "واضح",
+          "en": "clear"
+        },
+        "id_ref": "adjektiv_deutlich"
+      },
+      {
+        "wort": "das Symptom",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نشانه",
+          "en": "symptom"
+        },
+        "id_ref": "nomen_symptom"
+      },
+      {
+        "wort": "äußern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ابراز کردن، بروز دادن",
+          "en": "to express"
+        },
+        "id_ref": "verb_aeussern"
+      },
+      {
+        "wort": "das Manifest",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بیانیه",
+          "en": "manifesto"
+        },
+        "id_ref": "nomen_manifest"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

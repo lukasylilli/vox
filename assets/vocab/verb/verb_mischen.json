@@ -1,0 +1,206 @@
+{
+  "schema": "3.0",
+  "id": "verb_mischen",
+  "wort": "mischen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مخلوط کردن",
+      "(ورق) بُر زدن"
+    ],
+    "en": [
+      "to mix",
+      "to shuffle (cards)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Essen",
+    "Freizeit"
+  ],
+  "ipa": "ˈmɪʃn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "bau",
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mische Mehl und Zucker!",
+      "uebersetzung": {
+        "fa": "آرد و شکر را مخلوط کن!",
+        "en": "Mix the flour and sugar!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bevor wir anfangen, mischt jeder einmal die Karten.",
+      "uebersetzung": {
+        "fa": "قبل از شروع، هر کس یک بار ورق‌ها را بر می‌زند.",
+        "en": "Before we start, everyone shuffles the cards once."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vermischen",
+      "uebersetzung": {
+        "fa": "درهم آمیختن",
+        "en": "to blend"
+      }
+    },
+    {
+      "wort": "mixen",
+      "uebersetzung": {
+        "fa": "مخلوط کردن",
+        "en": "to mix"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "trennen",
+      "uebersetzung": {
+        "fa": "جدا کردن",
+        "en": "to separate"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "etwas mischen mit + Dat",
+        "bedeutung": "etwas mit etwas anderem vermengen",
+        "beispiel": "Sie mischt den Saft mit Wasser.",
+        "uebersetzung": {
+          "fa": "او آب‌میوه را با آب مخلوط می‌کند.",
+          "en": "She mixes the juice with water."
+        }
+      },
+      {
+        "muster": "sich mischen in + Akk",
+        "bedeutung": "sich in etwas einmischen",
+        "beispiel": "Misch dich nicht in unseren Streit!",
+        "uebersetzung": {
+          "fa": "در دعوای ما دخالت نکن!",
+          "en": "Don't interfere in our argument!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "mischen",
+      "praeteritum": "mischte",
+      "partizip2": "gemischt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "mische",
+        "du": "mischst",
+        "er_sie_es": "mischt",
+        "wir": "mischen",
+        "ihr": "mischt",
+        "sie_Sie": "mischen"
+      },
+      "praeteritum": {
+        "ich": "mischte",
+        "du": "mischtest",
+        "er_sie_es": "mischte",
+        "wir": "mischten",
+        "ihr": "mischtet",
+        "sie_Sie": "mischten"
+      },
+      "konjunktiv1": {
+        "ich": "mische",
+        "du": "mischest",
+        "er_sie_es": "mische",
+        "wir": "mischen",
+        "ihr": "mischet",
+        "sie_Sie": "mischen"
+      },
+      "konjunktiv2": {
+        "ich": "mischte",
+        "du": "mischtest",
+        "er_sie_es": "mischte",
+        "wir": "mischten",
+        "ihr": "mischtet",
+        "sie_Sie": "mischten"
+      },
+      "imperativ": {
+        "du": "Mische!",
+        "ihr": "Mischt!",
+        "Sie": "Mischen Sie!"
+      }
+    },
+    "partizip1": "mischend",
+    "nominalisierung": "die Mischung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Farbe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رنگ",
+          "en": "colour"
+        },
+        "id_ref": "nomen_farbe"
+      },
+      {
+        "wort": "rühren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "هم زدن",
+          "en": "to stir"
+        },
+        "id_ref": "verb_ruehren"
+      },
+      {
+        "wort": "die Mischung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مخلوط",
+          "en": "mixture"
+        },
+        "id_ref": "nomen_mischung"
+      },
+      {
+        "wort": "vermischen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درهم آمیختن",
+          "en": "to blend"
+        },
+        "id_ref": "verb_vermischen"
+      },
+      {
+        "wort": "trennen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جدا کردن",
+          "en": "to separate"
+        },
+        "id_ref": "verb_trennen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_lichten",
+  "wort": "lichten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بالا کشیدن (لنگر)",
+      "کم‌پشت شدن، رقیق شدن"
+    ],
+    "en": [
+      "to weigh (anchor)",
+      "to thin out, to clear"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Verkehr"
+  ],
+  "ipa": "ˈlɪçtn̩",
+  "anmerkung": "Reflexiv: «sich lichten» (Nebel, Haare, Wald werden dünner). Seemannssprache: den Anker lichten.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Nebel lichtet sich.",
+      "uebersetzung": {
+        "fa": "مه دارد کم می‌شود.",
+        "en": "The fog is clearing."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als das Schiff den Anker lichtete, winkten alle vom Ufer.",
+      "uebersetzung": {
+        "fa": "وقتی کشتی لنگر کشید، همه از ساحل دست تکان دادند.",
+        "en": "When the ship weighed anchor, everyone waved from the shore."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "heben",
+      "uebersetzung": {
+        "fa": "بلند کردن",
+        "en": "to lift"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "den Anker lichten",
+        "bedeutung": "den Anker hochziehen",
+        "beispiel": "Die Mannschaft lichtet den Anker.",
+        "uebersetzung": {
+          "fa": "خدمه لنگر را بالا می‌کشند.",
+          "en": "The crew weighs anchor."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "lichten",
+      "praeteritum": "lichtete",
+      "partizip2": "gelichtet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lichte",
+        "du": "lichtest",
+        "er_sie_es": "lichtet",
+        "wir": "lichten",
+        "ihr": "lichtet",
+        "sie_Sie": "lichten"
+      },
+      "praeteritum": {
+        "ich": "lichtete",
+        "du": "lichtetest",
+        "er_sie_es": "lichtete",
+        "wir": "lichteten",
+        "ihr": "lichtetet",
+        "sie_Sie": "lichteten"
+      },
+      "konjunktiv1": {
+        "ich": "lichte",
+        "du": "lichtest",
+        "er_sie_es": "lichte",
+        "wir": "lichten",
+        "ihr": "lichtet",
+        "sie_Sie": "lichten"
+      },
+      "konjunktiv2": {
+        "ich": "lichtete",
+        "du": "lichtetest",
+        "er_sie_es": "lichtete",
+        "wir": "lichteten",
+        "ihr": "lichtetet",
+        "sie_Sie": "lichteten"
+      },
+      "imperativ": {
+        "du": "Lichte!",
+        "ihr": "Lichtet!",
+        "Sie": "Lichten Sie!"
+      }
+    },
+    "partizip1": "lichtend",
+    "nominalisierung": "die Lichtung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Licht",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نور",
+          "en": "light"
+        },
+        "id_ref": "nomen_licht"
+      },
+      {
+        "wort": "hell",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "روشن",
+          "en": "bright"
+        },
+        "id_ref": "adjektiv_hell"
+      },
+      {
+        "wort": "dünn",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نازک، کم‌پشت",
+          "en": "thin"
+        },
+        "id_ref": "adjektiv_duenn"
+      },
+      {
+        "wort": "der Anker",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لنگر",
+          "en": "anchor"
+        },
+        "id_ref": "nomen_anker"
+      },
+      {
+        "wort": "die Lichtung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "فضای باز در جنگل",
+          "en": "clearing"
+        },
+        "id_ref": "nomen_lichtung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

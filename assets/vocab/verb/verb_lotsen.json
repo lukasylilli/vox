@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_lotsen",
+  "wort": "lotsen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "هدایت کردن (کشتی، هواپیما)",
+      "راهنمایی کردن، بردن"
+    ],
+    "en": [
+      "to pilot, to guide",
+      "to steer (someone somewhere)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Verkehr",
+    "Reisen"
+  ],
+  "ipa": "ˈloːtsn̩",
+  "anmerkung": null,
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie lotst uns durch die Stadt.",
+      "uebersetzung": {
+        "fa": "او ما را در شهر راهنمایی می‌کند.",
+        "en": "She guides us through the town."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Navi lotste uns über kleine Straßen, damit wir den Stau umfahren.",
+      "uebersetzung": {
+        "fa": "مسیریاب ما را از کوچه‌های کوچک برد تا از ترافیک دور بزنیم.",
+        "en": "The satnav steered us along small roads so we could avoid the traffic jam."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "führen",
+      "uebersetzung": {
+        "fa": "هدایت کردن",
+        "en": "to lead"
+      }
+    },
+    {
+      "wort": "leiten",
+      "uebersetzung": {
+        "fa": "راهنمایی کردن",
+        "en": "to guide"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Lotse (راهنمای کشتی) + -n",
+    "en": "Lotse (pilot) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jdn. lotsen durch + Akk",
+        "bedeutung": "jemanden durch etwas führen",
+        "beispiel": "Der Kellner lotst die Gäste durch den vollen Saal.",
+        "uebersetzung": {
+          "fa": "گارسون مهمان‌ها را از میان سالن شلوغ هدایت می‌کند.",
+          "en": "The waiter guides the guests through the crowded hall."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "lotsen",
+      "praeteritum": "lotste",
+      "partizip2": "gelotst"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "lotse",
+        "du": "lotst",
+        "er_sie_es": "lotst",
+        "wir": "lotsen",
+        "ihr": "lotst",
+        "sie_Sie": "lotsen"
+      },
+      "praeteritum": {
+        "ich": "lotste",
+        "du": "lotstest",
+        "er_sie_es": "lotste",
+        "wir": "lotsten",
+        "ihr": "lotstet",
+        "sie_Sie": "lotsten"
+      },
+      "konjunktiv1": {
+        "ich": "lotse",
+        "du": "lotsest",
+        "er_sie_es": "lotse",
+        "wir": "lotsen",
+        "ihr": "lotset",
+        "sie_Sie": "lotsen"
+      },
+      "konjunktiv2": {
+        "ich": "lotste",
+        "du": "lotstest",
+        "er_sie_es": "lotste",
+        "wir": "lotsten",
+        "ihr": "lotstet",
+        "sie_Sie": "lotsten"
+      },
+      "imperativ": {
+        "du": "Lotse!",
+        "ihr": "Lotst!",
+        "Sie": "Lotsen Sie!"
+      }
+    },
+    "partizip1": "lotsend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "führen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "هدایت کردن",
+          "en": "to lead"
+        },
+        "id_ref": "verb_fuehren"
+      },
+      {
+        "wort": "der Weg",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "راه",
+          "en": "way"
+        },
+        "id_ref": "nomen_weg"
+      },
+      {
+        "wort": "leiten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "هدایت کردن، رهبری کردن",
+          "en": "to guide"
+        },
+        "id_ref": "verb_leiten"
+      },
+      {
+        "wort": "der Lotse",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "راهنمای کشتی، ناوبر",
+          "en": "pilot"
+        },
+        "id_ref": "nomen_lotse"
+      },
+      {
+        "wort": "navigieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ناوبری کردن",
+          "en": "to navigate"
+        },
+        "id_ref": "verb_navigieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

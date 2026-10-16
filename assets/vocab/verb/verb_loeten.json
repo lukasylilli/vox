@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_loeten",
+  "wort": "löten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "لحیم کردن",
+      "جوش دادن با لحیم"
+    ],
+    "en": [
+      "to solder"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Handwerk"
+  ],
+  "ipa": "ˈløːtn̩",
+  "anmerkung": "Nicht verwechseln mit «loten» (mit dem Lot messen).",
+  "berufe": [
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Elektriker lötet das Kabel.",
+      "uebersetzung": {
+        "fa": "برق‌کار سیم را لحیم می‌کند.",
+        "en": "The electrician solders the cable."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil der Draht abgebrochen war, musste er ihn neu an die Platine löten.",
+      "uebersetzung": {
+        "fa": "چون سیم کنده شده بود، باید دوباره آن را به برد لحیم می‌کرد.",
+        "en": "Because the wire had broken off, he had to solder it back onto the circuit board."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schweißen",
+      "uebersetzung": {
+        "fa": "جوش دادن",
+        "en": "to weld"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas löten an + Akk",
+        "bedeutung": "etwas durch Löten an etwas befestigen",
+        "beispiel": "Er lötet den Draht an den Stecker.",
+        "uebersetzung": {
+          "fa": "او سیم را به دوشاخه لحیم می‌کند.",
+          "en": "He solders the wire to the plug."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "löten",
+      "praeteritum": "lötete",
+      "partizip2": "gelötet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "löte",
+        "du": "lötest",
+        "er_sie_es": "lötet",
+        "wir": "löten",
+        "ihr": "lötet",
+        "sie_Sie": "löten"
+      },
+      "praeteritum": {
+        "ich": "lötete",
+        "du": "lötetest",
+        "er_sie_es": "lötete",
+        "wir": "löteten",
+        "ihr": "lötetet",
+        "sie_Sie": "löteten"
+      },
+      "konjunktiv1": {
+        "ich": "löte",
+        "du": "lötest",
+        "er_sie_es": "löte",
+        "wir": "löten",
+        "ihr": "lötet",
+        "sie_Sie": "löten"
+      },
+      "konjunktiv2": {
+        "ich": "lötete",
+        "du": "lötetest",
+        "er_sie_es": "lötete",
+        "wir": "löteten",
+        "ihr": "lötetet",
+        "sie_Sie": "löteten"
+      },
+      "imperativ": {
+        "du": "Löte!",
+        "ihr": "Lötet!",
+        "Sie": "Löten Sie!"
+      }
+    },
+    "partizip1": "lötend",
+    "nominalisierung": "die Lötung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Kabel",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کابل، سیم",
+          "en": "cable"
+        },
+        "id_ref": "nomen_kabel"
+      },
+      {
+        "wort": "das Metall",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فلز",
+          "en": "metal"
+        },
+        "id_ref": "nomen_metall"
+      },
+      {
+        "wort": "verbinden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وصل کردن",
+          "en": "to connect"
+        },
+        "id_ref": "verb_verbinden"
+      },
+      {
+        "wort": "schweißen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "جوشکاری کردن",
+          "en": "to weld"
+        },
+        "id_ref": "verb_schweissen"
+      },
+      {
+        "wort": "der Lötkolben",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "هویه",
+          "en": "soldering iron"
+        },
+        "id_ref": "nomen_loetkolben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

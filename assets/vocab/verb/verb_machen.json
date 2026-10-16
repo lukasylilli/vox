@@ -1,0 +1,194 @@
+{
+  "schema": "3.0",
+  "id": "verb_machen",
+  "wort": "machen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "انجام دادن، کردن",
+      "ساختن، درست کردن"
+    ],
+    "en": [
+      "to do",
+      "to make"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Arbeit"
+  ],
+  "ipa": "ˈmaxn̩",
+  "anmerkung": "Sehr viele feste Verbindungen: Pause machen, Spaß machen, Sorgen machen, Fotos machen. «Das macht nichts» = kein Problem.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Was machst du heute?",
+      "uebersetzung": {
+        "fa": "امروز چه کار می‌کنی؟",
+        "en": "What are you doing today?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Mach dir keine Sorgen, wir haben schon eine Lösung gefunden.",
+      "uebersetzung": {
+        "fa": "نگران نباش، ما راه‌حلی پیدا کرده‌ایم.",
+        "en": "Don't worry, we have already found a solution."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "tun",
+      "uebersetzung": {
+        "fa": "انجام دادن",
+        "en": "to do"
+      }
+    },
+    {
+      "wort": "herstellen",
+      "uebersetzung": {
+        "fa": "ساختن",
+        "en": "to produce"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jdn. + Adjektiv machen",
+        "bedeutung": "bewirken, dass jemand in einen Zustand kommt",
+        "beispiel": "Die Nachricht macht mich glücklich.",
+        "uebersetzung": {
+          "fa": "این خبر خوشحالم می‌کند.",
+          "en": "The news makes me happy."
+        }
+      },
+      {
+        "muster": "sich machen an + Akk",
+        "bedeutung": "mit etwas anfangen",
+        "beispiel": "Nach dem Essen macht er sich an die Arbeit.",
+        "uebersetzung": {
+          "fa": "بعد از غذا دست به کار می‌شود.",
+          "en": "After the meal he sets to work."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "machen",
+      "praeteritum": "machte",
+      "partizip2": "gemacht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "mache",
+        "du": "machst",
+        "er_sie_es": "macht",
+        "wir": "machen",
+        "ihr": "macht",
+        "sie_Sie": "machen"
+      },
+      "praeteritum": {
+        "ich": "machte",
+        "du": "machtest",
+        "er_sie_es": "machte",
+        "wir": "machten",
+        "ihr": "machtet",
+        "sie_Sie": "machten"
+      },
+      "konjunktiv1": {
+        "ich": "mache",
+        "du": "machest",
+        "er_sie_es": "mache",
+        "wir": "machen",
+        "ihr": "machet",
+        "sie_Sie": "machen"
+      },
+      "konjunktiv2": {
+        "ich": "machte",
+        "du": "machtest",
+        "er_sie_es": "machte",
+        "wir": "machten",
+        "ihr": "machtet",
+        "sie_Sie": "machten"
+      },
+      "imperativ": {
+        "du": "Mach!",
+        "ihr": "Macht!",
+        "Sie": "Machen Sie!"
+      }
+    },
+    "partizip1": "machend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "tun",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "انجام دادن",
+          "en": "to do"
+        },
+        "id_ref": "verb_tun"
+      },
+      {
+        "wort": "die Hausaufgabe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تکلیف خانه",
+          "en": "homework"
+        },
+        "id_ref": "nomen_hausaufgabe"
+      },
+      {
+        "wort": "herstellen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تولید کردن",
+          "en": "to produce"
+        },
+        "id_ref": "verb_herstellen"
+      },
+      {
+        "wort": "erledigen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "انجام دادن، تمام کردن",
+          "en": "to get done"
+        },
+        "id_ref": "verb_erledigen"
+      },
+      {
+        "wort": "die Sorge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نگرانی",
+          "en": "worry"
+        },
+        "id_ref": "nomen_sorge"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

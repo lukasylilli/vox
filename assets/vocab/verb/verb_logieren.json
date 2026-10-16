@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_logieren",
+  "wort": "logieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اقامت کردن (موقت، در هتل)",
+      "منزل کردن"
+    ],
+    "en": [
+      "to stay, to lodge"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Reisen",
+    "Wohnen"
+  ],
+  "ipa": "loˈʒiːʁən",
+  "anmerkung": "Veraltend, heute meist scherzhaft oder gehoben.",
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": "veraltend",
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir logieren im Hotel am Markt.",
+      "uebersetzung": {
+        "fa": "در هتل کنار میدان اقامت داریم.",
+        "en": "We are staying at the hotel by the market."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Während der Messe logierte er bei Freunden, weil alle Hotels voll waren.",
+      "uebersetzung": {
+        "fa": "در مدت نمایشگاه پیش دوستانش ماند، چون همه‌ی هتل‌ها پر بودند.",
+        "en": "During the fair he stayed with friends because all the hotels were full."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "übernachten",
+      "uebersetzung": {
+        "fa": "شب ماندن",
+        "en": "to stay overnight"
+      }
+    },
+    {
+      "wort": "wohnen",
+      "uebersetzung": {
+        "fa": "ساکن بودن",
+        "en": "to live"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از فرانسوی loger (منزل دادن)",
+    "en": "from French loger (to lodge)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "logieren in/bei + Dat",
+        "bedeutung": "vorübergehend irgendwo wohnen",
+        "beispiel": "Die Gäste logieren in einer Villa.",
+        "uebersetzung": {
+          "fa": "مهمان‌ها در یک ویلا اقامت دارند.",
+          "en": "The guests are staying in a villa."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "logieren",
+      "praeteritum": "logierte",
+      "partizip2": "logiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "logiere",
+        "du": "logierst",
+        "er_sie_es": "logiert",
+        "wir": "logieren",
+        "ihr": "logiert",
+        "sie_Sie": "logieren"
+      },
+      "praeteritum": {
+        "ich": "logierte",
+        "du": "logiertest",
+        "er_sie_es": "logierte",
+        "wir": "logierten",
+        "ihr": "logiertet",
+        "sie_Sie": "logierten"
+      },
+      "konjunktiv1": {
+        "ich": "logiere",
+        "du": "logierest",
+        "er_sie_es": "logiere",
+        "wir": "logieren",
+        "ihr": "logieret",
+        "sie_Sie": "logieren"
+      },
+      "konjunktiv2": {
+        "ich": "logierte",
+        "du": "logiertest",
+        "er_sie_es": "logierte",
+        "wir": "logierten",
+        "ihr": "logiertet",
+        "sie_Sie": "logierten"
+      },
+      "imperativ": {
+        "du": "Logiere!",
+        "ihr": "Logiert!",
+        "Sie": "Logieren Sie!"
+      }
+    },
+    "partizip1": "logierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "wohnen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زندگی کردن، ساکن بودن",
+          "en": "to live"
+        },
+        "id_ref": "verb_wohnen"
+      },
+      {
+        "wort": "das Hotel",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "هتل",
+          "en": "hotel"
+        },
+        "id_ref": "nomen_hotel"
+      },
+      {
+        "wort": "übernachten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شب ماندن",
+          "en": "to stay overnight"
+        },
+        "id_ref": "verb_uebernachten"
+      },
+      {
+        "wort": "die Unterkunft",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "محل اقامت",
+          "en": "accommodation"
+        },
+        "id_ref": "nomen_unterkunft"
+      },
+      {
+        "wort": "das Logis",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "منزل، جای خواب",
+          "en": "lodging"
+        },
+        "id_ref": "nomen_logis"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
