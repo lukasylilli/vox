@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_roden",
+  "wort": "roden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "درخت‌ها را قطع کردن و زمین را پاک کردن",
+      "ریشه‌کن کردن"
+    ],
+    "en": [
+      "to clear (land)",
+      "to cut down (trees)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Umwelt",
+    "Landwirtschaft"
+  ],
+  "ipa": "ˈʁoːdn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Man rodet den Wald.",
+      "uebersetzung": {
+        "fa": "جنگل را قطع و پاک‌سازی می‌کنند.",
+        "en": "The forest is being cleared."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Jedes Jahr werden riesige Flächen Regenwald gerodet, damit dort Felder angelegt werden können.",
+      "uebersetzung": {
+        "fa": "هر سال سطح عظیمی از جنگل‌های بارانی قطع می‌شود تا آنجا مزرعه ساخته شود.",
+        "en": "Every year huge areas of rainforest are cleared so that fields can be created there."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abholzen",
+      "uebersetzung": {
+        "fa": "جنگل‌زدایی کردن",
+        "en": "to deforest"
+      }
+    },
+    {
+      "wort": "fällen",
+      "uebersetzung": {
+        "fa": "بریدن (درخت)",
+        "en": "to fell"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "aufforsten",
+      "uebersetzung": {
+        "fa": "جنگل‌کاری کردن",
+        "en": "to reforest"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "roden",
+      "praeteritum": "rodete",
+      "partizip2": "gerodet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "rode",
+        "du": "rodest",
+        "er_sie_es": "rodet",
+        "wir": "roden",
+        "ihr": "rodet",
+        "sie_Sie": "roden"
+      },
+      "praeteritum": {
+        "ich": "rodete",
+        "du": "rodetest",
+        "er_sie_es": "rodete",
+        "wir": "rodeten",
+        "ihr": "rodetet",
+        "sie_Sie": "rodeten"
+      },
+      "konjunktiv1": {
+        "ich": "rode",
+        "du": "rodest",
+        "er_sie_es": "rode",
+        "wir": "roden",
+        "ihr": "rodet",
+        "sie_Sie": "roden"
+      },
+      "konjunktiv2": {
+        "ich": "rodete",
+        "du": "rodetest",
+        "er_sie_es": "rodete",
+        "wir": "rodeten",
+        "ihr": "rodetet",
+        "sie_Sie": "rodeten"
+      },
+      "imperativ": {
+        "du": "Rode!",
+        "ihr": "Rodet!",
+        "Sie": "Roden Sie!"
+      }
+    },
+    "partizip1": "rodend",
+    "nominalisierung": "die Rodung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "abholzen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "جنگل‌زدایی کردن",
+          "en": "to deforest"
+        },
+        "id_ref": "verb_abholzen"
+      },
+      {
+        "wort": "der Wald",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جنگل",
+          "en": "forest"
+        },
+        "id_ref": "nomen_wald"
+      },
+      {
+        "wort": "der Baum",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "درخت",
+          "en": "tree"
+        },
+        "id_ref": "nomen_baum"
+      },
+      {
+        "wort": "fällen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بریدن (درخت)",
+          "en": "to fell"
+        },
+        "id_ref": "verb_faellen"
+      },
+      {
+        "wort": "der Regenwald",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جنگل بارانی",
+          "en": "rainforest"
+        },
+        "id_ref": "nomen_regenwald"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

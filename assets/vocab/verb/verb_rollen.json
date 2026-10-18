@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_rollen",
+  "wort": "rollen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "غلتیدن",
+      "غلتاندن",
+      "لوله کردن"
+    ],
+    "en": [
+      "to roll"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Bewegung",
+    "Verkehr"
+  ],
+  "ipa": "ˈʁɔlən",
+  "anmerkung": "Intransitiv mit «sein» (der Ball ist gerollt); transitiv mit «haben» (er hat das Fass gerollt).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Ball rollt auf die Straße.",
+      "uebersetzung": {
+        "fa": "توپ به خیابان می‌غلتد.",
+        "en": "The ball rolls onto the street."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nachdem er den Teig ausgerollt hatte, rollte er ihn zu einer Rolle zusammen.",
+      "uebersetzung": {
+        "fa": "بعد از اینکه خمیر را باز کرد، آن را لوله کرد.",
+        "en": "After he had rolled out the dough, he rolled it up into a roll."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kullern",
+      "uebersetzung": {
+        "fa": "غلتیدن",
+        "en": "to roll"
+      }
+    },
+    {
+      "wort": "drehen",
+      "uebersetzung": {
+        "fa": "چرخاندن",
+        "en": "to turn"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas rollen in + Akk",
+        "bedeutung": "etwas durch Drehen bewegen oder einwickeln",
+        "beispiel": "Sie rollt den Fisch in Mehl.",
+        "uebersetzung": {
+          "fa": "او ماهی را در آرد می‌غلتاند.",
+          "en": "She rolls the fish in flour."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "rollen",
+      "praeteritum": "rollte",
+      "partizip2": "gerollt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "rolle",
+        "du": "rollst",
+        "er_sie_es": "rollt",
+        "wir": "rollen",
+        "ihr": "rollt",
+        "sie_Sie": "rollen"
+      },
+      "praeteritum": {
+        "ich": "rollte",
+        "du": "rolltest",
+        "er_sie_es": "rollte",
+        "wir": "rollten",
+        "ihr": "rolltet",
+        "sie_Sie": "rollten"
+      },
+      "konjunktiv1": {
+        "ich": "rolle",
+        "du": "rollest",
+        "er_sie_es": "rolle",
+        "wir": "rollen",
+        "ihr": "rollet",
+        "sie_Sie": "rollen"
+      },
+      "konjunktiv2": {
+        "ich": "rollte",
+        "du": "rolltest",
+        "er_sie_es": "rollte",
+        "wir": "rollten",
+        "ihr": "rolltet",
+        "sie_Sie": "rollten"
+      },
+      "imperativ": {
+        "du": "Rolle!",
+        "ihr": "Rollt!",
+        "Sie": "Rollen Sie!"
+      }
+    },
+    "partizip1": "rollend",
+    "nominalisierung": "die Rolle"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Rolle",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رول، نقش",
+          "en": "roll, role"
+        },
+        "id_ref": "nomen_rolle"
+      },
+      {
+        "wort": "der Rollstuhl",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ویلچر",
+          "en": "wheelchair"
+        },
+        "id_ref": "nomen_rollstuhl"
+      },
+      {
+        "wort": "das Rad",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چرخ",
+          "en": "wheel"
+        },
+        "id_ref": "nomen_rad"
+      },
+      {
+        "wort": "drehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چرخاندن",
+          "en": "to turn"
+        },
+        "id_ref": "verb_drehen"
+      },
+      {
+        "wort": "der Ball",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "توپ",
+          "en": "ball"
+        },
+        "id_ref": "nomen_ball"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

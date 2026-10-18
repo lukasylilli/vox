@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_rotieren",
+  "wort": "rotieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "چرخیدن",
+      "به نوبت عوض شدن",
+      "هول شدن (محاوره)"
+    ],
+    "en": [
+      "to rotate",
+      "to rotate (shifts)",
+      "to be in a flap (colloquial)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Arbeit"
+  ],
+  "ipa": "ʁoˈtiːʁən",
+  "anmerkung": "«am Rotieren sein» = umgangssprachlich: sehr hektisch, gestresst sein.",
+  "berufe": [
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Erde rotiert.",
+      "uebersetzung": {
+        "fa": "زمین می‌چرخد.",
+        "en": "The earth rotates."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Vor der Hochzeit rotierte die ganze Familie, weil noch so viel zu erledigen war.",
+      "uebersetzung": {
+        "fa": "پیش از عروسی کل خانواده هول بودند، چون هنوز کارهای زیادی مانده بود.",
+        "en": "Before the wedding the whole family was in a flap because there was still so much to do."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich drehen",
+      "uebersetzung": {
+        "fa": "چرخیدن",
+        "en": "to turn"
+      }
+    },
+    {
+      "wort": "kreisen",
+      "uebersetzung": {
+        "fa": "دور زدن",
+        "en": "to circle"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین rotare (چرخاندن)",
+    "en": "from Latin rotare (to turn round)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "rotieren um + Akk",
+        "bedeutung": "sich um einen Mittelpunkt drehen",
+        "beispiel": "Die Erde rotiert um ihre eigene Achse.",
+        "uebersetzung": {
+          "fa": "زمین به دور محور خودش می‌چرخد.",
+          "en": "The earth rotates on its own axis."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "rotieren",
+      "praeteritum": "rotierte",
+      "partizip2": "rotiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "rotiere",
+        "du": "rotierst",
+        "er_sie_es": "rotiert",
+        "wir": "rotieren",
+        "ihr": "rotiert",
+        "sie_Sie": "rotieren"
+      },
+      "praeteritum": {
+        "ich": "rotierte",
+        "du": "rotiertest",
+        "er_sie_es": "rotierte",
+        "wir": "rotierten",
+        "ihr": "rotiertet",
+        "sie_Sie": "rotierten"
+      },
+      "konjunktiv1": {
+        "ich": "rotiere",
+        "du": "rotierest",
+        "er_sie_es": "rotiere",
+        "wir": "rotieren",
+        "ihr": "rotieret",
+        "sie_Sie": "rotieren"
+      },
+      "konjunktiv2": {
+        "ich": "rotierte",
+        "du": "rotiertest",
+        "er_sie_es": "rotierte",
+        "wir": "rotierten",
+        "ihr": "rotiertet",
+        "sie_Sie": "rotierten"
+      },
+      "imperativ": {
+        "du": "Rotiere!",
+        "ihr": "Rotiert!",
+        "Sie": "Rotieren Sie!"
+      }
+    },
+    "partizip1": "rotierend",
+    "nominalisierung": "die Rotation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "drehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چرخاندن",
+          "en": "to turn"
+        },
+        "id_ref": "verb_drehen"
+      },
+      {
+        "wort": "die Rotation",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "چرخش",
+          "en": "rotation"
+        },
+        "id_ref": "nomen_rotation"
+      },
+      {
+        "wort": "kreisen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دور زدن",
+          "en": "to circle"
+        },
+        "id_ref": "verb_kreisen"
+      },
+      {
+        "wort": "die Achse",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "محور",
+          "en": "axis"
+        },
+        "id_ref": "nomen_achse"
+      },
+      {
+        "wort": "der Stress",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "استرس",
+          "en": "stress"
+        },
+        "id_ref": "nomen_stress"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,211 @@
+{
+  "schema": "3.0",
+  "id": "verb_schimpfen",
+  "wort": "schimpfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دعوا کردن (سر کسی)",
+      "غر زدن",
+      "ناسزا گفتن"
+    ],
+    "en": [
+      "to scold",
+      "to grumble",
+      "to curse"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Gefühle",
+    "Kommunikation"
+  ],
+  "ipa": "ˈʃɪmpfn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Mutter schimpft mit dem Kind.",
+      "uebersetzung": {
+        "fa": "مادر سر بچه دعوا می‌کند.",
+        "en": "The mother is scolding the child."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Alle schimpfen über das Wetter, aber niemand kann etwas daran ändern.",
+      "uebersetzung": {
+        "fa": "همه از هوا غر می‌زنند، ولی هیچ‌کس نمی‌تواند چیزی را تغییر دهد.",
+        "en": "Everyone grumbles about the weather, but nobody can change anything about it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "tadeln",
+      "uebersetzung": {
+        "fa": "سرزنش کردن",
+        "en": "to scold"
+      }
+    },
+    {
+      "wort": "meckern",
+      "uebersetzung": {
+        "fa": "غر زدن",
+        "en": "to moan"
+      }
+    },
+    {
+      "wort": "fluchen",
+      "uebersetzung": {
+        "fa": "فحش دادن",
+        "en": "to curse"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "loben",
+      "uebersetzung": {
+        "fa": "تعریف کردن",
+        "en": "to praise"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "schimpfen mit + Dat",
+        "bedeutung": "jemanden laut tadeln",
+        "beispiel": "Der Trainer schimpfte mit den Spielern.",
+        "uebersetzung": {
+          "fa": "مربی سر بازیکنان داد زد.",
+          "en": "The coach told the players off."
+        }
+      },
+      {
+        "muster": "schimpfen über + Akk / auf + Akk",
+        "bedeutung": "sich laut über etwas beschweren",
+        "beispiel": "Er schimpft ständig auf die Regierung.",
+        "uebersetzung": {
+          "fa": "او مدام از دولت بد می‌گوید.",
+          "en": "He is constantly grumbling about the government."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schimpfen",
+      "praeteritum": "schimpfte",
+      "partizip2": "geschimpft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schimpfe",
+        "du": "schimpfst",
+        "er_sie_es": "schimpft",
+        "wir": "schimpfen",
+        "ihr": "schimpft",
+        "sie_Sie": "schimpfen"
+      },
+      "praeteritum": {
+        "ich": "schimpfte",
+        "du": "schimpftest",
+        "er_sie_es": "schimpfte",
+        "wir": "schimpften",
+        "ihr": "schimpftet",
+        "sie_Sie": "schimpften"
+      },
+      "konjunktiv1": {
+        "ich": "schimpfe",
+        "du": "schimpfest",
+        "er_sie_es": "schimpfe",
+        "wir": "schimpfen",
+        "ihr": "schimpfet",
+        "sie_Sie": "schimpfen"
+      },
+      "konjunktiv2": {
+        "ich": "schimpfte",
+        "du": "schimpftest",
+        "er_sie_es": "schimpfte",
+        "wir": "schimpften",
+        "ihr": "schimpftet",
+        "sie_Sie": "schimpften"
+      },
+      "imperativ": {
+        "du": "Schimpfe!",
+        "ihr": "Schimpft!",
+        "Sie": "Schimpfen Sie!"
+      }
+    },
+    "partizip1": "schimpfend",
+    "nominalisierung": "das Schimpfwort"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Schimpfwort",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ناسزا",
+          "en": "swear word"
+        },
+        "id_ref": "nomen_schimpfwort"
+      },
+      {
+        "wort": "meckern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "غر زدن",
+          "en": "to moan"
+        },
+        "id_ref": "verb_meckern"
+      },
+      {
+        "wort": "fluchen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فحش دادن",
+          "en": "to curse"
+        },
+        "id_ref": "verb_fluchen"
+      },
+      {
+        "wort": "loben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تعریف کردن",
+          "en": "to praise"
+        },
+        "id_ref": "verb_loben"
+      },
+      {
+        "wort": "böse",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عصبانی، بد",
+          "en": "angry, bad"
+        },
+        "id_ref": "adjektiv_boese"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_schaerfen",
+  "wort": "schärfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تیز کردن",
+      "تقویت کردن (حس، آگاهی)"
+    ],
+    "en": [
+      "to sharpen",
+      "to heighten"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Handwerk",
+    "Denken"
+  ],
+  "ipa": "ˈʃɛʁfn̩",
+  "anmerkung": null,
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Koch schärft das Messer.",
+      "uebersetzung": {
+        "fa": "آشپز چاقو را تیز می‌کند.",
+        "en": "The chef sharpens the knife."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Kampagne soll das Bewusstsein dafür schärfen, wie wichtig gesunde Ernährung ist.",
+      "uebersetzung": {
+        "fa": "این کارزار قرار است آگاهی درباره‌ی اهمیت تغذیه‌ی سالم را تقویت کند.",
+        "en": "The campaign is meant to heighten awareness of how important a healthy diet is."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schleifen",
+      "uebersetzung": {
+        "fa": "تیز کردن",
+        "en": "to grind"
+      }
+    },
+    {
+      "wort": "wetzen",
+      "uebersetzung": {
+        "fa": "تیز کردن",
+        "en": "to whet"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "scharf (تیز) + -en",
+    "en": "scharf (sharp) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas schärfen für + Akk",
+        "bedeutung": "das Bewusstsein für etwas stärken",
+        "beispiel": "Der Kurs schärft den Blick für Details.",
+        "uebersetzung": {
+          "fa": "این دوره نگاه را نسبت به جزئیات تیزبین‌تر می‌کند.",
+          "en": "The course sharpens one's eye for detail."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schärfen",
+      "praeteritum": "schärfte",
+      "partizip2": "geschärft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schärfe",
+        "du": "schärfst",
+        "er_sie_es": "schärft",
+        "wir": "schärfen",
+        "ihr": "schärft",
+        "sie_Sie": "schärfen"
+      },
+      "praeteritum": {
+        "ich": "schärfte",
+        "du": "schärftest",
+        "er_sie_es": "schärfte",
+        "wir": "schärften",
+        "ihr": "schärftet",
+        "sie_Sie": "schärften"
+      },
+      "konjunktiv1": {
+        "ich": "schärfe",
+        "du": "schärfest",
+        "er_sie_es": "schärfe",
+        "wir": "schärfen",
+        "ihr": "schärfet",
+        "sie_Sie": "schärfen"
+      },
+      "konjunktiv2": {
+        "ich": "schärfte",
+        "du": "schärftest",
+        "er_sie_es": "schärfte",
+        "wir": "schärften",
+        "ihr": "schärftet",
+        "sie_Sie": "schärften"
+      },
+      "imperativ": {
+        "du": "Schärfe!",
+        "ihr": "Schärft!",
+        "Sie": "Schärfen Sie!"
+      }
+    },
+    "partizip1": "schärfend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "scharf",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تیز، تند",
+          "en": "sharp, spicy"
+        },
+        "id_ref": "adjektiv_scharf"
+      },
+      {
+        "wort": "das Messer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چاقو",
+          "en": "knife"
+        },
+        "id_ref": "nomen_messer"
+      },
+      {
+        "wort": "schleifen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تیز کردن، ساییدن",
+          "en": "to grind"
+        },
+        "id_ref": "verb_schleifen"
+      },
+      {
+        "wort": "das Bewusstsein",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آگاهی",
+          "en": "awareness"
+        },
+        "id_ref": "nomen_bewusstsein"
+      },
+      {
+        "wort": "stumpf",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کند",
+          "en": "blunt"
+        },
+        "id_ref": "adjektiv_stumpf"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

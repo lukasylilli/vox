@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_schaedigen",
+  "wort": "schädigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آسیب زدن",
+      "زیان رساندن"
+    ],
+    "en": [
+      "to damage",
+      "to harm"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Umwelt"
+  ],
+  "ipa": "ˈʃɛːdɪɡn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Rauchen schädigt die Lunge.",
+      "uebersetzung": {
+        "fa": "سیگار به ریه آسیب می‌زند.",
+        "en": "Smoking damages the lungs."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Skandal hat den Ruf der Firma so stark geschädigt, dass viele Kunden abgesprungen sind.",
+      "uebersetzung": {
+        "fa": "این رسوایی آن‌قدر به آبروی شرکت آسیب زد که بسیاری از مشتری‌ها کنار کشیدند.",
+        "en": "The scandal damaged the company's reputation so badly that many customers dropped out."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schaden",
+      "uebersetzung": {
+        "fa": "ضرر زدن",
+        "en": "to harm"
+      }
+    },
+    {
+      "wort": "beeinträchtigen",
+      "uebersetzung": {
+        "fa": "مختل کردن",
+        "en": "to impair"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "nützen",
+      "uebersetzung": {
+        "fa": "سود رساندن",
+        "en": "to benefit"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Schaden (آسیب) + -igen",
+    "en": "Schaden (damage) + -igen"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "schädigen",
+      "praeteritum": "schädigte",
+      "partizip2": "geschädigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schädige",
+        "du": "schädigst",
+        "er_sie_es": "schädigt",
+        "wir": "schädigen",
+        "ihr": "schädigt",
+        "sie_Sie": "schädigen"
+      },
+      "praeteritum": {
+        "ich": "schädigte",
+        "du": "schädigtest",
+        "er_sie_es": "schädigte",
+        "wir": "schädigten",
+        "ihr": "schädigtet",
+        "sie_Sie": "schädigten"
+      },
+      "konjunktiv1": {
+        "ich": "schädige",
+        "du": "schädigest",
+        "er_sie_es": "schädige",
+        "wir": "schädigen",
+        "ihr": "schädiget",
+        "sie_Sie": "schädigen"
+      },
+      "konjunktiv2": {
+        "ich": "schädigte",
+        "du": "schädigtest",
+        "er_sie_es": "schädigte",
+        "wir": "schädigten",
+        "ihr": "schädigtet",
+        "sie_Sie": "schädigten"
+      },
+      "imperativ": {
+        "du": "Schädige!",
+        "ihr": "Schädigt!",
+        "Sie": "Schädigen Sie!"
+      }
+    },
+    "partizip1": "schädigend",
+    "nominalisierung": "die Schädigung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Schaden",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آسیب، خسارت",
+          "en": "damage"
+        },
+        "id_ref": "nomen_schaden"
+      },
+      {
+        "wort": "schädlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مضر",
+          "en": "harmful"
+        },
+        "id_ref": "adjektiv_schaedlich"
+      },
+      {
+        "wort": "schaden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ضرر زدن",
+          "en": "to harm"
+        },
+        "id_ref": "verb_schaden"
+      },
+      {
+        "wort": "beschädigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آسیب زدن",
+          "en": "to damage"
+        },
+        "id_ref": "verb_beschaedigen"
+      },
+      {
+        "wort": "die Gesundheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سلامتی",
+          "en": "health"
+        },
+        "id_ref": "nomen_gesundheit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

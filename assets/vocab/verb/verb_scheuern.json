@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_scheuern",
+  "wort": "scheuern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سابیدن",
+      "ساییدن",
+      "زخم کردن (با مالش)"
+    ],
+    "en": [
+      "to scrub",
+      "to scour",
+      "to chafe"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Haushalt",
+    "Körper"
+  ],
+  "ipa": "ˈʃɔɪ̯ɐn",
+  "anmerkung": "Umgangssprachlich: «jemandem eine scheuern» = jemanden ohrfeigen.",
+  "berufe": [
+    "reinigung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er scheuert den Boden.",
+      "uebersetzung": {
+        "fa": "او زمین را می‌ساید و تمیز می‌کند.",
+        "en": "He is scrubbing the floor."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die neuen Schuhe scheuern an der Ferse, deshalb habe ich jetzt eine Blase.",
+      "uebersetzung": {
+        "fa": "کفش‌های تازه پاشنه‌ام را زخم می‌کنند، برای همین حالا تاول زده‌ام.",
+        "en": "The new shoes are chafing my heel, so now I have a blister."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schrubben",
+      "uebersetzung": {
+        "fa": "سابیدن",
+        "en": "to scrub"
+      }
+    },
+    {
+      "wort": "reiben",
+      "uebersetzung": {
+        "fa": "مالیدن",
+        "en": "to rub"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "scheuern an + Dat",
+        "bedeutung": "an einer Stelle reiben und wund machen",
+        "beispiel": "Der Gurt scheuert am Hals.",
+        "uebersetzung": {
+          "fa": "کمربند به گردن ساییده می‌شود.",
+          "en": "The strap chafes the neck."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "scheuern",
+      "praeteritum": "scheuerte",
+      "partizip2": "gescheuert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "scheuere",
+        "du": "scheuerst",
+        "er_sie_es": "scheuert",
+        "wir": "scheuern",
+        "ihr": "scheuert",
+        "sie_Sie": "scheuern"
+      },
+      "praeteritum": {
+        "ich": "scheuerte",
+        "du": "scheuertest",
+        "er_sie_es": "scheuerte",
+        "wir": "scheuerten",
+        "ihr": "scheuertet",
+        "sie_Sie": "scheuerten"
+      },
+      "konjunktiv1": {
+        "ich": "scheuere",
+        "du": "scheuerest",
+        "er_sie_es": "scheuere",
+        "wir": "scheuern",
+        "ihr": "scheueret",
+        "sie_Sie": "scheuern"
+      },
+      "konjunktiv2": {
+        "ich": "scheuerte",
+        "du": "scheuertest",
+        "er_sie_es": "scheuerte",
+        "wir": "scheuerten",
+        "ihr": "scheuertet",
+        "sie_Sie": "scheuerten"
+      },
+      "imperativ": {
+        "du": "Scheuere!",
+        "ihr": "Scheuert!",
+        "Sie": "Scheuern Sie!"
+      }
+    },
+    "partizip1": "scheuernd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "schrubben",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سابیدن",
+          "en": "to scrub"
+        },
+        "id_ref": "verb_schrubben"
+      },
+      {
+        "wort": "putzen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تمیز کردن",
+          "en": "to clean"
+        },
+        "id_ref": "verb_putzen"
+      },
+      {
+        "wort": "reiben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مالیدن",
+          "en": "to rub"
+        },
+        "id_ref": "verb_reiben"
+      },
+      {
+        "wort": "die Blase",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تاول",
+          "en": "blister"
+        },
+        "id_ref": "nomen_blase"
+      },
+      {
+        "wort": "der Schwamm",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اسفنج",
+          "en": "sponge"
+        },
+        "id_ref": "nomen_schwamm"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

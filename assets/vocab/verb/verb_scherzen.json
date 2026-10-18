@@ -1,0 +1,196 @@
+{
+  "schema": "3.0",
+  "id": "verb_scherzen",
+  "wort": "scherzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شوخی کردن"
+    ],
+    "en": [
+      "to joke",
+      "to jest"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kommunikation",
+    "Humor"
+  ],
+  "ipa": "ˈʃɛʁt͡sn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er scherzt gern.",
+      "uebersetzung": {
+        "fa": "او شوخی کردن را دوست دارد.",
+        "en": "He likes to joke."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Mit der Gesundheit sollte man nicht scherzen, auch wenn die Symptome harmlos wirken.",
+      "uebersetzung": {
+        "fa": "با سلامتی نباید شوخی کرد، حتی اگر علائم بی‌خطر به نظر برسند.",
+        "en": "You should not joke about your health, even if the symptoms seem harmless."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "spaßen",
+      "uebersetzung": {
+        "fa": "شوخی کردن",
+        "en": "to joke"
+      }
+    },
+    {
+      "wort": "Witze machen",
+      "uebersetzung": {
+        "fa": "جوک گفتن",
+        "en": "to crack jokes"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Scherz (شوخی) + -en",
+    "en": "Scherz (joke) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "scherzen über + Akk",
+        "bedeutung": "Witze über etwas machen",
+        "beispiel": "Sie scherzten über ihren alten Lehrer.",
+        "uebersetzung": {
+          "fa": "آن‌ها درباره‌ی معلم قدیمی‌شان شوخی می‌کردند.",
+          "en": "They joked about their old teacher."
+        }
+      },
+      {
+        "muster": "mit + Dat scherzen",
+        "bedeutung": "mit jemandem Witze machen",
+        "beispiel": "Der Arzt scherzte mit dem kleinen Patienten.",
+        "uebersetzung": {
+          "fa": "دکتر با بیمار کوچک شوخی کرد.",
+          "en": "The doctor joked with the little patient."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "scherzen",
+      "praeteritum": "scherzte",
+      "partizip2": "gescherzt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "scherze",
+        "du": "scherzt",
+        "er_sie_es": "scherzt",
+        "wir": "scherzen",
+        "ihr": "scherzt",
+        "sie_Sie": "scherzen"
+      },
+      "praeteritum": {
+        "ich": "scherzte",
+        "du": "scherztest",
+        "er_sie_es": "scherzte",
+        "wir": "scherzten",
+        "ihr": "scherztet",
+        "sie_Sie": "scherzten"
+      },
+      "konjunktiv1": {
+        "ich": "scherze",
+        "du": "scherzest",
+        "er_sie_es": "scherze",
+        "wir": "scherzen",
+        "ihr": "scherzet",
+        "sie_Sie": "scherzen"
+      },
+      "konjunktiv2": {
+        "ich": "scherzte",
+        "du": "scherztest",
+        "er_sie_es": "scherzte",
+        "wir": "scherzten",
+        "ihr": "scherztet",
+        "sie_Sie": "scherzten"
+      },
+      "imperativ": {
+        "du": "Scherze!",
+        "ihr": "Scherzt!",
+        "Sie": "Scherzen Sie!"
+      }
+    },
+    "partizip1": "scherzend",
+    "nominalisierung": "der Scherz"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Scherz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شوخی",
+          "en": "joke"
+        },
+        "id_ref": "nomen_scherz"
+      },
+      {
+        "wort": "der Witz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جوک",
+          "en": "joke"
+        },
+        "id_ref": "nomen_witz"
+      },
+      {
+        "wort": "lachen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خندیدن",
+          "en": "to laugh"
+        },
+        "id_ref": "verb_lachen"
+      },
+      {
+        "wort": "lustig",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خنده‌دار",
+          "en": "funny"
+        },
+        "id_ref": "adjektiv_lustig"
+      },
+      {
+        "wort": "der Spaß",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تفریح، شوخی",
+          "en": "fun"
+        },
+        "id_ref": "nomen_spass"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

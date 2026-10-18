@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_runden",
+  "wort": "runden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گرد کردن (عدد)",
+      "گرد کردن (لبه)"
+    ],
+    "en": [
+      "to round (off)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Mathematik"
+  ],
+  "ipa": "ˈʁʊndn̩",
+  "anmerkung": null,
+  "berufe": [
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte runden Sie das Ergebnis.",
+      "uebersetzung": {
+        "fa": "لطفاً نتیجه را گرد کنید.",
+        "en": "Please round the result."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn man 4,7 auf eine ganze Zahl rundet, bekommt man fünf.",
+      "uebersetzung": {
+        "fa": "اگر ۴٫۷ را به یک عدد صحیح گرد کنیم، پنج به دست می‌آید.",
+        "en": "If you round 4.7 to a whole number, you get five."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufrunden",
+      "uebersetzung": {
+        "fa": "به بالا گرد کردن",
+        "en": "to round up"
+      }
+    },
+    {
+      "wort": "abrunden",
+      "uebersetzung": {
+        "fa": "به پایین گرد کردن",
+        "en": "to round down"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "rund (گرد) + -en",
+    "en": "rund (round) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "etwas runden auf + Akk",
+        "bedeutung": "eine Zahl auf einen bestimmten Wert bringen",
+        "beispiel": "Wir runden den Betrag auf zehn Euro.",
+        "uebersetzung": {
+          "fa": "مبلغ را به ده یورو گرد می‌کنیم.",
+          "en": "We round the amount to ten euros."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "runden",
+      "praeteritum": "rundete",
+      "partizip2": "gerundet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "runde",
+        "du": "rundest",
+        "er_sie_es": "rundet",
+        "wir": "runden",
+        "ihr": "rundet",
+        "sie_Sie": "runden"
+      },
+      "praeteritum": {
+        "ich": "rundete",
+        "du": "rundetest",
+        "er_sie_es": "rundete",
+        "wir": "rundeten",
+        "ihr": "rundetet",
+        "sie_Sie": "rundeten"
+      },
+      "konjunktiv1": {
+        "ich": "runde",
+        "du": "rundest",
+        "er_sie_es": "runde",
+        "wir": "runden",
+        "ihr": "rundet",
+        "sie_Sie": "runden"
+      },
+      "konjunktiv2": {
+        "ich": "rundete",
+        "du": "rundetest",
+        "er_sie_es": "rundete",
+        "wir": "rundeten",
+        "ihr": "rundetet",
+        "sie_Sie": "rundeten"
+      },
+      "imperativ": {
+        "du": "Runde!",
+        "ihr": "Rundet!",
+        "Sie": "Runden Sie!"
+      }
+    },
+    "partizip1": "rundend",
+    "nominalisierung": "die Rundung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "rund",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گرد",
+          "en": "round"
+        },
+        "id_ref": "adjektiv_rund"
+      },
+      {
+        "wort": "aufrunden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به بالا گرد کردن",
+          "en": "to round up"
+        },
+        "id_ref": "verb_aufrunden"
+      },
+      {
+        "wort": "abrunden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به پایین گرد کردن",
+          "en": "to round down"
+        },
+        "id_ref": "verb_abrunden"
+      },
+      {
+        "wort": "die Zahl",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عدد",
+          "en": "number"
+        },
+        "id_ref": "nomen_zahl"
+      },
+      {
+        "wort": "ungefähr",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تقریباً",
+          "en": "approximately"
+        },
+        "id_ref": "adverb_ungefaehr"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

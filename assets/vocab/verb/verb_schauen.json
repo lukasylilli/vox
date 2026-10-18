@@ -1,0 +1,203 @@
+{
+  "schema": "3.0",
+  "id": "verb_schauen",
+  "wort": "schauen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نگاه کردن",
+      "تماشا کردن",
+      "سر زدن"
+    ],
+    "en": [
+      "to look",
+      "to watch",
+      "to check"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Wahrnehmung"
+  ],
+  "ipa": "ˈʃaʊ̯ən",
+  "anmerkung": "Besonders süddeutsch, österreichisch und schweizerisch; norddeutsch eher «gucken» oder «sehen».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Schau mal!",
+      "uebersetzung": {
+        "fa": "نگاه کن!",
+        "en": "Look!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich schaue mal, ob noch Milch im Kühlschrank ist, bevor wir einkaufen gehen.",
+      "uebersetzung": {
+        "fa": "قبل از اینکه برویم خرید، یک نگاه می‌کنم ببینم هنوز شیر در یخچال هست یا نه.",
+        "en": "I'll check whether there is still milk in the fridge before we go shopping."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sehen",
+      "uebersetzung": {
+        "fa": "دیدن",
+        "en": "to see"
+      }
+    },
+    {
+      "wort": "gucken",
+      "uebersetzung": {
+        "fa": "نگاه کردن",
+        "en": "to look"
+      }
+    },
+    {
+      "wort": "blicken",
+      "uebersetzung": {
+        "fa": "نگریستن",
+        "en": "to glance"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "schauen auf + Akk",
+        "bedeutung": "den Blick auf etwas richten",
+        "beispiel": "Er schaut auf die Uhr.",
+        "uebersetzung": {
+          "fa": "او به ساعت نگاه می‌کند.",
+          "en": "He looks at the clock."
+        }
+      },
+      {
+        "muster": "nach + Dat schauen",
+        "bedeutung": "sich um jemanden oder etwas kümmern, nachsehen",
+        "beispiel": "Kannst du nach den Kindern schauen?",
+        "uebersetzung": {
+          "fa": "می‌توانی به بچه‌ها سر بزنی؟",
+          "en": "Can you look after the children?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schauen",
+      "praeteritum": "schaute",
+      "partizip2": "geschaut"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schaue",
+        "du": "schaust",
+        "er_sie_es": "schaut",
+        "wir": "schauen",
+        "ihr": "schaut",
+        "sie_Sie": "schauen"
+      },
+      "praeteritum": {
+        "ich": "schaute",
+        "du": "schautest",
+        "er_sie_es": "schaute",
+        "wir": "schauten",
+        "ihr": "schautet",
+        "sie_Sie": "schauten"
+      },
+      "konjunktiv1": {
+        "ich": "schaue",
+        "du": "schauest",
+        "er_sie_es": "schaue",
+        "wir": "schauen",
+        "ihr": "schauet",
+        "sie_Sie": "schauen"
+      },
+      "konjunktiv2": {
+        "ich": "schaute",
+        "du": "schautest",
+        "er_sie_es": "schaute",
+        "wir": "schauten",
+        "ihr": "schautet",
+        "sie_Sie": "schauten"
+      },
+      "imperativ": {
+        "du": "Schaue!",
+        "ihr": "Schaut!",
+        "Sie": "Schauen Sie!"
+      }
+    },
+    "partizip1": "schauend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "sehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دیدن",
+          "en": "to see"
+        },
+        "id_ref": "verb_sehen"
+      },
+      {
+        "wort": "anschauen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تماشا کردن",
+          "en": "to look at"
+        },
+        "id_ref": "verb_anschauen"
+      },
+      {
+        "wort": "der Blick",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نگاه",
+          "en": "look, view"
+        },
+        "id_ref": "nomen_blick"
+      },
+      {
+        "wort": "gucken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگاه کردن",
+          "en": "to look"
+        },
+        "id_ref": "verb_gucken"
+      },
+      {
+        "wort": "das Auge",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چشم",
+          "en": "eye"
+        },
+        "id_ref": "nomen_auge"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

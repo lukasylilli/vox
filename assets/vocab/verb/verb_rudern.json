@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "verb_rudern",
+  "wort": "rudern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پارو زدن",
+      "قایقرانی کردن"
+    ],
+    "en": [
+      "to row"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Sport",
+    "Freizeit"
+  ],
+  "ipa": "ˈʁuːdɐn",
+  "anmerkung": "Mit Richtungsangabe mit «sein» (wir sind über den See gerudert); ohne Richtungsangabe auch «haben».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir rudern über den See.",
+      "uebersetzung": {
+        "fa": "ما با قایق پارویی از دریاچه می‌گذریم.",
+        "en": "We are rowing across the lake."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Obwohl er müde war, ruderte er weiter, bis er das Ufer erreichte.",
+      "uebersetzung": {
+        "fa": "با اینکه خسته بود، به پارو زدن ادامه داد تا به ساحل رسید.",
+        "en": "Although he was tired, he kept rowing until he reached the shore."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "paddeln",
+      "uebersetzung": {
+        "fa": "پارو زدن",
+        "en": "to paddle"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Ruder (پارو، سکان) + -n",
+    "en": "Ruder (oar, rudder) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "rudern",
+      "praeteritum": "ruderte",
+      "partizip2": "gerudert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "rudere",
+        "du": "ruderst",
+        "er_sie_es": "rudert",
+        "wir": "rudern",
+        "ihr": "rudert",
+        "sie_Sie": "rudern"
+      },
+      "praeteritum": {
+        "ich": "ruderte",
+        "du": "rudertest",
+        "er_sie_es": "ruderte",
+        "wir": "ruderten",
+        "ihr": "rudertet",
+        "sie_Sie": "ruderten"
+      },
+      "konjunktiv1": {
+        "ich": "rudere",
+        "du": "ruderest",
+        "er_sie_es": "rudere",
+        "wir": "rudern",
+        "ihr": "ruderet",
+        "sie_Sie": "rudern"
+      },
+      "konjunktiv2": {
+        "ich": "ruderte",
+        "du": "rudertest",
+        "er_sie_es": "ruderte",
+        "wir": "ruderten",
+        "ihr": "rudertet",
+        "sie_Sie": "ruderten"
+      },
+      "imperativ": {
+        "du": "Rudere!",
+        "ihr": "Rudert!",
+        "Sie": "Rudern Sie!"
+      }
+    },
+    "partizip1": "rudernd",
+    "nominalisierung": "das Rudern"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Ruder",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پارو، سکان",
+          "en": "oar, rudder"
+        },
+        "id_ref": "nomen_ruder"
+      },
+      {
+        "wort": "das Boot",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قایق",
+          "en": "boat"
+        },
+        "id_ref": "nomen_boot"
+      },
+      {
+        "wort": "paddeln",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پارو زدن",
+          "en": "to paddle"
+        },
+        "id_ref": "verb_paddeln"
+      },
+      {
+        "wort": "der See",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دریاچه",
+          "en": "lake"
+        },
+        "id_ref": "nomen_see"
+      },
+      {
+        "wort": "das Ufer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ساحل",
+          "en": "shore"
+        },
+        "id_ref": "nomen_ufer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

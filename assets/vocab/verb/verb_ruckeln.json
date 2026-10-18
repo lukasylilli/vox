@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_ruckeln",
+  "wort": "ruckeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تکان‌تکان خوردن",
+      "قطع و وصل شدن (تصویر)"
+    ],
+    "en": [
+      "to jolt",
+      "to judder",
+      "to stutter (video)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Technik",
+    "Verkehr"
+  ],
+  "ipa": "ˈʁʊkl̩n",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Video ruckelt.",
+      "uebersetzung": {
+        "fa": "ویدیو قطع و وصل می‌شود.",
+        "en": "The video is stuttering."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der alte Bus ruckelte so stark über die Schotterstraße, dass mir übel wurde.",
+      "uebersetzung": {
+        "fa": "اتوبوس قدیمی آن‌قدر روی جاده‌ی شنی تکان می‌خورد که حالم بد شد.",
+        "en": "The old bus juddered so badly over the gravel road that I felt sick."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rütteln",
+      "uebersetzung": {
+        "fa": "تکان دادن",
+        "en": "to shake"
+      }
+    },
+    {
+      "wort": "holpern",
+      "uebersetzung": {
+        "fa": "تکان‌تکان خوردن",
+        "en": "to jolt"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Ruck (تکان ناگهانی) + -eln",
+    "en": "Ruck (jolt) + -eln"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "ruckeln an + Dat",
+        "bedeutung": "mehrmals kurz an etwas ziehen",
+        "beispiel": "Er ruckelt an der Tür, aber sie geht nicht auf.",
+        "uebersetzung": {
+          "fa": "او چند بار در را تکان می‌دهد، ولی باز نمی‌شود.",
+          "en": "He jiggles the door, but it won't open."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ruckeln",
+      "praeteritum": "ruckelte",
+      "partizip2": "geruckelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ruckle",
+        "du": "ruckelst",
+        "er_sie_es": "ruckelt",
+        "wir": "ruckeln",
+        "ihr": "ruckelt",
+        "sie_Sie": "ruckeln"
+      },
+      "praeteritum": {
+        "ich": "ruckelte",
+        "du": "ruckeltest",
+        "er_sie_es": "ruckelte",
+        "wir": "ruckelten",
+        "ihr": "ruckeltet",
+        "sie_Sie": "ruckelten"
+      },
+      "konjunktiv1": {
+        "ich": "ruckle",
+        "du": "rucklest",
+        "er_sie_es": "ruckle",
+        "wir": "ruckeln",
+        "ihr": "rucklet",
+        "sie_Sie": "ruckeln"
+      },
+      "konjunktiv2": {
+        "ich": "ruckelte",
+        "du": "ruckeltest",
+        "er_sie_es": "ruckelte",
+        "wir": "ruckelten",
+        "ihr": "ruckeltet",
+        "sie_Sie": "ruckelten"
+      },
+      "imperativ": null
+    },
+    "partizip1": "ruckelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Ruck",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تکان ناگهانی",
+          "en": "jolt"
+        },
+        "id_ref": "nomen_ruck"
+      },
+      {
+        "wort": "rütteln",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تکان دادن",
+          "en": "to shake"
+        },
+        "id_ref": "verb_ruetteln"
+      },
+      {
+        "wort": "wackeln",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لق بودن",
+          "en": "to wobble"
+        },
+        "id_ref": "verb_wackeln"
+      },
+      {
+        "wort": "das Video",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ویدیو",
+          "en": "video"
+        },
+        "id_ref": "nomen_video"
+      },
+      {
+        "wort": "das Internet",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اینترنت",
+          "en": "internet"
+        },
+        "id_ref": "nomen_internet"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

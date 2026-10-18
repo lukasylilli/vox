@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_schaufeln",
+  "wort": "schaufeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بیل زدن",
+      "با بیل جابه‌جا کردن"
+    ],
+    "en": [
+      "to shovel",
+      "to dig"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Garten",
+    "Bau"
+  ],
+  "ipa": "ˈʃaʊ̯fl̩n",
+  "anmerkung": null,
+  "berufe": [
+    "bau"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er schaufelt Schnee.",
+      "uebersetzung": {
+        "fa": "او برف پارو می‌کند.",
+        "en": "He is shovelling snow."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Kinder schaufelten am Strand ein tiefes Loch, bis Wasser hineinlief.",
+      "uebersetzung": {
+        "fa": "بچه‌ها در ساحل یک گودال عمیق کندند تا اینکه آب داخلش راه افتاد.",
+        "en": "The children dug a deep hole on the beach until water ran into it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "graben",
+      "uebersetzung": {
+        "fa": "کندن",
+        "en": "to dig"
+      }
+    },
+    {
+      "wort": "schippen",
+      "uebersetzung": {
+        "fa": "بیل زدن",
+        "en": "to shovel"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Schaufel (بیل) + -n",
+    "en": "Schaufel (shovel) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "schaufeln",
+      "praeteritum": "schaufelte",
+      "partizip2": "geschaufelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schaufle",
+        "du": "schaufelst",
+        "er_sie_es": "schaufelt",
+        "wir": "schaufeln",
+        "ihr": "schaufelt",
+        "sie_Sie": "schaufeln"
+      },
+      "praeteritum": {
+        "ich": "schaufelte",
+        "du": "schaufeltest",
+        "er_sie_es": "schaufelte",
+        "wir": "schaufelten",
+        "ihr": "schaufeltet",
+        "sie_Sie": "schaufelten"
+      },
+      "konjunktiv1": {
+        "ich": "schaufle",
+        "du": "schauflest",
+        "er_sie_es": "schaufle",
+        "wir": "schaufeln",
+        "ihr": "schauflet",
+        "sie_Sie": "schaufeln"
+      },
+      "konjunktiv2": {
+        "ich": "schaufelte",
+        "du": "schaufeltest",
+        "er_sie_es": "schaufelte",
+        "wir": "schaufelten",
+        "ihr": "schaufeltet",
+        "sie_Sie": "schaufelten"
+      },
+      "imperativ": {
+        "du": "Schaufle!",
+        "ihr": "Schaufelt!",
+        "Sie": "Schaufeln Sie!"
+      }
+    },
+    "partizip1": "schaufelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Schaufel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیل",
+          "en": "shovel"
+        },
+        "id_ref": "nomen_schaufel"
+      },
+      {
+        "wort": "graben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کندن",
+          "en": "to dig"
+        },
+        "id_ref": "verb_graben"
+      },
+      {
+        "wort": "der Schnee",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "برف",
+          "en": "snow"
+        },
+        "id_ref": "nomen_schnee"
+      },
+      {
+        "wort": "das Loch",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گودال",
+          "en": "hole"
+        },
+        "id_ref": "nomen_loch"
+      },
+      {
+        "wort": "die Erde",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خاک",
+          "en": "soil"
+        },
+        "id_ref": "nomen_erde"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

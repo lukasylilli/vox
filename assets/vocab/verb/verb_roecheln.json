@@ -1,0 +1,169 @@
+{
+  "schema": "3.0",
+  "id": "verb_roecheln",
+  "wort": "röcheln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خرخر کردن (هنگام نفس کشیدن)"
+    ],
+    "en": [
+      "to wheeze",
+      "to rattle (when breathing)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Körper"
+  ],
+  "ipa": "ˈʁœçl̩n",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Patient röchelt.",
+      "uebersetzung": {
+        "fa": "بیمار هنگام نفس کشیدن خرخر می‌کند.",
+        "en": "The patient is wheezing."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil der Mann laut röchelte und kaum Luft bekam, rief die Pflegerin sofort den Arzt.",
+      "uebersetzung": {
+        "fa": "چون مرد بلند خرخر می‌کرد و به‌سختی نفس می‌کشید، پرستار فوراً پزشک را صدا زد.",
+        "en": "Because the man was wheezing loudly and could hardly breathe, the nurse called the doctor immediately."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "keuchen",
+      "uebersetzung": {
+        "fa": "نفس‌نفس زدن",
+        "en": "to pant"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "röcheln",
+      "praeteritum": "röchelte",
+      "partizip2": "geröchelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "röchle",
+        "du": "röchelst",
+        "er_sie_es": "röchelt",
+        "wir": "röcheln",
+        "ihr": "röchelt",
+        "sie_Sie": "röcheln"
+      },
+      "praeteritum": {
+        "ich": "röchelte",
+        "du": "röcheltest",
+        "er_sie_es": "röchelte",
+        "wir": "röchelten",
+        "ihr": "röcheltet",
+        "sie_Sie": "röchelten"
+      },
+      "konjunktiv1": {
+        "ich": "röchle",
+        "du": "röchlest",
+        "er_sie_es": "röchle",
+        "wir": "röcheln",
+        "ihr": "röchlet",
+        "sie_Sie": "röcheln"
+      },
+      "konjunktiv2": {
+        "ich": "röchelte",
+        "du": "röcheltest",
+        "er_sie_es": "röchelte",
+        "wir": "röchelten",
+        "ihr": "röcheltet",
+        "sie_Sie": "röchelten"
+      },
+      "imperativ": {
+        "du": "Röchle!",
+        "ihr": "Röchelt!",
+        "Sie": "Röcheln Sie!"
+      }
+    },
+    "partizip1": "röchelnd",
+    "nominalisierung": "das Röcheln"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "atmen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نفس کشیدن",
+          "en": "to breathe"
+        },
+        "id_ref": "verb_atmen"
+      },
+      {
+        "wort": "keuchen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نفس‌نفس زدن",
+          "en": "to pant"
+        },
+        "id_ref": "verb_keuchen"
+      },
+      {
+        "wort": "die Atemnot",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تنگی نفس",
+          "en": "shortness of breath"
+        },
+        "id_ref": "nomen_atemnot"
+      },
+      {
+        "wort": "husten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سرفه کردن",
+          "en": "to cough"
+        },
+        "id_ref": "verb_husten"
+      },
+      {
+        "wort": "die Lunge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ریه",
+          "en": "lung"
+        },
+        "id_ref": "nomen_lunge"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

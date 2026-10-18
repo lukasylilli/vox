@@ -1,0 +1,198 @@
+{
+  "schema": "3.0",
+  "id": "verb_schleppen",
+  "wort": "schleppen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به‌زحمت کشیدن",
+      "یدک کشیدن",
+      "به‌زحمت راه رفتن"
+    ],
+    "en": [
+      "to drag",
+      "to lug",
+      "to tow"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Verkehr"
+  ],
+  "ipa": "ˈʃlɛpn̩",
+  "anmerkung": null,
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich schleppe die schweren Taschen nach Hause.",
+      "uebersetzung": {
+        "fa": "کیف‌های سنگین را به‌زحمت تا خانه می‌کشم.",
+        "en": "I am lugging the heavy bags home."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil das Auto nicht mehr ansprang, wurde es in die Werkstatt geschleppt.",
+      "uebersetzung": {
+        "fa": "چون ماشین دیگر روشن نمی‌شد، آن را تا تعمیرگاه یدک کشیدند.",
+        "en": "Because the car would no longer start, it was towed to the garage."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "tragen",
+      "uebersetzung": {
+        "fa": "حمل کردن",
+        "en": "to carry"
+      }
+    },
+    {
+      "wort": "ziehen",
+      "uebersetzung": {
+        "fa": "کشیدن",
+        "en": "to pull"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich schleppen zu + Dat / in + Akk",
+        "bedeutung": "sich mühsam irgendwohin bewegen",
+        "beispiel": "Er schleppte sich müde ins Bett.",
+        "uebersetzung": {
+          "fa": "او خسته خودش را به تخت رساند.",
+          "en": "He dragged himself wearily to bed."
+        }
+      },
+      {
+        "muster": "jdn. schleppen in + Akk",
+        "bedeutung": "jemanden irgendwohin mitnehmen (umgangssprachlich)",
+        "beispiel": "Sie hat mich ins Museum geschleppt.",
+        "uebersetzung": {
+          "fa": "او مرا به‌زور به موزه برد.",
+          "en": "She dragged me to the museum."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schleppen",
+      "praeteritum": "schleppte",
+      "partizip2": "geschleppt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schleppe",
+        "du": "schleppst",
+        "er_sie_es": "schleppt",
+        "wir": "schleppen",
+        "ihr": "schleppt",
+        "sie_Sie": "schleppen"
+      },
+      "praeteritum": {
+        "ich": "schleppte",
+        "du": "schlepptest",
+        "er_sie_es": "schleppte",
+        "wir": "schleppten",
+        "ihr": "schlepptet",
+        "sie_Sie": "schleppten"
+      },
+      "konjunktiv1": {
+        "ich": "schleppe",
+        "du": "schleppest",
+        "er_sie_es": "schleppe",
+        "wir": "schleppen",
+        "ihr": "schleppet",
+        "sie_Sie": "schleppen"
+      },
+      "konjunktiv2": {
+        "ich": "schleppte",
+        "du": "schlepptest",
+        "er_sie_es": "schleppte",
+        "wir": "schleppten",
+        "ihr": "schlepptet",
+        "sie_Sie": "schleppten"
+      },
+      "imperativ": {
+        "du": "Schleppe!",
+        "ihr": "Schleppt!",
+        "Sie": "Schleppen Sie!"
+      }
+    },
+    "partizip1": "schleppend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "tragen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حمل کردن",
+          "en": "to carry"
+        },
+        "id_ref": "verb_tragen"
+      },
+      {
+        "wort": "abschleppen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "یدک کشیدن",
+          "en": "to tow away"
+        },
+        "id_ref": "verb_abschleppen"
+      },
+      {
+        "wort": "schwer",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سنگین",
+          "en": "heavy"
+        },
+        "id_ref": "adjektiv_schwer"
+      },
+      {
+        "wort": "ziehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کشیدن",
+          "en": "to pull"
+        },
+        "id_ref": "verb_ziehen"
+      },
+      {
+        "wort": "der Schlepper",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "یدک‌کش، قاچاقچی انسان",
+          "en": "tug, people smuggler"
+        },
+        "id_ref": "nomen_schlepper"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_schalten",
+  "wort": "schalten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "روشن یا خاموش کردن",
+      "دنده عوض کردن",
+      "سریع فهمیدن (محاوره)"
+    ],
+    "en": [
+      "to switch",
+      "to change gear",
+      "to catch on (colloquial)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Technik",
+    "Verkehr"
+  ],
+  "ipa": "ˈʃaltn̩",
+  "anmerkung": null,
+  "berufe": [
+    "technik",
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Schalte bitte das Licht aus!",
+      "uebersetzung": {
+        "fa": "لطفاً چراغ را خاموش کن!",
+        "en": "Please switch off the light!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Beim Bergauffahren muss man rechtzeitig in einen kleineren Gang schalten.",
+      "uebersetzung": {
+        "fa": "هنگام رانندگی در سربالایی باید به موقع دنده را پایین کشید.",
+        "en": "When driving uphill, you have to change down to a lower gear in good time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "umschalten",
+      "uebersetzung": {
+        "fa": "عوض کردن (کانال، حالت)",
+        "en": "to switch over"
+      }
+    },
+    {
+      "wort": "einschalten",
+      "uebersetzung": {
+        "fa": "روشن کردن",
+        "en": "to switch on"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in + Akk schalten",
+        "bedeutung": "in einen Gang oder Modus wechseln",
+        "beispiel": "Er schaltet in den dritten Gang.",
+        "uebersetzung": {
+          "fa": "او دنده سه را می‌گذارد.",
+          "en": "He shifts into third gear."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schalten",
+      "praeteritum": "schaltete",
+      "partizip2": "geschaltet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schalte",
+        "du": "schaltest",
+        "er_sie_es": "schaltet",
+        "wir": "schalten",
+        "ihr": "schaltet",
+        "sie_Sie": "schalten"
+      },
+      "praeteritum": {
+        "ich": "schaltete",
+        "du": "schaltetest",
+        "er_sie_es": "schaltete",
+        "wir": "schalteten",
+        "ihr": "schaltetet",
+        "sie_Sie": "schalteten"
+      },
+      "konjunktiv1": {
+        "ich": "schalte",
+        "du": "schaltest",
+        "er_sie_es": "schalte",
+        "wir": "schalten",
+        "ihr": "schaltet",
+        "sie_Sie": "schalten"
+      },
+      "konjunktiv2": {
+        "ich": "schaltete",
+        "du": "schaltetest",
+        "er_sie_es": "schaltete",
+        "wir": "schalteten",
+        "ihr": "schaltetet",
+        "sie_Sie": "schalteten"
+      },
+      "imperativ": {
+        "du": "Schalte!",
+        "ihr": "Schaltet!",
+        "Sie": "Schalten Sie!"
+      }
+    },
+    "partizip1": "schaltend",
+    "nominalisierung": "die Schaltung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "einschalten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "روشن کردن",
+          "en": "to switch on"
+        },
+        "id_ref": "verb_einschalten"
+      },
+      {
+        "wort": "ausschalten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خاموش کردن",
+          "en": "to switch off"
+        },
+        "id_ref": "verb_ausschalten"
+      },
+      {
+        "wort": "der Schalter",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کلید برق، باجه",
+          "en": "switch, counter"
+        },
+        "id_ref": "nomen_schalter"
+      },
+      {
+        "wort": "der Gang",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دنده، راهرو",
+          "en": "gear, corridor"
+        },
+        "id_ref": "nomen_gang"
+      },
+      {
+        "wort": "umschalten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عوض کردن",
+          "en": "to switch over"
+        },
+        "id_ref": "verb_umschalten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

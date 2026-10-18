@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_schlichten",
+  "wort": "schlichten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "میانجی‌گری کردن",
+      "فیصله دادن (دعوا)"
+    ],
+    "en": [
+      "to settle",
+      "to mediate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Konflikt",
+    "Arbeit"
+  ],
+  "ipa": "ˈʃlɪçtn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie schlichtet den Streit.",
+      "uebersetzung": {
+        "fa": "او دعوا را فیصله می‌دهد.",
+        "en": "She settles the argument."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ein neutraler Vermittler soll den Konflikt zwischen der Gewerkschaft und den Arbeitgebern schlichten.",
+      "uebersetzung": {
+        "fa": "قرار است یک میانجی بی‌طرف درگیری میان اتحادیه و کارفرمایان را فیصله دهد.",
+        "en": "A neutral mediator is to settle the conflict between the union and the employers."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vermitteln",
+      "uebersetzung": {
+        "fa": "میانجی‌گری کردن",
+        "en": "to mediate"
+      }
+    },
+    {
+      "wort": "beilegen",
+      "uebersetzung": {
+        "fa": "حل‌وفصل کردن",
+        "en": "to settle"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "anheizen",
+      "uebersetzung": {
+        "fa": "شعله‌ور کردن",
+        "en": "to fuel"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "schlicht (ساده، صاف) + -en",
+    "en": "schlicht (plain, smooth) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "schlichten",
+      "praeteritum": "schlichtete",
+      "partizip2": "geschlichtet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schlichte",
+        "du": "schlichtest",
+        "er_sie_es": "schlichtet",
+        "wir": "schlichten",
+        "ihr": "schlichtet",
+        "sie_Sie": "schlichten"
+      },
+      "praeteritum": {
+        "ich": "schlichtete",
+        "du": "schlichtetest",
+        "er_sie_es": "schlichtete",
+        "wir": "schlichteten",
+        "ihr": "schlichtetet",
+        "sie_Sie": "schlichteten"
+      },
+      "konjunktiv1": {
+        "ich": "schlichte",
+        "du": "schlichtest",
+        "er_sie_es": "schlichte",
+        "wir": "schlichten",
+        "ihr": "schlichtet",
+        "sie_Sie": "schlichten"
+      },
+      "konjunktiv2": {
+        "ich": "schlichtete",
+        "du": "schlichtetest",
+        "er_sie_es": "schlichtete",
+        "wir": "schlichteten",
+        "ihr": "schlichtetet",
+        "sie_Sie": "schlichteten"
+      },
+      "imperativ": {
+        "du": "Schlichte!",
+        "ihr": "Schlichtet!",
+        "Sie": "Schlichten Sie!"
+      }
+    },
+    "partizip1": "schlichtend",
+    "nominalisierung": "die Schlichtung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Streit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دعوا",
+          "en": "argument"
+        },
+        "id_ref": "nomen_streit"
+      },
+      {
+        "wort": "vermitteln",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "میانجی‌گری کردن",
+          "en": "to mediate"
+        },
+        "id_ref": "verb_vermitteln"
+      },
+      {
+        "wort": "der Schlichter",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "داور، میانجی",
+          "en": "arbitrator"
+        },
+        "id_ref": "nomen_schlichter"
+      },
+      {
+        "wort": "der Konflikt",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "درگیری",
+          "en": "conflict"
+        },
+        "id_ref": "nomen_konflikt"
+      },
+      {
+        "wort": "der Kompromiss",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سازش",
+          "en": "compromise"
+        },
+        "id_ref": "nomen_kompromiss"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

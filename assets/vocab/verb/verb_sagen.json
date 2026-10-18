@@ -1,0 +1,216 @@
+{
+  "schema": "3.0",
+  "id": "verb_sagen",
+  "wort": "sagen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گفتن"
+    ],
+    "en": [
+      "to say",
+      "to tell"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "ˈzaːɡn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Was sagst du?",
+      "uebersetzung": {
+        "fa": "چه می‌گویی؟",
+        "en": "What are you saying?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Sie hat mir gesagt, dass sie heute später kommt, weil der Zug Verspätung hat.",
+      "uebersetzung": {
+        "fa": "او به من گفت که امروز دیرتر می‌آید، چون قطار تأخیر دارد.",
+        "en": "She told me that she will come later today because the train is delayed."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sprechen",
+      "uebersetzung": {
+        "fa": "صحبت کردن",
+        "en": "to speak"
+      }
+    },
+    {
+      "wort": "äußern",
+      "uebersetzung": {
+        "fa": "بیان کردن",
+        "en": "to express"
+      }
+    },
+    {
+      "wort": "mitteilen",
+      "uebersetzung": {
+        "fa": "اطلاع دادن",
+        "en": "to inform"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "schweigen",
+      "uebersetzung": {
+        "fa": "سکوت کردن",
+        "en": "to be silent"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jdm. etwas sagen",
+        "bedeutung": "jemandem etwas mitteilen",
+        "beispiel": "Kannst du mir die Uhrzeit sagen?",
+        "uebersetzung": {
+          "fa": "می‌توانی ساعت را به من بگویی؟",
+          "en": "Can you tell me the time?"
+        }
+      },
+      {
+        "muster": "etwas sagen zu + Dat",
+        "bedeutung": "eine Meinung zu etwas äußern",
+        "beispiel": "Was sagst du zu meinem neuen Haarschnitt?",
+        "uebersetzung": {
+          "fa": "نظرت درباره‌ی مدل موی جدیدم چیست؟",
+          "en": "What do you think of my new haircut?"
+        }
+      },
+      {
+        "muster": "etwas sagen über + Akk",
+        "bedeutung": "sich über jemanden oder etwas äußern",
+        "beispiel": "Er sagt nur Gutes über seine Kollegen.",
+        "uebersetzung": {
+          "fa": "او درباره‌ی همکارانش فقط خوب می‌گوید.",
+          "en": "He only says good things about his colleagues."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "sagen",
+      "praeteritum": "sagte",
+      "partizip2": "gesagt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "sage",
+        "du": "sagst",
+        "er_sie_es": "sagt",
+        "wir": "sagen",
+        "ihr": "sagt",
+        "sie_Sie": "sagen"
+      },
+      "praeteritum": {
+        "ich": "sagte",
+        "du": "sagtest",
+        "er_sie_es": "sagte",
+        "wir": "sagten",
+        "ihr": "sagtet",
+        "sie_Sie": "sagten"
+      },
+      "konjunktiv1": {
+        "ich": "sage",
+        "du": "sagest",
+        "er_sie_es": "sage",
+        "wir": "sagen",
+        "ihr": "saget",
+        "sie_Sie": "sagen"
+      },
+      "konjunktiv2": {
+        "ich": "sagte",
+        "du": "sagtest",
+        "er_sie_es": "sagte",
+        "wir": "sagten",
+        "ihr": "sagtet",
+        "sie_Sie": "sagten"
+      },
+      "imperativ": {
+        "du": "Sage!",
+        "ihr": "Sagt!",
+        "Sie": "Sagen Sie!"
+      }
+    },
+    "partizip1": "sagend",
+    "nominalisierung": "das Sagen"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "sprechen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "صحبت کردن",
+          "en": "to speak"
+        },
+        "id_ref": "verb_sprechen"
+      },
+      {
+        "wort": "erzählen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تعریف کردن",
+          "en": "to tell"
+        },
+        "id_ref": "verb_erzaehlen"
+      },
+      {
+        "wort": "der Satz",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جمله",
+          "en": "sentence"
+        },
+        "id_ref": "nomen_satz"
+      },
+      {
+        "wort": "die Aussage",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اظهارنظر",
+          "en": "statement"
+        },
+        "id_ref": "nomen_aussage"
+      },
+      {
+        "wort": "fragen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرسیدن",
+          "en": "to ask"
+        },
+        "id_ref": "verb_fragen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

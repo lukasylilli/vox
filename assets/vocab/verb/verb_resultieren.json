@@ -1,0 +1,193 @@
+{
+  "schema": "3.0",
+  "id": "verb_resultieren",
+  "wort": "resultieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نتیجه شدن",
+      "ناشی شدن"
+    ],
+    "en": [
+      "to result",
+      "to stem from"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Wissenschaft",
+    "Denken"
+  ],
+  "ipa": "ʁezʊlˈtiːʁən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Daraus resultieren Probleme.",
+      "uebersetzung": {
+        "fa": "از این، مشکلاتی ناشی می‌شود.",
+        "en": "Problems result from this."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die hohen Kosten resultieren vor allem daraus, dass die Energiepreise gestiegen sind.",
+      "uebersetzung": {
+        "fa": "هزینه‌های بالا بیش از همه از این ناشی می‌شود که قیمت انرژی بالا رفته است.",
+        "en": "The high costs result above all from the fact that energy prices have risen."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich ergeben",
+      "uebersetzung": {
+        "fa": "نتیجه شدن",
+        "en": "to result"
+      }
+    },
+    {
+      "wort": "folgen",
+      "uebersetzung": {
+        "fa": "نتیجه گرفته شدن",
+        "en": "to follow"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Resultat (نتیجه) + -ieren",
+    "en": "Resultat (result) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "resultieren aus + Dat",
+        "bedeutung": "die Folge von etwas sein",
+        "beispiel": "Der Unfall resultierte aus einem technischen Fehler.",
+        "uebersetzung": {
+          "fa": "تصادف از یک نقص فنی ناشی شد.",
+          "en": "The accident resulted from a technical fault."
+        }
+      },
+      {
+        "muster": "resultieren in + Dat",
+        "bedeutung": "zu einem Ergebnis führen",
+        "beispiel": "Der Streit resultierte in einer Trennung.",
+        "uebersetzung": {
+          "fa": "این دعوا به جدایی انجامید.",
+          "en": "The argument resulted in a separation."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "resultieren",
+      "praeteritum": "resultierte",
+      "partizip2": "resultiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "resultiere",
+        "du": "resultierst",
+        "er_sie_es": "resultiert",
+        "wir": "resultieren",
+        "ihr": "resultiert",
+        "sie_Sie": "resultieren"
+      },
+      "praeteritum": {
+        "ich": "resultierte",
+        "du": "resultiertest",
+        "er_sie_es": "resultierte",
+        "wir": "resultierten",
+        "ihr": "resultiertet",
+        "sie_Sie": "resultierten"
+      },
+      "konjunktiv1": {
+        "ich": "resultiere",
+        "du": "resultierest",
+        "er_sie_es": "resultiere",
+        "wir": "resultieren",
+        "ihr": "resultieret",
+        "sie_Sie": "resultieren"
+      },
+      "konjunktiv2": {
+        "ich": "resultierte",
+        "du": "resultiertest",
+        "er_sie_es": "resultierte",
+        "wir": "resultierten",
+        "ihr": "resultiertet",
+        "sie_Sie": "resultierten"
+      },
+      "imperativ": null
+    },
+    "partizip1": "resultierend",
+    "nominalisierung": "das Resultat"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Resultat",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نتیجه",
+          "en": "result"
+        },
+        "id_ref": "nomen_resultat"
+      },
+      {
+        "wort": "das Ergebnis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نتیجه",
+          "en": "result"
+        },
+        "id_ref": "nomen_ergebnis"
+      },
+      {
+        "wort": "die Folge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیامد",
+          "en": "consequence"
+        },
+        "id_ref": "nomen_folge"
+      },
+      {
+        "wort": "die Ursache",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "علت",
+          "en": "cause"
+        },
+        "id_ref": "nomen_ursache"
+      },
+      {
+        "wort": "entstehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پدید آمدن",
+          "en": "to arise"
+        },
+        "id_ref": "verb_entstehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

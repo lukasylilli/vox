@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_residieren",
+  "wort": "residieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اقامت داشتن (رسمی)",
+      "مقیم بودن"
+    ],
+    "en": [
+      "to reside"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Politik",
+    "Wohnen"
+  ],
+  "ipa": "ʁeziˈdiːʁən",
+  "anmerkung": "Gehoben; besonders von Herrschern, Botschaftern oder Firmen.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der König residiert im Schloss.",
+      "uebersetzung": {
+        "fa": "پادشاه در قصر اقامت دارد.",
+        "en": "The king resides in the palace."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Firma residiert seit Jahren in einem Hochhaus, das direkt am Bahnhof steht.",
+      "uebersetzung": {
+        "fa": "این شرکت سال‌هاست در برجی مستقر است که درست کنار ایستگاه قطار قرار دارد.",
+        "en": "The company has been based for years in a high-rise right next to the station."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wohnen",
+      "uebersetzung": {
+        "fa": "سکونت داشتن",
+        "en": "to live"
+      }
+    },
+    {
+      "wort": "seinen Sitz haben",
+      "uebersetzung": {
+        "fa": "مستقر بودن",
+        "en": "to be based"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین residere (نشستن، ماندن)",
+    "en": "from Latin residere (to sit, to remain)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "residieren",
+      "praeteritum": "residierte",
+      "partizip2": "residiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "residiere",
+        "du": "residierst",
+        "er_sie_es": "residiert",
+        "wir": "residieren",
+        "ihr": "residiert",
+        "sie_Sie": "residieren"
+      },
+      "praeteritum": {
+        "ich": "residierte",
+        "du": "residiertest",
+        "er_sie_es": "residierte",
+        "wir": "residierten",
+        "ihr": "residiertet",
+        "sie_Sie": "residierten"
+      },
+      "konjunktiv1": {
+        "ich": "residiere",
+        "du": "residierest",
+        "er_sie_es": "residiere",
+        "wir": "residieren",
+        "ihr": "residieret",
+        "sie_Sie": "residieren"
+      },
+      "konjunktiv2": {
+        "ich": "residierte",
+        "du": "residiertest",
+        "er_sie_es": "residierte",
+        "wir": "residierten",
+        "ihr": "residiertet",
+        "sie_Sie": "residierten"
+      },
+      "imperativ": {
+        "du": "Residiere!",
+        "ihr": "Residiert!",
+        "Sie": "Residieren Sie!"
+      }
+    },
+    "partizip1": "residierend",
+    "nominalisierung": "die Residenz"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Residenz",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اقامتگاه",
+          "en": "residence"
+        },
+        "id_ref": "nomen_residenz"
+      },
+      {
+        "wort": "wohnen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سکونت داشتن",
+          "en": "to live"
+        },
+        "id_ref": "verb_wohnen"
+      },
+      {
+        "wort": "das Schloss",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قصر",
+          "en": "palace"
+        },
+        "id_ref": "nomen_schloss"
+      },
+      {
+        "wort": "der Sitz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مقر",
+          "en": "seat, headquarters"
+        },
+        "id_ref": "nomen_sitz"
+      },
+      {
+        "wort": "der Botschafter",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سفیر",
+          "en": "ambassador"
+        },
+        "id_ref": "nomen_botschafter"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,195 @@
+{
+  "schema": "3.0",
+  "id": "verb_retten",
+  "wort": "retten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نجات دادن"
+    ],
+    "en": [
+      "to save",
+      "to rescue"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Notfall",
+    "Alltag"
+  ],
+  "ipa": "ˈʁɛtn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hund hat das Kind gerettet.",
+      "uebersetzung": {
+        "fa": "سگ بچه را نجات داد.",
+        "en": "The dog saved the child."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Feuerwehr konnte alle Bewohner retten, bevor das Haus einstürzte.",
+      "uebersetzung": {
+        "fa": "آتش‌نشانی توانست همه‌ی ساکنان را پیش از فروریختن خانه نجات دهد.",
+        "en": "The fire brigade was able to rescue all the residents before the house collapsed."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bergen",
+      "uebersetzung": {
+        "fa": "نجات دادن",
+        "en": "to recover"
+      }
+    },
+    {
+      "wort": "befreien",
+      "uebersetzung": {
+        "fa": "آزاد کردن",
+        "en": "to free"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "jdn. retten vor + Dat",
+        "bedeutung": "jemanden vor einer Gefahr schützen",
+        "beispiel": "Er rettete sie vor dem Ertrinken.",
+        "uebersetzung": {
+          "fa": "او از غرق شدن نجاتش داد.",
+          "en": "He saved her from drowning."
+        }
+      },
+      {
+        "muster": "sich retten in + Akk / auf + Akk",
+        "bedeutung": "an einen sicheren Ort fliehen",
+        "beispiel": "Die Katze rettete sich auf den Baum.",
+        "uebersetzung": {
+          "fa": "گربه خودش را بالای درخت رساند و نجات یافت.",
+          "en": "The cat escaped up the tree."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "retten",
+      "praeteritum": "rettete",
+      "partizip2": "gerettet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "rette",
+        "du": "rettest",
+        "er_sie_es": "rettet",
+        "wir": "retten",
+        "ihr": "rettet",
+        "sie_Sie": "retten"
+      },
+      "praeteritum": {
+        "ich": "rettete",
+        "du": "rettetest",
+        "er_sie_es": "rettete",
+        "wir": "retteten",
+        "ihr": "rettetet",
+        "sie_Sie": "retteten"
+      },
+      "konjunktiv1": {
+        "ich": "rette",
+        "du": "rettest",
+        "er_sie_es": "rette",
+        "wir": "retten",
+        "ihr": "rettet",
+        "sie_Sie": "retten"
+      },
+      "konjunktiv2": {
+        "ich": "rettete",
+        "du": "rettetest",
+        "er_sie_es": "rettete",
+        "wir": "retteten",
+        "ihr": "rettetet",
+        "sie_Sie": "retteten"
+      },
+      "imperativ": {
+        "du": "Rette!",
+        "ihr": "Rettet!",
+        "Sie": "Retten Sie!"
+      }
+    },
+    "partizip1": "rettend",
+    "nominalisierung": "die Rettung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Rettung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نجات، آمبولانس (اتریش)",
+          "en": "rescue, ambulance (Austria)"
+        },
+        "id_ref": "nomen_rettung"
+      },
+      {
+        "wort": "der Notfall",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اورژانس، وضعیت اضطراری",
+          "en": "emergency"
+        },
+        "id_ref": "nomen_notfall"
+      },
+      {
+        "wort": "helfen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک کردن",
+          "en": "to help"
+        },
+        "id_ref": "verb_helfen"
+      },
+      {
+        "wort": "die Feuerwehr",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آتش‌نشانی",
+          "en": "fire brigade"
+        },
+        "id_ref": "nomen_feuerwehr"
+      },
+      {
+        "wort": "die Gefahr",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خطر",
+          "en": "danger"
+        },
+        "id_ref": "nomen_gefahr"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_sanieren",
+  "wort": "sanieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نوسازی کردن",
+      "بهسازی کردن",
+      "سروسامان دادن (مالی)"
+    ],
+    "en": [
+      "to refurbish",
+      "to renovate",
+      "to restructure"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Bau",
+    "Wirtschaft"
+  ],
+  "ipa": "zaˈniːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "bau"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Stadt saniert die Schule.",
+      "uebersetzung": {
+        "fa": "شهر مدرسه را نوسازی می‌کند.",
+        "en": "The town is refurbishing the school."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Unternehmen muss saniert werden, sonst droht die Insolvenz.",
+      "uebersetzung": {
+        "fa": "شرکت باید از نظر مالی سروسامان داده شود، وگرنه ورشکستگی در کمین است.",
+        "en": "The company has to be restructured, otherwise it faces insolvency."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "renovieren",
+      "uebersetzung": {
+        "fa": "بازسازی کردن",
+        "en": "to renovate"
+      }
+    },
+    {
+      "wort": "modernisieren",
+      "uebersetzung": {
+        "fa": "مدرن کردن",
+        "en": "to modernize"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین sanare (درمان کردن)",
+    "en": "from Latin sanare (to heal)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "sanieren",
+      "praeteritum": "sanierte",
+      "partizip2": "saniert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "saniere",
+        "du": "sanierst",
+        "er_sie_es": "saniert",
+        "wir": "sanieren",
+        "ihr": "saniert",
+        "sie_Sie": "sanieren"
+      },
+      "praeteritum": {
+        "ich": "sanierte",
+        "du": "saniertest",
+        "er_sie_es": "sanierte",
+        "wir": "sanierten",
+        "ihr": "saniertet",
+        "sie_Sie": "sanierten"
+      },
+      "konjunktiv1": {
+        "ich": "saniere",
+        "du": "sanierest",
+        "er_sie_es": "saniere",
+        "wir": "sanieren",
+        "ihr": "sanieret",
+        "sie_Sie": "sanieren"
+      },
+      "konjunktiv2": {
+        "ich": "sanierte",
+        "du": "saniertest",
+        "er_sie_es": "sanierte",
+        "wir": "sanierten",
+        "ihr": "saniertet",
+        "sie_Sie": "sanierten"
+      },
+      "imperativ": {
+        "du": "Saniere!",
+        "ihr": "Saniert!",
+        "Sie": "Sanieren Sie!"
+      }
+    },
+    "partizip1": "sanierend",
+    "nominalisierung": "die Sanierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "renovieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بازسازی کردن",
+          "en": "to renovate"
+        },
+        "id_ref": "verb_renovieren"
+      },
+      {
+        "wort": "die Sanierung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نوسازی",
+          "en": "refurbishment"
+        },
+        "id_ref": "nomen_sanierung"
+      },
+      {
+        "wort": "das Gebäude",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ساختمان",
+          "en": "building"
+        },
+        "id_ref": "nomen_gebaeude"
+      },
+      {
+        "wort": "modernisieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مدرن کردن",
+          "en": "to modernize"
+        },
+        "id_ref": "verb_modernisieren"
+      },
+      {
+        "wort": "die Insolvenz",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ورشکستگی",
+          "en": "insolvency"
+        },
+        "id_ref": "nomen_insolvenz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

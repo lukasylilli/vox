@@ -1,0 +1,193 @@
+{
+  "schema": "3.0",
+  "id": "verb_ruegen",
+  "wort": "rügen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سرزنش کردن",
+      "توبیخ کردن"
+    ],
+    "en": [
+      "to reprimand",
+      "to rebuke"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Kommunikation"
+  ],
+  "ipa": "ˈʁyːɡn̩",
+  "anmerkung": "Gehoben.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Chef rügt den Mitarbeiter.",
+      "uebersetzung": {
+        "fa": "رئیس کارمند را توبیخ می‌کند.",
+        "en": "The boss reprimands the employee."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Rechnungshof rügte die Stadt, weil sie das Geld nicht sparsam ausgegeben hatte.",
+      "uebersetzung": {
+        "fa": "دیوان محاسبات شهرداری را توبیخ کرد، چون پول را با صرفه‌جویی خرج نکرده بود.",
+        "en": "The audit office rebuked the city because it had not spent the money economically."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "tadeln",
+      "uebersetzung": {
+        "fa": "سرزنش کردن",
+        "en": "to scold"
+      }
+    },
+    {
+      "wort": "kritisieren",
+      "uebersetzung": {
+        "fa": "انتقاد کردن",
+        "en": "to criticize"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "loben",
+      "uebersetzung": {
+        "fa": "تعریف کردن",
+        "en": "to praise"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jdn. rügen für + Akk / wegen + Gen",
+        "bedeutung": "jemanden wegen etwas tadeln",
+        "beispiel": "Die Lehrerin rügte ihn für seine Unpünktlichkeit.",
+        "uebersetzung": {
+          "fa": "معلم او را به خاطر وقت‌نشناسی‌اش سرزنش کرد.",
+          "en": "The teacher reprimanded him for his lack of punctuality."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "rügen",
+      "praeteritum": "rügte",
+      "partizip2": "gerügt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "rüge",
+        "du": "rügst",
+        "er_sie_es": "rügt",
+        "wir": "rügen",
+        "ihr": "rügt",
+        "sie_Sie": "rügen"
+      },
+      "praeteritum": {
+        "ich": "rügte",
+        "du": "rügtest",
+        "er_sie_es": "rügte",
+        "wir": "rügten",
+        "ihr": "rügtet",
+        "sie_Sie": "rügten"
+      },
+      "konjunktiv1": {
+        "ich": "rüge",
+        "du": "rügest",
+        "er_sie_es": "rüge",
+        "wir": "rügen",
+        "ihr": "rüget",
+        "sie_Sie": "rügen"
+      },
+      "konjunktiv2": {
+        "ich": "rügte",
+        "du": "rügtest",
+        "er_sie_es": "rügte",
+        "wir": "rügten",
+        "ihr": "rügtet",
+        "sie_Sie": "rügten"
+      },
+      "imperativ": {
+        "du": "Rüge!",
+        "ihr": "Rügt!",
+        "Sie": "Rügen Sie!"
+      }
+    },
+    "partizip1": "rügend",
+    "nominalisierung": "die Rüge"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Rüge",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "توبیخ",
+          "en": "reprimand"
+        },
+        "id_ref": "nomen_ruege"
+      },
+      {
+        "wort": "tadeln",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سرزنش کردن",
+          "en": "to scold"
+        },
+        "id_ref": "verb_tadeln"
+      },
+      {
+        "wort": "kritisieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انتقاد کردن",
+          "en": "to criticize"
+        },
+        "id_ref": "verb_kritisieren"
+      },
+      {
+        "wort": "loben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تعریف کردن",
+          "en": "to praise"
+        },
+        "id_ref": "verb_loben"
+      },
+      {
+        "wort": "die Kritik",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انتقاد",
+          "en": "criticism"
+        },
+        "id_ref": "nomen_kritik"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

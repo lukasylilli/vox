@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_schichten",
+  "wort": "schichten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "لایه‌لایه چیدن",
+      "روی هم چیدن"
+    ],
+    "en": [
+      "to layer",
+      "to stack"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Küche",
+    "Arbeit"
+  ],
+  "ipa": "ˈʃɪçtn̩",
+  "anmerkung": null,
+  "berufe": [
+    "gastro_hotel",
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er schichtet das Holz.",
+      "uebersetzung": {
+        "fa": "او چوب‌ها را روی هم می‌چیند.",
+        "en": "He is stacking the wood."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Für die Lasagne werden Nudeln, Soße und Käse abwechselnd in eine Form geschichtet.",
+      "uebersetzung": {
+        "fa": "برای لازانیا، ماکارونی، سس و پنیر به نوبت در یک قالب لایه‌لایه چیده می‌شوند.",
+        "en": "For the lasagne, pasta, sauce and cheese are layered alternately in a dish."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "stapeln",
+      "uebersetzung": {
+        "fa": "روی هم چیدن",
+        "en": "to stack"
+      }
+    },
+    {
+      "wort": "aufschichten",
+      "uebersetzung": {
+        "fa": "روی هم انباشتن",
+        "en": "to pile up"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Schicht (لایه) + -en",
+    "en": "Schicht (layer) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "schichten",
+      "praeteritum": "schichtete",
+      "partizip2": "geschichtet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schichte",
+        "du": "schichtest",
+        "er_sie_es": "schichtet",
+        "wir": "schichten",
+        "ihr": "schichtet",
+        "sie_Sie": "schichten"
+      },
+      "praeteritum": {
+        "ich": "schichtete",
+        "du": "schichtetest",
+        "er_sie_es": "schichtete",
+        "wir": "schichteten",
+        "ihr": "schichtetet",
+        "sie_Sie": "schichteten"
+      },
+      "konjunktiv1": {
+        "ich": "schichte",
+        "du": "schichtest",
+        "er_sie_es": "schichte",
+        "wir": "schichten",
+        "ihr": "schichtet",
+        "sie_Sie": "schichten"
+      },
+      "konjunktiv2": {
+        "ich": "schichtete",
+        "du": "schichtetest",
+        "er_sie_es": "schichtete",
+        "wir": "schichteten",
+        "ihr": "schichtetet",
+        "sie_Sie": "schichteten"
+      },
+      "imperativ": {
+        "du": "Schichte!",
+        "ihr": "Schichtet!",
+        "Sie": "Schichten Sie!"
+      }
+    },
+    "partizip1": "schichtend",
+    "nominalisierung": "die Schichtung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Schicht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لایه، شیفت کاری",
+          "en": "layer, shift"
+        },
+        "id_ref": "nomen_schicht"
+      },
+      {
+        "wort": "stapeln",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "روی هم چیدن",
+          "en": "to stack"
+        },
+        "id_ref": "verb_stapeln"
+      },
+      {
+        "wort": "der Stapel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "توده",
+          "en": "pile"
+        },
+        "id_ref": "nomen_stapel"
+      },
+      {
+        "wort": "das Holz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چوب",
+          "en": "wood"
+        },
+        "id_ref": "nomen_holz"
+      },
+      {
+        "wort": "die Lasagne",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "لازانیا",
+          "en": "lasagne"
+        },
+        "id_ref": "nomen_lasagne"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

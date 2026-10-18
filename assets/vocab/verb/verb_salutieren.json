@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "verb_salutieren",
+  "wort": "salutieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سلام نظامی دادن"
+    ],
+    "en": [
+      "to salute"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Militär"
+  ],
+  "ipa": "zaluˈtiːʁən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Soldat salutiert.",
+      "uebersetzung": {
+        "fa": "سرباز سلام نظامی می‌دهد.",
+        "en": "The soldier salutes."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als der General den Raum betrat, standen alle auf und salutierten.",
+      "uebersetzung": {
+        "fa": "وقتی ژنرال وارد اتاق شد، همه بلند شدند و سلام نظامی دادند.",
+        "en": "When the general entered the room, everyone stood up and saluted."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین salutare (سلام کردن)",
+    "en": "from Latin salutare (to greet)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "vor + Dat salutieren",
+        "bedeutung": "jemanden militärisch grüßen",
+        "beispiel": "Die Wachen salutieren vor dem Präsidenten.",
+        "uebersetzung": {
+          "fa": "نگهبانان در برابر رئیس‌جمهور سلام نظامی می‌دهند.",
+          "en": "The guards salute the president."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "salutieren",
+      "praeteritum": "salutierte",
+      "partizip2": "salutiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "salutiere",
+        "du": "salutierst",
+        "er_sie_es": "salutiert",
+        "wir": "salutieren",
+        "ihr": "salutiert",
+        "sie_Sie": "salutieren"
+      },
+      "praeteritum": {
+        "ich": "salutierte",
+        "du": "salutiertest",
+        "er_sie_es": "salutierte",
+        "wir": "salutierten",
+        "ihr": "salutiertet",
+        "sie_Sie": "salutierten"
+      },
+      "konjunktiv1": {
+        "ich": "salutiere",
+        "du": "salutierest",
+        "er_sie_es": "salutiere",
+        "wir": "salutieren",
+        "ihr": "salutieret",
+        "sie_Sie": "salutieren"
+      },
+      "konjunktiv2": {
+        "ich": "salutierte",
+        "du": "salutiertest",
+        "er_sie_es": "salutierte",
+        "wir": "salutierten",
+        "ihr": "salutiertet",
+        "sie_Sie": "salutierten"
+      },
+      "imperativ": {
+        "du": "Salutiere!",
+        "ihr": "Salutiert!",
+        "Sie": "Salutieren Sie!"
+      }
+    },
+    "partizip1": "salutierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "grüßen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سلام کردن",
+          "en": "to greet"
+        },
+        "id_ref": "verb_gruessen"
+      },
+      {
+        "wort": "der Soldat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرباز",
+          "en": "soldier"
+        },
+        "id_ref": "nomen_soldat"
+      },
+      {
+        "wort": "die Armee",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ارتش",
+          "en": "army"
+        },
+        "id_ref": "nomen_armee"
+      },
+      {
+        "wort": "der Offizier",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "افسر",
+          "en": "officer"
+        },
+        "id_ref": "nomen_offizier"
+      },
+      {
+        "wort": "die Uniform",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لباس فرم",
+          "en": "uniform"
+        },
+        "id_ref": "nomen_uniform"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

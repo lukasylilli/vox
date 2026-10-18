@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_rutschen",
+  "wort": "rutschen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سر خوردن",
+      "لیز خوردن"
+    ],
+    "en": [
+      "to slide",
+      "to slip"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Bewegung",
+    "Freizeit"
+  ],
+  "ipa": "ˈʁʊt͡ʃn̩",
+  "anmerkung": "Redewendung: «Guten Rutsch (ins neue Jahr)!»",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kinder rutschen auf dem Spielplatz.",
+      "uebersetzung": {
+        "fa": "بچه‌ها در زمین بازی سرسره بازی می‌کنند.",
+        "en": "The children are sliding at the playground."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil die Straße so glatt war, ist das Auto in den Graben gerutscht.",
+      "uebersetzung": {
+        "fa": "چون خیابان خیلی لیز بود، ماشین به داخل جوی کنار جاده سر خورد.",
+        "en": "Because the road was so slippery, the car slid into the ditch."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gleiten",
+      "uebersetzung": {
+        "fa": "سریدن",
+        "en": "to glide"
+      }
+    },
+    {
+      "wort": "schlittern",
+      "uebersetzung": {
+        "fa": "لیز خوردن",
+        "en": "to slither"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "rutschen von + Dat",
+        "bedeutung": "von etwas heruntergleiten",
+        "beispiel": "Die Brille rutscht mir von der Nase.",
+        "uebersetzung": {
+          "fa": "عینک از روی بینی‌ام سر می‌خورد.",
+          "en": "My glasses are slipping off my nose."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "rutschen",
+      "praeteritum": "rutschte",
+      "partizip2": "gerutscht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "rutsche",
+        "du": "rutschst",
+        "er_sie_es": "rutscht",
+        "wir": "rutschen",
+        "ihr": "rutscht",
+        "sie_Sie": "rutschen"
+      },
+      "praeteritum": {
+        "ich": "rutschte",
+        "du": "rutschtest",
+        "er_sie_es": "rutschte",
+        "wir": "rutschten",
+        "ihr": "rutschtet",
+        "sie_Sie": "rutschten"
+      },
+      "konjunktiv1": {
+        "ich": "rutsche",
+        "du": "rutschest",
+        "er_sie_es": "rutsche",
+        "wir": "rutschen",
+        "ihr": "rutschet",
+        "sie_Sie": "rutschen"
+      },
+      "konjunktiv2": {
+        "ich": "rutschte",
+        "du": "rutschtest",
+        "er_sie_es": "rutschte",
+        "wir": "rutschten",
+        "ihr": "rutschtet",
+        "sie_Sie": "rutschten"
+      },
+      "imperativ": {
+        "du": "Rutsche!",
+        "ihr": "Rutscht!",
+        "Sie": "Rutschen Sie!"
+      }
+    },
+    "partizip1": "rutschend",
+    "nominalisierung": "die Rutsche"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Rutsche",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سرسره",
+          "en": "slide"
+        },
+        "id_ref": "nomen_rutsche"
+      },
+      {
+        "wort": "ausrutschen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لیز خوردن و افتادن",
+          "en": "to slip"
+        },
+        "id_ref": "verb_ausrutschen"
+      },
+      {
+        "wort": "glatt",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لیز",
+          "en": "slippery"
+        },
+        "id_ref": "adjektiv_glatt"
+      },
+      {
+        "wort": "das Eis",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "یخ",
+          "en": "ice"
+        },
+        "id_ref": "nomen_eis"
+      },
+      {
+        "wort": "gleiten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سریدن",
+          "en": "to glide"
+        },
+        "id_ref": "verb_gleiten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

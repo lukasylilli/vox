@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_scheuen",
+  "wort": "scheuen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پرهیز کردن",
+      "ترسیدن از",
+      "رم کردن (اسب)"
+    ],
+    "en": [
+      "to shy away from",
+      "to avoid",
+      "to shy (horse)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle",
+    "Verhalten"
+  ],
+  "ipa": "ˈʃɔɪ̯ən",
+  "anmerkung": "Redewendung: «weder Kosten noch Mühe scheuen» = alles tun.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Pferd scheut.",
+      "uebersetzung": {
+        "fa": "اسب رم می‌کند.",
+        "en": "The horse shies."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie scheute sich, ihren Chef um eine Gehaltserhöhung zu bitten, obwohl sie sie verdient hätte.",
+      "uebersetzung": {
+        "fa": "از درخواست افزایش حقوق از رئیسش پرهیز می‌کرد، با اینکه سزاوارش بود.",
+        "en": "She was reluctant to ask her boss for a pay rise, although she would have deserved it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "meiden",
+      "uebersetzung": {
+        "fa": "دوری کردن",
+        "en": "to avoid"
+      }
+    },
+    {
+      "wort": "zurückschrecken",
+      "uebersetzung": {
+        "fa": "عقب کشیدن",
+        "en": "to recoil"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "scheu (رمیده، خجالتی) + -en",
+    "en": "scheu (shy) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich scheuen vor + Dat",
+        "bedeutung": "vor etwas zurückschrecken",
+        "beispiel": "Er scheut sich vor keiner Arbeit.",
+        "uebersetzung": {
+          "fa": "او از هیچ کاری روگردان نیست.",
+          "en": "He shies away from no work."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "scheuen",
+      "praeteritum": "scheute",
+      "partizip2": "gescheut"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "scheue",
+        "du": "scheust",
+        "er_sie_es": "scheut",
+        "wir": "scheuen",
+        "ihr": "scheut",
+        "sie_Sie": "scheuen"
+      },
+      "praeteritum": {
+        "ich": "scheute",
+        "du": "scheutest",
+        "er_sie_es": "scheute",
+        "wir": "scheuten",
+        "ihr": "scheutet",
+        "sie_Sie": "scheuten"
+      },
+      "konjunktiv1": {
+        "ich": "scheue",
+        "du": "scheuest",
+        "er_sie_es": "scheue",
+        "wir": "scheuen",
+        "ihr": "scheuet",
+        "sie_Sie": "scheuen"
+      },
+      "konjunktiv2": {
+        "ich": "scheute",
+        "du": "scheutest",
+        "er_sie_es": "scheute",
+        "wir": "scheuten",
+        "ihr": "scheutet",
+        "sie_Sie": "scheuten"
+      },
+      "imperativ": {
+        "du": "Scheue!",
+        "ihr": "Scheut!",
+        "Sie": "Scheuen Sie!"
+      }
+    },
+    "partizip1": "scheuend",
+    "nominalisierung": "die Scheu"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "scheu",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رمیده، خجالتی",
+          "en": "shy, timid"
+        },
+        "id_ref": "adjektiv_scheu"
+      },
+      {
+        "wort": "die Scheu",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ترس، پرهیز",
+          "en": "shyness"
+        },
+        "id_ref": "nomen_scheu"
+      },
+      {
+        "wort": "meiden",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دوری کردن",
+          "en": "to avoid"
+        },
+        "id_ref": "verb_meiden"
+      },
+      {
+        "wort": "vermeiden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اجتناب کردن",
+          "en": "to avoid"
+        },
+        "id_ref": "verb_vermeiden"
+      },
+      {
+        "wort": "die Angst",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترس",
+          "en": "fear"
+        },
+        "id_ref": "nomen_angst"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

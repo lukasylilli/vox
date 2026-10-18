@@ -1,0 +1,200 @@
+{
+  "schema": "3.0",
+  "id": "verb_ruhen",
+  "wort": "ruhen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "استراحت کردن",
+      "آرام گرفتن",
+      "متوقف بودن"
+    ],
+    "en": [
+      "to rest",
+      "to lie",
+      "to be suspended"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gesundheit",
+    "Alltag"
+  ],
+  "ipa": "ˈʁuːən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Nach dem Essen ruht Oma.",
+      "uebersetzung": {
+        "fa": "مادربزرگ بعد از غذا استراحت می‌کند.",
+        "en": "Grandma rests after eating."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Während des Streiks ruht die Arbeit in der Fabrik, bis eine Einigung gefunden wird.",
+      "uebersetzung": {
+        "fa": "در مدت اعتصاب، کار در کارخانه متوقف است تا توافقی پیدا شود.",
+        "en": "During the strike, work in the factory is suspended until an agreement is found."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich ausruhen",
+      "uebersetzung": {
+        "fa": "استراحت کردن",
+        "en": "to rest"
+      }
+    },
+    {
+      "wort": "rasten",
+      "uebersetzung": {
+        "fa": "توقف کردن",
+        "en": "to take a break"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "arbeiten",
+      "uebersetzung": {
+        "fa": "کار کردن",
+        "en": "to work"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Ruhe (آرامش) + -n",
+    "en": "Ruhe (calm) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "ruhen auf + Dat",
+        "bedeutung": "auf etwas liegen, auf etwas lasten",
+        "beispiel": "Alle Hoffnung ruht auf ihm.",
+        "uebersetzung": {
+          "fa": "همه‌ی امیدها به اوست.",
+          "en": "All hope rests on him."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ruhen",
+      "praeteritum": "ruhte",
+      "partizip2": "geruht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ruhe",
+        "du": "ruhst",
+        "er_sie_es": "ruht",
+        "wir": "ruhen",
+        "ihr": "ruht",
+        "sie_Sie": "ruhen"
+      },
+      "praeteritum": {
+        "ich": "ruhte",
+        "du": "ruhtest",
+        "er_sie_es": "ruhte",
+        "wir": "ruhten",
+        "ihr": "ruhtet",
+        "sie_Sie": "ruhten"
+      },
+      "konjunktiv1": {
+        "ich": "ruhe",
+        "du": "ruhest",
+        "er_sie_es": "ruhe",
+        "wir": "ruhen",
+        "ihr": "ruhet",
+        "sie_Sie": "ruhen"
+      },
+      "konjunktiv2": {
+        "ich": "ruhte",
+        "du": "ruhtest",
+        "er_sie_es": "ruhte",
+        "wir": "ruhten",
+        "ihr": "ruhtet",
+        "sie_Sie": "ruhten"
+      },
+      "imperativ": {
+        "du": "Ruhe!",
+        "ihr": "Ruht!",
+        "Sie": "Ruhen Sie!"
+      }
+    },
+    "partizip1": "ruhend",
+    "nominalisierung": "die Ruhe"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Ruhe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آرامش",
+          "en": "peace, calm"
+        },
+        "id_ref": "nomen_ruhe"
+      },
+      {
+        "wort": "ruhig",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آرام",
+          "en": "quiet"
+        },
+        "id_ref": "adjektiv_ruhig"
+      },
+      {
+        "wort": "ausruhen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "استراحت کردن",
+          "en": "to rest"
+        },
+        "id_ref": "verb_ausruhen"
+      },
+      {
+        "wort": "schlafen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوابیدن",
+          "en": "to sleep"
+        },
+        "id_ref": "verb_schlafen"
+      },
+      {
+        "wort": "die Pause",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "استراحت",
+          "en": "break"
+        },
+        "id_ref": "nomen_pause"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

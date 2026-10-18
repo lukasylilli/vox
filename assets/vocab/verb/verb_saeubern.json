@@ -1,0 +1,197 @@
+{
+  "schema": "3.0",
+  "id": "verb_saeubern",
+  "wort": "säubern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تمیز کردن",
+      "پاک‌سازی کردن"
+    ],
+    "en": [
+      "to clean",
+      "to purge"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Haushalt"
+  ],
+  "ipa": "ˈzɔɪ̯bɐn",
+  "anmerkung": null,
+  "berufe": [
+    "reinigung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er säubert seine Schuhe.",
+      "uebersetzung": {
+        "fa": "او کفش‌هایش را تمیز می‌کند.",
+        "en": "He cleans his shoes."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Fest säuberten freiwillige Helfer den Park, damit die Kinder dort wieder spielen konnten.",
+      "uebersetzung": {
+        "fa": "بعد از جشن، داوطلبان پارک را تمیز کردند تا بچه‌ها دوباره بتوانند آنجا بازی کنند.",
+        "en": "After the festival, volunteers cleaned the park so that children could play there again."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "putzen",
+      "uebersetzung": {
+        "fa": "تمیز کردن",
+        "en": "to clean"
+      }
+    },
+    {
+      "wort": "reinigen",
+      "uebersetzung": {
+        "fa": "تمیز کردن",
+        "en": "to clean"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verschmutzen",
+      "uebersetzung": {
+        "fa": "کثیف کردن",
+        "en": "to dirty"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "sauber (تمیز) + -n",
+    "en": "sauber (clean) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas säubern von + Dat",
+        "bedeutung": "Schmutz von etwas entfernen",
+        "beispiel": "Sie säubert den Tisch von Krümeln.",
+        "uebersetzung": {
+          "fa": "او خرده‌ها را از روی میز پاک می‌کند.",
+          "en": "She cleans the crumbs off the table."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "säubern",
+      "praeteritum": "säuberte",
+      "partizip2": "gesäubert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "säubere",
+        "du": "säuberst",
+        "er_sie_es": "säubert",
+        "wir": "säubern",
+        "ihr": "säubert",
+        "sie_Sie": "säubern"
+      },
+      "praeteritum": {
+        "ich": "säuberte",
+        "du": "säubertest",
+        "er_sie_es": "säuberte",
+        "wir": "säuberten",
+        "ihr": "säubertet",
+        "sie_Sie": "säuberten"
+      },
+      "konjunktiv1": {
+        "ich": "säubere",
+        "du": "säuberest",
+        "er_sie_es": "säubere",
+        "wir": "säubern",
+        "ihr": "säuberet",
+        "sie_Sie": "säubern"
+      },
+      "konjunktiv2": {
+        "ich": "säuberte",
+        "du": "säubertest",
+        "er_sie_es": "säuberte",
+        "wir": "säuberten",
+        "ihr": "säubertet",
+        "sie_Sie": "säuberten"
+      },
+      "imperativ": {
+        "du": "Säubere!",
+        "ihr": "Säubert!",
+        "Sie": "Säubern Sie!"
+      }
+    },
+    "partizip1": "säubernd",
+    "nominalisierung": "die Säuberung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "sauber",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تمیز",
+          "en": "clean"
+        },
+        "id_ref": "adjektiv_sauber"
+      },
+      {
+        "wort": "putzen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تمیز کردن",
+          "en": "to clean"
+        },
+        "id_ref": "verb_putzen"
+      },
+      {
+        "wort": "reinigen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تمیز کردن",
+          "en": "to clean"
+        },
+        "id_ref": "verb_reinigen"
+      },
+      {
+        "wort": "der Schmutz",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کثیفی",
+          "en": "dirt"
+        },
+        "id_ref": "nomen_schmutz"
+      },
+      {
+        "wort": "verschmutzen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کثیف کردن",
+          "en": "to dirty"
+        },
+        "id_ref": "verb_verschmutzen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_scharren",
+  "wort": "scharren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "با پا یا پنجه خراشیدن",
+      "پا روی زمین کشیدن"
+    ],
+    "en": [
+      "to scratch",
+      "to scrape",
+      "to paw"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Tiere"
+  ],
+  "ipa": "ˈʃaʁən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Hühner scharren im Sand.",
+      "uebersetzung": {
+        "fa": "مرغ‌ها با پنجه شن‌ها را می‌خراشند.",
+        "en": "The chickens are scratching in the sand."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Zuhörer scharrten ungeduldig mit den Füßen, weil der Vortrag einfach nicht enden wollte.",
+      "uebersetzung": {
+        "fa": "شنوندگان با بی‌حوصلگی پاهایشان را روی زمین می‌کشیدند، چون سخنرانی تمام نمی‌شد.",
+        "en": "The listeners shuffled their feet impatiently because the lecture simply would not end."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kratzen",
+      "uebersetzung": {
+        "fa": "خراشیدن",
+        "en": "to scratch"
+      }
+    },
+    {
+      "wort": "wühlen",
+      "uebersetzung": {
+        "fa": "کندوکاو کردن",
+        "en": "to dig"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "scharren mit + Dat",
+        "bedeutung": "mit einem Körperteil über den Boden kratzen",
+        "beispiel": "Das Pferd scharrt mit dem Huf.",
+        "uebersetzung": {
+          "fa": "اسب سمش را به زمین می‌کشد.",
+          "en": "The horse paws the ground with its hoof."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "scharren",
+      "praeteritum": "scharrte",
+      "partizip2": "gescharrt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "scharre",
+        "du": "scharrst",
+        "er_sie_es": "scharrt",
+        "wir": "scharren",
+        "ihr": "scharrt",
+        "sie_Sie": "scharren"
+      },
+      "praeteritum": {
+        "ich": "scharrte",
+        "du": "scharrtest",
+        "er_sie_es": "scharrte",
+        "wir": "scharrten",
+        "ihr": "scharrtet",
+        "sie_Sie": "scharrten"
+      },
+      "konjunktiv1": {
+        "ich": "scharre",
+        "du": "scharrest",
+        "er_sie_es": "scharre",
+        "wir": "scharren",
+        "ihr": "scharret",
+        "sie_Sie": "scharren"
+      },
+      "konjunktiv2": {
+        "ich": "scharrte",
+        "du": "scharrtest",
+        "er_sie_es": "scharrte",
+        "wir": "scharrten",
+        "ihr": "scharrtet",
+        "sie_Sie": "scharrten"
+      },
+      "imperativ": {
+        "du": "Scharre!",
+        "ihr": "Scharrt!",
+        "Sie": "Scharren Sie!"
+      }
+    },
+    "partizip1": "scharrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "kratzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خراشیدن",
+          "en": "to scratch"
+        },
+        "id_ref": "verb_kratzen"
+      },
+      {
+        "wort": "das Huhn",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مرغ",
+          "en": "chicken"
+        },
+        "id_ref": "nomen_huhn"
+      },
+      {
+        "wort": "der Sand",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شن",
+          "en": "sand"
+        },
+        "id_ref": "nomen_sand"
+      },
+      {
+        "wort": "wühlen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کندوکاو کردن",
+          "en": "to dig"
+        },
+        "id_ref": "verb_wuehlen"
+      },
+      {
+        "wort": "ungeduldig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بی‌حوصله",
+          "en": "impatient"
+        },
+        "id_ref": "adjektiv_ungeduldig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

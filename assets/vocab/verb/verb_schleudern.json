@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_schleudern",
+  "wort": "schleudern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پرتاب کردن",
+      "سر خوردن (ماشین)",
+      "خشک کردن (در ماشین لباسشویی)"
+    ],
+    "en": [
+      "to hurl",
+      "to skid",
+      "to spin-dry"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr",
+    "Haushalt"
+  ],
+  "ipa": "ˈʃlɔɪ̯dɐn",
+  "anmerkung": "Transitiv mit «haben» (sie hat die Wäsche geschleudert); intransitiv mit «sein» (das Auto ist geschleudert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Maschine schleudert die Wäsche.",
+      "uebersetzung": {
+        "fa": "ماشین لباس‌ها را خشک‌کن می‌کند.",
+        "en": "The machine spin-dries the washing."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Auf der vereisten Straße geriet das Auto ins Schleudern und prallte gegen einen Baum.",
+      "uebersetzung": {
+        "fa": "ماشین روی جاده‌ی یخ‌زده سر خورد و به یک درخت کوبید.",
+        "en": "On the icy road the car went into a skid and crashed into a tree."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "werfen",
+      "uebersetzung": {
+        "fa": "پرتاب کردن",
+        "en": "to throw"
+      }
+    },
+    {
+      "wort": "rutschen",
+      "uebersetzung": {
+        "fa": "سر خوردن",
+        "en": "to slide"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas schleudern gegen + Akk",
+        "bedeutung": "etwas mit Wucht gegen etwas werfen",
+        "beispiel": "Er schleuderte das Glas gegen die Wand.",
+        "uebersetzung": {
+          "fa": "او لیوان را به دیوار کوبید.",
+          "en": "He hurled the glass against the wall."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schleudern",
+      "praeteritum": "schleuderte",
+      "partizip2": "geschleudert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schleudere",
+        "du": "schleuderst",
+        "er_sie_es": "schleudert",
+        "wir": "schleudern",
+        "ihr": "schleudert",
+        "sie_Sie": "schleudern"
+      },
+      "praeteritum": {
+        "ich": "schleuderte",
+        "du": "schleudertest",
+        "er_sie_es": "schleuderte",
+        "wir": "schleuderten",
+        "ihr": "schleudertet",
+        "sie_Sie": "schleuderten"
+      },
+      "konjunktiv1": {
+        "ich": "schleudere",
+        "du": "schleuderest",
+        "er_sie_es": "schleudere",
+        "wir": "schleudern",
+        "ihr": "schleuderet",
+        "sie_Sie": "schleudern"
+      },
+      "konjunktiv2": {
+        "ich": "schleuderte",
+        "du": "schleudertest",
+        "er_sie_es": "schleuderte",
+        "wir": "schleuderten",
+        "ihr": "schleudertet",
+        "sie_Sie": "schleuderten"
+      },
+      "imperativ": {
+        "du": "Schleudere!",
+        "ihr": "Schleudert!",
+        "Sie": "Schleudern Sie!"
+      }
+    },
+    "partizip1": "schleudernd",
+    "nominalisierung": "die Schleuder"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "werfen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پرتاب کردن",
+          "en": "to throw"
+        },
+        "id_ref": "verb_werfen"
+      },
+      {
+        "wort": "die Waschmaschine",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ماشین لباسشویی",
+          "en": "washing machine"
+        },
+        "id_ref": "nomen_waschmaschine"
+      },
+      {
+        "wort": "rutschen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سر خوردن",
+          "en": "to slide"
+        },
+        "id_ref": "verb_rutschen"
+      },
+      {
+        "wort": "glatt",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لیز",
+          "en": "slippery"
+        },
+        "id_ref": "adjektiv_glatt"
+      },
+      {
+        "wort": "die Schleuder",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تیرکمان، خشک‌کن",
+          "en": "catapult, spin dryer"
+        },
+        "id_ref": "nomen_schleuder"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

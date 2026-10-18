@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_schlaengeln",
+  "wort": "schlängeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مارپیچ حرکت کردن",
+      "پیچ و تاب خوردن"
+    ],
+    "en": [
+      "to wind",
+      "to snake",
+      "to wriggle"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Bewegung"
+  ],
+  "ipa": "ˈʃlɛŋl̩n",
+  "anmerkung": "Nur reflexiv: «sich schlängeln».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Weg schlängelt sich durch den Wald.",
+      "uebersetzung": {
+        "fa": "راه مارپیچ از میان جنگل می‌گذرد.",
+        "en": "The path winds through the forest."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Kellner schlängelte sich geschickt zwischen den vollen Tischen hindurch, ohne etwas zu verschütten.",
+      "uebersetzung": {
+        "fa": "گارسون ماهرانه از میان میزهای شلوغ رد شد، بی‌آنکه چیزی بریزد.",
+        "en": "The waiter wove skilfully between the crowded tables without spilling anything."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich winden",
+      "uebersetzung": {
+        "fa": "پیچ و تاب خوردن",
+        "en": "to wind"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Schlange (مار) + -eln",
+    "en": "Schlange (snake) + -eln"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich schlängeln durch + Akk",
+        "bedeutung": "sich in Windungen durch etwas bewegen",
+        "beispiel": "Der Fluss schlängelt sich durch das Tal.",
+        "uebersetzung": {
+          "fa": "رودخانه پیچ‌وتاب‌خوران از دره می‌گذرد.",
+          "en": "The river winds through the valley."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schlängeln",
+      "praeteritum": "schlängelte",
+      "partizip2": "geschlängelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schlängle",
+        "du": "schlängelst",
+        "er_sie_es": "schlängelt",
+        "wir": "schlängeln",
+        "ihr": "schlängelt",
+        "sie_Sie": "schlängeln"
+      },
+      "praeteritum": {
+        "ich": "schlängelte",
+        "du": "schlängeltest",
+        "er_sie_es": "schlängelte",
+        "wir": "schlängelten",
+        "ihr": "schlängeltet",
+        "sie_Sie": "schlängelten"
+      },
+      "konjunktiv1": {
+        "ich": "schlängle",
+        "du": "schlänglest",
+        "er_sie_es": "schlängle",
+        "wir": "schlängeln",
+        "ihr": "schlänglet",
+        "sie_Sie": "schlängeln"
+      },
+      "konjunktiv2": {
+        "ich": "schlängelte",
+        "du": "schlängeltest",
+        "er_sie_es": "schlängelte",
+        "wir": "schlängelten",
+        "ihr": "schlängeltet",
+        "sie_Sie": "schlängelten"
+      },
+      "imperativ": {
+        "du": "Schlängle!",
+        "ihr": "Schlängelt!",
+        "Sie": "Schlängeln Sie!"
+      }
+    },
+    "partizip1": "schlängelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Schlange",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مار، صف",
+          "en": "snake, queue"
+        },
+        "id_ref": "nomen_schlange"
+      },
+      {
+        "wort": "winden",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پیچیدن",
+          "en": "to wind"
+        },
+        "id_ref": "verb_winden"
+      },
+      {
+        "wort": "der Weg",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "راه",
+          "en": "path"
+        },
+        "id_ref": "nomen_weg"
+      },
+      {
+        "wort": "der Fluss",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رودخانه",
+          "en": "river"
+        },
+        "id_ref": "nomen_fluss"
+      },
+      {
+        "wort": "kurvig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پرپیچ‌وخم",
+          "en": "winding"
+        },
+        "id_ref": "adjektiv_kurvig"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

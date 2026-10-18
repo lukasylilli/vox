@@ -1829,6 +1829,56 @@ const zurueckgestellt = <String>{
   'rekognoszieren', // zurückgestellt: veraltet/Militär- und Amtssprache, Bedeutung schwankt — nicht sicher (Regel 17) 2026-10-18
   'rekonvaleszieren', // zurückgestellt: selten (Medizin), Gebrauch unsicher — nicht sicher 2026-10-18
   'relationieren', // zurückgestellt: Fachsprache, Bedeutung unsicher — nicht sicher 2026-10-18
+  'relokalisieren', // zurückgestellt: selten/Fachsprache — nicht sicher (Regel 14) 2026-10-18
+  'renegieren', // zurückgestellt: selten, Bedeutung unsicher — nicht sicher (Regel 14) 2026-10-18
+  'renitieren', // zurückgestellt: veraltet, Bedeutung unsicher — nicht sicher (Regel 14) 2026-10-18
+  'renommieren', // zurückgestellt: veraltend (prahlen); heute fast nur «renommiert» — nicht sicher (Regel 14) 2026-10-18
+  'renoncieren', // zurückgestellt: veraltet/Kartenspiel — nicht sicher (Regel 14) 2026-10-18
+  'replizieren', // zurückgestellt: Fachsprache (Wissenschaft/Recht/IT) — nicht sicher (Regel 14) 2026-10-18
+  'requirieren', // zurückgestellt: Militär-/Amtssprache — nicht sicher (Regel 14) 2026-10-18
+  'restituieren', // zurückgestellt: Rechtssprache, selten — nicht sicher (Regel 14) 2026-10-18
+  'retardieren', // zurückgestellt: Fachsprache (Medizin/Literatur) — nicht sicher (Regel 14) 2026-10-18
+  'retirieren', // zurückgestellt: veraltet — nicht sicher (Regel 14) 2026-10-18
+  'reüssieren', // zurückgestellt: gehoben/selten — nicht sicher (Regel 14) 2026-10-18
+  'reversieren', // zurückgestellt: österr. Fachsprache (Verkehr), Bedeutung uneinheitlich — nicht sicher (Regel 14) 2026-10-18
+  'revieren', // zurückgestellt: Jägersprache — nicht sicher (Regel 14) 2026-10-18
+  'rezipieren', // zurückgestellt: Fachsprache — nicht sicher (Regel 14) 2026-10-18
+  'riegeln', // zurückgestellt: selten, meist «abriegeln/verriegeln» — nicht sicher (Regel 14) 2026-10-18
+  'rieseln', // zurückgestellt: Hilfsverb schwankt (haben/sein) — nicht sicher (Regel 16), wie prasseln 2026-10-18
+  'ritualisieren', // zurückgestellt: Fachsprache — nicht sicher (Regel 14) 2026-10-18
+  'rochieren', // zurückgestellt: Schachsprache — nicht sicher (Regel 14) 2026-10-18
+  'rotten', // zurückgestellt: meist nur «sich zusammenrotten» — nicht sicher (Regel 14) 2026-10-18
+  'rotzen', // zurückgestellt: derb — Entscheidung Lukas 2026-10-18
+  'rubrizieren', // zurückgestellt: Fachsprache, selten — nicht sicher (Regel 14) 2026-10-18
+  'rucken', // zurückgestellt: selten, Bedeutung unsicher — nicht sicher (Regel 14) 2026-10-18
+  'rückkoppeln', // zurückgestellt: Fachsprache (Technik) — nicht sicher (Regel 14) 2026-10-18
+  'rumpeln', // zurückgestellt: Hilfsverb schwankt (haben/sein) — nicht sicher (Regel 16) 2026-10-18
+  'rußen', // zurückgestellt: selten — nicht sicher (Regel 14) 2026-10-18
+  'sabbeln', // zurückgestellt: norddeutsch umgangssprachlich — nicht sicher (Regel 14) 2026-10-18
+  'sächseln', // zurückgestellt: regional/umgangssprachlich — nicht sicher (Regel 14) 2026-10-18
+  'sacken', // zurückgestellt: Hilfsverb/Bedeutung schwanken — nicht sicher (Regel 14) 2026-10-18
+  'säkularisieren', // zurückgestellt: Fachsprache — nicht sicher (Regel 14) 2026-10-18
+  'salben', // zurückgestellt: gehoben/religiös, selten — nicht sicher (Regel 14) 2026-10-18
+  'salzen', // zurückgestellt: gemischte Formen (gesalzen/gesalzt) — nicht sicher, ob regelmäßig (Regel 17) 2026-10-18
+  'saturieren', // zurückgestellt: gehoben/Fachsprache — nicht sicher (Regel 14) 2026-10-18
+  'säuern', // zurückgestellt: Fachsprache (Küche/Chemie) — nicht sicher (Regel 14) 2026-10-18
+  'säumen', // zurückgestellt: gehoben, mehrere Bedeutungen — nicht sicher (Regel 14) 2026-10-18
+  'säuseln', // zurückgestellt: gehoben, selten — nicht sicher (Regel 14) 2026-10-18
+  'schachern', // zurückgestellt: abwertend/umgangssprachlich — nicht sicher (Regel 14) 2026-10-18
+  'schäkern', // zurückgestellt: veraltend — nicht sicher (Regel 14) 2026-10-18
+  'scharen', // zurückgestellt: meist nur «sich scharen um» — nicht sicher (Regel 14) 2026-10-18
+  'scharwenzeln', // zurückgestellt: umgangssprachlich, selten — nicht sicher (Regel 14) 2026-10-18
+  'schattieren', // zurückgestellt: Fachsprache (Kunst) — nicht sicher (Regel 14) 2026-10-18
+  'schaudern', // zurückgestellt: meist unpersönlich, Gebrauch schwankt — nicht sicher (Regel 14) 2026-10-18
+  'schauern', // zurückgestellt: mehrere Bedeutungen (Regen/Schauder) — nicht sicher (Regel 14) 2026-10-18
+  'schellen', // zurückgestellt: regional (läuten) — nicht sicher (Regel 14) 2026-10-18
+  'schematisieren', // zurückgestellt: Fachsprache — nicht sicher (Regel 14) 2026-10-18
+  'schillern', // zurückgestellt: gehoben, selten — nicht sicher (Regel 14) 2026-10-18
+  'schippern', // zurückgestellt: umgangssprachlich, Hilfsverb schwankt — nicht sicher (Regel 14) 2026-10-18
+  'schirmen', // zurückgestellt: gehoben, meist «abschirmen» — nicht sicher (Regel 14) 2026-10-18
+  'schlabbern', // zurückgestellt: umgangssprachlich, mehrere Bedeutungen — nicht sicher (Regel 14) 2026-10-18
+  'schlauchen', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-18
+  'schleckern', // zurückgestellt: landschaftlich — nicht sicher (Regel 14) 2026-10-18
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

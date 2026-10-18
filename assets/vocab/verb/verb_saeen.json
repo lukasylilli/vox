@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_saeen",
+  "wort": "säen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بذر پاشیدن",
+      "کاشتن"
+    ],
+    "en": [
+      "to sow"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Garten",
+    "Landwirtschaft"
+  ],
+  "ipa": "ˈzɛːən",
+  "anmerkung": "Sprichwort: «Wer Wind sät, wird Sturm ernten.»",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Bauer sät Weizen.",
+      "uebersetzung": {
+        "fa": "کشاورز گندم می‌کارد.",
+        "en": "The farmer is sowing wheat."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Mit seinen Lügen hat er Misstrauen in der Gruppe gesät, das lange nicht verschwand.",
+      "uebersetzung": {
+        "fa": "او با دروغ‌هایش در گروه بذر بی‌اعتمادی کاشت که مدت‌ها از بین نرفت.",
+        "en": "With his lies he sowed distrust in the group that did not disappear for a long time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aussäen",
+      "uebersetzung": {
+        "fa": "بذر پاشیدن",
+        "en": "to sow"
+      }
+    },
+    {
+      "wort": "pflanzen",
+      "uebersetzung": {
+        "fa": "کاشتن",
+        "en": "to plant"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ernten",
+      "uebersetzung": {
+        "fa": "درو کردن",
+        "en": "to harvest"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "säen",
+      "praeteritum": "säte",
+      "partizip2": "gesät"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "säe",
+        "du": "säst",
+        "er_sie_es": "sät",
+        "wir": "säen",
+        "ihr": "sät",
+        "sie_Sie": "säen"
+      },
+      "praeteritum": {
+        "ich": "säte",
+        "du": "sätest",
+        "er_sie_es": "säte",
+        "wir": "säten",
+        "ihr": "sätet",
+        "sie_Sie": "säten"
+      },
+      "konjunktiv1": {
+        "ich": "säe",
+        "du": "säest",
+        "er_sie_es": "säe",
+        "wir": "säen",
+        "ihr": "säet",
+        "sie_Sie": "säen"
+      },
+      "konjunktiv2": {
+        "ich": "säte",
+        "du": "sätest",
+        "er_sie_es": "säte",
+        "wir": "säten",
+        "ihr": "sätet",
+        "sie_Sie": "säten"
+      },
+      "imperativ": {
+        "du": "Säe!",
+        "ihr": "Sät!",
+        "Sie": "Säen Sie!"
+      }
+    },
+    "partizip1": "säend",
+    "nominalisierung": "die Saat"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Saat",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بذر، کشت",
+          "en": "seed, sowing"
+        },
+        "id_ref": "nomen_saat"
+      },
+      {
+        "wort": "der Samen",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دانه",
+          "en": "seed"
+        },
+        "id_ref": "nomen_samen"
+      },
+      {
+        "wort": "ernten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "درو کردن",
+          "en": "to harvest"
+        },
+        "id_ref": "verb_ernten"
+      },
+      {
+        "wort": "pflanzen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کاشتن",
+          "en": "to plant"
+        },
+        "id_ref": "verb_pflanzen"
+      },
+      {
+        "wort": "das Feld",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مزرعه",
+          "en": "field"
+        },
+        "id_ref": "nomen_feld"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

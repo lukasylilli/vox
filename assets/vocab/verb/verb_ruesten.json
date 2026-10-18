@@ -1,0 +1,204 @@
+{
+  "schema": "3.0",
+  "id": "verb_ruesten",
+  "wort": "rüsten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مسلح شدن",
+      "تجهیز کردن",
+      "آماده شدن"
+    ],
+    "en": [
+      "to arm",
+      "to prepare",
+      "to equip"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Politik",
+    "Militär"
+  ],
+  "ipa": "ˈʁʏstn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Viele Länder rüsten auf.",
+      "uebersetzung": {
+        "fa": "بسیاری از کشورها تسلیحات خود را افزایش می‌دهند.",
+        "en": "Many countries are arming themselves."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Stadt rüstet sich für den Winter, indem sie genug Streusalz einkauft.",
+      "uebersetzung": {
+        "fa": "شهر با خریدن نمک کافی برای جاده‌ها، خودش را برای زمستان آماده می‌کند.",
+        "en": "The city is preparing for winter by buying enough road salt."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich vorbereiten",
+      "uebersetzung": {
+        "fa": "آماده شدن",
+        "en": "to prepare"
+      }
+    },
+    {
+      "wort": "ausstatten",
+      "uebersetzung": {
+        "fa": "تجهیز کردن",
+        "en": "to equip"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "abrüsten",
+      "uebersetzung": {
+        "fa": "خلع سلاح کردن",
+        "en": "to disarm"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich rüsten für + Akk",
+        "bedeutung": "sich auf etwas vorbereiten",
+        "beispiel": "Die Mannschaft rüstet sich für das Finale.",
+        "uebersetzung": {
+          "fa": "تیم خودش را برای فینال آماده می‌کند.",
+          "en": "The team is preparing for the final."
+        }
+      },
+      {
+        "muster": "sich rüsten gegen + Akk",
+        "bedeutung": "sich gegen eine Gefahr wappnen",
+        "beispiel": "Die Region rüstet sich gegen das Hochwasser.",
+        "uebersetzung": {
+          "fa": "منطقه خودش را در برابر سیل آماده می‌کند.",
+          "en": "The region is preparing against the flood."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "rüsten",
+      "praeteritum": "rüstete",
+      "partizip2": "gerüstet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "rüste",
+        "du": "rüstest",
+        "er_sie_es": "rüstet",
+        "wir": "rüsten",
+        "ihr": "rüstet",
+        "sie_Sie": "rüsten"
+      },
+      "praeteritum": {
+        "ich": "rüstete",
+        "du": "rüstetest",
+        "er_sie_es": "rüstete",
+        "wir": "rüsteten",
+        "ihr": "rüstetet",
+        "sie_Sie": "rüsteten"
+      },
+      "konjunktiv1": {
+        "ich": "rüste",
+        "du": "rüstest",
+        "er_sie_es": "rüste",
+        "wir": "rüsten",
+        "ihr": "rüstet",
+        "sie_Sie": "rüsten"
+      },
+      "konjunktiv2": {
+        "ich": "rüstete",
+        "du": "rüstetest",
+        "er_sie_es": "rüstete",
+        "wir": "rüsteten",
+        "ihr": "rüstetet",
+        "sie_Sie": "rüsteten"
+      },
+      "imperativ": {
+        "du": "Rüste!",
+        "ihr": "Rüstet!",
+        "Sie": "Rüsten Sie!"
+      }
+    },
+    "partizip1": "rüstend",
+    "nominalisierung": "die Rüstung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Rüstung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "زره، تسلیحات",
+          "en": "armour, armaments"
+        },
+        "id_ref": "nomen_ruestung"
+      },
+      {
+        "wort": "aufrüsten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مسلح شدن",
+          "en": "to arm"
+        },
+        "id_ref": "verb_aufruesten"
+      },
+      {
+        "wort": "abrüsten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خلع سلاح کردن",
+          "en": "to disarm"
+        },
+        "id_ref": "verb_abruesten"
+      },
+      {
+        "wort": "vorbereiten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آماده کردن",
+          "en": "to prepare"
+        },
+        "id_ref": "verb_vorbereiten"
+      },
+      {
+        "wort": "die Waffe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سلاح",
+          "en": "weapon"
+        },
+        "id_ref": "nomen_waffe"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_sanktionieren",
+  "wort": "sanktionieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تحریم کردن",
+      "مجازات کردن",
+      "تأیید کردن (قانونی)"
+    ],
+    "en": [
+      "to sanction",
+      "to penalize"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Politik",
+    "Recht"
+  ],
+  "ipa": "zaŋkt͡si̯oˈniːʁən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die EU sanktioniert das Land.",
+      "uebersetzung": {
+        "fa": "اتحادیه‌ی اروپا آن کشور را تحریم می‌کند.",
+        "en": "The EU is imposing sanctions on the country."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wer die Regeln mehrfach verletzt, wird vom Verband mit einer Geldstrafe sanktioniert.",
+      "uebersetzung": {
+        "fa": "هر کس چند بار قوانین را زیر پا بگذارد، از طرف فدراسیون جریمه‌ی نقدی می‌شود.",
+        "en": "Anyone who repeatedly breaks the rules is penalized by the association with a fine."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bestrafen",
+      "uebersetzung": {
+        "fa": "مجازات کردن",
+        "en": "to punish"
+      }
+    },
+    {
+      "wort": "billigen",
+      "uebersetzung": {
+        "fa": "تأیید کردن",
+        "en": "to approve"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Sanktion (تحریم، ضمانت اجرا) + -ieren",
+    "en": "Sanktion (sanction) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "sanktionieren",
+      "praeteritum": "sanktionierte",
+      "partizip2": "sanktioniert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "sanktioniere",
+        "du": "sanktionierst",
+        "er_sie_es": "sanktioniert",
+        "wir": "sanktionieren",
+        "ihr": "sanktioniert",
+        "sie_Sie": "sanktionieren"
+      },
+      "praeteritum": {
+        "ich": "sanktionierte",
+        "du": "sanktioniertest",
+        "er_sie_es": "sanktionierte",
+        "wir": "sanktionierten",
+        "ihr": "sanktioniertet",
+        "sie_Sie": "sanktionierten"
+      },
+      "konjunktiv1": {
+        "ich": "sanktioniere",
+        "du": "sanktionierest",
+        "er_sie_es": "sanktioniere",
+        "wir": "sanktionieren",
+        "ihr": "sanktionieret",
+        "sie_Sie": "sanktionieren"
+      },
+      "konjunktiv2": {
+        "ich": "sanktionierte",
+        "du": "sanktioniertest",
+        "er_sie_es": "sanktionierte",
+        "wir": "sanktionierten",
+        "ihr": "sanktioniertet",
+        "sie_Sie": "sanktionierten"
+      },
+      "imperativ": {
+        "du": "Sanktioniere!",
+        "ihr": "Sanktioniert!",
+        "Sie": "Sanktionieren Sie!"
+      }
+    },
+    "partizip1": "sanktionierend",
+    "nominalisierung": "die Sanktion"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Sanktion",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تحریم",
+          "en": "sanction"
+        },
+        "id_ref": "nomen_sanktion"
+      },
+      {
+        "wort": "bestrafen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مجازات کردن",
+          "en": "to punish"
+        },
+        "id_ref": "verb_bestrafen"
+      },
+      {
+        "wort": "die Strafe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مجازات",
+          "en": "punishment"
+        },
+        "id_ref": "nomen_strafe"
+      },
+      {
+        "wort": "das Embargo",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "تحریم تجاری",
+          "en": "embargo"
+        },
+        "id_ref": "nomen_embargo"
+      },
+      {
+        "wort": "die Regel",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قاعده",
+          "en": "rule"
+        },
+        "id_ref": "nomen_regel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
