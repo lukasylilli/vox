@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_ummanteln",
+  "wort": "ummanteln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "روکش کردن، پوشش دادن"
+    ],
+    "en": [
+      "to sheathe",
+      "to coat"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Technik"
+  ],
+  "ipa": "ʊmˈmantl̩n",
+  "anmerkung": null,
+  "berufe": [
+    "technik",
+    "bau"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Man ummantelt das Kabel.",
+      "uebersetzung": {
+        "fa": "کابل را روکش می‌کنند.",
+        "en": "The cable is sheathed."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Rohre werden mit Schaumstoff ummantelt, damit sie im Winter nicht einfrieren.",
+      "uebersetzung": {
+        "fa": "لوله‌ها را با فوم روکش می‌کنند تا در زمستان یخ نزنند.",
+        "en": "The pipes are sheathed in foam so that they do not freeze in winter."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "umhüllen",
+      "uebersetzung": {
+        "fa": "پیچیدن، پوشاندن",
+        "en": "to wrap"
+      }
+    },
+    {
+      "wort": "isolieren",
+      "uebersetzung": {
+        "fa": "عایق‌کاری کردن",
+        "en": "to insulate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "um- (دور) + der Mantel (پوشش)",
+    "en": "um- (around) + der Mantel (coat)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "ummanteln mit + Dat",
+        "bedeutung": "mit einer Schutzschicht umgeben",
+        "beispiel": "Der Draht ist mit Kunststoff ummantelt.",
+        "uebersetzung": {
+          "fa": "سیم با پلاستیک روکش شده است.",
+          "en": "The wire is coated with plastic."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ummanteln",
+      "praeteritum": "ummantelte",
+      "partizip2": "ummantelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ummantle",
+        "du": "ummantelst",
+        "er_sie_es": "ummantelt",
+        "wir": "ummanteln",
+        "ihr": "ummantelt",
+        "sie_Sie": "ummanteln"
+      },
+      "praeteritum": {
+        "ich": "ummantelte",
+        "du": "ummanteltest",
+        "er_sie_es": "ummantelte",
+        "wir": "ummantelten",
+        "ihr": "ummanteltet",
+        "sie_Sie": "ummantelten"
+      },
+      "konjunktiv1": {
+        "ich": "ummantle",
+        "du": "ummantlest",
+        "er_sie_es": "ummantle",
+        "wir": "ummanteln",
+        "ihr": "ummantlet",
+        "sie_Sie": "ummanteln"
+      },
+      "konjunktiv2": {
+        "ich": "ummantelte",
+        "du": "ummanteltest",
+        "er_sie_es": "ummantelte",
+        "wir": "ummantelten",
+        "ihr": "ummanteltet",
+        "sie_Sie": "ummantelten"
+      },
+      "imperativ": {
+        "du": "Ummantle!",
+        "ihr": "Ummantelt!",
+        "Sie": "Ummanteln Sie!"
+      }
+    },
+    "partizip1": "ummantelnd",
+    "nominalisierung": "die Ummantelung"
+  },
+  "wortnetz": {
+    "grundwort": "Mantel",
+    "woerter": [
+      {
+        "wort": "der Mantel",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پالتو، پوشش",
+          "en": "coat"
+        },
+        "id_ref": "nomen_mantel"
+      },
+      {
+        "wort": "das Kabel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کابل",
+          "en": "cable"
+        },
+        "id_ref": "nomen_kabel"
+      },
+      {
+        "wort": "isolieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عایق‌کاری کردن",
+          "en": "to insulate"
+        },
+        "id_ref": "verb_isolieren"
+      },
+      {
+        "wort": "schützen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "محافظت کردن",
+          "en": "to protect"
+        },
+        "id_ref": "verb_schuetzen"
+      },
+      {
+        "wort": "das Rohr",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لوله",
+          "en": "pipe"
+        },
+        "id_ref": "nomen_rohr"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_ueben",
+  "wort": "üben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تمرین کردن"
+    ],
+    "en": [
+      "to practise"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Lernen",
+    "Schule"
+  ],
+  "ipa": "ˈyːbn̩",
+  "anmerkung": "Feste Wendungen: «Kritik üben» (kritisieren), «Geduld üben» (geduldig sein).",
+  "berufe": [
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich übe jeden Tag Deutsch.",
+      "uebersetzung": {
+        "fa": "هر روز آلمانی تمرین می‌کنم.",
+        "en": "I practise German every day."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn du vor der Prüfung genug übst, wirst du sicher bestehen.",
+      "uebersetzung": {
+        "fa": "اگر پیش از امتحان به اندازه‌ی کافی تمرین کنی، حتماً قبول می‌شوی.",
+        "en": "If you practise enough before the exam, you will certainly pass."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "trainieren",
+      "uebersetzung": {
+        "fa": "تمرین کردن",
+        "en": "to train"
+      }
+    },
+    {
+      "wort": "wiederholen",
+      "uebersetzung": {
+        "fa": "تکرار کردن",
+        "en": "to repeat"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن uoben (پرورش دادن، به کار بستن)",
+    "en": "from Old High German uoben (to cultivate, to practise)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "üben",
+      "praeteritum": "übte",
+      "partizip2": "geübt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "übe",
+        "du": "übst",
+        "er_sie_es": "übt",
+        "wir": "üben",
+        "ihr": "übt",
+        "sie_Sie": "üben"
+      },
+      "praeteritum": {
+        "ich": "übte",
+        "du": "übtest",
+        "er_sie_es": "übte",
+        "wir": "übten",
+        "ihr": "übtet",
+        "sie_Sie": "übten"
+      },
+      "konjunktiv1": {
+        "ich": "übe",
+        "du": "übest",
+        "er_sie_es": "übe",
+        "wir": "üben",
+        "ihr": "übet",
+        "sie_Sie": "üben"
+      },
+      "konjunktiv2": {
+        "ich": "übte",
+        "du": "übtest",
+        "er_sie_es": "übte",
+        "wir": "übten",
+        "ihr": "übtet",
+        "sie_Sie": "übten"
+      },
+      "imperativ": {
+        "du": "Übe!",
+        "ihr": "Übt!",
+        "Sie": "Üben Sie!"
+      }
+    },
+    "partizip1": "übend",
+    "nominalisierung": "die Übung"
+  },
+  "wortnetz": {
+    "grundwort": "Übung",
+    "woerter": [
+      {
+        "wort": "lernen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "یاد گرفتن",
+          "en": "to learn"
+        },
+        "id_ref": "verb_lernen"
+      },
+      {
+        "wort": "die Übung",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تمرین",
+          "en": "exercise"
+        },
+        "id_ref": "nomen_uebung"
+      },
+      {
+        "wort": "wiederholen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تکرار کردن",
+          "en": "to repeat"
+        },
+        "id_ref": "verb_wiederholen"
+      },
+      {
+        "wort": "trainieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تمرین کردن",
+          "en": "to train"
+        },
+        "id_ref": "verb_trainieren"
+      },
+      {
+        "wort": "die Prüfung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "امتحان",
+          "en": "exam"
+        },
+        "id_ref": "nomen_pruefung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

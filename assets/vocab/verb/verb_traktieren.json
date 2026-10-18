@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_traktieren",
+  "wort": "traktieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آزار دادن، بد رفتار کردن",
+      "پیاپی گیر دادن"
+    ],
+    "en": [
+      "to mistreat",
+      "to pester"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Verhalten"
+  ],
+  "ipa": "tʁakˈtiːʁən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er traktiert seinen Bruder.",
+      "uebersetzung": {
+        "fa": "او برادرش را اذیت می‌کند.",
+        "en": "He torments his brother."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Kinder wurden stundenlang mit langweiligen Vorträgen traktiert.",
+      "uebersetzung": {
+        "fa": "بچه‌ها ساعت‌ها با سخنرانی‌های کسل‌کننده اذیت شدند.",
+        "en": "The children were subjected to boring lectures for hours."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "quälen",
+      "uebersetzung": {
+        "fa": "آزار دادن",
+        "en": "to torment"
+      }
+    },
+    {
+      "wort": "belästigen",
+      "uebersetzung": {
+        "fa": "مزاحم شدن",
+        "en": "to bother"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین tractare (رفتار کردن با)",
+    "en": "from Latin tractare (to handle)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "traktieren mit + Dat",
+        "bedeutung": "jemanden mit etwas plagen",
+        "beispiel": "Sie traktierte ihn mit Fragen.",
+        "uebersetzung": {
+          "fa": "او را با سؤال‌ها کلافه کرد.",
+          "en": "She pestered him with questions."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "traktieren",
+      "praeteritum": "traktierte",
+      "partizip2": "traktiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "traktiere",
+        "du": "traktierst",
+        "er_sie_es": "traktiert",
+        "wir": "traktieren",
+        "ihr": "traktiert",
+        "sie_Sie": "traktieren"
+      },
+      "praeteritum": {
+        "ich": "traktierte",
+        "du": "traktiertest",
+        "er_sie_es": "traktierte",
+        "wir": "traktierten",
+        "ihr": "traktiertet",
+        "sie_Sie": "traktierten"
+      },
+      "konjunktiv1": {
+        "ich": "traktiere",
+        "du": "traktierest",
+        "er_sie_es": "traktiere",
+        "wir": "traktieren",
+        "ihr": "traktieret",
+        "sie_Sie": "traktieren"
+      },
+      "konjunktiv2": {
+        "ich": "traktierte",
+        "du": "traktiertest",
+        "er_sie_es": "traktierte",
+        "wir": "traktierten",
+        "ihr": "traktiertet",
+        "sie_Sie": "traktierten"
+      },
+      "imperativ": {
+        "du": "Traktiere!",
+        "ihr": "Traktiert!",
+        "Sie": "Traktieren Sie!"
+      }
+    },
+    "partizip1": "traktierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "quälen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آزار دادن",
+          "en": "to torment"
+        },
+        "id_ref": "verb_quaelen"
+      },
+      {
+        "wort": "ärgern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عصبانی کردن",
+          "en": "to annoy"
+        },
+        "id_ref": "verb_aergern"
+      },
+      {
+        "wort": "belästigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مزاحم شدن",
+          "en": "to bother"
+        },
+        "id_ref": "verb_belaestigen"
+      },
+      {
+        "wort": "schlagen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زدن",
+          "en": "to hit"
+        },
+        "id_ref": "verb_schlagen"
+      },
+      {
+        "wort": "nerven",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کلافه کردن",
+          "en": "to get on someone’s nerves"
+        },
+        "id_ref": "verb_nerven"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

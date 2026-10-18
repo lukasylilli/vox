@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_testieren",
+  "wort": "testieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گواهی کردن",
+      "کتباً تأیید کردن"
+    ],
+    "en": [
+      "to certify",
+      "to attest"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Verwaltung",
+    "Recht"
+  ],
+  "ipa": "tɛsˈtiːʁən",
+  "anmerkung": "Fachsprache (Wirtschaftsprüfung, Hochschule); in der Rechtssprache auch «ein Testament machen».",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Prüfer testiert die Bilanz.",
+      "uebersetzung": {
+        "fa": "حسابرس ترازنامه را تأیید می‌کند.",
+        "en": "The auditor certifies the balance sheet."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Jahresabschluss wurde ohne Einschränkungen testiert, was die Anleger beruhigte.",
+      "uebersetzung": {
+        "fa": "صورت‌های مالی سالانه بدون قید تأیید شد که سرمایه‌گذاران را آرام کرد.",
+        "en": "The annual accounts were certified without qualification, which reassured investors."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bescheinigen",
+      "uebersetzung": {
+        "fa": "گواهی کردن",
+        "en": "to certify"
+      }
+    },
+    {
+      "wort": "bestätigen",
+      "uebersetzung": {
+        "fa": "تأیید کردن",
+        "en": "to confirm"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین testari (گواهی دادن)",
+    "en": "from Latin testari (to bear witness)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "testieren",
+      "praeteritum": "testierte",
+      "partizip2": "testiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "testiere",
+        "du": "testierst",
+        "er_sie_es": "testiert",
+        "wir": "testieren",
+        "ihr": "testiert",
+        "sie_Sie": "testieren"
+      },
+      "praeteritum": {
+        "ich": "testierte",
+        "du": "testiertest",
+        "er_sie_es": "testierte",
+        "wir": "testierten",
+        "ihr": "testiertet",
+        "sie_Sie": "testierten"
+      },
+      "konjunktiv1": {
+        "ich": "testiere",
+        "du": "testierest",
+        "er_sie_es": "testiere",
+        "wir": "testieren",
+        "ihr": "testieret",
+        "sie_Sie": "testieren"
+      },
+      "konjunktiv2": {
+        "ich": "testierte",
+        "du": "testiertest",
+        "er_sie_es": "testierte",
+        "wir": "testierten",
+        "ihr": "testiertet",
+        "sie_Sie": "testierten"
+      },
+      "imperativ": {
+        "du": "Testiere!",
+        "ihr": "Testiert!",
+        "Sie": "Testieren Sie!"
+      }
+    },
+    "partizip1": "testierend",
+    "nominalisierung": "das Testat"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "bestätigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تأیید کردن",
+          "en": "to confirm"
+        },
+        "id_ref": "verb_bestaetigen"
+      },
+      {
+        "wort": "bescheinigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گواهی کردن",
+          "en": "to certify"
+        },
+        "id_ref": "verb_bescheinigen"
+      },
+      {
+        "wort": "die Bescheinigung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گواهی",
+          "en": "certificate"
+        },
+        "id_ref": "nomen_bescheinigung"
+      },
+      {
+        "wort": "das Testament",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "وصیت‌نامه",
+          "en": "will"
+        },
+        "id_ref": "nomen_testament"
+      },
+      {
+        "wort": "prüfen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بررسی کردن",
+          "en": "to check"
+        },
+        "id_ref": "verb_pruefen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

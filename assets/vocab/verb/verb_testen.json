@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_testen",
+  "wort": "testen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آزمایش کردن",
+      "امتحان کردن"
+    ],
+    "en": [
+      "to test",
+      "to try out"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Arbeit",
+    "Technik"
+  ],
+  "ipa": "ˈtɛstn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "it"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich teste das neue Handy.",
+      "uebersetzung": {
+        "fa": "گوشی جدید را امتحان می‌کنم.",
+        "en": "I am testing the new phone."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bevor das Produkt verkauft wird, testen wir es mehrere Wochen lang.",
+      "uebersetzung": {
+        "fa": "پیش از فروش محصول، چند هفته آن را آزمایش می‌کنیم.",
+        "en": "Before the product is sold, we test it for several weeks."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "prüfen",
+      "uebersetzung": {
+        "fa": "بررسی کردن",
+        "en": "to check"
+      }
+    },
+    {
+      "wort": "ausprobieren",
+      "uebersetzung": {
+        "fa": "امتحان کردن",
+        "en": "to try out"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از der Test (آزمون)",
+    "en": "from der Test (test)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "testen auf + Akk",
+        "bedeutung": "prüfen, ob etwas vorhanden ist",
+        "beispiel": "Das Blut wird auf Viren getestet.",
+        "uebersetzung": {
+          "fa": "خون از نظر ویروس آزمایش می‌شود.",
+          "en": "The blood is tested for viruses."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "testen",
+      "praeteritum": "testete",
+      "partizip2": "getestet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "teste",
+        "du": "testest",
+        "er_sie_es": "testet",
+        "wir": "testen",
+        "ihr": "testet",
+        "sie_Sie": "testen"
+      },
+      "praeteritum": {
+        "ich": "testete",
+        "du": "testetest",
+        "er_sie_es": "testete",
+        "wir": "testeten",
+        "ihr": "testetet",
+        "sie_Sie": "testeten"
+      },
+      "konjunktiv1": {
+        "ich": "teste",
+        "du": "testest",
+        "er_sie_es": "teste",
+        "wir": "testen",
+        "ihr": "testet",
+        "sie_Sie": "testen"
+      },
+      "konjunktiv2": {
+        "ich": "testete",
+        "du": "testetest",
+        "er_sie_es": "testete",
+        "wir": "testeten",
+        "ihr": "testetet",
+        "sie_Sie": "testeten"
+      },
+      "imperativ": {
+        "du": "Teste!",
+        "ihr": "Testet!",
+        "Sie": "Testen Sie!"
+      }
+    },
+    "partizip1": "testend",
+    "nominalisierung": "der Test"
+  },
+  "wortnetz": {
+    "grundwort": "Test",
+    "woerter": [
+      {
+        "wort": "der Test",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آزمون",
+          "en": "test"
+        },
+        "id_ref": "nomen_test"
+      },
+      {
+        "wort": "prüfen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بررسی کردن",
+          "en": "to check"
+        },
+        "id_ref": "verb_pruefen"
+      },
+      {
+        "wort": "ausprobieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "امتحان کردن",
+          "en": "to try out"
+        },
+        "id_ref": "verb_ausprobieren"
+      },
+      {
+        "wort": "das Ergebnis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نتیجه",
+          "en": "result"
+        },
+        "id_ref": "nomen_ergebnis"
+      },
+      {
+        "wort": "die Prüfung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "امتحان",
+          "en": "exam"
+        },
+        "id_ref": "nomen_pruefung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

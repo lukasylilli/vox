@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_transportieren",
+  "wort": "transportieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "حمل کردن",
+      "جابه‌جا کردن"
+    ],
+    "en": [
+      "to transport",
+      "to carry"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Verkehr",
+    "Arbeit"
+  ],
+  "ipa": "tʁanspɔʁˈtiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Lkw transportiert Möbel.",
+      "uebersetzung": {
+        "fa": "کامیون مبلمان حمل می‌کند.",
+        "en": "The lorry transports furniture."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Verletzte wurde ins Krankenhaus transportiert, nachdem der Notarzt ihn versorgt hatte.",
+      "uebersetzung": {
+        "fa": "مجروح پس از رسیدگی پزشک اورژانس به بیمارستان منتقل شد.",
+        "en": "The injured man was taken to hospital after the emergency doctor had treated him."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "befördern",
+      "uebersetzung": {
+        "fa": "حمل کردن",
+        "en": "to convey"
+      }
+    },
+    {
+      "wort": "bringen",
+      "uebersetzung": {
+        "fa": "آوردن، بردن",
+        "en": "to bring"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین trans (آن سو) + portare (بردن)",
+    "en": "from Latin trans (across) + portare (to carry)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "transportieren",
+      "praeteritum": "transportierte",
+      "partizip2": "transportiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "transportiere",
+        "du": "transportierst",
+        "er_sie_es": "transportiert",
+        "wir": "transportieren",
+        "ihr": "transportiert",
+        "sie_Sie": "transportieren"
+      },
+      "praeteritum": {
+        "ich": "transportierte",
+        "du": "transportiertest",
+        "er_sie_es": "transportierte",
+        "wir": "transportierten",
+        "ihr": "transportiertet",
+        "sie_Sie": "transportierten"
+      },
+      "konjunktiv1": {
+        "ich": "transportiere",
+        "du": "transportierest",
+        "er_sie_es": "transportiere",
+        "wir": "transportieren",
+        "ihr": "transportieret",
+        "sie_Sie": "transportieren"
+      },
+      "konjunktiv2": {
+        "ich": "transportierte",
+        "du": "transportiertest",
+        "er_sie_es": "transportierte",
+        "wir": "transportierten",
+        "ihr": "transportiertet",
+        "sie_Sie": "transportierten"
+      },
+      "imperativ": {
+        "du": "Transportiere!",
+        "ihr": "Transportiert!",
+        "Sie": "Transportieren Sie!"
+      }
+    },
+    "partizip1": "transportierend",
+    "nominalisierung": "der Transport"
+  },
+  "wortnetz": {
+    "grundwort": "Transport",
+    "woerter": [
+      {
+        "wort": "bringen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آوردن، بردن",
+          "en": "to bring"
+        },
+        "id_ref": "verb_bringen"
+      },
+      {
+        "wort": "der Transport",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حمل‌ونقل",
+          "en": "transport"
+        },
+        "id_ref": "nomen_transport"
+      },
+      {
+        "wort": "der Lkw",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کامیون",
+          "en": "lorry"
+        },
+        "id_ref": "nomen_lkw"
+      },
+      {
+        "wort": "liefern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تحویل دادن",
+          "en": "to deliver"
+        },
+        "id_ref": "verb_liefern"
+      },
+      {
+        "wort": "befördern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حمل کردن",
+          "en": "to convey"
+        },
+        "id_ref": "verb_befoerdern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

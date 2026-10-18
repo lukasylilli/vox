@@ -1,0 +1,198 @@
+{
+  "schema": "3.0",
+  "id": "verb_trennen",
+  "wort": "trennen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جدا کردن",
+      "از هم جدا شدن"
+    ],
+    "en": [
+      "to separate",
+      "to split up"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Beziehungen",
+    "Umwelt"
+  ],
+  "ipa": "ˈtʁɛnən",
+  "anmerkung": null,
+  "berufe": [
+    "reinigung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir trennen den Müll.",
+      "uebersetzung": {
+        "fa": "زباله‌ها را تفکیک می‌کنیم.",
+        "en": "We separate the rubbish."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nach zehn Jahren Ehe haben sie sich getrennt, weil sie sich nur noch stritten.",
+      "uebersetzung": {
+        "fa": "پس از ده سال زندگی مشترک از هم جدا شدند، چون فقط دعوا می‌کردند.",
+        "en": "After ten years of marriage they separated because they only argued."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "teilen",
+      "uebersetzung": {
+        "fa": "تقسیم کردن",
+        "en": "to divide"
+      }
+    },
+    {
+      "wort": "scheiden",
+      "uebersetzung": {
+        "fa": "جدا کردن",
+        "en": "to part"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verbinden",
+      "uebersetzung": {
+        "fa": "وصل کردن",
+        "en": "to connect"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن trennen (از هم گسستن)",
+    "en": "from Old High German trennen (to sever)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich trennen von + Dat",
+        "bedeutung": "eine Beziehung beenden; etwas weggeben",
+        "beispiel": "Sie hat sich von ihrem Freund getrennt.",
+        "uebersetzung": {
+          "fa": "او از دوست‌پسرش جدا شد.",
+          "en": "She split up with her boyfriend."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "trennen",
+      "praeteritum": "trennte",
+      "partizip2": "getrennt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "trenne",
+        "du": "trennst",
+        "er_sie_es": "trennt",
+        "wir": "trennen",
+        "ihr": "trennt",
+        "sie_Sie": "trennen"
+      },
+      "praeteritum": {
+        "ich": "trennte",
+        "du": "trenntest",
+        "er_sie_es": "trennte",
+        "wir": "trennten",
+        "ihr": "trenntet",
+        "sie_Sie": "trennten"
+      },
+      "konjunktiv1": {
+        "ich": "trenne",
+        "du": "trennest",
+        "er_sie_es": "trenne",
+        "wir": "trennen",
+        "ihr": "trennet",
+        "sie_Sie": "trennen"
+      },
+      "konjunktiv2": {
+        "ich": "trennte",
+        "du": "trenntest",
+        "er_sie_es": "trennte",
+        "wir": "trennten",
+        "ihr": "trenntet",
+        "sie_Sie": "trennten"
+      },
+      "imperativ": {
+        "du": "Trenne!",
+        "ihr": "Trennt!",
+        "Sie": "Trennen Sie!"
+      }
+    },
+    "partizip1": "trennend",
+    "nominalisierung": "die Trennung"
+  },
+  "wortnetz": {
+    "grundwort": "Trennung",
+    "woerter": [
+      {
+        "wort": "getrennt",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جدا",
+          "en": "separate"
+        },
+        "id_ref": "adjektiv_getrennt"
+      },
+      {
+        "wort": "die Trennung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جدایی",
+          "en": "separation"
+        },
+        "id_ref": "nomen_trennung"
+      },
+      {
+        "wort": "der Müll",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زباله",
+          "en": "rubbish"
+        },
+        "id_ref": "nomen_muell"
+      },
+      {
+        "wort": "verbinden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وصل کردن",
+          "en": "to connect"
+        },
+        "id_ref": "verb_verbinden"
+      },
+      {
+        "wort": "scheiden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جدا کردن",
+          "en": "to divorce"
+        },
+        "id_ref": "verb_scheiden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_tilgen",
+  "wort": "tilgen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بازپرداخت کردن (بدهی)",
+      "پاک کردن، از میان بردن"
+    ],
+    "en": [
+      "to pay off",
+      "to erase"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Finanzen"
+  ],
+  "ipa": "ˈtɪlɡn̩",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir tilgen den Kredit.",
+      "uebersetzung": {
+        "fa": "وام را بازپرداخت می‌کنیم.",
+        "en": "We are paying off the loan."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach zehn Jahren hatten sie die Schulden endlich vollständig getilgt.",
+      "uebersetzung": {
+        "fa": "پس از ده سال بالاخره بدهی‌ها را کامل پرداخته بودند.",
+        "en": "After ten years they had finally paid off the debts completely."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abzahlen",
+      "uebersetzung": {
+        "fa": "قسطی پرداختن",
+        "en": "to pay off"
+      }
+    },
+    {
+      "wort": "löschen",
+      "uebersetzung": {
+        "fa": "پاک کردن",
+        "en": "to delete"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی میانه tīligen (نابود کردن)",
+    "en": "from Middle High German tīligen (to destroy)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "tilgen",
+      "praeteritum": "tilgte",
+      "partizip2": "getilgt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "tilge",
+        "du": "tilgst",
+        "er_sie_es": "tilgt",
+        "wir": "tilgen",
+        "ihr": "tilgt",
+        "sie_Sie": "tilgen"
+      },
+      "praeteritum": {
+        "ich": "tilgte",
+        "du": "tilgtest",
+        "er_sie_es": "tilgte",
+        "wir": "tilgten",
+        "ihr": "tilgtet",
+        "sie_Sie": "tilgten"
+      },
+      "konjunktiv1": {
+        "ich": "tilge",
+        "du": "tilgest",
+        "er_sie_es": "tilge",
+        "wir": "tilgen",
+        "ihr": "tilget",
+        "sie_Sie": "tilgen"
+      },
+      "konjunktiv2": {
+        "ich": "tilgte",
+        "du": "tilgtest",
+        "er_sie_es": "tilgte",
+        "wir": "tilgten",
+        "ihr": "tilgtet",
+        "sie_Sie": "tilgten"
+      },
+      "imperativ": {
+        "du": "Tilge!",
+        "ihr": "Tilgt!",
+        "Sie": "Tilgen Sie!"
+      }
+    },
+    "partizip1": "tilgend",
+    "nominalisierung": "die Tilgung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Schulden",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بدهی",
+          "en": "debts"
+        },
+        "id_ref": "nomen_schulden"
+      },
+      {
+        "wort": "der Kredit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وام",
+          "en": "loan"
+        },
+        "id_ref": "nomen_kredit"
+      },
+      {
+        "wort": "zahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_zahlen"
+      },
+      {
+        "wort": "abzahlen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قسطی پرداختن",
+          "en": "to pay off"
+        },
+        "id_ref": "verb_abzahlen"
+      },
+      {
+        "wort": "die Bank",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بانک",
+          "en": "bank"
+        },
+        "id_ref": "nomen_bank"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

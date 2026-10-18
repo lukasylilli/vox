@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_troepfeln",
+  "wort": "tröpfeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "قطره‌قطره چکیدن",
+      "نم‌نم باریدن"
+    ],
+    "en": [
+      "to drip",
+      "to drizzle"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wetter"
+  ],
+  "ipa": "ˈtʁœpfl̩n",
+  "anmerkung": "Mit Richtungsangabe mit «sein» (das Wasser ist auf den Boden getröpfelt); unpersönlich «es tröpfelt» = es regnet leicht.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Es tröpfelt nur.",
+      "uebersetzung": {
+        "fa": "فقط نم‌نم می‌بارد.",
+        "en": "It is only drizzling."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Aus dem undichten Wasserhahn ist die ganze Nacht Wasser ins Becken getröpfelt.",
+      "uebersetzung": {
+        "fa": "از شیر آبی که نشتی داشت، تمام شب آب قطره‌قطره در سینک چکید.",
+        "en": "Water dripped from the leaking tap into the basin all night."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "tropfen",
+      "uebersetzung": {
+        "fa": "چکیدن",
+        "en": "to drip"
+      }
+    },
+    {
+      "wort": "nieseln",
+      "uebersetzung": {
+        "fa": "نم‌نم باریدن",
+        "en": "to drizzle"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از tropfen (چکیدن)",
+    "en": "from tropfen (to drip)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "tröpfeln",
+      "praeteritum": "tröpfelte",
+      "partizip2": "getröpfelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "tröpfle",
+        "du": "tröpfelst",
+        "er_sie_es": "tröpfelt",
+        "wir": "tröpfeln",
+        "ihr": "tröpfelt",
+        "sie_Sie": "tröpfeln"
+      },
+      "praeteritum": {
+        "ich": "tröpfelte",
+        "du": "tröpfeltest",
+        "er_sie_es": "tröpfelte",
+        "wir": "tröpfelten",
+        "ihr": "tröpfeltet",
+        "sie_Sie": "tröpfelten"
+      },
+      "konjunktiv1": {
+        "ich": "tröpfle",
+        "du": "tröpflest",
+        "er_sie_es": "tröpfle",
+        "wir": "tröpfeln",
+        "ihr": "tröpflet",
+        "sie_Sie": "tröpfeln"
+      },
+      "konjunktiv2": {
+        "ich": "tröpfelte",
+        "du": "tröpfeltest",
+        "er_sie_es": "tröpfelte",
+        "wir": "tröpfelten",
+        "ihr": "tröpfeltet",
+        "sie_Sie": "tröpfelten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "tröpfelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Tropfen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قطره",
+          "en": "drop"
+        },
+        "id_ref": "nomen_tropfen"
+      },
+      {
+        "wort": "tropfen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چکیدن",
+          "en": "to drip"
+        },
+        "id_ref": "verb_tropfen"
+      },
+      {
+        "wort": "regnen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باران باریدن",
+          "en": "to rain"
+        },
+        "id_ref": "verb_regnen"
+      },
+      {
+        "wort": "nieseln",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نم‌نم باریدن",
+          "en": "to drizzle"
+        },
+        "id_ref": "verb_nieseln"
+      },
+      {
+        "wort": "das Wasser",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب",
+          "en": "water"
+        },
+        "id_ref": "nomen_wasser"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

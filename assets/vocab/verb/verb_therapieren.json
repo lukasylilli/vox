@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_therapieren",
+  "wort": "therapieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "درمان کردن"
+    ],
+    "en": [
+      "to treat",
+      "to give therapy to"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gesundheit",
+    "Medizin"
+  ],
+  "ipa": "teʁaˈpiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Arzt therapiert die Kinder.",
+      "uebersetzung": {
+        "fa": "پزشک کودکان را درمان می‌کند.",
+        "en": "The doctor treats the children."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Entzündung muss sofort therapiert werden, damit sie sich nicht ausbreitet.",
+      "uebersetzung": {
+        "fa": "التهاب باید فوراً درمان شود تا گسترش پیدا نکند.",
+        "en": "The inflammation must be treated immediately so that it does not spread."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "behandeln",
+      "uebersetzung": {
+        "fa": "درمان کردن",
+        "en": "to treat"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از die Therapie (درمان)",
+    "en": "from die Therapie (therapy)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "therapieren",
+      "praeteritum": "therapierte",
+      "partizip2": "therapiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "therapiere",
+        "du": "therapierst",
+        "er_sie_es": "therapiert",
+        "wir": "therapieren",
+        "ihr": "therapiert",
+        "sie_Sie": "therapieren"
+      },
+      "praeteritum": {
+        "ich": "therapierte",
+        "du": "therapiertest",
+        "er_sie_es": "therapierte",
+        "wir": "therapierten",
+        "ihr": "therapiertet",
+        "sie_Sie": "therapierten"
+      },
+      "konjunktiv1": {
+        "ich": "therapiere",
+        "du": "therapierest",
+        "er_sie_es": "therapiere",
+        "wir": "therapieren",
+        "ihr": "therapieret",
+        "sie_Sie": "therapieren"
+      },
+      "konjunktiv2": {
+        "ich": "therapierte",
+        "du": "therapiertest",
+        "er_sie_es": "therapierte",
+        "wir": "therapierten",
+        "ihr": "therapiertet",
+        "sie_Sie": "therapierten"
+      },
+      "imperativ": {
+        "du": "Therapiere!",
+        "ihr": "Therapiert!",
+        "Sie": "Therapieren Sie!"
+      }
+    },
+    "partizip1": "therapierend",
+    "nominalisierung": "die Therapie"
+  },
+  "wortnetz": {
+    "grundwort": "Therapie",
+    "woerter": [
+      {
+        "wort": "der Arzt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پزشک",
+          "en": "doctor"
+        },
+        "id_ref": "nomen_arzt"
+      },
+      {
+        "wort": "die Therapie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درمان",
+          "en": "therapy"
+        },
+        "id_ref": "nomen_therapie"
+      },
+      {
+        "wort": "behandeln",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درمان کردن",
+          "en": "to treat"
+        },
+        "id_ref": "verb_behandeln"
+      },
+      {
+        "wort": "heilen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شفا دادن",
+          "en": "to heal"
+        },
+        "id_ref": "verb_heilen"
+      },
+      {
+        "wort": "der Therapeut",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "درمانگر",
+          "en": "therapist"
+        },
+        "id_ref": "nomen_therapeut"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

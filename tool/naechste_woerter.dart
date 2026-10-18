@@ -1977,6 +1977,25 @@ const zurueckgestellt = <String>{
   'tarieren', // zurückgestellt: Fachsprache (Waage), selten — nicht sicher (Regel 14) 2026-10-18
   'tattern', // zurückgestellt: umgangssprachlich, selten — nicht sicher (Regel 14) 2026-10-18
   'telegrafieren', // zurückgestellt: veraltend — nicht sicher (Regel 14) 2026-10-18
+  'telegraphieren', // zurückgestellt: veraltete Schreibung von telegrafieren, veraltend — nicht sicher (Regel 14) 2026-10-18
+  'tigern', // zurückgestellt: umgangssprachlich, Hilfsverb sein — nicht sicher (Regel 14) 2026-10-18
+  'tingeln', // zurückgestellt: umgangssprachlich, Hilfsverb schwankt — nicht sicher (Regel 14/16) 2026-10-18
+  'tippeln', // zurückgestellt: umgangssprachlich, Hilfsverb sein — nicht sicher (Regel 14) 2026-10-18
+  'tirilieren', // zurückgestellt: dichterisch, selten — nicht sicher (Regel 14) 2026-10-18
+  'tischlern', // zurückgestellt: umgangssprachlich, selten (wie schreinern) — nicht sicher (Regel 14) 2026-10-18
+  'trassieren', // zurückgestellt: Fachsprache (Vermessung/Bank), selten — nicht sicher (Regel 14) 2026-10-18
+  'travestieren', // zurückgestellt: Fachsprache Literatur, selten — nicht sicher (Regel 14) 2026-10-18
+  'tremolieren', // zurückgestellt: Fachsprache Musik, selten — nicht sicher (Regel 14) 2026-10-18
+  'triezen', // zurückgestellt: umgangssprachlich, landschaftlich — nicht sicher (Regel 14) 2026-10-18
+  'trotteln', // zurückgestellt: umgangssprachlich, selten, Hilfsverb sein — nicht sicher (Regel 14) 2026-10-18
+  'trutzen', // zurückgestellt: veraltet — nicht sicher (Regel 14) 2026-10-18
+  'tüpfeln', // zurückgestellt: selten — nicht sicher (Regel 14) 2026-10-18
+  'türmen', // zurückgestellt: zwei Bedeutungen mit verschiedenem Hilfsverb (stapeln: haben / fliehen: sein) — nicht sicher (Regel 16) 2026-10-18
+  'übersetzen', // zurückgestellt: trennbar UND untrennbar (setzte über ↔ übersetzte) — «🔀» (Regel 16) 2026-10-18
+  'umfloren', // zurückgestellt: gehoben, selten — nicht sicher (Regel 14) 2026-10-18
+  'umschiffen', // zurückgestellt: trennbar UND untrennbar (schiffte um ↔ umschiffte) — «🔀» (Regel 16) 2026-10-18
+  'umwölken', // zurückgestellt: gehoben, selten — nicht sicher (Regel 14) 2026-10-18
+  'unifizieren', // zurückgestellt: Fachsprache, selten — nicht sicher (Regel 14) 2026-10-18
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

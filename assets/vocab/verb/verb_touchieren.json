@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_touchieren",
+  "wort": "touchieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به‌آرامی برخورد کردن، مماس شدن",
+      "لمس کردن"
+    ],
+    "en": [
+      "to graze",
+      "to touch lightly"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Verkehr",
+    "Sport"
+  ],
+  "ipa": "tuˈʃiːʁən",
+  "anmerkung": "In der Medizin auch «mit dem Finger untersuchen» (rektal touchieren).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Auto touchiert die Wand.",
+      "uebersetzung": {
+        "fa": "ماشین آرام به دیوار برخورد می‌کند.",
+        "en": "The car grazes the wall."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Beim Einparken hat er ein anderes Fahrzeug touchiert, ohne es zu bemerken.",
+      "uebersetzung": {
+        "fa": "هنگام پارک کردن به ماشین دیگری برخورد کرد، بدون این‌که متوجه شود.",
+        "en": "When parking he grazed another vehicle without noticing."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "streifen",
+      "uebersetzung": {
+        "fa": "ساییدن، مماس شدن",
+        "en": "to graze"
+      }
+    },
+    {
+      "wort": "berühren",
+      "uebersetzung": {
+        "fa": "لمس کردن",
+        "en": "to touch"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از فرانسوی toucher (لمس کردن)",
+    "en": "from French toucher (to touch)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "touchieren",
+      "praeteritum": "touchierte",
+      "partizip2": "touchiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "touchiere",
+        "du": "touchierst",
+        "er_sie_es": "touchiert",
+        "wir": "touchieren",
+        "ihr": "touchiert",
+        "sie_Sie": "touchieren"
+      },
+      "praeteritum": {
+        "ich": "touchierte",
+        "du": "touchiertest",
+        "er_sie_es": "touchierte",
+        "wir": "touchierten",
+        "ihr": "touchiertet",
+        "sie_Sie": "touchierten"
+      },
+      "konjunktiv1": {
+        "ich": "touchiere",
+        "du": "touchierest",
+        "er_sie_es": "touchiere",
+        "wir": "touchieren",
+        "ihr": "touchieret",
+        "sie_Sie": "touchieren"
+      },
+      "konjunktiv2": {
+        "ich": "touchierte",
+        "du": "touchiertest",
+        "er_sie_es": "touchierte",
+        "wir": "touchierten",
+        "ihr": "touchiertet",
+        "sie_Sie": "touchierten"
+      },
+      "imperativ": {
+        "du": "Touchiere!",
+        "ihr": "Touchiert!",
+        "Sie": "Touchieren Sie!"
+      }
+    },
+    "partizip1": "touchierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "berühren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لمس کردن",
+          "en": "to touch"
+        },
+        "id_ref": "verb_beruehren"
+      },
+      {
+        "wort": "streifen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ساییدن",
+          "en": "to graze"
+        },
+        "id_ref": "verb_streifen"
+      },
+      {
+        "wort": "der Unfall",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تصادف",
+          "en": "accident"
+        },
+        "id_ref": "nomen_unfall"
+      },
+      {
+        "wort": "einparken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پارک کردن",
+          "en": "to park"
+        },
+        "id_ref": "verb_einparken"
+      },
+      {
+        "wort": "der Schaden",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خسارت",
+          "en": "damage"
+        },
+        "id_ref": "nomen_schaden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_trimmen",
+  "wort": "trimmen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کوتاه و مرتب کردن (مو، چمن)",
+      "آماده کردن، تنظیم کردن"
+    ],
+    "en": [
+      "to trim",
+      "to tune"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Aussehen",
+    "Garten"
+  ],
+  "ipa": "ˈtʁɪmən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er trimmt seinen Bart.",
+      "uebersetzung": {
+        "fa": "ریشش را مرتب کوتاه می‌کند.",
+        "en": "He trims his beard."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Firma wurde jahrelang auf Effizienz getrimmt, sodass kaum noch Personal übrig blieb.",
+      "uebersetzung": {
+        "fa": "شرکت سال‌ها برای کارایی تنظیم شد، طوری که تقریباً کارمندی باقی نماند.",
+        "en": "The company was geared to efficiency for years, so that hardly any staff remained."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schneiden",
+      "uebersetzung": {
+        "fa": "بریدن",
+        "en": "to cut"
+      }
+    },
+    {
+      "wort": "kürzen",
+      "uebersetzung": {
+        "fa": "کوتاه کردن",
+        "en": "to shorten"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از انگلیسی to trim",
+    "en": "from English to trim"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "trimmen auf + Akk",
+        "bedeutung": "gezielt auf etwas ausrichten",
+        "beispiel": "Das Auto ist auf Sparsamkeit getrimmt.",
+        "uebersetzung": {
+          "fa": "این ماشین برای کم‌مصرفی تنظیم شده است.",
+          "en": "The car is tuned for economy."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "trimmen",
+      "praeteritum": "trimmte",
+      "partizip2": "getrimmt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "trimme",
+        "du": "trimmst",
+        "er_sie_es": "trimmt",
+        "wir": "trimmen",
+        "ihr": "trimmt",
+        "sie_Sie": "trimmen"
+      },
+      "praeteritum": {
+        "ich": "trimmte",
+        "du": "trimmtest",
+        "er_sie_es": "trimmte",
+        "wir": "trimmten",
+        "ihr": "trimmtet",
+        "sie_Sie": "trimmten"
+      },
+      "konjunktiv1": {
+        "ich": "trimme",
+        "du": "trimmest",
+        "er_sie_es": "trimme",
+        "wir": "trimmen",
+        "ihr": "trimmet",
+        "sie_Sie": "trimmen"
+      },
+      "konjunktiv2": {
+        "ich": "trimmte",
+        "du": "trimmtest",
+        "er_sie_es": "trimmte",
+        "wir": "trimmten",
+        "ihr": "trimmtet",
+        "sie_Sie": "trimmten"
+      },
+      "imperativ": {
+        "du": "Trimme!",
+        "ihr": "Trimmt!",
+        "Sie": "Trimmen Sie!"
+      }
+    },
+    "partizip1": "trimmend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "schneiden",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بریدن",
+          "en": "to cut"
+        },
+        "id_ref": "verb_schneiden"
+      },
+      {
+        "wort": "der Bart",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریش",
+          "en": "beard"
+        },
+        "id_ref": "nomen_bart"
+      },
+      {
+        "wort": "der Rasen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چمن",
+          "en": "lawn"
+        },
+        "id_ref": "nomen_rasen"
+      },
+      {
+        "wort": "kürzen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کوتاه کردن",
+          "en": "to shorten"
+        },
+        "id_ref": "verb_kuerzen"
+      },
+      {
+        "wort": "pflegen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مراقبت کردن",
+          "en": "to look after"
+        },
+        "id_ref": "verb_pflegen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_traeufeln",
+  "wort": "träufeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "قطره‌قطره ریختن",
+      "چکاندن"
+    ],
+    "en": [
+      "to drip",
+      "to trickle"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Küche"
+  ],
+  "ipa": "ˈtʁɔɪ̯fl̩n",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie träufelt Öl auf den Salat.",
+      "uebersetzung": {
+        "fa": "روی سالاد قطره‌قطره روغن می‌ریزد.",
+        "en": "She drizzles oil on the salad."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Pflegerin träufelte dem Kind vorsichtig Tropfen ins Ohr, damit die Entzündung heilt.",
+      "uebersetzung": {
+        "fa": "پرستار با احتیاط قطره در گوش کودک چکاند تا عفونت خوب شود.",
+        "en": "The nurse carefully dripped drops into the child’s ear so that the infection would heal."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "tropfen",
+      "uebersetzung": {
+        "fa": "چکیدن، چکاندن",
+        "en": "to drip"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از tropfen (چکیدن)",
+    "en": "from tropfen (to drip)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "träufeln auf/in + Akk",
+        "bedeutung": "etwas tropfenweise irgendwohin geben",
+        "beispiel": "Träufle die Tropfen in das linke Auge.",
+        "uebersetzung": {
+          "fa": "قطره را در چشم چپ بچکان.",
+          "en": "Drip the drops into the left eye."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "träufeln",
+      "praeteritum": "träufelte",
+      "partizip2": "geträufelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "träufle",
+        "du": "träufelst",
+        "er_sie_es": "träufelt",
+        "wir": "träufeln",
+        "ihr": "träufelt",
+        "sie_Sie": "träufeln"
+      },
+      "praeteritum": {
+        "ich": "träufelte",
+        "du": "träufeltest",
+        "er_sie_es": "träufelte",
+        "wir": "träufelten",
+        "ihr": "träufeltet",
+        "sie_Sie": "träufelten"
+      },
+      "konjunktiv1": {
+        "ich": "träufle",
+        "du": "träuflest",
+        "er_sie_es": "träufle",
+        "wir": "träufeln",
+        "ihr": "träuflet",
+        "sie_Sie": "träufeln"
+      },
+      "konjunktiv2": {
+        "ich": "träufelte",
+        "du": "träufeltest",
+        "er_sie_es": "träufelte",
+        "wir": "träufelten",
+        "ihr": "träufeltet",
+        "sie_Sie": "träufelten"
+      },
+      "imperativ": {
+        "du": "Träufle!",
+        "ihr": "Träufelt!",
+        "Sie": "Träufeln Sie!"
+      }
+    },
+    "partizip1": "träufelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Tropfen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قطره",
+          "en": "drop"
+        },
+        "id_ref": "nomen_tropfen"
+      },
+      {
+        "wort": "tropfen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چکیدن",
+          "en": "to drip"
+        },
+        "id_ref": "verb_tropfen"
+      },
+      {
+        "wort": "das Öl",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "روغن",
+          "en": "oil"
+        },
+        "id_ref": "nomen_oel"
+      },
+      {
+        "wort": "gießen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ریختن",
+          "en": "to pour"
+        },
+        "id_ref": "verb_giessen"
+      },
+      {
+        "wort": "das Auge",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چشم",
+          "en": "eye"
+        },
+        "id_ref": "nomen_auge"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

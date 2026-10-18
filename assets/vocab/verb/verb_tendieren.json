@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_tendieren",
+  "wort": "tendieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گرایش داشتن",
+      "متمایل بودن"
+    ],
+    "en": [
+      "to tend",
+      "to lean towards"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Meinung"
+  ],
+  "ipa": "tɛnˈdiːʁən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich tendiere zum roten Kleid.",
+      "uebersetzung": {
+        "fa": "بیشتر به لباس قرمز تمایل دارم.",
+        "en": "I am leaning towards the red dress."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Umfragen zeigen, dass viele Wähler zur Mitte tendieren.",
+      "uebersetzung": {
+        "fa": "نظرسنجی‌ها نشان می‌دهند که بسیاری از رأی‌دهندگان به میانه گرایش دارند.",
+        "en": "The polls show that many voters lean towards the centre."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "neigen",
+      "uebersetzung": {
+        "fa": "متمایل بودن",
+        "en": "to incline"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین tendere (کشیدن، رو به سویی داشتن)",
+    "en": "from Latin tendere (to stretch, to aim)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "tendieren zu + Dat",
+        "bedeutung": "zu etwas neigen",
+        "beispiel": "Er tendiert zu einer schnellen Lösung.",
+        "uebersetzung": {
+          "fa": "او به یک راه‌حل سریع گرایش دارد.",
+          "en": "He tends towards a quick solution."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "tendieren",
+      "praeteritum": "tendierte",
+      "partizip2": "tendiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "tendiere",
+        "du": "tendierst",
+        "er_sie_es": "tendiert",
+        "wir": "tendieren",
+        "ihr": "tendiert",
+        "sie_Sie": "tendieren"
+      },
+      "praeteritum": {
+        "ich": "tendierte",
+        "du": "tendiertest",
+        "er_sie_es": "tendierte",
+        "wir": "tendierten",
+        "ihr": "tendiertet",
+        "sie_Sie": "tendierten"
+      },
+      "konjunktiv1": {
+        "ich": "tendiere",
+        "du": "tendierest",
+        "er_sie_es": "tendiere",
+        "wir": "tendieren",
+        "ihr": "tendieret",
+        "sie_Sie": "tendieren"
+      },
+      "konjunktiv2": {
+        "ich": "tendierte",
+        "du": "tendiertest",
+        "er_sie_es": "tendierte",
+        "wir": "tendierten",
+        "ihr": "tendiertet",
+        "sie_Sie": "tendierten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "tendierend",
+    "nominalisierung": "die Tendenz"
+  },
+  "wortnetz": {
+    "grundwort": "Tendenz",
+    "woerter": [
+      {
+        "wort": "die Tendenz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گرایش",
+          "en": "tendency"
+        },
+        "id_ref": "nomen_tendenz"
+      },
+      {
+        "wort": "neigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "متمایل بودن",
+          "en": "to incline"
+        },
+        "id_ref": "verb_neigen"
+      },
+      {
+        "wort": "die Meinung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نظر",
+          "en": "opinion"
+        },
+        "id_ref": "nomen_meinung"
+      },
+      {
+        "wort": "wählen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "انتخاب کردن",
+          "en": "to choose"
+        },
+        "id_ref": "verb_waehlen"
+      },
+      {
+        "wort": "bevorzugen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ترجیح دادن",
+          "en": "to prefer"
+        },
+        "id_ref": "verb_bevorzugen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

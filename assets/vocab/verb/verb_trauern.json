@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_trauern",
+  "wort": "trauern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "عزادار بودن",
+      "سوگواری کردن"
+    ],
+    "en": [
+      "to mourn",
+      "to grieve"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gefühle",
+    "Tod"
+  ],
+  "ipa": "ˈtʁaʊ̯ɐn",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Familie trauert.",
+      "uebersetzung": {
+        "fa": "خانواده عزادار است.",
+        "en": "The family is mourning."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Viele Menschen trauerten um den Sänger, der plötzlich gestorben war.",
+      "uebersetzung": {
+        "fa": "بسیاری برای خواننده‌ای که ناگهان درگذشته بود سوگواری کردند.",
+        "en": "Many people mourned the singer who had died suddenly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "klagen",
+      "uebersetzung": {
+        "fa": "شیون کردن",
+        "en": "to lament"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sich freuen",
+      "uebersetzung": {
+        "fa": "شاد بودن",
+        "en": "to be happy"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن trūrēn (غمگین بودن)",
+    "en": "from Old High German trūrēn (to be sad)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "trauern um + Akk",
+        "bedeutung": "über den Verlust von jemandem traurig sein",
+        "beispiel": "Sie trauert um ihren Großvater.",
+        "uebersetzung": {
+          "fa": "او برای پدربزرگش عزاداری می‌کند.",
+          "en": "She is mourning her grandfather."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "trauern",
+      "praeteritum": "trauerte",
+      "partizip2": "getrauert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "trauere",
+        "du": "trauerst",
+        "er_sie_es": "trauert",
+        "wir": "trauern",
+        "ihr": "trauert",
+        "sie_Sie": "trauern"
+      },
+      "praeteritum": {
+        "ich": "trauerte",
+        "du": "trauertest",
+        "er_sie_es": "trauerte",
+        "wir": "trauerten",
+        "ihr": "trauertet",
+        "sie_Sie": "trauerten"
+      },
+      "konjunktiv1": {
+        "ich": "trauere",
+        "du": "trauerest",
+        "er_sie_es": "trauere",
+        "wir": "trauern",
+        "ihr": "traueret",
+        "sie_Sie": "trauern"
+      },
+      "konjunktiv2": {
+        "ich": "trauerte",
+        "du": "trauertest",
+        "er_sie_es": "trauerte",
+        "wir": "trauerten",
+        "ihr": "trauertet",
+        "sie_Sie": "trauerten"
+      },
+      "imperativ": {
+        "du": "Trauere!",
+        "ihr": "Trauert!",
+        "Sie": "Trauern Sie!"
+      }
+    },
+    "partizip1": "trauernd",
+    "nominalisierung": "die Trauer"
+  },
+  "wortnetz": {
+    "grundwort": "Trauer",
+    "woerter": [
+      {
+        "wort": "traurig",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "غمگین",
+          "en": "sad"
+        },
+        "id_ref": "adjektiv_traurig"
+      },
+      {
+        "wort": "sterben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مردن",
+          "en": "to die"
+        },
+        "id_ref": "verb_sterben"
+      },
+      {
+        "wort": "die Trauer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سوگ",
+          "en": "grief"
+        },
+        "id_ref": "nomen_trauer"
+      },
+      {
+        "wort": "weinen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گریه کردن",
+          "en": "to cry"
+        },
+        "id_ref": "verb_weinen"
+      },
+      {
+        "wort": "die Beerdigung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خاکسپاری",
+          "en": "funeral"
+        },
+        "id_ref": "nomen_beerdigung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

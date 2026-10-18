@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_ueberfrachten",
+  "wort": "überfrachten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بیش از حد بار زدن",
+      "بیش از اندازه پر کردن"
+    ],
+    "en": [
+      "to overload",
+      "to overburden"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Kommunikation"
+  ],
+  "ipa": "yːbɐˈfʁaxtn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Text ist überfrachtet.",
+      "uebersetzung": {
+        "fa": "متن بیش از حد شلوغ است.",
+        "en": "The text is overloaded."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Präsentation war mit so vielen Zahlen überfrachtet, dass niemand mehr folgen konnte.",
+      "uebersetzung": {
+        "fa": "ارائه آن‌قدر پر از عدد بود که دیگر کسی نمی‌توانست دنبال کند.",
+        "en": "The presentation was so overloaded with figures that nobody could follow any more."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "überladen",
+      "uebersetzung": {
+        "fa": "بیش از حد بار کردن",
+        "en": "to overload"
+      }
+    },
+    {
+      "wort": "überlasten",
+      "uebersetzung": {
+        "fa": "بیش از حد بار گذاشتن",
+        "en": "to overburden"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "über- (بیش از حد) + frachten (بار زدن)",
+    "en": "über- (too much) + frachten (to load)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "überfrachten mit + Dat",
+        "bedeutung": "zu viel von etwas hineinpacken",
+        "beispiel": "Der Lehrplan ist mit Stoff überfrachtet.",
+        "uebersetzung": {
+          "fa": "برنامه‌ی درسی بیش از حد پر از مطلب است.",
+          "en": "The curriculum is overloaded with material."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "überfrachten",
+      "praeteritum": "überfrachtete",
+      "partizip2": "überfrachtet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "überfrachte",
+        "du": "überfrachtest",
+        "er_sie_es": "überfrachtet",
+        "wir": "überfrachten",
+        "ihr": "überfrachtet",
+        "sie_Sie": "überfrachten"
+      },
+      "praeteritum": {
+        "ich": "überfrachtete",
+        "du": "überfrachtetest",
+        "er_sie_es": "überfrachtete",
+        "wir": "überfrachteten",
+        "ihr": "überfrachtetet",
+        "sie_Sie": "überfrachteten"
+      },
+      "konjunktiv1": {
+        "ich": "überfrachte",
+        "du": "überfrachtest",
+        "er_sie_es": "überfrachte",
+        "wir": "überfrachten",
+        "ihr": "überfrachtet",
+        "sie_Sie": "überfrachten"
+      },
+      "konjunktiv2": {
+        "ich": "überfrachtete",
+        "du": "überfrachtetest",
+        "er_sie_es": "überfrachtete",
+        "wir": "überfrachteten",
+        "ihr": "überfrachtetet",
+        "sie_Sie": "überfrachteten"
+      },
+      "imperativ": {
+        "du": "Überfrachte!",
+        "ihr": "Überfrachtet!",
+        "Sie": "Überfrachten Sie!"
+      }
+    },
+    "partizip1": "überfrachtend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Fracht",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بار",
+          "en": "freight"
+        },
+        "id_ref": "nomen_fracht"
+      },
+      {
+        "wort": "voll",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پر",
+          "en": "full"
+        },
+        "id_ref": "adjektiv_voll"
+      },
+      {
+        "wort": "überladen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بیش از حد بار کردن",
+          "en": "to overload"
+        },
+        "id_ref": "verb_ueberladen"
+      },
+      {
+        "wort": "überlasten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بیش از حد بار گذاشتن",
+          "en": "to overburden"
+        },
+        "id_ref": "verb_ueberlasten"
+      },
+      {
+        "wort": "kompliziert",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پیچیده",
+          "en": "complicated"
+        },
+        "id_ref": "adjektiv_kompliziert"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

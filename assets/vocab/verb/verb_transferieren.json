@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_transferieren",
+  "wort": "transferieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "انتقال دادن (پول، داده، فرد)"
+    ],
+    "en": [
+      "to transfer"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Finanzen",
+    "Technik"
+  ],
+  "ipa": "tʁansfeˈʁiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "it",
+    "logistik",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich transferiere das Geld.",
+      "uebersetzung": {
+        "fa": "پول را انتقال می‌دهم.",
+        "en": "I am transferring the money."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem die Daten transferiert worden waren, wurde der alte Server abgeschaltet.",
+      "uebersetzung": {
+        "fa": "پس از انتقال داده‌ها، سرور قدیمی خاموش شد.",
+        "en": "After the data had been transferred, the old server was switched off."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "übertragen",
+      "uebersetzung": {
+        "fa": "منتقل کردن",
+        "en": "to transfer"
+      }
+    },
+    {
+      "wort": "überweisen",
+      "uebersetzung": {
+        "fa": "حواله کردن",
+        "en": "to remit"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین transferre (آن سو بردن)",
+    "en": "from Latin transferre (to carry across)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "transferieren",
+      "praeteritum": "transferierte",
+      "partizip2": "transferiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "transferiere",
+        "du": "transferierst",
+        "er_sie_es": "transferiert",
+        "wir": "transferieren",
+        "ihr": "transferiert",
+        "sie_Sie": "transferieren"
+      },
+      "praeteritum": {
+        "ich": "transferierte",
+        "du": "transferiertest",
+        "er_sie_es": "transferierte",
+        "wir": "transferierten",
+        "ihr": "transferiertet",
+        "sie_Sie": "transferierten"
+      },
+      "konjunktiv1": {
+        "ich": "transferiere",
+        "du": "transferierest",
+        "er_sie_es": "transferiere",
+        "wir": "transferieren",
+        "ihr": "transferieret",
+        "sie_Sie": "transferieren"
+      },
+      "konjunktiv2": {
+        "ich": "transferierte",
+        "du": "transferiertest",
+        "er_sie_es": "transferierte",
+        "wir": "transferierten",
+        "ihr": "transferiertet",
+        "sie_Sie": "transferierten"
+      },
+      "imperativ": {
+        "du": "Transferiere!",
+        "ihr": "Transferiert!",
+        "Sie": "Transferieren Sie!"
+      }
+    },
+    "partizip1": "transferierend",
+    "nominalisierung": "der Transfer"
+  },
+  "wortnetz": {
+    "grundwort": "Transfer",
+    "woerter": [
+      {
+        "wort": "überweisen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حواله کردن",
+          "en": "to transfer (money)"
+        },
+        "id_ref": "verb_ueberweisen"
+      },
+      {
+        "wort": "die Daten",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "داده‌ها",
+          "en": "data"
+        },
+        "id_ref": "nomen_daten"
+      },
+      {
+        "wort": "der Transfer",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "انتقال",
+          "en": "transfer"
+        },
+        "id_ref": "nomen_transfer"
+      },
+      {
+        "wort": "übertragen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "منتقل کردن",
+          "en": "to transmit"
+        },
+        "id_ref": "verb_uebertragen"
+      },
+      {
+        "wort": "das Konto",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حساب",
+          "en": "account"
+        },
+        "id_ref": "nomen_konto"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_traeumen",
+  "wort": "träumen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خواب دیدن",
+      "رؤیاپردازی کردن"
+    ],
+    "en": [
+      "to dream"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Gefühle",
+    "Schlaf"
+  ],
+  "ipa": "ˈtʁɔɪ̯mən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich träume oft von meiner Heimat.",
+      "uebersetzung": {
+        "fa": "اغلب خواب وطنم را می‌بینم.",
+        "en": "I often dream of my home country."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Als Kind träumte er davon, eines Tages Pilot zu werden.",
+      "uebersetzung": {
+        "fa": "در کودکی آرزو داشت روزی خلبان شود.",
+        "en": "As a child he dreamed of becoming a pilot one day."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fantasieren",
+      "uebersetzung": {
+        "fa": "خیال‌پردازی کردن",
+        "en": "to fantasize"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از der Traum (خواب، رؤیا)",
+    "en": "from der Traum (dream)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "träumen von + Dat",
+        "bedeutung": "etwas im Traum sehen; sich etwas sehr wünschen",
+        "beispiel": "Sie träumt von einem eigenen Haus.",
+        "uebersetzung": {
+          "fa": "آرزوی یک خانه‌ی شخصی را دارد.",
+          "en": "She dreams of a house of her own."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "träumen",
+      "praeteritum": "träumte",
+      "partizip2": "geträumt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "träume",
+        "du": "träumst",
+        "er_sie_es": "träumt",
+        "wir": "träumen",
+        "ihr": "träumt",
+        "sie_Sie": "träumen"
+      },
+      "praeteritum": {
+        "ich": "träumte",
+        "du": "träumtest",
+        "er_sie_es": "träumte",
+        "wir": "träumten",
+        "ihr": "träumtet",
+        "sie_Sie": "träumten"
+      },
+      "konjunktiv1": {
+        "ich": "träume",
+        "du": "träumest",
+        "er_sie_es": "träume",
+        "wir": "träumen",
+        "ihr": "träumet",
+        "sie_Sie": "träumen"
+      },
+      "konjunktiv2": {
+        "ich": "träumte",
+        "du": "träumtest",
+        "er_sie_es": "träumte",
+        "wir": "träumten",
+        "ihr": "träumtet",
+        "sie_Sie": "träumten"
+      },
+      "imperativ": {
+        "du": "Träume!",
+        "ihr": "Träumt!",
+        "Sie": "Träumen Sie!"
+      }
+    },
+    "partizip1": "träumend",
+    "nominalisierung": "der Traum"
+  },
+  "wortnetz": {
+    "grundwort": "Traum",
+    "woerter": [
+      {
+        "wort": "schlafen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوابیدن",
+          "en": "to sleep"
+        },
+        "id_ref": "verb_schlafen"
+      },
+      {
+        "wort": "der Traum",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خواب، رؤیا",
+          "en": "dream"
+        },
+        "id_ref": "nomen_traum"
+      },
+      {
+        "wort": "wünschen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آرزو کردن",
+          "en": "to wish"
+        },
+        "id_ref": "verb_wuenschen"
+      },
+      {
+        "wort": "die Nacht",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شب",
+          "en": "night"
+        },
+        "id_ref": "nomen_nacht"
+      },
+      {
+        "wort": "der Albtraum",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کابوس",
+          "en": "nightmare"
+        },
+        "id_ref": "nomen_albtraum"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

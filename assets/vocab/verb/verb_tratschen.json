@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_tratschen",
+  "wort": "tratschen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "غیبت کردن",
+      "پشت سر کسی حرف زدن"
+    ],
+    "en": [
+      "to gossip"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kommunikation",
+    "Alltag"
+  ],
+  "ipa": "ˈtʁaːt͡ʃn̩",
+  "anmerkung": "Umgangssprachlich.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Nachbarn tratschen gern.",
+      "uebersetzung": {
+        "fa": "همسایه‌ها غیبت کردن را دوست دارند.",
+        "en": "The neighbours like to gossip."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Büro wurde tagelang darüber getratscht, warum der Chef gekündigt hatte.",
+      "uebersetzung": {
+        "fa": "در اداره روزها درباره‌ی این غیبت می‌شد که چرا رئیس استعفا داده بود.",
+        "en": "In the office people gossiped for days about why the boss had resigned."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "klatschen",
+      "uebersetzung": {
+        "fa": "غیبت کردن",
+        "en": "to gossip"
+      }
+    },
+    {
+      "wort": "lästern",
+      "uebersetzung": {
+        "fa": "بدگویی کردن",
+        "en": "to badmouth"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "واژه‌ی نام‌آوا (صدای پرحرفی)",
+    "en": "onomatopoeic (sound of chatter)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "tratschen über + Akk",
+        "bedeutung": "über jemanden klatschen",
+        "beispiel": "Sie tratschen über die neue Kollegin.",
+        "uebersetzung": {
+          "fa": "درباره‌ی همکار جدید غیبت می‌کنند.",
+          "en": "They gossip about the new colleague."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "tratschen",
+      "praeteritum": "tratschte",
+      "partizip2": "getratscht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "tratsche",
+        "du": "tratschst",
+        "er_sie_es": "tratscht",
+        "wir": "tratschen",
+        "ihr": "tratscht",
+        "sie_Sie": "tratschen"
+      },
+      "praeteritum": {
+        "ich": "tratschte",
+        "du": "tratschtest",
+        "er_sie_es": "tratschte",
+        "wir": "tratschten",
+        "ihr": "tratschtet",
+        "sie_Sie": "tratschten"
+      },
+      "konjunktiv1": {
+        "ich": "tratsche",
+        "du": "tratschest",
+        "er_sie_es": "tratsche",
+        "wir": "tratschen",
+        "ihr": "tratschet",
+        "sie_Sie": "tratschen"
+      },
+      "konjunktiv2": {
+        "ich": "tratschte",
+        "du": "tratschtest",
+        "er_sie_es": "tratschte",
+        "wir": "tratschten",
+        "ihr": "tratschtet",
+        "sie_Sie": "tratschten"
+      },
+      "imperativ": {
+        "du": "Tratsche!",
+        "ihr": "Tratscht!",
+        "Sie": "Tratschen Sie!"
+      }
+    },
+    "partizip1": "tratschend",
+    "nominalisierung": "der Tratsch"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "reden",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حرف زدن",
+          "en": "to talk"
+        },
+        "id_ref": "verb_reden"
+      },
+      {
+        "wort": "der Nachbar",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "همسایه",
+          "en": "neighbour"
+        },
+        "id_ref": "nomen_nachbar"
+      },
+      {
+        "wort": "das Gerücht",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شایعه",
+          "en": "rumour"
+        },
+        "id_ref": "nomen_geruecht"
+      },
+      {
+        "wort": "lästern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بدگویی کردن",
+          "en": "to badmouth"
+        },
+        "id_ref": "verb_laestern"
+      },
+      {
+        "wort": "der Klatsch",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "غیبت",
+          "en": "gossip"
+        },
+        "id_ref": "nomen_klatsch"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

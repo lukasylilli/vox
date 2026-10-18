@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_umranden",
+  "wort": "umranden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دور چیزی خط کشیدن",
+      "حاشیه دادن"
+    ],
+    "en": [
+      "to border",
+      "to outline"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Schule",
+    "Design"
+  ],
+  "ipa": "ʊmˈʁandn̩",
+  "anmerkung": null,
+  "berufe": [
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Umrande das richtige Wort!",
+      "uebersetzung": {
+        "fa": "دور کلمه‌ی درست خط بکش!",
+        "en": "Circle the right word!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die wichtigsten Termine sind im Kalender rot umrandet, damit man sie nicht übersieht.",
+      "uebersetzung": {
+        "fa": "مهم‌ترین قرارها در تقویم با قرمز دورشان خط کشیده شده تا از چشم نیفتند.",
+        "en": "The most important dates are outlined in red in the calendar so that you do not overlook them."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einkreisen",
+      "uebersetzung": {
+        "fa": "دور چیزی دایره کشیدن",
+        "en": "to circle"
+      }
+    },
+    {
+      "wort": "umrahmen",
+      "uebersetzung": {
+        "fa": "قاب گرفتن",
+        "en": "to frame"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "um- (دور) + der Rand (لبه)",
+    "en": "um- (around) + der Rand (edge)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "umranden mit + Dat",
+        "bedeutung": "mit einem Rand versehen",
+        "beispiel": "Der Teich ist mit Steinen umrandet.",
+        "uebersetzung": {
+          "fa": "دور برکه با سنگ حاشیه‌بندی شده است.",
+          "en": "The pond is bordered with stones."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "umranden",
+      "praeteritum": "umrandete",
+      "partizip2": "umrandet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "umrande",
+        "du": "umrandest",
+        "er_sie_es": "umrandet",
+        "wir": "umranden",
+        "ihr": "umrandet",
+        "sie_Sie": "umranden"
+      },
+      "praeteritum": {
+        "ich": "umrandete",
+        "du": "umrandetest",
+        "er_sie_es": "umrandete",
+        "wir": "umrandeten",
+        "ihr": "umrandetet",
+        "sie_Sie": "umrandeten"
+      },
+      "konjunktiv1": {
+        "ich": "umrande",
+        "du": "umrandest",
+        "er_sie_es": "umrande",
+        "wir": "umranden",
+        "ihr": "umrandet",
+        "sie_Sie": "umranden"
+      },
+      "konjunktiv2": {
+        "ich": "umrandete",
+        "du": "umrandetest",
+        "er_sie_es": "umrandete",
+        "wir": "umrandeten",
+        "ihr": "umrandetet",
+        "sie_Sie": "umrandeten"
+      },
+      "imperativ": {
+        "du": "Umrande!",
+        "ihr": "Umrandet!",
+        "Sie": "Umranden Sie!"
+      }
+    },
+    "partizip1": "umrandend",
+    "nominalisierung": "die Umrandung"
+  },
+  "wortnetz": {
+    "grundwort": "Rand",
+    "woerter": [
+      {
+        "wort": "der Rand",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لبه، حاشیه",
+          "en": "edge"
+        },
+        "id_ref": "nomen_rand"
+      },
+      {
+        "wort": "der Kreis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دایره",
+          "en": "circle"
+        },
+        "id_ref": "nomen_kreis"
+      },
+      {
+        "wort": "markieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "علامت زدن",
+          "en": "to mark"
+        },
+        "id_ref": "verb_markieren"
+      },
+      {
+        "wort": "die Linie",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خط",
+          "en": "line"
+        },
+        "id_ref": "nomen_linie"
+      },
+      {
+        "wort": "der Rahmen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قاب",
+          "en": "frame"
+        },
+        "id_ref": "nomen_rahmen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_trachten",
+  "wort": "trachten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کوشیدن (برای رسیدن به چیزی)"
+    ],
+    "en": [
+      "to strive",
+      "to seek"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Ziele"
+  ],
+  "ipa": "ˈtʁaxtn̩",
+  "anmerkung": "Gehoben; feste Wendung «jemandem nach dem Leben trachten» (jemanden töten wollen).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er trachtet nach Ruhm.",
+      "uebersetzung": {
+        "fa": "او در پی شهرت است.",
+        "en": "He strives for fame."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Seine Feinde trachteten ihm nach dem Leben, deshalb musste er fliehen.",
+      "uebersetzung": {
+        "fa": "دشمنانش قصد جانش را داشتند، برای همین مجبور شد فرار کند.",
+        "en": "His enemies sought to take his life, so he had to flee."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "streben",
+      "uebersetzung": {
+        "fa": "کوشیدن",
+        "en": "to strive"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین tractare (پرداختن به چیزی)",
+    "en": "from Latin tractare (to handle)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "trachten nach + Dat",
+        "bedeutung": "etwas unbedingt erreichen wollen",
+        "beispiel": "Sie trachtet nach Macht und Einfluss.",
+        "uebersetzung": {
+          "fa": "او در پی قدرت و نفوذ است.",
+          "en": "She strives for power and influence."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "trachten",
+      "praeteritum": "trachtete",
+      "partizip2": "getrachtet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "trachte",
+        "du": "trachtest",
+        "er_sie_es": "trachtet",
+        "wir": "trachten",
+        "ihr": "trachtet",
+        "sie_Sie": "trachten"
+      },
+      "praeteritum": {
+        "ich": "trachtete",
+        "du": "trachtetest",
+        "er_sie_es": "trachtete",
+        "wir": "trachteten",
+        "ihr": "trachtetet",
+        "sie_Sie": "trachteten"
+      },
+      "konjunktiv1": {
+        "ich": "trachte",
+        "du": "trachtest",
+        "er_sie_es": "trachte",
+        "wir": "trachten",
+        "ihr": "trachtet",
+        "sie_Sie": "trachten"
+      },
+      "konjunktiv2": {
+        "ich": "trachtete",
+        "du": "trachtetest",
+        "er_sie_es": "trachtete",
+        "wir": "trachteten",
+        "ihr": "trachtetet",
+        "sie_Sie": "trachteten"
+      },
+      "imperativ": {
+        "du": "Trachte!",
+        "ihr": "Trachtet!",
+        "Sie": "Trachten Sie!"
+      }
+    },
+    "partizip1": "trachtend",
+    "nominalisierung": "das Trachten"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "streben",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کوشیدن",
+          "en": "to strive"
+        },
+        "id_ref": "verb_streben"
+      },
+      {
+        "wort": "wollen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خواستن",
+          "en": "to want"
+        },
+        "id_ref": "verb_wollen"
+      },
+      {
+        "wort": "das Ziel",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "هدف",
+          "en": "goal"
+        },
+        "id_ref": "nomen_ziel"
+      },
+      {
+        "wort": "versuchen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سعی کردن",
+          "en": "to try"
+        },
+        "id_ref": "verb_versuchen"
+      },
+      {
+        "wort": "erreichen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رسیدن به",
+          "en": "to reach"
+        },
+        "id_ref": "verb_erreichen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,171 @@
+{
+  "schema": "3.0",
+  "id": "verb_texten",
+  "wort": "texten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "متن نوشتن (تبلیغ یا ترانه)",
+      "پیامک فرستادن"
+    ],
+    "en": [
+      "to write copy or lyrics",
+      "to text"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Medien",
+    "Kommunikation"
+  ],
+  "ipa": "ˈtɛkstn̩",
+  "anmerkung": "Umgangssprachlich auch «eine Nachricht schreiben» (ich texte dir später).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie textet für eine Werbeagentur.",
+      "uebersetzung": {
+        "fa": "او برای یک آژانس تبلیغاتی متن می‌نویسد.",
+        "en": "She writes copy for an advertising agency."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Er hat die Lieder selbst getextet, während seine Freundin die Musik komponierte.",
+      "uebersetzung": {
+        "fa": "او ترانه‌ها را خودش نوشت، در حالی که دوستش موسیقی را ساخت.",
+        "en": "He wrote the lyrics himself while his girlfriend composed the music."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schreiben",
+      "uebersetzung": {
+        "fa": "نوشتن",
+        "en": "to write"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از der Text (متن)",
+    "en": "from der Text (text)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "texten",
+      "praeteritum": "textete",
+      "partizip2": "getextet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "texte",
+        "du": "textest",
+        "er_sie_es": "textet",
+        "wir": "texten",
+        "ihr": "textet",
+        "sie_Sie": "texten"
+      },
+      "praeteritum": {
+        "ich": "textete",
+        "du": "textetest",
+        "er_sie_es": "textete",
+        "wir": "texteten",
+        "ihr": "textetet",
+        "sie_Sie": "texteten"
+      },
+      "konjunktiv1": {
+        "ich": "texte",
+        "du": "textest",
+        "er_sie_es": "texte",
+        "wir": "texten",
+        "ihr": "textet",
+        "sie_Sie": "texten"
+      },
+      "konjunktiv2": {
+        "ich": "textete",
+        "du": "textetest",
+        "er_sie_es": "textete",
+        "wir": "texteten",
+        "ihr": "textetet",
+        "sie_Sie": "texteten"
+      },
+      "imperativ": {
+        "du": "Texte!",
+        "ihr": "Textet!",
+        "Sie": "Texten Sie!"
+      }
+    },
+    "partizip1": "textend",
+    "nominalisierung": "der Texter"
+  },
+  "wortnetz": {
+    "grundwort": "Text",
+    "woerter": [
+      {
+        "wort": "der Text",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "متن",
+          "en": "text"
+        },
+        "id_ref": "nomen_text"
+      },
+      {
+        "wort": "schreiben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نوشتن",
+          "en": "to write"
+        },
+        "id_ref": "verb_schreiben"
+      },
+      {
+        "wort": "die Nachricht",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پیام",
+          "en": "message"
+        },
+        "id_ref": "nomen_nachricht"
+      },
+      {
+        "wort": "die Werbung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تبلیغ",
+          "en": "advertising"
+        },
+        "id_ref": "nomen_werbung"
+      },
+      {
+        "wort": "das Lied",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ترانه",
+          "en": "song"
+        },
+        "id_ref": "nomen_lied"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

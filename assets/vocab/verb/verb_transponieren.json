@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_transponieren",
+  "wort": "transponieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به گام دیگری بردن (موسیقی)",
+      "جابه‌جا کردن"
+    ],
+    "en": [
+      "to transpose"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Musik"
+  ],
+  "ipa": "tʁanspoˈniːʁən",
+  "anmerkung": "Fachsprache: Musik, Mathematik (Matrix), Recht (EU-Richtlinie umsetzen).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er transponiert das Lied.",
+      "uebersetzung": {
+        "fa": "او آهنگ را به گام دیگری می‌برد.",
+        "en": "He transposes the song."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil die Sängerin nicht so hoch singen kann, wurde das Stück eine Terz tiefer transponiert.",
+      "uebersetzung": {
+        "fa": "چون خواننده نمی‌تواند آن‌قدر بالا بخواند، قطعه یک سوم پایین‌تر برده شد.",
+        "en": "Because the singer cannot sing so high, the piece was transposed a third lower."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "übertragen",
+      "uebersetzung": {
+        "fa": "منتقل کردن",
+        "en": "to transfer"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین transponere (جابه‌جا گذاشتن)",
+    "en": "from Latin transponere (to put across)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "transponieren in + Akk",
+        "bedeutung": "in eine andere Tonart oder Form übertragen",
+        "beispiel": "Sie transponiert das Lied in G-Dur.",
+        "uebersetzung": {
+          "fa": "او آهنگ را به سل ماژور می‌برد.",
+          "en": "She transposes the song into G major."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "transponieren",
+      "praeteritum": "transponierte",
+      "partizip2": "transponiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "transponiere",
+        "du": "transponierst",
+        "er_sie_es": "transponiert",
+        "wir": "transponieren",
+        "ihr": "transponiert",
+        "sie_Sie": "transponieren"
+      },
+      "praeteritum": {
+        "ich": "transponierte",
+        "du": "transponiertest",
+        "er_sie_es": "transponierte",
+        "wir": "transponierten",
+        "ihr": "transponiertet",
+        "sie_Sie": "transponierten"
+      },
+      "konjunktiv1": {
+        "ich": "transponiere",
+        "du": "transponierest",
+        "er_sie_es": "transponiere",
+        "wir": "transponieren",
+        "ihr": "transponieret",
+        "sie_Sie": "transponieren"
+      },
+      "konjunktiv2": {
+        "ich": "transponierte",
+        "du": "transponiertest",
+        "er_sie_es": "transponierte",
+        "wir": "transponierten",
+        "ihr": "transponiertet",
+        "sie_Sie": "transponierten"
+      },
+      "imperativ": {
+        "du": "Transponiere!",
+        "ihr": "Transponiert!",
+        "Sie": "Transponieren Sie!"
+      }
+    },
+    "partizip1": "transponierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Musik",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "موسیقی",
+          "en": "music"
+        },
+        "id_ref": "nomen_musik"
+      },
+      {
+        "wort": "das Lied",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ترانه",
+          "en": "song"
+        },
+        "id_ref": "nomen_lied"
+      },
+      {
+        "wort": "die Note",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نت",
+          "en": "note"
+        },
+        "id_ref": "nomen_note"
+      },
+      {
+        "wort": "übertragen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "منتقل کردن",
+          "en": "to transfer"
+        },
+        "id_ref": "verb_uebertragen"
+      },
+      {
+        "wort": "spielen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نواختن",
+          "en": "to play"
+        },
+        "id_ref": "verb_spielen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

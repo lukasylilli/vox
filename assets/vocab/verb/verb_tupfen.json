@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_tupfen",
+  "wort": "tupfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آرام فشار دادن (با پنبه یا دستمال)",
+      "لکه‌لکه زدن"
+    ],
+    "en": [
+      "to dab"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Medizin",
+    "Haushalt"
+  ],
+  "ipa": "ˈtʊpfn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie tupft die Wunde ab.",
+      "uebersetzung": {
+        "fa": "زخم را آرام با پنبه پاک می‌کند.",
+        "en": "She dabs the wound clean."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Pflegerin tupfte dem Patienten den Schweiß von der Stirn, weil er hohes Fieber hatte.",
+      "uebersetzung": {
+        "fa": "پرستار عرق پیشانی بیمار را آرام پاک کرد، چون تب بالایی داشت.",
+        "en": "The nurse dabbed the sweat from the patient’s forehead because he had a high fever."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "betupfen",
+      "uebersetzung": {
+        "fa": "آرام زدن",
+        "en": "to dab"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از der Tupfen (لکه‌ی کوچک)",
+    "en": "from der Tupfen (dot)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "tupfen auf + Akk",
+        "bedeutung": "etwas leicht auf eine Stelle drücken",
+        "beispiel": "Tupfe etwas Salbe auf die Haut.",
+        "uebersetzung": {
+          "fa": "کمی پماد روی پوست بزن.",
+          "en": "Dab a little ointment onto the skin."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "tupfen",
+      "praeteritum": "tupfte",
+      "partizip2": "getupft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "tupfe",
+        "du": "tupfst",
+        "er_sie_es": "tupft",
+        "wir": "tupfen",
+        "ihr": "tupft",
+        "sie_Sie": "tupfen"
+      },
+      "praeteritum": {
+        "ich": "tupfte",
+        "du": "tupftest",
+        "er_sie_es": "tupfte",
+        "wir": "tupften",
+        "ihr": "tupftet",
+        "sie_Sie": "tupften"
+      },
+      "konjunktiv1": {
+        "ich": "tupfe",
+        "du": "tupfest",
+        "er_sie_es": "tupfe",
+        "wir": "tupfen",
+        "ihr": "tupfet",
+        "sie_Sie": "tupfen"
+      },
+      "konjunktiv2": {
+        "ich": "tupfte",
+        "du": "tupftest",
+        "er_sie_es": "tupfte",
+        "wir": "tupften",
+        "ihr": "tupftet",
+        "sie_Sie": "tupften"
+      },
+      "imperativ": {
+        "du": "Tupfe!",
+        "ihr": "Tupft!",
+        "Sie": "Tupfen Sie!"
+      }
+    },
+    "partizip1": "tupfend",
+    "nominalisierung": "der Tupfer"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Wunde",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زخم",
+          "en": "wound"
+        },
+        "id_ref": "nomen_wunde"
+      },
+      {
+        "wort": "die Watte",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پنبه",
+          "en": "cotton wool"
+        },
+        "id_ref": "nomen_watte"
+      },
+      {
+        "wort": "die Salbe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پماد",
+          "en": "ointment"
+        },
+        "id_ref": "nomen_salbe"
+      },
+      {
+        "wort": "wischen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پاک کردن",
+          "en": "to wipe"
+        },
+        "id_ref": "verb_wischen"
+      },
+      {
+        "wort": "der Punkt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نقطه",
+          "en": "dot"
+        },
+        "id_ref": "nomen_punkt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

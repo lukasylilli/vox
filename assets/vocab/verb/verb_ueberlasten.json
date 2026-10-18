@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_ueberlasten",
+  "wort": "überlasten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بیش از حد بار گذاشتن",
+      "فشار زیاد آوردن"
+    ],
+    "en": [
+      "to overload",
+      "to overstrain"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit",
+    "Technik"
+  ],
+  "ipa": "yːbɐˈlastn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "it",
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Netz ist überlastet.",
+      "uebersetzung": {
+        "fa": "شبکه بیش از حد شلوغ است.",
+        "en": "The network is overloaded."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil viele Kollegen krank sind, ist das Pflegepersonal seit Wochen völlig überlastet.",
+      "uebersetzung": {
+        "fa": "چون بسیاری از همکاران بیمارند، کادر پرستاری هفته‌هاست که به شدت زیر فشار است.",
+        "en": "Because many colleagues are ill, the nursing staff have been completely overworked for weeks."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "überfordern",
+      "uebersetzung": {
+        "fa": "بیش از توان خواستن",
+        "en": "to overtax"
+      }
+    },
+    {
+      "wort": "überanstrengen",
+      "uebersetzung": {
+        "fa": "بیش از حد خسته کردن",
+        "en": "to overexert"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "entlasten",
+      "uebersetzung": {
+        "fa": "بار را سبک کردن",
+        "en": "to relieve"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "über- (بیش از حد) + lasten (سنگینی کردن)",
+    "en": "über- (too much) + lasten (to weigh on)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "überlasten",
+      "praeteritum": "überlastete",
+      "partizip2": "überlastet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "überlaste",
+        "du": "überlastest",
+        "er_sie_es": "überlastet",
+        "wir": "überlasten",
+        "ihr": "überlastet",
+        "sie_Sie": "überlasten"
+      },
+      "praeteritum": {
+        "ich": "überlastete",
+        "du": "überlastetest",
+        "er_sie_es": "überlastete",
+        "wir": "überlasteten",
+        "ihr": "überlastetet",
+        "sie_Sie": "überlasteten"
+      },
+      "konjunktiv1": {
+        "ich": "überlaste",
+        "du": "überlastest",
+        "er_sie_es": "überlaste",
+        "wir": "überlasten",
+        "ihr": "überlastet",
+        "sie_Sie": "überlasten"
+      },
+      "konjunktiv2": {
+        "ich": "überlastete",
+        "du": "überlastetest",
+        "er_sie_es": "überlastete",
+        "wir": "überlasteten",
+        "ihr": "überlastetet",
+        "sie_Sie": "überlasteten"
+      },
+      "imperativ": {
+        "du": "Überlaste!",
+        "ihr": "Überlastet!",
+        "Sie": "Überlasten Sie!"
+      }
+    },
+    "partizip1": "überlastend",
+    "nominalisierung": "die Überlastung"
+  },
+  "wortnetz": {
+    "grundwort": "Last",
+    "woerter": [
+      {
+        "wort": "die Last",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بار",
+          "en": "load"
+        },
+        "id_ref": "nomen_last"
+      },
+      {
+        "wort": "der Stress",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "استرس",
+          "en": "stress"
+        },
+        "id_ref": "nomen_stress"
+      },
+      {
+        "wort": "überfordern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیش از توان خواستن",
+          "en": "to overtax"
+        },
+        "id_ref": "verb_ueberfordern"
+      },
+      {
+        "wort": "entlasten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بار را سبک کردن",
+          "en": "to relieve"
+        },
+        "id_ref": "verb_entlasten"
+      },
+      {
+        "wort": "die Belastung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فشار",
+          "en": "strain"
+        },
+        "id_ref": "nomen_belastung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

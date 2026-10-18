@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_tuefteln",
+  "wort": "tüfteln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "با حوصله روی چیزی کار کردن",
+      "ور رفتن (با دقت)"
+    ],
+    "en": [
+      "to tinker",
+      "to fiddle"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Hobby"
+  ],
+  "ipa": "ˈtʏftl̩n",
+  "anmerkung": null,
+  "berufe": [
+    "it",
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er tüftelt gern.",
+      "uebersetzung": {
+        "fa": "او دوست دارد با حوصله روی چیزها ور برود.",
+        "en": "He likes to tinker."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wochenlang hat sie an der Lösung getüftelt, bis das Programm endlich fehlerfrei lief.",
+      "uebersetzung": {
+        "fa": "هفته‌ها روی راه‌حل کار کرد تا بالاخره برنامه بی‌خطا اجرا شد.",
+        "en": "For weeks she tinkered with the solution until the program finally ran without errors."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "basteln",
+      "uebersetzung": {
+        "fa": "ساختن، ور رفتن",
+        "en": "to tinker"
+      }
+    },
+    {
+      "wort": "knobeln",
+      "uebersetzung": {
+        "fa": "فکر کردن روی معما",
+        "en": "to puzzle over"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "شاید از آلمانی جنوبی tüfteln (ریزه‌کاری کردن)",
+    "en": "possibly from Southern German tüfteln (to do fiddly work)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "tüfteln an + Dat",
+        "bedeutung": "geduldig an etwas arbeiten",
+        "beispiel": "Er tüftelt an einer neuen Erfindung.",
+        "uebersetzung": {
+          "fa": "روی یک اختراع جدید با حوصله کار می‌کند.",
+          "en": "He is tinkering with a new invention."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "tüfteln",
+      "praeteritum": "tüftelte",
+      "partizip2": "getüftelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "tüftle",
+        "du": "tüftelst",
+        "er_sie_es": "tüftelt",
+        "wir": "tüfteln",
+        "ihr": "tüftelt",
+        "sie_Sie": "tüfteln"
+      },
+      "praeteritum": {
+        "ich": "tüftelte",
+        "du": "tüfteltest",
+        "er_sie_es": "tüftelte",
+        "wir": "tüftelten",
+        "ihr": "tüfteltet",
+        "sie_Sie": "tüftelten"
+      },
+      "konjunktiv1": {
+        "ich": "tüftle",
+        "du": "tüftlest",
+        "er_sie_es": "tüftle",
+        "wir": "tüfteln",
+        "ihr": "tüftlet",
+        "sie_Sie": "tüfteln"
+      },
+      "konjunktiv2": {
+        "ich": "tüftelte",
+        "du": "tüfteltest",
+        "er_sie_es": "tüftelte",
+        "wir": "tüftelten",
+        "ihr": "tüfteltet",
+        "sie_Sie": "tüftelten"
+      },
+      "imperativ": {
+        "du": "Tüftle!",
+        "ihr": "Tüftelt!",
+        "Sie": "Tüfteln Sie!"
+      }
+    },
+    "partizip1": "tüftelnd",
+    "nominalisierung": "der Tüftler"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "basteln",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کاردستی ساختن",
+          "en": "to do crafts"
+        },
+        "id_ref": "verb_basteln"
+      },
+      {
+        "wort": "die Lösung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "راه‌حل",
+          "en": "solution"
+        },
+        "id_ref": "nomen_loesung"
+      },
+      {
+        "wort": "genau",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دقیق",
+          "en": "exact"
+        },
+        "id_ref": "adjektiv_genau"
+      },
+      {
+        "wort": "erfinden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اختراع کردن",
+          "en": "to invent"
+        },
+        "id_ref": "verb_erfinden"
+      },
+      {
+        "wort": "knobeln",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "فکر کردن روی معما",
+          "en": "to puzzle over"
+        },
+        "id_ref": "verb_knobeln"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

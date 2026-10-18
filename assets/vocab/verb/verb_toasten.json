@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_toasten",
+  "wort": "toasten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "برشته کردن (نان)",
+      "به سلامتی کسی نوشیدن"
+    ],
+    "en": [
+      "to toast"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Essen",
+    "Feier"
+  ],
+  "ipa": "ˈtoːstn̩",
+  "anmerkung": null,
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich toaste das Brot.",
+      "uebersetzung": {
+        "fa": "نان را برشته می‌کنم.",
+        "en": "I am toasting the bread."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Beim Abendessen stand der Vater auf und toastete auf das Brautpaar.",
+      "uebersetzung": {
+        "fa": "سر شام پدر برخاست و به سلامتی عروس و داماد نوشید.",
+        "en": "At dinner the father stood up and toasted the bride and groom."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rösten",
+      "uebersetzung": {
+        "fa": "برشته کردن",
+        "en": "to roast"
+      }
+    },
+    {
+      "wort": "anstoßen",
+      "uebersetzung": {
+        "fa": "به سلامتی زدن",
+        "en": "to clink glasses"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از انگلیسی to toast",
+    "en": "from English to toast"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "toasten auf + Akk",
+        "bedeutung": "das Glas auf jemanden/etwas erheben",
+        "beispiel": "Wir toasten auf deinen Erfolg!",
+        "uebersetzung": {
+          "fa": "به سلامتی موفقیتت!",
+          "en": "We toast to your success!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "toasten",
+      "praeteritum": "toastete",
+      "partizip2": "getoastet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "toaste",
+        "du": "toastest",
+        "er_sie_es": "toastet",
+        "wir": "toasten",
+        "ihr": "toastet",
+        "sie_Sie": "toasten"
+      },
+      "praeteritum": {
+        "ich": "toastete",
+        "du": "toastetest",
+        "er_sie_es": "toastete",
+        "wir": "toasteten",
+        "ihr": "toastetet",
+        "sie_Sie": "toasteten"
+      },
+      "konjunktiv1": {
+        "ich": "toaste",
+        "du": "toastest",
+        "er_sie_es": "toaste",
+        "wir": "toasten",
+        "ihr": "toastet",
+        "sie_Sie": "toasten"
+      },
+      "konjunktiv2": {
+        "ich": "toastete",
+        "du": "toastetest",
+        "er_sie_es": "toastete",
+        "wir": "toasteten",
+        "ihr": "toastetet",
+        "sie_Sie": "toasteten"
+      },
+      "imperativ": {
+        "du": "Toaste!",
+        "ihr": "Toastet!",
+        "Sie": "Toasten Sie!"
+      }
+    },
+    "partizip1": "toastend",
+    "nominalisierung": "der Toast"
+  },
+  "wortnetz": {
+    "grundwort": "Toast",
+    "woerter": [
+      {
+        "wort": "das Brot",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نان",
+          "en": "bread"
+        },
+        "id_ref": "nomen_brot"
+      },
+      {
+        "wort": "der Toast",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نان تست",
+          "en": "toast"
+        },
+        "id_ref": "nomen_toast"
+      },
+      {
+        "wort": "der Toaster",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تستر",
+          "en": "toaster"
+        },
+        "id_ref": "nomen_toaster"
+      },
+      {
+        "wort": "das Frühstück",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "صبحانه",
+          "en": "breakfast"
+        },
+        "id_ref": "nomen_fruehstueck"
+      },
+      {
+        "wort": "anstoßen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به سلامتی زدن",
+          "en": "to clink glasses"
+        },
+        "id_ref": "verb_anstossen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

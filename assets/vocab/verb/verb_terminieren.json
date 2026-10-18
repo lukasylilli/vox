@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_terminieren",
+  "wort": "terminieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "زمان چیزی را تعیین کردن",
+      "محدود کردن به زمانی"
+    ],
+    "en": [
+      "to schedule",
+      "to set a date for"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Zeit"
+  ],
+  "ipa": "tɛʁmiˈniːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir terminieren das Treffen.",
+      "uebersetzung": {
+        "fa": "زمان جلسه را تعیین می‌کنیم.",
+        "en": "We are scheduling the meeting."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Operation wurde auf nächsten Dienstag terminiert, weil vorher kein Bett frei ist.",
+      "uebersetzung": {
+        "fa": "عمل برای سه‌شنبه‌ی آینده تعیین شد، چون پیش از آن تختی خالی نیست.",
+        "en": "The operation was scheduled for next Tuesday because no bed is free before then."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "festlegen",
+      "uebersetzung": {
+        "fa": "تعیین کردن",
+        "en": "to fix"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از der Termin (وقت، قرار)",
+    "en": "from der Termin (appointment)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "terminieren auf + Akk",
+        "bedeutung": "einen Zeitpunkt für etwas festlegen",
+        "beispiel": "Der Besuch ist auf Freitag terminiert.",
+        "uebersetzung": {
+          "fa": "دیدار برای جمعه تعیین شده است.",
+          "en": "The visit is scheduled for Friday."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "terminieren",
+      "praeteritum": "terminierte",
+      "partizip2": "terminiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "terminiere",
+        "du": "terminierst",
+        "er_sie_es": "terminiert",
+        "wir": "terminieren",
+        "ihr": "terminiert",
+        "sie_Sie": "terminieren"
+      },
+      "praeteritum": {
+        "ich": "terminierte",
+        "du": "terminiertest",
+        "er_sie_es": "terminierte",
+        "wir": "terminierten",
+        "ihr": "terminiertet",
+        "sie_Sie": "terminierten"
+      },
+      "konjunktiv1": {
+        "ich": "terminiere",
+        "du": "terminierest",
+        "er_sie_es": "terminiere",
+        "wir": "terminieren",
+        "ihr": "terminieret",
+        "sie_Sie": "terminieren"
+      },
+      "konjunktiv2": {
+        "ich": "terminierte",
+        "du": "terminiertest",
+        "er_sie_es": "terminierte",
+        "wir": "terminierten",
+        "ihr": "terminiertet",
+        "sie_Sie": "terminierten"
+      },
+      "imperativ": {
+        "du": "Terminiere!",
+        "ihr": "Terminiert!",
+        "Sie": "Terminieren Sie!"
+      }
+    },
+    "partizip1": "terminierend",
+    "nominalisierung": "die Terminierung"
+  },
+  "wortnetz": {
+    "grundwort": "Termin",
+    "woerter": [
+      {
+        "wort": "der Termin",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "وقت، قرار",
+          "en": "appointment"
+        },
+        "id_ref": "nomen_termin"
+      },
+      {
+        "wort": "der Kalender",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تقویم",
+          "en": "calendar"
+        },
+        "id_ref": "nomen_kalender"
+      },
+      {
+        "wort": "planen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برنامه‌ریزی کردن",
+          "en": "to plan"
+        },
+        "id_ref": "verb_planen"
+      },
+      {
+        "wort": "vereinbaren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "توافق کردن",
+          "en": "to arrange"
+        },
+        "id_ref": "verb_vereinbaren"
+      },
+      {
+        "wort": "verschieben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به تعویق انداختن",
+          "en": "to postpone"
+        },
+        "id_ref": "verb_verschieben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

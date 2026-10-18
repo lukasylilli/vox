@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_titulieren",
+  "wort": "titulieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "لقب دادن",
+      "خطاب کردن (به عنوان)"
+    ],
+    "en": [
+      "to call",
+      "to address as"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "tituˈliːʁən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er tituliert sie als Chefin.",
+      "uebersetzung": {
+        "fa": "او را «رئیس» خطاب می‌کند.",
+        "en": "He calls her boss."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In dem Artikel wurde der Minister als Lügner tituliert, was zu einer Klage führte.",
+      "uebersetzung": {
+        "fa": "در آن مقاله وزیر دروغگو خوانده شد که به شکایت انجامید.",
+        "en": "In the article the minister was called a liar, which led to a lawsuit."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nennen",
+      "uebersetzung": {
+        "fa": "نامیدن",
+        "en": "to call"
+      }
+    },
+    {
+      "wort": "bezeichnen",
+      "uebersetzung": {
+        "fa": "نامیدن",
+        "en": "to designate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از der Titel (عنوان)",
+    "en": "from der Titel (title)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "titulieren als + Akk",
+        "bedeutung": "jemanden mit einer Bezeichnung benennen",
+        "beispiel": "Man titulierte ihn als Helden.",
+        "uebersetzung": {
+          "fa": "او را قهرمان خواندند.",
+          "en": "They called him a hero."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "titulieren",
+      "praeteritum": "titulierte",
+      "partizip2": "tituliert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "tituliere",
+        "du": "titulierst",
+        "er_sie_es": "tituliert",
+        "wir": "titulieren",
+        "ihr": "tituliert",
+        "sie_Sie": "titulieren"
+      },
+      "praeteritum": {
+        "ich": "titulierte",
+        "du": "tituliertest",
+        "er_sie_es": "titulierte",
+        "wir": "titulierten",
+        "ihr": "tituliertet",
+        "sie_Sie": "titulierten"
+      },
+      "konjunktiv1": {
+        "ich": "tituliere",
+        "du": "titulierest",
+        "er_sie_es": "tituliere",
+        "wir": "titulieren",
+        "ihr": "titulieret",
+        "sie_Sie": "titulieren"
+      },
+      "konjunktiv2": {
+        "ich": "titulierte",
+        "du": "tituliertest",
+        "er_sie_es": "titulierte",
+        "wir": "titulierten",
+        "ihr": "tituliertet",
+        "sie_Sie": "titulierten"
+      },
+      "imperativ": {
+        "du": "Tituliere!",
+        "ihr": "Tituliert!",
+        "Sie": "Titulieren Sie!"
+      }
+    },
+    "partizip1": "titulierend",
+    "nominalisierung": "die Titulierung"
+  },
+  "wortnetz": {
+    "grundwort": "Titel",
+    "woerter": [
+      {
+        "wort": "der Titel",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عنوان",
+          "en": "title"
+        },
+        "id_ref": "nomen_titel"
+      },
+      {
+        "wort": "nennen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نامیدن",
+          "en": "to call"
+        },
+        "id_ref": "verb_nennen"
+      },
+      {
+        "wort": "der Name",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نام",
+          "en": "name"
+        },
+        "id_ref": "nomen_name"
+      },
+      {
+        "wort": "bezeichnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نامیدن",
+          "en": "to designate"
+        },
+        "id_ref": "verb_bezeichnen"
+      },
+      {
+        "wort": "ansprechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خطاب کردن",
+          "en": "to address"
+        },
+        "id_ref": "verb_ansprechen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

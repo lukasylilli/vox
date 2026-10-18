@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_tunken",
+  "wort": "tunken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "فرو بردن، تُرد کردن (در مایع)"
+    ],
+    "en": [
+      "to dip",
+      "to dunk"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Essen"
+  ],
+  "ipa": "ˈtʊŋkn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er tunkt das Brot in die Suppe.",
+      "uebersetzung": {
+        "fa": "نان را در سوپ فرو می‌برد.",
+        "en": "He dips the bread into the soup."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als Kind habe ich meine Kekse immer in heiße Milch getunkt, bis sie weich wurden.",
+      "uebersetzung": {
+        "fa": "در کودکی همیشه بیسکویت‌هایم را در شیر داغ فرو می‌بردم تا نرم شوند.",
+        "en": "As a child I always dunked my biscuits in hot milk until they were soft."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "tauchen",
+      "uebersetzung": {
+        "fa": "فرو بردن",
+        "en": "to dip"
+      }
+    },
+    {
+      "wort": "eintauchen",
+      "uebersetzung": {
+        "fa": "غوطه‌ور کردن",
+        "en": "to immerse"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن dunkōn (فرو بردن)",
+    "en": "from Old High German dunkōn (to dip)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "tunken in + Akk",
+        "bedeutung": "etwas kurz in eine Flüssigkeit halten",
+        "beispiel": "Sie tunkt den Pinsel in die Farbe.",
+        "uebersetzung": {
+          "fa": "قلم‌مو را در رنگ فرو می‌برد.",
+          "en": "She dips the brush into the paint."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "tunken",
+      "praeteritum": "tunkte",
+      "partizip2": "getunkt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "tunke",
+        "du": "tunkst",
+        "er_sie_es": "tunkt",
+        "wir": "tunken",
+        "ihr": "tunkt",
+        "sie_Sie": "tunken"
+      },
+      "praeteritum": {
+        "ich": "tunkte",
+        "du": "tunktest",
+        "er_sie_es": "tunkte",
+        "wir": "tunkten",
+        "ihr": "tunktet",
+        "sie_Sie": "tunkten"
+      },
+      "konjunktiv1": {
+        "ich": "tunke",
+        "du": "tunkest",
+        "er_sie_es": "tunke",
+        "wir": "tunken",
+        "ihr": "tunket",
+        "sie_Sie": "tunken"
+      },
+      "konjunktiv2": {
+        "ich": "tunkte",
+        "du": "tunktest",
+        "er_sie_es": "tunkte",
+        "wir": "tunkten",
+        "ihr": "tunktet",
+        "sie_Sie": "tunkten"
+      },
+      "imperativ": {
+        "du": "Tunke!",
+        "ihr": "Tunkt!",
+        "Sie": "Tunken Sie!"
+      }
+    },
+    "partizip1": "tunkend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Brot",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نان",
+          "en": "bread"
+        },
+        "id_ref": "nomen_brot"
+      },
+      {
+        "wort": "die Soße",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سس",
+          "en": "sauce"
+        },
+        "id_ref": "nomen_sosse"
+      },
+      {
+        "wort": "tauchen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فرو بردن، غواصی کردن",
+          "en": "to dip"
+        },
+        "id_ref": "verb_tauchen"
+      },
+      {
+        "wort": "die Milch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شیر",
+          "en": "milk"
+        },
+        "id_ref": "nomen_milch"
+      },
+      {
+        "wort": "eintauchen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "غوطه‌ور کردن",
+          "en": "to immerse"
+        },
+        "id_ref": "verb_eintauchen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

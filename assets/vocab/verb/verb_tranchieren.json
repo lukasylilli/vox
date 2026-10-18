@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_tranchieren",
+  "wort": "tranchieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "برش زدن (گوشت پخته)"
+    ],
+    "en": [
+      "to carve"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Essen",
+    "Küche"
+  ],
+  "ipa": "tʁɑ̃ˈʃiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Koch tranchiert den Braten.",
+      "uebersetzung": {
+        "fa": "آشپز گوشت کبابی را برش می‌زند.",
+        "en": "The cook carves the roast."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor die Gans serviert wird, muss sie in gleichmäßige Stücke tranchiert werden.",
+      "uebersetzung": {
+        "fa": "پیش از سرو، غاز باید به تکه‌های یکسان برش داده شود.",
+        "en": "Before the goose is served, it has to be carved into even pieces."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schneiden",
+      "uebersetzung": {
+        "fa": "بریدن",
+        "en": "to cut"
+      }
+    },
+    {
+      "wort": "zerteilen",
+      "uebersetzung": {
+        "fa": "تکه کردن",
+        "en": "to cut up"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از فرانسوی trancher (بریدن)",
+    "en": "from French trancher (to cut)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "tranchieren",
+      "praeteritum": "tranchierte",
+      "partizip2": "tranchiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "tranchiere",
+        "du": "tranchierst",
+        "er_sie_es": "tranchiert",
+        "wir": "tranchieren",
+        "ihr": "tranchiert",
+        "sie_Sie": "tranchieren"
+      },
+      "praeteritum": {
+        "ich": "tranchierte",
+        "du": "tranchiertest",
+        "er_sie_es": "tranchierte",
+        "wir": "tranchierten",
+        "ihr": "tranchiertet",
+        "sie_Sie": "tranchierten"
+      },
+      "konjunktiv1": {
+        "ich": "tranchiere",
+        "du": "tranchierest",
+        "er_sie_es": "tranchiere",
+        "wir": "tranchieren",
+        "ihr": "tranchieret",
+        "sie_Sie": "tranchieren"
+      },
+      "konjunktiv2": {
+        "ich": "tranchierte",
+        "du": "tranchiertest",
+        "er_sie_es": "tranchierte",
+        "wir": "tranchierten",
+        "ihr": "tranchiertet",
+        "sie_Sie": "tranchierten"
+      },
+      "imperativ": {
+        "du": "Tranchiere!",
+        "ihr": "Tranchiert!",
+        "Sie": "Tranchieren Sie!"
+      }
+    },
+    "partizip1": "tranchierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "schneiden",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بریدن",
+          "en": "to cut"
+        },
+        "id_ref": "verb_schneiden"
+      },
+      {
+        "wort": "das Messer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چاقو",
+          "en": "knife"
+        },
+        "id_ref": "nomen_messer"
+      },
+      {
+        "wort": "das Fleisch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گوشت",
+          "en": "meat"
+        },
+        "id_ref": "nomen_fleisch"
+      },
+      {
+        "wort": "der Braten",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گوشت کبابی",
+          "en": "roast"
+        },
+        "id_ref": "nomen_braten"
+      },
+      {
+        "wort": "servieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرو کردن",
+          "en": "to serve"
+        },
+        "id_ref": "verb_servieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

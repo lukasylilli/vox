@@ -1,0 +1,207 @@
+{
+  "schema": "3.0",
+  "id": "verb_trauen",
+  "wort": "trauen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اعتماد کردن",
+      "جرئت کردن",
+      "عقد کردن"
+    ],
+    "en": [
+      "to trust",
+      "to dare",
+      "to marry (officiate)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gefühle",
+    "Beziehungen"
+  ],
+  "ipa": "ˈtʁaʊ̯ən",
+  "anmerkung": "Ohne «sich» auch: ein Paar trauen (der Standesbeamte traut das Paar).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich traue dir.",
+      "uebersetzung": {
+        "fa": "به تو اعتماد دارم.",
+        "en": "I trust you."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Sie traute sich nicht, ihren Chef um eine Gehaltserhöhung zu bitten.",
+      "uebersetzung": {
+        "fa": "جرئت نکرد از رئیسش افزایش حقوق بخواهد.",
+        "en": "She did not dare to ask her boss for a pay rise."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vertrauen",
+      "uebersetzung": {
+        "fa": "اعتماد کردن",
+        "en": "to trust"
+      }
+    },
+    {
+      "wort": "wagen",
+      "uebersetzung": {
+        "fa": "جرئت کردن",
+        "en": "to dare"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "misstrauen",
+      "uebersetzung": {
+        "fa": "بی‌اعتماد بودن",
+        "en": "to distrust"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن trūēn (امید داشتن، اعتماد کردن)",
+    "en": "from Old High German trūēn (to hope, to trust)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "trauen + Dat",
+        "bedeutung": "jemandem vertrauen",
+        "beispiel": "Ich traue meinen Augen nicht.",
+        "uebersetzung": {
+          "fa": "چشم‌هایم را باور نمی‌کنم.",
+          "en": "I cannot believe my eyes."
+        }
+      },
+      {
+        "muster": "sich trauen + zu-Infinitiv",
+        "bedeutung": "den Mut haben, etwas zu tun",
+        "beispiel": "Er traut sich nicht, ins kalte Wasser zu springen.",
+        "uebersetzung": {
+          "fa": "جرئت نمی‌کند به آب سرد بپرد.",
+          "en": "He does not dare to jump into the cold water."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "trauen",
+      "praeteritum": "traute",
+      "partizip2": "getraut"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "traue",
+        "du": "traust",
+        "er_sie_es": "traut",
+        "wir": "trauen",
+        "ihr": "traut",
+        "sie_Sie": "trauen"
+      },
+      "praeteritum": {
+        "ich": "traute",
+        "du": "trautest",
+        "er_sie_es": "traute",
+        "wir": "trauten",
+        "ihr": "trautet",
+        "sie_Sie": "trauten"
+      },
+      "konjunktiv1": {
+        "ich": "traue",
+        "du": "trauest",
+        "er_sie_es": "traue",
+        "wir": "trauen",
+        "ihr": "trauet",
+        "sie_Sie": "trauen"
+      },
+      "konjunktiv2": {
+        "ich": "traute",
+        "du": "trautest",
+        "er_sie_es": "traute",
+        "wir": "trauten",
+        "ihr": "trautet",
+        "sie_Sie": "trauten"
+      },
+      "imperativ": {
+        "du": "Traue!",
+        "ihr": "Traut!",
+        "Sie": "Trauen Sie!"
+      }
+    },
+    "partizip1": "trauend",
+    "nominalisierung": "die Trauung"
+  },
+  "wortnetz": {
+    "grundwort": "Treue",
+    "woerter": [
+      {
+        "wort": "vertrauen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اعتماد کردن",
+          "en": "to trust"
+        },
+        "id_ref": "verb_vertrauen"
+      },
+      {
+        "wort": "das Vertrauen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اعتماد",
+          "en": "trust"
+        },
+        "id_ref": "nomen_vertrauen"
+      },
+      {
+        "wort": "wagen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جرئت کردن",
+          "en": "to dare"
+        },
+        "id_ref": "verb_wagen"
+      },
+      {
+        "wort": "die Hochzeit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عروسی",
+          "en": "wedding"
+        },
+        "id_ref": "nomen_hochzeit"
+      },
+      {
+        "wort": "treu",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وفادار",
+          "en": "loyal"
+        },
+        "id_ref": "adjektiv_treu"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
